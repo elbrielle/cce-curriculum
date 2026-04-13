@@ -4,12 +4,49 @@
 
 A 36-week Career and College Explorations (CCE) course curriculum for middle school (grades 6-8) at Bowie Middle School, Irving ISD, Texas. Aligned to TEKS §127.2 Career and College Exploration (Adopted 2023). The curriculum uses Hats & Ladders as the core platform, supplemented by Xello, eDynamic Learning, and VILS technology integration.
 
+## Curriculum Structure: Overview + Daily Plans
+
+The curriculum uses a **two-tier structure** for each week:
+
+1. **Weekly Overview** (`guides/Xsw/wkN-topic.md`) — the "big picture" document. Contains: Lesson Objective, DOL, TEKS Alignment, Materials, Career Connection, Vocabulary, Bridge to Theory, IISD Instructional Strategies, Formative/Summative Assessment, Differentiation. No daily lesson flow details.
+
+2. **Daily Lesson Plans** (`guides/Xsw/wkN-topic/day1.md` through `day5.md`) — one per class period. Each follows this structure:
+   - **Lesson Overview** (objectives, time, deliverable)
+   - **Warm-Up** (5 min discussion prompt)
+   - **Activities** with facilitation notes (NOT teacher scripting — describe the flow, process, and what to watch for)
+   - **Deliverable** (concrete artifact: screenshot, worksheet, presentation)
+   - **Reflection / Exit Ticket**
+   - **Differentiation** (per-lesson supports)
+
+### Writing Style for Daily Plans
+
+- **No teacher scripting.** Do NOT use `> **Teacher:** "..."` quotes. Instead, describe what the teacher does and what students do in natural facilitation language. Example: "Introduce the activity by connecting TinkerCAD to professional CAD tools used at MacArthur HS. Walk students through account creation by projecting the sign-up screen."
+- **Concrete deliverables per lesson.** Every daily plan ends with a specific artifact: PNG screenshot, completed worksheet, research template, presentation outline.
+- **Activity specs, not vague instructions.** Instead of "design a building," specify: "Design a building with at least 4 walls, a roof, 1 door opening, and 2 window openings. Export as PNG."
+- **Facilitation tips** instead of scripts. "If students struggle with grouping, demonstrate align-then-group on the projector."
+- **Source-grounded in workbooks.** H&L activities reference the specific workbook chapter, page, and activity name. Xello activities reference the specific lesson/quiz name from the 7th-grade task list. eDynamic references the unit number.
+
+### Source Grounding Requirements
+
+All curriculum content must trace back to one of these authoritative sources:
+- **H&L Student Workbook** (282pp, 17 chapters) — cite as `(H&L Ch N, p. X)` or `(H&L Ch N: "Activity Name")`
+- **H&L Powerskills Supplement** (221pp, 12 modules) — cite as `(Powerskills, p. X: "Module Name")`
+- **Scope and Sequence** (`scope-and-sequence.md`) — the master pacing guide from the original planning spreadsheet
+- **Xello 7th-Grade Task List** — specific lesson/quiz names mapped in scope-and-sequence column 8
+- **eDynamic Learning Units** — unit numbers mapped in scope-and-sequence column 9
+- **BLS Occupational Outlook Handbook** — for salary, education, and job outlook data
+- **Irving ISD CTE Pathways** (PATHWAYS.md) — for local pathway names, schools, and certifications
+
+Do not invent H&L activities, Xello features, or platform capabilities. If unsure, mark with `[VERIFY]` and cite the source you checked.
+
 ## Repo Structure
 
 ```
-27 CCR Planning/                       ← project root (this directory)
+27 CCR Planning/                       ← project root
 ├── CLAUDE.md                          ← you are here
-├── GUIDE-FORMAT.md                    ← markdown template + formatting rules for facilitator guides
+├── README.md                          ← quick start + project summary
+├── mkdocs.yml                         ← MkDocs site configuration
+├── GUIDE-FORMAT.md                    ← markdown template + formatting rules
 ├── PATHWAYS.md                        ← Irving ISD CTE pathway reference data
 ├── PLATFORMS.md                       ← platform descriptions (H&L, Xello, eDynamic, VILS)
 │
@@ -17,73 +54,27 @@ A 36-week Career and College Explorations (CCE) course curriculum for middle sch
 │   ├── scope-and-sequence.md          ← master pacing guide (13-column table, 36 rows)
 │   ├── guides/
 │   │   ├── 1sw/                       ← 1st Six Weeks: IT / Manufacturing
-│   │   │   ├── wk0-classroom-routines.md
+│   │   │   ├── wk0-classroom-routines.md       ← weekly overview
+│   │   │   ├── wk0-classroom-routines/          ← daily plans folder
+│   │   │   │   ├── day1.md ... day5.md
 │   │   │   ├── wk1-robotics-manufacturing.md
-│   │   │   ├── wk2-programming-it.md
-│   │   │   ├── wk3-computer-science-it.md
-│   │   │   ├── wk4-tech-support-it.md
-│   │   │   └── wk5-cybersecurity-it.md
-│   │   ├── 2sw/                       ← 2nd Six Weeks: Law / Health Science
-│   │   │   ├── wk1-legal-studies.md
-│   │   │   ├── wk2-law-enforcement-emt.md
-│   │   │   ├── wk3-nursing-health-science.md
-│   │   │   ├── wk4-dental-medical-billing.md
-│   │   │   ├── wk5-powerskills-communication.md
-│   │   │   └── wk6-biomedical-health-science.md
-│   │   ├── 3sw/                       ← 3rd Six Weeks: Ag / Hospitality / Entrepreneurship
-│   │   │   ├── wk1-vet-science.md
-│   │   │   ├── wk2-plant-science.md
-│   │   │   ├── wk3-sustainable-engineering.md
-│   │   │   ├── wk4-culinary-hospitality.md
-│   │   │   ├── wk5-cosmetology.md
-│   │   │   └── wk6-entrepreneurship.md
-│   │   ├── 4sw/                       ← 4th Six Weeks: Career Planning / Aviation / Trades
-│   │   │   ├── wk1-career-planning.md
-│   │   │   ├── wk2-course-mapping.md
-│   │   │   ├── wk3-aviation.md
-│   │   │   ├── wk4-drone-engineering.md
-│   │   │   ├── wk5-automotive.md
-│   │   │   └── wk6-trades-capstone.md
-│   │   ├── 5sw/                       ← 5th Six Weeks: Architecture / Construction / Finance
-│   │   │   ├── wk1-architecture.md
-│   │   │   ├── wk2-civil-engineering.md
-│   │   │   ├── wk3-construction-trades.md
-│   │   │   ├── wk4-hvac-electrical-plumbing.md
-│   │   │   ├── wk5-personal-budget.md
-│   │   │   └── wk6-real-estate.md
-│   │   └── 6sw/                       ← 6th Six Weeks: Education / Business / Capstone
-│   │       ├── wk1-education.md
-│   │       ├── wk2-graphic-design-resume.md
-│   │       ├── wk3-business-marketing.md
-│   │       ├── wk4-sales-presentations.md
-│   │       ├── wk5-job-skills-mock-interview.md
-│   │       └── wk6-capstone.md
+│   │   │   ├── wk1-robotics-manufacturing/
+│   │   │   │   ├── day1.md ... day5.md
+│   │   │   └── ... (same pattern for all weeks)
+│   │   ├── 2sw/ ... 6sw/              ← same structure per six-weeks block
 │   ├── resources/
-│   │   ├── teks-coverage-matrix.md    ← TEKS code → weeks covered → coverage status
-│   │   ├── free-resource-directory.md ← external URLs, tools, and free resources
-│   │   ├── edynamic-unit-map.md       ← eDynamic units mapped to CCE weeks
-│   │   └── reference-pdfs/            ← official H&L workbook PDFs + text extracts
-│   │       ├── HatsandLadders.pdf     ← 282-page student workbook (116MB, too large for direct read)
-│   │       ├── HatsandLadders.txt     ← searchable text extract (13,472 lines)
-│   │       ├── Powerskills.pdf        ← 221-page powerskills supplement (21MB)
-│   │       └── Powerskills.txt        ← searchable text extract (1,456 lines)
+│   │   ├── teks-coverage-matrix.md
+│   │   ├── free-resource-directory.md
+│   │   ├── edynamic-unit-map.md
+│   │   └── reference-pdfs/            ← H&L workbook PDFs (local only) + .txt extracts (in repo)
 │   └── notes/
-│       ├── development-notes.md       ← authoring notes, flag explanations, TEKS notes
-│       └── revision-plan.md           ← H&L workbook integration plan + crosswalk
+│       ├── development-notes.md
+│       └── revision-plan.md           ← H&L chapter-to-week crosswalk
 │
-├── build/                             ← Python build scripts for md → docx/xlsx
-│   ├── build_docx.py                  ← converts guides/*.md → formatted .docx
-│   ├── build_xlsx.py                  ← rebuilds scope & sequence spreadsheet
-│   └── config.py                      ← shared styles, colors, fonts, page setup
-│
-├── output/                            ← generated files (not source of truth)
-│   ├── docx/                          ← built facilitator guide .docx files
-│   └── CCE_Comprehensive_Scope_Sequence.xlsx
-│
-├── SW1-SW6/                           ← original .docx files (reference copies)
-├── CCE_Comprehensive_Scope_Sequence.xlsx  ← original spreadsheet (reference copy)
-├── CCE_Curriculum_Development_Notes.docx  ← original dev notes (reference copy)
-└── convert_all.py                     ← one-time conversion script (docx → md)
+├── docs/                              ← MkDocs site source (symlinks or copies from cce-curriculum)
+├── build/                             ← Python build scripts (md → docx/xlsx)
+├── output/                            ← generated files (gitignored)
+└── site/                              ← built MkDocs site (gitignored)
 ```
 
 ## How to Edit the Curriculum
@@ -123,32 +114,52 @@ grep -n -i "time management" cce-curriculum/resources/reference-pdfs/Powerskills
 grep -n "VERIFY IN H&L" cce-curriculum/guides/1sw/*.md
 ```
 
-### Revision Workflow (per guide)
-1. Check `notes/revision-plan.md` for the H&L chapter + page range mapped to that week
-2. Extract that chapter's text from the `.txt` file or via `pdftotext`
-3. Resolve each `[VERIFY IN H&L]` flag with confirmed workbook content
-4. Enrich `[H&L PLATFORM]` blocks with actual activity names and steps
-5. Rebuild the .docx: `python3 build/build_docx.py path/to/guide.md`
+### VILS Style Reference (DO NOT copy content)
+
+Three Verizon Innovative Learning Schools facilitator guides are in `cce-curriculum/resources/vils-reference/`. These are **style references only** — study the lesson plan FORMAT (facilitation language, activity flow, deliverable specs, differentiation placement) but do NOT copy their content, topics, or branding. Our content comes from the H&L workbooks, scope-and-sequence, and our own TEKS-aligned activities.
+
+- `VILS_Unit_Overview_Example.docx` — Unit overview format (objectives, materials, "The Why", common misconceptions, preparation checklist)
+- `VILS_Daily_Lesson_Canva_Example.docx` — Daily lesson with Canva (warm-up, content sections, activity video, deliverable, reflection)
+- `VILS_Daily_Lesson_TinkerCAD_Example.docx` — Daily lesson with TinkerCAD/3D modeling (scale calculations, guided tutorial, customization challenge)
+
+**What to take from these:** No teacher scripting. Facilitation tips instead of dialogue. Clear deliverable per lesson. Activity videos/tutorials do the teaching. Concrete specs for student work.
+
+**What NOT to take:** Their specific content, era themes, ISTE standards, or Canvas LMS references.
+
+### Building New Weeks (Overview + Daily Plans)
+
+For each week, follow this workflow:
+
+1. **Read the scope-and-sequence row** for that week — get the H&L cluster, activities, Xello task, eDynamic unit, TEKS codes, and notes
+2. **Check `notes/revision-plan.md`** for the H&L chapter + page range mapped to that week
+3. **Extract the chapter content** from `HatsandLadders.txt` (use grep or line ranges) — identify the named activities, their steps, discussion prompts, and Hat Research template
+4. **Read the existing weekly overview** (`guides/Xsw/wkN-topic.md`) — pull the strong structural elements (TEKS, vocabulary, career connection, DOL, differentiation)
+5. **Create the overview** in `docs/Xsw/wkN-topic/overview.md` — weekly big picture with "Week at a Glance" table
+6. **Create 5 daily plans** in `docs/Xsw/wkN-topic/day1.md` through `day5.md` — each with the lesson overview table, warm-up, activities with facilitation notes, deliverable, exit ticket, differentiation
+7. **Use the 5SW Wk1 Architecture prototype** (`docs/5sw/wk1-architecture/`) as the format reference
+8. **Update `mkdocs.yml`** nav section with the new week's pages
+9. **Where the H&L workbook tells students to use the app** (Hat Finder, Climber Profile, Building Blocks, Career Plan), include those app instructions in `[H&L PLATFORM]` blocks — students use BOTH the workbook activities AND the app
 
 ## Key Conventions
 
-### Facilitator Guide Sections (in order)
-Every guide has these sections as `##` headings: Lesson Objective, Demonstration of Learning, TEKS Alignment, Materials Needed, Career Connection, Vocabulary, Bridge to Theory (Hats & Ladders), IISD Instructional Strategies, Lesson Sequence, Formative Assessment, Summative Assessment, Differentiation.
+### Weekly Overview Sections (in order)
+Every weekly overview has these sections as `##` headings: Lesson Objective, Demonstration of Learning, TEKS Alignment, Materials Needed, Career Connection, Vocabulary, Bridge to Theory (Hats & Ladders), IISD Instructional Strategies, Week at a Glance, Formative Assessment, Summative Assessment, Differentiation.
 
-### Special Markers in Guides
-These inline markers are parsed by the build script for colored formatting:
-- `> **Teacher:** "..."` — teacher scripting (blue label, italic quote)
+The "Week at a Glance" section is a brief table or list summarizing each day's focus and deliverable. It replaces the old detailed "Lesson Sequence" which now lives in the daily plan files.
+
+### Daily Plan Sections (in order)
+Each daily plan (`dayN.md`) has: Lesson Overview (table with time/objectives/deliverable/materials), Warm-Up, Activity sections with facilitation notes, Deliverable + submission instructions, Reflection/Exit Ticket, Differentiation notes.
+
+### Special Markers
+These inline markers are parsed by the build script and MkDocs for styled rendering:
 - `> [H&L PLATFORM] ...` — Hats & Ladders platform instruction (blue background)
-- `> [VERIFY IN H&L] ...` — needs verification in H&L (orange background)
 - `> [VERIFY IN eDynamic] ...` — needs verification in eDynamic (purple background)
 - `**WARM-UP:** ...` — daily warm-up prompt (yellow background)
 - `**EXIT TICKET:** ...` — daily exit ticket (green background)
 - `**DOK N:** ...` — Depth of Knowledge question (red label)
-- `**EDP:** ...` — Engineering Design Process step (purple italic)
+- `**DELIVERABLE:** ...` — student submission artifact (bold)
 
-### Heading Hierarchy in Lesson Sequence
-- `### Day N: Title` — day heading
-- `#### Activity Name (time)` — activity within a day
+**Deprecated:** `> **Teacher:** "..."` teacher scripting blocks. Do NOT use in new content. Use facilitation notes in natural prose instead.
 
 ## DOCX Formatting Specs
 

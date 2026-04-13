@@ -1,0 +1,40 @@
+site_name: CCE Curriculum — Bowie Middle School
+site_description: Career and College Explorations (TEKS §127.2) — Irving ISD
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: blue
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.tabs.link
+
+docs_dir: docs
+
+nav:
+  - Home: index.md
+  - Scope & Sequence: scope-and-sequence.md
+  - 5th Six Weeks — Architecture & Construction:
+    - Wk 1 — Architecture:
+      - Overview: 5sw/wk1-architecture/overview.md
+      - Day 1 — A&C Cluster + Safety Supervisor: 5sw/wk1-architecture/day1.md
+      - Day 2 — Career Research + Salary Comparison: 5sw/wk1-architecture/day2.md
+      - Day 3 — TinkerCAD Introduction: 5sw/wk1-architecture/day3.md
+      - Day 4 — TinkerCAD Iteration + Trash to Treasure: 5sw/wk1-architecture/day4.md
+      - Day 5 — Presentations + A&C Favorites: 5sw/wk1-architecture/day5.md
+  - Resources:
+    - TEKS Coverage Matrix: resources/teks-coverage-matrix.md
+    - Free Resource Directory: resources/free-resource-directory.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true

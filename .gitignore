@@ -1,5 +1,6 @@
 # Generated output (rebuild from markdown with build scripts)
 output/
+site/
 
 # Large reference PDFs (116MB+, too big for GitHub)
 cce-curriculum/resources/reference-pdfs/*.pdf
