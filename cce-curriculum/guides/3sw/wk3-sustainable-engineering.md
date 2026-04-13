@@ -64,7 +64,7 @@ In H&L, the Environmental Service Systems pathway introduces students to careers
 
 > **Teacher:** "Today we are looking at careers that solve environmental problems. These are some of the most important and fastest-growing careers in the world. Open H&L and explore the environmental careers."
 
-> [H&L PLATFORM] Students explore Environmental Service Systems pathway. Hats: Environmental Engineer, Sustainability Consultant, Water Treatment Specialist, Renewable Energy Technician.
+> [H&L PLATFORM] Students explore Environmental Service Systems pathway (from H&L workbook Ch 2, which covers the full Agriculture, Food & Natural Resources cluster including environmental careers). Hats: Environmental Engineer, Sustainability Consultant, Water Treatment Specialist, Renewable Energy Technician.
 
 #### NASA Climate Kids Exploration (15 min)
 
@@ -147,7 +147,7 @@ Students complete the Xello Interests Lesson, connecting their evolving interest
 
 > **Teacher:** "If sustainability and engineering interest you, the Sustainable Engineering pathway at Nimitz leads to AutoDesk CAD and Inventor certifications -- these are industry-standard tools used by engineers worldwide."
 
-> [H&L PLATFORM] Students favorite environmental and sustainability careers. Teacher highlights Nimitz HS Sustainable Engineering pathway (AutoDesk certifications).
+> [H&L PLATFORM] Students favorite environmental and sustainability careers (Ch 2 directs students to use the Hat Finder to explore and favorite careers across the Agriculture cluster, including environmental pathways). Teacher highlights Nimitz HS Sustainable Engineering pathway (AutoDesk certifications).
 
 **EXIT TICKET: Would you consider the Sustainable Engineering pathway? Why or why not? Connect your answer to your RIASEC type. (d(1)(D))**
 

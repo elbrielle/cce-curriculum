@@ -144,7 +144,7 @@ Each team presents their drone industry research to the class: industry overview
 
 > **Teacher:** "Go into H&L and favorite any engineering or technology careers that connect to what we learned this week. Think about how drone careers overlap with the traditional engineering careers you explored on Day 1. Also -- if you are in TSA Drone Challenge, think about how this week's learning connects to your competition experience."
 
-> [H&L PLATFORM] Students favorite STEM/Engineering careers in H&L and update their Building Blocks with drone-related skills and experiences.
+> [H&L PLATFORM] Students favorite STEM/Engineering careers in H&L and update their Building Blocks with drone-related skills and experiences. (Ch 8: Engineering directs students to use the Hat Finder to explore and favorite Engineering careers; Ch 16: My Next Steps provides the Building Blocks template.)
 
 **DOK 3: What conclusions can you draw about how participating in TSA Drone Challenge builds real career skills? Name at least two specific skills.**
 

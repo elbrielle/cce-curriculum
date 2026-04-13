@@ -74,7 +74,7 @@ In H&L, the Law, Public Safety, Corrections & Security cluster includes pathways
 
 > **Teacher:** "Now explore the Legal Services pathway specifically. Look at careers like Lawyer, Paralegal, Judge, Court Reporter, and Legal Secretary. Check the education requirements for each one -- you will notice a HUGE range."
 
-> [H&L PLATFORM] Students explore Legal Services pathway Hats and compare education requirements across legal careers.
+> [H&L PLATFORM] Students explore Legal Services pathway Hats and compare education requirements across legal careers (Ch 13). Ch 13's Hat Research template directs students to use the Hat Finder to explore and record career data including education, salary, and job descriptions.
 
 **DOK 2: How would you compare the education pathway for a Paralegal versus an Attorney? Which can you enter the workforce sooner?**
 
@@ -137,7 +137,7 @@ Structured debate using sentence stems. Students prepare 3-minute arguments usin
 
 > **Teacher:** "Go into H&L and favorite your top legal careers. Then check your Climber Profile -- you now have favorites from Manufacturing, IT, AND Law. Your profile is getting richer."
 
-> [H&L PLATFORM] Students favorite 2-3 legal careers and review how their RIASEC type connects to the Law cluster.
+> [H&L PLATFORM] Students favorite 2-3 legal careers and review how their RIASEC type connects to the Law cluster (Ch 13). The workbook's Hat Research template includes fields for recording career interests and connecting them to personal strengths.
 
 #### Xello: Life Experience Activity (15 min)
 

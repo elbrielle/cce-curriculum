@@ -76,7 +76,7 @@ In H&L, the Arts, A/V Technology & Communications cluster includes pathways for 
 
 #### From the Field Interviews + Salary Research (15 min)
 
-> [H&L PLATFORM] Students watch From the Field interviews for design careers and pull DFW salary data for 3+ Arts/AV careers.
+> [H&L PLATFORM] Students watch From the Field interviews for design careers and pull DFW salary data for 3+ Arts/AV careers. (The workbook's Hat Research template (Ch 4: Arts, A/V Technology & Communications) provides a structured sheet for recording salary and demand data from the app.)
 
 **DOK 2: How would you compare the daily work of a Graphic Designer versus a UX Designer? Which role focuses more on visual creativity and which focuses more on problem-solving?**
 
@@ -162,7 +162,7 @@ Students use Canva for Education or Adobe Express to create a design portfolio p
 
 #### H&L Favorites (15 min)
 
-> [H&L PLATFORM] Students favorite Arts/AV careers in H&L and update Building Blocks with design skills and digital media experiences.
+> [H&L PLATFORM] Students favorite Arts/AV careers in H&L and update Building Blocks with design skills and digital media experiences. (Ch 4: Arts, A/V Technology & Communications provides the career profiles for favoriting; Ch 16: My Next Steps provides the Building Blocks template.)
 
 **DOK 3: What conclusions can you draw about why a portfolio is MORE important than a resume for creative careers like Graphic Design? What does a portfolio prove that a resume cannot?**
 

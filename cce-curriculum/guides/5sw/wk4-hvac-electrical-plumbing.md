@@ -87,7 +87,7 @@ Students begin the Skilled Trades Comparison Matrix, filling in columns for Elec
 
 > **Teacher:** "Welding is a trade that crosses multiple industries -- construction, manufacturing, oil and gas, even aerospace. MacArthur already offers a Welding pathway with Structural Steel and Metal Welding certification. Let us add welding to our comparison."
 
-> [H&L PLATFORM] Students explore Welder and related Hats in H&L. They add welding data to their Skilled Trades Comparison Matrix.
+> [H&L PLATFORM] Students explore Welder and related Hats in H&L. They add welding data to their Skilled Trades Comparison Matrix. (Welding careers appear under Manufacturing in the app; the workbook's A&C chapter (Ch 3) covers related construction trades.)
 
 #### Jigsaw Deep-Dive Research (25 min)
 
@@ -107,7 +107,7 @@ Each team is assigned one trade (Electrician, Plumber, HVAC Tech, Welder). Teams
 
 Students complete the Labor Market Analysis worksheet. They research each of the 4 trades: current DFW job openings (Indeed or BLS), 10-year projected growth rate, median salary, salary range (entry to experienced), and factors driving demand (new construction, retiring workers, infrastructure spending). They classify each as high-skill, high-wage, and/or high-demand with evidence.
 
-> [H&L PLATFORM] Students use H&L's localized demand indicators alongside BLS projections to build their analysis.
+> [H&L PLATFORM] Students use H&L's localized demand indicators alongside BLS projections to build their analysis. (The workbook's Hat Research template (Ch 3: Architecture & Construction) provides a structured sheet for recording salary and demand data from the app.)
 
 **DOK 4: Based on your labor market analysis, if you were advising the Irving ISD school board on which new CTE pathway to invest in, which trade would you recommend and what data supports your recommendation?**
 
@@ -127,7 +127,7 @@ Teacher presents the upcoming Cardwell/Ratteree trades pathways: anticipated pro
 
 Students finalize their Skilled Trades Comparison Matrix with all 4 trades. Then they update their H&L Career Plan to include any new A&C or trades interests from this six weeks.
 
-> [H&L PLATFORM] Students update favorites and Career Plan in H&L with trades and A&C careers.
+> [H&L PLATFORM] Students update favorites and Career Plan in H&L with trades and A&C careers. (Ch 3: Architecture & Construction provides the trades career profiles; Ch 16: My Next Steps provides the Career Plan template.)
 
 **DOK 2: How would you describe the difference between choosing a trade because it pays well versus choosing it because you enjoy the work? Which factor matters more to you?**
 
@@ -145,7 +145,7 @@ Each team presents their assigned trade: daily responsibilities, apprenticeship 
 
 > **Teacher:** "We are wrapping up the Architecture and Construction cluster. Over the past 4 weeks you explored architecture, civil engineering, construction trades, and skilled trades. Next week we shift to personal finance -- budgeting on a real salary. Go into H&L and make sure all your A&C favorites are saved."
 
-> [H&L PLATFORM] Students finalize A&C favorites in H&L. They review their Career Plan and Building Blocks for connections to construction and trades.
+> [H&L PLATFORM] Students finalize A&C favorites in H&L. They review their Career Plan and Building Blocks for connections to construction and trades. (Ch 3: Architecture & Construction provides the A&C career profiles; Ch 16: My Next Steps provides the Career Plan and Building Blocks templates.)
 
 **DOK 3: What conclusions can you draw about the overall health of the Architecture and Construction career field in DFW? Would you recommend this cluster to a friend? Why or why not?**
 

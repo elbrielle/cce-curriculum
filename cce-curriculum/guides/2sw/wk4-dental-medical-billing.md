@@ -84,7 +84,7 @@ In H&L, the Health Informatics pathway shows students the technology side of hea
 
 > **Teacher:** "Dental careers have a ladder just like nursing. A Dental Assistant needs certification, a Dental Hygienist needs an associate degree, and a Dentist needs 8+ years of education. Let us explore each level."
 
-> [H&L PLATFORM] Students explore dental-related Hats in H&L: Dental Assistant, Dental Hygienist, Dentist, Orthodontist. They compare education requirements and salary for each level.
+> [H&L PLATFORM] Students explore dental-related Hats in H&L: Dental Assistant, Dental Hygienist, Dentist, Orthodontist (Ch 9). Ch 9's Hat Research template directs students to use the Hat Finder to explore and record career data including education, salary, and tools/equipment. They compare education requirements and salary for each level.
 
 #### Health Science Career Comparison (20 min)
 
@@ -141,7 +141,7 @@ Engineering Design Process: Define & Ideate -- Students analyze patient informat
 
 #### H&L Favorites Update (15 min)
 
-> [H&L PLATFORM] Students favorite dental and medical billing careers in their Climber Profile. They now have Health Science favorites spanning nursing, dental, and health informatics.
+> [H&L PLATFORM] Students favorite dental and medical billing careers in their Climber Profile (Ch 9). They now have Health Science favorites spanning nursing, dental, and health informatics. The workbook's Hat Research template includes fields for recording career interests and connecting them to personal strengths.
 
 #### Career Cluster Reflection (20 min)
 

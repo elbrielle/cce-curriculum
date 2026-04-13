@@ -73,7 +73,7 @@ In H&L, the A&C cluster contains the Design/Pre-Construction pathway with Hats l
 
 #### Architecture Career Profiles (20 min)
 
-> [H&L PLATFORM] Students explore Hats: Architect, Drafter, Interior Designer, Urban Planner, Landscape Architect.
+> [H&L PLATFORM] Students explore Hats: Architect, Drafter, Interior Designer, Urban Planner, Landscape Architect. (from H&L workbook Ch 3: Architecture & Construction)
 
 **DOK 2: How would you compare the education timeline for becoming an Architect versus a Drafter?**
 
@@ -89,7 +89,7 @@ In H&L, the A&C cluster contains the Design/Pre-Construction pathway with Hats l
 
 Students complete the Architecture Career Research worksheet comparing Architect, Drafter, Interior Designer plus one trades career.
 
-> [H&L PLATFORM] Students pull DFW salary data from H&L.
+> [H&L PLATFORM] Students pull DFW salary data from H&L. (The workbook's Hat Research template (Ch 3) provides a structured sheet for recording salary and demand data from the app.)
 
 **DOK 3: Are the extra years of architecture education 'worth it' compared to a trades career? What factors beyond salary matter?**
 
@@ -153,7 +153,7 @@ Students present TinkerCAD buildings: design decisions and career connections. 2
 
 > **Teacher:** "Favorite A&C careers in H&L. Continue eDynamic 3.1 if needed."
 
-> [H&L PLATFORM] Students favorite A&C careers in Climber Profile.
+> [H&L PLATFORM] Students favorite A&C careers in Climber Profile. (Ch 3: Architecture & Construction provides the career profiles for favoriting; Ch 16: My Next Steps provides the Career Plan template.)
 
 > [VERIFY IN eDynamic] Confirm how much of eDynamic 3.1 to complete this week vs. later.
 

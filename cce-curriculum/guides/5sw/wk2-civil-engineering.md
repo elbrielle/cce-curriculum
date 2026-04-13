@@ -155,7 +155,7 @@ Display results. Teams present design rationale, results, and improvements.
 
 > **Teacher:** "Submit your Emerging Engineering research. Favorite engineering careers in H&L."
 
-> [H&L PLATFORM] Students favorite careers and update Building Blocks.
+> [H&L PLATFORM] Students favorite careers and update Building Blocks. (Ch 8: Engineering and Ch 3: Architecture & Construction provide the career profiles for favoriting; Ch 16: My Next Steps provides the Building Blocks and Career Plan templates.)
 
 **DOK 3: Is engineering a good fit for you based on RIASEC, this week, and education requirements?**
 

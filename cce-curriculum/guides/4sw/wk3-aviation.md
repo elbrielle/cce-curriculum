@@ -76,7 +76,7 @@ In Hats & Ladders, the Transportation, Distribution & Logistics cluster includes
 
 #### Aviation Career Profiles (20 min)
 
-> [H&L PLATFORM] Students dive into aviation-specific Hats: Pilot, Air Traffic Controller, Aviation Mechanic, Flight Dispatcher, Drone Operator. They check education requirements, salary data, and rate perks/quirks/job gear.
+> [H&L PLATFORM] Students dive into aviation-specific Hats: Pilot, Air Traffic Controller, Aviation Mechanic, Flight Dispatcher, Drone Operator. They check education requirements, salary data, and rate perks/quirks/job gear. (Ch 15: Transportation directs students to use the Hat Finder to explore aviation pathways and rate career perks/quirks.)
 
 **DOK 2: How would you compare the daily responsibilities of a pilot versus an air traffic controller? Which role appeals to you more and why?**
 
@@ -155,7 +155,7 @@ Teams present their LEGO airport and ATC simulation results. Each team explains:
 
 > **Teacher:** "Go into Hats and Ladders and favorite any aviation or transportation careers that interest you. Then finish up eDynamic Unit 2.2 on setting goals. Think about how the goal-setting strategies apply to YOUR career pathway from last week."
 
-> [H&L PLATFORM] Students favorite aviation and transportation careers in H&L and complete goal-setting activities in eDynamic 2.2.
+> [H&L PLATFORM] Students favorite aviation and transportation careers in H&L and complete goal-setting activities in eDynamic 2.2. (Ch 15: Transportation provides the career profiles for favoriting; Ch 16: My Next Steps provides the Career Plan template for recording favorites.)
 
 **DOK 3: What conclusions can you draw about why goal-setting is especially important for careers like pilot or air traffic controller that require years of training and certification?**
 

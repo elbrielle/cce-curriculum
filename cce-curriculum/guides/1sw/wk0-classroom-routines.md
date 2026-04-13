@@ -121,7 +121,7 @@ Display the six RIASEC types with simple icons or examples. Give students 2 minu
 
 **DOK 3:** What conclusions can you draw about how your RIASEC personality type, work values, AND building blocks all connect to suggest certain career clusters for you?
 
-> [H&L PLATFORM] Students complete the Building Blocks activity identifying their likes, dislikes, and connections to related pathways.
+> [H&L PLATFORM] Students complete the Building Blocks activity identifying their likes, dislikes, and connections to related pathways. The H&L workbook calls this "My Building Blocks" (Ch 1, p. 10) and provides a structured worksheet for students to record activities they enjoy and connect them to career clusters.
 
 #### Explore Initial Recommendations (10 min)
 

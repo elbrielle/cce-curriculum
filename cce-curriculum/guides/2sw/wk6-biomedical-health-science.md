@@ -133,7 +133,7 @@ Students present their emerging biomedical career research in small groups (4-5 
 
 > **Teacher:** "This is our last day with Health Science. Over the past 4 weeks you explored nursing, dental, medical billing, PowerSkills, and biomedical careers. Go into H&L and finalize ALL your Health Science favorites. Make sure your Climber Profile reflects what you learned."
 
-> [H&L PLATFORM] Students finalize all Health Science favorites and review their complete Climber Profile across Manufacturing, IT, Law, and Health Science clusters.
+> [H&L PLATFORM] Students finalize all Health Science favorites and review their complete Climber Profile across Manufacturing, IT, Law, and Health Science clusters (Ch 9). The workbook's Hat Research template includes fields for recording career interests and connecting them to personal strengths.
 
 #### 2nd Six Weeks Reflection (20 min)
 

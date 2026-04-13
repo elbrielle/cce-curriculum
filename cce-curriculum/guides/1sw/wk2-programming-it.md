@@ -77,7 +77,7 @@ In Hats & Ladders, the Information Technology cluster contains pathways includin
 
 **DOK 2: How would you compare the education requirements for a Software Developer versus a Web Developer?**
 
-> [H&L PLATFORM] Students explore the Programming & Software Development pathway specifically. They examine 3-4 career profiles (Hats): Software Developer, Web Developer, App Developer, Game Developer. For each, they review education requirements, salary, and demand.
+> [H&L PLATFORM] Students explore the Programming & Software Development pathway specifically. They examine 3-4 career profiles (Hats): Software Developer, Web Developer, App Developer, Game Developer. For each, they review education requirements, salary, and demand. The workbook (Ch 12) lists Programming and Software Development as one of the five IT pathways and directs students to explore careers within each pathway using the app.
 
 **EXIT TICKET: Name the IT pathway you explored today and two careers within it. (Aligned to d(1)(B), d(1)(C))**
 
@@ -89,7 +89,7 @@ In Hats & Ladders, the Information Technology cluster contains pathways includin
 
 > **Teacher:** "Today is about the money. I want you to go into Hats and Ladders and look at the salary and job demand data for at least three IT careers. Write down the career name, the DFW salary, and whether demand is growing, steady, or declining."
 
-> [H&L PLATFORM] Students pull salary and demand data from H&L career profiles for 3+ IT careers.
+> [H&L PLATFORM] Students pull salary and demand data from H&L career profiles for 3+ IT careers. The workbook's "Hat Research" template (Ch 12) provides a structured sheet for recording salary data, education/training requirements, and tools/equipment/skills for each career researched.
 
 #### BLS Cross-Reference + Salary Comparison (20 min)
 

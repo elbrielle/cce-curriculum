@@ -68,7 +68,7 @@ In H&L, the Human Services cluster includes the Personal Care Services pathway w
 
 #### From the Field + Career Profiles (20 min)
 
-> [H&L PLATFORM] Students watch From the Field interviews and explore career profiles for personal care careers, comparing education and licensing requirements.
+> [H&L PLATFORM] Students watch From the Field interviews (these videos are embedded in the H&L app cluster pages) and explore career profiles for personal care careers, comparing education and licensing requirements (Ch 11's Hat Research template includes fields for recording education and licensing data from the app).
 
 **DOK 2: How would you compare the training requirements for a Cosmetologist versus a Nail Technician in Texas?**
 
@@ -140,7 +140,7 @@ Brief overview of apprenticeship as an alternative training model. Students comp
 
 #### H&L Favorites + Profile Update (15 min)
 
-> [H&L PLATFORM] Students favorite personal care careers and update their Climber Profile. Teacher highlights the Cardwell/Ratteree Cosmetology pathway.
+> [H&L PLATFORM] Students favorite personal care careers and update their Climber Profile (Ch 11 directs students to use the Hat Finder to explore and favorite careers across the Human Services cluster). Teacher highlights the Cardwell/Ratteree Cosmetology pathway.
 
 #### Career Cluster Check-In (20 min)
 

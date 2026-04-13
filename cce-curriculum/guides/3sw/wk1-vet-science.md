@@ -74,7 +74,7 @@ In H&L, the Agriculture, Food & Natural Resources cluster includes the Animal Sy
 
 > **Teacher:** "Now explore the Animal Systems pathway. Focus on vet careers: Veterinarian, Vet Technician, Animal Trainer, Wildlife Biologist. Compare the education requirements for each."
 
-> [H&L PLATFORM] Students explore Animal Systems Hats in H&L and begin comparing education pathways.
+> [H&L PLATFORM] Students explore Animal Systems Hats in H&L and begin comparing education pathways (from H&L workbook Ch 2, which covers the full Agriculture, Food & Natural Resources cluster including Animal Science careers). Ch 2's Hat Research template includes fields for recording education requirements and salary data from the app.
 
 **DOK 2: How would you compare the daily responsibilities of a Vet Tech versus a Veterinarian?**
 
@@ -154,7 +154,7 @@ Engineering Design Process: Evaluate & Share -- Teams present their solution wit
 
 > **Teacher:** "If vet science interests you, Nimitz High School offers the Veterinary Science pathway with the Elanco certification. That is a real credential you can earn before you graduate."
 
-> [H&L PLATFORM] Students favorite 2-3 Ag/Animal Systems careers. Teacher highlights the Nimitz HS Veterinary Science pathway.
+> [H&L PLATFORM] Students favorite 2-3 Ag/Animal Systems careers (Ch 2 directs students to use the Hat Finder to explore and favorite careers across the Agriculture cluster). Teacher highlights the Nimitz HS Veterinary Science pathway.
 
 **EXIT TICKET: Name the vet career you favorited and explain whether the Nimitz HS pathway interests you. (d(1)(C), d(2)(B))**
 

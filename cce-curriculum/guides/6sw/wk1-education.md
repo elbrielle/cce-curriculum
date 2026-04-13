@@ -76,7 +76,7 @@ In H&L, the Education & Training cluster includes pathways for Teaching/Training
 
 #### Education Career Profiles (15 min)
 
-> [H&L PLATFORM] Students explore Hats: Teacher (various levels), School Counselor, Principal, Instructional Designer, Early Childhood Educator, Librarian. They check education requirements, salary data, and demand levels.
+> [H&L PLATFORM] Students explore Hats: Teacher (various levels), School Counselor, Principal, Instructional Designer, Early Childhood Educator, Librarian. They check education requirements, salary data, and demand levels. (from H&L workbook Ch 6: Education & Training)
 
 **DOK 2: How would you compare the education requirements for becoming a high school teacher versus becoming a school principal? What additional steps are needed for leadership roles?**
 
@@ -151,7 +151,7 @@ Teacher presents the specific Irving ISD education pathways: courses, certificat
 
 #### H&L Favorites + Reflection (25 min)
 
-> [H&L PLATFORM] Students favorite Education & Training careers in H&L. They update Building Blocks with tutoring, mentoring, and volunteer experiences. They review how their RIASEC type (especially Social type) connects to education careers.
+> [H&L PLATFORM] Students favorite Education & Training careers in H&L. They update Building Blocks with tutoring, mentoring, and volunteer experiences. They review how their RIASEC type (especially Social type) connects to education careers. (Ch 6: Education & Training provides the career profiles for favoriting; Ch 16: My Next Steps provides the Building Blocks and Career Plan templates.)
 
 **DOK 2: How would you describe the connection between the Social RIASEC type and Education careers? Can people with OTHER RIASEC types also succeed in education?**
 

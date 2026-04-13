@@ -148,7 +148,7 @@ Teams demo their micro:bit help desk tool and explain: the IT problem they solve
 
 > **Teacher:** "Update your favorites in Hats and Ladders. You should now have favorites from Manufacturing AND IT. Look at your Climber Profile -- is it starting to paint a picture of who you are as a future professional?"
 
-> [H&L PLATFORM] Students update their Climber Profile with IT support career favorites and review their Building Blocks connections to IT.
+> [H&L PLATFORM] Students update their Climber Profile with IT support career favorites and review their Building Blocks connections to IT. The workbook's "Hat Research" template (Ch 12) can be used here as well -- have students complete the research sheet for at least one IT support career before updating favorites in the app.
 
 **EXIT TICKET: Explain one thing that surprised you about IT support careers this week, and whether the Singley Academy Technology Support Services pathway interests you. (d(2)(A), d(2)(B))**
 

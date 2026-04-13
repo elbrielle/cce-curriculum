@@ -71,7 +71,7 @@ In H&L, the Law Enforcement Services and Emergency & Fire Management pathways sh
 
 #### From the Field Interviews (15 min)
 
-> [H&L PLATFORM] Students watch From the Field interview videos for first responder careers.
+> [H&L PLATFORM] Students watch From the Field interview videos for first responder careers (Ch 13). These videos are embedded in the H&L app cluster pages and feature professionals from Law Enforcement, Fire Science, and Emergency Services pathways.
 
 **DOK 2: How would you compare the daily routine of a Police Officer versus an EMT?**
 
@@ -141,7 +141,7 @@ Engineering Design Process: Define the Problem, Research, Ideate -- Teams analyz
 
 > **Teacher:** "We have spent two weeks in the Law cluster -- legal careers last week, first responders this week. Go into H&L and finalize your favorites for this cluster. You should now have favorites from three clusters: Manufacturing, IT, and Law."
 
-> [H&L PLATFORM] Students favorite 2-3 first responder careers and complete any remaining Law cluster activities.
+> [H&L PLATFORM] Students favorite 2-3 first responder careers and complete any remaining Law cluster activities (Ch 13). The workbook's Hat Research template directs students to record career data including salary, education, and tools/equipment for their selected Hats.
 
 #### Roadtrip Nation Video + Discussion (15 min)
 

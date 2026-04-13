@@ -86,7 +86,7 @@ In H&L, the Hospitality & Tourism cluster includes Restaurant & Food/Beverage Se
 
 Students use H&L and BLS to compare salaries of 3+ hospitality careers: Line Cook, Head Chef, Restaurant Manager, Event Planner, Hotel Manager. They complete a salary comparison worksheet.
 
-> [H&L PLATFORM] Students pull DFW-specific salary data from H&L career profiles.
+> [H&L PLATFORM] Students pull DFW-specific salary data from H&L career profiles (Ch 10's Hat Research template includes fields for recording salary data from the app).
 
 #### Food Cost Math (15 min)
 
@@ -148,7 +148,7 @@ Students complete eDynamic Unit 6.1 covering Arts/AV and Hospitality clusters.
 
 #### H&L Favorites (5 min)
 
-> [H&L PLATFORM] Students favorite hospitality careers in their Climber Profile.
+> [H&L PLATFORM] Students favorite hospitality careers in their Climber Profile (Ch 10 directs students to use the Hat Finder to explore and favorite careers across the Hospitality & Tourism cluster).
 
 **EXIT TICKET: Name the hospitality career you would want as a FIRST job after high school and one you would want as your DREAM career. (d(1)(C), d(3)(I))**
 

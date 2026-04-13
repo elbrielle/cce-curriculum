@@ -125,7 +125,7 @@ Students research why the DFW real estate market is booming: population growth, 
 
 Students analyze DFW real estate labor market trends: job growth projections, average number of real estate transactions per year, median home price trends, and factors affecting the market (interest rates, population growth, inventory). They connect this data to career opportunity.
 
-> [H&L PLATFORM] Students use H&L localized data for real estate career demand in the DFW area.
+> [H&L PLATFORM] Students use H&L localized data for real estate career demand in the DFW area. (The workbook's Hat Research template (Ch 5: Business, Marketing & Finance) provides a structured sheet for recording salary and demand data from the app.)
 
 **DOK 3: What conclusions can you draw about how factors like interest rates and population growth affect the number of real estate jobs available in DFW?**
 
@@ -133,7 +133,7 @@ Students analyze DFW real estate labor market trends: job growth projections, av
 
 > **Teacher:** "Update your H&L Career Plan with everything you learned in the 5th Six Weeks: architecture, engineering, construction, trades, personal finance, and real estate. Make sure your favorites are current and your course plan still reflects your interests."
 
-> [H&L PLATFORM] Students update their Career Plan and favorites in H&L with all 5th Six Weeks exploration data.
+> [H&L PLATFORM] Students update their Career Plan and favorites in H&L with all 5th Six Weeks exploration data. (Ch 5: Business, Marketing & Finance provides the real estate career profiles; Ch 16: My Next Steps provides the Career Plan template.)
 
 **EXIT TICKET: Name one labor market trend affecting DFW real estate and explain how it creates career opportunity. (d(5)(A))**
 

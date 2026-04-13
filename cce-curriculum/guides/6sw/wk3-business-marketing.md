@@ -141,7 +141,7 @@ Students present their Mini Marketing Plans to the class: product/service, targe
 
 #### H&L Favorites + Reflection (15 min)
 
-> [H&L PLATFORM] Students favorite Marketing careers in H&L and update Building Blocks with marketing skills (social media, design, communication, data analysis).
+> [H&L PLATFORM] Students favorite Marketing careers in H&L and update Building Blocks with marketing skills (social media, design, communication, data analysis). (Ch 5: Business, Marketing & Finance provides the Marketing and Sales career profiles for favoriting; Ch 16: My Next Steps provides the Building Blocks template.)
 
 **DOK 3: What conclusions can you draw about why marketing requires BOTH creative skills (design, writing) AND analytical skills (data, research)? Which side appeals more to you?**
 

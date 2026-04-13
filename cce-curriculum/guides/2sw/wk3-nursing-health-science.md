@@ -77,7 +77,7 @@ In H&L, the Health Science cluster contains Therapeutic Services, Health Informa
 
 > **Teacher:** "Today we are focusing on one specific part of Health Science: Nursing. But here is what makes nursing special -- it is not just ONE career. It is a LADDER. You can start at the bottom with a CNA certification and climb all the way to a Nurse Practitioner with a doctoral degree. Each step up means more education, more responsibility, and more money."
 
-> [H&L PLATFORM] Students explore nursing-related Hats in H&L: CNA, LVN, RN, NP. They begin the Nursing Career Ladder worksheet by filling in the CNA level.
+> [H&L PLATFORM] Students explore nursing-related Hats in H&L: CNA, LVN, RN, NP (Ch 9). Ch 9's Hat Research template directs students to use the Hat Finder to explore Health Science careers and record education, salary, and job description data. They begin the Nursing Career Ladder worksheet by filling in the CNA level.
 
 **DOK 2: How would you describe the difference between a CNA and an RN in terms of what they do each day?**
 
@@ -93,7 +93,7 @@ In H&L, the Health Science cluster contains Therapeutic Services, Health Informa
 
 Students complete the Nursing Career Ladder worksheet using H&L salary data and BLS Occupational Outlook Handbook. They track education time, cost estimates, and salary at each level.
 
-> [H&L PLATFORM] Students pull localized DFW salary and demand data from H&L for each nursing level.
+> [H&L PLATFORM] Students pull localized DFW salary and demand data from H&L for each nursing level (Ch 9). Ch 9's Hat Research template includes salary recording fields where students document average salary and compare across career levels.
 
 #### Salary Comparison Analysis (15 min)
 
@@ -155,7 +155,7 @@ Students complete the eDynamic Learning unit on Health Science career experiment
 
 > **Teacher:** "Favorite your top 2-3 Health Science careers in H&L. Next week we continue with Dental and Medical Billing -- different corners of the same Health Science cluster. Your career ladder understanding will help you compare."
 
-> [H&L PLATFORM] Students favorite nursing careers and check their Building Blocks connections to Health Science.
+> [H&L PLATFORM] Students favorite nursing careers and check their Building Blocks connections to Health Science (Ch 9). The workbook's Hat Research template includes fields for recording career interests and connecting them to personal strengths.
 
 **EXIT TICKET: Name the nursing career you favorited in H&L and explain whether your RIASEC type is a good fit for healthcare. (d(1)(C))**
 

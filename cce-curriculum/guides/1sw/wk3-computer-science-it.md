@@ -137,7 +137,7 @@ Engineering Design Process: Define, Ideate, Prototype -- Teams design a Sphero p
 
 > **Teacher:** "We have explored Programming, Network Systems, and touched on emerging tech. Go into H&L and complete the pathway fit assessment if you haven't already. Then make sure you have favorited at least 2-3 IT careers that interest you."
 
-> [H&L PLATFORM] Students complete pathway fit assessment and favorite careers in their Climber Profile.
+> [H&L PLATFORM] Students complete pathway fit assessment and favorite careers in their Climber Profile. The workbook's "Hat Research" template (Ch 12) provides a structured research sheet for recording career details. Have students complete this worksheet for their top IT career pick before favoriting in the app.
 
 #### Emerging Tech Mini-Presentations (20 min)
 

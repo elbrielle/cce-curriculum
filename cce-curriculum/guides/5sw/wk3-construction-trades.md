@@ -107,7 +107,7 @@ Research: IBEW, UA, Carpenters Union, NCCER, AGC. Note benefits and how to join.
 
 Students complete Classification worksheet for 5 careers with evidence.
 
-> [H&L PLATFORM] Students pull data from H&L.
+> [H&L PLATFORM] Students pull data from H&L. (The workbook's Hat Research template (Ch 3: Architecture & Construction) provides a structured sheet for recording salary and demand data from the app.)
 
 **DOK 4: Which construction career would you recommend for someone wanting job security with minimal college debt? Use data.**
 
@@ -141,7 +141,7 @@ Teams present: career overview, education, salary, demand, unions. 3 min each.
 
 #### H&L Favorites (15 min)
 
-> [H&L PLATFORM] Students favorite construction careers and update Career Plan.
+> [H&L PLATFORM] Students favorite construction careers and update Career Plan. (Ch 3: Architecture & Construction provides the career profiles for favoriting; Ch 16: My Next Steps provides the Career Plan template.)
 
 **DOK 3: How does the labor shortage create opportunity?**
 

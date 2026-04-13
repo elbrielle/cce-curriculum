@@ -97,7 +97,7 @@ Students research one emerging ag career (precision ag technician, urban farmer,
 
 > **Teacher:** "Today we bridge from plants to the environment. Environmental careers focus on PROTECTING natural resources -- clean water, clean air, healthy forests. These careers are growing fast because every city, company, and government needs people who understand environmental science. Open H&L and explore the Environmental Service Systems pathway."
 
-> [H&L PLATFORM] Students explore Environmental Service Systems pathway Hats: Environmental Engineer, Sustainability Consultant, Water Treatment Specialist.
+> [H&L PLATFORM] Students explore Environmental Service Systems pathway (from H&L workbook Ch 2, which covers the full Agriculture, Food & Natural Resources cluster including environmental careers). Hats: Environmental Engineer, Sustainability Consultant, Water Treatment Specialist.
 
 #### Xello Interests Lesson (15 min)
 
@@ -125,7 +125,7 @@ Students present their emerging ag career research in small groups. Each student
 
 #### Pathway Fit Assessment (10 min)
 
-> [H&L PLATFORM] Students complete the Ag pathway fit assessment in H&L.
+> [H&L PLATFORM] Students complete the Ag pathway fit assessment in H&L (Ch 2 includes a pathway fit reflection where students evaluate their interest in Agriculture careers and connect them to their RIASEC type).
 
 **DOK 4: If you were designing an Agriculture pathway for Irving ISD middle schools, what emerging careers would you include and what technology would students need to learn?**
 
@@ -139,7 +139,7 @@ Students present their emerging ag career research in small groups. Each student
 
 > **Teacher:** "You have now explored Manufacturing, IT, Law, Health Science, and the first half of Ag. Your Climber Profile is getting rich with data. Next week we continue with Sustainable Engineering and then Culinary Arts."
 
-> [H&L PLATFORM] Students favorite Plant Science and Environmental careers. They review their Climber Profile with Ag additions.
+> [H&L PLATFORM] Students favorite Plant Science and Environmental careers (Ch 2 directs students to use the Hat Finder to explore and favorite careers across the Agriculture cluster). They review their Climber Profile with Ag additions.
 
 #### Nimitz Pathway Connections (15 min)
 

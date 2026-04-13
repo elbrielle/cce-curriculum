@@ -147,7 +147,7 @@ Students pair with someone who chose a DIFFERENT career for their budget. They c
 
 > **Teacher:** "We are closing out the Architecture and Construction cluster and financial literacy. Over the past 5 weeks you explored architecture, engineering, construction, skilled trades, and now you know what real life costs. Next week we look at one more career area: real estate."
 
-> [H&L PLATFORM] Students finalize all A&C favorites in H&L and ensure their Career Plan reflects this six weeks' exploration.
+> [H&L PLATFORM] Students finalize all A&C favorites in H&L and ensure their Career Plan reflects this six weeks' exploration. (Ch 16: My Next Steps provides the Career Plan template for recording favorites and updating career goals.)
 
 #### Salary Comparison Across the Year (15 min)
 

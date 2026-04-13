@@ -108,7 +108,7 @@ Students complete the printed Apprenticeship vs. College comparison chart. They 
 
 Students complete the Automotive Career Salary Comparison worksheet. They compare: Auto Technician, Diesel Technician, Collision Repair Technician, and Automotive Service Manager on salary (DFW), education time, education cost, and job demand. Then they add one career from a different cluster for cross-cluster comparison.
 
-> [H&L PLATFORM] Students pull DFW-specific salary and demand data from H&L career profiles.
+> [H&L PLATFORM] Students pull DFW-specific salary and demand data from H&L career profiles. (The workbook's Hat Research template (Ch 15: Transportation) provides a structured sheet for recording salary and demand data from the app.)
 
 **DOK 4: Based on your salary comparison data, if you were advising a student who cared most about earning potential with the shortest education time, which automotive career would you recommend and why? Use specific numbers from your research.**
 
@@ -138,7 +138,7 @@ Students research additional post-high school automotive training options: UTI (
 
 #### H&L Favorites Update (15 min)
 
-> [H&L PLATFORM] Students favorite automotive and transportation careers in their Climber Profile. They review how these connect to their RIASEC type and career plan from Weeks 1-2.
+> [H&L PLATFORM] Students favorite automotive and transportation careers in their Climber Profile. They review how these connect to their RIASEC type and career plan from Weeks 1-2. (Ch 15: Transportation provides the automotive career profiles; Ch 16: My Next Steps provides the Career Plan template for connecting favorites to RIASEC results.)
 
 #### Cross-Cluster Salary Presentation (25 min)
 
