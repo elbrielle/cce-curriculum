@@ -63,101 +63,125 @@ In H&L, the A&C cluster contains the Design/Pre-Construction pathway with Hats l
 
 ### Day 1: Welcome to Architecture & Construction
 
-**WARM-UP: Look around this room. Someone DESIGNED this building. Who made those decisions?**
+**WARM-UP: Look around this room. Someone DESIGNED this building -- the shape, the windows, the hallways. Who made those decisions, and what did they need to know?**
 
 #### H&L A&C Cluster Tour (20 min)
 
-> **Teacher:** "We are starting a brand new cluster: Architecture and Construction. Open H&L and navigate to this cluster."
+> **Teacher:** "We are starting a brand new cluster: Architecture and Construction. This cluster is about the people who design, plan, and build everything around us -- from houses to hospitals to highways. Open H&L, click on the Architecture and Construction cluster, and watch the cluster tour video. While you watch, use Stop and Jot: pause twice to write down one career that surprised you and one question you have."
 
-> [H&L PLATFORM] Students explore the Architecture and Construction cluster in H&L. The workbook (Ch 3) lists six pathways: Carpentry, Architecture Drafting and Design, Construction Management and Inspection, Electrical, and others. Key workbook activities: "Safety Supervisor" (workplace safety), "Power Pitch" (elevator pitch), "Trash to Treasure" (repurposing materials), and "Unexpected Architecture" (novelty building design for the city of Brighton Ridge). Students explore pathways in the app for 15 minutes.
+> [H&L PLATFORM] Students explore the Architecture and Construction cluster in H&L. The workbook (Ch 3) lists six pathways: Carpentry, Architecture Drafting and Design, Construction Management and Inspection, Electrical, and others. Students watch the cluster tour video and review the Myth Busters (common misconceptions about A&C careers). After the video, students use the Hat Finder to explore 2-3 Hats: Architect, Drafter, Interior Designer, Urban Planner, Landscape Architect. For each Hat, they check education requirements, salary, and demand.
 
-#### Architecture Career Profiles (20 min)
+#### H&L "Safety Supervisor" Activity (20 min)
 
-> [H&L PLATFORM] Students explore Hats: Architect, Drafter, Interior Designer, Urban Planner, Landscape Architect. (from H&L workbook Ch 3: Architecture & Construction)
+> **Teacher:** "Before architects design a building, safety comes first. Every construction project has a safety supervisor who makes sure workers come home safe. Open your H&L workbook to the Safety Supervisor activity in Chapter 3. Here is the scenario: you are a construction safety supervisor building an UNDERWATER research lab. Your job is to design a safety plan for workers deep beneath the ocean's surface."
 
-**DOK 2: How would you compare the education timeline for becoming an Architect versus a Drafter?**
+> [H&L PLATFORM] Students complete the "Safety Supervisor" activity (Ch 3, workbook p. 40). Students imagine they are a construction safety supervisor for an underwater research lab. They research underwater construction hazards (equipment failure, lack of oxygen, water pressure, poor visibility, exhaustion, difficult communication), then create a safety plan that includes: (1) Top 5 safety rules every worker must follow, (2) Essential safety equipment list, and (3) A safety map showing emergency exits, oxygen stations, and safe zones. After completing, pairs discuss: How does your plan protect workers? How would you enforce it?
 
-**EXIT TICKET: Name two A&C careers and describe the education required for each. (d(1)(B), d(2)(A))**
+**DOK 2: How would you compare the safety challenges of building an underwater lab to building a regular skyscraper? What skills does a safety supervisor need for each?**
 
-### Day 2: Architecture Salary Comparison + eDynamic 3.1
+**EXIT TICKET: Name two A&C careers, describe the education required for each, and list one safety consideration from the Safety Supervisor activity. (d(1)(B), d(2)(A))**
 
-**WARM-UP: Guess: How many years of school to become a licensed architect?**
+### Day 2: Career Research + Salary Comparison
 
-#### Salary and Education Comparison (20 min)
+**WARM-UP: Guess: How many years of school does it take to become a licensed architect? Write your prediction.**
 
-> **Teacher:** "Architecture education is VERY different from automotive. Compare at least 3 architecture careers on salary, education time, and cost. Add one trades career from last six weeks for contrast."
+#### Hat Research: Architecture Careers (20 min)
 
-Students complete the Architecture Career Research worksheet comparing Architect, Drafter, Interior Designer plus one trades career.
+> **Teacher:** "Yesterday you explored A&C careers. Today you are going deeper. Open your H&L workbook to the Hat Research template in Chapter 3. Pick one A&C career that interests you and fill in EVERY field: Name of Career, What Interests You, Brief Job Description, Education and Training Needed, Average Salary, and Tools/Equipment/Skills Needed. Use the Hat Finder in the app to pull the DFW salary and education data."
 
-> [H&L PLATFORM] Students pull DFW salary data from H&L. (The workbook's Hat Research template (Ch 3) provides a structured sheet for recording salary and demand data from the app.)
+> [H&L PLATFORM] Students complete the Hat Research template (Ch 3). The workbook directs: "Go to the Hats & Ladders app and click on the Hat Finder. Explore Hats in the Architecture & Construction career cluster. Choose one Hat and fill out the information." Students use localized DFW salary and demand data from the app to complete the template. After completing one Hat, students compare at least 2 more A&C careers using the salary comparison worksheet.
 
-**DOK 3: Are the extra years of architecture education 'worth it' compared to a trades career? What factors beyond salary matter?**
+#### Salary and Education Comparison (15 min)
 
-#### eDynamic 3.1: Planners, Builders, Fabricators (15 min)
+> **Teacher:** "Now compare at least 3 architecture careers on salary, education time, and cost. Then add one trades career from last six weeks -- electrician, plumber, or HVAC tech -- for contrast. Use this format: Career name, years of education, education cost estimate, starting salary, mid-career salary."
 
-> **Teacher:** "eDynamic Unit 3.1 covers A&C, Manufacturing, and Transportation. Focus on the A&C content since you already explored the other two."
+Students complete the Architecture Career Research worksheet comparing Architect, Drafter, Interior Designer plus one trades career. Teacher models one row on the projector first.
 
-Students begin eDynamic Unit 3.1, focusing on Architecture & Construction sections.
+**DOK 3: Are the extra years of architecture education 'worth it' compared to a trades career? What factors beyond salary -- like job satisfaction, creative freedom, and physical demands -- should affect the decision?**
 
-> [VERIFY IN eDynamic] Confirm what specific A&C content is in eDynamic 3.1 and whether students can skip previously explored clusters.
+#### Xello: Education Experiences (10 min)
 
-**EXIT TICKET: Compare salaries of 3 architecture careers. Best salary-to-education ratio? (d(5)(E))**
+> **Teacher:** "Switch to Xello. Open the Education Experiences activity. This has you think about school subjects and experiences that connect to careers. Since we are exploring architecture -- think about how math, art, and technology classes connect to design careers."
 
-### Day 3: TinkerCAD Introduction: Designing a Building
+Students complete the Xello Education Experiences activity, connecting their school subjects to A&C career possibilities.
 
-**WARM-UP: If you could design any building, what would it be?**
+**EXIT TICKET: Compare salaries of 3 architecture careers. Which has the best salary-to-education ratio, and why might someone still choose a different one? (d(5)(E))**
 
-#### TinkerCAD Teacher Modeling (15 min)
+### Day 3: TinkerCAD Introduction: Learning 3D Design
 
-> **Teacher:** "Real architects use AutoDesk Revit. At MacArthur, you can earn Revit certification. Today we use TinkerCAD, a free 3D tool that teaches the same fundamentals."
+**WARM-UP: Architects use software called Revit and AutoCAD to design buildings in 3D. Today you learn the basics of 3D design. Have you ever used any 3D software before?**
 
-Teacher models TinkerCAD: login, workspace, shapes, resizing, grouping, ruler tool.
+#### TinkerCAD Account Setup + Workspace Orientation (10 min)
 
-#### Design Challenge: My Dream Building (25 min)
+> **Teacher:** "Real architects use AutoDesk Revit -- and at MacArthur HS, you can earn Revit certification. Today we are using TinkerCAD, which is free and teaches the same fundamentals. Step 1: Go to tinkercad.com. Step 2: Click 'Join Now' and sign in with your school Google account. Step 3: Once you are in, click 'Create new design.' You should see a blue grid -- that is your workplane. It is like the ground where your building will sit."
 
-> **Teacher:** "Design a building with at least 4 walls, a roof, a door, and 2 windows. Think like an architect."
+Teacher projects TinkerCAD on screen. Walk students through account creation and the workspace: the blue workplane (ground), the shape panel on the right, the camera controls (scroll to zoom, right-click drag to rotate view), and the ruler tool at the bottom.
 
-Students begin 3D building designs.
+#### TinkerCAD Skill Builder: Shapes and Grouping (15 min)
 
-**DOK 2: How do the shapes in TinkerCAD connect to real building materials?**
+> **Teacher:** "Before you design a building, you need to learn four skills. Follow along with me on the projector. Skill 1: DRAG a box shape from the panel onto the workplane. Skill 2: RESIZE it by clicking and dragging the white corner handles -- make it tall and thin like a wall. Skill 3: Drag a second shape and ALIGN them using the Align tool at the top. Skill 4: SELECT both shapes, then click GROUP -- this locks them together as one piece. These four skills -- drag, resize, align, group -- are the foundation for everything you will build."
 
-Engineering Design Process: Define and Ideate -- Students sketch on paper first, then move to TinkerCAD.
+Teacher demonstrates each skill step by step on the projector. Students follow along on their Chromebooks. Teacher pauses after each skill and checks: "Hold up a thumb if you see two shapes grouped together on your screen."
+
+> **Teacher:** "One more skill: the HOLE. Drag a box shape onto your wall. Now click on the shape and look at the top right -- change it from 'Solid' to 'Hole.' This makes it transparent. Now select BOTH the wall and the hole, then click GROUP. The hole cuts through the wall -- that is how you make doors and windows. Every architect cuts openings the same way."
+
+Teacher demonstrates the Hole tool. Students practice cutting a rectangular hole in a wall shape to create a window.
+
+#### Design Challenge: My Dream Building (15 min)
+
+> **Teacher:** "Now you know how to drag, resize, align, group, and cut holes. Your challenge: Design a simple building with at least 4 walls, a flat or angled roof, 1 door opening, and 2 window openings. Sketch it on paper first -- draw a top-down view and a front view. Label the dimensions. THEN build it in TinkerCAD."
+
+Students sketch their building on paper (2-3 minutes), then begin building in TinkerCAD. Teacher circulates and checks that students are using the skills taught (resize for walls, holes for openings, group to combine).
+
+**DOK 2: How are the shapes in TinkerCAD similar to the materials a real architect specifies in a blueprint? What does a box represent? A cylinder?**
+
+Engineering Design Process: Define and Ideate -- Students sketch on paper first, then begin translating their sketch into TinkerCAD.
 
 
-**EXIT TICKET: Describe one design decision you made and why. (d(1)(C))**
+**EXIT TICKET: Name the four TinkerCAD skills you learned today, and describe one design decision you made for your building. (d(1)(C))**
 
-### Day 4: TinkerCAD: Iterate and Refine
+### Day 4: TinkerCAD Iteration + "Trash to Treasure" Activity
 
-**WARM-UP: What do you want to improve about your building today?**
+**WARM-UP: What is one thing you want to improve about your building today? Write a specific change and why.**
 
-#### Design Iteration (35 min)
+#### Design Iteration with Checkpoints (20 min)
 
-Students iterate. Teacher circulates asking career-connection questions.
+> **Teacher:** "You have 20 minutes to refine your building. Here are three checkpoints I will check as I walk around. Checkpoint 1 by minute 5: Your building has 4 walls and a roof, all grouped. Checkpoint 2 by minute 10: You have at least 1 door hole and 2 window holes cut into your walls. Checkpoint 3 by minute 15: You have added one detail -- interior wall, color, landscaping element, or a second floor. I will come to your screen and check each one."
 
-**DOK 4: If a client wanted an energy-efficient redesign, what changes would you make? How does this connect to green building careers?**
+Students iterate on their TinkerCAD designs. Teacher circulates with a clipboard checklist tracking the three checkpoints. Students who finish early add interior rooms, color, or landscaping elements.
 
-Engineering Design Process: Prototype and Test -- Students refine buildings: interior rooms, color, landscaping.
+Engineering Design Process: Prototype and Test -- Students refine buildings with structured checkpoints rather than open-ended work time.
 
 
-**EXIT TICKET: One way your TinkerCAD process is similar to a real architect and one way it differs. (d(1)(C), d(2)(A))**
+#### H&L "Trash to Treasure" Activity (20 min)
+
+> **Teacher:** "Architects do not just design new buildings. Some of the most creative architecture projects involve TRANSFORMING spaces that nobody wants into places everybody loves. Open your H&L workbook to the Trash to Treasure activity in Chapter 3. Here is the scenario: the city has an old landfill and they are hiring YOU as the architect to turn it into a public space."
+
+> [H&L PLATFORM] Students complete the "Trash to Treasure" activity (Ch 3, workbook p. 44). Students imagine they are architects reclaiming a landfill for the city. They choose what to build (park with trails, outdoor art museum, amphitheater, community garden, or recreation area), then create a design sketch or digital plan addressing: (1) Who will use the space, (2) What features it includes, (3) How it is sustainable, and (4) A name and tagline. Pairs share designs and give feedback on aesthetics, functionality, and sustainability.
+
+**DOK 4: If a city council asked you to justify the cost of transforming a landfill into a public park, what evidence from your research would you use? How does this connect to urban planning careers?**
+
+**EXIT TICKET: Describe one design choice from your Trash to Treasure plan and explain how it balances aesthetics, functionality, and sustainability. (d(1)(C), d(2)(A))**
 
 ### Day 5: Building Presentations + A&C Favorites
 
-**WARM-UP: 1-10, how much did you enjoy 3D design? Does architecture interest you?**
+**WARM-UP: Rate 1-10: How much did you enjoy 3D design this week? Does architecture interest you as a career?**
 
 #### Design Presentations (20 min)
 
-Students present TinkerCAD buildings: design decisions and career connections. 2 min each.
+> **Teacher:** "Each of you has 2 minutes to present your TinkerCAD building. Your presentation must include three things: First, describe your building and the design decisions you made. Second, name one A&C career that would be involved in building your design in real life. Third, tell us what you learned from the Trash to Treasure activity about how architects transform spaces."
+
+Students present TinkerCAD buildings to the class. Class provides feedback using one star and one wish.
 
 #### H&L Favorites + eDynamic 3.1 (20 min)
 
-> **Teacher:** "Favorite A&C careers in H&L. Continue eDynamic 3.1 if needed."
+> **Teacher:** "Go into H&L and favorite at least 2-3 A&C careers that interest you. Then open your Career Plan and make sure it reflects what you learned this week. If you have time, continue eDynamic Unit 3.1 -- focus on the A&C content since you already explored Manufacturing and Transportation."
 
-> [H&L PLATFORM] Students favorite A&C careers in Climber Profile. (Ch 3: Architecture & Construction provides the career profiles for favoriting; Ch 16: My Next Steps provides the Career Plan template.)
+> [H&L PLATFORM] Students favorite A&C careers in Climber Profile using the Hat Finder (Ch 3). They update their Career Plan (Ch 16: My Next Steps provides the Career Plan template). Students who finish early continue eDynamic Unit 3.1: Planners, Builders, Fabricators, focusing on A&C sections.
 
 > [VERIFY IN eDynamic] Confirm how much of eDynamic 3.1 to complete this week vs. later.
 
-**EXIT TICKET: Most interesting A&C career and which IISD high school offers it. (d(1)(C))**
+**EXIT TICKET: Name the A&C career you find most interesting and the Irving ISD high school that offers that pathway. (d(1)(C))**
 
 ## Formative Assessment
 
