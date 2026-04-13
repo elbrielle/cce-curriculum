@@ -1,0 +1,25 @@
+# Generated output (rebuild from markdown with build scripts)
+output/
+
+# Large reference PDFs (116MB+, too big for GitHub)
+cce-curriculum/resources/reference-pdfs/*.pdf
+
+# Original reference .docx files (not source of truth)
+SW[1-6]/
+CCE_Comprehensive_Scope_Sequence.xlsx
+CCE_Curriculum_Development_Notes.docx
+convert_all.py
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Editor
+*.swp
+*~
+
+# Claude Code
+.claude/
