@@ -32,8 +32,14 @@ Each student presents their TinkerCAD building to the class. Project each studen
 
 **Class feedback:** After each presentation, the class gives **one star** (something they liked) and **one wish** (something they would improve). This builds constructive feedback skills aligned with H&L Powerskills.
 
-!!! tip "Facilitation Tip"
-    For large classes, split into groups of 6-8 students presenting simultaneously in different corners of the room. Each group selects one "best design" to present to the whole class at the end. This keeps presentations under 20 minutes even with 30+ students.
+!!! warning "Time constraint — the math: 24 students × 2 min = 48 min, but Activity 1 is 20 min"
+    Choose ONE of these approaches based on your class culture:
+
+    - **(A) Live + async hybrid:** 8 students present live (2 min each = 16 min); the other 16 submit a 60-sec written pitch via Google Form or paper ("My building is ___, the A&C career is ___, what I learned was ___").
+    - **(B) Corner rotation:** Split into 3 groups of 8 presenting simultaneously in 3 corners (~15 min total). Teacher circulates. Pick 3–4 "showcase" designs for a final 5-min whole-class share.
+    - **(C) Panel + standouts:** All 24 submit PNG + written pitch to Padlet; 4 rotating "critic panel" students give star-wish feedback; 2–3 live showcase presentations in the final 5 min.
+
+    Corner rotation (B) keeps everyone visible but fragments teacher attention. Hybrid (A) gives the fairest live speaking time. Pick the one that matches your room.
 
 **DOK 3:** Based on all the A&C careers you explored this week, what conclusions can you draw about what skills are shared across architecture, drafting, and construction management? Why might an employer value someone who understands all three?
 

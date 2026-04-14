@@ -33,8 +33,8 @@ Walk students through account creation by projecting each step on the screen:
     - **Camera controls** = scroll wheel to zoom, right-click and drag to rotate the view
     - **Top toolbar** = Align, Group, and other editing tools
 
-!!! warning "Common Issue"
-    Some school networks block TinkerCAD. Test access before class. If blocked, request an IT exception for `tinkercad.com` and `*.autodesk.com`.
+!!! tip "Tech Setup — verify BEFORE class"
+    TinkerCAD SSO can stall on first-use login if the school domain is not whitelisted. Pre-requisites: (1) IT whitelists `tinkercad.com` and `*.autodesk.com` at least 24 hrs before this lesson; (2) test login with 2 student accounts on the school Chromebook network; (3) have a paper-sketch fallback ready if SSO fails. Expected time: 10 min if pre-verified, 20–30 min if domain access fails.
 
 Verify all students have a blank workplane on screen before proceeding.
 
@@ -92,7 +92,7 @@ The design challenge specs:
 - **1 door opening** (use the Hole tool)
 - **2 window openings** (use the Hole tool)
 
-Students begin building in TinkerCAD after their sketch is approved. The goal for today is to get the walls and roof built and grouped — door/window holes can continue tomorrow.
+**Sketch checklist (self + peer review, NOT sequential teacher approval):** Before TinkerCAD work, students pair-check each other's sketches against three items — (1) floor plan shows ≥4 walls labeled with rooms or dimensions, (2) front view shows roof, 1 door, and ≥2 windows, (3) the student can name one design choice they made. Pairs check each box, then hold up sketches for a 30-second teacher spot-check. This keeps approval time to ~10 min across the class rather than the 48+ min of sequential teacher sign-offs 24 students would otherwise require. Once approved, students begin building in TinkerCAD — the goal for today is walls and roof built and grouped; door/window holes continue tomorrow.
 
 **DOK 2:** How are the shapes in TinkerCAD similar to the materials a real architect specifies? What does a box represent in a building? A cylinder?
 

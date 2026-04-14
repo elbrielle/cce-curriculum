@@ -25,7 +25,7 @@ Have 2-3 students share their improvement plans. This sets intentional goals for
 Students continue building their 3D designs in TinkerCAD. Rather than open-ended work time, use **three timed checkpoints** to keep students on track and ensure quality:
 
 ### Checkpoint 1 — by minute 7
-**Walls and roof are built and grouped.** All wall shapes and the roof should be combined into a single grouped object. Circulate and verify — if a student's shapes are not grouped, help them select all and press Group (Ctrl+G).
+**Walls and roof are built and grouped.** All wall shapes and the roof should be combined into a single grouped object. *If a student did not finish walls and roof on Day 3, use the first 5 minutes today to complete them — raise a hand for a quick teacher check before moving on to holes.* Circulate and verify — if a student's shapes are not grouped, help them select all and press Group (Ctrl+G).
 
 ### Checkpoint 2 — by minute 14
 **Door and window openings are cut.** At least 1 door hole and 2 window holes should be visible. If students are struggling with the Hole tool, project a quick refresher: drag box → change to Hole → overlap with wall → select both → Group.
@@ -68,12 +68,14 @@ Direct students to the Trash to Treasure activity in their H&L workbook. The sce
 
 Students also consider: *Who will use your space? What features will they need?*
 
-**Step 2: Sketch Your Design** (workbook provides two sketch boxes):
+**Step 2: Sketch Your Design** — choose ONE perspective in the 20-min window (students with time remaining may add the second):
 
-- **Box 1 — Map View:** Bird's-eye view of the space showing pathways, green areas, buildings, seating, and special features. Label each area.
-- **Box 2 — Feature Sketch:** Pick one key feature (entrance gate, pavilion, viewing deck) and draw it from a person's perspective.
+- **Map View (bird's-eye):** Pathways, green areas, buildings, seating, and special features with labels. *OR*
+- **Feature Sketch (person's perspective):** One key feature (entrance gate, pavilion, viewing deck) as a visitor would see it.
 
-**Step 3: Add Sustainable Design Features.** The workbook requires at least one:
+Pick the view that best shows your outdoor space idea. The workbook provides both sketch boxes; you only need to complete one today.
+
+**Step 3: Add Sustainable Design Feature.** Name and label at least one:
 
 - Green roofs or living walls
 - Recycled materials for benches, paths, or art

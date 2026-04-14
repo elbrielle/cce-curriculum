@@ -70,7 +70,7 @@ The workbook scenario: *Students are construction safety supervisors building an
 !!! note "Extension (from workbook)"
     Students who finish early create an informative poster for the construction crew highlighting their most important safety rules.
 
-**DOK 2:** How would you compare the safety challenges of building underwater versus building a 30-story skyscraper? What skills does a safety supervisor need for each?
+**DOK 2 (extension / homework):** How would you compare the safety challenges of building underwater versus building a 30-story skyscraper? What skills does a safety supervisor need for each? *(Complete after the exit ticket if time; otherwise submit as a 1-page reflection tomorrow. The core 15-min design window focuses on the underwater scenario only.)*
 
 ---
 
