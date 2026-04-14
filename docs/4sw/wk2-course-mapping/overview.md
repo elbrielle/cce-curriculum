@@ -32,6 +32,16 @@ Students translate the pathway selection from Week 1 into a concrete 4-year high
 - Printed 4-Year Course Map blank template (9th-12th grade)
 - Projector for teacher modeling
 
+!!! tip "Teacher Prep Checklist (1–2 weeks before the week starts)"
+    This is the d(8)(C) artifact week — the highest-stakes deliverable of the year. Four external systems plus one authored resource must all be ready before Monday:
+
+    - [ ] **H&L District Course Planner verified:** Log in as a student, navigate to the Course Planner, and confirm Irving ISD course catalogs are loaded for all six high schools (MacArthur, Nimitz, Irving High, Singley, Cardwell, Ratteree). If data is missing, open a ticket with your H&L district admin AND prepare extra copies of the paper 4-Year Course Map template as the Day 2 fallback.
+    - [ ] **Bilingual Family Career Plan Letter authored:** This letter does not exist in default H&L materials — it must be locally authored OR adapted from the Texas OnCourse parent-resources page. Plan 30–45 min of authoring time. Draft in English/Spanish columns with the personalization blanks called out in Day 3 Activity 2, then route to your campus translation coordinator for a Spanish review. Without this letter, Day 3 collapses.
+    - [ ] **eDynamic Unit 6.2 "Gaining Experience" access confirmed:** Open the unit on a student Chromebook to confirm it loads and is not behind a pending-assignment wall. If blocked, contact your district eDynamic admin 10 business days prior.
+    - [ ] **Texas OnCourse + College For All Texans loaded:** Both URLs (`texasoncourse.org`, `collegeforalltexans.com`) open on student Chromebooks with no whitelist blocks. Submit IT whitelist request 10 business days prior if blocked.
+
+    If any item fails, notify your instructional coach immediately — this is the week that determines whether the d(8)(C) TEKS is actually met.
+
 ## Career Connection
 
 This week is the bridge between career interest and career action. Students stop dreaming and start building. The H&L District Course Planner is uniquely valuable for Irving ISD students because it shows the actual courses available at each Irving ISD high school — not generic Texas courses. By Friday, every student leaves with a written plan that maps from 8th grade through high school graduation toward their chosen pathway, and a printed letter ready to share with family.

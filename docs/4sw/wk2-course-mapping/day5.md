@@ -20,7 +20,7 @@ Pick 1-2 student volunteers to actually deliver their 90-second pitch in front o
 
 ---
 
-## Activity 1: Gather All the Pieces (10 min)
+## Activity 1: Gather All the Pieces (7 min)
 
 Students take 10 minutes to lay out every artifact from Week 1 and Week 2 on their desk:
 
