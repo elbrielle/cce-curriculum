@@ -90,5 +90,5 @@ By the end of Day 4, every student has presented their full career talk TWICE an
 ## Differentiation
 
 - **Support:** Allow nervous presenters to do their practice run with the teacher one-on-one instead of with a peer. Provide note cards for the practice run. Pre-fill the Interview Appearance Guide with one column completed as an example.
-- **Extension:** Students record their practice presentation on a Chromebook and watch it back. They self-evaluate using the rubric and identify two specific improvements. (This is what real public speakers do.)
+- **Extension:** Students record their practice presentation on a Chromebook and watch it back. They self-evaluate using the rubric and identify two specific improvements.
 - **ELL:** Allow practice runs in Spanish or bilingual format. Pre-teach: Eye Contact = Contacto visual, Posture = Postura, Volume = Volumen, Pace = Ritmo. Pair ESL students with bilingual peers for paired practice.

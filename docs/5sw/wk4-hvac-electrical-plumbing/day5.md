@@ -35,7 +35,7 @@ Each team presents their assigned trade to the class. Presentations are **4 minu
 Classmates take notes on a simple note-taking sheet with one row per trade so every student leaves with a baseline understanding of all 4 trades, not just their own.
 
 !!! tip "Facilitation Tip"
-    Use a visible 4-minute timer on the projector and cut teams off at exactly 4 minutes. This builds real presentation discipline. Students who practice fitting research into tight windows succeed in college and job interviews.
+    Project a visible 4-min timer and announce the limit to students before Team 1 starts, so every team gets the same slot. If a team is still wrapping at 4 min, give them one sentence to close. Hard time discipline is drilled explicitly in 6SW Wk4 Sales/Presentations.
 
 ---
 

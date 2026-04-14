@@ -35,7 +35,7 @@ The class fills in a quick listening grid as each team presents — one row per 
 5 teams × 4 minutes = 20 minutes + 4 minutes of transitions.
 
 !!! tip "Facilitation Tip"
-    Hold the time strictly. Use a visible timer on the projector. Cut teams off at 4 minutes — even mid-sentence — and praise their pacing skill rather than apologizing for the cutoff. This is real presentation discipline.
+    Project a visible 4-min timer and announce the limit to students before Team 1 starts, so every team gets the same slot. This is the first timed presentation of the year for most students — if a team is still wrapping at 4 min, give them one sentence to close rather than a hard mid-sentence cut. Hard time discipline is drilled explicitly in 6SW Wk4 Sales/Presentations.
 
 ---
 

@@ -41,7 +41,7 @@ Today students pull together everything from this week into a 1-minute Mini Mark
 For larger classes, run pitches in parallel groups simultaneously. Each group selects ONE "best pitch" to present to the whole class at the end.
 
 !!! tip "Facilitation Tip"
-    Project a 60-second visible timer during pitches. Cut students off at 60 seconds — no exceptions. This builds real presentation discipline. The timer also sets the expectation that they cannot just ramble.
+    Project a 60-sec visible timer during pitches. Because pitches run in parallel small groups (not whole-class), students get a low-stakes first try at a timed delivery. Announce the 60-sec limit before pitches start. If a student is still wrapping at 60 sec, let them finish the sentence and move on.
 
 **DOK 4:** What makes a pitch convincing? Is it the product, the target audience research, or the way the person delivers it? Which matters MORE in real marketing — and why?
 

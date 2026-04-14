@@ -74,5 +74,5 @@ Today the FIRST HALF of the class delivers their 5-minute capstone presentations
 ## Differentiation
 
 - **Support:** Allow note cards visible during the presentation. Allow a printed slide as a visual aid. Allow anxious students to present to a small group of 4-5 instead of the whole class. The very most anxious can present 1-on-1 to the teacher during a free period.
-- **Extension:** Students who finish their presentation early prepare a 1-minute Q&A — they take questions from the audience about their plan. This is real-world skill: defending your decisions in front of others.
+- **Extension:** Students who finish their presentation early prepare a 1-minute Q&A — they take questions from the audience about their plan. Practices defending decisions under audience questions.
 - **ELL:** Allow Spanish or bilingual presentations. Pair ESL students with bilingual peers for audience feedback. The capstone is the highest-stakes presentation of the year — language flexibility helps ESL students show what they have learned without language being a barrier.

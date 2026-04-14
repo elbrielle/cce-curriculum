@@ -112,5 +112,5 @@ Sample format:
 ## Differentiation
 
 - **Support:** Allow nervous students to interview with the teacher one-on-one instead of with a peer. Allow them to use their notes from Day 4 during the interview. Provide a fill-in-the-blank thank-you letter template with the structure pre-built.
-- **Extension:** Students do a SECOND mock interview with a different partner (if time allows). They compare what they did differently and write a 3-sentence reflection. This is real interview improvement work.
+- **Extension:** Students do a SECOND mock interview with a different partner (if time allows). They compare what they did differently and write a 3-sentence reflection.
 - **ELL:** Allow Spanish or bilingual mock interviews. Bilingual interviews are common in DFW healthcare, retail, and customer service. Provide bilingual question cards. Pair ESL students with bilingual peers if needed.

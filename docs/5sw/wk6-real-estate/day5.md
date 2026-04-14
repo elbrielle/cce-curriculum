@@ -38,7 +38,7 @@ Students build a **2-minute pitch** using the data they collected this week. Goo
 Students practice silently or with a partner for 5 minutes, then volunteer to present to the class. Not every student needs to present — the goal is the practice. Allow written pitches for students uncomfortable with oral presentation.
 
 !!! tip "Facilitation Tip"
-    Project a visible 2-minute timer during presentations. Cut off at 2 minutes hard. This builds real presentation discipline — and mirrors what a real estate agent would do when pitching a client at a networking event.
+    Project a visible 2-min timer during presentations. The 2-min cap mirrors what a real estate agent does when pitching a client at a networking event. Presentation is opt-in this week (see Activity 1 body) — if a student is still wrapping at 2 min, let them finish the sentence.
 
 **DOK 3:** What makes a career pitch convincing? Is it more about the data (salary, demand) or more about the lifestyle (freedom, variety)? Which appeals to YOU more?
 
