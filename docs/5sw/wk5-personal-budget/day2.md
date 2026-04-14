@@ -7,7 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Calculate monthly net income from a gross annual salary; allocate income across expense categories in a realistic DFW budget; identify where the budget balances or falls short |
 | **TEKS** | d(5)(D) |
-| **Deliverable** | Completed Personal Budget Template with all expense categories filled in and balance calculated |
+| **Deliverable** | Completed Personal Budget Template with all major expense categories filled in and a calculated balance (surplus or shortage) |
 | **Materials** | Chromebooks, H&L salary data (from Day 1 career choice), printed Personal Budget Template, calculator, DFW cost reference sheet, projector |
 
 ---
@@ -84,12 +84,12 @@ Students build their own budget using the Personal Budget Template and their Day
 
 Teacher circulates with a 3-check protocol:
 
-- **Check 1 (min 8):** Has the student calculated monthly net income correctly?
-- **Check 2 (min 16):** Have they filled in the fixed expense rows?
-- **Check 3 (min 24):** Does the budget balance (or at least have a clear surplus/shortage)?
+- **Check 1 (min 5):** Has the student calculated monthly net income correctly? *(Pull this check early — Step 1 is the math step where calculator errors cascade into every row that follows. Catch them before the budget is half-built.)*
+- **Check 2 (min 15):** Have they filled in the fixed expense rows?
+- **Check 3 (min 22):** Does the budget balance (or at least have a clear surplus/shortage)?
 
 !!! tip "Facilitation Tip"
-    Students with lower-salary careers (e.g., $35K) will hit negative balances. That is the point. Guide them through the realization: "What needs to change — the career, the lifestyle, or both?" This is the core learning moment of the week.
+    Most students — across every salary level — will discover that one version of the lifestyle they imagined on Day 1 does not fit their Day 2 budget. This is normal, not a failure of the career. Frame adjustments as "what would you shift on the lifestyle side?" (smaller apartment, used car, roommate, less eating out) rather than "the career is wrong." The point is trade-off reasoning, not career rejection. Students whose family members work in the career they chose should not leave class thinking that career is a bad choice — the same career supports many real lifestyles.
 
 **DOK 3:** Based on your completed budget, what specific assumption about your desired lifestyle (apartment size, car choice, food spending, entertainment, phone plan) would have to change for you to save 20% of your income each month instead of 10%? Would that trade-off be worth it to you, and why?
 

@@ -27,7 +27,7 @@ Students pair with a classmate who chose a **different** career on Day 1. They c
 - **Whose salary is higher?**
 - **Who has more money left over each month?**
 - **What trade-offs did each person make?** (Did they cut savings? Eat out less? Live with a roommate?)
-- **Whose budget balanced without cutting anything?**
+- **Which lifestyle choices made the biggest difference to the monthly balance — regardless of salary?**
 
 This is where students often realize that a "lower-paying" career with a modest lifestyle leaves more money at the end of the month than a "high-paying" career with an expensive lifestyle. Spending patterns matter as much as income.
 
@@ -38,6 +38,9 @@ After the pair discussion, ask for volunteers to share one surprising comparison
 ## Activity 2: 3-Career Salary Comparison Chart (15 min)
 
 **Source:** Scope and sequence d(5)(E) — compare salaries of at least 3 careers in the student's interest area
+
+!!! tip "Facilitation Tip — Pre-identify careers"
+    Give students the first 2 min of this 15-min activity to write down the 3 careers they plan to compare *before* opening H&L. Picking the names and clusters on paper first saves ~5 min of tool-switching later. Circulate and suggest picks for students who did not take detailed notes in Weeks 1–4 — encourage a spread across clusters so the chart is interesting to compare.
 
 Students complete a salary comparison chart covering THREE careers they explored this year, from DIFFERENT clusters. Example combinations:
 

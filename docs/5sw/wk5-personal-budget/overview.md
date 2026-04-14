@@ -29,6 +29,15 @@ Students complete the Hats & Ladders "Lifestyle Snapshot" budgeting activity (Ch
 - Printed Cost of Living Comparison worksheet
 - Printed Lifestyle Snapshot reflection page (H&L workbook Ch 16)
 
+!!! tip "Teacher Prep Checklist — Before Monday"
+
+    This week's summative depends on **two teacher-authored artifacts not yet in the shared resource library** (tracked in `docs/resources/resources-status.md`). Budget ~60–90 min over the weekend:
+
+    - **Personal Budget Template** — a printable with 6–10 expense categories (rent, utilities, car, insurance, food, phone, savings, discretionary, balance row). A simplified 6-category version is sufficient for Day 2; the Differentiation Support version uses 5 categories.
+    - **DFW Cost Reference Sheet** — one-page handout with DFW averages (rent 1BR ≈ $1,200, utilities ≈ $150, car payment ≈ $350, insurance ≈ $175, groceries ≈ $350, phone ≈ $75). The sample numbers in Day 2 Activity 1 are a starting point; confirm with BLS or current Zillow DFW data.
+    - **Day 4 module pre-select** — choose ONE of NGPF Spending & Saving, EverFi FutureSmart, or Practical Money Skills before Monday and test the login flow on one student Chromebook. NGPF is the recommended default. Running three modules in parallel is not feasible with 24 students on one teacher.
+    - **Platform access checks** — verify H&L SSO works for every student (Day 1 Activity 2) and that `careeronestop.org/Toolkit/Wages/compare-cost-of-living.aspx` loads on a student Chromebook without filter issues (Day 3 Activities 1–2). If CareerOneStop is blocked, escalate to district IT on Friday.
+
 ## Career Connection
 
 Financial literacy is one of the most practical skills students will ever learn. Understanding how to budget, save, and plan financially is essential regardless of career path. This week connects directly to career exploration — students choose a career they explored this year, use its REAL DFW salary from H&L, and build a budget showing whether that salary can support the lifestyle they want.
@@ -78,7 +87,7 @@ The optional Extension in the workbook is a **vision board** using a digital too
 
 ## Summative Assessment
 
-**Personal Budget + Cost of Living Comparison + Salary Analysis (Day 5):** Students submit their completed personal budget (based on a real DFW salary), cost of living comparison worksheet, and a 3-career salary analysis spanning different clusters. Scored on: budget accuracy and completeness (d(5)(D)), salary comparison across 3+ careers (d(5)(E)), and cost of living analysis quality (d(5)(A)).
+**Personal Budget + Cost of Living Comparison + Salary Analysis (Day 5):** Students submit, as a single Day 5 portfolio, their completed personal budget (Day 2), cost of living comparison worksheet (Day 3), and 3-career salary analysis chart (Day 5). Scored on: budget accuracy and completeness (d(5)(D)), salary comparison across 3+ careers (d(5)(E)), and cost of living analysis quality (d(5)(A)). Day 2 and Day 3 deliverables are formative carry-forward artifacts — students should keep them in a folder across the week so the Day 5 submission is complete.
 
 ## Differentiation
 
