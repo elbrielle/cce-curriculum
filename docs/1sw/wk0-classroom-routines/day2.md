@@ -12,6 +12,11 @@
 
 ---
 
+!!! note "Campus flexibility — Day 2 may also lose time to a campus event"
+    Bowie (for example) has a second Cub Camp presentation on Day 2. If your campus consumes 15+ min of Day 2 with a required event, the RIASEC / Discover My Core assessment (Activity 2 below) is **load-bearing** — it must land today OR slide to Day 3 via the Wk0 Flexibility Framework in the overview. See the overview for the "Lost 15 min on Day 1 AND Day 2" and "No Chromebook access for Days 1–2" resequencing playbooks.
+
+---
+
 ## Warm-Up (5 min)
 
 **WARM-UP: Look at these six words: Doer, Analyzer, Creator, Helper, Persuader, Organizer. Without looking anything up, write down the ONE you think describes you best.**

@@ -12,6 +12,11 @@
 
 ---
 
+!!! note "Campus flexibility — read the Week 0 Flexibility Framework first"
+    Week 0 is structurally different from every other week. Before running Day 1 as written, read the **Week 0 Flexibility Framework** section in the overview for resequencing playbooks covering Cub Camp / campus-required events, no-Chromebook-access-Day-1, and Wk0-slipping-into-Wk1 scenarios. The plan below is the default; adapt it to your actual period length, tech access, and campus expectations.
+
+---
+
 ## Warm-Up (5 min)
 
 **WARM-UP: Write or draw what you think you might want to be when you grow up. It is 100% okay if you have no idea — write "I don't know yet" and draw a question mark. You may also write or draw "I'm still exploring" or "I'm interested in _____, but I'm not sure yet." There is no wrong answer.**

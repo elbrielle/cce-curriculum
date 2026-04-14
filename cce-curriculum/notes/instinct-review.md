@@ -53,13 +53,29 @@
 
 ### Wk0 summary
 
-- **Fix applied:** 7 (including the cross-week continuity note)
+- **Fix applied:** 7 in the initial pass (commit `6745afa`) + 2 follow-ups from user feedback (commits `7d24d05` and the Week 0 Flexibility Framework commit)
 - **Defended:** 3
 - **Escalated to teacher meeting:** 3
 - **Timing after edits:** Day 1 = 48 min, Days 2–5 = 50 min each. All in 45–55 range.
 - **Scripting regressions:** 0
 - **DOK 2–4 markers preserved:** 5/5
 - **Support/Extension/ELL bullets preserved:** 5/5
+
+### Wk0 follow-up fixes (post-first-pass user feedback)
+
+**Fix #13 — Day 1 Activity 1 pacing alternatives** (commit `7d24d05`). User feedback: the first pass softened directive *language* but left the 15-min activity *budget* intact; some campuses require a full period (or multi-day distributed) for routines. Added a `!!! warning "Pacing — 15 min is a floor, not a ceiling"` admonition at the top of Day 1 Activity 1 offering three explicit pathways: (1) full-period option with week-shifted activities, (2) dispersed-across-Days-2–5 option, (3) 15-min default.
+
+**Fix #14 — Week 0 Flexibility Framework** (this commit). User feedback: single-activity admonitions are not enough — Week 0 is structurally different from every other week because campus-mandated events (Bowie Cub Camp, ID photos, orientations, fire drills, AUP delays), tech-access restrictions, roster churn, and teacher-specific culture-setting all mean the whole week needs flexibility, not just one activity. Added:
+
+- A new **Week 0 Flexibility Framework** section in `overview.md` (placed right before "Week at a Glance") that:
+    - Names Week 0 as structurally different and enumerates the reasons (campus events, tech access, roster churn, culture-setting, social readiness)
+    - Identifies the four **load-bearing** activities (Day 2 RIASEC, Day 3 Work Values, Day 3 Building Blocks, Day 5 My Career Journey reflection) that must land somewhere this week or early Wk1
+    - Identifies **flex** activities that can be cut, moved, compressed, or substituted (Day 1 routines, Day 1 scavenger hunt, Day 4 cluster ratings, Day 5 Design Thinking, Day 5 Gallery Walk)
+    - Provides **5 resequencing playbooks** for common disruptions: lost 15 min on Day 1 (e.g., Cub Camp), lost 15 min on both Days 1 and 2, no Chromebook access Day 1, no Chromebook access Days 1–2, Wk0 slipping into Wk1
+    - Ends with the bottom-line rule: if the 4 load-bearing activities land and students sign the safety contract before leaving Wk0 (or early Wk1), the week objective is met
+- Short `!!! note "Campus flexibility"` pointer admonitions at the top of `day1.md` and `day2.md` directing teachers who start at the day file to the framework in the overview. Day 2's pointer specifically names the RIASEC assessment as load-bearing since Day 2 is the assessment day.
+
+**Lesson for the next instinct review session:** Week 0 is the ONLY week where the entire week structure (not just individual activities) needs a flexibility framing. All 35 other weeks can assume full teacher control of 50-min periods. When reviewing a week, ask: "Is this week's ability to run as written dependent on campus conditions I cannot guarantee?" If yes, the week needs a framework, not just per-activity admonitions. For the other 35 weeks this almost always means "no" — they inherit from a stable mid-year classroom reality — but Week 0 is the exception and should be treated structurally, not piecemeal.
 
 ---
 
