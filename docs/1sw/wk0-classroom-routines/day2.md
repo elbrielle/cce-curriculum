@@ -12,8 +12,8 @@
 
 ---
 
-!!! note "Campus flexibility — Day 2 may also lose time to a campus event"
-    Bowie (for example) has a second Cub Camp presentation on Day 2. If your campus consumes 15+ min of Day 2 with a required event, the RIASEC / Discover My Core assessment (Activity 2 below) is **load-bearing** — it must land today OR slide to Day 3 via the Wk0 Flexibility Framework in the overview. See the overview for the "Lost 15 min on Day 1 AND Day 2" and "No Chromebook access for Days 1–2" resequencing playbooks.
+!!! note "Campus flexibility — Day 2 may also lose time"
+    Day 2 can be affected by campus-required events too (e.g., a second Cub Camp day). The **RIASEC / Discover My Core assessment (Activity 2)** below is load-bearing — it must land somewhere in Week 0 or early Wk1, not necessarily today. See the **Week 0 Flexibility Framework** in the overview for the full load-bearing / flex distinction.
 
 ---
 

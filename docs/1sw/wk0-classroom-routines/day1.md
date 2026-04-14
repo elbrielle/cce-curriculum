@@ -12,8 +12,8 @@
 
 ---
 
-!!! note "Campus flexibility — read the Week 0 Flexibility Framework first"
-    Week 0 is structurally different from every other week. Before running Day 1 as written, read the **Week 0 Flexibility Framework** section in the overview for resequencing playbooks covering Cub Camp / campus-required events, no-Chromebook-access-Day-1, and Wk0-slipping-into-Wk1 scenarios. The plan below is the default; adapt it to your actual period length, tech access, and campus expectations.
+!!! note "Campus flexibility — see the Week 0 Flexibility Framework"
+    Week 0 adapts to your campus. Before running Day 1 as written, read the **Week 0 Flexibility Framework** in the overview. The plan below is the default — use your own judgment on timing, tech access, and what to flex if campus events consume part of Day 1.
 
 ---
 

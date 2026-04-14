@@ -67,46 +67,30 @@ The workbook explicitly directs students to the H&L app at multiple points (Buil
 - **Sentence Stems:** "My top personality type is _____, which means I like to _____. One career that might fit me is _____."
 - **Active Monitoring:** Walk the room during all assessments. Watch for students rushing through without reading. Stop them and reset.
 
-## Week 0 Flexibility Framework — Read This First
+## Week 0 Flexibility Framework
 
-**Week 0 is structurally different from every other week in this curriculum.** The other 35 weeks assume you have full control of your 50-minute period. Week 0 does not — the first week of school varies wildly across Irving ISD VILS labs:
+!!! abstract "This week isn't a fixed schedule — adapt it to your campus"
 
-- **Campus-mandated events consume time.** Cub Camp presentations (required on Days 1–2 at Bowie, for example), ID photos, schedule corrections, administrative orientations, fire drills, and "welcome back" assemblies can eat 10–30 minutes of Days 1–2 before you can run your own lab.
-- **Tech access isn't guaranteed.** Some campuses don't permit Chromebook checkout on Day 1, or require students to sign the district AUP before H&L / Xello access. If you lose technology for Days 1–2, app-based activities must shift.
-- **Rosters are in motion.** 10–20% churn in the first week is normal — late arrivals, schedule changes, transfer students appearing mid-week.
-- **You are establishing your own lab culture.** Routines, expectations, voice levels, and equipment protocols are campus- and teacher-specific and cannot be built from a pre-scripted 5-day template.
-- **Social readiness is low.** Students don't know each other on Day 1. Think-Pair-Share and whole-class share moments work differently in Week 0 than they will in Week 5.
+    Week 0 is the one week in this curriculum where you cannot assume full control of 50-min periods. Campus events (Cub Camp, ID photos, orientations), tech-access gates, first-week roster churn, and your own lab culture-setting all reshape the week. **The 5-day Week at a Glance table below is a default, not a fixed sequence.** Use the load-bearing / flex distinction below and your own judgment.
 
-**The 5-day structure in "Week at a Glance" below is a default template, not a fixed sequence.** Keep the load-bearing activities; flex everything else.
+    **Load-bearing — protect these; the rest of the year depends on them:**
 
-### Load-bearing activities (must land somewhere this week — or early Wk1 at the latest)
+    1. **RIASEC / Discover My Core assessment** (default Day 2 Activity 2) — 4SW Wk1 mid-year reconciliation and 6SW Wk6 capstone both reference students' Week 0 type.
+    2. **Work Values survey** (default Day 3 Activity 1) — top 2 recorded in H&L.
+    3. **Building Blocks entry** (default Day 3 Activity 2) — ≥3 entries in the Climber Profile.
+    4. **My Career Journey reflection** (default Day 5 Activity 2) — the persistent artifact 4SW Wk1 and 6SW Wk6 directly reference.
 
-These four activities produce the data every later H&L recommendation, and the downstream weeks at 4SW Wk1 (mid-year reconciliation) and 6SW Wk6 (capstone), depend on. Protect these:
+    These four must land in Week 0 **or early 1SW Wk1** — beyond end of 1SW Wk1 Day 5, cluster recommendations become unreliable.
 
-1. **RIASEC / Discover My Core assessment** (default Day 2 Activity 2) — top personality type recorded in H&L and workbook.
-2. **Work Values survey** (default Day 3 Activity 1) — top 2 selected in H&L.
-3. **Building Blocks entry** (default Day 3 Activity 2) — ≥3 entries in the Climber Profile.
-4. **My Career Journey reflection** (default Day 5 Activity 2) — the persistent artifact 4SW Wk1 and 6SW Wk6 will reference.
+    **Flex — cut, move, compress, or substitute based on your campus reality:**
 
-If you have to choose what to keep and what to cut, keep these four. Everything else on the schedule below is flex.
+    - **Day 1 Lab Routines + Safety Contract** (see the Day 1 Pacing admonition for three pacing pathways)
+    - **Day 1 Scavenger Hunt**
+    - **Day 4 Meet the Career Clusters workbook rating**
+    - **Day 5 Design Thinking Powerskill**
+    - **Day 5 Cluster Curiosity Gallery Walk**
 
-### Flex activities (can be cut, moved, compressed, or substituted)
-
-- **Day 1 Activity 1 Lab Routines + Safety Contract** — expand to a full period, distribute across Days 1–5, or stay at 15 min (see the Pacing admonition on Day 1 for three explicit pathways).
-- **Day 1 Activity 3 Scavenger Hunt** — skip, defer to a later day, or replace with a simpler "name 3 careers you saw on the way to school" warm-up.
-- **Day 4 Activity 2 Meet the Career Clusters workbook rating** — trim from 14 clusters to 6, do as homework, or use the H&L app's cluster browser in place of the workbook pages.
-- **Day 5 Activity 1 Design Thinking Powerskill** — move to Wk1 if Wk0 slips.
-- **Day 5 Activity 3 Gallery Walk** — replace with a quick verbal cluster poll.
-
-### Resequencing playbooks for common disruptions
-
-- **Lost 15 min on Day 1 to a campus event (e.g., Cub Camp presentation):** Compress Lab Routines to 10 min, skip the Scavenger Hunt, keep H&L Account Setup at 15 min. Days 2–5 proceed as written.
-- **Lost 15 min on BOTH Day 1 AND Day 2 to campus events:** Above, plus push the Day 2 Think-Pair-Share closing to Day 3 opening. RIASEC still lands on Day 2.
-- **No Chromebook access on Day 1:** Run Day 1 as paper-only — Lab Routines + Safety Contract + workbook Scavenger Hunt from H&L Ch 1, p. 2. Push H&L Account Setup to the opening of Day 2. The whole week slides by ~15 min across Days 2–5; RIASEC moves to the second half of Day 2, Work Values + Building Blocks to Day 3 second half, etc.
-- **No Chromebook access for Days 1–2:** Treat Days 1–2 as paper-only onboarding — routines, safety, workbook Ch 1 pp. 1–15 reading, Meet the Career Clusters rated on paper. H&L Account Setup moves to Day 3. RIASEC moves to Day 3. Work Values + Building Blocks move to Day 4. My Career Journey reflection stays on Day 5. All four load-bearing activities still land before Wk1 starts.
-- **Wk0 slipping into Wk1:** The first 1–2 days of 1SW Wk1 Robotics/Manufacturing can absorb leftover Wk0 onboarding (finish H&L Account Setup, complete RIASEC, complete the My Career Journey reflection) before starting Manufacturing cluster content. The four load-bearing activities must land **by the end of 1SW Wk1 Day 5 at the latest** — beyond that, cluster recommendations from 1SW Wk2 forward become unreliable.
-
-**Bottom line:** If the four load-bearing activities land and students have signed a safety contract before leaving Wk0 (or early Wk1), you have met the Week 0 objective. Everything else is teacher judgment. Adapt the week to your campus reality — do not try to force your campus reality to fit the week.
+    **Bottom line:** Land the four load-bearing activities and have students sign a safety contract before leaving Week 0 (or early Wk1) — the rest is your judgment.
 
 ## Week at a Glance
 
