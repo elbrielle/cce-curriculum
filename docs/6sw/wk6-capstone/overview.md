@@ -6,6 +6,9 @@
 
 Students finalize their H&L Career Plan, select a top career pathway based on a year of exploration, document the high school courses and postsecondary requirements needed to reach that career, deliver a capstone career plan presentation to the class, complete an optional RIASEC retake to compare growth, and reflect on a full year of career exploration.
 
+!!! note "Buffer week — adapt freely for end-of-year disruptions"
+    The original scope-and-sequence left this week blank — it is the last week of school, and end-of-year events (yearbook signing, field day, awards ceremonies, early release, locker cleanouts) reshape the week in ways no curriculum can predict. The capstone presentation days (Days 3–4) and the Career Plan finalization (Day 1) are the load-bearing pieces: they produce the year-end artifact that demonstrates d(8)(A)–(C) and d(4)(C). Everything else — the RIASEC retake, the reflection journal, the celebration framing, the gallery walk — is explicitly cut-or-condense material when your period gets shortened or canceled. Load-bearing: Day 1 Career Plan finalization + Days 3–4 presentations. Flex: Day 2 RIASEC retake, Day 5 reflection + celebration.
+
 ## Demonstration of Learning
 
 > "I can present my finalized career plan including my selected pathway, the Irving ISD high school that offers it, my four-year course plan, my postsecondary goal, and explain how my career interests have evolved across 36 weeks of CCE."

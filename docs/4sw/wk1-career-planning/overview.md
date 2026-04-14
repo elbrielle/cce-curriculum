@@ -6,6 +6,9 @@
 
 Students revisit their RIASEC results from Week 0, audit every career they have favorited across the first three six-weeks blocks, complete the H&L "Iceberg Cartoon" reflection (Ch 16) to surface the hidden skills behind their visible career interests, and use the H&L Career Plan tool to select a top pathway for the second half of the year.
 
+!!! note "Buffer week — adapt freely for state testing season"
+    The original scope-and-sequence intentionally left this week light (Xello completions + eDynamic supplements, no new cluster) because it lands during STAAR / state testing season when periods get pulled, shortened, or canceled with little notice. The Iceberg Cartoon and pathway selection activities below are load-bearing for 4SW Wk2 and 6SW Wk6 downstream, but the supporting activities (gallery walk, extended discussion, extension research) are deliberately cut-or-condense candidates when a testing day eats a period. Keep: Iceberg Cartoon + Pathway Ranking. Flex: everything else.
+
 ## Demonstration of Learning
 
 > "I can compare my Week 0 RIASEC type to my current favorited careers, complete the H&L Iceberg Cartoon to identify the skills underneath my career goals, and select one preferred Irving ISD pathway with evidence from my exploration history."

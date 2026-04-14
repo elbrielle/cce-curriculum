@@ -6,6 +6,9 @@
 
 Students translate the pathway selection from Week 1 into a concrete 4-year high school course plan using the H&L District Course Planner, write a personal Career Plan that documents pathway choice + course sequence + postsecondary requirements, and download/print the plan to share with their family.
 
+!!! note "Buffer week — adapt freely for state testing season"
+    The original scope-and-sequence intentionally left this week light (Xello completions + eDynamic supplements, no new cluster) because it lands during STAAR / state testing season. The curriculum writer placed the d(8)(C) Career Plan artifact here because Week 2 was the most complete available slot for the summative, but the Day 1-4 supporting activities (HS transition lecture, Family Letter, eDynamic 6.2) are all cut-or-condense candidates when testing eats periods. Load-bearing: Day 2 Course Planner + Day 5 Career Plan write-up (these together produce the d(8)(C) artifact). Flex: Day 1 endorsement lecture, Day 3 Family Letter (can be homework), Day 4 eDynamic (asynchronous).
+
 ## Demonstration of Learning
 
 > "I can map my high school courses to a career pathway using the H&L District Course Planner, write a Career Plan that documents my pathway, course sequence, and postsecondary goals, and explain how planning impacts my future to a family member."

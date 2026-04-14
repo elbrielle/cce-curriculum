@@ -632,9 +632,9 @@ This ordering is a working assumption. Teacher feedback tomorrow will change it.
 
 ## 10. Session Log & Next-Agent Handoff
 
-### Current state (updated 2026-04-14)
+### Current state (updated 2026-04-14 evening, post-buffer-week wrap)
 
-`main` HEAD: `3948d98`. Live site: https://elbrielle.github.io/cce-curriculum/. **Seven** weeks instinct-reviewed (**1SW Wk0**, **4SW Wk1**, **5SW Wk1**, **6SW Wk6**, **2SW Wk5**, **6SW Wk5**, **4SW Wk2**) + Dimension 9 added + six prose/sweep passes shipped. 29 of 36 weeks still awaiting instinct review. Clinical `vetting-report.md` remains frozen. Evening Track B session added 3 weeks + caught 1 clinical timing drift that the original vetting pass missed (4SW Wk2 day5 was 53 min, now 50).
+`main` HEAD: pending this commit. Live site: https://elbrielle.github.io/cce-curriculum/. **Seven** weeks instinct-reviewed (**1SW Wk0**, **4SW Wk1**, **5SW Wk1**, **6SW Wk6**, **2SW Wk5**, **6SW Wk5**, **4SW Wk2**) + Dimension 9 live + six prose/sweep passes shipped + **buffer-week flex admonitions** added to 4SW Wk1 / 4SW Wk2 / 6SW Wk6. 29 of 36 weeks still awaiting instinct review. Clinical `vetting-report.md` remains frozen. Evening Track B session added 3 weeks + caught 1 clinical timing drift the original vetting pass missed (4SW Wk2 day5 was 53 min → now 50) + closed the buffer-week gap surfaced at session wrap.
 
 ### Session 2026-04-14 (evening — Track B instinct review, 3 weeks)
 
@@ -654,64 +654,26 @@ Commits `002b955` → `3948d98` on `main`. Executed Track B per the §10 priorit
 2. **Teacher Prep Checklist propagation is incomplete.** Track A1 (`fc1c4dd`) used "has external tech tool" as the trigger. A second trigger is "has teacher-authored prep materials or load-bearing resources not in H&L defaults" — this session added the admonition to 3 more weeks. Future Track B reviews should keep adding it where absent.
 3. **PII in paper artifacts is a pattern to watch for.** 6SW Wk5 Day 3 was the clearest case; likely exists in other weeks. Candidate for a cross-week grep in a future session: `grep -rn "legal name\|date of birth\|DOB\|home address" docs/`.
 
-### Session 2026-04-14 (late afternoon — Track A sweeps A1 + A3, A2 verified no-op)
+### Earlier 2026-04-14 sessions (condensed — full detail in `instinct-review.md` + `git log`)
 
-Commits `fc1c4dd` → `fb08bde` on `main`. Executed Track A per the priority list in this section. Two commits landed, one sub-sweep verified as a no-op after grep-sampling the hit set.
+Four prior sessions landed on `main` before the evening Track B pass. Summarized here as breadcrumbs; full prose in `cce-curriculum/notes/instinct-review.md` (morning session's 4 weeks) and in each commit's message.
 
-| Commit | Scope | What landed |
+| Session | Commits | Headline |
 |---|---|---|
-| `fc1c4dd` | **A1 Teacher Prep Checklist propagation** | 9 overview.md files, 90 insertions. Added the `!!! tip "Teacher Prep Checklist"` admonition from the 5SW Wk1 prototype to every week whose Materials list includes an external tech tool requiring pre-class setup. Each checklist covers three external systems: H&L workbook access, tool-specific account/device setup, and network whitelisting + eDynamic/Xello confirmation. Weeks updated: 1SW Wk1 (Sphero), 1SW Wk2 (Code.org), 1SW Wk4 (micro:bit), 1SW Wk5 (Glowforge), 2SW Wk3 (micro:bit), 3SW Wk4 (Canva), 4SW Wk3 (LEGO), 4SW Wk4 (drones), 6SW Wk2 (Canva/Adobe/Xello Resume). |
-| — | **A2 Directive → Suggestion sweep — verified no-op** | Grepped `"Walk students through"` (31 hits), `"project the"` (58 hits), `"Make this"` (3 hits), `"distribute printed"` (0), `"hard checkpoint"` (0). After sampling all categories and checking the 6745afa softening precedent, **0 warranted conversions**. "Walk students through" is the recommended facilitation register per CLAUDE.md lines 23/26. "project the X on the screen" is legitimate direct-instruction setup. "Make this" (3 hits) are all facilitation-tip framings with concrete follow-through, not filler. Real culture-prescription directives (voice levels, seating, checkout procedures) only exist in 1SW Wk0 Day 1, already softened by `6745afa`. No other weeks prescribe classroom culture — they are career content, not classroom management. No commit made; no fabricated edits to hit a line count. |
-| `fb08bde` | **A3 Declarative fluff sweep (second pass)** | 3 edits / 3 files, 3 insertions / 3 deletions. Dropped "The vibe shift makes the mock interview feel real..." trailing sentence from 6SW Wk5 Day 5 Facilitation Tip; dropped "Real audiences make presentations feel real." cliche sentence from 6SW Wk6 Day 3 Facilitation Tip (kept the "celebration AND assessment" dual-goal framing which is legitimate); deleted opening "This is the most important planning week..." superlative from 4SW Wk1 overview Career Connection (paragraph is substantive without it). Post-sweep greps all clean: `feel real` = 0, `This is the most important` = 0, `Not just` / `uncomfortable but` / Dimension 9 = all 0. |
+| **Morning — instinct review + Wk0 flex framework** | `6745afa` `89614f4` `f612edf` `25a60db` `bc3c757` `7d24d05` `46e19f7` `435f837` | Teacher/Writer adversarial review on **1SW Wk0**, **5SW Wk1** (prototype), **4SW Wk1**, **6SW Wk6**. 42 Teacher Implementer concerns → 20 Fix / 11 Defend / 11 Escalate. Wk0 got the `!!! abstract` Flexibility Framework (verb menu, load-bearing/flex split) after an initial prescriptive-playbook pass was rejected. Consolidated report: `cce-curriculum/notes/instinct-review.md`. |
+| **Afternoon — prose + math + Dimension 9** | `cd2ea60` `b14b1d2` `95081fe` `bfb4cac` | Prose sweep (dropped AI-cliche "X is not Y — it is Z" constructions across 6 day files). Presentation math sweep DONE (all overrunning presentation days carry `!!! warning` admonitions with compression options). **Dimension 9 added to §4** (Skill-Before-Enforcement) + editing-heuristics.md rules 8 and 9. First retroactive Dim 9 sweep removed "mid-sentence cut" surprise discipline from 3 content weeks (drone / HVAC / marketing) and trimmed fluff from 3 more. |
+| **Late afternoon — Track A sweeps** | `fc1c4dd` `fb08bde` | Teacher Prep Checklist propagation to 9 tech-tool weeks (A1 — `fc1c4dd`). Directive → Suggestion sweep verified as no-op after grep-sampling (A2 — "Walk students through" / "project the" are the recommended register per CLAUDE.md, not fluff). Second-pass declarative fluff trim on 3 facilitation tips (A3 — `fb08bde`). Found 2 Dim 1 tech-tool drifts (1SW Wk3 Sphero, 3SW Wk6 Glowforge) → escalation queue. |
 
-**2 Dimension 1 fidelity drifts found during A1 and noted for escalation** (not acted on — out of A1 scope):
+**Pattern propagation status across all sessions (closed as of evening session):**
 
-- **1SW Wk3 CS/IT** — S&S col 7 lists "RVR+ / SpheroEDU" but the week implementation uses paper wireframing + emerging tech research. No external tech tool in Materials to pre-flight. Decision needed: reinstate Sphero or update `scope-and-sequence.md` col 7 to match.
-- **3SW Wk6 Entrepreneurship** — S&S col 7 lists "Glowforge: Cut logo for clothing company" but the week implementation is a paper investor pitch + MVP design + personal budget. No Glowforge in Materials. Same decision needed.
+- ✅ Presentation math sweep
+- ✅ Teacher Prep Checklist propagation (tech-tool trigger) — 9 weeks via `fc1c4dd`, + 3 more via evening session (teacher-authored-resource trigger)
+- ⏭️ Directive → Suggestion — verified no-op; strike from future priority lists unless a new pattern is identified
+- ✅ Declarative fluff sweep — post-sweep grep on all listed Dim 9 patterns returns 0
+- ⏳ **A4 — PII paper-artifact sweep (new, evening session)** — see "Priority order for the next session" below
+- ⏳ **A5 — Teacher Prep Checklist second-pass (teacher-authored-resource trigger, new, evening session)** — see below
 
-**Pattern propagation status after this session:**
-
-- ✅ **Presentation math sweep — DONE** (closed in morning session).
-- ✅ **Teacher Prep Checklist propagation — DONE** (`fc1c4dd`). 9 weeks landed. 2 intentional SKIPs above belong in the escalation queue, not in this sweep.
-- ⏭️ **Directive → Suggestion sweep — VERIFIED NO-OP.** The priority-list signal was written before grep verification; after verification, the phrases it hunted for are either the recommended register (per CLAUDE.md) or already swept (1SW Wk0 `6745afa`). **Strike from future priority lists** unless a specific new directive pattern is identified.
-- ✅ **Declarative fluff sweep — DONE** (`fb08bde` + the first-pass `bfb4cac`). Post-sweep grep confirms 0 hits on all listed patterns: `This is real`, `This builds real`, `This is what real`, `Real conferences`, `Real interviews`, `feel real`, `This is the most important`, `Not just`, `uncomfortable but`. `Make this` (3 hits) preserved intentionally — all three are substantive facilitation tips.
-
-**All six preservation checks clean after each commit:** mkdocs --strict; scripting=0; DOK 2-4 present on every day file; timing sums 45-55 on every day file; Support/ELL bullets preserved; Dimension 9 fluff=0.
-
-### Session 2026-04-14 (afternoon — prose + math + Dimension 9)
-
-Commits `cd2ea60` → `bfb4cac` on `main`. Four landings, three of them user-feedback-driven:
-
-| Commit | Scope | What landed |
-|---|---|---|
-| `cd2ea60` | Prose sweep | 1SW Wk0 Flexibility Framework tightened per user wording (dropped "(default Day N Activity N)" parentheticals, "Bottom line:" summary, "Load-bearing — protect these..." header → "Non-negotiables:"); 6 "[X] is not [Y] — it is [Z]" AI-cliche sentences fixed across 4sw/5sw/6sw/1sw/3sw day files |
-| `b14b1d2` | Presentation math sweep | `!!! warning` admonitions added/converted on 3 days: 6SW Wk4 Day 5 (converted inline prose math to warning), 4SW Wk5 Day 5 (new warning: 25 × 90 sec = 37.5 min in 28-min budget), 6SW Wk6 Day 4 (new warning: half class × 5 min = 60 min in 30-min budget — tighter than Day 3). This sweep is **DONE**; no remaining overrunning presentation days in docs/ |
-| `95081fe` | **New Dimension 9 added to §4** | PLANNING.md Dimension 9 — Skill-Before-Enforcement (Taught Before Tested). Plus companion declarative-fluff check. editing-heuristics.md got two new "Never Do These Without Reading More" rules (8 and 9) |
-| `bfb4cac` | First retroactive Dimension 9 sweep | 9 edits / 9 files: removed "mid-sentence cut" surprise discipline from 4SW Wk4 Day 5 Drone, 5SW Wk4 Day 5 HVAC, 6SW Wk3 Day 5 Marketing (content weeks where pacing is not taught); trimmed fluff tail from 6SW Wk4 Day 5 Sales (the skill week — kept the enforcement, dropped the "Real conferences / Real interviews" filler); trimmed 3 extension fluff lines in 6SW Wk6 Day 3, 6SW Wk5 Day 5, 6SW Wk4 Day 4. Post-sweep grep: zero remaining "This is real / This builds real / This is what real / Real conferences / Real interviews" across docs/ |
-
-**Pattern propagation status after this session:**
-
-- ✅ **Presentation math sweep — DONE.** All overrunning presentation days in docs/ now carry `!!! warning` admonitions with the math + three compression options.
-- ⏳ **Teacher Prep Checklist propagation — NOT STARTED.** 10-15 overview.md files still need the `!!! tip "Teacher Prep Checklist"` admonition from 5SW Wk1 prototype.
-- ⏳ **Directive → Suggestion sweep — NOT STARTED.** "Walk students through", "distribute printed", "project the..." imperatives still live in other weeks.
-- 🟡 **Declarative fluff sweep — PARTIAL.** "This is real / This builds real" patterns are 0. Other fluff patterns unchecked: "Make this feel real", "This is uncomfortable but", "This is the most important", "Not just X, but Y" constructions, em-dash-as-cliche elsewhere. Grep recipes are in editing-heuristics.md rule 9.
-
-### Session 2026-04-14 (morning — instinct review + Wk0 flex framework)
-
-Commits `6745afa` → `435f837`. The teacher/writer adversarial instinct review described in §8 for 4 weeks + user-feedback iterations on the Week 0 Flexibility Framework.
-
-| Commit | Week | Headline |
-|---|---|---|
-| `6745afa` | 1SW Wk0 Classroom Routines | Day 1 routine directives → `!!! tip "Suggested Routine"`; softened Day 3 "hard checkpoint"; Day 1 vulnerability alternative; Day 5 `!!! note "Persistent Portfolio"` for cross-year data continuity |
-| `89614f4` | 5SW Wk1 Architecture (prototype) | Overview `!!! tip "Teacher Prep Checklist"`; Day 3 sequential approval → peer/self checklist; Day 5 `!!! warning` on presentation math; Day 3 `!!! tip "Tech Setup"` for TinkerCAD whitelisting |
-| `f612edf` | 4SW Wk1 Career Planning | Day 1 pre-warm-up Week 0 folder retrieval + transfer-student fallback; Day 2 `!!! tip "Verify Before Class"` for H&L Career Plan tool |
-| `25a60db` | 6SW Wk6 Capstone | Overview `!!! note "Pre-Capstone Teacher Checklist"`; Day 1 engagement-variability compressed path; Day 3 `!!! warning` on presentation math; Day 4 day-of backup for PDF export failure |
-| `bc3c757` | (all) | Consolidated `cce-curriculum/notes/instinct-review.md` with 4 week sections, cross-week themes, escalation queue, session totals |
-| `7d24d05` | 1SW Wk0 Day 1 | Added pacing alternatives for lab routines |
-| `46e19f7` | 1SW Wk0 overview | Added Week 0 Flexibility Framework (first pass — prescriptive playbooks) |
-| `435f837` | 1SW Wk0 overview | Tightened Flexibility Framework, dropped prescriptive playbooks, wrapped in `!!! abstract` and converted to verb menu |
-
-**Morning session totals:** 42 Teacher Implementer concerns lobbed → 20 Fix applied, 11 Defended, 11 Escalated. No day file edit exceeded ~12 lines.
+Every commit listed above passed the 6-check preservation loop (mkdocs --strict, scripting=0, DOK 2-4, timing 45-55, Support/ELL, Dim 9 fluff=0).
 
 ### Weeks still to instinct-review (29 of 36 remaining)
 
@@ -759,6 +721,7 @@ These came out of the morning instinct-review pass and need a teacher/curriculum
 - **6SW Wk6 Day 5 H&L persistence mitigation** — should Day 5 add a "pull out Wk0 folder if H&L is unavailable" note?
 - **1SW Wk3 CS/IT tech-tool drift** (found during Track A1, `fc1c4dd`) — S&S col 7 lists "RVR+ / SpheroEDU" but the week implementation uses paper wireframing + emerging tech research. Decision: reinstate Sphero in the week or update `scope-and-sequence.md` col 7 to match.
 - **3SW Wk6 Entrepreneurship tech-tool drift** (found during Track A1, `fc1c4dd`) — S&S col 7 lists "Glowforge: Cut logo for clothing company" but the week is a paper investor pitch + MVP design + personal budget. Same decision: reinstate Glowforge or update S&S col 7.
+- **Buffer-week intent vs. implementation (raised 2026-04-14 evening, partially closed)** — The original S&S left **4SW Wk1** and **4SW Wk2** light (Xello completions + eDynamic only, no new cluster) as a STAAR/testing-season buffer, and **6SW Wk6** was left entirely blank as an end-of-year-events buffer. Morning and evening sessions implemented substantive content in all three (the Iceberg Cartoon + pathway selection in 4SW Wk1, the d(8)(C) Career Plan in 4SW Wk2, the capstone in 6SW Wk6) — an implementation choice the curriculum writer made because the slots were open, not because the S&S directed the content. Evening session added `!!! note "Buffer week"` flex admonitions to all three overviews naming load-bearing vs. cut-or-condense content, so teachers can adapt the existing implementation to their real campus conditions. **What still needs a human decision:** whether the current implementations are the right level of ambition for buffer weeks, or whether any of them should be trimmed further (e.g., moving the d(8)(C) Career Plan artifact out of 4SW Wk2 into a less-disrupted week). The flex admonitions preserve teacher optionality but do not resolve the scope question. Defer to the first teacher-feedback round.
 
 ### Non-instinct-review work still queued
 
@@ -792,7 +755,7 @@ These came out of the morning instinct-review pass and need a teacher/curriculum
 
 2. **Load-bearing vs flex.** For any flexibility framing, name what the downstream year depends on (load-bearing) and what can be cut/moved/compressed (flex). Let teachers route around the flex stuff with campus knowledge.
 
-3. **Week 0 is structurally different.** The other 35 weeks assume stable mid-year classroom conditions. Wk0 cannot — campus events, tech-access gates, roster churn, and teacher culture-setting make Wk0 a special case. No other week currently needs the Flexibility Framework framing.
+3. **Buffer weeks need explicit flex framing, not just Wk0.** The original scope-and-sequence spreadsheet intentionally left three weeks light as *buffers* for predictable disruptions that no curriculum can plan around: **1SW Wk0** (first-week chaos — campus events, tech-access gates, roster churn, culture-setting), **4SW Wk1–Wk2** (STAAR / state testing season — periods get pulled, shortened, or canceled), and **6SW Wk6** (end-of-year events — field day, yearbook, awards, early release). The original S&S for 4SW Wk1–Wk2 had only Xello completions + eDynamic supplements (no new cluster), and 6SW Wk6 was left entirely blank. The morning and evening sessions implemented substantive content in all three 4SW Wk1 / 4SW Wk2 / 6SW Wk6, but the *buffer-week intent from the original S&S was not forwarded into the implementations* — and the clinical vetting pass could not catch this because the S&S was the only place it was documented. Evening session closed the gap with `!!! note "Buffer week"` admonitions on those three overviews naming load-bearing vs. flex content. **Rule going forward:** when you review or create a week, check the original `cce-curriculum/scope-and-sequence.md` row. If the S&S Topic field is empty, sparse, or marked as supplemental-only, flag the implementation as a buffer week and add a flex admonition naming what can be cut if periods are lost. Wk0 got the full `!!! abstract` Flexibility Framework (verb menu + load-bearing/flex split); the other buffer weeks got the lighter `!!! note "Buffer week"` framing because the disruption pattern is different (predictable testing/events vs. unpredictable culture-setting). Do not escalate this framing further without user sign-off — the weight is calibrated to the risk.
 
 4. **Admonitions > dense prose** for important advisory content. `!!! abstract`, `!!! warning`, `!!! tip`, `!!! note` render as visually distinct callouts in MkDocs Material. If you're adding 15+ lines of advisory content, wrap it.
 
