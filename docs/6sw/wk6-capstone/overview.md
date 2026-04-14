@@ -6,18 +6,16 @@
 
 Students finalize their H&L Career Plan, select a top career pathway based on a year of exploration, document the high school courses and postsecondary requirements needed to reach that career, deliver a capstone career plan presentation to the class, complete an optional RIASEC retake to compare growth, and reflect on a full year of career exploration.
 
-!!! abstract "Adapt to your end-of-year schedule — everything here is optional"
+!!! abstract "Adapt to your end-of-year schedule"
 
-    The original scope-and-sequence left this week blank for a reason: it is the last week of school, and end-of-year events (yearbook signing, field day, awards ceremonies, early release, moving assemblies, locker cleanouts) reshape it in ways no curriculum can predict. **Nothing in this week is critical to year-end TEKS coverage.** Every standard 6SW Wk6 claims is already covered upstream:
+    The original scope-and-sequence left this week blank for a reason: it is the last week of school, and end-of-year events (yearbook, field day, awards, early release) reshape it unpredictably. **Nothing here is critical to year-end TEKS coverage.** Every standard 6SW Wk6 claims is already covered upstream:
 
-    - **d(4)(C)** (oral presentation) → primary home is **6SW Wk4 Sales/Presentations**
-    - **d(8)(A)** (select pathway) → primary home is **4SW Wk1 Career Planning**
-    - **d(8)(B)** (document courses + postsecondary) → primary homes are **4SW Wk1** and **4SW Wk2**
-    - **d(8)(C)** (write individual plan) → primary home is **4SW Wk2 Course Mapping**
+    - **d(4)(C)** oral presentation → **6SW Wk4 Sales/Presentations**
+    - **d(8)(A)** select pathway → **4SW Wk1 Career Planning**
+    - **d(8)(B)** courses + postsecondary → **4SW Wk1** and **4SW Wk2**
+    - **d(8)(C)** write individual plan → **4SW Wk2 Course Mapping**
 
-    Treat this week as a polish + second-run + celebration pass, not the week that produces the year's artifact. Students whose end-of-year week is disrupted still have the full course TEKS coverage through the upstream weeks.
-
-    **Adapt using these verbs:** **cut** (Day 2 RIASEC retake, Day 5 celebration), **compress** (merge Days 3-4 presentations into one day with 90-second slots), **substitute** (swap the celebration for a written reflection or a thank-you circle), **skip entirely** (let students finish their Career Plans at home and run a Day 5 year-end closer only). Any subset of the 5 days is fine. Zero days is fine.
+    **Adapt using these verbs:** **cut** (RIASEC retake, celebration), **compress** (Days 3-4 into one day with 90-sec slots), **substitute** (written reflection instead of celebration), **skip entirely** (let students finish at home). Any subset is fine. Zero days is fine.
 
 ## Demonstration of Learning
 
@@ -30,7 +28,7 @@ Students finalize their H&L Career Plan, select a top career pathway based on a 
 - **d(8)(C):** Write an individual plan to start a career.
 - **d(4)(C):** Prepare and deliver an oral presentation (career plan presentation).
 
-**This is the capstone pass — not the artifact week.** 36 weeks of exploration can culminate here in a polished Career Plan, a second oral presentation, and an end-of-year celebration. But the official course d(8) and d(4)(C) artifacts are locked upstream in 4SW Wk1 / 4SW Wk2 / 6SW Wk4 per the admonition above. Students who complete this week get a polished download to bring to their 9th-grade counselor; students whose week is disrupted still have full course TEKS coverage from the upstream weeks.
+**This is the capstone pass, not the artifact week.** The official d(8) and d(4)(C) artifacts are locked upstream in 4SW Wk1 / 4SW Wk2 / 6SW Wk4 per the admonition above. Students who complete this week polish their Career Plan and bring the download to their 9th-grade counselor.
 
 ## Materials Needed
 
