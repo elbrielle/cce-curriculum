@@ -66,7 +66,7 @@ The H&L Career Planner and District Course Planner are the primary platform tool
 - **Lifestyle Snapshot** (Ch 16, pp. 268-269) — Already covered in 5SW Wk 5; reinforced this week as part of the Career Plan
 - **Being a Career Thinker** (Ch 16, pp. 270-271) — Students identify their support system: 3 people who can help them reach their goals, plus a 4-panel comic about their ideal future
 
-The Career Plan students download from H&L this week is the OFFICIAL d(8) artifact for the year. It is shareable with families and Irving ISD high school counselors during the 8th-to-9th grade transition.
+The Career Plan students download from H&L this week is the polished version of the d(8) artifact already produced in 4SW Wk1-Wk2. It is shareable with families and Irving ISD high school counselors during the 8th-to-9th grade transition.
 
 ## IISD Instructional Strategies
 
@@ -76,7 +76,6 @@ The Career Plan students download from H&L this week is the OFFICIAL d(8) artifa
 - **Active Monitoring:** Teacher tracks Career Plan completion in the H&L app dashboard before presentations begin.
 
 !!! note "Pre-Capstone Teacher Checklist (only if you can run this week)"
-    This week is optional per the admonition above — but if your schedule allows it, it is the most platform-dependent week in the year. Verify each item with your H&L district admin before Monday:
 
     - [ ] **H&L access:** Test login with 2–3 student accounts. Confirm SSO, account refresh, and Climber Profile access on at least one Chromebook.
     - [ ] **RIASEC retake:** Confirm whether "Discover My Core" supports a retake with side-by-side comparison to Week 0 results. If not, prepare a fresh workbook p. 12 as the paper backup.
