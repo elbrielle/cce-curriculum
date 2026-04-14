@@ -20,7 +20,7 @@ Take 2-3 responses. Most students will know the phrase but not the reason. Bridg
 
 ---
 
-## Activity 1: iCivics Setup + Game Selection (10 min)
+## Activity 1: iCivics Setup + Game Selection (7 min)
 
 Open the lesson by introducing iCivics. iCivics was founded by retired Supreme Court Justice Sandra Day O'Connor specifically to teach students how the legal system works through games. The games are free, browser-based, and used in classrooms across the country.
 
@@ -32,7 +32,7 @@ Project [icivics.org/games](https://www.icivics.org/games) and walk students thr
 - **Argument Wars** — Students argue famous Supreme Court cases using evidence cards. Best for students who want a debate-style game.
 - **Counties Work** — Students manage a county government and respond to citizen issues. Good for the Government and Public Administration pathway.
 
-Walk students through how to load the game on a Chromebook (no account required for most games).
+Walk students through how to load the game on a Chromebook (no account required for most games). Before releasing students to play, pre-teach three terms in 60 seconds — **probable cause**, **due process**, and **evidence** — using the vocabulary list from the overview. All three show up inside the games and students get stuck on them without the pre-teach.
 
 !!! tip "Facilitation Tip"
     Test the chosen game on a Chromebook before class. Some iCivics games require Flash workarounds or HTML5 fallbacks. "Do I Have a Right?" has the most reliable HTML5 version as of recent updates.
@@ -70,7 +70,7 @@ Connect the gameplay back to the Hat Research template from Day 1 — students s
 
 ---
 
-## Exit Ticket (5 min)
+## Exit Ticket (3 min)
 
 **EXIT TICKET:** Write 3 sentences:
 

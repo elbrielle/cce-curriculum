@@ -39,6 +39,9 @@ Provide each team with a debate card listing 3 starter arguments. Teams have 10 
 !!! tip "Facilitation Tip"
     Tell students upfront: arguing a side you disagree with is a lawyer skill. Lawyers must understand the opposing side's argument to win. This frames the debate as practice, not personal opinion.
 
+!!! tip "Frame the debate at the system level, not the personal level"
+    Before the debate starts, name the lens explicitly: today's question is about the **technology and system design** — whether an AI tool is accurate and fair enough to be part of legal decision-making at all. It is not about any specific case, any specific person, or any student's family. Students in this class may have family members who have interacted with courts, police, or immigration enforcement; keep the debate on the tool, not on who deserves an outcome.
+
 ---
 
 ## Activity 2: Structured Debate (15 min)
