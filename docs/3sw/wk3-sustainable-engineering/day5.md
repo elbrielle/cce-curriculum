@@ -54,7 +54,7 @@ Connection prompt: Did Xello recommend any environmental or agricultural careers
 
 Direct students to log into eDynamic Learning and navigate to **Unit 7.1: Progressive and Adaptable**. This unit reinforces the Agriculture cluster content from this six weeks and connects it to two other clusters (Energy and Health Science) that students explored earlier in the year.
 
-> [VERIFY IN eDynamic] Confirm with your district that Unit 7.1 is enabled and accessible to 7th-grade students. Verify the unit covers Agriculture content as expected. If the unit is unavailable or different from described, substitute with the closest matching content covering Agriculture careers.
+> [VERIFY IN eDynamic] Confirm with your district that Unit 7.1 is enabled and accessible to 7th-grade students. Verify the unit covers Agriculture content as expected. **If the unit is unavailable,** use this fallback: students move Activity 3 (3-Week Ag Reflection) forward to this slot and then research ONE real ag-tech company (e.g., Hylio, Skydio, DJI Agriculture) using BLS Environmental Engineers, BLS Agricultural Engineers, or climatekids.nasa.gov. Each student writes 2 sentences: what the company does + what careers it employs. Same 15-min budget, no scramble needed.
 
 Students work through Unit 7.1 at their own pace for 15 minutes. The goal is to make meaningful progress, not necessarily finish — Unit 7.1 may continue into Week 4 or beyond.
 

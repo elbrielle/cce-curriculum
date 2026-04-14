@@ -57,7 +57,7 @@ Distribute the printed Field Notes packet — three separate sets of notes from 
 - Lists pest spread patterns (eastern rows near wooded area)
 - Lists engineering considerations: high-resolution imaging, multispectral sensors, flight stability for windy conditions
 
-Students read each set silently (about 6 minutes per set), then complete the Field Notes Summary worksheet:
+Students read each set silently (plan 4–6 minutes per set — slower readers can skim Set 3 using the bullets above as a guide and still complete the summary). Students may start filling in the Field Notes Summary worksheet as they read rather than only after:
 
 | Source | Top 3 Facts | What the Drone Must Do Because of This |
 |---|---|---|

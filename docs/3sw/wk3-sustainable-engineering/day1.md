@@ -51,6 +51,9 @@ The note template has 4 fields per career:
 
 **Source:** [climatekids.nasa.gov](https://climatekids.nasa.gov)
 
+!!! note "If Climate Kids is blocked"
+    NASA Climate Kids is a .gov site and typically passes district filters. If it is blocked on student Chromebooks, substitute with NOAA's climate education pages ([noaa.gov/education/resource-collections/climate](https://www.noaa.gov/education/resource-collections/climate)) or have students browse the BLS Environmental Engineers profile for a career-to-problem connection using the same 2-sentence template. Flag the block to district IT on Friday if possible.
+
 NASA is one of the largest employers of environmental scientists and engineers in the country. The Climate Kids site shows the SCIENCE behind the environmental challenges that environmental careers work on.
 
 Students open Climate Kids and spend 10 minutes exploring. They find ONE topic that connects to a career they took notes on in Activity 1. Examples:

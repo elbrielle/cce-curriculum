@@ -58,11 +58,13 @@ Each label should include:
 - A 1-sentence description of what it does
 - Which field-note constraint it solves (e.g., "Solves the wind problem from Set 3")
 
-Walk around with a checkpoint clipboard. Stop at each student's desk once and check:
+Walk around with a checkpoint clipboard. In 25 minutes across 24 students you cannot check every desk carefully — aim for 10–12 students, prioritizing those who look stuck or are rushing past the label step. For each check:
 
 - Are there at least 6 labels?
 - Does each label say what the part does?
 - Is the constraint connection clear?
+
+Students you do not reach today will get a second check during Day 4 peer feedback — partners flag missing labels for you.
 
 **DOK 4:** What information from the field notes can you use to defend your claim that this specific design will help the farmer detect pests faster?
 
@@ -70,15 +72,13 @@ Walk around with a checkpoint clipboard. Stop at each student's desk once and ch
 
 ## Activity 3: Design Rationale Paragraph (8 min)
 
-After the sketch, students write a 4-5 sentence design rationale paragraph below or beside their drone:
+After the sketch, students write a **3-sentence design rationale** paragraph below or beside their drone. The rationale is NOT a re-description of the labels (the labels already name each part and its job) — it surfaces the trade-off reasoning an engineer does:
 
-- **Sentence 1:** "My drone is designed to help [problem from field notes]."
-- **Sentence 2:** "The most important feature is _____ because _____."
-- **Sentence 3:** "It handles Texas weather by _____."
-- **Sentence 4:** "The farmer will receive pest alerts through _____."
-- **Sentence 5 (optional):** "One creative idea I added is _____."
+- **Sentence 1:** "My drone is designed to help [specific problem from field notes] because _____."
+- **Sentence 2:** "If I had to cut one feature to save weight or cost, it would be _____, because _____ matters more for pest detection."
+- **Sentence 3:** "One part of my design I am not yet sure about is _____, because _____."
 
-The rationale is just as important as the sketch — it shows engineering reasoning, not just creative drawing.
+Sentence 2 (trade-off) and Sentence 3 (self-critique) are what move the rationale from DOK 2 recall into DOK 3-4 engineering reasoning.
 
 ---
 

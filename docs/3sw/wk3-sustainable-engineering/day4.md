@@ -30,6 +30,8 @@ Pair students up. Each student takes a turn explaining their drone to their part
 - Show your drone design and explain how it works
 - Discuss how your drone could help reduce pest damage
 
+**Time split inside the 20 min:** Partner A explains their drone (min 0–6) → Partner B explains theirs (min 6–12) → both partners fill rubrics with specific notes (min 12–17) → both write 1–2 revisions in pen on their own sketch (min 17–20). If a pair runs short, move the revision note to the exit ticket instead of cutting it from Day 4.
+
 After both students have explained their drones, partners fill out the peer feedback form for each other. The H&L workbook (p. 34) provides a 4-criteria rubric:
 
 | Criteria | Yes / Somewhat / No | Notes |
@@ -50,12 +52,14 @@ After the feedback exchange, each student goes back to their drone and writes 1-
 
 **Source:** TEKS d(5)(C) — Analyze the effects of changing employment trends, societal needs, and economic conditions on career choices
 
-Transition to the societal needs analysis. Project the chart template on the board:
+Transition to the societal needs analysis with a direct bridge: the drone the student designed yesterday *IS* a career that barely existed 20 years ago. Ag-Tech Drone Operator is one of the clearest recent examples of what changing farm needs plus new technology create together. Today's chart looks at other societal changes and asks what new careers each one is producing.
 
-| Societal Change | New Careers Created | Careers Declining |
+Project the chart template on the board:
+
+| Societal Change | New Careers Created | Careers Changing or Adapting |
 |---|---|---|
-| Climate awareness | Sustainability Consultant, Environmental Engineer | Coal mining workers |
-| Pest pressure on farms | Ag-Tech Drone Operator, Precision Agriculture Technician | Field-walking crop scouts |
+| Climate awareness | Sustainability Consultant, Environmental Engineer | Traditional energy roles adding renewable skill sets (wind/solar technicians) |
+| Pest pressure on farms | Ag-Tech Drone Operator, Precision Agriculture Technician | Crop inspection shifting from hand-walking to drone-assisted monitoring |
 | (3 more rows for students to fill in) | | |
 
 Walk through the first 2 rows as examples. Then students fill in 3 MORE rows on their own. Possible societal changes to spark ideas:
@@ -69,7 +73,7 @@ Walk through the first 2 rows as examples. Then students fill in 3 MORE rows on 
 - Vertical farming in cities
 - AI in agriculture
 
-Students use H&L career data, BLS, and class discussion to populate their rows. Each row needs at least 1 new career and 1 declining career.
+Students use H&L career data, BLS, and class discussion to populate their rows. Each row needs at least 1 new career and 1 career that is changing or adapting. If students bring up a family member's job when the class discusses "careers changing," honor the reference — most jobs that look like they are disappearing are actually shifting as workers add new skills (e.g., an oil-and-gas technician retraining for wind turbine maintenance stays in the same energy sector).
 
 **DOK 3:** Based on your chart, what advice would you give a younger student deciding between a career in fossil fuels and a career in renewable energy? Use societal trends data to defend your advice.
 
