@@ -44,9 +44,11 @@ Walk through why real estate agents are almost always entrepreneurs (not employe
 
 ## Activity 2: DFW Real Estate Market Analysis (18 min)
 
-**Source:** News articles about DFW real estate + BLS data + Texas Real Estate Research Center
+**Source:** BLS Real Estate Brokers page + Texas Real Estate Research Center ([recenter.tamu.edu](https://www.recenter.tamu.edu)) + optional DFW news articles
 
-Distribute a set of 2-3 short news articles about the DFW real estate market (teacher-curated from local outlets like Dallas Morning News, D Magazine, or BisNow). Students read and identify:
+The simplest path: project the BLS Real Estate Brokers and Sales Agents page ([bls.gov/ooh/sales/real-estate-brokers-and-sales-agents.htm](https://www.bls.gov/ooh/sales/real-estate-brokers-and-sales-agents.htm)) and the Texas Real Estate Research Center DFW data dashboard for the whole class to read together — no pre-curation needed. If you have time to pre-curate, 2-3 short news articles from Dallas Morning News, D Magazine, or BisNow add local texture, but they are optional enrichment, not required.
+
+Students read and identify:
 
 - **Population growth drivers** — Corporate relocations (Toyota, Charles Schwab, Goldman Sachs moving DFW HQs), job growth, lower cost of living vs. California
 - **Home price trends** — Median DFW home price has grown significantly over the past 10 years

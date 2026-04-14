@@ -67,9 +67,9 @@ List each week's topic and one thing I learned:
 *"In the 6th Six Weeks, we will explore Education, Arts, Business/Marketing, and a final Capstone. I am most curious about _____ because _____."*
 
 ### Section 5: Career Fit Ranking
-Rank the top 5 careers they are currently considering across ALL clusters explored this year. For each, note: cluster, education timeline, and estimated DFW salary.
+Rank the top 2-5 careers they are currently considering across ALL clusters explored this year. For each, note: cluster, education timeline, and estimated DFW salary. Two strongly-ranked careers with real rationale are better than five shallow ranks — encourage depth over volume.
 
-**DOK 4:** Looking at all the career clusters you have explored this year, create a personal "Career Fit Ranking" of your top 5 careers. For each, explain what makes it a good fit based on your RIASEC type, salary expectations, education preferences, and personal interests.
+**DOK 4:** Looking at all the career clusters you have explored this year, rank 2-5 careers by personal fit. For each, explain what makes it a good fit based on your RIASEC type, salary expectations, education preferences, and personal interests.
 
 ---
 

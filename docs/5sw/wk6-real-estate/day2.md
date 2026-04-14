@@ -75,6 +75,9 @@ A Property Manager in DFW earns a fixed $70,000/year regardless of transaction v
 ### Section 4: Reflection
 Students answer: *"What are the risks of commission-based income? What are the rewards? Would you prefer commission or salary? Explain your choice."*
 
+!!! tip "Frame both answers as valid"
+    Before students write, name out loud that neither choice is "better" — it depends on the person's financial security, family situation, and tolerance for variability. Commission is not the "right" answer for entrepreneurial students, and salary is not the "safe" answer for cautious ones. Students whose families need predictable income should not feel judged for preferring salary; students drawn to variable earnings should not feel pushed to commit.
+
 **DOK 3:** What conclusions can you draw about the financial risks and rewards of commission-based income? What kind of person is best suited for this income model?
 
 ---
