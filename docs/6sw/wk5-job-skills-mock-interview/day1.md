@@ -73,7 +73,7 @@ Distribute the printed sample job posting. Use a real-sounding posting like:
 
 Students will write a cover letter for THIS posting starting Day 2. Today they only need to outline what they will say.
 
-Distribute the Cover Letter Template. Walk through the four sections:
+Distribute the Cover Letter Template. Walk through the six parts:
 
 1. **Header** — Your name, contact info, date, employer name + address
 2. **Greeting** — "Dear [Hiring Manager / Employer Name]:" (use a real name if possible)

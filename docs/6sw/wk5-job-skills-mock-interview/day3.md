@@ -26,6 +26,11 @@ Take 3-4 student responses. Common answers: skipping fields, sloppy handwriting,
 
 The H&L workbook (Ch 12, p. 196) has students fill out a sample application for "Future Work, Inc." This activity supports d(7)(C). Use the workbook version OR a printed application form with the same fields.
 
+**Two prep notes before you start:**
+
+- **Privacy:** Remind students they are completing a *practice* application. For any real-world Personal Information (address, phone, DOB, email), they may either write their real info or substitute a sample identity (e.g., fictional "Alex Martinez, 123 Main St, Irving, TX" from the Day 2 cover letter). Collect and shred all completed forms at end of class — do not send them home or leave them on desks.
+- **Scope:** Real job applications take 30–45 minutes to complete properly, and this class has 15. Today's goal is the *first pass*: Personal Info + Education + Skills + Availability + Signature, with References and Employment History filled in during Activity 2 or as homework. Tell students this explicitly so they pace themselves.
+
 Walk through the application sections on the projector before students start:
 
 **Personal Information section:**

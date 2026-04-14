@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Read H&L Job Interviews background; prepare answers to 8 standard interview questions; observe a fishbowl mock interview demonstration |
-| **TEKS** | d(6)(B), d(6)(C) |
+| **TEKS** | d(6)(B) (d(6)(C) demonstrated for all students on Day 5) |
 | **Deliverable** | 8 interview question answers prepared + fishbowl observation notes |
 | **Materials** | Chromebooks, H&L Workbook (Ch 11, pp. 178-181 Job Interviews & Practicing for a Job Interview), printed Mock Interview Question Cards, Mock Interview Rubric, projector |
 
