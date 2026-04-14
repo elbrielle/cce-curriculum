@@ -45,7 +45,14 @@ Students prepare a 60-90 second talking script using the back of the note card.
 
 ## Activity 2: Class Presentations (28 min)
 
-Each student delivers their 60-90 second presentation. With 25 students, this fills 25-30 minutes including transitions. Format:
+!!! warning "Presentation timing — 25 × 90 sec = 37.5 min, but Activity 2 is 28 min"
+    The 28-min budget only fits at the 60-sec floor (25 × 60 sec = 25 min). Pick one approach before presentations start:
+
+    - **Hard 60-sec cap:** Project a visible timer. Cut speakers at 60 sec — no exceptions. Reinforces real presentation discipline.
+    - **Parallel corners:** 3 groups of ~8 present simultaneously in corners. Teacher circulates. Each group picks one standout for a final 3-min whole-class share.
+    - **Hybrid:** 10 students present live at 90 sec each (15 min); the other 15 submit written 3-sentence pitches to Google Classroom for the exit ticket.
+
+Each student delivers their 60-90 second presentation. Format:
 
 1. Name the two careers being compared
 2. Share the key salary and education numbers

@@ -24,9 +24,18 @@ Take 2-3 student responses. This primes today's presenters to bring the same ene
 
 **Source:** Day 2 written plans + presentation outlines + rubric
 
-The SECOND HALF of the class delivers their 5-minute capstone presentations. Same format as Day 3:
+The SECOND HALF of the class delivers their capstone presentations. Same format as Day 3.
 
-- 5-minute time limit per student (visible timer)
+!!! warning "Presentation timing — the math is tighter today than Day 3"
+    Half a class of 25 = 12-13 students. At 5 min each, that is 60-65 min — DOUBLE the 30-min Activity 1 budget. Apply the same compression you picked on Day 3:
+
+    - **2.5 min/student:** 12-13 × 2.5 min = 30-32 min presentations. Fits with no margin. Exit ticket runs tight.
+    - **2 min/student:** 12-13 × 2 min = 24-26 min. Leaves ~4 min for Two Stars and a Wish batching.
+    - **Corner rotation:** 2 corners of 6-7. Teacher circulates. Each student presents to a smaller audience at 3 min each.
+
+    Day 4 has less runway than Day 3 because Activities 2 and 3 (Career Plan download + Support System) together eat 17 min. Protect them — they are the d(8)(C) artifact step.
+
+- 5-minute time limit per student (visible timer; see warning above for realistic slot)
 - Teacher scores using the Capstone Rubric
 - Class gives Two Stars and a Wish after each
 - Applaud every speaker

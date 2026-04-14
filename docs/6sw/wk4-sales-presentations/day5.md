@@ -36,15 +36,14 @@ Today every student delivers their 3-minute career presentation. The structure (
 - Teacher scores each presentation using the rubric
 - After each presentation, the class gives Two Stars and a Wish (use the Powerskills training from Day 2)
 
-**Math for time:** A class of 25 students × 3 minutes = 75 minutes. That is too much. Use one of these approaches:
+!!! warning "Presentation timing — 25 students × 3 min = 75 min, but Activity 1 is 40 min"
+    Pick one compression approach before Day 5 begins:
 
-**Option A — Split groups:** Split the class into 4 groups of 6-7. Each group runs simultaneously in a different corner of the room. Each group selects one "best presentation" to deliver to the whole class at the end. This compresses 25 presentations into ~30 minutes.
+    - **(A) Split groups:** 4 groups of 6-7 present simultaneously in corners of the room (~30 min). Each group picks one "best pitch" for a final whole-class share.
+    - **(B) Two days:** First half presents Day 5, second half bleeds into Monday. Requires shifting the next week's Day 1 by one period.
+    - **(C) 90-sec presentations:** Cut each slot to 90 seconds (intro + 2 facts + conclusion). 25 × 1.5 min = 37 min. Tight, but every student presents to the whole class.
 
-**Option B — Two days:** Day 5 = first half of class presents. Bleed into Monday for the second half. (This requires shifting Day 1 of next week's content.)
-
-**Option C — 90-second presentations:** Cut the time to 90 seconds per student (intro + 2 facts + conclusion). 25 students × 1.5 min = 37 minutes. Tighter, but every student presents to the whole class.
-
-Use whichever option fits the class size.
+    Split groups (A) is fairest to student attention; 90-sec (C) is fairest to speaking time. Pick the one that matches your room.
 
 !!! tip "Facilitation Tip"
     Project a HUGE visible timer for every presentation. Cut presenters off at the time limit, even mid-sentence. This is uncomfortable but it is the most important presentation skill they will learn — finishing on time is the difference between professional and amateur. Real conferences cut speakers off at the time limit. Real interviews end when time is up.
