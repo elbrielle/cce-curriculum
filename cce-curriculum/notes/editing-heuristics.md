@@ -152,6 +152,10 @@ These edits break curriculum soundness if you don't pull the full dependency sco
 
 7. **Never delete the `[VERIFY IN eDynamic]` or `[VERIFY IN Xello]` callouts.** They're placeholders for platform-access gaps that need district admin confirmation, not editorial noise.
 
+8. **Never add or keep a "cut students off mid-sentence" / "no exceptions" enforcement tip without checking whether the enforced skill is taught this week.** This is Dimension 9 in PLANNING.md (Skill-Before-Enforcement). Before writing or keeping any hard-discipline facilitation tip, verify: (a) is the skill in the week's Lesson Objective or DOL? (b) do Days 1-4 include explicit practice of the skill? (c) are students warned in advance in the activity text? If any are No, either soften to a schedule-fairness framing or move the hard enforcement to a skill week (6SW Wk4 Sales/Presentations, 6SW Wk6 Capstone). Grep recipe: `grep -rn "mid-sentence\|no exceptions\|cut .* off at" docs/`.
+
+9. **Never write "This is real X" / "This builds real Y" / "This is what real Z do" filler.** These phrases are declarative fluff — they sound muscular but tell the teacher nothing. Either replace with a concrete curriculum tie ("prepares students for Day 5 presentations" / "aligned with H&L Powerskill Z") or delete. Grep recipe: `grep -rn "This is real\|This builds real\|This is what real\|Real conferences\|Real interviews" docs/`. Related: avoid "This is uncomfortable but [X]" and "This is the most important [X] they will learn" for the same reason.
+
 ---
 
 ## When You've Read Enough

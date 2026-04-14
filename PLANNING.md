@@ -264,6 +264,45 @@ grep -rn "youtube\|vimeo\|video\|[Vv]ideo" docs/ | head -50
 
 ---
 
+### Dimension 9 — Skill-Before-Enforcement (Taught Before Tested)
+**Question:** When the curriculum instructs a teacher to enforce a "real-world" discipline (hard time cuts, interview formalities, attire rules, deadline holds), has that skill actually been named, modeled, or communicated to students *before* the enforcement moment?
+
+**Why this dimension exists.** Enforcement without prior instruction is surprise punishment, not pedagogy. A teacher who cuts a 7th grader off mid-sentence during their first-ever 4-minute team presentation has not taught pacing. The same instruction in 6SW Wk4 Sales/Presentations — after students have drilled timed pitches with verbal warnings on Days 3 and 4 — is defensible reinforcement. Same words, very different pedagogical meaning. The clinical pass did not catch this; it caught scripting, DOK, timing, differentiation, but not whether an enforcement was earned.
+
+**Red flags to check for:**
+- Facilitation tips that instruct "cut students off mid-sentence" or "no exceptions" enforcement of a format rule that has not been drilled earlier in the week.
+- Hard professional-discipline instructions appearing in **content weeks** (drones, automotive, HVAC, real estate) without a prior student-facing warning.
+- Appeals to "real world" authority ("Real conferences cut speakers off", "Real interviews end when time is up") as a substitute for a concrete curriculum tie.
+- Facilitation tips that sound muscular but make the first encounter with a skill a failure moment for the student.
+
+**Green flags to preserve:**
+- Explicit student-facing warnings *before* the enforcement moment: "At 4 min we will cut you off — practice ending at 3:45."
+- References to a prior activity where the skill was drilled ("uses the Powerskills training from Day 2").
+- Enforcement only in weeks where the skill is in the Lesson Objective or DOL.
+- Opt-outs named for students who haven't had the prior drill (written pitches, small-group instead of whole-class).
+
+**Companion — declarative fluff patterns:**
+Phrases like "This is real X discipline", "This builds real Y", "This is what real Z do", and "This is the most important skill they will learn" are filler. They do not help the teacher. Either replace with a concrete downstream tie ("prepares students for Day 5 presentations") or delete.
+
+**Grep patterns:**
+```
+# Hard-enforcement language
+grep -rn "mid-sentence\|no exceptions\|cut .* off at\|Cut .* off\|hard cutoff" docs/
+
+# "Real world" appeals that substitute for pedagogy
+grep -rn "This is real\|This builds real\|This is what real\|Real conferences\|Real interviews" docs/
+
+# For each hit, verify: does the week's overview.md name the enforced skill
+# in Lesson Objective or DOL? Do Days 1-4 include explicit practice of the
+# skill? Are students warned in advance in the facilitation notes?
+# If No to all three, the enforcement is surprise discipline — either soften
+# (schedule-fairness framing) or move the hard cut to a skill week.
+```
+
+**Deliverable:** A list of facilitation tips that enforce a skill before it has been taught, with proposed fixes (remove the enforcement, add a prior-day warning, or soften to schedule-fairness).
+
+---
+
 ## 5. Token-Efficient Editing Heuristics
 
 **Authoritative editing protocol:** see `cce-curriculum/notes/editing-heuristics.md`. That doc contains the full decision table for "before editing X, read Y," paste-ready grep recipes, "never edit without reading more" rules, and escalation criteria. CLAUDE.md links to it from the "How to Edit the Curriculum" section. Load it before a substantive editing session.
