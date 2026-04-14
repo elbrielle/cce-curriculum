@@ -634,7 +634,31 @@ This ordering is a working assumption. Teacher feedback tomorrow will change it.
 
 ### Current state (updated 2026-04-14)
 
-`main` HEAD: `bfb4cac`. Live site: https://elbrielle.github.io/cce-curriculum/. Four weeks instinct-reviewed (**1SW Wk0**, **4SW Wk1**, **5SW Wk1**, **6SW Wk6**) + one new clinical dimension added (**Dimension 9 — Skill-Before-Enforcement**) + four prose/sweep passes shipped. 32 of 36 weeks still awaiting instinct review. Clinical `vetting-report.md` remains frozen.
+`main` HEAD: `fb08bde`. Live site: https://elbrielle.github.io/cce-curriculum/. Four weeks instinct-reviewed (**1SW Wk0**, **4SW Wk1**, **5SW Wk1**, **6SW Wk6**) + Dimension 9 added + six prose/sweep passes shipped (Track A1 Teacher Prep Checklist + Track A3 declarative fluff landed this late afternoon; Track A2 Directive → Suggestion verified as no-op and skipped). 32 of 36 weeks still awaiting instinct review. Clinical `vetting-report.md` remains frozen.
+
+### Session 2026-04-14 (late afternoon — Track A sweeps A1 + A3, A2 verified no-op)
+
+Commits `fc1c4dd` → `fb08bde` on `main`. Executed Track A per the priority list in this section. Two commits landed, one sub-sweep verified as a no-op after grep-sampling the hit set.
+
+| Commit | Scope | What landed |
+|---|---|---|
+| `fc1c4dd` | **A1 Teacher Prep Checklist propagation** | 9 overview.md files, 90 insertions. Added the `!!! tip "Teacher Prep Checklist"` admonition from the 5SW Wk1 prototype to every week whose Materials list includes an external tech tool requiring pre-class setup. Each checklist covers three external systems: H&L workbook access, tool-specific account/device setup, and network whitelisting + eDynamic/Xello confirmation. Weeks updated: 1SW Wk1 (Sphero), 1SW Wk2 (Code.org), 1SW Wk4 (micro:bit), 1SW Wk5 (Glowforge), 2SW Wk3 (micro:bit), 3SW Wk4 (Canva), 4SW Wk3 (LEGO), 4SW Wk4 (drones), 6SW Wk2 (Canva/Adobe/Xello Resume). |
+| — | **A2 Directive → Suggestion sweep — verified no-op** | Grepped `"Walk students through"` (31 hits), `"project the"` (58 hits), `"Make this"` (3 hits), `"distribute printed"` (0), `"hard checkpoint"` (0). After sampling all categories and checking the 6745afa softening precedent, **0 warranted conversions**. "Walk students through" is the recommended facilitation register per CLAUDE.md lines 23/26. "project the X on the screen" is legitimate direct-instruction setup. "Make this" (3 hits) are all facilitation-tip framings with concrete follow-through, not filler. Real culture-prescription directives (voice levels, seating, checkout procedures) only exist in 1SW Wk0 Day 1, already softened by `6745afa`. No other weeks prescribe classroom culture — they are career content, not classroom management. No commit made; no fabricated edits to hit a line count. |
+| `fb08bde` | **A3 Declarative fluff sweep (second pass)** | 3 edits / 3 files, 3 insertions / 3 deletions. Dropped "The vibe shift makes the mock interview feel real..." trailing sentence from 6SW Wk5 Day 5 Facilitation Tip; dropped "Real audiences make presentations feel real." cliche sentence from 6SW Wk6 Day 3 Facilitation Tip (kept the "celebration AND assessment" dual-goal framing which is legitimate); deleted opening "This is the most important planning week..." superlative from 4SW Wk1 overview Career Connection (paragraph is substantive without it). Post-sweep greps all clean: `feel real` = 0, `This is the most important` = 0, `Not just` / `uncomfortable but` / Dimension 9 = all 0. |
+
+**2 Dimension 1 fidelity drifts found during A1 and noted for escalation** (not acted on — out of A1 scope):
+
+- **1SW Wk3 CS/IT** — S&S col 7 lists "RVR+ / SpheroEDU" but the week implementation uses paper wireframing + emerging tech research. No external tech tool in Materials to pre-flight. Decision needed: reinstate Sphero or update `scope-and-sequence.md` col 7 to match.
+- **3SW Wk6 Entrepreneurship** — S&S col 7 lists "Glowforge: Cut logo for clothing company" but the week implementation is a paper investor pitch + MVP design + personal budget. No Glowforge in Materials. Same decision needed.
+
+**Pattern propagation status after this session:**
+
+- ✅ **Presentation math sweep — DONE** (closed in morning session).
+- ✅ **Teacher Prep Checklist propagation — DONE** (`fc1c4dd`). 9 weeks landed. 2 intentional SKIPs above belong in the escalation queue, not in this sweep.
+- ⏭️ **Directive → Suggestion sweep — VERIFIED NO-OP.** The priority-list signal was written before grep verification; after verification, the phrases it hunted for are either the recommended register (per CLAUDE.md) or already swept (1SW Wk0 `6745afa`). **Strike from future priority lists** unless a specific new directive pattern is identified.
+- ✅ **Declarative fluff sweep — DONE** (`fb08bde` + the first-pass `bfb4cac`). Post-sweep grep confirms 0 hits on all listed patterns: `This is real`, `This builds real`, `This is what real`, `Real conferences`, `Real interviews`, `feel real`, `This is the most important`, `Not just`, `uncomfortable but`. `Make this` (3 hits) preserved intentionally — all three are substantive facilitation tips.
+
+**All six preservation checks clean after each commit:** mkdocs --strict; scripting=0; DOK 2-4 present on every day file; timing sums 45-55 on every day file; Support/ELL bullets preserved; Dimension 9 fluff=0.
 
 ### Session 2026-04-14 (afternoon — prose + math + Dimension 9)
 
@@ -684,23 +708,19 @@ Remaining by six-weeks block:
 - **5SW:** Wk2 Civil Engineering, Wk3 Construction, Wk4 HVAC/Electrical/Plumbing, Wk5 Personal Budget, Wk6 Real Estate
 - **6SW:** Wk1 Education, Wk2 Resume, Wk3 Business/Marketing, Wk4 Sales/Presentations, Wk5 Mock Interview
 
-**Priority order for the next session — pick one track:**
+**Priority order for the next session:**
 
-**Track A — cheap, high-coverage pattern sweeps (recommended first):**
+**Track A is DONE.** All three sub-sweeps are closed: Teacher Prep Checklist propagation (9 weeks, `fc1c4dd`), Directive → Suggestion (verified no-op), Declarative fluff (3 edits, `fb08bde`). No cheap pattern-propagation sweep currently on the queue. If the next agent finds a new pattern during instinct review of a specific week (e.g. an unchecked shape repeating across weeks), open a fresh Track A sub-sweep — but do not re-run the three sweeps above without a new signal.
 
-1. **Teacher Prep Checklist propagation.** Grep `cce-curriculum/scope-and-sequence.md` col 7 for tech tools (TinkerCAD, Sphero, Glowforge, micro:bit, MakeCode, drones, LEGO, Canva, eDynamic, Xello). Add the `!!! tip "Teacher Prep Checklist"` shape (see 5SW Wk1 overview.md for the prototype) to each matching overview.md Materials section. Probably 10-15 files.
-2. **Directive → Suggestion sweep.** Grep daily plans for `"Walk students through"`, `"distribute printed"`, imperative `"project the..."`, `"hard checkpoint"`, `"Make this"`. Spot-check each hit for directive register. Convert to `!!! tip` / `!!! note` admonitions where warranted. Most edits will be under 15 lines.
-3. **Broader declarative fluff + AI-cliche sweep.** Grep recipes in `editing-heuristics.md` rule 9. Remaining patterns to hunt: `"Make this feel real"`, `"This is uncomfortable but"`, `"This is the most important"`, `"Not just X, but Y"` constructions, over-use of em-dashes in prose paragraphs (most are legit — grep for specific cliche shapes, don't blanket-remove).
+**Track B — instinct review (default for the next session; 3-5 weeks max):**
 
-**Track B — instinct review (more expensive; 3-5 weeks max per session):**
-
-1. **2SW Wk5 Powerskills-Communication** — writer-reached "slot week" from a blank Topic field in the original spreadsheet. Highest chance of writer improvisation.
-2. **6SW Wk5 Mock Interview** — d(6)+d(7) heavy, thin H&L support (Powerskills supplement only), feeds directly into Wk6 Capstone. Cross-week dependency: does Wk5 assume the Career Plan from Wk6 Day 1 is done?
+1. **2SW Wk5 Powerskills-Communication** — writer-reached "slot week" from a blank Topic field in the original spreadsheet. Highest chance of writer improvisation. Cross-check: A1 sweep confirmed no external tech tool in this week's Materials, which matches the "slot week" premise (skills focus, workbook + role-plays only).
+2. **6SW Wk5 Mock Interview** — d(6)+d(7) heavy, thin H&L support (Powerskills supplement only), feeds directly into Wk6 Capstone. Cross-week dependency: does Wk5 assume the Career Plan from Wk6 Day 1 is done? **Note:** A3 already trimmed the "feel real" fluff from Day 5 Facilitation Tip — instinct review may still find more.
 3. **4SW Wk2 Career Plan Finalization** — the d(8)(C) official artifact week, directly adjacent to 4SW Wk1 already reviewed.
 4. **5SW Wk5 Personal Budget** — highest-stakes standalone summative in 5SW. Budget template + DFW cost reference sheet both listed as "not yet built" in `resources-status.md`.
 5. **3SW Wk3 Sustainable Engineering** — cross-cluster bridge week. Verify exact topic in scope-and-sequence.md first.
 
-**When in doubt: do Track A first.** It's much cheaper than 32 more instinct reviews and will catch most of the inherited issues in one pass.
+**Track B is the default now.** If a week in the queue above turns out to already be clean under instinct review, rotate in the next week on the remaining list in §10 and keep going until budget runs out.
 
 ### Escalation queue — items needing a human decision
 
@@ -714,6 +734,8 @@ These came out of the morning instinct-review pass and need a teacher/curriculum
 - **4SW Wk1 early-week formative checkpoint** — should Day 2 verify Day 1 output before proceeding?
 - **6SW Wk6 Days 3/4 co-facilitator staffing** — can the district commit an admin/counselor/second teacher for the 4 capstone presentation periods?
 - **6SW Wk6 Day 5 H&L persistence mitigation** — should Day 5 add a "pull out Wk0 folder if H&L is unavailable" note?
+- **1SW Wk3 CS/IT tech-tool drift** (found during Track A1, `fc1c4dd`) — S&S col 7 lists "RVR+ / SpheroEDU" but the week implementation uses paper wireframing + emerging tech research. Decision: reinstate Sphero in the week or update `scope-and-sequence.md` col 7 to match.
+- **3SW Wk6 Entrepreneurship tech-tool drift** (found during Track A1, `fc1c4dd`) — S&S col 7 lists "Glowforge: Cut logo for clothing company" but the week is a paper investor pitch + MVP design + personal budget. Same decision: reinstate Glowforge or update S&S col 7.
 
 ### Non-instinct-review work still queued
 
