@@ -501,9 +501,189 @@ Items that need a human decision — the curriculum writer couldn't fix these wi
 - **Lines changed:** +75 / -33 total. Largest single-file edit: 5SW Wk5 overview.md at 13 net lines (still under 15-line threshold).
 - **Verification:** all three commits passed the 6-check preservation loop (`mkdocs --strict`; scripting=0; DOK 2-4 present on all 15 reviewed day files; timing sums 50/50/50/50/50 on all 3 weeks; Support+ELL preserved; Dim 9 fluff=0). One clinical self-catch during 2SW Wk4 verification (regex-breaking header — caught and reverted).
 
-**Running cumulative totals across all sessions:**
+**Running cumulative totals across all sessions (through session 3):**
 
 - **Weeks reviewed:** 10 of 36 (1SW Wk0, 5SW Wk1 prototype, 4SW Wk1, 6SW Wk6, 2SW Wk5, 6SW Wk5, 4SW Wk2, 5SW Wk5, 3SW Wk3, 2SW Wk4)
 - **Concerns:** 86 lobbed → 60 Fix / 15 Defend / 11 Escalate / 4 Folded
 - **Commits:** 10 instinct-review commits
 - **Remaining weeks to instinct-review:** 26
+
+---
+
+## Week 11 — 6SW Wk4 Sales/Presentations (Session 2026-04-15 Track B session 4)
+
+**Why this week:** Dimension 9 "skill week" where hard presentation enforcement is earned pedagogically. Deferred from session 3 because it needed a dedicated focused pass. S&S explicitly labels it "PRESENTATION WEEK" with d(4)(C) as the primary oral-presentation artifact for the year. The Dim 9 question for this week was unique: verify the hard 3-min cap on Day 5 is pedagogically earned (drilled Days 1-4 with student-facing warning) rather than surprise discipline.
+
+**Pre-check (before spawning Teacher Implementer):** grep-verified the week's enforcement language. Found two hits — Day 3 `(verbal warning at 2:30, cut at 3:00)` and Day 5 `(hard cap)` — both appeared earned on first read. Timing was 50/50/50/50/50 going in.
+
+**Protocol used:** Teacher Implementer spawned as Explore sub-agent; Writer triage done in-session.
+
+**Top Teacher Implementer concerns (10 lobbed):**
+
+1. Day 5 Activity 1 math — 24 × 3 min = 72 min in a 50-min period. Compression options present in a `!!! warning` admonition but no pre-decision enforced + no student-facing notification of which option.
+2. Day 5 hard enforcement NOT genuinely earned — students drilled the cap in teacher-controlled contexts (Day 3 team pitches, Day 4 paired practice) but were never TOLD student-facing that individual Day 5 presentations use the same rule. Teacher cuts off an individual student in front of peers = surprise step from "team got cut off" → "I got cut off personally."
+3. Day 4 Activity 2 timing contradiction — "25 minutes (12 minutes per student)" in the intro vs. "Round 1 (12 min total)" in the substeps. For 2 students per pair, "12 min per student" would be 24 min, but the three rounds sum to 25 min.
+4. (Same as #2 — folded)
+5. Day 2 Activity 2 Powerskills Giving/Receiving Feedback crammed into 15 min (walkthrough + 5 min practice + 1 min debrief).
+6. Day 1 Activity 2 H&L Pitching Investors setup 30 min tight for first-time navigation (form teams + read 3 investor profiles + choose idea + fill 6-question chart).
+7. (Same as #1 — folded)
+8. Day 3 team pitch feedback timing tight with 5 teams (5 × ~6 min = 30 min in 25-min activity).
+9. Fluff patterns: Day 1 "exactly what real investors use" + Day 5 "a hard cap is how every real pitch event works" — borderline Dim 9 fluff.
+10. Vocabulary bloat: Value Proposition + Pitch defined in overview but not explicitly taught in body.
+
+**Writer triage: 8 Fix (2 folded), 2 Defend.**
+
+| # | Concern | Fix |
+|---|---------|-----|
+| 1+7 | Day 5 compression pre-decision not student-facing | Fold into #2 — single Day 4 "Announce Day 5 format" facilitation note covering BOTH the format choice AND the cap |
+| 2+4 | Day 5 hard cap not pre-announced student-facing Days 3/4 | Day 3 Activity 2 close with direct student-facing announcement; Day 4 Activity 2 add "Announce Day 5 format before students leave" facilitation note with both the cap reminder and the format choice |
+| 3 | Day 4 timing contradiction | Replace "25 minutes (12 minutes per student)" with "25 minutes across three rounds" |
+| 5 | Day 2 Powerskills 15 min | **DEFEND** — walkthrough + 5 min practice + 1 min debrief fits in 15 min; the skill is reused Days 3-5, retention comes from repetition not front-load |
+| 6 | Day 1 H&L navigation + printed artifacts | Add **Teacher Prep Checklist** admonition to overview (A5 trigger — 4 printed artifacts: Rubric, Outline, Appearance Guide, team planner + Day 5 compression pre-decision + H&L Ch 5 access check) |
+| 8 | Day 3 team pitch feedback timing tight at 5 teams | Add inline note in Activity 1 Format section: "With 5 teams, compress to one star + one wish per team to stay inside 25-min budget" |
+| 9 | Day 1 + Day 5 fluff phrases | Day 1: drop "exactly what real investors use"; replace with concrete Day 3 pitch tie. Day 5: drop "every real pitch event works"; replace with concrete Day 4 announcement tie ("they were told explicitly at the end of Day 4 that today's cap is the same rule") |
+| 10 | Vocabulary bloat | **DEFEND** — both Value Proposition and Pitch are in H&L Ch 5 workbook text students read Day 1 (Super Sports Ventures profile says "needs to see: Value Proposition") |
+
+**Commit:** `043f718` — 5 files, +19/-4 lines. Largest single-file edit: overview.md at +10 lines. All under the 15-line threshold.
+
+**Dim 9 verdict after fixes:** Earned-enforcement is now genuinely earned. Days 1-4 drill pacing with verbal warnings → Day 4 student-facing announcement names the rule explicitly → Day 5 enforcement references the prior announcement. Same words ("cut at 3:00"), now with the advance-warning pedagogy Dim 9 requires.
+
+**Escalated:** none.
+
+---
+
+## Week 12 — 5SW Wk2 Civil Engineering (Session 2026-04-15 Track B session 4)
+
+**Why this week:** high writer-reach yellow flag. S&S col 5 listed only pathway-level H&L exploration (Civil Engineer / Structural Engineer / Surveyor Hat Finder) + pathway fit assessment — no named H&L chapter project. S&S cols 7/8/9/12 (Tech Integration / Xello / eDynamic / Notes) all blank. Top candidate for writer-invented or thinly-grounded content based on session 3's writer-drift-vs-sparseness hypothesis.
+
+**Protocol used:** Teacher Implementer spawned as Explore sub-agent; Writer triage done in-session.
+
+**Writer-reach hypothesis verdict: partially falsified.** Teacher Implementer verified the week IS grounded to H&L Ch 8 (Engineering), specifically the **Infrastructure Imagination / Los Lomas** case study at pp. 131-135 — confirmed in HatsandLadders.txt at line 6501. The writer-invented piece is the straw-bridge build on Days 3-4, which is an EDP scaffold paralleling Infrastructure Imagination. Day 4 Activity 3 already connects them explicitly. Writer-drift correlation with S&S sparseness holds as a heuristic but isn't deterministic — weeks can be grounded even when S&S col 5 is thin if the writer found a named chapter project.
+
+**Top Teacher Implementer concerns (8 lobbed):**
+
+1. Day 2 Activity 2 Gallery Walk — 15 min / 6 stations / 12 pairs / 4 comparison questions per card is extremely tight; half the class won't hit all stations.
+2. Day 3 bridge design 17 min tight + Day 4 build/test checkpoints are diagnostic-only (no time to re-teach if teams are off-track).
+3. Day 1 Activity 3 Los Lomas report read is background-only with no callback to bridge build (week treats them as parallel, not connected).
+4. Day 2 Activity 3 emerging careers categories (green building / smart infra / sustainability) weak source grounding — no BLS or H&L citation; "Why DFW needs it" prompt invites socioeconomic framing risk.
+5. Week-wide: no H&L Ch 3 (A&C) reference despite 5SW A&C cluster arc with Week 1 Architecture.
+6. Day 4 Method 1 test ("visible bend" in pennies-in-cup) is subjective and will cause 7th-grade arguments; single test station creates waiting bottleneck.
+7. Day 5 warm-up "If a bridge failed in the real world and people got hurt..." primes failure/injury right before Activity 1 publicly ranks bridge weights (emotional-safety risk for teams whose bridges held low weight). Activity 1 label says "Celebration" but the ranking is public.
+8. Overview sentence stem "A Smart Infrastructure Specialist is a NEW career because..." conflates newness with growth — the week's own emerging-careers definition says "did not exist 10 years ago OR are rapidly growing."
+
+**Writer triage: 6 Fix, 2 Defend (+1 TEKS-stitching note).**
+
+| # | Concern | Fix |
+|---|---------|-----|
+| 1 | Day 2 Gallery Walk 6 stations too many | Soften expectation — hit 4 of 6 stations (PSAT 8/9, SAT, ACT, TSI most relevant to 7th graders); skim remaining only if time allows |
+| 2 | Day 3/4 bridge timing pressure | **DEFEND** — Day 3 has approval facilitation tip for stuck teams; Day 4 bottleneck partially addressed via #6 parallel-activity note |
+| 3 | Day 1 Los Lomas disconnect from bridge build | Day 1 Activity 3 closing — add forward-reference sentence linking Los Lomas report to Days 3-4 straw-bridge challenge |
+| 4 | Day 2 emerging careers weak source | Add BLS OOH Environmental Engineers citation as the source for the three categories |
+| 5 | No Ch 3 reference despite A&C cluster arc | **DEFEND** — Ch 8 is the correct H&L anchor for civil engineering; overview header already names A&C cluster identity; adding Ch 3 would be over-correction |
+| 6 | Day 4 Method 1 subjective + bottleneck | Define "failure" before testing (first visible sag OR joint separation; teacher's call final); add parallel-activity note — waiting teams start Activity 3 at desks |
+| 7 | Day 5 warm-up emotional-safety (lesson 13) | **Two-part fix:** (a) warm-up reframed from "people got hurt" framing to "what questions do engineers ask when investigating failure" — keeps forensic engineer reveal but drops injury priming; (b) Activity 1 header changed from "Celebration" to "Share-Out + Team Presentations"; drop public high-to-low ranking; keep the whiteboard data for pattern-finding; add "most creative structural approach" recognition alongside highest-weight + best strength-to-weight |
+| 8 | Overview sentence stem conflates newness/growth | Change stem "A Smart Infrastructure Specialist is a NEW career because..." to "...is an EMERGING career because... The technology or need that made it grow is..." — aligns with the definition |
+| — | d(3)(E) PSAT/SAT placement tenuous (15 min Day 2 Activity 1 + 15 min Activity 2 ≈ 30 min stitched) | **DEFEND** — engineering scholarship tie is made explicit on Day 2 line 37; PSAT 8/9 (9th grade) timing is real for 7th graders; removing the stitch would require redesigning TEKS coverage |
+
+**Commit:** `2f2a1af` — 5 files, +10/-10 lines. Smallest Track B commit by net lines this session. All per-concern edits ≤8 lines.
+
+**Escalated:** none.
+
+---
+
+## Week 13 — 2SW Wk1 Legal Studies (Session 2026-04-15 Track B session 4)
+
+**Why this week:** calibration week after three higher-stress reviews in session 3 + two higher-stress reviews (6SW Wk4, 5SW Wk2) in session 4. Typical content week — low-to-medium drift risk expected. Use as a check on whether the review protocol is working correctly: a calibration week should return a LOW concern count if the process is well-calibrated.
+
+**Protocol used:** Teacher Implementer spawned as Explore sub-agent; Writer triage done in-session.
+
+**Calibration verdict: PASSED.** 6 concerns lobbed (the lowest of the 3 weeks this session, as expected for a typical content week). 3 Fix + 3 Defend. Source grounding strong: H&L Ch 13 (Law and Public Service) anchors Days 1-2 with named activities (Hat Research p. 220, Emergency Essentials pp. 210-212); iCivics anchors Day 3; BLS + H&L Hat Finder anchor Day 4. Protocol is not over-fitting to high-stress weeks.
+
+**Top Teacher Implementer concerns (6 lobbed):**
+
+1. Day 3 at 55 min (top of 45-55 range) — no transition buffer; tech hiccups or game hangs break the period.
+2. Day 4 Activity 3 Legal Entrepreneur Card lacks named H&L Ch 13 activity citation — looks like a writer reach for d(3)(I) coverage.
+3. Day 4 AI ethics debate (bail amounts + recidivism prediction) has no emotional-safety frame; Irving ISD students may have family members affected by the criminal-justice system.
+4. Day 5 eDynamic Unit 5.1 VERIFY flag + thin 5-min preview.
+5. Powerskill Persuasion claimed in overview as the bridge to Day 4 debate but not explicitly taught.
+6. Vocabulary term "probable cause" defined in overview but not pre-taught before Day 3 iCivics gameplay (was only in the Day 3 Support cheat sheet).
+
+**Writer triage: 3 Fix, 3 Defend.**
+
+| # | Concern | Fix |
+|---|---------|-----|
+| 1 | Day 3 at 55 min | Activity 1 `(10 min)` → `(7 min)` + Exit Ticket `(5 min)` → `(3 min)` — both minute-count changes in H2 headers (lesson 12 compliant); brings Day 3 to 50 min matching the rest of the week |
+| 2 | Day 4 Legal Entrepreneur Card source | **DEFEND** — grep-verified H&L Ch 13 has no named legal-entrepreneurship activity; Day 4 Activity 3 grounds to BLS + H&L Hat Finder "self-employment" data; d(3)(I) coverage is a legitimate writer reach |
+| 3 | Day 4 AI ethics debate emotional-safety (lesson 13) | Add "Frame the debate at the system level, not the personal level" facilitation note next to the existing "arguing the opposite side" tip — explicit system-level framing keeps the debate on the technology and the system design, not on who deserves an outcome |
+| 4 | Day 5 eDynamic Unit 5.1 VERIFY + thin preview | **DEFEND** — VERIFY blocks are per editing-heuristics rule 7 (never delete); 5-min preview is a bridge, not a summative dependency |
+| 5 | Powerskill Persuasion claimed but not delivered | **DEFEND** — overview line 55 is a chapter-level reference, not a claim that a Powerskills module is delivered; Day 4 debate teaches persuasion implicitly through sentence stems + evidence requirements |
+| 6 | Probable cause not pre-taught | Day 3 Activity 1 body — add 60-sec whole-class vocab pre-teach for probable cause + due process + evidence before gameplay starts (inside the new 7-min Activity 1 budget) |
+
+**Commit:** `a9ec5a9` — 2 files, +6/-3 lines. The smallest Track B commit ever recorded, as befits a calibration week.
+
+**Escalated:** none.
+
+---
+
+## Mid-session structural escalation — 6SW Wk6 fully-optional reframe (Session 2026-04-15 Track B session 4)
+
+**Not an instinct review** — a user-driven structural escalation mid-session. After the 3 instinct reviews landed, the session planning message flagged that 6SW Wk6 was very unlikely for teachers to complete at all due to end-of-year disruption, and that the prior buffer-week admonition (marking Day 1 Career Plan + Days 3-4 presentations as "load-bearing") contradicted that reality. User asked: if 6SW Wk6 content is non-negotiable for TEKS coverage, make sure it's somewhere else; otherwise make 6SW Wk6 fully skippable and note suggestions concisely like the Wk0 flexibility plan.
+
+**Audit performed:**
+
+Grep of all overviews for TEKS codes 6SW Wk6 claims:
+
+| TEKS | Upstream homes | Buffer status upstream |
+|---|---|---|
+| **d(4)(C)** (oral presentation) | **6SW Wk4 Sales/Presentations** + 6SW Wk6 | 6SW Wk4 is NOT a buffer — presentation skill week. ✅ d(4)(C) locked upstream. |
+| **d(8)(A)** (select pathway) | **4SW Wk1 Career Planning** + 6SW Wk6 | 4SW Wk1 IS a STAAR buffer. ⚠ both homes are buffers. |
+| **d(8)(B)** (document courses/postsecondary) | **4SW Wk1 + 4SW Wk2** + 6SW Wk6 | All three are buffers. ⚠ |
+| **d(8)(C)** (write individual plan) | **4SW Wk2 Course Mapping** + 6SW Wk6 | Both homes are buffers. ⚠ |
+
+**Finding:** 6SW Wk6 is NOT uniquely load-bearing for any TEKS. Every claim has upstream coverage. Making it fully skippable does not sacrifice TEKS coverage *as long as the upstream weeks (4SW Wk1, 4SW Wk2, 6SW Wk4) stay intact*.
+
+**Structural risk surfaced but not fixed in this session:** every week claiming d(8)(A)/(B)/(C) is a buffer week (4SW Wk1, 4SW Wk2, 6SW Wk6). If a teacher loses BOTH the STAAR buffer and the end-of-year buffer, d(8) doesn't get covered anywhere. The content-cannot-move-between-weeks rule (user direction, S&S fidelity) blocks the obvious structural fix of moving d(8)(C) to a non-buffer week. Added to escalation queue for teacher meeting 2026-04-15.
+
+**Edits applied to 6SW Wk6 overview (commit `01627b1`):**
+
+1. **Replace `!!! note "Buffer week"` at lines 9-10 with `!!! abstract "Adapt to your end-of-year schedule — everything here is optional"`** — Wk0-style verb menu:
+    - "Nothing in this week is critical to year-end TEKS coverage."
+    - Per-TEKS upstream coverage explicitly named (d(4)(C) → 6SW Wk4; d(8)(A) → 4SW Wk1; d(8)(B) → 4SW Wk1 + 4SW Wk2; d(8)(C) → 4SW Wk2)
+    - Verb menu: **cut** (RIASEC retake, celebration), **compress** (merge Days 3-4 presentations into one day with 90-sec slots), **substitute** (swap celebration for written reflection or thank-you circle), **skip entirely** (Day 5 year-end closer only)
+    - Closing: "Any subset of the 5 days is fine. Zero days is fine."
+
+2. **Soften TEKS-section body claim** ("This is the CAPSTONE WEEK. Six weeks of work..." → "This is the capstone pass — not the artifact week.") — preserves capstone framing for teachers who run the week but doesn't contradict the new admonition.
+
+3. **Soften Summative Assessment body claim** ("The H&L downloadable Career Plan is the official course artifact" → "...is the capstone-week polish of an artifact already produced in 4SW Wk1-Wk2").
+
+4. **Soften Pre-Capstone Teacher Checklist intro** ("This is the year's highest-stakes week" → "This week is optional per the admonition above — but if your schedule allows it, it is the most platform-dependent week in the year").
+
+**No day files touched. No content removed. No TEKS claims removed from the overview.** The week's structure, activities, and pedagogical content are preserved for teachers who CAN run it — only the framing changed.
+
+**Commit:** `01627b1` — 1 file, +16/-6 lines. Over the 15-line day-file surgical limit, but this is an overview-level structural reframe the user explicitly authorized in session.
+
+**Lesson 14 added to PLANNING.md §10:** Fully-optional-week reframe is a new structural tool — valid only when every TEKS really is covered upstream; requires body softenings alongside the admonition rewrite to prevent contradiction; reference implementation is commit `01627b1` on 6SW Wk6.
+
+---
+
+## Session 2026-04-15 Track B session 4 totals
+
+- **Weeks instinct-reviewed:** 3 (6SW Wk4, 5SW Wk2, 2SW Wk1)
+- **Structural commits:** 1 (6SW Wk6 reframe — not an instinct review but a user-driven structural escalation)
+- **Concerns identified (instinct reviews only):** 24 (10 + 8 + 6)
+- **Fix rows applied (instinct reviews):** 17 (8 + 6 + 3)
+- **Defended:** 7 (2 + 2 + 3)
+- **Folded (duplicates):** 2 (both in 6SW Wk4)
+- **Escalated:** 0 from instinct reviews; 2 new items from the 6SW Wk6 audit (d(8) structural risk + curriculum-density pattern)
+- **Commits landed:** 4 (`043f718`, `2f2a1af`, `a9ec5a9`, `01627b1`)
+- **Files touched:** 13 (5 + 5 + 2 + 1)
+- **Lines changed (instinct reviews):** +35 / -17 across 12 files
+- **Lines changed (structural reframe):** +16 / -6 across 1 file
+- **Verification:** all four commits passed the 6-check preservation loop (`mkdocs --strict`; scripting=0; DOK 2-4 present on all 15 instinct-reviewed day files; timing sums 50/50/50/50/50 on 6SW Wk4, 5SW Wk2, 2SW Wk1 — Day 3 of 2SW Wk1 brought from 55→50; Support+ELL preserved; Dim 9 fluff=0).
+
+**Running cumulative totals across all sessions:**
+
+- **Weeks reviewed:** 13 of 36 (session 3 list + 6SW Wk4, 5SW Wk2, 2SW Wk1) + 1 structural reframe (6SW Wk6, but also counted as instinct-reviewed in the morning of session 1)
+- **Concerns (instinct reviews only):** 110 lobbed → 77 Fix / 22 Defend / 11 Escalate / 6 Folded
+- **Commits:** 13 instinct-review commits + 1 structural reframe = 14 total Track B commits
+- **Remaining weeks to instinct-review:** 23 of 36
