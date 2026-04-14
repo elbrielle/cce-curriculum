@@ -39,7 +39,7 @@ Students take their Day 3 worksheet and complete the cross-cluster row. They pic
 Students prepare a 60-90 second talking script using the back of the note card.
 
 !!! tip "Facilitation Tip"
-    Students will pick the most extreme cross-cluster comparisons (Diesel Tech vs. Surgeon, Auto Mechanic vs. Software Engineer). Let them. The bigger the gap, the more interesting the discussion. The point is not to declare one career better — it is to make the tradeoffs visible.
+    Students will pick the most extreme cross-cluster comparisons (Diesel Tech vs. Surgeon, Auto Mechanic vs. Software Engineer). Let them. The bigger the gap, the more interesting the discussion. The point is to make the tradeoffs visible, not to declare one career better.
 
 ---
 

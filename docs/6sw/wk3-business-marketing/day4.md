@@ -72,7 +72,7 @@ Students pick ONE lesson and work through it independently. Most lessons take 30
 !!! tip "Facilitation Tip"
     Google Applied Digital Skills tracks completion automatically when students log in with their school Google account. Have students screenshot the lesson page when they finish for the day so the teacher has a checkpoint.
 
-**Connection to marketing careers:** Every lesson on Google Applied Digital Skills is a real skill that marketing professionals use daily. This is not "fake school work" — it is hands-on practice with the actual tools.
+**Connection to marketing careers:** Every lesson on Google Applied Digital Skills is a real skill that marketing professionals use daily. It's hands-on practice with the actual tools.
 
 ---
 

@@ -46,7 +46,7 @@ Students fill in the Apprenticeship vs. College comparison chart:
 | Debt at finish | $0 | Average $30,000+ |
 
 !!! tip "Facilitation Tip"
-    Do not present apprenticeship as "better than college" — it is a different path that suits different students. Emphasize that both are valid and the best choice depends on personality, interests, and career goals.
+    Do not present apprenticeship as "better than college." It is a different path that suits different students. Emphasize that both are valid and the best choice depends on personality, interests, and career goals.
 
 ---
 

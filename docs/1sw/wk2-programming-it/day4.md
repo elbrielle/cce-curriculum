@@ -16,7 +16,7 @@
 
 **WARM-UP: Have you ever written code before — on Scratch, Code.org, Tynker, Roblox Studio, or anywhere else? If yes, what did you make? If no, what do you THINK coding is going to feel like?**
 
-Quick poll. Most students have done at least one Code.org or Scratch tutorial in elementary. Bridge: "Today is your first real Hour of Code as a 7th grader. The activities are harder than what you may have done before. The goal is not to finish — it is to learn what software developers actually do."
+Quick poll. Most students have done at least one Code.org or Scratch tutorial in elementary. Bridge: "Today is your first real Hour of Code as a 7th grader. The activities are harder than what you may have done before. The goal is to learn what software developers actually do. Finishing is optional."
 
 ---
 

@@ -4,7 +4,7 @@
 
 ## Lesson Objective
 
-Students establish CCE lab routines and safety expectations, set up their Hats & Ladders Climber Profile and Xello accounts, complete the RIASEC Core Personality, Work Values, Building Blocks, and Xello Matchmaker assessments, and explore their first career cluster recommendations. This week is the foundation for every other week of the year — every later H&L recommendation depends on the data students enter here.
+Students establish CCE lab routines and safety expectations, set up their Hats & Ladders Climber Profile and Xello accounts, complete the RIASEC Core Personality, Work Values, Building Blocks, and Xello Matchmaker assessments, and explore their first career cluster recommendations. Every later H&L recommendation depends on the data students enter this week.
 
 ## Demonstration of Learning
 
@@ -31,7 +31,7 @@ Students establish CCE lab routines and safety expectations, set up their Hats &
 
 ## Career Connection
 
-Every career starts with self-awareness. Before students can explore specific clusters, they need to understand their own personality traits, interests, and values. The RIASEC model — Realistic, Investigative, Artistic, Social, Enterprising, Conventional — and its H&L "Doer / Analyzer / Creator / Helper / Persuader / Organizer" naming is the same framework used by professional career counselors and platforms like O*NET. The data students enter this week powers every recommendation H&L makes for the rest of the year. This is not a throw-away survey week — it is the engine of the course.
+Every career starts with self-awareness. Before students can explore specific clusters, they need to understand their own personality traits, interests, and values. The RIASEC model (Realistic, Investigative, Artistic, Social, Enterprising, Conventional) and its H&L "Doer / Analyzer / Creator / Helper / Persuader / Organizer" naming is the same framework used by professional career counselors and platforms like O*NET. The data students enter this week powers every recommendation H&L makes for the rest of the year. Treat it as the engine of the course, not a throw-away survey.
 
 **Irving ISD Pathway:** All District Wide, MacArthur, Nimitz, Irving High, Singley, and Cardwell/Ratteree pathways are introduced at the overview level. Students will see the full Irving ISD CTE Pathways poster on Day 5 and identify which pathways catch their eye.
 
@@ -69,18 +69,18 @@ The workbook explicitly directs students to the H&L app at multiple points (Buil
 
 ## Week 0 Flexibility Framework
 
-!!! abstract "This week isn't a fixed schedule — adapt it to your campus"
+!!! abstract "Adapt to your campus schedule"
 
-    Week 0 is the one week in this curriculum where you cannot assume full control of 50-min periods. Campus events (Cub Camp, ID photos, orientations), tech-access gates, first-week roster churn, and your own lab culture-setting all reshape the week. **The 5-day Week at a Glance table below is a default, not a fixed sequence.** Use the load-bearing / flex distinction below and your own judgment.
+    Week 0 is the one week in this curriculum where you cannot assume full control of 50-min periods. Campus events (Cub Camp, ID photos, orientations), tech-access gates, first-week roster churn, and your own lab culture-setting all reshape the week. **The 5-day Week at a Glance table below is a default, not a fixed sequence.** Use your judgment.
 
-    **Load-bearing — protect these; the rest of the year depends on them:**
+    **Non-negotiables:**
 
-    1. **RIASEC / Discover My Core assessment** (default Day 2 Activity 2) — 4SW Wk1 mid-year reconciliation and 6SW Wk6 capstone both reference students' Week 0 type.
-    2. **Work Values survey** (default Day 3 Activity 1) — top 2 recorded in H&L.
-    3. **Building Blocks entry** (default Day 3 Activity 2) — ≥3 entries in the Climber Profile.
-    4. **My Career Journey reflection** (default Day 5 Activity 2) — the persistent artifact 4SW Wk1 and 6SW Wk6 directly reference.
+    1. **RIASEC / Discover My Core assessment** — 4SW Wk1 mid-year reconciliation and 6SW Wk6 capstone both reference students' Week 0 type.
+    2. **Work Values survey** — top 2 recorded in H&L.
+    3. **Building Blocks entry** — ≥3 entries in the Climber Profile.
+    4. **My Career Journey reflection** — the persistent artifact 4SW Wk1 and 6SW Wk6 directly reference.
 
-    These four must land in Week 0 **or early 1SW Wk1** — beyond end of 1SW Wk1 Day 5, cluster recommendations become unreliable.
+    These four must land in Week 0 or early 1SW Wk1.
 
     **Flex — cut, move, compress, or substitute based on your campus reality:**
 
@@ -89,8 +89,6 @@ The workbook explicitly directs students to the H&L app at multiple points (Buil
     - **Day 4 Meet the Career Clusters workbook rating**
     - **Day 5 Design Thinking Powerskill**
     - **Day 5 Cluster Curiosity Gallery Walk**
-
-    **Bottom line:** Land the four load-bearing activities and have students sign a safety contract before leaving Week 0 (or early Wk1) — the rest is your judgment.
 
 ## Week at a Glance
 

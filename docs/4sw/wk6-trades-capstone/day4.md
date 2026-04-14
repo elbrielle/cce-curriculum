@@ -29,7 +29,7 @@ Walk through 3-4 specific examples where work ethic and integrity in trades care
 - **Auto Mechanic + brakes:** A mechanic who skips a torque check on a brake job because they want to leave early can cause the wheel to detach on the highway. Integrity means doing every step correctly, especially the boring ones, even when no one is watching.
 - **Aviation Mechanic + engine inspection:** Aviation mechanics sign their name on every inspection. If they miss a crack in a turbine blade and the plane crashes, the FAA traces it to the signature. There is no hiding from poor work in aviation.
 - **Drone Pilot + Part 107 logbook:** Commercial drone pilots are required to log every flight, every battery check, every safety incident. A pilot who lies in their logbook and gets caught loses their certification permanently.
-- **Diesel Tech + commercial truck inspection:** Diesel techs inspect 18-wheelers that share the road with families. Skipping a brake check can kill people. The work ethic isn't optional — it is the entire job.
+- **Diesel Tech + commercial truck inspection:** Diesel techs inspect 18-wheelers that share the road with families. Skipping a brake check can kill people. Work ethic isn't a nice-to-have. It is the entire job.
 
 Surface the pattern: in every trades career, work ethic is not just about being a good person. It is the safety system that protects the public. Employers cannot hire skill without ethics — they will fire a skilled-but-dishonest tech immediately.
 
