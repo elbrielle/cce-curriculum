@@ -62,15 +62,21 @@ Distribute the printed My Career Journey reflection handout. This is the major s
 
 This document will be revisited at mid-year (4SW Wk1-2 Career Plan) and end-of-year (6SW Wk6 Final Career Plan). Tell students: "Save this. We will look at it again in January and in May. You will be amazed at how much you grew."
 
+!!! note "Persistent Portfolio — Critical for Mid-Year and Capstone"
+    Keep all students' My Career Journey reflections in a folder (digital or paper) that you can re-issue at 4SW Wk1 Day 1 (mid-year reconciliation) and 6SW Wk6 Day 1 (capstone). Both later weeks directly ask students to reference their Week 0 answers to measure growth — if the reflection is lost, students cannot complete those warm-ups without reconstructing data from memory. A simple class folder labeled "Week 0 — return at mid-year and capstone" is enough.
+
 Walk the room as students fill it in. Help students who are stuck on item #7 ("One Career I Am Curious About") by asking what jumped out at them this week.
 
 ---
 
 ## Activity 3: Career Cluster Curiosity Gallery Walk (8 min)
 
-Post the 14 H&L cluster posters (or printed cluster cards) around the room — one cluster per poster. Give each student a sheet of sticky dots.
+Post the 14 H&L cluster posters (or printed cluster cards) around the room — one cluster per poster. Give each student 2-3 sticky dots.
 
-Students walk the room and place sticky dots under the 2-3 clusters they are most curious about. After everyone has placed their dots, lead a quick whole-class discussion:
+!!! tip "Logistics Tip"
+    To manage traffic smoothly, students place dots at their own pace over 4 minutes rather than all walking together. Release one table group at a time — this avoids crowding and lets students linger on clusters they are curious about. Posters can be posted on walls, boards, or standing easels depending on your lab layout.
+
+Students place sticky dots under the 2-3 clusters they are most curious about. After everyone has placed their dots, lead a quick whole-class discussion:
 
 - Which clusters got the most dots?
 - Which clusters got the fewest?

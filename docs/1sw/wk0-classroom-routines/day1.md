@@ -14,7 +14,7 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Write or draw what you think you might want to be when you grow up. It is 100% okay if you have no idea — write "I don't know yet" and draw a question mark. There is no wrong answer.**
+**WARM-UP: Write or draw what you think you might want to be when you grow up. It is 100% okay if you have no idea — write "I don't know yet" and draw a question mark. You may also write or draw "I'm still exploring" or "I'm interested in _____, but I'm not sure yet." There is no wrong answer.**
 
 This is a baseline. Collect responses in a folder labeled "Day 1 Predictions" and revisit them in 6SW Wk6 when students complete the Final Career Plan. They will be amazed at how much they grew. Reassure students who wrote "I don't know yet" — that is exactly why they are in this class.
 
@@ -24,13 +24,14 @@ This is a baseline. Collect responses in a folder labeled "Day 1 Predictions" an
 
 This is a CTE technology lab, not a regular classroom. Students will use Chromebooks daily and, as the year progresses, robots, 3D printers, micro:bits, the Glowforge laser cutter, and craft materials. Set the tone now: technology is a tool, not a toy.
 
-Walk students through:
+!!! tip "Suggested Routine — Adapt to Your Lab Culture"
+    Every VILS lab is different — your Chromebook cart location, your voice-level norms, your equipment sign-out system. Use this list as a starting point and substitute what actually works in your room:
 
-1. **Chromebook checkout and return procedures** — where the cart is, how to log in, what to do if a Chromebook will not charge.
-2. **Software/website use rules** — only sites assigned by the teacher; no gaming sites; closed-tab discipline.
-3. **Equipment respect** — students who break, mishandle, or take equipment home will lose lab privileges.
-4. **Voice levels and movement** — when working at desks vs. when working with hands-on equipment.
-5. **Lab safety basics** — keep walkways clear, no food/drink on tech, report damage immediately.
+    1. **Chromebook checkout and return procedures** — where the cart is, how to log in, what to do if a Chromebook will not charge.
+    2. **Software/website use rules** — only sites assigned by the teacher; no gaming sites; closed-tab discipline.
+    3. **Equipment respect** — students who break, mishandle, or take equipment home will lose lab privileges.
+    4. **Voice levels and movement** — when working at desks vs. when working with hands-on equipment.
+    5. **Lab safety basics** — keep walkways clear, no food/drink on tech, report damage immediately.
 
 Distribute the printed Lab Safety Contract. Students read, sign at the bottom, and return. File these in a Day 1 folder.
 
@@ -59,13 +60,13 @@ Frame the H&L vocabulary the workbook uses: students are **Climbers**, careers a
 
 ---
 
-## Activity 3: Exploring the World of Work — Workbook Scavenger Hunt (12 min)
+## Activity 3: Exploring the World of Work — Workbook Scavenger Hunt (10 min)
 
 **Source:** H&L Workbook Ch 1, p. 2 — "Exploring the World of Work"
 
 Distribute or have students open their H&L workbooks to page 2. Read the chapter opener together (about how every object in the room was made by people in different careers).
 
-**Student task (from workbook):** Pair up with a partner. Spend 5 minutes listing as many items in the classroom as possible. For each item, write at least one career that helped create it or bring it into the room.
+**Student task (from workbook):** Pair up with a partner. Spend 3 minutes listing as many items in the classroom as possible. For each item, write at least one career that helped create it or bring it into the room.
 
 Examples to seed the activity:
 - The chair you are sitting in — Furniture Designer, Carpenter, Truck Driver

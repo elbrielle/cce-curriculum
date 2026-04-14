@@ -63,7 +63,7 @@ Students log into Hats & Ladders and navigate to the "Discover My Core" assessme
 Walk the room while students take the assessment. Watch for students clicking through without reading. Stop them and reset.
 
 !!! warning "Common Issue"
-    Some students will rush to "finish first." Tell the class: "There is no first place in this. The students who go fast usually have to retake it. Slow is smart." If you see a student clicking randomly, sit next to them and read questions aloud with them.
+    Some students will rush to "finish first." Tell the class: "There is no first place in this. The students who go fast usually have to retake it. Slow is smart." If you see a student clicking randomly, sit next to them and read questions aloud with them. **Peer support:** If multiple students need read-aloud help, pair them with fluent-reading peers first — this frees you to monitor the whole room and only sit 1-on-1 with students who still struggle after peer scaffolding.
 
 ---
 

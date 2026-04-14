@@ -69,7 +69,10 @@ Then have students complete the workbook task:
 
 > [H&L PLATFORM] The workbook (p. 11) directs students: "Open the Hats & Ladders app and create at least 3 Building Blocks. You will use these Building Blocks throughout this course! You can always add more Building Blocks throughout the year." Students enter at least 3 Building Blocks in the app's Building Blocks feature. Examples: "I babysit my little brother," "I play soccer on Saturdays," "I draw anime characters." The app will use these to refine cluster recommendations.
 
-Walk the room. Check that every student has at least 3 Building Blocks visible on their Climber Profile before moving on. This is a hard checkpoint — Building Blocks are foundational data for the rest of the year.
+Walk the room. Check that every student has at least 3 Building Blocks visible on their Climber Profile. Building Blocks are foundational data for the rest of the year.
+
+!!! note "Checkpoint Guidance"
+    If 1-2 students are still typing, you may move to Activity 3 while they finish — have them submit Building Blocks by end of class. Do not hold the whole class waiting, but do follow up individually to ensure all students have at least 3 entries before Day 4.
 
 **DOK 3:** What conclusions can you draw about how your RIASEC type, Work Values, AND Building Blocks all connect? Pick ONE Building Block and explain how it connects to a possible career cluster.
 
