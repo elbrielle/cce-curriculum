@@ -54,22 +54,28 @@ Students fill in a quick 3-row table in their notebook:
 
 ---
 
-## Activity 3: College Credit in High School Discussion (10 min)
+## Activity 3: College Credit in High School — Intro + Turn-and-Talk (10 min)
 
-Project a slide showing Irving ISD's college credit options:
+After 30 min at the Chromebook, students need active processing — not a 10-min lecture. Use a **4-3-3** structure:
+
+**Intro (4 min):** Project a slide with Irving ISD's four college credit options and give a brief description of each:
 
 - **Dual Credit** — Take a high school course that also counts as college credit at Dallas College. Free for Irving ISD students.
 - **AP (Advanced Placement)** — Take a rigorous course and pass an exam to earn college credit at most U.S. universities.
 - **Articulated CTE Credit** — Some Singley Academy CTE courses give college credit at Dallas College after high school graduation.
-- **Industry Certifications** — Singley Academy CTE pathways earn nationally-recognized credentials (like the Certified Medical Billing and Coding Specialist) that some employers accept in place of a degree.
+- **Industry Certifications** — Singley Academy CTE pathways earn nationally-recognized credentials that some employers accept in place of a degree.
 
-Walk through how a student interested in nursing could use these:
+Then show the sample nursing pathway:
 
 - 9th-10th grade: Health Science Theory at Singley (CTE)
 - 11th grade: Anatomy & Physiology dual credit (high school + Dallas College)
 - 12th grade: Patient Care Tech certification (CTE) + AP Biology
 
-By graduation, this student has high school diploma + 6+ college credits + a healthcare certification.
+This student graduates with diploma + 6+ college credits + a healthcare certification.
+
+**Turn-and-Talk (3 min):** Students pair up and answer: "Which of the four options would YOU most likely use based on what you know about yourself? Why?"
+
+**Whole-class share (3 min):** Ask 2-3 volunteers to share their pair's answer.
 
 **DOK 2:** How would you describe the advantages of earning college credit while still in high school?
 

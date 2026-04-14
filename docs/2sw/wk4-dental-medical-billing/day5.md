@@ -26,7 +26,7 @@ Students return to the H&L app and add Wk 3-4 health science favorites to their 
 
 > [H&L PLATFORM] In the H&L app, navigate to "Hat Finder," filter by "Health Science" cluster. Click the heart icon on 1-2 dental careers and 1-2 health informatics careers. Then click "Climber Profile" to verify the new favorites appear. Students should now have 4-5 Health Science favorites total (mix of nursing, dental, medical billing).
 
-The teacher circulates and asks each student which dental or medical billing career they favorited and why.
+The teacher circulates during the 10 min and talks to 10–12 students (not all 24 — that math doesn't work in 10 min). Prioritize students who added a different pathway mix than their peers, or students who look stuck on the H&L favorites step.
 
 ---
 
@@ -46,6 +46,8 @@ These reflections feed into the d(8)(B) career-plan documentation that students 
 ## Activity 3: Recommendation Paragraph (15 min)
 
 This is the summative assessment for Week 4. Students write a 4-sentence recommendation paragraph for a hypothetical friend.
+
+**Before students start writing, give them 2 min to pull out their Day 2 Career Comparison worksheet and re-read the 3 rows.** The 4-sentence paragraph asks students to pull education time, DFW salary, and an Irving ISD pathway connection — trying to recall those from memory under time pressure usually fails. The pair-read + highlight step at the end is optional: if students need the full 15 min to write, skip the pair-read and have them submit the paragraph directly to the exit-ticket pile.
 
 **Scenario** (project on the board): *"Your friend wants to work in healthcare but does not want to go to college for 8 years. They have good grades and want to start working as soon as possible after high school. Recommend ONE Health Science career to them."*
 

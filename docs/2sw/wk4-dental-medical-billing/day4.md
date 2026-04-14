@@ -62,6 +62,10 @@ The teacher reveals the correct answers and students self-grade. Aim for 100% on
 
 ## Activity 3: Coding Simulation Round 2 — Harder (10 min)
 
+Before releasing students into Round 2, pause for a **30-second scaffolding moment**: "Round 2 changes the rule. Until now, one symptom = one code. Now a chart might match 2 or 3 codes on the reference sheet, and only one of them is the BEST fit. Real medical coders call this *specificity* — picking the code that matches the actual diagnosis, not a vaguer symptom code. Watch me work through one together before you start."
+
+Then walk through the worked example below on the projector (reading the chart, listing which codes seem possible, explaining *why* the more specific diagnosis wins).
+
 Round 2 has 5 charts with more ambiguous descriptions (multiple symptoms, possible diagnoses). Students must pick the BEST code, not just any code.
 
 Example:
@@ -76,7 +80,7 @@ Students complete Round 2 individually. The teacher reveals answers and students
 
 ## Activity 4: Coding Simulation Round 3 — Speed (8 min)
 
-Round 3 is a speed challenge. Students get 5 minutes to code as many patient charts as possible while maintaining accuracy. The teacher times the round and stops at 5 minutes.
+Round 3 is a **speed challenge and is optional** — if Round 2 ran long because of the specificity scaffolding, cut Round 3 and move directly to the Exit Ticket. Rounds 1–2 carry d(2)(A) on their own, and the 8 min absorbs into Round 2's overflow if needed. When you do run it: students get 5 minutes to code as many patient charts as possible while maintaining accuracy. The teacher times the round and stops at 5 minutes.
 
 Students record their score (e.g., "5 charts coded, 4 correct, 1 wrong").
 

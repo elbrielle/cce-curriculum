@@ -29,6 +29,15 @@ Students explore Health Informatics (medical billing/coding) and Dental Science 
 - Simulated patient charts (5-8 visit descriptions, teacher-prepared)
 - Projector for demonstrations
 
+!!! tip "Teacher Prep Checklist — Before Monday"
+
+    Day 4's medical-coding simulation depends on **two teacher-authored artifacts not in the H&L workbook**. Budget ~30–45 min over the weekend:
+
+    - **Simplified ICD-10 reference sheet (10 codes)** — start with the 8 codes Day 4 already names inline (J00 Acute nasopharyngitis, J20.9 Acute bronchitis, J45.909 Asthma, K02.9 Dental caries, K21.9 GERD, R07.9 Chest pain unspecified, R51 Headache, S52.501A Right wrist fracture) and add 2 more of your choice from the [CDC ICD-10 browser](https://www.cdc.gov/nchs/icd/icd-10-cm.htm). One-page handout, plain-English description next to each code. The 5-code Differentiation Support version is a subset — pick the easiest 5.
+    - **8 simulated patient charts** — Round 1 (3 charts, one correct code each, e.g., "child with runny nose + fever 3 days → J00"). Round 2 (5 charts with *specificity* traps — the symptom could map to multiple codes but one is clearly the best fit, e.g., "adult w/ chest pain after eating + tender abdomen → K21.9 GERD, NOT R07.9 Chest pain unspecified"). Round 2 is the trap-code round that teaches ICD-10 hierarchy. Keep descriptions 1–2 sentences. Avoid clinically graphic content.
+    - **Answer key** — a separate sheet or projector slide with the 8 correct codes for self-grading after each round.
+    - **Optional:** If Day 4 Round 3 (speed challenge) runs short, cut it — Rounds 1–2 carry the d(2)(A) standard on their own.
+
 ## Career Connection
 
 Not everyone in healthcare works directly with patients. Medical billing and coding specialists translate medical procedures into standardized codes for insurance billing — a behind-the-scenes role that keeps hospitals running. Dental assistants and hygienists work directly alongside dentists. Both fields are high-demand in DFW with relatively short training timelines, making them excellent options for students who want to enter healthcare quickly without an 8-year degree.

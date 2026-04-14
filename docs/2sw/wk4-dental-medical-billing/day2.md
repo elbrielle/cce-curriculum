@@ -28,6 +28,8 @@ Read the workbook scenario aloud: *"Today, you are a dental expert — maybe you
 
 Connect the activity to the Health Science cluster: dental professionals don't just clean teeth — they design tools, educate patients, and prevent disease. The Perfect Toothbrush activity puts students in the designer's chair.
 
+**Time split inside the 25 min:** Step 1 Research = 5 min → Step 2 Sketch & Label = 8 min → Step 3 Partner Pitch (pairs share simultaneously, ~2 min each way) = 5 min → Class Discussion of the 2 workbook questions = 7 min. When class discussion ends, that is the pivot point into Activity 2 — close the toothbrush page and shift to Chromebooks.
+
 **Step 1: Conduct Research** (workbook p. 140) — Students take 5 minutes to research toothbrush design online. They jot down decisions about:
 
 - **Bristle type:** Soft, hard, or medium? (Most dentists recommend SOFT to prevent gum damage.)

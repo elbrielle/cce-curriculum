@@ -14,9 +14,9 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: When you go to the doctor, someone has to make sure the bill gets paid correctly. How do you think that process works behind the scenes?**
+**WARM-UP: If a medical coder types the wrong 5-character code on a hospital form, a family might get a $500 bill they don't actually owe. What kind of skills do you think that job takes?**
 
-Take 3-4 responses. Most students have no idea — bridge: medical billing is a $4 billion industry that runs on people who never see patients. Today's class meets the invisible side of healthcare.
+Take 3-4 responses. Bridge: medical billing is one of the largest behind-the-scenes jobs in healthcare, and it runs on people who never see patients. Today you meet the invisible side of health care — and on Day 4 you try the job yourself.
 
 ---
 
@@ -41,9 +41,9 @@ For each Hat, they note the education time, certification required, and DFW sala
 
 ## Activity 2: Singley Academy Connection (8 min)
 
-Project a brief overview of the Singley Academy Medical Billing and Coding pathway:
+Project a brief overview of the Singley Academy **Medical Billing** pathway (the district-facing pathway name — see `PATHWAYS.md`):
 
-- Students at Singley Academy can take Medical Billing and Coding courses for **dual credit** (high school + community college simultaneously)
+- Students at Singley Academy can take Medical Billing courses for **dual credit** (high school + community college simultaneously)
 - The pathway leads to the **Certified Medical Billing and Coding Specialist** credential — recognized nationally
 - Graduates can work at hospitals, clinics, insurance companies, and physician offices
 - Starting DFW salary: ~$40K-$45K (BLS for Medical Records Specialists)
