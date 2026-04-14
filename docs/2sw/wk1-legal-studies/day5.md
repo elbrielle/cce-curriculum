@@ -54,6 +54,8 @@ Students complete the activity in Xello and answer the reflection prompts. They 
 
 After completing the Xello activity, each student writes one sentence in their notebook: *"One life experience I have that connects to a legal career is _____ because _____."*
 
+**DOK 3:** Think about your finished Position Paper. Which single revision from today would most change how a skeptical reader — someone who disagrees with your position — evaluates your argument? Explain why that revision is more persuasive than the others you made.
+
 ---
 
 ## Activity 4: eDynamic Unit 5.1 Preview (5 min)

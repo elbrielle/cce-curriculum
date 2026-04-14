@@ -72,6 +72,8 @@ Students write a 3-sentence reflection in their notebook or on a slip:
 
 This reflection is a quick formative check that the week landed.
 
+**DOK 2:** Based on your Xello Learning Styles result from Activity 1, would the education pathway you are most drawn to (CNA certificate vs. BSN degree vs. Nurse Practitioner graduate school) be a good fit for how you actually learn? Explain the connection between your learning style and the amount of time you would spend in a classroom versus hands-on in clinicals.
+
 ---
 
 ## Exit Ticket (5 min)

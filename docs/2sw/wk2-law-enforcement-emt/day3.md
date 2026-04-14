@@ -71,6 +71,8 @@ Hand each student a role card listing their job's typical duties. Students then 
 !!! tip "Facilitation Tip"
     Watch for teams where one student dominates. Use the role cards to enforce that EACH role has authority over their domain — the Emergency Management Director coordinates, but the EMT lead decides medical priorities.
 
+**DOK 3:** If the Emergency Management Director on your team were suddenly unable to communicate, which of the remaining four roles would be most critical for your mission to still succeed, and what specifically makes that role indispensable in the first 15 minutes of your emergency?
+
 ---
 
 ## Activity 4: Begin Individual Response Plans (3 min)

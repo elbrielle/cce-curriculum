@@ -79,6 +79,8 @@ Students cross-reference their Labor Market Analysis worksheet from Day 3 and co
 !!! tip "Facilitation Tip"
     Walk with a clipboard and spot-check 3-4 matrices. Look for: (1) numbers cited rather than blank cells, (2) consistent format across trades, (3) classifications with reasoning rather than just Y/N.
 
+**DOK 3:** Looking at your completed Skilled Trades Matrix, identify the two trades that are most similar in training time AND salary. If you had to choose between those two this week, what non-salary factor (perks, quirks, work environment, growth outlook, local demand at Cardwell/Ratteree) would tip your decision — and why?
+
 ---
 
 ## Activity 3: H&L Career Plan Update (7 min)

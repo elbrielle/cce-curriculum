@@ -15,6 +15,7 @@ Students complete a problem-solving revisit using the H&L Powerskills "Work Ethi
 - **d(4)(B):** Identify skills that can be transferable among a variety of careers.
 - **d(4)(F):** Define and identify examples of work ethic, integrity, dedication, and perseverance in the workplace.
 - **d(3)(H):** Identify professional associations and the value of membership.
+- **d(3)(F):** Explain the importance of co-curricular and extracurricular activities to career exploration and development (TSA, SkillsUSA, HOSA, FBLA, and related CTSOs).
 
 ## Materials Needed
 

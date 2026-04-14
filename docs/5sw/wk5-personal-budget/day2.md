@@ -91,6 +91,8 @@ Teacher circulates with a 3-check protocol:
 !!! tip "Facilitation Tip"
     Students with lower-salary careers (e.g., $35K) will hit negative balances. That is the point. Guide them through the realization: "What needs to change — the career, the lifestyle, or both?" This is the core learning moment of the week.
 
+**DOK 3:** Based on your completed budget, what specific assumption about your desired lifestyle (apartment size, car choice, food spending, entertainment, phone plan) would have to change for you to save 20% of your income each month instead of 10%? Would that trade-off be worth it to you, and why?
+
 ---
 
 ## Exit Ticket (5 min)
