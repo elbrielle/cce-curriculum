@@ -21,6 +21,16 @@ Students explore the H&L Engineering cluster (Ch 8) including the Drone (Unmanne
 - Chromebooks with internet access (1 per student)
 - Hats & Ladders student accounts + H&L Workbook (Ch 8: Engineering, pp. 121-135 — "Protecting Wildlife", "Mission to Mars", "Infrastructure Imagination")
 - Classroom drones (1 per team of 3-4 students — DJI Tello Education or equivalent mini-drones)
+
+!!! tip "Teacher Prep Checklist (1–2 weeks before the week starts)"
+    This week depends on three external systems. Verify each before the week begins:
+
+    - [ ] **H&L Workbook:** Ch 8 (pp. 121–135) photocopied OR H&L site license allows digital Chromebook distribution
+    - [ ] **Classroom Drones + Flight Space:** Charge all drone batteries to full (60+ min each), test one drone with the pilot app on a student Chromebook, and confirm a cleared indoor flight space (gym, library, or large classroom) is available on Day 4 with no ceiling fans running
+    - [ ] **Network Whitelisting:** IT has whitelisted the drone pilot app domain (e.g., `tello.com` for DJI Tello) and `dji.com/education` (submit request 10 business days prior); confirm the FAA Drone Zone site loads through your district filter
+
+    If any item fails, notify your instructional coach immediately — these are prerequisites, not nice-to-haves.
+
 - Printed Robot Blueprint sheet (Protecting Wildlife template)
 - Printed UAS Industry Research Template (1 per student)
 - Printed Drone Safety Briefing handout

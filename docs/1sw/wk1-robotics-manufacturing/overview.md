@@ -22,6 +22,16 @@ Students explore the Manufacturing career cluster through the Hats & Ladders app
 - Hats & Ladders accounts + H&L Workbook Ch 14: Manufacturing (pp. 229-246)
 - Sphero RVR+ robots (1 per team of 3-4 students)
 - SpheroEDU app (pre-installed on Chromebooks or tablets)
+
+!!! tip "Teacher Prep Checklist (1–2 weeks before the week starts)"
+    This week depends on three external systems. Verify each before the week begins:
+
+    - [ ] **H&L Workbook:** Ch 14 (pp. 229–246) photocopied OR H&L site license allows digital Chromebook distribution
+    - [ ] **Sphero RVR+ + SpheroEDU:** Charge all robots to full, update firmware via SpheroEDU, and test Bluetooth pairing with 2 student Chromebooks on your school network
+    - [ ] **Network Whitelisting:** IT has whitelisted `edu.sphero.com` and `sphero.com` (submit request 10 business days prior); confirm eDynamic Learning Unit 2.1 access is active
+
+    If any item fails, notify your instructional coach immediately — these are prerequisites, not nice-to-haves.
+
 - Painter's tape for factory floor course layout
 - Cardboard boxes or blocks (obstacles for the factory floor course)
 - Printed Manufacturing Hat Research worksheet (from H&L Ch 14, p. 239 template)

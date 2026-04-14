@@ -24,6 +24,16 @@ Students explore the Arts, A/V Technology & Communications career cluster throug
 - Xello student accounts (Resume Builder feature)
 - Canva for Education: [canva.com/education](https://www.canva.com/education/)
 - Adobe Express: [adobe.com/express](https://www.adobe.com/express)
+
+!!! tip "Teacher Prep Checklist (1–2 weeks before the week starts)"
+    This week depends on three external systems. Verify each before the week begins:
+
+    - [ ] **H&L Workbook:** Ch 4 (pp. 55–66) photocopied OR H&L site license allows digital Chromebook distribution
+    - [ ] **Canva + Adobe Express + Xello Resume Builder:** Test login with 2 student Chromebooks on all three tools. Confirm Google SSO links students to Canva for Education (not free-tier), Adobe Express loads without an age-gate block, and the Xello Resume lesson is available on the 7th-grade task list.
+    - [ ] **Network Whitelisting:** IT has whitelisted `canva.com`, `*.canva-apps.com`, and `express.adobe.com` (submit request 10 business days prior); confirm eDynamic Learning Unit 6.1 and Unit 8.2 access are active
+
+    If any item fails, notify your instructional coach immediately — these are prerequisites, not nice-to-haves.
+
 - BLS — Graphic Designers: [bls.gov/ooh/arts-and-design/graphic-designers.htm](https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm)
 - CareerOneStop Resume Guide: [careeronestop.org/JobSearch/Resumes/resume-guide.aspx](https://www.careeronestop.org/JobSearch/Resumes/resume-guide.aspx)
 - eDynamic Learning Unit 6.1 (Arts/AV) and Unit 8.2 (job search)
