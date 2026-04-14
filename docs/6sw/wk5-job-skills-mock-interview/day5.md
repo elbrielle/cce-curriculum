@@ -57,7 +57,7 @@ The workbook (Ch 11, p. 180) explicitly walks through this activity: *"Pair up w
 - Catch students playing on phones — this is high-stakes practice, not free time
 
 !!! tip "Facilitation Tip"
-    Treat this with real seriousness. Wear professional clothes that day if possible. Greet students at the door as if they are arriving for an interview. The vibe shift makes the mock interview feel real — and that is when students remember the experience.
+    Treat this with real seriousness. Wear professional clothes that day if possible. Greet students at the door as if they are arriving for an interview.
 
 **DOK 4:** Create a top 5 list of things that make or break a job interview. Rank them and explain WHY each one matters.
 

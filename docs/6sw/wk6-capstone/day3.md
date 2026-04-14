@@ -51,7 +51,7 @@ Today the FIRST HALF of the class delivers their 5-minute capstone presentations
     First-time presenters run long. Build in buffer. Presentation quality matters more than rigid 5-min timers.
 
 !!! tip "Facilitation Tip"
-    Treat this like a real event. Wear professional clothes. Greet students at the door. If possible, invite an administrator, counselor, or parent to attend as the audience for at least part of the day. Real audiences make presentations feel real. Cheering for classmates makes the experience warm — the goal is celebration AND assessment.
+    Treat this like a real event. Wear professional clothes. Greet students at the door. If possible, invite an administrator, counselor, or parent to attend as the audience for at least part of the day. Cheering for classmates makes the experience warm — the goal is celebration AND assessment.
 
 **Class feedback after each presentation:**
 

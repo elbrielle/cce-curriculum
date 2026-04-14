@@ -30,7 +30,7 @@ Students revisit their RIASEC results from Week 0, audit every career they have 
 
 ## Career Connection
 
-This is the most important planning week of the first half of the year. Students have now spent 18 weeks exploring Manufacturing, IT, Law, Health Science, Agriculture, Hospitality, Human Services, and Business. Every favorite they tagged, every career they researched, every Hat they liked — all of that data lives in their H&L Climber Profile. This week, that data turns into a plan. The H&L Career Plan tool aggregates everything into one personalized roadmap, and students cross-reference it with the actual Irving ISD CTE pathways available at MacArthur, Singley, Nimitz, Irving High, and Cardwell/Ratteree.
+Students have now spent 18 weeks exploring Manufacturing, IT, Law, Health Science, Agriculture, Hospitality, Human Services, and Business. Every favorite they tagged, every career they researched, every Hat they liked — all of that data lives in their H&L Climber Profile. This week, that data turns into a plan. The H&L Career Plan tool aggregates everything into one personalized roadmap, and students cross-reference it with the actual Irving ISD CTE pathways available at MacArthur, Singley, Nimitz, Irving High, and Cardwell/Ratteree.
 
 **Irving ISD Pathways:** All pathways across the district. Students narrow to their top 1-2 pathways this week and commit to one in Week 2.
 
