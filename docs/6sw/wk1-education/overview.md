@@ -96,7 +96,7 @@ The Hat Research template (Ch 6, p. 97) provides structured fields for career re
 
 ### Extensions
 - Students research the Texas teacher shortage in a specific subject (math, science, special ed, bilingual) and propose how alternative certification could help.
-- Interview a Bowie Middle School teacher about their pathway and present findings.
+- Interview a teacher at your school about their pathway and present findings.
 - Compare Texas teacher salaries to three other states and analyze whether pay affects teacher supply.
 
 ### ELL Language Support

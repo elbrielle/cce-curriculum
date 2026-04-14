@@ -2,7 +2,7 @@
 
 ## What This Is
 
-A 36-week Career and College Explorations (CCE) course curriculum for middle school (grades 6-8) at Bowie Middle School, Irving ISD, Texas. Aligned to TEKS §127.2 Career and College Exploration (Adopted 2023). The curriculum uses Hats & Ladders as the core platform, supplemented by Xello, eDynamic Learning, and VILS technology integration.
+A 36-week Career and College Explorations (CCE) course curriculum for middle school (grades 6-8) across Irving ISD VILS Labs, Texas. This is a new prep delivered in VILS labs district-wide, distinct from the Engineering VILS curriculum class. Aligned to TEKS §127.2 Career and College Exploration (Adopted 2023). The curriculum uses Hats & Ladders as the core platform, supplemented by Xello, eDynamic Learning, and VILS technology integration.
 
 ## Curriculum Structure: Overview + Daily Plans
 

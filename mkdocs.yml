@@ -1,4 +1,4 @@
-site_name: CCE Curriculum — Bowie Middle School
+site_name: CCE Curriculum — Irving ISD VILS Labs
 site_description: Career and College Explorations (TEKS §127.2) — Irving ISD
 theme:
   name: material
@@ -276,6 +276,7 @@ nav:
       - Day 4 — Capstone Presentations Day 2 + Plan Download: 6sw/wk6-capstone/day4.md
       - Day 5 — End-of-Year Reflection + Celebration: 6sw/wk6-capstone/day5.md
   - Resources:
+    - Resources Status & Backlog: resources/resources-status.md
     - TEKS Coverage Matrix: resources/teks-coverage-matrix.md
     - Free Resource Directory: resources/free-resource-directory.md
 

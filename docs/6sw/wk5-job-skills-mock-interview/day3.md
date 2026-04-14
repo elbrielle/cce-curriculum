@@ -39,7 +39,7 @@ Walk through the application sections on the projector before students start:
 
 **Education section:**
 
-- Current school: Bowie Middle School
+- Current school: [Your middle school]
 - Grade level: 7th
 - Expected graduation year: (calculate)
 - GPA (if available and strong)

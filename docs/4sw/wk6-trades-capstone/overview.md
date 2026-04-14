@@ -44,7 +44,7 @@ This is the capstone week of the entire first half of the year. Over 18 weeks st
 - **Transferable Skills:** Skills that work across multiple careers — problem solving, communication, teamwork, time management, critical thinking, work ethic.
 - **Professional Association:** An organization for people working in a specific field that provides networking, training, certification, and advocacy. Often hosts student chapters and competitions.
 - **SkillsUSA:** A national CTSO for trade, technical, and skilled service career students. Hosts SkillsUSA Championships across hundreds of competitions.
-- **TSA (Technology Student Association):** The CTSO for technology and engineering students. Many Bowie students compete in TSA Drone Challenge.
+- **TSA (Technology Student Association):** The CTSO for technology and engineering students. Many IISD VILS students compete in TSA Drone Challenge.
 - **Work Ethic:** The set of values centered on doing work well — showing up on time, doing your best, being responsible, persevering through challenges. The H&L Powerskills module that anchors this week.
 
 ## Bridge to Theory (Hats & Ladders)

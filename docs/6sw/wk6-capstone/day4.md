@@ -77,7 +77,7 @@ The workbook (Ch 16, p. 270) has students fill out a Support System chart. List 
 Examples:
 
 - A parent who works in a related field
-- A teacher (Bowie or future high school) who knows the subject
+- A teacher (current school or future high school) who knows the subject
 - An older sibling or cousin who already started college or work
 - A mentor at a community center, church, or club
 - A future high school counselor (even before meeting them)

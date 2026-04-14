@@ -1,6 +1,6 @@
 # CCE Curriculum
 
-36-week Career and College Explorations course for Bowie Middle School (Irving ISD, Texas).
+36-week Career and College Explorations course for Irving ISD VILS Labs (Texas) — a new prep for middle school VILS classrooms across the district, distinct from the Engineering VILS curriculum.
 Aligned to TEKS &sect;127.2 Career and College Exploration (Adopted 2023).
 
 ## Quick Start

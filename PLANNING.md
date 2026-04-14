@@ -9,7 +9,7 @@ This document replaces the previously-deleted `handoff-website-build.md` and `ha
 
 ## 1. What This Project Is
 
-This repo contains a full **36-week Career and College Explorations (CCE)** course curriculum for grade 7 at Bowie Middle School, Irving ISD, Texas, aligned to **TEKS §127.2 Career and College Exploration (Adopted 2023)**.
+This repo contains a full **36-week Career and College Explorations (CCE)** course curriculum for grade 7 across **Irving ISD VILS Labs**, Texas — a new prep deployed in VILS classrooms district-wide, distinct from the existing Engineering VILS curriculum class. Aligned to **TEKS §127.2 Career and College Exploration (Adopted 2023)**.
 
 The curriculum is delivered as a static MkDocs Material website that teachers read in the browser. Each of the 36 weeks has:
 - **1 weekly overview** (`overview.md`) — big picture: TEKS, vocabulary, materials, career connection, "Week at a Glance" table, assessments, differentiation
@@ -343,7 +343,7 @@ Preempt the obvious questions with the rationales:
 - **Why no teacher scripting?** Classroom culture varies. We describe the flow, not the lines.
 - **Why two-tier (overview + daily)?** Teachers plan weekly AND day-of. Both views matter.
 - **Why source-grounded to H&L?** We pay for the platform, the workbook is 282 pages, students should actually open it.
-- **Why 50-minute periods?** That is Bowie's current bell schedule.
+- **Why 50-minute periods?** That matches the current IISD middle school bell schedule used across the VILS labs.
 - **Why concrete deliverables?** Formative assessment needs an artifact. "Students explore" is not an exit ticket.
 - **What is missing?** Teachers know. Let them tell us.
 
@@ -399,56 +399,188 @@ Week reviewed (Block + Week, e.g., "3SW Wk1 Vet Science"):
 
 ---
 
-## 8. Handoff Prompt for the Next Agent
+## 8. Handoff Prompt — Teacher/Writer Instinct Review
 
-**Copy everything below the dashed line into a new Claude Code session when you want to kick off the vetting work.**
+**This handoff is DIFFERENT from the clinical vetting pass in Section 4.**
+
+The clinical pass is **done**. Commit `d207fb1` on main shipped the P0s and `cce-curriculum/notes/vetting-report.md` documents the result. We know, with evidence, that:
+
+- Scripting regressions = 0
+- Every daily plan has a Support + Extension + ELL bullet
+- Every daily plan has a DOK 2-4 marker
+- Every daily plan sums to 45-55 min at the H2 activity-header level
+- Assessment chain holds from Climber Profile (1SW Wk0) through Capstone (6SW Wk6)
+- TEKS §127.2(d)(1)-(d)(8) all claimed in at least one week
+
+**But clinical checks can't tell you whether the curriculum will actually hold a classroom of 7th graders.** That's the work of THIS handoff.
+
+### What this review is for
+
+The clinical pass answered: "Do the timings add up? Is the differentiation present? Is a DOK question written somewhere on the page?"
+
+This review answers: "Will an activity that *claims* to take 20 minutes actually take 20 minutes with real students? Will a warm-up that's *technically* a hook actually land as a hook for a 7th grader in 2nd period on a Tuesday? Does the *nature* of the activity match the time the writer gave it? Is there enough variety across 5 days, or does the week collapse into the same activity shape repeating?"
+
+These are instinct checks. Grep can't do them. You need to read a week the way a teacher reads it.
+
+### How to run the review — two agents in dialogue
+
+Spawn two sub-agents (or personas in sequence — either works) and put them in an adversarial dialogue:
+
+#### Agent 1 — Teacher Implementer
+Their job is to simulate a VILS lab teacher in an Irving ISD middle school who has just been handed this curriculum and is preparing to teach it Monday morning. They don't know H&L intimately. They have 60 minutes to read a week and decide whether they can run it.
+
+**Their instincts to apply:**
+- **Will this activity fit the time?** Not "do the minutes add up" but "can a class of 24 seventh-graders realistically set up, execute, and clean up this activity in 20 minutes?"
+- **Will the warm-up actually land?** A warm-up that is technically a hook can still be a dud if the prompt requires context students don't have, or if it asks for a vulnerable share too early in the day.
+- **Is the variety real?** Across 5 days, do students have different modes of engagement — direct instruction, hands-on, research, partner/small group, presentation/reflection — or does the week secretly become five days of "read something then type in the H&L app"?
+- **Do the transitions work?** Activity 1 ends with a partner share; Activity 2 requires silent individual work. Can a teacher actually make that pivot in the 30 seconds implied?
+- **Does the deliverable spec match the time?** "Design a building with at least 4 walls, a roof, 1 door, and 2 windows" in 20 minutes on TinkerCAD — is that realistic for students who have never used TinkerCAD before?
+- **Is the facilitation realistic?** "Walk students through the setup by projecting the sign-up screen." How long does account creation actually take with 24 Chromebooks on school Wi-Fi? Is that baked into the time?
+- **Where are the likely blow-ups?** What's the one thing that will take longer than planned, the one student whose question will derail the activity, the one technology dependency that will fail?
+
+**What they produce:** a week review in natural prose with specific line:column callouts. Their job is to **lob concerns**, not fix anything. They are not allowed to edit files. They are allowed to read any file in the curriculum plus `scope-and-sequence.md`, H&L `.txt` extracts via grep, `docs/resources/resources-status.md`, and `PLANNING.md`. They are NOT allowed to read the 116MB `HatsandLadders.pdf` directly.
+
+#### Agent 2 — Curriculum Writer
+Their job is to triage each concern: **fix**, **defend**, or **escalate**.
+
+**Triage rules:**
+- **Fix** — the concern is valid and has an obvious resolution that does not change the activity's purpose or pull it off scope-and-sequence. Examples: extending a too-short activity by 3 minutes, adding a transition sentence, replacing a vague warm-up with a sharper hook of the same length, clarifying a deliverable spec. Writer must propose the exact old_string/new_string so the parent orchestrator can apply it with the `Edit` tool.
+- **Defend** — the concern is the teacher's opinion, not a defect. Write one sentence explaining why the current choice is intentional. Examples: "This is a 25-minute hands-on build because the H&L workbook specifies 25 minutes; shortening breaks source grounding." "We deliberately leave the transition loose so the teacher can read the room."
+- **Escalate** — the concern needs a teacher in the actual classroom to resolve, or pulls at scope-and-sequence alignment. Examples: "Students may not finish this deliverable; splitting across 2 days changes the pacing for the whole week." "This activity works in a lab with 1:1 Chromebooks but not in a shared-cart classroom."
+
+**Writer is bound by these non-negotiables:**
+- Every activity must trace to a source: H&L workbook chapter + page, H&L Powerskills module, scope-and-sequence column, BLS/CareerOneStop/Code.org/etc., or Irving ISD pathway reference. No inventions.
+- No new activities, no reshaped timing, no TEKS changes, without scope-and-sequence support.
+- No teacher scripting (`> **Teacher:` blocks are banned). Facilitation notes stay in natural prose.
+- Every daily plan keeps Support + Extension + ELL bullets with Spanish vocabulary.
+- Total weekly timing stays at 45-55 min/day at the H2 activity-header level.
+- Writer's fixes must leave `python3 -m mkdocs build --strict` passing and `grep -rn "> \*\*Teacher:" docs/` returning 0.
+
+**Writer produces:** a triage table that mirrors the Teacher Implementer's concern list, one row per concern, with the triage category (Fix/Defend/Escalate) and the specific response. For Fix rows, include the exact edit (file path, old_string, new_string).
+
+### How the parent agent runs the dialogue
+
+The parent agent (you, reading this handoff) is the orchestrator.
+
+**Step 1 — Pick a week to review.** Do NOT review all 36 weeks in one pass. Pick 3-5 weeks, chosen for maximum signal:
+- **5SW Wk1 Architecture** — the prototype. If the prototype has instinct issues, so does every week built from it.
+- **One week from each of the 6 six-weeks blocks** that has the most complex day-by-day activity variety. High-bar examples: 1SW Wk0 (5-day Climber Profile onboarding), 4SW Wk1 (mid-year RIASEC reconciliation), 6SW Wk6 (capstone presentations).
+- **One week where the writer was most likely to reach** — e.g., 2SW Wk5 Powerskills-Communication (slot week that the writer created from a blank Topic field), 3SW Wk3 Sustainable Engineering (cross-cluster week), 6SW Wk5 Mock Interview (d(6)+d(7) heavy, thin H&L support).
+
+**Step 2 — For each picked week, run one teacher-writer cycle:**
+1. Spawn the Teacher Implementer sub-agent, feed it the week path (overview + 5 day files) and the instincts list above. Ask for the concern list.
+2. Spawn the Curriculum Writer sub-agent, feed it the concern list + the same week files + the non-negotiables. Ask for the triage table.
+3. Read the triage table yourself. You make the final call — the writer is advisory, not authoritative.
+4. Apply the Fix rows with the `Edit` tool. Leave Defend and Escalate rows in the report.
+
+**Step 3 — Consolidate across weeks.** Write a single report at `cce-curriculum/notes/instinct-review.md` with one section per week reviewed, each section containing: the Teacher Implementer's concerns, the Writer's triage, your decisions (Fix applied / Defended / Escalated to teacher meeting), and links to the commits that applied any Fix rows.
+
+**Step 4 — Verify.** After every edit batch, run:
+```bash
+python3 -m mkdocs build --strict
+grep -rn "> \*\*Teacher:" docs/              # must be 0
+grep -rL "DOK [2-4]" docs/*/*/day*.md         # every file must still have a DOK 2-4
+for f in docs/*/*/day*.md; do
+  s=$(grep -E "^## .* \([0-9]+ min\)" "$f" | grep -oE "[0-9]+ min" | awk '{s+=$1} END {print s}')
+  if [ "$s" -lt 45 ] || [ "$s" -gt 55 ]; then echo "$s $f"; fi
+done                                           # must print nothing
+```
+
+**Step 5 — Commit surgically.** One commit per week reviewed is the right granularity — the commit message explains which week was reviewed, the teacher's top concerns, what you fixed, and what you escalated.
+
+### What this review will NOT produce
+
+- **A rewrite of any week.** If you find yourself rewriting more than ~15 lines in a single day file, stop. That's not a fix, that's a redesign. Escalate to the teacher meeting instead.
+- **New activities invented from scratch.** Stay grounded in H&L + supplemental materials at all times. When in doubt, grep `HatsandLadders.txt` with line ranges.
+- **New warm-ups imported from other curricula.** If a warm-up needs replacement, the new prompt must still connect to the day's activity and match its time budget.
+- **Any touch to clinical pass outputs.** The vetting-report.md and the P0 commit `d207fb1` are frozen.
+
+### Boilerplate to paste into the Teacher Implementer sub-agent
+
+```
+You are a 7th-grade VILS lab teacher at an Irving ISD middle school. You just received a new CCE course curriculum and you have 60 minutes to decide whether you can teach {week path} starting Monday morning. You do not know Hats & Ladders deeply. You are reading the curriculum through the lens of "will this actually work with my real students."
+
+Read:
+- docs/{block}/{week}/overview.md
+- docs/{block}/{week}/day1.md through day5.md
+- 5SW Wk1 Architecture (overview + day1) as the prototype reference
+- PLANNING.md §3 (format rules)
+- docs/resources/resources-status.md (what's missing)
+
+Apply the teacher-instinct checks in PLANNING.md §8 (fit-the-time, warm-up landing, real variety, transitions, deliverable realism, facilitation realism, likely blow-ups). Do NOT edit anything. Do NOT apply clinical checks (timings adding up, DOK markers present, scripting regressions) — those are already verified in cce-curriculum/notes/vetting-report.md.
+
+Return a concern list in this format:
+
+## Week: {week path}
+
+### Concerns
+1. **[{day}: {activity}]** — {concrete concern}. {What you think a real classroom will actually experience vs. what the plan says.} Cite the specific file:line.
+2. ...
+
+Be specific. "This activity might run long" is useless; "On day 3 Activity 2 the TinkerCAD skill builder gives 4 skills in 10 minutes but students will spend 8 of those minutes logging in on the first day — leaves 2 minutes for 4 skills" is useful.
+
+Budget: read ~6 files (1 overview + 5 days + 1 prototype for reference). Return under 600 words.
+```
+
+### Boilerplate to paste into the Curriculum Writer sub-agent
+
+```
+You are the curriculum writer who built {week path} in the CCE Curriculum. A teacher has reviewed your week and lobbed a concern list. Your job is to triage each concern: Fix, Defend, or Escalate.
+
+Non-negotiables:
+- Every activity must trace to H&L workbook (chapter + page), H&L Powerskills (module), scope-and-sequence, BLS/CareerOneStop/Code.org, or Irving ISD pathways. No inventions.
+- Timing at H2 activity-header level must stay in 45-55 min per day.
+- Every day must keep its DOK 2-4 marker, Support/Extension/ELL differentiation bullets, and Spanish vocabulary pairs.
+- No teacher scripting. No "> **Teacher:" blocks.
+- mkdocs build --strict must still pass after your edits.
+
+Read:
+- docs/{block}/{week}/overview.md
+- docs/{block}/{week}/day1.md through day5.md
+- cce-curriculum/scope-and-sequence.md (the row for this week)
+- cce-curriculum/resources/reference-pdfs/HatsandLadders.txt (grep the relevant chapter; never read PDF directly)
+- PLANNING.md §3 (format rules) and §5 (token-efficient editing)
+
+For each concern, return a row in this format:
+
+| # | Concern summary | Triage | Response | Proposed edit (for Fix only) |
+|---|-----------------|--------|----------|------------------------------|
+| 1 | {1-line paraphrase} | Fix | {why valid + what to change} | File: {path}, old_string: {exact string}, new_string: {exact string} |
+| 2 | {...} | Defend | {1-sentence justification of current choice} | — |
+| 3 | {...} | Escalate | {why this needs a real teacher to resolve} | — |
+
+If a Fix row's edit touches more than ~15 lines of a single file, downgrade it to Escalate — that's a redesign, not a fix.
+
+Budget: ~20 tool calls. Return the table only, no preamble.
+```
+
+### When to run this review
+
+- Before any round-2 teacher meeting after the first teacher review has surfaced feedback
+- Before the curriculum is assigned to a new cohort of VILS teachers who haven't seen it yet
+- When a six-weeks block has been edited substantially and needs a fresh classroom-instinct pass
+- Whenever the prototype week (5SW Wk1 Architecture) is changed — all 35 other weeks inherited from it, so any structural shift there implies a re-review
 
 ---
 
-You are taking over a 36-week middle school Career and College Explorations curriculum project. The curriculum is built, committed, and published — but has not yet been vetted by classroom teachers. A teacher review meeting is scheduled for tomorrow and we need an internal vetting pass first.
+## 9. Resource Backlog (slides, worksheets, CFAs, teacher edition)
 
-**Read these files in parallel to get oriented:**
-1. `/Users/elishalucero/Coding Projects/27 CCR Planning/PLANNING.md` — the full project handoff, vetting plan, teacher meeting plan, and token-efficient editing heuristics. **Start here.**
-2. `/Users/elishalucero/Coding Projects/27 CCR Planning/CLAUDE.md` — the project rules (format, writing style, source grounding).
-3. `/Users/elishalucero/Coding Projects/27 CCR Planning/cce-curriculum/scope-and-sequence.md` — the authoritative master pacing guide.
-4. `/Users/elishalucero/Coding Projects/27 CCR Planning/docs/5sw/wk1-architecture/overview.md` — the prototype weekly overview.
-5. `/Users/elishalucero/Coding Projects/27 CCR Planning/docs/5sw/wk1-architecture/day1.md` — the prototype daily plan format.
+The **daily plans describe the flow and facilitation** of each week, but a turnkey teacher experience also needs:
 
-**Your job is to run the vetting pass described in `PLANNING.md` Section 4.** There are 8 dimensions to check:
-1. Scope and sequence fidelity
-2. TEKS coverage accuracy
-3. Activity rigor and engagement
-4. Differentiation and scaffolding quality
-5. Timing feasibility (50-min periods)
-6. Teacher autonomy (not over-scripting)
-7. Assessment coherence (formative → summative → capstone)
-8. Video integration
+- **Presentation slide decks** (per week or per day) for projecting warm-ups, vocabulary, activity directions, and exit tickets
+- **Student worksheets** that are not photocopiable from the H&L workbook (e.g., Transferable Skills Matrix, Skilled Trades Comparison, Personal Budget Template, Capstone presentation rubric)
+- **Common Formative Assessments (CFAs)** at the end of each six-weeks block measuring TEKS mastery for that block
+- **Teacher edition / answer keys** for worksheets and CFAs
+- **Substitute plans** per week
 
-**Strategy — split the work across parallel sub-agents:**
-- Launch one sub-agent per dimension, or bundle dimensions by six-weeks block if that fits the data better
-- Each sub-agent gets a focused prompt, a narrow reading list, and a specific deliverable format
-- Use the token-efficient heuristics in `PLANNING.md` Section 5 — grep before reading, edit surgically, never re-read the whole file for a small change
-- Consolidate sub-agent findings into a single vetting report at `cce-curriculum/notes/vetting-report.md`
-- Flag anything that needs teacher judgment rather than trying to fix it yourself — teachers will see the curriculum tomorrow
+These are tracked as a living checklist on the main site at [`docs/resources/resources-status.md`](https://elbrielle.github.io/cce-curriculum/resources/resources-status/) so every teacher who opens the curriculum can see what's built, what's partial, and what's still to be authored. When you notice a resource that's missing while teaching, log it there (or open a GitHub issue tagged `resource-backlog`).
 
-**Expected deliverables at the end of the vetting pass:**
-1. `cce-curriculum/notes/vetting-report.md` — 8 sections (one per dimension) with findings, severity, and recommendations
-2. A list of P0 fixes ready to ship before the teacher meeting (factual errors, TEKS drift, broken references)
-3. A P1 backlog for post-meeting work
-4. Any pre-meeting edits committed with a clean `mkdocs build --strict`
-5. A summary for the user including: what passed cleanly, what needs teacher feedback, and what you fixed preemptively
+**Scope rule:** video integration is explicitly deferred and out of scope until after the first round of teacher feedback — per team direction on 2026-04-14 — to avoid shoehorning videos that don't fit the instructional flow.
 
-**Do not:**
-- Read the full `HatsandLadders.pdf` — use `HatsandLadders.txt` with `Grep`
-- Rewrite large sections of a daily plan without evidence it is broken — trust the prototype unless you can prove drift
-- Add new activities or reshape timing without confirming the scope-and-sequence supports it
-- Delete content just because you would write it differently — classroom teachers see it tomorrow, let them weigh in
+**Priority order for backlog resources (working assumption until teacher feedback changes it):**
+1. Student worksheets for the highest-stakes summatives (6SW Wk6 Capstone rubric, 4SW Wk2 Career Plan, 5SW Wk5 Budget) — these are the artifacts teachers will be most frustrated improvising
+2. Presentation slide decks for the prototype week (5SW Wk1 Architecture) as the format reference, then the other weeks
+3. CFAs for 1SW and 6SW blocks first (mid-point + end of year), then fill in the middle blocks
+4. Teacher edition / answer keys once worksheets exist
 
-**Current state as of handoff:**
-- All 216 daily plans + 36 overviews built and live at `https://elbrielle.github.io/cce-curriculum/`
-- `mkdocs build --strict` passes with zero warnings
-- Git: branch `main` is clean and pushed to `elbrielle/cce-curriculum` (public repo)
-- Most recent commit: `ae831be Build all 35 remaining weeks: 210 daily plans + overviews`
-- Teacher meeting: tomorrow (2026-04-15)
-
-Begin by reading the files above in parallel, then propose your vetting strategy (which dimensions you will check, which you will delegate to sub-agents, what order) before making any changes. After I approve the strategy, execute and report.
+This ordering is a working assumption. Teacher feedback tomorrow will change it.

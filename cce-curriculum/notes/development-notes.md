@@ -49,4 +49,4 @@ These are low-priority items that do not affect classroom delivery -- teachers c
 
 ---
 
-Bowie Middle School | Irving ISD | CCE SS127.2
+Irving ISD VILS Labs | CCE SS127.2

@@ -29,7 +29,7 @@ Assign each team of 4 students one of 5 professional associations:
 - **Team SkillsUSA** — National CTSO for trade, technical, and skilled service careers. Hosts SkillsUSA Championships in welding, automotive, robotics, culinary, cosmetology, and many more. → [skillsusa.org](https://www.skillsusa.org)
 - **Team ASE** — Automotive Service Excellence. The certification body for automotive technicians. Required for most professional auto and diesel jobs. → [ase.com](https://www.ase.com)
 - **Team FAA** — Federal Aviation Administration. Issues pilot, ATC, and drone certifications. Hires aviation professionals directly. → [faa.gov/jobs](https://www.faa.gov/jobs)
-- **Team TSA** — Technology Student Association. The CTSO for technology and engineering students. Hosts the TSA Drone Challenge that many Bowie students compete in. → [tsaweb.org](https://tsaweb.org)
+- **Team TSA** — Technology Student Association. The CTSO for technology and engineering students. Hosts the TSA Drone Challenge that many IISD VILS students compete in. → [tsaweb.org](https://tsaweb.org)
 - **Team NSPE** — National Society of Professional Engineers. Represents licensed Professional Engineers (PEs). → [nspe.org](https://www.nspe.org)
 
 Distribute the printed Jigsaw research template. Each team researches their association and fills in:

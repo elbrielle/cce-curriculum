@@ -24,7 +24,7 @@ Take 3-4 student responses. Bridge to today: every cover letter is essentially t
 
 **Source:** Cover Letter Template + sample job posting from Day 1
 
-Open a Google Doc on the projector. Create a new cover letter LIVE for the Bowie Veterinary Clinic posting from Day 1. Walk through every section as you write, narrating decisions:
+Open a Google Doc on the projector. Create a new cover letter LIVE for the Pecan Creek Veterinary Clinic posting from Day 1. Walk through every section as you write, narrating decisions:
 
 **Header:**
 
@@ -35,7 +35,7 @@ alex.martinez@email.com  |  (469) 555-0100
 
 April 15, 2026
 
-Bowie Veterinary Clinic
+Pecan Creek Veterinary Clinic
 Hiring Manager
 Irving, TX
 ```
@@ -48,7 +48,7 @@ Irving, TX
 
 **Paragraph 1 — Why I'm writing:**
 
-> *"I am writing to apply for the Part-Time Office Assistant position at Bowie Veterinary Clinic, which I saw posted on the school job board. I am a 7th-grade student at Bowie Middle School, and I am excited about the opportunity to work with animals while building professional office skills."*
+> *"I am writing to apply for the Part-Time Office Assistant position at Pecan Creek Veterinary Clinic, which I saw posted on the school job board. I am a 7th-grade student at [Your Middle School], and I am excited about the opportunity to work with animals while building professional office skills."*
 
 **Paragraph 2 — Why I'm qualified:**
 
@@ -76,7 +76,7 @@ Narrate decisions while writing: "I'm starting paragraph 2 with my dog experienc
 
 **Source:** Cover Letter Template + sample job posting
 
-Students open their Cover Letter Template (Google Doc or printed). They write their own complete cover letter for the Bowie Vet Clinic posting (or a real job posting if they're using the extension).
+Students open their Cover Letter Template (Google Doc or printed). They write their own complete cover letter for the Pecan Creek Vet Clinic posting (or a real job posting if they're using the extension).
 
 **Required elements:**
 

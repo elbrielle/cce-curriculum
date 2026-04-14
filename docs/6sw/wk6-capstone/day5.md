@@ -72,7 +72,7 @@ Write a 1-paragraph letter to NEXT year's CCE class. What is your single best pi
 
 **Source:** Course completion + Optional certificates
 
-Distribute Certificates of Completion if available. Even a simple printed certificate (Bowie Middle School logo, "CCE Course Completion 2026," teacher signature) means a lot.
+Distribute Certificates of Completion if available. Even a simple printed certificate (your school logo, "CCE Course Completion 2026," teacher signature) means a lot.
 
 **Whole-class celebration moment:**
 

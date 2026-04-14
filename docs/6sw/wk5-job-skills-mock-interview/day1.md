@@ -63,13 +63,13 @@ Quick salary check on bls.gov: Administrative Services Manager median is around 
 
 Distribute the printed sample job posting. Use a real-sounding posting like:
 
-> **Position:** Part-Time Office Assistant, Bowie Veterinary Clinic
+> **Position:** Part-Time Office Assistant, Pecan Creek Veterinary Clinic
 >
-> **Description:** Bowie Vet Clinic is hiring a part-time Office Assistant for after-school hours. Duties include greeting patients (and their pets), answering phones, filing paperwork, and helping the office manager with daily tasks. Looking for friendly, organized, dependable students. No experience required — we will train.
+> **Description:** Pecan Creek Vet Clinic is hiring a part-time Office Assistant for after-school hours. Duties include greeting patients (and their pets), answering phones, filing paperwork, and helping the office manager with daily tasks. Looking for friendly, organized, dependable students. No experience required — we will train.
 >
 > **Qualifications:** Friendly attitude, basic computer skills, ability to work 3-5 hours after school, comfortable around dogs and cats.
 >
-> **To Apply:** Send cover letter and resume to bowievet@example.com.
+> **To Apply:** Send cover letter and resume to pecancreekvet@example.com.
 
 Students will write a cover letter for THIS posting starting Day 2. Today they only need to outline what they will say.
 

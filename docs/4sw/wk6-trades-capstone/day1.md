@@ -70,7 +70,7 @@ Students fill in the planning chart with 5 questions (directly from the workbook
 
 Examples to project:
 - "Code Club for 4th Graders" — Saturday afternoons at Irving Public Library, teaches Scratch coding to elementary students
-- "Robotics for Girls" — Wednesday evenings at Bowie MS, hands-on LEGO Spike builds for 6th-grade girls
+- "Robotics for Girls" — after school at a campus STEM club, hands-on LEGO Spike builds for 6th-grade girls
 - "Backyard Science" — Sundays at a community park, kid-friendly experiments using household items
 - "Math in Music" — Tuesday afternoons at a senior center, teaches kids how rhythm and fractions connect
 
@@ -112,5 +112,5 @@ Take 3-4 student responses. The point is to make the connection explicit: doing 
 ## Differentiation
 
 - **Support:** Pre-filled STEM Program planning chart with a topic and audience already selected. Students fill in the activities, location, and community impact rows. Pair with a peer for the flyer step.
-- **Extension:** Take the STEM program from imagination to reality — write 3 specific action steps to actually launch the program at Bowie or in the Irving community next semester.
+- **Extension:** Take the STEM program from imagination to reality — write 3 specific action steps to actually launch the program at your school or in the Irving community next semester.
 - **ELL:** Bilingual planning chart with Spanish row labels. Pre-teach: Work Ethic = Ética de trabajo, Volunteer = Voluntario, Community = Comunidad, Program = Programa. Allow flyer to be designed in Spanish or bilingual format.

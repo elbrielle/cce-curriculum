@@ -24,7 +24,7 @@ Give students 3 minutes to write. Most students will think they have nothing —
 
 **Source:** Xello Resume Builder + CareerOneStop Resume Guide
 
-Open Xello and project the Resume Builder on the board. Walk through a sample middle school resume LIVE, building it as students watch. Use a fictional student: "Alex Martinez, 7th Grade, Bowie Middle School."
+Open Xello and project the Resume Builder on the board. Walk through a sample middle school resume LIVE, building it as students watch. Use a fictional student: "Alex Martinez, 7th Grade, Oakview Middle School" (or substitute your own school name).
 
 Walk through each section:
 

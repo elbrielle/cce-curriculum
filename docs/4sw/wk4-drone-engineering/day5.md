@@ -66,7 +66,7 @@ This is the d(5)(B) summative artifact. Students who can justify all three class
 
 ## Activity 3: TSA Connection (5 min)
 
-For students who participate in TSA Drone Challenge (many at Bowie do), connect this week's learning directly to the competition. The Drone Challenge requires:
+For students who participate in TSA Drone Challenge (many IISD VILS students do), connect this week's learning directly to the competition. The Drone Challenge requires:
 - Flight precision (Day 4 navigation course)
 - Documentation of design decisions (Day 1 blueprint)
 - Knowledge of FAA regulations (Day 3 safety briefing)
