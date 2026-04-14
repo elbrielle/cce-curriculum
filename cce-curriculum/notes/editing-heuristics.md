@@ -132,6 +132,24 @@ grep -rln "Climber Profile" docs/
 grep -rn "Trash to Treasure" docs/
 ```
 
+### Redundancy audit after a structural framing change
+
+Run these after writing any new framing admonition, softening any body claim, or reframing a week as optional/required/buffer. See "Never do these" rule 10.
+
+```bash
+# (1) OLD-framing hits still in place — each is a candidate for softening
+grep -nE "OFFICIAL|CAPSTONE|highest-stakes|primary artifact|official course artifact|MUST|REQUIRED" docs/path/to/overview.md
+
+# (2) Restatement phrases — each is a candidate for DELETION (dead paragraph)
+grep -nE "per the admonition above|optional per|as noted above|as mentioned above|as stated above" docs/path/to/overview.md
+
+# (3) Any framing-adjacent claim you might have missed (use the specific terms
+# from your new admonition, not a generic list)
+grep -nE "your new admonition's key terms here" docs/path/to/overview.md
+```
+
+Then visual-scan: any prose paragraph immediately before a bullet list or table — apply the "does this paragraph add specific information, or only set up the list" test. See PLANNING.md §10 lesson 16.
+
 ---
 
 ## Never Do These Without Reading More
@@ -155,6 +173,13 @@ These edits break curriculum soundness if you don't pull the full dependency sco
 8. **Never add or keep a "cut students off mid-sentence" / "no exceptions" enforcement tip without checking whether the enforced skill is taught this week.** This is Dimension 9 in PLANNING.md (Skill-Before-Enforcement). Before writing or keeping any hard-discipline facilitation tip, verify: (a) is the skill in the week's Lesson Objective or DOL? (b) do Days 1-4 include explicit practice of the skill? (c) are students warned in advance in the activity text? If any are No, either soften to a schedule-fairness framing or move the hard enforcement to a skill week (6SW Wk4 Sales/Presentations, 6SW Wk6 Capstone). Grep recipe: `grep -rn "mid-sentence\|no exceptions\|cut .* off at" docs/`.
 
 9. **Never write "This is real X" / "This builds real Y" / "This is what real Z do" filler.** These phrases are declarative fluff — they sound muscular but tell the teacher nothing. Either replace with a concrete curriculum tie ("prepares students for Day 5 presentations" / "aligned with H&L Powerskill Z") or delete. Grep recipe: `grep -rn "This is real\|This builds real\|This is what real\|Real conferences\|Real interviews" docs/`. Related: avoid "This is uncomfortable but [X]" and "This is the most important [X] they will learn" for the same reason.
+
+10. **Never ship a structural framing change without a full-file redundancy audit.** A structural framing change is any edit that (a) adds a new admonition establishing a thesis, (b) softens a body claim to match a new framing, or (c) reframes a week as optional/required/buffer/non-buffer. After you write the change but BEFORE you run the 6-check preservation loop, audit the whole file for redundancy and contradiction. Three passes:
+    - **(a) Old-framing contradictions** — grep for hits of the old frame that still need softening: `grep -nE "OFFICIAL|CAPSTONE|highest-stakes|primary artifact|official course artifact|MUST|REQUIRED" <file>`. Any hit that directly contradicts the new framing must be softened to match.
+    - **(b) Dead-paragraph restatements** — grep for phrases that signal a paragraph only exists to echo the new framing: `grep -nE "per the admonition above|optional per|as noted above|as mentioned above|as stated above" <file>`. Each hit is a candidate for deletion (not softening — delete if the paragraph would lose nothing).
+    - **(c) Visual scan of any prose paragraph immediately before a bullet list or table.** Apply the "does this paragraph add specific information, or only set up the list" test from PLANNING.md §10 lesson 16. If the paragraph only sets up the list, delete it. Admonition titles + bullets usually carry the meaning on their own.
+
+    Session 4 example: commit `01627b1` rewrote the 6SW Wk6 buffer admonition but missed all three classes of redundancy. Commit `7ccdce2` caught internal redundancy inside the admonition after user flagged "too long." Commit `e153c09` caught a dead intro paragraph (Pre-Capstone Teacher Checklist) + a pre-existing "OFFICIAL d(8) artifact" contradiction (Bridge to Theory section) after user flagged the intro. Two full user round-trips to land one framing change. Running the audit proactively in the initial commit would have collapsed both follow-up commits into the first one. See the Grep Recipes "Redundancy audit" section above.
 
 ---
 
