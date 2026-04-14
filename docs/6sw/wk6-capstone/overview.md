@@ -64,6 +64,18 @@ The Career Plan students download from H&L this week is the OFFICIAL d(8) artifa
 - **Two Stars and a Wish:** Class feedback after each presentation uses the same constructive format as Wk 4-5.
 - **Active Monitoring:** Teacher tracks Career Plan completion in the H&L app dashboard before presentations begin.
 
+!!! note "Pre-Capstone Teacher Checklist (complete the week BEFORE teaching Wk6)"
+    This is the year's highest-stakes week and the most platform-dependent. Verify each item with your H&L district admin before Monday:
+
+    - [ ] **H&L access:** Test login with 2–3 student accounts. Confirm SSO, account refresh, and Climber Profile access on at least one Chromebook.
+    - [ ] **RIASEC retake:** Confirm whether "Discover My Core" supports a retake with side-by-side comparison to Week 0 results. If not, prepare a fresh workbook p. 12 as the paper backup.
+    - [ ] **Career Plan PDF export:** Walk through the download workflow yourself. If direct PDF export is unavailable, confirm Print → Save as PDF works from the Chromebook browser. Document the exact steps to project on Day 4.
+    - [ ] **Chromebook fleet:** Coordinate with your tech team to avoid OS updates during presentation days. Spot-check 5 devices for battery/keyboard/touchpad.
+    - [ ] **Wk0 reflection folder:** Retrieve the class folder of Week 0 My Career Journey reflections you saved per the 1SW Wk0 Day 5 Persistent Portfolio admonition. These are the Week 0 baseline students reference all week.
+    - [ ] **Presentation math:** Review the Day 3/4 timing admonition (24 students × 5 min does not fit 50 min). Pick your compression approach before Day 3.
+
+    Addressing these early prevents 24-student simultaneous failures mid-week.
+
 ## Week at a Glance
 
 | Day | Focus | Key Activities | Deliverable |

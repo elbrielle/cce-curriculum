@@ -41,13 +41,14 @@ Today the FIRST HALF of the class delivers their 5-minute capstone presentations
 - After each presentation, the class gives Two Stars and a Wish (specific positive + specific suggestion)
 - Move quickly to keep momentum — applaud every speaker
 
-**Math for time:** Half a class of 25 = 12-13 students × 5 min = 60-65 minutes. Tight. Use any of these compression techniques if needed:
+!!! warning "Presentation timing — the math does not fit 5 min/student"
+    Half a class of 25 = 12–13 students. At 5 min each, that is 60–65 min — EXCEEDS the 50-min period before warm-up, feedback, and transitions. **Plan for 2.5–3 min per student as the realistic baseline; 5 min is the ceiling, not the expectation.** Choose one compression approach before Day 3 begins:
 
-- Cut presentations to 4 minutes for larger classes
-- Cut Day 3 presentations to 3.5 minutes and Day 4 to 4 minutes
-- Run two parallel groups (one half presents to teacher, other half to a co-teacher or admin guest)
+    - **2.5–3 min per student:** ~32–39 min presentations + 8–10 min Two Stars and a Wish + 3 min warm-up = ~45 min. Safe margin.
+    - **Corner rotation:** Split class into 3 groups of 8–9. Teacher circulates between corners; each group presents to a smaller audience at 3–4 min each. Lower pressure, more speaking time.
+    - **Co-facilitator model:** Invite an administrator or counselor. One adult scores Day 3 morning, the other facilitates warm-up, timer, and closing. Allows the named 5-min ceiling for some students.
 
-The point is every student gets the experience of standing up and defending their plan in front of an audience. 5 minutes is ideal but flexible.
+    First-time presenters run long. Build in buffer. Presentation quality matters more than rigid 5-min timers.
 
 !!! tip "Facilitation Tip"
     Treat this like a real event. Wear professional clothes. Greet students at the door. If possible, invite an administrator, counselor, or parent to attend as the audience for at least part of the day. Real audiences make presentations feel real. Cheering for classmates makes the experience warm — the goal is celebration AND assessment.

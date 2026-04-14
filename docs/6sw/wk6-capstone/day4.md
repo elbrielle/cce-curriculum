@@ -49,7 +49,7 @@ After all presentations are done, direct students to open H&L and download/expor
 
 > [H&L PLATFORM] Students download or print their finalized H&L Career Plan from the app. The downloaded Plan is the official course artifact for d(8)(A), d(8)(B), and d(8)(C). Confirm the export process with the H&L district admin — most H&L installations support a PDF export of the Career Plan or at least a print view.
 
-> [VERIFY IN H&L] Confirm the specific download/export workflow in the current H&L app version. If the app does not support direct PDF export, use Print → Save as PDF as a workaround.
+> [VERIFY IN H&L] Confirm the specific download/export workflow in the current H&L app version. If the app does not support direct PDF export, use Print → Save as PDF as a workaround. **Day-of backup plan:** if simultaneous PDF export fails for 24 students (most likely failure mode), have students print the H&L Career Plan directly to PDF via the Chromebook browser Print dialog, OR take full-page screenshots and email them to themselves for home and counselor sharing. Every student leaves with an artifact — paper, PDF, or screenshot.
 
 Students save the Plan to:
 

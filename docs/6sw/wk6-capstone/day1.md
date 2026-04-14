@@ -66,8 +66,10 @@ Students who have been doing the work all year will only need to ADD this week's
 
 **Teacher's job:** Walk around with the H&L app dashboard open on a separate device. Spot students who have empty Career Plans and sit with them for 1-on-1 coaching. Ask: "What is your top career interest right now?" Then walk them through favoriting it and adding it to the Plan.
 
-!!! tip "Facilitation Tip"
+!!! tip "Facilitation Tip — Engagement Variability"
     The students who struggle most this week are the ones who never committed to a top career. Reassure them: "You don't have to know FOREVER. You need a plan that fits you RIGHT NOW. You can change it next year — but you need a starting point." The plan is a hypothesis, not a vow.
+
+    **If a student has favorited fewer than 5 careers across the year:** give them a compressed browse-and-finalize path. Ask "What are 3 careers that sound interesting right now?" Have them favorite those 3 in the next 5 minutes, then build the Career Plan around the most interesting one. Refinement continues into the Day 2 writing session — they don't need a perfect pick today, they need a starting pick.
 
 **DOK 3:** Of all the careers you favorited this year, which ONE rose to the top? What evidence from your year of CCE supports that choice?
 
