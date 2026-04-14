@@ -76,6 +76,8 @@ Walk the room and check that students are writing about their OWN website, not g
 
 Open the workbook to page 196. Read the introduction together: even if you have a resume, many employers still require a standard job application. Applications give employers the same info from every applicant. Filling them out accurately and neatly is part of the hiring process.
 
+**Privacy note before you start:** For the real-world Personal Information fields (phone, email, address), students may either write their real info or substitute a sample identity (e.g., fictional "Alex Martinez, 123 Main St, Irving, TX"). Collect and shred all completed forms at the end of class — do not send them home, leave them on desks, or include them in the grading stack overnight.
+
 Students fill out the practice job application for the fictional company **Future Work, Inc.** (Ch 12, pp. 196-198). The form fields:
 
 - **Applicant Information:** Full Name, Preferred Name, Phone, Email
@@ -99,9 +101,9 @@ After students finish, lead a brief discussion using the workbook prompts (Ch 12
 
 ---
 
-## Exit Ticket (No formal exit ticket — students turn in completed wireframes + Job Application as the daily deliverable)
+## Exit Ticket (No formal exit ticket — students turn in completed wireframes as the daily deliverable)
 
-**Submission:** Students submit (1) their 3 wireframe pages, (2) their functionality description, and (3) their completed Job Application as a packet at the end of class. *(d(1)(C), d(2)(A))*
+**Submission:** Students submit (1) their 3 wireframe pages and (2) their functionality description as a packet at the end of class. The completed Job Application is verified in-class by the teacher and shredded at end of class per the privacy note above — it is not included in the grading packet. *(d(1)(C), d(2)(A))*
 
 ---
 

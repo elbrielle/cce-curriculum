@@ -31,7 +31,7 @@ Students establish CCE lab routines and safety expectations, set up their Hats &
 
 ## Career Connection
 
-Every career starts with self-awareness. Before students can explore specific clusters, they need to understand their own personality traits, interests, and values. The RIASEC model (Realistic, Investigative, Artistic, Social, Enterprising, Conventional) and its H&L "Doer / Analyzer / Creator / Helper / Persuader / Organizer" naming is the same framework used by professional career counselors and platforms like O*NET. The data students enter this week powers every recommendation H&L makes for the rest of the year. Treat it as the engine of the course, not a throw-away survey.
+Every career starts with self-awareness. Before students can explore specific clusters, they need to understand their own personality traits, interests, and values. The RIASEC model (Realistic, Investigative, Artistic, Social, Enterprising, Conventional) and its H&L "Doer / Analyzer / Creator / Helper / Persuader / Organizer" naming is the same framework used by professional career counselors and platforms like O*NET. The data students enter this week powers every H&L recommendation for the rest of the year, and is pulled back by 4SW Wk1 mid-year reconciliation and 6SW Wk6 capstone.
 
 **Irving ISD Pathway:** All District Wide, MacArthur, Nimitz, Irving High, Singley, and Cardwell/Ratteree pathways are introduced at the overview level. Students will see the full Irving ISD CTE Pathways poster on Day 5 and identify which pathways catch their eye.
 

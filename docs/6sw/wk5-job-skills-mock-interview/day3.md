@@ -127,7 +127,7 @@ Sample permission email format (display on projector):
 
 **DOK 3:** Why should you NEVER list someone as a reference without asking first? Think about the consequence from the reference's point of view AND the employer's point of view.
 
-**DELIVERABLE:** Completed sample job application + 3 references identified with rationale + draft permission email.
+**DELIVERABLE:** Completed sample job application (verified in-class by the teacher then shredded per the privacy note in Activity 1 — not submitted or graded on the paper itself) + 3 references identified with rationale + draft permission email.
 
 ---
 

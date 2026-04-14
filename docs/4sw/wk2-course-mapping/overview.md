@@ -37,7 +37,7 @@ Students translate the pathway selection from Week 1 into a concrete 4-year high
 
 ## Career Connection
 
-This week is the bridge between career interest and career action. Students stop dreaming and start building. The H&L District Course Planner is uniquely valuable for Irving ISD students because it shows the actual courses available at each Irving ISD high school — not generic Texas courses. By Friday, every student leaves with a written plan that maps from 8th grade through high school graduation toward their chosen pathway, and a printed letter ready to share with family.
+The H&L District Course Planner shows the actual courses available at each Irving ISD high school (not generic Texas courses). By Friday, every student leaves with a written plan mapping from 8th grade through high school graduation toward their chosen pathway, and a printed letter ready to share with family.
 
 **Irving ISD Pathways:** Students complete course mapping for their selected pathway. Common 7th-grade choices include: Computer Science (District Wide), Robotics Manufacturing (Singley), Nursing Science (Singley), Architecture (MacArthur), Drone Engineering (Irving High), Automotive (Cardwell/Ratteree), and Veterinary Science (Nimitz).
 
