@@ -22,6 +22,15 @@ This is a baseline. Collect responses in a folder labeled "Day 1 Predictions" an
 
 ## Activity 1: Lab Routines + Safety Contract (15 min)
 
+!!! warning "Pacing — 15 min is a floor, not a ceiling"
+    Campus lab culture varies widely across Irving ISD. If your campus expects a full period — or multiple periods — for routines and safety, pick one of these alternatives instead of the 15-min default below:
+
+    - **Full-period option (Day 1 routines only):** Extend Activity 1 to ~45 min (the full period minus warm-up and exit ticket). Move Activity 2 (H&L Account Setup) and Activity 3 (Scavenger Hunt) to Day 2, and shift Days 2–5 forward by one day. Appropriate if your campus requires in-depth safety training or a multi-day onboarding before students touch any technology. Data-seeding activities (RIASEC, Work Values, Building Blocks, My Career Journey reflection) simply shift with the rest of the week — the downstream chain at 4SW Wk1 and 6SW Wk6 is unaffected.
+    - **Dispersed option (5 days of reinforcement):** Keep Activity 1 at 15 min on Day 1, then add 2–5 min of routine reinforcement to the warm-up or transition on Days 2, 3, 4, and 5 — reinforce one routine per day (Chromebook protocol → software use → equipment respect → voice levels → safety basics). Matches campuses that prefer cumulative culture-building over front-loaded rules. This option keeps the week on schedule and requires no resequencing.
+    - **Default (15 min):** Use the Suggested Routine block below as-is. Appropriate if your campus has a separate CTE orientation day handling routines, or if students have had prior VILS lab experience.
+
+    Pick before Monday based on your campus expectations — all three options preserve the Week 0 data-seeding activities the rest of the year depends on.
+
 This is a CTE technology lab, not a regular classroom. Students will use Chromebooks daily and, as the year progresses, robots, 3D printers, micro:bits, the Glowforge laser cutter, and craft materials. Set the tone now: technology is a tool, not a toy.
 
 !!! tip "Suggested Routine — Adapt to Your Lab Culture"
