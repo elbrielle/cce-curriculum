@@ -1,0 +1,92 @@
+# Day 5: Career Presentations Day
+
+## Lesson Overview
+
+| | |
+|---|---|
+| **Time** | 50 minutes |
+| **Objectives** | Deliver a 3-minute oral presentation on a career explored this year; provide constructive Two Stars and a Wish feedback to peers; reflect on presentation skills |
+| **TEKS** | d(4)(C), d(4)(B) |
+| **Deliverable** | 3-minute career presentation delivered + scored on rubric |
+| **Materials** | Students' Day 3 outlines, optional slide decks, printed Career Presentation Rubric, timer, projector |
+
+---
+
+## Warm-Up (3 min)
+
+**WARM-UP: Take 90 seconds to review your outline. Read it through once silently. Eye contact, clear voice, confident posture. You are ready.**
+
+This is a quiet warm-up. No discussion. Students need calm focus before presenting. Project a 90-second timer.
+
+---
+
+## Activity 1: Career Presentations (40 min)
+
+**Source:** Day 3 outline + Day 4 practice + Career Presentation Rubric
+
+Today every student delivers their 3-minute career presentation. The structure (from Day 3):
+
+- **Introduction (30 sec)** — Career name, why chosen
+- **Body (2 min)** — Education path, DFW salary, daily tasks
+- **Conclusion (30 sec)** — Connection to personal Career Plan
+
+**Format:**
+
+- Strict 3-minute time limit per student (project a visible timer)
+- Teacher scores each presentation using the rubric
+- After each presentation, the class gives Two Stars and a Wish (use the Powerskills training from Day 2)
+
+**Math for time:** A class of 25 students × 3 minutes = 75 minutes. That is too much. Use one of these approaches:
+
+**Option A — Split groups:** Split the class into 4 groups of 6-7. Each group runs simultaneously in a different corner of the room. Each group selects one "best presentation" to deliver to the whole class at the end. This compresses 25 presentations into ~30 minutes.
+
+**Option B — Two days:** Day 5 = first half of class presents. Bleed into Monday for the second half. (This requires shifting Day 1 of next week's content.)
+
+**Option C — 90-second presentations:** Cut the time to 90 seconds per student (intro + 2 facts + conclusion). 25 students × 1.5 min = 37 minutes. Tighter, but every student presents to the whole class.
+
+Use whichever option fits the class size.
+
+!!! tip "Facilitation Tip"
+    Project a HUGE visible timer for every presentation. Cut presenters off at the time limit, even mid-sentence. This is uncomfortable but it is the most important presentation skill they will learn — finishing on time is the difference between professional and amateur. Real conferences cut speakers off at the time limit. Real interviews end when time is up.
+
+**Class feedback after each presentation:**
+
+- One student volunteer gives a "star" (specific strength)
+- One student volunteer gives a "wish" (specific improvement)
+- Move on quickly — keep momentum
+- Teacher records rubric score privately (don't announce)
+
+**DOK 4:** As you listen to your classmates, evaluate which careers had the strongest combination of high salary, strong demand, and personal fit with the presenter. Which one impressed you most and why?
+
+**DELIVERABLE:** 3-minute career presentation delivered live, scored on rubric.
+
+---
+
+## Activity 2: Reflection + H&L Update (5 min)
+
+**Source:** H&L Career Plan (Ch 16) + scope and sequence
+
+Students complete a quick written reflection on a notecard or in Google Classroom:
+
+1. **Rate your presentation 1-10.** Why that score?
+2. **Name ONE thing you did well** today.
+3. **Name ONE thing you would fix** if you could do it again.
+4. **Did the career you presented FEEL more right or LESS right** after spending the week thinking about it?
+
+Then direct students to update their H&L Career Plan with the career they presented (if not already favorited).
+
+> [H&L PLATFORM] Students open H&L, find their presented career in the Hat Finder, and favorite it. The Career Plan now reflects their researched-and-defended top picks.
+
+---
+
+## Exit Ticket (2 min)
+
+**EXIT TICKET:** Rate your presentation 1-10. Name ONE thing you would improve. Then name ONE thing you learned from listening to a classmate's presentation. *(d(4)(C))*
+
+---
+
+## Differentiation
+
+- **Support:** Allow note cards visible during the presentation. Allow anxious students to present to a small group of 4-5 instead of the whole class. Allow a written submission as a last resort — but coach toward at least small-group oral delivery, since d(4)(C) is the standard.
+- **Extension:** Students who finish early write a 1-page "career profile" of someone they presented about — what their day looks like, how they got there, what they wish they had known earlier. This is the same kind of profile published in career magazines.
+- **ELL:** Allow Spanish or bilingual presentations. Pair ESL students with bilingual partners for the audience feedback. Provide bilingual feedback sentence stems ("Your presentation was strong because _____ / Tu presentación fue fuerte porque _____").

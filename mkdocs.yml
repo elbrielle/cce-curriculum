@@ -17,6 +17,178 @@ docs_dir: docs
 nav:
   - Home: index.md
   - Scope & Sequence: scope-and-sequence.md
+  - 1st Six Weeks — IT & Manufacturing:
+    - Wk 0 — Classroom Routines & Career Self-Discovery:
+      - Overview: 1sw/wk0-classroom-routines/overview.md
+      - Day 1 — Welcome to the CCE Lab: 1sw/wk0-classroom-routines/day1.md
+      - Day 2 — Discover My Core (RIASEC): 1sw/wk0-classroom-routines/day2.md
+      - Day 3 — Work Values + Building Blocks: 1sw/wk0-classroom-routines/day3.md
+      - Day 4 — Xello Quizzes + 14 Clusters: 1sw/wk0-classroom-routines/day4.md
+      - Day 5 — Career Journey Reflection + Design Thinking: 1sw/wk0-classroom-routines/day5.md
+    - Wk 1 — Robotics & Manufacturing:
+      - Overview: 1sw/wk1-robotics-manufacturing/overview.md
+      - Day 1 — Manufacturing Cluster Tour: 1sw/wk1-robotics-manufacturing/day1.md
+      - Day 2 — Machine Breakdown Mystery + Hat Research: 1sw/wk1-robotics-manufacturing/day2.md
+      - Day 3 — Designing Metalworks + Job References: 1sw/wk1-robotics-manufacturing/day3.md
+      - Day 4 — Sphero Setup + Task Bot in Action (Pt 1): 1sw/wk1-robotics-manufacturing/day4.md
+      - Day 5 — Sphero Demo + Task Bot Presentations: 1sw/wk1-robotics-manufacturing/day5.md
+    - Wk 2 — Programming / IT:
+      - Overview: 1sw/wk2-programming-it/overview.md
+      - Day 1 — IT Cluster Tour + 5 Pathways: 1sw/wk2-programming-it/day1.md
+      - Day 2 — Programming Pathway Deep-Dive: 1sw/wk2-programming-it/day2.md
+      - Day 3 — IT Salary Showdown: 1sw/wk2-programming-it/day3.md
+      - Day 4 — Hour of Code (Day 1): 1sw/wk2-programming-it/day4.md
+      - Day 5 — Hour of Code (Day 2) + IT Favorites: 1sw/wk2-programming-it/day5.md
+    - Wk 3 — Computer Science / Networking:
+      - Overview: 1sw/wk3-computer-science-it/overview.md
+      - Day 1 — Networking Pathway + Transferable Skills: 1sw/wk3-computer-science-it/day1.md
+      - Day 2 — Website Design (Plan): 1sw/wk3-computer-science-it/day2.md
+      - Day 3 — Website Wireframe + Job Applications: 1sw/wk3-computer-science-it/day3.md
+      - Day 4 — Emerging Tech Research: 1sw/wk3-computer-science-it/day4.md
+      - Day 5 — Mini-Presentations + Xello Skills: 1sw/wk3-computer-science-it/day5.md
+    - Wk 4 — Tech Support / IT:
+      - Overview: 1sw/wk4-tech-support-it/overview.md
+      - Day 1 — IT Support Pathway: 1sw/wk4-tech-support-it/day1.md
+      - Day 2 — Certification Deep-Dive (CompTIA): 1sw/wk4-tech-support-it/day2.md
+      - Day 3 — Help Desk Simulator (MakeCode Day 1): 1sw/wk4-tech-support-it/day3.md
+      - Day 4 — MakeCode Refine + Customer Service Role-Play: 1sw/wk4-tech-support-it/day4.md
+      - Day 5 — Help Desk Demos + IT Favorites: 1sw/wk4-tech-support-it/day5.md
+    - Wk 5 — Cybersecurity / IT:
+      - Overview: 1sw/wk5-cybersecurity-it/overview.md
+      - Day 1 — Cybersecurity Pathway + CyberSeek: 1sw/wk5-cybersecurity-it/day1.md
+      - Day 2 — Cybersecurity in Action (Design): 1sw/wk5-cybersecurity-it/day2.md
+      - Day 3 — Peer Feedback + Integrity: 1sw/wk5-cybersecurity-it/day3.md
+      - Day 4 — Glowforge College Logo: 1sw/wk5-cybersecurity-it/day4.md
+      - Day 5 — 1SW Capstone Reflection: 1sw/wk5-cybersecurity-it/day5.md
+  - 2nd Six Weeks — Law & Public Service + Health Science:
+    - Wk 1 — Legal Studies:
+      - Overview: 2sw/wk1-legal-studies/overview.md
+      - Day 1 — Law Cluster Tour + Legal Services Pathway: 2sw/wk1-legal-studies/day1.md
+      - Day 2 — Emergency Essentials Kit Design: 2sw/wk1-legal-studies/day2.md
+      - Day 3 — iCivics — Justice in Action: 2sw/wk1-legal-studies/day3.md
+      - Day 4 — AI Ethics Debate + Legal Entrepreneurship: 2sw/wk1-legal-studies/day4.md
+      - Day 5 — Cluster Wrap-Up + Xello Life Experience: 2sw/wk1-legal-studies/day5.md
+    - Wk 2 — Law Enforcement / EMT:
+      - Overview: 2sw/wk2-law-enforcement-emt/overview.md
+      - Day 1 — First Responder Pathways: 2sw/wk2-law-enforcement-emt/day1.md
+      - Day 2 — Missing Painting Detective Scenario: 2sw/wk2-law-enforcement-emt/day2.md
+      - Day 3 — Local Risk Response Task Force Setup: 2sw/wk2-law-enforcement-emt/day3.md
+      - Day 4 — Local Risk Response Citywide Plan: 2sw/wk2-law-enforcement-emt/day4.md
+      - Day 5 — Cluster Wrap-Up + Reflection: 2sw/wk2-law-enforcement-emt/day5.md
+    - Wk 3 — Nursing:
+      - Overview: 2sw/wk3-nursing-health-science/overview.md
+      - Day 1 — Health Science Cluster + CNA / LVN: 2sw/wk3-nursing-health-science/day1.md
+      - Day 2 — Climbing the Nursing Ladder: 2sw/wk3-nursing-health-science/day2.md
+      - Day 3 — Vital Signs Monitor — Build: 2sw/wk3-nursing-health-science/day3.md
+      - Day 4 — Vital Signs Monitor — Test + Present: 2sw/wk3-nursing-health-science/day4.md
+      - Day 5 — Reflection + Xello + eDynamic: 2sw/wk3-nursing-health-science/day5.md
+    - Wk 4 — Dental / Medical Billing:
+      - Overview: 2sw/wk4-dental-medical-billing/overview.md
+      - Day 1 — Health Informatics + Medical Billing: 2sw/wk4-dental-medical-billing/day1.md
+      - Day 2 — Perfect Toothbrush + Dental Pathway: 2sw/wk4-dental-medical-billing/day2.md
+      - Day 3 — Xello Education Experience + School Subjects: 2sw/wk4-dental-medical-billing/day3.md
+      - Day 4 — Medical Coding Simulation: 2sw/wk4-dental-medical-billing/day4.md
+      - Day 5 — Health Science Mid-Point + Recommendation: 2sw/wk4-dental-medical-billing/day5.md
+    - Wk 5 — Powerskills Communication:
+      - Overview: 2sw/wk5-powerskills-communication/overview.md
+      - Day 1 — Powerskills Intro + Conflict Resolution: 2sw/wk5-powerskills-communication/day1.md
+      - Day 2 — Giving and Receiving Feedback: 2sw/wk5-powerskills-communication/day2.md
+      - Day 3 — Advocacy + SMART Goals: 2sw/wk5-powerskills-communication/day3.md
+      - Day 4 — Written Communication — Little Library Post: 2sw/wk5-powerskills-communication/day4.md
+      - Day 5 — Xello Time Management + Reflection: 2sw/wk5-powerskills-communication/day5.md
+    - Wk 6 — Biomedical:
+      - Overview: 2sw/wk6-biomedical-health-science/overview.md
+      - Day 1 — Biomedical Pathway + Cover Letter: 2sw/wk6-biomedical-health-science/day1.md
+      - Day 2 — Physical Therapy in Action: 2sw/wk6-biomedical-health-science/day2.md
+      - Day 3 — Farm Fresh Express — Setup: 2sw/wk6-biomedical-health-science/day3.md
+      - Day 4 — Farm Fresh Express — Design + Present: 2sw/wk6-biomedical-health-science/day4.md
+      - Day 5 — Emerging Career Research + 2SW Wrap-Up: 2sw/wk6-biomedical-health-science/day5.md
+  - 3rd Six Weeks — Ag, Hospitality, Human Services, Business:
+    - Wk 1 — Vet Science:
+      - Overview: 3sw/wk1-vet-science/overview.md
+      - Day 1 — Ag Cluster + Animal Systems Hats: 3sw/wk1-vet-science/day1.md
+      - Day 2 — Vet Tech vs. Veterinarian: 3sw/wk1-vet-science/day2.md
+      - Day 3 — Candy Conundrum Teamwork: 3sw/wk1-vet-science/day3.md
+      - Day 4 — Xello Life Experiences: 3sw/wk1-vet-science/day4.md
+      - Day 5 — Nimitz Vet Pathway + Favorites: 3sw/wk1-vet-science/day5.md
+    - Wk 2 — Plant Science:
+      - Overview: 3sw/wk2-plant-science/overview.md
+      - Day 1 — Plant + Environmental Hats: 3sw/wk2-plant-science/day1.md
+      - Day 2 — Farm to Table Brainstorm: 3sw/wk2-plant-science/day2.md
+      - Day 3 — Farm to Table Canva Build: 3sw/wk2-plant-science/day3.md
+      - Day 4 — Emerging Ag Career Research: 3sw/wk2-plant-science/day4.md
+      - Day 5 — Xello Work Experiences + Nimitz: 3sw/wk2-plant-science/day5.md
+    - Wk 3 — Sustainable Engineering:
+      - Overview: 3sw/wk3-sustainable-engineering/overview.md
+      - Day 1 — Environmental Careers + Climate: 3sw/wk3-sustainable-engineering/day1.md
+      - Day 2 — Pest Patrol Field Notes: 3sw/wk3-sustainable-engineering/day2.md
+      - Day 3 — Pest Patrol Drone Sketch: 3sw/wk3-sustainable-engineering/day3.md
+      - Day 4 — Peer Feedback + Societal Trends: 3sw/wk3-sustainable-engineering/day4.md
+      - Day 5 — Xello Interests + eDynamic 7.1: 3sw/wk3-sustainable-engineering/day5.md
+    - Wk 4 — Culinary & Hospitality:
+      - Overview: 3sw/wk4-culinary-hospitality/overview.md
+      - Day 1 — Hospitality Cluster + Culinary Twist: 3sw/wk4-culinary-hospitality/day1.md
+      - Day 2 — Powerskill Motivation + Salary: 3sw/wk4-culinary-hospitality/day2.md
+      - Day 3 — Hotel Rescue Team Activity: 3sw/wk4-culinary-hospitality/day3.md
+      - Day 4 — Pack Your Bags Tourism Campaign: 3sw/wk4-culinary-hospitality/day4.md
+      - Day 5 — Xello Decision Making + eDynamic: 3sw/wk4-culinary-hospitality/day5.md
+    - Wk 5 — Cosmetology:
+      - Overview: 3sw/wk5-cosmetology/overview.md
+      - Day 1 — Human Services + Stress Toolkit: 3sw/wk5-cosmetology/day1.md
+      - Day 2 — Job Interview Prep + Practice: 3sw/wk5-cosmetology/day2.md
+      - Day 3 — Texas TDLR Licensing: 3sw/wk5-cosmetology/day3.md
+      - Day 4 — Salon Entrepreneurship + Get Out and Move: 3sw/wk5-cosmetology/day4.md
+      - Day 5 — Xello Career Factors + eDynamic: 3sw/wk5-cosmetology/day5.md
+    - Wk 6 — Entrepreneurship:
+      - Overview: 3sw/wk6-entrepreneurship/overview.md
+      - Day 1 — Business Cluster + Defining Entrepreneurship: 3sw/wk6-entrepreneurship/day1.md
+      - Day 2 — Think Inside the Box MVP: 3sw/wk6-entrepreneurship/day2.md
+      - Day 3 — Pitching Investors Business Plan: 3sw/wk6-entrepreneurship/day3.md
+      - Day 4 — Pitching Investors Pitch Day: 3sw/wk6-entrepreneurship/day4.md
+      - Day 5 — Lifestyle Snapshot Budget + Xello: 3sw/wk6-entrepreneurship/day5.md
+  - 4th Six Weeks — Career Planning + Transportation + Engineering:
+    - Wk 1 — Career Planning Mid-Year Review:
+      - Overview: 4sw/wk1-career-planning/overview.md
+      - Day 1 — RIASEC Revisit + Favorites Audit: 4sw/wk1-career-planning/day1.md
+      - Day 2 — H&L Career Plan + Iceberg Cartoon: 4sw/wk1-career-planning/day2.md
+      - Day 3 — Xello Quick Sims — The Real Game: 4sw/wk1-career-planning/day3.md
+      - Day 4 — eDynamic 8.1 — Choosing a Career Path: 4sw/wk1-career-planning/day4.md
+      - Day 5 — Mid-Year Reflection + Pathway Gallery Walk: 4sw/wk1-career-planning/day5.md
+    - Wk 2 — Course Mapping:
+      - Overview: 4sw/wk2-course-mapping/overview.md
+      - Day 1 — MS-to-HS Transition + Endorsements: 4sw/wk2-course-mapping/day1.md
+      - Day 2 — H&L District Course Planner: 4sw/wk2-course-mapping/day2.md
+      - Day 3 — Family Engagement — Sharing the Plan: 4sw/wk2-course-mapping/day3.md
+      - Day 4 — eDynamic 6.2 — Gaining Experience: 4sw/wk2-course-mapping/day4.md
+      - Day 5 — Career Plan Write-Up: 4sw/wk2-course-mapping/day5.md
+    - Wk 3 — Aviation:
+      - Overview: 4sw/wk3-aviation/overview.md
+      - Day 1 — Transportation Troubles: 4sw/wk3-aviation/day1.md
+      - Day 2 — Aviation Hat Research + Military vs. Civilian: 4sw/wk3-aviation/day2.md
+      - Day 3 — LEGO ATC — Build the Airport: 4sw/wk3-aviation/day3.md
+      - Day 4 — LEGO ATC — Run Simulation + Creativity: 4sw/wk3-aviation/day4.md
+      - Day 5 — ATC Presentations + Aviation Goal Plan: 4sw/wk3-aviation/day5.md
+    - Wk 4 — Drone Engineering:
+      - Overview: 4sw/wk4-drone-engineering/overview.md
+      - Day 1 — Engineering Cluster + Protecting Wildlife: 4sw/wk4-drone-engineering/day1.md
+      - Day 2 — UAS Industry Jigsaw Research: 4sw/wk4-drone-engineering/day2.md
+      - Day 3 — FAA Part 107 + Drone Flight Basics: 4sw/wk4-drone-engineering/day3.md
+      - Day 4 — Drone Navigation Challenge: 4sw/wk4-drone-engineering/day4.md
+      - Day 5 — Jigsaw Presentations + Career Classification: 4sw/wk4-drone-engineering/day5.md
+    - Wk 5 — Automotive:
+      - Overview: 4sw/wk5-automotive/overview.md
+      - Day 1 — Delivery Connection App + Pathway Browse: 4sw/wk5-automotive/day1.md
+      - Day 2 — ASE + Apprenticeship vs. College: 4sw/wk5-automotive/day2.md
+      - Day 3 — Automotive Salary Showdown: 4sw/wk5-automotive/day3.md
+      - Day 4 — Cardwell/Ratteree Pathways Deep-Dive: 4sw/wk5-automotive/day4.md
+      - Day 5 — Cross-Cluster Salary Presentation: 4sw/wk5-automotive/day5.md
+    - Wk 6 — Trades Capstone:
+      - Overview: 4sw/wk6-trades-capstone/overview.md
+      - Day 1 — Powerskills Work Ethic + STEM Activity: 4sw/wk6-trades-capstone/day1.md
+      - Day 2 — Transferable Skills Matrix: 4sw/wk6-trades-capstone/day2.md
+      - Day 3 — Professional Associations Jigsaw: 4sw/wk6-trades-capstone/day3.md
+      - Day 4 — Work Ethic in Action + Career Plan Update: 4sw/wk6-trades-capstone/day4.md
+      - Day 5 — Mid-Year Growth Reflection + Sharing Circle: 4sw/wk6-trades-capstone/day5.md
   - 5th Six Weeks — Architecture & Construction:
     - Wk 1 — Architecture:
       - Overview: 5sw/wk1-architecture/overview.md
@@ -25,6 +197,84 @@ nav:
       - Day 3 — TinkerCAD Introduction: 5sw/wk1-architecture/day3.md
       - Day 4 — TinkerCAD Iteration + Trash to Treasure: 5sw/wk1-architecture/day4.md
       - Day 5 — Presentations + A&C Favorites: 5sw/wk1-architecture/day5.md
+    - Wk 2 — Civil Engineering:
+      - Overview: 5sw/wk2-civil-engineering/overview.md
+      - Day 1 — Civil Engineering + Infrastructure Imagination: 5sw/wk2-civil-engineering/day1.md
+      - Day 2 — PSAT/SAT/ACT + Emerging Engineering Careers: 5sw/wk2-civil-engineering/day2.md
+      - Day 3 — Bridge Challenge — Design Phase: 5sw/wk2-civil-engineering/day3.md
+      - Day 4 — Bridge Challenge — Build and Test: 5sw/wk2-civil-engineering/day4.md
+      - Day 5 — Results + Engineering Favorites: 5sw/wk2-civil-engineering/day5.md
+    - Wk 3 — Construction Trades:
+      - Overview: 5sw/wk3-construction-trades/overview.md
+      - Day 1 — Construction Pathway + Hat Research: 5sw/wk3-construction-trades/day1.md
+      - Day 2 — Apprenticeships + Trade Unions: 5sw/wk3-construction-trades/day2.md
+      - Day 3 — Construction Career Classification: 5sw/wk3-construction-trades/day3.md
+      - Day 4 — NCCER + MacArthur + Power Pitch: 5sw/wk3-construction-trades/day4.md
+      - Day 5 — Jigsaw Presentations + Power Pitch: 5sw/wk3-construction-trades/day5.md
+    - Wk 4 — HVAC / Electrical / Plumbing / Welding:
+      - Overview: 5sw/wk4-hvac-electrical-plumbing/overview.md
+      - Day 1 — HVAC, Electrical, Plumbing Exploration: 5sw/wk4-hvac-electrical-plumbing/day1.md
+      - Day 2 — Welding + Jigsaw Research: 5sw/wk4-hvac-electrical-plumbing/day2.md
+      - Day 3 — DFW Labor Market Analysis: 5sw/wk4-hvac-electrical-plumbing/day3.md
+      - Day 4 — Cardwell/Ratteree 2027 + Matrix: 5sw/wk4-hvac-electrical-plumbing/day4.md
+      - Day 5 — Jigsaw Presentations + A&C Wrap-Up: 5sw/wk4-hvac-electrical-plumbing/day5.md
+    - Wk 5 — Personal Budget:
+      - Overview: 5sw/wk5-personal-budget/overview.md
+      - Day 1 — Lifestyle Snapshot Reflection: 5sw/wk5-personal-budget/day1.md
+      - Day 2 — Building My Personal Budget: 5sw/wk5-personal-budget/day2.md
+      - Day 3 — Cost of Living Comparison: 5sw/wk5-personal-budget/day3.md
+      - Day 4 — Financial Literacy + Paying for College: 5sw/wk5-personal-budget/day4.md
+      - Day 5 — Budget Comparison + 3-Career Salary: 5sw/wk5-personal-budget/day5.md
+    - Wk 6 — Real Estate:
+      - Overview: 5sw/wk6-real-estate/overview.md
+      - Day 1 — Real Estate Career Exploration: 5sw/wk6-real-estate/day1.md
+      - Day 2 — TREC Licensing + Commission Math: 5sw/wk6-real-estate/day2.md
+      - Day 3 — Entrepreneurship + DFW Market: 5sw/wk6-real-estate/day3.md
+      - Day 4 — Market Trends + Career Plan Update: 5sw/wk6-real-estate/day4.md
+      - Day 5 — Real Estate Pitch + 5SW Reflection: 5sw/wk6-real-estate/day5.md
+  - 6th Six Weeks — Education + Arts + Business + Capstone:
+    - Wk 1 — Education:
+      - Overview: 6sw/wk1-education/overview.md
+      - Day 1 — Education Cluster + Community Classroom: 6sw/wk1-education/day1.md
+      - Day 2 — Cert Pathways + Powerskills Leadership: 6sw/wk1-education/day2.md
+      - Day 3 — Job Search Scavenger Hunt + Xello: 6sw/wk1-education/day3.md
+      - Day 4 — Teaching Toolbox + Community Service: 6sw/wk1-education/day4.md
+      - Day 5 — Irving ISD Pathways + eDynamic 7.2: 6sw/wk1-education/day5.md
+    - Wk 2 — Graphic Design + Resume:
+      - Overview: 6sw/wk2-graphic-design-resume/overview.md
+      - Day 1 — Arts/AV + Digital Storytelling: 6sw/wk2-graphic-design-resume/day1.md
+      - Day 2 — First Resume in Xello: 6sw/wk2-graphic-design-resume/day2.md
+      - Day 3 — Attention to Detail + Resume Revision: 6sw/wk2-graphic-design-resume/day3.md
+      - Day 4 — Game On! + Job Search Steps: 6sw/wk2-graphic-design-resume/day4.md
+      - Day 5 — Creative Entrepreneurs Branding: 6sw/wk2-graphic-design-resume/day5.md
+    - Wk 3 — Business Marketing:
+      - Overview: 6sw/wk3-business-marketing/overview.md
+      - Day 1 — Marketing Cluster + Marketing on the Move: 6sw/wk3-business-marketing/day1.md
+      - Day 2 — Written Communication + Economy: 6sw/wk3-business-marketing/day2.md
+      - Day 3 — Think Inside the Box MVP: 6sw/wk3-business-marketing/day3.md
+      - Day 4 — Hat Research + Google Applied Skills: 6sw/wk3-business-marketing/day4.md
+      - Day 5 — Marketing Plan Pitches + eDynamic 4.1: 6sw/wk3-business-marketing/day5.md
+    - Wk 4 — Sales + Presentations:
+      - Overview: 6sw/wk4-sales-presentations/overview.md
+      - Day 1 — Sales Pathway + Pitching Investors: 6sw/wk4-sales-presentations/day1.md
+      - Day 2 — Slide Deck + Giving and Receiving Feedback: 6sw/wk4-sales-presentations/day2.md
+      - Day 3 — Investor Pitches + Career Outline: 6sw/wk4-sales-presentations/day3.md
+      - Day 4 — Interview Appearance + Practice: 6sw/wk4-sales-presentations/day4.md
+      - Day 5 — Career Presentations Day: 6sw/wk4-sales-presentations/day5.md
+    - Wk 5 — Job Skills + Mock Interview:
+      - Overview: 6sw/wk5-job-skills-mock-interview/overview.md
+      - Day 1 — Job Search Steps + Admin Pathway: 6sw/wk5-job-skills-mock-interview/day1.md
+      - Day 2 — Cover Letter Writing: 6sw/wk5-job-skills-mock-interview/day2.md
+      - Day 3 — Job Application + References: 6sw/wk5-job-skills-mock-interview/day3.md
+      - Day 4 — Mock Interview Prep + Fishbowl: 6sw/wk5-job-skills-mock-interview/day4.md
+      - Day 5 — Mock Interview Day + Thank-You Letter: 6sw/wk5-job-skills-mock-interview/day5.md
+    - Wk 6 — CAPSTONE:
+      - Overview: 6sw/wk6-capstone/overview.md
+      - Day 1 — Iceberg Reflection + Finalize Career Plan: 6sw/wk6-capstone/day1.md
+      - Day 2 — Written Career Plan + Outline: 6sw/wk6-capstone/day2.md
+      - Day 3 — Capstone Presentations Day 1: 6sw/wk6-capstone/day3.md
+      - Day 4 — Capstone Presentations Day 2 + Plan Download: 6sw/wk6-capstone/day4.md
+      - Day 5 — End-of-Year Reflection + Celebration: 6sw/wk6-capstone/day5.md
   - Resources:
     - TEKS Coverage Matrix: resources/teks-coverage-matrix.md
     - Free Resource Directory: resources/free-resource-directory.md
