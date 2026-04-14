@@ -33,9 +33,9 @@ Students explore the H&L Automotive & Collision Repair pathway (Ch 15), complete
 
 ## Career Connection
 
-The automotive industry is one of the largest employers in America, and the DFW metroplex is a major hub for dealerships, fleet maintenance, collision centers, and diesel repair. What makes automotive careers different from most others students have explored is the **apprenticeship model** — many technicians enter the field through paid on-the-job training combined with technical school, earning money while they learn. ASE (Automotive Service Excellence) certification is the industry standard, and Irving ISD's Cardwell/Ratteree career centers offer Automotive, Diesel & Heavy Equipment, and Collision Repair pathways that lead directly to ASE prep. Students who go through Cardwell/Ratteree can be ASE-ready by graduation and start working immediately at $40-50K, debt-free.
+The automotive industry is one of the largest employers in America, and the DFW metroplex is a major hub for dealerships, fleet maintenance, collision centers, and diesel repair. What makes automotive careers different from most others students have explored is the **apprenticeship model** — many technicians enter the field through paid on-the-job training combined with technical school, earning money while they learn. ASE (Automotive Service Excellence) certification is the industry standard, and Irving ISD offers **Automotive, Collision Repair and Diesel** as a combined pathway at four campuses. Students can be ASE-prepared by graduation and step into work immediately, debt-free.
 
-**Irving ISD Pathway:** Automotive (Cardwell/Ratteree), Diesel & Heavy Equipment (Cardwell/Ratteree), Collision Repair (Cardwell/Ratteree).
+**Irving ISD Pathway:** **Automotive, Collision Repair and Diesel** is offered at **Cardwell Career Preparatory Center, Irving High School, MacArthur High School, and Nimitz High School** — a multi-campus pathway students can pursue regardless of their home school.
 
 ## Vocabulary
 

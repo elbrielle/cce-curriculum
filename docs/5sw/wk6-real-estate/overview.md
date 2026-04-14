@@ -34,7 +34,7 @@ Real estate is a career that blends **sales skills**, **market knowledge**, and 
 
 Real estate also has a strong **entrepreneurship connection** — most agents are independent contractors who essentially run their own business. Texas requires a TREC (Texas Real Estate Commission) license, which students can begin earning right out of high school through specific coursework.
 
-**Irving ISD Pathway:** Real Estate at Singley Academy offers pre-licensure coursework that counts toward TREC's 180-hour education requirement, preparing students to sit for the Texas Real Estate Sales Agent exam after they turn 18.
+**Irving ISD Pathway:** Real Estate is offered at **MacArthur High School** as part of the Business, Retail Management and Entrepreneurship school. Students who pursue the MacArthur Real Estate pathway can begin building industry knowledge and prepare for the Texas Real Estate Sales Agent exam (TREC requires a minimum age of 18 to sit for the exam).
 
 ## Vocabulary
 

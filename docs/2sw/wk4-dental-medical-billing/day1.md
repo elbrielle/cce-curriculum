@@ -39,19 +39,19 @@ For each Hat, they note the education time, certification required, and DFW sala
 
 ---
 
-## Activity 2: Singley Academy Connection (8 min)
+## Activity 2: Medical Billing Career Pathway Overview (8 min)
 
-Project a brief overview of the Singley Academy **Medical Billing** pathway (the district-facing pathway name — see `PATHWAYS.md`):
+Project an overview of the Medical Billing career pathway using BLS and CareerOneStop data. Medical Billing is not currently offered as a dedicated Irving ISD CTE pathway — this activity is a career-exploration overview, not a local pathway pitch:
 
-- Students at Singley Academy can take Medical Billing courses for **dual credit** (high school + community college simultaneously)
-- The pathway leads to the **Certified Medical Billing and Coding Specialist** credential — recognized nationally
-- Graduates can work at hospitals, clinics, insurance companies, and physician offices
-- Starting DFW salary: ~$40K-$45K (BLS for Medical Records Specialists)
+- **Credential:** Certified Medical Billing and Coding Specialist (industry-standard, nationally recognized)
+- **Training route:** community college or private training program, typically 6-12 months post-high-school; some programs offer dual-credit during senior year
+- **Workplaces:** hospitals, clinics, insurance companies, physician offices, remote work-from-home
+- **Starting DFW salary:** ~$40K-$45K (BLS for Medical Records Specialists; 8% job growth — "much faster than average")
 
-The key value proposition: **a Singley graduate can have a $40K healthcare job at age 18, with NO college debt**, while continuing to work toward more advanced certifications.
+The key value proposition: medical billing is a real example of high-demand healthcare work that doesn't require a 4-year degree. Students can pursue it as a short post-high-school credential and step into the workforce quickly.
 
 !!! tip "Facilitation Tip"
-    Many students assume "no college = low pay." Use this moment to challenge that. The Singley Medical Billing pathway is a real example of high-pay, high-demand work that doesn't require a 4-year degree. Show the BLS job outlook (8% growth, "much faster than average").
+    Many students assume "no college = low pay." Use this moment to challenge that. Medical Billing is a real example of high-demand, respectable-pay work with a short training timeline — typically a community college certificate, not a bachelor's degree. Show the BLS job outlook (8% growth, "much faster than average").
 
 ---
 

@@ -35,7 +35,7 @@ Students explore the Arts, A/V Technology & Communications career cluster throug
 
 Graphic design and digital communication careers are everywhere in our visual world — every website, app, advertisement, social media post, and brand logo was created by a designer. In DFW, companies of all sizes hire graphic designers, animators, video editors, UX designers, and social media managers. This is also THE resume week of the year — students write their first professional resume in Xello, which becomes a living document they refine through the rest of the six weeks.
 
-**Irving ISD Pathway:** Graphic Design (Nimitz) and Animation (MacArthur) lead to Adobe Certified Professional certification. Audio/Video Production is offered across multiple Irving ISD high schools.
+**Irving ISD Pathway:** **Digital Communications and Graphic Design** is offered at Irving High School, MacArthur High School, and Nimitz High School — a multi-campus pathway students can pursue regardless of their home school.
 
 ## Vocabulary
 
@@ -96,7 +96,7 @@ The Hat Research template (Ch 4, p. 64) provides structured fields for career re
 
 ### Extensions
 - Students create a complete personal brand package: logo, resume header, and social media banner all in a consistent visual style
-- Research the Adobe Certified Professional exam topics and create a 4-year course plan to earn it through Nimitz Graphic Design pathway
+- Research the Adobe Certified Professional exam topics and create a 4-year course plan to earn it through the Digital Communications and Graphic Design pathway at Irving High, MacArthur, or Nimitz
 - Compare the career trajectories of a Graphic Designer vs. UX Designer over 10 years using BLS data
 
 ### ELL Language Support

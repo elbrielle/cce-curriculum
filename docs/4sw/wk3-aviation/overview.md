@@ -35,9 +35,9 @@ Students explore the Transportation, Distribution & Logistics cluster through Ha
 
 ## Career Connection
 
-Aviation careers combine math, physics, communication, and split-second decision making. They are also unusually accessible because there are multiple legitimate entry pathways: 4-year college aviation programs, FAA-certified flight schools, and military service through the Air Force, Navy, Army, or Coast Guard. The DFW airspace is one of the busiest in the country, which means commercial pilot, air traffic controller, and aviation maintenance jobs are concentrated locally. Irving High is developing an Aviation / Air Traffic Control pathway (coming 2027) and already runs a Drone Engineering pathway tied to FAA Part 107 certification (covered in Week 4).
+Aviation careers combine math, physics, communication, and split-second decision making. They are also unusually accessible because there are multiple legitimate entry pathways: 4-year college aviation programs, FAA-certified flight schools, and military service through the Air Force, Navy, Army, or Coast Guard. The DFW airspace is one of the busiest in the country, which means commercial pilot, air traffic controller, and aviation maintenance jobs are concentrated locally. **Irving High School's School of Aviation Sciences** currently offers Aviation Maintenance and Drone Engineering as a combined pathway, giving Irving ISD students a direct high-school entry point into aviation careers.
 
-**Irving ISD Pathway:** Aviation / Air Traffic Control (Irving High, coming 2027) and Drone Engineering (Irving High, FAA Part 107). Students can also enter aviation via JROTC and military service.
+**Irving ISD Pathway:** **Aviation Maintenance and Drone Engineering** at **Irving High School** (School of Aviation Sciences). Students can also enter aviation via Marine JROTC at Irving High School or via military service.
 
 ## Vocabulary
 

@@ -30,9 +30,9 @@ Students explore the Business, Marketing & Finance cluster through Hats & Ladder
 
 ## Career Connection
 
-Entrepreneurship is a mindset that exists in EVERY cluster, not just its own career field. Tech startups (IT), food trucks (Hospitality), solo law practices (Law), salon ownership (Human Services), urban farms (Ag), freelance graphic design (Arts) — all entrepreneurial. This week ties together entrepreneurship threads from throughout the semester: legal entrepreneurship from 2SW, salon ownership from this six weeks, restaurant ownership from Wk4, sustainable engineering from Wk3, and now business creation as its own discipline. At Irving ISD, the Business & Marketing pathway is available district-wide, and Nimitz HS offers the **Entrepreneurship & Small Business** specialization specifically.
+Entrepreneurship is a mindset that exists in EVERY cluster, not just its own career field. Tech startups (IT), food trucks (Hospitality), solo law practices (Law), salon ownership (Human Services), urban farms (Ag), freelance graphic design (Arts) — all entrepreneurial. This week ties together entrepreneurship threads from throughout the semester: legal entrepreneurship from 2SW, salon ownership from this six weeks, restaurant ownership from Wk4, sustainable engineering from Wk3, and now business creation as its own discipline.
 
-**Irving ISD Pathway:** Business & Marketing (District Wide) and Entrepreneurship & Small Business (Nimitz HS).
+**Irving ISD Pathway:** **Business, Retail Management and Entrepreneurship** at **MacArthur High School** is the primary home for entrepreneurship coursework in Irving ISD. **Cardwell Career Preparatory Center** also offers a Business Management pathway. Business Management and Marketing is additionally offered at Irving High School and Nimitz High School.
 
 ## Vocabulary
 

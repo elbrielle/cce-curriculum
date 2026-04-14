@@ -39,10 +39,10 @@ Students fill in the TREC Licensing Requirements handout as they read the TREC w
 | Exam | Texas Real Estate Sales Agent Exam (state + national sections) |
 | Cost (approximate) | $200-600 for coursework + $50-150 exam fees + fingerprinting |
 
-**Irving ISD connection:** Singley Academy's Real Estate pathway offers coursework that counts toward TREC's 180 hours. Students who complete the Singley pathway can sit for the TREC exam shortly after high school.
+**Irving ISD connection:** MacArthur High School offers Real Estate as part of its Business, Retail Management and Entrepreneurship school. Students interested in real estate careers can pursue the MacArthur Real Estate pathway in high school.
 
 !!! tip "Facilitation Tip"
-    Students often ask "Can I become an agent at 16?" The answer is no — TREC requires a minimum age of 18. But they can START taking coursework earlier at Singley, so they are ready to test the day they turn 18.
+    Students often ask "Can I become an agent at 16?" The answer is no — TREC requires a minimum age of 18 to sit for the Sales Agent exam. But students can start building real estate knowledge and coursework at MacArthur so they are ready when they turn 18.
 
 ---
 

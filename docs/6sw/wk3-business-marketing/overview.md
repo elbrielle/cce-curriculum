@@ -32,7 +32,7 @@ Students explore Marketing careers within the Business, Marketing & Finance clus
 
 Marketing is the engine that drives every business. Without marketing, even the best product fails because nobody knows about it. In DFW, marketing professionals work at corporations (AT&T, American Airlines, Toyota, Mary Kay, Frito-Lay), at hundreds of marketing and advertising agencies, and as freelance entrepreneurs. The Marketing cluster includes traditional roles (Marketing Manager, Brand Manager) and rapidly growing digital roles (Social Media Manager, Content Creator, SEO Specialist).
 
-**Irving ISD Pathway:** Marketing is offered at Singley Academy. Business & Marketing (District Wide) leads to Entrepreneurship & Small Business certification.
+**Irving ISD Pathway:** **Business Management and Marketing** is offered at Irving High School and Nimitz High School. **MacArthur High School** houses the Business, Retail Management and Entrepreneurship school. **Cardwell Career Preparatory Center** offers a Business Management pathway. Marketing is not currently offered at Singley Academy.
 
 ## Vocabulary
 

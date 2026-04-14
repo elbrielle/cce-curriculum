@@ -36,7 +36,7 @@ Students explore the Education & Training career cluster through Hats & Ladders,
 
 Education professionals shape every other career field — every doctor, engineer, lawyer, and entrepreneur had a teacher who helped them get there. In Texas, there are two main pathways into teaching: the traditional route (4-year Education degree + student teaching) and the alternative certification route (any bachelor's degree + alt-cert program like iTeach or Texas Teachers). Both pathways lead to the same TEA teaching certificate. Education is also uniquely connected to community service — a core value of the profession and the natural anchor for d(4)(E).
 
-**Irving ISD Pathway:** Teaching & Training (District Wide) leads to Educational Aide certification. Early Childhood Education (Cardwell/Ratteree) leads to Child Development Associate credential.
+**Irving ISD Pathway:** **Education and Training** is offered at **Irving High School, MacArthur High School, and Nimitz High School** — a multi-campus pathway students can pursue regardless of their home school. **Early Childhood Education** is offered specifically at **Cardwell Career Preparatory Center**.
 
 ## Vocabulary
 

@@ -33,9 +33,9 @@ Students explore the Hospitality & Tourism cluster through Hats & Ladders, compl
 
 ## Career Connection
 
-The hospitality industry is the world's largest employer. From Michelin-star restaurants to food trucks, from luxury hotels to event planning, this cluster offers careers for every personality type. Entrepreneurship is especially strong in hospitality — many people open their own restaurants, food trucks, catering businesses, or event-planning companies. Cardwell/Ratteree, Irving ISD's culinary training site, leads to the **ServSafe Manager** certification, the food safety credential required in most US states for restaurant and food service managers.
+The hospitality industry is the world's largest employer. From Michelin-star restaurants to food trucks, from luxury hotels to event planning, this cluster offers careers for every personality type. Entrepreneurship is especially strong in hospitality — many people open their own restaurants, food trucks, catering businesses, or event-planning companies.
 
-**Irving ISD Pathway:** Culinary Arts (Cardwell/Ratteree) leads to the ServSafe Manager certification. Lodging & Resort Management is offered district-wide leading to the General Management certification.
+**Irving ISD Pathway:** **Singley Academy's School of Culinary Arts and Hospitality** offers both Culinary Arts and Hospitality Services pathways — the district's primary home for culinary training. Singley also operates the student-run **FireBird Cafe Catering** business as applied practice. **Lodging and Resort Management** is offered at Irving High School, MacArthur High School, and Nimitz High School.
 
 ## Vocabulary
 
@@ -97,7 +97,7 @@ These three activities cover the three pathways inside the Hospitality cluster: 
 - Culinary Twist v2: design a 3-course meal (appetizer, entrée, dessert) with a unifying theme
 - Hotel Rescue: design a 4th hotel crisis your team would have to solve
 - Pack Your Bags: build the actual tourism poster in Canva (carry over to next week)
-- Research the Cardwell/Ratteree culinary pathway and write a 4-year course plan
+- Research the Singley Academy School of Culinary Arts and Hospitality and write a 4-year course plan for the Culinary Arts or Hospitality Services pathway
 
 ### ELL Language Support
 - Pre-teach: Restaurant = Restaurante, Chef = Chef, Hotel = Hotel, Tourism = Turismo, Customer = Cliente

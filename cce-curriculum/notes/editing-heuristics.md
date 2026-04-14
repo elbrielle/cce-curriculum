@@ -181,6 +181,19 @@ These edits break curriculum soundness if you don't pull the full dependency sco
 
     Session 4 example: commit `01627b1` rewrote the 6SW Wk6 buffer admonition but missed all three classes of redundancy. Commit `7ccdce2` caught internal redundancy inside the admonition after user flagged "too long." Commit `e153c09` caught a dead intro paragraph (Pre-Capstone Teacher Checklist) + a pre-existing "OFFICIAL d(8) artifact" contradiction (Bridge to Theory section) after user flagged the intro. Two full user round-trips to land one framing change. Running the audit proactively in the initial commit would have collapsed both follow-up commits into the first one. See the Grep Recipes "Redundancy audit" section above.
 
+11. **Never cite an Irving ISD pathway without verifying against the canonical Irving ISD website.** PATHWAYS.md is a SECONDARY reference derived from the canonical source. The canonical sources are:
+    - The Irving ISD CTE Offerings by Campus page: <https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte>
+    - Each individual school's CTE page (Singley, MacArthur, Nimitz, Irving High, Cardwell)
+
+    **The failure mode is severe.** Commits `c7ad425` (5SW Wk6 Real Estate claiming Singley), `f856726` (2SW Wk4 Dental/Medical Billing aligning to "Medical Billing per PATHWAYS.md canonical"), and approximately 13 other overview files shipped fabricated or drift-contaminated pathway-to-school assignments that flowed from an old PATHWAYS.md that was never verified against the Irving ISD website. The old file listed Real Estate, Sales Management, Administrative Management, and Entrepreneurship at Singley — all of which are actually at MacArthur per the Irving ISD CTE Offerings page. The night-session audit fixed 13 weeks and a full rewrite of PATHWAYS.md; see the commits that shipped those fixes.
+
+    **Rule going forward:**
+    - Before writing any "Irving ISD Pathway:" section in a week overview, WebFetch or visit <https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte> and the relevant individual school page. Confirm the pathway exists at the campus you are about to cite.
+    - Do NOT rely on PATHWAYS.md alone. PATHWAYS.md is a secondary summary and may drift. The canonical sources always win.
+    - When a pathway is multi-campus (Automotive, Cosmetology, Education and Training, Lodging and Resort Management, Digital Communications and Graphic Design, Computer Science), say so explicitly. Do not cite a single campus when the pathway lives at multiple.
+    - When a week topic has NO current Irving ISD pathway home (HVAC/Electrical/Plumbing, Medical Billing, Animation), frame it as career exploration using BLS/CareerOneStop, not as a claim about a local pathway.
+    - Grep recipe for auditing an existing week's pathway claim: `grep -nE "Singley|Nimitz|MacArthur|Cardwell|Ratteree|Irving High" docs/<path>/overview.md`. Then verify each hit against the Irving ISD website.
+
 ---
 
 ## When You've Read Enough

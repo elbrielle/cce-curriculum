@@ -30,7 +30,7 @@ Students build a **2-minute pitch** using the data they collected this week. Goo
 
 - **A hook** — "Did you know a single home sale in DFW can earn an agent $10,000 in commission?"
 - **Earning potential** — specific numbers from their Day 2 commission worksheet
-- **Licensing pathway** — TREC requirements and how Singley Academy connects
+- **Licensing pathway** — TREC requirements and how MacArthur High School's Real Estate pathway prepares students
 - **Entrepreneurship angle** — you are your own boss, build a personal brand, unlimited earning potential
 - **Market demand** — DFW is one of the fastest-growing real estate markets in the country
 - **Personal angle** — who is this career best for? (People who are outgoing, comfortable with variable income, self-motivated)

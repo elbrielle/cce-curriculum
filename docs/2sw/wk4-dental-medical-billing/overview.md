@@ -33,9 +33,7 @@ Students explore Health Informatics (medical billing/coding) and Dental Science 
 
 Not everyone in healthcare works directly with patients. Medical billing and coding specialists translate medical procedures into standardized codes for insurance billing — a behind-the-scenes role that keeps hospitals running. Dental assistants and hygienists work directly alongside dentists. Both fields are high-demand in DFW with relatively short training timelines, making them excellent options for students who want to enter healthcare quickly without an 8-year degree.
 
-**Irving ISD Pathway:** Two pathways at Singley Academy connect to this week:
-- **Medical Billing** at Singley Academy — leads to the Certified Medical Billing and Coding Specialist credential
-- **Dental** at Singley Academy — leads to the Registered Dental Assistant credential
+**Irving ISD Pathway:** The **Dental** pathway at **Singley Academy** (part of the School of Health Sciences) is the current Irving ISD anchor for this week. Singley's four Health Sciences pathways are Nursing Science, Physical Therapy, Dental, and Emergency Medical - EMT. **Medical Billing** is not currently offered as a dedicated Irving ISD pathway at any campus — this week covers Medical Billing as a career-exploration topic using BLS and H&L career data, not as a claim about a local high-school pathway.
 
 ## Vocabulary
 
@@ -60,7 +58,7 @@ The H&L workbook (Ch 9: Health Science, pp. 140-143) provides the major activity
 
 | Day | Focus | Key Activities | Deliverable |
 |-----|-------|---------------|-------------|
-| 1 | Health Informatics + Medical Billing | H&L Ch 9 Health Informatics pathway, Singley Academy connection, begin Career Comparison | Hat Research template (1 health informatics career) |
+| 1 | Health Informatics + Medical Billing | H&L Ch 9 Health Informatics pathway, Medical Billing career overview (BLS), begin Career Comparison | Hat Research template (1 health informatics career) |
 | 2 | Perfect Toothbrush + Dental Pathway | H&L Ch 9 "Perfect Toothbrush" activity (pp. 140-142), dental Hat Finder, complete Career Comparison worksheet | Toothbrush design + completed Career Comparison (3 careers) |
 | 3 | Xello Education Experience + School Subjects | Xello Education Experience + School Subjects at Work activities, college credit discussion | Xello completion screens + connection paragraph |
 | 4 | Medical Coding Simulation | Intro to ICD-10 coding, 3-round simulation with patient charts, accuracy challenge | Coding accuracy sheet (3 rounds, score recorded) |

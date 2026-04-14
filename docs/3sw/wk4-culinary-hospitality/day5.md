@@ -77,7 +77,7 @@ Then they write a 3-sentence reflection on the Hospitality week:
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Submit your Xello screenshot, H&L favorites screenshot, and 3-sentence reflection. Write one sentence: "If I were to enroll in the Cardwell/Ratteree Culinary Arts pathway, my dream is to _____." *(d(1)(C), d(3)(I))*
+**EXIT TICKET:** Submit your Xello screenshot, H&L favorites screenshot, and 3-sentence reflection. Write one sentence: "If I were to enroll in the Singley Academy Culinary Arts or Hospitality Services pathway, my dream is to _____." *(d(1)(C), d(3)(I))*
 
 ---
 
