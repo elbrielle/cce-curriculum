@@ -23,18 +23,9 @@ Students engage with four H&L Powerskills modules (Conflict Resolution, Giving a
 - Xello accounts (Time Management Lesson)
 - CareerOneStop Skills Matcher: [careeronestop.org/Toolkit/Skills/skills-matcher.aspx](https://www.careeronestop.org/Toolkit/Skills/skills-matcher.aspx)
 - Printed SMART Goal worksheet
-- Healthcare role-play cards (teacher-prepared — see Teacher Prep Checklist below)
+- Healthcare role-play cards (teacher-prepared; 6 cards for Day 2 + Day 4)
 - Timer for activities
 - Projector for demonstrations
-
-!!! tip "Teacher Prep Checklist (1–2 weeks before the week starts)"
-    This week depends on three external systems plus one piece of teacher-authored content. Verify each before the week begins:
-
-    - [ ] **H&L Powerskills Workbook:** Pages 19–32 photocopied OR H&L site license allows digital distribution. The four modules used this week are Conflict Resolution (pp. 19–21), Feedback (pp. 22–24), Written Communication (pp. 25–26), Advocacy (pp. 30–32).
-    - [ ] **Healthcare role-play cards authored:** Draft 6 cards total — 3 for Day 2 (feedback context) and 3 for Day 4 (written communication context). Day 2 and Day 4 each include 3 sample cards you can adopt verbatim or adapt to your local healthcare context (e.g., Baylor Scott & White Irving, Las Colinas Medical Center). Plan ~30 min of prep time.
-    - [ ] **Xello + CareerOneStop access confirmed:** Open Xello Time Management Lesson on 2 student Chromebooks to confirm it appears on the 7th-grade task list. Load `careeronestop.org/Toolkit/Skills/skills-matcher.aspx` to confirm IT has whitelisted the domain (submit request 10 business days prior if blocked).
-
-    If any item fails, notify your instructional coach immediately — these are prerequisites, not nice-to-haves.
 
 ## Career Connection
 

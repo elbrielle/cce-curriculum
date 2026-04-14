@@ -23,15 +23,6 @@ Students explore the Information Technology cluster through Hats & Ladders (Ch 1
 - Hats & Ladders accounts + H&L Workbook Ch 12: Information Technology (pp. 191-207)
 - Code.org Hour of Code activities: [hourofcode.com](https://hourofcode.com)
 
-!!! tip "Teacher Prep Checklist (1–2 weeks before the week starts)"
-    This week depends on three external systems. Verify each before the week begins:
-
-    - [ ] **H&L Workbook:** Ch 12 (pp. 191–207) photocopied OR H&L site license allows digital Chromebook distribution
-    - [ ] **Code.org Hour of Code:** Open an Hour of Code activity on 2 student Chromebooks on your school network to confirm playback works and no login wall blocks the student experience
-    - [ ] **Network Whitelisting:** IT has whitelisted `hourofcode.com`, `studio.code.org`, and `code.org` (submit request 10 business days prior); confirm Xello "Favorite Clusters" activity is available on the 7th-grade task list
-
-    If any item fails, notify your instructional coach immediately — these are prerequisites, not nice-to-haves.
-
 - BLS — Software Developers: [bls.gov/ooh/computer-and-information-technology/software-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm)
 - BLS — Web Developers: [bls.gov/ooh/computer-and-information-technology/web-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm)
 - BLS — Computer/IT Cluster: [bls.gov/ooh/computer-and-information-technology/home.htm](https://www.bls.gov/ooh/computer-and-information-technology/home.htm)

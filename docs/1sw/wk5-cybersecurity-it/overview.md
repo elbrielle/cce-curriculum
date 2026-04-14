@@ -24,15 +24,6 @@ Students explore the Cybersecurity pathway through Hats & Ladders, complete the 
 - Design software: Canva, Adobe Express, or Inkscape (for SVG creation)
 - College logo image files (or school logo SVGs)
 
-!!! tip "Teacher Prep Checklist (1–2 weeks before the week starts)"
-    This week depends on three external systems. Verify each before the week begins:
-
-    - [ ] **H&L Workbook:** Ch 12 (pp. 193–195) photocopied OR H&L site license allows digital Chromebook distribution
-    - [ ] **Glowforge + Design Software:** Confirm the Glowforge is connected to Wi-Fi, material stock is on hand (1/8" plywood or acrylic), your campus has cleared fire-safety and ventilation requirements for classroom use, and you've run a practice cut this week. Test Canva / Adobe Express SSO on 2 student Chromebooks for SVG creation.
-    - [ ] **Network Whitelisting:** IT has whitelisted `app.glowforge.com`, `canva.com`, and `express.adobe.com` (submit request 10 business days prior); confirm the NOVA Cybersecurity Lab loads through your district filter
-
-    If any item fails, notify your instructional coach immediately — these are prerequisites, not nice-to-haves.
-
 - NOVA Cybersecurity Lab (free PBS game): [pbs.org/wgbh/nova/labs/lab/cyber/](https://www.pbs.org/wgbh/nova/labs/lab/cyber/)
 - CyberSeek Career Pathway Map: [cyberseek.org/pathway.html](https://www.cyberseek.org/pathway.html)
 - BLS — Information Security Analysts: [bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm](https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm)

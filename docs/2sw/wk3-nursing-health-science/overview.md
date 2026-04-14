@@ -25,15 +25,6 @@ Students explore the Health Science career cluster through Hats & Ladders, inves
 - micro:bit devices (1 per team of 2-3 students)
 - Microsoft MakeCode for micro:bit: [makecode.microbit.org](https://makecode.microbit.org)
 
-!!! tip "Teacher Prep Checklist (1–2 weeks before the week starts)"
-    This week depends on three external systems. Verify each before the week begins:
-
-    - [ ] **H&L Workbook:** Ch 9 (pp. 138–148) photocopied OR H&L site license allows digital Chromebook distribution
-    - [ ] **micro:bit + MakeCode:** Charge all micro:bits, test USB connection to 2 student Chromebooks, and confirm MakeCode can flash a "Hello" program from the browser to the device
-    - [ ] **Network Whitelisting:** IT has whitelisted `makecode.microbit.org` and `microbit.org` (submit request 10 business days prior); confirm eDynamic Learning Unit 4.2 Part 2 and Xello Learning Styles Lesson access are active
-
-    If any item fails, notify your instructional coach immediately — these are prerequisites, not nice-to-haves.
-
 - BLS — Registered Nurses: [bls.gov/ooh/healthcare/registered-nurses.htm](https://www.bls.gov/ooh/healthcare/registered-nurses.htm)
 - BLS — Nurse Practitioners: [bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm](https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm)
 - BLS — Nursing Assistants: [bls.gov/ooh/healthcare/nursing-assistants.htm](https://www.bls.gov/ooh/healthcare/nursing-assistants.htm)

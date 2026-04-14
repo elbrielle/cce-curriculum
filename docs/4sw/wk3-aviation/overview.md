@@ -23,15 +23,6 @@ Students explore the Transportation, Distribution & Logistics cluster through Ha
 - Hats & Ladders student accounts + H&L Workbook (Ch 15: Transportation, Distribution & Logistics, pp. 248-262)
 - LEGO bricks and baseplates (1 set per team of 3-4 students)
 
-!!! tip "Teacher Prep Checklist (1–2 weeks before the week starts)"
-    This week depends on three external systems. Verify each before the week begins:
-
-    - [ ] **H&L Workbook:** Ch 15 (pp. 248–262) photocopied OR H&L site license allows digital Chromebook distribution
-    - [ ] **LEGO Kits:** Confirm you have 1 kit per team of 3–4 (typical class = 6–8 kits) reserved for the full week with mixed brick sizes and baseplates. Kits are often shared campus-wide — book them in advance through your instructional coach or STEM lead.
-    - [ ] **Network Whitelisting:** Confirm eDynamic Learning Unit 2.2 (Setting Goals) and Xello (Jobs and Employers activity) access are active for all student accounts
-
-    If any item fails, notify your instructional coach immediately — these are prerequisites, not nice-to-haves.
-
 - Printed Air Traffic Control scenario cards (4 difficulty tiers)
 - Printed Military vs. Civilian Pathways comparison chart
 - Printed Transportation Survey template (10 questions: 7 multiple-choice, 3 short-answer)

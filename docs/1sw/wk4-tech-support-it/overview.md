@@ -24,15 +24,6 @@ Students explore the Information Technology Support and Services pathway in Hats
 - Microsoft MakeCode for micro:bit: [makecode.microbit.org](https://makecode.microbit.org)
 - USB cables (micro:bit to Chromebook)
 
-!!! tip "Teacher Prep Checklist (1–2 weeks before the week starts)"
-    This week depends on three external systems. Verify each before the week begins:
-
-    - [ ] **H&L Workbook:** Ch 12 (p. 192, Information Technology Support and Services pathway) photocopied OR H&L site license allows digital Chromebook distribution
-    - [ ] **micro:bit + MakeCode:** Charge all micro:bits, test USB connection to 2 student Chromebooks, and confirm MakeCode can flash a "Hello" program from the browser to the device
-    - [ ] **Network Whitelisting:** IT has whitelisted `makecode.microbit.org` and `microbit.org` (submit request 10 business days prior); confirm your district Chromebook policy allows USB device access for students
-
-    If any item fails, notify your instructional coach immediately — these are prerequisites, not nice-to-haves.
-
 - CompTIA Career Roadmap: [comptia.org/content/it-careers-path-roadmap](https://www.comptia.org/content/it-careers-path-roadmap)
 - BLS — Computer Support Specialists: [bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm](https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm)
 - Printed Education Pathway Comparison worksheet (3 careers × 5 fields)

@@ -29,16 +29,6 @@ Students explore Sales careers through Hats & Ladders, work in teams on the H&L 
 - Timer for presentations
 - Projector for modeling
 
-!!! tip "Teacher Prep Checklist"
-    This is a presentation week with multiple printed artifacts and a Day 5 timing decision. Pre-work recommended over the prior weekend (~45-60 min):
-
-    - **Career Presentation Rubric** — print 1 per student (used Days 3, 4, 5)
-    - **Career Presentation Outline template** — print 1 per student (Day 3)
-    - **Interview Appearance Guide** — print 1 per student (Day 4)
-    - **Pitching Investors team planner** — print 1 per team (Day 1)
-    - **Day 5 compression decision** — pick option A (split groups), B (two days), or C (90-second slots) in advance based on your class size (see Day 5 Activity 1 admonition). Plan to announce the choice to students by end of Day 4 so they can adjust overnight.
-    - **H&L access check** — verify students can open Ch 5 pp. 81-86 "Pitching Investors" and the Sales pathway Hat Finder on one student Chromebook before Monday. Escalate to district IT if H&L SSO is blocked.
-
 ## Career Connection
 
 Sales professionals are the revenue engine of every business. This is also PRESENTATION WEEK — students deliver oral presentations on a career they have explored this year (d(4)(C) is the major TEKS standard). The H&L "Pitching Investors" team project teaches them how real entrepreneurs persuade investors, and the Powerskills Giving and Receiving Feedback module prepares them to handle peer feedback like professionals.

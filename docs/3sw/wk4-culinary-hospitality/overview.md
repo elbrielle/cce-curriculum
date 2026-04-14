@@ -23,15 +23,6 @@ Students explore the Hospitality & Tourism cluster through Hats & Ladders, compl
 - H&L Powerskills Supplement — Motivation module
 - Canva for Education accounts: [canva.com/education](https://www.canva.com/education/)
 
-!!! tip "Teacher Prep Checklist (1–2 weeks before the week starts)"
-    This week depends on three external systems. Verify each before the week begins:
-
-    - [ ] **H&L Workbook:** Ch 10 (pp. 158–173) photocopied OR H&L site license allows digital Chromebook distribution
-    - [ ] **Canva for Education:** Test login with 2 student Chromebooks on your school network to confirm Google SSO links students to the Canva for Education (not free-tier) experience before the menu / tourism campaign activities
-    - [ ] **Network Whitelisting:** IT has whitelisted `canva.com` and `*.canva-apps.com` (submit request 10 business days prior); confirm eDynamic Learning Unit 6.1 and the Xello Decision Making lesson are active
-
-    If any item fails, notify your instructional coach immediately — these are prerequisites, not nice-to-haves.
-
 - BLS — Chefs and Head Cooks: [bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm](https://www.bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm)
 - BLS — Lodging Managers: [bls.gov/ooh/management/lodging-managers.htm](https://www.bls.gov/ooh/management/lodging-managers.htm)
 - Xello student accounts (Decision Making lesson)

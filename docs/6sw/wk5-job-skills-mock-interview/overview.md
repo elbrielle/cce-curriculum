@@ -35,15 +35,6 @@ Students complete the full job-seeking skill set: identify job search steps, wri
 - Printed Mock Interview Rubric (1 per student)
 - Timer for mock interviews
 
-!!! tip "Teacher Prep Checklist (1–2 weeks before the week starts)"
-    This is the most print-heavy week of the year. Draft and copy everything before Monday — students lose cumulative minutes every day that a handout is missing.
-
-    - [ ] **H&L Workbook access:** Ch 11 pp. 178–181 (Interviews) and Ch 12 p. 196 (Job Applications) photocopied OR H&L site license allows digital Chromebook distribution.
-    - [ ] **Six printables authored and copied:** Cover Letter Template, Sample Job Application form, References Guide, Mock Interview Question Cards (1 set per pair), Mock Interview Rubric (1 per student), sample job posting (the Pecan Creek Vet Clinic example on Day 1 is adoptable as-is). Plan ~60 min of prep time plus copy-room turnaround.
-    - [ ] **Xello + CareerOneStop access confirmed:** Load the Xello Job Interviews lesson and the CareerOneStop Job Interview Tips page on a student Chromebook to confirm neither is behind a login wall or whitelist block. Submit IT whitelist request 10 business days prior if blocked.
-
-    If any item fails, notify your instructional coach immediately — these are prerequisites, not nice-to-haves.
-
 ## Career Connection
 
 This is the heaviest TEKS week of the entire course. Six standards. Students do the FULL professional-document set — cover letter, application, references, thank-you letter — plus a real mock interview with peer feedback. These are universal life skills. The same documents and the same interview format apply when adults apply for any job throughout their careers. By practicing now in middle school, students build confidence and skills that will pay off for decades.
