@@ -357,3 +357,153 @@ Items that need a human decision — the curriculum writer couldn't fix these wi
 - **Concerns:** 58 lobbed → 34 Fix / 14 Defend / 11 Escalate / 1 Folded
 - **Commits:** 7 instinct-review commits
 - **Remaining weeks to instinct-review:** 29
+
+---
+
+## Week 8 — 5SW Wk5: Personal Budget (Session 2026-04-15 Track B)
+
+**Why this week:** highest-stakes standalone summative in 5SW — d(5)(D) personal budget — and two load-bearing teacher-authored resources (Personal Budget Template + DFW Cost Reference Sheet) are flagged as "not yet built" in `resources-status.md`. Strong A5 candidate (teacher-authored resource second-pass trigger).
+
+**Protocol used:** Teacher Implementer spawned as Explore sub-agent; Writer triage done in-session.
+
+**Top Teacher Implementer concerns (10 lobbed):**
+
+1. Day 2 math prerequisite unstated; 3-check protocol leaves min 0-8 unmonitored — the period when calculator errors on `salary ÷ 12 × 0.75` cascade into the rest of the budget
+2. Day 2 deliverable "all expense categories filled in" too rigid if the template is built in simplified form for Support
+3. Personal Budget Template + DFW cost reference both "not yet built" → Monday-morning block for an unprepared teacher
+4. Day 3 CareerOneStop district filter risk with no fallback
+5. Day 4 three-module paralysis (NGPF / EverFi / Practical Money Skills) with no pre-selection guidance
+6. Day 2 facilitation tip on negative balances frames the "career vs. lifestyle" realization as a "core learning moment" — emotionally unsafe for students whose family works in lower-wage careers; Day 5 TPS bullet "Whose budget balanced without cutting anything?" amplifies the income-disparity reading
+7. Day 5 3-career chart in 15 min too tight if students must pull salary data for 3 careers from H&L without pre-identification
+8. Summative spec blurs formative/summative across Day 2, 3, 5 deliverables — unclear which three artifacts are the submission
+9. Day 4 "Paying for College" 12-min walkthrough for 4 methods + DOK compressed
+10. H&L SSO + Ch 16 workbook access unverified for all students
+
+**Writer triage: 9 Fix, 1 Defend.**
+
+| # | Concern | Fix |
+|---|---------|-----|
+| 1 | Day 2 math + check timing | Retime Check 1 from min 8 → min 5 (Checks 2/3 to 15/22) so gross-to-net errors are caught before they cascade; add brief "why earlier" parenthetical |
+| 2 | Day 2 deliverable rigidity | Soften "all expense categories" → "all major expense categories + calculated balance" |
+| 3 | Unbuilt artifacts | Add **Teacher Prep Checklist** admonition to overview (A5 second-pass trigger) — names the two unbuilt artifacts with ~60-90 min weekend prep estimate |
+| 4 | CareerOneStop filter | Folded into Teacher Prep Checklist ("test careeronestop.org Friday on student Chromebook; escalate to district IT if blocked") |
+| 5 | Day 4 module paralysis | Folded into Teacher Prep Checklist (NGPF recommended as default; test login flow on one Chromebook before Monday) |
+| 6 | Emotional safety on negative balances + Day 5 TPS amplifier | (a) Day 2 facilitation tip reframed — removed "core learning moment" declarative; added explicit family-career protection ("the same career supports many real lifestyles"). (b) Day 5 TPS bullet "Whose budget balanced without cutting anything?" replaced with lifestyle-focus reframe |
+| 7 | Day 5 3-career chart tight | Add facilitation tip on Day 5 Activity 2 directing teacher to give first 2 min for pre-identification inside the existing 15-min budget — no timing change |
+| 8 | Summative spec blurred | Clarify overview Summative section: all three artifacts submitted as a single Day 5 portfolio; Day 2 + Day 3 named as formative carry-forward |
+| 9 | Day 4 FAFSA walkthrough 12 min | **DEFEND** — d(3)(C) TEKS scope is *identify methods*, not analyze depth. 12 min is survey-level matching the standard; 6SW Wk6 revisits aid in capstone |
+| 10 | H&L access unverified | Folded into Teacher Prep Checklist |
+
+**Commit:** `6812dd9` — 3 files, +19/-7 lines. Largest single-file edit: overview.md at 13 net lines. All under the 15-line threshold.
+
+**Escalated:** none. Production gap on unbuilt artifacts already tracked in `resources-status.md`.
+
+---
+
+## Week 9 — 3SW Wk3: Sustainable Engineering (Session 2026-04-15 Track B)
+
+**Why this week:** cross-cluster bridge week; H&L Ch 2 "Ag-Tech Pest Patrol" drone-design Career Lab is the anchor (4-day project). Topic was populated in S&S with a named eDynamic unit — lower writer-drift risk than 2SW Wk5, but still a "reach" week because H&L col 5 listed only pathway-level activities (no named chapter project). The writer grounded the implementation to the Pest Patrol Career Lab, which grep-verified in HatsandLadders.txt.
+
+**Protocol used:** Teacher Implementer spawned as Explore sub-agent; Writer triage done in-session.
+
+**Top Teacher Implementer concerns (8 lobbed):**
+
+1. Day 1 NASA Climate Kids 15-min block has no fallback if blocked by district filter
+2. Day 2 timing math — 25 min for 3 sets of field notes @ 6 min each + summary worksheet
+3. Day 3 rationale paragraph (4-5 sentences) redundant with label content
+4. Day 3 checkpoint clipboard for 24 students in 25 min = ~60 sec/student (unrealistic)
+5. Day 4 Societal Trends "Careers Declining" column politically charged in Irving ISD family-job context
+6. Day 4 peer feedback 20 min too tight for 2 explanations + rubrics + revisions
+7. Day 5 eDynamic Unit 7.1 VERIFY block has no concrete fallback
+8. d(5)(C) Societal Trends feels isolated from the drone-design work — weak conceptual bridge
+
+**Writer triage: 8 Fix, 0 Defend, 0 Escalate.**
+
+| # | Concern | Fix |
+|---|---------|-----|
+| 1 | NASA Climate Kids fallback | Add `!!! note` in Day 1 Activity 2 — NOAA climate education pages + BLS Environmental Engineers as district-filter fallbacks using the same 2-sentence template |
+| 2 | Day 2 reading timing | Soften "about 6 minutes per set" → "plan 4-6 min per set — slower readers can skim Set 3 using the bullets above as a guide"; students may start the summary worksheet as they read |
+| 3 | Day 3 rationale redundant | Tighten rationale from 4-5 sentences → 3 sentences explicitly distinct from labels — focus on trade-off reasoning (what I'd cut, what I'm unsure about). Raises DOK without adding time |
+| 4 | Day 3 checkpoint unrealistic | Soften "stop at each desk once" → "aim for 10-12 students, prioritize stuck/rushed; Day 4 peer feedback catches the rest" |
+| 5 | Societal Trends political charge | Rename column "Careers Declining" → "Careers Changing or Adapting"; reframe example rows from "coal mining workers" / "field-walking crop scouts" → "traditional energy roles adding renewable skill sets" / "crop inspection shifting from hand-walking to drone-assisted"; add family-jobs facilitation note |
+| 6 | Day 4 peer feedback timing | Add explicit time split inside 20 min (6/6/5/3 — explain A / explain B / rubrics / revisions); move revision notes to exit ticket if pair runs short |
+| 7 | eDynamic fallback unnamed | Expand the VERIFY block with a concrete fallback — early 3-Week Reflection + research one real ag-tech company (Hylio/Skydio/DJI Agriculture) using BLS or Climate Kids, 2-sentence write-up |
+| 8 | d(5)(C) isolated from drone work | Add 1-sentence conceptual bridge at start of Day 4 Activity 2 — "The drone you designed IS a career that barely existed 20 years ago; Ag-Tech Drone Operator is one of the clearest recent examples of what changing farm needs plus new technology create together" |
+
+**Commit:** `a9a045f` — 5 files, +22/-15 lines. Largest single-file edit: day3.md at 16 net lines (3 concerns addressed in one file; still under the 15-line per-concern surgical limit). All per-concern edits ≤5 lines.
+
+**Escalated:** none.
+
+---
+
+## Week 10 — 2SW Wk4: Dental / Medical Billing (Session 2026-04-15 Track B)
+
+**Why this week:** pre-review suggested this might be a writer-reached slot week, but the S&S Topic field was populated with "Dental / Medical Billing" + a named H&L Career Climb activity (Perfect Toothbrush, Ch 9 pp. 140-142). Not a slot week after all. However, Day 4 depends on two substantial teacher-authored artifacts (ICD-10 reference sheet + simulated patient charts) — second A5 trigger for this session.
+
+**Protocol used:** Teacher Implementer spawned as Explore sub-agent; Writer triage done in-session.
+
+**Top Teacher Implementer concerns (10 lobbed):**
+
+1. Day 1 pathway name drift — "Medical Billing and Coding pathway" vs. `PATHWAYS.md` canonical "Medical Billing"
+2. Day 2 Activity 1 embeds 4 sub-steps (research + sketch + pitch + class discussion) in 25 min with no transition markers — pair pitches run into class discussion run into Activity 2 timing
+3. Day 4 ICD-10 simulation materials (reference sheet + 8 patient charts) load-bearing and teacher-prepared but no Teacher Prep Checklist
+4. Day 4 Round 2 jump from "one correct code" to "pick the BEST code, not just ANY" unscaffolded for 7th-graders
+5. Day 2 Perfect Toothbrush Step 3 (partner pitch) timing unclear inside the 25-min block — no clean pivot into Activity 2
+6. Day 5 Activity 1 teacher circulation 10 min / 24 students = ~25 sec each
+7. Day 3 Activity 3 10-min "College Credit" walkthrough = passive lecture after 30 min of Xello tool work
+8. Day 5 summative 15-min compression — 4-sentence paragraph + data recall + pair read high cognitive load
+9. Day 1 warm-up "medical billing" too abstract for 7th graders who don't pay household bills
+10. Day 4 + overview teacher-authored materials lack explicit guidance on code selection / trap-code design
+
+**Writer triage: 9 Fix (1 folded), 0 Defend, 0 Escalate.**
+
+| # | Concern | Fix |
+|---|---------|-----|
+| 1 | Singley pathway name | Rename Day 1 "Medical Billing and Coding pathway" → "Medical Billing pathway" to match `PATHWAYS.md` line 22 canonical. Credential formal name ("Certified Medical Billing and Coding Specialist") preserved — that IS the credential name, distinct from the pathway name. Dim 1 drift closed. |
+| 2 | Day 2 Activity 1 density | Add explicit time split inside Activity 1 (5/8/5/7 — research / sketch+label / partner pitch / class discussion) with a named pivot into Activity 2 |
+| 3 | Day 4 ICD-10 materials | Add **Teacher Prep Checklist** admonition to overview (second A5 trigger this session) — names the 8 ICD-10 codes Day 4 already mentions inline as a starting set (J00, J20.9, J45.909, K02.9, K21.9, R07.9, R51, S52.501A), points to CDC ICD-10 browser for the 2 extras, and specifies trap-code design for Round 2. ~30-45 min weekend prep. |
+| 4 | Day 4 Round 2 unscaffolded | Add 30-sec specificity scaffolding moment + worked example before releasing students into independent Round 2 coding |
+| 5 | Day 2 Activity 1 pivot | Folded into #2 |
+| 6 | Day 5 circulation unrealistic | Soften to "10-12 students, prioritize those who added different pathway mix" |
+| 7 | Day 3 passive lecture | Restructure Activity 3 from 10-min lecture → 4/3/3 (intro / turn-and-talk / whole-class share). Same total time, active-learning format |
+| 8 | Day 5 summative compression | Add a 2-min Career Comparison pre-scan before writing; make pair-read/highlight optional if students need the full 15 min |
+| 9 | Day 1 warm-up abstract | Replace "$4 billion industry" bridge with concrete student-stakes anchor: "If a medical coder types the wrong 5-character code, a family might get a $500 bill they don't actually owe" |
+| 10 | Prep guidance missing | Folded into #3 |
+
+**Commit:** `f856726` — 6 files, +34/-11 lines. Largest single-file edit: overview.md at 9 net lines. All under the 15-line threshold.
+
+**Clinical self-catch:** An initial edit to the Day 4 Round 3 header ("(8 min, optional)") broke the timing-regex pattern `^## .* \([0-9]+ min\)` used by the 6-check preservation loop, which dropped Day 4 to 42 min in the verification step. Caught by the timing check and reverted — header kept as "(8 min)" with optionality noted in the body only. Lesson: when adding conditional language to an activity, never put it inside the `(N min)` header — that breaks the automated regex sweep that verifies timing across all 36 weeks.
+
+**Escalated:** none.
+
+---
+
+## Cross-week themes — Session 2026-04-15 Track B additions
+
+- **A5 Teacher Prep Checklist trigger keeps hitting.** All 3 reviewed weeks needed the admonition. 5SW Wk5 (two unbuilt printables + NGPF module pre-select), 3SW Wk3 (fallbacks for NASA Climate Kids + eDynamic 7.1 but no unbuilt artifacts), 2SW Wk4 (ICD-10 reference sheet + 8 patient charts authored from scratch). Pattern: ~1 in 3 weeks needs a TPC. The remaining 29 unrevised weeks likely have a similar rate. Track A5 standalone sweep stays on the backlog — best to keep adding it inline during Track B review for weeks where it genuinely fits.
+- **Emotional-safety reframes are a Dim 9-adjacent category.** 5SW Wk5 Day 2 had a facilitation tip framing negative budgets as a "core learning moment" + Day 5 TPS bullet asking "Whose budget balanced without cutting anything?" Both risked reading as "your family's career choice was a failure." The fix was a reframe + explicit family-career protection, similar structurally to the Dim 9 fluff sweep but targeting a different failure mode (emotional stakes instead of surprise discipline). Future reviews: watch for warmth-critical moments around income, family work, immigrant status, body image, mental health. Same "don't implicate the student's family" lens.
+- **Political neutrality on "declining" careers.** 3SW Wk3 had example rows "coal mining workers" / "field-walking crop scouts" in a "Careers Declining" column. In Irving ISD's real family-job context this reads as a judgment on specific industries. The fix was a frame shift ("Changing or Adapting" instead of "Declining") plus reframed examples that describe skill transitions within the same field. Same lens as emotional safety: the curriculum should not implicate a student's family members as career-losers.
+- **Regex-breaking header edits.** Adding "(8 min, optional)" to a Day 4 header broke the timing-sum preservation check on 2SW Wk4. Conditional/optional language belongs in the activity body, never in the parenthetical time tag. New rule for future sessions: **never edit the parenthetical inside an H2 activity header unless the edit is a minute-count change.** Documented above in the 2SW Wk4 clinical self-catch.
+- **In-session Writer triage scales cleanly to 3 weeks.** This session ran 3 Teacher Implementer sub-agents but handled all 3 Writer triages in-session per lesson 10. Total sub-agent use: 3 invocations. Evening session ran 3 sub-agents + 0 in-session writers (writer done in-session for all 3). Both sessions landed 3 weeks in the same rough budget. Confirming lesson 10 — Teacher persona needs separation (independent reader), Writer triage does not.
+
+---
+
+## Session 2026-04-15 Track B totals
+
+- **Weeks reviewed:** 3 (5SW Wk5, 3SW Wk3, 2SW Wk4)
+- **Concerns identified:** 28 (10 + 8 + 10)
+- **Fix rows applied:** 26 (9 + 8 + 9)
+- **Defended:** 1 (5SW Wk5 Day 4 Paying-for-College 12-min walkthrough — matches d(3)(C) scope)
+- **Folded (duplicates):** 3 (5SW Wk5 #4/#5/#10 folded into #3 TPC; 2SW Wk4 #5 folded into #2, #10 into #3)
+- **Escalated:** 0 (no new items for the escalation queue)
+- **Commits landed:** 3 (`6812dd9`, `a9a045f`, `f856726`)
+- **Files touched:** 14 (3 + 5 + 6)
+- **Lines changed:** +75 / -33 total. Largest single-file edit: 5SW Wk5 overview.md at 13 net lines (still under 15-line threshold).
+- **Verification:** all three commits passed the 6-check preservation loop (`mkdocs --strict`; scripting=0; DOK 2-4 present on all 15 reviewed day files; timing sums 50/50/50/50/50 on all 3 weeks; Support+ELL preserved; Dim 9 fluff=0). One clinical self-catch during 2SW Wk4 verification (regex-breaking header — caught and reverted).
+
+**Running cumulative totals across all sessions:**
+
+- **Weeks reviewed:** 10 of 36 (1SW Wk0, 5SW Wk1 prototype, 4SW Wk1, 6SW Wk6, 2SW Wk5, 6SW Wk5, 4SW Wk2, 5SW Wk5, 3SW Wk3, 2SW Wk4)
+- **Concerns:** 86 lobbed → 60 Fix / 15 Defend / 11 Escalate / 4 Folded
+- **Commits:** 10 instinct-review commits
+- **Remaining weeks to instinct-review:** 26

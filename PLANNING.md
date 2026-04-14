@@ -632,9 +632,27 @@ This ordering is a working assumption. Teacher feedback tomorrow will change it.
 
 ## 10. Session Log & Next-Agent Handoff
 
-### Current state (updated 2026-04-14 evening, post-buffer-week wrap)
+### Current state (updated 2026-04-15 — Track B session 3)
 
-`main` HEAD: pending this commit. Live site: https://elbrielle.github.io/cce-curriculum/. **Seven** weeks instinct-reviewed (**1SW Wk0**, **4SW Wk1**, **5SW Wk1**, **6SW Wk6**, **2SW Wk5**, **6SW Wk5**, **4SW Wk2**) + Dimension 9 live + six prose/sweep passes shipped + **buffer-week flex admonitions** added to 4SW Wk1 / 4SW Wk2 / 6SW Wk6. 29 of 36 weeks still awaiting instinct review. Clinical `vetting-report.md` remains frozen. Evening Track B session added 3 weeks + caught 1 clinical timing drift the original vetting pass missed (4SW Wk2 day5 was 53 min → now 50) + closed the buffer-week gap surfaced at session wrap.
+`main` HEAD: pending this commit. Live site: https://elbrielle.github.io/cce-curriculum/. **Ten** weeks instinct-reviewed (**1SW Wk0**, **4SW Wk1**, **5SW Wk1**, **6SW Wk6**, **2SW Wk5**, **6SW Wk5**, **4SW Wk2**, **5SW Wk5**, **3SW Wk3**, **2SW Wk4**) + Dimension 9 live + six prose/sweep passes shipped + **buffer-week flex admonitions** on 4SW Wk1 / 4SW Wk2 / 6SW Wk6. 26 of 36 weeks still awaiting instinct review. Clinical `vetting-report.md` remains frozen. The 2026-04-15 Track B session added 3 weeks; applied the A5 Teacher Prep Checklist (second-pass trigger) inline in 5SW Wk5 and 2SW Wk4; caught 1 Dim 1 pathway-name drift at 2SW Wk4 (Day 1 "Medical Billing and Coding pathway" → "Medical Billing pathway" per `PATHWAYS.md`); introduced a new lesson 12 after catching a regex-breaking header edit in the 2SW Wk4 verification step.
+
+### Session 2026-04-15 (Track B instinct review, 3 weeks)
+
+Commits `6812dd9` → `f856726` on `main`. Executed Track B per the §10 priority list as of the evening 2026-04-14 handoff: one highest-stakes standalone summative week, one cross-cluster bridge week, one Health Science mid-cluster week with load-bearing teacher-authored simulation materials. Three commits landed, 26 Fix rows applied across 14 files, 1 defended, 0 escalated. Full per-week detail appended to `cce-curriculum/notes/instinct-review.md` as Weeks 8-10.
+
+| Commit | Week | Concerns | Fixes |
+|---|---|---|---|
+| `6812dd9` | **5SW Wk5 Personal Budget** (highest-stakes d(5)(D) summative) | 10 lobbed, 9 Fix, 1 Defend, 3 folded | Overview: **Teacher Prep Checklist** (A5 second-pass trigger) naming Personal Budget Template + DFW Cost Reference Sheet as weekend-prep + Day 4 module pre-select + H&L/CareerOneStop access checks; Summative clarified as Day 5 portfolio of 3 artifacts; Day 2 retimed 3-check protocol (8/16/24 → 5/15/22) to catch gross-to-net math errors early; Day 2 deliverable softened "all" → "all major" categories; Day 2 **emotional reframe** of negative-balance facilitation tip with explicit family-career protection ("the same career supports many real lifestyles"); Day 5 TPS "Whose budget balanced without cutting anything?" income-disparity amplifier replaced with lifestyle-focus bullet; Day 5 Activity 2 pre-identify-careers facilitation tip inside 15-min budget. **Defended:** Day 4 FAFSA walkthrough 12 min (matches d(3)(C) "identify methods" scope). |
+| `a9a045f` | **3SW Wk3 Sustainable Engineering** (cross-cluster bridge, H&L Ch 2 Pest Patrol) | 8 lobbed, 8 Fix | Day 1 NASA Climate Kids district-filter fallback (NOAA + BLS Environmental Engineers); Day 2 reading time softened ("plan 4-6 min per set, slower readers skim Set 3 using bullets"); Day 3 rationale paragraph tightened 4-5 sentences → 3 trade-off-focused sentences explicitly distinct from labels; Day 3 checkpoint clipboard softened (10-12 students not all 24, Day 4 peer feedback catches the rest); Day 4 **Societal Trends reframed** to defuse Irving ISD family-job political charge — column "Declining" → "Changing or Adapting"; example rows swapped from "coal mining workers"/"field-walking crop scouts" to "traditional energy roles adding renewable skill sets"/"crop inspection shifting to drone-assisted"; family-jobs facilitation note added; Day 4 peer feedback explicit 6/6/5/3 time split; Day 4 **conceptual bridge** at Activity 2 — "the drone you designed IS a career that barely existed 20 years ago"; Day 5 eDynamic 7.1 VERIFY block expanded with concrete fallback (ag-tech company research). |
+| `f856726` | **2SW Wk4 Dental/Medical Billing** (Health Science mid-cluster) | 10 lobbed, 9 Fix, 2 folded | Overview: **Teacher Prep Checklist** (A5 second trigger this session) for Day 4 ICD-10 reference sheet + 8 patient charts with concrete starting set from the 8 codes already named inline in Day 4 (J00/J20.9/J45.909/K02.9/K21.9/R07.9/R51/S52.501A) + CDC ICD-10 browser pointer + trap-code design for Round 2; Day 1 **pathway name alignment** ("Medical Billing and Coding pathway" → "Medical Billing" to match `PATHWAYS.md` canonical — Dim 1 drift closed; credential formal name preserved); Day 1 warm-up reframed from abstract "$4 billion industry" to concrete student-stakes anchor ("wrong 5-character code = $500 bill a family doesn't actually owe"); Day 2 Activity 1 explicit 5/8/5/7 time split with named pivot into Activity 2; Day 3 Activity 3 restructured from 10-min lecture → 4/3/3 intro + turn-and-talk + whole-class share (same total time, active-learning format); Day 4 Round 2 specificity scaffolding moment added (worked example before independent coding); Day 4 Round 3 marked optional in body (header preserved as `(8 min)` for regex); Day 5 Activity 1 circulation softened to 10-12 students; Day 5 Activity 3 adds 2-min Career Comparison pre-scan before writing + makes pair-read optional. **Clinical self-catch:** an initial Day 4 Round 3 header edit to `(8 min, optional)` broke the timing-regex pattern during verification (Day 4 dropped to 42 min); reverted to `(8 min)` with optionality in body only. Documented as new lesson 12. |
+
+**All three commits passed the 6-check preservation loop** after the 2SW Wk4 regex catch: `mkdocs --strict` clean; scripting=0; DOK 2-4 present on all 15 reviewed day files; timing sums 50/50/50/50/50 on all 3 weeks; Support+ELL bullets preserved; Dimension 9 fluff grep = 0.
+
+**Cross-week patterns surfaced this session (detail in instinct-review.md Weeks 8-10 + cross-week section):**
+
+1. **A5 Teacher Prep Checklist pattern keeps triggering.** 2 of 3 weeks needed it (5SW Wk5 had two unbuilt printables + Day 4 module pre-select; 2SW Wk4 had Day 4 teacher-authored ICD-10 simulation materials). Both landed the admonition inline during Track B review. The remaining 26 unrevised weeks likely have a ~1-in-3 A5 rate; keep adding inline rather than running a standalone sweep.
+2. **Emotional-safety reframes are a new Dim 9-adjacent category.** 5SW Wk5 Day 2 negative-balance tip + Day 5 TPS "balanced without cutting" bullet risked implicating students' family careers as failures. Same lens at 3SW Wk3 with "declining" industries. Future reviews: watch for warmth-critical moments around income, family work, immigrant status, body image, mental health. Same "don't implicate the student's family" rule.
+3. **Regex-breaking header edits are a new failure mode.** Documented as lesson 12 below. Never edit the parenthetical inside an H2 activity header unless the edit is a minute-count change; conditional/optional language belongs in the body, not the header.
 
 ### Session 2026-04-14 (evening — Track B instinct review, 3 weeks)
 
@@ -670,22 +688,22 @@ Four prior sessions landed on `main` before the evening Track B pass. Summarized
 - ✅ Teacher Prep Checklist propagation (tech-tool trigger) — 9 weeks via `fc1c4dd`, + 3 more via evening session (teacher-authored-resource trigger)
 - ⏭️ Directive → Suggestion — verified no-op; strike from future priority lists unless a new pattern is identified
 - ✅ Declarative fluff sweep — post-sweep grep on all listed Dim 9 patterns returns 0
-- ⏳ **A4 — PII paper-artifact sweep (new, evening session)** — see "Priority order for the next session" below
-- ⏳ **A5 — Teacher Prep Checklist second-pass (teacher-authored-resource trigger, new, evening session)** — see below
+- ⏳ **A4 — PII paper-artifact sweep (new, surfaced in evening session 2026-04-14)** — still on the queue; no standalone sweep has been run. See "Priority order for the next session" below.
+- 🔄 **A5 — Teacher Prep Checklist second-pass (teacher-authored-resource trigger)** — now being applied **inline during Track B review** rather than as a standalone sweep. Evening session added it to 3 weeks (2SW Wk5, 6SW Wk5, 4SW Wk2); 2026-04-15 session added it to 2 more (5SW Wk5, 2SW Wk4). Pattern: ~1 in 3 Track B weeks needs the admonition. Keep adding inline during review.
 
 Every commit listed above passed the 6-check preservation loop (mkdocs --strict, scripting=0, DOK 2-4, timing 45-55, Support/ELL, Dim 9 fluff=0).
 
-### Weeks still to instinct-review (29 of 36 remaining)
+### Weeks still to instinct-review (26 of 36 remaining)
 
-Reviewed: **1SW Wk0**, **4SW Wk1**, **5SW Wk1**, **6SW Wk6**, **2SW Wk5**, **6SW Wk5**, **4SW Wk2**.
+Reviewed: **1SW Wk0**, **4SW Wk1**, **5SW Wk1**, **6SW Wk6**, **2SW Wk5**, **6SW Wk5**, **4SW Wk2**, **5SW Wk5**, **3SW Wk3**, **2SW Wk4**.
 
 Remaining by six-weeks block:
 
 - **1SW:** Wk1 Robotics/Manufacturing, Wk2 Programming/IT, Wk3 CS/IT, Wk4 Tech Support, Wk5 Cybersecurity
-- **2SW:** Wk1 Legal Studies, Wk2 Law Enforcement/EMT, Wk3 Nursing, Wk4 Dental/Medical Billing, Wk6 Biomedical
-- **3SW:** Wk1 Vet Science, Wk2 Plant Science, Wk3 Sustainable Engineering, Wk4 Culinary, Wk5 Cosmetology, Wk6 Entrepreneurship
+- **2SW:** Wk1 Legal Studies, Wk2 Law Enforcement/EMT, Wk3 Nursing, Wk6 Biomedical
+- **3SW:** Wk1 Vet Science, Wk2 Plant Science, Wk4 Culinary, Wk5 Cosmetology, Wk6 Entrepreneurship
 - **4SW:** Wk3 Aviation, Wk4 Drone Engineering, Wk5 Automotive, Wk6 Trades Capstone
-- **5SW:** Wk2 Civil Engineering, Wk3 Construction, Wk4 HVAC/Electrical/Plumbing, Wk5 Personal Budget, Wk6 Real Estate
+- **5SW:** Wk2 Civil Engineering, Wk3 Construction, Wk4 HVAC/Electrical/Plumbing, Wk6 Real Estate
 - **6SW:** Wk1 Education, Wk2 Resume, Wk3 Business/Marketing, Wk4 Sales/Presentations
 
 **Priority order for the next session:**
@@ -697,13 +715,13 @@ Remaining by six-weeks block:
 
 **Track B — instinct review (default for the next session; 3-5 weeks max):**
 
-1. **5SW Wk5 Personal Budget** — highest-stakes standalone summative in 5SW. Budget template + DFW cost reference sheet both listed as "not yet built" in `resources-status.md`. Likely needs a Teacher Prep Checklist.
-2. **3SW Wk3 Sustainable Engineering** — cross-cluster bridge week. Verify exact topic in scope-and-sequence.md first.
-3. **2SW Wk4 Dental/Medical Billing** — candidate "slot week" (verify whether the S&S Topic field was populated or writer-reached). If writer-reached, high drift risk.
-4. **6SW Wk4 Sales/Presentations** — Dimension 9 "skill week" where hard presentation enforcement is earned pedagogically; verify Track A3 left this intact but check warm-up/transitions.
-5. **5SW Wk2 Civil Engineering** — large physical-demo potential, tight feasibility risk for classrooms without equipment.
+1. **6SW Wk4 Sales/Presentations** — Dimension 9 "skill week" where hard presentation enforcement is earned pedagogically. Deferred from the 2026-04-15 session because it needs a dedicated focused pass, not a third slot in a budget-tight run. Verify Track A3 left enforcement intact and check warm-up + transitions. Grep `docs/6sw/wk4-*/` for any "mid-sentence cut" / "hard cutoff" language that might need the Dim 9 treatment (earned here, not surprise).
+2. **5SW Wk2 Civil Engineering** — Medium writer-reach yellow flag. S&S Topic populated ("Civil Engineering") but Notes, Xello col 8, and eDynamic col 9 are all blank. H&L activities in col 5 are pathway-level exploration + Hat Finder (Civil Engineer, Structural Engineer, Surveyor) + fit assessment — no named Ch project. The writer had to reach for engagement. Large physical-demo potential, tight feasibility risk for classrooms without equipment.
+3. **2SW Wk1 Legal Studies** — Health Science cluster is now mostly reviewed (Wk 3 Nursing + Wk 6 Biomedical remain in 2SW); pivoting into 2SW Wk1 starts the Law & Public Safety cluster. eDynamic Unit 5.1 assigned. Typical content week — low-to-medium drift risk. Use as a calibration check for "normal" weeks after the three higher-stress weeks of the 2026-04-15 session.
+4. **5SW Wk6 Real Estate** — Standalone real-estate week in 5SW; commission-based income is an unusual framing. Low-medium drift risk but check that the Day 5 cluster wrap-up connects to the 5SW A&C cluster arc (Weeks 1-4 Architecture/Civil/Construction/Skilled Trades).
+5. **3SW Wk1 Vet Science** — 3SW cluster opener. S&S Topic populated, BLS-grounded, but Notes col 12 is empty. Low-risk calibration week.
 
-**Cumulative Track B progress:** 7 of 36 weeks reviewed, 29 remaining. Average edit size per week: ~4.3 files touched, ~8-10 lines changed. At this pace, full Track B completion is ~10 more sessions of 3 weeks each.
+**Cumulative Track B progress:** 10 of 36 weeks reviewed, 26 remaining. Average edit size per week: ~4.7 files touched, ~9-11 lines changed (up slightly from the prior 4.3 average because the 2026-04-15 session hit two heavy-prep weeks). At this pace, full Track B completion is ~9 more sessions of 3 weeks each.
 
 **Track B is the default now.** If a week in the queue above turns out to already be clean under instinct review, rotate in the next week on the remaining list and keep going until budget runs out.
 
@@ -772,6 +790,10 @@ These came out of the morning instinct-review pass and need a teacher/curriculum
 10. **Don't over-use sub-agents.** Each Teacher Implementer / Curriculum Writer sub-agent cycle costs real tokens. For a 4-week review pass, that's 8 agent invocations minimum. Only spin them up for the adversarial dialog where persona separation is the point. For grep sweeps, pattern propagation, and targeted edits, do the work directly.
 
 11. **Check your own recently-added content for the patterns you're hunting.** In `bfb4cac` I caught myself: a commit 30 minutes earlier had introduced "Reinforces real presentation discipline" on 4SW Wk5 Day 5 — exactly the fluff I was being asked to hunt. If you just finished a commit and the user flags a pattern, grep your own recent diff before claiming a clean sweep.
+
+12. **Never edit the parenthetical inside an H2 activity header unless the edit is a minute-count change.** The timing-sum preservation check in the 6-check loop uses the regex `^## .* \([0-9]+ min\)` — it matches only headers ending in `(N min)` with nothing else inside the parentheses. Adding conditional/optional language inside the tag (e.g., `## Activity 4: Coding Simulation Round 3 — Speed (8 min, optional)`) silently drops that activity from the timing sum, making the day appear 8 min short on verification. Caught in the 2026-04-15 2SW Wk4 verification step: Day 4 dropped from 50 → 42 min with no other changes. Fix: keep the header as `(N min)` and move optionality into the activity body ("Round 3 is optional — if Round 2 runs long, cut it and move to the Exit Ticket"). The regex is the contract with the verification pipeline; the header is for the contract, the body is for the nuance. Same rule for any future H2 header convention — they are automated check targets, not free-form prose.
+
+13. **Emotional-safety reframes are a Dim 9-adjacent category.** Dim 9 catches surprise discipline + declarative fluff. A sister category is *student-family implication* — curriculum language that asks students to analyze an outcome (negative budget balance, "declining" careers, income disparities, family job loss) in a way that frames a specific student's family situation as a failure. The 5SW Wk5 "core learning moment" on negative budgets and the 3SW Wk3 "Careers Declining" column were both caught in the 2026-04-15 session. Rule: before shipping any facilitation tip, table row, or discussion prompt that categorizes careers, lifestyles, or outcomes as good/bad/declining/failed, ask "could a student in this class have a parent in the bad column?" If yes, reframe as "changing" / "adapting" / "trade-off reasoning" — keep the analytic rigor, drop the judgment. Same lens as Dim 9: don't make the first encounter with a student's own family situation a failure moment.
 
 ### Editing workflow
 
