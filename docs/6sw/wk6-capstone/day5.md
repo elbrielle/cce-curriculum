@@ -88,8 +88,6 @@ Walk through what happens next:
 - **Start of 9th grade:** Students begin their selected CTE pathway. The work they did this year IS the foundation for that pathway choice.
 - **Through high school:** The Career Plan is a LIVING document. They can change it. They can add Plan B and Plan C. They can switch pathways. The plan is a starting point, not a contract.
 
-The whole point of CCE is to give students a head start. They walk into 9th grade ahead of students who never had this course.
-
 ---
 
 ## Activity 3: Final H&L Update + Goodbye (3 min)
