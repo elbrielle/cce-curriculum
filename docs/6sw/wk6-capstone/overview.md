@@ -6,8 +6,18 @@
 
 Students finalize their H&L Career Plan, select a top career pathway based on a year of exploration, document the high school courses and postsecondary requirements needed to reach that career, deliver a capstone career plan presentation to the class, complete an optional RIASEC retake to compare growth, and reflect on a full year of career exploration.
 
-!!! note "Buffer week — adapt freely for end-of-year disruptions"
-    The original scope-and-sequence left this week blank — it is the last week of school, and end-of-year events (yearbook signing, field day, awards ceremonies, early release, locker cleanouts) reshape the week in ways no curriculum can predict. The capstone presentation days (Days 3–4) and the Career Plan finalization (Day 1) are the load-bearing pieces: they produce the year-end artifact that demonstrates d(8)(A)–(C) and d(4)(C). Everything else — the RIASEC retake, the reflection journal, the celebration framing, the gallery walk — is explicitly cut-or-condense material when your period gets shortened or canceled. Load-bearing: Day 1 Career Plan finalization + Days 3–4 presentations. Flex: Day 2 RIASEC retake, Day 5 reflection + celebration.
+!!! abstract "Adapt to your end-of-year schedule — everything here is optional"
+
+    The original scope-and-sequence left this week blank for a reason: it is the last week of school, and end-of-year events (yearbook signing, field day, awards ceremonies, early release, moving assemblies, locker cleanouts) reshape it in ways no curriculum can predict. **Nothing in this week is critical to year-end TEKS coverage.** Every standard 6SW Wk6 claims is already covered upstream:
+
+    - **d(4)(C)** (oral presentation) → primary home is **6SW Wk4 Sales/Presentations**
+    - **d(8)(A)** (select pathway) → primary home is **4SW Wk1 Career Planning**
+    - **d(8)(B)** (document courses + postsecondary) → primary homes are **4SW Wk1** and **4SW Wk2**
+    - **d(8)(C)** (write individual plan) → primary home is **4SW Wk2 Course Mapping**
+
+    Treat this week as a polish + second-run + celebration pass, not the week that produces the year's artifact. Students whose end-of-year week is disrupted still have the full course TEKS coverage through the upstream weeks.
+
+    **Adapt using these verbs:** **cut** (Day 2 RIASEC retake, Day 5 celebration), **compress** (merge Days 3-4 presentations into one day with 90-second slots), **substitute** (swap the celebration for a written reflection or a thank-you circle), **skip entirely** (let students finish their Career Plans at home and run a Day 5 year-end closer only). Any subset of the 5 days is fine. Zero days is fine.
 
 ## Demonstration of Learning
 
@@ -20,7 +30,7 @@ Students finalize their H&L Career Plan, select a top career pathway based on a 
 - **d(8)(C):** Write an individual plan to start a career.
 - **d(4)(C):** Prepare and deliver an oral presentation (career plan presentation).
 
-**This is the CAPSTONE WEEK.** Six weeks of work, plus 30 prior weeks of CCE, all funnel into a single final Career Plan that is the official course deliverable. Students present this plan to the class. The H&L downloadable Career Plan goes home with them and travels to their high school counselor for 9th-grade course registration.
+**This is the capstone pass — not the artifact week.** 36 weeks of exploration can culminate here in a polished Career Plan, a second oral presentation, and an end-of-year celebration. But the official course d(8) and d(4)(C) artifacts are locked upstream in 4SW Wk1 / 4SW Wk2 / 6SW Wk4 per the admonition above. Students who complete this week get a polished download to bring to their 9th-grade counselor; students whose week is disrupted still have full course TEKS coverage from the upstream weeks.
 
 ## Materials Needed
 
@@ -67,8 +77,8 @@ The Career Plan students download from H&L this week is the OFFICIAL d(8) artifa
 - **Two Stars and a Wish:** Class feedback after each presentation uses the same constructive format as Wk 4-5.
 - **Active Monitoring:** Teacher tracks Career Plan completion in the H&L app dashboard before presentations begin.
 
-!!! note "Pre-Capstone Teacher Checklist (complete the week BEFORE teaching Wk6)"
-    This is the year's highest-stakes week and the most platform-dependent. Verify each item with your H&L district admin before Monday:
+!!! note "Pre-Capstone Teacher Checklist (only if you can run this week)"
+    This week is optional per the admonition above — but if your schedule allows it, it is the most platform-dependent week in the year. Verify each item with your H&L district admin before Monday:
 
     - [ ] **H&L access:** Test login with 2–3 student accounts. Confirm SSO, account refresh, and Climber Profile access on at least one Chromebook.
     - [ ] **RIASEC retake:** Confirm whether "Discover My Core" supports a retake with side-by-side comparison to Week 0 results. If not, prepare a fresh workbook p. 12 as the paper backup.
@@ -106,7 +116,7 @@ The Career Plan students download from H&L this week is the OFFICIAL d(8) artifa
 2. **Oral Career Plan Presentation** scored on content, organization, delivery, and growth reflection (d(4)(C)) — delivered Days 3-4
 3. **End-of-Year Reflection** demonstrating self-awareness growth across 36 weeks — submitted Day 5
 
-**The H&L downloadable Career Plan is the official course artifact.** Students take this home and bring it to their 9th-grade course registration meeting.
+**The H&L downloadable Career Plan is the capstone-week polish of an artifact already produced in 4SW Wk1-Wk2.** Students who complete this week take home the polished download for 9th-grade course registration; students whose end-of-year week is disrupted still have the 4SW Career Plan on file.
 
 ## Differentiation
 
