@@ -16,7 +16,7 @@
 
 **WARM-UP: Pull out your Week 0 My Career Journey reflection. Read what you wrote about your career interests at the very beginning of the year. What is one thing on that page that no longer feels true?**
 
-Take 2-3 student responses. Validate that this is the point of the year — students should expect their thinking to shift. Bridge: today is the official mid-year update, the H&L "Being a Career Thinker" reflection, and the gallery walk where the whole class sees how everyone's interests have moved.
+Take 2-3 student responses. Affirm that thinking shifts are expected and healthy, not a sign students "got it wrong" in Week 0. Bridge to today's activities: the H&L "Being a Career Thinker" reflection and the gallery walk where the whole class sees how everyone's interests have moved.
 
 ---
 

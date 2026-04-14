@@ -82,9 +82,7 @@ Brief whole-class preview of the final six weeks:
 - **Wk3:** Business Marketing
 - **Wk4:** Sales + Oral Presentations
 - **Wk5:** Job Seeking + Mock Interviews
-- **Wk6:** CAPSTONE — Final Career Plan presentation
-
-The capstone is the most important week of the year. Every week of CCE has been building toward it.
+- **Wk6:** End-of-year Career Plan polish + presentations (see 6SW Wk6 overview for optionality framing)
 
 ---
 

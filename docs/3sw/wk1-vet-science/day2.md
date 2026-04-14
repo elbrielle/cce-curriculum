@@ -65,7 +65,7 @@ After the worksheet is complete, students answer two analysis questions on the b
 **DOK 3:** What conclusions can you draw about why some students would choose Vet Tech over Veterinarian, even though Veterinarians earn more?
 
 !!! note "Connection to TEKS d(2)(B)"
-    This activity is the heart of d(2)(B) — using available resources (BLS) to evaluate education and training options. Make sure every student cites BLS data in their personal-fit answer, not just opinion.
+    This activity covers d(2)(B) by having students use BLS to evaluate education and training options. Make sure every student cites BLS data in their personal-fit answer, not just opinion.
 
 ---
 

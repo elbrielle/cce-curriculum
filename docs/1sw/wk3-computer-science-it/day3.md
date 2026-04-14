@@ -89,7 +89,7 @@ Students fill out the practice job application for the fictional company **Futur
 - **Additional Information**
 - **Signature + Date**
 
-Tell students: "Take this seriously. This is the SAME format you will fill out when you apply for your first real job at 16. Practice now means you will look professional later."
+Tell students the form matches the one they will fill out when applying for their first real job at 16.
 
 After students finish, lead a brief discussion using the workbook prompts (Ch 12, p. 198):
 

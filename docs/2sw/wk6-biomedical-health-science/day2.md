@@ -72,7 +72,7 @@ The workbook's **Step 2 framework**: each exercise must have a NAME, INSTRUCTION
 **DOK 4:** What conclusions can you draw about why physical therapy is a "personalized" career? Could two physical therapists come up with completely different but equally valid plans for the same client? Why?
 
 !!! tip "Facilitation Tip"
-    Watch for students who give Mark and Mrs. Rodriguez the SAME workout. Push back: "What is different about a 24-year-old athlete with a pulled muscle and a 72-year-old gardener? Their plans should look very different." This is the heart of the activity.
+    Watch for students who give Mark and Mrs. Rodriguez the SAME workout. Push back: "What is different about a 24-year-old athlete with a pulled muscle and a 72-year-old gardener? Their plans should look very different." Personalization is the learning target — catching identical plans is the most productive intervention today.
 
 ---
 
