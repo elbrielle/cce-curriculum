@@ -14,6 +14,9 @@
 
 ## Warm-Up (5 min)
 
+!!! note "Before the Warm-Up — Return Week 0 Reflections"
+    Have students pull out their **Week 0 My Career Journey reflection** from the class folder you saved them in per the 1SW Wk0 Day 5 Persistent Portfolio admonition. If a student was absent during Week 0 or is new to the class this semester, have them retake the H&L "Discover My Core" assessment today as their personal baseline — treat this week as their Wk0 equivalent. Also have every student open their Climber Profile in H&L now (before the warm-up prompt) to surface any login or data-access issues before the activity begins.
+
 **WARM-UP: Look back at your Week 0 My Career Journey sheet (or pull up your Climber Profile in H&L). Do you think your RIASEC type would be the same if you took the assessment again today? Why or why not?**
 
 Collect 2-3 student responses. Bridge to the idea that career exploration is supposed to change you. The point of the first 18 weeks was not to lock students into a career — it was to give them enough data to make a real choice.

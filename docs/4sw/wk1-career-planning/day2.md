@@ -52,6 +52,9 @@ After 15 minutes, students complete Step 3 (p. 267) — a short written reflecti
 
 **Source:** H&L Workbook Ch 16, pp. 267-268 — "My Career and Course Plan" (Step 2)
 
+!!! tip "Facilitation Tip — Verify Before Class"
+    Before class, open H&L in a test or teacher account and confirm the Career Plan tool loads, shows pathway recommendations, and matches your district's configuration. If the tool is unavailable at your district, skip directly to Activity 3 (Pathway Cross-Reference) and use the printed Irving ISD CTE Pathways poster as your single source of truth, with the workbook template on p. 268 as the student artifact.
+
 Now shift from the personal reflection to the platform tool. Project the H&L app and walk students through finding the Career Plan.
 
 > [H&L PLATFORM] Direct students to navigate to the **Career Plan** in the H&L app. The workbook (Ch 16, p. 268, Step 2) instructs: "Go to the Hats & Ladders app and begin your Career and Course Plan. Your plan will include a pathway that you have identified as a career goal, a place to plan steps you can take now and in the future to reach your career goal, and a place to plan courses you can take in 8th grade and in high school." If the Career Plan tool is not yet active for your district, students can use the workbook template on p. 268 as a paper backup.
