@@ -7,7 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Understand advocacy as a form of assertive communication; introduce the H&L Powerskills "Advocacy" module; write a personal SMART goal for career exploration |
 | **TEKS** | d(4)(A), d(4)(B) |
-| **Deliverable** | SMART Goal worksheet (1 personal career exploration goal, all 5 components) + brainstorm of advocacy idea |
+| **Deliverable** | SMART Goal worksheet (1 personal career exploration goal, all 5 components) |
 | **Materials** | Chromebooks, H&L Powerskills Workbook (pp. 30-32), printed SMART Goal worksheet, projector |
 
 ---
@@ -20,7 +20,7 @@ Take 3-4 responses. Bridge: assertive communication is the middle path between p
 
 ---
 
-## Activity 1: Advocacy Introduction (12 min)
+## Activity 1: Advocacy + Self-Advocacy Lens (10 min)
 
 **Source:** H&L Powerskills Workbook, pp. 30-32 — "Advocacy"
 
@@ -33,18 +33,7 @@ Project the workbook's two types of advocacy (p. 30):
 
 Connect to healthcare: nurses are constant advocates. They advocate for patients (asking the doctor to reconsider a treatment), for colleagues (defending a CNA's workload), and for themselves (negotiating shifts and pay).
 
-The workbook activity is a Mobile Farmers' Market for a food desert (Advocacy module, pp. 30-32). Briefly preview this activity — students will not complete the full activity today, but they will brainstorm ONE healthcare advocacy idea before transitioning to SMART goals.
-
-**Brainstorm prompt:** *"Name one health-related issue in your school or community that you could advocate for. What would you do?"*
-
-Examples students might generate:
-
-- Healthier school lunch options
-- More mental health resources at school
-- Sun safety education for sports teams
-- Sleep hygiene awareness
-
-Each student writes ONE advocacy idea on their worksheet.
+**Self-advocacy for career explorers.** Students will apply self-advocacy to their own career exploration journey in the next activity. Ask: *"What does self-advocacy look like for a student who is exploring careers? Who are you 'standing up for' when you set a goal for yourself?"* Take 2-3 responses. The bridge to SMART goals: a strong goal is how you advocate for your own future — it names what you want, makes it measurable, and holds you accountable.
 
 ---
 
@@ -73,7 +62,7 @@ Show a non-example for contrast:
 
 ---
 
-## Activity 3: Write Your SMART Goal (18 min)
+## Activity 3: Write Your SMART Goal (20 min)
 
 Distribute the SMART Goal worksheet. Each student writes ONE personal goal for their career exploration journey. The worksheet has 5 sections (S, M, A, R, T) plus a final sentence box where the student writes the complete goal as one sentence.
 

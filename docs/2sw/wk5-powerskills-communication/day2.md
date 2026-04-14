@@ -66,6 +66,8 @@ After both partners exchange feedback, each student reads the written feedback t
 
 ## Activity 4: Healthcare Role-Play (12 min)
 
+Signal the shift before starting. The first two activities (favorite food, school holiday paragraph) used the feedback sandwich in a low-stakes register on purpose — students needed to practice the structure with nothing riding on it. Now the same tool moves into a register where the stakes are real. Give students 30 seconds to change mode: "We practiced with food. Now we're practicing with people's health. The sandwich is the same; the weight is different."
+
 Pivot to the Health Science context. Distribute healthcare role-play cards:
 
 - **Card A:** A nurse explaining a difficult diagnosis to a patient's family. The family is upset and asking many questions.

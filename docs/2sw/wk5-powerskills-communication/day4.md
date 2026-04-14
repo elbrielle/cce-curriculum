@@ -76,7 +76,7 @@ Pivot the written communication skill into a healthcare context. Distribute new 
 - **Card B:** Write a 2-sentence patient education note for someone who just had a tooth extracted (post-procedure care).
 - **Card C:** Write a 2-sentence email to a patient explaining that their lab results came back normal.
 
-Each student picks ONE card and writes the message in 5 minutes. Then they pair up with a partner who picked a different card. They read each other's messages and check:
+Assign one card per student by row or table (e.g., Row 1 = Card A, Row 2 = Card B, Row 3 = Card C) so students can start writing immediately — no time lost to card-shopping. Each student writes the message in 5 minutes. Then they pair with the nearest neighbor regardless of card and read each other's messages, checking:
 
 - Is the message clear?
 - Could a real patient/colleague act on it?

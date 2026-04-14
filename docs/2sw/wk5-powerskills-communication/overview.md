@@ -23,13 +23,22 @@ Students engage with four H&L Powerskills modules (Conflict Resolution, Giving a
 - Xello accounts (Time Management Lesson)
 - CareerOneStop Skills Matcher: [careeronestop.org/Toolkit/Skills/skills-matcher.aspx](https://www.careeronestop.org/Toolkit/Skills/skills-matcher.aspx)
 - Printed SMART Goal worksheet
-- Healthcare role-play cards (teacher-prepared, 8-10 cards)
+- Healthcare role-play cards (teacher-prepared — see Teacher Prep Checklist below)
 - Timer for activities
 - Projector for demonstrations
 
+!!! tip "Teacher Prep Checklist (1–2 weeks before the week starts)"
+    This week depends on three external systems plus one piece of teacher-authored content. Verify each before the week begins:
+
+    - [ ] **H&L Powerskills Workbook:** Pages 19–32 photocopied OR H&L site license allows digital distribution. The four modules used this week are Conflict Resolution (pp. 19–21), Feedback (pp. 22–24), Written Communication (pp. 25–26), Advocacy (pp. 30–32).
+    - [ ] **Healthcare role-play cards authored:** Draft 6 cards total — 3 for Day 2 (feedback context) and 3 for Day 4 (written communication context). Day 2 and Day 4 each include 3 sample cards you can adopt verbatim or adapt to your local healthcare context (e.g., Baylor Scott & White Irving, Las Colinas Medical Center). Plan ~30 min of prep time.
+    - [ ] **Xello + CareerOneStop access confirmed:** Open Xello Time Management Lesson on 2 student Chromebooks to confirm it appears on the 7th-grade task list. Load `careeronestop.org/Toolkit/Skills/skills-matcher.aspx` to confirm IT has whitelisted the domain (submit request 10 business days prior if blocked).
+
+    If any item fails, notify your instructional coach immediately — these are prerequisites, not nice-to-haves.
+
 ## Career Connection
 
-Communication is consistently ranked the #1 skill employers want across ALL industries. In healthcare, poor communication can be life-threatening — a nurse who does not listen carefully to a patient's symptoms could miss a critical diagnosis. A medical biller who does not write clearly could cost a hospital thousands of dollars. This week is the **breather week** of the 2nd Six Weeks. After two intense weeks of content (Law cluster + Health Science cluster), students slow down to practice the soft skills that transfer to EVERY career. The H&L Powerskills workbook activities are paired with teacher-led healthcare role-plays so students see soft skills in action.
+Communication is consistently ranked the #1 skill employers want across ALL industries. In healthcare, poor communication can be life-threatening — a nurse who does not listen carefully to a patient's symptoms could miss a critical diagnosis. A medical biller who does not write clearly could cost a hospital thousands of dollars. After two content-intense weeks (Law cluster + Health Science cluster), Week 5 shifts gears from career exploration to the powerskills that transfer across every career. The mode changes — less reading and discussion of clusters, more hands-on practice of skills — and the H&L Powerskills workbook activities are paired with teacher-led healthcare role-plays so students see soft skills applied in context.
 
 **Irving ISD Pathway:** All Irving ISD Health Science pathways. Communication and goal-setting are transferable skills that apply to every career cluster, every Singley Academy program, and every job a student will ever have.
 

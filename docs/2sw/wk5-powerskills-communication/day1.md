@@ -49,7 +49,7 @@ Project the workbook's **Three Quick Tips** (p. 19):
 
 ---
 
-## Activity 3: Smoothie Company Conflict (22 min)
+## Activity 3: Smoothie Company Conflict (25 min)
 
 **Source:** H&L Powerskills Workbook, pp. 19-20 — Activity (Smoothie Company Scenario)
 
@@ -74,11 +74,11 @@ Each group must use the 3 quick tips to actually resolve each conflict — not j
 After resolving the conflicts, each group sketches a quick **smoothie ad** (workbook Step 3, p. 20) showing the chosen name and launch strategy.
 
 !!! tip "Facilitation Tip"
-    Watch for groups that "resolve" by just letting one person win. Push back: "Did everyone feel heard? Did you actually combine ideas?" Real conflict resolution is about integration, not domination.
+    Watch for groups that "resolve" by just letting one person win. Push back: "Did everyone feel heard? Did you actually combine ideas?" Conflict resolution is about integration, not domination. **Pressure valve:** if groups are still working through the first two conflicts at the 15-minute mark, have them document solutions for Name and Launch Date only and make the smoothie ad sketch an at-home or Extension task — the chart is the essential deliverable.
 
 ---
 
-## Activity 4: Class Discussion (8 min)
+## Activity 4: Class Discussion (5 min)
 
 **Source:** H&L Powerskills Workbook, p. 21 — Class Discussion
 

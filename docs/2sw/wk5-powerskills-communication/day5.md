@@ -52,28 +52,26 @@ After completing the matcher, students:
 
 ---
 
-## Activity 3: SMART Goal Refinement (10 min)
+## Activity 3: SMART Refinement + Powerskills Reflection (15 min)
 
-Students return to their SMART goals from Day 3. They now have new information from the Xello Time Management Lesson and the Skills Matcher. They review their goal:
+Students close the week by bringing the Xello Time Management strategy and the Skills Matcher results back to the SMART goal they drafted on Day 3 — and then writing the reflection that is the week's summative. Keep this as one continuous block so students don't lose momentum with another activity handoff.
 
-- Is it still realistic with what I know about my time?
-- Should I narrow or expand the goal based on my Skills Matcher results?
-- Have I committed to specific actions that will get me there?
+**Part A — Refine the SMART goal (5 min).** Students pull out their Day 3 SMART goal and ask three questions:
 
-Each student rewrites their SMART goal once if needed. They highlight any changes from the Day 3 version.
+- Is it still realistic given what I now know about my time?
+- Should I narrow or expand it based on my Skills Matcher results?
+- Have I committed to a specific action that will actually get me there?
 
----
+Each student rewrites the goal once if needed and highlights any changes from the Day 3 version.
 
-## Activity 4: Powerskills Reflection Paragraph (5 min)
-
-Students write a 4-sentence reflection (this is the summative assessment for Week 5):
+**Part B — Write the reflection (10 min).** Students write a 4-sentence paragraph (this is the Week 5 summative):
 
 1. *"The transferable skill I improved most this week is _____."*
 2. *"It connects to the career of _____ because _____."*
 3. *"This week's biggest aha moment was _____."*
 4. *"I will practice this skill outside of class by _____."*
 
-Submit the reflection along with the refined SMART goal as the Week 5 deliverable.
+Submit the reflection and the refined SMART goal together as the Week 5 deliverable.
 
 **DOK 4:** If you were training a new employee at a hospital, how would you teach them the communication skills we practiced this week? Design a brief 30-minute training outline.
 
