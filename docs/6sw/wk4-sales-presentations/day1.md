@@ -83,7 +83,7 @@ The workbook (Ch 5, p. 84) provides a six-question business plan chart. Each tea
 This chart becomes the foundation of the Day 2 slide deck.
 
 !!! tip "Facilitation Tip"
-    Walk around with one prompt: "Tell me what your business does in 10 seconds." If the team can't, push them to clarify. The 10-second test is exactly what real investors use — if you can't summarize the business in a sentence, the pitch will fail.
+    Walk around with one prompt: "Tell me what your business does in 10 seconds." If the team can't, push them to clarify. This primes teams for Day 3 pitches — if the business can't be summarized in a sentence, the slide deck won't save it.
 
 **DOK 3:** Why does each investor profile list SPECIFIC things they want to see? Why don't they all want the same information?
 

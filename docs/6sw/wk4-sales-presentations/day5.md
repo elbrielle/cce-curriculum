@@ -46,7 +46,7 @@ Today every student delivers their 3-minute career presentation. The structure (
     Split groups (A) is fairest to student attention; 90-sec (C) is fairest to speaking time. Pick the one that matches your room.
 
 !!! tip "Facilitation Tip"
-    Project a HUGE visible timer for every presentation. Students have drilled the time limit on Day 3 (verbal warning at 2:30, cut at 3:00) and Day 4 (paired practice with feedback), so the cap is not a surprise. Cut presenters off at the time limit — students know it's coming, and a hard cap is how every real pitch event works.
+    Project a HUGE visible timer for every presentation. Students have drilled the time limit on Day 3 (verbal warning at 2:30, cut at 3:00) and Day 4 (paired practice with feedback), and they were told explicitly at the end of Day 4 that today's cap is the same rule. Cut presenters off at the time limit — the rule was announced in advance and practiced for two days.
 
 **Class feedback after each presentation:**
 

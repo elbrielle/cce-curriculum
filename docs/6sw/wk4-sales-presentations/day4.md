@@ -51,7 +51,7 @@ Students complete the guide individually. After 8 minutes, lead a quick discussi
 
 **Source:** Day 3 outline + Career Presentation Rubric
 
-Pair students up. Each pair has 25 minutes (12 minutes per student) for practice runs.
+Pair students up. Each pair has 25 minutes across three rounds for practice runs.
 
 **Round 1 (12 min total):**
 
@@ -74,6 +74,9 @@ By the end of Day 4, every student has presented their full career talk TWICE an
 
 !!! tip "Facilitation Tip"
     Walk around with the rubric. Catch students who are talking but not presenting (no eye contact, reading from notes the whole time, not standing). Real-time correction: "Stop. Stand up. Try the intro again with eye contact." This kind of in-the-moment coaching is more useful than written feedback.
+
+!!! tip "Announce Day 5 format before students leave"
+    Tell students directly, out loud, two things today: (1) Friday's presentations are cut at 3:00 — the same rule they saw enforced at Day 3 team pitches, now applied to individual students. No surprises. (2) Which Day 5 format you chose from the overview Teacher Prep Checklist — whole-class, split groups, two-day bleed, or 90-second slots. Students need both rules before they walk out so they can adjust their outline overnight if needed.
 
 **DOK 3:** What is the difference between READING a presentation and DELIVERING one? Name two specific differences in how the speaker behaves.
 

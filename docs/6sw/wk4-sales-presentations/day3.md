@@ -35,7 +35,7 @@ Today each team delivers their 2-3 minute pitch. The workbook (Ch 5, p. 85) requ
 - 4-5 teams present (depending on class size)
 - Time limit STRICTLY enforced at 3 minutes
 - Class acts as the investor — after each pitch, the audience votes whether they would invest
-- Teams give Two Stars and a Wish feedback to the pitching team after the vote (use the Powerskills practice from yesterday)
+- Teams give Two Stars and a Wish feedback to the pitching team after the vote (use the Powerskills practice from yesterday). With 5 teams, compress to one star + one wish per team to stay inside the 25-min budget.
 
 **Optional from workbook (Ch 5, p. 86):** *"Present your business idea to the class. The class will act as the investors and decide which business idea they would invest in!"* — Take a class vote at the end. The team with the most "investments" wins the pitch round.
 
@@ -74,6 +74,8 @@ Both conclusions are valid. The point is reflection, not enthusiasm.
 Students choose their career (from any cluster they explored this year — Manufacturing, IT, Law, Health Science, Ag, Hospitality, Human Services, Business, A&C, Engineering, Transportation, Education, Arts/AV, Marketing, Sales). They write the outline on the template.
 
 The outline must be COMPLETE before students leave class. Day 4 is for practice, not for catch-up.
+
+Close Activity 2 with a direct student-facing announcement: Friday's individual presentations use the same 3-minute hard cap students just saw with the team pitches. Students need to hear the rule today so they can use Thursday's paired practice to time themselves and adjust.
 
 !!! tip "Facilitation Tip"
     Watch for students choosing a career they have not actually researched. Push back: "What is the salary? What's the daily work?" If they don't know, send them to H&L Hat Finder or BLS to gather data right now. The presentation cannot be built on guesses.
