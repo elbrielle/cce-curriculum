@@ -632,19 +632,44 @@ This ordering is a working assumption. Teacher feedback tomorrow will change it.
 
 ## 10. Session Log & Next-Agent Handoff
 
-**Last session:** 2026-04-14 — ran the teacher/writer adversarial instinct review described in §8. Commits `6745afa` → `bc3c757` on `main`, pushed to `elbrielle/cce-curriculum`. Full report at `cce-curriculum/notes/instinct-review.md`.
+### Current state (updated 2026-04-14)
 
-### What shipped in that session
+`main` HEAD: `bfb4cac`. Live site: https://elbrielle.github.io/cce-curriculum/. Four weeks instinct-reviewed (**1SW Wk0**, **4SW Wk1**, **5SW Wk1**, **6SW Wk6**) + one new clinical dimension added (**Dimension 9 — Skill-Before-Enforcement**) + four prose/sweep passes shipped. 32 of 36 weeks still awaiting instinct review. Clinical `vetting-report.md` remains frozen.
 
-| Commit | Week | Fix count | Headline |
-|---|---|---|---|
-| `6745afa` | 1SW Wk0 Classroom Routines | 7 | Converted Day 1 routine directives to `!!! tip "Suggested Routine — Adapt to Your Lab Culture"`; softened Day 3 "hard checkpoint"; added Day 1 vulnerability alternative; added Day 5 `!!! note "Persistent Portfolio"` for cross-year data continuity |
-| `89614f4` | 5SW Wk1 Architecture (prototype) | 7 | Added overview `!!! tip "Teacher Prep Checklist"`; replaced Day 3 sequential sketch approval with peer/self checklist + spot-check; added Day 5 `!!! warning` naming the presentation math; added Day 3 `!!! tip "Tech Setup"` for TinkerCAD whitelisting |
-| `f612edf` | 4SW Wk1 Career Planning | 2 | Added Day 1 pre-warm-up note for Week 0 folder retrieval + transfer-student fallback; added Day 2 `!!! tip "Facilitation Tip — Verify Before Class"` for H&L Career Plan tool |
-| `25a60db` | 6SW Wk6 Capstone | 4 | Added overview `!!! note "Pre-Capstone Teacher Checklist"`; added Day 1 engagement-variability compressed path; added Day 3 `!!! warning` on presentation math; added Day 4 day-of backup for PDF export failure |
-| `bc3c757` | (all) | — | Consolidated `cce-curriculum/notes/instinct-review.md` with all 4 week sections, final cross-week themes, escalation queue, session totals |
+### Session 2026-04-14 (afternoon — prose + math + Dimension 9)
 
-**Session totals:** 42 Teacher Implementer concerns lobbed → 20 Fix applied, 11 Defended, 11 Escalated. No day file edit exceeded ~12 lines (under the 15-line redesign threshold). `mkdocs build --strict` clean, scripting=0 globally, all 180 daily plans still sum to 45–55 min, DOK 2–4 and Support/Extension/ELL preserved everywhere. Frozen `vetting-report.md` was not touched.
+Commits `cd2ea60` → `bfb4cac` on `main`. Four landings, three of them user-feedback-driven:
+
+| Commit | Scope | What landed |
+|---|---|---|
+| `cd2ea60` | Prose sweep | 1SW Wk0 Flexibility Framework tightened per user wording (dropped "(default Day N Activity N)" parentheticals, "Bottom line:" summary, "Load-bearing — protect these..." header → "Non-negotiables:"); 6 "[X] is not [Y] — it is [Z]" AI-cliche sentences fixed across 4sw/5sw/6sw/1sw/3sw day files |
+| `b14b1d2` | Presentation math sweep | `!!! warning` admonitions added/converted on 3 days: 6SW Wk4 Day 5 (converted inline prose math to warning), 4SW Wk5 Day 5 (new warning: 25 × 90 sec = 37.5 min in 28-min budget), 6SW Wk6 Day 4 (new warning: half class × 5 min = 60 min in 30-min budget — tighter than Day 3). This sweep is **DONE**; no remaining overrunning presentation days in docs/ |
+| `95081fe` | **New Dimension 9 added to §4** | PLANNING.md Dimension 9 — Skill-Before-Enforcement (Taught Before Tested). Plus companion declarative-fluff check. editing-heuristics.md got two new "Never Do These Without Reading More" rules (8 and 9) |
+| `bfb4cac` | First retroactive Dimension 9 sweep | 9 edits / 9 files: removed "mid-sentence cut" surprise discipline from 4SW Wk4 Day 5 Drone, 5SW Wk4 Day 5 HVAC, 6SW Wk3 Day 5 Marketing (content weeks where pacing is not taught); trimmed fluff tail from 6SW Wk4 Day 5 Sales (the skill week — kept the enforcement, dropped the "Real conferences / Real interviews" filler); trimmed 3 extension fluff lines in 6SW Wk6 Day 3, 6SW Wk5 Day 5, 6SW Wk4 Day 4. Post-sweep grep: zero remaining "This is real / This builds real / This is what real / Real conferences / Real interviews" across docs/ |
+
+**Pattern propagation status after this session:**
+
+- ✅ **Presentation math sweep — DONE.** All overrunning presentation days in docs/ now carry `!!! warning` admonitions with the math + three compression options.
+- ⏳ **Teacher Prep Checklist propagation — NOT STARTED.** 10-15 overview.md files still need the `!!! tip "Teacher Prep Checklist"` admonition from 5SW Wk1 prototype.
+- ⏳ **Directive → Suggestion sweep — NOT STARTED.** "Walk students through", "distribute printed", "project the..." imperatives still live in other weeks.
+- 🟡 **Declarative fluff sweep — PARTIAL.** "This is real / This builds real" patterns are 0. Other fluff patterns unchecked: "Make this feel real", "This is uncomfortable but", "This is the most important", "Not just X, but Y" constructions, em-dash-as-cliche elsewhere. Grep recipes are in editing-heuristics.md rule 9.
+
+### Session 2026-04-14 (morning — instinct review + Wk0 flex framework)
+
+Commits `6745afa` → `435f837`. The teacher/writer adversarial instinct review described in §8 for 4 weeks + user-feedback iterations on the Week 0 Flexibility Framework.
+
+| Commit | Week | Headline |
+|---|---|---|
+| `6745afa` | 1SW Wk0 Classroom Routines | Day 1 routine directives → `!!! tip "Suggested Routine"`; softened Day 3 "hard checkpoint"; Day 1 vulnerability alternative; Day 5 `!!! note "Persistent Portfolio"` for cross-year data continuity |
+| `89614f4` | 5SW Wk1 Architecture (prototype) | Overview `!!! tip "Teacher Prep Checklist"`; Day 3 sequential approval → peer/self checklist; Day 5 `!!! warning` on presentation math; Day 3 `!!! tip "Tech Setup"` for TinkerCAD whitelisting |
+| `f612edf` | 4SW Wk1 Career Planning | Day 1 pre-warm-up Week 0 folder retrieval + transfer-student fallback; Day 2 `!!! tip "Verify Before Class"` for H&L Career Plan tool |
+| `25a60db` | 6SW Wk6 Capstone | Overview `!!! note "Pre-Capstone Teacher Checklist"`; Day 1 engagement-variability compressed path; Day 3 `!!! warning` on presentation math; Day 4 day-of backup for PDF export failure |
+| `bc3c757` | (all) | Consolidated `cce-curriculum/notes/instinct-review.md` with 4 week sections, cross-week themes, escalation queue, session totals |
+| `7d24d05` | 1SW Wk0 Day 1 | Added pacing alternatives for lab routines |
+| `46e19f7` | 1SW Wk0 overview | Added Week 0 Flexibility Framework (first pass — prescriptive playbooks) |
+| `435f837` | 1SW Wk0 overview | Tightened Flexibility Framework, dropped prescriptive playbooks, wrapped in `!!! abstract` and converted to verb menu |
+
+**Morning session totals:** 42 Teacher Implementer concerns lobbed → 20 Fix applied, 11 Defended, 11 Escalated. No day file edit exceeded ~12 lines.
 
 ### Weeks still to instinct-review (32 of 36 remaining)
 
@@ -654,41 +679,37 @@ Remaining by six-weeks block:
 
 - **1SW:** Wk1 Robotics/Manufacturing, Wk2 Programming/IT, Wk3 CS/IT, Wk4 Tech Support, Wk5 Cybersecurity
 - **2SW:** Wk1 Legal Studies, Wk2 Law Enforcement/EMT, Wk3 Nursing, Wk4 Dental/Medical Billing, Wk5 Powerskills-Communication, Wk6 Biomedical
-- **3SW:** Wk1 Vet Science, Wk2–Wk6 (see `scope-and-sequence.md` for exact topics — Ag/Natural Resources + Human Services + Business block)
-- **4SW:** Wk2 Career Plan Finalization, Wk3, Wk4, Wk5, Wk6 Trades Capstone (note: `d(3)(F)` documentation fix already landed in `d207fb1`)
-- **5SW:** Wk2 Civil Engineering, Wk3 Construction, Wk4 Skilled Trades, Wk5 Personal Budget, Wk6
-- **6SW:** Wk1, Wk2 Resume, Wk3 Business/Marketing, Wk4, Wk5 Mock Interview
+- **3SW:** Wk1 Vet Science, Wk2 Plant Science, Wk3 Sustainable Engineering, Wk4 Culinary, Wk5 Cosmetology, Wk6 Entrepreneurship
+- **4SW:** Wk2 Course Mapping, Wk3 Aviation, Wk4 Drone Engineering, Wk5 Automotive, Wk6 Trades Capstone
+- **5SW:** Wk2 Civil Engineering, Wk3 Construction, Wk4 HVAC/Electrical/Plumbing, Wk5 Personal Budget, Wk6 Real Estate
+- **6SW:** Wk1 Education, Wk2 Resume, Wk3 Business/Marketing, Wk4 Sales/Presentations, Wk5 Mock Interview
 
-**Priority order for the next session (3–5 weeks max):**
+**Priority order for the next session — pick one track:**
 
-1. **2SW Wk5 Powerskills-Communication** — writer-reached "slot week" created from a blank Topic field in the original spreadsheet. Highest chance of writer improvisation.
-2. **6SW Wk5 Mock Interview** — d(6)+d(7) heavy, thin H&L support (Powerskills supplement), highest-stakes summative after Wk6 Capstone. Directly feeds into Wk6. Also worth checking: does Wk5 assume the Career Plan from Wk6 Day 1 is done? (Cross-week dependency check.)
-3. **4SW Wk2 Career Plan Finalization** — the `d(8)(C)` official artifact week, directly adjacent to 4SW Wk1 already reviewed. Students produce the document that 6SW Wk6 Day 1 finalizes.
-4. **5SW Wk5 Personal Budget** — highest-stakes standalone summative in 5SW (DFW cost reference sheet + budget template, both listed as "not yet built" in `resources-status.md`). Writer may have reached here.
-5. **3SW Wk3 Sustainable Engineering** *(or whatever the S&S col 3 actually says — verify first)* — a cross-cluster week where the writer may have improvised to bridge Ag/Natural Resources into engineering.
+**Track A — cheap, high-coverage pattern sweeps (recommended first):**
 
-Weeks that can safely wait (likely clean based on cross-inheritance from the prototype pass):
+1. **Teacher Prep Checklist propagation.** Grep `cce-curriculum/scope-and-sequence.md` col 7 for tech tools (TinkerCAD, Sphero, Glowforge, micro:bit, MakeCode, drones, LEGO, Canva, eDynamic, Xello). Add the `!!! tip "Teacher Prep Checklist"` shape (see 5SW Wk1 overview.md for the prototype) to each matching overview.md Materials section. Probably 10-15 files.
+2. **Directive → Suggestion sweep.** Grep daily plans for `"Walk students through"`, `"distribute printed"`, imperative `"project the..."`, `"hard checkpoint"`, `"Make this"`. Spot-check each hit for directive register. Convert to `!!! tip` / `!!! note` admonitions where warranted. Most edits will be under 15 lines.
+3. **Broader declarative fluff + AI-cliche sweep.** Grep recipes in `editing-heuristics.md` rule 9. Remaining patterns to hunt: `"Make this feel real"`, `"This is uncomfortable but"`, `"This is the most important"`, `"Not just X, but Y"` constructions, over-use of em-dashes in prose paragraphs (most are legit — grep for specific cliche shapes, don't blanket-remove).
 
-- Any 1SW/2SW/3SW cluster-tour week that follows the inherited 5SW Wk1 shape (cluster tour → career research → hands-on → favorites → synthesis). The prototype's instinct issues have been addressed; inherited weeks get most of the benefit via pattern propagation below.
+**Track B — instinct review (more expensive; 3-5 weeks max per session):**
 
-### Pattern propagation — a dedicated sweep, not a per-week review
+1. **2SW Wk5 Powerskills-Communication** — writer-reached "slot week" from a blank Topic field in the original spreadsheet. Highest chance of writer improvisation.
+2. **6SW Wk5 Mock Interview** — d(6)+d(7) heavy, thin H&L support (Powerskills supplement only), feeds directly into Wk6 Capstone. Cross-week dependency: does Wk5 assume the Career Plan from Wk6 Day 1 is done?
+3. **4SW Wk2 Career Plan Finalization** — the d(8)(C) official artifact week, directly adjacent to 4SW Wk1 already reviewed.
+4. **5SW Wk5 Personal Budget** — highest-stakes standalone summative in 5SW. Budget template + DFW cost reference sheet both listed as "not yet built" in `resources-status.md`.
+5. **3SW Wk3 Sustainable Engineering** — cross-cluster bridge week. Verify exact topic in scope-and-sequence.md first.
 
-Some fixes from this session are structural and should propagate across many weeks in a single grep-driven sweep rather than week-by-week instinct review:
-
-1. **Teacher Prep Checklist propagation.** The `!!! tip "Teacher Prep Checklist"` admonition added to 5SW Wk1 overview.md should be added to every week that depends on external tools/platforms (TinkerCAD, Sphero/SpheroEdu, Glowforge, micro:bit, MakeCode, drones, LEGO, Canva, eDynamic, Xello). Grep `scope-and-sequence.md` col 7 for tech tools, list the weeks, write a single-pass migration that adds the checklist shape to each overview.md Materials section.
-2. **Directive → Suggestion sweep.** The Wk0 directive→admonition pattern (`> **Teacher:` was already 0, but "Walk students through", "distribute printed", "hard checkpoint", "Make this", "project" in an imperative register remain in other weeks). Grep for these strings across all daily plans and spot-check each hit for directive register. Most can be converted to `!!! tip` / `!!! note` admonitions without touching activity bodies.
-3. **Presentation math sweep.** Any week that has a Day 5 `## Activity 1: ... Presentations` at 20 min or more for 24 students has the same math problem as 5SW Wk1 Day 5 and 6SW Wk6 Day 3. Grep `docs/*/*/day*.md` for `Presentation` headers and check the minute budget against the student count. Apply the same `!!! warning` + three-option pattern.
-
-These sweeps are much cheaper than 32 more instinct reviews and catch the same inherited issues in one pass.
+**When in doubt: do Track A first.** It's much cheaper than 32 more instinct reviews and will catch most of the inherited issues in one pass.
 
 ### Escalation queue — items needing a human decision
 
-These came out of the 4-week pass and need a teacher/curriculum-team decision, not a curriculum edit. Full detail in `cce-curriculum/notes/instinct-review.md`. Short version:
+These came out of the morning instinct-review pass and need a teacher/curriculum-team decision, not a curriculum edit. Full detail in `cce-curriculum/notes/instinct-review.md`. Short version:
 
 - **1SW Wk0 Day 3 conceptual density** — should Building Blocks move to Day 4?
 - **1SW Wk0 artifacts marked "not yet built"** in `resources-status.md` — Lab Safety Contract template, My Career Journey handout, Building Blocks word bank
 - **1SW Wk0 cluster posters + `[VERIFY IN Xello]` quiz names** — district verification needed
-- **5SW Wk1 Day 5 eDynamic Unit 3.1** — district verification needed to replace `[VERIFY IN eDynamic]` with concrete activity spec
+- **5SW Wk1 Day 5 eDynamic Unit 3.1** — district verification needed
 - **4SW Wk1 Day 3/4 `[VERIFY IN Xello/eDynamic]`** — Quick Sims "The Real Game", Unit 8.1
 - **4SW Wk1 early-week formative checkpoint** — should Day 2 verify Day 1 output before proceeding?
 - **6SW Wk6 Days 3/4 co-facilitator staffing** — can the district commit an admin/counselor/second teacher for the 4 capstone presentation periods?
@@ -696,22 +717,85 @@ These came out of the 4-week pass and need a teacher/curriculum-team decision, n
 
 ### Non-instinct-review work still queued
 
-- **Resource backlog authoring** — per §9 and `docs/resources/resources-status.md`. Priority order: worksheets for highest-stakes summatives (6SW Wk6 Capstone rubric, 4SW Wk2 Career Plan template, 5SW Wk5 Budget); presentation slides (start with 5SW Wk1 prototype); CFAs for 1SW + 6SW first; teacher edition last.
-- **Post-teacher-meeting feedback triage** — when the teacher meeting surfaces feedback, triage with the P0/P1/P2 framework in §7. GitHub issues tagged by week + dimension.
-- **Clinical P1 items from `vetting-report.md`** — TEKS format normalization, expanding d(4)(E) community service coverage, resolving or retiring d(4)(D), eDynamic/Xello VERIFY flag resolution (district-dependent).
+- **Resource backlog authoring** — per §9 and `docs/resources/resources-status.md`. Priority: worksheets for highest-stakes summatives (6SW Wk6 Capstone rubric, 4SW Wk2 Career Plan template, 5SW Wk5 Budget + DFW cost reference), then presentation slides (start with 5SW Wk1 prototype), then CFAs for 1SW + 6SW first, then teacher edition last.
+- **Post-teacher-meeting feedback triage** — when teachers surface feedback, use the P0/P1/P2 framework in §7. GitHub issues tagged by week + dimension.
+- **Clinical P1 items from frozen `vetting-report.md`** — TEKS format normalization, d(4)(E) community service expansion, d(4)(D) resolution, remaining eDynamic/Xello VERIFY flags (district-dependent).
 
-### Non-negotiables for the next agent (quick reference)
+**Out of scope per user direction 2026-04-14:** video integration. Revisit after first teacher feedback round.
 
-Same as §8, re-stated here for convenience:
+### Non-negotiables for the next agent
 
-- Read `CLAUDE.md`, `PLANNING.md §8`, `cce-curriculum/notes/editing-heuristics.md`, and `cce-curriculum/notes/instinct-review.md` before editing.
-- `cce-curriculum/notes/vetting-report.md` is frozen — do not edit.
-- 3–5 weeks max per instinct-review session.
-- ≤~15 lines per day file per edit (more = redesign = escalate).
-- No new activities; stay grounded in H&L workbook + Powerskills + scope-and-sequence + BLS/Irving ISD pathways.
-- No scripting (`> **Teacher:` stays at 0).
-- Preserve Support/Extension/ELL + Spanish vocab on every daily plan.
-- Timing 45–55 min at H2 activity-header level.
-- After every edit batch, run: `mkdocs build --strict`, scripting grep, DOK preservation loop, timing preservation loop.
-- No push without explicit user permission.
-- Never touch 1SW Wk0 Day 2–5 data-seeding activities (RIASEC, Work Values, Building Blocks) or their downstream consumers at 4SW Wk1 / 6SW Wk6 without reading how the chain fits together. Dependency already mapped in `editing-heuristics.md`.
+- **Read before editing:** `CLAUDE.md`, `PLANNING.md §8` (instinct-review protocol) and **§4 Dimensions 1-9** (vetting dimensions — Dimension 9 is new and catches surprise-discipline + declarative fluff), `cce-curriculum/notes/editing-heuristics.md` (decision table, grep recipes, "never do X without reading more" rules including **new rules 8 and 9**), `cce-curriculum/notes/instinct-review.md`.
+- `cce-curriculum/notes/vetting-report.md` is **frozen** — never edit.
+- **3-5 weeks max per instinct-review session.** Track A sweeps can touch more files because each edit is small.
+- **≤~15 lines per day file per edit.** More = redesign, not fix = escalate.
+- **No new activities.** Stay grounded in H&L workbook + Powerskills supplement + scope-and-sequence col 5 + BLS + Irving ISD pathways.
+- **No scripting** (`> **Teacher:` stays at 0 globally).
+- **No declarative fluff** — "This is real X", "This builds real Y", "Real conferences cut speakers off", "This is the most important skill they will learn" are all banned. Use concrete curriculum ties or delete. Rule 9 in editing-heuristics.md.
+- **No surprise discipline** — never add or keep a hard-enforcement facilitation tip ("cut students off mid-sentence", "no exceptions") unless the week teaches the skill and students are warned in advance. Rule 8 in editing-heuristics.md + Dimension 9 in §4.
+- **Preserve Support/Extension/ELL + Spanish vocab pairs** on every daily plan.
+- **Timing 45-55 min** at H2 activity-header level.
+- **After every edit batch, run the preservation loop:** `python3 -m mkdocs build --strict`, scripting grep, DOK preservation grep, timing sum check, Support/ELL grep. All five must be clean before committing.
+- **No push without explicit user permission.** Exception: the user has said "AFK, do me proud" → operate autonomously including push. Otherwise stage + ask.
+- **Never touch 1SW Wk0 Day 2-5 data-seeding activities** (RIASEC, Work Values, Building Blocks, My Career Journey reflection) or their downstream consumers at 4SW Wk1 / 6SW Wk6 without reading how the chain fits together. Dependency map in `editing-heuristics.md`.
+- **Never use `--no-verify`, `--force`, or any flag that skips hooks.** Fix the underlying issue instead.
+- **When ending your session, update this §10 with a fresh session log entry** so the next agent can pick up where you left off.
+
+### Lessons learned — read carefully
+
+1. **Verb menu > prescriptive playbook.** When a week needs flexibility, give teachers a load-bearing / flex split and a short verb menu (cut, move, compress, substitute). Do NOT write step-by-step scenario playbooks. User rejected a first-pass Wk0 Flexibility Framework in commit `46e19f7` that had 5 prescriptive scenarios; the accepted version in `435f837` is a verb menu wrapped in `!!! abstract`. If you find yourself writing "Scenario A: do X. Scenario B: do Y," stop and convert.
+
+2. **Load-bearing vs flex.** For any flexibility framing, name what the downstream year depends on (load-bearing) and what can be cut/moved/compressed (flex). Let teachers route around the flex stuff with campus knowledge.
+
+3. **Week 0 is structurally different.** The other 35 weeks assume stable mid-year classroom conditions. Wk0 cannot — campus events, tech-access gates, roster churn, and teacher culture-setting make Wk0 a special case. No other week currently needs the Flexibility Framework framing.
+
+4. **Admonitions > dense prose** for important advisory content. `!!! abstract`, `!!! warning`, `!!! tip`, `!!! note` render as visually distinct callouts in MkDocs Material. If you're adding 15+ lines of advisory content, wrap it.
+
+5. **Language softening without timing softening is incomplete.** First Wk0 pass softened "Walk students through [rigid list]" to a Suggested Routine admonition but left the 15-min time budget intact. When you soften a directive, also check whether the time allocation needs to soften too.
+
+6. **Cross-week data dependencies are silent until they break.** Wk0 seeds Climber Profile data. 4SW Wk1 and 6SW Wk6 consume it 18 and 36 weeks later. Wk0 never said "save this folder"; downstream weeks silently assumed it would be there. Closed by `6745afa` + `f612edf` + `25a60db`. Whenever you see a week REFERENCE something from an earlier week, check whether the earlier week explicitly instructs the teacher to preserve it.
+
+7. **Presentation math almost never works without adjustment.** 24 students × 2-5 min > 50 min is the standard failure. The presentation math sweep (commit `b14b1d2`) closed the remaining overruns in docs/, but if you ADD new presentation activities, always verify: (student count × per-student minutes) ≤ (activity budget - feedback - transition). Pattern: `!!! warning` naming the math + three compression options (see 5SW Wk1 Day 5 and 6SW Wk6 Day 3).
+
+8. **Clinical pass ≠ instinct pass.** Clinical checks (scripting=0, DOK present, timing sums, differentiation bullets) are necessary but not sufficient. They can't tell you whether a week will hold a classroom. The instinct pass catches things like "this warm-up asks for a vulnerable share before students know each other" or "24 TinkerCAD logins in 10 min is aspirational." Run both. Never treat a clean clinical pass as proof a week is ready to teach.
+
+9. **Dimension 9 is the newest check.** Before adding any hard-discipline facilitation tip, verify the skill is taught that week. "Cut students off mid-sentence" in a drone engineering content week is surprise discipline. The same words in 6SW Wk4 Sales/Presentations are earned reinforcement. Same words, different pedagogy. Caught in commit `bfb4cac`. When adding new tips, check Dimension 9 first.
+
+10. **Don't over-use sub-agents.** Each Teacher Implementer / Curriculum Writer sub-agent cycle costs real tokens. For a 4-week review pass, that's 8 agent invocations minimum. Only spin them up for the adversarial dialog where persona separation is the point. For grep sweeps, pattern propagation, and targeted edits, do the work directly.
+
+11. **Check your own recently-added content for the patterns you're hunting.** In `bfb4cac` I caught myself: a commit 30 minutes earlier had introduced "Reinforces real presentation discipline" on 4SW Wk5 Day 5 — exactly the fluff I was being asked to hunt. If you just finished a commit and the user flags a pattern, grep your own recent diff before claiming a clean sweep.
+
+### Editing workflow
+
+Source of truth for the live site: everything under `docs/`. Path pattern: `docs/{1-6}sw/wkN-topic/{overview.md, day1.md ... day5.md}`.
+
+Do **not** edit:
+- `cce-curriculum/guides/` (legacy format, not wired to the site)
+- `site/`, `output/` (gitignored build artifacts)
+- `cce-curriculum/notes/vetting-report.md` (frozen)
+- Root `.docx` and `.xlsx` files (reference copies)
+
+Preservation loop after every edit batch:
+
+```bash
+cd "/Users/elishalucero/Coding Projects/27 CCR Planning"
+python3 -m mkdocs build --strict
+grep -rn "> \*\*Teacher:" docs/
+for f in docs/*/*/day*.md; do grep -q "DOK [2-4]" "$f" || echo "MISS DOK $f"; done
+for f in docs/*/*/day*.md; do
+  s=$(grep -E "^## .* \([0-9]+ min\)" "$f" | grep -oE "[0-9]+ min" | awk '{s+=$1} END {print s}')
+  if [ -n "$s" ] && { [ "$s" -lt 45 ] || [ "$s" -gt 55 ]; }; then echo "OUTLIER $s $f"; fi
+done
+grep -L "\*\*Support:\*\*" docs/*/*/day*.md
+grep -L "\*\*ELL:\*\*"     docs/*/*/day*.md
+# Dimension 9 (declarative fluff)
+grep -rn "This is real\|This builds real\|This is what real\|Real conferences\|Real interviews" docs/
+```
+
+All six must be clean.
+
+Commit granularity: one commit per week reviewed, or one commit per targeted fix. Commit messages explain which week, top teacher concerns, what was fixed, what was escalated. Always include trailer `Co-Authored-By: Claude [model name and version] <noreply@anthropic.com>`.
+
+Deploy pipeline: push to `main` → GitHub Actions → GitHub Pages. Completes in ~40-60 sec. Watch with `gh run list --limit 3` / `gh run watch <run-id> --exit-status`. Verify live with `curl -s https://elbrielle.github.io/cce-curriculum/<path> | grep "<expected text>"`. Remind the user to hard-refresh (⌘⇧R).
+
+Local preview without committing: `python3 -m mkdocs serve` → `http://127.0.0.1:8000/`. Live-reloads on save.
