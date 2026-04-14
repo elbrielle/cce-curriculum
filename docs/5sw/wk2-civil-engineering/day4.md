@@ -46,7 +46,7 @@ Set up the test station at the front of the room: two desks (or stacks of books)
 
 Each team brings their bridge forward for testing. Use one of these methods:
 
-- **Method 1 (simple):** Add pennies to a cup sitting in the center of the bridge, one at a time. Record the penny count when the bridge visibly bends or breaks.
+- **Method 1 (simple):** Add pennies to a cup sitting in the center of the bridge, one at a time. Define "failure" before testing starts so teams cannot argue in the moment: STOP at the first visible sag OR the first taped joint that separates — teacher's call is final. Record the penny count at the stop.
 - **Method 2 (precise):** Use a digital kitchen scale placed on the bridge, and stack textbooks until failure. Record weight in grams.
 
 Testing protocol:
@@ -56,7 +56,7 @@ Testing protocol:
 3. Teacher calls "STOP" at first visible failure (buckling, collapse, or deck breaking)
 4. Teacher records max weight on a class-visible whiteboard
 
-Each team records their own result on their test results sheet along with notes on **where the bridge failed first** (usually the deck, a support rail, or a taped joint).
+Each team records their own result on their test results sheet along with notes on **where the bridge failed first** (usually the deck, a support rail, or a taped joint). Teams waiting their turn at the test station should start Activity 3 (redesign reflection) at their desks instead of sitting idle — this keeps the test queue moving and distributes the 15-min activity time across testing and writing.
 
 **DOK 4:** What design features correlated with the strongest bridges in our class? Use evidence from at least two teams' results.
 

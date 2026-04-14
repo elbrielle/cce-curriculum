@@ -80,7 +80,7 @@ Read the Los Lomas Department of Public Works report aloud as a class (or have s
 - 72% of city is pavement and buildings (only 14% green space)
 - 11 days of significant flooding last year caused $3.2 million in damage
 
-Students write brief notes on each problem in their workbook. This is background only — they'll design solutions during the bridge challenge scaffolded across Days 3-4 (a simplified structural version of civil engineering).
+Students write brief notes on each problem in their workbook. This sets up Days 3-4 — the tabletop straw-bridge challenge is a simplified structural version of the Los Lomas Infrastructure Imagination problem. If students can engineer a 40-straw bridge that holds weight, they are doing the same kind of problem-solving that real civil engineers bring to Los Lomas traffic and flooding — at a smaller scale.
 
 **DOK 2:** How is the Los Lomas traffic problem similar to or different from what you see in Irving or Dallas? Name one specific parallel.
 

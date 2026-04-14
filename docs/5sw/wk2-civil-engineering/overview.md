@@ -59,7 +59,7 @@ Students also use the **Hat Research template** (same format as Ch 3) to researc
 - **Modeling:** Teacher demonstrates truss geometry on the projector before students build. A triangle holds its shape under load; a square collapses into a rhombus.
 - **Active Monitoring:** During the bridge challenge, teacher circulates with a 3-phase checklist (sketch approved, build started, testing ready).
 - **Gallery Walk:** PSAT/SAT/ACT/ASVAB/TSI comparison cards posted around the room. Students rotate and take notes on each.
-- **Sentence Stems:** For emerging careers research: *"A Smart Infrastructure Specialist is a NEW career because _____. The technology that made it possible is _____."*
+- **Sentence Stems:** For emerging careers research: *"A Smart Infrastructure Specialist is an EMERGING career because _____. The technology or need that made it grow is _____."*
 
 ## Week at a Glance
 

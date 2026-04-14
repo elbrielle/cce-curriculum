@@ -42,7 +42,7 @@ Teach each test with a short, concrete description and one key reason it matters
 
 Before class, post 6 index cards around the room — one for each test (PSAT 8/9, PSAT/NMSQT, SAT, ACT, ASVAB, TSI). Each card shows: when it is taken, what it measures, what it is used for, and who should take it.
 
-Students rotate through the stations in pairs, taking notes on their PSAT/SAT/ACT Impact worksheet. They answer:
+Students rotate through the stations in pairs, taking notes on their PSAT/SAT/ACT Impact worksheet. In 15 min, pairs will not hit all six stations — aim for the four most relevant to a 7th grader's pathway (PSAT 8/9, SAT, ACT, TSI) and skim the remaining two only if time allows. They answer:
 
 1. **Which tests apply to MY pathway?** (If engineering → SAT/ACT. If military → ASVAB. If community college → TSI. All students → PSAT 8/9.)
 2. **What is the earliest test I will take?** (PSAT 8/9 in 9th grade — just 1-2 years away.)
@@ -57,7 +57,7 @@ Students rotate through the stations in pairs, taking notes on their PSAT/SAT/AC
 
 **Source:** Scope and sequence d(1)(D) + BLS OOH Engineering section
 
-Introduce "emerging occupations" — careers that did not exist 10 years ago or are rapidly growing due to new technology or environmental needs. In engineering, the top emerging categories are **Green Building / LEED Engineering**, **Smart Infrastructure**, and **Sustainability/Environmental Engineering**.
+Introduce "emerging occupations" — careers that did not exist 10 years ago or are rapidly growing due to new technology or environmental needs. In engineering, the top emerging categories are **Green Building / LEED Engineering**, **Smart Infrastructure**, and **Sustainability/Environmental Engineering**. Ground these categories in BLS OOH: Environmental Engineers ([bls.gov/ooh/architecture-and-engineering/environmental-engineers.htm](https://www.bls.gov/ooh/architecture-and-engineering/environmental-engineers.htm)) lists sustainability, green building, and environmental compliance as growth areas through 2032.
 
 Students pick one emerging engineering career and complete the Emerging Engineering Careers research template:
 
