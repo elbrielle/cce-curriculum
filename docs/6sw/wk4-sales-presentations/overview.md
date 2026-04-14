@@ -31,7 +31,7 @@ Students explore Sales careers through Hats & Ladders, work in teams on the H&L 
 
 ## Career Connection
 
-Sales professionals are the revenue engine of every business. This is also PRESENTATION WEEK — students deliver oral presentations on a career they have explored this year (d(4)(C) is the major TEKS standard). The H&L "Pitching Investors" team project teaches them how real entrepreneurs persuade investors, and the Powerskills Giving and Receiving Feedback module prepares them to handle peer feedback like professionals.
+Students deliver oral presentations on a career they have explored this year (d(4)(C) is the major TEKS standard for the week). The H&L "Pitching Investors" team project (Ch 5, pp. 81-86) teaches business-pitch structure through a team workbook activity, and the Powerskills Giving and Receiving Feedback module prepares students for the peer feedback protocol used on Days 3, 4, and 5.
 
 **Irving ISD Pathway:** Sales Management at Singley Academy and Nimitz leads to Entrepreneurship & Small Business certification. Business Management is offered across multiple Irving ISD high schools.
 

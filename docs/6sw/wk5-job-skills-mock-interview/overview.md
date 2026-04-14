@@ -19,8 +19,6 @@ Students complete the full job-seeking skill set: identify job search steps, wri
 - **d(7)(C):** Complete sample job applications.
 - **d(7)(D):** Describe the protocol for selecting and using references.
 
-**This is the heaviest TEKS week of the year — six standards in five days.**
-
 ## Materials Needed
 
 - Chromebooks with internet access (1 per student)
@@ -37,9 +35,9 @@ Students complete the full job-seeking skill set: identify job search steps, wri
 
 ## Career Connection
 
-This is the heaviest TEKS week of the entire course. Six standards. Students do the FULL professional-document set — cover letter, application, references, thank-you letter — plus a real mock interview with peer feedback. These are universal life skills. The same documents and the same interview format apply when adults apply for any job throughout their careers. By practicing now in middle school, students build confidence and skills that will pay off for decades.
+Students assemble the full professional-document set (cover letter, application, references, thank-you letter) and practice a mock interview with peer feedback. These are the documents and the interview format used in any job application across every Irving ISD pathway.
 
-**Irving ISD Pathway:** This week's content is universal — all Irving ISD CTE pathways require students to interview, apply, and provide references when they enter the workforce.
+**Irving ISD Pathway:** This week's content is universal across all Irving ISD CTE pathways — every pathway eventually requires students to interview, apply, and provide references when they enter the workforce.
 
 ## Vocabulary
 
@@ -87,7 +85,7 @@ The H&L Ch 12 workbook (p. 196) has the **Job Applications** activity — studen
 
 ## Summative Assessment
 
-**Mock Interview + Professional Documents Portfolio (Day 5):** This is the heaviest assessment week. Each student submits:
+**Mock Interview + Professional Documents Portfolio (Day 5):** Each student submits:
 
 1. **Cover letter** (d(7)(B))
 2. **Completed sample job application** (d(7)(C))

@@ -64,8 +64,6 @@ Three named workbook activities anchor this week:
 - **"Mission to Mars"** (Ch 8, pp. 126-128) — Career Climb. Students play an aerospace engineer at NASA designing a new Mars Rover that handles rocky terrain, dust storms, and -225°F temperatures. Used Day 4 as an extension activity for fast finishers.
 - **"Infrastructure Imagination"** (Ch 8, pp. 130-135) — Career Lab. Students play a civil engineer for the city of Los Lomas tackling traffic congestion and flooding. Used as a Wk2 5SW reference (already covered in 5SW); referenced here for cross-cluster awareness.
 
-The H&L workbook clearly includes Drone Engineer as a pathway in Ch 8 — this is the official source grounding for the week.
-
 ## IISD Instructional Strategies
 
 - **Jigsaw:** Day 2 assigns each team a different drone industry (agriculture, construction, film, delivery, emergency services). Teams research independently, then teach the rest of the class on Day 5.

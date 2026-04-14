@@ -35,7 +35,7 @@ Students complete a problem-solving revisit using the H&L Powerskills "Work Ethi
 
 ## Career Connection
 
-This is the capstone week of the entire first half of the year. Over 18 weeks students have explored 8 career clusters, designed safety plans and apps and surveys and robots, and built a written Career Plan. This week shifts the focus from "what career do I want?" to "what skills do I bring to ANY career?" The transferable skills students have practiced — communication, problem solving, teamwork, attention to detail, work ethic — are the things every employer actually values. Professional associations (SkillsUSA, ASE, FAA, TSA, NSPE, HOSA, FBLA) provide networking, competitions, scholarships, and credentialing that support every pathway.
+Over 18 weeks students have explored 8 career clusters, designed safety plans and apps and surveys and robots, and built a written Career Plan. This week shifts the focus from "what career do I want?" to "what skills do I bring to ANY career?" The transferable skills students have practiced (communication, problem solving, teamwork, attention to detail, work ethic) connect to every pathway. Professional associations (SkillsUSA, ASE, FAA, TSA, NSPE, HOSA, FBLA) provide networking, competitions, scholarships, and credentialing.
 
 **Irving ISD Pathway:** This week connects to all pathways. Professional associations referenced: SkillsUSA (trades), ASE (automotive), FAA (aviation), TSA (technology — students are already members), NSPE (engineering).
 
