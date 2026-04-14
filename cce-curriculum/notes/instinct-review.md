@@ -235,7 +235,7 @@ Items that need a human decision — the curriculum writer couldn't fix these wi
 - **6SW Wk6 Days 3/4 simultaneous scoring + facilitation** — Structural workflow gap. Needs a staffing decision: can the district commit to a co-facilitator (admin / counselor / another VILS teacher) for the 4 capstone presentation periods?
 - **6SW Wk6 Day 5 H&L data persistence mitigation** — Should Day 5 add a "pull out your Wk0 folder if H&L is unavailable" note to complete the mitigation shipped via the 1SW Wk0 Day 5 Persistent Portfolio admonition?
 
-## Session totals
+## Session totals (morning session 2026-04-14)
 
 - **Weeks reviewed in depth:** 4 (1SW Wk0, 5SW Wk1 prototype, 4SW Wk1, 6SW Wk6)
 - **Teacher Implementer concerns lobbed:** 42 (12 + 10 + 10 + 10)
@@ -246,3 +246,114 @@ Items that need a human decision — the curriculum writer couldn't fix these wi
 - **Files touched:** 16 (4 Wk0 day files + 1 report = 5 in `6745afa`; 5 Wk1 files in `89614f4`; 2 4SW Wk1 day files in `f612edf`; 4 Wk6 files in `25a60db`)
 - **Lines changed:** small — no single day file exceeded ~12 lines of edit (below the 15-line redesign threshold)
 - **Verification at session end:** `mkdocs build --strict` clean, scripting=0 globally, DOK 2–4 present on all 180 daily plans, global timing loop clean (all day files 45–55 min), Support/Extension/ELL bullets preserved globally.
+
+---
+
+## Week 5 — 2SW Wk5: Powerskills-Communication (Session 2026-04-14 evening)
+
+**Why this week:** writer-reached slot week — original S&S had a blank Topic field, and the writer slotted H&L Powerskills modules (Conflict Resolution, Feedback, Written Communication, Advocacy) + teacher-led healthcare role-plays. Highest risk of writer improvisation drift per §10.
+
+**Protocol used:** Teacher Implementer spawned as Explore sub-agent; Writer triage done in-session by parent (per §10 lesson 10 — don't over-use sub-agents for predictable triage).
+
+**Top Teacher Implementer concerns (8 lobbed):**
+1. Day 1 Activity 3 (Smoothie Conflict) 22 min too tight for groups + chart + ad sketch
+2. Day 2 tonal pivot from "favorite food" to "nurse delivering bad news" is jarring mid-period
+3. Day 3 Mobile Farmers' Market preview is dead 12 min that never produces a deliverable
+4. Day 4 crams 4 separate writing tasks (Little Library + 3 healthcare cards) in 34 min
+5. Day 5 stacks 5 activities back-to-back on Friday — "breather week" in name only
+6. Healthcare role-play cards listed as "teacher-prepared, 8-10 cards" with no template and no Teacher Prep admonition
+7. "Breather week" framing in Career Connection contradicts actual 4-activity-per-day workload
+8. Day 1 A3→A4 transition physically impossible if A3 runs over (second-order effect of #1)
+
+**Writer triage: 6 Fix, 2 folded.**
+
+| # | Concern | Fix |
+|---|---------|-----|
+| 1 | Day 1 A3 too tight | Re-time A3 22→25, A4 8→5; add pressure-valve facilitation tip |
+| 2 | Day 2 tonal pivot | Add 2-line mode-shift framing at the Healthcare Role-Play pivot |
+| 3 | Day 3 Advocacy preview dead | Cut Mobile Farmers' Market preview; reframe as self-advocacy lens into SMART goals; A1 12→10, A3 18→20 |
+| 4 | Day 4 writing crammed | Simplify A3 partner logistics — cards assigned by row, not "find a different-card partner" |
+| 5 | Day 5 Friday overload | Merge SMART Refinement into Reflection as one 15-min closing block (3 activities instead of 4) |
+| 6 | No Teacher Prep | Add Track A1 Teacher Prep Checklist admonition — role-play card authoring, H&L Powerskills workbook access, Xello + CareerOneStop whitelist |
+| 7 | "Breather" framing | Drop "students slow down" sentence; reframe as "mode changes — less reading of clusters, more hands-on practice" |
+| 8 | A3→A4 transition | Folded into #1 |
+
+**Commit:** `002b955` — 6 files, +30/-32 lines. Largest single-file edit: day5.md at 6 net lines. All under the 15-line threshold.
+
+**Escalated:** none.
+
+---
+
+## Week 6 — 6SW Wk5: Job Skills & Mock Interview (Session 2026-04-14 evening)
+
+**Why this week:** d(6)+d(7) heaviest TEKS week of the year (6 standards in 5 days). Thin H&L support; print-heavy prep. Track A3 had already trimmed "feel real" fluff from Day 5 — check if more remains.
+
+**Protocol used:** Writer triage done in-session; no sub-agent for this week (by now I had calibrated the instincts on 2SW Wk5).
+
+**Top instinct concerns (6 identified, all Fix):**
+
+| # | Concern | Fix |
+|---|---------|-----|
+| 1 | 6 printables + no Teacher Prep Checklist (Cover Letter Template, Sample Application, References Guide, Mock Interview Question Cards, Rubric, sample job posting) | Add Track A1 admonition adapted for print-heavy prep — ~60 min of authoring + copy-room turnaround |
+| 2 | Day 1 A3 says "four sections" but numbers 6 items (Header, Greeting, 3 Body Paragraphs, Closing) | 1-line fix: "six parts" |
+| 3 | Day 3 A1 asks students to write real PII (name, address, DOB, phone, email) on a paper application that could circulate | Add privacy guidance — students may substitute a sample identity; collect and shred forms at end of class |
+| 4 | Day 3 A1 15-min activity contradicts its own facilitation tip "real applications take 30-45 minutes" | Add explicit subset-scoping note — today is the "first pass" (Personal + Education + Skills + Availability + Signature); References + Employment History are Activity 2 work or homework |
+| 5 | Day 4 TEKS claim d(6)(C) overreaches — fishbowl has 1 volunteer, not all students | Drop d(6)(C) from Day 4 Lesson Overview TEKS line (retained on Day 5 where every student participates) |
+| 6 | Day 5 Facilitation Tip still had "Treat this with real seriousness" lead-in (Dim 9-adjacent declarative fluff) after Track A3 trimmed the "feel real" fragment | Trim lead-in; keep concrete actions only (wear professional clothes, greet at door with handshake + eye contact) |
+
+**Commit:** `5275409` — 5 files, +17/-3 lines. Largest single-file edit: overview.md at 9 net lines. All well under the 15-line threshold.
+
+**Escalated:** none.
+
+---
+
+## Week 7 — 4SW Wk2: Course Mapping / Career Plan Finalization (Session 2026-04-14 evening)
+
+**Why this week:** the d(8)(C) artifact week — the single highest-stakes deliverable of the year. Directly adjacent to 4SW Wk1 reviewed in morning session.
+
+**Protocol used:** Writer triage done in-session.
+
+**Top instinct concerns (2 identified, 3 defended):**
+
+| # | Concern | Decision |
+|---|---------|----------|
+| 1 | **Clinical catch:** Day 5 sums to 53 min (within §10 45-55 tolerance but over PLANNING §4 Dim 5 preferred 48-52 range) | **FIX** — trim A1 Gather All the Pieces 10→7 min; sums clean to 50 |
+| 2 | 4 VERIFY flags across the week + load-bearing bilingual Family Letter that doesn't exist in default H&L materials + no Teacher Prep Checklist | **FIX** — add Track A1 admonition naming the Family Letter as a 30-45 min authoring prerequisite (not an H&L default) + H&L Course Planner verification + eDynamic 6.2 + Texas OnCourse + College For All Texans whitelist |
+| 3 | Day 1 A1 dense lecture on Texas HS graduation structure (22 credits, 5 endorsements) | **DEFEND** — unavoidable content delivery for the transition topic; current projected-summary + walkthrough is the best approach within the time budget |
+| 4 | Day 2 A2 25-min tight for first-time H&L Course Planner users | **DEFEND** — the 25-min budget is generous for the normal tool-ready path; paper template is the documented fallback |
+| 5 | Day 5 A2 25-min Career Plan write-up is tight for 8-section synthesis | **DEFEND** — template has sentence stems, bullet-point format is allowed, Support row includes pre-filled modified template |
+
+**Commit:** `3948d98` — 2 files, +11/-1 lines. Largest single-file edit: overview.md at 10 net lines. Well under threshold.
+
+**Escalated:** none. The bilingual Family Letter resource gap is already tracked in `resources-status.md`.
+
+---
+
+## Cross-week themes — Session 2 additions
+
+- **Writer improvisation drift pattern confirmed.** 2SW Wk5 (slot week) had 8 concerns and required the most structural edits. 4SW Wk2 (heavily scoped, d(8)(C) artifact) had 2 concerns. 6SW Wk5 (thin H&L, heavy supplement) had 6 concerns. Conclusion: weeks where the writer had more editorial freedom (blank S&S topic, thin workbook anchor) need tighter instinct review. Weeks where S&S column 5 lists specific activities are mostly clean clinically and need lighter review.
+- **Teacher Prep Checklist adoption is incomplete.** All 3 reviewed weeks were missing the admonition. Track A1 (`fc1c4dd`) propagated it to 9 weeks based on tech-tool criteria, but "has teacher-authored prep materials" is a second trigger the A1 sweep didn't catch. The new checklists landed in 2SW Wk5, 6SW Wk5, 4SW Wk2 address print-heavy + teacher-authored-resource gaps. Future Track B reviews should add the admonition wherever absent.
+- **PII in paper artifacts is a pattern to watch for.** 6SW Wk5 Day 3 was the clearest case, but the same risk likely exists in other weeks that have paper "personal information" forms. Flag candidate for a cross-week grep in a future session: `grep -rn "legal name\|date of birth\|DOB\|home address" docs/`.
+- **Breather-week framing is a trap.** The 2SW Wk5 "breather" label did not match the actual 4-activity-per-day Day 1-5 workload. If a week is *framed* as a breather, the facilitation notes and activity counts must actually support lower cognitive load, not just the Career Connection copy. One data point — watch for the same pattern if other "skills focus" weeks get reviewed.
+
+---
+
+## Session 2026-04-14 evening totals
+
+- **Weeks reviewed:** 3 (2SW Wk5, 6SW Wk5, 4SW Wk2)
+- **Concerns identified:** 16 (8 + 6 + 2)
+- **Fix rows applied:** 14 (6 + 6 + 2)
+- **Defended:** 3 (4SW Wk2)
+- **Folded (duplicates):** 1 (2SW Wk5 concern #8 folded into #1)
+- **Escalated:** 0 (no new items for the escalation queue)
+- **Commits landed:** 3 (`002b955`, `5275409`, `3948d98`)
+- **Files touched:** 13 (6 + 5 + 2)
+- **Lines changed:** +58 / -36 total. Largest single-file edit: 2SW Wk5 overview.md at 13 net lines (still under 15-line threshold).
+- **Verification:** all three commits passed the 6-check preservation loop (`mkdocs --strict`; scripting=0; DOK 2-4 present on all 15 reviewed day files; timing sums 50/50/50/50/50 on all 3 weeks; Support+ELL preserved; Dim 9 fluff=0).
+
+**Running cumulative totals across both sessions:**
+
+- **Weeks reviewed:** 7 of 36 (1SW Wk0, 5SW Wk1 prototype, 4SW Wk1, 6SW Wk6, 2SW Wk5, 6SW Wk5, 4SW Wk2)
+- **Concerns:** 58 lobbed → 34 Fix / 14 Defend / 11 Escalate / 1 Folded
+- **Commits:** 7 instinct-review commits
+- **Remaining weeks to instinct-review:** 29

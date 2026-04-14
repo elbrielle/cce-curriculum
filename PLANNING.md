@@ -634,7 +634,25 @@ This ordering is a working assumption. Teacher feedback tomorrow will change it.
 
 ### Current state (updated 2026-04-14)
 
-`main` HEAD: `fb08bde`. Live site: https://elbrielle.github.io/cce-curriculum/. Four weeks instinct-reviewed (**1SW Wk0**, **4SW Wk1**, **5SW Wk1**, **6SW Wk6**) + Dimension 9 added + six prose/sweep passes shipped (Track A1 Teacher Prep Checklist + Track A3 declarative fluff landed this late afternoon; Track A2 Directive → Suggestion verified as no-op and skipped). 32 of 36 weeks still awaiting instinct review. Clinical `vetting-report.md` remains frozen.
+`main` HEAD: `3948d98`. Live site: https://elbrielle.github.io/cce-curriculum/. **Seven** weeks instinct-reviewed (**1SW Wk0**, **4SW Wk1**, **5SW Wk1**, **6SW Wk6**, **2SW Wk5**, **6SW Wk5**, **4SW Wk2**) + Dimension 9 added + six prose/sweep passes shipped. 29 of 36 weeks still awaiting instinct review. Clinical `vetting-report.md` remains frozen. Evening Track B session added 3 weeks + caught 1 clinical timing drift that the original vetting pass missed (4SW Wk2 day5 was 53 min, now 50).
+
+### Session 2026-04-14 (evening — Track B instinct review, 3 weeks)
+
+Commits `002b955` → `3948d98` on `main`. Executed Track B per the §10 priority list: one writer-reached slot week (highest drift risk), one thin-H&L heavy-TEKS week, one d(8)(C) artifact week. Three commits landed, 14 Fix rows applied across 13 files, 3 defended, 0 escalated (escalation queue unchanged). Full per-week detail appended to `cce-curriculum/notes/instinct-review.md`.
+
+| Commit | Week | Concerns | Fixes |
+|---|---|---|---|
+| `002b955` | **2SW Wk5 Powerskills-Communication** (slot week, highest writer-drift risk) | 8 lobbed, 6 Fix, 2 folded | Day 1 A3 re-time (22→25) + A4 trim (8→5) + pressure-valve tip; Day 2 mode-shift framing at healthcare role-play pivot; Day 3 cut Mobile Farmers' Market dead-preview + reframe as self-advocacy bridge into SMART goals; Day 4 simplify A3 partner logistics; Day 5 merge SMART Refinement + Reflection into single 15-min closing block; Overview: add Teacher Prep Checklist + drop "breather week" performative framing |
+| `5275409` | **6SW Wk5 Job Skills/Mock Interview** (heaviest TEKS week — 6 standards) | 6 identified, 6 Fix | Overview: Teacher Prep Checklist adapted for print-heavy prep (6 printables, ~60 min authoring); Day 1 A3 "four sections"→"six parts" typo; Day 3 A1 privacy guidance (sample identity option + form shredding) + subset-scoping note resolving the 15-min-vs-30-45-min contradiction; Day 4 TEKS line: drop d(6)(C) overreach (fishbowl ≠ every-student participation); Day 5 trim "Treat this with real seriousness" lead-in (Dim 9-adjacent fluff remnant) |
+| `3948d98` | **4SW Wk2 Course Mapping** (d(8)(C) artifact week) | 5 identified, 2 Fix, 3 Defend | **Clinical catch:** Day 5 was summing to 53 min — A1 Gather All the Pieces trimmed 10→7 to restore 50-min target; Overview: Teacher Prep Checklist naming the bilingual Family Career Plan Letter as a 30-45 min pre-week authoring prerequisite (not an H&L default), plus H&L Course Planner verification + eDynamic 6.2 + Texas OnCourse whitelist |
+
+**All three commits passed the full 6-check preservation loop:** `mkdocs --strict` clean; scripting=0; DOK 2-4 present on all 15 reviewed day files; timing sums 50/50/50/50/50 on all 3 weeks; Support+ELL bullets preserved; Dimension 9 fluff grep = 0.
+
+**Three cross-week patterns surfaced (detail in instinct-review.md):**
+
+1. **Writer-drift correlates with S&S column 5 emptiness.** 2SW Wk5 (blank Topic field) had 8 concerns; 4SW Wk2 (tightly scoped) had 2. Weeks where S&S col 5 lists specific H&L activities need lighter instinct review; weeks where the writer reached need tighter.
+2. **Teacher Prep Checklist propagation is incomplete.** Track A1 (`fc1c4dd`) used "has external tech tool" as the trigger. A second trigger is "has teacher-authored prep materials or load-bearing resources not in H&L defaults" — this session added the admonition to 3 more weeks. Future Track B reviews should keep adding it where absent.
+3. **PII in paper artifacts is a pattern to watch for.** 6SW Wk5 Day 3 was the clearest case; likely exists in other weeks. Candidate for a cross-week grep in a future session: `grep -rn "legal name\|date of birth\|DOB\|home address" docs/`.
 
 ### Session 2026-04-14 (late afternoon — Track A sweeps A1 + A3, A2 verified no-op)
 
@@ -695,32 +713,37 @@ Commits `6745afa` → `435f837`. The teacher/writer adversarial instinct review 
 
 **Morning session totals:** 42 Teacher Implementer concerns lobbed → 20 Fix applied, 11 Defended, 11 Escalated. No day file edit exceeded ~12 lines.
 
-### Weeks still to instinct-review (32 of 36 remaining)
+### Weeks still to instinct-review (29 of 36 remaining)
 
-Reviewed: **1SW Wk0**, **4SW Wk1**, **5SW Wk1**, **6SW Wk6**.
+Reviewed: **1SW Wk0**, **4SW Wk1**, **5SW Wk1**, **6SW Wk6**, **2SW Wk5**, **6SW Wk5**, **4SW Wk2**.
 
 Remaining by six-weeks block:
 
 - **1SW:** Wk1 Robotics/Manufacturing, Wk2 Programming/IT, Wk3 CS/IT, Wk4 Tech Support, Wk5 Cybersecurity
-- **2SW:** Wk1 Legal Studies, Wk2 Law Enforcement/EMT, Wk3 Nursing, Wk4 Dental/Medical Billing, Wk5 Powerskills-Communication, Wk6 Biomedical
+- **2SW:** Wk1 Legal Studies, Wk2 Law Enforcement/EMT, Wk3 Nursing, Wk4 Dental/Medical Billing, Wk6 Biomedical
 - **3SW:** Wk1 Vet Science, Wk2 Plant Science, Wk3 Sustainable Engineering, Wk4 Culinary, Wk5 Cosmetology, Wk6 Entrepreneurship
-- **4SW:** Wk2 Course Mapping, Wk3 Aviation, Wk4 Drone Engineering, Wk5 Automotive, Wk6 Trades Capstone
+- **4SW:** Wk3 Aviation, Wk4 Drone Engineering, Wk5 Automotive, Wk6 Trades Capstone
 - **5SW:** Wk2 Civil Engineering, Wk3 Construction, Wk4 HVAC/Electrical/Plumbing, Wk5 Personal Budget, Wk6 Real Estate
-- **6SW:** Wk1 Education, Wk2 Resume, Wk3 Business/Marketing, Wk4 Sales/Presentations, Wk5 Mock Interview
+- **6SW:** Wk1 Education, Wk2 Resume, Wk3 Business/Marketing, Wk4 Sales/Presentations
 
 **Priority order for the next session:**
 
-**Track A is DONE.** All three sub-sweeps are closed: Teacher Prep Checklist propagation (9 weeks, `fc1c4dd`), Directive → Suggestion (verified no-op), Declarative fluff (3 edits, `fb08bde`). No cheap pattern-propagation sweep currently on the queue. If the next agent finds a new pattern during instinct review of a specific week (e.g. an unchecked shape repeating across weeks), open a fresh Track A sub-sweep — but do not re-run the three sweeps above without a new signal.
+**Track A is DONE.** All three sub-sweeps are closed. No cheap pattern-propagation sweep currently on the queue. However, the evening Track B session surfaced **two Track A candidates** that could be profitably run as bulk sweeps:
+
+- **A4 — PII paper-artifact sweep** (new, surfaced from 6SW Wk5 review). Run `grep -rn "legal name\|date of birth\|DOB\|home address" docs/` to find other weeks where students are asked to write real PII on paper forms. Apply the 6SW Wk5 Day 3 pattern: sample-identity option + collect-and-shred guidance. Est. 3-6 weeks affected.
+- **A5 — Teacher Prep Checklist second-pass propagation** (remaining gap after `fc1c4dd`). Track A1 used "has external tech tool" as the trigger; a second trigger is "has load-bearing teacher-authored resources not in H&L defaults" (e.g., printable templates, rubrics, bilingual letters, role-play cards). Evening session added the admonition to 2SW Wk5, 6SW Wk5, 4SW Wk2. Candidate weeks to check: any week with 3+ printed handouts listed in Materials but no `!!! tip "Teacher Prep Checklist"` admonition. Run `grep -rL "Teacher Prep Checklist" docs/*/*/overview.md` to find unchecked overviews, then cross-reference Materials sections.
 
 **Track B — instinct review (default for the next session; 3-5 weeks max):**
 
-1. **2SW Wk5 Powerskills-Communication** — writer-reached "slot week" from a blank Topic field in the original spreadsheet. Highest chance of writer improvisation. Cross-check: A1 sweep confirmed no external tech tool in this week's Materials, which matches the "slot week" premise (skills focus, workbook + role-plays only).
-2. **6SW Wk5 Mock Interview** — d(6)+d(7) heavy, thin H&L support (Powerskills supplement only), feeds directly into Wk6 Capstone. Cross-week dependency: does Wk5 assume the Career Plan from Wk6 Day 1 is done? **Note:** A3 already trimmed the "feel real" fluff from Day 5 Facilitation Tip — instinct review may still find more.
-3. **4SW Wk2 Career Plan Finalization** — the d(8)(C) official artifact week, directly adjacent to 4SW Wk1 already reviewed.
-4. **5SW Wk5 Personal Budget** — highest-stakes standalone summative in 5SW. Budget template + DFW cost reference sheet both listed as "not yet built" in `resources-status.md`.
-5. **3SW Wk3 Sustainable Engineering** — cross-cluster bridge week. Verify exact topic in scope-and-sequence.md first.
+1. **5SW Wk5 Personal Budget** — highest-stakes standalone summative in 5SW. Budget template + DFW cost reference sheet both listed as "not yet built" in `resources-status.md`. Likely needs a Teacher Prep Checklist.
+2. **3SW Wk3 Sustainable Engineering** — cross-cluster bridge week. Verify exact topic in scope-and-sequence.md first.
+3. **2SW Wk4 Dental/Medical Billing** — candidate "slot week" (verify whether the S&S Topic field was populated or writer-reached). If writer-reached, high drift risk.
+4. **6SW Wk4 Sales/Presentations** — Dimension 9 "skill week" where hard presentation enforcement is earned pedagogically; verify Track A3 left this intact but check warm-up/transitions.
+5. **5SW Wk2 Civil Engineering** — large physical-demo potential, tight feasibility risk for classrooms without equipment.
 
-**Track B is the default now.** If a week in the queue above turns out to already be clean under instinct review, rotate in the next week on the remaining list in §10 and keep going until budget runs out.
+**Cumulative Track B progress:** 7 of 36 weeks reviewed, 29 remaining. Average edit size per week: ~4.3 files touched, ~8-10 lines changed. At this pace, full Track B completion is ~10 more sessions of 3 weeks each.
+
+**Track B is the default now.** If a week in the queue above turns out to already be clean under instinct review, rotate in the next week on the remaining list and keep going until budget runs out.
 
 ### Escalation queue — items needing a human decision
 
