@@ -266,6 +266,8 @@ grep -rn "youtube\|vimeo\|video\|[Vv]ideo" docs/ | head -50
 
 ## 5. Token-Efficient Editing Heuristics
 
+**Authoritative editing protocol:** see `cce-curriculum/notes/editing-heuristics.md`. That doc contains the full decision table for "before editing X, read Y," paste-ready grep recipes, "never edit without reading more" rules, and escalation criteria. CLAUDE.md links to it from the "How to Edit the Curriculum" section. Load it before a substantive editing session.
+
 **Do not re-read every document for every change.** The curriculum is ~216 files × 80-150 lines = ~25,000 lines. Reading everything eats context and slows work. Use these patterns instead:
 
 ### Search, don't scan
@@ -463,8 +465,10 @@ Their job is to triage each concern: **fix**, **defend**, or **escalate**.
 The parent agent (you, reading this handoff) is the orchestrator.
 
 **Step 1 — Pick a week to review.** Do NOT review all 36 weeks in one pass. Pick 3-5 weeks, chosen for maximum signal:
+
+- **FIRST PRIORITY: 1SW Wk0 Classroom Routines & Career Self-Discovery.** This is the single highest-priority week for instinct review. The original scope-and-sequence intentionally kept Wk0 light because *campus routines, lab expectations, and classroom culture are teacher- and campus-specific* — every VILS lab is different, and teachers need room to set up their own routines. The current Wk0 daily plans have a documented concern from the project owner: **some of the content does not give enough breathing time for a teacher to establish routines, and the expectations/routines are written as dictates ("do X on Day 2") rather than as suggestions teachers can adapt to their own lab culture.** When the Teacher Implementer agent reviews Wk0, pass it this specific lens in addition to the general instincts: *"Where does this week tell me HOW to run my lab instead of WHAT my students need to learn? Where does it over-fill a day that should leave room for campus-specific routine-setting?"* When the Curriculum Writer agent triages, it should prefer Fix responses that convert directives into optional suggestions (`!!! tip "Suggested Routine"` framing), compress dense content to free breathing room, and preserve the RIASEC / Work Values / Building Blocks data-seeding activities since those are the Climber Profile artifacts consumed by 4SW Wk1 and 6SW Wk6 downstream.
 - **5SW Wk1 Architecture** — the prototype. If the prototype has instinct issues, so does every week built from it.
-- **One week from each of the 6 six-weeks blocks** that has the most complex day-by-day activity variety. High-bar examples: 1SW Wk0 (5-day Climber Profile onboarding), 4SW Wk1 (mid-year RIASEC reconciliation), 6SW Wk6 (capstone presentations).
+- **One week from each of the 6 six-weeks blocks** that has the most complex day-by-day activity variety. High-bar examples: 4SW Wk1 (mid-year RIASEC reconciliation — the consumer of Wk0's data), 6SW Wk6 (capstone presentations).
 - **One week where the writer was most likely to reach** — e.g., 2SW Wk5 Powerskills-Communication (slot week that the writer created from a blank Topic field), 3SW Wk3 Sustainable Engineering (cross-cluster week), 6SW Wk5 Mock Interview (d(6)+d(7) heavy, thin H&L support).
 
 **Step 2 — For each picked week, run one teacher-writer cycle:**

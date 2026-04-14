@@ -79,9 +79,20 @@ Do not invent H&L activities, Xello features, or platform capabilities. If unsur
 
 ## How to Edit the Curriculum
 
-The **markdown files in `cce-curriculum/`** are the source of truth. Edit those directly. The original `.docx` and `.xlsx` files in the root and `SW1-SW6/` are reference copies from the initial conversion and should not be edited.
+The **markdown files in `docs/`** are the live source of truth for the MkDocs website (the actual teacher-facing curriculum). The `cce-curriculum/guides/` folder is legacy reference from the initial conversion and should not be edited. The original `.docx` and `.xlsx` files in the root and `SW1-SW6/` are reference copies from the initial conversion and should not be edited.
 
 Each facilitator guide follows a strict markdown template documented in `GUIDE-FORMAT.md`. Read that file before editing or creating guides.
+
+### Editing heuristics (MUST READ before substantive edits)
+
+Before making any substantive edit — and especially before reading multiple files to "get context" — consult **`cce-curriculum/notes/editing-heuristics.md`**. It contains:
+
+- A **decision table** for "before editing X, read Y" (dependency-scope principle)
+- **Paste-ready grep recipes** for S&S lookups, TEKS auditing, timing sums, DOK checks, differentiation checks, and H&L workbook lookups
+- **Seven "never edit X without reading more"** rules for the edit types that most often break curriculum soundness
+- **Escalation criteria** for when an edit is actually a redesign and should be bumped to the user
+
+The goal is to strike the balance between reading too little (breaking logical flow or source grounding) and reading too much (wasting tokens). When in doubt, read more; when certain, grep.
 
 ## How to Build
 
