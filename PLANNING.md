@@ -632,9 +632,68 @@ This ordering is a working assumption. Teacher feedback tomorrow will change it.
 
 ## 10. Session Log & Next-Agent Handoff
 
-### Current state (updated 2026-04-14 night, end of extended session)
+### Current state (updated 2026-04-15 morning, pre-teacher-meeting)
 
-`main` HEAD: `17f8758`. Live site: https://elbrielle.github.io/cce-curriculum/. **Fourteen** weeks instinct-reviewed (1SW Wk0, 4SW Wk1, 5SW Wk1, 6SW Wk6, 2SW Wk5, 6SW Wk5, 4SW Wk2, 5SW Wk5, 3SW Wk3, 2SW Wk4, 6SW Wk4, 5SW Wk2, 2SW Wk1, **5SW Wk6 added tonight**). **22 of 36 weeks remaining.** Clinical `vetting-report.md` frozen. **PATHWAYS.md rewritten from canonical Irving ISD website** + Program Certifications poster (18 week files re-audited for pathway drift). Four new lessons (14 fully-optional reframe, 15 prose discipline, 16 dead intro paragraphs, 17 operational-vs-self-referential) + memory Rules 1-6 codified. **Teacher Prep Checklist admonition pattern retired across 16 weeks** as net-negative clutter. Escalation queue updated with 2 new structural items + 2 pathway-specific [VERIFY] items for the teacher meeting.
+`main` HEAD: pending 1SW Wk0 compression commit on top of `257808a`. Live site: https://elbrielle.github.io/cce-curriculum/. **Fourteen** weeks instinct-reviewed; Track B paused this session for a user-mandated structural compression of **1SW Wk0** ahead of the 2026-04-15 teacher meeting.
+
+### Session 2026-04-15 morning (1SW Wk0 structural compression — teacher mandate)
+
+**User mandate** (verbatim): "I am mandating that we make the proper cuts so the core CONTENT in week 0 (CCE stuff) takes only three days that allows at least two days of Establishing Routines and procedures. Week 0 needs to be super light and allow that to happen rather than just be an off-the-shelf suggestion that is going to make teachers sweat and feel behind because they are adapting on 'week 1'. It is better to make teachers adapt in that they need to pad and elongate rather than feel rushed and shortened."
+
+**Context:** The morning-session Flexibility Framework admonition (commit `435f837`) gave teachers *permission* to adapt Wk0 but left the 5-day content intact. User feedback: permission-only is insufficient because the 5-day density still forces teachers to cut under time pressure on the first week of school, which is exactly when new-teacher bandwidth is lowest. Structural compression needed: compress the core CCE content to three days, make the other two days explicitly flex so teachers can pad and elongate rather than cut.
+
+**Compression executed:**
+
+- **Day 1 (Flex):** Lab Routines + Safety + Your Choice (default = Monday routines day). Menu of options: full-period Lab Safety Contract + routines walkthrough (default), Exploring the World of Work scavenger hunt (H&L Ch 1 p. 2), campus event buffer, tech access resolution. No minute-tagged H2 activity headers (flex day convention established this session).
+- **Day 2 (Core A):** H&L Setup + Discover My Core. Warm-up 5 + H&L Account Setup 15 + Intro to 6 Core Types + Discover My Core assessment 25 + Exit 5 = 50 min. RIASEC type lands in Climber Profile + workbook p. 13. Compressed from the original Day 2 by dropping the 8-min TPS discussion and collapsing the 10-min type intro into the 25-min assessment block.
+- **Day 3 (Core B):** Work Values + Building Blocks. Surgically edited (not rewritten) — timing stays at 50 min. Added "Core day. Protect this period." admonition, updated "Day 4" references to "Core Day C (Day 4)", fixed em dash on Checkpoint Guidance, updated "By Friday" cluster-recommendation reference to "Tomorrow on Core Day C."
+- **Day 4 (Core C):** My Career Journey Reflection. Warm-up 5 + Review Cluster Recommendations 10 + Reflection Handout 30 + Exit 5 = 50 min. Summative moves from old Day 5 to new Day 4. Reflection handout rewritten: **item 2 now "My Warm-Up Prediction vs. My Actual RIASEC Result"** (replacing the old Xello Personality Style item, which is no longer in core); items 3-5 shifted accordingly; 8 items compressed to 7.
+- **Day 5 (Flex):** Catch-Up + Your Choice (default = Friday catch-up for any core work that slipped). Menu of options: catch-up on missed core work (priority), Meet the 14 Career Clusters rating (Ch 1 pp. 4-6), Design Thinking Powerskill (Ch 1 pp. 9-10), Career Cluster Curiosity Gallery Walk, Xello Onboarding Quizzes (with `[VERIFY]` district-requirement flag), campus event buffer. No minute-tagged H2 activity headers.
+
+**Overview rewrite:**
+
+- Lesson Objective rewritten around "three core periods + two flex periods" structure.
+- Materials Needed split into "Core Days (2-4), required" + "Flex Days (1 and 5), as needed."
+- IISD Instructional Strategies — Chunking bullet rewritten to match 3-core + 2-flex structure.
+- **Week 0 Flexibility Framework rewritten.** New framing in `!!! abstract "3 core days + 2 flex days"` with three numbered load-bearing items (Core A/B/C) and a verb menu (keep, substitute, compress, skip entirely) for flex. Explicit "Zero minutes of the flex menu is fine."
+- Week at a Glance rebuilt as Flex/Core A/Core B/Core C/Flex with a Role column.
+- Formative Assessment rebuilt around Core Days 2-3-4; flex days marked as "not formally scored."
+- Summative Assessment reference updated from "end of Day 5" to "end of Core Day C / Day 4."
+- Career Connection fixed: removed stale "Day 5 Gallery Walk" reference.
+- Differentiation ELL fixed: removed stale "Day 2 Think-Pair-Share" reference, replaced with Core Day A Discover My Core partner support.
+
+**What moved OUT of core (preserved in flex menu, not deleted):**
+
+- Lab Safety Contract + Routines (now Day 1 default flex option)
+- Exploring the World of Work scavenger hunt (H&L Ch 1 p. 2) — Day 1 or Day 5 flex option
+- Meet the 14 Career Clusters emoji rating (H&L Ch 1 pp. 4-6) — Day 5 flex option
+- **Xello Onboarding Quizzes (all 5)** — Day 5 flex option with `[VERIFY]` escalation flag for district requirement
+- Design Thinking Powerskill (H&L Ch 1 pp. 9-10) — Day 5 flex option
+- Cluster Curiosity Gallery Walk — Day 5 flex option
+
+**Downstream audit (before executing the compression):** grepped `docs/4sw/wk1-career-planning/` and `docs/6sw/wk6-capstone/` for Wk0 data-dependency references. Confirmed the load-bearing outputs consumed downstream are: My Career Journey reflection (re-issued at 4SW Wk1 Day 1 + updated Day 5), RIASEC type (4SW Wk1 Day 1 warm-up + RIASEC vs. Favorites worksheet), and the Climber Profile (favorited Hats section). **The Wk0 Xello onboarding quizzes are NOT consumed downstream** — 4SW Wk1 Day 3 uses a separate Xello activity (Quick Sims: The Real Game), self-contained. Confirmed safe to move Xello out of core. All other Wk0 load-bearing items (RIASEC, Work Values, Building Blocks, Career Journey reflection) are preserved in Core Days A-B-C.
+
+**Flex day structural convention (new this session):** flex day files use H2 option headers WITHOUT `(N min)` parentheticals so the `^## .* \([0-9]+ min\)` timing-sum regex skips them entirely. Timing guidance lives in prose inside each option body ("This option fits in about 15 minutes" / "This option fills about 25 minutes if all 5 quizzes run"). Verified behavior: `grep -E "^## .* \([0-9]+ min\)" day1.md day5.md` returns zero, so the timing-outlier check on flex days evaluates an empty sum and is skipped by the `[ -n "$s" ]` guard in the preservation loop. Flex days still carry a DOK 2-4 marker (inside Option B on both flex days) so the DOK preservation grep passes. This convention is reusable for any future buffer-week flex treatment (e.g., 4SW Wk1 / 4SW Wk2 if the escalation queue d(8) structural-buffer resolution directs a similar compression).
+
+**6-check preservation loop:** all clean.
+
+- `python3 -m mkdocs build --strict`: clean
+- scripting grep (`> \*\*Teacher:`): 0 globally
+- DOK 2-4 on all 5 Wk0 day files: present (Day 1 Option B, Day 2 Activity 2, Day 3 Activity 2, Day 4 Activity 2, Day 5 Option B)
+- timing sums: Day 2 = 50, Day 3 = 50, Day 4 = 50, Day 1 and Day 5 empty (flex convention, correctly skipped)
+- Support/ELL bullets: present on all 5 day files
+- Dimension 9 fluff grep: 0 globally
+- em dash grep on diff (`git diff docs/1sw/wk0-classroom-routines/ | grep "^+" | grep -- "—"`): 0 after two fixes on overview Materials section headers
+
+**Commit:** single structural commit — 1SW Wk0 compress to 3-core + 2-flex per teacher mandate.
+
+**Escalation queue updates:**
+
+- **Xello Wk0 placement** (new, 2026-04-15 morning) — Wk0 Xello onboarding moved from core to the Day 5 flex menu with `[VERIFY]` flag. Teacher meeting question: does Irving ISD require Xello onboarding during Week 0 specifically, or can it land later (6SW Wk2 Resume Week is a natural second home, since Xello handles resume generation)? If Week 0 is required, teachers will have to spend a flex day on it. If not, the escalation resolves by updating `scope-and-sequence.md` col 8 to reflect the flexibility.
+- **Scope-and-sequence col 8 drift** — S&S row for Wk0 currently lists the 5 Xello onboarding quizzes. The compression treats them as optional flex content, which is a deviation from the spec. Teacher meeting should decide whether to update S&S col 8 or maintain the deviation as an approved exception.
+- **Flex day structural convention is reusable** — the same pattern (no minute-tagged H2 headers, option menu, `[VERIFY]` flags where district policy is unclear) can apply to 4SW Wk1 and 4SW Wk2 if the d(8) structural-buffer escalation directs it. Not applied without user sign-off.
+
+**Track B status:** 14 of 36 weeks instinct-reviewed, 22 remaining. Track B paused for this session. Next session resumes Track B per the Tier 1 queue from the 2026-04-14 night handoff (2SW Wk2 Law Enforcement/EMT, 3SW Wk5 Cosmetology, 5SW Wk4 HVAC/Electrical/Plumbing, 4SW Wk5 Automotive, 3SW Wk6 Entrepreneurship).
 
 ### Session 2026-04-14 night (extended session — pattern retirement + pathway audit + Track B #14)
 

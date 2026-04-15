@@ -1,4 +1,4 @@
-# Day 3: Work Values + Building Blocks
+# Day 3: Work Values and Building Blocks (Core Day B)
 
 ## Lesson Overview
 
@@ -7,8 +7,13 @@
 | **Time** | 50 minutes |
 | **Objectives** | Identify top 2 Work Values; brainstorm and enter at least 3 Building Blocks in the H&L app; explore initial cluster recommendations |
 | **TEKS** | d(1)(A), d(1)(B) |
-| **Deliverable** | Top 2 Work Values + 3+ Building Blocks recorded in the H&L Climber Profile and the workbook |
+| **Deliverable** | Top 2 Work Values + 3 or more Building Blocks recorded in the H&L Climber Profile and the workbook |
 | **Materials** | H&L Workbook Ch 1 (pp. 11, 14-15), Chromebooks, projector, printed Building Blocks brainstorm sheet |
+
+---
+
+!!! warning "Core day. Protect this period."
+    Today delivers the second and third load-bearing Week 0 outputs (Work Values and Building Blocks). Both feed the Core Day C reflection tomorrow and the 4SW Wk1 Career Plan at mid-year. If today is eaten by a campus event, push the Core Day C reflection to Day 5 flex or the first clean period of 1SW Wk1.
 
 ---
 
@@ -72,7 +77,7 @@ Then have students complete the workbook task:
 Walk the room. Check that every student has at least 3 Building Blocks visible on their Climber Profile. Building Blocks are foundational data for the rest of the year.
 
 !!! note "Checkpoint Guidance"
-    If 1-2 students are still typing, you may move to Activity 3 while they finish — have them submit Building Blocks by end of class. Do not hold the whole class waiting, but do follow up individually to ensure all students have at least 3 entries before Day 4.
+    If 1-2 students are still typing, you may move to Activity 3 while they finish. Have them submit Building Blocks by end of class. Do not hold the whole class waiting, but do follow up individually to ensure all students have at least 3 entries before Core Day C (Day 4) runs.
 
 **DOK 3:** What conclusions can you draw about how your RIASEC type, Work Values, AND Building Blocks all connect? Pick ONE Building Block and explain how it connects to a possible career cluster.
 
@@ -87,7 +92,7 @@ After completing all three inputs (RIASEC + Work Values + Building Blocks), the 
 3. Note which clusters appear and which surprise them.
 4. Write the top 3 recommended clusters in their workbook (margin or notes section).
 
-> [H&L PLATFORM] The H&L app uses RIASEC, Work Values, and Building Blocks to generate cluster recommendations. Students should now see a personalized list. These recommendations will refine over the year as students explore and favorite Hats. Tell students: "These are starting suggestions, not your final answer. By Friday, you will have even more data."
+> [H&L PLATFORM] The H&L app uses RIASEC, Work Values, and Building Blocks to generate cluster recommendations. Students should now see a personalized list. These recommendations will refine over the year as students explore and favorite Hats. Tell students: "These are starting suggestions, not your final answer. Tomorrow on Core Day C, you will use them in the My Career Journey reflection."
 
 ---
 
