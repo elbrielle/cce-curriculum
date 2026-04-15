@@ -16,7 +16,7 @@
 
 **WARM-UP: You are now halfway through this course. If you could go back to Week 0 and tell yourself one thing about career planning, what would it be?**
 
-Take 4-5 student responses. Listen for the recurring theme — most students wish they had taken something more seriously, or stopped worrying about something they thought was a big deal. Bridge: today is the day to write that advice down. Your reflection becomes a record of how you have actually grown.
+Take 4-5 student responses. Listen for the recurring theme, most students wish they had taken something more seriously, or stopped worrying about something they thought was a big deal. Bridge: today is the day to write that advice down. Your reflection becomes a record of how you have actually grown.
 
 ---
 
@@ -61,9 +61,9 @@ This is open-ended. Examples: "I never thought I would be interested in engineer
 **Section 4: Five Transferable Skills I Have Demonstrated (a list)**
 
 Pull directly from the Day 2 Transferable Skills Matrix. For each of 5 skills, give a SPECIFIC example from a class activity:
-- "Communication — I led the Day 4 ATC simulation as the controller and gave clear runway commands to my team"
-- "Problem solving — I redesigned my LEGO bridge after the first version collapsed"
-- "Work ethic — I finished the STEM Program flyer even though I was tired and wanted to quit"
+- "Communication. I led the Day 4 ATC simulation as the controller and gave clear runway commands to my team"
+- "Problem solving. I redesigned my LEGO bridge after the first version collapsed"
+- "Work ethic. I finished the STEM Program flyer even though I was tired and wanted to quit"
 
 **Section 5: One Professional Association I Plan to Join (1-2 sentences)**
 
@@ -107,5 +107,5 @@ Celebrate the growth honestly. This is the moment students realize how much thei
 ## Differentiation
 
 - **Support:** Pre-printed sentence stems for every section: "When the year started I thought _____. Now I know _____. The biggest growth I see in myself is _____. My top pathway is _____ because _____. Five skills I have shown are _____, _____, _____, _____, and _____. I will join _____ because _____. My three goals are _____, _____, and _____." Bullet points are acceptable instead of paragraphs.
-- **Extension:** Build a visual "Skills Resume" alongside the reflection — a one-page document listing every transferable skill the student demonstrated this year with evidence from specific class activities. Could be designed in Canva for a polished version.
+- **Extension:** Build a visual "Skills Resume" alongside the reflection, a one-page document listing every transferable skill the student demonstrated this year with evidence from specific class activities. Could be designed in Canva for a polished version.
 - **ELL:** Bilingual Mid-Year Reflection template with Spanish sentence stems. Allow students to write the entire reflection in Spanish if more comfortable. Pre-teach: Mid-year = Medio año, Growth = Crecimiento, Transferable skills = Habilidades transferibles, Goals = Metas. Pair ESL students with bilingual peers during the Sharing Circle so peers can translate share-outs.

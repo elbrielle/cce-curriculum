@@ -16,13 +16,13 @@
 
 **WARM-UP: Name your favorite video game. Now name FOUR different careers it took to make that game (think beyond "the programmer").**
 
-Take 3-4 student responses. Most students name only "designer" or "coder." Bridge to today's activity — game development takes a TEAM with very specific roles.
+Take 3-4 student responses. Most students name only "designer" or "coder." Bridge to today's activity, game development takes a TEAM with very specific roles.
 
 ---
 
 ## Activity 1: H&L "Game On!" Activity (25 min)
 
-**Source:** H&L Workbook Ch 4, pp. 60-62 — "Game On!" (Career Climb activity)
+**Source:** H&L Workbook Ch 4, pp. 60-62, "Game On!" (Career Climb activity)
 
 Introduce the activity using the workbook framing: *"What do you think it takes to create a video game? The video game industry includes some of the fastest-growing careers in the world! From game designers and programmers to artists, writers, and marketers, there are many different roles to choose from."*
 
@@ -32,11 +32,11 @@ Today students work in teams of 3-5 to create a Game Design Document (GDD). A GD
 
 Form groups of 3-5. Each student picks ONE role from the workbook list (Ch 4, p. 61). If the group has fewer than 5, some students take multiple roles:
 
-- **Game Designer** — Plans how the game works and creates the rules
-- **Programmer** — Writes the code that makes the game function
-- **Artist** — Designs the characters, environments, and objects
-- **Writer** — Creates the story, dialogue, and quests
-- **Sound Designer** — Develops the music and sound effects
+- **Game Designer:** Plans how the game works and creates the rules
+- **Programmer:** Writes the code that makes the game function
+- **Artist:** Designs the characters, environments, and objects
+- **Writer:** Creates the story, dialogue, and quests
+- **Sound Designer:** Develops the music and sound effects
 
 Each student writes their name next to their role.
 
@@ -45,14 +45,14 @@ Each student writes their name next to their role.
 Using a Google Doc (or the workbook space), the team fills out the complete GDD:
 
 - **Video Game Title**
-- **Intended Audience** — Who is the game for?
-- **Game Genre** — Action, adventure, puzzle, racing, sports, RPG, etc.
-- **Main Character(s)** — Who do players control? Describe them.
-- **Setting** — Where does the game take place? (city, planet, fantasy world, era)
-- **Player's Main Goal/Objective** — What is the player trying to do?
-- **What is the game ABOUT?** — One paragraph describing the game's story or premise
-- **Visual Design Elements** — What does the world look like? Color palette? Art style?
-- **Music & Audio** — Genre of music, sound effects style
+- **Intended Audience:** Who is the game for?
+- **Game Genre:** Action, adventure, puzzle, racing, sports, RPG, etc.
+- **Main Character(s):** Who do players control? Describe them.
+- **Setting:** Where does the game take place? (city, planet, fantasy world, era)
+- **Player's Main Goal/Objective:** What is the player trying to do?
+- **What is the game ABOUT?:** One paragraph describing the game's story or premise
+- **Visual Design Elements:** What does the world look like? Color palette? Art style?
+- **Music & Audio:** Genre of music, sound effects style
 
 Each role contributes to the section that fits their job. The Designer leads game mechanics, the Writer leads the story and characters, the Artist leads the visual section, the Sound Designer leads the music section, and the Programmer keeps everyone honest about what is actually buildable.
 
@@ -75,12 +75,12 @@ Groups that finish early design a video game cover (digital or paper) including 
 
 Briefly review the 4 job search steps students learned last week in the H&L Education chapter:
 
-1. **Know Yourself** — Use what you've learned about your interests, RIASEC, and Building Blocks
-2. **Get Your Materials Ready** — Resume (this week!), cover letter (next week), interview practice (Wk 5)
-3. **Search Smart & Connect** — Use specific keywords on job boards, network, attend job fairs
-4. **Ask for Help** — School counselors, career coaches, family in the field
+1. **Know Yourself:** Use what you've learned about your interests, RIASEC, and Building Blocks
+2. **Get Your Materials Ready:** Resume (this week!), cover letter (next week), interview practice (Wk 5)
+3. **Search Smart & Connect:** Use specific keywords on job boards, network, attend job fairs
+4. **Ask for Help:** School counselors, career coaches, family in the field
 
-Then direct students to log into eDynamic Learning and open Unit 8.2 (Job Search). Students work through the eDynamic content for the rest of the period. They will not finish today — that is fine.
+Then direct students to log into eDynamic Learning and open Unit 8.2 (Job Search). Students work through the eDynamic content for the rest of the period. They will not finish today, that is fine.
 
 > [VERIFY IN eDynamic] Confirm which sections of eDynamic Unit 8.2 specifically address job search steps. Students should focus on job search content this week, not personality assessment content.
 

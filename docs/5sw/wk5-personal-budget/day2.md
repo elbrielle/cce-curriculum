@@ -14,7 +14,7 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: What is the most expensive thing your family pays for every month? Make a guess — no need to ask a parent.**
+**WARM-UP: What is the most expensive thing your family pays for every month? Make a guess, no need to ask a parent.**
 
 Collect 3-4 guesses. The honest answer is usually rent/mortgage (30%+ of income) or sometimes child care. Bridge: housing is almost always the biggest single expense for most families. That is why budget experts recommend keeping housing below 30% of income.
 
@@ -77,19 +77,19 @@ Students build their own budget using the Personal Budget Template and their Day
 
 1. **Write career name and annual salary** at the top of the template
 2. **Calculate monthly net income:** Salary ÷ 12, then multiply by 0.75 (for taxes)
-3. **Allocate fixed expenses:** Rent, car, insurance, phone — use DFW averages from the reference sheet
+3. **Allocate fixed expenses:** Rent, car, insurance, phone, use DFW averages from the reference sheet
 4. **Allocate variable expenses:** Food, gas, entertainment
 5. **Calculate savings:** At least 10% if possible
 6. **Calculate balance:** Net income − (expenses + savings) = leftover (or shortage)
 
 Teacher circulates with a 3-check protocol:
 
-- **Check 1 (min 5):** Has the student calculated monthly net income correctly? *(Pull this check early — Step 1 is the math step where calculator errors cascade into every row that follows. Catch them before the budget is half-built.)*
+- **Check 1 (min 5):** Has the student calculated monthly net income correctly? *(Pull this check early. Step 1 is the math step where calculator errors cascade into every row that follows. Catch them before the budget is half-built.)*
 - **Check 2 (min 15):** Have they filled in the fixed expense rows?
 - **Check 3 (min 22):** Does the budget balance (or at least have a clear surplus/shortage)?
 
 !!! tip "Facilitation Tip"
-    Most students — across every salary level — will discover that one version of the lifestyle they imagined on Day 1 does not fit their Day 2 budget. This is normal, not a failure of the career. Frame adjustments as "what would you shift on the lifestyle side?" (smaller apartment, used car, roommate, less eating out) rather than "the career is wrong." The point is trade-off reasoning, not career rejection. Students whose family members work in the career they chose should not leave class thinking that career is a bad choice — the same career supports many real lifestyles.
+    Most students, across every salary level, will discover that one version of the lifestyle they imagined on Day 1 does not fit their Day 2 budget. This is normal, not a failure of the career. Frame adjustments as "what would you shift on the lifestyle side?" (smaller apartment, used car, roommate, less eating out) rather than "the career is wrong." The point is trade-off reasoning, not career rejection. Students whose family members work in the career they chose should not leave class thinking that career is a bad choice, the same career supports many real lifestyles.
 
 **DOK 3:** Based on your completed budget, what specific assumption about your desired lifestyle (apartment size, car choice, food spending, entertainment, phone plan) would have to change for you to save 20% of your income each month instead of 10%? Would that trade-off be worth it to you, and why?
 
@@ -105,4 +105,4 @@ Teacher circulates with a 3-check protocol:
 
 - **Support:** Provide a simplified budget template with only 5 categories (rent, food, transportation, savings, other). Students focus on allocation rather than detailed categories.
 - **Extension:** Research the 50/30/20 budgeting rule (50% needs, 30% wants, 20% savings). Does your budget match this rule? What would you need to adjust to hit it exactly?
-- **ELL:** Bilingual budget template with Spanish category labels. Teacher modeling is visual and heavy on numbers — accessible across language levels. Pair ELL students with bilingual peers for the calculation steps.
+- **ELL:** Bilingual budget template with Spanish category labels. Teacher modeling is visual and heavy on numbers, accessible across language levels. Pair ELL students with bilingual peers for the calculation steps.

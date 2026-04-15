@@ -21,8 +21,8 @@ Students explore the Agriculture, Food & Natural Resources cluster through Hats 
 
 - Chromebooks with internet access (1 per student)
 - Hats & Ladders student accounts + H&L Workbook (Ch 2: Agriculture, Food, and Natural Resources, pp. 16-36)
-- BLS — Veterinarians: [bls.gov/ooh/healthcare/veterinarians.htm](https://www.bls.gov/ooh/healthcare/veterinarians.htm)
-- BLS — Vet Technologists & Technicians: [bls.gov/ooh/healthcare/veterinary-technologists-and-technicians.htm](https://www.bls.gov/ooh/healthcare/veterinary-technologists-and-technicians.htm)
+- BLS, Veterinarians: [bls.gov/ooh/healthcare/veterinarians.htm](https://www.bls.gov/ooh/healthcare/veterinarians.htm)
+- BLS, Vet Technologists & Technicians: [bls.gov/ooh/healthcare/veterinary-technologists-and-technicians.htm](https://www.bls.gov/ooh/healthcare/veterinary-technologists-and-technicians.htm)
 - Xello student accounts (Life Experiences activity + Volunteer Hours)
 - Printed Vet Career Comparison worksheet (Vet Tech vs. Veterinarian)
 - Printed role cards for "Candy Conundrum" (Flavorist, Food Packaging Engineer, R&D Manager, Quality Assurance Specialist)
@@ -30,9 +30,9 @@ Students explore the Agriculture, Food & Natural Resources cluster through Hats 
 
 ## Career Connection
 
-Veterinary professionals are the healthcare workers of the animal world. Vet Techs assist in surgeries, perform lab tests, and increasingly use technology like 3D printing for prosthetics and surgical guides. Veterinarians diagnose illness, perform surgery, and make complex treatment decisions — but the path is long: a 4-year undergraduate degree plus 4 years of veterinary school. Both careers begin at the same place in middle school: caring about animals and being strong in science.
+Veterinary professionals are the healthcare workers of the animal world. Vet Techs assist in surgeries, perform lab tests, and increasingly use technology like 3D printing for prosthetics and surgical guides. Veterinarians diagnose illness, perform surgery, and make complex treatment decisions, but the path is long: a 4-year undergraduate degree plus 4 years of veterinary school. Both careers begin at the same place in middle school: caring about animals and being strong in science.
 
-**Irving ISD Pathway:** Veterinary Science (Nimitz HS) leads to the Elanco Veterinary Medical Applications certification — one of the most popular CTE pathways in the district. Students who complete it walk into vet clinic jobs and animal hospitals with a recognized industry credential.
+**Irving ISD Pathway:** Veterinary Science (Nimitz HS) leads to the Elanco Veterinary Medical Applications certification, one of the most popular CTE pathways in the district. Students who complete it walk into vet clinic jobs and animal hospitals with a recognized industry credential.
 
 ## Vocabulary
 
@@ -45,7 +45,7 @@ Veterinary professionals are the healthcare workers of the animal world. Vet Tec
 
 ## Bridge to Theory (Hats & Ladders)
 
-The H&L workbook (Ch 2: Agriculture, Food, and Natural Resources, pp. 16-36) introduces the full Ag cluster including Animal Science, Plant Science, Food Science, and Environmental careers. Week 1 anchors on **Candy Conundrum** (Ch 2, pp. 18-19) — a team problem-solving activity that uses Food Science roles to teach students how scientific specialists collaborate. The same teamwork model applies in a vet clinic, where Vet Techs, Veterinarians, and Animal Care Assistants must each contribute their specialized knowledge to solve a patient case. Students also use the **Hat Research** template (Ch 2, p. 26) to record veterinary career data from the H&L app.
+The H&L workbook (Ch 2: Agriculture, Food, and Natural Resources, pp. 16-36) introduces the full Ag cluster including Animal Science, Plant Science, Food Science, and Environmental careers. Week 1 anchors on **Candy Conundrum** (Ch 2, pp. 18-19): a team problem-solving activity that uses Food Science roles to teach students how scientific specialists collaborate. The same teamwork model applies in a vet clinic, where Vet Techs, Veterinarians, and Animal Care Assistants must each contribute their specialized knowledge to solve a patient case. Students also use the **Hat Research** template (Ch 2, p. 26) to record veterinary career data from the H&L app.
 
 ## IISD Instructional Strategies
 
@@ -60,16 +60,16 @@ The H&L workbook (Ch 2: Agriculture, Food, and Natural Resources, pp. 16-36) int
 |-----|-------|---------------|-------------|
 | 1 | Ag Cluster Tour + Animal Systems Hats | H&L Ag cluster exploration + Hat Research on Veterinarian or Vet Tech | Completed Hat Research template (Ch 2, p. 26) |
 | 2 | Vet Tech vs. Veterinarian Deep-Dive | BLS career research + side-by-side comparison worksheet | Completed Vet Career Comparison worksheet |
-| 3 | Candy Conundrum — Food Science Teamwork | H&L "Candy Conundrum" team activity (Ch 2, pp. 18-19) | Group solution presentation + role reflection |
+| 3 | Candy Conundrum. Food Science Teamwork | H&L "Candy Conundrum" team activity (Ch 2, pp. 18-19) | Group solution presentation + role reflection |
 | 4 | Xello Life Experiences + Volunteer Hours | Xello Life Experiences lesson + Volunteer Hours entry | Logged Xello entry + screenshot |
 | 5 | Nimitz Pathway + H&L Favorites | Nimitz Vet Science pathway research + favoriting careers in H&L | Pathway map + Climber Profile screenshot |
 
 ## Formative Assessment
 
-- Hat Research template completion (Day 1) — d(1)(B), d(1)(C)
-- Vet Career Comparison worksheet accuracy (Day 2) — d(2)(A), d(2)(B)
-- Candy Conundrum role contribution and group solution (Day 3) — d(1)(C)
-- Xello Life Experiences completion (Day 4) — d(2)(B)
+- Hat Research template completion (Day 1): d(1)(B), d(1)(C)
+- Vet Career Comparison worksheet accuracy (Day 2): d(2)(A), d(2)(B)
+- Candy Conundrum role contribution and group solution (Day 3): d(1)(C)
+- Xello Life Experiences completion (Day 4): d(2)(B)
 
 ## Summative Assessment
 

@@ -16,7 +16,7 @@
 
 **WARM-UP: After this week, could you see yourself working in the legal field? Why or why not?**
 
-Take 3-4 responses. Some students will say "yes" and some "no" — both are valid. The point of CCE is making informed choices, not pushing every student toward every career.
+Take 3-4 responses. Some students will say "yes" and some "no", both are valid. The point of CCE is making informed choices, not pushing every student toward every career.
 
 ---
 
@@ -42,7 +42,7 @@ Students return to the H&L app and finalize their Law cluster favorites. They sh
 The teacher circulates and asks each student: "Which legal career did you favorite, and why?" This is a quick formative check that students engaged with the cluster meaningfully.
 
 !!! tip "Facilitation Tip"
-    Watch for students who favorite a career just because it pays well. Push back: "What about the daily work attracts you?" The Climber Profile is a personal record — students should be honest, not strategic.
+    Watch for students who favorite a career just because it pays well. Push back: "What about the daily work attracts you?" The Climber Profile is a personal record. Students should be honest, not strategic.
 
 ---
 
@@ -50,17 +50,17 @@ The teacher circulates and asks each student: "Which legal career did you favori
 
 Open Xello and direct students to the **Life Experience** activity in the 7th-grade lessons. This activity asks students to reflect on experiences (volunteering, caring for siblings, sports, jobs around the house) that connect to careers they have explored.
 
-Students complete the activity in Xello and answer the reflection prompts. They look for connections between their lived experiences and the legal careers they explored this week — for example, a student who has resolved sibling arguments has experience with mediation; a student who reads carefully has experience that connects to paralegal work.
+Students complete the activity in Xello and answer the reflection prompts. They look for connections between their lived experiences and the legal careers they explored this week, for example, a student who has resolved sibling arguments has experience with mediation; a student who reads carefully has experience that connects to paralegal work.
 
 After completing the Xello activity, each student writes one sentence in their notebook: *"One life experience I have that connects to a legal career is _____ because _____."*
 
-**DOK 3:** Think about your finished Position Paper. Which single revision from today would most change how a skeptical reader — someone who disagrees with your position — evaluates your argument? Explain why that revision is more persuasive than the others you made.
+**DOK 3:** Think about your finished Position Paper. Which single revision from today would most change how a skeptical reader, someone who disagrees with your position, evaluates your argument? Explain why that revision is more persuasive than the others you made.
 
 ---
 
 ## Activity 4: eDynamic Unit 5.1 Preview (5 min)
 
-Direct students to eDynamic Learning Unit 5.1: Law & Order. Have them open the unit and read the introduction (5 minutes). This is a preview only — they will not complete the unit today. Tomorrow's class (Wk 2) will pick up first responders, and eDynamic 5.1 supports that content.
+Direct students to eDynamic Learning Unit 5.1: Law & Order. Have them open the unit and read the introduction (5 minutes). This is a preview only. They will not complete the unit today. Tomorrow's class (Wk 2) will pick up first responders, and eDynamic 5.1 supports that content.
 
 > [VERIFY IN eDynamic] Confirm the title of Unit 5.1 in eDynamic Learning is "Law & Order" and that it covers law enforcement, courts, and corrections topics suitable for 7th-grade Health Science / Law cluster framing.
 

@@ -30,7 +30,7 @@ Set up the indoor course before class (or have students help in the first 3 minu
 - **Station 2: Hover checkpoint** (a chair the drone must hover above for 5 seconds)
 - **Station 3: Gate** (two cones the drone must fly between)
 - **Station 4: Inspection target** (a target on the wall the drone must approach within 2 feet but not touch)
-- **Station 5: Landing zone** (taped square — different from the takeoff zone)
+- **Station 5: Landing zone** (taped square, different from the takeoff zone)
 
 **The mission briefing:** "You are a UAS pilot hired to inspect a wind turbine for damage. Take off from the maintenance pad, hover above the turbine inspection point, fly through the safety gates, approach the damaged area for a close inspection (without crashing into it), and land in the inspection report drop zone. You will be scored on accuracy and time."
 
@@ -55,10 +55,10 @@ Distribute the printed Drone Navigation Course score sheet. Each pilot gets 3 at
 - 12 runs × 3 minutes = 36 minutes of flight time
 - Roles inside the team rotate per run: Pilot → Spotter → Logger → Coach
 
-After each run, the pilot reflects with their team for 30 seconds: "What worked? What will I do differently next time?" This is the iteration step — the heart of the EDP.
+After each run, the pilot reflects with their team for 30 seconds: "What worked? What will I do differently next time?" This is the iteration step, the heart of the EDP.
 
 !!! tip "Facilitation Tip"
-    The improvement from Run 1 to Run 3 is the entire point. Even pilots who fail all 3 runs usually fail differently each time — that is iteration. Celebrate the difference, not the absolute success.
+    The improvement from Run 1 to Run 3 is the entire point. Even pilots who fail all 3 runs usually fail differently each time, that is iteration. Celebrate the difference, not the absolute success.
 
 > [VERIFY] If any drone breaks or has battery issues mid-class, swap to a backup drone OR have the affected team move to flight simulator practice (apps like DJI Flight Simulator or Drone Sim Pro). Keep a 4th backup drone within reach.
 
@@ -69,10 +69,10 @@ After each run, the pilot reflects with their team for 30 seconds: "What worked?
 ## Activity 3: Connect to Real UAS Inspection Careers (3 min)
 
 Briefly show 2-3 real-world UAS inspection job titles and what they pay (from BLS or DJI Education):
-- Drone Inspector — Solar farms ($45-65K)
-- Drone Inspector — Wind turbines ($55-75K)
-- Drone Pilot — Construction site survey ($50-70K)
-- UAS Operator — Pipeline inspection ($60-90K)
+- Drone Inspector. Solar farms ($45-65K)
+- Drone Inspector. Wind turbines ($55-75K)
+- Drone Pilot. Construction site survey ($50-70K)
+- UAS Operator. Pipeline inspection ($60-90K)
 
 The exact same skills students used today (takeoff, hover, navigate, inspect, land) are billable hours in these careers.
 
@@ -87,5 +87,5 @@ The exact same skills students used today (takeoff, hover, navigate, inspect, la
 ## Differentiation
 
 - **Support:** Allow up to 5 attempts instead of 3 for students who need more practice. Reduce the course to 3 stations (takeoff, hover, landing) so the success path is shorter. Pair with a coach who has flown successfully.
-- **Extension:** Add a time pressure — pilot must complete the course in under 90 seconds. Or add a 6th station (a small target the drone must drop a paper ball onto, simulating a delivery payload).
+- **Extension:** Add a time pressure, pilot must complete the course in under 90 seconds. Or add a 6th station (a small target the drone must drop a paper ball onto, simulating a delivery payload).
 - **ELL:** The course is visually self-explanatory. Provide bilingual station labels: Despegue (Takeoff), Suspender (Hover), Puerta (Gate), Inspección (Inspection), Aterrizaje (Landing). Pair with a bilingual coach.

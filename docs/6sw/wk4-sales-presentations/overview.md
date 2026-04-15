@@ -22,7 +22,7 @@ Students explore Sales careers through Hats & Ladders, work in teams on the H&L 
 - Hats & Ladders student accounts + H&L Workbook (Ch 5: Business, Marketing, and Finance, pp. 81-86 Pitching Investors)
 - H&L Powerskills Workbook (Giving and Receiving Feedback, pp. 22-24; Advocacy, pp. 30-32)
 - CareerOneStop Practice Interview Questions: [careeronestop.org/JobSearch/Interview/common-interview-questions.aspx](https://www.careeronestop.org/JobSearch/Interview/common-interview-questions.aspx)
-- BLS — Sales Managers: [bls.gov/ooh/management/sales-managers.htm](https://www.bls.gov/ooh/management/sales-managers.htm)
+- BLS, Sales Managers: [bls.gov/ooh/management/sales-managers.htm](https://www.bls.gov/ooh/management/sales-managers.htm)
 - Printed Career Presentation Rubric (1 per student)
 - Printed Interview Appearance Guide (1 per student)
 - Printed Pitching Investors team planner
@@ -47,12 +47,12 @@ Students deliver oral presentations on a career they have explored this year (d(
 
 ## Bridge to Theory (Hats & Ladders)
 
-H&L Ch 5 (Business, Marketing, and Finance, pp. 81-86) includes the **Pitching Investors** Career Lab — a multi-step team project where students choose a business idea (sports app, food business, or pet business), develop a business plan, create a slide deck, and pitch to one of three investor profiles (Super Sports Ventures, Eden Culinary Group, or Pawsitive Growth Capital). This activity bridges directly to the individual oral presentations students give later in the week.
+H&L Ch 5 (Business, Marketing, and Finance, pp. 81-86) includes the **Pitching Investors** Career Lab, a multi-step team project where students choose a business idea (sports app, food business, or pet business), develop a business plan, create a slide deck, and pitch to one of three investor profiles (Super Sports Ventures, Eden Culinary Group, or Pawsitive Growth Capital). This activity bridges directly to the individual oral presentations students give later in the week.
 
 The Powerskills modules used this week:
 
-- **Giving and Receiving Feedback** (Powerskills, pp. 22-24) — Practiced before presentations so students can give peers useful feedback during Two Stars and a Wish
-- **Advocacy** (Powerskills, pp. 30-32) — Connected to standing up for your career idea during the investor pitch
+- **Giving and Receiving Feedback** (Powerskills, pp. 22-24): Practiced before presentations so students can give peers useful feedback during Two Stars and a Wish
+- **Advocacy** (Powerskills, pp. 30-32): Connected to standing up for your career idea during the investor pitch
 
 ## IISD Instructional Strategies
 
@@ -73,11 +73,11 @@ The Powerskills modules used this week:
 
 ## Formative Assessment
 
-- Pitching Investors business plan completeness (Day 1) — d(4)(B)
-- Powerskills Giving and Receiving Feedback module completion (Day 2) — d(4)(B)
-- Investor pitch quality (Day 3) — d(4)(C)
-- Practice presentation feedback (Day 4) — d(4)(C)
-- Interview Appearance Guide (Day 4) — d(6)(B)
+- Pitching Investors business plan completeness (Day 1): d(4)(B)
+- Powerskills Giving and Receiving Feedback module completion (Day 2): d(4)(B)
+- Investor pitch quality (Day 3): d(4)(C)
+- Practice presentation feedback (Day 4): d(4)(C)
+- Interview Appearance Guide (Day 4): d(6)(B)
 
 ## Summative Assessment
 

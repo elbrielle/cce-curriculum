@@ -16,7 +16,7 @@
 
 **WARM-UP: Would you rather spend 4 years in college paying tuition, or 4 years in an apprenticeship earning a paycheck while you learn on the job? Write down your first instinct and one reason.**
 
-Collect 2-3 responses. This frames the whole day. Students often assume college is the only "respectable" post-high-school path — apprenticeships challenge that assumption.
+Collect 2-3 responses. This frames the whole day. Students often assume college is the only "respectable" post-high-school path, apprenticeships challenge that assumption.
 
 ---
 
@@ -24,16 +24,16 @@ Collect 2-3 responses. This frames the whole day. Students often assume college 
 
 Introduce the apprenticeship model using the projected infographic. Walk through each stage:
 
-1. **Apply** — Usually requires a high school diploma and a passing score on a basic aptitude test. Some unions have waiting lists.
-2. **Apprentice (2-5 years)** — You are a paid employee who works on real job sites AND attends classroom training (usually evenings or once a week). Starting wage is typically 50% of journeyman wage. Pay increases as you complete phases.
-3. **Journeyman** — You pass a licensing exam and become a fully trained, independent worker. You can work anywhere in your trade at full wage.
-4. **Master** — The highest level. Masters can pull their own permits, run their own business, and train apprentices. Takes 2-5 additional years of journeyman experience.
+1. **Apply:** Usually requires a high school diploma and a passing score on a basic aptitude test. Some unions have waiting lists.
+2. **Apprentice (2-5 years):** You are a paid employee who works on real job sites AND attends classroom training (usually evenings or once a week). Starting wage is typically 50% of journeyman wage. Pay increases as you complete phases.
+3. **Journeyman:** You pass a licensing exam and become a fully trained, independent worker. You can work anywhere in your trade at full wage.
+4. **Master:** The highest level. Masters can pull their own permits, run their own business, and train apprentices. Takes 2-5 additional years of journeyman experience.
 
 **Key numbers to share:**
 
 - Union electrical apprentices in DFW typically earn $16-22/hour starting wage, rising to $30-45/hour as journeymen.
-- Apprenticeship is **free** — union programs pay you to train. No student loans.
-- At the end of 4-5 years, a journeyman is earning roughly the same as an entry-level college graduate — but with zero debt.
+- Apprenticeship is **free:** union programs pay you to train. No student loans.
+- At the end of 4-5 years, a journeyman is earning roughly the same as an entry-level college graduate, but with zero debt.
 
 Students fill in the Apprenticeship vs. College comparison chart:
 
@@ -60,15 +60,15 @@ Assign or let students choose one trade union to research:
 - **UA** (United Association of Plumbers and Pipefitters)
 - **UBC** (United Brotherhood of Carpenters)
 - **Laborers' International Union of North America (LIUNA)**
-- **International Union of Operating Engineers (IUOE)** — heavy equipment operators
+- **International Union of Operating Engineers (IUOE):** heavy equipment operators
 
 For their chosen union, students collect:
 
-- **Full name and main trade** — what trade does this union represent?
-- **Apprenticeship length** — how many years to become a journeyman?
-- **DFW local number** (search "[union name] DFW local") — is there a local chapter in Dallas or Fort Worth?
-- **Benefits of membership** — wages, health insurance, retirement, ongoing training
-- **How to apply** — age, education, other requirements
+- **Full name and main trade:** what trade does this union represent?
+- **Apprenticeship length:** how many years to become a journeyman?
+- **DFW local number** (search "[union name] DFW local"): is there a local chapter in Dallas or Fort Worth?
+- **Benefits of membership:** wages, health insurance, retirement, ongoing training
+- **How to apply:** age, education, other requirements
 
 Students record findings on their Union Research Notes sheet.
 

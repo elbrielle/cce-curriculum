@@ -31,7 +31,7 @@ Walk through the three classification categories clearly before students start. 
 A career can check one, two, or all three boxes. The most valuable careers for a young person to consider are the ones that are all three.
 
 !!! tip "Facilitation Tip"
-    Model one classification on the board using Electrician data before letting students work independently. Show how you cite specific BLS and H&L numbers as evidence — not just opinions.
+    Model one classification on the board using Electrician data before letting students work independently. Show how you cite specific BLS and H&L numbers as evidence, not just opinions.
 
 ---
 
@@ -61,7 +61,7 @@ For each career, they fill in:
 Students also pick one career and write a **3-sentence justification** that classifies it with cited evidence. Example format: *"A Construction Manager in DFW has a median salary of $98,000 (H&L), well above the $50,000 high-wage threshold. BLS projects 8% job growth over the next 10 years, faster than average. This career is all three: high-skill, high-wage, and high-demand."*
 
 !!! tip "Facilitation Tip"
-    Some students will leave boxes blank if they cannot find data. Circulate and prompt: "What did you find on BLS? If you cannot find a number, estimate — but explain your reasoning." This pushes them to cite sources rather than guess.
+    Some students will leave boxes blank if they cannot find data. Circulate and prompt: "What did you find on BLS? If you cannot find a number, estimate, but explain your reasoning." This pushes them to cite sources rather than guess.
 
 ---
 

@@ -21,24 +21,24 @@
 
 **WARM-UP: Would you rather have a job that pays a lot but you work alone all day, or a job that pays less but you work with a fun team? Write one sentence explaining your choice.**
 
-Collect 2-3 verbal responses. Bridge to the lesson: "What you just answered is a clue about your Work Values. Today we figure out what really matters to you in a job — not just what type of person you are."
+Collect 2-3 verbal responses. Bridge to the lesson: "What you just answered is a clue about your Work Values. Today we figure out what really matters to you in a job, not just what type of person you are."
 
 ---
 
 ## Activity 1: Discovering My Work Values (20 min)
 
-**Source:** H&L Workbook Ch 1, pp. 14-15 — "Discovering My Work Values"
+**Source:** H&L Workbook Ch 1, pp. 14-15, "Discovering My Work Values"
 
-Open the workbook to page 14. Read the introduction together: Work Values are the things that matter most to you in a job — they help you decide what kind of work environment, tasks, and rewards will make you happy and successful.
+Open the workbook to page 14. Read the introduction together: Work Values are the things that matter most to you in a job. They help you decide what kind of work environment, tasks, and rewards will make you happy and successful.
 
 Walk through the **six common work values** from the workbook (p. 14):
 
-- **Achievement** — You enjoy seeing the results of your hard work. You set goals and reach them.
-- **Independence** — You like to make decisions and work in your own way.
-- **Recognition** — You want to be noticed and rewarded for doing a good job.
-- **Relationships** — You like jobs where you can work closely with others and help people.
-- **Support** — You want to feel supported by your boss and workplace. You prefer clear rules and guidance.
-- **Working Conditions** — You care about job security, daily environment, and the type of tasks you do.
+- **Achievement**: You enjoy seeing the results of your hard work. You set goals and reach them.
+- **Independence**: You like to make decisions and work in your own way.
+- **Recognition**: You want to be noticed and rewarded for doing a good job.
+- **Relationships**: You like jobs where you can work closely with others and help people.
+- **Support**: You want to feel supported by your boss and workplace. You prefer clear rules and guidance.
+- **Working Conditions**: You care about job security, daily environment, and the type of tasks you do.
 
 Have students complete the **Reflection** prompts in the workbook (p. 14):
 
@@ -50,25 +50,25 @@ Then direct students to the H&L app:
 > [H&L PLATFORM] The workbook directs students (p. 15): "Open the Hats & Ladders app and go to 'Explore My Work Values.' Find your top work values and write them in the space below." Students take the in-app Work Values activity, record their top 2 results in the workbook on p. 15, and notice if their results matched their reflection answers.
 
 !!! tip "Facilitation Tip"
-    Some students will rank Independence #1 because it sounds cool ("I want to be my own boss"). Push them: "Independence means you handle EVERYTHING — taxes, your own health insurance, no paychecks if you have a bad month. Are you sure?" This builds critical reflection rather than aspirational picking.
+    Some students will rank Independence #1 because it sounds cool ("I want to be my own boss"). Push them: "Independence means you handle EVERYTHING (taxes, your own health insurance, no paychecks if you have a bad month). Are you sure?" This builds critical reflection rather than aspirational picking.
 
 ---
 
 ## Activity 2: My Building Blocks (15 min)
 
-**Source:** H&L Workbook Ch 1, pp. 11 — "My Building Blocks"
+**Source:** H&L Workbook Ch 1, pp. 11, "My Building Blocks"
 
-Open the workbook to page 11. Read the introduction together: Building Blocks are experiences, interests, and skills you already have — both in school and outside of school. The workbook lists examples like babysitting a sibling, cooking meals for your family, volunteering, hobbies, school clubs, chores, sports teams, and religious or community groups.
+Open the workbook to page 11. Read the introduction together: Building Blocks are experiences, interests, and skills you already have, both in school and outside of school. The workbook lists examples like babysitting a sibling, cooking meals for your family, volunteering, hobbies, school clubs, chores, sports teams, and religious or community groups.
 
 Lead a quick whole-class brainstorm: call out one example, ask students to raise their hand if they do that. Examples:
 
 - "Who has cooked dinner for your family in the last month?"
-- "Who plays a sport — school or rec?"
+- "Who plays a sport, school or rec?"
 - "Who babysits a younger sibling or cousin?"
 - "Who has a hobby like drawing, gaming, building things, music?"
-- "Who helps with chores at home — dishes, laundry, yard work?"
+- "Who helps with chores at home (dishes, laundry, yard work)?"
 
-Tell students: every single one of those is a Building Block. None of them are "too small" — every one teaches a future-career skill.
+Tell students: every single one of those is a Building Block. None of them are "too small." Every one teaches a future-career skill.
 
 Then have students complete the workbook task:
 

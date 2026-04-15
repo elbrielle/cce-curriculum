@@ -24,18 +24,18 @@ Take 3-4 student responses. This loosens up the room before presentations and su
 
 Each team has **4 minutes** to present their assigned drone industry from Day 2. Format:
 
-1. **Industry overview** (30 sec) — What does this industry use drones for?
-2. **Top 3 careers in this industry** (90 sec) — Job title, what they do, salary range
-3. **Certifications and training required** (30 sec) — Part 107, plus any industry-specific
-4. **Growth projection** (30 sec) — How fast is this field expanding?
-5. **Best example** (60 sec) — Show one specific real company or project using drones in this industry
+1. **Industry overview** (30 sec): What does this industry use drones for?
+2. **Top 3 careers in this industry** (90 sec): Job title, what they do, salary range
+3. **Certifications and training required** (30 sec): Part 107, plus any industry-specific
+4. **Growth projection** (30 sec): How fast is this field expanding?
+5. **Best example** (60 sec): Show one specific real company or project using drones in this industry
 
-The class fills in a quick listening grid as each team presents — one row per industry with columns for "Top career," "Salary," "Most surprising fact." This grid helps students compare across industries before they classify their own chosen career.
+The class fills in a quick listening grid as each team presents, one row per industry with columns for "Top career," "Salary," "Most surprising fact." This grid helps students compare across industries before they classify their own chosen career.
 
 5 teams × 4 minutes = 20 minutes + 4 minutes of transitions.
 
 !!! tip "Facilitation Tip"
-    Project a visible 4-min timer and announce the limit to students before Team 1 starts, so every team gets the same slot. This is the first timed presentation of the year for most students — if a team is still wrapping at 4 min, give them one sentence to close rather than a hard mid-sentence cut. Hard time discipline is drilled explicitly in 6SW Wk4 Sales/Presentations.
+    Project a visible 4-min timer and announce the limit to students before Team 1 starts, so every team gets the same slot. This is the first timed presentation of the year for most students, if a team is still wrapping at 4 min, give them one sentence to close rather than a hard mid-sentence cut. Hard time discipline is drilled explicitly in 6SW Wk4 Sales/Presentations.
 
 ---
 
@@ -49,7 +49,7 @@ After hearing all 5 presentations, each student picks **one drone career** from 
 |---|---|
 | **Career name** | (e.g., Wind Turbine Drone Inspector) |
 | **Industry** | (e.g., Energy / Construction) |
-| **Median salary** | (with source citation — BLS, DJI, Indeed) |
+| **Median salary** | (with source citation. BLS, DJI, Indeed) |
 | **Education / certification needed** | (FAA Part 107 + ?) |
 | **High-skill?** Yes / No | with evidence |
 | **High-wage?** Yes / No | with evidence (cite the salary number and compare to median Texas wages around $50K) |
@@ -72,7 +72,7 @@ For students who participate in TSA Drone Challenge (many IISD VILS students do)
 - Knowledge of FAA regulations (Day 3 safety briefing)
 - Industry awareness (Day 2 research)
 
-For students who are not in TSA, this is the recruiting moment — they have spent a week practicing the exact skills TSA evaluates. Encourage them to talk to their TSA chapter advisor about joining.
+For students who are not in TSA, this is the recruiting moment. They have spent a week practicing the exact skills TSA evaluates. Encourage them to talk to their TSA chapter advisor about joining.
 
 ---
 
@@ -85,5 +85,5 @@ For students who are not in TSA, this is the recruiting moment — they have spe
 ## Differentiation
 
 - **Support:** Pre-filled Classification template with the salary and education rows already filled in for one career. Students adapt and write the high-skill / high-wage / high-demand justifications.
-- **Extension:** Compare two drone careers from different industries side by side — which is more accessible without a college degree? Which has higher long-term growth?
+- **Extension:** Compare two drone careers from different industries side by side, which is more accessible without a college degree? Which has higher long-term growth?
 - **ELL:** Bilingual Classification template with Spanish row labels. Pre-teach: High-skill = Alta calificación, High-wage = Alto salario, High-demand = Alta demanda, Evidence = Evidencia. Allow students to deliver one sentence of their team presentation in Spanish if more comfortable.

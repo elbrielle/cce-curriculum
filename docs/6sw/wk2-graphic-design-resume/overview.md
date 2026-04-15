@@ -25,7 +25,7 @@ Students explore the Arts, A/V Technology & Communications career cluster throug
 - Canva for Education: [canva.com/education](https://www.canva.com/education/)
 - Adobe Express: [adobe.com/express](https://www.adobe.com/express)
 
-- BLS — Graphic Designers: [bls.gov/ooh/arts-and-design/graphic-designers.htm](https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm)
+- BLS, Graphic Designers: [bls.gov/ooh/arts-and-design/graphic-designers.htm](https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm)
 - CareerOneStop Resume Guide: [careeronestop.org/JobSearch/Resumes/resume-guide.aspx](https://www.careeronestop.org/JobSearch/Resumes/resume-guide.aspx)
 - eDynamic Learning Unit 6.1 (Arts/AV) and Unit 8.2 (job search)
 - Xello Resume lesson (7th-grade task list)
@@ -33,15 +33,15 @@ Students explore the Arts, A/V Technology & Communications career cluster throug
 
 ## Career Connection
 
-Graphic design and digital communication careers are everywhere in our visual world — every website, app, advertisement, social media post, and brand logo was created by a designer. In DFW, companies of all sizes hire graphic designers, animators, video editors, UX designers, and social media managers. This is also THE resume week of the year — students write their first professional resume in Xello, which becomes a living document they refine through the rest of the six weeks.
+Graphic design and digital communication careers are everywhere in our visual world, every website, app, advertisement, social media post, and brand logo was created by a designer. In DFW, companies of all sizes hire graphic designers, animators, video editors, UX designers, and social media managers. This is also THE resume week of the year, students write their first professional resume in Xello, which becomes a living document they refine through the rest of the six weeks.
 
-**Irving ISD Pathway:** **Digital Communications and Graphic Design** is offered at Irving High School, MacArthur High School, and Nimitz High School — a multi-campus pathway students can pursue regardless of their home school.
+**Irving ISD Pathway:** **Digital Communications and Graphic Design** is offered at Irving High School, MacArthur High School, and Nimitz High School, a multi-campus pathway students can pursue regardless of their home school.
 
 ## Vocabulary
 
 - **Graphic Designer:** A professional who creates visual content for print, digital, and social media using tools like Adobe Photoshop, Illustrator, and InDesign.
 - **Resume:** A one-page document summarizing your education, skills, activities, and career objective. Used when applying for jobs, internships, or college programs.
-- **Portfolio:** A collection of work samples that demonstrates a designer's skills and style. Essential for creative careers — often more important than the resume.
+- **Portfolio:** A collection of work samples that demonstrates a designer's skills and style. Essential for creative careers, often more important than the resume.
 - **UX Designer:** A User Experience Designer who focuses on how people interact with websites, apps, and digital products. One of the fastest-growing design careers.
 - **Branding:** How a business shows who they are through logos, colors, fonts, and messaging to make people remember them.
 - **Career Objective:** A 1-2 sentence statement at the top of a resume that summarizes the kind of role you are seeking.
@@ -50,10 +50,10 @@ Graphic design and digital communication careers are everywhere in our visual wo
 
 H&L Ch 4 (Arts, A/V Technology, and Communications, pp. 55-66) covers three pathways: Graphic Design and Multimedia Arts, Digital Communications, and Printing & Imaging. The chapter includes three named workbook activities used across this week:
 
-- **Digital Storytelling** (Day 1) — Career Climb. Students plan a podcast episode in groups of 3-4, including episode outline, interview questions, and promotion plan.
-- **Powerskill: Attention to Detail** (Day 3) — Students fix a vague TV commercial script by identifying missing details (product, benefits, where to buy) and rewriting it.
-- **Game On!** (Day 4) — Career Climb. Students work in teams to create a Game Design Document (GDD) for a new video game with assigned roles (Designer, Programmer, Artist, Writer, Sound Designer).
-- **Creative Entrepreneurs** (Day 5) — Career Lab. Students rebrand a struggling Fashion Design, Videography, or Photography business — analyzing brand snapshots, creating a mood board, and writing a 5-7 minute brand pitch.
+- **Digital Storytelling** (Day 1): Career Climb. Students plan a podcast episode in groups of 3-4, including episode outline, interview questions, and promotion plan.
+- **Powerskill: Attention to Detail** (Day 3): Students fix a vague TV commercial script by identifying missing details (product, benefits, where to buy) and rewriting it.
+- **Game On!** (Day 4): Career Climb. Students work in teams to create a Game Design Document (GDD) for a new video game with assigned roles (Designer, Programmer, Artist, Writer, Sound Designer).
+- **Creative Entrepreneurs** (Day 5): Career Lab. Students rebrand a struggling Fashion Design, Videography, or Photography business, analyzing brand snapshots, creating a mood board, and writing a 5-7 minute brand pitch.
 
 The Hat Research template (Ch 4, p. 64) provides structured fields for career research used during the week.
 
@@ -76,11 +76,11 @@ The Hat Research template (Ch 4, p. 64) provides structured fields for career re
 
 ## Formative Assessment
 
-- Digital Storytelling podcast outline (Day 1) — d(1)(C)
-- Resume draft completeness in Xello (Day 2) — d(7)(A)
-- Resume revision quality after peer review (Day 3) — d(7)(A)
-- Game Design Document team contribution (Day 4) — d(1)(C)
-- Job search steps recall (Day 4) — d(6)(A)
+- Digital Storytelling podcast outline (Day 1): d(1)(C)
+- Resume draft completeness in Xello (Day 2): d(7)(A)
+- Resume revision quality after peer review (Day 3): d(7)(A)
+- Game Design Document team contribution (Day 4): d(1)(C)
+- Job search steps recall (Day 4): d(6)(A)
 
 ## Summative Assessment
 
@@ -102,5 +102,5 @@ The Hat Research template (Ch 4, p. 64) provides structured fields for career re
 ### ELL Language Support
 - Pre-teach: Resume = Currículum vitae, Portfolio = Portafolio, Graphic Design = Diseño gráfico, Branding = Identidad de marca, Job Search = Búsqueda de empleo
 - Bilingual resume template with Spanish section headers and career objective sentence stems
-- Canva and Adobe Express have Spanish interface options — show ESL students how to switch
+- Canva and Adobe Express have Spanish interface options, show ESL students how to switch
 - Pair ESL students with bilingual peers during resume peer review to ensure feedback is understood

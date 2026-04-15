@@ -16,7 +16,7 @@
 
 **WARM-UP: If you had to hire someone for a job, what soft skills would you look for? List your top 3.**
 
-Take 3-4 responses. Bridge: students will see today that the soft skills they value as "boss" are the same skills they have practiced this week — communication, time management, advocacy.
+Take 3-4 responses. Bridge: students will see today that the soft skills they value as "boss" are the same skills they have practiced this week, communication, time management, advocacy.
 
 ---
 
@@ -29,7 +29,7 @@ Students complete the lesson, take any embedded quizzes, and read their results.
 - One time management strategy they want to try
 - One thing in their week that wastes time
 
-The lesson connects directly to d(4)(A) — time management is one of the explicit TEKS this week.
+The lesson connects directly to d(4)(A): time management is one of the explicit TEKS this week.
 
 ---
 
@@ -45,18 +45,18 @@ Students complete the Skills Matcher individually. The tool will return a list o
 After completing the matcher, students:
 
 1. **Take a screenshot** of their top 5 career matches
-2. **Compare to their H&L Climber Profile favorites** — is there overlap?
+2. **Compare to their H&L Climber Profile favorites:** is there overlap?
 3. **Write one sentence** noting whether the Skills Matcher recommended any careers they had NOT considered before
 
-> [H&L PLATFORM] Open the H&L app and click "Climber Profile." Compare the list of favorites to the CareerOneStop Skills Matcher results. Look for patterns — same RIASEC type, same skill clusters.
+> [H&L PLATFORM] Open the H&L app and click "Climber Profile." Compare the list of favorites to the CareerOneStop Skills Matcher results. Look for patterns, same RIASEC type, same skill clusters.
 
 ---
 
 ## Activity 3: SMART Refinement + Powerskills Reflection (15 min)
 
-Students close the week by bringing the Xello Time Management strategy and the Skills Matcher results back to the SMART goal they drafted on Day 3 — and then writing the reflection that is the week's summative. Keep this as one continuous block so students don't lose momentum with another activity handoff.
+Students close the week by bringing the Xello Time Management strategy and the Skills Matcher results back to the SMART goal they drafted on Day 3, and then writing the reflection that is the week's summative. Keep this as one continuous block so students don't lose momentum with another activity handoff.
 
-**Part A — Refine the SMART goal (5 min).** Students pull out their Day 3 SMART goal and ask three questions:
+**Part A, Refine the SMART goal (5 min).** Students pull out their Day 3 SMART goal and ask three questions:
 
 - Is it still realistic given what I now know about my time?
 - Should I narrow or expand it based on my Skills Matcher results?
@@ -64,7 +64,7 @@ Students close the week by bringing the Xello Time Management strategy and the S
 
 Each student rewrites the goal once if needed and highlights any changes from the Day 3 version.
 
-**Part B — Write the reflection (10 min).** Students write a 4-sentence paragraph (this is the Week 5 summative):
+**Part B, Write the reflection (10 min).** Students write a 4-sentence paragraph (this is the Week 5 summative):
 
 1. *"The transferable skill I improved most this week is _____."*
 2. *"It connects to the career of _____ because _____."*

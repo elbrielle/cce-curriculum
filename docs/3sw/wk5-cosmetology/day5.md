@@ -14,7 +14,7 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: When you imagine your future job, what 3 things matter MOST to you — pay, hours, location, helping people, creativity, or something else? Name your top 3 in order.**
+**WARM-UP: When you imagine your future job, what 3 things matter MOST to you, pay, hours, location, helping people, creativity, or something else? Name your top 3 in order.**
 
 Take 4-5 student responses. Use this to bridge: today they take a Xello lesson that helps them name and prioritize the factors that matter to them in a career.
 
@@ -22,7 +22,7 @@ Take 4-5 student responses. Use this to bridge: today they take a Xello lesson t
 
 ## Activity 1: Xello Exploring Career Factors Lesson (20 min)
 
-**Source:** Xello 7th-Grade Lesson — "Exploring Career Factors"
+**Source:** Xello 7th-Grade Lesson, "Exploring Career Factors"
 
 Open Xello on the projector. Walk students through finding the lesson:
 
@@ -48,7 +48,7 @@ After the lesson, students write 2 sentences in their notebook:
 
 ## Activity 2: eDynamic Unit 4.2 Part 1 (15 min)
 
-**Source:** eDynamic Learning — Unit 4.2 Part 1: Experimenting with Careers (Human Services focus)
+**Source:** eDynamic Learning. Unit 4.2 Part 1: Experimenting with Careers (Human Services focus)
 
 Direct students to log into eDynamic and navigate to **Unit 4.2 Part 1: Experimenting with Careers**. This unit reinforces the Human Services cluster content from this week.
 
@@ -60,7 +60,7 @@ Students work through Unit 4.2 Part 1 at their own pace for 15 minutes. The goal
 
 ## Activity 3: H&L Favorites + Cluster Reflection (8 min)
 
-**Source:** H&L Workbook Ch 11 — Hat Finder favoriting
+**Source:** H&L Workbook Ch 11, Hat Finder favoriting
 
 > [H&L PLATFORM] Direct students to the Hat Finder in the H&L app, filter by Human Services, and click the heart/favorite icon on 2-3 Personal Care or Health & Wellness careers from this week. The favorited Hats appear in their Climber Profile under "Favorites." The workbook (Ch 11) directs students to "explore and favorite careers across the Human Services cluster."
 
@@ -86,4 +86,4 @@ Then they write a 3-sentence reflection on the Human Services week:
 
 - **Support:** Sentence stems for the 3-sentence reflection. Pre-fill: "The most interesting career I learned about is _____ because it combines _____ and _____."
 - **Extension:** Connect your favorite Human Services career to the Ratteree Cosmetology pathway. What courses would prepare you best?
-- **ELL:** Pre-teach: Factor = Factor, Income = Ingreso, Reflection = Reflexión. Xello and eDynamic both support Spanish — show language toggles if needed.
+- **ELL:** Pre-teach: Factor = Factor, Income = Ingreso, Reflection = Reflexión. Xello and eDynamic both support Spanish, show language toggles if needed.

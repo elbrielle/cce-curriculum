@@ -22,7 +22,7 @@ Take 3 student responses. The point: peer feedback catches blind spots. Today th
 
 ## Activity 1: Peer Feedback on Drone Designs (20 min)
 
-**Source:** H&L Workbook Ch 2, pp. 34-35 — "Step 4: Get Peer Feedback"
+**Source:** H&L Workbook Ch 2, pp. 34-35, "Step 4: Get Peer Feedback"
 
 Pair students up. Each student takes a turn explaining their drone to their partner using the workbook prompts (p. 34):
 
@@ -50,7 +50,7 @@ After the feedback exchange, each student goes back to their drone and writes 1-
 
 ## Activity 2: Societal Trends Chart (20 min)
 
-**Source:** TEKS d(5)(C) — Analyze the effects of changing employment trends, societal needs, and economic conditions on career choices
+**Source:** TEKS d(5)(C): Analyze the effects of changing employment trends, societal needs, and economic conditions on career choices
 
 Transition to the societal needs analysis with a direct bridge: the drone the student designed yesterday *IS* a career that barely existed 20 years ago. Ag-Tech Drone Operator is one of the clearest recent examples of what changing farm needs plus new technology create together. Today's chart looks at other societal changes and asks what new careers each one is producing.
 
@@ -73,7 +73,7 @@ Walk through the first 2 rows as examples. Then students fill in 3 MORE rows on 
 - Vertical farming in cities
 - AI in agriculture
 
-Students use H&L career data, BLS, and class discussion to populate their rows. Each row needs at least 1 new career and 1 career that is changing or adapting. If students bring up a family member's job when the class discusses "careers changing," honor the reference — most jobs that look like they are disappearing are actually shifting as workers add new skills (e.g., an oil-and-gas technician retraining for wind turbine maintenance stays in the same energy sector).
+Students use H&L career data, BLS, and class discussion to populate their rows. Each row needs at least 1 new career and 1 career that is changing or adapting. If students bring up a family member's job when the class discusses "careers changing," honor the reference, most jobs that look like they are disappearing are actually shifting as workers add new skills (e.g., an oil-and-gas technician retraining for wind turbine maintenance stays in the same energy sector).
 
 **DOK 3:** Based on your chart, what advice would you give a younger student deciding between a career in fossil fuels and a career in renewable energy? Use societal trends data to defend your advice.
 

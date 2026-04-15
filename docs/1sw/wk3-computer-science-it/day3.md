@@ -16,15 +16,15 @@
 
 **WARM-UP: Look at the website you visit most often (YouTube, TikTok, a game, a school site). Where is the menu? Where are the buttons? Where do your eyes go FIRST?**
 
-Quick share. Bridge: "Today you make those same decisions for YOUR website. The job is called wireframing — it is the blueprint that comes before any code."
+Quick share. Bridge: "Today you make those same decisions for YOUR website. The job is called wireframing. It is the blueprint that comes before any code."
 
 ---
 
 ## Activity 1: Wireframe 3 Pages (25 min)
 
-**Source:** H&L Workbook Ch 12, p. 204 — "Step 4: Wireframe and Design"
+**Source:** H&L Workbook Ch 12, p. 204, "Step 4: Wireframe and Design"
 
-Open the workbook to page 204. Read the definition together: a wireframe is a simple sketch that shows where text, images, buttons, and links will go on each page of a website. It is the blueprint, NOT the final design. Wireframes use boxes and labels — no colors, no real images.
+Open the workbook to page 204. Read the definition together: a wireframe is a simple sketch that shows where text, images, buttons, and links will go on each page of a website. It is the blueprint, NOT the final design. Wireframes use boxes and labels, no colors, no real images.
 
 Project a sample wireframe on the screen so students see what one looks like:
 
@@ -55,7 +55,7 @@ Tell students: "If you were handing this to a developer to build, would they und
 
 ## Activity 2: Step 5 — Describe the Functionality (10 min)
 
-**Source:** H&L Workbook Ch 12, p. 205 — "Step 5: Describe the Functionality"
+**Source:** H&L Workbook Ch 12, p. 205, "Step 5: Describe the Functionality"
 
 Open the workbook to page 205. Students write a short paragraph (3-5 sentences) explaining how users will interact with their website. The workbook describes this as "an instruction manual for your users on how to navigate your website."
 
@@ -72,11 +72,11 @@ Walk the room and check that students are writing about their OWN website, not g
 
 ## Activity 3: H&L "Job Applications" Practice (10 min)
 
-**Source:** H&L Workbook Ch 12, pp. 196-198 — "Job Applications"
+**Source:** H&L Workbook Ch 12, pp. 196-198, "Job Applications"
 
 Open the workbook to page 196. Read the introduction together: even if you have a resume, many employers still require a standard job application. Applications give employers the same info from every applicant. Filling them out accurately and neatly is part of the hiring process.
 
-**Privacy note before you start:** For the real-world Personal Information fields (phone, email, address), students may either write their real info or substitute a sample identity (e.g., fictional "Alex Martinez, 123 Main St, Irving, TX"). Collect and shred all completed forms at the end of class — do not send them home, leave them on desks, or include them in the grading stack overnight.
+**Privacy note before you start:** For the real-world Personal Information fields (phone, email, address), students may either write their real info or substitute a sample identity (e.g., fictional "Alex Martinez, 123 Main St, Irving, TX"). Collect and shred all completed forms at the end of class, do not send them home, leave them on desks, or include them in the grading stack overnight.
 
 Students fill out the practice job application for the fictional company **Future Work, Inc.** (Ch 12, pp. 196-198). The form fields:
 
@@ -103,7 +103,7 @@ After students finish, lead a brief discussion using the workbook prompts (Ch 12
 
 ## Exit Ticket (No formal exit ticket — students turn in completed wireframes as the daily deliverable)
 
-**Submission:** Students submit (1) their 3 wireframe pages and (2) their functionality description as a packet at the end of class. The completed Job Application is verified in-class by the teacher and shredded at end of class per the privacy note above — it is not included in the grading packet. *(d(1)(C), d(2)(A))*
+**Submission:** Students submit (1) their 3 wireframe pages and (2) their functionality description as a packet at the end of class. The completed Job Application is verified in-class by the teacher and shredded at end of class per the privacy note above; it is not included in the grading packet. *(d(1)(C), d(2)(A))*
 
 ---
 

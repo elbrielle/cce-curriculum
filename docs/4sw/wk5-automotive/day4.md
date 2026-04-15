@@ -22,9 +22,9 @@ Take 4-5 student responses. Most students have heard the names but do not know w
 
 ## Activity 1: Irving ISD Ratteree Automotive Pathways (18 min)
 
-**Source:** Irving ISD Career Centers — Ratteree program pages
+**Source:** Irving ISD Career Centers. Ratteree program pages
 
-> [VERIFY] Confirm with your district CTE coordinator the current program details for Cardwell and Ratteree automotive offerings — schedule format, transportation options, and certification outcomes. The Irving ISD CTE department updates these annually.
+> [VERIFY] Confirm with your district CTE coordinator the current program details for Cardwell and Ratteree automotive offerings, schedule format, transportation options, and certification outcomes. The Irving ISD CTE department updates these annually.
 
 Project the Ratteree program info on the screen. Cover the structure:
 
@@ -52,9 +52,9 @@ Students take notes on their printed comparison template. The Ratteree column ca
 
 Students choose **one trade school option** to research and fill in the second column of their comparison template. Options:
 
-- **Universal Technical Institute (UTI)** — National automotive trade school chain. Locations across the US, including the Houston area. Programs include automotive, diesel, collision, and motorcycle.
-- **Lincoln Tech** — Another national chain. Programs in automotive technology and diesel.
-- **Tarrant County College (TCC) — Automotive Technology program** — Local community college option in DFW with much lower cost than UTI/Lincoln.
+- **Universal Technical Institute (UTI):** National automotive trade school chain. Locations across the US, including the Houston area. Programs include automotive, diesel, collision, and motorcycle.
+- **Lincoln Tech:** Another national chain. Programs in automotive technology and diesel.
+- **Tarrant County College (TCC): Automotive Technology program:** Local community college option in DFW with much lower cost than UTI/Lincoln.
 
 Students browse the chosen school's website and capture:
 - **Time to complete:** Typically 6-24 months for certificate programs, 2 years for AAS degree
@@ -82,5 +82,5 @@ After both columns are filled in, students write a 2-3 sentence comparison: "If 
 ## Differentiation
 
 - **Support:** Pre-filled comparison template with the Cardwell column already completed (since students cannot easily research it). Students fill in only the trade school column. Pair with a peer for the website navigation.
-- **Extension:** Build a 5-year cost projection — total spending for a Cardwell graduate vs. a UTI graduate, including tuition, lost income during training, and earnings after credentialing. Which one comes out ahead financially after 5 years?
-- **ELL:** Bilingual comparison template with Spanish column headers. Pre-teach: Trade school = Escuela técnica, Tuition = Matrícula, Hands-on = Práctico, Credential = Credencial. UTI website has Spanish content available — check the language toggle.
+- **Extension:** Build a 5-year cost projection, total spending for a Cardwell graduate vs. a UTI graduate, including tuition, lost income during training, and earnings after credentialing. Which one comes out ahead financially after 5 years?
+- **ELL:** Bilingual comparison template with Spanish column headers. Pre-teach: Trade school = Escuela técnica, Tuition = Matrícula, Hands-on = Práctico, Credential = Credencial. UTI website has Spanish content available, check the language toggle.

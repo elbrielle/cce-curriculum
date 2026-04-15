@@ -22,7 +22,7 @@ Take 3-4 responses. Students will name "stay calm," "communicate," "make decisio
 
 ## Activity 1: Finalize Individual Response Plans (12 min)
 
-**Source:** H&L Workbook Ch 13, p. 223 — Individual Work step
+**Source:** H&L Workbook Ch 13, p. 223, Individual Work step
 
 Students return to their individual role-specific plans from Day 3. They expand each plan to cover:
 
@@ -31,16 +31,16 @@ Students return to their individual role-specific plans from Day 3. They expand 
 - **First 24 hours:** How does my role coordinate with the other roles on the team?
 - **One ethical dilemma:** Name one moment where my role might face an integrity test (e.g., "Do I evacuate the senior living community first or the elementary school?")
 
-Students should reference specific Silver Ridge buildings — the hospital with 150 beds, the high school with backup generators, the bridge over the Clear River, the East Side Rec Center.
+Students should reference specific Silver Ridge buildings: the hospital with 150 beds, the high school with backup generators, the bridge over the Clear River, the East Side Rec Center.
 
 !!! tip "Facilitation Tip"
-    The ethical dilemma is the d(4)(F) hook. Push students to name a TRADE-OFF, not a clearly right answer. Real first responders make hard choices with imperfect information — that is what integrity means.
+    The ethical dilemma is the d(4)(F) hook. Push students to name a TRADE-OFF, not a clearly right answer. Real first responders make hard choices with imperfect information. That is what integrity means.
 
 ---
 
 ## Activity 2: Combine into Citywide Emergency Plan (15 min)
 
-**Source:** H&L Workbook Ch 13, p. 223 — Group Work step
+**Source:** H&L Workbook Ch 13, p. 223, Group Work step
 
 Each team merges their individual plans into ONE Citywide Emergency Plan on poster paper or Google Slides. The plan must include:
 
@@ -53,7 +53,7 @@ Each team merges their individual plans into ONE Citywide Emergency Plan on post
 | **Communication Plan** | How the team uses the city alert system (text, radio, app) |
 | **Integrity Dilemma** | One hard choice the team faces and how they handled it |
 
-Teams divide the work — one person owns each section — but the team reviews the whole plan together before submission.
+Teams divide the work, one person owns each section, but the team reviews the whole plan together before submission.
 
 > [H&L PLATFORM] Teams that prefer digital formats can build the plan in a Google Slides deck (one slide per section). The H&L workbook is the source for the role list and the Silver Ridge city brief, but the format of the final deliverable is flexible.
 
@@ -88,5 +88,5 @@ The class evaluates each team using a quick rubric (visible on the projector):
 ## Differentiation
 
 - **Support:** Provide a Citywide Emergency Plan template with sections pre-labeled and one section (Communication Plan) pre-filled as a model.
-- **Extension:** Teams add a "Day 2-7 Recovery Plan" section that addresses what happens AFTER the first 24 hours — sheltering, food distribution, mental health support.
+- **Extension:** Teams add a "Day 2-7 Recovery Plan" section that addresses what happens AFTER the first 24 hours, sheltering, food distribution, mental health support.
 - **ELL:** Bilingual rubric and presentation evaluation form. Pair ESL students with bilingual peers as their presentation co-presenter. Visual icons on the role cards (firetruck, ambulance, badge) reduce language load.

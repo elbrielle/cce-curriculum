@@ -29,8 +29,8 @@ A 36-week career exploration course taught in **VILS labs across Irving ISD midd
 
 1. Start with the **[Scope & Sequence](scope-and-sequence.md)** to see the full year at a glance.
 2. Pick a **Six Weeks block** from the left nav, then a **Week**, then an **Overview** or **Day** page.
-3. When you find something missing you would need to teach — slides, a worksheet, an answer key — log it in the **[Resources Status & Backlog](resources/resources-status.md)** so it gets added to the build queue.
+3. When you find something missing you would need to teach (slides, a worksheet, an answer key), log it in the **[Resources Status & Backlog](resources/resources-status.md)** so it gets added to the build queue.
 
 ## Prototype week to read first
 
-If you are new to this curriculum, start with **5th Six Weeks — Week 1: Architecture** ([Overview](5sw/wk1-architecture/overview.md) + [Day 1](5sw/wk1-architecture/day1.md)). It was the first week built and the format reference for all the others — so reading it gives you the clearest sense of the shape every week follows.
+If you are new to this curriculum, start with **5th Six Weeks. Week 1: Architecture** ([Overview](5sw/wk1-architecture/overview.md) + [Day 1](5sw/wk1-architecture/day1.md)). It was the first week built and the format reference for all the others, so reading it gives you the clearest sense of the shape every week follows.

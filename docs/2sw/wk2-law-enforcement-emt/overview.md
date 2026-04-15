@@ -21,9 +21,9 @@ Students explore law enforcement, EMT, and firefighter careers through Hats & La
 
 - Chromebooks with internet access (1 per student)
 - Hats & Ladders student accounts + H&L Workbook (Ch 13: Law and Public Service, pp. 217-225)
-- BLS — Police and Detectives: [bls.gov/ooh/protective-service/police-and-detectives.htm](https://www.bls.gov/ooh/protective-service/police-and-detectives.htm)
-- BLS — EMTs and Paramedics: [bls.gov/ooh/healthcare/emts-and-paramedics.htm](https://www.bls.gov/ooh/healthcare/emts-and-paramedics.htm)
-- BLS — Firefighters: [bls.gov/ooh/protective-service/firefighters.htm](https://www.bls.gov/ooh/protective-service/firefighters.htm)
+- BLS, Police and Detectives: [bls.gov/ooh/protective-service/police-and-detectives.htm](https://www.bls.gov/ooh/protective-service/police-and-detectives.htm)
+- BLS, EMTs and Paramedics: [bls.gov/ooh/healthcare/emts-and-paramedics.htm](https://www.bls.gov/ooh/healthcare/emts-and-paramedics.htm)
+- BLS, Firefighters: [bls.gov/ooh/protective-service/firefighters.htm](https://www.bls.gov/ooh/protective-service/firefighters.htm)
 - Roadtrip Nation career documentaries: [roadtripnation.com/explore](https://roadtripnation.com/explore)
 - Printed First Responder Training Comparison worksheet (5 columns: Career, Entry Path, Time, Cert/Degree, DFW Salary)
 - Printed Missing Painting detective worksheet (suspects, evidence, witness statements)
@@ -33,9 +33,9 @@ Students explore law enforcement, EMT, and firefighter careers through Hats & La
 
 ## Career Connection
 
-First responders are the backbone of public safety. Police officers, EMTs, paramedics, and firefighters put themselves at risk to protect communities. These careers require physical fitness, quick thinking, emotional resilience, and absolute integrity. Many first responders enter through military service, police academies, or short EMT certification programs — not through traditional 4-year college pathways. This is one of the few high-demand career fields where a 17-year-old can graduate high school and be working full-time within 12 months.
+First responders are the backbone of public safety. Police officers, EMTs, paramedics, and firefighters put themselves at risk to protect communities. These careers require physical fitness, quick thinking, emotional resilience, and absolute integrity. Many first responders enter through military service, police academies, or short EMT certification programs, not through traditional 4-year college pathways. This is one of the few high-demand career fields where a 17-year-old can graduate high school and be working full-time within 12 months.
 
-**Irving ISD Pathway:** Law Enforcement at Singley Academy — leads to the Non-Commissioned Security Officer Level II certification, which prepares students for entry-level security and pre-academy work.
+**Irving ISD Pathway:** Law Enforcement at Singley Academy, leads to the Non-Commissioned Security Officer Level II certification, which prepares students for entry-level security and pre-academy work.
 
 ## Vocabulary
 
@@ -50,8 +50,8 @@ First responders are the backbone of public safety. Police officers, EMTs, param
 
 The H&L workbook (Ch 13: Law and Public Service, pp. 217-225) anchors this week with two major activities:
 
-- **Missing Painting** (Day 2, pp. 217-219) — A detective scenario with 4 suspects, 5 pieces of evidence, and 5 witness statements. Students review evidence, identify the thief, and present their case.
-- **Local Risk Response** (Days 3-4, pp. 223-225) — A multi-day Career Lab project where teams form an Emergency Response Task Force for the City of Silver Ridge (population 72,000). Teams pick an emergency, assign public-service roles, and develop both individual response plans and a citywide emergency plan using the workbook's City Infrastructure Guide and historical case files (Hurricane Calder, etc.).
+- **Missing Painting** (Day 2, pp. 217-219): A detective scenario with 4 suspects, 5 pieces of evidence, and 5 witness statements. Students review evidence, identify the thief, and present their case.
+- **Local Risk Response** (Days 3-4, pp. 223-225): A multi-day Career Lab project where teams form an Emergency Response Task Force for the City of Silver Ridge (population 72,000). Teams pick an emergency, assign public-service roles, and develop both individual response plans and a citywide emergency plan using the workbook's City Infrastructure Guide and historical case files (Hurricane Calder, etc.).
 
 The Hat Research template (Ch 13, p. 220) is used as the day-to-day career research format.
 
@@ -67,17 +67,17 @@ The Hat Research template (Ch 13, p. 220) is used as the day-to-day career resea
 | Day | Focus | Key Activities | Deliverable |
 |-----|-------|---------------|-------------|
 | 1 | First Responder Pathways | H&L Law Enforcement Services + Fire Science pathways, From the Field videos, training comparison intro | First Responder Training Comparison (3 of 5 rows complete) |
-| 2 | Missing Painting Detective | H&L Ch 13 "Missing Painting" (pp. 217-219) — review evidence, identify thief, write case summary | Completed Missing Painting case summary + suspect identification |
-| 3 | Local Risk Response (Setup) | H&L Ch 13 "Local Risk Response" (pp. 223-225) — read Silver Ridge city brief + case files, assign team roles | Team role assignments + chosen emergency scenario |
+| 2 | Missing Painting Detective | H&L Ch 13 "Missing Painting" (pp. 217-219): review evidence, identify thief, write case summary | Completed Missing Painting case summary + suspect identification |
+| 3 | Local Risk Response (Setup) | H&L Ch 13 "Local Risk Response" (pp. 223-225): read Silver Ridge city brief + case files, assign team roles | Team role assignments + chosen emergency scenario |
 | 4 | Local Risk Response (Plans) | Individual role-specific response plans + combined Citywide Emergency Plan + team presentation | Citywide Emergency Plan poster + role briefings |
 | 5 | Cluster Wrap-Up + Reflection | H&L favorites finalization, Roadtrip Nation video, integrity discussion, complete training comparison | Updated Climber Profile + completed Training Comparison + reflection |
 
 ## Formative Assessment
 
-- First Responder Training Comparison worksheet accuracy (Day 1, Day 5) — d(2)(A)
-- Missing Painting case logic and use of evidence (Day 2) — d(1)(C)
-- Local Risk Response team participation and role plan quality (Days 3-4) — d(1)(C), d(4)(F)
-- Integrity discussion responses (Day 4) — d(4)(F)
+- First Responder Training Comparison worksheet accuracy (Day 1, Day 5): d(2)(A)
+- Missing Painting case logic and use of evidence (Day 2): d(1)(C)
+- Local Risk Response team participation and role plan quality (Days 3-4): d(1)(C), d(4)(F)
+- Integrity discussion responses (Day 4): d(4)(F)
 
 ## Summative Assessment
 
@@ -96,7 +96,7 @@ The Hat Research template (Ch 13, p. 220) is used as the day-to-day career resea
 
 - Compare military first responder pathways (Combat Medic, Military Police) with civilian pathways. Where do they overlap?
 - Research a real first responder you know (school resource officer, family member) and create a 1-page profile
-- Write an alternate ending for the Missing Painting where a different suspect is the thief — what evidence would have to change?
+- Write an alternate ending for the Missing Painting where a different suspect is the thief, what evidence would have to change?
 - Build a 4-year plan for the Singley Academy Law Enforcement pathway including dual-credit options
 
 ### ELL Language Support

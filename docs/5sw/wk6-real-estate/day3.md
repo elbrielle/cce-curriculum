@@ -24,19 +24,19 @@ Collect 2-3 responses. Most students see the appeal (freedom, no boss, unlimited
 
 **Source:** Scope and sequence d(3)(I) + Ch 5 pathway on Entrepreneurship
 
-Remind students of the entrepreneurship work from 3rd Six Weeks (Think Inside the Box subscription box project, Pitching Investors). Real estate is a direct application of those same entrepreneurship concepts — but instead of building a new product, you sell homes that already exist.
+Remind students of the entrepreneurship work from 3rd Six Weeks (Think Inside the Box subscription box project, Pitching Investors). Real estate is a direct application of those same entrepreneurship concepts, but instead of building a new product, you sell homes that already exist.
 
 Walk through why real estate agents are almost always entrepreneurs (not employees):
 
-1. **Independent Contractor Status** — Real estate agents are NOT employees of their brokerage. They work under a broker but receive 1099 income (not W-2). They pay their own taxes, their own health insurance, and their own retirement savings.
+1. **Independent Contractor Status:** Real estate agents are NOT employees of their brokerage. They work under a broker but receive 1099 income (not W-2). They pay their own taxes, their own health insurance, and their own retirement savings.
 
-2. **Personal Brand is Everything** — Your face is on business cards, yard signs, and online listings. You build a reputation as a trusted agent in your neighborhood. Many agents specialize (luxury homes, first-time buyers, investment properties).
+2. **Personal Brand is Everything:** Your face is on business cards, yard signs, and online listings. You build a reputation as a trusted agent in your neighborhood. Many agents specialize (luxury homes, first-time buyers, investment properties).
 
-3. **Marketing Yourself** — Successful agents invest heavily in social media, photography for listings, open houses, and mailers. This is marketing spend — same as any small business owner.
+3. **Marketing Yourself:** Successful agents invest heavily in social media, photography for listings, open houses, and mailers. This is marketing spend, same as any small business owner.
 
-4. **Client Relationships Drive Income** — Most agents' repeat business comes from referrals. Past clients who had a great experience recommend you to friends. This takes years to build.
+4. **Client Relationships Drive Income:** Most agents' repeat business comes from referrals. Past clients who had a great experience recommend you to friends. This takes years to build.
 
-5. **Path to Owning Your Own Brokerage** — Many successful agents eventually become brokers and open their own firm, managing other agents. This is the "next level" of entrepreneurship in real estate.
+5. **Path to Owning Your Own Brokerage:** Many successful agents eventually become brokers and open their own firm, managing other agents. This is the "next level" of entrepreneurship in real estate.
 
 **DOK 3:** Why are real estate agents classified as entrepreneurs even though they work under a broker? Name 3 specific reasons.
 
@@ -46,14 +46,14 @@ Walk through why real estate agents are almost always entrepreneurs (not employe
 
 **Source:** BLS Real Estate Brokers page + Texas Real Estate Research Center ([recenter.tamu.edu](https://www.recenter.tamu.edu)) + optional DFW news articles
 
-The simplest path: project the BLS Real Estate Brokers and Sales Agents page ([bls.gov/ooh/sales/real-estate-brokers-and-sales-agents.htm](https://www.bls.gov/ooh/sales/real-estate-brokers-and-sales-agents.htm)) and the Texas Real Estate Research Center DFW data dashboard for the whole class to read together — no pre-curation needed. If you have time to pre-curate, 2-3 short news articles from Dallas Morning News, D Magazine, or BisNow add local texture, but they are optional enrichment, not required.
+The simplest path: project the BLS Real Estate Brokers and Sales Agents page ([bls.gov/ooh/sales/real-estate-brokers-and-sales-agents.htm](https://www.bls.gov/ooh/sales/real-estate-brokers-and-sales-agents.htm)) and the Texas Real Estate Research Center DFW data dashboard for the whole class to read together, no pre-curation needed. If you have time to pre-curate, 2-3 short news articles from Dallas Morning News, D Magazine, or BisNow add local texture, but they are optional enrichment, not required.
 
 Students read and identify:
 
-- **Population growth drivers** — Corporate relocations (Toyota, Charles Schwab, Goldman Sachs moving DFW HQs), job growth, lower cost of living vs. California
-- **Home price trends** — Median DFW home price has grown significantly over the past 10 years
-- **Inventory challenges** — Not enough homes for the people moving in, which drives prices and commissions up
-- **Who is buying?** — Out-of-state transplants, young professionals, families priced out of Austin
+- **Population growth drivers:** Corporate relocations (Toyota, Charles Schwab, Goldman Sachs moving DFW HQs), job growth, lower cost of living vs. California
+- **Home price trends:** Median DFW home price has grown significantly over the past 10 years
+- **Inventory challenges:** Not enough homes for the people moving in, which drives prices and commissions up
+- **Who is buying?:** Out-of-state transplants, young professionals, families priced out of Austin
 
 Students fill in a DFW Market Analysis notes section with:
 
@@ -74,7 +74,7 @@ Students write a 1-page reflection on the Entrepreneurship Reflection template. 
 3. **Compare a real estate agent to the entrepreneurs you studied in 3rd Six Weeks (subscription box, small business owner). What is similar? What is different?**
 4. **Personal fit:** Do you have characteristics that would fit entrepreneurship (independence, self-motivation, comfort with risk, people skills)? Explain.
 
-**DOK 4:** Based on everything you have learned about entrepreneurship this year — from the clothing company logo project in 3rd Six Weeks to real estate this week — create a set of characteristics that define a successful entrepreneur. Which characteristics do you personally have?
+**DOK 4:** Based on everything you have learned about entrepreneurship this year, from the clothing company logo project in 3rd Six Weeks to real estate this week, create a set of characteristics that define a successful entrepreneur. Which characteristics do you personally have?
 
 ---
 

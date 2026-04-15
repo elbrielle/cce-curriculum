@@ -22,7 +22,7 @@ Collect 2-3 student responses on the board. Do not correct any numbers — the s
 
 ## Activity 1: Xello "Quick Sims: The Real Game" (35 min)
 
-**Source:** Xello 7th-Grade Task List — Quick Sims: The Real Game
+**Source:** Xello 7th-Grade Task List. Quick Sims: The Real Game
 
 Direct students to log into Xello and navigate to **Quick Sims**. The Real Game simulation puts students into a young adult scenario where they make decisions about housing, transportation, food, entertainment, and savings based on a realistic salary tied to a career.
 
@@ -41,10 +41,10 @@ Students work through the simulation independently. As they make each decision, 
 | Savings | | | |
 | Insurance / Healthcare | | | |
 
-The decision log is critical — without it, the simulation becomes a video game students click through. With it, students see the math piling up against their early choices.
+The decision log is critical. Without it, the simulation becomes a video game students click through. With it, students see the math piling up against their early choices.
 
 !!! tip "Facilitation Tip"
-    Circulate aggressively for the first 10 minutes. Students who skip the decision log lose the entire point of the activity. If a student finishes the Sim in under 5 minutes, they clicked through without thinking — make them restart and log every decision.
+    Circulate aggressively for the first 10 minutes. Students who skip the decision log lose the entire point of the activity. If a student finishes the Sim in under 5 minutes, they clicked through without thinking, make them restart and log every decision.
 
 !!! note "Common Misstep"
     Students will pick the cheapest option for everything to "win" the simulation. Stop the room at minute 15 and remind them: this is not a game with a winner. The point is to see the consequences of realistic choices, not to maximize savings.
@@ -60,7 +60,7 @@ After students complete the Sim, run a quick whole-class debrief. Ask:
 3. Who picked an expensive lifestyle and could afford it? What career did you have?
 4. Who picked a cheap lifestyle on purpose? Why?
 
-The pattern that almost always emerges: students who picked a high-paying career could afford their lifestyle; students who picked a meaningful-but-lower-paying career could not. Surface this without judging — both choices are valid in real life. The point is to make the tradeoff visible.
+The pattern that almost always emerges: students who picked a high-paying career could afford their lifestyle; students who picked a meaningful-but-lower-paying career could not. Surface this without judging, both choices are valid in real life. The point is to make the tradeoff visible.
 
 **DOK 3:** What conclusions can you draw about the relationship between the career you want and the lifestyle you can afford? Did the simulation change your thinking about your top career from yesterday?
 
@@ -68,7 +68,7 @@ The pattern that almost always emerges: students who picked a high-paying career
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Describe one financial decision you made in the Real Game that surprised you (good or bad surprise). Then explain in one sentence how this connects to the Iceberg Cartoon you built yesterday — what is now "underwater" for you that you had not seen before? *(d(1)(A))*
+**EXIT TICKET:** Describe one financial decision you made in the Real Game that surprised you (good or bad surprise). Then explain in one sentence how this connects to the Iceberg Cartoon you built yesterday, what is now "underwater" for you that you had not seen before? *(d(1)(A))*
 
 ---
 
@@ -76,4 +76,4 @@ The pattern that almost always emerges: students who picked a high-paying career
 
 - **Support:** Pre-print the decision log with the categories already filled in. Students only have to add their choices and the dollar amounts. For students who struggle with budgeting math, pair them with a partner who tracks the running total while they make choices.
 - **Extension:** After completing the Sim once, restart it with a different career (one that pays significantly less or more). Compare the two budget outcomes side by side. Which lifestyle was more sustainable?
-- **ELL:** Xello includes Spanish-language interface options — confirm with your district admin and direct ESL students to the language toggle if available. Pre-teach: Budget = Presupuesto, Salary = Salario, Expense = Gasto, Savings = Ahorros, Rent = Alquiler.
+- **ELL:** Xello includes Spanish-language interface options, confirm with your district admin and direct ESL students to the language toggle if available. Pre-teach: Budget = Presupuesto, Salary = Salario, Expense = Gasto, Savings = Ahorros, Rent = Alquiler.

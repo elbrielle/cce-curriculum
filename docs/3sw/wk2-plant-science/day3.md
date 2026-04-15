@@ -38,17 +38,17 @@ Verify all students have a blank or simple infographic open before continuing.
 
 ## Activity 2: Build the Infographic (30 min)
 
-**Source:** H&L Workbook Ch 2, p. 25 — "Step 2: Create Your Infographic"
+**Source:** H&L Workbook Ch 2, p. 25, "Step 2: Create Your Infographic"
 
 Students follow their paper sketch from Day 2 to build the infographic in Canva. Each infographic must include:
 
-- **Title** at the top: "From Sunny Fields to Your Table — [Crop Name]"
+- **Title** at the top: "From Sunny Fields to Your Table, [Crop Name]"
 - **Sunny Fields Farm logo** spot (use Canva's "Elements" → Shapes to create a simple text logo, or use a sun icon)
 - **At least 4 numbered steps** with:
     - A short heading (e.g., "1. Planting")
     - A 1-sentence description
     - An icon or image (search Canva's free icon library)
-- **One fun fact box** (e.g., "Strawberries are not actually berries — they're aggregate fruit!")
+- **One fun fact box** (e.g., "Strawberries are not actually berries, they're aggregate fruit!")
 - **Color scheme** that matches the crop (red/green for strawberries, purple/green for grapes, etc.)
 
 Walk around and check students are following their sketch, not getting lost in Canva's font menus.
@@ -68,7 +68,7 @@ After 25 minutes of building, give students a 5-minute "polish + export" warning
 
 ## Activity 3: Quick Show + Tell (3 min)
 
-In the last 3 minutes, ask 2-3 volunteers to display their infographic on the projector and share one design choice they made. This gives students a sense of how others approached the same task — different crops, different layouts, different fun facts.
+In the last 3 minutes, ask 2-3 volunteers to display their infographic on the projector and share one design choice they made. This gives students a sense of how others approached the same task, different crops, different layouts, different fun facts.
 
 ---
 
@@ -82,4 +82,4 @@ In the last 3 minutes, ask 2-3 volunteers to display their infographic on the pr
 
 - **Support:** Provide a pre-built Canva template (shared via Canva for Education classroom feature) with all 4 step boxes already laid out. Students fill in the text and icons rather than designing from scratch.
 - **Extension:** Add a fifth step that shows what happens to the food after the customer takes it home (e.g., washed, eaten, composted). This connects to the sustainability theme in Week 3.
-- **ELL:** Bilingual infographic — design with both English and Spanish labels for each step. Canva supports both languages in the same design.
+- **ELL:** Bilingual infographic, design with both English and Spanish labels for each step. Canva supports both languages in the same design.

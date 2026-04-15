@@ -25,9 +25,9 @@ Students explore the Health Science career cluster through Hats & Ladders, inves
 - micro:bit devices (1 per team of 2-3 students)
 - Microsoft MakeCode for micro:bit: [makecode.microbit.org](https://makecode.microbit.org)
 
-- BLS — Registered Nurses: [bls.gov/ooh/healthcare/registered-nurses.htm](https://www.bls.gov/ooh/healthcare/registered-nurses.htm)
-- BLS — Nurse Practitioners: [bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm](https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm)
-- BLS — Nursing Assistants: [bls.gov/ooh/healthcare/nursing-assistants.htm](https://www.bls.gov/ooh/healthcare/nursing-assistants.htm)
+- BLS, Registered Nurses: [bls.gov/ooh/healthcare/registered-nurses.htm](https://www.bls.gov/ooh/healthcare/registered-nurses.htm)
+- BLS, Nurse Practitioners: [bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm](https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm)
+- BLS, Nursing Assistants: [bls.gov/ooh/healthcare/nursing-assistants.htm](https://www.bls.gov/ooh/healthcare/nursing-assistants.htm)
 - eDynamic Learning Unit 4.2 Part 2: Experimenting with Careers
 - Xello accounts (Learning Styles Lesson)
 - Printed Nursing Career Ladder worksheet (4 levels × 5 columns)
@@ -36,9 +36,9 @@ Students explore the Health Science career cluster through Hats & Ladders, inves
 
 ## Career Connection
 
-Nursing is one of the most in-demand and rewarding career fields in America. The DFW metroplex has a documented nursing shortage, meaning job opportunities are abundant for qualified candidates at every level. What makes nursing unique is the career LADDER — students can enter as a CNA with just 4-12 weeks of training, then climb through LVN, RN, and Nurse Practitioner. Each step up means more education, more responsibility, and more salary. This visible, climbable structure makes nursing especially appealing to students who want a clear pathway with options to grow.
+Nursing is one of the most in-demand and rewarding career fields in America. The DFW metroplex has a documented nursing shortage, meaning job opportunities are abundant for qualified candidates at every level. What makes nursing unique is the career LADDER: students can enter as a CNA with just 4-12 weeks of training, then climb through LVN, RN, and Nurse Practitioner. Each step up means more education, more responsibility, and more salary. This visible, climbable structure makes nursing especially appealing to students who want a clear pathway with options to grow.
 
-**Irving ISD Pathway:** Nursing Science at Singley Academy — leads to Patient Care Technician and Phlebotomy certifications. Students who complete the pathway in high school can enter the workforce immediately or use the credentials as a stepping stone toward LVN or RN programs.
+**Irving ISD Pathway:** Nursing Science at Singley Academy, leads to Patient Care Technician and Phlebotomy certifications. Students who complete the pathway in high school can enter the workforce immediately or use the credentials as a stepping stone toward LVN or RN programs.
 
 ## Vocabulary
 
@@ -47,11 +47,11 @@ Nursing is one of the most in-demand and rewarding career fields in America. The
 - **RN (Registered Nurse):** A nurse who provides and coordinates patient care. Requires an associate degree (ADN, ~2 years) or bachelor's degree (BSN, ~4 years) in nursing.
 - **Nurse Practitioner (NP):** An advanced practice nurse who can diagnose conditions, prescribe medications, and manage patient care independently. Requires a master's or doctoral degree (~6-8 years total after high school).
 - **Career Ladder:** A progression of jobs within a field where each step requires more education and offers higher pay and responsibility.
-- **Vital Signs:** Measurements of the body's most basic functions — heart rate, body temperature, respiration rate, and blood pressure — that nurses monitor to assess patient health.
+- **Vital Signs:** Measurements of the body's most basic functions, heart rate, body temperature, respiration rate, and blood pressure, that nurses monitor to assess patient health.
 
 ## Bridge to Theory (Hats & Ladders)
 
-The H&L workbook (Ch 9: Health Science, pp. 138-148) opens with descriptions of five Health Science pathways: Exercise Science / Wellness and Restoration, Nursing Science, Health Informatics, Diagnostic & Therapeutic Services, and Biomedical Science. The chapter's "Making Connections" activity asks students to discuss a healthcare tool (thermometer, X-ray, blood pressure monitor) — which is the perfect entry to this week's micro:bit vital signs project. The Hat Research template (Ch 9, p. 148) is the structured format for documenting the nursing careers students explore. The H&L app provides localized DFW salary and demand data that powers the salary comparison and the career-ladder analysis.
+The H&L workbook (Ch 9: Health Science, pp. 138-148) opens with descriptions of five Health Science pathways: Exercise Science / Wellness and Restoration, Nursing Science, Health Informatics, Diagnostic & Therapeutic Services, and Biomedical Science. The chapter's "Making Connections" activity asks students to discuss a healthcare tool (thermometer, X-ray, blood pressure monitor): which is the perfect entry to this week's micro:bit vital signs project. The Hat Research template (Ch 9, p. 148) is the structured format for documenting the nursing careers students explore. The H&L app provides localized DFW salary and demand data that powers the salary comparison and the career-ladder analysis.
 
 ## IISD Instructional Strategies
 
@@ -66,16 +66,16 @@ The H&L workbook (Ch 9: Health Science, pp. 138-148) opens with descriptions of 
 |-----|-------|---------------|-------------|
 | 1 | Health Science Cluster + CNA | H&L Ch 9 cluster tour, Making Connections, begin Hat Research, fill CNA + LVN ladder rows | Hat Research template (1 nursing career) + 2 of 4 ladder rows |
 | 2 | Climbing the Nursing Ladder | Complete RN + NP rows, salary analysis, BLS verification | Nursing Career Ladder worksheet (all 4 rows complete) |
-| 3 | Vital Signs Monitor — Build | micro:bit + MakeCode: program Button A heart rate + Button B temperature with LED display | Working MakeCode program (Button A + B both display vital signs) |
-| 4 | Vital Signs Monitor — Test + Present | Add alarm features, optional LEGO housing, team presentations | Demo of working monitor + presentation tying to nursing career |
+| 3 | Vital Signs Monitor. Build | micro:bit + MakeCode: program Button A heart rate + Button B temperature with LED display | Working MakeCode program (Button A + B both display vital signs) |
+| 4 | Vital Signs Monitor. Test + Present | Add alarm features, optional LEGO housing, team presentations | Demo of working monitor + presentation tying to nursing career |
 | 5 | Reflection + Xello + eDynamic | Xello Learning Styles, eDynamic 4.2 Part 2, H&L favorites finalization | Updated Climber Profile + Xello Learning Styles result + reflection |
 
 ## Formative Assessment
 
-- Stop and Jot notes from cluster tour (Day 1) — d(1)(B)
-- Nursing Career Ladder worksheet accuracy (Days 1-2) — d(2)(A), d(5)(E)
-- MakeCode program functionality (Days 3-4) — d(1)(C)
-- eDynamic 4.2 Part 2 unit completion (Day 5) — d(1)(C)
+- Stop and Jot notes from cluster tour (Day 1): d(1)(B)
+- Nursing Career Ladder worksheet accuracy (Days 1-2): d(2)(A), d(5)(E)
+- MakeCode program functionality (Days 3-4): d(1)(C)
+- eDynamic 4.2 Part 2 unit completion (Day 5): d(1)(C)
 
 ## Summative Assessment
 
@@ -87,7 +87,7 @@ The H&L workbook (Ch 9: Health Science, pp. 138-148) opens with descriptions of 
 
 - Pre-filled career ladder worksheet with the CNA level completed as a model
 - MakeCode starter file with one variable and one button block already built
-- Pair work option for MakeCode — one student codes, the other reads the workbook instructions aloud
+- Pair work option for MakeCode, one student codes, the other reads the workbook instructions aloud
 - BLS data finder cheat sheet showing exactly which page and section to read for each nursing career
 
 ### Extensions

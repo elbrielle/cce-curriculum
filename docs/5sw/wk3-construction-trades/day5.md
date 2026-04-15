@@ -14,9 +14,9 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Would you consider working in the construction trades? Be honest — yes, no, or maybe. Write one reason why.**
+**WARM-UP: Would you consider working in the construction trades? Be honest, yes, no, or maybe. Write one reason why.**
 
-Collect 2-3 responses — do not judge answers. The purpose is to give students space to reflect before presentations. Some students will never pursue trades, but they should leave the week respecting the field and understanding it as a legitimate career path.
+Collect 2-3 responses, do not judge answers. The purpose is to give students space to reflect before presentations. Some students will never pursue trades, but they should leave the week respecting the field and understanding it as a legitimate career path.
 
 ---
 
@@ -24,10 +24,10 @@ Collect 2-3 responses — do not judge answers. The purpose is to give students 
 
 Teams assembled on Day 2 (by trade: Carpenter, Construction Manager, Mason, Heavy Equipment Operator) give their Jigsaw presentations. Each team gets **3 minutes** to cover:
 
-1. **Career overview** — what does this trade do daily?
-2. **Education/training pathway** — apprenticeship length, NCCER certs, any licensing
-3. **DFW salary range** — entry, mid-career, and top earners
-4. **Job outlook** — is it high-demand? Why?
+1. **Career overview:** what does this trade do daily?
+2. **Education/training pathway:** apprenticeship length, NCCER certs, any licensing
+3. **DFW salary range:** entry, mid-career, and top earners
+4. **Job outlook:** is it high-demand? Why?
 5. **Trade unions or professional associations** for this career
 6. **One surprising fact** they learned
 
@@ -40,7 +40,7 @@ Classmates listen and complete a note-taking sheet with one key fact per trade. 
 
 ## Activity 2: Power Pitch Practice + Peer Feedback (12 min)
 
-**Source:** H&L Workbook Ch 3, p. 43 — "Step 4: Get Peer Feedback and Make Revisions"
+**Source:** H&L Workbook Ch 3, p. 43, "Step 4: Get Peer Feedback and Make Revisions"
 
 Students pair up and practice their Power Pitch from Day 4. The workbook instructs: *"Pair up with a classmate and read your Power Pitch aloud at least two times. Ask your classmate for constructive feedback. Use the suggestions to polish your pitch. Practice reading it out loud at least two more times."*
 
@@ -54,9 +54,9 @@ Students pair up and practice their Power Pitch from Day 4. The workbook instruc
 
 **Round 2:** Partners switch.
 
-**Round 3:** Each student revises their pitch based on feedback and reads it one more time to their partner. The workbook calls this "polishing" — small changes that make the pitch sound more natural and confident.
+**Round 3:** Each student revises their pitch based on feedback and reads it one more time to their partner. The workbook calls this "polishing", small changes that make the pitch sound more natural and confident.
 
-Students write their final Power Pitch on the workbook page — this is the summative deliverable for the week along with the Classification worksheet.
+Students write their final Power Pitch on the workbook page. This is the summative deliverable for the week along with the Classification worksheet.
 
 **DOK 3:** How does a Power Pitch for a construction apprenticeship differ from a Power Pitch for a retail job? Which part would you change and why?
 
@@ -64,13 +64,13 @@ Students write their final Power Pitch on the workbook page — this is the summ
 
 ## Activity 3: H&L Favorites + Career Plan Update (10 min)
 
-**Source:** H&L Workbook Ch 3 (A&C Hat Finder) + Ch 16 (My Next Steps — Career Plan)
+**Source:** H&L Workbook Ch 3 (A&C Hat Finder) + Ch 16 (My Next Steps: Career Plan)
 
 Direct students to open H&L and complete three tasks:
 
 1. **Favorite 2-3 construction careers** in the Hat Finder from the A&C cluster. Carpenter, Construction Manager, Heavy Equipment Operator, or Mason are natural choices from this week.
-2. **Review Building Blocks** — Do their Building Blocks (likes, skills, experiences) now connect to construction or trades? Students who helped build something at home, played construction video games, or enjoyed hands-on classes should note the connection.
-3. **Open the Career Plan** (Ch 16) and make sure A&C is represented alongside their earlier favorites. By this point in the year, students have explored 12+ career clusters — their Career Plan should show clear trends in what they are drawn to.
+2. **Review Building Blocks:** Do their Building Blocks (likes, skills, experiences) now connect to construction or trades? Students who helped build something at home, played construction video games, or enjoyed hands-on classes should note the connection.
+3. **Open the Career Plan** (Ch 16) and make sure A&C is represented alongside their earlier favorites. By this point in the year, students have explored 12+ career clusters. Their Career Plan should show clear trends in what they are drawn to.
 
 ---
 
@@ -83,5 +83,5 @@ Direct students to open H&L and complete three tasks:
 ## Differentiation
 
 - **Support:** Allow students uncomfortable with oral Power Pitch practice to submit a written pitch instead. They still get credit for the writing component. They practice it silently with a peer review partner.
-- **Extension:** "Unexpected Architecture" project (H&L Ch 3, pp. 48-54) — design a novelty building landmark for the city of Brighton Ridge. This is the optional multi-step H&L project with a city brief, rubric, and peer review.
-- **ELL:** Power Pitch feedback form with Spanish column headers. Pair ELL students with bilingual peers. Power Pitch is a life skill — students may choose the language they are most confident speaking in.
+- **Extension:** "Unexpected Architecture" project (H&L Ch 3, pp. 48-54): design a novelty building landmark for the city of Brighton Ridge. This is the optional multi-step H&L project with a city brief, rubric, and peer review.
+- **ELL:** Power Pitch feedback form with Spanish column headers. Pair ELL students with bilingual peers. Power Pitch is a life skill. Students may choose the language they are most confident speaking in.

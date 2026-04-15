@@ -16,7 +16,7 @@
 
 **WARM-UP: Name one thing you have heard about high school that worries you AND one thing you are excited about. Write both.**
 
-Take 4-5 student responses. Validate both the worry and the excitement. Bridge: high school decisions get made in 8th grade. The 9th-grade course you pick determines what is available to you in 10th, 11th, and 12th — so the planning we do today actually matters.
+Take 4-5 student responses. Validate both the worry and the excitement. Bridge: high school decisions get made in 8th grade. The 9th-grade course you pick determines what is available to you in 10th, 11th, and 12th, so the planning we do today actually matters.
 
 ---
 
@@ -33,17 +33,17 @@ Project a one-page summary of the Texas Foundation HS Program. Walk students thr
 - **4 social studies credits** (World Geography or History, US History, Government, Economics)
 - **2 language other than English credits** (usually Spanish I & II)
 - **1 PE + 1 Fine Arts**
-- **5+ elective credits** — this is where CTE pathways live
+- **5+ elective credits:** this is where CTE pathways live
 
 The CTE elective credits are how students earn their pathway. Most pathways take 4-8 elective credits across 9th-12th grade.
 
-Then introduce the **5 Texas endorsements** — students must pick at least one to graduate under the standard plan:
+Then introduce the **5 Texas endorsements:** students must pick at least one to graduate under the standard plan:
 
-1. **STEM** — engineering, computer science, advanced math/science
-2. **Business & Industry** — manufacturing, IT, agriculture, marketing, transportation
-3. **Public Services** — health science, education, law enforcement, hospitality, human services
-4. **Arts & Humanities** — fine arts, world languages, social studies
-5. **Multidisciplinary Studies** — broader mix without a single specialization
+1. **STEM:** engineering, computer science, advanced math/science
+2. **Business & Industry:** manufacturing, IT, agriculture, marketing, transportation
+3. **Public Services:** health science, education, law enforcement, hospitality, human services
+4. **Arts & Humanities:** fine arts, world languages, social studies
+5. **Multidisciplinary Studies:** broader mix without a single specialization
 
 Each Irving ISD CTE pathway maps to one of these endorsements. Students will use this match-up in the next activity.
 
@@ -70,7 +70,7 @@ Students record on their MS-to-HS Transition worksheet:
 - **The endorsement that matches:** _____
 - **Two CTE courses I might take in 9th and 10th grade:** _____ (use Texas OnCourse to verify)
 
-> [VERIFY] Students access [texasoncourse.org](https://texasoncourse.org) and search for sample course sequences for their endorsement. The Texas OnCourse "MapMyGrad" tool offers visual course mapping examples — confirm the current URL with your district counselor before class.
+> [VERIFY] Students access [texasoncourse.org](https://texasoncourse.org) and search for sample course sequences for their endorsement. The Texas OnCourse "MapMyGrad" tool offers visual course mapping examples, confirm the current URL with your district counselor before class.
 
 !!! tip "Facilitation Tip"
     A few students will discover their pathway is NOT at their geographically-assigned high school. This is the moment to teach them about Irving ISD's choice/transfer system. Direct them to talk to their counselor about applying for the campus that offers their pathway.
@@ -81,11 +81,11 @@ Students record on their MS-to-HS Transition worksheet:
 
 Walk students through the standardized tests they will hear about in high school:
 
-- **PSAT** — practice for the SAT, taken in 10th and 11th grade. National Merit Scholarship qualifier.
-- **SAT / ACT** — used for college admissions. Most Texas colleges accept both.
-- **TSI (Texas Success Initiative)** — required for students entering Texas community colleges and 4-year universities to test into college-level courses.
-- **ASVAB** — required for military enlistment. Tests math, vocabulary, mechanical reasoning, electronics. Used to qualify for military jobs.
-- **Industry Certifications** — many CTE pathways end with an industry exam (e.g., FAA Part 107 for drones, ASE for automotive, AutoDesk Revit for architecture).
+- **PSAT:** practice for the SAT, taken in 10th and 11th grade. National Merit Scholarship qualifier.
+- **SAT / ACT:** used for college admissions. Most Texas colleges accept both.
+- **TSI (Texas Success Initiative):** required for students entering Texas community colleges and 4-year universities to test into college-level courses.
+- **ASVAB:** required for military enlistment. Tests math, vocabulary, mechanical reasoning, electronics. Used to qualify for military jobs.
+- **Industry Certifications:** many CTE pathways end with an industry exam (e.g., FAA Part 107 for drones, ASE for automotive, AutoDesk Revit for architecture).
 
 Students mark on their worksheet which test is most relevant to their postsecondary plan:
 - College-bound → SAT, ACT, TSI
@@ -105,5 +105,5 @@ Students mark on their worksheet which test is most relevant to their postsecond
 ## Differentiation
 
 - **Support:** Pre-filled worksheet with the endorsement options visible as a checklist. Students just check the matching endorsement instead of writing it. Pair with a peer to find the pathway on the wall poster.
-- **Extension:** Research the specific industry certification their pathway leads to (FAA Part 107, ASE, Revit, CCNA, etc.) — find the exam cost, age requirement, and what it qualifies them to do.
+- **Extension:** Research the specific industry certification their pathway leads to (FAA Part 107, ASE, Revit, CCNA, etc.): find the exam cost, age requirement, and what it qualifies them to do.
 - **ELL:** Bilingual MS-to-HS worksheet with Spanish endorsement names: STEM = STEM, Business & Industry = Negocios e Industria, Public Services = Servicios Públicos, Arts & Humanities = Artes y Humanidades, Multidisciplinary = Multidisciplinario.

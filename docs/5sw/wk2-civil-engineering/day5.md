@@ -14,15 +14,15 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: When engineers investigate why a structure failed, what kinds of questions do they ask? (Example: a section of highway settles unevenly after a few years — who figures out why?)**
+**WARM-UP: When engineers investigate why a structure failed, what kinds of questions do they ask? (Example: a section of highway settles unevenly after a few years, who figures out why?)**
 
-Discuss briefly. The answer is **forensic structural engineers** — civil engineers who specialize in failure analysis. Every failure teaches the next design, which is why engineering is about both building things AND understanding why they fail. This framing matters for today's results: some bridges held more, some less, and both types of outcomes have lessons.
+Discuss briefly. The answer is **forensic structural engineers:** civil engineers who specialize in failure analysis. Every failure teaches the next design, which is why engineering is about both building things AND understanding why they fail. This framing matters for today's results: some bridges held more, some less, and both types of outcomes have lessons.
 
 ---
 
 ## Activity 1: Results Share-Out + Team Presentations (15 min)
 
-Post the Day 4 results whiteboard prominently — show the weights each bridge held, but do not rank publicly from high to low. The goal is pattern-finding, not winners and losers. Recognize the team with the best strength-to-weight ratio (lightest bridge that held meaningful weight) and the team with the most creative structural approach in addition to the highest-weight team, so every kind of engineering thinking gets named.
+Post the Day 4 results whiteboard prominently, show the weights each bridge held, but do not rank publicly from high to low. The goal is pattern-finding, not winners and losers. Recognize the team with the best strength-to-weight ratio (lightest bridge that held meaningful weight) and the team with the most creative structural approach in addition to the highest-weight team, so every kind of engineering thinking gets named.
 
 Each team gives a **60-second rapid presentation** covering:
 
@@ -32,7 +32,7 @@ Each team gives a **60-second rapid presentation** covering:
 4. **Our redesign:** What we would change.
 
 !!! tip "Facilitation Tip"
-    Use a 60-second timer on the projector. Keep presentations fast and consistent. Students watching should note which designs held the most — it informs class discussion about triangles vs. beams.
+    Use a 60-second timer on the projector. Keep presentations fast and consistent. Students watching should note which designs held the most, it informs class discussion about triangles vs. beams.
 
 After presentations, lead a 3-minute class discussion: What pattern do you see in the top-performing bridges? (Expect: trusses, triangular reinforcement, and bundled straws rather than single straws.)
 
@@ -42,23 +42,23 @@ After presentations, lead a 3-minute class discussion: What pattern do you see i
 
 ## Activity 2: H&L Engineering Career Favorites + Career Plan (15 min)
 
-**Source:** H&L Workbook Ch 8 (Engineering) and Ch 16 (My Next Steps — Career Plan)
+**Source:** H&L Workbook Ch 8 (Engineering) and Ch 16 (My Next Steps: Career Plan)
 
 Direct students to open H&L and complete three tasks:
 
 1. **Favorite at least 2-3 engineering careers** using the Hat Finder. Civil Engineer, Structural Engineer, and Environmental Engineer are the natural fits from this week. Students may also favorite Mechanical/Aerospace Engineer or Drone Engineer if those interest them.
-2. **Review Building Blocks** — Do any of their Building Blocks (likes, skills, experiences) connect to engineering? (Math, problem-solving, building with LEGOs, video games involving building systems all count.)
-3. **Open the Career Plan** (Ch 16) in H&L and add engineering to their list of explored clusters. The Career Plan accumulates data across the year — by this point students have favorites from Manufacturing, IT, Law, Health Science, Ag, Hospitality, Business, Career Planning, Transportation, Engineering, and Architecture.
+2. **Review Building Blocks:** Do any of their Building Blocks (likes, skills, experiences) connect to engineering? (Math, problem-solving, building with LEGOs, video games involving building systems all count.)
+3. **Open the Career Plan** (Ch 16) in H&L and add engineering to their list of explored clusters. The Career Plan accumulates data across the year, by this point students have favorites from Manufacturing, IT, Law, Health Science, Ag, Hospitality, Business, Career Planning, Transportation, Engineering, and Architecture.
 
 ---
 
 ## Activity 3: Submit Emerging Engineering Research (7 min)
 
-Students finalize and submit their Emerging Engineering Careers research template from Day 2. Remind them this is part of the summative assessment — it should include:
+Students finalize and submit their Emerging Engineering Careers research template from Day 2. Remind them this is part of the summative assessment. It should include:
 
 - **One emerging engineering career** (Green Building Engineer, Smart Infrastructure Specialist, Sustainability Consultant, or similar)
-- **Why it is emerging** — what technology or societal change made it grow
-- **Education requirements** — the engineering degree plus the specialty certification
+- **Why it is emerging:** what technology or societal change made it grow
+- **Education requirements:** the engineering degree plus the specialty certification
 - **DFW salary estimate** from BLS
 - **Why DFW needs this career**
 
@@ -74,7 +74,7 @@ Short whole-class reflection. Ask:
 - Who now knows what PSAT 8/9 is and when they will take it? (Most should raise hands.)
 - What is the most surprising thing you learned this week?
 
-Preview next week: Construction trades. Students will explore the people who actually BUILD what civil engineers design — carpenters, masons, heavy equipment operators, and construction managers.
+Preview next week: Construction trades. Students will explore the people who actually BUILD what civil engineers design, carpenters, masons, heavy equipment operators, and construction managers.
 
 **DOK 3:** Is engineering a good fit for you based on your RIASEC results, this week's bridge challenge performance, and the education requirements you researched? Write two sentences explaining your position.
 

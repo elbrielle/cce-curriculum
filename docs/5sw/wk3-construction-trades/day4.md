@@ -8,7 +8,7 @@
 | **Objectives** | Explore NCCER certifications and the MacArthur Construction Technology pathway; draft a Power Pitch using the H&L workbook template |
 | **TEKS** | d(2)(A), d(3)(G), d(4)(C) |
 | **Deliverable** | MacArthur pathway map + draft Power Pitch (3-4 sentences) |
-| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 3, pp. 42-43 — Power Pitch), NCCER website, printed MacArthur pathway map, projector |
+| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 3, pp. 42-43, Power Pitch), NCCER website, printed MacArthur pathway map, projector |
 
 ---
 
@@ -16,7 +16,7 @@
 
 **WARM-UP: One new thing you learned about construction this week. Write it down in one sentence.**
 
-Quick share from 3 volunteers. This primes the Power Pitch activity later — students are already thinking about their experience.
+Quick share from 3 volunteers. This primes the Power Pitch activity later. Students are already thinking about their experience.
 
 ---
 
@@ -24,13 +24,13 @@ Quick share from 3 volunteers. This primes the Power Pitch activity later — st
 
 **Source:** [nccer.org](https://www.nccer.org) + Irving ISD Construction Technology pathway
 
-Introduce NCCER — the National Center for Construction Education and Research. NCCER creates the standardized curriculum used by most construction education programs across the country, including Irving ISD.
+Introduce NCCER, the National Center for Construction Education and Research. NCCER creates the standardized curriculum used by most construction education programs across the country, including Irving ISD.
 
 Project the NCCER website and walk through the main credential structure:
 
-- **NCCER CORE** — The foundation credential. Covers basic safety, communication, employability, and hand tools. This is the entry-level NCCER cert that every construction worker needs.
-- **NCCER Level 1, 2, 3, 4** — Trade-specific credentials. Students take a Level 1 for their chosen trade (e.g., Carpentry Level 1), then progress through the levels as they gain experience.
-- **NCCER Instructor Certification** — Advanced credential for training others.
+- **NCCER CORE:** The foundation credential. Covers basic safety, communication, employability, and hand tools. This is the entry-level NCCER cert that every construction worker needs.
+- **NCCER Level 1, 2, 3, 4:** Trade-specific credentials. Students take a Level 1 for their chosen trade (e.g., Carpentry Level 1), then progress through the levels as they gain experience.
+- **NCCER Instructor Certification:** Advanced credential for training others.
 
 **Key point:** MacArthur High School's Construction Technology pathway teaches NCCER CORE on campus, which means Irving ISD students can earn the foundation credential **before** they graduate from high school. A student who completes NCCER CORE in high school walks onto any construction job site with a nationally-recognized credential already in hand.
 
@@ -40,7 +40,7 @@ Project the NCCER website and walk through the main credential structure:
 
 Distribute the MacArthur pathway map handout. Students trace the Irving ISD pathway from middle school to career:
 
-- **Middle School (now):** CCE course — explore A&C careers, complete Hat Research
+- **Middle School (now):** CCE course, explore A&C careers, complete Hat Research
 - **High School at MacArthur:** Construction Technology pathway → NCCER CORE certification
 - **Post-high school options:**
     - Direct to apprenticeship (union or non-union)
@@ -56,7 +56,7 @@ Students identify which post-high school path appeals to them most and why. They
 
 ## Activity 3: H&L Power Pitch Draft (17 min)
 
-**Source:** H&L Workbook Ch 3, pp. 42-43 — "Power Pitch" (Career Climb activity)
+**Source:** H&L Workbook Ch 3, pp. 42-43, "Power Pitch" (Career Climb activity)
 
 Transition to the Power Pitch. Introduce the concept from the workbook: *"A Power Pitch is a short, powerful statement that you can use to quickly tell someone about how great you are! Imagine you're meeting someone who is hiring for a job that is a great fit for you. They say, 'So, tell me about yourself!' This is your moment to shine with your Power Pitch."*
 
@@ -64,19 +64,19 @@ This is a real job skill that construction apprentices need. When applying to a 
 
 **Student task (from H&L workbook):**
 
-**Step 1: Consider Your Building Blocks.** Think about your Building Blocks in H&L — likes, skills, experiences, personal traits. What would a future employer want to hear?
+**Step 1: Consider Your Building Blocks.** Think about your Building Blocks in H&L, likes, skills, experiences, personal traits. What would a future employer want to hear?
 
 **Step 2: Brainstorm Ideas.** Fill in the workbook's Power Pitch table with three columns:
 
-- **EXPERIENCE** — Things you have done that show your best qualities (school projects, sports, family responsibilities, volunteer work)
-- **SKILLS** — Specific abilities you have (good with tools, reliable, good at math, work well in teams)
-- **PERSONAL TRAITS** — Character qualities (hardworking, honest, curious, patient)
+- **EXPERIENCE:** Things you have done that show your best qualities (school projects, sports, family responsibilities, volunteer work)
+- **SKILLS:** Specific abilities you have (good with tools, reliable, good at math, work well in teams)
+- **PERSONAL TRAITS:** Character qualities (hardworking, honest, curious, patient)
 
 **Step 3: Write a draft.** Using the workbook space or a digital tool, students write a 3-4 sentence Power Pitch that starts with their name and introduces their experience, skills, and personal traits.
 
-Example starter: *"Hi, my name is Maya. I have been helping my uncle remodel his house since I was 10, so I know my way around a tool box. I am strong in math and I pay attention to safety. I'm reliable — I show up on time and I finish what I start."*
+Example starter: *"Hi, my name is Maya. I have been helping my uncle remodel his house since I was 10, so I know my way around a tool box. I am strong in math and I pay attention to safety. I'm reliable. I show up on time and I finish what I start."*
 
-Students keep their draft — Day 5 includes practice and peer feedback (Step 4 of the workbook activity).
+Students keep their draft. Day 5 includes practice and peer feedback (Step 4 of the workbook activity).
 
 !!! tip "Facilitation Tip"
     Students struggle with self-promotion. Normalize it: "This is not bragging. An employer needs to know what you bring. If you don't tell them, no one else will." Model your own Power Pitch example on the board so students see the format.

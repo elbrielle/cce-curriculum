@@ -8,23 +8,23 @@
 | **Objectives** | Tour the H&L Transportation, Distribution & Logistics cluster; complete the H&L "Transportation Troubles" workbook activity (Ch 15) by designing a 10-question community transportation survey |
 | **TEKS** | d(1)(B), d(1)(C) |
 | **Deliverable** | Completed 10-question Transportation Survey (7 multiple-choice + 3 short-answer) with one incentive idea |
-| **Materials** | Chromebooks, H&L accounts, H&L Workbook (Ch 15, pp. 248-251 — "Transportation Troubles"), printed Transportation Survey template, projector |
+| **Materials** | Chromebooks, H&L accounts, H&L Workbook (Ch 15, pp. 248-251, "Transportation Troubles"), printed Transportation Survey template, projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: How many people do you think are involved in getting a single airplane from Dallas to New York? Take a guess. Be specific — count pilots, mechanics, baggage, fuel, security, food prep, and dispatchers.**
+**WARM-UP: How many people do you think are involved in getting a single airplane from Dallas to New York? Take a guess. Be specific, count pilots, mechanics, baggage, fuel, security, food prep, and dispatchers.**
 
-Take 4-5 student guesses. Most students underestimate dramatically. Reveal: a typical commercial flight involves 100+ people behind the scenes — 2 pilots, 4-6 flight attendants, mechanics, fuelers, baggage handlers, gate agents, dispatchers, ATC, weather forecasters, and maintenance crew. Bridge: this entire week is about the people you do not see who keep transportation running.
+Take 4-5 student guesses. Most students underestimate dramatically. Reveal: a typical commercial flight involves 100+ people behind the scenes, 2 pilots, 4-6 flight attendants, mechanics, fuelers, baggage handlers, gate agents, dispatchers, ATC, weather forecasters, and maintenance crew. Bridge: this entire week is about the people you do not see who keep transportation running.
 
 ---
 
 ## Activity 1: H&L Transportation Cluster Tour (15 min)
 
-**Source:** H&L Workbook Ch 15, pp. 248-249 — "Exploring the World of Transportation, Distribution & Logistics"
+**Source:** H&L Workbook Ch 15, pp. 248-249, "Exploring the World of Transportation, Distribution & Logistics"
 
-> [H&L PLATFORM] Direct students to open Hats & Ladders and navigate to the **Transportation, Distribution & Logistics cluster**. The workbook (Ch 15, p. 249) instructs students to "go to the Hats & Ladders app and click on the Transportation, Distribution & Logistics Cluster" and spend time exploring the cluster and pathways. Students use **Stop and Jot** during the cluster tour video — pause twice to write one career that surprised them and one question they have.
+> [H&L PLATFORM] Direct students to open Hats & Ladders and navigate to the **Transportation, Distribution & Logistics cluster**. The workbook (Ch 15, p. 249) instructs students to "go to the Hats & Ladders app and click on the Transportation, Distribution & Logistics Cluster" and spend time exploring the cluster and pathways. Students use **Stop and Jot** during the cluster tour video, pause twice to write one career that surprised them and one question they have.
 
 The chapter (p. 249) lists the pathways within the cluster:
 - Diesel and Heavy Equipment Maintenance & Commercial Drivers
@@ -34,7 +34,7 @@ The chapter (p. 249) lists the pathways within the cluster:
 - Aviation Maintenance
 - Maritime
 
-After the cluster tour, students browse the Hat Finder briefly to see which Transportation Hats are available — they will deep-dive into aviation Hats on Day 2.
+After the cluster tour, students browse the Hat Finder briefly to see which Transportation Hats are available. They will deep-explore aviation Hats on Day 2.
 
 !!! tip "Facilitation Tip"
     Some students will get stuck scrolling endlessly through Hats. Set a 5-minute timer for the browse and stop the room when it goes off. The cluster tour is the warm-up, not the main event today.
@@ -43,9 +43,9 @@ After the cluster tour, students browse the Hat Finder briefly to see which Tran
 
 ## Activity 2: H&L "Transportation Troubles" Activity (25 min)
 
-**Source:** H&L Workbook Ch 15, pp. 249-251 — "Transportation Troubles" (Career Climb activity)
+**Source:** H&L Workbook Ch 15, pp. 249-251, "Transportation Troubles" (Career Climb activity)
 
-Open by reading the workbook framing aloud (paraphrased): students are the new Transportation Needs Analyst for their local community. People at recent town meetings have complained about public transportation — it is unreliable, expensive, or unavailable in some areas. Before recommending changes, the student needs to design a community survey to figure out what is really going on.
+Open by reading the workbook framing aloud (paraphrased): students are the new Transportation Needs Analyst for their local community. People at recent town meetings have complained about public transportation. It is unreliable, expensive, or unavailable in some areas. Before recommending changes, the student needs to design a community survey to figure out what is really going on.
 
 **Step 1: Brainstorm Transportation Challenges (5 min)**
 
@@ -73,10 +73,10 @@ Students who finish early add a sketch of how they would distribute the survey (
 
 **Step 3: Design an Incentive (5 min)**
 
-The workbook (p. 251) instructs students to add an incentive — something that motivates people to complete the survey. Examples: $5 gift card raffle, free movie ticket, donut from a local shop, free DART day pass. Students write their incentive at the bottom of the survey template and explain in one sentence why it would work.
+The workbook (p. 251) instructs students to add an incentive, something that motivates people to complete the survey. Examples: $5 gift card raffle, free movie ticket, donut from a local shop, free DART day pass. Students write their incentive at the bottom of the survey template and explain in one sentence why it would work.
 
 !!! tip "Facilitation Tip"
-    The incentive step is fast but important — it teaches students that surveys do not just appear in mailboxes. Real research requires thinking about how to motivate participation.
+    The incentive step is fast but important. It teaches students that surveys do not just appear in mailboxes. Real research requires thinking about how to motivate participation.
 
 **DOK 2:** How would you compare the kinds of information you get from multiple-choice questions versus short-answer questions? Why does a real survey need both?
 

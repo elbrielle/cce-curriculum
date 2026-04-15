@@ -22,14 +22,14 @@ Take 3-4 student responses. Common answers: "I won't know what to say," "I'll fo
 
 ## Activity 1: H&L Job Interviews Reading (10 min)
 
-**Source:** H&L Workbook Ch 11, p. 179 — "Job Interviews"
+**Source:** H&L Workbook Ch 11, p. 179, "Job Interviews"
 
 Students read the workbook section "Job Interviews" (Ch 11, p. 179) silently or with a partner. The section covers four key topics:
 
-1. **Dress for Success** — The 6 dress code rules (covered Wk 4 Day 4 but reinforced today)
-2. **Getting Ready for an Interview** — Research the company, practice common questions, plan your outfit, bring resume copies, use good body language, prepare your own questions, arrive 10-15 minutes early
-3. **Remote & Phone Interviews** — Test your tech, find a quiet space, dress professionally even on video, speak clearly
-4. **Follow Up** — Send a thank-you email after every interview
+1. **Dress for Success:** The 6 dress code rules (covered Wk 4 Day 4 but reinforced today)
+2. **Getting Ready for an Interview:** Research the company, practice common questions, plan your outfit, bring resume copies, use good body language, prepare your own questions, arrive 10-15 minutes early
+3. **Remote & Phone Interviews:** Test your tech, find a quiet space, dress professionally even on video, speak clearly
+4. **Follow Up:** Send a thank-you email after every interview
 
 After 5 minutes of reading, ask students to share ONE tip from the workbook they did not know before.
 
@@ -40,7 +40,7 @@ After 5 minutes of reading, ask students to share ONE tip from the workbook they
 
 ## Activity 2: Eight Standard Interview Questions (15 min)
 
-**Source:** H&L Workbook Ch 11, pp. 180-181 — "Practicing for a Job Interview"
+**Source:** H&L Workbook Ch 11, pp. 180-181, "Practicing for a Job Interview"
 
 The workbook (Ch 11, p. 180) gives students 8 standard interview questions. These are the most common questions employers ask. Students will use these in tomorrow's mock interview.
 
@@ -55,20 +55,20 @@ The workbook (Ch 11, p. 180) gives students 8 standard interview questions. Thes
 7. Why should I hire you?
 8. Do you have any questions for me?
 
-**Student task:** Pick a job (Warehouse Associate, Office Assistant, or Social Media Assistant — the workbook options on Ch 11, p. 180). Write **bullet-point answers** to ALL 8 questions for that job. NOT essays — bullet points only. The point is to think through what you would say without writing a script.
+**Student task:** Pick a job (Warehouse Associate, Office Assistant, or Social Media Assistant — the workbook options on Ch 11, p. 180). Write **bullet-point answers** to ALL 8 questions for that job. NOT essays, bullet points only. The point is to think through what you would say without writing a script.
 
 **Tips for each question:**
 
-- **Tell me about yourself** — 30 seconds. Name, school, two or three relevant skills, why you want THIS job. Do not list your life story.
-- **Why do you want this job** — Connect to specific things about the company or role. Avoid "I need money" — even if true.
-- **Strengths** — Pick 2-3 that are RELEVANT to the job. Give a one-sentence example for each.
-- **Weaknesses** — Pick a real one, then say what you are doing to improve it. NEVER say "I don't have any weaknesses" — that fails the question.
-- **Solved a problem** — Tell a SHORT story (Situation, what you did, the result). 30 seconds.
-- **Handle stress** — Give a specific strategy (deep breaths, make a list, ask for help). Show self-awareness.
-- **Why should I hire you** — Repeat your top 2-3 strengths and connect them to the job's needs.
-- **Your questions** — ALWAYS have 1-2 questions ready. ("What would my first week look like?" / "What do you like about working here?") Never say "no" — it signals lack of interest.
+- **Tell me about yourself:** 30 seconds. Name, school, two or three relevant skills, why you want THIS job. Do not list your life story.
+- **Why do you want this job:** Connect to specific things about the company or role. Avoid "I need money", even if true.
+- **Strengths:** Pick 2-3 that are RELEVANT to the job. Give a one-sentence example for each.
+- **Weaknesses:** Pick a real one, then say what you are doing to improve it. NEVER say "I don't have any weaknesses", that fails the question.
+- **Solved a problem:** Tell a SHORT story (Situation, what you did, the result). 30 seconds.
+- **Handle stress:** Give a specific strategy (deep breaths, make a list, ask for help). Show self-awareness.
+- **Why should I hire you:** Repeat your top 2-3 strengths and connect them to the job's needs.
+- **Your questions:** ALWAYS have 1-2 questions ready. ("What would my first week look like?" / "What do you like about working here?") Never say "no", it signals lack of interest.
 
-Students complete their bullet-point answers individually. Teacher walks around with one check: "Show me your answer to question 8 — your questions for the interviewer." Students who don't have any are reminded that having no questions kills an interview.
+Students complete their bullet-point answers individually. Teacher walks around with one check: "Show me your answer to question 8, your questions for the interviewer." Students who don't have any are reminded that having no questions kills an interview.
 
 ---
 
@@ -78,16 +78,16 @@ Students complete their bullet-point answers individually. Teacher walks around 
 
 Demonstrate a real mock interview live. Two options:
 
-**Option A — Teacher as interviewer, student volunteer as interviewee.** Teacher reads the 8 questions. Student volunteer answers as if applying for one of the workbook jobs.
+**Option A, Teacher as interviewer, student volunteer as interviewee.** Teacher reads the 8 questions. Student volunteer answers as if applying for one of the workbook jobs.
 
-**Option B — Two student volunteers.** One is the interviewer, one is the interviewee. They use the question cards.
+**Option B, Two student volunteers.** One is the interviewer, one is the interviewee. They use the question cards.
 
 The rest of the class observes and scores using the printed Mock Interview Rubric. They watch for:
 
-- **Body language** — Eye contact, sit up straight, no fidgeting
-- **Voice** — Clear, audible, not too fast, not too quiet
-- **Answer quality** — Specific examples, on-topic, appropriate length
-- **Professionalism** — Greeting, handshake, "thank you" at the end
+- **Body language:** Eye contact, sit up straight, no fidgeting
+- **Voice:** Clear, audible, not too fast, not too quiet
+- **Answer quality:** Specific examples, on-topic, appropriate length
+- **Professionalism:** Greeting, handshake, "thank you" at the end
 
 After the fishbowl, lead a 3-minute debrief:
 

@@ -18,10 +18,10 @@ Students continue exploring the Agriculture, Food & Natural Resources cluster wi
 ## Materials Needed
 
 - Chromebooks with internet access (1 per student)
-- Hats & Ladders student accounts + H&L Workbook (Ch 2: Agriculture, Food, and Natural Resources, pp. 24-25 — "Farm to Table")
+- Hats & Ladders student accounts + H&L Workbook (Ch 2: Agriculture, Food, and Natural Resources, pp. 24-25, "Farm to Table")
 - Canva for Education accounts: [canva.com/education](https://www.canva.com/education/)
-- BLS — Agricultural & Food Scientists: [bls.gov/ooh/life-physical-and-social-science/agricultural-and-food-scientists.htm](https://www.bls.gov/ooh/life-physical-and-social-science/agricultural-and-food-scientists.htm)
-- BLS — Conservation Scientists: [bls.gov/ooh/life-physical-and-social-science/conservation-scientists.htm](https://www.bls.gov/ooh/life-physical-and-social-science/conservation-scientists.htm)
+- BLS, Agricultural & Food Scientists: [bls.gov/ooh/life-physical-and-social-science/agricultural-and-food-scientists.htm](https://www.bls.gov/ooh/life-physical-and-social-science/agricultural-and-food-scientists.htm)
+- BLS, Conservation Scientists: [bls.gov/ooh/life-physical-and-social-science/conservation-scientists.htm](https://www.bls.gov/ooh/life-physical-and-social-science/conservation-scientists.htm)
 - USDA Careers: [usda.gov/our-agency/careers](https://www.usda.gov/our-agency/careers)
 - Xello student accounts (Work Experiences activity)
 - Printed Farm to Table brainstorm sheet
@@ -29,13 +29,13 @@ Students continue exploring the Agriculture, Food & Natural Resources cluster wi
 
 ## Career Connection
 
-Plant science careers are at the leading edge of solving some of the world's biggest problems: feeding a growing population, adapting to climate change, and protecting natural resources like water and soil. Texas alone employs tens of thousands of people in nursery and landscape work, conservation, and crop science. The Nimitz HS Plant Science pathway leads directly to the Texas Certified Landscape Associate credential — a Texas-specific credential that nursery, landscape, and grounds-management employers actively hire from.
+Plant science careers are at the leading edge of solving some of the world's biggest problems: feeding a growing population, adapting to climate change, and protecting natural resources like water and soil. Texas alone employs tens of thousands of people in nursery and landscape work, conservation, and crop science. The Nimitz HS Plant Science pathway leads directly to the Texas Certified Landscape Associate credential, a Texas-specific credential that nursery, landscape, and grounds-management employers actively hire from.
 
 **Irving ISD Pathway:** Plant Science (Nimitz HS) leads to the Texas Certified Landscape Associate credential. Students who complete the pathway can step into landscape, nursery, or grounds-management jobs immediately after graduation.
 
 ## Vocabulary
 
-- **Horticulture:** The science of growing plants — fruits, vegetables, flowers, and ornamental plants.
+- **Horticulture:** The science of growing plants, fruits, vegetables, flowers, and ornamental plants.
 - **Precision Agriculture:** Using technology like GPS, drones, and sensors to optimize farming practices.
 - **Conservation:** The careful management and protection of natural resources like water, soil, and forests.
 - **Agricultural Communications Specialist:** A professional who combines ag knowledge with design and marketing skills to help farms tell their story.
@@ -44,7 +44,7 @@ Plant science careers are at the leading edge of solving some of the world's big
 
 ## Bridge to Theory (Hats & Ladders)
 
-The H&L workbook (Ch 2) covers the full Ag cluster. Week 2 anchors on **Farm to Table** (Ch 2, pp. 24-25) — a Career Climb activity where students play the role of an Agricultural Communications Specialist creating an infographic for Sunny Fields Farm. The activity teaches students how plant science careers connect to real consumers and small businesses. Students also use the **Hat Finder** to explore Plant Science and Environmental & Natural Resources careers (Botanist, Horticulturist, Soil Scientist, Forester, Park Ranger, Environmental Scientist).
+The H&L workbook (Ch 2) covers the full Ag cluster. Week 2 anchors on **Farm to Table** (Ch 2, pp. 24-25): a Career Climb activity where students play the role of an Agricultural Communications Specialist creating an infographic for Sunny Fields Farm. The activity teaches students how plant science careers connect to real consumers and small businesses. Students also use the **Hat Finder** to explore Plant Science and Environmental & Natural Resources careers (Botanist, Horticulturist, Soil Scientist, Forester, Park Ranger, Environmental Scientist).
 
 ## IISD Instructional Strategies
 
@@ -58,17 +58,17 @@ The H&L workbook (Ch 2) covers the full Ag cluster. Week 2 anchors on **Farm to 
 | Day | Focus | Key Activities | Deliverable |
 |-----|-------|---------------|-------------|
 | 1 | Plant Science + Environmental Hats | H&L Plant Systems exploration + Hat Finder | Hat notes for 2 plant science careers |
-| 2 | Farm to Table — Brainstorm + Sketch | H&L "Farm to Table" Steps 1-2 (Ch 2, pp. 24-25) | Brainstorm sheet + sketch of infographic |
-| 3 | Farm to Table — Canva Build | Build the infographic in Canva | Completed Farm to Table infographic (PNG) |
+| 2 | Farm to Table. Brainstorm + Sketch | H&L "Farm to Table" Steps 1-2 (Ch 2, pp. 24-25) | Brainstorm sheet + sketch of infographic |
+| 3 | Farm to Table. Canva Build | Build the infographic in Canva | Completed Farm to Table infographic (PNG) |
 | 4 | Emerging Ag Career Research | BLS + USDA research on one emerging career | Emerging Career Research template |
 | 5 | Xello Work Experiences + Nimitz Pathway | Xello Work Experiences lesson + Nimitz Plant Science pathway notes | Logged Xello entry + pathway notes |
 
 ## Formative Assessment
 
-- Hat notes for 2 plant science careers (Day 1) — d(1)(C)
-- Farm to Table brainstorm + sketch (Day 2) — d(1)(C)
-- Canva infographic quality and accuracy (Day 3) — d(1)(C)
-- Emerging Career Research template (Day 4) — d(1)(D)
+- Hat notes for 2 plant science careers (Day 1): d(1)(C)
+- Farm to Table brainstorm + sketch (Day 2): d(1)(C)
+- Canva infographic quality and accuracy (Day 3): d(1)(C)
+- Emerging Career Research template (Day 4): d(1)(D)
 
 ## Summative Assessment
 
@@ -84,11 +84,11 @@ The H&L workbook (Ch 2) covers the full Ag cluster. Week 2 anchors on **Farm to 
 
 ### Extensions
 - Research a real DFW urban farm (e.g., Bonton Farms in Dallas) and create an infographic specifically for them
-- Compare ag tech careers in Texas vs. California — what crops drive the difference?
+- Compare ag tech careers in Texas vs. California, what crops drive the difference?
 - Design a vertical farm layout in Canva and identify the 4 careers needed to operate it
 
 ### ELL Language Support
 - Pre-teach: Plant = Planta, Soil = Suelo, Crop = Cultivo, Harvest = Cosecha, Conservation = Conservación
 - Bilingual Farm to Table brainstorm template
-- Canva supports Spanish text — students can build infographics in either language
+- Canva supports Spanish text. Students can build infographics in either language
 - Pair with bilingual peers during the Farm to Table activity

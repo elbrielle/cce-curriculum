@@ -4,7 +4,7 @@
 
 ## Lesson Objective
 
-Students explore the Information Technology Support and Services pathway in Hats & Ladders, learn the difference between certification and degree pathways for IT careers, build a micro:bit help desk simulator using Microsoft MakeCode, and practice customer service communication through a partner role-play. Students see that not every IT career requires a 4-year degree — many high-paying IT support roles are accessible with industry certifications like CompTIA A+.
+Students explore the Information Technology Support and Services pathway in Hats & Ladders, learn the difference between certification and degree pathways for IT careers, build a micro:bit help desk simulator using Microsoft MakeCode, and practice customer service communication through a partner role-play. Students see that not every IT career requires a 4-year degree; many high-paying IT support roles are accessible with industry certifications like CompTIA A+.
 
 ## Demonstration of Learning
 
@@ -25,7 +25,7 @@ Students explore the Information Technology Support and Services pathway in Hats
 - USB cables (micro:bit to Chromebook)
 
 - CompTIA Career Roadmap: [comptia.org/content/it-careers-path-roadmap](https://www.comptia.org/content/it-careers-path-roadmap)
-- BLS — Computer Support Specialists: [bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm](https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm)
+- BLS, Computer Support Specialists: [bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm](https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm)
 - Printed Education Pathway Comparison worksheet (3 careers × 5 fields)
 - Help Desk scenario cards (printer not working, Wi-Fi disconnected, software crashing, computer won't turn on, password reset)
 - Projector
@@ -34,7 +34,7 @@ Students explore the Information Technology Support and Services pathway in Hats
 
 Tech Support is the front line of every IT organization. Help Desk Technicians, IT Support Specialists, Desktop Support Technicians, and Systems Administrators keep businesses running by solving technology problems. What makes this pathway special is that you do NOT always need a 4-year college degree to enter it. Many IT support professionals start with a high school diploma plus industry certifications like **CompTIA A+** (the entry-level IT certification used worldwide).
 
-**Irving ISD Pathway:** **Technology Support Services at Singley Academy** leads to the **Computer Repair Technology — Job Ready** certification. This is a direct entry point into IT support careers for students who want to start working right after high school instead of going to college. A student with this credential can earn $40-50K starting salary in DFW.
+**Irving ISD Pathway:** **Technology Support Services at Singley Academy** leads to the **Computer Repair Technology (Job Ready)** certification. This is a direct entry point into IT support careers for students who want to start working right after high school instead of going to college. A student with this credential can earn $40-50K starting salary in DFW.
 
 ## Vocabulary
 
@@ -53,14 +53,14 @@ The H&L workbook (Ch 12: Information Technology, p. 192) lists **Information Tec
 
 The H&L app's **education indicators** are especially valuable this week because they show the difference between certification-only careers (Help Desk) and degree-required careers (Software Developer). Students compare these in the Day 2 Education Pathway Comparison worksheet.
 
-The hands-on activity uses **micro:bit + Microsoft MakeCode** rather than an H&L workbook activity. This is a teacher-designed extension that connects to the IT Support pathway by simulating a help desk troubleshooting tool. Students build a program that displays diagnostic checklists on the micro:bit's LED screen — exactly how real help desk software works.
+The hands-on activity uses **micro:bit + Microsoft MakeCode** rather than an H&L workbook activity. This is a teacher-designed extension that connects to the IT Support pathway by simulating a help desk troubleshooting tool. Students build a program that displays diagnostic checklists on the micro:bit's LED screen, exactly how real help desk software works.
 
 ## IISD Instructional Strategies
 
 - **Chunking:** Day 1 = pathway exploration. Day 2 = certification deep-dive. Days 3-4 = MakeCode hands-on. Day 5 = role-play + reflection. Prevents information overload.
 - **Sentence Stems:** "A _____ certification takes _____ months to earn and qualifies you for _____. A _____ degree takes _____ years and qualifies you for _____. The main difference is _____."
 - **Modeling:** Teacher demonstrates the first 3 MakeCode blocks on the projector before students touch the micro:bit.
-- **Active Monitoring:** During the role-play, walk between pairs and listen for clear, patient communication — that is the assessment.
+- **Active Monitoring:** During the role-play, walk between pairs and listen for clear, patient communication. That is the assessment.
 
 ## Week at a Glance
 
@@ -74,11 +74,11 @@ The hands-on activity uses **micro:bit + Microsoft MakeCode** rather than an H&L
 
 ## Formative Assessment
 
-- **Day 1:** H&L IT Support pathway exploration completion + 3 careers identified — d(2)(A)
-- **Day 2:** Education Pathway Comparison worksheet accuracy — d(2)(A), d(2)(B)
-- **Day 3:** MakeCode program runs on micro:bit and displays text — d(4)(B)
-- **Day 4:** Role-play observation — listening for patient, clear communication — d(4)(B)
-- **Day 5:** Demo + 2 IT support Hats favorited in Climber Profile — d(2)(A)
+- **Day 1:** H&L IT Support pathway exploration completion + 3 careers identified, d(2)(A)
+- **Day 2:** Education Pathway Comparison worksheet accuracy, d(2)(A), d(2)(B)
+- **Day 3:** MakeCode program runs on micro:bit and displays text, d(4)(B)
+- **Day 4:** Role-play observation, listening for patient, clear communication, d(4)(B)
+- **Day 5:** Demo + 2 IT support Hats favorited in Climber Profile, d(2)(A)
 
 ## Summative Assessment
 
@@ -91,7 +91,7 @@ The hands-on activity uses **micro:bit + Microsoft MakeCode** rather than an H&L
 - Pre-built MakeCode starter code that students can modify rather than build from scratch.
 - Education Pathway Comparison worksheet with one career pre-filled (Software Developer) as a model.
 - Pre-printed troubleshooting step cards that students can arrange in order before programming.
-- Pair work for MakeCode — one student programs, the other tests on the micro:bit.
+- Pair work for MakeCode: one student programs, the other tests on the micro:bit.
 
 ### Extensions
 

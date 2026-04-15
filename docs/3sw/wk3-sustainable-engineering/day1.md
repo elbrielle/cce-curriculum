@@ -22,14 +22,14 @@ Take 4 student responses. Use this to bridge from Plant Science (Week 2) to Envi
 
 ## Activity 1: H&L Environmental Pathways (20 min)
 
-**Source:** H&L Workbook Ch 2, p. 17 — Pathway list (Environmental and Natural Resources)
+**Source:** H&L Workbook Ch 2, p. 17, Pathway list (Environmental and Natural Resources)
 
 Direct students to open Hats & Ladders and navigate to the Environmental and Natural Resources pathway inside the Agriculture cluster. Project the pathway page and walk through 4 careers:
 
-- **Environmental Engineer** — designs water treatment systems and pollution controls
-- **Sustainability Consultant** — helps companies reduce their environmental impact
-- **Water Treatment Specialist** — runs the equipment that cleans drinking water and wastewater
-- **Renewable Energy Technician** — installs and maintains solar panels and wind turbines
+- **Environmental Engineer:** designs water treatment systems and pollution controls
+- **Sustainability Consultant:** helps companies reduce their environmental impact
+- **Water Treatment Specialist:** runs the equipment that cleans drinking water and wastewater
+- **Renewable Energy Technician:** installs and maintains solar panels and wind turbines
 
 > [H&L PLATFORM] Direct students to the Hat Finder, filter by Environmental and Natural Resources, and browse the available Hats. Each Hat profile has Education, Salary, Daily Tasks, and "Why It Matters" sections. Students take notes on 2 careers using a half-sheet template.
 
@@ -87,4 +87,4 @@ In the last 8 minutes, ask 3 students to share their topic-to-career connection 
 
 - **Support:** Pre-fill the note template with 2 specific careers (Environmental Engineer + Park Ranger) so students focus on the data fields.
 - **Extension:** Find one NASA mission (current or past) that uses environmental scientists and explain what they study.
-- **ELL:** Pre-teach: Environment = Medio Ambiente, Climate = Clima, Engineer = Ingeniero/a, Pollution = Contaminación. Climate Kids has a Spanish version available — show students the language toggle if needed.
+- **ELL:** Pre-teach: Environment = Medio Ambiente, Climate = Clima, Engineer = Ingeniero/a, Pollution = Contaminación. Climate Kids has a Spanish version available, show students the language toggle if needed.

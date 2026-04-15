@@ -22,7 +22,7 @@ Take 3-4 student responses. Use this to bridge from last week's Animal Systems f
 
 ## Activity 1: Plant Science Pathway Tour (15 min)
 
-**Source:** H&L Workbook Ch 2: Agriculture, Food, and Natural Resources, p. 17 — Pathway list
+**Source:** H&L Workbook Ch 2: Agriculture, Food, and Natural Resources, p. 17, Pathway list
 
 Direct students to open H&L and navigate back to the Agriculture, Food, and Natural Resources cluster page. Today they zoom in on two specific pathways inside the cluster:
 
@@ -31,16 +31,16 @@ Direct students to open H&L and navigate back to the Agriculture, Food, and Natu
 
 Project the Plant Science pathway page. Walk through 2-3 example careers from the H&L Hat Finder:
 
-- **Botanist** — studies plants and how they grow
-- **Horticulturist** — grows and breeds plants for specific purposes (food, ornamental, landscaping)
-- **Soil Scientist** — studies soil composition and how it affects what can grow
-- **Agricultural Engineer** — designs farming equipment and systems
+- **Botanist:** studies plants and how they grow
+- **Horticulturist:** grows and breeds plants for specific purposes (food, ornamental, landscaping)
+- **Soil Scientist:** studies soil composition and how it affects what can grow
+- **Agricultural Engineer:** designs farming equipment and systems
 
 Then switch to the Environmental and Natural Resources pathway and show:
 
-- **Park Ranger** — manages parks and protects natural areas
-- **Forester** — manages forests for timber, recreation, and ecosystem health
-- **Environmental Scientist** — studies pollution and how human activity affects ecosystems
+- **Park Ranger:** manages parks and protects natural areas
+- **Forester:** manages forests for timber, recreation, and ecosystem health
+- **Environmental Scientist:** studies pollution and how human activity affects ecosystems
 
 > [H&L PLATFORM] The workbook (Ch 2) directs students: "Go to the Hats & Ladders app and click on the Hat Finder. Explore Hats in the Agriculture, Food, and Natural Resources career cluster." Filter the Hat Finder by Plant Science and then by Environmental and Natural Resources to see all the Hats in each pathway.
 

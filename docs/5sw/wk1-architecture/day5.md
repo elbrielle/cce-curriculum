@@ -16,7 +16,7 @@
 
 **WARM-UP: Rate 1-10: How much did you enjoy 3D design this week? Does architecture interest you as a career path? Why or why not?**
 
-Quick share — this gives the teacher a pulse on student engagement before presentations and helps students who are presenting connect their personal interest to their design.
+Quick share, this gives the teacher a pulse on student engagement before presentations and helps students who are presenting connect their personal interest to their design.
 
 ---
 
@@ -26,9 +26,9 @@ Each student presents their TinkerCAD building to the class. Project each studen
 
 **Presentation requirements (2 minutes per student):**
 
-1. **Describe your building** — What is it? What was the most challenging design decision?
+1. **Describe your building:** What is it? What was the most challenging design decision?
 2. **Name one A&C career** that would be involved in building your design in real life (architect, drafter, construction manager, interior designer, etc.) and explain what that person would do
-3. **Connect to Trash to Treasure** — What did you learn from the landscape architecture activity about how architects transform spaces?
+3. **Connect to Trash to Treasure:** What did you learn from the landscape architecture activity about how architects transform spaces?
 
 **Class feedback:** After each presentation, the class gives **one star** (something they liked) and **one wish** (something they would improve). This builds constructive feedback skills aligned with H&L Powerskills.
 
@@ -47,15 +47,15 @@ Each student presents their TinkerCAD building to the class. Project each studen
 
 ## Activity 2: H&L Career Favorites + Career Plan Update (15 min)
 
-**Source:** H&L Workbook Ch 3 (Hat Finder) + Ch 16 (My Next Steps — Career Plan)
+**Source:** H&L Workbook Ch 3 (Hat Finder) + Ch 16 (My Next Steps: Career Plan)
 
 Direct students to open H&L and complete three tasks:
 
 1. **Favorite at least 2-3 A&C careers** using the Hat Finder. These are saved to their Climber Profile and will appear in their Career Plan later.
-2. **Review Building Blocks** — Do any of their Building Blocks (likes, skills, experiences) connect to architecture or construction? If so, the app will reflect this in their recommendations.
+2. **Review Building Blocks:** Do any of their Building Blocks (likes, skills, experiences) connect to architecture or construction? If so, the app will reflect this in their recommendations.
 3. **Open the Career Plan** (Ch 16: My Next Steps in the workbook provides the written template). Make sure the A&C cluster is represented alongside their earlier favorites from Manufacturing, IT, Law, Health Science, Ag, Hospitality, and Business.
 
-Students should now have career favorites spanning all clusters explored so far. The Career Plan accumulates data across the year — they do not need to start over.
+Students should now have career favorites spanning all clusters explored so far. The Career Plan accumulates data across the year. They do not need to start over.
 
 ---
 
@@ -80,5 +80,5 @@ Students work at their own pace through the eDynamic module. This will continue 
 ## Differentiation
 
 - **Support:** Allow students who are uncomfortable presenting to submit a written reflection instead: describe your building, name one connected career, and explain one thing you learned from Trash to Treasure.
-- **Extension:** H&L "Unexpected Architecture" project (Ch 3, pp. 48-54): Students design a novelty landmark for the city of Brighton Ridge. This is a full multi-step project with a city brief, rubric, and peer review — excellent for students who want a deeper architecture challenge.
+- **Extension:** H&L "Unexpected Architecture" project (Ch 3, pp. 48-54): Students design a novelty landmark for the city of Brighton Ridge. This is a full multi-step project with a city brief, rubric, and peer review, excellent for students who want a deeper architecture challenge.
 - **ELL:** Provide bilingual presentation sentence starters: "My building is _____ (Mi edificio es _____). The career connected to this design is _____ (La carrera conectada a este diseño es _____)."

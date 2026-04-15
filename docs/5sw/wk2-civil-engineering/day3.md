@@ -14,7 +14,7 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Think about the strongest bridge you have ever seen. What made it strong — the shape, the materials, or the size? Write down your best guess.**
+**WARM-UP: Think about the strongest bridge you have ever seen. What made it strong, the shape, the materials, or the size? Write down your best guess.**
 
 Collect 2-3 guesses. Bridge to the idea that shape matters more than most students expect: a triangle holds its shape under load, while a square collapses into a parallelogram.
 
@@ -35,26 +35,26 @@ Announce the challenge clearly so students understand the constraints:
 
 Introduce the Engineering Design Process. Civil engineers follow this same process in real projects.
 
-1. **Define the Problem** — What exactly are we solving? (Span 12 inches, hold maximum weight.)
-2. **Research & Ideate** — How have others solved this problem? What designs work?
-3. **Prototype** — Build it.
-4. **Test** — Measure performance.
-5. **Redesign** — Fix what failed.
+1. **Define the Problem:** What exactly are we solving? (Span 12 inches, hold maximum weight.)
+2. **Research & Ideate:** How have others solved this problem? What designs work?
+3. **Prototype:** Build it.
+4. **Test:** Measure performance.
+5. **Redesign:** Fix what failed.
 
 Today's goal: Complete Phases 1 and 2.
 
 !!! tip "Facilitation Tip"
-    Do not distribute materials today. Students who get materials immediately start building without thinking. The point of Day 3 is forcing them to plan first — just like a real civil engineer does before pouring a single cubic yard of concrete.
+    Do not distribute materials today. Students who get materials immediately start building without thinking. The point of Day 3 is forcing them to plan first, just like a real civil engineer does before pouring a single cubic yard of concrete.
 
 ---
 
 ## Activity 2: Bridge Type Research (15 min)
 
-Project a quick 3-minute visual tour of bridge types on the screen — use PBS Design Squad or a static comparison slide:
+Project a quick 3-minute visual tour of bridge types on the screen, use PBS Design Squad or a static comparison slide:
 
-- **Beam Bridge** — simplest. A flat deck with supports on each end. Weak unless the beam is thick.
-- **Truss Bridge** — triangular framework. Distributes load across many small pieces. Common in railroads.
-- **Arch Bridge** — curved. The weight pushes outward into the ground. Very strong but hard to build.
+- **Beam Bridge:** simplest. A flat deck with supports on each end. Weak unless the beam is thick.
+- **Truss Bridge:** triangular framework. Distributes load across many small pieces. Common in railroads.
+- **Arch Bridge:** curved. The weight pushes outward into the ground. Very strong but hard to build.
 
 After the tour, teams research bridge types online (PBS Design Squad, BLS civil engineering page, or a teacher-curated image set). They identify:
 
@@ -74,7 +74,7 @@ Each team sketches **two** different bridge designs on the provided sketch page.
 - **Top-down view** of the bridge
 - **Side view** showing the structural shape
 - **Labels** for each structural element (truss, arch, beam, support column)
-- **Predicted weak points** — where do they think it will break first?
+- **Predicted weak points:** where do they think it will break first?
 
 After sketching, teams swap sketches with another team for a 2-minute peer critique. The critiquing team answers: *"Where do you think this design will fail first, and why?"*
 
@@ -83,7 +83,7 @@ Teams then **pick one design** to build on Day 4 based on the peer feedback.
 **DOK 2:** Why is a truss stronger than a simple beam bridge? Use your sketch to explain.
 
 !!! tip "Facilitation Tip"
-    Approve each team's final design before they leave class. If a team picked a flat beam bridge with no triangular reinforcement, prompt them with: "What shape holds its form under load?" and send them back to revise. Avoid saying "That won't work" — let them engineer their own realization.
+    Approve each team's final design before they leave class. If a team picked a flat beam bridge with no triangular reinforcement, prompt them with: "What shape holds its form under load?" and send them back to revise. Avoid saying "That won't work", let them engineer their own realization.
 
 ---
 
@@ -96,5 +96,5 @@ Teams then **pick one design** to build on Day 4 based on the peer feedback.
 ## Differentiation
 
 - **Support:** Provide truss and arch bridge templates with basic geometry already drawn. Students adapt the template for the 12-inch span rather than designing from scratch.
-- **Extension:** Research cable-stayed and suspension bridges — why are these used for very long spans? How do they differ from truss bridges?
+- **Extension:** Research cable-stayed and suspension bridges, why are these used for very long spans? How do they differ from truss bridges?
 - **ELL:** Visual bridge type poster with Spanish labels: Truss = Armadura, Arch = Arco, Beam = Viga, Support = Soporte, Load = Carga. Bridge-building is highly visual and accessible across language levels.

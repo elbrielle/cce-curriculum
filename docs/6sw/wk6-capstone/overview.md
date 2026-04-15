@@ -34,7 +34,7 @@ Students finalize their H&L Career Plan, select a top career pathway based on a 
 
 - Chromebooks with internet access (1 per student)
 - Hats & Ladders student accounts (Career Planner + District Course Planner)
-- H&L Workbook (Ch 16: My Next Steps, pp. 263-271 — "My Career and Course Plan," "Lifestyle Snapshot," "Being a Career Thinker," "Iceberg Cartoon")
+- H&L Workbook (Ch 16: My Next Steps, pp. 263-271, "My Career and Course Plan," "Lifestyle Snapshot," "Being a Career Thinker," "Iceberg Cartoon")
 - Texas OnCourse: [texasoncourse.org](https://texasoncourse.org)
 - Irving ISD CTE Pathways guide (PATHWAYS.md printed)
 - Printed Career Plan Presentation Rubric (1 per student)
@@ -61,10 +61,10 @@ Over 36 weeks students have explored every CTE cluster: Manufacturing, IT, Law &
 
 The H&L Career Planner and District Course Planner are the primary platform tools this week. The H&L workbook (Ch 16: My Next Steps, pp. 263-271) provides the written templates that align directly with the app:
 
-- **Iceberg Cartoon** (Ch 16, pp. 264-266) — Students reflect on the "tip vs. underwater" metaphor of career exploration: what people see (the goal) vs. what people don't see (the years of work).
-- **My Career and Course Plan** (Ch 16, p. 267) — The structured template aligning with the H&L app's Career Plan tool. The workbook explicitly says: *"Go to the Hats & Ladders app and begin your Career and Course Plan."*
-- **Lifestyle Snapshot** (Ch 16, pp. 268-269) — Already covered in 5SW Wk 5; reinforced this week as part of the Career Plan
-- **Being a Career Thinker** (Ch 16, pp. 270-271) — Students identify their support system: 3 people who can help them reach their goals, plus a 4-panel comic about their ideal future
+- **Iceberg Cartoon** (Ch 16, pp. 264-266): Students reflect on the "tip vs. underwater" metaphor of career exploration: what people see (the goal) vs. what people don't see (the years of work).
+- **My Career and Course Plan** (Ch 16, p. 267): The structured template aligning with the H&L app's Career Plan tool. The workbook explicitly says: *"Go to the Hats & Ladders app and begin your Career and Course Plan."*
+- **Lifestyle Snapshot** (Ch 16, pp. 268-269): Already covered in 5SW Wk 5; reinforced this week as part of the Career Plan
+- **Being a Career Thinker** (Ch 16, pp. 270-271): Students identify their support system: 3 people who can help them reach their goals, plus a 4-panel comic about their ideal future
 
 The Career Plan students download from H&L this week is the polished version of the d(8) artifact already produced in 4SW Wk1-Wk2. It is shareable with families and Irving ISD high school counselors during the 8th-to-9th grade transition.
 
@@ -98,20 +98,20 @@ The Career Plan students download from H&L this week is the polished version of 
 
 ## Formative Assessment
 
-- H&L Iceberg reflection (Day 1) — d(8)(A)
-- H&L Career Plan completeness in app (Day 1) — d(8)(A), d(8)(B)
-- Written Career Plan quality (Day 2) — d(8)(C)
-- Career plan presentation delivery (Days 3-4) — d(4)(C)
-- Career Plan download (Day 4) — d(8)(B)
-- End-of-Year Reflection (Day 5) — d(8)(A), d(8)(C)
+- H&L Iceberg reflection (Day 1): d(8)(A)
+- H&L Career Plan completeness in app (Day 1): d(8)(A), d(8)(B)
+- Written Career Plan quality (Day 2): d(8)(C)
+- Career plan presentation delivery (Days 3-4): d(4)(C)
+- Career Plan download (Day 4): d(8)(B)
+- End-of-Year Reflection (Day 5): d(8)(A), d(8)(C)
 
 ## Summative Assessment
 
 **Three-Part Capstone Assessment:**
 
-1. **Written Career Plan** with all sections complete (d(8)(A), d(8)(B), d(8)(C)) — submitted Day 2
-2. **Oral Career Plan Presentation** scored on content, organization, delivery, and growth reflection (d(4)(C)) — delivered Days 3-4
-3. **End-of-Year Reflection** demonstrating self-awareness growth across 36 weeks — submitted Day 5
+1. **Written Career Plan** with all sections complete (d(8)(A), d(8)(B), d(8)(C)): submitted Day 2
+2. **Oral Career Plan Presentation** scored on content, organization, delivery, and growth reflection (d(4)(C)): delivered Days 3-4
+3. **End-of-Year Reflection** demonstrating self-awareness growth across 36 weeks, submitted Day 5
 
 **The H&L downloadable Career Plan is the capstone-week polish of an artifact already produced in 4SW Wk1-Wk2.** Students who complete this week take home the polished download for 9th-grade course registration; students whose end-of-year week is disrupted still have the 4SW Career Plan on file.
 

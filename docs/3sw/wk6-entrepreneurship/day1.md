@@ -14,15 +14,15 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: If you could start any business tomorrow with $0, what would it be? Be specific — name it, describe what it sells, and who buys it.**
+**WARM-UP: If you could start any business tomorrow with $0, what would it be? Be specific, name it, describe what it sells, and who buys it.**
 
-Take 4-5 student responses. Capture them on the board. The class should see a wide range — food, art, tech, services, products. Bridge: every one of these is entrepreneurship in action.
+Take 4-5 student responses. Capture them on the board. The class should see a wide range, food, art, tech, services, products. Bridge: every one of these is entrepreneurship in action.
 
 ---
 
 ## Activity 1: H&L Business Cluster Tour (12 min)
 
-**Source:** H&L Workbook Ch 5: Business, Marketing, and Finance, p. 75 — "Exploring the World of Business, Marketing, and Finance"
+**Source:** H&L Workbook Ch 5: Business, Marketing, and Finance, p. 75, "Exploring the World of Business, Marketing, and Finance"
 
 Direct students to open Hats & Ladders and navigate to the Business, Marketing, and Finance cluster. The H&L workbook (Ch 5, p. 75) lists six pathways:
 
@@ -35,13 +35,13 @@ Direct students to open Hats & Ladders and navigate to the Business, Marketing, 
 
 > [H&L PLATFORM] The workbook (Ch 5) instructs: "Go to the Hats & Ladders app and click on the Business, Marketing, and Finance Cluster. Spend some time exploring the cluster and pathways." Students click the cluster, watch any embedded videos, and skim the six pathway cards. Direct them to focus specifically on the **Entrepreneurship** pathway today.
 
-Show 3 example Hats from the Entrepreneurship pathway: Small Business Owner, Marketing Manager, Operations Manager. Each has different skills but all share one thing — they make decisions that affect the whole business.
+Show 3 example Hats from the Entrepreneurship pathway: Small Business Owner, Marketing Manager, Operations Manager. Each has different skills but all share one thing: they make decisions that affect the whole business.
 
 ---
 
 ## Activity 2: Defining Entrepreneurship (15 min)
 
-**Source:** H&L Workbook Ch 5, p. 76 — Entrepreneurship pathway intro
+**Source:** H&L Workbook Ch 5, p. 76, Entrepreneurship pathway intro
 
 Project the workbook definition (Ch 5): "Entrepreneurship: Starting and running your own business as an entrepreneur. What kind of business would you start? What would be exciting about being an entrepreneur? What would be challenging?"
 
@@ -67,7 +67,7 @@ Take 3-4 student definitions and write them on the board. Discuss: which definit
 
 **Source:** Connecting all 8 clusters explored this year
 
-Students create a list of 5 entrepreneurial opportunities — one in each of FIVE different clusters they've explored this year. The clusters covered so far:
+Students create a list of 5 entrepreneurial opportunities, one in each of FIVE different clusters they've explored this year. The clusters covered so far:
 
 - Manufacturing (1SW)
 - IT (1SW)
@@ -76,13 +76,13 @@ Students create a list of 5 entrepreneurial opportunities — one in each of FIV
 - Agriculture (3SW Wks 1-3)
 - Hospitality & Tourism (3SW Wk 4)
 - Human Services (3SW Wk 5)
-- Business (3SW Wk 6 — current)
+- Business (3SW Wk 6, current)
 
 Each entry needs:
 
 - **Cluster name**
 - **Entrepreneurial opportunity** (specific business idea, not vague)
-- **One business skill needed** (not a technical skill — a BUSINESS skill like marketing, accounting, customer service)
+- **One business skill needed** (not a technical skill, a BUSINESS skill like marketing, accounting, customer service)
 
 Example list:
 

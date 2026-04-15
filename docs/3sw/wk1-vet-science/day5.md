@@ -22,11 +22,11 @@ Take 4 student responses. There are no wrong answers — some students will say 
 
 ## Activity 1: Nimitz Vet Science Pathway Research (15 min)
 
-**Source:** Irving ISD Pathways reference (PATHWAYS.md) — Nimitz HS Veterinary Science pathway leading to Elanco Veterinary Medical Applications certification
+**Source:** Irving ISD Pathways reference (PATHWAYS.md): Nimitz HS Veterinary Science pathway leading to Elanco Veterinary Medical Applications certification
 
 Project the Nimitz HS Veterinary Science pathway info on the screen. Walk students through the pathway map:
 
-- **Middle school (now):** CCE course — explore Animal Systems, complete Hat Research
+- **Middle school (now):** CCE course, explore Animal Systems, complete Hat Research
 - **High school at Nimitz:** Veterinary Science pathway → Elanco Veterinary Medical Applications certification
 - **Post-high school options:**
     - Direct to vet clinic employment as Veterinary Assistant or Kennel Tech (with high school cert)
@@ -43,7 +43,7 @@ Students take notes on which post-high school option appeals to them and why. Th
 
 ## Activity 2: H&L Favorites + Climber Profile Update (15 min)
 
-**Source:** H&L Workbook Ch 2 — "Hat Finder" instructions
+**Source:** H&L Workbook Ch 2, "Hat Finder" instructions
 
 Students return to Hats & Ladders and use the Hat Finder to favorite 2-3 Animal Systems careers in their Climber Profile.
 
@@ -64,7 +64,7 @@ Students assemble their one-page summative brief. The brief is the synthesis of 
 3. **Reflection paragraph** (4-6 sentences) answering: Does the Nimitz HS Vet Science pathway interest me? Why or why not? Use specific evidence from this week's research.
 4. **Screenshot of H&L Climber Profile favorites** from Activity 2
 
-The reflection paragraph is the only new writing — the rest is assembly of work already completed. Students write the reflection in their notebook or in a Google Doc.
+The reflection paragraph is the only new writing, the rest is assembly of work already completed. Students write the reflection in their notebook or in a Google Doc.
 
 **DOK 4:** Looking back at all 5 days this week, what is one thing you now KNOW about veterinary careers that you did not know on Monday? How did you learn it (which activity)?
 

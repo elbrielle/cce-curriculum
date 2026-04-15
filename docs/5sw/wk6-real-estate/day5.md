@@ -22,23 +22,23 @@ Quick share. No wrong answers — this is a genuine reflection moment. Students 
 
 ## Activity 1: Real Estate Elevator Pitch (20 min)
 
-**Source:** Scope and sequence d(4)(C) — oral professional presentation + Ch 3 Power Pitch model
+**Source:** Scope and sequence d(4)(C): oral professional presentation + Ch 3 Power Pitch model
 
 Frame the activity: "Today you are a career counselor. Your job is to convince an undecided student that real estate is a great career option. You have 2 minutes. Sell the career."
 
 Students build a **2-minute pitch** using the data they collected this week. Good pitches include:
 
-- **A hook** — "Did you know a single home sale in DFW can earn an agent $10,000 in commission?"
-- **Earning potential** — specific numbers from their Day 2 commission worksheet
-- **Licensing pathway** — TREC requirements and how MacArthur High School's Real Estate pathway prepares students
-- **Entrepreneurship angle** — you are your own boss, build a personal brand, unlimited earning potential
-- **Market demand** — DFW is one of the fastest-growing real estate markets in the country
-- **Personal angle** — who is this career best for? (People who are outgoing, comfortable with variable income, self-motivated)
+- **A hook:** "Did you know a single home sale in DFW can earn an agent $10,000 in commission?"
+- **Earning potential:** specific numbers from their Day 2 commission worksheet
+- **Licensing pathway:** TREC requirements and how MacArthur High School's Real Estate pathway prepares students
+- **Entrepreneurship angle:** you are your own boss, build a personal brand, unlimited earning potential
+- **Market demand:** DFW is one of the fastest-growing real estate markets in the country
+- **Personal angle:** who is this career best for? (People who are outgoing, comfortable with variable income, self-motivated)
 
-Students practice silently or with a partner for 5 minutes, then volunteer to present to the class. Not every student needs to present — the goal is the practice. Allow written pitches for students uncomfortable with oral presentation.
+Students practice silently or with a partner for 5 minutes, then volunteer to present to the class. Not every student needs to present, the goal is the practice. Allow written pitches for students uncomfortable with oral presentation.
 
 !!! tip "Facilitation Tip"
-    Project a visible 2-min timer during presentations. The 2-min cap mirrors what a real estate agent does when pitching a client at a networking event. Presentation is opt-in this week (see Activity 1 body) — if a student is still wrapping at 2 min, let them finish the sentence.
+    Project a visible 2-min timer during presentations. The 2-min cap mirrors what a real estate agent does when pitching a client at a networking event. Presentation is opt-in this week (see Activity 1 body): if a student is still wrapping at 2 min, let them finish the sentence.
 
 **DOK 3:** What makes a career pitch convincing? Is it more about the data (salary, demand) or more about the lifestyle (freedom, variety)? Which appeals to YOU more?
 
@@ -67,7 +67,7 @@ List each week's topic and one thing I learned:
 *"In the 6th Six Weeks, we will explore Education, Arts, Business/Marketing, and a final Capstone. I am most curious about _____ because _____."*
 
 ### Section 5: Career Fit Ranking
-Rank the top 2-5 careers they are currently considering across ALL clusters explored this year. For each, note: cluster, education timeline, and estimated DFW salary. Two strongly-ranked careers with real rationale are better than five shallow ranks — encourage depth over volume.
+Rank the top 2-5 careers they are currently considering across ALL clusters explored this year. For each, note: cluster, education timeline, and estimated DFW salary. Two strongly-ranked careers with real rationale are better than five shallow ranks, encourage depth over volume.
 
 **DOK 4:** Looking at all the career clusters you have explored this year, rank 2-5 careers by personal fit. For each, explain what makes it a good fit based on your RIASEC type, salary expectations, education preferences, and personal interests.
 

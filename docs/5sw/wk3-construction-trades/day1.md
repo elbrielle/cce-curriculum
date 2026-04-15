@@ -16,33 +16,33 @@
 
 **WARM-UP: What is being built near your neighborhood right now? A house, apartment, school, road, or business? Estimate how many different workers (carpenters, plumbers, electricians, drivers, managers) are on that job site.**
 
-Take 2-3 guesses. Students typically underestimate — a mid-size commercial building can have 50+ workers across a dozen different trades. This sets up why this week is about the *builders* rather than the *designers* from Weeks 1-2.
+Take 2-3 guesses. Students typically underestimate, a mid-size commercial building can have 50+ workers across a dozen different trades. This sets up why this week is about the *builders* rather than the *designers* from Weeks 1-2.
 
 ---
 
 ## Activity 1: Review A&C Pathways (10 min)
 
-**Source:** H&L Workbook Ch 3, p. 38 — "What are the Pathways?"
+**Source:** H&L Workbook Ch 3, p. 38, "What are the Pathways?"
 
 Open the H&L workbook to Chapter 3, page 38 and review the six confirmed A&C pathways (students saw these in Week 1, but now the focus shifts from design to construction):
 
-- **Carpentry** — Build, install, and repair wooden structures.
-- **Architecture Drafting and Design** — Plan and design buildings by creating and reading blueprints. *(Covered in Wk1)*
-- **Construction Management and Inspection** — Estimate costs, inspect structures, ensure safety compliance.
-- **Electrical** — Install, fix, and maintain electrical wiring, equipment, and telecommunications cables. *(Wk4 focus)*
-- **HVAC and Sheet Metal** — Install, repair, and maintain heating, cooling, and ventilation systems. *(Wk4 focus)*
-- **Masonry, Plumbing, and Pipefitting** — Build structures with brick and stone; install and maintain pipe systems. *(Wk4 focus)*
+- **Carpentry:** Build, install, and repair wooden structures.
+- **Architecture Drafting and Design:** Plan and design buildings by creating and reading blueprints. *(Covered in Wk1)*
+- **Construction Management and Inspection:** Estimate costs, inspect structures, ensure safety compliance.
+- **Electrical:** Install, fix, and maintain electrical wiring, equipment, and telecommunications cables. *(Wk4 focus)*
+- **HVAC and Sheet Metal:** Install, repair, and maintain heating, cooling, and ventilation systems. *(Wk4 focus)*
+- **Masonry, Plumbing, and Pipefitting:** Build structures with brick and stone; install and maintain pipe systems. *(Wk4 focus)*
 
 This week's focus: **Carpentry and Construction Management**. Next week's focus: skilled trades (Electrical, HVAC, Plumbing, Welding).
 
 !!! tip "Facilitation Tip"
-    Students sometimes think "construction" means just hammering nails. Emphasize that Construction Managers are well-paid leaders who coordinate schedules, budgets, and safety — a great career for students who score high on RIASEC Enterprising or Organizing.
+    Students sometimes think "construction" means just hammering nails. Emphasize that Construction Managers are well-paid leaders who coordinate schedules, budgets, and safety, a great career for students who score high on RIASEC Enterprising or Organizing.
 
 ---
 
 ## Activity 2: H&L Hat Research — Construction Career (25 min)
 
-**Source:** H&L Workbook Ch 3, p. 47 — "Hat Research"
+**Source:** H&L Workbook Ch 3, p. 47, "Hat Research"
 
 Students open their H&L workbook to the Hat Research page in Chapter 3. The workbook instructs: *"Go to the Hats & Ladders app and click on the Hat Finder. Explore Hats in the Architecture and Construction career cluster. Choose one Hat and fill out the information below."*
 
@@ -58,14 +58,14 @@ Since students already did Hat Research in Week 1 for a design career, this week
 Students complete all fields on the Hat Research template:
 
 - **Name of Career**
-- **What Interests You?** — why this career caught their attention
-- **Brief Job Description** — what this professional does daily
-- **Education/Training Needed** — apprenticeship length, licensing, NCCER certifications
-- **Average Salary** — DFW data from the H&L Hat profile
-- **Tools, Equipment, or Skills Needed** — physical tools, math, blueprint reading, leadership
+- **What Interests You?:** why this career caught their attention
+- **Brief Job Description:** what this professional does daily
+- **Education/Training Needed:** apprenticeship length, licensing, NCCER certifications
+- **Average Salary:** DFW data from the H&L Hat profile
+- **Tools, Equipment, or Skills Needed:** physical tools, math, blueprint reading, leadership
 
 !!! tip "Facilitation Tip"
-    Check that students are pulling real data from the H&L app, not guessing. If a student writes "$30/hour" without a source, prompt: "Where in H&L did you find that number?" The localized DFW salary data in H&L is the anchor for the classification activity on Day 3 — inaccurate data here will cascade.
+    Check that students are pulling real data from the H&L app, not guessing. If a student writes "$30/hour" without a source, prompt: "Where in H&L did you find that number?" The localized DFW salary data in H&L is the anchor for the classification activity on Day 3, inaccurate data here will cascade.
 
 ---
 

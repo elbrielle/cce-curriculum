@@ -22,13 +22,13 @@ Quiet warm-up. Project a 90-second timer. Students need calm focus before mock i
 
 ## Activity 1: Paired Mock Interviews (30 min)
 
-**Source:** H&L Workbook Ch 11, pp. 180-181 — "Practicing for a Job Interview" + Mock Interview Question Cards + Rubric
+**Source:** H&L Workbook Ch 11, pp. 180-181, "Practicing for a Job Interview" + Mock Interview Question Cards + Rubric
 
 The workbook (Ch 11, p. 180) explicitly walks through this activity: *"Pair up with a classmate and take turns being an interviewer and the interviewee. The interviewer will ask the questions below, and the interviewee will respond as if they were applying for a real job. Afterward, partners will give each other feedback on their answers, body language, and confidence."*
 
 **Format:**
 
-- Pair students up (try mixed pairings — confident + nervous, ESL + bilingual, etc.)
+- Pair students up (try mixed pairings, confident + nervous, ESL + bilingual, etc.)
 - Each interview is 5-7 minutes
 - Student A is the interviewee first; Student B is the interviewer
 - Interviewer reads questions from the workbook (Ch 11, p. 180) or the printed question cards
@@ -57,7 +57,7 @@ The workbook (Ch 11, p. 180) explicitly walks through this activity: *"Pair up w
 - Catch students playing on phones — this is high-stakes practice, not free time
 
 !!! tip "Facilitation Tip"
-    Wear professional clothes that day if possible. Greet students at the door as if they are arriving for an interview — a handshake and eye contact at the threshold sets the tone without any verbal instruction.
+    Wear professional clothes that day if possible. Greet students at the door as if they are arriving for an interview, a handshake and eye contact at the threshold sets the tone without any verbal instruction.
 
 **DOK 4:** Create a top 5 list of things that make or break a job interview. Rank them and explain WHY each one matters.
 
@@ -65,7 +65,7 @@ The workbook (Ch 11, p. 180) explicitly walks through this activity: *"Pair up w
 
 ## Activity 2: Write the Thank-You Letter (12 min)
 
-**Source:** H&L Workbook Ch 11, pp. 179-181 — "Follow Up" + "Practicing for a Job Interview" Step 3
+**Source:** H&L Workbook Ch 11, pp. 179-181, "Follow Up" + "Practicing for a Job Interview" Step 3
 
 The H&L workbook (Ch 11, p. 179) walks through how to follow up after an interview: *"After an interview, it is important to send a follow-up email to thank the employer. This shows your appreciation and will keep you in the mind of the employer."*
 
@@ -78,7 +78,7 @@ The workbook lists six rules for the thank-you email:
 5. Let them know they can contact you with questions
 6. End with "Best Regards," + your full name
 
-The workbook (Ch 11, p. 181) says: *"Step 3: Write a Thank You Email — Use a digital tool or the space provided to write out your email."*
+The workbook (Ch 11, p. 181) says: *"Step 3: Write a Thank You Email. Use a digital tool or the space provided to write out your email."*
 
 **Student task:** In 12 minutes, write a thank-you email to your mock interview partner. Address them by name. Thank them. Mention one thing you appreciated about the practice. Include 1-2 fit statements. Sign your name.
 

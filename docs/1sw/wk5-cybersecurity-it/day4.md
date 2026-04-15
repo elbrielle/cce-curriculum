@@ -24,17 +24,17 @@ Quick share. Listen for: nearby Texas universities (UNT, UT, A&M, TWU), trade sc
 
 Display the Irving ISD CTE Pathways poster. Walk through the IT-related pathways one by one:
 
-- **Computer Science (District Wide)** — Every IISD high school. Leads to Python certification.
-- **Programming & Digital Tech (Singley Academy)** — Specialized programming track. Leads to Python certification.
-- **Cybersecurity (Singley Academy)** — Cybersecurity Fundamentals certification.
-- **Technology Support Services (Singley Academy)** — Computer Repair Technology certification.
+- **Computer Science (District Wide):** Every IISD high school. Leads to Python certification.
+- **Programming & Digital Tech (Singley Academy):** Specialized programming track. Leads to Python certification.
+- **Cybersecurity (Singley Academy):** Cybersecurity Fundamentals certification.
+- **Technology Support Services (Singley Academy):** Computer Repair Technology certification.
 
 Tell students: "Next year or the year after, you will be in HIGH SCHOOL. The choices you make about which courses to take in 9th grade directly affect which careers you can pursue. The good news is, all of these IT pathways are RIGHT HERE in Irving ISD. You don't need to leave your district to start any of these careers."
 
 Then show 3-4 example postsecondary destinations:
 
-1. **A 4-year college** (e.g., UT Dallas — strong CS program)
-2. **A community college** (e.g., Dallas College — affordable, transfers to 4-year)
+1. **A 4-year college** (e.g., UT Dallas, strong CS program)
+2. **A community college** (e.g., Dallas College, affordable, transfers to 4-year)
 3. **Direct-to-work with certification** (e.g., earning CompTIA A+ at age 19, working as Help Desk Tech)
 4. **Military training** (e.g., Air Force Cyber career field)
 
@@ -53,21 +53,21 @@ Students design a logo representing their postsecondary goal. The logo MUST conn
 
 **Design tools:**
 
-- **Canva** ([canva.com](https://www.canva.com)) — Easiest. Has logo templates and a free SVG export.
-- **Adobe Express** — Also has logo templates.
-- **Inkscape** (advanced) — Free vector tool for students who already know SVG editing.
+- **Canva** ([canva.com](https://www.canva.com)): Easiest. Has logo templates and a free SVG export.
+- **Adobe Express:** Also has logo templates.
+- **Inkscape** (advanced): Free vector tool for students who already know SVG editing.
 
 **Glowforge file requirements:**
 
 - Black and white (no gradients)
 - Vector format (SVG export)
 - Lines for cutting (red), shapes for engraving (black)
-- Simple shapes work best — avoid tiny details under 1mm
+- Simple shapes work best, avoid tiny details under 1mm
 
 Walk the room. Ask each student: "What does your logo represent? What is your postsecondary goal?" If they cannot answer specifically, push them: "Don't just pick a cool logo. Pick a goal first, THEN design the logo for it."
 
 !!! tip "Facilitation Tip"
-    Students often pick a famous college (Harvard, Stanford) without knowing why. Push them to think locally and realistically — UT Dallas, UT Arlington, UNT, Texas A&M, and Dallas College are all in driving distance and have strong programs. The best postsecondary plan is one the student can actually afford and access.
+    Students often pick a famous college (Harvard, Stanford) without knowing why. Push them to think locally and realistically. UT Dallas, UT Arlington, UNT, Texas A&M, and Dallas College are all in driving distance and have strong programs. The best postsecondary plan is one the student can actually afford and access.
 
 !!! warning "Common Issue"
     Glowforge cuts take 5-15 minutes per logo depending on complexity. Stagger student designs so the queue doesn't bottleneck. First-batch cuts start today; second-batch cuts continue tomorrow.
@@ -98,5 +98,5 @@ Students whose designs are not yet ready continue working on them while the firs
 ## Differentiation
 
 - **Support:** Provide pre-made SVG templates of common college logos (UT, A&M, UNT, Dallas College) and military insignia. Students can download a template and add personal customization rather than designing from scratch.
-- **Extension:** Advanced students design a logo with TWO elements — a college logo AND a career icon (e.g., UT Dallas + a microscope for a biology major).
+- **Extension:** Advanced students design a logo with TWO elements, a college logo AND a career icon (e.g., UT Dallas + a microscope for a biology major).
 - **ELL:** Allow ELL students to label their logo with text in Spanish (Universidad de Texas, Cybersecurity = Ciberseguridad). Pair ELL students with bilingual peers when navigating the Canva or Adobe Express interface.

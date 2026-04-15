@@ -16,7 +16,7 @@
 
 **WARM-UP: What is one thing that could go wrong while you build your bridge? How will you know if it is happening?**
 
-Quick share. This primes students to self-monitor during building rather than just rushing. Civil engineers call this "quality control" — checking as you go, not just at the end.
+Quick share. This primes students to self-monitor during building rather than just rushing. Civil engineers call this "quality control", checking as you go, not just at the end.
 
 ---
 
@@ -27,10 +27,10 @@ Distribute materials to each team. Emphasize: **follow your approved sketch from
 Use **three visual checkpoints** to keep teams on pace. Walk with a clipboard and mark each team's progress.
 
 ### Checkpoint 1 — by minute 8
-**Base structure complete.** Two long support rails (straws taped together) should span roughly 12 inches. Most teams are still shaky here — that is fine.
+**Base structure complete.** Two long support rails (straws taped together) should span roughly 12 inches. Most teams are still shaky here, that is fine.
 
 ### Checkpoint 2 — by minute 15
-**Triangular reinforcement added.** Diagonal members (making truss triangles) should be visible connecting the two support rails. Teams with no triangles need a reminder — point to their Day 3 sketch.
+**Triangular reinforcement added.** Diagonal members (making truss triangles) should be visible connecting the two support rails. Teams with no triangles need a reminder, point to their Day 3 sketch.
 
 ### Checkpoint 3 — by minute 22
 **Deck surface complete.** Index cards or taped straws form a flat deck where weight can be placed. The bridge should stand on its own without being held.
@@ -46,7 +46,7 @@ Set up the test station at the front of the room: two desks (or stacks of books)
 
 Each team brings their bridge forward for testing. Use one of these methods:
 
-- **Method 1 (simple):** Add pennies to a cup sitting in the center of the bridge, one at a time. Define "failure" before testing starts so teams cannot argue in the moment: STOP at the first visible sag OR the first taped joint that separates — teacher's call is final. Record the penny count at the stop.
+- **Method 1 (simple):** Add pennies to a cup sitting in the center of the bridge, one at a time. Define "failure" before testing starts so teams cannot argue in the moment: STOP at the first visible sag OR the first taped joint that separates, teacher's call is final. Record the penny count at the stop.
 - **Method 2 (precise):** Use a digital kitchen scale placed on the bridge, and stack textbooks until failure. Record weight in grams.
 
 Testing protocol:
@@ -56,7 +56,7 @@ Testing protocol:
 3. Teacher calls "STOP" at first visible failure (buckling, collapse, or deck breaking)
 4. Teacher records max weight on a class-visible whiteboard
 
-Each team records their own result on their test results sheet along with notes on **where the bridge failed first** (usually the deck, a support rail, or a taped joint). Teams waiting their turn at the test station should start Activity 3 (redesign reflection) at their desks instead of sitting idle — this keeps the test queue moving and distributes the 15-min activity time across testing and writing.
+Each team records their own result on their test results sheet along with notes on **where the bridge failed first** (usually the deck, a support rail, or a taped joint). Teams waiting their turn at the test station should start Activity 3 (redesign reflection) at their desks instead of sitting idle. This keeps the test queue moving and distributes the 15-min activity time across testing and writing.
 
 **DOK 4:** What design features correlated with the strongest bridges in our class? Use evidence from at least two teams' results.
 
@@ -70,16 +70,16 @@ Before clean-up, each team writes a quick redesign statement on their test resul
 - **Why did it fail?** Was it the material, the shape, or the connection method?
 - **What would you change?** Describe one specific change that would make the bridge stronger.
 
-This reflection is the "Redesign" phase of the EDP. Real civil engineers rarely get it perfect on the first try — they iterate.
+This reflection is the "Redesign" phase of the EDP. Real civil engineers rarely get it perfect on the first try. They iterate.
 
 !!! note "Connection to Infrastructure Imagination"
-    Remind students that this bridge challenge is a simplified version of the Los Lomas Infrastructure Imagination project. Real civil engineers work at a much bigger scale and with much longer test cycles — but the process is the same.
+    Remind students that this bridge challenge is a simplified version of the Los Lomas Infrastructure Imagination project. Real civil engineers work at a much bigger scale and with much longer test cycles, but the process is the same.
 
 ---
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Record your bridge's max weight held, name the element that failed first, and describe ONE change you would make in a redesign. Then connect this to real civil engineering — what do engineers do when their first design fails? *(d(1)(C), d(1)(D))*
+**EXIT TICKET:** Record your bridge's max weight held, name the element that failed first, and describe ONE change you would make in a redesign. Then connect this to real civil engineering, what do engineers do when their first design fails? *(d(1)(C), d(1)(D))*
 
 ---
 

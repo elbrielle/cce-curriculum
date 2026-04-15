@@ -16,13 +16,13 @@
 
 **WARM-UP: This week we explored plants, the environment, and emerging ag tech. What career from this week could you actually see yourself doing? Why?**
 
-Take 4-5 student responses. Validate ALL answers — including "none of them." Career exploration is about clarity, not commitment.
+Take 4-5 student responses. Validate ALL answers, including "none of them." Career exploration is about clarity, not commitment.
 
 ---
 
 ## Activity 1: Xello Work Experiences Lesson (20 min)
 
-**Source:** Xello 7th-Grade Lesson — "Work Experiences"
+**Source:** Xello 7th-Grade Lesson, "Work Experiences"
 
 Open Xello on the projector and walk students through finding the Work Experiences lesson:
 
@@ -43,7 +43,7 @@ After completing the lesson, students log at least ONE Work Experience entry in 
 - Dates / how long
 - 1-2 sentences on what they did and what they learned
 
-If a student has truly never worked in any capacity, they can log a future plan: "Plan to work at the school book fair in October — will gain customer service and cash handling experience."
+If a student has truly never worked in any capacity, they can log a future plan: "Plan to work at the school book fair in October, will gain customer service and cash handling experience."
 
 > [VERIFY IN Xello] Confirm with your district that the Work Experiences field is enabled in your school's Xello configuration. If not, students complete the lesson and write entries in their notebook.
 
@@ -54,13 +54,13 @@ If a student has truly never worked in any capacity, they can log a future plan:
 
 ## Activity 2: Nimitz Plant Science Pathway Research (15 min)
 
-**Source:** Irving ISD Pathways reference (PATHWAYS.md) — Nimitz HS Plant Science pathway leading to Texas Certified Landscape Associate credential
+**Source:** Irving ISD Pathways reference (PATHWAYS.md): Nimitz HS Plant Science pathway leading to Texas Certified Landscape Associate credential
 
-Project the Nimitz HS Plant Science pathway info on the screen. The pathway leads to the **Texas Certified Landscape Associate** credential — a state-specific credential that nursery, landscape, and grounds-management employers actively hire.
+Project the Nimitz HS Plant Science pathway info on the screen. The pathway leads to the **Texas Certified Landscape Associate** credential, a state-specific credential that nursery, landscape, and grounds-management employers actively hire.
 
 Walk students through the pathway map:
 
-- **Middle school (now):** CCE course — explore Plant Science, complete Hat Research
+- **Middle school (now):** CCE course, explore Plant Science, complete Hat Research
 - **High school at Nimitz:** Plant Science pathway → Texas Certified Landscape Associate credential
 - **Post-high school options:**
     - Direct employment with landscape or nursery company (with credential in hand)
@@ -76,7 +76,7 @@ Students take 5 minutes of notes on the pathway map: which post-high school opti
 
 ## Activity 3: H&L Favorites + Climber Profile Screenshot (8 min)
 
-**Source:** H&L Workbook Ch 2 — Hat Finder favoriting
+**Source:** H&L Workbook Ch 2, Hat Finder favoriting
 
 > [H&L PLATFORM] Direct students to the Hat Finder in the H&L app, filter by Plant Science and Environmental & Natural Resources, and click the heart/favorite icon on 2-3 careers from this week. The favorited Hats appear in their Climber Profile under "Favorites."
 
@@ -96,4 +96,4 @@ Students take a screenshot of their Climber Profile favorites screen and save it
 
 - **Support:** Pre-fill the Nimitz pathway notes sheet with the credential name and one option pre-completed.
 - **Extension:** Compare the Nimitz Plant Science pathway to the Sustainable Engineering pathway (also at Nimitz). Which credential opens more doors? Use BLS data.
-- **ELL:** Pre-teach: Pathway = Carrera/Camino, Credential = Credencial, Landscape = Paisajismo. Xello supports Spanish — show students how to switch the interface language if needed.
+- **ELL:** Pre-teach: Pathway = Carrera/Camino, Credential = Credencial, Landscape = Paisajismo. Xello supports Spanish, show students how to switch the interface language if needed.

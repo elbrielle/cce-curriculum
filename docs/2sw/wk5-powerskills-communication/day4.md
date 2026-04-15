@@ -22,13 +22,13 @@ Take 2-3 responses. Bridge: in healthcare, miscommunication can mean medication 
 
 ## Activity 1: Written Communication Tips (8 min)
 
-**Source:** H&L Powerskills Workbook, p. 25 — "Written Communication"
+**Source:** H&L Powerskills Workbook, p. 25, "Written Communication"
 
 Read the workbook intro aloud: *"Effective communication is all about sharing your thoughts clearly and understanding other people. One way to effectively communicate is through writing. At work, people share their ideas and ask questions through emails, letters, reports, and even social media."*
 
 Project the workbook's 4 tips (p. 25):
 
-1. **Put yourself in your reader's shoes** — what information will they need to know about the topic?
+1. **Put yourself in your reader's shoes:** what information will they need to know about the topic?
 2. **Be clear and concise**
 3. **Stay on topic and avoid irrelevant information**
 4. **Proofread to make sure there are no typos or confusing sentences**
@@ -39,23 +39,23 @@ Connect to healthcare: a nurse writes patient notes that the next shift's nurse 
 
 ## Activity 2: Little Library Social Media Post (22 min)
 
-**Source:** H&L Powerskills Workbook, pp. 25-26 — Little Library Activity
+**Source:** H&L Powerskills Workbook, pp. 25-26, Little Library Activity
 
-Read the workbook scenario: *"Imagine that your town has several Little Libraries — small spaces where people can take, trade, or leave books for free. To keep these libraries useful, the community needs to know when they need more books, have too many books, or have specific books available. You have been tasked to create a social media platform for the Little Libraries to keep your community informed."*
+Read the workbook scenario: *"Imagine that your town has several Little Libraries, small spaces where people can take, trade, or leave books for free. To keep these libraries useful, the community needs to know when they need more books, have too many books, or have specific books available. You have been tasked to create a social media platform for the Little Libraries to keep your community informed."*
 
-**Step 1: Gather Information** (workbook p. 26) — Each student decides:
+**Step 1: Gather Information** (workbook p. 26): Each student decides:
 
 - Is the Little Library full, empty, or in need of specific types of books?
 - What do you want people to do (donate, take, check out the selection)?
 - Where is your Little Library located?
 
-**Step 2: Create the Post** (workbook p. 26) — Each student creates a social media post that includes:
+**Step 2: Create the Post** (workbook p. 26): Each student creates a social media post that includes:
 
 - **Clear status** of the Little Library (full / empty / needs specific books)
 - **Call to action** (donate, visit, take)
 - **At least 2 hashtags** that help people find the post
 
-Students write the post on the worksheet (or in a Google Doc). The post should be 3-5 sentences max — concise is the point.
+Students write the post on the worksheet (or in a Google Doc). The post should be 3-5 sentences max, concise is the point.
 
 **Class Discussion** (workbook p. 26):
 
@@ -76,7 +76,7 @@ Pivot the written communication skill into a healthcare context. Distribute new 
 - **Card B:** Write a 2-sentence patient education note for someone who just had a tooth extracted (post-procedure care).
 - **Card C:** Write a 2-sentence email to a patient explaining that their lab results came back normal.
 
-Assign one card per student by row or table (e.g., Row 1 = Card A, Row 2 = Card B, Row 3 = Card C) so students can start writing immediately — no time lost to card-shopping. Each student writes the message in 5 minutes. Then they pair with the nearest neighbor regardless of card and read each other's messages, checking:
+Assign one card per student by row or table (e.g., Row 1 = Card A, Row 2 = Card B, Row 3 = Card C) so students can start writing immediately, no time lost to card-shopping. Each student writes the message in 5 minutes. Then they pair with the nearest neighbor regardless of card and read each other's messages, checking:
 
 - Is the message clear?
 - Could a real patient/colleague act on it?

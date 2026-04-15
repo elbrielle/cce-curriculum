@@ -8,7 +8,7 @@
 | **Objectives** | Identify entrepreneurial opportunities in the beauty industry; sketch a salon business concept; complete the H&L "Get Out and Move!" Career Lab brainstorm and event plan steps |
 | **TEKS** | d(3)(I) |
 | **Deliverable** | Salon business concept sketch + Get Out and Move! event activity list and pledge draft |
-| **Materials** | H&L Workbook Ch 11 (pp. 184-187 — "Get Out and Move!"), salon concept template, event plan template, projector |
+| **Materials** | H&L Workbook Ch 11 (pp. 184-187, "Get Out and Move!"), salon concept template, event plan template, projector |
 
 ---
 
@@ -16,13 +16,13 @@
 
 **WARM-UP: Would you rather work IN someone else's salon or OWN your own salon? What's good and bad about each?**
 
-Take 4-5 student responses. Surface both sides — employees have stable pay and no risk; owners have higher potential income but take on rent, payroll, and inventory costs.
+Take 4-5 student responses. Surface both sides, employees have stable pay and no risk; owners have higher potential income but take on rent, payroll, and inventory costs.
 
 ---
 
 ## Activity 1: Salon Business Concept Sketch (15 min)
 
-**Source:** TEKS d(3)(I) — Define entrepreneurship and identify entrepreneurial opportunities
+**Source:** TEKS d(3)(I): Define entrepreneurship and identify entrepreneurial opportunities
 
 Project an example salon business concept on the board:
 
@@ -37,7 +37,7 @@ Project an example salon business concept on the board:
 
 Students sketch their OWN salon (or barber shop, nail salon, spa, or skin care studio) on the concept template. They must include all 6 elements above.
 
-The point: cosmetology is creative, but the BUSINESS side requires a different set of skills — accounting, marketing, scheduling, supply ordering. An entrepreneur in cosmetology has to learn both sides.
+The point: cosmetology is creative, but the BUSINESS side requires a different set of skills, accounting, marketing, scheduling, supply ordering. An entrepreneur in cosmetology has to learn both sides.
 
 !!! tip "Facilitation Tip"
     Students often pick the "Unique Selling Point" too generic ("good service" or "low prices"). Push them: what is something that NO other salon in your area is doing? That's the actual hook.
@@ -46,9 +46,9 @@ The point: cosmetology is creative, but the BUSINESS side requires a different s
 
 ## Activity 2: H&L "Get Out and Move!" Activity Planning (25 min)
 
-**Source:** H&L Workbook Ch 11, pp. 184-187 — "Get Out and Move!" (Career Lab activity)
+**Source:** H&L Workbook Ch 11, pp. 184-187, "Get Out and Move!" (Career Lab activity)
 
-Read aloud the workbook background (Ch 11, p. 184): Students get into small groups of 3-4 — they are now the **Get Out and Move Planning Committee**. Their job is to plan a community fair event for the city of Fairview that promotes physical activity and outdoor fun for families.
+Read aloud the workbook background (Ch 11, p. 184): Students get into small groups of 3-4. They are now the **Get Out and Move Planning Committee**. Their job is to plan a community fair event for the city of Fairview that promotes physical activity and outdoor fun for families.
 
 Project the **Get Out and Move Playbook** from the workbook (Ch 11, p. 185-186):
 
@@ -57,9 +57,9 @@ Project the **Get Out and Move Playbook** from the workbook (Ch 11, p. 185-186):
 - **Activity examples from past years (workbook p. 186):** obstacle courses, group dance sessions, sidewalk chalk murals, tug of war, sports clinics, healthy snack tastings
 - **Recommendations:** include creativity/collaboration/competition activities, involve local businesses and wellness providers, design accessible activities, plan for shaded/weather-friendly options, prioritize screen-free hands-on engagement
 
-**Step 1: Brainstorm the Event Plan (workbook p. 186)** — Groups discuss and decide on at least **5 fun activities** for the event. They write the activities in the workbook brainstorm space, including why each is enjoyable and good for physical health.
+**Step 1: Brainstorm the Event Plan (workbook p. 186):** Groups discuss and decide on at least **5 fun activities** for the event. They write the activities in the workbook brainstorm space, including why each is enjoyable and good for physical health.
 
-**Step 2: Create the Event Pledge (workbook p. 187)** — Groups draft a pledge that every attendee will sign, promising to spend the day being active instead of using technology. The pledge should be:
+**Step 2: Create the Event Pledge (workbook p. 187):** Groups draft a pledge that every attendee will sign, promising to spend the day being active instead of using technology. The pledge should be:
 
 - Short, easy to understand, motivating
 - Visually appealing

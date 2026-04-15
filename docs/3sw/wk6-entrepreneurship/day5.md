@@ -22,7 +22,7 @@ Take 4-5 student responses. Capture the categories (rent, car, food, phone, savi
 
 ## Activity 1: H&L Lifestyle Snapshot Intro (10 min)
 
-**Source:** H&L Workbook Ch 16, p. 269 — "Lifestyle Snapshot"
+**Source:** H&L Workbook Ch 16, p. 269, "Lifestyle Snapshot"
 
 Read aloud the workbook background (Ch 16, p. 269): As students work on a career plan, they also need to think about their future lifestyle and budget. The workbook prompts these questions:
 
@@ -31,7 +31,7 @@ Read aloud the workbook background (Ch 16, p. 269): As students work on a career
 - What things will I want to buy?
 - What savings goals will I have?
 
-Project an example budget on the screen. Show how a $50,000/year salary breaks down to about $4,166/month BEFORE taxes — and roughly $3,200 AFTER taxes in Texas (no state income tax helps).
+Project an example budget on the screen. Show how a $50,000/year salary breaks down to about $4,166/month BEFORE taxes, and roughly $3,200 AFTER taxes in Texas (no state income tax helps).
 
 > [H&L PLATFORM] The workbook (Ch 16, p. 269) directs students to "use the template provided by your teacher to plan and track your future finances." Students may also reference their Career Plan in the H&L app to remind themselves which career they were planning toward earlier in the year.
 
@@ -65,7 +65,7 @@ After filling in the budget, students answer these analysis questions:
 
 - What percentage of your monthly income goes to rent? (Calculate: rent ÷ income × 100)
 - Is the salary from your chosen career enough to live the lifestyle you want? Yes / No / Almost
-- If "no," what would you change — your career, your lifestyle, or both?
+- If "no," what would you change, your career, your lifestyle, or both?
 
 **DOK 3:** What conclusions can you draw about how your career choice directly affects the lifestyle you can afford? Use specific numbers from your budget.
 
@@ -73,7 +73,7 @@ After filling in the budget, students answer these analysis questions:
 
 ## Activity 3: Xello Save Careers + 3SW Capstone Reflection (12 min)
 
-**Source:** Xello 7th-Grade Task — "Save Careers"
+**Source:** Xello 7th-Grade Task, "Save Careers"
 
 Direct students to open Xello and save 2-3 careers from this six weeks to their Xello profile. The Save Careers task lives under "Career Match" or "Saved Careers" depending on the Xello version.
 
@@ -106,5 +106,5 @@ Sentence stems available for students who need them:
 ## Differentiation
 
 - **Support:** Provide a pre-filled budget worksheet with the salary already entered, taxes already calculated, and rent already chosen. Students fill in only the discretionary categories.
-- **Extension:** Build TWO budgets — one for an entry-level job in your favorite cluster, and one for a senior job in the same cluster. How does the lifestyle change?
+- **Extension:** Build TWO budgets, one for an entry-level job in your favorite cluster, and one for a senior job in the same cluster. How does the lifestyle change?
 - **ELL:** Pre-teach: Budget = Presupuesto, Income = Ingreso, Rent = Renta, Savings = Ahorros. Bilingual budget worksheet with Spanish category labels. The reflection paragraph may be written in English, Spanish, or bilingual.

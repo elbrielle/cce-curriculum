@@ -14,7 +14,7 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Finish this sentence in writing — *"On the first day of CCE, I thought career planning was _____. Now I think career planning is _____."***
+**WARM-UP: Finish this sentence in writing, *"On the first day of CCE, I thought career planning was _____. Now I think career planning is _____."***
 
 Take 4-5 student responses. This is the perfect emotional opener for the last day. Most students will say something like "I thought it was about picking ONE job. Now I know it's about exploring."
 
@@ -43,7 +43,7 @@ For each six weeks block, list one specific thing the student learned:
 
 **Section 3: Career Pathway Check (3 min)**
 
-*"At the start of the year, my top career choice was _____. After this year, my top career choice is _____."* (They may be the same or different — both are valid growth.)
+*"At the start of the year, my top career choice was _____. After this year, my top career choice is _____."* (They may be the same or different, both are valid growth.)
 
 **Section 4: Skills I Built (5 min)**
 
@@ -62,9 +62,9 @@ For each skill, write a one-sentence explanation of HOW you will use it.
 Write a 1-paragraph letter to NEXT year's CCE class. What is your single best piece of advice for them about career exploration?
 
 !!! tip "Facilitation Tip"
-    Make this a quiet writing moment. Play soft instrumental music if appropriate. The reflection is the year's most personal artifact. Resist the urge to fill silence with talk — let students think.
+    Make this a quiet writing moment. Play soft instrumental music if appropriate. The reflection is the year's most personal artifact. Resist the urge to fill silence with talk, let students think.
 
-**DOK 4:** Looking back at all 36 weeks, what is the ONE most important thing you learned about YOURSELF? Not about a career — about you.
+**DOK 4:** Looking back at all 36 weeks, what is the ONE most important thing you learned about YOURSELF? Not about a career, about you.
 
 ---
 
@@ -76,7 +76,7 @@ Distribute Certificates of Completion if available. Even a simple printed certif
 
 **Whole-class celebration moment:**
 
-- Each student shares ONE highlight from the year — favorite cluster, favorite activity, favorite project, biggest growth moment. Quick — 10-15 seconds each. Keep moving.
+- Each student shares ONE highlight from the year, favorite cluster, favorite activity, favorite project, biggest growth moment. Quick, 10-15 seconds each. Keep moving.
 - Applaud after each share
 - Teacher takes a class photo if appropriate
 
@@ -96,7 +96,7 @@ Walk through what happens next:
 
 One last task: students log into H&L one more time and confirm their Career Plan is finalized and downloaded. They should be able to access it from home over the summer.
 
-> [H&L PLATFORM] Students confirm their Career Plan is saved in their H&L account. The downloaded copy from Day 4 is the official artifact. The H&L account stays active — students can log in any time to keep building.
+> [H&L PLATFORM] Students confirm their Career Plan is saved in their H&L account. The downloaded copy from Day 4 is the official artifact. The H&L account stays active. Students can log in any time to keep building.
 
 ---
 

@@ -6,7 +6,7 @@
 
 Students revisit their RIASEC results from Week 0, audit every career they have favorited across the first three six-weeks blocks, complete the H&L "Iceberg Cartoon" reflection (Ch 16) to surface the hidden skills behind their visible career interests, and use the H&L Career Plan tool to select a top pathway for the second half of the year.
 
-!!! note "Buffer week — adapt freely for state testing season"
+!!! note "Buffer week: adapt freely for state testing season"
     The original scope-and-sequence intentionally left this week light (Xello completions + eDynamic supplements, no new cluster) because it lands during STAAR / state testing season when periods get pulled, shortened, or canceled with little notice. The Iceberg Cartoon and pathway selection activities below are load-bearing for 4SW Wk2 and 6SW Wk6 downstream, but the supporting activities (gallery walk, extended discussion, extension research) are deliberately cut-or-condense candidates when a testing day eats a period. Keep: Iceberg Cartoon + Pathway Ranking. Flex: everything else.
 
 ## Demonstration of Learning
@@ -25,7 +25,7 @@ Students revisit their RIASEC results from Week 0, audit every career they have 
 - Hats & Ladders student accounts + H&L Workbook (Ch 16: My Next Steps, pp. 263-271)
 - Xello student accounts (Quick Sims: The Real Game)
 - My Career Journey reflection sheet from Week 0 (saved or printed)
-- Printed Iceberg Cartoon template (1 per student) — blank iceberg with title line, top section, underwater section
+- Printed Iceberg Cartoon template (1 per student): blank iceberg with title line, top section, underwater section
 - Printed RIASEC vs. Favorites comparison worksheet
 - Irving ISD CTE Pathways poster (displayed in room)
 - eDynamic Learning Unit 8.1: Choosing a Career Path
@@ -33,15 +33,15 @@ Students revisit their RIASEC results from Week 0, audit every career they have 
 
 ## Career Connection
 
-Students have now spent 18 weeks exploring Manufacturing, IT, Law, Health Science, Agriculture, Hospitality, Human Services, and Business. Every favorite they tagged, every career they researched, every Hat they liked — all of that data lives in their H&L Climber Profile. The H&L Career Plan tool aggregates everything into one personalized roadmap, and students cross-reference it with the actual Irving ISD CTE pathways available at Irving High, MacArthur, Nimitz, Singley Academy, Cardwell Career Preparatory Center, and Ratteree Career Development Center.
+Students have now spent 18 weeks exploring Manufacturing, IT, Law, Health Science, Agriculture, Hospitality, Human Services, and Business. Every favorite they tagged, every career they researched, every Hat they liked, all of that data lives in their H&L Climber Profile. The H&L Career Plan tool aggregates everything into one personalized roadmap, and students cross-reference it with the actual Irving ISD CTE pathways available at Irving High, MacArthur, Nimitz, Singley Academy, Cardwell Career Preparatory Center, and Ratteree Career Development Center.
 
 **Irving ISD Pathways:** All pathways across the district. Students narrow to their top 1-2 pathways this week and commit to one in Week 2.
 
 ## Vocabulary
 
-- **RIASEC (Holland Code):** A six-type framework for matching personality to careers — Doer (Realistic), Analyzer (Investigative), Creator (Artistic), Helper (Social), Persuader (Enterprising), Organizer (Conventional).
+- **RIASEC (Holland Code):** A six-type framework for matching personality to careers: Doer (Realistic), Analyzer (Investigative), Creator (Artistic), Helper (Social), Persuader (Enterprising), Organizer (Conventional).
 - **Career Plan:** In H&L, the personalized roadmap that aggregates RIASEC, Work Values, Building Blocks, favorited Hats, and pathway recommendations into one place.
-- **Iceberg (career exploration metaphor):** Visible career outcomes (the tip) sit on top of invisible work — skills practiced, sacrifices made, mentors used, failures recovered from.
+- **Iceberg (career exploration metaphor):** Visible career outcomes (the tip) sit on top of invisible work: skills practiced, sacrifices made, mentors used, failures recovered from.
 - **Pathway Selection:** Choosing a sequence of HS courses and experiences that aligns with a career interest.
 - **Endorsement:** In Texas, one of five HS specialization tracks (STEM, Business, Arts, Public Services, Multidisciplinary).
 
@@ -49,17 +49,17 @@ Students have now spent 18 weeks exploring Manufacturing, IT, Law, Health Scienc
 
 H&L Chapter 16: My Next Steps (pp. 263-271) is the planning hub of the entire workbook. This week uses three named Ch 16 activities:
 
-- **"Thinking About My Career Journey"** (p. 264) — A self-audit checklist where students mark which career-exploration concepts they feel confident about (star = needs more work; check = confident).
-- **"Iceberg Cartoon"** (pp. 265-267) — Students build a personal iceberg showing the visible outcome of their career goal on top and the hidden skills, sacrifices, and steps underneath. The example in the workbook is winning a sports trophy.
-- **"Being a Career Thinker"** (p. 270) — A capstone reflection on how their thinking about careers has evolved.
+- **"Thinking About My Career Journey"** (p. 264): A self-audit checklist where students mark which career-exploration concepts they feel confident about (star = needs more work; check = confident).
+- **"Iceberg Cartoon"** (pp. 265-267): Students build a personal iceberg showing the visible outcome of their career goal on top and the hidden skills, sacrifices, and steps underneath. The example in the workbook is winning a sports trophy.
+- **"Being a Career Thinker"** (p. 270): A capstone reflection on how their thinking about careers has evolved.
 
 The H&L app's **Career Plan** tool reads from the student's Climber Profile (RIASEC, Work Values, Building Blocks, favorited Hats) and generates a personalized pathway recommendation. The **Coach Dashboard** lets the teacher see every student's plan and message students directly.
 
 ## IISD Instructional Strategies
 
-- **Stop and Jot:** Used during the cluster history audit on Day 1 — students pause every 3 minutes to write what surprised them about their own pattern of favorites.
+- **Stop and Jot:** Used during the cluster history audit on Day 1. Students pause every 3 minutes to write what surprised them about their own pattern of favorites.
 - **Think-Pair-Share:** RIASEC growth discussion on Day 1, Career Plan share on Day 2.
-- **Sentence Stems:** Iceberg reflection — "On top of my iceberg, people see _____. Underneath my iceberg, the hidden work is _____."
+- **Sentence Stems:** Iceberg reflection, "On top of my iceberg, people see _____. Underneath my iceberg, the hidden work is _____."
 - **Active Monitoring:** During Career Plan navigation on Day 2, teacher circulates with a checklist verifying each student located the Plan, confirmed RIASEC type, and recorded their top 3 favorited Hats.
 
 ## Week at a Glance
@@ -74,12 +74,12 @@ The H&L app's **Career Plan** tool reads from the student's Climber Profile (RIA
 
 ## Formative Assessment
 
-- "Thinking About My Career Journey" self-check completion (Day 1) — d(1)(A)
-- RIASEC vs. Favorites worksheet accuracy (Day 1) — d(1)(A)
-- Iceberg Cartoon depth — does the underwater section have ≥10 items? (Day 2) — d(1)(A)
-- Career Plan navigation checkpoint (Day 2) — d(8)(A)
-- Real Game decision log (Day 3) — d(8)(A)
-- Pathway ranking sheet (Day 4) — d(8)(A), d(8)(B)
+- "Thinking About My Career Journey" self-check completion (Day 1): d(1)(A)
+- RIASEC vs. Favorites worksheet accuracy (Day 1): d(1)(A)
+- Iceberg Cartoon depth: does the underwater section have ≥10 items? (Day 2): d(1)(A)
+- Career Plan navigation checkpoint (Day 2): d(8)(A)
+- Real Game decision log (Day 3): d(8)(A)
+- Pathway ranking sheet (Day 4): d(8)(A), d(8)(B)
 
 ## Summative Assessment
 
@@ -92,16 +92,16 @@ The H&L app's **Career Plan** tool reads from the student's Climber Profile (RIA
 - Simplified Career Plan navigation guide with screenshots
 - Pre-built Iceberg template with the underwater section divided into labeled zones (Skills, Sacrifices, Practice, People Who Helped) so students know what to put where
 - Allow students to use Irving ISD pathways poster as a visual reference during pathway selection
-- Reduced Real Game decision log — track 3 decisions instead of all 8
+- Reduced Real Game decision log: track 3 decisions instead of all 8
 
 ### Extensions
-- Compare H&L Career Plan recommendations to MyNextMove Interest Profiler results — do they agree?
+- Compare H&L Career Plan recommendations to MyNextMove Interest Profiler results. Do they agree?
 - Build a 4-year HS course sketch using Texas OnCourse for the selected pathway (this previews Wk 2)
 - Research dual-credit options at the chosen Irving ISD high school
 
 ### ELL Language Support
 - Pre-teach: Career Plan = Plan de carrera, Iceberg = Iceberg, Pathway = Trayectoria profesional, Endorsement = Especialización
 - Bilingual mid-year reflection template with Spanish sentence stems
-- The Iceberg activity is highly visual — students can draw or paste images instead of writing
+- The Iceberg activity is highly visual. Students can draw or paste images instead of writing
 - Pair ESL students with bilingual peers during the Gallery Walk discussion
 - Xello Quick Sims include visual decision interfaces accessible across language levels

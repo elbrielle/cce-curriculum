@@ -78,5 +78,5 @@ After the worksheet is complete, students answer two analysis questions on the b
 ## Differentiation
 
 - **Support:** Pre-fill the worksheet with the median pay numbers already entered. Students focus on filling in the other rows and the analysis questions.
-- **Extension:** Research a third related career — Veterinary Specialist (e.g., Veterinary Surgeon, Veterinary Cardiologist). How does the salary and education differ from a general Veterinarian?
+- **Extension:** Research a third related career. Veterinary Specialist (e.g., Veterinary Surgeon, Veterinary Cardiologist). How does the salary and education differ from a general Veterinarian?
 - **ELL:** Pre-teach: Salary = Salario, Median = Mediana, Outlook = Perspectiva, Required = Requerido. Provide a bilingual comparison worksheet with Spanish column headers.

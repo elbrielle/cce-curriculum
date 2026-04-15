@@ -22,8 +22,8 @@ Students explore the Law, Public Safety, Corrections & Security career cluster t
 - Chromebooks with internet access (1 per student)
 - Hats & Ladders student accounts + H&L Workbook (Ch 13: Law and Public Service, pp. 209-220)
 - iCivics free games: [icivics.org](https://www.icivics.org)
-- BLS — Lawyers: [bls.gov/ooh/legal/lawyers.htm](https://www.bls.gov/ooh/legal/lawyers.htm)
-- BLS — Paralegals: [bls.gov/ooh/legal/paralegals-and-legal-assistants.htm](https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm)
+- BLS, Lawyers: [bls.gov/ooh/legal/lawyers.htm](https://www.bls.gov/ooh/legal/lawyers.htm)
+- BLS, Paralegals: [bls.gov/ooh/legal/paralegals-and-legal-assistants.htm](https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm)
 - eDynamic Learning Unit 5.1: Law & Order
 - Xello accounts (Life Experience activity)
 - Printed Emergency Kit Design worksheet (10-item planning grid)
@@ -32,9 +32,9 @@ Students explore the Law, Public Safety, Corrections & Security career cluster t
 
 ## Career Connection
 
-The legal profession is one of the oldest and most respected career fields. From courtroom attorneys to paralegals who prepare critical case documents, legal professionals keep the justice system running. The legal field also includes entrepreneurial paths — solo-practice attorneys, mediators, and legal consultants all run their own businesses. The Law cluster also includes Fire Science and Emergency Services careers, which is where the H&L Ch 13 "Emergency Essentials" activity comes in: legal and emergency-services careers both require critical thinking under pressure.
+The legal profession is one of the oldest and most respected career fields. From courtroom attorneys to paralegals who prepare critical case documents, legal professionals keep the justice system running. The legal field also includes entrepreneurial paths, solo-practice attorneys, mediators, and legal consultants all run their own businesses. The Law cluster also includes Fire Science and Emergency Services careers, which is where the H&L Ch 13 "Emergency Essentials" activity comes in: legal and emergency-services careers both require critical thinking under pressure.
 
-**Irving ISD Pathway:** Law Enforcement at Singley Academy — leads to Non-Commissioned Security Officer Level II certification. Students who continue past middle school can explore both legal services and law enforcement entry points.
+**Irving ISD Pathway:** Law Enforcement at Singley Academy, leads to Non-Commissioned Security Officer Level II certification. Students who continue past middle school can explore both legal services and law enforcement entry points.
 
 ## Vocabulary
 
@@ -42,15 +42,15 @@ The legal profession is one of the oldest and most respected career fields. From
 - **Probable Cause:** A reasonable basis to believe a crime may have been committed, allowing legal action like an arrest or search.
 - **Due Process:** The legal requirement that the government must respect all legal rights owed to a person.
 - **Bar Association:** A professional association for lawyers. Most states require lawyers to pass the Bar Exam to practice law.
-- **Entrepreneur (Legal):** A person who starts their own legal business — solo practice, mediation firm, or legal consulting.
+- **Entrepreneur (Legal):** A person who starts their own legal business, solo practice, mediation firm, or legal consulting.
 - **Emergency Kit:** A pre-packed set of essential supplies designed to help people survive a disaster or emergency for 72 hours.
 
 ## Bridge to Theory (Hats & Ladders)
 
 The H&L workbook (Ch 13: Law and Public Service, pp. 209-225) covers four pathways: Fire Science, Government and Public Administration, Law Enforcement, and Legal Studies. The chapter opens with a "Making Connections" partner activity about how this cluster helps communities. The major workbook activities used this week are:
 
-- **Emergency Essentials: Kit Design** (Day 2, pp. 210-212) — Design a 10-item emergency kit for an earthquake, fire, or flood scenario
-- **Hat Research template** (Day 1, p. 220) — Structured fields for recording career name, job description, education, salary, and tools
+- **Emergency Essentials: Kit Design** (Day 2, pp. 210-212): Design a 10-item emergency kit for an earthquake, fire, or flood scenario
+- **Hat Research template** (Day 1, p. 220): Structured fields for recording career name, job description, education, salary, and tools
 
 The chapter's Powerskill is Persuasion, which becomes the bridge to the Day 4 AI ethics debate.
 
@@ -66,17 +66,17 @@ The chapter's Powerskill is Persuasion, which becomes the bridge to the Day 4 AI
 | Day | Focus | Key Activities | Deliverable |
 |-----|-------|---------------|-------------|
 | 1 | Law Cluster Tour + Legal Services Pathway | H&L Ch 13 cluster tour video, Legal Services pathway, Hat Research template (5 careers) | Completed Hat Research template |
-| 2 | Emergency Essentials Kit Design | H&L Ch 13 "Emergency Essentials: Kit Design" (pp. 210-212) — 10-item kit + rationale | Completed Emergency Kit worksheet |
+| 2 | Emergency Essentials Kit Design | H&L Ch 13 "Emergency Essentials: Kit Design" (pp. 210-212): 10-item kit + rationale | Completed Emergency Kit worksheet |
 | 3 | iCivics Justice in Action | iCivics courtroom game (45 min), debrief on legal communication skills | iCivics game completion screen + 3-sentence reflection |
 | 4 | AI Ethics Debate + Entrepreneurship | Structured debate: AI in legal decisions; research one legal entrepreneur opportunity | Position statement (5-7 sentences) + 1 entrepreneur card |
 | 5 | Cluster Wrap-Up + Xello Life Experience | Favorite legal careers in H&L, Xello Life Experience reflection, eDynamic 5.1 intro | Updated Climber Profile + Xello reflection submission |
 
 ## Formative Assessment
 
-- Hat Research template accuracy and completeness (Day 1) — d(1)(B), d(1)(C)
-- Emergency Kit design rationale and item selection (Day 2) — d(1)(C)
-- iCivics gameplay reflection (Day 3) — d(1)(C)
-- Debate participation and use of evidence (Day 4) — d(3)(I), d(3)(H)
+- Hat Research template accuracy and completeness (Day 1): d(1)(B), d(1)(C)
+- Emergency Kit design rationale and item selection (Day 2): d(1)(C)
+- iCivics gameplay reflection (Day 3): d(1)(C)
+- Debate participation and use of evidence (Day 4): d(3)(I), d(3)(H)
 
 ## Summative Assessment
 
@@ -89,13 +89,13 @@ The chapter's Powerskill is Persuasion, which becomes the bridge to the Day 4 AI
 - Pre-filled Hat Research template with one career (Court Reporter) modeled
 - Emergency Kit worksheet with the 6 hazards listed and 3 items pre-suggested
 - Sentence stems for the AI debate and the position paper
-- Pair work option for iCivics game — one student plays, the other coaches and takes notes
+- Pair work option for iCivics game, one student plays, the other coaches and takes notes
 
 ### Extensions
 
 - Research a famous Supreme Court case and identify the different legal professionals who contributed
 - Build a 4-year plan for the Singley Academy Law Enforcement pathway
-- Compare the 10-item Emergency Kit for two different scenarios (earthquake vs. flood) — what changes and why?
+- Compare the 10-item Emergency Kit for two different scenarios (earthquake vs. flood): what changes and why?
 - Compare salaries of three legal careers across Texas, California, and New York using BLS state data
 
 ### ELL Language Support

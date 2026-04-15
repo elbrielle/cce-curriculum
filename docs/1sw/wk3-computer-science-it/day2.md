@@ -22,29 +22,29 @@ Quick share. Listen for: easy to find things, looks nice, fast loading, works on
 
 ## Activity 1: Read "The Do's and Don'ts of Designing a Great Website" Article (15 min)
 
-**Source:** H&L Workbook Ch 12, pp. 200-202 — "The Do's and Don'ts of Designing a Great Website: Focus on Wireframing and Layout" by Margie Vane
+**Source:** H&L Workbook Ch 12, pp. 200-202, "The Do's and Don'ts of Designing a Great Website: Focus on Wireframing and Layout" by Margie Vane
 
-Open the workbook to page 200. Read the "Project Overview" together: students take on the role of a Web Developer and design their own website. They will not actually code it — they will create a detailed wireframe and plan that COULD be used to build a real website later.
+Open the workbook to page 200. Read the "Project Overview" together: students take on the role of a Web Developer and design their own website. They will not actually code it; they will create a detailed wireframe and plan that COULD be used to build a real website later.
 
 Then read the article (Ch 12, pp. 200-202) together. The article covers 5 key principles:
 
-1. **Do: Start with a Clear Hierarchy** — Help users quickly understand the most important information.
-2. **Do: Keep Navigation Consistent** — A clear, consistent menu so users know where to go.
-3. **Do: Prioritize User Flow** — Map the path visitors take through your site.
-4. **Don't: Overcrowd Your Layout with Too Many Elements** — Use whitespace; remove distractions.
-5. **Don't: Use Complicated Layouts** — Stick to 1-2 primary content columns.
-6. **Don't: Skip Mobile Considerations** — Plan for desktop AND mobile from the start.
+1. **Do: Start with a Clear Hierarchy.** Help users quickly understand the most important information.
+2. **Do: Keep Navigation Consistent.** A clear, consistent menu so users know where to go.
+3. **Do: Prioritize User Flow.** Map the path visitors take through your site.
+4. **Don't: Overcrowd Your Layout with Too Many Elements.** Use whitespace; remove distractions.
+5. **Don't: Use Complicated Layouts.** Stick to 1-2 primary content columns.
+6. **Don't: Skip Mobile Considerations.** Plan for desktop AND mobile from the start.
 
-After reading, ask 3-4 students to name ONE Do and ONE Don't. Then show 2 example websites on the projector — one well-designed (Apple, Wikipedia, Khan Academy) and one cluttered (a busy news site). Have students apply the article's principles to critique each.
+After reading, ask 3-4 students to name ONE Do and ONE Don't. Then show 2 example websites on the projector: one well-designed (Apple, Wikipedia, Khan Academy) and one cluttered (a busy news site). Have students apply the article's principles to critique each.
 
 !!! tip "Facilitation Tip"
-    Show real examples of bad websites for fun — students love finding broken or cluttered sites. The contrast makes the article's principles stick.
+    Show real examples of bad websites for fun. Students love finding broken or cluttered sites. The contrast makes the article's principles stick.
 
 ---
 
 ## Activity 2: Choose Your Website Type and Plan (25 min)
 
-**Source:** H&L Workbook Ch 12, pp. 203 — "Step 2: Choose Your Website Type" + "Step 3: Plan Your Website"
+**Source:** H&L Workbook Ch 12, pp. 203, "Step 2: Choose Your Website Type" + "Step 3: Plan Your Website"
 
 Open the workbook to page 203. The workbook gives students 5 starter ideas (they can also pick anything that excites them):
 

@@ -16,23 +16,23 @@
 
 **WARM-UP: How far is the closest grocery store to your house? What if you didn't have a car or a bus to get there?**
 
-Take 3-4 responses. Bridge: 24 million Americans live in "food deserts" — places where fresh, healthy food is hard to access. Today the class meets one of those communities and starts designing a solution.
+Take 3-4 responses. Bridge: 24 million Americans live in "food deserts", places where fresh, healthy food is hard to access. Today the class meets one of those communities and starts designing a solution.
 
 ---
 
 ## Activity 1: What is a Food Desert? (5 min)
 
-**Source:** H&L Workbook Ch 9, p. 149 — Background section
+**Source:** H&L Workbook Ch 9, p. 149, Background section
 
 Read the workbook background aloud: *"A food desert is an area where people have limited access to affordable, nutritious food, often because grocery stores are too far away and transportation is limited. Without fresh food options, people may rely on fast food or processed foods, leading to health problems like obesity, diabetes, and heart disease. In the United States, at least 24 million people live in a food desert. They can be found in every state, most often in rural areas."*
 
-Connect to Health Science: this is **public health** — the part of healthcare that focuses on preventing disease at the community level rather than treating it one patient at a time. Public health professionals (epidemiologists, community health workers, nutritionists) work on food desert problems.
+Connect to Health Science: this is **public health:** the part of healthcare that focuses on preventing disease at the community level rather than treating it one patient at a time. Public health professionals (epidemiologists, community health workers, nutritionists) work on food desert problems.
 
 ---
 
 ## Activity 2: Read the Wilson City Community Data Sheet (15 min)
 
-**Source:** H&L Workbook Ch 9, pp. 150-151 — Community Data Sheet
+**Source:** H&L Workbook Ch 9, pp. 150-151, Community Data Sheet
 
 Distribute the printed Wilson City community data sheet. Read it aloud as a class, pausing to highlight the key facts students should circle:
 
@@ -75,18 +75,18 @@ Distribute the printed Wilson City community data sheet. Read it aloud as a clas
 Students circle 5 data points that they think are most critical to the food desert problem.
 
 !!! tip "Facilitation Tip"
-    The data sheet is dense. Don't read every word — highlight the constraints. The mobile market must serve the WEST side (40% of households 8+ miles away), serve seniors who live alone (28% of seniors), and accept SNAP/WIC payments (31% of residents).
+    The data sheet is dense. Don't read every word, highlight the constraints. The mobile market must serve the WEST side (40% of households 8+ miles away), serve seniors who live alone (28% of seniors), and accept SNAP/WIC payments (31% of residents).
 
 ---
 
 ## Activity 3: Analyze the Data (10 min)
 
-**Source:** H&L Workbook Ch 9, p. 152 — Step 2: Analyze Data
+**Source:** H&L Workbook Ch 9, p. 152, Step 2: Analyze Data
 
 Students work in groups of 3-4 (these will be their team for Day 4). Each team writes a brief analysis answering the workbook prompts:
 
 - Which areas lack grocery stores? (Answer: West side of Wilson City)
-- Which areas are most affected by transportation issues? (Same — west side, plus the 13% with no vehicle anywhere)
+- Which areas are most affected by transportation issues? (Same, west side, plus the 13% with no vehicle anywhere)
 - How and where could you source produce? (Answer: 14 local farms willing to sell direct)
 - What dietary needs does the community have? (Answer: Many seniors, families with kids, SNAP/WIC users, fresh produce demand is unmet)
 
@@ -98,7 +98,7 @@ The analysis should be 3-4 sentences max. Teams write it together on a single sh
 
 ## Activity 4: Brainstorm the Mobile Farmers' Market (12 min)
 
-**Source:** H&L Workbook Ch 9, p. 153 — Step 3: Brainstorm
+**Source:** H&L Workbook Ch 9, p. 153, Step 3: Brainstorm
 
 Each team brainstorms ideas for their mobile farmers' market on the brainstorm sheet. The workbook (p. 153) requires:
 

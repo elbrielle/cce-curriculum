@@ -16,13 +16,13 @@
 
 **WARM-UP: Imagine you're applying for your first paid job. The manager asks: "Tell me about yourself." What's the FIRST thing you'd say?**
 
-Take 3-4 student responses. Most will mumble or freeze. That's the point — interviewing is a skill that takes practice. Today they get the practice.
+Take 3-4 student responses. Most will mumble or freeze. That's the point, interviewing is a skill that takes practice. Today they get the practice.
 
 ---
 
 ## Activity 1: H&L Job Interview Prep — Read Aloud (15 min)
 
-**Source:** H&L Workbook Ch 11, pp. 179-180 — "Job Interviews"
+**Source:** H&L Workbook Ch 11, pp. 179-180, "Job Interviews"
 
 Read aloud (or have students read in pairs) the workbook content on Job Interviews (Ch 11, pp. 179-180). The key sections are:
 
@@ -68,9 +68,9 @@ Project the highlights on the screen as students read along. Do a quick check-fo
 
 ## Activity 2: Mock Interview Practice (20 min)
 
-**Source:** H&L Workbook Ch 11, p. 181 — "Practicing for a Job Interview"
+**Source:** H&L Workbook Ch 11, p. 181, "Practicing for a Job Interview"
 
-Pair students up. Each pair practices BOTH sides — interviewer and interviewee. Partners swap halfway.
+Pair students up. Each pair practices BOTH sides, interviewer and interviewee. Partners swap halfway.
 
 **Step 1: Choose a Job** (from workbook p. 181). Each student picks ONE of these jobs to interview for:
 
@@ -96,13 +96,13 @@ Set a timer: 8 minutes per round (about 1 minute per question), then swap. After
 - Confidence
 - One thing to improve
 
-**DOK 3:** What conclusions can you draw about why interviewers ask "What are your weaknesses?" — what are they really trying to learn?
+**DOK 3:** What conclusions can you draw about why interviewers ask "What are your weaknesses?", what are they really trying to learn?
 
 ---
 
 ## Activity 3: Draft a Thank-You Email (8 min)
 
-**Source:** H&L Workbook Ch 11, p. 181 — "Step 3: Write a Thank You Email"
+**Source:** H&L Workbook Ch 11, p. 181, "Step 3: Write a Thank You Email"
 
 Students draft a short thank-you email using the workbook structure (p. 180). The email must include:
 
@@ -127,4 +127,4 @@ The email is 5-7 sentences total. Students draft in their notebook or in a Googl
 
 - **Support:** Provide question cards with sentence stems for each answer: "When asked 'tell me about yourself,' I would say: 'My name is _____. I have experience in _____. My strongest skill is _____.'"
 - **Extension:** Practice a phone interview (sit back-to-back with your partner so you can't see each other) and notice how it changes your body language and answers.
-- **ELL:** Pre-teach: Interview = Entrevista, Strength = Fortaleza, Weakness = Debilidad, Confident = Seguro/a. The mock interview can be conducted bilingually — many real workplaces in Texas are bilingual.
+- **ELL:** Pre-teach: Interview = Entrevista, Strength = Fortaleza, Weakness = Debilidad, Confident = Seguro/a. The mock interview can be conducted bilingually, many real workplaces in Texas are bilingual.

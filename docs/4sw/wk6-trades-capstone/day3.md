@@ -14,9 +14,9 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Are you a member of any organization or club — TSA, sports team, scouts, church youth group, online community? What benefits do you get from being a member?**
+**WARM-UP: Are you a member of any organization or club. TSA, sports team, scouts, church youth group, online community? What benefits do you get from being a member?**
 
-Take 4-5 student responses. Surface the recurring benefits — meeting people, learning skills, getting access to events, feeling like part of something. Bridge: today we are looking at the adult version — professional associations that follow people through their entire careers.
+Take 4-5 student responses. Surface the recurring benefits, meeting people, learning skills, getting access to events, feeling like part of something. Bridge: today we are looking at the adult version, professional associations that follow people through their entire careers.
 
 ---
 
@@ -26,11 +26,11 @@ Take 4-5 student responses. Surface the recurring benefits — meeting people, l
 
 Assign each team of 4 students one of 5 professional associations:
 
-- **Team SkillsUSA** — National CTSO for trade, technical, and skilled service careers. Hosts SkillsUSA Championships in welding, automotive, robotics, culinary, cosmetology, and many more. → [skillsusa.org](https://www.skillsusa.org)
-- **Team ASE** — Automotive Service Excellence. The certification body for automotive technicians. Required for most professional auto and diesel jobs. → [ase.com](https://www.ase.com)
-- **Team FAA** — Federal Aviation Administration. Issues pilot, ATC, and drone certifications. Hires aviation professionals directly. → [faa.gov/jobs](https://www.faa.gov/jobs)
-- **Team TSA** — Technology Student Association. The CTSO for technology and engineering students. Hosts the TSA Drone Challenge that many IISD VILS students compete in. → [tsaweb.org](https://tsaweb.org)
-- **Team NSPE** — National Society of Professional Engineers. Represents licensed Professional Engineers (PEs). → [nspe.org](https://www.nspe.org)
+- **Team SkillsUSA:** National CTSO for trade, technical, and skilled service careers. Hosts SkillsUSA Championships in welding, automotive, robotics, culinary, cosmetology, and many more. → [skillsusa.org](https://www.skillsusa.org)
+- **Team ASE:** Automotive Service Excellence. The certification body for automotive technicians. Required for most professional auto and diesel jobs. → [ase.com](https://www.ase.com)
+- **Team FAA:** Federal Aviation Administration. Issues pilot, ATC, and drone certifications. Hires aviation professionals directly. → [faa.gov/jobs](https://www.faa.gov/jobs)
+- **Team TSA:** Technology Student Association. The CTSO for technology and engineering students. Hosts the TSA Drone Challenge that many IISD VILS students compete in. → [tsaweb.org](https://tsaweb.org)
+- **Team NSPE:** National Society of Professional Engineers. Represents licensed Professional Engineers (PEs). → [nspe.org](https://www.nspe.org)
 
 Distribute the printed Jigsaw research template. Each team researches their association and fills in:
 
@@ -48,7 +48,7 @@ Distribute the printed Jigsaw research template. Each team researches their asso
 Teams divide the work: one student finds membership info, another looks at competitions, another searches for scholarships, another captures the Texas connection. Roles rotate at the 12-minute mark.
 
 !!! tip "Facilitation Tip"
-    The professional association websites are dense and often poorly designed for student readers. Project an example navigation path on the board — for SkillsUSA, the easiest entry is "About → What We Do" rather than the homepage. For ASE, "Take a Test → Test Categories" is the most useful page for students.
+    The professional association websites are dense and often poorly designed for student readers. Project an example navigation path on the board, for SkillsUSA, the easiest entry is "About → What We Do" rather than the homepage. For ASE, "Take a Test → Test Categories" is the most useful page for students.
 
 ---
 

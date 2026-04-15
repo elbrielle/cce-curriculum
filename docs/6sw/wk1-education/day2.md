@@ -14,9 +14,9 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Did you know you can become a teacher in Texas WITHOUT majoring in Education in college? You can major in math, art, history, or anything — and still become a teacher. What do you think of that?**
+**WARM-UP: Did you know you can become a teacher in Texas WITHOUT majoring in Education in college? You can major in math, art, history, or anything, and still become a teacher. What do you think of that?**
 
-Take 2-3 quick reactions. This sets up the comparison activity. Most students assume "teacher = Education degree" — the alternative certification route surprises them.
+Take 2-3 quick reactions. This sets up the comparison activity. Most students assume "teacher = Education degree", the alternative certification route surprises them.
 
 ---
 
@@ -51,7 +51,7 @@ Students take notes as the teacher presents. Then direct students to spend 5 min
 
 ## Activity 2: Pathway Comparison Worksheet + Hat Research (15 min)
 
-**Source:** H&L Workbook Ch 6, p. 97 — "Hat Research" template
+**Source:** H&L Workbook Ch 6, p. 97, "Hat Research" template
 
 Distribute the printed Education Pathway Comparison worksheet. Students complete a side-by-side table:
 
@@ -81,7 +81,7 @@ Suggest hats to explore: High School Teacher, Elementary Teacher, School Counsel
 
 ## Activity 3: Powerskills Leadership Campaign (12 min)
 
-**Source:** H&L Workbook Ch 6, pp. 95-96 — "Powerskill: Leadership"
+**Source:** H&L Workbook Ch 6, pp. 95-96, "Powerskill: Leadership"
 
 Transition to the Powerskill activity. From the workbook: *"Leadership is about inspiring others, making thoughtful decisions, and working together to be successful. Great leaders show qualities like responsibility, kindness, honesty, and courage."*
 
@@ -96,11 +96,11 @@ Read the workbook's key leader questions aloud (Ch 6, p. 95):
 
 **Scenario:** A recent city election had only 35% voter turnout. The three reasons identified were: (1) Lack of awareness, (2) Feeling uninspired, (3) Inconvenience. Students design a social media campaign to increase voter turnout in the next election.
 
-**Step 1: Brainstorm (5 min)** — Students use the workbook space to write 3-5 campaign ideas addressing the three causes.
+**Step 1: Brainstorm (5 min):** Students use the workbook space to write 3-5 campaign ideas addressing the three causes.
 
-**Step 2: Determine Campaign Goals (3 min)** — Write two intended outcomes. How will you know if the campaign worked?
+**Step 2: Determine Campaign Goals (3 min):** Write two intended outcomes. How will you know if the campaign worked?
 
-**Step 3: Sketch the Campaign (4 min)** — Draft one social media post (Instagram, TikTok, or X format) that communicates the message. Students will not finish a polished campaign today — they capture the concept.
+**Step 3: Sketch the Campaign (4 min):** Draft one social media post (Instagram, TikTok, or X format) that communicates the message. Students will not finish a polished campaign today, they capture the concept.
 
 This activity bridges to teaching because educators are leaders every day: deciding what is important, persuading students and parents, and making thoughtful decisions in the classroom.
 

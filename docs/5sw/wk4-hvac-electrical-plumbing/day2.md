@@ -16,7 +16,7 @@
 
 **WARM-UP: Welding is used to build bridges, skyscrapers, ships, pipelines, and even spacecraft. Name one thing in this classroom that was probably welded.**
 
-Quick share — students will spot bolts on desks, metal chair frames, door hinges. Everything metal in a building has welded joints somewhere. This sets up that welding is everywhere, even when it is invisible.
+Quick share. Students will spot bolts on desks, metal chair frames, door hinges. Everything metal in a building has welded joints somewhere. This sets up that welding is everywhere, even when it is invisible.
 
 ---
 
@@ -27,13 +27,13 @@ Quick share — students will spot bolts on desks, metal chair frames, door hing
 Direct students to H&L. The Welder Hat typically appears under the Manufacturing cluster because welders work across construction, manufacturing, oil and gas, and aerospace. Students explore the Welder Hat and pull the same data categories they used for the other three trades:
 
 - Apprenticeship length (often 3-4 years)
-- Licensing and certification (AWS — American Welding Society — certifications)
+- Licensing and certification (AWS, American Welding Society, certifications)
 - DFW starting salary and experienced salary
 - BLS 10-year outlook
 - One perk (variety of industries, travel opportunities)
 - One quirk (physically demanding, hot work environments)
 
-**Irving ISD connection:** MacArthur High School's Welding pathway already offers Structural Steel & Metal Welding certification — one of the few Irving ISD CTE pathways that leads directly to an industry-recognized credential right now.
+**Irving ISD connection:** MacArthur High School's Welding pathway already offers Structural Steel & Metal Welding certification, one of the few Irving ISD CTE pathways that leads directly to an industry-recognized credential right now.
 
 Students add the Welder column to their Skilled Trades Comparison Matrix. The matrix is now complete with all 4 trades.
 
@@ -45,18 +45,18 @@ Assign each team one trade. Depending on class size, use 4-6 teams of 3-5 studen
 
 Teams conduct deep research on their assigned trade and prepare to teach the class on Day 5. Research template fields:
 
-1. **Daily responsibilities** — What does this worker do on a typical day? Source: BLS "What They Do" section and H&L Hat profile
-2. **Apprenticeship timeline** — Step by step. Where do you start? What do you earn at each phase?
-3. **Licensing requirements** — Texas-specific. What state agency regulates this trade?
-4. **DFW salary range** — Entry, mid-career, experienced. Cite H&L and BLS.
-5. **10-year job outlook** — BLS projected growth rate.
-6. **Skills gap analysis** — How big is the gap between available workers and job openings? Why?
-7. **One surprising fact** — Something the team found that students would not expect.
+1. **Daily responsibilities:** What does this worker do on a typical day? Source: BLS "What They Do" section and H&L Hat profile
+2. **Apprenticeship timeline:** Step by step. Where do you start? What do you earn at each phase?
+3. **Licensing requirements:** Texas-specific. What state agency regulates this trade?
+4. **DFW salary range:** Entry, mid-career, experienced. Cite H&L and BLS.
+5. **10-year job outlook:** BLS projected growth rate.
+6. **Skills gap analysis:** How big is the gap between available workers and job openings? Why?
+7. **One surprising fact:** Something the team found that students would not expect.
 
 Teams keep research notes clean so they can present from them on Day 5.
 
 !!! tip "Facilitation Tip"
-    The "skills gap" field is the most challenging. Redirect students to BLS's "Job Outlook" section and news articles about the trade. The DFW trades skills gap is well-documented — retiring baby boomers plus new construction demand means there are open jobs that cannot be filled.
+    The "skills gap" field is the most challenging. Redirect students to BLS's "Job Outlook" section and news articles about the trade. The DFW trades skills gap is well-documented, retiring baby boomers plus new construction demand means there are open jobs that cannot be filled.
 
 **DOK 3:** What conclusions can you draw about why there is a "skills gap" in your assigned trade? What factors are causing more jobs to open than workers are filling?
 

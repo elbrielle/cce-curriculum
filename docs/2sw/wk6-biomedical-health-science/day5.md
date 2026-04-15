@@ -24,15 +24,15 @@ Take responses. Students should name: virologists, immunologists, biomedical eng
 
 Project a list of emerging biomedical careers on the board for students to choose from:
 
-- **Genomic Counselor** — helps families understand genetic test results
-- **Bioinformatics Specialist** — analyzes biological data with software
-- **3D Bioprinting Engineer** — designs printable tissues and organs
-- **mRNA Vaccine Specialist** — develops messenger-RNA-based vaccines
-- **AI Drug Discovery Specialist** — uses machine learning to find new drugs
-- **Telehealth Coordinator** — manages remote patient care systems
-- **Wearable Health Tech Designer** — designs Fitbit/Apple Watch-style health devices
-- **CRISPR Gene Editing Technician** — works on gene therapy procedures
-- **Robotic Surgery Technician** — assists surgeons using robotic equipment
+- **Genomic Counselor:** helps families understand genetic test results
+- **Bioinformatics Specialist:** analyzes biological data with software
+- **3D Bioprinting Engineer:** designs printable tissues and organs
+- **mRNA Vaccine Specialist:** develops messenger-RNA-based vaccines
+- **AI Drug Discovery Specialist:** uses machine learning to find new drugs
+- **Telehealth Coordinator:** manages remote patient care systems
+- **Wearable Health Tech Designer:** designs Fitbit/Apple Watch-style health devices
+- **CRISPR Gene Editing Technician:** works on gene therapy procedures
+- **Robotic Surgery Technician:** assists surgeons using robotic equipment
 
 Each student picks ONE emerging career. They use BLS Career Outlook, H&L Hat Finder (if the career is listed), NIH STEM resources, and Google to complete the **Emerging Career Research template**:
 
@@ -91,7 +91,7 @@ Students update their **My Career Journey** reflection document (originally crea
 
 This living document will be reviewed again at mid-year (4SW Wk 1: Career Planning Mid-Year Review).
 
-**DOK 4:** Based on everything you have explored so far — Manufacturing, IT, Law, and Health Science — what pattern do you notice about the types of careers that attract you? What does that pattern tell you about what to explore next?
+**DOK 4:** Based on everything you have explored so far. Manufacturing, IT, Law, and Health Science, what pattern do you notice about the types of careers that attract you? What does that pattern tell you about what to explore next?
 
 ---
 

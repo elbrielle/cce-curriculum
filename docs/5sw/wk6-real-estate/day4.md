@@ -16,7 +16,7 @@
 
 **WARM-UP: Do you think home prices in DFW will go UP or DOWN over the next 10 years? What evidence supports your prediction?**
 
-Collect 3-4 predictions. Most students predict "up" because everyone is moving to Texas. Bridge: today we will use real data to test that intuition. Economists track specific indicators — today you will think like an economist.
+Collect 3-4 predictions. Most students predict "up" because everyone is moving to Texas. Bridge: today we will use real data to test that intuition. Economists track specific indicators, today you will think like an economist.
 
 ---
 
@@ -24,11 +24,11 @@ Collect 3-4 predictions. Most students predict "up" because everyone is moving t
 
 Project the Texas Real Estate Research Center website or a BLS Real Estate OOH page. Model how to extract specific data points:
 
-1. **10-year BLS projection for Real Estate Agents** — typically 3-5% growth
-2. **Median home price in DFW** — pull from Zillow's DFW market page
-3. **Number of home sales per year in DFW** — roughly 100,000+ depending on market conditions
-4. **Interest rate effect** — Higher interest rates → fewer sales → lower commissions
-5. **Population growth** — DFW is one of the fastest-growing metros in the U.S.
+1. **10-year BLS projection for Real Estate Agents:** typically 3-5% growth
+2. **Median home price in DFW:** pull from Zillow's DFW market page
+3. **Number of home sales per year in DFW:** roughly 100,000+ depending on market conditions
+4. **Interest rate effect:** Higher interest rates → fewer sales → lower commissions
+5. **Population growth:** DFW is one of the fastest-growing metros in the U.S.
 
 Emphasize: "Real estate is a CYCLICAL market. Some years are hot (20% sales growth). Some years are cold (sales drop). Agents who survive the cold years become very successful in the hot years. You need to understand the cycle."
 
@@ -63,7 +63,7 @@ Students also answer:
 
 ## Activity 3: H&L Career Plan Update — End of 5SW (12 min)
 
-**Source:** H&L Workbook Ch 16: My Next Steps — "My Career and Course Plan"
+**Source:** H&L Workbook Ch 16: My Next Steps, "My Career and Course Plan"
 
 Direct students to open H&L and update their Career Plan to reflect everything they explored in the 5th Six Weeks:
 
@@ -78,8 +78,8 @@ Students should:
 
 1. **Favorite 1-2 real estate careers** if any interested them (Real Estate Agent, Broker, Appraiser, Property Manager)
 2. **Update Building Blocks** if this week revealed a new connection (sales skills, independence, communication)
-3. **Review the full Career Plan** — by now, students have explored 12+ career clusters. Their plan should show clear patterns in what they are drawn to
-4. **Identify their TOP 3 careers of the year so far** — these will become the focus of the final capstone in 6th Six Weeks
+3. **Review the full Career Plan:** by now, students have explored 12+ career clusters. Their plan should show clear patterns in what they are drawn to
+4. **Identify their TOP 3 careers of the year so far:** these will become the focus of the final capstone in 6th Six Weeks
 
 Remind students: The Career Plan is meant to evolve. It is OK to drop interests that no longer feel right and add new ones as they learn more.
 

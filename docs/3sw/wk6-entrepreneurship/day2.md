@@ -22,15 +22,15 @@ Take 4-5 student responses. Capture 1-2 examples of subscription boxes students 
 
 ## Activity 1: What Is an MVP? (10 min)
 
-**Source:** H&L Workbook Ch 5, pp. 76-77 — "Think Inside the Box" intro
+**Source:** H&L Workbook Ch 5, pp. 76-77, "Think Inside the Box" intro
 
 Read aloud the workbook background (Ch 5, p. 77): Entrepreneurs are people who turn ideas into real products and services. They take risks, solve problems, and find creative ways to meet people's needs. Examples: clothing brands, technology, subscription boxes.
 
-Then introduce the **MVP concept** from the workbook (Ch 5, p. 77): An MVP (Minimum Viable Product) is the simplest version of a product that allows you to test an idea and get feedback before investing in a full launch. Real entrepreneurs don't just have great ideas — they test them, improve them, and make sure customers like them.
+Then introduce the **MVP concept** from the workbook (Ch 5, p. 77): An MVP (Minimum Viable Product) is the simplest version of a product that allows you to test an idea and get feedback before investing in a full launch. Real entrepreneurs don't just have great ideas, they test them, improve them, and make sure customers like them.
 
 Project a 2-minute example on the board:
 
-> "Imagine you want to launch a subscription box for cat owners. Your full vision is a $50/month box with toys, treats, a custom collar, and a magazine. The MVP version is a $15/month box with 1 toy and 1 treat — just enough to find out if cat owners actually want this. You start small, learn, then expand."
+> "Imagine you want to launch a subscription box for cat owners. Your full vision is a $50/month box with toys, treats, a custom collar, and a magazine. The MVP version is a $15/month box with 1 toy and 1 treat, just enough to find out if cat owners actually want this. You start small, learn, then expand."
 
 Frame it: today students design the MVP version of their subscription box, not the full vision.
 
@@ -41,7 +41,7 @@ Frame it: today students design the MVP version of their subscription box, not t
 
 ## Activity 2: Step 1 — Design Your MVP (20 min)
 
-**Source:** H&L Workbook Ch 5, p. 77 — "Step 1: Designing an MVP"
+**Source:** H&L Workbook Ch 5, p. 77, "Step 1: Designing an MVP"
 
 Distribute the MVP design template. Each student completes the template using the workbook prompts (Ch 5, p. 77):
 
@@ -62,7 +62,7 @@ Walk around with a checkpoint clipboard. Stop at each student and ask: "If I wer
 
 ## Activity 3: Step 2 — Customer Feedback Questions (10 min)
 
-**Source:** H&L Workbook Ch 5, p. 78 — "Step 2: Testing and Feedback"
+**Source:** H&L Workbook Ch 5, p. 78, "Step 2: Testing and Feedback"
 
 Read the workbook prompt (Ch 5, p. 78): Before launching a full business, entrepreneurs test their MVP with focus groups (small groups of customers) to get feedback. Imagine your MVP went out to 100 test customers. What questions would you ask them?
 
@@ -76,7 +76,7 @@ Students write 3-5 questions they would ask test customers about their subscript
 
 The workbook (Ch 5, p. 78) prompts: "Write your questions in the box provided, as well as what their answers can tell you about your product."
 
-After writing the questions, do a quick partner share (3 min) — pair up, trade templates, and ask each other one of the feedback questions. The partner answers as if they were a real customer.
+After writing the questions, do a quick partner share (3 min): pair up, trade templates, and ask each other one of the feedback questions. The partner answers as if they were a real customer.
 
 **DOK 3:** Why do entrepreneurs test their product BEFORE launching it instead of after? What can go wrong if they skip the testing step?
 

@@ -24,13 +24,13 @@ Quick share. This primes students to reflect across the full 4-week A&C cluster 
 
 Each team presents their assigned trade to the class. Presentations are **4 minutes per team** (strict timer). Coverage:
 
-1. **Daily responsibilities** — What does this worker actually do day-to-day?
-2. **Apprenticeship pathway** — Step by step, from entry to journeyman
-3. **Licensing requirements** — Texas-specific state regulations
-4. **DFW salary data** — Entry, median, experienced
-5. **Job outlook** — BLS growth rate and factors driving demand
-6. **Skills gap analysis** — How big is the gap and why?
-7. **One surprising fact** — The most compelling data point the team found
+1. **Daily responsibilities:** What does this worker actually do day-to-day?
+2. **Apprenticeship pathway:** Step by step, from entry to journeyman
+3. **Licensing requirements:** Texas-specific state regulations
+4. **DFW salary data:** Entry, median, experienced
+5. **Job outlook:** BLS growth rate and factors driving demand
+6. **Skills gap analysis:** How big is the gap and why?
+7. **One surprising fact:** The most compelling data point the team found
 
 Classmates take notes on a simple note-taking sheet with one row per trade so every student leaves with a baseline understanding of all 4 trades, not just their own.
 
@@ -45,9 +45,9 @@ Classmates take notes on a simple note-taking sheet with one row per trade so ev
 
 Students open H&L and finalize their A&C cluster work:
 
-1. **Review all A&C favorites from Weeks 1-4** — architecture, civil engineering, construction, trades careers. Remove any favorites they are no longer interested in after this cluster. Add any new ones.
+1. **Review all A&C favorites from Weeks 1-4:** architecture, civil engineering, construction, trades careers. Remove any favorites they are no longer interested in after this cluster. Add any new ones.
 2. **Review Building Blocks** to verify A&C-related skills/interests are captured: hands-on, building things, safety-minded, physical work, creativity, math for measurement, leadership for construction management.
-3. **Open the Career Plan (Ch 16)** and make sure the A&C cluster is clearly represented. Some students will have A&C as their top choice; others will eliminate it. Either is a valid outcome — the goal is clarity.
+3. **Open the Career Plan (Ch 16)** and make sure the A&C cluster is clearly represented. Some students will have A&C as their top choice; others will eliminate it. Either is a valid outcome, the goal is clarity.
 
 ---
 

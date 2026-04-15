@@ -14,27 +14,27 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Besides school, what experiences have you had that might help you in a future career? Think wide — sports, clubs, volunteering, hobbies, family responsibilities, side hustles, video game tournaments, anything.**
+**WARM-UP: Besides school, what experiences have you had that might help you in a future career? Think wide, sports, clubs, volunteering, hobbies, family responsibilities, side hustles, video game tournaments, anything.**
 
-Take 5-6 student responses. Write them on the board. The point is to surface that experience does not require a paying job — students already have more relevant experience than they think.
+Take 5-6 student responses. Write them on the board. The point is to surface that experience does not require a paying job, students already have more relevant experience than they think.
 
 ---
 
 ## Activity 1: eDynamic Unit 6.2 — Gaining Experience (30 min)
 
-**Source:** eDynamic Learning Unit 6.2 — Gaining Experience
+**Source:** eDynamic Learning Unit 6.2, Gaining Experience
 
 > [VERIFY IN eDynamic] Confirm that Unit 6.2 is the correct unit on "Gaining Experience" in your eDynamic license. The unit covers job shadowing, internships, co-curricular activities, volunteering, and portfolio building.
 
 Students log into eDynamic and open Unit 6.2. The unit walks students through the major types of career experience available to teenagers:
 
-1. **Job shadowing** — spending a half-day with a working professional in a career of interest
-2. **Internships** — short-term hands-on work, paid or unpaid, often in summer
-3. **Volunteer work** — donating time to community organizations
-4. **Co-curricular activities** — student clubs, school sports, performance groups
-5. **Career and Technical Student Organizations (CTSOs)** — TSA, SkillsUSA, FCCLA, FBLA, HOSA, FFA, BPA
-6. **Part-time work** — for older students, paid jobs that build basic workplace skills
-7. **Portfolio projects** — personal work students create on their own time (websites, art, code, music)
+1. **Job shadowing:** spending a half-day with a working professional in a career of interest
+2. **Internships:** short-term hands-on work, paid or unpaid, often in summer
+3. **Volunteer work:** donating time to community organizations
+4. **Co-curricular activities:** student clubs, school sports, performance groups
+5. **Career and Technical Student Organizations (CTSOs):** TSA, SkillsUSA, FCCLA, FBLA, HOSA, FFA, BPA
+6. **Part-time work:** for older students, paid jobs that build basic workplace skills
+7. **Portfolio projects:** personal work students create on their own time (websites, art, code, music)
 
 As students work through the unit, they note on their Experience Action Plan:
 - One type of experience they have already started building (write the example)
@@ -42,7 +42,7 @@ As students work through the unit, they note on their Experience Action Plan:
 - One specific question the unit raised they want to learn more about
 
 !!! tip "Facilitation Tip"
-    Pace check at minute 15 — circulate and verify every student has reached the CTSOs section. If students are still on the introduction, give them a private nudge. The CTSOs section is the most relevant for Irving ISD students.
+    Pace check at minute 15, circulate and verify every student has reached the CTSOs section. If students are still on the introduction, give them a private nudge. The CTSOs section is the most relevant for Irving ISD students.
 
 ---
 

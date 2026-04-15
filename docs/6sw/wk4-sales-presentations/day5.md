@@ -26,9 +26,9 @@ This is a quiet warm-up. No discussion. Students need calm focus before presenti
 
 Today every student delivers their 3-minute career presentation. The structure (from Day 3):
 
-- **Introduction (30 sec)** — Career name, why chosen
-- **Body (2 min)** — Education path, DFW salary, daily tasks
-- **Conclusion (30 sec)** — Connection to personal Career Plan
+- **Introduction (30 sec):** Career name, why chosen
+- **Body (2 min):** Education path, DFW salary, daily tasks
+- **Conclusion (30 sec):** Connection to personal Career Plan
 
 **Format:**
 
@@ -36,7 +36,7 @@ Today every student delivers their 3-minute career presentation. The structure (
 - Teacher scores each presentation using the rubric
 - After each presentation, the class gives Two Stars and a Wish (use the Powerskills training from Day 2)
 
-!!! warning "Presentation timing — 25 students × 3 min = 75 min, but Activity 1 is 40 min"
+!!! warning "Presentation timing: 25 students × 3 min = 75 min, but Activity 1 is 40 min"
     Pick one compression approach before Day 5 begins:
 
     - **(A) Split groups:** 4 groups of 6-7 present simultaneously in corners of the room (~30 min). Each group picks one "best pitch" for a final whole-class share.
@@ -46,13 +46,13 @@ Today every student delivers their 3-minute career presentation. The structure (
     Split groups (A) is fairest to student attention; 90-sec (C) is fairest to speaking time. Pick the one that matches your room.
 
 !!! tip "Facilitation Tip"
-    Project a HUGE visible timer for every presentation. Students have drilled the time limit on Day 3 (verbal warning at 2:30, cut at 3:00) and Day 4 (paired practice with feedback), and they were told explicitly at the end of Day 4 that today's cap is the same rule. Cut presenters off at the time limit — the rule was announced in advance and practiced for two days.
+    Project a HUGE visible timer for every presentation. Students have drilled the time limit on Day 3 (verbal warning at 2:30, cut at 3:00) and Day 4 (paired practice with feedback), and they were told explicitly at the end of Day 4 that today's cap is the same rule. Cut presenters off at the time limit, the rule was announced in advance and practiced for two days.
 
 **Class feedback after each presentation:**
 
 - One student volunteer gives a "star" (specific strength)
 - One student volunteer gives a "wish" (specific improvement)
-- Move on quickly — keep momentum
+- Move on quickly, keep momentum
 - Teacher records rubric score privately (don't announce)
 
 **DOK 4:** As you listen to your classmates, evaluate which careers had the strongest combination of high salary, strong demand, and personal fit with the presenter. Which one impressed you most and why?
@@ -86,6 +86,6 @@ Then direct students to update their H&L Career Plan with the career they presen
 
 ## Differentiation
 
-- **Support:** Allow note cards visible during the presentation. Allow anxious students to present to a small group of 4-5 instead of the whole class. Allow a written submission as a last resort — but coach toward at least small-group oral delivery, since d(4)(C) is the standard.
-- **Extension:** Students who finish early write a 1-page "career profile" of someone they presented about — what their day looks like, how they got there, what they wish they had known earlier. This is the same kind of profile published in career magazines.
+- **Support:** Allow note cards visible during the presentation. Allow anxious students to present to a small group of 4-5 instead of the whole class. Allow a written submission as a last resort, but coach toward at least small-group oral delivery, since d(4)(C) is the standard.
+- **Extension:** Students who finish early write a 1-page "career profile" of someone they presented about, what their day looks like, how they got there, what they wish they had known earlier. This is the same kind of profile published in career magazines.
 - **ELL:** Allow Spanish or bilingual presentations. Pair ESL students with bilingual partners for the audience feedback. Provide bilingual feedback sentence stems ("Your presentation was strong because _____ / Tu presentación fue fuerte porque _____").

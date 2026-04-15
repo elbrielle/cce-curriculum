@@ -14,7 +14,7 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Think about the last time something went wrong with your technology — phone, computer, game console, school Chromebook. Who fixed it? How did they figure out what was wrong?**
+**WARM-UP: Think about the last time something went wrong with your technology (phone, computer, game console, school Chromebook). Who fixed it? How did they figure out what was wrong?**
 
 Quick share. Listen for: parent, sibling, "the IT guy at school," YouTube tutorial. Bridge: "Today you meet the people whose job it is to fix things for OTHER people, all day, every day. They are the help desk."
 
@@ -22,16 +22,16 @@ Quick share. Listen for: parent, sibling, "the IT guy at school," YouTube tutori
 
 ## Activity 1: H&L Information Technology Support and Services Pathway (25 min)
 
-**Source:** H&L Workbook Ch 12, p. 192 — IT Support and Services pathway (one of the 5 IT pathways)
+**Source:** H&L Workbook Ch 12, p. 192, IT Support and Services pathway (one of the 5 IT pathways)
 
 > [H&L PLATFORM] Direct students to the H&L IT cluster, then to the Information Technology Support and Services pathway. The workbook (Ch 12, p. 192) describes this pathway as: "Help people and businesses troubleshoot and fix computer, software, and network issues." Students use the Hat Finder to explore four specific Hats: Help Desk Technician, IT Support Specialist, Desktop Support Technician, and Systems Administrator. Students check education indicators and rate Perks/Quirks/Job Gear.
 
 **The 4 IT Support Hats to explore:**
 
-1. **Help Desk Technician** — First line of support. Answers calls, emails, and chats from users with computer problems. Walks them through troubleshooting steps. Often the entry-level role.
-2. **IT Support Specialist** — Slightly more experienced. Handles harder problems that the help desk passes up. Sometimes goes to a user's desk to fix things in person.
-3. **Desktop Support Technician** — Specializes in physical hardware: replacing keyboards, swapping hard drives, installing software on individual machines.
-4. **Systems Administrator** — Senior IT support role. Manages servers, user accounts for the entire company, network configurations. Requires more experience and often a certification or degree.
+1. **Help Desk Technician:** First line of support. Answers calls, emails, and chats from users with computer problems. Walks them through troubleshooting steps. Often the entry-level role.
+2. **IT Support Specialist:** Slightly more experienced. Handles harder problems that the help desk passes up. Sometimes goes to a user's desk to fix things in person.
+3. **Desktop Support Technician:** Specializes in physical hardware: replacing keyboards, swapping hard drives, installing software on individual machines.
+4. **Systems Administrator:** Senior IT support role. Manages servers, user accounts for the entire company, network configurations. Requires more experience and often a certification or degree.
 
 **Student task:** Spend ~5 minutes per Hat. For each, write down on a notes sheet:
 
@@ -40,7 +40,7 @@ Quick share. Listen for: parent, sibling, "the IT guy at school," YouTube tutori
 - DFW salary range
 - 1-2 daily tasks
 
-Walk the room. Pay special attention to the **education** field — this is the key insight for the week. Most of these careers list "certification" or "associate degree" as acceptable, NOT a 4-year bachelor's.
+Walk the room. Pay special attention to the **education** field. This is the key insight for the week. Most of these careers list "certification" or "associate degree" as acceptable, NOT a 4-year bachelor's.
 
 !!! tip "Facilitation Tip"
     Students often assume "all good IT jobs need college." Stop the class when a student notices a Hat doesn't require a 4-year degree. Make a big deal of it: "Notice that Help Desk Technician says 'High school diploma + CompTIA A+ certification.' That is a path you could be on by age 19, making $40-50K. That is a lot of money for someone two years out of high school."
@@ -51,7 +51,7 @@ Walk the room. Pay special attention to the **education** field — this is the 
 
 Pull up TWO H&L Hat profiles side by side on the projector:
 
-- **Help Desk Technician** (entry-level IT support — no 4-year degree required)
+- **Help Desk Technician** (entry-level IT support, no 4-year degree required)
 - **Software Developer** (typically requires a 4-year bachelor's)
 
 Ask students to look at the differences:
@@ -76,5 +76,5 @@ Ask students: "Which path is BETTER?" The answer is "it depends on the person." 
 ## Differentiation
 
 - **Support:** Pre-print a notes sheet with the 4 IT Support Hat names listed and a column for "Education" already labeled. Students fill in only the data, not generate the structure.
-- **Extension:** Students research a 5th IT support career not on the list — Network Operations Center (NOC) Technician, Field Service Technician, or Technical Account Manager.
+- **Extension:** Students research a 5th IT support career not on the list: Network Operations Center (NOC) Technician, Field Service Technician, or Technical Account Manager.
 - **ELL:** Pre-teach: Soporte técnico = Tech Support, Mesa de ayuda = Help Desk, Especialista = Specialist, Administrador de sistemas = Systems Administrator.

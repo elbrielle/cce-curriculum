@@ -22,7 +22,7 @@ Take 3-4 responses (MRI machines, mRNA vaccines, prosthetics, gene therapy). Bri
 
 ## Activity 1: H&L Biomedical Pathway Tour (15 min)
 
-**Source:** H&L Workbook Ch 9, p. 139 — Biomedical Science pathway description
+**Source:** H&L Workbook Ch 9, p. 139, Biomedical Science pathway description
 
 Direct students to the H&L app and navigate to the Health Science cluster, then to the Biomedical Science pathway. The workbook describes Biomedical Science as: *"Combines biology and medicine to research and diagnose diseases, learn about health conditions, patient care, and effective communication in medical settings."*
 
@@ -36,7 +36,7 @@ Students use the Hat Finder to explore 5 specific biomedical Hats:
 
 For each Hat, they note the education time (most require master's or doctoral degree) and DFW salary on scratch paper.
 
-> [H&L PLATFORM] In the H&L app, click "Hat Finder," filter by "Health Science" cluster and "Biomedical Science" pathway. Click each Hat tile to see job description, education path, and DFW salary. Students will notice these careers require the MOST education in Health Science — typically 6-10 years after high school.
+> [H&L PLATFORM] In the H&L app, click "Hat Finder," filter by "Health Science" cluster and "Biomedical Science" pathway. Click each Hat tile to see job description, education path, and DFW salary. Students will notice these careers require the MOST education in Health Science, typically 6-10 years after high school.
 
 Then students complete the **Hat Research template** for ONE biomedical career of their choice (workbook p. 148).
 
@@ -49,23 +49,23 @@ Then students complete the **Hat Research template** for ONE biomedical career o
 
 Project a short NIH STEM video clip from [science.education.nih.gov](https://science.education.nih.gov) featuring a real biomedical scientist or engineer. Students use Stop and Jot to capture (1) one technology shown and (2) one quality the scientist demonstrates.
 
-If a video is unavailable, project an NIH career profile page and read it aloud. The point is to humanize biomedical careers — show that real people do this work.
+If a video is unavailable, project an NIH career profile page and read it aloud. The point is to humanize biomedical careers, show that real people do this work.
 
 ---
 
 ## Activity 3: Cover Letter — The Golden Ticket (22 min)
 
-**Source:** H&L Workbook Ch 9, p. 143 — "Cover Letter: The Golden Ticket"
+**Source:** H&L Workbook Ch 9, p. 143, "Cover Letter: The Golden Ticket"
 
-Read the workbook intro: *"A cover letter is like a book introduction — it gives a sneak peek of who you are and makes the reader want to learn more about you. A cover letter is a short letter that you send with your resume for a job application. This letter is personalized and introduces you to the employer."*
+Read the workbook intro: *"A cover letter is like a book introduction, it gives a sneak peek of who you are and makes the reader want to learn more about you. A cover letter is a short letter that you send with your resume for a job application. This letter is personalized and introduces you to the employer."*
 
 Project the workbook's **5 steps for writing a cover letter** (p. 143):
 
-1. **Begin with a Professional Greeting** — "Dear Ms. Smith" or "Dear Hiring Manager"
-2. **Opening Paragraph** — Mention the job title, company name, and why you are excited to work there
-3. **Body Paragraph (Show What You Can Do)** — Show off skills and experience with examples
-4. **Closing Paragraph** — Thank the employer, express enthusiasm, mention you would love an interview
-5. **Sign Off Professionally** — "Sincerely" or "Best Regards" + full name
+1. **Begin with a Professional Greeting:** "Dear Ms. Smith" or "Dear Hiring Manager"
+2. **Opening Paragraph:** Mention the job title, company name, and why you are excited to work there
+3. **Body Paragraph (Show What You Can Do):** Show off skills and experience with examples
+4. **Closing Paragraph:** Thank the employer, express enthusiasm, mention you would love an interview
+5. **Sign Off Professionally:** "Sincerely" or "Best Regards" + full name
 
 Walk through a worked example on the projector. Use the biomedical career the class just explored:
 
@@ -80,7 +80,7 @@ Walk through a worked example on the projector. Use the biomedical career the cl
 > Sincerely,
 > [Student Name]
 
-Students then draft their own cover letter for a job they would love to have at a company they are interested in (workbook activity, p. 143). The job can be biomedical, but doesn't have to be — the goal is to practice the 5-step format.
+Students then draft their own cover letter for a job they would love to have at a company they are interested in (workbook activity, p. 143). The job can be biomedical, but doesn't have to be, the goal is to practice the 5-step format.
 
 After drafting, students swap with a partner and provide constructive feedback (workbook activity).
 
@@ -100,5 +100,5 @@ After drafting, students swap with a partner and provide constructive feedback (
 ## Differentiation
 
 - **Support:** Provide a fill-in-the-blank cover letter template with each of the 5 sections labeled. Allow students to write the letter for a familiar job (cashier, babysitter) instead of a biomedical career.
-- **Extension:** Students write TWO cover letters — one for a Lab Tech position and one for a customer service position. How does the language change to match each audience?
+- **Extension:** Students write TWO cover letters, one for a Lab Tech position and one for a customer service position. How does the language change to match each audience?
 - **ELL:** Bilingual cover letter template. Pre-teach: Greeting = Saludo, Position = Puesto, Skills = Habilidades, Experience = Experiencia, Sincerely = Atentamente.

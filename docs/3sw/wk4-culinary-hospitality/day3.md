@@ -22,9 +22,9 @@ Take 3-4 student responses. Bridge: hotels run on teams. When a problem hits, ev
 
 ## Activity 1: Set the Scenario + Choose Roles (10 min)
 
-**Source:** H&L Workbook Ch 10, p. 163 — "Hotel Rescue" (Career Climb activity)
+**Source:** H&L Workbook Ch 10, p. 163, "Hotel Rescue" (Career Climb activity)
 
-Read aloud the workbook background (Ch 10, p. 163): Students are part of a team that runs a large hotel. They are preparing for an important week with lots of events and guests. But there's a BIG problem to solve — actually three problems — and they can't be solved alone.
+Read aloud the workbook background (Ch 10, p. 163): Students are part of a team that runs a large hotel. They are preparing for an important week with lots of events and guests. But there's a BIG problem to solve, actually three problems, and they can't be solved alone.
 
 Group students into teams of 6 (or 4-5 if class is smaller; assign multiple roles to one student if needed). Hand out the role cards from the workbook (Ch 10, p. 163):
 
@@ -44,17 +44,17 @@ Each student writes their initials next to their role on the workbook page. Each
 
 ## Activity 2: The 3 Problems + Brainstorm (25 min)
 
-**Source:** H&L Workbook Ch 10, pp. 163-164 — "Step 2: Read about the Problems" + "Step 3: Brainstorm Solutions"
+**Source:** H&L Workbook Ch 10, pp. 163-164, "Step 2: Read about the Problems" + "Step 3: Brainstorm Solutions"
 
 Project the 3 problems from the workbook on the screen so all groups can see them:
 
-- **Problem 1:** The hotel is overbooked — there are not enough rooms for all the guests who made reservations. How can you fix this?
+- **Problem 1:** The hotel is overbooked. There are not enough rooms for all the guests who made reservations. How can you fix this?
 - **Problem 2:** A large business retreat event is planned. The Head Chef planned an elaborate menu, but now some kitchen staff are sick and can't come to work. What do you do?
 - **Problem 3:** A VIP guest is staying at the hotel and has an important meeting to get ready for. They paid extra for early check-in and amenities, but the room is not ready. How can you help?
 
 Each team works through ALL 3 problems, using the workbook brainstorm boxes (Ch 10, p. 164):
 
-**Step 1 (5 min):** Each role brainstorms on their OWN — what would your specific staff position contribute to solving each problem? Write 1-2 ideas per problem.
+**Step 1 (5 min):** Each role brainstorms on their OWN, what would your specific staff position contribute to solving each problem? Write 1-2 ideas per problem.
 
 **Step 2 (15 min):** Teams share role-by-role and combine ideas into one team solution per problem. The Hotel Director can facilitate the discussion (it's part of their role).
 

@@ -26,7 +26,7 @@ Teams take 12 minutes to polish their pitch deck from Day 3. They should:
 
 - Make sure each of the 5 sections is clear (Value Prop, Target Market, Product/Tech Plan, Revenue Model, Budget Ask)
 - Decide who delivers each section (every team member must speak)
-- Practice the pitch ONCE through with the team — out loud, with a timer
+- Practice the pitch ONCE through with the team, out loud, with a timer
 - Time check: pitches should be 2 minutes max
 
 !!! tip "Facilitation Tip"
@@ -59,7 +59,7 @@ Each team should receive feedback from at least 2 other teams.
 
 ## Activity 3: Work Ethic Reflection (5 min)
 
-**Source:** TEKS d(4)(F) — work ethic, integrity, dedication, perseverance
+**Source:** TEKS d(4)(F): work ethic, integrity, dedication, perseverance
 
 Connect the pitch experience to work ethic. The pitches that landed well were the ones where the team was prepared, on time, and focused. The pitches that flopped often had a team member who didn't show up, didn't practice, or wasn't paying attention.
 

@@ -37,7 +37,7 @@ Students complete the full job-seeking skill set: identify job search steps, wri
 
 Students assemble the full professional-document set (cover letter, application, references, thank-you letter) and practice a mock interview with peer feedback. These are the documents and the interview format used in any job application across every Irving ISD pathway.
 
-**Irving ISD Pathway:** This week's content is universal across all Irving ISD CTE pathways — every pathway eventually requires students to interview, apply, and provide references when they enter the workforce.
+**Irving ISD Pathway:** This week's content is universal across all Irving ISD CTE pathways, every pathway eventually requires students to interview, apply, and provide references when they enter the workforce.
 
 ## Vocabulary
 
@@ -46,20 +46,20 @@ Students assemble the full professional-document set (cover letter, application,
 - **References:** People who can speak positively about your character, skills, and work ethic to a potential employer.
 - **Mock Interview:** A practice interview that simulates a real job interview, used for rehearsal and feedback.
 - **Thank-You Letter:** A brief letter sent within 24 hours of an interview thanking the interviewer and reaffirming your interest.
-- **Greeting / Salutation:** The opening line of a business letter, usually "Dear [Name]:" — addressed to a specific person if possible.
+- **Greeting / Salutation:** The opening line of a business letter, usually "Dear [Name]:", addressed to a specific person if possible.
 
 ## Bridge to Theory (Hats & Ladders)
 
 H&L Ch 11 (Human Services, pp. 178-182) provides the foundation for this week's interview work. The chapter includes:
 
-- **Job Interviews** (Ch 11, p. 179) — Background reading on dressing for success, getting ready for an interview, and following up
-- **Practicing for a Job Interview** (Ch 11, pp. 180-181) — Pair activity with 8 standard interview questions and a thank-you email step
+- **Job Interviews** (Ch 11, p. 179): Background reading on dressing for success, getting ready for an interview, and following up
+- **Practicing for a Job Interview** (Ch 11, pp. 180-181): Pair activity with 8 standard interview questions and a thank-you email step
 
-The H&L Ch 12 workbook (p. 196) has the **Job Applications** activity — students fill out a standard application for "Future Work, Inc." with all required fields. This is reused this week for d(7)(C).
+The H&L Ch 12 workbook (p. 196) has the **Job Applications** activity. Students fill out a standard application for "Future Work, Inc." with all required fields. This is reused this week for d(7)(C).
 
 ## IISD Instructional Strategies
 
-- **Modeling:** Teacher models every document on the projector — cover letter, job application, thank-you letter — and runs a fishbowl mock interview with a student volunteer before students do their own.
+- **Modeling:** Teacher models every document on the projector, cover letter, job application, thank-you letter, and runs a fishbowl mock interview with a student volunteer before students do their own.
 - **Fishbowl:** One pair conducts their mock interview in front of the class while others observe and score using the rubric. This provides a clear model.
 - **Worked Example:** Teacher writes a cover letter live on the board for a sample job posting before students write their own.
 - **Active Monitoring:** Teacher circulates during mock interviews observing body language, eye contact, and answer quality.
@@ -76,12 +76,12 @@ The H&L Ch 12 workbook (p. 196) has the **Job Applications** activity — studen
 
 ## Formative Assessment
 
-- 7-step job search recall (Day 1) — d(6)(A)
-- Cover letter format and quality (Day 2) — d(7)(B)
-- Application completeness and neatness (Day 3) — d(7)(C)
-- Reference selection and rationale (Day 3) — d(7)(D)
-- Interview prep quality (Day 4) — d(6)(B)
-- Mock interview rubric score (Day 5) — d(6)(C)
+- 7-step job search recall (Day 1): d(6)(A)
+- Cover letter format and quality (Day 2): d(7)(B)
+- Application completeness and neatness (Day 3): d(7)(C)
+- Reference selection and rationale (Day 3): d(7)(D)
+- Interview prep quality (Day 4): d(6)(B)
+- Mock interview rubric score (Day 5): d(6)(C)
 
 ## Summative Assessment
 
@@ -114,4 +114,4 @@ Plus the d(6)(A) job search steps recall from the Day 1 exit ticket. Six TEKS st
 - Bilingual cover letter template with Spanish sentence starters
 - Mock interview question cards with Spanish translations on back
 - Allow ESL students to mock interview with a bilingual partner
-- Bilingual interviewers are highly valued in DFW — make this an asset, not a barrier
+- Bilingual interviewers are highly valued in DFW, make this an asset, not a barrier

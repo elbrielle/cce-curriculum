@@ -22,8 +22,8 @@ Students explore the Architecture & Construction career cluster through Hats & L
 - Chromebooks with internet access (1 per student)
 - Hats & Ladders student accounts + H&L Workbook (Ch 3: Architecture & Construction)
 - TinkerCAD accounts (free, sign in with school Google): [tinkercad.com](https://www.tinkercad.com)
-- BLS — Architects: [bls.gov/ooh/architecture-and-engineering/architects.htm](https://www.bls.gov/ooh/architecture-and-engineering/architects.htm)
-- BLS — Drafters: [bls.gov/ooh/architecture-and-engineering/drafters.htm](https://www.bls.gov/ooh/architecture-and-engineering/drafters.htm)
+- BLS, Architects: [bls.gov/ooh/architecture-and-engineering/architects.htm](https://www.bls.gov/ooh/architecture-and-engineering/architects.htm)
+- BLS, Drafters: [bls.gov/ooh/architecture-and-engineering/drafters.htm](https://www.bls.gov/ooh/architecture-and-engineering/drafters.htm)
 - eDynamic Learning Unit 3.1: Planners, Builders, Fabricators
 - Xello student accounts (Education Experiences activity)
 - Printed Architecture Career Research worksheet
@@ -31,7 +31,7 @@ Students explore the Architecture & Construction career cluster through Hats & L
 
 ## Career Connection
 
-Architecture is one of the oldest and most creative career paths. Architects design the buildings where we live, work, learn, and play. What makes architecture unique is the long education pathway — becoming a licensed architect requires a professional degree (5-7 years), an internship, and passing the Architect Registration Examination. This creates a strong contrast with the trades careers from the 4th Six Weeks, where students saw shorter certification timelines.
+Architecture is one of the oldest and most creative career paths. Architects design the buildings where we live, work, learn, and play. What makes architecture unique is the long education pathway. Becoming a licensed architect requires a professional degree (5-7 years), an internship, and passing the Architect Registration Examination. This creates a strong contrast with the trades careers from the 4th Six Weeks, where students saw shorter certification timelines.
 
 **Irving ISD Pathway:** **Architecture** at **MacArthur High School** (School of Architecture, Construction and Civil Engineering — ACE) leads to the AutoDesk Revit Architecture certification.
 
@@ -48,10 +48,10 @@ Architecture is one of the oldest and most creative career paths. Architects des
 
 The H&L workbook (Ch 3: Architecture & Construction, pp. 37-54) covers six pathways including Architecture Drafting and Design, Carpentry, Construction Management, and Electrical. The chapter includes four named activities used across this week:
 
-- **Safety Supervisor** (Day 1) — Design a safety plan for an underwater research lab
-- **Power Pitch** (referenced in Differentiation) — Craft a 60-second elevator pitch using Building Blocks
-- **Trash to Treasure** (Day 4) — Reclaim a landfill into a public outdoor space
-- **Unexpected Architecture** (Extensions) — Design a novelty landmark for the city of Brighton Ridge
+- **Safety Supervisor** (Day 1): Design a safety plan for an underwater research lab
+- **Power Pitch** (referenced in Differentiation): Craft a 60-second elevator pitch using Building Blocks
+- **Trash to Treasure** (Day 4): Reclaim a landfill into a public outdoor space
+- **Unexpected Architecture** (Extensions): Design a novelty landmark for the city of Brighton Ridge
 
 The **Hat Research** template (Ch 3) provides structured career research fields used on Day 2.
 
@@ -74,10 +74,10 @@ The **Hat Research** template (Ch 3) provides structured career research fields 
 
 ## Formative Assessment
 
-- Safety plan quality and hazard identification (Day 1) — d(1)(B)
-- Hat Research template accuracy and salary comparison (Day 2) — d(2)(A), d(5)(E)
-- TinkerCAD skill demonstration at checkpoints (Days 3-4) — d(1)(C)
-- Trash to Treasure design rationale (Day 4) — d(1)(C)
+- Safety plan quality and hazard identification (Day 1): d(1)(B)
+- Hat Research template accuracy and salary comparison (Day 2): d(2)(A), d(5)(E)
+- TinkerCAD skill demonstration at checkpoints (Days 3-4): d(1)(C)
+- Trash to Treasure design rationale (Day 4): d(1)(C)
 
 ## Summative Assessment
 
@@ -88,7 +88,7 @@ The **Hat Research** template (Ch 3) provides structured career research fields 
 ### Scaffolded Learning
 - TinkerCAD starter template with a basic floor plan pre-built for students who need extra support
 - Simplified salary worksheet with one career row pre-filled as an example
-- Pair work option for TinkerCAD — one student designs, the other navigates/coaches
+- Pair work option for TinkerCAD, one student designs, the other navigates/coaches
 - H&L "Power Pitch" activity (Ch 3) as an alternative for students who finish Safety Supervisor early
 
 ### Extensions

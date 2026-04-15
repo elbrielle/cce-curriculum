@@ -14,9 +14,9 @@
 
 ## Warm-Up: Powerskill Creativity — 8 Ideas in 8 Minutes (8 min)
 
-**Source:** H&L Workbook Ch 15, p. 254 — "Powerskill: Creativity"
+**Source:** H&L Workbook Ch 15, p. 254, "Powerskill: Creativity"
 
-Open with the Powerskill Creativity activity from the workbook. The workbook (p. 254) frames creativity as the ability to see things from many angles, make connections, and imagine different solutions — useful in every career field including aviation.
+Open with the Powerskill Creativity activity from the workbook. The workbook (p. 254) frames creativity as the ability to see things from many angles, make connections, and imagine different solutions, useful in every career field including aviation.
 
 **The prompt (from the workbook, p. 254):**
 
@@ -24,7 +24,7 @@ Open with the Powerskill Creativity activity from the workbook. The workbook (p.
 
 Distribute the printed "8 ideas in 8 minutes" sheet. Set a visible timer for **8 minutes**. Each student fills the 8 boxes with 8 different ideas. The workbook rules:
 - No wrong answers
-- Don't overthink it — just write or draw
+- Don't overthink it, just write or draw
 - Crazy is allowed (in fact, crazy is encouraged)
 
 After 8 minutes, students stop writing. In groups of 3-4, they share their ideas (1 minute each). The group picks the **single most creative idea** to nominate to the class.
@@ -39,20 +39,20 @@ Take 1-2 quick responses, then transition to the simulation.
 
 **Source:** Engineering Design Process Phase 4-5 (Test + Iterate) applied to the LEGO airport from Day 3
 
-Distribute the printed ATC scenario cards. Each card has 4 difficulty tiers — teams start at Tier 1 and progress as they succeed.
+Distribute the printed ATC scenario cards. Each card has 4 difficulty tiers, teams start at Tier 1 and progress as they succeed.
 
-**Tier 1 (Run #1) — Basic Sequencing:**
+**Tier 1 (Run #1): Basic Sequencing:**
 - 2 planes need to take off
 - 1 plane needs to land
 - No weather, no emergencies
 
-**Tier 2 (Run #2) — Adding Pressure:**
-- 4 planes total — 2 takeoffs and 2 landings
+**Tier 2 (Run #2): Adding Pressure:**
+- 4 planes total, 2 takeoffs and 2 landings
 - One plane needs to taxi from the gate while another is landing on a parallel runway
 - Light wind (announced by teacher mid-run)
 
-**Tier 3 (Run #3) — Real Complexity:**
-- 6 planes — 3 takeoffs and 3 landings staggered
+**Tier 3 (Run #3): Real Complexity:**
+- 6 planes, 3 takeoffs and 3 landings staggered
 - One emergency landing announced mid-run (requires runway clearance)
 - One plane has a mechanical issue and needs to return to the gate
 
@@ -89,11 +89,11 @@ The Simulation Run Log captures:
 
 ## Activity 2: eDynamic 2.2 Setting Goals — Start (10 min)
 
-**Source:** eDynamic Learning Unit 2.2 — Setting Goals
+**Source:** eDynamic Learning Unit 2.2, Setting Goals
 
 > [VERIFY IN eDynamic] Confirm that Unit 2.2 is the correct unit on Setting Goals.
 
-Students log into eDynamic and begin Unit 2.2. The unit covers SMART goal-setting, short-term vs. long-term goals, and how to break big goals into smaller actions. They will continue this unit on Day 5 — today is just the start. As they read, they note one specific goal-setting strategy that applies to aviation careers (which require years of training).
+Students log into eDynamic and begin Unit 2.2. The unit covers SMART goal-setting, short-term vs. long-term goals, and how to break big goals into smaller actions. They will continue this unit on Day 5, today is just the start. As they read, they note one specific goal-setting strategy that applies to aviation careers (which require years of training).
 
 The bridge between the simulation and goal-setting is direct: aviation careers are built one small step at a time over many years. Becoming a commercial pilot takes 1,500 flight hours. Becoming an ATC takes years of FAA training. Goal-setting is not optional.
 
@@ -107,6 +107,6 @@ The bridge between the simulation and goal-setting is direct: aviation careers a
 
 ## Differentiation
 
-- **Support:** Stay at Tier 1 for the full simulation if needed — repetition with success is more valuable than failing at a higher tier. Provide a printed sentence stem card for the controller role so they have the language to use.
+- **Support:** Stay at Tier 1 for the full simulation if needed, repetition with success is more valuable than failing at a higher tier. Provide a printed sentence stem card for the controller role so they have the language to use.
 - **Extension:** Create a fourth scenario card with an unexpected event (bird strike, runway debris, lost radio communication). Run the team through it as a true emergency drill.
-- **ELL:** The bilingual ATC command card from Day 1 carries over here — make sure ESL students rotate into the controller role using the bilingual command card. Pre-teach: Cleared = Despejado, Hold = Mantenga, Taxi = Taxi, Runway = Pista.
+- **ELL:** The bilingual ATC command card from Day 1 carries over here, make sure ESL students rotate into the controller role using the bilingual command card. Pre-teach: Cleared = Despejado, Hold = Mantenga, Taxi = Taxi, Runway = Pista.

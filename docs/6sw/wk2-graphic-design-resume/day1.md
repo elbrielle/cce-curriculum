@@ -16,7 +16,7 @@
 
 **WARM-UP: Open your phone's camera roll (or just think about it). Who took most of the photos and videos on there? You are already creating visual content. Could that become a career?**
 
-Take 3-4 student responses. Most students will say "me" — and that is the bridge. Bridge to today: every visual thing you see (movies, ads, social media, video games) is created by someone whose job is making visual content.
+Take 3-4 student responses. Most students will say "me", and that is the bridge. Bridge to today: every visual thing you see (movies, ads, social media, video games) is created by someone whose job is making visual content.
 
 ---
 
@@ -34,12 +34,12 @@ Students should:
 
 1. **Read the Making Connections prompt** (Ch 4, p. 56): *"If you could design the look and feel of your own TV show, video game, or other media, what would it be like? Discuss and compare ideas with a small group."*
 2. **Browse the THREE pathways** identified in the workbook:
-    - **Graphic Design and Multimedia Arts** — "Design graphics, clothes, accessories; create special effects, animations, and visuals for games, movies, music videos, and ads"
-    - **Digital Communications** — "Use social media, videos, and sound to connect with others"
-    - **Printing & Imaging** — "Run printing presses and digital tools to bring words and images to life"
+    - **Graphic Design and Multimedia Arts:** "Design graphics, clothes, accessories; create special effects, animations, and visuals for games, movies, music videos, and ads"
+    - **Digital Communications:** "Use social media, videos, and sound to connect with others"
+    - **Printing & Imaging:** "Run printing presses and digital tools to bring words and images to life"
 3. **Use the Hat Finder** to browse 2-3 Hats: Graphic Designer, Animator, Video Editor, UX Designer, Photographer, Social Media Manager, Sound Engineer, Art Director.
 
-Students use the **Stop and Jot** strategy — pause twice to write down one Arts/AV career that surprised them and one question they have.
+Students use the **Stop and Jot** strategy, pause twice to write down one Arts/AV career that surprised them and one question they have.
 
 !!! tip "Facilitation Tip"
     Students often think "art = poor career." Push back with concrete data: UX Designer median salary is $85K+ in DFW. Animation lead at game studios can clear $100K. Show them the BLS page for Graphic Designers ($57K median nationally, higher in DFW) to anchor expectations.
@@ -48,11 +48,11 @@ Students use the **Stop and Jot** strategy — pause twice to write down one Art
 
 ## Activity 2: H&L "Digital Storytelling" Activity (25 min)
 
-**Source:** H&L Workbook Ch 4, pp. 57-59 — "Digital Storytelling" (Career Climb activity)
+**Source:** H&L Workbook Ch 4, pp. 57-59, "Digital Storytelling" (Career Climb activity)
 
 Introduce the activity using the workbook framing: *"Have you ever listened to a podcast? Maybe it was funny, a mystery, or about your favorite sport. Some people make podcasts as their full-time job. Popular podcasts can earn thousands or even millions through ads, sponsorships, and subscriptions."*
 
-Today students plan their own podcast in groups of 3-4. They will not record — that is an extension. Today is about the creative planning process that real podcast producers use.
+Today students plan their own podcast in groups of 3-4. They will not record, that is an extension. Today is about the creative planning process that real podcast producers use.
 
 **Step 1: Come Up With an Idea (5 min)**
 
@@ -66,10 +66,10 @@ In groups of 3-4, students answer the workbook's three questions:
 
 Using the workbook space, the group plans ONE specific episode:
 
-- **Podcast Name** — A catchy name
-- **Episode Title** — A descriptive episode title
-- **Guest** — One guest who would appear on the show (real person or character)
-- **Promotion Plan** — Where and how will you market the episode?
+- **Podcast Name:** A catchy name
+- **Episode Title:** A descriptive episode title
+- **Guest:** One guest who would appear on the show (real person or character)
+- **Promotion Plan:** Where and how will you market the episode?
 
 **Step 3: Create an Episode Outline (15 min)**
 
@@ -86,7 +86,7 @@ Students may use Google Docs or paper. The deliverable is the completed outline 
 !!! tip "Facilitation Tip"
     The workbook checklist IS the rubric. Walk around during work time with the checklist visible. Ask each group "Show me your three interview questions." If they only have one, redirect them. The checklist makes accountability visible.
 
-**DOK 2:** How would you compare the work a podcast host does to the work a graphic designer does? Both are Arts/AV careers — what skills do they share? What skills are different?
+**DOK 2:** How would you compare the work a podcast host does to the work a graphic designer does? Both are Arts/AV careers, what skills do they share? What skills are different?
 
 **DELIVERABLE:** Podcast episode outline (one per group of 3-4) submitted to Google Classroom or the class binder.
 

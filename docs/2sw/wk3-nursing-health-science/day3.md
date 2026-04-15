@@ -24,9 +24,9 @@ Take responses. Students should name: heart rate (pulse), temperature, blood pre
 
 Introduce today's challenge:
 
-> "Nurses monitor vital signs constantly — heart rate, temperature, blood pressure, oxygen levels. Modern hospitals use electronic monitoring systems to do this. Today you are going to BUILD a simplified vital signs monitor using your micro:bit. When you press Button A, it displays a simulated heart rate. When you press Button B, it displays a simulated temperature. This is how real medical technology works at a basic level."
+> "Nurses monitor vital signs constantly, heart rate, temperature, blood pressure, oxygen levels. Modern hospitals use electronic monitoring systems to do this. Today you are going to BUILD a simplified vital signs monitor using your micro:bit. When you press Button A, it displays a simulated heart rate. When you press Button B, it displays a simulated temperature. This is how real medical technology works at a basic level."
 
-Connect the project to the Singley Academy Nursing Science pathway — Patient Care Technicians use vital signs monitors every shift. Connect to the Day 1 Making Connections activity: most students named "thermometer" or "blood pressure monitor" — those are programmable devices.
+Connect the project to the Singley Academy Nursing Science pathway. Patient Care Technicians use vital signs monitors every shift. Connect to the Day 1 Making Connections activity: most students named "thermometer" or "blood pressure monitor". Those are programmable devices.
 
 **Project specifications** (project on the board):
 
@@ -44,11 +44,11 @@ Open [makecode.microbit.org](https://makecode.microbit.org) on the projector. Wa
 2. **Drag in `on button A pressed`** from the Input drawer
 3. **Inside the button block, drag in `show number`** from Basic
 4. **Set the number to a variable** called `heartRate` initialized to 75
-5. **Test on the simulator** — click Button A and watch the LED grid display "75"
+5. **Test on the simulator:** click Button A and watch the LED grid display "75"
 
 Then add the LED animation:
 
-6. **Show LEDs** block from Basic — draw a simple heart pattern
+6. **Show LEDs** block from Basic, draw a simple heart pattern
 7. **Pause 200ms**
 8. **Show LEDs** with empty heart
 9. **Loop 3 times** for the pulse effect
@@ -56,7 +56,7 @@ Then add the LED animation:
 Walk students through saving the project and downloading it to the micro:bit (drag the .hex file to the MICROBIT drive).
 
 !!! tip "Facilitation Tip"
-    Don't spend more than 10 minutes on the demo — the goal is to get students building, not watching. Demonstrate the heart rate (Button A) only, then let students build Button B independently using the same pattern. They learn faster by doing.
+    Don't spend more than 10 minutes on the demo, the goal is to get students building, not watching. Demonstrate the heart rate (Button A) only, then let students build Button B independently using the same pattern. They learn faster by doing.
 
 ---
 
@@ -65,9 +65,9 @@ Walk students through saving the project and downloading it to the micro:bit (dr
 Students work in teams of 2-3 with one micro:bit per team. They:
 
 1. **Recreate the Button A heart rate display** using the demo as reference
-2. **Add Button B for temperature** — `on button B pressed` → `show number` (temperature variable initialized to 98.6) → LED thermometer animation
+2. **Add Button B for temperature:** `on button B pressed` → `show number` (temperature variable initialized to 98.6) → LED thermometer animation
 3. **Test both buttons** on the simulator first, then download to the physical micro:bit
-4. **Show the teacher** when both buttons work — this is the Day 3 checkpoint
+4. **Show the teacher** when both buttons work. This is the Day 3 checkpoint
 
 The teacher circulates with a 3-checkpoint rubric:
 

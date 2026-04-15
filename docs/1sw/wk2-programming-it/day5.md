@@ -16,7 +16,7 @@
 
 **WARM-UP: Yesterday you started a Code.org tutorial. On a scale of 1-10, how much did you enjoy it? What does that tell you about whether IT is a good fit for you?**
 
-Quick share. Students who scored 8-10 are the ones to watch — they may be future programmers. Students who scored 1-3 may have found the tutorial frustrating; bridge by reminding them that programming is one of MANY IT careers, and Wks 3-5 explore others.
+Quick share. Students who scored 8-10 are the ones to watch; they may be future programmers. Students who scored 1-3 may have found the tutorial frustrating. Bridge by reminding them that programming is one of MANY IT careers, and Wks 3-5 explore others.
 
 ---
 
@@ -24,7 +24,7 @@ Quick share. Students who scored 8-10 are the ones to watch — they may be futu
 
 Students return to Code.org and continue from where they left off yesterday. Goal: finish the tutorial and earn the completion certificate.
 
-Walk the room. Same active monitoring as Day 4 — progress check, concept check, frustration check.
+Walk the room. Same active monitoring as Day 4: progress check, concept check, frustration check.
 
 **For students who finish early:**
 
@@ -55,15 +55,15 @@ After the Pathway Fit assessment, students must:
 "I favorited _____ because it matches my _____ personality type and my _____ work value."
 
 !!! tip "Facilitation Tip"
-    Students who hated the Hour of Code may be hesitant to favorite an IT career. Tell them: "You don't have to favorite an IT career — favorite the careers that ACTUALLY interest you. If IT isn't your thing after this week, that's a valuable thing to know."
+    Students who hated the Hour of Code may be hesitant to favorite an IT career. Tell them: "You don't have to favorite an IT career. Favorite the careers that ACTUALLY interest you. If IT isn't your thing after this week, that's a valuable thing to know."
 
 ---
 
 ## Activity 3: Xello Favorite Clusters (8 min)
 
-**Source:** Scope and sequence — Xello 7th-grade activity: Favorite Clusters
+**Source:** Scope and sequence. Xello 7th-grade activity: Favorite Clusters
 
-Students log into Xello and complete the Favorite Clusters activity. They mark which clusters from the Xello cluster list they are most interested in. This is a quick task — Xello will use these favorites to refine its career recommendations later in the year.
+Students log into Xello and complete the Favorite Clusters activity. They mark which clusters from the Xello cluster list they are most interested in. This is a quick task. Xello will use these favorites to refine its career recommendations later in the year.
 
 Tell students: "This is the Xello version of what you did in H&L. Both platforms are tracking your interests. By 6SW Wk6 (the Final Career Plan), both platforms will have a deep picture of who you are."
 

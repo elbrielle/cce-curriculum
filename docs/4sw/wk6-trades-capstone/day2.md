@@ -16,7 +16,7 @@
 
 **WARM-UP: Name a skill that a pilot, a nurse, AND an auto mechanic ALL need. Hint: it is not a technical skill from any one of those jobs.**
 
-Take 4-5 student responses. Common answers: communication, attention to detail, staying calm, problem solving. Bridge: today we are mapping out exactly which skills work across every career, and the answer is going to surprise some of you — almost all the soft skills apply to almost every job.
+Take 4-5 student responses. Common answers: communication, attention to detail, staying calm, problem solving. Bridge: today we are mapping out exactly which skills work across every career, and the answer is going to surprise some of you, almost all the soft skills apply to almost every job.
 
 ---
 
@@ -26,15 +26,15 @@ Take 4-5 student responses. Common answers: communication, attention to detail, 
 
 Distribute the printed Transferable Skills Matrix. The matrix is a grid:
 
-**Columns (across the top) — 6 careers from this year:**
+**Columns (across the top): 6 careers from this year:**
 1. Pilot (4SW Wk3)
 2. Auto Technician (4SW Wk5)
 3. Nurse (2SW Wk3)
 4. Software Developer (1SW Wk5)
 5. Lawyer (2SW Wk1)
-6. Teacher (6SW Wk1 — preview)
+6. Teacher (6SW Wk1, preview)
 
-**Rows (down the left) — 8 transferable skills:**
+**Rows (down the left): 8 transferable skills:**
 1. Problem Solving
 2. Communication
 3. Attention to Detail
@@ -44,23 +44,23 @@ Distribute the printed Transferable Skills Matrix. The matrix is a grid:
 7. Critical Thinking
 8. Leadership
 
-**The task:** For each cell, students mark whether the skill applies to that career — but they must justify the YES with ONE specific example. For example:
+**The task:** For each cell, students mark whether the skill applies to that career, but they must justify the YES with ONE specific example. For example:
 
 - *Pilot × Communication = YES* (radio communication with ATC, briefing passengers, coordinating with first officer)
 - *Auto Technician × Attention to Detail = YES* (missing one bolt during a brake job means the wheel falls off)
 - *Nurse × Time Management = YES* (medication schedules, charting, multiple patients per shift)
 
-If a student marks a cell NO, they must explain why the skill doesn't apply (and they should be challenged — most of these are hard to defend as NO).
+If a student marks a cell NO, they must explain why the skill doesn't apply (and they should be challenged, most of these are hard to defend as NO).
 
 The whole class fills in the matrix at the same time. Walk the room with the active monitoring checklist:
 
 - Does each cell have either YES + example or NO + reason?
-- Is the student finding more than 6 of 8 skills apply to ALL 6 careers? (The expected answer is yes — most transferable skills are universal.)
+- Is the student finding more than 6 of 8 skills apply to ALL 6 careers? (The expected answer is yes, most transferable skills are universal.)
 
 !!! tip "Facilitation Tip"
-    Students will reflexively say "leadership doesn't apply to mechanics." Push back gently: "Who runs the shop? Who trains the new tech? Who deals with an angry customer when the manager is gone?" The skill is there — they just associated leadership with formal titles instead of behaviors. This is the exact skill-recognition the matrix is designed to surface.
+    Students will reflexively say "leadership doesn't apply to mechanics." Push back gently: "Who runs the shop? Who trains the new tech? Who deals with an angry customer when the manager is gone?" The skill is there, they just associated leadership with formal titles instead of behaviors. This is the exact skill-recognition the matrix is designed to surface.
 
-After 28 minutes of filling in cells, students count their total number of YES answers (the maximum is 48 — 6 careers × 8 skills). Most students should have 40+. They write the total at the bottom: "I marked YES on _____ out of 48 cells. The skill that applied to ALL 6 careers most clearly is _____ because _____."
+After 28 minutes of filling in cells, students count their total number of YES answers (the maximum is 48, 6 careers × 8 skills). Most students should have 40+. They write the total at the bottom: "I marked YES on _____ out of 48 cells. The skill that applied to ALL 6 careers most clearly is _____ because _____."
 
 ---
 
@@ -70,10 +70,10 @@ Run a quick whole-class tally:
 
 - "Raise your hand if Communication was YES for all 6 careers." (Almost every hand goes up.)
 - "Raise your hand if Problem Solving was YES for all 6." (Almost every hand.)
-- "Raise your hand if Leadership was NO for any career." (Some hands go up — discuss which careers and why.)
+- "Raise your hand if Leadership was NO for any career." (Some hands go up, discuss which careers and why.)
 - "Raise your hand if Attention to Detail was NO for any career." (Almost no hands.)
 
-Surface the pattern: most transferable skills are nearly universal. The differences between careers are NOT in which soft skills matter — they are in which TECHNICAL skills matter. This is why employers consistently say "we hire for soft skills and train for technical skills."
+Surface the pattern: most transferable skills are nearly universal. The differences between careers are NOT in which soft skills matter. They are in which TECHNICAL skills matter. This is why employers consistently say "we hire for soft skills and train for technical skills."
 
 **DOK 4:** Based on your matrix data, what argument would you make that transferable skills are MORE important than technical skills when choosing a career? Or would you argue the opposite? Use evidence from your matrix.
 

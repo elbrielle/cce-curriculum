@@ -16,7 +16,7 @@
 
 **WARM-UP: Would you want to be a first responder? What would be the hardest part of the job for you personally?**
 
-Take 3-4 responses. Acknowledge that some students will say "definitely not" and that's a valid answer — career exploration is about INFORMED choice, not pressure to pick.
+Take 3-4 responses. Acknowledge that some students will say "definitely not" and that's a valid answer, career exploration is about INFORMED choice, not pressure to pick.
 
 ---
 
@@ -50,7 +50,7 @@ Students use **Stop and Jot** twice during the video:
 After the video, lead a 2-minute whole-class discussion: What did this real first responder reveal that the H&L Hat profiles didn't show?
 
 !!! tip "Facilitation Tip"
-    Pre-screen the video clip. Avoid clips with graphic content. Look for documentaries that show the personal journey — the failures, doubts, mentors — not just the action.
+    Pre-screen the video clip. Avoid clips with graphic content. Look for documentaries that show the personal journey, the failures, doubts, mentors, not just the action.
 
 ---
 
@@ -58,7 +58,7 @@ After the video, lead a 2-minute whole-class discussion: What did this real firs
 
 Students return to the H&L app and finalize their Law cluster favorites across both Week 1 (Legal Services) and Week 2 (Law Enforcement, Fire Science).
 
-> [H&L PLATFORM] In the H&L app, navigate to "Hat Finder," filter by "Law and Public Service" cluster, and confirm that 2-3 Hats are favorited (heart icon clicked). Then click "Climber Profile" — students should see favorites from THREE clusters now: Manufacturing, IT, and Law. The Climber Profile page shows how their RIASEC type connects to favorited Hats.
+> [H&L PLATFORM] In the H&L app, navigate to "Hat Finder," filter by "Law and Public Service" cluster, and confirm that 2-3 Hats are favorited (heart icon clicked). Then click "Climber Profile". Students should see favorites from THREE clusters now: Manufacturing, IT, and Law. The Climber Profile page shows how their RIASEC type connects to favorited Hats.
 
 The teacher circulates and asks each student: "Which Law cluster career did you favorite, and does your RIASEC type fit it?" This is a quick formative check.
 

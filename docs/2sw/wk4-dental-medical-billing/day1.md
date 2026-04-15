@@ -16,13 +16,13 @@
 
 **WARM-UP: If a medical coder types the wrong 5-character code on a hospital form, a family might get a $500 bill they don't actually owe. What kind of skills do you think that job takes?**
 
-Take 3-4 responses. Bridge: medical billing is one of the largest behind-the-scenes jobs in healthcare, and it runs on people who never see patients. Today you meet the invisible side of health care — and on Day 4 you try the job yourself.
+Take 3-4 responses. Bridge: medical billing is one of the largest behind-the-scenes jobs in healthcare, and it runs on people who never see patients. Today you meet the invisible side of health care, and on Day 4 you try the job yourself.
 
 ---
 
 ## Activity 1: H&L Health Informatics Pathway (20 min)
 
-**Source:** H&L Workbook Ch 9, p. 139 — Health Informatics pathway description
+**Source:** H&L Workbook Ch 9, p. 139, Health Informatics pathway description
 
 Direct students to open H&L and navigate to the Health Science cluster. Today's focus is the **Health Informatics pathway**. The workbook describes it as: *"Focus on managing patient information in healthcare; learn about computerized healthcare systems, maintaining medical records, and understanding how to write and interpret medical reports while following healthcare regulations."*
 
@@ -41,23 +41,23 @@ For each Hat, they note the education time, certification required, and DFW sala
 
 ## Activity 2: Medical Billing Career Pathway Overview (8 min)
 
-Project an overview of the Medical Billing career pathway using BLS and CareerOneStop data. Medical Billing is not currently offered as a dedicated Irving ISD CTE pathway — this activity is a career-exploration overview, not a local pathway pitch:
+Project an overview of the Medical Billing career pathway using BLS and CareerOneStop data. Medical Billing is not currently offered as a dedicated Irving ISD CTE pathway, this activity is a career-exploration overview, not a local pathway pitch:
 
 - **Credential:** Certified Medical Billing and Coding Specialist (industry-standard, nationally recognized)
 - **Training route:** community college or private training program, typically 6-12 months post-high-school; some programs offer dual-credit during senior year
 - **Workplaces:** hospitals, clinics, insurance companies, physician offices, remote work-from-home
-- **Starting DFW salary:** ~$40K-$45K (BLS for Medical Records Specialists; 8% job growth — "much faster than average")
+- **Starting DFW salary:** ~$40K-$45K (BLS for Medical Records Specialists; 8% job growth, "much faster than average")
 
 The key value proposition: medical billing is a real example of high-demand healthcare work that doesn't require a 4-year degree. Students can pursue it as a short post-high-school credential and step into the workforce quickly.
 
 !!! tip "Facilitation Tip"
-    Many students assume "no college = low pay." Use this moment to challenge that. Medical Billing is a real example of high-demand, respectable-pay work with a short training timeline — typically a community college certificate, not a bachelor's degree. Show the BLS job outlook (8% growth, "much faster than average").
+    Many students assume "no college = low pay." Use this moment to challenge that. Medical Billing is a real example of high-demand, respectable-pay work with a short training timeline, typically a community college certificate, not a bachelor's degree. Show the BLS job outlook (8% growth, "much faster than average").
 
 ---
 
 ## Activity 3: Complete Hat Research + Begin Career Comparison (15 min)
 
-**Source:** H&L Workbook Ch 9, p. 148 — Hat Research template
+**Source:** H&L Workbook Ch 9, p. 148, Hat Research template
 
 Students complete the **Hat Research template** for ONE Health Informatics career of their choice. The template fields are the same as Wk 3: Name of Career, What Interests You?, Brief Job Description, Education/Training Needed, Average Salary, Tools/Equipment/Skills.
 
@@ -71,7 +71,7 @@ The Medical Biller row example:
 - **Education Time:** 6-12 months certification OR 2-year associate degree
 - **Certification:** Certified Medical Billing and Coding Specialist
 - **DFW Salary:** ~$42K (BLS)
-- **Job Growth:** 8% (BLS — "much faster than average")
+- **Job Growth:** 8% (BLS, "much faster than average")
 
 Students will complete the Dental Hygienist and RN rows on Day 2.
 

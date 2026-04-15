@@ -16,7 +16,7 @@
 
 **WARM-UP: On a scale of 1-10, how interested are you in an aviation career after this week? Has the number changed since Monday?**
 
-Take a quick show of hands or whip-around responses. No discussion — this is a thermometer check, not a debate.
+Take a quick show of hands or whip-around responses. No discussion. This is a thermometer check, not a debate.
 
 ---
 
@@ -29,7 +29,7 @@ Each team has 3 minutes to present:
 3. **Share the most challenging scenario** they faced and how they solved it
 4. **Connect the simulation to a real aviation career** (pilot, ATC, dispatcher)
 
-The class fills in a quick listening grid as each team presents — what was the most creative layout solution, what was the smartest communication procedure, what would they steal from another team's design.
+The class fills in a quick listening grid as each team presents, what was the most creative layout solution, what was the smartest communication procedure, what would they steal from another team's design.
 
 !!! tip "Facilitation Tip"
     Hold the time strictly to 3 minutes per team. With 6-7 teams, this fills 18-21 minutes and leaves time for the goal plan. Use a visible timer on the projector.
@@ -50,9 +50,9 @@ After completing eDynamic, each student writes a **3-step goal plan for an aviat
 | **Step 2: High school (9th-12th)** | Example: "Take Algebra I, Geometry, Physics, and apply to JROTC" | 2027-2031 |
 | **Step 3: After high school** | Example: "Enroll in Embry-Riddle aviation program" or "Join Air Force pilot training" | 2031-2035 |
 
-Each step must be specific (no "study hard") and time-bound. Students who picked a non-aviation pathway in Week 1 still write the aviation plan as a thought exercise — the skill of breaking a long career into staged goals applies to ANY pathway.
+Each step must be specific (no "study hard") and time-bound. Students who picked a non-aviation pathway in Week 1 still write the aviation plan as a thought exercise. The skill of breaking a long career into staged goals applies to ANY pathway.
 
-> [H&L PLATFORM] Students open H&L Climber Profile and **favorite at least 2 Transportation careers** they explored this week — Pilot, ATC, Aviation Mechanic, Drone Operator, Flight Dispatcher, or Transportation Needs Analyst. The workbook (Ch 16: My Next Steps) treats favoriting as the way the H&L app accumulates Career Plan data. These favorites will appear in the student's Climber Profile and influence H&L's pathway recommendations.
+> [H&L PLATFORM] Students open H&L Climber Profile and **favorite at least 2 Transportation careers** they explored this week: Pilot, ATC, Aviation Mechanic, Drone Operator, Flight Dispatcher, or Transportation Needs Analyst. The workbook (Ch 16: My Next Steps) treats favoriting as the way the H&L app accumulates Career Plan data. These favorites will appear in the student's Climber Profile and influence H&L's pathway recommendations.
 
 > [VERIFY IN Xello] Students with extra time complete the Xello "Jobs and Employers" activity from the 7th-grade task list. Confirm exact Xello task name with district admin.
 

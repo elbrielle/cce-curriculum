@@ -22,7 +22,7 @@ Take 3-4 student responses. The point is to surface the prioritization step real
 
 ## Activity 1: Drone Design Tutorial (10 min)
 
-**Source:** H&L Workbook Ch 2, p. 33 — "Step 3: Plan and Design Your Drone"
+**Source:** H&L Workbook Ch 2, p. 33, "Step 3: Plan and Design Your Drone"
 
 Project the workbook prompt on the screen. Read aloud the design considerations from the workbook (p. 33):
 
@@ -32,7 +32,7 @@ Project the workbook prompt on the screen. Read aloud the design considerations 
 - **How It Will Fly:** Will it hover or fly in a straight line?
 - **Environment:** How will Texas weather (heat, wind) affect your drone?
 
-Quickly model on the board: draw a basic drone shape with 4 propellers, a central body, a camera, and a label. Show students that engineering sketches don't need to be artistic — they need to be **clear and labeled**.
+Quickly model on the board: draw a basic drone shape with 4 propellers, a central body, a camera, and a label. Show students that engineering sketches don't need to be artistic. They need to be **clear and labeled**.
 
 !!! tip "Facilitation Tip"
     Some students will get stuck on "I can't draw." Reassure them: this is engineering, not art class. Stick figures, simple shapes, and clear labels are exactly what real engineers use. The label is more important than the drawing quality.
@@ -41,7 +41,7 @@ Quickly model on the board: draw a basic drone shape with 4 propellers, a centra
 
 ## Activity 2: Sketch the Drone (25 min)
 
-**Source:** H&L Workbook Ch 2, p. 33 — Drone sketch and labeling
+**Source:** H&L Workbook Ch 2, p. 33, Drone sketch and labeling
 
 Each student designs and sketches their drone on paper. The sketch must include AT LEAST 6 labeled parts. Students are required to include:
 
@@ -58,13 +58,13 @@ Each label should include:
 - A 1-sentence description of what it does
 - Which field-note constraint it solves (e.g., "Solves the wind problem from Set 3")
 
-Walk around with a checkpoint clipboard. In 25 minutes across 24 students you cannot check every desk carefully — aim for 10–12 students, prioritizing those who look stuck or are rushing past the label step. For each check:
+Walk around with a checkpoint clipboard. In 25 minutes across 24 students you cannot check every desk carefully, aim for 10–12 students, prioritizing those who look stuck or are rushing past the label step. For each check:
 
 - Are there at least 6 labels?
 - Does each label say what the part does?
 - Is the constraint connection clear?
 
-Students you do not reach today will get a second check during Day 4 peer feedback — partners flag missing labels for you.
+Students you do not reach today will get a second check during Day 4 peer feedback, partners flag missing labels for you.
 
 **DOK 4:** What information from the field notes can you use to defend your claim that this specific design will help the farmer detect pests faster?
 
@@ -72,7 +72,7 @@ Students you do not reach today will get a second check during Day 4 peer feedba
 
 ## Activity 3: Design Rationale Paragraph (8 min)
 
-After the sketch, students write a **3-sentence design rationale** paragraph below or beside their drone. The rationale is NOT a re-description of the labels (the labels already name each part and its job) — it surfaces the trade-off reasoning an engineer does:
+After the sketch, students write a **3-sentence design rationale** paragraph below or beside their drone. The rationale is NOT a re-description of the labels (the labels already name each part and its job): it surfaces the trade-off reasoning an engineer does:
 
 - **Sentence 1:** "My drone is designed to help [specific problem from field notes] because _____."
 - **Sentence 2:** "If I had to cut one feature to save weight or cost, it would be _____, because _____ matters more for pest detection."

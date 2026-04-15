@@ -22,7 +22,7 @@ Take 3-4 responses. Look for "Who had access?" or "Who had a motive?" — these 
 
 ## Activity 1: Missing Painting Setup (10 min)
 
-**Source:** H&L Workbook Ch 13, pp. 217-219 — "Missing Painting" (Career Climb)
+**Source:** H&L Workbook Ch 13, pp. 217-219, "Missing Painting" (Career Climb)
 
 Read the workbook scenario aloud: *"Imagine that you are a detective and a famous painting was stolen from your local art museum last night. The police and investigators need your help to solve this case. Your job is to find and review evidence, analyze witness statements, and figure out who stole the painting."*
 
@@ -30,26 +30,26 @@ Distribute the Missing Painting worksheet (or have students open the H&L workboo
 
 **The 4 Suspects** (workbook p. 217):
 
-- **Alex** — A museum tour guide who worked late last night during the theft
-- **Zara** — An art collector who wanted this painting for her collection but was denied the sale
-- **Taylor** — A security guard who went home early because of an illness
-- **Kai** — A jealous artist who is upset that his artwork was not displayed in the museum
+- **Alex:** A museum tour guide who worked late last night during the theft
+- **Zara:** An art collector who wanted this painting for her collection but was denied the sale
+- **Taylor:** A security guard who went home early because of an illness
+- **Kai:** A jealous artist who is upset that his artwork was not displayed in the museum
 
 **The 5 Pieces of Evidence** (workbook p. 217):
 
 1. At 10:15 PM, security camera caught a person wearing a hat and gloves sneaking into the museum
-2. No evidence of forced entry — back door was unlocked from the inside
+2. No evidence of forced entry, back door was unlocked from the inside
 3. A note was found at the painting site saying "This is not art!"
 4. A trail of red paint led from the back door to the painting display
 5. One suspect was seen carrying a large bag when they left the museum
 
 **The 5 Witness Statements** (workbook p. 218):
 
-- Janitor — saw someone in long coat, hat, and gloves near the back door at 10:20 PM, leaving a trail of red paint
-- Another Tour Guide — Alex always carries a large bag and works late, very passionate about art
-- Security Camera Operator — Taylor clocked out at 9:45 PM, looked sick, left through the back door
-- Art Collector Assistant — Zara was upset about being denied the sale but moved on
-- Local Artist — Kai had a recent painting called "Deep Red Sky" and kept saying "They don't know what real art is"
+- Janitor, saw someone in long coat, hat, and gloves near the back door at 10:20 PM, leaving a trail of red paint
+- Another Tour Guide. Alex always carries a large bag and works late, very passionate about art
+- Security Camera Operator. Taylor clocked out at 9:45 PM, looked sick, left through the back door
+- Art Collector Assistant. Zara was upset about being denied the sale but moved on
+- Local Artist. Kai had a recent painting called "Deep Red Sky" and kept saying "They don't know what real art is"
 
 !!! tip "Facilitation Tip"
     Read each witness statement aloud with the worksheet projected. Pause after each one to ask: "What does this tell us? What might it mean?" Model the analytical thinking detectives use.
@@ -58,7 +58,7 @@ Distribute the Missing Painting worksheet (or have students open the H&L workboo
 
 ## Activity 2: Solve the Case (20 min)
 
-**Source:** H&L Workbook Ch 13, p. 218 — Step 2: Solve the Case
+**Source:** H&L Workbook Ch 13, p. 218, Step 2: Solve the Case
 
 Students work individually (or in pairs for support) to analyze the evidence and witness statements. They use the worksheet space to:
 
@@ -67,7 +67,7 @@ Students work individually (or in pairs for support) to analyze the evidence and
 3. **Cite at least 2 pieces of evidence** that support their conclusion
 4. **Identify the motive** in one sentence
 
-**The intended solution** (from workbook clues): The strongest evidence points to **Kai the artist** — the "This is not art!" note matches Kai's quoted statement "They don't know what real art is," and the trail of red paint connects to Kai's recent painting "Deep Red Sky." However, the workbook is intentionally open-ended; students who build a strong case for another suspect (e.g., Alex with the large bag and late hours) can also succeed.
+**The intended solution** (from workbook clues): The strongest evidence points to **Kai the artist:** the "This is not art!" note matches Kai's quoted statement "They don't know what real art is," and the trail of red paint connects to Kai's recent painting "Deep Red Sky." However, the workbook is intentionally open-ended; students who build a strong case for another suspect (e.g., Alex with the large bag and late hours) can also succeed.
 
 **DOK 4:** What conclusions can you draw about why detectives need BOTH evidence and witness statements? Could you have solved this case with only evidence and no witnesses? Why or why not?
 
@@ -75,7 +75,7 @@ Students work individually (or in pairs for support) to analyze the evidence and
 
 ## Activity 3: Present Your Case (12 min)
 
-**Source:** H&L Workbook Ch 13, p. 219 — Step 3: Present Your Case
+**Source:** H&L Workbook Ch 13, p. 219, Step 3: Present Your Case
 
 Students complete the workbook's case summary in the space provided. The summary must include:
 
@@ -88,7 +88,7 @@ After writing, students pair up with a peer who picked the SAME suspect and comp
 The workbook's "Extra Time" extension: act out the case presentation as if standing in front of a courtroom. Students who want to perform their case can volunteer for a 1-minute presentation to the class.
 
 !!! tip "Facilitation Tip"
-    Tell students upfront: "There is no single right answer. The goal is to build the STRONGEST CASE using the evidence available. Real detectives sometimes get it wrong — what matters is the quality of your reasoning."
+    Tell students upfront: "There is no single right answer. The goal is to build the STRONGEST CASE using the evidence available. Real detectives sometimes get it wrong, what matters is the quality of your reasoning."
 
 ---
 
@@ -100,6 +100,6 @@ The workbook's "Extra Time" extension: act out the case presentation as if stand
 
 ## Differentiation
 
-- **Support:** Provide a "suspect elimination grid" — a 4-column table where students mark Yes/No for "Had access?" and "Had motive?" for each suspect. This scaffolds the reasoning.
+- **Support:** Provide a "suspect elimination grid", a 4-column table where students mark Yes/No for "Had access?" and "Had motive?" for each suspect. This scaffolds the reasoning.
 - **Extension:** Students write an alternate version of the case where the thief is a DIFFERENT suspect. They identify what evidence would have to change to make that alternate version believable.
 - **ELL:** Bilingual case file with key vocabulary translated. Pre-teach: Suspect = Sospechoso, Witness = Testigo, Evidence = Evidencia, Motive = Motivo, Detective = Detective, Theft = Robo, Museum = Museo. Pair ESL students with bilingual peers; the visual structure of the case file is accessible for all language levels.

@@ -16,13 +16,13 @@
 
 **WARM-UP: We have spent 3 weeks in Agriculture. Has your view of "ag careers" changed since Week 1? In one sentence, how?**
 
-Take 4 student responses. Some students will say their view changed (they now see drones and biology, not just farming); some will say it didn't change. Both are valid — the goal of CCE is informed clarity.
+Take 4 student responses. Some students will say their view changed (they now see drones and biology, not just farming); some will say it didn't change. Both are valid, the goal of CCE is informed clarity.
 
 ---
 
 ## Activity 1: Xello Interests Lesson (20 min)
 
-**Source:** Xello 7th-Grade Lesson — "Interests Lesson"
+**Source:** Xello 7th-Grade Lesson, "Interests Lesson"
 
 Open Xello on the projector. Walk students through finding the Interests lesson:
 
@@ -50,13 +50,13 @@ Connection prompt: Did Xello recommend any environmental or agricultural careers
 
 ## Activity 2: eDynamic Unit 7.1: Progressive and Adaptable (15 min)
 
-**Source:** eDynamic Learning — Unit 7.1: Progressive and Adaptable (covers Agriculture, Energy, and Health Science clusters)
+**Source:** eDynamic Learning. Unit 7.1: Progressive and Adaptable (covers Agriculture, Energy, and Health Science clusters)
 
 Direct students to log into eDynamic Learning and navigate to **Unit 7.1: Progressive and Adaptable**. This unit reinforces the Agriculture cluster content from this six weeks and connects it to two other clusters (Energy and Health Science) that students explored earlier in the year.
 
 > [VERIFY IN eDynamic] Confirm with your district that Unit 7.1 is enabled and accessible to 7th-grade students. Verify the unit covers Agriculture content as expected. **If the unit is unavailable,** use this fallback: students move Activity 3 (3-Week Ag Reflection) forward to this slot and then research ONE real ag-tech company (e.g., Hylio, Skydio, DJI Agriculture) using BLS Environmental Engineers, BLS Agricultural Engineers, or climatekids.nasa.gov. Each student writes 2 sentences: what the company does + what careers it employs. Same 15-min budget, no scramble needed.
 
-Students work through Unit 7.1 at their own pace for 15 minutes. The goal is to make meaningful progress, not necessarily finish — Unit 7.1 may continue into Week 4 or beyond.
+Students work through Unit 7.1 at their own pace for 15 minutes. The goal is to make meaningful progress, not necessarily finish. Unit 7.1 may continue into Week 4 or beyond.
 
 !!! note "Differentiation"
     Some students may finish Unit 7.1 quickly; others may need more time. The eDynamic platform tracks individual progress, so this is fine. The goal is exposure to the content, not race-to-finish.
@@ -71,7 +71,7 @@ After Xello and eDynamic, students take 5 minutes to write a 3-sentence reflecti
 - **Sentence 2:** "The Ag activity I enjoyed most was _____ because _____."
 - **Sentence 3:** "If I were to pursue an Ag pathway, I would most likely choose _____ because _____."
 
-These reflections are short but valuable — they capture student thinking at the cluster transition before moving into Hospitality next week.
+These reflections are short but valuable, they capture student thinking at the cluster transition before moving into Hospitality next week.
 
 **DOK 3:** Based on the past 3 weeks of activities (Vet Science, Plant Science, Sustainable Engineering), which Agriculture pathway has the strongest career future in Texas? Defend your answer with evidence from this week's drone activity AND the BLS data from earlier weeks.
 
@@ -87,4 +87,4 @@ These reflections are short but valuable — they capture student thinking at th
 
 - **Support:** Sentence stems for the 3-week reflection. Pre-fill the second sentence template: "The activity I enjoyed most was the _____ activity because _____."
 - **Extension:** Connect your favorite Ag career to a real Irving ISD pathway (Nimitz Vet Science, Nimitz Plant Science, Nimitz Sustainable Engineering). Which pathway would prepare you for it best?
-- **ELL:** Pre-teach: Interest = Interés, Adaptable = Adaptable, Reflection = Reflexión. Xello and eDynamic both support Spanish — show language toggles if needed.
+- **ELL:** Pre-teach: Interest = Interés, Adaptable = Adaptable, Reflection = Reflexión. Xello and eDynamic both support Spanish, show language toggles if needed.

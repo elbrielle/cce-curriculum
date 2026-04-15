@@ -14,17 +14,17 @@
 
 ## Warm-Up (3 min)
 
-**WARM-UP: In ONE sentence — what is your career goal? In ONE more sentence — what is your first step toward it?**
+**WARM-UP: In ONE sentence, what is your career goal? In ONE more sentence, what is your first step toward it?**
 
-Take 4-5 student responses. This forces clarity. If a student can't answer in 2 sentences, they need the work time today. The capstone is a presentation of THIS — make sure they have clear answers.
+Take 4-5 student responses. This forces clarity. If a student can't answer in 2 sentences, they need the work time today. The capstone is a presentation of THIS. Make sure they have clear answers.
 
 ---
 
 ## Activity 1: Written Career Plan (25 min)
 
-**Source:** H&L Workbook Ch 16, p. 267 — "My Career and Course Plan" + scope and sequence d(8)(A-C)
+**Source:** H&L Workbook Ch 16, p. 267, "My Career and Course Plan" + scope and sequence d(8)(A-C)
 
-Distribute the printed Career Plan template (or share a Google Doc version). Students write the FINAL version of their Individual Career Plan. The template includes 7 sections — every section maps to a TEKS standard.
+Distribute the printed Career Plan template (or share a Google Doc version). Students write the FINAL version of their Individual Career Plan. The template includes 7 sections, every section maps to a TEKS standard.
 
 **Section 1: Career Goal (d(8)(A))**
 
@@ -86,7 +86,7 @@ Distribute the Capstone Presentation Rubric. Walk through the structure for the 
 
 1. **Introduction (45 sec)**
     - Career goal in one sentence
-    - Why this career — personal connection
+    - Why this career, personal connection
 2. **The Path (90 sec)**
     - Irving ISD CTE pathway and high school
     - 4-year course plan highlights
@@ -94,14 +94,14 @@ Distribute the Capstone Presentation Rubric. Walk through the structure for the 
 3. **The Year (90 sec)**
     - How your career interests evolved across the 6 six-weeks blocks
     - One specific moment or activity that changed your thinking
-    - Iceberg connection — what work did this take that no one sees?
+    - Iceberg connection, what work did this take that no one sees?
 4. **The Plan (45 sec)**
     - Your three action steps (30/90/365 days)
 5. **The Closing (30 sec)**
     - One sentence about why you are excited (or nervous, or both) about this career
     - Thank the audience
 
-Students draft the outline on the Capstone Presentation Outline template. Bullet points only — no scripts. Memorizing kills authenticity.
+Students draft the outline on the Capstone Presentation Outline template. Bullet points only, no scripts. Memorizing kills authenticity.
 
 !!! tip "Facilitation Tip"
     Project a 5-minute timer for any student who wants to do a 30-second test run during the last 5 minutes. Hearing yourself out loud once is better than reading silently 10 times.

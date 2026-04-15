@@ -22,7 +22,7 @@ Take 2-3 responses. Most students will name a teacher or coach. Bridge: good fee
 
 ## Activity 1: Feedback Sandwich Demo (8 min)
 
-**Source:** H&L Powerskills Workbook, p. 22 — "Giving and Receiving Feedback"
+**Source:** H&L Powerskills Workbook, p. 22, "Giving and Receiving Feedback"
 
 Project the workbook's feedback sandwich on the board:
 
@@ -32,7 +32,7 @@ Project the workbook's feedback sandwich on the board:
 
 Demonstrate live with a student volunteer. Ask the volunteer to share their favorite hobby in 30 seconds. Then model the sandwich:
 
-- *"You spoke with great energy and you really love your topic — that came through."* (positive)
+- *"You spoke with great energy and you really love your topic, that came through."* (positive)
 - *"One thing that would make it even clearer: tell us how long you've been doing it. Specific dates help the listener picture your story."* (improvement, specific)
 - *"You have a natural ability to make people interested. Keep doing what you're doing."* (positive)
 
@@ -42,21 +42,21 @@ Then explain the workbook's distinction: **verbal feedback** is spoken, **writte
 
 ## Activity 2: Step 1 — Share It! (10 min)
 
-**Source:** H&L Powerskills Workbook, p. 22 — Step 1: Share It!
+**Source:** H&L Powerskills Workbook, p. 22, Step 1: Share It!
 
 Pair students up. Each student picks a favorite food but does NOT name it. They describe the food using only details: taste, texture, smell, look. The partner tries to guess.
 
 After the guessing, the partner gives **verbal feedback** using the feedback sandwich. The first student then takes a turn describing their favorite food.
 
-Tracker note: students should follow the workbook structure exactly — both partners get a turn at giving AND receiving.
+Tracker note: students should follow the workbook structure exactly, both partners get a turn at giving AND receiving.
 
 ---
 
 ## Activity 3: Step 2 — Write It! (12 min)
 
-**Source:** H&L Powerskills Workbook, p. 23 — Step 2: Write It!
+**Source:** H&L Powerskills Workbook, p. 23, Step 2: Write It!
 
-Each student writes a short paragraph proposing a new school holiday. The paragraph must be persuasive — why should students and staff get a day off? They have 5 minutes to write.
+Each student writes a short paragraph proposing a new school holiday. The paragraph must be persuasive, why should students and staff get a day off? They have 5 minutes to write.
 
 Then they read their paragraph out loud to their partner. The partner provides **written feedback** in the workbook space (or on the worksheet). The written feedback must use the sandwich structure.
 
@@ -66,7 +66,7 @@ After both partners exchange feedback, each student reads the written feedback t
 
 ## Activity 4: Healthcare Role-Play (12 min)
 
-Signal the shift before starting. The first two activities (favorite food, school holiday paragraph) used the feedback sandwich in a low-stakes register on purpose — students needed to practice the structure with nothing riding on it. Now the same tool moves into a register where the stakes are real. Give students 30 seconds to change mode: "We practiced with food. Now we're practicing with people's health. The sandwich is the same; the weight is different."
+Signal the shift before starting. The first two activities (favorite food, school holiday paragraph) used the feedback sandwich in a low-stakes register on purpose, students needed to practice the structure with nothing riding on it. Now the same tool moves into a register where the stakes are real. Give students 30 seconds to change mode: "We practiced with food. Now we're practicing with people's health. The sandwich is the same; the weight is different."
 
 Pivot to the Health Science context. Distribute healthcare role-play cards:
 

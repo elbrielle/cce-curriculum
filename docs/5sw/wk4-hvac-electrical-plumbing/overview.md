@@ -20,21 +20,21 @@ Students explore HVAC, electrical, plumbing, and welding careers through Hats & 
 ## Materials Needed
 
 - Chromebooks with internet access (1 per student)
-- Hats & Ladders student accounts + H&L Workbook (Ch 3: Architecture & Construction, pp. 37-54 — confirms Electrical, HVAC, Plumbing, and Masonry as pathways)
-- BLS — Electricians: [bls.gov/ooh/construction-and-extraction/electricians.htm](https://www.bls.gov/ooh/construction-and-extraction/electricians.htm)
-- BLS — Plumbers: [bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm](https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm)
-- BLS — HVAC Mechanics: [bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm](https://www.bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm)
-- BLS — Welders: [bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm](https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm)
+- Hats & Ladders student accounts + H&L Workbook (Ch 3: Architecture & Construction, pp. 37-54, confirms Electrical, HVAC, Plumbing, and Masonry as pathways)
+- BLS, Electricians: [bls.gov/ooh/construction-and-extraction/electricians.htm](https://www.bls.gov/ooh/construction-and-extraction/electricians.htm)
+- BLS, Plumbers: [bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm](https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm)
+- BLS, HVAC Mechanics: [bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm](https://www.bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm)
+- BLS, Welders: [bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm](https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm)
 - Printed Skilled Trades Comparison Matrix (1 per student)
 - Printed Labor Market Analysis worksheet
 
 ## Career Connection
 
-Electricians, plumbers, HVAC technicians, and welders are among the most in-demand workers in America. DFW's explosive growth means new homes, schools, hospitals, and commercial buildings need these workers for every project. At the same time, experienced tradespeople are retiring faster than new workers are entering the field — a classic "skills gap."
+Electricians, plumbers, HVAC technicians, and welders are among the most in-demand workers in America. DFW's explosive growth means new homes, schools, hospitals, and commercial buildings need these workers for every project. At the same time, experienced tradespeople are retiring faster than new workers are entering the field, a classic "skills gap."
 
-**Welding is already available at MacArthur** through the School of Architecture, Construction and Civil Engineering (ACE) — students can earn the Structural Steel & Metal Welding Certification in high school. HVAC, Electrical, and Plumbing pathways are not currently offered at Irving ISD campuses and are covered this week as career exploration topics through BLS, CareerOneStop, and local apprenticeship research.
+**Welding is already available at MacArthur** through the School of Architecture, Construction and Civil Engineering (ACE): students can earn the Structural Steel & Metal Welding Certification in high school. HVAC, Electrical, and Plumbing pathways are not currently offered at Irving ISD campuses and are covered this week as career exploration topics through BLS, CareerOneStop, and local apprenticeship research.
 
-**Irving ISD Pathway:** **Welding** at **MacArthur High School** (School of Architecture, Construction and Civil Engineering — ACE) leads to the Structural Steel & Metal Welding Certification. HVAC, Electrical, and Plumbing have no current Irving ISD pathway home — students interested in these trades pursue them post-high-school through apprenticeship programs or technical schools.
+**Irving ISD Pathway:** **Welding** at **MacArthur High School** (School of Architecture, Construction and Civil Engineering — ACE) leads to the Structural Steel & Metal Welding Certification. HVAC, Electrical, and Plumbing have no current Irving ISD pathway home. Students interested in these trades pursue them post-high-school through apprenticeship programs or technical schools.
 
 ## Vocabulary
 
@@ -46,14 +46,14 @@ Electricians, plumbers, HVAC technicians, and welders are among the most in-dema
 
 ## Bridge to Theory (Hats & Ladders)
 
-The H&L workbook Ch 3 confirms Electrical, HVAC and Sheet Metal, Masonry, and Plumbing and Pipefitting as pathways in the A&C cluster (p. 38). The workbook's pathway descriptions are brief — this week extends that content with deep career data from BLS, specific DFW labor market analysis, and Irving ISD pathway mapping.
+The H&L workbook Ch 3 confirms Electrical, HVAC and Sheet Metal, Masonry, and Plumbing and Pipefitting as pathways in the A&C cluster (p. 38). The workbook's pathway descriptions are brief, this week extends that content with deep career data from BLS, specific DFW labor market analysis, and Irving ISD pathway mapping.
 
 Welding appears in the Manufacturing cluster (Ch 14) in H&L because welders work across both industries. Students reference Ch 14 briefly for Welder career data, then use Ch 3's Hat Research template from Week 1 as a structural reference for recording salary and demand data.
 
 ## IISD Instructional Strategies
 
 - **Jigsaw:** Each team is assigned one trade (Electrician, Plumber, HVAC Tech, Welder). Teams become experts and present to the class.
-- **Sentence Stems:** For labor market analysis — *"According to BLS data, the job outlook for _____ is projected to grow _____% over the next 10 years. In DFW, the average salary is $_____. This occupation is classified as high-demand because _____."*
+- **Sentence Stems:** For labor market analysis, *"According to BLS data, the job outlook for _____ is projected to grow _____% over the next 10 years. In DFW, the average salary is $_____. This occupation is classified as high-demand because _____."*
 - **Think-Pair-Share:** Compare earning potential of two trades and discuss personal fit.
 
 ## Week at a Glance
@@ -68,10 +68,10 @@ Welding appears in the Manufacturing cluster (Ch 14) in H&L because welders work
 
 ## Formative Assessment
 
-- H&L trades exploration and matrix progress (Day 1) — d(2)(A)
-- Jigsaw research depth and accuracy (Day 2) — d(5)(A)
-- Labor market analysis with cited evidence (Day 3) — d(5)(A), d(5)(B)
-- Skilled Trades Matrix completion (Day 4) — d(2)(A)
+- H&L trades exploration and matrix progress (Day 1): d(2)(A)
+- Jigsaw research depth and accuracy (Day 2): d(5)(A)
+- Labor market analysis with cited evidence (Day 3): d(5)(A), d(5)(B)
+- Skilled Trades Matrix completion (Day 4): d(2)(A)
 
 ## Summative Assessment
 

@@ -22,7 +22,7 @@ Take 3-4 student responses. The class should land on safety reasons (sanitation,
 
 ## Activity 1: TDLR Website Navigation Demo (10 min)
 
-**Source:** Texas Department of Licensing and Regulation — [tdlr.texas.gov](https://www.tdlr.texas.gov)
+**Source:** Texas Department of Licensing and Regulation, [tdlr.texas.gov](https://www.tdlr.texas.gov)
 
 Project the TDLR home page on the screen. Walk students through finding the Cosmetology page step-by-step:
 
@@ -34,7 +34,7 @@ Project the TDLR home page on the screen. Walk students through finding the Cosm
 Demonstrate one of these sections live on the screen. Then have students open the TDLR site on their own Chromebooks.
 
 !!! warning "Common Issue"
-    The TDLR website can be hard to navigate for middle schoolers. The breadcrumbs change frequently. If students get lost, direct them to use the search bar on tdlr.texas.gov and search "Cosmetology Operator" — the top result should be the right page.
+    The TDLR website can be hard to navigate for middle schoolers. The breadcrumbs change frequently. If students get lost, direct them to use the search bar on tdlr.texas.gov and search "Cosmetology Operator", the top result should be the right page.
 
 ---
 
@@ -55,7 +55,7 @@ Distribute the TDLR Licensing Pathway worksheet. Students fill in the 3-column c
 | Pros | | | |
 | Cons | | | |
 
-For Route 1, students use the Irving ISD pathway info (Ratteree offers cosmetology hours in high school — students can begin earning hours toward their license while still in high school).
+For Route 1, students use the Irving ISD pathway info (Ratteree offers cosmetology hours in high school. Students can begin earning hours toward their license while still in high school).
 
 For Route 2, students use TDLR data on standard cosmetology school requirements (typically 1,000 hours in Texas).
 

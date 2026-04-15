@@ -27,8 +27,8 @@ Students explore the Transportation, Distribution & Logistics cluster through Ha
 - Printed Military vs. Civilian Pathways comparison chart
 - Printed Transportation Survey template (10 questions: 7 multiple-choice, 3 short-answer)
 - FAA Careers: [faa.gov/jobs](https://www.faa.gov/jobs)
-- BLS — Airline Pilots: [bls.gov/ooh/transportation-and-material-moving/airline-and-commercial-pilots.htm](https://www.bls.gov/ooh/transportation-and-material-moving/airline-and-commercial-pilots.htm)
-- BLS — Air Traffic Controllers: [bls.gov/ooh/transportation-and-material-moving/air-traffic-controllers.htm](https://www.bls.gov/ooh/transportation-and-material-moving/air-traffic-controllers.htm)
+- BLS, Airline Pilots: [bls.gov/ooh/transportation-and-material-moving/airline-and-commercial-pilots.htm](https://www.bls.gov/ooh/transportation-and-material-moving/airline-and-commercial-pilots.htm)
+- BLS, Air Traffic Controllers: [bls.gov/ooh/transportation-and-material-moving/air-traffic-controllers.htm](https://www.bls.gov/ooh/transportation-and-material-moving/air-traffic-controllers.htm)
 - eDynamic Learning Unit 2.2: Setting Goals
 - Xello student accounts (Jobs and Employers activity)
 - Projector for cluster videos and demonstrations
@@ -52,9 +52,9 @@ Aviation careers combine math, physics, communication, and split-second decision
 
 H&L Chapter 15: Transportation, Distribution & Logistics (pp. 248-262) is the source for this week. The chapter lists pathways including Aviation Pilots, Aviation Maintenance, Diesel & Heavy Equipment, Automotive & Collision Repair, Distribution/Logistics/Warehousing, and Maritime. Three named workbook activities are used this week:
 
-- **"Transportation Troubles"** (Ch 15, pp. 249-251) — Career Climb activity. Students play a Transportation Needs Analyst and design a 10-question community transportation survey (7 multiple-choice, 3 short-answer) plus an incentive to get responses. Used Day 1.
-- **Powerskill: Creativity** (Ch 15, p. 254) — "8 ideas in 8 minutes" brainstorm on transforming transportation. Used as a Day 4 warm-up.
-- **Hat Research** (Ch 15, p. 256) — Students use the Hat Finder to record one Transportation Hat: name, what interests you, job description, education, salary, tools/skills. Used Day 1-2 for aviation Hats specifically.
+- **"Transportation Troubles"** (Ch 15, pp. 249-251): Career Climb activity. Students play a Transportation Needs Analyst and design a 10-question community transportation survey (7 multiple-choice, 3 short-answer) plus an incentive to get responses. Used Day 1.
+- **Powerskill: Creativity** (Ch 15, p. 254): "8 ideas in 8 minutes" brainstorm on transforming transportation. Used as a Day 4 warm-up.
+- **Hat Research** (Ch 15, p. 256): Students use the Hat Finder to record one Transportation Hat: name, what interests you, job description, education, salary, tools/skills. Used Day 1-2 for aviation Hats specifically.
 
 ## IISD Instructional Strategies
 
@@ -75,11 +75,11 @@ H&L Chapter 15: Transportation, Distribution & Logistics (pp. 248-262) is the so
 
 ## Formative Assessment
 
-- "Transportation Troubles" survey quality (Day 1) — d(1)(B), d(1)(C)
-- Hat Research template completeness (Day 2) — d(1)(C)
-- Military vs. Civilian comparison chart accuracy (Day 2) — d(3)(G)
-- LEGO airport spatial reasoning checklist (Day 3) — d(1)(C)
-- ATC simulation communication checklist (Day 4) — d(4)(A)
+- "Transportation Troubles" survey quality (Day 1): d(1)(B), d(1)(C)
+- Hat Research template completeness (Day 2): d(1)(C)
+- Military vs. Civilian comparison chart accuracy (Day 2): d(3)(G)
+- LEGO airport spatial reasoning checklist (Day 3): d(1)(C)
+- ATC simulation communication checklist (Day 4): d(4)(A)
 
 ## Summative Assessment
 
@@ -92,7 +92,7 @@ H&L Chapter 15: Transportation, Distribution & Logistics (pp. 248-262) is the so
 - Simplified ATC scenario cards (Tier 1: 2 planes; Tier 4: 6 planes plus weather and emergencies)
 - Pre-printed Military vs. Civilian comparison chart with the categories filled in (students only fill in the data)
 - Sentence frame for the survey: "How often do you _____?" and "Do you have access to _____?"
-- Reduced Hat Research — choose 1 aviation Hat instead of 2
+- Reduced Hat Research, choose 1 aviation Hat instead of 2
 
 ### Extensions
 - Research the specific Air Force or Navy pilot training pipeline; build a timeline from enlistment to pilot certification
@@ -101,6 +101,6 @@ H&L Chapter 15: Transportation, Distribution & Logistics (pp. 248-262) is the so
 
 ### ELL Language Support
 - Pre-teach: Air Traffic Controller = Controlador de tráfico aéreo, Pilot = Piloto, Mechanic = Mecánico, Military = Militar, Civilian = Civil, Aviation = Aviación
-- ATC simulation uses verbal commands that are valuable for academic English practice — provide a bilingual command card (Cleared for takeoff = Despeje para despegar; Hold position = Mantenga posición; Taxi to gate = Taxi a la puerta)
+- ATC simulation uses verbal commands that are valuable for academic English practice, provide a bilingual command card (Cleared for takeoff = Despeje para despegar; Hold position = Mantenga posición; Taxi to gate = Taxi a la puerta)
 - LEGO building is hands-on and visually accessible across language levels
 - Pair ESL students with bilingual peers during team builds

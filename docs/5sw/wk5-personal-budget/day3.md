@@ -14,9 +14,9 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Do you think it costs more to live in Dallas, New York City, or Los Angeles? Make a prediction — no Googling. Then estimate: How much more expensive do you think the most expensive city is?**
+**WARM-UP: Do you think it costs more to live in Dallas, New York City, or Los Angeles? Make a prediction, no Googling. Then estimate: How much more expensive do you think the most expensive city is?**
 
-Collect 3-4 predictions. Most students intuitively pick New York or LA. Bridge: today we will use real data to find out exactly how different the costs are — and we will see that higher salaries in expensive cities do not always mean more money in your pocket.
+Collect 3-4 predictions. Most students intuitively pick New York or LA. Bridge: today we will use real data to find out exactly how different the costs are, and we will see that higher salaries in expensive cities do not always mean more money in your pocket.
 
 ---
 
@@ -31,9 +31,9 @@ Project the [CareerOneStop Cost of Living Comparison](https://www.careeronestop.
 
 The tool returns a comparison showing how much more or less the same career earns, and how much more or less it costs to live, across the 3 cities. Walk students through interpreting the output:
 
-- **Salary difference** — New York Electrician may earn $15K more than Dallas
-- **Housing difference** — New York rent may be 2x Dallas rent
-- **Overall index** — The cost of living index shows the percentage difference (Dallas = 100, New York ≈ 150+)
+- **Salary difference:** New York Electrician may earn $15K more than Dallas
+- **Housing difference:** New York rent may be 2x Dallas rent
+- **Overall index:** The cost of living index shows the percentage difference (Dallas = 100, New York ≈ 150+)
 
 **Key insight to model aloud:** A $15K salary bump in New York sounds great until you realize housing costs $20K more. You actually take a pay cut in real terms. This is why young workers are moving TO Dallas from expensive coastal cities.
 
@@ -44,8 +44,8 @@ The tool returns a comparison showing how much more or less the same career earn
 Students run the same analysis for their own chosen career from Day 2. They compare:
 
 - **City 1 (Home):** Dallas, TX (or Irving, TX)
-- **City 2:** A high-cost city — pick one of New York NY, San Francisco CA, Los Angeles CA, Boston MA, Seattle WA
-- **City 3:** A low-cost city — pick one of Lubbock TX, Tulsa OK, Kansas City MO, Pittsburgh PA, Memphis TN
+- **City 2:** A high-cost city, pick one of New York NY, San Francisco CA, Los Angeles CA, Boston MA, Seattle WA
+- **City 3:** A low-cost city, pick one of Lubbock TX, Tulsa OK, Kansas City MO, Pittsburgh PA, Memphis TN
 
 For each city, students record on the worksheet:
 
@@ -59,7 +59,7 @@ For each city, students record on the worksheet:
 | Total estimated monthly expenses | $ | $ | $ |
 | Monthly leftover (net − expenses) | $ | $ | $ |
 
-Students then answer: **Which city leaves you with the most money at the end of the month?** Most students will find that Dallas or the low-cost city wins — the high-cost city often pays more but costs MORE more.
+Students then answer: **Which city leaves you with the most money at the end of the month?** Most students will find that Dallas or the low-cost city wins, the high-cost city often pays more but costs MORE more.
 
 !!! tip "Facilitation Tip"
     Circulate and check that students are using the CareerOneStop tool correctly. Some will Google "rent in New York" and grab the first number, which may be Manhattan luxury rent. Push them back to the CareerOneStop tool which averages across the whole metro area.

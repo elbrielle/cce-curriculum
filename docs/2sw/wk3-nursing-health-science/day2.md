@@ -28,8 +28,8 @@ Students return to the Nursing Career Ladder worksheet from Day 1. They complete
 
 The RN row has a complication: there are TWO entry paths to RN. Walk students through both options on the projector:
 
-- **ADN Path** — Associate Degree in Nursing, 2 years at a community college (Dallas College, Tarrant County College)
-- **BSN Path** — Bachelor of Science in Nursing, 4 years at a university (UT Arlington, Texas Woman's University)
+- **ADN Path:** Associate Degree in Nursing, 2 years at a community college (Dallas College, Tarrant County College)
+- **BSN Path:** Bachelor of Science in Nursing, 4 years at a university (UT Arlington, Texas Woman's University)
 
 Both paths lead to the same RN license (the NCLEX exam). The BSN often pays more long-term and is required for some hospital systems. Students should record BOTH paths in the Education column.
 
@@ -67,7 +67,7 @@ Students write a 2-sentence answer below the worksheet. Strong answers will:
 
 - Cite specific DFW salaries (CNA ~$32K, NP ~$120K)
 - Acknowledge that the answer depends on the student's life situation (family obligations, financial resources)
-- Identify the "biggest jump" — typically LVN → RN, where ~1 year of additional education yields ~$30K salary increase
+- Identify the "biggest jump", typically LVN → RN, where ~1 year of additional education yields ~$30K salary increase
 
 After 10 minutes, run a quick whole-class share. Take 3-4 student answers and highlight the diversity of reasoning.
 

@@ -46,22 +46,22 @@ Every career starts with self-awareness. Before students can explore specific cl
 - **Pathway:** A specific sequence of courses and experiences within a career cluster (e.g., Culinary Arts is a pathway within Hospitality and Tourism).
 - **Hat:** Hats & Ladders' name for an individual job title (e.g., Veterinarian, Welder, Software Developer).
 - **Climber Profile:** A personalized snapshot of a student's career interests, experiences, and goals in H&L. It evolves as students complete activities and assessments.
-- **Core Personality Type:** H&L's six personality categories (Doer, Analyzer, Creator, Helper, Persuader, Organizer) — the RIASEC model in student-friendly language.
-- **Work Values:** The qualities that are most important to a person in their career — Achievement, Independence, Recognition, Relationships, Support, Working Conditions.
-- **Building Block:** An experience, interest, or skill a student already has — sports, hobbies, chores, clubs, family responsibilities — that connects to future careers.
+- **Core Personality Type:** H&L's six personality categories (Doer, Analyzer, Creator, Helper, Persuader, Organizer). These are the RIASEC model in student-friendly language.
+- **Work Values:** The qualities that are most important to a person in their career (Achievement, Independence, Recognition, Relationships, Support, Working Conditions).
+- **Building Block:** An experience, interest, or skill a student already has (sports, hobbies, chores, clubs, family responsibilities) that connects to future careers.
 - **Powerskill:** Hats & Ladders' name for soft skills (communication, teamwork, problem-solving, adaptability, leadership, time management, creativity, work ethic, empathy, confidence).
 
 ## Bridge to Theory (Hats & Ladders)
 
 The H&L workbook (Ch 1: My Career Journey, pp. 1-15) is the foundation chapter for the entire workbook. It includes:
 
-- **Exploring the World of Work** (p. 2) — A classroom scavenger hunt where students list items in the room and the careers that helped create them.
-- **Meet the Career Clusters** (p. 4) — Students rate their interest in 12 career fields using emoji ratings, then learn how clusters branch into pathways and Hats.
-- **Introduction to Powerskills** (p. 7) — A chart of 10 Powerskills (Communication, Teamwork, Problem-Solving, Adaptability, Leadership, Time Management, Creativity, Work Ethic, Empathy, Confidence) with a Making Connections pair activity.
-- **Powerskill: Design Thinking** (p. 9) — The "worst idea" smartphone brainstorming activity that builds creative thinking.
-- **My Building Blocks** (p. 11) — Students brainstorm experiences from their lives and connect them to future careers.
-- **Learning My Core Personality Type** (p. 12) — Students learn the six core types and use the H&L app's "Discover My Core" feature.
-- **Discovering My Work Values** (p. 14) — Students learn six common work values and use the app's "Explore My Work Values" feature.
+- **Exploring the World of Work** (p. 2): A classroom scavenger hunt where students list items in the room and the careers that helped create them.
+- **Meet the Career Clusters** (p. 4): Students rate their interest in 12 career fields using emoji ratings, then learn how clusters branch into pathways and Hats.
+- **Introduction to Powerskills** (p. 7): A chart of 10 Powerskills (Communication, Teamwork, Problem-Solving, Adaptability, Leadership, Time Management, Creativity, Work Ethic, Empathy, Confidence) with a Making Connections pair activity.
+- **Powerskill: Design Thinking** (p. 9): The "worst idea" smartphone brainstorming activity that builds creative thinking.
+- **My Building Blocks** (p. 11): Students brainstorm experiences from their lives and connect them to future careers.
+- **Learning My Core Personality Type** (p. 12): Students learn the six core types and use the H&L app's "Discover My Core" feature.
+- **Discovering My Work Values** (p. 14): Students learn six common work values and use the app's "Explore My Work Values" feature.
 
 The workbook explicitly directs students to the H&L app at multiple points (Building Blocks, Discover My Core, Explore My Work Values). Students use BOTH the workbook (to read, reflect, record results) AND the app (to take the assessments, build the Climber Profile).
 
@@ -122,7 +122,7 @@ The workbook explicitly directs students to the H&L app at multiple points (Buil
 
 - Students explore 2-3 Hat profiles within their top recommended cluster and rate the perks/quirks/job gear.
 - Challenge: Find a career that bridges two of your top RIASEC types (e.g., Artistic + Social = Art Teacher; Doer + Helper = EMT).
-- Compare H&L's RIASEC results to the CareerOneStop Interest Assessment results — do they agree?
+- Compare H&L's RIASEC results to the CareerOneStop Interest Assessment results. Do they agree?
 
 ### ELL Language Support
 

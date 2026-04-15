@@ -16,23 +16,23 @@
 
 **WARM-UP: Every app on your phone was built by someone. Pick ONE app you use every day and guess: How many people do you think it took to build it from scratch?**
 
-Quick share. Most students will guess "5 to 20." The actual number for a major app is hundreds — designers, developers, testers, security engineers, project managers. Bridge: "Today we meet the entire IT cluster — every one of those roles is here."
+Quick share. Most students will guess "5 to 20." The actual number for a major app is hundreds: designers, developers, testers, security engineers, project managers. Bridge: "Today we meet the entire IT cluster. Every one of those roles is here."
 
 ---
 
 ## Activity 1: Read H&L Ch 12 — Exploring the World of Information Technology (15 min)
 
-**Source:** H&L Workbook Ch 12, p. 192 — "Exploring the World of Information Technology"
+**Source:** H&L Workbook Ch 12, p. 192, "Exploring the World of Information Technology"
 
 Open the workbook to page 192. Read the chapter opener together: IT creates and powers the digital world. People in IT design websites, develop apps, protect data from cyber threats, and keep businesses running with reliable technology. The workbook lists examples: software developers, cybersecurity analysts, network engineers, data scientists, IT support specialists.
 
 Walk through the **five confirmed IT pathways** from the workbook (Ch 12, p. 192):
 
-1. **Information Technology Support and Services** — Help people and businesses troubleshoot computer, software, and network issues.
-2. **Web Development** — Create and maintain websites, ensuring they look good, function well, and are easy to use.
-3. **Networking Systems** — Design, set up, and maintain the systems that connect computers and devices.
-4. **Cybersecurity** — Protect computers, networks, and data from hackers, viruses, and cyber threats.
-5. **Programming and Software Development** — Write code to create apps, games, and computer programs.
+1. **Information Technology Support and Services:** Help people and businesses troubleshoot computer, software, and network issues.
+2. **Web Development:** Create and maintain websites, ensuring they look good, function well, and are easy to use.
+3. **Networking Systems:** Design, set up, and maintain the systems that connect computers and devices.
+4. **Cybersecurity:** Protect computers, networks, and data from hackers, viruses, and cyber threats.
+5. **Programming and Software Development:** Write code to create apps, games, and computer programs.
 
 Tell students: "Over the next 4 weeks, we are going to touch every one of these pathways. This week we focus on Programming. Wk3 = Networking. Wk4 = IT Support. Wk5 = Cybersecurity."
 
@@ -47,7 +47,7 @@ After 5 minutes, call on 3-4 pairs. Listen for: school assignments, communicatio
 
 ## Activity 2: H&L IT Cluster App Exploration with Stop and Jot (20 min)
 
-**Source:** H&L Workbook Ch 12, p. 192 — "Research and Explore" (directs students to the H&L app)
+**Source:** H&L Workbook Ch 12, p. 192, "Research and Explore" (directs students to the H&L app)
 
 > [H&L PLATFORM] The workbook (Ch 12, p. 192) directs students: "Go to the Hats & Ladders app and click on the 'Information Technology Cluster.' Spend some time exploring the cluster and pathways." Students navigate to the IT cluster, watch the cluster tour video, and use the Hat Finder to browse 2-3 Hats per pathway. They check education requirements, DFW salary, and demand level for each Hat.
 

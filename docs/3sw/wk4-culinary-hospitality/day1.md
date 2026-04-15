@@ -14,7 +14,7 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: What is the best meal you've ever had at a restaurant? What made it special — the food itself, the way it was served, the atmosphere, or something else?**
+**WARM-UP: What is the best meal you've ever had at a restaurant? What made it special, the food itself, the way it was served, the atmosphere, or something else?**
 
 Take 3-4 student responses. Use this to bridge: hospitality careers exist because people care about the EXPERIENCE around food, not just the food. Today they get a taste (literally) of being a chef.
 
@@ -22,7 +22,7 @@ Take 3-4 student responses. Use this to bridge: hospitality careers exist becaus
 
 ## Activity 1: Hospitality & Tourism Cluster Tour (10 min)
 
-**Source:** H&L Workbook Ch 10: Hospitality and Tourism, pp. 158-159 — "Exploring the World of Hospitality and Tourism"
+**Source:** H&L Workbook Ch 10: Hospitality and Tourism, pp. 158-159, "Exploring the World of Hospitality and Tourism"
 
 Direct students to open Hats & Ladders and navigate to the Hospitality & Tourism cluster page. The workbook (Ch 10, p. 159) lists three pathways:
 
@@ -38,9 +38,9 @@ Students do the **"Making Connections"** pair discussion from the workbook (p. 1
 
 ## Activity 2: H&L "Culinary Twist" — Plan Your Dish (15 min)
 
-**Source:** H&L Workbook Ch 10, pp. 159-161 — "Culinary Twist" (Career Climb activity)
+**Source:** H&L Workbook Ch 10, pp. 159-161, "Culinary Twist" (Career Climb activity)
 
-Read aloud the workbook background (Ch 10, p. 160): Students step into the role of a chef and create their own dish — but with a twist. A partner will choose a special "secret" ingredient that the dish must include creatively.
+Read aloud the workbook background (Ch 10, p. 160): Students step into the role of a chef and create their own dish, but with a twist. A partner will choose a special "secret" ingredient that the dish must include creatively.
 
 **Step 1: Plan Your Dish (from workbook p. 160)**
 
@@ -61,19 +61,19 @@ Students write their dish's name and describe how they'll prepare it, including 
 
 ## Activity 3: Showcase Your Dish — Menu Design (15 min)
 
-**Source:** H&L Workbook Ch 10, p. 161 — "Step 2: Showcase Your Dish"
+**Source:** H&L Workbook Ch 10, p. 161, "Step 2: Showcase Your Dish"
 
 Distribute the printed menu template. Students draw a menu listing for their dish that includes:
 
 - **Dish Name** (creative and memorable)
-- **Description** (2-3 sentences in restaurant menu style — appetizing language)
+- **Description** (2-3 sentences in restaurant menu style, appetizing language)
 - **Special Ingredient Highlight** (sentence calling out the special ingredient)
 - **Tagline or Hook** (optional 1-line marketing phrase)
 - **Optional:** Drawing or icon of the dish
 
 After both partners finish their menu, they present their dishes to each other. The workbook (p. 161) prompts:
 
-> "Present your dish to your partner. Explain the dish and the menu design — be sure to explain how you creatively used your special ingredient!"
+> "Present your dish to your partner. Explain the dish and the menu design, be sure to explain how you creatively used your special ingredient!"
 
 The class discussion question from the workbook: **"How do people with culinary art careers incorporate creativity into their jobs? What other skills would a chef need in order to be successful?"**
 

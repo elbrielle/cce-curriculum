@@ -28,13 +28,13 @@ Project a short overview of each route, then have students research ONE of the t
 
 **Three routes to research:**
 
-- **Union apprenticeship** — DFW area has active apprenticeships through IBEW (electrical), UA Local 100 (plumbing/pipefitting), and SMACNA/SMART (HVAC/sheet metal). Apprentices earn while they learn — typically 3-5 years to journeyman.
-- **Community college** — Tarrant County College, Dallas College, and North Lake College all offer HVAC, electrical, and plumbing technology programs. Typical duration: 1-2 years for a certificate, 2 years for an associate degree.
-- **Private trade schools** — Lincoln Tech and Universal Technical Institute (UTI) offer intensive HVAC/electrical programs. Typical duration: 6-18 months. Higher cost than community college.
+- **Union apprenticeship:** DFW area has active apprenticeships through IBEW (electrical), UA Local 100 (plumbing/pipefitting), and SMACNA/SMART (HVAC/sheet metal). Apprentices earn while they learn, typically 3-5 years to journeyman.
+- **Community college:** Tarrant County College, Dallas College, and North Lake College all offer HVAC, electrical, and plumbing technology programs. Typical duration: 1-2 years for a certificate, 2 years for an associate degree.
+- **Private trade schools:** Lincoln Tech and Universal Technical Institute (UTI) offer intensive HVAC/electrical programs. Typical duration: 6-18 months. Higher cost than community college.
 
 **What Irving ISD offers now:**
 
-- **Welding at MacArthur** (School of Architecture, Construction and Civil Engineering) is the closest current Irving ISD pathway in the skilled-trades space — students can earn the Structural Steel & Metal Welding Certification before graduating.
+- **Welding at MacArthur** (School of Architecture, Construction and Civil Engineering) is the closest current Irving ISD pathway in the skilled-trades space. Students can earn the Structural Steel & Metal Welding Certification before graduating.
 
 Students take notes on their trade of choice across all 3 routes. Then they answer two reflection questions:
 
@@ -42,7 +42,7 @@ Students take notes on their trade of choice across all 3 routes. Then they answ
 - Which route best fits a student who wants the most thorough technical training before entering the workforce?
 
 !!! tip "[VERIFY] Future Irving ISD trades pathways"
-    Irving ISD's CTE Pathways poster includes "Coming 2027" markers for some district-wide pathways. If HVAC, Electrical, or Plumbing are added to Irving ISD's offerings by the time you teach this week, update this activity to include them. Verify current program details with your district CTE coordinator before class — the Irving ISD CTE department updates offerings annually.
+    Irving ISD's CTE Pathways poster includes "Coming 2027" markers for some district-wide pathways. If HVAC, Electrical, or Plumbing are added to Irving ISD's offerings by the time you teach this week, update this activity to include them. Verify current program details with your district CTE coordinator before class, the Irving ISD CTE department updates offerings annually.
 
 ---
 
@@ -62,22 +62,22 @@ Students revisit their Skilled Trades Comparison Matrix from Days 1-2 and finali
 - One perk
 - One quirk
 
-Students cross-reference their Labor Market Analysis worksheet from Day 3 and copy classification data over. The matrix is the primary summative deliverable for the week — it should be neat, complete, and ready to submit on Day 5.
+Students cross-reference their Labor Market Analysis worksheet from Day 3 and copy classification data over. The matrix is the primary summative deliverable for the week. It should be neat, complete, and ready to submit on Day 5.
 
 !!! tip "Facilitation Tip"
     Walk with a clipboard and spot-check 3-4 matrices. Look for: (1) numbers cited rather than blank cells, (2) consistent format across trades, (3) classifications with reasoning rather than just Y/N.
 
-**DOK 3:** Looking at your completed Skilled Trades Matrix, identify the two trades that are most similar in training time AND salary. If you had to choose between those two this week, what non-salary factor (perks, quirks, work environment, growth outlook, local DFW demand) would tip your decision — and why?
+**DOK 3:** Looking at your completed Skilled Trades Matrix, identify the two trades that are most similar in training time AND salary. If you had to choose between those two this week, what non-salary factor (perks, quirks, work environment, growth outlook, local DFW demand) would tip your decision, and why?
 
 ---
 
 ## Activity 3: H&L Career Plan Update (7 min)
 
-**Source:** H&L Workbook Ch 3 (A&C Hat Finder) + Ch 16 (My Next Steps — Career Plan)
+**Source:** H&L Workbook Ch 3 (A&C Hat Finder) + Ch 16 (My Next Steps: Career Plan)
 
 Direct students to open H&L and:
 
-1. **Favorite any new trades careers** they discovered this week — Electrician, Plumber, HVAC Tech, or Welder
+1. **Favorite any new trades careers** they discovered this week. Electrician, Plumber, HVAC Tech, or Welder
 2. **Update Building Blocks** if any of this week's work made them realize they have a skill or interest that applies to trades (mechanical ability, hands-on work, problem-solving under pressure)
 3. **Open the Career Plan** in Ch 16 and add trades to their explored clusters list
 

@@ -14,7 +14,7 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: List one thing you do regularly that nobody pays you for — chores, walking a dog, watching a sibling, helping a neighbor, sports practice. Now: what skill does that activity teach you?**
+**WARM-UP: List one thing you do regularly that nobody pays you for, chores, walking a dog, watching a sibling, helping a neighbor, sports practice. Now: what skill does that activity teach you?**
 
 Take 4-5 fast responses. The point: students already have life experiences that will matter to colleges and employers. Today they learn how to log them in Xello so they don't get forgotten.
 
@@ -22,7 +22,7 @@ Take 4-5 fast responses. The point: students already have life experiences that 
 
 ## Activity 1: Xello Life Experiences Lesson (25 min)
 
-**Source:** Xello 7th-Grade Lesson — "Life Experiences"
+**Source:** Xello 7th-Grade Lesson, "Life Experiences"
 
 Open Xello on the projector. Sign in with the school SSO and walk students through finding the Life Experiences lesson:
 
@@ -39,13 +39,13 @@ Students complete the Xello Life Experiences lesson on their own Chromebooks. Th
 As students work, circulate and check that they are reading and reflecting, not just clicking through. Pause the class once at the midpoint to ask: "What is one experience you wrote down that you almost forgot was important?"
 
 !!! tip "Facilitation Tip"
-    Students often think "experience" means a paid job, so they leave the form blank. Reframe with examples: babysitting a younger sibling = experience with childcare and patience. Walking a neighbor's dog = experience with reliability and animal handling. Helping at family events = experience with hospitality. Every veterinary job application asks about animal handling experience — informal pet care counts.
+    Students often think "experience" means a paid job, so they leave the form blank. Reframe with examples: babysitting a younger sibling = experience with childcare and patience. Walking a neighbor's dog = experience with reliability and animal handling. Helping at family events = experience with hospitality. Every veterinary job application asks about animal handling experience, informal pet care counts.
 
 ---
 
 ## Activity 2: Xello Volunteer Hours Entry (15 min)
 
-**Source:** Xello 7th-Grade Task — "Add Volunteer Hours"
+**Source:** Xello 7th-Grade Task, "Add Volunteer Hours"
 
 After completing the Life Experiences lesson, students navigate to the Volunteer Hours section in their Xello profile (typically under "About Me" or "My Profile"). They add at least ONE volunteer hours entry. If they have never officially volunteered, they can:
 
@@ -69,7 +69,7 @@ Quick whole-class share: which life experience or volunteer activity from today 
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Take a screenshot of your Xello Life Experiences completion screen. Then write one sentence: "One life experience I logged today is _____, and it teaches me _____ — a skill that matters for a career as _____." *(d(2)(B), d(1)(C))*
+**EXIT TICKET:** Take a screenshot of your Xello Life Experiences completion screen. Then write one sentence: "One life experience I logged today is _____, and it teaches me _____, a skill that matters for a career as _____." *(d(2)(B), d(1)(C))*
 
 ---
 
@@ -77,4 +77,4 @@ Quick whole-class share: which life experience or volunteer activity from today 
 
 - **Support:** Provide a printed list of common middle-school life experiences students can choose from if they get stuck thinking of their own.
 - **Extension:** Plan a real volunteer opportunity in the next two weeks at a local animal shelter, vet clinic, or community garden. Bring back proof to log in Xello.
-- **ELL:** Pre-teach: Volunteer = Voluntario/a, Experience = Experiencia, Hours = Horas. Xello supports Spanish language toggle — show students how to switch the interface language if needed.
+- **ELL:** Pre-teach: Volunteer = Voluntario/a, Experience = Experiencia, Hours = Horas. Xello supports Spanish language toggle, show students how to switch the interface language if needed.

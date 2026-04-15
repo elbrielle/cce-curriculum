@@ -26,15 +26,15 @@ Students explore the Manufacturing career cluster through the Hats & Ladders app
 - Painter's tape for factory floor course layout
 - Cardboard boxes or blocks (obstacles for the factory floor course)
 - Printed Manufacturing Hat Research worksheet (from H&L Ch 14, p. 239 template)
-- BLS — Production Occupations: [bls.gov/ooh/production/home.htm](https://www.bls.gov/ooh/production/home.htm)
-- BLS — Welders: [bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm](https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm)
+- BLS Production Occupations: [bls.gov/ooh/production/home.htm](https://www.bls.gov/ooh/production/home.htm)
+- BLS Welders: [bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm](https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm)
 - eDynamic Learning Unit 2.1: Knowledge and Innovation
 - Xello (What is CTE? + Add Interests activities)
 - Projector for SpheroEDU and H&L demonstrations
 
 ## Career Connection
 
-Manufacturing is one of the fastest-evolving career fields in the U.S. Modern factories look nothing like the assembly lines of 50 years ago — today's manufacturing professionals work alongside robots, use computer-aided design, and operate multi-million dollar CNC machines. The DFW area is a major manufacturing hub, with employers ranging from Lockheed Martin to Toyota to thousands of mid-sized contract manufacturers.
+Manufacturing is one of the fastest-evolving career fields in the U.S. Modern factories look nothing like the assembly lines of 50 years ago. Today's manufacturing professionals work alongside robots, use computer-aided design, and operate multi-million dollar CNC machines. The DFW area is a major manufacturing hub, with employers ranging from Lockheed Martin to Toyota to thousands of mid-sized contract manufacturers.
 
 **Irving ISD Pathway:** **Robotic Manufacturing at Singley Academy** (part of Singley's School of Innovative Technology) prepares students for industry-recognized manufacturing credentials. Students who follow this pathway can graduate with a credential that gets them hired at real factories without a 4-year degree. **Welding** is offered separately at **MacArthur High School** under the Architecture, Construction and Engineering school.
 
@@ -43,9 +43,9 @@ Manufacturing is one of the fastest-evolving career fields in the U.S. Modern fa
 - **Manufacturing:** The process of converting raw materials into finished products, often using machinery and technology.
 - **Robotics & Automation:** The use of robots and automated systems to perform manufacturing tasks (assembly, welding, packaging, sorting).
 - **CNC (Computer Numerical Control):** A manufacturing process where pre-programmed computer software controls factory tools and machinery.
-- **Welding:** Joining pieces of metal using heat — used in manufacturing bridges, cars, bikes, medical tools, and more.
+- **Welding:** Joining pieces of metal using heat, used in manufacturing bridges, cars, bikes, medical tools, and more.
 - **Quality Control / Quality Assurance:** Ensuring products meet standards through testing and inspection. Quality Assurance Specialists are a key role in the H&L "Task Bot in Action" activity.
-- **Troubleshooting:** The systematic process of diagnosing and repairing a malfunctioning machine — the focus of the "Machine Breakdown Mystery" activity.
+- **Troubleshooting:** The systematic process of diagnosing and repairing a malfunctioning machine. This is the focus of the "Machine Breakdown Mystery" activity.
 - **FANUC:** A leading manufacturer of industrial robots. Singley Academy offers FANUC Robot Operator certification.
 - **Engineering Design Process:** Define → Research → Ideate → Prototype → Test → Iterate. Used by manufacturing engineers and by students this week with Sphero.
 
@@ -53,10 +53,10 @@ Manufacturing is one of the fastest-evolving career fields in the U.S. Modern fa
 
 The H&L workbook (Ch 14: Manufacturing, pp. 229-246) covers six pathways: **Robotics and Automation Technology, Industrial Maintenance, Manufacturing Technology, Electronics Technology, Welding, and Advanced Manufacturing & Industrial Technology** (Ch 14, p. 230). The chapter includes four named activities used across this week:
 
-- **Machine Breakdown Mystery** (Day 2) — Career Climb activity. Students play a technician at a pre-packaged fruit factory who must use a 5-step Technician Checklist to diagnose why a label-application machine has stopped working (Ch 14, pp. 232-233).
-- **Job References** (Day 3) — Students learn what makes a good job reference and create their own list of 3 references (Ch 14, pp. 234-235).
-- **Designing Metalworks** (Day 3) — Career Climb activity. Students play a welder at SuperSports Manufacturing tasked with designing 100 custom bike racks for a school district. They sketch a design, choose between aluminum/stainless/carbon steel, and select welding methods (Ch 14, pp. 236-238).
-- **Task Bot in Action** (Days 4-5) — Career Lab activity. Students are a Production Team at Kaleido-Crayons Factory diagnosing a malfunctioning robotic crayon-sorting machine. Each team member plays a role (Shift Supervisor, Quality Control Specialist, Maintenance Tech, Packaging Supervisor) and develops an action plan with a presentation (Ch 14, pp. 240-245).
+- **Machine Breakdown Mystery** (Day 2): Career Climb activity. Students play a technician at a pre-packaged fruit factory who must use a 5-step Technician Checklist to diagnose why a label-application machine has stopped working (Ch 14, pp. 232-233).
+- **Job References** (Day 3): Students learn what makes a good job reference and create their own list of 3 references (Ch 14, pp. 234-235).
+- **Designing Metalworks** (Day 3): Career Climb activity. Students play a welder at SuperSports Manufacturing tasked with designing 100 custom bike racks for a school district. They sketch a design, choose between aluminum/stainless/carbon steel, and select welding methods (Ch 14, pp. 236-238).
+- **Task Bot in Action** (Days 4-5): Career Lab activity. Students are a Production Team at Kaleido-Crayons Factory diagnosing a malfunctioning robotic crayon-sorting machine. Each team member plays a role (Shift Supervisor, Quality Control Specialist, Maintenance Tech, Packaging Supervisor) and develops an action plan with a presentation (Ch 14, pp. 240-245).
 
 The **Hat Research** template (Ch 14, p. 239) provides the structured research sheet students use on Day 2 for one Manufacturing Hat.
 
@@ -79,11 +79,11 @@ The **Hat Research** template (Ch 14, p. 239) provides the structured research s
 
 ## Formative Assessment
 
-- **Day 1:** Stop and Jot notes — d(1)(B)
-- **Day 2:** Machine Breakdown Mystery checklist accuracy + Hat Research worksheet — d(1)(C), d(2)(A)
-- **Day 3:** Designing Metalworks completion (sketch + metal choice + weld choice) — d(1)(C)
-- **Day 4:** Active monitoring during Sphero programming + Task Bot role engagement — d(1)(C)
-- **Day 5:** Task Bot presentation + 2 Manufacturing Hats favorited in Climber Profile — d(1)(C)
+- **Day 1:** Stop and Jot notes. *d(1)(B)*
+- **Day 2:** Machine Breakdown Mystery checklist accuracy + Hat Research worksheet. *d(1)(C), d(2)(A)*
+- **Day 3:** Designing Metalworks completion (sketch + metal choice + weld choice). *d(1)(C)*
+- **Day 4:** Active monitoring during Sphero programming + Task Bot role engagement. *d(1)(C)*
+- **Day 5:** Task Bot presentation + 2 Manufacturing Hats favorited in Climber Profile. *d(1)(C)*
 
 ## Summative Assessment
 
@@ -102,7 +102,7 @@ The **Hat Research** template (Ch 14, p. 239) provides the structured research s
 
 - Advanced teams add sensor logic to their Sphero program (if obstacle detected, turn right).
 - Research the Singley Academy FANUC Robot Operator certification pathway and create a 4-year course plan to earn it.
-- Compare DFW manufacturing salaries to two other metro areas using BLS data — does DFW pay more or less than Detroit and Houston?
+- Compare DFW manufacturing salaries to two other metro areas using BLS data. Does DFW pay more or less than Detroit and Houston?
 - H&L "Job References" extension: Students draft an email to a teacher asking permission to use them as a future reference.
 
 ### ELL Language Support

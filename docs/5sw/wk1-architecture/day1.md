@@ -14,9 +14,9 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Look around this room. Someone designed this building — the shape of the walls, the placement of the windows, the width of the hallways. Who made those decisions, and what did they need to know to make them?**
+**WARM-UP: Look around this room. Someone designed this building, the shape of the walls, the placement of the windows, the width of the hallways. Who made those decisions, and what did they need to know to make them?**
 
-Discuss 2-3 student responses. Bridge to the idea that architecture is both creative and technical — it requires art, math, engineering, and an understanding of how people use spaces.
+Discuss 2-3 student responses. Bridge to the idea that architecture is both creative and technical. It requires art, math, engineering, and an understanding of how people use spaces.
 
 ---
 
@@ -24,11 +24,11 @@ Discuss 2-3 student responses. Bridge to the idea that architecture is both crea
 
 **Source:** H&L Workbook Ch 3: Architecture and Construction (pp. 37-39)
 
-Open the lesson by connecting this week to the trades careers students explored in the 4th Six Weeks. Architecture and construction are two sides of the same coin — architects design, and trades professionals build.
+Open the lesson by connecting this week to the trades careers students explored in the 4th Six Weeks. Architecture and construction are two sides of the same coin, architects design, and trades professionals build.
 
 Direct students to open Hats & Ladders and navigate to the Architecture & Construction cluster. They should:
 
-1. **Watch the cluster tour video** (embedded in the H&L app cluster page). While watching, students use **Stop and Jot** — pause twice to write down one career that surprised them and one question they have.
+1. **Watch the cluster tour video** (embedded in the H&L app cluster page). While watching, students use **Stop and Jot:** pause twice to write down one career that surprised them and one question they have.
 2. **Review the Myth Busters** for the A&C cluster (common misconceptions about construction careers).
 3. **Read the "Making Connections" prompt** from the workbook (Ch 3, p. 38): *"How do you think these careers work together to make buildings functional and strong? Why do buildings often look different depending on their purpose?"* Discuss briefly with a partner.
 
@@ -43,7 +43,7 @@ The workbook (Ch 3, p. 38) lists six confirmed pathways: Carpentry; Architecture
 
 ## Activity 2: H&L "Safety Supervisor" Activity (20 min)
 
-**Source:** H&L Workbook Ch 3, pp. 40-41 — "Safety Supervisor" (Career Climb activity)
+**Source:** H&L Workbook Ch 3, pp. 40-41, "Safety Supervisor" (Career Climb activity)
 
 Introduce this activity by explaining that before architects design a building, construction safety comes first. Every job site has a safety supervisor responsible for protecting workers.
 
@@ -58,7 +58,7 @@ The workbook scenario: *Students are construction safety supervisors building an
 
 **Student task (from workbook):**
 
-- **Step 1: Research** — Take 5 minutes to research underwater construction equipment and procedures online. This informs their safety plan.
+- **Step 1: Research:** Take 5 minutes to research underwater construction equipment and procedures online. This informs their safety plan.
 - **Step 2: Create a Safety Plan** that includes:
     - Top 5 safety rules every worker must follow
     - Essential safety equipment list
@@ -83,5 +83,5 @@ The workbook scenario: *Students are construction safety supervisors building an
 ## Differentiation
 
 - **Support:** Provide a list of the 6 hazards pre-printed so students can focus on designing solutions rather than identifying problems.
-- **Extension:** Compare underwater construction safety to space station construction safety — what additional hazards exist?
+- **Extension:** Compare underwater construction safety to space station construction safety, what additional hazards exist?
 - **ELL:** Pre-teach: Safety = Seguridad, Hazard = Peligro, Equipment = Equipo. The safety map activity is visual and accessible for all language levels.

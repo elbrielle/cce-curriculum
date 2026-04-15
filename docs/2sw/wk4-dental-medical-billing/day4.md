@@ -32,15 +32,15 @@ Project a brief overview of medical coding on the screen:
 
 Show 3-4 real ICD-10 code examples on the screen:
 
-- **S52.501A** — Unspecified fracture of the lower end of right radius, initial encounter (broken right wrist)
-- **J20.9** — Acute bronchitis, unspecified
-- **K02.9** — Dental caries, unspecified (a cavity)
-- **R51** — Headache
+- **S52.501A:** Unspecified fracture of the lower end of right radius, initial encounter (broken right wrist)
+- **J20.9:** Acute bronchitis, unspecified
+- **K02.9:** Dental caries, unspecified (a cavity)
+- **R51:** Headache
 
-Walk students through how to read the codes — letters indicate body system, numbers narrow the diagnosis.
+Walk students through how to read the codes, letters indicate body system, numbers narrow the diagnosis.
 
 !!! tip "Facilitation Tip"
-    Don't try to teach the full ICD-10 system — it has 70,000+ codes. The goal is to give students a TASTE of the precision required. The simplified reference sheet uses just 10 codes for the simulation.
+    Don't try to teach the full ICD-10 system. It has 70,000+ codes. The goal is to give students a TASTE of the precision required. The simplified reference sheet uses just 10 codes for the simulation.
 
 ---
 
@@ -52,7 +52,7 @@ Walk through the first patient chart together as a worked example:
 
 > **Patient Chart 1:** 8-year-old female. Chief complaint: cough and runny nose for 3 days. Examination: clear lungs, mild fever (100.2°F). Diagnosis: common cold (URI).
 
-Students look up the matching code on their reference sheet — for this example, **J00 — Acute nasopharyngitis (common cold)**.
+Students look up the matching code on their reference sheet, for this example, **J00, Acute nasopharyngitis (common cold)**.
 
 After the worked example, students complete **Round 1: 3 simple charts** independently. They write the correct ICD-10 code next to each chart on the worksheet.
 
@@ -62,7 +62,7 @@ The teacher reveals the correct answers and students self-grade. Aim for 100% on
 
 ## Activity 3: Coding Simulation Round 2 — Harder (10 min)
 
-Before releasing students into Round 2, pause for a **30-second scaffolding moment**: "Round 2 changes the rule. Until now, one symptom = one code. Now a chart might match 2 or 3 codes on the reference sheet, and only one of them is the BEST fit. Real medical coders call this *specificity* — picking the code that matches the actual diagnosis, not a vaguer symptom code. Watch me work through one together before you start."
+Before releasing students into Round 2, pause for a **30-second scaffolding moment**: "Round 2 changes the rule. Until now, one symptom = one code. Now a chart might match 2 or 3 codes on the reference sheet, and only one of them is the BEST fit. Real medical coders call this *specificity*, picking the code that matches the actual diagnosis, not a vaguer symptom code. Watch me work through one together before you start."
 
 Then walk through the worked example below on the projector (reading the chart, listing which codes seem possible, explaining *why* the more specific diagnosis wins).
 
@@ -72,7 +72,7 @@ Example:
 
 > **Patient Chart 4:** 45-year-old male. Chief complaint: chest pain after eating, lasting 30 minutes. Examination: stable vital signs, no cardiac signs, tender abdomen. Diagnosis: acid reflux.
 
-The "trap" code might be R07.9 (chest pain, unspecified) — which is technically TRUE but not the BEST code. The correct code is **K21.9 — Gastro-esophageal reflux disease without esophagitis**.
+The "trap" code might be R07.9 (chest pain, unspecified): which is technically TRUE but not the BEST code. The correct code is **K21.9, Gastro-esophageal reflux disease without esophagitis**.
 
 Students complete Round 2 individually. The teacher reveals answers and students record their accuracy score.
 
@@ -80,7 +80,7 @@ Students complete Round 2 individually. The teacher reveals answers and students
 
 ## Activity 4: Coding Simulation Round 3 — Speed (8 min)
 
-Round 3 is a **speed challenge and is optional** — if Round 2 ran long because of the specificity scaffolding, cut Round 3 and move directly to the Exit Ticket. Rounds 1–2 carry d(2)(A) on their own, and the 8 min absorbs into Round 2's overflow if needed. When you do run it: students get 5 minutes to code as many patient charts as possible while maintaining accuracy. The teacher times the round and stops at 5 minutes.
+Round 3 is a **speed challenge and is optional:** if Round 2 ran long because of the specificity scaffolding, cut Round 3 and move directly to the Exit Ticket. Rounds 1–2 carry d(2)(A) on their own, and the 8 min absorbs into Round 2's overflow if needed. When you do run it: students get 5 minutes to code as many patient charts as possible while maintaining accuracy. The teacher times the round and stops at 5 minutes.
 
 Students record their score (e.g., "5 charts coded, 4 correct, 1 wrong").
 

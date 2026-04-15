@@ -16,30 +16,30 @@
 
 **WARM-UP: Name a product you used this morning (phone, toothbrush, shoes, breakfast cereal). How do you think it was made? Who made it?**
 
-Quick share-out — listen for students saying "a machine" or "a factory." Bridge: "Yes, a machine made it — but who designed and built and runs that machine? That is what Manufacturing is. This week we meet those people."
+Quick share-out. Listen for students saying "a machine" or "a factory." Bridge: "Yes, a machine made it, but who designed and built and runs that machine? That is what Manufacturing is. This week we meet those people."
 
 ---
 
 ## Activity 1: Read H&L Ch 14 — Exploring the World of Manufacturing (15 min)
 
-**Source:** H&L Workbook Ch 14, p. 230 — "Exploring the World of Manufacturing"
+**Source:** H&L Workbook Ch 14, p. 230, "Exploring the World of Manufacturing"
 
 Open the workbook to page 230. Read the chapter opener together (about how manufacturing professionals turn raw materials into finished products using technology, machinery, and problem-solving skills).
 
 Walk through the **six confirmed Manufacturing pathways** from the workbook (Ch 14, p. 230):
 
-1. **Robotics and Automation Technology** — Build, fix, and operate robots and machines used in things like deep-sea exploration or cleaning up waste.
-2. **Industrial Maintenance** — Fix and care for machines in factories and buildings using welding, plumbing, and electrical skills.
-3. **Manufacturing Technology** — Use machines, plastic, make parts, and fix equipment.
-4. **Electronics Technology** — Learn how electricity works and how to fix electrical systems including circuits and wiring.
-5. **Welding** — Work with metal and plastic to join parts together using heat (welding, cutting).
-6. **Advanced Manufacturing & Industrial Technology** — Work with high-tech equipment like CNC machines, robots, and computers to shape metal.
+1. **Robotics and Automation Technology**: Build, fix, and operate robots and machines used in things like deep-sea exploration or cleaning up waste.
+2. **Industrial Maintenance**: Fix and care for machines in factories and buildings using welding, plumbing, and electrical skills.
+3. **Manufacturing Technology**: Use machines, plastic, make parts, and fix equipment.
+4. **Electronics Technology**: Learn how electricity works and how to fix electrical systems including circuits and wiring.
+5. **Welding**: Work with metal and plastic to join parts together using heat (welding, cutting).
+6. **Advanced Manufacturing & Industrial Technology**: Work with high-tech equipment like CNC machines, robots, and computers to shape metal.
 
 Tell students the FANUC Robot Operator certification at Singley Academy connects directly to pathway #1 (Robotics and Automation Technology).
 
 **Making Connections (workbook activity, p. 231):** Pair students up. Give them 5 minutes to brainstorm: pick something they use every day (phone, shoes, computer, water bottle) and discuss how it is manufactured. What steps are involved? What jobs do they think exist along the way?
 
-After 5 minutes, call on 3-4 pairs to share. Listen for understanding that manufacturing is a multi-step, multi-person process — not "a machine made it."
+After 5 minutes, call on 3-4 pairs to share. Listen for understanding that manufacturing is a multi-step, multi-person process, not "a machine made it."
 
 !!! tip "Facilitation Tip"
     Most students think "manufacturing = factory worker" and stop there. Push them: "Who designed the assembly line? Who programs the robots? Who tests the products before they ship? Who manages the factory floor?" Each of these is a separate Hat.
@@ -48,7 +48,7 @@ After 5 minutes, call on 3-4 pairs to share. Listen for understanding that manuf
 
 ## Activity 2: H&L Manufacturing Cluster App Exploration with Stop and Jot (20 min)
 
-**Source:** H&L Workbook Ch 14, p. 231 — "Dive Into Pathways" (directs students to the H&L app)
+**Source:** H&L Workbook Ch 14, p. 231, "Dive Into Pathways" (directs students to the H&L app)
 
 > [H&L PLATFORM] The workbook (Ch 14, p. 231) directs students: "Go to the Hats & Ladders app and click on the 'Manufacturing Cluster.' Spend 15 minutes exploring the cluster and pathways." Students navigate to the Manufacturing cluster in the H&L app, watch the cluster tour video, and explore the six pathways. They use the Hat Finder to browse 2-3 Hats per pathway, checking education, DFW salary, and demand level.
 

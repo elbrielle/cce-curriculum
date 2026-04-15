@@ -22,15 +22,15 @@ Quick share. Bridge: "Every one of those technologies created NEW jobs that didn
 
 ## Activity 1: Choose an Emerging IT Career (5 min)
 
-The TEKS standard d(1)(D) requires students to research and evaluate **emerging occupations** — careers that are brand new or growing very fast. Project the list of 7 emerging IT career options:
+The TEKS standard d(1)(D) requires students to research and evaluate **emerging occupations**, careers that are brand new or growing very fast. Project the list of 7 emerging IT career options:
 
-1. **AI Engineer** — Builds artificial intelligence systems and trains machine learning models.
-2. **Machine Learning Specialist** — Teaches computers to learn from data without explicit programming.
-3. **Cloud Architect** — Designs cloud-based systems (AWS, Azure, Google Cloud).
-4. **Cybersecurity Analyst** — Detects and responds to cyber threats. (Wk5 will go deeper here.)
-5. **Data Scientist** — Analyzes large amounts of data to find patterns and make predictions.
-6. **UX Designer** — Designs how users experience digital products (apps, websites, software).
-7. **Drone Software Developer** — Programs drones for delivery, inspection, mapping, agriculture.
+1. **AI Engineer:** Builds artificial intelligence systems and trains machine learning models.
+2. **Machine Learning Specialist:** Teaches computers to learn from data without explicit programming.
+3. **Cloud Architect:** Designs cloud-based systems (AWS, Azure, Google Cloud).
+4. **Cybersecurity Analyst:** Detects and responds to cyber threats. (Wk5 will go deeper here.)
+5. **Data Scientist:** Analyzes large amounts of data to find patterns and make predictions.
+6. **UX Designer:** Designs how users experience digital products (apps, websites, software).
+7. **Drone Software Developer:** Programs drones for delivery, inspection, mapping, agriculture.
 
 Each student picks ONE career to research. Avoid duplicates within table groups so the class hears about more careers in the Day 5 mini-presentations.
 
@@ -40,9 +40,9 @@ Each student picks ONE career to research. Avoid duplicates within table groups 
 
 Students research their chosen career using THREE sources:
 
-1. **BLS Occupational Outlook Handbook** — [bls.gov/ooh/computer-and-information-technology/home.htm](https://www.bls.gov/ooh/computer-and-information-technology/home.htm) — find the entry for their career (some are listed under "Computer and Information Research Scientists" for AI/ML).
-2. **H&L Hat Finder** — search the H&L app for their career and pull DFW data if available.
-3. **Google search** — find at least one DFW-area company that hires for this role.
+1. **BLS Occupational Outlook Handbook:** [bls.gov/ooh/computer-and-information-technology/home.htm](https://www.bls.gov/ooh/computer-and-information-technology/home.htm). Find the entry for their career (some are listed under "Computer and Information Research Scientists" for AI/ML).
+2. **H&L Hat Finder:** Search the H&L app for their career and pull DFW data if available.
+3. **Google search:** Find at least one DFW-area company that hires for this role.
 
 Students complete the **Emerging Tech Research Template** (one row per field):
 
@@ -59,7 +59,7 @@ Students complete the **Emerging Tech Research Template** (one row per field):
 Walk the room and check that students are using all 3 sources, not just Google. Stop students who are scrolling without writing.
 
 !!! tip "Facilitation Tip"
-    Some emerging careers (especially AI Engineer and Drone Software Developer) are not yet listed as standalone careers on BLS. In those cases, direct students to "Software Developers" or "Computer and Information Research Scientists" as the closest match — and explicitly note in their template that the BLS doesn't yet have a unique entry, which is itself proof the career is emerging.
+    Some emerging careers (especially AI Engineer and Drone Software Developer) are not yet listed as standalone careers on BLS. In those cases, direct students to "Software Developers" or "Computer and Information Research Scientists" as the closest match, and explicitly note in their template that the BLS doesn't yet have a unique entry, which is itself proof the career is emerging.
 
 **DOK 4:** Based on your research, what argument would you make for or against a 7th grader pursuing this emerging career instead of a more traditional IT career like Network Administrator? Use salary, growth, and education data to support your argument.
 

@@ -8,15 +8,15 @@
 | **Objectives** | Discuss work ethic and integrity in the trades through real workplace examples; update the H&L Career Plan with all 4SW data; review every favorited career across the year |
 | **TEKS** | d(4)(F), d(8)(A) |
 | **Deliverable** | Updated H&L Career Plan (screenshot showing Week 3-5 favorites added) + Work Ethic example notes |
-| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 16 — "My Career and Course Plan"), printed Work Ethic Examples worksheet, projector |
+| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 16, "My Career and Course Plan"), printed Work Ethic Examples worksheet, projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: What does "work ethic" mean to you in your own words? Describe someone you know who has a strong work ethic — a teacher, family member, coach, or peer.**
+**WARM-UP: What does "work ethic" mean to you in your own words? Describe someone you know who has a strong work ethic, a teacher, family member, coach, or peer.**
 
-Take 4-5 student responses. Build a quick word cloud on the board with the recurring traits — punctual, finishes things, doesn't complain, takes pride. Bridge: today we connect those traits to specific trades careers where work ethic literally saves lives.
+Take 4-5 student responses. Build a quick word cloud on the board with the recurring traits, punctual, finishes things, doesn't complain, takes pride. Bridge: today we connect those traits to specific trades careers where work ethic literally saves lives.
 
 ---
 
@@ -31,9 +31,9 @@ Walk through 3-4 specific examples where work ethic and integrity in trades care
 - **Drone Pilot + Part 107 logbook:** Commercial drone pilots are required to log every flight, every battery check, every safety incident. A pilot who lies in their logbook and gets caught loses their certification permanently.
 - **Diesel Tech + commercial truck inspection:** Diesel techs inspect 18-wheelers that share the road with families. Skipping a brake check can kill people. Work ethic isn't a nice-to-have. It is the entire job.
 
-Surface the pattern: in every trades career, work ethic is not just about being a good person. It is the safety system that protects the public. Employers cannot hire skill without ethics — they will fire a skilled-but-dishonest tech immediately.
+Surface the pattern: in every trades career, work ethic is not just about being a good person. It is the safety system that protects the public. Employers cannot hire skill without ethics. They will fire a skilled-but-dishonest tech immediately.
 
-Students complete the printed Work Ethic Examples worksheet — they pick **one career** they have explored this year and describe:
+Students complete the printed Work Ethic Examples worksheet. They pick **one career** they have explored this year and describe:
 - One specific task in that career where work ethic matters
 - The consequence if someone does that task with poor work ethic
 - One way the career uses systems (logs, inspections, signatures, supervisors) to enforce work ethic
@@ -44,9 +44,9 @@ Students complete the printed Work Ethic Examples worksheet — they pick **one 
 
 ## Activity 2: H&L Career Plan Update (25 min)
 
-**Source:** H&L Workbook Ch 16, pp. 267-268 — "My Career and Course Plan"
+**Source:** H&L Workbook Ch 16, pp. 267-268, "My Career and Course Plan"
 
-> [H&L PLATFORM] Direct students to open H&L and navigate to their **Career Plan**. The workbook (Ch 16) treats the Career Plan as the place where students accumulate favorites, Building Blocks, and pathway preferences across the entire year. The Career Plan is not built from scratch each week — it grows. Students who joined the class late or missed weeks can still add favorites at any time.
+> [H&L PLATFORM] Direct students to open H&L and navigate to their **Career Plan**. The workbook (Ch 16) treats the Career Plan as the place where students accumulate favorites, Building Blocks, and pathway preferences across the entire year. The Career Plan is not built from scratch each week. It grows. Students who joined the class late or missed weeks can still add favorites at any time.
 
 Students complete a Career Plan accumulation check:
 
@@ -55,12 +55,12 @@ Students complete a Career Plan accumulation check:
     - Week 3: Aviation Hats — Pilot, ATC, Aviation Mechanic, Drone Operator
     - Week 4: Engineering Hats — Drone Engineer, Mechanical Engineer, Aerospace Engineer
     - Week 5: Automotive Hats — Auto Tech, Diesel Tech, Collision Repair Tech
-2. **Add any missing favorites** — students who forgot to tag a favorite during a previous week add it now
-3. **Update the Building Blocks section** — students add 1-2 new skills they practiced this six weeks (e.g., "Used the Engineering Design Process," "Operated a drone safely," "Researched salaries across 3 sources")
-4. **Confirm the chosen pathway** — the same one they selected on Day 5 of Week 1, or update it if their thinking has shifted
+2. **Add any missing favorites:** students who forgot to tag a favorite during a previous week add it now
+3. **Update the Building Blocks section:** students add 1-2 new skills they practiced this six weeks (e.g., "Used the Engineering Design Process," "Operated a drone safely," "Researched salaries across 3 sources")
+4. **Confirm the chosen pathway:** the same one they selected on Day 5 of Week 1, or update it if their thinking has shifted
 5. **Take a screenshot** of their updated Career Plan and save it to their student drive
 
-The point is to make sure the H&L Career Plan reflects the full year of work — not just the most recent week.
+The point is to make sure the H&L Career Plan reflects the full year of work, not just the most recent week.
 
 !!! tip "Facilitation Tip"
     Some students will have very thin Career Plans because they forgot to favorite during earlier weeks. Allow them to spend 10 minutes browsing earlier clusters and adding favorites based on memory. The H&L Career Plan only works if it captures real student data over time.
@@ -86,5 +86,5 @@ In pairs, students share:
 ## Differentiation
 
 - **Support:** Pair with a peer who can help navigate the H&L Career Plan. Pre-filled Work Ethic Examples worksheet with one example completed (e.g., Aviation Mechanic + engine inspection). Allow students to add favorites from a teacher-curated list of "high-interest 7th grade careers" if their plan is empty.
-- **Extension:** Audit the Career Plan for diversity — does it show variety across clusters, or is it dominated by one cluster? If dominated, what does that say about the student's thinking?
+- **Extension:** Audit the Career Plan for diversity, does it show variety across clusters, or is it dominated by one cluster? If dominated, what does that say about the student's thinking?
 - **ELL:** Bilingual Work Ethic worksheet with Spanish prompts. Pre-teach: Integrity = Integridad, Inspection = Inspección, Logbook = Registro, Consequence = Consecuencia.

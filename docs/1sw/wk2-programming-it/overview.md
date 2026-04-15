@@ -23,18 +23,18 @@ Students explore the Information Technology cluster through Hats & Ladders (Ch 1
 - Hats & Ladders accounts + H&L Workbook Ch 12: Information Technology (pp. 191-207)
 - Code.org Hour of Code activities: [hourofcode.com](https://hourofcode.com)
 
-- BLS — Software Developers: [bls.gov/ooh/computer-and-information-technology/software-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm)
-- BLS — Web Developers: [bls.gov/ooh/computer-and-information-technology/web-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm)
-- BLS — Computer/IT Cluster: [bls.gov/ooh/computer-and-information-technology/home.htm](https://www.bls.gov/ooh/computer-and-information-technology/home.htm)
+- BLS, Software Developers: [bls.gov/ooh/computer-and-information-technology/software-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm)
+- BLS, Web Developers: [bls.gov/ooh/computer-and-information-technology/web-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm)
+- BLS, Computer/IT Cluster: [bls.gov/ooh/computer-and-information-technology/home.htm](https://www.bls.gov/ooh/computer-and-information-technology/home.htm)
 - Printed IT Salary Comparison worksheet (3 careers × 5 fields)
 - Xello (Favorite Clusters activity)
 - Projector
 
 ## Career Connection
 
-Information Technology is one of the fastest-growing and highest-paying career clusters in the U.S. economy. In the DFW area, companies like AT&T, Texas Instruments, Toyota, State Farm, and hundreds of tech startups hire thousands of IT professionals each year. The largest IT employer in DFW is the financial sector — banks and insurance companies need software developers, network engineers, and cybersecurity analysts to run their digital infrastructure.
+Information Technology is one of the fastest-growing and highest-paying career clusters in the U.S. economy. In the DFW area, companies like AT&T, Texas Instruments, Toyota, State Farm, and hundreds of tech startups hire thousands of IT professionals each year. The largest IT employer in DFW is the financial sector. Banks and insurance companies need software developers, network engineers, and cybersecurity analysts to run their digital infrastructure.
 
-**Irving ISD Pathway:** **Computer Science (District Wide — every IISD high school)** and **Programming & Digital Tech (Singley Academy)** both lead to the **Certified Entry Level Python Programmer** credential. Python is the most widely-used programming language for data science, AI, web backends, and automation. A student who earns this credential in high school can step directly into a paid internship or entry-level dev role.
+**Irving ISD Pathway:** **Computer Science (District Wide, every IISD high school)** and **Programming & Digital Tech (Singley Academy)** both lead to the **Certified Entry Level Python Programmer** credential. Python is the most widely-used programming language for data science, AI, web backends, and automation. A student who earns this credential in high school can step directly into a paid internship or entry-level dev role.
 
 ## Vocabulary
 
@@ -51,17 +51,17 @@ Information Technology is one of the fastest-growing and highest-paying career c
 
 The H&L workbook (Ch 12: Information Technology, pp. 191-207) covers **five IT pathways**:
 
-1. **Information Technology Support and Services** — Help people and businesses troubleshoot computers and networks.
-2. **Web Development** — Create and maintain websites that look good and function well.
-3. **Networking Systems** — Design, set up, and maintain the systems that connect computers to the internet.
-4. **Cybersecurity** — Protect computers, networks, and data from hackers and cyber threats.
-5. **Programming and Software Development** — Write code to create apps, games, and computer programs.
+1. **Information Technology Support and Services:** Help people and businesses troubleshoot computers and networks.
+2. **Web Development:** Create and maintain websites that look good and function well.
+3. **Networking Systems:** Design, set up, and maintain the systems that connect computers to the internet.
+4. **Cybersecurity:** Protect computers, networks, and data from hackers and cyber threats.
+5. **Programming and Software Development:** Write code to create apps, games, and computer programs.
 
 The chapter includes three named activities (used across Weeks 2-5):
 
-- **Cybersecurity in Action** (saved for Wk5) — Cyber Safety Creator project
-- **Job Applications** (referenced in Wk3) — Practice filling out a standard job application for Future Work, Inc.
-- **Website Design** (saved for Wk3) — Web Developer wireframing project
+- **Cybersecurity in Action** (saved for Wk5): Cyber Safety Creator project
+- **Job Applications** (referenced in Wk3): Practice filling out a standard job application for Future Work, Inc.
+- **Website Design** (saved for Wk3): Web Developer wireframing project
 
 Week 2 focuses on the **Programming and Software Development** pathway specifically. The chapter intro (Ch 12, p. 192) is the foundation reading for the entire IT block (Wks 2-5).
 
@@ -79,16 +79,16 @@ Week 2 focuses on the **Programming and Software Development** pathway specifica
 | 1 | IT Cluster Tour + 5 Pathways | H&L Ch 12 read-along + Making Connections + IT cluster app exploration | Stop and Jot notes (2 careers, 2 questions) |
 | 2 | Programming Pathway Deep-Dive | Explore Software Developer, Web Developer, App Developer, Game Developer Hats in H&L | Hat Research worksheet (Ch 12, p. 199) for one programming career |
 | 3 | IT Salary Showdown | H&L salary data + BLS cross-reference + IT Salary Comparison worksheet (3 careers) | Completed salary comparison worksheet |
-| 4 | Hour of Code (Day 1) | Code.org Hour of Code tutorial — students choose theme | Completed Hour of Code certificate (Code.org issues automatically) |
+| 4 | Hour of Code (Day 1) | Code.org Hour of Code tutorial, students choose theme | Completed Hour of Code certificate (Code.org issues automatically) |
 | 5 | Hour of Code (Day 2) + Pathway Fit + Favorites | Finish Hour of Code + H&L Pathway Fit Assessment + favorite 2 IT careers + Xello Favorite Clusters | Hour of Code finished + 2 IT favorites + Xello cluster favorited |
 
 ## Formative Assessment
 
-- **Day 1:** Stop and Jot notes for evidence of IT cluster knowledge — d(1)(B)
-- **Day 2:** Hat Research worksheet completion + accuracy — d(1)(C)
-- **Day 3:** IT Salary Comparison worksheet with 3 careers, accurate salary and education data — d(5)(A), d(5)(E)
-- **Day 4:** Hour of Code progress check — students should reach the midpoint of their chosen tutorial — d(1)(C)
-- **Day 5:** Hour of Code completion certificate + 2 favorited IT careers in Climber Profile — d(1)(C)
+- **Day 1:** Stop and Jot notes for evidence of IT cluster knowledge, d(1)(B)
+- **Day 2:** Hat Research worksheet completion + accuracy, d(1)(C)
+- **Day 3:** IT Salary Comparison worksheet with 3 careers, accurate salary and education data, d(5)(A), d(5)(E)
+- **Day 4:** Hour of Code progress check; students should reach the midpoint of their chosen tutorial, d(1)(C)
+- **Day 5:** Hour of Code completion certificate + 2 favorited IT careers in Climber Profile, d(1)(C)
 
 ## Summative Assessment
 
@@ -100,7 +100,7 @@ Week 2 focuses on the **Programming and Software Development** pathway specifica
 
 - Pre-printed IT Salary Comparison worksheet with one career filled in (Software Developer) as a model.
 - BLS data extraction guide showing exactly which fields to copy (highlighted screenshots).
-- Pair work option for Hour of Code — one student drives, the other navigates.
+- Pair work option for Hour of Code: one student drives, the other navigates.
 - Provide a Code.org tutorial picker that recommends easier tutorials (Minecraft Adventurer, Frozen) for students new to coding.
 
 ### Extensions
@@ -113,5 +113,5 @@ Week 2 focuses on the **Programming and Software Development** pathway specifica
 
 - Pre-teach: Algorithm = Algoritmo, Software Developer = Desarrollador de software, Code = Código, Debugging = Depuración, Programming Language = Lenguaje de programación.
 - Bilingual IT Salary Comparison worksheet with Spanish column headers.
-- Code.org Hour of Code is available in Spanish — direct ELL students to the Spanish tutorial selector.
+- Code.org Hour of Code is available in Spanish. Direct ELL students to the Spanish tutorial selector.
 - Pair ELL students with bilingual peers for the Day 5 Pathway Fit discussion.

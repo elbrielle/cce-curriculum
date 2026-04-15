@@ -16,7 +16,7 @@
 
 **WARM-UP: If you could work at any company's marketing department in DFW, which company would you choose and why? AT&T, Toyota, Mary Kay, American Airlines, Frito-Lay, Topgolf, the Cowboys?**
 
-Take 4-5 student responses. This builds personal connection to the local marketing industry. DFW has one of the largest concentrations of corporate marketing teams in the country — students should know they can have this career at home.
+Take 4-5 student responses. This builds personal connection to the local marketing industry. DFW has one of the largest concentrations of corporate marketing teams in the country. Students should know they can have this career at home.
 
 ---
 
@@ -28,22 +28,22 @@ Today students pull together everything from this week into a 1-minute Mini Mark
 
 **Pitch structure (1 minute, no more):**
 
-1. **Hook (10 seconds)** — One sentence that grabs attention. Example: *"Imagine getting a box of mystery snacks from a different country every month — that's our subscription box."*
-2. **Product/Service (15 seconds)** — Name + what it is + what's in it
-3. **Target Audience (10 seconds)** — Who buys it and why
-4. **One Marketing Channel (15 seconds)** — How will you reach the audience? (Instagram ads, TikTok influencers, school flyers, billboards, etc.)
-5. **Why it will sell (10 seconds)** — One sentence connecting to economic conditions: *"This will sell because even in a tough economy, people still want affordable fun."*
+1. **Hook (10 seconds):** One sentence that grabs attention. Example: *"Imagine getting a box of mystery snacks from a different country every month, that's our subscription box."*
+2. **Product/Service (15 seconds):** Name + what it is + what's in it
+3. **Target Audience (10 seconds):** Who buys it and why
+4. **One Marketing Channel (15 seconds):** How will you reach the audience? (Instagram ads, TikTok influencers, school flyers, billboards, etc.)
+5. **Why it will sell (10 seconds):** One sentence connecting to economic conditions: *"This will sell because even in a tough economy, people still want affordable fun."*
 
 **Student work time (10 min):** Students draft their 1-minute pitch on a notecard or in a Google Doc. They practice silently or with a partner.
 
-**Pitches (15 min):** Students take turns presenting to a small group of 4-5 (NOT the whole class — there isn't time). Each student presents in 1 minute. Group members give Two Stars and a Wish feedback.
+**Pitches (15 min):** Students take turns presenting to a small group of 4-5 (NOT the whole class, there isn't time). Each student presents in 1 minute. Group members give Two Stars and a Wish feedback.
 
 For larger classes, run pitches in parallel groups simultaneously. Each group selects ONE "best pitch" to present to the whole class at the end.
 
 !!! tip "Facilitation Tip"
     Project a 60-sec visible timer during pitches. Because pitches run in parallel small groups (not whole-class), students get a low-stakes first try at a timed delivery. Announce the 60-sec limit before pitches start. If a student is still wrapping at 60 sec, let them finish the sentence and move on.
 
-**DOK 4:** What makes a pitch convincing? Is it the product, the target audience research, or the way the person delivers it? Which matters MORE in real marketing — and why?
+**DOK 4:** What makes a pitch convincing? Is it the product, the target audience research, or the way the person delivers it? Which matters MORE in real marketing, and why?
 
 **DELIVERABLE:** 1-minute Marketing Plan pitch (delivered orally to small group with feedback).
 
@@ -57,7 +57,7 @@ Direct students to log into eDynamic Learning and open **Unit 4.1: Enterprise an
 
 > [VERIFY IN eDynamic] Confirm which specific activities within eDynamic Unit 4.1 cover Marketing careers vs. Business Management vs. Finance. Direct students to marketing-specific content.
 
-Students work at their own pace. They will not finish today — that is fine. The unit continues into next week's Sales/Presentations week.
+Students work at their own pace. They will not finish today, that is fine. The unit continues into next week's Sales/Presentations week.
 
 ---
 
@@ -68,11 +68,11 @@ Students work at their own pace. They will not finish today — that is fine. Th
 Direct students to open H&L and complete two tasks:
 
 1. **Favorite at least 2 Marketing careers** using the Hat Finder. Save them to the Climber Profile.
-2. **Update Building Blocks** — Add any marketing or design experiences from this week (created an ad, designed a subscription box, used Google Applied Digital Skills, gave a pitch).
+2. **Update Building Blocks:** Add any marketing or design experiences from this week (created an ad, designed a subscription box, used Google Applied Digital Skills, gave a pitch).
 
 > [H&L PLATFORM] Students click the heart icon on Hats they want to save. Favorites feed into the H&L Career Plan and the District Course Planner.
 
-The Career Plan is cumulative — students should NOT start over. It now reflects every cluster they've explored this year.
+The Career Plan is cumulative. Students should NOT start over. It now reflects every cluster they've explored this year.
 
 ---
 
@@ -86,4 +86,4 @@ The Career Plan is cumulative — students should NOT start over. It now reflect
 
 - **Support:** Allow students to read their pitch from a notecard (not memorized). Provide a fill-in-the-blank pitch template ("Our product is _____. It's for _____. We will reach them through _____. People will buy it because _____.").
 - **Extension:** Students who finish their pitch early write a 2-paragraph "marketing resume" describing themselves as a marketing freelancer (skills, experience, services offered, target clients).
-- **ELL:** Allow pitch in Spanish or bilingual format. DFW has a huge Spanish-language marketing industry — bilingual marketers are highly paid. Pre-teach: Pitch = Presentación corta, Audience = Audiencia, Channel = Canal.
+- **ELL:** Allow pitch in Spanish or bilingual format. DFW has a huge Spanish-language marketing industry, bilingual marketers are highly paid. Pre-teach: Pitch = Presentación corta, Audience = Audiencia, Channel = Canal.

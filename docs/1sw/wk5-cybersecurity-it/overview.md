@@ -26,7 +26,7 @@ Students explore the Cybersecurity pathway through Hats & Ladders, complete the 
 
 - NOVA Cybersecurity Lab (free PBS game): [pbs.org/wgbh/nova/labs/lab/cyber/](https://www.pbs.org/wgbh/nova/labs/lab/cyber/)
 - CyberSeek Career Pathway Map: [cyberseek.org/pathway.html](https://www.cyberseek.org/pathway.html)
-- BLS — Information Security Analysts: [bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm](https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm)
+- BLS, Information Security Analysts: [bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm](https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm)
 - Irving ISD CTE Pathways poster
 - Wk0 My Career Journey reflection handouts (return to students)
 - Xello (Save Careers activity)
@@ -34,7 +34,7 @@ Students explore the Cybersecurity pathway through Hats & Ladders, complete the 
 
 ## Career Connection
 
-Cybersecurity is one of the most critical and fastest-growing career fields in the world. Every company, hospital, school, and government agency needs cybersecurity professionals. In the U.S., there are currently hundreds of thousands of UNFILLED cybersecurity jobs because there are not enough trained professionals — meaning a 7th grader who decides to pursue cybersecurity now will graduate into a wide-open job market. This is also a career where **integrity** and **work ethic** are not optional — cybersecurity professionals are trusted with the most sensitive data of millions of people.
+Cybersecurity is one of the most critical and fastest-growing career fields in the world. Every company, hospital, school, and government agency needs cybersecurity professionals. In the U.S., there are currently hundreds of thousands of UNFILLED cybersecurity jobs because there are not enough trained professionals, meaning a 7th grader who decides to pursue cybersecurity now will graduate into a wide-open job market. This is also a career where **integrity** and **work ethic** are not optional, cybersecurity professionals are trusted with the most sensitive data of millions of people.
 
 **Irving ISD Pathway:** **Cybersecurity at Singley Academy** leads to the **Cybersecurity Fundamentals** certification. Singley also offers Networking-related coursework that supports cybersecurity. This is a high-demand, high-wage pathway with strong job security. A student who follows this pathway can earn an industry credential in high school and step into a $50K+ entry-level cybersecurity role.
 
@@ -45,7 +45,7 @@ Cybersecurity is one of the most critical and fastest-growing career fields in t
 - **Ethical Hacking:** Authorized testing of computer systems to find security vulnerabilities BEFORE malicious hackers find them. Also called penetration testing.
 - **Information Security Analyst:** The most common cybersecurity job title. Monitors a company's networks for threats and responds to attacks.
 - **Integrity:** The quality of being honest and having strong moral principles. In cybersecurity, integrity means protecting data and following ethical standards even when no one is watching.
-- **Postsecondary Education:** Education AFTER high school — college, trade school, certifications, military training, apprenticeships.
+- **Postsecondary Education:** Education AFTER high school, college, trade school, certifications, military training, apprenticeships.
 - **Glowforge:** A desktop laser cutter that cuts and engraves wood, acrylic, leather, and other materials using SVG vector files.
 - **SVG (Scalable Vector Graphic):** A digital file format made of lines and shapes (not pixels) that the Glowforge can cut.
 
@@ -55,13 +55,13 @@ The H&L workbook (Ch 12: Information Technology, pp. 193-195) features the **Cyb
 
 The workbook offers three tool options (Ch 12, p. 193):
 
-1. **A Kid-Friendly Cyber Security Guide** — a colorful, engaging guide (paper or digital brochure) with tips for spotting safe websites.
-2. **A Cyber Safety App or System** — invent an app or software concept (with a creative name) that helps parents and kids monitor safe internet use.
-3. **A Public Service Announcement** — a video script, audio script, or poster explaining how to make wise online purchase decisions.
+1. **A Kid-Friendly Cyber Security Guide:** a colorful, engaging guide (paper or digital brochure) with tips for spotting safe websites.
+2. **A Cyber Safety App or System:** invent an app or software concept (with a creative name) that helps parents and kids monitor safe internet use.
+3. **A Public Service Announcement:** a video script, audio script, or poster explaining how to make wise online purchase decisions.
 
 The activity is a 4-step process: choose a tool, brainstorm and research, design the tool, and get peer feedback using a rubric (Ch 12, p. 195) on Understanding the Problem, Right Information, and Age-Appropriate.
 
-The Glowforge college/career logo project is a teacher-designed extension that connects to TEKS d(3)(A) — describing the MS-to-HS transition. Students choose a college, trade school, certification program, or career as their postsecondary goal and laser-cut a representative logo. This becomes a tangible artifact of their first big future-planning decision.
+The Glowforge college/career logo project is a teacher-designed extension that connects to TEKS d(3)(A): describing the MS-to-HS transition. Students choose a college, trade school, certification program, or career as their postsecondary goal and laser-cut a representative logo. This becomes a tangible artifact of their first big future-planning decision.
 
 ## IISD Instructional Strategies
 
@@ -74,18 +74,18 @@ The Glowforge college/career logo project is a teacher-designed extension that c
 | Day | Focus | Key Activities | Deliverable |
 |-----|-------|---------------|-------------|
 | 1 | Cybersecurity Pathway + CyberSeek | H&L Cybersecurity Hat exploration + CyberSeek pathway map exploration | Cybersecurity career notes + CyberSeek pathway traced |
-| 2 | Cybersecurity in Action (Day 1 — Brainstorm + Design) | H&L "Cybersecurity in Action" Steps 1-3: choose tool, brainstorm, design | Cyber Safety tool design (sketch/draft) |
-| 3 | Cybersecurity in Action (Day 2 — Peer Feedback) + Integrity Discussion | H&L Step 4: peer feedback rubric + class discussion on integrity | Refined Cyber Safety tool + integrity reflection |
+| 2 | Cybersecurity in Action (Day 1, Brainstorm + Design) | H&L "Cybersecurity in Action" Steps 1-3: choose tool, brainstorm, design | Cyber Safety tool design (sketch/draft) |
+| 3 | Cybersecurity in Action (Day 2, Peer Feedback) + Integrity Discussion | H&L Step 4: peer feedback rubric + class discussion on integrity | Refined Cyber Safety tool + integrity reflection |
 | 4 | College/Career Logo Design + Glowforge (Round 1) | Design a logo in Canva/Adobe Express; first batch of Glowforge cuts | Final logo design + first batch of cuts |
 | 5 | Glowforge Wrap-Up + 1SW Capstone Reflection | Finish Glowforge cuts + Gallery Walk + Wk0 Reflection update + Xello Save Careers | Updated My Career Journey reflection + completed Glowforge logo |
 
 ## Formative Assessment
 
-- **Day 1:** Cybersecurity Hat exploration + CyberSeek pathway traced — d(1)(D)
-- **Day 2:** Cyber Safety tool design (any of the 3 tool types) — d(4)(F)
-- **Day 3:** Peer feedback rubric completed + integrity reflection — d(4)(F)
-- **Day 4:** Logo connects to a specific postsecondary goal (not random) — d(3)(A)
-- **Day 5:** Updated My Career Journey reflection — synthesis across all 5 weeks — d(1)(D), d(3)(A)
+- **Day 1:** Cybersecurity Hat exploration + CyberSeek pathway traced, d(1)(D)
+- **Day 2:** Cyber Safety tool design (any of the 3 tool types): d(4)(F)
+- **Day 3:** Peer feedback rubric completed + integrity reflection, d(4)(F)
+- **Day 4:** Logo connects to a specific postsecondary goal (not random): d(3)(A)
+- **Day 5:** Updated My Career Journey reflection, synthesis across all 5 weeks, d(1)(D), d(3)(A)
 
 ## Summative Assessment
 

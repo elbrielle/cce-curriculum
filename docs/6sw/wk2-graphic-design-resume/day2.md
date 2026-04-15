@@ -14,9 +14,9 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: If someone asked you to list every skill, every activity, every accomplishment, every responsibility, and every community service you have ever done — how long would the list be? Try it. Just write the list.**
+**WARM-UP: If someone asked you to list every skill, every activity, every accomplishment, every responsibility, and every community service you have ever done, how long would the list be? Try it. Just write the list.**
 
-Give students 3 minutes to write. Most students will think they have nothing — then surprise themselves at how long the list gets when they actually try. This is the opening hook for "you have more resume content than you think."
+Give students 3 minutes to write. Most students will think they have nothing, then surprise themselves at how long the list gets when they actually try. This is the opening hook for "you have more resume content than you think."
 
 ---
 
@@ -28,27 +28,27 @@ Open Xello and project the Resume Builder on the board. Walk through a sample mi
 
 Walk through each section:
 
-**Header (1 min)** — Name, address (city + state OK, no street for safety), phone, email, school. Make it look professional. No emojis. No nicknames.
+**Header (1 min):** Name, address (city + state OK, no street for safety), phone, email, school. Make it look professional. No emojis. No nicknames.
 
-**Career Objective (3 min)** — One or two sentences about what the student wants. Show several samples:
+**Career Objective (3 min):** One or two sentences about what the student wants. Show several samples:
 
 - *"To explore a career in graphic design and contribute creative skills to a school yearbook or design club."*
 - *"To gain experience working with younger children through a tutoring or summer camp role."*
 - *"Seeking a part-time role using my customer service and communication skills."*
 
-**Education (2 min)** — Current school, grade, expected graduation year. Honor roll, GPA (if strong), perfect attendance — anything that shows academic engagement.
+**Education (2 min):** Current school, grade, expected graduation year. Honor roll, GPA (if strong), perfect attendance, anything that shows academic engagement.
 
-**Skills (3 min)** — Push students hard here. Skills include:
+**Skills (3 min):** Push students hard here. Skills include:
 
 - **Technology:** Google Workspace, Canva, basic coding (Scratch, Python intro), TinkerCAD, Adobe Express, Microsoft Office
 - **Languages:** English, Spanish, ASL, etc. (Bilingual = HUGE on a resume)
 - **Soft skills:** Communication, teamwork, time management, problem-solving, leadership
 
-**Activities & Awards (2 min)** — TSA, athletics, band, choir, theater, robotics, student council, honor roll, perfect attendance, science fair winner, art show, math team
+**Activities & Awards (2 min):** TSA, athletics, band, choir, theater, robotics, student council, honor roll, perfect attendance, science fair winner, art show, math team
 
-**Community Service (2 min)** — Tutoring, peer mentoring, food bank, church/temple/mosque service, family caregiver responsibilities, helping at school events
+**Community Service (2 min):** Tutoring, peer mentoring, food bank, church/temple/mosque service, family caregiver responsibilities, helping at school events
 
-**References (2 min)** — Skip this section on a middle school resume OR write "Available upon request"
+**References (2 min):** Skip this section on a middle school resume OR write "Available upon request"
 
 The key teaching moment is to keep showing students that their lives ARE resume material. Tutoring a younger sibling = childcare experience. Helping at a church festival = event setup + customer service. Babysitting = responsibility + time management.
 
@@ -65,9 +65,9 @@ Direct students to log into Xello and open the **Resume Builder** feature. Xello
 
 Students work independently. Teacher circulates with three jobs:
 
-1. **Help students who claim they have nothing** — Pull out their actual life: babysitting, tutoring, sports, helping family, school clubs. Push them to write SOMETHING in every section.
-2. **Check skills sections** — Most students undersell their tech skills. Ask "Have you used Canva? Google Slides? TinkerCAD? Scratch? Photoshop?" If yes, it goes on the resume.
-3. **Check career objective quality** — Vague objectives ("I want a job") get sent back. Specific objectives ("I want a part-time job working with animals or in a daycare") stay.
+1. **Help students who claim they have nothing:** Pull out their actual life: babysitting, tutoring, sports, helping family, school clubs. Push them to write SOMETHING in every section.
+2. **Check skills sections:** Most students undersell their tech skills. Ask "Have you used Canva? Google Slides? TinkerCAD? Scratch? Photoshop?" If yes, it goes on the resume.
+3. **Check career objective quality:** Vague objectives ("I want a job") get sent back. Specific objectives ("I want a part-time job working with animals or in a daycare") stay.
 
 **Goal for Day 2:** Every student leaves with a complete first-draft resume saved in Xello, even if it is rough. Day 3 is for revision and refinement.
 
@@ -90,4 +90,4 @@ Students work independently. Teacher circulates with three jobs:
 
 - **Support:** Provide the printed Resume Template as a fallback for students struggling with Xello. Allow them to fill it out by hand and type it into Xello later. Provide a list of 20 sample skills (technology, language, soft skills) so students can pick from a menu instead of generating from scratch.
 - **Extension:** Students who finish early use CareerOneStop Resume Guide to learn about action verbs ("organized," "led," "created," "designed") and rewrite their bullet points using stronger language.
-- **ELL:** Pre-teach: Resume = Currículum, Education = Educación, Skills = Habilidades, Experience = Experiencia, Activities = Actividades, References = Referencias. Bilingual middle schoolers should ALWAYS list Spanish (or other home language) as a skill — bilingual is one of the most marketable skills in DFW. Pair ESL students with bilingual peers if needed.
+- **ELL:** Pre-teach: Resume = Currículum, Education = Educación, Skills = Habilidades, Experience = Experiencia, Activities = Actividades, References = Referencias. Bilingual middle schoolers should ALWAYS list Spanish (or other home language) as a skill, bilingual is one of the most marketable skills in DFW. Pair ESL students with bilingual peers if needed.

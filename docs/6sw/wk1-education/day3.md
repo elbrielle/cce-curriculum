@@ -16,20 +16,20 @@
 
 **WARM-UP: Imagine you are 18 and looking for your first real job. What is the very first thing you would do? Do you go to a website? Walk into a store? Ask family? Write down your answer.**
 
-Take 3 student responses. Most will say "Indeed" or "ask my parents." Bridge to today: every great job search starts with a process — and the H&L workbook spells out the steps.
+Take 3 student responses. Most will say "Indeed" or "ask my parents." Bridge to today: every great job search starts with a process, and the H&L workbook spells out the steps.
 
 ---
 
 ## Activity 1: Job Searching Steps (12 min)
 
-**Source:** H&L Workbook Ch 6, pp. 95-96 — "Job Searching Steps"
+**Source:** H&L Workbook Ch 6, pp. 95-96, "Job Searching Steps"
 
 Walk through the four steps from the workbook. Display each on the projector and discuss briefly:
 
-1. **Know Yourself** — Think about what you're good at, what kind of job you'd enjoy, and how much money you'd like to make. *(Teacher note: This is exactly what students have been doing all year through RIASEC, Hat research, and Building Blocks.)*
-2. **Get Your Materials Ready** — Create a resume, write a cover letter, and practice answering common interview questions. *(Teacher note: This is Weeks 2, 4, and 5 of this six-weeks block.)*
-3. **Search Smart & Connect** — Talk to people in the field, go to job fairs, and use websites and online job platforms. Use specific keywords like "part-time cashier" or "entry-level graphic design" to filter results.
-4. **Ask for Help** — School counselors, local job centers, and career coaches can give advice, check your resume, and even help you find openings.
+1. **Know Yourself:** Think about what you're good at, what kind of job you'd enjoy, and how much money you'd like to make. *(Teacher note: This is exactly what students have been doing all year through RIASEC, Hat research, and Building Blocks.)*
+2. **Get Your Materials Ready:** Create a resume, write a cover letter, and practice answering common interview questions. *(Teacher note: This is Weeks 2, 4, and 5 of this six-weeks block.)*
+3. **Search Smart & Connect:** Talk to people in the field, go to job fairs, and use websites and online job platforms. Use specific keywords like "part-time cashier" or "entry-level graphic design" to filter results.
+4. **Ask for Help:** School counselors, local job centers, and career coaches can give advice, check your resume, and even help you find openings.
 
 After walking through the steps, students take 2 minutes to write a one-sentence reflection: *"Of these four steps, the one I am most prepared for right now is _____ because _____."*
 
@@ -37,7 +37,7 @@ After walking through the steps, students take 2 minutes to write a one-sentence
 
 ## Activity 2: H&L Job Search Scavenger Hunt (25 min)
 
-**Source:** H&L Workbook Ch 6, pp. 96-97 — "Job Search Scavenger Hunt"
+**Source:** H&L Workbook Ch 6, pp. 96-97, "Job Search Scavenger Hunt"
 
 Introduce the activity using the workbook scenario: students will use a job search engine (Indeed.com is the easiest) to find real job postings that match four specific clues. They will fill out the workbook chart with company name, job title, and salary (or "none" if not listed).
 
@@ -61,7 +61,7 @@ Direct students to indeed.com (or ZipRecruiter). They search the DFW area. For e
 This is a real research skill. Students learn that not all jobs post salaries, that "remote" is a filter on Indeed, and that "team-based" jobs often say so in the description.
 
 !!! tip "Facilitation Tip"
-    Show students the Indeed.com filters on the projector at the start: location (Dallas TX), remote toggle, and the search bar. This eliminates 80% of the "I can't find anything" hands. Also model what counts as evidence — the job description must say "team," "collaborate," or "work with others," not just imply it.
+    Show students the Indeed.com filters on the projector at the start: location (Dallas TX), remote toggle, and the search bar. This eliminates 80% of the "I can't find anything" hands. Also model what counts as evidence, the job description must say "team," "collaborate," or "work with others," not just imply it.
 
 After students complete the chart, lead a quick partner discussion using the workbook's discussion questions (Ch 6, p. 97):
 
@@ -69,7 +69,7 @@ After students complete the chart, lead a quick partner discussion using the wor
 - What was the most challenging part of the job search process?
 - What is one key takeaway from this activity that will help you in the future?
 
-**DOK 2:** Did the salary information you found match what you expected? Were any of the salaries surprising — too high or too low?
+**DOK 2:** Did the salary information you found match what you expected? Were any of the salaries surprising, too high or too low?
 
 ---
 
@@ -81,7 +81,7 @@ Direct students to log into Xello and open the **Discover Learning Pathways** le
 
 Students work through the lesson at their own pace. Most will finish in 8 minutes. Those who don't can complete it as homework or during catch-up time.
 
-**Connection to the week:** Becoming a teacher is one specific pathway. But Xello shows students the FULL menu of options — and any of them can lead to an education-adjacent career (corporate trainer, instructional designer, ESL coach, daycare director, etc.).
+**Connection to the week:** Becoming a teacher is one specific pathway. But Xello shows students the FULL menu of options, and any of them can lead to an education-adjacent career (corporate trainer, instructional designer, ESL coach, daycare director, etc.).
 
 ---
 

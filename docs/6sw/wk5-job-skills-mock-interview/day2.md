@@ -46,15 +46,15 @@ Irving, TX
 
 (Note: Use a real name if you have one. "To Whom It May Concern" is outdated. "Dear Hiring Manager" is the safe modern default.)
 
-**Paragraph 1 — Why I'm writing:**
+**Paragraph 1, Why I'm writing:**
 
 > *"I am writing to apply for the Part-Time Office Assistant position at Pecan Creek Veterinary Clinic, which I saw posted on the school job board. I am a 7th-grade student at [Your Middle School], and I am excited about the opportunity to work with animals while building professional office skills."*
 
-**Paragraph 2 — Why I'm qualified:**
+**Paragraph 2, Why I'm qualified:**
 
 > *"I have experience caring for my family's two dogs and a cat, and I am comfortable around animals of all sizes. I have strong organizational skills from helping with filing in the school library, and I am proficient with Google Workspace and basic office software. I am dependable, reliable, and known for being friendly with people I meet. I am bilingual in English and Spanish, which I understand could be helpful in working with all of your patients' families."*
 
-**Paragraph 3 — Call to action:**
+**Paragraph 3, Call to action:**
 
 > *"Thank you for considering my application. I have attached my resume for your review. I would welcome the chance to interview and learn more about how I can contribute to your team. Please feel free to contact me at (469) 555-0100 or alex.martinez@email.com."*
 
@@ -65,7 +65,7 @@ Sincerely,
 Alex Martinez
 ```
 
-Narrate decisions while writing: "I'm starting paragraph 2 with my dog experience because the job involves animals — that's the most relevant fact. I'm mentioning bilingual at the end because it's a bonus, not the main reason."
+Narrate decisions while writing: "I'm starting paragraph 2 with my dog experience because the job involves animals, that's the most relevant fact. I'm mentioning bilingual at the end because it's a bonus, not the main reason."
 
 !!! tip "Facilitation Tip"
     Make the modeling INTERACTIVE. Pause after each paragraph and ask: "What did I include? Why did I include it? What did I leave out?" Students often learn more from watching the writing than from being told the rules.
@@ -90,7 +90,7 @@ Each paragraph should be 3-5 sentences. NOT one giant paragraph.
 Teacher circulates with three checks:
 
 1. **Is the FIRST sentence specific to this job?** (Names the position, says how they found it.) If vague, send back.
-2. **Are the QUALIFICATIONS connected to this specific job?** (Animal experience, organization, friendly attitude — for the vet clinic.) If generic, send back.
+2. **Are the QUALIFICATIONS connected to this specific job?** (Animal experience, organization, friendly attitude, for the vet clinic.) If generic, send back.
 3. **Does the CALL TO ACTION include contact info?** Many students forget this.
 
 By the end of class, every student has a complete cover letter saved in Google Docs.

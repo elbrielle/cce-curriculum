@@ -16,7 +16,7 @@
 
 **WARM-UP: If someone brought you a computer that would not turn on, what are the FIRST 3 things you would check, in order?**
 
-Quick share. Listen for: "Is it plugged in?" "Is the power button working?" "Is the screen on?" Bridge: "What you just did is troubleshooting — and it has a specific ORDER. Today you build a tool that displays troubleshooting steps in order, just like real help desk software."
+Quick share. Listen for: "Is it plugged in?" "Is the power button working?" "Is the screen on?" Bridge: "What you just did is troubleshooting, and it has a specific ORDER. Today you build a tool that displays troubleshooting steps in order, just like real help desk software."
 
 ---
 
@@ -37,7 +37,7 @@ Walk students through MakeCode setup on the projector:
 5. Click **"Download"** in the bottom-left to push code to the device.
 
 !!! warning "Common Issue"
-    Some Chromebooks block USB device access. If a student cannot download to the micro:bit, use the Web USB pairing flow (click "Connect device" in MakeCode). Some devices may need the firmware update — check the micro:bit support page if pairing fails.
+    Some Chromebooks block USB device access. If a student cannot download to the micro:bit, use the Web USB pairing flow (click "Connect device" in MakeCode). Some devices may need the firmware update, check the micro:bit support page if pairing fails.
 
 ---
 
@@ -49,7 +49,7 @@ Project the MakeCode workspace and walk students through building this exact sta
 2. From the **Input** category, drag an `on button A pressed` block into the workspace.
 3. From **Basic**, drag a `show string` block into the `on button A pressed` area. Type the first troubleshooting step: "Step 1: Restart"
 4. Click **Download** and load it to the micro:bit.
-5. Press Button A on the micro:bit — students should see "Step 1: Restart" scroll across the LED display.
+5. Press Button A on the micro:bit. Students should see "Step 1: Restart" scroll across the LED display.
 
 **Visual checkpoint:** Hold up your micro:bit when "Step 1: Restart" is showing. Verify every team got it before moving on.
 
@@ -84,7 +84,7 @@ To build the cycling logic, students use a **variable** called `step` that incre
 2. In `on button A pressed`, use a `change step by 1` block.
 3. Use `if/then/else` blocks (from **Logic**) to display different messages based on the value of `step`.
 
-Walk between teams. The trickiest part is the `if/then` logic — sit with teams that get stuck.
+Walk between teams. The trickiest part is the `if/then` logic, sit with teams that get stuck.
 
 !!! tip "Facilitation Tip"
     Some teams will get frustrated with the if/else nesting. Tell them: "If you can get just TWO steps working today (Step 1 and Step 2), you have done well. We refine tomorrow." Don't push perfection on day 1.

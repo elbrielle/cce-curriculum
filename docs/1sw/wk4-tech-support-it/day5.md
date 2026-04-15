@@ -16,7 +16,7 @@
 
 **WARM-UP: After 4 weeks in the IT cluster, rank these IT pathways from most to least interesting to YOU: Programming, Web Development, Networking Systems, Tech Support, Cybersecurity (next week!). Write your ranking.**
 
-Quick share. This is informal data — listen for which pathways are catching on. Bridge: "Today you demo your help desk tool. Then we make sure your favorites are saved before we hit cybersecurity next week."
+Quick share. This is informal data, listen for which pathways are catching on. Bridge: "Today you demo your help desk tool. Then we make sure your favorites are saved before we hit cybersecurity next week."
 
 ---
 
@@ -26,11 +26,11 @@ Each team has 3 minutes to demo their micro:bit help desk tool. Project the team
 
 **Demo structure (project on screen):**
 
-1. **The Scenario** — What IT problem did you program for? (15 seconds)
-2. **The Steps** — Walk through your troubleshooting steps in order. Show what the micro:bit displays for each. (1 minute)
-3. **Why this order?** — Justify why you put the steps in this specific order. (30 seconds)
-4. **The Career** — Name one IT support career that would actually use a tool like this. Why? (30 seconds)
-5. **The Powerskill** — Which Powerskill (communication, problem-solving, patience, attention to detail) was the most important when you built this? (30 seconds)
+1. **The Scenario:** What IT problem did you program for? (15 seconds)
+2. **The Steps:** Walk through your troubleshooting steps in order. Show what the micro:bit displays for each. (1 minute)
+3. **Why this order?:** Justify why you put the steps in this specific order. (30 seconds)
+4. **The Career:** Name one IT support career that would actually use a tool like this. Why? (30 seconds)
+5. **The Powerskill:** Which Powerskill (communication, problem-solving, patience, attention to detail) was the most important when you built this? (30 seconds)
 
 After each demo, class gives ONE compliment + ONE question. Track team scores informally on the board so students can see all the demos.
 
@@ -43,7 +43,7 @@ After each demo, class gives ONE compliment + ONE question. Track team scores in
 
 ## Activity 2: H&L IT Support Favorites + Reflection (15 min)
 
-> [H&L PLATFORM] Direct students to the H&L Climber Profile. They favorite at least 2 IT Support careers from the Information Technology Support and Services pathway using the Hat Finder. The workbook's Hat Research template (Ch 12, p. 199) can be used here — students may complete it for one IT support career before favoriting in the app. Favorites accumulate across all 4 IT weeks (Wks 2-5) — students should have 4-6 IT careers favorited by end of Wk5.
+> [H&L PLATFORM] Direct students to the H&L Climber Profile. They favorite at least 2 IT Support careers from the Information Technology Support and Services pathway using the Hat Finder. The workbook's Hat Research template (Ch 12, p. 199) can be used here. Students may complete it for one IT support career before favoriting in the app. Favorites accumulate across all 4 IT weeks (Wks 2-5): students should have 4-6 IT careers favorited by end of Wk5.
 
 **Sentence stems for the favorites reflection (in workbook margin):**
 

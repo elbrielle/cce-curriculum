@@ -16,26 +16,26 @@
 
 **WARM-UP: It is July in Texas. Your air conditioning breaks at 2 AM when it is 95 degrees outside. How much would you pay to have it fixed right now? What does that tell you about the value of HVAC technicians?**
 
-Collect 2-3 answers — some students will shout out large numbers. Bridge to the point: when something you depend on stops working, you value the person who can fix it. Skilled trades are valuable because they provide services no software or AI can replace.
+Collect 2-3 answers, some students will shout out large numbers. Bridge to the point: when something you depend on stops working, you value the person who can fix it. Skilled trades are valuable because they provide services no software or AI can replace.
 
 ---
 
 ## Activity 1: H&L Skilled Trades Intro (15 min)
 
-**Source:** H&L Workbook Ch 3, p. 38 — confirmed pathways: Electrical, HVAC and Sheet Metal, Masonry, Plumbing and Pipefitting
+**Source:** H&L Workbook Ch 3, p. 38, confirmed pathways: Electrical, HVAC and Sheet Metal, Masonry, Plumbing and Pipefitting
 
 Review the H&L workbook pathway descriptions:
 
-- **Electrical** — *Install, fix, and maintain electrical wiring, equipment, and fixtures; work with telecommunications cables, including fiber optics.*
-- **HVAC and Sheet Metal** — *Install, repair, and maintain heating and air conditioning systems; work with sheet metal to create and fix ducts, control boxes, and other equipment.*
-- **Plumbing and Pipefitting** — *Install, repair, and maintain pipes and fixtures for water, heating, and drainage systems; work with equipment that controls steam, cooling, and sprinklers.*
+- **Electrical:** *Install, fix, and maintain electrical wiring, equipment, and fixtures; work with telecommunications cables, including fiber optics.*
+- **HVAC and Sheet Metal:** *Install, repair, and maintain heating and air conditioning systems; work with sheet metal to create and fix ducts, control boxes, and other equipment.*
+- **Plumbing and Pipefitting:** *Install, repair, and maintain pipes and fixtures for water, heating, and drainage systems; work with equipment that controls steam, cooling, and sprinklers.*
 
 Direct students to open Hats & Ladders and navigate to the A&C cluster Hat Finder. They should explore each of the three Hats: **Electrician**, **Plumber**, and **HVAC Technician**. For each Hat, students check:
 
 - Education/training pathway (apprenticeship length, classroom hours, licensing)
 - DFW salary data (entry, median, top 10%)
 - Demand level (high, medium, low)
-- Perks, quirks, and job gear — rate whether each matches their personal style
+- Perks, quirks, and job gear, rate whether each matches their personal style
 
 !!! tip "Facilitation Tip"
     Students sometimes conflate Electrician and Electrical Engineer. Clarify: an electrician installs and fixes wiring (apprenticeship path, no degree required). An electrical engineer designs electrical systems and devices (bachelor's degree required). This week is about the trades, not the engineering path.
@@ -44,7 +44,7 @@ Direct students to open Hats & Ladders and navigate to the A&C cluster Hat Finde
 
 ## Activity 2: Skilled Trades Comparison Matrix — First 3 Trades (25 min)
 
-Distribute the Skilled Trades Comparison Matrix. The matrix has a column for each of the 4 trades (Electrician, Plumber, HVAC Tech, Welder) and rows for key data points. Today students fill in 3 of the 4 trades — welding comes on Day 2.
+Distribute the Skilled Trades Comparison Matrix. The matrix has a column for each of the 4 trades (Electrician, Plumber, HVAC Tech, Welder) and rows for key data points. Today students fill in 3 of the 4 trades, welding comes on Day 2.
 
 Matrix rows to complete today:
 
@@ -62,7 +62,7 @@ Matrix rows to complete today:
 Students work independently or in pairs. Teacher circulates and verifies students are pulling real numbers, not guesses.
 
 !!! tip "Facilitation Tip"
-    Common student misconception: they skip the apprenticeship row or write "4 years" without checking. Apprenticeship length varies by trade and state — Electrician is typically 4 years in Texas, Plumber is 4-5 years, HVAC is 3-5 years. Verify sources.
+    Common student misconception: they skip the apprenticeship row or write "4 years" without checking. Apprenticeship length varies by trade and state. Electrician is typically 4 years in Texas, Plumber is 4-5 years, HVAC is 3-5 years. Verify sources.
 
 **DOK 2:** How would you compare the licensing pathway for an Electrician versus an HVAC Technician? Which takes longer and why?
 

@@ -14,9 +14,9 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Guess — how much do you think an experienced diesel mechanic earns per year in Dallas? Write your guess.**
+**WARM-UP: Guess, how much do you think an experienced diesel mechanic earns per year in Dallas? Write your guess.**
 
-Take 5-6 student guesses. Most students wildly underestimate (typical guesses: $25K, $30K). Reveal at the end of the day: experienced diesel mechanics in DFW earn $55K-$75K, with master diesel techs at large fleets making $80K+. Bridge: today is all about replacing guesses with real numbers.
+Take 5-6 student guesses. Most students wildly underestimate (typical guesses: $25K, $30K). Reveal : experienced diesel mechanics in DFW earn $55K-$75K, with master diesel techs at large fleets making $80K+. Bridge: today is all about replacing guesses with real numbers.
 
 ---
 
@@ -42,10 +42,10 @@ The worksheet has these columns:
 
 Students gather data from three sources for cross-validation:
 
-1. **H&L Hat profile** — DFW-specific salary if available
+1. **H&L Hat profile:** DFW-specific salary if available
     > [H&L PLATFORM] The workbook (Ch 15: Transportation, Hat Research template, p. 256) provides a structured sheet for recording salary and demand data from the H&L Hat Finder.
-2. **BLS Occupational Outlook Handbook** — national median pay and 10-year job outlook
-3. **CareerOneStop Compare Occupations** — side-by-side career comparison with state-level data
+2. **BLS Occupational Outlook Handbook:** national median pay and 10-year job outlook
+3. **CareerOneStop Compare Occupations:** side-by-side career comparison with state-level data
 
 After filling in all three rows, students calculate one ratio for each career:
 
@@ -54,9 +54,9 @@ After filling in all three rows, students calculate one ratio for each career:
 This ratio surfaces something important: a career that requires a 6-month certificate and pays $50K has a much higher ratio than a 4-year degree career that pays $60K.
 
 !!! tip "Facilitation Tip"
-    Walk the room with a checklist. Verify each student has used at least 2 of the 3 sources for each career. Students who fill in only the H&L numbers are doing single-source research — push them to cross-check on BLS.
+    Walk the room with a checklist. Verify each student has used at least 2 of the 3 sources for each career. Students who fill in only the H&L numbers are doing single-source research, push them to cross-check on BLS.
 
-After completing the 3 automotive careers, students preview Day 5 by adding **one career from a different cluster** they explored earlier this year. Examples: Software Developer (1SW IT), Registered Nurse (2SW Health Science), Veterinarian (3SW Ag), Architect (5SW preview). They fill in only the salary and education time columns for the cross-cluster career — the full comparison happens Day 5.
+After completing the 3 automotive careers, students preview Day 5 by adding **one career from a different cluster** they explored earlier this year. Examples: Software Developer (1SW IT), Registered Nurse (2SW Health Science), Veterinarian (3SW Ag), Architect (5SW preview). They fill in only the salary and education time columns for the cross-cluster career, the full comparison happens Day 5.
 
 **DOK 4:** If you were advising a student who cared most about earning potential with the shortest education time, which automotive career would you recommend? Use specific numbers from your research to justify the recommendation.
 
@@ -64,7 +64,7 @@ After completing the 3 automotive careers, students preview Day 5 by adding **on
 
 ## Activity 2: Quick Class Tally (5 min)
 
-Take a quick verbal poll: which of the 3 automotive careers had the highest experienced DFW salary? Most students will be surprised that diesel often outpaces auto repair, especially at the experienced level. Discuss for 1-2 minutes why diesel pays more — fewer technicians, more demanding work, larger equipment.
+Take a quick verbal poll: which of the 3 automotive careers had the highest experienced DFW salary? Most students will be surprised that diesel often outpaces auto repair, especially at the experienced level. Discuss for 1-2 minutes why diesel pays more, fewer technicians, more demanding work, larger equipment.
 
 ---
 
@@ -77,5 +77,5 @@ Take a quick verbal poll: which of the 3 automotive careers had the highest expe
 ## Differentiation
 
 - **Support:** Pre-filled worksheet with one career row already completed (Auto Service Technician, with all 3 sources). Students replicate the process for the other 2 careers. Provide a calculator.
-- **Extension:** Research the salary trajectory across a 20-year career — what does an automotive technician earn at year 1, year 5, year 10, and year 20? Plot it on a simple line graph.
+- **Extension:** Research the salary trajectory across a 20-year career, what does an automotive technician earn at year 1, year 5, year 10, and year 20? Plot it on a simple line graph.
 - **ELL:** Bilingual salary worksheet with Spanish column headers: Salario inicial = Entry salary, Salario experimentado = Experienced salary, Tiempo de educación = Education time, Costo = Cost, Demanda = Demand. Sentence stem for the ratio analysis: "El _____ tiene la mejor proporción porque _____."

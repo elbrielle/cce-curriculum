@@ -20,9 +20,9 @@ Students explore construction careers through Hats & Ladders, investigate trade 
 ## Materials Needed
 
 - Chromebooks with internet access (1 per student)
-- Hats & Ladders student accounts + H&L Workbook (Ch 3: Architecture & Construction, pp. 37-54 — especially the "Power Pitch" activity, pp. 42-43, and Hat Research template, p. 47)
-- BLS — Construction Managers: [bls.gov/ooh/management/construction-managers.htm](https://www.bls.gov/ooh/management/construction-managers.htm)
-- BLS — Carpenters: [bls.gov/ooh/construction-and-extraction/carpenters.htm](https://www.bls.gov/ooh/construction-and-extraction/carpenters.htm)
+- Hats & Ladders student accounts + H&L Workbook (Ch 3: Architecture & Construction, pp. 37-54, especially the "Power Pitch" activity, pp. 42-43, and Hat Research template, p. 47)
+- BLS, Construction Managers: [bls.gov/ooh/management/construction-managers.htm](https://www.bls.gov/ooh/management/construction-managers.htm)
+- BLS, Carpenters: [bls.gov/ooh/construction-and-extraction/carpenters.htm](https://www.bls.gov/ooh/construction-and-extraction/carpenters.htm)
 - NCCER: [nccer.org](https://www.nccer.org)
 - Printed Construction Career Classification worksheet
 - Printed Apprenticeship Pathway infographic (apprentice → journeyman → master)
@@ -32,7 +32,7 @@ Students explore construction careers through Hats & Ladders, investigate trade 
 
 The construction industry has a massive labor shortage. Demand for skilled construction workers outpaces supply, which means strong job security, rising wages, and rapid advancement for young people entering the field. In DFW, carpenters, masons, heavy equipment operators, and construction managers are in extremely high demand because of the region's population growth and ongoing building boom.
 
-The **apprenticeship model** is the traditional entry point for most construction careers. Apprentices learn on the job — getting paid while they train — and progress through journeyman and master levels. This is very different from the 4-year college pathway: apprentices typically finish their training debt-free and earning a full paycheck.
+The **apprenticeship model** is the traditional entry point for most construction careers. Apprentices learn on the job, getting paid while they train, and progress through journeyman and master levels. This is very different from the 4-year college pathway: apprentices typically finish their training debt-free and earning a full paycheck.
 
 **Irving ISD Pathway:** **Construction** at **MacArthur High School** (School of Architecture, Construction and Civil Engineering — ACE) leads to the National Center for Construction Education & Research (NCCER) Core certification. **Welding**, also within the ACE school at MacArthur, leads to the Structural Steel & Metal Welding Certification.
 
@@ -49,7 +49,7 @@ The **apprenticeship model** is the traditional entry point for most constructio
 
 The H&L workbook Ch 3: Architecture & Construction (pp. 37-54) is the anchor chapter. The chapter confirms six A&C pathways: **Carpentry**, **Architecture Drafting and Design**, **Construction Management and Inspection**, **Electrical**, **HVAC and Sheet Metal**, **Masonry**, and **Plumbing and Pipefitting** (Week 4 focuses on the skilled trades; Week 3 focuses on core construction).
 
-This week uses the H&L **"Power Pitch"** activity (Ch 3, pp. 42-43) where students craft a 60-second pitch about themselves highlighting their experience, skills, and personal traits — the same pitch an apprentice would use when applying to a union program. Students also use the **Hat Research template** (Ch 3, p. 47) to record salary and demand data on one construction career.
+This week uses the H&L **"Power Pitch"** activity (Ch 3, pp. 42-43) where students craft a 60-second pitch about themselves highlighting their experience, skills, and personal traits, the same pitch an apprentice would use when applying to a union program. Students also use the **Hat Research template** (Ch 3, p. 47) to record salary and demand data on one construction career.
 
 ## IISD Instructional Strategies
 
@@ -69,10 +69,10 @@ This week uses the H&L **"Power Pitch"** activity (Ch 3, pp. 42-43) where studen
 
 ## Formative Assessment
 
-- Hat Research template quality and accuracy (Day 1) — d(2)(A)
-- Apprenticeship/union research notes (Day 2) — d(3)(G), d(3)(H)
-- Classification worksheet with evidence (Day 3) — d(5)(B)
-- NCCER/MacArthur pathway mapping (Day 4) — d(3)(G)
+- Hat Research template quality and accuracy (Day 1): d(2)(A)
+- Apprenticeship/union research notes (Day 2): d(3)(G), d(3)(H)
+- Classification worksheet with evidence (Day 3): d(5)(B)
+- NCCER/MacArthur pathway mapping (Day 4): d(3)(G)
 
 ## Summative Assessment
 
@@ -97,4 +97,4 @@ This week uses the H&L **"Power Pitch"** activity (Ch 3, pp. 42-43) where studen
 - Visual apprenticeship infographic that is accessible across languages
 - Bilingual Classification worksheet with Spanish column headers
 - Pair ELL students with bilingual peers during the Jigsaw research
-- Power Pitch may be delivered in English, Spanish, or bilingual — the skill transfers across languages
+- Power Pitch may be delivered in English, Spanish, or bilingual, the skill transfers across languages

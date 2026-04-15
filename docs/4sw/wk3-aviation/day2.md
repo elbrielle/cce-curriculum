@@ -8,7 +8,7 @@
 | **Objectives** | Complete the H&L Hat Research template (Ch 15) for one aviation career; compare military and civilian pathways into aviation using BLS and FAA data; identify JROTC as a high school entry point |
 | **TEKS** | d(1)(C), d(3)(G) |
 | **Deliverable** | Completed Hat Research template (1 aviation career) + completed Military vs. Civilian Pathways comparison chart |
-| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 15, p. 256 — Hat Research template), printed Hat Research worksheet, printed Military vs. Civilian Pathways comparison chart, FAA Careers and BLS aviation pages bookmarked, projector |
+| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 15, p. 256, Hat Research template), printed Hat Research worksheet, printed Military vs. Civilian Pathways comparison chart, FAA Careers and BLS aviation pages bookmarked, projector |
 
 ---
 
@@ -22,7 +22,7 @@ Take 4-5 student responses. Some students will know veterans personally. Bridge:
 
 ## Activity 1: H&L Hat Research — Aviation Career (20 min)
 
-**Source:** H&L Workbook Ch 15, p. 256 — "Hat Research" template
+**Source:** H&L Workbook Ch 15, p. 256, "Hat Research" template
 
 > [H&L PLATFORM] Students open H&L and navigate to the **Hat Finder**. The workbook (p. 256) instructs students to "go to the Hats & Ladders app and click on the Hat Finder. Explore Hats in the Transportation, Distribution & Logistics career cluster. Choose one Hat and fill out the information below." Students focus specifically on aviation Hats: Pilot, Air Traffic Controller, Aviation Mechanic, Flight Dispatcher, or Drone Operator.
 
@@ -42,10 +42,10 @@ After filling in the H&L data, students cross-check the salary on the BLS pages 
 - BLS Air Traffic Controllers
 - BLS Aircraft Mechanics
 
-If the BLS number differs from the H&L number, students note both — local DFW pay can vary from national averages.
+If the BLS number differs from the H&L number, students note both. Local DFW pay can vary from national averages.
 
 !!! tip "Facilitation Tip"
-    BLS pages are dense for 7th graders. Project the BLS Airline Pilots page and show students exactly where to find the median pay number — usually in the "Quick Facts" box at the top right. They do not need to read the whole article to extract one salary.
+    BLS pages are dense for 7th graders. Project the BLS Airline Pilots page and show students exactly where to find the median pay number, usually in the "Quick Facts" box at the top right. They do not need to read the whole article to extract one salary.
 
 ---
 
@@ -67,7 +67,7 @@ Distribute the printed Military vs. Civilian Pathways comparison chart. Students
 Students research using the bookmarked FAA Careers page (faa.gov/jobs), BLS Airline Pilots page, and the military branch career pages. They fill in the chart and then write a 2-3 sentence personal preference at the bottom: "Based on this comparison, I would choose the _____ pathway because _____."
 
 !!! tip "Facilitation Tip"
-    Some students will react strongly against the military option ("I would never join the military") while others will pick it instantly ("I want to fly fighter jets"). Both reactions are valid 7th-grade responses. Do not push either direction — just make sure they can articulate WHY in their preference statement.
+    Some students will react strongly against the military option ("I would never join the military") while others will pick it instantly ("I want to fly fighter jets"). Both reactions are valid 7th-grade responses. Do not push either direction, just make sure they can articulate WHY in their preference statement.
 
 **DOK 3:** What conclusions can you draw about the advantages and disadvantages of each aviation pathway? What factors would influence your decision the most?
 

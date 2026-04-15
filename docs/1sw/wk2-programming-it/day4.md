@@ -14,7 +14,7 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Have you ever written code before — on Scratch, Code.org, Tynker, Roblox Studio, or anywhere else? If yes, what did you make? If no, what do you THINK coding is going to feel like?**
+**WARM-UP: Have you ever written code before, on Scratch, Code.org, Tynker, Roblox Studio, or anywhere else? If yes, what did you make? If no, what do you THINK coding is going to feel like?**
 
 Quick poll. Most students have done at least one Code.org or Scratch tutorial in elementary. Bridge: "Today is your first real Hour of Code as a 7th grader. The activities are harder than what you may have done before. The goal is to learn what software developers actually do. Finishing is optional."
 
@@ -26,17 +26,17 @@ Project [hourofcode.com/learn](https://hourofcode.com/learn) on the screen. Walk
 
 1. **Filter by grade:** Select "Grades 6-8" or "Middle School."
 2. **Filter by experience:** Select "Beginner" or "Comfortable" based on their warm-up answer.
-3. **Filter by topic:** Show options — Minecraft, Star Wars, Frozen, Dance Party, AI for Oceans, App Lab, Music Lab, etc.
+3. **Filter by topic:** Show options. Minecraft, Star Wars, Frozen, Dance Party, AI for Oceans, App Lab, Music Lab, etc.
 
 Tell students they have 5 minutes to browse the picker, read tutorial descriptions, and pick ONE that they want to do. They will work on this same tutorial for 2 days.
 
 Some recommended tutorials for first-time 7th graders:
 
-- **Minecraft Hour of Code: Adventurer** — Block-based, very visual, easy entry
-- **Dance Party** — Fun, music-based, low barrier
-- **AI for Oceans** — Introduces AI/machine learning concepts
-- **App Lab** — More advanced, JavaScript-style block coding for app building
-- **Star Wars: Building a Galaxy with Code** — Classic, good for first-time coders
+- **Minecraft Hour of Code: Adventurer:** Block-based, very visual, easy entry
+- **Dance Party:** Fun, music-based, low barrier
+- **AI for Oceans:** Introduces AI/machine learning concepts
+- **App Lab:** More advanced, JavaScript-style block coding for app building
+- **Star Wars: Building a Galaxy with Code:** Classic, good for first-time coders
 
 !!! tip "Facilitation Tip"
     Some students will pick the hardest tutorial because it sounds cool, then quit when they get frustrated. Have a "switch tutorial" rule: if a student is genuinely stuck after 15 minutes and not learning anything, they can switch ONCE. After the switch, they must finish the new tutorial.
@@ -51,13 +51,13 @@ Students work through their chosen Code.org tutorial at their own pace. Most tut
 
 1. **Progress Check (every 10 min):** Walk the room and note which level each student is on. Flag students who are stuck.
 2. **Concept Check:** When you see a student using a loop, pause them and ask: "What does this loop do? Why is it faster than copying the same block 5 times?"
-3. **Frustration Check:** Watch for students who are stuck on the same level for more than 5 minutes. Ask: "What did you just try? What do you think is wrong?" — never give the answer, ask leading questions.
+3. **Frustration Check:** Watch for students who are stuck on the same level for more than 5 minutes. Ask: "What did you just try? What do you think is wrong?" Never give the answer; ask leading questions.
 
 **The 3 programming concepts to listen for:**
 
 - **Sequence:** Code runs in order, top to bottom.
 - **Loop:** A block that repeats other blocks a set number of times (saves typing).
-- **Conditional:** "If this happens, then do that" — used in advanced tutorials.
+- **Conditional:** "If this happens, then do that," used in advanced tutorials.
 
 Students who reach the end of their tutorial print or screenshot the Code.org completion certificate (Code.org issues one automatically). Students who do not finish will continue tomorrow.
 

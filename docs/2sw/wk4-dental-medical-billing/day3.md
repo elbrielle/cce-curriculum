@@ -16,13 +16,13 @@
 
 **WARM-UP: Which school subject do you think is MOST important for healthcare careers? Math? Science? English? Take a guess.**
 
-Take 3-4 responses. Most students will say science. Bridge: today they may be surprised — English class matters for medical billing (documentation), math matters for dental hygienists (measurements), and even art class matters for surgeons (fine motor skills).
+Take 3-4 responses. Most students will say science. Bridge: today they may be surprised. English class matters for medical billing (documentation), math matters for dental hygienists (measurements), and even art class matters for surgeons (fine motor skills).
 
 ---
 
 ## Activity 1: Xello Education Experience (15 min)
 
-Open Xello and direct students to the **Education Experience** activity in the 7th-grade lesson list. This activity asks students to describe their educational experiences — favorite classes, hardest subjects, learning preferences — and connects them to potential careers.
+Open Xello and direct students to the **Education Experience** activity in the 7th-grade lesson list. This activity asks students to describe their educational experiences, favorite classes, hardest subjects, learning preferences, and connects them to potential careers.
 
 Students complete the activity step by step, answering each prompt thoughtfully. The activity outputs a personal "education experience" profile that links to careers in Xello's career database.
 
@@ -56,14 +56,14 @@ Students fill in a quick 3-row table in their notebook:
 
 ## Activity 3: College Credit in High School — Intro + Turn-and-Talk (10 min)
 
-After 30 min at the Chromebook, students need active processing — not a 10-min lecture. Use a **4-3-3** structure:
+After 30 min at the Chromebook, students need active processing, not a 10-min lecture. Use a **4-3-3** structure:
 
 **Intro (4 min):** Project a slide with Irving ISD's four college credit options and give a brief description of each:
 
-- **Dual Credit** — Take a high school course that also counts as college credit at Dallas College. Free for Irving ISD students.
-- **AP (Advanced Placement)** — Take a rigorous course and pass an exam to earn college credit at most U.S. universities.
-- **Articulated CTE Credit** — Some Singley Academy CTE courses give college credit at Dallas College after high school graduation.
-- **Industry Certifications** — Singley Academy CTE pathways earn nationally-recognized credentials that some employers accept in place of a degree.
+- **Dual Credit:** Take a high school course that also counts as college credit at Dallas College. Free for Irving ISD students.
+- **AP (Advanced Placement):** Take a rigorous course and pass an exam to earn college credit at most U.S. universities.
+- **Articulated CTE Credit:** Some Singley Academy CTE courses give college credit at Dallas College after high school graduation.
+- **Industry Certifications:** Singley Academy CTE pathways earn nationally-recognized credentials that some employers accept in place of a degree.
 
 Then show the sample nursing pathway:
 

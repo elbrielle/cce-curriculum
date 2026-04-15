@@ -45,7 +45,7 @@ Students prepare a 60-90 second talking script using the back of the note card.
 
 ## Activity 2: Class Presentations (28 min)
 
-!!! warning "Presentation timing — 25 × 90 sec = 37.5 min, but Activity 2 is 28 min"
+!!! warning "Presentation timing: 25 × 90 sec = 37.5 min, but Activity 2 is 28 min"
     The 28-min budget only fits at the 60-sec floor (25 × 60 sec = 25 min). Pick one approach before presentations start:
 
     - **Hard 60-sec cap:** Project a visible timer and announce the 60-sec limit before Student 1 starts. 25 × 60 sec = 25 min, leaving 3 min for transitions.
@@ -72,7 +72,7 @@ After the last presentation, run a 2-minute discussion:
 
 ## Activity 3: H&L Favorites + Xello (7 min)
 
-> [H&L PLATFORM] Students open H&L Climber Profile and **favorite at least 2 Transportation careers** from this week — Auto Service Technician, Diesel Service Technician, Collision Repair Tech, Automotive Service Manager, or any related Hat. The workbook (Ch 16: My Next Steps) treats favoriting as how the H&L app builds the Career Plan. These favorites will appear on their Climber Profile and influence pathway recommendations.
+> [H&L PLATFORM] Students open H&L Climber Profile and **favorite at least 2 Transportation careers** from this week. Auto Service Technician, Diesel Service Technician, Collision Repair Tech, Automotive Service Manager, or any related Hat. The workbook (Ch 16: My Next Steps) treats favoriting as how the H&L app builds the Career Plan. These favorites will appear on their Climber Profile and influence pathway recommendations.
 
 > [VERIFY IN Xello] Students complete the Xello "Save Careers" activity from the 7th-grade task list. Confirm exact task name with district admin. Students save the same automotive careers they favorited in H&L so the two platforms stay synced.
 

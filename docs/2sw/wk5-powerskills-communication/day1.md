@@ -14,7 +14,7 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Think of the best communicator you know — a teacher, family member, or friend. What makes them good at communicating?**
+**WARM-UP: Think of the best communicator you know, a teacher, family member, or friend. What makes them good at communicating?**
 
 Take 3-4 responses. Bridge: communication is a SKILL, not a personality trait. Today the class starts a week of practicing the skills the best communicators have learned.
 
@@ -22,7 +22,7 @@ Take 3-4 responses. Bridge: communication is a SKILL, not a personality trait. T
 
 ## Activity 1: Powerskills Introduction (8 min)
 
-**Source:** H&L Powerskills Workbook — Introduction (pp. 1-2)
+**Source:** H&L Powerskills Workbook. Introduction (pp. 1-2)
 
 Introduce the concept: for the past 4 weeks, students explored specific careers (Manufacturing, IT, Law, Health Science). But there is something that connects ALL of these careers: **soft skills**. Hats & Ladders calls them **Powerskills**.
 
@@ -37,7 +37,7 @@ This week focuses on FOUR communication-related modules: Conflict Resolution, Fe
 
 ## Activity 2: Conflict Resolution Setup (5 min)
 
-**Source:** H&L Powerskills Workbook, pp. 19-20 — "Conflict Resolution"
+**Source:** H&L Powerskills Workbook, pp. 19-20, "Conflict Resolution"
 
 Read the workbook intro aloud: *"Disagreements are normal, especially when you're working with a group. The important part isn't whether you argue, but how you handle it. Conflict resolution means working through disagreements in a way that helps everyone feel heard and keeps the project moving forward."*
 
@@ -51,15 +51,15 @@ Project the workbook's **Three Quick Tips** (p. 19):
 
 ## Activity 3: Smoothie Company Conflict (25 min)
 
-**Source:** H&L Powerskills Workbook, pp. 19-20 — Activity (Smoothie Company Scenario)
+**Source:** H&L Powerskills Workbook, pp. 19-20, Activity (Smoothie Company Scenario)
 
 Read the workbook scenario aloud: *"You work at a smoothie company that's about to launch a brand-new flavor: a refreshing blend of strawberry, mango, pineapple, and a splash of coconut milk. It's tasty, colorful, and perfect for summer, but your team can't agree on some key decisions."*
 
 Form student groups of 3-4. Each group works through the **3 conflicts** from the workbook (p. 19):
 
-- **The Name Game** — One teammate wants Tropical Thunder, another wants Sunshine Splash, another wants Fruit Burst
-- **Launch Date Debate** — One wants to launch immediately, another says wait until summer, a third is unsure
-- **Marketing Mayhem** — Posters, slogans, video — but the team can't agree on who does what
+- **The Name Game:** One teammate wants Tropical Thunder, another wants Sunshine Splash, another wants Fruit Burst
+- **Launch Date Debate:** One wants to launch immediately, another says wait until summer, a third is unsure
+- **Marketing Mayhem:** Posters, slogans, video, but the team can't agree on who does what
 
 Groups fill out the workbook chart (p. 20):
 
@@ -69,18 +69,18 @@ Groups fill out the workbook chart (p. 20):
 | Launch Date | | |
 | Marketing | | |
 
-Each group must use the 3 quick tips to actually resolve each conflict — not just write "we'll vote" but actually find a creative solution.
+Each group must use the 3 quick tips to actually resolve each conflict, not just write "we'll vote" but actually find a creative solution.
 
 After resolving the conflicts, each group sketches a quick **smoothie ad** (workbook Step 3, p. 20) showing the chosen name and launch strategy.
 
 !!! tip "Facilitation Tip"
-    Watch for groups that "resolve" by just letting one person win. Push back: "Did everyone feel heard? Did you actually combine ideas?" Conflict resolution is about integration, not domination. **Pressure valve:** if groups are still working through the first two conflicts at the 15-minute mark, have them document solutions for Name and Launch Date only and make the smoothie ad sketch an at-home or Extension task — the chart is the essential deliverable.
+    Watch for groups that "resolve" by just letting one person win. Push back: "Did everyone feel heard? Did you actually combine ideas?" Conflict resolution is about integration, not domination. **Pressure valve:** if groups are still working through the first two conflicts at the 15-minute mark, have them document solutions for Name and Launch Date only and make the smoothie ad sketch an at-home or Extension task. The chart is the essential deliverable.
 
 ---
 
 ## Activity 4: Class Discussion (5 min)
 
-**Source:** H&L Powerskills Workbook, p. 21 — Class Discussion
+**Source:** H&L Powerskills Workbook, p. 21, Class Discussion
 
 Lead a quick discussion using the workbook prompts:
 

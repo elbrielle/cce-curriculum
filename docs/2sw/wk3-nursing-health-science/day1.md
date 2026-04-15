@@ -28,24 +28,24 @@ Open H&L and direct students to the Health Science cluster. Today is the start o
 
 Students:
 
-1. **Watch the Health Science cluster tour video** in the H&L app. Use **Stop and Jot** — pause twice to write down (1) one healthcare career that surprised them and (2) one question they have about the cluster.
+1. **Watch the Health Science cluster tour video** in the H&L app. Use **Stop and Jot:** pause twice to write down (1) one healthcare career that surprised them and (2) one question they have about the cluster.
 2. **Read the workbook overview** (Ch 9, p. 139) which lists the 5 pathways: Exercise Science/Wellness and Restoration, Nursing Science, Health Informatics, Diagnostic & Therapeutic Services, and Biomedical Science.
-3. **Complete the "Making Connections" partner activity** from the workbook: pair up and discuss for 5 minutes — *"a healthcare tool or technology you've seen before, like a thermometer, an X-ray machine, or a blood pressure monitor. Why is this tool important in health science? Who might use this tool and why?"*
+3. **Complete the "Making Connections" partner activity** from the workbook: pair up and discuss for 5 minutes, *"a healthcare tool or technology you've seen before, like a thermometer, an X-ray machine, or a blood pressure monitor. Why is this tool important in health science? Who might use this tool and why?"*
 
 > [H&L PLATFORM] In the H&L app, click "Career Clusters" from the dashboard, scroll to "Health Science," and click the cluster tile. Watch the cluster video. Then explore the 5 pathway tiles for 5 minutes.
 
 !!! tip "Facilitation Tip"
-    The Making Connections discussion is the bridge to Day 3's micro:bit project. When students name "blood pressure monitor" or "thermometer," highlight that those tools became electronic — and someone PROGRAMMED them to work. That's the connection to the vital signs monitor build.
+    The Making Connections discussion is the bridge to Day 3's micro:bit project. When students name "blood pressure monitor" or "thermometer," highlight that those tools became electronic, and someone PROGRAMMED them to work. That's the connection to the vital signs monitor build.
 
 ---
 
 ## Activity 2: Nursing Pathway Introduction (15 min)
 
-**Source:** H&L Workbook Ch 9, p. 148 — Hat Research template
+**Source:** H&L Workbook Ch 9, p. 148, Hat Research template
 
 Direct students to the Nursing Science pathway specifically. Introduce the concept of a career ladder:
 
-> "Nursing is not ONE career. It is a LADDER. You can start at the bottom with a CNA certification — just 4 to 12 weeks of training — and climb all the way to a Nurse Practitioner with a doctoral degree. Each step up means more education, more responsibility, and more money."
+> "Nursing is not ONE career. It is a LADDER. You can start at the bottom with a CNA certification, just 4 to 12 weeks of training, and climb all the way to a Nurse Practitioner with a doctoral degree. Each step up means more education, more responsibility, and more money."
 
 Students use the Hat Finder in the H&L app to browse 4 specific nursing Hats: **CNA, LVN, RN, Nurse Practitioner**. They note the education path and DFW salary for each.
 

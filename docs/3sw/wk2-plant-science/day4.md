@@ -14,7 +14,7 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Drones can now fly over a 50-acre farm and find pest damage in 30 minutes — work that used to take a farmer 2 days. Who flies the drone? Did that job exist 20 years ago?**
+**WARM-UP: Drones can now fly over a 50-acre farm and find pest damage in 30 minutes, work that used to take a farmer 2 days. Who flies the drone? Did that job exist 20 years ago?**
 
 Take 3 student responses. Use this to bridge: emerging careers are jobs that barely existed 10-20 years ago because the technology or the social need is new. Today students pick one to research.
 
@@ -22,21 +22,21 @@ Take 3 student responses. Use this to bridge: emerging careers are jobs that bar
 
 ## Activity 1: What Is an Emerging Career? (10 min)
 
-**Source:** TEKS d(1)(D) — Research and evaluate emerging occupations related to career interest areas
+**Source:** TEKS d(1)(D): Research and evaluate emerging occupations related to career interest areas
 
 Project the definition of "emerging occupation" on the board: a career that has grown rapidly because of new technology, new social needs, or new economic conditions.
 
 Walk through 4 examples in agriculture that didn't exist (or were tiny) in the year 2000:
 
-- **Agricultural Drone Operator** — flies drones over fields to detect pests, monitor crop health, and apply targeted spray
-- **Precision Agriculture Technician** — uses GPS, soil sensors, and data software to help farmers maximize yields with minimum waste
-- **Vertical Farming Manager** — runs urban indoor farms that grow leafy greens in stacked trays under LED lights
-- **Hydroponic Specialist** — grows plants in nutrient-rich water without soil, used in cities and even on the International Space Station
+- **Agricultural Drone Operator:** flies drones over fields to detect pests, monitor crop health, and apply targeted spray
+- **Precision Agriculture Technician:** uses GPS, soil sensors, and data software to help farmers maximize yields with minimum waste
+- **Vertical Farming Manager:** runs urban indoor farms that grow leafy greens in stacked trays under LED lights
+- **Hydroponic Specialist:** grows plants in nutrient-rich water without soil, used in cities and even on the International Space Station
 
 Each of these is part of a real H&L Hat or BLS career profile. Students will pick ONE for today's research.
 
 !!! tip "Facilitation Tip"
-    Some students will say "I don't care about farming." Reframe: the salary range for Precision Ag Technicians is $50,000-$80,000, and the work involves drones, GPS, and Python data scripts — not just shovels. Frame these as TECH careers that happen to apply in agriculture.
+    Some students will say "I don't care about farming." Reframe: the salary range for Precision Ag Technicians is $50,000-$80,000, and the work involves drones, GPS, and Python data scripts, not just shovels. Frame these as TECH careers that happen to apply in agriculture.
 
 ---
 
@@ -46,8 +46,8 @@ Each of these is part of a real H&L Hat or BLS career profile. Students will pic
 
 Students choose ONE emerging ag career and complete the research template using two sources:
 
-- **BLS Occupational Outlook Handbook:** [bls.gov/ooh/](https://www.bls.gov/ooh/) — search for the career or its parent category (e.g., Agricultural Technicians, Agricultural Engineers)
-- **USDA Careers:** [usda.gov/our-agency/careers](https://www.usda.gov/our-agency/careers) — find federal ag jobs and read the descriptions
+- **BLS Occupational Outlook Handbook:** [bls.gov/ooh/](https://www.bls.gov/ooh/): search for the career or its parent category (e.g., Agricultural Technicians, Agricultural Engineers)
+- **USDA Careers:** [usda.gov/our-agency/careers](https://www.usda.gov/our-agency/careers): find federal ag jobs and read the descriptions
 
 The research template has these fields:
 

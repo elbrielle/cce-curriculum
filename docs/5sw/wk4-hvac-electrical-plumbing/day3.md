@@ -16,7 +16,7 @@
 
 **WARM-UP: If there are more job openings than available workers in a field, what happens to the salary? Why?**
 
-Discuss briefly. The economic answer: When demand exceeds supply, prices (wages) rise. This is the reason skilled trades pay well in DFW right now — the "supply" of trained workers is smaller than the "demand" for their services.
+Discuss briefly. The economic answer: When demand exceeds supply, prices (wages) rise. This is the reason skilled trades pay well in DFW right now, the "supply" of trained workers is smaller than the "demand" for their services.
 
 ---
 
@@ -24,17 +24,17 @@ Discuss briefly. The economic answer: When demand exceeds supply, prices (wages)
 
 Project a blank Labor Market Analysis worksheet and model the analysis method using **Electrician** as the example. Walk through each data point:
 
-1. **Current DFW job openings:** Search Indeed or BLS for "Electrician DFW" — note the approximate number (thousands of openings).
-2. **BLS 10-year projected growth:** Check the BLS Electrician page — it is typically 6-8% (faster than average).
+1. **Current DFW job openings:** Search Indeed or BLS for "Electrician DFW", note the approximate number (thousands of openings).
+2. **BLS 10-year projected growth:** Check the BLS Electrician page. It is typically 6-8% (faster than average).
 3. **Median DFW salary:** From H&L Hat profile or BLS ($55,000-65,000).
 4. **Salary range (entry to experienced):** Note the span ($35K entry to $85K+ experienced).
 5. **Factors driving demand:** New construction in DFW, retiring workers, the shift to electric vehicles and solar installation.
 
 Then model the classification:
 
-- **High-skill?** Yes — 4-year apprenticeship plus licensing exam plus continuing education requirements. Cite: TDLR licensing data.
-- **High-wage?** Yes — median $60K is above the $50K DFW threshold. Cite: H&L Hat profile salary.
-- **High-demand?** Yes — 6% BLS growth AND thousands of open DFW positions. Cite: BLS OOH + Indeed search.
+- **High-skill?** Yes, 4-year apprenticeship plus licensing exam plus continuing education requirements. Cite: TDLR licensing data.
+- **High-wage?** Yes, median $60K is above the $50K DFW threshold. Cite: H&L Hat profile salary.
+- **High-demand?** Yes, 6% BLS growth AND thousands of open DFW positions. Cite: BLS OOH + Indeed search.
 
 !!! tip "Facilitation Tip"
     Students will want to write "Yes" without evidence. Model a strict standard: every Yes must have a specific number cited. A Yes without data is an unsupported claim.
@@ -64,7 +64,7 @@ For each trade, they collect:
 
 ## Activity 3: Rapid Share-Out (3 min)
 
-Three volunteers share their top recommendation and one data point. This closes the activity with a range of student perspectives — some will recommend the highest-paying trade, others the highest-growth trade, others the one most aligned with their own skills and interests.
+Three volunteers share their top recommendation and one data point. This closes the activity with a range of student perspectives. Some will recommend the highest-paying trade, others the highest-growth trade, others the one most aligned with their own skills and interests.
 
 ---
 

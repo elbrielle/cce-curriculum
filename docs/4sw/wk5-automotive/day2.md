@@ -22,9 +22,9 @@ Take 5-6 student responses. Most students reflexively pick "get paid while I lea
 
 ## Activity 1: ASE Certification Deep-Dive (18 min)
 
-**Source:** [ASE.com](https://www.ase.com) — National Institute for Automotive Service Excellence
+**Source:** [ASE.com](https://www.ase.com): National Institute for Automotive Service Excellence
 
-ASE stands for **Automotive Service Excellence**. It is the national certification system for automotive professionals — and most repair shops require it.
+ASE stands for **Automotive Service Excellence**. It is the national certification system for automotive professionals, and most repair shops require it.
 
 Students open ASE.com and explore the certification categories. Project the ASE site on the board and walk through:
 
@@ -47,7 +47,7 @@ Students take notes on the printed chart with three quick questions:
 - How long does it take to become Master ASE certified?
 - What does the certification cost?
 
-The workbook source is the BLS Automotive Service Technicians page — students cross-check the salary impact of certification. BLS confirms that certifications are a key way technicians increase pay over a career.
+The workbook source is the BLS Automotive Service Technicians page, students cross-check the salary impact of certification. BLS confirms that certifications are a key way technicians increase pay over a career.
 
 ---
 

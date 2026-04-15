@@ -8,10 +8,10 @@
 
 ## Legend
 
-- ✅ **Ready** — built, verified, and linked from the daily plans
-- 🟡 **Partial** — exists but needs teacher polish, district customization, or platform confirmation
-- ⬜ **Not yet built** — planned but not started; this is where we need decisions and authorship
-- 🚫 **Out of scope** — intentionally not included
+- ✅ **Ready**: built, verified, and linked from the daily plans
+- 🟡 **Partial**: exists but needs teacher polish, district customization, or platform confirmation
+- ⬜ **Not yet built**: planned but not started; this is where we need decisions and authorship
+- 🚫 **Out of scope**: intentionally not included
 
 ---
 
@@ -44,28 +44,28 @@ The daily plans describe WHAT students do and give the facilitation approach, bu
 
 - Do teachers want one deck per week or one per day?
 - Google Slides or Canva? (Canva matches 6SW Wk2 content; Google Slides is faster to edit and shares cleanly on district accounts.)
-- Should slides include the warm-up prompt, vocabulary, activity directions, and exit ticket — or just the visuals?
+- Should slides include the warm-up prompt, vocabulary, activity directions, and exit ticket, or just the visuals?
 - Do teachers prefer branded slides (IISD logo, CCE title) or minimal?
 
 ---
 
 ### 🟡 Assessment Worksheets (non-photocopiable artifacts)
 
-**Status:** 🟡 Partially addressed — daily plans reference specific H&L workbook pages (photocopiable when allowed by the H&L license) but some activities require separate worksheets that do not live in H&L.
+**Status:** 🟡 Partially addressed. Daily plans reference specific H&L workbook pages (photocopiable when allowed by the H&L license) but some activities require separate worksheets that do not live in H&L.
 
 **Examples from the curriculum that need a printable artifact:**
 
-- **1SW Wk0 Day 5** — My Career Journey Handout (persistent across the year)
-- **2SW Wk1 Day 5** — Position Paper rubric + final-draft template
-- **4SW Wk1 Day 1** — RIASEC vs. Favorites reconciliation worksheet
-- **4SW Wk2 Day 5** — Individual Career Plan template (the official d(8)(C) artifact)
-- **4SW Wk6** — Transferable Skills Matrix, STEM Program planning chart, Professional Associations Jigsaw template, Mid-Year Reflection template
-- **5SW Wk1 Day 2** — Architecture Career Research worksheet
-- **5SW Wk4 Days 1–4** — Skilled Trades Comparison Matrix (the week's summative)
-- **5SW Wk5 Days 1–4** — Personal Budget Template + DFW cost reference sheet
-- **6SW Wk2** — Resume Builder template (Xello-native, but printable backup needed)
-- **6SW Wk5** — Cover Letter template, Mock Interview rubric, Reference sheet
-- **6SW Wk6** — Capstone Career Plan presentation rubric
+- **1SW Wk0 Day 5**: My Career Journey Handout (persistent across the year)
+- **2SW Wk1 Day 5**: Position Paper rubric + final-draft template
+- **4SW Wk1 Day 1**: RIASEC vs. Favorites reconciliation worksheet
+- **4SW Wk2 Day 5**: Individual Career Plan template (the official d(8)(C) artifact)
+- **4SW Wk6**: Transferable Skills Matrix, STEM Program planning chart, Professional Associations Jigsaw template, Mid-Year Reflection template
+- **5SW Wk1 Day 2**: Architecture Career Research worksheet
+- **5SW Wk4 Days 1–4**: Skilled Trades Comparison Matrix (the week's summative)
+- **5SW Wk5 Days 1–4**: Personal Budget Template + DFW cost reference sheet
+- **6SW Wk2**: Resume Builder template (Xello-native, but printable backup needed)
+- **6SW Wk5**: Cover Letter template, Mock Interview rubric, Reference sheet
+- **6SW Wk6**: Capstone Career Plan presentation rubric
 
 **Open questions:**
 
@@ -79,7 +79,7 @@ The daily plans describe WHAT students do and give the facilitation approach, bu
 
 **Status:** ⬜ Not yet built.
 
-**What's needed:** A Common Formative Assessment at the end of each six-weeks block (six total) that measures TEKS mastery for that block and produces data all VILS teachers share — so the district can see where the curriculum is and isn't landing.
+**What's needed:** A Common Formative Assessment at the end of each six-weeks block (six total) that measures TEKS mastery for that block and produces data all VILS teachers share, so the district can see where the curriculum is and isn't landing.
 
 **Scope per CFA:**
 
@@ -104,7 +104,7 @@ The daily plans describe WHAT students do and give the facilitation approach, bu
 
 - Should the CFA be a 1-day pause at the end of each six-weeks block, or homework-style?
 - Google Form auto-graded, or paper/pencil for data integrity?
-- How do we handle CFAs for d(4)(C) oral presentation and d(6)(C) mock interview — performance rubrics rather than written items?
+- How do we handle CFAs for d(4)(C) oral presentation and d(6)(C) mock interview (performance rubrics rather than written items)?
 
 ---
 
@@ -137,7 +137,7 @@ The daily plans describe WHAT students do and give the facilitation approach, bu
 
 ### 🟡 Video library (optional supplement)
 
-**Status:** 🚫 Out of scope for now — explicitly deferred by the team (2026-04-14) to avoid shoehorning videos that do not fit. Revisit after the first round of teacher feedback.
+**Status:** 🚫 Out of scope for now. Explicitly deferred by the team (2026-04-14) to avoid shoehorning videos that do not fit. Revisit after the first round of teacher feedback.
 
 ---
 
@@ -164,7 +164,7 @@ The maintainer triages the backlog every 1–2 weeks and updates this page.
 
 ## What's NOT in the backlog (and why)
 
-- **New activities** — the 180 daily plans are intentionally fixed until teacher feedback comes in. We fix what teachers say is broken, not what we imagine might be broken.
-- **New weeks** — the scope and sequence is locked at 36 weeks aligned to TEKS §127.2. We do not extend without district curriculum approval.
-- **H&L workbook rewrites** — H&L is the source material. We cite it and defer to it; we don't rewrite it.
-- **Video curation** — explicitly deferred (see above).
+- **New activities**: the 180 daily plans are intentionally fixed until teacher feedback comes in. We fix what teachers say is broken, not what we imagine might be broken.
+- **New weeks**: the scope and sequence is locked at 36 weeks aligned to TEKS §127.2. We do not extend without district curriculum approval.
+- **H&L workbook rewrites**: H&L is the source material. We cite it and defer to it; we don't rewrite it.
+- **Video curation**: explicitly deferred (see above).

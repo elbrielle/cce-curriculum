@@ -8,7 +8,7 @@
 | **Objectives** | Apply Engineering Design Process phases 1-2 (Define & Ideate) by building a LEGO airport with at least 2 runways, taxiways, a control tower, and parking; plan the spatial layout with safe distances between runways |
 | **TEKS** | d(1)(C), d(1)(D) |
 | **Deliverable** | Built LEGO airport (1 per team) ready for Day 4 simulation, plus a labeled paper sketch of the layout |
-| **Materials** | LEGO bricks and baseplates (1 set per team of 3-4 students), printed Airport Layout sketch page, printed ATC scenario cards (1 per team to read for context only — not yet running), projector for LEGO airport reference images |
+| **Materials** | LEGO bricks and baseplates (1 set per team of 3-4 students), printed Airport Layout sketch page, printed ATC scenario cards (1 per team to read for context only, not yet running), projector for LEGO airport reference images |
 
 ---
 
@@ -16,7 +16,7 @@
 
 **WARM-UP: Air traffic controllers manage dozens of planes at once and make split-second decisions. What skills do you think that requires? List 3.**
 
-Take 3-4 student responses. Common answers: focus, communication, fast thinking, math, calmness. Bridge: today we are not yet running the simulation — we are first building the airport. Real ATCs cannot do their job if the airport is laid out poorly. Spatial planning IS the engineering challenge.
+Take 3-4 student responses. Common answers: focus, communication, fast thinking, math, calmness. Bridge: today we are not yet running the simulation. We are first building the airport. Real ATCs cannot do their job if the airport is laid out poorly. Spatial planning IS the engineering challenge.
 
 ---
 
@@ -36,11 +36,11 @@ Announce the challenge clearly so teams understand the constraints:
 
 Introduce the EDP and tell students today covers Phases 1 and 2 only:
 
-1. **Define the Problem** — What does our airport need to handle? (4 simultaneous aircraft, safe spacing.)
-2. **Research & Ideate** — Look at real airport layouts. How do they avoid collisions?
-3. **Prototype** — Build it.
-4. **Test** — Run the simulation (Day 4).
-5. **Redesign** — Fix what failed.
+1. **Define the Problem:** What does our airport need to handle? (4 simultaneous aircraft, safe spacing.)
+2. **Research & Ideate:** Look at real airport layouts. How do they avoid collisions?
+3. **Prototype:** Build it.
+4. **Test:** Run the simulation (Day 4).
+5. **Redesign:** Fix what failed.
 
 Today's goal: complete Phases 1 and 2 (define + ideate + sketch + start build).
 
@@ -98,6 +98,6 @@ Teams that finish the build early read their assigned ATC scenario card for tomo
 
 ## Differentiation
 
-- **Support:** Pre-built starter base — one runway and one taxiway already laid out. Teams add the second runway, control tower, and gates from there. Provide a printed reference image of a small regional airport for inspiration.
+- **Support:** Pre-built starter base, one runway and one taxiway already laid out. Teams add the second runway, control tower, and gates from there. Provide a printed reference image of a small regional airport for inspiration.
 - **Extension:** Add a second control tower and design a hand-off procedure between ground control and tower control. Or build a third runway crossing the first two and figure out how to schedule simultaneous takeoffs.
-- **ELL:** LEGO building is hands-on and naturally accessible. Provide a bilingual sketch label sheet — Runway = Pista, Taxiway = Calle de rodaje, Control Tower = Torre de control, Gate = Puerta, Terminal = Terminal.
+- **ELL:** LEGO building is hands-on and naturally accessible. Provide a bilingual sketch label sheet. Runway = Pista, Taxiway = Calle de rodaje, Control Tower = Torre de control, Gate = Puerta, Terminal = Terminal.

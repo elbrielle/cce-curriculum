@@ -16,7 +16,7 @@
 
 **WARM-UP: If your vital signs monitor showed an abnormal reading, what would a nurse do next?**
 
-Take 2-3 responses. Bridge: nurses act on data. The monitor is just the messenger. Today students add an ALARM feature so their monitor can flag abnormal readings — just like a real hospital monitor.
+Take 2-3 responses. Bridge: nurses act on data. The monitor is just the messenger. Today students add an ALARM feature so their monitor can flag abnormal readings, just like a real hospital monitor.
 
 ---
 
@@ -41,13 +41,13 @@ Students implement the alarm. Then they extend the program by:
 Teams test the alarm by shaking the micro:bit until they get an abnormal reading.
 
 !!! tip "Facilitation Tip"
-    The alarm is the "wow" feature. Students who add the alarm AND get it to trigger feel like real engineers. Encourage teams to make the alarm DRAMATIC — flashing LEDs, loud tones, scary icons.
+    The alarm is the "wow" feature. Students who add the alarm AND get it to trigger feel like real engineers. Encourage teams to make the alarm DRAMATIC, flashing LEDs, loud tones, scary icons.
 
 ---
 
 ## Activity 2: Optional LEGO Housing (10 min)
 
-**For teams with extra time** — if LEGO bricks are available, teams build a physical housing for their micro:bit. The housing should:
+**For teams with extra time:** if LEGO bricks are available, teams build a physical housing for their micro:bit. The housing should:
 
 - Hold the micro:bit securely
 - Allow access to both buttons
@@ -63,10 +63,10 @@ If LEGOs are not available, teams sketch their housing on paper and label the de
 
 Each team presents their vital signs monitor to the class in 1 minute. The presentation must cover:
 
-1. **Demo** — Show Button A and Button B working. Show the alarm if you built it.
-2. **Vital signs monitored** — Name the two vital signs your monitor tracks
-3. **Connection to a real nurse** — Name a specific nursing career (CNA, LVN, RN, Patient Care Technician) and explain how this monitor connects to what they do every day
-4. **Singley Academy connection** — Connect the project to the Patient Care Technician certification offered at Singley
+1. **Demo:** Show Button A and Button B working. Show the alarm if you built it.
+2. **Vital signs monitored:** Name the two vital signs your monitor tracks
+3. **Connection to a real nurse:** Name a specific nursing career (CNA, LVN, RN, Patient Care Technician) and explain how this monitor connects to what they do every day
+4. **Singley Academy connection:** Connect the project to the Patient Care Technician certification offered at Singley
 
 The class evaluates each presentation using a quick rubric (visible on the projector):
 
@@ -86,6 +86,6 @@ The class evaluates each presentation using a quick rubric (visible on the proje
 
 ## Differentiation
 
-- **Support:** Provide an alarm code template — students drag in pre-built blocks instead of writing the if/then logic from scratch.
+- **Support:** Provide an alarm code template. Students drag in pre-built blocks instead of writing the if/then logic from scratch.
 - **Extension:** Add a third vital sign (respiration rate) using the accelerometer. Or program a "patient profile" with the team's names that displays on startup.
 - **ELL:** Visual presentation template with Spanish key terms. Pre-teach: Alarm = Alarma, Reset = Reiniciar, Demo = Demostración. Pair ESL students with bilingual peers as a co-presenter.

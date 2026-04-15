@@ -31,7 +31,7 @@ Teams have 8 minutes to refine their Sphero programs and run them through the fa
 After the 8 minutes, each team gets ONE official run while the rest of the class watches. The teacher (or a designated observer) tracks: did the Sphero complete the course without hitting obstacles?
 
 !!! tip "Facilitation Tip"
-    Some teams' Sphero will fail spectacularly on the official run — backwards, off-course, into a wall. Celebrate the failures as much as the successes. Tell the class: "Real factory engineers spend 80% of their time fixing problems. Failure IS the job. What matters is what you learn and how you iterate."
+    Some teams' Sphero will fail spectacularly on the official run, backwards, off-course, into a wall. Celebrate the failures as much as the successes. Tell the class: "Real factory engineers spend 80% of their time fixing problems. Failure IS the job. What matters is what you learn and how you iterate."
 
 **DOK 2:** How would you describe the connection between the code blocks you wrote and the actual movement of the robot? Where did your code differ from what you expected?
 
@@ -39,13 +39,13 @@ After the 8 minutes, each team gets ONE official run while the rest of the class
 
 ## Activity 2: Complete H&L "Task Bot in Action" Action Plan (15 min)
 
-**Source:** H&L Workbook Ch 14, pp. 242-245 — "Task Bot in Action" Steps 3-6
+**Source:** H&L Workbook Ch 14, pp. 242-245, "Task Bot in Action" Steps 3-6
 
 Teams return to the workbook and complete the remaining steps of Task Bot in Action:
 
-**Step 3: Brainstorm Solutions (5 min)** — Each role brainstorms from their perspective. The workbook (Ch 14, p. 242) provides space for solutions to both Color Confusion and Slowpoke Robot. Teams combine ideas across roles.
+**Step 3: Brainstorm Solutions (5 min):** Each role brainstorms from their perspective. The workbook (Ch 14, p. 242) provides space for solutions to both Color Confusion and Slowpoke Robot. Teams combine ideas across roles.
 
-**Step 4: Create Your Action Plan (5 min)** — The workbook (Ch 14, p. 243) requires:
+**Step 4: Create Your Action Plan (5 min):** The workbook (Ch 14, p. 243) requires:
 
 - A description of the solution and how it works
 - Steps needed to implement it
@@ -55,7 +55,7 @@ Teams return to the workbook and complete the remaining steps of Task Bot in Act
 
 Teams write the action plan into the workbook for each of the two problems.
 
-**Step 5: Decide Who to Consult (5 min)** — The workbook (Ch 14, p. 243) tells students they cannot implement their solution alone. They must identify FOUR key factory personnel to consult. The workbook prompts:
+**Step 5: Decide Who to Consult (5 min):** The workbook (Ch 14, p. 243) tells students they cannot implement their solution alone. They must identify FOUR key factory personnel to consult. The workbook prompts:
 
 - Who can approve cost and time for the fix?
 - Who has technical expertise to adjust the robot?
@@ -68,7 +68,7 @@ For each person, teams write Title, Why They're Important, and What Questions to
 
 ## Activity 3: Task Bot Team Presentations + H&L Manufacturing Favorites (15 min)
 
-**Source:** H&L Workbook Ch 14, p. 244 — "Step 6: Present Your Plan"
+**Source:** H&L Workbook Ch 14, p. 244, "Step 6: Present Your Plan"
 
 **Presentations (10 min):** Each team has 2 minutes to present to the class. The workbook spec (Ch 14, p. 244) requires presentations to:
 
@@ -81,9 +81,9 @@ Use the H&L Task Bot rubric (Ch 14, p. 245) to score each team on Teamwork & Rol
 
 **H&L Manufacturing Favorites (5 min):** After presentations, direct students to their Climber Profile.
 
-> [H&L PLATFORM] Direct students to open the Hat Finder, navigate to the Manufacturing cluster, and favorite at least 2 Manufacturing Hats that interest them. The workbook's Hat Research template (Ch 14, p. 239) was completed on Day 2 — students can re-favorite that career or pick a new one based on what they learned this week. Favorites are saved to the Climber Profile and accumulate across all 36 weeks of the course.
+> [H&L PLATFORM] Direct students to open the Hat Finder, navigate to the Manufacturing cluster, and favorite at least 2 Manufacturing Hats that interest them. The workbook's Hat Research template (Ch 14, p. 239) was completed on Day 2. Students can re-favorite that career or pick a new one based on what they learned this week. Favorites are saved to the Climber Profile and accumulate across all 36 weeks of the course.
 
-**Xello: What is CTE? + Add Interests (final 2 min if time):** Direct students to Xello and have them complete the "What is CTE?" lesson and add at least 2 manufacturing-related interests using the Add Interests feature. This is a quick task — the goal is just to start the Xello data set for the cluster.
+**Xello: What is CTE? + Add Interests (final 2 min if time):** Direct students to Xello and have them complete the "What is CTE?" lesson and add at least 2 manufacturing-related interests using the Add Interests feature. This is a quick task, the goal is just to start the Xello data set for the cluster.
 
 > [VERIFY IN eDynamic] eDynamic Unit 2.1 (Knowledge and Innovation) is mapped for this week in the scope-and-sequence. Confirm specific activities in eDynamic and assign as a homework option for students who finish early.
 

@@ -16,7 +16,7 @@
 
 **WARM-UP: Professional architects use software called Revit and AutoCAD to design buildings in 3D before anything gets built. Today you learn the basics of 3D design. Have you ever used any 3D modeling software before?**
 
-Quick poll — most students will say no. Reassure them that TinkerCAD is designed for beginners and the skills they learn today are the same fundamentals used in professional CAD.
+Quick poll, most students will say no. Reassure them that TinkerCAD is designed for beginners and the skills they learn today are the same fundamentals used in professional CAD.
 
 ---
 
@@ -33,7 +33,7 @@ Walk students through account creation by projecting each step on the screen:
     - **Camera controls** = scroll wheel to zoom, right-click and drag to rotate the view
     - **Top toolbar** = Align, Group, and other editing tools
 
-!!! tip "Tech Setup — verify BEFORE class"
+!!! tip "Tech Setup: verify BEFORE class"
     TinkerCAD SSO can stall on first-use login if the school domain is not whitelisted. Pre-requisites: (1) IT whitelists `tinkercad.com` and `*.autodesk.com` at least 24 hrs before this lesson; (2) test login with 2 student accounts on the school Chromebook network; (3) have a paper-sketch fallback ready if SSO fails. Expected time: 10 min if pre-verified, 20–30 min if domain access fails.
 
 Verify all students have a blank workplane on screen before proceeding.
@@ -51,7 +51,7 @@ Teach each skill one at a time on the projector. Students follow along on their 
 
 ### Skill 2: Resize
 - Click the box to select it → white **corner handles** appear
-- Drag a corner handle to make the box **tall and thin** — like a wall
+- Drag a corner handle to make the box **tall and thin:** like a wall
 - The **dimension labels** show the size in millimeters as you drag
 - **Check:** "Your box should now be tall and flat, like a wall. Thumbs up if yours looks like mine."
 
@@ -63,14 +63,14 @@ Teach each skill one at a time on the projector. Students follow along on their 
 
 ### Skill 4: Group
 - With both shapes still selected, click **Group** in the top toolbar (or press Ctrl+G)
-- The two shapes merge into one object — they move together now
+- The two shapes merge into one object. They move together now
 - **Check:** "Click somewhere empty, then click your grouped shape. Both walls should highlight together."
 
 ### Skill 5: Hole (cutting openings)
 - Drag a new **Box** shape onto a wall
-- Click the new box → in the **Shape panel** (top right of the selected shape), change it from **Solid** to **Hole** — it turns transparent/striped
+- Click the new box → in the **Shape panel** (top right of the selected shape), change it from **Solid** to **Hole:** it turns transparent/striped
 - Select both the wall AND the hole shape → click **Group**
-- The hole cuts through the wall — this is how you make **doors and windows**
+- The hole cuts through the wall. This is how you make **doors and windows**
 - **Check:** "You should see a rectangular opening cut through your wall. That is a window."
 
 !!! tip "Facilitation Tip"
@@ -82,7 +82,7 @@ Teach each skill one at a time on the projector. Students follow along on their 
 
 **Before touching TinkerCAD, sketch first.** Distribute plain paper and have students draw:
 
-- A **top-down view** (floor plan) of their building — label rooms and dimensions
+- A **top-down view** (floor plan) of their building, label rooms and dimensions
 - A **front view** showing the shape, door, and windows
 
 The design challenge specs:
@@ -92,7 +92,7 @@ The design challenge specs:
 - **1 door opening** (use the Hole tool)
 - **2 window openings** (use the Hole tool)
 
-**Sketch checklist (self + peer review, NOT sequential teacher approval):** Before TinkerCAD work, students pair-check each other's sketches against three items — (1) floor plan shows ≥4 walls labeled with rooms or dimensions, (2) front view shows roof, 1 door, and ≥2 windows, (3) the student can name one design choice they made. Pairs check each box, then hold up sketches for a 30-second teacher spot-check. This keeps approval time to ~10 min across the class rather than the 48+ min of sequential teacher sign-offs 24 students would otherwise require. Once approved, students begin building in TinkerCAD — the goal for today is walls and roof built and grouped; door/window holes continue tomorrow.
+**Sketch checklist (self + peer review, NOT sequential teacher approval):** Before TinkerCAD work, students pair-check each other's sketches against three items: (1) floor plan shows ≥4 walls labeled with rooms or dimensions, (2) front view shows roof, 1 door, and ≥2 windows, (3) the student can name one design choice they made. Pairs check each box, then hold up sketches for a 30-second teacher spot-check. This keeps approval time to ~10 min across the class rather than the 48+ min of sequential teacher sign-offs 24 students would otherwise require. Once approved, students begin building in TinkerCAD. The goal for today is walls and roof built and grouped; door/window holes continue tomorrow.
 
 **DOK 2:** How are the shapes in TinkerCAD similar to the materials a real architect specifies? What does a box represent in a building? A cylinder?
 

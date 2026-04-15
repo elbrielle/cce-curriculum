@@ -22,12 +22,12 @@ Take responses on the board. Most students will name police, firefighters, and a
 
 ## Activity 1: H&L First Responder Pathways Tour (20 min)
 
-**Source:** H&L Workbook Ch 13, p. 209 — Pathway descriptions (Law Enforcement, Fire Science)
+**Source:** H&L Workbook Ch 13, p. 209, Pathway descriptions (Law Enforcement, Fire Science)
 
 Open H&L and direct students to the Law and Public Service cluster. Today's focus is two pathways:
 
-- **Law Enforcement Services** — covers constitutional law, the U.S. legal system, criminal law, and law enforcement terminology
-- **Fire Science / Emergency & Fire Management** — covers preparedness, fire suppression, arson investigation, hazardous material management, and public fire safety education
+- **Law Enforcement Services:** covers constitutional law, the U.S. legal system, criminal law, and law enforcement terminology
+- **Fire Science / Emergency & Fire Management:** covers preparedness, fire suppression, arson investigation, hazardous material management, and public fire safety education
 
 > [H&L PLATFORM] In the H&L app, click "Career Clusters," select "Law and Public Service," then click "Law Enforcement Services" and "Fire Science" pathway tiles. Use Hat Finder to explore at least 5 first responder Hats. For each Hat, students read the job description, education path, and DFW salary.
 
@@ -71,7 +71,7 @@ Students then work independently on Police Officer and Firefighter using the sam
 
 ## Activity 3: From the Field Interviews (8 min)
 
-**Source:** H&L app — From the Field interview videos (Ch 13)
+**Source:** H&L app. From the Field interview videos (Ch 13)
 
 > [H&L PLATFORM] In the H&L app, on each Hat page, scroll to "From the Field" or "Career Stories." Select one short video featuring a first responder (Police Officer, EMT, or Firefighter). Students watch the video and write one sentence: "The most surprising thing about this person's job is _____."
 

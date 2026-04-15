@@ -27,7 +27,7 @@ Quick share. Listen for growth: "I thought IT was just programming, now I know i
 **Gallery Walk (5 min):** When all logos are cut, display them on a long table or wall. Students do a brief gallery walk to see each other's postsecondary goals. Each student stops at 3 logos that are NOT their own and writes a sticky note: "I like that you chose _____." (positive only).
 
 !!! tip "Facilitation Tip"
-    The Gallery Walk is a moment of community celebration. These logos represent students committing — even tentatively — to a future direction. Treat it with respect. Take photos for your bulletin board (with parent permission).
+    The Gallery Walk is a moment of community celebration. These logos represent students committing, even tentatively, to a future direction. Treat it with respect. Take photos for your bulletin board (with parent permission).
 
 ---
 
@@ -35,14 +35,14 @@ Quick share. Listen for growth: "I thought IT was just programming, now I know i
 
 Return students' Wk0 My Career Journey reflection handouts. Tell them: "Five weeks ago you wrote down what you knew about yourself. Today you add a SECOND section showing how much you've learned."
 
-**The reflection update — students add a new section to the bottom of their Wk0 handout (or use a fresh page):**
+**The reflection update. Students add a new section to the bottom of their Wk0 handout (or use a fresh page):**
 
-1. **What clusters have I explored?** _____ (Manufacturing + IT — list all 5 sub-pathways within IT)
+1. **What clusters have I explored?** _____ (Manufacturing + IT, list all 5 sub-pathways within IT)
 2. **What careers did I favorite?** _____ (List all 6+ favorited Hats from the Climber Profile)
 3. **What surprised me?** _____ (1-2 sentences)
 4. **What do I want to explore next?** _____ (Looking ahead to 2SW: Law, Public Service, Health Science)
 5. **What is my postsecondary goal?** _____ (The college / trade school / cert / career your Glowforge logo represents)
-6. **What Powerskills did I practice?** _____ (Communication, Problem-Solving, Integrity, Time Management — pick 2-3)
+6. **What Powerskills did I practice?** _____ (Communication, Problem-Solving, Integrity, Time Management, pick 2-3)
 7. **One question I still have** _____
 
 Students compare this update to their Day 1 self. Walk the room and ask: "What is the biggest change between Wk0 and now?"
@@ -72,5 +72,5 @@ Tell students: "Both platforms now know what you like. The next 30 weeks add mor
 ## Differentiation
 
 - **Support:** Provide a simplified reflection update template with fill-in-the-blank prompts for each of the 7 questions. Students complete the template in 15 minutes instead of writing freeform.
-- **Extension:** Students who finish early start the **NOVA Cybersecurity Lab** game (PBS) — [pbs.org/wgbh/nova/labs/lab/cyber/](https://www.pbs.org/wgbh/nova/labs/lab/cyber/). Or they can write a 1-paragraph "letter to my Wk0 self" describing what they would tell themselves 5 weeks ago.
+- **Extension:** Students who finish early start the **NOVA Cybersecurity Lab** game (PBS): [pbs.org/wgbh/nova/labs/lab/cyber/](https://www.pbs.org/wgbh/nova/labs/lab/cyber/). Or they can write a 1-paragraph "letter to my Wk0 self" describing what they would tell themselves 5 weeks ago.
 - **ELL:** Bilingual reflection template with Spanish sentence stems for the 7 questions. Pair ELL students with bilingual peers for the Gallery Walk so they can talk through their cluster interests aloud.

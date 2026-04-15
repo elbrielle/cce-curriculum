@@ -8,7 +8,7 @@
 | **Objectives** | Update the Week 0 My Career Journey reflection sheet with mid-year growth; complete H&L "Being a Career Thinker" reflection (Ch 16); participate in a class-wide pathway dot-vote gallery walk |
 | **TEKS** | d(1)(A), d(8)(A), d(8)(B) |
 | **Deliverable** | Updated My Career Journey reflection sheet (Week 0 + Mid-Year sections) submitted to teacher |
-| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 16, p. 270 — "Being a Career Thinker"), Week 0 My Career Journey reflection sheet (returned to students), printed mid-year reflection template, Irving ISD CTE Pathways poster, colored sticker dots (3 per student), printed cluster posters, projector |
+| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 16, p. 270, "Being a Career Thinker"), Week 0 My Career Journey reflection sheet (returned to students), printed mid-year reflection template, Irving ISD CTE Pathways poster, colored sticker dots (3 per student), printed cluster posters, projector |
 
 ---
 
@@ -22,14 +22,14 @@ Take 2-3 student responses. Affirm that thinking shifts are expected and healthy
 
 ## Activity 1: H&L "Being a Career Thinker" Reflection (10 min)
 
-**Source:** H&L Workbook Ch 16, p. 270 — "Being a Career Thinker"
+**Source:** H&L Workbook Ch 16, p. 270, "Being a Career Thinker"
 
 Direct students to Chapter 16's final reflection in the workbook. The "Being a Career Thinker" prompt asks students to reflect on how their thinking about careers has stayed the same or changed since the beginning of the course.
 
 Students respond in their workbook to these prompts (drawn from the workbook framing):
 - What is one belief about careers I had at the start of the year that has changed?
 - What is one belief that has stayed the same?
-- Who am I becoming as a "career thinker" — what new questions do I ask now that I did not ask before?
+- Who am I becoming as a "career thinker", what new questions do I ask now that I did not ask before?
 
 Read 1-2 anonymous responses aloud at the end of the 10 minutes (only with student permission). The point is to model that reflection has many shapes.
 
@@ -56,20 +56,20 @@ This is the summative deliverable for the week. Students submit both their Week 
 
 ## Activity 3: Pathway Dot-Vote Gallery Walk (15 min)
 
-**Source:** IISD instructional strategy — Gallery Walk for visual class data
+**Source:** IISD instructional strategy. Gallery Walk for visual class data
 
 Set up the room before class with printed cluster posters around the walls. Each poster lists the Irving ISD pathways within that cluster:
 
-- **Architecture & Construction:** Architecture, Construction, Civil Engineering, Welding — MacArthur (School of ACE)
-- **Health Science:** Nursing Science, Physical Therapy, Dental, Emergency Medical-EMT — Singley (School of Health Science). Biomedical Science — Irving High (School of Biomedical Science).
-- **Aviation / Drone:** Aviation Maintenance, Drone Engineering — Irving High (School of Aviation Science). Robotic Manufacturing — Singley (School of Innovative Technology). Sustainable Engineering — Nimitz (School of Sustainable Engineering).
-- **Automotive:** Automotive — Ratteree Career Development Center
-- **Information Technology:** Computer Science (Irving High, MacArthur, Nimitz). Cybersecurity / Programming / Tech Support — Singley (School of Innovative Technology)
-- **Business / Marketing / Finance:** Business, Retail Management and Entrepreneurship with Real Estate Marketing, Administrative Management, Sales Management, Entrepreneurship — MacArthur. Business Management and Marketing — Irving High + Nimitz. Business Management and Entrepreneurship — Cardwell.
-- **Arts / Comm / Education:** Arts/AV (Graphic Design, Digital Communication), Education, Culinary Arts/Hospitality — Irving High, MacArthur, Nimitz.
-- **Public Service / Law:** Legal Studies, Law Enforcement — Singley (School of Law and Public Service)
-- **Agriculture / Animal Science:** Plant Science, Veterinary Science — Nimitz (School of Agriculture Science)
-- **Personal Care:** Cosmetology — Ratteree. Early Childhood Education — Cardwell.
+- **Architecture & Construction:** Architecture, Construction, Civil Engineering, Welding. MacArthur (School of ACE)
+- **Health Science:** Nursing Science, Physical Therapy, Dental, Emergency Medical-EMT, Singley (School of Health Science). Biomedical Science. Irving High (School of Biomedical Science).
+- **Aviation / Drone:** Aviation Maintenance, Drone Engineering. Irving High (School of Aviation Science). Robotic Manufacturing. Singley (School of Innovative Technology). Sustainable Engineering. Nimitz (School of Sustainable Engineering).
+- **Automotive:** Automotive. Ratteree Career Development Center
+- **Information Technology:** Computer Science (Irving High, MacArthur, Nimitz). Cybersecurity / Programming / Tech Support. Singley (School of Innovative Technology)
+- **Business / Marketing / Finance:** Business, Retail Management and Entrepreneurship with Real Estate Marketing, Administrative Management, Sales Management, Entrepreneurship. MacArthur. Business Management and Marketing. Irving High + Nimitz. Business Management and Entrepreneurship. Cardwell.
+- **Arts / Comm / Education:** Arts/AV (Graphic Design, Digital Communication), Education, Culinary Arts/Hospitality. Irving High, MacArthur, Nimitz.
+- **Public Service / Law:** Legal Studies, Law Enforcement. Singley (School of Law and Public Service)
+- **Agriculture / Animal Science:** Plant Science, Veterinary Science. Nimitz (School of Agriculture Science)
+- **Personal Care:** Cosmetology. Ratteree. Early Childhood Education. Cardwell.
 
 Each student gets **3 colored sticker dots**. They walk around the room and place dots on their top 3 pathways across all posters. They can put all 3 dots on one pathway if they are very sure, or spread them across 3 different pathways.
 
@@ -91,5 +91,5 @@ After the walk, the class returns to seats. Show the dot distribution: which clu
 ## Differentiation
 
 - **Support:** Pre-printed sentence stems for the Mid-Year Update template. Students fill in the blanks rather than writing from scratch. Pair with a peer for the gallery walk if mobility is a concern.
-- **Extension:** After the dot vote, write a one-paragraph analysis of the class data — which pathways are popular and which are underrepresented? What might explain the distribution? Submit alongside the reflection.
+- **Extension:** After the dot vote, write a one-paragraph analysis of the class data, which pathways are popular and which are underrepresented? What might explain the distribution? Submit alongside the reflection.
 - **ELL:** Bilingual Mid-Year Update template with Spanish sentence stems. Pre-teach: Reflection = Reflexión, Growth = Crecimiento, Career thinker = Pensador profesional. Pair ESL students with bilingual peers during the gallery walk discussion.

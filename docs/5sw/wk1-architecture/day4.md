@@ -25,7 +25,7 @@ Have 2-3 students share their improvement plans. This sets intentional goals for
 Students continue building their 3D designs in TinkerCAD. Rather than open-ended work time, use **three timed checkpoints** to keep students on track and ensure quality:
 
 ### Checkpoint 1 — by minute 7
-**Walls and roof are built and grouped.** All wall shapes and the roof should be combined into a single grouped object. *If a student did not finish walls and roof on Day 3, use the first 5 minutes today to complete them — raise a hand for a quick teacher check before moving on to holes.* Circulate and verify — if a student's shapes are not grouped, help them select all and press Group (Ctrl+G).
+**Walls and roof are built and grouped.** All wall shapes and the roof should be combined into a single grouped object. *If a student did not finish walls and roof on Day 3, use the first 5 minutes today to complete them, raise a hand for a quick teacher check before moving on to holes.* Circulate and verify, if a student's shapes are not grouped, help them select all and press Group (Ctrl+G).
 
 ### Checkpoint 2 — by minute 14
 **Door and window openings are cut.** At least 1 door hole and 2 window holes should be visible. If students are struggling with the Hole tool, project a quick refresher: drag box → change to Hole → overlap with wall → select both → Group.
@@ -48,9 +48,9 @@ This PNG is the deliverable they will present on Day 5.
 
 ## Activity 2: H&L "Trash to Treasure" Activity (20 min)
 
-**Source:** H&L Workbook Ch 3, pp. 44-46 — "Trash to Treasure" (Career Climb activity)
+**Source:** H&L Workbook Ch 3, pp. 44-46, "Trash to Treasure" (Career Climb activity)
 
-Transition from digital design to landscape architecture. Introduce the concept: architects don't just design new buildings — some of the most creative projects involve transforming unwanted spaces into places people love.
+Transition from digital design to landscape architecture. Introduce the concept: architects don't just design new buildings, some of the most creative projects involve transforming unwanted spaces into places people love.
 
 Direct students to the Trash to Treasure activity in their H&L workbook. The scenario:
 
@@ -68,7 +68,7 @@ Direct students to the Trash to Treasure activity in their H&L workbook. The sce
 
 Students also consider: *Who will use your space? What features will they need?*
 
-**Step 2: Sketch Your Design** — choose ONE perspective in the 20-min window (students with time remaining may add the second):
+**Step 2: Sketch Your Design:** choose ONE perspective in the 20-min window (students with time remaining may add the second):
 
 - **Map View (bird's-eye):** Pathways, green areas, buildings, seating, and special features with labels. *OR*
 - **Feature Sketch (person's perspective):** One key feature (entrance gate, pavilion, viewing deck) as a visitor would see it.
@@ -99,6 +99,6 @@ Pick the view that best shows your outdoor space idea. The workbook provides bot
 
 ## Differentiation
 
-- **Support:** For Trash to Treasure, provide a pre-labeled map template with pathways and zones already drawn — students add features to the zones rather than designing from a blank page.
-- **Extension:** Students 3D model their Trash to Treasure outdoor space feature in TinkerCAD — build the entrance gate, pavilion, or playground structure.
+- **Support:** For Trash to Treasure, provide a pre-labeled map template with pathways and zones already drawn, students add features to the zones rather than designing from a blank page.
+- **Extension:** Students 3D model their Trash to Treasure outdoor space feature in TinkerCAD, build the entrance gate, pavilion, or playground structure.
 - **ELL:** Key terms for Trash to Treasure: Sustainability = Sustentabilidad, Landfill = Vertedero/Basurero, Reclaim = Reclamar. The sketch activity is visual and accessible.

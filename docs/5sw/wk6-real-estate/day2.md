@@ -16,7 +16,7 @@
 
 **WARM-UP: If you earned 3% of every sale you made, and you sold a $300,000 house, how much would you earn from that one sale? Work it out without a calculator first, then check.**
 
-Quick share. Correct answer: $9,000. This is the "wow moment" of the week — one sale is a big check. Bridge: the catch is that agents do not make a sale every week. Today you'll learn what the actual math looks like over a year.
+Quick share. Correct answer: $9,000. This is the "wow moment" of the week, one sale is a big check. Bridge: the catch is that agents do not make a sale every week. Today you'll learn what the actual math looks like over a year.
 
 ---
 
@@ -42,7 +42,7 @@ Students fill in the TREC Licensing Requirements handout as they read the TREC w
 **Irving ISD connection:** MacArthur High School offers Real Estate as part of its Business, Retail Management and Entrepreneurship school. Students interested in real estate careers can pursue the MacArthur Real Estate pathway in high school.
 
 !!! tip "Facilitation Tip"
-    Students often ask "Can I become an agent at 16?" The answer is no — TREC requires a minimum age of 18 to sit for the Sales Agent exam. But students can start building real estate knowledge and coursework at MacArthur so they are ready when they turn 18.
+    Students often ask "Can I become an agent at 16?" The answer is no. TREC requires a minimum age of 18 to sit for the Sales Agent exam. But students can start building real estate knowledge and coursework at MacArthur so they are ready when they turn 18.
 
 ---
 
@@ -50,7 +50,7 @@ Students fill in the TREC Licensing Requirements handout as they read the TREC w
 
 **Source:** Commission vs. Salary Comparison worksheet
 
-Project the worksheet and walk through the calculation method with one example. Use $350,000 home × 3% commission = **$10,500 per sale**. Note that the commission is usually split between the buyer's agent and the seller's agent, so the agent's actual take-home is often **half** — $5,250.
+Project the worksheet and walk through the calculation method with one example. Use $350,000 home × 3% commission = **$10,500 per sale**. Note that the commission is usually split between the buyer's agent and the seller's agent, so the agent's actual take-home is often **half:** $5,250.
 
 Students complete the worksheet by calculating:
 
@@ -76,7 +76,7 @@ A Property Manager in DFW earns a fixed $70,000/year regardless of transaction v
 Students answer: *"What are the risks of commission-based income? What are the rewards? Would you prefer commission or salary? Explain your choice."*
 
 !!! tip "Frame both answers as valid"
-    Before students write, name out loud that neither choice is "better" — it depends on the person's financial security, family situation, and tolerance for variability. Commission is not the "right" answer for entrepreneurial students, and salary is not the "safe" answer for cautious ones. Students whose families need predictable income should not feel judged for preferring salary; students drawn to variable earnings should not feel pushed to commit.
+    Before students write, name out loud that neither choice is "better", it depends on the person's financial security, family situation, and tolerance for variability. Commission is not the "right" answer for entrepreneurial students, and salary is not the "safe" answer for cautious ones. Students whose families need predictable income should not feel judged for preferring salary; students drawn to variable earnings should not feel pushed to commit.
 
 **DOK 3:** What conclusions can you draw about the financial risks and rewards of commission-based income? What kind of person is best suited for this income model?
 
@@ -93,5 +93,5 @@ Students answer: *"What are the risks of commission-based income? What are the r
 ## Differentiation
 
 - **Support:** Provide a commission calculation example with every step worked out ($250,000 × 0.03 = $7,500). Students replicate the formula for different home prices.
-- **Extension:** Research TREC Broker licensing (the advanced license) — what additional requirements exist beyond Sales Agent? How long does it take to qualify?
+- **Extension:** Research TREC Broker licensing (the advanced license): what additional requirements exist beyond Sales Agent? How long does it take to qualify?
 - **ELL:** Bilingual TREC Licensing handout. Commission math is number-based and language-accessible. Pre-teach: Commission = Comisión, License = Licencia, Sale = Venta.

@@ -20,8 +20,8 @@ Students complete a problem-solving revisit using the H&L Powerskills "Work Ethi
 ## Materials Needed
 
 - Chromebooks with internet access (1 per student)
-- Hats & Ladders student accounts + Powerskills Workbook (Powerskills, pp. 12-15 — "Work Ethic" module + STEM Program activity)
-- H&L Workbook (Ch 16 — Career Plan finalization)
+- Hats & Ladders student accounts + Powerskills Workbook (Powerskills, pp. 12-15, "Work Ethic" module + STEM Program activity)
+- H&L Workbook (Ch 16, Career Plan finalization)
 - SkillsUSA: [skillsusa.org](https://www.skillsusa.org)
 - ASE: [ase.com](https://www.ase.com)
 - FAA Careers: [faa.gov/jobs](https://www.faa.gov/jobs)
@@ -37,19 +37,19 @@ Students complete a problem-solving revisit using the H&L Powerskills "Work Ethi
 
 Over 18 weeks students have explored 8 career clusters, designed safety plans and apps and surveys and robots, and built a written Career Plan. This week shifts the focus from "what career do I want?" to "what skills do I bring to ANY career?" The transferable skills students have practiced (communication, problem solving, teamwork, attention to detail, work ethic) connect to every pathway. Professional associations (SkillsUSA, ASE, FAA, TSA, NSPE, HOSA, FBLA) provide networking, competitions, scholarships, and credentialing.
 
-**Irving ISD Pathway:** This week connects to all pathways. Professional associations referenced: SkillsUSA (trades), ASE (automotive), FAA (aviation), TSA (technology — students are already members), NSPE (engineering).
+**Irving ISD Pathway:** This week connects to all pathways. Professional associations referenced: SkillsUSA (trades), ASE (automotive), FAA (aviation), TSA (technology, students are already members), NSPE (engineering).
 
 ## Vocabulary
 
-- **Transferable Skills:** Skills that work across multiple careers — problem solving, communication, teamwork, time management, critical thinking, work ethic.
+- **Transferable Skills:** Skills that work across multiple careers, problem solving, communication, teamwork, time management, critical thinking, work ethic.
 - **Professional Association:** An organization for people working in a specific field that provides networking, training, certification, and advocacy. Often hosts student chapters and competitions.
 - **SkillsUSA:** A national CTSO for trade, technical, and skilled service career students. Hosts SkillsUSA Championships across hundreds of competitions.
 - **TSA (Technology Student Association):** The CTSO for technology and engineering students. Many IISD VILS students compete in TSA Drone Challenge.
-- **Work Ethic:** The set of values centered on doing work well — showing up on time, doing your best, being responsible, persevering through challenges. The H&L Powerskills module that anchors this week.
+- **Work Ethic:** The set of values centered on doing work well, showing up on time, doing your best, being responsible, persevering through challenges. The H&L Powerskills module that anchors this week.
 
 ## Bridge to Theory (Hats & Ladders)
 
-H&L Powerskills "Work Ethic" module (Powerskills workbook, pp. 12-15) is the centerpiece of this week. The module frames work ethic as showing up on time, doing your best, being responsible, and not giving up — even when things get tough. The module's named activity is the **STEM Program design activity** (cross-referenced in H&L Ch 8 Engineering, p. 124-125): students imagine they are volunteering to create a community STEM program and design the program from scratch. The activity is structured around 3 steps:
+H&L Powerskills "Work Ethic" module (Powerskills workbook, pp. 12-15) is the centerpiece of this week. The module frames work ethic as showing up on time, doing your best, being responsible, and not giving up, even when things get tough. The module's named activity is the **STEM Program design activity** (cross-referenced in H&L Ch 8 Engineering, p. 124-125): students imagine they are volunteering to create a community STEM program and design the program from scratch. The activity is structured around 3 steps:
 
 1. **Choose a Topic** (Science, Technology, Engineering, or Math)
 2. **Plan Your Program** (5-question chart: Name, Audience, Activities, Location, Community Impact)
@@ -60,9 +60,9 @@ The class discussion at the end ties back to work ethic explicitly: "How did you
 ## IISD Instructional Strategies
 
 - **Think-Pair-Share:** Day 1 STEM program debrief on how students applied work ethic.
-- **Jigsaw:** Day 3 professional association research — each team becomes the expert on one association and teaches the rest.
-- **Sentence Stems:** Mid-year reflection — "At the beginning of the year I thought _____. Now I know _____. The biggest growth I see in myself is _____."
-- **Active Monitoring:** Day 2 Transferable Skills Matrix — verify every student finds at least 8 skills that apply to ALL 6 careers in the matrix.
+- **Jigsaw:** Day 3 professional association research, each team becomes the expert on one association and teaches the rest.
+- **Sentence Stems:** Mid-year reflection, "At the beginning of the year I thought _____. Now I know _____. The biggest growth I see in myself is _____."
+- **Active Monitoring:** Day 2 Transferable Skills Matrix, verify every student finds at least 8 skills that apply to ALL 6 careers in the matrix.
 
 ## Week at a Glance
 
@@ -76,10 +76,10 @@ The class discussion at the end ties back to work ethic explicitly: "How did you
 
 ## Formative Assessment
 
-- STEM Program plan completeness (Day 1) — d(4)(F)
-- Transferable Skills Matrix coverage (Day 2) — d(4)(B)
-- Jigsaw research notes per team (Day 3) — d(3)(H)
-- H&L Career Plan accumulation check (Day 4) — d(4)(F)
+- STEM Program plan completeness (Day 1): d(4)(F)
+- Transferable Skills Matrix coverage (Day 2): d(4)(B)
+- Jigsaw research notes per team (Day 3): d(3)(H)
+- H&L Career Plan accumulation check (Day 4): d(4)(F)
 
 ## Summative Assessment
 

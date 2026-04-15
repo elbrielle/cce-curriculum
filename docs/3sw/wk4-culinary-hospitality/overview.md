@@ -20,11 +20,11 @@ Students explore the Hospitality & Tourism cluster through Hats & Ladders, compl
 
 - Chromebooks with internet access (1 per student)
 - Hats & Ladders student accounts + H&L Workbook (Ch 10: Hospitality & Tourism, pp. 158-173)
-- H&L Powerskills Supplement — Motivation module
+- H&L Powerskills Supplement. Motivation module
 - Canva for Education accounts: [canva.com/education](https://www.canva.com/education/)
 
-- BLS — Chefs and Head Cooks: [bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm](https://www.bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm)
-- BLS — Lodging Managers: [bls.gov/ooh/management/lodging-managers.htm](https://www.bls.gov/ooh/management/lodging-managers.htm)
+- BLS, Chefs and Head Cooks: [bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm](https://www.bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm)
+- BLS, Lodging Managers: [bls.gov/ooh/management/lodging-managers.htm](https://www.bls.gov/ooh/management/lodging-managers.htm)
 - Xello student accounts (Decision Making lesson)
 - eDynamic Learning Unit 6.1: Entertaining and Exploring
 - Printed Culinary Twist menu template
@@ -33,9 +33,9 @@ Students explore the Hospitality & Tourism cluster through Hats & Ladders, compl
 
 ## Career Connection
 
-The hospitality industry is the world's largest employer. From Michelin-star restaurants to food trucks, from luxury hotels to event planning, this cluster offers careers for every personality type. Entrepreneurship is especially strong in hospitality — many people open their own restaurants, food trucks, catering businesses, or event-planning companies.
+The hospitality industry is the world's largest employer. From Michelin-star restaurants to food trucks, from luxury hotels to event planning, this cluster offers careers for every personality type. Entrepreneurship is especially strong in hospitality, many people open their own restaurants, food trucks, catering businesses, or event-planning companies.
 
-**Irving ISD Pathway:** **Singley Academy's School of Culinary Arts and Hospitality** offers both Culinary Arts and Hospitality Services pathways — the district's primary home for culinary training. Singley also operates the student-run **FireBird Cafe Catering** business as applied practice. **Lodging and Resort Management** is offered at Irving High School, MacArthur High School, and Nimitz High School.
+**Irving ISD Pathway:** **Singley Academy's School of Culinary Arts and Hospitality** offers both Culinary Arts and Hospitality Services pathways, the district's primary home for culinary training. Singley also operates the student-run **FireBird Cafe Catering** business as applied practice. **Lodging and Resort Management** is offered at Irving High School, MacArthur High School, and Nimitz High School.
 
 ## Vocabulary
 
@@ -50,10 +50,10 @@ The hospitality industry is the world's largest employer. From Michelin-star res
 
 The H&L workbook (Ch 10) anchors this week with three powerful activities:
 
-- **Culinary Twist** (Ch 10, pp. 159-161) — students design a creative dish with a partner-chosen "special ingredient" and present it on a menu
-- **Powerskill: Motivation** (Ch 10, pp. 162) — students design a baking competition and identify which types of motivation drive contestants
-- **Hotel Rescue** (Ch 10, pp. 163-165) — small-group problem-solving where students play hotel staff roles and solve 3 hotel crises
-- **Pack Your Bags: Local Tourism Campaign** (Ch 10, pp. 168-173) — Career Lab where students design a tourism campaign for the fictional city of Silverbrook
+- **Culinary Twist** (Ch 10, pp. 159-161): students design a creative dish with a partner-chosen "special ingredient" and present it on a menu
+- **Powerskill: Motivation** (Ch 10, pp. 162): students design a baking competition and identify which types of motivation drive contestants
+- **Hotel Rescue** (Ch 10, pp. 163-165): small-group problem-solving where students play hotel staff roles and solve 3 hotel crises
+- **Pack Your Bags: Local Tourism Campaign** (Ch 10, pp. 168-173): Career Lab where students design a tourism campaign for the fictional city of Silverbrook
 
 These three activities cover the three pathways inside the Hospitality cluster: Culinary Arts, Lodging & Resort Management, and Travel/Tourism/Attractions.
 
@@ -71,15 +71,15 @@ These three activities cover the three pathways inside the Hospitality cluster: 
 | 1 | Hospitality Cluster + Culinary Twist | H&L cluster tour + "Culinary Twist" dish design (Ch 10, pp. 159-161) | Completed dish description + menu sketch |
 | 2 | Powerskill Motivation + Salary Comparison | H&L Powerskill Motivation lesson (Ch 10, p. 162) + 3-career salary worksheet | Motivation chart + salary comparison worksheet |
 | 3 | Hotel Rescue Team Activity | H&L "Hotel Rescue" group problem-solving (Ch 10, pp. 163-165) | Group problem-solution presentation |
-| 4 | Pack Your Bags Tourism Campaign | H&L "Pack Your Bags" Career Lab (Ch 10, pp. 168-173) — Steps 1-3 | Sketched tourism campaign for Silverbrook |
+| 4 | Pack Your Bags Tourism Campaign | H&L "Pack Your Bags" Career Lab (Ch 10, pp. 168-173): Steps 1-3 | Sketched tourism campaign for Silverbrook |
 | 5 | Xello Decision Making + eDynamic 6.1 | Xello Decision Making lesson + eDynamic Unit 6.1 progress | Completed Xello lesson + favorited careers in H&L |
 
 ## Formative Assessment
 
-- Culinary Twist dish quality and creative use of special ingredient (Day 1) — d(1)(C)
-- Powerskill Motivation chart + salary comparison worksheet (Day 2) — d(5)(E)
-- Hotel Rescue role contribution and team solution (Day 3) — d(1)(C), d(3)(I)
-- Pack Your Bags campaign sketch and slogan (Day 4) — d(3)(I)
+- Culinary Twist dish quality and creative use of special ingredient (Day 1): d(1)(C)
+- Powerskill Motivation chart + salary comparison worksheet (Day 2): d(5)(E)
+- Hotel Rescue role contribution and team solution (Day 3): d(1)(C), d(3)(I)
+- Pack Your Bags campaign sketch and slogan (Day 4): d(3)(I)
 
 ## Summative Assessment
 

@@ -20,7 +20,7 @@ Students explore Marketing careers within the Business, Marketing & Finance clus
 
 - Chromebooks with internet access (1 per student)
 - Hats & Ladders student accounts + H&L Workbook (Ch 5: Business, Marketing, and Finance, pp. 73-79)
-- BLS — Market Research Analysts: [bls.gov/ooh/business-and-financial/market-research-analysts.htm](https://www.bls.gov/ooh/business-and-financial/market-research-analysts.htm)
+- BLS, Market Research Analysts: [bls.gov/ooh/business-and-financial/market-research-analysts.htm](https://www.bls.gov/ooh/business-and-financial/market-research-analysts.htm)
 - Google Applied Digital Skills: [applieddigitalskills.withgoogle.com](https://applieddigitalskills.withgoogle.com)
 - eDynamic Learning Unit 4.1: Enterprise and Money Matters
 - Xello School Subjects at Work lesson (7th-grade task list)
@@ -48,9 +48,9 @@ Marketing is the engine that drives every business. Without marketing, even the 
 
 H&L Ch 5 (Business, Marketing, and Finance, pp. 73-86) covers six pathways: Accounting and Financial Services, Business Management, Marketing and Sales, Real Estate, Retail Management, and Entrepreneurship. The Marketing and Sales pathway is described as: *"Finding ways to tell people about products or services and encouraging them to buy."* This week uses three named workbook activities:
 
-- **Marketing on the Move** (Day 1) — Career Climb. Students choose a product or event (new aquarium, smoothie launch, self-driving car promo) and design a billboard or bus wrap ad with checklist requirements.
-- **Powerskill: Written Communication** (Day 2) — Students create a social media post for a Little Free Library, practicing clear messaging and call-to-action writing.
-- **Think Inside the Box** (Day 3) — Career Climb. Students design a Minimum Viable Product (MVP) subscription box, identify their target audience, and develop 3-5 customer feedback questions.
+- **Marketing on the Move** (Day 1): Career Climb. Students choose a product or event (new aquarium, smoothie launch, self-driving car promo) and design a billboard or bus wrap ad with checklist requirements.
+- **Powerskill: Written Communication** (Day 2): Students create a social media post for a Little Free Library, practicing clear messaging and call-to-action writing.
+- **Think Inside the Box** (Day 3): Career Climb. Students design a Minimum Viable Product (MVP) subscription box, identify their target audience, and develop 3-5 customer feedback questions.
 
 The Hat Research template (Ch 5, p. 80) provides structured fields for marketing career research used Day 4.
 
@@ -59,7 +59,7 @@ The Hat Research template (Ch 5, p. 80) provides structured fields for marketing
 - **Modeling:** Teacher sketches a billboard ad on the projector before students start, showing the speed test (read in 5 seconds while driving).
 - **Sentence Stems:** For the economic conditions analysis: *"When the economy is strong, marketing jobs _____ because _____. When the economy slows down, marketing jobs _____ because _____."*
 - **Jigsaw:** Each team researches a different marketing role (Marketing Manager, Social Media Manager, Market Research Analyst, Brand Manager, SEO Specialist) and presents to the class.
-- **5-Second Test:** Ad designs are evaluated by holding them up for 5 seconds — can the audience tell what is being sold?
+- **5-Second Test:** Ad designs are evaluated by holding them up for 5 seconds, can the audience tell what is being sold?
 
 ## Week at a Glance
 
@@ -73,11 +73,11 @@ The Hat Research template (Ch 5, p. 80) provides structured fields for marketing
 
 ## Formative Assessment
 
-- Marketing on the Move ad design (Day 1) — d(1)(C), d(3)(I)
-- Little Library social media post (Day 2) — d(1)(C)
-- Economic conditions analysis (Day 2) — d(5)(C)
-- MVP design quality (Day 3) — d(3)(I)
-- GADS lesson completion (Day 4) — d(1)(C)
+- Marketing on the Move ad design (Day 1): d(1)(C), d(3)(I)
+- Little Library social media post (Day 2): d(1)(C)
+- Economic conditions analysis (Day 2): d(5)(C)
+- MVP design quality (Day 3): d(3)(I)
+- GADS lesson completion (Day 4): d(1)(C)
 
 ## Summative Assessment
 
@@ -99,5 +99,5 @@ The Hat Research template (Ch 5, p. 80) provides structured fields for marketing
 ### ELL Language Support
 - Pre-teach: Marketing = Mercadotecnia, Brand = Marca, Target Audience = Audiencia objetivo, Entrepreneurship = Emprendimiento, Subscription = Suscripción
 - Bilingual ad design templates with Spanish slogan options
-- Many of DFW's most successful marketing campaigns are bilingual — Spanish-language ads are an authentic creative choice
+- Many of DFW's most successful marketing campaigns are bilingual. Spanish-language ads are an authentic creative choice
 - Pair ESL students with bilingual peers during pitch presentations

@@ -22,18 +22,18 @@ Take 3-4 responses. Bridge: assertive communication is the middle path between p
 
 ## Activity 1: Advocacy + Self-Advocacy Lens (10 min)
 
-**Source:** H&L Powerskills Workbook, pp. 30-32 — "Advocacy"
+**Source:** H&L Powerskills Workbook, pp. 30-32, "Advocacy"
 
-Read the workbook intro aloud: *"Advocacy is the act of supporting or standing up for someone or something — whether it is a person, a cause, or an idea. In the workplace, advocacy is important because it helps people voice their opinions, make decisions, and improve working conditions for themselves or others."*
+Read the workbook intro aloud: *"Advocacy is the act of supporting or standing up for someone or something, whether it is a person, a cause, or an idea. In the workplace, advocacy is important because it helps people voice their opinions, make decisions, and improve working conditions for themselves or others."*
 
 Project the workbook's two types of advocacy (p. 30):
 
-- **Self-advocacy** — Speaking up for your own needs or rights
-- **Group advocacy** — Working with others to reach a goal and speaking up for group needs
+- **Self-advocacy:** Speaking up for your own needs or rights
+- **Group advocacy:** Working with others to reach a goal and speaking up for group needs
 
 Connect to healthcare: nurses are constant advocates. They advocate for patients (asking the doctor to reconsider a treatment), for colleagues (defending a CNA's workload), and for themselves (negotiating shifts and pay).
 
-**Self-advocacy for career explorers.** Students will apply self-advocacy to their own career exploration journey in the next activity. Ask: *"What does self-advocacy look like for a student who is exploring careers? Who are you 'standing up for' when you set a goal for yourself?"* Take 2-3 responses. The bridge to SMART goals: a strong goal is how you advocate for your own future — it names what you want, makes it measurable, and holds you accountable.
+**Self-advocacy for career explorers.** Students will apply self-advocacy to their own career exploration journey in the next activity. Ask: *"What does self-advocacy look like for a student who is exploring careers? Who are you 'standing up for' when you set a goal for yourself?"* Take 2-3 responses. The bridge to SMART goals: a strong goal is how you advocate for your own future, it names what you want, makes it measurable, and holds you accountable.
 
 ---
 
@@ -47,11 +47,11 @@ Project a SMART goal example on the board:
 
 Walk through each SMART component:
 
-- **S — Specific:** Names exactly what will be done (8 clusters, 15 favorites)
-- **M — Measurable:** Can be counted (8 and 15 are numbers)
-- **A — Achievable:** Realistic given the time and tools available (we are halfway through year, 8 clusters is reasonable)
-- **R — Relevant:** Connects to the bigger goal (career exploration is the year's purpose)
-- **T — Time-bound:** Has a deadline (June 1)
+- **S, Specific:** Names exactly what will be done (8 clusters, 15 favorites)
+- **M, Measurable:** Can be counted (8 and 15 are numbers)
+- **A, Achievable:** Realistic given the time and tools available (we are halfway through year, 8 clusters is reasonable)
+- **R, Relevant:** Connects to the bigger goal (career exploration is the year's purpose)
+- **T, Time-bound:** Has a deadline (June 1)
 
 Show a non-example for contrast:
 
@@ -86,5 +86,5 @@ Students share their goals with a partner who checks: Is it Specific? Measurable
 ## Differentiation
 
 - **Support:** Provide a SMART goal template with each component as a sentence stem: "By [date], I will [action] by [measurement]." Provide 3 example student goals.
-- **Extension:** Students write THREE SMART goals — one for this six weeks, one for the semester, one for high school. Each must build on the others.
+- **Extension:** Students write THREE SMART goals, one for this six weeks, one for the semester, one for high school. Each must build on the others.
 - **ELL:** Bilingual SMART goal worksheet. Pre-teach: Goal = Meta, Specific = Específico, Measurable = Medible, Achievable = Alcanzable, Time-bound = Con Plazo. Use a visual SMART acronym poster.

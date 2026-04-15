@@ -16,7 +16,7 @@
 
 **WARM-UP: What does "innocent until proven guilty" mean? Why do you think this rule exists in the U.S. legal system?**
 
-Take 2-3 responses. Most students will know the phrase but not the reason. Bridge: this principle protects people from being punished without evidence — and today's iCivics game makes students experience why evidence matters.
+Take 2-3 responses. Most students will know the phrase but not the reason. Bridge: this principle protects people from being punished without evidence, and today's iCivics game makes students experience why evidence matters.
 
 ---
 
@@ -28,11 +28,11 @@ Project [icivics.org/games](https://www.icivics.org/games) and walk students thr
 
 **Recommended games for this lesson** (all free):
 
-- **Do I Have a Right?** — Students run a law firm, accept clients with constitutional cases, and decide which cases to take. Best fit for the Legal Services pathway.
-- **Argument Wars** — Students argue famous Supreme Court cases using evidence cards. Best for students who want a debate-style game.
-- **Counties Work** — Students manage a county government and respond to citizen issues. Good for the Government and Public Administration pathway.
+- **Do I Have a Right?:** Students run a law firm, accept clients with constitutional cases, and decide which cases to take. Best fit for the Legal Services pathway.
+- **Argument Wars:** Students argue famous Supreme Court cases using evidence cards. Best for students who want a debate-style game.
+- **Counties Work:** Students manage a county government and respond to citizen issues. Good for the Government and Public Administration pathway.
 
-Walk students through how to load the game on a Chromebook (no account required for most games). Before releasing students to play, pre-teach three terms in 60 seconds — **probable cause**, **due process**, and **evidence** — using the vocabulary list from the overview. All three show up inside the games and students get stuck on them without the pre-teach.
+Walk students through how to load the game on a Chromebook (no account required for most games). Before releasing students to play, pre-teach three terms in 60 seconds, **probable cause**, **due process**, and **evidence:** using the vocabulary list from the overview. All three show up inside the games and students get stuck on them without the pre-teach.
 
 !!! tip "Facilitation Tip"
     Test the chosen game on a Chromebook before class. Some iCivics games require Flash workarounds or HTML5 fallbacks. "Do I Have a Right?" has the most reliable HTML5 version as of recent updates.
@@ -45,7 +45,7 @@ Students play the chosen game individually or in pairs (one navigates, one coach
 
 - Students who get stuck on legal vocabulary (probable cause, due process, evidence, witness)
 - Moments when a student says "Wait, that's not fair" — these are perfect debrief hooks
-- Engagement levels — flag students who finish early for the extension activity
+- Engagement levels, flag students who finish early for the extension activity
 
 While playing, students keep a sticky note or scratch paper with two columns:
 
@@ -62,11 +62,11 @@ Stop the game with 5 minutes left so everyone has time to take a screenshot of t
 
 After gameplay, lead a quick 5-minute debrief:
 
-- Which legal career was most "active" in your game — Lawyer, Judge, Paralegal, or Witness?
+- Which legal career was most "active" in your game. Lawyer, Judge, Paralegal, or Witness?
 - What did you have to do that surprised you?
 - Was there a moment when the "easy" answer was wrong? What did you do?
 
-Connect the gameplay back to the Hat Research template from Day 1 — students should now have a richer picture of what these careers actually do day-to-day.
+Connect the gameplay back to the Hat Research template from Day 1. Students should now have a richer picture of what these careers actually do day-to-day.
 
 ---
 
@@ -86,6 +86,6 @@ Submit the screenshot of your completion screen with your reflection.
 
 ## Differentiation
 
-- **Support:** Pair gameplay — one student navigates, one coaches and takes notes. Provide a vocabulary cheat sheet with key terms (probable cause, evidence, witness, defendant, plaintiff).
+- **Support:** Pair gameplay, one student navigates, one coaches and takes notes. Provide a vocabulary cheat sheet with key terms (probable cause, evidence, witness, defendant, plaintiff).
 - **Extension:** Students who finish early play a SECOND iCivics game from the curated list and compare which game taught them more about legal careers. They write a 4-sentence comparison.
 - **ELL:** iCivics games are highly visual with on-screen text. Pair ESL students with bilingual peers. Pre-teach: Game = Juego, Court = Corte, Witness = Testigo, Evidence = Evidencia, Lawyer = Abogado.

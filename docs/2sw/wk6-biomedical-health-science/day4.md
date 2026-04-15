@@ -22,16 +22,16 @@ Take 3-4 responses. Bridge: marketing matters. Even a great mobile market fails 
 
 ## Activity 1: Design the Mobile Market (15 min)
 
-**Source:** H&L Workbook Ch 9, p. 154 — Step 4: Design Your Mobile Farmers' Market
+**Source:** H&L Workbook Ch 9, p. 154, Step 4: Design Your Mobile Farmers' Market
 
 Each team returns to their brainstorm from Day 3. They sketch the market on poster paper or Google Slides. The workbook requires:
 
 - **Market name + slogan/logo + color scheme**
 - **Type of vehicle** (truck, van, trailer, converted school bus)
-- **Layout** — how is the market organized? Where do customers walk?
-- **Food display** — how will the produce be arranged?
+- **Layout:** how is the market organized? Where do customers walk?
+- **Food display:** how will the produce be arranged?
 
-Teams divide the work — one student sketches the vehicle, another writes the slogan, another lists the food offerings. The whole team reviews before moving on.
+Teams divide the work, one student sketches the vehicle, another writes the slogan, another lists the food offerings. The whole team reviews before moving on.
 
 !!! tip "Facilitation Tip"
     Push for SPECIFICS. "Market on Wheels" is a weak name. "Wilson Fresh" with a green-and-orange truck is concrete. Students who get vague need a prompt: "If I drove past your truck, what would convince me to stop?"
@@ -40,21 +40,21 @@ Teams divide the work — one student sketches the vehicle, another writes the s
 
 ## Activity 2: Create the Marketing Campaign (15 min)
 
-**Source:** H&L Workbook Ch 9, p. 154 — Step 5: Create a Campaign
+**Source:** H&L Workbook Ch 9, p. 154, Step 5: Create a Campaign
 
 Each team creates a flyer, poster, or social media post that gets the Wilson City community engaged. The workbook (p. 154) requires:
 
-- **Mission statement** (one sentence — why does the market exist?)
+- **Mission statement** (one sentence, why does the market exist?)
 - **Information about food types** (what's available)
 - **At least 2 important nutrition facts** that help the community understand the importance of the market
 
-Connect this to the Day 4 Written Communication module from Week 5 — clear, concise, and action-oriented writing matters.
+Connect this to the Day 4 Written Communication module from Week 5, clear, concise, and action-oriented writing matters.
 
 Teams can use Canva, Google Slides, or paper. The flyer should be readable from 5 feet away (large fonts, contrasting colors).
 
 **Sample mission statements** (project for inspiration):
 
-- "Wilson Fresh brings local produce directly to your neighborhood — fresh, affordable, and SNAP-friendly."
+- "Wilson Fresh brings local produce directly to your neighborhood, fresh, affordable, and SNAP-friendly."
 - "Healthy food for everyone in Wilson City. No car needed."
 
 **Sample nutrition facts:**
@@ -66,7 +66,7 @@ Teams can use Canva, Google Slides, or paper. The flyer should be readable from 
 
 ## Activity 3: Pair Up and Present (12 min)
 
-**Source:** H&L Workbook Ch 9, p. 154 — Step 6: Pair Up and Present
+**Source:** H&L Workbook Ch 9, p. 154, Step 6: Pair Up and Present
 
 Each team pairs with another team and presents their market in 3 minutes. The presentation must cover:
 
@@ -83,7 +83,7 @@ The other team listens and gives 1 piece of feedback using the feedback sandwich
 
 After both teams present, they switch and partner with a different team.
 
-**DOK 4:** If you were starting a real mobile farmers' market in Wilson City, what would be the BIGGEST challenge — getting the food, finding customers, or making money? Defend your answer with data from the Wilson City sheet.
+**DOK 4:** If you were starting a real mobile farmers' market in Wilson City, what would be the BIGGEST challenge, getting the food, finding customers, or making money? Defend your answer with data from the Wilson City sheet.
 
 ---
 
@@ -96,5 +96,5 @@ After both teams present, they switch and partner with a different team.
 ## Differentiation
 
 - **Support:** Provide a market design template with sections pre-labeled (Vehicle, Name, Slogan, Food List, Marketing). Provide a flyer template with the mission statement field pre-prompted.
-- **Extension:** Try the workbook's "Extra Time" activity — create a recipe using the fresh food from your market that you could share with the community.
+- **Extension:** Try the workbook's "Extra Time" activity, create a recipe using the fresh food from your market that you could share with the community.
 - **ELL:** Bilingual flyer template. Pre-teach: Mission = Misión, Healthy = Saludable, Affordable = Asequible, Community = Comunidad. Pair ESL students with bilingual peers as a co-presenter.

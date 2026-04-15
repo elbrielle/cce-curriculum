@@ -54,11 +54,11 @@ After the module, students write 2-3 sentences on their notes sheet capturing th
 
 **Source:** Scope and sequence d(3)(C) + federalstudentaid.gov
 
-Transition: "The H&L budgeting work and financial literacy module covered what life costs AFTER you start your career. But there is also a cost BEFORE — the cost of education and training. Let us talk about how you pay for it."
+Transition: "The H&L budgeting work and financial literacy module covered what life costs AFTER you start your career. But there is also a cost BEFORE, the cost of education and training. Let us talk about how you pay for it."
 
 Walk through the four primary ways to pay for postsecondary education (college, technical school, apprenticeship):
 
-1. **FAFSA — Free Application for Federal Student Aid**
+1. **FAFSA, Free Application for Federal Student Aid**
    - Free to complete at [fafsa.gov](https://studentaid.gov/h/apply-for-aid/fafsa)
    - Opens doors to federal grants, work-study, and subsidized loans
    - Many scholarships require a FAFSA even if you do not think you need aid
@@ -66,8 +66,8 @@ Walk through the four primary ways to pay for postsecondary education (college, 
 
 2. **Scholarships**
    - "Free money" based on grades, activities, essays, heritage, career pathway, or community service
-   - Thousands are available — some are local (Irving ISD, DFW companies), some national
-   - Apply to multiple — small scholarships ($500-$1000) add up quickly
+   - Thousands are available, some are local (Irving ISD, DFW companies), some national
+   - Apply to multiple, small scholarships ($500-$1000) add up quickly
 
 3. **Grants**
    - Like scholarships but usually need-based (e.g., Pell Grant)
@@ -79,7 +79,7 @@ Walk through the four primary ways to pay for postsecondary education (college, 
    - Federal program lets you earn money during school to cover expenses
    - Also accessed through FAFSA
 
-Students take notes on the Paying for College notes sheet. Emphasize: "Apprenticeships are a fifth option — you get paid instead of paying. That is why construction trades are so attractive for students who want to avoid debt."
+Students take notes on the Paying for College notes sheet. Emphasize: "Apprenticeships are a fifth option. You get paid instead of paying. That is why construction trades are so attractive for students who want to avoid debt."
 
 **DOK 2:** How would you compare the financial impact of paying for college with scholarships versus paying with student loans? *(d(3)(C))*
 

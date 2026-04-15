@@ -16,7 +16,7 @@
 
 **WARM-UP: Should a computer program be allowed to decide whether someone goes to jail? Write your initial reaction in one sentence.**
 
-Take 2-3 responses without arguing the question yet. Note who says "yes" and who says "no" — you will use this to balance the debate teams.
+Take 2-3 responses without arguing the question yet. Note who says "yes" and who says "no", you will use this to balance the debate teams.
 
 ---
 
@@ -26,7 +26,7 @@ Introduce the topic: courts in some states are already using AI tools to recomme
 
 The question for today's debate: **Should AI be used in the legal system to help make decisions about people's freedom?**
 
-Split the class into two teams (FOR and AGAINST). Use the warm-up reactions to balance the teams — assign students to argue the OPPOSITE of their initial reaction. Real legal professionals must argue both sides of an issue.
+Split the class into two teams (FOR and AGAINST). Use the warm-up reactions to balance the teams, assign students to argue the OPPOSITE of their initial reaction. Real legal professionals must argue both sides of an issue.
 
 Provide each team with a debate card listing 3 starter arguments. Teams have 10 minutes to add at least one more argument with evidence from H&L research, news headlines, or the iCivics gameplay from Day 3.
 
@@ -40,7 +40,7 @@ Provide each team with a debate card listing 3 starter arguments. Teams have 10 
     Tell students upfront: arguing a side you disagree with is a lawyer skill. Lawyers must understand the opposing side's argument to win. This frames the debate as practice, not personal opinion.
 
 !!! tip "Frame the debate at the system level, not the personal level"
-    Before the debate starts, name the lens explicitly: today's question is about the **technology and system design** — whether an AI tool is accurate and fair enough to be part of legal decision-making at all. It is not about any specific case, any specific person, or any student's family. Students in this class may have family members who have interacted with courts, police, or immigration enforcement; keep the debate on the tool, not on who deserves an outcome.
+    Before the debate starts, name the lens explicitly: today's question is about the **technology and system design:** whether an AI tool is accurate and fair enough to be part of legal decision-making at all. It is not about any specific case, any specific person, or any student's family. Students in this class may have family members who have interacted with courts, police, or immigration enforcement; keep the debate on the tool, not on who deserves an outcome.
 
 ---
 
@@ -52,7 +52,7 @@ Run the debate using a tight structure to keep all students engaged:
 - **Round 2 (3 min each side):** Rebuttal. Each team responds to one specific point the other team made.
 - **Round 3 (2 min each side):** Closing. Each team makes a final case in 2 sentences.
 
-The teacher moderates as a "judge." Track which team uses the most evidence — not the loudest team. After the debate, students write their personal position (which can match or differ from the team they argued).
+The teacher moderates as a "judge." Track which team uses the most evidence, not the loudest team. After the debate, students write their personal position (which can match or differ from the team they argued).
 
 **DOK 4:** What criteria would you use to evaluate whether AI should be used in a specific part of the legal system, like determining bail amounts? Consider fairness, accuracy, and ethics in your answer.
 
@@ -60,7 +60,7 @@ The teacher moderates as a "judge." Track which team uses the most evidence — 
 
 ## Activity 3: Legal Entrepreneurship Research (15 min)
 
-Pivot to the Day 4 secondary objective: legal entrepreneurship. Many legal professionals run their own businesses — solo-practice attorneys, mediators, legal consultants, private investigators.
+Pivot to the Day 4 secondary objective: legal entrepreneurship. Many legal professionals run their own businesses, solo-practice attorneys, mediators, legal consultants, private investigators.
 
 Students complete the **Legal Entrepreneur Card** (4 fields):
 

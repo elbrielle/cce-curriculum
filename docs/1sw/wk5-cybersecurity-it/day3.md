@@ -22,7 +22,7 @@ Quick share. Some students will say "look at it" or "tell my friends." Bridge: "
 
 ## Activity 1: Step 4 — Peer Feedback (20 min)
 
-**Source:** H&L Workbook Ch 12, pp. 194-195 — "Step 4: Get Peer Feedback"
+**Source:** H&L Workbook Ch 12, pp. 194-195, "Step 4: Get Peer Feedback"
 
 Pair up students. Each pair swaps Cyber Safety tool drafts. They review their partner's draft using the workbook's **Peer Feedback rubric** (Ch 12, p. 195):
 
@@ -32,7 +32,7 @@ Pair up students. Each pair swaps Cyber Safety tool drafts. They review their pa
 | The tool they created includes the right information | | | | |
 | The tool they created is appropriate for younger kids | | | | |
 
-Students fill in the rubric and add specific notes — what worked, what could be clearer, what's missing. Then pairs swap back and discuss the feedback for 5 minutes.
+Students fill in the rubric and add specific notes, what worked, what could be clearer, what's missing. Then pairs swap back and discuss the feedback for 5 minutes.
 
 After feedback, students refine their tool based on what they heard. Walk the room and observe whether students are taking the feedback seriously or dismissing it.
 
@@ -43,7 +43,7 @@ After feedback, students refine their tool based on what they heard. Walk the ro
 
 ## Activity 2: Class Discussion — Cyber Safety Audience (10 min)
 
-**Source:** H&L Workbook Ch 12, p. 195 — Class Discussion prompts
+**Source:** H&L Workbook Ch 12, p. 195, Class Discussion prompts
 
 Lead a brief whole-class discussion using the workbook prompts (Ch 12, p. 195):
 
@@ -58,7 +58,7 @@ Capture student responses on the board.
 
 Connect the Cyber Safety Creator activity to the broader concept of **integrity** in cybersecurity careers. Tell students:
 
-"While designing your Cyber Safety tool, you had to think about how to protect kids who don't know the difference between safe and unsafe websites. That responsibility — protecting people who trust you with their safety — is what integrity means in cybersecurity. In this field, integrity is not optional. If you don't have it, you literally cannot be trusted with access to sensitive systems."
+"While designing your Cyber Safety tool, you had to think about how to protect kids who don't know the difference between safe and unsafe websites. That responsibility, protecting people who trust you with their safety, is what integrity means in cybersecurity. In this field, integrity is not optional. If you don't have it, you literally cannot be trusted with access to sensitive systems."
 
 Give 3 real-world examples of why integrity matters in cybersecurity:
 

@@ -19,7 +19,7 @@ Students engage with four H&L Powerskills modules (Conflict Resolution, Giving a
 ## Materials Needed
 
 - Chromebooks with internet access (1 per student)
-- Hats & Ladders Powerskills Workbook — 4 modules: Conflict Resolution (pp. 19-21), Giving and Receiving Feedback (pp. 22-24), Written Communication (pp. 25-26), Advocacy (pp. 30-32)
+- Hats & Ladders Powerskills Workbook, 4 modules: Conflict Resolution (pp. 19-21), Giving and Receiving Feedback (pp. 22-24), Written Communication (pp. 25-26), Advocacy (pp. 30-32)
 - Xello accounts (Time Management Lesson)
 - CareerOneStop Skills Matcher: [careeronestop.org/Toolkit/Skills/skills-matcher.aspx](https://www.careeronestop.org/Toolkit/Skills/skills-matcher.aspx)
 - Printed SMART Goal worksheet
@@ -29,15 +29,15 @@ Students engage with four H&L Powerskills modules (Conflict Resolution, Giving a
 
 ## Career Connection
 
-Communication is consistently ranked the #1 skill employers want across ALL industries. In healthcare, poor communication can be life-threatening — a nurse who does not listen carefully to a patient's symptoms could miss a critical diagnosis. A medical biller who does not write clearly could cost a hospital thousands of dollars. After two content-intense weeks (Law cluster + Health Science cluster), Week 5 shifts gears from career exploration to the powerskills that transfer across every career. The mode changes — less reading and discussion of clusters, more hands-on practice of skills — and the H&L Powerskills workbook activities are paired with teacher-led healthcare role-plays so students see soft skills applied in context.
+Communication is consistently ranked the #1 skill employers want across ALL industries. In healthcare, poor communication can be life-threatening, a nurse who does not listen carefully to a patient's symptoms could miss a critical diagnosis. A medical biller who does not write clearly could cost a hospital thousands of dollars. After two content-intense weeks (Law cluster + Health Science cluster), Week 5 shifts gears from career exploration to the powerskills that transfer across every career. The mode changes, less reading and discussion of clusters, more hands-on practice of skills, and the H&L Powerskills workbook activities are paired with teacher-led healthcare role-plays so students see soft skills applied in context.
 
 **Irving ISD Pathway:** All Irving ISD Health Science pathways. Communication and goal-setting are transferable skills that apply to every career cluster, every Singley Academy program, and every job a student will ever have.
 
 ## Vocabulary
 
 - **Conflict Resolution:** Working through disagreements in a way that helps everyone feel heard and keeps the project moving forward.
-- **Feedback Sandwich:** A technique for giving feedback — start with a positive comment, share an area for improvement with specific language, end with another positive remark.
-- **Advocacy:** The act of supporting or standing up for someone or something — a person, a cause, or an idea.
+- **Feedback Sandwich:** A technique for giving feedback, start with a positive comment, share an area for improvement with specific language, end with another positive remark.
+- **Advocacy:** The act of supporting or standing up for someone or something, a person, a cause, or an idea.
 - **SMART Goal:** A goal that is Specific, Measurable, Achievable, Relevant, and Time-bound.
 - **Transferable Skill:** An ability that is valuable across many different careers and industries. Communication, problem-solving, and teamwork are common examples.
 - **Time Management:** The ability to plan and control how you spend your time to effectively accomplish your goals.
@@ -46,10 +46,10 @@ Communication is consistently ranked the #1 skill employers want across ALL indu
 
 The H&L Powerskills workbook is a research-backed, scenario-based curriculum supplement. This week pulls four specific modules:
 
-- **Conflict Resolution** (pp. 19-21) — Smoothie company team disagreement (name, launch date, marketing). Students work through three conflicts using listen / find common ground / use calm clear words.
-- **Giving and Receiving Feedback** (pp. 22-24) — Three-step paired activity: Share It (verbal), Write It (written), Draw It (combined). Uses the feedback sandwich technique.
-- **Written Communication** (pp. 25-26) — Little Library social media post. Students write a clear, action-oriented post with hashtags.
-- **Advocacy** (pp. 30-32) — Mobile farmers' market for a food desert. Students design a flyer and mission statement to advocate for healthy food access.
+- **Conflict Resolution** (pp. 19-21): Smoothie company team disagreement (name, launch date, marketing). Students work through three conflicts using listen / find common ground / use calm clear words.
+- **Giving and Receiving Feedback** (pp. 22-24): Three-step paired activity: Share It (verbal), Write It (written), Draw It (combined). Uses the feedback sandwich technique.
+- **Written Communication** (pp. 25-26): Little Library social media post. Students write a clear, action-oriented post with hashtags.
+- **Advocacy** (pp. 30-32): Mobile farmers' market for a food desert. Students design a flyer and mission statement to advocate for healthy food access.
 
 Each H&L module is paired with a teacher-led healthcare workplace role-play that puts the same skill in a Health Science context.
 
@@ -63,18 +63,18 @@ Each H&L module is paired with a teacher-led healthcare workplace role-play that
 
 | Day | Focus | Key Activities | Deliverable |
 |-----|-------|---------------|-------------|
-| 1 | Powerskills Intro + Conflict Resolution | H&L Powerskills intro (p. 1-2), Conflict Resolution module (pp. 19-21) — Smoothie launch scenario | Completed conflict chart + smoothie ad sketch |
-| 2 | Giving and Receiving Feedback | H&L Feedback module (pp. 22-24) — Share It, Write It, Draw It with partner | Completed feedback steps + healthcare role-play |
+| 1 | Powerskills Intro + Conflict Resolution | H&L Powerskills intro (p. 1-2), Conflict Resolution module (pp. 19-21): Smoothie launch scenario | Completed conflict chart + smoothie ad sketch |
+| 2 | Giving and Receiving Feedback | H&L Feedback module (pp. 22-24): Share It, Write It, Draw It with partner | Completed feedback steps + healthcare role-play |
 | 3 | Assertive Communication + SMART Goals | H&L Advocacy module (pp. 30-32) intro, SMART Goal worksheet | Personal SMART goal for career exploration |
-| 4 | Written Communication | H&L Written Communication module (pp. 25-26) — Little Library social media post + healthcare role-play | Social media post (clear status, call to action, 2 hashtags) + role-play |
+| 4 | Written Communication | H&L Written Communication module (pp. 25-26): Little Library social media post + healthcare role-play | Social media post (clear status, call to action, 2 hashtags) + role-play |
 | 5 | Xello Time Management + Reflection | Xello Time Management Lesson, CareerOneStop Skills Matcher, SMART goal review | Xello completion + Skills Matcher results + SMART goal check-in |
 
 ## Formative Assessment
 
-- Conflict Resolution chart and ad sketch (Day 1) — d(4)(B)
-- Feedback role-play observation (Day 2) — d(4)(B)
-- SMART goal worksheet completion (Day 3) — d(4)(A)
-- Written Communication post quality (Day 4) — d(4)(B)
+- Conflict Resolution chart and ad sketch (Day 1): d(4)(B)
+- Feedback role-play observation (Day 2): d(4)(B)
+- SMART goal worksheet completion (Day 3): d(4)(A)
+- Written Communication post quality (Day 4): d(4)(B)
 
 ## Summative Assessment
 
@@ -93,7 +93,7 @@ Each H&L module is paired with a teacher-led healthcare workplace role-play that
 
 - Create a Communication Skills Guide for one chosen career pathway listing the top 5 communication skills needed
 - Research emotional intelligence and connect it to the Powerskills modules
-- Compare CareerOneStop Skills Matcher results to the H&L Climber Profile RIASEC results — what's the overlap?
+- Compare CareerOneStop Skills Matcher results to the H&L Climber Profile RIASEC results, what's the overlap?
 - Lead a small-group review of one Powerskills module for peers who missed a day
 
 ### ELL Language Support

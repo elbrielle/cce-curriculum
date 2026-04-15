@@ -12,7 +12,7 @@ Students explore the Business, Marketing & Finance cluster through Hats & Ladder
 
 ## TEKS Alignment
 
-- **d(3)(I):** Define entrepreneurship and identify entrepreneurial opportunities within a field of personal interest. **(PRIMARY — strongest d(3)(I) week of the year)**
+- **d(3)(I):** Define entrepreneurship and identify entrepreneurial opportunities within a field of personal interest. **(PRIMARY, strongest d(3)(I) week of the year)**
 - **d(5)(D):** Prepare a personal budget reflecting the student's desired lifestyle.
 - **d(4)(F):** Define and identify examples of work ethic, integrity, dedication, and perseverance.
 
@@ -30,7 +30,7 @@ Students explore the Business, Marketing & Finance cluster through Hats & Ladder
 
 ## Career Connection
 
-Entrepreneurship is a mindset that exists in EVERY cluster, not just its own career field. Tech startups (IT), food trucks (Hospitality), solo law practices (Law), salon ownership (Human Services), urban farms (Ag), freelance graphic design (Arts) — all entrepreneurial. This week ties together entrepreneurship threads from throughout the semester: legal entrepreneurship from 2SW, salon ownership from this six weeks, restaurant ownership from Wk4, sustainable engineering from Wk3, and now business creation as its own discipline.
+Entrepreneurship is a mindset that exists in EVERY cluster, not just its own career field. Tech startups (IT), food trucks (Hospitality), solo law practices (Law), salon ownership (Human Services), urban farms (Ag), freelance graphic design (Arts): all entrepreneurial. This week ties together entrepreneurship threads from throughout the semester: legal entrepreneurship from 2SW, salon ownership from this six weeks, restaurant ownership from Wk4, sustainable engineering from Wk3, and now business creation as its own discipline.
 
 **Irving ISD Pathway:** **Business, Retail Management and Entrepreneurship** at **MacArthur High School** is the primary home for entrepreneurship coursework in Irving ISD. **Cardwell Career Preparatory Center** also offers a Business Management pathway. Business Management and Marketing is additionally offered at Irving High School and Nimitz High School.
 
@@ -49,8 +49,8 @@ Entrepreneurship is a mindset that exists in EVERY cluster, not just its own car
 
 The H&L workbook (Ch 5) anchors this week with two flagship entrepreneurship activities:
 
-- **Think Inside the Box** (Ch 5, pp. 76-78) — students design a Minimum Viable Product (MVP) for a subscription box business and gather feedback before launch
-- **Pitching Investors** (Ch 5, pp. 80-83) — Career Lab where teams choose a business opportunity (sports app, food business, or pet business), develop a business plan, and pitch to investor profiles
+- **Think Inside the Box** (Ch 5, pp. 76-78): students design a Minimum Viable Product (MVP) for a subscription box business and gather feedback before launch
+- **Pitching Investors** (Ch 5, pp. 80-83): Career Lab where teams choose a business opportunity (sports app, food business, or pet business), develop a business plan, and pitch to investor profiles
 
 The week also pulls from **Lifestyle Snapshot** (Ch 16, p. 269) for the personal budget activity, where students connect their future career income to their future lifestyle.
 
@@ -66,18 +66,18 @@ The week also pulls from **Lifestyle Snapshot** (Ch 16, p. 269) for the personal
 | Day | Focus | Key Activities | Deliverable |
 |-----|-------|---------------|-------------|
 | 1 | Business Cluster + Defining Entrepreneurship | H&L Business cluster tour + entrepreneurship discussion across all clusters | Cross-cluster entrepreneurship list (5 examples) |
-| 2 | Think Inside the Box — MVP Design | H&L "Think Inside the Box" (Ch 5, pp. 76-78) — design MVP and feedback questions | Completed MVP design template |
-| 3 | Pitching Investors — Business Plan | H&L "Pitching Investors" (Ch 5, pp. 80-82) — choose business, build plan | Business plan outline + pitch slide draft |
-| 4 | Pitching Investors — Pitch Day | Team pitches to investor profiles + peer feedback | Final 2-minute pitch delivered to class |
+| 2 | Think Inside the Box. MVP Design | H&L "Think Inside the Box" (Ch 5, pp. 76-78): design MVP and feedback questions | Completed MVP design template |
+| 3 | Pitching Investors. Business Plan | H&L "Pitching Investors" (Ch 5, pp. 80-82): choose business, build plan | Business plan outline + pitch slide draft |
+| 4 | Pitching Investors. Pitch Day | Team pitches to investor profiles + peer feedback | Final 2-minute pitch delivered to class |
 | 5 | Lifestyle Snapshot Personal Budget + Xello Save Careers | H&L "Lifestyle Snapshot" (Ch 16, p. 269) personal budget + Xello Save Careers + 3SW reflection | Completed personal budget + saved careers in Xello |
 
 ## Formative Assessment
 
-- Cross-cluster entrepreneurship list (Day 1) — d(3)(I)
-- MVP design template (Day 2) — d(3)(I)
-- Business plan outline + pitch slide draft (Day 3) — d(3)(I)
-- Investor pitch delivery + peer feedback (Day 4) — d(3)(I), d(4)(F)
-- Personal budget worksheet (Day 5) — d(5)(D)
+- Cross-cluster entrepreneurship list (Day 1): d(3)(I)
+- MVP design template (Day 2): d(3)(I)
+- Business plan outline + pitch slide draft (Day 3): d(3)(I)
+- Investor pitch delivery + peer feedback (Day 4): d(3)(I), d(4)(F)
+- Personal budget worksheet (Day 5): d(5)(D)
 
 ## Summative Assessment
 
@@ -99,5 +99,5 @@ The week also pulls from **Lifestyle Snapshot** (Ch 16, p. 269) for the personal
 ### ELL Language Support
 - Pre-teach: Entrepreneur = Emprendedor/a, Business = Negocio, Investor = Inversor/a, Budget = Presupuesto, Profit = Ganancia, Pitch = Presentación
 - Bilingual MVP and budget templates with Spanish category labels
-- Investor pitch can be delivered in English, Spanish, or bilingual — many real Texas business pitches are bilingual
+- Investor pitch can be delivered in English, Spanish, or bilingual, many real Texas business pitches are bilingual
 - Pair with bilingual peers during pitch prep

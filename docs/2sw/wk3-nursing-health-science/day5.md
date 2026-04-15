@@ -22,7 +22,7 @@ Take 3-4 responses. Bridge: most students arrive thinking "nursing = giving shot
 
 ## Activity 1: Xello Learning Styles Lesson (15 min)
 
-Open Xello and direct students to the **Learning Styles Lesson** in the 7th-grade Xello task list. This activity helps students identify how they learn best — visually, by listening, by doing, or by reading/writing.
+Open Xello and direct students to the **Learning Styles Lesson** in the 7th-grade Xello task list. This activity helps students identify how they learn best, visually, by listening, by doing, or by reading/writing.
 
 Students complete the lesson, take the assessment, and read their results. They write down their primary learning style.
 
@@ -41,7 +41,7 @@ Students write one sentence: *"My learning style is _____, which connects to the
 
 Direct students to eDynamic Learning **Unit 4.2 Part 2: Experimenting with Careers**. This unit provides a structured curriculum complement to the H&L exploration done this week.
 
-Students complete the unit's lesson and any embedded activities. The unit reinforces the concept that career exploration is an experiment — try different things, learn from each one.
+Students complete the unit's lesson and any embedded activities. The unit reinforces the concept that career exploration is an experiment, try different things, learn from each one.
 
 > [VERIFY IN eDynamic] Confirm that Unit 4.2 Part 2 in eDynamic Learning covers experimenting with careers and is appropriate for 7th-grade Health Science framing.
 
@@ -53,7 +53,7 @@ After completing the unit, students write one sentence about which Health Scienc
 
 Students return to the H&L app and finalize their nursing favorites. They should favorite **2-3 nursing or related Health Science careers**.
 
-> [H&L PLATFORM] In the H&L app, navigate to "Hat Finder," filter by "Health Science" cluster, and click the heart icon on 2-3 nursing Hats. Then click "Climber Profile" — students should now have favorites from FOUR clusters: Manufacturing, IT, Law, and Health Science. The Climber Profile shows how the favorited Hats connect to the student's RIASEC type from Week 0.
+> [H&L PLATFORM] In the H&L app, navigate to "Hat Finder," filter by "Health Science" cluster, and click the heart icon on 2-3 nursing Hats. Then click "Climber Profile". Students should now have favorites from FOUR clusters: Manufacturing, IT, Law, and Health Science. The Climber Profile shows how the favorited Hats connect to the student's RIASEC type from Week 0.
 
 The teacher circulates and asks each student: "Which nursing career did you favorite, and how does it fit your RIASEC type?"
 

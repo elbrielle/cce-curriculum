@@ -8,7 +8,7 @@
 | **Objectives** | Complete the H&L Powerskill Motivation activity; identify intrinsic and extrinsic motivation in workplace examples; compare salaries of 3 hospitality careers using BLS |
 | **TEKS** | d(1)(C), d(5)(E) |
 | **Deliverable** | Completed Motivation chart from H&L workbook + 3-career salary comparison worksheet |
-| **Materials** | H&L Workbook Ch 10 (p. 162 — Powerskill Motivation), Chromebooks, BLS Hospitality career tabs, printed salary comparison worksheet, projector |
+| **Materials** | H&L Workbook Ch 10 (p. 162, Powerskill Motivation), Chromebooks, BLS Hospitality career tabs, printed salary comparison worksheet, projector |
 
 ---
 
@@ -22,9 +22,9 @@ Take 3-4 student responses. Use this to bridge: motivation comes from different 
 
 ## Activity 1: H&L Powerskill — Motivation (20 min)
 
-**Source:** H&L Workbook Ch 10, p. 162 — "Powerskill: Motivation"
+**Source:** H&L Workbook Ch 10, p. 162, "Powerskill: Motivation"
 
-Read aloud the workbook intro (Ch 10, p. 162): Motivation is what keeps you going, helps you tackle challenges, and helps you stay focused. There are two main types — **intrinsic motivation** (from inside you, you do something because you enjoy it) and **extrinsic motivation** (from outside, you do it for a reward or to avoid a consequence).
+Read aloud the workbook intro (Ch 10, p. 162): Motivation is what keeps you going, helps you tackle challenges, and helps you stay focused. There are two main types: **intrinsic motivation** (from inside you, you do something because you enjoy it) and **extrinsic motivation** (from outside, you do it for a reward or to avoid a consequence).
 
 Project the workbook chart on the screen:
 
@@ -34,7 +34,7 @@ Project the workbook chart on the screen:
 | **Attitude Motivation:** wanting to create a positive and uplifting environment for yourself and others | **Power Motivation:** driven by the desire to have control over events and people around you |
 | **Achievement Motivation:** enjoying the process of setting personal goals and achieving them | **Avoidance Motivation:** doing something to avoid a negative consequence |
 
-**Activity (from workbook):** Students imagine they are an event organizer designing a high-stakes baking competition for professional bakers. The bakers must create the most hyper-realistic cakes possible — cakes so realistic they look like everyday objects. The student's job: design a competition that will motivate the bakers to do their best.
+**Activity (from workbook):** Students imagine they are an event organizer designing a high-stakes baking competition for professional bakers. The bakers must create the most hyper-realistic cakes possible, cakes so realistic they look like everyday objects. The student's job: design a competition that will motivate the bakers to do their best.
 
 Students fill in the **Competition Planner** from the workbook:
 
@@ -53,7 +53,7 @@ Students fill in the **Competition Planner** from the workbook:
 
 ## Activity 2: Hospitality Salary Comparison (20 min)
 
-**Source:** Bureau of Labor Statistics — Chefs and Head Cooks, Lodging Managers, Meeting/Convention/Event Planners
+**Source:** Bureau of Labor Statistics. Chefs and Head Cooks, Lodging Managers, Meeting/Convention/Event Planners
 
 Transition from motivation to the practical question: how much do hospitality careers earn? Project the BLS Chefs page on the screen and walk students through finding the median annual pay.
 
@@ -88,5 +88,5 @@ After filling in the table, students answer one analysis question:
 ## Differentiation
 
 - **Support:** Pre-fill the salary comparison worksheet with one career's median pay and education already entered as a model. Provide BLS direct-link cards for each career.
-- **Extension:** Add a 4th career: Restaurant Manager. Compare its salary to a Head Chef's — why is the manager often paid LESS than the chef even though management sounds more "important"?
+- **Extension:** Add a 4th career: Restaurant Manager. Compare its salary to a Head Chef's, why is the manager often paid LESS than the chef even though management sounds more "important"?
 - **ELL:** Pre-teach: Motivation = Motivación, Salary = Salario, Outlook = Perspectiva, Reward = Recompensa. Bilingual salary worksheet with Spanish column headers.

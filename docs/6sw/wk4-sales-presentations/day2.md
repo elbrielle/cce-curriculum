@@ -14,15 +14,15 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Think of a time someone gave you feedback that helped you improve. What made it useful — was it the words they used, the timing, the way they said it, or what?**
+**WARM-UP: Think of a time someone gave you feedback that helped you improve. What made it useful, was it the words they used, the timing, the way they said it, or what?**
 
-Take 3-4 student responses. Bridge to today: feedback is a skill. Bad feedback is vague or hurtful. Good feedback is specific and actionable. Today's Powerskills module trains both halves — giving feedback and receiving it.
+Take 3-4 student responses. Bridge to today: feedback is a skill. Bad feedback is vague or hurtful. Good feedback is specific and actionable. Today's Powerskills module trains both halves, giving feedback and receiving it.
 
 ---
 
 ## Activity 1: Pitching Investors — Marketing Ideas + Slide Deck (25 min)
 
-**Source:** H&L Workbook Ch 5, pp. 84-85 — "Pitching Investors" Steps 3-4
+**Source:** H&L Workbook Ch 5, pp. 84-85, "Pitching Investors" Steps 3-4
 
 Teams continue their Pitching Investors project from Day 1. Today they complete two workbook steps:
 
@@ -31,8 +31,8 @@ Teams continue their Pitching Investors project from Day 1. Today they complete 
 Using the workbook space (Ch 5, p. 84) or a digital tool, each team creates:
 
 - **A logo** for the business (sketch in Canva or Google Drawings)
-- **A slogan** — short, catchy phrase
-- **A promotion plan** — How will you advertise? Social media? Influencer partnerships? Traditional ads? Events? Direct sales?
+- **A slogan:** short, catchy phrase
+- **A promotion plan:** How will you advertise? Social media? Influencer partnerships? Traditional ads? Events? Direct sales?
 
 Each team must pick a real distribution channel that matches their target audience. A pet food brand might use Instagram + dog parks. A sports app might partner with local rec leagues. A food truck might use TikTok and a presence at school events.
 
@@ -40,15 +40,15 @@ Each team must pick a real distribution channel that matches their target audien
 
 Using Google Slides, each team builds a 5-7 slide pitch deck. The workbook (Ch 5, p. 85) requires:
 
-- **Slide 1: Title** — Business name, team members, the investor you're pitching
-- **Slide 2: Business Overview** — What it is, what problem it solves
-- **Slide 3: Target Audience** — Who buys this and why
-- **Slide 4: Logo + Slogan + Marketing Strategy** — How will you promote it?
-- **Slide 5: Why Invest?** — Match this slide to your investor's specific requirements (look back at the investor profile from Day 1)
-- **Slide 6 (optional): Revenue Model** — How you make money
-- **Slide 7: Closing** — One sentence call to action
+- **Slide 1: Title:** Business name, team members, the investor you're pitching
+- **Slide 2: Business Overview:** What it is, what problem it solves
+- **Slide 3: Target Audience:** Who buys this and why
+- **Slide 4: Logo + Slogan + Marketing Strategy:** How will you promote it?
+- **Slide 5: Why Invest?:** Match this slide to your investor's specific requirements (look back at the investor profile from Day 1)
+- **Slide 6 (optional): Revenue Model:** How you make money
+- **Slide 7: Closing:** One sentence call to action
 
-The slide deck is a sales tool. Slides should be visual (icons, photos, color), not text-heavy. Each slide should support what the speaker says — not duplicate it.
+The slide deck is a sales tool. Slides should be visual (icons, photos, color), not text-heavy. Each slide should support what the speaker says, not duplicate it.
 
 !!! tip "Facilitation Tip"
     Show one BAD slide and one GOOD slide on the projector for 30 seconds each. Bad slide = paragraph of text. Good slide = headline + 1 image + 3 bullet points. The contrast is instantly clear.
@@ -57,7 +57,7 @@ The slide deck is a sales tool. Slides should be visual (icons, photos, color), 
 
 ## Activity 2: Powerskills — Giving and Receiving Feedback (15 min)
 
-**Source:** H&L Powerskills Workbook, pp. 22-24 — "Giving and Receiving Feedback"
+**Source:** H&L Powerskills Workbook, pp. 22-24, "Giving and Receiving Feedback"
 
 Transition to the Powerskills module. Today's focus: students are about to give peer feedback during practice presentations (Day 4) and the actual presentations (Day 5). They need to know HOW.
 
@@ -96,5 +96,5 @@ After the practice, lead a 1-minute debrief: *"Was it harder to GIVE feedback or
 ## Differentiation
 
 - **Support:** Provide a slide deck template with placeholder slides labeled. Teams replace the placeholders with their content. Provide sentence stems for feedback ("Your slide on _____ was strong because _____" / "I would suggest changing _____ because _____").
-- **Extension:** Teams add an 8th slide showing financial projections — projected first-year revenue, costs, and profit. (Real investors expect this.)
+- **Extension:** Teams add an 8th slide showing financial projections, projected first-year revenue, costs, and profit. (Real investors expect this.)
 - **ELL:** Allow Spanish or bilingual slide decks. Pair ESL students with bilingual peers during the feedback practice. The Powerskills feedback principles work in any language.

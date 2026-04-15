@@ -16,23 +16,23 @@
 
 **WARM-UP: Think about the last time something you owned broke (a phone, a bike, a video game controller). What was the FIRST thing you did to figure out what was wrong?**
 
-Listen for "I tried turning it off and on" or "I looked for damage." Bridge: "That is troubleshooting. Today you become the technician at a fruit factory who has to use the EXACT same skill — but in a high-stakes situation where production is stopped."
+Listen for "I tried turning it off and on" or "I looked for damage." Bridge: "That is troubleshooting. Today you become the technician at a fruit factory who has to use the EXACT same skill, but in a high-stakes situation where production is stopped."
 
 ---
 
 ## Activity 1: H&L "Machine Breakdown Mystery" Activity (25 min)
 
-**Source:** H&L Workbook Ch 14, pp. 232-233 — "Machine Breakdown Mystery" (Career Climb activity)
+**Source:** H&L Workbook Ch 14, pp. 232-233, "Machine Breakdown Mystery" (Career Climb activity)
 
 Open the workbook to page 232. Read the scenario together: students are technicians at a pre-packaged fruit factory. The label-application machine has stopped working. Without it, the entire production line is at a standstill. It is their job to figure out why and fix it.
 
-Walk through the **Technician Checklist** (Ch 14, p. 232) — a 5-step procedure that real technicians use:
+Walk through the **Technician Checklist** (Ch 14, p. 232), a 5-step procedure that real technicians use:
 
-1. **Identify the Problem** — Find out as much information as possible. Which part isn't working? What was the machine doing right before it stopped?
-2. **Analyze Possible Causes** — Mechanical failure (worn-out blade, jammed gears)? Electrical issue (faulty wiring, sensor malfunction)? Operator error (incorrect settings)? Something else?
-3. **Implement a Solution** — Decide the best repair based on your analysis.
-4. **Test and Observe** — Run the machine and confirm it works. If not, restart the checklist.
-5. **Prevent Future Breakdowns** — What can be done to keep this from happening again? Operator training? More frequent maintenance?
+1. **Identify the Problem**: Find out as much information as possible. Which part isn't working? What was the machine doing right before it stopped?
+2. **Analyze Possible Causes**: Mechanical failure (worn-out blade, jammed gears)? Electrical issue (faulty wiring, sensor malfunction)? Operator error (incorrect settings)? Something else?
+3. **Implement a Solution**: Decide the best repair based on your analysis.
+4. **Test and Observe**: Run the machine and confirm it works. If not, restart the checklist.
+5. **Prevent Future Breakdowns**: What can be done to keep this from happening again? Operator training? More frequent maintenance?
 
 **Read the scenario clues together (Ch 14, p. 232-233):**
 
@@ -51,7 +51,7 @@ After 12-15 minutes, lead a class discussion using the workbook prompts (Ch 14, 
 - What would be the most challenging part of being a technician where you work on many different types of machines?
 
 !!! tip "Facilitation Tip"
-    The biggest clue students miss is "the new roll of labels was installed right before it broke." That points to a label-roll problem — wrong size, wrong type, jammed feed mechanism. If students focus on electrical or mechanical without spotting this, prompt them: "What changed right before the problem started?"
+    The biggest clue students miss is "the new roll of labels was installed right before it broke." That points to a label-roll problem (wrong size, wrong type, jammed feed mechanism). If students focus on electrical or mechanical without spotting this, prompt them: "What changed right before the problem started?"
 
 **DOK 3:** What conclusions can you draw about why the order of the Technician Checklist matters? Why is "Identify the Problem" the first step instead of "Implement a Solution"?
 
@@ -59,7 +59,7 @@ After 12-15 minutes, lead a class discussion using the workbook prompts (Ch 14, 
 
 ## Activity 2: Hat Research — One Manufacturing Career (15 min)
 
-**Source:** H&L Workbook Ch 14, p. 239 — Hat Research template
+**Source:** H&L Workbook Ch 14, p. 239, Hat Research template
 
 Open the workbook to page 239. The Hat Research template has six fields. Students choose ONE Hat from the Manufacturing cluster and complete the template using the H&L app:
 

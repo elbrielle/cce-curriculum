@@ -19,8 +19,8 @@ Students explore the H&L Engineering cluster (Ch 8) including the Drone (Unmanne
 ## Materials Needed
 
 - Chromebooks with internet access (1 per student)
-- Hats & Ladders student accounts + H&L Workbook (Ch 8: Engineering, pp. 121-135 — "Protecting Wildlife", "Mission to Mars", "Infrastructure Imagination")
-- Classroom drones (1 per team of 3-4 students — DJI Tello Education or equivalent mini-drones)
+- Hats & Ladders student accounts + H&L Workbook (Ch 8: Engineering, pp. 121-135, "Protecting Wildlife", "Mission to Mars", "Infrastructure Imagination")
+- Classroom drones (1 per team of 3-4 students. DJI Tello Education or equivalent mini-drones)
 
 - Printed Robot Blueprint sheet (Protecting Wildlife template)
 - Printed UAS Industry Research Template (1 per student)
@@ -28,22 +28,22 @@ Students explore the H&L Engineering cluster (Ch 8) including the Drone (Unmanne
 - Printed Drone Navigation Course score sheet
 - Cones / chairs / tape targets for navigation course setup
 - FAA Drone Zone: [faa.gov/uas](https://www.faa.gov/uas)
-- BLS — Mechanical Engineers: [bls.gov/ooh/architecture-and-engineering/mechanical-engineers.htm](https://www.bls.gov/ooh/architecture-and-engineering/mechanical-engineers.htm)
+- BLS, Mechanical Engineers: [bls.gov/ooh/architecture-and-engineering/mechanical-engineers.htm](https://www.bls.gov/ooh/architecture-and-engineering/mechanical-engineers.htm)
 - DJI Education resources: [dji.com/education](https://www.dji.com/education)
 - Projector for safety briefing and FAA Part 107 overview
 
 ## Career Connection
 
-Drones (UAS — Unmanned Aerial Systems) are transforming nearly every industry. Agriculture uses drones for crop monitoring and targeted spraying. Construction uses them for site surveys and progress documentation. Real estate uses aerial cinematography. Emergency services use them for search and rescue. Filmmaking uses them for shots that used to require helicopters. Delivery companies are testing autonomous package drones. Each of these applications requires UAS pilots, drone engineers, drone data analysts, and drone fleet managers — careers that barely existed 10 years ago. Irving High's Drone Engineering pathway leads to FAA Part 107 certification, the federal license required to fly drones commercially. This pathway also directly connects to the TSA Drone Challenge that many IISD VILS students already compete in.
+Drones (UAS, Unmanned Aerial Systems) are transforming nearly every industry. Agriculture uses drones for crop monitoring and targeted spraying. Construction uses them for site surveys and progress documentation. Real estate uses aerial cinematography. Emergency services use them for search and rescue. Filmmaking uses them for shots that used to require helicopters. Delivery companies are testing autonomous package drones. Each of these applications requires UAS pilots, drone engineers, drone data analysts, and drone fleet managers, careers that barely existed 10 years ago. Irving High's Drone Engineering pathway leads to FAA Part 107 certification, the federal license required to fly drones commercially. This pathway also directly connects to the TSA Drone Challenge that many IISD VILS students already compete in.
 
 **Irving ISD Pathway:** **Aviation Maintenance and Drone Engineering** at **Irving High School** (School of Aviation Sciences). Connected pathways: **Sustainable Engineering** at Nimitz High School and **Robotic Manufacturing** at Singley Academy (School of Innovative Technology).
 
 ## Vocabulary
 
-- **UAS (Unmanned Aerial Systems):** The complete drone system — aircraft + controller + software + communication link.
+- **UAS (Unmanned Aerial Systems):** The complete drone system, aircraft + controller + software + communication link.
 - **FAA Part 107:** The federal certification required to operate drones commercially. Covers airspace, weather, regulations, emergency procedures.
 - **Geofencing:** Software that creates virtual no-fly zones around airports, government buildings, and restricted areas.
-- **Payload:** Equipment carried by a drone beyond what is needed for flight — cameras, sensors, packages, sprayers.
+- **Payload:** Equipment carried by a drone beyond what is needed for flight, cameras, sensors, packages, sprayers.
 - **Emerging Occupation:** A career that is new or rapidly growing because of technological change. Drone careers are the textbook example.
 - **High-Skill / High-Wage / High-Demand:** TEA's classification framework for careers that pay well, require training, and have many openings (per d(5)(B)).
 
@@ -54,22 +54,22 @@ H&L Chapter 8: Engineering (pp. 121-135) is the source for this week. The chapte
 1. Engineering Foundations
 2. Geospatial Engineering and Land Surveying
 3. Mechanical and Aerospace Engineering
-4. **Drone (Unmanned Vehicle) Engineer** — the direct match for this week
+4. **Drone (Unmanned Vehicle) Engineer:** the direct match for this week
 5. Electrical Engineering
 6. Civil Engineering
 
 Three named workbook activities anchor this week:
 
-- **"Protecting Wildlife"** (Ch 8, pp. 121-122) — Career Climb. Students play a Robotics Engineer designing a small lightweight robot that flies into dense forests to track jaguars, parrots, or tree-dwelling monkeys. Used Day 1 as the bridge to drones.
-- **"Mission to Mars"** (Ch 8, pp. 126-128) — Career Climb. Students play an aerospace engineer at NASA designing a new Mars Rover that handles rocky terrain, dust storms, and -225°F temperatures. Used Day 4 as an extension activity for fast finishers.
-- **"Infrastructure Imagination"** (Ch 8, pp. 130-135) — Career Lab. Students play a civil engineer for the city of Los Lomas tackling traffic congestion and flooding. Used as a Wk2 5SW reference (already covered in 5SW); referenced here for cross-cluster awareness.
+- **"Protecting Wildlife"** (Ch 8, pp. 121-122): Career Climb. Students play a Robotics Engineer designing a small lightweight robot that flies into dense forests to track jaguars, parrots, or tree-dwelling monkeys. Used Day 1 as the bridge to drones.
+- **"Mission to Mars"** (Ch 8, pp. 126-128): Career Climb. Students play an aerospace engineer at NASA designing a new Mars Rover that handles rocky terrain, dust storms, and -225°F temperatures. Used Day 4 as an extension activity for fast finishers.
+- **"Infrastructure Imagination"** (Ch 8, pp. 130-135): Career Lab. Students play a civil engineer for the city of Los Lomas tackling traffic congestion and flooding. Used as a Wk2 5SW reference (already covered in 5SW); referenced here for cross-cluster awareness.
 
 ## IISD Instructional Strategies
 
 - **Jigsaw:** Day 2 assigns each team a different drone industry (agriculture, construction, film, delivery, emergency services). Teams research independently, then teach the rest of the class on Day 5.
 - **Modeling:** Day 3 teacher demonstrates basic drone takeoff, hover, and landing on the projector before students touch a controller.
 - **Active Monitoring:** During flight days (3-4), teacher circulates with safety checklist tracking pilot rotation, altitude limits, and connection-to-career statements.
-- **Structured Pairs:** Each team has a pilot, a spotter, a logger, and a coach role — rotated every 5 minutes.
+- **Structured Pairs:** Each team has a pilot, a spotter, a logger, and a coach role, rotated every 5 minutes.
 
 ## Week at a Glance
 
@@ -83,14 +83,14 @@ Three named workbook activities anchor this week:
 
 ## Formative Assessment
 
-- "Protecting Wildlife" robot blueprint quality (Day 1) — d(1)(D)
-- UAS Industry Research Template completion (Day 2) — d(2)(A), d(5)(B)
-- Drone safety briefing knowledge check (Day 3) — d(2)(A)
-- Active monitoring checklist during flights (Days 3-4) — d(1)(D)
+- "Protecting Wildlife" robot blueprint quality (Day 1): d(1)(D)
+- UAS Industry Research Template completion (Day 2): d(2)(A), d(5)(B)
+- Drone safety briefing knowledge check (Day 3): d(2)(A)
+- Active monitoring checklist during flights (Days 3-4): d(1)(D)
 
 ## Summative Assessment
 
-**UAS Jigsaw Presentation + Career Classification (Day 5):** Each team presents their assigned drone industry research (4 minutes per team). Each individual student submits a written classification of one drone career as high-skill, high-wage, and/or high-demand — with supporting evidence from BLS, FAA, and DJI sources. Scored on emerging occupation research quality (d(1)(D)), certification knowledge (d(2)(A)), and accurate classification with evidence (d(5)(B)).
+**UAS Jigsaw Presentation + Career Classification (Day 5):** Each team presents their assigned drone industry research (4 minutes per team). Each individual student submits a written classification of one drone career as high-skill, high-wage, and/or high-demand, with supporting evidence from BLS, FAA, and DJI sources. Scored on emerging occupation research quality (d(1)(D)), certification knowledge (d(2)(A)), and accurate classification with evidence (d(5)(B)).
 
 ## Differentiation
 
@@ -108,5 +108,5 @@ Three named workbook activities anchor this week:
 ### ELL Language Support
 - Pre-teach: Drone = Dron, Pilot = Piloto, Certification = Certificación, Emerging = Emergente, Payload = Carga útil
 - Visual safety briefing handout with diagrams and bilingual labels
-- Hands-on drone flying transcends language — let ESL students fly first and explain what they learned in the language they are comfortable with
+- Hands-on drone flying transcends language, let ESL students fly first and explain what they learned in the language they are comfortable with
 - Pair ESL students with bilingual peers during the Jigsaw research and presentation prep

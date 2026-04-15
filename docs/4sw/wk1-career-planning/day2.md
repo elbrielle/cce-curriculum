@@ -8,13 +8,13 @@
 | **Objectives** | Complete the H&L "Iceberg Cartoon" reflection (Ch 16); navigate the H&L Career Plan tool; identify pathway recommendations and cross-reference them with available Irving ISD pathways |
 | **TEKS** | d(1)(A), d(8)(A) |
 | **Deliverable** | Completed Iceberg Cartoon (≥3 items on top, ≥10 items underneath) + screenshot of H&L Career Plan showing top recommended pathway |
-| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 16, pp. 265-267 — "Iceberg Cartoon" and pp. 267-268 — "My Career and Course Plan"), printed Iceberg template, Irving ISD CTE Pathways poster, projector |
+| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 16, pp. 265-267, "Iceberg Cartoon" and pp. 267-268, "My Career and Course Plan"), printed Iceberg template, Irving ISD CTE Pathways poster, projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Think of someone who is great at something — an athlete, a musician, a YouTuber, a family member at their job. What do most people see them doing? What do most people NOT see?**
+**WARM-UP: Think of someone who is great at something, an athlete, a musician, a YouTuber, a family member at their job. What do most people see them doing? What do most people NOT see?**
 
 Take 2-3 quick responses. Bridge: today we are going to map our own career goal as an iceberg. The career outcome people will see is the tip; everything underneath is the work that gets us there.
 
@@ -22,37 +22,37 @@ Take 2-3 quick responses. Bridge: today we are going to map our own career goal 
 
 ## Activity 1: H&L "Iceberg Cartoon" — Build Your Iceberg (20 min)
 
-**Source:** H&L Workbook Ch 16, pp. 265-267 — "Iceberg Cartoon"
+**Source:** H&L Workbook Ch 16, pp. 265-267, "Iceberg Cartoon"
 
 Open by walking students through the workbook example on page 265: a sports trophy iceberg. The visible tip is the prize. The underwater section includes early mornings, perseverance, injury, late nights, training, sacrifice, improvement, learning, strategy, discipline, hope, and commitment.
 
 Then transition to the student build (pp. 266-267). Each student creates their own iceberg about a career goal. The workbook requirements:
 
 - **Title** at the top of the iceberg
-- **At least 3 words or images** on the top (visible) section — what people will see when they reach this career
-- **At least 10 words or images** underneath the iceberg — the hidden work, skills, sacrifices, and small steps
+- **At least 3 words or images** on the top (visible) section, what people will see when they reach this career
+- **At least 10 words or images** underneath the iceberg, the hidden work, skills, sacrifices, and small steps
 
-Students choose a career from their Day 1 audit — ideally one of their top favorites. They draw the iceberg on the printed template (or in a digital canvas if they prefer).
+Students choose a career from their Day 1 audit, ideally one of their top favorites. They draw the iceberg on the printed template (or in a digital canvas if they prefer).
 
 Examples to project on the board if students get stuck:
 
 - **Top of a Nurse iceberg:** "Saving lives, scrubs, hospital badge"
 - **Underwater for a Nurse:** "Anatomy class, 12-hour shifts, math homework, blood draws practice, communication skills, learning to handle stress, college tuition, bedside manner with strangers, missed family events, the boring parts of memorizing drugs"
 
-The workbook (p. 267) instructs students to flip back through earlier chapters or browse the H&L app for reminders if they get stuck. Encourage this — students should not invent items; they should pull from real things they have practiced or discussed this year.
+The workbook (p. 267) instructs students to flip back through earlier chapters or browse the H&L app for reminders if they get stuck. Encourage this. Students should not invent items; they should pull from real things they have practiced or discussed this year.
 
 !!! tip "Facilitation Tip"
-    The trap is for students to put only positive things underwater ("hard work," "studying"). Push them to include hard things too — "missed friend's birthday," "got a bad grade and had to retake," "had to ask for help when I didn't want to." The point of the iceberg is honesty about cost, not just effort.
+    The trap is for students to put only positive things underwater ("hard work," "studying"). Push them to include hard things too, "missed friend's birthday," "got a bad grade and had to retake," "had to ask for help when I didn't want to." The point of the iceberg is honesty about cost, not just effort.
 
-After 15 minutes, students complete Step 3 (p. 267) — a short written reflection on the choices they made for their iceberg.
+After 15 minutes, students complete Step 3 (p. 267): a short written reflection on the choices they made for their iceberg.
 
 ---
 
 ## Activity 2: H&L Career Plan Tool Navigation (15 min)
 
-**Source:** H&L Workbook Ch 16, pp. 267-268 — "My Career and Course Plan" (Step 2)
+**Source:** H&L Workbook Ch 16, pp. 267-268, "My Career and Course Plan" (Step 2)
 
-!!! tip "Facilitation Tip — Verify Before Class"
+!!! tip "Facilitation Tip. Verify Before Class"
     Before class, open H&L in a test or teacher account and confirm the Career Plan tool loads, shows pathway recommendations, and matches your district's configuration. If the tool is unavailable at your district, skip directly to Activity 3 (Pathway Cross-Reference) and use the printed Irving ISD CTE Pathways poster as your single source of truth, with the workbook template on p. 268 as the student artifact.
 
 Now shift from the personal reflection to the platform tool. Project the H&L app and walk students through finding the Career Plan.
@@ -68,7 +68,7 @@ Students complete three tasks in the Career Plan:
 Then they take a screenshot of their Career Plan home screen showing recommended pathways. Save the screenshot to their student drive folder under "4SW Wk1 Career Plan."
 
 !!! tip "Facilitation Tip"
-    If the H&L Career Plan tool is not configured for Irving ISD or shows no recommendations, have students manually compare their top 3 favorited Hats to the Irving ISD CTE Pathways poster on the wall. The cross-referencing — not the tool — is the actual learning.
+    If the H&L Career Plan tool is not configured for Irving ISD or shows no recommendations, have students manually compare their top 3 favorited Hats to the Irving ISD CTE Pathways poster on the wall. The cross-referencing, not the tool, is the actual learning.
 
 ---
 
@@ -94,6 +94,6 @@ If H&L recommends something not offered locally (e.g., Marine Biology), students
 
 ## Differentiation
 
-- **Support:** Pre-built Iceberg template with the underwater section divided into 4 labeled zones — Skills, Practice, Sacrifices, People Who Helped — so students know what to put where. Students who finish the basic 10 items can keep going.
-- **Extension:** Build a second iceberg for a backup career — what is the difference in what is underwater? Which iceberg has more overlap with the student's current strengths?
-- **ELL:** Visual iceberg template with image search permission — students can paste images instead of writing words. Pre-teach: Iceberg = Iceberg, Hidden = Oculto, Visible = Visible, Pathway = Trayectoria.
+- **Support:** Pre-built Iceberg template with the underwater section divided into 4 labeled zones. Skills, Practice, Sacrifices, People Who Helped, so students know what to put where. Students who finish the basic 10 items can keep going.
+- **Extension:** Build a second iceberg for a backup career, what is the difference in what is underwater? Which iceberg has more overlap with the student's current strengths?
+- **ELL:** Visual iceberg template with image search permission. Students can paste images instead of writing words. Pre-teach: Iceberg = Iceberg, Hidden = Oculto, Visible = Visible, Pathway = Trayectoria.

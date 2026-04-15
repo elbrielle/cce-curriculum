@@ -6,7 +6,7 @@
 
 Students translate the pathway selection from Week 1 into a concrete 4-year high school course plan using the H&L District Course Planner, write a personal Career Plan that documents pathway choice + course sequence + postsecondary requirements, and download/print the plan to share with their family.
 
-!!! note "Buffer week — adapt freely for state testing season"
+!!! note "Buffer week: adapt freely for state testing season"
     The original scope-and-sequence intentionally left this week light (Xello completions + eDynamic supplements, no new cluster) because it lands during STAAR / state testing season. The curriculum writer placed the d(8)(C) Career Plan artifact here because Week 2 was the most complete available slot for the summative, but the Day 1-4 supporting activities (HS transition lecture, Family Letter, eDynamic 6.2) are all cut-or-condense candidates when testing eats periods. Load-bearing: Day 2 Course Planner + Day 5 Career Plan write-up (these together produce the d(8)(C) artifact). Flex: Day 1 endorsement lecture, Day 3 Family Letter (can be homework), Day 4 eDynamic (asynchronous).
 
 ## Demonstration of Learning
@@ -25,7 +25,7 @@ Students translate the pathway selection from Week 1 into a concrete 4-year high
 ## Materials Needed
 
 - Chromebooks with internet access (1 per student)
-- Hats & Ladders student accounts + H&L Workbook (Ch 16, pp. 267-268 — "My Career and Course Plan")
+- Hats & Ladders student accounts + H&L Workbook (Ch 16, pp. 267-268, "My Career and Course Plan")
 - Texas OnCourse: [texasoncourse.org](https://texasoncourse.org)
 - College For All Texans: [collegeforalltexans.com](https://www.collegeforalltexans.com)
 - Irving ISD CTE Pathways poster
@@ -44,22 +44,22 @@ The H&L District Course Planner shows the actual courses available at each Irvin
 ## Vocabulary
 
 - **District Course Planner:** In H&L, the tool that shows specific courses available in a student's school district, mapped to career pathways.
-- **Foundation High School Program:** Texas's required graduation framework — 22 credits across English, math, science, social studies, languages, PE, fine arts, and electives.
+- **Foundation High School Program:** Texas's required graduation framework, 22 credits across English, math, science, social studies, languages, PE, fine arts, and electives.
 - **Endorsement:** A specialization track on top of the Foundation HS Program. Texas offers five: STEM, Business & Industry, Arts & Humanities, Public Services, Multidisciplinary.
-- **Postsecondary:** Anything after high school — 4-year college, community college, trade school, military, certification programs, apprenticeships.
+- **Postsecondary:** Anything after high school, 4-year college, community college, trade school, military, certification programs, apprenticeships.
 - **Dual Credit:** A course that earns both high school credit and college credit at the same time, often saving thousands in tuition.
 - **AP (Advanced Placement):** A college-level course taken in high school. Passing the end-of-course exam can earn college credit.
 - **Career Plan:** A written document outlining a student's career goal, the pathway, the courses, the postsecondary training, and the action steps.
 
 ## Bridge to Theory (Hats & Ladders)
 
-H&L Chapter 16 (pp. 267-268) provides the **"My Career and Course Plan"** activity, which directly maps to the H&L app's District Course Planner tool. The workbook frames a career plan as a roadmap with both short-term goals (current courses, near-future skills) and long-term goals (HS course sequence, postsecondary path, career destination). The H&L app's District Course Planner is loaded with district-specific course catalogs — students select their high school, choose their pathway, and the tool generates a 4-year course sequence. The workbook activity (Step 2, p. 268) explicitly directs students to "go to the Hats & Ladders app and begin your Career and Course Plan."
+H&L Chapter 16 (pp. 267-268) provides the **"My Career and Course Plan"** activity, which directly maps to the H&L app's District Course Planner tool. The workbook frames a career plan as a roadmap with both short-term goals (current courses, near-future skills) and long-term goals (HS course sequence, postsecondary path, career destination). The H&L app's District Course Planner is loaded with district-specific course catalogs, students select their high school, choose their pathway, and the tool generates a 4-year course sequence. The workbook activity (Step 2, p. 268) explicitly directs students to "go to the Hats & Ladders app and begin your Career and Course Plan."
 
 ## IISD Instructional Strategies
 
 - **Modeling:** Day 2 begins with the teacher walking through the entire H&L District Course Planner on the projector for one complete pathway before students touch their own Chromebooks.
 - **Chunking:** The week breaks course planning into 5 manageable steps (transition → course planner → family letter → experience building → final plan write-up) so students do not feel overwhelmed by the complexity of HS planning.
-- **Sentence Stems:** Career Plan writing — "My career goal is _____. To prepare, I will take _____ in high school and _____ after high school. My first action step is _____."
+- **Sentence Stems:** Career Plan writing, "My career goal is _____. To prepare, I will take _____ in high school and _____ after high school. My first action step is _____."
 - **Active Monitoring:** Day 2 checkpoint verifies every student selected the right Irving ISD high school in the Course Planner before they begin mapping courses.
 
 ## Week at a Glance
@@ -74,14 +74,14 @@ H&L Chapter 16 (pp. 267-268) provides the **"My Career and Course Plan"** activi
 
 ## Formative Assessment
 
-- Endorsement-to-pathway match (Day 1) — d(3)(A)
-- Course Planner completion screenshot (Day 2) — d(8)(B)
-- Family Letter personalization quality (Day 3) — d(3)(D)
-- eDynamic 6.2 progress + experience identification (Day 4) — d(3)(A)
+- Endorsement-to-pathway match (Day 1): d(3)(A)
+- Course Planner completion screenshot (Day 2): d(8)(B)
+- Family Letter personalization quality (Day 3): d(3)(D)
+- eDynamic 6.2 progress + experience identification (Day 4): d(3)(A)
 
 ## Summative Assessment
 
-**Individual Career Plan (Day 5) — the d(8)(C) artifact for the year.** Students submit a written Career Plan including: career goal, RIASEC alignment, pathway selection, 4-year HS course map, postsecondary requirements (degree/certification/apprenticeship), three action steps the student can start this year, and one professional organization to join. Scored on completeness (d(8)(B)), quality of reasoning (d(8)(C)), MS-to-HS transition understanding (d(3)(A)), evidence of effective planning (d(3)(D)), and college credit awareness (d(3)(B)).
+**Individual Career Plan (Day 5): the d(8)(C) artifact for the year.** Students submit a written Career Plan including: career goal, RIASEC alignment, pathway selection, 4-year HS course map, postsecondary requirements (degree/certification/apprenticeship), three action steps the student can start this year, and one professional organization to join. Scored on completeness (d(8)(B)), quality of reasoning (d(8)(C)), MS-to-HS transition understanding (d(3)(A)), evidence of effective planning (d(3)(D)), and college credit awareness (d(3)(B)).
 
 ## Differentiation
 
@@ -89,7 +89,7 @@ H&L Chapter 16 (pp. 267-268) provides the **"My Career and Course Plan"** activi
 - Pre-printed Career Plan template with fill-in-the-blank sections and sentence stems
 - Pre-printed list of Irving ISD CTE pathway course sequences for students who struggle with the digital Course Planner
 - Allow Career Plan submission in bullet-point format rather than full paragraphs
-- Pair students for the Course Planner — one navigates, the other reads aloud and records
+- Pair students for the Course Planner, one navigates, the other reads aloud and records
 
 ### Extensions
 - Research dual-credit and articulated college credit opportunities for the chosen pathway

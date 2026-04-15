@@ -14,7 +14,7 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Name your favorite teacher you have ever had. What made them great — their knowledge, their personality, the way they ran the classroom, or something else?**
+**WARM-UP: Name your favorite teacher you have ever had. What made them great, their knowledge, their personality, the way they ran the classroom, or something else?**
 
 Take 3-4 student responses. Bridge to the idea that great teachers think carefully about both WHAT they teach AND WHERE/HOW they teach it. Today's activity puts students in the role of designing the learning space itself.
 
@@ -28,8 +28,8 @@ Open by framing this as the LAST six weeks of the year, beginning with a persona
 
 Direct students to open Hats & Ladders and navigate to the Education and Training cluster. They should:
 
-1. **Read the Making Connections prompt** from the workbook (Ch 6, p. 91): *"Talk about a time when someone taught you something new — maybe a teacher, a coach, or even a friend. What made that learning experience helpful or fun? How do you think educators and trainers can make learning exciting for others?"* Discuss briefly with a partner.
-2. **Watch the cluster tour video** in the H&L app. While watching, students use **Stop and Jot** — pause twice to write down one education career they did not know existed and one question they have.
+1. **Read the Making Connections prompt** from the workbook (Ch 6, p. 91): *"Talk about a time when someone taught you something new, maybe a teacher, a coach, or even a friend. What made that learning experience helpful or fun? How do you think educators and trainers can make learning exciting for others?"* Discuss briefly with a partner.
+2. **Watch the cluster tour video** in the H&L app. While watching, students use **Stop and Jot:** pause twice to write down one education career they did not know existed and one question they have.
 3. **Browse the two pathways** identified in the workbook: **Early Learning** ("Teach young children in preschool and early elementary school") and **Teaching and Training** ("Teach students of all ages, create learning materials, coach individuals or groups").
 
 > [H&L PLATFORM] From the workbook (Ch 6, p. 92): "Go to the Hats & Ladders app and click on the 'Education and Training' Cluster. Spend some time exploring the cluster and pathways." Students click Career Clusters from their dashboard, then scroll to Education and Training.
@@ -41,7 +41,7 @@ Direct students to open Hats & Ladders and navigate to the Education and Trainin
 
 ## Activity 2: H&L "Community Classroom" Activity (25 min)
 
-**Source:** H&L Workbook Ch 6, pp. 92-94 — "Community Classroom" (Career Climb activity)
+**Source:** H&L Workbook Ch 6, pp. 92-94, "Community Classroom" (Career Climb activity)
 
 Introduce this activity by explaining the workbook scenario: *Students are the Director of Instruction at their school district. Their job is to design an exciting new learning space for third-grade science.* The space can be indoors or outdoors. Teachers can sign up to use it once a month.
 
@@ -73,7 +73,7 @@ Now students design a flyer that does TWO things (from workbook):
 The flyer must include any special features that will attract teachers and students. Students use Canva or the printed flyer template.
 
 !!! tip "Facilitation Tip"
-    Project a sample flyer on the board for 30 seconds before students start — show them what "persuasive" looks like (catchy headline, key features bulleted, a call to action like "Sign up today!"). Do not over-model — they need to make their own design choices.
+    Project a sample flyer on the board for 30 seconds before students start to show them what "persuasive" looks like (catchy headline, key features bulleted, a call to action like "Sign up today!"). Do not over-model. They need to make their own design choices.
 
 **DOK 2:** How would you compare your learning space to a typical classroom? Name 3 specific differences and explain why each one helps third-graders learn science better.
 
@@ -89,6 +89,6 @@ The flyer must include any special features that will attract teachers and stude
 
 ## Differentiation
 
-- **Support:** Provide a list of "design starters" — outdoor garden, indoor lab with 4 stations, science discovery zone, greenhouse classroom, makerspace — so students can choose rather than start from scratch. Provide flyer template with headline + 3 bullet point sections pre-labeled.
+- **Support:** Provide a list of "design starters", outdoor garden, indoor lab with 4 stations, science discovery zone, greenhouse classroom, makerspace, so students can choose rather than start from scratch. Provide flyer template with headline + 3 bullet point sections pre-labeled.
 - **Extension (from workbook):** Students present their concept and flyer to a partner or the class as if the partner is a third-grade teacher. They must convince the partner to sign up.
 - **ELL:** Pre-teach: Learning Space = Espacio de aprendizaje, Classroom = Salón de clases, Outdoor = Al aire libre, Experiment = Experimento. The design activity is highly visual and accessible for all language levels. Provide bilingual sentence stems for the flyer.

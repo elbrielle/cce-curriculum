@@ -22,7 +22,7 @@ Quick share. Listen for: weird URL, bad spelling, "too good to be true" offer, a
 
 ## Activity 1: Read the H&L "Cybersecurity in Action" Scenario (10 min)
 
-**Source:** H&L Workbook Ch 12, p. 193 — "Cybersecurity in Action" (Career Climb activity)
+**Source:** H&L Workbook Ch 12, p. 193, "Cybersecurity in Action" (Career Climb activity)
 
 Open the workbook to page 193. Read the scenario together: the internet is useful and important, but not everyone using it is good. Hackers, cybercriminals, and scammers can take advantage of people who don't know how to protect themselves online. This is especially important for KIDS who may not always recognize the danger.
 
@@ -34,13 +34,13 @@ The workbook includes the statistic: **over 90% of children ages 2-17 have watch
 
 ## Activity 2: Step 1 — Choose Your Tool (5 min)
 
-**Source:** H&L Workbook Ch 12, p. 193 — "Step 1: Choose a Tool"
+**Source:** H&L Workbook Ch 12, p. 193, "Step 1: Choose a Tool"
 
 The workbook offers three tool options. Each student picks ONE:
 
-1. **A Kid-Friendly Cyber Security Guide** — A colorful, engaging guide that teaches kids how to recognize safe websites for purchases. Can be drawn by hand or made digitally. Should be fun, easy to read, and full of helpful tips.
-2. **A Cyber Safety App or System** — Invent an app or software that helps parents and kids monitor safe internet use, block harmful sites, or detect cyber threats. Must include a creative name and a brief explanation of how it works.
-3. **A Public Service Announcement (PSA)** — Create a video script, audio script, or poster that explains how to make wise decisions when making online purchases.
+1. **A Kid-Friendly Cyber Security Guide:** A colorful, engaging guide that teaches kids how to recognize safe websites for purchases. Can be drawn by hand or made digitally. Should be fun, easy to read, and full of helpful tips.
+2. **A Cyber Safety App or System:** Invent an app or software that helps parents and kids monitor safe internet use, block harmful sites, or detect cyber threats. Must include a creative name and a brief explanation of how it works.
+3. **A Public Service Announcement (PSA):** Create a video script, audio script, or poster that explains how to make wise decisions when making online purchases.
 
 Students write their choice in their workbook (p. 193). Tell them: "Pick the format that plays to your strengths. If you love drawing, pick the Guide. If you love technology and inventing things, pick the App. If you love writing or speaking, pick the PSA."
 
@@ -48,7 +48,7 @@ Students write their choice in their workbook (p. 193). Tell them: "Pick the for
 
 ## Activity 3: Step 2 — Brainstorm Ideas (10 min)
 
-**Source:** H&L Workbook Ch 12, p. 194 — "Step 2: Brainstorm Ideas"
+**Source:** H&L Workbook Ch 12, p. 194, "Step 2: Brainstorm Ideas"
 
 Students conduct quick research and brainstorm. They need to know:
 
@@ -67,13 +67,13 @@ Walk the room. Help students who are stuck by giving them a starter prompt: "Ima
 
 ## Activity 4: Step 3 — Design Your Tool (15 min)
 
-**Source:** H&L Workbook Ch 12, p. 194 — "Step 3: Design Your Tool"
+**Source:** H&L Workbook Ch 12, p. 194, "Step 3: Design Your Tool"
 
 Students begin designing their chosen tool. Working medium depends on the tool:
 
-- **Cyber Security Guide** — Sketch in workbook OR start in Canva (pre-built brochure templates work well)
-- **Cyber Safety App or System** — Sketch app screens (login, dashboard, alerts) and write the app name + tagline
-- **Public Service Announcement** — Write a 30-60 second script OR sketch a poster layout with headline + image + call-to-action
+- **Cyber Security Guide:** Sketch in workbook OR start in Canva (pre-built brochure templates work well)
+- **Cyber Safety App or System:** Sketch app screens (login, dashboard, alerts) and write the app name + tagline
+- **Public Service Announcement:** Write a 30-60 second script OR sketch a poster layout with headline + image + call-to-action
 
 Walk the room. Stop students who are perfectionizing the design without thinking about content. Push them: "What is the ONE thing you most want kids to remember from your tool?"
 

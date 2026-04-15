@@ -25,7 +25,7 @@ Students explore the Education & Training career cluster through Hats & Ladders,
 - H&L Powerskills Workbook (Leadership module)
 - Teach.org: [teach.org](https://www.teach.org)
 - TEA Educator Certification: [tea.texas.gov/texas-educators/certification](https://tea.texas.gov/texas-educators/certification)
-- BLS — High School Teachers: [bls.gov/ooh/education-training-and-library/high-school-teachers.htm](https://www.bls.gov/ooh/education-training-and-library/high-school-teachers.htm)
+- BLS, High School Teachers: [bls.gov/ooh/education-training-and-library/high-school-teachers.htm](https://www.bls.gov/ooh/education-training-and-library/high-school-teachers.htm)
 - eDynamic Learning Unit 7.2: Getting the Training You Need
 - Xello student accounts (Discover Learning Pathways lesson)
 - Printed Education Pathway Comparison worksheet
@@ -34,9 +34,9 @@ Students explore the Education & Training career cluster through Hats & Ladders,
 
 ## Career Connection
 
-Education professionals shape every other career field — every doctor, engineer, lawyer, and entrepreneur had a teacher who helped them get there. In Texas, there are two main pathways into teaching: the traditional route (4-year Education degree + student teaching) and the alternative certification route (any bachelor's degree + alt-cert program like iTeach or Texas Teachers). Both pathways lead to the same TEA teaching certificate. Education is also uniquely connected to community service — a core value of the profession and the natural anchor for d(4)(E).
+Education professionals shape every other career field, every doctor, engineer, lawyer, and entrepreneur had a teacher who helped them get there. In Texas, there are two main pathways into teaching: the traditional route (4-year Education degree + student teaching) and the alternative certification route (any bachelor's degree + alt-cert program like iTeach or Texas Teachers). Both pathways lead to the same TEA teaching certificate. Education is also uniquely connected to community service, a core value of the profession and the natural anchor for d(4)(E).
 
-**Irving ISD Pathway:** **Education and Training** is offered at **Irving High School, MacArthur High School, and Nimitz High School** — a multi-campus pathway students can pursue regardless of their home school. **Early Childhood Education** is offered specifically at **Cardwell Career Preparatory Center**.
+**Irving ISD Pathway:** **Education and Training** is offered at **Irving High School, MacArthur High School, and Nimitz High School:** a multi-campus pathway students can pursue regardless of their home school. **Early Childhood Education** is offered specifically at **Cardwell Career Preparatory Center**.
 
 ## Vocabulary
 
@@ -44,17 +44,17 @@ Education professionals shape every other career field — every doctor, enginee
 - **Student Teaching:** A semester-long supervised classroom experience required as part of a traditional Education degree.
 - **Community Service:** Unpaid work done to benefit the community. Community service builds career skills like leadership, communication, and empathy.
 - **Educational Aide:** A paraprofessional who assists teachers in the classroom. Irving ISD's Teaching & Training pathway leads to this certification.
-- **TEA:** Texas Education Agency — the state organization that oversees public education and teacher certification in Texas.
+- **TEA:** Texas Education Agency, the state organization that oversees public education and teacher certification in Texas.
 - **Instructional Designer:** A professional who designs curriculum, courses, and learning experiences (often for online or corporate training).
 
 ## Bridge to Theory (Hats & Ladders)
 
 H&L Ch 6 (Education and Training, pp. 91-102) covers two pathways: Early Learning and Teaching and Training. The chapter includes three named workbook activities used across this week:
 
-- **Community Classroom** (Day 1) — Career Climb activity. Students design an exciting new learning space for third-grade science and create a flyer to persuade teachers to use it.
-- **Powerskill: Leadership** (Day 2) — Students create a social media campaign to address voter turnout, practicing leadership decision-making.
-- **Job Search Scavenger Hunt** (Day 3) — Students search for real job postings matching specific clues (team-based, food industry, remote, travel) and record company names, positions, and salaries.
-- **Teaching Toolbox** (Day 4) — Career Lab. Students become the teacher: choose a grade level (Pre-K, 2nd, 4th), pick a learning goal, and design a fun grade-appropriate learning activity with clear rules.
+- **Community Classroom** (Day 1): Career Climb activity. Students design an exciting new learning space for third-grade science and create a flyer to persuade teachers to use it.
+- **Powerskill: Leadership** (Day 2): Students create a social media campaign to address voter turnout, practicing leadership decision-making.
+- **Job Search Scavenger Hunt** (Day 3): Students search for real job postings matching specific clues (team-based, food industry, remote, travel) and record company names, positions, and salaries.
+- **Teaching Toolbox** (Day 4): Career Lab. Students become the teacher: choose a grade level (Pre-K, 2nd, 4th), pick a learning goal, and design a fun grade-appropriate learning activity with clear rules.
 
 The Hat Research template (Ch 6, p. 97) provides structured fields for career research used on Day 2.
 
@@ -63,7 +63,7 @@ The Hat Research template (Ch 6, p. 97) provides structured fields for career re
 - **Modeling:** Teacher models the Community Classroom flyer on the projector and demonstrates a sample Teaching Toolbox activity before students design their own.
 - **Think-Pair-Share:** After researching traditional vs. alternative certification, students think individually, pair to discuss which pathway appeals more to them, and share with the class.
 - **Stop and Jot:** During the H&L cluster tour, students pause twice to note one education career they did not know existed and one question they have.
-- **Active Monitoring:** During Teaching Toolbox design, teacher circulates with a 3-checkpoint rubric (age-appropriate goal, clear rules, engaging activity).
+- **Active Monitoring:** During Teaching Toolbox design, teacher circulates with a 3-checkpoint rubric (age-appropriate goal, clear rules, activity).
 
 ## Week at a Glance
 
@@ -77,10 +77,10 @@ The Hat Research template (Ch 6, p. 97) provides structured fields for career re
 
 ## Formative Assessment
 
-- Community Classroom design and persuasive flyer (Day 1) — d(1)(B), d(1)(C)
-- Pathway Comparison worksheet + Hat Research template (Day 2) — d(2)(A), d(2)(B)
-- Job Search Scavenger Hunt completion (Day 3) — d(1)(C)
-- Teaching Toolbox activity quality (Day 4) — d(1)(C), d(4)(E)
+- Community Classroom design and persuasive flyer (Day 1): d(1)(B), d(1)(C)
+- Pathway Comparison worksheet + Hat Research template (Day 2): d(2)(A), d(2)(B)
+- Job Search Scavenger Hunt completion (Day 3): d(1)(C)
+- Teaching Toolbox activity quality (Day 4): d(1)(C), d(4)(E)
 
 ## Summative Assessment
 

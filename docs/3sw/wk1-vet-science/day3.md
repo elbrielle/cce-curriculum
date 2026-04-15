@@ -14,7 +14,7 @@
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Have you ever bought a candy you HATED? What was wrong with it — the flavor, the texture, the wrapper, or something else?**
+**WARM-UP: Have you ever bought a candy you HATED? What was wrong with it, the flavor, the texture, the wrapper, or something else?**
 
 Take 3 fast responses. Use this to bridge: behind every candy on the shelf is a team of food scientists with different specialties who tested and fixed problems before launch. Today students become that team.
 
@@ -22,11 +22,11 @@ Take 3 fast responses. Use this to bridge: behind every candy on the shelf is a 
 
 ## Activity 1: Set the Scenario + Choose Roles (10 min)
 
-**Source:** H&L Workbook Ch 2, p. 18 — "Candy Conundrum" (Career Climb activity)
+**Source:** H&L Workbook Ch 2, p. 18, "Candy Conundrum" (Career Climb activity)
 
 Read the workbook background aloud (Ch 2, p. 18): A major candy company has released a new candy, but customers don't like it. The food science team must figure out what went wrong and fix it.
 
-Group students into teams of 4. Hand each team the four role cards (face down) and have students draw one each — this prevents the same students from always getting "leader" roles.
+Group students into teams of 4. Hand each team the four role cards (face down) and have students draw one each, this prevents the same students from always getting "leader" roles.
 
 The four roles from the workbook (Ch 2, p. 18):
 
@@ -44,7 +44,7 @@ Each student writes their role and one sentence about what their job does on the
 
 ## Activity 2: The Three Problems + Brainstorm (25 min)
 
-**Source:** H&L Workbook Ch 2, p. 19 — "Candy Conundrum" Problems & Solutions
+**Source:** H&L Workbook Ch 2, p. 19, "Candy Conundrum" Problems & Solutions
 
 Project the three problems from the workbook on the screen so all groups can see them clearly:
 
@@ -52,7 +52,7 @@ Project the three problems from the workbook on the screen so all groups can see
 - **Problem #2:** The candy is named "Orange Spice Ice," but consumers don't like the name. What can you do to improve it?
 - **Problem #3:** When customers try to take off the wrapper, the candy crumbles into pieces. How do you keep it intact?
 
-**Step 1 (5 min):** Each role spends 2 minutes brainstorming on their OWN — what would your specialist add to each problem? Write 1-2 ideas per problem in the workbook brainstorm boxes.
+**Step 1 (5 min):** Each role spends 2 minutes brainstorming on their OWN, what would your specialist add to each problem? Write 1-2 ideas per problem in the workbook brainstorm boxes.
 
 **Step 2 (15 min):** Teams share their role-specific ideas and combine them into one team solution per problem. The R&D Manager facilitates the discussion (this is part of their job in the activity).
 
@@ -61,7 +61,7 @@ Project the three problems from the workbook on the screen so all groups can see
 **DOK 3:** What conclusions can you draw about why a candy company needs MULTIPLE specialists instead of just one really smart food scientist who tries to do everything?
 
 !!! tip "Facilitation Tip"
-    Watch for groups where one student dominates and others are silent. Intervene with: "What does the Packaging Engineer think about this?" or "R&D Manager — has everyone shared yet?" The activity teaches teamwork, not just creative problem-solving.
+    Watch for groups where one student dominates and others are silent. Intervene with: "What does the Packaging Engineer think about this?" or "R&D Manager, has everyone shared yet?" The activity teaches teamwork, not just creative problem-solving.
 
 ---
 

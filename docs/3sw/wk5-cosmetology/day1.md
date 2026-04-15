@@ -22,12 +22,12 @@ Take 4 student responses (no judgment, no oversharing). Use this to bridge: stre
 
 ## Activity 1: H&L Human Services Cluster Tour (12 min)
 
-**Source:** H&L Workbook Ch 11: Human Services, pp. 175-176 — "Exploring the World of Human Services"
+**Source:** H&L Workbook Ch 11: Human Services, pp. 175-176, "Exploring the World of Human Services"
 
 Direct students to open Hats & Ladders and navigate to the Human Services cluster. Project the cluster page and walk through the pathways. The H&L workbook (Ch 11) covers Personal Care Services and Health & Wellness pathways:
 
-- **Cosmetology & Personal Care Services** — Cosmetologist, Barber, Esthetician, Nail Technician, Massage Therapist
-- **Health & Wellness** — Health Educator, Recreational Therapist, Community Outreach Worker, Personal Trainer
+- **Cosmetology & Personal Care Services:** Cosmetologist, Barber, Esthetician, Nail Technician, Massage Therapist
+- **Health & Wellness:** Health Educator, Recreational Therapist, Community Outreach Worker, Personal Trainer
 
 > [H&L PLATFORM] The workbook (Ch 11, p. 176) instructs: "Go to the Hats & Ladders app and click on the 'Human Services' Cluster. Spend 15 minutes exploring the cluster and pathways." Students click the cluster, browse the Hat Finder, and pick 1-2 careers to skim before moving to the Stress Toolkit activity.
 
@@ -38,7 +38,7 @@ Direct students to open Hats & Ladders and navigate to the Human Services cluste
 
 ## Activity 2: H&L "Stress Toolkit" — Choose Techniques (10 min)
 
-**Source:** H&L Workbook Ch 11, pp. 177-178 — "Stress Toolkit" (Career Climb activity)
+**Source:** H&L Workbook Ch 11, pp. 177-178, "Stress Toolkit" (Career Climb activity)
 
 Read aloud the workbook background (Ch 11, p. 177): Stress is a normal part of life, but too much stress can be very harmful. It affects mood, health, and focus. Students play the role of the **Health and Wellness Coordinator** for their community. The mayor has assigned them to create a series of social media posts that teach people about stress management tools.
 
@@ -59,7 +59,7 @@ Each student picks **3 techniques** from the chart (or researches additional one
 
 ## Activity 3: Design 3 Social Media Posts (20 min)
 
-**Source:** H&L Workbook Ch 11, p. 178 — "Step 2: Create Social Media Posts"
+**Source:** H&L Workbook Ch 11, p. 178, "Step 2: Create Social Media Posts"
 
 Students design 3 social media posts using either the workbook templates (Ch 11, p. 178) or Canva. Each post must include:
 
@@ -79,7 +79,7 @@ After designing, students do the workbook discussion (Ch 11, p. 178): pair up, t
 **DOK 2:** Why are stress management techniques important specifically for cosmetology professionals? (Hint: cosmetologists stand for hours, work with chemicals, deal with difficult clients, and manage their own schedules.)
 
 !!! tip "Facilitation Tip"
-    Many students will pick "exercise" because it's familiar. Push them: pick at least one technique that's NEW to you. Journaling and creative activities are often dismissed by students who haven't tried them — but they are some of the most effective.
+    Many students will pick "exercise" because it's familiar. Push them: pick at least one technique that's NEW to you. Journaling and creative activities are often dismissed by students who haven't tried them, but they are some of the most effective.
 
 ---
 
@@ -93,4 +93,4 @@ After designing, students do the workbook discussion (Ch 11, p. 178): pair up, t
 
 - **Support:** Pre-printed post template with the headline already styled and 3 boxes (one per element). Students fill in the text and one drawing per post.
 - **Extension:** Build the 3 posts in Canva using real social media templates (Instagram square, Instagram story, Twitter/X post). Match the format to the platform.
-- **ELL:** Pre-teach: Stress = Estrés, Wellness = Bienestar, Breathing = Respiración, Exercise = Ejercicio. The posts can be in English, Spanish, or bilingual — many community wellness campaigns in Texas are bilingual.
+- **ELL:** Pre-teach: Stress = Estrés, Wellness = Bienestar, Breathing = Respiración, Exercise = Ejercicio. The posts can be in English, Spanish, or bilingual, many community wellness campaigns in Texas are bilingual.

@@ -20,8 +20,8 @@ Students explore Health Informatics (medical billing/coding) and Dental Science 
 
 - Chromebooks with internet access (1 per student)
 - Hats & Ladders student accounts + H&L Workbook (Ch 9: Health Science, pp. 140-143)
-- BLS — Dental Hygienists: [bls.gov/ooh/healthcare/dental-hygienists.htm](https://www.bls.gov/ooh/healthcare/dental-hygienists.htm)
-- BLS — Medical Records Specialists: [bls.gov/ooh/healthcare/medical-records-and-health-information-technicians.htm](https://www.bls.gov/ooh/healthcare/medical-records-and-health-information-technicians.htm)
+- BLS, Dental Hygienists: [bls.gov/ooh/healthcare/dental-hygienists.htm](https://www.bls.gov/ooh/healthcare/dental-hygienists.htm)
+- BLS, Medical Records Specialists: [bls.gov/ooh/healthcare/medical-records-and-health-information-technicians.htm](https://www.bls.gov/ooh/healthcare/medical-records-and-health-information-technicians.htm)
 - Xello accounts (Education Experience + School Subjects at Work activities)
 - Printed Health Science Career Comparison worksheet (3 careers × 5 columns)
 - Printed Toothbrush Design worksheet (sketch space + label space)
@@ -31,9 +31,9 @@ Students explore Health Informatics (medical billing/coding) and Dental Science 
 
 ## Career Connection
 
-Not everyone in healthcare works directly with patients. Medical billing and coding specialists translate medical procedures into standardized codes for insurance billing — a behind-the-scenes role that keeps hospitals running. Dental assistants and hygienists work directly alongside dentists. Both fields are high-demand in DFW with relatively short training timelines, making them excellent options for students who want to enter healthcare quickly without an 8-year degree.
+Not everyone in healthcare works directly with patients. Medical billing and coding specialists translate medical procedures into standardized codes for insurance billing, a behind-the-scenes role that keeps hospitals running. Dental assistants and hygienists work directly alongside dentists. Both fields are high-demand in DFW with relatively short training timelines, making them excellent options for students who want to enter healthcare quickly without an 8-year degree.
 
-**Irving ISD Pathway:** The **Dental** pathway at **Singley Academy** (part of the School of Health Sciences) is the current Irving ISD anchor for this week. Singley's four Health Sciences pathways are Nursing Science, Physical Therapy, Dental, and Emergency Medical - EMT. **Medical Billing** is not currently offered as a dedicated Irving ISD pathway at any campus — this week covers Medical Billing as a career-exploration topic using BLS and H&L career data, not as a claim about a local high-school pathway.
+**Irving ISD Pathway:** The **Dental** pathway at **Singley Academy** (part of the School of Health Sciences) is the current Irving ISD anchor for this week. Singley's four Health Sciences pathways are Nursing Science, Physical Therapy, Dental, and Emergency Medical - EMT. **Medical Billing** is not currently offered as a dedicated Irving ISD pathway at any campus. This week covers Medical Billing as a career-exploration topic using BLS and H&L career data, not as a claim about a local high-school pathway.
 
 ## Vocabulary
 
@@ -42,7 +42,7 @@ Not everyone in healthcare works directly with patients. Medical billing and cod
 - **Dental Hygienist:** A dental professional who cleans teeth, screens for oral disease, and educates patients. Requires an associate degree.
 - **High-Demand Occupation:** A career with many job openings relative to qualified workers. Indicated by low unemployment, strong job growth (5%+), and active hiring.
 - **College Credit in High School:** Opportunities like dual credit, AP exams, or articulated CTE credit that allow students to earn college credits before graduation.
-- **Health Informatics:** The intersection of healthcare and information technology — medical records, billing systems, health data analysis.
+- **Health Informatics:** The intersection of healthcare and information technology, medical records, billing systems, health data analysis.
 
 ## Bridge to Theory (Hats & Ladders)
 
@@ -52,7 +52,7 @@ The H&L workbook (Ch 9: Health Science, pp. 140-143) provides the major activity
 
 - **Sentence Stems:** For the career classification: "Career A requires _____ education and pays _____. Based on this data, I would classify Career A as _____ (high-skill / high-wage / high-demand) because _____."
 - **Think-Pair-Share:** After completing the Xello School Subjects at Work activity, students think about which school subject surprised them as relevant to healthcare, pair to discuss, and share.
-- **Chunking:** The medical coding simulation is broken into rounds — Round 1 covers 3 codes, Round 2 covers 5 codes, Round 3 is a speed challenge.
+- **Chunking:** The medical coding simulation is broken into rounds. Round 1 covers 3 codes, Round 2 covers 5 codes, Round 3 is a speed challenge.
 
 ## Week at a Glance
 
@@ -66,11 +66,11 @@ The H&L workbook (Ch 9: Health Science, pp. 140-143) provides the major activity
 
 ## Formative Assessment
 
-- Hat Research template completion (Day 1) — d(2)(A)
-- Toothbrush design + label quality (Day 2) — d(1)(C)
-- Career Comparison worksheet accuracy (Day 2) — d(5)(B)
-- Xello activity completion (Day 3) — d(3)(B)
-- Medical coding accuracy (Day 4) — d(2)(A)
+- Hat Research template completion (Day 1): d(2)(A)
+- Toothbrush design + label quality (Day 2): d(1)(C)
+- Career Comparison worksheet accuracy (Day 2): d(5)(B)
+- Xello activity completion (Day 3): d(3)(B)
+- Medical coding accuracy (Day 4): d(2)(A)
 
 ## Summative Assessment
 
@@ -87,7 +87,7 @@ The H&L workbook (Ch 9: Health Science, pp. 140-143) provides the major activity
 
 ### Extensions
 
-- Compare ICD-10 and CPT coding systems — when is each used?
+- Compare ICD-10 and CPT coding systems, when is each used?
 - Build a 4-year plan for the Singley Dental pathway including dual credit and AP options
 - Calculate the return on investment for each health science certification (training cost ÷ first-year salary)
 - Design a SECOND toothbrush for a different population (toddler, senior, person with arthritis)
