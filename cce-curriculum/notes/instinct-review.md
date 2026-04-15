@@ -681,9 +681,56 @@ Grep of all overviews for TEKS codes 6SW Wk6 claims:
 - **Lines changed (structural reframe):** +16 / -6 across 1 file
 - **Verification:** all four commits passed the 6-check preservation loop (`mkdocs --strict`; scripting=0; DOK 2-4 present on all 15 instinct-reviewed day files; timing sums 50/50/50/50/50 on 6SW Wk4, 5SW Wk2, 2SW Wk1 — Day 3 of 2SW Wk1 brought from 55→50; Support+ELL preserved; Dim 9 fluff=0).
 
-**Running cumulative totals across all sessions:**
+**Running cumulative totals across all sessions (through session 4):**
 
 - **Weeks reviewed:** 13 of 36 (session 3 list + 6SW Wk4, 5SW Wk2, 2SW Wk1) + 1 structural reframe (6SW Wk6, but also counted as instinct-reviewed in the morning of session 1)
 - **Concerns (instinct reviews only):** 110 lobbed → 77 Fix / 22 Defend / 11 Escalate / 6 Folded
 - **Commits:** 13 instinct-review commits + 1 structural reframe = 14 total Track B commits
 - **Remaining weeks to instinct-review:** 23 of 36
+
+---
+
+## Week 14 — 5SW Wk6 Real Estate (2026-04-14 night extended session)
+
+**Why this week:** standalone real-estate week in the 5SW A&C cluster. Commission-based income is a lesson 13 watchlist (emotional safety around income disparity + family financial situation). Day 5 cluster wrap-up needed verification against the 5SW arc.
+
+**Protocol used:** Teacher Implementer spawned as Explore sub-agent; Writer triage done in-session.
+
+**Teacher Implementer verdict on emotional safety:** the week mostly succeeds — Day 2 commission math is transparent about the 50% split and shows variability across sales volumes (6 / 12 / 20 homes per year), and Day 1 DFW home-price framing is realistic ($300K-$450K) rather than an unrealistic luxury range. The week does NOT oversell "get rich quick" and does NOT undersell "only for rich kids." Two gaps flagged.
+
+**Concerns (7 lobbed):**
+
+1. Overview pathway phrasing: "Real Estate Sales Agent certification" at Singley — sub-agent flagged as unverified (and was correct: this was subsequently found wrong in the pathway audit; Real Estate is at MacArthur, not Singley).
+2. Day 1 Gallery Walk DOK 2 prompt — sub-agent called acceptable.
+3. Day 2 TREC facilitation tip repeated Singley claim.
+4. **Day 2 Sect 4 commission reflection lacks scaffolding (lesson 13).** The reflection prompt "Would you prefer commission or salary? Explain your choice" asks students to declare a preference without framing either answer as valid. Students whose families need salary stability might feel judged for preferring salary.
+5. **Day 5 Sect 5 Career Fit Ranking was too ambitious.** Asking for a ranked top-5 across all clusters explored this year generates shallow ranks — most students have strong feelings about 2-3 careers, not 5.
+6. **Day 3 Activity 2 DFW market analysis** required teacher-curated news articles with no fallback sources — if the teacher didn't pre-prep, the 18-minute activity blew up.
+7. Day 2 variable-income emotional-safety callout missing (folded into #4).
+
+**Writer triage: 4 Fix (1 folded), 3 Defend.**
+
+| # | Concern | Fix / Defend |
+|---|---|---|
+| 1 | Singley Real Estate pathway claim | **Fix (initially wrong, corrected in follow-up)** — commit `c7ad425` changed to "Real Estate at Singley Academy (pre-licensure coursework)" based on the old PATHWAYS.md. Commit `17f8758` pathway audit then corrected this to "Real Estate at MacArthur High School" after the full canonical scrape. Day 2 facilitation tip + Day 5 elevator pitch template also corrected in the pathway audit. |
+| 2 | Day 1 Gallery Walk DOK | **Defend** — sub-agent called acceptable. |
+| 3 | Day 2 Singley TREC tip | **Fix via pathway audit** — corrected to MacArthur in commit `17f8758`. |
+| 4+7 | Day 2 commission reflection (lesson 13) | **Fix** — added `!!! tip "Frame both answers as valid"` facilitation note before the reflection prompt. Named explicitly that neither choice is "better" — depends on financial security + family situation + variability tolerance. Same pattern as 5SW Wk5 Day 2 negative-balance reframe and 3SW Wk3 Day 4 "Changing or Adapting" reframe. |
+| 5 | Day 5 top-5 ranking too ambitious | **Fix** — softened to "top 2-5 careers" with explicit "depth over volume" note: "two strongly-ranked careers with real rationale are better than five shallow ranks." DOK 4 prompt updated to match. |
+| 6 | Day 3 DFW market analysis no fallback | **Fix** — rewrote Day 3 Activity 2 Source line to use BLS Real Estate Brokers page + Texas Real Estate Research Center as the primary source (no pre-curation needed), with news articles demoted to optional enrichment. |
+| — | Overall overview length and structure | **Defend** — sub-agent did not flag any lesson 17 meta-commentary issues. |
+
+**Commits:** `c7ad425` (instinct review fixes, shipped with the wrong pathway claim) + `17f8758` (pathway correction integrated as part of the full pathway audit). 4 files, +10/-5 lines in the first commit; pathway corrections folded into the audit.
+
+**Clinical self-catch:** The initial pathway claim I wrote in commit `c7ad425` ("Real Estate at Singley Academy") was flagged by the sub-agent as unverified. I over-ruled the flag by consulting the old PATHWAYS.md, which said Singley had Real Estate. The user caught this on the live site; PATHWAYS.md itself turned out to be fabricated. The correction spanned commits `1ab00ba` (first PATHWAYS.md rewrite), `28a9afe` (13-week fix pass with a new error), and finally `17f8758` (definitive rewrite from full Irving ISD website scrape + Program Certifications poster). **Lesson 11 in editing-heuristics.md + memory Rule 6 now codify the rule that pathway claims must be verified against the canonical Irving ISD website, not PATHWAYS.md alone.**
+
+**Escalated:** 0 from this review; but the pathway drift incident surfaced the broader "PATHWAYS.md was fabricated" issue, which became the biggest single corrective action of the night extended session.
+
+---
+
+## Running cumulative totals (through 2026-04-14 night extended session)
+
+- **Weeks reviewed:** 14 of 36 (session 3 list + 6SW Wk4 + 5SW Wk2 + 2SW Wk1 + 5SW Wk6) + 1 structural reframe (6SW Wk6, counted as instinct-reviewed in the morning of session 1)
+- **Concerns (instinct reviews only):** 117 lobbed → 81 Fix / 25 Defend / 11 Escalate / 7 Folded
+- **Commits:** 14 instinct-review commits + 1 structural reframe + night-session pattern cleanup / pathway audit (extensive)
+- **Remaining weeks to instinct-review:** 22 of 36

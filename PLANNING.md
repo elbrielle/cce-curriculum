@@ -632,9 +632,51 @@ This ordering is a working assumption. Teacher feedback tomorrow will change it.
 
 ## 10. Session Log & Next-Agent Handoff
 
-### Current state (updated 2026-04-15 — Track B session 4, teacher-meeting-prep, end of session)
+### Current state (updated 2026-04-14 night, end of extended session)
 
-`main` HEAD: `7ccdce2` (pushed to origin/main; live site deployed). Live site: https://elbrielle.github.io/cce-curriculum/. **Thirteen** weeks instinct-reviewed (**1SW Wk0**, **4SW Wk1**, **5SW Wk1**, **6SW Wk6**, **2SW Wk5**, **6SW Wk5**, **4SW Wk2**, **5SW Wk5**, **3SW Wk3**, **2SW Wk4**, **6SW Wk4**, **5SW Wk2**, **2SW Wk1**) + Dimension 9 live + six prose/sweep passes shipped + buffer-week flex admonitions on 4SW Wk1 / 4SW Wk2 + **6SW Wk6 rewritten as fully-optional week** (every TEKS upstream-covered; no unique anchors; admonition tightened after user feedback on em dashes + length in commit `7ccdce2`). **23 of 36 weeks still awaiting instinct review.** Clinical `vetting-report.md` remains frozen. The 2026-04-15 Track B session 4 added 3 instinct-reviewed weeks plus a structural 6SW Wk6 reframe driven by user concern that end-of-year disruption makes the capstone week unlikely to run at all. New lessons 14 (fully-optional-week reframe) and 15 (teacher-facing prose discipline — no em dashes, match Wk0 admonition length) added. Two new escalation items surfaced: d(8) structural buffer-week risk and curriculum-density pattern — both routed to the teacher meeting 2026-04-15.
+`main` HEAD: `17f8758`. Live site: https://elbrielle.github.io/cce-curriculum/. **Fourteen** weeks instinct-reviewed (1SW Wk0, 4SW Wk1, 5SW Wk1, 6SW Wk6, 2SW Wk5, 6SW Wk5, 4SW Wk2, 5SW Wk5, 3SW Wk3, 2SW Wk4, 6SW Wk4, 5SW Wk2, 2SW Wk1, **5SW Wk6 added tonight**). **22 of 36 weeks remaining.** Clinical `vetting-report.md` frozen. **PATHWAYS.md rewritten from canonical Irving ISD website** + Program Certifications poster (18 week files re-audited for pathway drift). Four new lessons (14 fully-optional reframe, 15 prose discipline, 16 dead intro paragraphs, 17 operational-vs-self-referential) + memory Rules 1-6 codified. **Teacher Prep Checklist admonition pattern retired across 16 weeks** as net-negative clutter. Escalation queue updated with 2 new structural items + 2 pathway-specific [VERIFY] items for the teacher meeting.
+
+### Session 2026-04-14 night (extended session — pattern retirement + pathway audit + Track B #14)
+
+Commits `40bb868` → `17f8758` on `main`. Single long night session driven by three consecutive user-feedback rounds: (a) 6SW Wk6 reframe needed tightening on em dashes + length, (b) Teacher Prep Checklist pattern was net-negative (retired across 16 weeks), (c) PATHWAYS.md was fabricated and contaminated pathway-to-school claims across ~18 week files.
+
+**Cluster 1 — Lesson 15/16/17 codification + pattern cleanup (`7ccdce2` → `b9e6572`):**
+- 6SW Wk6 tightening (em dashes, length, Pre-Capstone intro deletion) — commits `7ccdce2`, `e153c09`
+- Lessons 15(e) + 16 + editing-heuristics rule 10 (redundancy audit after framing changes) — commit `bd119fd`
+- **Teacher Prep Checklist retirement across 16 weeks** — commit `40bb868`. 5 A5 weeks from sessions 3+4 + 10 A1-era tech-tool weeks + 6SW Wk4 (session 4 addition). Content-specific info preserved as Materials annotations where needed; platform-generic clutter cut entirely.
+- Tier 4 meta-commentary bloat sweep across 5 overviews + PLANNING §10 retirement notes + lesson 17 — commit `b9e6572`
+
+**Cluster 2 — A4 PII paper-artifact sweep + lesson 17 validation round 1 (`55986e8`):**
+- 1SW Wk3 CS/IT Day 3 Job Applications activity got the 6SW Wk5 Day 3 privacy pattern (sample-identity option + collect-and-shred). The day's submission packet was also rebalanced so the app is verified in-class and shredded, not packet-collected.
+- Three more lesson 17 fixes (4SW Wk2 Career Connection opener, 1SW Wk0 "engine of the course" fluff, 6SW Wk6 day3 ELL bullet).
+
+**Cluster 3 — Day-file lesson 17 sweep (`cb8dc34` + `2be9407`):**
+- 5 more meta-commentary hits fixed in day files: 5SW Wk6 day5 "most important week of the year," 4SW Wk1 day5 "official mid-year update," 1SW Wk3 day3 "Tell students: 'Take this seriously'" scripting-adjacent, 2SW Wk6 day2 "heart of the activity," 3SW Wk1 day2 "heart of d(2)(B)."
+- 6SW Wk6 day5 "whole point of CCE is to give students a head start" cut.
+
+**Cluster 4 — 5SW Wk6 Real Estate instinct review (`c7ad425`):**
+- 14th week instinct-reviewed. 7 concerns lobbed, 4 Fix (1 folded), 3 Defend. Lesson 13 reframe on Day 2 commission income ("Frame both answers as valid"); Day 3 BLS + Texas Real Estate Research Center as fallback for DFW market analysis; Day 5 "top 2-5" softening on career fit ranking. **Shipped with the wrong pathway claim** (Singley Real Estate) — corrected in the follow-up pathway audit.
+
+**Cluster 5 — PATHWAYS.md rewrite + 18-file pathway audit (`1ab00ba` → `17f8758`):**
+- User surfaced that the old PATHWAYS.md had fabricated Singley pathways (Real Estate, Sales Management, Administrative Management, Entrepreneurship — all actually at MacArthur or Nimitz per the canonical Irving ISD website).
+- First rewrite (`1ab00ba`) was incomplete — only had Singley verified via webpage.
+- 13-week fix pass (`28a9afe`) addressed the biggest drifts but introduced a new error (Cosmetology + Automotive marked as multi-campus instead of Ratteree-only) based on a preliminary user paste.
+- User provided the full list of school CTE page URLs + Program Certifications poster.
+- **Definitive rewrite** (`17f8758`) built from WebFetch scrape of all 5 school pages + poster parsing. 18 week files re-audited for pathway drift. **Key corrections:** Real Estate at MacArthur (not Singley); Entrepreneurship + Sales Management + Administrative Management at MacArthur (not Singley+Nimitz); Cardwell vs. Ratteree distinction restored (Cardwell = Business Management + Entrepreneurship + ECE; Ratteree = Cosmetology + Automotive); MacArthur ACE school with 4 sub-pathways + 4 certifications (Architecture/Construction/Civil Engineering/Welding); Singley framed as application-based magnet (4 specialty Schools, no core district-wide set); HVAC/Electrical/Plumbing reframed as "no current Irving ISD home" with post-HS apprenticeship research (5SW Wk4 Day 4 substantially restructured).
+- **New editing-heuristics.md rule 11 + memory Rule 6:** "Never cite an Irving ISD pathway without verifying against the canonical Irving ISD website. PATHWAYS.md is a SECONDARY reference."
+
+**Night session running totals:**
+- Commits: ~25 commits tonight (`40bb868` → `17f8758`)
+- Files touched: ~50 unique docs/ files + PATHWAYS.md + editing-heuristics.md + instinct-review.md + PLANNING.md + memory
+- Lessons added: 14 (fully-optional reframe), 15 (prose discipline), 16 (dead intro paragraphs), 17 (operational vs. self-referential)
+- Memory rules added: 4, 5, 6
+- Weeks instinct-reviewed: 1 new (5SW Wk6)
+- Patterns retired: Teacher Prep Checklist admonition (16 weeks)
+
+**Cross-session patterns confirmed:**
+- **Lesson 13 emotional-safety reframes are systematic, not rare.** 4 of 6 instinct-reviewed weeks across sessions 3+4 needed one; 5SW Wk6 also needed one (Day 2 commission/salary framing). Safe to assume ~1 in 3 weeks still-to-review will need an emotional-safety reframe. Watch: income, family work, immigrant status, body image, mental health, public ranking of student work, criminal justice.
+- **Lesson 17 operational-vs-self-referential is pervasive.** Every overview sweep has found hits. After tonight's Tier 4 + lesson-17 round 1 + day-file sweep, the known patterns return zero hits globally — but new patterns could emerge on the 22 un-reviewed weeks.
+- **Pathway claims need canonical-source verification, not secondary-file shortcuts.** The old PATHWAYS.md drift was a single point of failure that contaminated many weeks silently. Lesson from this: secondary references decay; canonical sources are the only thing you can trust at review time.
 
 ### Session 2026-04-15 Track B session 4 (teacher-meeting-prep afternoon, 3 weeks + 6SW Wk6 reframe)
 
@@ -711,9 +753,9 @@ Four prior sessions landed on `main` before the evening Track B pass. Summarized
 
 Every commit listed above passed the 6-check preservation loop (mkdocs --strict, scripting=0, DOK 2-4, timing 45-55, Support/ELL, Dim 9 fluff=0).
 
-### Weeks still to instinct-review (23 of 36 remaining)
+### Weeks still to instinct-review (22 of 36 remaining)
 
-Reviewed: **1SW Wk0**, **4SW Wk1**, **5SW Wk1**, **6SW Wk6**, **2SW Wk5**, **6SW Wk5**, **4SW Wk2**, **5SW Wk5**, **3SW Wk3**, **2SW Wk4**, **6SW Wk4**, **5SW Wk2**, **2SW Wk1**.
+Reviewed (14): **1SW Wk0**, **4SW Wk1**, **5SW Wk1**, **6SW Wk6**, **2SW Wk5**, **6SW Wk5**, **4SW Wk2**, **5SW Wk5**, **3SW Wk3**, **2SW Wk4**, **6SW Wk4**, **5SW Wk2**, **2SW Wk1**, **5SW Wk6**.
 
 Remaining by six-weeks block:
 
@@ -721,7 +763,7 @@ Remaining by six-weeks block:
 - **2SW:** Wk2 Law Enforcement/EMT, Wk3 Nursing, Wk6 Biomedical
 - **3SW:** Wk1 Vet Science, Wk2 Plant Science, Wk4 Culinary, Wk5 Cosmetology, Wk6 Entrepreneurship
 - **4SW:** Wk3 Aviation, Wk4 Drone Engineering, Wk5 Automotive, Wk6 Trades Capstone
-- **5SW:** Wk3 Construction, Wk4 HVAC/Electrical/Plumbing, Wk6 Real Estate
+- **5SW:** Wk3 Construction, Wk4 HVAC/Electrical/Plumbing
 - **6SW:** Wk1 Education, Wk2 Resume, Wk3 Business/Marketing
 
 **Priority order for the next session:**
@@ -731,15 +773,36 @@ Remaining by six-weeks block:
 - **A4 — PII paper-artifact sweep** (new, surfaced from 6SW Wk5 review). Run `grep -rn "legal name\|date of birth\|DOB\|home address" docs/` to find other weeks where students are asked to write real PII on paper forms. Apply the 6SW Wk5 Day 3 pattern: sample-identity option + collect-and-shred guidance. Est. 3-6 weeks affected.
 - ~~A5 — Teacher Prep Checklist second-pass~~ — ❌ RETIRED. Pattern was net-negative; all 16 admonitions cut in commit `40bb868`. Do not re-add.
 
-**Track B — instinct review (default for the next session; 3-5 weeks max):**
+**Track B — instinct review (default for the next session; 3-5 weeks max). Priority order updated 2026-04-14 night:**
 
-1. **5SW Wk6 Real Estate** — Standalone real-estate week in 5SW; commission-based income is an unusual framing and should be watched under lesson 13 (emotional-safety reframes) for income-disparity risk. Low-medium drift risk but check that the Day 5 cluster wrap-up connects to the 5SW A&C cluster arc. Deferred from session 4 priority list.
-2. **3SW Wk1 Vet Science** — 3SW cluster opener. S&S Topic populated, BLS-grounded, but Notes col 12 is empty. Low-risk calibration week. Deferred from session 4 priority list.
-3. **6SW Wk2 Resume** — Heavy d(4)(A) coverage + likely multiple printed artifacts (resume template, cover letter template). Already had its A1-era Teacher Prep Checklist cut in commit `40bb868`; no re-add needed. Watch for PII risk (legal name / address in resume drafts) — same pattern as 6SW Wk5 Day 3.
-4. **4SW Wk5 Automotive** — 4SW Transportation cluster; S&S populated with Xello + BLS. Low-medium drift risk; a non-buffer week in an otherwise buffer-heavy 4SW block — good calibration opportunity.
-5. **5SW Wk3 Construction** — 5SW A&C cluster continuation; sister-week to 5SW Wk1 Architecture + 5SW Wk2 Civil Engineering (both reviewed). Low-medium drift risk.
+**Tier 1 — Highest priority (lesson 13 / recent-edit / tech-dependency risk):**
 
-**Cumulative Track B progress:** 13 of 36 weeks reviewed, 23 remaining. Average edit size per instinct-reviewed week across sessions 3+4: ~4.7 files touched, ~8-10 lines changed. At this pace, full Track B completion is ~8 more sessions of 3 weeks each.
+1. **2SW Wk2 Law Enforcement/EMT** — **Lesson 13 watchlist.** Police/criminal-justice content; some Irving ISD students may have family affected by law enforcement. Same failure mode the 2SW Wk1 AI-ethics-debate fix closed (system-level framing not personal-level) likely applies here. Cross-cluster (Law and Public Service + Health Science EMT). Singley anchor for both.
+2. **3SW Wk5 Cosmetology** — **Lesson 13 watchlist** (body image, beauty standards). TDLR licensing + post-HS route comparison. Ratteree anchor. Day 3 route table just re-touched for Ratteree naming tonight but not instinct-reviewed.
+3. **5SW Wk4 HVAC/Electrical/Plumbing** — **Day 4 substantially restructured tonight** (Cardwell/Ratteree 2027 preview → post-HS apprenticeship research). The rewrite was pathway-accuracy-driven and needs a fresh instinct pass to verify the new activity flow holds a classroom.
+4. **4SW Wk5 Automotive** — **Day 4 retitled and rewritten tonight** (Cardwell/Ratteree → Ratteree only). Needs fresh instinct pass.
+5. **3SW Wk6 Entrepreneurship** — MacArthur + Cardwell pathway homes. Business pitch content. 2SW Wk5 Powerskills + 6SW Wk4 Sales both had pitch activities — check for activity overlap and differentiation.
+
+**Tier 2 — Secondary (typical content weeks, calibration candidates):**
+
+6. **2SW Wk3 Nursing** — Singley School of Health Science anchor.
+7. **2SW Wk6 Biomedical** — Irving High School of Biomedical Science (lab + math heavy).
+8. **3SW Wk1 Vet Science** — Nimitz School of Agriculture Science opener.
+9. **3SW Wk2 Plant Science** — Nimitz Agriculture sister week; lesson 13 risk around ag labor + food deserts.
+10. **3SW Wk4 Culinary** — Singley School of Culinary Arts and Hospitality anchor.
+11. **4SW Wk3 Aviation** — Irving High School of Aviation Science (pathway anchor was just corrected tonight from "coming 2027" to current-offering).
+12. **4SW Wk4 Drone Engineering** — Irving High, FAA Part 107, technology dependency.
+13. **4SW Wk6 Trades Capstone** — Cross-cluster. Buffer-week flex framing needs verification.
+14. **5SW Wk3 Construction** — MacArthur ACE school anchor (sister to reviewed 5SW Wk1 Architecture + 5SW Wk2 Civil Engineering).
+15. **6SW Wk1 Education** — Multi-campus Education and Training + Cardwell ECE.
+16. **6SW Wk2 Resume** — Multi-campus Arts/AV + Business/Marketing. **PII risk** (student resume content) — apply the 1SW Wk3 / 6SW Wk5 Day 3 privacy pattern if not already present.
+17. **6SW Wk3 Business/Marketing** — Multi-campus.
+
+**Tier 3 — Low priority (1SW IT block, likely stable):**
+
+18-22. **1SW Wk1 Robotics / Wk2 Programming / Wk3 CS/IT / Wk4 Tech Support / Wk5 Cybersecurity** — Singley Innovative Technology block. Generally low drift risk. **1SW Wk3 Day 3 had PII fixes applied tonight in commit `55986e8`** that have not been instinct-reviewed — pull it forward if the session has slack.
+
+**Cumulative Track B progress:** 14 of 36 reviewed, 22 remaining. Average edit size per week: ~4-5 files, ~8-12 lines. At ~3 weeks/session, ~7-8 sessions remain.
 
 **Track B is the default now.** If a week in the queue above turns out to already be clean under instinct review, rotate in the next week on the remaining list and keep going until budget runs out.
 
@@ -759,7 +822,10 @@ These came out of the morning instinct-review pass and need a teacher/curriculum
 - **3SW Wk6 Entrepreneurship tech-tool drift** (found during Track A1, `fc1c4dd`) — S&S col 7 lists "Glowforge: Cut logo for clothing company" but the week is a paper investor pitch + MVP design + personal budget. Same decision: reinstate Glowforge or update S&S col 7.
 - **Buffer-week intent vs. implementation (raised 2026-04-14 evening, substantially advanced in session 4)** — The original S&S left **4SW Wk1** and **4SW Wk2** light (Xello completions + eDynamic only, no new cluster) as a STAAR/testing-season buffer, and **6SW Wk6** was left entirely blank as an end-of-year-events buffer. Morning and evening sessions implemented substantive content in all three. Evening session added `!!! note "Buffer week"` flex admonitions. **Session 4 (2026-04-15) went further on 6SW Wk6 at user direction:** audited that every TEKS 6SW Wk6 claims has upstream coverage elsewhere and rewrote the admonition in `!!! abstract` Wk0-flexibility-plan style — explicit "nothing in this week is critical to year-end TEKS coverage," verb menu, "zero days is fine." Commit `01627b1`. **Still needs a human decision at the teacher meeting:** whether 4SW Wk1 and 4SW Wk2 should get the same fully-optional reframe (their current admonitions still frame them as buffers with load-bearing pieces), and the broader d(8) structural risk below.
 - **d(8)(A)/(B)/(C) structural buffer-week risk (new, session 4 2026-04-15)** — Every week claiming d(8)(A), d(8)(B), or d(8)(C) is a buffer week: 4SW Wk1 (STAAR buffer, claims d(8)(A) + d(8)(B)), 4SW Wk2 (STAAR buffer, claims d(8)(B) + d(8)(C)), 6SW Wk6 (end-of-year buffer, now fully optional). If a teacher loses BOTH the STAAR-season buffer and the end-of-year buffer, d(8) is not covered anywhere in the course. The rule "content cannot move between weeks" (S&S fidelity, user direction 2026-04-15) blocks the obvious structural fix of moving d(8)(C) to a non-buffer week. **Options for the teacher meeting:** (a) accept the structural risk and communicate to teachers that 4SW buffers should be preserved for d(8) even during STAAR crunch; (b) redesign 4SW Wk1 and/or 4SW Wk2 to keep d(8) content more compact so it fits within a shortened STAAR-season schedule (a redesign is allowed under the S&S-fidelity rule as long as H&L grounding is preserved); (c) accept that d(8) may be uncovered for some students and adjust the course-completion framing accordingly.
-- **Curriculum-density pattern (raised by user 2026-04-15)** — Several instinct-reviewed weeks feel rushed because all H&L pathways + all Xello completion requirements + all eDynamic supplements + all TEKS codes the S&S assigns were implemented at full fidelity. The density concentrates in writer-reach weeks (2SW Wk5 Powerskills slot week, 5SW Wk2 Civil Engineering d(3)(E) PSAT stitch, 5SW Wk5 Personal Budget with 3 unbuilt printables + FAFSA walkthrough, 2SW Wk4 Dental/Medical Billing with 45-min Day 4 prep). Track B instinct reviews have been trimming these symptomatically — emotional-safety reframes, realism-of-timing fixes, Teacher Prep Checklist admonitions — but the root-cause decision ("what should we CUT from the H&L default curriculum to make room?") is not Claude's call. Teacher meeting 2026-04-15 should decide: are there H&L pathways, Xello quizzes, or TEKS-stitching blocks that can be dropped or made optional without failing the scope-and-sequence spec?
+- **Curriculum-density pattern (raised by user 2026-04-15)** — Several instinct-reviewed weeks feel rushed because all H&L pathways + all Xello completion requirements + all eDynamic supplements + all TEKS codes the S&S assigns were implemented at full fidelity. The density concentrates in writer-reach weeks (2SW Wk5 Powerskills slot week, 5SW Wk2 Civil Engineering d(3)(E) PSAT stitch, 5SW Wk5 Personal Budget with 3 unbuilt printables + FAFSA walkthrough, 2SW Wk4 Dental/Medical Billing with 45-min Day 4 prep). Track B instinct reviews have been trimming these symptomatically — emotional-safety reframes, realism-of-timing fixes, Teacher Prep Checklist admonitions — but the root-cause decision ("what should we CUT from the H&L default curriculum to make room?") is not Claude's call. Teacher meeting should decide: are there H&L pathways, Xello quizzes, or TEKS-stitching blocks that can be dropped or made optional without failing the scope-and-sequence spec?
+- **HVAC / Electrical / Plumbing "Coming 2027" campus placement (new, 2026-04-14 night)** — The Program Certifications poster shows some pathways as "Coming 2027" at the district-wide level, and HVAC/Electrical/Plumbing appear in that group. Specific campus placement (Cardwell? Ratteree? District-wide across all home high schools?) and exact launch timing are unverified against the Irving ISD website. 5SW Wk4 Day 4 was restructured tonight from a "Cardwell/Ratteree 2027 preview" activity to a generic post-HS apprenticeship + trade school research activity (commit `17f8758`), with a `[VERIFY]` admonition noting the 2027 placement. Teacher meeting can resolve with the Irving ISD CTE coordinator and update the week if HVAC/Electrical/Plumbing get a confirmed campus home.
+- **2SW Wk4 Medical Billing home school (new, 2026-04-14 night)** — The 2SW Wk4 fix in commit `17f8758` reframed Medical Billing as "not a current Irving ISD pathway at any campus" because the Singley Academy webpage (School of Health Sciences) does not list it — only Nursing Science, Physical Therapy, Dental, and Emergency Medical - EMT. The Program Certifications poster also does not show Medical Billing under Singley. **However**, the scope-and-sequence week is titled "Dental / Medical Billing" and the user's earlier preliminary paste included Medical Billing at Singley, which might indicate Singley does offer it but the webpage is out of date. Teacher meeting: verify with the Singley Health Sciences coordinator whether Medical Billing is an actual current offering. If yes, restore it in 2SW Wk4 overview + Day 1 Activity 2.
+- **PATHWAYS.md is now a SECONDARY reference, not canonical (new, 2026-04-14 night)** — The old PATHWAYS.md had fabricated pathway-to-school assignments that silently contaminated week overviews for weeks. Rewritten from the Irving ISD website and Program Certifications poster in commit `17f8758`. **Rule going forward:** pathway claims in week overviews MUST be verified against the canonical Irving ISD CTE pages before shipping. PATHWAYS.md is a summary-of-record, not the source of truth. Codified as editing-heuristics rule 11 + memory Rule 6.
 
 ### Non-instinct-review work still queued
 
