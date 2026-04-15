@@ -632,9 +632,362 @@ This ordering is a working assumption. Teacher feedback tomorrow will change it.
 
 ## 10. Session Log & Next-Agent Handoff
 
-### Current state (updated 2026-04-15 morning, pre-teacher-meeting)
+### Current state (updated 2026-04-15 morning, post-Wk0-compression + mike deploy + handoff to em dash sweep)
 
-`main` HEAD: pending 1SW Wk0 compression commit on top of `257808a`. Live site: https://elbrielle.github.io/cce-curriculum/. **Fourteen** weeks instinct-reviewed; Track B paused this session for a user-mandated structural compression of **1SW Wk0** ahead of the 2026-04-15 teacher meeting.
+`main` HEAD: `f3cf47e` (Switch deploy pipeline to mike for versioned docs). `gh-pages` HEAD: `2287a17`. **Live site is now versioned via mike:** `/` → `/latest/`, with `/teacher-meeting-2026-04-15/` preserved as the first milestone snapshot. **Fourteen** weeks instinct-reviewed; Track B still paused for the next session, which is a **user-mandated em dash + AI cliché sweep across all docs/** ahead of resuming Track B. Scope: 2,283 em dashes across 212 of 216 files. See the "Handoff: em dash + AI cliché sweep" section below.
+
+### Session 2026-04-15 morning (infrastructure: mike versioned docs + handoff prep)
+
+Commits `32c21e6` (Wk0 compression, covered in its own section below) and `f3cf47e` (mike switchover) on main. gh-pages branch created from scratch and populated with `latest` + `teacher-meeting-2026-04-15` versions via mike 2.2.0.
+
+**mike infrastructure** (commit `f3cf47e`):
+
+- Added `site_url: https://elbrielle.github.io/cce-curriculum/` to mkdocs.yml (required for mike inter-version linking)
+- Added `extra.version.provider: mike` + `default: latest` to mkdocs.yml (enables Material theme version dropdown in the header, populated at runtime from `versions.json`)
+- Fixed stale Wk0 day4/day5 nav labels in mkdocs.yml that were left over from the morning compression (sidebar labels still said "Xello Quizzes + 14 Clusters" and "Career Journey Reflection + Design Thinking")
+- Rewrote `.github/workflows/deploy-site.yml` to replace the `actions/upload-pages-artifact@v3` + `actions/deploy-pages@v4` pipeline with `mike deploy --push latest`. Added `workflow_dispatch` with a `milestone_name` input for manual milestone tagging.
+- Switched GitHub Pages repo settings from `build_type: workflow` to `build_type: legacy` with `source.branch: gh-pages` via `gh api --method PUT /repos/elbrielle/cce-curriculum/pages`.
+- First local mike deploy created gh-pages branch with `latest` version. `mike set-default latest` set the root redirect. `mike deploy teacher-meeting-2026-04-15` tagged the first milestone.
+- Pushed gh-pages. Triggered initial Pages build. Verified live: `/` redirects to `/latest/` via meta refresh; `/latest/` + `/teacher-meeting-2026-04-15/` both serve 200; versions.json at root lists both.
+
+**URL structure** after mike switchover:
+- `https://elbrielle.github.io/cce-curriculum/` → meta-refresh to `/latest/`
+- `https://elbrielle.github.io/cce-curriculum/latest/*` — current main HEAD, auto-updated on push
+- `https://elbrielle.github.io/cce-curriculum/teacher-meeting-2026-04-15/*` — preserved snapshot at commit `32c21e6` (Wk0 compression just landed)
+- **Old deep-link URLs (without `/latest/` prefix) now 404.** Confirmed by user via an old bookmark hit on `/1sw/wk1-robotics-manufacturing/day1/`. Root-level 404.html redirect is NOT currently installed. If this becomes a blocker (teachers losing bookmarks), add a `404.html` to the gh-pages branch root that JS-redirects any non-version path to `/latest/<path>`. Deferred for now; the user was satisfied that the site works under the new pattern.
+
+**How to tag future milestones:**
+- **Via GitHub Actions UI:** Actions tab → "Deploy MkDocs to GitHub Pages (via mike)" → Run workflow → enter `milestone_name` (e.g., `post-teacher-feedback-2026-04-15`, `mid-year-snapshot-2026-01-15`) → Run. Creates a new named version AND updates `latest`.
+- **Locally:** `export PATH="/Users/elishalucero/Library/Python/3.9/bin:$PATH" && mike deploy --push <milestone-name>` from the main checkout.
+
+**Naming advice for milestones:** descriptive and dated, not versioned numerically. Good: `teacher-meeting-2026-04-15`, `pre-clinical-pass-2026-03-20`, `end-of-year-snapshot-2026`. Bad: `v1`, `v2`, `old`, `current`, raw SHAs.
+
+---
+
+### Handoff: em dash + AI cliché sweep (next session's primary task)
+
+**Mandate from user (2026-04-15 morning, after reviewing the live site post-Wk0-compression):** sweep em dashes and AI clichés out of teacher-facing prose in `docs/`. User called out several em dashes in Wk0 Day 3 specifically (not touched during the compression because Day 3 got surgical edits, not a rewrite):
+
+- "Today we figure out what really matters to you in a job — not just what type of person you are."
+- "Work Values are the things that matter most to you in a job — they help you decide what kind of work environment, tasks, and rewards will make you happy and successful."
+- "Independence means you handle EVERYTHING — taxes, your own health insurance, no paychecks if you have a bad month."
+- "and skills you already have — both in school and outside of school."
+
+User's framing (verbatim): "this is being overused when other varied syntaxes and punctuation can be used instead. I am not saying to gut ALL of the em dashes, but to use them sparingly when absolutely necessary."
+
+**Scope (grep scan 2026-04-15):**
+- **2,283 em dashes** across **212 of 216** `docs/` markdown files. Only 4 files are currently clean.
+- **~130 AI cliché hits** across common patterns (68 `hone`, 22 `journey`, 22 `vital`, 15 `essential`, 8 `meaningful`, 8 `engaging`, 4 `authentic`, 4 `navigate the`, plus singletons of `in today's`, `dive into`, `cutting-edge`, `at the end of the day`, `innovative`, `impactful`, `instrumental`, `real world`).
+
+**Top em dash offenders (for commit-by-commit prioritization):**
+
+| Count | File |
+|---|---|
+| 24 | `docs/1sw/wk1-robotics-manufacturing/day4.md` |
+| 22 | `docs/6sw/wk6-capstone/day1.md` |
+| 22 | `docs/6sw/wk5-job-skills-mock-interview/day4.md` |
+| 22 | `docs/1sw/wk2-programming-it/overview.md` |
+| 21 | `docs/6sw/wk2-graphic-design-resume/day4.md` |
+| 21 | `docs/4sw/wk4-drone-engineering/day3.md` |
+| 20 | `docs/5sw/wk6-real-estate/day1.md` |
+| 20 | `docs/4sw/wk1-career-planning/overview.md` |
+| 19 | `docs/6sw/wk5-job-skills-mock-interview/day1.md` |
+| 19 | `docs/4sw/wk5-automotive/day1.md` |
+| 19 | `docs/2sw/wk2-law-enforcement-emt/day3.md` |
+
+**Memory feedback_prose_style.md Rule 1 is the governing rule for this sweep.** Next agent must read it before starting. The sweep retroactively applies Rule 1 to pre-existing content.
+
+#### Handoff prompt text (paste into a fresh agent session)
+
+```
+I'm continuing work on the CCE curriculum (Irving ISD VILS 7th-grade
+CCE). `main` HEAD is f3cf47e (mike deploy switchover, pushed). Live
+site is versioned via mike — `/latest/` is current main,
+`/teacher-meeting-2026-04-15/` is a preserved milestone. The teacher
+meeting happened on 2026-04-15 and this session is a cleanup pass
+before Track B resumes.
+
+## Primary task: em dash sweep across all docs/
+
+The previous session's user review flagged em dashes as overused. The
+rule (from memory feedback_prose_style.md Rule 1): no em dashes in
+teacher-facing docs/ body prose unless structurally load-bearing.
+Sparingly, not absolutely. The user explicitly said "I am not saying
+to gut ALL of the em dashes, but to use them sparingly when absolutely
+necessary."
+
+Scope: 2,283 em dash instances across 212 of 216 docs/ markdown files.
+Only 4 files are currently em-dash-clean. Wk0 Day 3 specifically has
+user-called-out em dashes (the Wk0 compression did surgical edits
+there, not a rewrite, so pre-existing em dashes remained).
+
+## Secondary task: AI cliché sweep (same files)
+
+~130 hits across common patterns. Targeted terms:
+- `hone` (68 hits) — context-dependent. Legit as an activity verb for
+  skill practice ("students hone their presentation skills through
+  Day 2 drills"); filler when decorative ("vital skill to hone"). Read
+  the surrounding clause before deciding.
+- `journey` (22 hits) — mostly legit because "My Career Journey" is
+  the Week 0 reflection artifact name referenced at 4SW Wk1 + 6SW Wk6.
+  Only flag hits that are NOT the artifact reference.
+- `vital` (22), `essential` (15), `meaningful` (8), `engaging` (8) —
+  usually filler. "vital skill" → "skill" or "required skill." "meaningful
+  learning experience" → cut the adjective or rewrite concretely.
+- Singletons: `in today's`, `dive into`, `cutting-edge`, `at the end
+  of the day`, `innovative`, `impactful`, `instrumental`, `authentic`
+  (4), `real world`, `navigate the` (4). Each needs judgment; most
+  will be cut.
+
+Do NOT invent replacement content. If cutting a cliché leaves an
+awkward sentence, rewrite the sentence. If rewriting would change the
+factual claim, leave the word in.
+
+## Required reading (in parallel, before editing)
+
+1. CLAUDE.md
+2. PLANNING.md §10 "Handoff: em dash + AI cliché sweep" section (that's
+   the session log block that handed off this work to you), plus §4
+   Dimensions 1-9 and §8 (instinct-review protocol — you are NOT doing
+   instinct review this session but you should know the non-negotiables)
+3. cce-curriculum/notes/editing-heuristics.md (decision table, grep
+   recipes, especially rules 9 and 10 on declarative fluff and
+   redundancy audit)
+4. Memory: feedback_prose_style.md (Rules 1-6; Rule 1 is the governing
+   rule for this sweep)
+5. Skim Wk0 Day 3 (docs/1sw/wk0-classroom-routines/day3.md) — the user
+   specifically called out em dashes there
+
+## Ground rules
+
+### In scope
+- All docs/*.md files (overviews and day files for all 36 weeks)
+- Resource files under docs/resources/
+
+### Out of scope (em dashes are fine in these; do NOT touch)
+- PLANNING.md (developer-facing)
+- CLAUDE.md
+- cce-curriculum/notes/* (developer-facing)
+- cce-curriculum/guides/* (legacy, not wired to site)
+- mkdocs.yml (stable; just changed in the mike switchover)
+- .github/workflows/* (stable)
+- README.md, GUIDE-FORMAT.md, PLATFORMS.md, PATHWAYS.md (developer-
+  or reference-facing)
+
+### Replacement rubric for em dashes
+
+Read each em dash in context before deciding. Options in order of
+preference:
+
+1. Period + new sentence (best when the dash separates two complete
+   thoughts). Example: "Work Values are the things that matter most
+   to you in a job — they help you decide what kind of work
+   environment..." becomes "Work Values are the things that matter
+   most to you in a job. They help you decide what kind of work
+   environment..."
+
+2. Comma (for mid-sentence asides of 1-4 words). Example: "Today we
+   figure out what really matters to you in a job — not just what
+   type of person you are." becomes "Today we figure out what really
+   matters to you in a job, not just what type of person you are."
+
+3. Parentheses (for short clarifying asides). Example: "Independence
+   means you handle EVERYTHING — taxes, your own health insurance,
+   no paychecks if you have a bad month." becomes "Independence means
+   you handle EVERYTHING (taxes, your own health insurance, no
+   paychecks if you have a bad month)."
+
+4. Semicolon (when both halves are independent clauses of equal
+   weight; rare, use judgment).
+
+5. Restructured sentence (when none of the above reads well).
+
+6. KEEP the em dash — only when:
+   - It's inside a quoted BLS/government/attribution block
+   - It's part of a pre-existing Markdown title that has been stable
+     (e.g., `# Week 0: Who Am I? — Classroom Routines & Career
+     Self-Discovery` — titles can stay since they render as structural
+     chrome, not prose)
+   - Removing it would genuinely lose meaning (rare)
+
+### When in doubt: replace, don't keep.
+
+### Cliché replacement rubric
+
+For each flagged cliché, read the sentence and decide:
+
+1. Does this word add SPECIFIC information? If yes, keep.
+2. Is this word FILLER that could be deleted or replaced with something
+   concrete? If so, cut or replace.
+3. If replacing creates an awkward sentence, rewrite the whole sentence.
+
+Examples:
+- "vital skill" → "skill" (usually) or "core skill" (rarely)
+- "meaningful learning experience" → "learning experience" or rewrite
+- "engaging activity" → delete the adjective or rewrite concretely
+- "hone their skills" → "practice their skills" (when decorative);
+  keep "hone" when it's an actual scripted activity verb
+- "the journey of career exploration" → "career exploration" (cut)
+- "My Career Journey reflection" (the W0 artifact name) → KEEP
+
+### NEVER
+
+- Never invent content to replace cut clichés
+- Never change factual claims (TEKS codes, H&L workbook citations,
+  school names, BLS data, pathway names, Irving ISD campus claims)
+- Never add new content
+- Never touch Wk0 Days 1, 2, 4, 5 — the compression just landed at
+  commit 32c21e6 and the content is new/clean. **Wk0 Day 3 IS in
+  scope** because it carried over pre-existing em dashes from the
+  earlier version; that's one of the specific files the user called
+  out.
+- Never use --no-verify or --force on git commands
+- Never push without explicit user permission
+
+## Grep recipes
+
+```bash
+# Count em dashes per file, sorted by most offenders
+grep -c "—" docs/*/*/*.md 2>/dev/null | grep -v ":0$" | sort -t: -k2 -n -r
+
+# Find em dashes in a specific file (with line numbers)
+grep -n "—" docs/1sw/wk0-classroom-routines/day3.md
+
+# Count AI cliché hits across docs/
+for term in "vital" "crucial" "essential" "meaningful" "engaging" "hone" "journey"; do
+  c=$(grep -rc "$term" docs/ 2>/dev/null | awk -F: 'BEGIN{s=0} {s+=$2} END{print s}')
+  echo "$c $term"
+done
+
+# Find instances of a cliché in context
+grep -rn "vital" docs/ | head -20
+
+# Verify diff has no NEW em dashes (run after each commit)
+git diff HEAD~1 HEAD | grep -n "^+" | grep -- "—"
+```
+
+## Commit granularity
+
+**One commit per six-weeks block (6 commits total).** This keeps diffs
+reviewable and lets the user spot-check each block independently. Order:
+
+1. 1SW (IT + Manufacturing)
+2. 2SW (Law + Health Science)
+3. 3SW (Ag + Hospitality + Human Services + Business)
+4. 4SW (Career Planning + Transportation + Engineering)
+5. 5SW (Architecture + Construction)
+6. 6SW (Education + Arts + Business + Capstone)
+
+**Within each commit:** go file by file, not grep-and-bulk-replace.
+Em dash replacement is context-sensitive; bulk replace will break
+nuance. Use the Read tool to read each file, identify em dashes with
+the grep recipe, and apply Edit (not replace_all) per occurrence or
+per small block.
+
+**Commit message format:**
+
+```
+<N>SW: em dash + AI cliché sweep
+
+Em dashes: <before>X → <after>Y (removed Z, kept W load-bearing)
+AI clichés: <count> hits resolved (<term1>: N, <term2>: N, ...)
+Files touched: <count>
+
+Sample transformations:
+- "old sentence with em dash" → "new sentence with comma"
+- "vital skill to hone" → "skill"
+
+Co-Authored-By: Claude <model> <noreply@anthropic.com>
+```
+
+## Preservation loop
+
+After EACH commit, run the full 6-check:
+
+```bash
+cd "/Users/elishalucero/Coding Projects/27 CCR Planning"
+python3 -m mkdocs build --strict
+grep -rn "> \*\*Teacher:" docs/
+for f in docs/*/*/day*.md; do grep -q "DOK [2-4]" "$f" || echo "MISS DOK $f"; done
+for f in docs/*/*/day*.md; do
+  s=$(grep -E "^## .* \([0-9]+ min\)" "$f" | grep -oE "[0-9]+ min" | awk '{s+=$1} END {print s}')
+  if [ -n "$s" ] && { [ "$s" -lt 45 ] || [ "$s" -gt 55 ]; }; then echo "OUTLIER $s $f"; fi
+done
+grep -L "\*\*Support:\*\*" docs/*/*/day*.md
+grep -L "\*\*ELL:\*\*"     docs/*/*/day*.md
+grep -rn "This is real\|This builds real\|This is what real\|Real conferences\|Real interviews" docs/
+```
+
+All six must be clean. If any check fails, fix the root cause before
+committing (never use --no-verify).
+
+Also run a targeted em dash check on the diff:
+
+```bash
+git diff HEAD~1 HEAD -- docs/ | grep -n "^+" | grep -- "—"
+```
+
+Any surviving em dashes on added lines are either a miss (go back and
+fix) or a deliberate keep (note in the commit message).
+
+## Do NOT
+
+- Do NOT resume Track B instinct review in this session. Track B is
+  queued for AFTER this sweep completes.
+- Do NOT touch mkdocs.yml, .github/workflows/*, or mike infrastructure.
+- Do NOT change factual content (TEKS, H&L citations, BLS data,
+  pathway claims, school names).
+- Do NOT reshape activities, timings, or deliverables.
+- Do NOT add em dashes back in any prose you write.
+- Do NOT touch Wk0 Days 1, 2, 4, 5 (just landed, clean).
+
+## Session-end deliverables
+
+1. Up to 6 commits on main, one per six-weeks block (ask for push
+   permission before pushing, unless user says "AFK do me proud")
+2. Updated PLANNING §10 with a new session log block documenting:
+   - Total em dashes removed vs. preserved (with reasoning for
+     preserved)
+   - Total cliché hits resolved
+   - Files touched per commit
+   - Any surprise findings (non-em-dash prose issues you spotted and
+     fixed, or spotted and escalated)
+3. Brief summary for the user noting totals + any files that needed
+   full restructuring vs. simple swap
+4. Run `mike deploy --push latest` is NOT needed — the GitHub Actions
+   workflow will do it automatically on each push to main
+
+## After this sweep
+
+Track B instinct review resumes. Tier 1 queue from the 2026-04-14 night
+handoff (see PLANNING §10):
+
+1. 2SW Wk2 Law Enforcement/EMT (lesson 13 watchlist — criminal justice)
+2. 3SW Wk5 Cosmetology (lesson 13 watchlist — body image)
+3. 5SW Wk4 HVAC/Electrical/Plumbing (recent Day 4 restructure)
+4. 4SW Wk5 Automotive (recent Day 4 rewrite)
+5. 3SW Wk6 Entrepreneurship
+
+## Tagging a milestone after this sweep
+
+If this cleanup is a visible improvement (which it should be — 2,283
+em dashes is not a subtle change), consider tagging a milestone via
+the GitHub Actions UI:
+
+1. Actions tab → "Deploy MkDocs to GitHub Pages (via mike)"
+2. Run workflow → milestone_name: "post-em-dash-sweep-2026-04-15"
+   (or similar descriptive name)
+
+This preserves the pre-sweep state as `teacher-meeting-2026-04-15` and
+the post-sweep state as a new milestone, so you can visually compare
+"before" and "after" via the version dropdown.
+
+Propose your plan and wait for user approval before starting.
+```
+
+### Session 2026-04-15 morning (1SW Wk0 structural compression — teacher mandate)
+
+### Session 2026-04-15 morning (1SW Wk0 structural compression — teacher mandate)
 
 ### Session 2026-04-15 morning (1SW Wk0 structural compression — teacher mandate)
 
