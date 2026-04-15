@@ -3,10 +3,13 @@ name: Deploy MkDocs to GitHub Pages (via mike)
 on:
   push:
     branches: [main]
+  schedule:
+    # Runs at midnight UTC on the 1st of each month
+    - cron: '0 0 1 * *'
   workflow_dispatch:
     inputs:
       milestone_name:
-        description: 'Tag this commit as a named milestone version (leave blank to only update `latest`)'
+        description: 'Tag this commit as a named milestone version (e.g. teacher-meeting-2026-05-01)'
         required: false
         default: ''
 
@@ -34,7 +37,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
       - name: Deploy `latest` via mike
-        run: mike deploy --push latest
+        run: mike deploy --push --update-aliases latest
+      - name: Tag monthly snapshot (if scheduled run)
+        if: github.event_name == 'schedule'
+        run: |
+          LABEL=$(date -u +%Y-%m)
+          mike deploy --push "$LABEL"
       - name: Tag milestone (if workflow_dispatch with milestone_name)
         if: github.event_name == 'workflow_dispatch' && github.event.inputs.milestone_name != ''
         run: mike deploy --push "${{ github.event.inputs.milestone_name }}"
