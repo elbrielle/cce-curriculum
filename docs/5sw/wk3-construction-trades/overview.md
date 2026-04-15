@@ -34,7 +34,7 @@ The construction industry has a massive labor shortage. Demand for skilled const
 
 The **apprenticeship model** is the traditional entry point for most construction careers. Apprentices learn on the job — getting paid while they train — and progress through journeyman and master levels. This is very different from the 4-year college pathway: apprentices typically finish their training debt-free and earning a full paycheck.
 
-**Irving ISD Pathway:** Construction Technology (MacArthur) leads to NCCER CORE certification. Welding (MacArthur) leads to Structural Steel & Metal Welding certification.
+**Irving ISD Pathway:** **Construction** at **MacArthur High School** (School of Architecture, Construction and Civil Engineering — ACE) leads to the National Center for Construction Education & Research (NCCER) Core certification. **Welding**, also within the ACE school at MacArthur, leads to the Structural Steel & Metal Welding Certification.
 
 ## Vocabulary
 

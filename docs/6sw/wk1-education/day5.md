@@ -35,9 +35,9 @@ Distribute the Irving ISD CTE Pathways handout. Walk students through the two sp
 - Strong launchpad for university Education programs OR direct employment in Irving ISD as a paraprofessional after high school
 - Includes student observation hours in real Irving ISD elementary classrooms
 
-**Pathway 2: Early Childhood Education (Cardwell / Ratteree)**
+**Pathway 2: Early Childhood Education (Cardwell Career Preparatory Center)**
 
-- Available at Cardwell Career Center and Ratteree
+- Available at Cardwell Career Preparatory Center as a travel-to career-center pathway
 - Focuses on Pre-K through age 5
 - Earns the **Child Development Associate (CDA)** credential
 - CDA holders can work as lead teachers in licensed daycare centers and preschools
@@ -86,7 +86,7 @@ Students should now have favorites spanning every cluster explored this year (Ma
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name the Education career you find most interesting AND the Irving ISD pathway that connects to it. Explain in one sentence whether the Teaching & Training (District Wide) or Early Childhood Education (Cardwell/Ratteree) pathway appeals to you more — or whether neither fits. *(d(1)(C), d(2)(A))*
+**EXIT TICKET:** Name the Education career you find most interesting AND the Irving ISD pathway that connects to it. Explain in one sentence whether the Education pathway at Irving High, MacArthur, or Nimitz appeals to you more, or whether the Early Childhood Education pathway at Cardwell fits better — or whether neither fits. *(d(1)(C), d(2)(A))*
 
 ---
 

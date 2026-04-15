@@ -60,16 +60,16 @@ This is the summative deliverable for the week. Students submit both their Week 
 
 Set up the room before class with printed cluster posters around the walls. Each poster lists the Irving ISD pathways within that cluster:
 
-- **Architecture & Construction:** Architecture, Construction Tech, Civil Engineering, Welding (MacArthur)
-- **Health Science:** Nursing, Medical Billing, Dental, Biomedical Science (Singley + Irving High)
-- **STEM / Engineering:** Drone Engineering, Robotics Manufacturing, Sustainable Engineering (Irving High, Singley, Nimitz)
-- **Transportation:** Automotive, Diesel & Heavy Equipment, Collision Repair (Cardwell/Ratteree)
-- **Information Technology:** Computer Science, Cybersecurity, Tech Support, Programming (District Wide + Singley)
-- **Business / Marketing / Finance:** Business & Marketing, Sales Mgmt, Entrepreneurship, Real Estate, Administrative Mgmt (District Wide + Singley + Nimitz)
-- **Arts / Comm / Education:** Digital Communications, Graphic Design, Teaching & Training, Culinary Arts, Lodging (District Wide)
-- **Public Service / Law:** Law Enforcement (Singley)
-- **Agriculture / Animal Science:** Veterinary Science, Plant Science (Nimitz)
-- **Personal Care:** Cosmetology, Early Childhood Education (Cardwell/Ratteree)
+- **Architecture & Construction:** Architecture, Construction, Civil Engineering, Welding — MacArthur (School of ACE)
+- **Health Science:** Nursing Science, Physical Therapy, Dental, Emergency Medical-EMT — Singley (School of Health Science). Biomedical Science — Irving High (School of Biomedical Science).
+- **Aviation / Drone:** Aviation Maintenance, Drone Engineering — Irving High (School of Aviation Science). Robotic Manufacturing — Singley (School of Innovative Technology). Sustainable Engineering — Nimitz (School of Sustainable Engineering).
+- **Automotive:** Automotive — Ratteree Career Development Center
+- **Information Technology:** Computer Science (Irving High, MacArthur, Nimitz). Cybersecurity / Programming / Tech Support — Singley (School of Innovative Technology)
+- **Business / Marketing / Finance:** Business, Retail Management and Entrepreneurship with Real Estate Marketing, Administrative Management, Sales Management, Entrepreneurship — MacArthur. Business Management and Marketing — Irving High + Nimitz. Business Management and Entrepreneurship — Cardwell.
+- **Arts / Comm / Education:** Arts/AV (Graphic Design, Digital Communication), Education, Culinary Arts/Hospitality — Irving High, MacArthur, Nimitz.
+- **Public Service / Law:** Legal Studies, Law Enforcement — Singley (School of Law and Public Service)
+- **Agriculture / Animal Science:** Plant Science, Veterinary Science — Nimitz (School of Agriculture Science)
+- **Personal Care:** Cosmetology — Ratteree. Early Childhood Education — Cardwell.
 
 Each student gets **3 colored sticker dots**. They walk around the room and place dots on their top 3 pathways across all posters. They can put all 3 dots on one pathway if they are very sure, or spread them across 3 different pathways.
 

@@ -4,7 +4,7 @@
 
 ## Lesson Objective
 
-Students explore the Hospitality & Tourism cluster through Hats & Ladders, complete the H&L "Culinary Twist" creative dish design (Ch 10, pp. 159-161), the "Hotel Rescue" team problem-solving activity (Ch 10, pp. 163-165), and the "Pack Your Bags" tourism campaign Career Lab (Ch 10, pp. 168-173), explore the Powerskill Motivation lesson, complete the Xello Decision Making lesson, and connect to the Culinary Arts pathway at Cardwell/Ratteree (ServSafe Manager certification).
+Students explore the Hospitality & Tourism cluster through Hats & Ladders, complete the H&L "Culinary Twist" creative dish design (Ch 10, pp. 159-161), the "Hotel Rescue" team problem-solving activity (Ch 10, pp. 163-165), and the "Pack Your Bags" tourism campaign Career Lab (Ch 10, pp. 168-173), explore the Powerskill Motivation lesson, complete the Xello Decision Making lesson, and connect to Singley Academy's School of Culinary Arts and Hospitality Services (ServSafe Manager certification).
 
 ## Demonstration of Learning
 

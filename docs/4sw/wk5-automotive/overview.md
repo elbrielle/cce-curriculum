@@ -4,7 +4,7 @@
 
 ## Lesson Objective
 
-Students explore the H&L Automotive & Collision Repair pathway (Ch 15), complete the H&L "Delivery Connection App" workbook activity to think like a warehouse manager designing a focus group, research ASE certification and apprenticeship pathways, compare salaries across automotive careers in the DFW area, and understand how the Cardwell/Ratteree pathway lets students start automotive training in high school.
+Students explore the H&L Automotive & Collision Repair pathway (Ch 15), complete the H&L "Delivery Connection App" workbook activity to think like a warehouse manager designing a focus group, research ASE certification and apprenticeship pathways, compare salaries across automotive careers in the DFW area, and understand how the Ratteree pathway lets students start automotive training in high school.
 
 ## Demonstration of Learning
 
@@ -29,13 +29,13 @@ Students explore the H&L Automotive & Collision Repair pathway (Ch 15), complete
 - Printed Apprenticeship vs. College comparison chart
 - Printed Delivery Connection App template (with Focus Group Discussion Guide excerpt)
 - Xello accounts (Save Careers activity)
-- Projector for ASE and Cardwell/Ratteree information
+- Projector for ASE and Ratteree information
 
 ## Career Connection
 
-The automotive industry is one of the largest employers in America, and the DFW metroplex is a major hub for dealerships, fleet maintenance, collision centers, and diesel repair. What makes automotive careers different from most others students have explored is the **apprenticeship model** — many technicians enter the field through paid on-the-job training combined with technical school, earning money while they learn. ASE (Automotive Service Excellence) certification is the industry standard, and Irving ISD offers **Automotive, Collision Repair and Diesel** as a combined pathway at four campuses. Students can be ASE-prepared by graduation and step into work immediately, debt-free.
+The automotive industry is one of the largest employers in America, and the DFW metroplex is a major hub for dealerships, fleet maintenance, collision centers, and diesel repair. What makes automotive careers different from most others students have explored is the **apprenticeship model** — many technicians enter the field through paid on-the-job training combined with technical school, earning money while they learn. ASE (Automotive Service Excellence) certification is the industry standard, and Irving ISD's **Ratteree Career Development Center** offers the Automotive pathway for students to begin ASE preparation during high school.
 
-**Irving ISD Pathway:** **Automotive, Collision Repair and Diesel** is offered at **Cardwell Career Preparatory Center, Irving High School, MacArthur High School, and Nimitz High School** — a multi-campus pathway students can pursue regardless of their home school.
+**Irving ISD Pathway:** **Automotive** is offered at **Ratteree Career Development Center** as a travel-to career-center pathway. Students from any home high school can attend Ratteree for part of their day and prepare for **Automotive Service Excellence (ASE)** certification.
 
 ## Vocabulary
 
@@ -50,14 +50,14 @@ The automotive industry is one of the largest employers in America, and the DFW 
 
 H&L Chapter 15: Transportation, Distribution & Logistics (pp. 257-261) provides the **"Delivery Connection App"** Career Lab activity used as the anchor on Day 1 of this week. The workbook frames a warehouse manager joining a focus group to help app developers design FleetConnect — a real-time communication app for warehouses, drivers, and clients. The activity teaches the design process used in real product development AND teaches students the role focus groups play. Students design their own warehouse communication app sketch and pitch the features.
 
-The chapter also lists the Automotive & Collision Repair pathway and the Diesel & Heavy Equipment Maintenance pathway, both of which are the focus of this week's salary research and Cardwell/Ratteree exploration.
+The chapter also lists the Automotive & Collision Repair pathway and the Diesel & Heavy Equipment Maintenance pathway, both of which are the focus of this week's salary research and Ratteree exploration.
 
 ## IISD Instructional Strategies
 
 - **Sentence Stems:** Salary comparison — "An Auto Technician with ASE certification earns approximately $_____ per year. Compared to _____, the salary is higher/lower by $_____. The education takes _____ years and costs approximately $_____."
 - **Think-Pair-Share:** Day 2 apprenticeship vs. college discussion.
 - **Active Monitoring:** Day 3 salary worksheet checkpoint — verify each student has used at least 3 different sources (BLS, H&L, CareerOneStop) before submitting.
-- **Visual Comparison Chart:** Day 4 timeline graphic comparing the Cardwell/Ratteree pathway (free, in-HS) to UTI/Lincoln Tech (after HS, paid tuition).
+- **Visual Comparison Chart:** Day 4 timeline graphic comparing the Ratteree pathway (free, in-HS) to UTI/Lincoln Tech (after HS, paid tuition).
 
 ## Week at a Glance
 
@@ -66,7 +66,7 @@ The chapter also lists the Automotive & Collision Repair pathway and the Diesel 
 | 1 | H&L "Delivery Connection App" + Automotive Pathway | H&L Ch 15 Delivery Connection App Career Lab + automotive Hat browse | Completed Delivery Connection App sketch |
 | 2 | ASE + Apprenticeship Model | ASE.com research + Apprenticeship vs. College comparison chart | Completed Apprenticeship vs. College chart |
 | 3 | Salary Showdown | 3-career salary comparison + cross-cluster comparison | Completed Automotive Salary Comparison worksheet |
-| 4 | Cardwell/Ratteree Pathways | Irving ISD pathway research + UTI/Lincoln Tech comparison | Cardwell vs. trade school comparison notes |
+| 4 | Ratteree Pathways | Irving ISD pathway research + UTI/Lincoln Tech comparison | Cardwell vs. trade school comparison notes |
 | 5 | Cross-Cluster Salary Presentation + H&L Favorites | Class presentations + H&L Climber Profile updates | Cross-cluster salary presentation |
 
 ## Formative Assessment
@@ -74,7 +74,7 @@ The chapter also lists the Automotive & Collision Repair pathway and the Diesel 
 - "Delivery Connection App" sketch quality (Day 1) — d(1)(C)
 - Apprenticeship vs. College comparison chart (Day 2) — d(3)(G)
 - Salary Comparison worksheet (Day 3) — d(5)(E)
-- Cardwell/Ratteree research notes (Day 4) — d(2)(B)
+- Ratteree research notes (Day 4) — d(2)(B)
 
 ## Summative Assessment
 
@@ -89,7 +89,7 @@ The chapter also lists the Automotive & Collision Repair pathway and the Diesel 
 - Pre-filled Delivery Connection App sketch frame with feature labels (chat, GPS, alerts, roles)
 
 ### Extensions
-- Build a detailed cost analysis comparing the free Cardwell/Ratteree pathway to attending UTI after graduation (~$30-50K tuition)
+- Build a detailed cost analysis comparing the free Ratteree pathway to attending UTI after graduation (~$30-50K tuition)
 - Research the transition from gas vehicles to electric vehicles and how it is creating new automotive careers (EV technician, battery diagnostics)
 - Interview a local automotive professional in person or via video about their career path and bring back 3 quotes for the Day 5 presentation
 

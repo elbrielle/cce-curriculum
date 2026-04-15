@@ -1,14 +1,14 @@
-# Day 4: Irving ISD 2027 Pathways + Matrix Completion
+# Day 4: Post-HS Apprenticeship Pathways + Matrix Completion
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Learn about upcoming Cardwell/Ratteree skilled trades pathways; finalize the Skilled Trades Matrix; update H&L Career Plan with trades interests |
+| **Objectives** | Research post-high-school apprenticeship and trade-school pathways for HVAC, electrical, and plumbing; finalize the Skilled Trades Matrix; update H&L Career Plan with trades interests |
 | **TEKS** | d(2)(A), d(3)(G) |
 | **Deliverable** | Completed Skilled Trades Matrix (final) + updated H&L Career Plan with any new A&C/trades interests |
-| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 16 Career Plan), Cardwell/Ratteree pathway preview slides, projector |
+| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 16 Career Plan), apprenticeship program websites (DFW trade unions, TCC, UTI), projector |
 
 ---
 
@@ -20,41 +20,29 @@ Collect 3-4 responses. Some students will name trades covered this week. Others 
 
 ---
 
-## Activity 1: Cardwell/Ratteree 2027 Preview (20 min)
+## Activity 1: Post-HS Apprenticeship and Trade-School Pathways (20 min)
 
-Present the upcoming Cardwell/Ratteree trades pathways. Project slides or use district resources. Key points to cover:
+HVAC, electrical, and plumbing are not currently offered as dedicated Irving ISD pathways. Students interested in these trades pursue them through three routes after high school: (1) **union apprenticeships**, (2) **community college trade programs**, or (3) **private trade schools**. Today's activity is researching what those post-HS routes look like locally.
 
-**What is launching in 2027:**
+Project a short overview of each route, then have students research ONE of the three trades (HVAC, electrical, or plumbing) across all three routes using the websites below.
 
-- **HVAC pathway** — Classroom theory + hands-on labs in refrigeration, ventilation, and climate control systems
-- **Electrical pathway** — Wiring, circuit analysis, electrical code, and hands-on installation labs
-- **Plumbing pathway** — Pipe systems, water supply, drainage, and hands-on plumbing labs
+**Three routes to research:**
 
-**Why these three specifically:**
+- **Union apprenticeship** — DFW area has active apprenticeships through IBEW (electrical), UA Local 100 (plumbing/pipefitting), and SMACNA/SMART (HVAC/sheet metal). Apprentices earn while they learn — typically 3-5 years to journeyman.
+- **Community college** — Tarrant County College, Dallas College, and North Lake College all offer HVAC, electrical, and plumbing technology programs. Typical duration: 1-2 years for a certificate, 2 years for an associate degree.
+- **Private trade schools** — Lincoln Tech and Universal Technical Institute (UTI) offer intensive HVAC/electrical programs. Typical duration: 6-18 months. Higher cost than community college.
 
-- DFW labor market data (which students analyzed on Day 3) shows all three as high-demand
-- Retiring workers plus rapid construction growth have created an acute shortage
-- These are high-wage trades that do not require a 4-year college degree — they fit students who want to earn quickly without debt
+**What Irving ISD offers now:**
 
-**Who will benefit:**
+- **Welding at MacArthur** (School of Architecture, Construction and Civil Engineering) is the closest current Irving ISD pathway in the skilled-trades space — students can earn the Structural Steel & Metal Welding Certification before graduating.
 
-- Current 7th graders (who will be in 10th or 11th grade in 2027) will have full access
-- Current 8th graders may be able to take foundation courses their junior or senior year
-- MacArthur Welding remains available for all students now
+Students take notes on their trade of choice across all 3 routes. Then they answer two reflection questions:
 
-**What Irving ISD is doing to prepare:**
+- Which route best fits a student who wants to start working as soon as possible after high school?
+- Which route best fits a student who wants the most thorough technical training before entering the workforce?
 
-- Building dedicated lab spaces at Cardwell and Ratteree
-- Partnering with local unions and contractors for internship and apprenticeship pipelines
-- Recruiting certified instructors from industry
-
-Students take notes in their notebook. Then they answer two reflection questions:
-
-- Which of the 3 new pathways interests you the most, and why?
-- What would you need to do in 7th, 8th, and 9th grade to prepare for that pathway?
-
-!!! tip "Facilitation Tip"
-    If specific Cardwell/Ratteree dates or program details are not yet finalized by the district, present them as plans rather than guarantees: "The district is planning to launch these pathways in 2027." Encourage students to stay informed through their counselor and the Irving ISD CTE department.
+!!! tip "[VERIFY] Future Irving ISD trades pathways"
+    Irving ISD's CTE Pathways poster includes "Coming 2027" markers for some district-wide pathways. If HVAC, Electrical, or Plumbing are added to Irving ISD's offerings by the time you teach this week, update this activity to include them. Verify current program details with your district CTE coordinator before class — the Irving ISD CTE department updates offerings annually.
 
 ---
 
@@ -79,7 +67,7 @@ Students cross-reference their Labor Market Analysis worksheet from Day 3 and co
 !!! tip "Facilitation Tip"
     Walk with a clipboard and spot-check 3-4 matrices. Look for: (1) numbers cited rather than blank cells, (2) consistent format across trades, (3) classifications with reasoning rather than just Y/N.
 
-**DOK 3:** Looking at your completed Skilled Trades Matrix, identify the two trades that are most similar in training time AND salary. If you had to choose between those two this week, what non-salary factor (perks, quirks, work environment, growth outlook, local demand at Cardwell/Ratteree) would tip your decision — and why?
+**DOK 3:** Looking at your completed Skilled Trades Matrix, identify the two trades that are most similar in training time AND salary. If you had to choose between those two this week, what non-salary factor (perks, quirks, work environment, growth outlook, local DFW demand) would tip your decision — and why?
 
 ---
 
@@ -97,7 +85,7 @@ Direct students to open H&L and:
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name the Irving ISD pathway that interests you most from this week (MacArthur Welding, Cardwell/Ratteree HVAC, Electrical, or Plumbing). Explain in one sentence whether you would want to start it in high school and why. *(d(2)(A), d(3)(G))*
+**EXIT TICKET:** Name the trade that interests you most from this week (MacArthur Welding in high school, or HVAC / Electrical / Plumbing through a post-HS apprenticeship or trade school). Explain in one sentence why that route would fit you. *(d(2)(A), d(3)(G))*
 
 ---
 
@@ -105,4 +93,4 @@ Direct students to open H&L and:
 
 - **Support:** Provide a completed example matrix (one trade) as a reference. Students compare their own work against the example to self-check quality.
 - **Extension:** Research the average age of workers in your assigned trade. How many will retire in the next 10 years? What does this mean for job openings?
-- **ELL:** Bilingual Cardwell/Ratteree preview handout. Pre-teach: Pathway = Trayectoria, Lab = Laboratorio, Certification = Certificación. Pair ELL students with bilingual peers for the Career Plan discussion.
+- **ELL:** Bilingual apprenticeship research handout. Pre-teach: Pathway = Trayectoria, Apprenticeship = Aprendizaje, Certification = Certificación. Pair ELL students with bilingual peers for the Career Plan discussion.

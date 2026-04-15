@@ -40,11 +40,11 @@ Demonstrate one of these sections live on the screen. Then have students open th
 
 ## Activity 2: TDLR Licensing Pathway Worksheet (25 min)
 
-**Source:** TDLR Cosmetology page + Irving ISD Cardwell/Ratteree pathway info
+**Source:** TDLR Cosmetology page + Irving ISD Ratteree pathway info
 
 Distribute the TDLR Licensing Pathway worksheet. Students fill in the 3-column comparison:
 
-| Route | Route 1: Cardwell/Ratteree HS Pathway | Route 2: Post-HS Cosmetology School | Route 3: Apprenticeship |
+| Route | Route 1: Ratteree HS Pathway | Route 2: Post-HS Cosmetology School | Route 3: Apprenticeship |
 |---|---|---|---|
 | Where is the training? | | | |
 | Hours required | | | |
@@ -55,7 +55,7 @@ Distribute the TDLR Licensing Pathway worksheet. Students fill in the 3-column c
 | Pros | | | |
 | Cons | | | |
 
-For Route 1, students use the Irving ISD pathway info (Cardwell/Ratteree offers cosmetology hours in high school — students can begin earning hours toward their license while still in high school).
+For Route 1, students use the Irving ISD pathway info (Ratteree offers cosmetology hours in high school — students can begin earning hours toward their license while still in high school).
 
 For Route 2, students use TDLR data on standard cosmetology school requirements (typically 1,000 hours in Texas).
 

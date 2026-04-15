@@ -78,7 +78,7 @@ Students look at the H&L recommended pathways and the Irving ISD CTE Pathways po
 
 - **H&L recommended pathway #1:** _____
 - **Closest Irving ISD pathway available:** _____
-- **Campus where it is offered:** _____ (MacArthur, Singley, Nimitz, Irving High, Cardwell/Ratteree, or District Wide)
+- **Campus where it is offered:** _____ (Irving High, MacArthur, Nimitz, Singley Academy, Cardwell Career Prep, Ratteree Career Development Center, or multi-campus)
 
 If H&L recommends something not offered locally (e.g., Marine Biology), students pick the closest analogue (Veterinary Science at Nimitz).
 

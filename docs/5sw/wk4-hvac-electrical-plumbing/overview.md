@@ -4,7 +4,7 @@
 
 ## Lesson Objective
 
-Students explore HVAC, electrical, plumbing, and welding careers through Hats & Ladders; compare certification timelines and earning potential across these trades; analyze DFW labor market data; and understand how Irving ISD's coming Cardwell/Ratteree pathways and the existing MacArthur Welding program prepare students for these careers.
+Students explore HVAC, electrical, plumbing, and welding careers through Hats & Ladders; compare certification timelines and earning potential across these trades; analyze DFW labor market data; and understand how MacArthur's existing Welding pathway (part of the School of Architecture, Construction and Civil Engineering) prepares students for structural trades. HVAC, electrical, and plumbing are covered this week as career-exploration topics using BLS and local apprenticeship data.
 
 ## Demonstration of Learning
 
@@ -32,9 +32,9 @@ Students explore HVAC, electrical, plumbing, and welding careers through Hats & 
 
 Electricians, plumbers, HVAC technicians, and welders are among the most in-demand workers in America. DFW's explosive growth means new homes, schools, hospitals, and commercial buildings need these workers for every project. At the same time, experienced tradespeople are retiring faster than new workers are entering the field — a classic "skills gap."
 
-Irving ISD is responding to this demand: **HVAC, Electrical, and Plumbing pathways are coming to Cardwell/Ratteree in 2027**. Students in 7th grade now will have access to these pathways when they enter high school. **Welding is already available at MacArthur** — students can earn the Structural Steel & Metal Welding certification in high school.
+**Welding is already available at MacArthur** through the School of Architecture, Construction and Civil Engineering (ACE) — students can earn the Structural Steel & Metal Welding Certification in high school. HVAC, Electrical, and Plumbing pathways are not currently offered at Irving ISD campuses and are covered this week as career exploration topics through BLS, CareerOneStop, and local apprenticeship research.
 
-**Irving ISD Pathway:** HVAC / Electrical / Plumbing (Cardwell/Ratteree — launching 2027). Welding (MacArthur) leads to Structural Steel & Metal Welding certification.
+**Irving ISD Pathway:** **Welding** at **MacArthur High School** (School of Architecture, Construction and Civil Engineering — ACE) leads to the Structural Steel & Metal Welding Certification. HVAC, Electrical, and Plumbing have no current Irving ISD pathway home — students interested in these trades pursue them post-high-school through apprenticeship programs or technical schools.
 
 ## Vocabulary
 
@@ -63,7 +63,7 @@ Welding appears in the Manufacturing cluster (Ch 14) in H&L because welders work
 | 1 | H&L Skilled Trades Exploration | Explore Electrician, Plumber, HVAC Tech in H&L | Skilled Trades Comparison Matrix (started) |
 | 2 | Welding + Jigsaw Research | Welder career in H&L + deep research by assigned trade | Jigsaw research notes |
 | 3 | DFW Labor Market Analysis | BLS job outlook research + classification with evidence | Labor Market Analysis worksheet |
-| 4 | Irving ISD 2027 Pathways + Matrix Completion | Cardwell/Ratteree preview + complete Matrix + Career Plan update | Completed Skilled Trades Matrix |
+| 4 | Apprenticeship + Matrix Completion | Post-HS trade pathway research (apprenticeships, trade schools) + complete Matrix + Career Plan update | Completed Skilled Trades Matrix |
 | 5 | Jigsaw Presentations + A&C Wrap-Up | Team presentations + A&C cluster final favorites | Jigsaw presentation + finalized A&C favorites |
 
 ## Formative Assessment

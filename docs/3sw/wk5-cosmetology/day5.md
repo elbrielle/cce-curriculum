@@ -85,5 +85,5 @@ Then they write a 3-sentence reflection on the Human Services week:
 ## Differentiation
 
 - **Support:** Sentence stems for the 3-sentence reflection. Pre-fill: "The most interesting career I learned about is _____ because it combines _____ and _____."
-- **Extension:** Connect your favorite Human Services career to the Cardwell/Ratteree Cosmetology pathway. What courses would prepare you best?
+- **Extension:** Connect your favorite Human Services career to the Ratteree Cosmetology pathway. What courses would prepare you best?
 - **ELL:** Pre-teach: Factor = Factor, Income = Ingreso, Reflection = Reflexión. Xello and eDynamic both support Spanish — show language toggles if needed.

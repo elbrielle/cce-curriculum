@@ -32,7 +32,7 @@ Students explore the Human Services cluster through Hats & Ladders with a focus 
 
 The beauty industry is a $500+ billion global market that offers diverse career paths from hairstylists to estheticians to nail technicians to barbers to massage therapists. In Texas, cosmetologists are licensed by the **Texas Department of Licensing and Regulation (TDLR)** and must complete 1,000 hours of training, pass an exam, and renew the license periodically. This is a strong entrepreneurship cluster — many cosmetologists start as employees and eventually open their own salons or work as independent contractors.
 
-**Irving ISD Pathway:** **Cosmetology** is offered at **Cardwell Career Preparatory Center, Irving High School, MacArthur High School, and Nimitz High School** — a multi-campus pathway students can pursue regardless of their home school. The pathway prepares students for the Cosmetology Operator License through the Texas Department of Licensing and Regulation (TDLR), and students can begin earning training hours toward the license while still in high school.
+**Irving ISD Pathway:** **Cosmetology** is offered at **Ratteree Career Development Center** as a travel-to career-center pathway. Students from any home high school can attend Ratteree for part of their day. The pathway prepares students for the **Cosmetology Operator License** through the Texas Department of Licensing and Regulation (TDLR), and students can begin earning training hours toward the license while still in high school.
 
 ## Vocabulary
 
@@ -79,7 +79,7 @@ These activities teach the SOFT skills cosmetologists need (client interaction, 
 
 ## Summative Assessment
 
-**Cosmetology Career Brief:** Students submit a one-page brief that includes (1) the 3 Stress Toolkit social media posts, (2) the TDLR Licensing Pathway worksheet, (3) a paragraph defining one entrepreneurial opportunity in the beauty industry and the business skills required, (4) the mock interview reflection, and (5) a paragraph on whether the Cardwell/Ratteree Cosmetology pathway interests them. Scored on accuracy of TDLR licensing data (d(2)(A), d(3)(G)), entrepreneurial reasoning (d(3)(I)), and self-reflection on career fit.
+**Cosmetology Career Brief:** Students submit a one-page brief that includes (1) the 3 Stress Toolkit social media posts, (2) the TDLR Licensing Pathway worksheet, (3) a paragraph defining one entrepreneurial opportunity in the beauty industry and the business skills required, (4) the mock interview reflection, and (5) a paragraph on whether the Ratteree Cosmetology pathway interests them. Scored on accuracy of TDLR licensing data (d(2)(A), d(3)(G)), entrepreneurial reasoning (d(3)(I)), and self-reflection on career fit.
 
 ## Differentiation
 
@@ -92,7 +92,7 @@ These activities teach the SOFT skills cosmetologists need (client interaction, 
 ### Extensions
 - Compare Texas cosmetology licensing requirements to another state (e.g., California, Florida)
 - Build a full salon business plan with startup costs, monthly expenses, and 1-year break-even projection
-- Research the Cardwell/Ratteree pathway and create a 4-year course plan including required electives
+- Research the Ratteree pathway and create a 4-year course plan including required electives
 - Add a 4th stress management technique to the Stress Toolkit (research it independently)
 
 ### ELL Language Support
