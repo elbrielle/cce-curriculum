@@ -1,39 +1,40 @@
-name: Deploy MkDocs to GitHub Pages
+name: Deploy MkDocs to GitHub Pages (via mike)
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      milestone_name:
+        description: 'Tag this commit as a named milestone version (leave blank to only update `latest`)'
+        required: false
+        default: ''
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - run: pip install mkdocs mkdocs-material pymdown-extensions
-      - run: mkdocs build --strict
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Install dependencies
+        run: pip install mkdocs mkdocs-material pymdown-extensions mike
+      - name: Configure git for mike
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Deploy `latest` via mike
+        run: mike deploy --push latest
+      - name: Tag milestone (if workflow_dispatch with milestone_name)
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.milestone_name != ''
+        run: mike deploy --push "${{ github.event.inputs.milestone_name }}"

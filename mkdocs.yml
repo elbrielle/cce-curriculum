@@ -1,5 +1,7 @@
 site_name: CCE Curriculum — Irving ISD VILS Labs
 site_description: Career and College Explorations (TEKS §127.2) — Irving ISD
+site_url: https://elbrielle.github.io/cce-curriculum/
+
 theme:
   name: material
   palette:
@@ -12,6 +14,11 @@ theme:
     - search.highlight
     - content.tabs.link
 
+extra:
+  version:
+    provider: mike
+    default: latest
+
 docs_dir: docs
 
 nav:
@@ -20,11 +27,11 @@ nav:
   - 1st Six Weeks — IT & Manufacturing:
     - Wk 0 — Classroom Routines & Career Self-Discovery:
       - Overview: 1sw/wk0-classroom-routines/overview.md
-      - Day 1 — Welcome to the CCE Lab: 1sw/wk0-classroom-routines/day1.md
-      - Day 2 — Discover My Core (RIASEC): 1sw/wk0-classroom-routines/day2.md
-      - Day 3 — Work Values + Building Blocks: 1sw/wk0-classroom-routines/day3.md
-      - Day 4 — Xello Quizzes + 14 Clusters: 1sw/wk0-classroom-routines/day4.md
-      - Day 5 — Career Journey Reflection + Design Thinking: 1sw/wk0-classroom-routines/day5.md
+      - Day 1 — Lab Routines + Your Choice (Flex): 1sw/wk0-classroom-routines/day1.md
+      - Day 2 — H&L Setup + Discover My Core (Core A): 1sw/wk0-classroom-routines/day2.md
+      - Day 3 — Work Values + Building Blocks (Core B): 1sw/wk0-classroom-routines/day3.md
+      - Day 4 — My Career Journey Reflection (Core C): 1sw/wk0-classroom-routines/day4.md
+      - Day 5 — Catch-Up + Your Choice (Flex): 1sw/wk0-classroom-routines/day5.md
     - Wk 1 — Robotics & Manufacturing:
       - Overview: 1sw/wk1-robotics-manufacturing/overview.md
       - Day 1 — Manufacturing Cluster Tour: 1sw/wk1-robotics-manufacturing/day1.md
