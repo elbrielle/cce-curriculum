@@ -4,8 +4,8 @@ on:
   push:
     branches: [main]
   schedule:
-    # Runs at midnight UTC on the 1st of each month
-    - cron: '0 0 1 * *'
+    # Runs at midnight UTC every day
+    - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
       milestone_name:
@@ -38,11 +38,24 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
       - name: Deploy `latest` via mike
         run: mike deploy --push --update-aliases latest
-      - name: Tag monthly snapshot (if scheduled run)
+      - name: Check for changes since last snapshot
         if: github.event_name == 'schedule'
+        id: check_changes
         run: |
-          LABEL=$(date -u +%Y-%m)
+          LAST_SHA=$(git rev-parse refs/tags/last-snapshot 2>/dev/null || echo "none")
+          CURRENT_SHA=$(git rev-parse HEAD)
+          if [ "$LAST_SHA" = "$CURRENT_SHA" ]; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+      - name: Tag daily snapshot (if changes exist)
+        if: github.event_name == 'schedule' && steps.check_changes.outputs.changed == 'true'
+        run: |
+          LABEL=$(date -u +%Y-%m-%d)
           mike deploy --push "$LABEL"
+          git tag -f last-snapshot HEAD
+          git push origin refs/tags/last-snapshot --force
       - name: Tag milestone (if workflow_dispatch with milestone_name)
         if: github.event_name == 'workflow_dispatch' && github.event.inputs.milestone_name != ''
         run: mike deploy --push "${{ github.event.inputs.milestone_name }}"
