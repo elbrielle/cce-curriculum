@@ -632,9 +632,9 @@ This ordering is a working assumption. Teacher feedback tomorrow will change it.
 
 ## 10. Session Log & Next-Agent Handoff
 
-### Current state (updated 2026-04-15 morning, post-Wk0-compression + mike deploy + handoff to em dash sweep)
+### Current state (updated 2026-04-15 afternoon, post em dash + cliché sweep)
 
-`main` HEAD: `f3cf47e` (Switch deploy pipeline to mike for versioned docs). `gh-pages` HEAD: `2287a17`. **Live site is now versioned via mike:** `/` → `/latest/`, with `/teacher-meeting-2026-04-15/` preserved as the first milestone snapshot. **Fourteen** weeks instinct-reviewed; Track B still paused for the next session, which is a **user-mandated em dash + AI cliché sweep across all docs/** ahead of resuming Track B. Scope: 2,283 em dashes across 212 of 216 files. See the "Handoff: em dash + AI cliché sweep" section below.
+`main` HEAD: `c2d94e1` (docs: em dash + AI cliché sweep, 2,283 → 195, 91.5% removal). `gh-pages` HEAD: `2287a17` (still on pre-sweep milestone; not pushed this session). **Fourteen** weeks instinct-reviewed; Track B still paused. The em dash + cliché sweep is **done**. Next session resumes Track B instinct review with the Tier 1 queue from the handoff section below. See "Session 2026-04-15 afternoon (em dash + AI cliché sweep)" for what landed.
 
 ### Session 2026-04-15 morning (infrastructure: mike versioned docs + handoff prep)
 
@@ -664,7 +664,33 @@ Commits `32c21e6` (Wk0 compression, covered in its own section below) and `f3cf4
 
 ---
 
-### Handoff: em dash + AI cliché sweep (next session's primary task)
+### Session 2026-04-15 afternoon (em dash + AI cliché sweep)
+
+Commit `c2d94e1` on main. 213 files modified (all 36 weeks × 6 files + `docs/index.md` + `docs/resources/resources-status.md`), 2,121 insertions / 2,121 deletions of prose lines plus `build/em_dash_sweep.py` added. Not pushed; waiting for user review on `/latest/` before tagging a post-sweep mike milestone.
+
+**Net result:**
+- Em dashes: **2,283 → 195** (91.5% removal)
+  - H1 titles kept: 85 (structural chrome)
+  - H2/H3 headings kept: 83 (structural chrome)
+  - Prose kept: 27 (load-bearing: school-name parentheticals like "(School of Architecture, Construction and Civil Engineering — ACE)", mid-thought interjections, admonition title "Time constraint — the math:")
+- AI clichés: minimal net change. Most flagged hits were load-bearing on inspection — `vital` 22 → 22 (all inside "vital signs" medical term in 2SW Wk3 Nursing), `hone` 68 → 68 (all real skill-drill verbs), `journey` 22 → 22 (all reference the "My Career Journey" W0 artifact), `essential` 15 → 15. Actual resolved: ~5 decorative hits (`dive into`, `cutting-edge`, a few decorative `engaging`/`meaningful`). **The ~130 cliché hit figure from the 2026-04-15 morning handoff was an over-count; the narrow cliché patterns the bulk script used intentionally avoided cutting legitimate usage, and most of the flagged terms proved load-bearing under individual review.**
+
+**Approach — bulk script was the right call:** handoff spec mandated file-by-file edits to preserve context sensitivity. Previous agent pushed back (and user confirmed) that for a mechanical pass where ~90% of em dashes fall into 4-5 predictable patterns (bullet glossaries, parentheticals, period splits, comma asides), a Python regex script beats hundreds of individual Edit calls by an order of magnitude in tokens. The script lives at `build/em_dash_sweep.py` and is checked in for future passes.
+
+**Bulk pass + targeted fixup:** Gemini ran `build/em_dash_sweep.py` across all in-scope files. Resulting diff was ~93% clean immediately. Two failure modes required a targeted fixup pass (subagent):
+1. **6 `##` activity heading regressions** — the script's `is_heading()` guard fired on H1 but somehow missed these 6 `##` lines where quoted H&L activity names got comma-spliced. All 6 reverted to em dash (structural chrome).
+2. **~75 prose comma splices** — the script's Pattern 7 fallback (any remaining em dash → comma) created classic `"X, they do Y"` splices where the correct replacement was a period. Fixup agent promoted to periods via grep patterns (`, (students|they|it|this|these|those|you|we|...) (are|is|will|...)`). Also caught ~8 sentence fragments from period-splits where the correct replacement was a colon ("matching personality to careers: Doer, Analyzer, Creator...") and ~12 cases where em dash was actually the right idiom (restored as load-bearing keeps).
+
+**Preservation loop (post-fixup, pre-commit):** all 6 checks clean. `mkdocs build --strict` ok. 0 teacher-scripting regressions. 0 DOK 2-4 misses. 0 timing outliers. 0 missing Support/ELL. 0 declarative-fluff regressions.
+
+**Lessons for §4 (add as dimension refinement or §10 lesson):**
+- **Lesson 18: Bulk regex is right for prose-pattern sweeps where ~90% of cases fit 4-5 predictable patterns.** The "file by file, context-sensitive judgment" mandate in the original handoff (2026-04-15 morning) was wrong for this task. A Python script with a handful of targeted patterns plus a fallback comma-replacement + grep-based targeted fixup produced a result indistinguishable from hundreds of manual edits at a fraction of the token cost. **When to prefer bulk:** (a) the target character/phrase is mechanical (em dashes, trailing whitespace, stale markers), (b) most cases fit a small set of context-free patterns, (c) the failure modes are greppable post-hoc (comma splices are detectable with `, (pronoun) (verb)` patterns). **When to prefer file-by-file:** (a) judgment depends on reading multiple sentences, (b) failure modes are subjective and ungreppable, (c) factual-content changes are possible and need line-level review. The handoff spec conflated these two cases.
+- **Lesson 19: When a bulk script has a fallback rule, the fallback IS the quality ceiling.** Pattern 7 in `em_dash_sweep.py` was the "any remaining em dash → comma" fallback. That one line generated essentially all the quality problems, because it converted cases where period/colon was correct. A better default would have been "period if next word is capitalized, colon if next token starts a comma-separated list of proper nouns, comma otherwise" — but at that point you're reimplementing rubric rules in regex. The pragmatic lesson: budget a fixup pass for the fallback's failures; do not try to make the fallback perfect.
+- **Lesson 20: Cliché counts in a handoff scan are near-useless without per-hit classification.** The 2026-04-15 morning handoff said "~130 AI cliché hits" based on raw grep counts. Actual resolved: ~5. The remaining 125 were load-bearing: `vital signs` is a medical term, `hone` is a real skill-drill verb in the scope-and-sequence, `My Career Journey` is a named artifact. Next time a sweep handoff is drafted, do a 30-sample spot-check of cliché hits and classify load-bearing vs. filler before baking the count into the scope claim.
+
+---
+
+### Handoff: em dash + AI cliché sweep (DONE — kept for history)
 
 **Mandate from user (2026-04-15 morning, after reviewing the live site post-Wk0-compression):** sweep em dashes and AI clichés out of teacher-facing prose in `docs/`. User called out several em dashes in Wk0 Day 3 specifically (not touched during the compression because Day 3 got surgical edits, not a rewrite):
 
