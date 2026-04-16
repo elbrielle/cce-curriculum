@@ -33,7 +33,7 @@ Students explore law enforcement, EMT, and firefighter careers through Hats & La
 
 ## Career Connection
 
-First responders are the backbone of public safety. Police officers, EMTs, paramedics, and firefighters put themselves at risk to protect communities. These careers require physical fitness, quick thinking, emotional resilience, and absolute integrity. Many first responders enter through military service, police academies, or short EMT certification programs, not through traditional 4-year college pathways. This is one of the few high-demand career fields where a 17-year-old can graduate high school and be working full-time within 12 months.
+First responders are the backbone of public safety. Police officers, EMTs, paramedics, and firefighters put themselves at risk to protect communities. These careers require physical fitness, quick thinking, emotional resilience, and absolute integrity. Many first responders enter through military service (MP, Master-at-Arms, Navy Corpsman, Army medic, Air Force Security Forces), police academies, or short EMT certification programs, not through traditional 4-year college pathways. This is one of the few high-demand career fields where a 17-year-old can graduate high school and be working full-time within 12 months. **JROTC** at Irving ISD high schools is the middle-to-high-school on-ramp for students considering the military pathway into first responder work. It does not commit a student to military service.
 
 **Irving ISD Pathway:** Law Enforcement at Singley Academy, leads to the Non-Commissioned Security Officer Level II certification, which prepares students for entry-level security and pre-academy work.
 

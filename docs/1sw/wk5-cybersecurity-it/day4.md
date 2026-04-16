@@ -36,7 +36,7 @@ Then show 3-4 example postsecondary destinations:
 1. **A 4-year college** (e.g., UT Dallas, strong CS program)
 2. **A community college** (e.g., Dallas College, affordable, transfers to 4-year)
 3. **Direct-to-work with certification** (e.g., earning CompTIA A+ at age 19, working as Help Desk Tech)
-4. **Military training** (e.g., Air Force Cyber career field)
+4. **Military training** (e.g., Air Force Cyber career field, Army Cyber Command, Space Force). Students curious about this path can start in **JROTC** at their Irving ISD high school, which introduces military careers and leadership without committing to enlistment.
 
 **DOK 2:** How would you describe the academic requirements for getting into one of these IT pathways at your future high school?
 
