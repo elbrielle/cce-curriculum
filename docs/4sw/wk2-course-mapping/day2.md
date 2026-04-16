@@ -73,7 +73,7 @@ Students fill in the CTE Pathway column with the actual course names from the Ir
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** List the 9th and 10th grade CTE courses you would take for your chosen pathway, and name the high school where they are offered. *(d(8)(B))*
+**EXIT TICKET:** List the 9th and 10th grade CTE courses for your chosen pathway AND the high school where they are offered. Then identify ONE scheduling concern you will need to solve when you enroll (an elective conflict, bus route from your zoned HS to the CTE campus, program size, or a prerequisite). *(d(8)(B))*
 
 ---
 

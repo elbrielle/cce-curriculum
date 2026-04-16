@@ -76,7 +76,7 @@ The workbook scenario: *Students are construction safety supervisors building an
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name two A&C careers and describe the education required for each. Then list one safety hazard from the Safety Supervisor activity and how your plan addressed it. *(d(1)(B), d(1)(C))*
+**EXIT TICKET:** Pick TWO A&C careers and compare the education time AND cost for each. Which career offers the better value FOR YOU and why? Submit your Safety Supervisor plan (the hazard you addressed is the plan's deliverable). *(d(1)(B), d(1)(C), d(5)(E))*
 
 ---
 

@@ -71,7 +71,7 @@ Walk the room. Confirm every student has answered all 4 prompts in writing befor
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Write your one-sentence website description and list your 3 pages. *(d(1)(C))*
+**EXIT TICKET:** Write your one-sentence website description and name your 3 pages. Then explain in one sentence which page is most important to your target audience and why the other pages support it. *(d(1)(C))*
 
 ---
 

@@ -74,7 +74,7 @@ Then students answer 2 reflection questions on the back:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name one IT certification (CompTIA or other) and explain what career it prepares you for. *(d(2)(A), d(2)(B))*
+**EXIT TICKET:** Name one IT certification (CompTIA A+, Net+, Sec+, or other) and the career it opens up. Then classify that career as high-demand, high-wage, or both in 2026 DFW, citing ONE specific piece of evidence (salary, growth rate, or local employer) from today's research. *(d(2)(A), d(2)(B), d(5)(B))*
 
 ---
 

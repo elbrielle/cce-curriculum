@@ -93,7 +93,7 @@ Students fill in JUST the outline today, bullet points for each section. They wi
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** List the 7 steps of an effective job search in order. *(d(6)(A))*
+**EXIT TICKET:** List the 7 steps of an effective job search in order. For ONE step of your choice, write a specific concrete action you would take next week (e.g., Step 4 = "Update my resume with my bilingual Spanish skill" or Step 5 = "Apply on Indeed AND ask my neighbor who works at Frito-Lay"). *(d(6)(A))*
 
 ---
 

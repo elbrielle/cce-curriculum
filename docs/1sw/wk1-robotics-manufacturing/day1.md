@@ -74,7 +74,7 @@ Walk the room and check that students are actually exploring rather than scrolli
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name TWO careers in Manufacturing that you did NOT know existed before today. Then name ONE pathway from the workbook (Ch 14, p. 230) that you want to learn more about. *(d(1)(B))*
+**EXIT TICKET:** Pick TWO Manufacturing careers you discovered today and compare them on ONE dimension (daily work, training time, or education type). Then name the Manufacturing pathway that best fits your Wk0 RIASEC type and explain the match in one sentence. *(d(1)(B))*
 
 ---
 

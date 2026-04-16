@@ -87,7 +87,7 @@ Students work through the lesson at their own pace. Most will finish in 8 minute
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** List the four steps of an effective job search from the H&L workbook. Then name one company you found in your scavenger hunt and the salary they listed (or "None"). *(d(6)(A), d(1)(C))*
+**EXIT TICKET:** List the four steps of an effective job search. For ONE step, identify the specific Irving ISD or DFW resource that would help most (campus Career Fair, Singley counselor, LinkedIn Learning at the public library, a specific neighbor or family member). Then name one company from your scavenger hunt and the salary they listed (or "None"). *(d(6)(A), d(1)(C))*
 
 ---
 

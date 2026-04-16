@@ -77,7 +77,7 @@ After all 5 presentations, run a 3-minute discussion:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name one professional association related to your chosen pathway from Week 1 and explain one specific benefit of joining (a competition, scholarship, networking opportunity, or credential). *(d(3)(H))*
+**EXIT TICKET:** Name one professional association related to your chosen pathway AND the specific benefit (competition, scholarship, networking, or credential) that matters most to you right now. Explain in one sentence why THAT benefit fits your current goals better than the other three. *(d(3)(H))*
 
 ---
 

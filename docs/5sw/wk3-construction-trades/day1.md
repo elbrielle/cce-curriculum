@@ -85,7 +85,7 @@ This sets up Day 3's Classification activity where students compare multiple car
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name two construction careers and describe the education type for each (apprenticeship, associate degree, bachelor's, etc.). Then name one tool or skill that both careers require. *(d(1)(C), d(2)(A))*
+**EXIT TICKET:** Compare TWO construction careers on education type (apprenticeship, associate degree, bachelor's) and name one skill both require. If you had to pick ONE of these pathways today, which would you pick and what trade-off (time, money, physical risk, earning start-date) are you accepting? *(d(1)(C), d(2)(A), d(3)(G))*
 
 ---
 

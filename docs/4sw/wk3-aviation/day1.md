@@ -95,7 +95,7 @@ Take 1-2 group responses to share with the class.
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Name two careers in the H&L Transportation cluster (besides Transportation Needs Analyst) and one surprising fact you learned about either of them. *(d(1)(B), d(1)(C))*
+**EXIT TICKET:** Name TWO Transportation-cluster careers (besides Transportation Needs Analyst) and compare them on ONE dimension (training time, daily work, or salary). Which one would you pursue and why? *(d(1)(B), d(1)(C))*
 
 ---
 

@@ -84,7 +84,7 @@ Students pick **one** real estate career (from the 4 Gallery Walk roles or anoth
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name two real estate careers, one that earns commission and one that earns a salary. Explain the difference in one sentence. *(d(2)(A))*
+**EXIT TICKET:** Name two real estate careers, one commission-based and one salary-based. Describe ONE specific risk the commission career faces (slow market, recession, client cancellations) AND ONE specific upside. Which risk tolerance fits YOU, and why? *(d(2)(A), d(5)(A))*
 
 ---
 

@@ -72,7 +72,7 @@ The Hat Research template requires these fields:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name the Animal Systems career you researched today and list one piece of information that surprised you (could be salary, education length, or a daily task). *(d(1)(B), d(1)(C))*
+**EXIT TICKET:** Name the Animal Systems career you researched and ONE piece of information that surprised you (salary, education length, or daily task). Then explain in one sentence whether that surprise makes the career more or less appealing to YOU, and why. *(d(1)(B), d(1)(C))*
 
 ---
 

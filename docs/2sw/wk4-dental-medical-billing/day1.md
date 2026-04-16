@@ -81,7 +81,7 @@ Students will complete the Dental Hygienist and RN rows on Day 2.
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Name one Health Informatics career and describe what certification it requires. Submit your Hat Research template. *(d(2)(A))*
+**EXIT TICKET:** Name one Health Informatics career and the certification it requires. Then explain in one sentence how that certification pathway (certificate or associate-level credential) changes the career's accessibility compared to becoming a doctor or RN (years of school, cost). Submit your Hat Research template. *(d(2)(A), d(3)(G))*
 
 ---
 

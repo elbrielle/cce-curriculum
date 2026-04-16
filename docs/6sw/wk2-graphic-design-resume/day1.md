@@ -94,7 +94,7 @@ Students may use Google Docs or paper. The deliverable is the completed outline 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name two Arts/AV careers and describe one thing each professional creates or produces. Then name your podcast title and target audience. *(d(1)(C))*
+**EXIT TICKET:** Pick TWO Arts/AV careers and classify each as primarily solo work, team work, or client-facing. Which work style fits your Wk0 RIASEC type best, and why? Submit your podcast title and target audience. *(d(1)(C))*
 
 ---
 

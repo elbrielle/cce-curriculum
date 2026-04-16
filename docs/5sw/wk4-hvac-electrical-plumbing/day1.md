@@ -70,7 +70,7 @@ Students work independently or in pairs. Teacher circulates and verifies student
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name the three trades explored today and describe one certification requirement for each. Then name the trade that surprised you most in terms of salary or demand. *(d(2)(A))*
+**EXIT TICKET:** Rank the three trades explored today (HVAC, Electrical, Plumbing) on training-time-to-salary ratio, #1 = best ratio. Cite a specific number for your #1 pick (salary in DFW OR training years). Explain in one sentence why that ratio matters more to you than either salary alone or training alone. *(d(2)(A), d(5)(E))*
 
 ---
 

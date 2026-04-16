@@ -87,7 +87,7 @@ Pair up. Trade ad designs. Use the workbook's discussion prompts (Ch 5, p. 75):
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name two careers in the Marketing and Sales pathway. Describe your billboard/bus wrap product, target audience, and slogan. *(d(1)(C))*
+**EXIT TICKET:** Pick TWO Marketing and Sales careers and rate each on a 1-5 creative-to-analytical scale (1 = all creative, 5 = all analytical). Which role fits your strengths from Wk0, and why? Submit your billboard/bus wrap product, target audience, and slogan. *(d(1)(C))*
 
 ---
 

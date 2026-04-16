@@ -75,7 +75,7 @@ For the "What Tools, Equipment, or Skills" field, push students to be specific:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name the programming Hat you researched and list 2 specific tools or programming languages a person in that career uses. *(d(1)(C), d(2)(A))*
+**EXIT TICKET:** Name the programming Hat you researched and ONE specific tool or programming language it uses. Then explain in one sentence how that tool changes the day-to-day work (what the programmer actually does for 8 hours). *(d(1)(C), d(2)(A))*
 
 ---
 

@@ -89,7 +89,7 @@ Students pair up with a classmate who researched a DIFFERENT union and compare n
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Explain the apprenticeship pathway in your own words (apprentice → journeyman → master). Then name one trade union and one benefit of membership. *(d(3)(G), d(3)(H))*
+**EXIT TICKET:** Compare the apprenticeship pathway (apprentice → journeyman → master) to the 4-year college route for reaching the same level of earnings. Identify ONE specific advantage of each pathway. Which route fits you today, and why? *(d(3)(G), d(3)(H))*
 
 ---
 

@@ -66,7 +66,7 @@ Walk the room and stop students who are scrolling without reading. Ask them to r
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name the IT pathway you are most interested in exploring this week and 2 careers within it. *(d(1)(B), d(1)(C))*
+**EXIT TICKET:** Name the IT pathway most interesting to you and TWO careers within it. Explain in one sentence how one of those careers fits your Wk0 RIASEC type using a specific daily task from the Hat profile. *(d(1)(B), d(1)(C))*
 
 ---
 

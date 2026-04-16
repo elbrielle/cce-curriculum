@@ -85,7 +85,7 @@ Students keep their draft. Day 5 includes practice and peer feedback (Step 4 of 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name one NCCER certification and the career it prepares you for. Then write the first sentence of your Power Pitch (introduce yourself and your most relevant experience). *(d(2)(A), d(3)(G), d(4)(C))*
+**EXIT TICKET:** Name one NCCER certification and explain in one sentence how earning it changes a construction worker's salary OR responsibilities (use a specific comparison — before/after, or compared to an uncertified peer). Then write the first two sentences of your Power Pitch. *(d(2)(A), d(3)(G), d(4)(C))*
 
 ---
 
