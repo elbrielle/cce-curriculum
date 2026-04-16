@@ -67,6 +67,7 @@ nav:
       - Day 3 — Peer Feedback + Integrity: 1sw/wk5-cybersecurity-it/day3.md
       - Day 4 — Glowforge College Logo: 1sw/wk5-cybersecurity-it/day4.md
       - Day 5 — 1SW Capstone Reflection: 1sw/wk5-cybersecurity-it/day5.md
+    - 1SW CFA — Your IT Future: 1sw/cfa.md
   - 2nd Six Weeks — Law & Public Service + Health Science:
     - Wk 1 — Legal Studies:
       - Overview: 2sw/wk1-legal-studies/overview.md
@@ -287,6 +288,7 @@ nav:
     - TEKS Coverage Matrix: resources/teks-coverage-matrix.md
     - Free Resource Directory: resources/free-resource-directory.md
     - Facilitation Strategies: resources/facilitation-strategies.md
+    - CFA Template: resources/cfa-template.md
 
 markdown_extensions:
   - admonition
