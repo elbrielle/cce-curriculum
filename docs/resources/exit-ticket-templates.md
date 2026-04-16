@@ -256,11 +256,19 @@ in the first 15 minutes, and why:
 
 **When to use:** wrap-up days, synthesis days, or days where the objective is "connect today's content to prior learning." Especially strong for six-weeks cluster wrap-up days.
 
-**Structure sketch:** Central node labeled with today's main concept. 3-5 connected nodes student fills in with related concepts from today + prior weeks. Each connecting line labeled with the relationship ("is a type of," "led to," "requires," "prepares for").
+**Structure sketch:** Center labeled with today's key concept or artifact (e.g., the career the student favorited). Two to four connection lines radiating out, each terminating at a named concept from today or a prior week. Each line labeled with the relationship between center and endpoint in one sentence. Keep the line count low (2-3 is usually right) so the ticket stays scannable for the teacher.
 
-**Mastery signal:** connections reach beyond today, with at least one line to a prior-week concept and an accurate relationship label.
+**Mastery signal:** at least one connection reaches beyond today's lesson to a prior-week concept (RIASEC type, prior cluster, Work Values, earlier career favorited); relationship labels are specific, not generic ("fits my Investigative type because the work is about analyzing evidence" vs. "it matches me").
 
-**Status:** Not yet built.
+**Example (2SW Wk2 Day 5, Law cluster wrap-up and RIASEC fit reflection):**
+
+> Center: My favorited first responder career from this week: ______________________
+>
+> Connection 1: To my Wk0 RIASEC type ______________________. Why this career fits (or does not fit) that type, in one sentence: ______________________
+>
+> Connection 2: To one prior CCE career or cluster I explored before this week (Manufacturing, IT, Programming, Cybersecurity, Tech Support, Legal Services, or other): ______________________. What these two careers share, or how they differ, in one sentence: ______________________
+
+**Status:** Built 2026-04-16 (first use: 2SW Wk2 Day 5).
 
 ---
 

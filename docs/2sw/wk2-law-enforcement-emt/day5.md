@@ -76,9 +76,15 @@ This reflection can be hand-written or typed. It is the d(4)(F) summative check 
 
 ---
 
-## Exit Ticket (2 min)
+## Exit Ticket (3 min)
 
-**EXIT TICKET:** Complete: *"The first responder career I respect the most is _____ because it requires _____."* *(d(1)(C), d(4)(F))*
+**EXIT TICKET** ([Concept Map / Connection Diagram](../../resources/exit-ticket-templates.md#concept-map-connection-diagram)):
+
+Center: My favorited first responder career from this week: _______________________________
+
+Connection 1: To my Wk0 RIASEC type _______________________. Why this career fits (or does not fit) that type, in one sentence: _______________________________________________________
+
+Connection 2: To one prior CCE career or cluster I explored before this week (Manufacturing, IT, Programming, Cybersecurity, Tech Support, Legal Services, or other): _______________________. What these two careers share, or how they differ, in one sentence: ________________________________________________________________ *(d(1)(C), d(4)(F))*
 
 ---
 
