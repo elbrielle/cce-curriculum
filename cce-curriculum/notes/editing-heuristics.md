@@ -234,4 +234,19 @@ If any of these apply, STOP and escalate to the user instead of editing:
 - **A cross-week dependency change** — this is a scope shift
 - **Any edit that would require breaking a `[VERIFY IN eDynamic]` or `[VERIFY IN Xello]` block** — those block on platform access, not your judgment
 
+---
+
+## Reusable Admonition Patterns (author reference)
+
+These pattern templates are kept here, not on teacher-facing resource pages, so the teacher-facing pages stay free of author-voice directives.
+
+**"Need a Facilitation Strategy? Try This"** — point a teacher at the facilitation strategies resource page without rewriting an activity in place:
+
+```
+!!! tip "Need a Facilitation Strategy? Try This"
+    If [specific classroom condition], swap the default [current format] for **[strategy name]**. See [Facilitation Strategies](../../resources/facilitation-strategies.md).
+```
+
+Two sentences: the condition, and the swap. Do not duplicate strategy steps — the resource page carries the detail. First production use: 1SW Wk1 Day 1 jigsaw option (commit `fea941b`).
+
 Escalation is a feature, not a failure. The user sees the concern and decides whether to change scope. Your job is to flag the decision point clearly.

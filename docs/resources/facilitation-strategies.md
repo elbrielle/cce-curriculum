@@ -8,8 +8,6 @@ Quick reference for research-based discussion and reading structures that fit in
 - **By time budget.** Under 5 min: RallyRobin or QSSA. 5 to 10 min: Think-Pair-Share, RoundRobin. 15+ min: Talk-Read-Talk-Write, Jigsaw.
 - **By rigor target.** DOK 1 recall: RallyRobin, Think-Pair-Share. DOK 2 analysis: Talk-Read-Talk-Write, Jigsaw. DOK 3 application: QSSA with a scenario stem.
 
-Insert the "Need a Facilitation Strategy? Try This" admonition inside an activity to point teachers here without rewriting the activity. Template at the bottom of this page.
-
 ---
 
 ## QSSA (Question, Signal, Stem, Answer)
@@ -98,16 +96,3 @@ Insert the "Need a Facilitation Strategy? Try This" admonition inside an activit
 3. Call time. Students return to their seats.
 
 **CCE fit:** Week 0 classroom community building, mid-year cluster check-ins, any week where the seat-partner pattern has gone stale.
-
----
-
-## "Need a Facilitation Strategy? Try This" Admonition Pattern
-
-Insert this admonition inside a daily plan activity when the default format could be enriched but a full rewrite would be invasive:
-
-```
-!!! tip "Need a Facilitation Strategy? Try This"
-    If [specific classroom condition], swap the default [current format] for **[strategy name]**. See [Facilitation Strategies](../../resources/facilitation-strategies.md).
-```
-
-Keep it to two sentences: the condition, and the swap. Do not duplicate the strategy steps. The resource page carries the detail.
