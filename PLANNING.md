@@ -1,42 +1,53 @@
 # PLANNING.md — CCE Curriculum Post-Meeting State
 
-**Last updated:** 2026-04-16
-**Purpose:** Brief any agent on the current state of the CCE curriculum project after the first teacher review meeting (2026-04-15). Teacher feedback intake and triage is the next phase.
+**Last updated:** 2026-04-16 (second session, all §4.1 US-jurisdiction tasks shipped)
+**Purpose:** Brief any agent on the current state of the CCE curriculum project after the first teacher review meeting (2026-04-15). §4.1 US-jurisdiction work is done; remaining queue is team-blocked, investigation tasks, and deferred items.
 
 ---
 
 ## 0. Next Agent — Start Here
 
-**Handoff date:** 2026-04-16
+**Handoff date:** 2026-04-16 (evening — after §4.1 completion batch)
 
-### What happened this session (so you don't redo it)
+### What happened in the second session (so you don't redo it)
 
-- **Context pruned aggressively.** PLANNING.md 699→250, CLAUDE.md 195→122, README/GUIDE-FORMAT cleaned up.
-- **36 legacy `cce-curriculum/guides/` files deleted** from git (old `.docx` format with deprecated `> **Teacher:** "..."` scripting — major hallucination risk for agents). Also deleted: `build/validate.py` (validates the old format), `cce-curriculum/notes/development-notes.md` (stale).
-- **Teacher meeting held 2026-04-15.** Feedback synthesized into §4 below with jurisdiction sort (us / team / hybrid / deferred).
-- **`v1-teacher-review` tagged on gh-pages** — frozen record of exactly what teachers reviewed. Never modify this version.
-- **Deploy workflow fixed** — daily snapshots now only fire when `docs/` or `mkdocs.yml` actually changed (prior version fired on any commit).
-- **Email sent to teacher team** with feedback summary and two blocking questions (B4 Drone/Robotics overlap, H&L workbook timeline). Awaiting responses.
+All nine §4.1 US-jurisdiction items shipped and pushed to `main` as separate commits, each passing the §9 preservation loop:
+
+- **C2** Wk0 Day 1 menu wording fix (commit `fea941b` batch 1)
+- **B5** Wk0 Day 2 Xello "What is CTE" module (5 min) inserted; activity numbering updated; time bumped 50 → 55 min; Xello added to Materials (batch 1)
+- **A2/A3** New `docs/resources/facilitation-strategies.md` (QSSA, Think-Pair-Share, Talk-Read-Talk-Write, Jigsaw, 3 Kagan structures + "Need a Facilitation Strategy? Try This" admonition template). First use case admonition applied to 1SW Wk1 Day 1 Activity 1 jigsaw option (C1). nav updated (batch 1).
+- **C3/C4** Hour of Code exit tickets (Wk2 Days 4-5) rewritten with sentence-stem + word-bank format, Day 5 favorites reflection stem reformatted with long underlines (commit `d9ad853`)
+- **A6** Engineering notebook added as yearlong standard supply to Wk0 overview and Day 1; pattern seeded in two exemplar deliverables (1SW Wk1 Day 1 Stop and Jot, 5SW Wk1 Day 3 Architecture sketch) (commit `a87d597`)
+- **A1** Exit ticket DOK audit: 178 exit tickets classified, 20 clear recall-only rewritten as DOK 2-3 (comparison / classification / self-spiral application). ~160 already DOK 2+, borderline, or two-part (preserved). Full list in commit message (commit `1b7ec9b`)
+- **A4/A7** New `docs/resources/cfa-template.md` + `docs/1sw/cfa.md` "Your IT Future" 20-min ECR CFA. Template describes 4-part structure (Identify / Compare / Connect-to-Self / Forward Action), 4-level rubric, >30% threshold trigger for reteach. 2SW-6SW CFAs flagged as round-2-feedback-dependent (commit `5879218`)
+- **A5** TEKS coverage matrix upgraded from binary to three-tier (Explicit / Implicit / Gap). 33/37 codes Explicit, 4 Implicit (d(3)D, d(3)F, d(4)D, d(4)E), 0 hard gaps. Round-2 deepening candidates flagged. d(8) buffer-week risk called out with mitigation options (commit `575be17`)
+- **B2** JROTC audit: 2 new military-adjacent touchpoints added (2SW Wk2 Law Enforcement overview, 1SW Wk5 Day 4 Glowforge Logo) matching 4SW Wk3 framing (commit `2ace0bf`)
+- **B3** New `docs/resources/health-science-extensions.md` placeholder file for PT, Sonography, Sports Medicine with `<!-- SOURCE_PENDING: -->` tags and integration hooks into existing weeks (commit `4a80740`)
+- **B1** 2SW Wk4 restructure: dental-primary, medical billing cut to single-day (Day 4) Health Informatics intro. Overview title / objective / Week at a Glance updated. Day 1 rewritten (dental pathway intro). Day 2 Activity 3 flow updated. Day 4 Activity 1 absorbs billing pathway overview (commit `6da8060`)
+- **Irving ISD pathway rename** from "Irving ISD Pathway:" to "What is Happening at Irving ISD?" across 34 overview files to align with H&L's personalized-workbook framing (commit `08524c3`)
 
 ### Read in this order before editing
 
 1. **`CLAUDE.md`** — project rules
-2. **`PLANNING.md`** §3 (format rules), §4 (feedback intake — your main work queue), §8 (non-negotiables), §9 (preservation loop), §10 (lessons learned)
+2. **`PLANNING.md`** §3 (format rules), §4 (feedback intake with completion marks), §8 (non-negotiables), §9 (preservation loop), §10 (lessons learned)
 3. **`cce-curriculum/notes/editing-heuristics.md`** — dependency-scope protocol and grep recipes
 
-### Recommended first three tasks (from §4.1 "Do now" priority)
+### Recommended next tasks
 
-1. **C2 — "menu" hallucination fix in Wk0 Day 1** (~5 min). Grep for `menu` in `docs/1sw/wk0-classroom-routines/day1.md`; reword wherever it means "curriculum options" not food.
-2. **B5 — "What is CTE" Xello module into Wk0 Day 2** (~15 min). District-created Xello module. Slot alongside the existing H&L setup in `docs/1sw/wk0-classroom-routines/day2.md`.
-3. **A2/A3 — Facilitation strategies resource page** (~1-2 hours). Create `docs/resources/facilitation-strategies.md` covering QSSA, Think-Pair-Share, Talk-Read-Talk-Write, and 2-3 Kagan structures. Add a "Need a Facilitation Strategy? Try This" admonition pattern. Apply to 1SW Wk1 Day 1 Activity 1 jigsaw option (C1) as the first use case. Update `mkdocs.yml` nav.
+All §4.1 US-jurisdiction tasks are done. The remaining actionable work:
 
-After those three, work the §4.1 "Do soon" queue: exit ticket DOK audit (A1), CFA template (A4/A7), Hour of Code fixes (C3/C4).
+1. **Resume §5 Instinct Review** — 22 weeks still need adversarial Teacher Implementer / Curriculum Writer dialog. Tier 1 priority: 2SW Wk2 (Law/EMT), 3SW Wk5 (Cosmetology), 5SW Wk4 (HVAC), 4SW Wk5 (Automotive), 3SW Wk6 (Entrepreneurship).
+2. **§4.3 C5 Xello vs H&L platform overlap** — hybrid task needing investigation. Prep: audit each platform's prerequisite chains, compare effectiveness per purpose, then make the call.
+3. **§7 Resource backlog** — student worksheets for high-stakes summatives (6SW Wk6 Capstone rubric, 4SW Wk2 Career Plan, 5SW Wk5 Budget) are the highest-value artifacts.
+4. **Round-2 deepening candidates** from the new TEKS matrix: d(3)D impact of effective planning, d(3)F co-curricular importance, d(4)E community service. All three have specific suggested edits in `docs/resources/teks-coverage-matrix.md`.
+5. **CFA rollout for 2SW-6SW** — wait for round-2 teacher feedback on the 1SW CFA before building the other five. Per A4/A7 design note.
 
 ### Do NOT
 
 - Touch `v1-teacher-review` version — it's the preserved pre-feedback baseline
 - Recreate `cce-curriculum/guides/` — deleted on purpose
-- Start on B4 or H&L workbook timeline — blocked on team email response
+- Start on B4 or H&L workbook timeline — still blocked on team email response
+- Build 2SW-6SW CFAs yet — waiting on round-2 teacher feedback on the 1SW sample
 - Push to main without running the §9 preservation loop first
 - Push without explicit user permission
 
@@ -108,27 +119,26 @@ Three sources of feedback collected: Google Form (2 responses, E. O'Connor), han
 
 ### 4.1 US JURISDICTION — Elisha + Claude decide and implement
 
-No blocker. Priority order below:
+**STATUS: All items shipped (2026-04-16 session 2).** See §0 for commit-by-commit log.
 
-**Do now (structural, unblocks other work):**
-- **A2/A3 Facilitation strategies resource page** — new `docs/resources/facilitation-strategies.md` + "Try This" admonition pattern referencing QSSA, Think-Pair-Share, Talk-Read-Talk-Write, Kagan structures. Added to warm-ups and activities where a specific strategy fits naturally.
-- **B5 "What is CTE" Xello module** — slot into Wk0 Day 2 alongside H&L setup (district-created module, teacher-confirmed expected).
-- **C2 Wk0 Day 1 "menu" hallucination** — reword wherever "menu" meant curriculum options, not food.
+- ~~**A1 Exit ticket DOK audit**~~ — 20 recall-only tickets rewritten as DOK 2-3 (commit `1b7ec9b`)
+- ~~**A2/A3 Facilitation strategies resource page**~~ — shipped (commit `fea941b`)
+- ~~**A4/A7 CFA template + first 1SW sample**~~ — template + 1SW CFA "Your IT Future" (commit `5879218`). 2SW-6SW deferred to round-2 feedback
+- ~~**A5 TEKS coverage depth map**~~ — three-tier upgrade (commit `575be17`)
+- ~~**A6 Engineering notebook as standard supply**~~ — added to Wk0 + 2 exemplars (commit `a87d597`)
+- ~~**B1 Medical billing cut**~~ — 2SW Wk4 dental-primary restructure (commit `6da8060`)
+- ~~**B2 JROTC light audit**~~ — 2 new military-adjacent touchpoints (commit `2ace0bf`)
+- ~~**B3 PT / Sonography / Sports Medicine placeholders**~~ — scaffolding file with `SOURCE_PENDING` tags (commit `4a80740`)
+- ~~**B5 "What is CTE" Xello module**~~ — slotted into Wk0 Day 2 (commit `fea941b`)
+- ~~**C1 Jigsaw tip for 1SW Wk1 Day 1**~~ — first A3 pattern use case (commit `fea941b`)
+- ~~**C2 Wk0 Day 1 menu hallucination**~~ — reworded (commit `fea941b`)
+- ~~**C3 Hour of Code exit ticket rewrite**~~ — sentence stem + word bank (commit `d9ad853`)
+- ~~**C4 Hour of Code Day 2 sentence stem formatting**~~ — long underlines + word bank (commit `d9ad853`)
+- ~~**Irving ISD pathway section rewording**~~ — renamed to "What is Happening at Irving ISD?" across 34 files (commit `08524c3`)
 
-**Do soon (highest-impact quality fixes):**
-- **A1 Exit ticket DOK audit** — curriculum-wide sweep. Distinguish exit tickets that ARE the DOK assessment vs. recall exit tickets with DOK buried in activity bodies. Rewrite the recall ones as investigative/problem-solving aligned to the day's lesson objective. Consider printable half-page templates with diagrams or prompts.
-- **A4/A7 CFA template design + first 1SW sample** — ECR-style, 20 min, rubric aligned to block TEKS, application-based not recall. Develop format, ship first CFA for 1SW, collect round-2 feedback from teachers.
-- **C1 Jigsaw tip for 1SW Wk1 Day 1 Activity 1** — facilitation tip admonition offering jigsaw as an alternative to note-taking on p. 230 (first use case for the A3 pattern).
-- **C3 Hour of Code exit ticket rewrite** — sentence stem + word bank pulling vocabulary from the lesson and spiraling back to Wk0 Work Values.
-- **C4 Hour of Code Day 2 sentence stem formatting** — fix the short underlines, use word bank.
-
-**Do when ready:**
-- **A5 TEKS coverage depth map** — upgrade `teks-coverage-matrix.md` from binary to three-tier (explicit / implicit / gap). Drives future lesson deepening.
-- **A6 Engineering notebook as standard supply** — budget assumed OK; add to Wk0 materials, propagate to deliverable specs where "sketch in notebook" fits.
-- **B1 Medical billing cut** — 2SW Wk4 restructure; reduce from current 5-day week to 1-2 days within the dental week. Redistribute freed days within dental or to related health topic.
-- **B2 JROTC light audit** — JROTC is already handled correctly (3 mentions across 4SW Wk3 Aviation only, as integrated connection not a dedicated week). Audit for 1-2 more touchpoints in military-adjacent weeks (e.g., 2SW Wk2 Law Enforcement).
-- **B3 PT / Sonography / Sports Medicine placeholder scaffolding** — create files with clear findable tags (e.g., `<!-- SOURCE_PENDING: PT_sports_med -->`) so coordinators can drop content in later without restructuring. Defer actual source materials to health science coordinators.
-- **Irving ISD pathway section rewording** — align language with H&L's "What is Happening at Irving ISD?" framing. Data we already have; language tightening only.
+**Round-2 follow-ups to watch for:**
+- 1SW CFA results: if >30% of students score ≤2 on any part, the CFA template's reteach triggers fire. Data back-flows into the 2SW block plan.
+- Three TEKS deepening candidates flagged in `docs/resources/teks-coverage-matrix.md`: d(3)D (impact of planning), d(3)F (co-curricular), d(4)E (community service).
 
 ### 4.2 TEAM JURISDICTION — Email and block on their input
 
