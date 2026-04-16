@@ -85,9 +85,22 @@ This is a starting draft. They will continue and finish on Day 4.
 
 ---
 
-## Exit Ticket (2 min)
+## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name your team's emergency scenario, your assigned role, and the FIRST action your role would take in the first 15 minutes. *(d(1)(C), d(4)(F))*
+**EXIT TICKET** ([Decision Tree / Branching Prompt](../../resources/exit-ticket-templates.md#decision-tree-branching-prompt)):
+
+Role: _______________________ Scenario: _______________________
+
+At minute 0, my first action is: _______________________________________
+
+Why? One sentence using today's content: _______________________________
+
+At minute 5, I check whether: __________________________________________
+
+- IF YES: ______________________________________________________________
+- IF NO: _______________________________________________________________
+
+One other role on my team whose decisions affect mine in the first 15 minutes, and why: _______________________________________________________ *(d(1)(C), d(4)(F))*
 
 ---
 

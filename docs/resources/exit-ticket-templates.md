@@ -170,13 +170,61 @@ that wasn't in today's in-class activity.]
 
 ### Decision Tree / Branching Prompt
 
-**When to use:** objective involves sequential decision-making or role-specific reasoning ("If your role is X, what do you do first and why?").
+**When to use:** objective involves sequential decision-making or role-specific reasoning ("If your role is X, what do you do first and why?"). Fits days where students take on a role and must reason from situation to action.
 
-**Structure sketch:** Initial condition or role at top. 2-3 branches student fills in, each with a "first action" + "why" + "what happens next" sequence.
+**Structure sketch:** Initial condition at top (role + scenario). A first action + justification. A conditional check that branches (IF YES / IF NO) based on a situation assessment. A team-interdependency line closing the loop.
 
-**Mastery signal:** branches respect the framework's decision rules; "why" lines cite specific day content.
+**Mastery signal:** first action is role-appropriate and justified with a specific reason from today; conditional branches are both realistic; interdependency names a role whose decisions would genuinely affect the student's.
 
-**Status:** Not yet built.
+**Printable layout (half-page):**
+
+```
+--------------------------------------------------------
+EXIT TICKET: [Day title]                     Name: _____
+--------------------------------------------------------
+
+Role: ________________   Scenario: _______________
+
+At minute 0, my first action is:
+
+   __________________________________________________
+
+Why? One sentence using today's content:
+
+   __________________________________________________
+
+At minute 5, I check whether:
+
+   __________________________________________________
+
+   IF YES: _________________________________________
+
+   IF NO: __________________________________________
+
+One other role on my team whose decisions affect mine
+in the first 15 minutes, and why:
+
+   __________________________________________________
+--------------------------------------------------------
+```
+
+**Example (2SW Wk2 Day 3, Task Force role-assignment day):**
+
+> Role: EMT Team Lead. Scenario: Hurricane (flooding + power outages).
+>
+> At minute 0, my first action is: contact Silver Ridge Regional Hospital to confirm generator capacity and bed availability.
+>
+> Why? One sentence using today's content: the city brief noted the hospital generator already overloaded once during Hurricane Calder, so I need to know if the hospital can take injured evacuees before I start routing patients.
+>
+> At minute 5, I check whether: the hospital confirms it can take critical patients.
+>
+> IF YES: I direct ambulances to Silver Ridge Regional Hospital as the primary receiving site.
+>
+> IF NO: I coordinate with the Public Information Officer to alert residents to shelter-in-place and prepare the Green Valley High School gym as a field triage site (named in the city brief as a backup with generator).
+>
+> One other role on my team whose decisions affect mine in the first 15 minutes, and why: the Police Officer / Sheriff, because their traffic control and evacuation routing determines whether my ambulances can reach the hospital or the field triage site.
+
+**Status:** Built 2026-04-16 (first use: 2SW Wk2 Day 3).
 
 ---
 
