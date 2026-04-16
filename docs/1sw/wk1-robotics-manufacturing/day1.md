@@ -44,6 +44,9 @@ After 5 minutes, call on 3-4 pairs to share. Listen for understanding that manuf
 !!! tip "Facilitation Tip"
     Most students think "manufacturing = factory worker" and stop there. Push them: "Who designed the assembly line? Who programs the robots? Who tests the products before they ship? Who manages the factory floor?" Each of these is a separate Hat.
 
+!!! tip "Need a Facilitation Strategy? Try This"
+    If a teacher read-aloud of the six pathways lands flat, swap it for a **Jigsaw**: assign one pathway per table group, give expert groups 6 minutes to prep 2 to 3 key points, then re-sort into home groups of 6 for peer teaching. See [Facilitation Strategies](../../resources/facilitation-strategies.md).
+
 ---
 
 ## Activity 2: H&L Manufacturing Cluster App Exploration with Stop and Jot (20 min)

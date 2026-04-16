@@ -14,7 +14,7 @@
 
 !!! abstract "This is a flex day. Pick what your campus needs."
 
-    Day 1 is the natural routines day. Use the full period for Lab Routines + Safety Contract, run one of the shorter H&L Ch 1 activities below, handle a campus event, or let SSO and roster issues resolve. The core CCE content begins on Day 2. Zero minutes of this menu is fine if your campus ate Monday.
+    Day 1 is the natural routines day. Use the full period for Lab Routines + Safety Contract, run one of the shorter H&L Ch 1 activities below, handle a campus event, or let SSO and roster issues resolve. The core CCE content begins on Day 2. Zero minutes of these options is fine if your campus ate Monday.
 
 ---
 

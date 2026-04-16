@@ -4,11 +4,11 @@
 
 | | |
 |---|---|
-| **Time** | 50 minutes |
-| **Objectives** | Set up the H&L Climber Profile; learn the six core personality types (RIASEC); complete the H&L "Discover My Core" assessment; record results in the workbook and Climber Profile |
+| **Time** | 55 minutes |
+| **Objectives** | Frame CCE as the middle-school on-ramp to Irving ISD CTE pathways; set up the H&L Climber Profile; learn the six core personality types (RIASEC); complete the H&L "Discover My Core" assessment; record results in the workbook and Climber Profile |
 | **TEKS** | d(1)(A), d(1)(B) |
 | **Deliverable** | H&L Climber Profile active + RIASEC results entered in workbook (Ch 1, p. 12-13) and visible on Climber Profile |
-| **Materials** | H&L Workbook Ch 1 (pp. 12-13), Chromebooks, projector, Clever/ClassLink credentials, RIASEC visual reference (Doer / Analyzer / Creator / Helper / Persuader / Organizer) |
+| **Materials** | H&L Workbook Ch 1 (pp. 12-13), Chromebooks, projector, Clever/ClassLink credentials, Xello accounts, RIASEC visual reference (Doer / Analyzer / Creator / Helper / Persuader / Organizer) |
 
 ---
 
@@ -25,7 +25,20 @@ Collect quick verbal responses. Tell students they will test their prediction in
 
 ---
 
-## Activity 1: H&L Account Setup and Climber Profile Orientation (15 min)
+## Activity 1: What is CTE? Xello Module (5 min)
+
+**Source:** Xello 7th-grade district-created module "What is CTE."
+
+Before students log into H&L, frame CCE as the middle-school on-ramp into Irving ISD's CTE pathways that begin in 8th grade and accelerate at Singley, MacArthur, Nimitz, Cardwell, and Irving High. Students log into Xello and launch the district's "What is CTE" module. They work through it at their own pace and return to the group when finished.
+
+> [VERIFY IN Xello] Confirm the district-created "What is CTE" module is published in your Xello account at the start of the semester. If it is not yet pushed, substitute a 5-minute teacher-led framing of CTE using the Irving ISD CTE Offerings by Campus page (irvingisd.net).
+
+!!! warning "Common Issue"
+    Xello and H&L use different SSO providers. If a student cannot log into Xello, have them start Activity 2 on H&L instead and return to the Xello module during Day 5 catch-up. Do not let a Xello login block H&L setup.
+
+---
+
+## Activity 2: H&L Account Setup and Climber Profile Orientation (15 min)
 
 Project the H&L login page on the screen. Walk students through SSO login via Clever or ClassLink (whichever your campus uses). Once students are logged in, they should see their Climber dashboard with an empty Climber Profile.
 
@@ -45,7 +58,7 @@ Frame the H&L vocabulary the workbook uses: students are **Climbers**, careers a
 
 ---
 
-## Activity 2: Introduction to the 6 Core Personality Types and Discover My Core Assessment (25 min)
+## Activity 3: Introduction to the 6 Core Personality Types and Discover My Core Assessment (25 min)
 
 **Source:** H&L Workbook Ch 1, p. 12-13. "Learning My Core Personality Type" and "Learn Your Personality Types."
 

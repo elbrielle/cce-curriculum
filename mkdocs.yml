@@ -286,6 +286,7 @@ nav:
     - Resources Status & Backlog: resources/resources-status.md
     - TEKS Coverage Matrix: resources/teks-coverage-matrix.md
     - Free Resource Directory: resources/free-resource-directory.md
+    - Facilitation Strategies: resources/facilitation-strategies.md
 
 markdown_extensions:
   - admonition
