@@ -1,12 +1,12 @@
-# Day 4: Medical Coding Simulation
+# Day 4: Health Informatics + Medical Coding Simulation
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Understand the basics of medical coding (ICD-10); apply codes to simulated patient charts; explain why accuracy is critical in medical billing |
-| **TEKS** | d(2)(A) |
+| **Objectives** | Understand the Medical Billing and Coding career pathway as a short-credential entry into healthcare; understand the basics of medical coding (ICD-10); apply codes to simulated patient charts; explain why accuracy is critical in medical billing |
+| **TEKS** | d(2)(A), d(5)(B) |
 | **Deliverable** | Coding accuracy sheet (3 rounds, score recorded) + 1-sentence answer to "Why does accuracy matter?" |
 | **Materials** | Chromebooks, simplified ICD-10 reference sheet (10 codes), simulated patient charts (8 visit descriptions), printed coding worksheet, projector |
 
@@ -20,9 +20,20 @@ Take 2-3 responses. Bridge: real medical codes are NOT random. They follow stric
 
 ---
 
-## Activity 1: Intro to Medical Coding (12 min)
+## Activity 1: Medical Billing Pathway + Intro to Medical Coding (12 min)
 
-Project a brief overview of medical coding on the screen:
+**Medical Billing and Coding career pathway (3 min).** Project these facts:
+
+- **Credential:** Certified Medical Billing and Coding Specialist (industry-standard, nationally recognized). Medical Billing is NOT currently offered as a dedicated Irving ISD CTE pathway; this is a career-exploration overview.
+- **Training route:** community college or private program, 6-12 months post-HS; some dual-credit options in senior year.
+- **Workplaces:** hospitals, clinics, insurance companies, physician offices, remote work-from-home.
+- **DFW salary:** ~$42K entry (BLS Medical Records Specialists; 8% growth, "much faster than average").
+
+This is the "short-credential" alternative students heard about at the start of this block. No 4-year degree required. Now they try the job.
+
+While students listen, they fill in the **Medical Biller row** on the Career Comparison worksheet (Education Time: 6-12 month cert; Certification: Certified Medical Billing and Coding Specialist; DFW Salary: ~$42K; Job Growth: 8%). Students classify Medical Biller as high-demand (low entry barrier + 8% growth) at the end of this block.
+
+**Intro to medical coding (9 min).** Project a brief overview of medical coding on the screen:
 
 - **What it is:** Translating what doctors do into standardized codes for insurance billing
 - **The two main code systems:**

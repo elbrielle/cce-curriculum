@@ -1,10 +1,10 @@
-# Week 4: Behind the Scenes — Dental and Medical Billing Careers
+# Week 4: Dental Science Careers + Health Informatics
 
 **2nd Six Weeks** | Health Science Cluster | 5 class periods (50 min each)
 
 ## Lesson Objective
 
-Students explore Health Informatics (medical billing/coding) and Dental Science careers through Hats & Ladders, design a "perfect toothbrush" using the H&L Ch 9 dental activity, run a medical coding simulation, and connect Xello Education Experience and School Subjects at Work to healthcare careers.
+Students explore the Dental Science pathway through Hats & Ladders, design a "perfect toothbrush" using the H&L Ch 9 dental activity, connect Xello Education Experience and School Subjects at Work to healthcare careers, and run a focused medical coding simulation that introduces Health Informatics as a short-credential alternative entry into healthcare. Dental is the primary focus (aligned to the Singley Academy Dental pathway); medical billing/coding appears on a single day as career-exploration content (no Irving ISD pathway at this time).
 
 ## Demonstration of Learning
 
@@ -58,10 +58,10 @@ The H&L workbook (Ch 9: Health Science, pp. 140-143) provides the major activity
 
 | Day | Focus | Key Activities | Deliverable |
 |-----|-------|---------------|-------------|
-| 1 | Health Informatics + Medical Billing | H&L Ch 9 Health Informatics pathway, Medical Billing career overview (BLS), begin Career Comparison | Hat Research template (1 health informatics career) |
-| 2 | Perfect Toothbrush + Dental Pathway | H&L Ch 9 "Perfect Toothbrush" activity (pp. 140-142), dental Hat Finder, complete Career Comparison worksheet | Toothbrush design + completed Career Comparison (3 careers) |
-| 3 | Xello Education Experience + School Subjects | Xello Education Experience + School Subjects at Work activities, college credit discussion | Xello completion screens + connection paragraph |
-| 4 | Medical Coding Simulation | Intro to ICD-10 coding, 3-round simulation with patient charts, accuracy challenge | Coding accuracy sheet (3 rounds, score recorded) |
+| 1 | Dental Pathway Intro + Hat Research | H&L Ch 9 Dental pathway overview, Dental Hat Finder (Assistant, Hygienist, Dentist), Hat Research template for one dental career | Hat Research template (1 dental career) + first row of Career Comparison (Dental Hygienist) |
+| 2 | Perfect Toothbrush + Design Thinking | H&L Ch 9 "Perfect Toothbrush" activity (pp. 140-142), continue Dental Hat Finder, complete Career Comparison worksheet | Toothbrush design + completed Career Comparison (3 careers) |
+| 3 | Xello Education Experience + School Subjects | Xello Education Experience + School Subjects at Work activities, college credit discussion for dental and health science pathways | Xello completion screens + connection paragraph |
+| 4 | Health Informatics + Medical Coding Simulation | Brief Medical Billing career overview (BLS, 6-12 month credential pathway), then 3-round ICD-10 coding simulation with patient charts | Coding accuracy sheet (3 rounds, score recorded) |
 | 5 | Health Science Mid-Point Reflection | H&L favorites update, recommendation paragraph, mid-cluster reflection | Recommendation paragraph (1 career to a friend) + updated Climber Profile |
 
 ## Formative Assessment

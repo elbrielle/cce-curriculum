@@ -69,17 +69,18 @@ Students notice that dental has its own "ladder" similar to nursing. Each step u
 
 ## Activity 3: Complete Career Comparison Worksheet (8 min)
 
-Students return to the Career Comparison worksheet from Day 1. They complete the **Dental Hygienist** and **RN** rows using H&L data and BLS supplements.
+Students return to the Career Comparison worksheet from Day 1 (Dental Hygienist row is already filled). They complete the **RN** row today using H&L data and BLS supplements. The Medical Biller row is filled on Day 4 after the Health Informatics pathway intro.
 
-After all 3 rows are filled in, students **classify** each career as high-skill, high-wage, high-demand, or a combination. They write a 1-sentence rationale per classification using the sentence stem:
+After both dental and RN rows are filled, students **classify** the two careers as high-skill, high-wage, high-demand, or a combination. They write a 1-sentence rationale per classification using the sentence stem:
 
 > "I classify _____ as _____ because the BLS data shows _____ (specific evidence)."
 
 Example classifications:
 
-- **Medical Biller:** High-demand (8% growth, low entry barrier)
-- **Dental Hygienist:** High-skill + high-wage (associate degree + $80K salary)
+- **Dental Hygienist:** High-skill + high-wage (associate degree + $82K salary)
 - **RN:** High-skill + high-wage + high-demand (all three)
+
+Students will classify **Medical Biller** on Day 4 after the Health Informatics pathway intro.
 
 **DOK 3:** Based on your comparison data, which of these three health science careers would you classify as the BEST option for someone who wants to start working quickly in a high-demand field? Support your answer with specific data.
 
