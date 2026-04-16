@@ -34,7 +34,7 @@ Students explore the Information Technology Support and Services pathway in Hats
 
 Tech Support is the front line of every IT organization. Help Desk Technicians, IT Support Specialists, Desktop Support Technicians, and Systems Administrators keep businesses running by solving technology problems. What makes this pathway special is that you do NOT always need a 4-year college degree to enter it. Many IT support professionals start with a high school diploma plus industry certifications like **CompTIA A+** (the entry-level IT certification used worldwide).
 
-**Irving ISD Pathway:** **Technology Support Services at Singley Academy** leads to the **Computer Repair Technology (Job Ready)** certification. This is a direct entry point into IT support careers for students who want to start working right after high school instead of going to college. A student with this credential can earn $40-50K starting salary in DFW.
+**What is Happening at Irving ISD?** **Technology Support Services at Singley Academy** leads to the **Computer Repair Technology (Job Ready)** certification. This is a direct entry point into IT support careers for students who want to start working right after high school instead of going to college. A student with this credential can earn $40-50K starting salary in DFW.
 
 ## Vocabulary
 

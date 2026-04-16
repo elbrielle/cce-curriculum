@@ -36,7 +36,7 @@ Students explore the Manufacturing career cluster through the Hats & Ladders app
 
 Manufacturing is one of the fastest-evolving career fields in the U.S. Modern factories look nothing like the assembly lines of 50 years ago. Today's manufacturing professionals work alongside robots, use computer-aided design, and operate multi-million dollar CNC machines. The DFW area is a major manufacturing hub, with employers ranging from Lockheed Martin to Toyota to thousands of mid-sized contract manufacturers.
 
-**Irving ISD Pathway:** **Robotic Manufacturing at Singley Academy** (part of Singley's School of Innovative Technology) prepares students for industry-recognized manufacturing credentials. Students who follow this pathway can graduate with a credential that gets them hired at real factories without a 4-year degree. **Welding** is offered separately at **MacArthur High School** under the Architecture, Construction and Engineering school.
+**What is Happening at Irving ISD?** **Robotic Manufacturing at Singley Academy** (part of Singley's School of Innovative Technology) prepares students for industry-recognized manufacturing credentials. Students who follow this pathway can graduate with a credential that gets them hired at real factories without a 4-year degree. **Welding** is offered separately at **MacArthur High School** under the Architecture, Construction and Engineering school.
 
 ## Vocabulary
 

@@ -31,7 +31,7 @@ Students engage with four H&L Powerskills modules (Conflict Resolution, Giving a
 
 Communication is consistently ranked the #1 skill employers want across ALL industries. In healthcare, poor communication can be life-threatening, a nurse who does not listen carefully to a patient's symptoms could miss a critical diagnosis. A medical biller who does not write clearly could cost a hospital thousands of dollars. After two content-intense weeks (Law cluster + Health Science cluster), Week 5 shifts gears from career exploration to the powerskills that transfer across every career. The mode changes, less reading and discussion of clusters, more hands-on practice of skills, and the H&L Powerskills workbook activities are paired with teacher-led healthcare role-plays so students see soft skills applied in context.
 
-**Irving ISD Pathway:** All Irving ISD Health Science pathways. Communication and goal-setting are transferable skills that apply to every career cluster, every Singley Academy program, and every job a student will ever have.
+**What is Happening at Irving ISD?** All Irving ISD Health Science pathways. Communication and goal-setting are transferable skills that apply to every career cluster, every Singley Academy program, and every job a student will ever have.
 
 ## Vocabulary
 

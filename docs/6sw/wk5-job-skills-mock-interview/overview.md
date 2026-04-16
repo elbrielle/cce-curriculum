@@ -37,7 +37,7 @@ Students complete the full job-seeking skill set: identify job search steps, wri
 
 Students assemble the full professional-document set (cover letter, application, references, thank-you letter) and practice a mock interview with peer feedback. These are the documents and the interview format used in any job application across every Irving ISD pathway.
 
-**Irving ISD Pathway:** This week's content is universal across all Irving ISD CTE pathways, every pathway eventually requires students to interview, apply, and provide references when they enter the workforce.
+**What is Happening at Irving ISD?** This week's content is universal across all Irving ISD CTE pathways, every pathway eventually requires students to interview, apply, and provide references when they enter the workforce.
 
 ## Vocabulary
 

@@ -46,7 +46,7 @@ Students finalize their H&L Career Plan, select a top career pathway based on a 
 
 Over 36 weeks students have explored every CTE cluster: Manufacturing, IT, Law & Public Service, Health Science, Agriculture, Hospitality, Human Services, Business / Marketing / Finance, Aviation, Automotive, Skilled Trades, Architecture, Civil Engineering, Construction, Real Estate, Education, Arts & A/V, and Sales. By this week they have a resume, a cover letter, a thank-you letter, a mock interview, references identified, a personal budget, and dozens of researched career profiles. If you run this week, students pull it all into a polished Career Plan they take home for 9th-grade counselor meetings.
 
-**Irving ISD Pathway:** Students select and present the SPECIFIC Irving ISD CTE pathway they want to begin in 9th grade. Any pathway from any Irving ISD high school explored during the year is valid.
+**What is Happening at Irving ISD?** Students select and present the SPECIFIC Irving ISD CTE pathway they want to begin in 9th grade. Any pathway from any Irving ISD high school explored during the year is valid.
 
 ## Vocabulary
 

@@ -35,7 +35,7 @@ Students explore the H&L Automotive & Collision Repair pathway (Ch 15), complete
 
 The automotive industry is one of the largest employers in America, and the DFW metroplex is a major hub for dealerships, fleet maintenance, collision centers, and diesel repair. What makes automotive careers different from most others students have explored is the **apprenticeship model:** many technicians enter the field through paid on-the-job training combined with technical school, earning money while they learn. ASE (Automotive Service Excellence) certification is the industry standard, and Irving ISD's **Ratteree Career Development Center** offers the Automotive pathway for students to begin ASE preparation during high school.
 
-**Irving ISD Pathway:** **Automotive** is offered at **Ratteree Career Development Center** as a travel-to career-center pathway. Students from any home high school can attend Ratteree for part of their day and prepare for **Automotive Service Excellence (ASE)** certification.
+**What is Happening at Irving ISD?** **Automotive** is offered at **Ratteree Career Development Center** as a travel-to career-center pathway. Students from any home high school can attend Ratteree for part of their day and prepare for **Automotive Service Excellence (ASE)** certification.
 
 ## Vocabulary
 

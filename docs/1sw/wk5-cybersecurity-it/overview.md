@@ -36,7 +36,7 @@ Students explore the Cybersecurity pathway through Hats & Ladders, complete the 
 
 Cybersecurity is one of the most critical and fastest-growing career fields in the world. Every company, hospital, school, and government agency needs cybersecurity professionals. In the U.S., there are currently hundreds of thousands of UNFILLED cybersecurity jobs because there are not enough trained professionals, meaning a 7th grader who decides to pursue cybersecurity now will graduate into a wide-open job market. This is also a career where **integrity** and **work ethic** are not optional, cybersecurity professionals are trusted with the most sensitive data of millions of people.
 
-**Irving ISD Pathway:** **Cybersecurity at Singley Academy** leads to the **Cybersecurity Fundamentals** certification. Singley also offers Networking-related coursework that supports cybersecurity. This is a high-demand, high-wage pathway with strong job security. A student who follows this pathway can earn an industry credential in high school and step into a $50K+ entry-level cybersecurity role.
+**What is Happening at Irving ISD?** **Cybersecurity at Singley Academy** leads to the **Cybersecurity Fundamentals** certification. Singley also offers Networking-related coursework that supports cybersecurity. This is a high-demand, high-wage pathway with strong job security. A student who follows this pathway can earn an industry credential in high school and step into a $50K+ entry-level cybersecurity role.
 
 ## Vocabulary
 

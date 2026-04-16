@@ -32,7 +32,7 @@ Students continue exploring the IT cluster with a focus on the Networking System
 
 Networking Systems is the backbone of every modern business. When you connect to your school's Wi-Fi, when your bank app loads, when you text a friend, all of that runs on networks designed and maintained by Network Engineers, Network Architects, and Systems Analysts. Web Development is equally critical. Every business needs a website, and the people who build them are in high demand.
 
-**Irving ISD Pathway:** **Computer Science (District Wide)**, **Programming & Digital Tech (Singley Academy)**, and **Cybersecurity (Singley)** all branch from the IT cluster. Students interested in networking specifically can pursue Cybersecurity at Singley, which includes networking fundamentals as part of the certification path.
+**What is Happening at Irving ISD?** **Computer Science (District Wide)**, **Programming & Digital Tech (Singley Academy)**, and **Cybersecurity (Singley)** all branch from the IT cluster. Students interested in networking specifically can pursue Cybersecurity at Singley, which includes networking fundamentals as part of the certification path.
 
 ## Vocabulary
 

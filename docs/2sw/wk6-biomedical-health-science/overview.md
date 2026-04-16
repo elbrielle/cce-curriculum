@@ -33,7 +33,7 @@ Students explore the Biomedical Science pathway through Hats & Ladders, complete
 
 Biomedical science sits at the intersection of healthcare and technology. Biomedical engineers design artificial organs and prosthetics. Lab technicians develop new drugs and vaccines. Research scientists study diseases at the molecular level. These careers are intellectually demanding and require some of the most extensive postsecondary education in the Health Science cluster, typically a master's or doctoral degree. This is the cluster wrap-up week. Students should leave with a clear picture of which Health Science pathway fits their interests, AND with an updated Career Plan that reflects 2 full six-week periods of exploration.
 
-**Irving ISD Pathway:** Biomedical Science at Irving High School, leads to the Biotechnology Office and Competitive Exam (BACE) certification. Students who complete the pathway can pursue advanced biology and biotechnology programs at university.
+**What is Happening at Irving ISD?** Biomedical Science at Irving High School, leads to the Biotechnology Office and Competitive Exam (BACE) certification. Students who complete the pathway can pursue advanced biology and biotechnology programs at university.
 
 ## Vocabulary
 

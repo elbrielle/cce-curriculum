@@ -36,7 +36,7 @@ Civil engineers design and maintain the infrastructure that holds a city togethe
 
 This is also the week to introduce standardized testing. Most four-year engineering programs are competitive, and PSAT/SAT/ACT scores significantly affect admission and scholarship eligibility. Students entering 7th grade now will take the PSAT 8/9 in 9th grade. It is not too early to plan.
 
-**Irving ISD Pathway:** **Civil Engineering** at **MacArthur High School** (School of Architecture, Construction and Civil Engineering — ACE) prepares students for the AutoDesk Fusion 360 certification. The ACE school also houses Architecture, Construction, and Welding pathways that connect to structural engineering careers.
+**What is Happening at Irving ISD?** **Civil Engineering** at **MacArthur High School** (School of Architecture, Construction and Civil Engineering — ACE) prepares students for the AutoDesk Fusion 360 certification. The ACE school also houses Architecture, Construction, and Welding pathways that connect to structural engineering careers.
 
 ## Vocabulary
 

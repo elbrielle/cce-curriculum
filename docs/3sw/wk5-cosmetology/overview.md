@@ -32,7 +32,7 @@ Students explore the Human Services cluster through Hats & Ladders with a focus 
 
 The beauty industry is a $500+ billion global market that offers diverse career paths from hairstylists to estheticians to nail technicians to barbers to massage therapists. In Texas, cosmetologists are licensed by the **Texas Department of Licensing and Regulation (TDLR)** and must complete 1,000 hours of training, pass an exam, and renew the license periodically. This is a strong entrepreneurship cluster, many cosmetologists start as employees and eventually open their own salons or work as independent contractors.
 
-**Irving ISD Pathway:** **Cosmetology** is offered at **Ratteree Career Development Center** as a travel-to career-center pathway. Students from any home high school can attend Ratteree for part of their day. The pathway prepares students for the **Cosmetology Operator License** through the Texas Department of Licensing and Regulation (TDLR), and students can begin earning training hours toward the license while still in high school.
+**What is Happening at Irving ISD?** **Cosmetology** is offered at **Ratteree Career Development Center** as a travel-to career-center pathway. Students from any home high school can attend Ratteree for part of their day. The pathway prepares students for the **Cosmetology Operator License** through the Texas Department of Licensing and Regulation (TDLR), and students can begin earning training hours toward the license while still in high school.
 
 ## Vocabulary
 

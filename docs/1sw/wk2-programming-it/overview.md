@@ -34,7 +34,7 @@ Students explore the Information Technology cluster through Hats & Ladders (Ch 1
 
 Information Technology is one of the fastest-growing and highest-paying career clusters in the U.S. economy. In the DFW area, companies like AT&T, Texas Instruments, Toyota, State Farm, and hundreds of tech startups hire thousands of IT professionals each year. The largest IT employer in DFW is the financial sector. Banks and insurance companies need software developers, network engineers, and cybersecurity analysts to run their digital infrastructure.
 
-**Irving ISD Pathway:** **Computer Science (District Wide, every IISD high school)** and **Programming & Digital Tech (Singley Academy)** both lead to the **Certified Entry Level Python Programmer** credential. Python is the most widely-used programming language for data science, AI, web backends, and automation. A student who earns this credential in high school can step directly into a paid internship or entry-level dev role.
+**What is Happening at Irving ISD?** **Computer Science (District Wide, every IISD high school)** and **Programming & Digital Tech (Singley Academy)** both lead to the **Certified Entry Level Python Programmer** credential. Python is the most widely-used programming language for data science, AI, web backends, and automation. A student who earns this credential in high school can step directly into a paid internship or entry-level dev role.
 
 ## Vocabulary
 

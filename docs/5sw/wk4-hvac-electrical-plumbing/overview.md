@@ -34,7 +34,7 @@ Electricians, plumbers, HVAC technicians, and welders are among the most in-dema
 
 **Welding is already available at MacArthur** through the School of Architecture, Construction and Civil Engineering (ACE): students can earn the Structural Steel & Metal Welding Certification in high school. HVAC, Electrical, and Plumbing pathways are not currently offered at Irving ISD campuses and are covered this week as career exploration topics through BLS, CareerOneStop, and local apprenticeship research.
 
-**Irving ISD Pathway:** **Welding** at **MacArthur High School** (School of Architecture, Construction and Civil Engineering — ACE) leads to the Structural Steel & Metal Welding Certification. HVAC, Electrical, and Plumbing have no current Irving ISD pathway home. Students interested in these trades pursue them post-high-school through apprenticeship programs or technical schools.
+**What is Happening at Irving ISD?** **Welding** at **MacArthur High School** (School of Architecture, Construction and Civil Engineering — ACE) leads to the Structural Steel & Metal Welding Certification. HVAC, Electrical, and Plumbing have no current Irving ISD pathway home. Students interested in these trades pursue them post-high-school through apprenticeship programs or technical schools.
 
 ## Vocabulary
 

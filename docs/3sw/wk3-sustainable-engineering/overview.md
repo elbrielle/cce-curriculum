@@ -32,7 +32,7 @@ Students explore environmental and sustainable engineering careers, complete the
 
 Sustainable engineering is one of the fastest-growing career fields as society responds to climate change, water scarcity, environmental regulations, and the need to feed more people with less land. Environmental engineers design systems to clean water and reduce pollution. Agricultural engineers design farm equipment, irrigation systems, and the drones that monitor crops. The Texas economy has a huge stake in this. Texas leads the country in many crop categories, and labor shortages plus climate stress make ag-tech careers some of the most promising in the state.
 
-**Irving ISD Pathway:** Sustainable Engineering (Nimitz HS) leads to AutoDesk CAD and Inventor certifications, the same software professional ag and environmental engineers use to design drones, irrigation systems, and field equipment.
+**What is Happening at Irving ISD?** Sustainable Engineering (Nimitz HS) leads to AutoDesk CAD and Inventor certifications, the same software professional ag and environmental engineers use to design drones, irrigation systems, and field equipment.
 
 ## Vocabulary
 

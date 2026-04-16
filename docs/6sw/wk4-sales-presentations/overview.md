@@ -33,7 +33,7 @@ Students explore Sales careers through Hats & Ladders, work in teams on the H&L 
 
 Students deliver oral presentations on a career they have explored this year (d(4)(C) is the major TEKS standard for the week). The H&L "Pitching Investors" team project (Ch 5, pp. 81-86) teaches business-pitch structure through a team workbook activity, and the Powerskills Giving and Receiving Feedback module prepares students for the peer feedback protocol used on Days 3, 4, and 5.
 
-**Irving ISD Pathway:** Sales and business coursework live at **MacArthur High School** under the Business, Retail Management and Entrepreneurship school. Business Management and Marketing is also offered at Irving High School and Nimitz High School, and Business Management is at Cardwell Career Preparatory Center.
+**What is Happening at Irving ISD?** Sales and business coursework live at **MacArthur High School** under the Business, Retail Management and Entrepreneurship school. Business Management and Marketing is also offered at Irving High School and Nimitz High School, and Business Management is at Cardwell Career Preparatory Center.
 
 ## Vocabulary
 

@@ -32,7 +32,7 @@ Students explore the Agriculture, Food & Natural Resources cluster through Hats 
 
 Veterinary professionals are the healthcare workers of the animal world. Vet Techs assist in surgeries, perform lab tests, and increasingly use technology like 3D printing for prosthetics and surgical guides. Veterinarians diagnose illness, perform surgery, and make complex treatment decisions, but the path is long: a 4-year undergraduate degree plus 4 years of veterinary school. Both careers begin at the same place in middle school: caring about animals and being strong in science.
 
-**Irving ISD Pathway:** Veterinary Science (Nimitz HS) leads to the Elanco Veterinary Medical Applications certification, one of the most popular CTE pathways in the district. Students who complete it walk into vet clinic jobs and animal hospitals with a recognized industry credential.
+**What is Happening at Irving ISD?** Veterinary Science (Nimitz HS) leads to the Elanco Veterinary Medical Applications certification, one of the most popular CTE pathways in the district. Students who complete it walk into vet clinic jobs and animal hospitals with a recognized industry credential.
 
 ## Vocabulary
 

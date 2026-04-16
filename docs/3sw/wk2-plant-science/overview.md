@@ -31,7 +31,7 @@ Students continue exploring the Agriculture, Food & Natural Resources cluster wi
 
 Plant science careers are at the leading edge of solving some of the world's biggest problems: feeding a growing population, adapting to climate change, and protecting natural resources like water and soil. Texas alone employs tens of thousands of people in nursery and landscape work, conservation, and crop science. The Nimitz HS Plant Science pathway leads directly to the Texas Certified Landscape Associate credential, a Texas-specific credential that nursery, landscape, and grounds-management employers actively hire from.
 
-**Irving ISD Pathway:** Plant Science (Nimitz HS) leads to the Texas Certified Landscape Associate credential. Students who complete the pathway can step into landscape, nursery, or grounds-management jobs immediately after graduation.
+**What is Happening at Irving ISD?** Plant Science (Nimitz HS) leads to the Texas Certified Landscape Associate credential. Students who complete the pathway can step into landscape, nursery, or grounds-management jobs immediately after graduation.
 
 ## Vocabulary
 

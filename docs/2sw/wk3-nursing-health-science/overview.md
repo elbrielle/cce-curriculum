@@ -38,7 +38,7 @@ Students explore the Health Science career cluster through Hats & Ladders, inves
 
 Nursing is one of the most in-demand and rewarding career fields in America. The DFW metroplex has a documented nursing shortage, meaning job opportunities are abundant for qualified candidates at every level. What makes nursing unique is the career LADDER: students can enter as a CNA with just 4-12 weeks of training, then climb through LVN, RN, and Nurse Practitioner. Each step up means more education, more responsibility, and more salary. This visible, climbable structure makes nursing especially appealing to students who want a clear pathway with options to grow.
 
-**Irving ISD Pathway:** Nursing Science at Singley Academy, leads to Patient Care Technician and Phlebotomy certifications. Students who complete the pathway in high school can enter the workforce immediately or use the credentials as a stepping stone toward LVN or RN programs.
+**What is Happening at Irving ISD?** Nursing Science at Singley Academy, leads to Patient Care Technician and Phlebotomy certifications. Students who complete the pathway in high school can enter the workforce immediately or use the credentials as a stepping stone toward LVN or RN programs.
 
 ## Vocabulary
 

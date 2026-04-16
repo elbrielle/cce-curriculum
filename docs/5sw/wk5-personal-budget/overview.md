@@ -36,7 +36,7 @@ Financial literacy is one of the most practical skills students will ever learn.
 
 The H&L workbook's "Lifestyle Snapshot" activity (Ch 16) is the anchor: *"As you work on a career plan, you'll also need to think about your future lifestyle and budget. Understanding your personal budget is an important step in long-term goal planning."* The workbook prompts students to ask: What type of lifestyle do I want as an adult? Where do I want to live? What will I want to buy? What savings goals will I have?
 
-**Irving ISD Pathway:** This week applies to ALL Irving ISD pathways. Financial literacy is a universal career skill. Students use salary data from careers across all clusters to build their budget.
+**What is Happening at Irving ISD?** This week applies to ALL Irving ISD pathways. Financial literacy is a universal career skill. Students use salary data from careers across all clusters to build their budget.
 
 ## Vocabulary
 

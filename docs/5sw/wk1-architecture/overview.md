@@ -33,7 +33,7 @@ Students explore the Architecture & Construction career cluster through Hats & L
 
 Architecture is one of the oldest and most creative career paths. Architects design the buildings where we live, work, learn, and play. What makes architecture unique is the long education pathway. Becoming a licensed architect requires a professional degree (5-7 years), an internship, and passing the Architect Registration Examination. This creates a strong contrast with the trades careers from the 4th Six Weeks, where students saw shorter certification timelines.
 
-**Irving ISD Pathway:** **Architecture** at **MacArthur High School** (School of Architecture, Construction and Civil Engineering — ACE) leads to the AutoDesk Revit Architecture certification.
+**What is Happening at Irving ISD?** **Architecture** at **MacArthur High School** (School of Architecture, Construction and Civil Engineering — ACE) leads to the AutoDesk Revit Architecture certification.
 
 ## Vocabulary
 

@@ -34,7 +34,7 @@ Students explore the Law, Public Safety, Corrections & Security career cluster t
 
 The legal profession is one of the oldest and most respected career fields. From courtroom attorneys to paralegals who prepare critical case documents, legal professionals keep the justice system running. The legal field also includes entrepreneurial paths, solo-practice attorneys, mediators, and legal consultants all run their own businesses. The Law cluster also includes Fire Science and Emergency Services careers, which is where the H&L Ch 13 "Emergency Essentials" activity comes in: legal and emergency-services careers both require critical thinking under pressure.
 
-**Irving ISD Pathway:** Law Enforcement at Singley Academy, leads to Non-Commissioned Security Officer Level II certification. Students who continue past middle school can explore both legal services and law enforcement entry points.
+**What is Happening at Irving ISD?** Law Enforcement at Singley Academy, leads to Non-Commissioned Security Officer Level II certification. Students who continue past middle school can explore both legal services and law enforcement entry points.
 
 ## Vocabulary
 

@@ -43,7 +43,7 @@ Students complete the load-bearing CCE self-discovery activities in **three core
 
 Every career starts with self-awareness. Before students can explore specific clusters, they need to understand their own personality traits, interests, and values. The RIASEC model (Realistic, Investigative, Artistic, Social, Enterprising, Conventional) and its H&L "Doer / Analyzer / Creator / Helper / Persuader / Organizer" naming is the same framework used by professional career counselors and platforms like O*NET. The data students enter this week powers every H&L recommendation for the rest of the year, and is pulled back by 4SW Wk1 mid-year reconciliation and 6SW Wk6 capstone.
 
-**Irving ISD Pathway:** All Irving ISD CTE pathways are introduced at the overview level (Irving High School, MacArthur High School, Nimitz High School, Singley Academy, Cardwell Career Preparatory Center, and Ratteree Career Development Center). Students meet specific pathways during each week's Career Connection discussion starting in 1SW Wk1.
+**What is Happening at Irving ISD?** All Irving ISD CTE pathways are introduced at the overview level (Irving High School, MacArthur High School, Nimitz High School, Singley Academy, Cardwell Career Preparatory Center, and Ratteree Career Development Center). Students meet specific pathways during each week's Career Connection discussion starting in 1SW Wk1.
 
 ## Vocabulary
 

@@ -35,7 +35,7 @@ Students explore the Hospitality & Tourism cluster through Hats & Ladders, compl
 
 The hospitality industry is the world's largest employer. From Michelin-star restaurants to food trucks, from luxury hotels to event planning, this cluster offers careers for every personality type. Entrepreneurship is especially strong in hospitality, many people open their own restaurants, food trucks, catering businesses, or event-planning companies.
 
-**Irving ISD Pathway:** **Singley Academy's School of Culinary Arts and Hospitality** offers both Culinary Arts and Hospitality Services pathways, the district's primary home for culinary training. Singley also operates the student-run **FireBird Cafe Catering** business as applied practice. **Lodging and Resort Management** is offered at Irving High School, MacArthur High School, and Nimitz High School.
+**What is Happening at Irving ISD?** **Singley Academy's School of Culinary Arts and Hospitality** offers both Culinary Arts and Hospitality Services pathways, the district's primary home for culinary training. Singley also operates the student-run **FireBird Cafe Catering** business as applied practice. **Lodging and Resort Management** is offered at Irving High School, MacArthur High School, and Nimitz High School.
 
 ## Vocabulary
 
