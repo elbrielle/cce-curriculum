@@ -5,13 +5,50 @@
 
 ---
 
+## 0. Next Agent — Start Here
+
+**Handoff date:** 2026-04-16
+
+### What happened this session (so you don't redo it)
+
+- **Context pruned aggressively.** PLANNING.md 699→250, CLAUDE.md 195→122, README/GUIDE-FORMAT cleaned up.
+- **36 legacy `cce-curriculum/guides/` files deleted** from git (old `.docx` format with deprecated `> **Teacher:** "..."` scripting — major hallucination risk for agents). Also deleted: `build/validate.py` (validates the old format), `cce-curriculum/notes/development-notes.md` (stale).
+- **Teacher meeting held 2026-04-15.** Feedback synthesized into §4 below with jurisdiction sort (us / team / hybrid / deferred).
+- **`v1-teacher-review` tagged on gh-pages** — frozen record of exactly what teachers reviewed. Never modify this version.
+- **Deploy workflow fixed** — daily snapshots now only fire when `docs/` or `mkdocs.yml` actually changed (prior version fired on any commit).
+- **Email sent to teacher team** with feedback summary and two blocking questions (B4 Drone/Robotics overlap, H&L workbook timeline). Awaiting responses.
+
+### Read in this order before editing
+
+1. **`CLAUDE.md`** — project rules
+2. **`PLANNING.md`** §3 (format rules), §4 (feedback intake — your main work queue), §8 (non-negotiables), §9 (preservation loop), §10 (lessons learned)
+3. **`cce-curriculum/notes/editing-heuristics.md`** — dependency-scope protocol and grep recipes
+
+### Recommended first three tasks (from §4.1 "Do now" priority)
+
+1. **C2 — "menu" hallucination fix in Wk0 Day 1** (~5 min). Grep for `menu` in `docs/1sw/wk0-classroom-routines/day1.md`; reword wherever it means "curriculum options" not food.
+2. **B5 — "What is CTE" Xello module into Wk0 Day 2** (~15 min). District-created Xello module. Slot alongside the existing H&L setup in `docs/1sw/wk0-classroom-routines/day2.md`.
+3. **A2/A3 — Facilitation strategies resource page** (~1-2 hours). Create `docs/resources/facilitation-strategies.md` covering QSSA, Think-Pair-Share, Talk-Read-Talk-Write, and 2-3 Kagan structures. Add a "Need a Facilitation Strategy? Try This" admonition pattern. Apply to 1SW Wk1 Day 1 Activity 1 jigsaw option (C1) as the first use case. Update `mkdocs.yml` nav.
+
+After those three, work the §4.1 "Do soon" queue: exit ticket DOK audit (A1), CFA template (A4/A7), Hour of Code fixes (C3/C4).
+
+### Do NOT
+
+- Touch `v1-teacher-review` version — it's the preserved pre-feedback baseline
+- Recreate `cce-curriculum/guides/` — deleted on purpose
+- Start on B4 or H&L workbook timeline — blocked on team email response
+- Push to main without running the §9 preservation loop first
+- Push without explicit user permission
+
+---
+
 ## 1. What This Project Is
 
 A **36-week Career and College Explorations (CCE)** course for grade 7 across **Irving ISD VILS Labs**, Texas. Aligned to **TEKS 127.2 (Adopted 2023)**. Delivered as a static MkDocs Material website. Each week has 1 overview + 5 daily plans = **252 markdown files total** in `docs/`.
 
 **Platform stack:** Hats & Ladders (core, 282pp workbook + 221pp Powerskills), Xello (supplemental), eDynamic Learning (supplemental), VILS tech (Sphero, TinkerCAD, Canva, Glowforge, micro:bit, drones, LEGO).
 
-**Current deployment:** Live at `https://elbrielle.github.io/cce-curriculum/latest/`. Versioned via mike; `teacher-meeting-2026-04-15` preserved as a milestone.
+**Current deployment:** Live at `https://elbrielle.github.io/cce-curriculum/latest/`. Versioned via mike; `v1-teacher-review` preserved as the pre-feedback baseline (do not modify this version).
 
 ---
 
