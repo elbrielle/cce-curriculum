@@ -79,9 +79,14 @@ If From the Field videos are not available for the chosen Hats, project a short 
 
 ---
 
-## Exit Ticket (2 min)
+## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name 2 first responder careers and one key difference in their daily responsibilities or training time. *(d(1)(C))*
+**EXIT TICKET** ([Mini-Case / Scenario Application](../../resources/exit-ticket-templates.md#mini-case-scenario-application)):
+
+Scenario: Jordan is a 17-year-old Irving ISD senior who wants to be working full-time as a first responder within 12 months of graduating high school. Jordan also wants to stay near their family in DFW.
+
+1. Which pathway from your Training Comparison worksheet (Police Officer, EMT, or Firefighter) best fits Jordan's 12-month goal? Use specific training-time data from your worksheet.
+2. What would Jordan have to give up OR plan around to make that pathway work? Name one real trade-off. *(d(1)(C), d(2)(A))*
 
 ---
 

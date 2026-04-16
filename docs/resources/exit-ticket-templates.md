@@ -84,7 +84,38 @@ Each entry below has: **When to use** | **Structure sketch** | **Mastery signal*
 
 **Mastery signal:** student's application correctly uses today's framework vocabulary and reaches a defensible conclusion.
 
-**Status:** Not yet built.
+**Printable layout (half-page):**
+
+```
+--------------------------------------------------------
+EXIT TICKET: [Day title]                     Name: _____
+--------------------------------------------------------
+
+Scenario: [2-3 sentences setting up a new situation
+that wasn't in today's in-class activity.]
+
+1. [First question applying today's framework]
+
+   __________________________________________________
+
+   __________________________________________________
+
+2. [Second question asking for evidence / reasoning]
+
+   __________________________________________________
+
+   __________________________________________________
+--------------------------------------------------------
+```
+
+**Example (2SW Wk2 Day 1, First Responder Pathways):**
+
+> Scenario: Jordan is a 17-year-old Irving ISD senior who wants to be working full-time as a first responder within 12 months of graduating high school. Jordan also wants to stay near their family in DFW.
+>
+> 1. Which pathway from your Training Comparison worksheet (Police Officer, EMT, or Firefighter) best fits Jordan's 12-month goal? Use specific training-time data from your worksheet.
+> 2. What would Jordan have to give up OR plan around to make that pathway work? Name one real trade-off.
+
+**Status:** Built 2026-04-16 (first use: 2SW Wk2 Day 1).
 
 ---
 
