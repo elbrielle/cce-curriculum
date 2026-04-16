@@ -81,7 +81,14 @@ The class evaluates each team using a quick rubric (visible on the projector):
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name one transferable skill you used in today's task force exercise that applies to ANY career, not just emergency services. Then describe the integrity dilemma your team faced in one sentence. *(d(4)(F))*
+**EXIT TICKET** ([Trade-off / Dilemma Analysis](../../resources/exit-ticket-templates.md#trade-off-dilemma-analysis)):
+
+Dilemma: You are the Emergency Management Director during a wildfire evacuation. You have resources to evacuate ONLY ONE area before the fire arrives: (A) a senior living community in the North zone with 80 residents, many with mobility issues, or (B) Green Valley High School in the West zone with 1,200 students and staff at an after-school event.
+
+- **Pros of Choice A (senior community):** _______________________________
+- **Pros of Choice B (high school):** ___________________________________
+- **My choice:** ________________________________________________________
+- **Justification using today's content:** integrity as a first responder means _____________________________________________________________ *(d(4)(F))*
 
 ---
 

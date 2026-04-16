@@ -11,7 +11,7 @@ This page is the **format bank**. Each daily plan names the format it uses and t
 3. **Vary the format across the five days of a week.** If Day 1 is a Comparison Matrix, Day 2 should not also be a Comparison Matrix. A five-day week should use at least three distinct formats.
 4. **Every student responds in writing.** No show-of-hands. No whole-class discussion as the ticket itself.
 5. **Under 5 min.** Most fit in 2-3. Budget the time inside the day's activity timing.
-6. **Printable half-page or less.** One side of a half-sheet, or the bottom half of a full sheet. Teachers print from this page using browser print; no PDF pipeline required.
+6. **Clearly defined question(s), easy for a teacher to scan.** Exit tickets are not full worksheets. They are tight artifacts a teacher can look at quickly to assess mastery and bring to DDI (Data-Driven Instruction) discussions. Space on the page is not a restriction; scannability and one clear question per objective is.
 
 ## How to Pick a Format
 
@@ -230,13 +230,25 @@ in the first 15 minutes, and why:
 
 ### Trade-off / Dilemma Analysis
 
-**When to use:** objective involves ethical reasoning, competing-values analysis, or a real-world dilemma where there is no single right answer. Core integrity / work-ethic days (d(4)(F)) are natural fits.
+**When to use:** objective involves ethical reasoning, competing-values analysis, or a real-world dilemma where there is no single right answer. Core integrity / work-ethic days (d(4)(F)) are natural fits. The dilemma presented should be NEW to the student (not a dilemma they already resolved in the in-class activity).
 
-**Structure sketch:** Named dilemma (1-2 sentences) + "Pros of Choice A" box + "Pros of Choice B" box + "My choice" + "Justification referencing today's content."
+**Structure sketch:** Named dilemma (2-3 sentences setting up two competing legitimate options). "Pros of Choice A" box + "Pros of Choice B" box + "My choice" + "Justification referencing today's content."
 
-**Mastery signal:** both pros boxes are filled with real trade-offs (not straw-man options); justification names a specific concept from today.
+**Mastery signal:** BOTH pros sections are filled with real trade-offs (not straw-man options, each side must have a genuine case); the choice is defensible; justification names a specific concept from today's lesson (integrity, perseverance, dedication, work ethic in the d(4)(F) case).
 
-**Status:** Not yet built.
+**Example (2SW Wk2 Day 4, Citywide Emergency Plan / integrity day):**
+
+> Dilemma: You are the Emergency Management Director during a wildfire evacuation. You have resources to evacuate ONLY ONE area before the fire arrives: (A) a senior living community in the North zone with 80 residents, many with mobility issues, or (B) Green Valley High School in the West zone with 1,200 students and staff at an after-school event.
+>
+> Pros of Choice A (senior community): residents have mobility issues and would struggle to evacuate themselves; the population is at highest individual risk; the North zone is adjacent to the one highway out, so we can stage transport there.
+>
+> Pros of Choice B (high school): the raw number of lives is much higher (1,200 vs 80); the West zone is closer to the fire path, so the time window is shorter; students and staff are more mobile and can evacuate faster once buses arrive.
+>
+> My choice: Choice B, the high school.
+>
+> Justification using today's content: integrity as a first responder means making hard choices with imperfect information and being able to defend the reasoning. The math of 1,200 lives versus 80, combined with a shorter time window before the fire reaches the West zone, makes the high school evacuation more urgent even though each senior resident is at higher individual risk. I would simultaneously call for mutual-aid transport from neighboring districts to reach the senior community next.
+
+**Status:** Built 2026-04-16 (first use: 2SW Wk2 Day 4).
 
 ---
 
@@ -286,15 +298,3 @@ in the first 15 minutes, and why:
 
 **Status:** Not yet built.
 
----
-
-## Printing Half-Page Versions
-
-Each template page renders with a print-optimized layout. Teachers can print a single template at half-page size directly from the browser:
-
-1. Open this page in a browser.
-2. Scroll to the template section needed.
-3. File → Print (Cmd/Ctrl + P).
-4. In print settings: set scale to 50% or select "two pages per sheet" to get two half-page copies side by side.
-
-If printing multiple exit tickets for a day, the teacher can select the specific template section with the mouse before printing and choose "Print Selection" in most browsers.
