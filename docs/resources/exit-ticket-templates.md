@@ -1,0 +1,172 @@
+# Exit Ticket Templates
+
+Exit tickets are short formative assessments that answer one question: **did the student master today's specific lesson objective?** They are not attendance checks, entertainment, or generic reflection. Research on formative assessment (Dylan Wiliam, hinge-question framework) asks for every student to respond, in under five minutes, in a format that gives the teacher enough signal to decide whether to reteach, intervene with specific students, or move on.
+
+This page is the **format bank**. Each daily plan names the format it uses and the content to put inside it. Use this page to pick the right format for a given day's objective, and to keep the mix varied across a week.
+
+## Design Rules
+
+1. **Align to the day's lesson objective**, not a general topic. If the objective is "compare training pathways," the exit ticket tests comparison of training pathways, not career name recall.
+2. **Aim for DOK 2 or higher.** Recall tickets ("name 3 careers") are rejected unless the day's objective is genuinely a recall objective.
+3. **Vary the format across the five days of a week.** If Day 1 is a Comparison Matrix, Day 2 should not also be a Comparison Matrix. A five-day week should use at least three distinct formats.
+4. **Every student responds in writing.** No show-of-hands. No whole-class discussion as the ticket itself.
+5. **Under 5 min.** Most fit in 2-3. Budget the time inside the day's activity timing.
+6. **Printable half-page or less.** One side of a half-sheet, or the bottom half of a full sheet. Teachers print from this page using browser print; no PDF pipeline required.
+
+## How to Pick a Format
+
+- **Objective names "compare / contrast"** → Comparison Matrix or Venn Diagram Comparison
+- **Objective names "apply / solve"** → Mini-Case / Scenario Application
+- **Objective names "decide / choose"** → Decision Tree or Trade-off / Dilemma Analysis
+- **Objective names "rank / prioritize"** → Ranked Justification
+- **Objective names "connect / synthesize"** → Concept Map
+- **Objective names "identify / classify"** → Diagnostic MCQ with Misconception Distractors
+- **Objective is genuinely recall of a new vocabulary / fact set** → Short Constructed Response
+- **Day is a wrap-up / reflection day** → 3-2-1 Reflective (use once per six-weeks maximum)
+
+## Referencing a Format in a Daily Plan
+
+In a daily plan's Exit Ticket section, name the format and link here, then write the day-specific payload inline. Example syntax:
+
+```
+**EXIT TICKET** ([Comparison Matrix](../../resources/exit-ticket-templates.md#comparison-matrix)):
+
+[day-specific matrix content: rows, columns, specific items to compare]
+```
+
+---
+
+## The Ten Formats
+
+Each entry below has: **When to use** | **Structure sketch** | **Mastery signal** | **Status** (built = full template + example; sketch = vocabulary only, template written on first production use).
+
+### Diagnostic MCQ with Misconception Distractors
+
+**When to use:** the day's objective requires students to distinguish between a correct concept and common misconceptions. Any day where "students typically confuse X with Y" is a risk.
+
+**Structure sketch:** 1 stem question + 3-4 options. Each wrong option encodes a *specific known misconception*, not a random wrong answer. Student circles one and writes a one-sentence justification.
+
+**Mastery signal:** the correct circle + a justification that matches the correct reasoning path. A correct circle with a wrong reason is flagged as guessing.
+
+**Status:** Not yet built.
+
+---
+
+### Comparison Matrix
+
+**When to use:** objective is "compare 2-3 items on 2-3 dimensions." Fits cluster-exploration days where students gather career data, training-path comparison days, pathway-vs-pathway days.
+
+**Structure sketch:** 2-3 rows (the items) × 2-3 columns (the dimensions) + one bottom-line comparative question ("Which one best fits [criterion] and why?").
+
+**Mastery signal:** matrix cells accurately populated AND the comparative question answer references cell data, not general impressions.
+
+**Status:** Not yet built.
+
+---
+
+### Venn Diagram Comparison
+
+**When to use:** objective is "compare two concepts / careers / pathways for overlap and difference." Best when the two items share significant overlap (e.g., Police Officer vs Detective, EMT vs Paramedic, Dental Assistant vs Dental Hygienist).
+
+**Structure sketch:** Two overlapping circles labeled with the two items. Student writes 2-3 bullets in each unique region and 2-3 in the shared overlap.
+
+**Mastery signal:** overlap region contains truly shared attributes (not generic "both help people"); unique regions are actually differentiated.
+
+**Status:** Not yet built.
+
+---
+
+### Mini-Case / Scenario Application
+
+**When to use:** objective is "apply today's framework to a new situation." The case must be NEW, not a rehash of the in-class case. Students demonstrate transfer, not memory.
+
+**Structure sketch:** 2-3 sentence new scenario + 1-2 questions asking the student to apply the day's framework. Most powerful format for Day 2-style activity days where students already practiced a case.
+
+**Mastery signal:** student's application correctly uses today's framework vocabulary and reaches a defensible conclusion.
+
+**Status:** Not yet built.
+
+---
+
+### Decision Tree / Branching Prompt
+
+**When to use:** objective involves sequential decision-making or role-specific reasoning ("If your role is X, what do you do first and why?").
+
+**Structure sketch:** Initial condition or role at top. 2-3 branches student fills in, each with a "first action" + "why" + "what happens next" sequence.
+
+**Mastery signal:** branches respect the framework's decision rules; "why" lines cite specific day content.
+
+**Status:** Not yet built.
+
+---
+
+### Trade-off / Dilemma Analysis
+
+**When to use:** objective involves ethical reasoning, competing-values analysis, or a real-world dilemma where there is no single right answer. Core integrity / work-ethic days (d(4)(F)) are natural fits.
+
+**Structure sketch:** Named dilemma (1-2 sentences) + "Pros of Choice A" box + "Pros of Choice B" box + "My choice" + "Justification referencing today's content."
+
+**Mastery signal:** both pros boxes are filled with real trade-offs (not straw-man options); justification names a specific concept from today.
+
+**Status:** Not yet built.
+
+---
+
+### Concept Map / Connection Diagram
+
+**When to use:** wrap-up days, synthesis days, or days where the objective is "connect today's content to prior learning." Especially strong for six-weeks cluster wrap-up days.
+
+**Structure sketch:** Central node labeled with today's main concept. 3-5 connected nodes student fills in with related concepts from today + prior weeks. Each connecting line labeled with the relationship ("is a type of," "led to," "requires," "prepares for").
+
+**Mastery signal:** connections reach beyond today, with at least one line to a prior-week concept and an accurate relationship label.
+
+**Status:** Not yet built.
+
+---
+
+### Ranked Justification
+
+**When to use:** objective asks students to prioritize ("rank these careers by...", "which trade has the best salary-to-training ratio?"). The DOK 3 version of a Comparison Matrix: forces a defensible ordering.
+
+**Structure sketch:** 3-5 items listed in scrambled order + instruction to rank on a named criterion + a justification line for each rank.
+
+**Mastery signal:** ranks defended with the named criterion, not a different criterion; justifications cite specific data.
+
+**Status:** Not yet built.
+
+---
+
+### 3-2-1 Reflective
+
+**When to use:** wrap-up day where the objective is genuinely synthesis and self-awareness. Use **at most once per six-weeks** to avoid the "reflection fatigue" the teacher feedback flagged.
+
+**Structure sketch:** "3 things I understand now that I didn't before today" + "2 questions I still have" + "1 way today's content connects to a prior week."
+
+**Mastery signal:** the 3 understandings are specific to today (not generic); the 1 connection is accurate.
+
+**Status:** Not yet built.
+
+---
+
+### Short Constructed Response
+
+**When to use:** the day's objective is recall of a specific vocabulary / fact set that the student needs to own before moving on, OR the day is the first contact with a concept that needs anchoring. The "sometimes a short written answer is the right tool" reserved category.
+
+**Structure sketch:** 1-2 direct questions, 3-5 lines for response each.
+
+**Mastery signal:** correct content with complete sentences; vocabulary used in context.
+
+**Status:** Not yet built.
+
+---
+
+## Printing Half-Page Versions
+
+Each template page renders with a print-optimized layout. Teachers can print a single template at half-page size directly from the browser:
+
+1. Open this page in a browser.
+2. Scroll to the template section needed.
+3. File → Print (Cmd/Ctrl + P).
+4. In print settings: set scale to 50% or select "two pages per sheet" to get two half-page copies side by side.
+
+If printing multiple exit tickets for a day, the teacher can select the specific template section with the mouse before printing and choose "Print Selection" in most browsers.
