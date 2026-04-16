@@ -42,13 +42,62 @@ Each entry below has: **When to use** | **Structure sketch** | **Mastery signal*
 
 ### Diagnostic MCQ with Misconception Distractors
 
-**When to use:** the day's objective requires students to distinguish between a correct concept and common misconceptions. Any day where "students typically confuse X with Y" is a risk.
+**When to use:** the day's objective requires students to distinguish between a correct concept and common misconceptions. Any day where "students typically confuse X with Y" is a risk. Strongest when the author can name 3 specific wrong reasoning paths a student might take.
 
-**Structure sketch:** 1 stem question + 3-4 options. Each wrong option encodes a *specific known misconception*, not a random wrong answer. Student circles one and writes a one-sentence justification.
+**Structure sketch:** 1 short scenario or fact set + 1 stem question + 3-4 answer options. Each wrong option encodes a *specific known reasoning error*, not a random wrong answer. Student circles one and writes a one-sentence justification for WHY the other options are weaker.
 
-**Mastery signal:** the correct circle + a justification that matches the correct reasoning path. A correct circle with a wrong reason is flagged as guessing.
+**Mastery signal:** the correct circle + justification that names at least one specific weakness in the other options. A correct circle with "I just thought it sounded right" is flagged as guessing.
 
-**Status:** Not yet built.
+**Printable layout (half-page):**
+
+```
+--------------------------------------------------------
+EXIT TICKET: [Day title]                     Name: _____
+--------------------------------------------------------
+
+Scenario / Facts:
+[2-4 lines setting up a short scenario OR bulleted fact
+list the student reasons from.]
+
+Question: [single stem]
+
+  A. [option encoding misconception #1]
+  B. [option encoding misconception #2]
+  C. [correct option]
+  D. [option encoding misconception #3]
+
+Circle your answer. In one sentence, explain why the
+OTHER options are weaker:
+
+__________________________________________________
+
+__________________________________________________
+--------------------------------------------------------
+```
+
+**Example (2SW Wk2 Day 2, Missing Painting, reasoning from evidence):**
+
+> Scenario: A school mascot costume is found damaged in the locker room. Three facts are known:
+>
+> - Camille had argued with the cheer coach earlier that day.
+> - Drew was seen walking out of the locker room around the time the damage likely occurred.
+> - A cheer teammate reported hearing Drew say earlier that week, "I wish someone would ruin that costume."
+>
+> Based on these facts, which student is most likely responsible?
+>
+> A. Camille, because she had motive (an argument with the coach).
+> B. Drew, because they had motive (the stated wish) AND opportunity (seen leaving the locker room at the relevant time).
+> C. Both are equally likely because both had reasons to dislike the costume.
+> D. Neither, because motive and opportunity alone never prove anything.
+
+**Distractor logic** (for the teacher's reference, not printed on the student copy):
+
+- A: motive alone, missing opportunity evidence
+- B: correct (motive + opportunity + witness testimony all align)
+- C: false equivalence; the evidence does not point at Camille with equal strength
+- D: correct-sounding rule misapplied; when multiple independent pieces converge, inference is appropriate
+
+**Status:** Built 2026-04-16 (first use: 2SW Wk2 Day 2).
 
 ---
 

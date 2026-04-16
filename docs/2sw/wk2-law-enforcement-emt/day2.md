@@ -94,7 +94,22 @@ The workbook's "Extra Time" extension: act out the case presentation as if stand
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name the suspect you identified, the strongest piece of evidence supporting your conclusion, and one career skill (besides "good guesser") that helped you solve the case. *(d(1)(C), d(4)(F))*
+**EXIT TICKET** ([Diagnostic MCQ with Misconception Distractors](../../resources/exit-ticket-templates.md#diagnostic-mcq-with-misconception-distractors)):
+
+Scenario: A school mascot costume is found damaged in the locker room. Three facts are known:
+
+- Camille had argued with the cheer coach earlier that day.
+- Drew was seen walking out of the locker room around the time the damage likely occurred.
+- A cheer teammate reported hearing Drew say earlier that week, "I wish someone would ruin that costume."
+
+Based on these facts, which student is most likely responsible?
+
+- A. Camille, because she had motive (an argument with the coach).
+- B. Drew, because they had motive (the stated wish) AND opportunity (seen leaving the locker room at the relevant time).
+- C. Both are equally likely because both had reasons to dislike the costume.
+- D. Neither, because motive and opportunity alone never prove anything.
+
+Circle your answer. In one sentence, explain why the OTHER options are weaker. *(d(1)(C), d(4)(F))*
 
 ---
 
