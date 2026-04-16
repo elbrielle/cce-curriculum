@@ -6,44 +6,36 @@ Aligned to TEKS &sect;127.2 Career and College Exploration (Adopted 2023).
 ## Quick Start
 
 ```bash
-# validate all 36 guides
-python3 build/validate.py
+# validate the MkDocs site (zero warnings required)
+python3 -m mkdocs build --strict
 
-# rebuild all .docx facilitator guides
+# local preview
+python3 -m mkdocs serve    # → http://127.0.0.1:8000/
+
+# legacy: rebuild .docx/.xlsx
 python3 build/build_docx.py
-
-# rebuild a single guide
-python3 build/build_docx.py cce-curriculum/guides/1sw/wk1-robotics-manufacturing.md
-
-# rebuild the scope & sequence spreadsheet
 python3 build/build_xlsx.py
 ```
 
-Requires: `python-docx`, `openpyxl`, `pyyaml` (`pip install python-docx openpyxl pyyaml`).
+Live site: `https://elbrielle.github.io/cce-curriculum/latest/`
 
 ## Structure
 
 ```
-cce-curriculum/               <- source of truth (edit these)
-  scope-and-sequence.md       <- master pacing guide (36 rows, 13 columns)
-  guides/
-    1sw/  wk0-wk5             <- IT / Manufacturing
-    2sw/  wk1-wk6             <- Law / Health Science
-    3sw/  wk1-wk6             <- Ag / Hospitality / Entrepreneurship
-    4sw/  wk1-wk6             <- Career Planning / Aviation / Trades
-    5sw/  wk1-wk6             <- Architecture / Construction / Finance
-    6sw/  wk1-wk6             <- Education / Business / Capstone
+docs/                         <- THE WEBSITE (source of truth, edit these)
+  scope-and-sequence.md
+  1sw/ ... 6sw/               <- six-weeks blocks
+    wkN-topic/
+      overview.md             <- weekly big picture
+      day1.md ... day5.md     <- daily lesson plans
   resources/
-    teks-coverage-matrix.md   <- TEKS code -> weeks -> status
-    free-resource-directory.md
-    edynamic-unit-map.md
-    reference-pdfs/           <- H&L workbook text extracts (.txt only; PDFs are local-only)
-  notes/
-    development-notes.md      <- flag status, open items
-    revision-plan.md          <- H&L workbook chapter-to-week crosswalk
 
-build/                        <- Python build scripts (md -> docx/xlsx)
-output/                       <- generated files (gitignored, rebuild from source)
+cce-curriculum/               <- reference data (not the website)
+  scope-and-sequence.md       <- master pacing guide (authoritative)
+  resources/reference-pdfs/   <- H&L workbook .txt extracts (PDFs local-only)
+  notes/                      <- editing heuristics, revision plan, review notes
+
+build/                        <- Python build scripts (legacy docx/xlsx)
 ```
 
 ## Platforms
@@ -55,12 +47,12 @@ output/                       <- generated files (gitignored, rebuild from sourc
 | **eDynamic Learning** | Supplement: career exploration units | District login |
 | **VILS Tech** | Hands-on: Sphero, Glowforge, drones, micro:bit, LEGOs | Lab equipment |
 
-## Editing Guides
+## Editing the Curriculum
 
-Every guide follows the template in `GUIDE-FORMAT.md`. Key rules:
-- Frontmatter (YAML) is required
-- Sections must appear in the exact order listed in GUIDE-FORMAT.md
-- Special markers (`> **Teacher:**`, `> [H&L PLATFORM]`, `**WARM-UP:**`, etc.) are parsed by the build script for colored formatting
+Edit files in `docs/` only. Prototype week: `docs/5sw/wk1-architecture/`. Key rules:
+- No teacher scripting (`> **Teacher:**` is deprecated)
+- Source-ground all content to H&L workbook, S&S, Xello, eDynamic, or BLS
+- See `CLAUDE.md` for full editing rules and `cce-curriculum/notes/editing-heuristics.md` for the dependency-scope protocol
 
 ## H&L Workbook References
 
@@ -82,8 +74,8 @@ The full chapter-to-week crosswalk is in `cce-curriculum/notes/revision-plan.md`
 - **0** `[VERIFY IN H&L]` flags remaining (all 57 resolved)
 - **6** `[VERIFY IN eDynamic]` flags remaining (need teacher dashboard access)
 - **0** TEKS standards marked NEEDS ENRICHMENT
-- All guides pass `validate.py` and build cleanly
+- Site builds clean (`mkdocs build --strict`)
 
 ## For AI Agents
 
-Read `CLAUDE.md` first -- it has the full repo map, build instructions, H&L search patterns, and editing conventions. The revision plan at `notes/revision-plan.md` maps every H&L workbook chapter to curriculum weeks.
+Read `CLAUDE.md` first, then `PLANNING.md` for current project state. The revision plan at `cce-curriculum/notes/revision-plan.md` maps every H&L workbook chapter to curriculum weeks.

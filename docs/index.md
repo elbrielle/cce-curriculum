@@ -33,4 +33,4 @@ A 36-week career exploration course taught in **VILS labs across Irving ISD midd
 
 ## Prototype week to read first
 
-If you are new to this curriculum, start with **5th Six Weeks. Week 1: Architecture** ([Overview](5sw/wk1-architecture/overview.md) + [Day 1](5sw/wk1-architecture/day1.md)). It was the first week built and the format reference for all the others, so reading it gives you the clearest sense of the shape every week follows.
+If you are new to this curriculum, start with **5th Six Weeks, Week 1: Architecture** ([Overview](5sw/wk1-architecture/overview.md) + [Day 1](5sw/wk1-architecture/day1.md)). It was the first week built and the format reference for all the others, so reading it gives you the clearest sense of the shape every week follows.

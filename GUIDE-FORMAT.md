@@ -1,6 +1,8 @@
-# Facilitator Guide Markdown Format
+# Facilitator Guide Markdown Format (Legacy DOCX)
 
-Every facilitator guide in `cce-curriculum/guides/` must follow this exact structure. The build script parses these headings and markers to produce formatted `.docx` files.
+> **This file describes the old `cce-curriculum/guides/` format used to build `.docx` files.** The live curriculum is now in `docs/` as a MkDocs site with a different structure (overview.md + day1-5.md per week). For the current format, see `docs/5sw/wk1-architecture/` as the prototype. Teacher scripting (`> **Teacher:** "..."`) is **deprecated** and must not be used in new content.
+
+Every facilitator guide in `cce-curriculum/guides/` follows this structure. The build script parses these headings and markers to produce formatted `.docx` files.
 
 ## Frontmatter
 
