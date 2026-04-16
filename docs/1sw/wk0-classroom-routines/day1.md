@@ -8,7 +8,7 @@
 | **Objectives** | (Teacher-chosen) Establish CCE lab routines and expectations; run campus-required first-week activities; resolve technology access issues |
 | **TEKS** | N/A (flex day; core TEKS demonstrated on Days 2-4) |
 | **Deliverable** | Teacher's choice. Default: signed Lab Safety Contract. |
-| **Materials** | (as needed for the option chosen) Printed Lab Safety Contract, H&L Workbook Ch 1 pp. 2-3, Chromebooks, projector |
+| **Materials** | (as needed for the option chosen) Printed Lab Safety Contract, H&L Workbook Ch 1 pp. 2-3, Chromebooks, projector, **Engineering notebooks** (1 per student, distribute today — yearlong CCE artifact) |
 
 ---
 
@@ -20,9 +20,9 @@
 
 ## Warm-Up (Optional)
 
-**WARM-UP (optional, 5 min): Write or draw what you think you might want to be when you grow up. It is 100% okay if you have no idea. Write "I don't know yet" and draw a question mark, or write "I am still exploring." There is no wrong answer.**
+**WARM-UP (optional, 5 min): On page 1 of your new engineering notebook, write or draw what you think you might want to be when you grow up. It is 100% okay if you have no idea. Write "I don't know yet" and draw a question mark, or write "I am still exploring." There is no wrong answer.**
 
-If you run this, collect responses in a "Day 1 Predictions" folder. Students revisit at 6SW Wk6 Capstone and compare. Reassure anyone who wrote "I don't know yet." That is why this class exists.
+If you run this, distribute engineering notebooks first so students can make their Day 1 entry on page 1. Have them label the cover with their name + "CCE Engineering Notebook." Students revisit this page at 6SW Wk6 Capstone and compare. Reassure anyone who wrote "I don't know yet." That is why this class exists.
 
 ---
 

@@ -55,12 +55,12 @@ After 5 minutes, call on 3-4 pairs to share. Listen for understanding that manuf
 
 > [H&L PLATFORM] The workbook (Ch 14, p. 231) directs students: "Go to the Hats & Ladders app and click on the 'Manufacturing Cluster.' Spend 15 minutes exploring the cluster and pathways." Students navigate to the Manufacturing cluster in the H&L app, watch the cluster tour video, and explore the six pathways. They use the Hat Finder to browse 2-3 Hats per pathway, checking education, DFW salary, and demand level.
 
-**Stop and Jot procedure:** While watching the cluster tour video, students pause TWICE in their workbook margin to write:
+**Stop and Jot procedure:** While watching the cluster tour video, students pause TWICE in their **engineering notebook** (dated entry, labeled "1SW Wk1 Manufacturing") to write:
 
 - **Stop 1:** One new career you learned about in this video
 - **Stop 2:** One question you still have about manufacturing
 
-After the video, students explore 2-3 pathways using the Hat Finder. For each pathway, they write down:
+After the video, students explore 2-3 pathways using the Hat Finder. In the same engineering notebook entry, they write down:
 
 - One Hat (career) within the pathway that interests them
 - The education or training required for that Hat

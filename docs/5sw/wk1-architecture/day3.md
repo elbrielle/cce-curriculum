@@ -7,8 +7,8 @@
 | **Time** | 50 minutes |
 | **Objectives** | Set up a TinkerCAD account; learn 5 core skills (drag, resize, align, group, hole); begin a building design challenge |
 | **TEKS** | d(1)(C) |
-| **Deliverable** | Paper sketch of building design + TinkerCAD in progress (at minimum: 4 walls grouped together) |
-| **Materials** | Chromebooks, TinkerCAD accounts ([tinkercad.com](https://www.tinkercad.com)), projector, plain paper for sketching |
+| **Deliverable** | Engineering notebook sketch of building design + TinkerCAD in progress (at minimum: 4 walls grouped together) |
+| **Materials** | Chromebooks, TinkerCAD accounts ([tinkercad.com](https://www.tinkercad.com)), projector, engineering notebooks (sketch on a fresh page dated and labeled "5SW Wk1 Architecture") |
 
 ---
 
@@ -80,7 +80,7 @@ Teach each skill one at a time on the projector. Students follow along on their 
 
 ## Activity 3: Design Challenge — My Dream Building (15 min)
 
-**Before touching TinkerCAD, sketch first.** Distribute plain paper and have students draw:
+**Before touching TinkerCAD, sketch first.** Students open their engineering notebooks to a fresh page (dated and labeled "5SW Wk1 Architecture — Dream Building") and draw:
 
 - A **top-down view** (floor plan) of their building, label rooms and dimensions
 - A **front view** showing the shape, door, and windows

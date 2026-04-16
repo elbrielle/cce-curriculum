@@ -17,6 +17,10 @@ Students complete the load-bearing CCE self-discovery activities in **three core
 
 ## Materials Needed
 
+**Yearlong supply (distributed Day 1):**
+
+- **Engineering notebook** (1 per student, bound composition notebook or equivalent). Yearlong artifact students carry to every CCE week. Used for stop-and-jot notes, sketches, warm-up entries, and deliverables marked "sketch in engineering notebook." Students write their name + "CCE Engineering Notebook" on the cover Day 1, pg. 1 is the Day 1 Predictions warm-up.
+
 **Core Days (2-4), required:**
 
 - Chromebooks with internet access (1 per student)
@@ -25,6 +29,7 @@ Students complete the load-bearing CCE self-discovery activities in **three core
 - Projector for teacher modeling
 - Printed "My Career Journey" reflection handout (1 per student; used on Core Day C)
 - Printed Building Blocks brainstorm sheet (used on Core Day B)
+- Engineering notebooks (carry forward from Day 1 distribution)
 
 **Flex Days (1 and 5), as needed based on the options you choose:**
 
