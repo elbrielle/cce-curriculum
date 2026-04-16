@@ -50,9 +50,16 @@ After the Pathway Fit assessment, students must:
 1. **Favorite at least 2 IT careers** in their Climber Profile using the Hat Finder. They should choose Hats from the programming pathway they explored this week (or a different IT pathway if they prefer).
 2. **Re-check their initial cluster recommendations** from Wk0. Has the IT cluster moved up the ranking now that they have data? Why or why not?
 
-**Sentence stem for the favorites reflection:**
+**Sentence stem for the favorites reflection (use the word banks):**
 
-"I favorited _____ because it matches my _____ personality type and my _____ work value."
+*RIASEC types (from Wk0):* Doer, Analyzer, Creator, Helper, Persuader, Organizer
+*Work Values (from Wk0):* Achievement, Independence, Recognition, Relationships, Support, Working Conditions
+
+"I favorited ______________________________________________________
+
+because it matches my ______________________________ personality type
+
+and my ______________________________ Work Value."
 
 !!! tip "Facilitation Tip"
     Students who hated the Hour of Code may be hesitant to favorite an IT career. Tell them: "You don't have to favorite an IT career. Favorite the careers that ACTUALLY interest you. If IT isn't your thing after this week, that's a valuable thing to know."
@@ -71,7 +78,18 @@ Tell students: "This is the Xello version of what you did in H&L. Both platforms
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Name the IT career you favorited in H&L and connect it to your RIASEC personality type from Wk0. Is it a good fit? Why or why not? *(d(1)(C))*
+**EXIT TICKET:** Complete the sentence using the word banks.
+
+*RIASEC types (from Wk0):* Doer, Analyzer, Creator, Helper, Persuader, Organizer
+*Work Values (from Wk0):* Achievement, Independence, Recognition, Relationships, Support, Working Conditions
+
+"The IT career I favorited is ______________________________________________________.
+
+It fits my ______________________________ personality type and my
+
+______________________________ Work Value because ____________________________________
+
+__________________________________________________________________." *(d(1)(C), d(5)(A))*
 
 ---
 

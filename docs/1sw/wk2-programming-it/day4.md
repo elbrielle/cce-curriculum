@@ -67,7 +67,16 @@ Students who reach the end of their tutorial print or screenshot the Code.org co
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** What level are you on in your Hour of Code tutorial? Name ONE programming concept you used today (sequence, loop, or conditional) and explain what it does. *(d(1)(C))*
+**EXIT TICKET:** Complete the sentence using the word banks.
+
+*Programming concepts:* sequence, loop, conditional
+*Wk0 Work Values:* Achievement, Independence, Recognition, Relationships, Support, Working Conditions
+
+"Today I used a ______________________________ in my Hour of Code tutorial.
+
+This kind of problem-solving matches my Wk0 Work Value of ______________________________
+
+because __________________________________________________________________." *(d(1)(C))*
 
 ---
 
