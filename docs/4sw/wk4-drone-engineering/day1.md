@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Tour the H&L Engineering cluster (Ch 8) including the Drone (Unmanned Vehicle) Engineer pathway; complete the H&L "Protecting Wildlife" Career Climb activity by designing a wildlife tracker robot blueprint |
-| **TEKS** | d(1)(D) |
+| **TEKS** | d(1)(B), d(1)(C) |
 | **Deliverable** | Completed Wildlife Tracker Robot blueprint with labeled components for flight, navigation, and data collection |
 | **Materials** | Chromebooks, H&L accounts, H&L Workbook (Ch 8, pp. 121-122, "Protecting Wildlife"), printed Robot Blueprint sheet, projector for cluster tour |
 
@@ -92,7 +92,25 @@ This activity is the bridge from "drones in general" to "drones used by engineer
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name one component you put on your wildlife tracker robot blueprint and explain how it solves a specific problem (avoiding trees, tracking the animal, sending data home). Then name one engineering career from the H&L cluster tour that surprised you. *(d(1)(D))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: A new conservation team needs a drone to track **sea turtles** on remote beaches at night. Very different from tracking jaguars in dense forest.
+
+1. Which ONE component from MY wildlife tracker blueprint would I CHANGE for the sea-turtle-at-night mission, and why?
+
+   My change: _______________________
+
+   Why: ____________________________________________________________
+
+2. Name ONE engineering career from the H&L cluster tour that SURPRISED me today (Drone Engineer, Mechanical Engineer, Aerospace Engineer, Robotics Technician, Electrical Engineer, Civil Engineer):
+
+   Career: _______________________
+
+3. In one sentence, what makes this career DIFFERENT from a Drone Engineer?
+
+   ___________________________________________________________________
+
+*(d(1)(B), d(1)(C))*
 
 ---
 

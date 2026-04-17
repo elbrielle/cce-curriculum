@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Apply Engineering Design Process Phases 4-5 (Test + Iterate); navigate a drone through an obstacle course; track accuracy and time across 3 attempts; connect the experience to real UAS inspection missions |
-| **TEKS** | d(1)(D), d(4)(A) |
+| **TEKS** | d(1)(C), d(4)(B) |
 | **Deliverable** | Completed Drone Navigation Course score sheet (3 runs per pilot) showing improvement across attempts |
 | **Materials** | Classroom drones, cones / chairs / tape targets for obstacle course setup, printed Drone Navigation Course score sheet, stopwatches, projector for course diagram |
 
@@ -80,7 +80,30 @@ The exact same skills students used today (takeoff, hover, navigate, inspect, la
 
 ## Exit Ticket (4 min)
 
-**EXIT TICKET:** Describe one specific way you improved your drone flying between Run 1 and Run 3 today. Connect this to the Engineering Design Process Test + Iterate phases. *(d(1)(D), d(4)(A))*
+**EXIT TICKET** (Trade-off / Dilemma Analysis):
+
+You are a wind-turbine drone inspector on a real job. You have TWO competing priorities:
+
+- **(A) Fly FAST** to finish the inspection in 20 minutes so the turbine can come back online.
+- **(B) Fly SLOWLY and CAREFULLY** to catch small damage a fast flight might miss.
+
+Pros of picking A: _______________________________________________________
+
+Pros of picking B: _______________________________________________________
+
+My choice (A or B): ________
+
+Quality list: patience / precision / speed / discipline / focus / reliability.
+
+Which quality matters MOST for THIS choice, and why is it the right one over the others? *(d(1)(C), d(4)(B))*
+
+   My quality: _______________________
+
+   Why: ____________________________________________________________
+
+How does my answer connect to what I improved between my 3 LEGO ATC / drone runs? One sentence:
+
+   ___________________________________________________________________
 
 ---
 

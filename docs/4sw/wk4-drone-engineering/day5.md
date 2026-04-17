@@ -78,7 +78,33 @@ For students who are not in TSA, this is the recruiting moment. They have spent 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name the drone industry you found most interesting this week and one career within it that you would consider pursuing. Classify it as high-skill, high-wage, and/or high-demand using one specific piece of evidence. *(d(1)(D), d(5)(B))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+My drone industry I found most interesting this week: _______________________
+
+A drone career within it I would consider pursuing: _______________________
+
+Connect this career to THREE things:
+
+**1. My high-skill / high-wage / high-demand classification** (pick ONE of the 3)
+
+   My classification: _______________________. ONE specific piece of evidence (salary $, education, or BLS growth %):
+
+   ___________________________________________________________________
+
+**2. TSA Drone Challenge skills** (flight precision, blueprint documentation, FAA regulations, industry awareness)
+
+   Which TSA skill from this week does THIS career use MOST? _______________________. One sentence why:
+
+   ___________________________________________________________________
+
+**3. Irving High's Drone Engineering pathway** (School of Aviation Sciences; leads to FAA Part 107)
+
+   Does this pathway lead DIRECTLY to my career, or is it a STEPPING STONE? Circle: DIRECT / STEPPING STONE. One sentence why:
+
+   ___________________________________________________________________
+
+*(d(1)(D), d(5)(B))*
 
 ---
 

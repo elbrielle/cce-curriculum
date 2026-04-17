@@ -72,7 +72,31 @@ The team teacher reads through and verifies each team has reached the High-skill
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name the drone career in your assigned industry with the highest salary you found, explain what training it requires, and check whether you would classify it as high-skill, high-wage, or high-demand (or all three). *(d(2)(A), d(5)(B))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank the 5 drone industries (Agriculture / Construction / Film & Media / Delivery / Emergency Services) from MOST interesting to me (1) to LEAST (5).
+
+- Rank 1: _______________________
+
+- Rank 2: _______________________
+
+- Rank 3: _______________________
+
+- Rank 4: _______________________
+
+- Rank 5: _______________________
+
+For my RANK 1 industry, fill in:
+
+- Drone career in this industry with the HIGHEST salary I found: _______________________
+
+- Training it requires (FAA Part 107 + other certs): _______________________
+
+- Check: HIGH-SKILL? _____ / HIGH-WAGE? _____ / HIGH-DEMAND? _____
+
+Bottom line: In one sentence, which of the THREE classifications is the BIGGEST reason my Rank 1 career interests me? *(d(2)(A), d(5)(B))*
+
+   ___________________________________________________________________
 
 ---
 

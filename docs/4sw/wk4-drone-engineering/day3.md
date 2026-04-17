@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Understand what FAA Part 107 covers and why it exists; complete the drone safety briefing; demonstrate basic drone flight (takeoff, hover, controlled landing) |
-| **TEKS** | d(2)(A), d(1)(D) |
+| **TEKS** | d(2)(A) |
 | **Deliverable** | Signed Drone Safety Briefing (proves the student understood the safety rules) + each student successfully takes off, hovers 5 seconds, and lands at least once |
 | **Materials** | Classroom drones (1 per team of 3-4, DJI Tello Education or equivalent), printed Drone Safety Briefing handout (2 pages), open indoor flight space (cleared classroom or gym), projector for FAA Part 107 overview, masking tape to mark takeoff zones |
 
@@ -93,7 +93,27 @@ Every student must rotate as pilot at least once. The achievement bar is low: ta
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** List 3 things covered on the FAA Part 107 exam and explain why each one matters for safe drone operation. *(d(2)(A))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. THREE things covered on the FAA Part 107 exam:
+
+   Topic 1: _______________________
+
+   Topic 2: _______________________
+
+   Topic 3: _______________________
+
+2. For EACH topic, write ONE specific reason it matters for safe drone operation (example: "Airspace classes matter because a drone near DFW airport could get sucked into a jet engine"):
+
+   Topic 1 why: ______________________________________________________
+
+   Topic 2 why: ______________________________________________________
+
+   Topic 3 why: ______________________________________________________
+
+3. Earliest age I can take the FAA Part 107 exam: ____ (years old)
+
+*(d(2)(A))*
 
 ---
 
