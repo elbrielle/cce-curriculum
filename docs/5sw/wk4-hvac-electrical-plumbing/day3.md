@@ -70,7 +70,25 @@ Three volunteers share their top recommendation and one data point. This closes 
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Classify ONE skilled trade as high-skill, high-wage, AND high-demand. Cite two specific pieces of evidence (numbers, growth rates, or salary data). *(d(5)(A), d(5)(B))*
+**EXIT TICKET** (Comparison Matrix):
+
+Pick 2 skilled trades from today's analysis and fill in the matrix. Mark each cell with check marks where the classification applies.
+
+| | Trade 1: _______________ | Trade 2: _______________ |
+|---|---|---|
+| HIGH-SKILL (evidence: cert/license/training) | | |
+| HIGH-WAGE (evidence: DFW $) | | |
+| HIGH-DEMAND (evidence: BLS growth %) | | |
+
+Bottom line: Which of my TWO trades scores MOST check marks? Cite TWO specific pieces of evidence (numbers, growth rates, salary data):
+
+   Trade with most checks: _______________________
+
+   Evidence 1: _______________________________________________________
+
+   Evidence 2: _______________________________________________________
+
+*(d(5)(A), d(5)(B))*
 
 ---
 

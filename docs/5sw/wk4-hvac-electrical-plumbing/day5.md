@@ -67,7 +67,29 @@ Preview next week: **Personal Finance / Budgeting**. Students will use the salar
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Complete this sentence: *The most important thing I learned about skilled trades this week is _____.* Then name which trade you would pick if you had to choose today. *(d(5)(A), d(5)(B))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+The skilled trade I would pick TODAY if I had to choose: _______________________
+
+Connect this trade to THREE things:
+
+**1. The BLS growth rate OR DFW job openings data** for this trade (from Day 3)
+
+   My data point: _______________________. In one sentence, what does this number mean for a 13-year-old today?
+
+   ___________________________________________________________________
+
+**2. The POST-HS route I would take** (Welding at MacArthur / union apprenticeship / community college / private trade school)
+
+   My route: _______________________. In one sentence, why this route over the others?
+
+   ___________________________________________________________________
+
+**3. The BIGGEST thing I learned about the FULL A&C cluster** after Wks 1-4 (architecture / civil engineering / construction / skilled trades)
+
+   One sentence: ___________________________________________________________________
+
+*(d(5)(A), d(5)(B))*
 
 ---
 

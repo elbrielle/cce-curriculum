@@ -85,7 +85,25 @@ Direct students to open H&L and:
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name the trade that interests you most from this week (MacArthur Welding in high school, or HVAC / Electrical / Plumbing through a post-HS apprenticeship or trade school). Explain in one sentence why that route would fit you. *(d(2)(A), d(3)(G))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: Ava is a 12th grader in Irving. Her family cannot pay for college. She wants to be an HVAC technician but Irving ISD does not offer HVAC.
+
+1. Which route should Ava pick (circle one): **union apprenticeship** / **community college trade program** / **private trade school** (Lincoln Tech / UTI)?
+
+   My pick: _______________________
+
+2. Use ONE specific data point (cost, length, or DFW salary) to back my pick:
+
+   ___________________________________________________________________
+
+3. If I were Ava's friend, ONE backup trade I would suggest that IS available at Irving ISD (Welding at MacArthur ACE): _______________________. In one sentence, why Welding could be a good fit:
+
+   ___________________________________________________________________
+
+4. ONE trade that interests ME most from this week AND the route (MacArthur Welding or post-HS apprenticeship / CC / trade school) I would pick: *(d(2)(A), d(3)(G))*
+
+   My trade: _______________________. My route: _______________________
 
 ---
 

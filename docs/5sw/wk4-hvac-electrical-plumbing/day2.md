@@ -64,7 +64,25 @@ Teams keep research notes clean so they can present from them on Day 5.
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Describe the skills gap in your assigned trade in one sentence. Explain why the gap creates opportunity for young people entering the field. *(d(5)(A))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. My assigned Jigsaw trade: _______________________
+
+2. Describe the SKILLS GAP in my trade in ONE sentence:
+
+   ___________________________________________________________________
+
+3. Name TWO factors that CAUSE this skills gap (e.g., retirements, new construction, automation):
+
+   - Factor 1: _______________________
+
+   - Factor 2: _______________________
+
+4. In one sentence, HOW does this skills gap create OPPORTUNITY for a young person entering the field TODAY?
+
+   ___________________________________________________________________
+
+*(d(5)(A))*
 
 ---
 

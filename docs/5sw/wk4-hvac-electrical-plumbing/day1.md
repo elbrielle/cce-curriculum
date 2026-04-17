@@ -70,7 +70,23 @@ Students work independently or in pairs. Teacher circulates and verifies student
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Rank the three trades explored today (HVAC, Electrical, Plumbing) on training-time-to-salary ratio, #1 = best ratio. Cite a specific number for your #1 pick (salary in DFW OR training years). Explain in one sentence why that ratio matters more to you than either salary alone or training alone. *(d(2)(A), d(5)(E))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank the three trades on TRAINING-TIME-TO-SALARY RATIO from BEST ratio (1) to WORST (3).
+
+- HVAC Technician: rank ____
+- Electrician: rank ____
+- Plumber: rank ____
+
+For EACH rank, cite ONE specific number (training years OR DFW salary) that backs the rank:
+
+- Rank 1 (best ratio): _______________________________________________________
+
+- Rank 3 (worst ratio): _______________________________________________________
+
+Bottom line: In one sentence, why does the RATIO matter more to me than training-time alone or salary alone? *(d(2)(A), d(5)(E))*
+
+   ___________________________________________________________________
 
 ---
 
