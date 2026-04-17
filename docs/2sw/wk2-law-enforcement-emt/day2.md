@@ -94,7 +94,7 @@ The workbook's "Extra Time" extension: act out the case presentation as if stand
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors):
+**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors) · [Printable PDF](../../resources/exit-tickets/2sw-wk2-day2-missing-painting.pdf):
 
 A detective looks at the evidence and says Alex took the painting. Later, she finds new clues that point to Kai instead. Now she must tell her boss she was wrong.
 

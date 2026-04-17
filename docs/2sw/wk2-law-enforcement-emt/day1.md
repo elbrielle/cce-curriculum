@@ -81,7 +81,7 @@ If From the Field videos are not available for the chosen Hats, project a short 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/2sw-wk2-day1-first-responder-pathways.pdf):
 
 Jordan is a high school senior in Irving ISD. Jordan wants to start working as a first responder in the next year after graduating. Jordan wants to stay close to family in DFW.
 

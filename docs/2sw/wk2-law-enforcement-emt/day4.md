@@ -81,7 +81,7 @@ The class evaluates each team using a quick rubric (visible on the projector):
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Trade-off / Dilemma Analysis):
+**EXIT TICKET** (Trade-off / Dilemma Analysis) · [Printable PDF](../../resources/exit-tickets/2sw-wk2-day4-citywide-emergency-plan.pdf):
 
 You are the Emergency Management Director. A wildfire is coming. You have enough buses to save only ONE place before the fire gets here:
 

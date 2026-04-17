@@ -28,7 +28,11 @@ from reportlab.platypus import (
 from reportlab.lib.enums import TA_LEFT
 from pathlib import Path
 
-OUTPUT_DIR = Path(__file__).parent
+# PDFs ship on the deployed MkDocs site under docs/resources/exit-tickets/
+# so coordinators can follow a single site link and browse printable versions
+# alongside the daily plan.
+OUTPUT_DIR = Path(__file__).resolve().parents[2] / "docs" / "resources" / "exit-tickets"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # ---------- Shared styles ----------
 
@@ -180,7 +184,7 @@ def day1():
         *answer_block(3),
     ]
     build_pdf(
-        "day1-first-responder-pathways.pdf",
+        "2sw-wk2-day1-first-responder-pathways.pdf",
         "Exit Ticket — Day 1: First Responder Pathways",
         "2SW Week 2 · Law Enforcement & EMT · Mini-Case format",
         body,
@@ -223,7 +227,7 @@ def day2():
         *answer_block(3),
     ]
     build_pdf(
-        "day2-missing-painting.pdf",
+        "2sw-wk2-day2-missing-painting.pdf",
         "Exit Ticket — Day 2: Missing Painting",
         "2SW Week 2 · Law Enforcement & EMT · Diagnostic MCQ format",
         body,
@@ -273,7 +277,7 @@ def day3():
         *answer_block(3),
     ]
     build_pdf(
-        "day3-task-force-setup.pdf",
+        "2sw-wk2-day3-task-force-setup.pdf",
         "Exit Ticket — Day 3: Task Force Setup",
         "2SW Week 2 · Law Enforcement & EMT · Decision Tree format",
         body,
@@ -328,7 +332,7 @@ def day4():
         *answer_block(2),
     ]
     build_pdf(
-        "day4-citywide-emergency-plan.pdf",
+        "2sw-wk2-day4-citywide-emergency-plan.pdf",
         "Exit Ticket — Day 4: Citywide Emergency Plan",
         "2SW Week 2 · Law Enforcement & EMT · Trade-off / Dilemma Analysis format",
         body,
@@ -383,7 +387,7 @@ def day5():
         answer_line(),
     ]
     build_pdf(
-        "day5-cluster-wrap-up.pdf",
+        "2sw-wk2-day5-cluster-wrap-up.pdf",
         "Exit Ticket — Day 5: Cluster Wrap-Up",
         "2SW Week 2 · Law Enforcement & EMT · Concept Map format",
         body,
@@ -396,4 +400,4 @@ if __name__ == "__main__":
     day3()
     day4()
     day5()
-    print("\nAll 5 PDFs generated in cce-curriculum/pilot-pdfs/")
+    print(f"\nAll 5 PDFs generated in {OUTPUT_DIR.relative_to(Path(__file__).resolve().parents[2])}/")
