@@ -1,6 +1,6 @@
 # PLANNING.md — CCE Curriculum Post-Meeting State
 
-**Last updated:** 2026-04-17 (fifth session: full top-down systematic pilot pass complete — 35 of 35 auditable weeks done, Wk0 skipped per user)
+**Last updated:** 2026-04-17 (sixth session: matrix reconciliation — 15 row-level fixes to align `teks-coverage-matrix.md` with the 35-week audited day files)
 **Purpose:** Brief any agent on the current state of the CCE curriculum project after the 2026-04-15 teacher meeting.
 
 ---
@@ -29,9 +29,9 @@ The 36-week CCE curriculum has been fully piloted through the **TEKS audit + exi
 
 ### Priority list (agent picks ONE to work next)
 
-1. **`docs/resources/teks-coverage-matrix.md` reconciliation (HIGHEST PRIORITY, UNBLOCKED).** Across 35 audited weeks, day-level retags accumulated Implicit→Explicit promotions and new week rows that were sometimes applied to the matrix in real-time and sometimes deferred. Goal: grep every day file's TEKS header, compare to the matrix, fold missing promotions in. Produces a cleaner matrix for coordinator review. **Recommended as the agent's first task.** See the **"Starter task"** block below for step-by-step instructions.
+1. ~~**`docs/resources/teks-coverage-matrix.md` reconciliation.**~~ **DONE 2026-04-17** (see audit-log entry in `teks-audit-process.md`). 15 row-level mismatches corrected across the matrix after cross-checking every day file's TEKS header. Coverage-summary stats unchanged (33 Explicit / 4 Implicit-only / 0 hard gaps); inline "Matrix reconciliation 2026-04-17" notes record every change.
 
-2. **Round-2 TEKS deepening (UNBLOCKED).** Three Implicit codes — d(3)(D), d(3)(F), d(4)(E) — have suggested edits already drafted in `docs/resources/teks-coverage-matrix.md`. Audit those draft edits against the pilot-pass day files to see which still need attention after 35 weeks of retags.
+2. **Round-2 TEKS deepening (UNBLOCKED, NOW HIGHEST PRIORITY).** Three Implicit-only codes still flagged after reconciliation — d(3)(D) (only 4SW Wk2 Days 3, 5), d(3)(F) (4SW Wk2 Day 4 + 4SW Wk6 Day 3), d(4)(E) (6SW Wk1 Day 4 + 3SW Wk1 Day 4). Suggested edits drafted in `docs/resources/teks-coverage-matrix.md` "Flagged for Round-2 Deepening" section. Agent's job: implement one or more of the suggested deepenings and update the matrix tier accordingly.
 
 3. **Wk0 Classroom Routines pilot pass (UNBLOCKED but lower value).** Skipped this pass per user directive. If the user wants full coverage, run the same 6-step audit + exit-ticket rewrite over Wk0's 5 days. Estimated 90 min.
 
@@ -41,34 +41,27 @@ The 36-week CCE curriculum has been fully piloted through the **TEKS audit + exi
 
 6. **Whole-week polish reviews (BLOCKED on user priority call).** Some 4SW+5SW+6SW weeks had retags batched without detailed per-week audit log entries (see the 13-week batch entry in `teks-audit-process.md`). If the coordinator requests individual-week audit-log detail for review, agent can reconstruct from git commits — but only if the user asks.
 
-### Starter task (ready-to-pick-up, priority 1)
+### Starter task (ready-to-pick-up, priority 2 — Round-2 TEKS deepening)
 
-**Goal:** Reconcile `docs/resources/teks-coverage-matrix.md` against the 35 audited day files. Produce a matrix that truthfully reflects what each day tags.
+**Goal:** Close the three Implicit-only gap candidates flagged in `docs/resources/teks-coverage-matrix.md` by implementing the suggested deepenings.
 
 **Sequence:**
 
-1. Dump the canonical day-level TEKS tags. Run once and save the output:
+1. Read the "Flagged for Round-2 Deepening" section at the bottom of the matrix. Each of the three codes (d(3)(D), d(3)(F), d(4)(E)) has a concrete suggested deepening.
 
-   ```bash
-   for f in docs/[1-6]sw/wk*/day*.md; do
-     week=$(basename $(dirname $f))
-     echo "=== $f ==="
-     grep -E "^\| \*\*TEKS\*\*" "$f"
-   done > /tmp/day-level-teks.txt
-   ```
+2. Pick ONE code per task cycle (not all three at once — each involves edits to 1-3 day files and the overview). Recommend starting with **d(3)(F)** because the suggested deepening is a single admonition insert in 4SW Wk1 Day 4, low risk.
 
-2. For each TEKS code (d(1)(A) through d(8)(C)), grep the matrix section and list the Explicit and Implicit week rows it currently claims. Then cross-check against `/tmp/day-level-teks.txt`. Flag three classes of mismatch:
-   - **Day tags a code that doesn't appear in the matrix row** → add the week to the matrix's Implicit or Explicit column.
-   - **Matrix lists a week but no day in that week tags the code** → drop the matrix claim.
-   - **Matrix says Implicit, but the day's exit ticket directly probes the code** → promote to Explicit.
+3. Before editing, run the TEKS audit process on the target day (per `cce-curriculum/notes/teks-audit-process.md`). Write the deepening content. Rewrite the day's exit ticket if the TEKS set changes.
 
-3. Start with the d(1)(A) Xello-self-assessment pattern — ~8 weeks of Implicit coverage from Xello Interests / Learning Styles / Factors / Skills Matcher were added across the pilot pass; confirm all are in the matrix. The audit log in `teks-audit-process.md` is the fastest reference for which days earned d(1)(A) Implicit.
+4. Update the matrix tier (promote Implicit → Explicit if the deepening makes it the day's primary objective).
 
-4. Run preservation loop on any matrix change: `python3 -m mkdocs build --strict`. Matrix is a student-facing resource page, not a day file, so no 45-55 min timing check needed.
+5. Run preservation loop: `python3 -m mkdocs build --strict` + the 5 grep checks in `PLANNING.md` §9.
 
-5. Commit with `AUDIT: matrix reconciliation — <scope>` subject. Push to `claude/read-md-files-handoff-WKBeb`.
+6. Commit with `AUDIT: d(3)(F) deepening — 4SW Wk1 Day 4 co-curricular admonition` style subject. Push to `claude/read-md-files-handoff-WKBeb`.
 
-**Estimated time:** 45-90 min for a careful first pass.
+**Estimated time:** 30-60 min per code.
+
+**Prior matrix reconciliation (completed 2026-04-17):** See `teks-audit-process.md` audit log; 15 row-level mismatches corrected by cross-checking every day file's TEKS header against the matrix.
 
 ### What shipped this session (2026-04-17, fifth session — PILOT PASS COMPLETE)
 
