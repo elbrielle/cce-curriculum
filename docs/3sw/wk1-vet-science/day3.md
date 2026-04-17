@@ -73,7 +73,27 @@ Each team has 60-90 seconds to share their chosen problem and solution. After al
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Write 3 sentences. (1) What role did you play today? (2) What did your role contribute that the others couldn't? (3) Name one veterinary career that has a similar specialist role on a vet clinic team. *(d(1)(C))*
+**EXIT TICKET** (Decision Tree / Branching Prompt):
+
+My Candy Conundrum role: _______________________ (Flavorist / Packaging Engineer / R&D Manager / Quality Assurance)
+
+New problem: A candy's COLOR is fading on store shelves after 2 weeks. Customers think it's stale.
+
+Step 1: What does MY ROLE do FIRST to investigate? (One specific action.)
+
+   ___________________________________________________________________
+
+Step 2: Branch on the finding —
+
+   IF the color fade is caused by LIGHT (sun exposure), which OTHER role do I loop in first, and why? ___________________________________________________________________
+
+   IF the color fade is caused by the INGREDIENTS (recipe issue), which OTHER role do I loop in first, and why? ___________________________________________________________________
+
+Step 3: Name ONE veterinary career that plays a similar specialist role on a VET CLINIC team:
+
+   ___________________________________________________________________
+
+*(d(1)(C))*
 
 ---
 

@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Complete the Xello Life Experiences lesson; log existing volunteer hours; understand how informal experiences (chores, pet care, sports) build the skills colleges and employers look for |
-| **TEKS** | d(2)(B), d(1)(C) |
+| **TEKS** | d(1)(A), d(1)(C), d(4)(E) |
 | **Deliverable** | Completed Xello Life Experiences lesson (screenshot of completion screen) + at least one Volunteer Hours entry (or planned entry) |
 | **Materials** | Chromebooks, Xello student accounts, projector |
 
@@ -69,7 +69,25 @@ Quick whole-class share: which life experience or volunteer activity from today 
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Take a screenshot of your Xello Life Experiences completion screen. Then write one sentence: "One life experience I logged today is _____, and it teaches me _____, a skill that matters for a career as _____." *(d(2)(B), d(1)(C))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. One life experience I logged in Xello today: _______________________
+
+2. ONE specific skill this experience teaches me (NOT "responsibility" — be specific: "handling a sick dog," "speaking clearly to customers," "showing up on time for practice"):
+
+   ___________________________________________________________________
+
+3. ONE veterinary career (or Animal Systems career) that VALUES this exact skill, and why:
+
+   Career: _______________________. Why the skill matters: ___________________________________________________________________
+
+4. One volunteer activity I could do in the NEXT 2 WEEKS to add another logged hour (animal shelter, 4-H, community garden, school cleanup, church event):
+
+   ___________________________________________________________________
+
+*(d(1)(A), d(1)(C), d(4)(E))*
+
+Submit your Xello Life Experiences completion screenshot with this ticket.
 
 ---
 

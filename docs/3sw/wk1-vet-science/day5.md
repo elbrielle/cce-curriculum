@@ -75,7 +75,33 @@ The reflection paragraph is the only new writing, the rest is assembly of work a
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Submit your Veterinary Pathway Brief. On the back, write: "One career I favorited in my H&L Climber Profile is _____ and the reason it fits me is _____." *(d(2)(A), d(2)(B), d(1)(C))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+A veterinary career I favorited in H&L today: _______________________
+
+Connect this career to THREE things:
+
+**1. The Nimitz HS Veterinary Science pathway** (leads to Elanco Veterinary Medical Applications certification)
+
+   Does the Nimitz pathway lead DIRECTLY to my favorited career or is it a STEPPING STONE? Circle: DIRECT / STEPPING STONE. One sentence why:
+
+   ___________________________________________________________________
+
+**2. ONE life experience I logged in Xello yesterday**
+
+   My experience: _______________________. In one sentence, how does this experience prepare me for the favorited career?
+
+   ___________________________________________________________________
+
+**3. My Wk0 RIASEC type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
+
+   My RIASEC type: _______________________. In one sentence, does this career fit my type, and why?
+
+   ___________________________________________________________________
+
+*(d(2)(A), d(2)(B), d(1)(C))*
+
+Submit your Veterinary Pathway Brief with this ticket.
 
 ---
 

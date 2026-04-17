@@ -12,10 +12,12 @@ Students explore the Agriculture, Food & Natural Resources cluster through Hats 
 
 ## TEKS Alignment
 
-- **d(1)(B):** Explore and describe the CTE career clusters.
-- **d(1)(C):** Identify various career opportunities within the Ag, Food & Natural Resources cluster.
-- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements.
-- **d(2)(B):** Use available resources to research and evaluate educational and training options.
+- **d(1)(A):** Analyze and discuss assessment results (Day 4 Xello Life Experiences reflection).
+- **d(1)(B):** Explore and describe the CTE career clusters (Day 1).
+- **d(1)(C):** Identify various career opportunities within the Ag, Food & Natural Resources cluster (Days 1-5).
+- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements (Days 2, 5).
+- **d(2)(B):** Use available resources to research and evaluate educational and training options (Days 2, 5).
+- **d(4)(E):** Community service and volunteerism (Day 4 Xello Volunteer Hours).
 
 ## Materials Needed
 
@@ -66,10 +68,11 @@ The H&L workbook (Ch 2: Agriculture, Food, and Natural Resources, pp. 16-36) int
 
 ## Formative Assessment
 
-- Hat Research template completion (Day 1): d(1)(B), d(1)(C)
-- Vet Career Comparison worksheet accuracy (Day 2): d(2)(A), d(2)(B)
-- Candy Conundrum role contribution and group solution (Day 3): d(1)(C)
-- Xello Life Experiences completion (Day 4): d(2)(B)
+- Hat Research + Mini-Case exit ticket (Sofia allergic to cats/dogs + loves outdoors; pick Animal Systems career). *Day 1, d(1)(B), d(1)(C)*
+- Vet Career Comparison + Comparison Matrix exit ticket (Vet Tech vs. Veterinarian x education/pay/task). *Day 2, d(2)(A), d(2)(B)*
+- Candy Conundrum solution + Decision Tree exit ticket (color-fade problem + role-based investigation branching). *Day 3, d(1)(C)*
+- Xello Life Experiences + Volunteer Hours + SCR exit ticket (experience + specific skill + vet career + 2-week volunteer plan). *Day 4, d(1)(A), d(1)(C), d(4)(E)*
+- Nimitz pathway brief + Concept Map exit ticket (favorited career + Nimitz pathway fit + life experience + RIASEC). *Day 5, d(2)(A), d(2)(B), d(1)(C)*
 
 ## Summative Assessment
 

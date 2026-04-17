@@ -72,7 +72,23 @@ The Hat Research template requires these fields:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name the Animal Systems career you researched and ONE piece of information that surprised you (salary, education length, or daily task). Then explain in one sentence whether that surprise makes the career more or less appealing to YOU, and why. *(d(1)(B), d(1)(C))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: Sofia loves animals but is allergic to cats and dogs. She also loves being outside. Sofia is looking at the H&L Animal Systems pathway.
+
+1. Which Animal Systems career would you recommend to Sofia (examples: Wildlife Biologist, Zookeeper, Marine Biologist, Equine Trainer, Animal Shelter Manager)? Use your Hat Research or today's pathway browse.
+
+   My pick: _______________________
+
+2. In one sentence, use ONE detail from your research (education, daily task, setting) that makes your pick BETTER than a general Veterinarian for Sofia specifically:
+
+   ___________________________________________________________________
+
+3. Name ONE other Animal Systems career from today that would NOT fit Sofia, and why:
+
+   Bad-fit career: _______________________. Why not: ___________________________________________________________________
+
+*(d(1)(B), d(1)(C))*
 
 ---
 

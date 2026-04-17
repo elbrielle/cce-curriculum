@@ -71,7 +71,21 @@ After the worksheet is complete, students answer two analysis questions on the b
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Write one sentence that starts: "After researching both careers, I am more interested in becoming a _____ because _____." Use one specific number from your worksheet in your answer. *(d(2)(A), d(2)(B))*
+**EXIT TICKET** (Comparison Matrix):
+
+Use the BLS data from your worksheet to fill in the matrix.
+
+| | Vet Tech | Veterinarian |
+|---|---|---|
+| Years of school AFTER high school | | |
+| Median annual pay (BLS) | | |
+| One daily task | | |
+
+Bottom line: After comparing both careers, I am more interested in becoming a _______________________.
+
+In one sentence, use ONE SPECIFIC NUMBER from the matrix to explain why my choice fits me BETTER than the other: *(d(2)(A), d(2)(B))*
+
+   ___________________________________________________________________
 
 ---
 
