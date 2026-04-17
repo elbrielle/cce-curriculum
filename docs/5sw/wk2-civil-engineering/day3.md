@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Apply the Engineering Design Process (EDP) phases 1-2: Define the problem and research/sketch 2 bridge design options before building |
-| **TEKS** | d(1)(C), d(1)(D) |
+| **TEKS** | d(1)(C) |
 | **Deliverable** | Approved bridge sketch showing two design options with labeled structural elements (truss, arch, or beam) |
 | **Materials** | Chromebooks, printed Bridge Design sketch page, projector, PBS Design Squad videos, bridge materials for display only (not yet built) |
 
@@ -89,7 +89,29 @@ Teams then **pick one design** to build on Day 4 based on the peer feedback.
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Sketch your team's chosen bridge design in the space below with structural elements labeled. Name one design feature you picked specifically to make it stronger. *(d(1)(C), d(1)(D))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. My team's bridge type (circle one): **Truss** / **Arch** / **Beam** / **Other: _______________________**
+
+2. Space below, sketch the chosen design (top view OR side view) with at least 3 structural elements labeled:
+
+```
+
+
+
+```
+
+3. ONE design feature I picked specifically to MAKE IT STRONGER:
+
+   Feature: _______________________. Why it makes it stronger in one sentence:
+
+   ___________________________________________________________________
+
+4. The WEAK POINT I expect to fail first: _______________________. Why I expect that in one sentence:
+
+   ___________________________________________________________________
+
+*(d(1)(C))*
 
 ---
 

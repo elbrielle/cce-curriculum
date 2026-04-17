@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Apply EDP phases 3-4: Build the bridge prototype from the approved Day 3 design; test weight capacity incrementally; record max weight held |
-| **TEKS** | d(1)(D), d(1)(C) |
+| **TEKS** | d(1)(C) |
 | **Deliverable** | Completed bridge prototype + test results sheet (max weight held) |
 | **Materials** | Bridge-building materials (40 straws, 3 ft tape, 5 index cards, scissors per team), 12-inch gap test station, weights (pennies in cups, washers, or a digital kitchen scale with textbooks), stopwatch, test results sheet |
 
@@ -79,7 +79,30 @@ This reflection is the "Redesign" phase of the EDP. Real civil engineers rarely 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Record your bridge's max weight held, name the element that failed first, and describe ONE change you would make in a redesign. Then connect this to real civil engineering, what do engineers do when their first design fails? *(d(1)(C), d(1)(D))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank these 4 design factors from MOST important (1) to LEAST (4) based on what made class bridges STRONG or WEAK today.
+
+- Triangular reinforcement (trusses): rank ____
+- Bundled straws (3+ straws taped together): rank ____
+- Deck thickness (index cards doubled up): rank ____
+- Tape placement (joints reinforced): rank ____
+
+My bridge's MAX WEIGHT HELD: ______________________
+
+First element that failed: _______________________
+
+For EACH rank, write ONE piece of evidence (from my bridge OR another team's):
+
+- Rank 1 (most important): _______________________________________________________
+
+- Rank 4 (least important): _______________________________________________________
+
+Bottom line: ONE change I would make in a redesign:
+
+   ___________________________________________________________________
+
+*(d(1)(C))*
 
 ---
 

@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Explore civil engineering careers in H&L; begin the Hat Research template for one engineering career; read the Los Lomas Infrastructure Report from the H&L workbook |
-| **TEKS** | d(1)(C), d(1)(D) |
+| **TEKS** | d(1)(B), d(1)(C) |
 | **Deliverable** | Completed Hat Research template (1 engineering career) + notes on the two Los Lomas problems |
 | **Materials** | Chromebooks, H&L accounts + Workbook (Ch 8, pp. 119-135 and Ch 3 Hat Research template), projector |
 
@@ -88,7 +88,29 @@ Students write brief notes on each problem in their workbook. This sets up Days 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name one civil engineering career and list its education requirements. Then name one Los Lomas infrastructure problem and describe one reason a civil engineer is needed to solve it. *(d(1)(C), d(1)(D))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: Irving had 3 inches of rain last night. Parts of Trinity River flooded, a major highway is closed, and a bridge over the creek is showing cracks.
+
+1. Which TYPE of engineer would LEAD the investigation of each issue? Match:
+
+   - Flooding: **Civil Engineer** / **Structural Engineer** / **Environmental Engineer**
+
+   - Highway closure: **Civil Engineer** / **Structural Engineer** / **Environmental Engineer**
+
+   - Bridge cracks: **Civil Engineer** / **Structural Engineer** / **Environmental Engineer**
+
+2. ONE Los Lomas problem from today (traffic congestion OR stormwater flooding) is most similar to Irving's situation. Which one, and why?
+
+   My pick: _______________________
+
+   Why: ____________________________________________________________
+
+3. Name ONE education requirement a civil engineer needs (degree, license, or certification):
+
+   ___________________________________________________________________
+
+*(d(1)(B), d(1)(C))*
 
 ---
 

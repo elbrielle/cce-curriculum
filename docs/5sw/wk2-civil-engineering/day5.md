@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Present bridge results with design rationale; favorite engineering careers in H&L; update Career Plan with engineering exploration data |
-| **TEKS** | d(1)(C), d(1)(D), d(2)(A) |
+| **TEKS** | d(1)(C) |
 | **Deliverable** | Bridge results presentation + updated H&L Career Plan + submitted Emerging Engineering Careers research template |
 | **Materials** | Chromebooks, H&L accounts + workbook (Ch 16 Career Plan template), whiteboard with Day 4 results, projector |
 
@@ -82,7 +82,29 @@ Preview next week: Construction trades. Students will explore the people who act
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name the engineering career you found most interesting this week and explain what makes it "emerging" or relevant to modern DFW needs. *(d(1)(D))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+The engineering career I favorited this week: _______________________
+
+Connect this career to THREE things:
+
+**1. Day 2 emerging-career research** (what makes this career "emerging" OR relevant to modern DFW needs)
+
+   What makes it emerging: _______________________________________________
+
+**2. One standardized test from Day 2** (PSAT 8/9 / SAT / ACT / TSI / ASVAB)
+
+   My test: _______________________. In one sentence, how does my test score affect my path to this career?
+
+   ___________________________________________________________________
+
+**3. The MacArthur School of ACE Civil Engineering pathway** (AutoDesk Fusion 360 cert)
+
+   Does this pathway lead DIRECTLY to my career or is it a STEPPING STONE? Circle: DIRECT / STEPPING STONE. One sentence why:
+
+   ___________________________________________________________________
+
+*(d(1)(C))*
 
 ---
 

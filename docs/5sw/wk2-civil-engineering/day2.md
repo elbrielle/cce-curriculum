@@ -76,7 +76,21 @@ Students begin research in class and finish as homework if needed.
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name the test most relevant to YOUR pathway after high school and explain in one sentence why it matters for engineering or your chosen field. Then name one emerging engineering career you researched. *(d(3)(E), d(1)(D))*
+**EXIT TICKET** (Comparison Matrix):
+
+Compare 3 standardized tests on how they matter to MY pathway.
+
+| Test | When I'd take it | What it's used for | Relevant to my pathway? (YES/NO) |
+|---|---|---|---|
+| PSAT 8/9 | 9th grade | | |
+| SAT or ACT | 11-12th grade | | |
+| TSI / ASVAB (pick one) | post-HS | | |
+
+Bottom line: ONE test most relevant to my pathway: _______________________. In one sentence, why it matters for MY chosen field:
+
+   ___________________________________________________________________
+
+ONE emerging engineering career I researched today: _______________________. *(d(3)(E), d(1)(D))*
 
 ---
 
