@@ -14,7 +14,7 @@ A TEKS can be both Explicit in some weeks and Implicit in others. The tier colum
 
 | TEKS | Description | Tier | Explicit Weeks | Implicit Weeks | Depth Notes |
 |---|---|---|---|---|---|
-| d(1)A | Analyze and discuss assessment results | **E** | Wk0 (1SW), 4SW Wk1 | 3SW Wk1, 3SW Wk5 Day 5 (Xello Career Factors), 5SW Wk1, 6SW Wk6 | Wk0 is the seeding week; 4SW Wk1 is the explicit mid-year reconciliation |
+| d(1)A | Analyze and discuss assessment results | **E** | Wk0 (1SW), 4SW Wk1 | 1SW Wk2 Day 5 (H&L Pathway Fit), 3SW Wk1, 3SW Wk5 Day 5 (Xello Career Factors), 5SW Wk1, 6SW Wk6 | Wk0 is the seeding week; 4SW Wk1 is the explicit mid-year reconciliation |
 | d(1)B | Explore CTE career clusters | **E** | Every cluster week (~28 weeks) | None | H&L 14 clusters + Irving ISD 6 campuses |
 | d(1)C | Identify career opportunities within clusters | **E** | Nearly every week (~30 weeks) | None | Hat Research template is the primary evidence artifact |
 | d(1)D | Research and evaluate emerging occupations | **E** | 1SW Wk3, 1SW Wk5, 2SW Wk6, 3SW Wk2-3, 4SW Wk4, 5SW Wk2 | None | "Emerging" explicitly in the exit ticket and activity |

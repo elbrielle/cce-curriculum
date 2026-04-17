@@ -67,16 +67,17 @@ Students who reach the end of their tutorial print or screenshot the Code.org co
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Complete the sentence using the word banks.
+**EXIT TICKET** (Short Constructed Response):
 
-*Programming concepts:* sequence, loop, conditional
-*Wk0 Work Values:* Achievement, Independence, Recognition, Relationships, Support, Working Conditions
+1. Which programming concept did you use MOST in today's tutorial? Circle ONE: **sequence** / **loop** / **conditional**
 
-"Today I used a ______________________________ in my Hour of Code tutorial.
+2. Pick ONE programming career from Day 2's Hat Research (Software Developer, Web Developer, App Developer, or Game Developer). Name it here: _______________________
 
-This kind of problem-solving matches my Wk0 Work Value of ______________________________
+3. Write ONE real task that career does on the job that uses the concept you circled in #1. Be specific (example: "a Game Developer uses a LOOP to spawn 50 enemy monsters without writing the code 50 times"). *(d(1)(C))*
 
-because __________________________________________________________________." *(d(1)(C))*
+   ___________________________________________________________________
+
+   ___________________________________________________________________
 
 ---
 

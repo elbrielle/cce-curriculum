@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Finish the Hour of Code tutorial; complete the H&L Pathway Fit Assessment for IT; favorite 2 programming careers in the Climber Profile; complete Xello Favorite Clusters |
-| **TEKS** | d(1)(C), d(5)(A) |
+| **TEKS** | d(1)(A), d(1)(C) |
 | **Deliverable** | Hour of Code certificate + 2 IT careers favorited in H&L + Xello Favorite Clusters complete |
 | **Materials** | Chromebooks, Code.org, H&L accounts, Xello accounts, projector |
 
@@ -78,18 +78,29 @@ Tell students: "This is the Xello version of what you did in H&L. Both platforms
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Complete the sentence using the word banks.
+**EXIT TICKET** (Concept Map / Connection Diagram):
 
-*RIASEC types (from Wk0):* Doer, Analyzer, Creator, Helper, Persuader, Organizer
-*Work Values (from Wk0):* Achievement, Independence, Recognition, Relationships, Support, Working Conditions
+An IT career I favorited this week: _______________________
 
-"The IT career I favorited is ______________________________________________________.
+Connect this career to THREE things:
 
-It fits my ______________________________ personality type and my
+**1. My H&L Pathway Fit result for IT** (the pathway the app recommended today)
 
-______________________________ Work Value because ____________________________________
+   The H&L-recommended pathway: _______________________. Does this line up with the career I favorited? Circle YES / NO. In one sentence, why: ___________________________________________________________________
 
-__________________________________________________________________." *(d(1)(C), d(5)(A))*
+**2. My Wk0 RIASEC type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
+
+   My RIASEC type: _______________________. Why does this career match (or not match) my type? One sentence:
+
+   ___________________________________________________________________
+
+**3. My Hour of Code experience** (enjoyed / struggled / surprised by something)
+
+   My experience in ONE word: _______________________. Does my experience strengthen or weaken my interest in this career? One sentence why:
+
+   ___________________________________________________________________
+
+*(d(1)(A), d(1)(C))*
 
 ---
 

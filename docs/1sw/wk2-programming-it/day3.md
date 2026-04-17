@@ -80,7 +80,19 @@ After students complete the worksheet, they answer 2 reflection questions on the
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Compare the salaries of the 3 IT careers you researched. Which one has the BEST combination of high salary AND fast job growth? Explain in one sentence. *(d(5)(A), d(5)(E))*
+**EXIT TICKET** (Comparison Matrix):
+
+Use your IT Salary Comparison worksheet to fill in the matrix below.
+
+| | Career 1: _______________ | Career 2: _______________ | Career 3: _______________ |
+|---|---|---|---|
+| BLS national median pay | | | |
+| Typical entry-level education | | | |
+| Job growth rate (BLS) | | | |
+
+Bottom line: Which of your three careers has the BEST combination of HIGH salary AND FAST growth? Name it, then in one sentence use a specific number from the matrix to back your choice. *(d(5)(A), d(5)(E))*
+
+   ___________________________________________________________________
 
 ---
 

@@ -66,7 +66,33 @@ Walk the room and stop students who are scrolling without reading. Ask them to r
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name the IT pathway most interesting to you and TWO careers within it. Explain in one sentence how one of those careers fits your Wk0 RIASEC type using a specific daily task from the Hat profile. *(d(1)(B), d(1)(C))*
+**EXIT TICKET** (Venn Diagram Comparison):
+
+The two IT pathways from today I want to compare: (1) **Programming & Software Development** and (2) **Web Development**.
+
+Fill in the Venn Diagram using what you read in H&L today.
+
+- **Unique to Programming & Software Development** (2 things only this pathway does):
+
+    1. ________________________________________________________________
+
+    2. ________________________________________________________________
+
+- **Unique to Web Development** (2 things only this pathway does):
+
+    1. ________________________________________________________________
+
+    2. ________________________________________________________________
+
+- **Shared by BOTH pathways** (2 things they both do):
+
+    1. ________________________________________________________________
+
+    2. ________________________________________________________________
+
+Bottom line: A student who wants to build ONLY websites (no apps, no games) should pick which pathway, and why? *(d(1)(B), d(1)(C))*
+
+   ___________________________________________________________________
 
 ---
 

@@ -75,7 +75,21 @@ For the "What Tools, Equipment, or Skills" field, push students to be specific:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name the programming Hat you researched and ONE specific tool or programming language it uses. Then explain in one sentence how that tool changes the day-to-day work (what the programmer actually does for 8 hours). *(d(1)(C), d(2)(A))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: A local Irving business wants to hire ONE person to build a mobile game that teaches kids to read. The app must work on iPhones AND Androids.
+
+1. Which programming career from today (Software Developer, Web Developer, App Developer, or Game Developer) would you recommend for this job, and why? Use one fact from your Hat Research.
+
+   My pick: _______________________
+
+   Why: ____________________________________________________________
+
+2. Name ONE specific tool or programming language this person will use on the job: _______________________
+
+3. In one sentence, explain how that tool connects to what the business needs (an app that works on iPhones AND Androids). *(d(1)(C), d(2)(A))*
+
+   ___________________________________________________________________
 
 ---
 

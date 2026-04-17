@@ -12,10 +12,12 @@ Students explore the Information Technology cluster through Hats & Ladders (Ch 1
 
 ## TEKS Alignment
 
-- **d(1)(B):** Explore and describe the CTE career clusters.
-- **d(1)(C):** Identify various career opportunities within one or more career clusters.
-- **d(5)(A):** Analyze labor market trends related to a career of interest.
-- **d(5)(E):** Use resources to compare salaries of at least three careers in the student's interest area.
+- **d(1)(A):** Analyze and discuss assessment results (Day 5 H&L Pathway Fit).
+- **d(1)(B):** Explore and describe the CTE career clusters (Day 1).
+- **d(1)(C):** Identify various career opportunities within one or more career clusters (Days 1-5).
+- **d(2)(A):** Research applicable academic, technical, certification, and training requirements (Day 2 Hat Research).
+- **d(5)(A):** Analyze labor market trends related to a career of interest (Day 3 BLS job growth).
+- **d(5)(E):** Use resources to compare salaries of at least three careers in the student's interest area (Day 3).
 
 ## Materials Needed
 
@@ -84,11 +86,11 @@ Week 2 focuses on the **Programming and Software Development** pathway specifica
 
 ## Formative Assessment
 
-- **Day 1:** Stop and Jot notes for evidence of IT cluster knowledge, d(1)(B)
-- **Day 2:** Hat Research worksheet completion + accuracy, d(1)(C)
-- **Day 3:** IT Salary Comparison worksheet with 3 careers, accurate salary and education data, d(5)(A), d(5)(E)
-- **Day 4:** Hour of Code progress check; students should reach the midpoint of their chosen tutorial, d(1)(C)
-- **Day 5:** Hour of Code completion certificate + 2 favorited IT careers in Climber Profile, d(1)(C)
+- **Day 1:** Stop and Jot notes + Venn Diagram exit ticket (Programming vs. Web Dev). *d(1)(B), d(1)(C)*
+- **Day 2:** Hat Research worksheet + Mini-Case exit ticket (cross-platform mobile game app hire). *d(1)(C), d(2)(A)*
+- **Day 3:** IT Salary Comparison worksheet + Comparison Matrix exit ticket (3 careers x pay/education/growth). *d(1)(C), d(5)(A), d(5)(E)*
+- **Day 4:** Hour of Code midpoint progress + Short Constructed Response exit ticket (programming concept + career + job task). *d(1)(C)*
+- **Day 5:** Hour of Code finish + 2 favorited IT careers + Concept Map exit ticket (favorited career + Pathway Fit + RIASEC + HoC experience). *d(1)(A), d(1)(C)*
 
 ## Summative Assessment
 
