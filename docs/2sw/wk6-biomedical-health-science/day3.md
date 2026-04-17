@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Read and analyze the Wilson City community data sheet; identify the food desert problem; brainstorm a mobile farmers' market solution |
-| **TEKS** | d(5)(A), d(1)(C) |
+| **TEKS** | d(1)(C) |
 | **Deliverable** | Wilson City data analysis (key data points circled) + brainstorm sheet (10 food offerings, market name, design ideas) |
 | **Materials** | Chromebooks, H&L Workbook Ch 9 (pp. 149-152), printed Wilson City community data sheet, brainstorm sheet, projector |
 
@@ -115,7 +115,26 @@ Teams write down their ideas. They will refine and present on Day 4.
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name your market, list 3 of the 10 food offerings you brainstormed, and explain ONE way you'll make the market affordable for Wilson City residents. *(d(5)(A), d(1)(C))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank these four Wilson City food-desert constraints from MOST critical (1) for a mobile market to solve to LEAST critical (4). Use the data sheet.
+
+- 40% of households are 8+ miles from a grocery store (mostly west side): rank ____
+- 13% of households have NO vehicle: rank ____
+- 31% of residents receive nutrition assistance (SNAP/WIC): rank ____
+- 28% of seniors live alone: rank ____
+
+For EACH rank, write one specific data point from the Wilson City sheet that backs the rank.
+
+- Rank 1 (most critical): _______________________________________________________
+
+- Rank 4 (least critical but still matters): _______________________________________________________
+
+Bottom line: Name your market. List ONE way the market design addresses YOUR #1 ranked constraint. *(d(1)(C))*
+
+   My market name: _______________________
+
+   Design choice for constraint #1: ___________________________________________________________________
 
 ---
 

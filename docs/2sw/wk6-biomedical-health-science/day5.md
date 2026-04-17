@@ -97,7 +97,31 @@ This living document will be reviewed again at mid-year (4SW Wk 1: Career Planni
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Write: *"The most important thing I learned about Health Science careers is _____, and the most important thing I learned about MYSELF is _____."* *(d(1)(D))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+My emerging biomedical career (from Day 5 research): _______________________
+
+Connect this career to THREE things:
+
+**1. The BLS labor market trend I found today** (growing fast, stable, or slow)
+
+   My trend: _______________________. In one sentence, what NEW technology or need created this emerging career in the last 10 years?
+
+   ___________________________________________________________________
+
+**2. The Irving High Biomedical Science pathway** (leads to BACE certification)
+
+   Does the Irving High pathway lead DIRECTLY to my emerging career, or is it a STEPPING STONE through further school? Circle: DIRECT / STEPPING STONE. One sentence why:
+
+   ___________________________________________________________________
+
+**3. What I learned about MYSELF across 2SW** (Law + Health Science clusters)
+
+   One sentence, what pattern do I notice about the careers that attract me after 6 weeks of Health Science + Law exploration?
+
+   ___________________________________________________________________
+
+*(d(1)(D), d(2)(A), d(5)(A))*
 
 Submit the Emerging Career Research template + the updated 2SW reflection as the Week 6 + 2SW summative deliverable.
 

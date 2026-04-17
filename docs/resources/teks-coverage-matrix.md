@@ -44,7 +44,7 @@ A TEKS can be both Explicit in some weeks and Implicit in others. The tier colum
 | d(6)B | Appropriate appearance for interview | **E** | 6SW Wk4 Day 4, Wk5 Day 3 | None | |
 | d(6)C | Participate in a mock interview | **E** | 3SW Wk5 Day 2 (cosmetology mock interview), 6SW Wk5 Day 4 | None | Audited 2026-04-17: promoted 3SW Wk5 Day 2 from Implicit to Explicit after TEKS audit confirmed the mock interview IS the day's primary artifact |
 | d(7)A | Write a resume | **E** | 6SW Wk2 Days 2-3 | None | |
-| d(7)B | Write business correspondence (cover letter, thank you) | **E** | 3SW Wk5 Day 2 (thank-you email), 6SW Wk5 Days 2, 5 | None | Audited 2026-04-17: promoted 3SW Wk5 Day 2 from Implicit to Explicit after TEKS audit confirmed the thank-you email is a produced artifact |
+| d(7)B | Write business correspondence (cover letter, thank you) | **E** | 2SW Wk6 Day 1 (cover letter), 3SW Wk5 Day 2 (thank-you email), 6SW Wk5 Days 2, 5 | None | Audited 2026-04-17: 2SW Wk6 Day 1 added after audit confirmed the H&L "Cover Letter: The Golden Ticket" activity is the explicit d(7)(B) probe. 3SW Wk5 Day 2 promoted from Implicit to Explicit in the same audit pass |
 | d(7)C | Complete sample job applications | **E** | 6SW Wk5 (via CareerOneStop Practice Application) | 1SW Wk3 Day 3 (H&L Future Work Inc.) | |
 | d(7)D | Protocol for selecting/using references | **E** | 6SW Wk5 Day 3, 1SW Wk1 Day 3 | None | |
 | d(8)A | Select a career pathway | **E** | 4SW Wk1 Day 2 (Iceberg + first selection), 6SW Wk6 (final) | None | **Buffer-week risk** per PLANNING §6. Both weeks are buffer-framed. If teacher cuts both buffers, d(8)(A) is uncovered. Mitigation: the Climber Profile pathway selection happens in 4SW Wk1 Day 2 regardless of buffer framing |

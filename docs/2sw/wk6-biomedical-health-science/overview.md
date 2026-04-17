@@ -12,9 +12,11 @@ Students explore the Biomedical Science pathway through Hats & Ladders, complete
 
 ## TEKS Alignment
 
-- **d(1)(D):** Research and evaluate emerging occupations related to career interest areas.
-- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements.
-- **d(5)(A):** Analyze labor market trends related to a career of interest.
+- **d(1)(C):** Identify various career opportunities within the Health Science cluster (Days 1-5).
+- **d(1)(D):** Research and evaluate emerging occupations related to career interest areas (Day 5 Emerging Biomedical Career Research).
+- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements (Day 5 template).
+- **d(5)(A):** Analyze labor market trends related to a career of interest (Day 5 BLS labor market row).
+- **d(7)(B):** Write business correspondence (cover letter, thank you) (Day 1 Cover Letter activity).
 
 ## Materials Needed
 
@@ -73,11 +75,11 @@ The Hat Research template (Ch 9, p. 148) is used for documenting biomedical care
 
 ## Formative Assessment
 
-- Cover Letter draft quality (Day 1): d(2)(A)
-- Physical Therapy plan accuracy (Day 2): d(1)(C)
-- Wilson City data analysis (Day 3): d(5)(A)
-- Mobile market design + flyer (Day 4): d(1)(C)
-- Emerging career research template (Day 5): d(1)(D), d(5)(A)
+- Hat Research + draft cover letter + Mini-Case exit ticket (Imani's Lab Assistant application; highlight 2 cover letter sections + body sentence). *Day 1, d(1)(C), d(7)(B)*
+- Physical Therapy plans + Comparison Matrix exit ticket (Mark vs. Mrs. Rodriguez: exercise / why / avoid). *Day 2, d(1)(C)*
+- Wilson City data analysis + Ranked Justification exit ticket (4 food-desert constraints ranked + market design choice). *Day 3, d(1)(C)*
+- Market design + flyer + Venn Diagram exit ticket (my mobile market vs. a real farmers' market). *Day 4, d(1)(C)*
+- Emerging Career Research + Xello Save Careers + Concept Map exit ticket (emerging career + BLS trend + Irving High pathway + 6-week self-pattern). *Day 5, d(1)(D), d(2)(A), d(5)(A)*
 
 ## Summative Assessment
 

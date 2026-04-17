@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Explore the Biomedical Science pathway in H&L; identify 3 biomedical careers; draft a cover letter using the H&L Ch 9 5-step format |
-| **TEKS** | d(2)(A), d(1)(C) |
+| **TEKS** | d(1)(C), d(7)(B) |
 | **Deliverable** | Hat Research template (1 biomedical career) + draft cover letter (5 sections from workbook) |
 | **Materials** | Chromebooks, H&L Workbook Ch 9 (pp. 138-148), printed Hat Research template, printed Cover Letter worksheet, NIH STEM video link, projector |
 
@@ -93,7 +93,21 @@ After drafting, students swap with a partner and provide constructive feedback (
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name 2 of the 5 cover letter sections and explain what each section accomplishes. *(d(2)(A))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: Imani is applying for a summer Lab Assistant position at UT Southwestern Medical Center. She is 17, has NO paid work experience, but she is on her school's Science Olympiad team and helped at a community health fair last summer.
+
+1. Which TWO cover letter sections (of the 5 from today: Greeting / Opening Paragraph / Body Paragraph / Closing Paragraph / Sign Off) are MOST important for Imani's case, and why?
+
+   Section A: _______________________. Why: ___________________________________________________________________
+
+   Section B: _______________________. Why: ___________________________________________________________________
+
+2. Write ONE sentence Imani could include in her Body Paragraph to "show what she can do" using her real experience (Science Olympiad OR the health fair):
+
+   ___________________________________________________________________
+
+*(d(1)(C), d(7)(B))*
 
 ---
 

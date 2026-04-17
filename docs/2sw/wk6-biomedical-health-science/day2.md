@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Apply Health Science knowledge by designing personalized workout plans for two clients with different needs (one injured athlete, one active senior) |
-| **TEKS** | d(1)(C), d(2)(A) |
+| **TEKS** | d(1)(C) |
 | **Deliverable** | Two completed personalized workout plans (Mark + Mrs. Rodriguez): each includes warm-up, 3+ main exercises, cool-down, and rationale |
 | **Materials** | Chromebooks, H&L Workbook Ch 9 (pp. 144-147), printed Physical Therapy client profile worksheet, projector |
 
@@ -90,7 +90,19 @@ Students pair up and discuss the workbook's questions:
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Name one exercise you included in Mark's plan AND one exercise in Mrs. Rodriguez's plan. Explain in one sentence why each exercise fits THAT specific client. *(d(1)(C))*
+**EXIT TICKET** (Comparison Matrix):
+
+Compare YOUR workout plans for the two clients on three dimensions.
+
+| | Mark (24, pulled hamstring) | Mrs. Rodriguez (72, needs balance) |
+|---|---|---|
+| Main exercise (pick ONE I included) | | |
+| Why this exercise fits THIS client (one reason) | | |
+| Exercise I would AVOID for this client | | |
+
+Bottom line: Physical therapists "personalize" workout plans. In one sentence, what is the BIGGEST thing a PT must know about each client BEFORE designing a plan? *(d(1)(C))*
+
+   ___________________________________________________________________
 
 ---
 
