@@ -110,7 +110,25 @@ This activity bridges to teaching because educators are leaders every day: decid
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Describe the two main pathways into teaching in Texas and name one advantage of each. Then name one leadership quality you would need to be a great teacher. *(d(2)(A), d(2)(B), d(1)(C))*
+**EXIT TICKET** (Comparison Matrix):
+
+Use my Pathway Comparison worksheet to fill in the matrix.
+
+| | Traditional (Education degree) | Alternative Certification |
+|---|---|---|
+| Time from HS to teaching | | |
+| Cost | | |
+| When I start earning (year 4 paid or unpaid?) | | |
+
+Bottom line: Which pathway fits MY situation BEST, and why? Use one cell from the matrix to back the pick.
+
+   My pathway: _______________________
+
+   Why: ____________________________________________________________
+
+ONE leadership quality (responsibility / kindness / honesty / courage) I would need to be a great teacher AND why: *(d(2)(A), d(2)(B))*
+
+   ___________________________________________________________________
 
 ---
 

@@ -83,7 +83,25 @@ The flyer must include any special features that will attract teachers and stude
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name two careers in the Education & Training cluster (besides "teacher") and describe what each professional does. Then explain in one sentence: what was the most innovative feature of YOUR Community Classroom design? *(d(1)(B), d(1)(C))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: A DFW school district wants to create ONE new learning space AND ONE new training program for their staff. They have budget to hire ONE Education & Training professional (NOT a classroom teacher) to lead each.
+
+1. Which EDUCATION career would lead the STUDENT learning space? (Instructional Designer / School Counselor / Principal / Librarian / Special Ed Teacher / other)
+
+   My pick: _______________________
+
+2. Which EDUCATION career would lead the STAFF training program?
+
+   My pick: _______________________
+
+3. In one sentence, what is ONE skill my STUDENT-space career needs that my STAFF-training career does NOT need?
+
+   ___________________________________________________________________
+
+4. The MOST INNOVATIVE feature of MY Community Classroom design: _______________________
+
+*(d(1)(B), d(1)(C))*
 
 ---
 
