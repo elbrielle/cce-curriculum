@@ -5,8 +5,8 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Research one professional association in depth; teach the rest of the class about it; identify which association connects to the student's chosen pathway |
-| **TEKS** | d(3)(F), d(3)(H) |
+| **Objectives** | Research one professional association in depth; teach the rest of the class about it; identify which association connects to the student's chosen pathway; note at least one community-service program the association runs |
+| **TEKS** | d(3)(F), d(3)(H), d(4)(E) |
 | **Deliverable** | Team Jigsaw research notes (1 association) + individual association ID for personal pathway |
 | **Materials** | Chromebooks, association websites bookmarked (SkillsUSA, ASE, FAA, TSA, NSPE), printed Jigsaw research template, projector |
 
@@ -70,6 +70,7 @@ After all 5 presentations, run a 3-minute discussion:
 - What do all 5 associations have in common?
 - Which one feels most connected to your chosen pathway?
 - Why do employers value membership in these associations?
+- Which associations run community-service programs, and why would a service project matter to a future employer?
 
 **DOK 2:** How would you describe the value of joining a professional association while you are still in school? What specific benefits would help you most before high school graduation?
 
@@ -91,11 +92,11 @@ Bottom line: ONE professional association related to MY chosen pathway:
 
    My association: _______________________
 
-   The specific benefit that matters MOST to me RIGHT NOW (competition / scholarship / networking / credential):
+   The specific benefit that matters MOST to me RIGHT NOW (competition / scholarship / networking / credential / community service):
 
    ___________________________________________________________________
 
-In one sentence, why does THIS benefit fit my current goals BETTER than the other three options? *(d(3)(F), d(3)(H))*
+In one sentence, why does THIS benefit fit my current goals BETTER than the other four options? *(d(3)(F), d(3)(H), d(4)(E))*
 
    ___________________________________________________________________
 

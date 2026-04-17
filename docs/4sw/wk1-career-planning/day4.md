@@ -5,8 +5,8 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Work through eDynamic Learning Unit 8.1: Your Turn! Choosing a Career Path; rank top 3 Irving ISD pathways with rationale; identify professional organizations connected to chosen pathways |
-| **TEKS** | d(8)(A), d(8)(B) |
+| **Objectives** | Work through eDynamic Learning Unit 8.1: Your Turn! Choosing a Career Path; rank top 3 Irving ISD pathways with rationale; identify professional organizations connected to chosen pathways and name one specific benefit of joining in 9th grade |
+| **TEKS** | d(3)(F), d(8)(A), d(8)(B) |
 | **Deliverable** | eDynamic 8.1 progress + completed Pathway Ranking Sheet (top 3 with rationale and one professional organization per pathway) |
 | **Materials** | Chromebooks, eDynamic Learning Unit 8.1 access, printed Pathway Ranking Sheet, Irving ISD CTE Pathways poster, projector |
 
@@ -56,6 +56,9 @@ After eDynamic work time, students complete the Pathway Ranking Sheet. They list
 
 Examples for the professional organization column: SkillsUSA (trades), HOSA (health science), FBLA (business), TSA (technology), FCCLA (family/consumer sciences), FFA (agriculture).
 
+!!! tip "Why Student Organizations Matter"
+    Every Irving ISD pathway has a student organization that meets after school, runs competitions, and connects students with working professionals. Joining one in 9th grade turns career exploration from a once-a-week CTE class into a weekly habit. Students who compete in regional events, earn industry-recognized credentials through the org, or meet professionals in the pathway build a resume and a network years before graduation. When students name the org that matches their pathway, push them one step further: when will you join, and what is the first benefit you want from it?
+
 Students cross-reference their H&L Career Plan recommendations from Day 2 and their iceberg from Day 2, does their #1 pathway match the iceberg they built? If not, that is a real signal worth catching now rather than in 9th grade.
 
 **DOK 2:** How would you compare the career matching process in eDynamic to the recommendations you got from H&L on Day 2? Do they point you toward the same pathways?
@@ -82,7 +85,11 @@ For EACH rank, write ONE professional organization (SkillsUSA, HOSA, FBLA, TSA, 
 
 - Rank 3 org: _______________________
 
-Bottom line: Does my Rank 1 match my H&L Career Plan recommendation from Day 2? Circle: YES / NO. One sentence why or why not: *(d(8)(A), d(8)(B))*
+For my Rank 1 org, write ONE specific benefit of joining in 9th grade (examples: compete in regional events, earn industry credentials, meet working professionals in the pathway, build a resume before senior year):
+
+   ___________________________________________________________________
+
+Bottom line: Does my Rank 1 match my H&L Career Plan recommendation from Day 2? Circle: YES / NO. One sentence why or why not: *(d(3)(F), d(8)(A), d(8)(B))*
 
    ___________________________________________________________________
 

@@ -1,6 +1,6 @@
 # PLANNING.md — CCE Curriculum Post-Meeting State
 
-**Last updated:** 2026-04-17 (sixth session: matrix reconciliation — 15 row-level fixes to align `teks-coverage-matrix.md` with the 35-week audited day files)
+**Last updated:** 2026-04-17 (seventh session: Round-2 TEKS deepening complete — all three Implicit-only codes closed; coverage now 36 of 37 Explicit with only d(4)(D) remaining Implicit-by-design)
 **Purpose:** Brief any agent on the current state of the CCE curriculum project after the 2026-04-15 teacher meeting.
 
 ---
@@ -9,15 +9,14 @@
 
 ### TL;DR (read this first)
 
-The 36-week CCE curriculum has been fully piloted through the **TEKS audit + exit-ticket rewrite** pattern. **35 of 35 auditable weeks are DONE** (Wk0 skipped per user directive). Every day in every week now has:
+**The 36-week CCE curriculum is fully piloted AND reconciled.** 35 of 35 auditable weeks passed the TEKS audit + exit-ticket rewrite (Wk0 skipped per user). The TEKS coverage matrix has been cross-checked row-by-row against every day file and all three previously-Implicit-only TEKS codes have been deepened. Current state:
 
-- TEKS tag that has been audited for honesty (6-step process)
-- Exit ticket rewritten in a pilot format from the 10-format bank
-- Exit ticket written at 6th-7th grade ESL reading level
-- ≥3 distinct exit-ticket formats across each 5-day week
-- Preservation loop clean (build --strict, no teacher scripts, DOK 2+, 45-55 min timing, no em-dashes in body prose)
+- Every day has an audited TEKS tag + rewritten exit ticket (6th-7th grade ESL, ≥3 distinct formats per week, DOK 2+)
+- `docs/resources/teks-coverage-matrix.md` truthfully reflects every day's TEKS tags
+- Coverage: **36 of 37 TEKS codes Explicit (97%)**; only d(4)(D) remains Implicit (by design — core academic skills are embedded throughout)
+- Preservation loop clean across all touched files
 
-**No pilot weeks remain.** The next agent picks from the **Priority list** below — which is a queue of coordinator-dependent unblocks, not a systematic pass.
+**No pilot or Round-2 work remains.** The next agent's choices are either coordinator-dependent unblocks (see Priority list) or brand-new work (Wk0 pilot, a second CFA pass, etc.).
 
 ### Read in this order before editing
 
@@ -27,41 +26,36 @@ The 36-week CCE curriculum has been fully piloted through the **TEKS audit + exi
 4. **For exit-ticket / objective / DOL edits:** `cce-curriculum/notes/teks-audit-process.md` (6-step audit + audit log of all 35 weeks) + `cce-curriculum/notes/exit-ticket-templates.md` (10-format bank).
 5. **For CFA edits:** `cce-curriculum/notes/cfa-template.md`.
 
+### What shipped — don't redo this work
+
+- **35-week pilot pass.** TEKS audit + exit-ticket rewrite across every auditable week. Details in the "Pilot-pass status table" below and commit-by-commit in the `teks-audit-process.md` audit log. Wk0 intentionally skipped.
+- **Matrix reconciliation.** 15 row-level mismatches corrected on 2026-04-17; every day file's TEKS tags now match `docs/resources/teks-coverage-matrix.md`. Commit `5bc6a9f`.
+- **Round-2 TEKS deepening.** All three Implicit-only codes closed on 2026-04-17: d(3)(F) promoted E via 4SW Wk1 Day 4 framing + exit-ticket extension; d(4)(E) tier corrected I→E (6SW Wk1 Day 4 LO already explicit) + third touchpoint at 4SW Wk6 Day 3; d(3)(D) tier promoted I→E via re-read of existing 4SW Wk2 Day 5 exit-ticket probe.
+
 ### Priority list (agent picks ONE to work next)
 
-1. ~~**`docs/resources/teks-coverage-matrix.md` reconciliation.**~~ **DONE 2026-04-17** (see audit-log entry in `teks-audit-process.md`). 15 row-level mismatches corrected across the matrix after cross-checking every day file's TEKS header. Coverage-summary stats unchanged (33 Explicit / 4 Implicit-only / 0 hard gaps); inline "Matrix reconciliation 2026-04-17" notes record every change.
+1. **Coordinator review unblock (BLOCKED on coordinator response).** PDF tooling revisit, milestone publication of the full pilot, and the H&L-vs-TEKS structural escalation all wait on coordinator review of the 2SW Wk2 pilot at `https://elbrielle.github.io/cce-curriculum/exit-ticket-pilot/`. No agent action until the review returns.
 
-2. **Round-2 TEKS deepening (UNBLOCKED, NOW HIGHEST PRIORITY).** Three Implicit-only codes still flagged after reconciliation — d(3)(D) (only 4SW Wk2 Days 3, 5), d(3)(F) (4SW Wk2 Day 4 + 4SW Wk6 Day 3), d(4)(E) (6SW Wk1 Day 4 + 3SW Wk1 Day 4). Suggested edits drafted in `docs/resources/teks-coverage-matrix.md` "Flagged for Round-2 Deepening" section. Agent's job: implement one or more of the suggested deepenings and update the matrix tier accordingly.
+2. **Wk0 Classroom Routines pilot pass (UNBLOCKED; only remaining deepening target).** Wk0 was skipped during the 35-week pass per user directive. If the user wants full 36-week coverage, run the 6-step audit + exit-ticket rewrite over Wk0's 5 days. Estimated 90 min. Value is lower than the 35 already done because Wk0 is classroom-routines scaffolding, not career content.
 
-3. **Wk0 Classroom Routines pilot pass (UNBLOCKED but lower value).** Skipped this pass per user directive. If the user wants full coverage, run the same 6-step audit + exit-ticket rewrite over Wk0's 5 days. Estimated 90 min.
+3. **CFA rollout for 2SW-6SW (BLOCKED on round-2 teacher feedback on the 1SW CFA sample).** Template in `cce-curriculum/notes/cfa-template.md`. Do not build 2SW-6SW CFAs until the 1SW sample returns with teacher comments.
 
-4. **Coordinator review unblock (BLOCKED).** PDF tooling revisit, milestone publication of the full pilot, and the H&L-vs-TEKS structural escalation all wait on coordinator review of the 2SW Wk2 pilot at `https://elbrielle.github.io/cce-curriculum/exit-ticket-pilot/`. No agent action until the review returns.
+4. **Whole-week polish reviews (BLOCKED on user priority call).** Some 4SW+5SW+6SW weeks had retags batched without detailed per-week audit log entries (see the 13-week batch entry in `teks-audit-process.md`). If the coordinator requests individual-week audit-log detail for review, reconstruct from git commits. Only on user request.
 
-5. **CFA rollout for 2SW-6SW (BLOCKED).** Waiting on round-2 teacher feedback on the 1SW CFA sample.
+5. **New teacher feedback rounds (BLOCKED on teacher scheduling).** When the next teacher-feedback round arrives, sort with §4.6 triage protocol.
 
-6. **Whole-week polish reviews (BLOCKED on user priority call).** Some 4SW+5SW+6SW weeks had retags batched without detailed per-week audit log entries (see the 13-week batch entry in `teks-audit-process.md`). If the coordinator requests individual-week audit-log detail for review, agent can reconstruct from git commits — but only if the user asks.
+### Starter task (only if user approves Wk0 pilot)
 
-### Starter task (ready-to-pick-up, priority 2 — Round-2 TEKS deepening)
+No systematic pass is pending. If the user directs a Wk0 pilot pass:
 
-**Goal:** Close the three Implicit-only gap candidates flagged in `docs/resources/teks-coverage-matrix.md` by implementing the suggested deepenings.
+1. Read the 5 Wk0 day files in `docs/1sw/wk0-classroom-routines/`.
+2. Apply the 6-step TEKS audit + exit-ticket rewrite pattern used across the other 35 weeks. Wk0 is shorter on career content (routines + classroom norms), so expect lighter retags.
+3. Use `cce-curriculum/notes/exit-ticket-templates.md` for format picks; honor the ≥3 distinct formats per 5-day week rule.
+4. Preservation loop + `AUDIT: Wk0 Classroom Routines` commit.
 
-**Sequence:**
+**Commit-message rule:** Write commit messages in plain English that a teacher can read. Describe what changed and why in complete sentences; avoid jargon; skip file-level bullet lists unless a reviewer needs them.
 
-1. Read the "Flagged for Round-2 Deepening" section at the bottom of the matrix. Each of the three codes (d(3)(D), d(3)(F), d(4)(E)) has a concrete suggested deepening.
-
-2. Pick ONE code per task cycle (not all three at once — each involves edits to 1-3 day files and the overview). Recommend starting with **d(3)(F)** because the suggested deepening is a single admonition insert in 4SW Wk1 Day 4, low risk.
-
-3. Before editing, run the TEKS audit process on the target day (per `cce-curriculum/notes/teks-audit-process.md`). Write the deepening content. Rewrite the day's exit ticket if the TEKS set changes.
-
-4. Update the matrix tier (promote Implicit → Explicit if the deepening makes it the day's primary objective).
-
-5. Run preservation loop: `python3 -m mkdocs build --strict` + the 5 grep checks in `PLANNING.md` §9.
-
-6. Commit with `AUDIT: d(3)(F) deepening — 4SW Wk1 Day 4 co-curricular admonition` style subject. Push to `claude/read-md-files-handoff-WKBeb`.
-
-**Estimated time:** 30-60 min per code.
-
-**Prior matrix reconciliation (completed 2026-04-17):** See `teks-audit-process.md` audit log; 15 row-level mismatches corrected by cross-checking every day file's TEKS header against the matrix.
+**Estimated time:** 90 min.
 
 ### What shipped this session (2026-04-17, fifth session — PILOT PASS COMPLETE)
 
@@ -151,63 +145,9 @@ PDFs remain deferred per the 2026-04-16 "do NOT invest in reportlab polish" rule
 | 6SW | Wk5 Job Skills / Mock Interview | DONE (commit `a52babc`) |
 | 6SW | Wk6 Capstone | DONE (commit `0d43f68`) |
 
-**Pilot-pass order and status:**
+**Side tasks (still unblocked):**
 
-| Block | Week | Status |
-|---|---|---|
-| 1SW | Wk0 Classroom Routines | SKIP (per user) |
-| 1SW | Wk1 Robotics / Manufacturing | DONE (commit `3d024f8`) |
-| 1SW | Wk2 Programming / IT | DONE (commit `3b3e67d`) |
-| 1SW | Wk3 Computer Science / IT | DONE (commit `c8fb241`) |
-| 1SW | Wk4 Tech Support / IT | DONE (commit `a1c2232`) |
-| 1SW | Wk5 Cybersecurity | DONE (commit `a5b3772`) |
-| 2SW | Wk1 Legal Studies | DONE (commit `a1a6711`) |
-| 2SW | Wk2 Law Enforcement / EMT | DONE (commits `0455a0d` → `4aa6467`) |
-| 2SW | Wk3 Nursing / Health Science | DONE (commit `3f83586`) |
-| 2SW | Wk4 Dental / Medical Billing | DONE (commit `68db8e2`) |
-| 2SW | Wk5 Powerskills / Communication | DONE (commit `ac97ce3`) |
-| 2SW | Wk6 Biomedical / Health Science | DONE (this commit) |
-| 3SW | Wk1 Vet Science | DONE (commit `d459d47`) |
-| 3SW | Wk2 Plant Science | DONE (commit `364e7bd`) |
-| 3SW | Wk3 Sustainable Engineering | DONE (commit `8d3b834`) |
-| 3SW | Wk4 Culinary / Hospitality | DONE |
-| 3SW | Wk5 Cosmetology | DONE (commit `e7b7208`) |
-| 3SW | Wk6 Entrepreneurship | DONE |
-| 4SW | Wk1 Career Planning | DONE |
-| 4SW | Wk2 Course Mapping | DONE |
-| 4SW | Wk3 Aviation | DONE |
-| 4SW | Wk4 Drone Engineering | DONE |
-| 4SW | Wk5 Automotive | DONE (commit `4b34af4`) |
-| 4SW | Wk6 Trades Capstone | DONE |
-| 5SW | Wk1 Architecture | DONE |
-| 5SW | Wk2 Civil Engineering | DONE |
-| 5SW | Wk3 Construction Trades | DONE |
-| 5SW | Wk4 HVAC / Electrical / Plumbing | DONE |
-| 5SW | Wk5 Personal Budget | DONE |
-| 5SW | Wk6 Real Estate | DONE |
-| 6SW | Wk1 Education | DONE |
-| 6SW | Wk2 Resume / Graphic Design | DONE |
-| 6SW | Wk3 Business / Marketing | DONE (commit `e67e590`) |
-| 6SW | Wk4 Sales / Presentations | DONE (commit `7a68f35`) |
-| 6SW | Wk5 Job Skills / Mock Interview | DONE (commit `a52babc`) |
-| 6SW | Wk6 Capstone | DONE (commit `0d43f68`) |
-
-**Per-week protocol** (applied in sequence, one week at a time):
-
-1. Read the week's overview + 5 day files.
-2. Run the 6-step TEKS audit per day (`cce-curriculum/notes/teks-audit-process.md`).
-3. Retag any day whose TEKS claims fail the audit; update overview TEKS + Formative Assessment to match.
-4. Rewrite all 5 exit tickets using ≥3 distinct formats from `cce-curriculum/notes/exit-ticket-templates.md`, at 6th-7th grade ESL reading level, strictly assessing the day's cleaned TEKS tag.
-5. Update `docs/resources/teks-coverage-matrix.md` for any Implicit → Explicit promotions or new day-level claims.
-6. Append an entry to the audit log in `teks-audit-process.md`.
-7. Run the §9 preservation loop; commit with `AUDIT:` subject prefix; push.
-
-**Deferred in this pass** (per 2026-04-16 decision): PDF production, milestone publication, and the H&L-vs-TEKS structural escalation. Each remains open until coordinator review of the 2SW Wk2 pilot returns.
-
-**Side tasks (non-pilot, still unblocked):**
-
-- **Round-2 TEKS deepening** — three Implicit codes (d(3)D, d(3)F, d(4)E) with specific suggested edits in `docs/resources/teks-coverage-matrix.md`.
-- **§4.3 C5 Xello vs H&L platform overlap** — blocks on user SSO hands.
+- **§4.3 C5 Xello vs H&L platform overlap** — blocks on user SSO hands, not on Claude.
 - **CFA rollout for 2SW-6SW** — blocks on round-2 teacher feedback on the 1SW CFA.
 - **PDF tooling revisit** — blocks on coordinator review.
 
@@ -291,26 +231,11 @@ Three sources of feedback collected: Google Form (2 responses, E. O'Connor), han
 
 ### 4.1 US JURISDICTION — Elisha + Claude decide and implement
 
-**STATUS: All items shipped (2026-04-16 session 2).** See §0 for commit-by-commit log.
-
-- ~~**A1 Exit ticket DOK audit**~~ — 20 recall-only tickets rewritten as DOK 2-3 (commit `1b7ec9b`)
-- ~~**A2/A3 Facilitation strategies resource page**~~ — shipped (commit `fea941b`)
-- ~~**A4/A7 CFA template + first 1SW sample**~~ — template + 1SW CFA "Your IT Future" (commit `5879218`). 2SW-6SW deferred to round-2 feedback
-- ~~**A5 TEKS coverage depth map**~~ — three-tier upgrade (commit `575be17`)
-- ~~**A6 Engineering notebook as standard supply**~~ — added to Wk0 + 2 exemplars (commit `a87d597`)
-- ~~**B1 Medical billing cut**~~ — 2SW Wk4 dental-primary restructure (commit `6da8060`)
-- ~~**B2 JROTC light audit**~~ — 2 new military-adjacent touchpoints (commit `2ace0bf`)
-- ~~**B3 PT / Sonography / Sports Medicine placeholders**~~ — scaffolding file with `SOURCE_PENDING` tags (commit `4a80740`)
-- ~~**B5 "What is CTE" Xello module**~~ — slotted into Wk0 Day 2 (commit `fea941b`)
-- ~~**C1 Jigsaw tip for 1SW Wk1 Day 1**~~ — first A3 pattern use case (commit `fea941b`)
-- ~~**C2 Wk0 Day 1 menu hallucination**~~ — reworded (commit `fea941b`)
-- ~~**C3 Hour of Code exit ticket rewrite**~~ — sentence stem + word bank (commit `d9ad853`)
-- ~~**C4 Hour of Code Day 2 sentence stem formatting**~~ — long underlines + word bank (commit `d9ad853`)
-- ~~**Irving ISD pathway section rewording**~~ — renamed to "What is Happening at Irving ISD?" across 34 files (commit `08524c3`)
+**All 14 items shipped across sessions 2-3** (DOK audit, facilitation strategies page, CFA template + 1SW sample, TEKS coverage map, engineering notebook supply, Medical Billing cut, JROTC audit, PT/Sonography placeholders, "What is CTE" Xello module, various Hour-of-Code fixes, Irving ISD pathway rewording). Full commit-by-commit history in git log filtered by prefix `git log --oneline --all | grep -E "(fea941b|1b7ec9b|5879218|575be17|a87d597|6da8060|2ace0bf|4a80740|d9ad853|08524c3)"`.
 
 **Round-2 follow-ups to watch for:**
 - 1SW CFA results: if >30% of students score ≤2 on any part, the CFA template's reteach triggers fire. Data back-flows into the 2SW block plan.
-- Three TEKS deepening candidates flagged in `docs/resources/teks-coverage-matrix.md`: d(3)D (impact of planning), d(3)F (co-curricular), d(4)E (community service).
+- ~~Three TEKS deepening candidates~~ CLOSED 2026-04-17 (see §0 "What shipped").
 
 ### 4.2 TEAM JURISDICTION — Email and block on their input
 
@@ -351,13 +276,7 @@ H&L's scope notes reference both existing workbook activities and future IISD-pe
 
 ## 5. Instinct Review Status
 
-14 of 36 weeks reviewed via adversarial Teacher Implementer / Curriculum Writer dialog. 22 remaining.
-
-**Reviewed:** 1SW Wk0, 4SW Wk1, 5SW Wk1, 6SW Wk6, 2SW Wk5, 6SW Wk5, 4SW Wk2, 5SW Wk5, 3SW Wk3, 2SW Wk4, 6SW Wk4, 5SW Wk2, 2SW Wk1, 5SW Wk6.
-
-**Tier 1 priority:** 2SW Wk2 (Law/EMT), 3SW Wk5 (Cosmetology), 5SW Wk4 (HVAC), 4SW Wk5 (Automotive), 3SW Wk6 (Entrepreneurship).
-
-**Paused** until teacher feedback is triaged. Teacher feedback may reprioritize the queue.
+**Superseded by the 35-week pilot pass.** The instinct-review pass covered 14 weeks (1SW Wk0, 4SW Wk1, 5SW Wk1, 6SW Wk6, 2SW Wk5, 6SW Wk5, 4SW Wk2, 5SW Wk5, 3SW Wk3, 2SW Wk4, 6SW Wk4, 5SW Wk2, 2SW Wk1, 5SW Wk6) via adversarial Teacher-Implementer / Curriculum-Writer dialog. Subsequent sessions replaced it with the systematic TEKS audit + exit-ticket rewrite applied to all 35 auditable weeks. Instinct-review findings are documented in `cce-curriculum/notes/instinct-review.md`; insights from that pass are baked into the pilot formats and are not a separate pending queue.
 
 ---
 

@@ -16,6 +16,7 @@ Students complete a problem-solving revisit using the H&L Powerskills "Work Ethi
 - **d(4)(F):** Define and identify examples of work ethic, integrity, dedication, and perseverance in the workplace.
 - **d(3)(H):** Identify professional associations and the value of membership.
 - **d(3)(F):** Explain the importance of co-curricular and extracurricular activities to career exploration and development (TSA, SkillsUSA, HOSA, FBLA, and related CTSOs).
+- **d(4)(E):** Community service and volunteerism (Day 3 names at least one community-service program each researched CTSO runs and weighs service as one of five membership benefits in the exit ticket).
 
 ## Materials Needed
 
@@ -78,7 +79,7 @@ The class discussion at the end ties back to work ethic explicitly: "How did you
 
 - STEM Program plan completeness (Day 1): d(4)(F)
 - Transferable Skills Matrix coverage (Day 2): d(4)(B)
-- Jigsaw research notes per team (Day 3): d(3)(H)
+- Jigsaw research notes per team (Day 3): d(3)(F), d(3)(H), d(4)(E)
 - H&L Career Plan accumulation check (Day 4): d(4)(F)
 
 ## Summative Assessment

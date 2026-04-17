@@ -16,6 +16,7 @@ Students revisit their RIASEC results from Week 0, audit every career they have 
 ## TEKS Alignment
 
 - **d(1)(A):** Re-analyze and discuss the results of career assessments at mid-year.
+- **d(3)(F):** Discuss the importance of participating in co-curricular and extracurricular activities (Day 4 names one specific benefit of joining a pathway-matched student organization in 9th grade).
 - **d(8)(A):** Select a career pathway related to personal interests.
 - **d(8)(B):** Document high school courses, postsecondary, and training requirements.
 
@@ -77,7 +78,7 @@ The H&L app's **Career Plan** tool reads from the student's Climber Profile (RIA
 - "Thinking About My Career Journey" self-check + RIASEC vs. Favorites worksheet + Comparison Matrix exit ticket (Wk 0 vs. mid-year). *Day 1, d(1)(A)*
 - Iceberg Cartoon + Career Plan screenshot + Concept Map exit ticket (Iceberg hidden item + H&L recommendation + Irving ISD pathway). *Day 2, d(1)(A), d(8)(A)*
 - Real Game decision log + Trade-off Dilemma exit ticket (cheap vs. expensive lifestyle given same salary; quality pick). *Day 3, d(5)(D), d(8)(A)*
-- eDynamic 8.1 + Pathway Ranking Sheet + Ranked Justification exit ticket (top 3 pathways + campuses + orgs + Day 2 H&L match). *Day 4, d(8)(A), d(8)(B)*
+- eDynamic 8.1 + Pathway Ranking Sheet + Ranked Justification exit ticket (top 3 pathways + campuses + orgs + one specific benefit of joining the Rank 1 org in 9th grade + Day 2 H&L match). *Day 4, d(3)(F), d(8)(A), d(8)(B)*
 - Mid-Year Update reflection + Gallery Walk + 3-2-1 Reflective exit ticket (3 understandings + 2 questions + 1 pathway). *Day 5, d(1)(A), d(8)(A), d(8)(B)*
 
 ## Summative Assessment
