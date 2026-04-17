@@ -103,7 +103,26 @@ After Round 3, ask the class: "What happened when you went faster? Did your accu
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Explain in one sentence why accuracy matters more in medical coding than in most other jobs. Submit your coding accuracy sheet with your final score. *(d(2)(A))*
+**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors):
+
+Patient Chart: 52-year-old female. Chief complaint: sharp tooth pain for 5 days, worst when drinking cold water. Examination: visible dark spot on lower right molar, no swelling or fever. Diagnosis: cavity in lower right molar.
+
+Which ICD-10 code is the BEST fit for this chart?
+
+- A. R51 (Headache)
+- B. K02.9 (Dental caries, unspecified — a cavity)
+- C. R07.9 (Chest pain, unspecified)
+- D. J20.9 (Acute bronchitis, unspecified)
+
+Circle your answer. In one sentence, explain why the OTHER three options are weaker — cite the SPECIFIC symptom or finding from the chart that rules each one out.
+
+*(d(2)(A), d(5)(B))*
+
+   ___________________________________________________________________
+
+   ___________________________________________________________________
+
+Submit your coding accuracy sheet with this ticket.
 
 ---
 

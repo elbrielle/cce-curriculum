@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Complete two Xello activities (Education Experience + School Subjects at Work); connect current school subjects to specific health careers; understand college credit options for high school students |
-| **TEKS** | d(3)(B) |
+| **TEKS** | d(1)(A), d(3)(B) |
 | **Deliverable** | Xello completion screens (both activities) + 3-sentence connection paragraph linking a school subject to a health career |
 | **Materials** | Chromebooks, Xello accounts, Irving ISD dual credit and AP information, projector |
 
@@ -83,13 +83,21 @@ This student graduates with diploma + 6+ college credits + a healthcare certific
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Write 3 sentences:
+**EXIT TICKET** (Short Constructed Response):
 
-1. Name one school subject and the health career that uses it heavily.
-2. Explain HOW that subject is used in the career (e.g., "Math is used in nursing because nurses calculate drug doses.").
-3. Name one college credit option Irving ISD offers that you would consider using.
+1. One school subject I take right now that connects to a HEALTH career: _______________________
 
-*(d(3)(B))*
+2. The specific health career that uses it HEAVILY: _______________________
+
+3. In one sentence, HOW is that subject used in the career day-to-day? (Example: "Math is used in nursing because nurses calculate drug doses.") ___________________________________________________________________
+
+4. One Irving ISD college credit option I would consider using (dual credit, AP, articulated CTE credit, or industry certification): _______________________
+
+5. In one sentence, why would this option help ME specifically?
+
+   ___________________________________________________________________
+
+*(d(1)(A), d(3)(B))*
 
 ---
 

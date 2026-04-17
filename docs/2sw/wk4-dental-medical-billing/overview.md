@@ -12,9 +12,11 @@ Students explore the Dental Science pathway through Hats & Ladders, design a "pe
 
 ## TEKS Alignment
 
-- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements.
-- **d(5)(B):** Classify evidence of high-skill, high-wage, or high-demand occupations based on analysis of labor market information.
-- **d(3)(B):** Explore and list opportunities for earning college credit in high school.
+- **d(1)(A):** Analyze and discuss assessment results (Day 3 Xello Education Experience).
+- **d(1)(C):** Identify various career opportunities within the Health Science cluster (Days 1-2, 5).
+- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements (Days 1, 4, 5).
+- **d(5)(B):** Classify evidence of high-skill, high-wage, or high-demand occupations (Days 2, 4, 5).
+- **d(3)(B):** Explore and list opportunities for earning college credit in high school (Day 3 Xello + Irving ISD dual credit discussion).
 
 ## Materials Needed
 
@@ -66,11 +68,11 @@ The H&L workbook (Ch 9: Health Science, pp. 140-143) provides the major activity
 
 ## Formative Assessment
 
-- Hat Research template completion (Day 1): d(2)(A)
-- Toothbrush design + label quality (Day 2): d(1)(C)
-- Career Comparison worksheet accuracy (Day 2): d(5)(B)
-- Xello activity completion (Day 3): d(3)(B)
-- Medical coding accuracy (Day 4): d(2)(A)
+- Hat Research + Mini-Case exit ticket (Mateo's 1-year dental timeline). *Day 1, d(1)(C), d(2)(A)*
+- Toothbrush design + Career Comparison + Comparison Matrix exit ticket (skill/wage/demand check marks). *Day 2, d(1)(C), d(5)(B)*
+- Xello Education Experience + School Subjects + SCR exit ticket (subject→career connection + college credit option). *Day 3, d(1)(A), d(3)(B)*
+- ICD-10 coding simulation + Diagnostic MCQ exit ticket (cavity chart with misconception distractors). *Day 4, d(2)(A), d(5)(B)*
+- H&L Favorites + recommendation paragraph + 3-2-1 Reflective exit ticket (mid-Health-Science reflection). *Day 5, d(2)(A), d(5)(B)*
 
 ## Summative Assessment
 

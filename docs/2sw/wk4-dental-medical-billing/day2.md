@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Design a toothbrush using dental knowledge; explore dental careers in H&L; complete the Career Comparison worksheet (3 careers); classify each as high-skill, high-wage, or high-demand |
-| **TEKS** | d(1)(C), d(5)(B), d(2)(A) |
+| **TEKS** | d(1)(C), d(5)(B) |
 | **Deliverable** | Completed Toothbrush Design (sketch + labels + rationale) + completed Career Comparison worksheet (3 rows) |
 | **Materials** | Chromebooks, H&L Workbook Ch 9 (pp. 140-142), printed Toothbrush Design worksheet, Career Comparison worksheet from Day 1, projector |
 
@@ -88,7 +88,20 @@ Students will classify **Medical Biller** on Day 4 after the Health Informatics 
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Classify one health science career as high-skill, high-wage, or high-demand (or a combination) and explain your classification using ONE specific data point. *(d(5)(B))*
+**EXIT TICKET** (Comparison Matrix):
+
+Use your Career Comparison worksheet to fill in the matrix below. Mark each cell with a checkmark if the career matches that classification (can have 1, 2, or 3 check marks per career).
+
+| Career | High-SKILL (needs training + cert) | High-WAGE (pays >$50K DFW) | High-DEMAND (8%+ BLS growth) |
+|---|---|---|---|
+| Dental Hygienist | | | |
+| RN | | | |
+
+Bottom line: Which of the two careers scores the MOST check marks (3 = triple-threat)? Name the career, list its check marks, and write one sentence citing the specific data point that earned ONE of the check marks. *(d(5)(B))*
+
+   Career with most check marks: _______________________
+
+   Data point for ONE check mark: ___________________________________________________________________
 
 ---
 

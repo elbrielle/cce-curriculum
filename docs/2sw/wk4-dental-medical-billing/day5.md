@@ -70,9 +70,31 @@ Students write the paragraph, then pair up and read each other's paragraphs. Eac
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Recommend one Health Science career to a friend and explain your recommendation using education time AND salary data in one sentence. *(d(2)(A), d(5)(B))*
+**EXIT TICKET** (3-2-1 Reflective):
 
-Submit the full 4-sentence recommendation paragraph as the summative deliverable.
+After 2 weeks in Health Science (nursing, dental, medical billing), write:
+
+**3 things I understand about Health Science careers NOW that I did not understand at the start of Wk 3:**
+
+  1. ________________________________________________________________
+
+  2. ________________________________________________________________
+
+  3. ________________________________________________________________
+
+**2 questions I STILL have about Health Science careers:**
+
+  1. ________________________________________________________________
+
+  2. ________________________________________________________________
+
+**1 connection between Health Science and another cluster I explored earlier this year** (Manufacturing or IT):
+
+  ___________________________________________________________________
+
+*(d(2)(A), d(5)(B))*
+
+Submit the full 4-sentence recommendation paragraph as the summative deliverable, separate from this ticket.
 
 ---
 

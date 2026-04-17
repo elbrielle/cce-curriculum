@@ -81,7 +81,25 @@ Students will complete the RN row on Day 2 and the Medical Biller row on Day 4 (
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Name one dental career and the education pathway it requires (certificate, associate, bachelor + doctoral). Then explain in one sentence which dental career offers the best value FOR YOU (training time vs salary) and why. Submit your Hat Research template. *(d(1)(C), d(2)(A))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: Mateo is in 11th grade at Irving High. He wants to work in a dental office ONE YEAR after graduation. His family can pay for 1 year of training but not 4.
+
+1. Which dental career (Dental Assistant, Dental Hygienist, Dentist, or Orthodontist) fits Mateo's 1-year timeline and budget BEST?
+
+   My pick: _______________________
+
+2. In one sentence, use ONE specific training time OR salary fact from today's H&L research to back the pick:
+
+   ___________________________________________________________________
+
+3. If Mateo changed his mind and decided to save for 2 years of training, which dental career would suddenly become a BETTER fit, and why?
+
+   Revised pick: _______________________. Why: ________________________________________________________
+
+*(d(1)(C), d(2)(A))*
+
+Submit your Hat Research template with this ticket.
 
 ---
 
