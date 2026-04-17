@@ -76,7 +76,29 @@ The workbook scenario: *Students are construction safety supervisors building an
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Pick TWO A&C careers and compare the education time AND cost for each. Which career offers the better value FOR YOU and why? Submit your Safety Supervisor plan (the hazard you addressed is the plan's deliverable). *(d(1)(B), d(1)(C), d(5)(E))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: A new downtown Dallas high-rise construction project just had a minor crane incident at 40 feet above the street. No one was injured but the city wants a safety plan upgrade.
+
+1. Which A&C career (Safety Supervisor, Architect, Construction Manager, Drafter, Inspector) would LEAD the safety plan upgrade, and why?
+
+   My pick: _______________________
+
+   Why: ____________________________________________________________
+
+2. Which TWO hazards from my Safety Supervisor underwater plan WOULD still matter for this high-rise scenario?
+
+   - Hazard 1: _______________________
+
+   - Hazard 2: _______________________
+
+3. Name ONE NEW hazard that only applies to a high-rise site (NOT underwater):
+
+   ___________________________________________________________________
+
+*(d(1)(B), d(1)(C))*
+
+Submit your Safety Supervisor plan with this ticket.
 
 ---
 

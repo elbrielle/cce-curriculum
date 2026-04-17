@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Refine TinkerCAD building design with structured checkpoints; complete the H&L "Trash to Treasure" landscape architecture activity |
-| **TEKS** | d(1)(C), d(2)(A) |
+| **TEKS** | d(1)(C) |
 | **Deliverable** | PNG screenshot of TinkerCAD building (exported via "Send To") + Trash to Treasure design sketch |
 | **Materials** | Chromebooks, TinkerCAD accounts, H&L Workbook Ch 3 (pp. 44-46: Trash to Treasure), projector, plain paper |
 
@@ -93,7 +93,19 @@ Pick the view that best shows your outdoor space idea. The workbook provides bot
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Describe one design choice from your Trash to Treasure plan. Explain how it balances aesthetics (looks good), functionality (works well), and sustainability (protects the environment). *(d(1)(C), d(2)(A))*
+**EXIT TICKET** (Comparison Matrix):
+
+My TinkerCAD building vs. my Trash to Treasure outdoor space — compare on three dimensions.
+
+| | My TinkerCAD building | My Trash to Treasure outdoor space |
+|---|---|---|
+| Who uses it? (specific audience) | | |
+| ONE aesthetic choice (looks-good element) | | |
+| ONE sustainable or reclaimed feature (if any) | | |
+
+Bottom line: Which design of the two balances aesthetics + functionality + sustainability BEST, and why? Use one cell from the matrix to back the pick. *(d(1)(C))*
+
+   ___________________________________________________________________
 
 ---
 

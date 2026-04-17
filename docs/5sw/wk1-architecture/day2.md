@@ -73,7 +73,24 @@ Since students are exploring architecture this week, prompt them to think specif
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Compare the salaries of 3 architecture careers from your worksheet. Which career has the best salary-to-education ratio? Would you still choose a different one? Explain why. *(d(5)(E))*
+**EXIT TICKET** (Ranked Justification):
+
+From my worksheet, rank these 4 careers from BEST salary-to-education ratio (1) to WORST (4).
+
+- Architect: rank ____
+- Drafter: rank ____
+- Interior Designer: rank ____
+- My 4SW trade career: _______________________. Rank ____
+
+For EACH rank, write ONE specific number (years of school, cost, or salary):
+
+- Rank 1 (best ratio): _______________________________________________________
+
+- Rank 4 (worst ratio): _______________________________________________________
+
+Bottom line: Would I still PICK a career that is NOT Rank 1? Circle: YES / NO. In one sentence, why or why not? *(d(2)(A), d(5)(E))*
+
+   ___________________________________________________________________
 
 ---
 

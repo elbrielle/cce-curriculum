@@ -100,7 +100,23 @@ The design challenge specs:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** List the 5 TinkerCAD skills you learned today (drag, resize, align, group, hole). Then describe one design decision you made for your building sketch. *(d(1)(C))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. List the 5 TinkerCAD skills I learned today:
+
+   1) ____________  2) ____________  3) ____________  4) ____________  5) ____________
+
+2. ONE design decision I made for my building sketch (choose: number of rooms, door placement, window count, roof type, unique feature):
+
+   My decision: _______________________
+
+3. In one sentence, WHY did I make this decision? (What is the building for? Who uses it?)
+
+   ___________________________________________________________________
+
+4. The TinkerCAD skill I am LEAST confident about: _______________________. I will focus on it first in Day 4.
+
+*(d(1)(C))*
 
 ---
 

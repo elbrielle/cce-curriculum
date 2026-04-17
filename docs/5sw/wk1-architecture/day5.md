@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Present TinkerCAD building designs with career connections; favorite A&C careers in H&L; begin eDynamic Unit 3.1 |
-| **TEKS** | d(1)(B), d(1)(C), d(2)(A) |
+| **TEKS** | d(1)(B), d(1)(C) |
 | **Deliverable** | Presentation completed + H&L Career Plan updated with A&C favorites |
 | **Materials** | Chromebooks, TinkerCAD PNG files (from Day 4), H&L accounts, eDynamic Learning access, projector |
 
@@ -73,7 +73,31 @@ Students work at their own pace through the eDynamic module. This will continue 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name the A&C career you find most interesting and the Irving ISD high school that offers a pathway connected to it. Explain in one sentence why this career fits (or does not fit) your RIASEC type. *(d(1)(B), d(1)(C))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+The A&C career I favorited this week: _______________________
+
+Connect this career to THREE things:
+
+**1. The MacArthur School of ACE pathway** (Architecture → AutoDesk Revit Architecture cert)
+
+   Does this pathway lead DIRECTLY to my favorited career or is it a STEPPING STONE? Circle: DIRECT / STEPPING STONE. One sentence why:
+
+   ___________________________________________________________________
+
+**2. My Wk0 RIASEC type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
+
+   My RIASEC: _______________________. In one sentence, does this career fit my type, and why?
+
+   ___________________________________________________________________
+
+**3. ONE TinkerCAD skill from this week** (drag / resize / align / group / hole)
+
+   My skill: _______________________. In one sentence, how does this digital skill transfer to my favorited A&C career in real life?
+
+   ___________________________________________________________________
+
+*(d(1)(B), d(1)(C))*
 
 ---
 
