@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Complete the Xello Learning Styles lesson; complete eDynamic Unit 4.2 Part 2; finalize Health Science favorites in H&L; reflect on whether the nursing pathway fits the student's RIASEC type |
-| **TEKS** | d(1)(C) |
+| **TEKS** | d(1)(A), d(1)(C) |
 | **Deliverable** | Updated H&L Climber Profile with 2-3 nursing favorites + Xello Learning Styles result + eDynamic 4.2 Part 2 unit completion + 3-sentence reflection |
 | **Materials** | Chromebooks, H&L accounts, Xello accounts, eDynamic Learning login, projector |
 
@@ -78,7 +78,31 @@ This reflection is a quick formative check that the week landed.
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name the nursing career you favorited in H&L and explain whether your RIASEC type is a good fit for healthcare. *(d(1)(C))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+A nursing career I favorited this week: _______________________
+
+Connect this career to THREE things:
+
+**1. My Xello Learning Style result from today** (visual, auditory, kinesthetic, or reading/writing)
+
+   My learning style: _______________________. In one sentence, does this learning style fit the amount of classroom study my favorited career requires? Why or why not:
+
+   ___________________________________________________________________
+
+**2. My Wk0 RIASEC type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
+
+   My RIASEC type: _______________________. In one sentence, does this career fit my type?
+
+   ___________________________________________________________________
+
+**3. The Singley Academy Nursing Science pathway** (Patient Care Tech / Phlebotomy)
+
+   Does Singley's pathway lead DIRECTLY to my favorited career or is it a STEPPING STONE? Circle: DIRECT / STEPPING STONE. One sentence why:
+
+   ___________________________________________________________________
+
+*(d(1)(A), d(1)(C))*
 
 ---
 

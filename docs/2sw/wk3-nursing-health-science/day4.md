@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Refine the micro:bit vital signs monitor with an alarm feature; test with another team; present the device with a 1-minute connection to a real nursing career |
-| **TEKS** | d(1)(C), d(2)(A) |
+| **TEKS** | d(1)(C) |
 | **Deliverable** | Refined MakeCode program (Button A + B + alarm feature) + 1-minute team demo + connection to specific nursing career |
 | **Materials** | Chromebooks, micro:bit devices (continue from Day 3), MakeCode, optional LEGO bricks for housing prototype, projector |
 
@@ -80,7 +80,23 @@ The class evaluates each presentation using a quick rubric (visible on the proje
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Explain one way your micro:bit project simulates real medical technology and connect it to a specific nursing career (e.g., "My alarm feature simulates the alert system that an RN uses in the ICU"). *(d(1)(C), d(2)(A))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: Ms. Alvarez is an older patient in a DFW nursing home. Each morning at 7:00 AM, someone needs to check her vital signs (heart rate + temperature) and write them in her chart. The chart is reviewed by a nurse at 8:00 AM.
+
+1. Which nursing career from the ladder fits THIS morning task BEST? Circle ONE: **CNA** / **LVN** / **RN** / **NP**
+
+   One sentence why: ________________________________________________________
+
+2. Name ONE feature of YOUR micro:bit monitor that would help this person do Ms. Alvarez's check accurately.
+
+   My feature: _______________________. How it helps: ___________________________________________________________________
+
+3. At 8:00 AM, a different Health Science role reviews the chart. Which role is that, and WHY is it different from the morning check role?
+
+   Reviewer role: _______________________. Why different: ___________________________________________________________________
+
+*(d(1)(C))*
 
 ---
 

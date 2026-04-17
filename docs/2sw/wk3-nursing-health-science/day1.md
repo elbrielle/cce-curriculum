@@ -88,7 +88,19 @@ Students then complete the **LVN row** independently using H&L Hat Finder data a
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name 2 levels of the nursing career ladder and describe one key difference between them. Submit your Hat Research template with your exit ticket. *(d(1)(B), d(1)(C))*
+**EXIT TICKET** (Comparison Matrix):
+
+Compare TWO nursing career ladder levels you explored today (CNA or LVN).
+
+| | CNA | LVN |
+|---|---|---|
+| Training time | | |
+| DFW salary (rough) | | |
+| One daily task | | |
+
+Bottom line: A 19-year-old who needs to start earning money quickly should pick CNA or LVN? Circle one, then use one specific cell from the matrix to explain. Submit your Hat Research template with this ticket. *(d(1)(B), d(1)(C))*
+
+   ___________________________________________________________________
 
 ---
 

@@ -86,7 +86,31 @@ Teams that finish early add a third button (touch logo) for a bonus vital sign o
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** List the two vital signs your micro:bit monitors and explain why each one is important for patient care. Show the teacher your working program before leaving. *(d(1)(C))*
+**EXIT TICKET** (Decision Tree / Branching Prompt):
+
+My role today: **Patient Care Technician** (a nursing career in Health Science)
+
+Scenario: During my shift, I press Button A on my vital signs monitor and see a heart rate of **130** (way above normal).
+
+Step 1: What does my role do FIRST in the next 30 seconds?
+
+   ___________________________________________________________________
+
+Step 2: Which OTHER Health Science role do I need to tell, and why? (Pick one: CNA / LVN / RN / NP / doctor)
+
+   I need to tell: _______________________
+
+   Because: ________________________________________________________
+
+Step 3: Branch on the patient response —
+
+   IF the patient is AWAKE and talking, what do I do next? ___________________________________________________________________
+
+   IF the patient is NOT responding, what do I do next? ___________________________________________________________________
+
+*(d(1)(C))*
+
+Show the teacher your working program before leaving.
 
 ---
 

@@ -12,11 +12,12 @@ Students explore the Health Science career cluster through Hats & Ladders, inves
 
 ## TEKS Alignment
 
-- **d(1)(B):** Explore and describe the CTE career clusters.
-- **d(1)(C):** Identify various career opportunities within the Health Science cluster.
-- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements.
-- **d(2)(B):** Use available resources to research and evaluate educational and training options.
-- **d(5)(E):** Use resources to compare salaries of at least three careers in the student's interest area.
+- **d(1)(A):** Analyze and discuss assessment results (Day 5 Xello Learning Styles).
+- **d(1)(B):** Explore and describe the CTE career clusters (Day 1).
+- **d(1)(C):** Identify various career opportunities within the Health Science cluster (Days 1-5).
+- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements (Day 2).
+- **d(2)(B):** Use available resources to research and evaluate educational and training options (Day 2).
+- **d(5)(E):** Use resources to compare salaries of at least three careers in the student's interest area (Day 2).
 
 ## Materials Needed
 
@@ -72,10 +73,11 @@ The H&L workbook (Ch 9: Health Science, pp. 138-148) opens with descriptions of 
 
 ## Formative Assessment
 
-- Stop and Jot notes from cluster tour (Day 1): d(1)(B)
-- Nursing Career Ladder worksheet accuracy (Days 1-2): d(2)(A), d(5)(E)
-- MakeCode program functionality (Days 3-4): d(1)(C)
-- eDynamic 4.2 Part 2 unit completion (Day 5): d(1)(C)
+- Hat Research + Comparison Matrix exit ticket (CNA vs. LVN). *Day 1, d(1)(B), d(1)(C)*
+- Nursing Career Ladder worksheet + Ranked Justification exit ticket (4 levels by best balance). *Day 2, d(2)(A), d(2)(B), d(5)(E)*
+- MakeCode vital signs monitor + Decision Tree exit ticket (PCT role, heart rate 130 scenario, branch on patient response). *Day 3, d(1)(C)*
+- Monitor refinement + team demos + Mini-Case exit ticket (Ms. Alvarez morning vital check, which nursing role). *Day 4, d(1)(C)*
+- Xello Learning Styles + eDynamic 4.2 Part 2 + H&L Favorites + Concept Map exit ticket (career + learning style + RIASEC + Singley pathway fit). *Day 5, d(1)(A), d(1)(C)*
 
 ## Summative Assessment
 

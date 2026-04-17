@@ -80,7 +80,24 @@ After 10 minutes, run a quick whole-class share. Take 3-4 student answers and hi
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Compare the salaries of three nursing careers (CNA, RN, NP) and name which offers the BEST balance of education time and salary FOR YOU. Explain in one sentence why. *(d(5)(E), d(2)(B))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank all four nursing levels from BEST BALANCE of education time to salary (1) to WORST (4) FOR YOU personally. Use your completed Nursing Career Ladder worksheet.
+
+- CNA: rank ____
+- LVN: rank ____
+- RN: rank ____
+- NP: rank ____
+
+For EACH rank, write ONE data point (time, cost, or salary) from your worksheet that backs up the rank.
+
+- Rank 1 (best balance for me): _______________________________________________________
+
+- Rank 4 (worst balance for me): _______________________________________________________
+
+Bottom line: The factor that matters MOST in my rank is (circle one): **years of training** / **cost of school** / **starting salary** / **long-term salary**. In one sentence, why does this factor matter most to me? *(d(2)(B), d(5)(E))*
+
+   ___________________________________________________________________
 
 ---
 
