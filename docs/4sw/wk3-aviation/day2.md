@@ -83,7 +83,19 @@ Briefly introduce JROTC as the high school program that bridges middle school to
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Compare the military and civilian pathways for becoming a pilot in 2-3 sentences. Which one would you consider, and what is the main reason? *(d(3)(G))*
+**EXIT TICKET** (Comparison Matrix):
+
+Use your Military vs. Civilian Pathways chart to fill in the matrix for becoming a PILOT.
+
+| | College Pathway | Military Pathway | FAA Flight School |
+|---|---|---|---|
+| Time to pilot license | | | |
+| Cost to the student | | | |
+| One advantage | | | |
+
+Bottom line: Which of the THREE pathways would I personally consider FIRST, and what is the MAIN reason? Use one specific cell from the matrix to back the pick. *(d(3)(G))*
+
+   ___________________________________________________________________
 
 ---
 

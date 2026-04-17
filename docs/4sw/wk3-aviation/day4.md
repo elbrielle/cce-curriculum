@@ -101,7 +101,27 @@ The bridge between the simulation and goal-setting is direct: aviation careers a
 
 ## Exit Ticket (4 min)
 
-**EXIT TICKET:** Describe one communication challenge your team faced during the ATC simulation today and explain how you solved it. Then write one specific goal you could set if you wanted to become a pilot or ATC. *(d(4)(A), d(1)(C))*
+**EXIT TICKET** (Decision Tree / Branching Prompt):
+
+My role in my team today: **Air Traffic Controller**
+
+New scenario: Two planes request takeoff clearance at the SAME TIME. Both are on parallel runways.
+
+Step 1: What COMMAND do I give FIRST, and to WHICH plane? (Use today's sentence stems.)
+
+   First command: ___________________________________________________
+
+Step 2: Branch on pilot response —
+
+   IF Pilot 1 ACKNOWLEDGES "cleared for takeoff runway 1," what do I say to Pilot 2 next? ___________________________________________________________________
+
+   IF Pilot 1 does NOT respond (radio silence), what do I do next? ___________________________________________________________________
+
+Step 3: ONE SPECIFIC goal I could set if I wanted to become a pilot or ATC (from today's eDynamic 2.2 goal-setting start):
+
+   ___________________________________________________________________
+
+*(d(4)(A), d(1)(C))*
 
 ---
 

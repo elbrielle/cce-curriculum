@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Apply Engineering Design Process phases 1-2 (Define & Ideate) by building a LEGO airport with at least 2 runways, taxiways, a control tower, and parking; plan the spatial layout with safe distances between runways |
-| **TEKS** | d(1)(C), d(1)(D) |
+| **TEKS** | d(1)(C) |
 | **Deliverable** | Built LEGO airport (1 per team) ready for Day 4 simulation, plus a labeled paper sketch of the layout |
 | **Materials** | LEGO bricks and baseplates (1 set per team of 3-4 students), printed Airport Layout sketch page, printed ATC scenario cards (1 per team to read for context only, not yet running), projector for LEGO airport reference images |
 
@@ -92,7 +92,25 @@ Teams that finish the build early read their assigned ATC scenario card for tomo
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name two spatial reasoning skills you used during the LEGO build today that an air traffic controller uses every day at a real airport. *(d(1)(C))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. TWO spatial reasoning skills I used during today's LEGO build:
+
+   Skill 1: _______________________
+
+   Skill 2: _______________________
+
+2. For EACH skill, give ONE specific example of how a real Air Traffic Controller uses that exact skill every day at a busy airport like DFW:
+
+   Skill 1 → ATC use: ________________________________________________
+
+   Skill 2 → ATC use: ________________________________________________
+
+3. The ONE thing my team's airport still NEEDS to fix before running the Day 4 simulation:
+
+   ___________________________________________________________________
+
+*(d(1)(C))*
 
 ---
 

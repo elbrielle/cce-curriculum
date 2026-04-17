@@ -95,7 +95,23 @@ Take 1-2 group responses to share with the class.
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Name TWO Transportation-cluster careers (besides Transportation Needs Analyst) and compare them on ONE dimension (training time, daily work, or salary). Which one would you pursue and why? *(d(1)(B), d(1)(C))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: Irving city council reviewed your transportation survey and found that 40% of residents said public buses don't run late enough for their work shifts. They need to hire ONE Transportation-cluster career to help fix the problem.
+
+1. Which Transportation career (NOT "Transportation Needs Analyst") would I recommend, and why?
+
+   My pick: _______________________
+
+   Why: ____________________________________________________________
+
+2. Name ONE dimension (training time / daily work / salary) where my pick is STRONGER than another Transportation career:
+
+   Dimension: _______________________
+
+   In one sentence, explain the comparison: ___________________________________________________________________
+
+*(d(1)(B), d(1)(C))*
 
 ---
 

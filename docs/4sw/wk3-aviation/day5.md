@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Present LEGO ATC simulation results and procedures; complete eDynamic Unit 2.2 Setting Goals; write a 3-step goal plan for an aviation career; favorite Transportation careers in H&L Climber Profile |
-| **TEKS** | d(4)(A), d(1)(C), d(8)(A) |
+| **TEKS** | d(4)(A), d(1)(C) |
 | **Deliverable** | Team ATC presentation (3 minutes) + individual 3-step goal plan for an aviation career |
 | **Materials** | LEGO airports from Day 3-4, Simulation Run Logs from Day 4, Chromebooks, H&L accounts, eDynamic Unit 2.2 access, Xello accounts (Jobs and Employers), printed 3-Step Aviation Goal Plan template, projector |
 
@@ -68,7 +68,31 @@ In pairs, students share one of their three goal steps with a partner. Then 2-3 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name the Transportation career you found most interesting this week and write the FIRST step you would take this school year to start moving toward it. *(d(4)(A), d(1)(C))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+The Transportation career I found MOST interesting this week: _______________________
+
+Connect this career to THREE things:
+
+**1. My 3-step goal plan Step 1** (the action I'll take THIS school year)
+
+   My Step 1: _______________________. In one sentence, which ONE small thing will I do THIS WEEK to kick it off?
+
+   ___________________________________________________________________
+
+**2. The Irving High School of Aviation Sciences pathway** (Aviation Maintenance + Drone Engineering)
+
+   Does this pathway lead DIRECTLY to my career, or is it a STEPPING STONE through college / military / FAA school? Circle: DIRECT / STEPPING STONE. One sentence why:
+
+   ___________________________________________________________________
+
+**3. My Wk0 RIASEC type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
+
+   My RIASEC: _______________________. In one sentence, why does my type fit (or not fit) the SPLIT-SECOND decisions and math of Transportation careers?
+
+   ___________________________________________________________________
+
+*(d(4)(A), d(1)(C))*
 
 ---
 
