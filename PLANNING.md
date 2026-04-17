@@ -1,6 +1,6 @@
 # PLANNING.md — CCE Curriculum Post-Meeting State
 
-**Last updated:** 2026-04-16 (third session: exit-ticket pilot + TEKS audit process + authoring rulebook relocation)
+**Last updated:** 2026-04-17 (fourth session: 2SW Wk2 instinct-review follow-ups + 3SW Wk5 + 4SW Wk5 TEKS audits and exit-ticket pilot rewrites)
 **Purpose:** Brief any agent on the current state of the CCE curriculum project after the 2026-04-15 teacher meeting.
 
 ---
@@ -15,15 +15,21 @@
 4. **For exit-ticket / objective / DOL edits:** `cce-curriculum/notes/teks-audit-process.md` + `exit-ticket-templates.md` (new this session)
 5. **For CFA edits:** `cce-curriculum/notes/cfa-template.md`
 
-### What shipped this session (2026-04-16, third session)
+### What shipped this session (2026-04-17, fourth session)
 
-Three durable systems + one pilot week:
+Two Tier-1 week audits + 2SW Wk2 instinct-review follow-ups. PDFs deferred per the 2026-04-16 "do NOT invest in reportlab polish" rule; this session produced markdown-only exit tickets for the two new weeks.
 
-- **Exit ticket authoring system** (new). Ten-format bank in `cce-curriculum/notes/exit-ticket-templates.md` (Diagnostic MCQ with Misconception Distractors, Comparison Matrix, Venn, Mini-Case, Decision Tree, Trade-off / Dilemma, Concept Map, Ranked Justification, 3-2-1 Reflective, Short Constructed Response). Informed by Dylan Wiliam hinge-question research.
-- **TEKS audit process** (new). Six-step audit documented in `cce-curriculum/notes/teks-audit-process.md`. Surfaced that H&L is career-exploration content, not natively TEKS-aligned; alignment is CCE's overlay. Audit-gated now: before writing or revising any exit ticket / objective / DOL, confirm the TEKS tag is honestly supported by the day's activities.
-- **Authoring rulebooks moved out of teacher-facing space.** `exit-ticket-templates.md` and `cfa-template.md` relocated from `docs/resources/` → `cce-curriculum/notes/`. Nav entries removed. These are dev rulebooks for me, not teacher resources.
-- **2SW Wk2 pilot (Law Enforcement / EMT).** All 5 exit tickets rewritten at 6th-7th grade ESL reading level with strict TEKS alignment. Day 4 d(2)(A) tag dropped after audit (activities don't engage training specifics). Milestone tag `exit-ticket-pilot` published for coordinator review at `https://elbrielle.github.io/cce-curriculum/exit-ticket-pilot/`. Commits `0455a0d` → `d4c0795`.
-- **Pilot PDFs shipped** at `docs/resources/exit-tickets/2sw-wk2-day{1..5}-*.pdf`, linked from each day's Exit Ticket section. reportlab-generated, sufficient for coordinator preview but confirmed not the long-term tool: writing lines too narrow for middle-school handwriting, page bottoms empty, no visual polish. Next-agent: do NOT invest in reportlab polish; revisit tooling (Figma template + data merge, or rich CSS-print HTML) after coordinator review. See `memory/project_worksheet_production.md`.
+- **2SW Wk2 follow-up fixes (commit `4aa6467`).** Six non-exit-ticket fixes from the original pilot instinct review shipped: EMT pathway added to overview (Singley School of Health Science, EMT-B cert); Day 2 Activity 3 peer-argument norm scaffolded (3 rules + 4-min budget); Day 3 Activity 1 Silver Ridge brief chunked into 3 passes (zones, buildings, constraints hunt); Day 4 Activity 1 per-role integrity dilemma scaffold (5 role templates); Day 4 Activity 3 presentation-time compression options keyed to class size; Day 5 Activity 4 AI-ethics dead reference removed. PLANNING §6 picked up a new Day 4 teacher-scoring-load structural escalation alongside the H&L-vs-TEKS question.
+- **3SW Wk5 Cosmetology audit + pilot rewrite (commit `e7b7208`).** All 5 days audited. Days 1, 2, and 5 retagged (d(2)(A) + d(3)(G) + d(3)(I) over-claims dropped and replaced with d(1)(B), d(1)(C), d(6)(C), d(7)(B), d(1)(A)); Days 3 + 4 tags kept. Matrix promotions: d(6)(C) + d(7)(B) moved Implicit → Explicit at 3SW Wk5 Day 2; d(2)(A) Explicit Weeks list extended to include 3SW Wk5 Day 3 (was missing). Exit tickets rewritten in 5 distinct formats (Comparison Matrix / Mini-Case / Ranked Justification / Decision Tree / Concept Map) at 6th-7th ESL reading level.
+- **4SW Wk5 Automotive audit + pilot rewrite (commit TBD — this session).** All 5 days audited. Only Day 5 retag needed — d(2)(A) + d(2)(B) + d(8)(A) over-claims dropped. Key discipline: d(8)(A) "select a career pathway" is easy to over-claim on H&L Favorites days because favoriting LOOKS like pathway selection; per the matrix, d(8)(A) is Explicit only at 4SW Wk1 Day 2 and 6SW Wk6. Favorites are d(1)(C), not d(8). Day 5 replaced with d(5)(E) + d(1)(C). Matrix picked up d(3)(G) at 4SW Wk5 Day 4 (Ratteree vs. trade school) and d(5)(E) at 4SW Wk5 Day 5 (cross-cluster presentation). Exit tickets rewritten in 5 distinct formats (Venn Diagram / Trade-off Dilemma / Comparison Matrix / Diagnostic MCQ with Misconception Distractors / Concept Map).
+
+### Prior-session durable systems (still the foundation)
+
+- **Exit ticket authoring system.** Ten-format bank in `cce-curriculum/notes/exit-ticket-templates.md`.
+- **TEKS audit process.** Six-step audit in `cce-curriculum/notes/teks-audit-process.md`. Audit log in that file now has three entries (2SW Wk2, 3SW Wk5, 4SW Wk5).
+- **Authoring rulebooks** live in `cce-curriculum/notes/`, not `docs/resources/`.
+- **2SW Wk2 pilot milestone** (`exit-ticket-pilot`) still live at `https://elbrielle.github.io/cce-curriculum/exit-ticket-pilot/`. Not re-deployed this session; coordinator review still the gate for PDF tooling revisit.
+- **Pilot PDFs.** Exist for 2SW Wk2 only; none produced for 3SW Wk5 or 4SW Wk5 this session (markdown only). Per prior guidance, do NOT invest in reportlab polish; revisit tooling (Figma + data merge, or CSS-print HTML) after coordinator review.
 
 ### Key insights baked into the system
 
@@ -36,13 +42,13 @@ Three durable systems + one pilot week:
 
 - **H&L-vs-TEKS structural question.** Some TEKS that the scope-and-sequence claims are covered by a given H&L chapter are only covered by CCE's overlay, not by the H&L content itself. Coordinator input needed on whether to (a) add supplementary content closing the gap, (b) accept overlay-dependent assessment as sufficient, or (c) retag specific weeks to match what's actually taught.
 
-### Recommended next tasks (post-coordinator email)
+### Recommended next tasks
 
-1. **Finish 2SW Wk2 pilot** — 6 non-exit-ticket fixes still pending from the instinct review on this week: AI ethics dead reference on Day 5 Activity 4; EMT pathway omission in overview; peer-argument norm on Day 2 Activity 3; Silver Ridge dense read on Day 3; integrity dilemma scaffold on Day 4; presentation math on Day 4. One escalation item (Day 4 teacher scoring load, structural).
-2. **Audit another Tier 1 pathway-specific week** using the new TEKS audit + exit-ticket templates: 3SW Wk5 Cosmetology, 4SW Wk5 Automotive, 5SW Wk4 HVAC, or 3SW Wk6 Entrepreneurship.
-3. **Round-2 TEKS deepening** — three Implicit codes (d(3)D impact of planning, d(3)F co-curricular, d(4)E community service) have specific suggested edits in `docs/resources/teks-coverage-matrix.md`.
-4. **§4.3 C5 Xello vs H&L platform overlap** — hybrid investigation, needs user as Xello SSO hands (described in §4.3).
-5. **CFA rollout for 2SW-6SW** — still blocked on round-2 teacher feedback on the 1SW CFA.
+1. **Audit the remaining Tier 1 weeks** using the established pattern: 5SW Wk4 HVAC (no-Irving-ISD-pathway variant; closest parallel to "career exploration only" weeks) and 3SW Wk6 Entrepreneurship (multi-campus MacArthur + Cardwell). 2SW Wk2, 3SW Wk5, and 4SW Wk5 are now done.
+2. **Round-2 TEKS deepening** — three Implicit codes (d(3)D impact of planning, d(3)F co-curricular, d(4)E community service) have specific suggested edits in `docs/resources/teks-coverage-matrix.md`. Cheapest remaining unblocked work.
+3. **§4.3 C5 Xello vs H&L platform overlap** — hybrid investigation, needs user as Xello SSO hands (described in §4.3). Blocks on user.
+4. **CFA rollout for 2SW-6SW** — still blocked on round-2 teacher feedback on the 1SW CFA.
+5. **PDF tooling revisit** — blocked on coordinator review of the 2SW Wk2 pilot PDFs. When the coordinator returns feedback, design the next tool (Figma + data merge, or CSS-print HTML).
 
 ### Do NOT
 
