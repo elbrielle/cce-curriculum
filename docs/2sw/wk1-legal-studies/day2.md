@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Apply critical thinking and public-service mindset by designing a 10-item emergency kit for a specific disaster scenario; explain why each item is essential |
-| **TEKS** | d(1)(C), d(1)(B) |
+| **TEKS** | d(1)(C) |
 | **Deliverable** | Completed Emergency Kit design (10 items selected, drawn or labeled, with rationale for top 3 items) |
 | **Materials** | Chromebooks, H&L Workbook Ch 13 (pp. 210-212), printed Emergency Kit Design worksheet (or blank paper), projector |
 
@@ -78,7 +78,21 @@ Each partner takes notes on one improvement they would make based on the convers
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Name your scenario, your top 3 items, and one item you would ADD if you could fit an 11th. Why? *(d(1)(C))*
+**EXIT TICKET** (Ranked Justification):
+
+My emergency scenario (circle one): **earthquake** / **fire** / **flood**
+
+From my Day 2 kit, rank MY TOP 3 items from MOST critical (1) to least critical (3). Use my research to back each rank.
+
+- Rank 1 (most critical): _______________________. One sentence why: ___________________________________________________________________
+
+- Rank 2: _______________________. One sentence why: ___________________________________________________________________
+
+- Rank 3: _______________________. One sentence why: ___________________________________________________________________
+
+Bottom line: If I could fit an 11th item, what would I ADD, and why is it less critical than my Rank 1 but still worth packing? *(d(1)(C))*
+
+   ___________________________________________________________________
 
 ---
 

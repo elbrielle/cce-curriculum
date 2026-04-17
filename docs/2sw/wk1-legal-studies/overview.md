@@ -73,10 +73,11 @@ The chapter's Powerskill is Persuasion, which becomes the bridge to the Day 4 AI
 
 ## Formative Assessment
 
-- Hat Research template accuracy and completeness (Day 1): d(1)(B), d(1)(C)
-- Emergency Kit design rationale and item selection (Day 2): d(1)(C)
-- iCivics gameplay reflection (Day 3): d(1)(C)
-- Debate participation and use of evidence (Day 4): d(3)(I), d(3)(H)
+- Hat Research template + Comparison Matrix exit ticket (2 legal careers x education/salary/task). *Day 1, d(1)(B), d(1)(C)*
+- Emergency Kit design + Ranked Justification exit ticket (top 3 items ranked by criticality). *Day 2, d(1)(C)*
+- iCivics gameplay + Decision Tree exit ticket (role + first decision + evidence branch). *Day 3, d(1)(C)*
+- Debate participation + SCR position paper draft (position, evidence, affected career, association). *Day 4, d(3)(I), d(3)(H)*
+- H&L Favorites + Xello Life Experience + Concept Map exit ticket (career + association + Life Experience + Irving ISD pathway). *Day 5, d(1)(C), d(3)(H)*
 
 ## Summative Assessment
 

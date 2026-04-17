@@ -72,15 +72,27 @@ Connect the gameplay back to the Hat Research template from Day 1. Students shou
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Write 3 sentences:
+**EXIT TICKET** (Decision Tree / Branching Prompt):
 
-1. Name the iCivics game you played and which legal career was most active in it.
-2. Describe one legal concept you learned that you did not know before today.
-3. Explain how today's game changed your view of the legal profession.
+My iCivics role today (circle one or write your own): **Lawyer** / **Judge** / **County Manager** / other: _________________________
+
+My iCivics game scenario (one sentence): _______________________
+
+Step 1: In the game, what was the FIRST thing my role had to decide?
+
+   ___________________________________________________________________
+
+Step 2: Branch on evidence —
+
+   IF I had STRONG evidence for my decision, what did I do next? ___________________________________________________________________
+
+   IF I had WEAK evidence for my decision, what did I do next? ___________________________________________________________________
+
+Step 3: One legal concept I learned today that I did not know before (probable cause, due process, evidence, witness, plaintiff, defendant, or other): _______________________
 
 *(d(1)(C))*
 
-Submit the screenshot of your completion screen with your reflection.
+Submit the screenshot of your completion screen with this ticket.
 
 ---
 

@@ -67,7 +67,19 @@ Then each student selects ONE legal career and completes the **Hat Research temp
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name two legal careers and describe one key difference in their education requirements. Then submit your completed Hat Research template. *(d(1)(B), d(1)(C))*
+**EXIT TICKET** (Comparison Matrix):
+
+Pick TWO legal careers you explored today. Fill in the matrix using your Hat Research notes.
+
+| | Career 1: _______________ | Career 2: _______________ |
+|---|---|---|
+| Education required (years) | | |
+| DFW starting salary (rough) | | |
+| One daily task | | |
+
+Bottom line: A student who wants to enter the legal field WITHOUT going to law school (7+ years) should pick which of your two careers, and why? Use one cell. Then submit your completed Hat Research template. *(d(1)(B), d(1)(C))*
+
+   ___________________________________________________________________
 
 ---
 

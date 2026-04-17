@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Finalize Law cluster favorites in H&L; complete the Xello Life Experience activity; submit polished AI Ethics Position Paper |
-| **TEKS** | d(1)(C), d(3)(I), d(3)(H) |
+| **TEKS** | d(1)(C), d(3)(H) |
 | **Deliverable** | Updated H&L Climber Profile (2-3 favorited legal careers) + completed Xello Life Experience activity + final AI Ethics Position Paper |
 | **Materials** | Chromebooks, H&L accounts, Xello accounts, eDynamic Unit 5.1 link, projector |
 
@@ -68,7 +68,31 @@ Direct students to eDynamic Learning Unit 5.1: Law & Order. Have them open the u
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Complete the sentence: *"The legal career that interests me most is _____ because _____."* And name one professional association they would join. *(d(1)(C), d(3)(H))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+The legal career I favorited in H&L this week: _______________________
+
+Connect this career to THREE things:
+
+**1. A professional association this career would join** (Texas Bar Association, American Bar Association, NALA for paralegals, NCRA for court reporters, or other)
+
+   My association: _______________________. In one sentence, why would this career join that specific association?
+
+   ___________________________________________________________________
+
+**2. One of MY Xello Life Experience connections** from today (a real experience I have that connects to legal work)
+
+   My experience: _______________________. In one sentence, how does this experience prepare me for the favorited career?
+
+   ___________________________________________________________________
+
+**3. An Irving ISD pathway that connects** (Law Enforcement at Singley, Legal Studies at Singley, or another Irving ISD pathway that touches the legal field)
+
+   My pathway: _______________________. In one sentence, does the Irving ISD pathway lead DIRECTLY to my favorited career, or is it a STEPPING STONE? Explain.
+
+   ___________________________________________________________________
+
+*(d(1)(C), d(3)(H))*
 
 ---
 

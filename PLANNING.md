@@ -51,11 +51,11 @@ Two Tier-1 week audits + 2SW Wk2 instinct-review follow-ups. PDFs deferred per t
 | Block | Week | Status |
 |---|---|---|
 | 1SW | Wk0 Classroom Routines | SKIP (per user) |
-| 1SW | Wk1 Robotics / Manufacturing | PENDING |
-| 1SW | Wk2 Programming / IT | PENDING |
-| 1SW | Wk3 Computer Science / IT | PENDING |
-| 1SW | Wk4 Tech Support / IT | PENDING |
-| 1SW | Wk5 Cybersecurity | PENDING |
+| 1SW | Wk1 Robotics / Manufacturing | DONE (commit `3d024f8`) |
+| 1SW | Wk2 Programming / IT | DONE (commit `3b3e67d`) |
+| 1SW | Wk3 Computer Science / IT | DONE (commit `c8fb241`) |
+| 1SW | Wk4 Tech Support / IT | DONE (commit `a1c2232`) |
+| 1SW | Wk5 Cybersecurity | DONE (commit `a5b3772`) |
 | 2SW | Wk1 Legal Studies | PENDING |
 | 2SW | Wk2 Law Enforcement / EMT | DONE (commits `0455a0d` → `4aa6467`) |
 | 2SW | Wk3 Nursing / Health Science | PENDING |

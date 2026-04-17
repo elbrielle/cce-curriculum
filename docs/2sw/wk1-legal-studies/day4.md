@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Use evidence to argue a position in a structured debate about AI in the legal system; identify one entrepreneurial opportunity in the legal field; identify one professional association |
-| **TEKS** | d(3)(I), d(3)(H), d(1)(C) |
+| **TEKS** | d(3)(I), d(3)(H) |
 | **Deliverable** | Position statement (5-7 sentences) + Legal Entrepreneur Card (1 career, 4 fields completed) |
 | **Materials** | Chromebooks, printed AI Ethics Debate cards (FOR and AGAINST), printed Entrepreneur Card template, projector for sentence stems |
 
@@ -81,16 +81,27 @@ Each student picks ONE legal career that could be entrepreneurial (Solo Lawyer, 
 
 ## Exit Ticket (7 min)
 
-**EXIT TICKET:** Write your AI ethics position paper draft (5-7 sentences). It must include:
+**EXIT TICKET** (Short Constructed Response — position paper draft):
 
-1. Your position (FOR or AGAINST AI in legal decisions)
-2. One piece of evidence that supports your position
-3. One legal career that would be affected
-4. One professional association that might weigh in on this issue
+Draft your AI ethics position paper (5-7 sentences). This is a STRUCTURED short response; each numbered point must appear as at least one sentence in your draft.
 
-*(d(1)(C), d(3)(I), d(3)(H))*
+1. **Position:** I believe AI should / should not be used in legal decisions. (Circle one.)
 
-You will polish this for submission tomorrow.
+2. **Evidence** that supports my position (one piece from today's debate, iCivics gameplay, or H&L research):
+
+   ___________________________________________________________________
+
+3. **One legal career** that would be affected by this choice and WHY:
+
+   ___________________________________________________________________
+
+4. **One professional association** that might weigh in on this issue (from my Entrepreneur Card research):
+
+   ___________________________________________________________________
+
+*(d(3)(I), d(3)(H))*
+
+You will polish this draft into the final submission tomorrow.
 
 ---
 
