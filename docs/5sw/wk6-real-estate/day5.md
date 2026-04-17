@@ -88,7 +88,27 @@ Brief whole-class preview of the final six weeks:
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Name your top career choice as of today AND explain in one sentence how your personal budget work in Week 5 influenced (or did NOT influence) that choice. *(d(5)(A), d(5)(D))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+My TOP career choice as of today (across ALL clusters this year): _______________________
+
+Connect this career to THREE things:
+
+**1. My Wk5 PERSONAL BUDGET** (Does the salary fit my desired lifestyle?)
+
+   Budget result: BALANCES / NEEDS LIFESTYLE CUT / NEEDS LIFESTYLE UPGRADE. One sentence on how the budget INFLUENCED (or did NOT influence) this career choice:
+
+   ___________________________________________________________________
+
+**2. MY 2-minute pitch from today** (one sentence I would actually use to convince a friend to consider this career):
+
+   "_______________________________________________________"
+
+**3. The 5SW INSIGHT that most shaped my thinking** (Arch vs. Engineering vs. Trades vs. Budget vs. Real Estate)
+
+   One sentence: ___________________________________________________________________
+
+*(d(4)(C), d(5)(A), d(5)(D))*
 
 ---
 

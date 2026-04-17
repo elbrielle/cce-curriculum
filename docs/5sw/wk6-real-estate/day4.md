@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Analyze DFW real estate labor market trends with labor data; connect trends to career opportunities; update the H&L Career Plan with 5th Six Weeks exploration data |
-| **TEKS** | d(5)(A), d(8)(B) |
+| **TEKS** | d(5)(A) |
 | **Deliverable** | Market Trends Analysis notes + updated H&L Career Plan reflecting 5SW exploration |
 | **Materials** | Chromebooks, H&L accounts + Workbook (Ch 16 Career Plan template), BLS Real Estate OOH page, Texas Real Estate Research Center, Zillow or Realtor.com (projected), printed Market Trends Analysis notes sheet, projector |
 
@@ -89,7 +89,20 @@ Remind students: The Career Plan is meant to evolve. It is OK to drop interests 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name one labor market trend affecting DFW real estate and explain in one sentence how it creates career opportunity. Then name your current top career choice from all the clusters you explored this year. *(d(5)(A))*
+**EXIT TICKET** (Comparison Matrix):
+
+Use my Day 4 Market Trends notes to fill in the matrix.
+
+| | Factors DRIVING DFW real estate UP | Factors that could SLOW DFW real estate |
+|---|---|---|
+| Factor 1 | | |
+| Factor 2 | | |
+
+Bottom line: In one sentence, which factor (up or slow) is STRONGER RIGHT NOW, and how does that create OR limit career opportunities for a new agent starting in 2027?
+
+   ___________________________________________________________________
+
+MY current top career choice from ALL clusters explored this year: _______________________. *(d(5)(A))*
 
 ---
 

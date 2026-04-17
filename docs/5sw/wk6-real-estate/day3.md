@@ -80,7 +80,24 @@ Students write a 1-page reflection on the Entrepreneurship Reflection template. 
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Define entrepreneurship in your own words and give two examples of how it applies to real estate careers. *(d(3)(I))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank these 4 entrepreneurial traits from MOST (1) to LEAST (4) critical for a successful real estate agent.
+
+- **Independence** (work without a boss): rank ____
+- **Self-motivation** (make calls when no one is watching): rank ____
+- **Risk tolerance** (accept commission highs and lows): rank ____
+- **People skills** (build trust with strangers): rank ____
+
+For EACH rank, write ONE specific reason from today's lesson:
+
+- Rank 1 (most critical): _______________________________________________________
+
+- Rank 4 (least critical but still needed): _______________________________________________________
+
+Bottom line: In ONE sentence, how does a real estate agent FUNCTION as an entrepreneur (even under a broker)? *(d(3)(I))*
+
+   ___________________________________________________________________
 
 ---
 
