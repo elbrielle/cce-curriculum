@@ -12,9 +12,9 @@ Students engage with four H&L Powerskills modules (Conflict Resolution, Giving a
 
 ## TEKS Alignment
 
-- **d(4)(A):** Demonstrate effective time-management and goal-setting strategies.
-- **d(4)(B):** Identify skills that can be transferable among a variety of careers.
-- **d(4)(F):** Define and identify examples of work ethic, integrity, dedication, and perseverance.
+- **d(1)(A):** Analyze and discuss assessment results (Day 5 CareerOneStop Skills Matcher).
+- **d(4)(A):** Demonstrate effective time-management and goal-setting strategies (Day 3 SMART Goal, Day 5 Xello Time Management).
+- **d(4)(B):** Identify skills that can be transferable among a variety of careers (Days 1-5).
 
 ## Materials Needed
 
@@ -71,10 +71,11 @@ Each H&L module is paired with a teacher-led healthcare workplace role-play that
 
 ## Formative Assessment
 
-- Conflict Resolution chart and ad sketch (Day 1): d(4)(B)
-- Feedback role-play observation (Day 2): d(4)(B)
-- SMART goal worksheet completion (Day 3): d(4)(A)
-- Written Communication post quality (Day 4): d(4)(B)
+- Conflict chart + smoothie ad + Decision Tree exit ticket (new CNA + shift-partner conflict scenario, branch on response). *Day 1, d(4)(B)*
+- Feedback worksheet + role-play + Mini-Case exit ticket (new medical biller with wrong ICD-10 codes; write feedback sandwich). *Day 2, d(4)(B)*
+- SMART Goal worksheet + SCR exit ticket (goal + hardest component + this-week action). *Day 3, d(4)(A), d(4)(B)*
+- Little Library post + healthcare role-play + Trade-off Dilemma exit ticket (note-only vs. verbal+note handoff of refused medication). *Day 4, d(4)(B)*
+- Xello Time Management + CareerOneStop Skills Matcher + Concept Map exit ticket (skill + Matcher career + SMART goal fit + classmate skill compare). *Day 5, d(1)(A), d(4)(A), d(4)(B)*
 
 ## Summative Assessment
 

@@ -14,7 +14,7 @@ A TEKS can be both Explicit in some weeks and Implicit in others. The tier colum
 
 | TEKS | Description | Tier | Explicit Weeks | Implicit Weeks | Depth Notes |
 |---|---|---|---|---|---|
-| d(1)A | Analyze and discuss assessment results | **E** | Wk0 (1SW), 4SW Wk1 | 1SW Wk2 Day 5 (H&L Pathway Fit), 2SW Wk3 Day 5 (Xello Learning Styles), 2SW Wk4 Day 3 (Xello Education Experience), 3SW Wk1, 3SW Wk5 Day 5 (Xello Career Factors), 5SW Wk1, 6SW Wk6 | Wk0 is the seeding week; 4SW Wk1 is the explicit mid-year reconciliation |
+| d(1)A | Analyze and discuss assessment results | **E** | Wk0 (1SW), 4SW Wk1 | 1SW Wk2 Day 5 (H&L Pathway Fit), 2SW Wk3 Day 5 (Xello Learning Styles), 2SW Wk4 Day 3 (Xello Education Experience), 2SW Wk5 Day 5 (CareerOneStop Skills Matcher), 3SW Wk1, 3SW Wk5 Day 5 (Xello Career Factors), 5SW Wk1, 6SW Wk6 | Wk0 is the seeding week; 4SW Wk1 is the explicit mid-year reconciliation |
 | d(1)B | Explore CTE career clusters | **E** | Every cluster week (~28 weeks) | None | H&L 14 clusters + Irving ISD 6 campuses |
 | d(1)C | Identify career opportunities within clusters | **E** | Nearly every week (~30 weeks) | None | Hat Research template is the primary evidence artifact |
 | d(1)D | Research and evaluate emerging occupations | **E** | 1SW Wk3, 1SW Wk5, 2SW Wk6, 3SW Wk2-3, 4SW Wk4, 5SW Wk2 | None | "Emerging" explicitly in the exit ticket and activity |
@@ -34,7 +34,7 @@ A TEKS can be both Explicit in some weeks and Implicit in others. The tier colum
 | d(4)C | Oral professional presentations | **E** | 6SW Wk4 Day 5, Wk6 Days 3-4 (Capstone) | 3SW Wk6 Day 4 pitch, 5SW Wk3 Day 4 Power Pitch | |
 | d(4)D | Apply core academic skills | **I** | None | Embedded in every week (math in budget, writing in reflections, reading in H&L) | By design implicit; not a gap. Reading/writing/math every week |
 | d(4)E | Community service and volunteerism | **I** | 6SW Wk1 Day 4 (named) | 2SW Wk1 legal service, 4SW Wk6 STEM programs | **GAP candidate.** One explicit mention. Consider deepening if teachers flag that students lack volunteer-connection language |
-| d(4)F | Work ethic, integrity, dedication, perseverance | **E** | 1SW Wk5 Day 3 (integrity), 2SW Wk2 Day 4, 2SW Wk5; 3SW Wk6 Day 4; 4SW Wk6 Days 1, 4 | None | Strong explicit coverage across all six blocks |
+| d(4)F | Work ethic, integrity, dedication, perseverance | **E** | 1SW Wk5 Day 3 (integrity), 2SW Wk2 Day 4; 3SW Wk6 Day 4; 4SW Wk6 Days 1, 4 | None | Strong explicit coverage across all six blocks. 2SW Wk5 audited 2026-04-17 and removed from Explicit Weeks (communication-skills days probe d(4)(B) transferable skills, not d(4)(F) work-ethic characteristics) |
 | d(5)A | Analyze labor market trends | **E** | 1SW Wk2 Day 3; 2SW Wk6; 4SW Wk4; 5SW Wk4-6 | None | |
 | d(5)B | Classify high-skill/wage/demand occupations | **E** | 2SW Wk4 Day 2; 4SW Wk4 Day 2; 5SW Wk3 Day 3, Wk4 Day 3 | Every week citing BLS data | |
 | d(5)C | Effects of changing trends on career choices | **E** | 3SW Wk3 Day 4 (societal trends), 6SW Wk3 Day 2 (economy) | Every emerging-careers week | |

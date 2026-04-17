@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Complete the Xello Time Management Lesson; complete the CareerOneStop Skills Matcher; review and refine the SMART goal from Day 3; write a Powerskills reflection |
-| **TEKS** | d(4)(A), d(4)(B), d(4)(F) |
+| **TEKS** | d(1)(A), d(4)(A), d(4)(B) |
 | **Deliverable** | Xello Time Management completion screen + Skills Matcher results screenshot + refined SMART goal + 4-sentence reflection paragraph |
 | **Materials** | Chromebooks, Xello accounts, CareerOneStop Skills Matcher link, SMART Goal worksheet from Day 3, projector |
 
@@ -79,7 +79,33 @@ Submit the reflection and the refined SMART goal together as the Week 5 delivera
 
 ## Exit Ticket (Done as part of reflection)
 
-**EXIT TICKET:** Complete the sentence: *"The transferable skill I improved most this week is _____, and it matters for my career exploration because _____."* Submit the reflection paragraph with your refined SMART goal. *(d(4)(B))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+The transferable skill I improved MOST this week: _______________________ (from Conflict Resolution / Feedback / Advocacy / Written Communication / Time Management)
+
+Connect this skill to THREE things:
+
+**1. A career from my CareerOneStop Skills Matcher top 5 that USES this skill**
+
+   Career: _______________________. One sentence, how this skill shows up in that career's daily work:
+
+   ___________________________________________________________________
+
+**2. My SMART goal from Day 3 (refined today)**
+
+   Does this skill help me reach my SMART goal? Circle: YES / NO. One sentence why:
+
+   ___________________________________________________________________
+
+**3. A CLASSMATE's top skill (trade in the last 2 minutes, must be different from mine)**
+
+   Classmate's skill: _______________________. In one sentence, which skill (MINE or CLASSMATE'S) matters more in a high-pressure healthcare job, and why?
+
+   ___________________________________________________________________
+
+*(d(1)(A), d(4)(B))*
+
+Submit the refined SMART goal with this ticket.
 
 ---
 

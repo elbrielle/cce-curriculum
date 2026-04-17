@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Apply the principles of effective written communication; create a Little Library social media post using the H&L Powerskills workbook activity; pair the written skill with a healthcare role-play |
-| **TEKS** | d(4)(B), d(4)(F) |
+| **TEKS** | d(4)(B) |
 | **Deliverable** | Completed Little Library social media post (clear status, call to action, 2 hashtags) + 1 healthcare role-play observation |
 | **Materials** | Chromebooks, H&L Powerskills Workbook (pp. 25-26), printed social media post template, healthcare role-play cards from Day 2, projector |
 
@@ -90,7 +90,24 @@ The partner gives one piece of feedback using the feedback sandwich from Day 2.
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name one written communication tip from the H&L workbook and explain how it would help a nurse or medical biller do their job. *(d(4)(B), d(4)(F))*
+**EXIT TICKET** (Trade-off / Dilemma Analysis):
+
+You just finished your shift as a CNA. You need to tell the nurse on the next shift that one patient refused medication. You can use two communication tools:
+
+- **(A) A quick 2-line note in the patient chart.** Pros: fast, written record, next nurse reads it.
+- **(B) A verbal handoff in person AND a note.** Pros: chance to answer questions, more thorough.
+
+Pros of picking A: _______________________________________________________
+
+Pros of picking B: _______________________________________________________
+
+My choice (A or B): ________
+
+Quality list (pick ONE from today's written-communication tips or add your own): **clear** / **concise** / **on-topic** / **reader-focused** / **proofread**
+
+Which quality matters MOST in THIS handoff, and why? *(d(4)(B))*
+
+   ___________________________________________________________________
 
 ---
 

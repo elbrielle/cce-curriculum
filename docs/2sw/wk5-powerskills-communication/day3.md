@@ -79,7 +79,25 @@ Students share their goals with a partner who checks: Is it Specific? Measurable
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Write your SMART career exploration goal in one complete sentence. Then circle the SMART component you think is hardest for you (S, M, A, R, or T) and explain why. *(d(4)(A))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. Write my SMART career exploration goal in ONE complete sentence:
+
+   ___________________________________________________________________
+
+   ___________________________________________________________________
+
+2. Circle the SMART component that was HARDEST for me to write: **S** / **M** / **A** / **R** / **T**
+
+3. In ONE sentence, why was that component hardest? (Was the deadline unrealistic? The measurement unclear? The action too big?)
+
+   ___________________________________________________________________
+
+4. ONE specific action I will take THIS week to move toward my goal:
+
+   ___________________________________________________________________
+
+*(d(4)(A))*
 
 ---
 

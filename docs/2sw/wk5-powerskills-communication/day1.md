@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Introduce Powerskills as transferable career skills; complete the H&L Powerskills "Conflict Resolution" module; resolve three workplace conflicts using listen / find common ground / calm words |
-| **TEKS** | d(4)(B), d(4)(F) |
+| **TEKS** | d(4)(B) |
 | **Deliverable** | Completed Conflict Resolution chart (3 conflicts × 3 columns) + smoothie ad sketch |
 | **Materials** | Chromebooks, H&L Powerskills Workbook (pp. 19-21), printed Conflict Resolution worksheet, paper for ad sketch, projector |
 
@@ -96,7 +96,23 @@ For question 3, push students to name healthcare-specific conflicts: nurse vs. d
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Name one of the 3 quick tips for conflict resolution and describe how it would help in a healthcare workplace conflict. *(d(4)(B), d(4)(F))*
+**EXIT TICKET** (Decision Tree / Branching Prompt):
+
+My workplace role: **new CNA at a DFW hospital**
+
+Conflict: My shift partner keeps taking long breaks and leaving me with all the patient rooms. I am exhausted and starting to miss details.
+
+Step 1: Which of the 3 H&L quick tips (listen first / find common ground / use calm clear words) do I use FIRST, and WHY?
+
+   My tip: _______________________. Why first: ___________________________________________________________________
+
+Step 2: Branch on my partner's response —
+
+   IF my partner apologizes and wants to fix it, what do I do next? ___________________________________________________________________
+
+   IF my partner gets defensive, what do I do next? ___________________________________________________________________
+
+*(d(4)(B))*
 
 ---
 

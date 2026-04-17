@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Practice the feedback sandwich technique through three structured paired activities (verbal, written, drawn); apply feedback skills to a healthcare role-play |
-| **TEKS** | d(4)(B), d(4)(F) |
+| **TEKS** | d(4)(B) |
 | **Deliverable** | Completed Feedback worksheet (3 steps) + 1 healthcare role-play observation note |
 | **Materials** | Chromebooks, H&L Powerskills Workbook (pp. 22-24), printed Feedback worksheet, paper for drawings, healthcare role-play cards, projector |
 
@@ -87,7 +87,19 @@ After the role-play, partners switch roles and try a different card. Each studen
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Describe one feedback technique you practiced today and explain how it would help a nurse or medical biller do their job better. *(d(4)(B))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: A new medical biller on your team is fast but keeps entering the WRONG ICD-10 codes. Three charts in the past week have been billed incorrectly. Your supervisor asks YOU (the senior biller) to give them feedback before the next shift.
+
+Write a feedback sandwich — **3 sentences** — using today's structure:
+
+- **Positive (1 sentence):** ___________________________________________________________________
+
+- **Improvement with specific language (1 sentence, cite one specific behavior):** ___________________________________________________________________
+
+- **Positive close (1 sentence):** ___________________________________________________________________
+
+*(d(4)(B))*
 
 ---
 
