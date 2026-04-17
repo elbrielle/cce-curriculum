@@ -107,7 +107,25 @@ Students apply the peer feedback to their Xello resume. They strengthen weak sec
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Name one specific change you made to your resume based on peer feedback. Then name one missing detail you added to the commercial script. *(d(7)(A))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. ONE specific change I made to my resume based on PEER FEEDBACK:
+
+   Change: ___________________________________________________________
+
+2. ONE missing detail I added to the COMMERCIAL SCRIPT:
+
+   Missing detail: _______________________________________________________
+
+3. In one sentence, what do the resume revision AND the commercial-script rewrite have IN COMMON as skills?
+
+   ___________________________________________________________________
+
+4. ONE specific action verb (organized / led / created / designed / managed) I now use on my resume where I previously used vague language:
+
+   ___________________________________________________________________
+
+*(d(7)(A))*
 
 ---
 

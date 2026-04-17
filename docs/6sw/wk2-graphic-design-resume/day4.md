@@ -92,7 +92,28 @@ Then direct students to log into eDynamic Learning and open Unit 8.2 (Job Search
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name your team's video game title and your role on the team. Then list the 4 steps of an effective job search in order. *(d(1)(C), d(6)(A))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank the 4 job search steps from MOST PREPARED for RIGHT NOW (1) to LEAST PREPARED (4).
+
+- Know Yourself: rank ____
+- Get Your Materials Ready: rank ____
+- Search Smart & Connect: rank ____
+- Ask for Help: rank ____
+
+For EACH rank, write ONE piece of evidence:
+
+- Rank 1 (most prepared): _______________________________________________________
+
+- Rank 4 (least prepared): _______________________________________________________
+
+Bottom line: My team's video game TITLE and MY role on the team:
+
+   Game title: _______________________
+
+   My role: _______________________
+
+*(d(1)(C), d(6)(A))*
 
 ---
 

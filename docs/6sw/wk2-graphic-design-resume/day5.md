@@ -91,7 +91,31 @@ Then direct students to open H&L and complete two tasks:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Describe your rebrand in one sentence. Name the Arts/AV career that would do this kind of work professionally and explain whether you would want that career. *(d(1)(C), d(7)(A))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+MY rebrand in ONE sentence: _______________________________________________________
+
+Connect this rebrand to THREE things:
+
+**1. The Arts/AV career that WOULD do this work professionally** (Graphic Designer / Art Director / UX Designer / Social Media Manager / etc.)
+
+   My career: _______________________. Would I WANT this career? Circle: YES / NO / MAYBE. One sentence why:
+
+   ___________________________________________________________________
+
+**2. The Digital Communications and Graphic Design pathway at Irving High / MacArthur / Nimitz** (Adobe Certified Professional cert)
+
+   Does this pathway lead DIRECTLY to my career or is it a STEPPING STONE? Circle: DIRECT / STEPPING STONE. One sentence why:
+
+   ___________________________________________________________________
+
+**3. ONE specific Building Block** I added this week (Canva / mood boards / GDDs / podcast outlines / Xello resume)
+
+   My Building Block: _______________________. In one sentence, how will this BB show up on my resume AND in a real design job?
+
+   ___________________________________________________________________
+
+*(d(1)(C), d(7)(A))*
 
 ---
 
