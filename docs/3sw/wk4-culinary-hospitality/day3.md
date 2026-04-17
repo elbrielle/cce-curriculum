@@ -78,7 +78,27 @@ Connect to entrepreneurship: someone who owns a small hotel or B&B has to wear A
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Write 3 sentences. (1) What role did you play today? (2) What did your role contribute that the others couldn't? (3) Name one entrepreneurial opportunity in the hospitality cluster (e.g., open a small B&B, food truck, event planning company). *(d(1)(C), d(3)(I))*
+**EXIT TICKET** (Decision Tree / Branching Prompt):
+
+My Hotel Rescue role today: _______________________ (Hotel Director / Front Desk Agent / Events Planner / Head Chef / Guest Services Manager / Senior Concierge)
+
+New crisis: A large wedding is scheduled tonight at the hotel but a water leak just shut down the ballroom.
+
+Step 1: What does MY ROLE do FIRST in the next 15 minutes?
+
+   ___________________________________________________________________
+
+Step 2: Branch on resources —
+
+   IF I can move the wedding to another hotel space (lobby, outdoor deck, restaurant), what do I do next? ___________________________________________________________________
+
+   IF NO other hotel space works, what do I do next? ___________________________________________________________________
+
+Step 3: Name ONE entrepreneurial opportunity in Hospitality (small B&B, food truck, event-planning company, wedding venue) that a small-business owner could build to handle BOTH cooking AND venue crises:
+
+   ___________________________________________________________________
+
+*(d(1)(C), d(3)(I))*
 
 ---
 

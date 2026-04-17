@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Read the H&L "Pack Your Bags" Career Lab scenario; play the role of Director of Tourism for the city of Silverbrook; design a tourism campaign with a slogan, target audience, and key marketing channels |
-| **TEKS** | d(1)(C), d(3)(I) |
+| **TEKS** | d(1)(C) |
 | **Deliverable** | Sketched tourism campaign with slogan, target audience, 3 attractions to highlight, and marketing strategy |
 | **Materials** | H&L Workbook Ch 10 (pp. 168-173, "Pack Your Bags"), printed Silverbrook Memo (workbook p. 169), tourism sketch sheet, colored pencils/markers |
 
@@ -84,7 +84,29 @@ Pairs then make ONE quick edit to their sketch based on the feedback before turn
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Submit your tourism campaign sketch. Write one sentence: "My campaign slogan is '_____' and it targets _____ because _____." *(d(1)(C), d(3)(I))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. My campaign slogan: "_______________________________________________________"
+
+2. Target audience (be specific: age range + where they come from):
+
+   ___________________________________________________________________
+
+3. The 3 Silverbrook attractions I chose and WHY each fits the target audience (one sentence per):
+
+   Attraction 1: _______________________. Why: _______________________
+
+   Attraction 2: _______________________. Why: _______________________
+
+   Attraction 3: _______________________. Why: _______________________
+
+4. ONE piece of data from the Silverbrook memo (visitor numbers, revenue, existing/needed) that backs up my slogan's focus:
+
+   ___________________________________________________________________
+
+*(d(1)(C))*
+
+Submit your tourism campaign sketch with this ticket.
 
 ---
 

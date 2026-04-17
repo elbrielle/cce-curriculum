@@ -77,7 +77,33 @@ Then they write a 3-sentence reflection on the Hospitality week:
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Submit your Xello screenshot, H&L favorites screenshot, and 3-sentence reflection. Write one sentence: "If I were to enroll in the Singley Academy Culinary Arts or Hospitality Services pathway, my dream is to _____." *(d(1)(C), d(3)(I))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+A Hospitality career I favorited this week: _______________________
+
+Connect this career to THREE things:
+
+**1. Today's Xello Decision Making framework** (gather info → weigh options → predict → decide → reflect)
+
+   Which step is HARDEST for someone picking my favorited career, and why? One sentence:
+
+   ___________________________________________________________________
+
+**2. The Singley Academy Culinary Arts OR Hospitality Services pathway** (ServSafe Manager certification)
+
+   Does Singley's pathway lead DIRECTLY to my favorited career or is it a STEPPING STONE? Circle: DIRECT / STEPPING STONE. One sentence why:
+
+   ___________________________________________________________________
+
+**3. My small-business (entrepreneurship) dream in Hospitality**
+
+   If I owned a small hospitality business, it would be: _______________________ (food truck, B&B, event-planning company, etc.). One sentence why:
+
+   ___________________________________________________________________
+
+*(d(1)(C), d(3)(I))*
+
+Submit Xello screenshot + H&L Favorites screenshot + 3-sentence reflection with this ticket.
 
 ---
 

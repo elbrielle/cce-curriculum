@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Tour the Hospitality & Tourism cluster in H&L; complete the H&L "Culinary Twist" creative dish design activity; experience the creative side of culinary careers |
-| **TEKS** | d(1)(C) |
+| **TEKS** | d(1)(B), d(1)(C) |
 | **Deliverable** | Completed Culinary Twist dish description + menu sketch |
 | **Materials** | Chromebooks, H&L accounts, H&L Workbook Ch 10 (pp. 158-161), printed menu template, colored pencils/markers, projector |
 
@@ -83,7 +83,27 @@ The class discussion question from the workbook: **"How do people with culinary 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Submit your menu sketch and dish description. Write one sentence: "The most creative thing I did with my special ingredient was _____." *(d(1)(C))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: A new family-friendly restaurant is opening on the Singley Academy FireBird Cafe model. They need ONE hire from the 3 Hospitality pathways (Culinary Arts, Lodging & Resort Management, or Travel/Tourism/Attractions).
+
+1. Which pathway does the restaurant most need to hire from FIRST?
+
+   My pick: _______________________
+
+2. Name ONE specific career in that pathway and describe in one sentence what that person would do Day 1 on the job:
+
+   Career: _______________________
+
+   Day 1 task: ______________________________________________________
+
+3. My Culinary Twist special ingredient (from today) was _______________________. In one sentence, how would my dish fit a family-friendly restaurant menu?
+
+   ___________________________________________________________________
+
+*(d(1)(B), d(1)(C))*
+
+Submit your menu sketch and dish description with this ticket.
 
 ---
 

@@ -12,9 +12,11 @@ Students explore the Hospitality & Tourism cluster through Hats & Ladders, compl
 
 ## TEKS Alignment
 
-- **d(1)(C):** Identify various career opportunities within the Hospitality & Tourism cluster.
-- **d(3)(I):** Define entrepreneurship and identify entrepreneurial opportunities within a field of personal interest.
-- **d(5)(E):** Use resources to compare salaries of at least three careers in the student's interest area.
+- **d(1)(B):** Explore and describe the CTE career clusters (Day 1 Hospitality & Tourism cluster tour).
+- **d(1)(C):** Identify various career opportunities within the Hospitality & Tourism cluster (Days 1, 3, 4, 5).
+- **d(3)(I):** Define entrepreneurship and identify entrepreneurial opportunities within a field of personal interest (Days 3, 5).
+- **d(4)(B):** Identify skills that can be transferable among a variety of careers (Day 2 Powerskill Motivation).
+- **d(5)(E):** Use resources to compare salaries of at least three careers in the student's interest area (Day 2).
 
 ## Materials Needed
 
@@ -76,10 +78,11 @@ These three activities cover the three pathways inside the Hospitality cluster: 
 
 ## Formative Assessment
 
-- Culinary Twist dish quality and creative use of special ingredient (Day 1): d(1)(C)
-- Powerskill Motivation chart + salary comparison worksheet (Day 2): d(5)(E)
-- Hotel Rescue role contribution and team solution (Day 3): d(1)(C), d(3)(I)
-- Pack Your Bags campaign sketch and slogan (Day 4): d(3)(I)
+- Culinary Twist menu + Mini-Case exit ticket (FireBird-model restaurant first-hire pick). *Day 1, d(1)(B), d(1)(C)*
+- Motivation chart + salary worksheet + Comparison Matrix exit ticket (3 careers x pay / education / motivation type). *Day 2, d(4)(B), d(5)(E)*
+- Hotel Rescue + Decision Tree exit ticket (water-leak ballroom crisis + role-based branch + entrepreneurial opportunity). *Day 3, d(1)(C), d(3)(I)*
+- Tourism Campaign + SCR exit ticket (slogan + specific audience + 3 attractions + memo data point). *Day 4, d(1)(C)*
+- Xello Decision Making + H&L Favorites + Concept Map exit ticket (favorite career + decision-framework hardest step + Singley pathway + entrepreneur dream). *Day 5, d(1)(C), d(3)(I)*
 
 ## Summative Assessment
 

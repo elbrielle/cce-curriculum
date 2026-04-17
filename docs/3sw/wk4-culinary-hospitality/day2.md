@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Complete the H&L Powerskill Motivation activity; identify intrinsic and extrinsic motivation in workplace examples; compare salaries of 3 hospitality careers using BLS |
-| **TEKS** | d(1)(C), d(5)(E) |
+| **TEKS** | d(4)(B), d(5)(E) |
 | **Deliverable** | Completed Motivation chart from H&L workbook + 3-career salary comparison worksheet |
 | **Materials** | H&L Workbook Ch 10 (p. 162, Powerskill Motivation), Chromebooks, BLS Hospitality career tabs, printed salary comparison worksheet, projector |
 
@@ -81,7 +81,21 @@ After filling in the table, students answer one analysis question:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Submit your Motivation chart and salary comparison. Write one sentence: "The hospitality career with the best balance of pay and lifestyle for me is _____ because _____." *(d(5)(E))*
+**EXIT TICKET** (Comparison Matrix):
+
+Use your salary comparison worksheet to fill in the matrix.
+
+| | Chef / Line Cook | Lodging Manager | Event Planner |
+|---|---|---|---|
+| BLS median pay | | | |
+| Typical education | | | |
+| Primary type of motivation (intrinsic / extrinsic) — which one my competition design used | | | |
+
+Bottom line: Which of the three careers has the BEST balance of pay AND intrinsic motivation (doing it because you love it) FOR ME? Use one specific number + one motivation type from the matrix to back the pick. *(d(4)(B), d(5)(E))*
+
+   ___________________________________________________________________
+
+Submit your Motivation chart and salary comparison with this ticket.
 
 ---
 
