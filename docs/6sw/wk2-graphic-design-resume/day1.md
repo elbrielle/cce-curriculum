@@ -94,7 +94,29 @@ Students may use Google Docs or paper. The deliverable is the completed outline 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Pick TWO Arts/AV careers and classify each as primarily solo work, team work, or client-facing. Which work style fits your Wk0 RIASEC type best, and why? Submit your podcast title and target audience. *(d(1)(C))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: A new DFW middle school wants to launch a podcast for 7th graders to learn about local careers. They have budget for ONE creative hire.
+
+1. Which Arts/AV career (Podcast Host / Sound Engineer / Social Media Manager / Video Editor / Graphic Designer / Writer) is the MOST CRITICAL first hire, and why?
+
+   My pick: _______________________
+
+   Why: ____________________________________________________________
+
+2. Classify TWO Arts/AV careers I explored today as (circle one per): **solo work** / **team work** / **client-facing**
+
+   Career 1: _______________________. Work style: solo / team / client-facing
+
+   Career 2: _______________________. Work style: solo / team / client-facing
+
+3. My Wk0 RIASEC type: _______________________. Which work style above fits my RIASEC best, and why?
+
+   ___________________________________________________________________
+
+4. My team's podcast TITLE: _______________________. Target AUDIENCE: _______________________
+
+*(d(1)(C))*
 
 ---
 

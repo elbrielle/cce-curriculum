@@ -82,7 +82,24 @@ Students work independently. Teacher circulates with three jobs:
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Name three things you put on your resume today. Which section was the HARDEST to fill in and why? *(d(7)(A))*
+**EXIT TICKET** (Comparison Matrix):
+
+For each of the 6 resume sections, mark whether I filled it in with SPECIFIC content (1 SPECIFIC item) or if it needs more work.
+
+| Section | Filled with SPECIFIC content (check YES / NO) | One SPECIFIC item I added (or note "still blank") |
+|---|---|---|
+| Header (name/school/contact) | | |
+| Career Objective | | |
+| Education | | |
+| Skills | | |
+| Activities & Awards | | |
+| Community Service | | |
+
+Bottom line: The section that was HARDEST to fill in: _______________________. In one sentence, why was it hardest?
+
+   ___________________________________________________________________
+
+*(d(7)(A))*
 
 ---
 
