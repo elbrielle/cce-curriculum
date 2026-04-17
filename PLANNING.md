@@ -1,6 +1,6 @@
 # PLANNING.md — CCE Curriculum Post-Meeting State
 
-**Last updated:** 2026-04-17 (fourth session: 2SW Wk2 instinct-review follow-ups + 3SW Wk5 + 4SW Wk5 TEKS audits and exit-ticket pilot rewrites)
+**Last updated:** 2026-04-17 (fifth session: full top-down systematic pilot pass complete — 35 of 35 auditable weeks done, Wk0 skipped per user)
 **Purpose:** Brief any agent on the current state of the CCE curriculum project after the 2026-04-15 teacher meeting.
 
 ---
@@ -15,9 +15,17 @@
 4. **For exit-ticket / objective / DOL edits:** `cce-curriculum/notes/teks-audit-process.md` + `exit-ticket-templates.md` (new this session)
 5. **For CFA edits:** `cce-curriculum/notes/cfa-template.md`
 
-### What shipped this session (2026-04-17, fourth session)
+### What shipped this session (2026-04-17, fifth session — PILOT PASS COMPLETE)
 
-Two Tier-1 week audits + 2SW Wk2 instinct-review follow-ups. PDFs deferred per the 2026-04-16 "do NOT invest in reportlab polish" rule; this session produced markdown-only exit tickets for the two new weeks.
+**Full top-down systematic pilot pass finished.** All 35 auditable weeks (Wk0 skipped per user directive) now have: TEKS audit complete, exit tickets rewritten in pilot formats at 6th-7th ESL reading level using ≥3 distinct formats per week from the 10-format bank, preservation loop verified, committed, and pushed. Audit log in `teks-audit-process.md` captures the per-week key insight.
+
+Final four week audits shipped this session (6SW Wk3 Business/Marketing `e67e590`, 6SW Wk4 Sales/Presentations `7a68f35`, 6SW Wk5 Job Skills/Mock Interview `a52babc`, 6SW Wk6 Capstone `0d43f68`). No TEKS retags were needed on the final four weeks — all claimed standards earned directly by day activities.
+
+PDFs remain deferred per the 2026-04-16 "do NOT invest in reportlab polish" rule; pilot output is markdown-only pending coordinator review of the 2SW Wk2 pilot.
+
+### What shipped in prior sessions
+
+Two Tier-1 week audits + 2SW Wk2 instinct-review follow-ups (4th session). PDFs deferred per the 2026-04-16 "do NOT invest in reportlab polish" rule.
 
 - **2SW Wk2 follow-up fixes (commit `4aa6467`).** Six non-exit-ticket fixes from the original pilot instinct review shipped: EMT pathway added to overview (Singley School of Health Science, EMT-B cert); Day 2 Activity 3 peer-argument norm scaffolded (3 rules + 4-min budget); Day 3 Activity 1 Silver Ridge brief chunked into 3 passes (zones, buildings, constraints hunt); Day 4 Activity 1 per-role integrity dilemma scaffold (5 role templates); Day 4 Activity 3 presentation-time compression options keyed to class size; Day 5 Activity 4 AI-ethics dead reference removed. PLANNING §6 picked up a new Day 4 teacher-scoring-load structural escalation alongside the H&L-vs-TEKS question.
 - **3SW Wk5 Cosmetology audit + pilot rewrite (commit `e7b7208`).** All 5 days audited. Days 1, 2, and 5 retagged (d(2)(A) + d(3)(G) + d(3)(I) over-claims dropped and replaced with d(1)(B), d(1)(C), d(6)(C), d(7)(B), d(1)(A)); Days 3 + 4 tags kept. Matrix promotions: d(6)(C) + d(7)(B) moved Implicit → Explicit at 3SW Wk5 Day 2; d(2)(A) Explicit Weeks list extended to include 3SW Wk5 Day 3 (was missing). Exit tickets rewritten in 5 distinct formats (Comparison Matrix / Mini-Case / Ranked Justification / Decision Tree / Concept Map) at 6th-7th ESL reading level.
@@ -44,7 +52,15 @@ Two Tier-1 week audits + 2SW Wk2 instinct-review follow-ups. PDFs deferred per t
 
 ### Recommended next tasks
 
-**SYSTEMATIC PILOT PASS (current strategy, set 2026-04-17).** Work top-down through every week, running the TEKS audit + exit-ticket rewrite per the 2SW Wk2 pilot pattern. Skip Wk0 and the three already-piloted weeks.
+**PILOT PASS COMPLETE.** 35 of 35 auditable weeks done. Next-step candidates for the user to pick from:
+
+1. **Coordinator review unblock.** PDF tooling revisit, milestone publication of the full pilot, and the H&L-vs-TEKS structural escalation all wait on coordinator review of the 2SW Wk2 pilot — no agent action until the review returns.
+2. **Round-2 TEKS deepening.** Three Implicit codes (d(3)(D), d(3)(F), d(4)(E)) with suggested edits already drafted in `docs/resources/teks-coverage-matrix.md`. Could be worked through now without coordinator input.
+3. **CFA rollout for 2SW-6SW.** Blocked on round-2 teacher feedback on the 1SW CFA sample.
+4. **Wk0 Classroom Routines pilot pass.** Skipped this round per user directive, but could be audited using the same protocol if the user wants full coverage.
+5. **Audit-log cross-check.** Spot-check the 35 audit-log entries for consistency (format, TEKS citations, matrix-promotion notes) and fold any missing matrix promotions into `docs/resources/teks-coverage-matrix.md`.
+
+**SYSTEMATIC PILOT PASS (archived strategy, 2026-04-17).** Worked top-down through every week, running the TEKS audit + exit-ticket rewrite per the 2SW Wk2 pilot pattern. Wk0 skipped per user. Completed over the fourth and fifth sessions.
 
 **Pilot-pass order and status:**
 
@@ -65,27 +81,27 @@ Two Tier-1 week audits + 2SW Wk2 instinct-review follow-ups. PDFs deferred per t
 | 3SW | Wk1 Vet Science | DONE (commit `d459d47`) |
 | 3SW | Wk2 Plant Science | DONE (commit `364e7bd`) |
 | 3SW | Wk3 Sustainable Engineering | DONE (commit `8d3b834`) |
-| 3SW | Wk4 Culinary / Hospitality | PENDING |
+| 3SW | Wk4 Culinary / Hospitality | DONE |
 | 3SW | Wk5 Cosmetology | DONE (commit `e7b7208`) |
-| 3SW | Wk6 Entrepreneurship | PENDING |
-| 4SW | Wk1 Career Planning | PENDING |
-| 4SW | Wk2 Course Mapping | PENDING |
-| 4SW | Wk3 Aviation | PENDING |
-| 4SW | Wk4 Drone Engineering | PENDING |
+| 3SW | Wk6 Entrepreneurship | DONE |
+| 4SW | Wk1 Career Planning | DONE |
+| 4SW | Wk2 Course Mapping | DONE |
+| 4SW | Wk3 Aviation | DONE |
+| 4SW | Wk4 Drone Engineering | DONE |
 | 4SW | Wk5 Automotive | DONE (commit `4b34af4`) |
-| 4SW | Wk6 Trades Capstone | PENDING |
-| 5SW | Wk1 Architecture | PENDING |
-| 5SW | Wk2 Civil Engineering | PENDING |
-| 5SW | Wk3 Construction Trades | PENDING |
-| 5SW | Wk4 HVAC / Electrical / Plumbing | PENDING |
-| 5SW | Wk5 Personal Budget | PENDING |
-| 5SW | Wk6 Real Estate | PENDING |
-| 6SW | Wk1 Education | PENDING |
-| 6SW | Wk2 Resume / Graphic Design | PENDING |
-| 6SW | Wk3 Business / Marketing | PENDING |
-| 6SW | Wk4 Sales / Presentations | PENDING |
-| 6SW | Wk5 Job Skills / Mock Interview | PENDING |
-| 6SW | Wk6 Capstone | PENDING |
+| 4SW | Wk6 Trades Capstone | DONE |
+| 5SW | Wk1 Architecture | DONE |
+| 5SW | Wk2 Civil Engineering | DONE |
+| 5SW | Wk3 Construction Trades | DONE |
+| 5SW | Wk4 HVAC / Electrical / Plumbing | DONE |
+| 5SW | Wk5 Personal Budget | DONE |
+| 5SW | Wk6 Real Estate | DONE |
+| 6SW | Wk1 Education | DONE |
+| 6SW | Wk2 Resume / Graphic Design | DONE |
+| 6SW | Wk3 Business / Marketing | DONE (commit `e67e590`) |
+| 6SW | Wk4 Sales / Presentations | DONE (commit `7a68f35`) |
+| 6SW | Wk5 Job Skills / Mock Interview | DONE (commit `a52babc`) |
+| 6SW | Wk6 Capstone | DONE (commit `0d43f68`) |
 
 **Per-week protocol** (applied in sequence, one week at a time):
 
