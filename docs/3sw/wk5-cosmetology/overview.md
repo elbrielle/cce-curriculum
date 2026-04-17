@@ -12,9 +12,14 @@ Students explore the Human Services cluster through Hats & Ladders with a focus 
 
 ## TEKS Alignment
 
-- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements.
-- **d(3)(G):** Investigate and report on steps required to participate or enroll in career opportunities including apprenticeships.
-- **d(3)(I):** Define entrepreneurship and identify entrepreneurial opportunities.
+- **d(1)(A):** Analyze and discuss assessment results (Day 5 Xello Career Factors).
+- **d(1)(B):** Explore and describe the CTE career clusters (Day 1 Human Services cluster tour).
+- **d(1)(C):** Identify career opportunities within one or more career clusters (Days 1, 5).
+- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements (Day 3 TDLR).
+- **d(3)(G):** Investigate and report on steps required to participate or enroll in career opportunities including apprenticeships (Day 3 TDLR 3-route comparison).
+- **d(3)(I):** Define entrepreneurship and identify entrepreneurial opportunities (Day 4 Salon Concept).
+- **d(6)(C):** Participate in a mock interview (Day 2 Cosmetology mock interview).
+- **d(7)(B):** Write business correspondence including a thank-you follow-up (Day 2 thank-you email draft).
 
 ## Materials Needed
 
@@ -72,10 +77,11 @@ These activities teach the SOFT skills cosmetologists need (client interaction, 
 
 ## Formative Assessment
 
-- Stress Toolkit social media posts (Day 1): d(2)(A)
-- Mock interview performance and thank-you email (Day 2): d(3)(G)
-- TDLR Licensing Pathway worksheet accuracy (Day 3): d(2)(A), d(3)(G)
-- Salon entrepreneurship concept and Get Out and Move event plan (Day 4): d(3)(I)
+- Comparison Matrix exit ticket on Human Services cluster careers (Day 1): d(1)(B), d(1)(C)
+- Mock interview performance + thank-you email draft (Day 2): d(6)(C), d(7)(B)
+- TDLR Licensing Pathway worksheet + ranked routes exit ticket (Day 3): d(2)(A), d(3)(G)
+- Salon entrepreneurship concept + Get Out and Move event plan (Day 4): d(3)(I)
+- Xello Career Factors self-assessment + favorited-career concept map (Day 5): d(1)(A), d(1)(C)
 
 ## Summative Assessment
 

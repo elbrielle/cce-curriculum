@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Tour the Human Services cluster in H&L; identify Personal Care Services careers; complete the H&L "Stress Toolkit" activity by designing 3 social media posts that teach stress management techniques |
-| **TEKS** | d(2)(A) |
+| **TEKS** | d(1)(B), d(1)(C) |
 | **Deliverable** | 3 Stress Toolkit social media posts (drawn on workbook templates or designed in Canva) |
 | **Materials** | Chromebooks, H&L accounts, H&L Workbook Ch 11 (pp. 175-178), Canva for Education accounts (optional), colored pencils/markers, projector |
 
@@ -85,7 +85,17 @@ After designing, students do the workbook discussion (Ch 11, p. 178): pair up, t
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Submit your 3 social media posts. Write one sentence: "The stress management technique I'm most likely to actually use is _____ because _____." *(d(2)(A))*
+**EXIT TICKET** (Comparison Matrix):
+
+Pick TWO Human Services careers you explored today (from the cluster tour). Fill in the matrix below using what you read in Hats & Ladders.
+
+| | Career 1: _______________ | Career 2: _______________ |
+|---|---|---|
+| Client-facing or behind the scenes? | | |
+| Creative work or routine work? | | |
+| Training: short (under 1 year) or long (1+ years)? | | |
+
+Bottom line: Which of your two careers fits a student who wants creative, client-facing work with short training? Use one cell from your matrix to explain. *(d(1)(B), d(1)(C))*
 
 ---
 

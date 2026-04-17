@@ -14,11 +14,11 @@ A TEKS can be both Explicit in some weeks and Implicit in others. The tier colum
 
 | TEKS | Description | Tier | Explicit Weeks | Implicit Weeks | Depth Notes |
 |---|---|---|---|---|---|
-| d(1)A | Analyze and discuss assessment results | **E** | Wk0 (1SW), 4SW Wk1 | 3SW Wk1, 5SW Wk1, 6SW Wk6 | Wk0 is the seeding week; 4SW Wk1 is the explicit mid-year reconciliation |
+| d(1)A | Analyze and discuss assessment results | **E** | Wk0 (1SW), 4SW Wk1 | 3SW Wk1, 3SW Wk5 Day 5 (Xello Career Factors), 5SW Wk1, 6SW Wk6 | Wk0 is the seeding week; 4SW Wk1 is the explicit mid-year reconciliation |
 | d(1)B | Explore CTE career clusters | **E** | Every cluster week (~28 weeks) | None | H&L 14 clusters + Irving ISD 6 campuses |
 | d(1)C | Identify career opportunities within clusters | **E** | Nearly every week (~30 weeks) | None | Hat Research template is the primary evidence artifact |
 | d(1)D | Research and evaluate emerging occupations | **E** | 1SW Wk3, 1SW Wk5, 2SW Wk6, 3SW Wk2-3, 4SW Wk4, 5SW Wk2 | None | "Emerging" explicitly in the exit ticket and activity |
-| d(2)A | Research academic/technical/cert requirements | **E** | 1SW Wk1, Wk4; 2SW Wk2-4; 3SW Wk1; 4SW Wk5; 5SW Wk1-4,6; 6SW Wk1 | Every Hat Research week | Hat Research template demands education/cert citations |
+| d(2)A | Research academic/technical/cert requirements | **E** | 1SW Wk1, Wk4; 2SW Wk2-4; 3SW Wk1, 3SW Wk5 Day 3 (TDLR); 4SW Wk5; 5SW Wk1-4,6; 6SW Wk1 | Every Hat Research week | Hat Research template demands education/cert citations |
 | d(2)B | Evaluate educational/training options | **E** | 1SW Wk4; 2SW Wk3; 3SW Wk1; 4SW Wk5; 6SW Wk1 | Weeks comparing apprenticeship vs. college | Typically paired with d(3)G |
 | d(3)A | MS to HS transition requirements | **E** | 1SW Wk5 Day 4 (Glowforge logo); 4SW Wk2 Day 4 | 2SW Wk1 (legal pathway mention) | Explicit artifact: Course Plan |
 | d(3)B | College credit opportunities (AP, dual credit) | **E** | 4SW Wk2 Day 3 | 2SW Wk4 (Medical Billing pathway) | Thin but specific. Consider deepening in 2027 if AP/dual credit landscape shifts |
@@ -42,9 +42,9 @@ A TEKS can be both Explicit in some weeks and Implicit in others. The tier colum
 | d(5)E | Compare salaries of 3+ careers | **E** | 1SW Wk2 Day 3; 2SW Wk3 Day 2; 3SW Wk4 Day 2; 4SW Wk5 Day 3; 5SW Wk1 Day 2, Wk5 Days 3, 5 | None | |
 | d(6)A | Steps of an effective job search | **E** | 6SW Wk1 Day 3 (4-step version), Wk5 Day 1 (7-step version) | 3SW Wk5 Day 2 (mock interview prep) | Two versions in the workbook (4-step and 7-step); both taught |
 | d(6)B | Appropriate appearance for interview | **E** | 6SW Wk4 Day 4, Wk5 Day 3 | None | |
-| d(6)C | Participate in a mock interview | **E** | 6SW Wk5 Day 4 | 3SW Wk5 Day 2 (cosmetology mock interview) | |
+| d(6)C | Participate in a mock interview | **E** | 3SW Wk5 Day 2 (cosmetology mock interview), 6SW Wk5 Day 4 | None | Audited 2026-04-17: promoted 3SW Wk5 Day 2 from Implicit to Explicit after TEKS audit confirmed the mock interview IS the day's primary artifact |
 | d(7)A | Write a resume | **E** | 6SW Wk2 Days 2-3 | None | |
-| d(7)B | Write business correspondence (cover letter, thank you) | **E** | 6SW Wk5 Days 2, 5 | 3SW Wk5 Day 2 (thank-you email) | |
+| d(7)B | Write business correspondence (cover letter, thank you) | **E** | 3SW Wk5 Day 2 (thank-you email), 6SW Wk5 Days 2, 5 | None | Audited 2026-04-17: promoted 3SW Wk5 Day 2 from Implicit to Explicit after TEKS audit confirmed the thank-you email is a produced artifact |
 | d(7)C | Complete sample job applications | **E** | 6SW Wk5 (via CareerOneStop Practice Application) | 1SW Wk3 Day 3 (H&L Future Work Inc.) | |
 | d(7)D | Protocol for selecting/using references | **E** | 6SW Wk5 Day 3, 1SW Wk1 Day 3 | None | |
 | d(8)A | Select a career pathway | **E** | 4SW Wk1 Day 2 (Iceberg + first selection), 6SW Wk6 (final) | None | **Buffer-week risk** per PLANNING §6. Both weeks are buffer-framed. If teacher cuts both buffers, d(8)(A) is uncovered. Mitigation: the Climber Profile pathway selection happens in 4SW Wk1 Day 2 regardless of buffer framing |

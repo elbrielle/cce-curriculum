@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Learn the H&L Job Interview prep checklist (dress, body language, common questions); conduct a mock job interview with a partner using the workbook prompts; draft a thank-you email |
-| **TEKS** | d(3)(G) |
+| **TEKS** | d(6)(C), d(7)(B) |
 | **Deliverable** | Mock interview reflection (3 sentences) + draft thank-you email |
 | **Materials** | H&L Workbook Ch 11 (pp. 179-181), printed mock interview question cards (3 job options), notebook, projector |
 
@@ -119,7 +119,21 @@ The email is 5-7 sentences total. Students draft in their notebook or in a Googl
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Submit your mock interview reflection (3 sentences: what went well, what was hard, one thing you'd do differently) and your draft thank-you email. *(d(3)(G))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: Maya has an interview tomorrow for a Salon Assistant job at Reset Studio in Las Colinas. The interview is on video call. Maya just realized she does not know what to wear, what to say first, or how to follow up after.
+
+1. What should Maya wear, and why? Use one tip from today's "Dress for Success" list. *(d(6)(C))*
+
+   ___________________________________________________________________
+
+2. When the interviewer says "Tell me about yourself," what is the FIRST thing Maya should say? Write the opening sentence Maya should use.
+
+   ___________________________________________________________________
+
+3. Write the first TWO sentences of Maya's thank-you email (greeting by name + thank-you sentence naming one thing from the interview). *(d(7)(B))*
+
+   ___________________________________________________________________
 
 ---
 

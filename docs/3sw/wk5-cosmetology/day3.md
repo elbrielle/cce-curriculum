@@ -77,7 +77,25 @@ In the last 8 minutes, students pair up and trade worksheets. Each partner reads
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Submit your TDLR Licensing Pathway worksheet. List the 3 main steps to become a licensed cosmetologist in Texas in order. *(d(2)(A), d(3)(G))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank these three routes to a Texas cosmetology license from FASTEST to license (1) to SLOWEST (3). Use your TDLR Licensing Pathway worksheet to back up each rank.
+
+- Ratteree HS pathway: rank ____
+- Post-HS Cosmetology school: rank ____
+- Apprenticeship under a licensed cosmetologist: rank ____
+
+For EACH rank, write one sentence using a specific data point from your worksheet (hours, cost, or months).
+
+- Rank 1 (fastest): _______________________________________________________
+
+- Rank 2: _______________________________________________________
+
+- Rank 3 (slowest): _______________________________________________________
+
+Final step: List the 3 main steps required to get the license, in the order they happen. *(d(2)(A), d(3)(G))*
+
+  1. _________________________  2. _________________________  3. _________________________
 
 ---
 

@@ -79,7 +79,28 @@ In the last 3 minutes, ask 2 groups to share their top 2 activity ideas and thei
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Submit your salon concept sketch and the Get Out and Move event plan brainstorm. Write one sentence: "One entrepreneurial opportunity in the beauty industry is _____, and it requires _____ business skills beyond cosmetology skills." *(d(3)(I))*
+**EXIT TICKET** (Decision Tree / Branching Prompt):
+
+My beauty business idea (circle one or add your own): salon / barber shop / nail studio / skincare studio / mobile stylist / other: _________________________
+
+Step 1: What is ONE thing my business will do that NO other shop in the area is doing? (unique selling point)
+
+   ___________________________________________________________________
+
+Step 2: First business problem I have to solve on Day 1 (pick ONE):
+
+- renting a space I can afford
+- buying supplies and equipment
+- getting my first 10 customers
+- hiring staff
+
+I picked: _______________________
+
+Step 3: Which business skill (NOT cosmetology skill) do I need to solve that problem? Pick ONE: accounting / marketing / scheduling / inventory / customer service / other: _________________________
+
+In one sentence, why does THIS skill matter more than the others for my first problem? *(d(3)(I))*
+
+   ___________________________________________________________________
 
 ---
 

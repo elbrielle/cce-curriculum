@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Complete the Xello Exploring Career Factors lesson; make progress on eDynamic Unit 4.2 Part 1; favorite Personal Care careers in H&L; reflect on the Human Services cluster |
-| **TEKS** | d(2)(A), d(3)(G), d(3)(I) |
+| **TEKS** | d(1)(A), d(1)(C) |
 | **Deliverable** | Xello completion screenshot + favorited careers in H&L (screenshot) + 3-sentence cluster reflection |
 | **Materials** | Chromebooks, Xello accounts, eDynamic Learning accounts, H&L accounts, projector |
 
@@ -78,7 +78,31 @@ Then they write a 3-sentence reflection on the Human Services week:
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Submit your screenshots and reflection. Write one sentence: "Next week we move into Business and Entrepreneurship. The cosmetology skill that connects most to entrepreneurship is _____." *(d(2)(A), d(3)(I))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+A Human Services career I favorited in H&L this week: _______________________
+
+Connect this career to THREE things:
+
+**1. Your TOP career factor from today's Xello lesson** (example: creativity, stable pay, flexible hours, helping others)
+
+   My top factor: _______________________. Why does this career match (or not match) my top factor? One sentence:
+
+   ___________________________________________________________________
+
+**2. A CLASSMATE's top factor** (different from yours; trade with a peer in the last minute)
+
+   My classmate's factor: _______________________. Does this career still fit if that factor matters MOST? One sentence why or why not:
+
+   ___________________________________________________________________
+
+**3. One fact from this week** (TDLR hours, salon business skill, a stress toolkit technique)
+
+   My fact: _______________________. Why does this fact matter for someone going into this career? One sentence:
+
+   ___________________________________________________________________
+
+*(d(1)(A), d(1)(C))*
 
 ---
 
