@@ -84,9 +84,27 @@ Students answer: *"What are the risks of commission-based income? What are the r
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** How many homes at $300,000 would you need to sell per year to earn $60,000 in gross commissions at 3%? Show your math. *(d(2)(A))*
+**EXIT TICKET** (Short Constructed Response):
 
-*(Answer: $60,000 ÷ ($300,000 × 0.03) = $60,000 ÷ $9,000 = about 7 homes per year.)*
+1. MATH: How many homes at $300,000 would I need to sell PER YEAR to earn $60,000 in GROSS commissions at 3%? Show my work.
+
+   My calculation: $60,000 ÷ ($300,000 × 0.03) = $60,000 ÷ $_______________________
+
+   Answer: about _______________________ homes per year
+
+2. Name TWO of the 6 TREC Sales Agent course requirements (Principles I & II / Law of Agency / Law of Contracts / Promulgated Contract Forms / Real Estate Finance):
+
+   - Course 1: _______________________
+
+   - Course 2: _______________________
+
+3. MINIMUM AGE to sit for the TREC Sales Agent exam: _______________________
+
+4. Do I prefer COMMISSION or SALARY for MY future income? Why in one sentence? *(d(2)(A))*
+
+   My pick: _______________________
+
+   Why: ____________________________________________________________
 
 ---
 
