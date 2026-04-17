@@ -106,7 +106,25 @@ This demo shows students exactly what they will do tomorrow. It removes the myst
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Write your answer to the question "Tell me about yourself." Keep it under 30 seconds when read aloud. *(d(6)(B), d(6)(C))*
+**EXIT TICKET** (Short Constructed Response):
+
+Write your answer to the question: **"Tell me about yourself."**
+
+Keep it under 30 seconds when read aloud (about 60-80 words). Include: your name, your grade/school, 2-3 relevant skills, and why you want THIS job.
+
+   ___________________________________________________________________
+
+   ___________________________________________________________________
+
+   ___________________________________________________________________
+
+   ___________________________________________________________________
+
+ONE body-language rule I will follow tomorrow during my mock interview (eye contact, posture, handshake, etc.):
+
+   ___________________________________________________________________
+
+*(d(6)(B), d(6)(C))*
 
 ---
 

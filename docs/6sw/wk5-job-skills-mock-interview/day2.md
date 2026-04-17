@@ -103,7 +103,20 @@ By the end of class, every student has a complete cover letter saved in Google D
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Name the 3 paragraphs of a cover letter and what each one accomplishes. *(d(7)(B))*
+**EXIT TICKET** (Comparison Matrix):
+
+Fill each cell using the cover letter you wrote today.
+
+| | Paragraph 1 | Paragraph 2 | Paragraph 3 |
+|---|---|---|---|
+| Purpose (one phrase) | | | |
+| ONE specific line I used from my letter | | | |
+
+Bottom line: What would an EMPLOYER miss if paragraph 2 (qualifications) was skipped? Answer in one sentence.
+
+   ___________________________________________________________________
+
+*(d(7)(B))*
 
 ---
 

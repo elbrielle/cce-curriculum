@@ -133,7 +133,40 @@ Sample permission email format (display on projector):
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name two people you could list as references and explain in one sentence why each would speak positively about you. Then explain why you should never list someone as a reference without asking. *(d(7)(C), d(7)(D))*
+**EXIT TICKET** (Decision Tree):
+
+Follow the tree for each person. Would they be a GOOD reference for your first real job?
+
+**Step 1:** Is the person a family member (parent, sibling, cousin, aunt/uncle)?
+
+- **YES** → NOT a good reference. Go to Step 2 with a different person.
+- **NO** → Go to Step 2.
+
+**Step 2:** Can they speak to your work, school, or volunteer skills from FIRST-HAND experience?
+
+- **YES** → Likely a GOOD reference. Go to Step 3.
+- **NO** → NOT a good reference. Pick someone else.
+
+**Step 3:** Have you asked their PERMISSION to list them?
+
+- **YES** → List them.
+- **NO** → Ask first. Never list without permission.
+
+Apply the tree:
+
+1. Reference 1 name + how they know me: _______________________
+
+   Why they would speak positively (one sentence): _______________________
+
+2. Reference 2 name + how they know me: _______________________
+
+   Why they would speak positively (one sentence): _______________________
+
+Bottom line: ONE reason you should NEVER list someone without asking first (think from the reference's point of view):
+
+   ___________________________________________________________________
+
+*(d(7)(C), d(7)(D))*
 
 ---
 

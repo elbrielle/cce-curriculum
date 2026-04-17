@@ -93,7 +93,31 @@ Students fill in JUST the outline today, bullet points for each section. They wi
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** List the 7 steps of an effective job search in order. For ONE step of your choice, write a specific concrete action you would take next week (e.g., Step 4 = "Update my resume with my bilingual Spanish skill" or Step 5 = "Apply on Indeed AND ask my neighbor who works at Frito-Lay"). *(d(6)(A))*
+**EXIT TICKET** (Concept Map):
+
+Draw a quick concept map. Place **JOB SEARCH** in the center. Draw 7 bubbles (one per step) around it and label each in ORDER.
+
+1. Step 1 label: _______________________
+
+2. Step 2 label: _______________________
+
+3. Step 3 label: _______________________
+
+4. Step 4 label: _______________________
+
+5. Step 5 label: _______________________
+
+6. Step 6 label: _______________________
+
+7. Step 7 label: _______________________
+
+Pick ONE step. Write a SPECIFIC concrete action you would take next week for that step (e.g., Step 4 = "Update my resume with my bilingual Spanish skill"):
+
+   Step #: _____
+
+   My action: _______________________________________________________
+
+*(d(6)(A))*
 
 ---
 

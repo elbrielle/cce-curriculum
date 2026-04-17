@@ -105,7 +105,27 @@ Sample format:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** What are you most proud of from your mock interview today? What would you improve next time? Then name one thing your thank-you letter included that the workbook required. *(d(6)(C), d(7)(B))*
+**EXIT TICKET** (3-2-1 Reflective):
+
+**3** specific things I did well in my mock interview today (content or delivery):
+
+   1. _______________________________________________________________
+
+   2. _______________________________________________________________
+
+   3. _______________________________________________________________
+
+**2** things I would improve if I could interview again:
+
+   1. _______________________________________________________________
+
+   2. _______________________________________________________________
+
+**1** thing my thank-you letter included that the workbook required (from the 6 rules):
+
+   ___________________________________________________________________
+
+*(d(6)(C), d(7)(B))*
 
 ---
 
