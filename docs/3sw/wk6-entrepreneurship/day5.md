@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Complete the H&L "Lifestyle Snapshot" personal budget activity (Ch 16, p. 269); use Xello to save favorite careers from this six weeks; reflect on the entire 3rd Six Weeks |
-| **TEKS** | d(5)(D), d(3)(I), d(4)(F) |
+| **TEKS** | d(3)(I), d(5)(D) |
 | **Deliverable** | Completed personal budget worksheet + Xello Save Careers entries + 3SW capstone reflection paragraph |
 | **Materials** | Chromebooks, Xello accounts, H&L Workbook Ch 16 (p. 269), printed Personal Budget worksheet with DFW cost-of-living data, projector |
 
@@ -99,7 +99,31 @@ Sentence stems available for students who need them:
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Submit your personal budget + 3SW reflection paragraph. Write one final sentence: "The most important thing I learned this six weeks is _____, and the cluster I am most drawn to is _____." *(d(5)(D), d(3)(I))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+My favorited career from this 3SW + the salary I used in today's budget: _______________________ ($_______________________/month take-home)
+
+Connect this career to THREE things:
+
+**1. The biggest line item in my budget today** (usually rent, transportation, or food)
+
+   Line item: _______________________ = $_______________________ (_____% of my monthly income). In one sentence, does this career's salary comfortably cover this line item?
+
+   ___________________________________________________________________
+
+**2. Whether this career has an ENTREPRENEURIAL version** (small business, solo practice, freelance, food truck, salon ownership, etc.)
+
+   The entrepreneurial version: _______________________. In one sentence, would starting my own version of this work CHANGE my monthly budget?
+
+   ___________________________________________________________________
+
+**3. ME as an entrepreneur (or not)**
+
+   "I DO / DO NOT see myself as an entrepreneur because _______________________________________________________."
+
+*(d(3)(I), d(5)(D))*
+
+Submit your personal budget + 3SW capstone reflection paragraph with this ticket.
 
 ---
 

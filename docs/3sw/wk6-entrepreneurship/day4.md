@@ -77,7 +77,28 @@ Then each student writes one sentence in their notebook:
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Submit your team's final pitch slides and at least 2 peer feedback forms. Write one sentence: "The work ethic quality I most need to grow as an entrepreneur is _____." *(d(3)(I), d(4)(F))*
+**EXIT TICKET** (Trade-off / Dilemma Analysis):
+
+Your team has 12 minutes before pitching. You see TWO problems in your slide deck:
+
+- **(A) Slides look plain** (no colors, no logo, no images). Could polish for 8 minutes.
+- **(B) One team member has not practiced their section out loud.** Could rehearse them for 8 minutes.
+
+Pros of picking A (polish slides): _______________________________________________________
+
+Pros of picking B (practice the teammate): _______________________________________________________
+
+My team's choice (A or B): ________
+
+Quality list: preparation / dedication / teamwork / perseverance / responsibility / reliability.
+
+Which work-ethic quality matters MOST in this decision, and why is it the right one over the others? *(d(3)(I), d(4)(F))*
+
+   My quality: _______________________
+
+   Why: ____________________________________________________________
+
+Submit your team's final pitch slides + at least 2 peer feedback forms with this ticket.
 
 ---
 

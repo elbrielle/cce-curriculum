@@ -100,7 +100,29 @@ Example list:
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Submit your cross-cluster list. Write your 1-sentence definition of entrepreneurship at the top: "Entrepreneurship is _____." *(d(3)(I))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: My older cousin has $3,000 saved up and wants to start a small business in one of the clusters we've explored (Manufacturing, IT, Law, Health Science, Agriculture, Hospitality, Human Services, or Business).
+
+1. Which cluster would I recommend for a low-budget ($3,000) startup, and why?
+
+   My pick: _______________________
+
+   Why: ____________________________________________________________
+
+2. What is ONE specific entrepreneurial business my cousin could start in that cluster?
+
+   Business idea: _______________________
+
+3. What is ONE business skill (NOT technical skill) my cousin needs to succeed?
+
+   Business skill: _______________________
+
+My 1-sentence definition of entrepreneurship: "Entrepreneurship is _______________________________________________________."
+
+*(d(3)(I))*
+
+Submit your cross-cluster list with this ticket.
 
 ---
 

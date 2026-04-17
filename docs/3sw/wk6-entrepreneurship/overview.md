@@ -73,11 +73,11 @@ The week also pulls from **Lifestyle Snapshot** (Ch 16, p. 269) for the personal
 
 ## Formative Assessment
 
-- Cross-cluster entrepreneurship list (Day 1): d(3)(I)
-- MVP design template (Day 2): d(3)(I)
-- Business plan outline + pitch slide draft (Day 3): d(3)(I)
-- Investor pitch delivery + peer feedback (Day 4): d(3)(I), d(4)(F)
-- Personal budget worksheet (Day 5): d(5)(D)
+- Cross-cluster entrepreneurship list + Mini-Case exit ticket (cousin with $3,000 picks a cluster + business + skill). *Day 1, d(3)(I)*
+- MVP design + SCR exit ticket (box name + customer + minimum version + feedback question + hardest part). *Day 2, d(3)(I)*
+- Business plan + pitch slides + Comparison Matrix exit ticket (our plan sections vs. investor wants). *Day 3, d(3)(I)*
+- Pitch delivery + peer feedback + Trade-off Dilemma exit ticket (polish-slides vs. practice-teammate; work-ethic quality pick). *Day 4, d(3)(I), d(4)(F)*
+- Lifestyle Snapshot budget + Xello Save + Concept Map exit ticket (career + biggest budget line item + entrepreneurial version + self-as-entrepreneur). *Day 5, d(3)(I), d(5)(D)*
 
 ## Summative Assessment
 

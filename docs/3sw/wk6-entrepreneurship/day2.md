@@ -84,7 +84,29 @@ After writing the questions, do a quick partner share (3 min): pair up, trade te
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Submit your MVP design template and customer feedback questions. Write one sentence: "The hardest part of designing my MVP was _____." *(d(3)(I))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. My subscription box name: _______________________
+
+2. Who is my target customer (be specific: age + interest)?
+
+   ___________________________________________________________________
+
+3. What is the SIMPLEST version of my box that still works? (The M in MVP means MINIMUM.)
+
+   ___________________________________________________________________
+
+4. ONE feedback question I would ASK 100 test customers to improve my product, AND what their answer could tell me:
+
+   Question: _______________________________________________________
+
+   What the answer tells me: _______________________________________
+
+5. The HARDEST part of designing my MVP was _______________________________________________________.
+
+*(d(3)(I))*
+
+Submit your MVP design template and customer feedback questions with this ticket.
 
 ---
 

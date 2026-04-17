@@ -81,7 +81,22 @@ Teams draft each section on chart paper (one slide per section) or in a Google S
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Submit your team's business plan outline. Write one sentence: "Our pitch will convince [investor name] to fund us because _____." *(d(3)(I))*
+**EXIT TICKET** (Comparison Matrix):
+
+Fill in the matrix for your team's business plan and match it to what your chosen investor wants.
+
+| Business Plan Section | What OUR plan says (one phrase) | What the INVESTOR wants to see (from their profile card) |
+|---|---|---|
+| Value Proposition | | |
+| Target Market | | |
+| Revenue Model | | |
+| Budget Ask | | |
+
+Bottom line: Which ROW of our plan is the STRONGEST match to what our investor wants, and why will THIS row convince them to fund us? *(d(3)(I))*
+
+   ___________________________________________________________________
+
+Submit your team's business plan outline with this ticket.
 
 ---
 
