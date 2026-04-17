@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Complete the Xello Work Experiences lesson; research the Nimitz HS Plant Science pathway and Texas Certified Landscape Associate credential; favorite plant science careers in H&L |
-| **TEKS** | d(1)(C), d(1)(D), d(2)(B) |
+| **TEKS** | d(1)(A), d(1)(C), d(2)(B) |
 | **Deliverable** | Logged Xello Work Experiences entry + Nimitz Plant Science pathway notes + screenshot of H&L Climber Profile |
 | **Materials** | Chromebooks, Xello accounts, H&L accounts, Nimitz Plant Science pathway info sheet, projector |
 
@@ -88,7 +88,33 @@ Students take a screenshot of their Climber Profile favorites screen and save it
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Submit your screenshot. Write one sentence: "If I were enrolled in the Nimitz Plant Science pathway, my biggest goal would be _____." *(d(1)(C), d(2)(B))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+A Plant Science or Environmental career I favorited this week: _______________________
+
+Connect this career to THREE things:
+
+**1. A Xello Work Experience I logged today** (babysitting, pet sitting, family business help, school event work, etc.)
+
+   My experience: _______________________. In one sentence, what skill from this experience prepares me for the favorited career?
+
+   ___________________________________________________________________
+
+**2. The Nimitz HS Plant Science pathway** (leads to Texas Certified Landscape Associate credential)
+
+   Does the Nimitz pathway lead DIRECTLY to my favorited career, or is it a STEPPING STONE through more school? Circle: DIRECT / STEPPING STONE. One sentence why:
+
+   ___________________________________________________________________
+
+**3. My 3SW pattern so far (Wk 1 Animal Systems + Wk 2 Plant Science)**
+
+   Am I drawn to INDOOR or OUTDOOR work, and why? One sentence using a specific career from either week:
+
+   ___________________________________________________________________
+
+*(d(1)(A), d(1)(C), d(2)(B))*
+
+Submit your H&L Climber Profile screenshot with this ticket.
 
 ---
 

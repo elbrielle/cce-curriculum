@@ -80,7 +80,24 @@ This gives every student exposure to a second emerging ag career without doing d
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Submit your research template. Write one sentence: "The emerging ag career I researched is _____ and it is growing because _____." *(d(1)(D))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank the four emerging ag careers from today by WHICH YOU WOULD PURSUE FIRST (1) to LAST (4), based on what I learned today.
+
+- Agricultural Drone Operator: rank ____
+- Precision Agriculture Technician: rank ____
+- Vertical Farming Manager: rank ____
+- Hydroponic Specialist: rank ____
+
+For EACH rank, write ONE reason (technology, salary, daily task, growth) from today's research.
+
+- Rank 1 (most likely for me): _______________________________________________________
+
+- Rank 4 (least likely for me): _______________________________________________________
+
+Bottom line: The emerging ag career I researched is _______________________ and it is growing because _______________________________________________________. *(d(1)(D))*
+
+Submit the research template with this ticket.
 
 ---
 

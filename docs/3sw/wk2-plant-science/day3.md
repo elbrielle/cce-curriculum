@@ -74,7 +74,35 @@ In the last 3 minutes, ask 2-3 volunteers to display their infographic on the pr
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Submit your PNG to Google Classroom. Write one sentence: "The most important visual in my infographic is _____ because it helps customers understand _____." *(d(1)(C))*
+**EXIT TICKET** (Venn Diagram Comparison):
+
+My Farm to Table infographic is designed for **adult grocery shoppers**. A classmate's infographic is designed for the **same crop**. Trade infographics in the last 3 minutes of class with a peer who picked the SAME crop you did.
+
+My crop: _______________________
+
+**Unique to MY infographic** (2 design choices that are different from my classmate's):
+
+  1. ________________________________________________________________
+
+  2. ________________________________________________________________
+
+**Unique to CLASSMATE's infographic** (2 design choices my classmate made that I did NOT):
+
+  1. ________________________________________________________________
+
+  2. ________________________________________________________________
+
+**SHARED by both** (2 things we BOTH did, like a similar step or fun fact):
+
+  1. ________________________________________________________________
+
+  2. ________________________________________________________________
+
+Bottom line: Which infographic is more effective for ADULT SHOPPERS, mine or my classmate's? Use ONE specific design choice to back the pick. *(d(1)(C))*
+
+   ___________________________________________________________________
+
+Submit your PNG to Google Classroom with this ticket.
 
 ---
 

@@ -74,7 +74,27 @@ The sketch can be done in pencil or marker. It's a planning document, not a fina
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Submit your brainstorm sheet and paper sketch. Write one sentence at the bottom of your sketch: "My infographic is about _____ and the most interesting fact in it is _____." *(d(1)(C))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: A new client calls Sunny Fields Farm: a DFW elementary school wants an infographic to show KINDERGARTENERS (age 5-6) where their lunch food comes from.
+
+1. Which crop from the workbook list (strawberries, grapes, bell peppers, cucumbers) fits kindergarteners BEST, and why?
+
+   My pick: _______________________
+
+   Why: ____________________________________________________________
+
+2. What is ONE design choice you would CHANGE from YOUR Day 2 sketch to make it kindergarten-friendly? (Shorter text? Bigger pictures? Fewer steps?)
+
+   ___________________________________________________________________
+
+3. What is the MOST interesting fact about your crop that a 5-year-old would remember?
+
+   ___________________________________________________________________
+
+*(d(1)(C))*
+
+Submit your brainstorm sheet and paper sketch with this ticket.
 
 ---
 

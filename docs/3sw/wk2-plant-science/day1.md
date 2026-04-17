@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Explore the Plant Science and Environmental & Natural Resources pathways in H&L; identify at least 4 plant/environmental careers; take notes on 2 careers using the Hat Finder |
-| **TEKS** | d(1)(C) |
+| **TEKS** | d(1)(B), d(1)(C) |
 | **Deliverable** | Hat notes for 2 plant science or environmental careers (career name, education, salary, daily task) |
 | **Materials** | Chromebooks, H&L accounts, H&L Workbook Ch 2, projector |
 
@@ -73,7 +73,19 @@ After collecting the data, students compare their two careers in a 2-sentence wr
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name the two plant science or environmental careers you researched today and one career fact that surprised you. *(d(1)(C))*
+**EXIT TICKET** (Comparison Matrix):
+
+Use your Hat Notes to fill in the matrix.
+
+| | Career 1: _______________ | Career 2: _______________ |
+|---|---|---|
+| Pathway (Plant Science OR Environmental & Natural Resources) | | |
+| Training time (rough years) | | |
+| One daily task | | |
+
+Bottom line: Which pathway does EACH career belong to, and which career would be a better fit for someone who wants to work OUTDOORS most days? Use one cell from the matrix to back your pick. *(d(1)(B), d(1)(C))*
+
+   ___________________________________________________________________
 
 ---
 

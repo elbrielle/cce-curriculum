@@ -12,8 +12,11 @@ Students continue exploring the Agriculture, Food & Natural Resources cluster wi
 
 ## TEKS Alignment
 
-- **d(1)(C):** Identify various career opportunities within the Ag, Food & Natural Resources cluster.
-- **d(1)(D):** Research and evaluate emerging occupations related to career interest areas.
+- **d(1)(A):** Analyze and discuss assessment results (Day 5 Xello Work Experiences).
+- **d(1)(B):** Explore and describe the CTE career clusters (Day 1 Plant Science + Environmental pathway tour).
+- **d(1)(C):** Identify various career opportunities within the Ag, Food & Natural Resources cluster (Days 1-5).
+- **d(1)(D):** Research and evaluate emerging occupations related to career interest areas (Day 4 Emerging Ag Career research).
+- **d(2)(B):** Use available resources to research and evaluate educational and training options (Day 5 Nimitz Plant Science pathway).
 
 ## Materials Needed
 
@@ -65,10 +68,11 @@ The H&L workbook (Ch 2) covers the full Ag cluster. Week 2 anchors on **Farm to 
 
 ## Formative Assessment
 
-- Hat notes for 2 plant science careers (Day 1): d(1)(C)
-- Farm to Table brainstorm + sketch (Day 2): d(1)(C)
-- Canva infographic quality and accuracy (Day 3): d(1)(C)
-- Emerging Career Research template (Day 4): d(1)(D)
+- Hat notes + Comparison Matrix exit ticket (2 careers x pathway/training/task + outdoor-work pick). *Day 1, d(1)(B), d(1)(C)*
+- Farm to Table brainstorm + sketch + Mini-Case exit ticket (elementary-school kindergarten audience; crop + design change + memorable fact). *Day 2, d(1)(C)*
+- Canva infographic + Venn Diagram exit ticket (my infographic vs. classmate's same-crop design). *Day 3, d(1)(C)*
+- Emerging Ag Career research + Ranked Justification exit ticket (4 emerging careers ranked by likelihood to pursue). *Day 4, d(1)(D)*
+- Xello Work Experiences + Nimitz pathway notes + Concept Map exit ticket (favorited career + Work Experience skill + Nimitz pathway fit + 3SW indoor/outdoor pattern). *Day 5, d(1)(A), d(1)(C), d(2)(B)*
 
 ## Summative Assessment
 
