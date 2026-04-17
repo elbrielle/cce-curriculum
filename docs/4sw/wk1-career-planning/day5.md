@@ -84,7 +84,29 @@ After the walk, the class returns to seats. Show the dot distribution: which clu
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Complete this sentence in writing: *"At the beginning of the year, I was interested in _____. Now I am most interested in _____ because _____."* Submit this with your Week 0 + Mid-Year reflection. *(d(1)(A), d(8)(A))*
+**EXIT TICKET** (3-2-1 Reflective):
+
+**3 things I understand about myself as a career thinker NOW that I did NOT understand at Week 0:**
+
+  1. ________________________________________________________________
+
+  2. ________________________________________________________________
+
+  3. ________________________________________________________________
+
+**2 questions I STILL have** about picking a career pathway:
+
+  1. ________________________________________________________________
+
+  2. ________________________________________________________________
+
+**1 specific Irving ISD pathway + campus** I want to aim for in high school:
+
+  ___________________________________________________________________
+
+*(d(1)(A), d(8)(A))*
+
+Submit your Week 0 + Mid-Year reflection stapled together with this ticket.
 
 ---
 

@@ -88,7 +88,21 @@ After 4 minutes of partner talk, collect 3 volunteer responses from across the r
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name your RIASEC type from Week 0 and the cluster where you have the most favorites today. In one sentence, explain whether your interests have stayed the same or shifted, and what caused the shift if any. *(d(1)(A))*
+**EXIT TICKET** (Comparison Matrix):
+
+Use your Day 1 worksheet to fill in the matrix.
+
+| | Week 0 (start of year) | Mid-Year (today) |
+|---|---|---|
+| My RIASEC type | | |
+| My top cluster by favorites | (N/A — no favorites yet in Wk 0) | |
+| # of favorited careers | 0 | |
+
+Bottom line: Does my Week 0 RIASEC type MATCH my current top cluster? Circle: YES / NO / SORT OF.
+
+In one sentence, if my interests shifted, what CAUSED the shift? (Example activity, teacher, classmate, surprise career fact.) *(d(1)(A))*
+
+   ___________________________________________________________________
 
 ---
 

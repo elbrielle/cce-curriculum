@@ -88,7 +88,31 @@ If H&L recommends something not offered locally (e.g., Marine Biology), students
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name one item from underneath your Iceberg that you had not thought about before today, and identify the Irving ISD pathway you are most interested in based on your H&L Career Plan. *(d(1)(A), d(8)(A))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+My career goal from today's Iceberg: _______________________
+
+Connect this career to THREE things:
+
+**1. One item from UNDERNEATH my iceberg I had NOT thought about before today**
+
+   My hidden item: _______________________. In one sentence, why is this item the thing I had not seen before?
+
+   ___________________________________________________________________
+
+**2. An H&L recommended pathway from my Career Plan tool**
+
+   H&L recommendation: _______________________. Does it match my Iceberg career? Circle: YES / NO. One sentence why:
+
+   ___________________________________________________________________
+
+**3. An Irving ISD pathway + campus** (Singley / MacArthur / Irving High / Nimitz / Cardwell / Ratteree)
+
+   My pathway: _______________________ at _______________________. In one sentence, why is this the closest local match for my career goal?
+
+   ___________________________________________________________________
+
+*(d(1)(A), d(8)(A))*
 
 ---
 

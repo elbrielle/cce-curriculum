@@ -64,7 +64,27 @@ Students cross-reference their H&L Career Plan recommendations from Day 2 and th
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name your #1 Irving ISD pathway, the campus where it is offered, and one professional organization (SkillsUSA, HOSA, FBLA, TSA, FCCLA, FFA, or another) that connects to that pathway. *(d(8)(A), d(8)(B))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank my top 3 Irving ISD pathways from MOST INTERESTED (1) to LEAST (3) using my Day 4 Pathway Ranking Sheet.
+
+- Rank 1 (#1 pick): _______________________. Campus: _______________________
+
+- Rank 2 (backup): _______________________. Campus: _______________________
+
+- Rank 3 (interesting but not first): _______________________. Campus: _______________________
+
+For EACH rank, write ONE professional organization (SkillsUSA, HOSA, FBLA, TSA, FCCLA, FFA, or another) that connects to it:
+
+- Rank 1 org: _______________________
+
+- Rank 2 org: _______________________
+
+- Rank 3 org: _______________________
+
+Bottom line: Does my Rank 1 match my H&L Career Plan recommendation from Day 2? Circle: YES / NO. One sentence why or why not: *(d(8)(A), d(8)(B))*
+
+   ___________________________________________________________________
 
 ---
 

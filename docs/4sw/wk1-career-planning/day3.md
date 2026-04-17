@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Complete the Xello "Quick Sims: The Real Game" simulation; track financial decisions made during the simulation; compare lifestyle desires to career salary realities |
-| **TEKS** | d(1)(A), d(8)(A) |
+| **TEKS** | d(5)(D), d(8)(A) |
 | **Deliverable** | Completed Real Game decision log showing all major lifestyle choices and the running budget impact |
 | **Materials** | Chromebooks, Xello student accounts, printed Real Game decision log (1 per student), projector |
 
@@ -68,7 +68,28 @@ The pattern that almost always emerges: students who picked a high-paying career
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Describe one financial decision you made in the Real Game that surprised you (good or bad surprise). Then explain in one sentence how this connects to the Iceberg Cartoon you built yesterday, what is now "underwater" for you that you had not seen before? *(d(1)(A))*
+**EXIT TICKET** (Trade-off / Dilemma Analysis):
+
+You finished The Real Game. You got ONE career and ONE monthly budget. Now imagine your SAME career, but you have to pick between two lifestyles:
+
+- **(A) Cheaper lifestyle** (smaller apartment, used car, eat-at-home): you save $400/month extra.
+- **(B) More-expensive lifestyle** (nicer apartment, newer car, eat out weekly): you save nothing extra but enjoy more now.
+
+Pros of picking A: _______________________________________________________
+
+Pros of picking B: _______________________________________________________
+
+My choice (A or B): ________
+
+Quality list: patience / discipline / flexibility / dedication / self-awareness / confidence.
+
+Which QUALITY does my choice require MOST, and why is it the right quality for this specific tradeoff? *(d(5)(D), d(8)(A))*
+
+   My quality: _______________________
+
+   Why: ____________________________________________________________
+
+Submit your Real Game decision log with this ticket.
 
 ---
 

@@ -74,12 +74,11 @@ The H&L app's **Career Plan** tool reads from the student's Climber Profile (RIA
 
 ## Formative Assessment
 
-- "Thinking About My Career Journey" self-check completion (Day 1): d(1)(A)
-- RIASEC vs. Favorites worksheet accuracy (Day 1): d(1)(A)
-- Iceberg Cartoon depth: does the underwater section have ≥10 items? (Day 2): d(1)(A)
-- Career Plan navigation checkpoint (Day 2): d(8)(A)
-- Real Game decision log (Day 3): d(8)(A)
-- Pathway ranking sheet (Day 4): d(8)(A), d(8)(B)
+- "Thinking About My Career Journey" self-check + RIASEC vs. Favorites worksheet + Comparison Matrix exit ticket (Wk 0 vs. mid-year). *Day 1, d(1)(A)*
+- Iceberg Cartoon + Career Plan screenshot + Concept Map exit ticket (Iceberg hidden item + H&L recommendation + Irving ISD pathway). *Day 2, d(1)(A), d(8)(A)*
+- Real Game decision log + Trade-off Dilemma exit ticket (cheap vs. expensive lifestyle given same salary; quality pick). *Day 3, d(5)(D), d(8)(A)*
+- eDynamic 8.1 + Pathway Ranking Sheet + Ranked Justification exit ticket (top 3 pathways + campuses + orgs + Day 2 H&L match). *Day 4, d(8)(A), d(8)(B)*
+- Mid-Year Update reflection + Gallery Walk + 3-2-1 Reflective exit ticket (3 understandings + 2 questions + 1 pathway). *Day 5, d(1)(A), d(8)(A), d(8)(B)*
 
 ## Summative Assessment
 
