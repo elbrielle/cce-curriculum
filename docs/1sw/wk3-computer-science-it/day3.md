@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Wireframe 3 pages of the website plan from Day 2; describe website functionality; complete the H&L "Job Applications" practice form |
-| **TEKS** | d(1)(C), d(2)(A) |
+| **TEKS** | d(1)(C), d(7)(C) |
 | **Deliverable** | 3 completed wireframes (Ch 12, p. 204) + functionality description (Ch 12, p. 205) + completed Job Application (Ch 12, pp. 196-198) |
 | **Materials** | H&L Workbook Ch 12 (pp. 196-198, 200, 204-205), plain paper or pre-printed wireframe templates, pencils, projector |
 
@@ -101,9 +101,13 @@ After students finish, lead a brief discussion using the workbook prompts (Ch 12
 
 ---
 
-## Exit Ticket (No formal exit ticket — students turn in completed wireframes as the daily deliverable)
+## Exit Ticket (Deliverable-only day, no formal ticket)
 
-**Submission:** Students submit (1) their 3 wireframe pages and (2) their functionality description as a packet at the end of class. The completed Job Application is verified in-class by the teacher and shredded at end of class per the privacy note above; it is not included in the grading packet. *(d(1)(C), d(2)(A))*
+Day 3 is a rich-submission day: a wireframe packet + Job Application form already function as the mastery evidence. No additional 3-min exit ticket.
+
+**Submission:** Students submit (1) their 3 wireframe pages and (2) their functionality description as a packet at the end of class. The completed Job Application is verified in-class by the teacher and shredded at end of class per the privacy note above; it is not included in the grading packet.
+
+**Mastery evidence:** wireframes demonstrate d(1)(C) Web Developer role work; the Job Application form completion demonstrates d(7)(C) sample-job-application skill. Tie the Job Application verification to the H&L rubric fields (accurate, legible, professional) rather than content correctness. *(d(1)(C), d(7)(C))*
 
 ---
 

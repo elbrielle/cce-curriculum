@@ -74,7 +74,29 @@ This is data for the Wk0 → 6SW Final Career Plan growth check.
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Complete this sentence: "The IT career I am most interested in is _____ because _____, and the Irving ISD pathway that connects to it is _____ at _____ High School." *(d(1)(C), d(1)(D))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+The IT career I am most interested in after this week: _______________________
+
+Connect this career to THREE things:
+
+**1. An Irving ISD pathway** (Computer Science at Irving High / MacArthur / Nimitz, Programming & Digital Tech at Singley, or Cybersecurity at Singley)
+
+   My pathway: _______________________ at _______________________ High School. Why does this pathway connect to my career choice? One sentence:
+
+   ___________________________________________________________________
+
+**2. One transferable skill from my Xello Add Skills today**
+
+   My transferable skill: _______________________. Where do I already USE this skill in my life (school, sports, hobbies, family)? One sentence:
+
+   ___________________________________________________________________
+
+**3. An emerging IT career from a CLASSMATE's Day 5 pitch** (not your own)
+
+   Classmate's emerging career: _______________________. Does my chosen career OR the classmate's emerging career have a faster path in Irving ISD? Circle: MINE / CLASSMATE'S. One sentence why: ___________________________________________________________________
+
+*(d(1)(C), d(1)(D), d(4)(B))*
 
 ---
 

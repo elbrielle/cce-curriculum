@@ -67,7 +67,20 @@ Walk the room and check that students are using all 3 sources, not just Google. 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name the emerging IT career you researched. In ONE sentence, explain why it is considered "emerging." *(d(1)(D))*
+**EXIT TICKET** (Comparison Matrix):
+
+Compare YOUR emerging IT career (from today) to a traditional IT career (pick ONE from Wks 1-3: Software Developer, Web Developer, Network Administrator, or Database Administrator).
+
+| | My emerging career: ____________________ | Traditional career: ____________________ |
+|---|---|---|
+| What does this person DO? (one phrase) | | |
+| Median salary (BLS) | | |
+| Job growth rate (BLS) | | |
+| Why did this career exist 20 years ago? | Yes / No | Yes / No |
+
+Bottom line: Which of the two careers is growing FASTER right now? Use the growth rates from your matrix to back up your answer in one sentence. *(d(1)(C), d(1)(D))*
+
+   ___________________________________________________________________
 
 ---
 

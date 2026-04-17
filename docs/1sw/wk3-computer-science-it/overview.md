@@ -12,9 +12,10 @@ Students continue exploring the IT cluster with a focus on the Networking System
 
 ## TEKS Alignment
 
-- **d(1)(C):** Identify various career opportunities within one or more career clusters.
-- **d(1)(D):** Research and evaluate emerging occupations related to career interest areas.
-- **d(4)(B):** Identify skills that can be transferable among a variety of careers.
+- **d(1)(C):** Identify various career opportunities within one or more career clusters (Days 1-5).
+- **d(1)(D):** Research and evaluate emerging occupations related to career interest areas (Days 4-5).
+- **d(4)(B):** Identify skills that can be transferable among a variety of careers (Day 1 Transferable Skills discussion, Day 5 Xello Add Skills).
+- **d(7)(C):** Complete sample job applications (Day 3 H&L Future Work, Inc. form).
 
 ## Materials Needed
 
@@ -71,11 +72,11 @@ The H&L workbook (Ch 12) covers two key activities used this week:
 
 ## Formative Assessment
 
-- **Day 1:** Networking exploration + identification of 1 transferable skill, d(4)(B)
-- **Day 2:** Website concept + page selection (check before students start wireframing), d(1)(C)
-- **Day 3:** Wireframe completion + Job Application accuracy, d(1)(C)
-- **Day 4:** Emerging Tech Research Template completion, d(1)(D)
-- **Day 5:** Mini-presentation engagement and quality, d(1)(D), d(4)(B)
+- **Day 1:** Networking Hat notes + Venn Diagram exit ticket (Programming vs. Networking skill overlap). *d(1)(C), d(4)(B)*
+- **Day 2:** Website concept + 3 pages + Mini-Case exit ticket (Rosa tutoring business site pick). *d(1)(C)*
+- **Day 3:** Wireframe packet + functionality description + Job Application form (deliverable-only day, no formal exit ticket). *d(1)(C), d(7)(C)*
+- **Day 4:** Emerging Tech Research Template + Comparison Matrix exit ticket (emerging vs. traditional IT career). *d(1)(C), d(1)(D)*
+- **Day 5:** Mini-presentation + Xello Skills + Concept Map exit ticket (career + Irving ISD pathway + transferable skill + classmate's emerging career). *d(1)(C), d(1)(D), d(4)(B)*
 
 ## Summative Assessment
 

@@ -73,7 +73,35 @@ Have students write in their workbook margin: "One transferable skill I have is 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name one transferable skill that applies to BOTH Programming and Networking careers. Then name one programming career and one networking career where this skill matters. *(d(4)(B))*
+**EXIT TICKET** (Venn Diagram Comparison):
+
+Compare a **Programming career** (pick Software Dev, Web Dev, App Dev, or Game Dev from Wk2) to a **Networking career** (pick Network Administrator, Network Architect, Database Administrator, or Systems Analyst from today).
+
+- My Programming career: _______________________
+
+- My Networking career: _______________________
+
+Unique SKILLS used by the Programming career (2 things):
+
+  1. ________________________________________________________________
+
+  2. ________________________________________________________________
+
+Unique SKILLS used by the Networking career (2 things):
+
+  1. ________________________________________________________________
+
+  2. ________________________________________________________________
+
+TRANSFERABLE skills shared by BOTH (2 things — soft skills, not technical):
+
+  1. ________________________________________________________________
+
+  2. ________________________________________________________________
+
+Bottom line: Why do employers care about the SHARED skills (middle overlap) as much as the technical ones? One sentence. *(d(1)(C), d(4)(B))*
+
+   ___________________________________________________________________
 
 ---
 

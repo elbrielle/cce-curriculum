@@ -71,7 +71,25 @@ Walk the room. Confirm every student has answered all 4 prompts in writing befor
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Write your one-sentence website description and name your 3 pages. Then explain in one sentence which page is most important to your target audience and why the other pages support it. *(d(1)(C))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: Rosa is a 16-year-old who just opened a small tutoring business. Rosa wants a simple website that will help her sign up new students from her neighborhood. Rosa does NOT need to sell products online.
+
+1. Which website type from today (Online Store, Blog, Community News Site, Business Site, or Entrepreneur) would you recommend for Rosa?
+
+   My pick: _______________________
+
+2. What 3 pages should Rosa's website have to sign up new students? (Use today's content.)
+
+   Page 1: _______________________
+
+   Page 2: _______________________
+
+   Page 3: _______________________
+
+3. Which page is the MOST important for getting new students to sign up, and why? One sentence. *(d(1)(C))*
+
+   ___________________________________________________________________
 
 ---
 
