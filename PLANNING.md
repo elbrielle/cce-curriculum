@@ -44,11 +44,67 @@ Two Tier-1 week audits + 2SW Wk2 instinct-review follow-ups. PDFs deferred per t
 
 ### Recommended next tasks
 
-1. **Audit the remaining Tier 1 weeks** using the established pattern: 5SW Wk4 HVAC (no-Irving-ISD-pathway variant; closest parallel to "career exploration only" weeks) and 3SW Wk6 Entrepreneurship (multi-campus MacArthur + Cardwell). 2SW Wk2, 3SW Wk5, and 4SW Wk5 are now done.
-2. **Round-2 TEKS deepening** — three Implicit codes (d(3)D impact of planning, d(3)F co-curricular, d(4)E community service) have specific suggested edits in `docs/resources/teks-coverage-matrix.md`. Cheapest remaining unblocked work.
-3. **§4.3 C5 Xello vs H&L platform overlap** — hybrid investigation, needs user as Xello SSO hands (described in §4.3). Blocks on user.
-4. **CFA rollout for 2SW-6SW** — still blocked on round-2 teacher feedback on the 1SW CFA.
-5. **PDF tooling revisit** — blocked on coordinator review of the 2SW Wk2 pilot PDFs. When the coordinator returns feedback, design the next tool (Figma + data merge, or CSS-print HTML).
+**SYSTEMATIC PILOT PASS (current strategy, set 2026-04-17).** Work top-down through every week, running the TEKS audit + exit-ticket rewrite per the 2SW Wk2 pilot pattern. Skip Wk0 and the three already-piloted weeks.
+
+**Pilot-pass order and status:**
+
+| Block | Week | Status |
+|---|---|---|
+| 1SW | Wk0 Classroom Routines | SKIP (per user) |
+| 1SW | Wk1 Robotics / Manufacturing | PENDING |
+| 1SW | Wk2 Programming / IT | PENDING |
+| 1SW | Wk3 Computer Science / IT | PENDING |
+| 1SW | Wk4 Tech Support / IT | PENDING |
+| 1SW | Wk5 Cybersecurity | PENDING |
+| 2SW | Wk1 Legal Studies | PENDING |
+| 2SW | Wk2 Law Enforcement / EMT | DONE (commits `0455a0d` → `4aa6467`) |
+| 2SW | Wk3 Nursing / Health Science | PENDING |
+| 2SW | Wk4 Dental / Medical Billing | PENDING |
+| 2SW | Wk5 Powerskills / Communication | PENDING |
+| 2SW | Wk6 Biomedical / Health Science | PENDING |
+| 3SW | Wk1 Vet Science | PENDING |
+| 3SW | Wk2 Plant Science | PENDING |
+| 3SW | Wk3 Sustainable Engineering | PENDING |
+| 3SW | Wk4 Culinary / Hospitality | PENDING |
+| 3SW | Wk5 Cosmetology | DONE (commit `e7b7208`) |
+| 3SW | Wk6 Entrepreneurship | PENDING |
+| 4SW | Wk1 Career Planning | PENDING |
+| 4SW | Wk2 Course Mapping | PENDING |
+| 4SW | Wk3 Aviation | PENDING |
+| 4SW | Wk4 Drone Engineering | PENDING |
+| 4SW | Wk5 Automotive | DONE (commit `4b34af4`) |
+| 4SW | Wk6 Trades Capstone | PENDING |
+| 5SW | Wk1 Architecture | PENDING |
+| 5SW | Wk2 Civil Engineering | PENDING |
+| 5SW | Wk3 Construction Trades | PENDING |
+| 5SW | Wk4 HVAC / Electrical / Plumbing | PENDING |
+| 5SW | Wk5 Personal Budget | PENDING |
+| 5SW | Wk6 Real Estate | PENDING |
+| 6SW | Wk1 Education | PENDING |
+| 6SW | Wk2 Resume / Graphic Design | PENDING |
+| 6SW | Wk3 Business / Marketing | PENDING |
+| 6SW | Wk4 Sales / Presentations | PENDING |
+| 6SW | Wk5 Job Skills / Mock Interview | PENDING |
+| 6SW | Wk6 Capstone | PENDING |
+
+**Per-week protocol** (applied in sequence, one week at a time):
+
+1. Read the week's overview + 5 day files.
+2. Run the 6-step TEKS audit per day (`cce-curriculum/notes/teks-audit-process.md`).
+3. Retag any day whose TEKS claims fail the audit; update overview TEKS + Formative Assessment to match.
+4. Rewrite all 5 exit tickets using ≥3 distinct formats from `cce-curriculum/notes/exit-ticket-templates.md`, at 6th-7th grade ESL reading level, strictly assessing the day's cleaned TEKS tag.
+5. Update `docs/resources/teks-coverage-matrix.md` for any Implicit → Explicit promotions or new day-level claims.
+6. Append an entry to the audit log in `teks-audit-process.md`.
+7. Run the §9 preservation loop; commit with `AUDIT:` subject prefix; push.
+
+**Deferred in this pass** (per 2026-04-16 decision): PDF production, milestone publication, and the H&L-vs-TEKS structural escalation. Each remains open until coordinator review of the 2SW Wk2 pilot returns.
+
+**Side tasks (non-pilot, still unblocked):**
+
+- **Round-2 TEKS deepening** — three Implicit codes (d(3)D, d(3)F, d(4)E) with specific suggested edits in `docs/resources/teks-coverage-matrix.md`.
+- **§4.3 C5 Xello vs H&L platform overlap** — blocks on user SSO hands.
+- **CFA rollout for 2SW-6SW** — blocks on round-2 teacher feedback on the 1SW CFA.
+- **PDF tooling revisit** — blocks on coordinator review.
 
 ### Do NOT
 
