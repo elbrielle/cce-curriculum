@@ -73,7 +73,25 @@ Then they rank them 1-2-3 and write a one-sentence rationale for each priority. 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name the career you chose for this week's budget and its DFW entry salary. Then name your #1 spending priority and explain in one sentence why it matters to you. *(d(5)(D))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. The CAREER I chose for this week's budget: _______________________
+
+2. DFW entry salary: $_______________________/year
+
+3. DFW experienced salary: $_______________________/year
+
+4. My #1 spending priority: _______________________
+
+5. In one sentence, why does THIS priority matter MOST to me (more than the other two)?
+
+   ___________________________________________________________________
+
+6. ONE "want" from my Day 1 Lifestyle reflection that I am WORRIED my salary cannot cover:
+
+   ___________________________________________________________________
+
+*(d(5)(D))*
 
 ---
 

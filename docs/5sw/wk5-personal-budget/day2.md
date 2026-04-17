@@ -97,7 +97,24 @@ Teacher circulates with a 3-check protocol:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** What is your chosen career salary? What is your monthly net income? What is your biggest expense category? Does your budget balance (yes/no)? *(d(5)(D))*
+**EXIT TICKET** (Comparison Matrix):
+
+Use my Day 2 Personal Budget to fill in the matrix.
+
+| | $ amount | % of net income |
+|---|---|---|
+| Monthly NET income (after taxes) | $_____ | 100% |
+| Total NEEDS (rent + utilities + car + food + phone + insurance) | $_____ | _____% |
+| Total SAVINGS (emergency + long-term) | $_____ | _____% |
+| Total WANTS (entertainment, eating out, etc.) | $_____ | _____% |
+
+Bottom line: Does my budget BALANCE? Circle: **YES (surplus)** / **NO (shortage)** / **EXACTLY EVEN**
+
+My BIGGEST expense category: _______________________
+
+In one sentence, what would I change if my career paid $500/month LESS? *(d(5)(D))*
+
+   ___________________________________________________________________
 
 ---
 
