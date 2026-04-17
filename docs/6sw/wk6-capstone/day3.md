@@ -67,7 +67,28 @@ Today the FIRST HALF of the class delivers their 5-minute capstone presentations
 
 ## Exit Ticket (7 min)
 
-**EXIT TICKET:** Name ONE classmate's career plan that impressed you today and explain in two sentences what made it strong. (Be specific, "they were prepared" doesn't count.) *(d(4)(C))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank TODAY's presentations using these 4 criteria from MOST important (1) to LEAST (4) based on what made today's STRONGEST plan strong.
+
+- Research quality (H&L data, DFW salary, real pathway): rank ____
+- Organization (intro, path, year, plan, closing in order): rank ____
+- Delivery (eye contact, pace, confidence): rank ____
+- Personal connection (why this career fits THEM): rank ____
+
+The ONE classmate's plan that impressed me most today:
+
+   Classmate / career: _______________________
+
+For the Rank 1 criterion (most important), ONE specific thing that classmate did:
+
+   ___________________________________________________________________
+
+For the Rank 4 criterion (least important), why it mattered LESS than the others:
+
+   ___________________________________________________________________
+
+*(d(4)(C))*
 
 ---
 

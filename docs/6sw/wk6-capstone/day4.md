@@ -103,7 +103,23 @@ The workbook also asks for a 4-panel comic of the student's ideal future. Option
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Download your Career Plan and write one sentence about what you will do with it over the summer (share with parents, bring to your 9th-grade counselor, save it for reference, etc.). Then name one person from your Support System chart and how they will help. *(d(8)(A), d(8)(B), d(8)(C))*
+**EXIT TICKET** (Concept Map):
+
+Draw a quick concept map. Place **MY CAREER PLAN** in the center and connect it to each of the FOUR items below. On each line, write ONE word showing how the item supports the plan.
+
+1. My Irving ISD high school + pathway: _______________________
+
+2. My downloaded Career Plan file (where I saved it): _______________________
+
+3. One summer action I will take with the downloaded Plan (share with parent, bring to counselor, save for 9th-grade registration):
+
+   ___________________________________________________________________
+
+4. ONE Support System person (real name, not "a teacher"): _______________________
+
+   How they will help (one phrase): _______________________
+
+*(d(8)(A), d(8)(B), d(8)(C))*
 
 ---
 

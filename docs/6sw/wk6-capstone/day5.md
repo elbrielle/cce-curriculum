@@ -102,7 +102,29 @@ One last task: students log into H&L one more time and confirm their Career Plan
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Name the ONE most important thing you learned about yourself this year. Then name your top career choice as of TODAY. *(d(8)(A), d(8)(C))*
+**EXIT TICKET** (3-2-1 Reflective):
+
+**3** things I learned about MYSELF across 36 weeks (not about a career, about me):
+
+   1. _______________________________________________________________
+
+   2. _______________________________________________________________
+
+   3. _______________________________________________________________
+
+**2** things I will DO between now and 9th-grade registration:
+
+   1. _______________________________________________________________
+
+   2. _______________________________________________________________
+
+**1** piece of advice I would give next year's CCE students:
+
+   ___________________________________________________________________
+
+My top career choice as of TODAY: _______________________
+
+*(d(8)(A), d(8)(C))*
 
 ---
 

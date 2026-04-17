@@ -114,7 +114,23 @@ Students draft the outline on the Capstone Presentation Outline template. Bullet
 
 ## Exit Ticket (7 min)
 
-**EXIT TICKET:** What is your postsecondary goal (university, community college, trade school, military, apprenticeship, or direct employment)? What is your FIRST 30-day action step? *(d(8)(B), d(8)(C))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. My career goal (one sentence): __________________________________
+
+2. My postsecondary goal (circle ONE): 4-year university / 2-year community college / trade school / military / apprenticeship / direct employment with certification
+
+3. My 30-day action step (specific: one email, one article, one conversation): __________________________________
+
+4. My 90-day action step: __________________________________
+
+5. My 365-day action step: __________________________________
+
+6. In one sentence, why this postsecondary path fits MY career goal (not a generic answer):
+
+   ___________________________________________________________________
+
+*(d(8)(B), d(8)(C))*
 
 ---
 

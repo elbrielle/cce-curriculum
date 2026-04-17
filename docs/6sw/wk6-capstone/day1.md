@@ -91,7 +91,33 @@ The growth comparison is powerful: Week 0 students might have leaned heavily Rea
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name your selected career pathway and the Irving ISD high school where it is offered. Then list ONE thing from your Iceberg that is "underwater" (work others don't see). *(d(8)(A), d(8)(B))*
+**EXIT TICKET** (Venn Diagram):
+
+Draw two circles labeled **TOP OF ICEBERG** (what people see) and **UNDER THE ICEBERG** (what people don't see). Place 2 items in each zone AND 1 item in the OVERLAP (something that is both visible and hidden work).
+
+**TOP OF ICEBERG** (2 items I listed today):
+
+   1. _______________________
+
+   2. _______________________
+
+**UNDER THE ICEBERG** (2 items I listed today):
+
+   1. _______________________
+
+   2. _______________________
+
+**OVERLAP** (1 item that is both visible to others AND took hidden work):
+
+   ___________________________________________________________________
+
+Bottom line:
+
+   My selected career pathway: _______________________
+
+   Irving ISD high school that offers it: _______________________
+
+*(d(8)(A), d(8)(B))*
 
 ---
 
