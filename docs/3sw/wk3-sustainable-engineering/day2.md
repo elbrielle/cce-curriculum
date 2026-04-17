@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Read the H&L Pest Patrol scenario; analyze 3 sets of field notes from a Plant Scientist, a Farmer, and an Engineer; identify the design constraints for the drone |
-| **TEKS** | d(1)(D) |
+| **TEKS** | d(1)(C) |
 | **Deliverable** | Field notes summary worksheet (key findings from each of the 3 sets) |
 | **Materials** | H&L Workbook Ch 2, pp. 28-32; printed Field Notes packet (3 sets); printed summary worksheet; projector |
 
@@ -91,7 +91,24 @@ Students write the constraints in a numbered list on the back of the summary she
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Submit your summary + constraints list. Write one sentence: "The most important constraint my drone has to handle is _____ because _____." *(d(1)(D))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank these 4 drone constraints (from your Day 2 list) by IMPORTANCE for the Texas tomato farm, 1 = most important, 4 = least.
+
+- Long battery life (must cover 50 acres): rank ____
+- Handle Texas wind (5-20 mph): rank ____
+- Detect tiny pests (high-resolution or multispectral camera): rank ____
+- Send data to farmer's phone/app: rank ____
+
+For EACH rank, write ONE specific sentence from the field notes (Set 1 / Set 2 / Set 3) that backs it.
+
+- Rank 1 (most important): _______________________________________________________
+
+- Rank 4 (least critical but still needed): _______________________________________________________
+
+Bottom line: WHICH field-note writer (Plant Scientist / Farmer / Engineer) did I use MOST to decide my rankings, and why? *(d(1)(C))*
+
+   ___________________________________________________________________
 
 ---
 

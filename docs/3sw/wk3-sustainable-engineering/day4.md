@@ -87,7 +87,20 @@ In the last 3 minutes, ask 3 students to share one row from their chart that the
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Submit your peer feedback form and societal trends chart. Write one sentence: "One societal change that is creating new careers is _____, and the new career is _____." *(d(1)(D), d(5)(C))*
+**EXIT TICKET** (Comparison Matrix):
+
+Use your Day 4 Societal Trends Chart to fill in the matrix.
+
+| Societal Change | New Career Created | Existing Career CHANGING |
+|---|---|---|
+| Change 1: _______________ | | |
+| Change 2: _______________ | | |
+
+Bottom line: Which of your two societal changes is creating the MOST new careers (quantity and variety), and why? *(d(1)(D), d(5)(C))*
+
+   ___________________________________________________________________
+
+Submit your peer feedback form and societal trends chart with this ticket.
 
 ---
 

@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Complete the Xello Interests Lesson; begin (or complete) eDynamic Unit 7.1: Progressive and Adaptable; reflect on the 3-week Agriculture cluster journey |
-| **TEKS** | d(1)(D), d(5)(C) |
+| **TEKS** | d(1)(A), d(1)(C) |
 | **Deliverable** | Xello Interests lesson completion screenshot + eDynamic 7.1 progress entry + 3-week Ag reflection (3 sentences) |
 | **Materials** | Chromebooks, Xello accounts, eDynamic Learning accounts, projector |
 
@@ -79,7 +79,33 @@ These reflections are short but valuable, they capture student thinking at the c
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Submit your screenshot of the Xello Interests completion and your 3-sentence reflection. Write one sentence: "Next week we move into Hospitality & Tourism. The career from Ag I am most curious about is still _____." *(d(1)(D), d(5)(C))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+My FAVORITE Agriculture cluster career after 3 weeks (Vet Science + Plant Science + Sustainable Engineering): _______________________
+
+Connect this career to THREE things:
+
+**1. Xello's TOP recommended interest area for me today**
+
+   My top Xello interest area: _______________________. Does this area match my favorited career? Circle: YES / NO. One sentence why:
+
+   ___________________________________________________________________
+
+**2. An Irving ISD pathway at Nimitz HS** (Vet Science → Elanco, Plant Science → Texas Certified Landscape Associate, OR Sustainable Engineering → AutoDesk CAD-Inventor)
+
+   My pathway: _______________________. One sentence on why it connects to my favorited career:
+
+   ___________________________________________________________________
+
+**3. The 3SW cluster pattern I see in myself**
+
+   One sentence on what kind of Ag work draws me most (indoor / outdoor / tech-heavy / science-heavy / communication-heavy):
+
+   ___________________________________________________________________
+
+*(d(1)(A), d(1)(C))*
+
+Submit your Xello Interests completion screenshot + 3-sentence reflection with this ticket.
 
 ---
 

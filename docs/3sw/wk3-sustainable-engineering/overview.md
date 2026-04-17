@@ -12,8 +12,10 @@ Students explore environmental and sustainable engineering careers, complete the
 
 ## TEKS Alignment
 
-- **d(1)(D):** Research and evaluate emerging occupations related to career interest areas.
-- **d(5)(C):** Analyze the effects of changing employment trends, societal needs, and economic conditions on career choices.
+- **d(1)(A):** Analyze and discuss assessment results (Day 5 Xello Interests).
+- **d(1)(C):** Identify various career opportunities within the Ag cluster (Days 1-5).
+- **d(1)(D):** Research and evaluate emerging occupations related to career interest areas (Day 4 societal trends chart + Day 5 reflection).
+- **d(5)(C):** Analyze the effects of changing employment trends, societal needs, and economic conditions on career choices (Day 4).
 
 ## Materials Needed
 
@@ -66,10 +68,11 @@ The H&L workbook (Ch 2) anchors this week with **Ag-Tech Pest Patrol** (Ch 2, pp
 
 ## Formative Assessment
 
-- Notes on 2 environmental careers (Day 1): d(1)(D)
-- Field notes summary (Day 2): d(1)(D)
-- Drone sketch quality and labels (Day 3): d(1)(D)
-- Peer feedback participation + societal trends chart (Day 4): d(1)(D), d(5)(C)
+- Environmental Hat notes + Mini-Case exit ticket (DFW lead-in-water; pick career + back with data + Climate Kids topic). *Day 1, d(1)(C)*
+- Field notes summary + constraints + Ranked Justification exit ticket (4 drone constraints ranked). *Day 2, d(1)(C)*
+- Drone sketch + rationale + SCR exit ticket (feature + cut-feature + engineer task faster). *Day 3, d(1)(C)*
+- Peer feedback + societal trends chart + Comparison Matrix exit ticket (2 societal changes x new/changing career). *Day 4, d(1)(D), d(5)(C)*
+- Xello Interests + eDynamic 7.1 + Concept Map exit ticket (3SW favorite career + Xello interest + Nimitz pathway + self-pattern). *Day 5, d(1)(A), d(1)(C)*
 
 ## Summative Assessment
 

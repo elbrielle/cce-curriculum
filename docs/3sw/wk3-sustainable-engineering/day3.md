@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Sketch a labeled drone design that meets the constraints from Day 2; explain how each technical feature solves a problem from the field notes |
-| **TEKS** | d(1)(D) |
+| **TEKS** | d(1)(C) |
 | **Deliverable** | Labeled drone sketch with at least 6 annotated parts + design rationale paragraph |
 | **Materials** | H&L Workbook Ch 2, p. 33; plain paper for sketches; rulers, pencils, colored pencils/markers; constraints list from Day 2; projector |
 
@@ -84,7 +84,21 @@ Sentence 2 (trade-off) and Sentence 3 (self-critique) are what move the rational
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Submit your drone sketch + rationale. Write one sentence: "The feature on my drone that solves the BIGGEST problem from the field notes is _____." *(d(1)(D))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. The feature on my drone that solves the BIGGEST problem from the field notes: _______________________
+
+2. The SPECIFIC problem from the field notes this feature solves (cite which set — Plant Scientist / Farmer / Engineer): _______________________
+
+3. If I had to CUT one feature from my drone to save cost or weight, it would be _______________________ because _______________________________________________________.
+
+4. ONE Agricultural Engineer or Drone Operator task this drone makes FASTER or EASIER than doing it by hand:
+
+   ___________________________________________________________________
+
+*(d(1)(C))*
+
+Submit your drone sketch + rationale with this ticket.
 
 ---
 

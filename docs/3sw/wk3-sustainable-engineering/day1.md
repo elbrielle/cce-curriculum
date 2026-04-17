@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Explore the Environmental and Natural Resources pathway in H&L; connect climate science topics to specific environmental careers; take notes on 2 environmental careers |
-| **TEKS** | d(1)(D) |
+| **TEKS** | d(1)(C) |
 | **Deliverable** | Hat notes for 2 environmental careers + 1 connection to a NASA Climate Kids topic |
 | **Materials** | Chromebooks, H&L accounts, NASA Climate Kids ([climatekids.nasa.gov](https://climatekids.nasa.gov)), projector |
 
@@ -79,7 +79,23 @@ In the last 8 minutes, ask 3 students to share their topic-to-career connection 
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Submit your Hat notes. Write one sentence: "One environmental problem I learned about today is _____, and the career that solves it is _____." *(d(1)(D))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: A DFW city council discovers that a neighborhood's drinking water has SMALL amounts of lead in it. They need to hire ONE environmental professional to start fixing the problem this week.
+
+1. Which environmental career from today (Environmental Engineer, Sustainability Consultant, Water Treatment Specialist, Renewable Energy Technician) fits THIS problem BEST?
+
+   My pick: _______________________
+
+2. Use one fact about the career (education, problem it solves, daily task) from your Hat Notes to back the pick:
+
+   ___________________________________________________________________
+
+3. Connect ONE NASA Climate Kids topic to THIS problem (example: pollution in water, greenhouse effect, melting ice caps):
+
+   My topic: _______________________. Connection in one sentence: ___________________________________________________________________
+
+*(d(1)(C))*
 
 ---
 
