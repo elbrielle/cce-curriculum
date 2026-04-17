@@ -62,9 +62,9 @@ Two Tier-1 week audits + 2SW Wk2 instinct-review follow-ups. PDFs deferred per t
 | 2SW | Wk4 Dental / Medical Billing | DONE (commit `68db8e2`) |
 | 2SW | Wk5 Powerskills / Communication | DONE (commit `ac97ce3`) |
 | 2SW | Wk6 Biomedical / Health Science | DONE (this commit) |
-| 3SW | Wk1 Vet Science | PENDING |
-| 3SW | Wk2 Plant Science | PENDING |
-| 3SW | Wk3 Sustainable Engineering | PENDING |
+| 3SW | Wk1 Vet Science | DONE (commit `d459d47`) |
+| 3SW | Wk2 Plant Science | DONE (commit `364e7bd`) |
+| 3SW | Wk3 Sustainable Engineering | DONE (commit `8d3b834`) |
 | 3SW | Wk4 Culinary / Hospitality | PENDING |
 | 3SW | Wk5 Cosmetology | DONE (commit `e7b7208`) |
 | 3SW | Wk6 Entrepreneurship | PENDING |
