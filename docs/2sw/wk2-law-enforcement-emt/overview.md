@@ -81,7 +81,7 @@ The Hat Research template (Ch 13, p. 220) is used as the day-to-day career resea
 
 ## Summative Assessment
 
-**Local Risk Response Citywide Emergency Plan + Team Presentation (Day 4):** Each team submits a Citywide Emergency Plan (combined from individual role plans) and presents it to the class. The plan must include: (1) chosen emergency scenario, (2) role assignments for at least 4 team members, (3) sequence of response actions, (4) use of Silver Ridge city infrastructure (hospital, schools, rec centers), and (5) one integrity dilemma the team had to navigate. Scored on: role logic (d(1)(C)), training-pathway awareness (d(2)(A)), teamwork (d(4)(F)), and use of the Silver Ridge city brief.
+**Local Risk Response Citywide Emergency Plan + Team Presentation (Day 4):** Each team submits a Citywide Emergency Plan (combined from individual role plans) and presents it to the class. The plan must include: (1) chosen emergency scenario, (2) role assignments for at least 4 team members, (3) sequence of response actions, (4) use of Silver Ridge city infrastructure (hospital, schools, rec centers), and (5) one integrity dilemma the team had to navigate. Scored on: role logic (d(1)(C)), teamwork and professional characteristics under pressure (d(4)(F)), and use of the Silver Ridge city brief.
 
 ## Differentiation
 

@@ -78,13 +78,27 @@ This reflection can be hand-written or typed. It is the d(4)(F) summative check 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** ([Concept Map / Connection Diagram](../../resources/exit-ticket-templates.md#concept-map-connection-diagram)):
+**EXIT TICKET** (Concept Map / Connection Diagram):
 
-Center: My favorited first responder career from this week: _______________________________
+My favorite first responder career from this week: _______________________
 
-Connection 1: To my Wk0 RIASEC type _______________________. Why this career fits (or does not fit) that type, in one sentence: _______________________________________________________
+Connect this career to THREE things:
 
-Connection 2: To one prior CCE career or cluster I explored before this week (Manufacturing, IT, Programming, Cybersecurity, Tech Support, Legal Services, or other): _______________________. What these two careers share, or how they differ, in one sentence: ________________________________________________________________ *(d(1)(C), d(4)(F))*
+**1. A TRAINING FACT from your worksheet** (example: "EMT training takes 6 to 12 weeks")
+
+My training fact: _______________________________________________________
+
+**2. Your Wk0 RIASEC type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
+
+My RIASEC type: ________________
+
+Why does this career match (or not match) your type? One sentence: _______________________________________________________________
+
+**3. A quality this career needs** (example: brave, honest, caring, clear-thinking, strong)
+
+My quality: _______________________
+
+Why does this career need this quality? One sentence: _______________________________________________________________ *(d(1)(C), d(2)(A), d(4)(F))*
 
 ---
 

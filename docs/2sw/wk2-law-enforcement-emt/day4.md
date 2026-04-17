@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Complete individual role-specific response plans, combine them into a Citywide Emergency Plan, and present the plan to the class |
-| **TEKS** | d(1)(C), d(4)(F), d(2)(A) |
+| **TEKS** | d(1)(C), d(4)(F) |
 | **Deliverable** | Citywide Emergency Plan poster (or digital doc) + 3-minute team presentation |
 | **Materials** | Chromebooks, H&L Workbook Ch 13 (pp. 223-225), Silver Ridge city brief from Day 3, large poster paper or Google Slides, markers, projector |
 
@@ -81,14 +81,31 @@ The class evaluates each team using a quick rubric (visible on the projector):
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** ([Trade-off / Dilemma Analysis](../../resources/exit-ticket-templates.md#trade-off-dilemma-analysis)):
+**EXIT TICKET** (Trade-off / Dilemma Analysis):
 
-Dilemma: You are the Emergency Management Director during a wildfire evacuation. You have resources to evacuate ONLY ONE area before the fire arrives: (A) a senior living community in the North zone with 80 residents, many with mobility issues, or (B) Green Valley High School in the West zone with 1,200 students and staff at an after-school event.
+You are the Emergency Management Director. A wildfire is coming. You have enough buses to save only ONE place before the fire gets here:
 
-- **Pros of Choice A (senior community):** _______________________________
-- **Pros of Choice B (high school):** ___________________________________
-- **My choice:** ________________________________________________________
-- **Justification using today's content:** integrity as a first responder means _____________________________________________________________ *(d(4)(F))*
+- **(A)** A senior living home with 80 older adults. Many use wheelchairs or walkers.
+- **(B)** A high school with 1,200 students and staff at an after-school event.
+
+Pros of picking A: _______________________________________________________
+
+Pros of picking B: _______________________________________________________
+
+My choice (A or B): ________
+
+To make a hard choice like this, first responders need a strong professional quality. Pick ONE from the list (or add your own):
+
+- calm
+- fair
+- brave
+- honest
+- caring
+- clear-thinking
+
+Which quality fits THIS choice best? ________________________
+
+In one sentence, why is THIS quality the right one here (not the others)? _______________________________________________________________ *(d(1)(C), d(4)(F))*
 
 ---
 

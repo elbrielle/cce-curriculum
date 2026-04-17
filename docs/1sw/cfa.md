@@ -2,7 +2,7 @@
 
 **Common Formative Assessment** | **20 minutes** | **Extended Constructed Response**
 
-Administer at the end of 1SW (after Wk5 Cybersecurity). Students work independently with their H&L Climber Profile, engineering notebook, workbook, and Hat Research templates from the block. See the [CFA Template](../resources/cfa-template.md) for format and administration details.
+Administer at the end of 1SW (after Wk5 Cybersecurity). Students work independently with their H&L Climber Profile, engineering notebook, workbook, and Hat Research templates from the block.
 
 ---
 
@@ -59,7 +59,7 @@ Name ONE concrete step you could take THIS school year (before 8th grade) to mov
 
 ## Rubric
 
-Score each part 0-4 (see [CFA Template rubric](../resources/cfa-template.md#rubric-4-level-ecr)). Overall CFA score is the LOWEST score across the four parts.
+Score each part 0-4 using the rubric below. Overall CFA score is the LOWEST score across the four parts.
 
 ### Part A (Identify) — d(1)(B), d(1)(C)
 

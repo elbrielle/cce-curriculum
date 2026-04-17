@@ -81,12 +81,13 @@ If From the Field videos are not available for the chosen Hats, project a short 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** ([Mini-Case / Scenario Application](../../resources/exit-ticket-templates.md#mini-case-scenario-application)):
+**EXIT TICKET** (Mini-Case / Scenario Application):
 
-Scenario: Jordan is a 17-year-old Irving ISD senior who wants to be working full-time as a first responder within 12 months of graduating high school. Jordan also wants to stay near their family in DFW.
+Jordan is a high school senior in Irving ISD. Jordan wants to start working as a first responder in the next year after graduating. Jordan wants to stay close to family in DFW.
 
-1. Which pathway from your Training Comparison worksheet (Police Officer, EMT, or Firefighter) best fits Jordan's 12-month goal? Use specific training-time data from your worksheet.
-2. What would Jordan have to give up OR plan around to make that pathway work? Name one real trade-off. *(d(1)(C), d(2)(A))*
+1. Which pathway from your Training Comparison worksheet fits Jordan's one-year plan best? (Police Officer, EMT, or Firefighter) Use the training time from your worksheet to explain.
+
+2. To start this pathway fast, what is one hard choice Jordan will need to make? *(d(1)(C), d(2)(A))*
 
 ---
 

@@ -87,20 +87,26 @@ This is a starting draft. They will continue and finish on Day 4.
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** ([Decision Tree / Branching Prompt](../../resources/exit-ticket-templates.md#decision-tree-branching-prompt)):
+**EXIT TICKET** (Decision Tree / Branching Prompt):
 
-Role: _______________________ Scenario: _______________________
+My role today: _______________________ (a first responder career in Law and Public Service)
 
-At minute 0, my first action is: _______________________________________
+My team's emergency: _______________________
 
-Why? One sentence using today's content: _______________________________
+Step 1: What does your role do FIRST in the first 15 minutes of the emergency? _______________________________________________________________
 
-At minute 5, I check whether: __________________________________________
+Step 2: Pick ONE quality your role needs MOST right now (choose one or add your own):
 
-- IF YES: ______________________________________________________________
-- IF NO: _______________________________________________________________
+- stay calm
+- work fast
+- make hard choices
+- speak clearly
+- notice small things
+- help others
 
-One other role on my team whose decisions affect mine in the first 15 minutes, and why: _______________________________________________________ *(d(1)(C), d(4)(F))*
+I picked: _______________________
+
+Why does this quality matter more than the others RIGHT NOW? (One sentence) _______________________________________________________________ *(d(1)(C), d(4)(F))*
 
 ---
 

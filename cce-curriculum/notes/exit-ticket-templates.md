@@ -75,29 +75,25 @@ __________________________________________________
 --------------------------------------------------------
 ```
 
-**Example (2SW Wk2 Day 2, Missing Painting, reasoning from evidence):**
+**Example (2SW Wk2 Day 2, detective changes her mind, d(4)(F) integrity probe via Missing Painting characters):**
 
-> Scenario: A school mascot costume is found damaged in the locker room. Three facts are known:
+> A detective looks at the evidence and says Alex took the painting. Later, she finds new clues that point to Kai instead. Now she must tell her boss she was wrong.
 >
-> - Camille had argued with the cheer coach earlier that day.
-> - Drew was seen walking out of the locker room around the time the damage likely occurred.
-> - A cheer teammate reported hearing Drew say earlier that week, "I wish someone would ruin that costume."
+> To change her mind and fix her mistake, which quality does the detective need MOST?
 >
-> Based on these facts, which student is most likely responsible?
->
-> A. Camille, because she had motive (an argument with the coach).
-> B. Drew, because they had motive (the stated wish) AND opportunity (seen leaving the locker room at the relevant time).
-> C. Both are equally likely because both had reasons to dislike the costume.
-> D. Neither, because motive and opportunity alone never prove anything.
+> A. Speed, because detectives have to solve cases fast.
+> B. Honesty, because telling the truth about being wrong is hard but important.
+> C. Confidence, because good detectives never doubt themselves.
+> D. Luck, because detective work is mostly guessing.
 
-**Distractor logic** (for the teacher's reference, not printed on the student copy):
+**Distractor logic** (author reference, not printed on student copy):
 
-- A: motive alone, missing opportunity evidence
-- B: correct (motive + opportunity + witness testimony all align)
-- C: false equivalence; the evidence does not point at Camille with equal strength
-- D: correct-sounding rule misapplied; when multiple independent pieces converge, inference is appropriate
+- A: over-rates speed as the dominant trait (misconception about detective work prioritizing correctness over speed)
+- B: correct; identifies honesty as the workplace characteristic required to admit and correct a mistake
+- C: confidence taken to extreme, blocks self-correction
+- D: first-instinct bias, treats reasoning as luck
 
-**Status:** Built 2026-04-16 (first use: 2SW Wk2 Day 2).
+**Status:** Built 2026-04-16 (first use: 2SW Wk2 Day 2). Revised 2026-04-16 after TEKS audit to probe d(4)(F) directly using familiar Missing Painting characters; prior version tested critical thinking without strict TEKS alignment.
 
 ---
 
@@ -157,14 +153,14 @@ that wasn't in today's in-class activity.]
 --------------------------------------------------------
 ```
 
-**Example (2SW Wk2 Day 1, First Responder Pathways):**
+**Example (2SW Wk2 Day 1, First Responder Pathways, d(1)(C) + d(2)(A)):**
 
-> Scenario: Jordan is a 17-year-old Irving ISD senior who wants to be working full-time as a first responder within 12 months of graduating high school. Jordan also wants to stay near their family in DFW.
+> Jordan is a high school senior in Irving ISD. Jordan wants to start working as a first responder in the next year after graduating. Jordan wants to stay close to family in DFW.
 >
-> 1. Which pathway from your Training Comparison worksheet (Police Officer, EMT, or Firefighter) best fits Jordan's 12-month goal? Use specific training-time data from your worksheet.
-> 2. What would Jordan have to give up OR plan around to make that pathway work? Name one real trade-off.
+> 1. Which pathway from your Training Comparison worksheet fits Jordan's one-year plan best? (Police Officer, EMT, or Firefighter) Use the training time from your worksheet to explain.
+> 2. To start this pathway fast, what is one hard choice Jordan will need to make?
 
-**Status:** Built 2026-04-16 (first use: 2SW Wk2 Day 1).
+**Status:** Built 2026-04-16 (first use: 2SW Wk2 Day 1). Revised 2026-04-16 for 6th-7th grade ESL reading level.
 
 ---
 
@@ -172,9 +168,9 @@ that wasn't in today's in-class activity.]
 
 **When to use:** objective involves sequential decision-making or role-specific reasoning ("If your role is X, what do you do first and why?"). Fits days where students take on a role and must reason from situation to action.
 
-**Structure sketch:** Initial condition at top (role + scenario). A first action + justification. A conditional check that branches (IF YES / IF NO) based on a situation assessment. A team-interdependency line closing the loop.
+**Structure sketch:** Role + scenario at top. A first action the role would take. A quality-pick probe (from a given list or open): which professional characteristic does this role need most in this situation, and why. Optional: an IF/THEN branch if the role's decision path is genuinely non-linear — use sparingly for ESL population; linear structure is usually clearer.
 
-**Mastery signal:** first action is role-appropriate and justified with a specific reason from today; conditional branches are both realistic; interdependency names a role whose decisions would genuinely affect the student's.
+**Mastery signal:** first action is role-appropriate; the quality pick is specific to the role's actual needs in that scenario (not a generic "be nice"); the why-sentence cites a concrete reason from today's content.
 
 **Printable layout (half-page):**
 
@@ -208,23 +204,21 @@ in the first 15 minutes, and why:
 --------------------------------------------------------
 ```
 
-**Example (2SW Wk2 Day 3, Task Force role-assignment day):**
+**Example (2SW Wk2 Day 3, Task Force role-assignment day, d(1)(C) + d(4)(F)):**
 
-> Role: EMT Team Lead. Scenario: Hurricane (flooding + power outages).
+> My role today: EMT Team Lead (a first responder career in Law and Public Service)
 >
-> At minute 0, my first action is: contact Silver Ridge Regional Hospital to confirm generator capacity and bed availability.
+> My team's emergency: Hurricane with flooding and power outages
 >
-> Why? One sentence using today's content: the city brief noted the hospital generator already overloaded once during Hurricane Calder, so I need to know if the hospital can take injured evacuees before I start routing patients.
+> Step 1: What does your role do FIRST in the first 15 minutes of the emergency? Call Silver Ridge Regional Hospital to check if they have beds and backup power for injured people.
 >
-> At minute 5, I check whether: the hospital confirms it can take critical patients.
+> Step 2: Pick ONE quality your role needs MOST right now: stay calm, work fast, make hard choices, speak clearly, notice small things, help others.
 >
-> IF YES: I direct ambulances to Silver Ridge Regional Hospital as the primary receiving site.
+> I picked: make hard choices.
 >
-> IF NO: I coordinate with the Public Information Officer to alert residents to shelter-in-place and prepare the Green Valley High School gym as a field triage site (named in the city brief as a backup with generator).
->
-> One other role on my team whose decisions affect mine in the first 15 minutes, and why: the Police Officer / Sheriff, because their traffic control and evacuation routing determines whether my ambulances can reach the hospital or the field triage site.
+> Why does this quality matter more than the others RIGHT NOW? The hospital generator may be full, so I must choose fast between sending ambulances there or to the high school backup site, and people's lives depend on the choice.
 
-**Status:** Built 2026-04-16 (first use: 2SW Wk2 Day 3).
+**Status:** Built 2026-04-16 (first use: 2SW Wk2 Day 3). Revised 2026-04-16: dropped IF YES / IF NO branching for ESL accessibility; added quality-pick probe to land d(4)(F) directly.
 
 ---
 
@@ -232,23 +226,30 @@ in the first 15 minutes, and why:
 
 **When to use:** objective involves ethical reasoning, competing-values analysis, or a real-world dilemma where there is no single right answer. Core integrity / work-ethic days (d(4)(F)) are natural fits. The dilemma presented should be NEW to the student (not a dilemma they already resolved in the in-class activity).
 
-**Structure sketch:** Named dilemma (2-3 sentences setting up two competing legitimate options). "Pros of Choice A" box + "Pros of Choice B" box + "My choice" + "Justification referencing today's content."
+**Structure sketch:** Named dilemma (2-3 sentences setting up two competing legitimate options). "Pros of Choice A" + "Pros of Choice B" + "My choice" + a quality-pick probe (which professional characteristic the decision requires most, picked from a list of common first-responder qualities or student's own word) + one-sentence justification naming why THAT quality fits THIS moment. The quality-pick is what lands d(4)(F) without forcing the 4 named traits as exhaustive — TEK language is "such as," so any genuine professional characteristic counts.
 
-**Mastery signal:** BOTH pros sections are filled with real trade-offs (not straw-man options, each side must have a genuine case); the choice is defensible; justification names a specific concept from today's lesson (integrity, perseverance, dedication, work ethic in the d(4)(F) case).
+**Mastery signal:** BOTH pros sections are filled with real trade-offs (not straw-man options, each side must have a genuine case); the choice is defensible; the quality picked is SPECIFIC to what this decision requires (not a generic "good"); the justification names WHY that quality over the alternatives.
 
-**Example (2SW Wk2 Day 4, Citywide Emergency Plan / integrity day):**
+**Example (2SW Wk2 Day 4, Citywide Emergency Plan day, d(1)(C) + d(4)(F)):**
 
-> Dilemma: You are the Emergency Management Director during a wildfire evacuation. You have resources to evacuate ONLY ONE area before the fire arrives: (A) a senior living community in the North zone with 80 residents, many with mobility issues, or (B) Green Valley High School in the West zone with 1,200 students and staff at an after-school event.
+> You are the Emergency Management Director. A wildfire is coming. You have enough buses to save only ONE place before the fire gets here:
 >
-> Pros of Choice A (senior community): residents have mobility issues and would struggle to evacuate themselves; the population is at highest individual risk; the North zone is adjacent to the one highway out, so we can stage transport there.
+> - **(A)** A senior living home with 80 older adults. Many use wheelchairs or walkers.
+> - **(B)** A high school with 1,200 students and staff at an after-school event.
 >
-> Pros of Choice B (high school): the raw number of lives is much higher (1,200 vs 80); the West zone is closer to the fire path, so the time window is shorter; students and staff are more mobile and can evacuate faster once buses arrive.
+> Pros of picking A: ___
 >
-> My choice: Choice B, the high school.
+> Pros of picking B: ___
 >
-> Justification using today's content: integrity as a first responder means making hard choices with imperfect information and being able to defend the reasoning. The math of 1,200 lives versus 80, combined with a shorter time window before the fire reaches the West zone, makes the high school evacuation more urgent even though each senior resident is at higher individual risk. I would simultaneously call for mutual-aid transport from neighboring districts to reach the senior community next.
+> My choice (A or B): ___
+>
+> Quality list: calm / fair / brave / honest / caring / clear-thinking (or add your own).
+>
+> Which quality fits THIS choice best? ___
+>
+> In one sentence, why is THIS quality the right one here (not the others)? ___
 
-**Status:** Built 2026-04-16 (first use: 2SW Wk2 Day 4).
+**Status:** Built 2026-04-16 (first use: 2SW Wk2 Day 4). Revised 2026-04-16: reading level dropped to 6th-7th grade ESL; quality-pick probe added to land d(4)(F) honestly per "such as" TEK language; d(2)(A) dropped from the day's tag since the activities don't engage training specifics.
 
 ---
 
@@ -256,19 +257,23 @@ in the first 15 minutes, and why:
 
 **When to use:** wrap-up days, synthesis days, or days where the objective is "connect today's content to prior learning." Especially strong for six-weeks cluster wrap-up days.
 
-**Structure sketch:** Center labeled with today's key concept or artifact (e.g., the career the student favorited). Two to four connection lines radiating out, each terminating at a named concept from today or a prior week. Each line labeled with the relationship between center and endpoint in one sentence. Keep the line count low (2-3 is usually right) so the ticket stays scannable for the teacher.
+**Structure sketch:** Center labeled with today's key concept or artifact (e.g., the career the student favorited). Two to four connection lines radiating out, each terminating at a named concept. Connections can carry different TEKS codes: a training-fact connection hits d(2)(A); a prior-week concept connection hits d(1)(A) / d(1)(C) via self-assessment integration; a workplace-quality connection hits d(4)(F). Design the connection set to cover the day's TEKS set where natural. Keep total connection count to 2-4 so the ticket stays scannable.
 
-**Mastery signal:** at least one connection reaches beyond today's lesson to a prior-week concept (RIASEC type, prior cluster, Work Values, earlier career favorited); relationship labels are specific, not generic ("fits my Investigative type because the work is about analyzing evidence" vs. "it matches me").
+**Mastery signal:** each connection's endpoint is SPECIFIC (a concrete training fact, a named RIASEC type, a specific quality word — not generic); the why-sentence on each connection cites a reason from today or a prior week, not a generic "it fits."
 
-**Example (2SW Wk2 Day 5, Law cluster wrap-up and RIASEC fit reflection):**
+**Example (2SW Wk2 Day 5, Law cluster wrap-up, d(1)(C) + d(2)(A) + d(4)(F)):**
 
-> Center: My favorited first responder career from this week: ______________________
+> My favorite first responder career from this week: ___
 >
-> Connection 1: To my Wk0 RIASEC type ______________________. Why this career fits (or does not fit) that type, in one sentence: ______________________
+> Connect this career to THREE things:
 >
-> Connection 2: To one prior CCE career or cluster I explored before this week (Manufacturing, IT, Programming, Cybersecurity, Tech Support, Legal Services, or other): ______________________. What these two careers share, or how they differ, in one sentence: ______________________
+> **1. A TRAINING FACT from your worksheet** (example: "EMT training takes 6 to 12 weeks"). My training fact: ___
+>
+> **2. Your Wk0 RIASEC type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer). My RIASEC type: ___. Why does this career match (or not match) your type? One sentence: ___
+>
+> **3. A quality this career needs** (example: brave, honest, caring, clear-thinking, strong). My quality: ___. Why does this career need this quality? One sentence: ___
 
-**Status:** Built 2026-04-16 (first use: 2SW Wk2 Day 5).
+**Status:** Built 2026-04-16 (first use: 2SW Wk2 Day 5). Revised 2026-04-16: restructured to three connections covering d(2)(A), d(1)(C), d(4)(F); reading level dropped to 6th-7th grade ESL.
 
 ---
 
