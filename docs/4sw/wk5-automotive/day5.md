@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Present a cross-cluster salary comparison (one automotive career vs. one career from a different cluster); update H&L Climber Profile with Transportation favorites; reflect on how automotive careers compare to careers from earlier in the year |
-| **TEKS** | d(5)(E), d(2)(A), d(2)(B), d(8)(A) |
+| **TEKS** | d(5)(E), d(1)(C) |
 | **Deliverable** | Cross-Cluster Salary Presentation (1-2 minutes per student) |
 | **Materials** | Chromebooks, H&L accounts, Day 3 Salary Comparison worksheets, printed Cross-Cluster Comparison presentation note card, Xello accounts (Save Careers activity), projector |
 
@@ -80,7 +80,27 @@ After the last presentation, run a 2-minute discussion:
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Complete this sentence: "The most surprising thing I learned about automotive careers this week is _____ because _____." *(d(2)(A))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+The automotive career I would pick from this week: _______________________
+
+Connect this career to THREE things:
+
+**1. The cross-cluster career I compared it to today**
+
+   My cross-cluster career: _______________________. One number that shows the biggest gap between them (salary OR education years): ___________________________________________________________________
+
+**2. My ONE extra criterion beyond salary** (from today's presentations)
+
+   My criterion: _______________________. Why does this criterion matter for my pick? One sentence:
+
+   ___________________________________________________________________
+
+**3. My NEXT step in Irving ISD** (Ratteree pathway, trade school after graduation, or "still deciding")
+
+   My next step: _______________________. In one sentence, name ONE thing I would need to do this year to stay on track for it: *(d(5)(E), d(1)(C))*
+
+   ___________________________________________________________________
 
 ---
 

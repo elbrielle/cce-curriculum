@@ -70,7 +70,19 @@ Take a quick verbal poll: which of the 3 automotive careers had the highest expe
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Compare the salaries of the 3 automotive careers you researched today and identify which one has the best salary-to-education-time ratio. Show the math. *(d(5)(E))*
+**EXIT TICKET** (Comparison Matrix):
+
+Use your Day 3 worksheet to fill in the matrix below for the 3 automotive careers.
+
+| | Auto Service Tech | Diesel Service Tech | Collision Repair Tech |
+|---|---|---|---|
+| DFW experienced salary ($) | | | |
+| Years of education required | | | |
+| Salary ÷ years (ratio) | | | |
+
+Bottom line: Which career has the BEST salary-to-education ratio? Name it, and write the ratio you calculated. Then explain in one sentence why that ratio is important for someone who wants to earn quickly. *(d(5)(E), d(2)(B))*
+
+   ___________________________________________________________________
 
 ---
 

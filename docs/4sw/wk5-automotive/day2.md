@@ -86,7 +86,24 @@ In pairs, students share their personal preference statements. Each pair finds o
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Explain the apprenticeship model in your own words, and name one advantage it has over the traditional college model. *(d(3)(G))*
+**EXIT TICKET** (Trade-off / Dilemma Analysis):
+
+Sam is graduating from high school in DFW next year. Sam wants to be an auto technician. Sam has two paths to pick:
+
+- **(A) Apprenticeship at a Ford dealership:** start working day 1, earn $30K year 1, study for ASE exams on the job. No tuition. Takes 2-3 years to earn first ASE.
+- **(B) 18-month UTI trade school:** full-time student, $35,000 tuition, no salary while in school, finishes ASE-ready in 18 months.
+
+Pros of picking A: _______________________________________________________
+
+Pros of picking B: _______________________________________________________
+
+Sam's choice (A or B): ________
+
+Sam's family is worried about paying rent next year. Does that change the choice? Circle: YES / NO
+
+In one sentence, use ONE number from today's chart to explain why. *(d(2)(A), d(3)(G))*
+
+   ___________________________________________________________________
 
 ---
 

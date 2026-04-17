@@ -12,10 +12,12 @@ Students explore the H&L Automotive & Collision Repair pathway (Ch 15), complete
 
 ## TEKS Alignment
 
-- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements.
-- **d(2)(B):** Use available resources to research and evaluate educational and training options for one or more careers.
-- **d(3)(G):** Investigate opportunities for career preparation through apprenticeships and community/technical colleges.
-- **d(5)(E):** Use resources to compare salaries of at least three careers in the student's interest area.
+- **d(1)(B):** Explore and describe the CTE career clusters (Day 1 Transportation cluster browse).
+- **d(1)(C):** Identify career opportunities within one or more career clusters (Days 1, 5).
+- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements (Day 2 ASE).
+- **d(2)(B):** Use available resources to research and evaluate educational and training options for one or more careers (Days 3, 4).
+- **d(3)(G):** Investigate opportunities for career preparation through apprenticeships and community/technical colleges (Days 2, 4).
+- **d(5)(E):** Use resources to compare salaries of at least three careers in the student's interest area (Days 3, 5).
 
 ## Materials Needed
 
@@ -71,10 +73,11 @@ The chapter also lists the Automotive & Collision Repair pathway and the Diesel 
 
 ## Formative Assessment
 
-- "Delivery Connection App" sketch quality (Day 1): d(1)(C)
-- Apprenticeship vs. College comparison chart (Day 2): d(3)(G)
-- Salary Comparison worksheet (Day 3): d(5)(E)
-- Ratteree research notes (Day 4): d(2)(B)
+- Delivery Connection App sketch + Auto vs. Collision Venn exit ticket (Day 1): d(1)(B), d(1)(C)
+- Apprenticeship vs. College chart + Sam-scenario dilemma exit ticket (Day 2): d(2)(A), d(3)(G)
+- 3-career Salary Comparison worksheet + matrix exit ticket (Day 3): d(5)(E), d(2)(B)
+- Ratteree vs. trade school notes + Dani MCQ exit ticket (Day 4): d(2)(B), d(3)(G)
+- Cross-Cluster Salary Presentation + favorited-career concept map exit ticket (Day 5): d(5)(E), d(1)(C)
 
 ## Summative Assessment
 

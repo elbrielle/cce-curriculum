@@ -86,7 +86,33 @@ This is a preview, not a deep dive. Day 2 covers ASE certification.
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name two features you put on your Delivery Connection App and explain how each one solves a specific problem from the FleetConnect brief. *(d(1)(C))*
+**EXIT TICKET** (Venn Diagram Comparison):
+
+Both **Auto Service Technician** and **Collision Repair Technician** are Transportation cluster careers you saw in H&L today. Fill in the Venn Diagram below.
+
+```
+     AUTO SERVICE TECH                   COLLISION REPAIR TECH
+     ----------------------              -----------------------
+
+     (different: 2 things              (different: 2 things
+      only Auto Tech does)              only Collision does)
+
+
+
+                        (overlap: 2 things
+                         BOTH careers do)
+
+```
+
+- **Unique to Auto Service Tech:** ___________________________________
+
+- **Unique to Collision Repair Tech:** ___________________________________
+
+- **Shared by both:** ___________________________________
+
+Bottom line: a student who loves PAINT + BODY WORK should pick which career, and why? *(d(1)(B), d(1)(C))*
+
+   ___________________________________________________________________
 
 ---
 

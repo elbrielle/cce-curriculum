@@ -75,7 +75,22 @@ After both columns are filled in, students write a 2-3 sentence comparison: "If 
 
 ## Exit Ticket (7 min)
 
-**EXIT TICKET:** Name one specific advantage of starting the Ratteree automotive pathway in high school instead of waiting until after graduation. Then identify one situation where the post-HS trade school option would be the better choice. *(d(2)(B), d(3)(G))*
+**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors):
+
+Scenario: Dani is a 9th-grader at Nimitz. She loves taking apart her family's car and wants to be an auto technician. Her family cannot pay $30,000 for tuition after high school.
+
+Question: Based on what you learned today, what is the BEST next step for Dani?
+
+- A. Wait until after graduation and take out a loan for UTI or Lincoln Tech.
+- B. Apply to Ratteree in 10th grade and earn ASE-ready training during high school at no cost.
+- C. Transfer to a 4-year university program after high school because auto careers require a degree.
+- D. Wait until senior year to decide so she can explore more careers first.
+
+Circle your answer. In one sentence, explain why the OTHER three choices are weaker for Dani's situation. *(d(2)(B), d(3)(G))*
+
+   ___________________________________________________________________
+
+   ___________________________________________________________________
 
 ---
 
