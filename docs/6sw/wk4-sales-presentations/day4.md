@@ -86,7 +86,31 @@ By the end of Day 4, every student has presented their full career talk TWICE an
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Describe what you would wear to a business-casual interview. Then name the ONE thing you will fix in your career presentation before tomorrow. *(d(6)(B), d(4)(C))*
+**EXIT TICKET** (Decision Tree):
+
+Follow the tree. Circle your path.
+
+**Step 1:** What TYPE of interview is it?
+
+- **CASUAL** (food service, summer camp, retail) → go to Step 2A
+- **BUSINESS-CASUAL** (office assistant, internship) → go to Step 2B
+- **BUSINESS-PROFESSIONAL** (corporate office, bank) → go to Step 2C
+
+**Step 2A (casual):** Top I would wear: _______________________  |  Bottom: _______________________  |  Shoes: _______________________
+
+**Step 2B (business-casual):** Top: _______________________  |  Bottom: _______________________  |  Shoes: _______________________
+
+**Step 2C (business-professional):** Top: _______________________  |  Bottom: _______________________  |  Shoes: _______________________
+
+**Step 3:** ONE thing I would NEVER wear to ANY interview:
+
+   ___________________________________________________________________
+
+**Step 4:** ONE thing I will FIX in my career presentation before tomorrow (based on partner feedback today):
+
+   ___________________________________________________________________
+
+*(d(6)(B), d(4)(C))*
 
 ---
 

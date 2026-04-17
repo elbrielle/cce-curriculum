@@ -93,7 +93,31 @@ This chart becomes the foundation of the Day 2 slide deck.
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name your team's business, the investor you're pitching, and the problem your business solves. *(d(1)(C), d(4)(B))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: Another team in this class is pitching a dog-walking app to Super Sports Ventures. Super Sports only invests in SPORTS TECH. The team thinks "dogs = exercise = sports."
+
+1. Does this investor match this business idea? **YES / NO**
+
+2. ONE reason (use the investor profile from today):
+
+   ___________________________________________________________________
+
+3. MY team's business name: _______________________
+
+4. MY team's investor choice: _______________________
+
+5. ONE "key person" my team needs to hire AND one job skill that person would bring (from the business plan chart):
+
+   Key hire: _______________________
+
+   Skill they bring: ________________________________________________
+
+6. Name ONE OTHER career where that same skill would also be useful (shows the skill is transferable):
+
+   ___________________________________________________________________
+
+*(d(1)(C), d(4)(B))*
 
 ---
 

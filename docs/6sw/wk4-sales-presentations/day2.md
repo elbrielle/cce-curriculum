@@ -89,7 +89,45 @@ After the practice, lead a 1-minute debrief: *"Was it harder to GIVE feedback or
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name one specific change you made to your team's slide deck based on partner feedback. Then write one sentence explaining why "Good job" is bad feedback. *(d(4)(B), d(4)(C))*
+**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors):
+
+Circle the BEST answer for each question.
+
+1. Which is the STRONGEST feedback on a partner's slide?
+
+   a) "Good job!"
+
+   b) "I didn't really get it."
+
+   c) "Your target-audience slide was specific about age, but the slogan is hard to remember. Try a shorter slogan."
+
+   d) "You should change everything."
+
+2. A teammate gives you a "wish" (improvement suggestion). The BEST response is:
+
+   a) Defend your original choice out loud
+
+   b) Say thank you, take a note, decide later
+
+   c) Agree to change it on the spot even if you disagree
+
+   d) Ignore it, they don't know your business
+
+3. A good pitch slide should be:
+
+   a) A paragraph explaining the idea
+
+   b) Headline + image + 3 bullets
+
+   c) Text only, no images
+
+   d) 50 words minimum
+
+ONE specific change I made to MY team's slide deck after partner feedback today:
+
+   ___________________________________________________________________
+
+*(d(4)(B), d(4)(C))*
 
 ---
 

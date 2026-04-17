@@ -88,7 +88,23 @@ Close Activity 2 with a direct student-facing announcement: Friday's individual 
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Name the career you will present on Friday and your three key facts (in 1-2 words each). *(d(4)(C))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. Career I will present on Friday: _______________________
+
+2. My three KEY FACTS (1-2 words each is fine):
+
+   - Fact 1 (education path): _______________________
+
+   - Fact 2 (DFW salary): $__________
+
+   - Fact 3 (daily task): _______________________
+
+3. My one-sentence conclusion (fits me OR does NOT fit me, both are valid):
+
+   ___________________________________________________________________
+
+*(d(4)(C), d(1)(C))*
 
 ---
 

@@ -80,7 +80,31 @@ Then direct students to update their H&L Career Plan with the career they presen
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Rate your presentation 1-10. Name ONE thing you would improve. Then name ONE thing you learned from listening to a classmate's presentation. *(d(4)(C))*
+**EXIT TICKET** (3-2-1 Reflective):
+
+**3** things my presentation did WELL today (be specific, not "good job"):
+
+   1. _______________________________________________________________
+
+   2. _______________________________________________________________
+
+   3. _______________________________________________________________
+
+**2** things I would fix if I delivered it again (one content, one delivery):
+
+   - Content fix: _________________________________________________
+
+   - Delivery fix (eye contact, pace, volume, posture): ___________
+
+**1** skill from my presentation today that TRANSFERS to a different career I heard a classmate present:
+
+   Skill: _______________________
+
+   Classmate's career where it also matters: _______________________
+
+My self-rating on the rubric (1-10): ______
+
+*(d(4)(C), d(4)(B))*
 
 ---
 
