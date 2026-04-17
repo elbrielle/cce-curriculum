@@ -87,7 +87,26 @@ Distribute the Community Service Reflection handout. Students complete:
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name the grade level and learning goal you chose for your Teaching Toolbox activity. Then name one community service experience you have had and the career skill it built. *(d(1)(C), d(4)(E))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank these 4 community service experiences from BUILDS MOST career-relevant skills (1) to BUILDS FEWEST (4) based on today's reflection:
+
+- Tutoring a younger student: rank ____
+- Volunteering at a food bank: rank ____
+- Helping at a school event (book fair, science night): rank ____
+- Helping a younger sibling with reading: rank ____
+
+For EACH rank, write ONE specific skill that experience builds:
+
+- Rank 1: Skill = _______________________
+
+- Rank 4: Skill = _______________________
+
+Bottom line: ONE community service experience I HAVE HAD (or plan to do) + ONE specific career skill it built + TODAY'S Teaching Toolbox activity grade level + learning goal: *(d(1)(C), d(4)(E))*
+
+   My service: _______________________. Skill: _______________________
+
+   Grade level: _______________________. Learning goal: _______________________
 
 ---
 

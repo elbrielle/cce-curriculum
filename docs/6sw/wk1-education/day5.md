@@ -86,7 +86,31 @@ Students should now have favorites spanning every cluster explored this year (Ma
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name the Education career you find most interesting AND the Irving ISD pathway that connects to it. Explain in one sentence whether the Education pathway at Irving High, MacArthur, or Nimitz appeals to you more, or whether the Early Childhood Education pathway at Cardwell fits better, or whether neither fits. *(d(1)(C), d(2)(A))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+The Education career I favorited this week: _______________________
+
+Connect this career to THREE things:
+
+**1. An Irving ISD pathway** (Teaching & Training at Irving High / MacArthur / Nimitz → Educational Aide cert, OR Early Childhood Education at Cardwell → CDA credential)
+
+   My pathway: _______________________. Does it lead DIRECTLY to my career or is it a STEPPING STONE? Circle: DIRECT / STEPPING STONE. One sentence why:
+
+   ___________________________________________________________________
+
+**2. My Day 4 Community Service reflection** — a real experience I have had
+
+   My experience: _______________________. In one sentence, how does this experience prepare me for my favorited education career?
+
+   ___________________________________________________________________
+
+**3. My Day 2 leadership quality** (responsibility / kindness / honesty / courage)
+
+   My quality: _______________________. In one sentence, how would this quality show up in my favorited career DAILY?
+
+   ___________________________________________________________________
+
+*(d(1)(C), d(2)(A))*
 
 ---
 

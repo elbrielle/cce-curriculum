@@ -87,7 +87,27 @@ Students work through the lesson at their own pace. Most will finish in 8 minute
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** List the four steps of an effective job search. For ONE step, identify the specific Irving ISD or DFW resource that would help most (campus Career Fair, Singley counselor, LinkedIn Learning at the public library, a specific neighbor or family member). Then name one company from your scavenger hunt and the salary they listed (or "None"). *(d(6)(A), d(1)(C))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. List the 4 H&L job search steps in order:
+
+   1) _______________________  2) _______________________
+
+   3) _______________________  4) _______________________
+
+2. The step I am MOST prepared for RIGHT NOW: _______________________. Why?
+
+   ___________________________________________________________________
+
+3. ONE specific Irving ISD OR DFW resource for ONE of the steps (campus Career Fair / Singley counselor / LinkedIn Learning at the public library / specific neighbor or family member):
+
+   Step: _______________________. Resource: _______________________
+
+4. ONE company from my scavenger hunt + the salary (or "None"):
+
+   Company: _______________________. Job title: _______________________. Salary: _______________________
+
+*(d(6)(A), d(1)(C))*
 
 ---
 
