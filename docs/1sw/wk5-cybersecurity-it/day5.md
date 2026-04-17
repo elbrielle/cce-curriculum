@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Finish remaining Glowforge cuts; participate in the Gallery Walk; update the Wk0 My Career Journey reflection with new data; favorite final IT careers in H&L; complete Xello Save Careers |
-| **TEKS** | d(1)(D), d(4)(F), d(3)(A) |
+| **TEKS** | d(1)(C), d(3)(A) |
 | **Deliverable** | Updated My Career Journey reflection (turned in) + completed Glowforge logo (physical artifact) + 2 final IT favorites in H&L |
 | **Materials** | Glowforge laser cutter, remaining cutting material, Wk0 My Career Journey reflection handouts (return to students), H&L accounts, Xello accounts, projector, gallery display surface |
 
@@ -63,9 +63,13 @@ Tell students: "Both platforms now know what you like. The next 30 weeks add mor
 
 ---
 
-## Exit Ticket (No formal exit — students turn in the My Career Journey reflection update as the final deliverable)
+## Exit Ticket (Deliverable-only day, no formal ticket)
 
-**Final Submission:** Students turn in (1) their updated My Career Journey reflection, (2) their completed Glowforge logo (taken home or stored), and (3) confirmation of 2 IT favorites + Xello Save Careers. *(d(1)(D), d(4)(F), d(3)(A))*
+Day 5 is the 1SW capstone day. The updated My Career Journey reflection IS the week's summative mastery probe — a multi-part structured reflection already covers synthesis across all five weeks. No additional 3-min exit ticket.
+
+**Final Submission:** Students turn in (1) their updated My Career Journey reflection, (2) their completed Glowforge logo (taken home or stored), and (3) confirmation of 2 IT favorites + Xello Save Careers.
+
+**Mastery evidence:** Reflection Q1 (clusters explored) + Q2 (favorited careers) demonstrate d(1)(C). Reflection Q5 (postsecondary goal) paired with the physical Glowforge artifact demonstrates d(3)(A). *(d(1)(C), d(3)(A))*
 
 ---
 

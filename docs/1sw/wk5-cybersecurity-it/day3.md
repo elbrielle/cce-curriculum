@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Complete H&L "Cybersecurity in Action" Step 4 (peer feedback rubric); refine the Cyber Safety tool; discuss why integrity matters in cybersecurity careers |
-| **TEKS** | d(1)(D), d(4)(F) |
+| **TEKS** | d(4)(F) |
 | **Deliverable** | Refined Cyber Safety tool + completed peer feedback rubric (Ch 12, p. 195) + integrity reflection (1 paragraph) |
 | **Materials** | H&L Workbook Ch 12 (pp. 194-195), Day 2 design drafts, Chromebooks, projector |
 
@@ -77,7 +77,26 @@ Students write a brief reflection in their workbook margin (4-5 sentences) answe
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Define integrity in your own words and give one specific example of how it applies to a cybersecurity career. *(d(4)(F))*
+**EXIT TICKET** (Trade-off / Dilemma Analysis):
+
+You are a NEW cybersecurity analyst at a DFW hospital. You have access to every patient's medical records. On your second day, a coworker says: "Hey, can you quickly look up my ex's diagnosis? Nobody will know."
+
+- **(A) Look it up.** Pros: helps a coworker, feels like a small favor, easy.
+- **(B) Say no and report it.** Pros: follows rules, protects patient privacy, keeps your job.
+
+Pros of picking A: _______________________________________________________
+
+Pros of picking B: _______________________________________________________
+
+My choice (A or B): ________
+
+Quality list: honest / trustworthy / careful / brave / private / professional. (Or write your own.)
+
+Which quality fits THIS choice best? ________________________
+
+In one sentence, why is THIS quality the right one in cybersecurity — where NO ONE would find out if you looked? *(d(4)(F))*
+
+   ___________________________________________________________________
 
 ---
 

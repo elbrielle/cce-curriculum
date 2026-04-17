@@ -78,7 +78,25 @@ For each layer, click on a job title and look at:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name one cybersecurity career and explain in one sentence why it is considered a "high-demand" occupation. *(d(1)(D))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank these three CyberSeek cybersecurity careers from FASTEST to reach (1) to SLOWEST (3) starting from 7th grade today.
+
+- Cybersecurity Specialist (entry-level, 0-3 years): rank ____
+- Cybersecurity Engineer (advanced, 7+ years): rank ____
+- Cybersecurity CISO (senior / Chief Information Security Officer): rank ____
+
+For EACH rank, write one specific reason (education time, certifications required, or job experience) from today's CyberSeek research.
+
+- Rank 1 (fastest to reach): _______________________________________________________
+
+- Rank 2: _______________________________________________________
+
+- Rank 3 (slowest): _______________________________________________________
+
+Bottom line: CyberSeek showed hundreds of thousands of OPEN US cybersecurity jobs. In one sentence, explain why "high-demand" means these jobs get FILLED faster than people can be trained. *(d(1)(D))*
+
+   ___________________________________________________________________
 
 ---
 

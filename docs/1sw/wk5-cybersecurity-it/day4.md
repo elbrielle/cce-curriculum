@@ -91,7 +91,25 @@ Students whose designs are not yet ready continue working on them while the firs
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name the college, trade school, military branch, or certification program your logo represents AND explain why you chose it. *(d(3)(A))*
+**EXIT TICKET** (Decision Tree / Branching Prompt):
+
+My postsecondary goal (from the Glowforge logo): _______________________
+
+Step 1: What is ONE thing I need to do in HIGH SCHOOL (9th-12th grade) to stay on track for this goal? (Example: "take Computer Science at my home HS," "apply to Singley for Cybersecurity," "keep GPA above 3.0 for college admission.")
+
+   ___________________________________________________________________
+
+Step 2: After high school, which path fits FIRST?
+
+Circle ONE: **4-year college** / **community college** / **trade school / cert program** / **military** / **direct to work**
+
+Step 3: Branch on cost —
+
+   IF my family CAN afford the first-choice path above, my next step after graduation is: ___________________________________________________________________
+
+   IF my family CANNOT afford it, my BACKUP first step after graduation is: ___________________________________________________________________
+
+*(d(3)(A))*
 
 ---
 

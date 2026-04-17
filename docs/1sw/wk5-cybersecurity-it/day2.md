@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Read the H&L "Cybersecurity in Action" scenario; choose a Cyber Safety tool type (Guide, App, or PSA); brainstorm and design the tool |
-| **TEKS** | d(1)(D), d(4)(F) |
+| **TEKS** | d(1)(C) |
 | **Deliverable** | Cyber Safety tool design draft (Steps 1-3 of the H&L activity) |
 | **Materials** | H&L Workbook Ch 12 (pp. 193-194), Chromebooks, design tools (Canva, Adobe Express, paper for sketching), projector |
 
@@ -86,7 +86,21 @@ Walk the room. Stop students who are perfectionizing the design without thinking
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name the tool type you chose (Guide / App / PSA) and the ONE most important safety message your tool will teach kids. *(d(1)(D))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: An Irving after-school program serves 200 kids ages 8-12. Most of them do not read English well. The program director asks you to pick ONE Cyber Safety tool to share with every kid.
+
+1. Which H&L tool option (Guide / App / PSA) fits this group BEST, and why? Use one detail about the audience (age, reading level, group size) to back your pick.
+
+   My pick: _______________________
+
+   Why: ____________________________________________________________
+
+2. What is the ONE most important safety message your tool will teach these kids? (In 1 sentence.) *(d(1)(C))*
+
+   ___________________________________________________________________
+
+   ___________________________________________________________________
 
 ---
 

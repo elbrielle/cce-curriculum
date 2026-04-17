@@ -12,9 +12,10 @@ Students explore the Cybersecurity pathway through Hats & Ladders, complete the 
 
 ## TEKS Alignment
 
-- **d(1)(D):** Research and evaluate emerging occupations related to career interest areas.
-- **d(4)(F):** Define and identify examples in the workplace of characteristics required for personal and professional success such as work ethic, integrity, dedication, and perseverance.
-- **d(3)(A):** Describe academic requirements for transitioning from middle school to high school and from high school to career or postsecondary education.
+- **d(1)(C):** Identify various career opportunities within one or more career clusters (Day 2 Cyber Safety Creator role, Day 5 H&L Favorites).
+- **d(1)(D):** Research and evaluate emerging occupations related to career interest areas (Day 1 Cybersecurity + CyberSeek).
+- **d(4)(F):** Define and identify examples in the workplace of characteristics required for personal and professional success such as work ethic, integrity, dedication, and perseverance (Day 3 integrity in cybersecurity).
+- **d(3)(A):** Describe academic requirements for transitioning from middle school to high school and from high school to career or postsecondary education (Day 4 Glowforge logo, Day 5 postsecondary goal).
 
 ## Materials Needed
 
@@ -81,11 +82,11 @@ The Glowforge college/career logo project is a teacher-designed extension that c
 
 ## Formative Assessment
 
-- **Day 1:** Cybersecurity Hat exploration + CyberSeek pathway traced, d(1)(D)
-- **Day 2:** Cyber Safety tool design (any of the 3 tool types): d(4)(F)
-- **Day 3:** Peer feedback rubric completed + integrity reflection, d(4)(F)
-- **Day 4:** Logo connects to a specific postsecondary goal (not random): d(3)(A)
-- **Day 5:** Updated My Career Journey reflection, synthesis across all 5 weeks, d(1)(D), d(3)(A)
+- **Day 1:** Cybersecurity Hat notes + CyberSeek pathway traced + Ranked Justification exit ticket (3 CyberSeek roles by speed to reach). *d(1)(D)*
+- **Day 2:** Cyber Safety tool design draft + Mini-Case exit ticket (after-school program tool pick). *d(1)(C)*
+- **Day 3:** Peer feedback rubric + integrity reflection + Trade-off Dilemma exit ticket (hospital data access request from coworker). *d(4)(F)*
+- **Day 4:** Glowforge logo connected to postsecondary goal + Decision Tree exit ticket (HS + post-HS + cost branching). *d(3)(A)*
+- **Day 5:** Updated My Career Journey reflection as capstone (deliverable-only day, no formal ticket). *d(1)(C), d(3)(A)*
 
 ## Summative Assessment
 
