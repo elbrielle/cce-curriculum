@@ -98,7 +98,25 @@ Students mark on their worksheet which test is most relevant to their postsecond
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name the Texas HS endorsement that matches your chosen pathway and identify which standardized test is most relevant to your postsecondary plan. *(d(3)(A), d(3)(E))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. My #1 Irving ISD pathway (from Wk 1): _______________________
+
+2. The Texas endorsement that matches (circle one): **STEM** / **Business & Industry** / **Public Services** / **Arts & Humanities** / **Multidisciplinary**
+
+3. Two 9th-10th grade CTE courses my pathway requires (use Texas OnCourse or the Irving ISD CTE poster):
+
+   - 9th: _______________________
+
+   - 10th: _______________________
+
+4. The ONE standardized test most relevant to my postsecondary plan (circle one): **PSAT** / **SAT** / **ACT** / **TSI** / **ASVAB** / **industry certification**
+
+5. In one sentence, why does THIS test matter for the pathway I picked?
+
+   ___________________________________________________________________
+
+*(d(3)(A), d(3)(E))*
 
 ---
 

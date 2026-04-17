@@ -73,7 +73,22 @@ Students fill in the CTE Pathway column with the actual course names from the Ir
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** List the 9th and 10th grade CTE courses for your chosen pathway AND the high school where they are offered. Then identify ONE scheduling concern you will need to solve when you enroll (an elective conflict, bus route from your zoned HS to the CTE campus, program size, or a prerequisite). *(d(8)(B))*
+**EXIT TICKET** (Comparison Matrix):
+
+Use your H&L Course Planner screenshot (or paper template) to fill in the matrix for YOUR pathway.
+
+| Year | Core academic (pick ONE) | My CTE pathway course |
+|---|---|---|
+| 9th grade | | |
+| 10th grade | | |
+| 11th grade | | |
+| 12th grade (capstone) | | |
+
+High school where the pathway is offered: _______________________
+
+Bottom line: ONE scheduling concern I will need to solve when I enroll (bus route, elective conflict, pathway at a DIFFERENT campus than my home school, program size, prerequisite): *(d(8)(B))*
+
+   ___________________________________________________________________
 
 ---
 

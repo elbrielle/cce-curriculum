@@ -85,7 +85,25 @@ This is the d(3)(B) coverage for the week. Students who finish early can browse 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name one thing you will tell your family about your career plan tonight, and identify one AP or dual-credit course available in your pathway. *(d(3)(D), d(3)(B))*
+**EXIT TICKET** (Decision Tree / Branching Prompt):
+
+Tonight I bring home my Family Career Plan Letter. My family member asks: "How will this pathway lead to a real job?"
+
+Step 1: What is the FIRST thing I say to answer the question? (One sentence.)
+
+   ___________________________________________________________________
+
+Step 2: Branch on their response —
+
+   IF my family member is SUPPORTIVE and excited, what do I ask them for next? ___________________________________________________________________
+
+   IF my family member is UNSURE or says "that's not a real career," what ONE piece of evidence do I use to explain why it IS a real career? ___________________________________________________________________
+
+Step 3: ONE AP or dual-credit course available in my pathway (from today's College For All Texans research):
+
+   ___________________________________________________________________
+
+*(d(3)(B), d(3)(D))*
 
 ---
 

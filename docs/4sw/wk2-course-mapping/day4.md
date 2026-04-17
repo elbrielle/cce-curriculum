@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Work through eDynamic Learning Unit 6.2: Gaining Experience; identify three specific ways to start building career experience this year (before high school); connect experience-building to TSA and other Irving ISD student organizations |
-| **TEKS** | d(3)(A), d(8)(C) |
+| **TEKS** | d(3)(F), d(8)(C) |
 | **Deliverable** | eDynamic 6.2 progress + completed Experience Action Plan listing 3 specific actions the student will take this school year |
 | **Materials** | Chromebooks, eDynamic Learning Unit 6.2 access, printed Experience Action Plan template, projector |
 
@@ -71,7 +71,29 @@ The actions must be specific (not "do something with computers") and time-bound 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name one specific way you can start building career experience this year (before high school) and explain how it connects to your chosen pathway. *(d(3)(A))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank my 3 Experience Action Plan items from MOST LIKELY to complete (1) to LEAST LIKELY (3).
+
+- Action 1: _______________________. Rank ____
+
+- Action 2: _______________________. Rank ____
+
+- Action 3: _______________________. Rank ____
+
+For EACH rank, write ONE reason (access, time, interest, family support) that backs the rank:
+
+- Rank 1 (most likely): _______________________________________________________
+
+- Rank 3 (least likely): _______________________________________________________
+
+Bottom line: ONE CTSO (TSA / SkillsUSA / FBLA / HOSA / FCCLA / FFA / BPA) my pathway connects to, and how joining it THIS YEAR would help my Rank 1 action:
+
+   My CTSO: _______________________
+
+   How it helps my Rank 1: _____________________________________________
+
+*(d(3)(F), d(8)(C))*
 
 ---
 

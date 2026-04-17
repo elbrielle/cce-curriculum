@@ -79,7 +79,33 @@ After H&L finalization, students submit the printed Career Plan template to the 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** In one sentence, describe your career goal and the first action step you will take toward it this month. Submit this on top of your Career Plan. *(d(8)(C))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+My career goal from my Career Plan: _______________________
+
+Connect this goal to THREE things:
+
+**1. The Irving ISD pathway + campus I selected** (from my Career Plan Section 3)
+
+   Pathway: _______________________ at _______________________. One sentence on why THIS pathway (not a different one) is the strongest match for my goal:
+
+   ___________________________________________________________________
+
+**2. My 9th-grade gateway course** (from my 4-year course map)
+
+   9th-grade course: _______________________. In one sentence, what happens to my pathway if I DON'T take this course in 9th grade?
+
+   ___________________________________________________________________
+
+**3. My first action step THIS MONTH** (from my Experience Action Plan)
+
+   First action: _______________________. What ONE small thing will I do THIS WEEK to start it?
+
+   ___________________________________________________________________
+
+*(d(8)(B), d(8)(C), d(3)(D))*
+
+Submit this on top of your Career Plan.
 
 ---
 
