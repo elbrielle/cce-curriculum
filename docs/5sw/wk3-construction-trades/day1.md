@@ -85,7 +85,29 @@ This sets up Day 3's Classification activity where students compare multiple car
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Compare TWO construction careers on education type (apprenticeship, associate degree, bachelor's) and name one skill both require. If you had to pick ONE of these pathways today, which would you pick and what trade-off (time, money, physical risk, earning start-date) are you accepting? *(d(1)(C), d(2)(A), d(3)(G))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: A new 10-story apartment building is about to break ground in Las Colinas. The contractor needs to hire 4 specific trade workers TODAY.
+
+1. Name TWO construction careers from today's Hat Research that this contractor needs:
+
+   - Career 1: _______________________
+
+   - Career 2: _______________________
+
+2. Compare education type for each (apprenticeship / associate degree / bachelor's):
+
+   - Career 1 needs: _______________________
+
+   - Career 2 needs: _______________________
+
+3. ONE SKILL both careers require: _______________________
+
+4. If I had to pick ONE of these pathways TODAY, which would I pick and what TRADEOFF (time / money / physical risk / earning start-date) am I accepting? *(d(1)(C), d(2)(A), d(3)(G))*
+
+   My pick: _______________________
+
+   Tradeoff: _______________________________________________________
 
 ---
 

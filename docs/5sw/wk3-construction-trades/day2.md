@@ -89,7 +89,26 @@ Students pair up with a classmate who researched a DIFFERENT union and compare n
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Compare the apprenticeship pathway (apprentice → journeyman → master) to the 4-year college route for reaching the same level of earnings. Identify ONE specific advantage of each pathway. Which route fits you today, and why? *(d(3)(G), d(3)(H))*
+**EXIT TICKET** (Comparison Matrix):
+
+Use my Day 2 Apprenticeship vs. College chart to fill in the matrix.
+
+| | Apprenticeship | 4-Year College |
+|---|---|---|
+| Cost (who pays) | | |
+| Length (years to finish) | | |
+| Wage during training | | |
+| Debt at finish | | |
+
+Bottom line: Which route fits ME TODAY, and why? Use one specific cell from the matrix to back the pick.
+
+   My route: _______________________
+
+   Why: ____________________________________________________________
+
+ONE specific advantage of the OTHER route that I am CHOOSING to give up: *(d(3)(G), d(3)(H))*
+
+   ___________________________________________________________________
 
 ---
 

@@ -75,7 +75,27 @@ Quick share: 3-4 volunteers share their "all three" career and their justificati
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Name one construction career you classified as high-skill, high-wage, AND high-demand. Cite one specific data point (salary, growth rate, or credential) that supports each category. *(d(5)(B), d(5)(A))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. ONE construction career I classified as ALL THREE (high-skill + high-wage + high-demand):
+
+   Career: _______________________
+
+2. Cite ONE specific data point for EACH classification:
+
+   - HIGH-SKILL evidence (credential / education / years required): _______________________
+
+   - HIGH-WAGE evidence (DFW median salary $): _______________________
+
+   - HIGH-DEMAND evidence (BLS 10-year growth % OR DFW job postings): _______________________
+
+3. Name ONE other classmate who had a DIFFERENT "all three" career. Whose was it and why?
+
+   Classmate's career: _______________________. In one sentence, why theirs fits all three:
+
+   ___________________________________________________________________
+
+*(d(5)(A), d(5)(B))*
 
 ---
 

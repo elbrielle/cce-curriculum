@@ -85,7 +85,29 @@ Students keep their draft. Day 5 includes practice and peer feedback (Step 4 of 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name one NCCER certification and explain in one sentence how earning it changes a construction worker's salary OR responsibilities (use a specific comparison — before/after, or compared to an uncertified peer). Then write the first two sentences of your Power Pitch. *(d(2)(A), d(3)(G), d(4)(C))*
+**EXIT TICKET** (Ranked Justification):
+
+From the H&L Power Pitch 3 columns (EXPERIENCE / SKILLS / PERSONAL TRAITS), rank which column is MOST persuasive (1) to LEAST (3) for a 13-year-old applying to a construction union apprenticeship in 5 years.
+
+- Rank 1: _______________________ (Experience / Skills / Personal Traits)
+
+- Rank 2: _______________________
+
+- Rank 3: _______________________
+
+For EACH rank, name ONE specific thing I could SAY from my own life in THAT column:
+
+- Rank 1: _______________________________________________________
+
+- Rank 2: _______________________________________________________
+
+- Rank 3: _______________________________________________________
+
+Bottom line: Write the FIRST TWO SENTENCES of my Power Pitch:
+
+"Hi, my name is _______________________. _______________________________________________________"
+
+ONE NCCER certification I could earn in HIGH SCHOOL at MacArthur ACE school: _______________________. *(d(2)(A), d(3)(G), d(4)(C))*
 
 ---
 

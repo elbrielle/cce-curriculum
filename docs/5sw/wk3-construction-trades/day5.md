@@ -76,7 +76,31 @@ Direct students to open H&L and complete three tasks:
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Which construction career from this week did you classify as high-skill, high-wage, AND high-demand? Then read your final Power Pitch one more time. How do you feel about saying it out loud on a real job interview someday? *(d(5)(B), d(4)(C))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+A construction career I favorited this week: _______________________
+
+Connect this career to THREE things:
+
+**1. My Day 3 classification** (high-skill / high-wage / high-demand — can be 1, 2, or all 3)
+
+   Classifications for my career: _______________________________________________. In one sentence, WHICH of the three is my BIGGEST reason for favoriting this career?
+
+   ___________________________________________________________________
+
+**2. The MacArthur School of ACE Construction pathway** (NCCER CORE certification)
+
+   Does this pathway lead DIRECTLY to my favorited career or is it a STEPPING STONE? Circle: DIRECT / STEPPING STONE. One sentence why:
+
+   ___________________________________________________________________
+
+**3. My Power Pitch** (from Day 4-5)
+
+   ONE sentence from my final Power Pitch that I would use on a real apprenticeship application:
+
+   ___________________________________________________________________
+
+*(d(4)(C), d(5)(B))*
 
 ---
 
