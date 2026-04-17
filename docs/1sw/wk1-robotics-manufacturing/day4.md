@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Set up Sphero RVR+ teams; learn basic SpheroEDU block-based programming; begin the H&L "Task Bot in Action" team activity at Kaleido-Crayons Factory |
-| **TEKS** | d(1)(C), d(2)(A) |
+| **TEKS** | d(1)(C) |
 | **Deliverable** | Sphero teams driving basic patterns + Task Bot role assignments + Step 1 (read shift notes) and Step 2 (research) complete |
 | **Materials** | Sphero RVR+ robots (1 per team of 3-4), SpheroEDU app, painter's tape factory floor course, cardboard obstacles, H&L Workbook Ch 14 (pp. 240-242), Chromebooks, projector |
 
@@ -105,7 +105,25 @@ Teams write down who is playing which role. Then, as a team, they begin research
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Name your team's role assignments (who is the Shift Supervisor, Quality Control Specialist, Maintenance Tech, and Packaging Supervisor). Then write ONE possible cause of Problem #1 based on the shift notes. *(d(1)(C))*
+**EXIT TICKET** (Decision Tree / Branching Prompt):
+
+My Task Bot role today: _______________________ (Shift Supervisor, Quality Control Specialist, Maintenance Tech, or Packaging Supervisor)
+
+Problem: Kaleido-Crayons just reported MORE Color Confusion boxes at 5:00 PM, one hour AFTER the 4:00 PM software update.
+
+Step 1: What does MY ROLE do FIRST in the next 15 minutes? One sentence:
+
+   ___________________________________________________________________
+
+Step 2: Which OTHER role on the team do I need to talk to right now, and why? (Pick ONE: Shift Supervisor / Quality Control Specialist / Maintenance Tech / Packaging Supervisor)
+
+   I need to talk to: _______________________
+
+   Because: ________________________________________________________
+
+Step 3: What is ONE specific clue from the shift notes that points to a possible cause of Color Confusion? *(d(1)(C))*
+
+   ___________________________________________________________________
 
 ---
 

@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Complete the H&L "Designing Metalworks" welder activity (sketch + metal choice + weld choice); complete the "Job References" activity by listing 3 personal references |
-| **TEKS** | d(1)(C), d(2)(A) |
+| **TEKS** | d(1)(C), d(7)(D) |
 | **Deliverable** | Bike rack sketch with labeled welds (Ch 14, p. 238) + 3-reference list (Ch 14, p. 235) |
 | **Materials** | H&L Workbook Ch 14 (pp. 234-238), Chromebooks, plain paper, pencils, projector |
 
@@ -98,7 +98,22 @@ After 8 minutes, lead a brief discussion using the workbook prompt (Ch 14, p. 23
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name the metal and the welding method you chose for your bike rack and explain in one sentence why. Then name ONE person from your References list and why you chose them. *(d(1)(C))*
+**EXIT TICKET** (Ranked Justification):
+
+Imagine a 12th-grader applying for a welding apprenticeship next year. They are choosing references from this list. Rank them from STRONGEST reference (1) to WEAKEST (4) using the 5 H&L rules for picking references.
+
+- Their best friend from English class: rank ____
+- Their math teacher from 8th grade who supervised their robotics club: rank ____
+- Their soccer coach of 3 years: rank ____
+- Their mom, who also works at a welding shop: rank ____
+
+For each rank, name ONE H&L rule from today (knows your work ethic, not friends/family, has permission, professional contact, supervised you):
+
+- Rank 1 (strongest): _______________________________________________________
+
+- Rank 4 (weakest): _______________________________________________________
+
+*(d(1)(C), d(7)(D))*
 
 ---
 

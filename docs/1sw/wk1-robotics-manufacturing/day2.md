@@ -78,7 +78,21 @@ Walk the room. Confirm every student has a chosen Hat before they start writing.
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Identify one Manufacturing career and describe two specific training or certification requirements for that career using your Hat Research worksheet. *(d(2)(A))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: Jamie is in 10th grade in Irving ISD. Jamie wants a Manufacturing job right after graduation (not a 4-year college). Jamie just read your Hat Research worksheet.
+
+1. Which Manufacturing career from your Hat Research would you recommend to Jamie? _______________________
+
+2. What are TWO specific training or certification steps Jamie must complete to reach that career? Use your Hat Research worksheet.
+
+   - Step 1: _________________________________________________
+
+   - Step 2: _________________________________________________
+
+3. About how long will BOTH steps take together (weeks, months, or years)? ________________________________________
+
+*(d(1)(C), d(2)(A))*
 
 ---
 

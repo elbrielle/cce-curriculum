@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Run the Sphero through the factory floor course; complete H&L "Task Bot in Action" Steps 3-6 (Brainstorm → Action Plan → Consult Personnel → Present); favorite 2 Manufacturing careers in H&L |
-| **TEKS** | d(1)(B), d(1)(C), d(2)(A) |
+| **TEKS** | d(1)(B), d(1)(C) |
 | **Deliverable** | Sphero demo run + Task Bot 3-minute team presentation + 2 Manufacturing Hats favorited in Climber Profile |
 | **Materials** | Sphero RVR+ robots, SpheroEDU app, factory floor course, H&L Workbook Ch 14 (pp. 242-245), Chromebooks, projector, Xello accounts |
 
@@ -91,7 +91,31 @@ Use the H&L Task Bot rubric (Ch 14, p. 245) to score each team on Teamwork & Rol
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET:** Name the Manufacturing career you favorited in H&L and explain in ONE sentence why it interests you. Connect it to your RIASEC personality type from Wk0. *(d(1)(C))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+A Manufacturing career I favorited in H&L this week: _______________________
+
+Connect this career to THREE things:
+
+**1. The Manufacturing PATHWAY it belongs to** (Robotics & Automation, Industrial Maintenance, Manufacturing Tech, Electronics, Welding, or Advanced Manufacturing)
+
+   My pathway: _______________________. Why does this career belong to that pathway? One sentence:
+
+   ___________________________________________________________________
+
+**2. My Wk0 RIASEC type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
+
+   My RIASEC type: _______________________. Why does this career match (or not match) my type? One sentence:
+
+   ___________________________________________________________________
+
+**3. A TRAINING FACT from my Day 2 Hat Research** (example: "FANUC Robot Operator training is 1 semester at Singley")
+
+   My training fact: _______________________. One sentence on why this fact matters to a student deciding whether to pursue this career:
+
+   ___________________________________________________________________
+
+*(d(1)(B), d(1)(C))*
 
 ---
 

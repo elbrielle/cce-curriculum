@@ -74,7 +74,19 @@ Walk the room and check that students are actually exploring rather than scrolli
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Pick TWO Manufacturing careers you discovered today and compare them on ONE dimension (daily work, training time, or education type). Then name the Manufacturing pathway that best fits your Wk0 RIASEC type and explain the match in one sentence. *(d(1)(B))*
+**EXIT TICKET** (Comparison Matrix):
+
+Pick TWO Manufacturing careers you explored today. Fill in the matrix below using H&L Hat Finder data.
+
+| | Career 1: _______________ | Career 2: _______________ |
+|---|---|---|
+| Daily work (1 specific task) | | |
+| Training time (months or years) | | |
+| Works with robots, metal, or both? | | |
+
+Bottom line: My Wk0 RIASEC type is _______________. Which of my two careers fits my RIASEC type BEST, and why? Use one cell from the matrix in your answer. *(d(1)(B), d(1)(C))*
+
+   ___________________________________________________________________
 
 ---
 

@@ -12,9 +12,10 @@ Students explore the Manufacturing career cluster through the Hats & Ladders app
 
 ## TEKS Alignment
 
-- **d(1)(B):** Explore and describe the CTE career clusters.
-- **d(1)(C):** Identify various career opportunities within one or more career clusters.
-- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements.
+- **d(1)(B):** Explore and describe the CTE career clusters (Days 1, 5).
+- **d(1)(C):** Identify various career opportunities within one or more career clusters (Days 1-5).
+- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements (Day 2 Hat Research).
+- **d(7)(D):** Protocol for selecting and using references (Day 3 H&L Job References activity).
 
 ## Materials Needed
 
@@ -79,11 +80,11 @@ The **Hat Research** template (Ch 14, p. 239) provides the structured research s
 
 ## Formative Assessment
 
-- **Day 1:** Stop and Jot notes. *d(1)(B)*
-- **Day 2:** Machine Breakdown Mystery checklist accuracy + Hat Research worksheet. *d(1)(C), d(2)(A)*
-- **Day 3:** Designing Metalworks completion (sketch + metal choice + weld choice). *d(1)(C)*
-- **Day 4:** Active monitoring during Sphero programming + Task Bot role engagement. *d(1)(C)*
-- **Day 5:** Task Bot presentation + 2 Manufacturing Hats favorited in Climber Profile. *d(1)(C)*
+- **Day 1:** Stop and Jot notes + Comparison Matrix exit ticket (2 careers x 3 dims + RIASEC fit). *d(1)(B), d(1)(C)*
+- **Day 2:** Machine Breakdown Mystery checklist + Hat Research worksheet + Jamie scenario Mini-Case exit ticket. *d(1)(C), d(2)(A)*
+- **Day 3:** Designing Metalworks sketch + 3-reference list + Ranked Justification exit ticket on reference strength. *d(1)(C), d(7)(D)*
+- **Day 4:** Active monitoring during Sphero programming + Task Bot role assignments + Decision Tree exit ticket. *d(1)(C)*
+- **Day 5:** Task Bot presentation + 2 Manufacturing Hats favorited + Concept Map exit ticket (career + pathway + RIASEC + training fact). *d(1)(B), d(1)(C)*
 
 ## Summative Assessment
 
