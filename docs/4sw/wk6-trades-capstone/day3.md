@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Research one professional association in depth; teach the rest of the class about it; identify which association connects to the student's chosen pathway |
-| **TEKS** | d(3)(H) |
+| **TEKS** | d(3)(F), d(3)(H) |
 | **Deliverable** | Team Jigsaw research notes (1 association) + individual association ID for personal pathway |
 | **Materials** | Chromebooks, association websites bookmarked (SkillsUSA, ASE, FAA, TSA, NSPE), printed Jigsaw research template, projector |
 
@@ -77,7 +77,27 @@ After all 5 presentations, run a 3-minute discussion:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name one professional association related to your chosen pathway AND the specific benefit (competition, scholarship, networking, or credential) that matters most to you right now. Explain in one sentence why THAT benefit fits your current goals better than the other three. *(d(3)(H))*
+**EXIT TICKET** (Comparison Matrix):
+
+Use your Day 3 Jigsaw grid to fill in the matrix for 3 of the 5 associations.
+
+| | Assoc 1: _______________ | Assoc 2: _______________ | Assoc 3: _______________ |
+|---|---|---|---|
+| Who can join? (students, pros, or both) | | | |
+| Top competition or scholarship | | | |
+| Best fit for MY pathway (YES / NO) | | | |
+
+Bottom line: ONE professional association related to MY chosen pathway:
+
+   My association: _______________________
+
+   The specific benefit that matters MOST to me RIGHT NOW (competition / scholarship / networking / credential):
+
+   ___________________________________________________________________
+
+In one sentence, why does THIS benefit fit my current goals BETTER than the other three options? *(d(3)(F), d(3)(H))*
+
+   ___________________________________________________________________
 
 ---
 

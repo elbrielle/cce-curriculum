@@ -105,7 +105,23 @@ Take 3-4 student responses. The point is to make the connection explicit: doing 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Define work ethic in your own words and give one specific example of how you showed work ethic during today's STEM program planning activity. *(d(4)(F))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. Define WORK ETHIC in my own words (NOT from the workbook):
+
+   Work ethic is ___________________________________________________________________
+
+2. ONE specific thing I did during today's STEM Program planning activity that showed work ethic:
+
+   What I did: _______________________________________________________
+
+3. Who benefits from MY strong work ethic on this STEM program (not just me)? ONE sentence:
+
+   ___________________________________________________________________
+
+4. The STEM topic I chose (Science / Technology / Engineering / Math): _______________________. The AUDIENCE my program targets: _______________________
+
+*(d(4)(F), d(4)(B))*
 
 ---
 

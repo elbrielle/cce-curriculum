@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Complete the comprehensive Mid-Year Growth Reflection capturing growth from Week 0 through the mid-year point; participate in the class sharing circle; preview the second half of the year (5SW Architecture & Construction) |
-| **TEKS** | d(4)(B), d(4)(F), d(3)(H), d(8)(A) |
+| **TEKS** | d(4)(B), d(4)(F), d(3)(H) |
 | **Deliverable** | Submitted Mid-Year Growth Reflection (the 4SW summative artifact) |
 | **Materials** | Chromebooks, H&L accounts, My Career Journey reflection sheet from Week 0 + 4SW Wk1 Mid-Year Update, Day 2 Transferable Skills Matrix, Day 3 Jigsaw notes, printed Mid-Year Growth Reflection template (2 pages), projector |
 
@@ -100,7 +100,33 @@ Celebrate the growth honestly. This is the moment students realize how much thei
 
 ## Exit Ticket (4 min)
 
-**EXIT TICKET:** Complete this sentence in writing: *"The most important thing I learned about MYSELF during the first half of this course is _____."* Submit this on top of your Mid-Year Growth Reflection. *(d(4)(B), d(4)(F))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+The most important thing I learned about MYSELF during the first half of this course: _______________________
+
+Connect this self-insight to THREE things:
+
+**1. ONE transferable skill** I DEMONSTRATED this year (from Day 2 matrix)
+
+   My skill: _______________________. One sentence, what specific class activity proves I have it?
+
+   ___________________________________________________________________
+
+**2. ONE professional association** I plan to join (from Day 3 Jigsaw)
+
+   My association: _______________________. One sentence, how does joining it match my self-insight?
+
+   ___________________________________________________________________
+
+**3. ONE goal** for the second half of the year
+
+   My goal: _______________________. One sentence, what is the FIRST small action I'll take in 5SW Wk1 to start on it?
+
+   ___________________________________________________________________
+
+*(d(4)(B), d(4)(F), d(3)(H))*
+
+Submit this on top of your Mid-Year Growth Reflection.
 
 ---
 

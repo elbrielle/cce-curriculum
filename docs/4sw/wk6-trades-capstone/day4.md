@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Discuss work ethic and integrity in the trades through real workplace examples; update the H&L Career Plan with all 4SW data; review every favorited career across the year |
-| **TEKS** | d(4)(F), d(8)(A) |
+| **TEKS** | d(4)(F) |
 | **Deliverable** | Updated H&L Career Plan (screenshot showing Week 3-5 favorites added) + Work Ethic example notes |
 | **Materials** | Chromebooks, H&L accounts + Workbook (Ch 16, "My Career and Course Plan"), printed Work Ethic Examples worksheet, projector |
 
@@ -79,7 +79,25 @@ In pairs, students share:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Define work ethic in your own words and give one specific example of how it applies to a career you favorited in your H&L Career Plan. *(d(4)(F))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: A senior diesel technician at a trucking shop is running late for their daughter's soccer game. The last 18-wheeler they need to inspect today requires a 20-minute brake check. They're considering skipping the check "just this once."
+
+1. What COULD happen if they skip the brake check? (One specific safety consequence.)
+
+   ___________________________________________________________________
+
+2. Which system in the trades industry is designed to CATCH this kind of shortcut? (Circle one: **logs** / **inspections** / **signatures** / **supervisors**)
+
+   My pick: _______________________
+
+3. From MY H&L Career Plan, name ONE favorited career where work ethic has similar safety consequences if skipped:
+
+   My career: _______________________
+
+   ONE specific task where work ethic matters in THIS career: ___________________________________________________________________
+
+*(d(4)(F))*
 
 ---
 

@@ -81,7 +81,27 @@ Surface the pattern: most transferable skills are nearly universal. The differen
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name the three transferable skills that appeared most frequently across all 6 careers in your matrix and explain why each one matters in nearly every job. *(d(4)(B))*
+**EXIT TICKET** (Ranked Justification):
+
+From my Transferable Skills Matrix (8 skills x 6 careers), rank the THREE skills that applied to the MOST careers from MOST universal (1) to LEAST (3).
+
+- Rank 1 (most universal): _______________________
+
+- Rank 2: _______________________
+
+- Rank 3: _______________________
+
+For EACH rank, write ONE specific reason the skill matters in nearly every job:
+
+- Rank 1 why: ______________________________________________________
+
+- Rank 2 why: ______________________________________________________
+
+- Rank 3 why: ______________________________________________________
+
+Bottom line: Total YES marks on my matrix: ____ out of 48. In one sentence, what does this total tell me about "soft skills" versus "technical skills" in career choice? *(d(4)(B))*
+
+   ___________________________________________________________________
 
 ---
 
