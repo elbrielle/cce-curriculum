@@ -25,8 +25,11 @@ A 36-week Career and College Explorations (CCE) course curriculum for grade 7 ac
 ├── cce-curriculum/                    ← reference data (not the website)
 │   ├── scope-and-sequence.md          ← master pacing guide (authoritative)
 │   ├── resources/reference-pdfs/      ← H&L workbook PDFs + .txt extracts
-│   └── notes/
+│   └── notes/                         ← authoring rulebooks (dev-facing)
 │       ├── editing-heuristics.md      ← READ before substantive edits
+│       ├── teks-audit-process.md      ← READ before rewriting exit tickets or objectives
+│       ├── exit-ticket-templates.md   ← 10-format bank for exit-ticket authoring
+│       ├── cfa-template.md            ← CFA authoring spec + 4-level rubric
 │       ├── instinct-review.md
 │       ├── vetting-report.md          ← FROZEN
 │       └── revision-plan.md           ← H&L chapter-to-week crosswalk
@@ -53,7 +56,9 @@ Each week has two tiers:
 - **Concrete deliverables per day.** Every plan ends with a specific artifact (PNG, worksheet, presentation).
 - **Activity specs, not vague instructions.** "Design a building with 4+ walls, roof, 1 door, 2 windows. Export as PNG."
 - **Facilitation tips, not scripts.** "If students struggle with grouping, demonstrate align-then-group on the projector."
-- **No em dashes** in teacher-facing `docs/` body prose. Developer-facing files are fine.
+- **No em dashes** in teacher-facing `docs/` body prose. Developer-facing files (`cce-curriculum/notes/`) are fine.
+- **6th-7th grade ESL reading level for exit tickets.** Short sentences, concrete examples, scaffold word lists for abstract concepts, no nested clauses or idioms, no TEK codes in student-facing text.
+- **TEKS tags must be audited, not inherited.** Before writing or revising an exit ticket, lesson objective, or DOL, run the process in `cce-curriculum/notes/teks-audit-process.md`. H&L is career-exploration content, not natively TEKS-aligned; the alignment is CCE's overlay. TEK "such as" language means named items are examples, not exhaustive.
 
 ## Source Grounding
 
@@ -78,6 +83,10 @@ Before any substantive edit, read **`cce-curriculum/notes/editing-heuristics.md`
 - Escalation criteria
 
 Also read **`PLANNING.md`** for current project state, non-negotiables, and preservation loop.
+
+For specific edit types, also read:
+- **Exit tickets / lesson objectives / DOLs** — `cce-curriculum/notes/teks-audit-process.md` (6-step audit) + `exit-ticket-templates.md` (10-format bank)
+- **CFAs** — `cce-curriculum/notes/cfa-template.md` (4-part structure, 4-level rubric)
 
 ## Special Markers
 

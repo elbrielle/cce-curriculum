@@ -1,53 +1,57 @@
 # PLANNING.md — CCE Curriculum Post-Meeting State
 
-**Last updated:** 2026-04-16 (second session, all §4.1 US-jurisdiction tasks shipped)
-**Purpose:** Brief any agent on the current state of the CCE curriculum project after the first teacher review meeting (2026-04-15). §4.1 US-jurisdiction work is done; remaining queue is team-blocked, investigation tasks, and deferred items.
+**Last updated:** 2026-04-16 (third session: exit-ticket pilot + TEKS audit process + authoring rulebook relocation)
+**Purpose:** Brief any agent on the current state of the CCE curriculum project after the 2026-04-15 teacher meeting.
 
 ---
 
 ## 0. Next Agent — Start Here
 
-**Handoff date:** 2026-04-16 (evening — after §4.1 completion batch)
-
-### What happened in the second session (so you don't redo it)
-
-All nine §4.1 US-jurisdiction items shipped and pushed to `main` as separate commits, each passing the §9 preservation loop:
-
-- **C2** Wk0 Day 1 menu wording fix (commit `fea941b` batch 1)
-- **B5** Wk0 Day 2 Xello "What is CTE" module (5 min) inserted; activity numbering updated; time bumped 50 → 55 min; Xello added to Materials (batch 1)
-- **A2/A3** New `docs/resources/facilitation-strategies.md` (QSSA, Think-Pair-Share, Talk-Read-Talk-Write, Jigsaw, 3 Kagan structures + "Need a Facilitation Strategy? Try This" admonition template). First use case admonition applied to 1SW Wk1 Day 1 Activity 1 jigsaw option (C1). nav updated (batch 1).
-- **C3/C4** Hour of Code exit tickets (Wk2 Days 4-5) rewritten with sentence-stem + word-bank format, Day 5 favorites reflection stem reformatted with long underlines (commit `d9ad853`)
-- **A6** Engineering notebook added as yearlong standard supply to Wk0 overview and Day 1; pattern seeded in two exemplar deliverables (1SW Wk1 Day 1 Stop and Jot, 5SW Wk1 Day 3 Architecture sketch) (commit `a87d597`)
-- **A1** Exit ticket DOK audit: 178 exit tickets classified, 20 clear recall-only rewritten as DOK 2-3 (comparison / classification / self-spiral application). ~160 already DOK 2+, borderline, or two-part (preserved). Full list in commit message (commit `1b7ec9b`)
-- **A4/A7** New `docs/resources/cfa-template.md` + `docs/1sw/cfa.md` "Your IT Future" 20-min ECR CFA. Template describes 4-part structure (Identify / Compare / Connect-to-Self / Forward Action), 4-level rubric, >30% threshold trigger for reteach. 2SW-6SW CFAs flagged as round-2-feedback-dependent (commit `5879218`)
-- **A5** TEKS coverage matrix upgraded from binary to three-tier (Explicit / Implicit / Gap). 33/37 codes Explicit, 4 Implicit (d(3)D, d(3)F, d(4)D, d(4)E), 0 hard gaps. Round-2 deepening candidates flagged. d(8) buffer-week risk called out with mitigation options (commit `575be17`)
-- **B2** JROTC audit: 2 new military-adjacent touchpoints added (2SW Wk2 Law Enforcement overview, 1SW Wk5 Day 4 Glowforge Logo) matching 4SW Wk3 framing (commit `2ace0bf`)
-- **B3** New `docs/resources/health-science-extensions.md` placeholder file for PT, Sonography, Sports Medicine with `<!-- SOURCE_PENDING: -->` tags and integration hooks into existing weeks (commit `4a80740`)
-- **B1** 2SW Wk4 restructure: dental-primary, medical billing cut to single-day (Day 4) Health Informatics intro. Overview title / objective / Week at a Glance updated. Day 1 rewritten (dental pathway intro). Day 2 Activity 3 flow updated. Day 4 Activity 1 absorbs billing pathway overview (commit `6da8060`)
-- **Irving ISD pathway rename** from "Irving ISD Pathway:" to "What is Happening at Irving ISD?" across 34 overview files to align with H&L's personalized-workbook framing (commit `08524c3`)
-
 ### Read in this order before editing
 
-1. **`CLAUDE.md`** — project rules
-2. **`PLANNING.md`** §3 (format rules), §4 (feedback intake with completion marks), §8 (non-negotiables), §9 (preservation loop), §10 (lessons learned)
+1. **`CLAUDE.md`** — project rules (updated this session with ESL rule, TEKS audit gate, authoring-rulebook locations)
+2. **`PLANNING.md`** §3 (format rules), §8 (non-negotiables), §9 (preservation loop), §10 (lessons learned)
 3. **`cce-curriculum/notes/editing-heuristics.md`** — dependency-scope protocol and grep recipes
+4. **For exit-ticket / objective / DOL edits:** `cce-curriculum/notes/teks-audit-process.md` + `exit-ticket-templates.md` (new this session)
+5. **For CFA edits:** `cce-curriculum/notes/cfa-template.md`
 
-### Recommended next tasks
+### What shipped this session (2026-04-16, third session)
 
-All §4.1 US-jurisdiction tasks are done. The remaining actionable work:
+Three durable systems + one pilot week:
 
-1. **Resume §5 Instinct Review** — 22 weeks still need adversarial Teacher Implementer / Curriculum Writer dialog. Tier 1 priority: 2SW Wk2 (Law/EMT), 3SW Wk5 (Cosmetology), 5SW Wk4 (HVAC), 4SW Wk5 (Automotive), 3SW Wk6 (Entrepreneurship).
-2. **§4.3 C5 Xello vs H&L platform overlap** — hybrid task needing investigation. Prep: audit each platform's prerequisite chains, compare effectiveness per purpose, then make the call.
-3. **§7 Resource backlog** — student worksheets for high-stakes summatives (6SW Wk6 Capstone rubric, 4SW Wk2 Career Plan, 5SW Wk5 Budget) are the highest-value artifacts.
-4. **Round-2 deepening candidates** from the new TEKS matrix: d(3)D impact of effective planning, d(3)F co-curricular importance, d(4)E community service. All three have specific suggested edits in `docs/resources/teks-coverage-matrix.md`.
-5. **CFA rollout for 2SW-6SW** — wait for round-2 teacher feedback on the 1SW CFA before building the other five. Per A4/A7 design note.
+- **Exit ticket authoring system** (new). Ten-format bank in `cce-curriculum/notes/exit-ticket-templates.md` (Diagnostic MCQ with Misconception Distractors, Comparison Matrix, Venn, Mini-Case, Decision Tree, Trade-off / Dilemma, Concept Map, Ranked Justification, 3-2-1 Reflective, Short Constructed Response). Informed by Dylan Wiliam hinge-question research.
+- **TEKS audit process** (new). Six-step audit documented in `cce-curriculum/notes/teks-audit-process.md`. Surfaced that H&L is career-exploration content, not natively TEKS-aligned; alignment is CCE's overlay. Audit-gated now: before writing or revising any exit ticket / objective / DOL, confirm the TEKS tag is honestly supported by the day's activities.
+- **Authoring rulebooks moved out of teacher-facing space.** `exit-ticket-templates.md` and `cfa-template.md` relocated from `docs/resources/` → `cce-curriculum/notes/`. Nav entries removed. These are dev rulebooks for me, not teacher resources.
+- **2SW Wk2 pilot (Law Enforcement / EMT).** All 5 exit tickets rewritten at 6th-7th grade ESL reading level with strict TEKS alignment. Day 4 d(2)(A) tag dropped after audit (activities don't engage training specifics). Milestone tag `exit-ticket-pilot` published for coordinator review at `https://elbrielle.github.io/cce-curriculum/exit-ticket-pilot/`. Commits `0455a0d` → `a60a4df`.
+
+### Key insights baked into the system
+
+- **Exit tickets = mastery probes, not engagement activities.** Strictly aligned to a TEKS code ON THAT DAY. Variety across a week (≥3 distinct formats per 5 days). DOK 2+. Investigative or problem-solving, not recall. Under 5 min.
+- **ESL reading level (6th-7th grade) for exit-ticket student-facing text.** Short sentences, concrete examples, scaffold word lists for abstract concepts, no TEK codes in the ticket itself.
+- **TEKS "such as" language = examples, not exhaustive.** d(4)(F) lists work ethic / integrity / dedication / perseverance "such as" — any genuine workplace characteristic counts. Quality-pick probes with open lists are valid d(4)(F) assessments.
+- **H&L vs TEKS is an overlay relationship.** Some TEKS align natively (d(1)(C) career identification). Others require CCE-authored overlay content (d(4)(F) integrity). When the overlay is thin on a given day, drop the TEKS claim from that day rather than forcing the exit ticket to pretend.
+
+### Open for coordinator decision (user is emailing)
+
+- **H&L-vs-TEKS structural question.** Some TEKS that the scope-and-sequence claims are covered by a given H&L chapter are only covered by CCE's overlay, not by the H&L content itself. Coordinator input needed on whether to (a) add supplementary content closing the gap, (b) accept overlay-dependent assessment as sufficient, or (c) retag specific weeks to match what's actually taught.
+
+### Recommended next tasks (post-coordinator email)
+
+1. **Finish 2SW Wk2 pilot** — 6 non-exit-ticket fixes still pending from the instinct review on this week: AI ethics dead reference on Day 5 Activity 4; EMT pathway omission in overview; peer-argument norm on Day 2 Activity 3; Silver Ridge dense read on Day 3; integrity dilemma scaffold on Day 4; presentation math on Day 4. One escalation item (Day 4 teacher scoring load, structural).
+2. **Audit another Tier 1 pathway-specific week** using the new TEKS audit + exit-ticket templates: 3SW Wk5 Cosmetology, 4SW Wk5 Automotive, 5SW Wk4 HVAC, or 3SW Wk6 Entrepreneurship.
+3. **Round-2 TEKS deepening** — three Implicit codes (d(3)D impact of planning, d(3)F co-curricular, d(4)E community service) have specific suggested edits in `docs/resources/teks-coverage-matrix.md`.
+4. **§4.3 C5 Xello vs H&L platform overlap** — hybrid investigation, needs user as Xello SSO hands (described in §4.3).
+5. **CFA rollout for 2SW-6SW** — still blocked on round-2 teacher feedback on the 1SW CFA.
 
 ### Do NOT
 
-- Touch `v1-teacher-review` version — it's the preserved pre-feedback baseline
-- Recreate `cce-curriculum/guides/` — deleted on purpose
-- Start on B4 or H&L workbook timeline — still blocked on team email response
+- Touch `v1-teacher-review` milestone — preserved pre-feedback baseline
+- Overwrite `exit-ticket-pilot` milestone without user intent (it's the current coordinator review snapshot)
+- Start on B4 or H&L workbook timeline — still blocked on team email response (§4.2)
 - Build 2SW-6SW CFAs yet — waiting on round-2 teacher feedback on the 1SW sample
+- Ship "student worksheets" as-if — there is no PDF / docx production pipeline out of markdown. Worksheet backlog (§7) is infrastructure-blocked, not content-blocked.
+- Rewrite an exit ticket without running the TEKS audit first
+- Treat "sentence stem + word bank" as the endorsed exit-ticket pattern — that was one week's rewrite (C3/C4), not universal. Variety + investigation + mastery-of-objective is the real feedback.
 - Push to main without running the §9 preservation loop first
 - Push without explicit user permission
 
@@ -197,6 +201,9 @@ Decisions needing a human, not an edit:
 - **B4 Drone / Robotics overlap** — combine 1SW Wk1 + 4SW Wk4 into one week, or sharpen instructional distinction for H&L's personalized workbook?
 - **H&L personalized workbook timeline** — expected delivery date?
 
+**From 2SW Wk2 exit-ticket pilot 2026-04-16 (user emailing coordinators):**
+- **H&L-vs-TEKS alignment structural question.** H&L is career-exploration content; TEKS alignment is CCE's overlay. Some days claim TEKS coverage that comes only from the overlay, not from H&L. Coordinator decision: add supplementary content to close gaps, accept overlay-dependent assessment as sufficient, or retag. Full reasoning in the `exit-ticket-pilot` milestone and in `cce-curriculum/notes/teks-audit-process.md`.
+
 **Pre-existing:**
 - **Xello Wk0 district requirement** — moved from core to Day 5 flex with `[VERIFY]`. District-required?
 - **5SW Wk1 Day 5 eDynamic Unit 3.1** — district verification needed
@@ -213,20 +220,27 @@ Decisions needing a human, not an edit:
 
 ## 7. Resource Backlog
 
-Tracked at `docs/resources/resources-status.md`. Priority order:
+Tracked at `docs/resources/resources-status.md`.
 
-1. **Student worksheets** for high-stakes summatives (6SW Wk6 Capstone rubric, 4SW Wk2 Career Plan, 5SW Wk5 Budget)
-2. **Presentation slides** (5SW Wk1 prototype first)
-3. **CFAs** for 1SW and 6SW blocks first
-4. **Teacher edition / answer keys** once worksheets exist
+**Infrastructure-blocked (no markdown → printable pipeline exists):**
+
+1. **Student worksheets** for high-stakes summatives (6SW Wk6 Capstone rubric, 4SW Wk2 Career Plan, 5SW Wk5 Budget). Building these requires a PDF / docx export pipeline. Do not ship markdown worksheet drafts as-if they are the final artifact.
+2. **Presentation slides** (5SW Wk1 prototype first). Same infrastructure gap.
+
+**Content-actionable (can build in markdown today):**
+
+3. **CFAs for 2SW–6SW** — template exists in `cce-curriculum/notes/cfa-template.md`. Still gated on round-2 teacher feedback on the 1SW CFA.
+4. **Teacher edition / answer keys** — only once worksheets exist (blocked).
 
 **Out of scope:** video integration (deferred until after teacher feedback round).
+
+**Worksheet production principle** (per user 2026-04-16): when we build real worksheets, include visuals / diagrams / matching / MCQ item types that approximate STAAR exposure for grade 7. Markdown alone cannot represent those richly; plan for the richer production pipeline.
 
 ---
 
 ## 8. Non-Negotiables
 
-- **Read before editing:** `CLAUDE.md`, this file, `editing-heuristics.md`.
+- **Read before editing:** `CLAUDE.md`, this file, `editing-heuristics.md`. For exit-ticket / objective / DOL edits, also `teks-audit-process.md` + `exit-ticket-templates.md`.
 - `vetting-report.md` is **frozen**.
 - **3-5 weeks max** per instinct-review session.
 - **15 lines max** per day file per edit. More = redesign = escalate.
@@ -236,7 +250,10 @@ Tracked at `docs/resources/resources-status.md`. Priority order:
 - **No surprise discipline.** Hard enforcement only if the skill is taught AND students are warned.
 - **Preserve** Support / Extension / ELL + Spanish vocab on every daily plan.
 - **Timing 45-55 min** at H2 level. Never edit `(N min)` parenthetical unless changing minutes.
-- **No em dashes** in `docs/` body prose. H1/H2 titles fine. Developer-facing files fine.
+- **No em dashes** in `docs/` body prose. H1/H2 titles fine. Developer-facing files (`cce-curriculum/notes/`) fine.
+- **6th-7th grade ESL reading level** for exit-ticket student-facing text.
+- **TEKS audit gate.** Never rewrite an exit ticket, lesson objective, or DOL without first running the audit in `teks-audit-process.md`. TEKS tags are not inheritable; they must be honestly supported by the day's activities. "Such as" TEK language means named items are examples, not exhaustive.
+- **Authoring rulebooks live in `cce-curriculum/notes/`, not `docs/resources/`.** Templates, CFA specs, audit processes are dev-facing. If the link points to a template bank from a teacher-facing file, it is a bug.
 - **Irving ISD pathways** must be verified against the canonical website, not PATHWAYS.md alone.
 - **Never touch Wk0 Day 2-5 data-seeding activities** without reading 4SW Wk1 / 6SW Wk6 chain.
 - **Preservation loop** after every edit batch (all 6 must pass before commit).
@@ -289,6 +306,10 @@ Each lesson is a rule with a one-sentence rationale. Full context in commits and
 18. **Bulk regex for prose-pattern sweeps** when ~90% of cases fit 4-5 patterns. File-by-file when judgment matters.
 19. **Bulk script fallback rule IS the quality ceiling.** Budget a fixup pass.
 20. **Raw cliche grep counts are useless without per-hit classification.** Spot-check 20-30 hits before scoping.
+21. **TEKS tags are author claims, not facts.** Audit before writing the assessment. H&L is career-exploration content, not natively TEKS-aligned; CCE is the overlay. Use `teks-audit-process.md` before rewriting any exit ticket, objective, or DOL. Session 3 example: 4 of 5 days in 2SW Wk2 had over-claimed or weak tags until audited.
+22. **"Teacher-facing" is a real constraint, not a label.** If a document tells the reader how to author something ("insert this admonition," "pick a format from the list"), it is for the author, not the teacher. Move to `cce-curriculum/notes/`. First violations shipped in session 2: exit-ticket-templates.md and cfa-template.md originally in `docs/resources/` with author-voice pattern instructions visible to teachers; relocated session 3.
+23. **Variety > single endorsed exit-ticket template.** Teacher feedback's "sentence stem + word bank" (commits `d9ad853`, `1b7ec9b`) was a specific-week rewrite, not the universal rule. The durable rule is variety + investigation + mastery-of-day's-objective. Apply `exit-ticket-templates.md` format picker; ≥3 distinct formats per 5-day week.
+24. **ESL reading level is a first-class constraint for exit tickets.** 6th-7th grade ESL: short sentences, concrete examples, scaffolded word lists for abstract concepts. Nested clauses and idioms block comprehension in this population.
 
 ---
 
@@ -299,16 +320,18 @@ Push to `main` triggers GitHub Actions `mike deploy --push latest` on `gh-pages`
 ### Versioning convention
 
 - **`latest`** — rolling pointer, always the current in-progress state. Every push to `main` updates this.
-- **`vN-<descriptor>`** — frozen snapshots of meaningful milestones. Created via Actions UI "Run workflow" with `milestone_name` input.
-  - `v1-teacher-review` — state presented at the 2026-04-15 teacher meeting (pre-feedback baseline)
-  - `v2-round-2` — state shipped at the round-2 teacher review (future)
+- **Named milestones** — frozen snapshots for review. Created via Actions UI "Run workflow" with `milestone_name` input, or via `gh workflow run deploy-site.yml -f milestone_name=<name>`. Naming is descriptor-based, chosen to match the review scope.
+  - `v1-teacher-review` — state presented at the 2026-04-15 teacher meeting (pre-feedback baseline). Do not touch.
+  - `exit-ticket-pilot` — 2SW Wk2 exit-ticket pilot + TEKS audit work from 2026-04-16, for coordinator review.
 - **`YYYY-MM-DD`** — automatic daily snapshots from the nightly cron if `docs/` changed that day (noise — ignore unless debugging).
 
-### When to tag a new version
+### When to tag a new milestone
 
-Create a new `vN-<descriptor>` snapshot:
-- Before a teacher review session (capture "what teachers saw")
+Create a new named snapshot:
+- Before a teacher / coordinator review session (capture "what they saw")
 - After a major feedback round ships
 - Before a risky refactor (rollback anchor)
+
+If a milestone name is wrong after the fact, delete and redeploy: `mike delete <name> --push` (requires `git fetch origin gh-pages` first), then `gh workflow run deploy-site.yml -f milestone_name=<correct-name>`.
 
 Never rename or delete `v1-teacher-review` — it's the historical record of what went in front of teachers on 2026-04-15.
