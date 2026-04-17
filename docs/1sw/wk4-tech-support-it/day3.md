@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Set up micro:bit + MakeCode; build a basic 3-step troubleshooting program; load the program onto the micro:bit and test it |
-| **TEKS** | d(2)(A), d(4)(B) |
+| **TEKS** | d(4)(B) |
 | **Deliverable** | MakeCode program with at least 3 troubleshooting steps that displays text on the micro:bit when Button A is pressed |
 | **Materials** | micro:bit devices (1 per team of 2-3), USB cables, Chromebooks, MakeCode for micro:bit, Help Desk scenario cards, projector |
 
@@ -95,7 +95,25 @@ Walk between teams. The trickiest part is the `if/then` logic, sit with teams th
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** List the troubleshooting steps in your micro:bit program in order. Then explain why you put them in that specific order. *(d(2)(A))*
+**EXIT TICKET** (Decision Tree / Branching Prompt):
+
+My role today: **Help Desk Technician**. My Day 3 scenario card: _______________________
+
+Step 1: When the user calls, what is the VERY FIRST troubleshooting step you tell them to try? (Use your micro:bit program.)
+
+   ___________________________________________________________________
+
+Step 2: Why is that step FIRST and not a later step? One sentence:
+
+   ___________________________________________________________________
+
+Step 3: Branch the next move based on the result:
+
+   IF the user says the first step FIXED the problem, what do I do next? ___________________________________________________________________
+
+   IF the user says the first step did NOT fix it, what do I do next? ___________________________________________________________________
+
+*(d(4)(B))*
 
 ---
 

@@ -65,7 +65,22 @@ Walk between pairs and listen. Use a clipboard checklist to track which pairs ar
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name TWO transferable skills you practiced today (during the MakeCode work AND during the role-play) that would be valuable in ANY career, not just IT. *(d(4)(B))*
+**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors):
+
+Scenario: A frustrated user calls. She says "This computer is so stupid! It won't even turn on and I have a meeting in 10 minutes!"
+
+What is the BEST first thing for a Help Desk Tech to say?
+
+- A. "Ma'am, please calm down. It's not the computer's fault."
+- B. "Have you tried the power cable?"
+- C. "I understand this is frustrating right before a meeting. Let's fix this together. Can you tell me what you see on the screen?"
+- D. "Our support hours are almost over, so can you call back tomorrow?"
+
+Circle your answer. In one sentence, explain why the OTHER three choices break one of today's 4 customer service rules (acknowledge, simple language, one step at a time, stay calm). *(d(4)(B))*
+
+   ___________________________________________________________________
+
+   ___________________________________________________________________
 
 ---
 

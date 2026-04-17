@@ -12,9 +12,10 @@ Students explore the Information Technology Support and Services pathway in Hats
 
 ## TEKS Alignment
 
-- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements for one or more careers.
-- **d(2)(B):** Use available resources to research and evaluate educational and training options for one or more careers.
-- **d(4)(B):** Identify skills that can be transferable among a variety of careers.
+- **d(1)(C):** Identify various career opportunities within one or more career clusters (Day 5 H&L Favorites).
+- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements for one or more careers (Days 1-2).
+- **d(2)(B):** Use available resources to research and evaluate educational and training options for one or more careers (Day 2).
+- **d(4)(B):** Identify skills that can be transferable among a variety of careers (Days 3-5).
 
 ## Materials Needed
 
@@ -74,11 +75,11 @@ The hands-on activity uses **micro:bit + Microsoft MakeCode** rather than an H&L
 
 ## Formative Assessment
 
-- **Day 1:** H&L IT Support pathway exploration completion + 3 careers identified, d(2)(A)
-- **Day 2:** Education Pathway Comparison worksheet accuracy, d(2)(A), d(2)(B)
-- **Day 3:** MakeCode program runs on micro:bit and displays text, d(4)(B)
-- **Day 4:** Role-play observation, listening for patient, clear communication, d(4)(B)
-- **Day 5:** Demo + 2 IT support Hats favorited in Climber Profile, d(2)(A)
+- **Day 1:** 3 IT support career notes + Comparison Matrix exit ticket (2 careers x education/salary/task). *d(2)(A)*
+- **Day 2:** Education Pathway Comparison worksheet + Ranked Justification exit ticket (cert vs. AS vs. BS by speed to earning). *d(2)(A), d(2)(B)*
+- **Day 3:** MakeCode program runs on micro:bit + Decision Tree exit ticket (first step + branching). *d(4)(B)*
+- **Day 4:** Role-play observation + Diagnostic MCQ exit ticket (customer service misconceptions). *d(4)(B)*
+- **Day 5:** Demo + 2 IT Support Hats favorited + Concept Map exit ticket (career + Singley pathway + transferable skill + Wk1-4 cross-pathway compare). *d(1)(C), d(4)(B)*
 
 ## Summative Assessment
 

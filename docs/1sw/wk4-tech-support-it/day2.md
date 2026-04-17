@@ -74,7 +74,25 @@ Then students answer 2 reflection questions on the back:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name one IT certification (CompTIA A+, Net+, Sec+, or other) and the career it opens up. Then classify that career as high-demand, high-wage, or both in 2026 DFW, citing ONE specific piece of evidence (salary, growth rate, or local employer) from today's research. *(d(2)(A), d(2)(B), d(5)(B))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank these three training paths from FASTEST to EARNING INCOME (1) to SLOWEST (3). Use your Education Pathway Comparison worksheet.
+
+- CompTIA A+ certification only: rank ____
+- Associate degree + CompTIA Network+: rank ____
+- Bachelor's degree in Computer Science: rank ____
+
+For EACH rank, write one specific data point (time, cost, or salary) from your worksheet that backs up the rank.
+
+- Rank 1 (fastest): _______________________________________________________
+
+- Rank 2: _______________________________________________________
+
+- Rank 3 (slowest): _______________________________________________________
+
+Bottom line: Which path would you recommend to a student who says "I don't want debt and I want to work ASAP"? One sentence why. *(d(2)(A), d(2)(B))*
+
+   ___________________________________________________________________
 
 ---
 

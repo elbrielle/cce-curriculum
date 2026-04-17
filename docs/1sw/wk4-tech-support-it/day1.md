@@ -69,7 +69,19 @@ Ask students: "Which path is BETTER?" The answer is "it depends on the person." 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name one IT support career and describe whether it requires a degree, a certification, or both. Then explain in one sentence why this matters for someone who doesn't want to go to a 4-year college. *(d(2)(A))*
+**EXIT TICKET** (Comparison Matrix):
+
+Pick TWO IT support careers from today (Help Desk Technician, IT Support Specialist, Desktop Support Technician, or Systems Administrator). Fill in the matrix using H&L data.
+
+| | Career 1: _______________ | Career 2: _______________ |
+|---|---|---|
+| Education needed (circle) | degree / cert / both | degree / cert / both |
+| DFW starting salary (rough) | | |
+| One daily task | | |
+
+Bottom line: A student who wants to start earning money by age 19 (NO 4-year college) should pick which of your two careers, and why? Use one cell from the matrix. *(d(2)(A))*
+
+   ___________________________________________________________________
 
 ---
 

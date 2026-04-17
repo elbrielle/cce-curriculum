@@ -6,7 +6,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Demonstrate the micro:bit help desk tool to the class; explain the troubleshooting logic; favorite 2 IT Support careers in H&L |
-| **TEKS** | d(2)(A), d(2)(B), d(4)(B) |
+| **TEKS** | d(1)(C), d(4)(B) |
 | **Deliverable** | 3-minute team demo + 2 IT Support careers favorited in Climber Profile |
 | **Materials** | micro:bit devices, Chromebooks, H&L accounts, projector |
 
@@ -67,7 +67,31 @@ Tell students: "Look at this. Five weeks ago this profile was empty. Now it has 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Explain ONE thing that surprised you about IT support careers this week. Then answer: does the Singley Academy Technology Support Services pathway interest you, and why or why not? *(d(2)(A), d(2)(B))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+An IT Support career I favorited this week: _______________________
+
+Connect this career to THREE things:
+
+**1. The Singley Academy pathway that connects to it** (Technology Support Services leads to Computer Repair Technology - Job Ready)
+
+   Does the Singley pathway fit this career? Circle: YES / NO. In one sentence, why or why not:
+
+   ___________________________________________________________________
+
+**2. One transferable skill I practiced this week** (problem-solving, patient communication, step-by-step thinking, attention to detail, etc.)
+
+   My skill: _______________________. Where else in my life do I already use this skill? One sentence:
+
+   ___________________________________________________________________
+
+**3. One other IT pathway I explored this six-weeks** (Programming, Web Development, Networking, or — next week — Cybersecurity)
+
+   My other pathway: _______________________. Does my IT Support pick fit BETTER or WORSE than the other pathway? Circle: BETTER / WORSE. One sentence why:
+
+   ___________________________________________________________________
+
+*(d(1)(C), d(4)(B))*
 
 ---
 
