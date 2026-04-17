@@ -101,7 +101,23 @@ Distribute the printed Economic Conditions Analysis chart. Students complete a s
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Explain in two sentences how a strong economy versus a weak economy affects marketing job availability. Then name one digital marketing skill that is "recession-proof." *(d(5)(C), d(1)(C))*
+**EXIT TICKET** (Comparison Matrix):
+
+Fill in each cell using today's Economic Conditions Analysis chart.
+
+| | Strong Economy | Weak Economy / Recession |
+|---|---|---|
+| Marketing job availability (more / same / fewer) | | |
+| Which marketing role gets cut FIRST | | |
+| Which marketing role stays STRONG | | |
+
+Bottom line: ONE digital marketing skill that is "recession-proof" and the reason it survives cuts:
+
+   Skill: _______________________
+
+   Why it survives: ________________________________________________
+
+*(d(5)(C), d(1)(C))*
 
 ---
 

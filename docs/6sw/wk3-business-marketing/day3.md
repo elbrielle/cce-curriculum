@@ -75,7 +75,27 @@ This pair work mirrors what real entrepreneurs do, focus groups, beta tests, and
 
 ## Exit Ticket (10 min)
 
-**EXIT TICKET:** Define entrepreneurship in your own words. Then describe your subscription box in one sentence and name your target audience. *(d(3)(I), d(1)(C))*
+**EXIT TICKET** (Short Constructed Response):
+
+1. Entrepreneurship in my own words (one sentence, no dictionary language):
+
+   ___________________________________________________________________
+
+2. My subscription box in one sentence (name + what's in it):
+
+   ___________________________________________________________________
+
+3. My target audience (specific, not "kids" or "everyone"):
+
+   ___________________________________________________________________
+
+4. ONE feedback question from my 3-5 that I would ask FIRST, and what the answer would tell me to change:
+
+   Question: _______________________________________________________
+
+   What the answer tells me: _______________________________________
+
+*(d(3)(I), d(1)(C))*
 
 ---
 

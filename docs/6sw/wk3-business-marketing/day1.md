@@ -87,7 +87,27 @@ Pair up. Trade ad designs. Use the workbook's discussion prompts (Ch 5, p. 75):
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Pick TWO Marketing and Sales careers and rate each on a 1-5 creative-to-analytical scale (1 = all creative, 5 = all analytical). Which role fits your strengths from Wk0, and why? Submit your billboard/bus wrap product, target audience, and slogan. *(d(1)(C))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: A DFW smoothie shop hires you to redesign their billboard. The old one has 24 words, 4 photos, and 3 colors. Drivers say they can't read it at 60 mph.
+
+1. ONE thing I would REMOVE from the old billboard (to pass the 5-second test):
+
+   ___________________________________________________________________
+
+2. ONE thing I would KEEP or ADD (slogan, image, or color choice):
+
+   ___________________________________________________________________
+
+3. Name ONE Marketing and Sales career from the H&L cluster that would LEAD this redesign:
+
+   Career: _______________________
+
+4. In one sentence, why that career fits THIS job (not a different marketing role):
+
+   ___________________________________________________________________
+
+*(d(1)(C))*
 
 ---
 

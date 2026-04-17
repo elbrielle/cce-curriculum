@@ -90,7 +90,28 @@ Students complete the activity at their own pace. Most will need 5-10 minutes. T
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Name the Marketing Hat you researched today and the salary listed. Then name the Google Applied Digital Skills lesson you started and the marketing skill it teaches. *(d(1)(C))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank these 4 marketing careers from MOST interesting to you (1) to LEAST (4) based on TODAY's Hat Research and the GADS lesson you tried.
+
+- Marketing Manager: rank ____
+- Social Media Manager / Digital Marketing Specialist: rank ____
+- Market Research Analyst: rank ____
+- Content Creator / Content Strategist: rank ____
+
+Career I actually researched today: _______________________
+
+Salary I found (H&L): $__________
+
+GADS lesson I started: _______________________
+
+For EACH rank, give ONE reason from today's work (Hat profile OR GADS lesson):
+
+- Rank 1 (most interesting): ______________________________________
+
+- Rank 4 (least interesting): _____________________________________
+
+*(d(1)(C))*
 
 ---
 

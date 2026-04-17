@@ -78,7 +78,23 @@ The Career Plan is cumulative. Students should NOT start over. It now reflects e
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name your top Marketing career interest after this week. Explain in one sentence why marketing requires BOTH creative skills (design, writing) AND analytical skills (data, research). *(d(1)(C), d(3)(I))*
+**EXIT TICKET** (Concept Map):
+
+Draw a quick concept map (bubbles + lines). Place **MARKETING** in the center and connect it to each of the FOUR items below. On each line, write ONE word or phrase that shows the link.
+
+1. My top Marketing career after this week: _______________________
+
+2. One Irving ISD CTE pathway that leads to this career (Singley, MacArthur, Irving High, Nimitz, Cardwell, Ratteree): _______________________
+
+3. ONE creative skill marketing needs (design, writing, video, etc.): _______________________
+
+4. ONE analytical skill marketing needs (data, research, ROI, etc.): _______________________
+
+Bottom line (one sentence): Why marketing careers need BOTH creative AND analytical skills to survive a weak economy.
+
+   ___________________________________________________________________
+
+*(d(1)(C), d(3)(I), d(5)(C))*
 
 ---
 
