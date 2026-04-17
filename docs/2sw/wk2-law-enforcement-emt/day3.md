@@ -26,17 +26,16 @@ Take 3-4 responses. Bridge: real emergency response is a TEAM sport. No single p
 
 Distribute the Silver Ridge city brief (printed from the workbook) and project the city map on the screen. Read the workbook introduction aloud: *"Imagine that your town is facing a potential emergency, and you are part of the response team to prepare for it. You and your group will act as the town's Emergency Response Task Force."*
 
-Walk through the City Infrastructure Overview from the workbook:
+Chunk the read in three short passes so students do not drown in the brief. Keep each pass under 4 minutes.
 
-- **Population:** 72,000
-- **City Zones:** North (suburban + senior living), South (residential near Clear River + RV park), West (forested hillside + high school), East (industrial + railyard + hospital), Center (downtown + city offices)
-- **Key Buildings:** Silver Ridge Regional Hospital (150 beds, helipad, backup generator), Green Valley High School (large gym, kitchens, generator), Maple Elementary (small gym, no generator), Convention Center, East Side Rec Center, Fairgrounds
-- **Other Notes:** Only one major highway in/out, city alert system with text + radio + mobile app, Bridge over Clear River susceptible to flooding
+**Pass 1 (Population and Zones, 3 min):** 72,000 people across 5 zones. North = senior living. South = RV park near Clear River. West = forested hillside + high school. East = hospital + railyard. Center = downtown. Students shade each zone on their map with a single color.
 
-Students annotate their copy of the city map with key facilities, circle the hospital, mark the bridge, highlight the senior living zones.
+**Pass 2 (Key Buildings, 3 min):** Silver Ridge Regional Hospital (150 beds, helipad, backup generator), Green Valley High School (generator, kitchens), Maple Elementary (no generator), Convention Center, East Side Rec Center, Fairgrounds. Students circle the hospital and put a star on every building with a generator.
+
+**Pass 3 (Constraints scavenger hunt, 4 min):** Students find and label the three constraints that will break most plans: **(1)** only ONE highway in and out, **(2)** only ONE bridge over Clear River and it floods, **(3)** the hospital generator already overloaded once during Hurricane Calder. They write these three constraints on the bottom margin of the map.
 
 !!! tip "Facilitation Tip"
-    The Silver Ridge brief is rich. Don't read every word, highlight the constraints: ONE highway in/out, ONE bridge for evacuation, hospital generator that already overloaded once during Hurricane Calder. Students need these constraints to make realistic plans.
+    The constraints are the point of this brief, not the trivia. If a team's plan later ignores all three constraints, hand them back their map and ask which one they forgot.
 
 ---
 

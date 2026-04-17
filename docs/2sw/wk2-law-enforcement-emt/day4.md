@@ -29,12 +29,22 @@ Students return to their individual role-specific plans from Day 3. They expand 
 - **First 15 minutes:** What does my role do?
 - **First hour:** What resources do I deploy from the Silver Ridge city brief? Which buildings do I use?
 - **First 24 hours:** How does my role coordinate with the other roles on the team?
-- **One ethical dilemma:** Name one moment where my role might face an integrity test (e.g., "Do I evacuate the senior living community first or the elementary school?")
+- **One ethical dilemma:** Pick ONE integrity test your role might face. Use the role-specific examples below as models; students write their own dilemma in the same two-choice format.
 
 Students should reference specific Silver Ridge buildings: the hospital with 150 beds, the high school with backup generators, the bridge over the Clear River, the East Side Rec Center.
 
+**Integrity dilemma scaffold** (project on the board, students pick ONE and adapt it, or write their own in the same format):
+
+- **Emergency Management Director:** Evacuate the senior living home (80 residents, hard to move) OR the high school (1,200 students, easy to move). Buses only reach one before the fire.
+- **Firefighter:** Send your only ladder truck to a burning apartment building OR a burning warehouse that might have hazmat.
+- **EMT / Paramedic Team Lead:** Send the last ambulance to the most critical patient (40 min away) OR three stable-but-injured patients (10 min away).
+- **Police Officer / Sheriff:** Enforce the evacuation order on a family that refuses to leave OR move on and help others who will cooperate.
+- **Public Information Officer:** Release partial information now (may cause panic) OR wait 20 minutes for confirmed facts (people may make unsafe choices in the meantime).
+
+Each dilemma must have two options where each side has a real reason and neither is clearly right.
+
 !!! tip "Facilitation Tip"
-    The ethical dilemma is the d(4)(F) hook. Push students to name a TRADE-OFF, not a clearly right answer. Real first responders make hard choices with imperfect information. That is what integrity means.
+    The dilemma is the d(4)(F) hook. Push students to name a TRADE-OFF, not a clearly right answer. Real first responders make hard choices with imperfect information. That is what integrity means.
 
 ---
 
@@ -61,12 +71,20 @@ Teams divide the work, one person owns each section, but the team reviews the wh
 
 ## Activity 3: Team Presentations (15 min)
 
-Each team presents their Citywide Emergency Plan to the class in 3 minutes. The presentation must cover:
+Each team presents their Citywide Emergency Plan to the class. The presentation must cover:
 
 1. The emergency scenario
 2. Who is on the task force and what each role is doing
 3. The first-hour sequence
 4. The integrity dilemma and how the team resolved it
+
+!!! warning "Presentation time budget"
+    Activity 3 is 15 minutes. With ~30 seconds of transition between teams, that is 2 minutes per team for up to 6 teams, or 90 seconds per team for 7-8 teams. Pick ONE compression option before Day 4 based on class size:
+
+    - **4-5 teams (small class):** 2:30 per team, full 4-point coverage, no transitions needed.
+    - **6 teams (standard):** 2:00 per team, still covers all 4 points; 30-second transition built in.
+    - **7-8 teams (large class):** 90 seconds per team, cover points 1 + 4 only (scenario + integrity dilemma). Points 2 and 3 stay on the poster for gallery walk.
+    - **Overflow:** If teams still cannot fit, run Activity 3 as a gallery walk. Teams stand by their posters; half the class circulates for 7 minutes while the other half presents at posters, then swap.
 
 The class evaluates each team using a quick rubric (visible on the projector):
 

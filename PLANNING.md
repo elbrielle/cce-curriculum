@@ -205,6 +205,9 @@ Decisions needing a human, not an edit:
 **From 2SW Wk2 exit-ticket pilot 2026-04-16 (user emailing coordinators):**
 - **H&L-vs-TEKS alignment structural question.** H&L is career-exploration content; TEKS alignment is CCE's overlay. Some days claim TEKS coverage that comes only from the overlay, not from H&L. Coordinator decision: add supplementary content to close gaps, accept overlay-dependent assessment as sufficient, or retag. Full reasoning in the `exit-ticket-pilot` milestone and in `cce-curriculum/notes/teks-audit-process.md`.
 
+**From 2SW Wk2 instinct-review fix pass 2026-04-17:**
+- **Day 4 teacher scoring load (structural).** Day 4 of 2SW Wk2 asks a single teacher to score the week's summative (team Citywide Emergency Plan + live 3-minute team presentation, rubric on role logic + d(4)(F) traits + Silver Ridge resource use) *plus* a dilemma-analysis exit ticket, *plus* continue to collect individual role plans from Day 3-4. Estimated load on a 30-student roster: 6-8 team presentations evaluated live, 30 individual dilemma exit tickets, and 30 individual role plans — all on the same class period. The load is not specific to 2SW Wk2; it is the pattern wherever a team-performance summative shares a day with an individual exit-ticket summative. Coordinator decision paths: (a) split summative scoring across two days (Day 4 presentation, Day 5 scored-reflection review), (b) offload the individual role plan to Day 3 formative-only and keep Day 4 summative to the team artifact + exit ticket, or (c) accept the load and staff Day 4 with a co-facilitator for live scoring. Flagged the same way as the 6SW Wk6 capstone co-facilitator question (§6 pre-existing).
+
 **Pre-existing:**
 - **Xello Wk0 district requirement** — moved from core to Day 5 flex with `[VERIFY]`. District-required?
 - **5SW Wk1 Day 5 eDynamic Unit 3.1** — district verification needed

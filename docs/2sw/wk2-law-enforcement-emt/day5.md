@@ -69,7 +69,7 @@ The teacher circulates and asks each student: "Which Law cluster career did you 
 Students write a short reflection paragraph (4-5 sentences) responding to:
 
 - *"Define integrity in your own words."*
-- *"Name one moment from this week (Missing Painting case, Local Risk Response dilemma, or AI ethics debate) where integrity mattered."*
+- *"Name one moment from this week (Missing Painting case, team role assignments, or the Citywide Emergency Plan dilemma) where integrity mattered."*
 - *"Name one first responder career and explain why integrity is non-negotiable for that role."*
 
 This reflection can be hand-written or typed. It is the d(4)(F) summative check for the week.

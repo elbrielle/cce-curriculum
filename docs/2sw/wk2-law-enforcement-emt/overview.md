@@ -35,7 +35,12 @@ Students explore law enforcement, EMT, and firefighter careers through Hats & La
 
 First responders are the backbone of public safety. Police officers, EMTs, paramedics, and firefighters put themselves at risk to protect communities. These careers require physical fitness, quick thinking, emotional resilience, and absolute integrity. Many first responders enter through military service (MP, Master-at-Arms, Navy Corpsman, Army medic, Air Force Security Forces), police academies, or short EMT certification programs, not through traditional 4-year college pathways. This is one of the few high-demand career fields where a 17-year-old can graduate high school and be working full-time within 12 months. **JROTC** at Irving ISD high schools is the middle-to-high-school on-ramp for students considering the military pathway into first responder work. It does not commit a student to military service.
 
-**What is Happening at Irving ISD?** Law Enforcement at Singley Academy, leads to the Non-Commissioned Security Officer Level II certification, which prepares students for entry-level security and pre-academy work.
+**What is Happening at Irving ISD?** Both of this week's pathways live at Singley Academy on the application-based magnet campus:
+
+- **Law Enforcement** (School of Law and Public Service) leads to the Non-Commissioned Security Officer Level II certification, which prepares students for entry-level security and pre-academy work.
+- **Emergency Medical - EMT** (School of Health Science) leads to the Emergency Medical Training (EMT-B) certification, the same entry credential used by working EMTs in DFW ambulance services.
+
+Students interested in the Firefighter pathway typically enter through a post-high-school fire academy; Irving ISD does not currently offer a Fire Science pathway, so cover that role as career exploration using BLS and local fire-department resources.
 
 ## Vocabulary
 

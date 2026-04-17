@@ -83,7 +83,15 @@ Students complete the workbook's case summary in the space provided. The summary
 - **What evidence led you to that conclusion** (at least 2 pieces)
 - **One piece of advice** to prevent future thefts at the museum
 
-After writing, students pair up with a peer who picked the SAME suspect and compare their reasoning. Then they pair with a peer who picked a DIFFERENT suspect and respectfully argue their case.
+After writing, students pair up with a peer who picked the SAME suspect and compare their reasoning. Then they pair with a peer who picked a DIFFERENT suspect and defend their case using the evidence cards.
+
+Before pairing, project these three discussion norms and read them aloud:
+
+1. **Lead with evidence, not volume.** Start every claim with "The evidence that supports my suspect is ___" or "Witness ___ said ___."
+2. **Attack the case, not the person.** "Your evidence is weaker because ___" is fair. "You're wrong" is not.
+3. **Name one thing the other case gets right.** Before the pair ends, each partner says "One strong point in your case is ___."
+
+Give pairs 4 minutes: 90 seconds for each partner to present, 1 minute to trade the "one strong point" acknowledgment.
 
 The workbook's "Extra Time" extension: act out the case presentation as if standing in front of a courtroom. Students who want to perform their case can volunteer for a 1-minute presentation to the class.
 
