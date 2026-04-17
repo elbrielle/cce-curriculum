@@ -87,7 +87,27 @@ Students take notes on the Paying for College notes sheet. Emphasize: "Apprentic
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Name one financial literacy concept you learned today AND one method for paying for postsecondary education (FAFSA, scholarships, grants, or work-study). *(d(5)(D), d(3)(C))*
+**EXIT TICKET** (Mini-Case / Scenario Application):
+
+Scenario: My cousin is a HS senior accepted to UT Arlington. Their family cannot pay tuition. They have a 3.4 GPA, played varsity soccer, and their family income is below $80K.
+
+1. Rank the TOP 2 payment methods my cousin should pursue FIRST:
+
+   - Rank 1: **FAFSA** / **Scholarships** / **Grants** / **Work-Study**. Why: _______________________
+
+   - Rank 2: **FAFSA** / **Scholarships** / **Grants** / **Work-Study**. Why: _______________________
+
+2. ONE financial literacy concept I learned TODAY that applies to my cousin's situation (compound interest, budgeting, saving vs. investing, needs vs. wants):
+
+   Concept: _______________________
+
+   How it applies in one sentence: ___________________________________________________________________
+
+3. IF my cousin chose an apprenticeship INSTEAD of UT Arlington, how would that CHANGE the payment picture? (Apprenticeships pay the student.)
+
+   ___________________________________________________________________
+
+*(d(5)(D), d(3)(C))*
 
 ---
 

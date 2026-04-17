@@ -87,7 +87,29 @@ Preview next week: **Real Estate**. Students will explore real estate careers, a
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET:** Compare the 3 careers you analyzed today on salary and education. Which career has the best overall "value" FOR YOU, and why? *(d(5)(E))*
+**EXIT TICKET** (Concept Map / Connection Diagram):
+
+The career with the BEST VALUE SCORE for ME from today's 3-career comparison: _______________________
+
+Connect this career to THREE things:
+
+**1. The SALARY + EDUCATION combination** that made this career win MY value score
+
+   DFW salary: $_____. Years of education: _____. In one sentence, why THIS ratio beat the other 2 careers:
+
+   ___________________________________________________________________
+
+**2. My Day 2 budget** (does the salary balance my desired lifestyle?)
+
+   Budget result: Circle: BALANCES / NEEDS LIFESTYLE CUT / NEEDS LIFESTYLE UPGRADE. One sentence why:
+
+   ___________________________________________________________________
+
+**3. The BIGGEST budgeting INSIGHT I learned this week**
+
+   One sentence: ___________________________________________________________________
+
+*(d(5)(D), d(5)(E))*
 
 ---
 

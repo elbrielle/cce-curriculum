@@ -70,7 +70,25 @@ Students then answer: **Which city leaves you with the most money at the end of 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Compare the leftover monthly income for your career in DFW vs. one other city. Which location leaves you with more money after expenses? Cite the specific numbers. *(d(5)(A), d(5)(E))*
+**EXIT TICKET** (Ranked Justification):
+
+Rank the 3 cities from BEST leftover monthly income (1) to WORST (3) for my career.
+
+- Dallas (home): rank ____. Leftover = $_____
+- High-cost city: _______________________. Rank ____. Leftover = $_____
+- Low-cost city: _______________________. Rank ____. Leftover = $_____
+
+For EACH rank, cite ONE specific number (salary in that city OR rent in that city) that backs the rank:
+
+- Rank 1 (best leftover): _______________________________________________________
+
+- Rank 3 (worst leftover): _______________________________________________________
+
+Bottom line: A friend gets offered $20K MORE per year in the HIGH-cost city. Should they take it? Circle: **YES** / **NO**. In one sentence, WHY?
+
+   ___________________________________________________________________
+
+*(d(5)(A), d(5)(E))*
 
 ---
 
