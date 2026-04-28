@@ -57,38 +57,40 @@ build/
         └── iisd-logo.png          # Irving ISD logo, color, transparent
 ```
 
-The CSS and logo come from the design team's handoff bundle (`PDF Template for CCE Exit Tickets.zip`). To incorporate a design refresh, drop the new `exit-tickets.css` and any new assets into `build/exit_ticket_template/` and re-run `build_pdfs.py`. Do not hand-edit the CSS — keep it as the design source of truth so future refreshes overwrite cleanly.
+The CSS and logo come from the design team. Round 1 (`PDF Template for CCE Exit Tickets.zip`) shipped four format layouts; Round 2 (`PDF Template for CCE Exit Tickets (1).zip`) added six more, delivered as `exit-tickets-round2.css` (append-only, loaded after the Round 1 stylesheet). To incorporate a future design refresh, drop the new CSS and any new assets into `build/exit_ticket_template/` and re-run `build_pdfs.py`. Do not hand-edit the CSS — keep it as the design source of truth so future refreshes overwrite cleanly.
 
-## v1 status — what is structured vs fallback
+## Status — what is structured vs fallback
 
-The design bundle ships finished layouts for **four of ten** formats. The pipeline renders those four with structured per-format components and renders the other six as a "preserved markdown" fallback inside the same chrome.
+All ten formats now have finished design layouts. **154 of 173 tickets (89%)** render with the per-format structured component; the other 19 hit the fallback because their markdown is in a variant shape that does not fit the corresponding design template's data model. Fallback tickets still use the same chrome and gold-tinted writing language so they read as part of the same printable family.
 
 | Format | Status | Notes |
 |---|---|---|
-| Diagnostic MCQ | **Structured** | Parses A/B/C/D options, scenario, stem, callout. Pixel-matches the design when the markdown follows the standard `- A. text` / `- B. text` form. |
-| Comparison Matrix | **Structured** | Detects a markdown table inside the payload, parses headers and row labels, renders the navy/gold matrix layout. Falls back to preserved-markdown if no table is present. |
-| Venn Diagram | **Structured (narrow)** | Renders the two-circle SVG only when the day's H1 (or the first 300 chars of the payload) names a clear "X vs Y" or "X or Y" pair. Otherwise falls back. Most current Venn tickets in the corpus use a "Unique to A / Unique to B / Both" prose form, which renders fine via fallback; the SVG render fires on the rare title-named pair. |
-| Short Constructed Response | **Structured** | Numbered prompts at the top, single 9-line ruled writing area below. |
-| Concept Map | **Fallback** | Design layout TODO. |
-| Decision Tree | **Fallback** | Design layout TODO. |
-| Ranked Justification | **Fallback** | Design layout TODO. |
-| Mini-Case | **Fallback** | Design layout TODO. |
-| Trade-off | **Fallback** | Design layout TODO. |
-| 3-2-1 Reflective | **Fallback** | Design layout TODO. |
+| Diagnostic MCQ (F01) | **Structured** (4 of 5) | Parses A/B/C/D options, scenario, stem, callout. The single fallback at `6sw/wk4/day2` is a multi-question quiz, not a single Diagnostic MCQ. |
+| Comparison Matrix (F02) | **Structured** (29 of 29) | Detects a markdown table inside the payload, parses headers and row labels, renders the navy/gold matrix layout. |
+| Venn Diagram (F03) | **Fallback** (0 of 6) | Structured render exists but only fires when the H1 or early payload literally contains "X vs Y" / "X or Y" with both items under 30 characters. No Venn ticket in the current corpus matches; all six render via the markdown fallback (which carries the "Unique to A / Unique to B / Both" prose shape that authors actually use). |
+| Concept Map (F04) | **Structured** (29 of 32) | Detects `**N. Label**` numbered sections with a center prompt and per-node descriptor, slot, and "why" prompt. Three variant tickets fall back: 6sw/wk6/day4 ("Place X in the center" instruction with non-bold numbered items), 6sw/wk3/day5 and 6sw/wk5/day1 (similar shape variations). |
+| Decision Tree (F05) | **Structured** (12 of 14) | Detects `Step N:` linear prompts with optional `I need to talk to / Because` two-column branch. Two variants fall back: 6sw/wk5/day3 and 6sw/wk4/day4 use `**Step N:**` with YES/NO bullet branches and apply-the-tree follow-up sections — a different shape from the design template. |
+| Ranked Justification (F06) | **Structured** (17 of 23) | Detects bullet-list of pre-filled items + follow-up rows. Six variants fall back: tickets where students fill in BOTH the rank AND the item (4sw/wk1/day4, 4sw/wk4/day2, 4sw/wk6/day2, 5sw/wk3/day4, 6sw/wk6/day3) and 2sw/wk1/day2 which uses a cluster-rank pattern. The design template assumes pre-filled items + writeable ranks; the inverse pattern doesn't fit. |
+| Mini-Case (F07) | **Structured** (27 of 28) | Detects `Scenario:` block + numbered questions with optional "Step 1 / Step 2" sub-bullet pairs. The single fallback at `2sw/wk5/day2` is a "feedback sandwich" with three labeled writing slots, not numbered questions. |
+| Trade-off (F08) | **Structured** (7 of 7) | Detects bold `(A)` / `(B)` options + Pros A/B + My choice + Quality list + justification. Handles both label-inside-bold and label-outside-bold markdown shapes. |
+| Short Constructed Response (F09) | **Structured** (24 of 24) | Numbered prompts at the top, single 9-line ruled writing area below. |
+| 3-2-1 Reflective (F10) | **Structured** (5 of 5) | Detects bold sections opening with the numerals 3 / 2 / 1, with N gold-tinted writing slots per column. Handles both `**3 things ...**` and `**3** things ...` markdown shapes. |
 
-In all six fallback formats the chrome is identical to the structured ones (header, format-name strip with glyph, mastery rubric footer, page-id footer). Only the body region differs: the markdown is rendered to HTML with light pre-processing (long underscore runs become `<span class="blank">` writing lines) so the student-facing prompts stay legible and printable.
+The fallback glyphs that shipped pre-Round-2 have been replaced with the design team's Round 2 line-icons in `build/build_pdfs.py` `GLYPHS`. All ten glyphs are now design-authored.
 
-The six fallback glyphs in `build/build_pdfs.py` (under `GLYPHS`) are quick line-icon placeholders. Replace them with the design team's official glyphs when those ship.
+### F09 numbering note
 
-## What changes when the design team finishes a format
+The Round 2 README mentions "F09 is reserved for a future Compare-Contrast frame and is not in this round." In production F09 has been Short Constructed Response since Round 1, so the numbering is currently consistent with what shipped. If the design team wants to introduce a Compare-Contrast frame, it can take any unused number (F11+); the field-pair `format_code` in `build/build_pdfs.py` is the source of truth for production.
 
-To upgrade a format from "fallback" to "structured":
+## What changes when a format needs a structural update
 
-1. Add a new branch to `template.html.j2` next to the existing `{% elif format_id == "matrix" %}` block.
-2. Add a per-format extractor function in `build_pdfs.py` next to `extract_mcq` / `extract_matrix` / `extract_venn`. It should return `{}` if the markdown can't support the structured render (the renderer falls back automatically when an extractor returns empty).
-3. Wire the extractor into `ticket_to_context()`.
-4. Replace the placeholder glyph in `GLYPHS` with the design team's official SVG.
-5. Re-run `python3 build/build_pdfs.py` and spot-check.
+To extend a structured format (e.g., Round 3 or a fix for a fallback variant):
+
+1. Add or update the per-format extractor function in `build_pdfs.py` next to `extract_concept_map` / `extract_decision_tree` / etc. Return `{}` if the markdown can't support the structured render (the renderer falls back automatically when an extractor returns empty).
+2. Update the corresponding `{% elif format_id == "..." %}` branch in `template.html.j2`.
+3. If the design ships an updated CSS, replace `exit-tickets.css` and/or `exit-tickets-round2.css` in `build/exit_ticket_template/` and re-run `build_pdfs.py`.
+4. Replace the glyph in `GLYPHS` if the design team ships a new icon.
+5. Spot-check at least 5 representative tickets per format before committing.
 
 ## Implementation decisions worth knowing
 
@@ -122,8 +124,9 @@ Only one location: `docs/resources/exit-tickets/*.pdf`. The link-injection pass 
 
 ## Future work (not blocking, in priority order)
 
-1. **Design layouts for the six fallback formats.** Concept Map, Decision Tree, Ranked Justification, Mini-Case, Trade-off, 3-2-1. The CSS bundle already carries placeholder selectors (`.cmap`, `.tree`, `.rank`, `.tradeoff`, `.tto`) — replace those with finished components and wire structured branches into the template per the upgrade procedure above.
-2. **Replace the six placeholder glyphs** in `build/build_pdfs.py` `GLYPHS` once the design team ships the finished line-icon set.
-3. **Two-up half-page sheet PDF** so a teacher prints one Letter page with two half-page tickets side-by-side. Requires a separate "two-up combiner" pass that pairs MCQ/Short/3-2-1 tickets after generation.
-4. **Incremental rebuild** keyed on day-file mtime + SHA, if generation time becomes a concern.
+1. **Variant-shape parsers for the 19 fallback tickets.** Today they render via the markdown fallback inside the same chrome — readable but not per-format-designed. A future pass could either author additional Jinja branches that handle the variant shapes (e.g., the inverse-Ranked pattern where students fill both rank and item; the YES/NO Decision-Tree variant) OR rewrite those source tickets to fit the canonical shape. Curriculum-content rewrites are out of scope for the pipeline; coordinate with the curriculum author before changing markdown.
+2. **Venn coverage.** All 6 Venn tickets fall back today because the structured render requires an "X vs Y" pattern in the title or early payload. Authors who want a structured Venn must title or open the payload accordingly. An alternative would be a third extractor branch that detects the "Unique to A / Unique to B / Both" prose shape and pulls the two labels from the section headers.
+3. **Two-up half-page sheet PDF** so a teacher prints one Letter page with two half-page tickets side-by-side. Requires a separate "two-up combiner" pass that pairs MCQ / Mini-Case / Short / 3-2-1 tickets after generation.
+4. **Incremental rebuild** keyed on day-file mtime + SHA, if generation time becomes a concern. ~5 min for the full 173-ticket run today.
 5. **Static visual regression** snapshot folder so a future agent can diff a representative ticket per format against a checked-in baseline PNG before committing pipeline changes.
+6. **F09 = Compare-Contrast frame** if the design team wants to add an eleventh format. See the F09 numbering note above; do not renumber existing formats.

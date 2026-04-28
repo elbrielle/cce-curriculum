@@ -63,7 +63,11 @@ FORMATS = [
     ("3-2-1",                          "three_two_one",  "3-2-1 Reflective",            "F10", True),
 ]
 
-DESIGNED = {"mcq", "matrix", "venn", "short_response"}
+DESIGNED = {
+    "mcq", "matrix", "venn", "short_response",            # Round 1
+    "concept_map", "decision_tree", "ranked",             # Round 2
+    "mini_case", "tradeoff", "three_two_one",
+}
 
 
 # ---------- Glyphs (24x24 viewBox, 1.5pt stroke, no fill) ----------
@@ -72,17 +76,18 @@ DESIGNED = {"mcq", "matrix", "venn", "short_response"}
 # the design team will replace them when those formats ship.
 
 GLYPHS = {
+    # Round 1 (design team)
     "mcq":            '<svg viewBox="0 0 24 24"><circle cx="6" cy="7" r="2"/><circle cx="6" cy="17" r="2"/><path d="M11 7 H21"/><path d="M11 17 H21"/></svg>',
     "matrix":         '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18"/><path d="M3 9 H21"/><path d="M3 15 H21"/><path d="M9 3 V21"/><path d="M15 3 V21"/></svg>',
     "venn":           '<svg viewBox="0 0 24 24"><circle cx="9" cy="12" r="6"/><circle cx="15" cy="12" r="6"/></svg>',
     "short_response": '<svg viewBox="0 0 24 24"><path d="M4 7 H20"/><path d="M4 12 H20"/><path d="M4 17 H14"/></svg>',
-    # placeholders below — replace when the design team ships the layouts
-    "concept_map":    '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.2"/><circle cx="4" cy="5" r="1.4"/><circle cx="20" cy="5" r="1.4"/><circle cx="4" cy="19" r="1.4"/><circle cx="20" cy="19" r="1.4"/><path d="M12 12 L4.8 5.6"/><path d="M12 12 L19.2 5.6"/><path d="M12 12 L4.8 18.4"/><path d="M12 12 L19.2 18.4"/></svg>',
-    "decision_tree":  '<svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="1.5"/><circle cx="6" cy="13" r="1.5"/><circle cx="18" cy="13" r="1.5"/><circle cx="6" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M12 5 L6.7 12"/><path d="M12 5 L17.3 12"/><path d="M6 14.5 L6 18.5"/><path d="M18 14.5 L18 18.5"/></svg>',
-    "ranked":         '<svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="3"/><rect x="3" y="11" width="13" height="3"/><rect x="3" y="17" width="8" height="3"/></svg>',
-    "mini_case":      '<svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18"/><path d="M7 8 H17"/><path d="M7 12 H17"/><path d="M7 16 H13"/></svg>',
-    "tradeoff":       '<svg viewBox="0 0 24 24"><path d="M12 3 V21"/><path d="M3 8 H9"/><path d="M5 6 L3 8 L5 10"/><path d="M21 16 H15"/><path d="M19 14 L21 16 L19 18"/></svg>',
-    "three_two_one":  '<svg viewBox="0 0 24 24"><path d="M3 6 H21"/><path d="M3 9 H21"/><path d="M3 12 H21"/><path d="M3 15 H17"/><path d="M3 18 H17"/><path d="M3 21 H13"/></svg>',
+    # Round 2 (design team)
+    "concept_map":    '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.6" fill="currentColor"/><circle cx="4" cy="5" r="1.8"/><circle cx="20" cy="5" r="1.8"/><circle cx="4" cy="19" r="1.8"/><circle cx="20" cy="19" r="1.8"/><path d="M10 11 L5.4 6.2 M14 11 L18.6 6.2 M10 13 L5.4 17.8 M14 13 L18.6 17.8"/></svg>',
+    "decision_tree":  '<svg viewBox="0 0 24 24"><circle cx="12" cy="4" r="1.8"/><circle cx="6" cy="12" r="1.8"/><circle cx="18" cy="12" r="1.8"/><circle cx="3" cy="20" r="1.6"/><circle cx="9" cy="20" r="1.6"/><circle cx="15" cy="20" r="1.6"/><circle cx="21" cy="20" r="1.6"/><path d="M11 5.4 L7 10.6 M13 5.4 L17 10.6 M5 13.4 L3.5 18.4 M7 13.4 L8.5 18.4 M17 13.4 L15.5 18.4 M19 13.4 L20.5 18.4"/></svg>',
+    "ranked":         '<svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="3" fill="currentColor" stroke="none"/><rect x="3" y="11" width="13" height="3" fill="currentColor" stroke="none"/><rect x="3" y="17" width="8" height="3" fill="currentColor" stroke="none"/></svg>',
+    "mini_case":      '<svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16"/><path d="M6 9 H18 M6 13 H18 M6 17 H14"/></svg>',
+    "tradeoff":       '<svg viewBox="0 0 24 24"><path d="M12 3 V21"/><path d="M3 9 H10 M10 9 L7 6 M10 9 L7 12"/><path d="M21 15 H14 M14 15 L17 12 M14 15 L17 18"/></svg>',
+    "three_two_one":  '<svg viewBox="0 0 24 24"><path d="M3 6 H21"/><path d="M3 12 H17"/><path d="M3 18 H11"/></svg>',
     "fallback":       '<svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18"/><path d="M7 8 H17"/><path d="M7 12 H17"/><path d="M7 16 H13"/></svg>',
 }
 
@@ -368,6 +373,472 @@ def _last_short_line(payload: str) -> str:
     return ""
 
 
+def _strip_underscore_runs(text: str) -> str:
+    """Replace inline underscore runs with empty so they don't appear inside
+    structured prompt text (the gold slot below carries the writing space)."""
+    return re.sub(r"_{4,}", "", text).strip()
+
+
+def _strip_md_bold(text: str) -> str:
+    """Drop **...** wrappers; keep inner text. Used for labels/prompts that
+    will be re-bolded by the template."""
+    return re.sub(r"\*\*(.+?)\*\*", r"\1", text)
+
+
+# ---------- F04 Concept Map ----------
+
+# Match a heading line "**N. label**" then capture anything following on the
+# same line (trailing text and/or a parenthetical descriptor) as the
+# "descriptor" tail. Body is captured until the next **N. heading or EOF.
+CMAP_NODE_RE = re.compile(
+    r"^\*\*(\d+)\.\s+(.+?)\*\*\s*(.*?)$\s*(.*?)(?=\n\*\*\d+\.\s|\Z)",
+    re.DOTALL | re.MULTILINE,
+)
+
+
+def extract_concept_map(payload: str) -> dict:
+    """Pattern: center prompt + 'Connect ... N things:' intro + **N. Label**
+    numbered sections.  Each section has a label, a description, and one or
+    more inline fill-ins for the slot + why prompt.
+
+    Returns {} if fewer than 2 numbered sections are found, so unusual
+    concept-map markdown (e.g., 6sw/wk6/day4 which uses a center 'Place X in
+    the center' instruction with non-bold numbered items) falls back."""
+    nodes = list(CMAP_NODE_RE.finditer(payload))
+    if len(nodes) < 2:
+        return {}
+
+    # Center prompt = first paragraph before the numbered sections, stripped
+    # of the underscore fill-in run.
+    pre = payload[: nodes[0].start()].strip()
+    paragraphs = [p.strip() for p in re.split(r"\n\s*\n", pre) if p.strip()]
+    center_prompt = ""
+    if paragraphs:
+        center_prompt = _strip_underscore_runs(paragraphs[0])
+    intro = ""
+    if len(paragraphs) >= 2:
+        intro = _strip_md_bold(_strip_underscore_runs(paragraphs[1]))
+
+    extracted = []
+    for m in nodes:
+        num = m.group(1)
+        label = _strip_underscore_runs(m.group(2))
+        # Trailing text on the heading line is the descriptor (may include a
+        # parenthetical like "(from Day 2 matrix)" — preserve it intact, but
+        # strip surrounding whitespace).
+        descriptor_raw = (m.group(3) or "").strip()
+        # Strip surrounding parens if the entire trail is a parenthetical
+        if descriptor_raw.startswith("(") and descriptor_raw.endswith(")"):
+            descriptor = descriptor_raw[1:-1].strip()
+        else:
+            descriptor = descriptor_raw
+        body = m.group(4).strip()
+
+        # Body is typically two paragraphs: "My X: ___. Why...?" and a
+        # standalone underscore line (the "why" slot). Split.
+        body_paragraphs = [p.strip() for p in re.split(r"\n\s*\n", body) if p.strip()]
+        # First paragraph carries the slot prompt + why prompt; second is the
+        # underscore-only why slot.
+        prompt_text = ""
+        why_prompt = ""
+        if body_paragraphs:
+            first = body_paragraphs[0]
+            # Split on the period that ends the slot label, if any
+            split = re.split(r"\.\s+(?=Why|One sentence|In one sentence|How|What|Where|When)", first, maxsplit=1)
+            if len(split) == 2:
+                prompt_text = _strip_underscore_runs(split[0]).rstrip(".")
+                why_prompt = _strip_underscore_runs(split[1]).rstrip(":")
+            else:
+                prompt_text = _strip_underscore_runs(first).rstrip(".")
+
+        extracted.append({
+            "num": num,
+            "label": label,
+            "descriptor": descriptor,
+            "prompt": prompt_text,
+            "why_prompt": why_prompt,
+        })
+
+    return {
+        "center_prompt": center_prompt.rstrip(":"),
+        "intro": intro,
+        "nodes": extracted,
+    }
+
+
+# ---------- F05 Decision Tree ----------
+
+DT_ROLE_RE = re.compile(r"^My\s+([A-Z][^\n:]{1,60}?)\s+role\s*[:.]?\s*(.+?)\s*$", re.MULTILINE)
+DT_PROBLEM_RE = re.compile(r"^Problem:\s*(.+?)(?=\n\n|\nStep\s|\Z)", re.DOTALL | re.MULTILINE)
+DT_STEP_RE = re.compile(
+    r"^Step\s+(\d+):\s*(.+?)(?=\nStep\s+\d+:|\Z)",
+    re.DOTALL | re.MULTILINE,
+)
+
+
+def extract_decision_tree(payload: str) -> dict:
+    """Pattern: optional role bar + optional Problem: + 'Step N: prompt'
+    sections, where Step 2 may carry an 'I need to talk to / Because' branch.
+
+    Returns {} for the rare ticket whose markdown uses **Step 1:** with
+    YES/NO bullet branches (e.g., 6sw/wk5/day3), which falls back."""
+    if "**Step" in payload:
+        # Different shape — fall back
+        return {}
+
+    steps_iter = list(DT_STEP_RE.finditer(payload))
+    if len(steps_iter) < 2:
+        return {}
+
+    # Role bar
+    role_label, role_descriptor = "", ""
+    rm = DT_ROLE_RE.search(payload[: steps_iter[0].start()])
+    if rm:
+        role_label = rm.group(1).strip()
+        role_descriptor = rm.group(2).strip()
+        # The descriptor often has the underscore + parenthetical descriptor
+        # combined: "______ (Shift Supervisor / ...)"
+        descriptor_match = re.search(r"\((.+?)\)", role_descriptor)
+        role_descriptor = descriptor_match.group(1).strip() if descriptor_match else ""
+
+    # Problem
+    pm = DT_PROBLEM_RE.search(payload)
+    problem = pm.group(1).strip() if pm else ""
+    problem = _strip_underscore_runs(problem)
+
+    # Steps
+    steps = []
+    for m in steps_iter:
+        num = m.group(1)
+        body = m.group(2).strip()
+        # Split the prompt from the slot/branch.
+        # Detect IF/IF or "I need to talk to / Because" two-column pattern.
+        branch = None
+        # Look for the "I need to talk to:" + "Because:" pattern
+        talk_m = re.search(r"I need to talk to:\s*([^\n]*)", body)
+        because_m = re.search(r"Because:\s*([^\n]*)", body, re.IGNORECASE)
+        if talk_m and because_m:
+            # Strip these out of the prompt
+            prompt_text = body[:talk_m.start()].strip()
+            branch = {
+                "left_label": "I need to talk to",
+                "right_label": "Because",
+            }
+        else:
+            prompt_text = body
+
+        # The prompt text often ends with "(One sentence:)" or "?"; clean it.
+        # Also strip trailing underscore lines.
+        prompt_text = re.sub(r"_{4,}", "", prompt_text).strip()
+        # Remove trailing ":" if any.
+        prompt_text = prompt_text.rstrip(":").strip()
+
+        steps.append({
+            "num": num,
+            "prompt": prompt_text,
+            "branch": branch,
+            "slot_lines": 4 if not branch else 3,
+        })
+
+    return {
+        "role_label": role_label.upper() if role_label else "",
+        "role_descriptor": role_descriptor,
+        "problem": problem,
+        "steps": steps,
+    }
+
+
+# ---------- F06 Ranked Justification ----------
+
+RANKED_ITEM_RE = re.compile(r"^\s*[-*]\s+(.+?)(?::\s*rank\s+_+|:?\s*$)", re.MULTILINE)
+RANKED_FOLLOW_RE = re.compile(r"^\s*[-*]\s+Rank\s+(\d+)(?:\s*\(([^)]+)\))?:\s*(.*?)$", re.MULTILINE)
+
+
+def extract_ranked(payload: str) -> dict:
+    """Pattern: stem + bullet list of items + optional rule strip + follow-up
+    'Rank N:' rows.
+
+    Returns {} if the bullet list isn't clean (e.g., 4sw/wk4/day2 has a
+    different multi-question shape)."""
+    # Stem is the first paragraph
+    stem_para = _first_paragraph(payload)
+    stem = _strip_md_bold(stem_para)
+
+    # Items: bullet list before the "For each rank" or follow-up section
+    items = []
+    follow_split = re.search(r"^\s*For\s+(?:each|my|the)\s+", payload, re.MULTILINE | re.IGNORECASE)
+    list_section = payload[len(stem_para):follow_split.start()] if follow_split else payload[len(stem_para):]
+
+    for m in RANKED_ITEM_RE.finditer(list_section):
+        item_text = _strip_underscore_runs(m.group(1)).rstrip(":").strip()
+        # Skip if this is a "Rank N" follow-up row, not an item
+        if re.match(r"Rank\s+\d+", item_text, re.IGNORECASE):
+            continue
+        if item_text:
+            items.append(item_text)
+
+    if not (3 <= len(items) <= 5):
+        return {}
+
+    # Optional rule strip — look for parenthetical list of rules in the stem
+    # or a short callout line just before the follow-up.
+    rule_strip = ""
+    rule_strip_label = ""
+    callout_text = ""
+    if follow_split:
+        between = payload[follow_split.start():]
+        callout_m = re.search(r"For\s+each\s+(?:rank|item)[^.\n]*?\(([^)]+)\)", payload, re.IGNORECASE)
+        if callout_m:
+            rule_strip = callout_m.group(1).strip()
+            rule_strip_label = "Rules"
+        callout_match = re.search(r"For\s+(?:each|my|the)\s+[^\n:]+:?\s*$", payload, re.MULTILINE | re.IGNORECASE)
+        if callout_match:
+            callout_text = callout_match.group(0).strip().rstrip(":")
+
+    follows = []
+    for fm in RANKED_FOLLOW_RE.finditer(payload):
+        rank_num = fm.group(1)
+        qual = fm.group(2) or ""
+        label = f"Rank {rank_num}" + (f" ({qual.strip()})" if qual else "")
+        follows.append({"label": label.upper()})
+
+    if not follows:
+        # Without follow-up rows the structured render is incomplete
+        return {}
+
+    return {
+        "stem": stem.strip(),
+        "items_list": items,
+        "rule_strip": rule_strip,
+        "rule_strip_label": rule_strip_label,
+        "callout": callout_text or "FOR EACH RANK, NAME ONE RULE THAT SUPPORTS YOUR CHOICE:",
+        "follows": follows,
+    }
+
+
+# ---------- F07 Mini-Case ----------
+
+MINI_QUESTION_RE = re.compile(r"^\s*(\d+)\.\s+(.+?)(?=\n\s*\d+\.\s|\Z)", re.DOTALL | re.MULTILINE)
+STEP_PAIR_RE = re.compile(r"^\s*[-*]\s*Step\s+(\d+):\s*(.+?)$", re.MULTILINE)
+
+
+def extract_mini_case(payload: str) -> dict:
+    """Pattern: 'Scenario:' block + numbered questions, some with 'Step 1/2'
+    sub-bullets."""
+    sm = re.search(r"^Scenario:\s*(.+?)(?=\n\s*\d+\.\s|\n\s*\n|\Z)",
+                   payload, re.DOTALL | re.MULTILINE)
+    if not sm:
+        # Some Mini-Case variants don't use the literal "Scenario:" prefix
+        # but still have a paragraph then numbered questions.
+        first = _first_paragraph(payload)
+        if not first or not re.search(r"^\s*1\.\s", payload, re.MULTILINE):
+            return {}
+        scenario = first
+        rest_start = len(first)
+    else:
+        scenario = sm.group(1).strip()
+        rest_start = sm.end()
+
+    # Strip leading "Scenario:" if doubled
+    scenario = re.sub(r"^Scenario:\s*", "", scenario, flags=re.IGNORECASE).strip()
+    scenario = _strip_md_bold(_strip_underscore_runs(scenario))
+
+    body = payload[rest_start:]
+    questions = []
+    for qm in MINI_QUESTION_RE.finditer(body):
+        num = qm.group(1)
+        text = qm.group(2).strip()
+
+        # Detect step pair: "- Step 1: ..." / "- Step 2: ..."
+        steps = list(STEP_PAIR_RE.finditer(text))
+        if len(steps) == 2:
+            # Prompt is everything before the first Step row
+            prompt = text[: steps[0].start()].strip()
+            prompt = _strip_underscore_runs(prompt)
+            questions.append({
+                "num": num,
+                "prompt": prompt,
+                "step_pair": [
+                    {"label": f"Step {steps[0].group(1)}", "slot_lines": 2},
+                    {"label": f"Step {steps[1].group(1)}", "slot_lines": 2},
+                ],
+                "slot_lines": 0,
+            })
+        else:
+            prompt = _strip_underscore_runs(text).strip()
+            # Append a question mark only if the prompt has no terminal
+            # punctuation already.
+            if prompt and prompt[-1] not in "?.:!":
+                prompt += "?"
+            # Heuristic: longer prompts get more lines
+            slot_lines = 3 if len(prompt) > 90 else 2
+            questions.append({
+                "num": num,
+                "prompt": prompt,
+                "step_pair": None,
+                "slot_lines": slot_lines,
+            })
+
+    if len(questions) < 2:
+        return {}
+
+    return {
+        "scenario": scenario,
+        "questions": questions,
+    }
+
+
+# ---------- F08 Trade-off ----------
+
+# Two markdown shapes in the corpus:
+#   `- **(A) Look it up.** Pros: helps a coworker, ...`   (label inside bold)
+#   `- **(A)** A senior living home with 80 ...`          (label outside bold)
+TRADEOFF_OPT_RE = re.compile(
+    r"^[-*]\s*\*\*\(([AB])\)(?:\s*([^*]*?))?\.?\*\*\s*(.+?)$",
+    re.MULTILINE,
+)
+
+
+def extract_tradeoff(payload: str) -> dict:
+    """Pattern: scenario + bold (A)/(B) options + Pros A/B slots +
+    My choice + Quality list + justify."""
+    opts = list(TRADEOFF_OPT_RE.finditer(payload))
+    if len(opts) != 2:
+        return {}
+
+    scenario_text = payload[: opts[0].start()].strip()
+    scenario = _strip_underscore_runs(scenario_text)
+    # Drop trailing bullets carry-over
+    scenario = re.sub(r"\n\s*[-*].*$", "", scenario, flags=re.DOTALL).strip()
+
+    def _split_label_and_pros(inner_label: str, after_bold: str):
+        """Combine the label-inside-bold and the rest-of-line text into a
+        single (label, pros) pair. The 'pros' text often starts with 'Pros:'.
+        If no inner label, the rest-of-line up to the first 'Pros:' is the
+        label, and the remainder is the pros."""
+        inner = (inner_label or "").strip().rstrip(".")
+        rest = after_bold.strip()
+        # Split rest on "Pros:" if present
+        pros_split = re.split(r"\bPros\s*:\s*", rest, maxsplit=1, flags=re.IGNORECASE)
+        if len(pros_split) == 2:
+            outer_label, pros = pros_split[0].strip().rstrip("."), pros_split[1].strip()
+        else:
+            outer_label, pros = rest, ""
+        # Combine inner + outer label: inner takes precedence, outer fills if empty
+        label = inner if inner else outer_label
+        return label, pros
+
+    a_label, a_pros = _split_label_and_pros(opts[0].group(2), opts[0].group(3))
+    b_label, b_pros = _split_label_and_pros(opts[1].group(2), opts[1].group(3))
+
+    # Remove "Pros: " prefix if duplicated
+    a_pros = re.sub(r"^Pros:\s*", "", a_pros, flags=re.IGNORECASE)
+    b_pros = re.sub(r"^Pros:\s*", "", b_pros, flags=re.IGNORECASE)
+
+    # Quality list: line that starts with "Quality list:" then comma/slash list
+    qual_m = re.search(r"Quality list:\s*([^\n]+?)(?:\.\s|\n|$)", payload)
+    quality_list = []
+    if qual_m:
+        raw = qual_m.group(1)
+        raw = re.sub(r"\(or write your own\)", "", raw, flags=re.IGNORECASE)
+        for sep in ("/", ","):
+            if sep in raw:
+                quality_list = [q.strip().rstrip(".") for q in raw.split(sep) if q.strip()]
+                break
+        if not quality_list:
+            quality_list = [raw.strip()]
+
+    # Justify prompt = the question after "Quality list:" line, skipping the
+    # "(Or write your own.)" parenthetical that often closes the list.
+    justify_prompt = ""
+    if qual_m:
+        after = payload[qual_m.end():]
+        # Strip leading parenthetical "(Or write your own.)" or similar
+        after = re.sub(r"^\s*\([^)]+\)\s*", "", after)
+        # Take the first sentence-like text up to a question mark
+        jm = re.search(r"([A-Z][^?]+\?)", after, re.DOTALL)
+        if jm:
+            justify_prompt = _strip_underscore_runs(jm.group(1)).strip()
+
+    return {
+        "scenario": scenario,
+        "a_label": a_label,
+        "a_pros": a_pros,
+        "b_label": b_label,
+        "b_pros": b_pros,
+        "quality_list": quality_list,
+        "justify_prompt": justify_prompt,
+    }
+
+
+# ---------- F10 3-2-1 Reflective ----------
+
+BOLD_BLOCK_RE = re.compile(r"\*\*(.+?)\*\*", re.DOTALL)
+
+
+def extract_three_two_one(payload: str) -> dict:
+    """Pattern: stem + three bold sections opening with the numerals 3 / 2 / 1.
+
+    Handles both markdown variants seen in the corpus:
+      a) `**3 things ... :**`           — full phrase bolded as one unit
+      b) `**3** things ... :`           — numeral bolded alone, label after
+
+    Approach: scan every bold block; sections that open with a digit are
+    treated as section heads. Body for a head is everything between this bold
+    block and the next bold block (or end of payload)."""
+    matches = list(BOLD_BLOCK_RE.finditer(payload))
+    if len(matches) < 3:
+        return {}
+
+    sections = []
+    for i, m in enumerate(matches):
+        bold_text = m.group(1).strip()
+        digit_m = re.match(r"^(\d)\b\s*(.*)$", bold_text, re.DOTALL)
+        if not digit_m:
+            continue
+        num = int(digit_m.group(1))
+        label_in_bold = digit_m.group(2).strip().rstrip(":").rstrip()
+
+        body_start = m.end()
+        body_end = matches[i + 1].start() if i + 1 < len(matches) else len(payload)
+        body = payload[body_start:body_end]
+        # If the bold block was just the numeral (variant b), the label trails
+        # the bold block in plain text on the same paragraph.
+        if not label_in_bold:
+            # Take everything up to the first newline of the body as the label
+            head_line = body.lstrip("\n").split("\n", 1)[0].strip().rstrip(":")
+            label = head_line
+        else:
+            label = label_in_bold
+
+        slot_lines = sum(1 for line in body.splitlines()
+                         if re.match(r"^\s*\d+\.\s", line))
+        if slot_lines == 0:
+            # Single-slot last section ("1 connection: ___") often has no
+            # numbered child — render exactly N slots based on the section
+            # number.
+            slot_lines = num
+
+        sections.append({"num": num, "label": label, "slots": min(slot_lines, num)})
+
+    nums = [s["num"] for s in sections]
+    if nums[:3] != [3, 2, 1]:
+        return {}
+
+    cols = sections[:3]
+
+    # Stem is whatever appears before the first **3** section
+    stem = ""
+    if matches:
+        pre = payload[: matches[0].start()].strip()
+        stem = _first_paragraph(pre) if pre else ""
+
+    return {
+        "stem": stem,
+        "cols": cols,
+    }
+
+
 # ---------- Markdown -> HTML for fallback ----------
 
 UNDERSCORE_LINE = re.compile(r"^\s*_{6,}\s*$")
@@ -435,29 +906,37 @@ def ticket_to_context(ticket: Ticket) -> dict:
         "matrix": {},
         "venn": {},
         "short_response": {},
+        "concept_map": {},
+        "decision_tree": {},
+        "ranked": {},
+        "mini_case": {},
+        "tradeoff": {},
+        "three_two_one": {},
         "fallback_html": "",
     }
 
     fid = ticket.format_id
-    if fid == "mcq":
-        ctx["mcq"] = extract_mcq(ticket.payload)
-        if not ctx["mcq"]:  # parser couldn't find options
+    extractor_map = {
+        "mcq":            ("mcq",            lambda t: extract_mcq(t.payload)),
+        "matrix":         ("matrix",         lambda t: extract_matrix(t.payload)),
+        "venn":           ("venn",           lambda t: extract_venn(t)),
+        "short_response": ("short_response", lambda t: extract_short_response(t.payload)),
+        "concept_map":    ("concept_map",    lambda t: extract_concept_map(t.payload)),
+        "decision_tree":  ("decision_tree",  lambda t: extract_decision_tree(t.payload)),
+        "ranked":         ("ranked",         lambda t: extract_ranked(t.payload)),
+        "mini_case":      ("mini_case",      lambda t: extract_mini_case(t.payload)),
+        "tradeoff":       ("tradeoff",       lambda t: extract_tradeoff(t.payload)),
+        "three_two_one":  ("three_two_one",  lambda t: extract_three_two_one(t.payload)),
+    }
+
+    if fid in extractor_map:
+        key, extractor = extractor_map[fid]
+        ctx[key] = extractor(ticket)
+        # short_response always fires the structured render even with empty stem
+        if not ctx[key] and fid != "short_response":
             ctx["fallback_html"] = render_fallback_html(ticket.payload)
             ctx["format_id"] = "fallback"
-    elif fid == "matrix":
-        ctx["matrix"] = extract_matrix(ticket.payload)
-        if not ctx["matrix"]:
-            ctx["fallback_html"] = render_fallback_html(ticket.payload)
-            ctx["format_id"] = "fallback"
-    elif fid == "venn":
-        ctx["venn"] = extract_venn(ticket)
-        if not ctx["venn"]:
-            ctx["fallback_html"] = render_fallback_html(ticket.payload)
-            ctx["format_id"] = "fallback"
-    elif fid == "short_response":
-        ctx["short_response"] = extract_short_response(ticket.payload)
     else:
-        # The six fallback formats + any unknown format
         ctx["fallback_html"] = render_fallback_html(ticket.payload)
 
     return ctx

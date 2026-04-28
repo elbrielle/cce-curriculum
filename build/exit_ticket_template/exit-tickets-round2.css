@@ -1,0 +1,789 @@
+/* =========================================================================
+   CCE EXIT TICKETS — ROUND 2
+   Append-only stylesheet. Loads AFTER exit-tickets.css.
+   Reuses Round 1 tokens (--navy, --gold-tint, --rule, --serif, --sans, --mono).
+   Extends Round 1 stubs: .cmap, .tree, .rank, .tradeoff, .tto.
+   No re-declarations of chrome (.eh, .eb, .ef), .lines, .matrix, .mcq__opt.
+   ========================================================================= */
+
+/* ---- Shared body utilities used by multiple Round 2 formats ---- */
+
+.center-anchor {
+  /* The single named center used by Concept Map */
+  background: var(--navy);
+  color: var(--paper);
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 10pt;
+  letter-spacing: 0.04em;
+  padding: 5pt 10pt;
+  display: inline-flex;
+  align-items: center;
+  gap: 8pt;
+  align-self: center;
+  margin-bottom: 6pt;
+}
+.center-anchor .lbl {
+  font-size: 7pt;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold);
+  border-right: 0.6pt solid rgba(255,255,255,.3);
+  padding-right: 8pt;
+}
+.center-anchor .val {
+  font-family: var(--mono);
+  font-weight: 500;
+  border-bottom: 0.5pt solid var(--gold);
+  min-width: 1.6in;
+  display: inline-block;
+}
+
+.numbered-prompt {
+  display: grid;
+  grid-template-columns: 22pt 1fr;
+  gap: 8pt;
+  align-items: start;
+  font-size: 10.5pt;
+  line-height: 1.4;
+  margin-bottom: 6pt;
+}
+.numbered-prompt__num {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 14pt;
+  line-height: 1;
+  color: var(--navy);
+  border-right: 0.75pt solid var(--navy);
+  padding-right: 6pt;
+  text-align: right;
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-top: 1pt;
+}
+.numbered-prompt__body { min-width: 0; }
+.numbered-prompt__body strong { font-weight: 700; }
+
+/* Inline fill-in: short underline within prose */
+.fill {
+  display: inline-block;
+  min-width: 1.2in;
+  border-bottom: 0.5pt solid var(--ink);
+  padding: 0 4pt;
+  height: 11pt;
+  vertical-align: -2pt;
+}
+.fill--md { min-width: 2in; }
+.fill--lg { min-width: 3in; }
+
+/* =========================================================================
+   F04 · CONCEPT MAP
+   Center anchor + N numbered connection blocks. Each block: a connector
+   hairline from the center, a label chip, a fill-in slot, and a "why" line.
+   ========================================================================= */
+.cmap {
+  /* Override Round 1 stub: was an empty dashed box. */
+  width: 100%;
+  height: auto;
+  border: none;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 6pt;
+  position: relative;
+}
+.cmap__nodes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10pt;
+  margin-top: 4pt;
+}
+.cmap__nodes--n4 { grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+.cmap__node {
+  border: 0.6pt solid var(--ink);
+  padding: 6pt 8pt 8pt 8pt;
+  display: flex;
+  flex-direction: column;
+  gap: 5pt;
+  background: var(--paper);
+  position: relative;
+}
+.cmap__node-head {
+  display: flex;
+  align-items: center;
+  gap: 6pt;
+  padding-bottom: 4pt;
+  border-bottom: 0.4pt solid var(--ink-mute);
+}
+.cmap__node-num {
+  width: 16pt; height: 16pt;
+  background: var(--navy);
+  color: var(--paper);
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 10pt;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.cmap__node-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 8.5pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink);
+  line-height: 1.15;
+}
+.cmap__node-prompt {
+  font-size: 9.5pt;
+  line-height: 1.35;
+  color: var(--ink);
+}
+.cmap__node-prompt em {
+  color: var(--ink-mute);
+  font-style: italic;
+}
+.cmap__node-slot {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  background-image: linear-gradient(to bottom,
+    transparent 0,
+    transparent calc(100% - 0.6pt),
+    var(--rule) calc(100% - 0.6pt),
+    var(--rule) 100%);
+  background-size: 100% calc(100% / 3);
+  background-repeat: repeat-y;
+  height: calc(8.5mm * 3);
+  margin-top: 2pt;
+}
+.cmap__node-why {
+  font-size: 8.5pt;
+  font-family: var(--serif);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-top: 2pt;
+}
+.cmap__node-why-slot {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  background-image: linear-gradient(to bottom,
+    transparent 0,
+    transparent calc(100% - 0.6pt),
+    var(--rule) calc(100% - 0.6pt),
+    var(--rule) 100%);
+  background-size: 100% calc(100% / 4);
+  background-repeat: repeat-y;
+  height: calc(8.5mm * 4);
+}
+
+/* Connector hairline from each node up toward the center anchor (decorative,
+   prints cleanly). */
+.cmap__connectors {
+  height: 14pt;
+  margin: -3pt 0 -3pt 0;
+  position: relative;
+}
+.cmap__connectors svg {
+  width: 100%; height: 100%;
+  display: block;
+  overflow: visible;
+}
+
+/* =========================================================================
+   F05 · DECISION TREE
+   Linear stacked steps (most common shape). A modifier .tree__step--branch
+   splits step content into IF-YES / IF-NO columns.
+   ========================================================================= */
+.tree {
+  /* Override Round 1 stub. */
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.tree__role {
+  display: flex;
+  align-items: center;
+  gap: 8pt;
+  padding: 6pt 10pt;
+  background: #f5f8fb;
+  border-left: 2pt solid var(--navy);
+  margin-bottom: 8pt;
+  font-size: 10.5pt;
+}
+.tree__role-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 7.5pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--navy);
+  flex-shrink: 0;
+}
+.tree__problem {
+  font-size: 10.5pt;
+  line-height: 1.4;
+  margin-bottom: 10pt;
+  padding: 6pt 10pt;
+  border: 0.6pt solid var(--ink-mute);
+}
+.tree__problem strong { color: var(--teacher); font-weight: 700; }
+
+.tree__steps { display: flex; flex-direction: column; gap: 0; }
+.tree__step {
+  display: grid;
+  grid-template-columns: 28pt 1fr;
+  gap: 0;
+  position: relative;
+}
+.tree__step + .tree__step::before {
+  /* Connector hairline between consecutive steps */
+  content: "";
+  position: absolute;
+  left: 13pt;
+  top: -8pt;
+  width: 0;
+  height: 8pt;
+  border-left: 0.75pt solid var(--navy);
+}
+.tree__step-num {
+  width: 28pt;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2pt;
+  position: relative;
+}
+.tree__step-num .circle {
+  width: 22pt; height: 22pt;
+  background: var(--navy);
+  color: var(--paper);
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 11pt;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.tree__step-num .stem {
+  flex: 1;
+  width: 0;
+  border-left: 0.75pt solid var(--navy);
+  margin-top: 2pt;
+}
+.tree__step:last-child .tree__step-num .stem { display: none; }
+
+.tree__step-body {
+  padding: 2pt 0 14pt 8pt;
+  display: flex;
+  flex-direction: column;
+  gap: 4pt;
+  min-width: 0;
+}
+.tree__step-prompt {
+  font-size: 10.5pt;
+  line-height: 1.35;
+}
+.tree__step-prompt strong {
+  font-family: var(--serif);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 8.5pt;
+  color: var(--navy);
+  display: block;
+  margin-bottom: 2pt;
+}
+.tree__step-slot {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  background-image: linear-gradient(to bottom,
+    transparent 0,
+    transparent calc(100% - 0.6pt),
+    var(--rule) calc(100% - 0.6pt),
+    var(--rule) 100%);
+  background-repeat: repeat-y;
+}
+.tree__step-slot--n1 { height: calc(8.5mm * 1); background-size: 100% 100%; }
+.tree__step-slot--n2 { height: calc(8.5mm * 2); background-size: 100% calc(100% / 2); }
+.tree__step-slot--n3 { height: calc(8.5mm * 3); background-size: 100% calc(100% / 3); }
+.tree__step-slot--n4 { height: calc(8.5mm * 4); background-size: 100% calc(100% / 4); }
+
+.tree__step-pair {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6pt 10pt;
+  align-items: center;
+  font-size: 10pt;
+}
+.tree__step-pair-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 8.5pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+/* IF-YES / IF-NO branch variant */
+.tree__branch {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  border: 0.6pt solid var(--ink);
+}
+.tree__branch-col { padding: 6pt 8pt; border-left: 0.6pt solid var(--ink); }
+.tree__branch-col:first-child { border-left: none; }
+.tree__branch-head {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 9pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--navy);
+  padding-bottom: 4pt;
+  margin-bottom: 4pt;
+  border-bottom: 0.5pt solid var(--ink-mute);
+}
+
+/* =========================================================================
+   F06 · RANKED JUSTIFICATION
+   Extends Round 1 .rank stub. Slot can hold a pre-filled item (.rank__item)
+   or be empty (student fills in). Right column shows a "rule" prompt
+   instead of a free 'because…' line.
+   ========================================================================= */
+.rank {
+  /* Round 1 stub kept; we add layout refinements here. */
+  gap: 5pt;
+}
+.rank__instructions {
+  font-size: 10pt;
+  line-height: 1.35;
+  margin-bottom: 6pt;
+}
+.rank__row {
+  /* Override Round 1 grid — two columns (rank + reference). Rules go in follow-up below. */
+  grid-template-columns: 28pt 1fr;
+  align-items: stretch;
+  gap: 8pt;
+}
+.rank__num {
+  font-size: 16pt;
+  width: 28pt;
+}
+.rank__num .pre {
+  font-family: var(--mono);
+  font-size: 7pt;
+  letter-spacing: 0.06em;
+  color: var(--ink-mute);
+  display: block;
+  margin-bottom: -2pt;
+  font-weight: 500;
+}
+.rank__slot {
+  height: auto;
+  min-height: calc(8.5mm * 1);
+  font-size: 10pt;
+  line-height: 1.3;
+  padding: 5pt 8pt;
+}
+.rank__slot.is-prefilled {
+  background: #f0f3f6;
+  border-color: var(--ink-mute);
+  font-style: normal;
+}
+.rank__slot .rank-blank {
+  display: inline-block;
+  width: 18pt;
+  border-bottom: 0.5pt solid var(--ink);
+  margin: 0 4pt 0 8pt;
+  height: 11pt;
+  vertical-align: -2pt;
+}
+.rank__rule {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  padding: 5pt 8pt;
+  font-size: 9.5pt;
+  line-height: 1.3;
+  display: flex;
+  align-items: center;
+}
+.rank__rule::before {
+  content: "RULE";
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 7pt;
+  letter-spacing: 0.14em;
+  color: var(--navy);
+  border-right: 0.5pt solid var(--ink-mute);
+  padding-right: 6pt;
+  margin-right: 6pt;
+  flex-shrink: 0;
+}
+.rank__follow {
+  margin-top: 8pt;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5pt;
+}
+.rank__follow-row { display: grid; grid-template-columns: 1.6in 1fr; gap: 8pt; align-items: stretch; }
+.rank__follow-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 9pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+.rank__follow-slot {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  height: calc(8.5mm * 2);
+  background-image: linear-gradient(to bottom,
+    transparent 0,
+    transparent calc(100% - 0.6pt),
+    var(--rule) calc(100% - 0.6pt),
+    var(--rule) 100%);
+  background-size: 100% calc(100% / 2);
+  background-repeat: repeat-y;
+}
+
+/* H&L rule reference strip */
+.rule-strip {
+  border: 0.5pt dashed var(--ink-mute);
+  padding: 4pt 8pt;
+  margin-top: 8pt;
+  font-size: 9pt;
+  line-height: 1.4;
+  color: var(--ink-soft);
+}
+.rule-strip b {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 7.5pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-right: 6pt;
+}
+
+/* =========================================================================
+   F07 · MINI-CASE
+   Reuses Round 1 .scenario block. Adds .case__questions.
+   ========================================================================= */
+.case__questions {
+  display: flex;
+  flex-direction: column;
+  gap: 7pt;
+  margin-top: 4pt;
+}
+.case__q {
+  display: grid;
+  grid-template-columns: 22pt 1fr;
+  gap: 8pt;
+  align-items: start;
+}
+.case__q-num {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 14pt;
+  color: var(--navy);
+  border-right: 0.75pt solid var(--navy);
+  padding-right: 6pt;
+  text-align: right;
+  padding-top: 1pt;
+}
+.case__q-body { min-width: 0; display: flex; flex-direction: column; gap: 4pt; }
+.case__q-prompt {
+  font-size: 10.5pt;
+  line-height: 1.35;
+}
+.case__q-slot {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  background-image: linear-gradient(to bottom,
+    transparent 0,
+    transparent calc(100% - 0.6pt),
+    var(--rule) calc(100% - 0.6pt),
+    var(--rule) 100%);
+  background-repeat: repeat-y;
+}
+.case__q-slot--n1 { height: calc(8.5mm * 1); background-size: 100% 100%; }
+.case__q-slot--n2 { height: calc(8.5mm * 2); background-size: 100% calc(100% / 2); }
+.case__q-slot--n3 { height: calc(8.5mm * 3); background-size: 100% calc(100% / 3); }
+.case__q-slot--n4 { height: calc(8.5mm * 4); background-size: 100% calc(100% / 4); }
+
+/* Two-column step pair (Step 1 / Step 2 side by side inside one question) */
+.case__step-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8pt;
+}
+.case__step-pair > div { display: flex; flex-direction: column; gap: 3pt; }
+.case__step-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 8.5pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+/* =========================================================================
+   F08 · TRADE-OFF
+   Extends Round 1 .tradeoff stub. Adds bottom region:
+   .tradeoff__choice (My choice A/B), .tradeoff__qualities (chip list),
+   .tradeoff__justify.
+   ========================================================================= */
+.tradeoff__option-head {
+  /* Refines Round 1 .tradeoff__head with an A/B badge */
+  display: flex;
+  align-items: center;
+  gap: 8pt;
+}
+.tradeoff__option-head .badge {
+  background: var(--gold);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 11pt;
+  width: 18pt; height: 18pt;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.tradeoff__pros {
+  font-size: 9.5pt;
+  line-height: 1.55;
+  color: var(--ink);
+  margin: 0 0 12pt 0;
+  font-style: italic;
+  padding-bottom: 8pt;
+  border-bottom: 0.4pt dashed var(--ink-mute);
+}
+.tradeoff__pros b { font-style: normal; font-weight: 700; }
+.tradeoff__cell-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 8pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 5pt;
+}
+
+.tradeoff__choice {
+  display: flex;
+  align-items: center;
+  gap: 12pt;
+  margin-top: 8pt;
+  padding: 6pt 10pt;
+  border: 0.6pt solid var(--ink);
+  background: #f5f8fb;
+}
+.tradeoff__choice-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 10pt;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--navy);
+  white-space: nowrap;
+}
+.tradeoff__choice-bubbles {
+  display: flex;
+  gap: 10pt;
+  align-items: center;
+  font-size: 11pt;
+  font-family: var(--serif);
+  font-weight: 700;
+}
+.tradeoff__choice-bubble {
+  width: 22pt; height: 22pt;
+  border: 0.75pt solid var(--ink);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+}
+
+.tradeoff__qualities {
+  margin-top: 8pt;
+  padding: 6pt 8pt;
+  border: 0.5pt dashed var(--ink-mute);
+  font-size: 9.5pt;
+  line-height: 1.6;
+}
+.tradeoff__qualities-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 7.5pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-right: 6pt;
+}
+.q-chip {
+  display: inline-block;
+  padding: 1pt 6pt;
+  border: 0.5pt solid var(--ink-mute);
+  margin: 0 3pt 3pt 0;
+  font-family: var(--mono);
+  font-size: 9pt;
+  background: var(--paper);
+}
+.q-chip--blank {
+  background: var(--gold-tint);
+  border-color: #c9a826;
+  min-width: 1in;
+}
+
+.tradeoff__justify {
+  margin-top: 8pt;
+  display: flex;
+  flex-direction: column;
+  gap: 4pt;
+}
+.tradeoff__justify-prompt {
+  font-size: 10.5pt;
+  line-height: 1.35;
+}
+.tradeoff__justify-slot {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  background-image: linear-gradient(to bottom,
+    transparent 0,
+    transparent calc(100% - 0.6pt),
+    var(--rule) calc(100% - 0.6pt),
+    var(--rule) 100%);
+  background-size: 100% calc(100% / 4);
+  background-repeat: repeat-y;
+  height: calc(8.5mm * 4);
+}
+
+/* Override Round 1 .tradeoff__cell — bigger writing area with ruled lines */
+.tradeoff .tradeoff__cell {
+  height: calc(8.5mm * 4);
+  background-image: linear-gradient(to bottom,
+    transparent 0,
+    transparent calc(100% - 0.5pt),
+    var(--rule) calc(100% - 0.5pt),
+    var(--rule) 100%);
+  background-size: 100% calc(100% / 4);
+  background-repeat: repeat-y;
+  background-color: var(--gold-tint);
+}
+
+/* =========================================================================
+   F10 · 3-2-1 REFLECTIVE
+   Extends Round 1 .tto stub. Adds gold-tinted .lines slots under each column
+   (3 slots in col 1, 2 slots in col 2, 1 slot in col 3).
+   ========================================================================= */
+.tto {
+  /* Round 1 stub kept. */
+  gap: 12pt;
+  align-items: stretch;
+}
+.tto__col {
+  border: 0.6pt solid var(--ink-mute);
+  padding: 8pt 8pt 10pt 8pt;
+  gap: 6pt;
+}
+.tto__head {
+  display: flex;
+  align-items: flex-start;
+  gap: 8pt;
+  padding-bottom: 6pt;
+  margin-bottom: 6pt;
+  flex-wrap: nowrap;
+}
+.tto__head::after {
+  /* Replace border-bottom with absolute hairline so it never cuts through text */
+}
+.tto__num {
+  font-size: 30pt;
+}
+.tto__head .tto__num { flex-shrink: 0; line-height: 0.85; }
+.tto__head .tto__lbl { flex: 1; min-width: 0; padding-top: 2pt; line-height: 1.45; }
+.tto__lbl {
+  font-size: 9pt;
+  letter-spacing: 0.02em;
+  line-height: 1.45;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-weight: 600;
+}
+.tto__lbl em {
+  font-style: italic;
+  color: var(--ink-mute);
+  font-weight: 500;
+}
+.tto__lbl b {
+  display: block;
+  color: var(--ink);
+  font-size: 9pt;
+  letter-spacing: 0.06em;
+  margin-bottom: 4pt;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-family: var(--serif);
+}
+.tto__slots {
+  display: flex;
+  flex-direction: column;
+  gap: 5pt;
+  margin-top: 2pt;
+}
+.tto__slot {
+  display: grid;
+  grid-template-columns: 14pt 1fr;
+  gap: 5pt;
+  align-items: stretch;
+}
+.tto__slot-num {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 10pt;
+  color: var(--navy);
+  text-align: right;
+  padding-top: 4pt;
+}
+.tto__slot-line {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  background-image: linear-gradient(to bottom,
+    transparent 0,
+    transparent calc(100% - 0.6pt),
+    var(--rule) calc(100% - 0.6pt),
+    var(--rule) 100%);
+  background-repeat: repeat-y;
+}
+.tto__slot-line--n1 { height: calc(8.5mm * 1); background-size: 100% 100%; }
+.tto__slot-line--n2 { height: calc(8.5mm * 2); background-size: 100% calc(100% / 2); }
+.tto__slot-line--n3 { height: calc(8.5mm * 3); background-size: 100% calc(100% / 3); background-image: linear-gradient(to bottom, transparent 0, transparent calc(100% - 0.6pt), var(--rule) calc(100% - 0.6pt), var(--rule) 100%); background-repeat: repeat-y; }
+.tto__slot-line--n4 { height: calc(8.5mm * 4); background-size: 100% calc(100% / 4); background-image: linear-gradient(to bottom, transparent 0, transparent calc(100% - 0.6pt), var(--rule) calc(100% - 0.6pt), var(--rule) 100%); background-repeat: repeat-y; }
+
+/* =========================================================================
+   PRINT — extend Round 1 print rules to Round 2 tinted regions.
+   ========================================================================= */
+@media print {
+  .cmap__node-slot, .cmap__node-why-slot,
+  .tree__step-slot,
+  .rank__rule, .rank__follow-slot,
+  .case__q-slot,
+  .tradeoff__justify-slot, .q-chip--blank,
+  .tto__slot-line,
+  .center-anchor {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

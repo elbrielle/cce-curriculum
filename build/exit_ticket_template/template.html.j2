@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="exit-tickets.css">
+<link rel="stylesheet" href="exit-tickets-round2.css">
 <style>
   /* Fallback-body styles for the six formats whose designed components are still TODO. */
   .eb__fallback {
@@ -196,6 +197,188 @@
     {% elif format_id == "short_response" %}
       {% if short_response.stem %}<p class="stem">{{ short_response.stem | safe }}</p>{% endif %}
       <div class="lines lines--n9"></div>
+
+    {% elif format_id == "concept_map" and concept_map.nodes %}
+      <div class="cmap">
+        {% if concept_map.center_prompt %}<p class="stem">{{ concept_map.center_prompt }}:</p>{% endif %}
+        <div class="center-anchor">
+          <span class="lbl">Center</span>
+          <span class="val">&nbsp;</span>
+        </div>
+        {% if concept_map.intro %}<p class="stem" style="margin-top:2pt"><strong>{{ concept_map.intro }}</strong></p>{% endif %}
+        <div class="cmap__connectors">
+          <svg viewBox="0 0 600 14" preserveAspectRatio="none">
+            {% if concept_map.nodes|length == 4 %}
+              <path d="M300 0 L75 14 M300 0 L225 14 M300 0 L375 14 M300 0 L525 14" fill="none" stroke="#004d7c" stroke-width="0.6" stroke-dasharray="2 2"/>
+            {% else %}
+              <path d="M300 0 L100 14 M300 0 L300 14 M300 0 L500 14" fill="none" stroke="#004d7c" stroke-width="0.6" stroke-dasharray="2 2"/>
+            {% endif %}
+          </svg>
+        </div>
+        <div class="cmap__nodes{% if concept_map.nodes|length == 4 %} cmap__nodes--n4{% endif %}">
+          {% for node in concept_map.nodes %}
+          <div class="cmap__node">
+            <div class="cmap__node-head">
+              <div class="cmap__node-num">{{ node.num }}</div>
+              <div class="cmap__node-lbl">{{ node.label }}</div>
+            </div>
+            {% if node.descriptor %}<div class="cmap__node-prompt"><em>{{ node.descriptor }}</em></div>{% endif %}
+            {% if node.prompt %}<div class="cmap__node-prompt">{{ node.prompt }}</div>{% endif %}
+            <div class="cmap__node-slot"></div>
+            {% if node.why_prompt %}
+              <div class="cmap__node-why">{{ node.why_prompt }}</div>
+              <div class="cmap__node-why-slot"></div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+    {% elif format_id == "decision_tree" and decision_tree.steps %}
+      <div class="tree">
+        {% if decision_tree.role_label %}
+        <div class="tree__role">
+          <span class="tree__role-lbl">{{ decision_tree.role_label }}</span>
+          <span class="fill fill--md"></span>
+          {% if decision_tree.role_descriptor %}<span style="font-size:9.5pt; color:var(--ink-mute)">({{ decision_tree.role_descriptor }})</span>{% endif %}
+        </div>
+        {% endif %}
+        {% if decision_tree.problem %}
+        <div class="tree__problem"><strong>Problem:</strong> {{ decision_tree.problem }}</div>
+        {% endif %}
+        <div class="tree__steps">
+          {% for step in decision_tree.steps %}
+          <div class="tree__step">
+            <div class="tree__step-num"><div class="circle">{{ step.num }}</div>{% if not loop.last %}<div class="stem"></div>{% endif %}</div>
+            <div class="tree__step-body">
+              <div class="tree__step-prompt">{{ step.prompt }}</div>
+              {% if step.branch %}
+              <div class="tree__branch">
+                <div class="tree__branch-col">
+                  <div class="tree__branch-head">{{ step.branch.left_label }}</div>
+                  <div class="tree__step-slot tree__step-slot--n3"></div>
+                </div>
+                <div class="tree__branch-col">
+                  <div class="tree__branch-head">{{ step.branch.right_label }}</div>
+                  <div class="tree__step-slot tree__step-slot--n3"></div>
+                </div>
+              </div>
+              {% else %}
+              <div class="tree__step-slot tree__step-slot--n{{ step.slot_lines }}"></div>
+              {% endif %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+    {% elif format_id == "ranked" and ranked.items_list %}
+      {% if ranked.stem %}<p class="stem">{{ ranked.stem }}</p>{% endif %}
+      <div class="rank">
+        {% for item in ranked.items_list %}
+        <div class="rank__row">
+          <div class="rank__num"><span class="rank-blank"></span></div>
+          <div class="rank__slot is-prefilled">{{ item }}</div>
+        </div>
+        {% endfor %}
+      </div>
+      {% if ranked.rule_strip %}
+      <div class="rule-strip"><b>{{ ranked.rule_strip_label or 'Rules' }}</b> {{ ranked.rule_strip }}</div>
+      {% endif %}
+      <p class="callout">{{ ranked.callout }}</p>
+      <div class="rank__follow">
+        {% for follow in ranked.follows %}
+        <div class="rank__follow-row">
+          <div class="rank__follow-lbl">{{ follow.label }}</div>
+          <div class="rank__follow-slot"></div>
+        </div>
+        {% endfor %}
+      </div>
+
+    {% elif format_id == "mini_case" and mini_case.questions %}
+      {% if mini_case.scenario %}<p class="scenario">{{ mini_case.scenario | safe }}</p>{% endif %}
+      <div class="case__questions">
+        {% for q in mini_case.questions %}
+        <div class="case__q">
+          <div class="case__q-num">{{ q.num }}</div>
+          <div class="case__q-body">
+            <div class="case__q-prompt">{{ q.prompt }}</div>
+            {% if q.step_pair %}
+            <div class="case__step-pair">
+              {% for sub in q.step_pair %}
+              <div>
+                <div class="case__step-lbl">{{ sub.label }}</div>
+                <div class="case__q-slot case__q-slot--n{{ sub.slot_lines }}"></div>
+              </div>
+              {% endfor %}
+            </div>
+            {% else %}
+            <div class="case__q-slot case__q-slot--n{{ q.slot_lines }}"></div>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+    {% elif format_id == "tradeoff" and tradeoff.a_label and tradeoff.b_label %}
+      {% if tradeoff.scenario %}<p class="scenario">{{ tradeoff.scenario | safe }}</p>{% endif %}
+      <div class="tradeoff">
+        <div class="tradeoff__col">
+          <div class="tradeoff__head tradeoff__option-head"><span class="badge">A</span>{{ tradeoff.a_label }}</div>
+          {% if tradeoff.a_pros %}<p class="tradeoff__pros"><b>Pros:</b> {{ tradeoff.a_pros }}</p>{% endif %}
+          <div class="tradeoff__row">
+            <div class="tradeoff__cell-lbl">Pros of picking A</div>
+            <div class="tradeoff__cell"></div>
+          </div>
+        </div>
+        <div class="tradeoff__col">
+          <div class="tradeoff__head tradeoff__option-head"><span class="badge">B</span>{{ tradeoff.b_label }}</div>
+          {% if tradeoff.b_pros %}<p class="tradeoff__pros"><b>Pros:</b> {{ tradeoff.b_pros }}</p>{% endif %}
+          <div class="tradeoff__row">
+            <div class="tradeoff__cell-lbl">Pros of picking B</div>
+            <div class="tradeoff__cell"></div>
+          </div>
+        </div>
+      </div>
+      <div class="tradeoff__choice">
+        <span class="tradeoff__choice-lbl">My choice</span>
+        <div class="tradeoff__choice-bubbles">
+          <span class="tradeoff__choice-bubble">A</span>
+          <span class="tradeoff__choice-bubble">B</span>
+        </div>
+      </div>
+      {% if tradeoff.quality_list %}
+      <div class="tradeoff__qualities">
+        <span class="tradeoff__qualities-lbl">Quality list</span>
+        {% for q in tradeoff.quality_list %}<span class="q-chip">{{ q }}</span>{% endfor %}
+        <span class="q-chip q-chip--blank">&nbsp;</span>
+        <span style="color:var(--ink-mute); font-size:9pt">or write your own</span>
+      </div>
+      {% endif %}
+      {% if tradeoff.justify_prompt %}
+      <div class="tradeoff__justify">
+        <div class="tradeoff__justify-prompt"><strong>{{ tradeoff.justify_prompt }}</strong></div>
+        <div class="tradeoff__justify-slot"></div>
+      </div>
+      {% endif %}
+
+    {% elif format_id == "three_two_one" and three_two_one.cols %}
+      {% if three_two_one.stem %}<p class="stem">{{ three_two_one.stem | safe }}</p>{% endif %}
+      <div class="tto">
+        {% for col in three_two_one.cols %}
+        <div class="tto__col">
+          <div class="tto__head">
+            <div class="tto__num">{{ col.num }}</div>
+            <div class="tto__lbl">{{ col.label }}</div>
+          </div>
+          <div class="tto__slots">
+            {% for i in range(col.slots) %}
+            <div class="tto__slot"><div class="tto__slot-num">{{ i + 1 }}</div><div class="tto__slot-line tto__slot-line--n3"></div></div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
 
     {% else %}
       {# Fallback: preserved markdown rendered to HTML. #}
