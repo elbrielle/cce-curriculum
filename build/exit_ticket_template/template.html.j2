@@ -42,17 +42,33 @@
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
-  /* Tighten "fill-in" underline blanks so they read as writing lines, not text. */
-  .eb__fallback .blank {
+  /* Underscore-only paragraph -> full-width gold-tinted writing slot.
+     Matches the design system's answer-region treatment. */
+  .eb__fallback .fb-line {
+    background-color: var(--gold-tint);
+    border: 0.6pt solid #c9a826;
+    height: 9mm;
+    margin: 6pt 0 10pt 0;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  /* Inline underscore run -> gold-tinted fill-in box. ~2in min-width gives
+     room for a phrase; a single inline blank can grow if it has more space. */
+  .eb__fallback .fb-blank {
     display: inline-block;
-    border-bottom: 0.6pt solid var(--rule);
-    min-width: 1.2in;
-    height: 1.2em;
+    background-color: var(--gold-tint);
+    border: 0.6pt solid #c9a826;
+    min-width: 2in;
+    height: 1.4em;
     vertical-align: bottom;
+    margin: 0 1pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
   /* Print-color-adjust on every tinted region. */
   @media print {
     .eb__fallback table thead th { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .eb__fallback .fb-line, .eb__fallback .fb-blank { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   }
 </style>
 </head>

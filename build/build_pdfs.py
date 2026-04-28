@@ -370,13 +370,40 @@ def _last_short_line(payload: str) -> str:
 
 # ---------- Markdown -> HTML for fallback ----------
 
+UNDERSCORE_LINE = re.compile(r"^\s*_{6,}\s*$")
+INLINE_UNDERSCORES = re.compile(r"_{6,}")
+
+
 def render_fallback_html(payload: str) -> str:
-    """Render preserved markdown to HTML for the fallback body."""
-    # Light pre-pass: convert long underscore runs to .blank spans so they
-    # render as visible writing lines instead of underscore characters.
-    blanks = re.sub(r"_{6,}", '<span class="blank"></span>', payload)
+    """Render preserved markdown to HTML for the fallback body.
+
+    Two distinct underscore patterns appear in the corpus and need different
+    treatments:
+
+    - "Underscore-only line" — a paragraph that's just a long run of
+      underscores (sometimes with leading whitespace from indented authoring).
+      These represent a full-width writing slot. Convert to a gold-tinted
+      .fb-line block (~9mm tall, matching the design system's answer-region
+      treatment).
+
+    - "Inline underscore run" — a label followed by underscores ("Label: ___")
+      mid-paragraph. These represent a fill-in slot inline with text. Convert
+      to a gold-tinted .fb-blank inline-block (~2in wide).
+    """
+    out_lines = []
+    for line in payload.splitlines():
+        if UNDERSCORE_LINE.match(line):
+            # Wrap in blank lines so python-markdown treats it as a raw
+            # HTML block and passes it through.
+            out_lines.append("")
+            out_lines.append('<div class="fb-line"></div>')
+            out_lines.append("")
+        else:
+            line = INLINE_UNDERSCORES.sub('<span class="fb-blank"></span>', line)
+            out_lines.append(line)
+
     return md.markdown(
-        blanks,
+        "\n".join(out_lines),
         extensions=["extra", "tables", "sane_lists"],
     )
 
