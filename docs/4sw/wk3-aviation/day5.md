@@ -68,7 +68,7 @@ In pairs, students share one of their three goal steps with a partner. Then 2-3 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day5-atc-presentations-aviation-goal-plan.pdf):
 
 The Transportation career I found MOST interesting this week: _______________________
 

@@ -91,7 +91,7 @@ Students write the constraints in a numbered list on the back of the summary she
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/3sw-wk3-day2-pest-patrol-read-the-field-notes.pdf):
 
 Rank these 4 drone constraints (from your Day 2 list) by IMPORTANCE for the Texas tomato farm, 1 = most important, 4 = least.
 

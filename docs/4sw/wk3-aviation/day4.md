@@ -101,7 +101,7 @@ The bridge between the simulation and goal-setting is direct: aviation careers a
 
 ## Exit Ticket (4 min)
 
-**EXIT TICKET** (Decision Tree / Branching Prompt):
+**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day4-lego-atc-run-the-simulation-powerskill-creativity.pdf):
 
 My role in my team today: **Air Traffic Controller**
 

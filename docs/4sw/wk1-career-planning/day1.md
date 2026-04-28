@@ -88,7 +88,7 @@ After 4 minutes of partner talk, collect 3 volunteer responses from across the r
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/4sw-wk1-day1-riasec-revisit-favorites-audit.pdf):
 
 Use your Day 1 worksheet to fill in the matrix.
 

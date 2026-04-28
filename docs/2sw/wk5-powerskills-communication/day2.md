@@ -87,7 +87,7 @@ After the role-play, partners switch roles and try a different card. Each studen
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/2sw-wk5-day2-giving-and-receiving-feedback.pdf):
 
 Scenario: A new medical biller on your team is fast but keeps entering the WRONG ICD-10 codes. Three charts in the past week have been billed incorrectly. Your supervisor asks YOU (the senior biller) to give them feedback before the next shift.
 

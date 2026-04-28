@@ -85,7 +85,7 @@ This is the d(3)(B) coverage for the week. Students who finish early can browse 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Decision Tree / Branching Prompt):
+**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/4sw-wk2-day3-family-engagement-sharing-the-plan.pdf):
 
 Tonight I bring home my Family Career Plan Letter. My family member asks: "How will this pathway lead to a real job?"
 

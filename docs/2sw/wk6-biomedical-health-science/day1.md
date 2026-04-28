@@ -93,7 +93,7 @@ After drafting, students swap with a partner and provide constructive feedback (
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/2sw-wk6-day1-biomedical-pathway-cover-letter.pdf):
 
 Scenario: Imani is applying for a summer Lab Assistant position at UT Southwestern Medical Center. She is 17, has NO paid work experience, but she is on her school's Science Olympiad team and helped at a community health fair last summer.
 

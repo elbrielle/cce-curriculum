@@ -86,7 +86,7 @@ Students should now have favorites spanning every cluster explored this year (Ma
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/6sw-wk1-day5-irving-isd-pathways-edynamic-7-2-education-favorites.pdf):
 
 The Education career I favorited this week: _______________________
 

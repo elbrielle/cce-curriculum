@@ -74,7 +74,7 @@ Walk the room and check that students are actually exploring rather than scrolli
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/1sw-wk1-day1-manufacturing-cluster-tour-more-than-assembly-lines.pdf):
 
 Pick TWO Manufacturing careers you explored today. Fill in the matrix below using H&L Hat Finder data.
 

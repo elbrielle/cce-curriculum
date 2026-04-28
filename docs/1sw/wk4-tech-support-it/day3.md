@@ -95,7 +95,7 @@ Walk between teams. The trickiest part is the `if/then` logic, sit with teams th
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Decision Tree / Branching Prompt):
+**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/1sw-wk4-day3-help-desk-simulator-makecode-day-1.pdf):
 
 My role today: **Help Desk Technician**. My Day 3 scenario card: _______________________
 

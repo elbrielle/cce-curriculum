@@ -78,7 +78,7 @@ This reflection can be hand-written or typed. It is the d(4)(F) summative check 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/2sw-wk2-day5-cluster-wrap-up.pdf):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/2sw-wk2-day5-cluster-wrap-up-reflection.pdf):
 
 My favorite first responder career from this week: _______________________
 

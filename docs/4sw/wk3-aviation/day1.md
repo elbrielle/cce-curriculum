@@ -95,7 +95,7 @@ Take 1-2 group responses to share with the class.
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day1-transportation-cluster-transportation-troubles.pdf):
 
 Scenario: Irving city council reviewed your transportation survey and found that 40% of residents said public buses don't run late enough for their work shifts. They need to hire ONE Transportation-cluster career to help fix the problem.
 

@@ -77,7 +77,7 @@ Then they write a 3-sentence reflection on the Hospitality week:
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/3sw-wk4-day5-xello-decision-making-edynamic-6-1-h-and-l-favorites.pdf):
 
 A Hospitality career I favorited this week: _______________________
 

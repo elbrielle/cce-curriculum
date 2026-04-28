@@ -79,7 +79,7 @@ These reflections are short but valuable, they capture student thinking at the c
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/3sw-wk3-day5-xello-interests-edynamic-unit-7-1.pdf):
 
 My FAVORITE Agriculture cluster career after 3 weeks (Vet Science + Plant Science + Sustainable Engineering): _______________________
 

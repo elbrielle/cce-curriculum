@@ -70,7 +70,7 @@ Three volunteers share their top recommendation and one data point. This closes 
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/5sw-wk4-day3-dfw-labor-market-analysis.pdf):
 
 Pick 2 skilled trades from today's analysis and fill in the matrix. Mark each cell with check marks where the classification applies.
 

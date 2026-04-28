@@ -84,7 +84,7 @@ Students answer: *"What are the risks of commission-based income? What are the r
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/5sw-wk6-day2-trec-licensing-commission-math.pdf):
 
 1. MATH: How many homes at $300,000 would I need to sell PER YEAR to earn $60,000 in GROSS commissions at 3%? Show my work.
 

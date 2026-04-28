@@ -88,7 +88,7 @@ Students then complete the **LVN row** independently using H&L Hat Finder data a
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/2sw-wk3-day1-health-science-cluster-cna-lvn.pdf):
 
 Compare TWO nursing career ladder levels you explored today (CNA or LVN).
 

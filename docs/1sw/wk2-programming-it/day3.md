@@ -80,7 +80,7 @@ After students complete the worksheet, they answer 2 reflection questions on the
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/1sw-wk2-day3-it-salary-showdown-comparing-3-programming-careers.pdf):
 
 Use your IT Salary Comparison worksheet to fill in the matrix below.
 

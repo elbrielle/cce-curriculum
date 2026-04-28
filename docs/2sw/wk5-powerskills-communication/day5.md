@@ -79,7 +79,7 @@ Submit the reflection and the refined SMART goal together as the Week 5 delivera
 
 ## Exit Ticket (Done as part of reflection)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/2sw-wk5-day5-xello-time-management-reflection.pdf):
 
 The transferable skill I improved MOST this week: _______________________ (from Conflict Resolution / Feedback / Advocacy / Written Communication / Time Management)
 

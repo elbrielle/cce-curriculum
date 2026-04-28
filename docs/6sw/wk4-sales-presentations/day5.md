@@ -80,7 +80,7 @@ Then direct students to update their H&L Career Plan with the career they presen
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (3-2-1 Reflective):
+**EXIT TICKET** (3-2-1 Reflective) · [Printable PDF](../../resources/exit-tickets/6sw-wk4-day5-career-presentations-day.pdf):
 
 **3** things my presentation did WELL today (be specific, not "good job"):
 

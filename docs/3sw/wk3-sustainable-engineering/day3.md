@@ -84,7 +84,7 @@ Sentence 2 (trade-off) and Sentence 3 (self-critique) are what move the rational
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/3sw-wk3-day3-pest-patrol-drone-sketch-labels.pdf):
 
 1. The feature on my drone that solves the BIGGEST problem from the field notes: _______________________
 

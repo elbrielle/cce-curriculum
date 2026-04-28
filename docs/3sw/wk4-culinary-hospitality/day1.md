@@ -83,7 +83,7 @@ The class discussion question from the workbook: **"How do people with culinary 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/3sw-wk4-day1-hospitality-cluster-culinary-twist.pdf):
 
 Scenario: A new family-friendly restaurant is opening on the Singley Academy FireBird Cafe model. They need ONE hire from the 3 Hospitality pathways (Culinary Arts, Lodging & Resort Management, or Travel/Tourism/Attractions).
 

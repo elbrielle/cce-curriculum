@@ -110,7 +110,7 @@ This activity bridges to teaching because educators are leaders every day: decid
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/6sw-wk1-day2-cert-pathways-powerskills-leadership.pdf):
 
 Use my Pathway Comparison worksheet to fill in the matrix.
 

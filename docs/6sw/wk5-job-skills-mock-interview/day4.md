@@ -106,7 +106,7 @@ This demo shows students exactly what they will do tomorrow. It removes the myst
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/6sw-wk5-day4-mock-interview-prep-fishbowl-demo.pdf):
 
 Write your answer to the question: **"Tell me about yourself."**
 

@@ -84,7 +84,7 @@ Students pick **one** real estate career (from the 4 Gallery Walk roles or anoth
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/5sw-wk6-day1-real-estate-career-exploration-h-and-l-gallery-walk.pdf):
 
 Scenario: A DFW couple just inherited a 4-bedroom house from a relative. They want to RENT it out (not sell) and need help managing tenants. They also want to KNOW the market value for tax purposes.
 

@@ -77,7 +77,7 @@ Students write a brief reflection in their workbook margin (4-5 sentences) answe
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Trade-off / Dilemma Analysis):
+**EXIT TICKET** (Trade-off / Dilemma Analysis) · [Printable PDF](../../resources/exit-tickets/1sw-wk5-day3-cyber-safety-peer-feedback-integrity-in-the-workplace.pdf):
 
 You are a NEW cybersecurity analyst at a DFW hospital. You have access to every patient's medical records. On your second day, a coworker says: "Hey, can you quickly look up my ex's diagnosis? Nobody will know."
 

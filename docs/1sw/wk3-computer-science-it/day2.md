@@ -71,7 +71,7 @@ Walk the room. Confirm every student has answered all 4 prompts in writing befor
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/1sw-wk3-day2-website-design-part-1-read-plan-choose.pdf):
 
 Scenario: Rosa is a 16-year-old who just opened a small tutoring business. Rosa wants a simple website that will help her sign up new students from her neighborhood. Rosa does NOT need to sell products online.
 

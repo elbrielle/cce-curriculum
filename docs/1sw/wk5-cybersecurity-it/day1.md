@@ -78,7 +78,7 @@ For each layer, click on a job title and look at:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/1sw-wk5-day1-cybersecurity-pathway-cyberseek-career-map.pdf):
 
 Rank these three CyberSeek cybersecurity careers from FASTEST to reach (1) to SLOWEST (3) starting from 7th grade today.
 

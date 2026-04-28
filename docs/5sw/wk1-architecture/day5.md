@@ -73,7 +73,7 @@ Students work at their own pace through the eDynamic module. This will continue 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/5sw-wk1-day5-presentations-a-and-c-favorites.pdf):
 
 The A&C career I favorited this week: _______________________
 

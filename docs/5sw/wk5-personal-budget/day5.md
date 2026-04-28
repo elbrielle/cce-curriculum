@@ -87,7 +87,7 @@ Preview next week: **Real Estate**. Students will explore real estate careers, a
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/5sw-wk5-day5-budget-comparison-3-career-salary-analysis-a-and-c-wrap-up.pdf):
 
 The career with the BEST VALUE SCORE for ME from today's 3-career comparison: _______________________
 

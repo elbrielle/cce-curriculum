@@ -88,7 +88,7 @@ If H&L recommends something not offered locally (e.g., Marine Biology), students
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/4sw-wk1-day2-h-and-l-career-plan-iceberg-cartoon.pdf):
 
 My career goal from today's Iceberg: _______________________
 

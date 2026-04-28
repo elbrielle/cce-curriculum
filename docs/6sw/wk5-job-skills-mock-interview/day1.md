@@ -93,7 +93,7 @@ Students fill in JUST the outline today, bullet points for each section. They wi
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Concept Map):
+**EXIT TICKET** (Concept Map) · [Printable PDF](../../resources/exit-tickets/6sw-wk5-day1-job-search-steps-admin-pathway.pdf):
 
 Draw a quick concept map. Place **JOB SEARCH** in the center. Draw 7 bubbles (one per step) around it and label each in ORDER.
 

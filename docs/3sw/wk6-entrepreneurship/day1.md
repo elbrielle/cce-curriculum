@@ -100,7 +100,7 @@ Example list:
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/3sw-wk6-day1-business-cluster-tour-defining-entrepreneurship.pdf):
 
 Scenario: My older cousin has $3,000 saved up and wants to start a small business in one of the clusters we've explored (Manufacturing, IT, Law, Health Science, Agriculture, Hospitality, Human Services, or Business).
 

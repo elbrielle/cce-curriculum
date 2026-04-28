@@ -133,7 +133,7 @@ Sample permission email format (display on projector):
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Decision Tree):
+**EXIT TICKET** (Decision Tree) · [Printable PDF](../../resources/exit-tickets/6sw-wk5-day3-job-application-references-protocol.pdf):
 
 Follow the tree for each person. Would they be a GOOD reference for your first real job?
 

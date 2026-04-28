@@ -65,7 +65,7 @@ Walk between pairs and listen. Use a clipboard checklist to track which pairs ar
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors):
+**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors) · [Printable PDF](../../resources/exit-tickets/1sw-wk4-day4-refine-the-help-desk-tool-customer-service-role-play.pdf):
 
 Scenario: A frustrated user calls. She says "This computer is so stupid! It won't even turn on and I have a meeting in 10 minutes!"
 

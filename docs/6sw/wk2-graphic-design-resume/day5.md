@@ -91,7 +91,7 @@ Then direct students to open H&L and complete two tasks:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/6sw-wk2-day5-creative-entrepreneurs-branding-project.pdf):
 
 MY rebrand in ONE sentence: _______________________________________________________
 

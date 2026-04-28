@@ -79,7 +79,7 @@ After H&L finalization, students submit the printed Career Plan template to the 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/4sw-wk2-day5-career-plan-write-up-the-d-8-c-artifact.pdf):
 
 My career goal from my Career Plan: _______________________
 

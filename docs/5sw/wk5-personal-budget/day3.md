@@ -70,7 +70,7 @@ Students then answer: **Which city leaves you with the most money at the end of 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/5sw-wk5-day3-cost-of-living-comparison.pdf):
 
 Rank the 3 cities from BEST leftover monthly income (1) to WORST (3) for my career.
 

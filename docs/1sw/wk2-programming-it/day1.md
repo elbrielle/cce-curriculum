@@ -66,7 +66,7 @@ Walk the room and stop students who are scrolling without reading. Ask them to r
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Venn Diagram Comparison):
+**EXIT TICKET** (Venn Diagram Comparison) · [Printable PDF](../../resources/exit-tickets/1sw-wk2-day1-it-cluster-tour-the-5-pathways.pdf):
 
 The two IT pathways from today I want to compare: (1) **Programming & Software Development** and (2) **Web Development**.
 

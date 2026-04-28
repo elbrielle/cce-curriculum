@@ -67,7 +67,7 @@ Students who reach the end of their tutorial print or screenshot the Code.org co
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/1sw-wk2-day4-code-org-hour-of-code-day-1.pdf):
 
 1. Which programming concept did you use MOST in today's tutorial? Circle ONE: **sequence** / **loop** / **conditional**
 

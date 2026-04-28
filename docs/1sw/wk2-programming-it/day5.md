@@ -78,7 +78,7 @@ Tell students: "This is the Xello version of what you did in H&L. Both platforms
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/1sw-wk2-day5-hour-of-code-day-2-pathway-fit-it-favorites.pdf):
 
 An IT career I favorited this week: _______________________
 

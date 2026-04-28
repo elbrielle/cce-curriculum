@@ -72,7 +72,7 @@ The team teacher reads through and verifies each team has reached the High-skill
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/4sw-wk4-day2-uas-industry-jigsaw-research.pdf):
 
 Rank the 5 drone industries (Agriculture / Construction / Film & Media / Delivery / Emergency Services) from MOST interesting to me (1) to LEAST (5).
 

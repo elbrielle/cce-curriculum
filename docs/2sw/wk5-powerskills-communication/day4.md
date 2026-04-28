@@ -90,7 +90,7 @@ The partner gives one piece of feedback using the feedback sandwich from Day 2.
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Trade-off / Dilemma Analysis):
+**EXIT TICKET** (Trade-off / Dilemma Analysis) · [Printable PDF](../../resources/exit-tickets/2sw-wk5-day4-written-communication-little-library-post.pdf):
 
 You just finished your shift as a CNA. You need to tell the nurse on the next shift that one patient refused medication. You can use two communication tools:
 

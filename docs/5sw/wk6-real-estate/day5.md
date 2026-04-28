@@ -88,7 +88,7 @@ Brief whole-class preview of the final six weeks:
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/5sw-wk6-day5-real-estate-pitch-5th-six-weeks-reflection.pdf):
 
 My TOP career choice as of today (across ALL clusters this year): _______________________
 

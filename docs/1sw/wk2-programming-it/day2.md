@@ -75,7 +75,7 @@ For the "What Tools, Equipment, or Skills" field, push students to be specific:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/1sw-wk2-day2-programming-pathway-deep-dive-software-web-app-game.pdf):
 
 Scenario: A local Irving business wants to hire ONE person to build a mobile game that teaches kids to read. The app must work on iPhones AND Androids.
 

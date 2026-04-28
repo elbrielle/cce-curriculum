@@ -79,7 +79,7 @@ In the last 3 minutes, ask 2 groups to share their top 2 activity ideas and thei
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Decision Tree / Branching Prompt):
+**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/3sw-wk5-day4-salon-entrepreneurship-get-out-and-move.pdf):
 
 My beauty business idea (circle one or add your own): salon / barber shop / nail studio / skincare studio / mobile stylist / other: _________________________
 

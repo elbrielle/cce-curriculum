@@ -74,7 +74,7 @@ Then students answer 2 reflection questions on the back:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/1sw-wk4-day2-certification-deep-dive-comptia-roadmap.pdf):
 
 Rank these three training paths from FASTEST to EARNING INCOME (1) to SLOWEST (3). Use your Education Pathway Comparison worksheet.
 

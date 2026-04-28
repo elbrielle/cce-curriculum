@@ -71,7 +71,7 @@ After the worksheet is complete, students answer two analysis questions on the b
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/3sw-wk1-day2-vet-tech-vs-veterinarian-career-deep-dive.pdf):
 
 Use the BLS data from your worksheet to fill in the matrix.
 

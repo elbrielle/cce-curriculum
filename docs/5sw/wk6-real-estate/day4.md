@@ -89,7 +89,7 @@ Remind students: The Career Plan is meant to evolve. It is OK to drop interests 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/5sw-wk6-day4-market-trends-analysis-h-and-l-career-plan-update.pdf):
 
 Use my Day 4 Market Trends notes to fill in the matrix.
 

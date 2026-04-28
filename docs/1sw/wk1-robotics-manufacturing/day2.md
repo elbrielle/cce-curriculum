@@ -78,7 +78,7 @@ Walk the room. Confirm every student has a chosen Hat before they start writing.
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/1sw-wk1-day2-machine-breakdown-mystery-hat-research.pdf):
 
 Scenario: Jamie is in 10th grade in Irving ISD. Jamie wants a Manufacturing job right after graduation (not a 4-year college). Jamie just read your Hat Research worksheet.
 

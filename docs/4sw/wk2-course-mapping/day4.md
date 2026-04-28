@@ -71,7 +71,7 @@ The actions must be specific (not "do something with computers") and time-bound 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/4sw-wk2-day4-edynamic-6-2-gaining-experience.pdf):
 
 Rank my 3 Experience Action Plan items from MOST LIKELY to complete (1) to LEAST LIKELY (3).
 

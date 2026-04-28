@@ -101,7 +101,7 @@ Distribute the printed Economic Conditions Analysis chart. Students complete a s
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/6sw-wk3-day2-written-communication-economic-conditions.pdf):
 
 Fill in each cell using today's Economic Conditions Analysis chart.
 

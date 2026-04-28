@@ -75,7 +75,7 @@ After both columns are filled in, students write a 2-3 sentence comparison: "If 
 
 ## Exit Ticket (7 min)
 
-**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors):
+**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors) · [Printable PDF](../../resources/exit-tickets/4sw-wk5-day4-ratteree-automotive-pathway-deep-dive.pdf):
 
 Scenario: Dani is a 9th-grader at Nimitz. She loves taking apart her family's car and wants to be an auto technician. Her family cannot pay $30,000 for tuition after high school.
 

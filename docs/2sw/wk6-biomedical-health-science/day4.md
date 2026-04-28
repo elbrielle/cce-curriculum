@@ -89,7 +89,7 @@ After both teams present, they switch and partner with a different team.
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Venn Diagram Comparison):
+**EXIT TICKET** (Venn Diagram Comparison) · [Printable PDF](../../resources/exit-tickets/2sw-wk6-day4-farm-fresh-express-design-present.pdf):
 
 Compare YOUR Wilson City mobile market to a REAL farmers' market you have seen (Irving Farmers Market, Dallas Farmers Market, a local church market, or any you have seen).
 

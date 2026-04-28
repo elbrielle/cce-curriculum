@@ -76,7 +76,7 @@ Students begin research in class and finish as homework if needed.
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/5sw-wk2-day2-psat-sat-act-why-they-matter-emerging-engineering-careers.pdf):
 
 Compare 3 standardized tests on how they matter to MY pathway.
 

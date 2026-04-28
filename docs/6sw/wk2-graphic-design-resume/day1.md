@@ -94,7 +94,7 @@ Students may use Google Docs or paper. The deliverable is the completed outline 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/6sw-wk2-day1-arts-av-cluster-digital-storytelling.pdf):
 
 Scenario: A new DFW middle school wants to launch a podcast for 7th graders to learn about local careers. They have budget for ONE creative hire.
 

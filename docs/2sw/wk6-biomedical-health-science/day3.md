@@ -115,7 +115,7 @@ Teams write down their ideas. They will refine and present on Day 4.
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/2sw-wk6-day3-farm-fresh-express-setup.pdf):
 
 Rank these four Wilson City food-desert constraints from MOST critical (1) for a mobile market to solve to LEAST critical (4). Use the data sheet.
 

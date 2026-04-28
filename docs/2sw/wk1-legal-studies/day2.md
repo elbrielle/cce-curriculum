@@ -78,7 +78,7 @@ Each partner takes notes on one improvement they would make based on the convers
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/2sw-wk1-day2-emergency-essentials-kit-design.pdf):
 
 My emergency scenario (circle one): **earthquake** / **fire** / **flood**
 

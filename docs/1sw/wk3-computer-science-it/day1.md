@@ -73,7 +73,7 @@ Have students write in their workbook margin: "One transferable skill I have is 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Venn Diagram Comparison):
+**EXIT TICKET** (Venn Diagram Comparison) · [Printable PDF](../../resources/exit-tickets/1sw-wk3-day1-networking-systems-pathway-transferable-skills.pdf):
 
 Compare a **Programming career** (pick Software Dev, Web Dev, App Dev, or Game Dev from Wk2) to a **Networking career** (pick Network Administrator, Network Architect, Database Administrator, or Systems Analyst from today).
 

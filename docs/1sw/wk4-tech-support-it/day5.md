@@ -67,7 +67,7 @@ Tell students: "Look at this. Five weeks ago this profile was empty. Now it has 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/1sw-wk4-day5-help-desk-demos-h-and-l-it-support-favorites.pdf):
 
 An IT Support career I favorited this week: _______________________
 

@@ -92,7 +92,7 @@ Then direct students to log into eDynamic Learning and open Unit 8.2 (Job Search
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/6sw-wk2-day4-game-on-job-search-steps.pdf):
 
 Rank the 4 job search steps from MOST PREPARED for RIGHT NOW (1) to LEAST PREPARED (4).
 

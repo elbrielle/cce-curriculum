@@ -84,7 +84,7 @@ Pairs then make ONE quick edit to their sketch based on the feedback before turn
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/3sw-wk4-day4-pack-your-bags-tourism-campaign-career-lab.pdf):
 
 1. My campaign slogan: "_______________________________________________________"
 

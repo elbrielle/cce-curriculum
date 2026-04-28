@@ -87,7 +87,7 @@ Distribute the Community Service Reflection handout. Students complete:
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/6sw-wk1-day4-teaching-toolbox-community-service-reflection.pdf):
 
 Rank these 4 community service experiences from BUILDS MOST career-relevant skills (1) to BUILDS FEWEST (4) based on today's reflection:
 

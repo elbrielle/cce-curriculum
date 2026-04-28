@@ -73,7 +73,7 @@ Since students are exploring architecture this week, prompt them to think specif
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/5sw-wk1-day2-career-research-salary-comparison.pdf):
 
 From my worksheet, rank these 4 careers from BEST salary-to-education ratio (1) to WORST (4).
 

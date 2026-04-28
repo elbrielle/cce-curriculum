@@ -67,7 +67,7 @@ Today the FIRST HALF of the class delivers their 5-minute capstone presentations
 
 ## Exit Ticket (7 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/6sw-wk6-day3-capstone-presentations-day-1.pdf):
 
 Rank TODAY's presentations using these 4 criteria from MOST important (1) to LEAST (4) based on what made today's STRONGEST plan strong.
 

@@ -81,7 +81,7 @@ Students will complete the RN row on Day 2 and the Medical Biller row on Day 4 (
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/2sw-wk4-day1-dental-pathway-intro-hat-research.pdf):
 
 Scenario: Mateo is in 11th grade at Irving High. He wants to work in a dental office ONE YEAR after graduation. His family can pay for 1 year of training but not 4.
 

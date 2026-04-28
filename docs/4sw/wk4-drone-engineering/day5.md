@@ -78,7 +78,7 @@ For students who are not in TSA, this is the recruiting moment. They have spent 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/4sw-wk4-day5-jigsaw-presentations-career-classification.pdf):
 
 My drone industry I found most interesting this week: _______________________
 

@@ -105,7 +105,7 @@ Teams write down who is playing which role. Then, as a team, they begin research
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Decision Tree / Branching Prompt):
+**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/1sw-wk1-day4-sphero-factory-floor-task-bot-in-action-part-1.pdf):
 
 My Task Bot role today: _______________________ (Shift Supervisor, Quality Control Specialist, Maintenance Tech, or Packaging Supervisor)
 

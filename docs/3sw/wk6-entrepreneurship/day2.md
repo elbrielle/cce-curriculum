@@ -84,7 +84,7 @@ After writing the questions, do a quick partner share (3 min): pair up, trade te
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/3sw-wk6-day2-think-inside-the-box-mvp-design.pdf):
 
 1. My subscription box name: _______________________
 

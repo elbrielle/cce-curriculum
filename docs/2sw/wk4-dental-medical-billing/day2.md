@@ -88,7 +88,7 @@ Students will classify **Medical Biller** on Day 4 after the Health Informatics 
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/2sw-wk4-day2-perfect-toothbrush-dental-career-pathway.pdf):
 
 Use your Career Comparison worksheet to fill in the matrix below. Mark each cell with a checkmark if the career matches that classification (can have 1, 2, or 3 check marks per career).
 

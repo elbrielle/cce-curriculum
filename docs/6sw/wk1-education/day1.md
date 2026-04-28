@@ -83,7 +83,7 @@ The flyer must include any special features that will attract teachers and stude
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/6sw-wk1-day1-education-cluster-tour-community-classroom.pdf):
 
 Scenario: A DFW school district wants to create ONE new learning space AND ONE new training program for their staff. They have budget to hire ONE Education & Training professional (NOT a classroom teacher) to lead each.
 

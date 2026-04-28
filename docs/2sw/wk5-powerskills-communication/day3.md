@@ -79,7 +79,7 @@ Students share their goals with a partner who checks: Is it Specific? Measurable
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/2sw-wk5-day3-advocacy-smart-goals.pdf):
 
 1. Write my SMART career exploration goal in ONE complete sentence:
 

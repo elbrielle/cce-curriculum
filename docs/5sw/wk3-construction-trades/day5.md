@@ -76,7 +76,7 @@ Direct students to open H&L and complete three tasks:
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/5sw-wk3-day5-jigsaw-presentations-power-pitch-practice-h-and-l-favorites.pdf):
 
 A construction career I favorited this week: _______________________
 

@@ -92,7 +92,7 @@ Teams that finish the build early read their assigned ATC scenario card for tomo
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day3-lego-atc-build-the-airport.pdf):
 
 1. TWO spatial reasoning skills I used during today's LEGO build:
 

@@ -100,7 +100,7 @@ Celebrate the growth honestly. This is the moment students realize how much thei
 
 ## Exit Ticket (4 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/4sw-wk6-day5-mid-year-growth-reflection-sharing-circle.pdf):
 
 The most important thing I learned about MYSELF during the first half of this course: _______________________
 

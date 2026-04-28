@@ -78,7 +78,7 @@ After all 5 presentations, run a 3-minute discussion:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/4sw-wk6-day3-professional-associations-jigsaw.pdf):
 
 Use your Day 3 Jigsaw grid to fill in the matrix for 3 of the 5 associations.
 

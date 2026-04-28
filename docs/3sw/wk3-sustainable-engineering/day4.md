@@ -87,7 +87,7 @@ In the last 3 minutes, ask 3 students to share one row from their chart that the
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/3sw-wk3-day4-pest-patrol-peer-feedback-societal-trends.pdf):
 
 Use your Day 4 Societal Trends Chart to fill in the matrix.
 

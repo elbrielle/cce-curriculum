@@ -79,7 +79,7 @@ This reflection is the "Redesign" phase of the EDP. Real civil engineers rarely 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/5sw-wk2-day4-bridge-challenge-build-and-test.pdf):
 
 Rank these 4 design factors from MOST important (1) to LEAST (4) based on what made class bridges STRONG or WEAK today.
 

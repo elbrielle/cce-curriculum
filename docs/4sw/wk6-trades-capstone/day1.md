@@ -105,7 +105,7 @@ Take 3-4 student responses. The point is to make the connection explicit: doing 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/4sw-wk6-day1-h-and-l-powerskills-work-ethic-stem-program-activity.pdf):
 
 1. Define WORK ETHIC in my own words (NOT from the workbook):
 

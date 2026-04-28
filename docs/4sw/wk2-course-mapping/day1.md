@@ -98,7 +98,7 @@ Students mark on their worksheet which test is most relevant to their postsecond
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/4sw-wk2-day1-ms-to-hs-transition-texas-endorsements.pdf):
 
 1. My #1 Irving ISD pathway (from Wk 1): _______________________
 

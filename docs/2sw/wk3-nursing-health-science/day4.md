@@ -80,7 +80,7 @@ The class evaluates each presentation using a quick rubric (visible on the proje
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/2sw-wk3-day4-vital-signs-monitor-test-present.pdf):
 
 Scenario: Ms. Alvarez is an older patient in a DFW nursing home. Each morning at 7:00 AM, someone needs to check her vital signs (heart rate + temperature) and write them in her chart. The chart is reviewed by a nurse at 8:00 AM.
 

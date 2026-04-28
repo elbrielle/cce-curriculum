@@ -73,7 +73,7 @@ Students fill in the CTE Pathway column with the actual course names from the Ir
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/4sw-wk2-day2-h-and-l-district-course-planner-4-year-mapping.pdf):
 
 Use your H&L Course Planner screenshot (or paper template) to fill in the matrix for YOUR pathway.
 

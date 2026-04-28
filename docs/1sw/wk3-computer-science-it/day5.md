@@ -74,7 +74,7 @@ This is data for the Wk0 → 6SW Final Career Plan growth check.
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/1sw-wk3-day5-mini-presentations-xello-skills-wk3-wrap-up.pdf):
 
 The IT career I am most interested in after this week: _______________________
 

@@ -84,7 +84,7 @@ After the walk, the class returns to seats. Show the dot distribution: which clu
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (3-2-1 Reflective):
+**EXIT TICKET** (3-2-1 Reflective) · [Printable PDF](../../resources/exit-tickets/4sw-wk1-day5-mid-year-reflection-pathway-gallery-walk.pdf):
 
 **3 things I understand about myself as a career thinker NOW that I did NOT understand at Week 0:**
 

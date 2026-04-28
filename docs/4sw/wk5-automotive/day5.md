@@ -80,7 +80,7 @@ After the last presentation, run a 2-minute discussion:
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/4sw-wk5-day5-cross-cluster-salary-presentation-h-and-l-favorites.pdf):
 
 The automotive career I would pick from this week: _______________________
 

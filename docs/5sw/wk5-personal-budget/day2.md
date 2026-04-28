@@ -97,7 +97,7 @@ Teacher circulates with a 3-check protocol:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/5sw-wk5-day2-building-my-personal-budget.pdf):
 
 Use my Day 2 Personal Budget to fill in the matrix.
 

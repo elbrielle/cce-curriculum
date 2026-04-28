@@ -77,7 +77,7 @@ Then each student writes one sentence in their notebook:
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Trade-off / Dilemma Analysis):
+**EXIT TICKET** (Trade-off / Dilemma Analysis) · [Printable PDF](../../resources/exit-tickets/3sw-wk6-day4-pitching-investors-pitch-day.pdf):
 
 Your team has 12 minutes before pitching. You see TWO problems in your slide deck:
 

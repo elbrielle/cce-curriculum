@@ -96,7 +96,7 @@ For question 3, push students to name healthcare-specific conflicts: nurse vs. d
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Decision Tree / Branching Prompt):
+**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/2sw-wk5-day1-powerskills-intro-conflict-resolution.pdf):
 
 My workplace role: **new CNA at a DFW hospital**
 

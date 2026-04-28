@@ -77,7 +77,7 @@ In the last 8 minutes, students pair up and trade worksheets. Each partner reads
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/3sw-wk5-day3-texas-tdlr-cosmetology-licensing-deep-dive.pdf):
 
 Rank these three routes to a Texas cosmetology license from FASTEST to license (1) to SLOWEST (3). Use your TDLR Licensing Pathway worksheet to back up each rank.
 

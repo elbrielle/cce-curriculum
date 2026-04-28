@@ -85,7 +85,7 @@ This sets up Day 3's Classification activity where students compare multiple car
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/5sw-wk3-day1-h-and-l-construction-pathway-hat-research.pdf):
 
 Scenario: A new 10-story apartment building is about to break ground in Las Colinas. The contractor needs to hire 4 specific trade workers TODAY.
 

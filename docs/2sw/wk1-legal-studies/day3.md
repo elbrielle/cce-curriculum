@@ -72,7 +72,7 @@ Connect the gameplay back to the Hat Research template from Day 1. Students shou
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Decision Tree / Branching Prompt):
+**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/2sw-wk1-day3-icivics-justice-in-action.pdf):
 
 My iCivics role today (circle one or write your own): **Lawyer** / **Judge** / **County Manager** / other: _________________________
 

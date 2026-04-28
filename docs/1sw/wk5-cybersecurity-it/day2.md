@@ -86,7 +86,7 @@ Walk the room. Stop students who are perfectionizing the design without thinking
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/1sw-wk5-day2-cybersecurity-in-action-cyber-safety-creator-day-1.pdf):
 
 Scenario: An Irving after-school program serves 200 kids ages 8-12. Most of them do not read English well. The program director asks you to pick ONE Cyber Safety tool to share with every kid.
 

@@ -67,7 +67,7 @@ Preview next week: **Personal Finance / Budgeting**. Students will use the salar
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/5sw-wk4-day5-jigsaw-presentations-a-and-c-cluster-wrap-up.pdf):
 
 The skilled trade I would pick TODAY if I had to choose: _______________________
 

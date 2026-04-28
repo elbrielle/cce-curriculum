@@ -93,7 +93,7 @@ Pick the view that best shows your outdoor space idea. The workbook provides bot
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/5sw-wk1-day4-tinkercad-iteration-trash-to-treasure.pdf):
 
 My TinkerCAD building vs. my Trash to Treasure outdoor space — compare on three dimensions.
 

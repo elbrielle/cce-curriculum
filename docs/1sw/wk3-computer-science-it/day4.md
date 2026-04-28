@@ -67,7 +67,7 @@ Walk the room and check that students are using all 3 sources, not just Google. 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/1sw-wk3-day4-emerging-tech-research-ai-cloud-data-science.pdf):
 
 Compare YOUR emerging IT career (from today) to a traditional IT career (pick ONE from Wks 1-3: Software Developer, Web Developer, Network Administrator, or Database Administrator).
 

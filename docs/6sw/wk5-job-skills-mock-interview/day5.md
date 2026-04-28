@@ -105,7 +105,7 @@ Sample format:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (3-2-1 Reflective):
+**EXIT TICKET** (3-2-1 Reflective) · [Printable PDF](../../resources/exit-tickets/6sw-wk5-day5-mock-interview-day-thank-you-letter.pdf):
 
 **3** specific things I did well in my mock interview today (content or delivery):
 

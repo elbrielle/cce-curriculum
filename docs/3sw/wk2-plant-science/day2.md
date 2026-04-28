@@ -74,7 +74,7 @@ The sketch can be done in pencil or marker. It's a planning document, not a fina
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/3sw-wk2-day2-farm-to-table-brainstorm-sketch.pdf):
 
 Scenario: A new client calls Sunny Fields Farm: a DFW elementary school wants an infographic to show KINDERGARTENERS (age 5-6) where their lunch food comes from.
 

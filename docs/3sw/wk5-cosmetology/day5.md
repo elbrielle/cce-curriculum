@@ -78,7 +78,7 @@ Then they write a 3-sentence reflection on the Human Services week:
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/3sw-wk5-day5-xello-career-factors-edynamic-4-2-h-and-l-favorites.pdf):
 
 A Human Services career I favorited in H&L this week: _______________________
 

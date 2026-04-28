@@ -82,7 +82,7 @@ Students work independently. Teacher circulates with three jobs:
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/6sw-wk2-day2-first-resume-in-xello.pdf):
 
 For each of the 6 resume sections, mark whether I filled it in with SPECIFIC content (1 SPECIFIC item) or if it needs more work.
 

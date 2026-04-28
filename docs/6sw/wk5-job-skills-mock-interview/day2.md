@@ -103,7 +103,7 @@ By the end of class, every student has a complete cover letter saved in Google D
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/6sw-wk5-day2-cover-letter-writing.pdf):
 
 Fill each cell using the cover letter you wrote today.
 

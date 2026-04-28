@@ -85,7 +85,7 @@ Direct students to open H&L and:
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/5sw-wk4-day4-post-hs-apprenticeship-pathways-matrix-completion.pdf):
 
 Scenario: Ava is a 12th grader in Irving. Her family cannot pay for college. She wants to be an HVAC technician but Irving ISD does not offer HVAC.
 

@@ -81,7 +81,7 @@ After filling in the table, students answer one analysis question:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/3sw-wk4-day2-powerskill-motivation-salary-comparison.pdf):
 
 Use your salary comparison worksheet to fill in the matrix.
 

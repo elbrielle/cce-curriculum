@@ -85,7 +85,7 @@ Students keep their draft. Day 5 includes practice and peer feedback (Step 4 of 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/5sw-wk3-day4-nccer-macarthur-pathways-h-and-l-power-pitch.pdf):
 
 From the H&L Power Pitch 3 columns (EXPERIENCE / SKILLS / PERSONAL TRAITS), rank which column is MOST persuasive (1) to LEAST (3) for a 13-year-old applying to a construction union apprenticeship in 5 years.
 

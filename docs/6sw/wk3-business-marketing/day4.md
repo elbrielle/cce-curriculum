@@ -90,7 +90,7 @@ Students complete the activity at their own pace. Most will need 5-10 minutes. T
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/6sw-wk3-day4-hat-research-google-applied-digital-skills.pdf):
 
 Rank these 4 marketing careers from MOST interesting to you (1) to LEAST (4) based on TODAY's Hat Research and the GADS lesson you tried.
 

@@ -72,7 +72,7 @@ The Hat Research template requires these fields:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/3sw-wk1-day1-ag-cluster-tour-animal-systems-hats.pdf):
 
 Scenario: Sofia loves animals but is allergic to cats and dogs. She also loves being outside. Sofia is looking at the H&L Animal Systems pathway.
 

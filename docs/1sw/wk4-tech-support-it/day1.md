@@ -69,7 +69,7 @@ Ask students: "Which path is BETTER?" The answer is "it depends on the person." 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/1sw-wk4-day1-it-support-pathway-exploration.pdf):
 
 Pick TWO IT support careers from today (Help Desk Technician, IT Support Specialist, Desktop Support Technician, or Systems Administrator). Fill in the matrix using H&L data.
 

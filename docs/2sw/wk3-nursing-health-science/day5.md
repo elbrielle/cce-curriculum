@@ -78,7 +78,7 @@ This reflection is a quick formative check that the week landed.
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/2sw-wk3-day5-reflection-xello-learning-styles-edynamic.pdf):
 
 A nursing career I favorited this week: _______________________
 

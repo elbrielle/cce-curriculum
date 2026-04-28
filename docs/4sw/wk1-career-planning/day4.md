@@ -67,7 +67,7 @@ Students cross-reference their H&L Career Plan recommendations from Day 2 and th
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/4sw-wk1-day4-edynamic-8-1-choosing-a-career-path.pdf):
 
 Rank my top 3 Irving ISD pathways from MOST INTERESTED (1) to LEAST (3) using my Day 4 Pathway Ranking Sheet.
 

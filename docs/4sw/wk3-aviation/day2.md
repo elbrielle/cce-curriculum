@@ -83,7 +83,7 @@ Briefly introduce JROTC as the high school program that bridges middle school to
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day2-aviation-hat-research-military-vs-civilian-pathways.pdf):
 
 Use your Military vs. Civilian Pathways chart to fill in the matrix for becoming a PILOT.
 

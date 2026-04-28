@@ -73,7 +73,7 @@ After collecting the data, students compare their two careers in a 2-sentence wr
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/3sw-wk2-day1-plant-science-environmental-pathway-hats.pdf):
 
 Use your Hat Notes to fill in the matrix.
 

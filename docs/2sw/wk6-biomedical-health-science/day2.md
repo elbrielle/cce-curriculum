@@ -90,7 +90,7 @@ Students pair up and discuss the workbook's questions:
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/2sw-wk6-day2-physical-therapy-in-action.pdf):
 
 Compare YOUR workout plans for the two clients on three dimensions.
 

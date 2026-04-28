@@ -103,7 +103,7 @@ The workbook also asks for a 4-panel comic of the student's ideal future. Option
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Concept Map):
+**EXIT TICKET** (Concept Map) · [Printable PDF](../../resources/exit-tickets/6sw-wk6-day4-capstone-presentations-day-2-plan-download-being-a-career-thinker.pdf):
 
 Draw a quick concept map. Place **MY CAREER PLAN** in the center and connect it to each of the FOUR items below. On each line, write ONE word showing how the item supports the plan.
 

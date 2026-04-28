@@ -91,7 +91,7 @@ The growth comparison is powerful: Week 0 students might have leaned heavily Rea
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Venn Diagram):
+**EXIT TICKET** (Venn Diagram) · [Printable PDF](../../resources/exit-tickets/6sw-wk6-day1-iceberg-reflection-finalize-h-and-l-career-plan.pdf):
 
 Draw two circles labeled **TOP OF ICEBERG** (what people see) and **UNDER THE ICEBERG** (what people don't see). Place 2 items in each zone AND 1 item in the OVERLAP (something that is both visible and hidden work).
 

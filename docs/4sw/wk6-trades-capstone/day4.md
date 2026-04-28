@@ -79,7 +79,7 @@ In pairs, students share:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/4sw-wk6-day4-work-ethic-in-action-h-and-l-career-plan-update.pdf):
 
 Scenario: A senior diesel technician at a trucking shop is running late for their daughter's soccer game. The last 18-wheeler they need to inspect today requires a 20-minute brake check. They're considering skipping the check "just this once."
 

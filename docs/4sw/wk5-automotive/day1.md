@@ -86,7 +86,7 @@ This is a preview, not a deep dive. Day 2 covers ASE certification.
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Venn Diagram Comparison):
+**EXIT TICKET** (Venn Diagram Comparison) · [Printable PDF](../../resources/exit-tickets/4sw-wk5-day1-h-and-l-delivery-connection-app-automotive-pathway-browse.pdf):
 
 Both **Auto Service Technician** and **Collision Repair Technician** are Transportation cluster careers you saw in H&L today. Fill in the Venn Diagram below.
 

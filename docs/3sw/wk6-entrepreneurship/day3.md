@@ -81,7 +81,7 @@ Teams draft each section on chart paper (one slide per section) or in a Google S
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/3sw-wk6-day3-pitching-investors-build-the-business-plan.pdf):
 
 Fill in the matrix for your team's business plan and match it to what your chosen investor wants.
 

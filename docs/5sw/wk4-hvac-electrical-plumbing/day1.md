@@ -70,7 +70,7 @@ Students work independently or in pairs. Teacher circulates and verifies student
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/5sw-wk4-day1-h-and-l-skilled-trades-exploration-hvac-electrical-plumbing.pdf):
 
 Rank the three trades on TRAINING-TIME-TO-SALARY RATIO from BEST ratio (1) to WORST (3).
 

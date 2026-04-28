@@ -75,7 +75,7 @@ Quick share: 3-4 volunteers share their "all three" career and their justificati
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/5sw-wk3-day3-construction-career-classification.pdf):
 
 1. ONE construction career I classified as ALL THREE (high-skill + high-wage + high-demand):
 

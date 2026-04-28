@@ -81,7 +81,7 @@ Each student picks ONE legal career that could be entrepreneurial (Solo Lawyer, 
 
 ## Exit Ticket (7 min)
 
-**EXIT TICKET** (Short Constructed Response — position paper draft):
+**EXIT TICKET** (Short Constructed Response — position paper draft) · [Printable PDF](../../resources/exit-tickets/2sw-wk1-day4-ai-ethics-debate-legal-entrepreneurship.pdf):
 
 Draft your AI ethics position paper (5-7 sentences). This is a STRUCTURED short response; each numbered point must appear as at least one sentence in your draft.
 

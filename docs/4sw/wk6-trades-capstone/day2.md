@@ -81,7 +81,7 @@ Surface the pattern: most transferable skills are nearly universal. The differen
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/4sw-wk6-day2-transferable-skills-matrix.pdf):
 
 From my Transferable Skills Matrix (8 skills x 6 careers), rank the THREE skills that applied to the MOST careers from MOST universal (1) to LEAST (3).
 

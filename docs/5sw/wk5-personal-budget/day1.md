@@ -73,7 +73,7 @@ Then they rank them 1-2-3 and write a one-sentence rationale for each priority. 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/5sw-wk5-day1-h-and-l-lifestyle-snapshot-reflecting-on-future-life.pdf):
 
 1. The CAREER I chose for this week's budget: _______________________
 

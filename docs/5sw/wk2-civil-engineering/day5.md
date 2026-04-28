@@ -82,7 +82,7 @@ Preview next week: Construction trades. Students will explore the people who act
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/5sw-wk2-day5-results-engineering-favorites-career-plan-update.pdf):
 
 The engineering career I favorited this week: _______________________
 

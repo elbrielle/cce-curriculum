@@ -92,7 +92,7 @@ This activity is the bridge from "drones in general" to "drones used by engineer
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/4sw-wk4-day1-h-and-l-engineering-cluster-protecting-wildlife.pdf):
 
 Scenario: A new conservation team needs a drone to track **sea turtles** on remote beaches at night. Very different from tracking jaguars in dense forest.
 

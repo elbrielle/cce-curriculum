@@ -86,7 +86,7 @@ Teams that finish early add a third button (touch logo) for a bonus vital sign o
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Decision Tree / Branching Prompt):
+**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/2sw-wk3-day3-vital-signs-monitor-build-phase.pdf):
 
 My role today: **Patient Care Technician** (a nursing career in Health Science)
 

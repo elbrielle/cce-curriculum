@@ -68,7 +68,7 @@ Direct students to eDynamic Learning Unit 5.1: Law & Order. Have them open the u
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/2sw-wk1-day5-cluster-wrap-up-xello-life-experience.pdf):
 
 The legal career I favorited in H&L this week: _______________________
 

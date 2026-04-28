@@ -75,7 +75,7 @@ The reflection paragraph is the only new writing, the rest is assembly of work a
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/3sw-wk1-day5-nimitz-vet-pathway-h-and-l-favorites.pdf):
 
 A veterinary career I favorited in H&L today: _______________________
 

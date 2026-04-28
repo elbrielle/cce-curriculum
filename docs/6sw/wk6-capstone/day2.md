@@ -114,7 +114,7 @@ Students draft the outline on the Capstone Presentation Outline template. Bullet
 
 ## Exit Ticket (7 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/6sw-wk6-day2-written-career-plan-presentation-outline.pdf):
 
 1. My career goal (one sentence): __________________________________
 

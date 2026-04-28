@@ -78,7 +78,7 @@ The Career Plan is cumulative. Students should NOT start over. It now reflects e
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map):
+**EXIT TICKET** (Concept Map) · [Printable PDF](../../resources/exit-tickets/6sw-wk3-day5-marketing-plan-pitches-edynamic-4-1-h-and-l-favorites.pdf):
 
 Draw a quick concept map (bubbles + lines). Place **MARKETING** in the center and connect it to each of the FOUR items below. On each line, write ONE word or phrase that shows the link.
 

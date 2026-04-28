@@ -80,7 +80,7 @@ After 10 minutes, run a quick whole-class share. Take 3-4 student answers and hi
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/2sw-wk3-day2-climbing-the-nursing-ladder.pdf):
 
 Rank all four nursing levels from BEST BALANCE of education time to salary (1) to WORST (4) FOR YOU personally. Use your completed Nursing Career Ladder worksheet.
 

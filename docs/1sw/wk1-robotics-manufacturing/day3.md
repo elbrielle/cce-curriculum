@@ -98,7 +98,7 @@ After 8 minutes, lead a brief discussion using the workbook prompt (Ch 14, p. 23
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/1sw-wk1-day3-designing-metalworks-job-references.pdf):
 
 Imagine a 12th-grader applying for a welding apprenticeship next year. They are choosing references from this list. Rank them from STRONGEST reference (1) to WEAKEST (4) using the 5 H&L rules for picking references.
 

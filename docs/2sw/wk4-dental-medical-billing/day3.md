@@ -83,7 +83,7 @@ This student graduates with diploma + 6+ college credits + a healthcare certific
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/2sw-wk4-day3-xello-education-experience-school-subjects-at-work.pdf):
 
 1. One school subject I take right now that connects to a HEALTH career: _______________________
 

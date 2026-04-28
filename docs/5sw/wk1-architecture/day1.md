@@ -76,7 +76,7 @@ The workbook scenario: *Students are construction safety supervisors building an
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/5sw-wk1-day1-a-and-c-cluster-tour-safety-supervisor.pdf):
 
 Scenario: A new downtown Dallas high-rise construction project just had a minor crane incident at 40 feet above the street. No one was injured but the city wants a safety plan upgrade.
 

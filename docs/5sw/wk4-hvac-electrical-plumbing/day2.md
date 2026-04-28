@@ -64,7 +64,7 @@ Teams keep research notes clean so they can present from them on Day 5.
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/5sw-wk4-day2-welding-careers-jigsaw-research.pdf):
 
 1. My assigned Jigsaw trade: _______________________
 

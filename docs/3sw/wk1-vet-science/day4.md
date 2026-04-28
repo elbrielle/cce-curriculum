@@ -69,7 +69,7 @@ Quick whole-class share: which life experience or volunteer activity from today 
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/3sw-wk1-day4-xello-life-experiences-volunteer-hours.pdf):
 
 1. One life experience I logged in Xello today: _______________________
 

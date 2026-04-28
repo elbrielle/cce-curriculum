@@ -87,7 +87,7 @@ Students work through the lesson at their own pace. Most will finish in 8 minute
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/6sw-wk1-day3-job-search-scavenger-hunt-xello-learning-pathways.pdf):
 
 1. List the 4 H&L job search steps in order:
 

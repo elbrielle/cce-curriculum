@@ -80,7 +80,7 @@ The exact same skills students used today (takeoff, hover, navigate, inspect, la
 
 ## Exit Ticket (4 min)
 
-**EXIT TICKET** (Trade-off / Dilemma Analysis):
+**EXIT TICKET** (Trade-off / Dilemma Analysis) · [Printable PDF](../../resources/exit-tickets/4sw-wk4-day4-drone-navigation-challenge.pdf):
 
 You are a wind-turbine drone inspector on a real job. You have TWO competing priorities:
 

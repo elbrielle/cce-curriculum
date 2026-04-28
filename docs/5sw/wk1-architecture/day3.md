@@ -100,7 +100,7 @@ The design challenge specs:
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/5sw-wk1-day3-tinkercad-introduction-learning-3d-design.pdf):
 
 1. List the 5 TinkerCAD skills I learned today:
 

@@ -67,7 +67,7 @@ Then each student selects ONE legal career and completes the **Hat Research temp
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/2sw-wk1-day1-law-cluster-tour-legal-services-pathway.pdf):
 
 Pick TWO legal careers you explored today. Fill in the matrix using your Hat Research notes.
 

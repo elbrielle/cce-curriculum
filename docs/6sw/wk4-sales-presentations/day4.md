@@ -86,7 +86,7 @@ By the end of Day 4, every student has presented their full career talk TWICE an
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Decision Tree):
+**EXIT TICKET** (Decision Tree) · [Printable PDF](../../resources/exit-tickets/6sw-wk4-day4-interview-appearance-practice-presentations.pdf):
 
 Follow the tree. Circle your path.
 

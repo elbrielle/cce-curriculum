@@ -99,7 +99,7 @@ Sentence stems available for students who need them:
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/3sw-wk6-day5-lifestyle-snapshot-personal-budget-xello-save-careers.pdf):
 
 My favorited career from this 3SW + the salary I used in today's budget: _______________________ ($_______________________/month take-home)
 

@@ -89,7 +89,7 @@ After the practice, lead a 1-minute debrief: *"Was it harder to GIVE feedback or
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors):
+**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors) · [Printable PDF](../../resources/exit-tickets/6sw-wk4-day2-slide-deck-giving-and-receiving-feedback.pdf):
 
 Circle the BEST answer for each question.
 

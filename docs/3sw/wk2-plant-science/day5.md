@@ -88,7 +88,7 @@ Students take a screenshot of their Climber Profile favorites screen and save it
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/3sw-wk2-day5-xello-work-experiences-nimitz-plant-science-pathway.pdf):
 
 A Plant Science or Environmental career I favorited this week: _______________________
 

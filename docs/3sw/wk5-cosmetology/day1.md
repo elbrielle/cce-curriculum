@@ -85,7 +85,7 @@ After designing, students do the workbook discussion (Ch 11, p. 178): pair up, t
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/3sw-wk5-day1-human-services-cluster-stress-toolkit.pdf):
 
 Pick TWO Human Services careers you explored today (from the cluster tour). Fill in the matrix below using what you read in Hats & Ladders.
 

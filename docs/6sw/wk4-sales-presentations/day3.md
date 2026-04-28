@@ -88,7 +88,7 @@ Close Activity 2 with a direct student-facing announcement: Friday's individual 
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/6sw-wk4-day3-investor-pitches-career-presentation-outline.pdf):
 
 1. Career I will present on Friday: _______________________
 

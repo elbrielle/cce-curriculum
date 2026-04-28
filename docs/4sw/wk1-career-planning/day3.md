@@ -68,7 +68,7 @@ The pattern that almost always emerges: students who picked a high-paying career
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Trade-off / Dilemma Analysis):
+**EXIT TICKET** (Trade-off / Dilemma Analysis) · [Printable PDF](../../resources/exit-tickets/4sw-wk1-day3-xello-quick-sims-the-real-game.pdf):
 
 You finished The Real Game. You got ONE career and ONE monthly budget. Now imagine your SAME career, but you have to pick between two lifestyles:
 

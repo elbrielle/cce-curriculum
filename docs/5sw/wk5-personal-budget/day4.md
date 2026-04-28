@@ -87,7 +87,7 @@ Students take notes on the Paying for College notes sheet. Emphasize: "Apprentic
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/5sw-wk5-day4-ngpf-everfi-financial-literacy-paying-for-college.pdf):
 
 Scenario: My cousin is a HS senior accepted to UT Arlington. Their family cannot pay tuition. They have a 3.4 GPA, played varsity soccer, and their family income is below $80K.
 

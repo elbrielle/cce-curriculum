@@ -86,7 +86,7 @@ In pairs, students share their personal preference statements. Each pair finds o
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Trade-off / Dilemma Analysis):
+**EXIT TICKET** (Trade-off / Dilemma Analysis) · [Printable PDF](../../resources/exit-tickets/4sw-wk5-day2-ase-certification-apprenticeship-vs-college.pdf):
 
 Sam is graduating from high school in DFW next year. Sam wants to be an auto technician. Sam has two paths to pick:
 

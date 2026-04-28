@@ -74,7 +74,7 @@ In the last 3 minutes, ask 2-3 volunteers to display their infographic on the pr
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Venn Diagram Comparison):
+**EXIT TICKET** (Venn Diagram Comparison) · [Printable PDF](../../resources/exit-tickets/3sw-wk2-day3-farm-to-table-build-in-canva.pdf):
 
 My Farm to Table infographic is designed for **adult grocery shoppers**. A classmate's infographic is designed for the **same crop**. Trade infographics in the last 3 minutes of class with a peer who picked the SAME crop you did.
 

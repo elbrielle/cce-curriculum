@@ -78,7 +78,7 @@ Connect to entrepreneurship: someone who owns a small hotel or B&B has to wear A
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Decision Tree / Branching Prompt):
+**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/3sw-wk4-day3-hotel-rescue-team-problem-solving.pdf):
 
 My Hotel Rescue role today: _______________________ (Hotel Director / Front Desk Agent / Events Planner / Head Chef / Guest Services Manager / Senior Concierge)
 

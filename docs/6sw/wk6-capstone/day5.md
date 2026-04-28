@@ -102,7 +102,7 @@ One last task: students log into H&L one more time and confirm their Career Plan
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (3-2-1 Reflective):
+**EXIT TICKET** (3-2-1 Reflective) · [Printable PDF](../../resources/exit-tickets/6sw-wk6-day5-end-of-year-reflection-celebration.pdf):
 
 **3** things I learned about MYSELF across 36 weeks (not about a career, about me):
 

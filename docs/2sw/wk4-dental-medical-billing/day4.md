@@ -103,7 +103,7 @@ After Round 3, ask the class: "What happened when you went faster? Did your accu
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors):
+**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors) · [Printable PDF](../../resources/exit-tickets/2sw-wk4-day4-health-informatics-medical-coding-simulation.pdf):
 
 Patient Chart: 52-year-old female. Chief complaint: sharp tooth pain for 5 days, worst when drinking cold water. Examination: visible dark spot on lower right molar, no swelling or fever. Diagnosis: cavity in lower right molar.
 

@@ -87,7 +87,7 @@ Pair up. Trade ad designs. Use the workbook's discussion prompts (Ch 5, p. 75):
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/6sw-wk3-day1-marketing-cluster-marketing-on-the-move.pdf):
 
 Scenario: A DFW smoothie shop hires you to redesign their billboard. The old one has 24 words, 4 photos, and 3 colors. Drivers say they can't read it at 60 mph.
 

@@ -119,7 +119,7 @@ The email is 5-7 sentences total. Students draft in their notebook or in a Googl
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/3sw-wk5-day2-job-interviews-prep-practice.pdf):
 
 Scenario: Maya has an interview tomorrow for a Salon Assistant job at Reset Studio in Las Colinas. The interview is on video call. Maya just realized she does not know what to wear, what to say first, or how to follow up after.
 

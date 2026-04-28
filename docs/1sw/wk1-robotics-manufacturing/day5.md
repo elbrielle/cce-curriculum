@@ -91,7 +91,7 @@ Use the H&L Task Bot rubric (Ch 14, p. 245) to score each team on Teamwork & Rol
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/1sw-wk1-day5-sphero-run-through-task-bot-presentations-manufacturing-favorites.pdf):
 
 A Manufacturing career I favorited in H&L this week: _______________________
 

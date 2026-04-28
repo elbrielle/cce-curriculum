@@ -93,7 +93,7 @@ Every student must rotate as pilot at least once. The achievement bar is low: ta
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/4sw-wk4-day3-faa-part-107-drone-flight-basics.pdf):
 
 1. THREE things covered on the FAA Part 107 exam:
 

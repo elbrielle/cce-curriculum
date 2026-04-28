@@ -73,7 +73,7 @@ Each team has 60-90 seconds to share their chosen problem and solution. After al
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Decision Tree / Branching Prompt):
+**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/3sw-wk1-day3-candy-conundrum-food-science-teamwork.pdf):
 
 My Candy Conundrum role: _______________________ (Flavorist / Packaging Engineer / R&D Manager / Quality Assurance)
 

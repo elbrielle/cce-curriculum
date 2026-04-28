@@ -75,7 +75,7 @@ This pair work mirrors what real entrepreneurs do, focus groups, beta tests, and
 
 ## Exit Ticket (10 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/6sw-wk3-day3-think-inside-the-box-subscription-box-mvp.pdf):
 
 1. Entrepreneurship in my own words (one sentence, no dictionary language):
 

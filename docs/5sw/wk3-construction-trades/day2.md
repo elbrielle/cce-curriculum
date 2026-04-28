@@ -89,7 +89,7 @@ Students pair up with a classmate who researched a DIFFERENT union and compare n
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/5sw-wk3-day2-apprenticeships-trade-unions.pdf):
 
 Use my Day 2 Apprenticeship vs. College chart to fill in the matrix.
 

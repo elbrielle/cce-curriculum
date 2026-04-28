@@ -80,7 +80,7 @@ Students write a 1-page reflection on the Entrepreneurship Reflection template. 
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/5sw-wk6-day3-entrepreneurship-in-real-estate-dfw-market-analysis.pdf):
 
 Rank these 4 entrepreneurial traits from MOST (1) to LEAST (4) critical for a successful real estate agent.
 

@@ -93,7 +93,7 @@ This chart becomes the foundation of the Day 2 slide deck.
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/6sw-wk4-day1-sales-pathway-pitching-investors-setup.pdf):
 
 Scenario: Another team in this class is pitching a dog-walking app to Super Sports Ventures. Super Sports only invests in SPORTS TECH. The team thinks "dogs = exercise = sports."
 

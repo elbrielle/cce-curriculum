@@ -79,7 +79,7 @@ In the last 8 minutes, ask 3 students to share their topic-to-career connection 
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/3sw-wk3-day1-environmental-careers-climate-connection.pdf):
 
 Scenario: A DFW city council discovers that a neighborhood's drinking water has SMALL amounts of lead in it. They need to hire ONE environmental professional to start fixing the problem this week.
 

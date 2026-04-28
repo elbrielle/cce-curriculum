@@ -70,7 +70,7 @@ Take a quick verbal poll: which of the 3 automotive careers had the highest expe
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Comparison Matrix):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/4sw-wk5-day3-automotive-salary-showdown.pdf):
 
 Use your Day 3 worksheet to fill in the matrix below for the 3 automotive careers.
 

@@ -97,7 +97,7 @@ This living document will be reviewed again at mid-year (4SW Wk 1: Career Planni
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/2sw-wk6-day5-emerging-career-research-2sw-wrap-up.pdf):
 
 My emerging biomedical career (from Day 5 research): _______________________
 

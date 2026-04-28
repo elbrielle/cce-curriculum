@@ -91,7 +91,7 @@ Students whose designs are not yet ready continue working on them while the firs
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Decision Tree / Branching Prompt):
+**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/1sw-wk5-day4-glowforge-college-career-logo-design.pdf):
 
 My postsecondary goal (from the Glowforge logo): _______________________
 

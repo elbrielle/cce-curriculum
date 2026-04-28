@@ -70,7 +70,7 @@ Students write the paragraph, then pair up and read each other's paragraphs. Eac
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (3-2-1 Reflective):
+**EXIT TICKET** (3-2-1 Reflective) · [Printable PDF](../../resources/exit-tickets/2sw-wk4-day5-health-science-mid-point-recommendation.pdf):
 
 After 2 weeks in Health Science (nursing, dental, medical billing), write:
 

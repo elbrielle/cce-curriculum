@@ -86,7 +86,7 @@ This is a starting draft. They will continue and finish on Day 4.
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/2sw-wk2-day3-task-force-setup.pdf):
+**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/2sw-wk2-day3-local-risk-response-task-force-setup.pdf):
 
 My role today: _______________________ (a first responder career in Law and Public Service)
 

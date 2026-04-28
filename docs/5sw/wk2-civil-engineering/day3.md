@@ -89,7 +89,7 @@ Teams then **pick one design** to build on Day 4 based on the peer feedback.
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/5sw-wk2-day3-bridge-challenge-design-phase.pdf):
 
 1. My team's bridge type (circle one): **Truss** / **Arch** / **Beam** / **Other: _______________________**
 

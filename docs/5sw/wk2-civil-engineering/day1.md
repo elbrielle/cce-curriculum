@@ -88,7 +88,7 @@ Students write brief notes on each problem in their workbook. This sets up Days 
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/5sw-wk2-day1-civil-engineering-cluster-tour-infrastructure-imagination-kickoff.pdf):
 
 Scenario: Irving had 3 inches of rain last night. Parts of Trinity River flooded, a major highway is closed, and a bridge over the creek is showing cracks.
 

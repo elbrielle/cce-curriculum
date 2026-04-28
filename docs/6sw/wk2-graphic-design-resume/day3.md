@@ -107,7 +107,7 @@ Students apply the peer feedback to their Xello resume. They strengthen weak sec
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Short Constructed Response):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/6sw-wk2-day3-attention-to-detail-resume-revision.pdf):
 
 1. ONE specific change I made to my resume based on PEER FEEDBACK:
 

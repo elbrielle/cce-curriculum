@@ -80,7 +80,7 @@ This gives every student exposure to a second emerging ag career without doing d
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Ranked Justification):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/3sw-wk2-day4-emerging-ag-career-research.pdf):
 
 Rank the four emerging ag careers from today by WHICH YOU WOULD PURSUE FIRST (1) to LAST (4), based on what I learned today.
 
