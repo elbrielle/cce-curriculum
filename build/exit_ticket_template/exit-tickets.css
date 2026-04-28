@@ -1,0 +1,598 @@
+/* =========================================================================
+   CCE EXIT TICKET — REUSABLE TEMPLATE
+   Irving ISD VILS Labs · Career and College Explorations
+   Print target: US Letter (8.5 × 11 in)
+   ========================================================================= */
+
+/* ---------- Tokens ---------- */
+:root {
+  --ink:        #15202b;          /* body text */
+  --ink-soft:   #4a5763;          /* secondary text */
+  --ink-mute:   #8a95a1;          /* tertiary, hairlines */
+  --paper:      #ffffff;
+  --paper-warm: #faf8f3;          /* page background tint (digital only) */
+
+  --navy:       #004d7c;          /* CCE primary accent */
+  --navy-deep:  #002845;
+  --gold:       #f3c63c;          /* secondary accent — answer tint */
+  --gold-tint:  #fdf4d4;          /* answer-region fill (~8% gold) */
+  --rule:       #2a3540;          /* ruled writing lines */
+
+  --teacher:    #76001a;          /* TEKS / teacher-only chip color */
+
+  --serif:      "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --sans:       "Source Sans 3", "Source Sans Pro", -apple-system, "Segoe UI", sans-serif;
+  --mono:       "JetBrains Mono", ui-monospace, "SF Mono", Consolas, monospace;
+
+  --rule-pt:    0.75pt;
+  --rule-h:     8.5mm;             /* handwriting line spacing */
+}
+
+/* ---------- Page setup ---------- */
+@page {
+  size: Letter;
+  margin: 0.5in 0.55in;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #e9ecef;             /* digital viewer surround */
+  font-family: var(--sans);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Sheet wrapper for digital preview (becomes invisible in print) */
+.sheet {
+  width: 8.5in;
+  min-height: 11in;
+  margin: 24px auto;
+  padding: 0.5in 0.55in;
+  background: var(--paper);
+  box-shadow: 0 1px 2px rgba(0,0,0,.06), 0 12px 32px rgba(0,0,0,.08);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.sheet--half {
+  min-height: 5.5in;
+  /* allow growth past half if content needs it; never clip footer */
+}
+
+/* =========================================================================
+   HEADER ZONE — compact: single row, no eyebrow, gold accent bar
+   ========================================================================= */
+.eh {
+  border-bottom: 1.5pt solid var(--navy);
+  padding-bottom: 5pt;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 4pt 14pt;
+  align-items: center;
+}
+.eh__title-block { display: flex; align-items: baseline; gap: 10pt; min-width: 0; grid-column: 1 / 3; }
+.eh__title {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 20pt;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0;
+  white-space: nowrap;
+}
+.eh__title::before {
+  content: "";
+  display: inline-block;
+  width: 5pt; height: 14pt;
+  background: var(--gold);
+  margin-right: 7pt;
+  vertical-align: -1pt;
+}
+.eh__subtitle {
+  font-family: var(--sans);
+  font-weight: 400;
+  font-size: 11pt;
+  color: var(--ink-soft);
+  border-left: 0.5pt solid var(--ink-mute);
+  padding-left: 10pt;
+  min-width: 0;
+}
+.eh__format-num {
+  font-family: var(--mono);
+  font-size: 8pt;
+  color: var(--ink-mute);
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+/* IISD logo + CCE wordmark — compact, sits next to title */
+.eh__mark {
+  display: flex;
+  align-items: center;
+  gap: 8pt;
+  flex-shrink: 0;
+  grid-row: 1;
+  grid-column: 3;
+}
+.eh__mark img {
+  height: 18pt;
+  width: auto;
+  max-width: 0.9in;
+  object-fit: contain;
+  display: block;
+}
+.eh__mark-sub {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 7pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--navy);
+  text-align: right;
+  line-height: 1.15;
+  border-left: 0.5pt solid var(--ink-mute);
+  padding-left: 8pt;
+}
+
+/* Metadata strip — single flex row, never wraps, all blocks size to content */
+.eh__meta {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0;
+  margin-top: 4pt;
+  font-size: 9pt;
+  align-items: center;
+}
+.eh__meta-block {
+  border-left: 0.4pt solid var(--ink-mute);
+  padding: 0 8pt;
+  display: flex;
+  align-items: baseline;
+  gap: 6pt;
+  min-height: 14pt;
+  white-space: nowrap;
+}
+.eh__meta-block.is-block { flex: 0 0 auto; }
+.eh__meta-block.has-fill { flex: 2 1 0; min-width: 0; }
+.eh__meta-block.has-fill.is-period { flex: 0 0 auto; }
+.eh__meta-block.has-fill.is-period .eh__meta-value { width: 32pt; flex: 0 0 32pt; }
+.eh__meta-block.has-teks { flex: 0 0 auto; margin-left: auto; }
+.eh__meta-block:first-child { border-left: none; padding-left: 0; }
+.eh__meta-label {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 7pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  flex-shrink: 0;
+}
+.eh__meta-value {
+  font-family: var(--mono);
+  font-weight: 500;
+  font-size: 9pt;
+  color: var(--ink);
+  letter-spacing: 0;
+  min-height: 12pt;
+  flex: 1;
+}
+.eh__meta-value--fill {
+  border-bottom: 0.5pt solid var(--ink);
+  padding-bottom: 1pt;
+}
+.eh__meta-block.is-block .eh__meta-value {
+  background: #1a2530;
+  color: var(--paper);
+  font-weight: 600;
+  padding: 1pt 5pt;
+  display: inline-block;
+  align-self: center;
+  letter-spacing: 0.02em;
+  flex: 0 0 auto;
+}
+
+/* TEKS teacher-only chip */
+.teks {
+  display: inline-flex;
+  align-items: center;
+  gap: 5pt;
+  padding: 2pt 6pt;
+  font-family: var(--mono);
+  font-size: 7.5pt;
+  font-weight: 500;
+  color: var(--teacher);
+  border: 0.5pt dashed var(--teacher);
+  letter-spacing: 0.01em;
+  background: transparent;
+}
+.teks::before {
+  content: "TEK";
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 6pt;
+  letter-spacing: 0.16em;
+  color: var(--teacher);
+  background: transparent;
+  border-right: 0.5pt dashed var(--teacher);
+  padding-right: 5pt;
+}
+
+/* =========================================================================
+   BODY ZONE
+   ========================================================================= */
+.eb {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8pt;
+  min-height: 0;
+}
+
+.eb__head {
+  display: flex;
+  align-items: center;
+  gap: 8pt;
+  padding-bottom: 6pt;
+  margin-bottom: 10pt;
+  border-bottom: 0.4pt solid var(--ink-mute);
+}
+.eb__glyph {
+  width: 22pt; height: 22pt;
+  border: 0.75pt solid var(--ink);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.eb__glyph svg { width: 14pt; height: 14pt; stroke: var(--ink); fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.eb__format {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 9pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.eb__format-num {
+  font-family: var(--mono);
+  font-size: 8pt;
+  color: var(--ink-mute);
+  margin-left: auto;
+}
+.eb__ell {
+  display: inline-flex;
+  align-items: center;
+  gap: 3pt;
+  padding: 1pt 5pt;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 7pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--navy);
+  border: 0.5pt solid var(--navy);
+}
+
+/* Stem / scenario text */
+.stem {
+  font-size: 11pt;
+  line-height: 1.4;
+  color: var(--ink);
+  margin: 0 0 8pt 0;
+}
+.stem strong { font-weight: 700; }
+
+.scenario {
+  font-size: 10.5pt;
+  line-height: 1.5;
+  color: var(--ink);
+  padding: 8pt 10pt;
+  border-left: 2pt solid var(--navy);
+  background: #f5f8fb;
+  margin: 0 0 10pt 0;
+}
+
+/* =========================================================================
+   ANSWER REGIONS  — consistent treatment: gold tint + thin rule border
+   ========================================================================= */
+.ans {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  padding: 8pt 10pt;
+}
+.ans--lines {
+  background:
+    linear-gradient(var(--gold-tint), var(--gold-tint)),
+    repeating-linear-gradient(to bottom,
+      transparent 0,
+      transparent calc(var(--rule-h) - 0.5pt),
+      var(--rule) calc(var(--rule-h) - 0.5pt),
+      var(--rule) var(--rule-h));
+  background-blend-mode: multiply, normal;
+  background-clip: padding-box;
+  background-origin: padding-box;
+}
+/* Ruled lines — N rules drawn proportionally via background-size, no pseudo */
+.lines {
+  background-color: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  background-image:
+    linear-gradient(to bottom,
+      transparent 0,
+      transparent calc(100% - 0.6pt),
+      var(--rule) calc(100% - 0.6pt),
+      var(--rule) 100%);
+  background-repeat: repeat-y;
+  background-position: 0 0;
+}
+.lines--n2 { height: calc(8.5mm * 2); background-size: 100% calc(100% / 2); }
+.lines--n3 { height: calc(8.5mm * 3); background-size: 100% calc(100% / 3); }
+.lines--n4 { height: calc(8.5mm * 4); background-size: 100% calc(100% / 4); }
+.lines--n5 { height: calc(8.5mm * 5); background-size: 100% calc(100% / 5); }
+.lines--n6 { height: calc(8.5mm * 6); background-size: 100% calc(100% / 6); }
+.lines--n7 { height: calc(8.5mm * 7); background-size: 100% calc(100% / 7); }
+.lines--n8 { height: calc(8.5mm * 8); background-size: 100% calc(100% / 8); }
+.lines--n9 { height: calc(8.5mm * 9); background-size: 100% calc(100% / 9); }
+.lines--n10 { height: calc(8.5mm * 10); background-size: 100% calc(100% / 10); }
+
+/* =========================================================================
+   MCQ
+   ========================================================================= */
+.mcq__list { list-style: none; padding: 0; margin: 0 0 10pt 0; display: flex; flex-direction: column; gap: 5pt; }
+.mcq__opt {
+  display: grid;
+  grid-template-columns: 22pt 1fr;
+  align-items: start;
+  gap: 8pt;
+  padding: 5pt 8pt;
+  font-size: 10.5pt;
+  line-height: 1.35;
+  border: 0.5pt solid var(--ink-mute);
+}
+.mcq__letter {
+  width: 16pt; height: 16pt;
+  border: 0.75pt solid var(--ink);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 10pt;
+}
+
+.callout {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 9pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--navy);
+  margin: 6pt 0 4pt 0;
+  display: flex; align-items: center; gap: 6pt;
+}
+.callout::before {
+  content: ""; width: 8pt; height: 0.75pt; background: var(--navy);
+}
+
+/* =========================================================================
+   COMPARISON MATRIX
+   ========================================================================= */
+.matrix {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 10pt;
+}
+.matrix th, .matrix td {
+  border: 0.6pt solid var(--ink);
+  padding: 6pt 8pt;
+  vertical-align: top;
+  height: calc(var(--rule-h) * 3.2);
+}
+.matrix thead th {
+  background: var(--navy);
+  color: var(--paper);
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 9.5pt;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: left;
+  height: auto;
+  padding: 5pt 8pt;
+}
+.matrix tbody th {
+  background: #f0f3f6;
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 9.5pt;
+  text-align: left;
+  width: 1.4in;
+  height: auto;
+  vertical-align: middle;
+}
+.matrix tbody td {
+  background-color: var(--gold-tint);
+  background-image: linear-gradient(to bottom,
+    transparent 0,
+    transparent calc(100% - 0.6pt),
+    var(--rule) calc(100% - 0.6pt),
+    var(--rule) 100%);
+  background-size: 100% calc(100% / 3);
+  background-repeat: repeat-y;
+  background-position: 0 0;
+}
+
+/* =========================================================================
+   VENN DIAGRAM
+   ========================================================================= */
+.venn-wrap { display: flex; flex-direction: column; align-items: center; gap: 8pt; }
+.venn { width: 100%; max-width: 7.4in; height: 4.6in; }
+.venn-legend { display: flex; gap: 24pt; font-size: 9.5pt; color: var(--ink-soft); }
+.venn-legend b { color: var(--ink); font-family: var(--serif); }
+
+/* =========================================================================
+   CONCEPT MAP
+   ========================================================================= */
+.cmap { width: 100%; height: 3.4in; border: 0.5pt dashed var(--ink-mute); position: relative; background: #fdfdfb; }
+
+/* =========================================================================
+   DECISION TREE
+   ========================================================================= */
+.tree { width: 100%; height: 3.6in; }
+
+/* =========================================================================
+   RANKED JUSTIFICATION
+   ========================================================================= */
+.rank { display: flex; flex-direction: column; gap: 6pt; }
+.rank__row {
+  display: grid;
+  grid-template-columns: 24pt 1.4in 1fr;
+  align-items: stretch;
+  gap: 8pt;
+}
+.rank__num {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 18pt;
+  color: var(--navy);
+  text-align: center;
+  border-right: 0.5pt solid var(--ink-mute);
+  padding-right: 8pt;
+  display: flex; align-items: center; justify-content: center;
+}
+.rank__slot, .rank__because {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  padding: 4pt 8pt;
+  height: var(--rule-h);
+  display: flex; align-items: center;
+  font-size: 9.5pt;
+}
+.rank__because::before { content: "because…"; color: var(--ink-mute); font-style: italic; }
+
+/* =========================================================================
+   TRADE-OFF
+   ========================================================================= */
+.tradeoff { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 0.6pt solid var(--ink); }
+.tradeoff__col { padding: 8pt; border-left: 0.6pt solid var(--ink); }
+.tradeoff__col:first-child { border-left: none; }
+.tradeoff__head {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 11pt;
+  background: var(--navy);
+  color: var(--paper);
+  padding: 4pt 8pt;
+  margin: -8pt -8pt 8pt -8pt;
+  letter-spacing: 0.04em;
+}
+.tradeoff__row { display: flex; flex-direction: column; gap: 3pt; margin-bottom: 6pt; }
+.tradeoff__lbl {
+  font-family: var(--serif); font-weight: 700; font-size: 8.5pt; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-soft);
+}
+.tradeoff__cell {
+  background: var(--gold-tint);
+  border: 0.5pt solid #c9a826;
+  height: calc(var(--rule-h) * 2);
+}
+
+/* =========================================================================
+   3-2-1
+   ========================================================================= */
+.tto { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8pt; }
+.tto__col { display: flex; flex-direction: column; gap: 4pt; }
+.tto__num {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 36pt;
+  line-height: 1;
+  color: var(--navy);
+}
+.tto__lbl {
+  font-family: var(--serif); font-weight: 700; font-size: 9pt; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink);
+}
+
+/* =========================================================================
+   FOOTER ZONE — two rows so teacher comment gets full page width
+   ========================================================================= */
+.ef {
+  margin-top: 12pt;
+  padding-top: 8pt;
+  border-top: 1pt solid var(--navy);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6pt 14pt;
+  font-size: 9pt;
+  flex-shrink: 0;
+}
+.ef__row1 { grid-column: 1 / -1; display: flex; gap: 14pt; align-items: end; }
+.ef__row2 { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr auto; gap: 14pt; align-items: end; }
+.ef__rubric { display: flex; flex-direction: column; gap: 2pt; flex-shrink: 0; }
+.ef__rubric-lbl {
+  font-family: var(--serif); font-weight: 700; font-size: 7pt; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-soft);
+}
+.ef__rubric-row { display: flex; gap: 6pt; }
+.ef__rubric-cell {
+  display: flex; align-items: center; gap: 4pt;
+  padding: 2pt 6pt;
+  border: 0.5pt solid var(--ink);
+  font-family: var(--serif); font-weight: 600; font-size: 8.5pt;
+}
+.ef__rubric-cell .box {
+  width: 9pt; height: 9pt; border: 0.6pt solid var(--ink);
+  display: inline-block;
+}
+.ef__rubric-cell .num {
+  font-size: 7pt; color: var(--ink-mute); font-family: var(--mono);
+}
+.ef__comment {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8pt;
+  align-items: end;
+}
+.ef__comment-lbl {
+  font-family: var(--serif); font-weight: 700; font-size: 7pt; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-soft);
+  padding-bottom: 3pt;
+  white-space: nowrap;
+}
+.ef__comment-line { border-bottom: 0.5pt solid var(--ink); height: 16pt; }
+.ef__page-id {
+  font-family: var(--mono); font-size: 7.5pt; color: var(--ink-mute); letter-spacing: 0.04em;
+  text-align: right;
+  white-space: nowrap;
+  align-self: end;
+  padding-bottom: 3pt;
+}
+
+/* =========================================================================
+   PRINT
+   ========================================================================= */
+@media print {
+  html, body { background: var(--paper); }
+  .sheet {
+    width: auto; min-height: 0; height: auto;
+    margin: 0; padding: 0;
+    box-shadow: none;
+    page-break-after: always;
+  }
+  .sheet:last-child { page-break-after: auto; }
+  .no-print { display: none !important; }
+
+  /* Force tints to render in print (Chrome) */
+  .ans, .lines, .matrix tbody td,
+  .rank__slot, .rank__because, .tradeoff__cell,
+  .matrix thead th, .tradeoff__head {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
+/* =========================================================================
+   GRAYSCALE TOGGLE (digital preview)
+   ========================================================================= */
+.is-bw { filter: grayscale(1) contrast(1.06); }
