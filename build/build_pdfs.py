@@ -325,25 +325,95 @@ def extract_matrix(payload: str) -> dict:
 
 
 VS_RE = re.compile(r"\b([A-Z][A-Za-z& -]+?)\s+(?:vs?\.?|or)\s+([A-Z][A-Za-z& -]+?)\b")
+VENN_UNIQUE_RE = re.compile(
+    r"Unique to\s+\*?\*?([^\n*:(]{2,50}?)\*?\*?\s*[(:\n]",
+    re.IGNORECASE,
+)
+VENN_MY_X_RE = re.compile(
+    r"^\s*[-*]?\s*My\s+\*?\*?([^\n*:(]{2,40}?career|[A-Z][A-Za-z& ]{2,40}?)\*?\*?\s*:",
+    re.MULTILINE,
+)
+
+
+def _clean_venn_label(s: str) -> str:
+    """Tidy a candidate Venn label: strip whitespace, drop leading articles
+    and possessive pronouns that read awkwardly when up-cased."""
+    s = s.strip().rstrip(",.").strip()
+    # Drop leading "the / a / an / my / your / the REAL"-style articles.
+    s = re.sub(r"^(?:the\s+|a\s+|an\s+|my\s+|your\s+)", "", s, flags=re.IGNORECASE)
+    return s.strip()
 
 
 def extract_venn(ticket: "Ticket") -> dict:
-    """Extract two labels from the title (e.g., 'Detective vs Lawyer').
-    Falls back to {} if no clean two-item pair is found — caller renders
-    the markdown fallback."""
-    # First try title
+    """Extract two labels for the structured Venn render.
+
+    Detection order, falling through to the next on miss:
+      1. Title or early payload contains an explicit "X vs Y" / "X or Y" pair.
+      2. Body has 'Unique to <NAME>' twice — most common shape across the
+         corpus (the canonical 'Unique to A / Unique to B / Both' authoring
+         pattern).
+      3. Body has paired bold ALL-CAPS labels close to each other (e.g.,
+         **TOP OF ICEBERG** / **UNDER THE ICEBERG**).
+      4. Body has paired 'My <X>: ___' fill-in prompts.
+    Returns {} if none fit, so the caller falls back to markdown rendering."""
+
+    # 1. Title or early payload "X vs Y"
     for source in (ticket.title, ticket.payload[:300]):
         m = VS_RE.search(source)
         if m:
-            left = m.group(1).strip().rstrip(",").strip()
-            right = m.group(2).strip().rstrip(",").strip()
-            if left and right and len(left) < 30 and len(right) < 30:
+            left = _clean_venn_label(m.group(1))
+            right = _clean_venn_label(m.group(2))
+            if left and right and len(left) <= 40 and len(right) <= 40:
                 return {
                     "left_label": left,
                     "right_label": right,
                     "stem": _first_paragraph(ticket.payload),
                     "callout": _last_short_line(ticket.payload),
                 }
+
+    # 2. Body "Unique to X" twice
+    unique_matches = VENN_UNIQUE_RE.findall(ticket.payload)
+    if len(unique_matches) >= 2:
+        left = _clean_venn_label(unique_matches[0])
+        right = _clean_venn_label(unique_matches[1])
+        if left and right and 1 < len(left) <= 40 and 1 < len(right) <= 40:
+            return {
+                "left_label": left,
+                "right_label": right,
+                "stem": _first_paragraph(ticket.payload),
+                "callout": _last_short_line(ticket.payload),
+            }
+
+    # 3. Two bold ALL-CAPS labels close together (iceberg-style metaphors)
+    bold_caps = re.findall(r"\*\*([A-Z][A-Z &]{2,30}[A-Z])\*\*", ticket.payload)
+    # De-dupe while preserving order
+    seen = []
+    for b in bold_caps:
+        if b not in seen:
+            seen.append(b)
+    if len(seen) >= 2:
+        left = _clean_venn_label(seen[0])
+        right = _clean_venn_label(seen[1])
+        return {
+            "left_label": left,
+            "right_label": right,
+            "stem": _first_paragraph(ticket.payload),
+            "callout": _last_short_line(ticket.payload),
+        }
+
+    # 4. Paired "My X: ___" fill-ins (compare-two-careers shape)
+    my_matches = VENN_MY_X_RE.findall(ticket.payload)
+    if len(my_matches) >= 2:
+        left = _clean_venn_label(my_matches[0])
+        right = _clean_venn_label(my_matches[1])
+        if left and right and len(left) <= 40 and len(right) <= 40:
+            return {
+                "left_label": left,
+                "right_label": right,
+                "stem": _first_paragraph(ticket.payload),
+                "callout": _last_short_line(ticket.payload),
+            }
+
     return {}
 
 
@@ -401,12 +471,11 @@ def extract_concept_map(payload: str) -> dict:
     numbered sections.  Each section has a label, a description, and one or
     more inline fill-ins for the slot + why prompt.
 
-    Returns {} if fewer than 2 numbered sections are found, so unusual
-    concept-map markdown (e.g., 6sw/wk6/day4 which uses a center 'Place X in
-    the center' instruction with non-bold numbered items) falls back."""
+    Falls through to the Place-X-In-Center variant if the canonical pattern
+    isn't found. Returns {} only if neither shape fits."""
     nodes = list(CMAP_NODE_RE.finditer(payload))
     if len(nodes) < 2:
-        return {}
+        return extract_concept_map_place(payload)
 
     # Center prompt = first paragraph before the numbered sections, stripped
     # of the underscore fill-in run.
@@ -461,8 +530,77 @@ def extract_concept_map(payload: str) -> dict:
 
     return {
         "center_prompt": center_prompt.rstrip(":"),
+        "center_value": "",
         "intro": intro,
         "nodes": extracted,
+    }
+
+
+# Place-X-In-Center variant: "Place **X** in the center..." + plain numbered
+# items.  Maps onto the same Concept Map template by setting center_value to
+# the named X (so the center anchor shows the label instead of a blank slot)
+# and treating each numbered item as a node.
+CMAP_PLACE_RE = re.compile(
+    r"Place\s+\*\*(.+?)\*\*\s+in\s+the\s+center",
+    re.IGNORECASE,
+)
+CMAP_PLAIN_NUMBERED_RE = re.compile(
+    r"^\s*(\d+)\.\s+(.+?)(?=\n\s*\d+\.\s|\n\s*[A-Z]|\Z)",
+    re.DOTALL | re.MULTILINE,
+)
+
+
+def extract_concept_map_place(payload: str) -> dict:
+    """Place-X-In-Center variant. Returns {} if not a clean fit."""
+    place = CMAP_PLACE_RE.search(payload)
+    if not place:
+        return {}
+    center_value = place.group(1).strip()
+
+    items = list(CMAP_PLAIN_NUMBERED_RE.finditer(payload))
+    if not (3 <= len(items) <= 4):
+        return {}
+
+    intro_match = re.search(
+        r"^[^\n]*?(?:connect|connects?)\s+(?:it|this)\s+to\s+(?:each of\s+)?the?\s*[A-Z]+\s+items?\s+below[^.\n]*?(?=\n|$)",
+        payload, re.IGNORECASE | re.MULTILINE,
+    )
+    intro = intro_match.group(0).strip() if intro_match else ""
+
+    nodes = []
+    for m in items:
+        num = m.group(1)
+        body = m.group(2).strip()
+        # Prompt = everything in the bullet (typically "label: ____" or a
+        # multi-line block). Strip underscore runs so the gold slot below is
+        # the writing space, not duplicated underscores.
+        prompt = _strip_underscore_runs(body).rstrip(":").strip()
+        # Take the first line as the label (short), keep the rest as a
+        # supporting prompt sentence if present.
+        first_line = prompt.split("\n", 1)[0].strip()
+        # Drop a long parenthetical descriptor from the label so the
+        # node-label box stays compact.
+        label = re.sub(r"\s*\([^)]+\)\s*", " ", first_line).strip()
+        # If the body had additional text after the first line, keep it as
+        # a descriptor.
+        descriptor = ""
+        if "\n" in prompt:
+            after = prompt.split("\n", 1)[1].strip()
+            if after:
+                descriptor = after
+        nodes.append({
+            "num": num,
+            "label": label,
+            "descriptor": descriptor,
+            "prompt": "",
+            "why_prompt": "",
+        })
+
+    return {
+        "center_prompt": "",
+        "center_value": center_value,
+        "intro": intro,
+        "nodes": nodes,
     }
 
 
@@ -552,26 +690,60 @@ def extract_decision_tree(payload: str) -> dict:
 
 RANKED_ITEM_RE = re.compile(r"^\s*[-*]\s+(.+?)(?::\s*rank\s+_+|:?\s*$)", re.MULTILINE)
 RANKED_FOLLOW_RE = re.compile(r"^\s*[-*]\s+Rank\s+(\d+)(?:\s*\(([^)]+)\))?:\s*(.*?)$", re.MULTILINE)
+# Inverse pattern: "- Rank N: ___ (descriptor)" where rank is fixed and slot
+# is empty for the student to fill in.
+RANKED_INVERSE_RE = re.compile(
+    r"^\s*[-*]\s+Rank\s+(\d+)"                    # group 1: rank number
+    r"(?:\s*\(([^)]+)\))?"                          # group 2: descriptor before colon
+    r"\s*:\s*_+"                                    # the empty fill-in slot
+    r"(?:\s*\(([^)]+)\))?"                         # group 3: descriptor after fill-in
+    r"\.?\s*(?:\.\s*[A-Z][^:\n]+:?\s*_+)?"         # optional second sub-fill ("Campus: ___")
+    r"\s*$",
+    re.MULTILINE,
+)
 
 
 def extract_ranked(payload: str) -> dict:
-    """Pattern: stem + bullet list of items + optional rule strip + follow-up
-    'Rank N:' rows.
+    """Pattern: stem + bullet list of items + optional rule strip + follow-up.
 
-    Returns {} if the bullet list isn't clean (e.g., 4sw/wk4/day2 has a
-    different multi-question shape)."""
-    # Stem is the first paragraph
+    Two markdown modes are supported:
+      a) Canonical — bullet items name pre-filled candidates; the student
+         writes the rank number ("Their best friend... rank ____").
+      b) Inverse — the rank number is fixed in the bullet ("- Rank 1: ___");
+         the student writes the item label.
+
+    Returns {} only if neither mode finds at least 3 items."""
     stem_para = _first_paragraph(payload)
     stem = _strip_md_bold(stem_para)
 
-    # Items: bullet list before the "For each rank" or follow-up section
-    items = []
-    follow_split = re.search(r"^\s*For\s+(?:each|my|the)\s+", payload, re.MULTILINE | re.IGNORECASE)
+    follow_split = re.search(r"^\s*For\s+(?:each|my|the|EACH)\s+", payload, re.MULTILINE | re.IGNORECASE)
     list_section = payload[len(stem_para):follow_split.start()] if follow_split else payload[len(stem_para):]
 
+    # Try inverse mode first since "- Rank N: ___" is unambiguous.
+    inverse_matches = list(RANKED_INVERSE_RE.finditer(list_section))
+    if len(inverse_matches) >= 3:
+        ranks = []
+        for m in inverse_matches:
+            num = m.group(1)
+            descriptor = (m.group(2) or m.group(3) or "").strip()
+            ranks.append({"num": num, "descriptor": descriptor})
+
+        follows = _ranked_follows(payload)
+        return {
+            "stem": stem.strip(),
+            "mode": "prefilled_ranks",
+            "ranks": ranks,
+            "items_list": [],
+            "rule_strip": "",
+            "rule_strip_label": "",
+            "callout": _ranked_callout(payload),
+            "follows": follows,
+        }
+
+    # Canonical mode — bullet items, follow-up rows keyed by "Rank N".
+    items = []
     for m in RANKED_ITEM_RE.finditer(list_section):
         item_text = _strip_underscore_runs(m.group(1)).rstrip(":").strip()
-        # Skip if this is a "Rank N" follow-up row, not an item
         if re.match(r"Rank\s+\d+", item_text, re.IGNORECASE):
             continue
         if item_text:
@@ -580,40 +752,52 @@ def extract_ranked(payload: str) -> dict:
     if not (3 <= len(items) <= 5):
         return {}
 
-    # Optional rule strip — look for parenthetical list of rules in the stem
-    # or a short callout line just before the follow-up.
     rule_strip = ""
     rule_strip_label = ""
-    callout_text = ""
     if follow_split:
-        between = payload[follow_split.start():]
         callout_m = re.search(r"For\s+each\s+(?:rank|item)[^.\n]*?\(([^)]+)\)", payload, re.IGNORECASE)
         if callout_m:
             rule_strip = callout_m.group(1).strip()
             rule_strip_label = "Rules"
-        callout_match = re.search(r"For\s+(?:each|my|the)\s+[^\n:]+:?\s*$", payload, re.MULTILINE | re.IGNORECASE)
-        if callout_match:
-            callout_text = callout_match.group(0).strip().rstrip(":")
 
+    follows = _ranked_follows(payload)
+    if not follows:
+        # Without follow-up rows the canonical structured render is
+        # incomplete — let it fall through to fallback so the prose carries
+        # the missing structure.
+        return {}
+
+    return {
+        "stem": stem.strip(),
+        "mode": "prefilled_items",
+        "items_list": items,
+        "ranks": [],
+        "rule_strip": rule_strip,
+        "rule_strip_label": rule_strip_label,
+        "callout": _ranked_callout(payload),
+        "follows": follows,
+    }
+
+
+def _ranked_follows(payload: str) -> list:
+    """Extract follow-up rows like 'Rank 1: ___' or 'Rank 4 (weakest): ___'."""
     follows = []
     for fm in RANKED_FOLLOW_RE.finditer(payload):
         rank_num = fm.group(1)
         qual = fm.group(2) or ""
         label = f"Rank {rank_num}" + (f" ({qual.strip()})" if qual else "")
         follows.append({"label": label.upper()})
+    return follows
 
-    if not follows:
-        # Without follow-up rows the structured render is incomplete
-        return {}
 
-    return {
-        "stem": stem.strip(),
-        "items_list": items,
-        "rule_strip": rule_strip,
-        "rule_strip_label": rule_strip_label,
-        "callout": callout_text or "FOR EACH RANK, NAME ONE RULE THAT SUPPORTS YOUR CHOICE:",
-        "follows": follows,
-    }
+def _ranked_callout(payload: str) -> str:
+    callout_match = re.search(
+        r"For\s+(?:each|my|the|EACH)\s+[^\n:]+:?\s*$",
+        payload, re.MULTILINE | re.IGNORECASE,
+    )
+    if callout_match:
+        return callout_match.group(0).strip().rstrip(":")
+    return "FOR EACH RANK, JUSTIFY YOUR CHOICE:"
 
 
 # ---------- F07 Mini-Case ----------

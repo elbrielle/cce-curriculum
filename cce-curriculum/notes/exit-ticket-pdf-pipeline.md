@@ -61,20 +61,33 @@ The CSS and logo come from the design team. Round 1 (`PDF Template for CCE Exit 
 
 ## Status — what is structured vs fallback
 
-All ten formats now have finished design layouts. **154 of 173 tickets (89%)** render with the per-format structured component; the other 19 hit the fallback because their markdown is in a variant shape that does not fit the corresponding design template's data model. Fallback tickets still use the same chrome and gold-tinted writing language so they read as part of the same printable family.
+All ten formats have finished design layouts. **167 of 173 tickets (97%)** render with the per-format structured component. The other 6 hit the fallback because their markdown is in a variant shape that does not fit the corresponding design template's data model. Fallback tickets still use the same chrome and gold-tinted writing language so they read as part of the same printable family.
 
 | Format | Status | Notes |
 |---|---|---|
-| Diagnostic MCQ (F01) | **Structured** (4 of 5) | Parses A/B/C/D options, scenario, stem, callout. The single fallback at `6sw/wk4/day2` is a multi-question quiz, not a single Diagnostic MCQ. |
+| Diagnostic MCQ (F01) | **Structured** (4 of 5) | Parses A/B/C/D options, scenario, stem, callout. The single fallback at `6sw/wk4/day2` is a multi-question quiz with three separate stems, not a single Diagnostic MCQ. |
 | Comparison Matrix (F02) | **Structured** (29 of 29) | Detects a markdown table inside the payload, parses headers and row labels, renders the navy/gold matrix layout. |
-| Venn Diagram (F03) | **Fallback** (0 of 6) | Structured render exists but only fires when the H1 or early payload literally contains "X vs Y" / "X or Y" with both items under 30 characters. No Venn ticket in the current corpus matches; all six render via the markdown fallback (which carries the "Unique to A / Unique to B / Both" prose shape that authors actually use). |
-| Concept Map (F04) | **Structured** (29 of 32) | Detects `**N. Label**` numbered sections with a center prompt and per-node descriptor, slot, and "why" prompt. Three variant tickets fall back: 6sw/wk6/day4 ("Place X in the center" instruction with non-bold numbered items), 6sw/wk3/day5 and 6sw/wk5/day1 (similar shape variations). |
+| Venn Diagram (F03) | **Structured** (6 of 6) | The structured render now fires from any of four detection patterns: title "X vs Y" / "X or Y", body "Unique to <NAME>" twice, two bold ALL-CAPS labels close together (iceberg metaphors), or paired "My <X> career: ___" fill-ins. |
+| Concept Map (F04) | **Structured** (31 of 32) | Two pattern variants are supported: canonical `**N. Label**` numbered sections, and the "Place **X** in the center" variant where the center is a named concept and items are plain `1. label: ____` numbered bullets. The single fallback at `6sw/wk5/day1` uses 7 step bubbles around the center, which doesn't fit the 3-4-node grid. |
 | Decision Tree (F05) | **Structured** (12 of 14) | Detects `Step N:` linear prompts with optional `I need to talk to / Because` two-column branch. Two variants fall back: 6sw/wk5/day3 and 6sw/wk4/day4 use `**Step N:**` with YES/NO bullet branches and apply-the-tree follow-up sections — a different shape from the design template. |
-| Ranked Justification (F06) | **Structured** (17 of 23) | Detects bullet-list of pre-filled items + follow-up rows. Six variants fall back: tickets where students fill in BOTH the rank AND the item (4sw/wk1/day4, 4sw/wk4/day2, 4sw/wk6/day2, 5sw/wk3/day4, 6sw/wk6/day3) and 2sw/wk1/day2 which uses a cluster-rank pattern. The design template assumes pre-filled items + writeable ranks; the inverse pattern doesn't fit. |
+| Ranked Justification (F06) | **Structured** (22 of 23) | Two modes are supported: canonical (pre-filled items + writeable rank) and inverse (pre-filled rank + writeable item label). The single fallback at `6sw/wk6/day3` is canonical mode but its follow-up rows use prose ("For the Rank 1 criterion...") instead of the bullet `Rank N:` form the parser keys on. |
 | Mini-Case (F07) | **Structured** (27 of 28) | Detects `Scenario:` block + numbered questions with optional "Step 1 / Step 2" sub-bullet pairs. The single fallback at `2sw/wk5/day2` is a "feedback sandwich" with three labeled writing slots, not numbered questions. |
 | Trade-off (F08) | **Structured** (7 of 7) | Detects bold `(A)` / `(B)` options + Pros A/B + My choice + Quality list + justification. Handles both label-inside-bold and label-outside-bold markdown shapes. |
 | Short Constructed Response (F09) | **Structured** (24 of 24) | Numbered prompts at the top, single 9-line ruled writing area below. |
 | 3-2-1 Reflective (F10) | **Structured** (5 of 5) | Detects bold sections opening with the numerals 3 / 2 / 1, with N gold-tinted writing slots per column. Handles both `**3 things ...**` and `**3** things ...` markdown shapes. |
+
+### The 6 remaining fallbacks
+
+These do not fit any of the ten current design templates and would need either a Round-3 design pass or a content rewrite to match a canonical shape:
+
+| Ticket | Format | Shape |
+|---|---|---|
+| `6sw/wk4-sales-presentations/day2.md` | MCQ | 3 separate diagnostic-MCQ questions in one ticket |
+| `6sw/wk5-job-skills-mock-interview/day1.md` | Concept Map | 7 step bubbles around a center, ordered |
+| `6sw/wk4-sales-presentations/day4.md` | Decision Tree | Step 1 with three branches (2A/2B/2C) routed by interview type |
+| `6sw/wk5-job-skills-mock-interview/day3.md` | Decision Tree | Procedural YES/NO rules + "Apply the tree" application section |
+| `6sw/wk6-capstone/day3.md` | Ranked | Pre-filled items but prose follow-up shape ("For the Rank 1 criterion...") |
+| `2sw/wk5-powerskills-communication/day2.md` | Mini-Case | "Feedback sandwich" with three labeled writing slots (Positive / Improvement / Positive close) |
 
 The fallback glyphs that shipped pre-Round-2 have been replaced with the design team's Round 2 line-icons in `build/build_pdfs.py` `GLYPHS`. All ten glyphs are now design-authored.
 
@@ -124,9 +137,14 @@ Only one location: `docs/resources/exit-tickets/*.pdf`. The link-injection pass 
 
 ## Future work (not blocking, in priority order)
 
-1. **Variant-shape parsers for the 19 fallback tickets.** Today they render via the markdown fallback inside the same chrome — readable but not per-format-designed. A future pass could either author additional Jinja branches that handle the variant shapes (e.g., the inverse-Ranked pattern where students fill both rank and item; the YES/NO Decision-Tree variant) OR rewrite those source tickets to fit the canonical shape. Curriculum-content rewrites are out of scope for the pipeline; coordinate with the curriculum author before changing markdown.
-2. **Venn coverage.** All 6 Venn tickets fall back today because the structured render requires an "X vs Y" pattern in the title or early payload. Authors who want a structured Venn must title or open the payload accordingly. An alternative would be a third extractor branch that detects the "Unique to A / Unique to B / Both" prose shape and pulls the two labels from the section headers.
-3. **Two-up half-page sheet PDF** so a teacher prints one Letter page with two half-page tickets side-by-side. Requires a separate "two-up combiner" pass that pairs MCQ / Mini-Case / Short / 3-2-1 tickets after generation.
-4. **Incremental rebuild** keyed on day-file mtime + SHA, if generation time becomes a concern. ~5 min for the full 173-ticket run today.
-5. **Static visual regression** snapshot folder so a future agent can diff a representative ticket per format against a checked-in baseline PNG before committing pipeline changes.
-6. **F09 = Compare-Contrast frame** if the design team wants to add an eleventh format. See the F09 numbering note above; do not renumber existing formats.
+1. **Round-3 design templates for the 6 remaining fallbacks** (or content rewrites). The six tickets in the table above genuinely don't fit any of the ten current formats. Options for each:
+   - **Multi-Question Diagnostic Quiz** (1 ticket): a stacked-stem MCQ variant, OR split the ticket into 3 separate days, OR keep as fallback.
+   - **7-Bubble Concept Map** (1 ticket): a 7-around-1 layout, OR rewrite to 4 nodes.
+   - **Routed Decision Tree** with 2A/2B/2C type-branches (1 ticket): a routed-step variant, OR rewrite to a linear Decision Tree.
+   - **YES/NO Procedural Decision Tree** (1 ticket): a procedural-tree-with-application-section variant, OR fallback.
+   - **Prose-follow-up Ranked** (1 ticket): teach the parser to detect "For the Rank N criterion..." prose follow-ups, OR rewrite to bullet `Rank N:` follow-ups.
+   - **Feedback Sandwich** (1 ticket): a Positive/Improvement/Positive close 3-slot variant, OR keep as fallback.
+2. **Two-up half-page sheet PDF** so a teacher prints one Letter page with two half-page tickets side-by-side. Requires a separate "two-up combiner" pass that pairs MCQ / Mini-Case / Short / 3-2-1 tickets after generation.
+3. **Incremental rebuild** keyed on day-file mtime + SHA, if generation time becomes a concern. ~5 min for the full 173-ticket run today.
+4. **Static visual regression** snapshot folder so a future agent can diff a representative ticket per format against a checked-in baseline PNG before committing pipeline changes.
+5. **F09 = Compare-Contrast frame** if the design team wants to add an eleventh format. See the F09 numbering note above; do not renumber existing formats.

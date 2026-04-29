@@ -203,7 +203,7 @@
         {% if concept_map.center_prompt %}<p class="stem">{{ concept_map.center_prompt }}:</p>{% endif %}
         <div class="center-anchor">
           <span class="lbl">Center</span>
-          <span class="val">&nbsp;</span>
+          {% if concept_map.center_value %}<span class="val" style="border-bottom:none; min-width:0; padding:0 4pt; color:var(--paper); font-family:var(--serif); font-weight:700">{{ concept_map.center_value }}</span>{% else %}<span class="val">&nbsp;</span>{% endif %}
         </div>
         {% if concept_map.intro %}<p class="stem" style="margin-top:2pt"><strong>{{ concept_map.intro }}</strong></p>{% endif %}
         <div class="cmap__connectors">
@@ -272,19 +272,29 @@
         </div>
       </div>
 
-    {% elif format_id == "ranked" and ranked.items_list %}
+    {% elif format_id == "ranked" and (ranked.items_list or ranked.ranks) %}
       {% if ranked.stem %}<p class="stem">{{ ranked.stem }}</p>{% endif %}
       <div class="rank">
-        {% for item in ranked.items_list %}
-        <div class="rank__row">
-          <div class="rank__num"><span class="rank-blank"></span></div>
-          <div class="rank__slot is-prefilled">{{ item }}</div>
-        </div>
-        {% endfor %}
+        {% if ranked.mode == "prefilled_ranks" %}
+          {% for r in ranked.ranks %}
+          <div class="rank__row">
+            <div class="rank__num">{{ r.num }}</div>
+            <div class="rank__slot">{% if r.descriptor %}<span style="color:var(--ink-mute); font-size:9pt; font-style:italic">{{ r.descriptor }}</span>{% endif %}</div>
+          </div>
+          {% endfor %}
+        {% else %}
+          {% for item in ranked.items_list %}
+          <div class="rank__row">
+            <div class="rank__num"><span class="rank-blank"></span></div>
+            <div class="rank__slot is-prefilled">{{ item }}</div>
+          </div>
+          {% endfor %}
+        {% endif %}
       </div>
       {% if ranked.rule_strip %}
       <div class="rule-strip"><b>{{ ranked.rule_strip_label or 'Rules' }}</b> {{ ranked.rule_strip }}</div>
       {% endif %}
+      {% if ranked.follows %}
       <p class="callout">{{ ranked.callout }}</p>
       <div class="rank__follow">
         {% for follow in ranked.follows %}
@@ -294,6 +304,7 @@
         </div>
         {% endfor %}
       </div>
+      {% endif %}
 
     {% elif format_id == "mini_case" and mini_case.questions %}
       {% if mini_case.scenario %}<p class="scenario">{{ mini_case.scenario | safe }}</p>{% endif %}
