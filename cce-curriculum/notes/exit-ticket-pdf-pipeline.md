@@ -57,11 +57,17 @@ build/
         └── iisd-logo.png          # Irving ISD logo, color, transparent
 ```
 
-The CSS and logo come from the design team. Round 1 (`PDF Template for CCE Exit Tickets.zip`) shipped four format layouts; Round 2 (`PDF Template for CCE Exit Tickets (1).zip`) added six more, delivered as `exit-tickets-round2.css` (append-only, loaded after the Round 1 stylesheet). To incorporate a future design refresh, drop the new CSS and any new assets into `build/exit_ticket_template/` and re-run `build_pdfs.py`. Do not hand-edit the CSS — keep it as the design source of truth so future refreshes overwrite cleanly.
+The CSS and logo come from the design team. Three rounds have shipped:
+
+- **Round 1** (`PDF Template for CCE Exit Tickets.zip`) — four canonical formats: MCQ, Comparison Matrix, Venn, Short Constructed Response.
+- **Round 2** (`PDF Template for CCE Exit Tickets (1).zip`) — six canonical formats: Concept Map, Decision Tree, Ranked Justification, Mini-Case, Trade-off, 3-2-1 Reflective.
+- **Round 3** — six variants of Round 1/2 formats: Multi-Question MCQ (F01b), Seven-Bubble Concept Map (F04b), Routed Decision Tree (F05b), Procedural Decision Tree (F05c), Prose-Follow-up Ranked (F06b), Feedback Sandwich (F07b). Delivered as `exit-tickets-round3.css` (append-only, loaded after Round 1 + 2). The design agent's session ran out before three of the six HTML mockups (F05c, F06b, F07b) were drawn; those Jinja branches were authored from the CSS class hierarchy alone and verified visually.
+
+To incorporate a future design refresh, drop the new CSS and any new assets into `build/exit_ticket_template/` and re-run `build_pdfs.py`. Do not hand-edit the CSS — keep it as the design source of truth so future refreshes overwrite cleanly.
 
 ## Status — what is structured vs fallback
 
-All ten formats have finished design layouts. **167 of 173 tickets (97%)** render with the per-format structured component. The other 6 hit the fallback because their markdown is in a variant shape that does not fit the corresponding design template's data model. Fallback tickets still use the same chrome and gold-tinted writing language so they read as part of the same printable family.
+**173 of 173 tickets (100%) render with a per-format structured component.** 167 fire one of the canonical Round 1/2 layouts; 6 fire one of the Round 3 variants. Zero tickets fall back to markdown rendering.
 
 | Format | Status | Notes |
 |---|---|---|
@@ -76,18 +82,20 @@ All ten formats have finished design layouts. **167 of 173 tickets (97%)** rende
 | Short Constructed Response (F09) | **Structured** (24 of 24) | Numbered prompts at the top, single 9-line ruled writing area below. |
 | 3-2-1 Reflective (F10) | **Structured** (5 of 5) | Detects bold sections opening with the numerals 3 / 2 / 1, with N gold-tinted writing slots per column. Handles both `**3 things ...**` and `**3** things ...` markdown shapes. |
 
-### The 6 remaining fallbacks
+### The 6 Round 3 variants
 
-These do not fit any of the ten current design templates and would need either a Round-3 design pass or a content rewrite to match a canonical shape:
+These tickets render with their own per-variant structured component. The variant detector runs before the canonical extractor for the same parent format, so a ticket that fits both shapes prefers the variant.
 
-| Ticket | Format | Shape |
-|---|---|---|
-| `6sw/wk4-sales-presentations/day2.md` | MCQ | 3 separate diagnostic-MCQ questions in one ticket |
-| `6sw/wk5-job-skills-mock-interview/day1.md` | Concept Map | 7 step bubbles around a center, ordered |
-| `6sw/wk4-sales-presentations/day4.md` | Decision Tree | Step 1 with three branches (2A/2B/2C) routed by interview type |
-| `6sw/wk5-job-skills-mock-interview/day3.md` | Decision Tree | Procedural YES/NO rules + "Apply the tree" application section |
-| `6sw/wk6-capstone/day3.md` | Ranked | Pre-filled items but prose follow-up shape ("For the Rank 1 criterion...") |
-| `2sw/wk5-powerskills-communication/day2.md` | Mini-Case | "Feedback sandwich" with three labeled writing slots (Positive / Improvement / Positive close) |
+| Ticket | Variant code | Variant name | Parent |
+|---|---|---|---|
+| `6sw/wk4-sales-presentations/day2.md` | F01b | Multi-Question Diagnostic MCQ | F01 |
+| `6sw/wk5-job-skills-mock-interview/day1.md` | F04b | Seven-Bubble Ordered Concept Map | F04 |
+| `6sw/wk4-sales-presentations/day4.md` | F05b | Routed Decision Tree | F05 |
+| `6sw/wk5-job-skills-mock-interview/day3.md` | F05c | Procedural Decision Tree | F05 |
+| `6sw/wk6-capstone/day3.md` | F06b | Prose-Follow-up Ranked | F06 |
+| `2sw/wk5-powerskills-communication/day2.md` | F07b | Feedback Sandwich | F07 |
+
+The page-id footer carries the variant suffix (e.g., `2SW-Wk5-Day2 · F07b`). The format-number strip in the body header keeps the parent's number (`07 / 10`) since the format-name strip and glyph already differentiate the variant.
 
 The fallback glyphs that shipped pre-Round-2 have been replaced with the design team's Round 2 line-icons in `build/build_pdfs.py` `GLYPHS`. All ten glyphs are now design-authored.
 
@@ -137,14 +145,9 @@ Only one location: `docs/resources/exit-tickets/*.pdf`. The link-injection pass 
 
 ## Future work (not blocking, in priority order)
 
-1. **Round-3 design templates for the 6 remaining fallbacks** (or content rewrites). The six tickets in the table above genuinely don't fit any of the ten current formats. Options for each:
-   - **Multi-Question Diagnostic Quiz** (1 ticket): a stacked-stem MCQ variant, OR split the ticket into 3 separate days, OR keep as fallback.
-   - **7-Bubble Concept Map** (1 ticket): a 7-around-1 layout, OR rewrite to 4 nodes.
-   - **Routed Decision Tree** with 2A/2B/2C type-branches (1 ticket): a routed-step variant, OR rewrite to a linear Decision Tree.
-   - **YES/NO Procedural Decision Tree** (1 ticket): a procedural-tree-with-application-section variant, OR fallback.
-   - **Prose-follow-up Ranked** (1 ticket): teach the parser to detect "For the Rank N criterion..." prose follow-ups, OR rewrite to bullet `Rank N:` follow-ups.
-   - **Feedback Sandwich** (1 ticket): a Positive/Improvement/Positive close 3-slot variant, OR keep as fallback.
-2. **Two-up half-page sheet PDF** so a teacher prints one Letter page with two half-page tickets side-by-side. Requires a separate "two-up combiner" pass that pairs MCQ / Mini-Case / Short / 3-2-1 tickets after generation.
-3. **Incremental rebuild** keyed on day-file mtime + SHA, if generation time becomes a concern. ~5 min for the full 173-ticket run today.
-4. **Static visual regression** snapshot folder so a future agent can diff a representative ticket per format against a checked-in baseline PNG before committing pipeline changes.
-5. **F09 = Compare-Contrast frame** if the design team wants to add an eleventh format. See the F09 numbering note above; do not renumber existing formats.
+1. **Round 3 visual polish.** The design agent's session ran out before three Round 3 mockups (F05c Procedural Tree, F06b Prose-Follow-up Ranked, F07b Feedback Sandwich) were drawn. The Jinja branches for those three were authored from the CSS class hierarchy and rendered correctly, but the design team has not visually approved them. A polish pass should review the rendered PDFs against the CSS contract and tweak any layout choices that diverge from intent.
+2. **Round 3 README + screenshots.** The Round 3 design bundle never shipped a `README.md` or `screenshots/*.png` because of the same usage cap. The CSS itself is well-commented and `build/exit_ticket_template/round3-mockups.html` carries the 3 mockups that did ship. A README pass would document the variant-suffix scheme and the Round 3 data-model fields.
+3. **Two-up half-page sheet PDF** so a teacher prints one Letter page with two half-page tickets side-by-side. Requires a separate "two-up combiner" pass that pairs MCQ / Mini-Case / Short / 3-2-1 tickets after generation.
+4. **Incremental rebuild** keyed on day-file mtime + SHA, if generation time becomes a concern. ~5 min for the full 173-ticket run today.
+5. **Static visual regression** snapshot folder so a future agent can diff a representative ticket per format against a checked-in baseline PNG before committing pipeline changes.
+6. **F09 = Compare-Contrast frame** if the design team wants to add an eleventh format. The Round 2 README mentioned this as a future possibility. F09 in production is Short Constructed Response; a Compare-Contrast addition should take a new number (F11+).

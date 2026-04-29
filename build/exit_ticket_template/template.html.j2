@@ -8,6 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="exit-tickets.css">
 <link rel="stylesheet" href="exit-tickets-round2.css">
+<link rel="stylesheet" href="exit-tickets-round3.css">
 <style>
   /* Fallback-body styles for the six formats whose designed components are still TODO. */
   .eb__fallback {
@@ -121,10 +122,208 @@
     </div>
 
     {# ====================================================================
-       BODY: structured for the four designed formats, fallback for the rest.
+       BODY: Round 3 variants first, then canonical structured layouts,
+       then fallback.
        ===================================================================== #}
 
-    {% if format_id == "mcq" and mcq.options %}
+    {% if variant == "multi_q_mcq" and multi_q_mcq.questions %}
+      {% if multi_q_mcq.lead %}<p class="stem">{{ multi_q_mcq.lead }}</p>{% endif %}
+      <div class="mqmcq">
+        {% for q in multi_q_mcq.questions %}
+        <div class="mqmcq__q">
+          <div class="mqmcq__q-num">{{ q.num }}</div>
+          <div class="mqmcq__q-body">
+            <div class="mqmcq__q-stem">{{ q.stem }}</div>
+            <ul class="mcq__list">
+              {% for opt in q.options %}
+              <li class="mcq__opt"><span class="mcq__letter">{{ opt.letter }}</span><span>{{ opt.text }}</span></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% endfor %}
+        {% if multi_q_mcq.reflect_prompt %}
+        <div class="mqmcq__reflect">
+          <div class="mqmcq__reflect-prompt"><strong>{{ multi_q_mcq.reflect_prompt }}</strong></div>
+          <div class="mqmcq__reflect-slot"></div>
+        </div>
+        {% endif %}
+      </div>
+
+    {% elif variant == "seven_bubble" and seven_bubble.bubbles %}
+      <p class="stem">Place <strong>{{ seven_bubble.center_value }}</strong> in the center. Label each of the {{ seven_bubble.bubbles|length }} bubbles in <strong>order</strong>.</p>
+      <div class="cmap7">
+        <div class="cmap7__center-wrap"><div class="cmap7__center">{{ seven_bubble.center_value }}</div></div>
+        <div class="cmap7__connectors" aria-hidden="true">
+          <svg viewBox="0 0 600 22" preserveAspectRatio="none">
+            <path d="M300 0 L75 22 M300 0 L225 22 M300 0 L375 22 M300 0 L525 22" fill="none" stroke="#004d7c" stroke-width="0.6" stroke-dasharray="2 2"/>
+          </svg>
+        </div>
+        {# Row 1: bubbles 1–4 #}
+        <div class="cmap7__row cmap7__row--4">
+          {% for b in seven_bubble.bubbles[:4] %}
+          <div class="cmap7__bubble"><div class="cmap7__bubble-num">{{ b.num }}</div><div class="cmap7__bubble-lbl">{{ b.label }}</div><div class="cmap7__bubble-slot"></div></div>
+          {% endfor %}
+        </div>
+        {% if seven_bubble.bubbles|length > 4 %}
+        <div class="cmap7__row cmap7__row--3">
+          {% for b in seven_bubble.bubbles[4:] %}
+          <div class="cmap7__bubble"><div class="cmap7__bubble-num">{{ b.num }}</div><div class="cmap7__bubble-lbl">{{ b.label }}</div><div class="cmap7__bubble-slot"></div></div>
+          {% endfor %}
+        </div>
+        {% endif %}
+        {% if seven_bubble.action_prompt %}
+        <div class="cmap7__action">
+          <div class="cmap7__action-lbl">Concrete action</div>
+          <div class="cmap7__action-prompt">{{ seven_bubble.action_prompt }}</div>
+          <div class="cmap7__action-row">
+            <div class="cmap7__action-row-lbl">Step #</div>
+            <div class="cmap7__action-step-slot"></div>
+          </div>
+          <div class="cmap7__action-row">
+            <div class="cmap7__action-row-lbl">Concrete action</div>
+            <div class="cmap7__action-slot"></div>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+
+    {% elif variant == "routed_tree" and routed_tree.routes and routed_tree.rows %}
+      <p class="stem">Follow the tree. <strong>Circle</strong> your path on Step 1, then fill in only the matching Step 2 row.</p>
+      <div class="rtree">
+        <div class="rtree__chooser-row">
+          <div class="rtree__chooser-num"><div class="circle">1</div><div class="stem"></div></div>
+          <div class="rtree__chooser-body">
+            <div class="rtree__chooser-prompt"><strong>{{ routed_tree.step1_prompt }}</strong></div>
+            <div class="rtree__choices">
+              {% for route in routed_tree.routes %}
+              <div class="rtree__choice">
+                <div class="rtree__choice-bubble"></div>
+                <div class="rtree__choice-text"><strong>{{ route.label }}</strong>{% if route.descriptor %} <span style="color:var(--ink-mute)">({{ route.descriptor }})</span>{% endif %} <span class="arrow">→</span> <span class="route">Step {{ route.step }}</span></div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        <div class="rtree__steps">
+          {% for row in routed_tree.rows %}
+          <div class="rtree__step{% if loop.last %} rtree__step--last{% endif %}">
+            <div class="rtree__step-num">
+              <div class="stem-up"></div>
+              <div class="branch"></div>
+              <div class="badge">{{ row.step }}</div>
+            </div>
+            <div class="rtree__step-body">
+              <div class="rtree__step-cap">If you circled <strong>{{ row.descriptor }}</strong>:</div>
+              <div class="rtree__slots">
+                {% for slot_label in row.slots %}
+                <div class="rtree__slot"><div class="rtree__slot-lbl">{{ slot_label }}</div><div class="rtree__slot-line"></div></div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+    {% elif variant == "procedural_tree" and procedural_tree.steps %}
+      <div class="ptree">
+        <div class="ptree__framework">
+          <div class="ptree__framework-lbl">Framework — read first</div>
+          {% for step in procedural_tree.steps %}
+          <div class="ptree__step">
+            <div class="ptree__step-num">Step {{ step.num }}</div>
+            <div class="ptree__step-body">
+              <div class="ptree__step-rule">{{ step.rule }}</div>
+              {% if step.branches %}
+              <div class="ptree__step-branches">
+                {% for branch in step.branches %}
+                <div class="ptree__branch">
+                  <div class="ptree__branch-yn{% if branch.yn == 'NO' %} ptree__branch-yn--no{% endif %}">{{ branch.yn }} →</div>
+                  <div class="ptree__branch-action">{{ branch.action }}</div>
+                </div>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% if procedural_tree.apply_rows %}
+        <div class="ptree__apply">
+          <div class="ptree__apply-lbl">Apply the tree</div>
+          {% for row in procedural_tree.apply_rows %}
+          <div class="ptree__apply-row">
+            <div class="ptree__apply-num">{{ row.num }}</div>
+            <div class="ptree__apply-body">
+              <div class="ptree__apply-prompt">{{ row.prompt }}</div>
+              <div class="ptree__apply-slot--n1"></div>
+              {% if row.sub_prompt %}
+              <div class="ptree__apply-prompt" style="margin-top:4pt">{{ row.sub_prompt }}</div>
+              <div class="ptree__apply-slot--n2"></div>
+              {% endif %}
+            </div>
+          </div>
+          {% endfor %}
+          {% if procedural_tree.bottom_prompt %}
+          <div class="ptree__bottom">
+            <div class="ptree__bottom-lbl">Bottom line</div>
+            <div class="ptree__bottom-prompt">{{ procedural_tree.bottom_prompt }}</div>
+            <div class="ptree__apply-slot--n2"></div>
+          </div>
+          {% endif %}
+        </div>
+        {% endif %}
+      </div>
+
+    {% elif variant == "prose_ranked" and prose_ranked.items_list %}
+      {% if prose_ranked.stem %}<p class="stem">{{ prose_ranked.stem }}</p>{% endif %}
+      <div class="rankf">
+        <div class="rankf__rows">
+          {% for item in prose_ranked.items_list %}
+          <div class="rankf__row">
+            <div class="rankf__row-text">{{ item.text }}</div>
+            <div class="rankf__row-rank">
+              <div class="rankf__row-rank-lbl">Rank</div>
+              <div class="rankf__row-rank-slot"></div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="rankf__reflect">
+          <div class="rankf__reflect-lbl">{{ prose_ranked.reflect_lead }}</div>
+          <div class="rankf__classmate">
+            <div class="rankf__classmate-lbl">{{ prose_ranked.classmate_label }}</div>
+            <div class="rankf__classmate-slot"></div>
+          </div>
+          {% for row in prose_ranked.prose_rows %}
+          <div class="rankf__prose">
+            <div class="rankf__prose-head">{{ row.head }}</div>
+            <div class="rankf__prose-prompt">{{ row.prompt }}</div>
+            <div class="rankf__prose-slot"></div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+    {% elif variant == "feedback_sandwich" and feedback_sandwich.layers %}
+      {% if feedback_sandwich.scenario %}<p class="scenario">{{ feedback_sandwich.scenario }}</p>{% endif %}
+      <div class="sandwich">
+        {% if feedback_sandwich.intro %}<p class="sandwich__intro">{{ feedback_sandwich.intro | safe }}</p>{% endif %}
+        {% for layer in feedback_sandwich.layers %}
+        <div class="sandwich__layer">
+          <div class="sandwich__layer-head">
+            <div class="sandwich__layer-num">{{ layer.num }}</div>
+            <div class="sandwich__layer-lbl">{{ layer.label }}</div>
+            <div class="sandwich__layer-cnt">1 sentence{% if layer.slot_lines == 2 %} · specific{% endif %}</div>
+          </div>
+          {% if layer.prompt %}<div class="sandwich__layer-prompt">{{ layer.prompt }}</div>{% endif %}
+          <div class="sandwich__slot--n{{ layer.slot_lines }}"></div>
+        </div>
+        {% endfor %}
+      </div>
+
+    {% elif format_id == "mcq" and mcq.options %}
       {% if mcq.scenario %}<p class="scenario">{{ mcq.scenario }}</p>{% endif %}
       {% if mcq.stem %}<p class="stem"><strong>{{ mcq.stem }}</strong></p>{% endif %}
       <ol class="mcq__list">
@@ -416,7 +615,7 @@
         <div class="ef__comment-lbl">Teacher comment</div>
         <div class="ef__comment-line"></div>
       </div>
-      <div class="ef__page-id">{{ page_id }} · {{ format_code }}</div>
+      <div class="ef__page-id">{{ page_id }} · {{ format_code }}{{ variant_suffix }}</div>
     </div>
   </footer>
 </section>

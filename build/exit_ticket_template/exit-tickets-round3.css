@@ -1,0 +1,755 @@
+/* =========================================================================
+   CCE Exit Tickets — Round 3 (variants)
+   APPEND-ONLY. Loaded after exit-tickets.css and exit-tickets-round2.css.
+   No tokens, no chrome, no overrides of Round 1/2 component declarations.
+   ========================================================================= */
+
+
+/* =========================================================================
+   F01b · MULTI-QUESTION DIAGNOSTIC MCQ
+   Three numbered MCQ stems stack vertically. Each stem has 4 .mcq__opt rows
+   reusing the Round 1 letter-circle treatment. A short reflection slot
+   anchors the bottom.
+   ========================================================================= */
+.mqmcq { display: flex; flex-direction: column; gap: 12pt; margin-top: 4pt; }
+.mqmcq__q {
+  display: grid;
+  grid-template-columns: 22pt 1fr;
+  gap: 8pt;
+  align-items: start;
+}
+.mqmcq__q-num {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 16pt;
+  line-height: 1;
+  color: var(--navy);
+  text-align: right;
+  padding-top: 1pt;
+}
+.mqmcq__q-body { min-width: 0; display: flex; flex-direction: column; gap: 5pt; }
+.mqmcq__q-stem {
+  font-size: 10.5pt;
+  line-height: 1.35;
+  margin-bottom: 2pt;
+}
+.mqmcq__q-stem strong { font-weight: 700; }
+.mqmcq__q .mcq__list { margin: 0; }
+
+.mqmcq__reflect {
+  margin-top: 6pt;
+  padding-top: 8pt;
+  border-top: 0.4pt dashed var(--ink-mute);
+  display: flex;
+  flex-direction: column;
+  gap: 4pt;
+}
+.mqmcq__reflect-prompt {
+  font-size: 10.5pt;
+  line-height: 1.35;
+}
+.mqmcq__reflect-prompt strong { font-weight: 700; }
+.mqmcq__reflect-slot {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  background-image: linear-gradient(to bottom,
+    transparent 0,
+    transparent calc(100% - 0.6pt),
+    var(--rule) calc(100% - 0.6pt),
+    var(--rule) 100%);
+  background-size: 100% calc(100% / 2);
+  background-repeat: repeat-y;
+  height: calc(8.5mm * 2);
+}
+
+
+/* =========================================================================
+   F04b · SEVEN-BUBBLE ORDERED CONCEPT MAP
+   Single named center sits in a navy pill (.center-anchor — reused).
+   Seven gold-tinted ordered bubbles arranged in a 4-up + 3-up grid that
+   reads top-to-bottom, left-to-right (1→7). Connector hairlines from the
+   center radiate to each bubble. Bottom carries a "Concrete action"
+   follow-up that mirrors Round 2's .cmap__node-why-slot pattern.
+   ========================================================================= */
+.cmap7 { display: flex; flex-direction: column; gap: 8pt; }
+
+.cmap7__center-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 4pt 0;
+}
+.cmap7__center {
+  /* Visual companion to .center-anchor but pre-filled with the named center */
+  background: var(--navy);
+  color: var(--paper);
+  padding: 8pt 18pt;
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 13pt;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cmap7__connectors {
+  height: 22pt;
+  position: relative;
+  margin: -2pt 0;
+}
+.cmap7__connectors svg { width: 100%; height: 100%; display: block; }
+
+/* Two-row grid of bubbles. Row 1 = 4 bubbles (1-4); row 2 = 3 bubbles (5-7),
+   centered. Each bubble holds its order number and a wide gold slot. */
+.cmap7__row {
+  display: grid;
+  gap: 8pt;
+  margin-bottom: 6pt;
+}
+.cmap7__row--4 { grid-template-columns: repeat(4, 1fr); }
+.cmap7__row--3 {
+  grid-template-columns: repeat(3, minmax(0, 1.6in));
+  justify-content: center;
+}
+.cmap7__bubble {
+  border: 0.6pt solid var(--ink);
+  padding: 6pt 8pt 8pt 8pt;
+  background: var(--paper);
+  display: flex;
+  flex-direction: column;
+  gap: 5pt;
+  position: relative;
+}
+.cmap7__bubble-num {
+  width: 18pt; height: 18pt;
+  background: var(--navy);
+  color: var(--paper);
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 11pt;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  top: -9pt;
+  left: 8pt;
+}
+.cmap7__bubble-lbl {
+  font-family: var(--serif);
+  font-size: 7.5pt;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-top: 4pt;
+}
+.cmap7__bubble-slot {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  height: calc(8.5mm * 1.5);
+}
+
+.cmap7__action {
+  margin-top: 8pt;
+  padding: 8pt 10pt;
+  border: 0.6pt solid var(--ink);
+  background: #f5f8fb;
+  display: flex;
+  flex-direction: column;
+  gap: 6pt;
+}
+.cmap7__action-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 8.5pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--navy);
+}
+.cmap7__action-prompt {
+  font-size: 10pt;
+  line-height: 1.35;
+}
+.cmap7__action-row {
+  display: grid;
+  grid-template-columns: 1in 1fr;
+  gap: 8pt;
+  align-items: center;
+}
+.cmap7__action-row-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 9pt;
+  color: var(--ink);
+}
+.cmap7__action-step-slot {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  height: calc(8.5mm * 1);
+}
+.cmap7__action-slot {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  background-image: linear-gradient(to bottom,
+    transparent 0,
+    transparent calc(100% - 0.6pt),
+    var(--rule) calc(100% - 0.6pt),
+    var(--rule) 100%);
+  background-size: 100% calc(100% / 2);
+  background-repeat: repeat-y;
+  height: calc(8.5mm * 2);
+}
+
+
+/* =========================================================================
+   F05b · ROUTED DECISION TREE
+   Step 1 = type chooser (3 circle-in choices). A single shared spine
+   running down the left routes into 3 stacked Step 2 rows (2A, 2B, 2C),
+   each with a label and three side-by-side gold slots (Top / Bottom / Shoes).
+   Reuses Round 2's spine treatment via the .tree__step-num .stem.
+   ========================================================================= */
+.rtree { display: flex; flex-direction: column; }
+
+.rtree__chooser-row {
+  display: grid;
+  grid-template-columns: 28pt 1fr;
+  position: relative;
+}
+.rtree__chooser-num {
+  width: 28pt;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.rtree__chooser-num .circle {
+  width: 22pt; height: 22pt;
+  background: var(--navy);
+  color: var(--paper);
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 13pt;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.rtree__chooser-num .stem {
+  flex: 1;
+  width: 0;
+  border-left: 0.75pt solid var(--navy);
+  margin-top: 2pt;
+}
+.rtree__chooser-body {
+  padding: 2pt 0 16pt 8pt;
+}
+.rtree__chooser-prompt {
+  font-size: 10.5pt;
+  line-height: 1.35;
+  margin-bottom: 6pt;
+}
+.rtree__chooser-prompt strong {
+  font-family: var(--serif);
+  font-weight: 700;
+  color: var(--navy);
+}
+.rtree__choices {
+  display: flex;
+  flex-direction: column;
+  gap: 4pt;
+}
+.rtree__choice {
+  display: grid;
+  grid-template-columns: 18pt 1fr;
+  gap: 8pt;
+  align-items: center;
+  padding: 5pt 8pt;
+  border: 0.5pt solid var(--ink-mute);
+  font-size: 10pt;
+  line-height: 1.35;
+}
+.rtree__choice-bubble {
+  width: 14pt; height: 14pt;
+  border: 0.75pt solid var(--ink);
+  border-radius: 50%;
+}
+.rtree__choice-text strong {
+  font-family: var(--serif);
+  font-weight: 700;
+  color: var(--navy);
+  letter-spacing: 0.04em;
+}
+.rtree__choice-text .arrow {
+  font-family: var(--mono);
+  color: var(--ink-mute);
+  margin: 0 6pt;
+}
+.rtree__choice-text .route {
+  font-family: var(--mono);
+  font-weight: 600;
+  color: var(--navy);
+}
+
+/* The 3 stacked Step 2 rows. Each is a label + 3 side-by-side slots. */
+.rtree__steps { display: flex; flex-direction: column; }
+
+.rtree__step {
+  display: grid;
+  grid-template-columns: 28pt 1fr;
+  position: relative;
+  padding-bottom: 10pt;
+}
+.rtree__step--last { padding-bottom: 0; }
+.rtree__step-num {
+  width: 28pt;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.rtree__step-num .branch {
+  /* horizontal tick connecting the spine to this row's body */
+  position: absolute;
+  top: 11pt;
+  left: 14pt;
+  width: 14pt;
+  border-top: 0.75pt solid var(--navy);
+}
+.rtree__step-num .badge {
+  width: 26pt; height: 22pt;
+  background: var(--paper);
+  border: 0.75pt solid var(--navy);
+  color: var(--navy);
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 10pt;
+  display: flex; align-items: center; justify-content: center;
+  margin-left: 2pt;
+  z-index: 2;
+}
+.rtree__step-num .stem-up {
+  /* vertical spine running THROUGH the badge area, drawn behind it */
+  position: absolute;
+  left: 14pt;
+  top: 0;
+  bottom: 0;
+  border-left: 0.75pt solid var(--navy);
+  z-index: 1;
+}
+.rtree__step--last .rtree__step-num .stem-up {
+  bottom: calc(100% - 22pt);
+}
+.rtree__step-body {
+  padding: 0 0 0 8pt;
+  display: flex;
+  flex-direction: column;
+  gap: 4pt;
+  min-width: 0;
+}
+.rtree__step-cap {
+  font-size: 10pt;
+  line-height: 1.35;
+  color: var(--ink);
+  margin-bottom: 2pt;
+}
+.rtree__step-cap strong {
+  font-family: var(--serif);
+  font-weight: 700;
+  color: var(--navy);
+}
+.rtree__slots {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 6pt;
+}
+.rtree__slot {
+  display: flex;
+  flex-direction: column;
+  gap: 2pt;
+}
+.rtree__slot-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 8pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.rtree__slot-line {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  height: calc(8.5mm * 1);
+}
+
+
+/* =========================================================================
+   F05c · PROCEDURAL DECISION TREE WITH APPLY SECTION
+   Top half = FIXED framework (read-only, NO gold). Three numbered Step
+   boxes with YES/NO bullet rules. Navy left-rule signals "this is the
+   rule." Bottom half = APPLY (gold writing slots). The absence of gold
+   in the framework IS the load-bearing signal.
+   ========================================================================= */
+.ptree { display: flex; flex-direction: column; gap: 10pt; }
+
+.ptree__framework {
+  display: flex;
+  flex-direction: column;
+  gap: 6pt;
+}
+.ptree__framework-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 8.5pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 2pt;
+}
+
+.ptree__step {
+  display: grid;
+  grid-template-columns: 28pt 1fr;
+  gap: 6pt;
+  border-left: 1.4pt solid var(--navy);
+  padding: 6pt 8pt 6pt 10pt;
+  background: var(--paper);
+}
+.ptree__step-num {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 11pt;
+  color: var(--navy);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.ptree__step-body { display: flex; flex-direction: column; gap: 4pt; min-width: 0; }
+.ptree__step-rule {
+  font-size: 10pt;
+  line-height: 1.4;
+  color: var(--ink);
+}
+.ptree__step-rule strong {
+  font-family: var(--serif);
+  font-weight: 700;
+}
+.ptree__step-branches {
+  display: flex;
+  flex-direction: column;
+  gap: 3pt;
+  margin-top: 2pt;
+  padding-left: 0;
+}
+.ptree__branch {
+  font-size: 9.5pt;
+  line-height: 1.35;
+  display: grid;
+  grid-template-columns: 38pt 1fr;
+  gap: 6pt;
+  align-items: baseline;
+}
+.ptree__branch-yn {
+  font-family: var(--mono);
+  font-weight: 600;
+  font-size: 8.5pt;
+  color: var(--navy);
+  letter-spacing: 0.08em;
+}
+.ptree__branch-yn--no { color: var(--teacher); }
+.ptree__branch-action {
+  color: var(--ink);
+}
+
+/* APPLY section — clearly writeable */
+.ptree__apply {
+  border-top: 0.6pt solid var(--ink);
+  padding-top: 10pt;
+  display: flex;
+  flex-direction: column;
+  gap: 8pt;
+}
+.ptree__apply-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 9pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--navy);
+}
+.ptree__apply-row {
+  display: grid;
+  grid-template-columns: 22pt 1fr;
+  gap: 8pt;
+  align-items: start;
+}
+.ptree__apply-num {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 13pt;
+  color: var(--navy);
+  text-align: right;
+  padding-top: 1pt;
+}
+.ptree__apply-body {
+  display: flex;
+  flex-direction: column;
+  gap: 5pt;
+  min-width: 0;
+}
+.ptree__apply-prompt {
+  font-size: 10pt;
+  line-height: 1.35;
+}
+.ptree__apply-slot--n1 {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  height: calc(8.5mm * 1);
+}
+.ptree__apply-slot--n2 {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  background-image: linear-gradient(to bottom,
+    transparent 0,
+    transparent calc(100% - 0.6pt),
+    var(--rule) calc(100% - 0.6pt),
+    var(--rule) 100%);
+  background-size: 100% calc(100% / 2);
+  background-repeat: repeat-y;
+  height: calc(8.5mm * 2);
+}
+
+.ptree__bottom {
+  margin-top: 4pt;
+  padding-top: 8pt;
+  border-top: 0.4pt dashed var(--ink-mute);
+  display: flex;
+  flex-direction: column;
+  gap: 4pt;
+}
+.ptree__bottom-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 8.5pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--navy);
+}
+.ptree__bottom-prompt {
+  font-size: 10pt;
+  line-height: 1.35;
+}
+
+
+/* =========================================================================
+   F06b · PROSE-FOLLOW-UP RANKED
+   Top region reuses Round 2's .rank row treatment (pre-filled criterion
+   rows + writeable rank-number slot). Below, a boxed "REFLECTION" callout
+   holds: a Classmate / career fill-in, then two prose-prompt slots
+   labeled "RANK 1 CRITERION" and "RANK 4 CRITERION".
+   ========================================================================= */
+.rankf { display: flex; flex-direction: column; gap: 10pt; }
+
+.rankf__rows { display: flex; flex-direction: column; gap: 5pt; }
+
+/* The pre-filled criterion row, rank slot at the END of the line. */
+.rankf__row {
+  display: grid;
+  grid-template-columns: 1fr 56pt;
+  gap: 8pt;
+  align-items: center;
+  padding: 5pt 0;
+  border-bottom: 0.4pt solid var(--ink-mute);
+}
+.rankf__row:last-child { border-bottom: none; }
+.rankf__row-text {
+  font-size: 10pt;
+  line-height: 1.4;
+}
+.rankf__row-text strong {
+  font-family: var(--serif);
+  font-weight: 700;
+  color: var(--ink);
+}
+.rankf__row-rank {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6pt;
+}
+.rankf__row-rank-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 8pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.rankf__row-rank-slot {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  width: 26pt;
+  height: 22pt;
+}
+
+.rankf__reflect {
+  margin-top: 2pt;
+  padding: 10pt 12pt 12pt 12pt;
+  border: 0.6pt solid var(--ink);
+  background: #f5f8fb;
+  display: flex;
+  flex-direction: column;
+  gap: 8pt;
+}
+.rankf__reflect-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 9pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--navy);
+}
+.rankf__classmate {
+  display: grid;
+  grid-template-columns: 1.5in 1fr;
+  gap: 8pt;
+  align-items: center;
+}
+.rankf__classmate-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 9pt;
+  color: var(--ink);
+}
+.rankf__classmate-slot {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  height: calc(8.5mm * 1);
+}
+
+.rankf__prose {
+  display: flex;
+  flex-direction: column;
+  gap: 4pt;
+}
+.rankf__prose-head {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 8.5pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--navy);
+  border-left: 1.4pt solid var(--navy);
+  padding-left: 6pt;
+}
+.rankf__prose-prompt {
+  font-size: 10pt;
+  line-height: 1.4;
+}
+.rankf__prose-slot {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  background-image: linear-gradient(to bottom,
+    transparent 0,
+    transparent calc(100% - 0.6pt),
+    var(--rule) calc(100% - 0.6pt),
+    var(--rule) 100%);
+  background-size: 100% calc(100% / 2);
+  background-repeat: repeat-y;
+  height: calc(8.5mm * 2);
+}
+
+
+/* =========================================================================
+   F07b · FEEDBACK SANDWICH
+   Scenario block at top reuses Round 1 .scenario. Below: three vertically
+   stacked sandwich layers — uppercase label + generous gold writing slot.
+   Middle "improvement" slot is 2 lines (specific behavior), bread layers
+   are 1 line each. A thin gold rule between layers reinforces the
+   sandwich metaphor.
+   ========================================================================= */
+.sandwich {
+  margin-top: 6pt;
+  display: flex;
+  flex-direction: column;
+}
+.sandwich__intro {
+  font-size: 10.5pt;
+  line-height: 1.4;
+  margin-bottom: 6pt;
+}
+.sandwich__intro strong { font-weight: 700; }
+
+.sandwich__layer {
+  padding: 6pt 0 8pt 0;
+}
+.sandwich__layer + .sandwich__layer {
+  border-top: 0.6pt solid var(--gold);
+}
+.sandwich__layer-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8pt;
+  margin-bottom: 5pt;
+}
+.sandwich__layer-num {
+  width: 18pt; height: 18pt;
+  background: var(--navy);
+  color: var(--paper);
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 10pt;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.sandwich__layer-lbl {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 10pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--navy);
+}
+.sandwich__layer-cnt {
+  font-family: var(--mono);
+  font-size: 8pt;
+  color: var(--ink-mute);
+  letter-spacing: 0.04em;
+  margin-left: auto;
+}
+.sandwich__layer-prompt {
+  font-size: 9.5pt;
+  line-height: 1.35;
+  color: var(--ink);
+  margin-bottom: 4pt;
+  font-style: italic;
+}
+.sandwich__slot--n1 {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  height: calc(8.5mm * 1);
+}
+.sandwich__slot--n2 {
+  background: var(--gold-tint);
+  border: 0.6pt solid #c9a826;
+  background-image: linear-gradient(to bottom,
+    transparent 0,
+    transparent calc(100% - 0.6pt),
+    var(--rule) calc(100% - 0.6pt),
+    var(--rule) 100%);
+  background-size: 100% calc(100% / 2);
+  background-repeat: repeat-y;
+  height: calc(8.5mm * 2);
+}
+
+
+/* =========================================================================
+   PRINT HARDENING — preserve every gold tint, navy fill, and 0.6pt border
+   in the 6 new variants under photocopy / Print-to-PDF.
+   ========================================================================= */
+@media print {
+  .mqmcq__reflect-slot,
+  .cmap7__center, .cmap7__bubble-slot, .cmap7__action, .cmap7__action-step-slot, .cmap7__action-slot,
+  .rtree__choice-bubble, .rtree__step-num .badge, .rtree__slot-line,
+  .ptree__step, .ptree__apply-slot--n1, .ptree__apply-slot--n2,
+  .rankf__row-rank-slot, .rankf__reflect, .rankf__classmate-slot, .rankf__prose-head, .rankf__prose-slot,
+  .sandwich__layer-num, .sandwich__slot--n1, .sandwich__slot--n2 {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

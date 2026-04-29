@@ -81,6 +81,14 @@ GLYPHS = {
     "matrix":         '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18"/><path d="M3 9 H21"/><path d="M3 15 H21"/><path d="M9 3 V21"/><path d="M15 3 V21"/></svg>',
     "venn":           '<svg viewBox="0 0 24 24"><circle cx="9" cy="12" r="6"/><circle cx="15" cy="12" r="6"/></svg>',
     "short_response": '<svg viewBox="0 0 24 24"><path d="M4 7 H20"/><path d="M4 12 H20"/><path d="M4 17 H14"/></svg>',
+    # Round 3 variants (design team mockups + authored placeholders for the
+    # three variants whose mockups didn't ship before usage ran out)
+    "multi_q_mcq":      '<svg viewBox="0 0 24 24"><circle cx="5" cy="6" r="1.5" fill="currentColor"/><line x1="9" y1="6" x2="20" y2="6"/><circle cx="5" cy="12" r="1.5" fill="currentColor"/><line x1="9" y1="12" x2="20" y2="12"/><circle cx="5" cy="18" r="1.5" fill="currentColor"/><line x1="9" y1="18" x2="20" y2="18"/></svg>',
+    "seven_bubble":     '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.6" fill="currentColor"/><circle cx="12" cy="4" r="1.6"/><circle cx="19" cy="7" r="1.6"/><circle cx="20" cy="14" r="1.6"/><circle cx="15" cy="20" r="1.6"/><circle cx="8" cy="20" r="1.6"/><circle cx="4" cy="14" r="1.6"/><circle cx="5" cy="7" r="1.6"/></svg>',
+    "routed_tree":      '<svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="2"/><line x1="12" y1="7" x2="12" y2="11"/><line x1="5" y1="13" x2="19" y2="13"/><line x1="5" y1="13" x2="5" y2="20"/><line x1="12" y1="13" x2="12" y2="20"/><line x1="19" y1="13" x2="19" y2="20"/><circle cx="5" cy="20" r="1.5"/><circle cx="12" cy="20" r="1.5"/><circle cx="19" cy="20" r="1.5"/></svg>',
+    "procedural_tree":  '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="6"/><rect x="3" y="11" width="18" height="6"/><rect x="3" y="19" width="14" height="3"/></svg>',
+    "prose_ranked":     '<svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="3" fill="currentColor" stroke="none"/><rect x="3" y="11" width="13" height="3" fill="currentColor" stroke="none"/><rect x="3" y="17" width="8" height="3" fill="currentColor" stroke="none"/><circle cx="20" cy="20" r="2"/></svg>',
+    "feedback_sandwich":'<svg viewBox="0 0 24 24"><path d="M3 6 H21"/><path d="M3 11 H21"/><path d="M3 12 H21"/><path d="M3 13 H21"/><path d="M3 18 H21"/></svg>',
     # Round 2 (design team)
     "concept_map":    '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.6" fill="currentColor"/><circle cx="4" cy="5" r="1.8"/><circle cx="20" cy="5" r="1.8"/><circle cx="4" cy="19" r="1.8"/><circle cx="20" cy="19" r="1.8"/><path d="M10 11 L5.4 6.2 M14 11 L18.6 6.2 M10 13 L5.4 17.8 M14 13 L18.6 17.8"/></svg>',
     "decision_tree":  '<svg viewBox="0 0 24 24"><circle cx="12" cy="4" r="1.8"/><circle cx="6" cy="12" r="1.8"/><circle cx="18" cy="12" r="1.8"/><circle cx="3" cy="20" r="1.6"/><circle cx="9" cy="20" r="1.6"/><circle cx="15" cy="20" r="1.6"/><circle cx="21" cy="20" r="1.6"/><path d="M11 5.4 L7 10.6 M13 5.4 L17 10.6 M5 13.4 L3.5 18.4 M7 13.4 L8.5 18.4 M17 13.4 L15.5 18.4 M19 13.4 L20.5 18.4"/></svg>',
@@ -1023,6 +1031,384 @@ def extract_three_two_one(payload: str) -> dict:
     }
 
 
+# ============================================================
+# Round 3 variant extractors. Each returns a dict if the markdown matches
+# the variant's shape, else {}. ticket_to_context tries variants BEFORE the
+# canonical extractor so a ticket that fits both shapes prefers the variant.
+# ============================================================
+
+# ---------- F01b · Multi-Question Diagnostic MCQ ----------
+
+MULTI_Q_HEAD_RE = re.compile(r"^\s*(\d+)\.\s+(.+?)\s*$", re.MULTILINE)
+MULTI_Q_OPT_RE = re.compile(r"^\s+([a-d])\)\s+(.+?)\s*$", re.MULTILINE)
+
+
+def extract_multi_q_mcq(payload: str) -> dict:
+    """Pattern: 2+ numbered MCQ stems, each followed by a/b/c/d options
+    indented under the stem, plus an optional reflection prompt at the end."""
+    # Find numbered stems
+    stems = list(MULTI_Q_HEAD_RE.finditer(payload))
+    if len(stems) < 2:
+        return {}
+
+    questions = []
+    for i, sm in enumerate(stems):
+        stem_text = _strip_md_bold(sm.group(2)).strip()
+        # Block of text from end of this stem to start of next stem (or EOF)
+        body_start = sm.end()
+        body_end = stems[i + 1].start() if i + 1 < len(stems) else len(payload)
+        body = payload[body_start:body_end]
+        opts = []
+        for om in MULTI_Q_OPT_RE.finditer(body):
+            opts.append({"letter": om.group(1), "text": om.group(2).strip()})
+        if len(opts) < 2:
+            # Not an MCQ stem — skip (could be a final reflection prompt)
+            continue
+        questions.append({
+            "num": sm.group(1),
+            "stem": stem_text,
+            "options": opts,
+        })
+
+    if len(questions) < 2:
+        return {}
+
+    # Lead text (intro) is whatever is before the first stem
+    pre = payload[: stems[0].start()].strip()
+    lead = _strip_md_bold(_first_paragraph(pre)) if pre else ""
+
+    # Reflection = whatever comes after the last MCQ stem and is NOT
+    # an a/b/c/d option line
+    reflect_prompt = ""
+    last_stem = stems[-1]
+    tail = payload[last_stem.end():]
+    # Strip the trailing options of the last stem
+    tail = MULTI_Q_OPT_RE.sub("", tail).strip()
+    # Strip underscore-only lines so we just get the prompt sentence(s)
+    tail = re.sub(r"^\s*_{6,}\s*$", "", tail, flags=re.MULTILINE).strip()
+    if tail:
+        reflect_prompt = tail.split("\n", 1)[0].strip().rstrip(":").rstrip(".")
+
+    return {
+        "lead": lead,
+        "questions": questions,
+        "reflect_prompt": reflect_prompt,
+    }
+
+
+# ---------- F04b · Seven-Bubble Ordered Concept Map ----------
+
+CMAP7_PLACE_RE = re.compile(r"Place\s+\*\*(.+?)\*\*\s+in\s+the\s+center", re.IGNORECASE)
+CMAP7_ITEM_RE = re.compile(r"^\s*(\d+)\.\s+(.+?)\s*$", re.MULTILINE)
+
+
+def extract_seven_bubble(payload: str) -> dict:
+    """Variant of Concept Map with 5+ ordered numbered items around a named
+    center (typical "Place X in the center" + 7-step shape)."""
+    place = CMAP7_PLACE_RE.search(payload)
+    if not place:
+        return {}
+
+    items = list(CMAP7_ITEM_RE.finditer(payload))
+    if len(items) < 5:
+        return {}
+
+    center_value = place.group(1).strip()
+
+    bubbles = []
+    for m in items[:7]:  # cap at 7 (the design ships 4+3 grid)
+
+        num = m.group(1)
+        text = m.group(2).strip()
+        # Label text usually like "Step 1 label: ____" — strip the underscore
+        # tail and use the leading label.
+        text = _strip_underscore_runs(text).rstrip(":").rstrip()
+        bubbles.append({"num": num, "label": text})
+
+    # Action section: prose after the numbered list ending with "Step #" /
+    # "concrete action" / "My action" pattern
+    after_idx = items[-1].end() if items else 0
+    after = payload[after_idx:].strip()
+    action_prompt = ""
+    if after:
+        # The "Pick ONE step" or similar prose paragraph
+        first_para = _first_paragraph(after)
+        action_prompt = _strip_underscore_runs(first_para).rstrip(":").rstrip()
+
+    return {
+        "center_value": center_value,
+        "bubbles": bubbles,
+        "action_prompt": action_prompt,
+    }
+
+
+# ---------- F05b · Routed Decision Tree ----------
+
+ROUTED_CHOICE_RE = re.compile(
+    r"^\s*[-*]\s*\*\*([A-Z][A-Z -]+?)\*\*\s*(\([^)]+\))?\s*(?:→|->)\s*go to\s+Step\s*(\d+[A-Z])",
+    re.MULTILINE | re.IGNORECASE,
+)
+ROUTED_STEP_RE = re.compile(
+    r"^\*\*Step\s+(\d+[A-Z])\s*(?:\([^)]+\))?:\*\*\s*(.+?)\s*$",
+    re.MULTILINE,
+)
+
+
+def extract_routed_tree(payload: str) -> dict:
+    """Pattern: Step 1 with → routing to Step 2A/2B/2C, each Step 2X has
+    structured pipe-separated slots (Top | Bottom | Shoes). Each Step 2X
+    row's slot labels come from the pipe-separated labels in the markdown."""
+    choices = list(ROUTED_CHOICE_RE.finditer(payload))
+    routed_steps = list(ROUTED_STEP_RE.finditer(payload))
+    if len(choices) < 2 or len(routed_steps) < 2:
+        return {}
+
+    # Step 1 prompt — the first **Step 1:** heading or first sentence
+    step1_match = re.search(r"^\*\*Step\s*1:\*\*\s*(.+?)\s*$", payload, re.MULTILINE)
+    step1_prompt = step1_match.group(1).strip() if step1_match else "What is your path?"
+
+    routes = []
+    for cm in choices:
+        label = cm.group(1).strip()
+        descriptor = (cm.group(2) or "").strip().strip("()").strip()
+        routes.append({
+            "label": label.title(),
+            "descriptor": descriptor,
+            "step": cm.group(3),
+        })
+
+    # Each routed step's slot labels (e.g., Top | Bottom | Shoes)
+    rows = []
+    for sm in routed_steps:
+        step_id = sm.group(1)
+        line = sm.group(2)
+        # Extract slot labels by splitting on `|` and grabbing label before `:`
+        parts = re.split(r"\s*\|\s*", line)
+        slot_labels = []
+        for part in parts:
+            lab_m = re.match(r"^([^:]+?):", part)
+            if lab_m:
+                slot_labels.append(lab_m.group(1).strip())
+        if not slot_labels:
+            continue
+        # Match up with route descriptor by step letter
+        descriptor = next((r["label"] for r in routes if r["step"] == step_id), "")
+        rows.append({
+            "step": step_id,
+            "descriptor": descriptor,
+            "slots": slot_labels,
+        })
+
+    if len(rows) < 2:
+        return {}
+
+    return {
+        "step1_prompt": step1_prompt,
+        "routes": routes,
+        "rows": rows,
+    }
+
+
+# ---------- F05c · Procedural Tree With Apply Section ----------
+
+PTREE_STEP_RE = re.compile(
+    r"^\*\*Step\s+(\d+):\*\*\s+(.+?)(?=\n\s*\n\*\*Step\s+\d+:|\n\s*Apply\s+the\s+tree)",
+    re.DOTALL | re.MULTILINE,
+)
+PTREE_BRANCH_RE = re.compile(r"^\s*[-*]\s+\*\*(YES|NO)\*\*\s*(?:→|->)\s+(.+?)\s*$", re.MULTILINE | re.IGNORECASE)
+PTREE_APPLY_ROW_RE = re.compile(
+    r"^\s*(\d+)\.\s+(.+?)(?=\n\s*\d+\.\s|\nBottom line|\Z)",
+    re.DOTALL | re.MULTILINE,
+)
+
+
+def extract_procedural_tree(payload: str) -> dict:
+    """Pattern: **Step N:** rule with - **YES** / - **NO** bullet routes,
+    plus an "Apply the tree:" application section with numbered rows."""
+    if "Apply the tree" not in payload and "apply the tree" not in payload:
+        return {}
+
+    steps = list(PTREE_STEP_RE.finditer(payload))
+    if len(steps) < 2:
+        return {}
+
+    step_data = []
+    for sm in steps:
+        num = sm.group(1)
+        body = sm.group(2).strip()
+        # Split on first blank line — first paragraph is the rule, after is branches
+        rule_text = body.split("\n", 1)[0].strip().rstrip("?")
+        branches = []
+        for bm in PTREE_BRANCH_RE.finditer(body):
+            branches.append({
+                "yn": bm.group(1).upper(),
+                "action": bm.group(2).strip(),
+            })
+        step_data.append({"num": num, "rule": rule_text, "branches": branches})
+
+    # Apply section
+    apply_match = re.search(r"Apply the tree:\s*(.+?)(?=\nBottom line|\Z)", payload, re.DOTALL | re.IGNORECASE)
+    apply_rows = []
+    if apply_match:
+        apply_block = apply_match.group(1)
+        for am in PTREE_APPLY_ROW_RE.finditer(apply_block):
+            num = am.group(1)
+            text = am.group(2).strip()
+            # Split into prompt + sub-prompt if present
+            lines = [l.strip() for l in text.splitlines() if l.strip()]
+            prompt = _strip_underscore_runs(lines[0]).rstrip(":").rstrip()
+            sub_prompt = ""
+            if len(lines) > 1:
+                sub_prompt = _strip_underscore_runs(lines[1]).rstrip(":").rstrip()
+            apply_rows.append({"num": num, "prompt": prompt, "sub_prompt": sub_prompt})
+
+    # Bottom-line prompt
+    bottom_match = re.search(r"Bottom line:\s*(.+?)(?=\n\s*\n|\Z)", payload, re.DOTALL | re.IGNORECASE)
+    bottom_prompt = ""
+    if bottom_match:
+        bottom_prompt = _strip_underscore_runs(bottom_match.group(1)).rstrip(":").rstrip()
+
+    return {
+        "steps": step_data,
+        "apply_rows": apply_rows,
+        "bottom_prompt": bottom_prompt,
+    }
+
+
+# ---------- F06b · Prose-Follow-up Ranked ----------
+
+PROSE_RANK_ITEM_RE = re.compile(
+    r"^\s*[-*]\s+(.+?):\s*rank\s+_+",
+    re.MULTILINE,
+)
+PROSE_FOLLOW_RE = re.compile(
+    r"^For\s+the\s+Rank\s+(\d+)[^,\n]*,\s*(.+?):\s*(?:\n|$)",
+    re.MULTILINE | re.IGNORECASE,
+)
+CLASSMATE_RE = re.compile(
+    r"(Classmate\s*/\s*career|Person|Name|Career):\s*_+",
+    re.IGNORECASE,
+)
+
+
+def extract_prose_ranked(payload: str) -> dict:
+    """Variant of Ranked where pre-filled criterion items use 'rank ___' but
+    the follow-up prompts are PROSE ('For the Rank 1 criterion, ONE specific
+    thing...'). Has a free-form reflection field rather than bullet
+    Rank 1 / Rank 2 follow-up rows."""
+    items = list(PROSE_RANK_ITEM_RE.finditer(payload))
+    follows = list(PROSE_FOLLOW_RE.finditer(payload))
+    if len(items) < 3 or len(follows) < 1:
+        return {}
+
+    stem = _strip_md_bold(_first_paragraph(payload))
+
+    item_rows = []
+    for m in items:
+        text = _strip_underscore_runs(m.group(1)).rstrip(":").rstrip()
+        item_rows.append({"text": text})
+
+    # Classmate / reflection row label
+    classmate_label = ""
+    classmate_match = re.search(
+        r"^([A-Za-z][A-Za-z /]+):\s*_+",
+        payload[items[-1].end():], re.MULTILINE,
+    )
+    if classmate_match:
+        classmate_label = classmate_match.group(1).strip()
+
+    prose_rows = []
+    for fm in follows:
+        rank_num = fm.group(1)
+        prompt = _strip_underscore_runs(fm.group(2)).rstrip(":").rstrip()
+        prose_rows.append({
+            "rank_num": rank_num,
+            "head": f"RANK {rank_num} CRITERION",
+            "prompt": prompt,
+        })
+
+    # Find the reflection-section lead-in line
+    reflect_lead = ""
+    rl_match = re.search(r"The\s+ONE\s+\w+'s?\s+plan[^:\n]*:\s*$", payload, re.MULTILINE | re.IGNORECASE)
+    if rl_match:
+        reflect_lead = rl_match.group(0).strip().rstrip(":")
+
+    return {
+        "stem": stem,
+        "items_list": item_rows,
+        "reflect_lead": reflect_lead or "Pick ONE classmate from today",
+        "classmate_label": classmate_label or "Classmate / career",
+        "prose_rows": prose_rows,
+    }
+
+
+# ---------- F07b · Feedback Sandwich ----------
+
+SANDWICH_LAYER_RE = re.compile(
+    r"^\s*[-*]\s+\*\*([^:*]+?)(?:\s*\([^)]*?\))?\s*:\*\*\s*(.+?)\s*$",
+    re.MULTILINE,
+)
+
+
+def extract_feedback_sandwich(payload: str) -> dict:
+    """Pattern: Scenario block + 'Write a feedback sandwich' + 3 bold-labeled
+    bullet items. Detected by 3 bullets where each is **<Label>:**."""
+    layers = list(SANDWICH_LAYER_RE.finditer(payload))
+    # Filter to only layers that look like sandwich labels (Positive,
+    # Improvement, Positive close, etc.)
+    sandwich_layers = []
+    for m in layers:
+        label = m.group(1).strip()
+        # Skip layers that look like option markers (A) (B) etc. — those are
+        # Trade-off shape, not sandwich.
+        if re.match(r"^\([A-Z]\)$", label):
+            continue
+        sandwich_layers.append(m)
+    if len(sandwich_layers) != 3:
+        return {}
+
+    # Scenario block — usually starts with "Scenario:" prefix
+    scenario_match = re.search(r"^Scenario:\s*(.+?)(?=\n\s*\n)", payload, re.DOTALL | re.MULTILINE)
+    scenario = ""
+    if scenario_match:
+        scenario = _strip_md_bold(_strip_underscore_runs(scenario_match.group(1))).strip()
+
+    # Intro is whatever paragraph comes between Scenario and the bullets
+    intro_match = re.search(
+        r"\n\s*\n(.+?)\n\s*\n[-*]\s+\*\*",
+        payload, re.DOTALL,
+    )
+    intro = ""
+    if intro_match:
+        intro = _strip_md_bold(intro_match.group(1)).strip()
+
+    # Build layers
+    layer_data = []
+    for i, m in enumerate(sandwich_layers, start=1):
+        raw_label = m.group(1).strip()
+        # Trailing prose after the bold — often the prompt explanation
+        rest = m.group(2).strip()
+        # Strip leading "(N sentence...)" parenthetical from the label
+        clean_label = re.sub(r"\s*\(\d+\s*sentenc\w*[^)]*\)\s*$", "", raw_label).strip()
+        # Strip common parenthetical descriptors from the label
+        clean_label = re.sub(r"\s*\(.*\)$", "", clean_label).strip()
+        prompt = _strip_underscore_runs(rest).strip()
+        # Heuristic: improvement layer (middle) is taller; bread is one line each
+        slot_lines = 2 if i == 2 else 1
+        layer_data.append({
+            "num": i,
+            "label": clean_label.upper(),
+            "prompt": prompt,
+            "slot_lines": slot_lines,
+        })
+
+    return {
+        "scenario": scenario,
+        "intro": intro,
+        "layers": layer_data,
+    }
+
+
 # ---------- Markdown -> HTML for fallback ----------
 
 UNDERSCORE_LINE = re.compile(r"^\s*_{6,}\s*$")
@@ -1074,6 +1460,29 @@ def build_jinja_env() -> Environment:
     )
 
 
+# Per-format variant detection: try variants BEFORE the canonical extractor
+# so a ticket that fits a variant shape prefers it. Each entry is
+#   parent_format_id -> [(variant_id, variant_suffix, variant_format_name, extractor), ...]
+VARIANTS = {
+    "mcq": [
+        ("multi_q_mcq",       "b", "Multi-Question Diagnostic MCQ",   extract_multi_q_mcq),
+    ],
+    "concept_map": [
+        ("seven_bubble",      "b", "Seven-Bubble Ordered Concept Map", extract_seven_bubble),
+    ],
+    "decision_tree": [
+        ("procedural_tree",   "c", "Procedural Decision Tree",        extract_procedural_tree),
+        ("routed_tree",       "b", "Routed Decision Tree",            extract_routed_tree),
+    ],
+    "ranked": [
+        ("prose_ranked",      "b", "Ranked Justification",            extract_prose_ranked),
+    ],
+    "mini_case": [
+        ("feedback_sandwich", "b", "Feedback Sandwich",               extract_feedback_sandwich),
+    ],
+}
+
+
 def ticket_to_context(ticket: Ticket) -> dict:
     ctx = {
         "block_tile": ticket.block_tile,
@@ -1086,6 +1495,8 @@ def ticket_to_context(ticket: Ticket) -> dict:
         "half_page": ticket.half_page,
         "teks_chip": ticket.teks_chip,
         "glyph_svg": GLYPHS.get(ticket.format_id, GLYPHS["fallback"]),
+        "variant": None,
+        "variant_suffix": "",
         "mcq": {},
         "matrix": {},
         "venn": {},
@@ -1096,10 +1507,30 @@ def ticket_to_context(ticket: Ticket) -> dict:
         "mini_case": {},
         "tradeoff": {},
         "three_two_one": {},
+        # Round 3 variant payloads
+        "multi_q_mcq": {},
+        "seven_bubble": {},
+        "routed_tree": {},
+        "procedural_tree": {},
+        "prose_ranked": {},
+        "feedback_sandwich": {},
         "fallback_html": "",
     }
 
     fid = ticket.format_id
+
+    # 1. Try Round 3 variants first
+    for variant_id, suffix, variant_name, extractor in VARIANTS.get(fid, []):
+        data = extractor(ticket.payload)
+        if data:
+            ctx[variant_id] = data
+            ctx["variant"] = variant_id
+            ctx["variant_suffix"] = suffix
+            ctx["format_name"] = variant_name
+            ctx["glyph_svg"] = GLYPHS.get(variant_id, ctx["glyph_svg"])
+            return ctx
+
+    # 2. Canonical extractors
     extractor_map = {
         "mcq":            ("mcq",            lambda t: extract_mcq(t.payload)),
         "matrix":         ("matrix",         lambda t: extract_matrix(t.payload)),
