@@ -1,6 +1,6 @@
 # PLANNING.md — CCE Curriculum Post-Meeting State
 
-**Last updated:** 2026-04-17 (seventh session: Round-2 TEKS deepening complete — all three Implicit-only codes closed; coverage now 36 of 37 Explicit with only d(4)(D) remaining Implicit-by-design)
+**Last updated:** 2026-04-28 (sixth session: PDF pipeline + Round 1/2/3 designs integrated; all 173 exit tickets ship as printable PDFs)
 **Purpose:** Brief any agent on the current state of the CCE curriculum project after the 2026-04-15 teacher meeting.
 
 ---
@@ -9,40 +9,45 @@
 
 ### TL;DR (read this first)
 
-**The 36-week CCE curriculum is fully piloted AND reconciled.** 35 of 35 auditable weeks passed the TEKS audit + exit-ticket rewrite (Wk0 skipped per user). The TEKS coverage matrix has been cross-checked row-by-row against every day file and all three previously-Implicit-only TEKS codes have been deepened. Current state:
+**The 36-week CCE curriculum is fully piloted AND reconciled AND printable.** 35 of 35 auditable weeks passed the TEKS audit + exit-ticket rewrite (Wk0 skipped per user). All 173 daily exit tickets now ship as printable PDFs from a Playwright + Jinja2 + design-CSS pipeline. Current state:
 
 - Every day has an audited TEKS tag + rewritten exit ticket (6th-7th grade ESL, ≥3 distinct formats per week, DOK 2+)
 - `docs/resources/teks-coverage-matrix.md` truthfully reflects every day's TEKS tags
 - Coverage: **36 of 37 TEKS codes Explicit (97%)**; only d(4)(D) remains Implicit (by design — core academic skills are embedded throughout)
+- **All 173 daily exit tickets render as per-format structured PDFs** at `docs/resources/exit-tickets/`. Linked from every day file. Pipeline notes: `cce-curriculum/notes/exit-ticket-pdf-pipeline.md`.
 - Preservation loop clean across all touched files
 
-**No pilot or Round-2 work remains.** The next agent's choices are either coordinator-dependent unblocks (see Priority list) or brand-new work (Wk0 pilot, a second CFA pass, etc.).
+**No pilot or pipeline work remains.** The next agent's choices are either coordinator-dependent unblocks (see Priority list) or brand-new work (Wk0 pilot, a second CFA pass, summative worksheets, etc.).
 
 ### Read in this order before editing
 
 1. **`CLAUDE.md`** — project rules (ESL rule for tickets, TEKS audit gate, authoring-rulebook locations, source grounding, special markers).
-2. **`PLANNING.md`** §3 (format rules), §8 (non-negotiables), §9 (preservation loop), §10 (lessons learned across 10+ sessions).
+2. **`PLANNING.md`** §3 (format rules), §8 (non-negotiables), §9 (preservation loop), §10 (lessons learned).
 3. **`cce-curriculum/notes/editing-heuristics.md`** — dependency-scope protocol, grep recipes, 11-item "never do X without reading more" list, full-file redundancy audit protocol.
-4. **For exit-ticket / objective / DOL edits:** `cce-curriculum/notes/teks-audit-process.md` (6-step audit + audit log of all 35 weeks) + `cce-curriculum/notes/exit-ticket-templates.md` (10-format bank).
+4. **For exit-ticket / objective / DOL edits:** `cce-curriculum/notes/teks-audit-process.md` (6-step audit + audit log) + `cce-curriculum/notes/exit-ticket-templates.md` (10-format bank).
 5. **For CFA edits:** `cce-curriculum/notes/cfa-template.md`.
+6. **For PDF pipeline / printable artifacts:** `cce-curriculum/notes/exit-ticket-pdf-pipeline.md` — operating instructions, per-format status, design-team rounds 1–3.
 
 ### What shipped — don't redo this work
 
 - **35-week pilot pass.** TEKS audit + exit-ticket rewrite across every auditable week. Details in the "Pilot-pass status table" below and commit-by-commit in the `teks-audit-process.md` audit log. Wk0 intentionally skipped.
-- **Matrix reconciliation.** 15 row-level mismatches corrected on 2026-04-17; every day file's TEKS tags now match `docs/resources/teks-coverage-matrix.md`. Commit `5bc6a9f`.
-- **Round-2 TEKS deepening.** All three Implicit-only codes closed on 2026-04-17: d(3)(F) promoted E via 4SW Wk1 Day 4 framing + exit-ticket extension; d(4)(E) tier corrected I→E (6SW Wk1 Day 4 LO already explicit) + third touchpoint at 4SW Wk6 Day 3; d(3)(D) tier promoted I→E via re-read of existing 4SW Wk2 Day 5 exit-ticket probe.
+- **Matrix reconciliation.** 15 row-level mismatches corrected; every day file's TEKS tags now match `docs/resources/teks-coverage-matrix.md`. Commit `5bc6a9f`.
+- **Round-2 TEKS deepening.** All three Implicit-only codes closed: d(3)(F) promoted E via 4SW Wk1 Day 4 framing + exit-ticket extension; d(4)(E) tier corrected I→E (6SW Wk1 Day 4 LO already explicit) + third touchpoint at 4SW Wk6 Day 3; d(3)(D) tier promoted I→E via re-read of existing 4SW Wk2 Day 5 exit-ticket probe.
+- **Exit-ticket PDF pipeline.** Built the markdown-to-PDF generator (`build/build_pdfs.py`) plus the link injector (`build/inject_pdf_links.py`). Integrated three rounds of design work from the design team: Round 1 (4 canonical formats), Round 2 (6 canonical formats), Round 3 (6 variants). 173 of 173 tickets render with a per-format structured component (167 canonical + 6 variants); zero markdown fallbacks. Full operating manual in `cce-curriculum/notes/exit-ticket-pdf-pipeline.md`.
 
 ### Priority list (agent picks ONE to work next)
 
-1. **Coordinator review unblock (BLOCKED on coordinator response).** PDF tooling revisit, milestone publication of the full pilot, and the H&L-vs-TEKS structural escalation all wait on coordinator review of the 2SW Wk2 pilot at `https://elbrielle.github.io/cce-curriculum/exit-ticket-pilot/`. No agent action until the review returns.
+1. **Coordinator review unblock (BLOCKED on coordinator response).** Milestone publication of the full pilot and the H&L-vs-TEKS structural escalation wait on coordinator review of the 2SW Wk2 pilot at `https://elbrielle.github.io/cce-curriculum/exit-ticket-pilot/`. No agent action until the review returns.
 
-2. **Wk0 Classroom Routines pilot pass (UNBLOCKED; only remaining deepening target).** Wk0 was skipped during the 35-week pass per user directive. If the user wants full 36-week coverage, run the 6-step audit + exit-ticket rewrite over Wk0's 5 days. Estimated 90 min. Value is lower than the 35 already done because Wk0 is classroom-routines scaffolding, not career content.
+2. **Wk0 Classroom Routines pilot pass (UNBLOCKED; only remaining TEKS-audit target).** Wk0 was skipped during the 35-week pass per user directive. If the user wants full 36-week coverage, run the 6-step audit + exit-ticket rewrite over Wk0's 5 days. Estimated 90 min. Value is lower than the 35 already done because Wk0 is classroom-routines scaffolding, not career content. After the audit, re-run `python3 build/build_pdfs.py docs/1sw/wk0-classroom-routines/day*.md` and `python3 build/inject_pdf_links.py` to generate the 5 new exit-ticket PDFs.
 
 3. **CFA rollout for 2SW-6SW (BLOCKED on round-2 teacher feedback on the 1SW CFA sample).** Template in `cce-curriculum/notes/cfa-template.md`. Do not build 2SW-6SW CFAs until the 1SW sample returns with teacher comments.
 
-4. **Whole-week polish reviews (BLOCKED on user priority call).** Some 4SW+5SW+6SW weeks had retags batched without detailed per-week audit log entries (see the 13-week batch entry in `teks-audit-process.md`). If the coordinator requests individual-week audit-log detail for review, reconstruct from git commits. Only on user request.
+4. **Round 3 visual polish (UNBLOCKED but low priority).** Three Round 3 variants (F05c Procedural Decision Tree, F06b Prose-Follow-up Ranked, F07b Feedback Sandwich) had their Jinja branches authored from the design team's CSS contract alone after the design agent's session ran out. Rendered PDFs look right at first read; a future design pass should review them against the CSS comments and tighten any layout drift. See `cce-curriculum/notes/exit-ticket-pdf-pipeline.md` "Future work" section.
 
-5. **New teacher feedback rounds (BLOCKED on teacher scheduling).** When the next teacher-feedback round arrives, sort with §4.6 triage protocol.
+5. **Whole-week polish reviews (BLOCKED on user priority call).** Some 4SW+5SW+6SW weeks had retags batched without detailed per-week audit log entries (see the 13-week batch entry in `teks-audit-process.md`). If the coordinator requests individual-week audit-log detail for review, reconstruct from git commits.
+
+6. **New teacher feedback rounds (BLOCKED on teacher scheduling).** When the next teacher-feedback round arrives, sort with §4.6 triage protocol.
 
 ### Starter task (only if user approves Wk0 pilot)
 
@@ -57,29 +62,18 @@ No systematic pass is pending. If the user directs a Wk0 pilot pass:
 
 **Estimated time:** 90 min.
 
-### What shipped this session (2026-04-17, fifth session — PILOT PASS COMPLETE)
+### Recent sessions (don't redo)
 
-**Full top-down systematic pilot pass finished.** All 35 auditable weeks now have audited TEKS tags + rewritten exit tickets + preservation loop clean + pushed to the remote feature branch.
-
-**Final four week audits (this session):**
-
-- 6SW Wk3 Business/Marketing — commit `e67e590`. No retags; 5 distinct formats.
-- 6SW Wk4 Sales/Presentations — commit `7a68f35`. No retags; 5 distinct formats including Diagnostic MCQ with misconception distractors for the feedback-Powerskill day.
-- 6SW Wk5 Job Skills/Mock Interview — commit `a52babc`. No retags; 5 distinct formats. Strongest d(6)+d(7) week of the year.
-- 6SW Wk6 Capstone — commit `0d43f68`. No retags; 5 distinct formats. Day 4 Concept Map makes d(8)(C) Explicit in-ticket even though the primary d(8)(C) artifact is upstream at 4SW Wk2.
-
-**PLANNING.md §0 updated** (this commit, after user "Give me the lowdown" directive): full handoff block, priority list, starter task.
-
-**Audit log updated** (`teks-audit-process.md`): 6SW Wk3-Wk6 entries added individually; 4SW Wk1-Wk4,Wk6 + 5SW Wk1-Wk6 + 6SW Wk1-Wk2 consolidated into a single 13-week batch entry with commit-SHA references + recurring-retag-pattern summary.
-
-PDFs remain deferred per the 2026-04-16 "do NOT invest in reportlab polish" rule; pilot output is markdown-only pending coordinator review of the 2SW Wk2 pilot.
+- **Sessions 1–5 (through 2026-04-17): pilot pass.** All 35 auditable weeks audited + exit tickets rewritten + matrix reconciled + Round-2 TEKS deepening (three Implicit-only codes closed). Coverage: 36 of 37 TEKS Explicit. Detail in `cce-curriculum/notes/teks-audit-process.md` audit log.
+- **Session 6 (2026-04-28): PDF pipeline + Round 1/2/3 designs integrated.** Built the markdown-to-PDF generator and integrated three rounds of design-team output. All 173 daily exit tickets ship as printable PDFs at `docs/resources/exit-tickets/` and are linked from every day file. 100% structured (167 canonical + 6 Round 3 variants). Pipeline operating manual: `cce-curriculum/notes/exit-ticket-pdf-pipeline.md`.
 
 ### Durable systems (the foundation for any future work)
 
 - **Exit ticket authoring system.** 10-format bank in `cce-curriculum/notes/exit-ticket-templates.md`. Format picker by objective-verb at the top of that file.
-- **TEKS audit process.** 6-step audit in `cce-curriculum/notes/teks-audit-process.md`. Audit log now covers ALL 35 weeks (4 detailed entries for this session's 6SW Wks 3-6 + 1 batch entry for 13 earlier weeks + ~15 detailed entries from prior sessions).
-- **Authoring rulebooks** live in `cce-curriculum/notes/`, not `docs/resources/`. The `docs/resources/` folder is for student- and teacher-facing matrices and references.
-- **Pilot milestone** (`exit-ticket-pilot`) still live at `https://elbrielle.github.io/cce-curriculum/exit-ticket-pilot/`. Coordinator review still the gate for PDF tooling revisit.
+- **TEKS audit process.** 6-step audit in `cce-curriculum/notes/teks-audit-process.md`. Audit log covers all 35 weeks.
+- **Exit-ticket PDF pipeline.** `build/build_pdfs.py` + `build/inject_pdf_links.py` + `build/exit_ticket_template/` (CSS, logo, Jinja2 template). Operating manual at `cce-curriculum/notes/exit-ticket-pdf-pipeline.md`. Reusable for any future printable artifact (summative worksheets, slides) by adding new per-format Jinja branches and CSS.
+- **Authoring rulebooks** live in `cce-curriculum/notes/`, not `docs/resources/`. The `docs/resources/` folder is for student- and teacher-facing matrices, references, and generated PDFs (`docs/resources/exit-tickets/`).
+- **Pilot milestone** (`exit-ticket-pilot`) live at `https://elbrielle.github.io/cce-curriculum/exit-ticket-pilot/`. Coordinator review still the gate for milestone publication of the full pilot.
 
 ### Key insights baked into the system
 
@@ -149,7 +143,6 @@ PDFs remain deferred per the 2026-04-16 "do NOT invest in reportlab polish" rule
 
 - **§4.3 C5 Xello vs H&L platform overlap** — blocks on user SSO hands, not on Claude.
 - **CFA rollout for 2SW-6SW** — blocks on round-2 teacher feedback on the 1SW CFA.
-- **PDF tooling revisit** — blocks on coordinator review.
 
 ### Do NOT
 
@@ -157,7 +150,8 @@ PDFs remain deferred per the 2026-04-16 "do NOT invest in reportlab polish" rule
 - Overwrite `exit-ticket-pilot` milestone without user intent (it's the current coordinator review snapshot)
 - Start on B4 or H&L workbook timeline — still blocked on team email response (§4.2)
 - Build 2SW-6SW CFAs yet — waiting on round-2 teacher feedback on the 1SW sample
-- Ship "student worksheets" as-if — there is no PDF / docx production pipeline out of markdown. Worksheet backlog (§7) is infrastructure-blocked, not content-blocked.
+- Hand-edit the design CSS files in `build/exit_ticket_template/` (`exit-tickets.css`, `exit-tickets-round2.css`, `exit-tickets-round3.css`). They are the design team's source of truth. Pipeline-level fit overrides go in the inline `<style>` block of `template.html.j2`.
+- Roll any new printable artifact (summative worksheets, slides, parent-facing handouts) without reading `cce-curriculum/notes/exit-ticket-pdf-pipeline.md` first. Reuse the existing pipeline pattern; do not start a parallel reportlab-style toolchain.
 - Rewrite an exit ticket without running the TEKS audit first
 - Treat "sentence stem + word bank" as the endorsed exit-ticket pattern — that was one week's rewrite (C3/C4), not universal. Variety + investigation + mastery-of-objective is the real feedback.
 - Push to main without running the §9 preservation loop first
@@ -312,25 +306,29 @@ Decisions needing a human, not an edit:
 
 Tracked at `docs/resources/resources-status.md`.
 
-**Infrastructure-blocked (no markdown → printable pipeline exists):**
+**Shipping today:**
 
-1. **Student worksheets** for high-stakes summatives (6SW Wk6 Capstone rubric, 4SW Wk2 Career Plan, 5SW Wk5 Budget). Building these requires a PDF / docx export pipeline. Do not ship markdown worksheet drafts as-if they are the final artifact.
-2. **Presentation slides** (5SW Wk1 prototype first). Same infrastructure gap.
+- **Daily exit-ticket worksheets.** Every daily exit ticket renders as a printable PDF at `docs/resources/exit-tickets/<Nsw>-wk<N>-day<N>-<slug>.pdf`. 173 of 173 tickets, 100% structured (167 canonical + 6 Round 3 variants). Linked from every day file. Operating manual: `cce-curriculum/notes/exit-ticket-pdf-pipeline.md`.
+
+**Pipeline available — content/design work needed:**
+
+1. **Summative worksheets** for high-stakes assessments (6SW Wk6 Capstone rubric, 4SW Wk2 Career Plan, 5SW Wk5 Budget). The exit-ticket PDF pipeline (`build/build_pdfs.py`) can be reused for summative worksheets, but each worksheet type needs its own design template (per-format Jinja branch + CSS additions). Coordinate with the design team before authoring.
+2. **Presentation slides** (5SW Wk1 prototype first). Same pipeline could render slide PDFs from markdown if a slide template were authored.
+3. **Teacher edition / answer keys** for the high-stakes summatives — once those summative worksheet templates exist.
 
 **Content-actionable (can build in markdown today):**
 
-3. **CFAs for 2SW–6SW** — template exists in `cce-curriculum/notes/cfa-template.md`. Still gated on round-2 teacher feedback on the 1SW CFA.
-4. **Teacher edition / answer keys** — only once worksheets exist (blocked).
+4. **CFAs for 2SW–6SW** — template exists in `cce-curriculum/notes/cfa-template.md`. Still gated on round-2 teacher feedback on the 1SW CFA.
 
 **Out of scope:** video integration (deferred until after teacher feedback round).
 
-**Worksheet production principle** (per user 2026-04-16): when we build real worksheets, include visuals / diagrams / matching / MCQ item types that approximate STAAR exposure for grade 7. Markdown alone cannot represent those richly; plan for the richer production pipeline.
+**Worksheet production principle** (per user 2026-04-16): printable worksheets should include visuals / diagrams / matching / MCQ item types that approximate STAAR exposure for grade 7. The existing PDF pipeline supports this — see how the design-team CSS handles tables, SVG diagrams, MCQ option lists, ruled writing slots, etc. in `build/exit_ticket_template/`.
 
 ---
 
 ## 8. Non-Negotiables
 
-- **Read before editing:** `CLAUDE.md`, this file, `editing-heuristics.md`. For exit-ticket / objective / DOL edits, also `teks-audit-process.md` + `exit-ticket-templates.md`.
+- **Read before editing:** `CLAUDE.md`, this file, `editing-heuristics.md`. For exit-ticket / objective / DOL edits, also `teks-audit-process.md` + `exit-ticket-templates.md`. For PDF pipeline edits, also `cce-curriculum/notes/exit-ticket-pdf-pipeline.md`.
 - `vetting-report.md` is **frozen**.
 - **3-5 weeks max** per instinct-review session.
 - **15 lines max** per day file per edit. More = redesign = escalate.
@@ -346,6 +344,8 @@ Tracked at `docs/resources/resources-status.md`.
 - **Authoring rulebooks live in `cce-curriculum/notes/`, not `docs/resources/`.** Templates, CFA specs, audit processes are dev-facing. If the link points to a template bank from a teacher-facing file, it is a bug.
 - **Irving ISD pathways** must be verified against the canonical website, not PATHWAYS.md alone.
 - **Never touch Wk0 Day 2-5 data-seeding activities** without reading 4SW Wk1 / 6SW Wk6 chain.
+- **Reuse the PDF pipeline** (`build/build_pdfs.py` + design CSS) for any new printable artifact. Do not start a parallel reportlab-style toolchain. The design CSS files in `build/exit_ticket_template/` are the design team's source of truth and must not be hand-edited; pipeline-level fit overrides go in the inline `<style>` block of `template.html.j2`.
+- **Re-run `python3 build/inject_pdf_links.py`** after generating new exit-ticket PDFs so day files carry the canonical `· [Printable PDF](...)` links.
 - **Preservation loop** after every edit batch (all 6 must pass before commit).
 - **No `--no-verify`, `--force`.** Fix the underlying issue.
 - **No push** without explicit user permission.
