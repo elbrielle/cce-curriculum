@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Deliver a 2-minute mini-presentation on a researched emerging IT career; complete the Xello Add Skills activity; reflect on Networking and Web Development pathways |
 | **TEKS** | d(1)(C), d(1)(D), d(4)(B) |
+| **5E Phases** | Engage: Warm-Up · Explain: Emerging tech mini-presentations and group vote · Extend: Xello Add Skills applied to the student's own life · Evaluate: Exit Ticket |
 | **Deliverable** | 2-minute mini-presentation + Xello Skills updated |
 | **Materials** | Chromebooks, Xello accounts, completed Emerging Tech Research Templates from Day 4, projector |
 
@@ -23,6 +24,8 @@ Quick share. Listen for students whose interest has changed; both directions are
 ## Activity 1: Emerging Tech Mini-Presentations (25 min)
 
 Students share their Day 4 research in small groups of 4-5 (NOT as a whole class, too many presentations). Each student gets 2 minutes to pitch their emerging career to the group.
+
+**Time, Voice, Body:** Post the three blocks before the first presenter. Voice 0 while a presenter sets up, Voice 3 for the presenter, Voice 1 for the star and wish. A visible 2 minute countdown runs on the screen for every pitch, and research templates stay face down until the presenter finishes so listeners are listening.
 
 **Pitch structure (project on screen):**
 

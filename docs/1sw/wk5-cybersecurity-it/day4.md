@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Identify a specific postsecondary goal (college, trade school, military, certification, career); design a logo representing that goal in Canva or Adobe Express; convert to SVG; cut on the Glowforge |
 | **TEKS** | d(3)(A) |
+| **5E Phases** | Engage: Warm-Up · Explain: MS to HS to postsecondary walkthrough · Extend: Logo design and first Glowforge cuts · Evaluate: Exit Ticket |
 | **Deliverable** | Final logo design (digital) + first batch of Glowforge cuts started |
-| **Materials** | Chromebooks, Canva or Adobe Express, Glowforge laser cutter, cutting material (1/8" plywood or acrylic), sample college logos, Irving ISD CTE Pathways poster, projector |
+| **Materials** | Chromebooks, Canva or Adobe Express, Glowforge laser cutter, cutting material (1/8" plywood or acrylic), sample college logos, Irving ISD CTE Pathways poster, *Find Your Future* workbook pp. 36-37, projector |
 
 ---
 
@@ -28,6 +29,8 @@ Display the Irving ISD CTE Pathways poster. Walk through the IT-related pathways
 - **Programming & Digital Tech (Singley Academy):** Specialized programming track. Leads to Python certification.
 - **Cybersecurity (Singley Academy):** Cybersecurity Fundamentals certification.
 - **Technology Support Services (Singley Academy):** Computer Repair Technology certification.
+
+Have students open the workbook's district pages alongside the poster (FYF pp. 36-37: "What is Happening at My District?"). The same four Information Technology programs of study are described there in the district's own words, with two industry-based certifications named (Certified Entry-Level Python Programmer and Cybersecurity Fundamentals), two student organizations (Technology Student Association and CyberPatriot), and the Artificial Intelligence program planned for the district's new Career and Technical Education Center. The page also explains what an industry-based certification is: proof that a person has learned a specific job skill, which schools, training programs, and employers all read as evidence of readiness.
 
 Tell students: "Next year or the year after, you will be in HIGH SCHOOL. The choices you make about which courses to take in 9th grade directly affect which careers you can pursue. The good news is, all of these IT pathways are RIGHT HERE in Irving ISD. You don't need to leave your district to start any of these careers."
 
@@ -64,7 +67,7 @@ Students design a logo representing their postsecondary goal. The logo MUST conn
 - Lines for cutting (red), shapes for engraving (black)
 - Simple shapes work best, avoid tiny details under 1mm
 
-Walk the room. Ask each student: "What does your logo represent? What is your postsecondary goal?" If they cannot answer specifically, push them: "Don't just pick a cool logo. Pick a goal first, THEN design the logo for it."
+**Active Monitoring:** Walk the room with one target for every lap: the student can name the specific postsecondary goal behind the logo. Keep the feedback line ready as a stem rather than a question, since it is faster to finish than to answer: "My logo represents _____ because I want to _____ after high school. The Irving ISD pathway that prepares me is _____." A student who cannot finish that sentence picks the goal before touching the design tool. If a whole table is stuck on the third clause, pivot and reproject the pathway list from Activity 1.
 
 !!! tip "Facilitation Tip"
     Students often pick a famous college (Harvard, Stanford) without knowing why. Push them to think locally and realistically. UT Dallas, UT Arlington, UNT, Texas A&M, and Dallas College are all in driving distance and have strong programs. The best postsecondary plan is one the student can actually afford and access.
@@ -75,6 +78,8 @@ Walk the room. Ask each student: "What does your logo represent? What is your po
 ---
 
 ## Activity 3: First Batch of Glowforge Cuts (10 min)
+
+**Time, Voice, Body:** Post the three blocks before the first file is sent. Voice 1 at the design stations, Voice 0 at the machine while a cut is running so the head can be heard, only the student whose file is running stands at the Glowforge, and finished pieces go straight into a labeled tray rather than back to a desk.
 
 The first 5-6 finished designs go to the Glowforge. Walk students through the workflow:
 
@@ -103,7 +108,7 @@ Step 2: After high school, which path fits FIRST?
 
 Circle ONE: **4-year college** / **community college** / **trade school / cert program** / **military** / **direct to work**
 
-Step 3: Branch on cost —
+Step 3: Branch on cost.
 
    IF my family CAN afford the first-choice path above, my next step after graduation is: ___________________________________________________________________
 

@@ -1,19 +1,20 @@
-# Day 2: H&L Setup and Discover My Core (Core Day A)
+# Day 2: H&L Setup and Discover Your Core (Core Day A)
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 55 minutes |
-| **Objectives** | Frame CCE as the middle-school on-ramp to Irving ISD CTE pathways; set up the H&L Climber Profile; learn the six core personality types (RIASEC); complete the H&L "Discover My Core" assessment; record results in the workbook and Climber Profile |
+| **Objectives** | Frame CCE as the middle-school on-ramp to Irving ISD CTE pathways; set up the H&L Climber Profile; learn the six core personality types; complete the H&L "Discover Your Core" activity; record results in the engineering notebook and the Climber Profile |
 | **TEKS** | d(1)(A), d(1)(B) |
-| **Deliverable** | H&L Climber Profile active + RIASEC results entered in workbook (Ch 1, p. 12-13) and visible on Climber Profile |
-| **Materials** | H&L Workbook Ch 1 (pp. 12-13), Chromebooks, projector, Clever/ClassLink credentials, Xello accounts, RIASEC visual reference (Doer / Analyzer / Creator / Helper / Persuader / Organizer) |
+| **5E Phases** | Engage: Warm-Up · Explain: CTE framing and the six core personality types · Explore: Climber Profile setup and Discover Your Core · Evaluate: Exit Ticket |
+| **Deliverable** | H&L Climber Profile active + core personality type written in the engineering notebook and visible on the Climber Profile |
+| **Materials** | Climber Notes deck "Learning Your Core Personality Types" (projected), Chromebooks, projector, Clever/ClassLink credentials, Xello accounts, engineering notebooks, *Find Your Future* workbook pp. 21-22 |
 
 ---
 
 !!! warning "Core day. Protect this period."
-    Today delivers the first of three load-bearing Week 0 outputs. The H&L Climber Profile and RIASEC type are consumed directly by 4SW Wk1 Day 1 (mid-year reconciliation warm-up and the RIASEC vs. Favorites worksheet) and by 6SW Wk6 Capstone. If today is eaten by a campus event, reschedule Core Day A to your next clean period before Day 3 runs.
+    Today delivers the first of three load-bearing Week 0 outputs. The H&L Climber Profile and the core personality type are consumed directly by 4SW Wk1 Day 1 (mid-year reconciliation warm-up and the personality-versus-Favorites worksheet) and by 6SW Wk6 Capstone. If today is eaten by a campus event, reschedule Core Day A to your next clean period before Day 3 runs.
 
 ---
 
@@ -27,11 +28,11 @@ Collect quick verbal responses. Tell students they will test their prediction in
 
 ## Activity 1: What is CTE? Xello Module (5 min)
 
-**Source:** Xello 7th-grade district-created module "What is CTE."
+**Source:** Xello 7th-grade district-created module "What is CTE," framed with (FYF pp. 21-22: "What is Happening at My District?")
 
-Before students log into H&L, frame CCE as the middle-school on-ramp into Irving ISD's CTE pathways that begin in 8th grade and accelerate at Singley, MacArthur, Nimitz, Cardwell, and Irving High. Students log into Xello and launch the district's "What is CTE" module. They work through it at their own pace and return to the group when finished.
+Before students log into H&L, frame CCE as the middle-school on-ramp into Irving ISD's CTE pathways that begin in 8th grade and accelerate at Singley, MacArthur, Nimitz, Cardwell, and Irving High. Open the workbook to page 21 and use the two definitions printed there: CCMR is College, Career, and Military Readiness, and a Program of Study is a sequence of related courses that pairs classroom learning with hands-on experience. Ask the page's own question: why is it helpful to start thinking about goals after high school now, before you get there? Students then log into Xello and launch the district's "What is CTE" module. They work through it at their own pace and return to the group when finished.
 
-> [VERIFY IN Xello] Confirm the district-created "What is CTE" module is published in your Xello account at the start of the semester. If it is not yet pushed, substitute a 5-minute teacher-led framing of CTE using the Irving ISD CTE Offerings by Campus page (irvingisd.net).
+> [VERIFY IN Xello] Confirm the district-created "What is CTE" module is published in your Xello account at the start of the semester. If it is not yet pushed, run the framing straight from the workbook's district pages (FYF pp. 21-22) and the Irving ISD CTE Offerings by Campus page (irvingisd.net).
 
 !!! warning "Common Issue"
     Xello and H&L use different SSO providers. If a student cannot log into Xello, have them start Activity 2 on H&L instead and return to the Xello module during Day 5 catch-up. Do not let a Xello login block H&L setup.
@@ -47,58 +48,79 @@ Direct students to:
 1. **Locate their Climber Profile** in the navigation.
 2. **Add their name and grade** (these may pre-populate from SSO).
 3. **Choose an avatar or upload a photo** if your campus allows.
-4. **Notice that the profile is mostly empty.** Tell students: "Over the next three core days, this profile is going to fill up with information about who you are. By the end of Core Day C, it will be a snapshot of YOU as a future career explorer."
+4. **Notice that the profile is mostly empty.** Name what happens next: over the three core days this profile fills up with information about who they are, and by the end of Core Day C it is a snapshot of the student as a career explorer.
 
 Frame the H&L vocabulary the workbook uses: students are **Climbers**, careers are **Hats**, and clusters are groupings of related careers. They will hear these words all year.
 
-> [H&L PLATFORM] Confirm campus SSO integration before this lesson. Clever vs. ClassLink vs. direct login at app.hatsandladders.com varies by district. The H&L workbook (Ch 1: My Career Journey) pairs with the app for onboarding. Students return to the Climber Profile every core day to add data.
+> [H&L PLATFORM] Confirm campus SSO integration before this lesson. Clever vs. ClassLink vs. direct login at app.hatsandladders.com varies by district. Students return to the Climber Profile every core day to add data, and the Profile section is where both of this week's app activities live.
 
 !!! warning "Common Issue"
-    SSO outages happen in the first week of school. If logins fail, pair students at Chromebooks that did log in and run Discover My Core as a partner activity. Do not let a login issue stop the day. Have your ClassLink or Clever support contact bookmarked and escalate after class.
+    SSO outages happen in the first week of school. If logins fail, pair students at Chromebooks that did log in and run Discover Your Core as a partner activity. Do not let a login issue stop the day. Have your ClassLink or Clever support contact bookmarked and escalate after class.
 
 ---
 
-## Activity 3: Introduction to the 6 Core Personality Types and Discover My Core Assessment (25 min)
+## Activity 3: The Six Core Personality Types and Discover Your Core (25 min)
 
-**Source:** H&L Workbook Ch 1, p. 12-13. "Learning My Core Personality Type" and "Learn Your Personality Types."
+**Source:** (Climber Notes: "Learning Your Core Personality Types", slides 2-5). The *Find Your Future* workbook has no personality page, so the deck carries this content and results go in the engineering notebook.
 
-Project the six personality types from the workbook on the screen. Walk through each with ONE example career (5 min, compressed from the original 10-minute walkthrough so the assessment has enough runway):
+Project slide 2 and read the hook together: some activities feel completely natural while others feel like a chore, and personality types help explain why. Most people match more than one type.
 
-- **Doer.** Works with tools, machines, or animals. Hands-on problem-solving. Example: Auto Mechanic.
-- **Analyzer.** Thinks, researches, solves puzzles. Example: Software Developer.
-- **Creator.** Drawing, painting, acting. Unstructured environments. Example: Graphic Designer.
-- **Helper.** Teaches, supports, helps people. Example: Teacher.
-- **Persuader.** Leads, persuades, organizes people. Example: Salesperson.
-- **Organizer.** Works with data, numbers, details. Example: Accountant.
+Project the slide 3 table and walk through each type with what people of that type like to do, what it looks like in a student's life right now, and one example career (5 min, so the app activity has enough runway). The example careers are a CCE addition, not printed on the deck:
 
-Students log into H&L and navigate to **Discover My Core**. They take the assessment (approximately 20 minutes of runway).
+- **Doer.** Works with hands, tools, machines, or animals and solves real, physical problems. Right now: you are the one who actually builds the project instead of just planning it. Example: Auto Mechanic.
+- **Analyzer.** Researches, observes, and thinks through complex problems. Asks why and how. Right now: science or math clicks for you, or you love figuring out how things work. Example: Software Developer.
+- **Creator.** Expresses ideas through art, music, writing, or performance and works best without rigid structure. Right now: you doodle in your notebook, write stories for fun, or play an instrument. Example: Graphic Designer.
+- **Helper.** Connects with, supports, and teaches other people. Right now: you are the friend people come to when something is wrong. Example: Teacher.
+- **Persuader.** Leads, influences, and motivates others. Right now: you step up in group projects and get people on board with your ideas. Example: Salesperson.
+- **Organizer.** Works with data, numbers, and systems and brings order and accuracy. Right now: your notes are color-coded and you like a clear process. Example: Accountant.
 
-> [H&L PLATFORM] The H&L app's "Discover My Core" assessment presents illustrated, age-appropriate survey questions. Students answer honestly and the platform calculates their top personality types. Students record their results on workbook page 13 in the space provided. These results feed directly into the cluster recommendations the app generates on Core Day B, so honest answers matter.
+Students then open the app and complete the activity (approximately 20 minutes of runway).
+
+> [H&L PLATFORM] Students open the Hats & Ladders app, click **Profile**, then go to **Discover Your Core** and complete the activity (Climber Notes: "Learning Your Core Personality Types", slide 4). The activity presents illustrated, age-appropriate survey questions and the platform calculates their top personality types. These results feed directly into the cluster recommendations the app generates on Core Day B, so honest answers matter.
 
 **Student task:**
 
-1. Open the assessment in the H&L app.
+1. In the H&L app, open **Profile**, then **Discover Your Core**.
 2. Read each question. Answer honestly. Do not rush.
-3. After completing the assessment, write your top 1-2 personality types in your workbook (p. 13).
-4. Read the description of your top type carefully. Note one thing that surprised you or felt accurate.
+3. When your result comes back, write your top 1-2 core personality types in your engineering notebook, dated and labeled "Wk0 Core Day A."
+4. **Stop and Jot:** 60 seconds. Read your type description, then finish one of these in the same notebook entry: "My core personality type is _____, which means I like to _____. One career that might fit me is _____" or "One thing in my description that surprised me is _____."
 
-Walk the room while students take the assessment. Watch for students clicking through without reading. Stop them and reset.
+**Active Monitoring:** walk the room while students take the activity. Lap 1 target is that every student is reading the questions rather than clicking through; stop those students and reset them. Lap 2 target is the notebook jot, and the pivot is this: if most jots copy the type name with no evidence, read one description aloud to the whole room so students hear what "it fit me because" sounds like before they close the app.
 
 !!! tip "Facilitation Tip"
-    Tell students up front: "There are no wrong answers and no 'better' types. The most successful adults usually have careers that match who they ARE, not who they think they should be. Be honest." Repeat this multiple times. If a student rushes, sit next to them and read questions aloud. **Peer support:** if multiple students need read-aloud help, pair them with fluent-reading peers first. That frees you to monitor the whole room.
+    Set the frame up front and repeat it several times: there are no wrong answers and no better types, and the most successful adults usually have careers that match who they are rather than who they think they should be. If a student rushes, sit next to them and read questions aloud. **Peer support:** if multiple students need read-aloud help, pair them with fluent-reading peers first. That frees you to monitor the whole room. If most of the room finishes early, run the deck's discussion slide (Climber Notes: "Learning Your Core Personality Types", slide 5): which core type fits a nurse, a chef, a pilot? Why do people have more than one type?
 
-**DOK 2:** How would you describe the difference between your top RIASEC personality type and the type you predicted in the warm-up? What might explain the difference, or the match?
+**DOK 2:** How would you describe the difference between your top core personality type and the type you predicted in the warm-up? What might explain the difference, or the match?
 
 ---
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET:** Write down your top personality type from the H&L assessment AND name one career from your top type's example list. *(d(1)(A))*
+**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors) · [Printable PDF](../../resources/exit-tickets/1sw-wk0-day2-h-and-l-setup-and-discover-your-core-core-day-a.pdf):
+
+Scenario: Sam did the same activity you did today. Sam expected Creator. The app gave Sam Organizer. Sam says, "The app is wrong. I am an artist."
+
+What is the BEST thing for Sam to do next?
+
+- A. Retake the activity and change the answers until it says Creator.
+- B. Read the Organizer description and look for parts that sound like Sam's real life.
+- C. Stop using the app, because one result decides your job forever.
+- D. Ignore the result, because a person can have only one core type.
+
+Circle your answer. In one sentence, explain why the OTHER three choices are weaker:
+
+   ___________________________________________________________________
+
+Now you: my top core personality type is _______________________. One line from my description that sounds like my real life:
+
+   ___________________________________________________________________
+
+*(d(1)(A))*
 
 ---
 
 ## Differentiation
 
-- **Support:** For students who struggle with assessment language, sit with them and read each question aloud. Do not let them skip ahead.
-- **Extension:** Students who finish early explore 2 to 3 Hats in the H&L app that match their top personality type. They write down one Hat that interested them and why.
+- **Support:** For students who struggle with the activity language, sit with them and read each question aloud. Do not let them skip ahead.
+- **Extension:** Students who finish early explore 2 to 3 Hats in the H&L app that match their top core personality type. They write down one Hat that interested them and why in the engineering notebook.
 - **ELL:** Show ELL students how to use Google Translate page translation (right-click, then Translate to Spanish). Pre-teach: Personalidad = Personality, Hacedor = Doer, Analizador = Analyzer, Creador = Creator, Ayudante = Helper, Persuasor = Persuader, Organizador = Organizer.

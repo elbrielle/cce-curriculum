@@ -4,16 +4,20 @@
 
 ## Lesson Objective
 
-Students complete the load-bearing CCE self-discovery activities in **three core class periods** and use **two flex periods** to establish lab routines, safety expectations, and campus-specific first-week activities. Core outputs: H&L Climber Profile setup, RIASEC Core Personality type, top 2 Work Values, three or more Building Blocks, and the My Career Journey reflection. Every later H&L recommendation depends on these core outputs.
+Students complete the load-bearing CCE self-discovery activities in **three core class periods** and use **two flex periods** to establish lab routines, safety expectations, and campus-specific first-week activities. Core outputs: H&L Climber Profile setup, core personality type, top 2 work values, three or more Building Blocks, and the My Career Journey reflection. The Day 5 flex period also teaches the career research worksheet that every later week reuses. Every later H&L recommendation depends on these core outputs.
+
+**Learning Target:** I can name my core personality type and my top two work values, list at least three of my Building Blocks, and explain how those results point to career clusters I want to explore.
+
+**Success Criteria:** I will know I am successful when my Climber Profile shows my core personality type, my top two work values, and at least three Building Blocks, and when the My Career Journey reflection lists my top three recommended clusters, one career I am curious about with two sentences on why, and three people in my career community.
 
 ## Demonstration of Learning
 
-> "I can describe what a CTE career cluster is, complete my RIASEC personality and Work Values assessments, list at least 3 of my Building Blocks, and explain how my results connect to possible career pathways."
+> "I can describe what a CTE career cluster is, complete my core personality type and work values activities, list at least 3 of my Building Blocks, and explain how my results connect to possible career pathways."
 
 ## TEKS Alignment
 
-- **d(1)(A):** Analyze and discuss the initial results of the assessments.
-- **d(1)(B):** Explore and describe the CTE career clusters.
+- **d(1)(A):** Analyze and discuss the initial results of the assessments (Days 2, 3, 4).
+- **d(1)(B):** Explore and describe the CTE career clusters (Days 1, 4, 5).
 
 ## Materials Needed
 
@@ -25,7 +29,8 @@ Students complete the load-bearing CCE self-discovery activities in **three core
 
 - Chromebooks with internet access (1 per student)
 - Hats & Ladders student accounts (pre-rostered via Clever/ClassLink)
-- H&L Workbook Ch 1: My Career Journey (pp. 11-15)
+- *Find Your Future* workbook, World of Work chapter (printed pp. 9-11 for Building Blocks)
+- Climber Notes decks for Days 2 and 3 (Climber Notes: "Learning Your Core Personality Types" and "Exploring Your Work Values"), projected from the teacher machine
 - Projector for teacher modeling
 - Printed "My Career Journey" reflection handout (1 per student; used on Core Day C)
 - Printed Building Blocks brainstorm sheet (used on Core Day B)
@@ -34,16 +39,17 @@ Students complete the load-bearing CCE self-discovery activities in **three core
 **Flex Days (1 and 5), as needed based on the options you choose:**
 
 - Printed Lab Safety Contract (1 per student; for Day 1 default option)
-- H&L Workbook Ch 1 pp. 2-10 (scavenger hunt, 14-cluster rating, Design Thinking; for flex options)
+- *Find Your Future* workbook printed pp. 2-3 (Classroom Career Hunt), pp. 4-5 (Perks and Quirks), pp. 12-16 (Powerskills and Design Thinking)
+- Printed career research worksheet (CCE artifact; 2 copies per student for the Day 5 default option)
 - Sticky dots and 14 CTE cluster posters or printed cluster cards (if running the Gallery Walk option)
 - Xello student accounts, pre-rostered (only if your district requires Xello onboarding during Week 0)
 - Backup: CareerOneStop Interest Assessment ([careeronestop.org](https://www.careeronestop.org/ExploreCareers/Assessments/interests.aspx)) if H&L SSO is unavailable
 
 ## Career Connection
 
-Every career starts with self-awareness. Before students can explore specific clusters, they need to understand their own personality traits, interests, and values. The RIASEC model (Realistic, Investigative, Artistic, Social, Enterprising, Conventional) and its H&L "Doer / Analyzer / Creator / Helper / Persuader / Organizer" naming is the same framework used by professional career counselors and platforms like O*NET. The data students enter this week powers every H&L recommendation for the rest of the year, and is pulled back by 4SW Wk1 mid-year reconciliation and 6SW Wk6 capstone.
+Every career starts with self-awareness. Before students can explore specific clusters, they need to understand their own personality traits, interests, and values. The six H&L core personality types (Doer, Analyzer, Creator, Helper, Persuader, Organizer) sort people by the kind of work that feels natural to them, the same job-fit thinking career counselors and the federal O*NET database use. The data students enter this week powers every H&L recommendation for the rest of the year, and is pulled back by 4SW Wk1 mid-year reconciliation and 6SW Wk6 capstone.
 
-**What is Happening at Irving ISD?** All Irving ISD CTE pathways are introduced at the overview level (Irving High School, MacArthur High School, Nimitz High School, Singley Academy, Cardwell Career Preparatory Center, and Ratteree Career Development Center). Students meet specific pathways during each week's Career Connection discussion starting in 1SW Wk1.
+**What is Happening at Irving ISD?** All Irving ISD CTE pathways are introduced at the overview level (Irving High School, MacArthur High School, Nimitz High School, Singley Academy, Cardwell Career Preparatory Center, and Ratteree Career Development Center). Students meet specific pathways during each week's Career Connection discussion starting in 1SW Wk1. The workbook's district pages give the teacher the framing to use on Day 2 (FYF pp. 21-22: "What is Happening at My District?"): CCMR stands for College, Career, and Military Readiness; a Program of Study is a sequence of related courses that pairs classroom learning with hands-on experience; and the new Irving CTE Center now being built will hold a professional-grade broadcast studio, a full-service salon, a rooftop drone course, auto bays, and training facilities for electrical, HVAC, and plumbing.
 
 ## Vocabulary
 
@@ -51,31 +57,32 @@ Every career starts with self-awareness. Before students can explore specific cl
 - **Pathway:** A specific sequence of courses and experiences within a career cluster (e.g., Culinary Arts is a pathway within Hospitality and Tourism).
 - **Hat:** Hats & Ladders' name for an individual job title (e.g., Veterinarian, Welder, Software Developer).
 - **Climber Profile:** A personalized snapshot of a student's career interests, experiences, and goals in H&L. It evolves as students complete activities and assessments.
-- **Core Personality Type:** H&L's six personality categories (Doer, Analyzer, Creator, Helper, Persuader, Organizer). These are the RIASEC model in student-friendly language.
-- **Work Values:** The qualities that are most important to a person in their career (Achievement, Independence, Recognition, Relationships, Support, Working Conditions).
+- **Core Personality Type:** H&L's six personality categories (Doer, Analyzer, Creator, Helper, Persuader, Organizer). Most people match more than one.
+- **Work Values:** The things a person needs from a job to feel good about doing it. Achievement, Independence, Recognition, Relationships, Support, and Working Conditions are the six starter words CCE gives students; the H&L app returns each student's own set.
 - **Building Block:** An experience, interest, or skill a student already has (sports, hobbies, chores, clubs, family responsibilities) that connects to future careers.
-- **Powerskill:** Hats & Ladders' name for soft skills (communication, teamwork, problem-solving, adaptability, leadership, time management, creativity, work ethic, empathy, confidence).
+- **Powerskill:** Hats & Ladders' name for people skills that travel with you into any career (communication, teamwork, problem-solving, adaptability, leadership, time management, creativity, work ethic, empathy, confidence).
+- **Perk and Quirk:** A perk is a part of a job someone may enjoy. A quirk is something unusual, unexpected, or hard about the job. The same job detail can be a perk to one person and a quirk to another.
+- **CCMR:** College, Career, and Military Readiness. The Texas term for being prepared for life after high school.
 
 ## Bridge to Theory (Hats & Ladders)
 
-The H&L workbook (Ch 1: My Career Journey, pp. 1-15) is the foundation chapter for the entire workbook. It includes:
+The *Find Your Future* workbook opens with the World of Work chapter, printed pages 1 to 22. It is the foundation chapter for the whole book and it supplies five of this week's activities:
 
-- **Exploring the World of Work** (p. 2): A classroom scavenger hunt where students list items in the room and the careers that helped create them.
-- **Meet the Career Clusters** (p. 4): Students rate their interest in 12 career fields using emoji ratings, then learn how clusters branch into pathways and Hats.
-- **Introduction to Powerskills** (p. 7): A chart of 10 Powerskills (Communication, Teamwork, Problem-Solving, Adaptability, Leadership, Time Management, Creativity, Work Ethic, Empathy, Confidence) with a Making Connections pair activity.
-- **Powerskill: Design Thinking** (p. 9): The "worst idea" smartphone brainstorming activity that builds creative thinking.
-- **My Building Blocks** (p. 11): Students brainstorm experiences from their lives and connect them to future careers.
-- **Learning My Core Personality Type** (p. 12): Students learn the six core types and use the H&L app's "Discover My Core" feature.
-- **Discovering My Work Values** (p. 14): Students learn six common work values and use the app's "Explore My Work Values" feature.
+- **Classroom Career Hunt** (FYF pp. 2-3): Partners trace everyday items back to the careers that made them, then hunt the room for 10 minutes. Used as the Day 1 flex option.
+- **Perks and Quirks** (FYF pp. 4-5): Students choose 2 Hats in the Hat Finder and research salary, education or training, Powerskills needed, other skills, work environment, and one additional fact, marking each detail as a perk, a quirk, or neutral. This is where CCE teaches the career research format for the whole year. Used as the Day 5 default option.
+- **My Building Blocks** (FYF pp. 9-11): Students inventory experiences across four categories (school, home, community, hobbies and interests), name the skill each one is teaching, talk two of them out with a partner, and reflect. Used on Core Day B.
+- **Introduction to Powerskills** (FYF pp. 12-14): The 10-Powerskill chart, a partner round matching the top 2 Powerskills to seven careers, a self-check, and a Powerskills Trading Card. Used as a Day 5 flex option.
+- **Powerskill: Design Thinking** (FYF pp. 15-16): The "worst idea" smartphone brainstorm and class vote. Used as a Day 5 flex option.
 
-The workbook explicitly directs students to the H&L app at multiple points (Building Blocks, Discover My Core, Explore My Work Values). Students use BOTH the workbook (to read, reflect, record results) AND the app (to take the assessments, build the Climber Profile).
+The workbook has no personality-type page and no work values page. Both live in the H&L app, and H&L supplies the teaching decks the teacher projects: (Climber Notes: "Learning Your Core Personality Types") drives the app task Profile → Discover Your Core on Core Day A, and (Climber Notes: "Exploring Your Work Values") drives Profile → Discover Your Work Values on Core Day B. Students record both results in their engineering notebooks, because the workbook has no space for them. Both results return as reflection inputs in the Capstone chapter (FYF p. 281: "Rung 1: Who You Are"), which lists Building Blocks, Personality Types, and Work Values among the things students draw on there.
 
 ## IISD Instructional Strategies
 
-- **Think-Pair-Share:** After each assessment, students pair up to compare results. Normalizes the idea that everyone has different strengths and reduces the social pressure of "what did you get?"
-- **Chunking:** Core data-seeding chunks across three focused days (Core A = RIASEC, Core B = Work Values + Building Blocks, Core C = synthesis reflection) rather than cramming everything into one period. Flex Days 1 and 5 bracket the core content with teacher-chosen routines, catch-up time, and optional H&L activities. Prevents cognitive overload on students AND on the teacher running a brand-new lab.
-- **Sentence Stems:** "My top personality type is _____, which means I like to _____. One career that might fit me is _____."
-- **Active Monitoring:** Walk the room during all assessments. Watch for students rushing through without reading. Stop them and reset.
+- **Think-Pair-Share:** Day 3, Activity 2, the Step 3 "Talk It Out" partner round in the Building Blocks activity (FYF p. 10). Distinguished: hold a silent 30 second Think while each student picks two Building Blocks, one they already know has taught them something and one they are unsure about, then time Partner A for 30 seconds and Partner B for 30 seconds. The listening partner's only job is to name the skills they hear. Post two stems at different levels: "One thing I do a lot is _____. I think it teaches me _____" and "I am not sure what _____ is teaching me. What skill do you hear in it?" Ask two pairs to share, not one. Listen for pairs who name a skill their partner missed, and if most pairs are only saying "responsibility," feed planning, patience, and persistence into the room before students fill in the Step 2 skills column.
+- **Stop and Jot:** Day 2, Activity 3, step 4 right after Discover Your Core returns a result. Distinguished: put the prompt on screen before the assessment starts, give 60 seconds, and offer two stems: "My core personality type is _____, which means I like to _____. One career that might fit me is _____" and "One thing in my description that surprised me is _____." Read jots over shoulders while students write. If most jots copy the type name with no evidence from the description, stop and read one description aloud so students see what "it fit me because" sounds like before they close the app.
+- **Active Monitoring:** Day 4, Activity 2, the 30 minute My Career Journey reflection. Distinguished: walk a fixed pathway three times, one target per lap (lap 1, items 1 to 5 copied from the open Climber Profile rather than from memory; lap 2, item 6 names a specific Hat with two sentences; lap 3, item 8 names three real people). Have the feedback ready before class for the two predictable misconceptions: a student who writes a cluster name where item 6 asks for a career, and a student whose career community is three family members with no teacher, coach, or counselor. If more than a handful stall on item 6, pause the room and project the Hat Finder to model one pick instead of repeating it desk by desk.
+- **Chunking:** Day 3, the three activities in order, because each one feeds the next: work values (Activity 1), Building Blocks (Activity 2), then the cluster recommendations the app computes from both (Activity 3). Distinguished: say what each chunk feeds before it starts, close Activity 1 by having students read their two work values to a neighbor, close Activity 2 with the visual check that three Building Blocks are on every profile, and do not release Activity 3 until both are entered. The same logic sets the week: Core A seeds personality, Core B seeds values and Building Blocks, Core C synthesizes. If the Activity 2 check finds a group without app entries, run Activity 3 as a projected walkthrough while you finish those entries with them.
+- **Time, Voice, Body (TVB):** Day 5, Option A running in parallel with the menu options while you work 1-on-1 with catch-up students. Distinguished: post the three blocks before the period starts, Voice 0 for the first 15 minutes while catch-up students take an assessment, Voice 2 after that for the partner options, a visible countdown for each option so the room turns over together, and a stated drop point for finished worksheets so nobody queues at your table. Narrate the students who are meeting the expectation rather than correcting the ones who are not. If the room drifts louder during catch-up, move the catch-up group to a quieter corner rather than stopping the whole class.
 
 ## Week 0 Flexibility Framework
 
@@ -85,34 +92,38 @@ The workbook explicitly directs students to the H&L app at multiple points (Buil
 
     **Core days (load-bearing; must land in Week 0 or early 1SW Wk1):**
 
-    1. **Core A (Day 2 default):** H&L Climber Profile setup + RIASEC Discover My Core
-    2. **Core B (Day 3 default):** Work Values (top 2) + Building Blocks (3 or more)
+    1. **Core A (Day 2 default):** H&L Climber Profile setup + Discover Your Core
+    2. **Core B (Day 3 default):** Work values (top 2) + Building Blocks (3 or more)
     3. **Core C (Day 4 default):** My Career Journey reflection handout (synthesis + summative)
 
     **Flex days (teacher's choice; no mandatory activities):**
 
-    Day 1 default is Monday lab routines. Day 5 default is Friday catch-up. Use them for the Lab Safety Contract, scavenger hunt, 14-cluster rating, Design Thinking Powerskill, Gallery Walk, Xello onboarding (if your district requires it), campus events, or anything else your first week demands. Verbs: **keep, substitute, compress, skip entirely.** Zero minutes of the flex menu is fine.
+    Day 1 default is Monday lab routines. Day 5 default is Friday catch-up plus the career research worksheet, the one flex item later weeks depend on. Use the flex days for the Lab Safety Contract, the Classroom Career Hunt, Perks and Quirks, the Powerskills chart and Trading Card, the Design Thinking Powerskill, the Gallery Walk, Xello onboarding (if your district requires it), campus events, or anything else your first week demands. Verbs: **keep, substitute, compress, skip entirely.** Zero minutes of the flex menu is fine, with the one exception noted below.
+
+    !!! note "One flex item has a downstream dependency"
+        The career research worksheet taught in Day 5 Option B is reused in every cluster week starting with 1SW Wk1 Day 2, where the plan names it as a format students already know. If Friday is eaten by a campus event, run Option B in your first clean period of 1SW Wk1 before that Day 2 worksheet goes out.
 
 ## Week at a Glance
 
-| Day | Role | Focus | Deliverable |
-|-----|------|-------|-------------|
-| 1 | **Flex** | Lab Routines + Safety + Your Choice (Monday routines day) | Signed Safety Contract (default) or teacher's choice |
-| 2 | **Core A** | H&L Setup + Discover My Core (RIASEC) | RIASEC results in Climber Profile + workbook p. 13 |
-| 3 | **Core B** | Work Values + Building Blocks | Top 2 Work Values + 3 or more Building Blocks in app |
-| 4 | **Core C** | My Career Journey Reflection (synthesis) | Completed My Career Journey handout (collected) |
-| 5 | **Flex** | Catch-Up + Your Choice (Friday flex day) | Teacher's choice (menu of optional H&L Ch 1 activities) |
+| Day | Role | Focus | Deliverable | 5E |
+|-----|------|-------|-------------|-----|
+| 1 | **Flex** | Lab Routines + Safety + Your Choice (Monday routines day) | Signed Safety Contract (default) or teacher's choice | Engage · Explore · Explain · Evaluate |
+| 2 | **Core A** | H&L Setup + Discover Your Core | Core personality type in the Climber Profile and the engineering notebook | Engage · Explain · Explore · Evaluate |
+| 3 | **Core B** | Work Values + Building Blocks | Top 2 work values + 3 or more Building Blocks in the app | Engage · Explore · Explain · Evaluate |
+| 4 | **Core C** | My Career Journey Reflection (synthesis) | Completed My Career Journey handout (collected) | Engage · Explain · Extend · Evaluate |
+| 5 | **Flex** | Catch-Up + Career Research Format (Friday flex day) | Career research worksheet on 2 Hats (default) or teacher's choice | Explore · Extend · Evaluate |
 
 ## Formative Assessment
 
-- **Day 2 (Core A):** RIASEC results recorded in Climber Profile + workbook p. 13; check for evidence students read their results carefully. *d(1)(A)*
-- **Day 3 (Core B):** Top 2 Work Values selected + 3 or more Building Blocks in the Climber Profile. *d(1)(A)*
-- **Day 4 (Core C):** My Career Journey reflection handout completion quality (synthesis of Days 2 and 3 data). *d(1)(A), d(1)(B)*
-- **Flex Days (1 and 5):** Teacher observation of whatever flex activity runs. Not formally scored.
+- **Day 1 (Flex):** Concept Map exit ticket on one classroom object and the three careers behind it, if Option B ran. *d(1)(B)*
+- **Day 2 (Core A):** Core personality type recorded in the Climber Profile and the engineering notebook, plus the Diagnostic MCQ exit ticket; check for evidence students read their result description rather than just copying the type name. *d(1)(A)*
+- **Day 3 (Core B):** Top 2 work values selected + 3 or more Building Blocks in the Climber Profile, plus the Trade-off exit ticket. *d(1)(A)*
+- **Day 4 (Core C):** My Career Journey reflection handout completion quality (synthesis of Days 2 and 3 data), plus the Ranked Justification exit ticket. *d(1)(A), d(1)(B)*
+- **Day 5 (Flex):** Career research worksheet on 2 Hats plus the Comparison Matrix exit ticket, if Option B ran. Catch-up work otherwise. *d(1)(B)*
 
 ## Summative Assessment
 
-**My Career Journey Reflection Handout (collected end of Core Day C / Day 4):** Students synthesize their RIASEC type, top 2 Work Values, 3 or more Building Blocks, and top H&L cluster recommendations into a single written reflection. Scored on completeness, self-awareness, and ability to connect their assessment data to specific cluster curiosity. This document is revisited at mid-year (4SW Wk1-2 Career Plan) and end-of-year (6SW Wk6 Final Career Plan). It is a living artifact, not a one-time worksheet.
+**My Career Journey Reflection Handout (collected end of Core Day C / Day 4):** Students synthesize their core personality type, top 2 work values, 3 or more Building Blocks, top H&L cluster recommendations, and three people in their career community into a single written reflection. Scored on completeness, self-awareness, and ability to connect their assessment data to specific cluster curiosity. This document is revisited at mid-year (4SW Wk1-2 Career Plan) and end-of-year (6SW Wk6 Final Career Plan). It is a living artifact, not a one-time worksheet.
 
 ## Differentiation
 
@@ -125,13 +136,13 @@ The workbook explicitly directs students to the H&L app at multiple points (Buil
 
 ### Extensions
 
-- Students explore 2-3 Hat profiles within their top recommended cluster and rate the perks/quirks/job gear.
-- Challenge: Find a career that bridges two of your top RIASEC types (e.g., Artistic + Social = Art Teacher; Doer + Helper = EMT).
-- Compare H&L's RIASEC results to the CareerOneStop Interest Assessment results. Do they agree?
+- Students explore 2-3 Hat profiles within their top recommended cluster and mark each job detail as a perk, a quirk, or neutral.
+- Challenge: Find a career that bridges two of your core personality types (Creator + Helper = Art Teacher; Doer + Helper = EMT).
+- Compare the H&L core personality result to the CareerOneStop Interest Assessment results. Do they agree?
 
 ### ELL Language Support
 
 - H&L is compatible with browser-based translation tools. Show ELL students how to enable Google Translate page translation.
 - Pre-teach key vocabulary in Spanish: Career Cluster = Grupo de carreras, Personality = Personalidad, Values = Valores, Building Blocks = Bloques de construcción, Pathway = Trayectoria.
-- Pair ELL students with bilingual peers during the Core Day A Discover My Core assessment for read-aloud support.
+- Pair ELL students with bilingual peers during the Core Day A Discover Your Core assessment for read-aloud support.
 - Provide a bilingual version of the My Career Journey reflection handout with Spanish sentence stems.

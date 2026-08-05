@@ -1,14 +1,15 @@
-# Day 2: Website Design (Part 1) — Read, Plan, Choose
+# Day 2: Website Revamp — Audit a Real Site
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Read the H&L "Do's and Don'ts of Designing a Great Website" article; choose a website type; plan website content (3 pages, color scheme, theme) |
+| **Objectives** | Explain what good and bad User Experience look like; audit a real website as a UX Designer; name 3 things that work and 5 problems; write a fix and a user benefit for 3 of the problems |
 | **TEKS** | d(1)(C) |
-| **Deliverable** | Website concept written + 3 pages chosen + color scheme decided (Ch 12, p. 203) |
-| **Materials** | H&L Workbook Ch 12 (pp. 200-203), Chromebooks, projector, examples of well-designed websites for inspiration |
+| **5E Phases** | Engage: Warm-Up · Explain: Learn About UX · Explore: Website audit, fixes, and redesign sketch · Evaluate: Exit Ticket |
+| **Deliverable** | Completed UX audit (3 strengths, 5 problems, 3 fixes with user benefits) + redesign sketch of one page (FYF pp. 28-29) |
+| **Materials** | *Find Your Future* workbook pp. 28-29, the practice site named on the teacher's Climber Notes deck (Climber Notes: "Website Revamp", slide 2), Chromebooks, projector, sticky notes, plain paper |
 
 ---
 
@@ -16,78 +17,66 @@
 
 **WARM-UP: Pick the BEST website you have ever used and the WORST website you have ever used. What made the good one good? What made the bad one bad?**
 
-Quick share. Listen for: easy to find things, looks nice, fast loading, works on phone (good); cluttered, confusing, slow, broken links (bad). Bridge: "Today YOU become the web developer. The decisions you make are the same ones professionals make every day."
+Quick share. Listen for: easy to find things, looks nice, fast loading, works on phone (good); cluttered, confusing, slow, broken links (bad). Bridge: "Today YOU become the UX Designer. A company is losing customers because its website is confusing, and your job is to find out why."
 
 ---
 
-## Activity 1: Read "The Do's and Don'ts of Designing a Great Website" Article (15 min)
+## Activity 1: Step 1 — Learn About UX (15 min)
 
-**Source:** H&L Workbook Ch 12, pp. 200-202, "The Do's and Don'ts of Designing a Great Website: Focus on Wireframing and Layout" by Margie Vane
+**Source:** (FYF p. 28: "Website Revamp", Step 1: Learn About UX)
 
-Open the workbook to page 200. Read the "Project Overview" together: students take on the role of a Web Developer and design their own website. They will not actually code it; they will create a detailed wireframe and plan that COULD be used to build a real website later.
+Open the workbook to page 28. Read the opening together: UX, or User Experience, is the overall feeling you get when you interact with a website. Good UX means a site is smooth, logical, and helpful. Bad UX leaves you frustrated, lost, or annoyed. A UX Designer's job is to prevent that frustration.
 
-Then read the article (Ch 12, pp. 200-202) together. The article covers 5 key principles:
+Then read the scenario: students are a UX Designer, and a company has asked for help because their website is confusing and customers are leaving before they buy anything.
 
-1. **Do: Start with a Clear Hierarchy.** Help users quickly understand the most important information.
-2. **Do: Keep Navigation Consistent.** A clear, consistent menu so users know where to go.
-3. **Do: Prioritize User Flow.** Map the path visitors take through your site.
-4. **Don't: Overcrowd Your Layout with Too Many Elements.** Use whitespace; remove distractions.
-5. **Don't: Use Complicated Layouts.** Stick to 1-2 primary content columns.
-6. **Don't: Skip Mobile Considerations.** Plan for desktop AND mobile from the start.
+Walk the two lists in Step 1 side by side. Good UX: easy navigation with clearly labeled menus, clear buttons and links that tell you what happens when you click, fast and simple paths that finish a task in a few steps. Bad UX: confusing navigation with hidden links and no way back home, cluttered design with too much text and pop-ups, unclear instructions on buttons and search bars, and broken or slow features.
 
-After reading, ask 3-4 students to name ONE Do and ONE Don't. Then show 2 example websites on the projector: one well-designed (Apple, Wikipedia, Khan Academy) and one cluttered (a busy news site). Have students apply the article's principles to critique each.
+After reading, ask 3-4 students to name ONE good-UX rule and ONE bad-UX problem. Then show 2 example websites on the projector: one well-designed (Apple, Wikipedia, Khan Academy) and one cluttered (a busy news site). Have students apply the workbook's four rows to critique each.
 
 !!! tip "Facilitation Tip"
-    Show real examples of bad websites for fun. Students love finding broken or cluttered sites. The contrast makes the article's principles stick.
+    Show real examples of bad websites for fun. Students love finding broken or cluttered sites. The contrast makes the workbook's four rows stick, and it gives students the vocabulary they will need in the audit.
 
 ---
 
-## Activity 2: Choose Your Website Type and Plan (25 min)
+## Activity 2: Steps 2-5 — Investigate, Audit, and Fix (25 min)
 
-**Source:** H&L Workbook Ch 12, pp. 203, "Step 2: Choose Your Website Type" + "Step 3: Plan Your Website"
+**Source:** (FYF pp. 28-29: "Website Revamp", Steps 2-5)
 
-Open the workbook to page 203. The workbook gives students 5 starter ideas (they can also pick anything that excites them):
+**Step 2: Investigate a Website (5 min).** Project the practice site named on the Climber Notes deck (Climber Notes: "Website Revamp", slide 2) and put it on student Chromebooks. Students click through it as a first-time customer trying to buy something.
 
-- Online Store
-- Blog
-- Community News Site
-- Business Site
-- Entrepreneur (photographer, writer, personal chef)
+**Stop and Jot:** 90 seconds of sticky notes before any list-making, one thought per note, with two stems on the board: "The first thing I tried to do was _____" and "I got stuck when _____." This is the workbook's own Step 2 task.
 
-Tell students to pick something they actually CARE about. If they love sports, build a sports blog. If they love art, build an art portfolio. If they want to start a business someday, build a business site for it. The point is to do something personal, not generic.
+**Step 3: Be a UX Detective (8 min).** Students fill in the two workbook lists on page 29: at least 3 things that work well (easy or helpful) and at least 5 problems they noticed.
 
-**Step 3 task (workbook p. 203):** Students complete the planning section in their workbook:
+**Step 4: Fix the Problem (8 min).** Students choose 3 of their 5 problems and complete the workbook's three-column table: the Problem, Your Fix, and How Your Fix Will Help Users. The third column is the one students skip, and it is the one that separates a UX Designer from a complainer.
 
-1. **Describe your website in one sentence.** Example: "A website for kids who love drawing manga, with tutorials and a place to share their art."
-2. **Choose at least 3 pages** (Home, About, Contact, Shop, Gallery, Tutorials, Reviews, etc.).
-3. **Pick a color scheme.** What 2-3 colors will dominate? Why do those colors fit your topic?
-4. **Decide on the overall theme.** Cartoon? Minimalist? Professional? Vintage?
+**Step 5: Sketch a Better Design (4 min).** On a separate sheet of paper, students sketch one page of a better version of the site.
 
-Walk the room. Confirm every student has answered all 4 prompts in writing before moving on. Stop students who are still browsing and not writing.
+**Active Monitoring:** Walk one lap at minute 12 targeting the 5-problems list (every student has five, not two) and a second lap at minute 20 targeting the How Your Fix Will Help Users column. If a lap turns up mostly blank third columns, pause the room and model one fix out loud using a problem from a student's own list.
 
-**DOK 3:** What conclusions can you draw about why a single sentence describing your website is harder to write than it sounds? What does writing this sentence force you to decide?
+**DOK 3:** What conclusions can you draw about why the "how will this help users" column is harder to write than the problem column? What does writing it force you to know about the person using the site?
 
 ---
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/1sw-wk3-day2-website-design-part-1-read-plan-choose.pdf):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/1sw-wk3-day2-website-revamp-audit-a-real-site.pdf):
 
-Scenario: Rosa is a 16-year-old who just opened a small tutoring business. Rosa wants a simple website that will help her sign up new students from her neighborhood. Rosa does NOT need to sell products online.
+Scenario: Rosa is 16 and just opened a small tutoring business. Her website has one long page. The "Sign Up" button is gray and sits at the very bottom, under three paragraphs about her hobbies. The menu at the top says "Stuff," "More Stuff," and "Click Here." Parents keep phoning Rosa instead of signing up online.
 
-1. Which website type from today (Online Store, Blog, Community News Site, Business Site, or Entrepreneur) would you recommend for Rosa?
+1. Name TWO bad UX problems on Rosa's site. Use words from today's lists.
 
-   My pick: _______________________
+   Problem 1: ________________________________________________________
 
-2. What 3 pages should Rosa's website have to sign up new students? (Use today's content.)
+   Problem 2: ________________________________________________________
 
-   Page 1: _______________________
+2. Pick ONE of your two problems. Write your fix and how it helps users.
 
-   Page 2: _______________________
+   My fix: ___________________________________________________________
 
-   Page 3: _______________________
+   How it helps users: _______________________________________________
 
-3. Which page is the MOST important for getting new students to sign up, and why? One sentence. *(d(1)(C))*
+3. Which fix would bring Rosa the most new students? Why? One sentence. *(d(1)(C))*
 
    ___________________________________________________________________
 
@@ -95,6 +84,6 @@ Scenario: Rosa is a 16-year-old who just opened a small tutoring business. Rosa 
 
 ## Differentiation
 
-- **Support:** Pre-print a website planning template with the 4 fields (description, 3 pages, color scheme, theme) clearly separated. Provide example sentences for each.
-- **Extension:** Students who finish early add a 4th and 5th page (Contact Form, Search results, Login page) and start thinking about how those would work.
-- **ELL:** Bilingual website type vocabulary: Tienda en línea = Online Store, Blog = Blog, Sitio de noticias = News site, Negocio = Business, Empresario = Entrepreneur. Allow ELL students to write the website description in Spanish.
+- **Support:** Pre-print the audit page with 2 of the 5 problems already named so students see the level of detail expected before finding their own. Sentence stem for the fix column: "This helps users because they can now _____."
+- **Extension:** Students who finish early audit a second page of the site and check whether the same problem shows up twice. A problem that repeats on every page is a design problem, not a page problem.
+- **ELL:** Bilingual UX vocabulary: Experiencia del usuario = User Experience, Navegación = Navigation, Botón = Button, Menú = Menu, Confuso = Confusing, Desordenado = Cluttered. Allow ELL students to write the fixes in Spanish.

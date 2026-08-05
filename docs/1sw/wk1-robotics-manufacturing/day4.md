@@ -1,14 +1,15 @@
-# Day 4: Sphero Factory Floor + Task Bot in Action (Part 1)
+# Day 4: Sphero Factory Floor + Robots for Crayons (Part 1)
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Set up Sphero RVR+ teams; learn basic SpheroEDU block-based programming; begin the H&L "Task Bot in Action" team activity at Kaleido-Crayons Factory |
+| **Objectives** | Set up Sphero RVR+ teams; learn basic SpheroEDU block-based programming; begin the "Robots for Crayons" team activity at Kaleido-Crayons Factory |
 | **TEKS** | d(1)(C) |
-| **Deliverable** | Sphero teams driving basic patterns + Task Bot role assignments + Step 1 (read shift notes) and Step 2 (research) complete |
-| **Materials** | Sphero RVR+ robots (1 per team of 3-4), SpheroEDU app, painter's tape factory floor course, cardboard obstacles, H&L Workbook Ch 14 (pp. 240-242), Chromebooks, projector |
+| **5E Phases** | Engage: Warm-Up · Explain: SpheroEDU block walkthrough · Explore: Factory floor runs and Robots for Crayons case files · Evaluate: Exit Ticket |
+| **Deliverable** | Sphero teams driving basic patterns + team role assignments + Steps 1-3 (problems, machine reference, shift notes) complete |
+| **Materials** | Sphero RVR+ robots (1 per team of 3-4), SpheroEDU app, painter's tape factory floor course, cardboard obstacles, *Find Your Future* workbook pp. 200-202, Chromebooks, projector |
 
 ---
 
@@ -57,7 +58,7 @@ Project the SpheroEDU app on the screen. Walk students through the **block-based
 3. **Stop**: Stop the robot.
 4. **Wait**: Pause the program for a set time.
 
-Students follow along on their Chromebooks. After each block, do a quick visual check: "Hold up a thumb if your block is on screen."
+**Chunking:** Students follow along on their Chromebooks. Say what each block is for before you demonstrate it (Roll drives, Heading aims, Wait buys time, Stop protects the robot), and close each chunk with a quick visual check: "Hold up a thumb if your block is on screen." Do not release the next block until the thumbs are up. Note which block draws the most thumbs down; that block is the 3 minute re-teach at the start of Day 5.
 
 **Mini-challenge:** Have each team write a 3-block program that drives the Sphero forward 3 seconds, turns 90 degrees, and drives forward 2 seconds. Run it on the factory floor course and observe.
 
@@ -66,16 +67,18 @@ Students follow along on their Chromebooks. After each block, do a quick visual 
 
 ---
 
-## Activity 3: Begin H&L "Task Bot in Action" — Read the Brief (15 min)
+## Activity 3: Begin "Robots for Crayons" — Read the Brief (15 min)
 
-**Source:** H&L Workbook Ch 14, pp. 240-242, "Task Bot in Action" (Career Lab activity, Steps 1-2)
+**Source:** (FYF pp. 200-202: "Robots for Crayons", Steps 1-3), a Career Climb activity
 
-Open the workbook to page 240. Read the scenario together: students are the production team at Kaleido-Crayons Factory. The robotic crayon-sorting machine is malfunctioning, and production is falling behind. Two specific problems:
+**Step 1: Learn about Kaleido-Crayons (p. 200).** Students get into small groups of 3-4 and take turns reading the brief aloud. They are called in to a 24/7 factory where the robotic sorting machine is malfunctioning and production is falling behind. Two specific problems:
 
-- **Problem #1: Color Confusion**: Boxes are arriving with too many crayons of the same color or missing colors entirely. The robot's color sensors can't distinguish certain crayons under bright lights.
-- **Problem #2: Slowpoke Robot**: The robot's arms miss crayons, causing delays. It moves too slowly and backs up the production line.
+- **Problem #1: Color Confusion**: Boxes have repeated colors or missing colors. The robot struggles to tell similar colors apart, especially Sky Blue and Violet. Customers expect complete, accurate boxes.
+- **Problem #2: Slowpoke Robot**: The robotic arm moves too slowly or misses crayons, so crayons fall, pile up, or jam the system. The line has already stopped twice. Delays slow the whole factory and waste materials.
 
-**Step 1: Read the Shift Notes (workbook p. 241).** Have students read the Supervisor Shift Notes from J. Vega's 2nd shift. The notes contain the critical clues:
+**Step 2: How the Machines Work (p. 201).** This page is the team's technical reference, and it is where the answers hide. Read it as a group and have each team circle the causes that could match their two problems: color sensors read color by light reflection and are thrown off by uneven lighting, dust on the sensor, calibration errors, or low-quality replacement parts; robotic arms run on motors and belts and fail when a belt is too tight or too loose, when arm and conveyor speeds do not match, or when parts wear out; production lines need every part moving at the same speed, so slowing one part affects the whole system.
+
+**Step 3: Read the Shift Notes (pp. 201-202).** Students read the Supervisor Shift Notes from J. Vega's 2nd shift and circle key details. The notes contain the critical clues:
 
 - The color sensor was REPLACED last week, and the new one might not work as well under factory lights.
 - A software update happened at 4:00 PM.
@@ -83,21 +86,21 @@ Open the workbook to page 240. Read the scenario together: students are the prod
 - The robotic arm's rubber belt was recently changed and might be the wrong size.
 - New packaging might be a factor.
 
-**Waste + Impact Report:** 68 boxes hand-fixed, 20 boxes pulled from shipping, 430 crayons damaged, 26 minutes of stopped production caused 1.5 hours of downstream delays, 1 full pallet of 120 boxes delayed. Customer is upset (this is the second time this month).
+**Waste + Impact Report (p. 202):** 68 boxes hand-fixed, 20 boxes pulled from shipping, 430 crayons damaged, two stops of 12 and 14 minutes for a total of 26 minutes that caused over 1.5 hours of downstream delay, 1 full pallet of 120 boxes pushed to the next day. The customer is unhappy, and this is the second wait this month.
 
-**Step 2: Research and Investigate, Assign Roles (workbook p. 242).** Each team member chooses ONE of the four production team roles:
+**Assign team roles.** The workbook puts students in groups of 3-4 without naming jobs inside the group. Assign these four production roles anyway so every student has something to own when the plan gets written on Day 5:
 
 - **Shift Supervisor**: Leads team discussions and keeps everyone on track.
 - **Quality Control Specialist**: Makes sure product quality meets standards.
 - **Maintenance Tech**: Considers mechanical issues with equipment.
 - **Packaging Supervisor**: Oversees all packaging of the product.
 
-Teams write down who is playing which role. Then, as a team, they begin researching factory sorting and packaging equipment online (10 min). The workbook prompts them to consider:
+Teams write down who is playing which role. Then each role rereads the shift notes through its own lens and marks the clues that belong to its job. Push teams with these questions:
 
 - Why might these problems be happening?
 - How can the robotic sorter be improved without shutting down the factory?
 - How can the problem be fixed without buying a brand-new robotic sorter?
-- How do other factories handle problems like this?
+- Which clue belongs to your role, and which one is somebody else's problem?
 
 **DOK 3:** What conclusions can you draw about the connection between Problem #1 (Color Confusion) and the shift notes about the new color sensor and the software update?
 
@@ -105,9 +108,9 @@ Teams write down who is playing which role. Then, as a team, they begin research
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/1sw-wk1-day4-sphero-factory-floor-task-bot-in-action-part-1.pdf):
+**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/1sw-wk1-day4-sphero-factory-floor-robots-for-crayons-part-1.pdf):
 
-My Task Bot role today: _______________________ (Shift Supervisor, Quality Control Specialist, Maintenance Tech, or Packaging Supervisor)
+My production team role today: _______________________ (Shift Supervisor, Quality Control Specialist, Maintenance Tech, or Packaging Supervisor)
 
 Problem: Kaleido-Crayons just reported MORE Color Confusion boxes at 5:00 PM, one hour AFTER the 4:00 PM software update.
 
@@ -129,6 +132,6 @@ Step 3: What is ONE specific clue from the shift notes that points to a possible
 
 ## Differentiation
 
-- **Support:** Provide pre-built SpheroEDU starter code (drive forward + stop) that students modify rather than build from scratch. For Task Bot, assign roles to students rather than letting them choose (extroverts get Shift Supervisor; detail-focused students get Quality Control).
+- **Support:** Provide pre-built SpheroEDU starter code (drive forward + stop) that students modify rather than build from scratch. For Robots for Crayons, assign roles to students rather than letting them choose (extroverts get Shift Supervisor; detail-focused students get Quality Control).
 - **Extension:** Sphero teams who master the basic 3-block program can add a 4th block (drive backward) and create a square pattern.
 - **ELL:** Bilingual SpheroEDU command card (Roll = Rodar, Heading = Dirección, Stop = Detener, Wait = Esperar). Pair ELL students with bilingual peers when reading the Kaleido-Crayons shift notes.

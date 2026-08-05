@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Explore the Networking Systems pathway in H&L; identify Network Architect, Network Administrator, Database Administrator, and Systems Analyst Hats; identify transferable skills shared between Programming and Networking pathways |
+| **Objectives** | Explore networking careers in the Hats & Ladders app; identify Network Architect, Network Administrator, Database Administrator, and Systems Analyst Hats; identify transferable skills shared between Programming and Networking careers |
 | **TEKS** | d(1)(C), d(4)(B) |
-| **Deliverable** | Network career notes + 1 transferable skill written in workbook |
-| **Materials** | H&L Workbook Ch 12, Chromebooks, projector, BLS Network Architects page |
+| **5E Phases** | Engage: Warm-Up · Explore: Hat Finder networking career notes · Explain: Transferable skills discussion and DOK 3 · Evaluate: Exit Ticket |
+| **Deliverable** | Network career notes + 1 transferable skill written on the App Exploration page |
+| **Materials** | *Find Your Future* workbook p. 38, Chromebooks, projector, BLS Network Architects page |
 
 ---
 
@@ -22,9 +23,9 @@ Quick share. Most students will say "the IT person" but cannot describe what fix
 
 ## Activity 1: H&L Networking Systems Pathway Exploration (25 min)
 
-**Source:** H&L Workbook Ch 12, p. 192, Networking Systems pathway (one of the 5 IT pathways)
+**Source:** (FYF p. 38: "App Exploration") for the app steps. The four-career networking focus is a CCE addition; the workbook's IT chapter carries no networking content and prints no pathway list.
 
-> [H&L PLATFORM] Direct students to the H&L IT cluster, then specifically to the Networking Systems pathway. The workbook (Ch 12, p. 192) describes this pathway as: "Design, set up, and maintain the systems that connect computers and devices to the internet and each other." Students use the Hat Finder to explore four specific Hats: Network Administrator, Network Architect, Database Administrator, and Systems Analyst.
+> [H&L PLATFORM] Open the Hats & Ladders app, go to Clusters, and click the Information Technology cluster (FYF p. 38: "App Exploration"). Students use the Hat Finder to explore four specific Hats: Network Administrator, Network Architect, Database Administrator, and Systems Analyst. Networking is the work of designing, setting up, and maintaining the systems that connect computers and devices to the internet and to each other. Students finish with the "Pathway Possibilities" step and rate at least one IT pathway.
 
 **The 4 Networking Hats to explore:**
 
@@ -40,7 +41,7 @@ Students spend ~5 min per Hat and record on a notes page:
 - DFW salary
 - One thing that surprised them
 
-After 20 min, lead a brief whole-class discussion: which of the 4 networking Hats sounds most interesting? Listen for students who connect a Hat to their personality type.
+After 20 min, lead a brief whole-class discussion: which of the 4 networking Hats sounds most interesting? Listen for students who connect a Hat to their core personality type from Wk0.
 
 !!! tip "Facilitation Tip"
     Many students think networking = "fixing computers" and lump it together with tech support. Distinguish clearly: tech support FIXES things that break; networking DESIGNS the systems in the first place. The distinction matters because the careers, salaries, and education paths are different.
@@ -67,7 +68,7 @@ These are **transferable skills**, skills that work across many careers, not jus
 
 **DOK 3:** What conclusions can you draw about which transferable skills appear across MULTIPLE IT pathways? Why do you think employers value these skills as much as the technical ones?
 
-Have students write in their workbook margin: "One transferable skill I have is _____. It applies to _____ careers (name 2)."
+**Stop and Jot:** 60 seconds in the "Jot down your thoughts on this cluster" box on the App Exploration page (FYF p. 38), using the stem "One transferable skill I have is _____. It applies to _____ careers (name 2)."
 
 ---
 
@@ -93,7 +94,7 @@ Unique SKILLS used by the Networking career (2 things):
 
   2. ________________________________________________________________
 
-TRANSFERABLE skills shared by BOTH (2 things — soft skills, not technical):
+TRANSFERABLE skills shared by BOTH (2 things: soft skills, not technical):
 
   1. ________________________________________________________________
 

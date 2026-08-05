@@ -1,14 +1,15 @@
-# Day 5: Hour of Code (Day 2) + Pathway Fit + IT Favorites
+# Day 5: Hour of Code (Day 2) + Pathway Possibilities + IT Favorites
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Finish the Hour of Code tutorial; complete the H&L Pathway Fit Assessment for IT; favorite 2 programming careers in the Climber Profile; complete Xello Favorite Clusters |
-| **TEKS** | d(1)(A), d(1)(C) |
+| **Objectives** | Finish the Hour of Code tutorial; complete the Pathway Possibilities step and rate an IT pathway; favorite 2 programming careers in the Climber Profile; complete Xello Favorite Clusters |
+| **TEKS** | d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explore: Hour of Code finish · Extend: Pathway Possibilities, IT favorites, and Xello Favorite Clusters · Evaluate: Exit Ticket |
 | **Deliverable** | Hour of Code certificate + 2 IT careers favorited in H&L + Xello Favorite Clusters complete |
-| **Materials** | Chromebooks, Code.org, H&L accounts, Xello accounts, projector |
+| **Materials** | Chromebooks, Code.org, H&L accounts, *Find Your Future* workbook pp. 36-38, Xello accounts, projector |
 
 ---
 
@@ -41,18 +42,22 @@ Walk the room. Same active monitoring as Day 4: progress check, concept check, f
 
 ---
 
-## Activity 2: H&L Pathway Fit Assessment + IT Favorites (15 min)
+## Activity 2: Pathway Possibilities + IT Favorites (15 min)
 
-> [H&L PLATFORM] Direct students back to the H&L Climber Profile. The H&L app has a Pathway Fit feature that asks students about their preferences and rates how well IT pathways align with their personality and interests. Students complete the assessment and review their results. The assessment uses Wk0's RIASEC and Work Values data to generate the recommendation, so students who completed those carefully will see meaningful results.
+**Source:** (FYF p. 38: "App Exploration"), the Pathway Possibilities step
 
-After the Pathway Fit assessment, students must:
+> [H&L PLATFORM] Students return to the Information Technology Cluster in the Hats & Ladders app and click "Pathway Possibilities." They answer the questions there, then explore and rate at least 1 pathway. This is the one step of the App Exploration page held back from Day 1, because a pathway rating means more after a week of salary, training, and Hour of Code experience. Students finish in their Climber Profile.
+
+After the Pathway Possibilities step, students must:
 
 1. **Favorite at least 2 IT careers** in their Climber Profile using the Hat Finder. They should choose Hats from the programming pathway they explored this week (or a different IT pathway if they prefer).
 2. **Re-check their initial cluster recommendations** from Wk0. Has the IT cluster moved up the ranking now that they have data? Why or why not?
 
+Name where this goes next. This week's favorites, pathway rating, and research sheet are the kind of career-interest evidence that shapes a **Personal Graduation Plan (PGP)**, the roadmap that links course choices, career interests, graduation requirements, and future goals into one plan (FYF p. 36). Students return to it in 4SW when they map high school courses.
+
 **Sentence stem for the favorites reflection (use the word banks):**
 
-*RIASEC types (from Wk0):* Doer, Analyzer, Creator, Helper, Persuader, Organizer
+*Core personality types (from Wk0):* Doer, Analyzer, Creator, Helper, Persuader, Organizer
 *Work Values (from Wk0):* Achievement, Independence, Recognition, Relationships, Support, Working Conditions
 
 "I favorited ______________________________________________________
@@ -78,19 +83,19 @@ Tell students: "This is the Xello version of what you did in H&L. Both platforms
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/1sw-wk2-day5-hour-of-code-day-2-pathway-fit-it-favorites.pdf):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/1sw-wk2-day5-hour-of-code-day-2-pathway-possibilities-it-favorites.pdf):
 
 An IT career I favorited this week: _______________________
 
 Connect this career to THREE things:
 
-**1. My H&L Pathway Fit result for IT** (the pathway the app recommended today)
+**1. The IT pathway I rated today** (from Pathway Possibilities in the app)
 
-   The H&L-recommended pathway: _______________________. Does this line up with the career I favorited? Circle YES / NO. In one sentence, why: ___________________________________________________________________
+   The pathway I rated highest: _______________________. Does this line up with the career I favorited? Circle YES / NO. In one sentence, why: ___________________________________________________________________
 
-**2. My Wk0 RIASEC type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
+**2. My Wk0 core personality type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
 
-   My RIASEC type: _______________________. Why does this career match (or not match) my type? One sentence:
+   My core personality type: _______________________. Why does this career match (or not match) my type? One sentence:
 
    ___________________________________________________________________
 
@@ -100,12 +105,12 @@ Connect this career to THREE things:
 
    ___________________________________________________________________
 
-*(d(1)(A), d(1)(C))*
+*(d(1)(C))*
 
 ---
 
 ## Differentiation
 
 - **Support:** Allow students who are still stuck on Hour of Code to write a 3-sentence reflection about what they tried, what failed, and what they would do differently next time. This earns the deliverable credit even without finishing the tutorial.
-- **Extension:** Advanced students complete the H&L "Job Applications" activity (Ch 12, p. 196) where they fill out a practice application for the fictional Future Work, Inc. This is an optional extension that previews the Wk3 lesson.
-- **ELL:** Bilingual reflection sentence stems for the Pathway Fit reflection. Pair ELL students with bilingual peers for the Xello Favorite Clusters activity.
+- **Extension:** Students who finish early take the workbook's "Extra Time?" prompt on the App Exploration page (FYF p. 38) and rate two more IT Hats, then answer the district page's certification question (FYF p. 37): if you could earn a certification in any skill, what would it be and why?
+- **ELL:** Bilingual reflection sentence stems for the Pathway Possibilities reflection. Pair ELL students with bilingual peers for the Xello Favorite Clusters activity.

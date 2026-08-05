@@ -1,118 +1,96 @@
-# Day 3: Website Design (Part 2) — Wireframe + Job Applications
+# Day 3: From Wireframe to Wow — Build the Screens
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Wireframe 3 pages of the website plan from Day 2; describe website functionality; complete the H&L "Job Applications" practice form |
-| **TEKS** | d(1)(C), d(7)(C) |
-| **Deliverable** | 3 completed wireframes (Ch 12, p. 204) + functionality description (Ch 12, p. 205) + completed Job Application (Ch 12, pp. 196-198) |
-| **Materials** | H&L Workbook Ch 12 (pp. 196-198, 200, 204-205), plain paper or pre-printed wireframe templates, pencils, projector |
+| **Objectives** | Choose an app brief and plan its name, target user, and 2-3 features; wireframe four app screens; test a partner's design and make 2 improvements to your own |
+| **TEKS** | d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explore: App plan and four wireframe screens · Explain: Partner walkthrough test · Evaluate: App design packet submission |
+| **Deliverable** | App plan + 4 labeled wireframe screens (FYF pp. 31-32) + partner walkthrough notes + 2 improvements (FYF p. 33) |
+| **Materials** | *Find Your Future* workbook pp. 30-33, sticky notes, plain paper or pre-printed wireframe templates, pencils, projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Look at the website you visit most often (YouTube, TikTok, a game, a school site). Where is the menu? Where are the buttons? Where do your eyes go FIRST?**
+**WARM-UP: Open the app you use most on your phone. How many taps does it take to do the main thing you use it for? Where is the menu button?**
 
-Quick share. Bridge: "Today you make those same decisions for YOUR website. The job is called wireframing. It is the blueprint that comes before any code."
+Quick share. Bridge: "Yesterday you found what was broken on someone else's site. Today you are the app designer, and every screen is your decision before a single line of code gets written."
 
 ---
 
-## Activity 1: Wireframe 3 Pages (25 min)
+## Activity 1: Steps 1-3 — Choose, Plan, and Wireframe (25 min)
 
-**Source:** H&L Workbook Ch 12, p. 204, "Step 4: Wireframe and Design"
+**Source:** (FYF pp. 30-32: "From Wireframe to Wow", Steps 1-3)
 
-Open the workbook to page 204. Read the definition together: a wireframe is a simple sketch that shows where text, images, buttons, and links will go on each page of a website. It is the blueprint, NOT the final design. Wireframes use boxes and labels, no colors, no real images.
+Open the workbook to page 30. Read the opening together: app designers decide how an app looks, how it works, and how people move from one screen to the next. Before a single line of code is written, they sketch simple screen ideas and think about how a user will use the app.
 
-Project a sample wireframe on the screen so students see what one looks like:
+**Step 1: Choose Your App (3 min).** Students pick ONE of the workbook's three briefs:
 
-- A box at the top labeled "LOGO" + "NAVIGATION MENU"
-- A large box in the middle labeled "Hero Image" or "Main Content"
-- Smaller boxes below labeled "Card 1," "Card 2," "Card 3"
-- A box at the bottom labeled "Footer / Contact Info"
+- **Food Connection App:** connects businesses with local food banks so leftover food gets donated before it goes to waste.
+- **Stress-Less App:** helps students manage their schedules, reminds them to take screen-free breaks, and offers quick ways to destress in under five minutes.
+- **Passion Project App:** gives people ideas for new projects and activities so they can discover a new passion.
 
-**Student task:** Students wireframe the 3 pages they planned yesterday using either:
+**Step 2: Plan Your App (5 min).** Students brainstorm on sticky notes and answer the workbook's three questions: what is the app named, who is the target user, and what 2-3 features make it useful or fun.
 
-- The blank wireframe boxes in the workbook (Ch 12, p. 204)
-- Plain paper (1 page per sheet)
-- A pre-printed wireframe template
+**Step 3: Create Wireframes (17 min).** Read the workbook's symbol key together and project it so it stays visible: a box with an X inside is an image, icon, or video; horizontal lines are text; a solid rectangle or oval is a clickable button; three stacked lines are the main menu. Students wireframe four screens in the workbook boxes on pages 31-32 or on a pre-printed template:
 
-For each page, they must label:
+1. **Home Screen:** the welcome page a user sees after logging in.
+2. **Main Menu:** the main choices or features a user can pick from.
+3. **Action Screen:** what happens when a user clicks a feature, such as a calendar, game, or map.
+4. **"Success" Screen:** what the user sees after finishing a task, such as a "Great Job!" message.
 
-- **Header** (logo + navigation)
-- **Main content area** (what is the most important thing on this page?)
-- **Sidebar or secondary content** (if any)
-- **Footer** (contact, copyright, links)
-
-Tell students: "If you were handing this to a developer to build, would they understand exactly what goes where? Be specific."
+**Active Monitoring:** Walk one lap at minute 8 targeting the Home and Main Menu screens (boxed and labeled, not drawn as art) and a second lap at minute 18 targeting the Action and Success screens (each one shows what the user did and what happened next). If a lap turns up more art than labels, reproject the four symbols to the whole room instead of redrawing them desk by desk.
 
 !!! tip "Facilitation Tip"
-    Some students will try to draw beautiful illustrations instead of wireframe boxes. Remind them: "Wireframes are LABELED BOXES. The point is to plan the structure, not to make art. You'll add visuals later, in real life."
+    Some students will try to draw beautiful illustrations instead of wireframe boxes. Use the workbook's own tip: keep it simple, this is not about making it pretty, it is about showing exactly how the app works. A Success screen that looks identical to the Home screen is the other common miss; ask those students what changed for the user between the two.
 
 ---
 
-## Activity 2: Step 5 — Describe the Functionality (10 min)
+## Activity 2: Step 4 — Test Your App with a Partner (10 min)
 
-**Source:** H&L Workbook Ch 12, p. 205, "Step 5: Describe the Functionality"
+**Source:** (FYF p. 33: "From Wireframe to Wow", Step 4: Test Your App)
 
-Open the workbook to page 205. Students write a short paragraph (3-5 sentences) explaining how users will interact with their website. The workbook describes this as "an instruction manual for your users on how to navigate your website."
+Partners trade designs. Each partner walks through the other's app step by step, screen by screen, as if using it for the first time, and says out loud where they would tap next.
+
+**Think-Pair-Share:** 30 seconds of silent reading before anyone talks, then Partner A gives feedback for 30 seconds, then Partner B. Partners answer the workbook's three questions: does each screen make sense, do you know where to click next, is anything missing? Two pairs share one confusion they found with the whole class, not one compliment.
 
 **Sentence stems to provide:**
 
-- "When users first land on my homepage, they will see _____."
-- "To buy a product / read a post / find more info, users click _____."
-- "The menu allows users to navigate to _____, _____, and _____."
-- "On mobile, the navigation _____."
+- "On Screen _____ I did not know where to click next."
+- "Your Success screen tells the user _____, but it does not tell them _____."
+- "I think this app is missing a _____ screen."
 
-Walk the room and check that students are writing about their OWN website, not generic.
+Students write their partner's feedback directly on the wireframe pages so it does not get lost.
 
 ---
 
-## Activity 3: H&L "Job Applications" Practice (10 min)
+## Activity 3: Step 5 — Improve Your Design (10 min)
 
-**Source:** H&L Workbook Ch 12, pp. 196-198, "Job Applications"
+**Source:** (FYF p. 33: "From Wireframe to Wow", Step 5: Improve Your Design)
 
-Open the workbook to page 196. Read the introduction together: even if you have a resume, many employers still require a standard job application. Applications give employers the same info from every applicant. Filling them out accurately and neatly is part of the hiring process.
+Students make at least 2 improvements based on what their partner said. The workbook names three ways to improve: add a missing screen, fix a confusing layout, or add labels and buttons. Students mark each improvement with a star so the change is easy to find during grading.
 
-**Privacy note before you start:** For the real-world Personal Information fields (phone, email, address), students may either write their real info or substitute a sample identity (e.g., fictional "Alex Martinez, 123 Main St, Irving, TX"). Collect and shred all completed forms at the end of class, do not send them home, leave them on desks, or include them in the grading stack overnight.
+Close with the workbook's class discussion prompts (FYF p. 33): why do app designers get feedback and test their ideas before an app is built, what would you add if you had more time, and which of your Building Blocks would help you succeed as an app designer?
 
-Students fill out the practice job application for the fictional company **Future Work, Inc.** (Ch 12, pp. 196-198). The form fields:
-
-- **Applicant Information:** Full Name, Preferred Name, Phone, Email
-- **Position Desired:** Position type, Date Available, Availability (Full-Time / Part-Time / Seasonal)
-- **Education:** Current school, Location, Highest grade completed
-- **Employment History:** Most recent employer, position, dates, reason for leaving, duties (most 7th graders will write "babysitter," "lawn care," or "n/a")
-- **Skills and Qualifications:** Any relevant skills, certifications, or training
-- **References:** 2 references (name, relationship, phone/email)
-- **Additional Information**
-- **Signature + Date**
-
-Tell students the form matches the one they will fill out when applying for their first real job at 16.
-
-After students finish, lead a brief discussion using the workbook prompts (Ch 12, p. 198):
-
-- How can you show employers your best skills using few words?
-- Why fill out an application even if you have a resume?
-- What might make someone's application stand out?
-
-**DOK 2:** How would you describe the difference between filling out a job application messily and filling it out professionally? What does each say about the applicant?
+**DOK 2:** How would you describe the difference between a design a partner can walk through alone and one that needs the designer standing there to explain it? What does each say about the design?
 
 ---
 
 ## Exit Ticket (Deliverable-only day, no formal ticket)
 
-Day 3 is a rich-submission day: a wireframe packet + Job Application form already function as the mastery evidence. No additional 3-min exit ticket.
+Day 3 is a rich-submission day: the app design packet already functions as the mastery evidence. No additional 3-min exit ticket.
 
-**Submission:** Students submit (1) their 3 wireframe pages and (2) their functionality description as a packet at the end of class. The completed Job Application is verified in-class by the teacher and shredded at end of class per the privacy note above; it is not included in the grading packet.
+**Submission:** Students submit (1) their app plan (name, target user, 2-3 features), (2) their four labeled wireframe screens, and (3) their two starred improvements with the partner feedback that prompted each one.
 
-**Mastery evidence:** wireframes demonstrate d(1)(C) Web Developer role work; the Job Application form completion demonstrates d(7)(C) sample-job-application skill. Tie the Job Application verification to the H&L rubric fields (accurate, legible, professional) rather than content correctness. *(d(1)(C), d(7)(C))*
+**Mastery evidence:** the four screens and the improvement pass demonstrate d(1)(C) app designer role work. Score against the Summative rubric in the week overview, which adapts the 4-level scale from the Capstone chapter (FYF p. 280). Judge whether a stranger could follow the screens, not whether the drawing is attractive. *(d(1)(C))*
 
 ---
 
 ## Differentiation
 
-- **Support:** Pre-printed wireframe templates with the header and footer pre-drawn. Pre-printed Job Application with the easier fields (Name, School) marked clearly.
-- **Extension:** Students who finish early use the workbook's "Extra Time?" prompt (Ch 12, p. 205): create a mock homepage using a free online website builder like Google Sites or Wix.
-- **ELL:** Bilingual Job Application with Spanish field labels. Allow ELL students to write the website functionality description in Spanish.
+- **Support:** Pre-printed wireframe templates with a phone-screen outline and the header bar already drawn. Provide a printed copy of the four symbols so students do not have to remember them.
+- **Extension:** Students who finish early wireframe a fifth screen (settings, profile, or search results) and label which screen it connects to and how a user gets back.
+- **ELL:** Bilingual app design vocabulary: Pantalla = Screen, Botón = Button, Menú principal = Main Menu, Usuario = User, Función = Feature. Allow ELL students to label their screens in Spanish and to give partner feedback in Spanish.

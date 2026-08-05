@@ -1,14 +1,15 @@
-# Day 2: Machine Breakdown Mystery + Hat Research
+# Day 2: Machine Breakdown Mystery + Career Research
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the H&L "Machine Breakdown Mystery" troubleshooting activity using the 5-step Technician Checklist; complete a Hat Research worksheet for one Manufacturing career |
+| **Objectives** | Complete the "Machine Breakdown Mystery" troubleshooting activity using the five-stage Technician Checklist; complete a career research worksheet for one Manufacturing career |
 | **TEKS** | d(1)(C), d(2)(A) |
-| **Deliverable** | Completed Machine Breakdown Mystery checklist (Ch 14, p. 233) + Hat Research worksheet (Ch 14, p. 239) |
-| **Materials** | H&L Workbook Ch 14 (pp. 232-233, 239), Chromebooks, projector |
+| **5E Phases** | Engage: Warm-Up · Explore: Technician Checklist and Manufacturing career research · Explain: Class discussion on the breakdown clues · Evaluate: Exit Ticket |
+| **Deliverable** | Completed Machine Breakdown Mystery checklist (FYF p. 208) + career research worksheet |
+| **Materials** | *Find Your Future* workbook pp. 207-208, printed career research worksheet, Chromebooks, projector |
 
 ---
 
@@ -20,13 +21,13 @@ Listen for "I tried turning it off and on" or "I looked for damage." Bridge: "Th
 
 ---
 
-## Activity 1: H&L "Machine Breakdown Mystery" Activity (25 min)
+## Activity 1: "Machine Breakdown Mystery" Activity (25 min)
 
-**Source:** H&L Workbook Ch 14, pp. 232-233, "Machine Breakdown Mystery" (Career Climb activity)
+**Source:** (FYF pp. 207-208: "Machine Breakdown Mystery"), a Career Climb activity
 
-Open the workbook to page 232. Read the scenario together: students are technicians at a pre-packaged fruit factory. The label-application machine has stopped working. Without it, the entire production line is at a standstill. It is their job to figure out why and fix it.
+Open the workbook to page 207. Read the scenario together: students are technicians at a pre-packaged fruit factory. The machine that puts label stickers on the prepackaged fruits and vegetables has suddenly stopped working. Without it, the production line is at a standstill. It is their job to figure out why and fix it.
 
-Walk through the **Technician Checklist** (Ch 14, p. 232), a 5-step procedure that real technicians use:
+**Step 1: Look at a Technician Checklist (p. 207).** Walk through the five stages of the checklist, the same sequence real technicians use:
 
 1. **Identify the Problem**: Find out as much information as possible. Which part isn't working? What was the machine doing right before it stopped?
 2. **Analyze Possible Causes**: Mechanical failure (worn-out blade, jammed gears)? Electrical issue (faulty wiring, sensor malfunction)? Operator error (incorrect settings)? Something else?
@@ -34,7 +35,7 @@ Walk through the **Technician Checklist** (Ch 14, p. 232), a 5-step procedure th
 4. **Test and Observe**: Run the machine and confirm it works. If not, restart the checklist.
 5. **Prevent Future Breakdowns**: What can be done to keep this from happening again? Operator training? More frequent maintenance?
 
-**Read the scenario clues together (Ch 14, p. 232-233):**
+**Step 2: Understand the Problem (p. 208).** Read the five clues together:
 
 - The machine made a clicking noise before it stopped working.
 - There is no visible smoke, sparks, or leaks.
@@ -42,13 +43,13 @@ Walk through the **Technician Checklist** (Ch 14, p. 232), a 5-step procedure th
 - The sticker roll seems to be in place, but the labels aren't coming out.
 - The operator mentioned the machine was running smoothly until a new roll of labels was installed.
 
-**Student task:** Working individually, students fill out the Technician Checklist in their workbook (p. 233). For each of the 5 steps, they write notes about what they would do as the technician.
+**Step 3: Solve the Problem (p. 208).** Students work in pairs or small groups and fill in the checklist table in their workbook. For each of the five stages, they write notes in the Notes column about what they would do as the technician.
 
-After 12-15 minutes, lead a class discussion using the workbook prompts (Ch 14, p. 233):
+After 12-15 minutes, lead a class discussion using the workbook prompts (FYF p. 208):
 
-- How do your ideas differ from a partner's? What are the similarities?
-- If you had to do this again, would you change your approach based on what you heard from classmates?
-- What would be the most challenging part of being a technician where you work on many different types of machines?
+- What clue helped you the most in figuring out the problem?
+- Was this problem more likely a machine issue or a human mistake?
+- Which of your Building Blocks would help you succeed in this role?
 
 !!! tip "Facilitation Tip"
     The biggest clue students miss is "the new roll of labels was installed right before it broke." That points to a label-roll problem (wrong size, wrong type, jammed feed mechanism). If students focus on electrical or mechanical without spotting this, prompt them: "What changed right before the problem started?"
@@ -57,11 +58,11 @@ After 12-15 minutes, lead a class discussion using the workbook prompts (Ch 14, 
 
 ---
 
-## Activity 2: Hat Research — One Manufacturing Career (15 min)
+## Activity 2: Career Research — One Manufacturing Career (15 min)
 
-**Source:** H&L Workbook Ch 14, p. 239, Hat Research template
+**Source:** CCE career research worksheet; app steps follow (FYF p. 212: "App Exploration")
 
-Open the workbook to page 239. The Hat Research template has six fields. Students choose ONE Hat from the Manufacturing cluster and complete the template using the H&L app:
+Pass out the printed career research worksheet. This is the same six-field format students learned in Wk0, so name the connection rather than reteaching it. Students choose ONE Hat from the Manufacturing cluster and complete the worksheet using the H&L app:
 
 - **Name of Career**
 - **What Interests You?**
@@ -70,7 +71,7 @@ Open the workbook to page 239. The Hat Research template has six fields. Student
 - **Average Salary**
 - **What Tools, Equipment, or Skills are Needed for This Career?**
 
-> [H&L PLATFORM] The workbook (Ch 14, p. 239) directs students: "Go to the Hats & Ladders app and click on the Hat Finder. Explore Hats in the 'Manufacturing' career cluster. Choose one Hat and fill out the information below." Students use the Hat Finder to find a Manufacturing Hat that caught their attention on Day 1, then pull each field directly from the H&L app's career profile.
+> [H&L PLATFORM] Students open the Hats & Ladders app, go to Clusters, click the Manufacturing Cluster, and use the Hat Finder to return to a Hat that caught their attention on Day 1 (one of the three they rated on the App Exploration page). They pull each worksheet field directly from that Hat's profile in the app, then use at least one additional source, such as the BLS Occupational Outlook Handbook, to confirm the salary and training figures.
 
 Walk the room. Confirm every student has a chosen Hat before they start writing. Stop students who pick the same Hat as their neighbor and challenge them to pick something different to broaden the class's exposure.
 
@@ -78,13 +79,13 @@ Walk the room. Confirm every student has a chosen Hat before they start writing.
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/1sw-wk1-day2-machine-breakdown-mystery-hat-research.pdf):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/1sw-wk1-day2-machine-breakdown-mystery-career-research.pdf):
 
-Scenario: Jamie is in 10th grade in Irving ISD. Jamie wants a Manufacturing job right after graduation (not a 4-year college). Jamie just read your Hat Research worksheet.
+Scenario: Jamie is in 10th grade in Irving ISD. Jamie wants a Manufacturing job right after graduation (not a 4-year college). Jamie just read your career research worksheet.
 
-1. Which Manufacturing career from your Hat Research would you recommend to Jamie? _______________________
+1. Which Manufacturing career from your worksheet would you recommend to Jamie? _______________________
 
-2. What are TWO specific training or certification steps Jamie must complete to reach that career? Use your Hat Research worksheet.
+2. What are TWO specific training or certification steps Jamie must complete to reach that career? Use your worksheet.
 
    - Step 1: _________________________________________________
 
@@ -98,6 +99,6 @@ Scenario: Jamie is in 10th grade in Irving ISD. Jamie wants a Manufacturing job 
 
 ## Differentiation
 
-- **Support:** Pre-print the 5 Technician Checklist steps with the first one ("Identify the Problem") filled in as an example. Students complete steps 2-5. For Hat Research, pre-print the field labels in Spanish/English and provide a Welder example as a model.
+- **Support:** Pre-print the five Technician Checklist stages with the first one ("Identify the Problem") filled in as an example. Students complete the remaining four. For career research, pre-print the field labels in Spanish and English and provide a Welder example as a model.
 - **Extension:** Students design their own Machine Breakdown Mystery for a different machine (a 3D printer, a school cafeteria conveyor belt, a gas pump) using the same 5-step checklist format.
 - **ELL:** Bilingual technician vocabulary card: Mechanical = Mecánico, Electrical = Eléctrico, Sensor = Sensor, Maintenance = Mantenimiento, Operator = Operador. Allow students to write checklist notes in Spanish if that lowers the cognitive load.

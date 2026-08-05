@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Explore the Programming and Software Development pathway in depth; research 4 specific programming Hats; complete the H&L Hat Research worksheet for one chosen career |
+| **Objectives** | Explore the Programming and Software Development pathway in depth; research 4 specific programming Hats; complete the career research worksheet for one chosen career |
 | **TEKS** | d(1)(C), d(2)(A) |
-| **Deliverable** | Hat Research worksheet (Ch 12, p. 199) for one programming career |
-| **Materials** | H&L Workbook Ch 12 (p. 199), Chromebooks, projector, BLS Software Developers and Web Developers pages |
+| **5E Phases** | Engage: Warm-Up · Explore: Four programming Hats in the app · Explain: Career research worksheet and the tools list · Evaluate: Exit Ticket |
+| **Deliverable** | Career research worksheet for one programming career |
+| **Materials** | Printed career research worksheet, *Find Your Future* workbook p. 38, Chromebooks, projector, BLS Software Developers and Web Developers pages |
 
 ---
 
@@ -22,7 +23,7 @@ Quick share; listen for student passion. Bridge: "The people who actually build 
 
 ## Activity 1: Explore 4 Programming Hats in the H&L App (25 min)
 
-**Source:** H&L Workbook Ch 12, Programming and Software Development pathway (one of the 5 IT pathways listed on p. 192)
+**Source:** Hats & Ladders app, Programming and Software Development pathway inside the IT cluster; app steps follow (FYF p. 38: "App Exploration")
 
 > [H&L PLATFORM] Students navigate to the Programming and Software Development pathway in the H&L app. They use the Hat Finder to explore four specific Hats, one at a time. For each Hat, they check education requirements, DFW salary, demand level, daily tasks, and rate the Perks/Quirks/Job Gear sections.
 
@@ -41,7 +42,7 @@ Quick share; listen for student passion. Bridge: "The people who actually build 
 - Demand (growing / steady / declining)
 - One thing that interested them or surprised them
 
-Walk the room and check the reference sheets. Ask: "Which of these 4 Hats is YOUR favorite so far?"
+**Active Monitoring:** Walk a fixed route through the room once every five minutes, one Hat per lap. The lap's target is that the row for the Hat under discussion has all five fields filled, not just the Hat name. Ask each student you stop: "Which of these 4 Hats is YOUR favorite so far?" If more than a handful of students have blank salary or demand fields, pause the room and reproject where those two numbers live on a Hat profile instead of pointing them out desk by desk.
 
 !!! tip "Facilitation Tip"
     Many students will gravitate to Game Developer because it sounds fun. Mention the reality: game development is one of the most competitive AND lowest-paid programming jobs because so many people want to do it. Software Developer (general) typically pays more and has better work-life balance. Don't kill their dream, just give them the data.
@@ -50,11 +51,11 @@ Walk the room and check the reference sheets. Ask: "Which of these 4 Hats is YOU
 
 ---
 
-## Activity 2: Hat Research Worksheet — One Programming Career (15 min)
+## Activity 2: Career Research — One Programming Career (15 min)
 
-**Source:** H&L Workbook Ch 12, p. 199, Hat Research template
+**Source:** CCE career research worksheet; app steps follow (FYF p. 38: "App Exploration")
 
-Open the workbook to page 199. The Hat Research template (used in every chapter) has six fields. Students choose ONE of the 4 programming Hats they explored and complete the template:
+Pass out the printed career research worksheet. This is the same six-field format students learned in Wk0, so name the connection rather than reteaching it. Students choose ONE of the 4 programming Hats they explored and complete the worksheet:
 
 - **Name of Career**
 - **What Interests You?**
@@ -63,7 +64,7 @@ Open the workbook to page 199. The Hat Research template (used in every chapter)
 - **Average Salary**
 - **What Tools, Equipment, or Skills are Needed for This Career?**
 
-> [H&L PLATFORM] The workbook (Ch 12, p. 199) directs students: "Go to the Hats & Ladders app and click on the Hat Finder. Explore Hats in the 'Information Technology' career cluster. Choose one Hat and fill out the information below." Students pull each field directly from the H&L app's career profile.
+> [H&L PLATFORM] Students open the Hats & Ladders app, go to Clusters, click the Information Technology Cluster, and use the Hat Finder to return to the programming Hat they picked as their favorite in Activity 1. They pull each worksheet field directly from that Hat's profile in the app, then use at least one additional source, such as the BLS Occupational Outlook Handbook, to confirm the salary and training figures.
 
 For the "What Tools, Equipment, or Skills" field, push students to be specific:
 - Software Developer: programming languages (Python, Java, C++), version control (Git), an IDE (VS Code), problem-solving, debugging
@@ -79,7 +80,7 @@ For the "What Tools, Equipment, or Skills" field, push students to be specific:
 
 Scenario: A local Irving business wants to hire ONE person to build a mobile game that teaches kids to read. The app must work on iPhones AND Androids.
 
-1. Which programming career from today (Software Developer, Web Developer, App Developer, or Game Developer) would you recommend for this job, and why? Use one fact from your Hat Research.
+1. Which programming career from today (Software Developer, Web Developer, App Developer, or Game Developer) would you recommend for this job, and why? Use one fact from your career research worksheet.
 
    My pick: _______________________
 
@@ -95,6 +96,6 @@ Scenario: A local Irving business wants to hire ONE person to build a mobile gam
 
 ## Differentiation
 
-- **Support:** Pre-print a Hat Research worksheet with one example career filled in (Web Developer with HTML, CSS, JavaScript). Students complete a different career using the example as a model.
+- **Support:** Pre-print a career research worksheet with one example career filled in (Web Developer with HTML, CSS, JavaScript). Students complete a different career using the example as a model.
 - **Extension:** Students who finish early research a 5th programming Hat not on the list: Data Scientist, DevOps Engineer, Machine Learning Engineer, or Backend Engineer.
 - **ELL:** Bilingual programming vocabulary card: Lenguaje de programación = Programming language, Aplicación = App, Página web = Web page, Desarrollador = Developer.

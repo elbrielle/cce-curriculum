@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Demonstrate the micro:bit help desk tool to the class; explain the troubleshooting logic; favorite 2 IT Support careers in H&L |
 | **TEKS** | d(1)(C), d(4)(B) |
+| **5E Phases** | Engage: Warm-Up ranking · Explain: Team demos · Extend: IT Support favorites and Climber Profile check · Evaluate: Exit Ticket |
 | **Deliverable** | 3-minute team demo + 2 IT Support careers favorited in Climber Profile |
-| **Materials** | micro:bit devices, Chromebooks, H&L accounts, projector |
+| **Materials** | micro:bit devices, Chromebooks, H&L accounts, *Find Your Future* workbook p. 38, projector |
 
 ---
 
@@ -34,6 +35,8 @@ Each team has 3 minutes to demo their micro:bit help desk tool. Project the team
 
 After each demo, class gives ONE compliment + ONE question. Track team scores informally on the board so students can see all the demos.
 
+**Time, Voice, Body:** Post the blocks before the first team presents. Voice 0 while a team's MakeCode workspace loads, Voice 3 for the presenter, Voice 1 for the compliment and question. Run a visible 3 minute countdown for every team, and park the micro:bits at the front table between demos so devices are not moving during someone else's turn.
+
 !!! tip "Facilitation Tip"
     For larger classes (30+), split demos into 2 stations running simultaneously. Half the class demos at Station 1, half at Station 2. After 12 minutes, swap. This keeps demos under 25 minutes total.
 
@@ -43,9 +46,9 @@ After each demo, class gives ONE compliment + ONE question. Track team scores in
 
 ## Activity 2: H&L IT Support Favorites + Reflection (15 min)
 
-> [H&L PLATFORM] Direct students to the H&L Climber Profile. They favorite at least 2 IT Support careers from the Information Technology Support and Services pathway using the Hat Finder. The workbook's Hat Research template (Ch 12, p. 199) can be used here. Students may complete it for one IT support career before favoriting in the app. Favorites accumulate across all 4 IT weeks (Wks 2-5): students should have 4-6 IT careers favorited by end of Wk5.
+> [H&L PLATFORM] Direct students to the H&L Climber Profile. They favorite at least 2 IT Support careers from the Information Technology Support and Services pathway using the Hat Finder. Students can favorite one of the three Hats they rated on the App Exploration page (FYF p. 38) or a career from their Day 1 notes sheet, and they may fill in the CCE career research worksheet (the research format is taught in Wk0) for one IT support career before favoriting. Favorites accumulate across all 4 IT weeks (Wks 2-5): students should have 4-6 IT careers favorited by end of Wk5.
 
-**Sentence stems for the favorites reflection (in workbook margin):**
+**Sentence stems for the favorites reflection (write them in the jot space on page 38):**
 
 - "I favorited _____ because the education path is _____ and the salary is _____."
 - "This career fits my _____ personality type because _____."
@@ -85,7 +88,7 @@ Connect this career to THREE things:
 
    ___________________________________________________________________
 
-**3. One other IT pathway I explored this six-weeks** (Programming, Web Development, Networking, or — next week — Cybersecurity)
+**3. One other IT pathway I explored this six-weeks** (Programming, Web Development, Networking, or, next week, Cybersecurity)
 
    My other pathway: _______________________. Does my IT Support pick fit BETTER or WORSE than the other pathway? Circle: BETTER / WORSE. One sentence why:
 

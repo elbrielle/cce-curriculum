@@ -9,7 +9,9 @@
 
 ### TL;DR (read this first)
 
-**The 36-week CCE curriculum is fully piloted AND reconciled AND printable.** 35 of 35 auditable weeks passed the TEKS audit + exit-ticket rewrite (Wk0 skipped per user). All 173 daily exit tickets now ship as printable PDFs from a Playwright + Jinja2 + design-CSS pipeline. Current state:
+**AS OF 2026-08-05: the official Irving ISD workbook ("Find Your Future", FYF) arrived and the curriculum is mid-realignment against it.** The generic H&L workbook is retired as a citation source. **Phase A (all six 1SW weeks) is COMPLETE** pending Elisha's review: re-cited to `(FYF p. N: "Section Name")`, district-expectations overlay applied (Learning Target/Success Criteria, five-move IISD blocks, 5E mapping), Wk0 fully audited with 5 first-ever printable exit tickets, RIASEC renamed to the six H&L core personality types throughout 1SW. Phases B (2SW+3SW) and C (4SW-6SW) are pending. **Read `cce-curriculum/notes/fyf-realignment-plan.md` (plan of record, ratified decision register) and `cce-curriculum/notes/district-expectations-2026.md` (binding overlay spec) before touching any week.** Weeks in 2SW-6SW still carry stale generic-workbook citations until their phase lands.
+
+Pre-realignment state (still true underneath): 35 of 35 auditable weeks passed the TEKS audit + exit-ticket rewrite; with Wk0's 2026-08-05 audit that is now **36 of 36**. All 178 daily exit tickets ship as printable PDFs from a Playwright + Jinja2 + design-CSS pipeline. Current state:
 
 - Every day has an audited TEKS tag + rewritten exit ticket (6th-7th grade ESL, ≥3 distinct formats per week, DOK 2+)
 - `docs/resources/teks-coverage-matrix.md` truthfully reflects every day's TEKS tags
@@ -24,7 +26,8 @@
 1. **`CLAUDE.md`** — project rules (ESL rule for tickets, TEKS audit gate, authoring-rulebook locations, source grounding, special markers).
 2. **`PLANNING.md`** §3 (format rules), §8 (non-negotiables), §9 (preservation loop), §10 (lessons learned).
 3. **`cce-curriculum/notes/editing-heuristics.md`** — dependency-scope protocol, grep recipes, 11-item "never do X without reading more" list, full-file redundancy audit protocol.
-4. **For exit-ticket / objective / DOL edits:** `cce-curriculum/notes/teks-audit-process.md` (6-step audit + audit log) + `cce-curriculum/notes/exit-ticket-templates.md` (10-format bank).
+4. **For ANY week edit during/after the FYF realignment:** `cce-curriculum/notes/fyf-realignment-plan.md` (citation rules + ratified decision register) + `cce-curriculum/notes/district-expectations-2026.md` (binding overlay spec + QA checklist).
+5. **For exit-ticket / objective / DOL edits:** `cce-curriculum/notes/teks-audit-process.md` (6-step audit + audit log) + `cce-curriculum/notes/exit-ticket-templates.md` (10-format bank).
 5. **For CFA edits:** `cce-curriculum/notes/cfa-template.md`.
 6. **For PDF pipeline / printable artifacts:** `cce-curriculum/notes/exit-ticket-pdf-pipeline.md` — operating instructions, per-format status, design-team rounds 1–3.
 
@@ -37,9 +40,11 @@
 
 ### Priority list (agent picks ONE to work next)
 
+0. **FYF realignment Phases B and C (UNBLOCKED, the standing priority until done).** Phase B = 2SW+3SW (12 weeks), Phase C = 4SW+5SW+6SW (18 weeks, includes the Ch-16→Capstone-Rungs spine redistribution). Follow `cce-curriculum/notes/fyf-realignment-plan.md` §8 process exactly as Phase A ran it: per-week Opus implementers reading the crosswalk week section + the two rulebooks, then a closeout pass (S&S both copies, matrix, nav, PDF regeneration with orphan cleanup, preservation loop). Carry-ins: RIASEC→core-personality-types rename, Hat Research retirement (D-1), and each phase's TEKS-gated weeks (B: 2SW Wk6; C: 6SW Wk4, 6SW Wk5 — the latter must re-anchor d(7)(C) on CareerOneStop).
+
 1. **Coordinator review unblock (BLOCKED on coordinator response).** Milestone publication of the full pilot and the H&L-vs-TEKS structural escalation wait on coordinator review of the 2SW Wk2 pilot at `https://elbrielle.github.io/cce-curriculum/exit-ticket-pilot/`. No agent action until the review returns.
 
-2. **Wk0 Classroom Routines pilot pass (UNBLOCKED; only remaining TEKS-audit target).** Wk0 was skipped during the 35-week pass per user directive. If the user wants full 36-week coverage, run the 6-step audit + exit-ticket rewrite over Wk0's 5 days. Estimated 90 min. Value is lower than the 35 already done because Wk0 is classroom-routines scaffolding, not career content. After the audit, re-run `python3 build/build_pdfs.py docs/1sw/wk0-classroom-routines/day*.md` and `python3 build/inject_pdf_links.py` to generate the 5 new exit-ticket PDFs.
+2. **Wk0 Classroom Routines pilot pass — DONE 2026-08-05** as part of FYF Phase A. All 5 days audited, tickets converted to the printable convention (5 new PDFs), construct renamed to core personality types, D-1 research-format teach installed on Day 5.
 
 3. **CFA rollout for 2SW-6SW (BLOCKED on round-2 teacher feedback on the 1SW CFA sample).** Template in `cce-curriculum/notes/cfa-template.md`. Do not build 2SW-6SW CFAs until the 1SW sample returns with teacher comments.
 
@@ -242,8 +247,8 @@ Three sources of feedback collected: Google Form (2 responses, E. O'Connor), han
 
 ### 4.4 DEFERRED — Not actionable yet
 
-- **C6 H&L teaching guide page references** — blocked on H&L delivering the teaching guide (we only have the student workbook).
-- **Full workbook re-sync pass** — when personalized IISD workbook arrives, all `[description coming soon]` activities in the H&L spreadsheet become real content to cite. Do not invest heavy editing in affected weeks until then.
+- **C6 H&L teaching guide page references** — PARTIALLY RESOLVED 2026-08-05: still no teaching guide, but the 17 Climber Notes decks (with speaker notes) + 8 general teacher resources arrived; see `cce-curriculum/resources/climber-notes/INDEX.md` and `hl-teacher-resources/INDEX.md`.
+- **Full workbook re-sync pass** — **LIVE as of 2026-08-05.** The official workbook ("Find Your Future") arrived; the re-sync is the FYF realignment (`cce-curriculum/notes/fyf-realignment-plan.md`). Phase A (1SW) complete; Phases B/C pending.
 
 ### 4.5 H&L Activity Cross-Reference
 
@@ -251,7 +256,7 @@ H&L's scope notes reference both existing workbook activities and future IISD-pe
 
 **Already in the current example workbook** (can cite now): Mission to Mars, Task Bot in Action, Emergency Essentials: Kit Design, Perfect Toothbrush, Trash to Treasure, Safety Supervisor, Infrastructure Imagination, Protecting Wildlife, Pack Your Bags / Local Tourism Campaign, Hotel Rescue, Pitch Your Idea. Motivation and Creativity are in current Powerskills.
 
-**NOT in the current workbook** (coming with IISD personalization): Digital Fingerprint Analysis, Digital Disguise, Drafting a Law, Mock Trial (Citizens v. Oakhaven), Bike Path Emergency, Heat Detective, Triage Experts, Dental Detectives, Codebook in Action, Mini Medics, Med Safe Packaging, Patient Learning, Grow System Rescue, Rebranding a Menu, Special Effects Makeup, Skincare Science, Prompt Engineering for Makeup Artists, Million Dollar Idea, Build Your Business Blueprint, Build it Better, Energy Escape, Survive the Depths, Water Line Crisis, Flight Line Fixers, Crash Crew, Brake Pad Investigation, Safety Squad. New Powerskills: Resilience, Tolerance to Ambiguity, Nonverbal Communication, Analytical Reasoning.
+**RESOLVED 2026-08-05:** the personalized workbook shipped as "Find Your Future". Of the 44 predicted names, 18 arrived verbatim, 16 renamed (e.g., Mock Trial → Clinton Lake Case, Dental Detectives → Smile Squad, Survive the Depths → Safety Supervisor, Water Line Crisis → Plumbing Under Pressure), and 10 did not ship (incl. Digital Fingerprint Analysis, Infrastructure Imagination, Energy Escape, Powerskill: Nonverbal Communication). The full FOUND/RENAMED/ABSENT table is in the workbook inventory referenced by `cce-curriculum/notes/fyf-realignment-plan.md`. This section is historical; the realignment plan supersedes it.
 
 **H&L's "What is Happening at Irving ISD?" pattern** already aligns with our existing pathway/certification sections. When the personalized workbook ships, our sections will sync naturally; for now, reword only to tighten language.
 
@@ -358,7 +363,9 @@ Run after every edit batch. All six must be clean before committing.
 
 ```bash
 cd "/Users/elishalucero/Coding Projects/27 CCR Planning"
-python3 -m mkdocs build --strict
+# NOTE: mkdocs lives under /usr/bin/python3 (3.9.6), NOT Homebrew python3.
+# The PDF pipeline (playwright/jinja2/markdown) ALSO runs on /usr/bin/python3.
+/usr/bin/python3 -m mkdocs build --strict
 grep -rn "> \*\*Teacher:" docs/
 for f in docs/*/*/day*.md; do grep -q "DOK [2-4]" "$f" || echo "MISS DOK $f"; done
 for f in docs/*/*/day*.md; do

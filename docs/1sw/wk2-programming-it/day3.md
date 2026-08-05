@@ -1,40 +1,47 @@
-# Day 3: IT Salary Showdown — Comparing 3 Programming Careers
+# Day 3: Powerskill Resilience + IT Salary Showdown
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Pull salary and demand data from H&L for 3 IT careers; cross-reference with BLS Occupational Outlook Handbook; complete the IT Salary Comparison worksheet |
+| **Objectives** | Plan a cybersecurity team's bounce-back after a failed test using the Flip the Failure chart; cross-reference H&L and BLS salary data for 3 IT careers; complete the IT Salary Comparison worksheet |
 | **TEKS** | d(1)(C), d(5)(A), d(5)(E) |
-| **Deliverable** | Completed IT Salary Comparison worksheet (3 careers × 5 fields) |
-| **Materials** | H&L Workbook Ch 12, Chromebooks, BLS Computer/IT pages, printed IT Salary Comparison worksheet, projector |
+| **5E Phases** | Engage: Warm-Up · Explore: Flip the Failure chart and the BLS salary comparison · Explain: Share and Compare partner talk · Evaluate: Exit Ticket |
+| **Deliverable** | Completed Flip the Failure chart + IT Salary Comparison worksheet (3 careers × 5 fields) |
+| **Materials** | *Find Your Future* workbook pp. 26-27, Chromebooks, BLS Computer/IT pages, printed IT Salary Comparison worksheet, projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Do you think all programming jobs pay the same? Predict: Which programming career do you think pays the MOST?**
+**WARM-UP: Think about a time you practiced hard or worked hard on something and it still flopped. What did you do right after it happened?**
 
-Quick share. Most students will guess Game Developer or App Developer. The actual answer is usually Backend Engineer or Software Engineer at a large company. Bridge: "Today you find out for real, using the same data professional career counselors use."
+Quick share. Most students will name quitting, blaming, or trying again with no plan. Bridge: "Today you are the team leader when a security system fails its big test. Your job is not to feel bad about it. Your job is to figure out the next move."
 
 ---
 
-## Activity 1: H&L Salary and Demand Data (15 min)
+## Activity 1: Powerskill Resilience — Flip the Failure (15 min)
 
-> [H&L PLATFORM] Direct students back to the H&L IT cluster. They need to pull salary and demand data for 3 specific careers: Software Developer, Web Developer, and ONE other programming or IT Hat of their choice (App Developer, Game Developer, Network Administrator, Data Scientist). For each Hat, they check the H&L app's localized DFW salary range and demand indicator (growing / steady / declining).
+**Source:** (FYF pp. 26-27: "Powerskill: Resilience")
 
-Walk students through the H&L Hat profile layout on the projector. Show them where to find:
+Open the workbook to page 26. Read the definition together: resilience is the ability to bounce back after a setback. Resilient people do not give up. They hit pause, figure out what went wrong, and ask what they can try differently next time.
 
-- DFW salary range (entry-level → experienced)
-- Demand indicator (usually a graph or symbol)
-- Education level
-- Daily tasks
+**Step 1: Read the Scenario (p. 26).** Students are the team leader of a cybersecurity group. The team spent months building a system to stop hackers. Today is test day and the system did not work as expected. Half the team played the hackers, half watched the system, and four things went wrong:
 
-Students record this data on a notes page in their workbook. They will move it to the worksheet in the next activity.
+1. **The alert system was too slow.** The warning did not reach the team until the hackers had been inside the network for 15 minutes, and by then top-secret files were gone.
+2. **One password system was never updated.** Running on old software, it let hackers in with guesses like "admin123."
+3. **Test results were misread.** A warning flashed early in the test, someone decided it was a glitch, and brushing it off left a hole in the security wall.
+4. **Communication broke down.** Everyone panicked and talked over each other, and nobody knew whose job it was to press the stop button.
+
+The page also describes a frozen laptop, a phone full of notifications, and a loud printer. Point out that the workbook calls these annoying but not the main problem, and ask students which of the four items above is the real problem instead.
+
+**Step 2: Flip the Failure (p. 27).** Students fill the three-column chart in their workbook. Column 1 is the What Went Wrong item, column 2 is Bounce Back Ideas (how do we fix the problem?), and column 3 is Tips for the Team to Stay Resilient. All four rows get filled.
+
+**Step 3: Share and Compare (p. 27).** **Think-Pair-Share:** 30 seconds of silent Think on the workbook's own question, how focusing on solutions instead of mistakes shows resilience, then Partner A reads one row for 30 seconds and Partner B reads a different row for 30 seconds. Partners name one place their charts agree and one place they differ. Two pairs share with the class.
 
 !!! tip "Facilitation Tip"
-    Students often miss the difference between entry-level and experienced salary. Point this out explicitly: "An entry-level Software Developer in DFW makes around $70,000. After 10 years, that same person can make $130,000 or more. That difference is what 'years of experience' means in IT."
+    The most common student answer in column 2 is "work harder." Push for a fix a team could actually schedule: set the alert to fire in under a minute, put software updates on a calendar, write down who presses stop. If a student cannot name who does the fix and when, the idea is not a bounce back plan yet.
 
 ---
 
@@ -42,13 +49,17 @@ Students record this data on a notes page in their workbook. They will move it t
 
 **Source:** BLS Occupational Outlook Handbook (free, government-maintained, used by professional career counselors)
 
+Open with a 60 second prediction before anyone touches a Chromebook: do all programming jobs pay the same, and which one pays the MOST? Most students guess Game Developer or App Developer. The usual answer is a Backend Engineer or a Software Engineer at a large company. Students write their prediction at the top of the worksheet and check it at the end.
+
+Students pick 3 careers: Software Developer, Web Developer, and ONE other programming or IT Hat (App Developer, Game Developer, Network Administrator, Data Scientist). The **H&L DFW Salary** column comes from the reference sheet they built on Day 2. Anyone whose third career was not on that sheet opens the Hats & Ladders app, finds that Hat in the IT cluster, and copies the DFW salary range and demand indicator before starting the BLS work.
+
 Direct students to the BLS pages for their 3 chosen careers:
 
 - Software Developers: [bls.gov/ooh/computer-and-information-technology/software-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm)
 - Web Developers: [bls.gov/ooh/computer-and-information-technology/web-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm)
 - (Their choice): browse [bls.gov/ooh/computer-and-information-technology/home.htm](https://www.bls.gov/ooh/computer-and-information-technology/home.htm)
 
-For each BLS page, students find:
+**Chunking:** Teach the five fields one at a time on the projector with the Software Developer column filled in as the model. Say what each field is for before showing where it lives on the BLS page, and take a quick thumbs check after each field before releasing the next one. For each BLS page, students find:
 
 - **Median Pay** (national; located in the Quick Facts box at the top)
 - **Typical Entry-Level Education**
@@ -74,13 +85,13 @@ After students complete the worksheet, they answer 2 reflection questions on the
 **DOK 3:** What conclusions can you draw about the relationship between education level and salary for IT careers in the DFW area? Is more education ALWAYS worth it?
 
 !!! tip "Facilitation Tip"
-    The most common student mistake: they confuse "median pay" with "starting pay." Median = the middle of all workers in that career, not the entry level. Show them: "If you Google 'starting salary Software Developer DFW,' you get a different number than the BLS median. The median is what you make in the MIDDLE of your career."
+    The most common student mistake: they confuse "median pay" with "starting pay." Median = the middle of all workers in that career, not the entry level. Show them: "If you Google 'starting salary Software Developer DFW,' you get a different number than the BLS median. The median is what you make in the MIDDLE of your career." The H&L column shows the same idea as a range. An entry-level Software Developer in DFW makes around $70,000 and the same person can make $130,000 or more after 10 years. That gap is what "years of experience" buys in IT.
 
 ---
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/1sw-wk2-day3-it-salary-showdown-comparing-3-programming-careers.pdf):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/1sw-wk2-day3-powerskill-resilience-it-salary-showdown.pdf):
 
 Use your IT Salary Comparison worksheet to fill in the matrix below.
 
@@ -98,6 +109,6 @@ Bottom line: Which of your three careers has the BEST combination of HIGH salary
 
 ## Differentiation
 
-- **Support:** Pre-fill one column of the IT Salary Comparison worksheet (Software Developer) as a model. Students complete the other 2 columns.
+- **Support:** Pre-fill one column of the IT Salary Comparison worksheet (Software Developer) as a model. Students complete the other 2 columns. For Flip the Failure, pre-print the chart with row 1 ("The alert system was too slow") already filled in so students complete the remaining three rows.
 - **Extension:** Students compare their 3 DFW IT careers to the same 3 careers in San Francisco. The salaries are higher in SF, but cost of living is much higher too. Discuss: which is actually a better deal?
-- **ELL:** Bilingual worksheet headers (Career = Carrera, Salary = Salario, Education = Educación, Growth = Crecimiento). Allow ELL students to use the BLS pages in their preferred language via browser translation.
+- **ELL:** Bilingual worksheet headers (Career = Carrera, Salary = Salario, Education = Educación, Growth = Crecimiento). Allow ELL students to use the BLS pages in their preferred language via browser translation. Read the four scenario failures aloud before students start the chart, and offer the stem "Next time the team should _____ so that _____ (La próxima vez el equipo debe _____ para que _____)."

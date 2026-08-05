@@ -1,14 +1,15 @@
-# Day 3: Designing Metalworks + Job References
+# Day 3: Super Sports Manufacturing — Design, Build, Test
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the H&L "Designing Metalworks" welder activity (sketch + metal choice + weld choice); complete the "Job References" activity by listing 3 personal references |
-| **TEKS** | d(1)(C), d(7)(D) |
-| **Deliverable** | Bike rack sketch with labeled welds (Ch 14, p. 238) + 3-reference list (Ch 14, p. 235) |
-| **Materials** | H&L Workbook Ch 14 (pp. 234-238), Chromebooks, plain paper, pencils, projector |
+| **Objectives** | Complete the "Super Sports Manufacturing" welder activity (sketch + metal choice + weld choice + labeled welds); build a bike rack prototype with a partner and stress-test the joints |
+| **TEKS** | d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explore: Bike rack design, metal and weld choices, prototype build and strength test · Explain: Class discussion on design trade-offs · Evaluate: Exit Ticket |
+| **Deliverable** | Bike rack sketch with labeled welds (FYF p. 206) + one tested prototype per pair |
+| **Materials** | *Find Your Future* workbook pp. 204-206, popsicle sticks, straws, hot glue guns and glue sticks, scissors, craft gloves, plain paper, pencils, projector |
 
 ---
 
@@ -16,17 +17,17 @@
 
 **WARM-UP: How many bikes are in the bike rack at the front of our school? If a school district ordered 100 brand new bike racks, who would design them, who would build them, and what would they be made of?**
 
-Quick share. Bridge: "Today YOU are the welder who has to make 100 of those bike racks. The H&L workbook gives you the order, and you have to make every design choice."
+Quick share. Bridge: "Today YOU are the welder who has to make 100 of those bike racks. The workbook gives you the order, and you have to make every design choice, then prove your design holds up."
 
 ---
 
-## Activity 1: H&L "Designing Metalworks" Activity (28 min)
+## Activity 1: "Super Sports Manufacturing" Activity (28 min)
 
-**Source:** H&L Workbook Ch 14, pp. 236-238, "Designing Metalworks" (Career Climb activity)
+**Source:** (FYF pp. 204-206: "Super Sports Manufacturing"), a Career Climb activity
 
-Open the workbook to page 236. Read the scenario together: students are the expert welder at SuperSports Manufacturing. The local school district just ordered 100 custom bike racks for all of their schools. It is the student's job to design and build a durable, functional, weather-resistant bike rack.
+Open the workbook to page 204. Read the scenario together: students are the expert welder at SuperSports Manufacturing, a company known for high-quality sports equipment, especially bikes. The local school district just ordered 100 custom bike racks for all of their schools. It is the student's job to design and build a durable, functional, weather-resistant bike rack.
 
-**Step 1: Design Your Bike Rack (10 min).** Students sketch their bike rack on paper or in the workbook (p. 236). The workbook spec says it must be:
+**Step 1: Design Your Bike Rack (10 min).** Students sketch their bike rack in the workbook (p. 204). The workbook spec says it must be:
 
 - Strong enough to hold multiple bikes without bending
 - Durable in all kinds of weather
@@ -34,7 +35,7 @@ Open the workbook to page 236. Read the scenario together: students are the expe
 
 The workbook tells students NOT to worry about materials yet. Focus on the design first. Students draw a top view (how it looks from above) and a side view (how it looks from the side).
 
-**Step 2: Choose Your Metal (5 min).** Students review the workbook's metal table (Ch 14, p. 237) and circle ONE choice:
+**Step 2: Choose Your Metal (5 min).** Students review the workbook's metal table (FYF p. 205) and circle ONE choice:
 
 | Metal | Pros | Cons |
 |---|---|---|
@@ -44,7 +45,7 @@ The workbook tells students NOT to worry about materials yet. Focus on the desig
 
 Students write 1-2 sentences explaining their metal choice.
 
-**Step 3: Choose Your Welding Method (5 min).** Students review the welding methods table (Ch 14, p. 238):
+**Step 3: Choose Your Welding Method (5 min).** Students review the welding methods table (FYF p. 205):
 
 | Welding Method | Best For |
 |---|---|
@@ -53,11 +54,9 @@ Students write 1-2 sentences explaining their metal choice.
 | Surfacing Weld | Filling holes in metal |
 | Corner Weld | Forming angles on the outside base for support |
 
-Students circle the welding method(s) they will use and write WHY they chose it in the workbook box (p. 238).
+Students circle the welding method(s) they will use and write WHY they chose it (p. 205).
 
-**Step 4: Label Your Welds (5 min).** Students go back to their sketch and clearly label where each weld will go and which method they will use (e.g., "Fillet Weld here at corner").
-
-**Extra Time?** The workbook offers an enhancement: add custom features that make the bike rack stand out (locks, branding, lighting, color).
+**Step 4: Label Your Welds (5 min).** Students go back to their sketch on page 204 and clearly label where each weld will go and which method they will use (e.g., "Fillet Weld here at corner"). The label shows the name of the weld, not just an arrow.
 
 !!! tip "Facilitation Tip"
     Most students will pick aluminum because it is "lightweight." Push them: "If a 60-pound bike falls on it 10 times a day, will aluminum hold up better than carbon steel? Why?" This forces real engineering tradeoff thinking. There is no single right answer; there are good reasons for any of the three metals.
@@ -66,59 +65,53 @@ Students circle the welding method(s) they will use and write WHY they chose it 
 
 ---
 
-## Activity 2: H&L "Job References" — Building a References List (12 min)
+## Activity 2: Build and Test Your Bike Rack Prototype (12 min)
 
-**Source:** H&L Workbook Ch 14, pp. 234-235, "Job References"
+**Source:** (FYF p. 206: "Super Sports Manufacturing", Steps 5-6)
 
-Open the workbook to page 234. Read the introduction together: a job reference is someone who can talk about your skills, work ethic, and personality to a future employer. The workbook explains that good references know you well, can talk about your strengths, and will give an honest and positive review.
+**Step 5: Build Your Prototype (7 min).** Students pair up, compare both bike rack sketches, and choose ONE design to build together out of popsicle sticks, straws, and hot glue. The workbook asks them to watch their connection points as they build, because strong joints keep a structure stable and balanced. Pairs cut and arrange materials to match the sketch, connect the pieces into sturdy joints, try more than one way of joining pieces, and adjust as they go if a section feels weak.
 
-Walk through the workbook's 5 steps for choosing references (Ch 14, p. 234):
+**Time, Voice, Body:** Post the three blocks before any glue gun is switched on. Voice 1 for build talk, hot glue guns stay on their station mat, cut straw ends go in the scrap tray, and a visible 7 minute countdown runs on the screen. Craft gloves go on before the glue does.
 
-1. Choose people who know your work ethic: teachers, coaches, mentors, volunteer coordinators, former employers (NOT friends or family members).
-2. Ask for permission before listing them.
-3. Collect their contact information (name, job title, relationship, phone, email).
-4. Keep it professional: neatly formatted like a resume.
-5. Stay in touch: keep references updated and thank them.
+**Step 6: Test Your Design (3 min).** Pairs test the strength of the finished structure. They press gently on different sections and answer four questions: does the structure stay balanced or wobble, which joints feel strongest, which areas need reinforcement, and what would they reinforce first. If time allows, they strengthen or redesign one weak area.
 
-**Student task (workbook, p. 235):** Students list 3 potential references in their workbook. For each, they write:
-
-- Name
-- Job Title
-- Relationship to you (teacher, coach, mentor)
-- Why you think they would be a good reference
-
-Tell students: these are HYPOTHETICAL. They are not asking these people today. The point is to think about who in their life could vouch for them as a hard worker.
-
-After 8 minutes, lead a brief discussion using the workbook prompt (Ch 14, p. 235): What makes a good reference? Why are references important in the hiring process?
+**Class Discussion (2 min).** Use the workbook's own prompts (FYF p. 206): what challenges did you run into while designing your bike rack, and how did you solve them? What Powerskills do welders need to be successful at work? Which of your Building Blocks would help you most in a welding career?
 
 !!! tip "Facilitation Tip"
-    Many 7th graders default to "my best friend's mom" as a reference. Stop and re-read the workbook rule: "Friends and family members usually don't count!" Push students to think of TEACHERS (current and past) and any adult who has supervised them in a paid or volunteer setting (church youth group leader, soccer coach, scout leader).
+    Pairs build ONE rack together, not two. That halves the number of glue stations you have to supervise and forces the design conversation the workbook is after. If a pair cannot agree, tell them to build the design with the clearer weld labels, since that is the one they can actually explain.
 
 ---
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/1sw-wk1-day3-designing-metalworks-job-references.pdf):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/1sw-wk1-day3-super-sports-manufacturing-design-build-test.pdf):
 
-Imagine a 12th-grader applying for a welding apprenticeship next year. They are choosing references from this list. Rank them from STRONGEST reference (1) to WEAKEST (4) using the 5 H&L rules for picking references.
+You are the welder at SuperSports Manufacturing. The bike rack will sit outside all year. Rank the three metals from BEST (1) to WORST (3) for this job.
 
-- Their best friend from English class: rank ____
-- Their math teacher from 8th grade who supervised their robotics club: rank ____
-- Their soccer coach of 3 years: rank ____
-- Their mom, who also works at a welding shop: rank ____
+- Aluminum: rank ____
+- Stainless Steel: rank ____
+- Carbon Steel: rank ____
 
-For each rank, name ONE H&L rule from today (knows your work ethic, not friends/family, has permission, professional contact, supervised you):
+1. Why is your #1 metal the best choice for a rack that stays outside? Use one PRO and one CON from the table.
 
-- Rank 1 (strongest): _______________________________________________________
+   ___________________________________________________________________
 
-- Rank 4 (weakest): _______________________________________________________
+2. Your prototype test found one weak spot. Name it. Then name the weld you would use to make it stronger.
 
-*(d(1)(C), d(7)(D))*
+   Weak spot: _______________________ Weld: _______________________
+
+3. Name ONE other Manufacturing career that would work on this bike rack order. Say what that person would do.
+
+   Career: _______________________
+
+   What they do: ____________________________________________________
+
+*(d(1)(C))*
 
 ---
 
 ## Differentiation
 
-- **Support:** Provide a pre-drawn bike rack template students can label and modify rather than sketching from scratch. For References, provide a sentence stem: "I chose _____ because they know I am _____."
+- **Support:** Provide a pre-drawn bike rack template students can label and modify rather than sketching from scratch. For the build, pre-cut a set of popsicle sticks and straws to length so the pair spends its 7 minutes joining rather than measuring. Sentence stem for the metal choice: "I chose _____ because it _____, even though it _____."
 - **Extension:** Students who finish the bike rack early sketch a custom feature (built-in lock, lighted reflectors, weatherproof cover) and explain how it would be welded.
-- **ELL:** Bilingual welding vocabulary: Soldar = To Weld, Aluminio = Aluminum, Acero inoxidable = Stainless Steel, Acero al carbono = Carbon Steel. Allow students to label their bike rack diagram in Spanish.
+- **ELL:** Bilingual welding vocabulary: Soldar = To Weld, Aluminio = Aluminum, Acero inoxidable = Stainless Steel, Acero al carbono = Carbon Steel, Prototipo = Prototype. Allow students to label their bike rack diagram in Spanish.

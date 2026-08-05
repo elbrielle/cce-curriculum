@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Research one emerging IT career; complete the Emerging Tech Research Template; identify why the career is "emerging" and what makes it grow |
 | **TEKS** | d(1)(C), d(1)(D) |
+| **5E Phases** | Engage: Warm-Up · Explain: Emerging career options and what "emerging" means · Explore: Three-source research · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Emerging Tech Research Template |
 | **Materials** | Chromebooks, BLS Computer/IT pages, H&L Hat Finder, printed Emerging Tech Research Template, projector |
 
@@ -56,7 +57,7 @@ Students complete the **Emerging Tech Research Template** (one row per field):
 | Why is this considered "emerging"? | |
 | One DFW company that hires for this role | |
 
-Walk the room and check that students are using all 3 sources, not just Google. Stop students who are scrolling without writing.
+**Active Monitoring:** Walk one lap at minute 12 targeting the salary and growth-rate rows (both pulled from BLS, not from a search snippet) and a second lap at minute 25 targeting the "why is this considered emerging" row. Stop students who are scrolling without writing. If a lap turns up several students stuck on a career with no BLS entry, pull the room together and name the closest-match rule in the tip below rather than solving it seat by seat.
 
 !!! tip "Facilitation Tip"
     Some emerging careers (especially AI Engineer and Drone Software Developer) are not yet listed as standalone careers on BLS. In those cases, direct students to "Software Developers" or "Computer and Information Research Scientists" as the closest match, and explicitly note in their template that the BLS doesn't yet have a unique entry, which is itself proof the career is emerging.

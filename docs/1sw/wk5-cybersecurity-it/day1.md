@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Explore the Cybersecurity pathway in H&L; investigate Information Security Analyst, Penetration Tester, and Security Consultant Hats; trace a path from middle school to a cybersecurity career using CyberSeek |
 | **TEKS** | d(1)(D) |
+| **5E Phases** | Engage: Warm-Up · Explore: Cybersecurity Hat research in the app · Explain: CyberSeek pathway walkthrough · Evaluate: Exit Ticket |
 | **Deliverable** | Cybersecurity career notes + CyberSeek pathway traced from entry-level to advanced |
-| **Materials** | H&L Workbook Ch 12, Chromebooks, CyberSeek.org, BLS Information Security Analysts page, projector |
+| **Materials** | *Find Your Future* workbook pp. 36-38, Chromebooks, CyberSeek.org, BLS Information Security Analysts page, projector |
 
 ---
 
@@ -22,9 +23,11 @@ Quick share, many students will have personal stories. Bridge: "Every one of tho
 
 ## Activity 1: H&L Cybersecurity Pathway Exploration (20 min)
 
-**Source:** H&L Workbook Ch 12, p. 192, Cybersecurity pathway (one of the 5 IT pathways)
+**Source:** (FYF pp. 36-37: "What is Happening at My District?") + (FYF p. 38: "App Exploration")
 
-> [H&L PLATFORM] Direct students to the H&L IT cluster, then specifically to the Cybersecurity pathway. The workbook (Ch 12, p. 192) describes this pathway as: "Protect computers, networks, and data from hackers, viruses, and cyber threats." Students use the Hat Finder to explore four specific Hats: Information Security Analyst, Cybersecurity Specialist, Penetration Tester (Ethical Hacker), and Security Consultant.
+The workbook no longer prints an Information Technology pathway list. What it prints instead is better: the district pages name **Cybersecurity** as one of Irving ISD's four Information Technology programs of study, describe it as preparing students for careers in information security through network security, cyber threats, and risk management, and name the **Cybersecurity Fundamentals** industry-based certification and the **CyberPatriot** student organization that go with it. Put those two names on the board before students open the app; they come back on Day 4.
+
+> [H&L PLATFORM] Direct students to the H&L app, then to Clusters, then to the Information Technology Cluster, which is the path the App Exploration page uses (FYF p. 38). Inside the cluster, students use the Hat Finder to explore four specific Hats: Information Security Analyst, Cybersecurity Specialist, Penetration Tester (Ethical Hacker), and Security Consultant.
 
 **The 4 Cybersecurity Hats to explore:**
 
@@ -39,6 +42,8 @@ Students spend ~5 minutes per Hat and write down on a notes sheet:
 - Education needed
 - DFW or national salary
 - One thing that surprised them
+
+**Stop and Jot:** Put those four fields on the screen before the first Hat and take a 45 second jot at the end of each Hat rather than one jot at the end of all four. Two stems for students who stall: "A _____ needs _____ years of training and earns about $_____" and "I did not expect this job to _____."
 
 !!! tip "Facilitation Tip"
     Ethical Hacker / Penetration Tester is the role that gets the most student excitement. Tell them the truth: yes, it's an awesome job, but it requires YEARS of programming and networking experience first. You don't start there. You START as an Information Security Analyst and work up.
@@ -64,7 +69,7 @@ For each layer, click on a job title and look at:
 - Median salary
 - Common certifications required (CompTIA Security+, CISSP, CEH)
 
-**Student task:** Each student picks ONE entry-level cybersecurity job and traces a 5-step pathway from where they are NOW (7th grade) to becoming that professional. Steps to write in their workbook margin:
+**Student task:** Each student picks ONE entry-level cybersecurity job and traces a 5-step pathway from where they are NOW (7th grade) to becoming that professional. Steps to write on the back of their Hat notes sheet:
 
 1. Now: 7th grade
 2. High school (9-12): Singley Cybersecurity pathway + Cybersecurity Fundamentals certification
@@ -102,6 +107,6 @@ Bottom line: CyberSeek showed hundreds of thousands of OPEN US cybersecurity job
 
 ## Differentiation
 
-- **Support:** Provide a printed CyberSeek pathway with the 5 steps pre-labeled. Students just write in their target job. Pre-print the H&L cybersecurity Hat names with one example career filled in.
+- **Support:** Provide a printed CyberSeek pathway with the 5 steps pre-labeled. Students just write in their target job. Pre-print the four cybersecurity Hat names on the notes sheet with one example row filled in.
 - **Extension:** Students explore the **NOVA Cybersecurity Lab** game (free, PBS): [pbs.org/wgbh/nova/labs/lab/cyber/](https://www.pbs.org/wgbh/nova/labs/lab/cyber/). It is an interactive game that teaches phishing, password security, and basic ethical hacking concepts.
 - **ELL:** Bilingual cybersecurity vocabulary: Hacker = Hacker, Virus = Virus, Contraseña = Password, Análisis = Analysis, Firewall = Cortafuegos, Phishing = Suplantación de identidad. CyberSeek does not have full Spanish translation, so pair ELL students with bilingual peers.

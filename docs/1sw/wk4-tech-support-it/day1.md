@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Explore the IT Support and Services pathway in H&L; investigate Help Desk Technician, IT Support Specialist, and Systems Administrator Hats; understand that not all IT careers require a 4-year degree |
 | **TEKS** | d(2)(A) |
+| **5E Phases** | Engage: Warm-Up · Explore: IT Support Hat browse in the app · Explain: Certification and degree comparison · Evaluate: Exit Ticket |
 | **Deliverable** | Notes on 3 IT support careers (education, salary, daily tasks) |
-| **Materials** | H&L Workbook Ch 12, Chromebooks, projector |
+| **Materials** | *Find Your Future* workbook pp. 36 and 38, Chromebooks, projector |
 
 ---
 
@@ -22,9 +23,9 @@ Quick share. Listen for: parent, sibling, "the IT guy at school," YouTube tutori
 
 ## Activity 1: H&L Information Technology Support and Services Pathway (25 min)
 
-**Source:** H&L Workbook Ch 12, p. 192, IT Support and Services pathway (one of the 5 IT pathways)
+**Source:** (FYF p. 38: "App Exploration") and (FYF p. 36: "What is Happening at My District?")
 
-> [H&L PLATFORM] Direct students to the H&L IT cluster, then to the Information Technology Support and Services pathway. The workbook (Ch 12, p. 192) describes this pathway as: "Help people and businesses troubleshoot and fix computer, software, and network issues." Students use the Hat Finder to explore four specific Hats: Help Desk Technician, IT Support Specialist, Desktop Support Technician, and Systems Administrator. Students check education indicators and rate Perks/Quirks/Job Gear.
+> [H&L PLATFORM] The App Exploration page walks students through the cluster in order: open the Hats & Ladders app, go to Clusters, click the Information Technology Cluster, watch the "Cluster Tour" video, play "Game Time," find 1 Hat that matches their personality or interests and 1 Hat that does not fit, open "Pathway Possibilities" and rate at least 1 pathway, then rate at least 3 Hats. Point the pathway rating at **Information Technology Support and Services**, where careers help people and businesses troubleshoot and fix computer, software, and network problems. Students use the Hat Finder to explore four specific Hats: Help Desk Technician, IT Support Specialist, Desktop Support Technician, and Systems Administrator. Students check education indicators and rate Perks/Quirks/Job Gear, recording their answers on page 38.
 
 **The 4 IT Support Hats to explore:**
 
@@ -33,12 +34,16 @@ Quick share. Listen for: parent, sibling, "the IT guy at school," YouTube tutori
 3. **Desktop Support Technician:** Specializes in physical hardware: replacing keyboards, swapping hard drives, installing software on individual machines.
 4. **Systems Administrator:** Senior IT support role. Manages servers, user accounts for the entire company, network configurations. Requires more experience and often a certification or degree.
 
-**Student task:** Spend ~5 minutes per Hat. For each, write down on a notes sheet:
+Irving ISD runs its own version of this pathway. The workbook's district pages list **Technology Support** among the district's Information Technology programs of study and describe it as preparing students for careers in IT services through computer hardware, systems troubleshooting, and software installation (FYF p. 36: "What is Happening at My District?").
+
+**Student task:** Spend ~5 minutes per Hat. **Stop and Jot:** for each Hat, write down on a notes sheet:
 
 - Hat name
 - Education needed (DEGREE / CERTIFICATION / BOTH)
 - DFW salary range
 - 1-2 daily tasks
+
+Two stems for students who stall on the education field: "This Hat needs a degree, a certification, or both because the profile says _____" and "A _____ certification takes _____ months to earn and qualifies you for _____."
 
 Walk the room. Pay special attention to the **education** field. This is the key insight for the week. Most of these careers list "certification" or "associate degree" as acceptable, NOT a 4-year bachelor's.
 

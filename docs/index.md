@@ -20,7 +20,7 @@ A 36-week career exploration course taught in **VILS labs across Irving ISD midd
 
 | Platform | Role |
 |----------|------|
-| **Hats & Ladders** | Core: RIASEC, career clusters, Hat Finder, Career Plan, workbook activities |
+| **Hats & Ladders** | Core: core personality types, work values, career clusters, Hat Finder, Career Plan, workbook activities |
 | **Xello** | Supplement: quizzes, career saves, resume, course planning |
 | **eDynamic Learning** | Supplement: career exploration units |
 | **VILS Tech** | Hands-on: Sphero, Glowforge, drones, micro:bit, TinkerCAD |

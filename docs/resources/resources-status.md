@@ -2,7 +2,7 @@
 
 **What this page is:** a living checklist of teacher-facing resources that are **ready to use**, **partially built**, or **still to be created** for the CCE Curriculum. This is the page to check when you want to know "what's missing before I can teach this week" or "what should I expect my teammates to build next."
 
-**Last updated:** 2026-04-14 (pre-teacher-review baseline)
+**Last updated:** 2026-08-05 (Phase A FYF realignment closeout, 1SW block)
 
 ---
 
@@ -24,9 +24,33 @@
 | Master Scope & Sequence (13-column pacing guide) | ✅ | [Scope & Sequence](../scope-and-sequence.md) |
 | TEKS Coverage Matrix (every d(1)–d(8) standard mapped to its weeks) | ✅ | [TEKS Coverage Matrix](teks-coverage-matrix.md) |
 | Free Resource Directory (BLS, Code.org, Canva, iCivics, etc.) | ✅ | [Free Resource Directory](free-resource-directory.md) |
-| Source grounding (every H&L activity cites chapter + page) | ✅ | Throughout daily plans |
+| Source grounding (every workbook activity cites a page) | ✅ | Throughout daily plans. 1SW cites the Irving *Find Your Future* workbook; 2SW-6SW still cite the generic H&L workbook pending Phases B and C |
 | Differentiation (Support / Extension / ELL + Spanish vocab) on every day | ✅ | Every daily plan |
 | Facilitation Tip blocks (222 across the curriculum) | ✅ | Throughout daily plans |
+| Printable exit-ticket PDFs (178, one per daily exit ticket, Irving ISD branded) | ✅ | `docs/resources/exit-tickets/`, linked from every day page |
+| 1SW Common Formative Assessment (stimulus, 4 parts, 4-level rubric) | ✅ | [1SW CFA](../1sw/cfa.md) |
+
+### Exit-ticket PDF pipeline
+
+Every daily exit ticket renders to a printable, Irving ISD branded PDF. 178 PDFs cover all 180 daily plans except 1SW Wk3 Day 3 and 1SW Wk5 Day 5, which have no exit ticket. Each day page carries a `[Printable PDF]` link next to its `**EXIT TICKET**` marker.
+
+```bash
+python3 build/build_pdfs.py         # regenerate every exit-ticket PDF
+python3 build/inject_pdf_links.py   # refresh the [Printable PDF] links in day files
+```
+
+Operating manual: `cce-curriculum/notes/exit-ticket-pdf-pipeline.md`. Do not hand-edit the generated PDFs or the design CSS in `build/exit_ticket_template/`.
+
+### Reference assets on hand
+
+| Asset | What it is | Where |
+|---|---|---|
+| *Find Your Future* (FYF) workbook | The official Irving ISD student workbook, 308 pp., © 2026 Hats & Ladders. Tracked text extract alongside the gitignored PDF | `cce-curriculum/resources/reference-pdfs/IrvingFindYourFuture2026.txt` |
+| Climber Notes decks | 17 teacher slide decks from H&L, including the two that carry the personality-type and work-values content the workbook does not print | `cce-curriculum/resources/climber-notes/` (see `INDEX.md`) |
+| H&L teacher resources | 8 general teacher documents (rubrics, conversation starters, early-finisher activities, classroom displays) | `cce-curriculum/resources/hl-teacher-resources/` (see `INDEX.md`) |
+| H&L generic workbook + Powerskills supplement | The pre-FYF source, still cited by 2SW-6SW until Phases B and C land | `cce-curriculum/resources/reference-pdfs/` |
+
+A Hats & Ladders **teaching guide** (answer keys, timing, differentiation) has not been delivered. The Climber Notes speaker notes carry some facilitation guidance in its place.
 
 ---
 
@@ -51,11 +75,11 @@ The daily plans describe WHAT students do and give the facilitation approach, bu
 
 ### 🟡 Assessment Worksheets (non-photocopiable artifacts)
 
-**Status:** 🟡 Partially addressed. Daily plans reference specific H&L workbook pages (photocopiable when allowed by the H&L license) but some activities require separate worksheets that do not live in H&L.
+**Status:** 🟡 Partially addressed. Exit tickets are covered by the PDF pipeline above. Daily plans also reference specific workbook pages (photocopiable when allowed by the H&L license), but some activities require separate worksheets that do not live in the workbook.
 
 **Examples from the curriculum that need a printable artifact:**
 
-- **1SW Wk0 Day 5**: My Career Journey Handout (persistent across the year)
+- **1SW Wk0 Days 4-5**: My Career Journey reflection handout (persistent across the year) + the CCE career research worksheet reused by every cluster week
 - **2SW Wk1 Day 5**: Position Paper rubric + final-draft template
 - **4SW Wk1 Day 1**: RIASEC vs. Favorites reconciliation worksheet
 - **4SW Wk2 Day 5**: Individual Career Plan template (the official d(8)(C) artifact)
@@ -77,7 +101,7 @@ The daily plans describe WHAT students do and give the facilitation approach, bu
 
 ### 🟡 Common Formative Assessments (CFAs)
 
-**Status:** ⬜ Not yet built.
+**Status:** 🟡 Partial. 1 of 6 built.
 
 **What's needed:** A Common Formative Assessment at the end of each six-weeks block (six total) that measures TEKS mastery for that block and produces data all VILS teachers share, so the district can see where the curriculum is and isn't landing.
 
@@ -93,7 +117,7 @@ The daily plans describe WHAT students do and give the facilitation approach, bu
 
 | Six Weeks | Weeks Covered | TEKS Standards to Measure | Status |
 |-----------|--------------|----------------------------|--------|
-| 1SW | Wk 0–5 (IT/Mfg + Career Self-Discovery) | d(1)(A-D), d(2)(A-B), d(5)(A,E), d(4)(B,F) | ⬜ |
+| 1SW | Wk 0–5 (IT/Mfg + Career Self-Discovery) | d(1)(A-D), d(2)(A-B), d(5)(A,E), d(4)(B,F) | ✅ [1SW CFA](../1sw/cfa.md) |
 | 2SW | Wk 1–6 (Law + Health Science) | d(1)(B-C), d(2)(A-B), d(3)(B-I), d(4)(A-F), d(5)(B,E) | ⬜ |
 | 3SW | Wk 1–6 (Ag + Human Services + Business) | d(1)(C-D), d(3)(G-I), d(5)(C-E) | ⬜ |
 | 4SW | Wk 1–6 (Career Planning + Transportation + STEM) | d(1)(C-D), d(3)(A-G), d(4)(A-B,F), d(8)(A-C) | ⬜ |
@@ -112,7 +136,7 @@ The daily plans describe WHAT students do and give the facilitation approach, bu
 
 **Status:** ⬜ Not yet built.
 
-**What's needed:** A teacher-only companion doc (not on the public site) that contains:
+**What's needed:** A teacher-only companion doc (not on the public site) that contains the items below. Partially mitigated by the 8 H&L teacher resources and the 17 Climber Notes decks now in `cce-curriculum/resources/`, which carry rubrics and some facilitation guidance but no answer keys.
 
 - Answer keys for every worksheet and CFA
 - "Things that go wrong" notes from classroom experience (once we have them)
@@ -166,5 +190,5 @@ The maintainer triages the backlog every 1–2 weeks and updates this page.
 
 - **New activities**: the 180 daily plans are intentionally fixed until teacher feedback comes in. We fix what teachers say is broken, not what we imagine might be broken.
 - **New weeks**: the scope and sequence is locked at 36 weeks aligned to TEKS §127.2. We do not extend without district curriculum approval.
-- **H&L workbook rewrites**: H&L is the source material. We cite it and defer to it; we don't rewrite it.
+- **Workbook rewrites**: the *Find Your Future* workbook is the source material. We cite it and defer to it; we don't rewrite it.
 - **Video curation**: explicitly deferred (see above).

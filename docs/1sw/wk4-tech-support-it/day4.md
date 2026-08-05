@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Refine the MakeCode troubleshooting program; swap with a partner team to test; conduct a customer service role-play using the micro:bit as a support tool |
 | **TEKS** | d(4)(B) |
+| **5E Phases** | Engage: Warm-Up · Explore: Refine and swap-test · Explain: Partner team feedback · Extend: Customer service role-play · Evaluate: Exit Ticket |
 | **Deliverable** | Refined MakeCode program + completed role-play observation by teacher |
 | **Materials** | micro:bit devices, USB cables, Chromebooks, MakeCode, Help Desk scenario cards, projector |
 
@@ -34,6 +35,8 @@ After refining (10 min), partner teams swap micro:bits. Each team tries to use t
 - Were the steps clear (could you understand what to do)?
 - Was anything confusing or missing?
 
+**Think-Pair-Share:** 30 seconds of silent Think on the three questions, then Team A talks for 30 seconds, then Team B. Stems for teams that stall: "The order made sense to me because _____" and "I got stuck at step _____ because the words _____." Two teams share one piece of feedback with the room.
+
 Teams use this feedback to make ONE more refinement before Day 5 demos.
 
 ---
@@ -54,7 +57,7 @@ After 5 minutes, students switch roles. Each pair does the role-play TWICE (once
 3. **Walk through ONE step at a time.** Do not rush ahead. Wait for the user to confirm each step.
 4. **Stay calm.** Even if the user is frustrated, your job is to be the calm one.
 
-Walk between pairs and listen. Use a clipboard checklist to track which pairs are demonstrating each rule. This is the formative assessment for d(4)(B).
+**Active Monitoring:** Walk a fixed route through the pairs twice, once per round of the role-play. Use a clipboard checklist to track which pairs are demonstrating each rule. This is the formative assessment for d(4)(B). Two failures to watch for and name on the spot: the tech who reads the micro:bit steps without waiting for the user to confirm, and the tech who answers jargon with more jargon. If more than a handful of pairs skip the acknowledge step, pause the room and model one opening line before the swap.
 
 !!! tip "Facilitation Tip"
     Some students will rush their role-play and treat it as a joke. Stop them and reset: "If you were the user, would you trust this tech? Slow down. Be patient. That patience IS the skill we're practicing."

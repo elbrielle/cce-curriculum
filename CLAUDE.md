@@ -71,8 +71,10 @@ Each week has two tiers:
 
 All content must trace to one of these:
 
-- **H&L Student Workbook** (282pp, 17 ch) — cite as `(H&L Ch N, p. X)` or `(H&L Ch N: "Activity Name")`
-- **H&L Powerskills Supplement** (221pp, 12 modules) — cite as `(Powerskills, p. X: "Module Name")`
+- **"Find Your Future" (FYF) — the official Irving ISD student workbook** (©2026, 308pp PDF, 16 career-cluster chapters + Capstone Rungs 1-8) — cite as `(FYF p. N: "Section Name")` using PRINTED page numbers (printed = PDF page − 6). Never cite chapter/tab numbers (tabs 13/14 are swapped in print) and never trust the book's own TOC page numbers (misprinted). Full rules: `cce-curriculum/notes/fyf-realignment-plan.md` §2.
+- **Climber Notes** (17 teacher decks) — cite as `(Climber Notes: "Deck Name", slide N)`, teacher-facing only. Index: `cce-curriculum/resources/climber-notes/INDEX.md`.
+- **H&L teacher resources** (8 PDFs: rubrics, assessments, early-finisher bank) — Materials/Differentiation references only. Index: `cce-curriculum/resources/hl-teacher-resources/INDEX.md`.
+- **RETIRED (do not cite in new work):** the generic H&L Student Workbook (282pp, 17 ch; old `(H&L Ch N, p. X)` form) and the Powerskills Supplement (`(Powerskills, p. X)` form) — replaced by FYF and its embedded Powerskill lessons per ratified decisions D-11. Legacy citations survive in 2SW-6SW until their realignment phase lands.
 - **Scope and Sequence** (`cce-curriculum/scope-and-sequence.md`)
 - **Xello 7th-Grade Task List** — names from S&S column 8
 - **eDynamic Learning Units** — unit numbers from S&S column 9
@@ -92,6 +94,7 @@ Before any substantive edit, read **`cce-curriculum/notes/editing-heuristics.md`
 Also read **`PLANNING.md`** for current project state, non-negotiables, and preservation loop.
 
 For specific edit types, also read:
+- **Any week content (FYF realignment era)** — `cce-curriculum/notes/fyf-realignment-plan.md` (citation rules, ratified decision register, per-week status) + `cce-curriculum/notes/district-expectations-2026.md` (binding 5E/instructional-moves overlay spec + QA checklist)
 - **Exit tickets / lesson objectives / DOLs** — `cce-curriculum/notes/teks-audit-process.md` (6-step audit) + `exit-ticket-templates.md` (10-format bank)
 - **CFAs** — `cce-curriculum/notes/cfa-template.md` (4-part structure, 4-level rubric)
 
@@ -110,33 +113,38 @@ Parsed by build script and MkDocs for styled rendering:
 
 **Deprecated:** `> **Teacher:** "..."` — do NOT use.
 
-## H&L Workbook Reference
+## Workbook Reference
 
-Two PDFs in `cce-curriculum/resources/reference-pdfs/`. The H&L PDF is 116MB/282pp — **never read in full**.
+PDFs in `cce-curriculum/resources/reference-pdfs/` (gitignored; tracked `.txt` extracts alongside). **Never read a workbook PDF in full.**
 
 ```bash
-# Search the text extract
-grep -n -i "safety supervisor" cce-curriculum/resources/reference-pdfs/HatsandLadders.txt
+# Search the FYF extract (form-feed page breaks: segment N = PDF page N; printed page = PDF page − 6)
+grep -n -i "safe or spoofed" cce-curriculum/resources/reference-pdfs/IrvingFindYourFuture2026.txt
 
-# Extract specific pages
-pdftotext -f 37 -l 54 cce-curriculum/resources/reference-pdfs/HatsandLadders.pdf -
+# Extract specific FYF pages (PDF page numbers; printed 24 = PDF 30)
+pdftotext -f 30 -l 31 cce-curriculum/resources/reference-pdfs/IrvingFindYourFuture2026.pdf -
 
-# Search Powerskills
-grep -n -i "time management" cce-curriculum/resources/reference-pdfs/Powerskills.txt
+# Search Climber Notes deck extracts
+grep -rn -i "cavity risk" cce-curriculum/resources/climber-notes/
+
+# Legacy (retired sources, kept for diffing): HatsandLadders.txt, Powerskills.txt
 ```
 
-Chapter-to-week crosswalk: `cce-curriculum/notes/revision-plan.md`
+Old-workbook chapter-to-week crosswalk (historical): `cce-curriculum/notes/revision-plan.md`. Current plan of record: `cce-curriculum/notes/fyf-realignment-plan.md`.
 
 ## Build
 
 ```bash
-python3 -m mkdocs build --strict    # validate site
-python3 -m mkdocs serve             # local preview at 127.0.0.1:8000
-python3 build/build_pdfs.py         # regenerate all 173 exit-ticket PDFs
-python3 build/inject_pdf_links.py   # refresh [Printable PDF] links in day files
-python3 build/build_docx.py         # rebuild .docx files (legacy)
-python3 build/build_xlsx.py         # rebuild spreadsheet (legacy)
+# IMPORTANT: use /usr/bin/python3 (3.9.6) — Homebrew python3 lacks mkdocs AND the pipeline deps
+/usr/bin/python3 -m mkdocs build --strict    # validate site
+/usr/bin/python3 -m mkdocs serve             # local preview at 127.0.0.1:8000
+/usr/bin/python3 build/build_pdfs.py         # regenerate all 178 exit-ticket PDFs
+/usr/bin/python3 build/inject_pdf_links.py   # refresh [Printable PDF] links in day files
+/usr/bin/python3 build/build_docx.py         # rebuild .docx files (legacy)
+/usr/bin/python3 build/build_xlsx.py         # rebuild spreadsheet (legacy)
 ```
+
+**PDF regeneration is NOT byte-idempotent** (Chromium stamps a creation date into every PDF). After a pipeline run, restore timestamp-only churns: verify content equality (pdftotext) and `git restore` PDFs whose text is unchanged, so commits carry only real changes.
 
 **One-time PDF pipeline setup** (macOS):
 

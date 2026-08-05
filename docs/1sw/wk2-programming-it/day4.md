@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Set up Code.org accounts; choose a Code.org Hour of Code tutorial; complete the first half of the tutorial; identify programming concepts (loops, sequences) used in the activity |
 | **TEKS** | d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explain: Tutorial picker walkthrough · Explore: Hour of Code tutorial work · Evaluate: Exit Ticket |
 | **Deliverable** | Hour of Code tutorial 50%+ complete + a screenshot of one programming block sequence |
 | **Materials** | Chromebooks, Code.org Hour of Code ([hourofcode.com](https://hourofcode.com)), projector, headphones (recommended for video tutorials) |
 
@@ -47,11 +48,15 @@ Some recommended tutorials for first-time 7th graders:
 
 Students work through their chosen Code.org tutorial at their own pace. Most tutorials are ~60 minutes total, so the goal for Day 4 is to reach the midpoint (around level 10-15 of 20-25).
 
-**Teacher's role:** Active monitoring with a 3-checkpoint clipboard:
+**Time, Voice, Body:** Post the three blocks before any Chromebook opens. Voice 0 for tutorial work and Voice 1 for a quick question to a coding buddy, a visible countdown on the projector so students can pace toward the midpoint target, and headphones plugged in at the student's own seat and back in the bin at the five minute warning.
+
+**Active Monitoring:** Walk a fixed route with one target per lap, marking a 3-checkpoint clipboard as you go:
 
 1. **Progress Check (every 10 min):** Walk the room and note which level each student is on. Flag students who are stuck.
 2. **Concept Check:** When you see a student using a loop, pause them and ask: "What does this loop do? Why is it faster than copying the same block 5 times?"
-3. **Frustration Check:** Watch for students who are stuck on the same level for more than 5 minutes. Ask: "What did you just try? What do you think is wrong?" Never give the answer; ask leading questions.
+3. **Frustration Check:** Watch for students who are stuck on the same level for more than 5 minutes. Ask: "What did you just try? What do you think is wrong?" Never give the answer; ask leading questions. Name the Day 3 bounce back move here: pause, find what went wrong, then change one thing.
+
+Pivot condition: if more than a handful of students stall on the same level, stop the room and project that level instead of solving it seat by seat.
 
 **The 3 programming concepts to listen for:**
 
@@ -71,7 +76,7 @@ Students who reach the end of their tutorial print or screenshot the Code.org co
 
 1. Which programming concept did you use MOST in today's tutorial? Circle ONE: **sequence** / **loop** / **conditional**
 
-2. Pick ONE programming career from Day 2's Hat Research (Software Developer, Web Developer, App Developer, or Game Developer). Name it here: _______________________
+2. Pick ONE programming career from Day 2's career research (Software Developer, Web Developer, App Developer, or Game Developer). Name it here: _______________________
 
 3. Write ONE real task that career does on the job that uses the concept you circled in #1. Be specific (example: "a Game Developer uses a LOOP to spawn 50 enemy monsters without writing the code 50 times"). *(d(1)(C))*
 

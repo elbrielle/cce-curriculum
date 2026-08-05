@@ -4,23 +4,29 @@
 
 ## Lesson Objective
 
-Students explore the Cybersecurity pathway through Hats & Ladders, complete the H&L "Cybersecurity in Action" Cyber Safety Creator project (Ch 12, pp. 193-195), connect work ethic and integrity to cybersecurity careers, design and laser-cut a college/career logo on the Glowforge to represent their post-secondary goal, and complete a 1st Six Weeks capstone reflection that revisits their Wk0 Career Journey reflection.
+Students explore the Cybersecurity pathway through Hats & Ladders, work the "Safe or Spoofed?" phishing investigation as a cybersecurity analyst, plan and advertise a volunteer Cybersecurity Bootcamp in the "Powerskill: Work Ethic" activity, connect work ethic and integrity to cybersecurity careers, design and laser-cut a college/career logo on the Glowforge to represent their post-secondary goal, and complete a 1st Six Weeks capstone reflection that revisits their Wk0 Career Journey reflection.
+
+**Learning Target:** I can name cybersecurity careers and what they pay, spot the red flags that make an email spoofed, plan a Cybersecurity Bootcamp that teaches my community how to stay safe online, and design a logo that shows my goal after high school.
+
+**Success Criteria:** I will know I am successful when I have traced a five step path from 7th grade to a cybersecurity job, when all seven emails in my inbox are marked safe or spoofed with a reason for each, when my bootcamp plan answers all six questions and my flyer tells people how to sign up, and when my Glowforge logo is cut and I can name the goal after high school that it stands for.
 
 ## Demonstration of Learning
 
-> "I can describe why cybersecurity is one of the fastest-growing career fields, design a Cyber Safety tool to help kids identify safe vs unsafe websites, design a college/career logo on the Glowforge that represents my future goal, and reflect on what I learned about myself during the 1st Six Weeks."
+> "I can describe why cybersecurity is one of the fastest-growing career fields, spot the red flags that mark an email as spoofed, plan a Cybersecurity Bootcamp that teaches my community how to stay safe online, design a college/career logo on the Glowforge that represents my future goal, and reflect on what I learned about myself during the 1st Six Weeks."
 
 ## TEKS Alignment
 
-- **d(1)(C):** Identify various career opportunities within one or more career clusters (Day 2 Cyber Safety Creator role, Day 5 H&L Favorites).
+- **d(1)(C):** Identify various career opportunities within one or more career clusters (Day 2 cybersecurity analyst role, Day 5 H&L Favorites).
 - **d(1)(D):** Research and evaluate emerging occupations related to career interest areas (Day 1 Cybersecurity + CyberSeek).
-- **d(4)(F):** Define and identify examples in the workplace of characteristics required for personal and professional success such as work ethic, integrity, dedication, and perseverance (Day 3 integrity in cybersecurity).
+- **d(4)(F):** Define and identify examples in the workplace of characteristics required for personal and professional success such as work ethic, integrity, dedication, and perseverance (Day 3 Work Ethic bootcamp + integrity in cybersecurity).
 - **d(3)(A):** Describe academic requirements for transitioning from middle school to high school and from high school to career or postsecondary education (Day 4 Glowforge logo, Day 5 postsecondary goal).
 
 ## Materials Needed
 
 - Chromebooks (1 per student)
-- Hats & Ladders accounts + H&L Workbook Ch 12 (pp. 193-195)
+- Hats & Ladders accounts + *Find Your Future* workbook, Information Technology chapter (printed pp. 24-25 and 34-38)
+- Climber Notes deck for Day 2 (Climber Notes: "Safe or Spoofed", slides 2-8), the seven email images the teacher projects one at a time
+- Plain paper for the Day 2 spoofed-email drafts
 - Glowforge laser cutter + cutting material (1/8" plywood, acrylic, or cardboard)
 - Design software: Canva, Adobe Express, or Inkscape (for SVG creation)
 - College logo image files (or school logo SVGs)
@@ -37,12 +43,15 @@ Students explore the Cybersecurity pathway through Hats & Ladders, complete the 
 
 Cybersecurity is one of the most critical and fastest-growing career fields in the world. Every company, hospital, school, and government agency needs cybersecurity professionals. In the U.S., there are currently hundreds of thousands of UNFILLED cybersecurity jobs because there are not enough trained professionals, meaning a 7th grader who decides to pursue cybersecurity now will graduate into a wide-open job market. This is also a career where **integrity** and **work ethic** are not optional, cybersecurity professionals are trusted with the most sensitive data of millions of people.
 
-**What is Happening at Irving ISD?** **Cybersecurity at Singley Academy** leads to the **Cybersecurity Fundamentals** certification. Singley also offers Networking-related coursework that supports cybersecurity. This is a high-demand, high-wage pathway with strong job security. A student who follows this pathway can earn an industry credential in high school and step into a $50K+ entry-level cybersecurity role.
+**What is Happening at Irving ISD?** **Cybersecurity at Singley Academy** leads to the **Cybersecurity Fundamentals** certification. Singley also offers Networking-related coursework that supports cybersecurity. This is a high-demand, high-wage pathway with strong job security. A student who follows this pathway can earn an industry credential in high school and step into a $50K+ entry-level cybersecurity role. The workbook's district pages add the pieces students ask about next (FYF pp. 36-37: "What is Happening at My District?"): the Personal Graduation Plan that carries a student's course choices and career interests from middle school into high school, the four Information Technology programs of study offered in the district, the Cybersecurity Fundamentals and Certified Entry-Level Python Programmer industry-based certifications, the Technology Student Association and CyberPatriot student organizations, and the Artificial Intelligence program planned for the district's new Career and Technical Education Center.
 
 ## Vocabulary
 
 - **Cybersecurity:** The practice of protecting computer systems, networks, and data from digital attacks, theft, and damage.
 - **Phishing:** A type of cyber attack that uses fake emails or websites to trick people into revealing personal information.
+- **Spoofed:** Made to look like it came from someone real when it did not. A spoofed email copies a real company's name, logo, or sender address to trick the reader.
+- **Red Flag:** A warning sign. In an email, red flags include a strange sender address, urgent language, a request for private information, a suspicious link, and spelling mistakes.
+- **Work Ethic:** Working hard and doing the job well. It means showing up on time, being responsible, and doing your best even when no one is watching.
 - **Ethical Hacking:** Authorized testing of computer systems to find security vulnerabilities BEFORE malicious hackers find them. Also called penetration testing.
 - **Information Security Analyst:** The most common cybersecurity job title. Monitors a company's networks for threats and responds to attacks.
 - **Integrity:** The quality of being honest and having strong moral principles. In cybersecurity, integrity means protecting data and following ethical standards even when no one is watching.
@@ -52,45 +61,46 @@ Cybersecurity is one of the most critical and fastest-growing career fields in t
 
 ## Bridge to Theory (Hats & Ladders)
 
-The H&L workbook (Ch 12: Information Technology, pp. 193-195) features the **Cybersecurity in Action** activity (a Career Climb activity, NOT a scenario game). The activity casts students as **Cyber Safety Creators** with the mission to design a tool that helps kids understand the difference between a safe website and an unsafe website for making online purchases.
+The *Find Your Future* workbook gives Information Technology printed pages 23-38, and this week works the cybersecurity half of that chapter. Two activities carry it:
 
-The workbook offers three tool options (Ch 12, p. 193):
+- **Safe or Spoofed?** (Day 2): Career Climb activity. Students are a cybersecurity analyst at a company whose employees are getting suspicious emails and cannot tell which ones are real. Step 1 teaches five red flags with a worked example of each. Step 2 puts a seven-email inbox in front of students, who mark each email safe or spoofed, circle the clues, and write their reasoning. Step 3 has students draft one safe email and one spoofed email of their own, then swap with a partner to see whether the partner can tell them apart (FYF pp. 24-25: "Safe or Spoofed?"). The seven emails are images the teacher projects from the Climber Notes deck; they are not printed in the student book.
+- **Powerskill: Work Ethic** (Day 3): the chapter's Powerskill lesson, written around a cybersecurity scenario. Students imagine they volunteer in their community by creating and leading a Cybersecurity Bootcamp that teaches others how to protect themselves online. Step 1 gives four research findings about scam exposure and a menu of bootcamp topics. Step 2 is a six-question planning table covering program name, learning goals, audience, format, location, and community benefit. Step 3 is a sign-up flyer (FYF pp. 34-35: "Powerskill: Work Ethic"). Because the scenario is cybersecurity, this week owns the Powerskill rather than the other three Information Technology weeks.
 
-1. **A Kid-Friendly Cyber Security Guide:** a colorful, engaging guide (paper or digital brochure) with tips for spotting safe websites.
-2. **A Cyber Safety App or System:** invent an app or software concept (with a creative name) that helps parents and kids monitor safe internet use.
-3. **A Public Service Announcement:** a video script, audio script, or poster explaining how to make wise online purchase decisions.
+The chapter does not print an Information Technology pathway list. Students meet the district's four programs of study, its industry-based certifications, and its student organizations on the district pages (FYF pp. 36-37: "What is Happening at My District?"), and they rate pathways and Hats through the cluster's app page (FYF p. 38: "App Exploration").
 
-The activity is a 4-step process: choose a tool, brainstorm and research, design the tool, and get peer feedback using a rubric (Ch 12, p. 195) on Understanding the Problem, Right Information, and Age-Appropriate.
+The workbook prints no rubric for either activity. The only rubric in the book is the Capstone's four-level, 32-point scale (FYF p. 280: "Capstone Project Requirements"), and Day 3's peer-feedback checklist borrows its four levels so students score flyers on a scale they will see again at the end of the year.
 
 The Glowforge college/career logo project is a teacher-designed extension that connects to TEKS d(3)(A): describing the MS-to-HS transition. Students choose a college, trade school, certification program, or career as their postsecondary goal and laser-cut a representative logo. This becomes a tangible artifact of their first big future-planning decision.
 
 ## IISD Instructional Strategies
 
-- **Think-Pair-Share:** After completing the Cyber Safety Creator design, students pair up to discuss what their tool teaches and why integrity is essential when designing tools for vulnerable users.
-- **Active Monitoring:** During Glowforge design and cutting, walk the room to ensure every student is connecting their logo choice to a SPECIFIC postsecondary goal (not just picking a cool image).
-- **Sentence Stems:** "My logo represents _____ because I want to _____ after high school. The Irving ISD pathway that prepares me is _____."
+- **Think-Pair-Share:** Day 3, Activity 3, the workbook's sponsor prompt (FYF p. 35), which asks what a local company would notice a hard-working bootcamp crew doing behind the scenes. Distinguished: pose it to the whole group, hold a silent 30 second Think, then time Partner A for 30 seconds and Partner B for 30 seconds, and post two stems at different levels: "They would notice us _____" and "The part nobody sees is _____, and that matters because _____." Ask two pairs to share, not one. Listen while pairs talk for who names something invisible (setting up early, checking the sign-up list twice) rather than something loud, and pick your share-out pairs from what you heard rather than from raised hands. If every pair names only visible behavior, open the integrity examples with the hospital case, where the whole point is that nobody would find out.
+- **Stop and Jot:** Day 1, Activity 1, the four Cybersecurity Hats students research in the app. Distinguished: put the four fields on screen before the first Hat (Hat name, education needed, DFW or national salary, one thing that surprised me), give a 45 second jot at the end of each Hat rather than one jot at the end of all four, and offer two stems: "A _____ needs _____ years of training and earns about $_____" and "I did not expect this job to _____." Read notes over shoulders during the browse and track which Hats are getting filled in. If most students have only Penetration Tester, steer the CyberSeek walkthrough that follows toward the entry-level titles so the exit ticket has three real options to rank instead of one.
+- **Active Monitoring:** Day 2, Activity 3, the six-email inbox investigation, and Day 4, Activity 2, the logo design walk. Distinguished on Day 2: walk a fixed route twice, lap 1 checking that every student has circled a clue on the email rather than only ringing the word Spoofed, lap 2 checking that the reasoning sentence names which red flag it is. Have the feedback ready before class for the two known misconceptions: a real email with one typo read as automatically spoofed, and a spoofed email read as safe because the logo looks right. If more than a handful miss the lap 2 target, stop the room and reproject Email #1 with the modeled reasoning instead of repeating it desk by desk. Distinguished on Day 4: every lap checks the same target, that the student can name the specific postsecondary goal behind the logo, with the stem ready as the feedback line: "My logo represents _____ because I want to _____ after high school. The Irving ISD pathway that prepares me is _____." A student who cannot finish that sentence picks the goal before touching the design tool.
+- **Chunking:** Day 2, Activity 1, the five phishing red flags. Distinguished: teach one flag at a time with its workbook example projected, say what each flag protects against before showing it (a look-alike sender address protects you from a fake bank; hovering a link protects you from a fake login page), and close each flag with a one-word whole-class call on a sample line, safe or spoofed, before releasing the next flag. Note which flag draws the most wrong calls. That flag is the one you narrate hardest while modeling Email #1 in Activity 2, and the one you check first on lap 1 of Activity 3.
+- **Time, Voice, Body (TVB):** Day 4, Activity 3 and Day 5, Activity 1, the Glowforge cut queue and the Gallery Walk. Distinguished: post the three blocks before the first file is sent, run a visible countdown for the cut window, keep Voice 1 at the design stations, and hold Voice 0 at the machine while a cut is running so the head can be heard. Define the space too: only the student whose file is running stands at the Glowforge, finished pieces go straight into a labeled tray, and the Gallery Walk moves in one direction so the table does not clog. Narrate the students who are meeting the expectation rather than correcting the ones who are not. If the queue backs up past the third student, move the remaining designers onto their reflection draft and announce the change before the next cut starts.
 
 ## Week at a Glance
 
-| Day | Focus | Key Activities | Deliverable |
-|-----|-------|---------------|-------------|
-| 1 | Cybersecurity Pathway + CyberSeek | H&L Cybersecurity Hat exploration + CyberSeek pathway map exploration | Cybersecurity career notes + CyberSeek pathway traced |
-| 2 | Cybersecurity in Action (Day 1, Brainstorm + Design) | H&L "Cybersecurity in Action" Steps 1-3: choose tool, brainstorm, design | Cyber Safety tool design (sketch/draft) |
-| 3 | Cybersecurity in Action (Day 2, Peer Feedback) + Integrity Discussion | H&L Step 4: peer feedback rubric + class discussion on integrity | Refined Cyber Safety tool + integrity reflection |
-| 4 | College/Career Logo Design + Glowforge (Round 1) | Design a logo in Canva/Adobe Express; first batch of Glowforge cuts | Final logo design + first batch of cuts |
-| 5 | Glowforge Wrap-Up + 1SW Capstone Reflection | Finish Glowforge cuts + Gallery Walk + Wk0 Reflection update + Xello Save Careers | Updated My Career Journey reflection + completed Glowforge logo |
+| Day | Focus | Key Activities | Deliverable | 5E |
+|-----|-------|---------------|-------------|-----|
+| 1 | Cybersecurity Pathway + CyberSeek | H&L Cybersecurity Hat exploration + CyberSeek pathway map exploration | Cybersecurity career notes + CyberSeek pathway traced | Engage · Explore · Explain · Evaluate |
+| 2 | Safe or Spoofed? Phishing Investigation | Learn the five red flags + investigate a seven-email inbox + draft a spoofed email | Seven inbox decisions with reasoning + two drafted emails | Engage · Explain · Explore · Evaluate |
+| 3 | Powerskill: Work Ethic + Integrity Discussion | Plan a Cybersecurity Bootcamp + design a sign-up flyer + peer feedback + integrity discussion | Bootcamp plan + flyer + integrity reflection | Engage · Extend · Explain · Evaluate |
+| 4 | College/Career Logo Design + Glowforge (Round 1) | Design a logo in Canva/Adobe Express; first batch of Glowforge cuts | Final logo design + first batch of cuts | Engage · Explain · Extend · Evaluate |
+| 5 | Glowforge Wrap-Up + 1SW Capstone Reflection | Finish Glowforge cuts + Gallery Walk + Wk0 Reflection update + Xello Save Careers | Updated My Career Journey reflection + completed Glowforge logo | Engage · Explain · Evaluate · Extend |
 
 ## Formative Assessment
 
 - **Day 1:** Cybersecurity Hat notes + CyberSeek pathway traced + Ranked Justification exit ticket (3 CyberSeek roles by speed to reach). *d(1)(D)*
-- **Day 2:** Cyber Safety tool design draft + Mini-Case exit ticket (after-school program tool pick). *d(1)(C)*
-- **Day 3:** Peer feedback rubric + integrity reflection + Trade-off Dilemma exit ticket (hospital data access request from coworker). *d(4)(F)*
+- **Day 2:** Seven inbox decisions with written reasoning + two drafted emails + Mini-Case exit ticket (a forwarded parent-portal email). *d(1)(C)*
+- **Day 3:** Bootcamp plan table + flyer + peer feedback slip + integrity reflection + Trade-off Dilemma exit ticket (hospital data access request from coworker). *d(4)(F)*
 - **Day 4:** Glowforge logo connected to postsecondary goal + Decision Tree exit ticket (HS + post-HS + cost branching). *d(3)(A)*
 - **Day 5:** Updated My Career Journey reflection as capstone (deliverable-only day, no formal ticket). *d(1)(C), d(3)(A)*
 
 ## Summative Assessment
 
-**1st Six Weeks Capstone Portfolio:** Students submit (1) their completed Cyber Safety Creator tool from H&L Ch 12, (2) their Glowforge college/career logo (physical artifact), and (3) their updated My Career Journey reflection from Wk0 with new sections added showing growth in self-awareness and career knowledge. Aligned to d(1)(D), d(4)(F), d(3)(A).
+**1st Six Weeks Capstone Portfolio:** Students submit (1) their Cybersecurity Bootcamp plan and sign-up flyer (FYF pp. 34-35: "Powerskill: Work Ethic"), (2) their Glowforge college/career logo (physical artifact), and (3) their updated My Career Journey reflection from Wk0 with new sections added showing growth in self-awareness and career knowledge. Aligned to d(1)(D), d(4)(F), d(3)(A).
 
 ## Differentiation
 
@@ -99,7 +109,8 @@ The Glowforge college/career logo project is a teacher-designed extension that c
 - Pre-made SVG templates for the Glowforge project (popular college logos, military branch insignia, common career icons) so students focus on career meaning rather than design frustration.
 - Simplified My Career Journey reflection update template with fill-in-the-blank prompts.
 - Pre-printed CyberSeek pathway with annotations for students who need a paper-based version.
-- Pre-built Cyber Safety Guide template (for students who choose that tool option) with section headers.
+- Pre-printed red-flag checklist for Day 2, with the five flags listed and space to tick which one each email triggers.
+- Pre-printed bootcamp planning template for Day 3, with the workbook's six questions already written out and a sentence stem under each.
 
 ### Extensions
 
@@ -112,5 +123,5 @@ The Glowforge college/career logo project is a teacher-designed extension that c
 
 - Pre-teach: Ciberseguridad = Cybersecurity, Hacker = Hacker, Phishing = Suplantación de identidad, Integridad = Integrity, Universidad = College, Certificación = Certification.
 - Bilingual reflection template with Spanish sentence stems for the 1st Six Weeks reflection.
-- Pair ELL students with bilingual peers during the Cyber Safety Creator peer feedback.
+- Pair ELL students with bilingual peers during the Day 3 flyer peer feedback. The workbook reads well above grade level, so read the Safe or Spoofed scenario and the Work Ethic opening paragraph aloud rather than assigning them as silent reading.
 - The Glowforge logo design is inherently visual and accessible for all language levels.

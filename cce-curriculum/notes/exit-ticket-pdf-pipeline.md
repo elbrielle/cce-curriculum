@@ -29,7 +29,7 @@ python3 build/build_pdfs.py
 python3 build/inject_pdf_links.py
 ```
 
-Both scripts are idempotent. Re-running on an unchanged repo writes the same bytes and produces no diff.
+`inject_pdf_links.py` is idempotent (same bytes on re-run). `build_pdfs.py` is NOT byte-idempotent — Chromium stamps `/CreationDate` into every PDF, so a full run marks all PDFs modified even when content is unchanged (discovered 2026-08-05). After a run, verify content equality with `pdftotext` and `git restore` the timestamp-only churns so commits carry only real changes.
 
 ## How to add a new exit ticket
 

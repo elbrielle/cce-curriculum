@@ -4,31 +4,36 @@
 
 ## Lesson Objective
 
-Students explore the Information Technology cluster through Hats & Ladders (Ch 12), focus on the Programming and Software Development pathway, compare salaries and demand for programming careers in the DFW area, and complete a Code.org Hour of Code activity to experience the fundamentals of writing software. Students connect the IT cluster to Irving ISD's Computer Science (District Wide) and Programming & Digital Tech (Singley) pathways, both leading to Certified Entry Level Python Programmer credentials.
+Students explore the Information Technology cluster through the Hats & Ladders app and the *Find Your Future* workbook, focus on the Programming and Software Development program of study, work the "Powerskill: Resilience" bounce-back activity after a cybersecurity team's test day fails, compare salaries and demand for programming careers in the DFW area, and complete a Code.org Hour of Code activity to experience the fundamentals of writing software. Students connect the IT cluster to Irving ISD's Computer Science (District Wide) and Programming & Digital Tech (Singley) pathways, both leading to Certified Entry Level Python Programmer credentials.
+
+**Learning Target:** I can name the four Irving ISD Information Technology programs of study, compare the pay, training, and job growth of three programming careers, plan how a team bounces back after a failed test, and finish a Code.org Hour of Code tutorial.
+
+**Success Criteria:** I will know I am successful when my career research worksheet names the job, the training, the pay, and the tools for one programming career, when my salary comparison worksheet lists pay, education, and growth for three IT careers, when my Flip the Failure chart gives a bounce back idea for all four problems on the list, and when I can name one programming concept I used in my Hour of Code tutorial.
 
 ## Demonstration of Learning
 
-> "I can describe the IT career cluster and its 5 pathways, identify at least 3 programming careers with their salary ranges and education requirements, and complete a Code.org Hour of Code activity that demonstrates a programming concept."
+> "I can describe the IT career cluster and the four Irving ISD programs of study inside it, identify at least 3 programming careers with their salary ranges and education requirements, and complete a Code.org Hour of Code activity that demonstrates a programming concept."
 
 ## TEKS Alignment
 
-- **d(1)(A):** Analyze and discuss assessment results (Day 5 H&L Pathway Fit).
 - **d(1)(B):** Explore and describe the CTE career clusters (Day 1).
 - **d(1)(C):** Identify various career opportunities within one or more career clusters (Days 1-5).
-- **d(2)(A):** Research applicable academic, technical, certification, and training requirements (Day 2 Hat Research).
+- **d(2)(A):** Research applicable academic, technical, certification, and training requirements (Day 2 career research worksheet).
 - **d(5)(A):** Analyze labor market trends related to a career of interest (Day 3 BLS job growth).
 - **d(5)(E):** Use resources to compare salaries of at least three careers in the student's interest area (Day 3).
 
 ## Materials Needed
 
 - Chromebooks (1 per student)
-- Hats & Ladders accounts + H&L Workbook Ch 12: Information Technology (pp. 191-207)
+- Hats & Ladders accounts + *Find Your Future* workbook, Information Technology chapter (printed pp. 23-38)
 - Code.org Hour of Code activities: [hourofcode.com](https://hourofcode.com)
 
 - BLS, Software Developers: [bls.gov/ooh/computer-and-information-technology/software-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm)
 - BLS, Web Developers: [bls.gov/ooh/computer-and-information-technology/web-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm)
 - BLS, Computer/IT Cluster: [bls.gov/ooh/computer-and-information-technology/home.htm](https://www.bls.gov/ooh/computer-and-information-technology/home.htm)
 - Printed IT Salary Comparison worksheet (3 careers × 5 fields)
+- Printed programming career research worksheet (CCE artifact; the research format is taught in Wk0)
+- Headphones for the Hour of Code days (Days 4-5)
 - Xello (Favorite Clusters activity)
 - Projector
 
@@ -36,61 +41,57 @@ Students explore the Information Technology cluster through Hats & Ladders (Ch 1
 
 Information Technology is one of the fastest-growing and highest-paying career clusters in the U.S. economy. In the DFW area, companies like AT&T, Texas Instruments, Toyota, State Farm, and hundreds of tech startups hire thousands of IT professionals each year. The largest IT employer in DFW is the financial sector. Banks and insurance companies need software developers, network engineers, and cybersecurity analysts to run their digital infrastructure.
 
-**What is Happening at Irving ISD?** **Computer Science (District Wide, every IISD high school)** and **Programming & Digital Tech (Singley Academy)** both lead to the **Certified Entry Level Python Programmer** credential. Python is the most widely-used programming language for data science, AI, web backends, and automation. A student who earns this credential in high school can step directly into a paid internship or entry-level dev role.
+**What is Happening at Irving ISD?** **Computer Science (District Wide, every IISD high school)** and **Programming & Digital Tech (Singley Academy)** both lead to the **Certified Entry Level Python Programmer** credential. Python is the most widely-used programming language for data science, AI, web backends, and automation. A student who earns this credential in high school can step directly into a paid internship or entry-level dev role. The workbook's district pages carry the detail students respond to most (FYF pp. 36-37: "What is Happening at My District?"): four IT programs of study, **Computer Science**, **Programming & Software Development**, **Technology Support**, and **Cybersecurity**; two industry-based certifications, Certified Entry Level Python Programmer and Cybersecurity Fundamentals; two student organizations, the Technology Student Association (TSA) and CyberPatriot; and a new Career and Technical Education Center program in Artificial Intelligence that teaches students to design, program, and ethically apply AI. The same pages introduce the **Personal Graduation Plan (PGP)**, the roadmap that links course choices, career interests, and graduation requirements from middle school forward.
 
 ## Vocabulary
 
 - **Algorithm:** A step-by-step set of instructions for solving a problem or completing a task. Code is one way to write an algorithm.
 - **Software Developer:** A professional who designs, builds, and maintains computer programs and applications.
-- **Web Developer:** A developer specializing in websites and web applications. The H&L workbook (Ch 12) features Web Developers in the "Website Design" project.
+- **Web Developer:** A developer specializing in websites and web applications. Wk3 puts students in a UX designer's seat for the workbook's "Website Revamp" audit (FYF pp. 28-29).
 - **Programming Language:** The set of rules and syntax used to write code (Python, JavaScript, Java, C++, HTML/CSS).
 - **Python:** A popular programming language used in web development, data science, AI, and automation. Irving ISD offers Python certification.
 - **Hour of Code:** A free 1-hour beginner coding tutorial offered by Code.org. Students can choose from dozens of activities (Minecraft, Star Wars, Frozen, dance party, etc.).
 - **Labor Market:** The supply of and demand for workers in a specific field or geographic area.
 - **Demand Indicator:** Data showing whether a career is growing, steady, or declining. H&L displays this on Hat profiles.
+- **Resilience:** The ability to bounce back after a setback. Resilient people stop, figure out what went wrong, and ask what to try differently next time (FYF p. 26).
+- **Industry-Based Certification (IBC):** Proof that a person has learned a specific skill. Schools, training programs, and employers read an IBC as evidence a student is ready for the next step (FYF p. 37).
 
 ## Bridge to Theory (Hats & Ladders)
 
-The H&L workbook (Ch 12: Information Technology, pp. 191-207) covers **five IT pathways**:
+The *Find Your Future* workbook gives Information Technology printed pages 23-38. The chapter opener (FYF p. 23: "Exploring the World of INFORMATION TECHNOLOGY") frames the cluster as keeping the digital world running, safe, and moving forward, and it names ethical hackers, data specialists, video game designers, and tech support specialists as examples. It puts a "Be the Decision Maker" dilemma in front of students: you have found a serious security problem in a major app that could expose millions of people's personal information, so do you shut the app down right away or quietly fix it first, and do you tell the public. Three Hats sit on the page: DevOps Engineer, Information Security Analyst, and Robot Personality Designer. The chapter does not print a pathway list. Students meet the app's IT pathways through the Pathway Possibilities step on the App Exploration page (FYF p. 38: "App Exploration"), and they meet Irving ISD's four IT programs of study on the district pages (FYF pp. 36-37).
 
-1. **Information Technology Support and Services:** Help people and businesses troubleshoot computers and networks.
-2. **Web Development:** Create and maintain websites that look good and function well.
-3. **Networking Systems:** Design, set up, and maintain the systems that connect computers to the internet.
-4. **Cybersecurity:** Protect computers, networks, and data from hackers and cyber threats.
-5. **Programming and Software Development:** Write code to create apps, games, and computer programs.
+Two chapter sections carry this week:
 
-The chapter includes three named activities (used across Weeks 2-5):
+- **Powerskill: Resilience** (Day 3): Students lead a cybersecurity team whose new system failed on test day. They read the four things that went wrong, fill in a "Flip the Failure" chart with a fix and a resilience tip for each, and then compare charts with a partner (FYF pp. 26-27: "Powerskill: Resilience").
+- **What is Happening at My District?** (Days 1 and 5): The district pages name Irving ISD's four IT programs of study, the two industry-based certifications the cluster leads to, the Technology Student Association and CyberPatriot student organizations, the new CTE Center AI program, and the Personal Graduation Plan (FYF pp. 36-37).
 
-- **Cybersecurity in Action** (saved for Wk5): Cyber Safety Creator project
-- **Job Applications** (referenced in Wk3): Practice filling out a standard job application for Future Work, Inc.
-- **Website Design** (saved for Wk3): Web Developer wireframing project
-
-Week 2 focuses on the **Programming and Software Development** pathway specifically. The chapter intro (Ch 12, p. 192) is the foundation reading for the entire IT block (Wks 2-5).
+The rest of the IT chapter belongs to the later weeks in this block. Wk3 runs the "Website Revamp" UX audit and the "From Wireframe to Wow" app design activity (FYF pp. 28-33). Wk5 runs "Safe or Spoofed?" phishing triage and the "Powerskill: Work Ethic" cybersecurity bootcamp plan (FYF pp. 24-25 and 34-35). Week 2 focuses on the **Programming and Software Development** program of study specifically.
 
 ## IISD Instructional Strategies
 
-- **Sentence Stems:** "The highest-paying programming career I researched is _____ because _____. Compared to _____, it pays $_____ more/less per year."
-- **Think-Pair-Share:** After exploring IT careers in H&L, students think about which career surprised them most, pair to discuss, then share with the class.
-- **Active Monitoring:** During Hour of Code, walk the room with a 3-checkpoint clipboard tracking (1) student progress through the tutorial, (2) student verbalization of programming concepts (loops, conditionals), (3) student frustration vs. persistence.
-- **Modeling:** Demonstrate the IT Salary Comparison worksheet on the projector with one career filled in as an example before students start their own.
+- **Think-Pair-Share:** Day 1, Activity 1, the "Be the Decision Maker" prompt on the chapter opener (FYF p. 23), where a security flaw in a major app forces a shut-down-now or fix-it-quietly choice. Distinguished: pose it to the whole group, hold a silent 30 second Think, then time Partner A for 30 seconds and Partner B for 30 seconds, and post two stems at different levels: "I would _____ because _____" and "Shutting the app down costs the company _____, but leaving it open costs users _____." Ask two pairs to share, not one. Listen while pairs talk for who names a cost to the users and not only to the company, and pick your share-out pairs from what you heard rather than from raised hands.
+- **Stop and Jot:** Day 1, Activity 2, the two pauses during the IT cluster tour video. Distinguished: name both stop points before the video starts, give 45 seconds per jot with the prompt on screen, and offer stems that carry the vocabulary students need on Days 2 and 3: "One IT career I had never heard of is _____", "One question I still have about IT careers is _____." Read jots over shoulders during both pauses and track which careers get named. If most jots say Software Developer only, steer the Hat browse that follows toward DevOps Engineer, Information Security Analyst, and Robot Personality Designer so Day 2's research sheets are not all the same career.
+- **Active Monitoring:** Day 4, Activity 2, the 30 minutes of Hour of Code tutorial work. Distinguished: walk a fixed pathway with one target per lap, carrying the three-checkpoint clipboard already built for this week (tutorial level reached, a programming concept named out loud, persistence rather than quitting). Have feedback ready before class for the two known sticking points: a student who repeats a block five times instead of using a loop, and a student stuck on the same level for more than five minutes. If more than a handful of students stall on the same level, pivot and project that level for the whole room instead of solving it seat by seat.
+- **Chunking:** Day 3, Activity 2, the five BLS fields on the salary comparison worksheet. Distinguished: teach one field at a time on the projector with the Software Developer column filled in as the model, say what each field is for before showing where it lives on the BLS page (median pay is the middle of the career, not the starting pay), and close each chunk with a quick thumbs check before releasing the next field. Note which field draws the most thumbs down. Job Outlook is usually the one, and that field becomes the two minute re-teach before students start their third career. Close the activity with the stem "The highest-paying programming career I researched is _____ because _____. Compared to _____, it pays $_____ more or less per year."
+- **Time, Voice, Body (TVB):** Day 4, Activity 2, the independent tutorial block. Distinguished: post the three blocks before any Chromebook opens, Voice 0 for tutorial work and Voice 1 for a quick question to the coding buddy, a visible countdown on the projector so students can pace themselves toward the midpoint target, and a stated rule that headphones stay plugged in at the student's own seat and go back in the bin at the five minute warning. Narrate the students who are meeting the expectation rather than correcting the ones who are not. If the room's voice level climbs because several students are stuck, pause the whole class for a 60 second reset instead of walking down the volume student by student.
 
 ## Week at a Glance
 
-| Day | Focus | Key Activities | Deliverable |
-|-----|-------|---------------|-------------|
-| 1 | IT Cluster Tour + 5 Pathways | H&L Ch 12 read-along + Making Connections + IT cluster app exploration | Stop and Jot notes (2 careers, 2 questions) |
-| 2 | Programming Pathway Deep-Dive | Explore Software Developer, Web Developer, App Developer, Game Developer Hats in H&L | Hat Research worksheet (Ch 12, p. 199) for one programming career |
-| 3 | IT Salary Showdown | H&L salary data + BLS cross-reference + IT Salary Comparison worksheet (3 careers) | Completed salary comparison worksheet |
-| 4 | Hour of Code (Day 1) | Code.org Hour of Code tutorial, students choose theme | Completed Hour of Code certificate (Code.org issues automatically) |
-| 5 | Hour of Code (Day 2) + Pathway Fit + Favorites | Finish Hour of Code + H&L Pathway Fit Assessment + favorite 2 IT careers + Xello Favorite Clusters | Hour of Code finished + 2 IT favorites + Xello cluster favorited |
+| Day | Focus | Key Activities | Deliverable | 5E |
+|-----|-------|---------------|-------------|-----|
+| 1 | IT Cluster Tour + Programs of Study | Chapter opener read-along + Be the Decision Maker pair talk + IT cluster app exploration | Stop and Jot notes (2 careers, 2 questions) | Engage · Explain · Explore · Evaluate |
+| 2 | Programming Pathway Deep-Dive | Explore Software Developer, Web Developer, App Developer, Game Developer Hats in the app + career research worksheet | Career research worksheet for one programming career | Engage · Explore · Explain · Evaluate |
+| 3 | Powerskill Resilience + IT Salary Showdown | "Flip the Failure" chart + BLS cross-reference + IT Salary Comparison worksheet (3 careers) | Flip the Failure chart + completed salary comparison worksheet | Engage · Explore · Explain · Evaluate |
+| 4 | Hour of Code (Day 1) | Code.org Hour of Code tutorial, students choose theme | Tutorial at the midpoint + screenshot of one block sequence | Engage · Explain · Explore · Evaluate |
+| 5 | Hour of Code (Day 2) + Pathway Possibilities + Favorites | Finish Hour of Code + Pathway Possibilities and pathway rating + favorite 2 IT careers + Xello Favorite Clusters | Hour of Code finished + 2 IT favorites + Xello cluster favorited | Engage · Explore · Extend · Evaluate |
 
 ## Formative Assessment
 
-- **Day 1:** Stop and Jot notes + Venn Diagram exit ticket (Programming vs. Web Dev). *d(1)(B), d(1)(C)*
-- **Day 2:** Hat Research worksheet + Mini-Case exit ticket (cross-platform mobile game app hire). *d(1)(C), d(2)(A)*
-- **Day 3:** IT Salary Comparison worksheet + Comparison Matrix exit ticket (3 careers x pay/education/growth). *d(1)(C), d(5)(A), d(5)(E)*
+- **Day 1:** Stop and Jot notes + Venn Diagram exit ticket (Programming & Software Development vs. Cybersecurity). *d(1)(B), d(1)(C)*
+- **Day 2:** Career research worksheet + Mini-Case exit ticket (cross-platform mobile game app hire). *d(1)(C), d(2)(A)*
+- **Day 3:** Flip the Failure chart + IT Salary Comparison worksheet + Comparison Matrix exit ticket (3 careers x pay/education/growth). *d(1)(C), d(5)(A), d(5)(E)*
 - **Day 4:** Hour of Code midpoint progress + Short Constructed Response exit ticket (programming concept + career + job task). *d(1)(C)*
-- **Day 5:** Hour of Code finish + 2 favorited IT careers + Concept Map exit ticket (favorited career + Pathway Fit + RIASEC + HoC experience). *d(1)(A), d(1)(C)*
+- **Day 5:** Hour of Code finish + 2 favorited IT careers + Concept Map exit ticket (favorited career + highest-rated pathway + core personality type + HoC experience). *d(1)(C)*
 
 ## Summative Assessment
 
@@ -101,6 +102,7 @@ Week 2 focuses on the **Programming and Software Development** pathway specifica
 ### Scaffolded Learning
 
 - Pre-printed IT Salary Comparison worksheet with one career filled in (Software Developer) as a model.
+- Pre-printed Flip the Failure chart with the first row ("The alert system was too slow") already filled in, so students complete the remaining three.
 - BLS data extraction guide showing exactly which fields to copy (highlighted screenshots).
 - Pair work option for Hour of Code: one student drives, the other navigates.
 - Provide a Code.org tutorial picker that recommends easier tutorials (Minecraft Adventurer, Frozen) for students new to coding.
@@ -116,4 +118,5 @@ Week 2 focuses on the **Programming and Software Development** pathway specifica
 - Pre-teach: Algorithm = Algoritmo, Software Developer = Desarrollador de software, Code = Código, Debugging = Depuración, Programming Language = Lenguaje de programación.
 - Bilingual IT Salary Comparison worksheet with Spanish column headers.
 - Code.org Hour of Code is available in Spanish. Direct ELL students to the Spanish tutorial selector.
-- Pair ELL students with bilingual peers for the Day 5 Pathway Fit discussion.
+- Pair ELL students with bilingual peers for the Day 5 Pathway Possibilities discussion.
+- The workbook reads well above grade level, so read the Resilience scenario paragraphs aloud on Day 3 and encourage browser translation for any independent reading.

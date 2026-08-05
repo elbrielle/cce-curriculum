@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Explore the CompTIA Career Roadmap; identify which certifications connect to which IT careers; complete the Education Pathway Comparison worksheet (3 careers) |
 | **TEKS** | d(2)(A), d(2)(B) |
+| **5E Phases** | Engage: Warm-Up · Explain: CompTIA roadmap walkthrough · Explore: Roadmap research and Education Pathway Comparison worksheet · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Education Pathway Comparison worksheet (3 careers × 5 fields) |
-| **Materials** | Chromebooks, CompTIA Career Roadmap link, printed Education Pathway Comparison worksheet, BLS Computer Support Specialists page, projector |
+| **Materials** | Chromebooks, CompTIA Career Roadmap link, printed Education Pathway Comparison worksheet, *Find Your Future* workbook p. 37, BLS Computer Support Specialists page, projector |
 
 ---
 
@@ -34,6 +35,8 @@ Walk through the roadmap with students:
 - **Advanced:** CompTIA CySA+ (cybersecurity analyst), PenTest+ (ethical hacker), CASP+ (cybersecurity architect)
 
 Tell students that **CompTIA A+** is the certification most often listed in entry-level IT job postings. Many people earn it with 2-6 months of self-study and a $200-500 exam fee. Compare that to a 4-year degree at $50,000+.
+
+The workbook puts the same idea in Irving ISD's words. An Industry-Based Certification, or IBC, proves a person learned a specific skill, and schools, training programs, and employers read one as evidence that person is ready for the next step (FYF p. 37: "What is Happening at My District?"). The certifications on the CompTIA roadmap work that way for IT support.
 
 Students explore the roadmap on their Chromebooks. They identify which certifications connect to the IT support careers they explored on Day 1. They note: certification name, time to earn (research online), cost, and what career it unlocks.
 

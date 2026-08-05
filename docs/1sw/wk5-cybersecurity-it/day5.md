@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Finish remaining Glowforge cuts; participate in the Gallery Walk; update the Wk0 My Career Journey reflection with new data; favorite final IT careers in H&L; complete Xello Save Careers |
 | **TEKS** | d(1)(C), d(3)(A) |
+| **5E Phases** | Engage: Warm-Up · Explain: Gallery Walk share-out · Evaluate: My Career Journey reflection update · Extend: IT favorites and Xello Save Careers |
 | **Deliverable** | Updated My Career Journey reflection (turned in) + completed Glowforge logo (physical artifact) + 2 final IT favorites in H&L |
 | **Materials** | Glowforge laser cutter, remaining cutting material, Wk0 My Career Journey reflection handouts (return to students), H&L accounts, Xello accounts, projector, gallery display surface |
 
@@ -24,6 +25,8 @@ Quick share. Listen for growth: "I thought IT was just programming, now I know i
 
 **Glowforge cuts (10 min):** The remaining students from Day 4 send their logos to the Glowforge. Stagger them so the cutter is constantly running. Students who finish their cut early help others or move to the reflection.
 
+**Time, Voice, Body:** Same three blocks as Day 4. Voice 0 at the machine while a cut runs, only the student whose file is running stands there, finished pieces go into the labeled tray, and the Gallery Walk moves in one direction so the display table does not clog. If the cut queue is still backed up at the 10 minute mark, move the remaining students onto the reflection and announce the change before the next cut starts.
+
 **Gallery Walk (5 min):** When all logos are cut, display them on a long table or wall. Students do a brief gallery walk to see each other's postsecondary goals. Each student stops at 3 logos that are NOT their own and writes a sticky note: "I like that you chose _____." (positive only).
 
 !!! tip "Facilitation Tip"
@@ -37,12 +40,12 @@ Return students' Wk0 My Career Journey reflection handouts. Tell them: "Five wee
 
 **The reflection update. Students add a new section to the bottom of their Wk0 handout (or use a fresh page):**
 
-1. **What clusters have I explored?** _____ (Manufacturing + IT, list all 5 sub-pathways within IT)
+1. **What clusters have I explored?** _____ (Manufacturing + IT, and name the IT pathways you rated in the app)
 2. **What careers did I favorite?** _____ (List all 6+ favorited Hats from the Climber Profile)
 3. **What surprised me?** _____ (1-2 sentences)
 4. **What do I want to explore next?** _____ (Looking ahead to 2SW: Law, Public Service, Health Science)
 5. **What is my postsecondary goal?** _____ (The college / trade school / cert / career your Glowforge logo represents)
-6. **What Powerskills did I practice?** _____ (Communication, Problem-Solving, Integrity, Time Management, pick 2-3)
+6. **What Powerskills did I practice?** _____ (Work Ethic, Communication, Problem-Solving, Integrity, Time Management, pick 2-3)
 7. **One question I still have** _____
 
 Students compare this update to their Day 1 self. Walk the room and ask: "What is the biggest change between Wk0 and now?"
@@ -55,7 +58,7 @@ This reflection is the major summative assessment for the Wk5 capstone. Collect 
 
 ## Activity 3: Final H&L Favorites + Xello Save Careers (10 min)
 
-> [H&L PLATFORM] Direct students to their H&L Climber Profile. They should now have favorites from Manufacturing (Wk1, 2 careers) AND IT (Wks 2-5, 4-6 careers). Verify each student has at least 6 total favorited Hats. Students who have fewer should add 1-2 more from any IT or Manufacturing pathway. The Climber Profile becomes the foundation for the Career Plan students build later in the year (4SW Wk1-2 + 6SW Wk6).
+> [H&L PLATFORM] Direct students to their H&L Climber Profile. They should now have favorites from Manufacturing (Wk1, 2 careers) AND IT (Wks 2-5, 4-6 careers). Verify each student has at least 6 total favorited Hats. Students who have fewer should add 1-2 more from any IT or Manufacturing pathway, or from the three Hats they rated on the cluster's app page (FYF p. 38: "App Exploration"). The Climber Profile becomes the foundation for the Career Plan students build later in the year (4SW Wk1-2 + 6SW Wk6).
 
 **Xello Save Careers (final 5 min):** Students log into Xello and complete the Save Careers activity. They save 2-3 careers from the Xello career library that interest them. This builds the Xello-side dataset that parallels their H&L favorites.
 

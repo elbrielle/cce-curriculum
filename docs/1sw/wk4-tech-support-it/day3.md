@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Set up micro:bit + MakeCode; build a basic 3-step troubleshooting program; load the program onto the micro:bit and test it |
 | **TEKS** | d(4)(B) |
+| **5E Phases** | Engage: Warm-Up · Explain: MakeCode setup and starter program · Explore: 3-step troubleshooting build · Evaluate: Exit Ticket |
 | **Deliverable** | MakeCode program with at least 3 troubleshooting steps that displays text on the micro:bit when Button A is pressed |
 | **Materials** | micro:bit devices (1 per team of 2-3), USB cables, Chromebooks, MakeCode for micro:bit, Help Desk scenario cards, projector |
 
@@ -51,7 +52,9 @@ Project the MakeCode workspace and walk students through building this exact sta
 4. Click **Download** and load it to the micro:bit.
 5. Press Button A on the micro:bit. Students should see "Step 1: Restart" scroll across the LED display.
 
-**Visual checkpoint:** Hold up your micro:bit when "Step 1: Restart" is showing. Verify every team got it before moving on.
+**Chunking:** One block at a time on the projector, each with its purpose named before it is demonstrated: `show string` puts words on the screen, `on button A pressed` waits for the user.
+
+**Visual checkpoint:** Hold up your micro:bit when "Step 1: Restart" is showing. Verify every team got it before moving on. Teams that needed help clearing the checkpoint start Activity 3 from the pre-built starter code.
 
 ---
 
