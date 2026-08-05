@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Explore the Biomedical Science pathway in H&L; identify 3 biomedical careers; draft a cover letter using the H&L Ch 9 5-step format |
+| **Objectives** | Explore the Biomedical Sciences pathway in the Hats & Ladders app; identify 3 biomedical careers; draft a cover letter using the 5-step format |
 | **TEKS** | d(1)(C), d(7)(B) |
-| **Deliverable** | Hat Research template (1 biomedical career) + draft cover letter (5 sections from workbook) |
-| **Materials** | Chromebooks, H&L Workbook Ch 9 (pp. 138-148), printed Hat Research template, printed Cover Letter worksheet, NIH STEM video link, projector |
+| **5E Phases** | Engage: Warm-Up · Explore: Biomedical Hat browse and career research worksheet · Explain: NIH scientist profile and Stop and Jot · Extend: Cover letter draft and partner feedback · Evaluate: Exit Ticket |
+| **Deliverable** | Career research worksheet (1 biomedical career) + draft cover letter (all 5 sections) |
+| **Materials** | Chromebooks, *Find Your Future* workbook pp. 84-86 and pp. 290-291, printed career research worksheet, printed cover letter worksheet, one real entry-level lab or clinic job posting, NIH STEM video link, projector |
 
 ---
 
@@ -22,11 +23,15 @@ Take 3-4 responses (MRI machines, mRNA vaccines, prosthetics, gene therapy). Bri
 
 ## Activity 1: H&L Biomedical Pathway Tour (15 min)
 
-**Source:** H&L Workbook Ch 9, p. 139, Biomedical Science pathway description
+**Source:** (FYF p. 86: "App Exploration") + (FYF p. 84: "What is Happening at My District?")
 
-Direct students to the H&L app and navigate to the Health Science cluster, then to the Biomedical Science pathway. The workbook describes Biomedical Science as: *"Combines biology and medicine to research and diagnose diseases, learn about health conditions, patient care, and effective communication in medical settings."*
+The workbook's district pages describe the Biomedical Sciences program of study as preparing students for careers in health care by focusing on the study of human body systems, disease, medical research and treatment, and laboratory procedures, while building skills in scientific investigation and critical thinking. Read that description aloud and put it next to the app.
 
-Students use the Hat Finder to explore 5 specific biomedical Hats:
+Students then work the App Exploration steps for the Health Science cluster. This is the cluster's fourth and final week, so students go straight to the pathway work rather than repeating the cluster tour they took in Week 3.
+
+> [H&L PLATFORM] Open the Hats & Ladders app. Go to Clusters and click the Health Science Cluster. Click "Pathway Possibilities," answer the questions, then explore and rate at least 1 pathway. Rate at least 3 Hats before leaving the cluster.
+
+Inside the cluster, students browse 5 specific biomedical Hats:
 
 1. Biomedical Engineer
 2. Lab Technician
@@ -34,14 +39,12 @@ Students use the Hat Finder to explore 5 specific biomedical Hats:
 4. Pharmacist
 5. Genetic Counselor
 
-For each Hat, they note the education time (most require master's or doctoral degree) and DFW salary on scratch paper.
+For each Hat they note the education time and the DFW salary on scratch paper. Most of these careers require a master's or doctoral degree, and students will notice they carry the longest education paths in the Health Science cluster, commonly 6 to 10 years after high school.
 
-> [H&L PLATFORM] In the H&L app, click "Hat Finder," filter by "Health Science" cluster and "Biomedical Science" pathway. Click each Hat tile to see job description, education path, and DFW salary. Students will notice these careers require the MOST education in Health Science, typically 6-10 years after high school.
-
-Then students complete the **Hat Research template** for ONE biomedical career of their choice (workbook p. 148).
+Then students complete the **career research worksheet** for ONE biomedical career of their choice. This is the same worksheet format taught in Week 0 and used in every cluster week.
 
 !!! tip "Facilitation Tip"
-    Don't let the long education path discourage students. Frame it: "These careers pay $100K-$200K because they invent the future of medicine. Every year is an investment that pays back over a 40-year career."
+    Don't let the long education path discourage students. Frame it: these careers pay $100K to $200K because they invent the future of medicine, and every year of school is an investment that pays back over a 40-year career.
 
 ---
 
@@ -53,13 +56,13 @@ If a video is unavailable, project an NIH career profile page and read it aloud.
 
 ---
 
-## Activity 3: Cover Letter — The Golden Ticket (22 min)
+## Activity 3: Write a Cover Letter (22 min)
 
-**Source:** H&L Workbook Ch 9, p. 143, "Cover Letter: The Golden Ticket"
+A cover letter is like a book introduction. It gives a sneak peek of who you are and makes the reader want to learn more. It is a short letter sent with a resume for a job application, personalized to one employer and one job.
 
-Read the workbook intro: *"A cover letter is like a book introduction, it gives a sneak peek of who you are and makes the reader want to learn more about you. A cover letter is a short letter that you send with your resume for a job application. This letter is personalized and introduces you to the employer."*
+**Start with what the employer actually asked for (4 min).** Project one real entry-level lab or clinic job posting and pull it apart the way the workbook's Capstone rung does (FYF pp. 290-291: "Rung 5: Local Connections"): what 2 or 3 responsibilities are listed, what skills and qualifications are required, and what level of education or experience the employer wants. Those four answers are exactly what the cover letter has to respond to. Students complete this rung for a career of their own in 6th Six Weeks, so today is the preview.
 
-Project the workbook's **5 steps for writing a cover letter** (p. 143):
+Then project the **5 sections of a cover letter**:
 
 1. **Begin with a Professional Greeting:** "Dear Ms. Smith" or "Dear Hiring Manager"
 2. **Opening Paragraph:** Mention the job title, company name, and why you are excited to work there
@@ -80,14 +83,14 @@ Walk through a worked example on the projector. Use the biomedical career the cl
 > Sincerely,
 > [Student Name]
 
-Students then draft their own cover letter for a job they would love to have at a company they are interested in (workbook activity, p. 143). The job can be biomedical, but doesn't have to be, the goal is to practice the 5-step format.
+Students then draft their own cover letter for a job they would love to have at a company they are interested in. The job can be biomedical, but it doesn't have to be, the goal is to practice the 5-section format against a real posting's requirements.
 
-After drafting, students swap with a partner and provide constructive feedback (workbook activity).
+After drafting, students swap with a partner and give one piece of constructive feedback on the Body Paragraph, which is the section that decides whether an employer keeps reading.
 
 **DOK 2:** How would you describe what makes a cover letter different from a resume? Why do employers want to read both?
 
 !!! tip "Facilitation Tip"
-    Tell students upfront: this is a DRAFT. Real cover letters get revised many times. The goal today is to learn the 5-step structure, not to write a perfect letter.
+    Tell students upfront: this is a DRAFT. Real cover letters get revised many times. The goal today is to learn the 5-section structure, not to write a perfect letter.
 
 ---
 

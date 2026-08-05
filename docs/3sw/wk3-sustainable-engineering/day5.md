@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Complete the Xello Interests Lesson; begin (or complete) eDynamic Unit 7.1: Progressive and Adaptable; reflect on the 3-week Agriculture cluster journey |
 | **TEKS** | d(1)(A), d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explore: Xello Interests lesson · Extend: eDynamic Unit 7.1 and Adaptability · Evaluate: Exit Ticket |
 | **Deliverable** | Xello Interests lesson completion screenshot + eDynamic 7.1 progress entry + 3-week Ag reflection (3 sentences) |
-| **Materials** | Chromebooks, Xello accounts, eDynamic Learning accounts, projector |
+| **Materials** | Chromebooks, Xello accounts, eDynamic Learning accounts, *Find Your Future* workbook p. 146 ("Powerskill: Adaptability", fallback and extension), sticky notes, projector |
 
 ---
 
@@ -54,7 +55,7 @@ Connection prompt: Did Xello recommend any environmental or agricultural careers
 
 Direct students to log into eDynamic Learning and navigate to **Unit 7.1: Progressive and Adaptable**. This unit reinforces the Agriculture cluster content from this six weeks and connects it to two other clusters (Energy and Health Science) that students explored earlier in the year.
 
-> [VERIFY IN eDynamic] Confirm with your district that Unit 7.1 is enabled and accessible to 7th-grade students. Verify the unit covers Agriculture content as expected. **If the unit is unavailable,** use this fallback: students move Activity 3 (3-Week Ag Reflection) forward to this slot and then research ONE real ag-tech company (e.g., Hylio, Skydio, DJI Agriculture) using BLS Environmental Engineers, BLS Agricultural Engineers, or climatekids.nasa.gov. Each student writes 2 sentences: what the company does + what careers it employs. Same 15-min budget, no scramble needed.
+> [VERIFY IN eDynamic] Confirm with your district that Unit 7.1 is enabled and accessible to 7th-grade students. Verify the unit covers Agriculture content as expected. **If the unit is unavailable,** run "Powerskill: Adaptability" from the workbook instead (FYF p. 146). Students are the event planner for a huge outdoor community concert when the tech crew hits a problem and the show is delayed at least 30 minutes with a restless crowd waiting. Step 1: brainstorm on sticky notes how to keep the audience entertained, using the performers, vendors, and other teams already on site. Step 2: write a short stage announcement that tells the crowd about the delay and keeps them willing to wait. Step 3: pair up, share the plan and the announcement, and give each other constructive feedback. It is the same 15-min budget, it needs no internet, and it is the same skill Unit 7.1 is named for. A second fallback if the workbook is not in hand: research ONE real ag-tech company (e.g., Hylio, Skydio, DJI Agriculture) using BLS Environmental Engineers, BLS Agricultural Engineers, or climatekids.nasa.gov and write 2 sentences on what the company does and what careers it employs.
 
 Students work through Unit 7.1 at their own pace for 15 minutes. The goal is to make meaningful progress, not necessarily finish. Unit 7.1 may continue into Week 4 or beyond.
 
@@ -91,7 +92,7 @@ Connect this career to THREE things:
 
    ___________________________________________________________________
 
-**2. An Irving ISD pathway at Nimitz HS** (Vet Science → Elanco, Plant Science → Texas Certified Landscape Associate, OR Sustainable Engineering → AutoDesk CAD-Inventor)
+**2. An Irving ISD pathway at Nimitz HS** (Vet Science → Elanco, Plant Science → BASF Plant Science, OR Sustainable Engineering → AutoDesk CAD-Inventor)
 
    My pathway: _______________________. One sentence on why it connects to my favorited career:
 
@@ -112,5 +113,5 @@ Submit your Xello Interests completion screenshot + 3-sentence reflection with t
 ## Differentiation
 
 - **Support:** Sentence stems for the 3-week reflection. Pre-fill the second sentence template: "The activity I enjoyed most was the _____ activity because _____."
-- **Extension:** Connect your favorite Ag career to a real Irving ISD pathway (Nimitz Vet Science, Nimitz Plant Science, Nimitz Sustainable Engineering). Which pathway would prepare you for it best?
+- **Extension:** Connect your favorite Ag career to a real Irving ISD pathway (Nimitz Vet Science, Nimitz Plant Science, Nimitz Sustainable Engineering). Which pathway would prepare you for it best? Students who finish early run "Powerskill: Adaptability" (FYF p. 146) and write the stage announcement for the delayed concert.
 - **ELL:** Pre-teach: Interest = Interés, Adaptable = Adaptable, Reflection = Reflexión. Xello and eDynamic both support Spanish, show language toggles if needed.

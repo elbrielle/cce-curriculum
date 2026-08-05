@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Apply the principles of effective written communication; create a Little Library social media post using the H&L Powerskills workbook activity; pair the written skill with a healthcare role-play |
+| **Objectives** | Apply the principles of effective written communication; create a Little Library social media post using the "Powerskill: Written Communication" activity; pair the written skill with a healthcare role-play |
 | **TEKS** | d(4)(B) |
+| **5E Phases** | Engage: Warm-Up · Explain: Written communication tips · Explore: Little Library brainstorm and social media post · Extend: Healthcare written handoff cards · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Little Library social media post (clear status, call to action, 2 hashtags) + 1 healthcare role-play observation |
-| **Materials** | Chromebooks, H&L Powerskills Workbook (pp. 25-26), printed social media post template, healthcare role-play cards from Day 2, projector |
+| **Materials** | Chromebooks, *Find Your Future* workbook pp. 147-148, printed social media post template, sticky notes, healthcare role-play cards from Day 2, projector |
 
 ---
 
@@ -22,11 +23,11 @@ Take 2-3 responses. Bridge: in healthcare, miscommunication can mean medication 
 
 ## Activity 1: Written Communication Tips (8 min)
 
-**Source:** H&L Powerskills Workbook, p. 25, "Written Communication"
+**Source:** (FYF p. 147: "Powerskill: Written Communication")
 
-Read the workbook intro aloud: *"Effective communication is all about sharing your thoughts clearly and understanding other people. One way to effectively communicate is through writing. At work, people share their ideas and ask questions through emails, letters, reports, and even social media."*
+Open the workbook to page 147 and read the opening paragraph together. Effective communication means sharing your thoughts clearly and understanding other people. It matters because it helps you work with others, solve problems, and build good relationships. One way to communicate is through writing, and at work people share ideas and ask questions through emails, letters, reports, and social media. When writing works, everyone stays on the same page.
 
-Project the workbook's 4 tips (p. 25):
+Project the workbook's 4 tips, printed in the box on page 148:
 
 1. **Put yourself in your reader's shoes:** what information will they need to know about the topic?
 2. **Be clear and concise**
@@ -39,17 +40,17 @@ Connect to healthcare: a nurse writes patient notes that the next shift's nurse 
 
 ## Activity 2: Little Library Social Media Post (22 min)
 
-**Source:** H&L Powerskills Workbook, pp. 25-26, Little Library Activity
+**Source:** (FYF pp. 147-148: "Powerskill: Written Communication", Steps 1-2)
 
-Read the workbook scenario: *"Imagine that your town has several Little Libraries, small spaces where people can take, trade, or leave books for free. To keep these libraries useful, the community needs to know when they need more books, have too many books, or have specific books available. You have been tasked to create a social media platform for the Little Libraries to keep your community informed."*
+Read the workbook scenario on page 147. A town has several Little Libraries, small boxes where people take, trade, or leave books for free. To keep them useful, the community has to know when a box needs more books, has too many, or is holding something specific. The student's job is to build the social media presence that keeps the community informed.
 
-**Step 1: Gather Information** (workbook p. 26): Each student decides:
+**Step 1: Brainstorm Ideas** (FYF p. 147): each student imagines they are responsible for one Little Library in their neighborhood and brainstorms on sticky notes:
 
 - Is the Little Library full, empty, or in need of specific types of books?
-- What do you want people to do (donate, take, check out the selection)?
+- What do you want people to do (donate, take books, check out the selection)?
 - Where is your Little Library located?
 
-**Step 2: Create the Post** (workbook p. 26): Each student creates a social media post that includes:
+**Step 2: Create a Social Media Post** (FYF p. 148): each student creates a social media post that includes:
 
 - **Clear status** of the Little Library (full / empty / needs specific books)
 - **Call to action** (donate, visit, take)
@@ -57,7 +58,7 @@ Read the workbook scenario: *"Imagine that your town has several Little Librarie
 
 Students write the post on the worksheet (or in a Google Doc). The post should be 3-5 sentences max, concise is the point.
 
-**Class Discussion** (workbook p. 26):
+**Class Discussion** (FYF p. 148):
 
 - *"How did you make sure your message was clear?"*
 - *"Why is it important to be specific when asking for help or giving information?"*
@@ -115,4 +116,4 @@ Which quality matters MOST in THIS handoff, and why? *(d(4)(B))*
 
 - **Support:** Provide a fill-in-the-blank social media post template: "The Little Library at _____ is _____. Please [action]. #[hashtag1] #[hashtag2]"
 - **Extension:** Students write THREE versions of the Little Library post for different audiences (parents of young readers, retirees, teens). How does the language change?
-- **ELL:** Bilingual workbook prompts. Pre-teach: Donate = Donar, Library = Biblioteca, Status = Estado, Hashtag = Etiqueta. Pair ESL students with bilingual peers for the writing step.
+- **ELL:** Bilingual workbook prompts. Pre-teach: Donate = Donar, Library = Biblioteca, Status = Estado, Hashtag = Etiqueta. The workbook page reads above grade level, so read the page 147 scenario aloud and allow browser translation for the tips box. Pair ESL students with bilingual peers for the writing step.

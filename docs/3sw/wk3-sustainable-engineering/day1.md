@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Explore the Environmental and Natural Resources pathway in H&L; connect climate science topics to specific environmental careers; take notes on 2 environmental careers |
+| **Objectives** | Explore the environmental and engineering side of the Agriculture cluster in the Hats & Ladders app; connect climate science topics to specific environmental careers; take notes on 2 environmental careers |
 | **TEKS** | d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explore: App pathway and Hat notes · Explain: Climate Kids topic-to-career share · Evaluate: Exit Ticket |
 | **Deliverable** | Hat notes for 2 environmental careers + 1 connection to a NASA Climate Kids topic |
-| **Materials** | Chromebooks, H&L accounts, NASA Climate Kids ([climatekids.nasa.gov](https://climatekids.nasa.gov)), projector |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook p. 102 ("App Exploration"), NASA Climate Kids ([climatekids.nasa.gov](https://climatekids.nasa.gov)), projector |
 
 ---
 
@@ -22,16 +23,18 @@ Take 4 student responses. Use this to bridge from Plant Science (Week 2) to Envi
 
 ## Activity 1: H&L Environmental Pathways (20 min)
 
-**Source:** H&L Workbook Ch 2, p. 17, Pathway list (Environmental and Natural Resources)
+**Source:** (FYF p. 102: "App Exploration"), Agriculture, Food, and Natural Resources cluster
 
-Direct students to open Hats & Ladders and navigate to the Environmental and Natural Resources pathway inside the Agriculture cluster. Project the pathway page and walk through 4 careers:
+The workbook chapter prints no pathway list. Pathways live in the app, on the App Exploration page students already used in Weeks 1 and 2. Because the class has met this cluster twice, skip the Cluster Tour video and Game Time and go straight to the two steps that carry this week: Pathway Possibilities and the Hat ratings.
+
+Project the pathway list from the app and walk through 4 careers on the environmental and engineering side of the cluster:
 
 - **Environmental Engineer:** designs water treatment systems and pollution controls
 - **Sustainability Consultant:** helps companies reduce their environmental impact
 - **Water Treatment Specialist:** runs the equipment that cleans drinking water and wastewater
 - **Renewable Energy Technician:** installs and maintains solar panels and wind turbines
 
-> [H&L PLATFORM] Direct students to the Hat Finder, filter by Environmental and Natural Resources, and browse the available Hats. Each Hat profile has Education, Salary, Daily Tasks, and "Why It Matters" sections. Students take notes on 2 careers using a half-sheet template.
+> [H&L PLATFORM] Open the Hats & Ladders app, go to Clusters, and click the Agriculture, Food, and Natural Resources cluster. Click "Pathway Possibilities," answer the questions, and rate at least 1 pathway. Then rate at least 3 Hats in the cluster. Each Hat profile has Education, Salary, Daily Tasks, and "Why It Matters" sections. Students take notes on 2 of the Hats they rated using a half-sheet template.
 
 The note template has 4 fields per career:
 
@@ -62,7 +65,7 @@ Students open Climate Kids and spend 10 minutes exploring. They find ONE topic t
 - **Topic:** "What is the greenhouse effect?" → **Career connection:** Environmental Engineer (designs emissions controls)
 - **Topic:** "How do scientists measure rising seas?" → **Career connection:** Environmental Scientist
 
-Students write 2 sentences below their note table:
+**Stop and Jot:** students write 2 sentences below their note table, 45 seconds each, with both stems on screen:
 
 - **Sentence 1:** "I read about _____ on Climate Kids."
 - **Sentence 2:** "This connects to the career of _____ because they work on _____."

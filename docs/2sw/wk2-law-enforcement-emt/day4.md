@@ -1,110 +1,99 @@
-# Day 4: Local Risk Response — Citywide Emergency Plan
+# Day 4: Injured on the Trail — Report and Complications
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete individual role-specific response plans, combine them into a Citywide Emergency Plan, and present the plan to the class |
+| **Objectives** | Complete a Patient Care Report narrative covering care provided, reasoning, and transport preparation; improvise a plan for a wilderness complication and brief another group on it |
 | **TEKS** | d(1)(C), d(4)(F) |
-| **Deliverable** | Citywide Emergency Plan poster (or digital doc) + 3-minute team presentation |
-| **Materials** | Chromebooks, H&L Workbook Ch 13 (pp. 223-225), Silver Ridge city brief from Day 3, large poster paper or Google Slides, markers, projector |
+| **5E Phases** | Engage: Warm-Up · Explain: Patient Care Report narrative · Extend: Wilderness complication plan · Evaluate: Group-to-group briefing and Exit Ticket |
+| **Deliverable** | Completed Patient Care Report (all five sections) + a complication plan briefed to another group |
+| **Materials** | *Find Your Future* workbook pp. 53-54, Day 3 supplies and scene notes, Climber Notes deck "Injured on the Trail", Daily Performance & Career Skills Rubric (H&L teacher resources), Chromebooks, projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: In an emergency, every second counts. What is one quality you would want from EVERY person on your task force, no matter their role?**
+**WARM-UP: You are the emergency room team. A hiker arrives with a sling on one arm and a splint on one finger, but no notes came with them. What three things do you most need to know from the responder who treated them?**
 
-Take 3-4 responses. Students will name "stay calm," "communicate," "make decisions." Bridge to the workbook framing: integrity and perseverance are the qualities that hold a team together when everything goes wrong.
+Take 3-4 responses. Students name the injury, what was done, and when it happened. Bridge: those three answers are the reason Wilderness First Responders write a Patient Care Report before they hand a patient off. Today students finish theirs, then find out what happens when the trail stops cooperating.
 
 ---
 
-## Activity 1: Finalize Individual Response Plans (12 min)
+## Activity 1: Finish the Patient Care Report (12 min)
 
-**Source:** H&L Workbook Ch 13, p. 223, Individual Work step
+**Source:** (FYF p. 53: "Injured on the Trail", Step 4)
 
-Students return to their individual role-specific plans from Day 3. They expand each plan to cover:
+Students return to the Patient Care Report they started on Day 3. The workbook explains that the most important part of the report is the narrative, where responders explain the situation in their own words, and that a strong report is what lets the next medical team understand exactly what the patient experienced and how they were treated.
 
-- **First 15 minutes:** What does my role do?
-- **First hour:** What resources do I deploy from the Silver Ridge city brief? Which buildings do I use?
-- **First 24 hours:** How does my role coordinate with the other roles on the team?
-- **One ethical dilemma:** Pick ONE integrity test your role might face. Use the role-specific examples below as models; students write their own dilemma in the same two-choice format.
+Students complete the three remaining sections with a clear, step-by-step narrative:
 
-Students should reference specific Silver Ridge buildings: the hospital with 150 beds, the high school with backup generators, the bridge over the Clear River, the East Side Rec Center.
+| Section | What it must answer |
+|---|---|
+| **Care Provided** | What actions did you take to treat the injuries? Describe how you used the sling and the splint. |
+| **Reasoning** | Why did you choose those treatments? Use your Step 1 research to support your decisions. |
+| **Transport Preparation** | How did your actions help prepare the patient for safe transport? |
 
-**Integrity dilemma scaffold** (project on the board, students pick ONE and adapt it, or write their own in the same format):
-
-- **Emergency Management Director:** Evacuate the senior living home (80 residents, hard to move) OR the high school (1,200 students, easy to move). Buses only reach one before the fire.
-- **Firefighter:** Send your only ladder truck to a burning apartment building OR a burning warehouse that might have hazmat.
-- **EMT / Paramedic Team Lead:** Send the last ambulance to the most critical patient (40 min away) OR three stable-but-injured patients (10 min away).
-- **Police Officer / Sheriff:** Enforce the evacuation order on a family that refuses to leave OR move on and help others who will cooperate.
-- **Public Information Officer:** Release partial information now (may cause panic) OR wait 20 minutes for confirmed facts (people may make unsafe choices in the meantime).
-
-Each dilemma must have two options where each side has a real reason and neither is clearly right.
+The Reasoning section is where the Day 3 research pays off. Students who wrote "because it helps" go back to their six research answers and name the specific reason: a sling limits shoulder movement, a splint keeps a fractured finger straight so the injury does not get worse in transport.
 
 !!! tip "Facilitation Tip"
-    The dilemma is the d(4)(F) hook. Push students to name a TRADE-OFF, not a clearly right answer. Real first responders make hard choices with imperfect information. That is what integrity means.
+    Ask the room the workbook's own question while students write: why do first responders document so carefully? Push past "so they do not forget." The report is a legal record, it is what the next team treats from, and it is the only account of a decision made where no one else was watching. A responder who leaves out the part that went badly is making the next team's job harder.
 
 ---
 
-## Activity 2: Combine into Citywide Emergency Plan (15 min)
+## Activity 2: Handle a Wilderness Complication (15 min)
 
-**Source:** H&L Workbook Ch 13, p. 223, Group Work step
+**Source:** (FYF p. 54: "Injured on the Trail", Step 5)
 
-Each team merges their individual plans into ONE Citywide Emergency Plan on poster paper or Google Slides. The plan must include:
+The workbook's framing: Wilderness First Responders have to think fast, stay calm, and adapt, because in the wilderness anything can happen. Each group chooses ONE complication:
 
-| Section | Content |
-|---|---|
-| **Emergency Type** | Name the scenario (Hurricane, Wildfire, etc.) |
-| **Team Roles** | Each team member's role and one sentence on their job |
-| **First Hour Sequence** | A timeline of the first hour with at least 4 actions |
-| **City Resources Used** | At least 3 buildings from the Silver Ridge brief |
-| **Communication Plan** | How the team uses the city alert system (text, radio, app) |
-| **Integrity Dilemma** | One hard choice the team faces and how they handled it |
+- Weather suddenly worsens as a severe thunderstorm rolls in
+- The hiker is scared and nervous about what happens next
+- To get to the ambulance, you must cross a fast-moving stream
 
-Teams divide the work, one person owns each section, but the team reviews the whole plan together before submission.
+Groups work together to explain how they would use their WFR skills to improvise and safely get the patient the care they need. They write the plan in the workbook space on page 54 and prepare to defend it. The workbook requires the plan to be ready on three fronts:
 
-> [H&L PLATFORM] Teams that prefer digital formats can build the plan in a Google Slides deck (one slide per section). The H&L workbook is the source for the role list and the Silver Ridge city brief, but the format of the final deliverable is flexible.
+1. The reasoning for each step
+2. How the decisions keep both the patient and the team safe
+3. Answers to questions, including alternative approaches someone else might take
+
+!!! tip "Facilitation Tip"
+    The "scared and nervous hiker" option looks like the easy one and is not. Groups that pick it have to plan what they say and how they say it, not what they do with their hands. If a group is stuck, point them back to Day 3: the workbook already asked them to explain each step to the patient while working. That habit is the plan.
 
 ---
 
-## Activity 3: Team Presentations (15 min)
+## Activity 3: Brief Another Group (15 min)
 
-Each team presents their Citywide Emergency Plan to the class. The presentation must cover:
+**Source:** (FYF p. 54: "Injured on the Trail", Step 5, present to another group)
 
-1. The emergency scenario
-2. Who is on the task force and what each role is doing
-3. The first-hour sequence
-4. The integrity dilemma and how the team resolved it
+Pair each group with a partner group. Round 1: Group A briefs its complication plan while Group B listens, then Group B asks one question or offers one alternative approach. Round 2: swap roles. If time allows, rotate to a new partner group and run both rounds again with a different complication.
 
-!!! warning "Presentation time budget"
-    Activity 3 is 15 minutes. With ~30 seconds of transition between teams, that is 2 minutes per team for up to 6 teams, or 90 seconds per team for 7-8 teams. Pick ONE compression option before Day 4 based on class size:
+**Time, Voice, Body:** Post the three blocks before the first briefing. Voice 0 while the receiving group reads the plan, Voice 2 for the briefing itself, Voice 1 for the question round, and a visible countdown for every rotation. Slings, wraps, and splints go back in the supply tray at the center of the table between rounds, not into backpacks. Narrate the groups that are meeting the expectation instead of correcting the ones that are not.
 
-    - **4-5 teams (small class):** 2:30 per team, full 4-point coverage, no transitions needed.
-    - **6 teams (standard):** 2:00 per team, still covers all 4 points; 30-second transition built in.
-    - **7-8 teams (large class):** 90 seconds per team, cover points 1 + 4 only (scenario + integrity dilemma). Points 2 and 3 stay on the poster for gallery walk.
-    - **Overflow:** If teams still cannot fit, run Activity 3 as a gallery walk. Teams stand by their posters; half the class circulates for 7 minutes while the other half presents at posters, then swap.
+!!! warning "Briefing time budget"
+    Activity 3 is 15 minutes. Pick ONE option before Day 4 based on class size:
 
-The class evaluates each team using a quick rubric (visible on the projector):
+    - **4-6 groups (small or standard class):** two rotations. Each rotation is two 3-minute briefings plus a 1-minute question round, with 30 seconds to move.
+    - **7-8 groups (large class):** one rotation only, at 3 minutes per briefing, then use the remaining time for a whole-class share where three groups name the hardest decision in their plan.
+    - **Overflow:** if groups are still running long, cut the question round to one question total per pairing and announce the change before the next rotation starts.
 
-- Are the roles assigned logically?
-- Does the plan use Silver Ridge city resources?
-- Is the integrity dilemma realistic?
-- Did every team member speak?
+Groups are scored with the **Daily Performance & Career Skills Rubric** from the H&L teacher resources: Work Ethic & Effort, Productivity & Progress, Problem-Solving & Thinking, and Communication & Collaboration.
 
-**DOK 4:** If you were designing the training program for new EMTs, what real-world scenarios from today would you include and why? Use evidence from your team's plan to support your recommendations.
+Close with the workbook's Class Discussion prompts (p. 54): how can small changes, like checking comfort or adjusting the sling, make a big difference in patient safety; why was it important to explain what you were doing while working on the hiker; and which of your Building Blocks would prepare you for a career as a WFR.
+
+**DOK 4:** If you were designing the training program for new Wilderness First Responders, which two moments from this week would you build into the training and why? Use evidence from your own Patient Care Report to support your recommendations.
 
 ---
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Trade-off / Dilemma Analysis) · [Printable PDF](../../resources/exit-tickets/2sw-wk2-day4-local-risk-response-citywide-emergency-plan.pdf):
+**EXIT TICKET** (Trade-off / Dilemma Analysis) · [Printable PDF](../../resources/exit-tickets/2sw-wk2-day4-injured-on-the-trail-report-and-complications.pdf):
 
-You are the Emergency Management Director. A wildfire is coming. You have enough buses to save only ONE place before the fire gets here:
+You are the Wilderness First Responder. The hiker's shoulder is in a sling and the finger is splinted. To reach the ambulance you must cross a fast-moving stream. A thunderstorm is about 15 minutes away.
 
-- **(A)** A senior living home with 80 older adults. Many use wheelchairs or walkers.
-- **(B)** A high school with 1,200 students and staff at an after-school event.
+- **(A)** Cross the stream NOW. The water is lower, but the hiker is in pain and unsteady on their feet.
+- **(B)** WAIT under cover for the storm to pass. The hiker will be calmer, but the stream will be higher and faster.
 
 Pros of picking A: _______________________________________________________
 
@@ -129,6 +118,6 @@ In one sentence, why is THIS quality the right one here (not the others)? ______
 
 ## Differentiation
 
-- **Support:** Provide a Citywide Emergency Plan template with sections pre-labeled and one section (Communication Plan) pre-filled as a model.
-- **Extension:** Teams add a "Day 2-7 Recovery Plan" section that addresses what happens AFTER the first 24 hours, sheltering, food distribution, mental health support.
-- **ELL:** Bilingual rubric and presentation evaluation form. Pair ESL students with bilingual peers as their presentation co-presenter. Visual icons on the role cards (firetruck, ambulance, badge) reduce language load.
+- **Support:** Provide a Patient Care Report template with the Care Provided section modeled as an example narrative. Give a sentence stem for Reasoning: "I chose the _____ because my research said _____." Offer a three-step planning frame for the complication (what changes, what we do about it, how we keep everyone safe).
+- **Extension:** Groups add a second complication to their plan and explain what they would change if both happened at once. Which decision from the first plan no longer works?
+- **ELL:** Bilingual Patient Care Report section headers and a bilingual briefing checklist. Pre-teach: Report = Informe, Care = Atención, Reasoning = Razonamiento, Transport = Transporte, Storm = Tormenta, Stream = Arroyo, Safe = Seguro. Pair ESL students with a bilingual co-presenter for the briefing. The visual supply icons from Day 3 stay on the table so students can point rather than name.

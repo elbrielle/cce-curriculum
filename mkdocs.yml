@@ -71,17 +71,17 @@ nav:
   - 2nd Six Weeks — Law & Public Service + Health Science:
     - Wk 1 — Legal Studies:
       - Overview: 2sw/wk1-legal-studies/overview.md
-      - Day 1 — Law Cluster Tour + Legal Services Pathway: 2sw/wk1-legal-studies/day1.md
+      - Day 1 — Law and Public Safety Cluster Tour + Legal Career Research: 2sw/wk1-legal-studies/day1.md
       - Day 2 — Emergency Essentials Kit Design: 2sw/wk1-legal-studies/day2.md
-      - Day 3 — iCivics — Justice in Action: 2sw/wk1-legal-studies/day3.md
-      - Day 4 — AI Ethics Debate + Legal Entrepreneurship: 2sw/wk1-legal-studies/day4.md
+      - Day 3 — City Council in Action: 2sw/wk1-legal-studies/day3.md
+      - Day 4 — Policy Showdown + Legal Entrepreneurship: 2sw/wk1-legal-studies/day4.md
       - Day 5 — Cluster Wrap-Up + Xello Life Experience: 2sw/wk1-legal-studies/day5.md
     - Wk 2 — Law Enforcement / EMT:
       - Overview: 2sw/wk2-law-enforcement-emt/overview.md
       - Day 1 — First Responder Pathways: 2sw/wk2-law-enforcement-emt/day1.md
-      - Day 2 — Missing Painting Detective Scenario: 2sw/wk2-law-enforcement-emt/day2.md
-      - Day 3 — Local Risk Response Task Force Setup: 2sw/wk2-law-enforcement-emt/day3.md
-      - Day 4 — Local Risk Response Citywide Plan: 2sw/wk2-law-enforcement-emt/day4.md
+      - Day 2 — Clinton Lake Case — Weigh the Evidence: 2sw/wk2-law-enforcement-emt/day2.md
+      - Day 3 — Injured on the Trail — Stabilize: 2sw/wk2-law-enforcement-emt/day3.md
+      - Day 4 — Injured on the Trail — Report + Complications: 2sw/wk2-law-enforcement-emt/day4.md
       - Day 5 — Cluster Wrap-Up + Reflection: 2sw/wk2-law-enforcement-emt/day5.md
     - Wk 3 — Nursing:
       - Overview: 2sw/wk3-nursing-health-science/overview.md
@@ -92,31 +92,31 @@ nav:
       - Day 5 — Reflection + Xello + eDynamic: 2sw/wk3-nursing-health-science/day5.md
     - Wk 4 — Dental / Medical Billing:
       - Overview: 2sw/wk4-dental-medical-billing/overview.md
-      - Day 1 — Health Informatics + Medical Billing: 2sw/wk4-dental-medical-billing/day1.md
+      - Day 1 — Smile Squad — Dental Careers + Cavity Risk: 2sw/wk4-dental-medical-billing/day1.md
       - Day 2 — Perfect Toothbrush + Dental Pathway: 2sw/wk4-dental-medical-billing/day2.md
       - Day 3 — Xello Education Experience + School Subjects: 2sw/wk4-dental-medical-billing/day3.md
-      - Day 4 — Medical Coding Simulation: 2sw/wk4-dental-medical-billing/day4.md
+      - Day 4 — Health Informatics + Medical Coding: 2sw/wk4-dental-medical-billing/day4.md
       - Day 5 — Health Science Mid-Point + Recommendation: 2sw/wk4-dental-medical-billing/day5.md
     - Wk 5 — Powerskills Communication:
       - Overview: 2sw/wk5-powerskills-communication/overview.md
       - Day 1 — Powerskills Intro + Conflict Resolution: 2sw/wk5-powerskills-communication/day1.md
-      - Day 2 — Giving and Receiving Feedback: 2sw/wk5-powerskills-communication/day2.md
+      - Day 2 — Active Listening at the Triage Desk: 2sw/wk5-powerskills-communication/day2.md
       - Day 3 — Advocacy + SMART Goals: 2sw/wk5-powerskills-communication/day3.md
       - Day 4 — Written Communication — Little Library Post: 2sw/wk5-powerskills-communication/day4.md
       - Day 5 — Xello Time Management + Reflection: 2sw/wk5-powerskills-communication/day5.md
     - Wk 6 — Biomedical:
       - Overview: 2sw/wk6-biomedical-health-science/overview.md
       - Day 1 — Biomedical Pathway + Cover Letter: 2sw/wk6-biomedical-health-science/day1.md
-      - Day 2 — Physical Therapy in Action: 2sw/wk6-biomedical-health-science/day2.md
-      - Day 3 — Farm Fresh Express — Setup: 2sw/wk6-biomedical-health-science/day3.md
-      - Day 4 — Farm Fresh Express — Design + Present: 2sw/wk6-biomedical-health-science/day4.md
+      - Day 2 — Mini Medics: 2sw/wk6-biomedical-health-science/day2.md
+      - Day 3 — Outbreak Investigators — Examine the Clues: 2sw/wk6-biomedical-health-science/day3.md
+      - Day 4 — Outbreak Investigators — Response Plan: 2sw/wk6-biomedical-health-science/day4.md
       - Day 5 — Emerging Career Research + 2SW Wrap-Up: 2sw/wk6-biomedical-health-science/day5.md
   - 3rd Six Weeks — Ag, Hospitality, Human Services, Business:
     - Wk 1 — Vet Science:
       - Overview: 3sw/wk1-vet-science/overview.md
       - Day 1 — Ag Cluster + Animal Systems Hats: 3sw/wk1-vet-science/day1.md
       - Day 2 — Vet Tech vs. Veterinarian: 3sw/wk1-vet-science/day2.md
-      - Day 3 — Candy Conundrum Teamwork: 3sw/wk1-vet-science/day3.md
+      - Day 3 — Powerskill Critical Thinking — Vet Triage: 3sw/wk1-vet-science/day3.md
       - Day 4 — Xello Life Experiences: 3sw/wk1-vet-science/day4.md
       - Day 5 — Nimitz Vet Pathway + Favorites: 3sw/wk1-vet-science/day5.md
     - Wk 2 — Plant Science:
@@ -138,22 +138,22 @@ nav:
       - Day 1 — Hospitality Cluster + Culinary Twist: 3sw/wk4-culinary-hospitality/day1.md
       - Day 2 — Powerskill Motivation + Salary: 3sw/wk4-culinary-hospitality/day2.md
       - Day 3 — Hotel Rescue Team Activity: 3sw/wk4-culinary-hospitality/day3.md
-      - Day 4 — Pack Your Bags Tourism Campaign: 3sw/wk4-culinary-hospitality/day4.md
+      - Day 4 — Cater and Create Event Design: 3sw/wk4-culinary-hospitality/day4.md
       - Day 5 — Xello Decision Making + eDynamic: 3sw/wk4-culinary-hospitality/day5.md
     - Wk 5 — Cosmetology:
       - Overview: 3sw/wk5-cosmetology/overview.md
-      - Day 1 — Human Services + Stress Toolkit: 3sw/wk5-cosmetology/day1.md
-      - Day 2 — Job Interview Prep + Practice: 3sw/wk5-cosmetology/day2.md
-      - Day 3 — Texas TDLR Licensing: 3sw/wk5-cosmetology/day3.md
-      - Day 4 — Salon Entrepreneurship + Get Out and Move: 3sw/wk5-cosmetology/day4.md
+      - Day 1 — Human Services + SFX Concept: 3sw/wk5-cosmetology/day1.md
+      - Day 2 — Special Effects Makeup Build: 3sw/wk5-cosmetology/day2.md
+      - Day 3 — SFX Quality Check + TDLR Licensing: 3sw/wk5-cosmetology/day3.md
+      - Day 4 — Salon Entrepreneurship + Stress Toolkit: 3sw/wk5-cosmetology/day4.md
       - Day 5 — Xello Career Factors + eDynamic: 3sw/wk5-cosmetology/day5.md
     - Wk 6 — Entrepreneurship:
       - Overview: 3sw/wk6-entrepreneurship/overview.md
       - Day 1 — Business Cluster + Defining Entrepreneurship: 3sw/wk6-entrepreneurship/day1.md
-      - Day 2 — Think Inside the Box MVP: 3sw/wk6-entrepreneurship/day2.md
-      - Day 3 — Pitching Investors Business Plan: 3sw/wk6-entrepreneurship/day3.md
-      - Day 4 — Pitching Investors Pitch Day: 3sw/wk6-entrepreneurship/day4.md
-      - Day 5 — Lifestyle Snapshot Budget + Xello: 3sw/wk6-entrepreneurship/day5.md
+      - Day 2 — Million Dollar Idea — Problem and Ideas: 3sw/wk6-entrepreneurship/day2.md
+      - Day 3 — Million Dollar Idea — Stress Test and Decide: 3sw/wk6-entrepreneurship/day3.md
+      - Day 4 — Venture Pitch Day: 3sw/wk6-entrepreneurship/day4.md
+      - Day 5 — Personal Budget + Xello: 3sw/wk6-entrepreneurship/day5.md
   - 4th Six Weeks — Career Planning + Transportation + Engineering:
     - Wk 1 — Career Planning Mid-Year Review:
       - Overview: 4sw/wk1-career-planning/overview.md

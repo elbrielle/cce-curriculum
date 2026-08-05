@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Complete the Xello Exploring Career Factors lesson; make progress on eDynamic Unit 4.2 Part 1; favorite Personal Care careers in H&L; reflect on the Human Services cluster |
 | **TEKS** | d(1)(A), d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explore: Xello Career Factors and eDynamic 4.2 · Extend: Human Services favorites and week reflection · Evaluate: Exit Ticket |
 | **Deliverable** | Xello completion screenshot + favorited careers in H&L (screenshot) + 3-sentence cluster reflection |
-| **Materials** | Chromebooks, Xello accounts, eDynamic Learning accounts, H&L accounts, projector |
+| **Materials** | Chromebooks, Xello accounts, eDynamic Learning accounts, H&L accounts, *Find Your Future* workbook p. 138, projector |
 
 ---
 
@@ -60,9 +61,9 @@ Students work through Unit 4.2 Part 1 at their own pace for 15 minutes. The goal
 
 ## Activity 3: H&L Favorites + Cluster Reflection (8 min)
 
-**Source:** H&L Workbook Ch 11, Hat Finder favoriting
+**Source:** (FYF p. 138: "App Exploration")
 
-> [H&L PLATFORM] Direct students to the Hat Finder in the H&L app, filter by Human Services, and click the heart/favorite icon on 2-3 Personal Care or Health & Wellness careers from this week. The favorited Hats appear in their Climber Profile under "Favorites." The workbook (Ch 11) directs students to "explore and favorite careers across the Human Services cluster."
+> [H&L PLATFORM] Direct students to the Hat Finder in the H&L app, filter by Human Services, and click the heart or favorite icon on 2-3 personal care or health and wellness careers from this week. The favorited Hats appear in their Climber Profile under "Favorites" and accumulate across all 36 weeks of the course. Students who did not finish the App Exploration page on Day 1 close out the remaining steps here: rate at least 1 pathway under Pathway Possibilities and rate at least 3 Hats.
 
 Students take a screenshot of their Climber Profile favorites screen and save it to Google Drive.
 
@@ -72,7 +73,7 @@ Then they write a 3-sentence reflection on the Human Services week:
 - **Sentence 2:** "If I were to pursue cosmetology in Texas, my biggest goal would be _____."
 - **Sentence 3:** "The activity that helped me understand the entrepreneurship side of cosmetology was _____."
 
-**DOK 3:** Looking back at the week's activities (Stress Toolkit, Job Interviews, TDLR research, Salon Concept, Get Out and Move), which TWO had the strongest connection to the daily life of a real cosmetologist? Defend your answer.
+**DOK 3:** Looking back at the week's activities (Special Effects Makeup, TDLR licensing research, Salon Concept, Stress Toolkit), which TWO had the strongest connection to the daily life of a real cosmetologist? Defend your answer.
 
 ---
 
@@ -96,7 +97,7 @@ Connect this career to THREE things:
 
    ___________________________________________________________________
 
-**3. One fact from this week** (TDLR hours, salon business skill, a stress toolkit technique)
+**3. One fact from this week** (TDLR hours, a salon business skill, a stress management technique, an SFX texture that worked)
 
    My fact: _______________________. Why does this fact matter for someone going into this career? One sentence:
 

@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Welcome the new six weeks and the new cluster; explore the Agriculture, Food & Natural Resources cluster in H&L; identify Animal Systems careers; complete a Hat Research template for one veterinary career |
+| **Objectives** | Welcome the new six weeks and the new cluster; explore the Agriculture, Food & Natural Resources cluster in H&L; identify Animal Systems careers; complete a career research worksheet for one veterinary career |
 | **TEKS** | d(1)(B), d(1)(C) |
-| **Deliverable** | Completed H&L Hat Research template for one Animal Systems career (Ch 2, p. 26) |
-| **Materials** | Chromebooks, H&L accounts, H&L Workbook Ch 2 (pp. 16-26), projector |
+| **5E Phases** | Engage: Warm-Up and Be the Decision Maker · Explain: Check Out These Hats share-out · Explore: App cluster tour and career research worksheet · Evaluate: Exit Ticket |
+| **Deliverable** | Completed career research worksheet for one Animal Systems career |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook pp. 87 and 102, printed career research worksheet, projector |
 
 ---
 
@@ -22,39 +23,34 @@ Discuss 2-3 student responses. Bridge to the idea that veterinary medicine is mo
 
 ## Activity 1: H&L Agriculture Cluster Tour (20 min)
 
-**Source:** H&L Workbook Ch 2: Agriculture, Food, and Natural Resources, pp. 16-17, "Exploring the World of Agriculture, Food, and Natural Resources"
+**Source:** (FYF p. 87: "Exploring the World of AGRICULTURE, FOOD, AND NATURAL RESOURCES") + (FYF p. 102: "App Exploration")
 
 Open the lesson by framing the move from Health Science (last six weeks) into a brand new cluster. Reassure students that even though the cluster name says "Agriculture," it is much broader than farming. It includes vets, food scientists, environmental engineers, and drone pilots.
 
-Direct students to open Hats & Ladders and navigate to the Agriculture, Food, and Natural Resources cluster. The workbook (Ch 2, p. 17) lists six pathways students should be able to identify:
+Read the chapter opener together (FYF p. 87). The workbook frames the cluster as growing food, caring for animals, and managing the land and resources people depend on every day, plus the people who keep those systems running by testing soil and water and protecting natural spaces. The work happens on farms, in greenhouses, in labs, and outdoors. The page puts three Hats in front of students: Feedlot Manager, Agricultural Engineer, and Veterinarian.
 
-- Agriculture Business, Leadership, and Communications
-- Animal Science
-- Agricultural Technology and Mechanical Systems
-- Environmental and Natural Resources
-- Food Science and Technology
-- Plant Science
+**Be the Decision Maker (FYF p. 87).** The opener hands students a design problem: you are in charge of designing a "future farm" that has to feed a busy city. Would you build it underground, on rooftops, or in giant vertical towers? What would you grow or raise there, and how would it all work together? **Think-Pair-Share:** 30 seconds of silent Think, then Partner A for 30 seconds, then Partner B for 30 seconds. Two pairs share out.
 
-Students complete the **"Making Connections"** pair discussion from the workbook (p. 17): they pair up and discuss how the agriculture industry affects everyone, even people who live in cities.
+Close the read with the opener's own reflection question about the three Hats: how do these careers impact our lives on a daily basis? Take three responses and push each one to name a specific object or moment from an ordinary day.
 
-> [H&L PLATFORM] Direct students to open the H&L app, click on Career Clusters, and select "Agriculture, Food, and Natural Resources." They should watch the cluster tour video and skim the six pathway cards. The workbook (p. 17) instructs: "Go to the Hats & Ladders app and click on the 'Agriculture, Food, and Natural Resources' Cluster. Spend some time exploring the cluster and pathways."
+> [H&L PLATFORM] Project the App Exploration steps (FYF p. 102) and release them one at a time. Students open the Hats & Ladders app, go to Clusters, and click the Agriculture, Food, and Natural Resources cluster. They watch the "Cluster Tour" video, then click "Game Time," play the game, and write down one thing they learned. Then they find 1 Hat that matches their personality or interests and 1 Hat that feels like it is NOT a fit, recording why for each. The "Pathway Possibilities" and Hat-rating steps on the same page are saved for Day 5.
 
 !!! tip "Facilitation Tip"
-    Many students assume agriculture means farming and feel like this cluster doesn't apply to them. Project a quick visual of the six pathways on the board and call out one career from each that is NOT a farmer (drone operator, food packaging engineer, water conservation specialist, agriculture lawyer, veterinarian, food scientist).
+    Many students assume agriculture means farming and feel like this cluster doesn't apply to them. The chapter opener does the work for you. Name the three Hats printed on the page (Feedlot Manager, Agricultural Engineer, Veterinarian), then add two more from the app browse that are nowhere near a field, such as a food scientist or a water conservation specialist. The pathway names live in the app under "Pathway Possibilities" and on the district pages, not in the chapter text, so hold that step for Day 5 instead of listing pathways from memory.
 
 ---
 
-## Activity 2: Hat Research — One Animal Systems Career (20 min)
+## Activity 2: Career Research — One Animal Systems Career (20 min)
 
-**Source:** H&L Workbook Ch 2, p. 26, "Hat Research" template
+**Source:** CCE career research worksheet (the research routine is taught in Wk0 from FYF pp. 4-5: "Perks and Quirks") + (FYF p. 102: "App Exploration")
 
 Transition into the Animal Systems pathway. Project the Animal Systems pathway page in H&L and point out that this pathway includes careers from kennel assistants to wildlife biologists to veterinarians.
 
-Each student picks ONE Animal Systems career that interests them. Veterinarian, Vet Technician, Animal Trainer, Wildlife Biologist, or Zookeeper, and completes the Hat Research template from the workbook.
+Each student picks ONE Animal Systems career that interests them. Veterinarian, Vet Technician, Animal Trainer, Wildlife Biologist, or Zookeeper, and completes the career research worksheet.
 
-> [H&L PLATFORM] The workbook (p. 26) instructs: "Go to the Hats & Ladders app and click on the Hat Finder. Explore Hats in the 'Agriculture, Food, and Natural Resources' career cluster. Choose one Hat and fill out the information below." Students click on the Hat Finder, find their chosen Animal Systems career, and fill in the workbook fields with data from the Hat profile.
+> [H&L PLATFORM] Students click on the Hat Finder, filter to the "Agriculture, Food, and Natural Resources" cluster, and open their chosen Animal Systems career. They pull the education, salary, daily task, and tool details straight off the Hat profile onto the worksheet. This is the same research routine Wk0 taught on two Hats, run here on one.
 
-The Hat Research template requires these fields:
+The career research worksheet requires these fields:
 
 - **Name of Career**
 - **What Interests You?** (1-2 sentences)
@@ -76,7 +72,7 @@ The Hat Research template requires these fields:
 
 Scenario: Sofia loves animals but is allergic to cats and dogs. She also loves being outside. Sofia is looking at the H&L Animal Systems pathway.
 
-1. Which Animal Systems career would you recommend to Sofia (examples: Wildlife Biologist, Zookeeper, Marine Biologist, Equine Trainer, Animal Shelter Manager)? Use your Hat Research or today's pathway browse.
+1. Which Animal Systems career would you recommend to Sofia (examples: Wildlife Biologist, Zookeeper, Marine Biologist, Equine Trainer, Animal Shelter Manager)? Use your career research worksheet or today's Hat browse.
 
    My pick: _______________________
 
@@ -94,6 +90,6 @@ Scenario: Sofia loves animals but is allergic to cats and dogs. She also loves b
 
 ## Differentiation
 
-- **Support:** Provide a partially completed Hat Research template with the career name and one section pre-filled as a model.
+- **Support:** Provide a partially completed career research worksheet with the career name and one section pre-filled as a model.
 - **Extension:** Research a SECOND Animal Systems career and prepare a side-by-side mini-comparison for tomorrow's class.
-- **ELL:** Pre-teach: Veterinarian = Veterinario/a, Animal = Animal, Education = Educación. Provide a bilingual Hat Research template with Spanish field labels.
+- **ELL:** Pre-teach: Veterinarian = Veterinario/a, Animal = Animal, Education = Educación. Provide a bilingual career research worksheet with Spanish field labels. The workbook opener reads above grade level, so read FYF p. 87 aloud rather than assigning it as silent reading.

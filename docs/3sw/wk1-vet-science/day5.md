@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Research the Nimitz HS Veterinary Science pathway and Elanco certification; favorite vet careers in H&L Climber Profile; write a personal pathway brief |
 | **TEKS** | d(2)(A), d(2)(B), d(1)(C) |
-| **Deliverable** | One-page Veterinary Pathway Brief (Hat Research + comparison + reflection paragraph + Climber Profile screenshot) |
-| **Materials** | Chromebooks, H&L accounts, Nimitz HS pathway info sheet, Vet Career Comparison worksheet from Day 2, Hat Research from Day 1, projector |
+| **5E Phases** | Engage: Warm-Up · Explain: Nimitz pathway map · Explore: App Exploration and Climber Profile favorites · Extend: Veterinary Pathway Brief · Evaluate: Exit Ticket |
+| **Deliverable** | One-page Veterinary Pathway Brief (career research worksheet + comparison + reflection paragraph + Climber Profile screenshot) |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook pp. 100-102, Vet Career Comparison worksheet from Day 2, career research worksheet from Day 1, projector |
 
 ---
 
@@ -22,11 +23,13 @@ Take 4 student responses. There are no wrong answers — some students will say 
 
 ## Activity 1: Nimitz Vet Science Pathway Research (15 min)
 
-**Source:** Irving ISD Pathways reference (PATHWAYS.md): Nimitz HS Veterinary Science pathway leading to Elanco Veterinary Medical Applications certification
+**Source:** (FYF pp. 100-101: "What is Happening at My District?") + Irving ISD Pathways reference (PATHWAYS.md): Nimitz HS Veterinary Science pathway leading to Elanco Veterinary Medical Applications certification
 
-Project the Nimitz HS Veterinary Science pathway info on the screen. Walk students through the pathway map:
+Project the workbook's district pages (FYF pp. 100-101) as the pathway info. They carry the local detail students respond to most: the Agricultural Science program at Nimitz High School runs a greenhouse, an orchard, and more than 40 chickens, and students get hands-on experience through the school's daily petcare program, where they learn to care for, handle, and train dogs. The page names Plant Science and Animal Science as the programs of study, Elanco Veterinary Medical Applications as the industry certification, and Future Farmers of America (FFA) as the student organization. Its Career Exploration Connection is mentorship, so take two responses to the page's question about what makes someone a good mentor before moving to the map.
 
-- **Middle school (now):** CCE course, explore Animal Systems, complete Hat Research
+Walk students through the pathway map:
+
+- **Middle school (now):** CCE course, explore Animal Systems, complete the career research worksheet
 - **High school at Nimitz:** Veterinary Science pathway → Elanco Veterinary Medical Applications certification
 - **Post-high school options:**
     - Direct to vet clinic employment as Veterinary Assistant or Kennel Tech (with high school cert)
@@ -43,11 +46,11 @@ Students take notes on which post-high school option appeals to them and why. Th
 
 ## Activity 2: H&L Favorites + Climber Profile Update (15 min)
 
-**Source:** H&L Workbook Ch 2, "Hat Finder" instructions
+**Source:** (FYF p. 102: "App Exploration"), the Pathway Possibilities and Hat-rating steps held back from Day 1
 
-Students return to Hats & Ladders and use the Hat Finder to favorite 2-3 Animal Systems careers in their Climber Profile.
+Students return to Hats & Ladders and finish the App Exploration page. They click "Pathway Possibilities," answer the questions, and explore and rate at least 1 pathway, then rate at least 3 Hats in the cluster. This is where the Agriculture pathway names live now, so it is the first time students see the full pathway list.
 
-> [H&L PLATFORM] Direct students to the Hat Finder in the H&L app, filter by Agriculture cluster, browse Animal Systems careers, and click the heart/favorite icon on each Hat they want to save. The favorited Hats appear in their Climber Profile under "Favorites." The workbook (Ch 2) directs students to "explore and favorite careers across the Agriculture cluster."
+> [H&L PLATFORM] Direct students to the Hat Finder in the H&L app, filter by the Agriculture, Food, and Natural Resources cluster, browse Animal Systems careers, and click the heart/favorite icon on each Hat they want to save. The favorited Hats appear in their Climber Profile under "Favorites." Students favorite 2-3 Animal Systems careers.
 
 After favoriting, students take a screenshot of their Climber Profile favorites screen and save it to their Google Drive (or print). This screenshot is part of today's deliverable.
 
@@ -55,11 +58,11 @@ After favoriting, students take a screenshot of their Climber Profile favorites 
 
 ## Activity 3: Veterinary Pathway Brief (12 min)
 
-Students assemble their one-page summative brief. The brief is the synthesis of everything they did this week:
+Students assemble their one-page summative brief. The brief is the synthesis of everything they did this week. **Time, Voice, Body:** post the three blocks before the assembly starts, Voice 0 for the reflection paragraph, Voice 1 for checking a missing piece with a neighbor, a visible countdown on the screen, and one stated place on each table where the Day 1 and Day 2 worksheets go so nobody loses a component while writing.
 
 **Brief includes:**
 
-1. **Hat Research template** from Day 1 (one Animal Systems career, fully filled in)
+1. **Career research worksheet** from Day 1 (one Animal Systems career, fully filled in)
 2. **Vet Career Comparison worksheet** from Day 2 (Vet Tech vs. Veterinarian table + analysis)
 3. **Reflection paragraph** (4-6 sentences) answering: Does the Nimitz HS Vet Science pathway interest me? Why or why not? Use specific evidence from this week's research.
 4. **Screenshot of H&L Climber Profile favorites** from Activity 2
@@ -93,9 +96,9 @@ Connect this career to THREE things:
 
    ___________________________________________________________________
 
-**3. My Wk0 RIASEC type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
+**3. My Wk0 core personality type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
 
-   My RIASEC type: _______________________. In one sentence, does this career fit my type, and why?
+   My core personality type: _______________________. In one sentence, does this career fit my type, and why?
 
    ___________________________________________________________________
 

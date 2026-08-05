@@ -1,107 +1,106 @@
-# Day 3: Pitching Investors — Build the Business Plan
+# Day 3: Million Dollar Idea — Stress Test and Make the Call
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Read the H&L "Pitching Investors" Career Lab scenario; choose a business opportunity (sports app, food business, or pet business); read the matching investor profile; build a business plan outline and draft pitch slides |
+| **Objectives** | Test your two strongest ideas against the workbook's three entrepreneur questions; decide Move Forward, Needs Work, or Abandon It for your best idea and defend the call in writing; pitch your problem, idea, and decision to a small group and choose the group's strongest venture |
 | **TEKS** | d(3)(I) |
-| **Deliverable** | Business plan outline + draft pitch slides (3-5 slides on chart paper or in Google Slides) |
-| **Materials** | H&L Workbook Ch 5 (pp. 80-83), printed Investor Profile cards (Super Sports Ventures, Eden Culinary Group, Pawsitive Growth Capital), chart paper or Google Slides, markers |
+| **5E Phases** | Engage: Warm-Up · Explore: Stress-testing the two ideas · Explain: Make the Call and the small-group pitch · Evaluate: Exit Ticket |
+| **Deliverable** | "Million Dollar Idea" Steps 4, 5, and 7 completed: stress-test notes on both ideas + written call with strength and risk + the group's chosen venture |
+| **Materials** | *Find Your Future* workbook pp. 236-237, workbook pages 234-235 from Day 2, timer, projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: An investor is someone who gives you money for your business, but they don't give it for free. What do they want in return?**
+**WARM-UP: Think of a project you gave up on: a game plan, a science fair build, a drawing. Was giving up the right call? What told you it was time to stop?**
 
-Take 3-4 student responses. Surface: investors want a piece of the business (equity), or they want their money back plus extra (return on investment). Bridge: today students prepare a real pitch to convince investors to fund their business.
+Take 4 responses. Listen for students describing evidence rather than mood ("it kept falling over" beats "I got bored"). Bridge: entrepreneurs make that same call on purpose, with reasons they can say out loud, and today students make it on their own idea.
 
 ---
 
-## Activity 1: Set the Scenario + Pick a Business (10 min)
+## Activity 1: Step 4 — Think Like a Real Entrepreneur (10 min)
 
-**Source:** H&L Workbook Ch 5, pp. 80-81, "Pitching Investors" (Career Lab activity)
+**Source:** (FYF p. 236: "Million Dollar Idea", Step 4)
 
-Read aloud the workbook background (Ch 5, p. 81): An entrepreneur is someone who starts and runs their own business. Many entrepreneurs need investors to fund their growth. Investors put money into a business hoping to earn more in return. Entrepreneurs must convince investors that their idea is worth the investment.
+The workbook's point in Step 4 is that entrepreneurs do not just come up with ideas, they test them. Students take the two ideas they chose on Day 2 and answer three questions for EACH one on page 236:
 
-Project the **3 business opportunity choices** from the workbook (Ch 5, p. 81):
+- How well does this solve the problem?
+- Why would someone choose this over other options?
+- What challenges might come up if you tried to create it?
 
-- **Inventing a New Sports App:** A sports app that makes the world of sports more engaging for fans and players
-- **Starting a Food-Related Business:** A unique restaurant, food truck, or new snack
-- **Opening a Pet-Related Business:** A new pet service, product, or subscription box
-
-Group students into teams of 3-4. Each team picks ONE business idea. They write their team name, business name, and chosen category at the top of their chart paper.
+**Chunking:** teach the three questions one at a time rather than releasing all three at once. Say what each question is for before students write (question 1 tests the fit, question 2 tests the competition, question 3 tests the build), give roughly two minutes per question for both ideas, and take a thumbs check between questions before releasing the next one. Note which question draws the most thumbs down, because that is the question the whole class needs re-taught before Step 5.
 
 !!! tip "Facilitation Tip"
-    Encourage variety, try to get at least one team in each of the three categories. If too many teams pick the same category, ask one team to pick a different one.
+    Question 2 is the one students skip or answer with "because mine is better." Push on what "other options" actually means: a competitor already selling something similar, a free workaround people already use, and doing nothing at all. If a student cannot name what their idea is competing against, they have not tested it yet.
 
 ---
 
-## Activity 2: Read the Investor Profile (10 min)
+## Activity 2: Step 5 — Make the Call (10 min)
 
-**Source:** H&L Workbook Ch 5, pp. 82-83, "Step 1: Read the Investors' Profiles"
+**Source:** (FYF p. 237: "Million Dollar Idea", Step 5)
 
-Distribute the investor profile card that matches each team's business choice. The H&L workbook (Ch 5, pp. 82-83) describes 3 investors:
+Students choose their strongest idea and mark one of the three calls the workbook offers:
 
-- **Super Sports Ventures:** Investment range $500K-$1M. Wants sports apps that offer something new (real-time data, fan engagement, athlete tools). Needs to see: value proposition, marketing plan, technology plan, revenue model, budget.
-- **Eden Culinary Group:** Investment range $250K-$2M. Wants food businesses with a fresh concept (unique restaurant, food truck, new snack). Needs to see: unique concept, market opportunity, business model, marketing & growth plan.
-- **Pawsitive Growth Capital:** Investment range $100K-$3M. Wants pet products and services for pet owners. (Workbook profile continues; teams should read the full profile.)
+- **Move Forward:** this idea is worth continuing
+- **Needs Work:** it has potential but is not ready yet
+- **Abandon It:** it is not worth pursuing right now
 
-Each team reads their investor profile carefully and underlines:
+Then they explain the decision in writing on page 237: why is this idea worth your time or not, what is its biggest strength, and what is its biggest risk.
 
-- The investor's **investment range** (how much money they give)
-- What the investor **wants to see** (the criteria your pitch must hit)
-
----
-
-## Activity 3: Build the Business Plan Outline + Pitch Slides (22 min)
-
-**Source:** H&L Workbook Ch 5, pp. 81-82, Business plan and pitch deck
-
-Each team builds a 5-section business plan outline AND a draft pitch deck (chart paper version or Google Slides). The 5 sections come from the investor's "what they need to see" requirements:
-
-| Section | What to Include |
-|---|---|
-| 1. Value Proposition | What makes your business different? Why will customers choose YOU? |
-| 2. Target Market | Who is your customer? Be specific (age, location, lifestyle) |
-| 3. Product/Tech Plan | How does your product work? (For sports apps, what tech does it use?) |
-| 4. Revenue Model | How do you make money? (Subscriptions, ads, retail, partnerships?) |
-| 5. Budget Ask | How much money are you asking the investor for, and what will you spend it on? |
-
-Teams draft each section on chart paper (one slide per section) or in a Google Slides deck. The drafts are rough, they polish tomorrow before the actual pitch.
+Make clear before students write that Abandon It is a full-credit answer. An entrepreneur who can explain why an idea should die has learned more than one who keeps a weak idea alive. What earns the credit is the reasoning, not the verdict.
 
 !!! tip "Facilitation Tip"
-    Watch for teams that get stuck on section 4 (Revenue Model). It's the most abstract one for middle schoolers. Help them with concrete examples: "If your subscription box is $20 and 1,000 people sign up, that's $20,000 a month in revenue."
+    Watch the printed step numbers on page 237. The workbook jumps from Step 5 straight to Step 7 and there is no Step 6. Nothing is missing from the activity; the numbering is a printing error. Tell students up front to work straight through from Make the Call to Pitch and Decide so nobody stops to hunt for a missing page.
 
-**DOK 4:** Why do investors care about the REVENUE MODEL more than the cool product features? What does this tell you about how businesses really make money?
+---
+
+## Activity 3: Step 7 — Pitch and Decide (22 min)
+
+**Source:** (FYF p. 237: "Million Dollar Idea", Step 7 and Class Discussion)
+
+Put students in groups of 4. Each student takes a turn sharing three things, about 2 minutes each:
+
+- Their problem
+- Their best idea
+- Their final decision (Move Forward, Needs Work, or Abandon It)
+
+After all four have shared, the group discusses the workbook's questions: what kinds of problems did people choose, which ideas seemed the strongest and why, and did anyone abandon an idea the rest of the group thought was good?
+
+The group then agrees on ONE idea with the most potential overall and writes it on page 237. **That idea becomes the group's venture for tomorrow's pitch day,** so the group also writes down which member's workbook holds the Step 1 through Step 5 work behind it.
+
+**Class Discussion (5 min).** Use the workbook's own closing prompts (FYF p. 237): why do you think entrepreneurs generate so many ideas instead of focusing on just one, what made an idea feel worth it to continue, and what can be learned from abandoning an idea?
+
+**DOK 4:** Your group picked one idea out of four. What made the winning idea stronger: the problem it solved, how realistic it was to build, or how many people would use it? Defend your answer with a specific comparison to one idea the group passed over.
 
 ---
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/3sw-wk6-day3-pitching-investors-build-the-business-plan.pdf):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/3sw-wk6-day3-million-dollar-idea-stress-test-and-make-the-call.pdf):
 
-Fill in the matrix for your team's business plan and match it to what your chosen investor wants.
+Fill in the matrix for the two ideas you stress-tested today.
 
-| Business Plan Section | What OUR plan says (one phrase) | What the INVESTOR wants to see (from their profile card) |
+| | Idea 1: _______________ | Idea 2: _______________ |
 |---|---|---|
-| Value Proposition | | |
-| Target Market | | |
-| Revenue Model | | |
-| Budget Ask | | |
+| How well it solves my problem (one phrase) | | |
+| Why someone picks it over other options | | |
+| Biggest challenge to build it | | |
 
-Bottom line: Which ROW of our plan is the STRONGEST match to what our investor wants, and why will THIS row convince them to fund us? *(d(3)(I))*
+My call on my strongest idea (circle one): **Move Forward** / **Needs Work** / **Abandon It**
+
+Bottom line: which ROW above made the decision for me, and why did that row matter more than the other two? *(d(3)(I))*
 
    ___________________________________________________________________
 
-Submit your team's business plan outline with this ticket.
+Submit your workbook pages 236-237 with this ticket.
 
 ---
 
 ## Differentiation
 
-- **Support:** Provide a pre-printed business plan template with the 5 section headers and 1-2 sentence prompts under each.
-- **Extension:** Calculate a 1-year revenue projection: if you get 50 customers in month 1, 100 in month 2, 200 in month 3, etc., what's your year-end revenue?
-- **ELL:** Pre-teach: Investor = Inversor/a, Pitch = Presentación, Revenue = Ingresos, Budget = Presupuesto. Bilingual business plan template. The pitch can be delivered in English, Spanish, or bilingual tomorrow.
+- **Support:** Provide a stress-test grid with the three questions already written across the top and the two ideas down the side, plus stems: "This solves the problem because _____," "Someone would pick this instead of _____ because _____," "The hardest part to build would be _____."
+- **Extension:** Take the idea your group did NOT choose and write the one change that would have made it the group's pick. Then say what that change would cost in money, time, or difficulty.
+- **ELL:** Pre-teach: Test = Probar, Challenge = Desafío, Risk = Riesgo, Strength = Fortaleza, Decision = Decisión. The three call options may be recorded in Spanish (Seguir Adelante / Necesita Trabajo / Abandonarla) with the English term written next to it.

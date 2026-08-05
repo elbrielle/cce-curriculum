@@ -1,144 +1,98 @@
-# Day 2: Job Interviews — Prep + Practice
+# Day 2: Special Effects Makeup — Build the Transformation
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Learn the H&L Job Interview prep checklist (dress, body language, common questions); conduct a mock job interview with a partner using the workbook prompts; draft a thank-you email |
-| **TEKS** | d(6)(C), d(7)(B) |
-| **Deliverable** | Mock interview reflection (3 sentences) + draft thank-you email |
-| **Materials** | H&L Workbook Ch 11 (pp. 179-181), printed mock interview question cards (3 job options), notebook, projector |
+| **Objectives** | Prep and color materials to match a Concept Card; apply an adhesive base to silicone practice skin and wait for the correct tack; place, overlap, and stack materials to build a 3D texture; add a detail pass for close-up realism |
+| **TEKS** | d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explore: Prep, base, and design build · Extend: Detail pass for close-up realism · Evaluate: Exit Ticket |
+| **Deliverable** | Finished SFX design on silicone practice skin, built from the Day 1 Concept Card |
+| **Materials** | *Find Your Future* workbook pp. 129-130, silicone practice skin, liquid latex or eyelash glue, tissue paper and paper towels, seeds, dry pasta or lentils, coarse salt, tweezers, paint, labeled paper plates, station mats, scrap trays, document camera |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Imagine you're applying for your first paid job. The manager asks: "Tell me about yourself." What's the FIRST thing you'd say?**
+**WARM-UP: Look at your Concept Card from yesterday. Name the ONE texture you have to nail today for your transformation to look real, and name the material you will use to get it.**
 
-Take 3-4 student responses. Most will mumble or freeze. That's the point, interviewing is a skill that takes practice. Today they get the practice.
+Take 4 responses, one per texture family if you can get them. Bridge: today is build day. The workbook gives three steps and each one has to work before the next one matters.
 
 ---
 
-## Activity 1: H&L Job Interview Prep — Read Aloud (15 min)
+## Activity 1: Step 1, Prep Your Pieces (15 min)
 
-**Source:** H&L Workbook Ch 11, pp. 179-180, "Job Interviews"
+**Source:** (FYF p. 130: "Special Effects Makeup", DAY 2 Step 1)
 
-Read aloud (or have students read in pairs) the workbook content on Job Interviews (Ch 11, pp. 179-180). The key sections are:
+Students collect their materials and paint or color them to match the Color Palette on their Concept Card. Painted pieces go onto a labeled paper plate to dry. The workbook is firm on this: pieces must dry completely before they go anywhere near the adhesive, because wet paint bleeds into the glue and the texture smears.
 
-**Dress for Success (workbook p. 179):**
-- Dress one level above the job
-- Stick to neutral or classic colors
-- Wear clean and appropriate shoes
-- Keep grooming in mind
-- Limit accessories
-- Be comfortable and confident
+While pieces dry, partners trade Concept Cards and run one check on each other: does the materials list actually produce the texture named on the card? Students who need to swap a material do it now, while paint is still an option.
 
-**Getting Ready for an Interview (workbook p. 180):**
-- Research the company
-- Practice common questions
-- Plan your outfit the night before
-- Bring the essentials (resume, notebook, pen)
-- Use good body language
-- Prepare 1-2 questions for the interviewer
-- Arrive 10-15 minutes early
-- Stay calm and confident
+**Chunking:** Release Prep, Base, and Design as three separate chunks rather than handing out the whole workbook page at once. Say what this chunk is for before students start it, paint sets the color story. Close it with the check written into the plan: pieces are dry to the touch before anyone opens glue. Note which students stall here; that is the group to reach first in Activity 2.
 
-**Remote & Phone Interviews (workbook p. 180):**
-- Test your tech (internet, camera, mic)
-- Find a quiet space with good lighting
-- Dress professionally even on video
-- Speak clearly
-- Engage actively
+**Time, Voice, Body:** Post the three blocks before any glue is opened. Voice 1 for partner talk, a visible countdown for the 15 minute prep, painted pieces dry on the labeled plate, tweezers stay on the station mat, and loose seeds and pasta go in the scrap tray. Narrate the stations that are meeting the expectation rather than correcting the ones that are not.
 
-**Follow-Up (workbook p. 180):**
-- Send a thank-you email
-- Address the employer by name
-- Thank them for meeting with you
-- Mention something you enjoyed
-- Reinforce why you're a great fit
-- End with "Best Regards" and your full name
+!!! warning "Safety and Materials"
+    Every material in this activity goes onto **silicone practice skin**, never onto a student's face or arm. Check for latex allergies before the period and give those students eyelash glue instead of liquid latex. Students with a nut, seed, or wheat allergy build with coarse salt and tissue paper. Keep a bin of pre-colored materials at a side station so a student who needs the prep time back can start the base early.
 
-Project the highlights on the screen as students read along. Do a quick check-for-understanding by asking 3 students to name one tip they didn't know before today.
+---
+
+## Activity 2: Steps 2 and 3, Apply the Base and Create Your Design (20 min)
+
+**Source:** (FYF p. 130: "Special Effects Makeup", DAY 2 Steps 2-3)
+
+**Step 2: Apply the Base.** Students brush a thin layer of adhesive onto the silicone practice skin, then wait about 30 to 60 seconds until the glue turns sticky and tacky. This wait is the whole activity in miniature. Material dropped onto wet glue slides; material pressed into tacky glue holds.
+
+**Step 3: Create Your Design.** Using tweezers, students place their materials onto the tacky base following the sketch on their Concept Card. The workbook asks for two things beyond placement: **overlap** the pieces, and **stack** them, so the design reads as three-dimensional rather than as a pattern printed flat on the skin.
+
+**Active Monitoring:** Walk a fixed pathway twice, one target per lap. Lap 1 target: every student waited the full 30 to 60 seconds and the base is tacky, not wet. Lap 2 target: pieces overlap and stack instead of sitting in a single flat layer. Mark a station checklist as you go and keep the feedback for the two standard failures ready before class starts. If more than a handful of students miss the lap 2 target, pause the room and demonstrate stacking on the document camera instead of fixing it station by station.
+
+**DOK 3:** What conclusions can you draw about why the adhesive has to feel tacky and not wet before the first piece goes down? What does that tell you about how much of this job is waiting?
+
+---
+
+## Activity 3: Detail Pass (8 min)
+
+**Source:** (FYF p. 130: "Special Effects Makeup", DAY 2 "Extra Time?")
+
+The workbook's own extension is the professional standard: SFX artists have to make effects more detailed and believable under close-up cameras. Students choose one of the three moves the page names and apply it to their design:
+
+- Add a second layer of detail on top of the first
+- Combine two textures (scales plus cracks, for example)
+- Add smaller details in the gaps between the larger pieces
+
+Students who are still repairing the base use this time for the repair instead. A design that holds is worth more than a design with a second layer sliding off it.
 
 !!! tip "Facilitation Tip"
-    Some students think interviews are intimidating because they imagine perfect adults asking trick questions. Reframe: interviewers are trying to figure out if you'll show up, do the work, and treat people well. Most interview questions are about that, not gotchas.
-
----
-
-## Activity 2: Mock Interview Practice (20 min)
-
-**Source:** H&L Workbook Ch 11, p. 181, "Practicing for a Job Interview"
-
-Pair students up. Each pair practices BOTH sides, interviewer and interviewee. Partners swap halfway.
-
-**Step 1: Choose a Job** (from workbook p. 181). Each student picks ONE of these jobs to interview for:
-
-- **Warehouse Associate** (packing and shipping orders)
-- **Office Assistant** (paperwork and phone calls)
-- **Social Media Assistant** (creating posts and managing accounts)
-
-**Step 2: Practice Interviewing** (workbook p. 181). The interviewer asks these 8 questions:
-
-1. Tell me about yourself.
-2. Why do you want this job?
-3. What are your strengths?
-4. What are your weaknesses?
-5. Describe a time you solved a problem.
-6. How do you handle stressful situations?
-7. Why should I hire you?
-8. Do you have any questions for me?
-
-Set a timer: 8 minutes per round (about 1 minute per question), then swap. After both rounds, students give each other feedback on:
-
-- Body language (eye contact, posture)
-- Clarity of answers
-- Confidence
-- One thing to improve
-
-**DOK 3:** What conclusions can you draw about why interviewers ask "What are your weaknesses?", what are they really trying to learn?
-
----
-
-## Activity 3: Draft a Thank-You Email (8 min)
-
-**Source:** H&L Workbook Ch 11, p. 181, "Step 3: Write a Thank You Email"
-
-Students draft a short thank-you email using the workbook structure (p. 180). The email must include:
-
-- A greeting using the interviewer's name (use "Mr./Ms. Smith" as a placeholder if needed)
-- A thank-you sentence
-- One specific thing they enjoyed about the interview
-- 1-2 sentences on why they would be a great fit
-- A closing sentence inviting follow-up
-- "Best Regards," and the student's full name
-
-The email is 5-7 sentences total. Students draft in their notebook or in a Google Doc.
+    A design that fails is usable evidence, not a wasted period. Tomorrow's Quality Check asks students to name the biggest challenge and how they solved it, and the students whose pieces fell off have the most to write about. Tell them to leave the failure in place rather than picking it clean.
 
 ---
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/3sw-wk5-day2-job-interviews-prep-practice.pdf):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/3sw-wk5-day2-special-effects-makeup-build-the-transformation.pdf):
 
-Scenario: Maya has an interview tomorrow for a Salon Assistant job at Reset Studio in Las Colinas. The interview is on video call. Maya just realized she does not know what to wear, what to say first, or how to follow up after.
+Scenario: Devon works on an SFX team. Devon glued dry pasta onto practice skin to build cracked stone skin. On camera the pieces slid around, and the cracks looked flat instead of deep.
 
-1. What should Maya wear, and why? Use one tip from today's "Dress for Success" list. *(d(6)(C))*
-
-   ___________________________________________________________________
-
-2. When the interviewer says "Tell me about yourself," what is the FIRST thing Maya should say? Write the opening sentence Maya should use.
+1. Name ONE thing Devon did too early or too fast. Then say what Devon should do instead. Use one step from today's build.
 
    ___________________________________________________________________
 
-3. Write the first TWO sentences of Maya's thank-you email (greeting by name + thank-you sentence naming one thing from the interview). *(d(7)(B))*
+2. Devon has 5 minutes left to make the cracks look deeper on a close-up camera. Name one change Devon should make and why it helps.
 
    ___________________________________________________________________
+
+3. Name ONE other career on a film set that Devon's design depends on. Say what that person does. *(d(1)(C))*
+
+   Career: _______________________
+
+   What they do: ____________________________________________________
 
 ---
 
 ## Differentiation
 
-- **Support:** Provide question cards with sentence stems for each answer: "When asked 'tell me about yourself,' I would say: 'My name is _____. I have experience in _____. My strongest skill is _____.'"
-- **Extension:** Practice a phone interview (sit back-to-back with your partner so you can't see each other) and notice how it changes your body language and answers.
-- **ELL:** Pre-teach: Interview = Entrevista, Strength = Fortaleza, Weakness = Debilidad, Confident = Seguro/a. The mock interview can be conducted bilingually, many real workplaces in Texas are bilingual.
+- **Support:** Pre-colored materials at a side station so the student starts at the base step with the full 20 minutes. Pre-cut tissue paper into strips. Sentence stem for the exit ticket: "Devon placed the pieces before _____, so the pieces _____."
+- **Extension:** Students who finish the detail pass early film the 10-second close-up transformation video the workbook suggests (FYF p. 131), moving the practice skin so the texture bends and shifts on camera.
+- **ELL:** Pre-teach: Glue = Pegamento, Sticky = Pegajoso, Layer = Capa, Overlap = Superponer, Tweezers = Pinzas. Demonstrate the tacky-versus-wet test on the document camera before students start, the difference is visual and does not need language to land.

@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the Xello Work Experiences lesson; research the Nimitz HS Plant Science pathway and Texas Certified Landscape Associate credential; favorite plant science careers in H&L |
+| **Objectives** | Complete the Xello Work Experiences lesson; research the Plant Science program of study at Nimitz HS and explain what a CTE completer is; favorite plant science careers in H&L |
 | **TEKS** | d(1)(A), d(1)(C), d(2)(B) |
-| **Deliverable** | Logged Xello Work Experiences entry + Nimitz Plant Science pathway notes + screenshot of H&L Climber Profile |
-| **Materials** | Chromebooks, Xello accounts, H&L accounts, Nimitz Plant Science pathway info sheet, projector |
+| **5E Phases** | Engage: Warm-Up · Explore: Xello Work Experiences · Explain: Plant Science program of study · Extend: H&L favorites and the 3SW pattern · Evaluate: Exit Ticket |
+| **Deliverable** | Logged Xello Work Experiences entry + Plant Science program of study notes + screenshot of H&L Climber Profile |
+| **Materials** | Chromebooks, Xello accounts, H&L accounts, *Find Your Future* workbook pp. 100-102, Nimitz Plant Science pathway info sheet, projector |
 
 ---
 
@@ -52,18 +53,20 @@ If a student has truly never worked in any capacity, they can log a future plan:
 
 ---
 
-## Activity 2: Nimitz Plant Science Pathway Research (15 min)
+## Activity 2: Plant Science Program of Study at Nimitz (15 min)
 
-**Source:** Irving ISD Pathways reference (PATHWAYS.md): Nimitz HS Plant Science pathway leading to Texas Certified Landscape Associate credential
+**Source:** (FYF pp. 100-101: "What is Happening at My District?") + the Irving ISD CTE listing for Nimitz High School
 
-Project the Nimitz HS Plant Science pathway info on the screen. The pathway leads to the **Texas Certified Landscape Associate** credential, a state-specific credential that nursery, landscape, and grounds-management employers actively hire.
+Project the workbook's district pages. They print two Irving ISD Agriculture programs of study, and the one this week points at is **Plant Science**: it prepares students for careers in agriculture and horticulture, with coursework in plant growth, soil science, greenhouse management, and floral design (p. 100). The Agricultural Science program at Nimitz High School runs a greenhouse and an orchard on campus (p. 101), and Future Farmers of America (FFA) is its student organization. The pathway's industry certification is BASF Plant Science.
+
+The same pages introduce the **CTE completer**, a student who finishes a full sequence of CTE courses and requirements in one career field instead of taking a single class. Put the workbook's own question to the room (p. 101): why might completing a sequence of courses be worth more than taking just one class?
 
 Walk students through the pathway map:
 
-- **Middle school (now):** CCE course, explore Plant Science, complete Hat Research
-- **High school at Nimitz:** Plant Science pathway → Texas Certified Landscape Associate credential
+- **Middle school (now):** CCE course, explore Plant Science, complete the career research worksheet
+- **High school at Nimitz:** Plant Science program of study in the School of Agriculture Science → BASF Plant Science certification
 - **Post-high school options:**
-    - Direct employment with landscape or nursery company (with credential in hand)
+    - Direct employment with a landscape, nursery, or greenhouse company (with certification in hand)
     - Texas A&M Horticulture or Plant Science degree
     - Community college Sustainable Agriculture program
     - USDA federal employment
@@ -76,7 +79,7 @@ Students take 5 minutes of notes on the pathway map: which post-high school opti
 
 ## Activity 3: H&L Favorites + Climber Profile Screenshot (8 min)
 
-**Source:** H&L Workbook Ch 2, Hat Finder favoriting
+**Source:** H&L Climber Profile favorites. The app path for this cluster is printed on the workbook's App Exploration page (FYF p. 102).
 
 > [H&L PLATFORM] Direct students to the Hat Finder in the H&L app, filter by Plant Science and Environmental & Natural Resources, and click the heart/favorite icon on 2-3 careers from this week. The favorited Hats appear in their Climber Profile under "Favorites."
 
@@ -100,9 +103,9 @@ Connect this career to THREE things:
 
    ___________________________________________________________________
 
-**2. The Nimitz HS Plant Science pathway** (leads to Texas Certified Landscape Associate credential)
+**2. The Nimitz HS Plant Science program of study** (greenhouse, orchard, and the BASF Plant Science certification)
 
-   Does the Nimitz pathway lead DIRECTLY to my favorited career, or is it a STEPPING STONE through more school? Circle: DIRECT / STEPPING STONE. One sentence why:
+   Does the Nimitz program lead DIRECTLY to my favorited career, or is it a STEPPING STONE through more school? Circle: DIRECT / STEPPING STONE. One sentence why:
 
    ___________________________________________________________________
 
@@ -120,6 +123,6 @@ Submit your H&L Climber Profile screenshot with this ticket.
 
 ## Differentiation
 
-- **Support:** Pre-fill the Nimitz pathway notes sheet with the credential name and one option pre-completed.
-- **Extension:** Compare the Nimitz Plant Science pathway to the Sustainable Engineering pathway (also at Nimitz). Which credential opens more doors? Use BLS data.
+- **Support:** Pre-fill the Nimitz pathway notes sheet with the certification name and one post-high-school option already completed.
+- **Extension:** Compare the Nimitz Plant Science program of study to the Sustainable Engineering pathway (also at Nimitz). Which certification opens more doors? Use BLS data.
 - **ELL:** Pre-teach: Pathway = Carrera/Camino, Credential = Credencial, Landscape = Paisajismo. Xello supports Spanish, show students how to switch the interface language if needed.

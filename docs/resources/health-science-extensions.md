@@ -52,9 +52,9 @@ Placeholder content for three health science specialties the CCE curriculum does
 
 **Integration hooks in existing curriculum:**
 
-- 2SW Wk3 (Nursing / Health Science) Day 1 Hat Research: athletic trainer is an Extension Hat for Doer + Helper + Achievement students.
-- 2SW Wk6 (Biomedical / Health Science) Day 2 Mark (athlete rehab): this is the natural home for a sports medicine deep-dive.
-- 3SW Wk5 (Cosmetology) Day 1 stress management: sports med connects to the wellness-adjacent careers branch.
+- 2SW Wk3 (Nursing / Health Science) Day 1 career research worksheet: athletic trainer is an Extension Hat for Doer + Helper + Achievement students.
+- 2SW Wk3 (Nursing / Health Science) Days 3-4 Vitals in Motion, the medical tent at a community fun run: this is the natural home for a sports medicine deep-dive now that the old athlete-rehab day is gone.
+- 3SW Wk5 (Cosmetology) Day 4 Stress Toolkit: sports med connects to the wellness-adjacent careers branch.
 - 6SW Wk4 (Sales / Presentations) Day 3: sports agency and sports PR overlap with sports medicine careers.
 
 **What to fill in once source is available:**

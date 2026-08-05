@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Design a toothbrush using dental knowledge; explore dental careers in H&L; complete the Career Comparison worksheet (3 careers); classify each as high-skill, high-wage, or high-demand |
+| **Objectives** | Design a toothbrush using dental knowledge; rate three dental careers in the H&L app; complete the Career Comparison worksheet (3 careers); classify each as high-skill, high-wage, or high-demand |
 | **TEKS** | d(1)(C), d(5)(B) |
+| **5E Phases** | Engage: Warm-Up · Explore: Perfect Toothbrush design, partner share, and dental Hat ratings · Explain: Class discussion on design and oral health · Extend: High-skill, high-wage, high-demand classification · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Toothbrush Design (sketch + labels + rationale) + completed Career Comparison worksheet (3 rows) |
-| **Materials** | Chromebooks, H&L Workbook Ch 9 (pp. 140-142), printed Toothbrush Design worksheet, Career Comparison worksheet from Day 1, projector |
+| **Materials** | *Find Your Future* workbook pp. 72-73 and 86, Chromebooks, printed Toothbrush Design worksheet, Career Comparison worksheet from Day 1, projector |
 
 ---
 
@@ -22,40 +23,41 @@ Take responses. Most students will name "the dentist" and "the lady who cleans m
 
 ## Activity 1: Perfect Toothbrush Design (25 min)
 
-**Source:** H&L Workbook Ch 9, pp. 140-142, "Perfect Toothbrush" (Career Climb)
+**Source:** (FYF pp. 72-73: "Perfect Toothbrush"), a Career Climb activity
 
-Read the workbook scenario aloud: *"Today, you are a dental expert, maybe you're a dentist, dental hygienist, or registered dental assistant, and you've been asked to join a special panel to help design the perfect toothbrush. Your job is to use your knowledge of teeth, gums, and oral health to create a toothbrush that is the best on the market for oral health."*
+Open the workbook to page 72 and read the scenario together. Each student is a dental expert, a dentist or a dental hygienist, invited onto a special panel to design the perfect toothbrush using what they know about teeth, gums, and oral health. The page opener sets up why the field matters: dentists fix cavities and root canals, hygienists clean teeth and screen for gum disease, registered dental assistants prep patients and take X-rays, and teeth and gums are connected to whole-body health including heart disease and infections.
 
 Connect the activity to the Health Science cluster: dental professionals don't just clean teeth, they design tools, educate patients, and prevent disease. The Perfect Toothbrush activity puts students in the designer's chair.
 
-**Time split inside the 25 min:** Step 1 Research = 5 min → Step 2 Sketch & Label = 8 min → Step 3 Partner Pitch (pairs share simultaneously, ~2 min each way) = 5 min → Class Discussion of the 2 workbook questions = 7 min. When class discussion ends, that is the pivot point into Activity 2, close the toothbrush page and shift to Chromebooks.
+**Time split inside the 25 min:** Step 1 Research = 5 min → Step 2 Sketch & Label = 8 min → Step 3 Share Your Design (pairs compare simultaneously, ~2 min each way) = 5 min → Class Discussion of the 3 workbook questions = 7 min. When class discussion ends, that is the pivot point into Activity 2, close the toothbrush page and shift to Chromebooks.
 
-**Step 1: Conduct Research** (workbook p. 140): Students take 5 minutes to research toothbrush design online. They jot down decisions about:
+**Step 1: Conduct Research** (FYF p. 72): Students take 5 minutes to research toothbrush design online and jot notes in the space the page provides. They record decisions about:
 
 - **Bristle type:** Soft, hard, or medium? (Most dentists recommend SOFT to prevent gum damage.)
 - **Handle shape:** What material? Curved or straight? Grippy?
 - **Brush head:** Size and shape?
 - **Unique features:** Built-in timer? Tongue scraper? Pressure sensor? Flossing aid?
 
-**Step 2: Sketch Your Design** (workbook p. 141): Students sketch their toothbrush on the worksheet (or on paper). They label each key element and write a 1-sentence explanation of how it helps oral health.
+**Step 2: Sketch Your Perfect Toothbrush** (FYF p. 73): Students sketch their toothbrush in the workbook space (or on the design worksheet). They label each key element and explain how it helps people address their oral health.
 
-**Step 3: Share Your Design** (workbook p. 141): Students pair up with another student and pitch their toothbrush. They go over design decisions and give each other one piece of feedback.
+**Step 3: Share Your Design** (FYF p. 73): Students get with a partner or small group and discuss the similarities and differences between their designs.
 
-**Class Discussion** (from workbook p. 142):
+**Class Discussion** (FYF p. 73), three prompts:
 
-- *"How do you think the design of products impacts their effectiveness? How does this relate to the dental field?"*
-- *"Why might different people need different toothbrushes? For example, what might need to be different between a child's toothbrush and an adult's toothbrush?"*
+- How does the design of a product affect how well it works, and how does that connect to the dental field?
+- Why might different people need different toothbrushes? What would be different between a child's toothbrush and an adult's?
+- What work values and personality types matter most for someone working in the dental field?
 
 !!! tip "Facilitation Tip"
-    The "different people need different toothbrushes" question is the d(5)(B) bridge, it primes students to think about WHY some careers are high-demand (large + diverse populations need different products and services).
+    The "different people need different toothbrushes" question is the d(5)(B) bridge, it primes students to think about WHY some careers are high-demand (large + diverse populations need different products and services). The third prompt reaches back to the core personality types and work values students recorded in Wk0, so have them name their own type out loud before answering.
 
 ---
 
-## Activity 2: Dental Career Hat Research (10 min)
+## Activity 2: Rate the Dental Hats in the App (10 min)
 
-**Source:** H&L Workbook Ch 9, p. 148, Hat Research
+**Source:** (FYF p. 86: "App Exploration")
 
-Students return to the H&L Hat Finder and explore 3 dental Hats:
+Students return to the H&L app and rate 3 dental Hats:
 
 1. Dental Assistant, certification, ~$40K
 2. Dental Hygienist, associate degree (2 years), ~$80K
@@ -63,7 +65,7 @@ Students return to the H&L Hat Finder and explore 3 dental Hats:
 
 Students notice that dental has its own "ladder" similar to nursing. Each step up requires more education and pays more.
 
-> [H&L PLATFORM] In the H&L app, click "Hat Finder," filter by "Health Science" cluster, and explore the 3 dental Hats. Note which one connects to the Singley Academy Dental pathway (Registered Dental Assistant).
+> [H&L PLATFORM] The App Exploration page closes with "Rate at least 3 Hats." Open the Hats & Ladders app, go to Clusters, click the Health Science Cluster, and rate the three dental Hats above. Students note on page 86 which Hat connects to the Registered Dental Assistant certification from the district pages, and jot their thoughts on the cluster in the space the page provides.
 
 ---
 
@@ -74,6 +76,8 @@ Students return to the Career Comparison worksheet from Day 1 (Dental Hygienist 
 After both dental and RN rows are filled, students **classify** the two careers as high-skill, high-wage, high-demand, or a combination. They write a 1-sentence rationale per classification using the sentence stem:
 
 > "I classify _____ as _____ because the BLS data shows _____ (specific evidence)."
+
+**Stop and Jot:** 3 minutes, stems on the board. Students who need a second way in use "Career A requires _____ education and pays _____, so I classify it as _____ because _____." Put one exemplar up before they write: "I classify Dental Hygienist as high-wage because BLS lists a DFW median near $82K on a 2-year associate degree."
 
 Example classifications:
 

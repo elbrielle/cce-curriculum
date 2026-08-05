@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Understand advocacy as a form of assertive communication; introduce the H&L Powerskills "Advocacy" module; write a personal SMART goal for career exploration |
+| **Objectives** | Understand advocacy as a form of assertive communication; work Step 1 of the "Powerskill: Advocacy" mobile farmers' market activity; write a personal SMART goal for career exploration |
 | **TEKS** | d(4)(A), d(4)(B) |
+| **5E Phases** | Engage: Warm-Up · Explain: Advocacy, the food desert brief, and the SMART goal model · Explore: Writing and partner-checking a personal SMART goal · Evaluate: Exit Ticket |
 | **Deliverable** | SMART Goal worksheet (1 personal career exploration goal, all 5 components) |
-| **Materials** | Chromebooks, H&L Powerskills Workbook (pp. 30-32), printed SMART Goal worksheet, projector |
+| **Materials** | Chromebooks, *Find Your Future* workbook pp. 134-135, printed SMART Goal worksheet, sticky notes, projector |
 
 ---
 
@@ -22,18 +23,21 @@ Take 3-4 responses. Bridge: assertive communication is the middle path between p
 
 ## Activity 1: Advocacy + Self-Advocacy Lens (10 min)
 
-**Source:** H&L Powerskills Workbook, pp. 30-32, "Advocacy"
+**Source:** (FYF pp. 134-135: "Powerskill: Advocacy", Step 1)
 
-Read the workbook intro aloud: *"Advocacy is the act of supporting or standing up for someone or something, whether it is a person, a cause, or an idea. In the workplace, advocacy is important because it helps people voice their opinions, make decisions, and improve working conditions for themselves or others."*
+Open the workbook to page 134 and read the opening paragraph together. Advocacy is the act of supporting or standing up for someone or something, whether that is a person, a cause, or an idea. At work it is how people voice opinions, make decisions, and improve conditions for themselves or for others. It is a powerful tool because it can influence change, raise awareness, and promote fairness.
 
-Project the workbook's two types of advocacy (p. 30):
+**Step 1: Understand the Need (6 min).** The workbook puts students in the role of a nutritionist advocating for healthier food choices in a community, with one idea to sell: a mobile farmers' market that delivers healthy food to people who need it. Work the definition on page 134 with the class. A **food desert** is an area where people have limited access to affordable, nutritious food, usually because grocery stores are far away and transportation is limited. Without fresh food, families lean on fast food and processed food, and health problems like obesity, diabetes, and heart disease follow. At least 24 million people in the United States live in a food desert, in every state, most often in rural areas.
 
-- **Self-advocacy:** Speaking up for your own needs or rights
-- **Group advocacy:** Working with others to reach a goal and speaking up for group needs
+Read the three community voices printed on the page and ask students what each one is really asking for:
 
-Connect to healthcare: nurses are constant advocates. They advocate for patients (asking the doctor to reconsider a treatment), for colleagues (defending a CNA's workload), and for themselves (negotiating shifts and pay).
+- **Shawn:** a 45 minute drive to the nearest grocery store, one trip every two weeks.
+- **Roberto:** fresh food costs more than the family can afford, so they rarely buy it.
+- **Alicia:** no car and no public transportation, and the store is 3 miles away.
 
-**Self-advocacy for career explorers.** Students will apply self-advocacy to their own career exploration journey in the next activity. Ask: *"What does self-advocacy look like for a student who is exploring careers? Who are you 'standing up for' when you set a goal for yourself?"* Take 2-3 responses. The bridge to SMART goals: a strong goal is how you advocate for your own future, it names what you want, makes it measurable, and holds you accountable.
+Connect to healthcare: nurses and nutritionists are constant advocates. They advocate for patients by asking a doctor to reconsider a treatment, for colleagues by defending a CNA's workload, and for themselves when they negotiate shifts and pay.
+
+**Self-advocacy for career explorers (CCE lens, 4 min).** The workbook advocates outward, for a community. Students will now turn the same skill inward, toward their own career exploration. Ask what self-advocacy looks like for a student exploring careers, and who a student is standing up for when they set a goal for themselves. Take 2-3 responses. The bridge to SMART goals: a strong goal is how you advocate for your own future. It names what you want, makes it measurable, and holds you accountable.
 
 ---
 
@@ -66,9 +70,11 @@ Show a non-example for contrast:
 
 Distribute the SMART Goal worksheet. Each student writes ONE personal goal for their career exploration journey. The worksheet has 5 sections (S, M, A, R, T) plus a final sentence box where the student writes the complete goal as one sentence.
 
+**Time, Voice, Body:** post the three blocks before the worksheets come out. Voice 0 for the first ten minutes of independent drafting, Voice 1 for the partner check that follows, a visible countdown for each half, and the Day 1 conflict plans stay off the desk so the SMART worksheet does not get lost under them.
+
 Examples of student goals:
 
-- "By the end of the 6th Six Weeks (June), I will explore the Health Science cluster fully, complete at least 6 H&L Hat Research templates, and write a 4-year high school plan for the Singley Academy Nursing Science pathway."
+- "By the end of the 6th Six Weeks (June), I will explore the Health Science cluster fully, complete at least 6 career research worksheets, and write a 4-year high school plan for the Singley Academy Nursing Science pathway."
 - "By the end of this semester, I will read at least 3 BLS career profiles for emerging tech jobs and add 2 of them to my H&L Climber Profile."
 
 Students share their goals with a partner who checks: Is it Specific? Measurable? Achievable? Relevant? Time-bound? The partner gives one piece of feedback using the feedback sandwich from Day 2.
@@ -104,5 +110,5 @@ Students share their goals with a partner who checks: Is it Specific? Measurable
 ## Differentiation
 
 - **Support:** Provide a SMART goal template with each component as a sentence stem: "By [date], I will [action] by [measurement]." Provide 3 example student goals.
-- **Extension:** Students write THREE SMART goals, one for this six weeks, one for the semester, one for high school. Each must build on the others.
+- **Extension:** Finish the workbook's advocacy project (FYF p. 135, Steps 2-4). Brainstorm on sticky notes what the mobile farmers' market offers (at least 10 nutritious items), what it is called, and how it gets people excited, then make the flyer with a mission statement, what food is available, and why people should use it. Share it with a small group and collect one piece of constructive feedback. Students who prefer a goal-setting extension write THREE SMART goals instead, one for this six weeks, one for the semester, one for high school, each building on the last.
 - **ELL:** Bilingual SMART goal worksheet. Pre-teach: Goal = Meta, Specific = Específico, Measurable = Medible, Achievable = Alcanzable, Time-bound = Con Plazo. Use a visual SMART acronym poster.

@@ -1,103 +1,127 @@
-# Day 2: Giving and Receiving Feedback
+# Day 2: Active Listening at the Triage Desk
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Practice the feedback sandwich technique through three structured paired activities (verbal, written, drawn); apply feedback skills to a healthcare role-play |
+| **Objectives** | Complete the "Powerskill: Active Listening" triage activity; sort a patient's account into essential and background detail; write clarifying questions; apply listening and feedback skills to a healthcare role-play |
 | **TEKS** | d(4)(B) |
-| **Deliverable** | Completed Feedback worksheet (3 steps) + 1 healthcare role-play observation note |
-| **Materials** | Chromebooks, H&L Powerskills Workbook (pp. 22-24), printed Feedback worksheet, paper for drawings, healthcare role-play cards, projector |
+| **5E Phases** | Engage: Warm-Up · Explore: Patient account and essential-detail sort · Explain: Clarifying questions, Share and Compare · Extend: Healthcare role-play · Evaluate: Exit Ticket |
+| **Deliverable** | Completed detail sort (2 essential + 2 less important) + 2 clarifying questions + 1 healthcare role-play observation note |
+| **Materials** | Chromebooks, *Find Your Future* workbook pp. 62-63, printed detail-sort table, healthcare role-play cards, projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: When was the last time someone gave you feedback that helped you improve? What did they say, and how did they say it?**
+**WARM-UP: Think of a time someone told you a long story and you missed the one part that mattered. What did you miss, and what pulled your attention away?**
 
-Take 2-3 responses. Most students will name a teacher or coach. Bridge: good feedback uses a structure. Today the class learns the structure professionals use.
-
----
-
-## Activity 1: Feedback Sandwich Demo (8 min)
-
-**Source:** H&L Powerskills Workbook, p. 22, "Giving and Receiving Feedback"
-
-Project the workbook's feedback sandwich on the board:
-
-- **First layer:** Give positive feedback, highlighting something the person did well
-- **Second layer:** Address an area of improvement using clear, specific language
-- **Third layer:** End with another positive remark, emphasizing the person's strengths and room for growth
-
-Demonstrate live with a student volunteer. Ask the volunteer to share their favorite hobby in 30 seconds. Then model the sandwich:
-
-- *"You spoke with great energy and you really love your topic, that came through."* (positive)
-- *"One thing that would make it even clearer: tell us how long you've been doing it. Specific dates help the listener picture your story."* (improvement, specific)
-- *"You have a natural ability to make people interested. Keep doing what you're doing."* (positive)
-
-Then explain the workbook's distinction: **verbal feedback** is spoken, **written feedback** is in notes/edits/reflections.
+Take 2-3 responses. Bridge: most people listen for their turn to talk. Today the class practices listening for the detail that changes what happens next, which is what a triage nurse does every shift.
 
 ---
 
-## Activity 2: Step 1 — Share It! (10 min)
+## Activity 1: Meet the Patient (8 min)
 
-**Source:** H&L Powerskills Workbook, p. 22, Step 1: Share It!
+**Source:** (FYF p. 62: "Powerskill: Active Listening", Step 1)
 
-Pair students up. Each student picks a favorite food but does NOT name it. They describe the food using only details: taste, texture, smell, look. The partner tries to guess.
+Open the workbook to page 62 and read the opening paragraph together. Active listening means paying close attention to what someone says, noticing the details that matter most, and responding in a way that shows you understood. Good listeners stay focused on the speaker and ask questions when something is unclear.
 
-After the guessing, the partner gives **verbal feedback** using the feedback sandwich. The first student then takes a turn describing their favorite food.
+Set the scene from Step 1. Students are a nurse at the triage desk of a busy emergency room. Triage is the first step when patients arrive: a nurse talks with each patient and gathers the key information so the medical team can decide who needs care first and what might be wrong. Make the boundary explicit, because students will try to cross it. The student's job is not to diagnose. The job is to listen carefully and record the information that matters.
 
-Tracker note: students should follow the workbook structure exactly, both partners get a turn at giving AND receiving.
+Read Maria's account aloud while students follow along on page 62. Maria is 52. She started feeling a tight pain in her chest about three hours ago at work, she was more out of breath than usual walking in from the parking lot, she takes medication for high blood pressure, her doctor flagged family heart history last year, and the pain has spread into her shoulder and has not gone away. She also mentions a busy week, paperwork after lunch, and the bag and coffee she usually carries.
 
----
-
-## Activity 3: Step 2 — Write It! (12 min)
-
-**Source:** H&L Powerskills Workbook, p. 23, Step 2: Write It!
-
-Each student writes a short paragraph proposing a new school holiday. The paragraph must be persuasive, why should students and staff get a day off? They have 5 minutes to write.
-
-Then they read their paragraph out loud to their partner. The partner provides **written feedback** in the workbook space (or on the worksheet). The written feedback must use the sandwich structure.
-
-After both partners exchange feedback, each student reads the written feedback they received and circles ONE specific suggestion they would actually use to improve their paragraph.
+!!! tip "Facilitation Tip"
+    Read the account twice. The first read, students just listen with pencils down. The second read, they mark the page. Students who mark on the first read grab the first three details they hear rather than the three that matter, which is exactly the habit this lesson is trying to break.
 
 ---
 
-## Activity 4: Healthcare Role-Play (12 min)
+## Activity 2: Essential vs. Background Detail (10 min)
 
-Signal the shift before starting. The first two activities (favorite food, school holiday paragraph) used the feedback sandwich in a low-stakes register on purpose, students needed to practice the structure with nothing riding on it. Now the same tool moves into a register where the stakes are real. Give students 30 seconds to change mode: "We practiced with food. Now we're practicing with people's health. The sandwich is the same; the weight is different."
+**Source:** (FYF p. 63: "Powerskill: Active Listening", Step 2)
 
-Pivot to the Health Science context. Distribute healthcare role-play cards:
+**Stop and Jot:** patients include extra details when they explain a problem. Students go back through Maria's account and fill the workbook's four-row table, two details they judge essential and two they judge background or less important. Give them 6 minutes, working alone first.
+
+| Type of Detail | Example |
+|---|---|
+| Essential | |
+| Essential | |
+| Less Important | |
+| Less Important | |
+
+The point is the reasoning, not a right answer. A student who calls the coffee cup essential has to say why, and a student who calls the family heart history background has to defend that too.
+
+Circulate while students write. **Active Monitoring:** one lap, one target, is a chest-pain detail on every essential line. If most tables list the shoulder pain but nobody lists the shortness of breath or the blood-pressure medication, pause the room and reread just those two sentences before Step 3 starts.
+
+---
+
+## Activity 3: Clarifying Questions + Share and Compare (12 min)
+
+**Source:** (FYF p. 63: "Powerskill: Active Listening", Steps 3-4)
+
+**Step 3: Ask a Clarifying Question (6 min).** Active listening also means asking the question that closes a gap. With a partner, each student writes TWO follow-up questions they could ask Maria to understand what she is experiencing. A good clarifying question asks for something Maria has not already said. "Does your chest hurt?" is not a clarifying question. "Does the pain change when you sit still?" is.
+
+**Step 4: Share and Compare (6 min).** Pairs join another pair and work the workbook's four comparison prompts:
+
+- What was similar about the information you each noticed?
+- What details did one of you catch that the other did not?
+- How did your follow-up questions differ, and why?
+- What does this tell you about how different people listen to the same information?
+
+**DOK 3:** What conclusions can you draw about why two people can listen to the exact same patient and write down different essential details?
+
+---
+
+## Activity 4: Healthcare Role-Play + Feedback Protocol (12 min)
+
+Signal the shift before starting. The triage desk gave students a patient who was talking to them. The role-play cards put them on the other side, where they are the one who has to be understood. The listening skill is the same tool turned around.
+
+**Feedback protocol (CCE, not from the workbook).** The workbook asks for constructive feedback at several points this week but does not print a structure for giving it. Teach the class one and use it all week: **feedback sandwich**, three sentences.
+
+- **First layer:** name something the person did well.
+- **Second layer:** name one area to improve using clear, specific language, not "it was confusing."
+- **Third layer:** close on a strength.
+
+Model it in 60 seconds on a volunteer's 30-second description of a favorite hobby, then release the cards.
+
+Distribute the healthcare role-play cards:
 
 - **Card A:** A nurse explaining a difficult diagnosis to a patient's family. The family is upset and asking many questions.
 - **Card B:** A senior nurse giving feedback to a new CNA who skipped a step in patient hygiene.
-- **Card C:** A medical biller explaining a billing error to a patient who received a $5,000 bill they don't think they owe.
+- **Card C:** A medical biller explaining a billing error to a patient who received a $5,000 bill they do not think they owe.
 
-Pair students up (different partner from the Step 1-2 work). Each pair chooses ONE card and role-plays the conversation for 3 minutes. The role-play must include feedback or active listening.
+Pair students up with a different partner from the Step 3-4 work. Each pair chooses ONE card and role-plays the conversation for 3 minutes, then switches roles and tries a different card. Every role-play has to show active listening: the listener paraphrases what they heard before responding, and asks at least one clarifying question.
 
-After the role-play, partners switch roles and try a different card. Each student takes one observation note: "I noticed my partner used [feedback technique] when they said [direct quote]."
-
-**DOK 3:** What conclusions can you draw about why active listening and feedback skills matter MORE in healthcare than in a job like data entry?
+Each student takes one observation note: "I noticed my partner used [listening move] when they said [direct quote]." Partners close with one feedback sandwich each.
 
 !!! tip "Facilitation Tip"
-    Watch for students who turn the role-play into a comedy bit. Refocus them: "These scenarios happen every day in real hospitals. A nurse who can't deliver hard news kindly will burn out fast. Take it seriously."
+    Watch for students who turn the role-play into a comedy bit. Refocus them on the stakes: these conversations happen every day in real hospitals, and a nurse who cannot deliver hard news kindly will burn out fast.
 
 ---
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/2sw-wk5-day2-giving-and-receiving-feedback.pdf):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/2sw-wk5-day2-active-listening-at-the-triage-desk.pdf):
 
-Scenario: A new medical biller on your team is fast but keeps entering the WRONG ICD-10 codes. Three charts in the past week have been billed incorrectly. Your supervisor asks YOU (the senior biller) to give them feedback before the next shift.
+Scenario: You are the triage nurse. A patient says: *"My ankle has been sore since Saturday. I was at my cousin's house, we had barbecue, and I went down the porch steps wrong. It swelled up that night. I can put weight on it but it hurts on the outside. I have not taken anything for it."*
 
-Write a feedback sandwich — **3 sentences** — using today's structure:
+1. Write ONE **essential** detail and say why it is essential.
 
-- **Positive (1 sentence):** ___________________________________________________________________
+   Essential detail: ___________________________________________________
 
-- **Improvement with specific language (1 sentence, cite one specific behavior):** ___________________________________________________________________
+   Why it matters: ____________________________________________________
 
-- **Positive close (1 sentence):** ___________________________________________________________________
+2. Write ONE **background** detail from the same account.
+
+   ___________________________________________________________________
+
+3. Write ONE clarifying question you would ask this patient. It must ask for something the patient did NOT already say.
+
+   ___________________________________________________________________
+
+4. Name ONE career outside healthcare that needs this same listening skill, and say when they would use it.
+
+   Career: _______________________ When: ___________________________
 
 *(d(4)(B))*
 
@@ -105,6 +129,6 @@ Write a feedback sandwich — **3 sentences** — using today's structure:
 
 ## Differentiation
 
-- **Support:** Provide a feedback sentence stem card: "One thing you did well was _____. One thing to try is _____. Overall, _____." Pair with a confident peer for the role-play.
-- **Extension:** Students who finish early try the workbook's "Extra Time" activity (p. 24): create 5 sentence starters for giving feedback. They share with the class.
-- **ELL:** Bilingual feedback sandwich poster. Pre-teach: Feedback = Retroalimentación, Improve = Mejorar, Suggestion = Sugerencia, Positive = Positivo. Pair ESL students with bilingual peers for the role-plays.
+- **Support:** Provide Maria's account as a printed transcript with wide margins so students can mark it instead of holding it in memory. Provide a clarifying-question stem card: "Can you tell me more about _____?" and "Does the _____ change when you _____?" Provide the feedback stem: "One thing you did well was _____. One thing to try is _____. Overall, _____."
+- **Extension:** Students write a third clarifying question aimed at something Maria did NOT mention at all (medications she has taken today, whether the pain wakes her at night) and explain what answer would change the triage decision.
+- **ELL:** Bilingual detail-sort table and feedback poster. Pre-teach: Listen = Escuchar, Essential = Esencial, Detail = Detalle, Question = Pregunta, Feedback = Retroalimentación. Read Maria's account aloud twice and allow browser translation for the workbook page. Pair ESL students with bilingual peers for the role-plays.

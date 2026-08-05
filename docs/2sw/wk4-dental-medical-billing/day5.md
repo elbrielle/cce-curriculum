@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Finalize Wk 3-4 H&L favorites; reflect on the mid-point of the Health Science cluster; write a recommendation paragraph using education and salary data |
 | **TEKS** | d(2)(A), d(5)(B) |
+| **5E Phases** | Engage: Warm-Up · Explore: H&L favorites update · Explain: Career cluster reflection · Extend: Recommendation paragraph for a friend · Evaluate: Exit Ticket |
 | **Deliverable** | Updated Climber Profile + recommendation paragraph (4 sentences) connecting one health career to a friend's situation |
 | **Materials** | Chromebooks, H&L accounts, completed Career Comparison worksheet from Day 2, projector |
 
@@ -28,6 +29,8 @@ Students return to the H&L app and add Wk 3-4 health science favorites to their 
 
 The teacher circulates during the 10 min and talks to 10–12 students (not all 24, that math doesn't work in 10 min). Prioritize students who added a different pathway mix than their peers, or students who look stuck on the H&L favorites step.
 
+**Active Monitoring:** One lap, one target. The target is that the Climber Profile actually shows 4-5 Health Science favorites, not that the student clicked a heart. The common miss is a heart that never saved because the student left the tile too fast, so have that fix ready before class. If more than a handful of profiles are short, pause the room and reproject the save step instead of fixing it desk by desk.
+
 ---
 
 ## Activity 2: Career Cluster Reflection (15 min)
@@ -36,7 +39,7 @@ Project the reflection prompts on the board. Students write 3-4 sentences in the
 
 1. *"Which Health Science pathway fits me best after these 2 weeks?"*
 2. *"Which one was I most WRONG about before I explored it?"*
-3. *"How does my RIASEC type (from Wk 0) connect to healthcare?"*
+3. *"How does my core personality type (from Wk 0) connect to healthcare?"*
 4. *"What do I want to know about Wk 5 Powerskills and Wk 6 Biomedical?"*
 
 These reflections feed into the d(8)(B) career-plan documentation that students will revisit at the end of the semester.

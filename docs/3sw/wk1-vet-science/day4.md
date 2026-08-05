@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Complete the Xello Life Experiences lesson; log existing volunteer hours; understand how informal experiences (chores, pet care, sports) build the skills colleges and employers look for |
 | **TEKS** | d(1)(A), d(1)(C), d(4)(E) |
+| **5E Phases** | Engage: Warm-Up · Explore: Xello Life Experiences and Volunteer Hours · Extend: Connect experiences to vet careers · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Xello Life Experiences lesson (screenshot of completion screen) + at least one Volunteer Hours entry (or planned entry) |
 | **Materials** | Chromebooks, Xello student accounts, projector |
 

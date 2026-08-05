@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Complete two Xello activities (Education Experience + School Subjects at Work); connect current school subjects to specific health careers; understand college credit options for high school students |
 | **TEKS** | d(1)(A), d(3)(B) |
+| **5E Phases** | Engage: Warm-Up · Explore: Xello Education Experience and School Subjects at Work · Extend: School subject to health career connections · Explain: College credit options and turn-and-talk · Evaluate: Exit Ticket |
 | **Deliverable** | Xello completion screens (both activities) + 3-sentence connection paragraph linking a school subject to a health career |
 | **Materials** | Chromebooks, Xello accounts, Irving ISD dual credit and AP information, projector |
 
@@ -57,6 +58,8 @@ Students fill in a quick 3-row table in their notebook:
 ## Activity 3: College Credit in High School — Intro + Turn-and-Talk (10 min)
 
 After 30 min at the Chromebook, students need active processing, not a 10-min lecture. Use a **4-3-3** structure:
+
+**Time, Voice, Body:** Post the three blocks before the Chromebooks close. Voice 0 during the two Xello activities, Voice 1 for the turn-and-talk, Voice 3 for the whole-class share, with a visible countdown on each of the three segments. Chromebooks go closed and pushed to the top of the desk so the turn-and-talk does not happen over a screen.
 
 **Intro (4 min):** Project a slide with Irving ISD's four college credit options and give a brief description of each:
 

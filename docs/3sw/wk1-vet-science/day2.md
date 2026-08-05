@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Research the differences between Vet Tech and Veterinarian careers; compare education, salary, and daily tasks; complete a side-by-side comparison worksheet |
 | **TEKS** | d(2)(A), d(2)(B) |
+| **5E Phases** | Engage: Warm-Up · Explain: BLS page walkthrough · Explore: Comparison worksheet and side-by-side analysis · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Vet Career Comparison worksheet (Vet Tech vs. Veterinarian) |
 | **Materials** | Chromebooks, BLS website tabs pre-loaded, printed Vet Career Comparison worksheet, projector |
 
@@ -56,7 +57,7 @@ Students complete the Vet Career Comparison worksheet using both pages. The work
 
 ## Activity 2: Side-by-Side Analysis (20 min)
 
-After the worksheet is complete, students answer two analysis questions on the back of the worksheet:
+After the worksheet is complete, students answer two analysis questions on the back of the worksheet. **Stop and Jot:** both answers are written, not discussed, and the stems stay on the screen while students write: "A Vet Tech earns $_____ after _____ years of school. A Veterinarian earns $_____ after _____ years." and "_____ fits me better right now because _____."
 
 1. **Math check:** Calculate the difference in salary between the two careers. Then calculate how many extra YEARS of school it takes to become a Veterinarian vs. a Vet Tech. If a vet earns $70,000 more per year but goes to school 6 extra years, after how many years does the extra pay catch up to the extra school cost? (Assume vet school costs $50,000 per year.)
 

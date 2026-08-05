@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Refine the micro:bit vital signs monitor with an alarm feature; test with another team; present the device with a 1-minute connection to a real nursing career |
+| **Objectives** | Refine the micro:bit vital signs monitor with an alarm feature; take and record a partner's vital signs after activity and after rest as a travel nurse; write a five-part nursing report and present it with the working device |
 | **TEKS** | d(1)(C) |
-| **Deliverable** | Refined MakeCode program (Button A + B + alarm feature) + 1-minute team demo + connection to specific nursing career |
-| **Materials** | Chromebooks, micro:bit devices (continue from Day 3), MakeCode, optional LEGO bricks for housing prototype, projector |
+| **5E Phases** | Engage: Warm-Up · Explore: Alarm feature build · Extend: Vitals in Motion partner readings · Explain: Nursing report and team presentations · Evaluate: Exit Ticket |
+| **Deliverable** | Refined MakeCode program (Button A + B + alarm feature) + completed Vital Signs Chart (FYF p. 61) + five-part nursing report + 1-minute team demo |
+| **Materials** | Chromebooks, micro:bit devices (continue from Day 3), MakeCode, *Find Your Future* workbook p. 61, stopwatches or phone timers, shared digital thermometer and pulse oximeter if available, chart paper or poster board, projector |
 
 ---
 
@@ -45,34 +46,48 @@ Teams test the alarm by shaking the micro:bit until they get an abnormal reading
 
 ---
 
-## Activity 2: Optional LEGO Housing (10 min)
+## Activity 2: "Vitals in Motion" — Take and Record Vital Signs (10 min)
 
-**For teams with extra time:** if LEGO bricks are available, teams build a physical housing for their micro:bit. The housing should:
+**Source:** (FYF p. 61: "Vitals in Motion", Steps 2-3)
 
-- Hold the micro:bit securely
-- Allow access to both buttons
-- Look like a real medical device (the team can pretend it's worn on a wrist or attached to a patient)
+Students return to the fun run scenario from Day 3 and now run it for real. Partners take turns as the **Travel Nurse** and the **Fun Run Participant (Patient)**, filling in the Vital Signs Chart on page 61. The chart has four rows (Blood Pressure, Temperature, Pulse Rate, Oxygen Level) and two columns (After Activity, After Rest).
 
-This adds an Engineering Design Process layer and connects to the manufacturing of medical devices (a nice tie-back to the 1st Six Weeks Manufacturing cluster).
+Sequence for each pair:
 
-If LEGOs are not available, teams sketch their housing on paper and label the design choices.
+1. The Participant does 60 seconds of activity in place (marching, jumping jacks, or a fast step). The Nurse runs a visible countdown.
+2. The Nurse takes the readings immediately and records them in the **After Activity** column.
+3. The Participant sits for 2 minutes. The Nurse takes the readings again and records them in the **After Rest** column.
+4. **Step 3: Compare and Switch Roles.** Partners compare the two columns, talk about what changed and why they think it changed, then switch roles and repeat.
+
+**Time, Voice, Body:** Post the three blocks before anyone stands up. Voice 1 for nurse and patient talk, Voice 0 during the counting so pulses can be counted accurately, a visible countdown for the 60 seconds of activity and again for the 2 minutes of rest, and shared tools go back in the station tray between teams.
+
+!!! tip "Facilitation Tip"
+    Do not let missing equipment stop the activity. Every pair can fill the Pulse Rate row with no device at all: count the radial pulse at the wrist for 15 seconds and multiply by four. If the campus health office can lend a digital thermometer and a pulse oximeter, run them as one shared station and rotate pairs through it. If no blood pressure cuff is available, leave that row blank and have the pair say, using the Climber Notes blood pressure chart, what a reading would have told them. The point of the activity is the before-and-after comparison, not the completeness of the chart.
 
 ---
 
-## Activity 3: Team Presentations (15 min)
+## Activity 3: Nursing Report + Team Presentations (15 min)
 
-Each team presents their vital signs monitor to the class in 1 minute. The presentation must cover:
+**Source:** (FYF p. 61: "Vitals in Motion", Step 4)
 
-1. **Demo:** Show Button A and Button B working. Show the alarm if you built it.
-2. **Vital signs monitored:** Name the two vital signs your monitor tracks
-3. **Connection to a real nurse:** Name a specific nursing career (CNA, LVN, RN, Patient Care Technician) and explain how this monitor connects to what they do every day
-4. **Singley Academy connection:** Connect the project to the Patient Care Technician certification offered at Singley
+**Step 4: Record Patient Information (5 min).** Travel nurses write up what happened so other medical staff can understand the situation quickly. Each team builds its report on chart paper or poster board with the workbook's five fields:
+
+- **Scene Description:** Where are you? What is happening around you?
+- **Patient Condition:** What symptoms did the patient describe? What were their vital signs?
+- **Care Provided:** What steps did you take to assess the patient?
+- **Reasoning:** How did activity affect the vital signs? What changed after resting?
+- **Next Steps:** Does the patient need rest, water, cooling down, or further attention?
+
+**Team presentations (10 min).** Each team gets 1 minute. They demo Button A, Button B, and the alarm if they built it, then read their nursing report as the script and close by naming a specific nursing career (CNA, LVN, RN, Patient Care Technician) and how the monitor connects to what that person does every shift.
 
 The class evaluates each presentation using a quick rubric (visible on the projector):
 
 - Does the monitor work?
-- Did the team name a real nursing career?
+- Does the nursing report answer all five fields?
 - Did the team explain HOW the monitor connects to nursing work?
+
+!!! tip "Facilitation Tip"
+    If the class has more than ten teams, split into two circles so every team presents inside the ten minutes. Use the workbook's own class discussion prompts (FYF p. 61) to close if time allows: vital signs can look normal while a person still feels unwell, so how should a nurse balance the numbers against what the patient says?
 
 **DOK 4:** If you were designing a training program for new nursing students, how would you use technology like the micro:bit monitors you built today? What would students learn from BUILDING a monitor before they use a real one with patients?
 
@@ -102,6 +117,6 @@ Scenario: Ms. Alvarez is an older patient in a DFW nursing home. Each morning at
 
 ## Differentiation
 
-- **Support:** Provide an alarm code template. Students drag in pre-built blocks instead of writing the if/then logic from scratch.
-- **Extension:** Add a third vital sign (respiration rate) using the accelerometer. Or program a "patient profile" with the team's names that displays on startup.
+- **Support:** Provide an alarm code template. Students drag in pre-built blocks instead of writing the if/then logic from scratch. Provide a pre-labeled nursing report poster with the five field headings already written so the team only fills in content.
+- **Extension:** Add a third vital sign (respiration rate) using the accelerometer. Or program a "patient profile" with the team's names that displays on startup. If LEGO bricks are available, teams build a physical housing that holds the micro:bit securely, leaves both buttons reachable, and looks like a wearable medical device, which ties the build back to the 1st Six Weeks Manufacturing cluster.
 - **ELL:** Visual presentation template with Spanish key terms. Pre-teach: Alarm = Alarma, Reset = Reiniciar, Demo = Demostración. Pair ESL students with bilingual peers as a co-presenter.

@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Complete the RN and NP rows of the Nursing Career Ladder; analyze the relationship between education time and salary; compare three nursing salaries |
 | **TEKS** | d(2)(A), d(2)(B), d(5)(E) |
+| **5E Phases** | Engage: Warm-Up · Explore: RN and NP ladder rows from H&L and BLS data · Explain: Salary analysis and whole-class share · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Nursing Career Ladder worksheet (all 4 rows) + 2-sentence salary analysis answer |
-| **Materials** | Chromebooks, H&L accounts, BLS RN and NP pages, Nursing Career Ladder worksheet from Day 1, calculator (optional) |
+| **Materials** | Chromebooks, H&L accounts, BLS RN and NP pages, *Find Your Future* workbook pp. 84-85, Nursing Career Ladder worksheet from Day 1, calculator (optional) |
 
 ---
 
@@ -22,7 +23,7 @@ Take 3-4 responses. Some students will say "more money, more school," some will 
 
 ## Activity 1: Complete the RN Row (15 min)
 
-**Source:** H&L Workbook Ch 9 + BLS Registered Nurses page
+**Source:** Hats & Ladders app + BLS Registered Nurses page; program context from (FYF pp. 84-85: "What is Happening at My District?")
 
 Students return to the Nursing Career Ladder worksheet from Day 1. They complete the **RN row** using H&L Hat Finder + BLS data.
 
@@ -63,7 +64,7 @@ Project the discussion question and let students work individually or in pairs t
 
 **DOK 3:** What conclusions can you draw about the relationship between education level and salary in nursing? Is more education ALWAYS worth the investment? Use specific salary numbers from your worksheet to support your answer.
 
-Students write a 2-sentence answer below the worksheet. Strong answers will:
+**Stop and Jot:** Students write a 2-sentence answer below the worksheet. Give a 4 minute time box with the prompt on screen and offer two stems: "More education pays off when _____" and "More education is NOT worth it when _____." Strong answers will:
 
 - Cite specific DFW salaries (CNA ~$32K, NP ~$120K)
 - Acknowledge that the answer depends on the student's life situation (family obligations, financial resources)
@@ -71,10 +72,12 @@ Students write a 2-sentence answer below the worksheet. Strong answers will:
 
 After 10 minutes, run a quick whole-class share. Take 3-4 student answers and highlight the diversity of reasoning.
 
+Close the share by opening the district page's Career Exploration Connection on financial resources (FYF p. 84). Education and training programs cost money, but grants, scholarships, and loans help cover the expense. Grants and scholarships usually do not have to be repaid; loans are borrowed money that has to be paid back over time. Put the page's own discussion question to the class: why is it important to understand the costs of a big decision before making it?
+
 **DOK 3:** Compare the salaries of three nursing careers (CNA, RN, NP) and explain which offers the BEST balance of education time and salary.
 
 !!! tip "Facilitation Tip"
-    Watch for students who say "More school = always better." Push back: "What if you have to work full-time to support your family while in school?" Real career decisions involve tradeoffs, not just the highest number.
+    Watch for students who say "More school = always better." Push back: "What if you have to work full-time to support your family while in school?" Real career decisions involve tradeoffs, not just the highest number. The grant-versus-loan distinction is the piece most students have never heard, so leave it on the board through the exit ticket.
 
 ---
 

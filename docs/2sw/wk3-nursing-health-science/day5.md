@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the Xello Learning Styles lesson; complete eDynamic Unit 4.2 Part 2; finalize Health Science favorites in H&L; reflect on whether the nursing pathway fits the student's RIASEC type |
+| **Objectives** | Complete the Xello Learning Styles lesson; complete eDynamic Unit 4.2 Part 2; finish the App Exploration Hat ratings and finalize Health Science favorites in H&L; reflect on whether the nursing pathway fits the student's core personality type |
 | **TEKS** | d(1)(A), d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explore: Xello Learning Styles assessment · Explain: eDynamic 4.2 Part 2 · Extend: App Exploration Hat ratings and Climber Profile · Evaluate: Reflection and Exit Ticket |
 | **Deliverable** | Updated H&L Climber Profile with 2-3 nursing favorites + Xello Learning Styles result + eDynamic 4.2 Part 2 unit completion + 3-sentence reflection |
-| **Materials** | Chromebooks, H&L accounts, Xello accounts, eDynamic Learning login, projector |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook p. 86, Xello accounts, eDynamic Learning login, projector |
 
 ---
 
@@ -49,13 +50,15 @@ After completing the unit, students write one sentence about which Health Scienc
 
 ---
 
-## Activity 3: H&L Favorites + Climber Profile (10 min)
+## Activity 3: App Exploration Hat Ratings + Climber Profile (10 min)
 
-Students return to the H&L app and finalize their nursing favorites. They should favorite **2-3 nursing or related Health Science careers**.
+**Source:** (FYF p. 86: "App Exploration")
 
-> [H&L PLATFORM] In the H&L app, navigate to "Hat Finder," filter by "Health Science" cluster, and click the heart icon on 2-3 nursing Hats. Then click "Climber Profile". Students should now have favorites from FOUR clusters: Manufacturing, IT, Law, and Health Science. The Climber Profile shows how the favorited Hats connect to the student's RIASEC type from Week 0.
+Students finish the App Exploration page they started on Day 1 and finalize their nursing favorites. They should favorite **2-3 nursing or related Health Science careers**.
 
-The teacher circulates and asks each student: "Which nursing career did you favorite, and how does it fit your RIASEC type?"
+> [H&L PLATFORM] In the Hats & Ladders app, students go back to Clusters, click the Health Science Cluster, and complete the App Exploration steps they have not finished: name 1 Hat that matches their personality or interests and 1 Hat that does not fit and say why for each, then rate at least 3 Hats. They record the answers on workbook page 86. In the Hat Finder they click the heart icon on 2-3 Health Science Hats, then open "Climber Profile." Students should now have favorites from FOUR clusters: Manufacturing, IT, Law, and Health Science. The Climber Profile shows how the favorited Hats connect to the core personality type from Week 0.
+
+**Active Monitoring:** Walk the room with one target, that every student has rated at least 3 Hats and can name the one they favorited. Ask each student: "Which nursing career did you favorite, and how does it fit your core personality type?" If several students have rated Hats without favoriting any, pause and reteach the difference between rating a Hat and saving one to the profile.
 
 !!! tip "Facilitation Tip"
     Some students will struggle to favorite anything because they "didn't like nursing." That's a valid result of career exploration. Reframe: "Knowing that nursing is NOT for you is just as valuable as finding the perfect career. Now you can focus your time on other clusters."
@@ -67,7 +70,7 @@ The teacher circulates and asks each student: "Which nursing career did you favo
 Students write a 3-sentence reflection in their notebook or on a slip:
 
 1. *"The nursing career I favorited is _____."*
-2. *"My RIASEC type is _____, and this career fits/doesn't fit because _____."*
+2. *"My core personality type is _____, and this career fits/doesn't fit because _____."*
 3. *"Next week we explore dental and medical billing. The thing I'm most curious about is _____."*
 
 This reflection is a quick formative check that the week landed.
@@ -90,15 +93,15 @@ Connect this career to THREE things:
 
    ___________________________________________________________________
 
-**2. My Wk0 RIASEC type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
+**2. My Wk0 core personality type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
 
-   My RIASEC type: _______________________. In one sentence, does this career fit my type?
+   My core personality type: _______________________. In one sentence, does this career fit my type?
 
    ___________________________________________________________________
 
-**3. The Singley Academy Nursing Science pathway** (Patient Care Tech / Phlebotomy)
+**3. The Patient Care Technician program at Singley Academy** (leads to Patient Care Tech and Phlebotomy certifications)
 
-   Does Singley's pathway lead DIRECTLY to my favorited career or is it a STEPPING STONE? Circle: DIRECT / STEPPING STONE. One sentence why:
+   Does this program lead DIRECTLY to my favorited career or is it a STEPPING STONE? Circle: DIRECT / STEPPING STONE. One sentence why:
 
    ___________________________________________________________________
 

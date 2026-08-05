@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Translate yesterday's paper sketch into a finished Canva infographic; use design tools (text, icons, color) to create a clear visual; export the final infographic as PNG |
 | **TEKS** | d(1)(C) |
-| **Deliverable** | Completed Farm to Table infographic exported as PNG and submitted to Google Classroom |
-| **Materials** | Chromebooks, Canva for Education accounts, paper sketches from Day 2, projector |
+| **5E Phases** | Engage: Warm-Up · Explain: Canva setup walkthrough · Explore: Build the infographic · Extend: Interview the Sunny Fields Farm Team · Evaluate: Exit Ticket |
+| **Deliverable** | Completed Farm to Table infographic exported as PNG and submitted to Google Classroom + two interview questions for the farm team |
+| **Materials** | Chromebooks, Canva for Education accounts, *Find Your Future* workbook p. 92, paper sketches from Day 2, projector |
 
 ---
 
@@ -38,9 +39,9 @@ Verify all students have a blank or simple infographic open before continuing.
 
 ## Activity 2: Build the Infographic (30 min)
 
-**Source:** H&L Workbook Ch 2, p. 25, "Step 2: Create Your Infographic"
+**Source:** (FYF p. 92: "Step 3: Create Your Infographic")
 
-Students follow their paper sketch from Day 2 to build the infographic in Canva. Each infographic must include:
+The workbook lets students build with a digital tool or on chart paper. This week the tool is Canva. Students follow their paper sketch from Day 2, and the client's email from p. 91 stays open beside them as the spec. Each infographic must include:
 
 - **Title** at the top: "From Sunny Fields to Your Table, [Crop Name]"
 - **Sunny Fields Farm logo** spot (use Canva's "Elements" → Shapes to create a simple text logo, or use a sun icon)
@@ -51,7 +52,7 @@ Students follow their paper sketch from Day 2 to build the infographic in Canva.
 - **One fun fact box** (e.g., "Strawberries are not actually berries, they're aggregate fruit!")
 - **Color scheme** that matches the crop (red/green for strawberries, purple/green for grapes, etc.)
 
-Walk around and check students are following their sketch, not getting lost in Canva's font menus.
+Walk a fixed pathway through the room three times, one target per lap: at minute 8 every student has all four step headings typed, at minute 15 every step box carries its sentence of text, and at minute 20 every step carries an icon or image. Feedback on each lap is specific to that lap's target, and if a whole table misses the minute 20 target, pause and project the Elements icon search instead of fixing screens one at a time.
 
 !!! tip "Facilitation Tip"
     The biggest time-waster in Canva is changing fonts and colors over and over. Set a 5-minute soft deadline: by the 15-minute mark, all 4 step boxes should be filled in with text, even if the design isn't polished. Polish comes after the content is in place.
@@ -66,9 +67,13 @@ After 25 minutes of building, give students a 5-minute "polish + export" warning
 
 ---
 
-## Activity 3: Quick Show + Tell (3 min)
+## Activity 3: Interview the Farm Team + Quick Show and Tell (3 min)
 
-In the last 3 minutes, ask 2-3 volunteers to display their infographic on the projector and share one design choice they made. This gives students a sense of how others approached the same task, different crops, different layouts, different fun facts.
+**Source:** (FYF p. 92: "Step 4: Interview the Sunny Fields Farm Team")
+
+The workbook closes the activity by asking students what else they would want to know. In the first 90 seconds, every student writes **two interview questions** they would ask the Sunny Fields Farm Team to add detail to the project. The questions go on the workbook page or the back of the Day 2 sketch.
+
+In the time left, 1-2 volunteers display their infographic on the projector and read one of their interview questions. Use the workbook's own discussion prompts (p. 92) if the share runs quick: why does it matter that farms teach consumers where food comes from, and what questions might a customer still have after reading the infographic?
 
 ---
 

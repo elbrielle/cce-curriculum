@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Understand the Medical Billing and Coding career pathway as a short-credential entry into healthcare; understand the basics of medical coding (ICD-10); apply codes to simulated patient charts; explain why accuracy is critical in medical billing |
 | **TEKS** | d(2)(A), d(5)(B) |
+| **5E Phases** | Engage: Warm-Up · Explain: Medical billing pathway and ICD-10 basics · Explore: Coding rounds and accuracy debrief · Evaluate: Exit Ticket |
 | **Deliverable** | Coding accuracy sheet (3 rounds, score recorded) + 1-sentence answer to "Why does accuracy matter?" |
 | **Materials** | Chromebooks, simplified ICD-10 reference sheet (10 codes), simulated patient charts (8 visit descriptions), printed coding worksheet, projector |
 
@@ -24,12 +25,14 @@ Take 2-3 responses. Bridge: real medical codes are NOT random. They follow stric
 
 **Medical Billing and Coding career pathway (3 min).** Project these facts:
 
-- **Credential:** Certified Medical Billing and Coding Specialist (industry-standard, nationally recognized). Medical Billing is NOT currently offered as a dedicated Irving ISD CTE pathway; this is a career-exploration overview.
+- **Credential:** Certified Medical Billing and Coding Specialist (industry-standard, nationally recognized). The workbook's district pages list **Medical Billing & Coding** among Irving ISD's Health Science programs of study, described as health care administration, insurance processing, coding systems, and reimbursement procedures, and they list Billing and Coding Specialist among the certifications the Health Science program leads to (FYF pp. 84-85: "What is Happening at My District?").
 - **Training route:** community college or private program, 6-12 months post-HS; some dual-credit options in senior year.
 - **Workplaces:** hospitals, clinics, insurance companies, physician offices, remote work-from-home.
 - **DFW salary:** ~$42K entry (BLS Medical Records Specialists; 8% growth, "much faster than average").
 
 This is the "short-credential" alternative students heard about at the start of this block. No 4-year degree required. Now they try the job.
+
+> [VERIFY] Irving ISD's public CTE offerings page lists Singley Academy at the School of Health Sciences level and does not name Medical Billing & Coding as a separate campus pathway, while the 2026 district workbook lists it as a Health Science program of study. Confirm the campus and course sequence with your CTE coordinator before advising a student toward it.
 
 While students listen, they fill in the **Medical Biller row** on the Career Comparison worksheet (Education Time: 6-12 month cert; Certification: Certified Medical Billing and Coding Specialist; DFW Salary: ~$42K; Job Growth: 8%). Students classify Medical Biller as high-demand (low entry barrier + 8% growth) at the end of this block.
 
@@ -56,6 +59,8 @@ Walk students through how to read the codes, letters indicate body system, numbe
 ---
 
 ## Activity 2: Coding Simulation Round 1 — Easy (10 min)
+
+**Chunking:** Say what each round is for before releasing it. Round 1 is accuracy on obvious charts, Round 2 is specificity, Round 3 is speed under the same accuracy standard. Round 1's answer reveal is the gate: if a chunk of the room missed the worked example's code, reteach the reference sheet before Round 2 rather than after, and cut Round 3 to buy the time.
 
 Distribute the simplified ICD-10 reference sheet (10 codes) and the patient charts (8 visit descriptions, simplified).
 

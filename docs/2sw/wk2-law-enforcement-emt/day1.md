@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Explore Law Enforcement Services and Fire Science pathways in H&L; identify 5 first responder careers; begin the Training Comparison worksheet |
-| **TEKS** | d(1)(B), d(1)(C) |
+| **Objectives** | Read the Irving ISD programs of study for this cluster; work the Law and Public Safety App Exploration page; identify 5 first responder careers; begin the Training Comparison worksheet |
+| **TEKS** | d(1)(B), d(1)(C), d(2)(A) |
+| **5E Phases** | Engage: Warm-Up · Explain: Criminal Justice and EMT programs of study · Explore: App Exploration and Training Comparison worksheet · Evaluate: Exit Ticket |
 | **Deliverable** | First Responder Training Comparison worksheet with 3 of 5 rows complete (Police Officer, EMT, Firefighter) |
-| **Materials** | Chromebooks, H&L accounts, H&L Workbook Ch 13, printed Training Comparison worksheet, projector |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook pp. 56-58 and pp. 84-85, printed Training Comparison worksheet, projector |
 
 ---
 
@@ -22,16 +23,15 @@ Take responses on the board. Most students will name police, firefighters, and a
 
 ## Activity 1: H&L First Responder Pathways Tour (20 min)
 
-**Source:** H&L Workbook Ch 13, p. 209, Pathway descriptions (Law Enforcement, Fire Science)
+**Source:** (FYF pp. 56-57: "What is Happening at My District?") and (FYF p. 58: "App Exploration")
 
-Open H&L and direct students to the Law and Public Service cluster. Today's focus is two pathways:
+Open the workbook to pages 56-57 and read the two Law and Public Safety programs of study together. **Legal Studies** and its replica courtroom belong to Week 1's side of this cluster. Today the focus is **Criminal Justice**, which prepares students for careers in public safety by studying how laws are developed and enforced, the history and organization of local, state, and federal law enforcement, and skills in criminal law, investigation, and legal response to violations. Point out the two items in the sidebar that a student can actually earn: the **Non-Commissioned Security Officer Level 2** industry certification and **Explorers**, one of the cluster's student organizations.
 
-- **Law Enforcement Services:** covers constitutional law, the U.S. legal system, criminal law, and law enforcement terminology
-- **Fire Science / Emergency & Fire Management:** covers preparedness, fire suppression, arson investigation, hazardous material management, and public fire safety education
+The EMT half of this week lives on a different district page. Turn to the Health Science district pages (FYF pp. 84-85) and read the **Emergency Medical Technician (EMT)** program of study, which focuses on emergency response, patient assessment, trauma care, and life-saving techniques. The page notes that EMT students at Singley ride along with emergency medical teams on real calls.
 
-> [H&L PLATFORM] In the H&L app, click "Career Clusters," select "Law and Public Service," then click "Law Enforcement Services" and "Fire Science" pathway tiles. Use Hat Finder to explore at least 5 first responder Hats. For each Hat, students read the job description, education path, and DFW salary.
+> [H&L PLATFORM] Follow the App Exploration page (FYF p. 58). Open the Hats & Ladders app, go to Clusters, and click the Law and Public Safety Cluster. Students who completed the full page in Week 1 return to two steps today: click "Pathway Possibilities," answer the questions, and rate at least 1 pathway; then rate at least 3 Hats, choosing first responder Hats. For each Hat, students read the job description, education path, and DFW salary.
 
-Students use the Hat Finder to explore these 5 specific Hats:
+Students use the app to explore these 5 specific Hats:
 
 1. Police Officer
 2. EMT
@@ -71,7 +71,7 @@ Students then work independently on Police Officer and Firefighter using the sam
 
 ## Activity 3: From the Field Interviews (8 min)
 
-**Source:** H&L app. From the Field interview videos (Ch 13)
+**Source:** Hats & Ladders app, From the Field interview videos
 
 > [H&L PLATFORM] In the H&L app, on each Hat page, scroll to "From the Field" or "Career Stories." Select one short video featuring a first responder (Police Officer, EMT, or Firefighter). Students watch the video and write one sentence: "The most surprising thing about this person's job is _____."
 

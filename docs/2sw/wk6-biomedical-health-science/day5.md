@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Research one emerging biomedical occupation; finalize Health Science cluster favorites in H&L; complete the Xello Save Careers activity; update the My Career Journey reflection for the 2nd Six Weeks |
 | **TEKS** | d(1)(D), d(2)(A), d(5)(A) |
+| **5E Phases** | Engage: Warm-Up · Explore: Emerging biomedical career research · Extend: Xello Save Careers and Health Science cluster ratings · Evaluate: 2SW reflection and Exit Ticket |
 | **Deliverable** | Emerging Biomedical Career Research template (1 emerging career, all fields) + updated H&L Climber Profile (5+ Health Science favorites) + Xello Save Careers completion + 2SW reflection |
-| **Materials** | Chromebooks, H&L accounts, Xello accounts, BLS Career Outlook page, NIH STEM site, printed Emerging Career Research template, projector |
+| **Materials** | Chromebooks, H&L accounts, Xello accounts, *Find Your Future* workbook pp. 82-83 and p. 86, BLS Career Outlook page, NIH STEM site, printed Emerging Career Research template, projector |
 
 ---
 
@@ -72,9 +73,11 @@ This creates a Xello-side record of the student's evolving career interests, com
 
 ## Activity 3: H&L Health Science Cluster Wrap-Up (10 min)
 
-Students return to the H&L app and finalize ALL their Health Science favorites. They should now have **5 or more Health Science favorites** spanning nursing, dental, medical billing, and biomedical.
+**Source:** (FYF p. 86: "App Exploration")
 
-> [H&L PLATFORM] In the H&L app, navigate to "Hat Finder," filter by "Health Science" cluster. Verify that 5+ careers are favorited (heart icon). Then click "Climber Profile." Students should now see favorites from FOUR clusters: Manufacturing (1SW), IT (1SW), Law (2SW Wk 1-2), and Health Science (2SW Wk 3-6).
+Students return to the H&L app and finalize ALL their Health Science favorites. They should now have **5 or more Health Science favorites** spanning nursing, dental, medical billing, and biomedical. The App Exploration page closes the cluster with two questions worth answering out loud before students leave it: which Hat matches your personality or interests, and which Hat is clearly NOT a fit for you.
+
+> [H&L PLATFORM] Open the Hats & Ladders app. Go to Clusters and click the Health Science Cluster. Confirm at least 3 Hats and 1 pathway are rated, and that 5+ Health Science careers are favorited (heart icon). Then click "Climber Profile." Students should now see favorites from FOUR clusters: Manufacturing (1SW), IT (1SW), Law (2SW Wk 1-2), and Health Science (2SW Wk 3-6).
 
 The teacher circulates and asks: "Which Health Science career is your TOP favorite, and why?" This is a quick formative check for the entire 4-week Health Science exploration.
 
@@ -130,5 +133,5 @@ Submit the Emerging Career Research template + the updated 2SW reflection as the
 ## Differentiation
 
 - **Support:** Provide a list of 6 pre-approved emerging biomedical careers with starter research links. Provide a fill-in-the-blank reflection template.
-- **Extension:** Research a specific DFW biotech employer (UT Southwestern, McKesson, Kimberly-Clark Health) and identify what careers they hire for. Add that employer to the research template.
+- **Extension:** "Patient Education" (FYF pp. 82-83). Partners pick one organ or bone from the workbook's list (heart, lungs, brain, stomach, femur, skull, spine), write an AI prompt for a labeled educational illustration a hospital could show patients, generate the image, record what went right and what needs improvement, revise the prompt, generate a second image, and choose the better mock-up to share. Confirm the campus has an approved AI image tool for student use before offering this; if it does not, students write and swap prompts and critique a teacher-generated image on the projector. Students who prefer research instead investigate a DFW biotech employer (UT Southwestern, McKesson, Kimberly-Clark Health) and add it to the research template.
 - **ELL:** Bilingual research template. Pre-teach: Emerging = Emergente, Trend = Tendencia, Employer = Empleador, Investigation = Investigación. Pair ESL students with bilingual peers for the Xello Save Careers step.

@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Finalize Law cluster favorites in H&L; complete the Training Comparison worksheet; reflect on which first responder career fits personal RIASEC type |
+| **Objectives** | Finalize Law and Public Safety favorites in the H&L app; complete the Training Comparison worksheet; reflect on which first responder career fits the student's core personality type |
 | **TEKS** | d(1)(C), d(2)(A), d(4)(F) |
-| **Deliverable** | Updated Climber Profile (3 favorited Law cluster careers across Wk 1 + Wk 2) + completed Training Comparison worksheet (5 of 5 rows) + reflection paragraph |
-| **Materials** | Chromebooks, H&L accounts, Roadtrip Nation video link, Training Comparison worksheet from Day 1, projector |
+| **5E Phases** | Engage: Warm-Up · Explore: Training Comparison rows and career documentary · Extend: App favorites across three clusters · Evaluate: Integrity reflection and Exit Ticket |
+| **Deliverable** | Updated Climber Profile (3 favorited Law and Public Safety careers across Wk 1 + Wk 2) + completed Training Comparison worksheet (5 of 5 rows) + reflection paragraph |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook p. 58, Roadtrip Nation video link, Training Comparison worksheet from Day 1, projector |
 
 ---
 
@@ -56,11 +57,11 @@ After the video, lead a 2-minute whole-class discussion: What did this real firs
 
 ## Activity 3: H&L Favorites + Climber Profile (12 min)
 
-Students return to the H&L app and finalize their Law cluster favorites across both Week 1 (Legal Services) and Week 2 (Law Enforcement, Fire Science).
+Students return to the H&L app and finalize their Law and Public Safety favorites across both Week 1 (legal and policy careers) and Week 2 (law enforcement, EMT, fire, and search and rescue).
 
-> [H&L PLATFORM] In the H&L app, navigate to "Hat Finder," filter by "Law and Public Service" cluster, and confirm that 2-3 Hats are favorited (heart icon clicked). Then click "Climber Profile". Students should see favorites from THREE clusters now: Manufacturing, IT, and Law. The Climber Profile page shows how their RIASEC type connects to favorited Hats.
+> [H&L PLATFORM] Return to the App Exploration page (FYF p. 58). Open the Hats & Ladders app, go to Clusters, and click the Law and Public Safety Cluster. Students confirm that 2-3 Hats are favorited and that they have rated at least 3 Hats and 1 pathway on the page. Then open "Climber Profile". Students should see favorites from THREE clusters now: Manufacturing, IT, and Law and Public Safety. The Climber Profile page shows how their core personality type connects to favorited Hats.
 
-The teacher circulates and asks each student: "Which Law cluster career did you favorite, and does your RIASEC type fit it?" This is a quick formative check.
+The teacher circulates and asks each student: "Which Law and Public Safety career did you favorite, and does your core personality type fit it?" This is a quick formative check.
 
 ---
 
@@ -69,7 +70,7 @@ The teacher circulates and asks each student: "Which Law cluster career did you 
 Students write a short reflection paragraph (4-5 sentences) responding to:
 
 - *"Define integrity in your own words."*
-- *"Name one moment from this week (Missing Painting case, team role assignments, or the Citywide Emergency Plan dilemma) where integrity mattered."*
+- *"Name one moment from this week (the Clinton Lake Case, the Wilderness First Responder rounds, or your Patient Care Report) where integrity mattered."*
 - *"Name one first responder career and explain why integrity is non-negotiable for that role."*
 
 This reflection can be hand-written or typed. It is the d(4)(F) summative check for the week.
@@ -88,9 +89,9 @@ Connect this career to THREE things:
 
 My training fact: _______________________________________________________
 
-**2. Your Wk0 RIASEC type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
+**2. Your Wk0 core personality type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
 
-My RIASEC type: ________________
+My core personality type: ________________
 
 Why does this career match (or not match) your type? One sentence: _______________________________________________________________
 

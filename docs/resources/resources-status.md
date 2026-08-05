@@ -2,7 +2,7 @@
 
 **What this page is:** a living checklist of teacher-facing resources that are **ready to use**, **partially built**, or **still to be created** for the CCE Curriculum. This is the page to check when you want to know "what's missing before I can teach this week" or "what should I expect my teammates to build next."
 
-**Last updated:** 2026-08-05 (Phase A FYF realignment closeout, 1SW block)
+**Last updated:** 2026-08-05 (Phase B FYF realignment closeout, 2SW + 3SW blocks)
 
 ---
 
@@ -24,7 +24,7 @@
 | Master Scope & Sequence (13-column pacing guide) | ✅ | [Scope & Sequence](../scope-and-sequence.md) |
 | TEKS Coverage Matrix (every d(1)–d(8) standard mapped to its weeks) | ✅ | [TEKS Coverage Matrix](teks-coverage-matrix.md) |
 | Free Resource Directory (BLS, Code.org, Canva, iCivics, etc.) | ✅ | [Free Resource Directory](free-resource-directory.md) |
-| Source grounding (every workbook activity cites a page) | ✅ | Throughout daily plans. 1SW cites the Irving *Find Your Future* workbook; 2SW-6SW still cite the generic H&L workbook pending Phases B and C |
+| Source grounding (every workbook activity cites a page) | ✅ | Throughout daily plans. 1SW, 2SW, and 3SW cite the Irving *Find Your Future* workbook; 4SW-6SW still cite the generic H&L workbook pending Phase C |
 | Differentiation (Support / Extension / ELL + Spanish vocab) on every day | ✅ | Every daily plan |
 | Facilitation Tip blocks (222 across the curriculum) | ✅ | Throughout daily plans |
 | Printable exit-ticket PDFs (178, one per daily exit ticket, Irving ISD branded) | ✅ | `docs/resources/exit-tickets/`, linked from every day page |
@@ -48,9 +48,21 @@ Operating manual: `cce-curriculum/notes/exit-ticket-pdf-pipeline.md`. Do not han
 | *Find Your Future* (FYF) workbook | The official Irving ISD student workbook, 308 pp., © 2026 Hats & Ladders. Tracked text extract alongside the gitignored PDF | `cce-curriculum/resources/reference-pdfs/IrvingFindYourFuture2026.txt` |
 | Climber Notes decks | 17 teacher slide decks from H&L, including the two that carry the personality-type and work-values content the workbook does not print | `cce-curriculum/resources/climber-notes/` (see `INDEX.md`) |
 | H&L teacher resources | 8 general teacher documents (rubrics, conversation starters, early-finisher activities, classroom displays) | `cce-curriculum/resources/hl-teacher-resources/` (see `INDEX.md`) |
-| H&L generic workbook + Powerskills supplement | The pre-FYF source, still cited by 2SW-6SW until Phases B and C land | `cce-curriculum/resources/reference-pdfs/` |
+| H&L generic workbook + Powerskills supplement | The pre-FYF source, still cited by 4SW-6SW until Phase C lands | `cce-curriculum/resources/reference-pdfs/` |
 
 A Hats & Ladders **teaching guide** (answer keys, timing, differentiation) has not been delivered. The Climber Notes speaker notes carry some facilitation guidance in its place.
+
+### New hard dependencies from the Phase B realignment (2026-08-05)
+
+Realigning 2SW and 3SW to *Find Your Future* introduced three supply requirements that did not exist before. These are not "nice to have" enrichment; the named days do not run without them.
+
+| Week | What it needs | Why |
+|---|---|---|
+| **2SW Wk2 Days 2-4** (Law Enforcement / EMT) | The **Clinton Lake Case** Climber Notes deck (six evidence files, slides 2-7) and the **Injured on the Trail** Climber Notes deck (supply table plus the sling and finger-splint technique photos, slides 2-3) | Both decks are teacher-side only. The evidence files and the technique photos are not printed in the student workbook, so Days 2 through 4 have no content without them. Decks are on hand at `cce-curriculum/resources/climber-notes/` |
+| **2SW Wk2 Days 3-4** (Law Enforcement / EMT) | **Per-pair first-aid supplies**: one triangular bandage or equivalent cloth for the sling, tape, and a popsicle stick or similar rigid splint for the finger | Students take turns as responder and injured hiker and physically apply a sling and a splint. Budget one set per pair, not one per class |
+| **3SW Wk5 Days 1-3** (Cosmetology) | **Special effects makeup supplies**: tissue or cotton for texture, liquid latex or a school-safe adhesive alternative, cream or water-based color, tweezers, and a skin-safe base surface | Special Effects Makeup is the only FYF activity the workbook itself splits across three days, and Day 2 is a hands-on build. Check student allergies before ordering; the latex substitute is the usual accommodation |
+
+Two Climber Notes decks are also now load-bearing in Health Science: **Vitals in Motion** (2SW Wk3, the tool reference and the fever, blood pressure, and pulse oximeter charts) and **Smile Squad** (2SW Wk4, Mia's five X-rays). Both are already in the repo.
 
 ---
 

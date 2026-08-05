@@ -1,145 +1,130 @@
-# Day 3: Farm Fresh Express — Setup
+# Day 3: Outbreak Investigators — Examine the Clues
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Read and analyze the Wilson City community data sheet; identify the food desert problem; brainstorm a mobile farmers' market solution |
+| **Objectives** | Read the Fairview Edge case file and environmental clues; identify the likely source of a waterborne outbreak; complete the Investigation Report; analyze the pattern and severity of the illness |
 | **TEKS** | d(1)(C) |
-| **Deliverable** | Wilson City data analysis (key data points circled) + brainstorm sheet (10 food offerings, market name, design ideas) |
-| **Materials** | Chromebooks, H&L Workbook Ch 9 (pp. 149-152), printed Wilson City community data sheet, brainstorm sheet, projector |
+| **5E Phases** | Engage: Warm-Up · Explain: What environmental epidemiologists do · Explore: Fairview Edge clues, Investigation Report, and outbreak analysis · Evaluate: Exit Ticket |
+| **Deliverable** | Completed Investigation Report (outbreak description, 3+ pieces of evidence, possible source, symptoms, likely cause) + outbreak analysis (pattern, severity, risk check) |
+| **Materials** | *Find Your Future* workbook pp. 74-77, projector for the case-file image clues |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: How far is the closest grocery store to your house? What if you didn't have a car or a bus to get there?**
+**WARM-UP: Six people on your street get the same stomach bug in the same week. What would you check FIRST to find out why?**
 
-Take 3-4 responses. Bridge: 24 million Americans live in "food deserts", places where fresh, healthy food is hard to access. Today the class meets one of those communities and starts designing a solution.
-
----
-
-## Activity 1: What is a Food Desert? (5 min)
-
-**Source:** H&L Workbook Ch 9, p. 149, Background section
-
-Read the workbook background aloud: *"A food desert is an area where people have limited access to affordable, nutritious food, often because grocery stores are too far away and transportation is limited. Without fresh food options, people may rely on fast food or processed foods, leading to health problems like obesity, diabetes, and heart disease. In the United States, at least 24 million people live in a food desert. They can be found in every state, most often in rural areas."*
-
-Connect to Health Science: this is **public health:** the part of healthcare that focuses on preventing disease at the community level rather than treating it one patient at a time. Public health professionals (epidemiologists, community health workers, nutritionists) work on food desert problems.
+Take 3-4 responses (what they ate, where they swam, what they drank, who they were around). Bridge: that first question is a whole career. Environmental epidemiologists study how and why people get sick and how illness spreads. Today the class investigates a real-feeling outbreak.
 
 ---
 
-## Activity 2: Read the Wilson City Community Data Sheet (15 min)
+## Activity 1: What Does an Environmental Epidemiologist Do? (5 min)
 
-**Source:** H&L Workbook Ch 9, pp. 150-151, Community Data Sheet
+**Source:** (FYF p. 74: "Outbreak Investigators"), a Career Climb activity
 
-Distribute the printed Wilson City community data sheet. Read it aloud as a class, pausing to highlight the key facts students should circle:
+Read the workbook's opening description together. Environmental epidemiologists are scientists who study how and why people get sick, and how illnesses spread from person to person. They gather information, look for patterns, and figure out what might be causing a health problem. Their work keeps communities safe and keeps food, water, and the environment healthy.
 
-**Wilson City Overview:**
+Connect this to the Health Science cluster students have been touring for four weeks. Nursing, dental, and biomedical careers treat one patient at a time. Public health careers, including epidemiology, work on the whole community at once by stopping an illness before it reaches more people. Both kinds of work sit inside the same cluster, and the scientific investigation skills behind this one show up in the Irving ISD Biomedical Sciences program of study.
 
-- Population: ~5,000 (small rural town)
-- 2 grocery stores, both on the EAST side, leaving the WEST side with limited fresh food
-- NO public transportation
-- Nearest larger town with multiple grocery stores: 35 miles away
+Set the case: a small town is suddenly seeing people fall ill, and the class has been called in to investigate a waterborne outbreak, identify the source, and plan how to stop it from spreading.
 
-**Access to Grocery Stores:**
+---
 
-- 40% of households are 8+ miles from the nearest grocery store (mostly west side)
-- Both stores carry limited fresh produce, fresh items run out early, prices are higher than nearby towns
+## Activity 2: Examine the Clues (15 min)
 
-**Transportation Access:**
+**Source:** (FYF pp. 74-75: "Outbreak Investigators", Step 1)
 
-- 100% of residents have NO access to public transportation
-- 24% of households have only ONE vehicle
-- 13% of households have NO vehicle at all
+**Think-Pair-Share:** the workbook pairs students for this step. Hold a silent 30 second Think while students read the case file on their own, then Partner A talks for 30 seconds about the pattern they see, then Partner B for 30 seconds. Two pairs share with the whole class before anyone writes anything down. Post two stems at different levels: "Everyone who got sick _____" and "The one thing the people who did NOT get sick have in common is _____."
 
-**Shopping Behavior:**
+**Case File: Fairview Edge.** A small town of about 2,000 residents. Most people drink water from a local well or from the town's water system. The town recently had heavy rainfall and minor flooding.
 
-- 68% of residents would be likely or very likely to shop at a mobile farmers' market
-- 72% say fresh fruits and vegetables are important, but 61% say they can't find variety
+| Resident | Age | Water source | Recent activity | Symptoms | Symptoms started |
+|---|---|---|---|---|---|
+| Alex | 12 | Tap water | Soccer practice | Stomach pain, vomiting | Monday |
+| Maria | 34 | Tap water | None | Diarrhea, fever | Monday |
+| Jamal | 15 | Tap water | Basketball | Nausea, stomach pain | Tuesday |
+| Mrs. Lee | 52 | Tap water | Gardening | Diarrhea, vomiting | Monday |
+| Ethan | 10 | Bottled water | None | None | Never got sick |
+| Sofia | 13 | Tap water | Swimming in the river | Vomiting, fever | Tuesday |
+| Mr. Cruz | 41 | Tap water | None | Diarrhea | Monday |
+| Lilly | 11 | Bottled water | Dance class | None | Never got sick |
 
-**Demographics:**
+**Environmental clues** (p. 75):
 
-- 22% under 18, 22% over 65
-- 28% of seniors live alone
-- 31% of residents receive nutrition assistance (SNAP or WIC)
+- The town's main water well is located near a river
+- After the heavy rain, the river overflowed its banks
+- Some residents reported that their tap water looked slightly cloudy for a short time
+- The town has not recently tested the water quality
 
-**Local Farms:**
-
-- 14 active farms nearby
-- Available produce: tomatoes, cucumbers, peppers, zucchini, strawberries, apples, watermelon, sweet corn, lettuce, kale, potatoes, onions, carrots
-- Other farm goods: eggs, goat cheese, honey
-- Local farmers willing to sell directly if setup is easy
-
-Students circle 5 data points that they think are most critical to the food desert problem.
+The workbook also prints **image clues** on page 75. Project that page so the whole class studies the same images at the same time rather than crowding around one book.
 
 !!! tip "Facilitation Tip"
-    The data sheet is dense. Don't read every word, highlight the constraints. The mobile market must serve the WEST side (40% of households 8+ miles away), serve seniors who live alone (28% of seniors), and accept SNAP/WIC payments (31% of residents).
+    The two residents who stayed healthy are the strongest clue in the case, and most students skip right past them. If a pair is stuck, point at Ethan and Lilly and ask what those two did differently. Comparing who got sick with who did not is the move the workbook asks for again on Day 4.
 
 ---
 
-## Activity 3: Analyze the Data (10 min)
+## Activity 3: Complete the Investigation Report (10 min)
 
-**Source:** H&L Workbook Ch 9, p. 152, Step 2: Analyze Data
+**Source:** (FYF p. 75: "Outbreak Investigators", Step 2)
 
-Students work in groups of 3-4 (these will be their team for Day 4). Each team writes a brief analysis answering the workbook prompts:
+Pairs complete the workbook's Investigation Report. Every field gets filled:
 
-- Which areas lack grocery stores? (Answer: West side of Wilson City)
-- Which areas are most affected by transportation issues? (Same, west side, plus the 13% with no vehicle anywhere)
-- How and where could you source produce? (Answer: 14 local farms willing to sell direct)
-- What dietary needs does the community have? (Answer: Many seniors, families with kids, SNAP/WIC users, fresh produce demand is unmet)
+- **Outbreak Description:** what students notice about the illness, including symptoms, how many people are affected, and the timing
+- **Evidence:** at least 3 clues from the case file that students think matter
+- **Possible Source:** check all that apply from well water, river water, tap water, bottled water, food or drinks
+- **Symptoms Observed:** what symptoms people are showing
+- **What do you think caused the outbreak?** possible causes based on the clues
 
-The analysis should be 3-4 sentences max. Teams write it together on a single sheet.
-
-**DOK 3:** What patterns do you see in the Wilson City data? What is the BIGGEST barrier to fresh food in this community?
+Hold pairs to the "at least 3" evidence requirement. A report that names one clue is a guess, not an investigation.
 
 ---
 
-## Activity 4: Brainstorm the Mobile Farmers' Market (12 min)
+## Activity 4: Analyze the Outbreak (12 min)
 
-**Source:** H&L Workbook Ch 9, p. 153, Step 3: Brainstorm
+**Source:** (FYF p. 76: "Outbreak Investigators", Step 3)
 
-Each team brainstorms ideas for their mobile farmers' market on the brainstorm sheet. The workbook (p. 153) requires:
+Pairs move to the workbook's analysis page and answer three questions:
 
-- **What will your market offer?** At least 10 nutritious food offerings (use the local farm produce list)
-- **How will you get people excited about your market?** Marketing ideas
-- **How can you make it affordable?** SNAP/WIC acceptance, sliding scale pricing, free samples
-- **How will you incorporate nutrition information?** Recipe cards, signage, demos
-- **What will it be called?** A name + tagline
-- **What will it look like?** Vehicle type, color scheme
+- **Pattern of Illness:** who got sick first, and who got sick later?
+- **Severity of Illness:** how serious are the symptoms, mild, moderate, or severe? Why did you choose that level?
+- **Risk Check:** are more people at risk if the water is not treated? Yes or no, and explain the answer
 
-Teams write down their ideas. They will refine and present on Day 4.
+The severity choice is the one that produces real argument. There is no single correct level, but the reasoning has to cite symptoms from the case file rather than a general feeling.
+
+**DOK 3:** What patterns do you see in who got sick and when? What does the two-day gap between the Monday cases and the Tuesday cases tell you about how this illness spreads?
 
 ---
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/2sw-wk6-day3-farm-fresh-express-setup.pdf):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/2sw-wk6-day3-outbreak-investigators-examine-the-clues.pdf):
 
-Rank these four Wilson City food-desert constraints from MOST critical (1) for a mobile market to solve to LEAST critical (4). Use the data sheet.
+Rank these four clues from MOST useful (1) to LEAST useful (4) for proving the TAP WATER made people sick.
 
-- 40% of households are 8+ miles from a grocery store (mostly west side): rank ____
-- 13% of households have NO vehicle: rank ____
-- 31% of residents receive nutrition assistance (SNAP/WIC): rank ____
-- 28% of seniors live alone: rank ____
+- Ethan and Lilly drank bottled water and did not get sick: rank ____
+- The town's water well sits next to a river that overflowed: rank ____
+- Sofia swam in the river before she got sick: rank ____
+- The town has not tested its water quality recently: rank ____
 
-For EACH rank, write one specific data point from the Wilson City sheet that backs the rank.
+For your #1 and your #4, write one sentence saying why.
 
-- Rank 1 (most critical): _______________________________________________________
+- Rank 1 (most useful): _______________________________________________________
 
-- Rank 4 (least critical but still matters): _______________________________________________________
+- Rank 4 (least useful but still matters): _______________________________________________________
 
-Bottom line: Name your market. List ONE way the market design addresses YOUR #1 ranked constraint. *(d(1)(C))*
+Bottom line: Epidemiologists find the source of an outbreak. Name ONE other Health Science career that would help Fairview Edge after the source is found, and say what that person would do. *(d(1)(C))*
 
-   My market name: _______________________
+   Career: _______________________
 
-   Design choice for constraint #1: ___________________________________________________________________
+   What they do: ___________________________________________________
 
 ---
 
 ## Differentiation
 
-- **Support:** Pre-circle the key data points on the Wilson City sheet for students who struggle with dense text. Provide a brainstorm template with each section labeled.
-- **Extension:** Research a real food desert in DFW (parts of South Dallas, Pleasant Grove) and compare the data to Wilson City. Where are they similar? Different?
-- **ELL:** Bilingual data sheet with key terms translated. Pre-teach: Food Desert = Desierto Alimentario, Grocery Store = Tienda de Comestibles, Transportation = Transporte, Produce = Productos Agrícolas. Visual icons next to each data category.
+- **Support:** Provide the case-file table with the "water source" and "symptoms started" columns already highlighted so students compare the two variables that matter most. Provide a sentence stem for the outbreak description: "_____ people got sick. They all _____. The first cases started on _____."
+- **Extension:** Rebuild the case file for a food outbreak instead of a water outbreak. Which column in the table would you change, and what new clue would you have to add so an investigator could still find the source?
+- **ELL:** Bilingual investigation glossary (Outbreak = Brote, Source = Fuente, Evidence = Evidencia, Symptoms = Síntomas, Well = Pozo, Flooding = Inundación, Pattern = Patrón). The case-file table is mostly names and short symptom words, so it reads well with translation support. Pair ELL students with a bilingual partner for the Think-Pair-Share.

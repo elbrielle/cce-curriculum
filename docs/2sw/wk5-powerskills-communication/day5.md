@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Complete the Xello Time Management Lesson; complete the CareerOneStop Skills Matcher; review and refine the SMART goal from Day 3; write a Powerskills reflection |
 | **TEKS** | d(1)(A), d(4)(A), d(4)(B) |
+| **5E Phases** | Engage: Warm-Up · Explore: Xello Time Management and CareerOneStop Skills Matcher · Extend: SMART goal refined against the new results · Evaluate: Powerskills reflection and Exit Ticket |
 | **Deliverable** | Xello Time Management completion screen + Skills Matcher results screenshot + refined SMART goal + 4-sentence reflection paragraph |
 | **Materials** | Chromebooks, Xello accounts, CareerOneStop Skills Matcher link, SMART Goal worksheet from Day 3, projector |
 
@@ -48,7 +49,7 @@ After completing the matcher, students:
 2. **Compare to their H&L Climber Profile favorites:** is there overlap?
 3. **Write one sentence** noting whether the Skills Matcher recommended any careers they had NOT considered before
 
-> [H&L PLATFORM] Open the H&L app and click "Climber Profile." Compare the list of favorites to the CareerOneStop Skills Matcher results. Look for patterns, same RIASEC type, same skill clusters.
+> [H&L PLATFORM] Open the Hats & Ladders app and go to Profile, then Climber Profile. Compare the favorited Hats to the CareerOneStop Skills Matcher results. Look for patterns: the same core personality type from "Discover Your Core," the same work values, the same skills showing up in both lists.
 
 ---
 
@@ -81,7 +82,7 @@ Submit the reflection and the refined SMART goal together as the Week 5 delivera
 
 **EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/2sw-wk5-day5-xello-time-management-reflection.pdf):
 
-The transferable skill I improved MOST this week: _______________________ (from Conflict Resolution / Feedback / Advocacy / Written Communication / Time Management)
+The transferable skill I improved MOST this week: _______________________ (from Conflict Resolution / Active Listening / Advocacy / Written Communication / Time Management)
 
 Connect this skill to THREE things:
 
@@ -112,5 +113,5 @@ Submit the refined SMART goal with this ticket.
 ## Differentiation
 
 - **Support:** Provide a fill-in-the-blank reflection template. Use Xello's Spanish-language toggle and CareerOneStop's accessibility features.
-- **Extension:** Students compare their Skills Matcher results to their H&L RIASEC results from Week 0. Where do they overlap, and where do they conflict?
+- **Extension:** Students compare their Skills Matcher results to the core personality type they recorded in Week 0 from the H&L "Discover Your Core" task. Where do they overlap, and where do they conflict? Students who kept a Powerskills Trading Card from Week 0 check whether the Powerskill they named as "in training" is the one they improved most this week.
 - **ELL:** CareerOneStop and Xello both support multiple languages. Pair ESL students with bilingual peers for the reflection paragraph. Pre-teach: Reflection = Reflexión, Skill = Habilidad, Goal = Meta, Refine = Refinar.

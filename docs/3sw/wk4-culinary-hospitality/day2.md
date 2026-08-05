@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the H&L Powerskill Motivation activity; identify intrinsic and extrinsic motivation in workplace examples; compare salaries of 3 hospitality careers using BLS |
+| **Objectives** | Complete the "Powerskill: Motivation" activity; identify intrinsic and extrinsic motivation in workplace examples; compare salaries of 3 hospitality careers using BLS |
 | **TEKS** | d(4)(B), d(5)(E) |
-| **Deliverable** | Completed Motivation chart from H&L workbook + 3-career salary comparison worksheet |
-| **Materials** | H&L Workbook Ch 10 (p. 162, Powerskill Motivation), Chromebooks, BLS Hospitality career tabs, printed salary comparison worksheet, projector |
+| **5E Phases** | Engage: Warm-Up · Explain: Types of motivation · Explore: Competition plan, share and compare, and BLS salary comparison · Evaluate: Exit Ticket |
+| **Deliverable** | Completed competition plan from the workbook + 3-career salary comparison worksheet |
+| **Materials** | *Find Your Future* workbook pp. 121-123, Chromebooks, BLS Hospitality career tabs, printed salary comparison worksheet, projector |
 
 ---
 
@@ -20,34 +21,34 @@ Take 3-4 student responses. Use this to bridge: motivation comes from different 
 
 ---
 
-## Activity 1: H&L Powerskill — Motivation (20 min)
+## Activity 1: "Powerskill: Motivation" — Design a Competition (20 min)
 
-**Source:** H&L Workbook Ch 10, p. 162, "Powerskill: Motivation"
+**Source:** (FYF pp. 121-123: "Powerskill: Motivation")
 
-Read aloud the workbook intro (Ch 10, p. 162): Motivation is what keeps you going, helps you tackle challenges, and helps you stay focused. There are two main types: **intrinsic motivation** (from inside you, you do something because you enjoy it) and **extrinsic motivation** (from outside, you do it for a reward or to avoid a consequence).
+Read the workbook intro on page 121 together: motivation is what keeps you going when things get difficult. It is the energy that helps you tackle challenges, stay focused on your goals, and take pride in what you do. No matter what career you choose, motivation pushes you to learn new skills, solve problems, and keep improving.
 
-Project the workbook chart on the screen:
+**Step 1: Review Types of Motivation.** Project the workbook chart (p. 121). **Intrinsic motivation** comes from within yourself. **Extrinsic motivation** comes from the outside world.
 
 | INTRINSIC MOTIVATION | EXTRINSIC MOTIVATION |
 |---|---|
-| **Competence and Learning Motivation:** driven by the excitement of learning and improving yourself | **Incentive Motivation:** driven by reward |
-| **Attitude Motivation:** wanting to create a positive and uplifting environment for yourself and others | **Power Motivation:** driven by the desire to have control over events and people around you |
-| **Achievement Motivation:** enjoying the process of setting personal goals and achieving them | **Avoidance Motivation:** doing something to avoid a negative consequence |
+| **Competence and Learning Motivation:** enjoying the process of learning, growing, and improving your skills | **Incentive Motivation:** working toward a reward, prize, or recognition |
+| **Attitude Motivation:** wanting to create a positive environment for yourself and others | **Power Motivation:** enjoying opportunities to lead, guide, or influence decisions |
+| **Achievement Motivation:** setting personal goals and feeling proud when you accomplish them | **Avoidance Motivation:** taking action to avoid negative consequences or problems |
 
-**Activity (from workbook):** Students imagine they are an event organizer designing a high-stakes baking competition for professional bakers. The bakers must create the most hyper-realistic cakes possible, cakes so realistic they look like everyday objects. The student's job: design a competition that will motivate the bakers to do their best.
-
-Students fill in the **Competition Planner** from the workbook:
+**Step 2: Create a Detailed Competition Plan.** Students are an event organizer designing a high-stakes baking competition for professional bakers. The bakers must create the most hyper-realistic cake possible, cakes so realistic they look like everyday objects. The student's job is to design a competition that will motivate the bakers to do their best. Students fill in the five-row plan from page 122:
 
 | Category | Description |
 |---|---|
 | Contest Name | A creative and catchy title |
-| Competition Goals | What is the purpose? (skill, creativity, pushing boundaries) |
-| Rules and Guidelines | Time limits? Material restrictions? |
-| Prizes and Rewards | Cash, trophy, TV feature, career opportunity? |
-| Types of Motivation | Identify at least 2 types of motivation your competition will use |
+| Competition Goals | What is the purpose? Skill, creativity, or pushing boundaries? |
+| Rules and Guidelines | What are the requirements? Time limits? Restrictions on materials? |
+| Prizes and Rewards | What will motivate the bakers? Cash prize, trophy, TV show feature, career opportunities? |
+| Types of Motivation | Identify at least two types of motivation your competition will use |
+
+**Step 3: Share and Compare.** In the last few minutes, students pair up and present their plans, comparing which types of motivation each one used. Which competition would motivate professional bakers the most, and why?
 
 !!! tip "Facilitation Tip"
-    The "types of motivation" row is the key. Students often default to "money" (extrinsic), so push them: what intrinsic motivator could you add? (e.g., the chance to create something never seen before, the chance to learn from master bakers).
+    The "types of motivation" row is the key. Students often default to "money" (extrinsic), so push them: what intrinsic motivator could you add? The chance to create something never seen before, or the chance to learn from master bakers, both count.
 
 ---
 
@@ -89,13 +90,13 @@ Use your salary comparison worksheet to fill in the matrix.
 |---|---|---|---|
 | BLS median pay | | | |
 | Typical education | | | |
-| Primary type of motivation (intrinsic / extrinsic) — which one my competition design used | | | |
+| Primary type of motivation (intrinsic / extrinsic) that my competition design used | | | |
 
 Bottom line: Which of the three careers has the BEST balance of pay AND intrinsic motivation (doing it because you love it) FOR ME? Use one specific number + one motivation type from the matrix to back the pick. *(d(4)(B), d(5)(E))*
 
    ___________________________________________________________________
 
-Submit your Motivation chart and salary comparison with this ticket.
+Submit your competition plan and salary comparison with this ticket.
 
 ---
 

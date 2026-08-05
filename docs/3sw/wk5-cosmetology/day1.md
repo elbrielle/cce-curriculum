@@ -1,93 +1,100 @@
-# Day 1: Human Services Cluster + Stress Toolkit
+# Day 1: Human Services Cluster + Special Effects Makeup Concept
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Tour the Human Services cluster in H&L; identify Personal Care Services careers; complete the H&L "Stress Toolkit" activity by designing 3 social media posts that teach stress management techniques |
+| **Objectives** | Tour the Human Services cluster in the workbook and the H&L app; identify personal care and wellness careers; research how prosthetics, texture, and layering work in special effects makeup; build a Concept Card for a three-day SFX transformation |
 | **TEKS** | d(1)(B), d(1)(C) |
-| **Deliverable** | 3 Stress Toolkit social media posts (drawn on workbook templates or designed in Canva) |
-| **Materials** | Chromebooks, H&L accounts, H&L Workbook Ch 11 (pp. 175-178), Canva for Education accounts (optional), colored pencils/markers, projector |
+| **5E Phases** | Engage: Warm-Up · Explore: Cluster app exploration and SFX partner research · Explain: Style Guide textures and the Concept Card · Evaluate: Exit Ticket |
+| **Deliverable** | Completed SFX Concept Card (character description, texture, materials, color palette, sketch) |
+| **Materials** | *Find Your Future* workbook pp. 127-129 and p. 138, Chromebooks, H&L accounts, colored pencils or markers, projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: List one thing that stresses you out at school. Now: how do you usually deal with it?**
+**WARM-UP: Think of a movie or show where a person was turned into a creature, a monster, or someone much older. What did the artists change about that actor's skin to make you believe it?**
 
-Take 4 student responses (no judgment, no oversharing). Use this to bridge: stress is normal, but how we MANAGE it matters. Today students play a Health and Wellness Coordinator and design social media posts to teach others stress management.
+Take 4 student responses. Listen for words like scales, cracks, wrinkles, and color. Bridge: Human Services is the cluster for careers that help people look and feel their best, and that runs from a hairstylist to a special effects artist who turns an actor into something not human. Today the class tours the cluster, then starts a three-day SFX build.
 
 ---
 
-## Activity 1: H&L Human Services Cluster Tour (12 min)
+## Activity 1: Exploring the World of Human Services (12 min)
 
-**Source:** H&L Workbook Ch 11: Human Services, pp. 175-176, "Exploring the World of Human Services"
+**Source:** (FYF p. 127: "Exploring the World of HUMAN SERVICES") and (FYF p. 138: "App Exploration")
 
-Direct students to open Hats & Ladders and navigate to the Human Services cluster. Project the cluster page and walk through the pathways. The H&L workbook (Ch 11) covers Personal Care Services and Health & Wellness pathways:
+Open the workbook to page 127. Read the chapter opener together: Human Services careers help people improve their daily lives and overall well-being. Some of these careers focus on personal care and self-expression; others help people navigate challenges, build relationships, or reach important resources. Point to the three Hats printed on the opener page, **Hair Stylist**, **Recreational Therapist**, and **Aesthetician**, and ask the page's own question: how do you think these roles help people in different ways?
 
-- **Cosmetology & Personal Care Services:** Cosmetologist, Barber, Esthetician, Nail Technician, Massage Therapist
-- **Health & Wellness:** Health Educator, Recreational Therapist, Community Outreach Worker, Personal Trainer
+**Be the Decision Maker (FYF p. 127):** Students imagine opening a brand new salon and wellness studio built to help people feel confident before a big event. What would the business be called, and what special service would make people want to come? Take three names out loud and hold onto them; students design the business side of this idea on Day 4.
 
-> [H&L PLATFORM] The workbook (Ch 11, p. 176) instructs: "Go to the Hats & Ladders app and click on the 'Human Services' Cluster. Spend 15 minutes exploring the cluster and pathways." Students click the cluster, browse the Hat Finder, and pick 1-2 careers to skim before moving to the Stress Toolkit activity.
+> [H&L PLATFORM] The App Exploration page walks students through the cluster in order: open the Hats & Ladders app, go to Clusters, click the Human Services Cluster, watch the "Cluster Tour" video, play "Game Time," find 1 Hat that matches their personality or interests and 1 Hat that does not fit, open "Pathway Possibilities" and answer the questions, then explore and rate at least 1 pathway and at least 3 Hats. Students write their answers in the boxes on page 138.
+
+**Stop and Jot:** Name all four write boxes on page 138 before students open the app. Give 45 seconds per box with the prompt on screen and post two stems: "This Hat fits me because I like _____" and "This Hat is not a fit because it asks me to _____ all day." Read jots over shoulders while students work.
 
 !!! tip "Facilitation Tip"
-    Some students will assume cosmetology is "just hair." Reframe: cosmetology includes color theory, chemistry (dye, perms), business management, customer psychology, and entrepreneurship. It is one of the most diverse skill sets in the personal care world.
+    Some students will assume cosmetology is "just hair." Reframe: cosmetology includes color theory, chemistry (dye, perms), business management, customer psychology, and entrepreneurship. It is one of the most diverse skill sets in the personal care world, and special effects makeup sits on the same skill tree.
 
 ---
 
-## Activity 2: H&L "Stress Toolkit" — Choose Techniques (10 min)
+## Activity 2: Special Effects Makeup, Step 1 Research (10 min)
 
-**Source:** H&L Workbook Ch 11, pp. 177-178, "Stress Toolkit" (Career Climb activity)
+**Source:** (FYF p. 128: "Special Effects Makeup", Step 1)
 
-Read aloud the workbook background (Ch 11, p. 177): Stress is a normal part of life, but too much stress can be very harmful. It affects mood, health, and focus. Students play the role of the **Health and Wellness Coordinator** for their community. The mayor has assigned them to create a series of social media posts that teach people about stress management tools.
+Read the workbook's scenario aloud (p. 128). Students are part of a special effects team on a fantasy film. In one scene a character discovers an ancient artifact buried underground, and the moment they touch it their skin shifts, cracks, and transforms into something not human. The director wants the change to feel real and alive. Over the next three days students design that transformation, build it, and then evaluate it the way a working artist does.
 
-Project the workbook chart of stress management techniques (Ch 11, p. 177):
+The workbook tells students to find a partner for the research step. Pairs research and record answers to three questions on page 128:
 
-| Stress Management Tool | How It Helps |
+- What is a prosthetic in makeup, and how is it used?
+- Why is texture important when creating realistic skin effects?
+- How does layering help make effects look more natural?
+
+Post one question at a time. Hold a silent 30 second think, then give Partner A 30 seconds and Partner B 30 seconds before anyone writes. Two pairs share each question with the class. Pick your share-out pairs from what you heard while circulating, not from raised hands.
+
+**DOK 2:** How would you summarize the difference between makeup that changes how someone looks and makeup that changes what someone IS in a scene?
+
+---
+
+## Activity 3: Build Your Concept Card (20 min)
+
+**Source:** (FYF p. 129: "Special Effects Makeup", Step 2)
+
+Project the workbook's **Style Guide** (p. 129) and read the four texture families with students:
+
+| Texture | What it looks like |
 |---|---|
-| Deep breathing exercises | Helps slow your heart rate and calm your mind |
-| Journaling | Allows you to express emotions and reduce anxiety |
-| Listening to music | Can improve mood and help with relaxation |
-| Exercise | Releases stress and improves overall health |
-| Talking to a friend or mentor | Provides support and helps process emotions |
-| Creative activities (drawing, coloring, crafting) | Helps focus the mind and relieve tension |
+| Smooth/Scaled | Overlapping, repeating patterns like a snake or a fish |
+| Rough/Cracked | Uneven, broken surfaces like dried mud or a brick wall |
+| Layered/Wrinkled | Folded, wrinkly, organic textures like tree bark or an old mummy |
+| Rock/Geode | Hard, grainy, sparkly surfaces like a crystal cave |
 
-Each student picks **3 techniques** from the chart (or researches additional ones). They will design one social media post for each.
+Then project the workbook's **supply table** (p. 129) so students choose materials with the texture in mind, not at random:
 
----
+| Supply | What it is used for |
+|---|---|
+| Liquid latex or eyelash glue | Skin-safe adhesive to attach materials |
+| Tissue paper or paper towels | Wrinkles, skin texture, and blending edges |
+| Pumpkin or sunflower seeds | Scale-like textures |
+| Dry pasta or lentils | Rough, cracked, or barnacle textures |
+| Coarse salt | Rock or geode textures |
+| Tweezers | Placing small materials precisely |
+| Paint (for materials only) | Adding color before the materials go on |
 
-## Activity 3: Design 3 Social Media Posts (20 min)
+Students fill in the Concept Card on page 129 with all five fields: **Character Description**, **Textures**, **Materials**, **Color Palette**, and a **sketch** of the concept. The sketch is the plan they build from tomorrow, so it needs to show where each texture sits on the face or arm, not just what the creature looks like.
 
-**Source:** H&L Workbook Ch 11, p. 178, "Step 2: Create Social Media Posts"
-
-Students design 3 social media posts using either the workbook templates (Ch 11, p. 178) or Canva. Each post must include:
-
-- **A catchy title or headline** (e.g., "BREATHE. RESET. REPEAT.")
-- **A brief explanation** of the stress management tool (1-2 sentences)
-- **A fun fact, tip, or personal encouragement** (1 sentence)
-- **An eye-catching element** (logo, drawing, or graphic)
-- **At least one hashtag** (e.g., #StressFreeWeek)
-
-Walk around and check that students are designing 3 DIFFERENT posts (not 3 copies of the same one). Each post should teach a different technique.
-
-After designing, students do the workbook discussion (Ch 11, p. 178): pair up, trade posts, and discuss:
-
-- Which post is most effective? Why?
-- How can you use one of these techniques in your own life?
-
-**DOK 2:** Why are stress management techniques important specifically for cosmetology professionals? (Hint: cosmetologists stand for hours, work with chemicals, deal with difficult clients, and manage their own schedules.)
+Circulate and check two things before the period ends: every Concept Card names a texture from the Style Guide, and every materials list actually produces that texture. A card that says "scaled" but lists coarse salt will not build.
 
 !!! tip "Facilitation Tip"
-    Many students will pick "exercise" because it's familiar. Push them: pick at least one technique that's NEW to you. Journaling and creative activities are often dismissed by students who haven't tried them, but they are some of the most effective.
+    Students often pick every texture at once and end up with a design that reads as clutter on camera. Hold them to one primary texture and at most one secondary. The Day 2 extra-time step is where a second texture gets added, and only after the first one works.
 
 ---
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/3sw-wk5-day1-human-services-cluster-stress-toolkit.pdf):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/3sw-wk5-day1-human-services-cluster-special-effects-makeup-concept.pdf):
 
-Pick TWO Human Services careers you explored today (from the cluster tour). Fill in the matrix below using what you read in Hats & Ladders.
+Pick TWO Human Services careers you rated in the app today. Fill in the matrix below using what you read in Hats & Ladders.
 
 | | Career 1: _______________ | Career 2: _______________ |
 |---|---|---|
@@ -101,6 +108,6 @@ Bottom line: Which of your two careers fits a student who wants creative, client
 
 ## Differentiation
 
-- **Support:** Pre-printed post template with the headline already styled and 3 boxes (one per element). Students fill in the text and one drawing per post.
-- **Extension:** Build the 3 posts in Canva using real social media templates (Instagram square, Instagram story, Twitter/X post). Match the format to the platform.
-- **ELL:** Pre-teach: Stress = Estrés, Wellness = Bienestar, Breathing = Respiración, Exercise = Ejercicio. The posts can be in English, Spanish, or bilingual, many community wellness campaigns in Texas are bilingual.
+- **Support:** Concept Card with the Character Description line and one Style Guide texture already filled in, so the student starts at materials and color. Provide a Stop and Jot template with the App Exploration stems already printed.
+- **Extension:** Students who finish the Concept Card early find a real film or show that used the texture family they chose and write two sentences on how the artists pulled it off.
+- **ELL:** Pre-teach: Texture = Textura, Layer = Capa, Scale = Escama, Crack = Grieta, Glue = Pegamento. Project a photo for each of the four Style Guide textures (snake scales, dried mud, tree bark, crystal cave) so the vocabulary lands visually before students choose. H&L supports browser translation for the cluster tour.

@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Read the H&L Pest Patrol scenario; analyze 3 sets of field notes from a Plant Scientist, a Farmer, and an Engineer; identify the design constraints for the drone |
+| **Objectives** | Read the "Ag-Tech Pest Patrol" scenario; analyze 3 sets of field notes from an Ag Engineer, a Farmer, and a Plant Scientist; identify the design constraints for the drone |
 | **TEKS** | d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explore: Three sets of field notes · Explain: Engineering constraints list · Evaluate: Exit Ticket |
 | **Deliverable** | Field notes summary worksheet (key findings from each of the 3 sets) |
-| **Materials** | H&L Workbook Ch 2, pp. 28-32; printed Field Notes packet (3 sets); printed summary worksheet; projector |
+| **Materials** | *Find Your Future* workbook pp. 93-94; printed summary worksheet; highlighters; projector |
 
 ---
 
@@ -22,51 +23,51 @@ Take 3-4 student responses. The class should land on something like drones, came
 
 ## Activity 1: Set the Scenario (8 min)
 
-**Source:** H&L Workbook Ch 2, pp. 28-29, "Ag-Tech Pest Patrol" Background and Project Goal
+**Source:** (FYF p. 93: "Ag-Tech Pest Patrol"), the activity opener
 
-Read aloud the workbook background (Ch 2, p. 28): A Texas tomato farmer is losing crops to pests. Walking the field by hand is slow and tiring. Heavy pesticide use harms the environment. The farmer needs a way to spot pests early before they spread.
+Open the workbook to page 93 and read the opener together: a farmer is managing a large, complex farm through a growing season when pests start attacking and ruining the harvest. Fewer crops means less profit. Farmers need a way to spot pests early, before the damage is done.
 
-Project the **Project Goal** from the workbook (p. 28):
+The workbook then hands students the job (p. 93): step into the role of an agriculture engineer and design a drone that helps farmers find pests early. The drone flies over the fields, takes pictures, and uses sensors to find where pests are hiding and doing damage.
 
-> Design a drone that helps farmers detect pests early. The drone will fly over fields, take pictures, and use sensors to find out where pests are hiding and causing damage. With this information, farmers can act quickly and save their crops.
-
-Frame the activity for students: this is a real engineering problem. Real ag drones from companies like DJI and Hylio do exactly this work for Texas farms today. Students will design their own version this week.
+Frame the activity for students: this is a real engineering problem. Real ag drones from companies like DJI and Hylio do exactly this work for Texas farms today. Students will design their own version this week. The farm in the field notes is Green Valley Farms, 50 acres of tomatoes.
 
 ---
 
 ## Activity 2: Read the 3 Sets of Field Notes (25 min)
 
-**Source:** H&L Workbook Ch 2, pp. 29-31, Field Notes from Plant Scientist (Set 1), Farmer (Set 2), and Engineer (Set 3)
+**Source:** (FYF pp. 93-94: "Ag-Tech Pest Patrol", Step 1: Read Field Notes)
 
-Distribute the printed Field Notes packet, three separate sets of notes from three different perspectives on the SAME tomato farm. Each set has different information the drone designer needs.
+The workbook's Step 1 has the class read the field notes together, circle or highlight key information, and discuss what each professional adds to the design. Three sets, three different views of the SAME tomato farm, each carrying information the drone designer needs.
 
-**Set 1: Field Notes from Evelyn Carter, Plant Scientist** (Ch 2, p. 29)
-- Records what kinds of pests appeared each week (flea beetles, spider mites, tomato hornworms)
-- Notes how the damage progressed over 3 weeks
-- Identifies tiny white eggs, fine webbing, and curled leaves as pest indicators
+**Chunking:** read one set at a time in the order the workbook prints them, hold a one minute discussion after each, and fill that source's row on the summary worksheet before opening the next set. Plan 4-6 minutes per set.
 
-**Set 2: Field Notes from Dale Jimenez, Farmer** (Ch 2, p. 30)
-- Reports the FRUSTRATION of walking the rows by hand
-- Notes that hornworms blend in too well to spot easily
-- Mentions interest in beneficial insects (ladybugs) but lack of time to research
-- Notes equipment maintenance and other tasks competing for attention
+**Field Notes from Rowan Lindstrum, Ag Engineer** (FYF p. 93)
+- Farm Overview: tomatoes on a 50-acre farm, too large for the farmer to check every plant by hand
+- Weather: sunny, warm, and windy
+- Pest Challenges: flea beetles, spider mites, and tomato hornworms; sticky leaves, holes, and eaten fruit; most pests coming from the woods on the east side
+- Current Control: the farmer sprays chemicals everywhere, but targeted spraying would be far better for the environment
+- Drone Design Needs: high-quality cameras such as thermal or heat sensors, the ability to fly straight and steady in 15-20 mph winds and handle Texas heat, and a mapping system or app that tells the farmer exactly where the worst pest spots are
 
-**Set 3: Field Notes from Rowan Lindstrum, Engineer** (Ch 2, p. 31)
-- Lists the FARM SIZE (50 acres), row spacing (4 ft apart), and irrigation type
-- Reports environmental conditions: temperature 75-95°F, wind 5-20 mph, humidity 30-50%
-- Lists pest spread patterns (eastern rows near wooded area)
-- Lists engineering considerations: high-resolution imaging, multispectral sensors, flight stability for windy conditions
+**Field Notes from Dale Jimenez, Farmer** (FYF p. 94), a dated log across 3 weeks
+- May 6 and May 9: lower leaves curling, a few hornworms found, and they blend in too well to pick off by hand
+- May 13 and May 16: pests spreading, no way to check every leaf, wishes for an automated way to check so he does not have to walk every row
+- May 20 and May 23: tomatoes ripening and birds arriving, too busy fixing broken equipment and fences to check the tomatoes properly
 
-Students read each set silently (plan 4–6 minutes per set, slower readers can skim Set 3 using the bullets above as a guide and still complete the summary). Students may start filling in the Field Notes Summary worksheet as they read rather than only after:
+**Field Notes from Evelyn Carter, Plant Scientist** (FYF p. 94), the same 3 weeks
+- May 6 and May 9: healthy plants at first, then small holes on leaves and tiny white eggs underneath
+- May 14 and May 17: more holes, a flea beetle spotted, leaves curling with fine webs, flowers falling off
+- May 20 and May 23: tiny green caterpillars (tomato hornworms) eating leaves, holes on green tomatoes, spider mites confirmed
+
+Students highlight in the workbook as they read, then fill the Field Notes Summary worksheet:
 
 | Source | Top 3 Facts | What the Drone Must Do Because of This |
 |---|---|---|
-| Plant Scientist (Set 1) | | |
-| Farmer (Set 2) | | |
-| Engineer (Set 3) | | |
+| Ag Engineer | | |
+| Farmer | | |
+| Plant Scientist | | |
 
 !!! tip "Facilitation Tip"
-    Reading 3 sets of field notes is a lot for 6th-7th graders. Break it up: read Set 1 → discuss as a class for 1 minute → read Set 2 → discuss → read Set 3 → discuss. This jigsaw-style chunking keeps comprehension high.
+    Read the Ag Engineer's set first even though the other two are the story. It is the only set that states the farm size, the wind speed, and what the drone actually has to carry, so students who fall behind on the dated logs still have the numbers they need for the constraints list. The Farmer and Plant Scientist sets sit side by side on page 94 and describe the same three weeks from two jobs, which is the comparison the workbook's Step 1 discussion is after.
 
 ---
 
@@ -77,15 +78,16 @@ After the summary, students translate the field notes into an **Engineering Cons
 Examples of constraints students should identify:
 
 - Must fly over a 50-acre field (so it needs long flight time and battery range)
-- Must handle Texas wind (5-20 mph, sometimes higher)
-- Must operate in temperatures up to 95°F
-- Must detect tiny pests like flea beetles and spider mites (so it needs a high-resolution camera)
-- Must spot heat or color differences in plants (so it needs multispectral imaging)
-- Must alert the farmer where the pests are (so it needs mapping software or an app)
+- Must fly straight and steady in 15-20 mph wind
+- Must handle Texas heat
+- Must detect tiny pests like flea beetles and spider mites (so it needs a high-quality camera)
+- Must spot heat or color differences in plants (so it needs thermal or heat sensors)
+- Must alert the farmer where the pests are (so it needs a mapping system or an app)
+- Must find the worst spots precisely enough that the farmer can spray only there instead of spraying the whole field
 
 Students write the constraints in a numbered list on the back of the summary sheet. Tomorrow they will design a drone that meets these constraints.
 
-**DOK 3:** Why is reading the engineer's field notes (Set 3) different from reading the farmer's notes (Set 2)? What does each professional bring to the project?
+**DOK 3:** Why is reading the Ag Engineer's field notes different from reading the Farmer's notes? What does each professional bring to the project?
 
 ---
 
@@ -96,17 +98,17 @@ Students write the constraints in a numbered list on the back of the summary she
 Rank these 4 drone constraints (from your Day 2 list) by IMPORTANCE for the Texas tomato farm, 1 = most important, 4 = least.
 
 - Long battery life (must cover 50 acres): rank ____
-- Handle Texas wind (5-20 mph): rank ____
-- Detect tiny pests (high-resolution or multispectral camera): rank ____
+- Fly steady in Texas wind (15-20 mph): rank ____
+- Detect tiny pests (high-quality or thermal camera): rank ____
 - Send data to farmer's phone/app: rank ____
 
-For EACH rank, write ONE specific sentence from the field notes (Set 1 / Set 2 / Set 3) that backs it.
+For EACH rank, write ONE specific sentence from the field notes (Ag Engineer / Farmer / Plant Scientist) that backs it.
 
 - Rank 1 (most important): _______________________________________________________
 
 - Rank 4 (least critical but still needed): _______________________________________________________
 
-Bottom line: WHICH field-note writer (Plant Scientist / Farmer / Engineer) did I use MOST to decide my rankings, and why? *(d(1)(C))*
+Bottom line: WHICH field notes writer (Ag Engineer / Farmer / Plant Scientist) did I use MOST to decide my rankings, and why? *(d(1)(C))*
 
    ___________________________________________________________________
 
@@ -114,6 +116,6 @@ Bottom line: WHICH field-note writer (Plant Scientist / Farmer / Engineer) did I
 
 ## Differentiation
 
-- **Support:** Pre-fill the summary worksheet with 1 fact in each row as a model. Highlight the key sentences in the field notes packet for students who need help finding them.
+- **Support:** Pre-fill the summary worksheet with 1 fact in each row as a model. Pre-highlight the key sentences on workbook pages 93 and 94 for students who need help finding them.
 - **Extension:** Add a 4th constraint of your own, something the field notes hint at but don't say outright (e.g., "must not damage the tomato plants if it lands accidentally").
-- **ELL:** Pre-teach: Field Notes = Notas de Campo, Constraint = Limitación, Pest = Plaga, Sensor = Sensor. Provide the field notes packet with key vocabulary highlighted in both languages.
+- **ELL:** Pre-teach: Field Notes = Notas de Campo, Constraint = Limitación, Pest = Plaga, Sensor = Sensor. The workbook reads above grade level, so read the Ag Engineer's set aloud and provide the summary worksheet with key vocabulary in both languages.

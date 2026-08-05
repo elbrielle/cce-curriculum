@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Apply critical thinking and public-service mindset by designing a 10-item emergency kit for a specific disaster scenario; explain why each item is essential |
 | **TEKS** | d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explore: Scenario choice, 10-item selection, and kit design · Explain: Partner share and class discussion · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Emergency Kit design (10 items selected, drawn or labeled, with rationale for top 3 items) |
-| **Materials** | Chromebooks, H&L Workbook Ch 13 (pp. 210-212), printed Emergency Kit Design worksheet (or blank paper), projector |
+| **Materials** | Chromebooks, *Find Your Future* workbook pp. 50-51, printed Emergency Kit Design worksheet (or blank paper), projector |
 
 ---
 
@@ -22,13 +23,13 @@ Take 3-4 student responses. Most students will name comfort items (phone, charge
 
 ## Activity 1: Emergency Essentials — Choose a Kit (10 min)
 
-**Source:** H&L Workbook Ch 13, pp. 210-211, "Emergency Essentials: Kit Design" (Career Climb)
+**Source:** (FYF pp. 50-51: "Emergency Essentials: Kit Design"), a Career Climb activity
 
-Introduce the activity by reading the workbook scenario aloud: *"Imagine you are a firefighter who works for your local fire department and you need to create an emergency kit that citizens can use. This kit is designed to help people during an emergency, and you will need to choose the right items to put in your kit."*
+Introduce the activity by reading the workbook scenario aloud: *"Imagine you are a firefighter who works for your local fire department and you need to create an emergency kit that citizens can use. This kit is designed to help people during an emergency, and you will need to choose the right items to put in your kit. You can only fit 10 items in your kit, so think critically about which ones are really essential."*
 
-Connect this to the Law cluster: emergency services (Fire Science, Law Enforcement) sit inside the Law cluster, and these careers require the same critical thinking that lawyers and detectives use, just in a different context.
+Connect this to the cluster: firefighters, police officers, and paramedics sit in Law and Public Safety alongside the courtroom careers, and the workbook's framing is that they never show up unprepared. These careers require the same critical thinking that lawyers and investigators use, just under a stopwatch.
 
-**Step 1: Each student chooses ONE emergency scenario** (workbook p. 210):
+**Step 1: Each student chooses ONE emergency scenario** (FYF p. 50):
 
 - **Earthquake Survival Kit:** for a home that could be affected by a large earthquake
 - **Fire Kit:** for a home that has caught fire and needs to evacuate quickly
@@ -41,17 +42,17 @@ Connect this to the Law cluster: emergency services (Fire Science, Law Enforceme
 
 ## Activity 2: Select 10 Items + Justify Choices (25 min)
 
-**Source:** H&L Workbook Ch 13, pp. 211, Item list and design step
+**Source:** (FYF pp. 50-51: "Emergency Essentials: Kit Design", Steps 2-3)
 
-Students review the workbook's item list (p. 211). They must choose **exactly 10 items** for their scenario from the workbook list (or add their own). The workbook list includes:
+**Step 2: Select Your Emergency Tools.** Students review the workbook's 24-item list (FYF p. 50) and choose **exactly 10 items** for their scenario. The list is:
 
-- Flashlight, Bottles of Water, Map, Multi-tool, Dust Mask, Solar Phone Charger, First Aid Kit, Gloves, Pry Bar, Strobe Light, Portable Water Filter, Emergency Flare, Can Opener, Rope, Tent, Change of Clothes, Blankets, Non-perishable food, Whistle, Compass, Duct Tape, Batteries, Matches, Pen/Marker
+- Flashlight, Nonperishable food, Bottles of Water, Whistle, Blankets, Map, Compass, Multi-tool, Duct Tape, Dust Mask, Batteries, Solar Phone Charger, First Aid Kit, Matches, Gloves, Pen/Marker, Pry Bar, Strobe Light, Portable Water Filter, Emergency Flare, Can Opener, Rope, Tent, Change of Clothes
 
-Students then complete **Step 3: Design Your Kit** (workbook p. 211):
+**Step 3: Design Your Kit** (FYF p. 51). The workbook reminds students that people may need to grab the kit quickly, so the design has to be readable at a glance:
 
-- Draw the kit using symbols or sketches (or use a digital tool like Google Drawings or Canva)
-- Label each item
-- Write a 1-sentence explanation for the **top 3 items:** why is this item essential for the chosen emergency?
+- Draw the items, or use symbols to represent them (or use a digital tool like Google Drawings or Canva)
+- Label each one
+- Explain why each item is important for the emergency being prepared for, in a full sentence for the **top 3 items**
 
 Students should do quick research (5 min cap) on their scenario to verify their choices. For example, a Flood Response Kit needs water purification because tap water becomes contaminated; a Fire Kit needs a dust mask because smoke inhalation is a top hazard.
 
@@ -64,15 +65,17 @@ Students should do quick research (5 min cap) on their scenario to verify their 
 
 ## Activity 3: Pair Discussion (8 min)
 
-**Source:** H&L Workbook Ch 13, p. 212, Discussion step
+**Source:** (FYF p. 51: "Emergency Essentials: Kit Design", Step 4 and Class Discussion)
 
-Students pair up (with a partner who chose a different scenario if possible) and ask each other the workbook discussion questions:
+**Step 4: Share Your Design.** Students pair up (with a partner who chose a different scenario if possible) and ask each other the workbook's questions:
 
 - *"What scenario did you choose?"*
 - *"What items did you choose for your kit and why? What item do you think is the most essential for your kit?"*
 - *"Is there anything about your kit that you would want to change if you had more time?"*
 
 Each partner takes notes on one improvement they would make based on the conversation.
+
+**Class Discussion.** Close with the workbook's own three prompts (FYF p. 51): what kinds of people would enjoy careers that involve emergency response, and why? Why do emergency workers need to make fast decisions in stressful situations? Which emergency scenario would be the hardest to prepare for, and why?
 
 ---
 

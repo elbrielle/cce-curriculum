@@ -1,14 +1,15 @@
-# Day 5: Lifestyle Snapshot Personal Budget + Xello Save Careers
+# Day 5: Personal Budget + Xello Save Careers
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the H&L "Lifestyle Snapshot" personal budget activity (Ch 16, p. 269); use Xello to save favorite careers from this six weeks; reflect on the entire 3rd Six Weeks |
+| **Objectives** | Finish the Business cluster App Exploration page and pick the career whose salary drives your budget; build a personal budget on DFW cost-of-living data; use Xello to save favorite careers from this six weeks; reflect on the entire 3rd Six Weeks |
 | **TEKS** | d(3)(I), d(5)(D) |
+| **5E Phases** | Engage: Warm-Up · Explore: Pathway Possibilities and the salary number · Extend: Personal budget build · Explain: Xello save and 3SW reflection · Evaluate: Exit Ticket |
 | **Deliverable** | Completed personal budget worksheet + Xello Save Careers entries + 3SW capstone reflection paragraph |
-| **Materials** | Chromebooks, Xello accounts, H&L Workbook Ch 16 (p. 269), printed Personal Budget worksheet with DFW cost-of-living data, projector |
+| **Materials** | Chromebooks, H&L accounts, Xello accounts, *Find Your Future* workbook p. 254, printed Personal Budget worksheet with DFW cost-of-living data, projector |
 
 ---
 
@@ -20,20 +21,17 @@ Take 4-5 student responses. Capture the categories (rent, car, food, phone, savi
 
 ---
 
-## Activity 1: H&L Lifestyle Snapshot Intro (10 min)
+## Activity 1: Pathway Possibilities and Your Salary Number (10 min)
 
-**Source:** H&L Workbook Ch 16, p. 269, "Lifestyle Snapshot"
+**Source:** (FYF p. 254: "App Exploration")
 
-Read aloud the workbook background (Ch 16, p. 269): As students work on a career plan, they also need to think about their future lifestyle and budget. The workbook prompts these questions:
+Four lifestyle questions frame the budget, and they sit at the top of the CCE budget worksheet: what kind of lifestyle do I want as an adult, where do I want to live and work, what will I want to buy, and what savings goals will I have? Put them on the board while students finish the App Exploration page they started on Day 1.
 
-- What type of lifestyle do I want when I am an adult?
-- Where do I want to live and work?
-- What things will I want to buy?
-- What savings goals will I have?
+> [H&L PLATFORM] Open the Hats & Ladders app, go to Clusters, click the Business, Marketing, and Finance Cluster, click "Pathway Possibilities" and answer the questions, then rate at least 1 pathway and at least 3 Hats. Students record their answers on page 254.
 
-Project an example budget on the screen. Show how a $50,000/year salary breaks down to about $4,166/month BEFORE taxes, and roughly $3,200 AFTER taxes in Texas (no state income tax helps).
+Each student then picks ONE career to budget on. It can be a Hat they rated today or any career they favorited during this six weeks, and they pull its DFW salary from the app. That number runs the whole budget.
 
-> [H&L PLATFORM] The workbook (Ch 16, p. 269) directs students to "use the template provided by your teacher to plan and track your future finances." Students may also reference their Career Plan in the H&L app to remind themselves which career they were planning toward earlier in the year.
+Project the conversion once so every student uses the same method: a $50,000 salary is about $4,166 a month before taxes, and roughly $3,200 a month after taxes in Texas, where there is no state income tax.
 
 !!! tip "Facilitation Tip"
     Students always overestimate how much they'll have left after rent. Show them: in Irving, a 1-bedroom apartment is $1,200-$1,600/month. That's 30-40% of a $50K salary. The first lesson of budgeting is that rent eats more than you expect.
@@ -42,7 +40,7 @@ Project an example budget on the screen. Show how a $50,000/year salary breaks d
 
 ## Activity 2: Build Your Personal Budget (20 min)
 
-Distribute the Personal Budget worksheet with DFW cost-of-living data already loaded. Each student picks ONE career they favorited in H&L this six weeks and uses its salary to build their budget.
+Distribute the Personal Budget worksheet with DFW cost-of-living data already loaded. Each student builds the budget on the salary they pulled in Activity 1.
 
 The budget worksheet has these categories:
 
@@ -79,6 +77,8 @@ Direct students to open Xello and save 2-3 careers from this six weeks to their 
 
 > [VERIFY IN Xello] Confirm with your district that the Save Careers task is enabled. If not, students log saved careers in their notebook for later transfer.
 
+Tell students where the saved career goes next: at mid-year they run a Career Deep Dive on their top career goal (FYF pp. 285-286: "Rung 3: Career Deep Dive"), researching the education and training it requires, its starting salary, the national average pay, and whether the field is growing. Today's saved list is the short list they will choose that goal from.
+
 After saving careers in Xello, students write a 3SW capstone reflection paragraph (5-7 sentences) in their notebook. The reflection covers:
 
 - The clusters explored this six weeks (Agriculture, Hospitality, Human Services, Business)
@@ -99,7 +99,7 @@ Sentence stems available for students who need them:
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/3sw-wk6-day5-lifestyle-snapshot-personal-budget-xello-save-careers.pdf):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/3sw-wk6-day5-personal-budget-xello-save-careers.pdf):
 
 My favorited career from this 3SW + the salary I used in today's budget: _______________________ ($_______________________/month take-home)
 

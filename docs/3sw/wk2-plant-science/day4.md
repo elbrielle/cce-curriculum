@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Research one emerging agriculture career using BLS and USDA resources; identify the technology and societal trend driving the career's growth; complete a research template |
 | **TEKS** | d(1)(D) |
+| **5E Phases** | Engage: Warm-Up · Explain: What is an emerging career · Explore: BLS and USDA research · Explain: Paired template trade · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Emerging Ag Career Research template (one career, fully filled in) |
 | **Materials** | Chromebooks, BLS Career Outlook tabs, USDA Careers page, printed Emerging Career Research template, projector |
 
@@ -31,7 +32,7 @@ Walk through 4 examples in agriculture that didn't exist (or were tiny) in the y
 - **Agricultural Drone Operator:** flies drones over fields to detect pests, monitor crop health, and apply targeted spray
 - **Precision Agriculture Technician:** uses GPS, soil sensors, and data software to help farmers maximize yields with minimum waste
 - **Vertical Farming Manager:** runs urban indoor farms that grow leafy greens in stacked trays under LED lights
-- **Hydroponic Specialist:** grows plants in nutrient-rich water without soil, used in cities and even on the International Space Station
+- **Hydroponic Specialist:** grows plants in nutrient-rich water without soil, used in cities and even on the International Space Station. Students already worked a day in this job on Day 1, diagnosing the failing lettuce section in "Grow System Rescue"
 
 Each of these is part of a real H&L Hat or BLS career profile. Students will pick ONE for today's research.
 
@@ -59,6 +60,8 @@ The research template has these fields:
 - **Technology Used:** (drones, GPS, sensors, software, etc.)
 - **What Societal/Tech Trend Drives This Career?:** (e.g., climate change, urban food deserts, labor shortages on farms)
 - **One Real Employer Hiring This Role:** (find from a job board search)
+
+**Time, Voice, Body:** Post the three blocks before anyone opens a browser tab. Voice 0 for the research block, a visible countdown on screen, and finished templates go face up on the corner of the desk so the trade in Activity 3 starts without a hunt.
 
 Walk around and help students who get lost on the BLS site. The most helpful trick: search "Agricultural" in the BLS search bar and pick the closest matching career.
 

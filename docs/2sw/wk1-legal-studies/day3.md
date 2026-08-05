@@ -1,103 +1,135 @@
-# Day 3: iCivics — Justice in Action
+# Day 3: City Council in Action — Draft the Town Laws
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Experience the legal system through an interactive simulation; identify the communication and reasoning skills required of legal professionals |
+| **Objectives** | Describe what a city council member does; design a town and scan it for problems; draft two ordinances that are clear, fair, and realistic; peer-review a partner's laws and revise one |
 | **TEKS** | d(1)(C) |
-| **Deliverable** | iCivics game completion screen (screenshot) + 3-sentence reflection on which legal career was most active in the game |
-| **Materials** | Chromebooks, iCivics free games ([icivics.org](https://www.icivics.org)), projector, printed reflection slip |
+| **5E Phases** | Engage: Warm-Up · Explain: City council role and ordinance rules · Explore: Town design, problem scan, and law drafting · Evaluate: Peer review of laws and Exit Ticket |
+| **Deliverable** | Town plan + completed problem table + two drafted laws (what, why, consequence) + one revised law |
+| **Materials** | *Find Your Future* workbook pp. 40-43, blank or chart paper for the town plan, colored pencils, projector, printed vocabulary card |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: What does "innocent until proven guilty" mean? Why do you think this rule exists in the U.S. legal system?**
+**WARM-UP: Name one rule in your neighborhood or your city that you would change, and one you would add. Who actually gets to make that decision?**
 
-Take 2-3 responses. Most students will know the phrase but not the reason. Bridge: this principle protects people from being punished without evidence, and today's iCivics game makes students experience why evidence matters.
+Take 2-3 responses. Most students will say "the mayor" or "the police." Bridge: the people who write most of the rules you live under are city council members, and today every student gets that job for a town that does not exist yet.
 
 ---
 
-## Activity 1: iCivics Setup + Game Selection (7 min)
+## Activity 1: Learn About the Role (7 min)
 
-Open the lesson by introducing iCivics. iCivics was founded by retired Supreme Court Justice Sandra Day O'Connor specifically to teach students how the legal system works through games. The games are free, browser-based, and used in classrooms across the country.
+**Source:** (FYF p. 40: "City Council in Action", Step 1)
 
-Project [icivics.org/games](https://www.icivics.org/games) and walk students through the recommended game options. Pick ONE game for the whole class so the discussion is shared, OR let students choose from a curated list of 2-3.
+Open the workbook to page 40. City council members are elected leaders who make decisions for their town or city. One of their main jobs is creating and voting on local laws, called **ordinances**. Read the workbook's three example decisions aloud and ask the class to guess which way a council would vote on each:
 
-**Recommended games for this lesson** (all free):
+- **Community spaces:** Can the new skatepark stay open until 10 PM, or does it have to close at sunset?
+- **Public safety:** What is the speed limit in front of the middle school? Are electric scooters allowed on the sidewalks?
+- **Business rules:** Where are food trucks allowed to park, and what kind of permits do they need?
 
-- **Do I Have a Right?:** Students run a law firm, accept clients with constitutional cases, and decide which cases to take. Best fit for the Legal Services pathway.
-- **Argument Wars:** Students argue famous Supreme Court cases using evidence cards. Best for students who want a debate-style game.
-- **Counties Work:** Students manage a county government and respond to citizen issues. Good for the Government and Public Administration pathway.
+The workbook makes the point that council members do not guess what people want. They hold public meetings and listen: residents complaining about dangerous potholes, students asking for a new basketball court. Then they debate and solve.
 
-Walk students through how to load the game on a Chromebook (no account required for most games). Before releasing students to play, pre-teach three terms in 60 seconds, **probable cause**, **due process**, and **evidence:** using the vocabulary list from the overview. All three show up inside the games and students get stuck on them without the pre-teach.
+Post the workbook's three tests for a strong law where students can see them all period. A strong law is **clear** so people understand it, **fair** so it applies equally to everyone, and **realistic** so it can actually be enforced.
+
+Pre-teach three legal terms in 60 seconds using the vocabulary list from the overview: **ordinance**, which students use today; **due process** and **probable cause**, which return in tomorrow's legal review. Students write all three on a vocabulary card they keep for Day 4.
 
 !!! tip "Facilitation Tip"
-    Test the chosen game on a Chromebook before class. Some iCivics games require Flash workarounds or HTML5 fallbacks. "Do I Have a Right?" has the most reliable HTML5 version as of recent updates.
+    The skatepark hours question is the fastest way to get a real debate started, because students will split on it immediately. Let the split happen for 30 seconds, then name what just occurred: that argument is what a council meeting sounds like, and the three tests are how it gets settled.
 
 ---
 
-## Activity 2: iCivics Gameplay (30 min)
+## Activity 2: Design Your Town, Find the Problems, Write the Laws (30 min)
 
-Students play the chosen game individually or in pairs (one navigates, one coaches and takes notes). The teacher circulates and watches for:
+**Source:** (FYF pp. 41-42: "City Council in Action", Steps 2-4)
 
-- Students who get stuck on legal vocabulary (probable cause, due process, evidence, witness)
-- Moments when a student says "Wait, that's not fair" — these are perfect debrief hooks
-- Engagement levels, flag students who finish early for the extension activity
+**Step 2: Design Your Town (10 min).** Students write or sketch a basic plan for their town on page 41 or on chart paper. The workbook asks six questions:
 
-While playing, students keep a sticky note or scratch paper with two columns:
+- What type of town is it? A busy city, a rural community, a beach town, a growing suburb?
+- What is the weather and climate? Humid rainforest, hot and dry desert, snowy mountains?
+- How do people get from one place to another? Public transportation, snowmobiles, cars, walkways?
+- What makes your town special?
+- What types of jobs are available?
+- What is the name of your town?
 
-- **Legal terms I learned**
-- **Decisions I made and why**
+**Step 3: Think Ahead, What Could Go Wrong? (8 min).** Students fill in the workbook's problem table (FYF p. 42) with at least one possible problem per row. The workbook's own examples: a snowy town has to keep the roads clear, and a beach town has to keep trash from building up on the sand.
 
-Stop the game with 5 minutes left so everyone has time to take a screenshot of their progress or completion screen.
+| Area | Possible Problems |
+|---|---|
+| Safety (crime, accidents, etc.) | |
+| Climate, Weather, and Environment | |
+| Transportation | |
+| Other (come up with your own idea) | |
 
-**DOK 3:** Based on your experience in the game, what conclusions can you draw about why communication skills are essential for legal professionals?
+**Step 4: Create Your Town Laws (12 min).** Students draft **two** ordinances that solve problems they just named. Each law answers the workbook's three questions on page 42:
+
+- What is the law?
+- Why is this law needed?
+- What happens if someone breaks the law?
+
+Every law gets checked against the three tests from Activity 1 before it counts as a draft.
+
+**Active Monitoring:** Walk the room three times, once per step. Lap 1 target: every town has a name, a climate, and a stated way people get around. Lap 2 target: all four rows of the problem table are filled. Lap 3 target: both laws carry a what, a why, and a consequence. Two misconceptions to have an answer ready for: a "law" written as a wish ("everyone should be nice at the skatepark") rather than a rule, and a consequence nobody could actually enforce. If most students miss the lap 2 target, stop and model one problem row on the projector rather than coaching desk by desk.
+
+**DOK 3:** Two of your laws could conflict with each other. Pick one law you wrote and name a group in your town it would be hardest on. Would you change the law, or keep it and explain why the cost is worth it?
+
+!!! tip "Facilitation Tip"
+    Students who cannot start the town plan almost always need one constraint instead of six questions. Give them the climate and let them build outward, because the climate generates the problems and the problems generate the laws. A town with no climate produces two laws about phones at school.
 
 ---
 
-## Activity 3: Whole-Class Debrief (5 min)
+## Activity 3: Review the Laws (5 min)
 
-After gameplay, lead a quick 5-minute debrief:
+**Source:** (FYF p. 43: "City Council in Action", Step 5 and Class Discussion)
 
-- Which legal career was most "active" in your game. Lawyer, Judge, Paralegal, or Witness?
-- What did you have to do that surprised you?
-- Was there a moment when the "easy" answer was wrong? What did you do?
+Council members review and improve proposed laws before anyone votes. Students trade drafts with a partner and take turns working the workbook's four review questions:
 
-Connect the gameplay back to the Hat Research template from Day 1. Students should now have a richer picture of what these careers actually do day-to-day.
+- Is the law clear and easy to understand?
+- Is the law fair for everyone in the town?
+- Does the law address the problem effectively?
+- Is anything unclear, missing, or unrealistic?
+
+Each student then uses the feedback to improve **one** law and records what changed on page 43.
+
+**Class Discussion.** Close with the workbook's prompts: what was the hardest part of writing laws that are fair and realistic for everyone? How did your partner's feedback change your idea? Which of your laws would be difficult to enforce in a real town, and why?
 
 ---
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/2sw-wk1-day3-icivics-justice-in-action.pdf):
+**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/2sw-wk1-day3-city-council-in-action-draft-the-town-laws.pdf):
 
-My iCivics role today (circle one or write your own): **Lawyer** / **Judge** / **County Manager** / other: _________________________
+The name of my town: _______________________
 
-My iCivics game scenario (one sentence): _______________________
+My Law #1, in one sentence: ___________________________________________________________________
 
-Step 1: In the game, what was the FIRST thing my role had to decide?
+Step 1: A resident breaks Law #1 for the first time. What does my law say happens?
 
    ___________________________________________________________________
 
-Step 2: Branch on evidence —
+Step 2: Branch on fairness.
 
-   IF I had STRONG evidence for my decision, what did I do next? ___________________________________________________________________
+   IF the resident did not know the law existed, what should the council do next? ___________________________________________________________________
 
-   IF I had WEAK evidence for my decision, what did I do next? ___________________________________________________________________
+   IF the resident knew the law and broke it anyway, what should the council do next? ___________________________________________________________________
 
-Step 3: One legal concept I learned today that I did not know before (probable cause, due process, evidence, witness, plaintiff, defendant, or other): _______________________
+Step 3: One legal or public safety career that would have to help enforce my law, and what that person would do:
+
+   Career: _______________________
+
+   What they do: ___________________________________________________
 
 *(d(1)(C))*
 
-Submit the screenshot of your completion screen with this ticket.
+Submit your town plan and both drafted laws with this ticket.
 
 ---
 
 ## Differentiation
 
-- **Support:** Pair gameplay, one student navigates, one coaches and takes notes. Provide a vocabulary cheat sheet with key terms (probable cause, evidence, witness, defendant, plaintiff).
-- **Extension:** Students who finish early play a SECOND iCivics game from the curated list and compare which game taught them more about legal careers. They write a 4-sentence comparison.
-- **ELL:** iCivics games are highly visual with on-screen text. Pair ESL students with bilingual peers. Pre-teach: Game = Juego, Court = Corte, Witness = Testigo, Evidence = Evidencia, Lawyer = Abogado.
+- **Support:** Provide a town-plan template with the six Design Your Town questions already printed and one problem row filled in as a model. Sentence frames for the law drafts: "In the town of _____, no one may _____ because _____. Anyone who breaks this law must _____."
+- **Extension:** Students who finish early draft a third law that would be genuinely unpopular but necessary (a water restriction, a curfew, a fee) and write two sentences on how they would explain it at a public meeting. A second option: play an iCivics government game ("Counties Work" or "Do I Have a Right?") and compare the decisions the game forces to the laws they just drafted.
+- **ELL:** Pre-teach: Ordinance = Ordenanza, Council = Concejo, Law = Ley, Fair = Justo, Enforce = Hacer cumplir, Problem = Problema. Allow students to sketch the town instead of writing it and to draft laws in Spanish first. The workbook page reads above grade level, so read the Step 1 role description aloud.

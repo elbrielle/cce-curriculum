@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Finalize Law cluster favorites in H&L; complete the Xello Life Experience activity; submit polished AI Ethics Position Paper |
 | **TEKS** | d(1)(C), d(3)(H) |
-| **Deliverable** | Updated H&L Climber Profile (2-3 favorited legal careers) + completed Xello Life Experience activity + final AI Ethics Position Paper |
-| **Materials** | Chromebooks, H&L accounts, Xello accounts, eDynamic Unit 5.1 link, projector |
+| **5E Phases** | Engage: Warm-Up · Explain: Position paper polish and submission · Explore: Pathway Possibilities and Law favorites · Extend: Xello Life Experience connections · Evaluate: Exit Ticket |
+| **Deliverable** | Updated H&L Climber Profile (2-3 favorited legal careers + 1 rated pathway) + completed Xello Life Experience activity + final AI Ethics Position Paper |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook p. 58, Xello accounts, eDynamic Unit 5.1 link, projector |
 
 ---
 
@@ -33,11 +34,13 @@ Students submit the polished paper (digital or paper). This is the summative ass
 
 ---
 
-## Activity 2: H&L Favorites + Climber Profile Update (12 min)
+## Activity 2: Pathway Possibilities + Law Cluster Favorites (12 min)
 
-Students return to the H&L app and finalize their Law cluster favorites. They should favorite **2-3 legal or public service careers** that they want to remember.
+**Source:** (FYF p. 58: "App Exploration"), the Pathway Possibilities step
 
-> [H&L PLATFORM] In the H&L app, navigate to "Hat Finder," filter by "Law and Public Service" cluster, and click the heart icon on 2-3 Hats to add them to favorites. Then click "Climber Profile" to verify the favorited careers appear there. Students should now have favorites from THREE clusters: Manufacturing, IT, and Law.
+> [H&L PLATFORM] Students return to the Law and Public Safety Cluster in the Hats & Ladders app and click "Pathway Possibilities." They answer the questions there, then explore and rate at least 1 pathway. This is the one step of the App Exploration page held back from Day 1, because a pathway rating means more after a week of career research, law drafting, and a legal review. Students then use the Hat Finder to click the heart icon on 2-3 Law and Public Safety Hats, and open "Climber Profile" to verify the favorites appear there. Students should now have favorites from THREE clusters: Manufacturing, IT, and Law and Public Safety.
+
+Name where this goes next. These favorites and the pathway rating are the top Hats students draw on in the Capstone, where they choose one Hat as a career goal and write why (FYF p. 283: "Rung 2: Career Goal"). The Irving side of the same question is **Dual Credit** (FYF p. 56), where a Paralegal Associate of Applied Science or a Junior Legal Assistant Certificate at Singley Academy can start in high school.
 
 The teacher circulates and asks each student: "Which legal career did you favorite, and why?" This is a quick formative check that students engaged with the cluster meaningfully.
 
@@ -60,7 +63,7 @@ After completing the Xello activity, each student writes one sentence in their n
 
 ## Activity 4: eDynamic Unit 5.1 Preview (5 min)
 
-Direct students to eDynamic Learning Unit 5.1: Law & Order. Have them open the unit and read the introduction (5 minutes). This is a preview only. They will not complete the unit today. Tomorrow's class (Wk 2) will pick up first responders, and eDynamic 5.1 supports that content.
+Direct students to eDynamic Learning Unit 5.1: Law & Order. Have them open the unit and read the introduction (5 minutes). This is a preview only. They will not complete the unit today. Tomorrow's class (Wk 2) will pick up first responders using the same workbook chapter, with the "Clinton Lake Case" and "Injured on the Trail" activities (FYF pp. 48-49 and 52-55), and eDynamic 5.1 supports that content.
 
 > [VERIFY IN eDynamic] Confirm the title of Unit 5.1 in eDynamic Learning is "Law & Order" and that it covers law enforcement, courts, and corrections topics suitable for 7th-grade Health Science / Law cluster framing.
 
@@ -86,9 +89,9 @@ Connect this career to THREE things:
 
    ___________________________________________________________________
 
-**3. An Irving ISD pathway that connects** (Law Enforcement at Singley, Legal Studies at Singley, or another Irving ISD pathway that touches the legal field)
+**3. An Irving ISD program of study that connects** (Legal Studies at Singley, Criminal Justice, or another Irving ISD program that touches the legal field)
 
-   My pathway: _______________________. In one sentence, does the Irving ISD pathway lead DIRECTLY to my favorited career, or is it a STEPPING STONE? Explain.
+   My program of study: _______________________. In one sentence, does the Irving ISD program lead DIRECTLY to my favorited career, or is it a STEPPING STONE? Explain.
 
    ___________________________________________________________________
 
@@ -99,5 +102,5 @@ Connect this career to THREE things:
 ## Differentiation
 
 - **Support:** Provide a sentence-completion handout for the Xello reflection: "A life experience I have is _____. This connects to the career of _____ because _____."
-- **Extension:** Students draft a 4-year high school plan for the Singley Academy Law Enforcement pathway, listing the courses they would take in 9th-12th grade.
+- **Extension:** Students draft a 4-year high school plan for the Singley Academy Legal Studies program of study, listing the courses they would take in 9th-12th grade and where a Dual Credit course could fit (FYF p. 56).
 - **ELL:** Pair ESL students with bilingual peers for the Xello Life Experience. Pre-teach: Experience = Experiencia, Volunteer = Voluntario, Skill = Habilidad. Xello has built-in Spanish translation for activity prompts.

@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Introduce Powerskills as transferable career skills; complete the H&L Powerskills "Conflict Resolution" module; resolve three workplace conflicts using listen / find common ground / calm words |
+| **Objectives** | Introduce Powerskills as transferable career skills; complete the "Powerskill: Conflict Resolution" activity; resolve three workplace conflicts using listen, compromise, and stay respectful |
 | **TEKS** | d(4)(B) |
-| **Deliverable** | Completed Conflict Resolution chart (3 conflicts × 3 columns) + smoothie ad sketch |
-| **Materials** | Chromebooks, H&L Powerskills Workbook (pp. 19-21), printed Conflict Resolution worksheet, paper for ad sketch, projector |
+| **5E Phases** | Engage: Warm-Up and Be the Decision Maker · Explain: Powerskills chart and conflict resolution setup · Explore: Smoothie company conflict plan and advertisement poster · Evaluate: Class discussion and Exit Ticket |
+| **Deliverable** | Completed conflict plan (3 conflicts × 3 columns, FYF p. 145) + smoothie advertisement poster |
+| **Materials** | Chromebooks, *Find Your Future* workbook pp. 12-14 and pp. 144-145, poster paper and markers for the advertisement, projector |
 
 ---
 
@@ -22,13 +23,13 @@ Take 3-4 responses. Bridge: communication is a SKILL, not a personality trait. T
 
 ## Activity 1: Powerskills Introduction (8 min)
 
-**Source:** H&L Powerskills Workbook. Introduction (pp. 1-2)
+**Source:** (FYF p. 139: "Exploring the World of POWERSKILLS IN ACTION") and (FYF pp. 12-14: "Introduction to Powerskills")
 
-Introduce the concept: for the past 4 weeks, students explored specific careers (Manufacturing, IT, Law, Health Science). But there is something that connects ALL of these careers: **soft skills**. Hats & Ladders calls them **Powerskills**.
+Introduce the concept: for the past 4 weeks, students explored specific clusters (Manufacturing, IT, Law, Health Science). The workbook's Powerskills in Action chapter names what carries across all of them. Powerskills are people skills that travel with a worker into any career, and the opener makes that point with three very different Hats on one page: Electrician, 3D Printing Technician, and Fashion Designer.
 
-The H&L Powerskills workbook covers 12 skills: Adaptability, Conflict Resolution, Giving and Receiving Feedback, Written Communication, Attention to Detail, Advocacy, Learning Agility, Time Management, Critical Thinking, Problem Solving, Teamwork, Self-Awareness.
+Project the 10-row Powerskills chart from the front of the book (FYF p. 12): Communication, Teamwork, Problem-Solving, Adaptability, Leadership, Time Management, Creativity, Work Ethic, Empathy, and Confidence. That chart is the book's reference list, not the full set of lessons. The workbook teaches Powerskill lessons inside almost every cluster chapter, and this week works four of them: Conflict Resolution, Active Listening, Advocacy, and Written Communication. Each one is paired with a healthcare role-play that puts the skill in a Health Science context.
 
-This week focuses on FOUR communication-related modules: Conflict Resolution, Feedback, Written Communication, and Advocacy. Each module is from the H&L workbook + a healthcare role-play to put the skill in context.
+**Think-Pair-Share:** use the opener's Be the Decision Maker prompt (FYF p. 139). A sudden thunderstorm clears an outdoor concert stage, staff members are confused, guests are frustrated, and the event needs a new plan fast. Which Powerskills would you use to keep the team organized and calm? Hold a silent 30 second Think, then Partner A for 30 seconds and Partner B for 30 seconds. Two pairs share out.
 
 !!! tip "Facilitation Tip"
     Some students dismiss soft skills as "stuff teachers say." Reframe: "Employers consistently report that they fire people for soft skill problems, NOT technical skill problems. The plumber who shows up late and argues with customers loses business. The plumber who is on time and listens gets the next job." Make the stakes real.
@@ -37,31 +38,31 @@ This week focuses on FOUR communication-related modules: Conflict Resolution, Fe
 
 ## Activity 2: Conflict Resolution Setup (5 min)
 
-**Source:** H&L Powerskills Workbook, pp. 19-20, "Conflict Resolution"
+**Source:** (FYF p. 144: "Powerskill: Conflict Resolution")
 
-Read the workbook intro aloud: *"Disagreements are normal, especially when you're working with a group. The important part isn't whether you argue, but how you handle it. Conflict resolution means working through disagreements in a way that helps everyone feel heard and keeps the project moving forward."*
+Open the workbook to page 144 and read the opening paragraph together. Disagreements are normal when people work in a group. What matters is not whether a team argues but how the team handles it. Conflict resolution means working through a disagreement so that everyone feels heard and the project keeps moving.
 
-Project the workbook's **Three Quick Tips** (p. 19):
+The opening paragraph names three moves strong teams use. Post them where students can see them for the rest of the period:
 
-1. **Listen first.** Make sure everyone has a chance to explain their idea.
-2. **Find common ground.** Look for ways to combine ideas or meet in the middle.
-3. **Use calm, clear words.** Avoid blaming and focus on solving the problem.
+1. **Listen.** Every person gets a chance to explain their idea before anyone decides.
+2. **Compromise.** Look for a way to combine ideas or meet in the middle.
+3. **Stay respectful.** Keep the words calm and aimed at the problem, not at a teammate.
 
 ---
 
 ## Activity 3: Smoothie Company Conflict (25 min)
 
-**Source:** H&L Powerskills Workbook, pp. 19-20, Activity (Smoothie Company Scenario)
+**Source:** (FYF pp. 144-145: "Powerskill: Conflict Resolution", Steps 1-3)
 
-Read the workbook scenario aloud: *"You work at a smoothie company that's about to launch a brand-new flavor: a refreshing blend of strawberry, mango, pineapple, and a splash of coconut milk. It's tasty, colorful, and perfect for summer, but your team can't agree on some key decisions."*
+Read the workbook scenario together (FYF p. 144). Students work at a smoothie company that is about to launch a new flavor, a blend of strawberry, mango, pineapple, and a splash of coconut milk. The drink is ready. The team is not.
 
-Form student groups of 3-4. Each group works through the **3 conflicts** from the workbook (p. 19):
+**Step 1: Understand the Conflicts (5 min).** Form groups of 3-4. Each group reads the three conflicts printed on page 144:
 
-- **The Name Game:** One teammate wants Tropical Thunder, another wants Sunshine Splash, another wants Fruit Burst
-- **Launch Date Debate:** One wants to launch immediately, another says wait until summer, a third is unsure
-- **Marketing Mayhem:** Posters, slogans, video, but the team can't agree on who does what
+- **The Name Game:** One teammate wants Tropical Thunder, another wants Sunshine Splash, a third wants Fruit Burst. Everyone feels strongly and nobody is backing down.
+- **Launch Date Debate:** One person wants to launch immediately, another says wait until the weather gets hotter, a third is not sure what to think.
+- **Marketing Mayhem:** Posters to design, a slogan to write, a video to film, and no agreement on who does what or how to keep the work fair.
 
-Groups fill out the workbook chart (p. 20):
+**Step 2: Work Through Conflict (12 min).** Groups fill the three-column plan on page 145, one row per conflict:
 
 | The Conflict | Why It Matters | How We Can Solve It |
 |---|---|---|
@@ -69,18 +70,20 @@ Groups fill out the workbook chart (p. 20):
 | Launch Date | | |
 | Marketing | | |
 
-Each group must use the 3 quick tips to actually resolve each conflict, not just write "we'll vote" but actually find a creative solution.
+Each group has to use listen, compromise, and stay respectful to reach a real solution. "We'll vote" is not a solution unless the group can say what happens to the two ideas that lose.
 
-After resolving the conflicts, each group sketches a quick **smoothie ad** (workbook Step 3, p. 20) showing the chosen name and launch strategy.
+**Step 3: Design an Advertisement (8 min).** Now that the team is back on track, each group makes a large poster advertising the new smoothie. The poster needs eye-catching images and a slogan, and it has to use the name the group actually agreed on.
+
+**Chunking:** hold a check between each step rather than releasing all three at once. Before Step 2 begins, each group says out loud which of the three conflicts it thinks is hardest and why. Before Step 3 begins, each group reads one How We Can Solve It cell aloud, which tells you fast whether the solution names an action or just a vote.
 
 !!! tip "Facilitation Tip"
-    Watch for groups that "resolve" by just letting one person win. Push back: "Did everyone feel heard? Did you actually combine ideas?" Conflict resolution is about integration, not domination. **Pressure valve:** if groups are still working through the first two conflicts at the 15-minute mark, have them document solutions for Name and Launch Date only and make the smoothie ad sketch an at-home or Extension task. The chart is the essential deliverable.
+    Watch for groups that "resolve" by just letting one person win. Push back: did everyone feel heard, and did the group actually combine ideas? Conflict resolution is about integration, not domination. **Pressure valve:** if groups are still working through the first two conflicts at the 15-minute mark, have them plan Name and Launch Date only and move the advertisement poster to the Extension slot. The three-column plan is the essential deliverable.
 
 ---
 
 ## Activity 4: Class Discussion (5 min)
 
-**Source:** H&L Powerskills Workbook, p. 21, Class Discussion
+**Source:** (FYF p. 145: "Powerskill: Conflict Resolution", Class Discussion)
 
 Lead a quick discussion using the workbook prompts:
 
@@ -102,11 +105,11 @@ My workplace role: **new CNA at a DFW hospital**
 
 Conflict: My shift partner keeps taking long breaks and leaving me with all the patient rooms. I am exhausted and starting to miss details.
 
-Step 1: Which of the 3 H&L quick tips (listen first / find common ground / use calm clear words) do I use FIRST, and WHY?
+Step 1: Which move do I use FIRST: **listen** / **compromise** / **stay respectful**? Why that one first?
 
-   My tip: _______________________. Why first: ___________________________________________________________________
+   My move: _______________________. Why first: ___________________________________________________________________
 
-Step 2: Branch on my partner's response —
+Step 2: Branch on my partner's response.
 
    IF my partner apologizes and wants to fix it, what do I do next? ___________________________________________________________________
 
@@ -118,6 +121,6 @@ Step 2: Branch on my partner's response —
 
 ## Differentiation
 
-- **Support:** Pre-fill the conflict chart with one row (Name) modeled. Provide sentence stems: "I would resolve this conflict by _____."
-- **Extension:** Students invent a 4TH conflict for the smoothie company and resolve it using the 3 quick tips. They write a 2-sentence summary.
-- **ELL:** Bilingual conflict chart with Spanish column headers. Pre-teach: Conflict = Conflicto, Listen = Escuchar, Common Ground = Terreno Común, Solve = Resolver.
+- **Support:** Pre-fill the three-column plan with the Name row modeled. Provide sentence stems: "This matters because _____." and "We can solve it by _____."
+- **Extension:** Students invent a 4TH conflict for the smoothie company and plan it using listen, compromise, and stay respectful. They write a 2-sentence summary. Groups that ran out of time for the poster finish it here.
+- **ELL:** Bilingual conflict plan with Spanish column headers. Pre-teach: Conflict = Conflicto, Listen = Escuchar, Compromise = Compromiso, Respectful = Respetuoso, Solve = Resolver. The workbook reads above grade level, so read the page 144 scenario aloud before groups start.
