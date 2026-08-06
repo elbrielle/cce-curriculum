@@ -98,6 +98,21 @@ Realigning 4SW, 5SW, and 6SW added four more deck dependencies and one schedulin
 
 The daily plans describe WHAT students do and give the facilitation approach, but they intentionally do **not** include the student-facing artifacts that teachers would photocopy, project, or print. Those are the items below. A week is not fully "turnkey" for a new teacher until its checklist here is green.
 
+### 🟡 Canvas Lesson Packages: Teacher Guide + Student Guide
+
+**Status:** 🟡 Week 0 teacher pages are staged in the unpublished CCR Canvas course; student-facing guides and the reusable presentation pattern are not yet built.
+
+Every lesson needs two coordinated Canvas surfaces:
+
+- **Teacher Facilitator Guide:** before-class setup, materials, learning target, time-boxed sequence, exact workbook and platform paths, what evidence to collect, grading, likely trouble spots, evidence-based language supports, and a platform/absence fallback.
+- **Student Guide:** a plain-language purpose, materials, short numbered directions, a relevant screenshot or workbook excerpt, what to turn in, a "done" checklist, and enough support for an absent student to complete the activity without reconstructing the teacher's explanation.
+
+The attached 2027 VILS Canvas export is the layout reference, especially its strong headers, visual cues, embedded examples, and short task blocks. Its legacy `enhanceable_content tabs` code is **not** the implementation standard because [current Canvas community guidance](https://community.canvaslms.com/t5/Canvas-Developers-Group/HTML-to-Create-Tabs-That-Work-for-Keyboard-Navigation/m-p/618344) identifies mobile and keyboard-accessibility problems. Use a readable single-column page and native disclosure sections for optional help, examples, vocabulary, or extensions. Keep essential directions visible.
+
+**Pilot:** finish 1SW Wk0 first, review it in Student View at desktop and mobile width, test keyboard navigation and the absence/catch-up path, then use the approved package as the template for the remaining weeks.
+
+**Image rule:** screenshots and workbook crops must be instructionally necessary, tightly cropped, given useful alt text, and stored in authenticated Canvas when the source is licensed. Record the source and capture date so platform screenshots can be refreshed later.
+
 ### 🟡 Presentation Slides (per week)
 
 **Status:** ⬜ Not yet built.
