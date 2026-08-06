@@ -35,7 +35,7 @@ cce-curriculum/               <- reference data (not the website)
   resources/reference-pdfs/   <- H&L workbook .txt extracts (PDFs local-only)
   notes/                      <- editing heuristics, revision plan, review notes
 
-build/                        <- Python build scripts (legacy docx/xlsx)
+build/                        <- PDF pipelines + Canvas templates/importers
 ```
 
 ## Platforms
@@ -78,4 +78,4 @@ The full chapter-to-week crosswalk is in `cce-curriculum/notes/revision-plan.md`
 
 ## For AI Agents
 
-Read `CLAUDE.md` first, then `PLANNING.md` for current project state. The revision plan at `cce-curriculum/notes/revision-plan.md` maps every H&L workbook chapter to curriculum weeks.
+Read `CLAUDE.md` first, then `PLANNING.md` for current project state. For Canvas work, follow `cce-curriculum/notes/canvas-lesson-production-workflow.md`; the approved teacher/student reference pair is 1SW Wk0 Day 2 under `build/canvas/`. The revision plan at `cce-curriculum/notes/revision-plan.md` maps every H&L workbook chapter to curriculum weeks.

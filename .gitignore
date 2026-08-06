@@ -17,6 +17,9 @@ cce-curriculum/resources/hl-teacher-resources/*.pdf
 # Xello licensed downloads are staged locally for authenticated Canvas upload
 cce-curriculum/resources/xello-licensed/
 
+# Licensed workbook/deck images rendered for authenticated Canvas pages
+cce-curriculum/resources/canvas-licensed/
+
 # Original reference .docx files (not source of truth)
 SW[1-6]/
 CCE_Comprehensive_Scope_Sequence.xlsx

@@ -38,6 +38,7 @@ A 36-week Career and College Explorations (CCE) course curriculum for grades 7-8
 │
 ├── build/                             ← Python build scripts
 │   ├── build_pdfs.py                  ← markdown -> exit-ticket PDF
+│   ├── canvas/                         ← Canvas HTML templates + idempotent importers
 │   ├── inject_pdf_links.py            ← writes [Printable PDF] links into day files
 │   ├── build_docx.py                  ← legacy facilitator-guide docx
 │   ├── build_xlsx.py                  ← legacy spreadsheet
@@ -86,6 +87,8 @@ Do not invent H&L activities, Xello features, or platform capabilities. If unsur
 
 Licensed H&L and Xello materials belong in the authenticated Canvas course, not the public GitHub Pages site. Download the Xello-provided lesson plans, teacher guides, presentations, worksheets, and student directions needed by each module; upload them to Canvas Files and embed them on the matching module page. Do not make teachers or students return to the Xello resource drawer to locate ordinary instructional documents. Interactive completion still happens in Xello. Embed official video players when Xello provides an approved share link; rehost a video file only when Xello supplies a downloadable file or the district has explicit permission. Never publish licensed binaries publicly. Canvas API credentials are provided only at import time and must never be committed or written into curriculum files.
 
+For all Canvas lesson production, read and follow `cce-curriculum/notes/canvas-lesson-production-workflow.md`. Every instructional day receives a coordinated Teacher Facilitator Guide and Student Guide. The approved quality and implementation reference is the unpublished 1SW Wk0 Day 2 pair under `build/canvas/`; do not mass-copy raw Markdown into Canvas.
+
 ## Editing Protocol
 
 Before any substantive edit, read **`cce-curriculum/notes/editing-heuristics.md`**. It has:
@@ -101,6 +104,7 @@ For specific edit types, also read:
 - **Any week content (FYF realignment era)** — `cce-curriculum/notes/fyf-realignment-plan.md` (citation rules, ratified decision register, per-week status) + `cce-curriculum/notes/district-expectations-2026.md` (binding 5E/instructional-moves overlay spec + QA checklist)
 - **Exit tickets / lesson objectives / DOLs** — `cce-curriculum/notes/teks-audit-process.md` (6-step audit) + `exit-ticket-templates.md` (10-format bank)
 - **CFAs** — `cce-curriculum/notes/cfa-template.md` (4-part structure, 4-level rubric)
+- **Canvas teacher/student lesson pages** — `cce-curriculum/notes/canvas-lesson-production-workflow.md` + the Week 0 Day 2 reference templates in `build/canvas/templates/`
 
 ## Special Markers
 
