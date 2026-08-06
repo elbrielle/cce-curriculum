@@ -12,7 +12,7 @@ orientation: portrait
 
 Pick ONE career from this list. Open the BLS page named beside it and find two numbers: **Median Pay** and **Job Outlook**. Both sit near the top of every BLS page.
 
-Some of these careers are so new that BLS has no page just for them. When that happens, the closest BLS page is listed instead. A career with no page of its own is proof the career is emerging, so write that on your research template.
+Some career titles do not have their own BLS page. When that happens, the closest broader occupation is listed as a **proxy**. A missing title does not prove that a career is new. Label the proxy so readers know what the BLS numbers actually describe.
 
 The four careers marked ★ have a BLS page that matches them closely. Start there if you are not sure what to pick.
 
@@ -26,6 +26,6 @@ The four careers marked ★ have a BLS page that matches them closely. Start the
 | ★ UX Designer | "Web Developers and Digital Designers" at bls.gov/ooh/computer-and-information-technology/web-developers.htm |
 | Drone Software Developer | "Software Developers, Quality Assurance Analysts, and Testers" at bls.gov/ooh/computer-and-information-technology/software-developers.htm. No drone page exists. |
 
-**Your other two sources.** BLS is only source one. Source two is the Hats & Ladders app: open Hat Finder and search your career name. Source three is one web search for a DFW company that hires for this role. Try the career name plus "Dallas" or "jobs Irving Texas."
+**Your local source.** Use the company careers page or current job posting your teacher provides. Xello may be used for local salary information when your exact career is available. Hats & Ladders is optional exploration, not required evidence.
 
-**If a BLS page will not open,** the page title is still the answer to write down. Tell your teacher which link failed and keep working from the Hats & Ladders app.
+**If a BLS page will not open,** use the dated class copy your teacher provides. Name the BLS occupation and mark whether it is an exact match or proxy.

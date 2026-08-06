@@ -138,6 +138,8 @@ printf '%s\n' "$CCR_CANVAS_TOKEN" | uv run --with httpx python build/canvas/buil
 unset CCR_CANVAS_TOKEN
 ```
 
+Run Canvas importers through `uv run --with httpx`; a bare `python` invocation is not portable because the system Python may not include `httpx`. A dependency failure before the token prompt does not touch Canvas, but it wastes a build pass and can leave the operator unsure whether anything changed.
+
 Do not print, log, commit, or repeat the token.
 
 ## 6. Verification gate

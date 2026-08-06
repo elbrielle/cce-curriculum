@@ -10,7 +10,7 @@ pages: 2
 orientation: portrait
 ---
 
-**One career per sheet.** Use three sources: the BLS Occupational Outlook Handbook, the Hats & Ladders app Hat Finder, and one web search. Fill in all seven parts. You use this same sheet again on Day 5 for your 2 minute pitch, so write it so you can read it out loud.
+**One career per sheet.** Use the BLS Occupational Outlook Handbook and the teacher-approved local employer source. Xello may be used for local salary information when the career is available. Fill in all eight parts. You use this same sheet again on Day 5 for your one-minute pitch, so write it so you can read it out loud.
 
 **1. Career Name**
 
@@ -24,7 +24,7 @@ orientation: portrait
 
 [[lines: 2]]
 
-**4. Median salary (BLS).** Write the number, not "a lot."
+**4. Median pay (BLS).** Write the national number and the year shown.
 
 [[lines: 1]]
 
@@ -32,14 +32,16 @@ orientation: portrait
 
 [[lines: 1]]
 
-**6. Why is this career considered "emerging"?** What new technology made this job exist?
+**6. Source match.** Circle one: **EXACT BLS OCCUPATION** / **CLOSEST BLS PROXY**
+
+If you used a proxy, name the broader occupation: _________________________
+
+**7. Why is this career considered "emerging"?** Name a technology, demand change, or changed work task. A missing BLS title alone is not proof.
 
 [[lines: 3]]
 
-**7. One DFW company that hires for this role**
+**8. One DFW company that hires for this role.** Use the teacher-approved company page or current job posting.
 
 [[lines: 1]]
 
-- [ ] BLS has no page of its own for my career, so I used the closest match: ______
-
-*A career with no BLS page of its own is proof the career is emerging. Say that in your pitch.*
+- [ ] I can explain which facts describe my exact career and which facts come from a broader proxy occupation.

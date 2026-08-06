@@ -25,7 +25,7 @@ A transferable skill is a skill that works in many careers, not just one. These 
 
 ## Connect Them to Careers
 
-Pick 3 skills you circled. For each one, name two careers that use it. Use careers from the Hats & Ladders app.
+Pick 3 skills you circled. For each one, name two careers that use it. Use the career cards, Xello, or a teacher-approved career source.
 
 | A skill I circled | One career that uses it | Another career that uses it |
 |---|---|---|
@@ -35,4 +35,4 @@ Pick 3 skills you circled. For each one, name two careers that use it. Use caree
 
 **Stop and Jot.** One transferable skill I have is ______. It applies to ______ and ______ careers.
 
-*Employers hire for these as much as for the technical skills, because the technical tools change and these do not.*
+*Employers look for these alongside technical skills because people use them across roles, teams, and changing tools.*

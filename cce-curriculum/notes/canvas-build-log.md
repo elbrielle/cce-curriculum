@@ -84,7 +84,7 @@ This log records the official Canvas build without storing access credentials or
 - All ten pages and the parent module are unpublished. Running the Week 1 importer a second time returned the same module, folder, page, and item IDs without duplicate module items.
 - Automated template QA found no skipped headings, missing image alt text, unlabeled disclosure sections, layout tables, legacy Canvas tabs, or unresolved template fields.
 - Student guides include the hardware-independent Sphero simulator route. Day 5 identifies the Robots for Crayons presentation as the major evidence and keeps Xello/H&L profile work secondary to the required presentation.
-- Browser QA: Day 1 student and Day 5 student/teacher pages rendered correctly in Canvas; locked workbook and slide-deck visuals loaded, including the disclosure-based Quality Check set; the Day 5 student and teacher pages had no horizontal overflow at a 390-pixel viewport. Remaining Day 2-4 browser spot checks are required before publication.
+- Browser QA: all ten pages rendered correctly in Canvas. Every locked workbook and slide-deck visual loaded after normal viewport scrolling, including the disclosure-based Quality Check set. The most complex student and teacher pages had no horizontal overflow at a 390-pixel viewport.
 - Importer: `build/canvas/build_wk1.py`
 
 ## 2026-08-06 — 1SW Week 2 paired lesson set
@@ -105,5 +105,26 @@ This log records the official Canvas build without storing access credentials or
 - Salary-source correction applied: Xello is the default localized salary source; H&L is allowed only when the teacher records a dated, live-verified local range. BLS remains the national source.
 - Major-grade package revised to the IT Salary Comparison plus Career Fit Reflection, 20 points. The rubric explicitly identifies it as one of the six weeks' major grades.
 - Automated template QA: no skipped headings, missing alt text, unlabeled disclosure sections, layout tables, legacy Canvas tabs, or unresolved structural fields. Student template reading levels ranged from FK 6.2 to 8.6 before live Canvas rendering.
-- Browser QA is still required before publication because the Chrome session had already been finalized when this module finished building.
+- Browser QA: all ten pages rendered correctly in Canvas with no unresolved template fields or desktop overflow. Every embedded workbook image loaded at its expected 1275-pixel source width after normal viewport scrolling. The Day 3 student guide and Day 5 teacher guide had no horizontal overflow at a 390-pixel viewport.
 - Importer: `build/canvas/build_wk2.py`
+
+## 2026-08-06 — 1SW Week 3 paired lesson set
+
+- Module: `1SW Wk3: Network Ninjas - Computer Science and Networking Careers` (542972)
+- State: unpublished
+- Teacher item IDs: Day 1 5295220, Day 2 5295222, Day 3 5295224, Day 4 5295226, Day 5 5295228
+- Student item IDs: Day 1 5295221, Day 2 5295223, Day 3 5295225, Day 4 5295227, Day 5 5295229
+- Locked Canvas visual folders:
+  - Day 1: 1152541
+  - Day 2: 1152542
+  - Day 3: 1152543
+  - Day 4: 1152544
+  - Day 5: 1152545
+- All ten pages and the parent module are unpublished. A second importer run returned the same module, folder, page, and item IDs without duplicates.
+- District-sequence correction applied: Week 3 uses the required 20-minute Xello Learning Style quiz. Add Skills remains assigned to Week 4. The licensed My Learning Styles teacher guide is linked from the facilitator page.
+- Supplemental-platform correction applied: Day 1 has a complete four-career card route, H&L is optional, and Day 4 uses BLS plus a teacher-approved local employer source. Xello is the preferred local-salary source when the exact career is available.
+- Evidence correction applied: BLS proxy occupations are labeled as proxies, and a missing standalone BLS title is not treated as proof that a career is emerging.
+- Major-grade package revised to the App Design Packet plus Emerging Tech Research, 16 points. The small-group pitch remains communication practice so one teacher is not expected to score several simultaneous presentations.
+- Automated template QA: no skipped headings, missing alt text, unlabeled disclosure sections, layout tables, legacy Canvas tabs, or unresolved structural fields. Student reading levels ranged from FK 5.0 to 9.4; the Day 4 guide is the highest because it preserves necessary BLS/source vocabulary.
+- New and revised PDFs were rendered, page-count checked, and visually inspected. Browser QA of the live Week 3 Canvas pages remains pending; do not mark the set publication-ready until that gate is complete.
+- Importer: `build/canvas/build_wk3.py`
