@@ -1,0 +1,410 @@
+/* =========================================================================
+   CCE WORKSHEET / PRINTABLE — REUSABLE TEMPLATE
+   Irving ISD VILS Labs · Career and College Explorations
+   Print target: US Letter (8.5 x 11 in), portrait or landscape
+   Multi-page: page chrome (title + Irving ISD CCE + page N of M) is printed
+   into the page margin by Chromium's footer template, so it repeats on every
+   page. This stylesheet only owns the flowed content.
+
+   Token values are copied from build/exit_ticket_template/exit-tickets.css so
+   the two families print as one system. That file is the design source of
+   truth; if the design team ships a refresh, re-copy the :root block here.
+   ========================================================================= */
+
+/* ---------- Tokens (mirrors exit-tickets.css) ---------- */
+:root {
+  --ink:        #15202b;
+  --ink-soft:   #4a5763;
+  --ink-mute:   #8a95a1;
+  --paper:      #ffffff;
+
+  --navy:       #004d7c;
+  --navy-deep:  #002845;
+  --gold:       #f3c63c;
+  --gold-tint:  #fdf4d4;
+  --rule:       #2a3540;
+
+  --teacher:    #76001a;
+
+  --serif:      "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --sans:       "Source Sans 3", "Source Sans Pro", -apple-system, "Segoe UI", sans-serif;
+  --mono:       "JetBrains Mono", ui-monospace, "SF Mono", Consolas, monospace;
+
+  --rule-pt:    0.75pt;
+  --rule-h:     8.5mm;             /* handwriting line spacing */
+}
+
+/* No `@page { size: ... }` here on purpose: a CSS page size wins over the
+   PDF driver's own format/landscape settings in Chromium, which silently
+   forces every sheet to portrait. Size, orientation, and margins all come
+   from build_worksheets.py's page.pdf() call. */
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  font-family: var(--sans);
+  font-size: 11pt;
+  line-height: 1.45;
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Teacher sheets carry denser reference text. */
+.ws--teacher { font-size: 10.5pt; line-height: 1.4; }
+/* Landscape sheets are wider; trim a touch so tables keep their columns. */
+.ws--landscape { font-size: 10.5pt; }
+.ws--landscape.ws--teacher { font-size: 10pt; }
+
+/* Digital preview only — print ignores this (Chromium supplies the margins). */
+@media screen {
+  html { background: #e9ecef; }
+  body {
+    width: 7.4in;
+    margin: 24px auto;
+    padding: 0.5in 0.55in;
+    background: var(--paper);
+    box-shadow: 0 1px 2px rgba(0,0,0,.06), 0 12px 32px rgba(0,0,0,.08);
+  }
+  .ws--landscape { width: 9.9in; }
+}
+
+/* =========================================================================
+   HEADER BAND — page 1 only (matches the exit-ticket header grammar)
+   ========================================================================= */
+.wh {
+  border-bottom: 1.5pt solid var(--navy);
+  padding-bottom: 5pt;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4pt 14pt;
+  align-items: end;
+  break-after: avoid;
+}
+.wh__title-block { min-width: 0; grid-column: 1; grid-row: 1; }
+.wh__eyebrow {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 7.5pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--navy);
+  margin-bottom: 2pt;
+}
+.wh__title {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 18pt;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0;
+}
+.wh__title::before {
+  content: "";
+  display: inline-block;
+  width: 5pt; height: 13pt;
+  background: var(--gold);
+  margin-right: 7pt;
+  vertical-align: -1pt;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* IISD logo + CCE wordmark */
+.wh__mark {
+  display: flex;
+  align-items: center;
+  gap: 8pt;
+  flex-shrink: 0;
+  grid-column: 2;
+  grid-row: 1;
+}
+.wh__mark img {
+  height: 18pt;
+  width: auto;
+  max-width: 0.9in;
+  object-fit: contain;
+  display: block;
+}
+.wh__mark-sub {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 7pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--navy);
+  text-align: right;
+  line-height: 1.15;
+  border-left: 0.5pt solid var(--ink-mute);
+  padding-left: 8pt;
+}
+
+/* Name / Date / Period strip — student sheets only */
+.wh__meta {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0;
+  margin-top: 6pt;
+  font-size: 9pt;
+  align-items: center;
+}
+.wh__meta-block {
+  border-left: 0.4pt solid var(--ink-mute);
+  padding: 0 8pt;
+  display: flex;
+  align-items: baseline;
+  gap: 6pt;
+  min-height: 15pt;
+  white-space: nowrap;
+}
+.wh__meta-block:first-child { border-left: none; padding-left: 0; }
+.wh__meta-block.has-fill { flex: 2 1 0; min-width: 0; }
+.wh__meta-block.is-period { flex: 0 0 auto; }
+.wh__meta-block.is-period .wh__meta-value { width: 42pt; flex: 0 0 42pt; }
+.wh__meta-label {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 7pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  flex-shrink: 0;
+}
+.wh__meta-value {
+  font-family: var(--mono);
+  font-size: 9pt;
+  color: var(--ink);
+  min-height: 13pt;
+  flex: 1;
+}
+.wh__meta-value--fill {
+  border-bottom: 0.5pt solid var(--ink);
+  padding-bottom: 1pt;
+}
+
+/* Teacher strip — chip + week tags instead of Name/Date/Period */
+.wh__meta--teacher { gap: 10pt; }
+.wh__teacher-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 2pt 7pt;
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 7.5pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--teacher);
+  border: 0.5pt dashed var(--teacher);
+}
+.wh__weeks {
+  font-family: var(--mono);
+  font-size: 7.5pt;
+  color: var(--ink-mute);
+  letter-spacing: 0.02em;
+}
+
+/* =========================================================================
+   BODY
+   ========================================================================= */
+.wb { margin-top: 10pt; }
+
+.wb h1, .wb h2 {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 12pt;
+  letter-spacing: 0.02em;
+  color: var(--navy);
+  margin: 12pt 0 4pt 0;
+  padding-bottom: 2pt;
+  border-bottom: 0.75pt solid var(--navy);
+  break-after: avoid;
+}
+.wb h1:first-child, .wb h2:first-child { margin-top: 0; }
+.wb h3 {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 10.5pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 9pt 0 3pt 0;
+  break-after: avoid;
+}
+.wb h4 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 10pt;
+  color: var(--ink-soft);
+  margin: 9pt 0 3pt 0;
+  break-after: avoid;
+}
+.wb p { margin: 0 0 6pt 0; }
+.wb ul, .wb ol { margin: 0 0 7pt 0; padding-left: 20pt; }
+.wb li { margin-bottom: 3pt; break-inside: avoid; }
+.wb strong { font-weight: 700; }
+.wb em { font-style: italic; }
+.wb hr {
+  border: none;
+  border-top: 0.5pt solid var(--ink-mute);
+  margin: 12pt 0;
+}
+.wb code {
+  font-family: var(--mono);
+  font-size: 9.5pt;
+  background: #f2f5f8;
+  padding: 0 3pt;
+}
+
+/* Bilingual: the Spanish line sits directly under its English line, italic.
+   Authors write it as the next line inside the same paragraph. */
+.wb br + em { color: var(--ink-soft); }
+.wb p > em:only-child { color: var(--ink-soft); display: inline-block; }
+
+/* Blockquote = callout / teacher note */
+.wb blockquote {
+  margin: 0 0 10pt 0;
+  padding: 7pt 10pt;
+  border-left: 2pt solid var(--navy);
+  background: #f5f8fb;
+  font-size: 10pt;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.wb blockquote p:last-child { margin-bottom: 0; }
+
+/* =========================================================================
+   MARKERS
+   ========================================================================= */
+
+/* [[lines: N]] — N ruled handwriting lines. One div per line so a long block
+   can break across pages without clipping a half-drawn rule. */
+.ws-lines { margin: 4pt 0 8pt 0; }
+.ws-line {
+  height: var(--rule-h);
+  border-bottom: var(--rule-pt) solid var(--rule);
+  break-inside: avoid;
+}
+/* A lines block that follows a prompt should stay with it where it can. */
+.wb p + .ws-lines { margin-top: 3pt; }
+
+/* [[box: H]] — empty drawing / writing box, H inches tall. */
+.ws-box {
+  border: var(--rule-pt) solid var(--rule);
+  margin: 5pt 0 10pt 0;
+  width: 100%;
+  break-inside: avoid;
+}
+.ws-box--tall { break-inside: auto; }   /* boxes taller than a page body */
+
+/* [[pagebreak]] */
+.ws-pagebreak {
+  break-after: page;
+  page-break-after: always;
+  height: 0;
+  margin: 0;
+}
+
+/* - [ ] task list checkboxes */
+.wb ul.ws-tasks,
+.wb ul:has(> li > .ws-cb) {
+  list-style: none;
+  padding-left: 0;
+}
+.wb ul.ws-tasks > li,
+.wb ul:has(> li > .ws-cb) > li {
+  margin-bottom: 6pt;
+  padding-left: 0;
+}
+.ws-cb {
+  display: inline-block;
+  width: 11pt;
+  height: 11pt;
+  border: 0.75pt solid var(--ink);
+  margin-right: 7pt;
+  vertical-align: -1.5pt;
+  background: var(--paper);
+}
+.ws-cb--on {
+  background: var(--navy);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  position: relative;
+}
+.ws-cb--on::after {
+  content: "";
+  position: absolute;
+  left: 2.5pt; top: 1pt;
+  width: 3.5pt; height: 6.5pt;
+  border: solid var(--paper);
+  border-width: 0 1.2pt 1.2pt 0;
+  transform: rotate(45deg);
+}
+
+/* Inline underscore run (______) — a fill-in blank on a text line. */
+.ws-blank {
+  display: inline-block;
+  min-width: 1.6in;
+  border-bottom: 0.75pt solid var(--rule);
+  height: 1.15em;
+  vertical-align: -0.2em;
+  margin: 0 2pt;
+}
+
+/* =========================================================================
+   TABLES — handwriting-sized rows, navy header, repeats across pages
+   ========================================================================= */
+.wb table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 4pt 0 10pt 0;
+  font-size: 10pt;
+  break-inside: auto;
+}
+.wb thead { display: table-header-group; }
+.wb tr { break-inside: avoid; break-after: auto; }
+.wb th, .wb td {
+  border: 0.6pt solid var(--ink);
+  padding: 5pt 7pt;
+  vertical-align: top;
+  text-align: left;
+}
+.wb thead th {
+  background: var(--navy);
+  color: var(--paper);
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 9.5pt;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+/* Generous handwriting rows. `height` behaves as a minimum in table cells,
+   so a text-heavy rubric cell still grows. */
+.ws--student .wb tbody td { height: 11mm; }
+.ws--teacher .wb tbody td { height: 7mm; }
+.ws--landscape .wb table { font-size: 9.5pt; }
+/* First column of a matrix-style table reads as a row label. */
+.wb tbody th { font-weight: 700; background: #f5f8fb; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+/* =========================================================================
+   PRINT
+   ========================================================================= */
+@media print {
+  html, body { background: var(--paper); }
+  .wh, .wb { break-inside: auto; }
+  .wb thead th,
+  .wb tbody th,
+  .wb blockquote,
+  .ws-cb--on,
+  .wh__title::before {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .no-print { display: none !important; }
+}

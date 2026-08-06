@@ -42,7 +42,7 @@ After reading, ask 3-4 students to name ONE good-UX rule and ONE bad-UX problem.
 
 **Source:** (FYF pp. 28-29: "Website Revamp", Steps 2-5)
 
-**Step 2: Investigate a Website (5 min).** Project the practice site named on the Climber Notes deck (Climber Notes: "Website Revamp", slide 2) and put it on student Chromebooks. Students click through it as a first-time customer trying to buy something.
+**Step 2: Investigate a Website (5 min).** Project the practice site named on the Climber Notes deck (Climber Notes: "Website Revamp", slide 2) and put it on student Chromebooks. The site is **Paws and Claws** at [pawsandclaws.hatsandladders.com](https://pawsandclaws.hatsandladders.com), an H&L-hosted practice website that is the same for every campus, so the day runs whether or not you have the deck. Students click through it as a first-time customer trying to buy something.
 
 **Stop and Jot:** 90 seconds of sticky notes before any list-making, one thought per note, with two stems on the board: "The first thing I tried to do was _____" and "I got stuck when _____." This is the workbook's own Step 2 task.
 

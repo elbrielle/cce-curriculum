@@ -93,6 +93,6 @@ Bottom line: My Wk0 core personality type is _______________. Which of my two ca
 
 ## Differentiation
 
-- **Support:** Pre-print the 6 Manufacturing pathways with one example Hat per pathway so students can match instead of generate. Provide a Stop and Jot template with sentence stems: "One new career I learned about is _____. One question I have is _____."
+- **Support:** Pre-print the 6 Manufacturing pathways with one example Hat per pathway so students can match instead of generate, plus a Stop and Jot template with sentence stems: "One new career I learned about is _____. One question I have is _____." Both are on one sheet: [Printable PDF](../../resources/worksheets/manufacturing-pathways-scaffold.pdf).
 - **Extension:** Students who finish the Hat Finder exploration early dig deeper into one pathway and find a real DFW employer that hires that role (Lockheed Martin in Fort Worth, Toyota in Plano, etc.).
 - **ELL:** Use H&L's browser translation. Pre-teach: Pathway = Trayectoria, Robot = Robot, Welder = Soldador, Maintenance = Mantenimiento, Electronics = Electrónica.

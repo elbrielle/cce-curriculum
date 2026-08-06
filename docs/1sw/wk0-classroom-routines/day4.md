@@ -9,7 +9,7 @@
 | **TEKS** | d(1)(A), d(1)(B) |
 | **5E Phases** | Engage: Warm-Up · Explain: Cluster recommendation review · Extend: My Career Journey reflection · Evaluate: Exit Ticket |
 | **Deliverable** | Completed My Career Journey reflection handout (turned in to teacher) |
-| **Materials** | Chromebooks, H&L accounts, engineering notebooks, *Find Your Future* workbook p. 22, printed My Career Journey reflection handout, projector |
+| **Materials** | Chromebooks, H&L accounts, engineering notebooks, *Find Your Future* workbook p. 22, printed My Career Journey reflection handout ([Printable PDF](../../resources/worksheets/my-career-journey.pdf)), projector |
 
 ---
 
@@ -45,7 +45,7 @@ Students write their top 3 recommended clusters in the engineering notebook. The
 
 **Source:** Synthesis of Core Day A and Core Day B H&L data, plus (FYF p. 22: "Building a Career Community")
 
-Distribute the printed My Career Journey reflection handout. This is the major summative assessment for Week 0. It pulls together everything students learned on Core Days A and B.
+Distribute the printed My Career Journey reflection handout ([Printable PDF](../../resources/worksheets/my-career-journey.pdf)). This is the major summative assessment for Week 0. It pulls together everything students learned on Core Days A and B.
 
 **Reflection sections (students fill in):**
 
@@ -93,6 +93,6 @@ Bottom line: name ONE thing you would still need to find out about your Rank 1 c
 
 ## Differentiation
 
-- **Support:** Provide a fill-in-the-blank version of the My Career Journey reflection with sentence stems pre-printed: "My top core personality type is ____. My top work value is ____. The cluster I want to explore is ____ because ____." For item 8, pre-print four role labels (a family member, a teacher, a coach or club sponsor, a friend) so students fill in names rather than generating categories.
+- **Support:** Provide the fill-in-the-blank version of the My Career Journey reflection ([Printable PDF](../../resources/worksheets/my-career-journey-stems.pdf)), which pre-prints sentence stems ("My top core personality type is ____, which means I like to ____") and, for item 8, four role labels (a family member, a teacher, a coach or club sponsor, a friend) so students fill in names rather than generating categories.
 - **Extension:** Students who finish early explore the H&L Hat Finder and favorite their first 3 Hats from any cluster. These become part of their Climber Profile portfolio and feed into the 4SW Wk1 Favorites Audit at mid-year.
-- **ELL:** Bilingual reflection handout with Spanish sentence stems. Pair ELL students with bilingual peers if extended conversation is needed during the reflection.
+- **ELL:** Bilingual reflection handout with Spanish sentence stems ([Printable PDF](../../resources/worksheets/my-career-journey-bilingual.pdf)). Pair ELL students with bilingual peers if extended conversation is needed during the reflection.

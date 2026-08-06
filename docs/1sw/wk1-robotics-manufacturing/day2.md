@@ -99,6 +99,6 @@ Scenario: Jamie is in 10th grade in Irving ISD. Jamie wants a Manufacturing job 
 
 ## Differentiation
 
-- **Support:** Pre-print the five Technician Checklist stages with the first one ("Identify the Problem") filled in as an example. Students complete the remaining four. For career research, pre-print the field labels in Spanish and English and provide a Welder example as a model.
+- **Support:** Pre-print the five Technician Checklist stages with the first one ("Identify the Problem") filled in as an example ([Printable PDF](../../resources/worksheets/technician-checklist-scaffold.pdf)). Students complete the remaining four. For career research, pre-print the field labels in Spanish and English and provide a Welder example as a model.
 - **Extension:** Students design their own Machine Breakdown Mystery for a different machine (a 3D printer, a school cafeteria conveyor belt, a gas pump) using the same 5-step checklist format.
 - **ELL:** Bilingual technician vocabulary card: Mechanical = Mecánico, Electrical = Eléctrico, Sensor = Sensor, Maintenance = Mantenimiento, Operator = Operador. Allow students to write checklist notes in Spanish if that lowers the cognitive load.

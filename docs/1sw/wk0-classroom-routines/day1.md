@@ -9,7 +9,7 @@
 | **TEKS** | N/A (flex day; core TEKS demonstrated on Days 2-4) |
 | **5E Phases** | Engage: Warm-Up · Explore: Lab routines walkthrough and Classroom Career Hunt · Explain: Share and Compare discussion · Evaluate: Exit Ticket |
 | **Deliverable** | Teacher's choice. Default: signed Lab Safety Contract. |
-| **Materials** | (as needed for the option chosen) Printed Lab Safety Contract, *Find Your Future* workbook pp. 2-3, Chromebooks, projector, **Engineering notebooks** (1 per student, distribute today, yearlong CCE artifact) |
+| **Materials** | (as needed for the option chosen) Printed Lab Safety Contract ([Printable PDF](../../resources/worksheets/lab-safety-contract.pdf)), *Find Your Future* workbook pp. 2-3, Chromebooks, projector, **Engineering notebooks** (1 per student, distribute today, yearlong CCE artifact) |
 
 ---
 
@@ -23,7 +23,7 @@
 
 **WARM-UP (optional, 5 min): On page 1 of your new engineering notebook, write or draw what you think you might want to be when you grow up. It is 100% okay if you have no idea. Write "I don't know yet" and draw a question mark, or write "I am still exploring." There is no wrong answer.**
 
-If you run this, distribute engineering notebooks first so students can make their Day 1 entry on page 1. Have them label the cover with their name + "CCE Engineering Notebook." Students revisit this page at 6SW Wk6 Capstone and compare. Reassure anyone who wrote "I don't know yet." That is why this class exists.
+If you run this, distribute engineering notebooks first so students can make their Day 1 entry on page 1. Have them label the cover with their name + "CCE Engineering Notebook." Students revisit this page at 6SW Wk6 Capstone and compare. Reassure anyone who wrote "I don't know yet." That is why this class exists. If the notebooks have not arrived, run today's entry on loose-leaf in a folder and have students tape or copy it onto page 1 the day the notebooks land.
 
 ---
 
@@ -39,7 +39,7 @@ This is the default option for Day 1 and carries the normal first-week routines 
 4. **Voice levels and movement.** Set **Time, Voice, Body** for the year on day one: name the four voice levels you will use (Voice 0 silent independent work, Voice 1 quick partner questions, Voice 2 group work, Voice 3 presenting), say which tasks happen at desks and which happen at the hands-on equipment, and define exactly where backpacks and extra items go so walkways stay clear.
 5. **Lab safety basics.** Walkways clear, no food or drink on tech, report damage immediately.
 
-Distribute the printed Lab Safety Contract. Students read, sign, and return. File in a Day 1 folder.
+Distribute the printed Lab Safety Contract ([Printable PDF](../../resources/worksheets/lab-safety-contract.pdf)). Its ten rules cover the five routines above plus the hands-on tool safety later maker weeks need, and it leaves two blank lines for the rules you added to the walkthrough. Students read and sign it in class, take it home for a guardian signature, and return it. File in a Day 1 folder.
 
 !!! tip "Facilitation Tip"
     The student's signature is not paperwork. It is the evidence you will reference if a rule is broken. The seriousness sets the tone for the year.
@@ -121,6 +121,6 @@ Connect this object to THREE careers:
 
 ## Differentiation
 
-- **Support:** For Option A, pair new-to-the-school students with returning students during the routines walkthrough. For Option B, pre-print a partial career hunt with 5 items already listed (chair, light bulb, water bottle, backpack, marker) so students fill in only the careers.
+- **Support:** For Option A, pair new-to-the-school students with returning students during the routines walkthrough. For Option B, hand out the partial career hunt ([Printable PDF](../../resources/worksheets/career-hunt-scaffold.pdf)), which lists 5 items already (chair, light bulb, water bottle, backpack, marker) so students fill in only the careers.
 - **Extension:** For Option B, challenge students to find at least one item in the room that took 5 or more different careers to create. They should list all 5.
-- **ELL:** Bilingual word bank of common careers in Spanish and English (Maestro = Teacher, Ingeniero = Engineer, Diseñador = Designer, Carpintero = Carpenter). For Option A, provide the Lab Safety Contract in Spanish if your campus has it, or pair ELL students with bilingual peers during the routines walkthrough.
+- **ELL:** Bilingual word bank of common careers in Spanish and English (Maestro = Teacher, Ingeniero = Engineer, Diseñador = Designer, Carpintero = Carpenter). For Option A, use the Spanish and English version of the Lab Safety Contract ([Printable PDF](../../resources/worksheets/lab-safety-contract-spanish.pdf)), which carries both languages on one page so a Spanish-speaking guardian can read what they are signing. Pair ELL students with bilingual peers during the routines walkthrough.

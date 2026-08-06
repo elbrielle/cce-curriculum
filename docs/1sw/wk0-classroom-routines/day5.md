@@ -9,7 +9,7 @@
 | **TEKS** | d(1)(B) (Option B); flex day otherwise, core TEKS demonstrated on Days 2-4 |
 | **5E Phases** | Explore: Catch-up work and menu options · Extend: Perks and Quirks career research on two new Hats · Evaluate: Exit Ticket |
 | **Deliverable** | Default: career research worksheet on 2 Hats (Option B). If any student missed a Core day, their completed catch-up work is the deliverable. |
-| **Materials** | (as needed for the option chosen) *Find Your Future* workbook pp. 4-5 and pp. 12-16, printed career research worksheet (2 per student), Chromebooks, printed cluster posters, sticky dots, Xello accounts (optional) |
+| **Materials** | (as needed for the option chosen) *Find Your Future* workbook pp. 4-5 and pp. 12-16, printed career research worksheet, 2 per student ([Printable PDF](../../resources/worksheets/career-research-worksheet.pdf)), Chromebooks, printed cluster posters, sticky dots, Xello accounts (optional) |
 
 ---
 
@@ -57,7 +57,7 @@ Open the workbook to page 4. Read the definitions together: every career (the wo
 
 **Step 3: Share and Compare (p. 5).** Partners compare their two Hats. Which career details felt most important to different people? Did anyone react very differently to the same job detail? Close with the workbook's discussion question: why is it important to look at many parts of a career instead of only one detail like salary?
 
-**Then teach the CCE worksheet.** Pass out the printed career research worksheet, the artifact every cluster week reuses. Its six fields are the same information students just gathered, arranged in the CCE order:
+**Then teach the CCE worksheet.** Pass out the printed career research worksheet ([Printable PDF](../../resources/worksheets/career-research-worksheet.pdf)), the artifact every cluster week reuses. Its six fields are not the page 5 list reordered, so name the change out loud rather than letting students assume they are copying the same table twice. Two fields carry over from page 5: education or training needed, and pay. Two fields are new and are not on page 5 at all: **What Interests You?** and **Brief Job Description**. Four page 5 rows do not appear on this sheet at all: Powerskills Needed, Other Skills Needed, Work Environment, and One Additional Fact. Those four stay in the workbook, where the perk and quirk reactions live.
 
 - **Name of Career**
 - **What Interests You?**
@@ -160,6 +160,6 @@ Bottom line: which Hat would you research more next week, and why? Use one cell 
 
 ## Differentiation
 
-- **Support:** For catch-up students, sit 1-on-1 during the first 15 minutes and walk them through the H&L activity they missed. Do not let them skip ahead. For Option B, pre-fill one row of the career research worksheet with a worked example (Veterinarian: pay, training, tools) so students copy a model before generating their own.
+- **Support:** For catch-up students, sit 1-on-1 during the first 15 minutes and walk them through the H&L activity they missed. Do not let them skip ahead. For Option B, hand these students the worked-example version of the worksheet ([Printable PDF](../../resources/worksheets/career-research-worksheet-example.pdf)), which prints a completed Veterinarian model above a blank set of the same six fields, so they copy a model before generating their own.
 - **Extension:** Students who finish any option early explore the H&L Hat Finder and favorite their first 3 Hats from any cluster. These become part of their Climber Profile portfolio and feed into the 4SW Wk1 Favorites Audit at mid-year.
-- **ELL:** Bilingual field labels for the Option B worksheet (Salario = Salary, Educación = Education, Herramientas = Tools, Ambiente de trabajo = Work environment). Bilingual cluster names for Option D (Agricultura, Arquitectura, Artes, Negocios, Educación, Energía, Ingeniería, Ciencias de la Salud, Hospitalidad, Servicios Humanos, Tecnología de la Información, Ley y Servicio Público, Manufactura, Transporte). Pair ELL students with bilingual peers for discussion-heavy options.
+- **ELL:** Bilingual field labels for the Option B worksheet ([Printable PDF](../../resources/worksheets/career-research-worksheet-bilingual.pdf)): Salario = Salary, Educación = Education, Herramientas = Tools, Ambiente de trabajo = Work environment. Bilingual cluster names for Option D (Agricultura, Arquitectura, Artes, Negocios, Educación, Energía, Ingeniería, Ciencias de la Salud, Hospitalidad, Servicios Humanos, Tecnología de la Información, Ley y Servicio Público, Manufactura, Transporte). Pair ELL students with bilingual peers for discussion-heavy options.

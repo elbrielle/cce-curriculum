@@ -24,10 +24,11 @@
 | Master Scope & Sequence (13-column pacing guide) | ✅ | [Scope & Sequence](../scope-and-sequence.md) |
 | TEKS Coverage Matrix (every d(1)–d(8) standard mapped to its weeks) | ✅ | [TEKS Coverage Matrix](teks-coverage-matrix.md) |
 | Free Resource Directory (BLS, Code.org, Canva, iCivics, etc.) | ✅ | [Free Resource Directory](free-resource-directory.md) |
-| Source grounding (every workbook activity cites a page) | ✅ | Throughout daily plans. 1SW, 2SW, and 3SW cite the Irving *Find Your Future* workbook; 4SW-6SW still cite the generic H&L workbook pending Phase C |
+| Source grounding (every workbook activity cites a page) | ✅ | Throughout daily plans. All six blocks cite the Irving *Find Your Future* workbook (realignment completed 2026-08-05) |
 | Differentiation (Support / Extension / ELL + Spanish vocab) on every day | ✅ | Every daily plan |
 | Facilitation Tip blocks (222 across the curriculum) | ✅ | Throughout daily plans |
 | Printable exit-ticket PDFs (178, one per daily exit ticket, Irving ISD branded) | ✅ | `docs/resources/exit-tickets/`, linked from every day page |
+| Printable worksheets, rubrics, and scaffolds for 1SW Wk0 + Wk1 (17 PDFs incl. the CCE career research worksheet family, My Career Journey, Lab Safety Contract EN/ES, and two teacher rubrics) | ✅ | `docs/resources/worksheets/`, linked from the Wk0 and Wk1 pages |
 | 1SW Common Formative Assessment (stimulus, 4 parts, 4-level rubric) | ✅ | [1SW CFA](../1sw/cfa.md) |
 
 ### Exit-ticket PDF pipeline
@@ -40,6 +41,17 @@ python3 build/inject_pdf_links.py   # refresh the [Printable PDF] links in day f
 ```
 
 Operating manual: `cce-curriculum/notes/exit-ticket-pdf-pipeline.md`. Do not hand-edit the generated PDFs or the design CSS in `build/exit_ticket_template/`.
+
+### Worksheet PDF pipeline (new 2026-08-05)
+
+Classroom printables (worksheets, rubrics, contracts, scaffolds) now have their own generator. Sources are markdown files in `build/worksheet_sources/`; output lands in `docs/resources/worksheets/` with the same Irving ISD branding as the exit tickets. 17 sheets shipped in the first wave (1SW Wk0 + Wk1); later weeks' sheets are queued in the Day-1 readiness backlog (`cce-curriculum/notes/day1-readiness-backlog.md`).
+
+```bash
+python3 build/build_worksheets.py            # regenerate every worksheet PDF
+python3 build/build_worksheets.py --strict   # fail on page-fit warnings
+```
+
+Same operating manual, "Worksheet pipeline" section. Do not hand-edit the generated PDFs or `build/worksheet_template/`.
 
 ### Reference assets on hand
 
@@ -62,11 +74,11 @@ Realigning 2SW and 3SW to *Find Your Future* introduced three supply requirement
 | **2SW Wk2 Days 3-4** (Law Enforcement / EMT) | **Per-pair first-aid supplies**: one triangular bandage or equivalent cloth for the sling, tape, and a popsicle stick or similar rigid splint for the finger | Students take turns as responder and injured hiker and physically apply a sling and a splint. Budget one set per pair, not one per class |
 | **3SW Wk5 Days 1-3** (Cosmetology) | **Special effects makeup supplies**: tissue or cotton for texture, liquid latex or a school-safe adhesive alternative, cream or water-based color, tweezers, and a skin-safe base surface | Special Effects Makeup is the only FYF activity the workbook itself splits across three days, and Day 2 is a hands-on build. Check student allergies before ordering; the latex substitute is the usual accommodation |
 
-Two Climber Notes decks are also now load-bearing in Health Science: **Vitals in Motion** (2SW Wk3, the tool reference and the fever, blood pressure, and pulse oximeter charts) and **Smile Squad** (2SW Wk4, Mia's five X-rays). Both are already in the repo.
+Two Climber Notes decks are also now load-bearing in Health Science: **Vitals in Motion** (2SW Wk3, the tool reference and the fever, blood pressure, and pulse oximeter charts) and **Smile Squad** (2SW Wk4, Mia's five X-rays). Both decks are on hand as teacher-held files (the repo tracks text extracts only; the `.pptx` binaries are gitignored, so they are NOT retrievable from the repo or the site — teacher hosting is an open item in `cce-curriculum/notes/day1-readiness-backlog.md`).
 
 ### New hard dependencies from the Phase C realignment (2026-08-05)
 
-Realigning 4SW, 5SW, and 6SW added four more deck dependencies and one scheduling load. Every deck named here is already in the repo at `cce-curriculum/resources/climber-notes/`; the point is that these days have no content without them.
+Realigning 4SW, 5SW, and 6SW added four more deck dependencies and one scheduling load. Every deck named here is on hand as a teacher-held file (the repo tracks text extracts at `cce-curriculum/resources/climber-notes/`, but the `.pptx` binaries are gitignored and cannot be retrieved from the repo or the site); the point is that these days have no content without them. Teacher hosting is an open item in the Day-1 readiness backlog.
 
 | Week | What it needs | Why |
 |---|---|---|
@@ -105,7 +117,7 @@ The daily plans describe WHAT students do and give the facilitation approach, bu
 
 **Examples from the curriculum that need a printable artifact:**
 
-- **1SW Wk0 Days 4-5**: My Career Journey reflection handout (persistent across the year) + the CCE career research worksheet reused by every cluster week
+- ~~**1SW Wk0 Days 4-5**: My Career Journey reflection handout + the CCE career research worksheet~~ ✅ **Built 2026-08-05** (with worked-example, stems, and bilingual variants) — see `docs/resources/worksheets/`. The full audited list of what each remaining week still needs is in `cce-curriculum/notes/day1-readiness-backlog.md` and `cce-curriculum/notes/day1-audit/`.
 - **2SW Wk1 Day 5**: Position Paper rubric + final-draft template
 - **4SW Wk1 Day 1**: Core Types vs. Favorites reconciliation worksheet
 - **4SW Wk2 Day 5**: Individual Career Plan template (the official d(8)(C) artifact)

@@ -2,6 +2,11 @@
 output/
 site/
 
+# Worksheet-pipeline test renders + transient preview HTML
+build/_fixture_out/
+build/worksheet_template/_render.html
+build/worksheet_template/_preview-*.html
+
 # Large reference PDFs (116MB+, too big for GitHub)
 cce-curriculum/resources/reference-pdfs/*.pdf
 

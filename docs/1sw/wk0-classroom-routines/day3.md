@@ -9,7 +9,7 @@
 | **TEKS** | d(1)(A), d(1)(B) |
 | **5E Phases** | Engage: Warm-Up · Explore: Discover Your Work Values and the Building Blocks inventory · Explain: Talk It Out partner share and cluster recommendations · Evaluate: Exit Ticket |
 | **Deliverable** | Top 2 work values + 3 or more Building Blocks recorded in the H&L Climber Profile, the workbook, and the engineering notebook |
-| **Materials** | *Find Your Future* workbook pp. 9-11, Climber Notes deck "Exploring Your Work Values" (projected), Chromebooks, projector, engineering notebooks, printed Building Blocks brainstorm sheet |
+| **Materials** | *Find Your Future* workbook pp. 9-11, Climber Notes deck "Exploring Your Work Values" (projected), Chromebooks, projector, engineering notebooks, printed Building Blocks word bank ([Printable PDF](../../resources/worksheets/building-blocks-word-bank.pdf)) |
 
 ---
 
@@ -68,7 +68,7 @@ Seed the inventory with a fast whole-class brainstorm before students write. Thi
 - "Who has a hobby like drawing, gaming, building things, music?"
 - "Who helps with chores at home (dishes, laundry, yard work)?"
 
-Tell students: every single one of those is a Building Block. None of them are "too small." Every one teaches a future-career skill.
+Tell students: every single one of those is a Building Block. None of them are "too small." Every one teaches a future-career skill. Hand the printed Building Blocks word bank to anyone who still has a blank page after the brainstorm, so they circle from a list instead of generating from scratch.
 
 **Step 2: Name the Skills (p. 10).** In the workbook table, students write at least one skill each Building Block is teaching them. Push them past "responsibility" toward planning, patience, persistence, and problem-solving.
 
@@ -134,6 +134,6 @@ In one sentence, why does THIS work value matter more to you than the others rig
 
 ## Differentiation
 
-- **Support:** Pre-print a Building Blocks word bank (sports, music, video games, cooking, babysitting, fixing things, drawing, helping at church, etc.). Students circle 3-5 from the bank rather than generating from scratch.
+- **Support:** Print the Building Blocks word bank ([Printable PDF](../../resources/worksheets/building-blocks-word-bank.pdf)): sports, music, video games, cooking, babysitting, fixing things, drawing, helping at church, and more. Students circle 3-5 from the bank rather than generating from scratch.
 - **Extension:** Students explore one of their recommended clusters in the H&L app and find a Hat (career) that matches both their core personality type AND their top work value. They write the Hat name in the engineering notebook.
-- **ELL:** Bilingual word bank for Building Blocks (Cocinar = Cooking, Cuidar hermanos = Babysitting siblings, Deportes = Sports, Dibujar = Drawing). Pair ELL students with bilingual peers to brainstorm aloud.
+- **ELL:** Bilingual word bank for Building Blocks ([Printable PDF](../../resources/worksheets/building-blocks-word-bank-bilingual.pdf)): Cocinar = Cooking, Cuidar hermanos = Babysitting siblings, Deportes = Sports, Dibujar = Drawing. Pair ELL students with bilingual peers to brainstorm aloud.

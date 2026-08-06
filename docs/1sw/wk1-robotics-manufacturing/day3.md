@@ -9,7 +9,7 @@
 | **TEKS** | d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explore: Bike rack design, metal and weld choices, prototype build and strength test · Explain: Class discussion on design trade-offs · Evaluate: Exit Ticket |
 | **Deliverable** | Bike rack sketch with labeled welds (FYF p. 206) + one tested prototype per pair |
-| **Materials** | *Find Your Future* workbook pp. 204-206, popsicle sticks, straws, hot glue guns and glue sticks, scissors, craft gloves, plain paper, pencils, projector |
+| **Materials** | *Find Your Future* workbook pp. 204-206, popsicle sticks, straws, hot glue guns and glue sticks (one gun per pair-station), heat-safe station mats (one per station), scrap trays, scissors, craft gloves, plain paper, pencils, projector |
 
 ---
 
@@ -72,6 +72,9 @@ Students circle the welding method(s) they will use and write WHY they chose it 
 **Step 5: Build Your Prototype (7 min).** Students pair up, compare both bike rack sketches, and choose ONE design to build together out of popsicle sticks, straws, and hot glue. The workbook asks them to watch their connection points as they build, because strong joints keep a structure stable and balanced. Pairs cut and arrange materials to match the sketch, connect the pieces into sturdy joints, try more than one way of joining pieces, and adjust as they go if a section feels weak.
 
 **Time, Voice, Body:** Post the three blocks before any glue gun is switched on. Voice 1 for build talk, hot glue guns stay on their station mat, cut straw ends go in the scrap tray, and a visible 7 minute countdown runs on the screen. Craft gloves go on before the glue does.
+
+!!! warning "Glue Stations and Burn Safety"
+    Run one glue gun per pair-station and set the number of stations by the number of working outlets, not by the number of pairs. Pairs rotate to a free station when their joints are ready to glue. Every station gets a heat-safe mat and a scrap tray, and the gun goes back on the mat the moment it leaves a student's hand. If hot glue lands on skin, run the spot under cool water and let the glue peel off on its own instead of pulling it. At the 5 minute warning, unplug every gun and leave it on its mat to cool before anyone packs it away. Supplies follow the workbook's own list (FYF p. 206: "Super Sports Manufacturing").
 
 **Step 6: Test Your Design (3 min).** Pairs test the strength of the finished structure. They press gently on different sections and answer four questions: does the structure stay balanced or wobble, which joints feel strongest, which areas need reinforcement, and what would they reinforce first. If time allows, they strengthen or redesign one weak area.
 

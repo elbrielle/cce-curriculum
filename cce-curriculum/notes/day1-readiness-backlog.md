@@ -1,0 +1,114 @@
+# Day-1 Readiness Backlog — synthesized from the 2026-08-05 teachability audit
+
+**The question this answers:** can a brand-new teacher open the live site Monday morning — with the site, a class set of the "Find Your Future" workbook, the printed exit tickets, and standard classroom stock — and teach the day? Five parallel auditors swept all 36 weeks (145 teaching days), the workbook's own teacher-provisioning assumptions, the site's onboarding surface, and the year-level assessment infrastructure.
+
+**Detail files (per-finding evidence with file:line):** `day1-audit/day1-findings-{1sw, 2sw-3sw, 4sw-5sw, 6sw-assessment, crosscut}.md`
+
+**Relationship to `docs/resources/resources-status.md`:** that page remains the site-facing status ledger and already names many of these items. This document is the prioritized work plan behind it; task S6 below syncs the two. Do not maintain two divergent ledgers — resources-status gets the status flags, this file holds the plan.
+
+---
+
+## 1. The verdict map
+
+Zero of 36 weeks are turnkey today. 18 weeks are RUNNABLE-WITH-PRINTING — meaning every gap is an artifact that must be **authored** (not just photocopied) but the content is fully specified in the prose. 18 weeks have at least one BLOCKED day:
+
+| Block | Blocked | Why (dominant cause) |
+|---|---|---|
+| 1SW | Wk0, Wk1, Wk3 (D2 only), Wk4, Wk5 | Missing keystone printables (Wk0); Sphero/micro:bit/Glowforge with no inventory check or fallback; repo-only decks; one missing URL (Wk3 D2 — one-line fix) |
+| 2SW | Wk2, Wk3 (D3-4), Wk4 (D1, D4) | Clinton Lake + Injured on the Trail decks repo-only; micro:bit; the medical-coding day's charts and answer key were never authored |
+| 3SW | Wk2 (D3), Wk5 | Canva for Education unprovisioned; SFX consumable order (~150 silicone skins) unquantified with allergy-screen lead time |
+| 4SW | Wk2, Wk3, Wk4 | d(8)(C) course-map week has no course-sequence source by either route; LEGO sets + aircraft; drones + flight space |
+| 5SW | Wk2, Wk3, Wk4 | Straw-bridge kits (400+ straws/section); Spot the Problem + Written Communication decks repo-only; Wk3 D5 jigsaw presentations never assigned by any earlier day |
+| 6SW | Wk4, Wk5 | Career Presentation Rubric (11 refs) and Interview Appearance Guide don't exist; the Wk5 seven-artifact interview packet — "the source, not the book" — doesn't exist |
+
+**Aggregate finding counts:** MISSING-PRINTABLE 216 · MISSING-SETUP 76 · MISSING-RUBRIC-OR-KEY 64 · MISSING-SUPPLY 60 · STRUCTURE 49 · REVISE 23 · MISSING-DECK 12 · VAGUE-SPEC 12 · plus per-day prep actions rolled up per week in the detail files.
+
+**The good news, verified independently by all five auditors:** the specs are done. VAGUE-SPEC is near zero everywhere (0 in 4SW-6SW). Nearly every missing artifact is described in the day pages down to fields, rows, and worked examples. This is production volume, not design work — and the PDF factory (`build/build_pdfs.py`: Chromium render, Irving branding, 16 designed formats) already exists and needs only a worksheet input contract and a multi-page rule.
+
+---
+
+## 2. The seven headline gaps (largest blast radius first)
+
+1. **The CCE career research worksheet does not exist.** ~22 files across all six blocks hand it out as "the same six-field format students learned in Wk0" (69 references in 2SW-3SW alone, in five different layout shapes). Wk0 Day 5 — where it is taught — also misdescribes its fields relative to FYF p. 5 (two fields are CCE-new, four workbook fields are dropped), so it must be built from the corrected spec in `day1-audit/day1-findings-1sw.md`, not from the Wk0 page.
+2. **The 17 Climber Notes decks are reachable by no one but Elisha.** Gitignored `.pptx`, off-site directory, and the tracked extracts hold image *counts*, not images. Fourteen workbook activities have no content without them (FYF literally prints "Get Climber Notes from your teacher"); the two orphan decks are the sole source for Wk0's personality/work-values days; the Safe or Spoofed phishing emails and Spot the Problem inspection images are unrecoverable from anything tracked. `resources-status.md` says five times they are "already in the repo" — false from any machine but Elisha's.
+3. **Assessment has no instruments.** 25 distinct rubrics referenced; 12 exist (4 only inside the student book, 4 only in the repo); 11 are bare mentions — including the Mock Interview Rubric (12 refs, the d(6)(C) summative, four different actors told to score with it) and the Career Presentation Rubric (11 refs, the year's primary d(4)(C) artifact). All 36 weekly summatives except ~3 have criteria but no levels. ~7 workbook activities with objectively-correct answers have no key. No gradebook scheme exists at any level, and no semester assessment exists or is promised.
+4. **Hardware weeks have no inventory truth and no Plan B.** Sphero (1SW Wk1), micro:bit (1SW Wk4, 2SW Wk3), Glowforge (1SW Wk5 — whose cut-queue arithmetic is off by roughly an order of magnitude), LEGO + aircraft (4SW Wk3), drones + flight space (4SW Wk4), bridge kits (5SW Wk2). Nothing states what the VILS lab owns. Free fallbacks exist for two of these (SpheroEDU simulator, MakeCode simulator) and are never mentioned.
+5. **"H&L carries DFW-localized salary data" is verified nowhere** and is the primary data source in ~9 of the 4SW-5SW weeks, feeding Rung 3's "average in your area" line — which 5SW Wk5 calls "the number the budget runs on." Every other platform assumption carries a `[VERIFY]` flag; this one never got one. If H&L returns national figures, a third of the back half loses its data source at once.
+6. **The site has no teacher onboarding.** No start-here page, no 2026-27 pacing calendar (nothing binds week numbers to dates), no platform setup path (H&L rostering, Xello licensing, eDynamic enrollment, Code.org sections, Canva/TinkerCAD classrooms — including TinkerCAD's under-13 account gate), no syllabus, no parent letter (load-bearing: Rung 4 requires a home interview), no substitute plans, no print manifest, no materials order list.
+7. **4SW Wk2 cannot produce the year's d(8)(C) artifact by any route.** The H&L District Course Planner is `[VERIFY]`-gated and the paper fallback cites an "Irving ISD CTE poster" with course sequences that exists nowhere — `PATHWAYS.md` holds pathway names only, no courses. The bilingual Family Career Plan Letter the same week `[VERIFY]`-flags does not exist either.
+
+---
+
+## 3. Workstreams
+
+Every task is tagged for the Canvas end-state: **[TG]** = lands in the future per-lesson Teacher Guide · **[SA]** = student-facing Activity module material (follows ESL 6th-7th rules) · **[SITE]** = site/infrastructure.
+
+### Workstream A — STRUCTURE: make what exists reachable (one decision, many fixes)
+
+- **A1 [SITE]** Host the 17 Climber decks + 8 H&L teacher PDFs where teachers can open them. Recommended: a district Google Drive "CCE Teacher Materials" folder (H&L copyright makes committing them to the public site inadvisable), linked from a new site page. Elisha owns the upload; the site page is buildable now.
+- **A2 [SITE]** New `docs/resources/teacher-materials.md`: publishes both INDEXes, links the Drive folder, and states per deck which weeks need it.
+- **A3 [SITE]** Put `PLATFORMS.md`, `PATHWAYS.md`, and the eDynamic unit map on the site (move/mirror into `docs/resources/`). PATHWAYS fixes eight days' "CTE Pathways poster" dependency in 4SW-5SW alone.
+- **A4 [SITE]** One-line fix: put `pawsandclaws.hatsandladders.com` on 1SW Wk3 D2 (currently locked inside a gitignored deck; the whole day hangs on it). Verified 2026-08-05: the site is live, H&L-hosted ("Paws & Claws Pet Supply"), district-agnostic — not a Bowie or Irving asset; same URL for every campus.
+- **A5 [SITE]** Reconcile the diverged duplicates: `free-resource-directory.md` and `teks-coverage-matrix.md` each exist in two drifted copies (docs/ vs cce-curriculum/). Site copy wins.
+- **A6 [SITE]** Correct `resources-status.md`'s five "already in the repo" claims and the capstone-rubric contradiction (overview says "do not print a second rubric"; status page lists one as needed — the right answer is a teacher tally sheet, workstream C).
+
+### Workstream B — BUILD: printables (the factory run)
+
+- **B1 [SA] THE KEYSTONE: the CCE career research worksheet** + its four layout variants (2-career, career-ladder, comparison, emerging-career) + worked-example and bilingual versions. Clears ~a third of all printable references. Build from the corrected six-field spec; fix the Wk0 Day 5 prose in the same pass (workstream E).
+- **B2 [SA] Universal templates** (build once, reuse all year): Active-Monitoring clipboard roster grid (closes the "clipboard already built" pattern in ~6 weeks), presentation listening grid (5+ days), notes-sheet/reference grid, peer feedback slip (Two Stars and a Wish).
+- **B3 [SA] Wk0 foundation set** (school starts here): Lab Safety Contract (+Spanish), My Career Journey handout (+stem +bilingual variants; reused at mid-year and capstone), Building Blocks word bank, career-hunt scaffold.
+- **B4 [SA] 6SW Wk5 seven-artifact interview packet** (cover letter template, job application form, references guide, interview readiness guide, question set, two-sided question cards with answer frameworks + Spanish backs, thank-you letter form). The week's own overview: the printed templates "are the source, not the book." Two of seven are nearly written already (worked cover letter, eight questions with tips).
+- **B5 [SA] Capstone spine printables:** Rung 4 Strengths Interview take-home packet + adult-facing cover note (the book can't go home with a class set; Wk6 checks notes "on page 288"); the 8-section written Career Plan template (goes home to the 9th-grade counselor — highest value-per-hour printable in 6SW); End-of-Year Reflection handout; peer feedback slips + running-order sheet.
+- **B6 [SA] Per-week worksheet packs, in calendar order** — the remaining ~100 base sheets, all fully specced in their day pages (each detail file lists them with field-level specs). Includes the one genuine content-authoring job: 2SW Wk4 D4's ICD-10 sheet, 8 patient charts, and answer key (hours of authoring, not layout).
+- **B7 [SITE] Variant policy decision (Elisha):** nearly every sheet implies a pre-filled support variant + a bilingual variant (~70 across the year). Ship with v1, or v2 wave? (The bilingual variants are exactly the future Canvas student-module ESL supports — building them is not throwaway.)
+- **B8 [SITE] Pipeline extension:** add a worksheet input contract (new marker or source dir) + multi-page pagination to `build/build_pdfs.py`. The renderer, branding, and CSS need nothing. Read `exit-ticket-pdf-pipeline.md` first; PDF regen is not byte-idempotent.
+- **B9 [TG] Missing projected assets (12):** Texas hazard map, IISD college-credit slide, SFX texture photos ×4, Foundation HS Program one-pager, airport aerials ×3, conservation drone image, bridge-type comparison, teacher presentation models. Small sourcing/typesetting jobs, one list.
+
+### Workstream C — BUILD: assessment instruments
+
+- **C1 [TG]** **Mock Interview Rubric** and **Career Presentation Rubric** first — the two highest-stakes performance instruments in the course (d(6)(C), d(4)(C)), both bare mentions today. Clone the 4-level pattern from `docs/1sw/cfa.md` (the one complete instrument in the repo).
+- **C2 [TG]** **FYF 32-point tally sheet** for capstone scoring (instrument exists in every student's book; the teacher recording sheet does not — 8 categories × 25 students can't be scored live off a presenting student's book).
+- **C3 [TG]** Weekly summative rubric library, in calendar order. Shortcut: the three unused H&L rubrics (Project Assessment 100pt, Student/Teacher Assessment 100pt, Daily Participation) cover the portfolio-style summatives with light adaptation — ratify and adapt rather than author ~36 from scratch. The two in-repo exemplars to copy: 3SW Wk1 D3's "What the Evidence Should Show" key and 3SW Wk6's "Abandon It earns full credit" rule.
+- **C4 [TG]** Answer keys for the objectively-checkable activities: Spot the Problem decoys, Smile Squad cavity risk, Ultrasound Detectives, Flight Line Fixers, truck diagnoses, HVAC tickets #2-4, sling/splint procedure, TDLR route values, Safe or Spoofed. **First step: Elisha opens the decks and checks speaker notes** — the keys may already exist there; author only what's absent.
+- **C5 [TG]** Gradebook scheme: categories, weights, what the 178 exit tickets count as, points per summative, six-weeks grade composition. **Blocked on district policy input** (does IISD require a semester exam for CTE electives? are categories mandated campus-wide?).
+- **C6 [SITE]** Fix stale RIASEC ×3 in `cfa-template.md`. CFAs 2-6 stay deliberately deferred per the template's own administer-first rule — but resolve the performance-CFA design question (resources-status line 157) before 6SW's is needed.
+
+### Workstream D — BUILD: onboarding + logistics
+
+- **D1 [SITE]** "Start Here" page: get access → order supplies → print the packet → read the prototype week. Replaces the status dashboard as a new teacher's first landing.
+- **D2 [SITE]** 2026-27 pacing calendar: week numbers → real dates, six-weeks boundaries, holidays, testing windows. **Needs the district calendar from Elisha.** Second most time-sensitive artifact after the supply order.
+- **D3 [SITE]** Platform setup guide: H&L class creation/rostering/SSO + teacher account, Xello grade-7 licensing + lesson assignment, eDynamic enrollment, Code.org sections, Canva for Education, TinkerCAD Classroom (under-13 flow), NGPF/EverFi, escalation contacts. **Most facts must come from Elisha/district** — the page structure and known steps are buildable now, with named blanks.
+- **D4 [TG]** Consolidated materials order list, quantified per section, with lead times: the crosscut master table + per-week supply rows are the raw input (sticky notes ~21 workbook pages, chart paper ~12, engineering notebooks, first-aid sets ×15, SFX kit + ~150 silicone skins with allergy-screen-first sequencing, 400+ straws/section, calculators ×30, headphones ×30, stopwatches, sticker dots, Glowforge stock, batteries).
+- **D5 [TG]** Per-six-weeks print manifest (what to print, how many, when) + combined per-week PDFs so 178+ individual links become one copy-room job.
+- **D6 [SA]** Syllabus + bilingual parent/guardian letter (the letter also pre-seeds Rung 4's home interview and the practice-application privacy note).
+- **D7 [TG]** Substitute guidance: one generic workbook-only sub day + per-week "safe to sub" flags.
+- **D8 [TG]** Weekly "Before Monday" prep lists — the audit's per-week roll-ups are the first draft; publish one per week, modeled on 6SW Wk6's existing Pre-Capstone checklist (the only one that exists).
+
+### Workstream E — REVISE: in-page fixes (~35 items, all located)
+
+- **E1** Hardware fallbacks, one sentence each: SpheroEDU simulator (1SW Wk1), MakeCode simulator (1SW Wk4, 2SW Wk3), named drone-sim app (4SW Wk4), Glowforge fallback + **re-plan the cut queue whose math doesn't close** (1SW Wk5).
+- **E2** Propagate the platform-fallback pattern the repo already does well (3SW Wk3's Climate Kids/eDynamic blocks, 6SW Wk6's export contingency) to the ~20 platform blocks that have none — most urgently 6SW Wk2 D2 (Xello Resume Builder, 28 min, named paper fallback doesn't exist → B-workstream builds it), 2SW Wk4 D3, 4SW Wk1 D3.
+- **E3** Broken logic: 5SW Wk3 D5 jigsaw presentations never assigned by any earlier day; 4SW Wk3 D4's "bilingual ATC command card from Day 1" that Day 1 never issued; 5SW Wk6 Day-3-optional/Day-4-required news-article contradiction.
+- **E4** Timing: 5 period overruns (53-55 min), 2 internal contradictions — all line-cited in the detail files.
+- **E5** Accuracy/safety: Wk0 D5 field-set claim (with B1); 1SW Wk1 heading misconception + "turn 90°" wording; 2SW Wk3 D4 activity-restriction note (asthma/cardiac/opt-out role); 2SW Wk2 latex note; mark unbuilt artifacts inline until built ("author before class" vs. implying a shelf copy).
+
+### Workstream F — AUDIT/VERIFY: questions only Elisha or the district can answer
+
+- **F1** **Does H&L show DFW-localized salary data?** (Open any Hat profile and look.) Highest-leverage single check in the backlog.
+- **F2** VILS hardware inventory: Spheros (count?), micro:bits + cables, drones + spares, LEGO sets + planes, Glowforge (exists? vented?), doc cam, calculators, headphones, stopwatches.
+- **F3** Obtain real Irving ISD CTE course sequences (counselor/coordinator) — unblocks 4SW Wk2's d(8)(C) artifact by either route.
+- **F4** Open the decks: speaker-notes answer keys? identify "Capturing the Feeling"; confirm Safe or Spoofed's intended spoofed/legit answers.
+- **F5** The standing coordinator list (~10 `[VERIFY with CTE coordinator]` flags) + district policy: semester exam requirement, gradebook categories, approved AI image tool (FYF pp. 82-83 requires one), photo/media release process.
+- **F6** Platform provisioning reality: Xello grade-7 license, eDynamic seats, H&L Coach Dashboard access, Canva for Education verification, Code.org, TinkerCAD under-13 path.
+- **F7** **Campus-specificity sweep (Elisha directive 2026-08-05):** the course serves ALL Irving ISD middle schools, not just Bowie. Sweep docs/ for prose that assumes one campus or feeder pattern (e.g., 3SW Wk1's "Nimitz HS course catalog" extension, single-campus pathway framings) and make it feeder-neutral or all-campus, matching how the FYF district pages list programs by campus. Vendor-hosted assets (H&L practice sites, decks) are district-agnostic and fine.
+
+---
+
+## 4. Suggested waves (school starts mid-August; stay ahead of the calendar)
+
+- **Wave 0 — this week (unblock Wk0-Wk1):** A1-A4 · B1 (keystone worksheet) · B3 (Wk0 set) · E1 (Sphero fallback) + F2 Sphero count · D2 calendar + D4 order list drafted (procurement lead time) · F1.
+- **Wave 1 — before school starts:** B8 pipeline extension → B6 packs for 1SW · B2 universals · D1/D3/D5/D6 · E-pass on 1SW · C-instruments for 1SW summatives + the CFA-adjacent C6.
+- **Wave 2 — first weeks of school (before 2SW):** B6/C3 for 2SW-3SW in calendar order · B4/B5 can wait but are cheap to do early · D7/D8 rolling · F3-F6 as answers arrive.
+- **Ongoing:** each six-weeks' packs + rubrics land at least two weeks before the block starts; resources-status.md updated as items ship (A6/S-sync).
+
+**Decisions needed from Elisha before Wave 1:** variant policy (B7) · Drive folder vs. other hosting for decks (A1) · gradebook/district policy inputs (C5) · district calendar (D2).

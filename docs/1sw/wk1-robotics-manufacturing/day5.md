@@ -9,7 +9,7 @@
 | **TEKS** | d(1)(B), d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explore: Sphero final runs and the two fault plans · Explain: Team presentations · Extend: Manufacturing favorites and Xello interests · Evaluate: Exit Ticket |
 | **Deliverable** | Sphero demo run + 2-minute team presentation of both fault plans + 2 Manufacturing Hats favorited in Climber Profile |
-| **Materials** | Sphero RVR+ robots, SpheroEDU app, factory floor course, *Find Your Future* workbook pp. 202-203 (and p. 209 for the extension), sticky notes, Daily Performance & Career Skills Rubric, Climber Notes deck "Quality Check" for the extension, Chromebooks, projector, Xello accounts |
+| **Materials** | Sphero RVR+ robots, SpheroEDU app, factory floor course, *Find Your Future* workbook pp. 202-203 (and p. 209 for the extension), sticky notes, Robots for Crayons Presentation Rubric, Active Monitoring clipboard roster, Climber Notes deck "Quality Check" for the extension, Chromebooks, projector, Xello accounts |
 
 ---
 
@@ -29,7 +29,10 @@ Teams have 8 minutes to refine their Sphero programs and run them through the fa
 - Did it hit any obstacles?
 - Was the path efficient or did it overshoot?
 
-**Active Monitoring:** Walk a fixed route through the stations twice during the 8 minutes. Lap 1 target: every team has a Roll block with a duration set. Lap 2 target: the Heading value names a direction, not an angle of turn. Keep the three-checkpoint clipboard from Day 4 with you and mark it as you go. If more than a handful of teams miss the lap 2 target, stop the room and reproject the Heading block instead of fixing it robot by robot.
+**Active Monitoring:** Walk a fixed route through the stations twice during the 8 minutes. Lap 1 target: every team has a Roll block with a duration set. Lap 2 target: the Heading value names a direction, not an angle of turn. Carry a clipboard printed from the [Active Monitoring Clipboard Roster](../../resources/worksheets/clipboard-roster-grid.pdf), with this week's three checkpoints written in, and mark it as you go. If more than a handful of teams miss the lap 2 target, stop the room and reproject the Heading block instead of fixing it robot by robot.
+
+!!! tip "No Robots? Run the Simulator"
+    The SpheroEDU app's built-in simulator runs the identical block program on screen, so the refinement runs and the official run both work with no hardware. With fewer than 8 robots, run teams of 4-5 and rotate the three roles between runs. With zero robots, every official run happens in the simulator, projected so the whole class watches the same screen the way it would watch the floor course.
 
 After the 8 minutes, each team gets ONE official run while the rest of the class watches. The teacher (or a designated observer) tracks: did the Sphero complete the course without hitting obstacles?
 
@@ -74,7 +77,7 @@ Teams return to the workbook and complete the planning steps:
 - The estimated time to complete and how the fix improves production
 - One Manufacturing career from the Hats & Ladders app the team would want to pursue
 
-Score each team with the **Daily Performance & Career Skills Rubric** from the H&L teacher resources: Work Ethic & Effort, Productivity & Progress, Problem-Solving & Thinking, and Communication & Collaboration, 5 points each, 20 points total.
+Score each team with the **Robots for Crayons Presentation Rubric** ([Printable PDF](../../resources/worksheets/wk1-presentation-rubric.pdf)): Problem Diagnosis, Solution Choice and Reasoning, Repair Plan Detail, and Career Connection and Delivery, 5 points each, 20 points total.
 
 **H&L Manufacturing Favorites (5 min):** After presentations, direct students to their Climber Profile.
 

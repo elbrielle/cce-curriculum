@@ -32,10 +32,11 @@ Before class, lay out a "factory floor" course on the classroom floor using pain
 
 Distribute Sphero RVR+ robots, one per team of 3-4 students. Assign roles within each team:
 
-- **Driver**: Runs the SpheroEDU app
-- **Coder**: Builds the block-based program
-- **Observer**: Watches the robot's behavior and calls out problems
-- **Connector**: Pairs the Sphero to the Chromebook (this is often the trickiest part)
+- **Coder**: Pairs the Sphero to the Chromebook, then builds the block-based program
+- **Tester**: Runs the program and reports what the robot actually did against what the team planned
+- **Navigator**: Measures the course, tracks distances and headings, and calls the next fix
+
+In a team of 4, the extra student takes Coder for the second run and the first Coder moves to Tester, so every seat changes hands at least once.
 
 Walk students through Sphero pairing:
 
@@ -47,6 +48,12 @@ Walk students through Sphero pairing:
 !!! warning "Common Issue"
     Sphero pairing fails if multiple teams try to connect to the same robot. Color-code the robots and the Chromebooks (sticker matching) so each team always works with the same Sphero.
 
+!!! warning "Before Monday: Device Prep"
+    Charge every robot the night before. The RVR+ battery is removable and takes hours to fill from flat. Connect one robot yourself ahead of class and clear any firmware-update prompt, because that prompt can eat the whole pairing window on the first connect of a term. Then test-pair that robot to one Chromebook. The app is **SpheroEDU**, which runs on a Chromebook through the web version at [edu.sphero.com](https://edu.sphero.com). On district-managed devices it needs an admin-console push and Bluetooth allowed on the student device policy, so file the IT ticket weeks ahead of this week.
+
+!!! tip "No Robots? Run the Simulator"
+    The SpheroEDU app has a built-in simulator that runs the identical block program on screen, so Activities 1 and 2 both work with no hardware at all. With fewer than 8 robots, run teams of 4-5 and rotate the three roles between runs so no student sits out. With zero robots, every team builds and runs its program in the simulator, and the taped floor course stays down so teams can pace out the distances they are programming.
+
 ---
 
 ## Activity 2: SpheroEDU Block Programming Basics (15 min)
@@ -54,13 +61,13 @@ Walk students through Sphero pairing:
 Project the SpheroEDU app on the screen. Walk students through the **block-based programming interface** one block at a time:
 
 1. **Roll**: Make the Sphero drive forward at a set speed for a set time. Show how to adjust speed (0-255) and duration (seconds).
-2. **Heading**: Set the direction the robot drives (0° = forward, 90° = right, 180° = backward, 270° = left).
+2. **Heading**: Set the direction the robot drives (0° = forward, 90° = right, 180° = backward, 270° = left). Heading is absolute, not relative: 0 is always the direction the robot was facing when the program started, no matter which way it is pointing right now. So a Heading of 90 does not mean "turn 90 degrees from here," it means "face the direction that was 90 degrees to the right of the start."
 3. **Stop**: Stop the robot.
 4. **Wait**: Pause the program for a set time.
 
 **Chunking:** Students follow along on their Chromebooks. Say what each block is for before you demonstrate it (Roll drives, Heading aims, Wait buys time, Stop protects the robot), and close each chunk with a quick visual check: "Hold up a thumb if your block is on screen." Do not release the next block until the thumbs are up. Note which block draws the most thumbs down; that block is the 3 minute re-teach at the start of Day 5.
 
-**Mini-challenge:** Have each team write a 3-block program that drives the Sphero forward 3 seconds, turns 90 degrees, and drives forward 2 seconds. Run it on the factory floor course and observe.
+**Mini-challenge:** Have each team write a 3-block program that drives the Sphero forward 3 seconds, changes its Heading to 90, and drives forward 2 seconds. Run it on the factory floor course and observe.
 
 !!! tip "Facilitation Tip"
     The first run will fail for most teams. Sphero overshoots, undershoots, or turns the wrong way. This is GOOD. Tell students: "This is debugging. Real software developers spend more time debugging than writing code." Encourage iteration, not perfection.

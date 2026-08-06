@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="{{ 'es' if language == 'bilingual' else 'en' }}">
+<head>
+<meta charset="utf-8">
+<title>{{ title }} — Irving ISD CCE</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="worksheets.css">
+</head>
+<body class="ws ws--{{ audience }} ws--kind-{{ kind }}{% if orientation == 'landscape' %} ws--landscape{% endif %}{% if language == 'bilingual' %} ws--bilingual{% endif %}">
+
+  <header class="wh">
+    <div class="wh__title-block">
+      <div class="wh__eyebrow">{{ kind_label }}</div>
+      <h1 class="wh__title">{{ title }}</h1>
+    </div>
+    <div class="wh__mark">
+      <img src="assets/iisd-logo.png" alt="Irving ISD">
+      <div class="wh__mark-sub">Career &amp;<br>College Explorations</div>
+    </div>
+    {% if audience == 'student' %}
+    <div class="wh__meta">
+      <div class="wh__meta-block has-fill">
+        <div class="wh__meta-label">Name</div>
+        <div class="wh__meta-value wh__meta-value--fill">&nbsp;</div>
+      </div>
+      <div class="wh__meta-block has-fill">
+        <div class="wh__meta-label">Date</div>
+        <div class="wh__meta-value wh__meta-value--fill">&nbsp;</div>
+      </div>
+      <div class="wh__meta-block has-fill is-period">
+        <div class="wh__meta-label">Period</div>
+        <div class="wh__meta-value wh__meta-value--fill">&nbsp;</div>
+      </div>
+    </div>
+    {% else %}
+    <div class="wh__meta wh__meta--teacher">
+      <div class="wh__teacher-chip">Teacher use</div>
+      {% if weeks %}<div class="wh__weeks">{{ weeks }}</div>{% endif %}
+    </div>
+    {% endif %}
+  </header>
+
+  <main class="wb">
+    {{ body_html | safe }}
+  </main>
+
+</body>
+</html>

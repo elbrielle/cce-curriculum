@@ -151,3 +151,93 @@ Only one location: `docs/resources/exit-tickets/*.pdf`. The link-injection pass 
 4. **Incremental rebuild** keyed on day-file mtime + SHA, if generation time becomes a concern. ~5 min for the full 173-ticket run today.
 5. **Static visual regression** snapshot folder so a future agent can diff a representative ticket per format against a checked-in baseline PNG before committing pipeline changes.
 6. **F09 = Compare-Contrast frame** if the design team wants to add an eleventh format. The Round 2 README mentioned this as a future possibility. F09 in production is Short Constructed Response; a Compare-Contrast addition should take a new number (F11+).
+
+---
+
+## Worksheet pipeline
+
+Built 2026-08-05. A second, independent generator for full printables (worksheets, rubrics, class contracts, reference sheets, scaffolds). Exit tickets are *extracted* from day pages; worksheets are *authored* as standalone source files. The two pipelines share nothing but a visual language and two helper functions.
+
+```
+build/
+├── build_worksheets.py            # front-matter + marker parser, renderer, PDF driver
+├── worksheet_sources/             # THE SOURCES (one .md per printable)
+│   └── _fixtures/                 # test fixtures, skipped by normal runs
+└── worksheet_template/
+    ├── template.html.j2           # header band + body
+    ├── worksheets.css             # tokens copied from exit-tickets.css
+    └── assets/iisd-logo.png       # copy of the exit-ticket logo
+```
+
+Output: `docs/resources/worksheets/<slug>.pdf`. Day pages link them inline with the exit-ticket link style: `[Printable PDF](../../resources/worksheets/<slug>.pdf)` (day files sit at `docs/Nsw/<week>/`).
+
+### How to run
+
+```bash
+cd "/Users/elishalucero/Coding Projects/27 CCR Planning"
+
+# generate every worksheet PDF (the closeout command)
+/usr/bin/python3 build/build_worksheets.py
+
+# one sheet, or a glob
+/usr/bin/python3 build/build_worksheets.py build/worksheet_sources/career-research-worksheet.md
+
+# parse + validate only, no rendering (fast; run this after authoring)
+/usr/bin/python3 build/build_worksheets.py --dry-run
+
+# render the test fixtures only, into build/_fixture_out/ (never into docs/)
+/usr/bin/python3 build/build_worksheets.py --fixtures
+
+# other flags: --html-only  --clean  --out-dir DIR  --strict  --quiet
+```
+
+`--fixtures` renders `build/worksheet_sources/_fixtures/*.md` **and nothing else**, into `build/_fixture_out/` (gitignored), so test output can never land in `docs/`. Normal runs skip any path containing `_fixtures`. `--strict` exits 2 if any sheet warns, which is the CI-style gate for closeout. Like the exit-ticket pipeline, output is **not byte-idempotent** (Chromium stamps `/CreationDate`), so verify with `pdftotext` and `git restore` timestamp-only churns before committing.
+
+### Source contract
+
+```
+---
+title: Career Research Worksheet
+slug: career-research-worksheet     # kebab-case, unique, = filename stem
+kind: worksheet                     # worksheet | rubric | contract | reference | scaffold
+weeks: 1sw/wk0-classroom-routines, 1sw/wk1-robotics-manufacturing
+audience: student                   # student | teacher
+variant_of:                         # parent slug, empty for masters
+language: en                        # en | bilingual
+pages: 1                            # max Letter pages
+orientation: portrait               # portrait | landscape
+---
+```
+
+Front matter is parsed as flat `key: value` lines, not YAML, so unquoted colons in a title are safe. Unknown keys warn and are ignored; bad enum values warn and fall back to the default. Body markers:
+
+| Marker | Renders |
+|---|---|
+| `[[lines: N]]` | N ruled handwriting lines at 8.5mm spacing (one div per line, so a long block splits across pages without clipping) |
+| `[[box: 2.5]]` | Empty box 2.5in tall, `break-inside: avoid` |
+| `[[pagebreak]]` | Hard page break |
+| `- [ ]` / `- [x]` | Checkbox line (unchecked / filled navy check) |
+| `______` (6+) | Inline fill-in blank on a text line |
+
+`kind` drives the header eyebrow label. `audience: student` prints the Name / Date / Period slots; `audience: teacher` prints a dashed TEACHER USE chip plus the `weeks` tags instead. Tables get a navy header row, repeat their header across pages, and give body rows a generous minimum height (11mm student, 7mm teacher) so empty cells are handwriting space. Bilingual sheets are authored as an English line with the Spanish line directly beneath it inside the same paragraph; single newlines become `<br>` (the `nl2br` extension is always on), and an italic run after a break prints in the softer secondary ink.
+
+The page chrome (sheet title left, `IRVING ISD CCE · PAGE N OF M` right, hairline rule above) is printed into the bottom page margin by Chromium's own footer template, so it repeats on every page of a multi-page sheet. The header band prints on page 1 only.
+
+### Author edge cases
+
+- **`pages:` is a budget, not a cap.** Nothing is scaled or clipped. If the rendered PDF has more pages than declared, the run warns with the real count and the sheet still renders. Trim content or raise `pages:`.
+- **Markers inside a markdown table row are dropped** with a warning. An empty cell is already handwriting space, so write the table and leave the cell blank.
+- **A marker sharing a line with prose is split out** around the prose, so `**3.** Why? [[lines: 2]]` works. Inside a list item it breaks the item out of the list, so put the marker on its own line there.
+- **A trailing `[[pagebreak]]`** is dropped with a warning; it would print a blank page.
+- **`[[pagebreak]]` on a `pages: 1` sheet** warns. Content after a break always starts a new page, so a break plus a short page 1 still costs a full page.
+- **Slug is authoritative for the filename.** A slug that does not match the filename stem warns, and duplicate slugs across two sources are an error (the second file is skipped).
+- **H1 in the body is not the title.** The title comes from front matter and prints in the header band. An H1 written in the body renders like an H2 section rule.
+- Ceilings: `pages` 12, `[[lines: N]]` 60, `[[box: H]]` 0.25in to 9.0in. Out-of-range values clamp with a warning.
+
+### Implementation decisions worth knowing
+
+- **No `@page { size: ... }` in `worksheets.css`.** A CSS page size silently wins over Playwright's `format`/`landscape` arguments, which forced every sheet to portrait. Size, orientation, and margins all come from the `page.pdf()` call in `build_worksheets.py` (Letter, margins 0.5 / 0.55 / 0.62 / 0.55in).
+- **`build/exit_ticket_template/` is untouched.** `worksheets.css` copies the `:root` token block from `exit-tickets.css` rather than importing it, so a design refresh to the exit tickets cannot silently reflow every worksheet. If the design team ships new tokens, re-copy that block by hand.
+- **`build_worksheets.py` imports `slugify`, `INLINE_UNDERSCORES`, and `UNDERSCORE_LINE` from `build_pdfs.py`** so slug rules and blank-run handling stay identical across the two families. `build_pdfs.py` itself is unchanged and import-safe.
+- **Ruled lines are plain rules, not the exit ticket's gold-tinted `.lines` block.** A worksheet can carry twenty writing lines; a full page of gold tint is a toner problem in a classroom that prints grayscale. Spacing still uses the design system's 8.5mm `--rule-h` token.
+- **Page-count verification** shells out to `pdfinfo`, falling back to a byte scan of `/Type /Page` objects if poppler is missing.

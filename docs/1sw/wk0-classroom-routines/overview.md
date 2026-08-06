@@ -32,15 +32,15 @@ Students complete the load-bearing CCE self-discovery activities in **three core
 - *Find Your Future* workbook, World of Work chapter (printed pp. 9-11 for Building Blocks)
 - Climber Notes decks for Days 2 and 3 (Climber Notes: "Learning Your Core Personality Types" and "Exploring Your Work Values"), projected from the teacher machine
 - Projector for teacher modeling
-- Printed "My Career Journey" reflection handout (1 per student; used on Core Day C)
-- Printed Building Blocks brainstorm sheet (used on Core Day B)
+- Printed "My Career Journey" reflection handout (1 per student; used on Core Day C) ([Printable PDF](../../resources/worksheets/my-career-journey.pdf))
+- Printed Building Blocks word bank (support scaffold for Core Day B) ([Printable PDF](../../resources/worksheets/building-blocks-word-bank.pdf))
 - Engineering notebooks (carry forward from Day 1 distribution)
 
 **Flex Days (1 and 5), as needed based on the options you choose:**
 
-- Printed Lab Safety Contract (1 per student; for Day 1 default option)
+- Printed Lab Safety Contract (1 per student; for Day 1 default option) ([Printable PDF](../../resources/worksheets/lab-safety-contract.pdf))
 - *Find Your Future* workbook printed pp. 2-3 (Classroom Career Hunt), pp. 4-5 (Perks and Quirks), pp. 12-16 (Powerskills and Design Thinking)
-- Printed career research worksheet (CCE artifact; 2 copies per student for the Day 5 default option)
+- Printed career research worksheet (CCE artifact; 2 copies per student for the Day 5 default option) ([Printable PDF](../../resources/worksheets/career-research-worksheet.pdf))
 - Sticky dots and 14 CTE cluster posters or printed cluster cards (if running the Gallery Walk option)
 - Xello student accounts, pre-rostered (only if your district requires Xello onboarding during Week 0)
 - Backup: CareerOneStop Interest Assessment ([careeronestop.org](https://www.careeronestop.org/ExploreCareers/Assessments/interests.aspx)) if H&L SSO is unavailable
@@ -123,16 +123,16 @@ The workbook has no personality-type page and no work values page. Both live in 
 
 ## Summative Assessment
 
-**My Career Journey Reflection Handout (collected end of Core Day C / Day 4):** Students synthesize their core personality type, top 2 work values, 3 or more Building Blocks, top H&L cluster recommendations, and three people in their career community into a single written reflection. Scored on completeness, self-awareness, and ability to connect their assessment data to specific cluster curiosity. This document is revisited at mid-year (4SW Wk1-2 Career Plan) and end-of-year (6SW Wk6 Final Career Plan). It is a living artifact, not a one-time worksheet.
+**My Career Journey Reflection Handout (collected end of Core Day C / Day 4):** Students synthesize their core personality type, top 2 work values, 3 or more Building Blocks, top H&L cluster recommendations, and three people in their career community into a single written reflection. Scored on completeness, self-awareness, and ability to connect their assessment data to specific cluster curiosity, using the 4-level rubric for those three dimensions ([Printable PDF](../../resources/worksheets/wk0-career-journey-rubric.pdf)). This document is revisited at mid-year (4SW Wk1-2 Career Plan) and end-of-year (6SW Wk6 Final Career Plan). It is a living artifact, not a one-time worksheet.
 
 ## Differentiation
 
 ### Scaffolded Learning
 
-- Pre-filled sentence stems on the reflection handout: "My top personality type is _____, which means I like to _____. One career that might fit me is _____."
+- Pre-filled sentence stems on the reflection handout ([Printable PDF](../../resources/worksheets/my-career-journey-stems.pdf)): "My top personality type is _____, which means I like to _____. One career that might fit me is _____."
 - For students who struggle with reading, pair them with a partner who reads assessment items aloud.
 - Provide a simplified visual version of the 14 H&L clusters with icons and 1-sentence descriptions.
-- Pre-print a Building Blocks word bank (sports, music, video games, cooking, babysitting, fixing things, drawing, etc.) so students can circle theirs rather than generate from scratch.
+- Print the Building Blocks word bank ([Printable PDF](../../resources/worksheets/building-blocks-word-bank.pdf)): sports, music, video games, cooking, babysitting, fixing things, drawing, and more, so students can circle theirs rather than generate from scratch.
 
 ### Extensions
 
@@ -145,4 +145,4 @@ The workbook has no personality-type page and no work values page. Both live in 
 - H&L is compatible with browser-based translation tools. Show ELL students how to enable Google Translate page translation.
 - Pre-teach key vocabulary in Spanish: Career Cluster = Grupo de carreras, Personality = Personalidad, Values = Valores, Building Blocks = Bloques de construcción, Pathway = Trayectoria.
 - Pair ELL students with bilingual peers during the Core Day A Discover Your Core assessment for read-aloud support.
-- Provide a bilingual version of the My Career Journey reflection handout with Spanish sentence stems.
+- Provide the bilingual version of the My Career Journey reflection handout with Spanish sentence stems ([Printable PDF](../../resources/worksheets/my-career-journey-bilingual.pdf)).
