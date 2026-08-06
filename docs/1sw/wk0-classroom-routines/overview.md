@@ -6,7 +6,9 @@
 
 Students complete the load-bearing CCE self-discovery activities in **three core class periods** and use **two flex periods** to establish lab routines, safety expectations, and campus-specific first-week activities. Core outputs: H&L Climber Profile setup, core personality type, top 2 work values, three or more Building Blocks, and the My Career Journey reflection. The Day 5 flex period also teaches the career research worksheet that every later week reuses. Every later H&L recommendation depends on these core outputs.
 
-**Learning Target:** I can name my core personality type and my top two work values, list at least three of my Building Blocks, and explain how those results point to career clusters I want to explore.
+Week 0 also establishes the two required Xello starting points: students confirm district SSO access and select an after-high-school goal. Schedule that 25-minute block on either flex day; it should not displace the three Hats & Ladders core days.
+
+**Learning Target:** I can name my core personality type and my top two work values, list at least three of my Building Blocks, explain how those results point to career clusters I want to explore, and record my current after-high-school goal in Xello.
 
 **Success Criteria:** I will know I am successful when my Climber Profile shows my core personality type, my top two work values, and at least three Building Blocks, and when the My Career Journey reflection lists my top three recommended clusters, one career I am curious about with two sentences on why, and three people in my career community.
 
@@ -42,7 +44,7 @@ Students complete the load-bearing CCE self-discovery activities in **three core
 - *Find Your Future* workbook printed pp. 2-3 (Classroom Career Hunt), pp. 4-5 (Perks and Quirks), pp. 12-16 (Powerskills and Design Thinking)
 - Printed career research worksheet (CCE artifact; 2 copies per student for the Day 5 default option) ([Printable PDF](../../resources/worksheets/career-research-worksheet.pdf))
 - Sticky dots and 14 CTE cluster posters or printed cluster cards (if running the Gallery Walk option)
-- Xello student accounts, pre-rostered (only if your district requires Xello onboarding during Week 0)
+- Xello student accounts, pre-rostered (required Week 0 starting tasks: Log in to Xello and After high school goal)
 - Backup: CareerOneStop Interest Assessment ([careeronestop.org](https://www.careeronestop.org/ExploreCareers/Assessments/interests.aspx)) if H&L SSO is unavailable
 
 ## Career Connection
@@ -96,9 +98,9 @@ The workbook has no personality-type page and no work values page. Both live in 
     2. **Core B (Day 3 default):** Work values (top 2) + Building Blocks (3 or more)
     3. **Core C (Day 4 default):** My Career Journey reflection handout (synthesis + summative)
 
-    **Flex days (teacher's choice; no mandatory activities):**
+    **Flex days (teacher's choice, with one required Xello block):**
 
-    Day 1 default is Monday lab routines. Day 5 default is Friday catch-up plus the career research worksheet, the one flex item later weeks depend on. Use the flex days for the Lab Safety Contract, the Classroom Career Hunt, Perks and Quirks, the Powerskills chart and Trading Card, the Design Thinking Powerskill, the Gallery Walk, Xello onboarding (if your district requires it), campus events, or anything else your first week demands. Verbs: **keep, substitute, compress, skip entirely.** Zero minutes of the flex menu is fine, with the one exception noted below.
+    Day 1 default is Monday lab routines. Day 5 default is Friday catch-up plus the career research worksheet, the one flex item later weeks depend on. Place the required 25-minute Xello access-and-goal block on whichever flex day is cleaner. Use the remaining flex time for the Lab Safety Contract, the Classroom Career Hunt, Perks and Quirks, the Powerskills chart and Trading Card, the Design Thinking Powerskill, the Gallery Walk, campus events, or other first-week needs. If both flex days disappear, complete the Xello block and career research format during the first clean periods of 1SW Wk1.
 
     !!! note "One flex item has a downstream dependency"
         The career research worksheet taught in Day 5 Option B is reused in every cluster week starting with 1SW Wk1 Day 2, where the plan names it as a format students already know. If Friday is eaten by a campus event, run Option B in your first clean period of 1SW Wk1 before that Day 2 worksheet goes out.
@@ -113,9 +115,11 @@ The workbook has no personality-type page and no work values page. Both live in 
 | 4 | **Core C** | My Career Journey Reflection (synthesis) | Completed My Career Journey handout (collected) | Engage · Explain · Extend · Evaluate |
 | 5 | **Flex** | Catch-Up + Career Research Format (Friday flex day) | Career research worksheet on 2 Hats (default) or teacher's choice | Explore · Extend · Evaluate |
 
+**Required Xello placement:** Add **Log in to Xello + After high school goal** (25 minutes total) to Day 1 or Day 5. These are the only Xello completion tasks assigned in Week 0. Matchmaker and the remaining Grade 8 standards spiral into later modules.
+
 ## Formative Assessment
 
-- **Day 1 (Flex):** Concept Map exit ticket on one classroom object and the three careers behind it, if Option B ran. *d(1)(B)*
+- **Day 1 (Flex):** Xello login and after-high-school goal completion; Concept Map exit ticket on one classroom object and the three careers behind it if the Career Hunt ran. *d(1)(B)*
 - **Day 2 (Core A):** Core personality type recorded in the Climber Profile and the engineering notebook, plus the Diagnostic MCQ exit ticket; check for evidence students read their result description rather than just copying the type name. *d(1)(A)*
 - **Day 3 (Core B):** Top 2 work values selected + 3 or more Building Blocks in the Climber Profile, plus the Trade-off exit ticket. *d(1)(A)*
 - **Day 4 (Core C):** My Career Journey reflection handout completion quality (synthesis of Days 2 and 3 data), plus the Ranked Justification exit ticket. *d(1)(A), d(1)(B)*

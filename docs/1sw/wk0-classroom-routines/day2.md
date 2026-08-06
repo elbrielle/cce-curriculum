@@ -26,16 +26,13 @@ Collect quick verbal responses. Tell students they will test their prediction in
 
 ---
 
-## Activity 1: What is CTE? Xello Module (5 min)
+## Activity 1: What is CTE? (5 min)
 
-**Source:** Bowie Grade 8 Xello Completion Standard, district custom lesson "What is CTE?," framed with (FYF pp. 21-22: "What is Happening at My District?")
+**Source:** (FYF pp. 21-22: "What is Happening at My District?")
 
-Before students log into H&L, frame CCE as the middle-school on-ramp into Irving ISD's CTE pathways that begin in 8th grade and accelerate at Singley, MacArthur, Nimitz, Cardwell, and Irving High. Open the workbook to page 21 and use the two definitions printed there: CCMR is College, Career, and Military Readiness, and a Program of Study is a sequence of related courses that pairs classroom learning with hands-on experience. Ask the page's own question: why is it helpful to start thinking about goals after high school now, before you get there? Students then log into Xello and launch the district's "What is CTE" module. They work through it at their own pace and return to the group when finished.
+Before students log into H&L, frame CCE as the middle-school on-ramp into Irving ISD's CTE pathways that begin in 8th grade and accelerate at Singley, MacArthur, Nimitz, Cardwell, and Irving High. Open the workbook to page 21 and use the two definitions printed there: CCMR is College, Career, and Military Readiness, and a Program of Study is a sequence of related courses that pairs classroom learning with hands-on experience. Ask the page's own question: why is it helpful to start thinking about goals after high school now, before you get there?
 
-> [VERIFY IN Xello] Confirm the district-created "What is CTE" module is published in your Xello account at the start of the semester. If it is not yet pushed, run the framing straight from the workbook's district pages (FYF pp. 21-22) and the Irving ISD CTE Offerings by Campus page (irvingisd.net).
-
-!!! warning "Common Issue"
-    Xello and H&L use different SSO providers. If a student cannot log into Xello, have them start Activity 2 on H&L instead and return to the Xello module during Day 5 catch-up. Do not let a Xello login block H&L setup.
+Keep this framing to five minutes so the H&L assessment has enough time. The required Week 0 Xello tasks are handled on Day 1 or Day 5; they do not replace this core-day sequence.
 
 ---
 

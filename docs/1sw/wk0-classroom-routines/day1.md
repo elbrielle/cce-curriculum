@@ -5,17 +5,17 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | (Teacher-chosen) Establish CCE lab routines and expectations; run campus-required first-week activities; resolve technology access issues |
+| **Objectives** | Establish CCE lab routines and expectations; confirm Xello access and record an after-high-school goal; run campus-required first-week activities and resolve technology access issues |
 | **TEKS** | N/A (flex day; core TEKS demonstrated on Days 2-4) |
 | **5E Phases** | Engage: Warm-Up · Explore: Lab routines walkthrough and Classroom Career Hunt · Explain: Share and Compare discussion · Evaluate: Exit Ticket |
-| **Deliverable** | Teacher's choice. Default: signed Lab Safety Contract. |
-| **Materials** | (as needed for the option chosen) Printed Lab Safety Contract ([Printable PDF](../../resources/worksheets/lab-safety-contract.pdf)), *Find Your Future* workbook pp. 2-3, Chromebooks, projector, **Engineering notebooks** (1 per student, distribute today, yearlong CCE artifact) |
+| **Deliverable** | Signed Lab Safety Contract or teacher-selected routine artifact; Xello login and after-high-school goal completed here or on Day 5 |
+| **Materials** | Xello accounts, printed Lab Safety Contract ([Printable PDF](../../resources/worksheets/lab-safety-contract.pdf)), *Find Your Future* workbook pp. 2-3, Chromebooks, projector, **Engineering notebooks** (1 per student, distribute today, yearlong CCE artifact) |
 
 ---
 
 !!! abstract "This is a flex day. Pick what your campus needs."
 
-    Day 1 is the natural routines day. Use the full period for Lab Routines + Safety Contract, run the short World of Work chapter activity below, handle a campus event, or let SSO and roster issues resolve. The core CCE content begins on Day 2. Zero minutes of these options is fine if your campus ate Monday.
+    Day 1 is the natural routines day. Use the full period for Lab Routines + Safety Contract, run the short World of Work chapter activity below, handle a campus event, or let SSO and roster issues resolve. The core CCE content begins on Day 2. The required Xello access-and-goal block may run today or on Day 5; if Monday disappears, protect Days 2-4 and move Xello to Friday.
 
 ---
 
@@ -48,7 +48,19 @@ This option can fill 40 to 45 minutes (the full period minus warm-up) on campuse
 
 ---
 
-## Option B: Classroom Career Hunt
+## Option B: Xello Access and First Goal (Required This Week)
+
+**Source:** Bowie Grade 8 Xello Completion Standards, "Log in to Xello" and "After high school goal."
+
+Students launch Xello through district SSO and confirm that the dashboard loads. After access is confirmed, students open **About Me** and select one after-high-school goal: **Not sure yet, More school or training,** or **Alternate route**. Tell students that the choice is a starting point and can change as they learn more this year.
+
+Allow 25 minutes for the two tasks. Do not add Matchmaker, Personality Style, Learning Style, Skills Lab, or Mission Complete to this block. Matchmaker needs its own 30-minute lesson, and the live Grade 8 configuration does not assign Skills Lab or Mission Complete.
+
+If a student cannot log in, record the student's name for the campus roster check and let the student continue with the non-Xello option. Do not spend the whole class troubleshooting one account. The Day 5 guide repeats this block for catch-up.
+
+---
+
+## Option C: Classroom Career Hunt
 
 **Source:** (FYF pp. 2-3: "Classroom Career Hunt")
 
@@ -81,7 +93,7 @@ This option fits in about 20 minutes. Use alongside a shortened Option A if you 
 
 ---
 
-## Option C: Campus Event Buffer or Tech Access Resolution
+## Option D: Campus Event Buffer or Tech Access Resolution
 
 If your campus has a Cub Camp, orientation, ID photos, schedule changes, roster churn, SSO setup, or any other first-week event, this is the day to absorb it. The core CCE content begins Day 2. Protect those three days over this one.
 
@@ -89,7 +101,7 @@ If your campus has a Cub Camp, orientation, ID photos, schedule changes, roster 
 
 ## Exit Ticket (Optional)
 
-Run this ticket if Option B ran. If the period was all routines and campus business, the signed Safety Contract is the day's artifact and no ticket is needed.
+Run this ticket if the Classroom Career Hunt ran. If the period was routines, Xello, and campus business, use the signed Safety Contract and Xello completion as the day's artifacts.
 
 **EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/1sw-wk0-day1-lab-routines-and-your-choice-flex-day.pdf):
 
