@@ -197,7 +197,7 @@ After Canvas verification:
 Run local checks through an explicit temporary dependency environment so future agents do not depend on whichever Python packages happen to be installed globally:
 
 ```bash
-uv run --with beautifulsoup4 --with textstat python <template-qa-script>
+uv run --with beautifulsoup4 --with textstat python build/canvas/qa_templates.py 'wkN-*.html'
 uv run --with mkdocs-material --with mike mkdocs build --strict
 ```
 

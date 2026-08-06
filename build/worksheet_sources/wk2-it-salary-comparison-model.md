@@ -17,12 +17,12 @@ orientation: portrait
 
 ## Compare the 3 Careers
 
-The **H&L DFW Salary** row comes from your Day 2 notebook notes. The other rows come from the BLS page for that career.
+The **DFW salary** row comes from Xello local data unless your teacher gives you a dated, verified H&L range. The other rows come from the BLS page for that career.
 
 | Field | Career 1 (model) | Career 2 | Career 3 |
 |---|---|---|---|
 | **Career Name** | Software Developer | | |
-| **H&L DFW Salary** (the range in the app) | About $70,000 to start in DFW, and $130,000 or more after 10 years | | |
+| **DFW Salary** (Xello or teacher-verified local range) | Teacher adds the current verified local range and retrieval date | | |
 | **BLS National Median** (the pay row in Quick Facts) | About $130,000 a year | | |
 | **Typical Education** (school needed to start) | Bachelor's degree (4 years of college) | | |
 | **Job Growth Rate** (the Job Outlook percent) | About 17%, much faster than average | | |
@@ -55,20 +55,20 @@ The **H&L DFW Salary** row comes from your Day 2 notebook notes. The other rows 
 
 [[lines: 2]]
 
-## Hour of Code Reflection (fill in on Day 5)
+## IT Career Fit Reflection (fill in on Day 5)
 
-**1.** The Hour of Code activity I did was
-
-[[lines: 1]]
-
-**2.** One programming concept I used was ______ and here is what it did in my code:
+**1.** The IT pathway I rated was ______ because
 
 [[lines: 1]]
 
-**3.** The IT career I favorited is ______ because
+**2.** One fact from my salary table that changed or confirmed my thinking was
 
 [[lines: 1]]
 
-**4.** Can I see myself working in IT? Yes, no, or not sure, and why:
+**3.** One IT career I reviewed was ______. It fits / does not fit me because
+
+[[lines: 1]]
+
+**4.** Can I see myself working in IT? Yes, no, or not sure. Use evidence from this week:
 
 [[lines: 1]]

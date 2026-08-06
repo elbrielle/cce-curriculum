@@ -86,3 +86,24 @@ This log records the official Canvas build without storing access credentials or
 - Student guides include the hardware-independent Sphero simulator route. Day 5 identifies the Robots for Crayons presentation as the major evidence and keeps Xello/H&L profile work secondary to the required presentation.
 - Browser QA: Day 1 student and Day 5 student/teacher pages rendered correctly in Canvas; locked workbook and slide-deck visuals loaded, including the disclosure-based Quality Check set; the Day 5 student and teacher pages had no horizontal overflow at a 390-pixel viewport. Remaining Day 2-4 browser spot checks are required before publication.
 - Importer: `build/canvas/build_wk1.py`
+
+## 2026-08-06 — 1SW Week 2 paired lesson set
+
+- Module: `1SW Wk2: Code Your Future - Programming Careers in IT` (542950)
+- State: unpublished
+- Teacher item IDs: Day 1 5294967, Day 2 5294969, Day 3 5294971, Day 4 5294973, Day 5 5294975
+- Student item IDs: Day 1 5294968, Day 2 5294970, Day 3 5294972, Day 4 5294974, Day 5 5294976
+- Locked Canvas visual folders:
+  - Day 1: 1152515
+  - Day 2: 1152516
+  - Day 3: 1152517
+  - Day 4: 1152518
+  - Day 5: 1152519
+- All ten pages and the parent module are unpublished. A second importer run returned the same module, folder, page, and item IDs without duplicates.
+- District-sequence correction applied in Canvas: Week 2 uses the required Xello Personality Style task (Matchmaker prerequisite); Favorite Clusters remains assigned to the later district window.
+- Supplemental-tool correction applied: Code.org is an optional programming-practice route with an equal no-login/paper evidence path. Vendor tutorial completion is not part of the major grade.
+- Salary-source correction applied: Xello is the default localized salary source; H&L is allowed only when the teacher records a dated, live-verified local range. BLS remains the national source.
+- Major-grade package revised to the IT Salary Comparison plus Career Fit Reflection, 20 points. The rubric explicitly identifies it as one of the six weeks' major grades.
+- Automated template QA: no skipped headings, missing alt text, unlabeled disclosure sections, layout tables, legacy Canvas tabs, or unresolved structural fields. Student template reading levels ranged from FK 6.2 to 8.6 before live Canvas rendering.
+- Browser QA is still required before publication because the Chrome session had already been finalized when this module finished building.
+- Importer: `build/canvas/build_wk2.py`

@@ -21,14 +21,14 @@ Pick 3 careers: **Software Developer**, **Web Developer**, and one more programm
 
 ## Compare the 3 Careers / Compara las 3 carreras
 
-The **H&L DFW Salary** row comes from your Day 2 notebook notes. The other rows come from the BLS page.
+The **DFW salary** row comes from Xello local data unless your teacher gives you a dated, verified H&L range. The other rows come from the BLS page.
 
 *La fila del salario en DFW viene de tus apuntes del cuaderno del Día 2. Las otras filas vienen de la página de BLS.*
 
 | Field / Campo | Career 1 / Carrera 1 | Career 2 / Carrera 2 | Career 3 / Carrera 3 |
 |---|---|---|---|
 | **Career Name**<br>*Nombre de la carrera* | | | |
-| **H&L DFW Salary**<br>*Salario en DFW (de la app)* | | | |
+| **DFW Salary**<br>*Salario en DFW (Xello o una fuente local verificada)* | | | |
 | **BLS National Median**<br>*Salario medio nacional (BLS)* | | | |
 | **Typical Education**<br>*Educación que se necesita* | | | |
 | **Job Growth Rate**<br>*Crecimiento del empleo* | | | |
@@ -67,28 +67,28 @@ The **H&L DFW Salary** row comes from your Day 2 notebook notes. The other rows 
 
 [[lines: 2]]
 
-## Hour of Code Reflection (Day 5) / Reflexión de Hour of Code (Día 5)
+## IT Career Fit Reflection (Day 5) / Reflexión sobre carreras de IT (Día 5)
 
-**1.** The Hour of Code activity I did was
+**1.** The IT pathway I rated was ______ because
 
-*La actividad de Hour of Code que hice fue*
-
-[[lines: 1]]
-
-**2.** One programming concept I used was ______ and here is what it did in my code:
-
-*Un concepto de programación que usé fue ______ y esto es lo que hizo en mi código:*
+*La ruta de IT que evalué fue ______ porque*
 
 [[lines: 1]]
 
-**3.** The IT career I favorited is ______ because
+**2.** One fact from my salary table that changed or confirmed my thinking was
 
-*La carrera de tecnología que marqué como favorita es ______ porque*
+*Un dato de mi tabla de salarios que cambió o confirmó mis ideas fue*
 
 [[lines: 1]]
 
-**4.** Can I see myself working in IT? Yes, no, or not sure, and why:
+**3.** One IT career I reviewed was ______. It fits / does not fit me because
 
-*¿Me veo trabajando en tecnología? Sí, no, o todavía no sé, y por qué:*
+*Una carrera de tecnología que revisé fue ______. Me queda / no me queda porque*
+
+[[lines: 1]]
+
+**4.** Can I see myself working in IT? Yes, no, or not sure. Use evidence from this week:
+
+*¿Me veo trabajando en tecnología? Sí, no, o todavía no sé. Usa evidencia de esta semana:*
 
 [[lines: 1]]
