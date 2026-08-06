@@ -8980,6 +8980,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#worksheet-pdf-pipeline-new-2026-08-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worksheet PDF pipeline (new 2026-08-05)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#reference-assets-on-hand" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -9322,6 +9333,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#worksheet-pdf-pipeline-new-2026-08-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Worksheet PDF pipeline (new 2026-08-05)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#reference-assets-on-hand" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -9542,7 +9564,7 @@
 <tr>
 <td>Source grounding (every workbook activity cites a page)</td>
 <td>✅</td>
-<td>Throughout daily plans. 1SW, 2SW, and 3SW cite the Irving <em>Find Your Future</em> workbook; 4SW-6SW still cite the generic H&amp;L workbook pending Phase C</td>
+<td>Throughout daily plans. All six blocks cite the Irving <em>Find Your Future</em> workbook (realignment completed 2026-08-05)</td>
 </tr>
 <tr>
 <td>Differentiation (Support / Extension / ELL + Spanish vocab) on every day</td>
@@ -9560,6 +9582,11 @@
 <td><code>docs/resources/exit-tickets/</code>, linked from every day page</td>
 </tr>
 <tr>
+<td>Printable worksheets, rubrics, and scaffolds for 1SW Wk0 + Wk1 (17 PDFs incl. the CCE career research worksheet family, My Career Journey, Lab Safety Contract EN/ES, and two teacher rubrics)</td>
+<td>✅</td>
+<td><code>docs/resources/worksheets/</code>, linked from the Wk0 and Wk1 pages</td>
+</tr>
+<tr>
 <td>1SW Common Formative Assessment (stimulus, 4 parts, 4-level rubric)</td>
 <td>✅</td>
 <td><a href="../../1sw/cfa/">1SW CFA</a></td>
@@ -9572,6 +9599,12 @@
 python3<span class="w"> </span>build/inject_pdf_links.py<span class="w">   </span><span class="c1"># refresh the [Printable PDF] links in day files</span>
 </code></pre></div>
 <p>Operating manual: <code>cce-curriculum/notes/exit-ticket-pdf-pipeline.md</code>. Do not hand-edit the generated PDFs or the design CSS in <code>build/exit_ticket_template/</code>.</p>
+<h3 id="worksheet-pdf-pipeline-new-2026-08-05">Worksheet PDF pipeline (new 2026-08-05)</h3>
+<p>Classroom printables (worksheets, rubrics, contracts, scaffolds) now have their own generator. Sources are markdown files in <code>build/worksheet_sources/</code>; output lands in <code>docs/resources/worksheets/</code> with the same Irving ISD branding as the exit tickets. 17 sheets shipped in the first wave (1SW Wk0 + Wk1); later weeks' sheets are queued in the Day-1 readiness backlog (<code>cce-curriculum/notes/day1-readiness-backlog.md</code>).</p>
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>build/build_worksheets.py<span class="w">            </span><span class="c1"># regenerate every worksheet PDF</span>
+python3<span class="w"> </span>build/build_worksheets.py<span class="w"> </span>--strict<span class="w">   </span><span class="c1"># fail on page-fit warnings</span>
+</code></pre></div>
+<p>Same operating manual, "Worksheet pipeline" section. Do not hand-edit the generated PDFs or <code>build/worksheet_template/</code>.</p>
 <h3 id="reference-assets-on-hand">Reference assets on hand</h3>
 <table>
 <thead>
@@ -9633,9 +9666,9 @@ python3<span class="w"> </span>build/inject_pdf_links.py<span class="w">   </spa
 </tr>
 </tbody>
 </table>
-<p>Two Climber Notes decks are also now load-bearing in Health Science: <strong>Vitals in Motion</strong> (2SW Wk3, the tool reference and the fever, blood pressure, and pulse oximeter charts) and <strong>Smile Squad</strong> (2SW Wk4, Mia's five X-rays). Both are already in the repo.</p>
+<p>Two Climber Notes decks are also now load-bearing in Health Science: <strong>Vitals in Motion</strong> (2SW Wk3, the tool reference and the fever, blood pressure, and pulse oximeter charts) and <strong>Smile Squad</strong> (2SW Wk4, Mia's five X-rays). Both decks are on hand as teacher-held files (the repo tracks text extracts only; the <code>.pptx</code> binaries are gitignored, so they are NOT retrievable from the repo or the site — teacher hosting is an open item in <code>cce-curriculum/notes/day1-readiness-backlog.md</code>).</p>
 <h3 id="new-hard-dependencies-from-the-phase-c-realignment-2026-08-05">New hard dependencies from the Phase C realignment (2026-08-05)</h3>
-<p>Realigning 4SW, 5SW, and 6SW added four more deck dependencies and one scheduling load. Every deck named here is already in the repo at <code>cce-curriculum/resources/climber-notes/</code>; the point is that these days have no content without them.</p>
+<p>Realigning 4SW, 5SW, and 6SW added four more deck dependencies and one scheduling load. Every deck named here is on hand as a teacher-held file (the repo tracks text extracts at <code>cce-curriculum/resources/climber-notes/</code>, but the <code>.pptx</code> binaries are gitignored and cannot be retrieved from the repo or the site); the point is that these days have no content without them. Teacher hosting is an open item in the Day-1 readiness backlog.</p>
 <table>
 <thead>
 <tr>
@@ -9700,7 +9733,7 @@ python3<span class="w"> </span>build/inject_pdf_links.py<span class="w">   </spa
 <p><strong>Status:</strong> 🟡 Partially addressed. Exit tickets are covered by the PDF pipeline above. Daily plans also reference specific workbook pages (photocopiable when allowed by the H&amp;L license), but some activities require separate worksheets that do not live in the workbook.</p>
 <p><strong>Examples from the curriculum that need a printable artifact:</strong></p>
 <ul>
-<li><strong>1SW Wk0 Days 4-5</strong>: My Career Journey reflection handout (persistent across the year) + the CCE career research worksheet reused by every cluster week</li>
+<li>~~<strong>1SW Wk0 Days 4-5</strong>: My Career Journey reflection handout + the CCE career research worksheet~~ ✅ <strong>Built 2026-08-05</strong> (with worked-example, stems, and bilingual variants) — see <code>docs/resources/worksheets/</code>. The full audited list of what each remaining week still needs is in <code>cce-curriculum/notes/day1-readiness-backlog.md</code> and <code>cce-curriculum/notes/day1-audit/</code>.</li>
 <li><strong>2SW Wk1 Day 5</strong>: Position Paper rubric + final-draft template</li>
 <li><strong>4SW Wk1 Day 1</strong>: Core Types vs. Favorites reconciliation worksheet</li>
 <li><strong>4SW Wk2 Day 5</strong>: Individual Career Plan template (the official d(8)(C) artifact)</li>
