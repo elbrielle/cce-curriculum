@@ -83,6 +83,13 @@ pdftoppm -f 27 -l 27 -singlefile -png -r 150 \
 
 Render the complete source deck, inspect every slide, then copy only the selected slide image into the Canvas-only asset folder. Use the bundled presentation runtime described by the current presentation skill; do not use a random screenshot of PowerPoint in edit mode.
 
+If the bundled renderer or montage helper reports that `pdf2image` is missing, supply that helper dependency without altering the deck:
+
+```bash
+uv run --with pdf2image python <presentation-skill>/container_tools/render_slides.py \
+  "<source-deck>.pptx" --output_dir "<temporary-render-folder>"
+```
+
 ### Visual QA before upload
 
 Inspect each selected PNG at original resolution. Reject it if text is unreadable, the crop removes needed context, the screenshot includes private student data, or the image does not add instructional value. Use a descriptive filename and prepare useful alt text before authoring the page.
