@@ -23,7 +23,7 @@ Take 3-4 responses. Bridge: most students arrive thinking "nursing = giving shot
 
 ## Activity 1: Xello Learning Styles Lesson (15 min)
 
-Open Xello and direct students to the **Learning Styles Lesson** in the 7th-grade Xello task list. This activity helps students identify how they learn best, visually, by listening, by doing, or by reading/writing.
+Open Xello and direct students to the **Learning styles** lesson as supplemental instruction. This lesson is not a Bowie Grade 8 completion standard. It helps students examine how they learn best through visual, listening, hands-on, and reading/writing approaches.
 
 Students complete the lesson, take the assessment, and read their results. They write down their primary learning style.
 

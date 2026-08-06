@@ -58,7 +58,7 @@ Each student picks ONE emerging career. They use BLS Career Outlook, H&L Hat Fin
 
 ## Activity 2: Xello Save Careers (8 min)
 
-Open Xello and direct students to the **Save Careers** activity in the 7th-grade lessons. This activity asks students to formally save the careers they are most interested in to their Xello profile.
+Open Xello and direct students to the required Grade 8 **Save careers** task. Students must explore and save at least 3 careers, then use those saved options in later Skills and Explore Career Matches lessons.
 
 Students:
 

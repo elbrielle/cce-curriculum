@@ -25,7 +25,7 @@ Give students 3 minutes to write. Most students will think they have nothing, th
 
 **Source:** Xello Resume Builder + CareerOneStop Resume Guide
 
-Open Xello and project the Resume Builder on the board. Walk through a sample middle school resume LIVE, building it as students watch. Use a fictional student: "Alex Martinez, 7th Grade, Oakview Middle School" (or substitute your own school name).
+Open Xello and project the Resume Builder on the board. Walk through a sample middle school resume LIVE, building it as students watch. Use a fictional student: "Alex Martinez, 8th Grade, Oakview Middle School" (or substitute your own school name).
 
 **Chunking:** Build one section at a time, say what the section is for before you fill it, and take a thumbs check after each one before moving to the next. Whichever section draws the most thumbs down is the section you revisit first while circulating in Activity 2.
 
@@ -62,7 +62,7 @@ The key teaching moment is to keep showing students that their lives ARE resume 
 
 ## Activity 2: Xello Resume Builder (28 min)
 
-**Source:** Xello Resume Builder lesson (7th-grade task list)
+**Source:** Xello Resume Builder, used as supplemental Grade 8 instruction. Resume is not a Bowie Grade 8 completion standard.
 
 Direct students to log into Xello and open the **Resume Builder** feature. Xello walks them through each section step-by-step with prompts for what to include.
 

@@ -2,7 +2,7 @@
 
 ## What This Is
 
-A 36-week Career and College Explorations (CCE) course curriculum for grade 7 across Irving ISD VILS Labs, Texas. Aligned to TEKS 127.2 Career and College Exploration (Adopted 2023). Delivered as a MkDocs Material static site. Core platform is Hats & Ladders, supplemented by Xello, eDynamic Learning, and VILS technology integration.
+A 36-week Career and College Explorations (CCE) course curriculum for grades 7-8 across Irving ISD VILS Labs, Texas. Aligned to TEKS 127.2 Career and College Exploration (Adopted 2023). Delivered as a MkDocs Material review site now and, when the course is ready, through an authenticated Canvas course as the official teacher and student home. Hats & Ladders and the *Find Your Future* workbook carry the career-exploration content. District-configured Xello completion standards form a required yearlong profile and planning spine. eDynamic Learning, Canva, Adobe Express, Code.org, and other named tools are supplemental unless the scope and sequence explicitly assigns them.
 
 ## Repo Structure
 
@@ -65,6 +65,7 @@ Each week has two tiers:
 - **Facilitation tips, not scripts.** "If students struggle with grouping, demonstrate align-then-group on the projector."
 - **No em dashes** in teacher-facing `docs/` body prose. Developer-facing files (`cce-curriculum/notes/`) are fine.
 - **6th-7th grade ESL reading level for exit tickets.** Short sentences, concrete examples, scaffold word lists for abstract concepts, no nested clauses or idioms, no TEK codes in student-facing text.
+- **Evidence-based multilingual support, not automatic full translation.** Prefer visuals, modeled examples, chunked directions, bilingual labels or glossaries, sentence frames, word banks, and structured peer support. Create a fully translated version only for safety, family communication, legal/consent needs, or a documented district requirement. Existing translated artifacts remain available until their support value is reviewed.
 - **TEKS tags must be audited, not inherited.** Before writing or revising an exit ticket, lesson objective, or DOL, run the process in `cce-curriculum/notes/teks-audit-process.md`. H&L is career-exploration content, not natively TEKS-aligned; the alignment is CCE's overlay. TEK "such as" language means named items are examples, not exhaustive.
 
 ## Source Grounding
@@ -76,12 +77,14 @@ All content must trace to one of these:
 - **H&L teacher resources** (8 PDFs: rubrics, assessments, early-finisher bank) — Materials/Differentiation references only. Index: `cce-curriculum/resources/hl-teacher-resources/INDEX.md`.
 - **RETIRED (do not cite in new work):** the generic H&L Student Workbook (282pp, 17 ch; old `(H&L Ch N, p. X)` form) and the Powerskills Supplement (`(Powerskills, p. X)` form) — replaced by FYF and its embedded Powerskill lessons per ratified decisions D-11. Legacy citations survive in 2SW-6SW until their realignment phase lands.
 - **Scope and Sequence** (`cce-curriculum/scope-and-sequence.md`)
-- **Xello 7th-Grade Task List** — names from S&S column 8
+- **Xello Grade 8 Completion Standards** — the district-configured educator view is authoritative for required tasks, grade availability, instructional time, prerequisites, and attached resources. S&S column 8 must preserve this completion spine across the year; FYF realignment does not replace it.
 - **eDynamic Learning Units** — unit numbers from S&S column 9
 - **BLS Occupational Outlook Handbook** — salary, education, outlook data
 - **Irving ISD CTE Pathways** (PATHWAYS.md) — verify against [canonical website](https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte) before citing
 
 Do not invent H&L activities, Xello features, or platform capabilities. If unsure, mark with `[VERIFY]`.
+
+Licensed H&L and Xello materials belong in the authenticated Canvas course, not the public GitHub Pages site. Xello-provided downloads and official shareable video links may be used for noncommercial classroom instruction during the district license term. Do not rip hosted video streams or publish licensed binaries publicly. Canvas API credentials are provided only at import time and must never be committed or written into curriculum files.
 
 ## Editing Protocol
 

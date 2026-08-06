@@ -75,7 +75,7 @@ and my ______________________________ Work Value."
 
 ## Activity 3: Xello Favorite Clusters (8 min)
 
-**Source:** Scope and sequence. Xello 7th-grade activity: Favorite Clusters
+**Source:** Bowie Grade 8 Xello Completion Standard, "Favorite clusters"
 
 Students log into Xello and complete the Favorite Clusters activity. They mark which clusters from the Xello cluster list they are most interested in. This is a quick task. Xello will use these favorites to refine its career recommendations later in the year.
 

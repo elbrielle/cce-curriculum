@@ -27,7 +27,7 @@ Students complete the full job-seeking skill set: identify the steps of an effec
 
 - Chromebooks with internet access (1 per student)
 - Hats & Ladders student accounts + *Find Your Future* workbook, Capstone pages 287-291 (Rungs 4 and 5) and Business, Marketing, and Finance pages 248-254
-- Xello Job Interviews lesson (7th-grade task list)
+- Xello Job Interviews lesson (supplemental; not a Bowie Grade 8 completion standard)
 - CareerOneStop Job Interview Tips: [careeronestop.org/JobSearch/Interview/job-interviews.aspx](https://www.careeronestop.org/JobSearch/Interview/job-interviews.aspx)
 - CareerOneStop Practice Job Application: [careeronestop.org/JobSearch/job-application.aspx](https://www.careeronestop.org/JobSearch/job-application.aspx)
 - Printed Cover Letter Template (CCE artifact, 1 per student)

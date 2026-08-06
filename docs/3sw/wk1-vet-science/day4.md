@@ -23,7 +23,7 @@ Take 4-5 fast responses. The point: students already have life experiences that 
 
 ## Activity 1: Xello Life Experiences Lesson (25 min)
 
-**Source:** Xello 7th-Grade Lesson, "Life Experiences"
+**Source:** Bowie Grade 8 Xello Completion Standard, "Life experiences"
 
 Open Xello on the projector. Sign in with the school SSO and walk students through finding the Life Experiences lesson:
 
@@ -46,7 +46,7 @@ As students work, circulate and check that they are reading and reflecting, not 
 
 ## Activity 2: Xello Volunteer Hours Entry (15 min)
 
-**Source:** Xello 7th-Grade Task, "Add Volunteer Hours"
+**Source:** Bowie Grade 8 Xello Completion Standard, "Volunteer hours"
 
 After completing the Life Experiences lesson, students navigate to the Volunteer Hours section in their Xello profile (typically under "About Me" or "My Profile"). They add at least ONE volunteer hours entry. If they have never officially volunteered, they can:
 

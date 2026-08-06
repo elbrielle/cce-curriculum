@@ -28,7 +28,7 @@ Collect quick verbal responses. Tell students they will test their prediction in
 
 ## Activity 1: What is CTE? Xello Module (5 min)
 
-**Source:** Xello 7th-grade district-created module "What is CTE," framed with (FYF pp. 21-22: "What is Happening at My District?")
+**Source:** Bowie Grade 8 Xello Completion Standard, district custom lesson "What is CTE?," framed with (FYF pp. 21-22: "What is Happening at My District?")
 
 Before students log into H&L, frame CCE as the middle-school on-ramp into Irving ISD's CTE pathways that begin in 8th grade and accelerate at Singley, MacArthur, Nimitz, Cardwell, and Irving High. Open the workbook to page 21 and use the two definitions printed there: CCMR is College, Career, and Military Readiness, and a Program of Study is a sequence of related courses that pairs classroom learning with hands-on experience. Ask the page's own question: why is it helpful to start thinking about goals after high school now, before you get there? Students then log into Xello and launch the district's "What is CTE" module. They work through it at their own pace and return to the group when finished.
 

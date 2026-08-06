@@ -49,7 +49,7 @@ Walk between groups and listen for students using transferable skills vocabulary
 
 ## Activity 2: Xello Add Skills Activity (12 min)
 
-**Source:** Scope and sequence. Xello 7th-grade activity: Add Skills
+**Source:** Bowie Grade 8 Xello Completion Standard, "Add skills"
 
 Xello student accounts are rostered by the district and reach students through the same SSO tile as the rest of their Xello work, so confirm with your campus tech coordinator that this section appears on your Xello roster before the week starts rather than troubleshooting logins during the period.
 

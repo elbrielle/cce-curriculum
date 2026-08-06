@@ -100,7 +100,7 @@ Teams present to another group. Listeners judge three things the workbook names:
 
 ## Activity 3: Xello School Subjects at Work (5 min)
 
-**Source:** Xello 7th-grade task list (scope-and-sequence column 8)
+**Source:** Xello supplemental lesson, "School subjects at work." This lesson is not a Bowie Grade 8 completion standard.
 
 Direct students to log into Xello and open the **School Subjects at Work** lesson. This Xello activity connects middle school subjects to careers. Students see how Math connects to Market Research Analyst, English connects to Content Creator, Art connects to Graphic Designer, and so on.
 

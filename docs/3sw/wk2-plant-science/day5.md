@@ -23,7 +23,7 @@ Take 4-5 student responses. Validate ALL answers, including "none of them." Care
 
 ## Activity 1: Xello Work Experiences Lesson (20 min)
 
-**Source:** Xello 7th-Grade Lesson, "Work Experiences"
+**Source:** Bowie Grade 8 Xello Completion Standard, "Work experiences"
 
 Open Xello on the projector and walk students through finding the Work Experiences lesson:
 

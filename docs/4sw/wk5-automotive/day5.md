@@ -79,7 +79,7 @@ After the last presentation, run a 2-minute discussion:
 
 The favorites saved today are one of the inputs students pull back at the Capstone, where Rung 1 asks them to review their top Hats, pathways, and clusters (FYF p. 281: "Rung 1").
 
-> [VERIFY IN Xello] Students complete the Xello "Save Careers" activity from the 7th-grade task list. Confirm exact task name with district admin. Students save the same automotive careers they favorited in H&L so the two platforms stay synced.
+> [GRADE 8 XELLO] Students complete the required **Save careers** task. Grade 8 students must save at least 3 careers. Students may include the automotive careers they favorited in H&L so the two platforms stay synced.
 
 ---
 

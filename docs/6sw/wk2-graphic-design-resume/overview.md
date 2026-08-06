@@ -32,7 +32,7 @@ Students explore the Arts, Audio/Visual Technology and Communications career clu
 - BLS, Graphic Designers: [bls.gov/ooh/arts-and-design/graphic-designers.htm](https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm)
 - CareerOneStop Resume Guide: [careeronestop.org/JobSearch/Resumes/resume-guide.aspx](https://www.careeronestop.org/JobSearch/Resumes/resume-guide.aspx)
 - eDynamic Learning Unit 6.1 (Arts/AV) and Unit 8.2 (job search)
-- Xello Resume lesson (7th-grade task list)
+- Xello Resume Builder (supplemental; not a Bowie Grade 8 completion standard)
 - Printed Resume Template (1 per student, backup for Xello)
 
 ## Career Connection
@@ -64,7 +64,7 @@ Four chapter sections carry this week:
 
 The Arts chapter has four more sections than this week can hold: **The Visual Hook** (FYF pp. 259-261), product packaging design with a target market, sales channels, and structured peer feedback; **Powerskill: Time Management** (FYF pp. 262-263), a logo redesign for an outdoor water-bottle company under a 10 minute timeboxing plan; **Safety on the Set** (FYF pp. 264-265), stunt coordination where partners each research one film safety method and teach the other; and **Setting the Stage** (FYF pp. 266-267), set design with labeled set elements, a blueprint, and a 3D prototype. Use any of the four as enrichment.
 
-**The resume half of this week is CCE-original.** The *Find Your Future* workbook carries no resume, cover letter, or job-application activity anywhere in its 300 printed pages. Days 2 and 3 run on the Xello Resume Builder, the Xello Resume lesson from the 7th-grade task list, and the CareerOneStop Resume Guide, and the four job-search steps on Day 4 are a CCE framework paired with eDynamic Unit 8.2. The workbook's nearest relative is Rung 5 of the capstone (FYF pp. 290-291: "Rung 5: Local Connections"), where students search real local job postings and record what employers ask for.
+**The resume half of this week is CCE-original.** The *Find Your Future* workbook carries no resume, cover letter, or job-application activity anywhere in its 300 printed pages. Days 2 and 3 use the Xello Resume Builder as supplemental Grade 8 instruction plus the CareerOneStop Resume Guide, and the four job-search steps on Day 4 are a CCE framework paired with eDynamic Unit 8.2. The workbook's nearest relative is Rung 5 of the capstone (FYF pp. 290-291: "Rung 5: Local Connections"), where students search real local job postings and record what employers ask for.
 
 ## IISD Instructional Strategies
 
@@ -79,7 +79,7 @@ The Arts chapter has four more sections than this week can hold: **The Visual Ho
 | Day | Focus | Key Activities | Deliverable | 5E |
 |-----|-------|---------------|-------------|-----|
 | 1 | Arts/AV Cluster + Behind the Microphone | Chapter opener and Be the Decision Maker + cluster app exploration + podcast episode outline | Podcast episode outline on chart paper | Engage · Explore · Explain · Evaluate |
-| 2 | First Resume in Xello | Teacher resume modeling + Xello Resume Builder (lesson from 7th-grade task list) | Resume draft v1 in Xello | Engage · Explain · Explore · Evaluate |
+| 2 | First Resume in Xello | Teacher resume modeling + Xello Resume Builder (supplemental) | Resume draft v1 in Xello | Engage · Explain · Explore · Evaluate |
 | 3 | Attention to Detail + Resume Refinement | Audio cue script rewrite + resume peer review and revision | Revised resume + rewritten audio cue script | Engage · Explore · Explain · Extend · Evaluate |
 | 4 | Game On! + Job Search Steps | Game Design Document team build and pitch + job search steps + eDynamic 8.2 | Game Design Document + team pitch + job search notes | Engage · Explore · Explain · Extend · Evaluate |
 | 5 | Merch Mode Band T-Shirt | Merch Mode design against the five design principles + Xello resume finalize + Hat rating | Band t-shirt design + design-principle plan | Engage · Explore · Explain · Extend · Evaluate |

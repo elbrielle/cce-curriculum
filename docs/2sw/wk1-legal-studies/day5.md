@@ -51,7 +51,7 @@ Circulate and ask each student, "Which legal career did you favorite, and why?" 
 
 ## Activity 3: Xello Life Experience Activity (15 min)
 
-Open Xello and direct students to the **Life Experience** activity in the 7th-grade lessons. This activity asks students to reflect on experiences (volunteering, caring for siblings, sports, jobs around the house) that connect to careers they have explored.
+Open Xello and direct students to the required Grade 8 **Life experiences** task. Students add at least one experience and reflect on what they liked, what challenged them, and what they learned.
 
 Students complete the activity in Xello and answer the reflection prompts. They look for connections between their lived experiences and the legal careers they explored this week, for example, a student who has resolved sibling arguments has experience with mediation; a student who reads carefully has experience that connects to paralegal work.
 

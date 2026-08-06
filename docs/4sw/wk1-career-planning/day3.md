@@ -23,11 +23,11 @@ Collect 2-3 student responses on the board without correcting the numbers. Keep 
 
 ## Activity 1: Xello "Quick Sims: The Real Game" (35 min)
 
-**Source:** Xello 7th-Grade Task List. Quick Sims: The Real Game
+**Source:** Xello supplemental activity, "Quick Sims: The Real Game." This activity is not a Bowie Grade 8 completion standard.
 
 Direct students to log into Xello and navigate to **Quick Sims**. The Real Game simulation puts students into a young adult scenario where they make decisions about housing, transportation, food, entertainment, and savings based on a realistic salary tied to a career.
 
-> [VERIFY IN Xello] Confirm with your district admin that Quick Sims is available in the 7th-grade Xello experience and that "The Real Game" specifically is on the 7th-grade task list. The exact Sim title may vary by Xello version.
+> [XELLO SUPPLEMENTAL] Quick Sims is available in Xello but is not a Bowie Grade 8 completion standard. Use it only when it supports the day's learning target; do not count it toward required completion.
 
 Students work through the simulation independently. As they make each decision, they log it on the printed decision log:
 

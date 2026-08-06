@@ -23,7 +23,7 @@ Take 4 student responses. Validate all answers. Some students discovered they lo
 
 ## Activity 1: Xello Decision Making Lesson (20 min)
 
-**Source:** Xello 7th-Grade Lesson, "Decision Making"
+**Source:** Xello supplemental lesson, "Decision Making." This lesson is not a Bowie Grade 8 completion standard.
 
 Open Xello on the projector. Walk students through finding the Decision Making lesson:
 

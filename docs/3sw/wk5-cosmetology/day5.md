@@ -23,7 +23,7 @@ Take 4-5 student responses and group similar answers on the board. Students will
 
 ## Activity 1: Xello Exploring Career Factors Lesson (20 min)
 
-**Source:** Xello 7th-Grade Lesson, "Exploring Career Factors"
+**Source:** Xello supplemental lesson, "Exploring Career Factors." This lesson is not a Bowie Grade 8 completion standard.
 
 Open Xello on the projector. Walk students through finding the lesson:
 

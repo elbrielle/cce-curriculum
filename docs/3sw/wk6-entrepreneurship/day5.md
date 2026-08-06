@@ -71,7 +71,7 @@ After filling in the budget, students answer these analysis questions:
 
 ## Activity 3: Xello Save Careers + 3SW Capstone Reflection (12 min)
 
-**Source:** Xello 7th-Grade Task, "Save Careers"
+**Source:** Bowie Grade 8 Xello Completion Standard, "Save careers"
 
 Direct students to open Xello and save 2-3 careers from this six weeks to their Xello profile. The Save Careers task lives under "Career Match" or "Saved Careers" depending on the Xello version.
 

@@ -23,7 +23,7 @@ Take 3-4 responses. Bridge: students will see today that the soft skills they va
 
 ## Activity 1: Xello Time Management Lesson (15 min)
 
-Open Xello and direct students to the **Time Management Lesson** in the 7th-grade lessons. This activity teaches time management strategies and asks students to apply them to their school week.
+Open Xello and direct students to the **Time management** lesson as supplemental instruction. This lesson is not a Bowie Grade 8 completion standard. It teaches time-management strategies and asks students to apply them to their school week.
 
 Students complete the lesson, take any embedded quizzes, and read their results. They write down:
 

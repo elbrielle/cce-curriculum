@@ -23,7 +23,7 @@ Take 3-4 responses. Most students will say science. Bridge: today they may be su
 
 ## Activity 1: Xello Education Experience (15 min)
 
-Open Xello and direct students to the **Education Experience** activity in the 7th-grade lesson list. This activity asks students to describe their educational experiences, favorite classes, hardest subjects, learning preferences, and connects them to potential careers.
+Open Xello and direct students to the required Grade 8 **Education experiences** task. Students add at least one educational experience and reflect on what they liked, what challenged them, and what they learned.
 
 Students complete the activity step by step, answering each prompt thoughtfully. The activity outputs a personal "education experience" profile that links to careers in Xello's career database.
 

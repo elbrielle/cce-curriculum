@@ -64,7 +64,7 @@ Model one row on the projector using BLS and H&L data before students work indep
 
 ## Activity 3: Xello Education Experiences (10 min)
 
-**Source:** Xello 7th-grade task list, "Education Experiences"
+**Source:** Bowie Grade 8 Xello Completion Standard, "Education experiences"
 
 Direct students to log into Xello and open the **Education Experiences** activity. This activity prompts students to think about how their current school subjects and experiences connect to career possibilities.
 

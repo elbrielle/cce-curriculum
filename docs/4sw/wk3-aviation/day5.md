@@ -57,7 +57,7 @@ Each step must be specific (no "study hard") and time-bound. Students who picked
 
 Every Hat rated here lands in the student's Climber Profile, which is the source the Capstone self-inventory draws on when students list their top Hats and favorite pathways (FYF p. 281: "Rung 1: Who You Are").
 
-> [VERIFY IN Xello] Students with extra time complete the Xello "Jobs and Employers" activity from the 7th-grade task list. Confirm exact Xello task name with district admin.
+> [XELLO SUPPLEMENTAL] Students with extra time may complete the Xello "Jobs and Employers" lesson. It is not a Bowie Grade 8 completion standard.
 
 **DOK 3:** What conclusions can you draw about why goal-setting is especially important for careers like pilot or air traffic controller that require years of training? How is this different from a career you can start with a 6-month certification?
 

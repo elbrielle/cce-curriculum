@@ -64,7 +64,7 @@ When both records are done, pairs compare: which of your two postings asks for m
 
 ## Activity 3: Xello Discover Learning Pathways (8 min)
 
-**Source:** Xello 7th-grade task list (scope-and-sequence column 8)
+**Source:** Xello supplemental lesson, "Discover learning pathways." This lesson is not a Bowie Grade 8 completion standard.
 
 Direct students to log into Xello and open the **Discover Learning Pathways** lesson. This Xello lesson connects to today's postings because it covers the different learning pathways students can take after high school: 4-year university, 2-year community college, trade school, apprenticeship, military, and direct-to-work with certification.
 

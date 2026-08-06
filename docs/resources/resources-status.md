@@ -2,7 +2,7 @@
 
 **What this page is:** a living checklist of teacher-facing resources that are **ready to use**, **partially built**, or **still to be created** for the CCE Curriculum. This is the page to check when you want to know "what's missing before I can teach this week" or "what should I expect my teammates to build next."
 
-**Last updated:** 2026-08-05 (Phase C FYF realignment closeout, 4SW + 5SW + 6SW blocks). **All 36 weeks are now realigned to the official *Find Your Future* workbook.** The Capstone spine is live end to end: Rungs 1-3 in 4SW Wk1, Rungs 6-7 in 4SW Wk2, Rung 5 practiced in 6SW Wk1 and graded in 6SW Wk5, Rung 4 assigned in 6SW Wk4 and debriefed in 6SW Wk6, and the requirements page, the 32-point rubric, Rung 8, Prepare & Present, and the Final Reflection in 6SW Wk6.
+**Last updated:** 2026-08-06. **All 36 weeks are realigned to the official *Find Your Future* workbook.** The 1SW printable set is complete. The district grading structure, VILS hardware baseline, approved generative tools, Canvas destination, multilingual-support policy, and authenticated 24-task Grade 8 Xello completion spine are now documented. Rewriting the S&S and daily guides to match that Xello sequence, plus the 2SW-6SW material packs, remains active work.
 
 ---
 
@@ -30,6 +30,8 @@
 | Printable exit-ticket PDFs (178, one per daily exit ticket, Irving ISD branded) | ✅ | `docs/resources/exit-tickets/`, linked from every day page |
 | Printable worksheets, rubrics, and scaffolds for ALL of 1SW (50 PDFs: the CCE career research worksheet family, My Career Journey, Lab Safety Contract EN/ES, scenario and step-sort cards, five weekly summative rubrics, the 1SW capstone portfolio rubric, and bilingual variants) | ✅ | `docs/resources/worksheets/`, linked from every 1SW week's pages |
 | 1SW Common Formative Assessment (stimulus, 4 parts, 4-level rubric) | ✅ | [1SW CFA](../1sw/cfa.md) |
+| Six-weeks grading framework (40% minor, 60% major; minimum 3 minor and 2 major grades) | ✅ | [Six-Weeks Grading Framework](grading-framework.md) |
+| Authenticated Grade 8 Xello task list, prerequisite order, and teacher setup path | ✅ | [Xello Grade 8 Implementation Guide](xello-grade-8-implementation.md) |
 
 ### Exit-ticket PDF pipeline
 

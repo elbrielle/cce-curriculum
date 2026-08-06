@@ -23,7 +23,7 @@ Take 4 student responses. Some students may now connect agriculture with drones 
 
 ## Activity 1: Xello Interests Lesson (20 min)
 
-**Source:** Xello 7th-Grade Lesson, "Interests Lesson"
+**Source:** Xello supplemental lesson, "Interests." This lesson is not a Bowie Grade 8 completion standard.
 
 Open Xello on the projector. Walk students through finding the Interests lesson:
 

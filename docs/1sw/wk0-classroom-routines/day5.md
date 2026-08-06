@@ -115,18 +115,18 @@ This option fits in about 10 minutes.
 
 ---
 
-## Option E: Xello Onboarding Quizzes
+## Option E: Xello Access and First Goal
 
-**Source:** Xello 7th-grade onboarding tasks (Matchmaker, Personality Style, Skills Lab, Learning Style, Mission Complete).
+**Source:** Bowie Grade 8 Xello Completion Standards, "Log in to Xello" and "After high school goal."
 
-> [VERIFY] Irving ISD Week 0 Xello requirement status. If your district mandates Xello onboarding during Week 0, run this option and have students complete the 5 quizzes in order. If Xello onboarding can land later in the semester, skip this option and use the time for another menu choice or catch-up. Escalate to your CTE coordinator if unclear.
+Students launch Xello through district SSO and confirm that the dashboard loads. After access is confirmed, students open **About Me** and select one after-high-school goal: **Not sure yet, More school or training,** or **Alternate route**. Tell students that the choice can change as they learn more this year.
 
-Students log into Xello (district SSO) and complete the 5 quizzes in order: Matchmaker, Personality Style, Skills Lab, Learning Style, Mission Complete.
+This 25-minute pair of tasks prepares students for Matchmaker. Do not add Matchmaker, Personality Style, Learning Style, Skills Lab, or Mission Complete to this block. Matchmaker alone is a 30-minute instructional task, and the live Grade 8 configuration does not assign Skills Lab or Mission Complete.
 
 !!! warning "Common Issue"
     Xello and H&L logins are usually different SSO providers. If a student cannot log into Xello, check their roster status with the campus tech coordinator before troubleshooting on your own.
 
-This option fills about 25 minutes if all 5 quizzes run.
+This option fills about 25 minutes.
 
 ---
 

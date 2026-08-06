@@ -28,7 +28,7 @@ Students explore Marketing careers within the Business, Marketing, and Finance c
 - BLS, Market Research Analysts: [bls.gov/ooh/business-and-financial/market-research-analysts.htm](https://www.bls.gov/ooh/business-and-financial/market-research-analysts.htm)
 - Google Applied Digital Skills: [applieddigitalskills.withgoogle.com](https://applieddigitalskills.withgoogle.com) (Day 4 extension)
 - eDynamic Learning Unit 4.1: Enterprise and Money Matters
-- Xello School Subjects at Work lesson (7th-grade task list)
+- Xello School Subjects at Work lesson (supplemental; not a Bowie Grade 8 completion standard)
 - Printed blank ad mock-up sheets (1 per student) for "Click Factor" Step 4 (FYF p. 230)
 - Sticky notes for the "Expert Edge" skill brainstorm (FYF p. 222) and the Little Library brainstorm (FYF p. 147)
 - Printed marketing career research worksheet (CCE artifact; the research format is taught in Wk0)
