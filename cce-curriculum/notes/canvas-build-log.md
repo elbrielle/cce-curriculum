@@ -126,5 +126,27 @@ This log records the official Canvas build without storing access credentials or
 - Evidence correction applied: BLS proxy occupations are labeled as proxies, and a missing standalone BLS title is not treated as proof that a career is emerging.
 - Major-grade package revised to the App Design Packet plus Emerging Tech Research, 16 points. The small-group pitch remains communication practice so one teacher is not expected to score several simultaneous presentations.
 - Automated template QA: no skipped headings, missing alt text, unlabeled disclosure sections, layout tables, legacy Canvas tabs, or unresolved structural fields. Student reading levels ranged from FK 5.0 to 9.4; the Day 4 guide is the highest because it preserves necessary BLS/source vocabulary.
-- New and revised PDFs were rendered, page-count checked, and visually inspected. Browser QA of the live Week 3 Canvas pages remains pending; do not mark the set publication-ready until that gate is complete.
+- New and revised PDFs were rendered, page-count checked, and visually inspected.
+- Browser QA: all ten pages rendered correctly through their module-item routes. Every page remained unpublished, no unresolved template fields appeared, all disclosure sections were labeled, and all embedded visuals loaded at full source resolution. No lesson body overflowed on desktop. The Day 3 student guide and Day 5 teacher guide had no horizontal overflow at a 390-pixel viewport. Week 3 has passed the publication-readiness gate but remains unpublished for owner review.
 - Importer: `build/canvas/build_wk3.py`
+
+## 2026-08-06 — 1SW Week 4 paired lesson set
+
+- Module: `1SW Wk4: Help Desk Heroes - Tech Support Careers and MakeCode` (542973)
+- State: unpublished
+- Teacher item IDs: Day 1 5295240, Day 2 5295242, Day 3 5295244, Day 4 5295246, Day 5 5295248
+- Student item IDs: Day 1 5295241, Day 2 5295243, Day 3 5295245, Day 4 5295247, Day 5 5295249
+- Locked Canvas visual folders:
+  - Day 1: 1152547
+  - Day 2: 1152548
+  - Day 3: 1152549
+  - Day 4: 1152550
+  - Day 5: 1152551
+- All ten pages and the parent module are unpublished. A second importer run returned the same module, folder, page, and item IDs without duplicates.
+- District-sequence correction applied: Day 1 protects the required Xello Add Interests task and Day 5 protects the required Xello Add Skills task. The matching licensed Xello teacher resources are embedded in the facilitator guides. H&L remains optional.
+- Source correction applied: the education-route lesson uses a dated BLS guide with May 2024 national medians and labels the figures as neither starting pay nor DFW-localized salary. Drift-prone CompTIA names, prices, and roadmaps are not load-bearing lesson evidence.
+- Access correction applied: the MakeCode lesson accepts hardware, simulator, or paper trace as equal routes. Students save durable test evidence, and the customer-service lesson includes a written-chat alternative to spoken role-play.
+- Major-grade package revised to the Help Desk Program Evidence plus each student's Xello Skill and Help Desk Connection, 16 points. The one-minute lightning demo is formative so the teacher does not have to live-score ten to fifteen teams while they present.
+- Automated template QA: no skipped headings, missing alt text, unlabeled disclosure sections, layout tables, legacy Canvas tabs, or unresolved structural fields. Student reading levels ranged from FK 6.2 to 11.8; the Day 2 guide is highest because it preserves necessary pathway, median-pay, and credential vocabulary.
+- New and revised PDFs were rendered and visually inspected. Browser QA is the remaining publication-readiness check; Week 4 stays unpublished until that pass is complete.
+- Importer: `build/canvas/build_wk4.py`

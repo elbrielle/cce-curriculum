@@ -1,5 +1,5 @@
 ---
-title: Help Desk Simulator Demo Rubric
+title: Help Desk Simulator Evidence Rubric
 slug: wk4-demo-rubric
 kind: rubric
 weeks: 1sw/wk4-tech-support-it
@@ -7,21 +7,22 @@ audience: teacher
 variant_of:
 language: en
 pages: 1
-orientation: landscape
+orientation: portrait
 ---
-Score the Day 5 team demo on three dimensions, 4 points each, 12 points total. Circle the descriptor that fits what the team actually demonstrated. The demo runs 3 minutes and covers the scenario, the steps, why that order, the career, and the Powerskill.
+Score the collected Help Desk Program Evidence and each student's Day 5 connection sheet on four criteria, 4 points each, 16 points total. The live lightning demo is communication practice, not the only evidence. Hardware and MakeCode access do not change the criteria.
 
-Team: _______________   Period: ______   Total: ______ / 12   Teacher initials: __________   Date: __________
+Student: _______________   Team: _______________   Period: ______   Total: ______ / 16   Teacher initials: __________
 
 | Dimension | 1 Beginning (1 pt) | 2 Developing (2 pts) | 3 Proficient (3 pts) | 4 Mastery (4 pts) |
 |---|---|---|---|---|
-| **Logical Troubleshooting Sequence** (the scenario, the steps, and why that order) | The scenario is named but the steps are not shown running, or fewer than three steps work on the device. | Three steps run on the micro:bit. The team reads them out without saying why that order. | Three steps run and the team gives a reason for the order, but the reason is general, such as "it made sense to us." | Three steps run in order on the micro:bit and the team names why the first step is first, using cost, time, or how likely the cause is. |
-| **Certification and Education Path** (the IT support career that would use this tool, and the training it takes) | No career named, or a career that has nothing to do with IT support. | An IT support career is named with no training path attached. | An IT support career is named with a training path, but the path is vague, such as "you need school." | A specific IT support career is named with the training that gets you there: a certification, an associate degree, or a bachelor's degree, with the time or cost from the week's own worksheet. |
-| **Transferable Skills** (the Powerskill the build required and where else it applies) | No Powerskill named, or a skill that does not match the work the team actually did. | A Powerskill is named but not tied to anything the team did while building or testing. | A Powerskill is named and tied to a moment in the build, but the team does not say where else it is used. | A Powerskill is named, tied to a specific moment in the build or the role-play, and connected to at least one job outside IT support. |
+| **Logical Troubleshooting Sequence** | Fewer than three steps, or no scenario. | Three steps are present but the order is not explained. | Three steps run or can be traced, and the first-step reason is general. | Three steps run or trace in order; the first-step reason uses time, cost, safety, or likelihood. |
+| **Program Logic and Testing** | Button A/B behavior is missing and no test is recorded. | One button behavior is shown, or the test result is unclear. | Button A advances the sequence, Button B displays FIXED, and one test result is recorded. | Proficient evidence plus one specific bug, revision, or partner-feedback change is documented. |
+| **Career and Education Connection** | No relevant IT support career is named. | Career is relevant but no entry preparation is named. | Career and common entry preparation match the dated Route Data Guide. | Proficient evidence plus an accurate tradeoff between this route and another route. |
+| **Transferable Skill and Customer Service** | No skill named or no personal evidence. | Skill is named but not connected to the build or role-play. | Skill is tied to a specific build/role-play moment and one Xello or personal example. | Proficient evidence plus a clear connection to another career or setting outside IT support. |
 
-**Scoring notes.** Record the total as the week's summative score. Post the running totals where the class can see them so every team knows its score before the period ends. A team that scores 1 on Logical Troubleshooting Sequence because the device did not run gets a second attempt in the simulator before the score is entered, since the dimension measures the sequence, not the hardware.
+**Scoring notes.** Record the total as one major grade. Team evidence supplies the first two criteria; each student's own connection sheet supplies the last two. Return scores privately. A device or site failure uses the paper trace route with identical criteria.
 
 **Reteach triggers**
 
-- More than a third of teams score 1 or 2 on Certification and Education Path: the Day 2 worksheet did not transfer. Reopen it during the Day 5 favorites activity and require the education field before a student favorites a career.
-- More than a third score 1 or 2 on Transferable Skills: name the Powerskill out loud during the next build day, at the moment the class is using it, instead of asking for it at the end.
+- More than a third score 1 or 2 on Career and Education Connection: re-open the dated Route Data Guide and model one accurate career/preparation match.
+- More than a third score 1 or 2 on Transferable Skill and Customer Service: name the skill during the role-play and require one observed example before reflection.

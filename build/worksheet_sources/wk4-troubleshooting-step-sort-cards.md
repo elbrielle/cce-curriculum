@@ -16,10 +16,10 @@ orientation: landscape
 | Scenario | Card A | Card B | Card C |
 |---|---|---|---|
 | **1. Printer not working** | Restart printer | Check power cable | Check paper tray |
-| **2. Wi-Fi disconnected** | Forget and reconnect network | Check Wi-Fi switch | Restart router |
+| **2. Wi-Fi disconnected** | Forget and reconnect network | Check airplane mode and Wi-Fi | Restart the laptop |
 | **3. Software crashing** | Check for updates | Close and reopen app | Restart computer |
-| **4. Computer won't turn on** | Check power button | Hold power 10 sec | Check power cable |
-| **5. Password reset** | Call IT to reset | Check caps lock | Use forgot password link |
+| **4. Computer won't turn on** | Test the outlet or charging light | Try an approved spare charger or escalate | Check charger and cable |
+| **5. Password reset** | Use the official password reset link | Check caps lock | Verify the username and account |
 
 **Talk it out before you commit.** Say your order out loud to your partner using this stem: "We put _____ first because it takes the least time, and we put _____ last because _____."
 

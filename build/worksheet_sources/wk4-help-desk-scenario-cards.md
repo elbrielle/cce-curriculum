@@ -16,9 +16,9 @@ orientation: landscape
 | Scenario | What the user says | Step 1 | Step 2 | Step 3 |
 |---|---|---|---|---|
 | **1. Printer not working** | "I sent my file to the printer and nothing came out." | Check power cable | Check paper tray | Restart printer |
-| **2. Wi-Fi disconnected** | "My laptop says no internet, but everyone else is online." | Check Wi-Fi switch | Restart router | Forget and reconnect network |
+| **2. Wi-Fi disconnected** | "My laptop says no internet, but everyone else is online." | Check airplane mode and Wi-Fi | Restart the laptop | Forget and reconnect network |
 | **3. Software crashing** | "This program keeps closing by itself while I am working." | Close and reopen app | Restart computer | Check for updates |
-| **4. Computer won't turn on** | "I press the power button and nothing happens at all." | Check power cable | Check power button | Hold power 10 sec |
-| **5. Password reset** | "It keeps saying my password is wrong and I know it is right." | Check caps lock | Use forgot password link | Call IT to reset |
+| **4. Computer won't turn on** | "I press the power button and nothing happens at all." | Check charger and cable | Test the outlet or charging light | Try an approved spare charger or escalate |
+| **5. Password reset** | "It keeps saying my password is wrong and I know it is right." | Check caps lock | Verify the username and account | Use the official password reset link |
 
-**Why this order.** Every card starts with the cheapest, fastest check and saves the biggest fix for last. A help desk tech never starts with the hardest step, because most problems are solved by the easy one.
+**Why this order.** Every card starts with a fast, low-risk check and saves a more disruptive step or escalation for later. Do not restart shared equipment when the evidence points to one user's device.
