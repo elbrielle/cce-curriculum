@@ -2,7 +2,7 @@
 
 **What this page is:** a living checklist of teacher-facing resources that are **ready to use**, **partially built**, or **still to be created** for the CCE Curriculum. This is the page to check when you want to know "what's missing before I can teach this week" or "what should I expect my teammates to build next."
 
-**Last updated:** 2026-08-05 (Phase B FYF realignment closeout, 2SW + 3SW blocks)
+**Last updated:** 2026-08-05 (Phase C FYF realignment closeout, 4SW + 5SW + 6SW blocks). **All 36 weeks are now realigned to the official *Find Your Future* workbook.** The Capstone spine is live end to end: Rungs 1-3 in 4SW Wk1, Rungs 6-7 in 4SW Wk2, Rung 5 practiced in 6SW Wk1 and graded in 6SW Wk5, Rung 4 assigned in 6SW Wk4 and debriefed in 6SW Wk6, and the requirements page, the 32-point rubric, Rung 8, Prepare & Present, and the Final Reflection in 6SW Wk6.
 
 ---
 
@@ -48,7 +48,7 @@ Operating manual: `cce-curriculum/notes/exit-ticket-pdf-pipeline.md`. Do not han
 | *Find Your Future* (FYF) workbook | The official Irving ISD student workbook, 308 pp., © 2026 Hats & Ladders. Tracked text extract alongside the gitignored PDF | `cce-curriculum/resources/reference-pdfs/IrvingFindYourFuture2026.txt` |
 | Climber Notes decks | 17 teacher slide decks from H&L, including the two that carry the personality-type and work-values content the workbook does not print | `cce-curriculum/resources/climber-notes/` (see `INDEX.md`) |
 | H&L teacher resources | 8 general teacher documents (rubrics, conversation starters, early-finisher activities, classroom displays) | `cce-curriculum/resources/hl-teacher-resources/` (see `INDEX.md`) |
-| H&L generic workbook + Powerskills supplement | The pre-FYF source, still cited by 4SW-6SW until Phase C lands | `cce-curriculum/resources/reference-pdfs/` |
+| H&L generic workbook + Powerskills supplement | The pre-FYF source. **Retired as of 2026-08-05**: no week in `docs/` cites it any longer. Kept for history only | `cce-curriculum/resources/reference-pdfs/` |
 
 A Hats & Ladders **teaching guide** (answer keys, timing, differentiation) has not been delivered. The Climber Notes speaker notes carry some facilitation guidance in its place.
 
@@ -63,6 +63,20 @@ Realigning 2SW and 3SW to *Find Your Future* introduced three supply requirement
 | **3SW Wk5 Days 1-3** (Cosmetology) | **Special effects makeup supplies**: tissue or cotton for texture, liquid latex or a school-safe adhesive alternative, cream or water-based color, tweezers, and a skin-safe base surface | Special Effects Makeup is the only FYF activity the workbook itself splits across three days, and Day 2 is a hands-on build. Check student allergies before ordering; the latex substitute is the usual accommodation |
 
 Two Climber Notes decks are also now load-bearing in Health Science: **Vitals in Motion** (2SW Wk3, the tool reference and the fever, blood pressure, and pulse oximeter charts) and **Smile Squad** (2SW Wk4, Mia's five X-rays). Both are already in the repo.
+
+### New hard dependencies from the Phase C realignment (2026-08-05)
+
+Realigning 4SW, 5SW, and 6SW added four more deck dependencies and one scheduling load. Every deck named here is already in the repo at `cce-curriculum/resources/climber-notes/`; the point is that these days have no content without them.
+
+| Week | What it needs | Why |
+|---|---|---|
+| **5SW Wk3 Days 4-5** (Construction Trades) | The **Spot the Problem** deck (five inspection images plus the regular-vs-thermal wall comparison, slides 2-6) | The home inspection images are teacher-side only. Without the projected images there is nothing for students to inspect, and the written inspection report on Day 5 has no source |
+| **5SW Wk4 Day 2** (HVAC / Electrical / Plumbing) | The **PowerSkill Written Communication** deck (four service ticket photos, slides 2-5) | Students write four technician field notes from the photos. The workbook prints the format and the worked example but not the tickets |
+| **5SW Wk4 Day 5** (HVAC / Electrical / Plumbing) | The **Plumbing Under Pressure** deck (slide 2) plus chart paper or poster board and markers, one set per team of 3 | Teams sketch and label the work zone before presenting the emergency plan |
+| **4SW Wk3 Day 2** (Aviation) | The **Flight Line Fixers** deck (aircraft inspection photos, slides 2-6) | This is the only aviation activity in the workbook and it runs as an extension. If the deck is unavailable, skip the extension rather than improvising photos |
+| **4SW Wk5** (Automotive) | The **Safety Squad** deck (crash evidence images, slides 2-5) | Enrichment block only, roughly two periods. Not required to run the scheduled five days |
+| **5SW Wk1 Day 4** (Architecture) | The **Unexpected Architecture** deck (city goals, slide 2) | Firms design to the city council's stated goals, which are on the slide, not the page |
+| **6SW Wk5 Days 1-5** (Job Skills / Mock Interview) | A **print packet**, not supplies: seven CCE artifacts per student, one set of Mock Interview Question Cards per pair, and a timer | This is the most workbook-independent week in the course. *Find Your Future* prints no interview, application, cover letter, or thank-you content, so the printed CCE artifacts are the entire source. Interviews are peer-to-peer, so no outside volunteers are needed, but pairs run in parallel and the room has to hold that |
 
 ---
 
@@ -93,7 +107,7 @@ The daily plans describe WHAT students do and give the facilitation approach, bu
 
 - **1SW Wk0 Days 4-5**: My Career Journey reflection handout (persistent across the year) + the CCE career research worksheet reused by every cluster week
 - **2SW Wk1 Day 5**: Position Paper rubric + final-draft template
-- **4SW Wk1 Day 1**: RIASEC vs. Favorites reconciliation worksheet
+- **4SW Wk1 Day 1**: Core Types vs. Favorites reconciliation worksheet
 - **4SW Wk2 Day 5**: Individual Career Plan template (the official d(8)(C) artifact)
 - **4SW Wk6**: Transferable Skills Matrix, STEM Program planning chart, Professional Associations Jigsaw template, Mid-Year Reflection template
 - **5SW Wk1 Day 2**: Architecture Career Research worksheet

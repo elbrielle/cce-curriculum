@@ -1,14 +1,15 @@
-# Day 4: TinkerCAD Iteration + Trash to Treasure
+# Day 4: TinkerCAD Iteration + Unexpected Architecture
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Refine TinkerCAD building design with structured checkpoints; complete the H&L "Trash to Treasure" landscape architecture activity |
+| **Objectives** | Refine TinkerCAD building design with structured checkpoints; work as an architectural firm to design and pitch a novelty landmark in "Unexpected Architecture" |
 | **TEKS** | d(1)(C) |
-| **Deliverable** | PNG screenshot of TinkerCAD building (exported via "Send To") + Trash to Treasure design sketch |
-| **Materials** | Chromebooks, TinkerCAD accounts, H&L Workbook Ch 3 (pp. 44-46: Trash to Treasure), projector, plain paper |
+| **5E Phases** | Engage: Warm-Up · Explore: TinkerCAD checkpoints and PNG export · Extend: Firm blueprint and city council pitch · Evaluate: Exit Ticket |
+| **Deliverable** | PNG screenshot of TinkerCAD building (exported via "Send To") + firm blueprint with front and side views + a completed peer feedback chart |
+| **Materials** | Chromebooks, TinkerCAD accounts, *Find Your Future* workbook pp. 182-184, Climber Notes deck "Unexpected Architecture" (slide 2), poster board or chart paper (1 sheet per firm of 3-4), sticky notes, markers, projector |
 
 ---
 
@@ -42,68 +43,48 @@ After Checkpoint 3, students **export a PNG screenshot** of their design:
 This PNG is the deliverable they will present on Day 5.
 
 !!! tip "Facilitation Tip"
-    Walk with a clipboard and physically check each student's screen at each checkpoint. Mark: walls (✓), openings (✓), detail (✓). Students who are behind get immediate one-on-one support rather than discovering at the end of class that they are not ready.
+    **Active Monitoring:** walk a fixed pathway three times, one lap per checkpoint, and physically check each student's screen. Each lap has a single target: minute 7 walls and roof grouped, minute 14 door and window holes cut, minute 20 one detail element added. Mark the clipboard as you go: walls (✓), openings (✓), detail (✓). Have the feedback ready before class for the two predictable errors, shapes selected but never grouped, and a hole shape that never overlapped the wall. If more than a handful of students miss the minute 14 target, pivot and reproject the hole sequence to the whole room instead of fixing it desk by desk.
 
 ---
 
-## Activity 2: H&L "Trash to Treasure" Activity (20 min)
+## Activity 2: Unexpected Architecture — Novelty Landmark Design (20 min)
 
-**Source:** H&L Workbook Ch 3, pp. 44-46, "Trash to Treasure" (Career Climb activity)
+**Source:** (FYF pp. 182-184: "Unexpected Architecture"), a Career Climb activity
 
-Transition from digital design to landscape architecture. Introduce the concept: architects don't just design new buildings, some of the most creative projects involve transforming unwanted spaces into places people love.
+Transition from individual digital design to firm work. Introduce the concept from page 182: architects do more than design normal buildings, they also want a design to catch your eye and tell a story. **Novelty architecture** is a playful style where buildings are intentionally shaped like everyday objects, such as a library shaped like a giant stack of books or a sports company headquarters inside a building shaped like an athletic shoe.
 
-Direct students to the Trash to Treasure activity in their H&L workbook. The scenario:
+The scenario: the city council has called. They want an iconic, visually striking building that will put their city on the map, become an instant landmark, and draw in tourists.
 
-> *You are an architect who specializes in outdoor spaces. The city has tasked you with reclaiming a landfill to make it an outdoor space for residents to enjoy. You must consider aesthetics, functionality, and sustainability.*
+**Step 1: Join an Architectural Firm (2 min).** Students form small groups of 3-4. Together they are the lead architects at a top firm. Each firm writes a firm name and a slogan on page 182.
 
-**Student task (from workbook):**
+**Step 2: Understand the City's Goals (3 min).** Project (Climber Notes: "Unexpected Architecture", slide 2), the city goals overview. The slide carries five photographs of real novelty buildings, including one designed to look as though it sits inside the land itself, one designed to look upside down, and one shaped like a shoe. Firms read the city's goals off the projection before they brainstorm.
 
-**Step 1: Choose Your Outdoor Space.** The workbook offers ideas:
+**Step 3: Brainstorm Ideas (4 min).** Firms discuss both the visual design and the materials, and capture every idea on sticky notes. The workbook's own tip is the push to make here: think beyond regular bricks and wood, and ask what unusual materials or technology would make this building truly unique.
 
-- A park with walking trails, picnic spots, and playgrounds
-- An outdoor art museum with sculptures and murals
-- An amphitheater for concerts and performances
-- A community garden where people can grow their own food
-- A recreation area for outdoor sports and gathering
+**Step 4: Create a Blueprint (7 min).** On poster board or chart paper, each firm draws a blueprint of the building with **both a front view and a side view**, labeling the key features. This is a concept blueprint, not a finished drawing, so hold firms to labeled shapes rather than shading and detail.
 
-Students also consider: *Who will use your space? What features will they need?*
+**Steps 5 and 6: Pitch and Feedback (4 min).** Firms pair up. Each firm gives its pitch to the partner firm, then swaps. While listening, every student completes the feedback chart on page 184 for the firm they heard, rating creativity, connection to city goals, visual design and "wow" factor, materials suggested, and overall pitch, then writing one piece of helpful feedback and one thing they loved.
 
-**Step 2: Sketch Your Design:** choose ONE perspective in the 20-min window (students with time remaining may add the second):
+!!! tip "Facilitation Tip"
+    The workbook writes Step 5 as a 3-minute pitch to the whole class, which does not fit a 20-minute activity with 6 to 8 firms in the room. Paired firms preserve what the step is for: every firm delivers, and every student completes one feedback chart, which is exactly what Step 6 asks. If your room can spare a whole period for this activity later in the six weeks, run the full 3-minute city council format instead.
 
-- **Map View (bird's-eye):** Pathways, green areas, buildings, seating, and special features with labels. *OR*
-- **Feature Sketch (person's perspective):** One key feature (entrance gate, pavilion, viewing deck) as a visitor would see it.
-
-Pick the view that best shows your outdoor space idea. The workbook provides both sketch boxes; you only need to complete one today.
-
-**Step 3: Add Sustainable Design Feature.** Name and label at least one:
-
-- Green roofs or living walls
-- Recycled materials for benches, paths, or art
-- Shady areas to keep people cool
-- Rain gardens for water runoff management
-
-**Step 4: Present and Share.** Partners present their designs, describe their favorite feature ("Wow Factor"), and get constructive feedback.
-
-!!! note "Extension (from workbook)"
-    Partners merge their two designs into one shared outdoor space, combining the best elements from both.
-
-**DOK 4:** If a city council asked you to justify the cost of turning a landfill into a public park, what evidence would you use? How does this connect to urban planning as a career?
+**DOK 4:** If a city council asked you to justify the cost of a novelty landmark over an ordinary building of the same size, what evidence would you use? What could go wrong for a city that bets on a landmark and does not draw the tourists it expected?
 
 ---
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/5sw-wk1-day4-tinkercad-iteration-trash-to-treasure.pdf):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/5sw-wk1-day4-tinkercad-iteration-unexpected-architecture.pdf):
 
-My TinkerCAD building vs. my Trash to Treasure outdoor space — compare on three dimensions.
+Compare my TinkerCAD building and my firm's novelty landmark on three dimensions.
 
-| | My TinkerCAD building | My Trash to Treasure outdoor space |
+| | My TinkerCAD building | My firm's novelty landmark |
 |---|---|---|
-| Who uses it? (specific audience) | | |
-| ONE aesthetic choice (looks-good element) | | |
-| ONE sustainable or reclaimed feature (if any) | | |
+| Who uses it? (name a specific group) | | |
+| ONE shape or look choice I made | | |
+| ONE material I would build it from | | |
 
-Bottom line: Which design of the two balances aesthetics + functionality + sustainability BEST, and why? Use one cell from the matrix to back the pick. *(d(1)(C))*
+Bottom line: Which of the two would a city pay to build, and why? Use one box from the chart to back your pick. *(d(1)(C))*
 
    ___________________________________________________________________
 
@@ -111,6 +92,6 @@ Bottom line: Which design of the two balances aesthetics + functionality + susta
 
 ## Differentiation
 
-- **Support:** For Trash to Treasure, provide a pre-labeled map template with pathways and zones already drawn, students add features to the zones rather than designing from a blank page.
-- **Extension:** Students 3D model their Trash to Treasure outdoor space feature in TinkerCAD, build the entrance gate, pavilion, or playground structure.
-- **ELL:** Key terms for Trash to Treasure: Sustainability = Sustentabilidad, Landfill = Vertedero/Basurero, Reclaim = Reclamar. The sketch activity is visual and accessible.
+- **Support:** For Unexpected Architecture, hand the firm a poster board pre-divided into a front-view box and a side-view box with a label line under each, so the firm spends the seven minutes on the design rather than on page layout. Assign roles inside the firm (sketcher, labeler, pitch speaker) so no student is left without a job.
+- **Extension:** Firms that finish the blueprint early 3D model one signature feature of their landmark in TinkerCAD, the entry, the roof shape, or the object the building is shaped like.
+- **ELL:** Key terms for Unexpected Architecture: Landmark = Punto de referencia, Blueprint = Plano, Slogan = Lema, Materials = Materiales, Pitch = Presentación. The Climber Notes photos carry the novelty-architecture idea visually, so students can see the concept before they read it. Give the pitch speaker a two-line frame: "Our firm is _____. Our building is shaped like _____ because _____."

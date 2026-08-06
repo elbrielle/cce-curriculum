@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Apply Engineering Design Process phases 1-2 (Define & Ideate) by building a LEGO airport with at least 2 runways, taxiways, a control tower, and parking; plan the spatial layout with safe distances between runways |
 | **TEKS** | d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explain: Challenge specs and design process · Explore: Sketch, peer critique, and LEGO build · Evaluate: Exit Ticket |
 | **Deliverable** | Built LEGO airport (1 per team) ready for Day 4 simulation, plus a labeled paper sketch of the layout |
 | **Materials** | LEGO bricks and baseplates (1 set per team of 3-4 students), printed Airport Layout sketch page, printed ATC scenario cards (1 per team to read for context only, not yet running), projector for LEGO airport reference images |
 
@@ -71,7 +72,7 @@ Teams swap sketches with another team for a 2-minute peer critique: "Where would
 
 ## Activity 3: Build the LEGO Airport (22 min)
 
-Teams pick up their LEGO bricks and baseplates. They build their airport based on the approved sketch. The teacher walks the room with the spatial reasoning checklist:
+**Chunking:** The sketch is the gate. A team picks up bricks and baseplates only after its sketch is approved, and no team is finished until the five-row checklist below has been walked with them. Teams build their airport from the approved sketch while the teacher walks the room with the spatial reasoning checklist:
 
 | Check | Yes / No |
 |---|---|

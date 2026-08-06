@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Apply EDP phases 3-4: Build the bridge prototype from the approved Day 3 design; test weight capacity incrementally; record max weight held |
 | **TEKS** | d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explore: Prototype build and weight testing · Explain: Redesign reflection · Evaluate: Exit Ticket |
 | **Deliverable** | Completed bridge prototype + test results sheet (max weight held) |
 | **Materials** | Bridge-building materials (40 straws, 3 ft tape, 5 index cards, scissors per team), 12-inch gap test station, weights (pennies in cups, washers, or a digital kitchen scale with textbooks), stopwatch, test results sheet |
 
@@ -25,6 +26,8 @@ Quick share. This primes students to self-monitor during building rather than ju
 Distribute materials to each team. Emphasize: **follow your approved sketch from Day 3**. This is the "Prototype" phase of the EDP.
 
 Use **three visual checkpoints** to keep teams on pace. Walk with a clipboard and mark each team's progress.
+
+**Active Monitoring:** Walk the same pathway three times, one lap per checkpoint, with a single target per lap. If more than a handful of teams miss the minute 15 target, pivot and reproject the truss geometry to the whole room instead of repeating it team by team.
 
 ### Checkpoint 1 — by minute 8
 **Base structure complete.** Two long support rails (straws taped together) should span roughly 12 inches. Most teams are still shaky here, that is fine.
@@ -72,8 +75,8 @@ Before clean-up, each team writes a quick redesign statement on their test resul
 
 This reflection is the "Redesign" phase of the EDP. Real civil engineers rarely get it perfect on the first try. They iterate.
 
-!!! note "Connection to Infrastructure Imagination"
-    Remind students that this bridge challenge is a simplified version of the Los Lomas Infrastructure Imagination project. Real civil engineers work at a much bigger scale and with much longer test cycles, but the process is the same.
+!!! note "Connection to Real Infrastructure"
+    Remind students that this bridge challenge is a desk-scale version of the TxDOT and Trinity River work named on Day 3. Real civil engineers work at a much bigger scale and with much longer test cycles, and they carry the Day 1 systems-thinking problem with them: a change at one end of a structure shows up somewhere else. The process is the same.
 
 ---
 

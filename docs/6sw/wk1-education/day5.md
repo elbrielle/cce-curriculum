@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Map Irving ISD Education pathways from middle school to career; begin eDynamic Unit 7.2 (Getting the Training You Need); favorite Education careers in H&L |
+| **Objectives** | Read the Irving ISD Education and Training programs of study and map them to campuses and credentials; begin eDynamic Unit 7.2 (Getting the Training You Need); finish the App Exploration page and favorite Education careers in H&L |
 | **TEKS** | d(1)(C), d(2)(A), d(2)(B) |
-| **Deliverable** | Irving ISD pathway selection + eDynamic 7.2 progress + 2-3 Education career favorites in H&L |
-| **Materials** | Chromebooks, H&L accounts, Irving ISD CTE Pathways handout, eDynamic Learning access, projector |
+| **5E Phases** | Engage: Warm-Up · Explain: Irving ISD programs of study · Explore: eDynamic 7.2 · Extend: App Exploration wrap-up and Career Plan update · Evaluate: Exit Ticket |
+| **Deliverable** | Irving ISD pathway reflection + eDynamic 7.2 progress + completed App Exploration page with 2-3 Education career favorites |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook printed pp. 218-220, Irving ISD CTE Pathways handout, eDynamic Learning access, projector |
 
 ---
 
@@ -22,28 +23,30 @@ Take 4-5 student responses. Some students will say "no way", push them to explai
 
 ## Activity 1: Irving ISD Education Pathways (15 min)
 
-**Source:** Irving ISD CTE Pathways guide + PATHWAYS.md
+**Source:** (FYF pp. 218-219: "What is Happening at My District?") + Irving ISD CTE Pathways handout
 
-Distribute the Irving ISD CTE Pathways handout. Walk students through the two specific Irving ISD high school pathways that lead directly into Education careers:
+Open the workbook's district pages and the printed pathways handout together. The Program Spotlight is the Irving ISD **"I Am Next" pinning ceremony**, which celebrates students who are committing to a career in teaching. The same pages carry a student's own line about the program, which is worth projecting: coming to class every day and working with younger students to help them learn something new. Two programs of study serve this cluster.
 
-**Pathway 1: Teaching & Training (District Wide)**
+**Education and Training (Irving High School, MacArthur High School, Nimitz High School)**
 
-- Available at ALL Irving ISD high schools
-- 4-course sequence over 9th-12th grade
-- Earns the **Educational Aide certification** by senior year
-- Educational Aides work as paid paraprofessionals in classrooms, supporting teachers, working with small groups, and gaining real classroom experience
-- Strong launchpad for university Education programs OR direct employment in Irving ISD as a paraprofessional after high school
-- Includes student observation hours in real Irving ISD elementary classrooms
+- Prepares students for careers in teaching and educational leadership by building skills in instruction, communication, and classroom management through coursework and hands-on child development experiences
+- During their junior and senior years, students visit elementary schools daily to work with and support younger students (FYF p. 219)
+- Industry certification named on the district pages: **Educational Aide I**
+- Student organization: **Texas Association of Future Educators (TAFE)**
+- Educational Aides work as paid paraprofessionals in classrooms, supporting teachers, working with small groups, and gaining real classroom experience. The credential is a launchpad for a university Education program or for direct employment in a district after high school
 
-**Pathway 2: Early Childhood Education (Cardwell Career Preparatory Center)**
+**Early Childhood Education (Cardwell Career Preparatory Center)**
 
-- Available at Cardwell Career Preparatory Center as a travel-to career-center pathway
-- Focuses on Pre-K through age 5
-- Earns the **Child Development Associate (CDA)** credential
-- CDA holders can work as lead teachers in licensed daycare centers and preschools
-- Pairs naturally with the H&L Early Learning pathway
+- A travel-to career center pathway: students split their day between their home campus and Cardwell
+- Prepares students for careers working with young children by building skills in child development, learning activities, health and safety, and classroom support
+- Focuses on Pre-K through age 5, which is exactly the age band students designed for in the Teach Through Play activity
+- Irving ISD's program certifications reference lists the **Child Development Associate (CDA)** credential for this pathway
 
-**Connection to today's work:** Both pathways start in 9th grade. The decision a student makes when registering for high school courses next year affects whether they can begin one of these pathways. Bring a Career Plan to the high school counselor and they can map out the right course sequence.
+> [VERIFY with CTE coordinator] The workbook's district pages name **Educational Aide I** as this cluster's industry certification and name no credential for Early Childhood Education. The Irving ISD program certifications reference lists **Child Development Associate** for the Cardwell pathway. Confirm the current credential for each program, and confirm which campuses host them, before telling a student where to enroll.
+
+**What are endorsements?** The district pages close with the question (FYF p. 219). Endorsements are groups of related courses that focus on one area such as business, arts, technology, or public service, and choosing one is how a student goes deeper in a field in high school. Put the page's own discussion question to the class: is it better to choose an endorsement based on current interests, future goals, or both? Students write the full version of that plan in the Capstone, where they name their courses, clubs, and student organizations (FYF pp. 294-296: "Rung 7: High School Plan").
+
+**Connection to today's work:** Both programs start in 9th grade, so the courses a student picks when registering for high school next year decide whether either one is open to them.
 
 Students complete a brief reflection on the back of the handout: *"The Irving ISD education pathway that interests me MORE is _____ because _____. (Or: Neither education pathway interests me because _____.)"*
 
@@ -66,17 +69,19 @@ Students work at their own pace through the eDynamic module. They will likely no
 
 ---
 
-## Activity 3: H&L Education Favorites + Career Plan Update (12 min)
+## Activity 3: Education Favorites + App Exploration Wrap-Up (12 min)
 
-**Source:** H&L Workbook Ch 6 (Hat Finder) + Ch 16 (My Next Steps: Career Plan)
+**Source:** (FYF p. 220: "App Exploration")
 
-Direct students to open H&L and complete three tasks:
+Students finish the App Exploration page they started on Day 1 and close out the cluster in the app. Three tasks:
 
-1. **Favorite at least 2-3 Education & Training careers** using the Hat Finder. These save to their Climber Profile and appear in their Career Plan.
-2. **Update Building Blocks:** Add tutoring, mentoring, peer help, or any community service to their Building Blocks. The H&L app uses Building Blocks to refine career recommendations. If a student has tutored a younger sibling, that is a Building Block.
-3. **Open the Career Plan:** Add the Education cluster alongside the clusters they have explored all year. The Career Plan is cumulative; they should NOT start over.
+1. **Finish the App Exploration page:** the Pathway Possibilities step and the cluster jot. The page ends with a space for their thoughts on the cluster in emojis, pictures, or words.
+2. **Favorite at least 2-3 Education & Training careers** using the Hat Finder. These save to the Climber Profile.
+3. **Update Building Blocks:** Add tutoring, mentoring, peer help, or any community service. The H&L app uses Building Blocks to refine career recommendations. If a student has tutored a younger sibling, that is a Building Block.
 
-> [H&L PLATFORM] From the workbook (Ch 16: My Next Steps): "Go to the Hats & Ladders app and begin your Career and Course Plan. Your plan will include: A pathway that you have identified as a career goal, a place to plan steps you can take now and in the future to reach your career goal, a place to plan courses you can take in 8th grade and in high school that will help prepare you for your future career."
+> [H&L PLATFORM] Students return to the Education and Training Cluster in the Hats & Ladders app and finish the App Exploration page (FYF p. 220): click "Pathway Possibilities," answer the questions there, then explore and rate at least 1 pathway, and jot their thoughts on the cluster in the space the page provides. In the Hat Finder they click the heart icon on 2-3 Education and Training Hats and open "Climber Profile" to confirm the favorites appear there. Last, they open the Career and Course Plan in the app and add the Education cluster next to the clusters they explored earlier in the year. The plan is cumulative, so they add to it rather than starting over.
+
+Name where this goes next. The Hats favorited today join the set students review in the Capstone, where they read back their own profile of top Hats, pathways, Building Blocks, and Powerskills before choosing a career goal (FYF pp. 281-282: "Rung 1: Who You Are").
 
 Students should now have favorites spanning every cluster explored this year (Manufacturing, IT, Law, Health Science, Ag, Hospitality, Human Services, Business, A&C, Engineering, Transportation, and now Education).
 
@@ -92,7 +97,7 @@ The Education career I favorited this week: _______________________
 
 Connect this career to THREE things:
 
-**1. An Irving ISD pathway** (Teaching & Training at Irving High / MacArthur / Nimitz → Educational Aide cert, OR Early Childhood Education at Cardwell → CDA credential)
+**1. An Irving ISD pathway** (Education and Training at Irving High / MacArthur / Nimitz → Educational Aide I, OR Early Childhood Education at Cardwell → Child Development Associate)
 
    My pathway: _______________________. Does it lead DIRECTLY to my career or is it a STEPPING STONE? Circle: DIRECT / STEPPING STONE. One sentence why:
 
@@ -104,9 +109,9 @@ Connect this career to THREE things:
 
    ___________________________________________________________________
 
-**3. My Day 2 leadership quality** (responsibility / kindness / honesty / courage)
+**3. My Day 2 leader strength** (calm under pressure / quick decision maker / extremely organized / creative thinker)
 
-   My quality: _______________________. In one sentence, how would this quality show up in my favorited career DAILY?
+   My strength: _______________________. In one sentence, how would this strength show up in my favorited career DAILY?
 
    ___________________________________________________________________
 
@@ -117,5 +122,5 @@ Connect this career to THREE things:
 ## Differentiation
 
 - **Support:** Pair students who struggle with Career Plan navigation. Provide a printed "Education Hat" cheat sheet listing 6 education careers and their typical salaries so students can pick favorites without getting lost in the app.
-- **Extension:** Students research the Educational Aide certification process specifically, what is the pay, what are the duties, can you stay an Educational Aide forever, or is it usually a stepping-stone? They write a 1-paragraph career profile.
-- **ELL:** Pre-teach: Pathway = Camino, Certification = Certificación, Aide = Asistente, Early Childhood = Primera infancia. Pair with bilingual peers for the Career Plan navigation. The Cardwell ECE pathway is especially relevant for bilingual ESL students because Texas has a major shortage of bilingual early childhood teachers.
+- **Extension:** Students research the Educational Aide I certification process specifically, what is the pay, what are the duties, can you stay an Educational Aide forever, or is it usually a stepping stone? They write a 1-paragraph career profile.
+- **ELL:** Pre-teach: Pathway = Camino, Certification = Certificación, Aide = Asistente, Early Childhood = Primera infancia, Endorsement = Especialización. Pair with bilingual peers for the Career Plan navigation. The Cardwell early childhood pathway is especially relevant for bilingual ESL students because Texas has a major shortage of bilingual early childhood teachers.

@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Research TREC Sales Agent licensing requirements step by step; calculate commissions at various home prices and sales volumes; compare commission income to a salary equivalent |
 | **TEKS** | d(2)(A) |
+| **5E Phases** | Engage: Warm-Up · Explore: TREC licensing research · Explain: Modeled commission calculation · Explore: Commission and salary worksheet · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Commission vs. Salary Comparison worksheet (math + reflection) |
 | **Materials** | Chromebooks, TREC website ([trec.texas.gov](https://www.trec.texas.gov)), printed TREC Licensing Requirements handout, printed Commission vs. Salary Comparison worksheet, calculator, projector |
 
@@ -39,10 +40,10 @@ Students fill in the TREC Licensing Requirements handout as they read the TREC w
 | Exam | Texas Real Estate Sales Agent Exam (state + national sections) |
 | Cost (approximate) | $200-600 for coursework + $50-150 exam fees + fingerprinting |
 
-**Irving ISD connection:** MacArthur High School offers Real Estate as part of its Business, Retail Management and Entrepreneurship school. Students interested in real estate careers can pursue the MacArthur Real Estate pathway in high school.
+**Irving ISD connection:** MacArthur High School offers **Real Estate Marketing** inside its School of Business and Entrepreneurship. The workbook's district pages describe the district's Real Estate program of study as property valuation, contracts, and business communication built on real estate principles and ethics, and they note that students in it have worked alongside real estate professionals to learn property evaluation, contract law, and the local housing market (FYF pp. 252-253: "What is Happening at My District?").
 
 !!! tip "Facilitation Tip"
-    Students often ask "Can I become an agent at 16?" The answer is no. TREC requires a minimum age of 18 to sit for the Sales Agent exam. But students can start building real estate knowledge and coursework at MacArthur so they are ready when they turn 18.
+    Students often ask "Can I become an agent at 16?" The answer is no. TREC requires a minimum age of 18 to sit for the Sales Agent exam. But students can start building real estate knowledge and coursework in the MacArthur Real Estate Marketing pathway so they are ready when they turn 18.
 
 ---
 
@@ -51,6 +52,8 @@ Students fill in the TREC Licensing Requirements handout as they read the TREC w
 **Source:** Commission vs. Salary Comparison worksheet
 
 Project the worksheet and walk through the calculation method with one example. Use $350,000 home × 3% commission = **$10,500 per sale**. Note that the commission is usually split between the buyer's agent and the seller's agent, so the agent's actual take-home is often **half:** $5,250.
+
+**Chunking:** Release the worksheet one section at a time and check before moving on. Section 1 is per-sale math, Section 2 is annual income at three sales volumes, Section 3 is the comparison to a salaried role, and Section 4 is the written reflection. The check between Sections 1 and 2 is the one that matters most: if the multiply-then-split order is shaky, Section 2 multiplies the error by twenty.
 
 Students complete the worksheet by calculating:
 

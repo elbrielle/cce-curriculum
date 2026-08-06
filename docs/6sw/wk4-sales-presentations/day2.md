@@ -1,14 +1,15 @@
-# Day 2: Slide Deck + Giving and Receiving Feedback
+# Day 2: Write and Practice Your 30-Second Pitch
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Build a slide deck for the Pitching Investors team project; complete the H&L Powerskills Giving and Receiving Feedback module |
-| **TEKS** | d(4)(B), d(4)(C) |
-| **Deliverable** | Team slide deck draft + Powerskills Feedback module reflection |
-| **Materials** | Chromebooks, H&L Workbook (Ch 5, pp. 84-85 Pitching Investors continued), H&L Powerskills Workbook (Giving and Receiving Feedback, pp. 22-24), Google Slides |
+| **Objectives** | Plan the four parts of a sales pitch; write it in 4-6 sentences; practice it against a 30-second check; deliver it to a partner and record two pieces of feedback |
+| **TEKS** | d(4)(B) |
+| **5E Phases** | Engage: Warm-Up · Explore: Pitch plan and draft · Explain: Partner delivery and feedback · Evaluate: Exit Ticket |
+| **Deliverable** | Written 4-6 sentence pitch + two recorded pieces of partner feedback |
+| **Materials** | Chromebooks, *Find Your Future* workbook pp. 242-243, timer, projector |
 
 ---
 
@@ -16,123 +17,122 @@
 
 **WARM-UP: Think of a time someone gave you feedback that helped you improve. What made it useful, was it the words they used, the timing, the way they said it, or what?**
 
-Take 3-4 student responses. Bridge to today: feedback is a skill. Bad feedback is vague or hurtful. Good feedback is specific and actionable. Today's Powerskills module trains both halves, giving feedback and receiving it.
+Take 3-4 student responses. Bridge to today: feedback is a skill. Bad feedback is vague or hurtful. Good feedback is specific and actionable. Students write and rehearse a pitch today and then trade it with a partner, and how specific that partner's feedback is decides how much better the second version gets.
 
 ---
 
-## Activity 1: Pitching Investors — Marketing Ideas + Slide Deck (25 min)
+## Activity 1: 30 Seconds to Sell — Plan and Write the Pitch (25 min)
 
-**Source:** H&L Workbook Ch 5, pp. 84-85, "Pitching Investors" Steps 3-4
+**Source:** (FYF pp. 242-243: "30 Seconds to Sell", Steps 4-5)
 
-Teams continue their Pitching Investors project from Day 1. Today they complete two workbook steps:
+**Step 4: Plan Your Pitch (10 min)**
 
-**Step 3: Create Your Marketing Ideas (10 min)**
+Students return to the product or service and the audience profile they wrote yesterday and use the workbook's planning space to sketch one line for each of the four parts:
 
-Using the workbook space (Ch 5, p. 84) or a digital tool, each team creates:
+- **Hook:** How will you grab attention in the first few seconds?
+- **What it is:** What are you selling? Clear and simple.
+- **Benefits:** How does it help the customer, and why does that matter?
+- **Call to action:** What should the customer do next?
 
-- **A logo** for the business (sketch in Canva or Google Drawings)
-- **A slogan:** short, catchy phrase
-- **A promotion plan:** How will you advertise? Social media? Influencer partnerships? Traditional ads? Events? Direct sales?
+The audience profile decides the benefits line. A student selling the same snack to gamers and to busy parents writes two different benefit lines, and this is the step where that shows up.
 
-Each team must pick a real distribution channel that matches their target audience. A pet food brand might use Instagram + dog parks. A sports app might partner with local rec leagues. A food truck might use TikTok and a presence at school events.
+**Step 5: Write Your 30-Second Sales Pitch (15 min)**
 
-**Step 4: Create the Slide Deck (15 min)**
+Students write the full pitch, about 4 to 6 sentences, in the workbook. The workbook sets three requirements for the draft:
 
-Using Google Slides, each team builds a 5-7 slide pitch deck. The workbook (Ch 5, p. 85) requires:
+- Keep it clear and easy to understand
+- Focus on benefits, not just features
+- Make it exciting, engaging, and confident
 
-- **Slide 1: Title:** Business name, team members, the investor you're pitching
-- **Slide 2: Business Overview:** What it is, what problem it solves
-- **Slide 3: Target Audience:** Who buys this and why
-- **Slide 4: Logo + Slogan + Marketing Strategy:** How will you promote it?
-- **Slide 5: Why Invest?:** Match this slide to your investor's specific requirements (look back at the investor profile from Day 1)
-- **Slide 6 (optional): Revenue Model:** How you make money
-- **Slide 7: Closing:** One sentence call to action
-
-The slide deck is a sales tool. Slides should be visual (icons, photos, color), not text-heavy. Each slide should support what the speaker says, not duplicate it.
+**Active Monitoring:** Walk a fixed pathway twice while students draft. Lap 1 target: every pitch has a call to action, because that is the part students drop most often. Lap 2 target: at least one line names a benefit and not a feature. Have the feedback ready for the two predictable problems before class starts, a pitch that ends with "so yeah, that's it" and a pitch that is a specification list with no person in it. If more than a handful of drafts miss the lap 2 target, stop the room and reproject the SparkClean example from p. 241 with the benefit sentence underlined rather than fixing it desk by desk.
 
 !!! tip "Facilitation Tip"
-    Show one BAD slide and one GOOD slide on the projector for 30 seconds each. Bad slide = paragraph of text. Good slide = headline + 1 image + 3 bullet points. The contrast is instantly clear.
+    Read one anonymous draft aloud at 30 seconds and one at 55 seconds without saying which is which, then ask students which one they stayed with. Length is easier to feel than to explain, and students trim their own drafts faster after hearing the difference.
 
 ---
 
-## Activity 2: Powerskills — Giving and Receiving Feedback (15 min)
+## Activity 2: 30 Seconds to Sell — Practice, Deliver, and Give Feedback (15 min)
 
-**Source:** H&L Powerskills Workbook, pp. 22-24, "Giving and Receiving Feedback"
+**Source:** (FYF p. 243: "30 Seconds to Sell", Steps 6-7)
 
-Transition to the Powerskills module. Today's focus: students are about to give peer feedback during practice presentations (Day 4) and the actual presentations (Day 5). They need to know HOW.
+**Step 6: Practice and Deliver (5 min)**
 
-Walk through the module's key principles:
+Students practice the pitch out loud, quietly and at their own desk, and run the workbook's three self-checks:
 
-**Giving feedback:**
+- Can you say it in about 30 seconds?
+- Are you speaking clearly, confidently, and with energy?
+- Does your pitch sound natural and engaging?
 
-- Be SPECIFIC. "Good job" is useless. "Your slide on target audience was very clear" is helpful.
-- Be KIND. Frame feedback to help, not to hurt.
-- Use the Two Stars and a Wish format: 2 specific strengths + 1 specific improvement.
-- Comment on the WORK, not the PERSON. "The slide was confusing" not "you are confusing."
+Before pairs form, remind the class of the **feedback sandwich from the communication week**: name something the person did well, name one thing to improve using specific language rather than "it was confusing," then close on a strength. This structure is CCE scaffolding used all year, not a workbook page, so students will not find it in the book.
 
-**Receiving feedback:**
+**Step 7: Partner Up (10 min)**
 
-- LISTEN. Don't interrupt or defend.
-- Take notes if useful.
-- Say thank you, even if the feedback stings.
-- Decide later what to use.
+**Think-Pair-Share:** 30 seconds of silent Think while each student reads their own pitch through once, then Partner A delivers for 30 seconds and Partner B responds with a feedback sandwich, then the pair switches. Post two feedback stems at different levels: "Your hook worked because _____" and "I would change _____ so the benefit is clearer, because right now it sounds like _____." Each student records two pieces of feedback in the workbook space on p. 243. Ask two pairs, not one, to deliver again for the whole class, and choose them from what you heard while circulating rather than from raised hands.
 
-**Quick practice (5 min):** Pairs trade slide decks. Each student gives Two Stars and a Wish on their partner's deck. Then they switch.
+Close with the workbook's own discussion question: why is it important to make a strong first impression in sales? Hold student answers. Day 4 turns that same question toward interviews.
 
-After the practice, lead a 1-minute debrief: *"Was it harder to GIVE feedback or RECEIVE it? Why?"*
+**DOK 2:** What is the difference between a feature and a benefit? Quote one line from your own pitch and say which one it is.
 
-**Connection to the week:** Practice and final presentations on Days 4-5 will use Two Stars and a Wish. Today's Powerskills work makes that feedback useful instead of vague.
-
-**DOK 2:** What is the difference between criticism and constructive feedback? Use one specific example from your slide deck practice.
+**DELIVERABLE:** Written 4-6 sentence pitch + two recorded pieces of partner feedback.
 
 ---
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors) · [Printable PDF](../../resources/exit-tickets/6sw-wk4-day2-slide-deck-giving-and-receiving-feedback.pdf):
+**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors) · [Printable PDF](../../resources/exit-tickets/6sw-wk4-day2-write-and-practice-your-30-second-pitch.pdf):
 
 Circle the BEST answer for each question.
 
-1. Which is the STRONGEST feedback on a partner's slide?
+1. Which line is a BENEFIT and not just a feature?
+
+   a) "It has a 5,000 mAh battery."
+
+   b) "It charges in 20 minutes, so you never get stuck at school with a dead phone."
+
+   c) "It comes in four colors."
+
+   d) "It was released this year."
+
+2. Which is the STRONGEST feedback on a partner's pitch?
 
    a) "Good job!"
 
    b) "I didn't really get it."
 
-   c) "Your target-audience slide was specific about age, but the slogan is hard to remember. Try a shorter slogan."
+   c) "Your hook made me look up, but you never said what I should do next. Add a call to action."
 
    d) "You should change everything."
 
-2. A teammate gives you a "wish" (improvement suggestion). The BEST response is:
+3. A partner gives you a "wish" (something to improve). The BEST response is:
 
-   a) Defend your original choice out loud
+   a) Defend your pitch out loud
 
-   b) Say thank you, take a note, decide later
+   b) Say thank you, write it down, decide later what to use
 
-   c) Agree to change it on the spot even if you disagree
+   c) Change it on the spot even if you disagree
 
-   d) Ignore it, they don't know your business
+   d) Ignore it, it is your product
 
-3. A good pitch slide should be:
+4. Circle EVERY job below where a person has to give feedback that is specific enough to act on:
 
-   a) A paragraph explaining the idea
+   coach · nurse · game tester · cashier · film director
 
-   b) Headline + image + 3 bullets
+5. Pick ONE job you circled. What are they giving feedback ON?
 
-   c) Text only, no images
+   Job: _______________________
 
-   d) 50 words minimum
+   They give feedback on: ___________________________________________
 
-ONE specific change I made to MY team's slide deck after partner feedback today:
+6. ONE change I made to MY pitch after partner feedback today:
 
    ___________________________________________________________________
 
-*(d(4)(B), d(4)(C))*
+*(d(4)(B))*
 
 ---
 
 ## Differentiation
 
-- **Support:** Provide a slide deck template with placeholder slides labeled. Teams replace the placeholders with their content. Provide sentence stems for feedback ("Your slide on _____ was strong because _____" / "I would suggest changing _____ because _____").
-- **Extension:** Teams add an 8th slide showing financial projections, projected first-year revenue, costs, and profit. (Real investors expect this.)
-- **ELL:** Allow Spanish or bilingual slide decks. Pair ESL students with bilingual peers during the feedback practice. The Powerskills feedback principles work in any language.
+- **Support:** Provide a pitch planner with the four parts pre-labeled and the SparkClean example written in a second column as a model. Allow a 3-sentence pitch instead of 4 to 6. Provide feedback sentence stems ("Your _____ was strong because _____" / "I would change _____ because _____").
+- **Extension:** Students write a second version of the same pitch for a different audience and mark the one sentence that had to change the most.
+- **ELL:** Allow the pitch to be drafted in Spanish and delivered bilingually. Pair ESL students with bilingual peers for Step 7. The feedback sandwich works in any language. Pre-teach: Feature = Característica, Benefit = Beneficio, Call to action = Llamado a la acción.

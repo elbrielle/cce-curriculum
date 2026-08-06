@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Build a 6-career × 8-skill matrix to identify transferable skills; recognize that most "soft skills" apply to nearly every career; argue from the matrix data which skills are most universally valued |
 | **TEKS** | d(4)(B) |
+| **5E Phases** | Engage: Warm-Up · Explore: Transferable Skills Matrix build · Explain: Class pattern discussion · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Transferable Skills Matrix with all 48 cells checked plus a 2-3 sentence analysis |
 | **Materials** | Chromebooks (for verification only), printed Transferable Skills Matrix (1 per student), projector |
 
@@ -52,10 +53,12 @@ Distribute the printed Transferable Skills Matrix. The matrix is a grid:
 
 If a student marks a cell NO, they must explain why the skill doesn't apply (and they should be challenged, most of these are hard to defend as NO).
 
-The whole class fills in the matrix at the same time. Walk the room with the active monitoring checklist:
+The whole class fills in the matrix at the same time. **Active Monitoring:** walk a fixed pathway through the room, one lap per target, carrying the checklist:
 
-- Does each cell have either YES + example or NO + reason?
-- Is the student finding more than 6 of 8 skills apply to ALL 6 careers? (The expected answer is yes, most transferable skills are universal.)
+- Lap 1 target: does each cell have either YES + example or NO + reason?
+- Lap 2 target: is the student finding more than 6 of 8 skills apply to ALL 6 careers? (The expected answer is yes, most transferable skills are universal.)
+
+Have feedback ready before class for the two predictable errors, blank cells left instead of an argued NO, and Leadership marked NO across the trades careers. If more than a handful of students stall on the Leadership row, pause the room and run the shop-floor questions from the facilitation tip below instead of answering desk by desk.
 
 !!! tip "Facilitation Tip"
     Students will reflexively say "leadership doesn't apply to mechanics." Push back gently: "Who runs the shop? Who trains the new tech? Who deals with an angry customer when the manager is gone?" The skill is there, they just associated leadership with formal titles instead of behaviors. This is the exact skill-recognition the matrix is designed to surface.

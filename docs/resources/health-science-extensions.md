@@ -2,7 +2,7 @@
 
 <!-- SOURCE_PENDING: health_science_extensions -->
 
-Placeholder content for three health science specialties the CCE curriculum does not currently dedicate a week to but that appear in Irving ISD high school pathways and in student career interest. Intended as drop-in source material for the health science coordinator team. Until populated, these topics can be referenced as Extension activities or flagged in Hat Research when students express specific interest.
+Placeholder content for three health science specialties the CCE curriculum does not currently dedicate a week to but that appear in Irving ISD high school pathways and in student career interest. Intended as drop-in source material for the health science coordinator team. Until populated, these topics can be referenced as Extension activities or flagged on the CCE career research worksheet when students express specific interest.
 
 **Status:** Awaiting source materials from Irving ISD health science coordinators. Do not promote these sections into primary weekly content until the `SOURCE_PENDING` tags below are removed and citations are added.
 
@@ -14,7 +14,7 @@ Placeholder content for three health science specialties the CCE curriculum does
 
 **Integration hooks in existing curriculum:**
 
-- 2SW Wk3 (Nursing / Health Science) Day 1 Hat Research: PT is a natural Extension Hat for students whose RIASEC includes Helper + Doer.
+- 2SW Wk3 (Nursing / Health Science) Day 1 career research: PT is a natural extension Hat for students whose core personality types include Helper and Doer.
 - 2SW Wk6 (Biomedical / Health Science) Day 2-4: PT connects to the Mark (athlete rehab) client scenario if coordinators want to spin PT into a formal Day 2 activity.
 - 6SW Wk1 (Education / Community) Day 4: PT volunteer/shadow hours at a PT clinic fit as a community service option.
 
@@ -34,7 +34,7 @@ Placeholder content for three health science specialties the CCE curriculum does
 **Integration hooks in existing curriculum:**
 
 - 2SW Wk3 (Nursing / Health Science) Day 3 micro:bit vital signs activity: sonography is the next-level imaging professional students should know about.
-- 2SW Wk4 (Dental / Medical Billing) Day 1 Health Informatics Hat Research: sonography fits the high-skill-high-demand classification.
+- 2SW Wk4 (Dental / Medical Billing) Day 4 health informatics career research: sonography fits the high-skill-high-demand classification.
 - 5SW Wk2 (Civil Engineering) Day 4: imaging technology has civil engineering cross-links (bridge ultrasonic inspection).
 
 **What to fill in once source is available:**

@@ -5,7 +5,7 @@
 | BLS K-12 Career Exploration | https://www.bls.gov/k12/students/careers/career-exploration.htm | Career Profiles | Cluster exploration, salary data, job outlook | Free | All Clusters |
 | BLS Occupational Outlook Handbook | https://www.bls.gov/ooh/ | Career Profiles | Deep career research, education requirements, salary | Free | All Clusters |
 | BLS Career Outlook - You're a What? | https://www.bls.gov/careeroutlook/ | Articles/Videos | Unusual career profiles, interviews | Free | All Clusters |
-| CareerOneStop Interest Assessment | https://www.careeronestop.org/ExploreCareers/Assessments/interests.aspx | Assessment | RIASEC-style interest inventory (supplement to H&L) | Free | All Clusters |
+| CareerOneStop Interest Assessment | https://www.careeronestop.org/ExploreCareers/Assessments/interests.aspx | Assessment | Six-area interest inventory; external supplement to the app's own Discover Your Core task | Free | All Clusters |
 | CareerOneStop Skills Matcher | https://www.careeronestop.org/Toolkit/Skills/skills-matcher.aspx | Assessment | Skills-to-career matching | Free | All Clusters |
 | CareerOneStop Work Values Matcher | https://www.careeronestop.org/Toolkit/Careers/work-values-matcher.aspx | Assessment | Values-based career matching | Free | All Clusters |
 | CareerOneStop Career Videos (800+) | https://www.careeronestop.org/Videos/CareerVideos/career-videos.aspx | Videos | Day-in-the-life career videos, Spanish available | Free | All Clusters |

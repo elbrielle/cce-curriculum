@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Calculate monthly net income from a gross annual salary; allocate income across expense categories in a realistic DFW budget; identify where the budget balances or falls short |
 | **TEKS** | d(5)(D) |
+| **5E Phases** | Engage: Warm-Up · Explain: Teacher budget model · Explore: Student budget build · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Personal Budget Template with all major expense categories filled in and a calculated balance (surplus or shortage) |
-| **Materials** | Chromebooks, H&L salary data (from Day 1 career choice), printed Personal Budget Template, calculator, DFW cost reference sheet, projector |
+| **Materials** | Chromebooks, Day 1 Lifestyle Target page with the Rung 3 salary numbers, printed Personal Budget Template, calculator, DFW cost reference sheet, projector |
 
 ---
 
@@ -24,7 +25,7 @@ Collect 3-4 guesses. The honest answer is usually rent/mortgage (30%+ of income)
 
 Project a blank Personal Budget Template and build a complete budget on the screen using a sample career. Use **Electrician at $52,000/year** (or pick a career that few students chose on Day 1 so no one has the same career as your example).
 
-Walk through the math step by step:
+**Chunking:** Build one step at a time and say what each step is for before doing the math. Net income is what actually arrives. Needs come out first because they are not optional. Savings is paid before wants so it does not become leftovers. Close each step with the check already written into this activity before starting the next one.
 
 ### Step 1: Gross → Net Income
 
@@ -69,24 +70,26 @@ This $450 covers: entertainment, eating out, clothes, hobbies, subscriptions, gy
 
 ## Activity 2: Student Budget Creation (25 min)
 
-**Source:** H&L career salary data + DFW cost reference sheet
+**Source:** Day 1 Rung 3 salary numbers + DFW cost reference sheet
 
-Students build their own budget using the Personal Budget Template and their Day 1 career choice.
+Students build their own budget using the Personal Budget Template and the local-average salary they copied off their Rung 3 pages on Day 1.
 
 **Step-by-step for students:**
 
-1. **Write career name and annual salary** at the top of the template
+1. **Write career name and annual salary** at the top of the template, using the "average in your area" figure
 2. **Calculate monthly net income:** Salary ÷ 12, then multiply by 0.75 (for taxes)
 3. **Allocate fixed expenses:** Rent, car, insurance, phone, use DFW averages from the reference sheet
 4. **Allocate variable expenses:** Food, gas, entertainment
 5. **Calculate savings:** At least 10% if possible
 6. **Calculate balance:** Net income − (expenses + savings) = leftover (or shortage)
 
-Teacher circulates with a 3-check protocol:
+**Active Monitoring:** Walk a fixed pathway three times, one lap per check, each lap with a single target.
 
 - **Check 1 (min 5):** Has the student calculated monthly net income correctly? *(Pull this check early. Step 1 is the math step where calculator errors cascade into every row that follows. Catch them before the budget is half-built.)*
 - **Check 2 (min 15):** Have they filled in the fixed expense rows?
 - **Check 3 (min 22):** Does the budget balance (or at least have a clear surplus/shortage)?
+
+Have feedback ready before class for the two predictable errors: dividing by 12 before taking taxes out and then taking taxes out a second time, and copying an annual salary into a monthly row. If more than a handful of students miss the minute 5 target, pivot and reproject the gross-to-net steps to the whole room instead of fixing them desk by desk.
 
 !!! tip "Facilitation Tip"
     Most students, across every salary level, will discover that one version of the lifestyle they imagined on Day 1 does not fit their Day 2 budget. This is normal, not a failure of the career. Frame adjustments as "what would you shift on the lifestyle side?" (smaller apartment, used car, roommate, less eating out) rather than "the career is wrong." The point is trade-off reasoning, not career rejection. Students whose family members work in the career they chose should not leave class thinking that career is a bad choice, the same career supports many real lifestyles.

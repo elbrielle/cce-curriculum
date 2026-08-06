@@ -34,6 +34,8 @@ Week sizing: **8 S** (re-cite only), **13 M** (some rewrites), **15 L** (structu
 
 ## 4. Per-week rollup
 
+**Status 2026-08-05: all 36 weeks implemented (Phases A-C).**
+
 Full per-week disposition tables live in the session crosswalk (`realignment_crosswalk.md`, session scratchpad; re-derivable from the two inventories). Rollup:
 
 | # | Week | New home (printed pp.) | Size | Flags |
@@ -88,7 +90,7 @@ Old Ch 16 "My Next Steps" was cited in 17 weeks (98 lines). FYF concentrates tha
 | # | Decision | Recommendation |
 |---|---|---|
 | D-1 | "Hat Research" template cited 187x across ~20 weeks; absent from FYF | Retire the citation form. Teach the research format once in Wk0 from `(FYF pp. 4-5: "Perks and Quirks")`; weekly app steps cite each cluster's App Exploration page; keep the printed worksheet as a CCE-original artifact |
-| D-2 | Career Iceberg moved from year-end to FYF Ch1 (pp. 6-8); worked example changed trophy → nurse | Keep CCE's mid-year + capstone placements; cite pp. 6-8 both places; strike "final chapter" framing |
+| D-2 | Career Iceberg moved from year-end to FYF Ch1 (pp. 6-8) | Keep CCE's mid-year + capstone placements; cite pp. 6-8 both places; strike "final chapter" framing. **AMENDED 2026-08-05 per extract verification:** the worked example is still the sports trophy, unchanged from the old book. The Electrician (p. 7) and Nurse (p. 8) pages are *blank student build-frames*, not worked examples — students write the visible half and research the hidden half themselves. The earlier "worked example changed trophy → nurse" reading was wrong; 4SW Wk1 and 6SW Wk6 are written to the corrected reading |
 | D-3 | Advocacy (134-135) contended by three weeks | 2SW Wk5 gets Advocacy; 2SW Wk6 → Outbreak Investigators (74-78); 3SW Wk5 → Special Effects Makeup (128-131); 6SW Wk4 drops its thin reference |
 | D-4 | Work Ethic (34-35) scenario is a cybersecurity bootcamp | Award to 1SW Wk5 (cybersecurity); 4SW Wk6 takes Analytical Reasoning (153-155), matching its S&S line |
 | D-5 | Old Power Pitch / team Pitching Investors gone; only individual "30 Seconds to Sell" (241-243) exists | 5SW Wk3 keeps a CCE-original self-pitch citing Prepare & Present (299) for delivery; 6SW Wk4 adopts 30 Seconds to Sell |

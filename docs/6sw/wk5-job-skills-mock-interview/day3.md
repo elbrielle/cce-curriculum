@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Complete a sample job application with all required fields; identify three appropriate references and explain why each was chosen; learn the protocol for asking permission |
 | **TEKS** | d(7)(C), d(7)(D) |
+| **5E Phases** | Engage: Warm-Up · Explain: Application sections and reference rules · Explore: Practice application · Extend: Own reference list and permission email · Evaluate: Exit Ticket |
 | **Deliverable** | Completed sample job application + 3 references with rationale + draft permission request |
-| **Materials** | Chromebooks, H&L Workbook (Ch 12, p. 196 Job Applications for "Future Work, Inc."), printed Sample Job Application form, printed References Guide, projector |
+| **Materials** | Chromebooks, CareerOneStop Practice Job Application, printed Sample Job Application form (CCE artifact), *Find Your Future* workbook pp. 290-291 (completed Rung 5 pages, collected at the door), printed References Guide, projector |
 
 ---
 
@@ -22,16 +23,18 @@ Take 3-4 student responses. Common answers: skipping fields, sloppy handwriting,
 
 ## Activity 1: Sample Job Application (25 min)
 
-**Source:** H&L Workbook Ch 12, p. 196, "Job Applications" + printed application form
+**Source:** CareerOneStop Practice Job Application ([careeronestop.org/JobSearch/job-application.aspx](https://www.careeronestop.org/JobSearch/job-application.aspx)) + printed application form (CCE artifact) + (FYF pp. 290-291: "Rung 5: Local Connections") for the employer expectations
 
-The H&L workbook (Ch 12, p. 196) has students fill out a sample application for "Future Work, Inc." This activity supports d(7)(C). Use the workbook version OR a printed application form with the same fields.
+**Collect the Rung 5 pages at the door.** Both job posting pages are due today and are scored for completeness. Students keep them on the desk while they work, because the "skills and qualifications required" and "education or experience wanted" boxes are exactly what an application asks a student to prove.
+
+The *Find Your Future* workbook has no job application activity. The printed CCE form is the default because it keeps every field on paper the teacher can collect. Project the free CareerOneStop practice application beside it so students see the same fields in the format an employer's website actually uses, and let students who finish early work the online version. Either one is the d(7)(C) artifact.
 
 **Two prep notes before you start:**
 
 - **Privacy:** Remind students they are completing a *practice* application. For any real-world Personal Information (address, phone, DOB, email), they may either write their real info or substitute a sample identity (e.g., fictional "Alex Martinez, 123 Main St, Irving, TX" from the Day 2 cover letter). Collect and shred all completed forms at end of class, do not send them home or leave them on desks.
 - **Scope:** Real job applications take 30–45 minutes to complete properly, and this class has 15. Today's goal is the *first pass*: Personal Info + Education + Skills + Availability + Signature, with References and Employment History filled in during Activity 2 or as homework. Tell students this explicitly so they pace themselves.
 
-Walk through the application sections on the projector before students start:
+**Chunking:** Walk one section at a time on the projector. Say what the employer is checking in that section before students write anything in it, and close each section with a check that every line is filled and legible before releasing the next.
 
 **Personal Information section:**
 
@@ -73,10 +76,12 @@ Walk through the application sections on the projector before students start:
 
 - Sign and date, even on practice applications
 
-**Student work time (15 min):** Students fill out the application by hand on the printed form. Teacher walks around with two checks:
+**Student work time (15 min):** Students fill out the application by hand on the printed form. Teacher walks a fixed pathway with two laps, one target each:
 
-1. **Are all fields filled?** Empty fields are red flags to employers.
-2. **Is the writing NEAT?** Sloppy applications get rejected before they're even read.
+1. **Lap 1 target, are all fields filled?** Empty fields are red flags to employers.
+2. **Lap 2 target, is the writing NEAT?** Sloppy applications get rejected before they're even read.
+
+Employment History produces the most blanks. If it stalls the room, stop and reteach that babysitting, lawn care, and family business help all count before students move on to Skills.
 
 !!! tip "Facilitation Tip"
     Make this a real exercise in slowing down. Have students write their name slowly and clearly. Show what NEAT looks like. Most students rush and produce something illegible, push them to take their time. Real applications take 30-45 minutes to fill out properly.
@@ -87,7 +92,7 @@ Walk through the application sections on the projector before students start:
 
 ## Activity 2: References Protocol (15 min)
 
-**Source:** Scope and sequence d(7)(D)
+**Source:** CCE-authored references protocol (scope and sequence d(7)(D)). The *Find Your Future* workbook has no references page.
 
 Walk through the rules for selecting and using references:
 

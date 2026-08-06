@@ -1,99 +1,102 @@
-# Day 1: Iceberg Reflection + Finalize H&L Career Plan
+# Day 1: The Career Iceberg + Rung 4 Strengths Interview Debrief
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the H&L "Iceberg" reflection on the visible vs. invisible work of career exploration; finalize the H&L Career Plan in the app; (optional) retake the RIASEC assessment |
-| **TEKS** | d(8)(A), d(8)(B), d(1)(B) |
-| **Deliverable** | Iceberg reflection + finalized H&L Career Plan in the app |
-| **Materials** | Chromebooks, H&L accounts, H&L Workbook (Ch 16, pp. 264-267), printed Iceberg template, projector |
+| **Objectives** | Compare what sits on top of a career iceberg with what sits underneath it; build a personal career-exploration iceberg; make meaning of the Rung 4 Strengths Interview and connect what a trusted adult said back to the Rung 2 career goal |
+| **TEKS** | d(8)(A) |
+| **5E Phases** | Engage: Warm-Up · Explain: Trophy iceberg example · Explore: Personal iceberg and Rung 4 debrief · Evaluate: Exit Ticket |
+| **Deliverable** | Personal career iceberg + the five Make Meaning answers on FYF p. 289 |
+| **Materials** | *Find Your Future* workbook pp. 6-8 and pp. 287-289, students' completed Rung 4 interview notes, Week 0 My Career Journey reflections from the class folder, printed iceberg template, Chromebooks, H&L accounts, projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Open your H&L Climber Profile. How many careers have you favorited this year? Which cluster has the most? Which has zero?**
+**WARM-UP: Find your Week 0 My Career Journey sheet and read the one career you wrote down in September. Then open your H&L Climber Profile and count your favorited careers. What changed?**
 
-Take 4-5 student responses. This forces students to confront how much data they have already gathered. Most have 15+ favorites across 8+ clusters. The Career Plan is built FROM that data. They are not starting from scratch.
+Take 4-5 student responses. This forces students to confront how much data they have already gathered. Most have 15+ favorites across 8+ clusters, and many will find that their September career is not the one they are about to present. Both outcomes are growth, and both are evidence they can use later in the week.
 
 ---
 
-## Activity 1: H&L Iceberg Cartoon Reflection (15 min)
+## Activity 1: The Career Iceberg (15 min)
 
-**Source:** H&L Workbook Ch 16, pp. 264-266, "Iceberg Cartoon"
+**Source:** (FYF pp. 6-8: "The Career Iceberg"), a Career Climb activity in the World of Work chapter
 
-Introduce the activity using the workbook framing: *"Career exploration is a lot like an iceberg. On top of the iceberg is what people see. But underneath the iceberg is all the hard work and small steps that you've done that people can't see."*
+Read the page 6 framing together. Some careers seem simple at first, because a job title is easy to guess at. Underneath the surface, careers are more complex than they appear: workers solve problems, communicate, make decisions, and handle challenges people do not notice right away. Careers are like an iceberg. On top is what you think the job does. Underneath are the deeper skills, responsibilities, and challenges that are also part of the job.
 
-Walk through the workbook example (Ch 16, p. 265): winning a sports trophy. The TIP shows the prize. UNDERNEATH the iceberg are: early mornings, perseverance, injury, late nights, training, sacrifice, improvement, learning, strategy, discipline, hope, commitment.
+!!! note "The iceberg opens the workbook, it does not close it"
+    The Career Iceberg is printed in the World of Work chapter at the front of the book, not in the Capstone chapter. Students met it in the fall. Do not introduce it as a final-chapter activity. Introduce it as the first thing the book taught them, brought back on the last week so they can see how much is now under their own water line.
 
-**Step 1: Look at the example (3 min):** Students examine the workbook example. Discussion: *"What does this tell you about winning first place?"*
+**Step 1: Look at the example (3 min):** The workbook's printed example is an iceberg about winning a trophy in a sports competition (FYF p. 6). **Think-Pair-Share:** 30 seconds of silent Think while partners read the page, then Partner A for 30 seconds and Partner B for 30 seconds comparing what is printed on top with what is printed underneath, then two pairs share with the whole class. The book's own question is the prompt: what does this tell you about winning first place?
 
-**Step 2: Create your own Iceberg (10 min):** Using the workbook (Ch 16, p. 266) or a printed Iceberg template, students create a personal Career Exploration Iceberg. Required (from workbook):
+**Step 2: Create your own iceberg (10 min):** Students build a personal Career Exploration Iceberg on the printed template, in Google Drawings, or in Canva. The specs below are CCE's, not the workbook's. Pages 7 and 8 print two blank iceberg frames, labeled Electrician and Nurse, for students to research and fill in, and they set no required number of items.
 
 - **A title**
-- **At least 3 words/images on TOP of the iceberg:** what people see (your career goal, your favorite cluster, your dream job)
-- **At least 10 words/images UNDERNEATH the iceberg:** what people don't see (RIASEC assessment, Hat research, podcast outline, billboard ad, mock interview, resume revisions, cover letter, leadership campaign, every activity completed)
+- **At least 3 words or images on TOP of the iceberg:** what people see (your career goal, your favorite cluster, your dream job)
+- **At least 10 words or images UNDERNEATH the iceberg:** what people do not see (your Discover Your Core result, every career research worksheet, the mock interview, the resume, the cover letter, the thank-you email, the personal budget, every Career Climb activity you finished)
 
-Students may sketch on paper or use Google Drawings/Canva. The visible items are aspirational. The underwater items are evidence of the work already done across 36 weeks.
+The visible items are aspirational. The underwater items are evidence of the work already done across 36 weeks.
 
 **Step 3: Reflect (2 min):** Write a one-sentence reflection at the bottom of the iceberg: *"Looking at my underwater work, the most important thing I learned about career exploration is _____."*
 
 !!! tip "Facilitation Tip"
-    The Iceberg activity often surprises students because they realize how much they have done. Have students count the items they put underwater. If a student has fewer than 5, push them to look back at every six weeks block. They have done MORE than they think.
+    The iceberg often surprises students because they realize how much they have done. Have students count the items they put underwater. If a student has fewer than 5, push them to look back at every six weeks block. They have done MORE than they think.
 
 **DOK 4:** In what ways do the things underneath your iceberg AFFECT the things on top? Use a specific example from your iceberg.
 
 ---
 
-## Activity 2: Finalize H&L Career Plan (25 min)
+## Activity 2: Rung 4 Debrief — Make Meaning of Your Strengths Interview (25 min)
 
-**Source:** H&L Workbook Ch 16, p. 267, "My Career and Course Plan" + H&L app Career Planner
+**Source:** (FYF pp. 287-289: "Rung 4: Strengths Interview")
 
-Direct students to open H&L and finalize their Career Plan. The workbook (Ch 16, p. 267) explicitly says: *"Go to the Hats & Ladders app and begin your Career and Course Plan. Your plan will include: A pathway that you have identified as a career goal, a place to plan steps you can take now and in the future to reach your career goal, a place to plan courses you can take in 8th grade and in high school that will help prepare you for your future career."*
+Rung 4 is the one rung the ladder cannot build in class, because it needs an adult outside the room. It was assigned as a take-home two weeks ago: interview a trusted adult (a family member, a teacher, a coach, or a mentor) using the workbook's five questions plus at least two of the student's own, and record the answers in the Interview Notes box (FYF p. 288). Today the class does the half that has to happen here, which is deciding what the interview meant.
 
-> [H&L PLATFORM] Students open the H&L Career Planner from their dashboard. They review and finalize:
->
-> - **Personality type** (RIASEC): confirm or update
-> - **Work Values:** confirm or update
-> - **Building Blocks:** add anything from the past 6 weeks not yet listed
-> - **Career Favorites:** make sure top picks are starred
-> - **Selected Pathway:** pick ONE Irving ISD CTE pathway as the primary goal (or choose "still exploring" if appropriate)
-> - **Course Plan:** use the District Course Planner to map the 4-year course sequence at the chosen high school
+**Step 1: Make Meaning of What You Heard (15 min).** Students answer the five prompts on page 289:
 
-Students who have been doing the work all year will only need to ADD this week's data and confirm the selection. Students who have been less engaged will need more time, that is fine. The work happens today.
+1. What is one strength they mentioned that you agree with?
+2. What is one strength or idea that surprised you?
+3. Did they suggest a career you had not thought about before?
+4. How does this connect to your career choice from Rung 2?
+5. Will this change your thinking about your future? Yes or no, and why or why not?
 
-**Teacher's job:** Walk around with the H&L app dashboard open on a separate device. Spot students who have empty Career Plans and sit with them for 1-on-1 coaching. Ask: "What is your top career interest right now?" Then walk them through favoriting it and adding it to the Plan.
+Questions 4 and 5 are the ones that matter for the rest of the week, because they are where a student either confirms the career goal they have been building since January or names the reason they are adjusting it. Both answers are legitimate. Neither is a failure.
 
-!!! tip "Facilitation Tip. Engagement Variability"
-    The students who struggle most this week are the ones who never committed to a top career. Reassure them: "You don't have to know FOREVER. You need a plan that fits you RIGHT NOW. You can change it next year, but you need a starting point." The plan is a hypothesis, not a vow.
+**Active Monitoring:** walk a fixed pathway three times, one target per lap. Lap 1, the interview notes are actually written on page 288 rather than remembered. Lap 2, all five Make Meaning prompts are answered. Lap 3, the answer to question 4 names the Rung 2 career by name. Have the feedback ready before class for the two predictable problems: a student who copied the adult's words without saying whether they agree, and a student who answers question 5 with a bare yes or no. The pivot: if more than a handful stall on question 4, pause the room and model one connection out loud using a career nobody in the class picked.
 
-    **If a student has favorited fewer than 5 careers across the year:** give them a compressed browse-and-finalize path. Ask "What are 3 careers that sound interesting right now?" Have them favorite those 3 in the next 5 minutes, then build the Career Plan around the most interesting one. Refinement continues into the Day 2 writing session. They don't need a perfect pick today. They need a starting pick.
+**Step 2: Check the ladder (10 min).** Students open their workbooks and confirm that the rungs built earlier are actually filled in: Rungs 1-3 (FYF pp. 281-286) from the mid-year career-planning week, Rung 5 (FYF pp. 290-291) from last week, and Rungs 6-7 (FYF pp. 292-296) from the course-mapping week. Anything blank gets a sticky flag. Day 2 is when those gaps get filled, so the point today is finding them, not fixing them.
 
-**DOK 3:** Of all the careers you favorited this year, which ONE rose to the top? What evidence from your year of CCE supports that choice?
+> [H&L PLATFORM] Students open the Hats & Ladders app and click on Career Plan, which is the app step Rung 2 sends them to (FYF p. 283). They confirm the plan still names the career they are presenting this week, and update it if the Rung 4 interview moved their thinking.
+
+!!! tip "Facilitation Tip. The students who have no interview"
+    Some students will arrive with nothing. Do not spend the period chasing them. Send them to the ladder check first, then run a single group interview during Activity 3 with whatever adult you lined up, a counselor, a coach, or a fellow teacher. Five minutes with a real adult who knows them produces a usable Rung 4. A student who still has no interview by the end of the period can conduct it tonight and write the Make Meaning answers during Day 2's work time.
+
+**DOK 3:** Your interview adult named a strength you did not expect. What evidence from your own year supports it, or argues against it?
 
 ---
 
-## Activity 3: Optional RIASEC Retake (5 min)
+## Activity 3: Optional Core Personality Retake (5 min)
 
-**Source:** H&L Workbook Ch 1, p. 12, RIASEC reflection
+**Source:** H&L app, Profile → Discover Your Core (taught in Week 0)
 
-Optional for students who finish the Career Plan early. The workbook (Ch 1) had students take a RIASEC personality assessment in Week 0. Students compare their original results to their current self-perception. If the H&L app supports a retake, they take it now; otherwise they self-assess on a new copy of the workbook page.
+Optional for students who finish the Make Meaning page early. Students took Discover Your Core in Week 0 and wrote the result in their engineering notebook. They compare that result to how they would answer today.
 
-> [H&L PLATFORM] Students retake the personality assessment ("Discover My Core") in the H&L app if available. If not available, they fill out a fresh copy of the workbook page and compare to Week 0.
+> [H&L PLATFORM] Students retake the Discover Your Core activity in the H&L app under Profile if the app allows it. If it does not, they read their Week 0 notebook entry and write one sentence saying whether it still describes them.
 
-The growth comparison is powerful: Week 0 students might have leaned heavily Realistic or Social, and after 36 weeks of exploration they might have shifted toward Investigative or Enterprising. The shift is the point, it means they actually grew.
+The growth comparison is powerful. A student who came out a Doer in September and reads more like an Analyzer in May has not made a mistake; they have collected 36 weeks of new evidence about themselves. The shift is the point.
 
-> [VERIFY IN H&L] Confirm with the H&L district admin whether the Discover My Core assessment supports a retake with comparison to original results.
+> [VERIFY IN H&L] Confirm with the H&L district admin whether the Discover Your Core activity supports a retake with a side-by-side comparison to the original result.
 
 ---
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Venn Diagram) · [Printable PDF](../../resources/exit-tickets/6sw-wk6-day1-iceberg-reflection-finalize-h-and-l-career-plan.pdf):
+**EXIT TICKET** (Venn Diagram) · [Printable PDF](../../resources/exit-tickets/6sw-wk6-day1-the-career-iceberg-rung-4-strengths-interview-debrief.pdf):
 
-Draw two circles labeled **TOP OF ICEBERG** (what people see) and **UNDER THE ICEBERG** (what people don't see). Place 2 items in each zone AND 1 item in the OVERLAP (something that is both visible and hidden work).
+Draw two circles labeled **TOP OF ICEBERG** (what people see) and **UNDER THE ICEBERG** (what people do not see). Place 2 items in each zone AND 1 item in the OVERLAP (something that is both visible and hidden work).
 
 **TOP OF ICEBERG** (2 items I listed today):
 
@@ -113,16 +116,16 @@ Draw two circles labeled **TOP OF ICEBERG** (what people see) and **UNDER THE IC
 
 Bottom line:
 
-   My selected career pathway: _______________________
+   My career goal from Rung 2: _______________________
 
-   Irving ISD high school that offers it: _______________________
+   One strength my interview adult named that I agree with: _______________________
 
-*(d(8)(A), d(8)(B))*
+*(d(8)(A))*
 
 ---
 
 ## Differentiation
 
-- **Support:** Provide a list of the top 5 most-explored careers from the year (compiled from H&L favorites). Allow students to pick their pathway from this list. Pre-fill the Iceberg with 5 example "underwater" items so students only add 5 more.
-- **Extension:** Students complete BOTH a Plan A and a Plan B Career Plan, with a written explanation of why having a backup matters in real career planning. Or they retake the RIASEC and write a 1-paragraph comparison to Week 0.
-- **ELL:** Pre-teach: Iceberg = Iceberg, Pathway = Camino, Career Plan = Plan de carrera. Allow Iceberg labels in Spanish or bilingual format. Pair ESL students with bilingual peers for the Career Plan navigation in the app.
+- **Support:** Pre-fill the iceberg with 5 example underwater items so students only add 5 more, or hand out the workbook's printed Electrician frame (FYF p. 7) as a lower-lift alternative to a personal iceberg. Provide sentence stems for the five Make Meaning prompts ("One strength she named was _____. I agree because _____.").
+- **Extension:** Students fill in both printed career icebergs, Electrician (FYF p. 7) and Nurse (FYF p. 8), and answer the page 8 class discussion questions in writing: how did your thinking change after researching these careers, and which career had the most surprising responsibilities underneath the iceberg? Or they retake Discover Your Core and write a one-paragraph comparison to Week 0.
+- **ELL:** Pre-teach: Iceberg = Iceberg, Strength = Fortaleza, Career Plan = Plan de carrera. Allow iceberg labels in Spanish or bilingual format. The Rung 4 interview was very likely conducted in Spanish; the notes and the Make Meaning answers may stay in Spanish. Pair ESL students with bilingual peers for the app navigation.

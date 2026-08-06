@@ -1,14 +1,15 @@
-# Day 5: Jigsaw Presentations + Power Pitch Practice + H&L Favorites
+# Day 5: Jigsaw Presentations + Inspection Report + H&L Favorites
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Present assigned construction trade to the class; practice and finalize the Power Pitch with peer feedback; favorite construction careers in H&L and update Career Plan |
-| **TEKS** | d(4)(C), d(5)(B), d(3)(H) |
-| **Deliverable** | Jigsaw trade presentation + final Power Pitch + updated H&L Career Plan |
-| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 3 Power Pitch and Ch 16 Career Plan), projector, printed Power Pitch feedback form |
+| **Objectives** | Present assigned construction trade to the class; write a professional inspection report from Day 4's observations; favorite construction careers in the app and rate the cluster |
+| **TEKS** | d(4)(C), d(5)(B), d(3)(H), d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explain: Jigsaw trade presentations · Explain: Inspection report · Extend: Favorites and cluster wrap · Evaluate: Exit Ticket |
+| **Deliverable** | Jigsaw trade presentation + completed inspection report (FYF pp. 178-179) + 2-3 favorited construction Hats |
+| **Materials** | Chromebooks, H&L accounts + *Find Your Future* workbook (printed pp. 178-179 and 198), Climber Notes deck "Spot the Problem" (slides 2-6) for reference, projector, note-taking sheet for the presentations |
 
 ---
 
@@ -34,49 +35,52 @@ Teams assembled on Day 2 (by trade: Carpenter, Construction Manager, Mason, Heav
 Classmates listen and complete a note-taking sheet with one key fact per trade. This ensures every student leaves the week with knowledge of all 4+ trades, not just their own.
 
 !!! tip "Facilitation Tip"
-    Use a 3-minute visible timer on the projector. Cut off at 3 minutes hard — students learn to hit the time. This is genuine professional practice: contractors bidding on jobs present under strict time limits.
+    Run a visible 3-minute countdown on the projector and say before the first team stands up that every team gets the same three minutes, so no team loses air time to the team before it. **Time, Voice, Body:** Voice 0 while a team gets its notes set, Voice 3 for the presenter, Voice 1 for the note-taking sheet between teams, and a fixed spot at the front where presenters stand. If a team is at 2:45 with two points left, say which point to lead with rather than cutting them off mid-sentence.
 
 ---
 
-## Activity 2: Power Pitch Practice + Peer Feedback (12 min)
+## Activity 2: Spot the Problem — Inspection Report (12 min)
 
-**Source:** H&L Workbook Ch 3, p. 43, "Step 4: Get Peer Feedback and Make Revisions"
+**Source:** (FYF pp. 178-179: "Spot the Problem", Step 4), a Career Climb activity
 
-Students pair up and practice their Power Pitch from Day 4. The workbook instructs: *"Pair up with a classmate and read your Power Pitch aloud at least two times. Ask your classmate for constructive feedback. Use the suggestions to polish your pitch. Practice reading it out loud at least two more times."*
+Students turn Day 4's observation notes into the professional report a buyer would actually receive. Reproject the five Climber Notes images so students can check an image against what they wrote.
 
-**Round 1:** Partner A reads their Power Pitch aloud. Partner B gives feedback using the feedback form:
+**Write the report (9 min).** Working on pages 178-179, each student completes four parts:
 
-- **Did they introduce themselves clearly?** (Y/N)
-- **Did they mention experience?** (Y/N)
-- **Did they mention skills?** (Y/N)
-- **Did they mention personal traits?** (Y/N)
-- **One suggestion** to make it stronger
+- **The header:** inspector name, date, and the property address, 1212 W Blue Rd.
+- **General observations:** two to three sentences on their overall impression of the house.
+- **The findings table:** one row per image, with the image number, the area or location, the problem noticed, and why it matters. A row that says "looks fine" still names the area that was checked.
+- **Technology observations:** what the thermal image shows that the regular image does not, where the unusual area is, what it might indicate (missing insulation, moisture, or air loss), and how it could affect comfort, safety, or energy cost.
 
-**Round 2:** Partners switch.
+**Class discussion (3 min).** Run the workbook's four questions: which image made you stop and think, how you decided whether something was a problem or not, why it matters to describe a problem clearly instead of saying "something is wrong," and which other roles a home inspector works with most often. That last question lands directly on the trades the class just presented.
 
-**Round 3:** Each student revises their pitch based on feedback and reads it one more time to their partner. The workbook calls this "polishing", small changes that make the pitch sound more natural and confident.
+The completed report is a summative deliverable for the week along with the Classification worksheet.
 
-Students write their final Power Pitch on the workbook page. This is the summative deliverable for the week along with the Classification worksheet.
+**DOK 3:** Your report says a ceiling stain "might mean a roof leak." The buyer asks whether they should still purchase the house. What would you say, and what would you need to know before you could answer with more confidence?
 
-**DOK 3:** How does a Power Pitch for a construction apprenticeship differ from a Power Pitch for a retail job? Which part would you change and why?
+!!! tip "Facilitation Tip"
+    The findings table fills fastest when students copy the area word (roof, water, electrical, structure, insulation) into every row first, then write the problem and the why. Students still finishing the technology paragraph can carry it into the first minutes of the app work that follows rather than losing the paragraph entirely.
 
 ---
 
-## Activity 3: H&L Favorites + Career Plan Update (10 min)
+## Activity 3: H&L Favorites + Cluster Wrap (10 min)
 
-**Source:** H&L Workbook Ch 3 (A&C Hat Finder) + Ch 16 (My Next Steps: Career Plan)
+**Source:** (FYF p. 198: "App Exploration")
 
-Direct students to open H&L and complete three tasks:
+Direct students to open the Hats & Ladders app and finish the cluster's App Exploration page:
 
-1. **Favorite 2-3 construction careers** in the Hat Finder from the A&C cluster. Carpenter, Construction Manager, Heavy Equipment Operator, or Mason are natural choices from this week.
-2. **Review Building Blocks:** Do their Building Blocks (likes, skills, experiences) now connect to construction or trades? Students who helped build something at home, played construction video games, or enjoyed hands-on classes should note the connection.
-3. **Open the Career Plan** (Ch 16) and make sure A&C is represented alongside their earlier favorites. By this point in the year, students have explored 12+ career clusters. Their Career Plan should show clear trends in what they are drawn to.
+1. **Favorite 2-3 construction careers** from the Architecture and Construction cluster. Carpenter, Construction Manager, Heavy Equipment Operator, or Mason are natural choices from this week.
+2. **Rate at least three Hats** and, if they have not already, rate at least one pathway. Ratings are what make the app's later recommendations useful.
+3. **Jot the cluster reaction** in the space at the bottom of the App Exploration page, in words, pictures, or emojis: after this week, what do they now think about building as a career?
+4. **Review Building Blocks:** do their likes, skills, and experiences connect to construction or the trades? Students who helped build something at home, played construction video games, or enjoyed hands-on classes should note the connection.
+
+The favorites and ratings students set today are the raw material for **Rung 1: Who You Are** (FYF pp. 281-282) in the mid-year career ladder, and this week's salary and training research feeds **Rung 3: Career Deep Dive** (FYF pp. 285-286).
 
 ---
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/5sw-wk3-day5-jigsaw-presentations-power-pitch-practice-h-and-l-favorites.pdf):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/5sw-wk3-day5-jigsaw-presentations-inspection-report-h-and-l-favorites.pdf):
 
 A construction career I favorited this week: _______________________
 
@@ -94,18 +98,18 @@ Connect this career to THREE things:
 
    ___________________________________________________________________
 
-**3. My Power Pitch** (from Day 4-5)
+**3. My inspection report** (from Day 4 and Day 5)
 
-   ONE sentence from my final Power Pitch that I would use on a real apprenticeship application:
+   ONE problem I recorded at 1212 W Blue Rd: _______________________. Which construction worker would I call to fix it, and why that one? One sentence:
 
    ___________________________________________________________________
 
-*(d(4)(C), d(5)(B))*
+*(d(5)(B), d(1)(C))*
 
 ---
 
 ## Differentiation
 
-- **Support:** Allow students uncomfortable with oral Power Pitch practice to submit a written pitch instead. They still get credit for the writing component. They practice it silently with a peer review partner.
-- **Extension:** "Unexpected Architecture" project (H&L Ch 3, pp. 48-54): design a novelty building landmark for the city of Brighton Ridge. This is the optional multi-step H&L project with a city brief, rubric, and peer review.
-- **ELL:** Power Pitch feedback form with Spanish column headers. Pair ELL students with bilingual peers. Power Pitch is a life skill. Students may choose the language they are most confident speaking in.
+- **Support:** Give the findings table with the Image # column already filled in and one row completed as a model, so students are writing the problem and the why, not rebuilding the table. Students uncomfortable presenting may take the note-taking or timer role for their team and submit their two presentation points in writing.
+- **Extension:** Powerskill: Creativity mosaic mural (FYF pp. 191-193). Students take the role of the mason hired for a downtown revitalization project: at least three colors, one repeating pattern, one curve or diagonal element, abstract, on a 12-foot by 12-foot wall drawn on graph paper where each square is one 6-inch tile. Then plan the install order with a partner, starting from where the first tile goes.
+- **ELL:** Bilingual findings-table headers (Área / Problema / Por qué importa). Pair ELL students with bilingual peers for the presentation notes. Students may draft observations in Spanish and translate them into the report with a partner. The five inspection images carry the evidence visually.

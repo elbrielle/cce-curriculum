@@ -4,25 +4,28 @@
 
 ## Lesson Objective
 
-Students complete a problem-solving revisit using the H&L Powerskills "Work Ethic" module (Ch 8 STEM Program activity), build a Transferable Skills Matrix that maps soft skills across multiple careers, research professional associations through a Jigsaw, update their Career Plan with all 4SW data, and complete the mid-year growth reflection that closes the first half of the year.
+Students work the *Find Your Future* Transportation chapter's "Powerskill: Analytical Reasoning" activity as an auto mechanic diagnosing four warning-light problems on a truck, build a Transferable Skills Matrix that maps soft skills across six careers from this year, research professional associations and CTSOs through a Jigsaw, audit and update their Hats & Ladders Career Plan with all 4SW data, and complete the mid-year growth reflection that closes the first half of the year.
+
+**Learning Target:** I can read clues to diagnose four truck problems and rank them by urgency, name at least five skills that work in more than one career, explain one benefit of joining a professional association, and show in writing how my career thinking has changed since Week 0.
+
+**Success Criteria:** I will know I am successful when my diagnosis chart names a possible problem and an explanation for all four issues, when my ranking says which two issues I would fix first and why, when my Transferable Skills Matrix has an example or a reason in every cell plus a total out of 48, when my jigsaw notes list five membership benefits and one Texas event for my association, and when my Mid-Year Growth Reflection answers all six sections.
 
 ## Demonstration of Learning
 
-> "I can complete the H&L Work Ethic STEM Program activity, identify transferable skills that work across multiple careers, explain the value of joining a professional association, and write a mid-year growth reflection that shows how my career thinking has evolved since Week 0."
+> "I can use clues to figure out what is wrong with a truck and rank the problems by urgency, identify skills that work across multiple careers, explain the value of joining a professional association, and write a mid-year growth reflection that shows how my career thinking has evolved since Week 0."
 
 ## TEKS Alignment
 
-- **d(4)(B):** Identify skills that can be transferable among a variety of careers.
-- **d(4)(F):** Define and identify examples of work ethic, integrity, dedication, and perseverance in the workplace.
-- **d(3)(H):** Identify professional associations and the value of membership.
-- **d(3)(F):** Explain the importance of co-curricular and extracurricular activities to career exploration and development (TSA, SkillsUSA, HOSA, FBLA, and related CTSOs).
+- **d(4)(B):** Identify skills that can be transferable among a variety of careers (Day 1 analytical reasoning transfer question, Day 2 Transferable Skills Matrix, Day 5 reflection).
+- **d(4)(F):** Define and identify examples of work ethic, integrity, dedication, and perseverance in the workplace (Day 4 trades integrity examples and worksheet, Day 5 reflection).
+- **d(3)(H):** Identify professional associations and the value of membership (Days 3 and 5).
+- **d(3)(F):** Explain the importance of co-curricular and extracurricular activities to career exploration and development (TSA, SkillsUSA, HOSA, FBLA, and related CTSOs; Day 3 jigsaw).
 - **d(4)(E):** Community service and volunteerism (Day 3 names at least one community-service program each researched CTSO runs and weighs service as one of five membership benefits in the exit ticket).
 
 ## Materials Needed
 
 - Chromebooks with internet access (1 per student)
-- Hats & Ladders student accounts + Powerskills Workbook (Powerskills, pp. 12-15, "Work Ethic" module + STEM Program activity)
-- H&L Workbook (Ch 16, Career Plan finalization)
+- Hats & Ladders student accounts + *Find Your Future* workbook, Transportation chapter (printed pp. 149-170)
 - SkillsUSA: [skillsusa.org](https://www.skillsusa.org)
 - ASE: [ase.com](https://www.ase.com)
 - FAA Careers: [faa.gov/jobs](https://www.faa.gov/jobs)
@@ -31,56 +34,61 @@ Students complete a problem-solving revisit using the H&L Powerskills "Work Ethi
 - CareerOneStop Compare Occupations: [careeronestop.org/Toolkit/Careers/compare-occupations.aspx](https://www.careeronestop.org/Toolkit/Careers/compare-occupations.aspx)
 - My Career Journey reflection sheet (returned from Week 0 + Week 1 mid-year update)
 - Printed Transferable Skills Matrix (1 per student)
-- Printed STEM Program planning chart (from H&L Powerskills Ch 8)
+- Printed Work Ethic Examples worksheet (CCE artifact)
 - Printed Mid-Year Reflection template
 
 ## Career Connection
 
-Over 18 weeks students have explored 8 career clusters, designed safety plans and apps and surveys and robots, and built a written Career Plan. This week shifts the focus from "what career do I want?" to "what skills do I bring to ANY career?" The transferable skills students have practiced (communication, problem solving, teamwork, attention to detail, work ethic) connect to every pathway. Professional associations (SkillsUSA, ASE, FAA, TSA, NSPE, HOSA, FBLA) provide networking, competitions, scholarships, and credentialing.
+Over 18 weeks students have explored 8 career clusters, worked career scenarios from safety plans to design challenges to diagnostic investigations, and built a Career Plan in the Hats & Ladders app. This week shifts the focus from "what career do I want?" to "what skills do I bring to ANY career?" The transferable skills students have practiced (communication, problem solving, teamwork, attention to detail, analytical reasoning, work ethic) connect to every pathway. Professional associations (SkillsUSA, ASE, FAA, TSA, NSPE, HOSA, FBLA) provide networking, competitions, scholarships, and credentialing.
 
-**What is Happening at Irving ISD?** This week connects to all pathways. Professional associations referenced: SkillsUSA (trades), ASE (automotive), FAA (aviation), TSA (technology, students are already members), NSPE (engineering).
+**What is Happening at Irving ISD?** **Automotive** at the **Ratteree Career Development Center** leads to the Automotive Service Excellence (ASE) certification, and **Aviation Maintenance** and **Drone Engineering** sit at **Irving High School** in the School of Aviation Science. The workbook's district pages add the local detail students respond to most (FYF pp. 168-169: "What is Happening at My District?"): **Automotive Enterprise Days**, community events where student mechanics service neighbors' vehicles at heavily discounted rates; four named programs of study, Automotive Technology, Collision Repair, Diesel and Heavy Equipment Technology, and Aviation Maintenance; Automotive Service Excellence as the industry-based certification; SkillsUSA as the student organization; and two full-motion flight simulators in the Irving High aviation program. Automotive Enterprise Days is the clearest community-service example in the cluster and it feeds the Day 3 discussion directly.
+
+> [VERIFY with CTE coordinator] The workbook names Collision Repair and Diesel and Heavy Equipment Technology as separate Irving ISD programs of study. PATHWAYS.md and the district CTE Offerings page list a single **Automotive** pathway at Ratteree and do not name those two programs. Confirm the current program names and campuses before repeating them to students.
 
 ## Vocabulary
 
 - **Transferable Skills:** Skills that work across multiple careers, problem solving, communication, teamwork, time management, critical thinking, work ethic.
+- **Analytical Reasoning:** Looking at clues and figuring out what they mean. Noticing details, asking questions, and making a smart call based on evidence instead of a guess. The Powerskill that anchors Day 1.
+- **Diagnostic Code:** The short code a code reader pulls from a vehicle that points at which system has a problem. It narrows the search, it does not name the repair.
 - **Professional Association:** An organization for people working in a specific field that provides networking, training, certification, and advocacy. Often hosts student chapters and competitions.
 - **SkillsUSA:** A national CTSO for trade, technical, and skilled service career students. Hosts SkillsUSA Championships across hundreds of competitions.
 - **TSA (Technology Student Association):** The CTSO for technology and engineering students. Many IISD VILS students compete in TSA Drone Challenge.
-- **Work Ethic:** The set of values centered on doing work well, showing up on time, doing your best, being responsible, persevering through challenges. The H&L Powerskills module that anchors this week.
+- **Work Ethic:** The set of values centered on doing work well, showing up on time, doing your best, being responsible, persevering through challenges. Day 4 connects it to trades careers where skipping a step costs lives.
 
 ## Bridge to Theory (Hats & Ladders)
 
-H&L Powerskills "Work Ethic" module (Powerskills workbook, pp. 12-15) is the centerpiece of this week. The module frames work ethic as showing up on time, doing your best, being responsible, and not giving up, even when things get tough. The module's named activity is the **STEM Program design activity** (cross-referenced in H&L Ch 8 Engineering, p. 124-125): students imagine they are volunteering to create a community STEM program and design the program from scratch. The activity is structured around 3 steps:
+The *Find Your Future* workbook gives Transportation, Distribution, and Logistics printed pages 149-170, the same chapter the aviation and automotive weeks draw from. This wrap-up week takes the chapter's Powerskill lesson and its two closing pages.
 
-1. **Choose a Topic** (Science, Technology, Engineering, or Math)
-2. **Plan Your Program** (5-question chart: Name, Audience, Activities, Location, Community Impact)
-3. **Design a Flyer** (with sign-up information)
+- **Powerskill: Analytical Reasoning** (Day 1): students are an auto mechanic in a busy garage and a truck arrives with warning lights on the dashboard. Step 1 explains the two tools, a code reader that returns a short code pointing at a system and the dashboard lights themselves. Step 2 puts four issues in front of partners with a clue set for each, oil, battery, engine temperature, and tire pressure, and asks for a possible problem and an explanation. Step 3 ranks the four as Critical, High Priority, or Monitor. Step 4 forces a choice, because there is only time to fix two of the four (FYF pp. 153-155: "Powerskill: Analytical Reasoning"). This is the auto-shop problem-solving scenario the scope and sequence calls for.
+- **What is Happening at My District?** (Days 3 and 4): the Irving ISD pages for this cluster, which name the district's own programs of study, the industry certification, the student organization, and Automotive Enterprise Days (FYF pp. 168-169).
+- **App Exploration** (Day 4): the cluster's app page, which sets the rating work that closes the six weeks. Students find one Hat that fits, find one that does not, rate at least one pathway, and rate at least three Hats (FYF p. 170).
 
-The class discussion at the end ties back to work ethic explicitly: "How did you show (or how would you show) a strong work ethic while creating your STEM program?"
+Work ethic still anchors Day 4, but the workbook prints its "Powerskill: Work Ethic" lesson in the Information Technology chapter, where the cybersecurity week teaches it (FYF pp. 34-35). Day 4 builds on that lesson with trades examples rather than reteaching it.
 
 ## IISD Instructional Strategies
 
-- **Think-Pair-Share:** Day 1 STEM program debrief on how students applied work ethic.
-- **Jigsaw:** Day 3 professional association research, each team becomes the expert on one association and teaches the rest.
-- **Sentence Stems:** Mid-year reflection, "At the beginning of the year I thought _____. Now I know _____. The biggest growth I see in myself is _____."
-- **Active Monitoring:** Day 2 Transferable Skills Matrix, verify every student finds at least 8 skills that apply to ALL 6 careers in the matrix.
+- **Think-Pair-Share:** Day 1, Activity 2, the partner diagnosis of the four truck issues (FYF p. 154). Distinguished: read the first issue's clue set to the whole room, hold a silent 30 second Think, then time Partner A for 30 seconds and Partner B for 30 seconds, and post two stems at different levels: "The clue that matters most is _____ because _____" and "Issue _____ and issue _____ could be connected because _____." Ask two pairs to share, not one. Listen while pairs talk for who reasons from a clue instead of naming a part they have heard of, and pick your share-out pairs from what you heard rather than from raised hands.
+- **Stop and Jot:** Day 5, Activity 2, Section 1 of the Mid-Year Growth Reflection. Distinguished: put the section on screen, give a 4 minute box for the first draft, and post the three stems this week already uses, "At the beginning of the year I thought _____", "Now I know _____", "The biggest growth I see in myself is _____." Read one strong sample answer aloud before the timer starts so students hear what specific sounds like. Read over shoulders while they write. If most first sentences name only a job title, pause the room and ask for one piece of evidence per sentence, a salary, a training length, or a class activity, before students move to Section 2.
+- **Active Monitoring:** Day 2, Activity 1, the Transferable Skills Matrix build. Distinguished: walk a fixed pathway three times with one target per lap, using the two-question checklist already written into the plan, every cell carries either YES with an example or NO with a reason, and more than six of the eight skills apply to all six careers. Have the feedback ready before class for the two predictable errors: leaving cells blank instead of arguing NO, and marking Leadership NO for the trades careers. If more than a handful of students stall on the Leadership row, pause the room and run the shop-floor questions from the facilitation tip instead of answering desk by desk.
+- **Chunking:** Day 3, Activity 1, the eight-field jigsaw research template, chunked as a jigsaw with one association per team. Distinguished: say what each field is for before teams open a browser, project the navigation path for the first field so nobody hunts a homepage, and rotate roles at the 12 minute mark so no student owns only one field. Check the Membership benefits field at that rotation. If most teams have fewer than three benefits by then, name a source page for the whole room rather than letting teams run out of material for the share-out.
+- **Time, Voice, Body (TVB):** Day 3, Activity 2, the five team share-outs. Distinguished: post the three blocks before the first team stands, Voice 0 while a team sets up, Voice 3 for the presenting team, Voice 1 for listening-grid talk between teams, and run a visible 2 minute countdown for every team so five teams plus transitions fit the block. Say where presenters stand and where the listening grids go so transitions do not eat presentation time. Narrate the teams meeting the expectation rather than correcting the ones who are not. If the second team runs long, cut the between-team talk and announce the change before team three begins.
 
 ## Week at a Glance
 
-| Day | Focus | Key Activities | Deliverable |
-|-----|-------|---------------|-------------|
-| 1 | Powerskills Work Ethic + STEM Program | H&L Powerskills "Work Ethic" + STEM Program planning chart + flyer | Completed STEM Program plan and flyer |
-| 2 | Transferable Skills Matrix | Build a 6-career × 8-skill matrix | Completed Transferable Skills Matrix |
-| 3 | Professional Associations Jigsaw | Research SkillsUSA / ASE / FAA / TSA / NSPE in teams; share-out | Jigsaw research notes per association |
-| 4 | Work Ethic Discussion + Career Plan Update | Workplace integrity examples + H&L Career Plan accumulation | Updated H&L Career Plan + work ethic example notes |
-| 5 | Mid-Year Growth Reflection + Sharing Circle | Final reflection + class share + 5SW preview | Submitted Mid-Year Reflection (4SW summative artifact) |
+| Day | Focus | Key Activities | Deliverable | 5E |
+|-----|-------|---------------|-------------|-----|
+| 1 | Powerskill: Analytical Reasoning | Diagnose four truck issues from clues, rank them by urgency, choose two to fix | Completed diagnosis chart, ranking, and two-issue plan | Engage · Explain · Explore · Explain · Evaluate |
+| 2 | Transferable Skills Matrix | Build a 6-career × 8-skill matrix | Completed Transferable Skills Matrix | Engage · Explore · Explain · Evaluate |
+| 3 | Professional Associations Jigsaw | Research SkillsUSA / ASE / FAA / TSA / NSPE in teams; share-out | Jigsaw research notes per association | Engage · Explore · Explain · Evaluate |
+| 4 | Work Ethic in Action + Career Plan Audit | Workplace integrity examples + Career Plan accumulation and app ratings | Updated H&L Career Plan + work ethic example notes | Engage · Explain · Extend · Evaluate |
+| 5 | Mid-Year Growth Reflection + Sharing Circle | Final reflection + class share + 5SW preview | Submitted Mid-Year Reflection (4SW summative artifact) | Engage · Explore · Explain · Extend · Evaluate |
 
 ## Formative Assessment
 
-- STEM Program plan completeness (Day 1): d(4)(F)
+- Analytical Reasoning diagnosis chart, urgency ranking, and two-issue plan (Day 1): d(4)(B)
 - Transferable Skills Matrix coverage (Day 2): d(4)(B)
 - Jigsaw research notes per team (Day 3): d(3)(F), d(3)(H), d(4)(E)
-- H&L Career Plan accumulation check (Day 4): d(4)(F)
+- Work Ethic Examples worksheet + H&L Career Plan audit (Day 4): d(4)(F)
 
 ## Summative Assessment
 
@@ -92,7 +100,7 @@ The class discussion at the end ties back to work ethic explicitly: "How did you
 - Simplified Transferable Skills Matrix with some cells pre-filled as examples
 - Sentence starters for the Mid-Year Reflection
 - Allow students to complete the reflection in bullet-point or graphic organizer format
-- Pre-built STEM Program plan options for students who freeze on the open-ended prompt
+- Pre-filled diagnosis chart with Issue 1 worked as a model so students copy the reasoning pattern into Issues 2 through 4
 
 ### Extensions
 - Build a visual "Skills Resume" showing every transferable skill the student demonstrated this year with evidence from class activities
@@ -102,5 +110,5 @@ The class discussion at the end ties back to work ethic explicitly: "How did you
 ### ELL Language Support
 - Pre-teach: Transferable = Transferible, Work Ethic = Ética de trabajo, Professional Association = Asociación profesional, Reflection = Reflexión, Growth = Crecimiento
 - Bilingual Transferable Skills Matrix and Mid-Year Reflection template with Spanish sentence stems
-- The H&L Powerskills module uses visual scenarios accessible across language levels
+- The Day 1 diagnosis tables carry each clue set in short phrases, so the activity is readable across language levels. The workbook still reads well above grade level, so read the Powerskill opening paragraph aloud rather than assigning it as silent reading
 - Pair ESL students with bilingual peers during the Jigsaw and Sharing Circle activities

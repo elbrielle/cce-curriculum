@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Each team becomes the expert on one drone industry through research; identify careers, certifications, salary ranges, and growth projections; classify drone careers as high-skill, high-wage, and high-demand |
 | **TEKS** | d(2)(A), d(5)(B), d(1)(D) |
+| **5E Phases** | Engage: Warm-Up · Explain: Jigsaw setup and template walkthrough · Explore: Team research on the assigned industry · Evaluate: Exit Ticket |
 | **Deliverable** | Completed UAS Industry Research Template for the assigned industry (1 per student, but team collaborates) |
 | **Materials** | Chromebooks, BLS pages bookmarked, FAA Drone Zone (faa.gov/uas), DJI Education site (dji.com/education), printed UAS Industry Research Template, projector |
 
@@ -64,7 +65,7 @@ Roles rotate every 10 minutes so every student touches every section.
 !!! tip "Facilitation Tip"
     Construction is the easiest industry to find data on (many trade publications, lots of drone surveying news). Emergency Services is the hardest (career titles overlap with traditional firefighting). If a team is stuck on Emergency Services, suggest they search "drone search and rescue careers" and look at FEMA or local fire department sites.
 
-The team teacher reads through and verifies each team has reached the High-skill / High-wage / High-demand classification before the period ends. This is the d(5)(B) anchor.
+**Active Monitoring:** walk the room twice while teams research. Lap 1 target is section 3, every team has found what certification their industry requires beyond Part 107. Lap 2 target is section 6, every team has reached the High-skill / High-wage / High-demand classification before the period ends. This is the d(5)(B) anchor. Have the feedback ready for the two predictable stalls: a team quoting a national salary with no source, and a team calling a field high-demand from a single news headline. If more than one team is stuck on the same section, pause the room and model that section on the projector instead of fixing it team by team.
 
 **DOK 4:** Based on your research, what argument would you make for classifying your industry's drone careers as high-skill, high-wage, AND high-demand? Use specific salary numbers, education requirements, and growth projections to support your argument.
 

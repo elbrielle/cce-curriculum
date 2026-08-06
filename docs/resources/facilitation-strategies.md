@@ -52,7 +52,7 @@ Quick reference for research-based discussion and reading structures that fit in
 
 **Time:** 15 to 20 min | **Group size:** expert groups of 4 to 6, then mixed home groups | **Best for:** parallel content where each sub-section has the same structure (6 pathways, 14 clusters, 6 personality types)
 
-1. **Assign (1 min).** Divide students into expert groups. Assign each group ONE sub-section (one Manufacturing pathway, one RIASEC type, one cluster).
+1. **Assign (1 min).** Divide students into expert groups. Assign each group ONE sub-section (one Manufacturing pathway, one core personality type, one cluster).
 2. **Expert (6 to 8 min).** Groups read and discuss their sub-section. Each member writes 2 to 3 key points in their workbook.
 3. **Remix (1 min).** Re-sort students so every new home group has one expert from each original group.
 4. **Teach (6 to 8 min).** Experts teach their sub-section to the home group. Peers take notes.

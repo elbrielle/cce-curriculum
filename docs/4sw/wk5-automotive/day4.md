@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Understand how the Irving ISD Ratteree automotive pathways work; compare starting automotive training in HS vs. waiting until after graduation; research at least one trade school option (UTI, Lincoln Tech, or TCC) |
 | **TEKS** | d(2)(B), d(3)(G) |
-| **Deliverable** | Completed Cardwell vs. Trade School comparison notes showing time, cost, and outcomes for both options |
-| **Materials** | Chromebooks, Irving ISD Ratteree program info (district website), UTI website ([uti.edu](https://www.uti.edu)), Lincoln Tech website, Tarrant County College automotive program page, printed Cardwell vs. Trade School comparison notes template, projector |
+| **5E Phases** | Engage: Warm-Up · Explain: Ratteree pathway and district programs of study · Explore: Trade school research · Evaluate: Exit Ticket |
+| **Deliverable** | Completed Ratteree vs. Trade School comparison notes showing time, cost, and outcomes for both options |
+| **Materials** | Chromebooks, *Find Your Future* workbook district pages (printed pp. 168-169), Irving ISD Ratteree program info (district website), UTI website ([uti.edu](https://www.uti.edu)), Lincoln Tech website, Tarrant County College automotive program page, printed Ratteree vs. Trade School comparison notes template, projector |
 
 ---
 
@@ -22,21 +23,23 @@ Take 4-5 student responses. Most students have heard the names but do not know w
 
 ## Activity 1: Irving ISD Ratteree Automotive Pathways (18 min)
 
-**Source:** Irving ISD Career Centers. Ratteree program pages
+**Source:** (FYF pp. 168-169: "What is Happening at My District?") + Irving ISD Career Centers, Ratteree program pages
 
-> [VERIFY] Confirm with your district CTE coordinator the current program details for Cardwell and Ratteree automotive offerings, schedule format, transportation options, and certification outcomes. The Irving ISD CTE department updates these annually.
+> [VERIFY with CTE coordinator] The workbook's district pages name three Transportation programs of study for Irving ISD but do not say which campus hosts each one. The Irving ISD CTE pathway reference places Automotive at Ratteree Career Development Center with the ASE certification. Confirm which campus offers each program, the schedule and transportation format, and the current certification outcomes. Irving ISD CTE updates these annually.
 
 Project the Ratteree program info on the screen. Cover the structure:
 
-- **Three automotive pathways offered:**
-    1. **Automotive** (Auto Tech Levels 1-4)
-    2. **Diesel & Heavy Equipment**
-    3. **Collision Repair / Auto Body**
+- **Three programs of study named on the workbook's district pages:**
+    1. **Automotive Technology** (engine systems, diagnostics, routine maintenance and repair)
+    2. **Collision Repair** (damage assessment, refinishing, structural repair, auto body restoration)
+    3. **Diesel & Heavy Equipment Technology** (engine performance, maintenance, and diagnostics for heavy-duty vehicles)
 - **How it works:** Students attend their home high school for half the day and travel to Ratteree for the other half (AM or PM session). The center is a real automotive shop with bays, lifts, tools, and live vehicles.
 - **What students do:** Hands-on work on actual cars and trucks. Engine diagnosis, brake repair, electrical work, body repair, painting, paint matching.
 - **Certifications:** Students prepare for ASE entry-level exams. Some students earn ASE before graduation.
 - **Industry partnerships:** Local dealerships (Ford, Chevrolet, dealers across DFW) often hire program graduates directly. Some students walk into $40K+ jobs the day after graduation.
 - **Cost to the student:** Free (it is part of Irving ISD curriculum).
+- **Automotive Enterprise Days:** Community service events where students in the Automotive Technology and Collision Repair programs provide basic vehicle maintenance, oil changes and tire rotations, to the public at heavily discounted rates (FYF pp. 168-169). Students get hands-on hours on real customer vehicles and the community gets affordable service.
+- **Certification and student organization:** The industry certification tied to these programs is **Automotive Service Excellence (ASE)** and the student organization is **SkillsUSA** (FYF p. 169).
 
 Students take notes on their printed comparison template. The Ratteree column captures:
 - Time to complete: ~3 years (10th-12th grade)
@@ -69,7 +72,7 @@ After both columns are filled in, students write a 2-3 sentence comparison: "If 
 !!! tip "Facilitation Tip"
     The Ratteree comparison usually wins on cost (free vs. $30K+) but loses on intensity (a few hours per day vs. full-time). Both options are legitimate. Make sure students understand that picking trade school after HS is also valid if they did not choose the CTE pathway in 9th grade.
 
-**DOK 2:** How would you describe the difference between starting your automotive training in HIGH SCHOOL at Cardwell versus waiting until after graduation to attend a trade school? What is the financial impact?
+**DOK 2:** How would you describe the difference between starting your automotive training in HIGH SCHOOL at Ratteree versus waiting until after graduation to attend a trade school? What is the financial impact?
 
 ---
 
@@ -96,6 +99,6 @@ Circle your answer. In one sentence, explain why the OTHER three choices are wea
 
 ## Differentiation
 
-- **Support:** Pre-filled comparison template with the Cardwell column already completed (since students cannot easily research it). Students fill in only the trade school column. Pair with a peer for the website navigation.
-- **Extension:** Build a 5-year cost projection, total spending for a Cardwell graduate vs. a UTI graduate, including tuition, lost income during training, and earnings after credentialing. Which one comes out ahead financially after 5 years?
+- **Support:** Pre-filled comparison template with the Ratteree column already completed (since students cannot easily research it). Students fill in only the trade school column. Pair with a peer for the website navigation.
+- **Extension:** Build a 5-year cost projection, total spending for a Ratteree graduate vs. a UTI graduate, including tuition, lost income during training, and earnings after credentialing. Which one comes out ahead financially after 5 years?
 - **ELL:** Bilingual comparison template with Spanish column headers. Pre-teach: Trade school = Escuela técnica, Tuition = Matrícula, Hands-on = Práctico, Credential = Credencial. UTI website has Spanish content available, check the language toggle.

@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Present a cross-cluster salary comparison (one automotive career vs. one career from a different cluster); update H&L Climber Profile with Transportation favorites; reflect on how automotive careers compare to careers from earlier in the year |
 | **TEKS** | d(5)(E), d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explain: Cross-cluster note card prep · Extend: Cross-cluster presentations · Evaluate: Exit Ticket |
 | **Deliverable** | Cross-Cluster Salary Presentation (1-2 minutes per student) |
 | **Materials** | Chromebooks, H&L accounts, Day 3 Salary Comparison worksheets, printed Cross-Cluster Comparison presentation note card, Xello accounts (Save Careers activity), projector |
 
@@ -52,6 +53,8 @@ Students prepare a 60-90 second talking script using the back of the note card.
     - **Parallel corners:** 3 groups of ~8 present simultaneously in corners. Teacher circulates. Each group picks one standout for a final 3-min whole-class share.
     - **Hybrid:** 10 students present live at 90 sec each (15 min); the other 15 submit written 3-sentence pitches to Google Classroom for the exit ticket.
 
+**Time, Voice, Body:** Post the three blocks before the first presenter. Voice 0 while the note card is handed off, Voice 3 for the presenter, Voice 1 for the listening-grid partner check. Run a visible countdown for every presenter at whichever cap you picked above, and define where presenters stand and where finished note cards go so transitions do not eat presentation time. Narrate the students who are already meeting the expectation. If the rotation is running long by the fifth presenter, announce the tighter cap before the next presenter begins so nobody is cut short without warning.
+
 Each student delivers their 60-90 second presentation. Format:
 
 1. Name the two careers being compared
@@ -72,7 +75,9 @@ After the last presentation, run a 2-minute discussion:
 
 ## Activity 3: H&L Favorites + Xello (7 min)
 
-> [H&L PLATFORM] Students open H&L Climber Profile and **favorite at least 2 Transportation careers** from this week. Auto Service Technician, Diesel Service Technician, Collision Repair Tech, Automotive Service Manager, or any related Hat. The workbook (Ch 16: My Next Steps) treats favoriting as how the H&L app builds the Career Plan. These favorites will appear on their Climber Profile and influence pathway recommendations.
+> [H&L PLATFORM] Students follow the app steps on the workbook's App Exploration page for this cluster (FYF p. 170: "App Exploration"): open the Hats & Ladders app, go to Clusters, click the Transportation, Distribution, and Logistics cluster, then click Pathway Possibilities, answer the questions, and rate at least one pathway. They **favorite at least 2 Transportation careers** from this week: Auto Service Technician, Diesel Service Technician, Collision Repair Tech, Automotive Service Manager, or any related Hat. These favorites appear on their Climber Profile and influence pathway recommendations.
+
+The favorites saved today are one of the inputs students pull back at the Capstone, where Rung 1 asks them to review their top Hats, pathways, and clusters (FYF p. 281: "Rung 1").
 
 > [VERIFY IN Xello] Students complete the Xello "Save Careers" activity from the 7th-grade task list. Confirm exact task name with district admin. Students save the same automotive careers they favorited in H&L so the two platforms stay synced.
 

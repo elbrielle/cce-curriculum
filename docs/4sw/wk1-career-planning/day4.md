@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Work through eDynamic Learning Unit 8.1: Your Turn! Choosing a Career Path; rank top 3 Irving ISD pathways with rationale; identify professional organizations connected to chosen pathways and name one specific benefit of joining in 9th grade |
 | **TEKS** | d(3)(F), d(8)(A), d(8)(B) |
+| **5E Phases** | Engage: Warm-Up · Explore: eDynamic Unit 8.1 self-paced work · Explain: Pathway Ranking Sheet rationale and organization match · Evaluate: Exit Ticket |
 | **Deliverable** | eDynamic 8.1 progress + completed Pathway Ranking Sheet (top 3 with rationale and one professional organization per pathway) |
 | **Materials** | Chromebooks, eDynamic Learning Unit 8.1 access, printed Pathway Ranking Sheet, Irving ISD CTE Pathways poster, projector |
 
@@ -29,7 +30,7 @@ Take 3-4 student definitions. Project all of them, then offer the working defini
 Students log into eDynamic and open Unit 8.1. Teacher orients students to the unit structure on the projector, most eDynamic units have an introduction, content sections, an interactive activity, and a check-for-understanding quiz.
 
 The unit walks students through:
-1. Reviewing personal assessment results (RIASEC, Work Values)
+1. Reviewing personal assessment results (core personality types, Work Values)
 2. Strategies for matching assessments to career choices
 3. Introduction to job search basics
 4. Identifying professional organizations connected to a career interest
@@ -39,8 +40,10 @@ Students work at their own pace. As they work, they note three things on their P
 - **One professional organization** the unit mentions that connects to their chosen pathway
 - **One question they still have** about choosing a career path
 
+**Active Monitoring:** Walk the room twice during the self-paced block. Lap 1 at minute 8, target: every student is past the introduction and into the assessment-review section. Lap 2 at minute 15, target: every student has reached the professional organizations section. Students still on the introduction get a private nudge, not a whole-class announcement. If more than a handful miss the minute 15 target, pivot and project the organizations section to the room so the Pathway Ranking Sheet still has the data it needs. The unit is self-paced but the class period is not.
+
 !!! tip "Facilitation Tip"
-    Pace check at minute 15, circulate and verify every student has reached the professional organizations section of the unit. Students who are still on the introduction need a private nudge to keep moving. The unit is self-paced but the class period is not.
+    Students who did not finish the Rung 3 Skills Check on Day 3 can close it out in the first minutes of this block. Rung 3 is one of the three artifacts this week has to protect.
 
 ---
 

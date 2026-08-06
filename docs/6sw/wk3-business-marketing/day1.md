@@ -1,111 +1,126 @@
-# Day 1: Marketing Cluster + Marketing on the Move
+# Day 1: Marketing Cluster + Click Factor
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Explore the Marketing pathway in H&L; design a billboard or bus wrap advertisement using the Marketing on the Move workbook activity |
+| **Objectives** | Explore the Business, Marketing, and Finance cluster in the Hats & Ladders app; write two contrasting calls to action for each of four products and build an ad mock-up using the "Click Factor" workbook activity |
 | **TEKS** | d(1)(C) |
-| **Deliverable** | Billboard or bus wrap advertisement design (digital or paper sketch) meeting the workbook checklist |
-| **Materials** | Chromebooks, H&L accounts, H&L Workbook (Ch 5, pp. 73-75 Marketing on the Move), Canva accounts, printed ad templates, projector |
+| **5E Phases** | Engage: Warm-Up · Explore: Cluster tour and Click Factor ad analysis · Explain: Group CTA choice and ad mock-up · Evaluate: Exit Ticket |
+| **Deliverable** | Eight calls to action across the four workbook products + an ad mock-up with a headline, a short description, and the chosen CTA |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook pp. 221, 225-227, 230, and 254, Canva accounts, printed blank ad mock-up sheets, projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Name a TV commercial, social media ad, or billboard you have seen recently and remember. What made it stick? Someone's JOB was to design that.**
+**WARM-UP: Name an online ad you actually clicked, or almost clicked. What did it ask you to DO? Someone's JOB was to write that line.**
 
-Take 4-5 student responses. Bridge to today: every memorable ad was designed by a marketing professional with a clear goal, get you to remember the product. The H&L workbook puts students in that designer's chair.
+Take 4-5 student responses. Push past "it looked cool" to the action the ad asked for: buy, sign up, download, watch, swipe. Bridge to today: the line that asks for the action is called a call to action, and writing it is a job. The workbook puts students in that job.
 
 ---
 
 ## Activity 1: H&L Marketing Cluster Tour (10 min)
 
-**Source:** H&L Workbook Ch 5: Business, Marketing, and Finance (pp. 73-74)
+**Source:** (FYF p. 221: "Exploring the World of BUSINESS, MARKETING, AND FINANCE") and (FYF p. 254: "App Exploration")
 
-Open by clarifying a key point: H&L does not have a separate "Marketing" cluster. Marketing careers live inside the Business, Marketing, and Finance cluster. Today and tomorrow students focus on the Marketing and Sales pathway specifically.
+Open by clarifying a key point: Hats & Ladders does not have a separate "Marketing" cluster. Marketing careers live inside the Business, Marketing, and Finance cluster. This week students work the Marketing and Sales side of it.
 
-> [H&L PLATFORM] From the workbook (Ch 5, p. 74): "Go to the Hats & Ladders app and click on the 'Business, Marketing, and Finance Cluster.' Spend some time exploring the cluster and pathways." Direct students to focus specifically on the Marketing and Sales pathway.
+Read the chapter opener together. The cluster is about helping organizations grow, connect with customers, and make smart financial decisions. The opener puts three Hats on the page: Business Analyst, Financial Examiner, and E-Commerce Specialist.
 
-The workbook (Ch 5) lists six pathways in this cluster. Students will see them all in the app. The Marketing and Sales pathway is described as: *"Finding ways to tell people about products or services and encouraging them to buy."*
+> [H&L PLATFORM] Students follow the App Exploration page (FYF p. 254): open the Hats & Ladders app, go to Clusters, click the Business, Marketing, and Finance Cluster, watch the "Cluster Tour" video, then play "Game Time." Afterward they find 1 Hat that matches their interests and 1 Hat that does not, and answer why for each.
+
+**Stop and Jot:** Pause the cluster tour video twice. Each pause gets 45 seconds and one of the workbook's own prompts from the App Exploration page: "One marketing career I did not know existed is _____" and "One question I still have about how companies choose their ads is _____."
+
+The chapter prints no pathway list. Students meet the cluster's pathways in the app through Pathway Possibilities, which they rate later in the week, and they meet Irving ISD's own Marketing & Sales program of study on the district pages (FYF pp. 252-253).
 
 Use the Hat Finder to browse 2-3 marketing-specific Hats: Marketing Manager, Brand Manager, Market Research Analyst, Social Media Manager, Advertising Account Executive.
 
 !!! tip "Facilitation Tip"
-    Students often miss "Marketing" because it's nested under "Business, Marketing, and Finance" in H&L. Walk around for the first 2 minutes ensuring every student has clicked into the right cluster. The workbook explicitly says to use the Business, Marketing, and Finance cluster page.
+    Students often miss "Marketing" because it is nested under "Business, Marketing, and Finance" in the app. Walk the room for the first 2 minutes and confirm every student has clicked into the right cluster. The App Exploration page names the exact path, so project page 254 while students navigate.
 
 ---
 
-## Activity 2: H&L "Marketing on the Move" Activity (30 min)
+## Activity 2: "Click Factor" Call to Action Lab (30 min)
 
-**Source:** H&L Workbook Ch 5, pp. 74-75, "Marketing on the Move" (Career Climb activity)
+**Source:** (FYF pp. 225-227 and 230: "Click Factor"), a Career Climb activity
 
-Introduce the activity using the workbook framing: *"You will step into the role of a marketer and design an eye-catching advertisement for a product or event. Marketing helps businesses stand out and increase sales by getting people interested and excited."*
+!!! warning "The last page of this activity is printed out of order"
+    "Click Factor" runs pages 225, 226, 227, and then jumps to **page 230** for Step 4. Pages 228 and 230 were transposed at the printer. Tell students the jump before they start.
 
-**Step 1: Choose a Product or Event (3 min)**
+Set the scene from the workbook: students are digital marketing specialists on a team promoting new products. Ads are everywhere, and people decide in seconds what to click. The team needs ads that do more than look good, they need ads that get people to take the next step. That job belongs to the call to action, the part of an ad that tells the audience what to do next. A CTA can be short and punchy ("Buy Now!") or longer ("Sign up today for exclusive access"), and the strong ones are clear, direct, and matched to both the product and the audience.
 
-Students pick ONE option from the workbook (Ch 5, p. 74):
+**Step 1: Analyze Two Ads (4 min)**
 
-- **A new aquarium opening soon**
-- **A smoothie company launching a new smoothie called "Cereal Crunch"**
-- **A car dealership promoting a new self-driving car**
+Students open to page 225 and work with a partner to find the CTA in Ad #1 and Ad #2. **Think-Pair-Share:** 30 seconds of silent Think on which CTA feels stronger, then Partner A for 30 seconds, then Partner B for 30 seconds, using the workbook's four questions:
 
-**Step 2: Decide Where to Place Your Advertisement (2 min)**
+- How are the two CTAs different?
+- Which one feels stronger?
+- Which one fits its product better, and why?
+- What is the audience being asked to do?
 
-Students pick ONE format from the workbook:
+Two pairs share out, not one.
 
-- **Billboard:** A large, bold ad along a highway or busy street. Must be readable in 5 seconds at 60 mph.
-- **Bus Wrap:** A creative ad that wraps around a city bus. Moves around town. Must grab attention from all angles.
+**Step 2: Create Different Types of CTAs (12 min)**
 
-**Step 3: Create Your Design (20 min)**
+Project the workbook's CTA reference table (p. 226) and walk the five types with the workbook's own examples:
 
-Using Canva, Google Drawings, or the printed sketch template, students design their ad. The workbook checklist (Ch 5, p. 75) is the rubric:
+| CTA Type | What It Does | Example |
+|---|---|---|
+| Benefit | Shows what the audience gains | "Get better grades today" |
+| Urgency | Pushes quick action | "Buy now before it's gone!" |
+| Curiosity | Sparks interest | "See what everyone's talking about" |
+| Direct Command | Clearly tells what to do | "Download the app" |
+| Incentive | Offers a reward | "Sign up and get 20% off" |
 
-- **Catchy slogan:** Short, memorable, hooks the reader
-- **Images and colors that grab the audience's attention:** Bright, bold, on-brand
-- **Clear, short message** so the audience knows what is being sold and what action to take (visit the aquarium, try the smoothie, take a test drive)
+Students then write **two different CTAs for each of the four products** and label the type of each one. The products and their details are printed on pages 226 and 227:
 
-The 5-second rule: a billboard is only effective if a driver going 60 mph can read it in 5 seconds. Students hold up their final design and a partner times them, can they grasp it in 5 seconds?
+- **Product A, Local Car Wash:** fast service in five minutes or less, affordable prices, located near a busy road
+- **Product B, Cooking Class:** meets weekly, students make five different desserts, uses unusual ingredients
+- **Product C, After-School Snack Box:** delivered weekly, mix of sweet and salty, designed for busy students
+- **Product D, Fishing Gear:** monthly subscription of hooks, bobbers, worms, and line, designed for families
+
+The point of writing two per product is contrast. If both CTAs for the car wash are Direct Commands, the student has written the same ad twice.
 
 !!! tip "Facilitation Tip"
-    Project a side-by-side example on the board for 30 seconds: a cluttered ad vs. a clean ad. Show students that LESS is more on a billboard. The most common mistake is too much text. If a billboard has more than 7 words, it has too much.
+    The most common miss is a CTA that describes the product instead of asking for an action. "Our snack box has chips and cookies" is a description. "Grab your first box before Friday" is a CTA. If a student's line has no verb aimed at the reader, send them back to the type table and ask which of the five they were trying to write.
 
-**Step 4: Discussion (5 min)**
+**Step 3: Choose and Discuss (4 min)**
 
-Pair up. Trade ad designs. Use the workbook's discussion prompts (Ch 5, p. 75):
+Pairs join another pair. As a group of four they read all their CTAs and choose the ONE CTA per product that would most likely make them click or buy. Group members must be ready to say which CTA grabbed attention, which one made them want to act right away, and why it beat the others.
 
-- How does your design grab people's attention?
-- Why would your ad make people interested in the product or event?
-- Apply the 5-second test: Can you read it in 5 seconds?
+**Step 4: Design the Ad (10 min)**
 
-**DOK 3:** What did you have to LEAVE OUT of your ad to make it work? Why is "less is more" so important in billboard design?
+Students turn to page 230 and build a mock-up of an ad for one product. A mock-up is a rough draft that shows what the finished ad will look like. The mock-up must include a headline, a short description, and the chosen CTA. Two design decisions get written down next to the sketch: where the CTA sits (top, middle, bottom) and how it is made to stand out (color, size, bold type).
 
-**DELIVERABLE:** Billboard or bus wrap ad design (digital or paper) meeting all three checklist items. Submitted to Google Classroom.
+Students use the printed mock-up sheet, Canva, or Google Drawings.
+
+**DOK 3:** Product C targets busy students and Product D targets families. Take the same CTA type, Urgency, and write it for both audiences. What had to change in the wording, and what does that tell you about writing for an audience you are not part of?
+
+**DELIVERABLE:** Eight CTAs (two per product) labeled by type, plus one ad mock-up with a headline, a short description, and a chosen CTA. Submitted to Google Classroom.
 
 ---
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/6sw-wk3-day1-marketing-cluster-marketing-on-the-move.pdf):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/6sw-wk3-day1-marketing-cluster-click-factor.pdf):
 
-Scenario: A DFW smoothie shop hires you to redesign their billboard. The old one has 24 words, 4 photos, and 3 colors. Drivers say they can't read it at 60 mph.
+Scenario: A DFW pet store is launching a dog-walking service. Their online ad reads: "We are a pet store. We have dog walkers. Thank you." Almost nobody clicks it.
 
-1. ONE thing I would REMOVE from the old billboard (to pass the 5-second test):
-
-   ___________________________________________________________________
-
-2. ONE thing I would KEEP or ADD (slogan, image, or color choice):
+1. Write a stronger call to action for this ad (one short line):
 
    ___________________________________________________________________
 
-3. Name ONE Marketing and Sales career from the H&L cluster that would LEAD this redesign:
+2. Which type is your CTA? (Circle one) Benefit · Urgency · Curiosity · Direct Command · Incentive
+
+3. Who is the audience for this ad, and why does your CTA fit THEM?
+
+   ___________________________________________________________________
+
+4. Name ONE Marketing and Sales career from the H&L cluster whose job it is to write lines like this:
 
    Career: _______________________
-
-4. In one sentence, why that career fits THIS job (not a different marketing role):
-
-   ___________________________________________________________________
 
 *(d(1)(C))*
 
@@ -113,6 +128,6 @@ Scenario: A DFW smoothie shop hires you to redesign their billboard. The old one
 
 ## Differentiation
 
-- **Support:** Provide 3 sample slogans for each product option ("Explore Adventure," "Cereal in a Cup," "Drive Yourself Different"). Students pick one and modify it. Pre-built Canva templates with empty text boxes ready to fill.
-- **Extension:** Students design TWO ads for the same product, one billboard, one bus wrap. They compare the differences in design choices required for each format.
-- **ELL:** Pre-teach: Advertisement = Anuncio, Billboard = Cartelera, Slogan = Eslogan, Audience = Audiencia. The visual nature of the activity is very accessible. Spanish-language slogans are a strong creative choice for DFW marketing, encourage them.
+- **Support:** Give three pre-written CTAs per product, already labeled by type, so students revise and re-label rather than starting from a blank line. Provide a mock-up sheet with the headline box, description box, and CTA box already drawn and labeled.
+- **Extension:** Students write two CTAs for a fifth product of their own invention and label the types, or build a second mock-up for the same product aimed at a different audience and write one sentence on what changed.
+- **ELL:** Pre-teach: Advertisement = Anuncio, Call to Action = Llamada a la acción, Headline = Titular, Audience = Audiencia, Reward = Recompensa. The five-type table carries the vocabulary visually, so keep it projected during Step 2. Spanish-language CTAs are a strong creative choice for DFW marketing, encourage them.

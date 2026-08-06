@@ -1,14 +1,15 @@
-# Day 1: H&L Construction Pathway + Hat Research
+# Day 1: Construction Pathways + Career Research
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Explore construction careers in the H&L A&C cluster; complete the Hat Research template for one construction career; identify the six confirmed A&C pathways |
+| **Objectives** | Name the Irving ISD programs of study in this cluster; rate a construction pathway in the Hats & Ladders app; complete the career research worksheet for one construction career |
 | **TEKS** | d(1)(C), d(2)(A) |
-| **Deliverable** | Completed Hat Research template (1 construction career) |
-| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 3, pp. 37-47), projector |
+| **5E Phases** | Engage: Warm-Up · Explain: Irving ISD programs of study · Explore: Pathway rating and career research · Explain: Partner comparison · Evaluate: Exit Ticket |
+| **Deliverable** | Completed career research worksheet (1 construction career) + one Architecture and Construction pathway rated in the app |
+| **Materials** | Chromebooks, H&L accounts + *Find Your Future* workbook (printed pp. 196-198), printed construction career research worksheet, projector |
 
 ---
 
@@ -20,33 +21,32 @@ Take 2-3 guesses. Students typically underestimate, a mid-size commercial buildi
 
 ---
 
-## Activity 1: Review A&C Pathways (10 min)
+## Activity 1: Construction Pathways in the App and at Irving ISD (10 min)
 
-**Source:** H&L Workbook Ch 3, p. 38, "What are the Pathways?"
+**Source:** (FYF pp. 196-197: "What is Happening at My District?") + (FYF p. 198: "App Exploration")
 
-Open the H&L workbook to Chapter 3, page 38 and review the six confirmed A&C pathways (students saw these in Week 1, but now the focus shifts from design to construction):
+Project the district pages and read the PROGRAMS OF STUDY sidebar together. Irving ISD runs three programs of study in this cluster, and each one is a different door into the same industry:
 
-- **Carpentry:** Build, install, and repair wooden structures.
-- **Architecture Drafting and Design:** Plan and design buildings by creating and reading blueprints. *(Covered in Wk1)*
-- **Construction Management and Inspection:** Estimate costs, inspect structures, ensure safety compliance.
-- **Electrical:** Install, fix, and maintain electrical wiring, equipment, and telecommunications cables. *(Wk4 focus)*
-- **HVAC and Sheet Metal:** Install, repair, and maintain heating, cooling, and ventilation systems. *(Wk4 focus)*
-- **Masonry, Plumbing, and Pipefitting:** Build structures with brick and stone; install and maintain pipe systems. *(Wk4 focus)*
+- **Architecture:** design, architectural drawing, technical drafting, and project planning. *(This is the Week 1 focus.)*
+- **Construction Technology:** building trades, construction methods, safety practices, tools and equipment, blueprint reading, carpentry, and project execution.
+- **Welding:** metal fabrication, welding techniques, and industry safety. *(Welding gets its own day in Week 4.)*
 
-This week's focus: **Carpentry and Construction Management**. Next week's focus: skilled trades (Electrical, HVAC, Plumbing, Welding).
+Week 3 works Construction Technology: the people who build the thing and the people who manage and inspect the job. Week 4 works the skilled trades that make a finished building run.
+
+Students then open the app and work the Pathway Possibilities step from this cluster's App Exploration page (FYF p. 198): answer the pathway questions, then explore and rate at least one Architecture and Construction pathway. Ask for a building pathway rather than a design pathway today, so the app profile ends up carrying both halves of the cluster.
 
 !!! tip "Facilitation Tip"
-    Students sometimes think "construction" means just hammering nails. Emphasize that Construction Managers are well-paid leaders who coordinate schedules, budgets, and safety, a great career for students who score high on RIASEC Enterprising or Organizing.
+    Students sometimes think "construction" means just hammering nails. Emphasize that Construction Managers are well-paid leaders who coordinate schedules, budgets, and safety, a great career for students whose core personality type is Persuader or Organizer.
 
 ---
 
-## Activity 2: H&L Hat Research — Construction Career (25 min)
+## Activity 2: Construction Career Research (25 min)
 
-**Source:** H&L Workbook Ch 3, p. 47, "Hat Research"
+**Source:** Construction career research worksheet (CCE artifact; the research format is taught in Wk0) + (FYF p. 198: "App Exploration")
 
-Students open their H&L workbook to the Hat Research page in Chapter 3. The workbook instructs: *"Go to the Hats & Ladders app and click on the Hat Finder. Explore Hats in the Architecture and Construction career cluster. Choose one Hat and fill out the information below."*
+Students browse Hats in the Architecture and Construction cluster in the app and answer two of the App Exploration questions as they browse: which Hat matches their interests, and which Hat clearly does not fit them and why. They then pick one Hat to research in full on the worksheet. Favoriting and Hat ratings wait for Day 5, when students have the salary and demand data to rate with.
 
-Since students already did Hat Research in Week 1 for a design career, this week they pick a **construction/building career** from:
+Since students already researched a design career in Week 1, this week they pick a **construction or building career** from:
 
 - Carpenter
 - Construction Manager
@@ -55,7 +55,7 @@ Since students already did Hat Research in Week 1 for a design career, this week
 - Ironworker
 - Construction Inspector
 
-Students complete all fields on the Hat Research template:
+Students complete all fields on the research worksheet:
 
 - **Name of Career**
 - **What Interests You?:** why this career caught their attention
@@ -71,7 +71,7 @@ Students complete all fields on the Hat Research template:
 
 ## Activity 3: Partner Comparison (7 min)
 
-Students pair up and compare Hat Research sheets. They answer:
+Students pair up and compare research sheets. They answer:
 
 - How are our two careers similar? (Both in construction, both use physical skills, both involve safety.)
 - How are they different? (Education path, salary ceiling, day-to-day tasks.)
@@ -85,11 +85,11 @@ This sets up Day 3's Classification activity where students compare multiple car
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/5sw-wk3-day1-h-and-l-construction-pathway-hat-research.pdf):
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/5sw-wk3-day1-construction-pathways-career-research.pdf):
 
 Scenario: A new 10-story apartment building is about to break ground in Las Colinas. The contractor needs to hire 4 specific trade workers TODAY.
 
-1. Name TWO construction careers from today's Hat Research that this contractor needs:
+1. Name TWO construction careers from today's career research that this contractor needs:
 
    - Career 1: _______________________
 
@@ -103,7 +103,7 @@ Scenario: A new 10-story apartment building is about to break ground in Las Coli
 
 3. ONE SKILL both careers require: _______________________
 
-4. If I had to pick ONE of these pathways TODAY, which would I pick and what TRADEOFF (time / money / physical risk / earning start-date) am I accepting? *(d(1)(C), d(2)(A), d(3)(G))*
+4. If I had to pick ONE of these pathways TODAY, which would I pick and what TRADEOFF (time / money / physical risk / earning start-date) am I accepting? *(d(1)(C), d(2)(A))*
 
    My pick: _______________________
 

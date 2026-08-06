@@ -6,7 +6,8 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Compare the cost of living for the chosen career in DFW vs. two other cities using CareerOneStop's comparison tool; calculate which city leaves the most leftover money |
-| **TEKS** | d(5)(A), d(5)(E) |
+| **TEKS** | d(5)(A) |
+| **5E Phases** | Engage: Warm-Up · Explain: CareerOneStop tool modeling · Explore: Three-city analysis · Extend: Relocation decision · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Cost of Living Comparison worksheet (3 cities) with calculated leftover income |
 | **Materials** | Chromebooks, CareerOneStop Cost of Living Comparison tool, students' Day 2 budget, printed Cost of Living Comparison worksheet, calculator, projector |
 
@@ -40,6 +41,8 @@ The tool returns a comparison showing how much more or less the same career earn
 ---
 
 ## Activity 2: Student Cost of Living Analysis (30 min)
+
+**Time, Voice, Body:** Post the three blocks before Chromebooks open. Voice 0 for the first ten minutes of data collection, Voice 1 for checking a number with a neighbor, and a visible countdown per city so no student spends twenty-five minutes on city one. The Day 2 budget sheet stays to the left of the Chromebook, not under it.
 
 Students run the same analysis for their own chosen career from Day 2. They compare:
 
@@ -88,7 +91,7 @@ Bottom line: A friend gets offered $20K MORE per year in the HIGH-cost city. Sho
 
    ___________________________________________________________________
 
-*(d(5)(A), d(5)(E))*
+*(d(5)(A))*
 
 ---
 

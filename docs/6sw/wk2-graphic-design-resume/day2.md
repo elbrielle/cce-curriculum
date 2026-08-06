@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Understand resume sections and purpose; complete a first-draft resume in Xello including header, career objective, education, skills, activities, and community service |
 | **TEKS** | d(7)(A) |
+| **5E Phases** | Engage: Warm-Up · Explain: Teacher resume modeling · Explore: Xello Resume Builder draft · Evaluate: Exit Ticket |
 | **Deliverable** | Draft resume (v1) saved in Xello Resume Builder |
 | **Materials** | Chromebooks, Xello accounts, printed Resume Template (backup), CareerOneStop Resume Guide, projector |
 
@@ -25,6 +26,8 @@ Give students 3 minutes to write. Most students will think they have nothing, th
 **Source:** Xello Resume Builder + CareerOneStop Resume Guide
 
 Open Xello and project the Resume Builder on the board. Walk through a sample middle school resume LIVE, building it as students watch. Use a fictional student: "Alex Martinez, 7th Grade, Oakview Middle School" (or substitute your own school name).
+
+**Chunking:** Build one section at a time, say what the section is for before you fill it, and take a thumbs check after each one before moving to the next. Whichever section draws the most thumbs down is the section you revisit first while circulating in Activity 2.
 
 Walk through each section:
 
@@ -63,7 +66,7 @@ The key teaching moment is to keep showing students that their lives ARE resume 
 
 Direct students to log into Xello and open the **Resume Builder** feature. Xello walks them through each section step-by-step with prompts for what to include.
 
-Students work independently. Teacher circulates with three jobs:
+Students work independently. **Active Monitoring:** walk the room three times, one target per lap, and carry the three jobs below as the lap targets. If a lap turns up more than a handful of blank Skills sections, pivot and reproject the Skills list to the whole room instead of prompting student by student.
 
 1. **Help students who claim they have nothing:** Pull out their actual life: babysitting, tutoring, sports, helping family, school clubs. Push them to write SOMETHING in every section.
 2. **Check skills sections:** Most students undersell their tech skills. Ask "Have you used Canva? Google Slides? TinkerCAD? Scratch? Photoshop?" If yes, it goes on the resume.

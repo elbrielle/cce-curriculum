@@ -1,99 +1,96 @@
-# Day 3: Think Inside the Box — Subscription Box MVP
+# Day 3: Expert Edge — Build Your Consulting Business
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Define entrepreneurship; design a Minimum Viable Product (MVP) for a subscription box business; develop customer feedback questions to test the idea |
+| **Objectives** | Define entrepreneurship; turn one personal skill into a consulting service with a name, an offer, a mission statement, and a price; design a logo and pitch the service to a partner |
 | **TEKS** | d(3)(I), d(1)(C) |
-| **Deliverable** | Subscription Box MVP design + 3-5 customer feedback questions |
-| **Materials** | Chromebooks, H&L Workbook (Ch 5, pp. 78-79 Think Inside the Box), printed MVP brainstorm sheet, projector |
+| **5E Phases** | Engage: Warm-Up · Explore: Expert Edge skill brainstorm and service build · Explain: Logo and partner pitch with feedback · Evaluate: Exit Ticket |
+| **Deliverable** | Completed consulting service page (name, offer, mission statement, price, extra add-on) + logo + partner feedback form |
+| **Materials** | Chromebooks, *Find Your Future* workbook pp. 222-224, sticky notes, Canva accounts, projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: If you could start ANY subscription box business, something that mails subscribers a box every month, what would you put in it? Who would buy it?**
+**WARM-UP: What are you the person your friends come to for help with? Gaming, homework, art, a sport, fixing something? Name it out loud.**
 
-Take 4-5 student responses. Most students name a niche they care about (gaming, snacks, art, sports cards, beauty). Bridge to today: this is exactly how real subscription box entrepreneurs start, they pick a niche they understand, then test the idea before spending money.
+Take 4-5 student responses. Most students name something they think is not worth money. Bridge to today: every one of those is a skill someone else does not have, and people pay for skills they do not have. That is a whole career field called consulting, and today students open a consulting business of their own.
 
 ---
 
-## Activity 1: H&L "Think Inside the Box" Activity (35 min)
+## Activity 1: "Expert Edge" Consulting Business (35 min)
 
-**Source:** H&L Workbook Ch 5, pp. 78-79, "Think Inside the Box" (Career Climb activity)
+**Source:** (FYF pp. 222-224: "Expert Edge"), a Career Climb activity
 
-Introduce the activity using the workbook framing: *"Entrepreneurs are people who create and build businesses by turning ideas into real products and services. They take risks, solve problems, and find creative ways to meet people's needs. In this activity, you will become an entrepreneur and design a subscription box with a Minimum Viable Product (MVP). An MVP is the simplest version of a product that allows you to test an idea and get feedback before investing in a full launch."*
+Frame the career from the workbook: a consultant sells skill and knowledge instead of a product. Consultants work in business, technology, sports, and plenty of other fields. They listen to a client, figure out what that client actually needs, and deliver a solution through advice, coaching, or a written plan. Today students step into the shoes of an entrepreneur opening a consulting business, and clients are looking for help. The job is to make a client feel confident choosing them.
 
-This activity hits the d(3)(I) entrepreneurship TEKS standard hard. The MVP concept is real, every successful subscription box company (Dollar Shave Club, Birchbox, Loot Crate) started with an MVP.
+This activity is the week's strongest entrepreneurship work. The offer, the price, and the mission statement are the three pieces every real small business has to write before it can sell anything.
 
-**Step 1: Designing an MVP (20 min)**
+**Step 1: Discover Your Skill (7 min)**
 
-Using the workbook (Ch 5, p. 78) or a digital tool, students design their subscription box. They answer these questions in writing:
+Students brainstorm on sticky notes, then write down **three** skills they are good at or enjoy (FYF p. 222). The workbook's own examples are coaching a friend in a video game, helping someone with homework or studying, giving tips on art, music, or sports, and sharing ideas for coding, building, or creating projects.
 
-- **What's in the box?** What product(s) will your subscription box include? Be specific, list 4-6 actual items.
-- **What is the name of your subscription box?** Memorable, catchy, on-brand.
-- **How often will customers get it?** Weekly, monthly, seasonally?
-- **Who is your target audience?** Be specific. "Kids" is too vague. "Middle school students who like Pokemon" is better.
+For each of the three skills, students describe: who might need help with it, why someone would want their help, and how they could use it to help others.
 
-Students should sketch the box itself or design the cover using Canva. The visual design matters, subscription box marketing depends heavily on the unboxing experience.
+**Step 2: Design Your Consulting Service (13 min)**
 
-!!! tip "Facilitation Tip"
-    Push students past the obvious (snack box, makeup box, toy box) to the specific. Ask: "Who already does that? How is YOURS different?" The point of the MVP is differentiation. A "snack box" already exists in 50 forms. A "Texas snacks for college students who miss home" box is differentiated and specific.
+Students choose ONE skill to build the business around and complete the service page (FYF p. 223):
 
-**Step 2: Testing and Feedback (15 min)**
-
-The workbook (Ch 5, p. 79) explains: *"Before launching a full business, entrepreneurs gather feedback to see if customers like their product. They will usually test focus groups (small groups of customers) to get feedback."*
-
-Students imagine they sent their MVP to 100 customers. They write **3-5 questions** they would ask test customers about their subscription box. Each question should reveal something useful.
-
-Examples (DO NOT give to students upfront, they should generate their own):
-
-- "What was your favorite item in the box?"
-- "What item would you remove?"
-- "Would you pay $25/month for this box? If not, what would you pay?"
-- "Would you tell a friend about this box?"
-- "What would you ADD to the box?"
-
-For each question, students write one sentence explaining what the answer would tell them about the product.
-
-After writing, pair up. Students take turns being the entrepreneur and the test customer. The "customer" answers the questions honestly based on what they would actually buy. The entrepreneur takes notes.
-
-This pair work mirrors what real entrepreneurs do, focus groups, beta tests, and surveys.
+- **Name Your Service**
+- **Describe Your Offer:** what exactly will you do for your client? Clear and specific.
+- **Create a Mission Statement:** the purpose or game plan for the business.
+- **Set Your Price:** think about how much time and effort the service takes, then assign a price. It can be a one-time payment, an hourly rate, or a monthly subscription.
+- **Extra Add On:** one extra thing offered to make the service special.
 
 !!! tip "Facilitation Tip"
-    Most students will write questions that only get yes/no answers. Push them to write questions that get useful insights. "Did you like the box?" gets nothing. "What was your favorite item and why?" gets gold. Model 1-2 good questions on the board if needed.
+    The most common miss is an offer written as a topic instead of a service. "I help with math" is a topic. "I build a two-week study plan for one class and check your work twice a week" is a service, because the client can picture what they receive. When you see a topic, ask "what does the client actually get, and when?" The second most common miss is a price with no unit: $20 for what, once or every week?
 
-**Discussion (from workbook):** Students discuss with their partner, what feedback would change your subscription box? Would you remove an item? Add one? Change the price?
+**Step 3: Create a Logo (7 min)**
 
-**DOK 4:** Of the 3-5 questions you wrote, which ONE would give you the most important information for your business? Why? What would you do with the answer?
+Students design a logo that represents the service and the brand (FYF p. 224). Keep it simple but memorable, and make deliberate choices about colors, shapes, and images. Students sketch on the workbook page or build it in Canva.
 
-**DELIVERABLE:** MVP subscription box design + 3-5 customer feedback questions with explanations.
+**Active Monitoring:** Walk a fixed pathway through the room four times, one lap per step. Lap 1 target: three skills written, each with a named person who needs it. Lap 2 target: the offer names something the client receives. Lap 3 target: the logo is readable at arm's length. Lap 4 target: the pitch lands under two minutes. Carry the workbook's own feedback categories on the clipboard, Clarity, Creativity, and Persuasiveness, and mark them as you pass. If more than a handful of students miss the lap 2 target, pause and rewrite one volunteer's offer on the projector instead of fixing it desk by desk.
+
+**Step 4: Pitch Your Service (8 min)**
+
+Students present the consulting service to a partner in about 1 to 2 minutes. The listening partner fills in the workbook's feedback form (FYF p. 224): a rating, What They Did Well, and What They Could Improve On, judged against three questions the workbook supplies:
+
+- **Clarity:** did you understand their service?
+- **Creativity:** is the idea fun or interesting?
+- **Persuasiveness:** would you want to hire this consultant?
+
+Then partners switch. Close with the workbook's Class Discussion (FYF p. 224): what makes a consulting service valuable to someone, how did you decide on your price, and which Powerskills would help someone succeed as a consultant?
+
+**DOK 4:** Your price is set and a client says it is too high. Would you lower the price, cut part of the offer, or throw in the extra add-on to justify the price? Defend the call, and say what your choice costs you.
+
+**DELIVERABLE:** Completed consulting service page (name, offer, mission statement, price, extra add-on), a logo, and a partner feedback form filled in for the classmate you listened to.
 
 ---
 
 ## Exit Ticket (10 min)
 
-**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/6sw-wk3-day3-think-inside-the-box-subscription-box-mvp.pdf):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/6sw-wk3-day3-expert-edge-build-your-consulting-business.pdf):
 
 1. Entrepreneurship in my own words (one sentence, no dictionary language):
 
    ___________________________________________________________________
 
-2. My subscription box in one sentence (name + what's in it):
+2. My consulting service in one sentence (name + what the client gets):
 
    ___________________________________________________________________
 
-3. My target audience (specific, not "kids" or "everyone"):
+3. Who needs my service (specific, not "everyone" or "kids"):
 
    ___________________________________________________________________
 
-4. ONE feedback question from my 3-5 that I would ask FIRST, and what the answer would tell me to change:
+4. My price, and ONE reason a client would pay it:
 
-   Question: _______________________________________________________
+   Price: _______________________
 
-   What the answer tells me: _______________________________________
+   Why they would pay it: __________________________________________
 
 *(d(3)(I), d(1)(C))*
 
@@ -101,6 +98,6 @@ This pair work mirrors what real entrepreneurs do, focus groups, beta tests, and
 
 ## Differentiation
 
-- **Support:** Provide a list of 8 sample box themes (snacks, art supplies, sports cards, science experiments, slime, beauty samples, books, video games) so students can pick rather than invent. Provide 3 sample feedback questions students can copy and modify.
-- **Extension:** Students design a complete LAUNCH plan for their subscription box: pricing, marketing channels (Instagram, TikTok, school flyers), and the first 3 months of how they would acquire customers.
-- **ELL:** Pre-teach: Entrepreneurship = Emprendimiento, Subscription Box = Caja de suscripción, Customer = Cliente, Feedback = Retroalimentación. Allow the box description and feedback questions to be in Spanish or bilingual. Many real subscription box companies in the US specifically target bilingual customers.
+- **Support:** Provide a list of eight starter consulting skills (gaming coach, homework tutor, sneaker cleaning, phone photography, art commissions, party DJ, pet sitting, bike repair) so students choose rather than invent. Provide a sentence frame for the offer: "I will _____ for you, _____ times a week, and you will get _____."
+- **Extension:** Students add a referral offer to their service and write what it costs them and what it earns them, or write a second version of the service priced for a different client (a classmate versus an adult) and explain what changed.
+- **ELL:** Pre-teach: Consultant = Consultor, Service = Servicio, Offer = Oferta, Mission Statement = Declaración de misión, Logo = Logotipo, Price = Precio. Allow the service page and the pitch in Spanish or bilingual format. The logo step carries meaning visually, so ELL students can show the brand before they have to explain it.

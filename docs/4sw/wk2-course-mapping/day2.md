@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Use the H&L District Course Planner to build a personal 4-year HS course map for the chosen Irving ISD pathway; identify which 9th-grade course is the gateway to the pathway |
 | **TEKS** | d(8)(B), d(3)(A) |
-| **Deliverable** | Screenshot of completed 4-year course map in the H&L District Course Planner (or paper backup using the workbook template) |
-| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 16, pp. 267-268, "My Career and Course Plan"), printed 4-Year Course Map template (paper backup), Irving ISD CTE Pathways poster, projector |
+| **5E Phases** | Engage: Warm-Up · Explain: Course Planner walkthrough · Explore: 4-year course mapping · Evaluate: Exit Ticket |
+| **Deliverable** | Screenshot of completed 4-year course map in the H&L District Course Planner (or paper backup using the workbook planning tables) |
+| **Materials** | Chromebooks, H&L accounts + *Find Your Future* workbook pp. 294-296 ("Rung 7: High School Plan"), printed 4-Year Course Map template (paper backup), Irving ISD CTE Pathways poster, projector |
 
 ---
 
@@ -26,7 +27,9 @@ Take 3-4 fun answers (most are jokes about dragon training and pizza science). B
 
 Project the H&L app on the screen. Walk students through one complete pathway as a model, pick a pathway different from the most common student choice in the class so no one feels copied.
 
-> [H&L PLATFORM] Demonstrate logging into H&L → navigating to the **Career Plan / District Course Planner** → selecting an Irving ISD high school (use MacArthur as the demo unless the class is heavily Singley) → choosing a pathway (Architecture works well as a demo because the course sequence is intuitive) → walking through 9th, 10th, 11th, and 12th grade courses one year at a time. Show how core academics and CTE pathway courses fit together in each year. The workbook (Ch 16, p. 268) directs students to "go to the Hats & Ladders app and begin your Career and Course Plan" and to include a pathway, action steps, and HS courses.
+> [H&L PLATFORM] Demonstrate logging into H&L → navigating to the **Career Plan / District Course Planner** → selecting an Irving ISD high school (use MacArthur as the demo unless the class is heavily Singley) → choosing a pathway (Architecture works well as a demo because the course sequence is intuitive) → walking through 9th, 10th, 11th, and 12th grade courses one year at a time. Show how core academics and CTE pathway courses fit together in each year. The app view is the digital version of the workbook's "Classes to Consider" table (FYF p. 294: "Rung 7: High School Plan"), which pairs every class a student lists with a "How This Can Help Me Reach My Goals" column.
+
+**Chunking:** Release one grade level at a time instead of touring all four at once. Say what the year is for before you click it, then close each grade-level chunk with a thumbs check before opening the next. Whichever year draws the most thumbs down is the first thing you re-teach when students open their own Chromebooks in Activity 2.
 
 > [VERIFY in H&L] Confirm with your H&L district admin that the District Course Planner is loaded with Irving ISD course catalogs for all six high schools/centers (MacArthur, Nimitz, Irving High, Singley, Cardwell, Ratteree). If course data is not loaded, students will use the printed paper template as a backup and reference the Irving ISD CTE Pathways poster + counselor course catalog.
 
@@ -51,7 +54,7 @@ Students open H&L on their own Chromebook and replicate the process for their #1
 
 If a student's pathway requires transferring schools (e.g., they live near Nimitz but want Architecture at MacArthur), they note this on the paper backup and discuss with the teacher individually.
 
-For students whose Course Planner has no Irving ISD data loaded, use the paper template:
+For students whose Course Planner has no Irving ISD data loaded, use the paper template. It is the same structure as the workbook's planning tables (FYF pp. 294-295: "Rung 7: High School Plan"), so students can hand-fill the workbook pages instead if the printed template runs short:
 
 | Year | English | Math | Science | Social Studies | CTE Pathway | Other |
 |---|---|---|---|---|---|---|
@@ -63,7 +66,7 @@ For students whose Course Planner has no Irving ISD data loaded, use the paper t
 Students fill in the CTE Pathway column with the actual course names from the Irving ISD CTE poster.
 
 !!! tip "Facilitation Tip"
-    Walk the room with a checklist: (1) student selected the right campus, (2) student picked their #1 pathway from Week 1, (3) student has SOMETHING in every CTE Pathway cell. If a CTE column is blank for any year, that is the conversation point, what fills 11th grade if the pathway only has 2 courses?
+    **Active Monitoring:** walk a fixed route three times with one target per lap and the checklist on a clipboard. Lap 1: the student selected the right campus. Lap 2: the student picked their #1 pathway from Week 1. Lap 3: the student has SOMETHING in every CTE Pathway cell. If a CTE column is blank for any year, that is the conversation point, what fills 11th grade if the pathway only has 2 courses? If more than a handful of students hit the blank-cell problem, pause the room and work one 11th and 12th grade fill on the projector rather than solving it desk by desk.
 
 > [H&L PLATFORM] If H&L's Course Planner does not let students screenshot directly, have them use the Chromebook screenshot keyboard shortcut (Ctrl + Show Windows key) and save to their drive. The deliverable is the screenshot. Without it, the activity has no exit artifact.
 

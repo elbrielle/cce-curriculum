@@ -1,31 +1,32 @@
-# Day 4: LEGO ATC — Run the Simulation + Powerskill Creativity
+# Day 4: LEGO ATC — Run the Simulation + 8 Ideas in 8 Minutes
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Run the LEGO ATC simulation using printed scenario cards; complete the H&L Ch 15 Powerskill Creativity "8 ideas in 8 minutes" warm-up; begin eDynamic Unit 2.2 Setting Goals |
+| **Objectives** | Run the LEGO ATC simulation using printed scenario cards; generate eight transportation ideas in eight minutes; begin eDynamic Unit 2.2 Setting Goals |
 | **TEKS** | d(4)(A), d(1)(C) |
-| **Deliverable** | Completed Simulation Run Log (3 runs of increasing complexity) + completed Powerskill Creativity 8-ideas sheet |
-| **Materials** | Built LEGO airports from Day 3, printed ATC scenario cards (4 difficulty tiers), printed Simulation Run Log, printed Powerskill Creativity 8-ideas sheet, eDynamic Unit 2.2 access, projector |
+| **5E Phases** | Engage: Warm-Up · Explore: Three simulation runs · Explain: Goal-setting unit start · Evaluate: Exit Ticket |
+| **Deliverable** | Completed Simulation Run Log (3 runs of increasing complexity) + completed 8-ideas sheet |
+| **Materials** | Built LEGO airports from Day 3, printed ATC scenario cards (4 difficulty tiers), printed Simulation Run Log, printed 8-ideas sheet, eDynamic Unit 2.2 access, projector |
 
 ---
 
-## Warm-Up: Powerskill Creativity — 8 Ideas in 8 Minutes (8 min)
+## Warm-Up: 8 Ideas in 8 Minutes (8 min)
 
-**Source:** H&L Workbook Ch 15, p. 254, "Powerskill: Creativity"
+**Source:** CCE ideation warm-up
 
-Open with the Powerskill Creativity activity from the workbook. The workbook (p. 254) frames creativity as the ability to see things from many angles, make connections, and imagine different solutions, useful in every career field including aviation.
+Open with a fast idea-generation round. Creativity in this cluster is the ability to see a movement problem from many angles and imagine solutions nobody has built yet, which is what transportation designers, dispatchers, and controllers do when the usual plan stops working.
 
-**The prompt (from the workbook, p. 254):**
+**The prompt:**
 
-> "How might we create a new form of transportation that can take people around the world in under an hour?"
+> How might we create a new form of transportation that can take people around the world in under an hour?
 
-Distribute the printed "8 ideas in 8 minutes" sheet. Set a visible timer for **8 minutes**. Each student fills the 8 boxes with 8 different ideas. The workbook rules:
+Distribute the printed "8 ideas in 8 minutes" sheet. Set a visible timer for **8 minutes**. Each student fills the 8 boxes with 8 different ideas. The rules:
 - No wrong answers
 - Don't overthink it, just write or draw
-- Crazy is allowed (in fact, crazy is encouraged)
+- Wild ideas count, and wild ideas are encouraged
 
 After 8 minutes, students stop writing. In groups of 3-4, they share their ideas (1 minute each). The group picks the **single most creative idea** to nominate to the class.
 
@@ -81,7 +82,7 @@ The Simulation Run Log captures:
 - One thing the team will change for the next run
 
 !!! tip "Facilitation Tip"
-    Walk the room with a checklist tracking communication clarity. Common breakdowns: controller forgets to specify runway number, pilot doesn't acknowledge the command, two pilots try to move at once. Stop the team mid-run when you see one of these and ask: "What just happened? How does a real ATC fix this?"
+    **Active Monitoring:** walk one lap per run, each lap with a single target. Run 1, every clearance names a runway. Run 2, the pilot reads the command back before the plane moves. Run 3, the runway is cleared before the emergency landing. Carry the communication checklist and mark it as you go. Have the response ready for the two predictable breakdowns: a clearance with no runway number, and two pilots moving at once because nobody acknowledged. Stop the team mid-run when you see one and ask what just happened and how a real ATC fixes it. If more than a handful of teams miss the Run 2 target, pivot and model one full call-and-readback to the whole room instead of stopping team by team.
 
 **DOK 4:** Based on your simulation experience, what specific improvements would you recommend to your team's communication procedures? What evidence from your test runs supports each recommendation?
 
@@ -101,7 +102,7 @@ The bridge between the simulation and goal-setting is direct: aviation careers a
 
 ## Exit Ticket (4 min)
 
-**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day4-lego-atc-run-the-simulation-powerskill-creativity.pdf):
+**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day4-lego-atc-run-the-simulation-8-ideas-in-8-minutes.pdf):
 
 My role in my team today: **Air Traffic Controller**
 
@@ -111,7 +112,7 @@ Step 1: What COMMAND do I give FIRST, and to WHICH plane? (Use today's sentence 
 
    First command: ___________________________________________________
 
-Step 2: Branch on pilot response —
+Step 2: Branch on pilot response.
 
    IF Pilot 1 ACKNOWLEDGES "cleared for takeoff runway 1," what do I say to Pilot 2 next? ___________________________________________________________________
 

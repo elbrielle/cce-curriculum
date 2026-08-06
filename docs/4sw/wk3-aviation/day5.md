@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Present LEGO ATC simulation results and procedures; complete eDynamic Unit 2.2 Setting Goals; write a 3-step goal plan for an aviation career; favorite Transportation careers in H&L Climber Profile |
+| **Objectives** | Present LEGO ATC simulation results and procedures; complete eDynamic Unit 2.2 Setting Goals; write a 3-step goal plan for an aviation career; finish the cluster's App Exploration page and rate Transportation Hats |
 | **TEKS** | d(4)(A), d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explain: Team ATC presentations · Extend: Goal plan and App Exploration · Evaluate: Exit Ticket |
 | **Deliverable** | Team ATC presentation (3 minutes) + individual 3-step goal plan for an aviation career |
-| **Materials** | LEGO airports from Day 3-4, Simulation Run Logs from Day 4, Chromebooks, H&L accounts, eDynamic Unit 2.2 access, Xello accounts (Jobs and Employers), printed 3-Step Aviation Goal Plan template, projector |
+| **Materials** | LEGO airports from Day 3-4, Simulation Run Logs from Day 4, Chromebooks, H&L accounts, *Find Your Future* workbook p. 170, eDynamic Unit 2.2 access, Xello accounts (Jobs and Employers), printed 3-Step Aviation Goal Plan template, projector |
 
 ---
 
@@ -32,7 +33,7 @@ Each team has 3 minutes to present:
 The class fills in a quick listening grid as each team presents, what was the most creative layout solution, what was the smartest communication procedure, what would they steal from another team's design.
 
 !!! tip "Facilitation Tip"
-    Hold the time strictly to 3 minutes per team. With 6-7 teams, this fills 18-21 minutes and leaves time for the goal plan. Use a visible timer on the projector.
+    **Time, Voice, Body:** post the blocks before the first team presents. Voice 0 while a team carries its airport to the front, Voice 3 for the presenter, Voice 1 for the listening grid. Run a visible 3 minute countdown on the projector for every team and say where airports sit while teams wait. With 6-7 teams this fills 18-21 minutes and leaves time for the goal plan. If the rotation is running long by the third team, cut the demonstration to one radio call and announce the change before the next team starts.
 
 ---
 
@@ -52,7 +53,9 @@ After completing eDynamic, each student writes a **3-step goal plan for an aviat
 
 Each step must be specific (no "study hard") and time-bound. Students who picked a non-aviation pathway in Week 1 still write the aviation plan as a thought exercise. The skill of breaking a long career into staged goals applies to ANY pathway.
 
-> [H&L PLATFORM] Students open H&L Climber Profile and **favorite at least 2 Transportation careers** they explored this week: Pilot, ATC, Aviation Mechanic, Drone Operator, Flight Dispatcher, or Transportation Needs Analyst. The workbook (Ch 16: My Next Steps) treats favoriting as the way the H&L app accumulates Career Plan data. These favorites will appear in the student's Climber Profile and influence H&L's pathway recommendations.
+> [H&L PLATFORM] Students finish the App Exploration page they started on Day 1 (FYF p. 170). In the Transportation, Distribution, and Logistics cluster they name 1 Hat that matches their personality or interests and say why, name 1 Hat that feels like a poor fit and say why, click **Pathway Possibilities**, answer the questions there, rate at least 1 pathway, and **rate at least 3 Hats**: Pilot, ATC, Aviation Mechanic, Drone Operator, Flight Dispatcher, or Transportation Needs Analyst. The page closes with a free space for jotting thoughts on the cluster in emojis, pictures, or words.
+
+Every Hat rated here lands in the student's Climber Profile, which is the source the Capstone self-inventory draws on when students list their top Hats and favorite pathways (FYF p. 281: "Rung 1: Who You Are").
 
 > [VERIFY IN Xello] Students with extra time complete the Xello "Jobs and Employers" activity from the 7th-grade task list. Confirm exact Xello task name with district admin.
 
@@ -80,15 +83,15 @@ Connect this career to THREE things:
 
    ___________________________________________________________________
 
-**2. The Irving High School of Aviation Sciences pathway** (Aviation Maintenance + Drone Engineering)
+**2. The Irving High School of Aviation Science pathway** (Aviation Maintenance + Drone Engineering)
 
    Does this pathway lead DIRECTLY to my career, or is it a STEPPING STONE through college / military / FAA school? Circle: DIRECT / STEPPING STONE. One sentence why:
 
    ___________________________________________________________________
 
-**3. My Wk0 RIASEC type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
+**3. My Wk0 core personality type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
 
-   My RIASEC: _______________________. In one sentence, why does my type fit (or not fit) the SPLIT-SECOND decisions and math of Transportation careers?
+   My core personality type: _______________________. In one sentence, why does my type fit (or not fit) the SPLIT-SECOND decisions and math of Transportation careers?
 
    ___________________________________________________________________
 

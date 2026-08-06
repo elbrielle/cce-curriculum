@@ -1,14 +1,15 @@
-# Day 4: Teaching Toolbox + Community Service Reflection
+# Day 4: Teach Through Play + Community Service Reflection
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Design a grade-appropriate learning activity using the H&L Teaching Toolbox project; reflect on how community service builds career-relevant skills |
+| **Objectives** | Design an early childhood play activity that builds one gross motor skill and one fine motor skill; test it with a partner and write two improvements; reflect on how community service builds career-relevant skills |
 | **TEKS** | d(1)(C), d(4)(E) |
-| **Deliverable** | Completed Teaching Toolbox activity (with rules + materials) + community service reflection |
-| **Materials** | Chromebooks, H&L Workbook (Ch 6, pp. 99-102 Teaching Toolbox), printed Community Service Reflection handout, projector |
+| **5E Phases** | Engage: Warm-Up · Explore: Teach Through Play design and partner test · Explain: Improvement notes and class discussion · Extend: Community service reflection · Evaluate: Exit Ticket |
+| **Deliverable** | Completed Teach Through Play activity (theme, step-by-step child instructions, both target skills) + two written improvements + community service reflection |
+| **Materials** | *Find Your Future* workbook printed pp. 216-217, chart paper or poster board, art supplies (paper, markers, scissors, tape), sticky notes, printed Community Service Reflection handout, Chromebooks, projector |
 
 ---
 
@@ -20,54 +21,49 @@ Take 3-4 student responses. This sets up the second half of the lesson. It also 
 
 ---
 
-## Activity 1: H&L Teaching Toolbox (30 min)
+## Activity 1: Teach Through Play (30 min)
 
-**Source:** H&L Workbook Ch 6, pp. 99-102, "Teaching Toolbox" (Career Lab)
+**Source:** (FYF pp. 216-217: "Teach Through Play"), a Career Climb activity
 
-Introduce the activity using the workbook framing: *"Today, the student becomes the teacher! Pretend you have a class and you need to come up with a game or activity for your students. It needs to be fun and engaging but also informative and helpful."*
+Read the framing on page 216. Early childhood teachers help young children build skills they will use for the rest of their lives, and some of the most important are movement skills. Big movements like balancing and jumping build strength and coordination, and those are called **gross motor skills**. Small movements like cutting and drawing build control in the hands and fingers and get children ready for writing, and those are **fine motor skills**. Students step into the role of an early childhood teacher and design an activity that builds both through play.
 
-The workbook includes a magazine article about Mrs. Callahan, an experienced teacher who shares her tips for turning lessons into interactive games. Students will read the article BEFORE designing their own activity. Have students read the article on workbook pages 100-101 silently for 5 minutes (or read it aloud as a class if reading levels are mixed).
+**Step 1: Review Target Skills (3 min)**
 
-Key takeaways from Mrs. Callahan's article (highlight on the projector):
-
-- Start with the LEARNING GOAL, what do you want students to learn?
-- Movement helps focus
-- "Sentence Scoot" (grammar walk-around with clipboards), "Math Bowling" (knock cups + do math), "Plant Growth Challenge" (hands-on science)
-- For young kids: keep it simple. For older kids: add complexity
-- Fun and learning are not opposites, they multiply each other
-
-**Then students complete Steps 2-5 of the workbook activity:**
-
-**Step 2: Choose Your Grade Level (1 min):** Pick ONE:
-
-- **Pre-K (Ages 3-4):** Learning through play, short attention spans, simple concepts
-- **2nd Grade (Ages 7-8):** Beginning to read/write independently, more structured learning, hands-on activities
-- **4th Grade (Ages 9-10):** Stronger problem-solving, deeper understanding, multi-step activities
-
-**Step 3: Set Your Learning Goal (2 min):** Choose ONE from the workbook list (Ch 6, p. 101):
-
-| Pre-K | 2nd Grade | 4th Grade |
+| Skill Type | Why it Matters | Your Target Skill |
 |---|---|---|
-| Recognizing shapes | Telling time | Multiplication |
-| Counting to 10 | Basic addition/subtraction | Understanding ecosystems |
-| Learning colors | Reading | Writing a short story |
+| Gross Motor | Builds strength, balance, and coordination for everyday movement | Balance on one foot for 5 seconds |
+| Fine Motor | Builds control in hands and fingers for tasks like writing and using tools | Cut along a straight line with scissors |
 
-**Step 4: Design a Fun Learning Activity (12 min):** Create a game or hands-on activity that helps students meet the academic goal. Match it to the developmental stage. Pre-K = simple rules; 4th grade = more complex. Use a digital tool (Google Doc, Slides) or paper.
+Both target skills are fixed by the workbook. The design choice is how the play gets a child to practice them.
 
-**Step 5: Explain the Rules and Steps (5 min):** Write the rules clearly so a substitute teacher could run the activity tomorrow without you. Specify: materials needed, how to set it up, how students play, how the teacher knows they learned the goal.
+**Step 2: Choose a Theme (2 min)**
 
-After designing, students compare with a partner using the workbook's discussion prompt: *"Compare your activity with a partner. What academic goal did your classmate choose? Why do you think their activity would keep students interested in learning?"*
+Jungle Adventure, Space Mission, Treasure Hunt, Farm Day, or a theme of the student's own.
+
+**Step 3: Brainstorm Ideas (5 min)**
+
+On sticky notes, students answer the five questions on page 217: what the activity is called, what children do step by step, how they practice balancing, how they practice cutting, and what classroom materials the activity uses.
+
+**Step 4: Create Your Activity (12 min)**
+
+Students build the activity on chart paper or poster board using the art supplies. The instructions have to be written for a young child, in the order a child would do them.
+
+**Step 5: Partner Practice (8 min)**
+
+Partners test each other's activity. They take turns acting as the "child" and the "teacher", practice the gross motor balancing movement, and practice the fine motor cutting task. While testing, they check three things from the page: does this actually build the skill, is it fun and easy to follow, and could a young child really do it? Each student then writes at least two ways they would change or improve their activity to make it better for young children.
+
+**Time, Voice, Body (TVB):** Post the three blocks before any scissors come out. Voice 1 for build talk in Step 4 and Voice 2 in Step 5, where one partner has to give a young child instructions out loud. Run a visible countdown for the build and another for the partner test. Name where scissors, tape, and scrap paper go when a pair finishes, and mark the floor space each pair uses for the balancing test so nobody is balancing next to a table corner. Narrate the pairs meeting the expectation instead of correcting the ones who are not.
 
 !!! tip "Facilitation Tip"
-    Project the Mrs. Callahan article on the board for the whole work session. Students will reference back to her examples. Walk around with the workbook's rubric (Ch 6, p. 102): Academic Goal, Fun & Activity, Rules & Instructions, and give a quick checkmark to students hitting all three.
+    The workbook prints no rubric for this activity, so carry a three-checkpoint clipboard instead: both target skills are actually practiced, the steps are written so a young child could follow them, and the materials are things a real classroom has. Checking all three during Step 4 is faster than a written score and it catches the most common miss, an activity that is fun to play but never gets to the cutting task.
 
-**DOK 3:** Look at your activity. Why is it appropriate for the grade level you chose? Name TWO ways it would be different if you designed it for a different age group.
+**DOK 3:** A 3-year-old and a 5-year-old both try your activity. Name TWO things you would change for the younger child, and say which target skill each change protects.
 
 ---
 
 ## Activity 2: Community Service Reflection (12 min)
 
-**Source:** Scope-and-sequence d(4)(E) + Ch 6 service-profession framing
+**Source:** Scope-and-sequence d(4)(E) + the Education and Training cluster's service framing
 
 Bridge the activity into community service: teaching IS a service profession. Every classroom hour is unpaid time spent on someone else's growth. If you've ever helped a younger sibling with homework, tutored a friend, mentored at a summer camp, or volunteered at school, you've done teaching work.
 
@@ -87,7 +83,7 @@ Distribute the Community Service Reflection handout. Students complete:
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/6sw-wk1-day4-teaching-toolbox-community-service-reflection.pdf):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/6sw-wk1-day4-teach-through-play-community-service-reflection.pdf):
 
 Rank these 4 community service experiences from BUILDS MOST career-relevant skills (1) to BUILDS FEWEST (4) based on today's reflection:
 
@@ -102,16 +98,16 @@ For EACH rank, write ONE specific skill that experience builds:
 
 - Rank 4: Skill = _______________________
 
-Bottom line: ONE community service experience I HAVE HAD (or plan to do) + ONE specific career skill it built + TODAY'S Teaching Toolbox activity grade level + learning goal: *(d(1)(C), d(4)(E))*
+Bottom line: ONE community service experience I HAVE HAD (or plan to do) + ONE specific career skill it built + TODAY'S Teach Through Play theme + the ONE change I would make for a younger child: *(d(1)(C), d(4)(E))*
 
    My service: _______________________. Skill: _______________________
 
-   Grade level: _______________________. Learning goal: _______________________
+   My theme: _______________________. My change: _______________________
 
 ---
 
 ## Differentiation
 
-- **Support:** Provide a Teaching Toolbox activity template with a sample structure ("First, students _____. Then, _____. Finally, _____."). For the community service reflection, accept hypothetical service if students have limited real experience: *"If I volunteered at _____, I would build the skill of _____."*
-- **Extension:** Students design TWO Teaching Toolbox activities, one for their chosen grade and one for a DIFFERENT grade. They write a paragraph comparing what had to change between the two age groups.
-- **ELL:** Pre-teach: Activity = Actividad, Learning Goal = Meta de aprendizaje, Volunteer = Voluntario, Community = Comunidad. Allow Teaching Toolbox activity to be designed and explained in Spanish. Bilingual community service reflection template with Spanish sentence stems.
+- **Support:** Provide an activity template with a sample structure ("First, children _____. Then, _____. Finally, _____.") so students write child-facing steps rather than a description. For the community service reflection, accept hypothetical service if students have limited real experience: *"If I volunteered at _____, I would build the skill of _____."*
+- **Extension:** Students answer the workbook's Class Discussion questions (p. 217) in writing: how can teachers make learning feel like play, and how do movement skills connect to what children do later in sports, writing, and daily tasks. Then they build a second version of the activity for a child who is not ready to use scissors independently, and name the fine motor task they used instead.
+- **ELL:** Pre-teach: Activity = Actividad, Balance = Equilibrio, To Cut = Cortar, Volunteer = Voluntario, Community = Comunidad. Gross motor and fine motor are best taught by demonstration: balance on one foot, then cut a line, then name each one. Allow the activity to be designed and explained in Spanish. Bilingual community service reflection template with Spanish sentence stems.

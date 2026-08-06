@@ -4,25 +4,30 @@
 
 ## Lesson Objective
 
-Students explore the H&L Engineering cluster (Ch 8) including the Drone (Unmanned Vehicle) Engineer pathway, complete the H&L "Protecting Wildlife" robot blueprint activity, investigate emerging UAS occupations across 5 industries, learn FAA Part 107 certification basics, and operate classroom drones through a navigation challenge that mirrors real inspection missions.
+Students explore the Engineering career cluster through the Hats & Ladders app and the *Find Your Future* workbook, complete the "Protecting Wildlife" robot blueprint activity, investigate emerging UAS occupations across 5 industries, learn FAA Part 107 certification basics, and operate classroom drones through a navigation challenge that mirrors real inspection missions. Students connect the week to Irving ISD's Aviation Maintenance and Drone Engineering pathway and to the FAA Part 107 certification the district lists for this cluster.
+
+**Learning Target:** I can name at least three emerging drone careers, design a labeled robot blueprint for a wildlife tracking job, explain how a person earns the FAA Part 107 license, and fly a drone through a navigation course.
+
+**Success Criteria:** I will know I am successful when my robot blueprint labels the flight system, the power source, the navigation system, the data collection gear, and the antenna, when my UAS research sheet lists the careers, the training, the pay, and the growth rate for my team's industry, when my score sheet shows three runs of the navigation course, and when my career classification names one drone career as high-skill, high-wage, or high-demand with one piece of evidence.
 
 ## Demonstration of Learning
 
-> "I can describe at least three emerging drone careers, complete the H&L Protecting Wildlife robot blueprint, explain the FAA Part 107 certification process, and demonstrate basic drone navigation while connecting the experience to UAS engineering careers."
+> "I can describe at least three emerging drone careers, complete the Protecting Wildlife robot blueprint, explain the FAA Part 107 certification process, and demonstrate basic drone navigation while connecting the experience to UAS engineering careers."
 
 ## TEKS Alignment
 
-- **d(1)(D):** Research and evaluate emerging occupations related to career interest areas.
-- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements.
-- **d(5)(B):** Classify occupations as high-skill, high-wage, and high-demand.
+- **d(1)(D):** Research and evaluate emerging occupations related to career interest areas (Days 2, 5).
+- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements (Days 2, 3, 5).
+- **d(5)(B):** Classify occupations as high-skill, high-wage, and high-demand (Days 2, 5).
 
 ## Materials Needed
 
 - Chromebooks with internet access (1 per student)
-- Hats & Ladders student accounts + H&L Workbook (Ch 8: Engineering, pp. 121-135, "Protecting Wildlife", "Mission to Mars", "Infrastructure Imagination")
+- Hats & Ladders student accounts + *Find Your Future* workbook, Engineering chapter (printed pp. 103-110)
 - Classroom drones (1 per team of 3-4 students. DJI Tello Education or equivalent mini-drones)
 
 - Printed Robot Blueprint sheet (Protecting Wildlife template)
+- Sticky notes for the Day 1 brainstorm step (FYF p. 104: "Protecting Wildlife")
 - Printed UAS Industry Research Template (1 per student)
 - Printed Drone Safety Briefing handout
 - Printed Drone Navigation Course score sheet
@@ -34,9 +39,11 @@ Students explore the H&L Engineering cluster (Ch 8) including the Drone (Unmanne
 
 ## Career Connection
 
-Drones (UAS, Unmanned Aerial Systems) are transforming nearly every industry. Agriculture uses drones for crop monitoring and targeted spraying. Construction uses them for site surveys and progress documentation. Real estate uses aerial cinematography. Emergency services use them for search and rescue. Filmmaking uses them for shots that used to require helicopters. Delivery companies are testing autonomous package drones. Each of these applications requires UAS pilots, drone engineers, drone data analysts, and drone fleet managers, careers that barely existed 10 years ago. Irving High's Drone Engineering pathway leads to FAA Part 107 certification, the federal license required to fly drones commercially. This pathway also directly connects to the TSA Drone Challenge that many IISD VILS students already compete in.
+Drones (UAS, Unmanned Aerial Systems) are transforming nearly every industry. Agriculture uses drones for crop monitoring and targeted spraying. Construction uses them for site surveys and progress documentation. Real estate uses aerial cinematography. Emergency services use them for search and rescue. Filmmaking uses them for shots that used to require helicopters. Delivery companies are testing autonomous package drones. Each of these applications requires UAS pilots, drone engineers, drone data analysts, and drone fleet managers, careers that barely existed 10 years ago. Irving ISD's Drone Engineering pathway leads to FAA Part 107 certification, the federal license required to fly drones commercially. The same pathway feeds the Technology Student Association Drone Challenge that many IISD VILS students already compete in.
 
-**What is Happening at Irving ISD?** **Aviation Maintenance and Drone Engineering** at **Irving High School** (School of Aviation Sciences). Connected pathways: **Sustainable Engineering** at Nimitz High School and **Robotic Manufacturing** at Singley Academy (School of Innovative Technology).
+**What is Happening at Irving ISD?** **Aviation Maintenance and Drone Engineering at Irving High School** (School of Aviation Sciences) is the pathway behind this week; connected pathways are **Sustainable Engineering** at Nimitz High School and **Robotic Manufacturing** at Singley Academy. The workbook's district pages describe the **Drone Engineering** program of study as preparing students for careers in unmanned aircraft systems, aviation, and drone engineering through flight operations, design, programming, maintenance, and data collection, and they describe an **Engineering Design** program of study that develops problem solving, computer-aided design, and the engineering design process through hands-on projects (FYF pp. 108-109: "What is Happening at My District?"). The same pages name three industry-based certifications for the cluster, Autodesk Fusion 360, Autodesk CAD Inventor, and FAA Part 107, and three student organizations, SkillsUSA, VEX Robotics, and the Technology Student Association. Their Career Exploration Connection is **Post-Secondary Options**: four-year colleges, community colleges, technical and trade schools, apprenticeships, military service, training programs, and going straight to work are all real paths after high school. A Work-Based Learning box on the same spread defines job shadowing, internships, workplace tours, and mentoring. The Irving story on those pages is the one students respond to most: Irving ISD Engineering students have designed and built prosthetic limbs so classmates could play in middle school band and orchestra.
+
+> [VERIFY with CTE coordinator] The workbook prints both engineering programs of study under a Nimitz High School heading. The Irving ISD CTE offerings page and PATHWAYS.md both place **Aviation Maintenance and Drone Engineering** at **Irving High School**, and both list Nimitz's engineering program as **Sustainable Engineering**, not Engineering Design. Confirm the campus and the program name before telling a student where to enroll.
 
 ## Vocabulary
 
@@ -49,37 +56,31 @@ Drones (UAS, Unmanned Aerial Systems) are transforming nearly every industry. Ag
 
 ## Bridge to Theory (Hats & Ladders)
 
-H&L Chapter 8: Engineering (pp. 121-135) is the source for this week. The chapter lists six engineering pathways:
+The *Find Your Future* workbook gives Engineering printed pages 103-110, the thinnest cluster chapter in the book. The chapter opener (FYF p. 103: "Exploring the World of ENGINEERING") frames the cluster as designing, building, and improving the world around us, puts a "Be the Decision Maker" prompt in front of students about designing the airplane of the future, and introduces three Hats on the page: Aerospace Engineer, Biomedical Engineer, and CAD Technician. The chapter prints no pathway list. Students meet the engineering pathways in the Hats & Ladders app instead, through the Pathway Possibilities step on the App Exploration page (FYF p. 110: "App Exploration"), and they meet Irving ISD's own programs of study, certifications, and student organizations on the district pages (FYF pp. 108-109: "What is Happening at My District?").
 
-1. Engineering Foundations
-2. Geospatial Engineering and Land Surveying
-3. Mechanical and Aerospace Engineering
-4. **Drone (Unmanned Vehicle) Engineer:** the direct match for this week
-5. Electrical Engineering
-6. Civil Engineering
+One chapter activity carries this week:
 
-Three named workbook activities anchor this week:
+- **Protecting Wildlife** (Day 1): Career Climb activity. Students are a Robotics Engineer hired by a wildlife conservationist who needs a small, lightweight robot that can fly into dense forests and track jaguars. Students read the requirements, brainstorm on sticky notes, sketch a blueprint with labeled key features, share the design with a partner or small group, and compare designs (FYF pp. 104-105: "Protecting Wildlife").
 
-- **"Protecting Wildlife"** (Ch 8, pp. 121-122): Career Climb. Students play a Robotics Engineer designing a small lightweight robot that flies into dense forests to track jaguars, parrots, or tree-dwelling monkeys. Used Day 1 as the bridge to drones.
-- **"Mission to Mars"** (Ch 8, pp. 126-128): Career Climb. Students play an aerospace engineer at NASA designing a new Mars Rover that handles rocky terrain, dust storms, and -225°F temperatures. Used Day 4 as an extension activity for fast finishers.
-- **"Infrastructure Imagination"** (Ch 8, pp. 130-135): Career Lab. Students play a civil engineer for the city of Los Lomas tackling traffic congestion and flooding. Used as a Wk2 5SW reference (already covered in 5SW); referenced here for cross-cluster awareness.
+The chapter's second activity, **Mission to Mars** (FYF pp. 106-107), is a Mars Rover design brief for an aerospace engineer. It is reserved for the 5SW civil engineering week, which has no activity of its own in this chapter, so this week does not run it. Eight printed pages cannot carry five days, so the Hats & Ladders app, the UAS industry research, the FAA materials, and the classroom drones carry Days 2 through 5.
 
 ## IISD Instructional Strategies
 
-- **Jigsaw:** Day 2 assigns each team a different drone industry (agriculture, construction, film, delivery, emergency services). Teams research independently, then teach the rest of the class on Day 5.
-- **Modeling:** Day 3 teacher demonstrates basic drone takeoff, hover, and landing on the projector before students touch a controller.
-- **Active Monitoring:** During flight days (3-4), teacher circulates with safety checklist tracking pilot rotation, altitude limits, and connection-to-career statements.
-- **Structured Pairs:** Each team has a pilot, a spotter, a logger, and a coach role, rotated every 5 minutes.
+- **Think-Pair-Share:** Day 1, Activity 2, the workbook's Step 4 "Share Your Design" and the Class Discussion that follows (FYF p. 105). Distinguished: pose the workbook's own question, what could go wrong if the robot design was never tested before it went into the field, hold a silent 30 second Think, then time Partner A for 30 seconds and Partner B for 30 seconds, and post two stems at different levels: "One thing my partner's robot does better is _____" and "If we never tested this robot, _____ would fail first, because _____." Ask two pairs to share, not one. While pairs talk, listen for who can name a failure the rainforest would cause (humidity, night flying, tree cover) rather than a general crash, and pick your share-out pairs from what you heard rather than from raised hands.
+- **Stop and Jot:** Day 1, Activity 1, the pause during the Hats & Ladders cluster tour video and the "Jot down your thoughts on this cluster" box on the App Exploration page (FYF p. 110). Distinguished: name the stop point before the video starts, give 45 seconds with the prompt on screen, and offer two stems: "One engineering career I did not expect in this cluster is _____" and "One thing I still want to know about _____ is _____." Read jots over shoulders during the pause and track which Hats students name. If most jots say Drone Engineer only, steer the Hat Finder browse that follows toward Aerospace Engineer, Biomedical Engineer, and CAD Technician so Day 2, which is chunked as a jigsaw with one drone industry per team, is not five versions of the same career.
+- **Active Monitoring:** Day 4, Activity 2, the three scored runs of the navigation course. Distinguished: walk a fixed pathway three times, one lap per run, each lap with a single target (run 1 clean takeoff inside the taped square, run 2 the 5 second hover held over the checkpoint, run 3 the inspection approach within 2 feet without a touch), and read the team score sheets as you pass rather than watching the flight. Have the feedback ready before class for the two known errors: throttle pushed all the way up on takeoff, and a pilot correcting left and right from their own view instead of the drone's. If more than a handful of teams miss the run 2 target, pivot and reproject the hover demonstration to the whole room instead of coaching it team by team.
+- **Chunking:** Day 3, Activity 3, Phase 1, the three flight controls. Distinguished: teach one control at a time on the projector, say what each one is for before demonstrating it (throttle lifts, hold steady to hover, ease down to land), and close each chunk with a thumbs check before releasing the next. The seven rules of the safety briefing in Activity 2 chunk the same way, one rule and one check at a time, with the signature as the gate. Note which control draws the most thumbs down. That control becomes a 3 minute re-teach at the start of Day 4, and teams that cleared all three chunks start on the gate station early instead of waiting.
+- **Time, Voice, Body (TVB):** Day 3, Activity 3, the move to the cleared flight space. Distinguished: post the three blocks before a single controller is handed out, Voice 0 while the safety briefing is read and signed, Voice 1 for coach talk during a flight, and Voice 3 only for the "drone up" call every pilot owes the room. Run a visible countdown for each 3 to 4 minute rotation, and state exactly where the drone lives between turns (inside the taped takeoff square, never in a hand) and where spare batteries and controllers go. Narrate the teams meeting the expectation rather than correcting the ones who are not. If a rotation is losing flight time to controller hand-offs, move the next team's drone to its square before the countdown starts.
 
 ## Week at a Glance
 
-| Day | Focus | Key Activities | Deliverable |
-|-----|-------|---------------|-------------|
-| 1 | H&L Engineering Cluster + Protecting Wildlife | H&L Ch 8 cluster tour + "Protecting Wildlife" robot blueprint | Completed wildlife tracker robot blueprint |
-| 2 | UAS Industry Jigsaw Research | Each team researches 1 of 5 drone industries | UAS Industry Research Template completed for assigned industry |
-| 3 | FAA Part 107 + Drone Flight Basics | Safety briefing + first hands-on flight | Safety quiz + first hover/landing achievement |
-| 4 | Drone Navigation Challenge | Indoor obstacle course flights with scoring | Navigation course score sheet (3 runs per pilot) |
-| 5 | Jigsaw Presentations + Career Classification | Industry presentations + high-skill/wage/demand classification | Team presentation + individual career classification |
+| Day | Focus | Key Activities | Deliverable | 5E |
+|-----|-------|---------------|-------------|-----|
+| 1 | Engineering Cluster + Protecting Wildlife | Cluster app exploration and district pages + "Protecting Wildlife" robot blueprint | Completed wildlife tracker robot blueprint | Engage · Explore · Explain · Evaluate |
+| 2 | UAS Industry Jigsaw Research | Each team researches 1 of 5 drone industries | UAS Industry Research Template completed for assigned industry | Engage · Explain · Explore · Evaluate |
+| 3 | FAA Part 107 + Drone Flight Basics | Safety briefing + first hands-on flight | Safety quiz + first hover/landing achievement | Engage · Explain · Explore · Evaluate |
+| 4 | Drone Navigation Challenge | Indoor obstacle course flights with scoring | Navigation course score sheet (3 runs per pilot) | Engage · Explain · Explore · Extend · Evaluate |
+| 5 | Jigsaw Presentations + Career Classification | Industry presentations + high-skill/wage/demand classification | Team presentation + individual career classification | Engage · Explain · Extend · Evaluate |
 
 ## Formative Assessment
 

@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Present TinkerCAD building designs with career connections; favorite A&C careers in H&L; begin eDynamic Unit 3.1 |
+| **Objectives** | Present TinkerCAD building designs with career connections; favorite A&C careers and rate a pathway in H&L; begin eDynamic Unit 3.1 |
 | **TEKS** | d(1)(B), d(1)(C) |
-| **Deliverable** | Presentation completed + H&L Career Plan updated with A&C favorites |
-| **Materials** | Chromebooks, TinkerCAD PNG files (from Day 4), H&L accounts, eDynamic Learning access, projector |
+| **5E Phases** | Engage: Warm-Up · Explain: Building presentations and star-and-wish feedback · Extend: A&C favorites and eDynamic 3.1 · Evaluate: Exit Ticket |
+| **Deliverable** | Presentation completed + 2-3 A&C Hats favorited in the Climber Profile |
+| **Materials** | Chromebooks, TinkerCAD PNG files (from Day 4), H&L accounts, *Find Your Future* workbook p. 198, eDynamic Learning access, projector |
 
 ---
 
@@ -28,9 +29,11 @@ Each student presents their TinkerCAD building to the class. Project each studen
 
 1. **Describe your building:** What is it? What was the most challenging design decision?
 2. **Name one A&C career** that would be involved in building your design in real life (architect, drafter, construction manager, interior designer, etc.) and explain what that person would do
-3. **Connect to Trash to Treasure:** What did you learn from the landscape architecture activity about how architects transform spaces?
+3. **Connect to your firm's landmark:** Name one idea from your firm's novelty landmark that plain bricks and wood could not build, and say what material or technology would make it possible.
 
 **Class feedback:** After each presentation, the class gives **one star** (something they liked) and **one wish** (something they would improve). This builds constructive feedback skills aligned with H&L Powerskills.
+
+**Time, Voice, Body:** post the three blocks before the first presenter. Voice 0 while each PNG loads, Voice 3 for the presenter, Voice 1 for the star and wish partner talk, and a visible 2 minute countdown for every presenter. Define where presenters stand and where the star and wish slips go, so transitions do not eat presentation time.
 
 !!! warning "Time constraint — the math: 24 students × 2 min = 48 min, but Activity 1 is 20 min"
     Choose ONE of these approaches based on your class culture:
@@ -45,17 +48,19 @@ Each student presents their TinkerCAD building to the class. Project each studen
 
 ---
 
-## Activity 2: H&L Career Favorites + Career Plan Update (15 min)
+## Activity 2: H&L Career Favorites + Climber Profile Update (15 min)
 
-**Source:** H&L Workbook Ch 3 (Hat Finder) + Ch 16 (My Next Steps: Career Plan)
+**Source:** (FYF p. 198: "App Exploration")
 
 Direct students to open H&L and complete three tasks:
 
-1. **Favorite at least 2-3 A&C careers** using the Hat Finder. These are saved to their Climber Profile and will appear in their Career Plan later.
+1. **Favorite at least 2-3 A&C careers** using the Hat Finder. These are saved to the Climber Profile and accumulate across all 36 weeks of the course.
 2. **Review Building Blocks:** Do any of their Building Blocks (likes, skills, experiences) connect to architecture or construction? If so, the app will reflect this in their recommendations.
-3. **Open the Career Plan** (Ch 16: My Next Steps in the workbook provides the written template). Make sure the A&C cluster is represented alongside their earlier favorites from Manufacturing, IT, Law, Health Science, Ag, Hospitality, and Business.
+3. **Finish the App Exploration page** (FYF p. 198) if any step is still open from Day 1: rate at least 1 pathway under "Pathway Possibilities," rate at least 3 Hats, and jot their thoughts on the cluster.
 
-Students should now have career favorites spanning all clusters explored so far. The Career Plan accumulates data across the year. They do not need to start over.
+> [H&L PLATFORM] Students open the Hats & Ladders app, go to Clusters, click the Architecture and Construction Cluster, and use the Hat Finder to favorite 2-3 A&C Hats. Then open **Climber Profile**. Students should now see favorites from every cluster explored so far, including Manufacturing, IT, Law and Public Safety, Health Science, Agriculture, Hospitality, and Business. The workbook has no Career Plan page outside the Capstone, so the Climber Profile is where this data lives until then.
+
+Name where this goes next. These favorites and the pathway rating are the top Hats students draw on in the Capstone, where they review their profile as the foundation of the whole ladder (FYF p. 281: "Rung 1: Who You Are") and then choose one Hat as a career goal and write why (FYF pp. 283-284: "Rung 2: Career Goal").
 
 ---
 
@@ -85,9 +90,9 @@ Connect this career to THREE things:
 
    ___________________________________________________________________
 
-**2. My Wk0 RIASEC type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
+**2. My Wk0 core personality type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
 
-   My RIASEC: _______________________. In one sentence, does this career fit my type, and why?
+   My type: _______________________. In one sentence, does this career fit my type, and why?
 
    ___________________________________________________________________
 
@@ -103,6 +108,6 @@ Connect this career to THREE things:
 
 ## Differentiation
 
-- **Support:** Allow students who are uncomfortable presenting to submit a written reflection instead: describe your building, name one connected career, and explain one thing you learned from Trash to Treasure.
-- **Extension:** H&L "Unexpected Architecture" project (Ch 3, pp. 48-54): Students design a novelty landmark for the city of Brighton Ridge. This is a full multi-step project with a city brief, rubric, and peer review, excellent for students who want a deeper architecture challenge.
+- **Support:** Allow students who are uncomfortable presenting to submit a written reflection instead: describe your building, name one connected career, and explain one idea from your firm's landmark that plain bricks and wood could not build.
+- **Extension:** **60-second self-pitch (CCE-original).** Students who finish early write and deliver a 60-second pitch about themselves, using their Building Blocks as the evidence. There is no workbook page for this pitch, so hold it to the delivery checklist at (FYF p. 299: "Prepare & Present"): speak clearly at a steady pace, look up and engage the audience, show confidence even when nervous, and use notes to guide rather than reading word for word. The district page frames it with one question worth putting on the board, "what makes a strong first impression?" (FYF p. 196).
 - **ELL:** Provide bilingual presentation sentence starters: "My building is _____ (Mi edificio es _____). The career connected to this design is _____ (La carrera conectada a este diseño es _____)."

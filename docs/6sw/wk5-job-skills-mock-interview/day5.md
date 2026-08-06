@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Participate in a mock interview as both interviewer and interviewee; write a professional thank-you letter following the H&L workbook format |
+| **Objectives** | Participate in a mock interview as both interviewer and interviewee; write a professional thank-you letter following the six-rule format |
 | **TEKS** | d(6)(C), d(6)(B), d(7)(B) |
+| **5E Phases** | Engage: Warm-Up · Extend: Paired mock interviews · Explore: Thank-you letter · Evaluate: Exit Ticket |
 | **Deliverable** | Mock interview scored on rubric + thank-you letter |
-| **Materials** | Chromebooks, H&L Workbook (Ch 11, pp. 180-181 Practicing for a Job Interview), Mock Interview Question Cards, Mock Interview Rubric, timer, projector |
+| **Materials** | Chromebooks, printed Interview Question Set and Thank-You Letter rules (CCE artifacts), Mock Interview Question Cards, Mock Interview Rubric, timer, projector |
 
 ---
 
@@ -22,23 +23,25 @@ Quiet warm-up. Project a 90-second timer. Students need calm focus before mock i
 
 ## Activity 1: Paired Mock Interviews (30 min)
 
-**Source:** H&L Workbook Ch 11, pp. 180-181, "Practicing for a Job Interview" + Mock Interview Question Cards + Rubric
+**Source:** CCE-authored mock interview (scope and sequence "MOCK INTERVIEW DAY") + Mock Interview Question Cards + Rubric
 
-The workbook (Ch 11, p. 180) explicitly walks through this activity: *"Pair up with a classmate and take turns being an interviewer and the interviewee. The interviewer will ask the questions below, and the interviewee will respond as if they were applying for a real job. Afterward, partners will give each other feedback on their answers, body language, and confidence."*
+Today is CCE-original content. The *Find Your Future* workbook contains no job interview activity, so this is the only mock interview in the course and the only place every student sits on the answering side of the table. The nearest workbook relative is the Strengths Interview (FYF pp. 287-289: "Rung 4"), which students are running with a trusted adult outside class. Rung 4 is an informational interview, so what carries over is conduct only: prepared questions, questions of your own, and notes taken while the other person talks.
 
 **Format:**
 
 - Pair students up (try mixed pairings, confident + nervous, ESL + bilingual, etc.)
 - Each interview is 5-7 minutes
 - Student A is the interviewee first; Student B is the interviewer
-- Interviewer reads questions from the workbook (Ch 11, p. 180) or the printed question cards
+- Interviewer reads from the printed question cards
 - Interviewer scores the interviewee using the printed Mock Interview Rubric
-- After interview, give Two Stars and a Wish feedback (use the Powerskills training from Wk 4 Day 2)
+- After the interview, give Two Stars and a Wish feedback, one specific thing that worked, a second specific thing that worked, and one thing to change next round
 - SWITCH: Student B becomes the interviewee. Student A interviews. Repeat.
 
 **Total time:** 5-7 min per interview × 2 students = ~12-15 min per pair. Builds in 5 minutes for transitions and feedback.
 
-**The 8 questions (from H&L Ch 11, p. 180):**
+**Time, Voice, Body:** Post the three blocks before the first round. Voice 0 while partners read their prepared answers, Voice 2 during the interviews so two pairs can work side by side without shouting, a visible countdown for each round, and a stated rule for where the interviewer sits, where the interviewee sits, and where phones go for the whole period.
+
+**The 8 questions (from the Day 4 question set):**
 
 1. Tell me about yourself.
 2. Why do you want this job?
@@ -49,12 +52,14 @@ The workbook (Ch 11, p. 180) explicitly walks through this activity: *"Pair up w
 7. Why should I hire you?
 8. Do you have any questions for me?
 
-**Teacher's job during mock interviews:**
+**Active Monitoring, three laps, one target each:**
 
-- Circulate constantly
-- Score 2-3 student interviews directly using the rubric
+- Lap 1 target: both partners have their question sheet out and the timer running
+- Lap 2 target: the interviewee is holding eye contact and answering in more than one sentence
+- Lap 3 target: the interviewer is scoring the rubric instead of watching
+- Score 2-3 student interviews directly using the same rubric the students are using
 - Give in-the-moment feedback: "Make eye contact" / "Slow down" / "Say more"
-- Catch students playing on phones — this is high-stakes practice, not free time
+- Pivot condition: if more than a handful of pairs stall on question 5, pause the room, model one 30 second problem story, and restart the round
 
 !!! tip "Facilitation Tip"
     Wear professional clothes that day if possible. Greet students at the door as if they are arriving for an interview, a handshake and eye contact at the threshold sets the tone without any verbal instruction.
@@ -65,11 +70,11 @@ The workbook (Ch 11, p. 180) explicitly walks through this activity: *"Pair up w
 
 ## Activity 2: Write the Thank-You Letter (12 min)
 
-**Source:** H&L Workbook Ch 11, pp. 179-181, "Follow Up" + "Practicing for a Job Interview" Step 3
+**Source:** Thank-You Letter rules (CCE artifact) + Step 7 of the seven-step job search from Day 1
 
-The H&L workbook (Ch 11, p. 179) walks through how to follow up after an interview: *"After an interview, it is important to send a follow-up email to thank the employer. This shows your appreciation and will keep you in the mind of the employer."*
+This is CCE-authored. The *Find Your Future* workbook has no follow-up or thank-you letter page. Step 7 of Day 1's job search is where the thank-you letter belongs: sending one within 24 hours shows appreciation and keeps the applicant in the employer's mind while other candidates fade.
 
-The workbook lists six rules for the thank-you email:
+Six rules for the thank-you email:
 
 1. Address the employer by name
 2. Thank them for meeting with you
@@ -78,9 +83,7 @@ The workbook lists six rules for the thank-you email:
 5. Let them know they can contact you with questions
 6. End with "Best Regards," + your full name
 
-The workbook (Ch 11, p. 181) says: *"Step 3: Write a Thank You Email. Use a digital tool or the space provided to write out your email."*
-
-**Student task:** In 12 minutes, write a thank-you email to your mock interview partner. Address them by name. Thank them. Mention one thing you appreciated about the practice. Include 1-2 fit statements. Sign your name.
+**Student task:** In 12 minutes, write a thank-you email to your mock interview partner in Google Docs or on the printed form. Address them by name. Thank them. Mention one thing you appreciated about the practice. Include 1-2 fit statements. Sign your name.
 
 This is the d(7)(B) deliverable for the thank-you letter.
 
@@ -121,7 +124,7 @@ Sample format:
 
    2. _______________________________________________________________
 
-**1** thing my thank-you letter included that the workbook required (from the 6 rules):
+**1** thing my thank-you letter included from the 6 thank-you rules, and why that rule matters to an employer:
 
    ___________________________________________________________________
 

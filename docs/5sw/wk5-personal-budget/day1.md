@@ -1,14 +1,15 @@
-# Day 1: H&L Lifestyle Snapshot — Reflecting on Future Life
+# Day 1: Lifestyle Target — Pricing the Life You Want
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the H&L Lifestyle Snapshot reflection (Ch 16); choose a career from this year's exploration as the basis for the week's budget; identify top 3 expense priorities |
-| **TEKS** | d(5)(D) |
-| **Deliverable** | Completed Lifestyle Snapshot reflection page with career choice and lifestyle priorities |
-| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 16, pp. 268-269, Lifestyle Snapshot), printed Lifestyle Snapshot reflection page, projector |
+| **Objectives** | Complete the Lifestyle Target page; pull the Rung 3: Career Deep Dive salary and outlook numbers researched at mid-year; identify top 3 expense priorities |
+| **TEKS** | d(5)(D), d(5)(A) |
+| **5E Phases** | Engage: Warm-Up · Explore: Lifestyle Target and Rung 3 numbers · Explain: Priority ranking and rationale · Evaluate: Exit Ticket |
+| **Deliverable** | Completed Lifestyle Target page with the Rung 3 salary numbers and ranked lifestyle priorities |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook pp. 285-286 (Rung 3 pages completed at mid-year), printed Lifestyle Target page, projector |
 
 ---
 
@@ -20,13 +21,13 @@ Share 2-3 responses. Do not comment on realism yet, let students dream freely. B
 
 ---
 
-## Activity 1: H&L Lifestyle Snapshot Reflection (15 min)
+## Activity 1: Lifestyle Target (15 min)
 
-**Source:** H&L Workbook Ch 16, pp. 268-269, "Lifestyle Snapshot"
+Distribute the Lifestyle Target page. Before a budget can be built, students have to name what the budget is for. That is the work of this page, and it is deliberately done before any salary number is on the table so that students describe the life they want rather than the life they think they can afford.
 
-Direct students to open their H&L workbook to the Lifestyle Snapshot activity in Chapter 16. Read the workbook framing aloud: *"As you work on a career plan, you'll also need to think about your future lifestyle and budget. Understanding your personal budget is an important step in long-term goal planning."*
+Students met these four questions once before, on the one-day budget that closed the 3rd six weeks. That pass ran on a salary pulled straight out of the app in the same period. This week the questions get a full page and a researched salary, so push for specifics: not "a nice car" but "a used truck," not "travel" but "one trip a year."
 
-The workbook prompts students to reflect on four key questions. Students write their answers on the reflection page:
+Students write their answers on the Lifestyle Target page:
 
 1. **What type of lifestyle do I want when I am an adult?:** Apartment or house? Roommate or alone? Family? Big city or suburb?
 2. **Where do I want to live and work?:** Irving/DFW, another Texas city, another state, or another country?
@@ -40,22 +41,25 @@ These are the *wants*. They shape how much income the student needs. Some lifest
 
 ---
 
-## Activity 2: Choose Your Career for the Budget (15 min)
+## Activity 2: Your Rung 3 Salary Numbers (15 min)
 
-**Source:** H&L Hat Finder + Career Plan (Ch 16)
+**Source:** (FYF pp. 285-286: "Rung 3: Career Deep Dive"), completed during the mid-year review
 
-Students review their H&L favorites from earlier in the year. They need to pick **one career** that will serve as the "real salary" for this week's budget exercise. They should choose a career they are genuinely considering, because the point is to see if that career actually supports the lifestyle they want.
+Students open their workbook to the Rung 3 pages they filled in at mid-year, when they researched their career goal using the Hats & Ladders app and other trusted sources. Those pages already hold everything this week's budget needs. Students copy the following onto the Lifestyle Target page so the numbers travel with the budget for the rest of the week:
 
-Students open H&L and record on their reflection page:
+- **Career goal** (the career researched on the Rung 3 pages)
+- **Education or training required**, plus any special certifications or licenses named
+- **About how long it takes to prepare** for this career
+- **Estimated starting salary, national average** (p. 286)
+- **Estimated starting salary, average in your area** (p. 286)
+- **Growing, stable, or declining** (p. 286)
 
-- **Career name** (from their favorites)
-- **DFW entry salary** (from the Hat profile)
-- **DFW experienced salary** (from the Hat profile)
-- **Education required** (from the Hat profile)
-- **Cluster** (to remember where they explored it)
+The local average is the number the budget runs on. The national average stays on the page as a comparison, and the growth answer stays because a declining field changes what that salary is worth ten years from now.
+
+Students who did not finish Rung 3, or whose local number is blank, refresh it now from the Hat profile in the app and write it in. Students whose career goal has genuinely changed since mid-year may swap it, but they redo the Rung 3 salary and outlook lines for the new career rather than guessing.
 
 !!! tip "Facilitation Tip"
-    Encourage a mix of career types in the classroom. If everyone picks "Electrician" or "Nurse," Day 5's comparison discussion is less interesting. Circulate and suggest: "You loved Week 1 architecture, have you considered that career for your budget?"
+    Encourage a mix of career types in the classroom. If everyone budgets on "Electrician" or "Nurse," Day 5's comparison discussion is less interesting. Circulate and suggest a switch to a student whose Rung 3 career duplicates half the room, pointing them at a career they favorited during Weeks 1 through 4 of this six weeks.
 
 ---
 
@@ -63,9 +67,11 @@ Students open H&L and record on their reflection page:
 
 **Source:** Budgeting practice framed around the "needs vs. wants" concept
 
-On their reflection page, students list their **top 3 spending priorities** for the month. Examples: rent, car payment, savings, food, phone, entertainment, pets, travel, gym, subscriptions.
+On their Lifestyle Target page, students list their **top 3 spending priorities** for the month. Examples: rent, car payment, savings, food, phone, entertainment, pets, travel, gym, subscriptions.
 
 Then they rank them 1-2-3 and write a one-sentence rationale for each priority. This primes them for the actual budget on Day 2, they'll start from priorities and fill in allocation amounts.
+
+**Stop and Jot:** 60 seconds per priority, prompt on screen. A rationale has to name a reason, not repeat the priority. Two stems are available: "_____ is my number one because _____" and "I would give up _____ before I gave up _____ because _____." Read the jots over shoulders while students write, and note where savings lands in the rankings.
 
 **DOK 2:** How would you distinguish between a "need" and a "want" on your priority list? Give one example of each.
 
@@ -73,30 +79,36 @@ Then they rank them 1-2-3 and write a one-sentence rationale for each priority. 
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/5sw-wk5-day1-h-and-l-lifestyle-snapshot-reflecting-on-future-life.pdf):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/5sw-wk5-day1-lifestyle-target-pricing-the-life-you-want.pdf):
 
-1. The CAREER I chose for this week's budget: _______________________
+1. The CAREER my budget will run on: _______________________
 
-2. DFW entry salary: $_______________________/year
+2. Starting salary, NATIONAL average: $_______________________/year
 
-3. DFW experienced salary: $_______________________/year
+3. Starting salary, average IN MY AREA: $_______________________/year
 
-4. My #1 spending priority: _______________________
+4. This career is: **GROWING** / **STABLE** / **DECLINING** (circle one)
 
-5. In one sentence, why does THIS priority matter MOST to me (more than the other two)?
-
-   ___________________________________________________________________
-
-6. ONE "want" from my Day 1 Lifestyle reflection that I am WORRIED my salary cannot cover:
+   In one sentence, what does that answer mean for my pay 10 years from now?
 
    ___________________________________________________________________
 
-*(d(5)(D))*
+5. My #1 spending priority: _______________________
+
+   In one sentence, why does THIS priority matter MOST to me (more than the other two)?
+
+   ___________________________________________________________________
+
+6. ONE "want" from my Lifestyle Target page that I am WORRIED this salary cannot cover:
+
+   ___________________________________________________________________
+
+*(d(5)(D), d(5)(A))*
 
 ---
 
 ## Differentiation
 
-- **Support:** Pre-select 3-4 career options based on the student's H&L favorites so they do not have to browse. Students pick one from the narrowed list.
+- **Support:** For a student whose Rung 3 pages are missing or blank, hand over a completed Rung 3 example and have them fill in only the local salary line from the app. No student should leave Day 1 without a salary number.
 - **Extension:** Research actual average DFW rent, car payment, and food costs for a young professional. Bring real numbers to Day 2 rather than estimates.
-- **ELL:** Bilingual Lifestyle Snapshot reflection page. The "what type of lifestyle" questions are universal. Students can reflect in Spanish if preferred. Pre-teach: Lifestyle = Estilo de vida, Priorities = Prioridades, Expense = Gasto.
+- **ELL:** Bilingual Lifestyle Target page. The "what type of lifestyle" questions are universal. Students can reflect in Spanish if preferred. Pre-teach: Lifestyle = Estilo de vida, Priorities = Prioridades, Expense = Gasto, Salary = Salario.

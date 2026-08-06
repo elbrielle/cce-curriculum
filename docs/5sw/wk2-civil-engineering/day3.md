@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Apply the Engineering Design Process (EDP) phases 1-2: Define the problem and research/sketch 2 bridge design options before building |
 | **TEKS** | d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explain: Design challenge and Engineering Design Process · Explore: Bridge type research and two design sketches · Evaluate: Exit Ticket |
 | **Deliverable** | Approved bridge sketch showing two design options with labeled structural elements (truss, arch, or beam) |
 | **Materials** | Chromebooks, printed Bridge Design sketch page, projector, PBS Design Squad videos, bridge materials for display only (not yet built) |
 
@@ -21,6 +22,10 @@ Collect 2-3 guesses. Bridge to the idea that shape matters more than most studen
 ---
 
 ## Activity 1: The Challenge + Engineering Design Process (10 min)
+
+**Source:** CCE-original challenge. The *Find Your Future* workbook prints no civil engineering activity, so the problem below is grounded on the TxDOT Dallas district project listings and the BLS civil engineers page rather than on a workbook scenario.
+
+Name the real version of the problem first, in one minute. TxDOT's Dallas district is rebuilding interchanges and frontage roads across the metroplex, the Trinity River flood control system keeps water out of neighborhoods that flooded before it existed, and the DART Silver Line runs a rail corridor through Irving that had to cross roads already in use. Every one of those projects is somebody deciding how much load a structure has to carry and what happens to everything around it. Today students take the same decision at desk scale.
 
 Announce the challenge clearly so students understand the constraints:
 
@@ -49,6 +54,8 @@ Today's goal: Complete Phases 1 and 2.
 ---
 
 ## Activity 2: Bridge Type Research (15 min)
+
+**Chunking:** Project one bridge type at a time and say what each one is for before showing it. Close each type with the three research questions below before moving to the next, and demonstrate the triangle-versus-square load test on the projector inside the truss chunk.
 
 Project a quick 3-minute visual tour of bridge types on the screen, use PBS Design Squad or a static comparison slide:
 

@@ -1,53 +1,65 @@
-# Day 5: Jigsaw Presentations + A&C Cluster Wrap-Up
+# Day 5: Plumbing Under Pressure — Water Line Crisis + A&C Wrap-Up
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Present Jigsaw trade research to the class; finalize A&C favorites in H&L; reflect on the full A&C cluster exploration (Weeks 1-4) |
-| **TEKS** | d(4)(C), d(5)(A), d(5)(B) |
-| **Deliverable** | Jigsaw trade presentation + finalized Skilled Trades Matrix + updated H&L A&C favorites |
-| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 3, Ch 16), Jigsaw research notes from Day 2, presentation slides or poster, projector |
+| **Objectives** | Work as a plumbing crew on a downtown water line break: take a role, set emergency priorities, sketch a labeled work zone, and present the plan to another team; finalize A&C favorites in H&L; reflect on the full A&C cluster exploration (Weeks 1-4) |
+| **TEKS** | d(1)(C), d(4)(C) |
+| **5E Phases** | Engage: Warm-Up · Explore: Plumbing crew roles and emergency plan · Explain: Present Your Plan and class discussion · Evaluate: A&C cluster reflection and Exit Ticket |
+| **Deliverable** | Team emergency plan (three-part priority list + labeled sketch) presented to another team + finalized Skilled Trades Matrix + updated H&L A&C favorites |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook pp. 194-195 and p. 198, Climber Notes deck "Plumbing Under Pressure" (slide 2), chart paper or poster board and markers (1 set per team of 3), projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: You have now explored Architecture (Wk1), Civil Engineering (Wk2), Construction (Wk3), and four skilled trades (Wk4). Which career in this entire cluster surprised you the most? Why?**
+**WARM-UP: A water main breaks under a downtown street at 7 AM. Water is filling the road and two stores are about to flood. Before anyone touches a pipe, what is the FIRST thing the crew should do?**
 
-Quick share. This primes students to reflect across the full 4-week A&C cluster exploration, not just this week. Expect surprises: some students are shocked by trade salaries, others by how long it takes to become a licensed architect.
-
----
-
-## Activity 1: Jigsaw Trade Presentations (25 min)
-
-Each team presents their assigned trade to the class. Presentations are **4 minutes per team** (strict timer). Coverage:
-
-1. **Daily responsibilities:** What does this worker actually do day-to-day?
-2. **Apprenticeship pathway:** Step by step, from entry to journeyman
-3. **Licensing requirements:** Texas-specific state regulations
-4. **DFW salary data:** Entry, median, experienced
-5. **Job outlook:** BLS growth rate and factors driving demand
-6. **Skills gap analysis:** How big is the gap and why?
-7. **One surprising fact:** The most compelling data point the team found
-
-Classmates take notes on a simple note-taking sheet with one row per trade so every student leaves with a baseline understanding of all 4 trades, not just their own.
-
-!!! tip "Facilitation Tip"
-    Project a visible 4-min timer and announce the limit to students before Team 1 starts, so every team gets the same slot. If a team is still wrapping at 4 min, give them one sentence to close. Hard time discipline is drilled explicitly in 6SW Wk4 Sales/Presentations.
+Take 3-4 answers. Most students go straight to fixing the pipe. Push toward the two moves that come first in a real emergency: shut the water off, and keep people out of the work area. Bridge: today students are the crew that gets that call.
 
 ---
 
-## Activity 2: A&C Cluster Final Favorites + Career Plan (12 min)
+## Activity 1: Plumbing Under Pressure — Stop the Leak (25 min)
 
-**Source:** H&L Workbook Ch 3 (A&C Hat Finder) + Ch 16 (Career Plan)
+**Source:** (FYF pp. 194-195: "Plumbing Under Pressure"), a Career Climb activity, + (Climber Notes: "Plumbing Under Pressure", slide 2)
 
-Students open H&L and finalize their A&C cluster work:
+A major water line has broken in the middle of downtown. Water is rushing into the streets and businesses are at risk of flooding. Students are the plumbing team called in to stop the leak, protect the area, and get the water system running again.
 
-1. **Review all A&C favorites from Weeks 1-4:** architecture, civil engineering, construction, trades careers. Remove any favorites they are no longer interested in after this cluster. Add any new ones.
-2. **Review Building Blocks** to verify A&C-related skills/interests are captured: hands-on, building things, safety-minded, physical work, creativity, math for measurement, leadership for construction management.
-3. **Open the Career Plan (Ch 16)** and make sure the A&C cluster is clearly represented. Some students will have A&C as their top choice; others will eliminate it. Either is a valid outcome, the goal is clarity.
+**Step 1: Meet the Team (4 min).** Students get into groups of 3. Each person takes one role and puts their initials under it in the workbook (FYF p. 194).
+
+| Role | What they do | Why the job matters |
+|---|---|---|
+| Master Plumber | Leads the team and makes the big calls: talks to the city, checks the plan, keeps the work safe and correct | Makes sure the whole job is done right the first time |
+| Pipefitter | Builds and connects the pipe system: measures pipe, connects sections, checks that everything fits | Puts the pipes together so water flows without leaks or breaks |
+| Journeyman Plumber | Repairs and supports the job: fixes leaks, carries tools, helps wherever needed | Keeps the repair moving so the team works quickly |
+
+**Step 2: Learn an Emergency Protocol (3 min).** Project the Climber Notes emergency basics slide: shut off the water to stop the flow, block off the area to keep people safe, coordinate with city officials, police for traffic and safety, and utility teams, make the plan before starting so everyone knows their job, and communicate clearly and calmly so the team can work fast.
+
+**Step 3: Make a Plan (5 min).** Teams list their top priorities in the three time boxes on p. 195: before the repair, during the repair, and after the repair.
+
+**Step 4: Sketch the Solution (9 min).** On chart paper, each team draws and labels the broken pipe, where the water is flowing, a safe work zone, and where each team member will be working.
+
+**Time, Voice, Body (TVB):** post the three blocks before chart paper goes out. Voice 2 for team planning, Voice 0 for the last minute of the sketch so teams check their labels instead of talking, a visible countdown running through Steps 3 and 4, and a stated rule that markers return to the tray at the center of the table before the twist is announced. Narrate the teams that are meeting the expectation rather than correcting the ones that are not. If a team is still arguing about roles when the Step 3 countdown starts, assign the remaining two roles for them and let them start on priorities.
+
+**Step 5: React Fast (4 min).** Announce the twist to the whole room at once (FYF p. 195): a large crowd has gathered too close to the work area, and the water pressure has suddenly increased, making the leak worse. Teams decide what to do first, who takes the lead in that moment, and what each member does right away. They mark the change on their sketch.
+
+---
+
+## Activity 2: Present Your Plan + A&C Cluster Favorites (12 min)
+
+**Source:** (FYF p. 195: "Plumbing Under Pressure", Step 6) + (FYF p. 198: "App Exploration")
+
+**Step 6: Present Your Plan (7 min).** Pair each team with another team. Each team gets two minutes to explain their priorities, their roles, their drawing, and how they handled the crowd and the pressure spike. The listening team owes them one question before the swap.
+
+**Think-Pair-Share:** after both teams have presented, hold the workbook's own discussion question (FYF p. 195): why is it important for everyone on a crew to have a clear role? Silent 30 second Think, then Partner A for 30 seconds and Partner B for 30 seconds. Post two stems: "Our team worked well when _____" and "If two people had taken the same role, _____ would have happened." Ask two pairs to share, and pick them from what you heard while listening rather than from raised hands, favoring pairs who name a moment from the twist instead of a general answer.
+
+**A&C Cluster Favorites (5 min).**
+
+> [H&L PLATFORM] Open Hats & Ladders. Review every A&C career you favorited across Weeks 1 to 4: architecture, civil engineering, construction, and the trades. Remove the ones you are no longer interested in and add any new ones. Check that your Building Blocks show the A&C skills you found this cluster, such as hands-on work, building things, safety, math for measurement, and leading a crew.
+
+Some students will finish the cluster with A&C as their top choice and others will rule it out. Either is a valid outcome, the goal is clarity.
 
 ---
 
@@ -67,21 +79,21 @@ Preview next week: **Personal Finance / Budgeting**. Students will use the salar
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/5sw-wk4-day5-jigsaw-presentations-a-and-c-cluster-wrap-up.pdf):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/5sw-wk4-day5-plumbing-under-pressure-water-line-crisis-a-and-c-wrap-up.pdf):
 
 The skilled trade I would pick TODAY if I had to choose: _______________________
 
 Connect this trade to THREE things:
 
-**1. The BLS growth rate OR DFW job openings data** for this trade (from Day 3)
+**1. MY ROLE ON THE PLUMBING CREW TODAY** (Master Plumber / Pipefitter / Journeyman Plumber)
 
-   My data point: _______________________. In one sentence, what does this number mean for a 13-year-old today?
+   My role: _______________________. Name ONE thing my role had to do that nobody else on the crew did:
 
    ___________________________________________________________________
 
-**2. The POST-HS route I would take** (Welding at MacArthur / union apprenticeship / community college / private trade school)
+**2. WHAT I SAID OUT LOUD WHEN WE PRESENTED**
 
-   My route: _______________________. In one sentence, why this route over the others?
+   The part of our plan I explained: _______________________. One question the other team asked us:
 
    ___________________________________________________________________
 
@@ -89,12 +101,12 @@ Connect this trade to THREE things:
 
    One sentence: ___________________________________________________________________
 
-*(d(5)(A), d(5)(B))*
+*(d(1)(C), d(4)(C))*
 
 ---
 
 ## Differentiation
 
-- **Support:** Allow students uncomfortable presenting to join a team as a note-taker and hand-off the oral portion to a teammate. They still contribute research and earn credit for the presentation deliverable.
-- **Extension:** Research one "smart trades" innovation (smart thermostats for HVAC, fiber optic cabling for electricians, leak-detection sensors for plumbers). How is technology changing the trade?
-- **ELL:** Presentation sentence starters: *"Our trade is _____ (Nuestro oficio es _____). The apprenticeship takes _____ years (El aprendizaje dura _____ años)."* Pair ELL students with bilingual peers for presentation rehearsal.
+- **Support:** Print the three crew roles on cards with the "what they do" column already filled in so groups can pick fast and spend their time on priorities instead of negotiation. A student who does not want to speak during Step 6 can hold and point at the sketch while a teammate explains it, and still earns the presentation deliverable.
+- **Extension:** Add a fourth twist to the team's plan: the city says the street has to reopen in two hours. What comes off the priority list, what cannot come off, and who makes that call?
+- **ELL:** Bilingual role cards. Pre-teach: Pipe = Tubería, Leak = Fuga, Shut off = Cerrar, Work zone = Zona de trabajo, Crew = Cuadrilla, Priority = Prioridad. The labeled sketch carries the plan visually, so ELL students can present by pointing at their drawing. Presentation sentence starters: *"Our first priority was _____ (Nuestra primera prioridad fue _____). My role was _____ (Mi función fue _____)."*

@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the H&L Hat Research template for an A&C career; compare salaries and education timelines across 3+ careers; complete Xello Education Experiences activity |
+| **Objectives** | Complete the career research worksheet for an A&C career; compare salaries and education timelines across 3+ careers; complete Xello Education Experiences activity |
 | **TEKS** | d(2)(A), d(5)(E) |
-| **Deliverable** | Completed Hat Research template (H&L workbook) + Architecture Career Research worksheet |
-| **Materials** | Chromebooks, H&L accounts + workbook (Ch 3 Hat Research template, p. 47), BLS OOH, Xello accounts, printed salary comparison worksheet |
+| **5E Phases** | Engage: Warm-Up · Explore: A&C career research · Explain: Modeled salary comparison row · Extend: Xello Education Experiences · Evaluate: Exit Ticket |
+| **Deliverable** | Completed career research worksheet + completed salary comparison worksheet |
+| **Materials** | Chromebooks, H&L accounts + *Find Your Future* workbook p. 198, BLS OOH, Xello accounts, printed career research worksheet, printed salary comparison worksheet |
 
 ---
 
@@ -20,13 +21,11 @@ Take a quick show of hands for ranges (2 years? 4 years? 6+?). The answer, 5 to 
 
 ---
 
-## Activity 1: H&L Hat Research Template (20 min)
+## Activity 1: A&C Career Research (20 min)
 
-**Source:** H&L Workbook Ch 3, p. 47, "Hat Research"
+**Source:** CCE career research worksheet (the research format is taught in Wk0) + (FYF p. 198: "App Exploration")
 
-Direct students to open their H&L workbook to the Hat Research page in Chapter 3. The workbook instructs: *"Go to the Hats & Ladders app and click on the Hat Finder. Explore Hats in the Architecture and Construction career cluster. Choose one Hat and fill out the information below."*
-
-Students select one A&C career that interests them and complete all fields:
+Hand out the printed career research worksheet, the same six-field artifact students learned in Wk0 and have used in every cluster week since. Students select one A&C career that interests them, ideally one of the three Hats they rated on the App Exploration page yesterday, and complete all fields:
 
 - **Name of Career** (e.g., Architect, Drafter, Interior Designer, Urban Planner)
 - **What Interests You?:** Why this career caught their attention
@@ -35,10 +34,12 @@ Students select one A&C career that interests them and complete all fields:
 - **Average Salary:** Pull DFW-specific salary from H&L career profiles
 - **Tools, Equipment, or Skills Needed:** CAD software, math, design thinking, etc.
 
-After completing the Hat Research template, students should have concrete, data-backed knowledge of one A&C career. This becomes the anchor point for the salary comparison activity next.
+> [H&L PLATFORM] Students open the Hats & Ladders app, go to Clusters, click the Architecture and Construction Cluster, and use the Hat Finder to return to a Hat they rated on the App Exploration page (FYF p. 198). They pull each worksheet field directly from that Hat's profile in the app, then use at least one additional source, such as the BLS Occupational Outlook Handbook, to confirm the salary and training figures.
+
+After completing the worksheet, students have concrete, data-backed knowledge of one A&C career. This becomes the anchor point for the salary comparison activity next.
 
 !!! tip "Facilitation Tip"
-    Circulate and check that students are pulling actual salary numbers from the H&L app rather than guessing. The localized DFW data in H&L is more relevant than national averages.
+    **Active Monitoring:** walk one lap with a single target, that every worksheet shows a salary figure copied from a source rather than guessed. The predictable error is a national average pulled from a search result instead of the DFW figure on the Hat profile, so have that correction ready before class. If more than a handful of sheets carry guessed numbers, pause the room and reproject the Hat profile screen instead of fixing sheets one at a time.
 
 ---
 
@@ -46,7 +47,7 @@ After completing the Hat Research template, students should have concrete, data-
 
 **Source:** Scope and sequence d(5)(E) requirement, compare salaries of at least 3 careers
 
-Distribute the Architecture Career Research worksheet. Students compare at least **3 A&C careers** plus **1 trades career** from the 4th Six Weeks as a contrast. For each career, record:
+Distribute the salary comparison worksheet. Students compare at least **3 A&C careers** plus **1 trades career** from the 4th Six Weeks as a contrast. For each career, record:
 
 | Career | Years of Education | Estimated Education Cost | Entry Salary (DFW) | Mid-Career Salary (DFW) |
 |--------|-------------------|------------------------|--------------------|-----------------------|

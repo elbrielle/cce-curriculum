@@ -6,9 +6,10 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Objectives** | Compare budgets with a partner who chose a different career; complete a 3-career salary comparison across clusters; update the H&L Career Plan; wrap up the A&C cluster |
-| **TEKS** | d(5)(E), d(5)(D), d(5)(A) |
+| **TEKS** | d(5)(E), d(5)(D) |
+| **5E Phases** | Engage: Warm-Up · Explain: Partner budget comparison · Extend: Three-career value score and Career Plan update · Evaluate: Exit Ticket |
 | **Deliverable** | Final Personal Budget + 3-career salary comparison chart + updated H&L Career Plan |
-| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 16 Career Plan), students' Day 2 budgets, students' Day 3 Cost of Living worksheets, printed Salary Comparison chart, projector |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook p. 198, students' Day 2 budgets, students' Day 3 Cost of Living worksheets, printed Salary Comparison chart, projector |
 
 ---
 
@@ -31,7 +32,9 @@ Students pair with a classmate who chose a **different** career on Day 1. They c
 
 This is where students often realize that a "lower-paying" career with a modest lifestyle leaves more money at the end of the month than a "high-paying" career with an expensive lifestyle. Spending patterns matter as much as income.
 
-After the pair discussion, ask for volunteers to share one surprising comparison from their conversation.
+**Think-Pair-Share:** Pair by different career first. Hold a silent 30 second Think on "who has more money left over, and why," then time Partner A for 30 seconds and Partner B for 30 seconds. Two stems are posted: "I have $_____ left over and my partner has $_____ because _____" and "My partner's salary is _____ than mine, but their leftover is _____ than mine, which tells me _____." Listen while pairs talk for the ones where the lower salary produced the higher leftover.
+
+After the pair discussion, call on two of those pairs to share one surprising comparison rather than taking raised hands.
 
 ---
 
@@ -63,12 +66,14 @@ Students then calculate a simple **"Value Score":** their own weighting of salar
 
 ## Activity 3: A&C Cluster Wrap-Up + H&L Career Plan Update (10 min)
 
-**Source:** H&L Workbook Ch 3 (A&C Hat Finder) + Ch 16 (Career Plan)
+**Source:** (FYF p. 198: "App Exploration")
 
-Students open H&L and finalize their 5SW work:
+> [H&L PLATFORM] Open the Hats & Ladders app, go to Clusters, click the Architecture and Construction Cluster, click "Pathway Possibilities" and answer the questions, then rate at least 1 pathway and at least 3 Hats. Students record their answers on page 198.
+
+Students then finalize their 5SW work in the app:
 
 1. **Confirm all A&C favorites** from Weeks 1-4 are still relevant after the budget analysis. Some students may remove favorites when they see the salary vs. education cost ratio.
-2. **Update the Career Plan (Ch 16)** to reflect this six-weeks' learning. The Career Plan should now show: architecture/engineering/construction/trades from 5SW, plus all prior favorites.
+2. **Update the Career Plan** to reflect this six-weeks' learning. The Career Plan should now show: architecture/engineering/construction/trades from 5SW, plus all prior favorites. This is the same plan students carry into the capstone, where Rung 8 asks them to picture that future and name what success looks like (FYF pp. 297-298: "Rung 8: Stay Motivated").
 3. **Note one budgeting insight** that will shape future career decisions. Example: *"I learned that I care more about working with my hands than about a big salary, so I'm keeping trades on my list."*
 
 ---
@@ -116,5 +121,5 @@ Connect this career to THREE things:
 ## Differentiation
 
 - **Support:** Provide a completed 3-career comparison chart as a worked example. Students use their own data for 2 careers and the pre-filled example for 1 career.
-- **Extension:** Build a H&L Lifestyle Snapshot **vision board** (workbook extension) using Canva. Include: career, salary, location, top 3 expenses, and 2 savings goals. Share with the class on Monday.
+- **Extension:** Build a budget **vision board** using Canva. Include: career, salary, location, top 3 expenses, and 2 savings goals. Share with the class on Monday.
 - **ELL:** Bilingual 3-career comparison chart. Numbers and salaries are universal. Pair ELL students with bilingual peers for the Think-Pair-Share discussion.

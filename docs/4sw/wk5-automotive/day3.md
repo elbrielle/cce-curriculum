@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Compare salaries for at least 3 automotive careers using H&L, BLS, and CareerOneStop; calculate the salary-to-education-time ratio; preview tomorrow's cross-cluster comparison |
 | **TEKS** | d(5)(E), d(2)(B) |
+| **5E Phases** | Engage: Warm-Up · Explore: Three-career salary research · Extend: Cross-cluster preview career · Explain: Class salary tally · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Automotive Salary Comparison worksheet showing 3 automotive careers + 1 cross-cluster preview career |
 | **Materials** | Chromebooks, H&L accounts, BLS Automotive Service Technicians page, BLS Diesel Service Technicians page, CareerOneStop Compare Occupations tool, printed Automotive Salary Comparison worksheet, calculator (or phone calculator), projector |
 
@@ -43,7 +44,7 @@ The worksheet has these columns:
 Students gather data from three sources for cross-validation:
 
 1. **H&L Hat profile:** DFW-specific salary if available
-    > [H&L PLATFORM] The workbook (Ch 15: Transportation, Hat Research template, p. 256) provides a structured sheet for recording salary and demand data from the H&L Hat Finder.
+    > [H&L PLATFORM] Students reach the Hat pages the same way they did on Day 1, through Clusters, then the Transportation, Distribution, and Logistics cluster, following the app path on the workbook's App Exploration page (FYF p. 170: "App Exploration"). They record salary and demand data in the worksheet columns using the career research format taught in Wk0.
 2. **BLS Occupational Outlook Handbook:** national median pay and 10-year job outlook
 3. **CareerOneStop Compare Occupations:** side-by-side career comparison with state-level data
 
@@ -54,7 +55,7 @@ After filling in all three rows, students calculate one ratio for each career:
 This ratio surfaces something important: a career that requires a 6-month certificate and pays $50K has a much higher ratio than a 4-year degree career that pays $60K.
 
 !!! tip "Facilitation Tip"
-    Walk the room with a checklist. Verify each student has used at least 2 of the 3 sources for each career. Students who fill in only the H&L numbers are doing single-source research, push them to cross-check on BLS.
+    **Active Monitoring:** Walk a fixed pathway three times, one lap per career row, carrying the checklist. Each lap has one target: at least 2 of the 3 sources used for that career, and the numbers written where they belong. Have feedback ready for the two predictable errors: a national BLS median copied into the DFW column, and an hourly wage recorded as if it were annual. Students who fill in only the H&L numbers are doing single-source research, push them to cross-check on BLS. If the hourly-versus-annual error shows up on more than a handful of sheets, pause and convert one wage on the board for the whole room.
 
 After completing the 3 automotive careers, students preview Day 5 by adding **one career from a different cluster** they explored earlier this year. Examples: Software Developer (1SW IT), Registered Nurse (2SW Health Science), Veterinarian (3SW Ag), Architect (5SW preview). They fill in only the salary and education time columns for the cross-cluster career, the full comparison happens Day 5.
 

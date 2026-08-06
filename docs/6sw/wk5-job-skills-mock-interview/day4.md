@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Read H&L Job Interviews background; prepare answers to 8 standard interview questions; observe a fishbowl mock interview demonstration |
+| **Objectives** | Describe appropriate appearance and preparation for an interview; prepare answers to 8 standard interview questions; observe a fishbowl mock interview demonstration |
 | **TEKS** | d(6)(B) (d(6)(C) demonstrated for all students on Day 5) |
+| **5E Phases** | Engage: Warm-Up · Explain: Interview readiness and appearance · Explore: Eight question prep and fishbowl observation · Evaluate: Exit Ticket |
 | **Deliverable** | 8 interview question answers prepared + fishbowl observation notes |
-| **Materials** | Chromebooks, H&L Workbook (Ch 11, pp. 178-181 Job Interviews & Practicing for a Job Interview), printed Mock Interview Question Cards, Mock Interview Rubric, projector |
+| **Materials** | Chromebooks, printed Interview Readiness Guide and Interview Question Set (CCE artifacts), CareerOneStop Job Interview Tips, printed Mock Interview Question Cards, Mock Interview Rubric, projector |
 
 ---
 
@@ -20,31 +21,33 @@ Take 3-4 student responses. Common answers: "I won't know what to say," "I'll fo
 
 ---
 
-## Activity 1: H&L Job Interviews Reading (10 min)
+## Activity 1: Interview Readiness and Appearance (10 min)
 
-**Source:** H&L Workbook Ch 11, p. 179, "Job Interviews"
+**Source:** Interview Readiness Guide (CCE artifact) + CareerOneStop Job Interview Tips
 
-Students read the workbook section "Job Interviews" (Ch 11, p. 179) silently or with a partner. The section covers four key topics:
+The *Find Your Future* workbook has no interview section and no dress code page. The Interview Readiness Guide handed out today is CCE-authored, and it is the only place in the course where appearance for an interview is taught, so do not skip it. Students read it with a partner. It covers four topics:
 
-1. **Dress for Success:** The 6 dress code rules (covered Wk 4 Day 4 but reinforced today)
-2. **Getting Ready for an Interview:** Research the company, practice common questions, plan your outfit, bring resume copies, use good body language, prepare your own questions, arrive 10-15 minutes early
-3. **Remote & Phone Interviews:** Test your tech, find a quiet space, dress professionally even on video, speak clearly
-4. **Follow Up:** Send a thank-you email after every interview
+1. **Dress for success, six rules:** clothes clean and free of wrinkles; shoulders, midriff, and knees covered, nothing ripped and no slogans; closed-toe shoes, clean; hair neat and out of your face; jewelry, cologne, and accessories kept light; and the rule that decides the other five, dress one step nicer than what people wear on the job every day.
+2. **Getting ready:** research the company, practice common questions out loud, lay out your outfit the night before, bring printed resume copies, plan your body language, prepare your own questions, and arrive 10 to 15 minutes early.
+3. **Remote and phone interviews:** test your tech, find a quiet space with a plain background, dress the same way you would in person, and speak a little slower than feels natural.
+4. **Follow up:** send a thank-you email after every interview, within 24 hours.
 
-After 5 minutes of reading, ask students to share ONE tip from the workbook they did not know before.
+**Think-Pair-Share:** After the read, hold a silent 30 second Think on "which of these would I forget on the day," then time Partner A for 30 seconds and Partner B for 30 seconds. Stems: "The tip I would most likely forget is _____ because _____" and "Arriving 15 minutes early tells an employer _____ before I say a word." Two pairs share out, not one.
+
+**Connection to the capstone:** Students are already carrying the Strengths Interview (FYF pp. 287-289: "Rung 4"), where they interview a trusted adult using prepared questions plus at least two of their own. That is the asking side of the table, and it is why Rung 4 makes them plan questions in advance. Today they move to the answering side. Question 8 on the question set is where the two sides meet.
 
 !!! tip "Facilitation Tip"
-    The workbook says to "arrive 10-15 minutes early." Students always think this means "be on time." Stress the difference: 10-15 minutes EARLY means you walk into the building 10-15 minutes before the interview start time. This is a make-or-break professional habit.
+    Students always read "arrive 10-15 minutes early" as "be on time." Stress the difference: 10 to 15 minutes EARLY means you walk into the building 10 to 15 minutes before the interview start time. Rule 6 is the one worth the most class time, because it turns a list students have to memorize into a question they can answer for any job: what do people wear here on a normal Tuesday, and what is one step nicer than that?
 
 ---
 
 ## Activity 2: Eight Standard Interview Questions (15 min)
 
-**Source:** H&L Workbook Ch 11, pp. 180-181, "Practicing for a Job Interview"
+**Source:** Interview Question Set (CCE artifact)
 
-The workbook (Ch 11, p. 180) gives students 8 standard interview questions. These are the most common questions employers ask. Students will use these in tomorrow's mock interview.
+The eight questions below are CCE-authored, not workbook content. They are the most common questions employers ask, and students will use them in tomorrow's mock interview.
 
-**The 8 questions (from the workbook):**
+**The 8 questions:**
 
 1. Tell me about yourself.
 2. Why do you want this job?
@@ -55,7 +58,7 @@ The workbook (Ch 11, p. 180) gives students 8 standard interview questions. Thes
 7. Why should I hire you?
 8. Do you have any questions for me?
 
-**Student task:** Pick a job (Warehouse Associate, Office Assistant, or Social Media Assistant — the workbook options on Ch 11, p. 180). Write **bullet-point answers** to ALL 8 questions for that job. NOT essays, bullet points only. The point is to think through what you would say without writing a script.
+**Student task:** Pick a job. The default three are Warehouse Associate, Office Assistant, and Social Media Assistant. Students may instead use the Pecan Creek Vet Clinic Office Assistant posting they wrote to on Day 2, or the real posting they recorded on Job Posting #1. Write **bullet-point answers** to ALL 8 questions for that job. NOT essays, bullet points only. The point is to think through what you would say without writing a script. Students who chose a real posting should answer question 2 straight out of the posting's own responsibilities line.
 
 **Tips for each question:**
 
@@ -68,7 +71,7 @@ The workbook (Ch 11, p. 180) gives students 8 standard interview questions. Thes
 - **Why should I hire you:** Repeat your top 2-3 strengths and connect them to the job's needs.
 - **Your questions:** ALWAYS have 1-2 questions ready. ("What would my first week look like?" / "What do you like about working here?") Never say "no", it signals lack of interest.
 
-Students complete their bullet-point answers individually. Teacher walks around with one check: "Show me your answer to question 8, your questions for the interviewer." Students who don't have any are reminded that having no questions kills an interview.
+Students complete their bullet-point answers individually. Teacher walks one lap with a single target: "Show me your answer to question 8, your questions for the interviewer." Students who don't have any are reminded that having no questions kills an interview. If the lap turns up more than a handful of blank question 8s, put two model questions on the board and give the room 60 seconds to steal one.
 
 ---
 
@@ -78,7 +81,7 @@ Students complete their bullet-point answers individually. Teacher walks around 
 
 Demonstrate a real mock interview live. Two options:
 
-**Option A, Teacher as interviewer, student volunteer as interviewee.** Teacher reads the 8 questions. Student volunteer answers as if applying for one of the workbook jobs.
+**Option A, Teacher as interviewer, student volunteer as interviewee.** Teacher reads the 8 questions. Student volunteer answers as if applying for the job they prepared in Activity 2.
 
 **Option B, Two student volunteers.** One is the interviewer, one is the interviewee. They use the question cards.
 

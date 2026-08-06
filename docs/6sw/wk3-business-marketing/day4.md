@@ -1,14 +1,15 @@
-# Day 4: Hat Research + Google Applied Digital Skills
+# Day 4: Marketing Career Research + Data-Informed Decision Making
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete Hat Research for one Marketing career; complete a Google Applied Digital Skills marketing-related lesson; explore school subjects that connect to marketing through Xello |
+| **Objectives** | Research one Marketing career on the career research worksheet using the Hats & Ladders app; read three marketing data sets and choose a campaign strategy using the "Powerskill: Data-Informed Decision Making" workbook activity; connect school subjects to marketing careers in Xello |
 | **TEKS** | d(1)(C) |
-| **Deliverable** | Completed Hat Research template + Google Applied Digital Skills lesson completion |
-| **Materials** | Chromebooks, H&L accounts, H&L Workbook (Ch 5, p. 80 Hat Research), Google Applied Digital Skills, Xello accounts |
+| **5E Phases** | Engage: Warm-Up · Explore: Marketing career research and Family Fun Pass data · Explain: Strategy pitch and cross-group share · Extend: Xello School Subjects at Work · Evaluate: Exit Ticket |
+| **Deliverable** | Completed marketing career research worksheet + data-backed Family Fun Pass strategy pitch |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook pp. 229, 228, and 254, printed marketing career research worksheet, Xello accounts, projector |
 
 ---
 
@@ -20,13 +21,13 @@ Take 4-5 student responses. Most students will guess "social media", push them t
 
 ---
 
-## Activity 1: H&L Marketing Hat Research (15 min)
+## Activity 1: Marketing Career Research (15 min)
 
-**Source:** H&L Workbook Ch 5, p. 80, "Hat Research"
+**Source:** Career research worksheet (CCE artifact; the research format is taught in Wk0) + (FYF p. 254: "App Exploration")
 
-> [H&L PLATFORM] From the workbook (Ch 5, p. 80): "Go to the Hats & Ladders app and click on the Hat Finder. Explore Hats in the 'Business, Marketing, and Finance' career cluster. Choose one Hat and fill out the information below."
+> [H&L PLATFORM] Students open the Hats & Ladders app, go to Clusters, then the Business, Marketing, and Finance Cluster, and use the Hat Finder to open one marketing Hat and read its full profile.
 
-Students choose ONE Marketing-specific Hat and complete the workbook research template. Suggested Hats:
+Students choose ONE Marketing-specific Hat and complete the career research worksheet on it. Suggested Hats:
 
 - Marketing Manager
 - Brand Manager
@@ -37,7 +38,7 @@ Students choose ONE Marketing-specific Hat and complete the workbook research te
 - Content Creator / Content Strategist
 - SEO Specialist
 
-The workbook template (Ch 5, p. 80) requires:
+The worksheet asks for:
 
 - **Name of Career**
 - **What Interests You?** (1-2 sentences)
@@ -46,33 +47,54 @@ The workbook template (Ch 5, p. 80) requires:
 - **Average Salary** (DFW data from H&L or BLS)
 - **Tools, Equipment, or Skills Needed** (software, soft skills, etc.)
 
-Students fill in the workbook page (or a Google Doc copy) using the H&L Hat profile. They should not just copy. They should summarize in their own words.
+Students fill the worksheet from the Hat profile. They should not copy. They should summarize in their own words.
+
+Any student who has not finished the App Exploration page from Day 1 (FYF p. 254) closes it out here: rate at least 1 pathway under Pathway Possibilities and rate at least 3 Hats.
 
 !!! tip "Facilitation Tip"
-    For Marketing Manager, the BLS shows it's one of the highest-paying business roles ($140K+ median nationally). Walk by students who chose Marketing Manager and confirm they wrote down the salary correctly, they often think they misread it.
+    For Marketing Manager, BLS shows one of the highest-paying business roles ($140K+ median nationally). Walk by students who chose Marketing Manager and confirm they wrote the salary down correctly, they often think they misread it.
 
-**DOK 2:** Compare the salary of your chosen Marketing career to a Graphic Designer (from last week). Which earns more, and why might that be?
+**DOK 2:** Compare the salary of your chosen Marketing career to a Graphic Designer from the graphic design and resume week. Which earns more, and why might that be?
 
 ---
 
-## Activity 2: Google Applied Digital Skills Lesson (25 min)
+## Activity 2: Powerskill — Data-Informed Decision Making (25 min)
 
-**Source:** Google Applied Digital Skills (applieddigitalskills.withgoogle.com)
+**Source:** (FYF pp. 229 and 228: "Powerskill: Data-Informed Decision Making")
 
-Direct students to applieddigitalskills.withgoogle.com. Pre-select 2-3 marketing-relevant lessons and give students the choice. Recommended lessons:
+!!! warning "The steps of this activity are printed out of order"
+    The activity opens on page 229 with Step 1, then continues on **page 228** for Steps 2, 3, and 4. Pages 228 and 230 were transposed at the printer. Say the page jump out loud before students open the book.
 
-- **"Plan and Create a Website":** Uses Google Sites to build a small website for a business. Real marketing skill.
-- **"Design a Presentation to Pitch Your Idea":** Uses Google Slides to build a pitch deck. Connects to Wk 4 presentations and the Wk 5 capstone.
-- **"Organize a Project with Digital Tools":** Uses Google Workspace to manage a marketing project end-to-end.
-- **"Plan an Event":** Uses Google Sheets and Docs to plan an event. Connects to event marketing.
-- **"Create a Resume in Google Docs":** Reinforcement for the Xello resume work from last week.
+Frame the skill from the workbook: good decisions are not guesses, they are backed by data. Data-informed decision making means using real information to guide a choice, spotting patterns, and using evidence to support what you decide.
 
-Students pick ONE lesson and work through it independently. Most lessons take 30-45 minutes, so students will not finish in 25 minutes, that is fine. They should complete the first 1-2 modules.
+Students work in pairs or small groups as a marketing team launching a **Family Fun Pass**, a monthly subscription that gives families access to local activities like mini golf, movie nights, and trampoline parks. The team has to decide the best marketing strategy to get families to sign up.
+
+**Step 1: Analyze the Data (10 min)**
+
+The workbook gives three data sets on page 229. **Chunking:** release them one at a time and say what each one answers before students read it. Take a thumbs check between sets before releasing the next.
+
+| Data set | The question it answers |
+|---|---|
+| Audience Preference by Age | Which channel does each age group prefer? (Social Media Ads, Influencers, In-Store, Email, Video Ads across 25-34, 35-49, and 50+) |
+| Past Campaign Performance | What actually sold? (clicks, sales, and engagement for each of the five campaign types) |
+| Focus Group Feedback | Why did people respond that way? (five customer quotes) |
 
 !!! tip "Facilitation Tip"
-    Google Applied Digital Skills tracks completion automatically when students log in with their school Google account. Have students screenshot the lesson page when they finish for the day so the teacher has a checkpoint.
+    The data conflicts on purpose, and the conflict is the lesson. The Influencer Campaign drew fewer clicks than Social Media Ads but produced the most sales and the highest engagement, and one focus group quote explains why: people trust recommendations more than ads. Meanwhile In-Store wins with the 50+ group, which is not the family audience this product is for. Let groups find the conflict themselves before you name it.
 
-**Connection to marketing careers:** Every lesson on Google Applied Digital Skills is a real skill that marketing professionals use daily. It's hands-on practice with the actual tools.
+**Step 2: Choose Your Marketing Strategy (5 min)**
+
+Teams pick ONE strategy from the workbook's list (FYF p. 228): Social Media Ads, Influencer Partnership, In-Store Promotion, Email Campaign, Video Ads, or a strategy of their own under Other.
+
+**Step 3: Build Your Pitch (5 min)**
+
+Teams write a short pitch that names three things: the strategy they chose, the key data that supports the decision, and why families in particular would respond to it. A strategy with no number attached to it is not finished.
+
+**Step 4: Share and Discuss (5 min)**
+
+Teams present to another group. Listeners judge three things the workbook names: did the presenters use the data clearly, did the strategy match what families actually want, and what are the strengths and weaknesses of the plan? Close with the workbook's Class Discussion (FYF p. 228): how did you decide which data mattered most, and what should you do when two data points conflict?
+
+**DOK 3:** The Influencer Campaign got fewer clicks than Social Media Ads but more sales. Which of those two numbers matters more for the Family Fun Pass, and what does your answer say about what this business is actually trying to buy?
 
 ---
 
@@ -84,28 +106,28 @@ Direct students to log into Xello and open the **School Subjects at Work** lesso
 
 Students complete the activity at their own pace. Most will need 5-10 minutes. Those who don't finish complete it as homework or during catch-up time.
 
-**Connection to today:** The Hat Research + GADS work shows students what marketing careers DO. The Xello lesson shows them which school subjects MATTER for those careers.
+**Connection to today:** The research worksheet shows students what one marketing career does all day. The Family Fun Pass data work shows them the thinking that career runs on. The Xello lesson shows them which school subjects feed both.
 
 ---
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/6sw-wk3-day4-hat-research-google-applied-digital-skills.pdf):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/6sw-wk3-day4-marketing-career-research-data-informed-decision-making.pdf):
 
-Rank these 4 marketing careers from MOST interesting to you (1) to LEAST (4) based on TODAY's Hat Research and the GADS lesson you tried.
+Rank these 4 marketing careers from MOST interesting to you (1) to LEAST (4) based on TODAY's research and the Family Fun Pass data work.
 
 - Marketing Manager: rank ____
 - Social Media Manager / Digital Marketing Specialist: rank ____
 - Market Research Analyst: rank ____
 - Content Creator / Content Strategist: rank ____
 
-Career I actually researched today: _______________________
+Career I researched today: _______________________
 
-Salary I found (H&L): $__________
+Salary I found: $__________
 
-GADS lesson I started: _______________________
+Strategy my team picked for the Family Fun Pass: _______________________
 
-For EACH rank, give ONE reason from today's work (Hat profile OR GADS lesson):
+For EACH rank below, give ONE reason from today's work (the Hat profile OR the data sets):
 
 - Rank 1 (most interesting): ______________________________________
 
@@ -117,6 +139,6 @@ For EACH rank, give ONE reason from today's work (Hat profile OR GADS lesson):
 
 ## Differentiation
 
-- **Support:** Pre-fill the Hat Research template with the career name and one section so students only complete the rest. Pre-select ONE Google Applied Digital Skills lesson for students who get overwhelmed by choice.
-- **Extension:** Students complete TWO Hat Research templates for two different marketing careers and compare the differences in salary, education, and daily work.
-- **ELL:** Pre-teach: Marketing Manager = Gerente de mercadotecnia, Salary = Salario, Tools = Herramientas. Google Applied Digital Skills offers Spanish-language lessons, show ESL students how to switch the interface to Spanish if they prefer.
+- **Support:** Pre-fill the research worksheet with the career name and one section so students only complete the rest. Highlight the two largest numbers in each column of the Audience Preference and Past Campaign Performance tables so students start from the pattern instead of hunting for it. Give a pitch frame: "We picked _____ because the data shows _____, and families would respond because _____."
+- **Extension:** Students open a Google Applied Digital Skills lesson at [applieddigitalskills.withgoogle.com](https://applieddigitalskills.withgoogle.com) and start it. "Plan and Create a Website" builds a small business site, "Design a Presentation to Pitch Your Idea" builds a pitch deck that feeds the 30-second sales pitch in the Sales and Presentations week (FYF pp. 241-243: "30 Seconds to Sell"), and "Plan an Event" connects to event marketing. Or students complete a second research worksheet for a different marketing career and compare the salary, education, and daily work.
+- **ELL:** Pre-teach: Marketing Manager = Gerente de mercadotecnia, Salary = Salario, Data = Datos, Strategy = Estrategia, Survey = Encuesta. The three data sets are tables and quotes, so the numbers carry meaning without heavy reading. Google Applied Digital Skills offers Spanish-language lessons for the extension; show ESL students how to switch the interface.

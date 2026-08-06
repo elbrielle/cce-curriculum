@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Discuss work ethic and integrity in the trades through real workplace examples; update the H&L Career Plan with all 4SW data; review every favorited career across the year |
 | **TEKS** | d(4)(F) |
+| **5E Phases** | Engage: Warm-Up · Explain: Work ethic and integrity in four trades careers · Extend: Work Ethic Examples worksheet and Career Plan audit · Evaluate: Exit Ticket |
 | **Deliverable** | Updated H&L Career Plan (screenshot showing Week 3-5 favorites added) + Work Ethic example notes |
-| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 16, "My Career and Course Plan"), printed Work Ethic Examples worksheet, projector |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook p. 170, printed Work Ethic Examples worksheet, projector |
 
 ---
 
@@ -44,20 +45,20 @@ Students complete the printed Work Ethic Examples worksheet. They pick **one car
 
 ## Activity 2: H&L Career Plan Update (25 min)
 
-**Source:** H&L Workbook Ch 16, pp. 267-268, "My Career and Course Plan"
+**Source:** (FYF p. 170: "App Exploration"), the Transportation cluster's app page
 
-> [H&L PLATFORM] Direct students to open H&L and navigate to their **Career Plan**. The workbook (Ch 16) treats the Career Plan as the place where students accumulate favorites, Building Blocks, and pathway preferences across the entire year. The Career Plan is not built from scratch each week. It grows. Students who joined the class late or missed weeks can still add favorites at any time.
+> [H&L PLATFORM] Direct students to open H&L and navigate to their **Career Plan**. The Career Plan is where students accumulate favorites, Building Blocks, and pathway preferences across the entire year. It is not built from scratch each week. It grows. Students who joined the class late or missed weeks can still add favorites at any time.
 
 Students complete a Career Plan accumulation check:
 
 1. **Review all favorited Hats from Weeks 1-5 of the 4SW**
     - Week 1: Career Planning (any Hat from earlier weeks revisited during the audit)
-    - Week 3: Aviation Hats — Pilot, ATC, Aviation Mechanic, Drone Operator
-    - Week 4: Engineering Hats — Drone Engineer, Mechanical Engineer, Aerospace Engineer
-    - Week 5: Automotive Hats — Auto Tech, Diesel Tech, Collision Repair Tech
-2. **Add any missing favorites:** students who forgot to tag a favorite during a previous week add it now
+    - Week 3: Aviation Hats, including Pilot, ATC, Aviation Mechanic, and Drone Operator
+    - Week 4: Engineering Hats, including Drone Engineer, Mechanical Engineer, and Aerospace Engineer
+    - Week 5: Automotive Hats, including Auto Tech, Diesel Tech, and Collision Repair Tech
+2. **Run the workbook's rating steps for this cluster** (FYF p. 170): find 1 Hat that matches their interests and say why, find 1 Hat that is not a fit and say why, open Pathway Possibilities and rate at least 1 pathway, then rate at least 3 Hats. Students who never favorited during Weeks 3-5 add favorites here
 3. **Update the Building Blocks section:** students add 1-2 new skills they practiced this six weeks (e.g., "Used the Engineering Design Process," "Operated a drone safely," "Researched salaries across 3 sources")
-4. **Confirm the chosen pathway:** the same one they selected on Day 5 of Week 1, or update it if their thinking has shifted
+4. **Confirm the chosen pathway:** the same one they selected during the mid-year review, or update it if their thinking has shifted
 5. **Take a screenshot** of their updated Career Plan and save it to their student drive
 
 The point is to make sure the H&L Career Plan reflects the full year of work, not just the most recent week.
@@ -65,7 +66,7 @@ The point is to make sure the H&L Career Plan reflects the full year of work, no
 !!! tip "Facilitation Tip"
     Some students will have very thin Career Plans because they forgot to favorite during earlier weeks. Allow them to spend 10 minutes browsing earlier clusters and adding favorites based on memory. The H&L Career Plan only works if it captures real student data over time.
 
-The workbook (Ch 16, p. 268) reminds students: a career plan is a roadmap with both short-term goals (current courses, near-future skills) and long-term goals (HS course sequence, postsecondary path, career destination). Students review their plan against this framing.
+A career plan is a roadmap with both short-term goals (current courses, near-future skills) and long-term goals (HS course sequence, postsecondary path, career destination). Students review their plan against that framing, and today's audit is the raw material for the Capstone rungs where they write it down as SMART goals and a course map (FYF pp. 292-293: "Rung 6: Goal Setting"; FYF pp. 294-296: "Rung 7: High School Plan").
 
 ---
 

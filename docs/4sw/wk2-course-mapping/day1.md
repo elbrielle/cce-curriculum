@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Understand the Texas Foundation High School Program structure; identify the endorsement that matches the chosen pathway; recognize which standardized tests apply to the chosen postsecondary plan |
 | **TEKS** | d(3)(A), d(3)(E) |
+| **5E Phases** | Engage: Warm-Up · Explain: Foundation High School Program and endorsements · Explore: Pathway-to-endorsement match and testing choice · Evaluate: Exit Ticket |
 | **Deliverable** | Completed MS-to-HS Transition worksheet showing chosen endorsement, top 2 HS courses for the pathway, and the most relevant standardized test |
 | **Materials** | Chromebooks, Texas OnCourse access, Irving ISD CTE Pathways poster, printed MS-to-HS Transition worksheet, projector |
 
@@ -15,6 +16,8 @@
 ## Warm-Up (5 min)
 
 **WARM-UP: Name one thing you have heard about high school that worries you AND one thing you are excited about. Write both.**
+
+**Stop and Jot:** 90 seconds, both lines required, with the stems on the board: "One thing about high school that worries me is _____" and "One thing I am excited about is _____." Read over shoulders while students write and note whether the worries are about scheduling or about belonging.
 
 Take 4-5 student responses. Validate both the worry and the excitement. Bridge: high school decisions get made in 8th grade. The 9th-grade course you pick determines what is available to you in 10th, 11th, and 12th, so the planning we do today actually matters.
 
@@ -69,6 +72,10 @@ Students record on their MS-to-HS Transition worksheet:
 - **The campus that offers it:** _____
 - **The endorsement that matches:** _____
 - **Two CTE courses I might take in 9th and 10th grade:** _____ (use Texas OnCourse to verify)
+
+Those four lines are the middle-school version of the workbook's own closing question. "What's Available to Me?" (FYF p. 296: "Rung 7: High School Plan") asks students what their likely high school offers that connects to their goals and which single opportunity interests them most. The workbook's district pages hold the district-side answer (FYF pp. 21-22: "What is Happening at My District?"): a Program of Study is a sequence of related courses that pairs classroom learning with hands-on experience, and the new Irving CTE Center now being built is described as holding a professional-grade broadcast studio, a full-service salon, a rooftop drone course, auto bays, and training facilities for electrical, HVAC, and plumbing. Read that list aloud while students are working through the pathway poster. It is the most concrete picture of high school CTE they get all week.
+
+> [VERIFY with CTE coordinator] The Irving CTE Center facility list is the workbook's description of a center still under construction. Confirm the opening timeline and which programs of study will actually be housed there before students plan around it, since this year's 7th graders enroll in 9th grade two years from now.
 
 > [VERIFY] Students access [texasoncourse.org](https://texasoncourse.org) and search for sample course sequences for their endorsement. The Texas OnCourse "MapMyGrad" tool offers visual course mapping examples, confirm the current URL with your district counselor before class.
 

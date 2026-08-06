@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Understand what FAA Part 107 covers and why it exists; complete the drone safety briefing; demonstrate basic drone flight (takeoff, hover, controlled landing) |
 | **TEKS** | d(2)(A) |
+| **5E Phases** | Engage: Warm-Up · Explain: FAA Part 107 overview and safety briefing · Explore: First flight rotations · Evaluate: Exit Ticket |
 | **Deliverable** | Signed Drone Safety Briefing (proves the student understood the safety rules) + each student successfully takes off, hovers 5 seconds, and lands at least once |
 | **Materials** | Classroom drones (1 per team of 3-4, DJI Tello Education or equivalent), printed Drone Safety Briefing handout (2 pages), open indoor flight space (cleared classroom or gym), projector for FAA Part 107 overview, masking tape to mark takeoff zones |
 
@@ -33,7 +34,7 @@ Project the FAA Part 107 overview on the screen. Cover the key points:
 - **Minimum age:** 16 years old (so 7th graders can start studying now and test the day they turn 16)
 - **Cost:** ~$175 for the exam
 - **Career impact:** Required for almost every drone job, agriculture, construction, real estate, emergency services, film, delivery
-- **The Irving ISD connection:** Students at Irving High can earn FAA Part 107 through the Drone Engineering pathway
+- **The Irving ISD connection:** FAA Part 107 is one of the industry-based certifications Irving ISD lists for the Engineering cluster, alongside Autodesk Fusion 360 and Autodesk CAD Inventor, and it is the credential the district's Drone Engineering program of study leads to (FYF p. 109: "What is Happening at My District?")
 
 Show one airspace map from the FAA's B4UFLY app so students see what "controlled airspace" looks like. DFW airport is surrounded by Class B airspace, drones cannot fly there without ATC permission.
 
@@ -64,6 +65,8 @@ Walk through every rule. Each student signs the bottom of the briefing acknowled
 
 Move the class to the cleared indoor flight space (or push desks to the walls). Mark a **takeoff zone** (1 ft x 1 ft tape square) for each team.
 
+**Time, Voice, Body:** post the three expectations before any controller is handed out. Voice 0 while the briefing is read and signed, Voice 1 for coach talk during a flight, and Voice 3 only for the "drone up" call every pilot owes the room. Run a visible countdown for each rotation, and state that the drone sits inside its taped square between turns while spare batteries and controllers stay on the supply table.
+
 **Phase 1: Demonstration (3 min)**
 
 Project a short DJI Education video showing the basic 3-control method (throttle, yaw, pitch/roll) OR demonstrate live with a teacher controller. Cover only:
@@ -72,6 +75,8 @@ Project a short DJI Education video showing the basic 3-control method (throttle
 - **Landing:** Pull throttle gently down to the ground
 
 Do NOT teach turning, flips, or advanced moves today. The point of Day 3 is the basics.
+
+**Chunking:** teach the three controls one at a time and say what each one is for before you show it. Close each chunk with a thumbs check before releasing the next. Whichever control draws the most thumbs down becomes a 3 minute re-teach at the start of Day 4.
 
 **Phase 2: Team Rotations (15 min)**
 

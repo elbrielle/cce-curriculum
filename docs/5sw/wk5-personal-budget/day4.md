@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Complete one financial literacy module from NGPF, EverFi, or Practical Money Skills; identify methods for paying for postsecondary education (FAFSA, scholarships, grants, work-study) |
 | **TEKS** | d(5)(D), d(3)(C) |
+| **5E Phases** | Engage: Warm-Up · Explore: Financial literacy module · Explain: Paying for college and FAFSA · Evaluate: Exit Ticket |
 | **Deliverable** | Completed NGPF/EverFi module + Paying for College notes sheet |
 | **Materials** | Chromebooks, NGPF Spending and Saving unit OR EverFi FutureSmart module OR Practical Money Skills budgeting game, printed Paying for College notes sheet, projector |
 
@@ -54,7 +55,7 @@ After the module, students write 2-3 sentences on their notes sheet capturing th
 
 **Source:** Scope and sequence d(3)(C) + federalstudentaid.gov
 
-Transition: "The H&L budgeting work and financial literacy module covered what life costs AFTER you start your career. But there is also a cost BEFORE, the cost of education and training. Let us talk about how you pay for it."
+Bridge from the module to the second cost. Days 1 through 3 priced what life costs after the career starts. The Rung 3 pages students used on Day 1 also named an education or training level and how long it takes to reach, and that preparation has a price of its own that arrives first. This activity is how that price gets paid.
 
 Walk through the four primary ways to pay for postsecondary education (college, technical school, apprenticeship):
 
@@ -79,7 +80,7 @@ Walk through the four primary ways to pay for postsecondary education (college, 
    - Federal program lets you earn money during school to cover expenses
    - Also accessed through FAFSA
 
-Students take notes on the Paying for College notes sheet. Emphasize: "Apprenticeships are a fifth option. You get paid instead of paying. That is why construction trades are so attractive for students who want to avoid debt."
+Students take notes on the Paying for College notes sheet. Three more sources belong on the sheet next to those four. **Apprenticeships** pay the student instead of the student paying, which is why construction trades attract students who want to avoid debt. **College savings** is money a family sets aside years ahead of the bill, usually in a 529 account. **Employer tuition benefits** are part of a job's pay that never shows up in the paycheck, where a company covers some or all of an employee's schooling.
 
 **DOK 2:** How would you compare the financial impact of paying for college with scholarships versus paying with student loans? *(d(3)(C))*
 
@@ -115,4 +116,5 @@ Scenario: My cousin is a HS senior accepted to UT Arlington. Their family cannot
 
 - **Support:** Pre-select Option C (game-based Practical Money Skills) for students who struggle with reading-heavy content. Games are more accessible and still cover the core d(5)(D) concepts.
 - **Extension:** Research one specific scholarship available to Irving ISD students or DFW-area students. Report back on: dollar amount, application deadline, and eligibility requirements.
+- **Extension (preview of next week):** Read the "Flip This House" upgrade table (FYF p. 239), where a $25,000 renovation budget has to be spent on upgrades that each carry a cost and an estimated value increase. Pick the three upgrades with the strongest return and be ready to defend them in Week 6.
 - **ELL:** NGPF and EverFi have Spanish versions of some content. If available, assign the Spanish version. Pre-teach: Savings = Ahorros, Investment = Inversión, Scholarship = Beca, Grant = Subvención, FAFSA = Solicitud gratuita de ayuda federal para estudiantes.

@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Analyze DFW real estate labor market trends with labor data; connect trends to career opportunities; update the H&L Career Plan with 5th Six Weeks exploration data |
 | **TEKS** | d(5)(A) |
+| **5E Phases** | Engage: Warm-Up · Explain: Modeled market data reading · Explore: Market Trends Analysis notes · Extend: Career Plan update across the six weeks · Evaluate: Exit Ticket |
 | **Deliverable** | Market Trends Analysis notes + updated H&L Career Plan reflecting 5SW exploration |
-| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 16 Career Plan template), BLS Real Estate OOH page, Texas Real Estate Research Center, Zillow or Realtor.com (projected), printed Market Trends Analysis notes sheet, projector |
+| **Materials** | Chromebooks, H&L accounts (Career Plan), BLS Real Estate OOH page, Texas Real Estate Research Center, Zillow or Realtor.com (projected), printed Market Trends Analysis notes sheet, projector |
 
 ---
 
@@ -63,15 +64,17 @@ Students also answer:
 
 ## Activity 3: H&L Career Plan Update — End of 5SW (12 min)
 
-**Source:** H&L Workbook Ch 16: My Next Steps, "My Career and Course Plan"
+> [H&L PLATFORM] Students open the Hats & Ladders app and update their Career Plan. The app path is the one they used on the cluster's App Exploration page (FYF p. 254): Clusters, then the Business, Marketing, and Finance cluster, then favorite the Hats worth keeping before moving to the Career Plan.
 
-Direct students to open H&L and update their Career Plan to reflect everything they explored in the 5th Six Weeks:
+The Career Plan is the app-side companion to the workbook's Capstone ladder. Students already built the high school plan on Rung 7 (FYF pp. 294-296: "Rung 7: High School Plan"), where they listed the classes, clubs, and programs that move them toward a goal. Today's update is the check on that plan: after six weeks of Architecture, Construction, Trades, Budgeting, and Real Estate, does the plan still point where they want to go?
+
+Students update their Career Plan to reflect everything they explored in the 5th Six Weeks:
 
 - **Architecture** (Wk1)
 - **Civil Engineering** (Wk2)
 - **Construction** (Wk3)
 - **Skilled Trades: HVAC/Electrical/Plumbing/Welding** (Wk4)
-- **Personal Budgeting / Lifestyle Snapshot** (Wk5)
+- **Personal Budgeting** (Wk5)
 - **Real Estate** (Wk6)
 
 Students should:

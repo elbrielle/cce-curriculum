@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Download or print the H&L Career Plan; personalize the bilingual Family Career Plan Letter; identify one college-credit opportunity (AP or dual credit) within the chosen pathway |
 | **TEKS** | d(3)(D), d(3)(B) |
+| **5E Phases** | Engage: Warm-Up · Explore: Career Plan download · Explain: Family Career Plan Letter · Extend: AP and dual-credit research · Evaluate: Exit Ticket |
 | **Deliverable** | Personalized bilingual Family Career Plan Letter with student signature, ready to take home for family review |
 | **Materials** | Chromebooks, H&L accounts, printed bilingual Family Career Plan Letter (1 per student), College For All Texans access, projector |
 
@@ -24,12 +25,12 @@ Take 3-4 student responses honestly. Some students will say their families do no
 
 **Source:** H&L App. Career Plan export feature
 
-> [H&L PLATFORM] Direct students to navigate to their H&L Career Plan and use the **download/export** feature to save their plan as a PDF or printout. Confirm with your H&L district admin which export option is enabled, most district setups support a PDF download from the Career Plan dashboard. If the app does not support direct export, students take screenshots of their Course Planner from Day 2, their Climber Profile (RIASEC + favorites), and their pathway recommendations, then combine them into one document.
+> [H&L PLATFORM] Direct students to navigate to their H&L Career Plan and use the **download/export** feature to save their plan as a PDF or printout. Confirm with your H&L district admin which export option is enabled, most district setups support a PDF download from the Career Plan dashboard. If the app does not support direct export, students take screenshots of their Course Planner from Day 2, their Climber Profile (core personality type + favorites), and their pathway recommendations, then combine them into one document.
 
 Students complete one of three options based on what their account supports:
 1. **PDF download:** save to drive, then print or share with family
 2. **Screenshot bundle:** capture 3-4 key H&L pages and combine
-3. **Workbook backup:** use the H&L workbook Ch 16 "My Career and Course Plan" template (p. 268) filled in by hand
+3. **Workbook backup:** hand-fill the planning tables on FYF pp. 294-296 ("Rung 7: High School Plan") and photocopy them
 
 The point is that something physical or digital exists to take home tonight.
 
@@ -47,7 +48,7 @@ Distribute the printed bilingual Family Career Plan Letter. The letter has two c
 - **Greeting:** "Dear family of _____,"
 - **Course context:** A 2-3 sentence description of what the CCE class has been doing this year
 - **Student personalization section:** Student writes
-    - Their RIASEC type
+    - Their core personality type
     - Their top 3 favorited careers
     - Their chosen pathway and the Irving ISD high school that offers it
     - One thing they learned about themselves this year
@@ -79,7 +80,11 @@ Each student writes on the back of their Family Letter:
 
 This is the d(3)(B) coverage for the week. Students who finish early can browse College For All Texans for financial aid options.
 
+The workbook has a table built for exactly this. "Programs & Opportunities" (FYF p. 295: "Rung 7: High School Plan") lists internships, certifications, dual enrollment, and career-focused programs, and pairs each one with a "How This Can Help Me Reach My Goals" column. Students working from the workbook copy their AP and dual-credit finds straight into that table.
+
 **DOK 2:** How would you compare AP courses and dual credit courses? What are the advantages of each?
+
+**Think-Pair-Share:** 30 seconds of silent Think, then Partner A for 30 seconds and Partner B for 30 seconds, then two pairs share. Post two stems at different levels: "AP is better when _____, and dual credit is better when _____" and "Both save money because _____, but they are graded differently because _____." Listen for who can name what each option actually earns, an exam score versus college hours on a transcript, and pick the share-out pairs from what you heard.
 
 ---
 
@@ -109,6 +114,6 @@ Step 3: ONE AP or dual-credit course available in my pathway (from today's Colle
 
 ## Differentiation
 
-- **Support:** Pre-filled Family Letter with the student's RIASEC type and top pathway already filled in by the teacher (using Day 1-2 data). Student only personalizes the open-response section.
+- **Support:** Pre-filled Family Letter with the student's core personality type and top pathway already filled in by the teacher (using Day 1-2 data). Student only personalizes the open-response section.
 - **Extension:** Write a second letter to a counselor or advisor at the high school the student plans to attend. Ask one specific question about the pathway (course availability, application process, etc.).
 - **ELL:** The bilingual letter format itself supports families whose primary language is Spanish. For students from other language backgrounds, work with the district translation office for additional language versions. Pre-teach: Family = Familia, Plan = Plan, Pathway = Trayectoria, Counselor = Consejero.

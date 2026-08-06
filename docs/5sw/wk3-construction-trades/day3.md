@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Classify 5 construction careers as high-skill, high-wage, and/or high-demand using labor market data from H&L and BLS |
 | **TEKS** | d(5)(B), d(5)(A), d(2)(A) |
+| **5E Phases** | Engage: Warm-Up · Explain: Classification terms and worked example · Explore: Classification worksheet · Explain: Share out · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Construction Career Classification worksheet (5 careers with evidence) |
 | **Materials** | Chromebooks, H&L accounts, BLS OOH, printed Construction Career Classification worksheet, projector |
 
@@ -61,7 +62,7 @@ For each career, they fill in:
 Students also pick one career and write a **3-sentence justification** that classifies it with cited evidence. Example format: *"A Construction Manager in DFW has a median salary of $98,000 (H&L), well above the $50,000 high-wage threshold. BLS projects 8% job growth over the next 10 years, faster than average. This career is all three: high-skill, high-wage, and high-demand."*
 
 !!! tip "Facilitation Tip"
-    Some students will leave boxes blank if they cannot find data. Circulate and prompt: "What did you find on BLS? If you cannot find a number, estimate, but explain your reasoning." This pushes them to cite sources rather than guess.
+    Some students will leave boxes blank if they cannot find data. Walk the same pathway three times with one target per lap: at minute 10 every salary cell carries a source, at minute 20 every career has a BLS growth percentage, and on the last lap the written justification names at least one number. Prompt for the source rather than the answer: "What did you find on BLS? If you cannot find a number, estimate, but explain your reasoning." If more than a handful of students are still missing the growth percentage at the second lap, pivot and reproject the BLS Job Outlook tab for the whole room instead of repeating the search desk by desk.
 
 ---
 

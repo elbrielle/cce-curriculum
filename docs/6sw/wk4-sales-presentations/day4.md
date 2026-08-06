@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Identify appropriate professional appearance for an interview; deliver a paired practice run of the Day 5 career presentation; receive and apply Two Stars and a Wish feedback |
 | **TEKS** | d(6)(B), d(4)(C) |
+| **5E Phases** | Engage: Warm-Up · Explain: The six appearance rules · Extend: Appearance Guide for three interview types · Explore: Three paired practice rounds · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Interview Appearance Guide + practice presentation with peer feedback notes |
-| **Materials** | Chromebooks, printed Interview Appearance Guide, students' Day 3 presentation outlines, Career Presentation Rubric, timer, projector |
+| **Materials** | Chromebooks, printed Interview Appearance Guide, students' Day 3 presentation outlines, Career Presentation Rubric, *Find Your Future* workbook p. 299, timer, projector |
 
 ---
 
@@ -16,15 +17,18 @@
 
 **WARM-UP: You have a job interview tomorrow. What would you wear? What would you NOT wear? Be specific.**
 
-Take 4-5 student responses. Bridge to today: there are real rules for professional appearance and most students don't know them. The H&L workbook (Ch 11) has clear guidelines that work for any first interview.
+Take 4-5 student responses. Bridge to today: on Day 2 the class answered the workbook's question about why a strong first impression matters in sales. An interview is the same problem with higher stakes, and most students have never been told the rules. Today the class writes them down.
 
 ---
 
 ## Activity 1: Interview Appearance Guide (15 min)
 
-**Source:** H&L Workbook Ch 11, p. 179, "Dress for Success" (referenced this week, full activity in Wk 5)
+**Source:** CCE Interview Appearance Guide (no workbook page)
 
-Walk through the workbook's "Dress for Success" tips on the projector. The workbook (Ch 11, p. 179) lists six rules:
+!!! note "This is CCE material, not a workbook activity"
+    The *Find Your Future* workbook has no section on professional appearance or interview dress anywhere in its 300 pages. The six rules below and the Interview Appearance Guide are CCE-authored, and they are the only place this course teaches d(6)(B). Do not send students looking for a page number.
+
+Walk the six rules on the projector:
 
 1. **Dress one level above the job:** If the job is casual, wear business-casual (collared shirt + slacks or nice jeans). If the job is more formal, consider a button-down + dress pants or a blazer.
 2. **Stick to neutral or classic colors:** Navy, gray, black, white, beige look professional.
@@ -49,9 +53,13 @@ Students complete the guide individually. After 8 minutes, lead a quick discussi
 
 ## Activity 2: Paired Practice Presentations (28 min)
 
-**Source:** Day 3 outline + Career Presentation Rubric
+**Source:** Day 3 outline + Career Presentation Rubric + (FYF p. 299: "Prepare & Present")
 
 Pair students up. Each pair has 25 minutes across three rounds for practice runs.
+
+Post the workbook's four presentation tips where everyone can see them, because they are what partners listen for: speak clearly and at a steady pace, look up and engage with your audience, show confidence even if you feel nervous, and use your work to guide you rather than reading it word for word. Students meet this same checklist again when they build the Capstone.
+
+**Time, Voice, Body:** Set the three blocks before the first round starts. Voice 1 for the presenter and the partner response, Voice 0 for the 90-second fix window, a visible 3 minute countdown on screen for every run, and outlines face down on the desk so the practicing partner has to look up. Narrate the pairs who are meeting the expectation rather than correcting the ones who are not.
 
 **Round 1 (12 min total):**
 
@@ -72,11 +80,10 @@ Pair students up. Each pair has 25 minutes across three rounds for practice runs
 
 By the end of Day 4, every student has presented their full career talk TWICE and received feedback from TWO peers. They know what their weaknesses are and have practiced the fixes.
 
-!!! tip "Facilitation Tip"
-    Walk around with the rubric. Catch students who are talking but not presenting (no eye contact, reading from notes the whole time, not standing). Real-time correction: "Stop. Stand up. Try the intro again with eye contact." This kind of in-the-moment coaching is more useful than written feedback.
+**Active Monitoring:** Walk a fixed pathway three times, one lap per round, one target each. Round 1: all three body facts are present. Round 2: the fix the partner named actually landed in the talk. Round 3: eyes up and off the outline. Carry the Career Presentation Rubric on a clipboard and mark as you go. Have feedback ready before class for the two predictable problems, a presenter reading the outline word for word and a conclusion that stops without a personal fit statement. If more than a handful miss the round 1 target, reproject the three-fact structure to the whole room instead of repeating it pair by pair.
 
 !!! tip "Announce Day 5 format before students leave"
-    Tell students directly, out loud, two things today: (1) Friday's presentations are cut at 3:00, the same rule they saw enforced at Day 3 team pitches, now applied to individual students. No surprises. (2) Which Day 5 format you chose (whole-class, split groups, two-day bleed, or 90-second slots, see the Day 5 Activity 1 compression admonition). Students need both rules before they walk out so they can adjust their outline overnight if needed.
+    Tell students directly, out loud, two things today: (1) Friday's presentations are cut at 3:00, the rule announced on Day 3 and practiced against a visible timer today. No surprises. (2) Which Day 5 format you chose (whole-class, split groups, two-day bleed, or 90-second slots, see the Day 5 Activity 1 compression admonition). Students need both rules before they walk out so they can adjust their outline overnight if needed.
 
 **DOK 3:** What is the difference between READING a presentation and DELIVERING one? Name two specific differences in how the speaker behaves.
 

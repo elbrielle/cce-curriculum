@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Apply Engineering Design Process Phases 4-5 (Test + Iterate); navigate a drone through an obstacle course; track accuracy and time across 3 attempts; connect the experience to real UAS inspection missions |
 | **TEKS** | d(1)(C), d(4)(B) |
+| **5E Phases** | Engage: Warm-Up · Explain: Course setup and mission briefing · Explore: Three scored runs per pilot · Extend: Real UAS inspection careers · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Drone Navigation Course score sheet (3 runs per pilot) showing improvement across attempts |
 | **Materials** | Classroom drones, cones / chairs / tape targets for obstacle course setup, printed Drone Navigation Course score sheet, stopwatches, projector for course diagram |
 
@@ -57,6 +58,8 @@ Distribute the printed Drone Navigation Course score sheet. Each pilot gets 3 at
 
 After each run, the pilot reflects with their team for 30 seconds: "What worked? What will I do differently next time?" This is the iteration step, the heart of the EDP.
 
+**Active Monitoring:** walk a fixed pathway three times, one lap per run, each lap with a single target. Run 1 target is a clean takeoff inside the taped square. Run 2 target is the 5 second hover held over the checkpoint. Run 3 target is the inspection approach within 2 feet with no touch. Read the score sheets as you pass rather than watching the flight, and have the feedback ready for the two known errors: throttle pushed all the way up on takeoff, and a pilot steering left and right from their own view instead of the drone's. If more than a handful of teams miss the run 2 target, reproject the hover demonstration to the whole room instead of coaching it team by team.
+
 !!! tip "Facilitation Tip"
     The improvement from Run 1 to Run 3 is the entire point. Even pilots who fail all 3 runs usually fail differently each time, that is iteration. Celebrate the difference, not the absolute success.
 
@@ -101,7 +104,7 @@ Which quality matters MOST for THIS choice, and why is it the right one over the
 
    Why: ____________________________________________________________
 
-How does my answer connect to what I improved between my 3 LEGO ATC / drone runs? One sentence:
+How does my answer connect to what I improved between my 3 drone runs? One sentence:
 
    ___________________________________________________________________
 

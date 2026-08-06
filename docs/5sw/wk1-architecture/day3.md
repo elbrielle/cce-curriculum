@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Set up a TinkerCAD account; learn 5 core skills (drag, resize, align, group, hole); begin a building design challenge |
 | **TEKS** | d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explain: Five-skill builder on the projector · Explore: Sketch and build the design challenge · Evaluate: Exit Ticket |
 | **Deliverable** | Engineering notebook sketch of building design + TinkerCAD in progress (at minimum: 4 walls grouped together) |
-| **Materials** | Chromebooks, TinkerCAD accounts ([tinkercad.com](https://www.tinkercad.com)), projector, engineering notebooks (sketch on a fresh page dated and labeled "5SW Wk1 Architecture") |
+| **Materials** | Chromebooks, TinkerCAD accounts ([tinkercad.com](https://www.tinkercad.com)), projector, engineering notebooks (sketch on a fresh page dated and labeled "5SW Wk1 Architecture"), *Find Your Future* workbook pp. 180-181 and chart paper for the extension |
 
 ---
 
@@ -42,7 +43,7 @@ Verify all students have a blank workplane on screen before proceeding.
 
 ## Activity 2: Skill Builder — 5 Core TinkerCAD Skills (15 min)
 
-Teach each skill one at a time on the projector. Students follow along on their Chromebooks. After each skill, do a quick visual check before moving on.
+**Chunking:** Teach each skill one at a time on the projector, and say what the skill is for before you model it (resize makes a wall, hole makes a door or a window). Students follow along on their Chromebooks. Close each chunk with the thumbs check written into the skill below before releasing the next one. Note which skill draws the most thumbs down; that skill is the five minute re-teach at the start of Day 4.
 
 ### Skill 1: Drag a Shape
 - Open the **Shape panel** on the right → click and drag a **Box** shape onto the workplane
@@ -123,5 +124,5 @@ The design challenge specs:
 ## Differentiation
 
 - **Support:** Provide a pre-built TinkerCAD starter template with a basic rectangular floor plan (4 walls pre-grouped). Students focus on adding the roof and cutting holes rather than starting from scratch. Share via TinkerCAD's classroom feature.
-- **Extension:** Add interior walls to divide the building into rooms. Experiment with cylinder shapes for columns or rounded features.
+- **Extension:** **Powerskill: Tolerance for Ambiguity** (FYF pp. 180-181). Students who finish the sketch early pair up as the site foreman on a 3D-printed home. The client brief on page 180 is deliberately incomplete: two bedrooms on opposite sides, a living room and kitchen next to each other with no wall drawn between them, a roof mentioned but no shape given, no door or window count, and no word on whether the driveway is printed or added later. Partners fill the What We Know and What We Don't Know chart, draw a rough floor plan on chart paper anyway with a written note beside each guess ("assuming the front door is here"), then log at least two assumptions in the Step 3 table: unclear information, assumption made, why we made it. There is no perfect answer, and that is the skill. Students who prefer to stay in TinkerCAD add interior walls to divide the building into rooms or experiment with cylinder shapes for columns and rounded features.
 - **ELL:** Provide a bilingual TinkerCAD command reference card: Drag = Arrastrar, Resize = Cambiar tamaño, Align = Alinear, Group = Agrupar, Hole = Agujero, Workplane = Plano de trabajo.

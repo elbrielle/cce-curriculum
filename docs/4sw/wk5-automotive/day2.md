@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Understand what ASE certification is and how it works; complete the Apprenticeship vs. College comparison chart; recognize the apprenticeship pathway as a legitimate (and often better) alternative to a 4-year degree for trades careers |
 | **TEKS** | d(2)(A), d(3)(G) |
+| **5E Phases** | Engage: Warm-Up · Explore: ASE certification research · Explain: Apprenticeship vs. college chart and pair share · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Apprenticeship vs. College comparison chart with personal preference statement |
 | **Materials** | Chromebooks, ASE.com bookmarked, BLS Automotive Service Technicians page bookmarked, printed Apprenticeship vs. College comparison chart, projector |
 
@@ -15,6 +16,8 @@
 ## Warm-Up (5 min)
 
 **WARM-UP: Would you rather get paid while you learn a job, or pay tuition to go to college first and then start working? Write one sentence explaining your choice.**
+
+**Stop and Jot:** Give a 60-second time box with the prompt on screen and post two stems, "I would rather _____ because _____" and "The risk of my choice is _____." Read jots over shoulders and note how many students name a risk at all. If almost none do, front-load the Net Financial Position row in Activity 2 so the tradeoff lands before students commit to a side.
 
 Take 5-6 student responses. Most students reflexively pick "get paid while I learn" but cannot explain why people choose college instead. Bridge: today we are going to compare both pathways with real numbers so you can make this decision with eyes open.
 
@@ -30,7 +33,7 @@ Students open ASE.com and explore the certification categories. Project the ASE 
 
 - **What ASE is:** A nonprofit that creates and grades automotive certification exams used across the industry
 - **The exam structure:** Multiple-choice tests in specific specialty areas
-- **Specialty categories** (the workbook of ASE):
+- **Specialty categories** (the ASE test series):
     - Engine Repair (A1)
     - Brakes (A5)
     - Electrical / Electronic Systems (A6)
@@ -47,7 +50,7 @@ Students take notes on the printed chart with three quick questions:
 - How long does it take to become Master ASE certified?
 - What does the certification cost?
 
-The workbook source is the BLS Automotive Service Technicians page, students cross-check the salary impact of certification. BLS confirms that certifications are a key way technicians increase pay over a career.
+The cross-check source is the BLS Automotive Service Technicians page, where students verify the salary impact of certification. BLS confirms that certifications are a key way technicians increase pay over a career.
 
 ---
 

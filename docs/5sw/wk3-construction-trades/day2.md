@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Explain the apprenticeship pipeline (apprentice → journeyman → master); research the role of trade unions in construction; compare apprenticeship to the 4-year college path |
 | **TEKS** | d(3)(G), d(3)(H) |
+| **5E Phases** | Engage: Warm-Up · Explain: Apprenticeship pipeline · Explore: Trade union research · Explain: Partner union comparison · Evaluate: Exit Ticket |
 | **Deliverable** | Apprenticeship vs. College comparison chart + Union research notes (1 union) |
 | **Materials** | Chromebooks, printed Apprenticeship Pathway infographic, printed Apprenticeship vs. College comparison chart, projector |
 
@@ -22,7 +23,7 @@ Collect 2-3 responses. This frames the whole day. Students often assume college 
 
 ## Activity 1: The Apprenticeship Pipeline (15 min)
 
-Introduce the apprenticeship model using the projected infographic. Walk through each stage:
+Introduce the apprenticeship model using the projected infographic. **Chunking:** walk one stage at a time, say what the stage is for before the numbers go up, and close each stage with a quick check (thumbs, or one student restating the stage in their own words) before releasing the next one.
 
 1. **Apply:** Usually requires a high school diploma and a passing score on a basic aptitude test. Some unions have waiting lists.
 2. **Apprentice (2-5 years):** You are a paid employee who works on real job sites AND attends classroom training (usually evenings or once a week). Starting wage is typically 50% of journeyman wage. Pay increases as you complete phases.
@@ -72,13 +73,15 @@ For their chosen union, students collect:
 
 Students record findings on their Union Research Notes sheet.
 
+A union is not the only professional organization in this cluster. Irving ISD's own student organization for the construction and welding programs is **SkillsUSA** (FYF pp. 196-197: "What is Happening at My District?"), which runs the same idea at student level: you join, you build skills, you compete, and you meet employers.
+
 **DOK 3:** What is the value of union membership for a new construction apprentice? Name three specific benefits a union provides that a non-union job might not.
 
 ---
 
 ## Activity 3: Think-Pair-Share (7 min)
 
-Students pair up with a classmate who researched a DIFFERENT union and compare notes. Discussion questions:
+Students pair up with a classmate who researched a DIFFERENT union and compare notes. Run it as a timed **Think-Pair-Share:** 30 seconds of silent Think, then Partner A for 30 seconds, then Partner B for 30 seconds, then two pairs share with the whole class. Discussion questions:
 
 - What do both unions offer their members?
 - Which apprenticeship is longer?

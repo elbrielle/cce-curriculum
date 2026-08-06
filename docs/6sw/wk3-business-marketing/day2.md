@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Practice written communication through the H&L Powerskills Little Library activity; analyze how economic conditions affect marketing employment |
+| **Objectives** | Practice written communication by writing one Little Library social media post with a clear status, a call to action, and hashtags; analyze how economic conditions affect marketing employment |
 | **TEKS** | d(1)(C), d(5)(C) |
+| **5E Phases** | Engage: Warm-Up · Explore: Little Library post · Explain: Economic conditions chart and pair-share · Evaluate: Exit Ticket |
 | **Deliverable** | Little Library social media post + economic conditions analysis chart |
-| **Materials** | Chromebooks, H&L Workbook (Ch 5, pp. 76-77 Written Communication), printed Economic Conditions Analysis chart, BLS labor data, projector |
+| **Materials** | Chromebooks, *Find Your Future* workbook pp. 147-148, sticky notes, printed Economic Conditions Analysis chart, BLS labor data, projector |
 
 ---
 
@@ -22,22 +23,25 @@ Take 2-3 student responses. Most students will guess correctly that companies sp
 
 ## Activity 1: H&L Powerskill — Written Communication (20 min)
 
-**Source:** H&L Workbook Ch 5, pp. 76-77, "Powerskill: Written Communication"
+**Source:** (FYF pp. 147-148: "Powerskill: Written Communication")
 
-Introduce the activity using the workbook framing: *"Effective communication is all about sharing your thoughts clearly and understanding other people. At work, people share their ideas through emails, letters, reports, and even social media. When we communicate well, we can avoid confusion, get our point across, and make sure everyone's on the same page."*
+!!! note "This lesson is not in the Business chapter"
+    Written Communication sits in the Powerskills in Action chapter at pages 147-148, so students page backward from the Business chapter to reach it. Give the page number before they open the book.
 
-Read aloud the workbook's four tips for effective written communication (Ch 5, p. 76):
+Frame the skill from the workbook: communicating well means sharing your thoughts clearly and understanding other people, and at work that happens through emails, letters, reports, and social media. When it goes well, people avoid confusion and everyone is working from the same information.
+
+Post the workbook's four tips for effective written communication (FYF p. 148) where students can see them while they draft:
 
 1. **Put yourself in your reader's shoes:** what information do they need?
 2. **Be clear and concise**
 3. **Stay on topic:** avoid irrelevant information
 4. **Proofread** to catch typos and confusing sentences
 
-**The workbook scenario:** A town has several Little Libraries, small spaces where people can take, trade, or leave books for free. The community needs to know when libraries need more books, have too many, or have specific books available. The student has been tasked with creating a social media platform to keep the community informed.
+**The workbook scenario:** A town has several Little Libraries, small spaces where people can take, trade, or leave books for free. The community needs to know when a library needs more books, has too many, or has specific books available. The student has been given the job of running a social media account that keeps the community informed.
 
-**Step 1: Gather Information (3 min)**
+**Step 1: Brainstorm Ideas (3 min)**
 
-Students imagine they are responsible for a Little Library in their neighborhood. They answer in writing:
+Students imagine they are responsible for a Little Library in their neighborhood and brainstorm on sticky notes (FYF p. 147), then answer in writing:
 
 - Is your Little Library full, empty, or in need of specific types of books?
 - What do you want people to do (donate, take books, check out the selection)?
@@ -45,7 +49,7 @@ Students imagine they are responsible for a Little Library in their neighborhood
 
 **Step 2: Create a Social Media Post (15 min)**
 
-Using a digital tool (Canva, Google Drawings) or paper, students create one social media post. The workbook (Ch 5, p. 77) requires the post to:
+Using a digital tool (Canva, Google Drawings) or paper, students create one social media post. The workbook (FYF p. 148) requires the post to:
 
 - **Clearly explain the status** of the Little Library
 - **Include a call to action** (ask people to donate, visit, or take books)
@@ -53,7 +57,7 @@ Using a digital tool (Canva, Google Drawings) or paper, students create one soci
 
 The post should look like a real Instagram or TikTok post, not just a paragraph. Students can include a photo, an emoji, a strong headline, and the hashtags at the bottom.
 
-After designing, lead a quick partner discussion using the workbook's questions (Ch 5, p. 77):
+After designing, lead a quick partner discussion using the workbook's Class Discussion questions (FYF p. 148):
 
 - How did you make sure your message was clear?
 - Why is it important to be specific when asking for help or giving information?

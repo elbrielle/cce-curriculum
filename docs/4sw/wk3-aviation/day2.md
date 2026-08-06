@@ -1,14 +1,15 @@
-# Day 2: Aviation Hat Research + Military vs. Civilian Pathways
+# Day 2: Aviation Career Research + Military vs. Civilian Pathways
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the H&L Hat Research template (Ch 15) for one aviation career; compare military and civilian pathways into aviation using BLS and FAA data; identify JROTC as a high school entry point |
+| **Objectives** | Complete a career research worksheet for one aviation career; compare military and civilian pathways into aviation using BLS and FAA data; identify JROTC as a high school entry point |
 | **TEKS** | d(1)(C), d(3)(G) |
-| **Deliverable** | Completed Hat Research template (1 aviation career) + completed Military vs. Civilian Pathways comparison chart |
-| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 15, p. 256, Hat Research template), printed Hat Research worksheet, printed Military vs. Civilian Pathways comparison chart, FAA Careers and BLS aviation pages bookmarked, projector |
+| **5E Phases** | Engage: Warm-Up · Explore: Aviation career research · Explain: Pathway comparison and JROTC · Evaluate: Exit Ticket |
+| **Deliverable** | Completed career research worksheet (1 aviation career) + completed Military vs. Civilian Pathways comparison chart |
+| **Materials** | Chromebooks, H&L accounts, printed career research worksheet, printed Military vs. Civilian Pathways comparison chart, FAA Careers and BLS aviation pages bookmarked, *Find Your Future* workbook pp. 160-165 and Climber Notes deck "Flight Line Fixers" for the extension, projector |
 
 ---
 
@@ -20,13 +21,15 @@ Take 4-5 student responses. Some students will know veterans personally. Bridge:
 
 ---
 
-## Activity 1: H&L Hat Research — Aviation Career (20 min)
+## Activity 1: Aviation Career Research (20 min)
 
-**Source:** H&L Workbook Ch 15, p. 256, "Hat Research" template
+**Source:** CCE career research worksheet; app steps follow (FYF p. 170: "App Exploration")
 
-> [H&L PLATFORM] Students open H&L and navigate to the **Hat Finder**. The workbook (p. 256) instructs students to "go to the Hats & Ladders app and click on the Hat Finder. Explore Hats in the Transportation, Distribution & Logistics career cluster. Choose one Hat and fill out the information below." Students focus specifically on aviation Hats: Pilot, Air Traffic Controller, Aviation Mechanic, Flight Dispatcher, or Drone Operator.
+Pass out the printed career research worksheet. This is the same six-field format students learned in Wk0, so name the connection rather than reteaching it.
 
-Students complete the printed Hat Research template based on the workbook fields (p. 256):
+> [H&L PLATFORM] Students open the Hats & Ladders app, go to **Clusters**, click the **Transportation, Distribution, and Logistics Cluster**, and use the Hat Finder to return to a Hat from Day 1's browse. Today the choice is limited to aviation Hats: Pilot, Air Traffic Controller, Aviation Mechanic, Flight Dispatcher, or Drone Operator. Students pull each worksheet field directly from that Hat's profile in the app.
+
+Students complete the printed worksheet:
 
 | Field | What I Found |
 |---|---|
@@ -34,7 +37,7 @@ Students complete the printed Hat Research template based on the workbook fields
 | **What Interests You?** | Why this Hat caught my eye |
 | **Brief Job Description** | What this person does day-to-day |
 | **Education / Training Needed** | Degree? Certification? Military? Apprenticeship? |
-| **Average Salary (DFW if available)** | From H&L Hat data + cross-check on BLS |
+| **Average Salary (DFW if available)** | From the H&L Hat profile + cross-check on BLS |
 | **Tools, Equipment, or Skills Needed** | Specific gear and competencies |
 
 After filling in the H&L data, students cross-check the salary on the BLS pages bookmarked on their Chromebook:
@@ -83,7 +86,7 @@ Briefly introduce JROTC as the high school program that bridges middle school to
 
 ## Exit Ticket (2 min)
 
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day2-aviation-hat-research-military-vs-civilian-pathways.pdf):
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day2-aviation-career-research-military-vs-civilian-pathways.pdf):
 
 Use your Military vs. Civilian Pathways chart to fill in the matrix for becoming a PILOT.
 
@@ -102,5 +105,6 @@ Bottom line: Which of the THREE pathways would I personally consider FIRST, and 
 ## Differentiation
 
 - **Support:** Pre-filled comparison chart with the Time Commitment and Cost rows already filled in. Students only fill in Credentials, Advantages, and Tradeoffs. Pair with a peer for the BLS page navigation.
+- **Extension (from the workbook):** **Flight Line Fixers** (FYF pp. 160-165), the workbook's aircraft mechanic activity. Students who finish the research early read the "Common Aircraft Issues" chart on p. 160, inspect the five aircraft photos the teacher projects (Climber Notes: "Flight Line Fixers", slides 2-6) with sticky notes, complete the Inspection Report on p. 161 with at least three observed issues, rate the issue Low, Medium, or High on the Severity Guide (p. 162), and make the Minimum Equipment List go or no-go call on p. 163. Students who get that far compare their call with a partner's using the Step 6 check on p. 165.
 - **Extension:** Add a 4th column for the **Coast Guard Aviator pathway** (different from Air Force/Navy in significant ways). Or research the difference between Air Force and Navy pilot training pipelines.
 - **ELL:** Bilingual comparison chart with Spanish row labels. Pre-teach: Pilot = Piloto, Military = Militar, Civilian = Civil, Tuition = Matrícula, Service = Servicio. Allow Spanish responses on the personal preference statement.

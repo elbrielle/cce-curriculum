@@ -7,6 +7,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Write a complete cover letter for a sample job posting following business letter conventions |
 | **TEKS** | d(7)(B) |
+| **5E Phases** | Engage: Warm-Up · Explain: Teacher cover letter modeling · Explore: Student cover letter writing · Evaluate: Exit Ticket |
 | **Deliverable** | Completed cover letter (3 paragraphs + header + closing) |
 | **Materials** | Chromebooks, sample job posting (from Day 1), Cover Letter Template, projector |
 
@@ -87,11 +88,13 @@ Students open their Cover Letter Template (Google Doc or printed). They write th
 
 Each paragraph should be 3-5 sentences. NOT one giant paragraph.
 
-Teacher circulates with three checks:
+**Active Monitoring:** Walk the same pathway three times, one target per lap, and mark a clipboard as you go.
 
-1. **Is the FIRST sentence specific to this job?** (Names the position, says how they found it.) If vague, send back.
-2. **Are the QUALIFICATIONS connected to this specific job?** (Animal experience, organization, friendly attitude, for the vet clinic.) If generic, send back.
-3. **Does the CALL TO ACTION include contact info?** Many students forget this.
+1. **Lap 1 target, is the FIRST sentence specific to this job?** (Names the position, says how they found it.) If vague, send back.
+2. **Lap 2 target, are the QUALIFICATIONS connected to this specific job?** (Animal experience, organization, friendly attitude, for the vet clinic.) If generic, send back.
+3. **Lap 3 target, does the CALL TO ACTION include contact info?** Many students forget this.
+
+Pivot condition: if more than a handful of letters fail the lap 2 target, stop the room and reread the posting's qualifications line out loud instead of fixing letters desk by desk.
 
 By the end of class, every student has a complete cover letter saved in Google Docs.
 

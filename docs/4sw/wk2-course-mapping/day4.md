@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Work through eDynamic Learning Unit 6.2: Gaining Experience; identify three specific ways to start building career experience this year (before high school); connect experience-building to TSA and other Irving ISD student organizations |
 | **TEKS** | d(3)(F), d(8)(C) |
+| **5E Phases** | Engage: Warm-Up · Explore: eDynamic 6.2 experience types · Extend: Experience Action Plan · Evaluate: Exit Ticket |
 | **Deliverable** | eDynamic 6.2 progress + completed Experience Action Plan listing 3 specific actions the student will take this school year |
-| **Materials** | Chromebooks, eDynamic Learning Unit 6.2 access, printed Experience Action Plan template, projector |
+| **Materials** | Chromebooks, eDynamic Learning Unit 6.2 access, *Find Your Future* workbook pp. 292-293 ("Rung 6: Goal Setting"), printed Experience Action Plan template, projector |
 
 ---
 
@@ -42,11 +43,15 @@ As students work through the unit, they note on their Experience Action Plan:
 - One specific question the unit raised they want to learn more about
 
 !!! tip "Facilitation Tip"
-    Pace check at minute 15, circulate and verify every student has reached the CTSOs section. If students are still on the introduction, give them a private nudge. The CTSOs section is the most relevant for Irving ISD students.
+    **Active Monitoring:** pace check at minute 15. Walk the room with one target, every student has reached the CTSOs section. If students are still on the introduction, give them a private nudge. The CTSOs section is the most relevant for Irving ISD students, and it is the one the workbook's high school planning table asks about by name.
 
 ---
 
 ## Activity 2: Experience Action Plan (12 min)
+
+**Source:** (FYF pp. 292-293: "Rung 6: Goal Setting")
+
+The workbook calls this a short-term goal, the one a student can start on now through the end of 8th grade, and it names the quality bar on the page: a goal is **SMART** when it is Specific (it says exactly what you want to do), Measurable (you can tell whether you are making progress), Achievable (it is possible with effort and planning), Relevant (it fits your skills, time, and situation), and Time-Bound (it has a start date, an end date, or a deadline). Read the five words off the board before students write. The workbook's other two goals are already on this week's plate: the medium-term high school goal is the 4-year course map from Day 2, and the long-term goal is the postsecondary section of the Career Plan on Day 5.
 
 After eDynamic, students complete the printed Experience Action Plan. The template asks for **3 specific, time-bound actions** the student will take this school year:
 
@@ -63,7 +68,7 @@ After eDynamic, students complete the printed Experience Action Plan. The templa
 - "Build a personal Scratch coding project to add to my Climber Profile by the end of March" (connects to computer science pathway)
 - "Try out for the school robotics team next school year" (connects to robotics manufacturing pathway)
 
-The actions must be specific (not "do something with computers") and time-bound (not "someday"). Students who get stuck pair with a peer or with the teacher to refine their action.
+The actions must be specific (not "do something with computers") and time-bound (not "someday"). Students who get stuck pair with a peer or with the teacher to refine their action. Beside each action, students write the one person or resource they need to make it happen, which is the workbook's "Resources and Support I Need to Achieve My Goal" line. That field surfaces access problems early: a student who needs a ride, a signed form, or a family member's permission can be routed to the counselor now instead of in May.
 
 **DOK 3:** What conclusions can you draw about why participating in TSA, SkillsUSA, or other CTSOs builds experience that employers value? How does it look different from just listing classes on a resume?
 

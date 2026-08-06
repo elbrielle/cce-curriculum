@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Each team teaches the class about their assigned drone industry; classify a chosen drone career as high-skill / high-wage / high-demand with supporting evidence; favorite drone and engineering careers in H&L |
 | **TEKS** | d(1)(D), d(5)(B), d(2)(A) |
+| **5E Phases** | Engage: Warm-Up · Explain: Jigsaw presentations and listening grid · Extend: Career classification and TSA connection · Evaluate: Exit Ticket |
 | **Deliverable** | Team Jigsaw presentation (4 min) + individual Career Classification statement with evidence |
-| **Materials** | Chromebooks, H&L accounts, completed UAS Industry Research Templates from Day 2, printed Career Classification template, projector for team presentations |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook p. 110, completed UAS Industry Research Templates from Day 2, printed Career Classification template, projector for team presentations |
 
 ---
 
@@ -58,7 +59,9 @@ After hearing all 5 presentations, each student picks **one drone career** from 
 
 This is the d(5)(B) summative artifact. Students who can justify all three classifications with evidence demonstrate mastery.
 
-> [H&L PLATFORM] After completing the classification, students open H&L Climber Profile and **favorite at least 2 engineering or drone-related Hats**: Drone Engineer, Mechanical Engineer, Aerospace Engineer, Robotics Technician, Electrical Engineer, or Civil Engineer. The workbook (Ch 16: My Next Steps) treats favorite-tagging as the way the H&L app builds the student's Career Plan over time.
+> [H&L PLATFORM] After completing the classification, students return to the Engineering cluster in the Hats & Ladders app and confirm the App Exploration page is finished: at least 3 Hats rated and at least 1 pathway rated (FYF p. 110: "App Exploration"). Then they open the Climber Profile and **favorite at least 2 engineering or drone-related Hats**: Drone Engineer, Mechanical Engineer, Aerospace Engineer, Biomedical Engineer, CAD Technician, Robotics Technician, Electrical Engineer, or Civil Engineer.
+
+Name where the favorites go next. The Hats students favorite here are part of the pool they draw on at mid-year, when they pull their top Hats and favorite pathways straight from the app for the first Capstone reflection (FYF pp. 281-282: "Rung 1: Who You Are").
 
 **DOK 3:** What conclusions can you draw about how participating in TSA Drone Challenge builds real career skills? Name at least two specific skills from this week that connect.
 
@@ -66,7 +69,7 @@ This is the d(5)(B) summative artifact. Students who can justify all three class
 
 ## Activity 3: TSA Connection (5 min)
 
-For students who participate in TSA Drone Challenge (many IISD VILS students do), connect this week's learning directly to the competition. The Drone Challenge requires:
+The workbook's district pages name the Technology Student Association as one of the Engineering cluster's student organizations in Irving ISD, alongside SkillsUSA and VEX Robotics (FYF p. 109: "What is Happening at My District?"). For students who participate in TSA Drone Challenge (many IISD VILS students do), connect this week's learning directly to the competition. The Drone Challenge requires:
 - Flight precision (Day 4 navigation course)
 - Documentation of design decisions (Day 1 blueprint)
 - Knowledge of FAA regulations (Day 3 safety briefing)
@@ -98,7 +101,7 @@ Connect this career to THREE things:
 
    ___________________________________________________________________
 
-**3. Irving High's Drone Engineering pathway** (School of Aviation Sciences; leads to FAA Part 107)
+**3. Irving ISD's Drone Engineering pathway** (leads to the FAA Part 107 certification)
 
    Does this pathway lead DIRECTLY to my career, or is it a STEPPING STONE? Circle: DIRECT / STEPPING STONE. One sentence why:
 

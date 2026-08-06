@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Explore the Education & Training cluster in H&L; identify careers and pathways; design a creative learning space using the Community Classroom workbook activity |
+| **Objectives** | Explore the Education and Training cluster in the workbook and in the Hats & Ladders app; identify careers inside the cluster; design a learning space and a persuasive poster with a partner using the Community Classroom activity |
 | **TEKS** | d(1)(B), d(1)(C) |
-| **Deliverable** | Community Classroom learning space design + persuasive flyer for teachers |
-| **Materials** | Chromebooks, H&L accounts, H&L Workbook (Ch 6, pp. 91-94), printed flyer template, projector |
+| **5E Phases** | Engage: Warm-Up and Be the Decision Maker · Explore: App Exploration and Community Classroom design · Explain: Poster presentation to another pair · Evaluate: Exit Ticket |
+| **Deliverable** | Community Classroom learning space design + persuasive poster, presented to a second pair |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook printed pp. 213-215 and p. 220, sticky notes, printed poster template or chart paper, projector |
 
 ---
 
@@ -20,64 +21,59 @@ Take 3-4 student responses. Bridge to the idea that great teachers think careful
 
 ---
 
-## Activity 1: H&L Education & Training Cluster Tour (15 min)
+## Activity 1: Education and Training Cluster Tour (15 min)
 
-**Source:** H&L Workbook Ch 6: Education and Training (pp. 91-92)
+**Source:** (FYF p. 213: "Exploring the World of EDUCATION AND TRAINING") and (FYF p. 220: "App Exploration")
 
-Open by framing this as the LAST six weeks of the year, beginning with a personally significant cluster: Education and Training. These are the people who teach, counsel, lead, and support students like the ones in this room.
+Open by framing this as the last six weeks of the year, starting with the cluster students have spent more hours inside than any other. Read the chapter opener together. Careers in Education and Training are about helping people learn, grow, and build skills for the future, in classrooms and in workplaces both.
 
-Direct students to open Hats & Ladders and navigate to the Education and Training cluster. They should:
+The opener puts three Hats on the page: **Curator**, **Early Childhood Teacher**, and **Middle School Teacher**. Ask the page's own question, how does each of those roles support learners? Curator is the surprise on that list, and it is the fastest route into the point that this cluster runs well past the K-12 classroom.
 
-1. **Read the Making Connections prompt** from the workbook (Ch 6, p. 91): *"Talk about a time when someone taught you something new, maybe a teacher, a coach, or even a friend. What made that learning experience helpful or fun? How do you think educators and trainers can make learning exciting for others?"* Discuss briefly with a partner.
+1. **Think-Pair-Share:** Read the "Be the Decision Maker" prompt on page 213. Students are in charge of curriculum and learning at a school, and their job is to create a brand new class that every middle schooler must take. What is the class called, and what will students learn? Hold a silent 30 second Think, then time Partner A for 30 seconds and Partner B for 30 seconds. Two pairs share out, not one.
 2. **Watch the cluster tour video** in the H&L app. While watching, students use **Stop and Jot:** pause twice to write down one education career they did not know existed and one question they have.
-3. **Browse the two pathways** identified in the workbook: **Early Learning** ("Teach young children in preschool and early elementary school") and **Teaching and Training** ("Teach students of all ages, create learning materials, coach individuals or groups").
+3. **Work the first half of the App Exploration page** (p. 220) and record the answers in the workbook.
 
-> [H&L PLATFORM] From the workbook (Ch 6, p. 92): "Go to the Hats & Ladders app and click on the 'Education and Training' Cluster. Spend some time exploring the cluster and pathways." Students click Career Clusters from their dashboard, then scroll to Education and Training.
+> [H&L PLATFORM] Follow the App Exploration page (FYF p. 220). Open the Hats & Ladders app, go to Clusters, and click the Education and Training Cluster. Students watch the "Cluster Tour" video, click "Game Time" and play the game, then write down one thing they learned. Next they find 1 Hat that matches their personality or interests and 1 Hat that feels like it is NOT a fit, and say why for each. The rest of the page, the Pathway Possibilities step and the three Hat ratings, is held for Days 2 and 5. The chapter prints no pathway list, so the app is where students meet the pathways inside this cluster.
 
 !!! tip "Facilitation Tip"
-    If students assume "Education = Teacher Only," push back immediately. Show them the range: Instructional Designer (curriculum for online courses), School Counselor, Principal, Librarian, Early Childhood Educator, Corporate Trainer, ESL Teacher, Special Ed Teacher. The cluster is much bigger than they think.
+    If students assume "Education = Teacher Only," push back immediately. Show them the range: Instructional Designer (curriculum for online courses), School Counselor, Principal, Librarian, Curator, Early Childhood Educator, Corporate Trainer, ESL Teacher, Special Ed Teacher. The cluster is much bigger than they think.
 
 ---
 
-## Activity 2: H&L "Community Classroom" Activity (25 min)
+## Activity 2: Community Classroom — Design the Space and the Poster (25 min)
 
-**Source:** H&L Workbook Ch 6, pp. 92-94, "Community Classroom" (Career Climb activity)
+**Source:** (FYF pp. 214-215: "Community Classroom"), a Career Climb activity
 
-Introduce this activity by explaining the workbook scenario: *Students are the Director of Instruction at their school district. Their job is to design an exciting new learning space for third-grade science.* The space can be indoors or outdoors. Teachers can sign up to use it once a month.
+Read the framing on page 214. A great learning environment is not just the classroom walls. Outdoor classrooms let students connect with nature and learn hands-on in ways that are hard to do inside, and indoor spaces can be designed to be comfortable and full of resources like books and technology. Improving a learning space takes creativity and innovation, and that is the job students take today: they are in charge of curriculum at a school, and their goal is an exciting new learning space for third-grade students studying science.
 
-The space must support these learning goals (from the workbook):
+**Step 1: Learn the Requirements (3 min)**
 
-- Conducting experiments and investigations
-- Asking questions and making observations to find answers
-- Understanding how science connects to everyday life
+From page 214:
 
-**Student task (from workbook):**
+- The space can be indoors or outdoors
+- The focus is third-grade science
+- Teachers can sign up to use the space once a month
 
-**Step 1: Design Your Learning Space (12 min)**
+The space must meet three learning goals: conducting experiments and investigations, asking questions and making observations to find answers, and understanding how science connects to everyday life. The page also lists what third graders study, so the space has to hold all of it: lifecycle of bugs and plants, weather patterns, magnets, fossils, the scientific method, and writing a science report.
 
-Use a digital tool (Google Drawings, Canva, or notebook paper) to design the space. Students must answer these guiding questions in writing or with labels:
+**Step 2: Brainstorm Ideas (7 min)**
 
-- How will your space help students and teachers meet the learning goals?
-- What makes your learning space innovative and exciting?
-- How does this space differ from a typical classroom, and why is it BETTER for teaching science?
+Students pair up and brainstorm on sticky notes against the four questions on page 215: how the space helps students and teachers meet the learning goals, what makes it innovative and exciting, what supplies it needs, and how it differs from a typical classroom and why it is better for teaching science.
 
-Students may design indoor labs with stations, outdoor garden classrooms, makerspaces, greenhouse rooms, science discovery centers, or any creative concept that meets the goals.
+**Step 3: Create a Poster (11 min)**
 
-**Step 2: Create Your Persuasive Flyer (10 min)**
+With the same partner, pairs design a colorful poster that does three things: explains the learning space concept (what is it, and how will it work?), persuades teachers to use it (why should they be excited to bring their students here?), and clearly states which learning goals the space meets, in words or pictures. Canva, Google Drawings, chart paper, or the printed poster template all work.
 
-Now students design a flyer that does TWO things (from workbook):
+**Step 4: Present Your Work (4 min)**
 
-1. **Explains the learning space concept** (What is it, and how will it work?)
-2. **Persuades teachers to use it** (Why should they be excited to bring their students here?)
-
-The flyer must include any special features that will attract teachers and students. Students use Canva or the printed flyer template.
+Each pair presents its concept and poster to another pair, who play the third-grade teachers deciding whether to sign up. Presenters have to say what would convince a teacher to book the space.
 
 !!! tip "Facilitation Tip"
-    Project a sample flyer on the board for 30 seconds before students start to show them what "persuasive" looks like (catchy headline, key features bulleted, a call to action like "Sign up today!"). Do not over-model. They need to make their own design choices.
+    Project a sample poster on the board for 30 seconds before pairs start, to show what "persuasive" looks like (catchy headline, key features bulleted, a call to action like "Sign up today!"). Do not over-model. They need to make their own design choices.
 
 **DOK 2:** How would you compare your learning space to a typical classroom? Name 3 specific differences and explain why each one helps third-graders learn science better.
 
-**DELIVERABLE:** Learning space design (digital or paper) + persuasive teacher flyer. Both submitted to Google Classroom or the class binder.
+**DELIVERABLE:** Learning space design (digital or paper) + persuasive poster, presented to a second pair. Both submitted to Google Classroom or the class binder.
 
 ---
 
@@ -87,7 +83,7 @@ The flyer must include any special features that will attract teachers and stude
 
 Scenario: A DFW school district wants to create ONE new learning space AND ONE new training program for their staff. They have budget to hire ONE Education & Training professional (NOT a classroom teacher) to lead each.
 
-1. Which EDUCATION career would lead the STUDENT learning space? (Instructional Designer / School Counselor / Principal / Librarian / Special Ed Teacher / other)
+1. Which EDUCATION career would lead the STUDENT learning space? (Instructional Designer / School Counselor / Principal / Librarian / Curator / Special Ed Teacher / other)
 
    My pick: _______________________
 
@@ -107,6 +103,6 @@ Scenario: A DFW school district wants to create ONE new learning space AND ONE n
 
 ## Differentiation
 
-- **Support:** Provide a list of "design starters", outdoor garden, indoor lab with 4 stations, science discovery zone, greenhouse classroom, makerspace, so students can choose rather than start from scratch. Provide flyer template with headline + 3 bullet point sections pre-labeled.
-- **Extension (from workbook):** Students present their concept and flyer to a partner or the class as if the partner is a third-grade teacher. They must convince the partner to sign up.
-- **ELL:** Pre-teach: Learning Space = Espacio de aprendizaje, Classroom = Salón de clases, Outdoor = Al aire libre, Experiment = Experimento. The design activity is highly visual and accessible for all language levels. Provide bilingual sentence stems for the flyer.
+- **Support:** Provide a list of "design starters", outdoor garden, indoor lab with 4 stations, science discovery zone, greenhouse classroom, makerspace, so pairs can choose rather than start from scratch. Provide a poster template with headline + 3 bullet point sections pre-labeled.
+- **Extension:** Pairs who finish early take the workbook's Class Discussion questions (p. 215) to the pair that reviewed their poster: what kinds of feedback would you want before opening the space, and how can a learning space encourage curiosity and creativity? They then revise one feature of the design based on the answer.
+- **ELL:** Pre-teach: Learning Space = Espacio de aprendizaje, Classroom = Salón de clases, Outdoor = Al aire libre, Experiment = Experimento. The design activity is highly visual and accessible for all language levels. Provide bilingual sentence stems for the poster.

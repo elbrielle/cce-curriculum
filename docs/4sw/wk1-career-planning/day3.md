@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the Xello "Quick Sims: The Real Game" simulation; track financial decisions made during the simulation; compare lifestyle desires to career salary realities |
+| **Objectives** | Complete the Xello "Quick Sims: The Real Game" simulation; track financial decisions made during the simulation; complete Rung 3 of the Capstone ladder for the Day 2 career goal; compare lifestyle desires to career salary realities |
 | **TEKS** | d(5)(D), d(8)(A) |
-| **Deliverable** | Completed Real Game decision log showing all major lifestyle choices and the running budget impact |
-| **Materials** | Chromebooks, Xello student accounts, printed Real Game decision log (1 per student), projector |
+| **5E Phases** | Engage: Warm-Up · Explore: Real Game simulation and decision log · Extend: Rung 3 Career Deep Dive for the student's own career goal · Explain: Career vs. lifestyle debrief · Evaluate: Exit Ticket |
+| **Deliverable** | Completed Real Game decision log showing all major lifestyle choices and the running budget impact + completed Rung 3 pages |
+| **Materials** | Chromebooks, Xello student accounts, *Find Your Future* workbook pp. 285-286, printed Real Game decision log (1 per student), projector |
 
 ---
 
@@ -49,6 +50,18 @@ The decision log is critical. Without it, the simulation becomes a video game st
 !!! note "Common Misstep"
     Students will pick the cheapest option for everything to "win" the simulation. Stop the room at minute 15 and remind them: this is not a game with a winner. The point is to see the consequences of realistic choices, not to maximize savings.
 
+**Rung 3 as students finish.** The Sim hands students a salary. Rung 3 asks them to find their own (FYF pp. 285-286: "Rung 3: Career Deep Dive"). As each student finishes the simulation, they open pages 285-286 and complete the deep dive for the career goal they named on Rung 2 yesterday:
+
+- **Education or Training Required:** check one of high school diploma, trade or technical school, associate's degree, bachelor's degree, master's degree or higher, or other
+- **Special certifications, licenses, or training needed**
+- **About how long it takes to prepare for this career**
+- **Salary and Outlook:** estimated starting salary, national average, average in your area, and whether the field is growing, stable, or declining
+
+Numbers come from the Hats & Ladders Hat page, BLS, and the app's Career Plan. The Skills Check on page 286 is Activity 2.
+
+!!! tip "Facilitation Tip"
+    Rung 3 is one of the three rungs this week has to protect if a testing day eats a period. If the simulation is running long, cut the decision log to the three categories named in Support rather than cutting Rung 3. The salary numbers on page 286 are the ones 5SW's budget week builds a full monthly budget from, and 6SW pulls into the finished ladder.
+
 ---
 
 ## Activity 2: Debrief — Career vs. Lifestyle (8 min)
@@ -59,8 +72,11 @@ After students complete the Sim, run a quick whole-class debrief. Ask:
 2. Who had to give up something they really wanted?
 3. Who picked an expensive lifestyle and could afford it? What career did you have?
 4. Who picked a cheap lifestyle on purpose? Why?
+5. How does the Sim's salary compare to the starting salary you just wrote on Rung 3 for your own career goal?
 
 The pattern that almost always emerges: students who picked a high-paying career could afford their lifestyle; students who picked a meaningful-but-lower-paying career could not. Surface this without judging, both choices are valid in real life. The point is to make the tradeoff visible.
+
+**Stop and Jot:** Close the debrief with the Skills Check on page 286. Give students 3 minutes and the three lines the workbook prints: skills this career might need, skills I already have, and skills I will need to build. Post a stem for the third line, "A skill I will need to build is _____, and I can start by _____." Read the third line over shoulders. Whichever skill shows up most across the room is the one to name again on Day 5 when students write their mid-year update.
 
 **DOK 3:** What conclusions can you draw about the relationship between the career you want and the lifestyle you can afford? Did the simulation change your thinking about your top career from yesterday?
 
@@ -89,12 +105,12 @@ Which QUALITY does my choice require MOST, and why is it the right quality for t
 
    Why: ____________________________________________________________
 
-Submit your Real Game decision log with this ticket.
+Submit your Real Game decision log and your Rung 3 pages with this ticket.
 
 ---
 
 ## Differentiation
 
 - **Support:** Pre-print the decision log with the categories already filled in. Students only have to add their choices and the dollar amounts. For students who struggle with budgeting math, pair them with a partner who tracks the running total while they make choices.
-- **Extension:** After completing the Sim once, restart it with a different career (one that pays significantly less or more). Compare the two budget outcomes side by side. Which lifestyle was more sustainable?
-- **ELL:** Xello includes Spanish-language interface options, confirm with your district admin and direct ESL students to the language toggle if available. Pre-teach: Budget = Presupuesto, Salary = Salario, Expense = Gasto, Savings = Ahorros, Rent = Alquiler.
+- **Extension:** After completing the Sim once, restart it with a different career (one that pays significantly less or more). Compare the two budget outcomes side by side. Which lifestyle was more sustainable? Then check the Rung 3 outlook box against BLS. Is the field growing, stable, or declining, and does that change the comparison?
+- **ELL:** Xello includes Spanish-language interface options, confirm with your district admin and direct ESL students to the language toggle if available. Pre-teach: Budget = Presupuesto, Salary = Salario, Expense = Gasto, Savings = Ahorros, Rent = Alquiler, Training = Capacitación. Rung 3's education box is a checkbox list, so students can complete it before writing anything in prose.

@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Deliver a 2-minute real estate career "elevator pitch"; complete a 5th Six Weeks reflection covering all 6 weeks; preview the final 6th Six Weeks |
 | **TEKS** | d(4)(C), d(5)(A), d(5)(D) |
+| **5E Phases** | Engage: Warm-Up · Explain: Career pitch build and delivery · Extend: Six-weeks reflection and cross-cluster ranking · Evaluate: Exit Ticket |
 | **Deliverable** | Real estate elevator pitch (oral or written) + 5SW reflection journal entry |
-| **Materials** | Chromebooks, H&L accounts, students' Week 1-6 deliverables (budget, pitch, research), printed 5SW Reflection journal template, projector |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook p. 299 (presentation tips) and pp. 231-233 (extension), students' Week 1-6 deliverables (budget, pitch, research), printed 5SW Reflection journal template, projector |
 
 ---
 
@@ -16,13 +17,13 @@
 
 **WARM-UP: Over the past 6 weeks you explored Architecture, Engineering, Construction, Trades, Budgeting, and Real Estate. Which week was your favorite and why?**
 
-Quick share. No wrong answers — this is a genuine reflection moment. Students often surprise themselves by favoring a topic they initially dismissed (budgeting or trades, usually).
+Quick share. No wrong answers, this is a genuine reflection moment. Students often surprise themselves by favoring a topic they initially dismissed (budgeting or trades, usually).
 
 ---
 
 ## Activity 1: Real Estate Elevator Pitch (20 min)
 
-**Source:** Scope and sequence d(4)(C): oral professional presentation + Ch 3 Power Pitch model
+**Source:** CCE-authored pitch, with delivery coached from (FYF p. 299: "Prepare & Present")
 
 Frame the activity: "Today you are a career counselor. Your job is to convince an undecided student that real estate is a great career option. You have 2 minutes. Sell the career."
 
@@ -30,15 +31,17 @@ Students build a **2-minute pitch** using the data they collected this week. Goo
 
 - **A hook:** "Did you know a single home sale in DFW can earn an agent $10,000 in commission?"
 - **Earning potential:** specific numbers from their Day 2 commission worksheet
-- **Licensing pathway:** TREC requirements and how MacArthur High School's Real Estate pathway prepares students
+- **Licensing pathway:** TREC requirements and how MacArthur's Real Estate Marketing pathway prepares students
 - **Entrepreneurship angle:** you are your own boss, build a personal brand, unlimited earning potential
 - **Market demand:** DFW is one of the fastest-growing real estate markets in the country
 - **Personal angle:** who is this career best for? (People who are outgoing, comfortable with variable income, self-motivated)
 
 Students practice silently or with a partner for 5 minutes, then volunteer to present to the class. Not every student needs to present, the goal is the practice. Allow written pitches for students uncomfortable with oral presentation.
 
+Post the workbook's four presentation tips before the first pitch (FYF p. 299: "Prepare & Present"): speak clearly and at a steady pace, look up and engage the audience, show confidence even when nervous, and use your notes to guide you rather than reading them word for word. Students meet these tips again with the 30-second sales pitch in the 6th Six Weeks (FYF pp. 241-243) and use them for real at the Capstone presentation.
+
 !!! tip "Facilitation Tip"
-    Project a visible 2-min timer during presentations. The 2-min cap mirrors what a real estate agent does when pitching a client at a networking event. Presentation is opt-in this week (see Activity 1 body): if a student is still wrapping at 2 min, let them finish the sentence.
+    **Time, Voice, Body:** project a visible 2-min timer during presentations, hold Voice 1 for the five minutes of partner practice, Voice 0 while a presenter sets up, and Voice 3 for the presenter. Say where the presenter stands and where written pitches go before the first pitch. The 2-min cap mirrors what a real estate agent does when pitching a client at a networking event. Presentation is opt-in this week (see Activity 1 body): if a student is still wrapping at 2 min, let them finish the sentence.
 
 **DOK 3:** What makes a career pitch convincing? Is it more about the data (salary, demand) or more about the lifestyle (freedom, variety)? Which appeals to YOU more?
 
@@ -69,7 +72,7 @@ List each week's topic and one thing I learned:
 ### Section 5: Career Fit Ranking
 Rank the top 2-5 careers they are currently considering across ALL clusters explored this year. For each, note: cluster, education timeline, and estimated DFW salary. Two strongly-ranked careers with real rationale are better than five shallow ranks, encourage depth over volume.
 
-**DOK 4:** Looking at all the career clusters you have explored this year, rank 2-5 careers by personal fit. For each, explain what makes it a good fit based on your RIASEC type, salary expectations, education preferences, and personal interests.
+**DOK 4:** Looking at all the career clusters you have explored this year, rank 2-5 careers by personal fit. For each, explain what makes it a good fit based on your core personality type, salary expectations, education preferences, and personal interests.
 
 ---
 
@@ -115,5 +118,5 @@ Connect this career to THREE things:
 ## Differentiation
 
 - **Support:** Allow students uncomfortable with the oral pitch to submit a written pitch. The writing still practices d(4)(C) because oral and written communication skills transfer.
-- **Extension:** Instead of pitching real estate, pitch TWO careers from different clusters that a student could realistically pursue together (e.g., Electrician + Real Estate Investor). Explain how the two careers complement each other.
+- **Extension:** Run "Powerskill: Visual Storytelling" (FYF pp. 231-233). Partners work as the social media marketing team for the workbook's listed property in the Oakridge neighborhood: read the property and neighborhood details, fill the strengths and challenges table by category (Interior, Outdoor Space, Neighborhood, Location), design three to five posts that tell one story instead of listing features, then write the full listing with a strong hook and a call to action. Or, instead of pitching real estate, pitch TWO careers from different clusters that a student could realistically pursue together (e.g., Electrician + Real Estate Investor) and explain how they complement each other.
 - **ELL:** Pitch may be in English, Spanish, or bilingual. Provide bilingual sentence starters: *"A real estate career offers _____ (Una carrera en bienes raíces ofrece _____)."*

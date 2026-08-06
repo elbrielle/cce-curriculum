@@ -5,10 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Create a Game Design Document (GDD) in a team using assigned roles; identify the steps of an effective job search; begin eDynamic Unit 8.2 |
+| **Objectives** | Create a Game Design Document (GDD) in a studio team with named roles; pitch the game to another team; identify the steps of an effective job search; begin eDynamic Unit 8.2 |
 | **TEKS** | d(1)(C), d(6)(A) |
-| **Deliverable** | Group Game Design Document + 4-step job search notes |
-| **Materials** | Chromebooks, H&L Workbook (Ch 4, pp. 60-62 Game On!), eDynamic Learning Unit 8.2 access, projector |
+| **5E Phases** | Engage: Warm-Up · Explore: Game Design Document build · Explain: Team pitches and feedback · Extend: Job search steps and eDynamic 8.2 · Evaluate: Exit Ticket |
+| **Deliverable** | Group Game Design Document + team pitch + 4-step job search notes |
+| **Materials** | Chromebooks, *Find Your Future* workbook pp. 268-269, eDynamic Learning Unit 8.2 access, projector |
 
 ---
 
@@ -20,29 +21,28 @@ Take 3-4 student responses. Most students name only "designer" or "coder." Bridg
 
 ---
 
-## Activity 1: H&L "Game On!" Activity (25 min)
+## Activity 1: Game On! (25 min)
 
-**Source:** H&L Workbook Ch 4, pp. 60-62, "Game On!" (Career Climb activity)
+**Source:** (FYF pp. 268-269: "Game On!"), a Career Climb activity
 
-Introduce the activity using the workbook framing: *"What do you think it takes to create a video game? The video game industry includes some of the fastest-growing careers in the world! From game designers and programmers to artists, writers, and marketers, there are many different roles to choose from."*
+Introduce the activity using the workbook framing: *"What do you think it takes to create a video game? The video game industry includes some of the fastest-growing careers in the world! In this career field, you can create new worlds, tell fantastic stories, and design otherworldly experiences. From game designers and programmers to artists, writers, and marketers, there are many different roles to choose from."*
 
-Today students work in teams of 3-5 to create a Game Design Document (GDD). A GDD is a detailed guide that real game studios use to keep track of the theme, style, and core features of a game.
+Today students work in teams of 3-5 to create a Game Design Document (GDD). A GDD is a detailed guide that game studios use to keep track of the theme, style, and core features of a game, and its whole purpose is to communicate the project to someone who was not in the room.
 
 **Step 1: Build Your Team (3 min)**
 
-Form groups of 3-5. Each student picks ONE role from the workbook list (Ch 4, p. 61). If the group has fewer than 5, some students take multiple roles:
+Form groups of 3-5 and create a team name. Each student picks ONE role from the workbook list (p. 268) and writes their initials next to it. If the group is small, some students carry two roles:
 
-- **Game Designer:** Plans how the game works and creates the rules
-- **Programmer:** Writes the code that makes the game function
-- **Artist:** Designs the characters, environments, and objects
+- **Game Designer:** Plans how the game will work and creates the rules
+- **Artist:** Designs the characters, environments, and objects in the game
 - **Writer:** Creates the story, dialogue, and quests
 - **Sound Designer:** Develops the music and sound effects
 
-Each student writes their name next to their role.
+The workbook's opening paragraph also names programmers and marketers as game-industry careers, but the role list students choose from is these four. Teams that want a fifth role can add Programmer and give that student the job of keeping the team honest about what is actually buildable.
 
-**Step 2: Create the GDD (20 min)**
+**Step 2: Design Your Video Game (12 min)**
 
-Using a Google Doc (or the workbook space), the team fills out the complete GDD:
+Using a Google Doc (or the workbook space on p. 269), the team fills out the complete GDD:
 
 - **Video Game Title**
 - **Intended Audience:** Who is the game for?
@@ -54,31 +54,41 @@ Using a Google Doc (or the workbook space), the team fills out the complete GDD:
 - **Visual Design Elements:** What does the world look like? Color palette? Art style?
 - **Music & Audio:** Genre of music, sound effects style
 
-Each role contributes to the section that fits their job. The Designer leads game mechanics, the Writer leads the story and characters, the Artist leads the visual section, the Sound Designer leads the music section, and the Programmer keeps everyone honest about what is actually buildable.
+Each role leads the section that fits their job. The Designer leads game mechanics, the Writer leads the story and characters, the Artist leads the visual section, and the Sound Designer leads the music section.
+
+**Step 3: Create a Pitch (4 min)**
+
+Teams build a pitch that explains the game and argues why the company should build it. The pitch names the genre, gives a short story summary, says what makes the game unique, and says why players would enjoy it. Teams practice it at least twice before they present.
+
+**Step 4: Share and Discuss (6 min)**
+
+Pair each team with another team. Take turns pitching, then trade one piece of positive feedback and one piece of constructive criticism per pitch.
 
 !!! tip "Facilitation Tip"
-    Walk around with one question: "Tell me what your character's main goal is in 10 seconds." If the group can't, they have not converged on a clear concept yet. Push them to commit. Refusing to commit on the GDD is a common stall — break it by forcing a single clear sentence.
+    The workbook asks for a 3-5 minute pitch, which does not fit two teams inside a 6 minute share. Cap each pitch at 90 seconds and announce the cap before Step 3 so teams build to it. The full-length version is available as the extension. Separately, walk around during Step 2 with one question: "Tell me what your character's main goal is in 10 seconds." If the group can't, they have not converged on a concept yet. Push them to commit to a single clear sentence.
 
-**Extra Time? (Workbook extension):**
+**Extra Time?**
 
 Groups that finish early design a video game cover (digital or paper) including title, main character, background, and a short slogan.
 
 **DOK 3:** Why does a real game studio require a GDD before any code is written? What problem does it prevent?
 
-**DELIVERABLE:** Completed Game Design Document (one per group of 3-5) saved in Google Docs and submitted to Google Classroom.
+**DELIVERABLE:** Completed Game Design Document (one per group of 3-5) saved in Google Docs and submitted to Google Classroom, plus the pitch delivered to a partner team.
 
 ---
 
-## Activity 2: 4-Step Job Search Process + eDynamic 8.2 (15 min)
+## Activity 2: Steps of an Effective Job Search + eDynamic 8.2 (15 min)
 
-**Source:** H&L Workbook Ch 6 (Job Searching Steps from last week) + eDynamic Unit 8.2 (scope-and-sequence column 9)
+**Source:** CCE-original job-search framework + eDynamic Unit 8.2 (scope-and-sequence column 9)
 
-Briefly review the 4 job search steps students learned last week in the H&L Education chapter:
+Walk the four steps of an effective job search and have students copy them into their notes:
 
-1. **Know Yourself:** Use what you've learned about your interests, RIASEC, and Building Blocks
-2. **Get Your Materials Ready:** Resume (this week!), cover letter (next week), interview practice (Wk 5)
+1. **Know Yourself:** Use what you have learned about your interests, your core personality type, and your Building Blocks
+2. **Get Your Materials Ready:** Resume (this week!), cover letter, interview practice
 3. **Search Smart & Connect:** Use specific keywords on job boards, network, attend job fairs
 4. **Ask for Help:** School counselors, career coaches, family in the field
+
+Step 3 is the one students already have a workbook page for. Rung 5 of the capstone (FYF pp. 290-291: "Rung 5: Local Connections") has them search actual postings in their community with a query like "[career name] jobs near me" and record the title, location, responsibilities, required skills, and education each employer is asking for. Students practice that search earlier in this six weeks and complete the graded Rung 5 pages later in it. Today's job is to see where the resume they just built fits in the sequence.
 
 Then direct students to log into eDynamic Learning and open Unit 8.2 (Job Search). Students work through the eDynamic content for the rest of the period. They will not finish today, that is fine.
 
@@ -120,5 +130,5 @@ Bottom line: My team's video game TITLE and MY role on the team:
 ## Differentiation
 
 - **Support:** Provide a printed GDD template with section headers and sentence starters ("This game is about a _____ who must _____."). Allow students to draw their character on paper if they cannot articulate the visual style in writing.
-- **Extension (from workbook):** Groups create the video game cover AND write a 1-paragraph "back of the box" description that markets the game to buyers.
+- **Extension:** Groups create the video game cover AND write a 1-paragraph "back of the box" description that markets the game to buyers. Teams that want the workbook's full-length pitch (FYF p. 269, Step 3 asks for 3-5 minutes) build and rehearse it for a lunch or advisory slot.
 - **ELL:** Pre-teach: Game Design = Diseño de juegos, Character = Personaje, Setting = Escenario, Genre = Género. Game design is highly visual and accessible across language levels. Pair ESL students into mixed-language teams so they can contribute through art and concept design.

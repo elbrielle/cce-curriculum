@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Explore Electrician, Plumber, and HVAC Technician careers in H&L; begin the Skilled Trades Comparison Matrix with 3 trades; identify certification and licensing requirements |
 | **TEKS** | d(2)(A), d(1)(C) |
+| **5E Phases** | Engage: Warm-Up · Explore: App Exploration and district programs of study · Explain: Skilled Trades Comparison Matrix · Evaluate: Exit Ticket |
 | **Deliverable** | Skilled Trades Comparison Matrix with 3 trades (Electrician, Plumber, HVAC Tech) partially complete |
-| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 3, p. 38 pathways list), BLS OOH, printed Skilled Trades Comparison Matrix, projector |
+| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook pp. 196-198, BLS OOH, printed Skilled Trades Comparison Matrix, projector |
 
 ---
 
@@ -22,20 +23,22 @@ Collect 2-3 answers, some students will shout out large numbers. Bridge to the p
 
 ## Activity 1: H&L Skilled Trades Intro (15 min)
 
-**Source:** H&L Workbook Ch 3, p. 38, confirmed pathways: Electrical, HVAC and Sheet Metal, Masonry, Plumbing and Pipefitting
+**Source:** (FYF p. 198: "App Exploration") + (FYF pp. 196-197: "What is Happening at My District?")
 
-Review the H&L workbook pathway descriptions:
+Students work the workbook's App Exploration page for this cluster. Point them at the three trades the week centers on so the ratings they record feed the matrix in Activity 2.
 
-- **Electrical:** *Install, fix, and maintain electrical wiring, equipment, and fixtures; work with telecommunications cables, including fiber optics.*
-- **HVAC and Sheet Metal:** *Install, repair, and maintain heating and air conditioning systems; work with sheet metal to create and fix ducts, control boxes, and other equipment.*
-- **Plumbing and Pipefitting:** *Install, repair, and maintain pipes and fixtures for water, heating, and drainage systems; work with equipment that controls steam, cooling, and sprinklers.*
+> [H&L PLATFORM] Open the Hats & Ladders app, go to Clusters, and click the Architecture and Construction cluster. Watch the Cluster Tour video, play Game Time, then write down one thing you learned. Find 1 Hat that matches your personality or interests and 1 Hat that does not, and give a reason for each. Click Pathway Possibilities, answer the questions, and rate at least 1 pathway. Rate at least 3 Hats, including **Electrician**, **Plumber**, and **HVAC Technician**.
 
-Direct students to open Hats & Ladders and navigate to the A&C cluster Hat Finder. They should explore each of the three Hats: **Electrician**, **Plumber**, and **HVAC Technician**. For each Hat, students check:
+**Stop and Jot:** the App Exploration page asks for one thing students learned from the Cluster Tour video and Game Time. Give 45 seconds with the prompt on screen and post two stems: "One trade I did not know existed is _____" and "One thing I still want to know about _____ is _____." Read jots over shoulders and note which Hats students name.
 
-- Education/training pathway (apprenticeship length, classroom hours, licensing)
+For each of the three Hats, students collect the four data points the matrix needs:
+
+- Education and training pathway (apprenticeship length, classroom hours, licensing)
 - DFW salary data (entry, median, top 10%)
 - Demand level (high, medium, low)
-- Perks, quirks, and job gear, rate whether each matches their personal style
+- Perks, quirks, and job gear, and whether each one matches their personal style
+
+Close the activity by projecting the workbook's district pages (FYF pp. 196-197). Irving ISD runs three Architecture and Construction programs of study: Architecture, Construction Technology, and Welding. HVAC, electrical, and plumbing are not among them, which is the honest starting point for the rest of the week.
 
 !!! tip "Facilitation Tip"
     Students sometimes conflate Electrician and Electrical Engineer. Clarify: an electrician installs and fixes wiring (apprenticeship path, no degree required). An electrical engineer designs electrical systems and devices (bachelor's degree required). This week is about the trades, not the engineering path.
@@ -59,7 +62,9 @@ Matrix rows to complete today:
 | One "perk" | From H&L Hat profile |
 | One "quirk" | From H&L Hat profile |
 
-Students work independently or in pairs. Teacher circulates and verifies students are pulling real numbers, not guesses.
+Students work independently or in pairs.
+
+**Active Monitoring:** walk the room twice. Lap 1 target is the apprenticeship and licensing rows, lap 2 target is the two salary rows. Have the feedback for the predictable error ready before class: a salary copied off a national page rather than a DFW figure. If more than a handful of students still have blank licensing cells at lap 1, pause and reproject the TDLR and TSBPE searches for the whole room instead of fixing them desk by desk.
 
 !!! tip "Facilitation Tip"
     Common student misconception: they skip the apprenticeship row or write "4 years" without checking. Apprenticeship length varies by trade and state. Electrician is typically 4 years in Texas, Plumber is 4-5 years, HVAC is 3-5 years. Verify sources.

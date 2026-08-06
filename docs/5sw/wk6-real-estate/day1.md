@@ -7,8 +7,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Explore real estate careers in H&L's Business, Marketing, and Finance cluster; distinguish commission-based from salary-based roles via Gallery Walk; complete Real Estate Career Research Sheet for one career |
 | **TEKS** | d(1)(C), d(2)(A) |
+| **5E Phases** | Engage: Warm-Up · Explore: Cluster and district pathway tour · Explain: Gallery Walk income-model debrief · Explore: Career research sheet · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Real Estate Career Research Sheet for 1 career |
-| **Materials** | Chromebooks, H&L accounts + Workbook (Ch 5, p. 72 pathways), printed Gallery Walk career profile cards (Agent, Broker, Appraiser, Property Manager), Real Estate Career Research Sheet, projector |
+| **Materials** | Chromebooks, H&L accounts + *Find Your Future* workbook (printed pp. 252-254), printed Gallery Walk career profile cards (Agent, Broker, Appraiser, Property Manager), Real Estate Career Research Sheet, projector |
 
 ---
 
@@ -22,18 +23,20 @@ Collect 2-3 guesses. DFW average home prices run $300K-$450K depending on neighb
 
 ## Activity 1: H&L Business/Finance Cluster — Real Estate Pathway (15 min)
 
-**Source:** H&L Workbook Ch 5, p. 72, "What are the Pathways?"
+**Source:** (FYF p. 254: "App Exploration") and (FYF pp. 252-253: "What is Happening at My District?")
 
-Direct students to open Hats & Ladders and navigate to the Business, Marketing, and Finance cluster. The workbook confirms six pathways in this cluster:
+Direct students to open Hats & Ladders and go to Clusters, then the Business, Marketing, and Finance cluster. The workbook's App Exploration page carries the path: watch the Cluster Tour video, then open Pathway Possibilities and rate at least one pathway. The chapter itself prints no pathway list, so Pathway Possibilities is where students meet the cluster's pathways. Game Time and the Hat ratings on the same page are the early-finisher options.
 
-- **Accounting and Financial Services**
-- **Business Management**
-- **Entrepreneurship**
-- **Marketing and Sales**
-- **Real Estate:** *"Helping people buy, sell, or rent homes and buildings."*
-- **Retail Management**
+Then map the cluster the way Irving ISD maps it. The district pages list **six Business, Marketing, and Finance programs of study**:
 
-Students focus on the Real Estate pathway. Using the Hat Finder in the app, they browse real estate Hats:
+- **Business Management:** planning, organizing operations, and decision making
+- **Administrative Management:** office and business support, professional procedures, and business technology
+- **Retail Management:** merchandising, sales strategies, and business operations
+- **Real Estate:** property valuation, contracts, and business communication, built on real estate principles and ethics
+- **Entrepreneurship:** starting and managing a business, business planning, and financial management
+- **Marketing & Sales:** advertising, branding, product promotion, market research, and data-driven decisions
+
+Students focus on Real Estate. Using the Hat Finder in the app, they browse real estate Hats:
 
 - Real Estate Agent
 - Real Estate Broker
@@ -62,15 +65,17 @@ Students rotate through the 4 stations in pairs, taking notes on:
 - **Income model:** Commission or salary?
 - **Licensing:** What Texas agency regulates this role?
 - **Education time:** How long does it take to get licensed?
-- **Best for:** What personality type fits this role (RIASEC)?
+- **Best for:** Which core personality type fits this role (Doer, Analyzer, Creator, Helper, Persuader, Organizer)?
 
 **DOK 2:** How would you describe the key difference between earning a commission and earning a salary? Which model do you think would motivate you more, and why?
+
+**Think-Pair-Share:** Hold the DOK 2 question until every pair has visited all four cards. Silent 30 second Think, then Partner A for 30 seconds and Partner B for 30 seconds. Two pairs share with the whole class.
 
 ---
 
 ## Activity 3: Real Estate Career Research Sheet (12 min)
 
-Students pick **one** real estate career (from the 4 Gallery Walk roles or another H&L Hat) and complete a Real Estate Career Research Sheet, similar to the Hat Research template from Ch 5. Fields:
+Students pick **one** real estate career (from the 4 Gallery Walk roles or another H&L Hat) and complete a Real Estate Career Research Sheet. This is the same CCE career research format taught in Wk0 and reused in every cluster week. Fields:
 
 - **Career Name**
 - **What Interests You?:** why this career caught their attention

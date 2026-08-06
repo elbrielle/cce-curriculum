@@ -1,75 +1,64 @@
-# Day 3: Job Search Scavenger Hunt + Xello Learning Pathways
+# Day 3: Local Connections — Real Education Job Postings
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Identify the steps of an effective job search; complete the H&L Job Search Scavenger Hunt; explore learning pathways in Xello |
-| **TEKS** | d(1)(C), d(6)(A) |
-| **Deliverable** | Completed Job Search Scavenger Hunt chart (4 jobs) + Xello Discover Learning Pathways completion |
-| **Materials** | Chromebooks, H&L Workbook (Ch 6, pp. 95-96 Job Searching Steps; pp. 96-97 Job Search Scavenger Hunt), Xello accounts, Indeed.com or ZipRecruiter for job postings |
+| **Objectives** | Read a real job posting and name what the employer is looking for; find two local Education and Training postings; record responsibilities, required skills, and the education and experience employers ask for; explore learning pathways in Xello |
+| **TEKS** | d(1)(C), d(2)(A) |
+| **5E Phases** | Engage: Warm-Up · Explain: Reading one posting together · Explore: Local posting search and records · Extend: Xello Discover Learning Pathways · Evaluate: Exit Ticket |
+| **Deliverable** | Two completed practice Job Posting records + Xello Discover Learning Pathways completion |
+| **Materials** | Chromebooks, *Find Your Future* workbook printed pp. 290-291 (read today, filled in later), printed practice Job Posting handout (2 per student), Xello accounts, job search sites and the Irving ISD careers page, projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Imagine you are 18 and looking for your first real job. What is the very first thing you would do? Do you go to a website? Walk into a store? Ask family? Write down your answer.**
+**WARM-UP: A school district is hiring a teacher's aide. Write down THREE things you think the posting asks for. Be specific: not "be good with kids," but what a district would actually print.**
 
-Take 3 student responses. Most will say "Indeed" or "ask my parents." Bridge to today: every great job search starts with a process, and the H&L workbook spells out the steps.
-
----
-
-## Activity 1: Job Searching Steps (12 min)
-
-**Source:** H&L Workbook Ch 6, pp. 95-96, "Job Searching Steps"
-
-Walk through the four steps from the workbook. Display each on the projector and discuss briefly:
-
-1. **Know Yourself:** Think about what you're good at, what kind of job you'd enjoy, and how much money you'd like to make. *(Teacher note: This is exactly what students have been doing all year through RIASEC, Hat research, and Building Blocks.)*
-2. **Get Your Materials Ready:** Create a resume, write a cover letter, and practice answering common interview questions. *(Teacher note: This is Weeks 2, 4, and 5 of this six-weeks block.)*
-3. **Search Smart & Connect:** Talk to people in the field, go to job fairs, and use websites and online job platforms. Use specific keywords like "part-time cashier" or "entry-level graphic design" to filter results.
-4. **Ask for Help:** School counselors, local job centers, and career coaches can give advice, check your resume, and even help you find openings.
-
-After walking through the steps, students take 2 minutes to write a one-sentence reflection: *"Of these four steps, the one I am most prepared for right now is _____ because _____."*
+Take 3-4 responses and list them on the board without correcting any of them. Bridge to today: by the end of class students will have two real postings in front of them and can check the board list against what employers actually wrote.
 
 ---
 
-## Activity 2: H&L Job Search Scavenger Hunt (25 min)
+## Activity 1: What Employers Are Looking For (12 min)
 
-**Source:** H&L Workbook Ch 6, pp. 96-97, "Job Search Scavenger Hunt"
+**Source:** (FYF pp. 290-291: "Rung 5: Local Connections")
 
-Introduce the activity using the workbook scenario: students will use a job search engine (Indeed.com is the easiest) to find real job postings that match four specific clues. They will fill out the workbook chart with company name, job title, and salary (or "none" if not listed).
+Rung 5 belongs to the Capstone. Students practice it here, inside a cluster they know, and the rung is graded later this six weeks in the job-skills week. Set that expectation before anything else: the workbook pages stay blank today, and everything students write goes on the practice handout so the graded pass still has clean pages.
 
-**The four clues from the workbook:**
+Project one real Education posting. A paraprofessional or educational aide opening on the Irving ISD careers page is the cleanest example, because district postings print responsibilities and qualifications in separate lists.
 
-| Clue | Find a... |
-|---|---|
-| 1 | Job that requires you to work on a team |
-| 2 | Job in the food industry |
-| 3 | Job that allows you to work from home |
-| 4 | Job that involves travel |
+**Chunking:** Walk the four field groups the rung asks for one at a time, and do not move on until students can point to the answer on the projected posting.
 
-**Student task:**
+1. **Job title, location, and where you found it.** A posting on the employer's own careers page and a posting on a job board are both fine, but students record which one they used.
+2. **Two to three responsibilities.** These are the tasks the person does, usually a bulleted list under a heading like "Duties."
+3. **Skills and qualifications required.** Skills are what the person can do. Qualifications are what the employer requires on paper.
+4. **Education and experience wanted.** Read this one carefully. Districts often write something more specific than "college degree."
 
-Direct students to indeed.com (or ZipRecruiter). They search the DFW area. For each clue:
-
-- Find a real, current posting that matches
-- Read the job description carefully to confirm it matches the clue
-- Record the company name, the exact job title, and the listed salary (or "None" if not posted)
-
-This is a real research skill. Students learn that not all jobs post salaries, that "remote" is a filter on Indeed, and that "team-based" jobs often say so in the description.
+The rung supplies the search strings students use next: "[career name] jobs near me" or "[career name] jobs in [your state]".
 
 !!! tip "Facilitation Tip"
-    Show students the Indeed.com filters on the projector at the start: location (Dallas TX), remote toggle, and the search bar. This eliminates 80% of the "I can't find anything" hands. Also model what counts as evidence, the job description must say "team," "collaborate," or "work with others," not just imply it.
+    The line students blur is responsibilities versus qualifications. Point at the projected posting and ask which list would change if the district hired a second aide for a different campus. Responsibilities change with the job. Qualifications are the door you have to get through to be considered at all.
 
-After students complete the chart, lead a quick partner discussion using the workbook's discussion questions (Ch 6, p. 97):
+---
 
-- Which job search method or tool did you find most helpful?
-- What was the most challenging part of the job search process?
-- What is one key takeaway from this activity that will help you in the future?
+## Activity 2: Search Local Education Job Postings (25 min)
 
-**DOK 2:** Did the salary information you found match what you expected? Were any of the salaries surprising, too high or too low?
+**Source:** (FYF pp. 290-291: "Rung 5: Local Connections")
+
+Students find TWO real, current postings in the DFW area and complete one practice record for each:
+
+- **Posting 1: a job inside a school.** Educational aide, paraprofessional, substitute teacher, tutor, childcare assistant, campus monitor.
+- **Posting 2: an education career outside a K-12 classroom.** Corporate trainer, instructional designer, childcare center director, museum educator, coach, camp program leader.
+
+Each record captures the same fields modeled in Activity 1: job title, location, where the posting was found, 2-3 responsibilities, skills and qualifications required, education needed, and experience needed.
+
+**Active Monitoring:** Walk a fixed pathway three times, one target per lap. Lap 1: every student has a real, current, local posting open, not a career description article. Lap 2: the responsibilities are copied from the posting's own list, not guessed. Lap 3: the education and experience fields are filled in even when the posting buries them at the bottom. Have the feedback ready before class for the two predictable errors: a student who records a job board's generic career profile instead of an actual opening, and a student who writes "college degree" when the posting says "high school diploma plus 48 college credit hours." If more than a handful of students miss the lap 1 target, reproject the search string and the district careers page to the whole room instead of fixing it screen by screen.
+
+When both records are done, pairs compare: which of your two postings asks for more education, and which one asks for a skill you already have?
+
+**DOK 2:** Compare the education your two postings ask for. Which job could a person start soonest after high school, and what exactly in the posting tells you that?
 
 ---
 
@@ -77,42 +66,40 @@ After students complete the chart, lead a quick partner discussion using the wor
 
 **Source:** Xello 7th-grade task list (scope-and-sequence column 8)
 
-Direct students to log into Xello and open the **Discover Learning Pathways** lesson. This Xello lesson connects to the Education week because it covers the different learning pathways students can take after high school: 4-year university, 2-year community college, trade school, apprenticeship, military, and direct-to-work with certification.
+Direct students to log into Xello and open the **Discover Learning Pathways** lesson. This Xello lesson connects to today's postings because it covers the different learning pathways students can take after high school: 4-year university, 2-year community college, trade school, apprenticeship, military, and direct-to-work with certification.
 
 Students work through the lesson at their own pace. Most will finish in 8 minutes. Those who don't can complete it as homework or during catch-up time.
 
-**Connection to the week:** Becoming a teacher is one specific pathway. But Xello shows students the FULL menu of options, and any of them can lead to an education-adjacent career (corporate trainer, instructional designer, ESL coach, daycare director, etc.).
+**Connection to the week:** The postings students just read name an education requirement in a single line. Xello shows what is behind that line. An aide posting that asks for 48 college credit hours and a trainer posting that asks for a bachelor's degree are two different routes on the same menu.
 
 ---
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/6sw-wk1-day3-job-search-scavenger-hunt-xello-learning-pathways.pdf):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/6sw-wk1-day3-local-connections-real-education-job-postings.pdf):
 
-1. List the 4 H&L job search steps in order:
+Pick ONE of the two postings you found today.
 
-   1) _______________________  2) _______________________
+1. Job title: _______________________ Where I found it: _______________________
 
-   3) _______________________  4) _______________________
-
-2. The step I am MOST prepared for RIGHT NOW: _______________________. Why?
+2. ONE responsibility the posting lists:
 
    ___________________________________________________________________
 
-3. ONE specific Irving ISD OR DFW resource for ONE of the steps (campus Career Fair / Singley counselor / LinkedIn Learning at the public library / specific neighbor or family member):
+3. Education the employer wants: _______________________
 
-   Step: _______________________. Resource: _______________________
+   Experience the employer wants: _______________________
 
-4. ONE company from my scavenger hunt + the salary (or "None"):
+4. ONE skill this posting asks for that I ALREADY have, or that I still need to build. Which is it, and how would I show it?
 
-   Company: _______________________. Job title: _______________________. Salary: _______________________
+   ___________________________________________________________________
 
-*(d(6)(A), d(1)(C))*
+*(d(1)(C), d(2)(A))*
 
 ---
 
 ## Differentiation
 
-- **Support:** Pre-bookmark the Indeed Dallas-TX search page on student Chromebooks. Reduce the scavenger hunt to 2 clues instead of 4. Provide a list of 6 sample companies students can choose from if they get stuck.
-- **Extension:** Students complete the workbook scavenger hunt for ALL FOUR clues AND identify which of the four jobs they would actually want to apply for. They write a one-sentence justification.
-- **ELL:** Pre-teach: Job Search = Búsqueda de empleo, Salary = Salario, Remote = Remoto, Travel = Viaje. Indeed has a Spanish version (indeed.es) but the DFW jobs are mostly listed in English. Pair ESL students with bilingual partners.
+- **Support:** Pre-bookmark the Irving ISD careers page and one job site on student Chromebooks. Reduce the task to ONE posting instead of two. Provide a completed sample record as a model so students can see what a finished field looks like before they start.
+- **Extension:** Students find a third posting for the SAME career at a different employer and write two sentences on what the two employers ask for differently. Employers hiring the same job title do not always want the same qualifications.
+- **ELL:** Pre-teach: Job Posting = Oferta de empleo, Responsibilities = Responsabilidades, Qualifications = Requisitos, Skills = Habilidades, Experience = Experiencia. Job postings are dense and written for adults, so allow browser translation and pair ESL students with bilingual partners. Many Irving ISD postings are also published in Spanish.
