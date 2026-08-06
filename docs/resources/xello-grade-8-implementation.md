@@ -8,7 +8,7 @@ Xello is a required yearlong completion strand in this course. It is not an opti
 2. Open **Completion Standards > Grades 6-12** and use the Grade 8 column as the source of truth.
 3. Confirm that students can launch Xello before the planned lesson day.
 4. Open the task's **Resources** panel. Xello commonly provides a lesson plan, presentation, student directions, short video, or educator guide.
-5. Add the official Xello resource link or licensed classroom copy to the matching Canvas module. Do not send students to search for the resource.
+5. Download the Xello lesson plan, presentation, worksheet, student directions, or teacher guide needed for the lesson. Upload it to Canvas Files and embed it on the matching module page. Do not send teachers or students back to the Xello resource drawer to search for ordinary instructional documents.
 6. Preview the student path with a demo account when a task includes Course Planner, an attachment, or a written response.
 
 ## Required Grade 8 completion spine
@@ -74,6 +74,6 @@ The district configuration does not assign every Xello activity to Grade 8. Acti
 
 ## Teacher-ready resource rule
 
-A facilitator guide is ready only when it names the exact Xello task, allotted time, prerequisite, student evidence, and where the linked resource lives in Canvas. “Complete Xello” is not enough direction.
+A facilitator guide is ready only when it names the exact Xello task, allotted time, prerequisite, student evidence, and where the embedded resource lives in Canvas. “Complete Xello” is not enough direction.
 
-Use Xello's provided classroom downloads and official video links. Licensed materials belong in the district Canvas course, not on the public curriculum site.
+Capture Xello's provided classroom documents and place them in the district Canvas course. Embed teacher documents on the teacher page and student-facing files on the student lesson page. Keep the interactive task linked to Xello for completion reporting. Official video players may be embedded from Xello's share link; a video file should be rehosted only when Xello supplies a download or the district has explicit permission. None of these licensed files belongs on the public curriculum site.

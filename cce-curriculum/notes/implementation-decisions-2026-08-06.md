@@ -16,9 +16,11 @@ The FYF workbook realignment did not replace Xello. FYF and H&L carry career-exp
 
 Canvas will become the official teacher and student course when the curriculum is ready for import. The public MkDocs site remains a development and review surface.
 
-- Put licensed H&L decks and Xello classroom resources in authenticated Canvas modules, not on public GitHub Pages.
+- Capture licensed H&L decks and Xello classroom documents for the authenticated Canvas course. Upload and embed the required files in the module where the teacher or student uses them; do not leave routine materials behind a vendor-resource lookup step.
 - Xello's current terms permit district users to use, download, copy, modify, perform, or display supplied educational materials for noncommercial in-class instruction during the license term.
-- Prefer Xello-provided downloads and official shareable video or YouTube links. Do not rip hosted video streams.
+- Download and rehost Xello-provided lesson plans, facilitator guides, presentations, worksheets, and student directions in Canvas during the district license term.
+- Keep interactive completion tasks linked to Xello so district completion reporting still works.
+- Embed official video or YouTube players when Xello provides a share link. Rehost a video file only when Xello supplies a download or the district has explicit permission for that file.
 - Delay the Canvas API import until the teacher-readiness gate is substantially green.
 - Never store an API token in the repository or curriculum documents.
 

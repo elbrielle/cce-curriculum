@@ -26,7 +26,7 @@ Guides reference H&L with two markers:
 - **Educator resources:** Each completion-standard task may include prerequisites, facilitator guides, lesson resources, worksheets, slide decks, and shareable videos. Inventory these from the educator view before writing the lesson.
 - **Login:** District SSO
 - **Curriculum rule:** The FYF realignment does not replace Xello completion standards. S&S column 8 assigns the yearlong sequence; daily plans must preserve the prerequisite chain and give teachers the attached Xello resources.
-- **Canvas handling:** Use Xello-provided downloads and official shareable video links inside the authenticated Canvas course. Do not scrape or publicly rehost proprietary video streams.
+- **Canvas handling:** Capture the Xello-provided lesson plans, facilitator guides, presentations, worksheets, and student directions needed for Grade 8. Store those files in the authenticated Canvas course and embed them directly in the matching modules. Teachers and students should not have to reopen the educator resource drawer to find routine lesson materials. Keep the Xello task link for the interactive completion and reporting step. Embed an official video player when Xello provides a shareable link; rehost a video file only when Xello provides a download or the district has explicit permission. Never place licensed files on the public curriculum site.
 
 ## eDynamic Learning
 
@@ -57,6 +57,7 @@ Guides reference eDynamic with:
 
 - Public GitHub Pages remains the development and review surface.
 - Canvas holds teacher-facing copyrighted decks, licensed platform resources, modules, assignments, and student materials behind district authentication.
+- Licensed documents should be uploaded to Canvas Files, organized by module, and embedded in the teacher or student page where they are used. A link back to a vendor resource drawer is not the finished delivery experience.
 - Do not begin the production import until the module-readiness audit is substantially green and Elisha supplies an API token for that import session.
 - Never store a Canvas token in the repository, documentation, shell history, or generated course package.
 

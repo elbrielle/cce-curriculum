@@ -84,7 +84,7 @@ All content must trace to one of these:
 
 Do not invent H&L activities, Xello features, or platform capabilities. If unsure, mark with `[VERIFY]`.
 
-Licensed H&L and Xello materials belong in the authenticated Canvas course, not the public GitHub Pages site. Xello-provided downloads and official shareable video links may be used for noncommercial classroom instruction during the district license term. Do not rip hosted video streams or publish licensed binaries publicly. Canvas API credentials are provided only at import time and must never be committed or written into curriculum files.
+Licensed H&L and Xello materials belong in the authenticated Canvas course, not the public GitHub Pages site. Download the Xello-provided lesson plans, teacher guides, presentations, worksheets, and student directions needed by each module; upload them to Canvas Files and embed them on the matching module page. Do not make teachers or students return to the Xello resource drawer to locate ordinary instructional documents. Interactive completion still happens in Xello. Embed official video players when Xello provides an approved share link; rehost a video file only when Xello supplies a downloadable file or the district has explicit permission. Never publish licensed binaries publicly. Canvas API credentials are provided only at import time and must never be committed or written into curriculum files.
 
 ## Editing Protocol
 

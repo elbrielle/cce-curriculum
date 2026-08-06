@@ -14,6 +14,9 @@ cce-curriculum/resources/reference-pdfs/*.pdf
 cce-curriculum/resources/climber-notes/*.pptx
 cce-curriculum/resources/hl-teacher-resources/*.pdf
 
+# Xello licensed downloads are staged locally for authenticated Canvas upload
+cce-curriculum/resources/xello-licensed/
+
 # Original reference .docx files (not source of truth)
 SW[1-6]/
 CCE_Comprehensive_Scope_Sequence.xlsx

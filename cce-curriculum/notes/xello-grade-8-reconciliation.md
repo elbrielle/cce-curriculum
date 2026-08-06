@@ -66,7 +66,7 @@ The current S&S has 36 week rows. Twenty-eight rows name at least one Xello stan
 
 ## Official educator resources already located
 
-Xello's public educator library exposes downloadable prerequisite and lesson-resource PDFs. These links are reference inputs for the reconciliation; licensed classroom copies ultimately belong in Canvas.
+Xello's educator library exposes downloadable prerequisite and lesson-resource PDFs. Capture the required classroom copies for Canvas, organize them by module, and embed them where teachers and students use them. The links below are also reference inputs for the reconciliation.
 
 ### Prerequisite guides
 
@@ -92,7 +92,7 @@ Xello's public educator library exposes downloadable prerequisite and lesson-res
 - [Explore Career Matches](https://help.xello.world/en-us/Content/Resources/PDFs/Lesson-Resources-6-12/Explore-Career-Matches.pdf)
 - [Transition to High School](https://help.xello.world/en-us/Content/Resources/PDFs/Lesson-Resources-6-12/Transition-to-High-School.pdf)
 
-Xello also publishes [Teaching Resources for Xello 6-12](https://help.xello.world/en-us/content/Get-Started/Educator/Teaching-Resources/GS_Teaching-Resources.htm) and an official [Video Resources Overview](https://help.xello.world/en-us/Content/Get-Started/Xello-Administrator/Video-Resources-Overview.htm). Use the provided downloads and official shareable video links instead of capturing hosted streams.
+Xello also publishes [Teaching Resources for Xello 6-12](https://help.xello.world/en-us/content/Get-Started/Educator/Teaching-Resources/GS_Teaching-Resources.htm) and an official [Video Resources Overview](https://help.xello.world/en-us/Content/Get-Started/Xello-Administrator/Video-Resources-Overview.htm). Download the provided documents for authenticated Canvas delivery. Embed official shareable video players; rehost a video file only when Xello provides a download or the district has explicit permission.
 
 ## Reconciliation result
 
@@ -111,7 +111,7 @@ The repair must happen in this order:
 
 ## Do not do yet
 
-- Do not publish licensed Xello downloads on the public MkDocs site.
+- Do not publish licensed Xello downloads on the public MkDocs site. Rehost them inside authenticated Canvas modules.
 - Do not assume every public Xello lesson is part of Irving's Grade 8 completion configuration.
-- Do not capture hosted video streams. Use Xello's official shareable links or add the resource through Xello/Canvas.
+- Do not treat a playable hosted stream as permission to extract the media file. Embed the official player unless Xello supplies a download or the district has explicit permission to rehost that video file.
 - Do not remove the existing Xello work during the reconciliation. The task is to repair the sequence, not replace it again.

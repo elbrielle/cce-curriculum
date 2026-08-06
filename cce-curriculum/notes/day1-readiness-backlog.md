@@ -45,8 +45,8 @@ Every task is tagged for the Canvas end-state: **[TG]** = lands in the future pe
 
 ### Workstream A — STRUCTURE: make what exists reachable (one decision, many fixes)
 
-- **A1 [SITE]** Put the 17 Climber decks + 8 H&L teacher PDFs in authenticated Canvas modules. Canvas is the official course home; do not publish licensed binaries on the public site.
-- **A2 [SITE]** Build a teacher-materials index for the future Canvas course that states which weeks require each deck and resource. The public site may list the dependency without exposing the licensed file.
+- **A1 [SITE]** Put the 17 Climber decks, 8 H&L teacher PDFs, and the required Grade 8 Xello documents in authenticated Canvas modules. Upload the files to Canvas and embed them at the point of use; do not publish licensed binaries on the public site.
+- **A2 [SITE]** Build a teacher-materials index and Canvas asset manifest that states which weeks require each deck and resource, the Canvas Files location, the intended audience, and the module page where it is embedded. The public site may list the dependency without exposing the licensed file.
 - **A3 [SITE]** Put `PLATFORMS.md`, `PATHWAYS.md`, and the eDynamic unit map on the site (move/mirror into `docs/resources/`). PATHWAYS fixes eight days' "CTE Pathways poster" dependency in 4SW-5SW alone.
 - **A4 [SITE]** One-line fix: put `pawsandclaws.hatsandladders.com` on 1SW Wk3 D2 (currently locked inside a gitignored deck; the whole day hangs on it). Verified 2026-08-05: the site is live, H&L-hosted ("Paws & Claws Pet Supply"), district-agnostic — not a Bowie or Irving asset; same URL for every campus.
 - **A5 [SITE]** Reconcile the diverged duplicates: `free-resource-directory.md` and `teks-coverage-matrix.md` each exist in two drifted copies (docs/ vs cce-curriculum/). Site copy wins.
