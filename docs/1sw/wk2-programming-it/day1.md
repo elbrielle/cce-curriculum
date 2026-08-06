@@ -27,7 +27,7 @@ Quick share. Most students will guess "5 to 20." The actual number for a major a
 
 Open the workbook to page 23. Read the chapter opener together: a career in IT keeps the digital world running, safe, and moving forward. The page names ethical hackers, data specialists, video game designers, and tech support specialists as examples, and it splits the cluster into people who protect systems from attackers, people who find meaning in mountains of data, and people who build the experiences users cannot put down.
 
-Three Hats appear on the opener page. Read each one aloud and ask students which of the three groups above it sits closest to, and why. There is no single right answer, and the disagreement is the point:
+Three Hats appear on the opener page. Read each one aloud and ask students which of the three groups above it sits closest to, and why. Accept more than one placement when the student can connect it to a job task:
 
 - **DevOps Engineer**
 - **Information Security Analyst**
@@ -47,7 +47,7 @@ Then map the cluster the way Irving ISD maps it. The district pages (FYF p. 36: 
 Each of the next four weeks takes one of them. This week is Programming & Software Development. Wk3 is Computer Science, Wk4 is Technology Support, and Wk5 is Cybersecurity.
 
 !!! tip "Facilitation Tip"
-    Some students will pick "quietly fix it first" without seeing a downside. Push on the second half of the prompt: if users are never told, they cannot change the password they reused on five other sites. The point is that the decision costs somebody something either way, which is why the page also asks who is responsible for preventing it next time.
+    Some students will pick "quietly fix it first" without seeing a downside. Push on the second half of the prompt: if users are never told, they cannot change the password they reused on five other sites. Have students name who bears the cost of each option before they answer who should prevent it next time.
 
 ---
 

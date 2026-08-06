@@ -17,7 +17,7 @@
 
 **WARM-UP: It is July in Texas. Your air conditioning breaks at 2 AM when it is 95 degrees outside. How much would you pay to have it fixed right now? What does that tell you about the value of HVAC technicians?**
 
-Collect 2-3 answers, some students will shout out large numbers. Bridge to the point: when something you depend on stops working, you value the person who can fix it. Skilled trades are valuable because they provide services no software or AI can replace.
+Collect 2-3 answers; some students will shout out large numbers. Ask what the repair is worth when the air conditioner stops on a 100-degree day or a pipe floods a home. These trades pay for work that has to be done on-site by someone who knows the system.
 
 ---
 

@@ -17,7 +17,7 @@
 
 **WARM-UP: Think of an ad you have seen recently that did NOT work on you. What made you scroll past it, skip it, or ignore it?**
 
-Take 3 student responses. Bridge to today: a campaign can reach exactly the right people and still fail. Today students inherit one that did, and their job is to find out why.
+Take 3 responses. Then give students the day's problem: the campaign reached its intended audience and still failed. Their job is to find the break between reaching people and persuading them.
 
 ---
 
@@ -83,7 +83,7 @@ Distribute the Career Presentation Outline template and the Career Presentation 
     - Connection to your personal Career Plan
     - One sentence: *"This career fits me because _____"* OR *"I learned this career is NOT for me because _____"*
 
-Both conclusions are valid. The point is reflection, not enthusiasm.
+Accept either conclusion when the student supports it with evidence from the presentation and feedback.
 
 Walk the rubric's delivery criterion at the same time, using the four levels the workbook prints for **Presenter Delivery**: engaging and confident, clear delivery, some difficulty, hard to follow (FYF p. 280). Students should know before they write what the top level sounds like.
 

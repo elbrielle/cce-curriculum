@@ -42,9 +42,9 @@ Students explore the Transportation, Distribution, and Logistics cluster through
 
 ## Career Connection
 
-Aviation careers combine math, physics, communication, and split-second decision making. They are also unusually accessible because there are multiple legitimate entry pathways: 4-year college aviation programs, FAA-certified flight schools, and military service through the Air Force, Navy, Army, or Coast Guard. The DFW airspace is one of the busiest in the country, which means commercial pilot, air traffic controller, and aviation maintenance jobs are concentrated locally.
+Pilots, air traffic controllers, and aviation maintenance workers use math, physics, precise communication, and time-sensitive decisions in different ways. Training may come through a four-year aviation program, an FAA-certified flight school, or military service in the Air Force, Navy, Army, or Coast Guard. Students compare those routes, then test the communication and spatial planning behind an airport simulation.
 
-**What is Happening at Irving ISD?** **Aviation Maintenance** and **Drone Engineering** at **Irving High School** (School of Aviation Science) are the district's two aviation programs of study. The workbook's district pages carry the detail students respond to most (FYF pp. 168-169: "What is Happening at My District?"): students in the Aviation program at Irving High School train on **two full-motion flight simulators**; the Aviation Maintenance program of study prepares students for careers in aircraft maintenance systems, inspection, repair, and safety procedures; SkillsUSA is the student organization named for this cluster; and the same pages describe Automotive Enterprise Days, the community events where student mechanics service vehicles at heavily discounted rates. Students can also enter aviation through Marine JROTC at Irving High School or through military service.
+**What is Happening at Irving ISD?** **Aviation Maintenance** and **Drone Engineering** are offered at **Irving High School's School of Aviation Science**. The workbook says aviation students train on **two full-motion flight simulators** and describes Aviation Maintenance work in aircraft systems, inspection, repair, and safety procedures (FYF pp. 168-169: "What is Happening at My District?"). It names SkillsUSA as the student organization. Students may also approach aviation through Marine JROTC at Irving High School or through military service.
 
 > [VERIFY] The workbook's district pages name Automotive Service Excellence as the industry-based certification for this cluster, which is the automotive credential rather than an aviation one, while PATHWAYS.md lists Industrial Technology Maintenance (ITM) Electrical System for Aviation Maintenance and FAA Part 107 for Drone Engineering. Confirm with your CTE coordinator which certification an Aviation Maintenance student actually earns before advising a student toward the pathway.
 
@@ -119,7 +119,7 @@ The rest of the chapter belongs to neighboring weeks: Crash Crew (pp. 150-152) a
 
 ### ELL Language Support
 - Pre-teach: Air Traffic Controller = Controlador de tráfico aéreo, Pilot = Piloto, Mechanic = Mecánico, Military = Militar, Civilian = Civil, Aviation = Aviación
-- ATC simulation uses verbal commands that are valuable for academic English practice, provide a bilingual command card (Cleared for takeoff = Despeje para despegar; Hold position = Mantenga posición; Taxi to gate = Taxi a la puerta)
+- Provide a bilingual command card for the ATC simulation so students can practice the same verbal sequence in English and Spanish (Cleared for takeoff = Despeje para despegar; Hold position = Mantenga posición; Taxi to gate = Taxi a la puerta)
 - LEGO building is hands-on and visually accessible across language levels
 - Pair ESL students with bilingual peers during team builds
 - The workbook reads well above grade level, so read the survey scenario aloud and encourage browser translation for any independent reading

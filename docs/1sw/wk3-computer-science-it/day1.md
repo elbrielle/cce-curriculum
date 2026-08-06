@@ -17,7 +17,7 @@
 
 **WARM-UP: If the school Wi-Fi went down right now, whose job would it be to fix it? What do you think they would actually DO to fix it?**
 
-Quick share. Most students will say "the IT person" but cannot describe what fixing it actually looks like. Bridge: "Today we meet the people who DESIGN the network in the first place, not just the people who fix it when it breaks."
+Quick share. If students say "the IT person," ask what that person would check first. Then introduce the people who design the network, monitor it, and repair it when something fails.
 
 ---
 

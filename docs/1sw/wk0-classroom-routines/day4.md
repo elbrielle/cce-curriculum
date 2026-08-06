@@ -37,7 +37,7 @@ Students write their top 3 recommended clusters in the engineering notebook. The
 > [H&L PLATFORM] The H&L app uses the core personality result, work values, and Building Blocks to generate cluster recommendations. Students should now see a personalized list. These recommendations will refine over the year as students explore and favorite Hats.
 
 !!! tip "Facilitation Tip"
-    If a student's top recommended cluster is a surprise ("I got Agriculture, I live in Irving"), use it as a teaching moment. Agriculture includes Veterinary Science, Food Science, and Environmental Engineering, not just farming. The cluster names can mislead. Encourage students to read the cluster description before dismissing it.
+    If a student dismisses a surprising cluster ("I got Agriculture, I live in Irving"), open its description before moving on. Agriculture includes Veterinary Science, Food Science, and Environmental Engineering as well as farming, so the title alone is not enough to judge the match.
 
 ---
 

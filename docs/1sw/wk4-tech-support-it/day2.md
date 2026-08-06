@@ -17,7 +17,7 @@
 
 **WARM-UP: What is a certification? How is it different from a diploma or a degree?**
 
-Quick share. Most students will be confused. They think certifications are like school awards. Bridge by clarifying: "A certification is proof you passed a test that an industry trusts. CompTIA, Cisco, Microsoft, and Google all give out IT certifications that employers actually look for on resumes."
+Quick share. Students may treat certifications like school awards. Clarify the difference: a certification shows that the student passed an assessment created or recognized by an industry. CompTIA, Cisco, Microsoft, and Google certifications can appear as job qualifications.
 
 ---
 

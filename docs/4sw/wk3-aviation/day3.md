@@ -17,7 +17,7 @@
 
 **WARM-UP: Air traffic controllers manage dozens of planes at once and make split-second decisions. What skills do you think that requires? List 3.**
 
-Take 3-4 student responses. Common answers: focus, communication, fast thinking, math, calmness. Bridge: today we are not yet running the simulation. We are first building the airport. Real ATCs cannot do their job if the airport is laid out poorly. Spatial planning IS the engineering challenge.
+Take 3-4 student responses: focus, communication, fast thinking, math, or calmness. Add spatial planning, then ask what happens when two runways cross or a gate blocks a taxi route. Students must solve those layout problems before running the simulation.
 
 ---
 

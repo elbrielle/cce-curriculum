@@ -17,7 +17,7 @@
 
 **WARM-UP: Look at your constraints list from yesterday. What is the ONE most important feature your drone needs to have in order to be useful? Why?**
 
-Take 3-4 student responses. The point is to surface the prioritization step real engineers do: you can't add every cool feature, so you pick the ones that solve the biggest problems.
+Take 3-4 student responses. Ask which feature solves the most serious field-note problem. Engineers cannot add every possible feature, so students need a reason for what they choose first.
 
 ---
 

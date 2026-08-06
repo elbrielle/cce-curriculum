@@ -17,7 +17,7 @@
 
 **WARM-UP: Think about the strongest bridge you have ever seen. What made it strong, the shape, the materials, or the size? Write down your best guess.**
 
-Collect 2-3 guesses. Bridge to the idea that shape matters more than most students expect: a triangle holds its shape under load, while a square collapses into a parallelogram.
+Collect 2-3 guesses, then test the shapes. A triangle holds its shape under load, while a square can fold into a parallelogram.
 
 ---
 

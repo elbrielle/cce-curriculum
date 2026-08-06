@@ -17,7 +17,7 @@
 
 **WARM-UP: Besides school, what experiences have you had that might help you in a future career? Think wide, sports, clubs, volunteering, hobbies, family responsibilities, side hustles, video game tournaments, anything.**
 
-Take 5-6 student responses. Write them on the board. The point is to surface that experience does not require a paying job, students already have more relevant experience than they think.
+Take 5-6 student responses and write them on the board. Label the skill each experience required so students can see that chores, clubs, teams, and volunteer work count as experience even when nobody was paid.
 
 ---
 

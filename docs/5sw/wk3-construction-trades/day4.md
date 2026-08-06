@@ -17,7 +17,7 @@
 
 **WARM-UP: One new thing you learned about construction this week. Write it down in one sentence.**
 
-Quick share from 3 volunteers. Most will name a wage, a trade, or the apprenticeship model. Bridge into the day: this morning is about the credential that gets a 17-year-old onto a job site, and this afternoon is about the person who inspects the work after the crew leaves.
+Take a quick share from 3 volunteers. Most will name a wage, a trade, or the apprenticeship model. Use their answers to set up both halves of the day: the credential that can get a 17-year-old onto a job site and the inspector who checks the work after the crew leaves.
 
 ---
 

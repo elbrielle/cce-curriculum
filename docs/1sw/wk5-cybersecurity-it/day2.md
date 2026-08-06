@@ -17,7 +17,7 @@
 
 **WARM-UP: Have you ever clicked on something online that turned out to be a scam? Or watched a video that asked for your "free" password? What was your first clue something was wrong?**
 
-Quick share. Listen for: weird URL, bad spelling, "too good to be true" offer, asking for personal info. Bridge: "Every clue you just named has a name, and cybersecurity analysts get paid to catch them. Today you do that job."
+Quick share. Listen for a strange URL, bad spelling, an offer that looks too good to be true, or a request for personal information. Put each clue under the matching red-flag name students will use in the inbox investigation.
 
 ---
 
@@ -84,7 +84,7 @@ After about 9 minutes, students swap papers with a partner. The partner reads bo
 **Class Discussion (4 min).** Use the workbook's own prompts (FYF p. 25): what was the easiest clue to spot, which email was hardest to figure out and why, why do phishing emails succeed at tricking people, and what should you actually do if a suspicious email lands in your inbox in real life.
 
 !!! tip "Facilitation Tip"
-    A spoofed email that is obviously fake teaches nothing. Set the bar out loud before students write: your partner should have to look twice. The students who write the most convincing fakes are usually the ones who read the red-flag table most carefully, which is the point.
+    Set the bar before students write: the partner should have to look twice. An obviously fake message does not show that the student understands how a spoof works. Require at least one copied sign of legitimacy, such as a familiar logo or plausible sender name, alongside the red flags.
 
 **DOK 3:** What conclusions can you draw about why phishing emails still work on adults who already know scams exist? Use two red flags from today to support your answer.
 

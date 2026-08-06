@@ -17,7 +17,7 @@
 
 **WARM-UP: How many people do you think are involved in getting a single airplane from Dallas to New York? Take a guess. Be specific, count pilots, mechanics, baggage, fuel, security, food prep, and dispatchers.**
 
-Take 4-5 student guesses. Most students underestimate dramatically. Reveal: a typical commercial flight involves 100+ people behind the scenes, 2 pilots, 4-6 flight attendants, mechanics, fuelers, baggage handlers, gate agents, dispatchers, ATC, weather forecasters, and maintenance crew. Bridge: this entire week is about the people you do not see who keep transportation running.
+Take 4-5 student guesses, then show the staffing behind a typical commercial flight: 100+ people, including 2 pilots, 4-6 flight attendants, mechanics, fuelers, baggage handlers, gate agents, dispatchers, air traffic controllers, weather forecasters, and maintenance crew. Keep the list posted as students research the jobs they do not see from a passenger seat.
 
 ---
 
@@ -76,7 +76,7 @@ Students who finish early start the workbook's Step 4, Build a Campaign (p. 167)
 The workbook (p. 167) defines an incentive as something that motivates people to do something, like a small prize or a raffle entry, and explains that incentives raise the number of people who finish a survey. Examples: $5 gift card raffle, free movie ticket, donut from a local shop, free DART day pass. Students write their incentive at the bottom of the survey template and explain in one sentence why it would work.
 
 !!! tip "Facilitation Tip"
-    The incentive step is fast but important. It teaches students that surveys do not just appear in mailboxes. Real research requires thinking about how to motivate participation.
+    Do not skip the incentive step. Before a survey produces data, someone has to persuade people to answer it. Ask students what would make their chosen travelers stop and respond.
 
 **DOK 2:** How would you compare the kinds of information you get from multiple-choice questions versus short-answer questions? Why does a real survey need both?
 

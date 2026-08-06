@@ -17,7 +17,7 @@
 
 **WARM-UP: Drones can now fly over a 50-acre farm and find pest damage in 30 minutes, work that used to take a farmer 2 days. Who flies the drone? Did that job exist 20 years ago?**
 
-Take 3 student responses. Use this to bridge: emerging careers are jobs that barely existed 10-20 years ago because the technology or the social need is new. Today students pick one to research.
+Take 3 student responses. Define an emerging career as a job created or substantially changed by newer technology or a newer social need. Students will choose one to research today.
 
 ---
 
@@ -37,7 +37,7 @@ Walk through 4 examples in agriculture that didn't exist (or were tiny) in the y
 Each of these is part of a real H&L Hat or BLS career profile. Students will pick ONE for today's research.
 
 !!! tip "Facilitation Tip"
-    Some students will say "I don't care about farming." Reframe: the salary range for Precision Ag Technicians is $50,000-$80,000, and the work involves drones, GPS, and Python data scripts, not just shovels. Frame these as TECH careers that happen to apply in agriculture.
+    Some students will say, "I don't care about farming." Show the work before asking again: Precision Ag Technicians earn $50,000-$80,000 and use drones, GPS, and Python data scripts. These are technology careers applied to agriculture.
 
 ---
 

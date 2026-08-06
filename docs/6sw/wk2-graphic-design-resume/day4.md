@@ -17,7 +17,7 @@
 
 **WARM-UP: Name your favorite video game. Now name FOUR different careers it took to make that game (think beyond "the programmer").**
 
-Take 3-4 student responses. Most students name only "designer" or "coder." Bridge to today's activity, game development takes a TEAM with very specific roles.
+Take 3-4 responses. Most students will name only "designer" or "coder." List the roles they missed, then explain that today's studio team divides the work among specific jobs.
 
 ---
 

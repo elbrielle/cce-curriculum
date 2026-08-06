@@ -17,7 +17,7 @@
 
 **WARM-UP: Name a branch of the US military. Do you know anyone who has served, or who is currently serving? What did they do (or what do they do now)?**
 
-Take 4-5 student responses. Some students will know veterans personally. Bridge: today we are looking at aviation careers, and one of the main ways people become pilots and air traffic controllers in this country is by joining the military first.
+Take 4-5 student responses; some students may know veterans personally. Add military service to the four-year college and FAA-certified flight-school routes already under discussion, then have students compare the training each aviation career requires.
 
 ---
 

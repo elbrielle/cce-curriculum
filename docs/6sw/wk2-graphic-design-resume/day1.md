@@ -17,7 +17,7 @@
 
 **WARM-UP: Open your phone's camera roll (or just think about it). Who took most of the photos and videos on there? You are already creating visual content. Could that become a career?**
 
-Take 3-4 student responses. Most students will say "me", and that is the bridge. Bridge to today: every visual thing you see (movies, ads, social media, video games) is created by someone whose job is making visual content.
+Take 3-4 responses. Most students will say "me." Ask who made the images they were looking at. Movies, ads, social posts, and video games all depend on people whose job is visual communication.
 
 ---
 
@@ -126,4 +126,4 @@ Scenario: A new DFW middle school wants to launch a podcast for 7th graders to l
 
 - **Support:** Provide a podcast outline template with sample interview questions ("What inspired you to _____?", "What is your favorite _____?", "What advice would you give _____?"). Allow students to use a podcast they already love as the basis for their planning rather than inventing from scratch.
 - **Extension (from workbook):** The workbook's own "Extra Time?" box (FYF p. 271) sends early finishers to RECORD their podcast episode, using a Chromebook microphone and free recording software (Audacity, Vocaroo, or Google Recorder).
-- **ELL:** Pre-teach: Podcast = Pódcast, Episode = Episodio, Audience = Audiencia, Host = Anfitrión, Interview = Entrevista. The podcast can be planned in Spanish or be a bilingual show. Many DFW podcasts are bilingual, so this is an authentic format choice.
+- **ELL:** Pre-teach: Podcast = Pódcast, Episode = Episodio, Audience = Audiencia, Host = Anfitrión, Interview = Entrevista. Students may plan the podcast in Spanish or make it bilingual, matching formats they can find in DFW media.

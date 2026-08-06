@@ -32,7 +32,7 @@ Students complete one of three options based on what their account supports:
 2. **Screenshot bundle:** capture 3-4 key H&L pages and combine
 3. **Workbook backup:** hand-fill the planning tables on FYF pp. 294-296 ("Rung 7: High School Plan") and photocopy them
 
-The point is that something physical or digital exists to take home tonight.
+By the end of this block, every student needs a physical copy or a digital file they can show at home tonight.
 
 !!! tip "Facilitation Tip"
     Some students will not have a working printer at home. Print the PDF version in class today so it physically goes home in their backpack. Do not assume they will print it themselves.

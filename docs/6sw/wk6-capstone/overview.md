@@ -79,9 +79,9 @@ The *Find Your Future* Capstone chapter runs printed pages 277 through 300. It i
 - **Final Reflection** (FYF p. 300): four closing questions that end the book and the course.
 - **The Career Iceberg** (FYF pp. 6-8): a World of Work activity that opens the workbook rather than closing it. The printed example is a sports trophy, and pages 7 and 8 are blank iceberg frames labeled Electrician and Nurse for students to research and fill in.
 
-The rungs this week does not own were built earlier and are pulled back today: Rungs 1-3 (FYF pp. 281-286) at mid-year, Rung 5 (FYF pp. 290-291) last week, and Rungs 6-7 (FYF pp. 292-296) in the course-mapping week. This week owns the requirements page, the rubric, the Rung 4 debrief, Rung 8, Prepare & Present, and the Final Reflection.
+This week does not rebuild every rung. Rungs 1-3 (FYF pp. 281-286) return from mid-year, Rung 5 (FYF pp. 290-291) from last week, and Rungs 6-7 (FYF pp. 292-296) from the course-mapping week. This week covers the requirements page, the rubric, the Rung 4 debrief, Rung 8, Prepare & Present, and the Final Reflection.
 
-The Career Plan students download from H&L this week is the polished version of the d(8) artifact already produced in 4SW Wk1-Wk2. It is shareable with families and Irving ISD high school counselors during the 8th-to-9th grade transition.
+The Career Plan students download from H&L this week updates the d(8) artifact produced in 4SW Wk1-Wk2. Students can share it with families and Irving ISD high school counselors during the 8th-to-9th grade transition.
 
 ## IISD Instructional Strategies
 

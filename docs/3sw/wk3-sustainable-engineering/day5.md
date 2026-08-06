@@ -17,7 +17,7 @@
 
 **WARM-UP: We have spent 3 weeks in Agriculture. Has your view of "ag careers" changed since Week 1? In one sentence, how?**
 
-Take 4 student responses. Some students will say their view changed (they now see drones and biology, not just farming); some will say it didn't change. Both are valid, the goal of CCE is informed clarity.
+Take 4 student responses. Some students may now connect agriculture with drones or biology; others may say their view did not change. Accept either answer when the student can explain it with something from the past three weeks.
 
 ---
 
@@ -57,10 +57,10 @@ Direct students to log into eDynamic Learning and navigate to **Unit 7.1: Progre
 
 > [VERIFY IN eDynamic] Confirm with your district that Unit 7.1 is enabled and accessible to 7th-grade students. Verify the unit covers Agriculture content as expected. **If the unit is unavailable,** run "Powerskill: Adaptability" from the workbook instead (FYF p. 146). Students are the event planner for a huge outdoor community concert when the tech crew hits a problem and the show is delayed at least 30 minutes with a restless crowd waiting. Step 1: brainstorm on sticky notes how to keep the audience entertained, using the performers, vendors, and other teams already on site. Step 2: write a short stage announcement that tells the crowd about the delay and keeps them willing to wait. Step 3: pair up, share the plan and the announcement, and give each other constructive feedback. It is the same 15-min budget, it needs no internet, and it is the same skill Unit 7.1 is named for. A second fallback if the workbook is not in hand: research ONE real ag-tech company (e.g., Hylio, Skydio, DJI Agriculture) using BLS Environmental Engineers, BLS Agricultural Engineers, or climatekids.nasa.gov and write 2 sentences on what the company does and what careers it employs.
 
-Students work through Unit 7.1 at their own pace for 15 minutes. The goal is to make meaningful progress, not necessarily finish. Unit 7.1 may continue into Week 4 or beyond.
+Students work through Unit 7.1 at their own pace for 15 minutes. Record where each student stops so the unit can continue in Week 4 or beyond.
 
 !!! note "Differentiation"
-    Some students may finish Unit 7.1 quickly; others may need more time. The eDynamic platform tracks individual progress, so this is fine. The goal is exposure to the content, not race-to-finish.
+    Some students may finish Unit 7.1 while others need more time. Use the platform's progress record to resume later; do not treat speed as the measure of success.
 
 ---
 
@@ -72,7 +72,7 @@ After Xello and eDynamic, students take 5 minutes to write a 3-sentence reflecti
 - **Sentence 2:** "The Ag activity I enjoyed most was _____ because _____."
 - **Sentence 3:** "If I were to pursue an Ag pathway, I would most likely choose _____ because _____."
 
-These reflections are short but valuable, they capture student thinking at the cluster transition before moving into Hospitality next week.
+Read these before the Hospitality unit begins. They show which Agriculture connections students can name without prompting and which ones need a final reminder.
 
 **DOK 3:** Based on the past 3 weeks of activities (Vet Science, Plant Science, Sustainable Engineering), which Agriculture pathway has the strongest career future in Texas? Defend your answer with evidence from this week's drone activity AND the BLS data from earlier weeks.
 

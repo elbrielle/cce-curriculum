@@ -78,7 +78,7 @@ The sketch can be done in pencil or marker. It's a planning document, not a fina
 **DOK 2:** Why is a "Farm to Table" infographic more useful for a small farm than a giant grocery store like Kroger? What does a small farm get from showing the journey?
 
 !!! note "Connection to Career"
-    Today's brainstorm and sketch are the planning half of an Agricultural Communications Specialist's job: know the crop, know the customer, then design something the customer will actually read. Students who take to this work should watch for it again on Day 4, where every emerging ag career pairs plant science with a second skill set.
+    An Agricultural Communications Specialist has to understand the crop and the customer before designing the message. Students will see this pairing again on Day 4, when each emerging agriculture career combines plant science with another skill set.
 
 ---
 

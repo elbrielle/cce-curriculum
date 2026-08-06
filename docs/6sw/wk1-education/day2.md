@@ -44,7 +44,7 @@ Take 2-3 quick reactions. This sets up the comparison activity. Most students as
 - Apply for TEA certification
 - Total time: ~4 years from HS, but you EARN A SALARY in year 4 instead of unpaid student teaching
 
-**Key insight to highlight:** Both pathways lead to the SAME teaching certificate. A teacher hired through alt-cert and a teacher hired through traditional are paid the same and treated the same in the classroom. Texas created alternative certification because of teacher shortages in math, science, special education, and bilingual education.
+**Make this distinction clear:** Both pathways lead to the SAME teaching certificate. A teacher hired through alternative certification and one hired through a traditional program work under the same certificate and pay scale. Texas created alternative certification in response to shortages in math, science, special education, and bilingual education.
 
 Students take notes as the teacher presents. Then direct students to spend 5 minutes on the TEA certification page to confirm the information. That verification is the check between the two chunks and the comparison worksheet: whichever pathway students cannot restate from their own notes is the one to reproject before Activity 2 starts.
 
@@ -91,7 +91,7 @@ Suggest hats to explore: High School Teacher, Elementary Teacher, School Counsel
 
 **Source:** (FYF pp. 17-20: "Powerskill: Leadership")
 
-Transition to the Powerskill lesson. Leadership is not just about being in charge. Strong leaders help teams stay focused, solve problems, support others, and make decisions during challenges, and different situations may need very different kinds of leaders. There is no single correct answer in this activity. The work is defending a choice with evidence from each leader's strengths and challenges.
+Transition to the Powerskill lesson. Being in charge is only one part of leadership. Leaders also keep teams focused, solve problems, support other people, and make decisions when plans change. Different situations call for different styles, so there is no single correct ranking. Students have to defend a choice with evidence from each leader's strengths and challenges.
 
 **Step 1: Meet the Leaders (3 min):** Students read the four leader profiles on page 17.
 

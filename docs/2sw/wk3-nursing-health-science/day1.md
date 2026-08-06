@@ -17,7 +17,7 @@
 
 **WARM-UP: Name every type of healthcare worker you can think of in 60 seconds. How many did you get?**
 
-Take a quick whip-around the room. Bridge: most students will name 5-10. Health Science actually contains over 200 careers. Today the class enters one of the largest career clusters in the country.
+Take a quick whip-around and count the distinct careers students name. Most classes stop around 5-10, while Health Science contains more than 200. Today students begin sorting that larger field into pathways and job types.
 
 ---
 

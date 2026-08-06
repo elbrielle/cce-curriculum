@@ -56,7 +56,7 @@ Close the activity with the workbook's own Class Discussion prompts (FYF p. 95):
 
 **Source:** TEKS d(5)(C): Analyze the effects of changing employment trends, societal needs, and economic conditions on career choices
 
-Transition to the societal needs analysis with a direct bridge: the drone the student designed yesterday *IS* a career that barely existed 20 years ago. Ag-Tech Drone Operator is one of the clearest recent examples of what changing farm needs plus new technology create together. The Ag Engineer's field notes name the societal change driving it: the farmer at Green Valley Farms sprays chemicals everywhere, and targeted spraying would be far better for the environment (FYF p. 93). Pressure to spray less is what pays for the drone. Today's chart looks at other societal changes and asks what new careers each one is producing.
+Move to the societal needs analysis by tracing yesterday's drone to the job behind it. Ag-Tech Drone Operator became possible when farm needs met newer drone and sensor technology. The Ag Engineer's field notes give students the need: Green Valley Farms sprays chemicals across the whole field, while targeted spraying would use them only where pests are present (FYF p. 93). Use that need-and-technology pair as the model for today's new-careers chart.
 
 Project the chart template on the board:
 

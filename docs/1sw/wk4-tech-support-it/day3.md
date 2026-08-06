@@ -17,7 +17,7 @@
 
 **WARM-UP: If someone brought you a computer that would not turn on, what are the FIRST 3 things you would check, in order?**
 
-Quick share. Listen for: "Is it plugged in?" "Is the power button working?" "Is the screen on?" Bridge: "What you just did is troubleshooting, and it has a specific ORDER. Today you build a tool that displays troubleshooting steps in order, just like real help desk software."
+Quick share. Listen for: "Is it plugged in?" "Is the power button working?" "Is the screen on?" Put those questions in order on the board. Students will use the same sequence to build a troubleshooting checklist on the micro:bit.
 
 ---
 

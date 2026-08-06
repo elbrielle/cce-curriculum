@@ -22,7 +22,7 @@
 
 **WARM-UP: Would you rather have a job that pays a lot but you work alone all day, or a job that pays less but you work with a fun team? Write one sentence explaining your choice.**
 
-Collect 2-3 verbal responses. Bridge to the lesson: "What you just answered is a clue about your Work Values. Today we figure out what really matters to you in a job, not just what type of person you are."
+Collect 2-3 verbal responses and name the need inside each answer, such as schedule, pay, independence, or helping others. Those needs lead into today's Work Values activity.
 
 ---
 

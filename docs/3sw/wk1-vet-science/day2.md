@@ -17,7 +17,7 @@
 
 **WARM-UP: A Vet Tech earns about $38,000 a year. A Veterinarian earns about $108,000 a year. The Veterinarian's school takes 8 years after high school. The Vet Tech's school takes 2 years. Which job sounds better to YOU, and why?**
 
-Take 3-4 quick responses without judgment. The point is to surface the trade-off: more school = more pay, but also more years and more debt. Today's research helps students put real data on both sides.
+Take 3-4 quick responses without judgment. Put the trade-off on the board: more school may lead to more pay, but it also means more years in school and possibly more debt. Students will use today's research to check both sides against BLS data.
 
 ---
 
@@ -51,7 +51,7 @@ Students complete the Vet Career Comparison worksheet using both pages. The work
 | One Workplace Setting | | |
 
 !!! tip "Facilitation Tip"
-    The BLS pages are dense. Project the Veterinarian page on the screen, highlight where the median pay number appears ("Pay" tab), and direct students to find the same number on their own screens before they continue. Repeat the demo for the Vet Tech page.
+    The BLS pages are dense. Project the Veterinarian page, point out the median pay number under the "Pay" tab, and have students find it on their own screens before they continue. Repeat the demo for the Vet Tech page.
 
 ---
 

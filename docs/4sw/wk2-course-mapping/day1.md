@@ -19,7 +19,7 @@
 
 **Stop and Jot:** 90 seconds, both lines required, with the stems on the board: "One thing about high school that worries me is _____" and "One thing I am excited about is _____." Read over shoulders while students write and note whether the worries are about scheduling or about belonging.
 
-Take 4-5 student responses. Validate both the worry and the excitement. Bridge: high school decisions get made in 8th grade. The 9th-grade course you pick determines what is available to you in 10th, 11th, and 12th, so the planning we do today actually matters.
+Take 4-5 student responses and name both the worry and the excitement. Show one course with a prerequisite so students can see how a 9th-grade choice affects what fits in grades 10 through 12.
 
 ---
 

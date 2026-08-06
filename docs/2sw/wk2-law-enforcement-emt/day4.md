@@ -17,7 +17,7 @@
 
 **WARM-UP: You are the emergency room team. A hiker arrives with a sling on one arm and a splint on one finger, but no notes came with them. What three things do you most need to know from the responder who treated them?**
 
-Take 3-4 responses. Students name the injury, what was done, and when it happened. Bridge: those three answers are the reason Wilderness First Responders write a Patient Care Report before they hand a patient off. Today students finish theirs, then find out what happens when the trail stops cooperating.
+Take 3-4 responses. Sort each answer into injury, care provided, and time. Those are the details the next medical team needs from a Wilderness First Responder's Patient Care Report. Students finish that report before working the trail complication.
 
 ---
 

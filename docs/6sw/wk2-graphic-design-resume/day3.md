@@ -17,7 +17,7 @@
 
 **WARM-UP: If you were hiring someone for your dream job, what TWO things would you look for first when you read their resume?**
 
-Take 4-5 student responses. Bridge to today: employers care about details. Typos, missing information, vague claims, these kill resumes. Today's Powerskill activity is about catching missing details before they cost you a job.
+Take 4-5 responses. Then put the same problems into a resume: a typo in the phone number, a missing activity, or a claim so vague it tells the employer nothing. Today's Powerskill activity is practice finding those gaps before the resume is sent.
 
 ---
 

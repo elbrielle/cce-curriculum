@@ -17,7 +17,7 @@
 
 **WARM-UP: You have a job interview tomorrow. What would you wear? What would you NOT wear? Be specific.**
 
-Take 4-5 student responses. Bridge to today: on Day 2 the class answered the workbook's question about why a strong first impression matters in sales. An interview is the same problem with higher stakes, and most students have never been told the rules. Today the class writes them down.
+Take 4-5 responses. Return to Day 2's question about first impressions in sales, then move it to an interview. Today the class names the unwritten rules and turns them into a checklist students can practice.
 
 ---
 

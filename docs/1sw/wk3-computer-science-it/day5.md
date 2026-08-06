@@ -17,7 +17,7 @@
 
 **WARM-UP: You have now spent 2 weeks in IT. Has your interest in IT gone up, down, or stayed the same since last Wednesday? Write one sentence explaining why.**
 
-Quick share. Listen for students whose interest has changed; both directions are valuable. Bridge: "Today you also hear from your classmates about emerging IT careers you may not have researched yourself."
+Quick share. Ask students whose interest changed to name the fact that changed it. During today's presentations, each student will hear about emerging IT careers beyond the one they researched.
 
 ---
 

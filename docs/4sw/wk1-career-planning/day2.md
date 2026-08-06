@@ -17,7 +17,7 @@
 
 **WARM-UP: Think of someone who is great at something, an athlete, a musician, a YouTuber, a family member at their job. What do most people see them doing? What do most people NOT see?**
 
-Take 2-3 quick responses. Bridge: today we are going to map our own career goal as an iceberg. The career outcome people will see is the tip; everything underneath is the work that gets us there.
+Take 2-3 quick responses. Draw a waterline through one answer: place the visible career result above it and the training, practice, setbacks, and help below it. Students will build their own version today.
 
 ---
 
@@ -43,7 +43,7 @@ Take 2-3 quick responses. Bridge: today we are going to map our own career goal 
 Students who get stuck should browse the H&L app or flip back through their own workbook pages rather than inventing items. The underwater list should be things they have actually seen, read, or practiced this year.
 
 !!! tip "Facilitation Tip"
-    The trap is for students to put only positive things underwater ("hard work," "studying"). Push them to include hard things too, "missed friend's birthday," "got a bad grade and had to retake," "had to ask for help when I didn't want to." The point of the iceberg is honesty about cost, not just effort.
+    Students may put only vague, positive ideas underwater, such as "hard work" or "studying." Ask what the work cost: "missed friend's birthday," "got a bad grade and had to retake," or "had to ask for help when I didn't want to." The iceberg should show a specific cost students could not see above the waterline.
 
 ---
 

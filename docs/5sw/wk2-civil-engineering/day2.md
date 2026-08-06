@@ -37,7 +37,7 @@ Then teach each test with a short, concrete description and one key reason it ma
 - **TSI (Texas Success Initiative):** Required by Texas community colleges and universities before enrolling in college-level courses. Measures reading, writing, and math readiness.
 
 !!! tip "Facilitation Tip"
-    Emphasize that SAT/ACT scores affect not just admission but also scholarships. A student who improves their SAT math score by 100 points can unlock thousands of dollars in engineering scholarships at Texas universities.
+    Include scholarships when explaining how colleges use SAT or ACT scores. Use a current Texas university scholarship table if you want to attach dollar amounts; award thresholds change and should not be estimated from memory.
 
 ---
 

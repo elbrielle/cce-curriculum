@@ -17,7 +17,7 @@
 
 **WARM-UP: After this week, could you see yourself working in the legal field? Why or why not?**
 
-Take 3-4 responses. Some students will say "yes" and some "no", both are valid. The point of CCE is making informed choices, not pushing every student toward every career.
+Take 3-4 responses from both sides. A well-supported "no" is useful career information, so ask each student what fact from the week shaped the answer.
 
 ---
 
@@ -42,7 +42,7 @@ Students submit the polished paper (digital or paper). This is the summative ass
 
 Name where this goes next. These favorites and the pathway rating are the top Hats students draw on in the Capstone, where they choose one Hat as a career goal and write why (FYF p. 283: "Rung 2: Career Goal"). The Irving side of the same question is **Dual Credit** (FYF p. 56), where a Paralegal Associate of Applied Science or a Junior Legal Assistant Certificate at Singley Academy can start in high school.
 
-The teacher circulates and asks each student: "Which legal career did you favorite, and why?" This is a quick formative check that students engaged with the cluster meaningfully.
+Circulate and ask each student, "Which legal career did you favorite, and why?" Check that the answer names a specific job detail rather than only "it sounds cool."
 
 !!! tip "Facilitation Tip"
     Watch for students who favorite a career just because it pays well. Push back: "What about the daily work attracts you?" The Climber Profile is a personal record. Students should be honest, not strategic.

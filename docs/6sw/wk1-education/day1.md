@@ -17,7 +17,7 @@
 
 **WARM-UP: Name your favorite teacher you have ever had. What made them great, their knowledge, their personality, the way they ran the classroom, or something else?**
 
-Take 3-4 student responses. Bridge to the idea that great teachers think carefully about both WHAT they teach AND WHERE/HOW they teach it. Today's activity puts students in the role of designing the learning space itself.
+Take 3-4 responses. Point out that teachers plan the content, the room, and what students will do in it. Today students take on the room itself by designing a learning space.
 
 ---
 
@@ -44,7 +44,7 @@ The opener puts three Hats on the page: **Curator**, **Early Childhood Teacher**
 
 **Source:** (FYF pp. 214-215: "Community Classroom"), a Career Climb activity
 
-Read the framing on page 214. A great learning environment is not just the classroom walls. Outdoor classrooms let students connect with nature and learn hands-on in ways that are hard to do inside, and indoor spaces can be designed to be comfortable and full of resources like books and technology. Improving a learning space takes creativity and innovation, and that is the job students take today: they are in charge of curriculum at a school, and their goal is an exciting new learning space for third-grade students studying science.
+Read the setup on page 214. Outdoor classrooms can give students direct access to plants, weather, and soil; indoor spaces can put books, technology, and work surfaces within reach. Students are in charge of curriculum at a school, and they have to design a new learning space for third-grade science.
 
 **Step 1: Learn the Requirements (3 min)**
 

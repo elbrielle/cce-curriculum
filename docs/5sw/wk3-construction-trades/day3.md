@@ -29,7 +29,7 @@ Walk through the three classification categories clearly before students start. 
 - **High-wage** = Median DFW salary is above $50,000/year (the local living wage for a family is roughly that). Example: Construction Manager.
 - **High-demand** = BLS projects job growth above average (usually 5%+ over 10 years) AND there are more openings than qualified workers in DFW. Example: Carpenter in DFW due to the construction boom.
 
-A career can check one, two, or all three boxes. The most valuable careers for a young person to consider are the ones that are all three.
+A career can check one, two, or all three boxes. When it checks all three, students have evidence that the work requires training, pays well, and has employers looking for workers.
 
 !!! tip "Facilitation Tip"
     Model one classification on the board using Electrician data before letting students work independently. Show how you cite specific BLS and H&L numbers as evidence, not just opinions.

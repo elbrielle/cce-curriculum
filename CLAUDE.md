@@ -94,6 +94,7 @@ Before any substantive edit, read **`cce-curriculum/notes/editing-heuristics.md`
 Also read **`PLANNING.md`** for current project state, non-negotiables, and preservation loop.
 
 For specific edit types, also read:
+- **Any teacher-facing prose edit** — `cce-curriculum/notes/teacher-voice-standard.md` (plain, specific teacher voice; anti-AI editorial checks; protected curriculum language)
 - **Any week content (FYF realignment era)** — `cce-curriculum/notes/fyf-realignment-plan.md` (citation rules, ratified decision register, per-week status) + `cce-curriculum/notes/district-expectations-2026.md` (binding 5E/instructional-moves overlay spec + QA checklist)
 - **Exit tickets / lesson objectives / DOLs** — `cce-curriculum/notes/teks-audit-process.md` (6-step audit) + `exit-ticket-templates.md` (10-format bank)
 - **CFAs** — `cce-curriculum/notes/cfa-template.md` (4-part structure, 4-level rubric)

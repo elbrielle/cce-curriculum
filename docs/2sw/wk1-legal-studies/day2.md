@@ -17,7 +17,7 @@
 
 **WARM-UP: A flood is coming and you have 5 minutes to grab 10 things from your house. What do you grab first, and why?**
 
-Take 3-4 student responses. Most students will name comfort items (phone, charger). Bridge to the workbook's framing: emergency-services professionals plan for survival, not comfort.
+Take 3-4 student responses. If the list leans toward phones, chargers, and other comfort items, ask which choices still help after the power goes out. Then move to the workbook's survival-based list.
 
 ---
 
@@ -27,7 +27,7 @@ Take 3-4 student responses. Most students will name comfort items (phone, charge
 
 Introduce the activity by reading the workbook scenario aloud: *"Imagine you are a firefighter who works for your local fire department and you need to create an emergency kit that citizens can use. This kit is designed to help people during an emergency, and you will need to choose the right items to put in your kit. You can only fit 10 items in your kit, so think critically about which ones are really essential."*
 
-Connect this to the cluster: firefighters, police officers, and paramedics sit in Law and Public Safety alongside the courtroom careers, and the workbook's framing is that they never show up unprepared. These careers require the same critical thinking that lawyers and investigators use, just under a stopwatch.
+Firefighters, police officers, and paramedics sit in Law and Public Safety alongside courtroom careers. All of them weigh incomplete information, but emergency responders often have minutes rather than days to decide.
 
 **Step 1: Each student chooses ONE emergency scenario** (FYF p. 50):
 

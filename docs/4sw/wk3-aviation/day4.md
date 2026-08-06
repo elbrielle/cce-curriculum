@@ -82,7 +82,7 @@ The Simulation Run Log captures:
 - One thing the team will change for the next run
 
 !!! tip "Facilitation Tip"
-    **Active Monitoring:** walk one lap per run, each lap with a single target. Run 1, every clearance names a runway. Run 2, the pilot reads the command back before the plane moves. Run 3, the runway is cleared before the emergency landing. Carry the communication checklist and mark it as you go. Have the response ready for the two predictable breakdowns: a clearance with no runway number, and two pilots moving at once because nobody acknowledged. Stop the team mid-run when you see one and ask what just happened and how a real ATC fixes it. If more than a handful of teams miss the Run 2 target, pivot and model one full call-and-readback to the whole room instead of stopping team by team.
+    **Active Monitoring:** walk one lap per run, each lap with a single target. Run 1, every clearance names a runway. Run 2, the pilot reads the command back before the plane moves. Run 3, the runway is cleared before the emergency landing. Carry the communication checklist and mark it as you go. Prepare for two likely breakdowns: a clearance with no runway number, and two pilots moving at once because nobody acknowledged. Stop the team mid-run when you see one and ask what happened and how a real ATC would fix it. If more than a handful of teams miss the Run 2 target, model one full call-and-readback for the class.
 
 **DOK 4:** Based on your simulation experience, what specific improvements would you recommend to your team's communication procedures? What evidence from your test runs supports each recommendation?
 
@@ -128,6 +128,6 @@ Step 3: ONE SPECIFIC goal I could set if I wanted to become a pilot or ATC (from
 
 ## Differentiation
 
-- **Support:** Stay at Tier 1 for the full simulation if needed, repetition with success is more valuable than failing at a higher tier. Provide a printed sentence stem card for the controller role so they have the language to use.
+- **Support:** Keep students at Tier 1 until they can complete the call-and-readback sequence without skipping a step. Provide a printed sentence stem card for the controller role so they have the language to use.
 - **Extension:** Create a fourth scenario card with an unexpected event (bird strike, runway debris, lost radio communication). Run the team through it as a true emergency drill.
 - **ELL:** The bilingual ATC command card from Day 1 carries over here, make sure ESL students rotate into the controller role using the bilingual command card. Pre-teach: Cleared = Despejado, Hold = Mantenga, Taxi = Taxi, Runway = Pista.

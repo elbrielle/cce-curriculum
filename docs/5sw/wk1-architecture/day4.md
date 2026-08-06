@@ -23,7 +23,7 @@ Have 2-3 students share their improvement plans. This sets intentional goals for
 
 ## Activity 1: Design Iteration with Checkpoints (20 min)
 
-Students continue building their 3D designs in TinkerCAD. Rather than open-ended work time, use **three timed checkpoints** to keep students on track and ensure quality:
+Students continue building their 3D designs in TinkerCAD. Use **three timed checkpoints** so the walls, openings, and one detail are all finished before time runs out:
 
 ### Checkpoint 1 — by minute 7
 **Walls and roof are built and grouped.** All wall shapes and the roof should be combined into a single grouped object. *If a student did not finish walls and roof on Day 3, use the first 5 minutes today to complete them, raise a hand for a quick teacher check before moving on to holes.* Circulate and verify, if a student's shapes are not grouped, help them select all and press Group (Ctrl+G).
@@ -51,7 +51,7 @@ This PNG is the deliverable they will present on Day 5.
 
 **Source:** (FYF pp. 182-184: "Unexpected Architecture"), a Career Climb activity
 
-Transition from individual digital design to firm work. Introduce the concept from page 182: architects do more than design normal buildings, they also want a design to catch your eye and tell a story. **Novelty architecture** is a playful style where buildings are intentionally shaped like everyday objects, such as a library shaped like a giant stack of books or a sports company headquarters inside a building shaped like an athletic shoe.
+Transition from individual digital design to firm work. Page 182 introduces **novelty architecture**, a playful style in which a building takes the shape of an everyday object. A library might look like a stack of books; a sports company headquarters might look like an athletic shoe. The building still has to work, but its shape is meant to catch attention and tell a story.
 
 The scenario: the city council has called. They want an iconic, visually striking building that will put their city on the map, become an instant landmark, and draw in tourists.
 

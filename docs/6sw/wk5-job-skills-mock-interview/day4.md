@@ -17,7 +17,7 @@
 
 **WARM-UP: What is the SCARIEST part of a job interview for you? Write it down. We are going to practice until it is not scary.**
 
-Take 3-4 student responses. Common answers: "I won't know what to say," "I'll forget my words," "they'll ask something hard." Bridge to today: every fear has a fix, and today is about fixing them with practice.
+Take 3-4 responses. Common answers are "I won't know what to say," "I'll forget my words," and "they'll ask something hard." Keep the list up and match each fear to a practice move during the lesson.
 
 ---
 
@@ -58,7 +58,7 @@ The eight questions below are CCE-authored, not workbook content. They are the m
 7. Why should I hire you?
 8. Do you have any questions for me?
 
-**Student task:** Pick a job. The default three are Warehouse Associate, Office Assistant, and Social Media Assistant. Students may instead use the Pecan Creek Vet Clinic Office Assistant posting they wrote to on Day 2, or the real posting they recorded on Job Posting #1. Write **bullet-point answers** to ALL 8 questions for that job. NOT essays, bullet points only. The point is to think through what you would say without writing a script. Students who chose a real posting should answer question 2 straight out of the posting's own responsibilities line.
+**Student task:** Pick a job. The default three are Warehouse Associate, Office Assistant, and Social Media Assistant. Students may instead use the Pecan Creek Vet Clinic Office Assistant posting they wrote to on Day 2, or the real posting they recorded on Job Posting #1. Write **bullet-point answers** to ALL 8 questions for that job. NOT essays, bullet points only. The notes should be enough to guide an answer without becoming a script. Students who chose a real posting should answer question 2 from the posting's own responsibilities line.
 
 **Tips for each question:**
 
@@ -98,10 +98,10 @@ After the fishbowl, lead a 3-minute debrief:
 - What is one specific thing they could improve?
 - What surprised you?
 
-This demo shows students exactly what they will do tomorrow. It removes the mystery.
+The room setup, question cards, timing, and rubric stay in place for tomorrow so students practice the same routine they will use in the scored interview.
 
 !!! tip "Facilitation Tip"
-    Pick a confident student volunteer for the fishbowl. The point is to model success, not to embarrass anyone. After the demo, briefly run a "what NOT to do" version where the volunteer slumps, mumbles, and gives one-word answers. The contrast makes the rules visible.
+    Ask for a confident volunteer and tell them what the demonstration will include before they agree. After the first run, repeat one answer with a slumped posture, low voice, and one-word response; have the class name which rubric rows changed.
 
 **DOK 2:** What body language signals professionalism in an interview? Name 3 specific things you observed in the fishbowl.
 

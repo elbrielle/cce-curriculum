@@ -17,7 +17,7 @@
 
 **WARM-UP: If you were accused of something you did not do, who would you want on your side, and what skills would they need?**
 
-Take 2-3 student responses. Bridge to the idea that the legal system runs on more than just lawyers. It includes paralegals, court reporters, judges, and investigators. Each role has different skills and education paths.
+Take 2-3 student responses, then add the roles students usually miss: paralegals, court reporters, judges, and investigators. Each has a different job and education path within the legal system.
 
 ---
 
@@ -27,7 +27,7 @@ Take 2-3 student responses. Bridge to the idea that the legal system runs on mor
 
 Open the lesson by connecting the 1st Six Weeks (IT, Manufacturing) to today's pivot into the Law cluster. Open the workbook to page 39 and read the chapter opener together: this cluster brings together fast action and careful decision-making. Some roles respond in the moment during an emergency, while others investigate, analyze, and piece together what happened. Together they keep order, solve problems, and protect communities.
 
-Three Hats appear on the opener page. Read each one aloud and ask students which half of that description it sits closer to, the fast-action half or the investigate-and-analyze half, and why. Students will disagree, and the disagreement is the point:
+Three Hats appear on the opener page. Read each one aloud and ask students whether it fits more closely with fast action or with investigation and analysis, and why. Do not settle the category for them; a Judge or Warden can reasonably draw both answers.
 
 - **Judge**
 - **Firefighter**
@@ -74,7 +74,7 @@ Each student then selects ONE legal career and completes the **legal career rese
 **DOK 2:** How would you compare the education pathway for a Paralegal versus an Attorney? Which pathway lets you enter the workforce sooner, and which one earns more?
 
 !!! tip "Facilitation Tip"
-    Court Reporter is the surprise career to watch for. It pays well (median $60K+), requires only an associate degree or certificate, and has fast job entry. Highlight it for students who want a legal career without 7 years of school.
+    Students often overlook Court Reporter. Point out the $60K+ median pay and the associate-degree or certificate route for students interested in legal work without seven years of school.
 
 ---
 

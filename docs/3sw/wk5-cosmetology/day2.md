@@ -17,7 +17,7 @@
 
 **WARM-UP: Look at your Concept Card from yesterday. Name the ONE texture you have to nail today for your transformation to look real, and name the material you will use to get it.**
 
-Take 4 responses, one per texture family if you can get them. Bridge: today is build day. The workbook gives three steps and each one has to work before the next one matters.
+Take 4 responses, one per texture family if possible. Put the workbook's three build steps on the board in order. Students should not move to the next step until the previous layer is ready.
 
 ---
 

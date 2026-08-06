@@ -17,7 +17,7 @@
 
 **WARM-UP: Have you ever stayed at a hotel where something went wrong (room not ready, food problem, AC broken)? How did the staff handle it?**
 
-Take 3-4 student responses. Bridge: hotels run on teams. When a problem hits, every staff member has to play their role. Today students step into the shoes of hotel staff and solve real problems.
+Take 3-4 student responses. Ask who handles the guest, who fixes the immediate problem, and who keeps it from happening again. Students will need all three roles in today's hotel scenarios.
 
 ---
 

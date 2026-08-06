@@ -17,7 +17,7 @@
 
 **WARM-UP: Guess, how much do you think an experienced diesel mechanic earns per year in Dallas? Write your guess.**
 
-Take 5-6 student guesses. Most students wildly underestimate (typical guesses: $25K, $30K). Reveal : experienced diesel mechanics in DFW earn $55K-$75K, with master diesel techs at large fleets making $80K+. Bridge: today is all about replacing guesses with real numbers.
+Take 5-6 student guesses; $25,000-$30,000 is common. Then show the comparison figure: experienced diesel mechanics in DFW earn $55,000-$75,000, with master diesel technicians at large fleets making $80,000 or more. Students will check salary figures across H&L, BLS, and a local source today.
 
 ---
 

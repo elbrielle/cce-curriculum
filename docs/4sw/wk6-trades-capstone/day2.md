@@ -17,7 +17,7 @@
 
 **WARM-UP: Name a skill that a pilot, a nurse, AND an auto mechanic ALL need. Hint: it is not a technical skill from any one of those jobs.**
 
-Take 4-5 student responses. Common answers: communication, attention to detail, staying calm, problem solving. Bridge: today we are mapping out exactly which skills work across every career, and the answer is going to surprise some of you, almost all the soft skills apply to almost every job.
+Take 4-5 student responses: communication, attention to detail, staying calm, or problem solving. Keep them posted while students test each skill against six careers. Require an example before a skill earns a YES in the matrix.
 
 ---
 
@@ -61,7 +61,7 @@ The whole class fills in the matrix at the same time. **Active Monitoring:** wal
 Have feedback ready before class for the two predictable errors, blank cells left instead of an argued NO, and Leadership marked NO across the trades careers. If more than a handful of students stall on the Leadership row, pause the room and run the shop-floor questions from the facilitation tip below instead of answering desk by desk.
 
 !!! tip "Facilitation Tip"
-    Students will reflexively say "leadership doesn't apply to mechanics." Push back gently: "Who runs the shop? Who trains the new tech? Who deals with an angry customer when the manager is gone?" The skill is there, they just associated leadership with formal titles instead of behaviors. This is the exact skill-recognition the matrix is designed to surface.
+    Students may say, "Leadership doesn't apply to mechanics." Ask: "Who runs the shop? Who trains the new tech? Who deals with an angry customer when the manager is gone?" Have students name the leadership behavior before changing the matrix cell.
 
 After 28 minutes of filling in cells, students count their total number of YES answers (the maximum is 48, 6 careers × 8 skills). Most students should have 40+. They write the total at the bottom: "I marked YES on _____ out of 48 cells. The skill that applied to ALL 6 careers most clearly is _____ because _____."
 

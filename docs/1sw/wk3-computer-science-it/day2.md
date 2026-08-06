@@ -17,7 +17,7 @@
 
 **WARM-UP: Pick the BEST website you have ever used and the WORST website you have ever used. What made the good one good? What made the bad one bad?**
 
-Quick share. Listen for: easy to find things, looks nice, fast loading, works on phone (good); cluttered, confusing, slow, broken links (bad). Bridge: "Today YOU become the UX Designer. A company is losing customers because its website is confusing, and your job is to find out why."
+Quick share. Sort responses on the board: easy to find, fast loading, and works on a phone versus cluttered, slow, confusing, or broken. Students will use that list as UX designers auditing the practice site.
 
 ---
 
@@ -34,7 +34,7 @@ Walk the two lists in Step 1 side by side. Good UX: easy navigation with clearly
 After reading, ask 3-4 students to name ONE good-UX rule and ONE bad-UX problem. Then show 2 example websites on the projector: one well-designed (Apple, Wikipedia, Khan Academy) and one cluttered (a busy news site). Have students apply the workbook's four rows to critique each.
 
 !!! tip "Facilitation Tip"
-    Show real examples of bad websites for fun. Students love finding broken or cluttered sites. The contrast makes the workbook's four rows stick, and it gives students the vocabulary they will need in the audit.
+    Show one school-appropriate broken or cluttered site before the workbook example. Ask students to name the problem using the four UX rows; keep their terms on the board for the audit.
 
 ---
 

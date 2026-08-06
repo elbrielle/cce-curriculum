@@ -17,7 +17,7 @@
 
 **WARM-UP: What does "work ethic" mean to you in your own words? Describe someone you know who has a strong work ethic, a teacher, family member, coach, or peer.**
 
-Take 4-5 student responses. Build a quick word cloud on the board with the recurring traits, punctual, finishes things, doesn't complain, takes pride. Bridge: today we connect those traits to specific trades careers where work ethic literally saves lives.
+Take 4-5 student responses and build a quick word cloud: punctual, finishes things, follows through, takes pride. Ask what each trait looks like during an inspection, repair, or safety check before students connect it to a trades career.
 
 ---
 
@@ -32,7 +32,7 @@ Walk through 3-4 specific examples where work ethic and integrity in trades care
 - **Drone Pilot + Part 107 logbook:** Commercial drone pilots are required to log every flight, every battery check, every safety incident. A pilot who lies in their logbook and gets caught loses their certification permanently.
 - **Diesel Tech + commercial truck inspection:** Diesel techs inspect 18-wheelers that share the road with families. Skipping a brake check can kill people. Work ethic isn't a nice-to-have. It is the entire job.
 
-Surface the pattern: in every trades career, work ethic is not just about being a good person. It is the safety system that protects the public. Employers cannot hire skill without ethics. They will fire a skilled-but-dishonest tech immediately.
+Ask what happens when a skilled worker lies about a repair, inspection, or measurement. In the trades, work ethic affects whether the public can trust the work and whether the finished job is safe.
 
 Students complete the printed Work Ethic Examples worksheet. They pick **one career** they have explored this year and describe:
 - One specific task in that career where work ethic matters
@@ -61,7 +61,7 @@ Students complete a Career Plan accumulation check:
 4. **Confirm the chosen pathway:** the same one they selected during the mid-year review, or update it if their thinking has shifted
 5. **Take a screenshot** of their updated Career Plan and save it to their student drive
 
-The point is to make sure the H&L Career Plan reflects the full year of work, not just the most recent week.
+Check that the H&L Career Plan includes evidence from earlier clusters as well as this week.
 
 !!! tip "Facilitation Tip"
     Some students will have very thin Career Plans because they forgot to favorite during earlier weeks. Allow them to spend 10 minutes browsing earlier clusters and adding favorites based on memory. The H&L Career Plan only works if it captures real student data over time.

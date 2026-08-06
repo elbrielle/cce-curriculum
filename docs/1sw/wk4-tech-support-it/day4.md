@@ -17,7 +17,7 @@
 
 **WARM-UP: What is the HARDEST part about helping someone fix a technology problem? Is it the technology itself, or the communication with the frustrated person?**
 
-Quick share. Most students will say "the communication" once they think about it. Bridge: "Today is about both, refining your tool AND practicing the communication side of help desk work."
+Quick share. Ask what happens if the fix is correct but the user cannot follow the explanation. Today students revise the tool and practice giving its steps to another person.
 
 ---
 

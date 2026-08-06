@@ -41,7 +41,7 @@ The class fills in a quick listening grid as each team presents, what was the mo
 
 **Source:** eDynamic Unit 2.2 + 3-Step Aviation Goal Plan template
 
-Students return to eDynamic Unit 2.2 from Day 4 and finish the unit. The unit's key takeaway: SMART goals are Specific, Measurable, Achievable, Relevant, and Time-bound.
+Students return to eDynamic Unit 2.2 from Day 4 and finish the unit. Review the five SMART criteria before they write: Specific, Measurable, Achievable, Relevant, and Time-bound.
 
 After completing eDynamic, each student writes a **3-step goal plan for an aviation career** on the printed template. Even if a student is not personally interested in aviation, they write the plan as an exercise in long-range goal sequencing. The template structure:
 
@@ -65,7 +65,7 @@ Every Hat rated here lands in the student's Climber Profile, which is the source
 
 ## Activity 3: Quick Share (6 min)
 
-In pairs, students share one of their three goal steps with a partner. Then 2-3 volunteers share their Step 3 (the long-term goal) with the whole class. The point is to hear how different students broke aviation careers into different sequences.
+In pairs, students share one of their three goal steps with a partner. Then 2-3 volunteers share Step 3, the long-term goal, with the whole class. Ask listeners to identify where the sequences differ and whether each step still leads to the named career.
 
 ---
 

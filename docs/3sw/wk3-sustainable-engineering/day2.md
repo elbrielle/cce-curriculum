@@ -17,7 +17,7 @@
 
 **WARM-UP: A farmer in Texas has 50 acres of tomatoes. Tiny insects are eating the leaves but the farmer can't spot them by walking the field, the pests are hiding under leaves, and the field is too big. What technology could help?**
 
-Take 3-4 student responses. The class should land on something like drones, cameras, or sensors. Bridge: today students step into the role of an Agricultural Engineer designing exactly that drone.
+Take 3-4 student responses. When the class reaches drones, cameras, or sensors, ask what information each tool could collect. Students will use those answers as Agricultural Engineers designing a drone.
 
 ---
 
@@ -37,7 +37,7 @@ Frame the activity for students: this is a real engineering problem. Real ag dro
 
 **Source:** (FYF pp. 93-94: "Ag-Tech Pest Patrol", Step 1: Read Field Notes)
 
-The workbook's Step 1 has the class read the field notes together, circle or highlight key information, and discuss what each professional adds to the design. Three sets, three different views of the SAME tomato farm, each carrying information the drone designer needs.
+In Step 1, read the field notes together, mark the information a drone designer would need, and discuss what each professional knows about the same tomato farm. Keep the three views separate so students can trace each design choice back to its source.
 
 **Chunking:** read one set at a time in the order the workbook prints them, hold a one minute discussion after each, and fill that source's row on the summary worksheet before opening the next set. Plan 4-6 minutes per set.
 

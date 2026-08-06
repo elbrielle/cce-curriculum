@@ -19,7 +19,7 @@
 
 **Stop and Jot:** Give a 60-second time box with the prompt on screen and post two stems, "I would rather _____ because _____" and "The risk of my choice is _____." Read jots over shoulders and note how many students name a risk at all. If almost none do, front-load the Net Financial Position row in Activity 2 so the tradeoff lands before students commit to a side.
 
-Take 5-6 student responses. Most students reflexively pick "get paid while I learn" but cannot explain why people choose college instead. Bridge: today we are going to compare both pathways with real numbers so you can make this decision with eyes open.
+Take 5-6 student responses. Many students will pick "get paid while I learn" without explaining why a career might require college instead. Put time, tuition, earnings during training, and the required credential on the board as the four comparison rows students will research.
 
 ---
 
@@ -75,7 +75,7 @@ Distribute the printed Apprenticeship vs. College comparison chart. Students fil
 After filling in the chart, students write a 3-sentence personal preference statement at the bottom: "Based on this chart, I would choose the _____ pathway because _____. The biggest tradeoff for me is _____."
 
 !!! tip "Facilitation Tip"
-    Some students will be shocked by the "Net financial position" row. They will say "But college is supposed to be better!" That is the moment for the discussion: college is better for some careers (medicine, law, engineering) and worse for others (trades, technicians, mechanics). The point is matching the pathway to the career, not picking one as universally better.
+    Some students will be shocked by the "Net financial position" row and say, "But college is supposed to be better!" Send the comparison back to the career: medicine, law, and engineering require degrees, while many trades and technician roles use a different training path. Students should judge whether the pathway fits the career they named.
 
 **DOK 3:** What conclusions can you draw about whether apprenticeship or college is the better fit for someone interested in automotive? What factors would change your answer?
 

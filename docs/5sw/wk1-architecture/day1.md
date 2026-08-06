@@ -17,7 +17,7 @@
 
 **WARM-UP: Look around this room. Someone designed this building, the shape of the walls, the placement of the windows, the width of the hallways. Who made those decisions, and what did they need to know to make them?**
 
-Discuss 2-3 student responses. Bridge to the idea that architecture is both creative and technical. It requires art, math, engineering, and an understanding of how people use spaces.
+Discuss 2-3 responses, then connect what students noticed to the work of an architect: drawing a space, calculating whether it can stand, and planning how people will move through it.
 
 ---
 

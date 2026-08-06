@@ -51,7 +51,7 @@ Students use **Stop and Jot** twice during the video:
 After the video, lead a 2-minute whole-class discussion: What did this real first responder reveal that the H&L Hat profiles didn't show?
 
 !!! tip "Facilitation Tip"
-    Pre-screen the video clip. Avoid clips with graphic content. Look for documentaries that show the personal journey, the failures, doubts, mentors, not just the action.
+    Pre-screen the clip and reject graphic content. Choose one that shows training, mistakes, doubts, or help from a mentor so students see the work behind the emergency footage.
 
 ---
 

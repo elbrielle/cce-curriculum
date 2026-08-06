@@ -44,7 +44,7 @@ Operating manual: `cce-curriculum/notes/exit-ticket-pdf-pipeline.md`. Do not han
 
 ### Worksheet PDF pipeline (new 2026-08-05)
 
-Classroom printables (worksheets, rubrics, contracts, scaffolds) now have their own generator. Sources are markdown files in `build/worksheet_sources/`; output lands in `docs/resources/worksheets/` with the same Irving ISD branding as the exit tickets. 17 sheets shipped in the first wave (1SW Wk0 + Wk1); later weeks' sheets are queued in the Day-1 readiness backlog (`cce-curriculum/notes/day1-readiness-backlog.md`).
+Classroom printables (worksheets, rubrics, contracts, and scaffolds) have their own generator. Sources are markdown files in `build/worksheet_sources/`; output lands in `docs/resources/worksheets/` with the same Irving ISD branding as the exit tickets. The current set has 50 sheets and covers all of 1SW. Later blocks are queued in the Day-1 readiness backlog (`cce-curriculum/notes/day1-readiness-backlog.md`).
 
 ```bash
 python3 build/build_worksheets.py            # regenerate every worksheet PDF

@@ -17,7 +17,7 @@
 
 **WARM-UP: Why do you think the FAA requires a certification to fly drones commercially? List 3 things that could go wrong if anyone could fly a drone wherever they wanted.**
 
-Take 4-5 student responses. Common: hit a plane, crash into a person, fly over an airport, spy on someone, fly into a hospital helicopter zone, drop on a car. Bridge: every one of those is a real reason the FAA created Part 107. Today we cover the rules.
+Take 4-5 student responses: hitting a plane or person, entering airport or hospital airspace, invading privacy, or falling on a car. Match each risk to the Part 107 rule or flight procedure that reduces it.
 
 ---
 
@@ -57,7 +57,7 @@ Distribute the printed Safety Briefing. The briefing covers:
 Walk through every rule. Each student signs the bottom of the briefing acknowledging they read and understood it. The signature is the entry ticket to flying, no signature, no controller.
 
 !!! tip "Facilitation Tip"
-    Take the safety briefing seriously even though they are mini-drones. The point is to model the same safety mindset that real Part 107 pilots use. A student who treats the safety briefing as a joke today will treat real safety rules as a joke at age 18. That habit forms now.
+    Treat the safety briefing as part of the flight, even with mini-drones. Part 107 pilots also inspect the area, establish boundaries, and stop when conditions are unsafe. If a student skips a step, stop the launch and have the team name what was missed before trying again.
 
 ---
 

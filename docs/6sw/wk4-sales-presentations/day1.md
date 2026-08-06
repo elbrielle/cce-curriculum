@@ -17,7 +17,7 @@
 
 **WARM-UP: Have you ever tried to convince someone to give you something, buy you something, lend you something, agree to a plan? What strategy did you use?**
 
-Take 4-5 student responses. Bridge to today: persuasion is sales. Sales is just the formal word for convincing people to take action. This week is about doing it well.
+Take 4-5 responses. Pull out the words students use to convince someone: a reason, a benefit, or a direct request. Sales turns those same moves into a planned message for a buyer.
 
 ---
 

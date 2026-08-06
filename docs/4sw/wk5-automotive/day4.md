@@ -17,7 +17,7 @@
 
 **WARM-UP: Have you heard of Ratteree before? What do you know about the programs offered at Irving ISD's career centers?**
 
-Take 4-5 student responses. Most students have heard the names but do not know what the centers actually do. Bridge: today is the closest most of you will get to walking inside a real automotive shop until you start the program in 9th grade.
+Take 4-5 student responses. Separate what students know from what they are guessing about the centers. Today's pathway research should answer what students train on, which certifications they can earn, and how they apply.
 
 ---
 

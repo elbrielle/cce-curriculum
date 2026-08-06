@@ -17,7 +17,7 @@
 
 **WARM-UP: After this week, do you see yourself working with animals as a career? Why or why not? One sentence.**
 
-Take 4 student responses. There are no wrong answers — some students will say yes, some will say no, and some will be undecided. The goal of CCE is informed exploration, not pressure.
+Take 4 student responses. Some students will say yes, some will say no, and some will be undecided. Ask each student to name the experience or information behind the answer; CCE does not require a student to choose the pathway.
 
 ---
 
@@ -25,7 +25,7 @@ Take 4 student responses. There are no wrong answers — some students will say 
 
 **Source:** (FYF pp. 100-101: "What is Happening at My District?") + Irving ISD Pathways reference (PATHWAYS.md): Nimitz HS Veterinary Science pathway leading to Elanco Veterinary Medical Applications certification
 
-Project the workbook's district pages (FYF pp. 100-101) as the pathway info. They carry the local detail students respond to most: the Agricultural Science program at Nimitz High School runs a greenhouse, an orchard, and more than 40 chickens, and students get hands-on experience through the school's daily petcare program, where they learn to care for, handle, and train dogs. The page names Plant Science and Animal Science as the programs of study, Elanco Veterinary Medical Applications as the industry certification, and Future Farmers of America (FFA) as the student organization. Its Career Exploration Connection is mentorship, so take two responses to the page's question about what makes someone a good mentor before moving to the map.
+Project the workbook's district pages (FYF pp. 100-101). Nimitz High School's Agricultural Science program has a greenhouse, an orchard, more than 40 chickens, and a daily petcare program where students care for, handle, and train dogs. The pages name Plant Science and Animal Science as the programs of study, Elanco Veterinary Medical Applications as the industry certification, and Future Farmers of America (FFA) as the student organization. Before moving to the map, take two responses to the pages' question about what makes someone a good mentor.
 
 Walk students through the pathway map:
 

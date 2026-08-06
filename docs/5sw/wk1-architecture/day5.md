@@ -39,8 +39,8 @@ Each student presents their TinkerCAD building to the class. Project each studen
     Choose ONE of these approaches based on your class culture:
 
     - **(A) Live + async hybrid:** 8 students present live (2 min each = 16 min); the other 16 submit a 60-sec written pitch via Google Form or paper ("My building is ___, the A&C career is ___, what I learned was ___").
-    - **(B) Corner rotation:** Split into 3 groups of 8 presenting simultaneously in 3 corners (~15 min total). Teacher circulates. Pick 3–4 "showcase" designs for a final 5-min whole-class share.
-    - **(C) Panel + standouts:** All 24 submit PNG + written pitch to Padlet; 4 rotating "critic panel" students give star-wish feedback; 2–3 live showcase presentations in the final 5 min.
+    - **(B) Corner rotation:** Split into 3 groups of 8 presenting simultaneously in 3 corners (~15 min total). Teacher circulates. Pick 3–4 designs that made distinct choices for a final 5-min whole-class share.
+    - **(C) Panel + standouts:** All 24 submit PNG + written pitch to Padlet; 4 rotating "critic panel" students give star-wish feedback; 2–3 students present live in the final 5 min.
 
     Corner rotation (B) keeps everyone visible but fragments teacher attention. Hybrid (A) gives the fairest live speaking time. Pick the one that matches your room.
 

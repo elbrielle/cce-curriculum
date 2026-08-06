@@ -17,7 +17,7 @@
 
 **WARM-UP: Think of the best party or event you have ever been to. Name ONE thing that was not food that made it feel special.**
 
-Take 3-4 student responses. Answers usually land on music, decorations, lighting, or a small gift. Bridge: catering companies get hired for the food, but the ones clients come back to design the whole feeling of the event. Today students own one of those companies.
+Take 3-4 student responses. Answers usually include music, decorations, lighting, or a small gift. Point out which details changed the event without changing the food. Students will make those decisions for a catering company today.
 
 ---
 

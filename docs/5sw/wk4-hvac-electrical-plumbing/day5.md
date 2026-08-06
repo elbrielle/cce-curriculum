@@ -59,7 +59,7 @@ A major water line has broken in the middle of downtown. Water is rushing into t
 
 > [H&L PLATFORM] Open Hats & Ladders. Review every A&C career you favorited across Weeks 1 to 4: architecture, civil engineering, construction, and the trades. Remove the ones you are no longer interested in and add any new ones. Check that your Building Blocks show the A&C skills you found this cluster, such as hands-on work, building things, safety, math for measurement, and leading a crew.
 
-Some students will finish the cluster with A&C as their top choice and others will rule it out. Either is a valid outcome, the goal is clarity.
+Some students will finish with Architecture and Construction as their top choice; others will rule it out. Both answers count when students can explain what they learned about the work.
 
 ---
 

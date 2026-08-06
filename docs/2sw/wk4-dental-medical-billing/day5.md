@@ -17,7 +17,7 @@
 
 **WARM-UP: We are halfway through Health Science. Which health career has surprised you the most so far?**
 
-Take 4-5 responses. Bridge: surprise is a sign that career exploration is working. Students who arrived thinking "all healthcare = nurses" should now see the variety.
+Take 4-5 responses and ask what specific job, salary, or training fact surprised each student. Put dental, billing, nursing, and informatics examples side by side so the range within healthcare is visible.
 
 ---
 

@@ -69,7 +69,7 @@ For each trade, they collect:
 
 ## Activity 3: Rapid Share-Out (3 min)
 
-Three volunteers share their top recommendation and one data point. This closes the activity with a range of student perspectives. Some will recommend the highest-paying trade, others the highest-growth trade, others the one most aligned with their own skills and interests.
+Three volunteers share their recommendation and one number behind it. Listen for the reasons to differ: highest pay, strongest growth, or the closest fit with the student's skills and interests.
 
 ---
 

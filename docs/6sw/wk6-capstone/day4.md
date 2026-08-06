@@ -66,7 +66,7 @@ Students save the Plan to:
 1. Their school Google Drive (digital backup)
 2. Print one copy to take home (for parents/guardians and the 9th-grade course registration meeting)
 
-The point is that the Career Plan goes HOME. It is not a school assignment that disappears in May. It is a real document the student brings to their high school counselor when registering for 9th-grade courses next year, alongside the written Career Plan from Day 2.
+Every student leaves with a copy of the Career Plan to show a parent or guardian and bring to the 9th-grade course-registration meeting. Pair it with the written Career Plan from Day 2.
 
 ---
 

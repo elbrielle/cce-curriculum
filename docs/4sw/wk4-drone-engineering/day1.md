@@ -17,7 +17,7 @@
 
 **WARM-UP: Name three things you have seen a drone do, in person, on TV, or online.**
 
-Take 5-6 student responses on the board. Common: take photos at a wedding, race in a competition, deliver a package, film a sports event, spy in a movie, spray crops. Bridge: today we are going to design a drone for one of the most useful jobs they do, tracking endangered animals in the wild.
+Take 5-6 student responses on the board: wedding photography, racing, package delivery, sports filming, surveillance, or crop spraying. Ask what would have to change for a drone to track an endangered animal in dense forest. Students will design for that need today.
 
 ---
 

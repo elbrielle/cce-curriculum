@@ -17,7 +17,7 @@
 
 **WARM-UP: Look at your design from yesterday. What is still holding, and what came loose overnight? Name the one part you would rebuild first.**
 
-Take 4 responses. Do not fix anything yet. Bridge: before special effects work ever reaches a screen, artists test it, rate it, and plan the fix. That is today's first job, and it is also why Texas makes people prove what they know before they can do this work for pay.
+Take 4 responses without fixing the designs yet. Special effects artists test the work, rate what held up, and plan the repair before it reaches a screen. Students will do that first, then examine what Texas requires before someone can do cosmetology work for pay.
 
 ---
 

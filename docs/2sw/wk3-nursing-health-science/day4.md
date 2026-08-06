@@ -17,7 +17,7 @@
 
 **WARM-UP: If your vital signs monitor showed an abnormal reading, what would a nurse do next?**
 
-Take 2-3 responses. Bridge: nurses act on data. The monitor is just the messenger. Today students add an ALARM feature so their monitor can flag abnormal readings, just like a real hospital monitor.
+Take 2-3 responses and ask which reading would make the nurse act first. The monitor reports the number; the nurse decides what it means. Today students add an alarm for readings outside the programmed range.
 
 ---
 
@@ -62,7 +62,7 @@ Sequence for each pair:
 **Time, Voice, Body:** Post the three blocks before anyone stands up. Voice 1 for nurse and patient talk, Voice 0 during the counting so pulses can be counted accurately, a visible countdown for the 60 seconds of activity and again for the 2 minutes of rest, and shared tools go back in the station tray between teams.
 
 !!! tip "Facilitation Tip"
-    Do not let missing equipment stop the activity. Every pair can fill the Pulse Rate row with no device at all: count the radial pulse at the wrist for 15 seconds and multiply by four. If the campus health office can lend a digital thermometer and a pulse oximeter, run them as one shared station and rotate pairs through it. If no blood pressure cuff is available, leave that row blank and have the pair say, using the Climber Notes blood pressure chart, what a reading would have told them. The point of the activity is the before-and-after comparison, not the completeness of the chart.
+    Missing equipment does not stop the activity. Every pair can fill the Pulse Rate row by counting the radial pulse at the wrist for 15 seconds and multiplying by four. If the campus health office can lend a digital thermometer and pulse oximeter, run one shared station and rotate pairs through it. Without a blood pressure cuff, leave that row blank and use the Climber Notes chart to discuss what the missing reading would have shown. Score the before-and-after comparison rather than the number of devices available.
 
 ---
 

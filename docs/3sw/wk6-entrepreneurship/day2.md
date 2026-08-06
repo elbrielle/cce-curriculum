@@ -17,7 +17,7 @@
 
 **WARM-UP: Name one thing at school, in your neighborhood, or online that does not work the way it should. What exactly goes wrong?**
 
-Take 5-6 responses quickly and list them on the board without judging any of them. Bridge: almost every business started as somebody's annoyance. Today students find their own.
+Take 5-6 responses quickly and list them without judging them. Ask which annoyance someone might pay to remove. Students will use that test on a problem of their own.
 
 ---
 

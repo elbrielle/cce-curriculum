@@ -17,7 +17,7 @@
 
 **WARM-UP: Think of a time someone gave you feedback that helped you improve. What made it useful, was it the words they used, the timing, the way they said it, or what?**
 
-Take 3-4 student responses. Bridge to today: feedback is a skill. Bad feedback is vague or hurtful. Good feedback is specific and actionable. Students write and rehearse a pitch today and then trade it with a partner, and how specific that partner's feedback is decides how much better the second version gets.
+Take 3-4 responses. Sort them into feedback a speaker can act on and feedback that gives no next step. Students will write and rehearse a pitch, trade it with a partner, and use one specific suggestion in the second version.
 
 ---
 

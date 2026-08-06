@@ -17,7 +17,7 @@
 
 **WARM-UP: Six people on your street get the same stomach bug in the same week. What would you check FIRST to find out why?**
 
-Take 3-4 responses (what they ate, where they swam, what they drank, who they were around). Bridge: that first question is a whole career. Environmental epidemiologists study how and why people get sick and how illness spreads. Today the class investigates a real-feeling outbreak.
+Take 3-4 responses: what they ate, where they swam, what they drank, and who they were around. Sort the answers by possible exposure. Environmental epidemiologists compare those exposures to find how an illness spread; students do the same with today's outbreak file.
 
 ---
 
@@ -27,7 +27,7 @@ Take 3-4 responses (what they ate, where they swam, what they drank, who they we
 
 Read the workbook's opening description together. Environmental epidemiologists are scientists who study how and why people get sick, and how illnesses spread from person to person. They gather information, look for patterns, and figure out what might be causing a health problem. Their work keeps communities safe and keeps food, water, and the environment healthy.
 
-Connect this to the Health Science cluster students have been touring for four weeks. Nursing, dental, and biomedical careers treat one patient at a time. Public health careers, including epidemiology, work on the whole community at once by stopping an illness before it reaches more people. Both kinds of work sit inside the same cluster, and the scientific investigation skills behind this one show up in the Irving ISD Biomedical Sciences program of study.
+Nursing and dental careers often treat one patient at a time. Epidemiologists compare cases across a community to find a shared source and prevent more illness. Both are Health Science work, and today's use of evidence and investigation also appears in Irving ISD's Biomedical Sciences program of study.
 
 Set the case: a small town is suddenly seeing people fall ill, and the class has been called in to investigate a waterborne outbreak, identify the source, and plan how to stop it from spreading.
 

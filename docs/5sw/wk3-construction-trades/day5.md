@@ -32,7 +32,7 @@ Teams assembled on Day 2 (by trade: Carpenter, Construction Manager, Mason, Heav
 5. **Trade unions or professional associations** for this career
 6. **One surprising fact** they learned
 
-Classmates listen and complete a note-taking sheet with one key fact per trade. This ensures every student leaves the week with knowledge of all 4+ trades, not just their own.
+Classmates complete a note-taking sheet with one fact per trade. By the end, each student has notes on all 4+ trades, including the ones other groups researched.
 
 !!! tip "Facilitation Tip"
     Run a visible 3-minute countdown on the projector and say before the first team stands up that every team gets the same three minutes, so no team loses air time to the team before it. **Time, Voice, Body:** Voice 0 while a team gets its notes set, Voice 3 for the presenter, Voice 1 for the note-taking sheet between teams, and a fixed spot at the front where presenters stand. If a team is at 2:45 with two points left, say which point to lead with rather than cutting them off mid-sentence.

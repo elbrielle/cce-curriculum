@@ -17,7 +17,7 @@
 
 **WARM-UP: Think of one chore you HATE doing. Now think of one hobby you LOVE doing. What is the difference between why you do each one?**
 
-Take 3-4 student responses. Use this to bridge: motivation comes from different places. Today they learn the difference between intrinsic (from inside) and extrinsic (from outside) motivation, and how both show up in hospitality careers.
+Take 3-4 student responses and sort them into reasons that come from the person and reasons that come from an outside reward. Introduce the terms *intrinsic* and *extrinsic* after students can see both groups.
 
 ---
 

@@ -17,7 +17,7 @@
 
 **WARM-UP: Are you a member of any organization or club. TSA, sports team, scouts, church youth group, online community? What benefits do you get from being a member?**
 
-Take 4-5 student responses. Surface the recurring benefits, meeting people, learning skills, getting access to events, feeling like part of something. Bridge: today we are looking at the adult version, professional associations that follow people through their entire careers.
+Take 4-5 student responses and sort them as contacts, skills, events, or belonging. Professional associations offer similar benefits after school, so each team will check what one named association actually provides.
 
 ---
 

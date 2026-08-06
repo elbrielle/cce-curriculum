@@ -17,7 +17,7 @@
 
 **WARM-UP: If your dog or cat got sick, who would you take them to? What does that person actually do all day?**
 
-Discuss 2-3 student responses. Bridge to the idea that veterinary medicine is more than just giving shots. It includes diagnostics, surgery, nutrition counseling, behavior, and even research. The 3rd Six Weeks opens a brand new cluster, and Animal Systems is one of the most popular pathways inside it.
+Discuss 2-3 student responses, then add the work students may not have named: diagnostics, surgery, nutrition counseling, behavior, and research. This opens the 3rd Six Weeks and the Animal Systems pathway.
 
 ---
 

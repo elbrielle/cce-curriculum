@@ -17,7 +17,7 @@
 
 **WARM-UP: Trace one meal you ate yesterday back to the farm. What plants were in it? Where did they grow? Who harvested them?**
 
-Take 3-4 student responses. Use this to bridge from last week's Animal Systems focus to this week's Plant Systems focus. Both are part of agriculture; today the spotlight is on plants and the environment that grows them.
+Take 3-4 student responses, then place Animal Systems and Plant Systems side by side on the board. Both are part of agriculture; today students work with plants and the conditions they need to grow.
 
 ---
 

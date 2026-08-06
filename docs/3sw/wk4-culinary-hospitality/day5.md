@@ -55,7 +55,7 @@ Direct students to log into eDynamic and navigate to **Unit 6.1: Entertaining an
 
 > [VERIFY IN eDynamic] Confirm with your district that Unit 6.1 is enabled and accessible to 7th-grade students. Verify the unit covers Hospitality content as expected.
 
-Students work through Unit 6.1 at their own pace for 15 minutes. The goal is meaningful progress, not necessarily completion.
+Students work through Unit 6.1 for 15 minutes. Record the last completed section so unfinished students know where to resume.
 
 ---
 

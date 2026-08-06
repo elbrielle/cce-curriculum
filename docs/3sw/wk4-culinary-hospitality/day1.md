@@ -17,7 +17,7 @@
 
 **WARM-UP: What is the best meal you've ever had at a restaurant? What made it special, the food itself, the way it was served, the atmosphere, or something else?**
 
-Take 3-4 student responses. Use this to bridge: hospitality careers exist because people care about the EXPERIENCE around food, not just the food. Today they get a taste (literally) of being a chef.
+Take 3-4 student responses. Sort their answers into the food itself and the experience around it, such as service, timing, setting, or presentation. Today's chef task asks students to plan for both.
 
 ---
 
@@ -56,7 +56,7 @@ Release the steps one at a time and model the whole chain once on the projector 
 **Step 3: Plan Your Dish.** Students answer the two workbook prompts on page 113: how will you creatively incorporate your special ingredient, and how will you prepare the dish?
 
 !!! tip "Facilitation Tip"
-    Some students will pick the obvious combo (marshmallow fluff + bread = dessert sandwich). Encourage stretching: coffee beans ground into a steak rub, squid ink stirred into pasta dough, gummy bears melted into a glaze. The point is creative problem-solving under a constraint, which is exactly what professional chefs do.
+    Some students will pick the obvious combo (marshmallow fluff + bread = dessert sandwich). Ask them to change the ingredient's form or role: coffee beans ground into a steak rub, squid ink stirred into pasta dough, or gummy bears melted into a glaze. Professional chefs work within ingredient, cost, and customer constraints.
 
 ---
 

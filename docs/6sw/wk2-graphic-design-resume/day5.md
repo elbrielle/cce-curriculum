@@ -17,7 +17,7 @@
 
 **WARM-UP: Name a brand whose logo you would recognize anywhere, even without the name on it. What makes the brand stick in your memory?**
 
-Take 4-5 student responses. Apple, Nike, McDonald's, Target, students name brands instantly. Bridge to today: a graphic designer chose every one of those marks on purpose, and the choice had about three seconds to land. Today students take that job for a band about to go on its first tour.
+Take 4-5 responses. Apple, Nike, McDonald's, and Target usually come up immediately. A designer made each mark recognizable in a few seconds. Today students have the same problem for a band about to start its first tour.
 
 ---
 

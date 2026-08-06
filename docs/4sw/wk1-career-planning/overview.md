@@ -40,7 +40,7 @@ Students revisit their core personality type results from Week 0, audit every ca
 
 ## Career Connection
 
-Students have now spent 18 weeks exploring Manufacturing, IT, Law, Health Science, Agriculture, Hospitality, Human Services, and Business. Every favorite they tagged, every career they researched, every Hat they liked, all of that data lives in their H&L Climber Profile. Rung 1 of the Capstone ladder sends them back into that profile on purpose (FYF pp. 281-282: "Rung 1: Who You Are"), the H&L Career Plan tool pulls it into one personalized roadmap, and students cross-reference the result with the actual Irving ISD CTE pathways available at Irving High, MacArthur, Nimitz, Singley Academy, Cardwell Career Preparatory Center, and Ratteree Career Development Center.
+After 18 weeks, students have favorites, career research, and Hat ratings from Manufacturing, IT, Law, Health Science, Agriculture, Hospitality, Human Services, and Business. Rung 1 sends them back to that record (FYF pp. 281-282: "Rung 1: Who You Are"). They use it to name a current career goal, then compare that goal with the CTE pathways available at Irving High, MacArthur, Nimitz, Singley Academy, Cardwell Career Preparatory Center, and Ratteree Career Development Center.
 
 **Irving ISD Pathways:** All pathways across the district. Students narrow to their top 1-2 pathways this week and commit to one in Week 2.
 

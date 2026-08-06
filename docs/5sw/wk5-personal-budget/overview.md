@@ -36,7 +36,7 @@ Students carry the Rung 3: Career Deep Dive numbers they researched at mid-year 
 
 ## Career Connection
 
-Financial literacy is one of the most practical skills students will ever learn. Understanding how to budget, save, and plan financially is essential regardless of career path. This week connects directly to career exploration, because students budget on a salary they researched for their own career goal rather than on a number the teacher hands them.
+Students have already researched what a career pays. This week that salary has to cover rent, transportation, food, savings, and the lifestyle priorities each student chose. The budget uses the student's own career goal rather than a number supplied by the teacher, so a salary claim has an immediate consequence on the page.
 
 That salary comes out of the Capstone chapter. During the mid-year review, students completed Rung 3: Career Deep Dive (FYF pp. 285-286), which asks what education or training the career requires, what certifications or licenses it needs, how long preparation takes, what the estimated starting salary is nationally and in their own area, and whether the field is growing, stable, or declining. Those pages are the input to this week. The budget is where a researched number stops being an answer on a worksheet and starts deciding whether a student can afford an apartment.
 

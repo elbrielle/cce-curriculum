@@ -17,7 +17,7 @@
 
 **WARM-UP: Think about the last time something went wrong with your technology (phone, computer, game console, school Chromebook). Who fixed it? How did they figure out what was wrong?**
 
-Quick share. Listen for: parent, sibling, "the IT guy at school," YouTube tutorial. Bridge: "Today you meet the people whose job it is to fix things for OTHER people, all day, every day. They are the help desk."
+Quick share. Listen for a parent, sibling, school IT employee, or YouTube tutorial. Name the common thread: each person diagnosed a problem for someone else. Help desk workers do that as their daily job.
 
 ---
 
@@ -45,7 +45,7 @@ Irving ISD runs its own version of this pathway. The workbook's district pages l
 
 Two stems for students who stall on the education field: "This Hat needs a degree, a certification, or both because the profile says _____" and "A _____ certification takes _____ months to earn and qualifies you for _____."
 
-Walk the room. Pay special attention to the **education** field. This is the key insight for the week. Most of these careers list "certification" or "associate degree" as acceptable, NOT a 4-year bachelor's.
+Walk the room and check the **education** field first. Most of these careers list a certification or associate degree rather than a 4-year bachelor's; ask students to mark that difference before they move on.
 
 !!! tip "Facilitation Tip"
     Students often assume "all good IT jobs need college." Stop the class when a student notices a Hat doesn't require a 4-year degree. Make a big deal of it: "Notice that Help Desk Technician says 'High school diploma + CompTIA A+ certification.' That is a path you could be on by age 19, making $40-50K. That is a lot of money for someone two years out of high school."

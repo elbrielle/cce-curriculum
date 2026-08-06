@@ -36,7 +36,7 @@ Students build a **2-minute pitch** using the data they collected this week. Goo
 - **Market demand:** DFW is one of the fastest-growing real estate markets in the country
 - **Personal angle:** who is this career best for? (People who are outgoing, comfortable with variable income, self-motivated)
 
-Students practice silently or with a partner for 5 minutes, then volunteer to present to the class. Not every student needs to present, the goal is the practice. Allow written pitches for students uncomfortable with oral presentation.
+Students practice silently or with a partner for 5 minutes, then volunteer to present. The practice is required; presenting to the whole class is not. Allow a written pitch when oral presentation is a barrier.
 
 Post the workbook's four presentation tips before the first pitch (FYF p. 299: "Prepare & Present"): speak clearly and at a steady pace, look up and engage the audience, show confidence even when nervous, and use your notes to guide you rather than reading them word for word. Students meet these tips again with the 30-second sales pitch in the 6th Six Weeks (FYF pp. 241-243) and use them for real at the Capstone presentation.
 

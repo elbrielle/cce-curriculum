@@ -17,7 +17,7 @@
 
 **WARM-UP: If you could start any business tomorrow with $0, what would it be? Be specific, name it, describe what it sells, and who buys it.**
 
-Take 4-5 student responses. Capture them on the board. The class should see a wide range, food, art, tech, services, products. Bridge: every one of those is entrepreneurship, and entrepreneur is one of the four roles the workbook names on the opening page of this cluster.
+Take 4-5 student responses and sort them on the board into food, art, technology, services, or products. Each category can become a business. Point students to *entrepreneur*, one of the four roles on the workbook's cluster opener.
 
 ---
 

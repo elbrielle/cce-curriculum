@@ -42,7 +42,7 @@ Students use the app to explore these 5 specific Hats:
 For each Hat, students record on scratch paper: education time, DFW salary, and one daily task. They also rate "perks/quirks/job gear" (a built-in H&L feature on each Hat page).
 
 !!! tip "Facilitation Tip"
-    911 Dispatcher is often invisible to students because they never see the dispatcher in person. Highlight it: "When you call 911, the first person who saves your life is the dispatcher who tells you what to do until help arrives."
+    Students often overlook the 911 Dispatcher because the dispatcher is not at the scene. Trace the call: this person gathers the address and emergency details, sends the correct responders, and gives instructions until they arrive.
 
 ---
 

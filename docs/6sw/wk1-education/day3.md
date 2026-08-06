@@ -17,7 +17,7 @@
 
 **WARM-UP: A school district is hiring a teacher's aide. Write down THREE things you think the posting asks for. Be specific: not "be good with kids," but what a district would actually print.**
 
-Take 3-4 responses and list them on the board without correcting any of them. Bridge to today: by the end of class students will have two real postings in front of them and can check the board list against what employers actually wrote.
+Take 3-4 responses and list them without correction. Leave the list up. At the end of class, students will compare it with the qualifications and duties from two current local job postings.
 
 ---
 

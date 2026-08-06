@@ -51,9 +51,9 @@ Students explore the Cybersecurity pathway through Hats & Ladders, work the "Saf
 
 ## Career Connection
 
-Cybersecurity is one of the most critical and fastest-growing career fields in the world. Every company, hospital, school, and government agency needs cybersecurity professionals. In the U.S., there are currently hundreds of thousands of UNFILLED cybersecurity jobs because there are not enough trained professionals, meaning a 7th grader who decides to pursue cybersecurity now will graduate into a wide-open job market. This is also a career where **integrity** and **work ethic** are not optional, cybersecurity professionals are trusted with the most sensitive data of millions of people.
+Companies, hospitals, schools, and government agencies hire cybersecurity professionals to protect their systems and data. The U.S. currently has hundreds of thousands of unfilled cybersecurity jobs. The work also depends on **integrity** and **work ethic**, because cybersecurity professionals are trusted with other people's sensitive data.
 
-**What is Happening at Irving ISD?** **Cybersecurity at Singley Academy** leads to the **Cybersecurity Fundamentals** certification. Singley also offers Networking-related coursework that supports cybersecurity. This is a high-demand, high-wage pathway with strong job security. A student who follows this pathway can earn an industry credential in high school and step into a $50K+ entry-level cybersecurity role. The workbook's district pages add the pieces students ask about next (FYF pp. 36-37: "What is Happening at My District?"): the Personal Graduation Plan that carries a student's course choices and career interests from middle school into high school, the four Information Technology programs of study offered in the district, the Cybersecurity Fundamentals and Certified Entry-Level Python Programmer industry-based certifications, the Technology Student Association and CyberPatriot student organizations, and the Artificial Intelligence program planned for the district's new Career and Technical Education Center.
+**What is Happening at Irving ISD?** **Cybersecurity at Singley Academy** leads to the **Cybersecurity Fundamentals** certification, and Singley also offers networking coursework used in cybersecurity. A student can earn the industry credential in high school; the listed entry-level salary is $50K+. The workbook's district pages also name the Personal Graduation Plan, the four Information Technology programs of study, the Cybersecurity Fundamentals and Certified Entry-Level Python Programmer industry-based certifications, the Technology Student Association and CyberPatriot student organizations, and the Artificial Intelligence program planned for the district's new Career and Technical Education Center (FYF pp. 36-37: "What is Happening at My District?").
 
 ## Vocabulary
 
@@ -71,7 +71,7 @@ Cybersecurity is one of the most critical and fastest-growing career fields in t
 
 ## Bridge to Theory (Hats & Ladders)
 
-The *Find Your Future* workbook gives Information Technology printed pages 23-38, and this week works the cybersecurity half of that chapter. Two activities carry it:
+The *Find Your Future* workbook gives Information Technology printed pages 23-38. This week uses two activities from the cybersecurity half of the chapter:
 
 - **Safe or Spoofed?** (Day 2): Career Climb activity. Students are a cybersecurity analyst at a company whose employees are getting suspicious emails and cannot tell which ones are real. Step 1 teaches five red flags with a worked example of each. Step 2 puts a seven-email inbox in front of students, who mark each email safe or spoofed, circle the clues, and write their reasoning. Step 3 has students draft one safe email and one spoofed email of their own, then swap with a partner to see whether the partner can tell them apart (FYF pp. 24-25: "Safe or Spoofed?"). The seven emails are images the teacher projects from the Climber Notes deck; they are not printed in the student book.
 - **Powerskill: Work Ethic** (Day 3): the chapter's Powerskill lesson, written around a cybersecurity scenario. Students imagine they volunteer in their community by creating and leading a Cybersecurity Bootcamp that teaches others how to protect themselves online. Step 1 gives four research findings about scam exposure and a menu of bootcamp topics. Step 2 is a six-question planning table covering program name, learning goals, audience, format, location, and community benefit. Step 3 is a sign-up flyer (FYF pp. 34-35: "Powerskill: Work Ethic"). Because the scenario is cybersecurity, this week owns the Powerskill rather than the other three Information Technology weeks.
@@ -80,7 +80,7 @@ The chapter does not print an Information Technology pathway list. Students meet
 
 The workbook prints no rubric for either activity. The only rubric in the book is the Capstone's four-level, 32-point scale (FYF p. 280: "Capstone Project Requirements"), and Day 3's peer-feedback checklist borrows its four levels so students score flyers on a scale they will see again at the end of the year.
 
-The Glowforge college/career logo project is a teacher-designed extension that connects to TEKS d(3)(A): describing the MS-to-HS transition. Students choose a college, trade school, certification program, or career as their postsecondary goal and laser-cut a representative logo. This becomes a tangible artifact of their first big future-planning decision.
+The Glowforge college/career logo project is a teacher-designed extension for TEKS d(3)(A): describing the MS-to-HS transition. Students choose a college, trade school, certification program, or career as their postsecondary goal and laser-cut a logo that represents it. The finished logo records the postsecondary choice behind the design.
 
 ## IISD Instructional Strategies
 

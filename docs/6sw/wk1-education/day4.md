@@ -65,7 +65,7 @@ Partners test each other's activity. They take turns acting as the "child" and t
 
 **Source:** Scope-and-sequence d(4)(E) + the Education and Training cluster's service framing
 
-Bridge the activity into community service: teaching IS a service profession. Every classroom hour is unpaid time spent on someone else's growth. If you've ever helped a younger sibling with homework, tutored a friend, mentored at a summer camp, or volunteered at school, you've done teaching work.
+Connect the activity to community service. Teaching work can happen before someone has the job title: helping a younger sibling with homework, tutoring a friend, mentoring at camp, or volunteering at school all ask someone to spend time on another person's learning.
 
 Distribute the Community Service Reflection handout. Students complete:
 

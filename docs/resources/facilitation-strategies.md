@@ -1,6 +1,6 @@
 # Facilitation Strategies
 
-Quick reference for research-based discussion and reading structures that fit inside CCE daily plans. Daily plans describe *what* happens in each activity. This page describes *how* to run the talk or reading inside that activity when the default "read together" or "discuss as a class" routine is not landing.
+Use these discussion and reading structures when a daily plan calls for students to read together or discuss as a class, but the default routine is not working. The daily plan supplies the content and time; this page gives the teacher a way to organize the talk or reading without changing the activity.
 
 ## How to Pick a Strategy
 
@@ -19,7 +19,7 @@ Quick reference for research-based discussion and reading structures that fit in
 3. **Stem.** Provide a sentence stem ("One reason is _____ because _____").
 4. **Answer.** Students share with a partner using the stem. Cold-call 1 to 2 students to repeat their partner's answer using the stem.
 
-**CCE fit:** warm-ups that need accountable thinking (not just fast hands), exit-ticket pre-checks, any DOK 2 question the curriculum marks inside a daily plan.
+**CCE fit:** warm-ups where every student needs time to think, exit-ticket pre-checks, and DOK 2 questions inside a daily plan.
 
 ---
 
@@ -65,7 +65,7 @@ Quick reference for research-based discussion and reading structures that fit in
 
 ## Kagan: RallyRobin
 
-**Time:** 2 to 3 min | **Group size:** partners | **Best for:** rapid-fire brainstorm with 100% engagement, no student off-task
+**Time:** 2 to 3 min | **Group size:** partners | **Best for:** a quick brainstorm in which both partners answer
 
 1. Pose a question with many possible answers ("Name a career in Manufacturing", "Name a daily object that was manufactured").
 2. Partners alternate answers, one at a time, back and forth, until time is called.
@@ -77,7 +77,7 @@ Quick reference for research-based discussion and reading structures that fit in
 
 ## Kagan: RoundRobin
 
-**Time:** 4 to 6 min | **Group size:** quads | **Best for:** all-voice discussion with structured turns
+**Time:** 4 to 6 min | **Group size:** quads | **Best for:** a discussion in which each student gets a turn
 
 1. Pose a question.
 2. Students in each table group of 4 share one answer in order, clockwise. No interruptions.

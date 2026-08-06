@@ -37,7 +37,7 @@ Students continue exploring the IT cluster through the Hats & Ladders app and th
 
 ## Career Connection
 
-Networking Systems is the backbone of every modern business. When you connect to your school's Wi-Fi, when your bank app loads, when you text a friend, all of that runs on networks designed and maintained by Network Engineers, Network Architects, and Systems Analysts. Web Development is equally critical. Every business needs a website, and the people who build them are in high demand.
+School Wi-Fi, bank apps, and text messages all rely on networks designed and maintained by Network Engineers, Network Architects, and Systems Analysts. Web developers build the sites and web applications those networks carry.
 
 **What is Happening at Irving ISD?** **Computer Science (District Wide)**, **Programming & Digital Tech (Singley Academy)**, and **Cybersecurity (Singley)** all branch from the IT cluster. Students interested in networking specifically can pursue Cybersecurity at Singley, which includes networking fundamentals as part of the certification path.
 
@@ -54,7 +54,7 @@ Networking Systems is the backbone of every modern business. When you connect to
 
 ## Bridge to Theory (Hats & Ladders)
 
-The *Find Your Future* workbook gives Information Technology printed pages 23-38. Two chapter activities carry this week:
+The *Find Your Future* workbook gives Information Technology printed pages 23-38. This week uses two chapter activities:
 
 - **Website Revamp** (Day 2): Career Climb activity. Students are a UX Designer hired by a company whose website is so confusing that customers leave before they buy anything. They learn what good and bad UX look like, investigate a practice site the teacher projects, list at least 3 things that work and at least 5 problems, pick 3 problems and write a fix plus a user benefit for each, then sketch a better version of one page (FYF pp. 28-29: "Website Revamp"). The site students audit is named on the teacher's Climber Notes deck (Climber Notes: "Website Revamp", slide 2).
 - **From Wireframe to Wow** (Day 3): Career Climb activity. Students step into the shoes of an app designer at a company building a brand new app. They choose one of three app briefs (Food Connection, Stress-Less, Passion Project), name the app and its target user, list 2-3 features, wireframe four screens (Home, Main Menu, Action, Success), trade designs with a partner for a walkthrough test, then make at least 2 improvements (FYF pp. 30-33: "From Wireframe to Wow").

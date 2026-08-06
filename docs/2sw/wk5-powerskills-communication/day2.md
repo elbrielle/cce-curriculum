@@ -17,7 +17,7 @@
 
 **WARM-UP: Think of a time someone told you a long story and you missed the one part that mattered. What did you miss, and what pulled your attention away?**
 
-Take 2-3 responses. Bridge: most people listen for their turn to talk. Today the class practices listening for the detail that changes what happens next, which is what a triage nurse does every shift.
+Take 2-3 responses and ask which detail changed the advice they would give. A triage nurse listens for that kind of detail because it can change who needs care first.
 
 ---
 
@@ -49,7 +49,7 @@ Read Maria's account aloud while students follow along on page 62. Maria is 52. 
 | Less Important | |
 | Less Important | |
 
-The point is the reasoning, not a right answer. A student who calls the coffee cup essential has to say why, and a student who calls the family heart history background has to defend that too.
+Require a reason for every placement. A student who calls the coffee cup essential has to say why, and a student who calls the family heart history background has to defend that choice too.
 
 Circulate while students write. **Active Monitoring:** one lap, one target, is a chest-pain detail on every essential line. If most tables list the shoulder pain but nobody lists the shortness of breath or the blood-pressure medication, pause the room and reread just those two sentences before Step 3 starts.
 

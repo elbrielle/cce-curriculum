@@ -17,7 +17,7 @@
 
 **WARM-UP: A cover letter tells an employer WHY they should read your resume. If you had only THREE sentences to convince them, what would those sentences be?**
 
-Take 3-4 student responses. Bridge to today: every cover letter is essentially three good sentences expanded into three short paragraphs. Today's whole class is about writing those three paragraphs well.
+Take 3-4 responses. Use them to name the three jobs of a cover letter: say which position you want, show why you fit it, and ask for the next conversation. Students will build one short paragraph around each job.
 
 ---
 
@@ -127,4 +127,4 @@ Bottom line: What would an EMPLOYER miss if paragraph 2 (qualifications) was ski
 
 - **Support:** Provide a sentence-by-sentence fill-in-the-blank cover letter template. Students complete each blank with their personal info and one example. The structure is pre-built so they don't have to invent the format.
 - **Extension:** Students write a SECOND cover letter for a different real job posting (Indeed) and compare how the letters had to change. They write a 3-sentence reflection on the differences.
-- **ELL:** Bilingual cover letter template with Spanish sentence stems. Bilingual students should explicitly mention their language skills in the qualifications paragraph — it is a real, valuable, marketable skill in DFW.
+- **ELL:** Bilingual cover letter template with Spanish sentence stems. Bilingual students should name their language skills in the qualifications paragraph. Many DFW employers need workers who can communicate with customers and families in more than one language.

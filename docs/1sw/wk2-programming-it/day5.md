@@ -69,7 +69,7 @@ and my ______________________________ Work Value."
 **Collect the week's summative.** Hand back the Day 3 IT Salary Comparison worksheets as this activity starts. Students fill in the four sentence Hour of Code reflection printed at the end of the worksheet: the tutorial they did, one programming concept they used and what it did in their code, the IT career they favorited and why, and whether they can see themselves in IT. Both sides of the worksheet plus those four sentences are the collected artifact. Score it with the **IT Salary Comparison and Hour of Code Reflection Rubric** ([Printable PDF](../../resources/worksheets/wk2-salary-hoc-rubric.pdf)): Data Completeness, Source Accuracy, Comparison Reasoning, and Hour of Code Reflection, 5 points each, 20 points total.
 
 !!! tip "Facilitation Tip"
-    Students who hated the Hour of Code may be hesitant to favorite an IT career. Tell them: "You don't have to favorite an IT career. Favorite the careers that ACTUALLY interest you. If IT isn't your thing after this week, that's a valuable thing to know."
+    Students who disliked the Hour of Code may be hesitant to favorite an IT career. Do not require an IT favorite. A student can finish the week by naming why the work does not fit them and choosing a career that does.
 
 ---
 

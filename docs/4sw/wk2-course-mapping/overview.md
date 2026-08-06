@@ -41,7 +41,7 @@ Students translate the pathway selection from Week 1 into a concrete 4-year high
 
 ## Career Connection
 
-The H&L District Course Planner shows the actual courses available at each Irving ISD high school (not generic Texas courses). By Friday, every student leaves with a written plan mapping from 8th grade through high school graduation toward their chosen pathway, and a printed letter ready to share with family.
+The H&L District Course Planner shows courses by Irving ISD campus. Students select a campus and pathway, fill the CTE course cells for grades 9 through 12, and use that map in Friday's Career Plan. They also prepare a copy and letter to discuss at home.
 
 **Irving ISD Pathways:** Students complete course mapping for their selected pathway. Common 7th-grade choices include: Computer Science (Irving High, MacArthur, Nimitz), Robotic Manufacturing (Singley), Nursing Science (Singley), Architecture (MacArthur), Aviation Maintenance and Drone Engineering (Irving High), Automotive (Ratteree), and Veterinary Science (Nimitz).
 

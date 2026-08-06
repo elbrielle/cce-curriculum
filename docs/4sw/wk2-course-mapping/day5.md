@@ -17,7 +17,7 @@
 
 **WARM-UP: If someone gave you 90 seconds at a family dinner to explain your entire career plan from now through age 25, what would you say?**
 
-Pick 1-2 student volunteers to actually deliver their 90-second pitch in front of the class. Bridge: today you are writing exactly that pitch as a formal Career Plan, the one document that captures everything from the past two weeks and everything you have learned this year.
+Ask 1-2 volunteers to deliver the 90-second pitch. While they speak, have listeners mark the career goal, course plan, education path, and first action they hear. Those are the sections students will put into today's formal Career Plan.
 
 ---
 
@@ -63,7 +63,7 @@ Students write in pen on the printed template. They can use complete sentences o
 
 Sections 4, 5, and 6 are the workbook's three goal horizons in Career Plan form: the course map is the medium-term high school goal, the postsecondary section is the long-term goal, and the action steps are the short-term goal students wrote on Day 4.
 
-The Career Plan is the **d(8)(C) summative artifact** for the year. This is the deliverable that demonstrates students can write their own career plan, not just answer questions about careers in general.
+The Career Plan is the **d(8)(C) summative artifact** for the year. Students must connect a career goal to their own course, education, and experience choices in one plan.
 
 !!! tip "Facilitation Tip"
     For students who freeze at the writing task, sit with them for 90 seconds and have them tell you their plan out loud. Write down their first sentence for them. After that they almost always finish the rest themselves.

@@ -17,7 +17,7 @@
 
 **WARM-UP: Name one environmental problem you've heard about (water pollution, plastic in oceans, droughts, wildfires, air pollution, plastic waste). Who do you think works to solve it?**
 
-Take 4 student responses. Use this to bridge from Plant Science (Week 2) to Environmental careers (Week 3): both pathways live inside the Ag cluster, and they often work side-by-side on the same problems.
+Take 4 student responses. Put the Plant Science work from Week 2 beside this week's environmental careers. Both pathways are in the Agriculture cluster, and workers from both may address the same soil, water, pest, or crop problem.
 
 ---
 
@@ -76,7 +76,7 @@ Students open Climate Kids and spend 10 minutes exploring. They find ONE topic t
 
 ## Activity 3: Quick Class Share (8 min)
 
-In the last 8 minutes, ask 3 students to share their topic-to-career connection on the projector. The point is to surface different connections so the class sees how many environmental problems map to different careers.
+In the last 8 minutes, ask 3 students to share their topic-to-career connection on the projector. Choose examples with different problems and careers so students can compare how the connections were made.
 
 ---
 

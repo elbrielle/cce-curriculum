@@ -44,7 +44,7 @@ For each Hat they note the education time and the DFW salary on scratch paper. M
 Then students complete the **career research worksheet** for ONE biomedical career of their choice. This is the same worksheet format taught in Week 0 and used in every cluster week.
 
 !!! tip "Facilitation Tip"
-    Don't let the long education path discourage students. Frame it: these careers pay $100K to $200K because they invent the future of medicine, and every year of school is an investment that pays back over a 40-year career.
+    Do not hide the long education path or reduce the decision to salary. Have students compare the years of school, likely debt, daily work, and reported pay so they can explain whether that route fits them.
 
 ---
 
@@ -52,7 +52,7 @@ Then students complete the **career research worksheet** for ONE biomedical care
 
 Project a short NIH STEM video clip from [science.education.nih.gov](https://science.education.nih.gov) featuring a real biomedical scientist or engineer. Students use Stop and Jot to capture (1) one technology shown and (2) one quality the scientist demonstrates.
 
-If a video is unavailable, project an NIH career profile page and read it aloud. The point is to humanize biomedical careers, show that real people do this work.
+If a video is unavailable, project an NIH career profile page and read it aloud. Students still record one technology and one quality shown by the person in the profile.
 
 ---
 

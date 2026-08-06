@@ -17,7 +17,7 @@
 
 **WARM-UP: What is the difference between a career and a job? Write your answer in one sentence, no looking it up.**
 
-Take 3-4 student definitions. Project all of them, then offer the working definition: a *job* is something you do for money right now; a *career* is the long arc of work you build over a lifetime, often across multiple jobs in the same field. Bridge: today eDynamic walks us through the choice between just picking a job and intentionally picking a career.
+Take 3-4 student definitions and project all of them. Then offer the working definition: a *job* is something you do for money right now; a *career* is work built over time, often across multiple jobs in the same field. Ask students to keep that difference in mind as they make choices in eDynamic.
 
 ---
 

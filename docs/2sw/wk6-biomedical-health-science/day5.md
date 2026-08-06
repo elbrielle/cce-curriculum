@@ -17,7 +17,7 @@
 
 **WARM-UP: COVID-19 vaccines were developed in record time. What types of scientists made that possible? Name as many as you can in 60 seconds.**
 
-Take responses. Students should name: virologists, immunologists, biomedical engineers, lab technicians, clinical trial coordinators, manufacturing scientists. Bridge: biomedical science is one of the FASTEST-evolving fields. Careers that exist today did not exist 10 years ago.
+Take responses and add any missing examples: virologists, immunologists, biomedical engineers, lab technicians, clinical trial coordinators, and manufacturing scientists. Ask which of these jobs depends on a tool or treatment that was uncommon or unavailable ten years ago.
 
 ---
 
@@ -52,7 +52,7 @@ Each student picks ONE emerging career. They use BLS Career Outlook, H&L Hat Fin
 **DOK 4:** Based on your research, what argument would you make to convince a school district that biomedical science should be a required course for all high school students? Use labor market data and emerging career trends to support your argument.
 
 !!! tip "Facilitation Tip"
-    Watch for students who pick a career and write generic information ("It's important. People need it."). Push for SPECIFICS: "What problem does this career solve? Why didn't it exist 10 years ago?" The specificity is what makes the research valuable.
+    If a student writes "It's important" or "People need it," ask: "What problem does this career solve? Why didn't it exist 10 years ago?" Require the answer to name the technology, medical need, or job task involved.
 
 ---
 

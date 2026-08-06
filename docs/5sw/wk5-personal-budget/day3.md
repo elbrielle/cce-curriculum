@@ -36,7 +36,7 @@ The tool returns a comparison showing how much more or less the same career earn
 - **Housing difference:** New York rent may be 2x Dallas rent
 - **Overall index:** The cost of living index shows the percentage difference (Dallas = 100, New York ≈ 150+)
 
-**Key insight to model aloud:** A $15K salary bump in New York sounds great until you realize housing costs $20K more. You actually take a pay cut in real terms. This is why young workers are moving TO Dallas from expensive coastal cities.
+**Model one comparison aloud:** If the New York salary is $15,000 higher but annual housing costs are $20,000 higher, the larger salary leaves $5,000 less before the other cost differences are counted. Students use the tool's current numbers rather than assuming the higher salary produces more spending money.
 
 ---
 

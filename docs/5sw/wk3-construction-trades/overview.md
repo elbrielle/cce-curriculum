@@ -39,9 +39,9 @@ Students explore construction careers through Hats & Ladders and the *Find Your 
 
 ## Career Connection
 
-The construction industry has a massive labor shortage. Demand for skilled construction workers outpaces supply, which means strong job security, rising wages, and rapid advancement for young people entering the field. In DFW, carpenters, masons, heavy equipment operators, and construction managers are in extremely high demand because of the region's population growth and ongoing building boom.
+Construction employers report more openings than trained workers available to fill them. In DFW, population growth keeps carpenters, masons, heavy equipment operators, and construction managers working on new buildings and infrastructure. Students will check the actual pay and projected-growth numbers rather than treating "high demand" as a slogan.
 
-The **apprenticeship model** is the traditional entry point for most construction careers. Apprentices learn on the job, getting paid while they train, and progress through journeyman and master levels. This is very different from the 4-year college pathway: apprentices typically finish their training debt-free and earning a full paycheck.
+The **apprenticeship model** is the traditional entry point for most construction careers. Apprentices learn on the job, are paid while they train, and progress through journeyman and master levels. Put that route beside a four-year degree: the time, cost, classroom hours, and point at which a student begins earning are different.
 
 **What is Happening at Irving ISD?** **Construction Technology** at **MacArthur High School** (School of Architecture, Construction and Civil Engineering, or ACE) leads to the National Center for Construction Education & Research (NCCER) Core certification. **Welding**, also within the ACE school at MacArthur, leads to the Structural Steel & Metal Welding Certification.
 

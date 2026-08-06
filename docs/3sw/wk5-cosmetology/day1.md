@@ -17,7 +17,7 @@
 
 **WARM-UP: Think of a movie or show where a person was turned into a creature, a monster, or someone much older. What did the artists change about that actor's skin to make you believe it?**
 
-Take 4 student responses. Listen for words like scales, cracks, wrinkles, and color. Bridge: Human Services is the cluster for careers that help people look and feel their best, and that runs from a hairstylist to a special effects artist who turns an actor into something not human. Today the class tours the cluster, then starts a three-day SFX build.
+Take 4 student responses and record the visible details they name: scales, cracks, wrinkles, or color. Connect those observations to the Human Services cluster, which includes hairstylists as well as special effects artists. Then begin the three-day SFX build.
 
 ---
 

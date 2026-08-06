@@ -17,7 +17,7 @@
 
 **WARM-UP: Name a bridge, highway, or water system in Irving that you use regularly. Someone ENGINEERED that, designed it, calculated how much weight it could hold, figured out where to put it, and made sure it would last 50+ years. What kind of education do you think that takes?**
 
-Collect 2-3 student responses. Bridge to the idea that last week was architecture (design): this week is civil engineering (making designs actually work under real loads).
+Collect 2-3 responses. Last week students designed buildings; this week they test what happens when a design has to carry weight, move water, or hold up a road.
 
 ---
 

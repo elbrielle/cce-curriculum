@@ -17,7 +17,7 @@
 
 **WARM-UP: Pull out your Week 0 My Career Journey reflection. Read what you wrote about your career interests at the very beginning of the year. What is one thing on that page that no longer feels true?**
 
-Take 2-3 student responses. Affirm that thinking shifts are expected and healthy, not a sign students "got it wrong" in Week 0. Bridge to today's activities: the "Being a Career Thinker and Doer" reflection and the gallery walk where the whole class sees how everyone's interests have moved.
+Take 2-3 student responses. Ask what new experience or information moved the answer since Week 0. Students will name that evidence in the "Being a Career Thinker and Doer" reflection and compare changes during the gallery walk.
 
 ---
 
@@ -35,7 +35,7 @@ Students then write for the remaining time on three prompts:
 - What is one belief that has stayed the same?
 - What is one action I have already taken toward a career, and what is the next one?
 
-Read 1-2 anonymous responses aloud at the end of the 10 minutes (only with student permission). The point is to model that reflection has many shapes.
+With student permission, read 1-2 anonymous responses aloud at the end of the 10 minutes. Choose responses that use different kinds of evidence so students can hear more than one valid way to reflect.
 
 ---
 

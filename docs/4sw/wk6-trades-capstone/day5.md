@@ -17,7 +17,7 @@
 
 **WARM-UP: You are now halfway through this course. If you could go back to Week 0 and tell yourself one thing about career planning, what would it be?**
 
-Take 4-5 student responses. Listen for the recurring theme, most students wish they had taken something more seriously, or stopped worrying about something they thought was a big deal. Bridge: today is the day to write that advice down. Your reflection becomes a record of how you have actually grown.
+Take 4-5 student responses. Ask what happened this year that made the advice change. Students will use that event, result, or class activity as evidence in the mid-year reflection.
 
 ---
 
@@ -78,7 +78,7 @@ From Day 3 Jigsaw research. Name the association and one specific reason.
 - Goal 2: A learning goal (e.g., "Improve my drone navigation accuracy to 100%")
 - Goal 3: A career exploration goal (e.g., "Visit MacArthur during 8th grade preview night")
 
-This is the **summative artifact for the 4SW**. It represents the student's full mid-year growth.
+This is the **summative artifact for the 4SW**. Score it for specific evidence of growth across the first half of the year.
 
 !!! tip "Facilitation Tip"
     For students who freeze at the writing task, sit down with them for 90 seconds. Have them say one section out loud. Write the first sentence for them. Almost every student who freezes can finish the rest of the reflection on their own once the first sentence is on paper.
@@ -95,7 +95,7 @@ After students submit their reflections, gather the class for a brief sharing ci
 2. One student shares the transferable skill they are most proud of
 3. One student shares one goal for the second half of the year
 
-Celebrate the growth honestly. This is the moment students realize how much their thinking has actually changed.
+Name the evidence students shared: a changed career ranking, a skill they can now prove, or a plan they revised. Keep the closing tied to what is on the page.
 
 **Preview the 5th Six Weeks** (2 min): The second half of the year shifts to Architecture & Construction. Wk1 explores Architecture and TinkerCAD. Wk2 dives into Civil Engineering with the bridge challenge. Wk3 covers Construction Trades. Wk4 explores HVAC, Electrical, and Plumbing careers through apprenticeship and labor-market research. Wk5 puts every student through a personal budget exercise tied to their chosen career. Wk6 explores Real Estate. Show the 5SW Wk1 Architecture cover slide if available.
 

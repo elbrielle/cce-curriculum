@@ -92,7 +92,7 @@ Students build their own budget using the Personal Budget Template and the local
 Have feedback ready before class for the two predictable errors: dividing by 12 before taking taxes out and then taking taxes out a second time, and copying an annual salary into a monthly row. If more than a handful of students miss the minute 5 target, pivot and reproject the gross-to-net steps to the whole room instead of fixing them desk by desk.
 
 !!! tip "Facilitation Tip"
-    Most students, across every salary level, will discover that one version of the lifestyle they imagined on Day 1 does not fit their Day 2 budget. This is normal, not a failure of the career. Frame adjustments as "what would you shift on the lifestyle side?" (smaller apartment, used car, roommate, less eating out) rather than "the career is wrong." The point is trade-off reasoning, not career rejection. Students whose family members work in the career they chose should not leave class thinking that career is a bad choice, the same career supports many real lifestyles.
+    When a student's Day 1 lifestyle does not fit the Day 2 budget, ask what could shift on the lifestyle side: a smaller apartment, a used car, a roommate, or less eating out. Keep the discussion on the trade-off shown by the numbers. A student whose family member works in the chosen career should not hear that the career itself is a bad choice.
 
 **DOK 3:** Based on your completed budget, what specific assumption about your desired lifestyle (apartment size, car choice, food spending, entertainment, phone plan) would have to change for you to save 20% of your income each month instead of 10%? Would that trade-off be worth it to you, and why?
 

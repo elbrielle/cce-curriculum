@@ -17,7 +17,7 @@
 
 **WARM-UP: A car makes a noise today that it did not make yesterday. Name three clues you would check before you guess what is broken.**
 
-Take 4-5 student responses. Surface the clue types students name on their own: what the noise sounds like, when it happens, warning lights, smells, how the car feels to drive. Bridge: that list is the job. A mechanic does not start with the repair, they start with the clues. Today's Powerskill gives that habit a name and puts a truck with four warning lights in front of the room.
+Take 4-5 student responses and sort the clues: sound, timing, warning lights, smell, and how the vehicle feels. A mechanic starts with those clues before choosing a repair. Students will use the same analytical-reasoning sequence on a truck with four warning lights.
 
 ---
 

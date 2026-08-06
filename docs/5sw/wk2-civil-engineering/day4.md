@@ -17,7 +17,7 @@
 
 **WARM-UP: What is one thing that could go wrong while you build your bridge? How will you know if it is happening?**
 
-Quick share. This primes students to self-monitor during building rather than just rushing. Civil engineers call this "quality control", checking as you go, not just at the end.
+Take a quick share, then name the habit as **quality control**: checking measurements and connections during the build, before a weak joint is buried under more material.
 
 ---
 

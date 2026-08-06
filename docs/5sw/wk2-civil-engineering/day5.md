@@ -17,13 +17,13 @@
 
 **WARM-UP: When engineers investigate why a structure failed, what kinds of questions do they ask? (Example: a section of highway settles unevenly after a few years, who figures out why?)**
 
-Discuss briefly. The answer is **forensic structural engineers:** civil engineers who specialize in failure analysis. Every failure teaches the next design, which is why engineering is about both building things AND understanding why they fail. This framing matters for today's results: some bridges held more, some less, and both types of outcomes have lessons.
+Discuss briefly. The answer is **forensic structural engineers:** civil engineers who study why structures fail. Connect that work to yesterday's test results. A bridge that held less weight still gives the team a failed joint, buckled member, or weak shape to study before redesigning.
 
 ---
 
 ## Activity 1: Results Share-Out + Team Presentations (15 min)
 
-Post the Day 4 results whiteboard prominently, show the weights each bridge held, but do not rank publicly from high to low. The goal is pattern-finding, not winners and losers. Recognize the team with the best strength-to-weight ratio (lightest bridge that held meaningful weight) and the team with the most creative structural approach in addition to the highest-weight team, so every kind of engineering thinking gets named.
+Post the Day 4 results and the weight each bridge held, but do not rank teams from highest to lowest. Ask students to find patterns. Name the best strength-to-weight ratio (the lightest bridge that held substantial weight), the most unusual structural approach, and the highest-weight result.
 
 Each team gives a **60-second rapid presentation** covering:
 

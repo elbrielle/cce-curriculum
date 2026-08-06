@@ -17,7 +17,7 @@
 
 **WARM-UP: Imagine you are 18, just graduated from high school, and looking for your first real job. Write down, in order, the first 5 things you would do.**
 
-Take 4-5 student responses. Most students will get some steps right and miss others. Bridge to today: there is a clear, repeatable process for job searching, and it works for any career at any age.
+Take 4-5 responses. Most students will have part of the process and leave gaps. Keep their list visible, then compare it with the seven job-search steps used in today's lesson.
 
 ---
 

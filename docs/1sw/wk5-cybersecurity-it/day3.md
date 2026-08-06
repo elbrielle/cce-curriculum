@@ -78,7 +78,7 @@ Students then pick a bootcamp topic from the workbook's menu: identifying phishi
 
 Move from the bootcamp to the workplace. The bootcamp is volunteer work: nobody pays for it and nobody checks it, so the only thing keeping the quality up is the student's own standard. That is the workbook's definition of work ethic doing real work. In cybersecurity the same standard has a second name, integrity, because the professionals in this field hold access that nobody is watching them use.
 
-Three real-world examples anchor the point:
+Use three cases students can compare:
 
 1. **A hospital cybersecurity analyst** has access to patient medical records: diagnoses, prescriptions, test results. Integrity means never looking unless the job requires it.
 2. **A bank security engineer** has access to every customer's account data. Integrity means never using that access for personal gain or to satisfy curiosity.

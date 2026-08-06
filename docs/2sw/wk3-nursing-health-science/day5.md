@@ -61,7 +61,7 @@ Students finish the App Exploration page they started on Day 1 and finalize thei
 **Active Monitoring:** Walk the room with one target, that every student has rated at least 3 Hats and can name the one they favorited. Ask each student: "Which nursing career did you favorite, and how does it fit your core personality type?" If several students have rated Hats without favoriting any, pause and reteach the difference between rating a Hat and saving one to the profile.
 
 !!! tip "Facilitation Tip"
-    Some students will struggle to favorite anything because they "didn't like nursing." That's a valid result of career exploration. Reframe: "Knowing that nursing is NOT for you is just as valuable as finding the perfect career. Now you can focus your time on other clusters."
+    Some students will not favorite anything because they did not like nursing. Ask them to name the job condition, training requirement, or daily task that ruled it out, then save that reasoning in the reflection. Eliminating a path is still a career decision.
 
 ---
 

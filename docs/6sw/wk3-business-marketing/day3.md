@@ -17,7 +17,7 @@
 
 **WARM-UP: What are you the person your friends come to for help with? Gaming, homework, art, a sport, fixing something? Name it out loud.**
 
-Take 4-5 student responses. Most students name something they think is not worth money. Bridge to today: every one of those is a skill someone else does not have, and people pay for skills they do not have. That is a whole career field called consulting, and today students open a consulting business of their own.
+Take 4-5 responses. Most students will name something they would not pay for themselves. Ask who might pay, and why. Consultants make a business out of skills their clients need but do not have; today students build that business around one skill of their own.
 
 ---
 

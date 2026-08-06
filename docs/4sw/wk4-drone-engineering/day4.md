@@ -17,7 +17,7 @@
 
 **WARM-UP: What was the hardest part about flying the drone yesterday? What will you do differently today?**
 
-Take 3-4 quick student responses. Common: "It went up too fast and hit the ceiling," "I confused left and right," "It crashed when I tried to land." Bridge: today we are turning yesterday's basics into a real navigation mission.
+Take 3-4 quick student responses: "It went up too fast and hit the ceiling," "I confused left and right," or "It crashed when I tried to land." Put each mistake beside the takeoff, navigation, or landing checkpoint where students will correct it today.
 
 ---
 

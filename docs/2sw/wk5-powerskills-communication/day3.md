@@ -17,7 +17,7 @@
 
 **WARM-UP: What is the difference between being assertive and being aggressive? Can you be assertive AND respectful?**
 
-Take 3-4 responses. Bridge: assertive communication is the middle path between passive (saying nothing) and aggressive (yelling). Today the class explores how advocates use assertive communication to make change.
+Take 3-4 responses. Place each on a continuum from passive (saying nothing) to aggressive (yelling), then identify the assertive response that states the need without attacking the other person. Students will use that approach in the advocacy activity.
 
 ---
 

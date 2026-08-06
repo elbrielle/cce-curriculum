@@ -70,7 +70,7 @@ Project the discussion question and let students work individually or in pairs t
 - Acknowledge that the answer depends on the student's life situation (family obligations, financial resources)
 - Identify the "biggest jump", typically LVN → RN, where ~1 year of additional education yields ~$30K salary increase
 
-After 10 minutes, run a quick whole-class share. Take 3-4 student answers and highlight the diversity of reasoning.
+After 10 minutes, take 3-4 answers that recommend different routes. Record the education time and salary fact behind each choice so students can see why the same table produces different decisions.
 
 Close the share by opening the district page's Career Exploration Connection on financial resources (FYF p. 84). Education and training programs cost money, but grants, scholarships, and loans help cover the expense. Grants and scholarships usually do not have to be repaid; loans are borrowed money that has to be paid back over time. Put the page's own discussion question to the class: why is it important to understand the costs of a big decision before making it?
 

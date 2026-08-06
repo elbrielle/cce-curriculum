@@ -17,7 +17,7 @@
 
 **WARM-UP: If you could take any class in high school, real or made up, what would it be? Write one sentence.**
 
-Take 3-4 fun answers (most are jokes about dragon training and pizza science). Bridge: today we are going to find out which REAL classes at your future high school move you toward your career goal.
+Take 3-4 answers, including the jokes about dragon training and pizza science. Then open one actual campus course list and ask which class would move a student toward the career goal from Week 1.
 
 ---
 

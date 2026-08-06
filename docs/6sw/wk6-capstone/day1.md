@@ -43,7 +43,7 @@ The visible items are aspirational. The underwater items are evidence of the wor
 **Step 3: Reflect (2 min):** Write a one-sentence reflection at the bottom of the iceberg: *"Looking at my underwater work, the most important thing I learned about career exploration is _____."*
 
 !!! tip "Facilitation Tip"
-    The iceberg often surprises students because they realize how much they have done. Have students count the items they put underwater. If a student has fewer than 5, push them to look back at every six weeks block. They have done MORE than they think.
+    Have students count the items they put underwater. If a student has fewer than 5, send them back through each six-weeks block and ask for one project, one piece of research, or one skill from each. The page should show the work that sits underneath the final presentation.
 
 **DOK 4:** In what ways do the things underneath your iceberg AFFECT the things on top? Use a specific example from your iceberg.
 

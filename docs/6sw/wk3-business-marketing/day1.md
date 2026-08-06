@@ -17,7 +17,7 @@
 
 **WARM-UP: Name an online ad you actually clicked, or almost clicked. What did it ask you to DO? Someone's JOB was to write that line.**
 
-Take 4-5 student responses. Push past "it looked cool" to the action the ad asked for: buy, sign up, download, watch, swipe. Bridge to today: the line that asks for the action is called a call to action, and writing it is a job. The workbook puts students in that job.
+Take 4-5 responses. Push past "it looked cool" to the action the ad asked for: buy, sign up, download, watch, or swipe. Name that line as the call to action. The workbook asks students to write one as a digital marketing specialist.
 
 ---
 
@@ -49,7 +49,7 @@ Use the Hat Finder to browse 2-3 marketing-specific Hats: Marketing Manager, Bra
 !!! warning "The last page of this activity is printed out of order"
     "Click Factor" runs pages 225, 226, 227, and then jumps to **page 230** for Step 4. Pages 228 and 230 were transposed at the printer. Tell students the jump before they start.
 
-Set the scene from the workbook: students are digital marketing specialists on a team promoting new products. Ads are everywhere, and people decide in seconds what to click. The team needs ads that do more than look good, they need ads that get people to take the next step. That job belongs to the call to action, the part of an ad that tells the audience what to do next. A CTA can be short and punchy ("Buy Now!") or longer ("Sign up today for exclusive access"), and the strong ones are clear, direct, and matched to both the product and the audience.
+Use the workbook's setup: students are digital marketing specialists promoting new products. People decide in seconds whether to click, so the ad has to tell them what to do next. That line is the call to action. It may be short ("Buy Now!") or longer ("Sign up today for exclusive access"), but it needs to be clear, direct, and written for the product's audience.
 
 **Step 1: Analyze Two Ads (4 min)**
 

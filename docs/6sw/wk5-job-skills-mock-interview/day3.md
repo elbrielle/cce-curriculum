@@ -17,7 +17,7 @@
 
 **WARM-UP: Have you ever filled out a long, detailed form? A doctor's office form, a school registration form? A job application is like that, but more detailed. What part of forms do people usually mess up?**
 
-Take 3-4 student responses. Common answers: skipping fields, sloppy handwriting, not reading directions. Bridge to today: sloppy applications get THROWN AWAY by employers. Today's standard is neatness as much as accuracy.
+Take 3-4 responses. Common answers are skipped fields, hard-to-read handwriting, and missed directions. Explain that an employer may reject an application they cannot read or verify. Today's standard is neatness as much as accuracy.
 
 ---
 
@@ -31,7 +31,7 @@ The *Find Your Future* workbook has no job application activity. The printed CCE
 
 **Two prep notes before you start:**
 
-- **Privacy:** Remind students they are completing a *practice* application. For any real-world Personal Information (address, phone, DOB, email), they may either write their real info or substitute a sample identity (e.g., fictional "Alex Martinez, 123 Main St, Irving, TX" from the Day 2 cover letter). Collect and shred all completed forms at end of class, do not send them home or leave them on desks.
+- **Privacy:** Remind students they are completing a *practice* application. For personal information (address, phone, DOB, email), they may either write their real information or use a sample identity (e.g., fictional "Alex Martinez, 123 Main St, Irving, TX" from the Day 2 cover letter). Collect and shred all completed forms at the end of class; do not send them home or leave them on desks.
 - **Scope:** Real job applications take 30–45 minutes to complete properly, and this class has 15. Today's goal is the *first pass*: Personal Info + Education + Skills + Availability + Signature, with References and Employment History filled in during Activity 2 or as homework. Tell students this explicitly so they pace themselves.
 
 **Chunking:** Walk one section at a time on the projector. Say what the employer is checking in that section before students write anything in it, and close each section with a check that every line is filled and legible before releasing the next.
@@ -179,4 +179,4 @@ Bottom line: ONE reason you should NEVER list someone without asking first (thin
 
 - **Support:** Pre-fill the application with a fictional student's data so students see what a complete application looks like. Then students complete their own. Provide a checklist of what makes a "good" reference vs. "bad" reference.
 - **Extension:** Students write the permission email and ACTUALLY SEND IT to a teacher or coach asking if they can be a future reference. They print the response (or a screenshot of the agreement) for their portfolio.
-- **ELL:** Pre-teach: References = Referencias, Permission = Permiso, Application = Solicitud, Signature = Firma. Bilingual reference protocol handout. Bilingual ESL students should consider listing teachers who can speak to their bilingual abilities — it is a strong reference angle.
+- **ELL:** Pre-teach: References = Referencias, Permission = Permiso, Application = Solicitud, Signature = Firma. Use the bilingual reference protocol handout. Bilingual ESL students may list teachers who can give a specific example of how they have used both languages at school.

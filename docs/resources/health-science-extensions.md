@@ -2,7 +2,7 @@
 
 <!-- SOURCE_PENDING: health_science_extensions -->
 
-Placeholder content for three health science specialties the CCE curriculum does not currently dedicate a week to but that appear in Irving ISD high school pathways and in student career interest. Intended as drop-in source material for the health science coordinator team. Until populated, these topics can be referenced as Extension activities or flagged on the CCE career research worksheet when students express specific interest.
+The curriculum does not dedicate a week to these three health science specialties, although students may ask about them and related careers appear in Irving ISD pathways. The sections below record where each specialty could connect to an existing lesson. They are planning notes until the health science coordinator team supplies sources.
 
 **Status:** Awaiting source materials from Irving ISD health science coordinators. Do not promote these sections into primary weekly content until the `SOURCE_PENDING` tags below are removed and citations are added.
 
@@ -14,8 +14,8 @@ Placeholder content for three health science specialties the CCE curriculum does
 
 **Integration hooks in existing curriculum:**
 
-- 2SW Wk3 (Nursing / Health Science) Day 1 career research: PT is a natural extension Hat for students whose core personality types include Helper and Doer.
-- 2SW Wk6 (Biomedical / Health Science) Day 2-4: PT connects to the Mark (athlete rehab) client scenario if coordinators want to spin PT into a formal Day 2 activity.
+- 2SW Wk3 (Nursing / Health Science) Day 1 career research: students with Helper and Doer core personality types can add PT to the careers they compare.
+- 2SW Wk6 (Biomedical / Health Science) Days 2-4: the Mark athlete-rehabilitation scenario gives coordinators a place to add PT if they later approve a sourced activity.
 - 6SW Wk1 (Education / Community) Day 4: PT volunteer/shadow hours at a PT clinic fit as a community service option.
 
 **What to fill in once source is available:**
@@ -33,7 +33,7 @@ Placeholder content for three health science specialties the CCE curriculum does
 
 **Integration hooks in existing curriculum:**
 
-- 2SW Wk3 (Nursing / Health Science) Day 3 micro:bit vital signs activity: sonography is the next-level imaging professional students should know about.
+- 2SW Wk3 (Nursing / Health Science) Day 3 micro:bit vital signs activity: add sonography to the career comparison when the lesson moves from vital signs to diagnostic equipment.
 - 2SW Wk4 (Dental / Medical Billing) Day 4 health informatics career research: sonography fits the high-skill-high-demand classification.
 - 5SW Wk2 (Civil Engineering) Day 4: imaging technology has civil engineering cross-links (bridge ultrasonic inspection).
 
@@ -52,8 +52,8 @@ Placeholder content for three health science specialties the CCE curriculum does
 
 **Integration hooks in existing curriculum:**
 
-- 2SW Wk3 (Nursing / Health Science) Day 1 career research worksheet: athletic trainer is an Extension Hat for Doer + Helper + Achievement students.
-- 2SW Wk3 (Nursing / Health Science) Days 3-4 Vitals in Motion, the medical tent at a community fun run: this is the natural home for a sports medicine deep-dive now that the old athlete-rehab day is gone.
+- 2SW Wk3 (Nursing / Health Science) Day 1 career research worksheet: students with Doer, Helper, and Achievement results can add Athletic Trainer to the careers they compare.
+- 2SW Wk3 (Nursing / Health Science) Days 3-4 Vitals in Motion: the community fun-run medical tent is the existing lesson context for sourced sports-medicine material. The old athlete-rehabilitation day is no longer in the curriculum.
 - 3SW Wk5 (Cosmetology) Day 4 Stress Toolkit: sports med connects to the wellness-adjacent careers branch.
 - 6SW Wk4 (Sales / Presentations) Day 3: sports agency and sports PR overlap with sports medicine careers.
 

@@ -17,7 +17,7 @@
 
 **WARM-UP: Picture a car you have seen after a crash. Name one thing that was damaged that you could SEE. Name one thing that might be damaged that you could NOT see.**
 
-Take 4-5 student responses. Students name bumpers, doors, and broken glass first. Push for the hidden damage: the frame, the radiator, airbag sensors, wiring behind a panel. Bridge: a collision repair technician has to find both kinds of damage before anyone can write a repair plan, and that is the job students take today.
+Take 4-5 student responses. Students usually name bumpers, doors, and broken glass first. Add the frame, radiator, airbag sensors, and wiring behind a panel. A collision repair technician has to inspect visible and hidden damage before writing the repair plan students will make today.
 
 ---
 

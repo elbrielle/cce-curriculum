@@ -17,7 +17,7 @@
 
 **WARM-UP: Name one rule in your neighborhood or your city that you would change, and one you would add. Who actually gets to make that decision?**
 
-Take 2-3 responses. Most students will say "the mayor" or "the police." Bridge: the people who write most of the rules you live under are city council members, and today every student gets that job for a town that does not exist yet.
+Take 2-3 responses. Students will usually name the mayor or police. Add city council members, who write local ordinances, then give each student that role for the town they design today.
 
 ---
 
@@ -38,7 +38,7 @@ Post the workbook's three tests for a strong law where students can see them all
 Pre-teach three legal terms in 60 seconds using the vocabulary list from the overview: **ordinance**, which students use today; **due process** and **probable cause**, which return in tomorrow's legal review. Students write all three on a vocabulary card they keep for Day 4.
 
 !!! tip "Facilitation Tip"
-    The skatepark hours question is the fastest way to get a real debate started, because students will split on it immediately. Let the split happen for 30 seconds, then name what just occurred: that argument is what a council meeting sounds like, and the three tests are how it gets settled.
+    The skatepark-hours question usually splits the room. Let students argue it for 30 seconds, then point back to the three tests they must use to settle the ordinance: clear, fair, and enforceable.
 
 ---
 

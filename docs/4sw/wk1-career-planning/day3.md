@@ -17,7 +17,7 @@
 
 **WARM-UP: If you earned $40,000 per year (about $2,500/month after taxes), how would you spend that money? List your top 5 monthly expenses and rough amounts.**
 
-Collect 2-3 student responses on the board. Do not correct any numbers — the simulation will do that for you. Bridge: today Xello is going to put you inside an actual life with a real budget and real choices. By the end you will know what your dream lifestyle costs.
+Collect 2-3 student responses on the board without correcting the numbers. Keep them visible so students can compare their guesses with the housing, transportation, food, and entertainment costs in Xello.
 
 ---
 
@@ -48,7 +48,7 @@ The decision log is critical. Without it, the simulation becomes a video game st
     Circulate aggressively for the first 10 minutes. Students who skip the decision log lose the entire point of the activity. If a student finishes the Sim in under 5 minutes, they clicked through without thinking, make them restart and log every decision.
 
 !!! note "Common Misstep"
-    Students will pick the cheapest option for everything to "win" the simulation. Stop the room at minute 15 and remind them: this is not a game with a winner. The point is to see the consequences of realistic choices, not to maximize savings.
+    Students may pick the cheapest option for everything to "win" the simulation. Stop the room at minute 15 and ask whether those choices match the life they described in the warm-up. Their budget should test a realistic lifestyle, even when that lifestyle does not balance.
 
 **Rung 3 as students finish.** The Sim hands students a salary. Rung 3 asks them to find their own (FYF pp. 285-286: "Rung 3: Career Deep Dive"). As each student finishes the simulation, they open pages 285-286 and complete the deep dive for the career goal they named on Rung 2 yesterday:
 
@@ -74,7 +74,7 @@ After students complete the Sim, run a quick whole-class debrief. Ask:
 4. Who picked a cheap lifestyle on purpose? Why?
 5. How does the Sim's salary compare to the starting salary you just wrote on Rung 3 for your own career goal?
 
-The pattern that almost always emerges: students who picked a high-paying career could afford their lifestyle; students who picked a meaningful-but-lower-paying career could not. Surface this without judging, both choices are valid in real life. The point is to make the tradeoff visible.
+Compare the choices that balanced with the ones that did not. Ask what changed when students adjusted the career, housing, transportation, or entertainment line. Do not rank the careers; keep the discussion on the tradeoff each budget made visible.
 
 **Stop and Jot:** Close the debrief with the Skills Check on page 286. Give students 3 minutes and the three lines the workbook prints: skills this career might need, skills I already have, and skills I will need to build. Post a stem for the third line, "A skill I will need to build is _____, and I can start by _____." Read the third line over shoulders. Whichever skill shows up most across the room is the one to name again on Day 5 when students write their mid-year update.
 

@@ -17,7 +17,7 @@
 
 **WARM-UP: Think of a project you gave up on: a game plan, a science fair build, a drawing. Was giving up the right call? What told you it was time to stop?**
 
-Take 4 responses. Listen for students describing evidence rather than mood ("it kept falling over" beats "I got bored"). Bridge: entrepreneurs make that same call on purpose, with reasons they can say out loud, and today students make it on their own idea.
+Take 4 responses. Listen for evidence rather than mood: "it kept falling over" gives the class something to test; "I got bored" does not. Students will need that kind of reason when they decide what to do with their own idea.
 
 ---
 
@@ -25,7 +25,7 @@ Take 4 responses. Listen for students describing evidence rather than mood ("it 
 
 **Source:** (FYF p. 236: "Million Dollar Idea", Step 4)
 
-The workbook's point in Step 4 is that entrepreneurs do not just come up with ideas, they test them. Students take the two ideas they chose on Day 2 and answer three questions for EACH one on page 236:
+In Step 4, students test the two ideas they chose on Day 2. They answer three questions for EACH idea on page 236:
 
 - How well does this solve the problem?
 - Why would someone choose this over other options?

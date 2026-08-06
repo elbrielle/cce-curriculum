@@ -17,7 +17,7 @@
 
 **WARM-UP: When the economy is doing well, do companies spend MORE or LESS on advertising? What about during a recession? Why?**
 
-Take 2-3 student responses. Most students will guess correctly that companies spend more during good times. Bridge to today: this is the d(5)(C) standard, economic conditions affect job availability in marketing more dramatically than in many other fields.
+Take 2-3 responses. Most students will guess that companies spend more when business is good. Connect that answer to d(5)(C): marketing jobs rise and fall with company budgets, so economic conditions can change hiring quickly in this field.
 
 ---
 

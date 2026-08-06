@@ -40,7 +40,7 @@ Students explore HVAC, electrical, plumbing, and welding careers through Hats & 
 
 ## Career Connection
 
-Electricians, plumbers, HVAC technicians, and welders are among the most in-demand workers in America. DFW's explosive growth means new homes, schools, hospitals, and commercial buildings need these workers for every project. At the same time, experienced tradespeople are retiring faster than new workers are entering the field, a classic "skills gap."
+Every new home, school, hospital, or commercial building needs electrical, plumbing, HVAC, and welding work. DFW growth adds projects while experienced tradespeople are retiring faster than new workers enter the field. Students research that gap through local pay, licensing, apprenticeship, and job-posting data.
 
 **What is Happening at Irving ISD?** **Welding** at **MacArthur High School** (School of Architecture, Construction and Civil Engineering) leads to the Structural Steel & Metal Welding Certification. The workbook's district pages name all three of Irving ISD's Architecture and Construction programs of study (FYF pp. 196-197: "What is Happening at My District?"): Architecture, Construction Technology, and Welding, with Autodesk Revit, NCCER Core, and the Structural Steel and Metal Welding Certification behind them, SkillsUSA as the student organization, and a new Irving ISD CTE Center planned with welding and construction labs. The page's "What Does Learning Look Like?" panel describes students who built a fully functioning tiny home from scratch and handled the design, structural framing, HVAC, plumbing, and electrical installation themselves.
 

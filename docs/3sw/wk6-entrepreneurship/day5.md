@@ -17,7 +17,7 @@
 
 **WARM-UP: If you earned $4,000 a month, would that be enough to live the lifestyle you want? List the 3 biggest things you'd spend it on.**
 
-Take 4-5 student responses. Capture the categories (rent, car, food, phone, savings, fun). Bridge: today they build a real budget tied to a real career salary they explored this six weeks.
+Take 4-5 student responses and group them as rent, transportation, food, phone, savings, or entertainment. Students will put amounts beside those categories using a career salary they researched this six weeks.
 
 ---
 

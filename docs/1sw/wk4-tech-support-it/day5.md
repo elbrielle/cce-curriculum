@@ -17,7 +17,7 @@
 
 **WARM-UP: After 4 weeks in the IT cluster, rank these IT pathways from most to least interesting to YOU: Programming, Web Development, Networking Systems, Tech Support, Cybersecurity (next week!). Write your ranking.**
 
-Quick share. This is informal data, listen for which pathways are catching on. Bridge: "Today you demo your help desk tool. Then we make sure your favorites are saved before we hit cybersecurity next week."
+Quick share. Note which pathways students name and which no one mentions. Today they demonstrate the help desk tool, save their favorites, and close the week before cybersecurity begins.
 
 ---
 
