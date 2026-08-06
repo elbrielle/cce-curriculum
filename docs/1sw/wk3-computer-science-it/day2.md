@@ -9,7 +9,7 @@
 | **TEKS** | d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explain: Learn About UX · Explore: Website audit, fixes, and redesign sketch · Evaluate: Exit Ticket |
 | **Deliverable** | Completed UX audit (3 strengths, 5 problems, 3 fixes with user benefits) + redesign sketch of one page (FYF pp. 28-29) |
-| **Materials** | *Find Your Future* workbook pp. 28-29, the practice site named on the teacher's Climber Notes deck (Climber Notes: "Website Revamp", slide 2), Chromebooks, projector, sticky notes, plain paper |
+| **Materials** | *Find Your Future* workbook pp. 28-29, the practice site named on the teacher's Climber Notes deck (Climber Notes: "Website Revamp", slide 2), Chromebooks, projector, sticky notes (about 4 per student), plain paper (1 sheet per student), printed Website Audit Scaffold for the support group ([Printable PDF](../../resources/worksheets/wk3-ux-audit-scaffold.pdf)) |
 
 ---
 
@@ -41,6 +41,12 @@ After reading, ask 3-4 students to name ONE good-UX rule and ONE bad-UX problem.
 ## Activity 2: Steps 2-5 — Investigate, Audit, and Fix (25 min)
 
 **Source:** (FYF pp. 28-29: "Website Revamp", Steps 2-5)
+
+!!! warning "Before Monday: Open the Practice Site Yourself"
+    Load [pawsandclaws.hatsandladders.com](https://pawsandclaws.hatsandladders.com) on a student Chromebook, through the district filter, and click all the way to a checkout. The whole 25 minute audit rests on that site loading. Note two or three problems you find so you have a model ready if the room stalls on the 5-problems list.
+
+!!! tip "Site Blocked or Down? Audit a Public Site Instead"
+    If Paws and Claws will not load, run the same five workbook steps against one of the cluttered public sites you already planned to project in Activity 1. Pick one busy news or shopping homepage, put the URL on the board, and have the whole class audit that single site together. Steps 3 through 5 and the deliverable are unchanged, and the exit ticket does not depend on the practice site at all.
 
 **Step 2: Investigate a Website (5 min).** Project the practice site named on the Climber Notes deck (Climber Notes: "Website Revamp", slide 2) and put it on student Chromebooks. The site is **Paws and Claws** at [pawsandclaws.hatsandladders.com](https://pawsandclaws.hatsandladders.com), an H&L-hosted practice website that is the same for every campus, so the day runs whether or not you have the deck. Students click through it as a first-time customer trying to buy something.
 
@@ -84,6 +90,6 @@ Scenario: Rosa is 16 and just opened a small tutoring business. Her website has 
 
 ## Differentiation
 
-- **Support:** Pre-print the audit page with 2 of the 5 problems already named so students see the level of detail expected before finding their own. Sentence stem for the fix column: "This helps users because they can now _____."
+- **Support:** Hand out the printed Website Audit Scaffold ([Printable PDF](../../resources/worksheets/wk3-ux-audit-scaffold.pdf)). It carries a worked model at UX Designer detail, starts the first 2 of the 5 problems by naming their category and opening the sentence, and prints the fix-column stem: "This helps users because they can now _____."
 - **Extension:** Students who finish early audit a second page of the site and check whether the same problem shows up twice. A problem that repeats on every page is a design problem, not a page problem.
 - **ELL:** Bilingual UX vocabulary: Experiencia del usuario = User Experience, Navegación = Navigation, Botón = Button, Menú = Menu, Confuso = Confusing, Desordenado = Cluttered. Allow ELL students to write the fixes in Spanish.

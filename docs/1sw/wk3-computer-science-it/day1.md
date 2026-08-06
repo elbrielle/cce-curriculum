@@ -8,8 +8,8 @@
 | **Objectives** | Explore networking careers in the Hats & Ladders app; identify Network Architect, Network Administrator, Database Administrator, and Systems Analyst Hats; identify transferable skills shared between Programming and Networking careers |
 | **TEKS** | d(1)(C), d(4)(B) |
 | **5E Phases** | Engage: Warm-Up · Explore: Hat Finder networking career notes · Explain: Transferable skills discussion and DOK 3 · Evaluate: Exit Ticket |
-| **Deliverable** | Network career notes + 1 transferable skill written on the App Exploration page |
-| **Materials** | *Find Your Future* workbook p. 38, Chromebooks, projector, BLS Network Architects page |
+| **Deliverable** | Network career notes in the engineering notebook + 1 transferable skill written on the App Exploration page |
+| **Materials** | *Find Your Future* workbook p. 38, Chromebooks, engineering notebooks, projector, BLS Network Architects page, printed Ten Transferable Skills list for the support scaffold ([Printable PDF](../../resources/worksheets/wk3-transferable-skills-list.pdf)) |
 
 ---
 
@@ -34,7 +34,7 @@ Quick share. Most students will say "the IT person" but cannot describe what fix
 3. **Database Administrator:** Manages the systems where company data is stored. Backs it up, secures it, makes sure it's accessible to the right people.
 4. **Systems Analyst:** Bridges business needs and IT solutions. Talks to non-technical employees about their problems and figures out how IT can help.
 
-Students spend ~5 min per Hat and record on a notes page:
+Students spend ~5 min per Hat and record in their engineering notebook, in a dated entry labeled "1SW Wk3 Networking":
 
 - Hat name
 - Education required
@@ -108,6 +108,6 @@ Bottom line: Why do employers care about the SHARED skills (middle overlap) as m
 
 ## Differentiation
 
-- **Support:** Pre-print a list of 10 common transferable skills for students to circle and connect to careers, rather than generating from scratch.
+- **Support:** Hand out the printed Ten Transferable Skills list ([Printable PDF](../../resources/worksheets/wk3-transferable-skills-list.pdf)) so students circle and connect skills to careers rather than generating from scratch.
 - **Extension:** Students explore a 5th networking career not on the list: Cloud Network Engineer, Wireless Communications Specialist, or VoIP Engineer.
 - **ELL:** Bilingual transferable skills card: Comunicación = Communication, Resolución de problemas = Problem-solving, Atención al detalle = Attention to detail, Trabajo en equipo = Teamwork.

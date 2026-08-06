@@ -8,7 +8,7 @@ Students continue exploring the IT cluster through the Hats & Ladders app and th
 
 **Learning Target:** I can name IT careers in the Hats & Ladders app, explain what makes a website easy or hard to use, and design four app screens that a partner can walk through without getting lost.
 
-**Success Criteria:** I will know I am successful when my notes page lists the education and the DFW pay for the networking careers I explored, when my website audit names 3 things that work and 5 problems with a fix for 3 of them, when my four app screens are labeled Home, Main Menu, Action, and Success and a partner can walk through them, and when my Emerging Tech Research Template is filled in for all seven rows.
+**Success Criteria:** I will know I am successful when my engineering notebook lists the education and the DFW pay for the networking careers I explored, when my website audit names 3 things that work and 5 problems with a fix for 3 of them, when my four app screens are labeled Home, Main Menu, Action, and Success and a partner can walk through them, and when my Emerging Tech Research Template is filled in for all seven rows.
 
 ## Demonstration of Learning
 
@@ -27,11 +27,12 @@ Students continue exploring the IT cluster through the Hats & Ladders app and th
 - Climber Notes deck for Day 2 (Climber Notes: "Website Revamp", slide 2), which names the practice site students audit
 - BLS, Computer Network Architects: [bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm](https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm)
 - BLS, Web Developers: [bls.gov/ooh/computer-and-information-technology/web-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm)
-- Sticky notes for the Day 2 first-impression capture (FYF p. 28) and the Day 3 app brainstorm (FYF p. 30)
-- Plain paper for the Day 2 redesign sketch (FYF p. 29) and printable wireframe templates for students who need them
-- Pencils, colored pencils, or markers
-- Printed Emerging Tech Research Template (one per student)
-- Xello (Add Skills activity)
+- Sticky notes for the Day 2 first-impression capture (FYF p. 28) and the Day 3 app brainstorm (FYF p. 30). Plan about 8 per student across the two days, which is roughly one 100-sheet pad per table group of four
+- Plain paper for the Day 2 redesign sketch (FYF p. 29), 1 sheet per student, plus the printable wireframe template for students who need it ([Printable PDF](../../resources/worksheets/wk3-wireframe-template.pdf))
+- Pencils for every student, plus one set of colored pencils or markers per table group of four
+- Printed Emerging Tech Research Template, 1 per student ([Printable PDF](../../resources/worksheets/wk3-emerging-tech-research-template.pdf))
+- App Design Packet and Emerging Tech Pitch Rubric for the Day 3 packet and the Day 5 pitch ([Printable PDF](../../resources/worksheets/wk3-app-design-rubric.pdf))
+- Xello (Add Skills activity), student accounts rostered through the district SSO. See the Day 5 provisioning note
 - Projector
 
 ## Career Connection
@@ -88,15 +89,16 @@ The chapter does not print a pathway list and it carries no networking content. 
 
 ## Summative Assessment
 
-**"From Wireframe to Wow" App Design Packet (Day 3) + Emerging Tech Mini-Presentation (Day 5):** Students submit their four labeled app screens, their partner walkthrough notes, and the 2 improvements they made. They also deliver a 2-minute pitch on their researched emerging IT career covering: career name, what it involves, education needed, salary, why it's growing, and one company hiring for it. The workbook no longer prints a per-activity rubric, so score both pieces on a CCE rubric that adapts the 4-level scale from the Capstone chapter (FYF p. 280): four criteria scored 4 to 1, 16 points total. The criteria are App Plan (name, target user, and 2-3 features are specific), Screen Design (all four screens are boxed, labeled, and tell the user where to click), Response to Feedback (both improvements trace to something the partner named), and Presenter Delivery (the pitch covers all six points and is clear enough for a listener to summarize). Aligned to d(1)(C), d(1)(D), d(4)(B).
+**"From Wireframe to Wow" App Design Packet (Day 3) + Emerging Tech Mini-Presentation (Day 5):** Students submit their four labeled app screens, their partner walkthrough notes, and the 2 improvements they made. They also deliver a 2-minute pitch on their researched emerging IT career covering: career name, what it involves, education needed, salary, why it's growing, and one company hiring for it. The workbook no longer prints a per-activity rubric, so score both pieces on the **App Design Packet and Emerging Tech Pitch Rubric** ([Printable PDF](../../resources/worksheets/wk3-app-design-rubric.pdf)), which adapts the 4-level scale from the Capstone chapter (FYF p. 280): four criteria scored 4 to 1, 16 points total. The criteria are App Plan (name, target user, and 2-3 features are specific), Screen Design (all four screens are boxed, labeled, and tell the user where to click), Response to Feedback (both improvements trace to something the partner named), and Presenter Delivery (the pitch covers all six points and is clear enough for a listener to summarize). The first three are scored off the Day 3 packet and the fourth off the Day 5 pitch, so hold the packets until Day 5 and score all four on one sheet. Aligned to d(1)(C), d(1)(D), d(4)(B).
 
 ## Differentiation
 
 ### Scaffolded Learning
 
-- Pre-printed wireframe templates with a phone-screen outline already drawn so students fill in only the content boxes.
-- For the Day 2 audit, provide a partially-completed problem list (2 problems already named) so students see the level of detail expected before finding their own.
-- Pre-approved list of emerging careers with starter research links for students who need direction.
+- Pre-printed wireframe template with the header bar and screen frame already drawn, plus the four-symbol key on the same sheet, so students fill in only the content boxes ([Printable PDF](../../resources/worksheets/wk3-wireframe-template.pdf)). Print one sheet per screen for students who need it.
+- For the Day 2 audit, provide the Website Audit Scaffold ([Printable PDF](../../resources/worksheets/wk3-ux-audit-scaffold.pdf)), which carries a worked model plus the first 2 of the 5 problems started, so students see the level of detail expected before finding their own.
+- Pre-approved list of emerging careers with the exact BLS page for each ([Printable PDF](../../resources/worksheets/wk3-emerging-careers-link-sheet.pdf)) for students who need direction. It is a printed link sheet, so no browser bookmarks need to be pushed to student profiles.
+- Day 1 transferable skills list, 10 skills to circle rather than generate from scratch ([Printable PDF](../../resources/worksheets/wk3-transferable-skills-list.pdf)).
 
 ### Extensions
 
@@ -107,5 +109,5 @@ The chapter does not print a pathway list and it carries no networking content. 
 ### ELL Language Support
 
 - Pre-teach: Network = Red, Wireframe = Esquema de página, Web Developer = Desarrollador web, User Experience = Experiencia del usuario, Skill = Habilidad.
-- Bilingual wireframe template with Spanish labels (Header = Encabezado, Footer = Pie de página, Navigation = Navegación, Button = Botón).
+- Bilingual wireframe template with Spanish labels ([Printable PDF](../../resources/worksheets/wk3-wireframe-template-bilingual.pdf)): Header = Encabezado, Footer = Pie de página, Navigation = Navegación, Button = Botón.
 - Pair ELL students with bilingual peers for the Day 5 mini-presentations.

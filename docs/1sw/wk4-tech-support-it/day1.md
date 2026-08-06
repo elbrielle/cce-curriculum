@@ -9,7 +9,7 @@
 | **TEKS** | d(2)(A) |
 | **5E Phases** | Engage: Warm-Up · Explore: IT Support Hat browse in the app · Explain: Certification and degree comparison · Evaluate: Exit Ticket |
 | **Deliverable** | Notes on 3 IT support careers (education, salary, daily tasks) |
-| **Materials** | *Find Your Future* workbook pp. 36 and 38, Chromebooks, projector |
+| **Materials** | *Find Your Future* workbook pp. 36 and 38, Chromebooks, engineering notebooks, projector |
 
 ---
 
@@ -36,7 +36,7 @@ Quick share. Listen for: parent, sibling, "the IT guy at school," YouTube tutori
 
 Irving ISD runs its own version of this pathway. The workbook's district pages list **Technology Support** among the district's Information Technology programs of study and describe it as preparing students for careers in IT services through computer hardware, systems troubleshooting, and software installation (FYF p. 36: "What is Happening at My District?").
 
-**Student task:** Spend ~5 minutes per Hat. **Stop and Jot:** for each Hat, write down on a notes sheet:
+**Student task:** Spend ~5 minutes per Hat. **Stop and Jot:** for each Hat, write down in the engineering notebook:
 
 - Hat name
 - Education needed (DEGREE / CERTIFICATION / BOTH)
@@ -92,6 +92,6 @@ Bottom line: A student who wants to start earning money by age 19 (NO 4-year col
 
 ## Differentiation
 
-- **Support:** Pre-print a notes sheet with the 4 IT Support Hat names listed and a column for "Education" already labeled. Students fill in only the data, not generate the structure.
+- **Support:** Project the four-row frame (Hat name, education, DFW salary range, one or two daily tasks) before the browse starts and leave it on screen for the whole activity. For students who would spend the period drawing the frame instead of filling it, rule those four rows into their engineering notebook during the warm-up so they only add data.
 - **Extension:** Students research a 5th IT support career not on the list: Network Operations Center (NOC) Technician, Field Service Technician, or Technical Account Manager.
 - **ELL:** Pre-teach: Soporte técnico = Tech Support, Mesa de ayuda = Help Desk, Especialista = Specialist, Administrador de sistemas = Systems Administrator.

@@ -31,10 +31,15 @@ Students explore the Information Technology cluster through the Hats & Ladders a
 - BLS, Software Developers: [bls.gov/ooh/computer-and-information-technology/software-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm)
 - BLS, Web Developers: [bls.gov/ooh/computer-and-information-technology/web-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm)
 - BLS, Computer/IT Cluster: [bls.gov/ooh/computer-and-information-technology/home.htm](https://www.bls.gov/ooh/computer-and-information-technology/home.htm)
-- Printed IT Salary Comparison worksheet (3 careers × 5 fields)
-- Printed programming career research worksheet (CCE artifact; the research format is taught in Wk0)
-- Headphones for the Hour of Code days (Days 4-5)
-- Xello (Favorite Clusters activity)
+- Printed IT Salary Comparison worksheet, 1 per student (3 careers × 5 fields) ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison.pdf)), plus the Software Developer model column ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison-model.pdf)) and the Spanish-header version ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison-bilingual.pdf)) for the students who need them
+- Printed programming career research worksheet (CCE artifact; the research format is taught in Wk0) ([Printable PDF](../../resources/worksheets/career-research-worksheet.pdf)), plus the Web Developer worked example ([Printable PDF](../../resources/worksheets/wk2-career-research-web-developer.pdf)) and the bilingual field labels ([Printable PDF](../../resources/worksheets/career-research-worksheet-bilingual.pdf))
+- Day 1 and Day 3 support prints: Irving ISD IT programs of study and Stop and Jot ([Printable PDF](../../resources/worksheets/wk2-it-programs-scaffold.pdf)), Flip the Failure chart with row 1 filled in ([Printable PDF](../../resources/worksheets/wk2-flip-the-failure-scaffold.pdf)), BLS data extraction guide ([Printable PDF](../../resources/worksheets/wk2-bls-data-guide.pdf))
+- IT Salary Comparison and Hour of Code Reflection Rubric for the Day 5 summative ([Printable PDF](../../resources/worksheets/wk2-salary-hoc-rubric.pdf))
+- Active Monitoring clipboard roster for Days 4 and 5 ([Printable PDF](../../resources/worksheets/clipboard-roster-grid.pdf))
+- Engineering notebooks (carry forward). Day 2's four-Hat notes live here, and Day 3 reads them back
+- Code.org teacher account with a section created before the week starts and the section codes ready to post (Days 4-5)
+- Headphones for the Hour of Code days (Days 4-5). A class set is a supply order, not standard classroom stock, so order one, ask students to bring their own, or run the tutorials muted
+- Xello (Favorite Clusters activity). Xello rosters come from the district SSO feed, so confirm your class list appears in Xello before Day 5 and send any missing student to the campus tech coordinator rather than creating an account by hand
 - Projector
 
 ## Career Connection
@@ -71,8 +76,8 @@ The rest of the IT chapter belongs to the later weeks in this block. Wk3 runs th
 
 - **Think-Pair-Share:** Day 1, Activity 1, the "Be the Decision Maker" prompt on the chapter opener (FYF p. 23), where a security flaw in a major app forces a shut-down-now or fix-it-quietly choice. Distinguished: pose it to the whole group, hold a silent 30 second Think, then time Partner A for 30 seconds and Partner B for 30 seconds, and post two stems at different levels: "I would _____ because _____" and "Shutting the app down costs the company _____, but leaving it open costs users _____." Ask two pairs to share, not one. Listen while pairs talk for who names a cost to the users and not only to the company, and pick your share-out pairs from what you heard rather than from raised hands.
 - **Stop and Jot:** Day 1, Activity 2, the two pauses during the IT cluster tour video. Distinguished: name both stop points before the video starts, give 45 seconds per jot with the prompt on screen, and offer stems that carry the vocabulary students need on Days 2 and 3: "One IT career I had never heard of is _____", "One question I still have about IT careers is _____." Read jots over shoulders during both pauses and track which careers get named. If most jots say Software Developer only, steer the Hat browse that follows toward DevOps Engineer, Information Security Analyst, and Robot Personality Designer so Day 2's research sheets are not all the same career.
-- **Active Monitoring:** Day 4, Activity 2, the 30 minutes of Hour of Code tutorial work. Distinguished: walk a fixed pathway with one target per lap, carrying the three-checkpoint clipboard already built for this week (tutorial level reached, a programming concept named out loud, persistence rather than quitting). Have feedback ready before class for the two known sticking points: a student who repeats a block five times instead of using a loop, and a student stuck on the same level for more than five minutes. If more than a handful of students stall on the same level, pivot and project that level for the whole room instead of solving it seat by seat.
-- **Chunking:** Day 3, Activity 2, the five BLS fields on the salary comparison worksheet. Distinguished: teach one field at a time on the projector with the Software Developer column filled in as the model, say what each field is for before showing where it lives on the BLS page (median pay is the middle of the career, not the starting pay), and close each chunk with a quick thumbs check before releasing the next field. Note which field draws the most thumbs down. Job Outlook is usually the one, and that field becomes the two minute re-teach before students start their third career. Close the activity with the stem "The highest-paying programming career I researched is _____ because _____. Compared to _____, it pays $_____ more or less per year."
+- **Active Monitoring:** Day 4, Activity 2, the 30 minutes of Hour of Code tutorial work. Distinguished: walk a fixed pathway with one target per lap, carrying a clipboard printed from the [Active Monitoring Clipboard Roster](../../resources/worksheets/clipboard-roster-grid.pdf) with this week's three checkpoints written into the headers (tutorial level reached, a programming concept named out loud, persistence rather than quitting). Have feedback ready before class for the two known sticking points: a student who repeats a block five times instead of using a loop, and a student stuck on the same level for more than five minutes. If more than a handful of students stall on the same level, pivot and project that level for the whole room instead of solving it seat by seat.
+- **Chunking:** Day 3, Activity 2, the five BLS fields on the salary comparison worksheet. Distinguished: teach one field at a time on the projector with the Software Developer column filled in as the model ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison-model.pdf)), say what each field is for before showing where it lives on the BLS page (median pay is the middle of the career, not the starting pay), and close each chunk with a quick thumbs check before releasing the next field. Note which field draws the most thumbs down. Job Outlook is usually the one, and that field becomes the two minute re-teach before students start their third career. Close the activity with the stem "The highest-paying programming career I researched is _____ because _____. Compared to _____, it pays $_____ more or less per year."
 - **Time, Voice, Body (TVB):** Day 4, Activity 2, the independent tutorial block. Distinguished: post the three blocks before any Chromebook opens, Voice 0 for tutorial work and Voice 1 for a quick question to the coding buddy, a visible countdown on the projector so students can pace themselves toward the midpoint target, and a stated rule that headphones stay plugged in at the student's own seat and go back in the bin at the five minute warning. Narrate the students who are meeting the expectation rather than correcting the ones who are not. If the room's voice level climbs because several students are stuck, pause the whole class for a 60 second reset instead of walking down the volume student by student.
 
 ## Week at a Glance
@@ -95,17 +100,19 @@ The rest of the IT chapter belongs to the later weeks in this block. Wk3 runs th
 
 ## Summative Assessment
 
-**IT Salary Comparison Worksheet + Hour of Code Reflection (Day 5):** Students submit their completed worksheet showing 3 IT careers compared on salary, education, growth rate, daily tasks, and DFW employer. They also write a 4-sentence reflection: (1) which Hour of Code activity they did, (2) one programming concept they used, (3) which IT career they favorited and why, (4) whether they could see themselves in IT. Aligned to d(1)(C), d(5)(A), d(5)(E).
+**IT Salary Comparison Worksheet + Hour of Code Reflection (Day 5):** Students submit their completed worksheet ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison.pdf)) showing 3 IT careers compared on salary, education, growth rate, daily tasks, and DFW employer. The front page carries the five comparison fields; the back carries the job count, the one-sentence job description, the DFW employer, and the reflection questions. They also write a 4-sentence reflection: (1) which Hour of Code activity they did, (2) one programming concept they used, (3) which IT career they favorited and why, (4) whether they could see themselves in IT. Scored with the **IT Salary Comparison and Hour of Code Reflection Rubric** ([Printable PDF](../../resources/worksheets/wk2-salary-hoc-rubric.pdf)), which carries four-level descriptors for each criterion: Data Completeness, Source Accuracy, Comparison Reasoning, and Hour of Code Reflection, 5 points each, 20 points total. Aligned to d(1)(C), d(5)(A), d(5)(E).
 
 ## Differentiation
 
 ### Scaffolded Learning
 
-- Pre-printed IT Salary Comparison worksheet with one career filled in (Software Developer) as a model.
-- Pre-printed Flip the Failure chart with the first row ("The alert system was too slow") already filled in, so students complete the remaining three.
-- BLS data extraction guide showing exactly which fields to copy (highlighted screenshots).
+- Pre-printed IT Salary Comparison worksheet with one career filled in (Software Developer) as a model ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison-model.pdf)).
+- Pre-printed Flip the Failure chart with the first row ("The alert system was too slow") already filled in, so students complete the remaining three ([Printable PDF](../../resources/worksheets/wk2-flip-the-failure-scaffold.pdf)).
+- BLS data extraction guide naming exactly which Quick Facts rows to copy and which to skip ([Printable PDF](../../resources/worksheets/wk2-bls-data-guide.pdf)).
 - Pair work option for Hour of Code: one student drives, the other navigates.
 - Provide a Code.org tutorial picker that recommends easier tutorials (Minecraft Adventurer, Frozen) for students new to coding.
+- Pre-printed Irving ISD IT programs of study with one example career each, plus Stop and Jot stems, for Day 1 ([Printable PDF](../../resources/worksheets/wk2-it-programs-scaffold.pdf)).
+- Career research worksheet with Web Developer filled in as a worked model, for Day 2 ([Printable PDF](../../resources/worksheets/wk2-career-research-web-developer.pdf)).
 
 ### Extensions
 
@@ -116,7 +123,7 @@ The rest of the IT chapter belongs to the later weeks in this block. Wk3 runs th
 ### ELL Language Support
 
 - Pre-teach: Algorithm = Algoritmo, Software Developer = Desarrollador de software, Code = Código, Debugging = Depuración, Programming Language = Lenguaje de programación.
-- Bilingual IT Salary Comparison worksheet with Spanish column headers.
+- Bilingual IT Salary Comparison worksheet with Spanish row and column headers ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison-bilingual.pdf)).
 - Code.org Hour of Code is available in Spanish. Direct ELL students to the Spanish tutorial selector.
 - Pair ELL students with bilingual peers for the Day 5 Pathway Possibilities discussion.
 - The workbook reads well above grade level, so read the Resilience scenario paragraphs aloud on Day 3 and encourage browser translation for any independent reading.

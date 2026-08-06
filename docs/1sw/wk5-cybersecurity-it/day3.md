@@ -9,7 +9,7 @@
 | **TEKS** | d(4)(F) |
 | **5E Phases** | Engage: Warm-Up · Extend: Bootcamp plan and flyer for a community audience · Explain: Peer feedback and integrity discussion · Evaluate: Exit Ticket |
 | **Deliverable** | Completed bootcamp plan table (FYF p. 35) + sign-up flyer + peer feedback slip + integrity reflection (1 paragraph) |
-| **Materials** | *Find Your Future* workbook pp. 34-35, Day 2 red-flag notes, Chromebooks, design tools (Canva, Adobe Express, paper), projector |
+| **Materials** | *Find Your Future* workbook pp. 34-35, Day 2 red-flag notes, printed peer feedback slip, 1 per student ([Printable PDF](../../resources/worksheets/wk5-flyer-peer-feedback.pdf)), Chromebooks, design tools (Canva, Adobe Express, or paper and markers), projector |
 
 ---
 
@@ -38,7 +38,7 @@ Then read the activity scenario: students volunteer in their community by creati
 
 Students then pick a bootcamp topic from the workbook's menu: identifying phishing emails, texts, and social posts; password security basics, including the passphrase method of stringing random words together; the risks of public Wi-Fi at coffee shops, airports, and parks; or their own idea. Point out that the first topic is yesterday's red-flag table, so every student already owns enough content to teach it.
 
-**Step 2: Plan Your Program (13 min).** Students fill the six-row planning table on page 35:
+**Step 2: Plan Your Program (13 min).** Students fill the six-row planning table on page 35. Students who need the questions spread out with a stem under each use the printed planning template instead ([Printable PDF](../../resources/worksheets/wk5-bootcamp-planning-template.pdf)):
 
 | Question | What the answer has to do |
 |---|---|
@@ -60,7 +60,7 @@ Students then pick a bootcamp topic from the workbook's menu: identifying phishi
 
 **Flyer (7 min).** Students design a colorful flyer that shares information about their program. The workbook's one hard requirement is that the flyer must include a way for people to sign up. Students work in Canva, Adobe Express, or on paper.
 
-**Peer feedback (3 min).** Pairs swap flyers. The workbook prints no rubric for this activity, so score it on the four-level scale the workbook uses for the year-end Capstone (FYF p. 280: "Capstone Project Requirements"): **4 Excellent, 3 Good, 2 Okay, 1 Needs Improvement**.
+**Peer feedback (3 min).** Pairs swap flyers and score on the printed peer feedback slip, one per student ([Printable PDF](../../resources/worksheets/wk5-flyer-peer-feedback.pdf)). The workbook prints no rubric for this activity, so the slip uses the four-level scale the workbook uses for the year-end Capstone (FYF p. 280: "Capstone Project Requirements"): **4 Excellent, 3 Good, 2 Okay, 1 Needs Improvement**. The same four levels come back on the six-weeks capstone rubric, so students see this scale three times.
 
 | Criteria | Score 1-4 | One specific note |
 |---|---|---|
@@ -122,6 +122,6 @@ In one sentence, why is THIS quality the right one in cybersecurity, where NO ON
 
 ## Differentiation
 
-- **Support:** Provide a printed bootcamp planning template with the six questions already written out and a sentence stem under each ("My program is for _____ because _____"). Provide the integrity reflection template with stems: "Integrity means _____. In cybersecurity, integrity matters because _____. Without integrity, a cybersecurity professional could _____."
+- **Support:** Hand out the printed bootcamp planning template ([Printable PDF](../../resources/worksheets/wk5-bootcamp-planning-template.pdf)), which writes the six questions out with a sentence stem under each ("My program is for _____ because _____") and reprints the four research findings so the community-benefit answer has something to point at. For Activity 3, hand out the integrity reflection stem sheet ([Printable PDF](../../resources/worksheets/wk5-integrity-reflection-stems.pdf)): "Integrity means _____. In cybersecurity, integrity matters because _____. Without integrity, a cybersecurity professional could _____."
 - **Extension:** Students research the 2017 Equifax data breach (school-appropriate version) and identify what failures of integrity or cybersecurity practice contributed to it. Students who finish the flyer early add a second bootcamp session on a different topic from the workbook's menu and say how the two sessions build on each other.
 - **ELL:** Bilingual integrity vocabulary: Integridad = Integrity, Honestidad = Honesty, Confianza = Trust, Ética = Ethics, Ética de trabajo = Work ethic, Voluntario = Volunteer. Allow ELL students to write the flyer text and the integrity reflection in Spanish.

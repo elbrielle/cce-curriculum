@@ -9,7 +9,7 @@
 | **TEKS** | d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explore: App plan and four wireframe screens · Explain: Partner walkthrough test · Evaluate: App design packet submission |
 | **Deliverable** | App plan + 4 labeled wireframe screens (FYF pp. 31-32) + partner walkthrough notes + 2 improvements (FYF p. 33) |
-| **Materials** | *Find Your Future* workbook pp. 30-33, sticky notes, plain paper or pre-printed wireframe templates, pencils, projector |
+| **Materials** | *Find Your Future* workbook pp. 30-33, sticky notes (about 4 per student), plain paper or the pre-printed wireframe template, one sheet per screen ([Printable PDF](../../resources/worksheets/wk3-wireframe-template.pdf)), pencils for every student plus one set of colored pencils or markers per table group, App Design Packet and Emerging Tech Pitch Rubric ([Printable PDF](../../resources/worksheets/wk3-app-design-rubric.pdf)), projector |
 
 ---
 
@@ -85,12 +85,12 @@ Day 3 is a rich-submission day: the app design packet already functions as the m
 
 **Submission:** Students submit (1) their app plan (name, target user, 2-3 features), (2) their four labeled wireframe screens, and (3) their two starred improvements with the partner feedback that prompted each one.
 
-**Mastery evidence:** the four screens and the improvement pass demonstrate d(1)(C) app designer role work. Score against the Summative rubric in the week overview, which adapts the 4-level scale from the Capstone chapter (FYF p. 280). Judge whether a stranger could follow the screens, not whether the drawing is attractive. *(d(1)(C))*
+**Mastery evidence:** the four screens and the improvement pass demonstrate d(1)(C) app designer role work. Score against the **App Design Packet and Emerging Tech Pitch Rubric** ([Printable PDF](../../resources/worksheets/wk3-app-design-rubric.pdf)), which adapts the 4-level scale from the Capstone chapter (FYF p. 280). Today scores its first three criteria, App Plan, Screen Design, and Response to Feedback. Presenter Delivery is scored on Day 5, so hold the packets and enter one total after the pitches. Judge whether a stranger could follow the screens, not whether the drawing is attractive. *(d(1)(C))*
 
 ---
 
 ## Differentiation
 
-- **Support:** Pre-printed wireframe templates with a phone-screen outline and the header bar already drawn. Provide a printed copy of the four symbols so students do not have to remember them.
+- **Support:** The pre-printed wireframe template ([Printable PDF](../../resources/worksheets/wk3-wireframe-template.pdf)) carries the header bar and the screen frame already drawn, with the four-symbol key printed on the same sheet, so students fill in only the content boxes and do not have to remember the symbols. Print one sheet per screen.
 - **Extension:** Students who finish early wireframe a fifth screen (settings, profile, or search results) and label which screen it connects to and how a user gets back.
-- **ELL:** Bilingual app design vocabulary: Pantalla = Screen, Botón = Button, Menú principal = Main Menu, Usuario = User, Función = Feature. Allow ELL students to label their screens in Spanish and to give partner feedback in Spanish.
+- **ELL:** Hand out the bilingual wireframe template ([Printable PDF](../../resources/worksheets/wk3-wireframe-template-bilingual.pdf)), which prints the symbol key and the label words in both languages: Pantalla = Screen, Botón = Button, Menú principal = Main Menu, Usuario = User, Función = Feature. Allow ELL students to label their screens in Spanish and to give partner feedback in Spanish.

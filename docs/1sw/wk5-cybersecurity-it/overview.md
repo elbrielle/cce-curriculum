@@ -26,18 +26,28 @@ Students explore the Cybersecurity pathway through Hats & Ladders, work the "Saf
 - Chromebooks (1 per student)
 - Hats & Ladders accounts + *Find Your Future* workbook, Information Technology chapter (printed pp. 24-25 and 34-38)
 - Climber Notes deck for Day 2 (Climber Notes: "Safe or Spoofed", slides 2-8), the seven email images the teacher projects one at a time
-- Plain paper for the Day 2 spoofed-email drafts
-- Glowforge laser cutter + cutting material (1/8" plywood, acrylic, or cardboard)
-- Design software: Canva, Adobe Express, or Inkscape (for SVG creation)
-- College logo image files (or school logo SVGs)
+- Plain paper for the Day 2 spoofed-email drafts (2 sheets per student)
+- Glowforge laser cutter, confirmed working and vented, plus cutting material sized to the machine bed (corrugated cardboard cuts fastest; 1/8" plywood or acrylic look better and cost minutes per piece). Budget 12 to 15 pieces per section, not per class, since every section cuts and the material is a consumable.
+- Card stock, scissors, and permanent markers, which are also the no-machine fallback for the logo
+- Design software: ONE provisioned tool, either Canva for Education (teacher verification plus a class join code, both of which take days), Adobe Express (needs a district Adobe entitlement), or Inkscape (needs a district app push to reach a managed Chromebook). Paper and markers are the stated alternative if none is live.
 
 - NOVA Cybersecurity Lab (free PBS game): [pbs.org/wgbh/nova/labs/lab/cyber/](https://www.pbs.org/wgbh/nova/labs/lab/cyber/)
 - CyberSeek Career Pathway Map: [cyberseek.org/pathway.html](https://www.cyberseek.org/pathway.html)
 - BLS, Information Security Analysts: [bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm](https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm)
-- Irving ISD CTE Pathways poster
-- Wk0 My Career Journey reflection handouts (return to students)
-- Xello (Save Careers activity)
+- The four Irving ISD Information Technology pathways, projected on Day 4 from the list on that page (there is no printed pathways poster; the workbook's district pages carry the same four)
+- Wk0 My Career Journey reflection handouts, returned to students on Day 5 ([Printable PDF](../../resources/worksheets/my-career-journey.pdf))
+- Xello (Save Careers activity; accounts are rostered by the district, so verify your sections with the CTE coordinator before Day 5)
+- Gallery display surface for Day 5 (a long table, a counter, or a stretch of wall) + sticky notes, 3 per student
 - Projector
+
+**Printables for this week:**
+
+- Day 1 CyberSeek pathway sheet, which doubles as the support scaffold and the fallback if cyberseek.org is blocked ([Printable PDF](../../resources/worksheets/wk5-cyberseek-pathway.pdf))
+- Day 2 red-flag checklist ([Printable PDF](../../resources/worksheets/wk5-red-flag-checklist.pdf))
+- Day 3 bootcamp planning template ([Printable PDF](../../resources/worksheets/wk5-bootcamp-planning-template.pdf)), flyer peer feedback slip, 1 per student ([Printable PDF](../../resources/worksheets/wk5-flyer-peer-feedback.pdf)), and integrity reflection stems ([Printable PDF](../../resources/worksheets/wk5-integrity-reflection-stems.pdf))
+- Day 5 reflection update template ([Printable PDF](../../resources/worksheets/wk5-reflection-update-template.pdf)) and its bilingual version ([Printable PDF](../../resources/worksheets/wk5-reflection-update-bilingual.pdf))
+- 1st Six Weeks Capstone Portfolio Rubric ([Printable PDF](../../resources/worksheets/wk5-capstone-portfolio-rubric.pdf))
+- Active Monitoring clipboard roster for Days 2 and 4 ([Printable PDF](../../resources/worksheets/clipboard-roster-grid.pdf))
 
 ## Career Connection
 
@@ -76,9 +86,9 @@ The Glowforge college/career logo project is a teacher-designed extension that c
 
 - **Think-Pair-Share:** Day 3, Activity 3, the workbook's sponsor prompt (FYF p. 35), which asks what a local company would notice a hard-working bootcamp crew doing behind the scenes. Distinguished: pose it to the whole group, hold a silent 30 second Think, then time Partner A for 30 seconds and Partner B for 30 seconds, and post two stems at different levels: "They would notice us _____" and "The part nobody sees is _____, and that matters because _____." Ask two pairs to share, not one. Listen while pairs talk for who names something invisible (setting up early, checking the sign-up list twice) rather than something loud, and pick your share-out pairs from what you heard rather than from raised hands. If every pair names only visible behavior, open the integrity examples with the hospital case, where the whole point is that nobody would find out.
 - **Stop and Jot:** Day 1, Activity 1, the four Cybersecurity Hats students research in the app. Distinguished: put the four fields on screen before the first Hat (Hat name, education needed, DFW or national salary, one thing that surprised me), give a 45 second jot at the end of each Hat rather than one jot at the end of all four, and offer two stems: "A _____ needs _____ years of training and earns about $_____" and "I did not expect this job to _____." Read notes over shoulders during the browse and track which Hats are getting filled in. If most students have only Penetration Tester, steer the CyberSeek walkthrough that follows toward the entry-level titles so the exit ticket has three real options to rank instead of one.
-- **Active Monitoring:** Day 2, Activity 3, the six-email inbox investigation, and Day 4, Activity 2, the logo design walk. Distinguished on Day 2: walk a fixed route twice, lap 1 checking that every student has circled a clue on the email rather than only ringing the word Spoofed, lap 2 checking that the reasoning sentence names which red flag it is. Have the feedback ready before class for the two known misconceptions: a real email with one typo read as automatically spoofed, and a spoofed email read as safe because the logo looks right. If more than a handful miss the lap 2 target, stop the room and reproject Email #1 with the modeled reasoning instead of repeating it desk by desk. Distinguished on Day 4: every lap checks the same target, that the student can name the specific postsecondary goal behind the logo, with the stem ready as the feedback line: "My logo represents _____ because I want to _____ after high school. The Irving ISD pathway that prepares me is _____." A student who cannot finish that sentence picks the goal before touching the design tool.
+- **Active Monitoring:** Day 2, Activity 3, the six-email inbox investigation, and Day 4, Activity 2, the logo design walk. Distinguished on Day 2: walk a fixed route twice with a clipboard printed from the [Active Monitoring Clipboard Roster](../../resources/worksheets/clipboard-roster-grid.pdf), lap 1 checking that every student has circled a clue on the email rather than only ringing the word Spoofed, lap 2 checking that the reasoning sentence names which red flag it is. Have the feedback ready before class for the two known misconceptions: a real email with one typo read as automatically spoofed, and a spoofed email read as safe because the logo looks right. If more than a handful miss the lap 2 target, stop the room and reproject Email #1 with the modeled reasoning instead of repeating it desk by desk. Distinguished on Day 4: every lap checks the same target, that the student can name the specific postsecondary goal behind the logo, with the stem ready as the feedback line: "My logo represents _____ because I want to _____ after high school. The Irving ISD pathway that prepares me is _____." A student who cannot finish that sentence picks the goal before touching the design tool.
 - **Chunking:** Day 2, Activity 1, the five phishing red flags. Distinguished: teach one flag at a time with its workbook example projected, say what each flag protects against before showing it (a look-alike sender address protects you from a fake bank; hovering a link protects you from a fake login page), and close each flag with a one-word whole-class call on a sample line, safe or spoofed, before releasing the next flag. Note which flag draws the most wrong calls. That flag is the one you narrate hardest while modeling Email #1 in Activity 2, and the one you check first on lap 1 of Activity 3.
-- **Time, Voice, Body (TVB):** Day 4, Activity 3 and Day 5, Activity 1, the Glowforge cut queue and the Gallery Walk. Distinguished: post the three blocks before the first file is sent, run a visible countdown for the cut window, keep Voice 1 at the design stations, and hold Voice 0 at the machine while a cut is running so the head can be heard. Define the space too: only the student whose file is running stands at the Glowforge, finished pieces go straight into a labeled tray, and the Gallery Walk moves in one direction so the table does not clog. Narrate the students who are meeting the expectation rather than correcting the ones who are not. If the queue backs up past the third student, move the remaining designers onto their reflection draft and announce the change before the next cut starts.
+- **Time, Voice, Body (TVB):** Day 4, Activity 3 and Day 5, Activity 1, the Glowforge cut queue and the Gallery Walk. Distinguished: post the three blocks before the first file is sent, run a visible countdown for the cut window, keep Voice 1 at the design stations, and hold Voice 0 at the machine while a cut is running so the head can be heard. Define the space too: only the team whose file is running stands at the Glowforge, finished pieces go straight into a labeled tray, and the Gallery Walk moves in one direction so the table does not clog. Narrate the students who are meeting the expectation rather than correcting the ones who are not. The queue is one file per team and most of it is cut outside class time, so if the first cuts run long, move the remaining designers onto their reflection draft and announce the change before the next cut starts.
 
 ## Week at a Glance
 
@@ -87,8 +97,8 @@ The Glowforge college/career logo project is a teacher-designed extension that c
 | 1 | Cybersecurity Pathway + CyberSeek | H&L Cybersecurity Hat exploration + CyberSeek pathway map exploration | Cybersecurity career notes + CyberSeek pathway traced | Engage · Explore · Explain · Evaluate |
 | 2 | Safe or Spoofed? Phishing Investigation | Learn the five red flags + investigate a seven-email inbox + draft a spoofed email | Seven inbox decisions with reasoning + two drafted emails | Engage · Explain · Explore · Evaluate |
 | 3 | Powerskill: Work Ethic + Integrity Discussion | Plan a Cybersecurity Bootcamp + design a sign-up flyer + peer feedback + integrity discussion | Bootcamp plan + flyer + integrity reflection | Engage · Extend · Explain · Evaluate |
-| 4 | College/Career Logo Design + Glowforge (Round 1) | Design a logo in Canva/Adobe Express; first batch of Glowforge cuts | Final logo design + first batch of cuts | Engage · Explain · Extend · Evaluate |
-| 5 | Glowforge Wrap-Up + 1SW Capstone Reflection | Finish Glowforge cuts + Gallery Walk + Wk0 Reflection update + Xello Save Careers | Updated My Career Journey reflection + completed Glowforge logo | Engage · Explain · Evaluate · Extend |
+| 4 | College/Career Logo Design + Glowforge (Round 1) | Design a team logo in the provisioned tool or on paper; first files sent to the Glowforge, with the rest of the queue cut across the week | Final logo design + first cuts started | Engage · Explain · Extend · Evaluate |
+| 5 | Logo Wrap-Up + 1SW Capstone Reflection | Pick up and label the cut logos + Gallery Walk + Wk0 Reflection update + Xello Save Careers | Updated My Career Journey reflection + completed logo | Engage · Explain · Evaluate · Extend |
 
 ## Formative Assessment
 
@@ -100,17 +110,17 @@ The Glowforge college/career logo project is a teacher-designed extension that c
 
 ## Summative Assessment
 
-**1st Six Weeks Capstone Portfolio:** Students submit (1) their Cybersecurity Bootcamp plan and sign-up flyer (FYF pp. 34-35: "Powerskill: Work Ethic"), (2) their Glowforge college/career logo (physical artifact), and (3) their updated My Career Journey reflection from Wk0 with new sections added showing growth in self-awareness and career knowledge. Aligned to d(1)(D), d(4)(F), d(3)(A).
+**1st Six Weeks Capstone Portfolio:** Students submit (1) their Cybersecurity Bootcamp plan and sign-up flyer (FYF pp. 34-35: "Powerskill: Work Ethic"), (2) their college/career logo (physical artifact, laser-cut or cut by hand from card stock), and (3) their updated My Career Journey reflection from Wk0 with new sections added showing growth in self-awareness and career knowledge. Scored with the **1st Six Weeks Capstone Portfolio Rubric** ([Printable PDF](../../resources/worksheets/wk5-capstone-portfolio-rubric.pdf)), which carries four-level descriptors for each of the three parts on the same 4 Excellent to 1 Needs Improvement scale students met on the Day 3 peer feedback slip, 12 points total. Part 2 scores the postsecondary goal and its connection to an Irving ISD pathway, not the fabrication method, so a hand-cut logo scores the same as a laser-cut one. Aligned to d(1)(D), d(4)(F), d(3)(A).
 
 ## Differentiation
 
 ### Scaffolded Learning
 
-- Pre-made SVG templates for the Glowforge project (popular college logos, military branch insignia, common career icons) so students focus on career meaning rather than design frustration.
-- Simplified My Career Journey reflection update template with fill-in-the-blank prompts.
-- Pre-printed CyberSeek pathway with annotations for students who need a paper-based version.
-- Pre-printed red-flag checklist for Day 2, with the five flags listed and space to tick which one each email triggers.
-- Pre-printed bootcamp planning template for Day 3, with the workbook's six questions already written out and a sentence stem under each.
+- A shape menu on the board for the logo project (shield, lock, gear, wrench, stethoscope, wing, hard hat, book, circuit line) so a stuck student combines two shapes rather than starting from a blank canvas. Official college and military marks are trademarked, so the class does not laser-cut copies of them; students design their own mark for the destination they want.
+- Simplified My Career Journey reflection update template with fill-in-the-blank prompts ([Printable PDF](../../resources/worksheets/wk5-reflection-update-template.pdf)).
+- Printed CyberSeek pathway sheet for students who need a paper-based version ([Printable PDF](../../resources/worksheets/wk5-cyberseek-pathway.pdf)).
+- Printed red-flag checklist for Day 2, with the five flags listed and a grid for ticking which flags each email triggers ([Printable PDF](../../resources/worksheets/wk5-red-flag-checklist.pdf)).
+- Printed bootcamp planning template for Day 3, with the workbook's six questions written out and a sentence stem under each ([Printable PDF](../../resources/worksheets/wk5-bootcamp-planning-template.pdf)), plus the integrity reflection stem sheet ([Printable PDF](../../resources/worksheets/wk5-integrity-reflection-stems.pdf)).
 
 ### Extensions
 
@@ -122,6 +132,6 @@ The Glowforge college/career logo project is a teacher-designed extension that c
 ### ELL Language Support
 
 - Pre-teach: Ciberseguridad = Cybersecurity, Hacker = Hacker, Phishing = Suplantación de identidad, Integridad = Integrity, Universidad = College, Certificación = Certification.
-- Bilingual reflection template with Spanish sentence stems for the 1st Six Weeks reflection.
+- Bilingual reflection template with Spanish sentence stems for the 1st Six Weeks reflection ([Printable PDF](../../resources/worksheets/wk5-reflection-update-bilingual.pdf)); students may answer in English or Spanish.
 - Pair ELL students with bilingual peers during the Day 3 flyer peer feedback. The workbook reads well above grade level, so read the Safe or Spoofed scenario and the Work Ethic opening paragraph aloud rather than assigning them as silent reading.
 - The Glowforge logo design is inherently visual and accessible for all language levels.

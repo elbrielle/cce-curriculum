@@ -9,7 +9,7 @@
 | **TEKS** | d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explain: The five red flags · Explore: Inbox investigation and spoofed-email draft · Evaluate: Exit Ticket |
 | **Deliverable** | Seven inbox decisions with written reasoning (FYF p. 25) + one safe email and one spoofed email drafted on a separate sheet |
-| **Materials** | *Find Your Future* workbook pp. 24-25, Climber Notes deck "Safe or Spoofed" (seven email images), Chromebooks, plain paper, projector |
+| **Materials** | *Find Your Future* workbook pp. 24-25, Climber Notes deck "Safe or Spoofed" (seven email images), printed red-flag checklist ([Printable PDF](../../resources/worksheets/wk5-red-flag-checklist.pdf)), Chromebooks, plain paper (2 sheets per student for the email drafts), projector |
 
 ---
 
@@ -66,7 +66,7 @@ Students mark Email #1 on page 25 and copy the modeled reasoning into their own 
 
 Students work Emails #2 through #7 in pairs. Project one slide at a time and hold it for about 90 seconds. Partners talk, then each student circles Safe or Spoofed in their own workbook box and writes their own reasoning. Both partners write; they do not split the list.
 
-**Active Monitoring:** Walk a fixed route twice. Lap 1 target is that every student has circled a clue on the email, not only ringed the word Spoofed. Lap 2 target is that the reasoning sentence names which red flag it is. Two misconceptions come up every time, so have the response ready before class: a real email with one typo is not automatically spoofed, and a spoofed email is not safe just because the logo looks right. If more than a handful of students miss the lap 2 target, stop the room and reproject Email #1 with the modeled reasoning rather than fixing it desk by desk.
+**Active Monitoring:** Walk a fixed route twice, carrying a clipboard printed from the [Active Monitoring Clipboard Roster](../../resources/worksheets/clipboard-roster-grid.pdf) with this day's two targets written into the headers. Lap 1 target is that every student has circled a clue on the email, not only ringed the word Spoofed. Lap 2 target is that the reasoning sentence names which red flag it is. Two misconceptions come up every time, so have the response ready before class: a real email with one typo is not automatically spoofed, and a spoofed email is not safe just because the logo looks right. If more than a handful of students miss the lap 2 target, stop the room and reproject Email #1 with the modeled reasoning rather than fixing it desk by desk.
 
 !!! tip "Facilitation Tip"
     Some emails in the set are genuinely safe. Students who have decided the whole activity is a trap will mark all seven spoofed. Push back with the analyst framing: an analyst who flags every email gets ignored, and then the real attack lands.
@@ -118,6 +118,6 @@ Scenario: Your aunt forwards you an email. The sender is parent-portal@irvingisd
 
 ## Differentiation
 
-- **Support:** Pre-printed red-flag checklist with the five flags listed and a tick box for each, so students mark which flags an email triggers before writing the reasoning sentence. Sentence stem for the reasoning box: "This email is _____ because the _____ shows _____."
+- **Support:** Hand out the printed red-flag checklist ([Printable PDF](../../resources/worksheets/wk5-red-flag-checklist.pdf)), which lists the five flags with a tick box for each and a seven-row grid, so students mark which flags an email triggers before writing the reasoning sentence. It carries the stem for the reasoning box: "This email is _____ because the _____ shows _____."
 - **Extension:** Students who finish both drafts early write a THIRD email that is safe but looks suspicious (a real company with an awkward automated subject line) and challenge a partner to explain why it is still safe. This is the harder analyst skill: not over-flagging.
 - **ELL:** Bilingual cyber safety vocabulary: Estafa = Scam, Suplantación de identidad = Phishing, Remitente = Sender, Enlace = Link, Contraseña = Password, Información personal = Personal information. Allow ELL students to write their two drafted emails in Spanish and to answer the reasoning boxes in Spanish.

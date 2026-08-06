@@ -8,8 +8,8 @@
 | **Objectives** | Finish the Hour of Code tutorial; complete the Pathway Possibilities step and rate an IT pathway; favorite 2 programming careers in the Climber Profile; complete Xello Favorite Clusters |
 | **TEKS** | d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explore: Hour of Code finish · Extend: Pathway Possibilities, IT favorites, and Xello Favorite Clusters · Evaluate: Exit Ticket |
-| **Deliverable** | Hour of Code certificate + 2 IT careers favorited in H&L + Xello Favorite Clusters complete |
-| **Materials** | Chromebooks, Code.org, H&L accounts, *Find Your Future* workbook pp. 36-38, Xello accounts, projector |
+| **Deliverable** | Hour of Code certificate + 2 IT careers favorited in H&L + Xello Favorite Clusters complete + the IT Salary Comparison worksheet collected with its four sentence Hour of Code reflection |
+| **Materials** | Chromebooks, Code.org (same section codes as Day 4), H&L accounts, *Find Your Future* workbook pp. 36-38, Xello accounts (rostered through the district SSO feed; confirm your class list appears before today and send any missing student to the campus tech coordinator rather than creating an account by hand), the Day 3 IT Salary Comparison worksheets to hand back, IT Salary Comparison and Hour of Code Reflection Rubric ([Printable PDF](../../resources/worksheets/wk2-salary-hoc-rubric.pdf)), projector |
 
 ---
 
@@ -23,13 +23,13 @@ Quick share. Students who scored 8-10 are the ones to watch; they may be future 
 
 ## Activity 1: Finish the Hour of Code Tutorial (20 min)
 
-Students return to Code.org and continue from where they left off yesterday. Goal: finish the tutorial and earn the completion certificate.
+Students sign back into Code.org and continue from where they left off yesterday. Progress is saved to the section they joined on Day 4, so students who worked as guests yesterday join the section now and restart their tutorial, which is why the guest list from Day 4 matters. Goal: finish the tutorial and earn the completion certificate.
 
 Walk the room. Same active monitoring as Day 4: progress check, concept check, frustration check.
 
 **For students who finish early:**
 
-- Print or screenshot their Code.org completion certificate
+- Screenshot their Code.org completion certificate (printing only if a classroom printer is mapped to student Chromebooks)
 - Try a SECOND Hour of Code tutorial with a different theme
 - Help a struggling classmate (without doing the work for them)
 
@@ -66,6 +66,8 @@ because it matches my ______________________________ personality type
 
 and my ______________________________ Work Value."
 
+**Collect the week's summative.** Hand back the Day 3 IT Salary Comparison worksheets as this activity starts. Students fill in the four sentence Hour of Code reflection printed at the end of the worksheet: the tutorial they did, one programming concept they used and what it did in their code, the IT career they favorited and why, and whether they can see themselves in IT. Both sides of the worksheet plus those four sentences are the collected artifact. Score it with the **IT Salary Comparison and Hour of Code Reflection Rubric** ([Printable PDF](../../resources/worksheets/wk2-salary-hoc-rubric.pdf)): Data Completeness, Source Accuracy, Comparison Reasoning, and Hour of Code Reflection, 5 points each, 20 points total.
+
 !!! tip "Facilitation Tip"
     Students who hated the Hour of Code may be hesitant to favorite an IT career. Tell them: "You don't have to favorite an IT career. Favorite the careers that ACTUALLY interest you. If IT isn't your thing after this week, that's a valuable thing to know."
 
@@ -78,6 +80,9 @@ and my ______________________________ Work Value."
 Students log into Xello and complete the Favorite Clusters activity. They mark which clusters from the Xello cluster list they are most interested in. This is a quick task. Xello will use these favorites to refine its career recommendations later in the year.
 
 Tell students: "This is the Xello version of what you did in H&L. Both platforms are tracking your interests. By 6SW Wk6 (the Final Career Plan), both platforms will have a deep picture of who you are."
+
+!!! tip "No Xello Login? Do Not Troubleshoot It Here"
+    Xello rosters arrive through the district SSO feed, not through anything you set up in class, and Xello and H&L usually sit behind different providers. Check that your class list appears in Xello before this day. A student who still cannot get in finishes the H&L favorites instead and goes to the campus tech coordinator, and the Xello task moves to the next week's spare minutes.
 
 ---
 

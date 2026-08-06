@@ -9,7 +9,7 @@
 | **TEKS** | d(2)(A), d(2)(B) |
 | **5E Phases** | Engage: Warm-Up · Explain: CompTIA roadmap walkthrough · Explore: Roadmap research and Education Pathway Comparison worksheet · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Education Pathway Comparison worksheet (3 careers × 5 fields) |
-| **Materials** | Chromebooks, CompTIA Career Roadmap link, printed Education Pathway Comparison worksheet, *Find Your Future* workbook p. 37, BLS Computer Support Specialists page, projector |
+| **Materials** | Chromebooks, CompTIA Career Roadmap link, printed Education Pathway Comparison worksheet ([Printable PDF](../../resources/worksheets/wk4-education-pathway-comparison.pdf)), *Find Your Future* workbook p. 37, BLS Computer Support Specialists page, projector |
 
 ---
 
@@ -26,6 +26,9 @@ Quick share. Most students will be confused. They think certifications are like 
 **Source:** CompTIA Career Roadmap, [comptia.org/content/it-careers-path-roadmap](https://www.comptia.org/content/it-careers-path-roadmap)
 
 Project the CompTIA Career Roadmap on the screen. CompTIA is a nonprofit that issues IT certifications recognized worldwide. Their roadmap shows EVERY major IT certification and which careers each one prepares you for.
+
+!!! warning "Check the Link Before Class"
+    CompTIA has reorganized this page more than once, and district filtering can block it. Open the roadmap yourself the week before. If it 404s or is filtered, search comptia.org for "career roadmap" and use whatever the current page is called. If nothing resolves, the activity still runs: the four certification tiers below are the roadmap's content, so project this page instead and have students research time and cost per certification from the BLS page and general search. Nothing later in the week depends on the roadmap graphic itself.
 
 Walk through the roadmap with students:
 
@@ -47,7 +50,7 @@ Students explore the roadmap on their Chromebooks. They identify which certifica
 
 ## Activity 2: Education Pathway Comparison Worksheet (20 min)
 
-Distribute the **Education Pathway Comparison worksheet**. Students compare 3 IT careers side-by-side, picking ONE from each category:
+Distribute the **Education Pathway Comparison worksheet** ([Printable PDF](../../resources/worksheets/wk4-education-pathway-comparison.pdf)). Students compare 3 IT careers side-by-side, picking ONE from each category:
 
 1. **Certification-only career** (e.g., Help Desk Technician with CompTIA A+)
 2. **Associate degree + cert career** (e.g., IT Support Specialist with associate degree + Network+)
@@ -101,6 +104,6 @@ Bottom line: Which path would you recommend to a student who says "I don't want 
 
 ## Differentiation
 
-- **Support:** Pre-fill one column of the Education Pathway Comparison worksheet (the certification-only career, e.g., Help Desk Technician with A+) as a model. Students complete columns 2 and 3.
+- **Support:** Hand out the model version of the worksheet ([Printable PDF](../../resources/worksheets/wk4-education-pathway-comparison-model.pdf)), which pre-fills column 1 with Help Desk Technician and CompTIA A+, including the time, cost, and salary. Students complete columns 2 and 3.
 - **Extension:** Students research the cost of a CompTIA A+ exam voucher and find one free study resource (Professor Messer on YouTube is the standard).
-- **ELL:** Bilingual worksheet with Spanish column headers. Allow ELL students to use Spanish-language CompTIA roadmap resources (Latin American IT certification sites).
+- **ELL:** Bilingual worksheet with Spanish column headers ([Printable PDF](../../resources/worksheets/wk4-education-pathway-comparison-bilingual.pdf)). Allow ELL students to use Spanish-language CompTIA roadmap resources (Latin American IT certification sites).

@@ -28,7 +28,7 @@
 | Differentiation (Support / Extension / ELL + Spanish vocab) on every day | ✅ | Every daily plan |
 | Facilitation Tip blocks (222 across the curriculum) | ✅ | Throughout daily plans |
 | Printable exit-ticket PDFs (178, one per daily exit ticket, Irving ISD branded) | ✅ | `docs/resources/exit-tickets/`, linked from every day page |
-| Printable worksheets, rubrics, and scaffolds for 1SW Wk0 + Wk1 (17 PDFs incl. the CCE career research worksheet family, My Career Journey, Lab Safety Contract EN/ES, and two teacher rubrics) | ✅ | `docs/resources/worksheets/`, linked from the Wk0 and Wk1 pages |
+| Printable worksheets, rubrics, and scaffolds for ALL of 1SW (50 PDFs: the CCE career research worksheet family, My Career Journey, Lab Safety Contract EN/ES, scenario and step-sort cards, five weekly summative rubrics, the 1SW capstone portfolio rubric, and bilingual variants) | ✅ | `docs/resources/worksheets/`, linked from every 1SW week's pages |
 | 1SW Common Formative Assessment (stimulus, 4 parts, 4-level rubric) | ✅ | [1SW CFA](../1sw/cfa.md) |
 
 ### Exit-ticket PDF pipeline

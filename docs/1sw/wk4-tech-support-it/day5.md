@@ -9,7 +9,7 @@
 | **TEKS** | d(1)(C), d(4)(B) |
 | **5E Phases** | Engage: Warm-Up ranking · Explain: Team demos · Extend: IT Support favorites and Climber Profile check · Evaluate: Exit Ticket |
 | **Deliverable** | 3-minute team demo + 2 IT Support careers favorited in Climber Profile |
-| **Materials** | micro:bit devices, Chromebooks, H&L accounts, *Find Your Future* workbook p. 38, projector |
+| **Materials** | micro:bit devices (with none, teams demo from the MakeCode simulator), Chromebooks, H&L accounts, *Find Your Future* workbook p. 38, printed Help Desk Simulator Demo Rubric ([Printable PDF](../../resources/worksheets/wk4-demo-rubric.pdf)), printed career research worksheet for the optional research task ([Printable PDF](../../resources/worksheets/career-research-worksheet.pdf)), projector |
 
 ---
 
@@ -33,7 +33,10 @@ Each team has 3 minutes to demo their micro:bit help desk tool. Project the team
 4. **The Career:** Name one IT support career that would actually use a tool like this. Why? (30 seconds)
 5. **The Powerskill:** Which Powerskill (communication, problem-solving, patience, attention to detail) was the most important when you built this? (30 seconds)
 
-After each demo, class gives ONE compliment + ONE question. Track team scores informally on the board so students can see all the demos.
+After each demo, class gives ONE compliment + ONE question. Score each team with the **Help Desk Simulator Demo Rubric** ([Printable PDF](../../resources/worksheets/wk4-demo-rubric.pdf)): Logical Troubleshooting Sequence, Certification and Education Path, and Transferable Skills, 4 points each, 12 points total. Post the running totals where the class can see them so every team knows its score before the period ends.
+
+!!! tip "No micro:bits? Run the Simulator"
+    Teams demo from the MakeCode simulator projected on the screen. The class watches the same code and the same LED display it would watch on a board, and the rubric scores the sequence, not the hardware. A team whose board fails mid-demo gets its second attempt in the simulator rather than losing the score.
 
 **Time, Voice, Body:** Post the blocks before the first team presents. Voice 0 while a team's MakeCode workspace loads, Voice 3 for the presenter, Voice 1 for the compliment and question. Run a visible 3 minute countdown for every team, and park the micro:bits at the front table between demos so devices are not moving during someone else's turn.
 
@@ -46,7 +49,7 @@ After each demo, class gives ONE compliment + ONE question. Track team scores in
 
 ## Activity 2: H&L IT Support Favorites + Reflection (15 min)
 
-> [H&L PLATFORM] Direct students to the H&L Climber Profile. They favorite at least 2 IT Support careers from the Information Technology Support and Services pathway using the Hat Finder. Students can favorite one of the three Hats they rated on the App Exploration page (FYF p. 38) or a career from their Day 1 notes sheet, and they may fill in the CCE career research worksheet (the research format is taught in Wk0) for one IT support career before favoriting. Favorites accumulate across all 4 IT weeks (Wks 2-5): students should have 4-6 IT careers favorited by end of Wk5.
+> [H&L PLATFORM] Direct students to the H&L Climber Profile. They favorite at least 2 IT Support careers from the Information Technology Support and Services pathway using the Hat Finder. Students can favorite one of the three Hats they rated on the App Exploration page (FYF p. 38) or a career from their Day 1 notebook notes, and they may fill in the CCE career research worksheet ([Printable PDF](../../resources/worksheets/career-research-worksheet.pdf), the research format is taught in Wk0) for one IT support career before favoriting. Favorites accumulate across all 4 IT weeks (Wks 2-5): students should have 4-6 IT careers favorited by end of Wk5.
 
 **Sentence stems for the favorites reflection (write them in the jot space on page 38):**
 

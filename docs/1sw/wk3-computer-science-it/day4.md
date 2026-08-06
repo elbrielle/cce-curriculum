@@ -9,7 +9,7 @@
 | **TEKS** | d(1)(C), d(1)(D) |
 | **5E Phases** | Engage: Warm-Up · Explain: Emerging career options and what "emerging" means · Explore: Three-source research · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Emerging Tech Research Template |
-| **Materials** | Chromebooks, BLS Computer/IT pages, H&L Hat Finder, printed Emerging Tech Research Template, projector |
+| **Materials** | Chromebooks, BLS Computer/IT pages, H&L Hat Finder, printed Emerging Tech Research Template, 1 per student ([Printable PDF](../../resources/worksheets/wk3-emerging-tech-research-template.pdf)), printed Emerging Careers link sheet for the support group ([Printable PDF](../../resources/worksheets/wk3-emerging-careers-link-sheet.pdf)), projector |
 
 ---
 
@@ -45,7 +45,7 @@ Students research their chosen career using THREE sources:
 2. **H&L Hat Finder:** Search the H&L app for their career and pull DFW data if available.
 3. **Google search:** Find at least one DFW-area company that hires for this role.
 
-Students complete the **Emerging Tech Research Template** (one row per field):
+Students complete the **Emerging Tech Research Template** ([Printable PDF](../../resources/worksheets/wk3-emerging-tech-research-template.pdf)), one row per field:
 
 | Field | Student Notes |
 |---|---|
@@ -87,6 +87,6 @@ Bottom line: Which of the two careers is growing FASTER right now? Use the growt
 
 ## Differentiation
 
-- **Support:** Provide a pre-approved list of 4 emerging careers with starter research links (BLS pages already bookmarked) for students who need direction. Pre-fill the "Career Name" field for them.
+- **Support:** Hand out the printed Emerging Careers link sheet ([Printable PDF](../../resources/worksheets/wk3-emerging-careers-link-sheet.pdf)), which names the exact BLS page for all seven careers and stars the four whose BLS page matches them closely. Point students who need direction at the four starred careers. Nothing has to be bookmarked into student browser profiles; the sheet carries the links. Pre-fill the "Career Name" field for them.
 - **Extension:** Students research a SECOND emerging career and compare them on salary, growth, and education. Which is the better bet for someone starting their career today?
 - **ELL:** Bilingual emerging career names: Inteligencia Artificial = AI, Aprendizaje automático = Machine Learning, Nube = Cloud, Ciberseguridad = Cybersecurity, Ciencia de datos = Data Science. Allow ELL students to research using Spanish-language tech sites.

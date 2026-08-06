@@ -8,7 +8,7 @@ Students explore the Information Technology Support and Services pathway in Hats
 
 **Learning Target:** I can name IT support careers and the training each one needs, explain how a certification is different from a degree, build a micro:bit program that shows troubleshooting steps in order, and help a frustrated user in a calm, clear way.
 
-**Success Criteria:** I will know I am successful when my notes sheet lists the education, the pay, and one daily task for three IT support careers, when my Education Pathway Comparison worksheet is filled in for a certification career, an associate degree career, and a bachelor's degree career, when my micro:bit shows three troubleshooting steps in order and shows FIXED when Button B is pressed, and when two IT support careers are saved in my Climber Profile.
+**Success Criteria:** I will know I am successful when my notebook lists the education, the pay, and one daily task for three IT support careers, when my Education Pathway Comparison worksheet is filled in for a certification career, an associate degree career, and a bachelor's degree career, when my micro:bit shows three troubleshooting steps in order and shows FIXED when Button B is pressed, and when two IT support careers are saved in my Climber Profile.
 
 ## Demonstration of Learning
 
@@ -25,14 +25,19 @@ Students explore the Information Technology Support and Services pathway in Hats
 
 - Chromebooks (1 per student)
 - Hats & Ladders accounts + *Find Your Future* workbook, Information Technology chapter (printed pp. 23-38; this week uses pp. 36-38)
-- micro:bit devices (1 per team of 2-3 students)
-- Microsoft MakeCode for micro:bit: [makecode.microbit.org](https://makecode.microbit.org)
-- USB cables (micro:bit to Chromebook)
+- Engineering notebooks (issued in Wk0; carry the Day 1 Hat notes that Day 5 reads back)
+- micro:bit devices (1 per team of 2-3 students, so 10-15 boards for a class of 30; with fewer, run teams of 4, and with none, Days 3 to 5 run in the MakeCode simulator)
+- USB cables, data-capable, one per board (boards run tethered over USB for the whole period, so battery packs at 2 AAA cells per board are only needed if Day 4 pairs move away from their desks)
+- Microsoft MakeCode for micro:bit: [makecode.microbit.org](https://makecode.microbit.org). Pairing uses the WebUSB "Connect device" flow, and DAPLink firmware needs updating across the fleet before the week starts; see the Day 3 device-prep note
 
-- CompTIA Career Roadmap: [comptia.org/content/it-careers-path-roadmap](https://www.comptia.org/content/it-careers-path-roadmap)
+- CompTIA Career Roadmap: [comptia.org/content/it-careers-path-roadmap](https://www.comptia.org/content/it-careers-path-roadmap) (link-check the week before; if it is dead or filtered, Day 2 runs off the certification tiers printed on the day page)
 - BLS, Computer Support Specialists: [bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm](https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm)
-- Printed Education Pathway Comparison worksheet (3 careers × 5 fields)
-- Help Desk scenario cards (printer not working, Wi-Fi disconnected, software crashing, computer won't turn on, password reset)
+- Printed Education Pathway Comparison worksheet, 3 careers × 5 fields ([Printable PDF](../../resources/worksheets/wk4-education-pathway-comparison.pdf))
+- Printed Help Desk scenario cards, five scenarios each carrying its three-step sequence ([Printable PDF](../../resources/worksheets/wk4-help-desk-scenario-cards.pdf))
+- Printed MakeCode starter blocks, the Day 3 recovery path for teams that miss the visual checkpoint ([Printable PDF](../../resources/worksheets/wk4-makecode-starter-blocks.pdf))
+- Help Desk Simulator Demo Rubric for the Day 5 summative ([Printable PDF](../../resources/worksheets/wk4-demo-rubric.pdf))
+- Active Monitoring clipboard roster for Day 4 ([Printable PDF](../../resources/worksheets/clipboard-roster-grid.pdf))
+- Day 3 and Day 4 support scaffolds: troubleshooting step sort cards ([Printable PDF](../../resources/worksheets/wk4-troubleshooting-step-sort-cards.pdf)) and the Help Desk role-play script ([Printable PDF](../../resources/worksheets/wk4-help-desk-role-play-script.pdf))
 - Projector
 
 ## Career Connection
@@ -63,9 +68,9 @@ The hands-on activity uses **micro:bit + Microsoft MakeCode**. The *Find Your Fu
 ## IISD Instructional Strategies
 
 - **Think-Pair-Share:** Day 4, Activity 1, the swap where partner teams test each other's troubleshooting programs. Distinguished: after the swap, hold a silent 30 second Think on the three feedback questions already in the plan (was the order logical, were the steps clear, was anything confusing or missing), then time Team A for 30 seconds and Team B for 30 seconds so the quieter team is not talked over. Post two stems at different levels: "The order made sense to me because _____" and "I got stuck at step _____ because the words _____." Ask two teams to share one piece of feedback with the room, not one. Listen while teams talk for whether the feedback is about step order or about wording, and open Day 5 demos with whichever of the two you heard teams struggle to give.
-- **Stop and Jot:** Day 1, Activity 1, the notes sheet students fill in for each of the four IT Support Hats. Distinguished: name the four fields before the browse starts, give roughly 5 minutes per Hat with the fields on screen, and post stems that carry the certification vocabulary Day 2 depends on: "A _____ certification takes _____ months to earn and qualifies you for _____", "A _____ degree takes _____ years and qualifies you for _____", and "This Hat needs a degree, a certification, or both because the profile says _____." Read notes over shoulders during the browse and track whether the education field is getting filled in. If most sheets carry salary but not education, stop the room and reproject where the education indicator sits, because Activity 2 and all of Day 2 stand on that field.
-- **Active Monitoring:** Day 4, Activity 2, the customer service role-play. Distinguished: walk a fixed route through the pairs twice, once per round of the role-play, carrying the clipboard checklist that tracks the four customer service rules (acknowledge, simple language, one step at a time, stay calm). Have the feedback ready before class for the two failures you will see most: the tech who reads the micro:bit steps without waiting for the user to confirm, and the tech who answers jargon with more jargon. Give it pair by pair, in the moment, naming the rule. If more than a handful of pairs skip the acknowledge step, pause the room and model one opening line before the swap instead of correcting pair by pair.
-- **Chunking:** Day 3, Activities 2 and 3, the MakeCode build. Distinguished: teach one block at a time on the projector, say what each block is for before demonstrating it (`show string` puts words on the screen, `on button A pressed` waits for the user, the `step` variable remembers where the user is), and close the starter program with the visual checkpoint already written into the plan: every team holds up a micro:bit reading "Step 1: Restart" before variable work begins. Note which teams needed help to clear that checkpoint. Those teams start Activity 3 from the pre-built starter code, and teams that cleared it early go straight to the if/then branching. The week runs on the same principle: pathway exploration, then certifications, then two days of building, then role-play and demos.
+- **Stop and Jot:** Day 1, Activity 1, the engineering notebook page students fill in for each of the four IT Support Hats. Distinguished: name the four fields before the browse starts, give roughly 5 minutes per Hat with the fields on screen, and post stems that carry the certification vocabulary Day 2 depends on: "A _____ certification takes _____ months to earn and qualifies you for _____", "A _____ degree takes _____ years and qualifies you for _____", and "This Hat needs a degree, a certification, or both because the profile says _____." Read notes over shoulders during the browse and track whether the education field is getting filled in. If most sheets carry salary but not education, stop the room and reproject where the education indicator sits, because Activity 2 and all of Day 2 stand on that field.
+- **Active Monitoring:** Day 4, Activity 2, the customer service role-play. Distinguished: walk a fixed route through the pairs twice, once per round of the role-play, carrying a clipboard printed from the [Active Monitoring Clipboard Roster](../../resources/worksheets/clipboard-roster-grid.pdf) with three of the four customer service rules written into the checkpoint headers (acknowledge, simple language, one step at a time) and the fourth, stay calm, tracked in the Notes column. Have the feedback ready before class for the two failures you will see most: the tech who reads the micro:bit steps without waiting for the user to confirm, and the tech who answers jargon with more jargon. Give it pair by pair, in the moment, naming the rule. If more than a handful of pairs skip the acknowledge step, pause the room and model one opening line before the swap instead of correcting pair by pair.
+- **Chunking:** Day 3, Activities 2 and 3, the MakeCode build. Distinguished: teach one block at a time on the projector, say what each block is for before demonstrating it (`show string` puts words on the screen, `on button A pressed` waits for the user, the `step` variable remembers where the user is), and close the starter program with the visual checkpoint already written into the plan: every team holds up a micro:bit reading "Step 1: Restart" before variable work begins. Note which teams needed help to clear that checkpoint. Those teams start Activity 3 from the printed [MakeCode starter blocks](../../resources/worksheets/wk4-makecode-starter-blocks.pdf), and teams that cleared it early go straight to the if/then branching. The week runs on the same principle: pathway exploration, then certifications, then two days of building, then role-play and demos.
 - **Time, Voice, Body (TVB):** Day 5, Activity 1, the 3 minute team demos. Distinguished: post the three blocks before the first team presents, Voice 0 while each team's MakeCode workspace loads on the projector, Voice 3 for the presenter, Voice 1 for the compliment and question that follow, and run a visible 3 minute countdown for every team. Say where the micro:bits sit between demos so devices are not being passed around during someone else's turn. Narrate the teams meeting the expectation rather than correcting the ones who are not. If the rotation is running long by the third team, cut the class compliment to a thumbs up and announce that change before the next team starts.
 
 ## Week at a Glance
@@ -88,15 +93,15 @@ The hands-on activity uses **micro:bit + Microsoft MakeCode**. The *Find Your Fu
 
 ## Summative Assessment
 
-**Help Desk Simulator Demo (Day 5):** Teams demonstrate their micro:bit help desk tool to the class. Demos must include: (1) a description of the IT problem they programmed for, (2) the troubleshooting steps in the program, (3) a justification of why those steps are in that order, (4) one IT support career that would actually use a tool like this. Scored on: logical troubleshooting sequence (d(2)(A)), explanation of certification/education path (d(2)(A), d(2)(B)), and identification of transferable skills (d(4)(B)).
+**Help Desk Simulator Demo (Day 5):** Teams demonstrate their micro:bit help desk tool to the class. Demos must include: (1) a description of the IT problem they programmed for, (2) the troubleshooting steps in the program, (3) a justification of why those steps are in that order, (4) one IT support career that would actually use a tool like this. Scored with the **Help Desk Simulator Demo Rubric** ([Printable PDF](../../resources/worksheets/wk4-demo-rubric.pdf)), which carries four-level descriptors for each of the three dimensions: Logical Troubleshooting Sequence (d(2)(A)), Certification and Education Path (d(2)(A), d(2)(B)), and Transferable Skills (d(4)(B)), 4 points each, 12 points total. Post the running totals where the class can see them, and give a team whose board fails mid-demo a second attempt in the MakeCode simulator, since the rubric scores the sequence and not the hardware.
 
 ## Differentiation
 
 ### Scaffolded Learning
 
-- Pre-built MakeCode starter code that students can modify rather than build from scratch.
-- Education Pathway Comparison worksheet with one career pre-filled (Software Developer) as a model.
-- Pre-printed troubleshooting step cards that students can arrange in order before programming.
+- Printed MakeCode starter blocks that students copy and modify rather than build from scratch ([Printable PDF](../../resources/worksheets/wk4-makecode-starter-blocks.pdf)).
+- Education Pathway Comparison worksheet with the certification-only career pre-filled as a model ([Printable PDF](../../resources/worksheets/wk4-education-pathway-comparison-model.pdf)).
+- Pre-printed troubleshooting step cards that students arrange in order before programming ([Printable PDF](../../resources/worksheets/wk4-troubleshooting-step-sort-cards.pdf)).
 - Pair work for MakeCode: one student programs, the other tests on the micro:bit.
 
 ### Extensions
@@ -109,6 +114,7 @@ The hands-on activity uses **micro:bit + Microsoft MakeCode**. The *Find Your Fu
 ### ELL Language Support
 
 - Pre-teach: Certification = Certificación, Troubleshooting = Solución de problemas, Help Desk = Mesa de ayuda, Customer Service = Servicio al cliente.
-- Bilingual troubleshooting step cards with English and Spanish labels.
-- Role-play scripts with sentence stems in both languages: "I am going to try _____ to fix your problem (Voy a intentar _____ para resolver tu problema)."
+- Bilingual troubleshooting step cards with English and Spanish labels ([Printable PDF](../../resources/worksheets/wk4-troubleshooting-step-sort-cards-bilingual.pdf)).
+- Role-play scripts with sentence stems in both languages ([Printable PDF](../../resources/worksheets/wk4-help-desk-role-play-script-bilingual.pdf)): "I am going to try _____ to fix your problem (Voy a intentar _____ para resolver tu problema)."
+- Bilingual Education Pathway Comparison worksheet with Spanish column headers ([Printable PDF](../../resources/worksheets/wk4-education-pathway-comparison-bilingual.pdf)).
 - Pair ELL students with bilingual peers during the customer service role-play.

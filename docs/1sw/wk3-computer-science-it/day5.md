@@ -9,7 +9,7 @@
 | **TEKS** | d(1)(C), d(1)(D), d(4)(B) |
 | **5E Phases** | Engage: Warm-Up · Explain: Emerging tech mini-presentations and group vote · Extend: Xello Add Skills applied to the student's own life · Evaluate: Exit Ticket |
 | **Deliverable** | 2-minute mini-presentation + Xello Skills updated |
-| **Materials** | Chromebooks, Xello accounts, completed Emerging Tech Research Templates from Day 4, projector |
+| **Materials** | Chromebooks, Xello accounts, completed Emerging Tech Research Templates from Day 4 ([Printable PDF](../../resources/worksheets/wk3-emerging-tech-research-template.pdf)), App Design Packet and Emerging Tech Pitch Rubric ([Printable PDF](../../resources/worksheets/wk3-app-design-rubric.pdf)), projector |
 
 ---
 
@@ -38,7 +38,7 @@ Students share their Day 4 research in small groups of 4-5 (NOT as a whole class
 
 After each presentation, the group gives ONE star (something good) and ONE wish (something they wish they had heard more about). After all presentations in a group, the group VOTES on which emerging career they think will be most in-demand in 10 years.
 
-Walk between groups and listen for students using transferable skills vocabulary (problem-solving, communication, attention to detail) when they describe their careers.
+Walk between groups and listen for students using transferable skills vocabulary (problem-solving, communication, attention to detail) when they describe their careers. Score Presenter Delivery on the App Design Packet and Emerging Tech Pitch Rubric ([Printable PDF](../../resources/worksheets/wk3-app-design-rubric.pdf)) as you circulate, and enter the week's 16-point total once the Day 3 packets are added to it.
 
 !!! tip "Facilitation Tip"
     Tell students BEFORE presentations: "You are not graded on perfection. You are graded on whether you can explain your career to someone who has never heard of it. If your group can summarize what your career is after your pitch, you succeeded."
@@ -50,6 +50,8 @@ Walk between groups and listen for students using transferable skills vocabulary
 ## Activity 2: Xello Add Skills Activity (12 min)
 
 **Source:** Scope and sequence. Xello 7th-grade activity: Add Skills
+
+Xello student accounts are rostered by the district and reach students through the same SSO tile as the rest of their Xello work, so confirm with your campus tech coordinator that this section appears on your Xello roster before the week starts rather than troubleshooting logins during the period.
 
 Direct students to Xello and have them complete the Add Skills activity. Xello asks students to identify skills they have, skills they want to develop, and skills they think are important for future careers. This is the Xello equivalent of the H&L Building Blocks activity from Wk0.
 
@@ -105,6 +107,6 @@ Connect this career to THREE things:
 
 ## Differentiation
 
-- **Support:** Allow students who are uncomfortable presenting to record a 2-minute video of their pitch on the Chromebook instead of presenting live.
+- **Support:** Allow students who are uncomfortable presenting to record a 2-minute video of their pitch instead of presenting live, using the Chromebook Camera app in video mode (or Screencastify if your campus has it), saved into the student's own Google Drive CCE folder and shared with you.
 - **Extension:** Students who finish early help a classmate refine their pitch by giving extra feedback. They can also watch one of the H&L "From the Field" interview videos and connect what the professional says to their researched career.
 - **ELL:** Provide bilingual presentation sentence stems: "The career I researched is _____ (La carrera que investigué es _____). It is emerging because _____ (Es emergente porque _____)."

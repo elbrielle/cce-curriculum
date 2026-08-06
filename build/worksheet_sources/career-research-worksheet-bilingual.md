@@ -2,7 +2,7 @@
 title: Career Research Worksheet / Hoja de Investigación de Carreras
 slug: career-research-worksheet-bilingual
 kind: worksheet
-weeks: 1sw/wk0-classroom-routines, 1sw/wk1-robotics-manufacturing
+weeks: 1sw/wk0-classroom-routines, 1sw/wk1-robotics-manufacturing, 1sw/wk2-programming-it
 audience: student
 variant_of: career-research-worksheet
 language: bilingual

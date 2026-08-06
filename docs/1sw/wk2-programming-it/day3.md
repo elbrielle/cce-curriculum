@@ -9,7 +9,7 @@
 | **TEKS** | d(1)(C), d(5)(A), d(5)(E) |
 | **5E Phases** | Engage: Warm-Up · Explore: Flip the Failure chart and the BLS salary comparison · Explain: Share and Compare partner talk · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Flip the Failure chart + IT Salary Comparison worksheet (3 careers × 5 fields) |
-| **Materials** | *Find Your Future* workbook pp. 26-27, Chromebooks, BLS Computer/IT pages, printed IT Salary Comparison worksheet, projector |
+| **Materials** | *Find Your Future* workbook pp. 26-27, engineering notebooks (Day 2 Hat table), Chromebooks, BLS Computer/IT pages, printed IT Salary Comparison worksheet ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison.pdf)), and, for the students who need them, the BLS data extraction guide ([Printable PDF](../../resources/worksheets/wk2-bls-data-guide.pdf)) and the pre-filled Flip the Failure chart ([Printable PDF](../../resources/worksheets/wk2-flip-the-failure-scaffold.pdf)), projector |
 
 ---
 
@@ -51,7 +51,7 @@ The page also describes a frozen laptop, a phone full of notifications, and a lo
 
 Open with a 60 second prediction before anyone touches a Chromebook: do all programming jobs pay the same, and which one pays the MOST? Most students guess Game Developer or App Developer. The usual answer is a Backend Engineer or a Software Engineer at a large company. Students write their prediction at the top of the worksheet and check it at the end.
 
-Students pick 3 careers: Software Developer, Web Developer, and ONE other programming or IT Hat (App Developer, Game Developer, Network Administrator, Data Scientist). The **H&L DFW Salary** column comes from the reference sheet they built on Day 2. Anyone whose third career was not on that sheet opens the Hats & Ladders app, finds that Hat in the IT cluster, and copies the DFW salary range and demand indicator before starting the BLS work.
+Students pick 3 careers: Software Developer, Web Developer, and ONE other programming or IT Hat (App Developer, Game Developer, Network Administrator, Data Scientist). The **H&L DFW Salary** column comes from their notebook notes from Day 2, the four-row Hat table in the engineering notebook. Anyone whose third career was not in that table opens the Hats & Ladders app, finds that Hat in the IT cluster, and copies the DFW salary range and demand indicator before starting the BLS work.
 
 Direct students to the BLS pages for their 3 chosen careers:
 
@@ -59,7 +59,7 @@ Direct students to the BLS pages for their 3 chosen careers:
 - Web Developers: [bls.gov/ooh/computer-and-information-technology/web-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm)
 - (Their choice): browse [bls.gov/ooh/computer-and-information-technology/home.htm](https://www.bls.gov/ooh/computer-and-information-technology/home.htm)
 
-**Chunking:** Teach the five fields one at a time on the projector with the Software Developer column filled in as the model. Say what each field is for before showing where it lives on the BLS page, and take a quick thumbs check after each field before releasing the next one. For each BLS page, students find:
+**Chunking:** Teach the five fields one at a time on the projector with the Software Developer column filled in as the model ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison-model.pdf)). Say what each field is for before showing where it lives on the BLS page, and take a quick thumbs check after each field before releasing the next one. Students who need the walkthrough in front of them work from the BLS data extraction guide ([Printable PDF](../../resources/worksheets/wk2-bls-data-guide.pdf)), which names each Quick Facts row to copy and the three rows to skip. For each BLS page, students find:
 
 - **Median Pay** (national; located in the Quick Facts box at the top)
 - **Typical Entry-Level Education**
@@ -67,7 +67,7 @@ Direct students to the BLS pages for their 3 chosen careers:
 - **Number of Jobs** (current employment count)
 - **One sentence about what they do** (from the "What They Do" tab)
 
-Students fill in the printed **IT Salary Comparison worksheet** (3 careers × 5 fields):
+Students fill in the printed **IT Salary Comparison worksheet** ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison.pdf)), 3 careers × 5 fields:
 
 | Field | Career 1 | Career 2 | Career 3 |
 |---|---|---|---|
@@ -81,6 +81,8 @@ After students complete the worksheet, they answer 2 reflection questions on the
 
 1. Which career has the HIGHEST salary?
 2. Which career has the FASTEST job growth? Are they the same career?
+
+The back side also holds the job count, the one-sentence job description, and a DFW employer for each career, plus the prediction check from the start of the activity. Those three fields are what the Day 5 summative means by daily tasks and DFW employer, so collect the sheet with both sides complete.
 
 **DOK 3:** What conclusions can you draw about the relationship between education level and salary for IT careers in the DFW area? Is more education ALWAYS worth it?
 
@@ -109,6 +111,6 @@ Bottom line: Which of your three careers has the BEST combination of HIGH salary
 
 ## Differentiation
 
-- **Support:** Pre-fill one column of the IT Salary Comparison worksheet (Software Developer) as a model. Students complete the other 2 columns. For Flip the Failure, pre-print the chart with row 1 ("The alert system was too slow") already filled in so students complete the remaining three rows.
+- **Support:** Hand these students the model version of the IT Salary Comparison worksheet ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison-model.pdf)), which prints the Software Developer column filled in. Students complete the other 2 columns. For Flip the Failure, use the pre-printed chart with row 1 ("The alert system was too slow") already filled in ([Printable PDF](../../resources/worksheets/wk2-flip-the-failure-scaffold.pdf)) so students complete the remaining three rows. Pair either one with the BLS data extraction guide ([Printable PDF](../../resources/worksheets/wk2-bls-data-guide.pdf)).
 - **Extension:** Students compare their 3 DFW IT careers to the same 3 careers in San Francisco. The salaries are higher in SF, but cost of living is much higher too. Discuss: which is actually a better deal?
-- **ELL:** Bilingual worksheet headers (Career = Carrera, Salary = Salario, Education = Educación, Growth = Crecimiento). Allow ELL students to use the BLS pages in their preferred language via browser translation. Read the four scenario failures aloud before students start the chart, and offer the stem "Next time the team should _____ so that _____ (La próxima vez el equipo debe _____ para que _____)."
+- **ELL:** Bilingual worksheet headers (Career = Carrera, Salary = Salario, Education = Educación, Growth = Crecimiento) on the Spanish-header version of the sheet ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison-bilingual.pdf)). Allow ELL students to use the BLS pages in their preferred language via browser translation. Read the four scenario failures aloud before students start the chart, and offer the stem "Next time the team should _____ so that _____ (La próxima vez el equipo debe _____ para que _____)."

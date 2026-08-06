@@ -104,6 +104,6 @@ Bottom line: A student who wants to spend the day writing and testing code shoul
 
 ## Differentiation
 
-- **Support:** Pre-print the four Irving ISD programs of study with one example Hat per program so students can match instead of generate. Provide a Stop and Jot template with sentence stems.
+- **Support:** Pre-print the four Irving ISD programs of study with one example Hat per program so students can match instead of generate, plus a Stop and Jot template with sentence stems: "One IT career I had never heard of is _____. One question I still have about IT careers is _____." Both are on one sheet: [Printable PDF](../../resources/worksheets/wk2-it-programs-scaffold.pdf).
 - **Extension:** Students who finish early dig into the H&L app's "From the Field" interview videos for IT and watch one. They write the name of the professional and one piece of advice they gave.
 - **ELL:** Pre-teach: Information Technology = Tecnología de la Información, Software = Software, Network = Red, Programming = Programación, Cybersecurity = Ciberseguridad. Use H&L browser translation.

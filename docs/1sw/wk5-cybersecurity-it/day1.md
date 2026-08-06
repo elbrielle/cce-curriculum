@@ -9,7 +9,7 @@
 | **TEKS** | d(1)(D) |
 | **5E Phases** | Engage: Warm-Up · Explore: Cybersecurity Hat research in the app · Explain: CyberSeek pathway walkthrough · Evaluate: Exit Ticket |
 | **Deliverable** | Cybersecurity career notes + CyberSeek pathway traced from entry-level to advanced |
-| **Materials** | *Find Your Future* workbook pp. 36-38, Chromebooks, CyberSeek.org, BLS Information Security Analysts page, projector |
+| **Materials** | *Find Your Future* workbook pp. 36-38, Chromebooks, engineering notebooks, CyberSeek.org, printed CyberSeek pathway sheet ([Printable PDF](../../resources/worksheets/wk5-cyberseek-pathway.pdf)), BLS Information Security Analysts page, projector |
 
 ---
 
@@ -36,7 +36,7 @@ The workbook no longer prints an Information Technology pathway list. What it pr
 3. **Penetration Tester (Ethical Hacker):** Hired by companies to TRY to hack into their systems and find vulnerabilities BEFORE bad guys do. Requires deep technical skill plus integrity.
 4. **Security Consultant:** Independent expert who advises companies on how to improve their security. Often a senior role with 10+ years of experience.
 
-Students spend ~5 minutes per Hat and write down on a notes sheet:
+Students spend ~5 minutes per Hat and write down in their engineering notebooks:
 
 - Hat name
 - Education needed
@@ -54,6 +54,9 @@ Students spend ~5 minutes per Hat and write down on a notes sheet:
 
 **Source:** [cyberseek.org/pathway.html](https://www.cyberseek.org/pathway.html): Free interactive map maintained by NICE (National Initiative for Cybersecurity Education)
 
+!!! warning "Before Monday: Link Check"
+    Open [cyberseek.org/pathway.html](https://www.cyberseek.org/pathway.html) on a student Chromebook, on the student network, days before this lesson. This one site carries the whole 20 minutes, and district filters treat security-topic sites unevenly. Check the BLS Information Security Analysts page the same way. The live job count moves, so read the number off the screen on the day instead of promising a figure in advance. If either site is blocked, file the unblock request early and run the activity from the printed CyberSeek pathway sheet ([Printable PDF](../../resources/worksheets/wk5-cyberseek-pathway.pdf)), which carries the four layers and the five-step frame on one page.
+
 Project the CyberSeek Career Pathway Map on the screen. CyberSeek shows the progression from entry-level cybersecurity careers to advanced senior roles. It also shows real-time data on how many jobs are open in the US right now (the number is shockingly high, usually 500,000+).
 
 Walk students through the 4 layers of the CyberSeek pathway:
@@ -69,7 +72,7 @@ For each layer, click on a job title and look at:
 - Median salary
 - Common certifications required (CompTIA Security+, CISSP, CEH)
 
-**Student task:** Each student picks ONE entry-level cybersecurity job and traces a 5-step pathway from where they are NOW (7th grade) to becoming that professional. Steps to write on the back of their Hat notes sheet:
+**Student task:** Each student picks ONE entry-level cybersecurity job and traces a 5-step pathway from where they are NOW (7th grade) to becoming that professional. Steps go on the printed CyberSeek pathway sheet ([Printable PDF](../../resources/worksheets/wk5-cyberseek-pathway.pdf)), or in the engineering notebook under the Hat notes:
 
 1. Now: 7th grade
 2. High school (9-12): Singley Cybersecurity pathway + Cybersecurity Fundamentals certification
@@ -107,6 +110,6 @@ Bottom line: CyberSeek showed hundreds of thousands of OPEN US cybersecurity job
 
 ## Differentiation
 
-- **Support:** Provide a printed CyberSeek pathway with the 5 steps pre-labeled. Students just write in their target job. Pre-print the four cybersecurity Hat names on the notes sheet with one example row filled in.
+- **Support:** Hand out the printed CyberSeek pathway sheet ([Printable PDF](../../resources/worksheets/wk5-cyberseek-pathway.pdf)), which lists the four layers and pre-labels the five steps so students write in their target job instead of building the frame. For the Hat notes, project one completed example row beside the four field headings (Information Security Analyst, bachelor's degree, $90,000+ in DFW, "did not expect it to be mostly monitoring") so students copy the format into the notebook before the first Hat.
 - **Extension:** Students explore the **NOVA Cybersecurity Lab** game (free, PBS): [pbs.org/wgbh/nova/labs/lab/cyber/](https://www.pbs.org/wgbh/nova/labs/lab/cyber/). It is an interactive game that teaches phishing, password security, and basic ethical hacking concepts.
 - **ELL:** Bilingual cybersecurity vocabulary: Hacker = Hacker, Virus = Virus, Contraseña = Password, Análisis = Analysis, Firewall = Cortafuegos, Phishing = Suplantación de identidad. CyberSeek does not have full Spanish translation, so pair ELL students with bilingual peers.

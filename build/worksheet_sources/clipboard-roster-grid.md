@@ -2,7 +2,7 @@
 title: Active Monitoring Clipboard Roster
 slug: clipboard-roster-grid
 kind: reference
-weeks: 1sw/wk1-robotics-manufacturing
+weeks: 1sw/wk1-robotics-manufacturing, 1sw/wk2-programming-it, 1sw/wk4-tech-support-it, 1sw/wk5-cybersecurity-it
 audience: teacher
 variant_of:
 language: en

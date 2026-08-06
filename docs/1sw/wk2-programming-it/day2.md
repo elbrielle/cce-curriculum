@@ -9,7 +9,7 @@
 | **TEKS** | d(1)(C), d(2)(A) |
 | **5E Phases** | Engage: Warm-Up · Explore: Four programming Hats in the app · Explain: Career research worksheet and the tools list · Evaluate: Exit Ticket |
 | **Deliverable** | Career research worksheet for one programming career |
-| **Materials** | Printed career research worksheet, *Find Your Future* workbook p. 38, Chromebooks, projector, BLS Software Developers and Web Developers pages |
+| **Materials** | Printed career research worksheet ([Printable PDF](../../resources/worksheets/career-research-worksheet.pdf)), engineering notebooks, *Find Your Future* workbook p. 38, Chromebooks, projector, BLS Software Developers and Web Developers pages |
 
 ---
 
@@ -34,13 +34,15 @@ Quick share; listen for student passion. Bridge: "The people who actually build 
 3. **App Developer (Mobile):** Builds iOS and Android apps. Specialized subset of software developer. Often requires Swift (iOS) or Kotlin (Android).
 4. **Game Developer:** Builds video games. Combines coding with art, sound, and game design. Often requires bachelor's in CS or game design plus a portfolio.
 
-**Student task:** Students spend ~5 minutes per Hat. For each, they write down on a quick reference sheet:
+**Student task:** Students spend ~5 minutes per Hat. Before the first Hat opens, they set up a four-row table in their **engineering notebook** (dated entry, labeled "1SW Wk2 Programming"), one row per Hat. For each Hat they write down:
 
 - Hat name
 - Education needed
 - DFW salary range
 - Demand (growing / steady / declining)
 - One thing that interested them or surprised them
+
+This notebook table is the week's reference. Day 3's salary worksheet reads its DFW salary numbers straight out of it, so every row needs all five fields before students close the notebook.
 
 **Active Monitoring:** Walk a fixed route through the room once every five minutes, one Hat per lap. The lap's target is that the row for the Hat under discussion has all five fields filled, not just the Hat name. Ask each student you stop: "Which of these 4 Hats is YOUR favorite so far?" If more than a handful of students have blank salary or demand fields, pause the room and reproject where those two numbers live on a Hat profile instead of pointing them out desk by desk.
 
@@ -55,7 +57,7 @@ Quick share; listen for student passion. Bridge: "The people who actually build 
 
 **Source:** CCE career research worksheet; app steps follow (FYF p. 38: "App Exploration")
 
-Pass out the printed career research worksheet. This is the same six-field format students learned in Wk0, so name the connection rather than reteaching it. Students choose ONE of the 4 programming Hats they explored and complete the worksheet:
+Pass out the printed career research worksheet ([Printable PDF](../../resources/worksheets/career-research-worksheet.pdf)). This is the same six-field format students learned in Wk0, so name the connection rather than reteaching it. Students choose ONE of the 4 programming Hats they explored and complete the worksheet:
 
 - **Name of Career**
 - **What Interests You?**
@@ -96,6 +98,6 @@ Scenario: A local Irving business wants to hire ONE person to build a mobile gam
 
 ## Differentiation
 
-- **Support:** Pre-print a career research worksheet with one example career filled in (Web Developer with HTML, CSS, JavaScript). Students complete a different career using the example as a model.
+- **Support:** Hand these students the worked-example version of the worksheet ([Printable PDF](../../resources/worksheets/wk2-career-research-web-developer.pdf)), which prints a completed Web Developer model (HTML, CSS, JavaScript, React) above a blank set of the same six fields. Students complete a different programming career using the example as a model.
 - **Extension:** Students who finish early research a 5th programming Hat not on the list: Data Scientist, DevOps Engineer, Machine Learning Engineer, or Backend Engineer.
-- **ELL:** Bilingual programming vocabulary card: Lenguaje de programación = Programming language, Aplicación = App, Página web = Web page, Desarrollador = Developer.
+- **ELL:** Bilingual programming vocabulary card: Lenguaje de programación = Programming language, Aplicación = App, Página web = Web page, Desarrollador = Developer. Hand ELL students the bilingual field labels version of the worksheet ([Printable PDF](../../resources/worksheets/career-research-worksheet-bilingual.pdf)), which carries all six prompts in Spanish under the English.
