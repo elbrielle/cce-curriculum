@@ -9600,7 +9600,7 @@ python3<span class="w"> </span>build/inject_pdf_links.py<span class="w">   </spa
 </code></pre></div>
 <p>Operating manual: <code>cce-curriculum/notes/exit-ticket-pdf-pipeline.md</code>. Do not hand-edit the generated PDFs or the design CSS in <code>build/exit_ticket_template/</code>.</p>
 <h3 id="worksheet-pdf-pipeline-new-2026-08-05">Worksheet PDF pipeline (new 2026-08-05)</h3>
-<p>Classroom printables (worksheets, rubrics, contracts, scaffolds) now have their own generator. Sources are markdown files in <code>build/worksheet_sources/</code>; output lands in <code>docs/resources/worksheets/</code> with the same Irving ISD branding as the exit tickets. 17 sheets shipped in the first wave (1SW Wk0 + Wk1); later weeks' sheets are queued in the Day-1 readiness backlog (<code>cce-curriculum/notes/day1-readiness-backlog.md</code>).</p>
+<p>Classroom printables (worksheets, rubrics, contracts, and scaffolds) have their own generator. Sources are markdown files in <code>build/worksheet_sources/</code>; output lands in <code>docs/resources/worksheets/</code> with the same Irving ISD branding as the exit tickets. The current set has 50 sheets and covers all of 1SW. Later blocks are queued in the Day-1 readiness backlog (<code>cce-curriculum/notes/day1-readiness-backlog.md</code>).</p>
 <div class="highlight"><pre><span></span><code>python3<span class="w"> </span>build/build_worksheets.py<span class="w">            </span><span class="c1"># regenerate every worksheet PDF</span>
 python3<span class="w"> </span>build/build_worksheets.py<span class="w"> </span>--strict<span class="w">   </span><span class="c1"># fail on page-fit warnings</span>
 </code></pre></div>
