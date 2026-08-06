@@ -66,3 +66,23 @@ This log records the official Canvas build without storing access credentials or
 - All ten teacher/student pages are unpublished. The week importer completed a second run with the same folder, file, page, and item IDs and no duplicate module items.
 - Automated template QA: no skipped headings, missing image alt text, unlabeled disclosure sections, layout tables, legacy Canvas tabs, or unresolved template fields. Student reading levels ranged from FK 5.1 to 7.6.
 - Browser QA: every new page rendered in its module route; all licensed visuals loaded; teacher-to-student navigation resolved; the most complex student and teacher pages had no horizontal overflow at a 390-pixel viewport.
+
+## 2026-08-06 — 1SW Week 1 paired lesson set
+
+- Module: `1SW Wk1: Built by Bots - Robotics and Manufacturing Careers` (542948)
+- State: unpublished
+- Module structure: five Teacher Facilitator Guide and Student Guide pairs, in Day 1-5 order
+- Teacher item IDs: Day 1 5294957, Day 2 5294959, Day 3 5294961, Day 4 5294963, Day 5 5294965
+- Student item IDs: Day 1 5294958, Day 2 5294960, Day 3 5294962, Day 4 5294964, Day 5 5294966
+- Locked Canvas visual folders:
+  - Day 1: 1152509
+  - Day 2: 1152510
+  - Day 3: 1152511
+  - Day 4: 1152512
+  - Day 5: 1152513
+- Supporting PDFs, exit tickets, scaffolds, worksheets, rubric, and monitoring roster are stored in the locked `course files/CCR Materials/1SW/Wk1` hierarchy.
+- All ten pages and the parent module are unpublished. Running the Week 1 importer a second time returned the same module, folder, page, and item IDs without duplicate module items.
+- Automated template QA found no skipped headings, missing image alt text, unlabeled disclosure sections, layout tables, legacy Canvas tabs, or unresolved template fields.
+- Student guides include the hardware-independent Sphero simulator route. Day 5 identifies the Robots for Crayons presentation as the major evidence and keeps Xello/H&L profile work secondary to the required presentation.
+- Browser QA: Day 1 student and Day 5 student/teacher pages rendered correctly in Canvas; locked workbook and slide-deck visuals loaded, including the disclosure-based Quality Check set; the Day 5 student and teacher pages had no horizontal overflow at a 390-pixel viewport. Remaining Day 2-4 browser spot checks are required before publication.
+- Importer: `build/canvas/build_wk1.py`

@@ -194,6 +194,15 @@ After Canvas verification:
 8. push the working branch and `main`; and
 9. deploy the MkDocs review site when public documentation changed.
 
+Run local checks through an explicit temporary dependency environment so future agents do not depend on whichever Python packages happen to be installed globally:
+
+```bash
+uv run --with beautifulsoup4 --with textstat python <template-qa-script>
+uv run --with mkdocs-material --with mike mkdocs build --strict
+```
+
+For generic HTML templates that still contain placeholder prose, calculate reading level from each fully rendered page body. A reading score from unreplaced tokens is not meaningful.
+
 ## 8. Efficient scaling pattern
 
 Build one week at a time rather than one isolated page across the whole year.
