@@ -9302,7 +9302,7 @@
 </tr>
 <tr>
 <td><strong>Materials</strong></td>
-<td>micro:bit devices (1 per team of 2-3), USB cables, Chromebooks, MakeCode for micro:bit, Help Desk scenario cards, projector</td>
+<td>micro:bit devices (1 per team of 2-3, so 10-15 for a class of 30; with none, the whole day runs in the MakeCode simulator), data-capable USB cables (1 per board), Chromebooks, MakeCode for micro:bit, printed Help Desk scenario cards (<a href="../../../resources/worksheets/wk4-help-desk-scenario-cards.pdf">Printable PDF</a>), projector</td>
 </tr>
 </tbody>
 </table>
@@ -9316,7 +9316,7 @@
 <ul>
 <li>1 micro:bit</li>
 <li>1 USB cable</li>
-<li>A Help Desk scenario card (printer not working, Wi-Fi disconnected, software crashing, computer won't turn on, password reset)</li>
+<li>A Help Desk scenario card (<a href="../../../resources/worksheets/wk4-help-desk-scenario-cards.pdf">Printable PDF</a>): printer not working, Wi-Fi disconnected, software crashing, computer won't turn on, or password reset</li>
 </ul>
 <p>Walk students through MakeCode setup on the projector:</p>
 <ol>
@@ -9324,11 +9324,16 @@
 <li>Click <strong>"New Project"</strong> and name it (e.g., "Help Desk Tool").</li>
 <li>Look at the workspace: <strong>left side</strong> = micro:bit simulator, <strong>middle</strong> = block category drawer, <strong>right</strong> = workspace.</li>
 <li>Connect the micro:bit USB cable to the Chromebook.</li>
-<li>Click <strong>"Download"</strong> in the bottom-left to push code to the device.</li>
+<li>Click the three dots next to the <strong>Download</strong> button and choose <strong>"Connect device"</strong>. Pick the micro:bit from the browser's device list and click Connect. This WebUSB pairing flow is the normal path on a district-managed Chromebook, not a workaround, and each Chromebook only needs it once for the week.</li>
+<li>Click <strong>"Download"</strong> in the bottom-left. The code now flashes straight to the paired board.</li>
 </ol>
 <div class="admonition warning">
-<p class="admonition-title">Common Issue</p>
-<p>Some Chromebooks block USB device access. If a student cannot download to the micro:bit, use the Web USB pairing flow (click "Connect device" in MakeCode). Some devices may need the firmware update, check the micro:bit support page if pairing fails.</p>
+<p class="admonition-title">Before Monday: Device Prep</p>
+<p>Count your micro:bits and USB cables two weeks out. A class of 30 needs 10 to 15 boards at teams of 2-3, plus one data-capable cable per board. Decide power now: boards run fine tethered to the Chromebook over USB for the whole period, and battery packs (2 AAA cells per board) are only needed if Day 4 pairs carry devices away from their desks. Then update the firmware across the fleet in one sitting. Download the current DAPLink firmware once from <a href="https://microbit.org/get-started/user-guide/firmware/">microbit.org/get-started/user-guide/firmware</a>, then hold the RESET button while plugging each board in so it mounts as MAINTENANCE instead of MICROBIT, drag that firmware file onto the MAINTENANCE drive, and unplug when it remounts as MICROBIT. Fifteen boards take about twenty minutes and this clears the most common pairing failure before it costs you class time. Finish by running one full Connect device and Download on an actual student Chromebook, signed in as a student, not on the teacher machine.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">No micro:bits? Run the Simulator</p>
+<p>The simulator on the left side of the MakeCode workspace runs the identical program, buttons and LED display included. Students click Button A and Button B on screen. Activities 2 and 3 both work with no hardware at all. With fewer boards than teams, run teams of 4 and rotate who holds the device, or put half the teams in the simulator today and swap them onto boards on Day 4.</p>
 </div>
 <hr />
 <h2 id="activity-2-build-your-first-program-display-a-welcome-message-10-min">Activity 2: Build Your First Program — Display a Welcome Message (10 min)</h2>
@@ -9341,7 +9346,7 @@
 <li>Press Button A on the micro:bit. Students should see "Step 1: Restart" scroll across the LED display.</li>
 </ol>
 <p><strong>Chunking:</strong> One block at a time on the projector, each with its purpose named before it is demonstrated: <code>show string</code> puts words on the screen, <code>on button A pressed</code> waits for the user.</p>
-<p><strong>Visual checkpoint:</strong> Hold up your micro:bit when "Step 1: Restart" is showing. Verify every team got it before moving on. Teams that needed help clearing the checkpoint start Activity 3 from the pre-built starter code.</p>
+<p><strong>Visual checkpoint:</strong> Hold up your micro:bit when "Step 1: Restart" is showing. Verify every team got it before moving on. Teams that needed help clearing the checkpoint start Activity 3 from the printed starter blocks (<a href="../../../resources/worksheets/wk4-makecode-starter-blocks.pdf">Printable PDF</a>), which lists all sixteen blocks in drag order so those teams only have to type their own step text.</p>
 <hr />
 <h2 id="activity-3-build-a-3-step-troubleshooting-program-20-min">Activity 3: Build a 3-Step Troubleshooting Program (20 min)</h2>
 <p>Teams build a program that cycles through 3 troubleshooting steps for their assigned scenario. The program logic:</p>
@@ -9360,18 +9365,26 @@
 <li>Step 1: "Check Wi-Fi switch"</li>
 <li>Step 2: "Restart router"</li>
 <li>Step 3: "Forget and reconnect network"</li>
+<li><strong>Scenario: Software crashing</strong></li>
+<li>Step 1: "Close and reopen app"</li>
+<li>Step 2: "Restart computer"</li>
+<li>Step 3: "Check for updates"</li>
 <li><strong>Scenario: Computer won't turn on</strong></li>
 <li>Step 1: "Check power cable"</li>
 <li>Step 2: "Check power button"</li>
 <li>Step 3: "Hold power 10 sec"</li>
+<li><strong>Scenario: Password reset</strong></li>
+<li>Step 1: "Check caps lock"</li>
+<li>Step 2: "Use forgot password link"</li>
+<li>Step 3: "Call IT to reset"</li>
 </ul>
 <p>To build the cycling logic, students use a <strong>variable</strong> called <code>step</code> that increments each time Button A is pressed:</p>
 <ol>
 <li>From <strong>Variables</strong>, create a variable <code>step</code> and set it to 1 in <code>on start</code>.</li>
-<li>In <code>on button A pressed</code>, use a <code>change step by 1</code> block.</li>
-<li>Use <code>if/then/else</code> blocks (from <strong>Logic</strong>) to display different messages based on the value of <code>step</code>.</li>
+<li>Use <code>if/then/else</code> blocks (from <strong>Logic</strong>) inside <code>on button A pressed</code> to display a different message for each value of <code>step</code>.</li>
+<li>Put a <code>change step by 1</code> block <strong>below</strong> the whole if block, not above it, so the board shows the current step and then counts up to the next one.</li>
 </ol>
-<p>Walk between teams. The trickiest part is the <code>if/then</code> logic, sit with teams that get stuck.</p>
+<p>Walk between teams. The trickiest part is the <code>if/then</code> logic, sit with teams that get stuck. The predictable bug is a <code>change step by 1</code> sitting above the if block, which makes the first press of Button A skip straight to Step 2. The printed starter blocks (<a href="../../../resources/worksheets/wk4-makecode-starter-blocks.pdf">Printable PDF</a>) put the sixteen blocks in the order that avoids it.</p>
 <div class="admonition tip">
 <p class="admonition-title">Facilitation Tip</p>
 <p>Some teams will get frustrated with the if/else nesting. Tell them: "If you can get just TWO steps working today (Step 1 and Step 2), you have done well. We refine tomorrow." Don't push perfection on day 1.</p>
@@ -9392,9 +9405,9 @@
 <hr />
 <h2 id="differentiation">Differentiation</h2>
 <ul>
-<li><strong>Support:</strong> Provide pre-built MakeCode starter code with the variable + button A logic already in place. Students just modify the text strings.</li>
+<li><strong>Support:</strong> Hand out the printed starter blocks (<a href="../../../resources/worksheets/wk4-makecode-starter-blocks.pdf">Printable PDF</a>), which list every block in drag order with the variable and Button A logic already worked out, so students modify only the text strings. Before programming, give these students the troubleshooting step sort cards (<a href="../../../resources/worksheets/wk4-troubleshooting-step-sort-cards.pdf">Printable PDF</a>) and have them physically arrange their scenario's three steps in order first.</li>
 <li><strong>Extension:</strong> Add a sound effect (use the <strong>Music</strong> blocks) for "FIXED!" or for advancing to the next step. Add an LED animation that shows progress (1 LED for step 1, 2 LEDs for step 2, etc.).</li>
-<li><strong>ELL:</strong> Allow ELL students to write troubleshooting step text in Spanish. Pre-teach: Reiniciar = Restart, Verificar = Check, Cable de poder = Power cable.</li>
+<li><strong>ELL:</strong> Allow ELL students to write troubleshooting step text in Spanish. Pre-teach: Reiniciar = Restart, Verificar = Check, Cable de poder = Power cable. Use the bilingual step sort cards (<a href="../../../resources/worksheets/wk4-troubleshooting-step-sort-cards-bilingual.pdf">Printable PDF</a>), which print each step in English and Spanish on the same card.</li>
 </ul>
 
 
