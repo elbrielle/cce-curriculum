@@ -37,7 +37,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
       - name: Deploy `latest` via mike
-        run: mike deploy --push --update-aliases latest
+        run: |
+          mike deploy --push --update-aliases latest
+          mike set-default --push latest
       - name: Check for docs/ changes since last snapshot
         if: github.event_name == 'schedule'
         id: check_changes
