@@ -10,14 +10,14 @@ pages: 2
 orientation: portrait
 ---
 
-Cybersecurity workers hold access that nobody is watching them use. That is why this field talks about integrity so much. Finish the sentences below. Four or five sentences total is enough.
+Cybersecurity workers may have privileged access to sensitive systems or records. Good security limits that access to what the job actually requires. That is why this field talks about integrity and least privilege. Finish the sentences below. Four or five sentences total is enough.
 
 **Three real examples from class.** Circle the one you will write about.
 
 | The worker | What they can see | What integrity means here |
 |---|---|---|
-| Hospital cybersecurity analyst | Every patient's diagnoses, prescriptions, and test results | Never look unless the job requires it |
-| Bank security engineer | Every customer's account data | Never use that access for personal gain or for curiosity |
+| Hospital cybersecurity analyst | May have privileged access to systems containing private health information | Use only the access the assigned security task requires |
+| Bank security engineer | May have privileged access to systems containing customer data | Use only the access the assigned security task requires |
 | Ethical hacker | The weak spots in a company's website | Report every weakness to the company right away, and never use it |
 
 **Word bank.** honest · trusted · private · careful · records · access · permission · report · damage · license

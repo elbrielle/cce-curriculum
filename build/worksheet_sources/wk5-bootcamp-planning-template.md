@@ -1,5 +1,5 @@
 ---
-title: Cybersecurity Bootcamp Planning Template
+title: Cybersecurity Bootcamp Plan
 slug: wk5-bootcamp-planning-template
 kind: scaffold
 weeks: 1sw/wk5-cybersecurity-it
@@ -10,69 +10,73 @@ pages: 2
 orientation: portrait
 ---
 
-You are volunteering in your community. You are creating and leading a **Cybersecurity Bootcamp** that teaches other people how to stay safe online. Answer all six questions. A sentence stem is under each one. You can use the stem or write your own sentence.
+Design a short community lesson that helps one audience make a safer online choice. Use the workbook examples as starting points, not as current statistics.
 
-**The research behind your program.** Underline the finding you will use in question 6.
+## 1. Pick One Need
 
-- 73 out of every 100 adults have been hit by an online scam, like credit card fraud or a fake shopping site.
-- More than 60 out of every 100 adults get a scam call or text every week.
-- Many students build weak passwords that use their own birthday or name.
-- Many students do not know the red flags of a fake email, text, or social media message.
+Circle one: phishing messages · strong passwords/passphrases · public Wi-Fi · protecting private information · another approved need: ____________________
 
-**My bootcamp topic.** Circle one: phishing red flags · password safety · public Wi-Fi risks · my own idea: ______________________
-
-## 1. What is the name of your program?
-
-Make it catchy, and make it say what the program is. "Scam Slam" beats "Cyber Program."
-
-My program is called ______________________________________ , and the name tells people it is about ______________________________________ .
-
-## 2. What are the main learning goals?
-
-Name what a person can DO when they walk out, not what they will hear about.
-
-When people finish my bootcamp, they will be able to ______________________________________
-
-and ______________________________________ .
-
-## 3. Who are you trying to reach?
-
-Pick ONE group. The rest of your plan depends on this answer. Circle one: little kids · middle school students · high school students · families · older adults
-
-My program is for ______________________________________ because ______________________________________ .
-
-## 4. What will you do during the program?
-
-Name the actual thing people do. A workshop, a hands-on activity, a game, a contest.
-
-During my program, people will ______________________________________________________
+The unsafe choice I want to help people avoid is
 
 [[lines: 2]]
 
-[[pagebreak]]
+## 2. Name One Audience
 
-## 5. Where will it take place?
+Circle one: younger students · middle school students · families · older adults · another group: ____________________
 
-Circle one: school · public library · park · community center · online · other: ______________________
-
-I picked this place because ______________________________________________________
+This audience needs the lesson because
 
 [[lines: 2]]
 
-## 6. How could your program help your community?
+## 3. Set Two Learning Goals
 
-Tie your answer back to the finding you underlined at the top.
+After the bootcamp, people will be able to
 
-I read that ______________________________________________________ .
+1. ____________________________________________________________________
 
-My bootcamp helps because ______________________________________________________
+2. ____________________________________________________________________
+
+## 4. Plan the Activity
+
+Circle one: demonstration · card sort · game · guided practice · role-play · another format: ____________________
+
+Participants will
 
 [[lines: 3]]
 
-## Before You Design the Flyer
+[[pagebreak]]
 
-Your flyer has one hard requirement: it must tell people **how to sign up**. Write your sign-up method here first, then put it on the flyer.
+## 5. Choose a Place and Time
 
-People can sign up by ______________________________________________________
+Place: school · library · community center · online · other: ____________________
+
+Length: ______ minutes
+
+This place and time fit my audience because
+
+[[lines: 2]]
+
+## 6. Make the Advice Accurate
+
+Write one safety action you will teach. Do not promise that one action stops every attack.
+
+[[lines: 3]]
+
+## Flyer Checklist
+
+- [ ] Program name
+- [ ] Audience
+- [ ] Topic or two learning goals
+- [ ] Place and time
+- [ ] Fictional or teacher-approved sign-up method
+- [ ] Original words and visuals, or sources/credits for anything reused
+
+**Safe sign-up rule:** Never put a student's personal phone number, email, home address, or social-media account on the flyer.
+
+People can sign up by
+
+[[lines: 2]]
+
+My flyer is original because
 
 [[lines: 2]]

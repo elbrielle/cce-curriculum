@@ -1,0 +1,101 @@
+"""Build the unpublished 1SW Week 5 teacher/student Canvas module."""
+
+import asyncio, json, mimetypes, re, sys
+from pathlib import Path
+import httpx
+
+BASE="https://learn.irvingisd.net"; COURSE_ID=98060
+MODULE_NAME="1SW Wk5: Cyber Defenders - Cybersecurity Careers and Capstone"
+ROOT=Path(__file__).resolve().parents[2]; TEMPLATES=Path(__file__).parent/"templates"; ASSETS=ROOT/"cce-curriculum/resources/canvas-licensed/1sw/wk5"
+
+def slugify(v): return re.sub(r"[^a-z0-9]+","-",v.lower().replace("&","and")).strip("-")
+async def api(c,m,p,**kw):
+    r=await c.request(m,f"{BASE}/api/v1{p}",**kw); r.raise_for_status(); return r.json() if r.content else None
+async def paged(c,p,params=None):
+    out=[]; url=f"{BASE}/api/v1{p}"; q={"per_page":100,**(params or {})}
+    while url:
+        r=await c.get(url,params=q); r.raise_for_status(); out+=r.json(); url=r.links.get("next",{}).get("url"); q=None
+    return out
+async def ensure_module(c):
+    modules=await paged(c,f"/courses/{COURSE_ID}/modules"); found=next((m for m in modules if m["name"]==MODULE_NAME),None)
+    return found or await api(c,"POST",f"/courses/{COURSE_ID}/modules",data={"module[name]":MODULE_NAME,"module[published]":"false"})
+async def ensure_folder(c,path):
+    current=""; folder=None
+    for name in path.split("/")[1:]:
+        target=f"{current}/{name}".strip("/"); enc=httpx.URL("/"+target).raw_path.decode("ascii").lstrip("/")
+        r=await c.get(f"{BASE}/api/v1/courses/{COURSE_ID}/folders/by_path/{enc}")
+        if r.status_code==200 and r.json(): folder=r.json()[-1]
+        else: folder=await api(c,"POST",f"/courses/{COURSE_ID}/folders",data={"name":name,"parent_folder_path":"course files"+(f"/{current}" if current else ""),"locked":"true"})
+        current=target
+    if folder and not folder.get("locked"): folder=await api(c,"PUT",f"/folders/{folder['id']}",data={"locked":"true"})
+    return folder
+async def upload(c,path,folder):
+    init=await api(c,"POST",f"/courses/{COURSE_ID}/files",data={"name":path.name,"parent_folder_path":folder,"on_duplicate":"overwrite"})
+    r=await c.post(init["upload_url"],data=init["upload_params"],files={"file":(path.name,path.read_bytes(),mimetypes.guess_type(path.name)[0] or "application/octet-stream")},follow_redirects=True); r.raise_for_status(); return r.json()
+async def find_file(c,name):
+    files=await paged(c,f"/courses/{COURSE_ID}/files",{"search_term":name}); match=next((f for f in files if f.get("display_name")==name),None)
+    if not match: raise ValueError(f"Canvas file not found: {name}")
+    return match
+def render(name,values):
+    text=(TEMPLATES/name).read_text()
+    for k,v in values.items(): text=text.replace("{{"+k+"}}",str(v))
+    unresolved=sorted(set(re.findall(r"\{\{[^}]+\}\}",text)))
+    if unresolved: raise ValueError(f"Unresolved values in {name}: {unresolved}")
+    return text
+async def upsert_page(c,title,body,url):
+    data={"wiki_page[title]":title,"wiki_page[body]":body,"wiki_page[published]":"false","wiki_page[editing_roles]":"teachers"}; r=await c.get(f"{BASE}/api/v1/courses/{COURSE_ID}/pages/{url}")
+    if r.status_code==200: return await api(c,"PUT",f"/courses/{COURSE_ID}/pages/{url}",data=data)
+    if r.status_code!=404: r.raise_for_status()
+    return await api(c,"POST",f"/courses/{COURSE_ID}/pages",data=data)
+async def upsert_item(c,module_id,page,title):
+    items=await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items"); item=next((i for i in items if i.get("page_url")==page["url"]),None)
+    if item: return await api(c,"PUT",f"/courses/{COURSE_ID}/modules/{module_id}/items/{item['id']}",data={"module_item[title]":title})
+    return await api(c,"POST",f"/courses/{COURSE_ID}/modules/{module_id}/items",data={"module_item[type]":"Page","module_item[page_url]":page["url"],"module_item[title]":title})
+def flow(color,title,text): return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0;color:{color}">{title}</h4><p>{text}</p></div>'
+def image_details(course_id,uploads):
+    descriptions={2:"Email 1: free tablet prize message",3:"Email 2: Amazon order warning",4:"Email 3: company open-enrollment reminder",5:"Email 4: urgent benefits update",6:"Email 5: urgent account suspension",7:"Email 6: IT password-expiration notice",8:"Email 7: ordinary team-meeting reminder"}
+    parts=[]
+    for slide in range(2,9):
+        file=uploads[f"slide-{slide}.png"]; num=slide-1
+        parts.append(f'<details style="border:1px solid #cfc5dd;border-radius:8px;padding:12px 16px;margin:12px 0"><summary style="font-weight:700;color:#5a2d91;cursor:pointer">Email {num}</summary><img src="/courses/{course_id}/files/{file["id"]}/preview" alt="{descriptions[slide]}" style="display:block;width:100%;max-width:760px;height:auto;margin:14px auto;border:1px solid #ddd" data-api-endpoint="/api/v1/courses/{course_id}/files/{file["id"]}" data-api-returntype="File"></details>')
+    return "".join(parts)
+
+async def main():
+    token=sys.stdin.readline().strip()
+    if not token: raise SystemExit("Canvas token required on stdin")
+    async with httpx.AsyncClient(headers={"Authorization":f"Bearer {token}"},timeout=120) as c:
+        module=await ensure_module(c); module_id=module["id"]
+        support_names={"ROUTE":"wk5-cyberseek-pathway.pdf","CHECK":"wk5-red-flag-checklist.pdf","PLAN":"wk5-bootcamp-planning-template.pdf","CONNECTION":"wk5-favorite-cluster-connection.pdf","RUBRIC":"wk5-capstone-portfolio-rubric.pdf","REFLECTION":"wk5-reflection-update-template.pdf"}
+        support_folder="course files/CCR Materials/1SW/Wk5"; await ensure_folder(c,support_folder); files={}
+        for key,name in support_names.items(): files[key]=await upload(c,ROOT/"docs/resources/worksheets"/name,support_folder)
+        files["XELLO"]=await find_file(c,"my-career-clusters.pdf")
+        uploads={}; folders={}
+        for day in range(1,6):
+            folder_path=f"course files/CCR Materials/1SW/Wk5/Day {day} Visuals"; folders[day]=await ensure_folder(c,folder_path); uploads[day]={}
+            day_dir=ASSETS/f"day{day}"
+            if day_dir.exists():
+                for path in sorted(day_dir.glob("*.png")): uploads[day][path.name]=await upload(c,path,folder_path)
+        student_values={
+          1:{"PROGRAM_IMAGE_ID":uploads[1]["irving-it-programs.png"]["id"],"ROUTE_FILE_ID":files["ROUTE"]["id"]},
+          2:{"FLAGS_IMAGE_ID":uploads[2]["safe-or-spoofed-red-flags.png"]["id"],"CHECK_FILE_ID":files["CHECK"]["id"],"EMAIL_DETAILS":image_details(COURSE_ID,uploads[2])},
+          3:{"BOOTCAMP_IMAGE_ID":uploads[3]["community-cybersecurity-bootcamp.png"]["id"],"PLAN_FILE_ID":files["PLAN"]["id"]},
+          4:{"PROFILE_IMAGE_ID":uploads[4]["it-app-exploration.png"]["id"],"CONNECTION_FILE_ID":files["CONNECTION"]["id"]},
+          5:{"OPTIONS_IMAGE_ID":uploads[5]["postsecondary-options.png"]["id"],"REFLECTION_FILE_ID":files["REFLECTION"]["id"],"RUBRIC_FILE_ID":files["RUBRIC"]["id"]}}
+        student_titles={1:"STUDENT: 1SW Wk5 Day 1 - Cybersecurity Career Routes",2:"STUDENT: 1SW Wk5 Day 2 - Safe or Spoofed Inbox",3:"STUDENT: 1SW Wk5 Day 3 - Community Cybersecurity Bootcamp",4:"STUDENT: 1SW Wk5 Day 4 - Xello Favorite Clusters",5:"STUDENT: 1SW Wk5 Day 5 - Capstone Goal and Reflection"}
+        teacher_data={
+          1:{"TITLE":"Cybersecurity Career Routes","SUBTITLE":"50 minutes - TEKS d(1)(D)","ALERT":"<strong>Use the dated route guide as the core.</strong> H&amp;L and CyberSeek are optional live exploration. Do not promise a fixed ladder, DFW pay, or an entry-level Information Security Analyst job.","PREP":f'<ul><li>Print/post the <a href="/courses/{COURSE_ID}/files/{files["ROUTE"]["id"]}/preview">Cybersecurity Career Route Guide</a>.</li><li>Open FYF pp. 36-38 and the official BLS Information Security Analysts profile.</li><li>If using CyberSeek or H&amp;L, preflight on a student Chromebook and record the retrieval date.</li></ul>',"EVIDENCE":"<p>Formative/minor option: completed route guide with one source fact, one unanswered question, and an interest/unsure/not-interest decision. Live vendor access is not graded.</p>","FLOW":flow("#5a2d91","Security warm-up - 5 minutes","Name a digital risk and the person or team that could help.")+flow("#4a9d2f","Irving options and source labels - 10 minutes","Program of study versus job; national median versus local or starting pay.")+flow("#1f617a","Three-role route guide - 25 minutes","Compare support, network administration, and information security analyst; build one possible route.")+flow("#e3ad19","Evidence check - 10 minutes","Pair-check one source fact, one question, and the current interest decision."),"MONITOR":"<p>BLS key: Information Security Analysts protect networks and systems; typical preparation is a bachelor's degree plus related experience, although other routes exist; May 2024 national median $124,910; projected growth 29% for 2024-34. These are not promises. Accept varied routes when the student labels them as possible.</p>","SUPPORT":"<p>Pre-teach median, projected, related experience, certification, and program of study. Let students highlight the exact table fact before writing and rehearse the route orally.</p>","FALLBACK":"<p>The dated guide is the normal no-web route and supports absence recovery. If a live title or count differs, record the date rather than forcing it to match the worksheet.</p>"},
+          2:{"TITLE":"Safe or Spoofed? Phishing Investigation","SUBTITLE":"50 minutes - TEKS d(1)(C)","ALERT":"<strong>Practice never gets sent.</strong> Use fictional people and example.com addresses only. No real credentials, links, QR codes, attachments, or district impersonation.","PREP":f'<ul><li>Print/post the <a href="/courses/{COURSE_ID}/files/{files["CHECK"]["id"]}/preview">Phishing Red-Flag Checklist</a>.</li><li>Open the seven locked Canvas email images and FYF pp. 24-25.</li><li>Post the response: Pause, verify independently, report, delete.</li></ul>',"EVIDENCE":"<p>Formative/minor option: seven decisions plus the hardest-call explanation and safe response. Do not score a student on whether their first call matches; score the evidence and revision.</p>","FLOW":flow("#5a2d91","First clue warm-up - 5 minutes","Name one clue without clicking anything.")+flow("#4a9d2f","Five red flags - 10 minutes","Model sender, urgency, private information, link/file, and writing clues.")+flow("#1f617a","Seven-email investigation - 22 minutes","Open one image at a time; students mark evidence and decide.")+flow("#e3ad19","Safe practice draft - 8 minutes","Paper/assigned-document only; use two red flags and strict fictional boundaries.")+flow("#1f617a","Response close - 5 minutes","Pause, verify independently, report, delete."),"MONITOR":"<p><strong>Key:</strong> 1 spoofed (prize, odd sender/link); 2 spoofed (amaz0n and order-check domain); 3 safe-looking (company HR, no link/private request; still verify through portal/known HR); 4 spoofed (.co sender, TODAY, update link); 5 spoofed (urgent suspension and unrelated fix domain); 6 spoofed (.co sender and portal-login link); 7 safe-looking (ordinary manager note; verify through known channel if uncertain). A polished message is not automatically safe. Hover previews a desktop URL; it does not verify the sender.</p>","SUPPORT":"<p>Read the sender and visible domain aloud, color-code each flag, let pairs talk before individual decisions, and use the sentence frame: 'I marked ___ because ___.' Do not require full translations.</p>","FALLBACK":"<p>All seven images and the checklist are in the student guide for absences. On touch devices, use visible domains and independent verification; do not require long-pressing an unknown link.</p>"},
+          3:{"TITLE":"Community Cybersecurity Bootcamp","SUBTITLE":"50 minutes - TEKS d(4)(F), d(5)(A)","ALERT":"<strong>Major evidence begins:</strong> plan and flyer. Treat workbook percentages as scenario text, not current verified statistics. Canva, Adobe Express, and paper are equal.","PREP":f'<ul><li>Print/post the <a href="/courses/{COURSE_ID}/files/{files["PLAN"]["id"]}/preview">two-page Bootcamp Plan</a>.</li><li>Open FYF pp. 34-35 and prepare one teacher-made model for a fictional audience.</li><li>Confirm Canva/Adobe access only if offering those routes; paper is ready from the start.</li></ul>',"EVIDENCE":f'<p><strong>Major grade:</strong> Bootcamp Plan and Flyer supply 8 of 16 points on the <a href="/courses/{COURSE_ID}/files/{files["RUBRIC"]["id"]}/preview">capstone rubric</a>. Peer feedback is formative.</p>',"FLOW":flow("#5a2d91","Audience and need - 5 minutes","Choose one named audience and one unsafe choice.")+flow("#4a9d2f","Bootcamp plan - 20 minutes","Finish goals, activity, place/time, accurate advice, and safe sign-up route.")+flow("#1f617a","Flyer prototype - 18 minutes","Paper, Canva, or Adobe; original/credited content and no personal contact details.")+flow("#e3ad19","One-note feedback and revision - 7 minutes","One clear part, one next revision; absent-peer route uses self-check."),"MONITOR":"<p>Look for one audience, two actions participants can do, and a matching activity. Accept fictional 'sign up with your teacher/library desk' language. Reject real student/family contact details and guarantees such as 'this stops every scam.'</p>","SUPPORT":"<p>Offer an audience/need choice bank, sentence starters, a teacher model, and oral planning before writing. Students may label a diagram instead of producing long prose.</p>","FALLBACK":"<p>Paper is equal, not a lesser backup. If absent, complete the same plan and paper flyer; use the checklist instead of peer feedback.</p>"},
+          4:{"TITLE":"Xello Favorite Clusters","SUBTITLE":"50 minutes - TEKS d(1)(C), d(3)(A)","ALERT":"<strong>Required district task:</strong> protect 40 minutes for Favorite clusters and verify at least one saved cluster. Save Careers belongs later. H&amp;L is optional.","PREP":f'<ul><li>Check rosters and the Completion Standards report.</li><li>Open the licensed <a href="/courses/{COURSE_ID}/files/{files["XELLO"]["id"]}/preview">My career clusters teacher guide</a> as optional background. It is an expanded 90-minute lesson with extra prerequisites; do not impose those extras today.</li><li>Print/post the <a href="/courses/{COURSE_ID}/files/{files["CONNECTION"]["id"]}/preview">Favorite Cluster Connection</a>.</li></ul>',"EVIDENCE":"<p>Required completion evidence: at least one saved Favorite cluster in the Xello report. The connection sheet is formative or a coherent minor checkpoint; login success itself is not graded.</p>","FLOW":flow("#5a2d91","Cluster launch - 5 minutes","Define a career cluster as a family of related careers and model About Me navigation.")+flow("#4a9d2f","Explore clusters and careers - 30 minutes","Read descriptions, inspect example careers, and compare more than one cluster.")+flow("#1f617a","Save and verify - 5 minutes","Save at least one Favorite cluster and confirm it appears.")+flow("#e3ad19","Career connection - 10 minutes","Name one career, a reason, and a high school experience to investigate."),"MONITOR":"<p>Navigation: district SSO &gt; Xello &gt; About Me &gt; Favorite clusters. Minimum: one saved cluster. Do not require Matchmaker, three saved careers, two clusters, or a Xello Assignment for this 40-minute district minimum.</p>","SUPPORT":"<p>Read cluster descriptions aloud, provide cluster/career/reason stems, pair for navigation, and accept an oral reason recorded by the teacher before the student writes.</p>","FALLBACK":"<p>Record access issues. Student completes the paper connection with a known cluster, then completes the required Xello save during the next catch-up block. Do not create a second account.</p>"},
+          5:{"TITLE":"Capstone Goal, Original Symbol, and Reflection","SUBTITLE":"50 minutes - TEKS d(1)(C), d(3)(A), d(4)(F)","ALERT":"<strong>One 16-point major grade:</strong> score the durable packet, not the gallery, public speaking, platform clicks, or fabrication. Paper and digital artifacts are equal.","PREP":f'<ul><li>Return Week 0 reflections and the Day 3 plan/flyer.</li><li>Print/post the <a href="/courses/{COURSE_ID}/files/{files["REFLECTION"]["id"]}/preview">one-page update</a> and <a href="/courses/{COURSE_ID}/files/{files["RUBRIC"]["id"]}/preview">16-point rubric</a>.</li><li>Provide paper/markers. Canva or Adobe is optional. If demonstrating a campus laser, only a trained authorized operator uses the machine under the current campus SOP and manufacturer guidance.</li></ul>',"EVIDENCE":f'<p><strong>Major grade:</strong> Plan, Flyer, Postsecondary Goal/Original Symbol, and Career Reflection, 16 points. Convert using the district-band table on the <a href="/courses/{COURSE_ID}/files/{files["RUBRIC"]["id"]}/preview">rubric</a>. This is one major, not four assignments.</p>',"FLOW":flow("#5a2d91","Goal before tool - 5 minutes","Complete the goal sentence and name a course/program/experience to investigate.")+flow("#4a9d2f","Original symbol - 20 minutes","Combine simple shapes on paper, Canva, or Adobe; no traced institutional marks.")+flow("#1f617a","Career Journey update - 20 minutes","Compare Week 0, cite one specific activity/result, state current direction and next step.")+flow("#e3ad19","Packet check - 5 minutes","Plan, flyer, symbol/goal, reflection; record missing evidence for reassessment."),"MONITOR":"<p>Full-credit evidence is specific, not necessarily enthusiastic about IT. The artifact must explain a goal and name a route to investigate. Fabrication does not affect points. Use the rubric conversion: 16/15 Masters, 14/13 Meets, 12 Approaches, 11/10 Needs Improvement; 9 or below follows campus insufficient-evidence/reassessment practice.</p>","SUPPORT":"<p>Use a two-shape menu, complete the goal sentence orally first, place Week 0 and Week 5 pages side by side, and offer sentence stems or speech-to-text. Do not require a blanket translation.</p>","FALLBACK":"<p>No design tool: paper. No laser: no change. Absent: complete the same four-piece packet privately. Missing earlier evidence triggers the campus reassessment/catch-up route, not a machine or attendance penalty.</p>"}}
+        pages={}; order=[]
+        for day in range(1,6):
+            st=student_titles[day]; student=await upsert_page(c,st,render(f"wk5-day{day}-student.html",{"COURSE_ID":COURSE_ID,**student_values[day]}),slugify(st))
+            tt=f"TEACHER: 1SW Wk5 Day {day} Facilitator Guide"; teacher=await upsert_page(c,tt,render("wk5-teacher.html",{"COURSE_ID":COURSE_ID,"DAY":day,"STUDENT_PAGE_URL":student["url"],**teacher_data[day]}),slugify(tt))
+            await upsert_item(c,module_id,teacher,tt); await upsert_item(c,module_id,student,st); pages[day]={"teacher":teacher,"student":student}; order.extend([(teacher["url"],tt),(student["url"],st)])
+        items=await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items"); by_url={i.get("page_url"):i for i in items}
+        for position,(url,title) in reversed(list(enumerate(order,start=1))): await api(c,"PUT",f"/courses/{COURSE_ID}/modules/{module_id}/items/{by_url[url]['id']}",data={"module_item[position]":position,"module_item[title]":title})
+        final=await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items"); module=await api(c,"GET",f"/courses/{COURSE_ID}/modules/{module_id}")
+        print(json.dumps({"module":{"id":module_id,"published":module["published"]},"folders":{str(d):{"id":f["id"],"locked":f["locked"]} for d,f in folders.items()},"pages":{str(d):{k:{"url":v["url"],"published":v["published"]} for k,v in p.items()} for d,p in pages.items()},"items":[{"id":i["id"],"position":i["position"],"title":i["title"],"page_url":i.get("page_url")} for i in final]},indent=2))
+
+asyncio.run(main())

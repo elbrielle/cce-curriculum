@@ -148,5 +148,29 @@ This log records the official Canvas build without storing access credentials or
 - Access correction applied: the MakeCode lesson accepts hardware, simulator, or paper trace as equal routes. Students save durable test evidence, and the customer-service lesson includes a written-chat alternative to spoken role-play.
 - Major-grade package revised to the Help Desk Program Evidence plus each student's Xello Skill and Help Desk Connection, 16 points. The one-minute lightning demo is formative so the teacher does not have to live-score ten to fifteen teams while they present.
 - Automated template QA: no skipped headings, missing alt text, unlabeled disclosure sections, layout tables, legacy Canvas tabs, or unresolved structural fields. Student reading levels ranged from FK 6.2 to 11.8; the Day 2 guide is highest because it preserves necessary pathway, median-pay, and credential vocabulary.
-- New and revised PDFs were rendered and visually inspected. Browser QA is the remaining publication-readiness check; Week 4 stays unpublished until that pass is complete.
+- New and revised PDFs were rendered and visually inspected.
+- Browser QA: all ten pages rendered correctly through their module-item routes. Every page remained unpublished, all eight embedded workbook visuals loaded at full 1275-by-1650 source resolution, and teacher/student disclosures opened correctly. No page overflowed on desktop. The Day 3 student guide and Day 5 teacher guide had no horizontal overflow at a 390-pixel viewport. Week 4 passed the publication-readiness gate and remains unpublished for owner review.
 - Importer: `build/canvas/build_wk4.py`
+
+## 2026-08-06 — 1SW Week 5 paired lesson set
+
+- Module: `1SW Wk5: Cyber Defenders - Cybersecurity Careers and Capstone` (542984)
+- State: unpublished
+- Teacher item IDs: Day 1 5295315, Day 2 5295317, Day 3 5295319, Day 4 5295321, Day 5 5295323
+- Student item IDs: Day 1 5295316, Day 2 5295318, Day 3 5295320, Day 4 5295322, Day 5 5295324
+- Locked Canvas visual folders:
+  - Day 1: 1152553
+  - Day 2: 1152554
+  - Day 3: 1152555
+  - Day 4: 1152556
+  - Day 5: 1152557
+- All ten pages and the parent module are unpublished. A second importer run returned the same module, folder, page, and item IDs without duplicates.
+- District-sequence correction applied: Day 4 protects the required 40-minute Xello Favorite clusters task and requires at least one saved cluster. Save Careers remains in its later district window. The licensed 90-minute My career clusters lesson is linked as optional teacher background, with its additional prerequisites explicitly excluded from the core minimum.
+- Cybersecurity-source correction applied: the dated route guide uses BLS May 2024 national medians and 2024-34 projections. CyberSeek and H&L are optional live exploration; neither a fixed CyberSeek ladder nor unverified DFW salary is load-bearing.
+- Phishing-safety correction applied: the complete seven-email source set is embedded in locked Canvas, the teacher guide includes the exact answer key, and practice messages remain fictional and unsent with no real credentials, links, QR codes, attachments, or district impersonation.
+- Workload and equipment correction applied: the capstone no longer requires teachers to run a laser queue outside class. Paper, Canva, Adobe Express, SVG, and PNG are equal evidence routes. Any laser example is optional, model-specific, and handled by an authorized trained operator under campus procedures.
+- Major-grade package revised to one four-part, 16-point capstone: Bootcamp Plan, Flyer/Integrity, Postsecondary Goal/Original Symbol, and Career Reflection. The rubric uses the district Masters, Meets, Approaches, and Needs Improvement bands; platform access, gallery participation, and fabrication are not graded.
+- Automated template/API QA: no skipped headings, missing alt text, unlabeled disclosures, layout tables, legacy Canvas tabs, unresolved structural fields, missing file references, or published pages. All 19 referenced Canvas files resolved.
+- PDF QA: six revised/new Week 5 student and teacher PDFs were page-count checked, text-extracted, rendered, and visually inspected. The one-page reflection no longer creates a blank second page.
+- Browser QA: all ten pages rendered through their module-item routes with no unresolved fields or desktop overflow. All 12 student-page visuals loaded at full source resolution, including the seven individual email slides. The phishing student guide and capstone teacher guide had no horizontal overflow at a 390-pixel viewport; disclosures and responsive images rendered cleanly.
+- Importer: `build/canvas/build_wk5.py`

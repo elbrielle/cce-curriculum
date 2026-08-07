@@ -1,5 +1,5 @@
 ---
-title: CyberSeek Cybersecurity Pathway
+title: Cybersecurity Career Route Guide
 slug: wk5-cyberseek-pathway
 kind: scaffold
 weeks: 1sw/wk5-cybersecurity-it
@@ -10,45 +10,52 @@ pages: 2
 orientation: portrait
 ---
 
-The CyberSeek map stacks cybersecurity jobs in four layers. You start at the bottom. Each layer up needs more years of work than the layer under it.
+## Three Roles That Can Build Toward Cybersecurity
 
-| Layer | Years of experience | Jobs at this layer |
-|---|---|---|
-| **1. Entry-Level** | 0 to 3 years | Cybersecurity Specialist · Cyber Crime Analyst · IT Auditor |
-| **2. Mid-Level** | 3 to 7 years | Cybersecurity Analyst · Penetration Tester · Cybersecurity Consultant |
-| **3. Advanced** | 7 or more years | Cybersecurity Manager · Cybersecurity Engineer · Cybersecurity Architect |
-| **4. Senior** | Top of the map | Chief Information Security Officer, called the CISO |
+These are examples, not a required ladder. People enter cybersecurity through different routes.
 
-**Circle ONE entry-level job in row 1.** That is the job you are tracing today. Then fill in your five steps.
+| Role | What the worker does | Preparation commonly shown by BLS | May 2024 national median pay |
+|---|---|---|---|
+| **Computer User Support Specialist** | Helps people solve computer problems | Some college is common; some jobs accept high school plus relevant IT certifications | **$60,340** |
+| **Network and Computer Systems Administrator** | Installs and maintains networks and systems | Bachelor's degree is typical, but some employers accept other education plus experience | **$96,800** |
+| **Information Security Analyst** | Protects networks and systems, checks risks, and responds to breaches | Bachelor's degree plus related IT experience is typical; some enter with relevant training and certifications | **$124,910** |
 
-## My Five-Step Path
+**Source note:** U.S. Bureau of Labor Statistics Occupational Outlook Handbook, May 2024 national median wages and 2024-34 outlook. These are not starting salaries and are not DFW-localized salaries. Retrieved August 6, 2026.
 
-**Step 1. Now.** I am in 7th grade at ______________________________________ Middle School.
+Information Security Analyst employment is projected to grow **29% from 2024 to 2034**. That is a projection, not a promise that every applicant will get a job.
 
-**Step 2. High school, grades 9 to 12.** The Irving ISD pathway I would take is ______________________________________ .
+## Build One Possible Route
 
-The certification I could earn in high school is ______________________________________ .
-
-**Step 3. After high school.** Circle the one that fits your plan today:
-
-community college · 4-year college · certifications only (CompTIA A+ and Security+) · military · direct to work
-
-**Step 4. My first job.** The entry-level job I circled above is:
-
-______________________________________________________________________
-
-**Step 5. Five years later.** The mid-level job I want to reach is:
-
-______________________________________________________________________
-
-## Certifications
-
-Three certifications come up again and again in cybersecurity job postings: **CompTIA Security+**, **CISSP**, and **CEH** (Certified Ethical Hacker).
-
-The one my job asks for: ______________________________________
-
-## One More Thing
-
-Cybersecurity has far more open jobs than trained people to fill them. What does that mean for someone who starts now?
+**1. Now:** One skill I can practice in middle school is
 
 [[lines: 2]]
+
+**2. High school:** One Irving ISD option I want to investigate is
+
+[[lines: 2]]
+
+**3. After high school:** Circle one route you want to compare today:
+
+community college · 4-year college · industry training/certification · military training · work plus training
+
+**4. First role:** A support, network, or other IT role that could build experience is
+
+[[lines: 2]]
+
+**5. Later goal:** A cybersecurity role I may want to reach is
+
+[[lines: 2]]
+
+## Use Evidence
+
+One fact from the table that supports my route:
+
+[[lines: 2]]
+
+One question I still need to research:
+
+[[lines: 2]]
+
+I am currently: **interested / unsure / not interested** in cybersecurity because
+
+[[lines: 3]]
