@@ -1,138 +1,61 @@
-# Day 4: Health Informatics + Medical Coding Simulation
+# Day 4: Medical Records and ICD-10-CM Practice
 
-## Lesson Overview
+## Lesson overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Understand the Medical Billing and Coding career pathway as a short-credential entry into healthcare; understand the basics of medical coding (ICD-10); apply codes to simulated patient charts; explain why accuracy is critical in medical billing |
 | **TEKS** | d(2)(A), d(5)(B) |
-| **5E Phases** | Engage: Warm-Up · Explain: Medical billing pathway and ICD-10 basics · Explore: Coding rounds and accuracy debrief · Evaluate: Exit Ticket |
-| **Deliverable** | Coding accuracy sheet (3 rounds, score recorded) + 1-sentence answer to "Why does accuracy matter?" |
-| **Materials** | Chromebooks, simplified ICD-10 reference sheet (10 codes), simulated patient charts (8 visit descriptions), printed coding worksheet, projector |
+| **Evidence** | Medical Records Specialist row + individual coding lab |
+| **Source edition** | FY 2027 ICD-10-CM descriptions, effective October 1, 2026 |
 
----
+## Safety boundary
 
-## Warm-Up (5 min)
+Every record is fictional. Students must not use their own or anyone else's health information. This small diagnosis-code set is for career exploration only. Students select from the supplied list; they do not diagnose, bill, or give medical advice.
 
-**WARM-UP: Doctors write medical notes in shorthand. If you had to invent a code for "broken arm," what code would you create?**
+## Learning target
 
-Take 2-3 responses. Bridge: real medical codes are NOT random. They follow strict rules so every hospital in the world uses the same code for the same condition. Today students try the actual job.
+I can describe a medical-records career and choose the most specific supported code from a short reference list.
 
----
+## Lesson flow
 
-## Activity 1: Medical Billing Pathway + Intro to Medical Coding (12 min)
+### 1. Career route and third comparison row (10 minutes)
 
-**Medical Billing and Coding career pathway (3 min).** Project these facts:
+Medical Records Specialists had a May 2024 U.S. median wage of $50,250, typical postsecondary nondegree preparation, and 7% projected growth from 2024-34. Some workers classify and enter clinical codes; the occupation is broader than billing alone. Students complete the third comparison row and classify it with the same course rule.
 
-- **Credential:** Certified Medical Billing and Coding Specialist (industry-standard, nationally recognized). The workbook's district pages list **Medical Billing & Coding** among Irving ISD's Health Science programs of study, described as health care administration, insurance processing, coding systems, and reimbursement procedures, and they list Billing and Coding Specialist among the certifications the Health Science program leads to (FYF pp. 84-85: "What is Happening at My District?").
-- **Training route:** community college or private program, 6-12 months post-HS; some dual-credit options in senior year.
-- **Workplaces:** hospitals, clinics, insurance companies, physician offices, remote work-from-home.
-- **DFW salary:** ~$42K entry (BLS Medical Records Specialists; 8% growth, "much faster than average").
+Do not present Medical Billing and Coding as a verified current Irving pathway. The workbook introduces it, but the current Singley public page does not list it.
 
-This is the "short-credential" alternative students heard about at the start of this block. No 4-year degree required. Now they try the job.
+### 2. Read the controlled code list (7 minutes)
 
-> [VERIFY] Irving ISD's public CTE offerings page lists Singley Academy at the School of Health Sciences level and does not name Medical Billing & Coding as a separate campus pathway, while the 2026 district workbook lists it as a Health Science program of study. Confirm the campus and course sequence with your CTE coordinator before advising a student toward it.
+Explain that ICD-10-CM is the U.S. clinical modification used for diagnosis reporting. A coder uses complete documentation and current guidelines; the letters are not a shortcut that students can decode by guessing. Model one chart and choose the most specific supported diagnosis from the supplied list.
 
-While students listen, they fill in the **Medical Biller row** on the Career Comparison worksheet (Education Time: 6-12 month cert; Certification: Certified Medical Billing and Coding Specialist; DFW Salary: ~$42K; Job Growth: 8%). Students classify Medical Biller as high-demand (low entry barrier + 8% growth) at the end of this block.
+### 3. Round 1: direct matches (10 minutes)
 
-**Intro to medical coding (9 min).** Project a brief overview of medical coding on the screen:
+Students code three fictional charts independently. Reveal the teacher key. If fewer than two are correct, reteach how to match the documented diagnosis to the exact description before continuing.
 
-- **What it is:** Translating what doctors do into standardized codes for insurance billing
-- **The two main code systems:**
-    - **ICD-10** = diagnosis codes (what is wrong with the patient). Example: J45.909 = "Unspecified asthma, uncomplicated"
-    - **CPT** = procedure codes (what the doctor did). Example: 99213 = "Office visit, established patient, low complexity"
-- **Why it matters:** Insurance pays based on codes. Wrong code = wrong payment. A wrong code can cost a hospital thousands of dollars OR force a patient to pay a bill they shouldn't.
+### 4. Round 2: specificity (13 minutes)
 
-Show 3-4 real ICD-10 code examples on the screen:
+Students code five charts where symptoms may resemble a less-specific option. They underline the documented diagnosis, choose one code, and explain why one distractor is weaker. Accuracy matters more than speed.
 
-- **S52.501A:** Unspecified fracture of the lower end of right radius, initial encounter (broken right wrist)
-- **J20.9:** Acute bronchitis, unspecified
-- **K02.9:** Dental caries, unspecified (a cavity)
-- **R51:** Headache
+### 5. Practice quiz (5 minutes)
 
-Walk students through how to read the codes, letters indicate body system, numbers narrow the diagnosis.
+The unpublished Canvas practice quiz gives automatic feedback on code selection, privacy, and career-data labels. Unlimited attempts are appropriate because this is misconception practice, not the graded evidence.
 
-!!! tip "Facilitation Tip"
-    Don't try to teach the full ICD-10 system. It has 70,000+ codes. The goal is to give students a TASTE of the precision required. The simplified reference sheet uses just 10 codes for the simulation.
+### 6. Exit ticket (5 minutes)
 
----
+**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors) · [Printable PDF](../../resources/exit-tickets/2sw-wk4-day4-medical-records-and-icd-10-cm-practice.pdf):
 
-## Activity 2: Coding Simulation Round 1 — Easy (10 min)
+A fictional chart documents **dental caries, unspecified**. Which code from the reference list is the best match?
 
-**Chunking:** Say what each round is for before releasing it. Round 1 is accuracy on obvious charts, Round 2 is specificity, Round 3 is speed under the same accuracy standard. Round 1's answer reveal is the gate: if a chunk of the room missed the worked example's code, reteach the reference sheet before Round 2 rather than after, and cut Round 3 to buy the time.
+- A. J20.9
+- B. K02.9
+- C. R51.9
+- D. R07.9
 
-Distribute the simplified ICD-10 reference sheet (10 codes) and the patient charts (8 visit descriptions, simplified).
-
-Walk through the first patient chart together as a worked example:
-
-> **Patient Chart 1:** 8-year-old female. Chief complaint: cough and runny nose for 3 days. Examination: clear lungs, mild fever (100.2°F). Diagnosis: common cold (URI).
-
-Students look up the matching code on their reference sheet, for this example, **J00, Acute nasopharyngitis (common cold)**.
-
-After the worked example, students complete **Round 1: 3 simple charts** independently. They write the correct ICD-10 code next to each chart on the worksheet.
-
-The teacher reveals the correct answers and students self-grade. Aim for 100% on Round 1.
-
----
-
-## Activity 3: Coding Simulation Round 2 — Harder (10 min)
-
-Before releasing students into Round 2, pause for a **30-second scaffolding moment**: "Round 2 changes the rule. Until now, one symptom = one code. Now a chart might match 2 or 3 codes on the reference sheet, and only one of them is the BEST fit. Real medical coders call this *specificity*, picking the code that matches the actual diagnosis, not a vaguer symptom code. Watch me work through one together before you start."
-
-Then walk through the worked example below on the projector (reading the chart, listing which codes seem possible, explaining *why* the more specific diagnosis wins).
-
-Round 2 has 5 charts with more ambiguous descriptions (multiple symptoms, possible diagnoses). Students must pick the BEST code, not just any code.
-
-Example:
-
-> **Patient Chart 4:** 45-year-old male. Chief complaint: chest pain after eating, lasting 30 minutes. Examination: stable vital signs, no cardiac signs, tender abdomen. Diagnosis: acid reflux.
-
-The "trap" code might be R07.9 (chest pain, unspecified): which is technically TRUE but not the BEST code. The correct code is **K21.9, Gastro-esophageal reflux disease without esophagitis**.
-
-Students complete Round 2 individually. The teacher reveals answers and students record their accuracy score.
-
----
-
-## Activity 4: Coding Simulation Round 3 — Speed (8 min)
-
-Round 3 is a **speed challenge and is optional:** if Round 2 ran long because of the specificity scaffolding, cut Round 3 and move directly to the Exit Ticket. Rounds 1–2 carry d(2)(A) on their own, and the 8 min absorbs into Round 2's overflow if needed. When you do run it: students get 5 minutes to code as many patient charts as possible while maintaining accuracy. The teacher times the round and stops at 5 minutes.
-
-Students record their score (e.g., "5 charts coded, 4 correct, 1 wrong").
-
-After Round 3, ask the class: "What happened when you went faster? Did your accuracy go down? What does that tell you about how a real medical coder needs to work?"
-
-**DOK 3:** What conclusions can you draw about why accuracy is so important in medical coding? What could happen if a code was entered incorrectly?
-
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors) · [Printable PDF](../../resources/exit-tickets/2sw-wk4-day4-health-informatics-medical-coding-simulation.pdf):
-
-Patient Chart: 52-year-old female. Chief complaint: sharp tooth pain for 5 days, worst when drinking cold water. Examination: visible dark spot on lower right molar, no swelling or fever. Diagnosis: cavity in lower right molar.
-
-Which ICD-10 code is the BEST fit for this chart?
-
-- A. R51 (Headache)
-- B. K02.9 (Dental caries, unspecified — a cavity)
-- C. R07.9 (Chest pain, unspecified)
-- D. J20.9 (Acute bronchitis, unspecified)
-
-Circle your answer. In one sentence, explain why the OTHER three options are weaker — cite the SPECIFIC symptom or finding from the chart that rules each one out.
+Circle the answer, then write one preparation fact for a Medical Records Specialist and explain whether its May 2024 median is above or below the course high-wage comparison line.
 
 *(d(2)(A), d(5)(B))*
 
-   ___________________________________________________________________
+## Key and supports
 
-   ___________________________________________________________________
-
-Submit your coding accuracy sheet with this ticket.
-
----
-
-## Differentiation
-
-- **Support:** Use a 5-code simplified reference sheet (instead of 10). Pair students for the simulation so they can discuss the codes.
-- **Extension:** After Round 3, students design ONE patient chart of their own that has a tricky diagnosis. They swap with a partner and code each other's charts.
-- **ELL:** Bilingual ICD-10 reference sheet with Spanish procedure descriptions (Cold = Resfriado, Fracture = Fractura, Headache = Dolor de Cabeza). Pair ESL students with bilingual peers for the simulation.
+The code answer is **B, K02.9**. The career median is $50,250, slightly above the $49,500 same-source comparison. Accept a postsecondary nondegree award/certificate as the typical preparation fact. Use the five-code support section if needed; do not grade partner work as individual accuracy.

@@ -1,108 +1,51 @@
-# Day 5: Health Science Mid-Point + Recommendation
+# Day 5: Recommend a Health Career with Evidence
 
-## Lesson Overview
+## Lesson overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Finalize Wk 3-4 H&L favorites; reflect on the mid-point of the Health Science cluster; write a recommendation paragraph using education and salary data |
 | **TEKS** | d(2)(A), d(5)(B) |
-| **5E Phases** | Engage: Warm-Up · Explore: H&L favorites update · Explain: Career cluster reflection · Extend: Recommendation paragraph for a friend · Evaluate: Exit Ticket |
-| **Deliverable** | Updated Climber Profile + recommendation paragraph (4 sentences) connecting one health career to a friend's situation |
-| **Materials** | Chromebooks, H&L accounts, completed Career Comparison worksheet from Day 2, projector |
+| **Evidence** | Completed comparison + four-part recommendation |
+| **Grade route** | Recommended 16-point minor checkpoint |
 
----
+## Learning target
 
-## Warm-Up (5 min)
+I can recommend one health career for a fictional student and support the choice with accurate, labeled evidence.
 
-**WARM-UP: We are halfway through Health Science. Which health career has surprised you the most so far?**
+## Lesson flow
 
-Take 4-5 responses and ask what specific job, salary, or training fact surprised each student. Put dental, billing, nursing, and informatics examples side by side so the range within healthcare is visible.
+### 1. Evidence audit (8 minutes)
 
----
+Students check that all three rows include one responsibility, common preparation, May 2024 U.S. median, 2024-34 outlook, and source label. They correct any use of “starting pay” or “DFW” for the national BLS figures.
 
-## Activity 1: H&L Favorites Update (10 min)
+### 2. Read the scenario (5 minutes)
 
-Students return to the H&L app and add Wk 3-4 health science favorites to their Climber Profile. Today's focus: dental and medical billing favorites.
+Jordan wants a health career, likes careful recordkeeping and helping people, and prefers preparation shorter than a four-year degree. Jordan also wants to know whether the career evidence is above the same-source wage and growth comparison lines.
 
-> [H&L PLATFORM] In the H&L app, navigate to "Hat Finder," filter by "Health Science" cluster. Click the heart icon on 1-2 dental careers and 1-2 health informatics careers. Then click "Climber Profile" to verify the new favorites appear. Students should now have 4-5 Health Science favorites total (mix of nursing, dental, medical billing).
+### 3. Plan the recommendation (10 minutes)
 
-The teacher circulates during the 10 min and talks to 10–12 students (not all 24, that math doesn't work in 10 min). Prioritize students who added a different pathway mix than their peers, or students who look stuck on the H&L favorites step.
+Students choose Dental Assistant, Dental Hygienist, or Medical Records Specialist. They may recommend any option that fits the scenario when the evidence is accurate. A local program connection is required only when verified: **Dental at Singley Academy** is current; no current Irving program is promised for Medical Records Specialist.
 
-**Active Monitoring:** One lap, one target. The target is that the Climber Profile actually shows 4-5 Health Science favorites, not that the student clicked a heart. The common miss is a heart that never saved because the student left the tile too fast, so have that fix ready before class. If more than a handful of profiles are short, pause the room and reproject the save step instead of fixing it desk by desk.
+### 4. Write four sentence jobs (15 minutes)
 
----
+1. Recommend the career and connect it to one need in the scenario.
+2. State the common preparation and one responsibility.
+3. Cite the May 2024 U.S. median and 2024-34 growth figure.
+4. Explain the classification and one trade-off or next fact Jordan should verify.
 
-## Activity 2: Career Cluster Reflection (15 min)
+### 5. Self-score and revise (7 minutes)
 
-Project the reflection prompts on the board. Students write 3-4 sentences in their notebook:
+Students use the visible 16-point rubric. They revise one weak evidence label or reasoning sentence before submitting. H&L may be used to explore, but favorites are not part of the grade.
 
-1. *"Which Health Science pathway fits me best after these 2 weeks?"*
-2. *"Which one was I most WRONG about before I explored it?"*
-3. *"How does my core personality type (from Wk 0) connect to healthcare?"*
-4. *"What do I want to know about Wk 5 Powerskills and Wk 6 Biomedical?"*
+### 6. Exit ticket (5 minutes)
 
-These reflections feed into the d(8)(B) career-plan documentation that students will revisit at the end of the semester.
+**EXIT TICKET** (Trade-off) · [Printable PDF](../../resources/exit-tickets/2sw-wk4-day5-recommend-a-health-career-with-evidence.pdf):
 
----
-
-## Activity 3: Recommendation Paragraph (15 min)
-
-This is the summative assessment for Week 4. Students write a 4-sentence recommendation paragraph for a hypothetical friend.
-
-**Before students start writing, give them 2 min to pull out their Day 2 Career Comparison worksheet and re-read the 3 rows.** The 4-sentence paragraph asks students to pull education time, DFW salary, and an Irving ISD pathway connection, trying to recall those from memory under time pressure usually fails. The pair-read + highlight step at the end is optional: if students need the full 15 min to write, skip the pair-read and have them submit the paragraph directly to the exit-ticket pile.
-
-**Scenario** (project on the board): *"Your friend wants to work in healthcare but does not want to go to college for 8 years. They have good grades and want to start working as soon as possible after high school. Recommend ONE Health Science career to them."*
-
-The paragraph must include:
-
-1. **The career name** (e.g., "I recommend Dental Hygienist")
-2. **Education time** (e.g., "It only takes 2 years at a community college")
-3. **DFW salary** (e.g., "Starting salary is around $80K in DFW")
-4. **Irving ISD pathway connection** (e.g., "The Singley Academy Dental pathway gives you a head start on dental assistant certification while still in high school")
-
-Project a sentence stem for students who need scaffolding:
-
-> "I recommend [career] because it takes [time] of education, pays around [salary] in DFW, and the Irving ISD [pathway name] at [school] gives you a head start by [credential]."
-
-Students write the paragraph, then pair up and read each other's paragraphs. Each partner highlights ONE specific data point that made the recommendation strong.
-
-**DOK 4:** If you were advising a friend who wants to work in healthcare but doesn't want to go to college for 8 years, what pathway would you recommend? Use specific education and salary data from this week and last week to support your advice.
-
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (3-2-1 Reflective) · [Printable PDF](../../resources/exit-tickets/2sw-wk4-day5-health-science-mid-point-recommendation.pdf):
-
-After 2 weeks in Health Science (nursing, dental, medical billing), write:
-
-**3 things I understand about Health Science careers NOW that I did not understand at the start of Wk 3:**
-
-  1. ________________________________________________________________
-
-  2. ________________________________________________________________
-
-  3. ________________________________________________________________
-
-**2 questions I STILL have about Health Science careers:**
-
-  1. ________________________________________________________________
-
-  2. ________________________________________________________________
-
-**1 connection between Health Science and another cluster I explored earlier this year** (Manufacturing or IT):
-
-  ___________________________________________________________________
+Write one reason your recommendation fits Jordan and one trade-off Jordan should investigate. Cite one number and keep its year, geography, and measure attached.
 
 *(d(2)(A), d(5)(B))*
 
-Submit the full 4-sentence recommendation paragraph as the summative deliverable, separate from this ticket.
+## Scoring and recovery
 
----
-
-## Differentiation
-
-- **Support:** Provide a fill-in-the-blank recommendation paragraph template. Highlight where on the worksheet students can find the data they need.
-- **Extension:** Write recommendations for THREE different friends with different priorities (one wants money, one wants short school, one wants high status). How does the recommendation change?
-- **ELL:** Bilingual recommendation paragraph template. Pre-teach: Recommend = Recomendar, Salary = Salario, Pathway = Camino, Certification = Certificación.
+Score career-data accuracy, classification, scenario fit, and evidence-based explanation. Platform access, artistic quality, handwriting, and English mechanics are not separate criteria. An absent student receives the same fixed evidence guide and scenario; no live H&L or Xello login is required for this checkpoint.

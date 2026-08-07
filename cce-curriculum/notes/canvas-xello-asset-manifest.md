@@ -87,6 +87,12 @@ Complete one row per uploaded file during the Canvas import.
 | Personality Style | personality-styles.pdf | Teacher | 14517255 | 5293961 | Teacher Build: Xello Grade 8 Licensed Resources | 2026-08-06 | Licensed district resource; locked and unpublished |
 | Make plans | plans.pdf (activity) | Teacher | 14517256 | 5293961 | Teacher Build: Xello Grade 8 Licensed Resources | 2026-08-06 | Licensed district resource; locked and unpublished |
 
+### Week 4 reuse record: 2026-08-06
+
+- The licensed `experiences.pdf` was uploaded into the locked 2SW Week 4 support folder and linked from both the Day 3 teacher and student guides.
+- The live Completion Standards configuration, not the broader resource lesson, controls the minimum: Education experiences requires at least one saved experience; Volunteer hours requires at least one completed hour.
+- School Subjects at Work remains supplemental because it is not assigned to Grade 8.
+
 ## Completion gate
 
 A Xello-backed module is not teacher-ready until:

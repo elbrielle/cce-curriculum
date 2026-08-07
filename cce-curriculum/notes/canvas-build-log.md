@@ -252,3 +252,22 @@ This log records the official Canvas build without storing access credentials or
 - Browser QA: the signed-in module shows all 11 items in the intended order. The Day 3 and Day 4 student pages render without desktop overflow; licensed visuals load at full source resolution after opening their optional disclosures. The Day 4 student link opens the correct practice Quiz, whose teacher preview contains all five intended questions.
 - Importer: `build/canvas/build_2sw_wk3.py`
 - Read-only verifier: `build/canvas/qa_canvas_module.py 542989`
+
+## 2026-08-06 — 2SW Week 4 paired lesson set
+
+- Module: `2SW Wk4: Smile Squad - Dental Science and Health Data` (542990)
+- State: unpublished
+- Teacher item IDs: Day 1 5295375, Day 2 5295377, Day 3 5295379, Day 4 5295381, Day 5 5295384
+- Student item IDs: Day 1 5295376, Day 2 5295378, Day 3 5295380, Day 4 5295382, Day 5 5295385
+- Unpublished Classic practice Quiz: `PRACTICE: ICD-10-CM Evidence Check` (quiz 281450, item 5295383). It contains five multiple-choice questions, answer feedback, and unlimited retries.
+- All ten pages, the practice Quiz, and the parent module are unpublished. The signed-in module view confirms all 11 items in the intended order.
+- Seven missing classroom artifacts are now supplied: current dental/medical-records evidence guide, cumulative three-career comparison, Smile Squad observation record, toothbrush design brief, Xello Experiences checkpoint, complete fictional ICD-10-CM lab, and student-visible 16-point rubric.
+- Xello sequence correction: Day 3 protects the required Education experiences catch-up and Volunteer hours task. Students record only actual experiences; no student invents an hour. School Subjects at Work is labeled supplemental, and paper is temporary scaffolding rather than platform completion.
+- Source correction: the core comparison uses one May 2024 U.S. median basis and a transparent same-source classroom rule. Xello may add a local figure only when geography, date, and measure are visible. H&amp;L remains optional.
+- Program correction: the current public district name is Dental at Singley Academy. Medical Records Specialist remains career exploration; the module does not promise a current Irving Medical Billing program or credential.
+- Privacy and safety correction: the Smile Squad images are observation training, not student diagnosis. The medical-records lab uses fictional charts only and a ten-code FY 2027 ICD-10-CM set checked against CMS descriptions effective October 1, 2026.
+- Canvas interaction: the Day 4 Quiz checks bounded misconceptions about privacy, exact code matching, specificity, career scope, and salary labels. Individual career comparison and recommendation remain teacher-reviewed evidence.
+- Grading: Day 5 is a recommended 16-point minor checkpoint. No graded Canvas Assignment was created because the course still lacks confirmed weighted Minor/Major assignment groups.
+- PDF QA: seven artifacts and five structured exit tickets were rendered and visually inspected. No response area, table, or heading clips; the rubric fits on two landscape pages.
+- Browser QA: the signed-in module is unpublished with 11 ordered items. The Day 1 student page and Day 4 teacher page render cleanly with no unresolved tokens or desktop overflow. The student guide has no horizontal overflow at a 390-pixel viewport. The Quiz edit surface reports 5 points, Not Published, and the five intended question names.
+- Importer: `build/canvas/build_2sw_wk4.py`

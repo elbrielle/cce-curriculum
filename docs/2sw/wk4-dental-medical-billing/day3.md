@@ -1,111 +1,48 @@
-# Day 3: Xello Education Experience + School Subjects at Work
+# Day 3: Add Real Experiences in Xello
 
-## Lesson Overview
+## Lesson overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete two Xello activities (Education Experience + School Subjects at Work); connect current school subjects to specific health careers; understand college credit options for high school students |
-| **TEKS** | d(1)(A), d(3)(B) |
-| **5E Phases** | Engage: Warm-Up · Explore: Xello Education Experience and School Subjects at Work · Extend: School subject to health career connections · Explain: College credit options and turn-and-talk · Evaluate: Exit Ticket |
-| **Deliverable** | Xello completion screens (both activities) + 3-sentence connection paragraph linking a school subject to a health career |
-| **Materials** | Chromebooks, Xello accounts, Irving ISD dual credit and AP information, projector |
+| **TEKS** | d(3)(B) |
+| **Evidence** | Education experiences + Volunteer hours completion; two current college-credit opportunities |
+| **Platform** | Xello through ClassLink |
 
----
+## Accuracy note
 
-## Warm-Up (5 min)
+The live Grade 8 configuration requires **Education experiences** (10 minutes; add at least one) and **Volunteer hours** (15 minutes; add at least one hour). Education experiences is a documented catch-up from the earlier block. **School subjects at work** is not assigned to Grade 8 and may only be used as supplemental practice.
 
-**WARM-UP: Which school subject do you think is MOST important for healthcare careers? Math? Science? English? Take a guess.**
+## Learning target
 
-Take 3-4 responses. Most students will say science. Bridge: today they may be surprised. English class matters for medical billing (documentation), math matters for dental hygienists (measurements), and even art class matters for surgeons (fine motor skills).
+I can record real experiences and identify two current ways a high-school student may earn college credit.
 
----
+## Lesson flow
 
-## Activity 1: Xello Education Experience (15 min)
+### 1. Privacy and honesty check (5 minutes)
 
-Open Xello and direct students to the required Grade 8 **Education experiences** task. Students add at least one educational experience and reflect on what they liked, what challenged them, and what they learned.
+Record only an experience that actually happened. Do not invent volunteer hours. Do not include private contact information, client names, medical details, or a public link to a student profile.
 
-Students complete the activity step by step, answering each prompt thoughtfully. The activity outputs a personal "education experience" profile that links to careers in Xello's career database.
+### 2. Education experiences (10 minutes)
 
-After completing the activity, students write down one CAREER from the Xello recommendations that surprised them. They will use this in the connection paragraph.
+Open Xello → About Me → Experiences → Education. Add at least one actual education experience and save it. Students who already meet the completion standard verify it and improve a description if useful.
 
-!!! tip "Facilitation Tip"
-    Some students rush through Xello activities by clicking randomly. Tell them upfront: "Your answers go into your permanent profile and inform every career recommendation. Garbage in, garbage out." Walk around and check that students are reading the prompts, not just clicking through.
+### 3. Volunteer hours (15 minutes)
 
----
+Open Volunteer experiences and add at least one completed hour. A student with no completed volunteer hour does not fabricate one; the teacher records that student for supervised catch-up after a real experience is available.
 
-## Activity 2: Xello School Subjects at Work (15 min)
+### 4. College-credit opportunity check (15 minutes)
 
-Direct students to the **School Subjects at Work** activity. This activity shows how each school subject (Math, English, Science, Social Studies, Art, Music, PE, Health) is used in real careers.
+Using the current district coursebook or a counselor-approved card, students record two actual opportunities such as an identified dual-credit course or an AP course/exam route. They record the exact title, type, eligibility or prerequisite shown, and source. Industry certification is a valuable credential but is not itself college credit. Colleges set their own AP credit policies.
 
-Students complete the activity and explore at least 3 school subjects. For each subject, they note one healthcare career that uses it heavily.
+### 5. Exit ticket (5 minutes)
 
-Examples students might find:
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/2sw-wk4-day3-add-real-experiences-in-xello.pdf):
 
-- **Math** → Pharmacist (drug dosage calculations), Dental Hygienist (measurement)
-- **English** → Medical Biller (documentation accuracy), Health Information Technician
-- **Science (Biology)** → RN, Dentist, Biomedical Engineer
-- **Social Studies** → Medical Social Worker, Public Health Educator
-- **Art** → Surgeon (fine motor skills), Dental Lab Technician (crown/bridge design)
+Name two current college-credit opportunities you found. For each, write its type and one requirement or limitation shown in the source. Then circle: Education experiences complete / Volunteer hours complete / catch-up needed.
 
-Students fill in a quick 3-row table in their notebook:
+*(d(3)(B))*
 
-| School Subject | Health Career That Uses It | How |
-|---|---|---|
+## Teacher verification and fallback
 
----
-
-## Activity 3: College Credit in High School — Intro + Turn-and-Talk (10 min)
-
-After 30 min at the Chromebook, students need active processing, not a 10-min lecture. Use a **4-3-3** structure:
-
-**Time, Voice, Body:** Post the three blocks before the Chromebooks close. Voice 0 during the two Xello activities, Voice 1 for the turn-and-talk, Voice 3 for the whole-class share, with a visible countdown on each of the three segments. Chromebooks go closed and pushed to the top of the desk so the turn-and-talk does not happen over a screen.
-
-**Intro (4 min):** Project a slide with Irving ISD's four college credit options and give a brief description of each:
-
-- **Dual Credit:** Take a high school course that also counts as college credit at Dallas College. Free for Irving ISD students.
-- **AP (Advanced Placement):** Take a rigorous course and pass an exam to earn college credit at most U.S. universities.
-- **Articulated CTE Credit:** Some Singley Academy CTE courses give college credit at Dallas College after high school graduation.
-- **Industry Certifications:** Singley Academy CTE pathways earn nationally-recognized credentials that some employers accept in place of a degree.
-
-Then show the sample nursing pathway:
-
-- 9th-10th grade: Health Science Theory at Singley (CTE)
-- 11th grade: Anatomy & Physiology dual credit (high school + Dallas College)
-- 12th grade: Patient Care Tech certification (CTE) + AP Biology
-
-This student graduates with diploma + 6+ college credits + a healthcare certification.
-
-**Turn-and-Talk (3 min):** Students pair up and answer: "Which of the four options would YOU most likely use based on what you know about yourself? Why?"
-
-**Whole-class share (3 min):** Ask 2-3 volunteers to share their pair's answer.
-
-**DOK 2:** How would you describe the advantages of earning college credit while still in high school?
-
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/2sw-wk4-day3-xello-education-experience-school-subjects-at-work.pdf):
-
-1. One school subject I take right now that connects to a HEALTH career: _______________________
-
-2. The specific health career that uses it HEAVILY: _______________________
-
-3. In one sentence, HOW is that subject used in the career day-to-day? (Example: "Math is used in nursing because nurses calculate drug doses.") ___________________________________________________________________
-
-4. One Irving ISD college credit option I would consider using (dual credit, AP, articulated CTE credit, or industry certification): _______________________
-
-5. In one sentence, why would this option help ME specifically?
-
-   ___________________________________________________________________
-
-*(d(1)(A), d(3)(B))*
-
----
-
-## Differentiation
-
-- **Support:** Provide a 3-row table with one row pre-filled as a model. Use Xello's Spanish-language toggle for ESL students.
-- **Extension:** Students map a 4-year high school plan that uses dual credit and CTE certifications to maximize their college credit by graduation.
-- **ELL:** Xello has built-in Spanish translation. Pre-teach: Subject = Materia, College Credit = Crédito Universitario, Dual Credit = Crédito Doble, Certification = Certificación.
+Use the Xello Completion Standards report, not a public screenshot, to verify completion. A platform outage moves the required task to supervised catch-up; the paper checkpoint is a temporary planning record, not completion. Students may use the licensed *My Experiences* guide in authenticated Canvas.
