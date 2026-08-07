@@ -9,7 +9,7 @@
 | **TEKS** | d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explore: Scenario choice, 10-item selection, and kit design · Explain: Partner share and class discussion · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Emergency Kit design (10 items selected, drawn or labeled, with rationale for top 3 items) |
-| **Materials** | Chromebooks, *Find Your Future* workbook pp. 50-51, printed Emergency Kit Design worksheet (or blank paper), projector |
+| **Materials** | *Find Your Future* workbook pp. 50-51, printed Emergency Kit Decision Plan (or blank paper), pencils; approved digital design tool optional |
 
 ---
 
@@ -54,7 +54,7 @@ Firefighters, police officers, and paramedics sit in Law and Public Safety along
 - Label each one
 - Explain why each item is important for the emergency being prepared for, in a full sentence for the **top 3 items**
 
-Students should do quick research (5 min cap) on their scenario to verify their choices. For example, a Flood Response Kit needs water purification because tap water becomes contaminated; a Fire Kit needs a dust mask because smoke inhalation is a top hazard.
+Students use the workbook scenario and item list as the core evidence. A teacher may add a short approved reference, but open-web research is not required to finish the lesson.
 
 **DOK 3:** Why is the same item (a flashlight) more critical in one scenario than another? Use your research to defend your top 3 picks.
 

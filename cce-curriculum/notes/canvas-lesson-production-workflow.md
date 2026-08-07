@@ -115,6 +115,18 @@ Preserve the design grammar:
 
 Write naturally. Student directions should sound like a capable teacher giving a student the next clear step. Teacher directions should be concise enough to scan while teaching.
 
+### Choose the Canvas interaction on purpose
+
+Do not assume every student artifact should become a printed worksheet or a static page. Before authoring, choose the Canvas surface that removes the most teacher work without weakening the learning target:
+
+- **Page:** directions, examples, source images, absence recovery, and content students need to revisit.
+- **Assignment:** individual work that needs one submission location, a visible rubric, feedback, reassessment, or a durable gradebook record.
+- **Discussion:** genuine peer response, critique, or comparison where students need to read and answer one another. Always provide a private or self-check route when public posting, attendance, or an accommodation makes the discussion inappropriate.
+- **Quiz:** short selected-response or technology-enhanced checks where automatic feedback and item analysis save time. Do not turn design, reflection, argument, or career-fit judgment into forced multiple choice merely because the tool exists.
+- **External tool or licensed platform:** use Xello, H&amp;L, Canva, Adobe Express, Code.org, eDynamic, or another approved integration for the interaction it already does well. Keep the Canvas page as the launch, directions, evidence, and recovery layer.
+
+Use the least complicated surface that fits the evidence. Paper remains an equal route when handwriting, sketching, manipulatives, device access, or an accommodation makes it the better tool. Before creating graded Canvas objects, confirm the course's Minor/Major assignment groups and weights; never place a grade into an arbitrary imported or default group.
+
 ## 5. Build safely through the Canvas API
 
 Use an idempotent importer under `build/canvas/`. It should:

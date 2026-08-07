@@ -174,3 +174,27 @@ This log records the official Canvas build without storing access credentials or
 - PDF QA: six revised/new Week 5 student and teacher PDFs were page-count checked, text-extracted, rendered, and visually inspected. The one-page reflection no longer creates a blank second page.
 - Browser QA: all ten pages rendered through their module-item routes with no unresolved fields or desktop overflow. All 12 student-page visuals loaded at full source resolution, including the seven individual email slides. The phishing student guide and capstone teacher guide had no horizontal overflow at a 390-pixel viewport; disclosures and responsive images rendered cleanly.
 - Importer: `build/canvas/build_wk5.py`
+
+## 2026-08-06 — 2SW Week 1 paired lesson set
+
+- Module: `2SW Wk1: Order in the Court - Legal Studies` (542987)
+- State: unpublished
+- Teacher item IDs: Day 1 5295340, Day 2 5295342, Day 3 5295344, Day 4 5295346, Day 5 5295348
+- Student item IDs: Day 1 5295341, Day 2 5295343, Day 3 5295345, Day 4 5295347, Day 5 5295349
+- Locked Canvas visual folders:
+  - Day 1: 1152560
+  - Day 2: 1152561
+  - Day 3: 1152562
+  - Day 4: 1152563
+  - Day 5: 1152564
+- All ten pages and the parent module are unpublished. A second importer run returned the same module, folder, page, file, and item IDs without duplicates.
+- Six missing classroom artifacts are now supplied: Emergency Kit Decision Plan, City Council Town and Ordinance Plan, Legal Review Argument and Evidence Sheet, Legal Entrepreneur and Association Card, Legal Policy Position Paper Rubric, and Xello Life Experience Connection. The existing Career Research Worksheet is reused.
+- Day 1 no longer requires H&amp;L or treats every salary as DFW starting pay. Students use dated teacher-approved sources and label salary type, geography, and data year.
+- Day 4 uses a controlled hypothetical and balanced evidence bank. Students do not research real cases or family experiences, and written argument is equal to oral presentation. The major grade is one 16-point durable evidence set rather than live debate performance.
+- Day 5 protects the configured 10-minute Xello Life experiences task and verifies at least one saved experience. H&amp;L and eDynamic remain supplemental. Access issues move to a supervised catch-up block and do not reduce the major grade.
+- Canvas-interaction review: the current course has four unweighted/default assignment groups and no confirmed Minor/Major groups. Graded Canvas Assignments and rubric objects remain deferred until the 40/60 gradebook structure is established. The production workflow now requires choosing Pages, Assignments, Discussions, Quizzes, or integrations by instructional purpose instead of defaulting every task to print.
+- Automated template/API QA: no skipped headings, missing alt text, unlabeled disclosures, layout tables, legacy Canvas tabs, unresolved fields, missing file references, nonconsecutive item order, or published content. All referenced files resolved.
+- PDF QA: all six new printables were rendered, page-count checked, text-extracted, and visually inspected. The three-page ordinance plan uses deliberate page breaks so no heading or response area clips.
+- Browser QA: all ten pages rendered through their module-item routes with no unresolved fields or desktop overflow. All locked workbook images loaded at full 1148-by-1485 source resolution after opening the relevant disclosure. The Day 3 student guide and Day 5 teacher guide had no horizontal overflow at a 390-pixel viewport.
+- Importer: `build/canvas/build_2sw_wk1.py`
+- Read-only verifier: `build/canvas/qa_canvas_module.py 542987`

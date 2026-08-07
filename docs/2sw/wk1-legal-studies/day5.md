@@ -5,11 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Finalize Law cluster favorites in H&L; complete the Xello Life Experience activity; submit polished AI Ethics Position Paper |
+| **Objectives** | Submit the legal-policy position evidence; complete the required Xello Life experiences task; connect one lived experience to a legal career task |
 | **TEKS** | d(1)(C), d(3)(H) |
 | **5E Phases** | Engage: Warm-Up · Explain: Position paper polish and submission · Explore: Pathway Possibilities and Law favorites · Extend: Xello Life Experience connections · Evaluate: Exit Ticket |
-| **Deliverable** | Updated H&L Climber Profile (2-3 favorited legal careers + 1 rated pathway) + completed Xello Life Experience activity + final AI Ethics Position Paper |
-| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook p. 58, Xello accounts, eDynamic Unit 5.1 link, projector |
+| **Deliverable** | Final legal-policy position + Legal Entrepreneur Card + at least one saved Xello Life experience + paper career connection |
+| **Materials** | Chromebooks, Xello accounts, position-paper rubric, Xello Life Experience Connection sheet; H&L and eDynamic optional |
 
 ---
 
@@ -34,11 +34,11 @@ Students submit the polished paper (digital or paper). This is the summative ass
 
 ---
 
-## Activity 2: Pathway Possibilities + Law Cluster Favorites (12 min)
+## Activity 2: Optional Pathway Browse + Current Career Choice (7 min)
 
 **Source:** (FYF p. 58: "App Exploration"), the Pathway Possibilities step
 
-> [H&L PLATFORM] Students return to the Law and Public Safety Cluster in the Hats & Ladders app and click "Pathway Possibilities." They answer the questions there, then explore and rate at least 1 pathway. This is the one step of the App Exploration page held back from Day 1, because a pathway rating means more after a week of career research, law drafting, and a legal review. Students then use the Hat Finder to click the heart icon on 2-3 Law and Public Safety Hats, and open "Climber Profile" to verify the favorites appear there. Students should now have favorites from THREE clusters: Manufacturing, IT, and Law and Public Safety.
+Students name one legal career they want to investigate, or state that none is a current fit, and cite one job detail. If H&L is available, students may use Pathway Possibilities and favorite careers. The platform action is supplemental and is not graded.
 
 Name where this goes next. These favorites and the pathway rating are the top Hats students draw on in the Capstone, where they choose one Hat as a career goal and write why (FYF p. 283: "Rung 2: Career Goal"). The Irving side of the same question is **Dual Credit** (FYF p. 56), where a Paralegal Associate of Applied Science or a Junior Legal Assistant Certificate at Singley Academy can start in high school.
 
@@ -49,9 +49,9 @@ Circulate and ask each student, "Which legal career did you favorite, and why?" 
 
 ---
 
-## Activity 3: Xello Life Experience Activity (15 min)
+## Activity 3: Required Xello Life Experiences (10 min)
 
-Open Xello and direct students to the required Grade 8 **Life experiences** task. Students add at least one experience and reflect on what they liked, what challenged them, and what they learned.
+Open Xello and direct students to the required Grade 8 **Life experiences** task. The configured minimum is one saved experience. Students may choose an experience from home, school, a club, a team, a hobby, or volunteering without disclosing private details.
 
 Students complete the activity in Xello and answer the reflection prompts. They look for connections between their lived experiences and the legal careers they explored this week, for example, a student who has resolved sibling arguments has experience with mediation; a student who reads carefully has experience that connects to paralegal work.
 
@@ -61,7 +61,13 @@ After completing the Xello activity, each student writes one sentence in their n
 
 ---
 
-## Activity 4: eDynamic Unit 5.1 Preview (5 min)
+## Activity 4: Experience-to-Career Connection and Catch-Up (15 min)
+
+Students complete the paper connection: what they did or learned, one legal career, and the specific career task that connects. Check the Xello Completion Standards report. Students with an access issue submit the paper connection now and complete the required save in the next supervised catch-up block.
+
+## Optional Extension: eDynamic Unit 5.1 Preview
+
+Use this only inside the Activity 4 catch-up block after all core evidence is complete.
 
 Direct students to eDynamic Learning Unit 5.1: Law & Order. Have them open the unit and read the introduction (5 minutes). This is a preview only. They will not complete the unit today. Tomorrow's class (Wk 2) will pick up first responders using the same workbook chapter, with the "Clinton Lake Case" and "Injured on the Trail" activities (FYF pp. 48-49 and 52-55), and eDynamic 5.1 supports that content.
 

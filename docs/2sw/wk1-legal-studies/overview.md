@@ -25,11 +25,13 @@ Students explore the Law, Public Safety, Corrections & Security career cluster t
 
 - Chromebooks with internet access (1 per student)
 - Hats & Ladders student accounts + *Find Your Future* workbook, Law and Public Safety chapter (printed pp. 39-58)
-- Printed legal career research worksheet (CCE artifact; the research format is taught in Wk0)
-- Printed Emergency Kit Design worksheet (10-item planning grid) or blank paper
-- Blank paper or chart paper for the Day 3 town plan and law drafts (FYF pp. 41-42: "City Council in Action")
-- Printed argument sheets for the Day 4 legal review (FYF p. 46: "Policy Showdown")
-- Printed Legal Entrepreneur Card template
+- Printed Career Research Worksheet
+- Printed Emergency Kit Decision Plan
+- Printed City Council Town and Ordinance Plan
+- Printed Legal Review Argument and Evidence Sheet
+- Printed Legal Entrepreneur and Association Card
+- Printed Legal Policy Position Paper Rubric
+- Printed Xello Life Experience Connection
 - BLS, Lawyers: [bls.gov/ooh/legal/lawyers.htm](https://www.bls.gov/ooh/legal/lawyers.htm)
 - BLS, Paralegals: [bls.gov/ooh/legal/paralegals-and-legal-assistants.htm](https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm)
 - iCivics free games (Day 3 extension and support option): [icivics.org](https://www.icivics.org)
@@ -94,7 +96,7 @@ The chapter's other two activities, Clinton Lake Case (FYF pp. 48-49) and Injure
 
 ## Summative Assessment
 
-**AI Ethics Position Paper (Day 4-5):** Students write a 5-7 sentence position paper on whether AI should be used in the legal system. The paper must cite at least one legal career that would be affected, identify one professional association that might weigh in, and reference at least one piece of evidence raised during the Day 4 Policy Showdown arguments or found in the Day 1 legal career research. Scored on argument clarity (d(1)(C)), entrepreneurship awareness (d(3)(I)), and association identification (d(3)(H)).
+**Legal Policy Position Evidence (Day 4-5):** Students use a controlled hypothetical and evidence bank to write a 5-7 sentence position, explain one affected legal career, and complete a Legal Entrepreneur and Association Card. One 16-point rubric scores the durable written evidence. Assigned-side speaking, H&L access, and Xello login success are not part of the major grade.
 
 ## Differentiation
 

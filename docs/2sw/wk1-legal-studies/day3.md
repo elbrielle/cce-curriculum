@@ -9,7 +9,7 @@
 | **TEKS** | d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explain: City council role and ordinance rules · Explore: Town design, problem scan, and law drafting · Evaluate: Peer review of laws and Exit Ticket |
 | **Deliverable** | Town plan + completed problem table + two drafted laws (what, why, consequence) + one revised law |
-| **Materials** | *Find Your Future* workbook pp. 40-43, blank or chart paper for the town plan, colored pencils, projector, printed vocabulary card |
+| **Materials** | *Find Your Future* workbook pp. 40-43, printed City Council Town and Ordinance Plan, pencils or colored pencils, projector |
 
 ---
 

@@ -1,100 +1,138 @@
-# 1SW CFA: Your IT Future
+# 1SW CFA Pilot Draft: Information Technology
 
-**Common Formative Assessment** | **20 minutes** | **Extended Constructed Response**
+!!! note "Pilot only"
+    The district assessment format has not been released. This draft is a short test-design sample, not a Canvas assignment, secured test, or gradebook commitment. Revise it after the first district CFA and teacher feedback establish the actual item types, length, and rigor.
 
-Administer at the end of 1SW (after Wk5 Cybersecurity). Students work independently with their H&L Climber Profile, engineering notebook, workbook, and career research worksheets from the block.
+**Suggested time:** 20 minutes<br>
+**Draft format:** 7 multiple-choice items, 2 technology-enhanced item types, and 1 short constructed response
 
----
+## Student Directions
 
-## Stimulus
+Read each question and use the information provided. Choose the best answer unless the question tells you to select more than one. You do not need to log in to Xello, Hats & Ladders, or another website.
 
-You are 25 years old and just moved to Dallas-Fort Worth to start your first full-time job. You want a career in the Information Technology cluster but you need to pick ONE of the four Irving ISD Information Technology programs of study you explored in 1SW:
+## Career Information
 
-1. Computer Science
-2. Programming and Software Development
-3. Technology Support
-4. Cybersecurity
+| Career | Main work | Preparation commonly shown by BLS | May 2024 national median pay |
+|---|---|---|---:|
+| Computer systems analyst | Studies computer systems and recommends improvements | Bachelor's degree is typical | $103,790 |
+| Software developer | Designs computer applications or programs | Bachelor's degree is typical | $133,080 |
+| Computer user support specialist | Helps people solve computer problems | Some college is typical; some qualify with a high school diploma and relevant certifications | $60,340 |
+| Information security analyst | Protects networks and systems from security risks | Bachelor's degree and related experience are typical; other routes exist | $124,910 |
 
-Your Wk0 Climber Profile (core personality type + top 2 Work Values + Building Blocks) is in front of you. Use it.
+*Source: U.S. Bureau of Labor Statistics Occupational Outlook Handbook. Figures are May 2024 national medians, not starting pay or DFW-localized salaries. Retrieved August 6, 2026.*
 
----
+## Questions
 
-## Part A — Identify (4 min)
+### 1. Multiple Choice
 
-Name the ONE IT program of study you are choosing. Then name TWO specific careers (Hats) within that program you explored this six-weeks. *(d(1)(B), d(1)(C))*
+Which career is most directly responsible for protecting a network from security threats?
 
-## Part B — Compare (6 min)
+A. Computer systems analyst<br>
+B. Software developer<br>
+C. Computer user support specialist<br>
+D. Information security analyst
 
-Pick the two careers from Part A. Build a short comparison:
+### 2. Multiple Choice
 
-| | Career 1: _______ | Career 2: _______ |
-|---|---|---|
-| Entry-level DFW salary | | |
-| Education or certification required | | |
-| One daily task | |  |
+A student wants the career with the highest national median pay in the table. Which career should the student investigate first?
 
-Then answer in 1-2 sentences: **Which of these two careers has the better value for someone starting a career today in DFW, and why?** Cite at least ONE specific number from your table. *(d(2)(A), d(2)(B), d(5)(B), d(5)(E))*
+A. Computer systems analyst<br>
+B. Software developer<br>
+C. Computer user support specialist<br>
+D. Information security analyst
 
-## Part C — Connect to Self (7 min)
+### 3. Multiple Choice
 
-In 3-5 complete sentences, explain how the program of study you chose connects to YOUR Wk0 data. Your response must reference:
+Which statement is supported by the table?
 
-- Your core personality type (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
-- At least ONE of your top 2 Work Values (Achievement, Independence, Recognition, Relationships, Support, or Working Conditions)
-- At least ONE specific Building Block from your Climber Profile
+A. Every IT career requires the same preparation.<br>
+B. Computer user support specialist may offer a route that does not begin with a bachelor's degree.<br>
+C. Information security analysts always earn more than software developers.<br>
+D. The salary figures show what a new worker in DFW will earn.
 
-Use specific evidence. NOT acceptable: "IT fits me because I like computers." Acceptable: "My core personality type is Analyzer. Cybersecurity requires daily pattern-recognition on logs and alerts, which matches. My top Work Value of Achievement fits because cybersecurity work has clear results (a breach stopped, a system hardened). My Building Block of 'troubleshooting my family's WiFi' is an early version of the work." *(d(1)(A), d(4)(F))*
+### 4. Multiple Choice
 
-## Part D — Forward Action (3 min)
+Jordan likes troubleshooting devices and explaining steps to other people. Which career task is the strongest match?
 
-Name ONE concrete step you could take THIS school year (before 8th grade) to move toward this pathway. Your step must include:
+A. Helping users solve computer problems<br>
+B. Designing a new application<br>
+C. Studying an organization's systems<br>
+D. Responding to network security risks
 
-- A specific Irving ISD option if one applies (Singley Academy CS / Cybersecurity / Web Tech pathways, the district Hour of Code club, HOSA-adjacent opportunities, etc.). If no Irving ISD option exists for your program of study, name a specific DFW or free online resource (Google Applied Digital Skills, CyberSeek, Code.org, PBS NOVA Cybersecurity Lab).
-- A specific action verb and time window ("Sign up for..." "Complete 5 levels of..." "Ask my counselor about..."). NOT "Learn more."
+### 5. Multiple Choice
 
-*(d(3)(A), d(8)(A))*
+Which evidence best supports comparing preparation and pay as a tradeoff?
 
----
+A. Software developers design programs.<br>
+B. All four careers use computers.<br>
+C. User support has the lowest median pay in the table, but some workers enter without first earning a bachelor's degree.<br>
+D. Systems analysts and software developers both have bachelor's degrees.
 
-## Rubric
+### 6. Multiple Choice
 
-Score each part 0-4 using the rubric below. Overall CFA score is the LOWEST score across the four parts.
+A message says an account will close in one hour and includes a login link from an unfamiliar domain. What is the safest first action?
 
-### Part A (Identify) — d(1)(B), d(1)(C)
+A. Click the link and inspect the page.<br>
+B. Reply and ask whether the message is real.<br>
+C. Forward the message to a friend.<br>
+D. Open the official app or website independently and report the message through the approved process.
 
-| 4 | Program of study + 2 specific Hats named correctly with workbook/H&L evidence. |
-| 3 | Program of study + 2 Hats named, one Hat may be general-sounding. |
-| 2 | Program of study + 1 Hat only, OR 2 Hats but misplaced in the wrong program. |
-| 1 | Only a program of study OR only a career, not both. |
+### 7. Multiple Choice
 
-### Part B (Compare) — d(2)(A), d(2)(B), d(5)(B), d(5)(E)
+A student creates a logo for a career project. Which choice demonstrates professional integrity?
 
-| 4 | Full comparison table + judgment with specific number cited. Judgment cites a trade-off ("lower salary but faster entry"). |
-| 3 | Full table + judgment, but judgment lacks specific number citation. |
-| 2 | Table partially complete (some cells blank) + thin judgment. |
-| 1 | No table or judgment says "both are good." |
+A. Copy an official company logo and remove the company name.<br>
+B. Submit a classmate's logo after changing the color.<br>
+C. Create an original symbol and identify any source material used for research.<br>
+D. Use the first image found online because the project is for school.
 
-### Part C (Connect to Self) — d(1)(A), d(4)(F)
+### 8. Multi-Select
 
-| 4 | All three required elements (core personality type + Work Value + Building Block) with specific evidence, not generic language. Connection is concrete (a daily task matches a personality trait). |
-| 3 | All three elements but one is general ("I like working with others"). |
-| 2 | Two of three elements, OR all three but all three are general. |
-| 1 | One or zero elements with evidence. |
+Select **two** statements that accurately interpret the career table.
 
-### Part D (Forward Action) — d(3)(A), d(8)(A)
+- [ ] The figures guarantee a worker's first salary.
+- [ ] Software developer has the highest national median pay shown.
+- [ ] Computer systems analyst has the lowest preparation requirement shown.
+- [ ] The table alone does not provide DFW-localized salary data.
+- [ ] Information security analyst requires no prior preparation.
 
-| 4 | Irving ISD or DFW-specific resource named + concrete action verb + time window. |
-| 3 | Resource named + action verb, but no time window. |
-| 2 | Vague step ("Learn more about coding"). |
-| 1 | No action step or off-topic. |
+### 9. Match Table
 
----
+Match each student goal to the most direct career area.
 
-## Teacher Follow-Up (after scoring)
+| Student goal | Systems analysis | Software development | Technology support | Cybersecurity |
+|---|:---:|:---:|:---:|:---:|
+| Build and test a new application | ○ | ○ | ○ | ○ |
+| Help a user fix a device problem | ○ | ○ | ○ | ○ |
+| Investigate and reduce a network threat | ○ | ○ | ○ | ○ |
 
-- If >30% of students score ≤2 on **Part A**, reteach the four IT program-of-study names during 2SW Wk1 Day 1 warm-up.
-- If >30% score ≤2 on **Part B**, reteach H&L Hat Finder data-citation during the 2SW Wk1 career research activity.
-- If >30% score ≤2 on **Part C**, the Wk0 → 1SW bridge is broken. Flag to the curriculum team and bring back to Wk0 Day 4 data-seeding for the next cohort.
-- If >30% score ≤2 on **Part D**, add Irving ISD pathway review to 2SW Wk1 Day 5 flex time.
+### 10. Short Constructed Response
 
-Return the scored rubric to each student. Give them 5 minutes to write ONE thing they would strengthen on a rewrite. Collect these reflections; they become inputs to the 4SW Wk1 Mid-Year Review and 6SW Wk6 Capstone.
+Choose one career from the table. In 2-3 sentences, explain one benefit and one tradeoff of exploring that career. Use at least two details from the table.
+
+## Teacher Key and Draft Alignment
+
+| Item | Key | Primary evidence |
+|---:|---|---|
+| 1 | D | Career identification, d(1)(C) |
+| 2 | B | Salary comparison, d(5)(E) |
+| 3 | B | Education and training information, d(2)(A) |
+| 4 | A | Self-to-task fit, d(1)(A) |
+| 5 | C | Training/pay tradeoff, d(2)(B) |
+| 6 | D | Safe and ethical workplace decision, d(4)(F) |
+| 7 | C | Integrity and original work, d(4)(F) |
+| 8 | Software developer; no DFW-localized data | Data interpretation, d(5)(E) |
+| 9 | Software development; Technology support; Cybersecurity | Career classification, d(1)(C) |
+| 10 | Answers vary | Evidence-based comparison, d(2)(A) and d(5)(E) |
+
+For Item 10, award 2 points when the response names one plausible benefit, one plausible tradeoff, and accurately uses two table details; 1 point for a partly supported response; 0 points for blank, off-topic, or unsupported work. Do not score spelling or grammar unless meaning is unclear.
+
+## Revision Gate
+
+Before this pilot becomes an assessment, compare it with the first district CFA and confirm:
+
+- tested TEKS and cognitive rigor;
+- number and type of items, including any STAAR-style interactions supported by the district platform;
+- administration time, accommodations, and make-up procedures;
+- scoring rules and whether the CFA is formative, a minor grade, or a major grade;
+- teacher security and student review expectations.

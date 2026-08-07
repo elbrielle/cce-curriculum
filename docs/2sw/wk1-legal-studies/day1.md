@@ -5,11 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Read the Law and Public Safety chapter opener; work the "Be the Decision Maker" pair prompt; explore the Law cluster in the H&L app and complete the career research worksheet for one legal career |
+| **Objectives** | Read the Law and Public Safety chapter opener; work the "Be the Decision Maker" pair prompt; compare legal careers with dated sources and complete the career research worksheet for one career |
 | **TEKS** | d(1)(B), d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explain: Chapter opener and Be the Decision Maker · Explore: Law cluster app exploration and career research · Evaluate: Exit Ticket |
 | **Deliverable** | Completed legal career research worksheet (1 legal career, all 6 fields) + Stop and Jot notes |
-| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook pp. 39, 56-58, printed legal career research worksheet, projector |
+| **Materials** | Chromebooks, *Find Your Future* workbook pp. 39, 56-58, career research worksheet, teacher-provided dated career profiles, projector; H&L optional |
 
 ---
 
@@ -49,18 +49,18 @@ This week takes Legal Studies. Wk 2 takes the first-responder side of the cluste
 
 ---
 
-## Activity 2: Law Cluster App Exploration + Legal Career Research (25 min)
+## Activity 2: Law Cluster Exploration + Legal Career Research (25 min)
 
 **Source:** (FYF p. 58: "App Exploration"), Steps 1-3 and the Hat rating step
 
-> [H&L PLATFORM] Students open the Hats & Ladders app, go to Clusters, and click the Law and Public Safety Cluster. They watch the "Cluster Tour" video, click "Game Time" and play the game, then write on the workbook page what one thing they learned. Next they find 1 Hat that matches their personality or interests and 1 Hat that feels like it is NOT a fit, writing why for each. They finish by rating at least 3 Hats and jotting their thoughts on the cluster with emojis, pictures, or words. The Pathway Possibilities step on the same page is saved for Day 5.
+Use teacher-provided dated career profiles as the dependable research route. H&L may supplement the lesson when it is available: students may watch the cluster tour, explore the game, and note one career that fits and one that does not. A working H&L login is not required evidence.
 
 **Stop and Jot procedure:** While watching the Law cluster tour video, students pause TWICE in their workbook margin to write:
 
 - **Stop 1:** One legal or public safety career you learned about that you had never heard of before
 - **Stop 2:** One question you have about legal careers
 
-Students then browse the Hat Finder for 5 specific legal careers: **Lawyer, Paralegal, Judge, Court Reporter, and Legal Secretary**. For each Hat, they note the education requirement and DFW salary on scratch paper. They will see a huge range. Court Reporter requires a 2-year associate degree; Lawyer requires 7+ years of undergraduate study plus law school.
+Students compare profiles for several legal careers, such as **Lawyer, Paralegal, Judge, Court Reporter, and Legal Secretary**. For each source, they label the salary type, geography, and data year instead of treating every figure as a DFW starting salary.
 
 Each student then selects ONE legal career and completes the **legal career research worksheet**, using the research format taught in Wk0. The fields are:
 
@@ -74,7 +74,7 @@ Each student then selects ONE legal career and completes the **legal career rese
 **DOK 2:** How would you compare the education pathway for a Paralegal versus an Attorney? Which pathway lets you enter the workforce sooner, and which one earns more?
 
 !!! tip "Facilitation Tip"
-    Students often overlook Court Reporter. Point out the $60K+ median pay and the associate-degree or certificate route for students interested in legal work without seven years of school.
+    Students often overlook Court Reporter and Paralegal. Use them to compare different legal-career routes, but verify current preparation and pay facts in the dated source instead of teaching a fixed salary or program length from memory.
 
 ---
 
@@ -87,7 +87,7 @@ Pick TWO legal careers you explored today. Fill in the matrix using your app not
 | | Career 1: _______________ | Career 2: _______________ |
 |---|---|---|
 | Education required (years) | | |
-| DFW starting salary (rough) | | |
+| Salary figure, source, geography, and type | | |
 | One daily task | | |
 
 Bottom line: A student who wants to enter the legal field WITHOUT going to law school (7+ years) should pick which of your two careers, and why? Use one cell. Then submit your completed career research worksheet. *(d(1)(B), d(1)(C))*

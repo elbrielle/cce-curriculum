@@ -5,11 +5,11 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Work the "Policy Showdown" legal review protocol; use evidence to argue for or against AI in the legal system and present to a peer judging pair; identify one entrepreneurial opportunity in the legal field; identify one professional association |
+| **Objectives** | Work the "Policy Showdown" legal review protocol; use a controlled evidence bank to argue for or against a hypothetical court-tool policy; identify one entrepreneurial opportunity and one professional association in the legal field |
 | **TEKS** | d(3)(I), d(3)(H) |
 | **5E Phases** | Engage: Warm-Up · Explain: Legal Review Team roles and the model policy · Extend: Prepared arguments applied to AI in the courts · Explore: Legal entrepreneur research · Evaluate: Exit Ticket |
 | **Deliverable** | Argument sheet (opening, 3 pieces of evidence, closing) + position statement (5-7 sentences) + Legal Entrepreneur Card (1 career, 4 fields completed) |
-| **Materials** | Chromebooks, *Find Your Future* workbook pp. 44-47, printed argument sheets, printed Entrepreneur Card template, projector for sentence stems |
+| **Materials** | *Find Your Future* workbook pp. 44-47, Legal Review Argument and Evidence Sheet, Legal Entrepreneur and Association Card, teacher-approved career/association sources, projector |
 
 ---
 
@@ -33,7 +33,7 @@ Then put today's live policy in front of them, the one this class reviews:
 
 > **Proposed policy:** Courts in this state may use an AI tool to recommend bail amounts and to flag which cases a judge should review first. A judge may follow the recommendation or set it aside. The tool's scoring method is not released to the public.
 
-Some states already use tools like this. Some judges trust them; some refuse to use them.
+Treat this as a hypothetical policy for classroom review. Students use the controlled evidence bank rather than making claims about a real court, tool, person, or case.
 
 Students pair up and choose roles (FYF p. 45):
 
@@ -101,9 +101,7 @@ Students complete the **Legal Entrepreneur Card** (4 fields):
 | Startup needs | Law degree, bar license, office space, malpractice insurance |
 | One professional association they would join | Texas Bar Association or American Bar Association Family Law Section |
 
-Each student picks ONE legal career that could be entrepreneurial (Solo Lawyer, Mediator, Private Investigator, Legal Consultant, Court Reporter freelancer, Notary Signing Agent) and completes the card using H&L career profiles, BLS data, and a 5-minute Google search.
-
-> [H&L PLATFORM] Students return to the H&L Hat Finder, click on a Legal Services Hat (Lawyer, Paralegal, Mediator), and check the "self-employment" or "work setting" data. This data shows what percentage of professionals in that field run their own business.
+Each student picks ONE legal career that could include self-employment, contract work, or a small business and completes the card with a teacher-approved source. H&L may supplement the research, but no student needs an open Google search or vendor login to complete the card.
 
 **DOK 3:** What conclusions can you draw about the risks and rewards of starting your own law practice versus working for a large firm?
 
