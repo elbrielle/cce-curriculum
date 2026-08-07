@@ -217,6 +217,14 @@ uv run --with mkdocs-material --with mike mkdocs build --strict
 
 For generic HTML templates that still contain placeholder prose, calculate reading level from each fully rendered page body. A reading score from unreplaced tokens is not meaningful.
 
+### Rendering and QA fallbacks confirmed on macOS
+
+- Resolve presentation helpers relative to the directory that contains the selected presentation skill's `SKILL.md`. In the bundled runtime, `render_slides.py` and `create_montage.py` are under that skill directory's `container_tools/` folder, not the plugin package root.
+- `pdftoppm` zero-pads page suffixes when the source PDF has many pages (`-054.png`, not `-54.png`). List the rendered directory before copying selected pages instead of guessing filenames.
+- ImageMagick's `montage` command may not be installed. For a worksheet/PDF contact sheet, use the bundled workspace Python plus Pillow to thumbnail and tile the already-rendered PNGs. This is a QA artifact only; keep it in a temporary directory.
+- Do not call the Canvas template QA script with an arbitrary system Python. Use the documented `uv run --with beautifulsoup4 --with textstat ...` command so `bs4` and `textstat` are present.
+- Exit-ticket rendering derives the output filename from the day-page H1. When a day title changes, use the canonical `**EXIT TICKET** (Format):` marker, regenerate, run `build/inject_pdf_links.py`, and review the newly named PDF. Restore timestamp-only churn from unrelated tickets before staging.
+
 ## 8. Efficient scaling pattern
 
 Build one week at a time rather than one isolated page across the whole year.
@@ -230,6 +238,8 @@ Build one week at a time rather than one isolated page across the whole year.
 7. Fix the week as a unit and record one complete build-log entry.
 
 This preserves quality while reducing repeated API setup and asset-upload overhead.
+
+When the module includes a Discussion, the importer must find the existing topic from the unfiltered discussion-topic list before creating one. Repeated runs must not create duplicate topics or module items. Normalize mixed Page/Discussion positions in ascending order, then run `qa_canvas_module.py`; the verifier accepts unpublished Discussions and still requires one consecutive 1..N module sequence.
 
 ## 9. Definition of done
 

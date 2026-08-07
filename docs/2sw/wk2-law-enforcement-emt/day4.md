@@ -1,123 +1,50 @@
-# Day 4: Injured on the Trail — Report and Complications
+# Day 4: Document and Reassess
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete a Patient Care Report narrative covering care provided, reasoning, and transport preparation; improvise a plan for a wilderness complication and brief another group on it |
+| **Objective** | Write an accurate fictional Patient Care Report and choose a safety-first response to one wilderness complication |
 | **TEKS** | d(1)(C), d(4)(F) |
-| **5E Phases** | Engage: Warm-Up · Explain: Patient Care Report narrative · Extend: Wilderness complication plan · Evaluate: Group-to-group briefing and Exit Ticket |
-| **Deliverable** | Completed Patient Care Report (all five sections) + a complication plan briefed to another group |
-| **Materials** | *Find Your Future* workbook pp. 53-54, Day 3 supplies and scene notes, Climber Notes deck "Injured on the Trail", Daily Performance & Career Skills Rubric (H&L teacher resources), Chromebooks, projector |
+| **Deliverable** | [Fictional Patient Care Report and Safety Plan](../../resources/worksheets/2sw-wk2-patient-care-report.pdf) |
+| **Scoring** | [Patient Care Report Evidence Rubric](../../resources/worksheets/2sw-wk2-pcr-rubric.pdf) |
+| **Materials** | FYF pp. 53-54 and the locked Canvas trail images |
 
----
+## Before Class
+
+Post the report, rubric, and three complication choices. This is fictional documentation: students must not enter real names or medical information. Speaking is optional; each student submits written evidence.
 
 ## Warm-Up (5 min)
 
-**WARM-UP: You are the emergency room team. A hiker arrives with a sling on one arm and a splint on one finger, but no notes came with them. What three things do you most need to know from the responder who treated them?**
+**A receiving team gets a patient but no notes. What information is missing?** Sort answers into scene, observations, actions, reasoning, and handoff.
 
-Take 3-4 responses. Sort each answer into injury, care provided, and time. Those are the details the next medical team needs from a Wilderness First Responder's Patient Care Report. Students finish that report before working the trail complication.
+## Activity 1: Patient Care Report (20 min)
 
----
+Students complete all five sections. Require observations instead of diagnoses. “The scenario shows a swollen, bent finger” is appropriate; inventing a specific fracture is not.
 
-## Activity 1: Finish the Patient Care Report (12 min)
+## Activity 2: Safety-First Complication (15 min)
 
-**Source:** (FYF p. 53: "Injured on the Trail", Step 4)
+Students choose thunderstorm, anxious patient, or fast-moving stream and plan a first action, communication, reassessment trigger, and alternative.
 
-Students return to the Patient Care Report they started on Day 3. The workbook explains that the most important part of the report is the narrative, where responders explain the situation in their own words, and that a strong report is what lets the next medical team understand exactly what the patient experienced and how they were treated.
+**Answer guidance:**
 
-Students complete the three remaining sections with a clear, step-by-step narrative:
+- thunder: move toward a substantial enclosed building or hard-topped vehicle and stop outdoor activity; do not shelter under a tree or small open shelter;
+- fast/unknown water: do not enter; communicate, seek an alternate route or higher ground, and wait for trained help;
+- anxiety: use calm, honest communication, explain the plan, and offer reasonable choices without false promises.
 
-| Section | What it must answer |
-|---|---|
-| **Care Provided** | What actions did you take to treat the injuries? Describe how you used the sling and the splint. |
-| **Reasoning** | Why did you choose those treatments? Use your Step 1 research to support your decisions. |
-| **Transport Preparation** | How did your actions help prepare the patient for safe transport? |
+## Activity 3: Review and Revise (7 min)
 
-The Reasoning section is where the Day 3 research pays off. Students who wrote "because it helps" go back to their six research answers and name the specific reason: a sling limits shoulder movement, a splint keeps a fractured finger straight so the injury does not get worse in transport.
-
-!!! tip "Facilitation Tip"
-    Ask the room the workbook's own question while students write: why do first responders document so carefully? Push past "so they do not forget." The report is a legal record, it is what the next team treats from, and it is the only account of a decision made where no one else was watching. A responder who leaves out the part that went badly is making the next team's job harder.
-
----
-
-## Activity 2: Handle a Wilderness Complication (15 min)
-
-**Source:** (FYF p. 54: "Injured on the Trail", Step 5)
-
-The workbook's framing: Wilderness First Responders have to think fast, stay calm, and adapt, because in the wilderness anything can happen. Each group chooses ONE complication:
-
-- Weather suddenly worsens as a severe thunderstorm rolls in
-- The hiker is scared and nervous about what happens next
-- To get to the ambulance, you must cross a fast-moving stream
-
-Groups work together to explain how they would use their WFR skills to improvise and safely get the patient the care they need. They write the plan in the workbook space on page 54 and prepare to defend it. The workbook requires the plan to be ready on three fronts:
-
-1. The reasoning for each step
-2. How the decisions keep both the patient and the team safe
-3. Answers to questions, including alternative approaches someone else might take
-
-!!! tip "Facilitation Tip"
-    The "scared and nervous hiker" option looks like the easy one and is not. Groups that pick it have to plan what they say and how they say it, not what they do with their hands. If a group is stuck, point them back to Day 3: the workbook already asked them to explain each step to the patient while working. That habit is the plan.
-
----
-
-## Activity 3: Brief Another Group (15 min)
-
-**Source:** (FYF p. 54: "Injured on the Trail", Step 5, present to another group)
-
-Pair each group with a partner group. Round 1: Group A briefs its complication plan while Group B listens, then Group B asks one question or offers one alternative approach. Round 2: swap roles. If time allows, rotate to a new partner group and run both rounds again with a different complication.
-
-**Time, Voice, Body:** Post the three blocks before the first briefing. Voice 0 while the receiving group reads the plan, Voice 2 for the briefing itself, Voice 1 for the question round, and a visible countdown for every rotation. Slings, wraps, and splints go back in the supply tray at the center of the table between rounds, not into backpacks. Narrate the groups that are meeting the expectation instead of correcting the ones that are not.
-
-!!! warning "Briefing time budget"
-    Activity 3 is 15 minutes. Pick ONE option before Day 4 based on class size:
-
-    - **4-6 groups (small or standard class):** two rotations. Each rotation is two 3-minute briefings plus a 1-minute question round, with 30 seconds to move.
-    - **7-8 groups (large class):** one rotation only, at 3 minutes per briefing, then use the remaining time for a whole-class share where three groups name the hardest decision in their plan.
-    - **Overflow:** if groups are still running long, cut the question round to one question total per pairing and announce the change before the next rotation starts.
-
-Groups are scored with the **Daily Performance & Career Skills Rubric** from the H&L teacher resources: Work Ethic & Effort, Productivity & Progress, Problem-Solving & Thinking, and Communication & Collaboration.
-
-Close with the workbook's Class Discussion prompts (p. 54): how can small changes, like checking comfort or adjusting the sling, make a big difference in patient safety; why was it important to explain what you were doing while working on the hiker; and which of your Building Blocks would prepare you for a career as a WFR.
-
-**DOK 4:** If you were designing the training program for new Wilderness First Responders, which two moments from this week would you build into the training and why? Use evidence from your own Patient Care Report to support your recommendations.
-
----
+Students use the four rubric criteria. Peer review may be replaced with a self-check or private teacher conference. A student revises one sentence for accuracy or safety.
 
 ## Exit Ticket (3 min)
 
-**EXIT TICKET** (Trade-off / Dilemma Analysis) · [Printable PDF](../../resources/exit-tickets/2sw-wk2-day4-injured-on-the-trail-report-and-complications.pdf):
+**EXIT TICKET** (Trade-off Dilemma) · [Printable PDF](../../resources/exit-tickets/2sw-wk2-day4-document-and-reassess.pdf):
 
-You are the Wilderness First Responder. The hiker's shoulder is in a sling and the finger is splinted. To reach the ambulance you must cross a fast-moving stream. A thunderstorm is about 15 minutes away.
+Explain why entering fast water to save time creates a worse risk. Name the safer action and one fact dispatch needs.
 
-- **(A)** Cross the stream NOW. The water is lower, but the hiker is in pain and unsteady on their feet.
-- **(B)** WAIT under cover for the storm to pass. The hiker will be calmer, but the stream will be higher and faster.
+## Supports and Fallbacks
 
-Pros of picking A: _______________________________________________________
-
-Pros of picking B: _______________________________________________________
-
-My choice (A or B): ________
-
-To make a hard choice like this, first responders need a strong professional quality. Pick ONE from the list (or add your own):
-
-- calm
-- fair
-- brave
-- honest
-- caring
-- clear-thinking
-
-Which quality fits THIS choice best? ________________________
-
-In one sentence, why is THIS quality the right one here (not the others)? _______________________________________________________________ *(d(1)(C), d(4)(F))*
-
----
-
-## Differentiation
-
-- **Support:** Provide a Patient Care Report template with the Care Provided section modeled as an example narrative. Give a sentence stem for Reasoning: "I chose the _____ because my research said _____." Offer a three-step planning frame for the complication (what changes, what we do about it, how we keep everyone safe).
-- **Extension:** Groups add a second complication to their plan and explain what they would change if both happened at once. Which decision from the first plan no longer works?
-- **ELL:** Bilingual Patient Care Report section headers and a bilingual briefing checklist. Pre-teach: Report = Informe, Care = Atención, Reasoning = Razonamiento, Transport = Transporte, Storm = Tormenta, Stream = Arroyo, Safe = Seguro. Pair ESL students with a bilingual co-presenter for the briefing. The visual supply icons from Day 3 stay on the table so students can point rather than name.
+- Provide sentence frames: “I observed ___”; “Our team represented ___”; “We would stop and reassess if ___.”
+- Permit speech-to-text or teacher scribing. Grade evidence, not English mechanics unless meaning is unclear.
+- An absent student completes the same report from the fictional scenario. No live simulation is required.

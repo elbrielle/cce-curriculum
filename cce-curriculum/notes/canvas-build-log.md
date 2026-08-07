@@ -198,3 +198,31 @@ This log records the official Canvas build without storing access credentials or
 - Browser QA: all ten pages rendered through their module-item routes with no unresolved fields or desktop overflow. All locked workbook images loaded at full 1148-by-1485 source resolution after opening the relevant disclosure. The Day 3 student guide and Day 5 teacher guide had no horizontal overflow at a 390-pixel viewport.
 - Importer: `build/canvas/build_2sw_wk1.py`
 - Read-only verifier: `build/canvas/qa_canvas_module.py 542987`
+
+## 2026-08-06 — 2SW Week 2 paired lesson set
+
+- Module: `2SW Wk2: First Responders - Evidence, Response, and Handoff` (542988)
+- State: unpublished
+- Teacher item IDs: Day 1 5295350, Day 2 5295352, Day 3 5295355, Day 4 5295357, Day 5 5295359
+- Student item IDs: Day 1 5295351, Day 2 5295353, Day 3 5295356, Day 4 5295358, Day 5 5295360
+- Unpublished practice Discussion: `PRACTICE: Clinton Lake Counterevidence Exchange` (topic 369615, item 5295363)
+- Locked Canvas folders:
+  - Core Week 2 files: 1152565
+  - Day 1 visuals: 1152566
+  - Day 2 visuals: 1152567
+  - Day 3 visuals: 1152568
+  - Day 4 visuals: 1152569
+  - Day 5 visuals: 1152570
+- All ten pages, the practice Discussion, and the parent module are unpublished. The final module has 11 consecutive items.
+- Six new classroom artifacts are supplied: dated First Responder Route Guide, Clinton Lake Evidence Tracker, controlled Trail Simulation Record, fictional Patient Care Report and Safety Plan, 16-point report rubric, and individual Career and Integrity Reflection.
+- Career-source correction: the route guide labels May 2024 BLS figures as U.S. medians rather than starting or DFW pay. Xello may add a current local figure only when geography, date, and measure are recorded. H&amp;L remains optional.
+- District-program correction: the current Singley Academy page verifies Law Enforcement and Emergency Medical - EMT. The lesson does not promise a specific credential, academy length, or job outcome.
+- Evidence correction: all six Clinton Lake files are embedded individually with descriptive alt text. The teacher key distinguishes strong evidence of harm from weaker evidence about source and preserves the unresolved containment-testing gap.
+- Safety/access correction: the trail activity is explicitly a simulation, not first-aid certification. A model/mannequin, consenting uninjured partner, and observer/documenter are equal routes; no student practices on an injury or is graded on touch or physical technique.
+- Wilderness decision correction: students are not asked to cross fast water or outrun lightning. The safety plan uses no-entry, communication, alternate-route/higher-ground, and appropriate-shelter decisions.
+- Canvas interaction: the Day 2 Discussion provides a genuine counterevidence exchange with a private written alternative. It is ungraded because the course still lacks confirmed 40/60 Minor/Major assignment groups.
+- Automated template/API QA: no missing alt text, unresolved fields, legacy Canvas tabs, missing file references, nonconsecutive module positions, or published content. All 20 referenced files resolved; the practice Discussion is supported by the generic module verifier.
+- PDF QA: six worksheets and five revised exit tickets were rendered, page-count checked, and visually inspected. Extra blank pages were removed from the trail, reflection, and patient-report sets.
+- Browser QA: the signed-in module sequence shows one Discussion item; the Day 2 student guide contains six embedded licensed evidence images with descriptive alt text; and the Day 4 teacher dashboard renders cleanly at normal desktop width.
+- Importer: `build/canvas/build_2sw_wk2.py`
+- Read-only verifier: `build/canvas/qa_canvas_module.py 542988`

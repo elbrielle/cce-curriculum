@@ -27,13 +27,19 @@ async def main():
     async with httpx.AsyncClient(headers={"Authorization":f"Bearer {token}"},timeout=60) as client:
         module=await api(client,f"/courses/{COURSE_ID}/modules/{module_id}")
         items=await paged(client,f"/courses/{COURSE_ID}/modules/{module_id}/items")
-        problems=[]; pages=[]; file_ids=set()
+        problems=[]; pages=[]; interactives=[]; file_ids=set()
         positions=[item.get("position") for item in items]
         if module.get("published"): problems.append("module is published")
         if positions != list(range(1,len(items)+1)): problems.append(f"positions are not consecutive: {positions}")
         for item in items:
+            if item.get("type") == "Discussion" and item.get("content_id"):
+                topic=await api(client,f"/courses/{COURSE_ID}/discussion_topics/{item['content_id']}")
+                if topic.get("published") or item.get("published"):
+                    problems.append(f"discussion published: {topic.get('id')}")
+                interactives.append({"item_id":item["id"],"position":item["position"],"type":"Discussion","content_id":topic.get("id"),"title":topic.get("title"),"published":topic.get("published")})
+                continue
             if item.get("type") != "Page" or not item.get("page_url"):
-                problems.append(f"item {item.get('id')} is not a page")
+                problems.append(f"unsupported module item {item.get('id')}: {item.get('type')}")
                 continue
             page=await api(client,f"/courses/{COURSE_ID}/pages/{item['page_url']}")
             body=page.get("body") or ""
@@ -50,7 +56,7 @@ async def main():
                 files.append({"id":file_id,"name":record.get("display_name"),"locked":record.get("locked")})
             except httpx.HTTPStatusError as exc:
                 problems.append(f"file {file_id} did not resolve: HTTP {exc.response.status_code}")
-        result={"module":{"id":module_id,"name":module.get("name"),"published":module.get("published")},"items":len(items),"pages":pages,"referenced_files":files,"problems":problems,"passed":not problems}
+        result={"module":{"id":module_id,"name":module.get("name"),"published":module.get("published")},"items":len(items),"pages":pages,"interactives":interactives,"referenced_files":files,"problems":problems,"passed":not problems}
         print(json.dumps(result,indent=2))
         if problems: raise SystemExit(2)
 
