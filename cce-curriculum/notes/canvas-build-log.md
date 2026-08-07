@@ -226,3 +226,29 @@ This log records the official Canvas build without storing access credentials or
 - Browser QA: the signed-in module sequence shows one Discussion item; the Day 2 student guide contains six embedded licensed evidence images with descriptive alt text; and the Day 4 teacher dashboard renders cleanly at normal desktop width.
 - Importer: `build/canvas/build_2sw_wk2.py`
 - Read-only verifier: `build/canvas/qa_canvas_module.py 542988`
+
+## 2026-08-06 — 2SW Week 3 paired lesson set
+
+- Module: `2SW Wk3: Nursing Science - Routes, Simulation, and Handoff` (542989)
+- State: unpublished
+- Teacher item IDs: Day 1 5295364, Day 2 5295366, Day 3 5295368, Day 4 5295370, Day 5 5295373
+- Student item IDs: Day 1 5295365, Day 2 5295367, Day 3 5295369, Day 4 5295371, Day 5 5295374
+- Unpublished Classic practice Quiz: `PRACTICE: Vital Signs and Handoff Check` (quiz 281449, item 5295372). It contains five multiple-choice questions, immediate feedback, and unlimited retries.
+- Locked Canvas folders:
+  - Core Week 3 files: 1152571
+  - Day 1 visuals: 1152572
+  - Day 2 visuals: 1152573
+  - Day 3 visuals: 1152574
+  - Day 4 visuals: 1152575
+  - Day 5 visuals: 1152576
+- All ten pages, the practice Quiz, and the parent module are unpublished. The final module has 11 consecutive items. A second importer run returned the same module, folder, page, file, quiz, and item IDs without duplicates.
+- District-sequence correction: Day 5 protects 30 minutes for the required Xello Save careers task and requires at least three saved careers. H&amp;L remains supplemental, and failed access moves to supervised Xello catch-up rather than paper being counted as platform completion.
+- Program correction: the week uses the current Irving ISD Nursing Science name. It does not promise a specific credential or job outcome. Texas students are directed to verify program approval and the correct licensure examination with the Texas Board of Nursing.
+- Career-data correction: the route guide labels the four May 2024 BLS figures as U.S. medians, not starting pay or DFW-localized salary. Xello may add localized evidence only when the geography, measure, and date are recorded.
+- Privacy and safety correction: all patient records and device values are fictional. Students do not collect peer health information, make diagnoses, or treat the micro:bit/browser program as a medical device. Physical micro:bit, browser simulator, and paper trace are equal evidence routes.
+- Canvas interaction: the Day 4 Quiz checks bounded misconceptions about simulated data, symptom reporting, conflicting readings, salary labels, and program approval. The individual fictional handoff remains the recommended 16-point minor checkpoint because judgment and documentation do not belong in forced multiple choice.
+- Automated template/API QA: no skipped headings, missing alt text, unlabeled disclosures, layout tables, legacy Canvas tabs, unresolved fields, missing file references, nonconsecutive module positions, or published content. All 14 referenced Canvas files resolved; the generic verifier confirms the unpublished Quiz and five-question count.
+- PDF QA: seven classroom artifacts and five structured exit tickets were rendered, page-count checked, text-extracted, and visually inspected. No response area or heading clips.
+- Browser QA: the signed-in module shows all 11 items in the intended order. The Day 3 and Day 4 student pages render without desktop overflow; licensed visuals load at full source resolution after opening their optional disclosures. The Day 4 student link opens the correct practice Quiz, whose teacher preview contains all five intended questions.
+- Importer: `build/canvas/build_2sw_wk3.py`
+- Read-only verifier: `build/canvas/qa_canvas_module.py 542989`

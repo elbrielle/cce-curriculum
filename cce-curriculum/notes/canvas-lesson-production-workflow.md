@@ -86,9 +86,11 @@ Render the complete source deck, inspect every slide, then copy only the selecte
 If the bundled renderer or montage helper reports that `pdf2image` is missing, supply that helper dependency without altering the deck:
 
 ```bash
-uv run --with pdf2image python <presentation-skill>/container_tools/render_slides.py \
+uv run --with pdf2image --with pillow python <presentation-skill>/container_tools/render_slides.py \
   "<source-deck>.pptx" --output_dir "<temporary-render-folder>"
 ```
+
+Use the same `uv run --with pdf2image --with pillow` prefix for the presentation skill's montage helper. This keeps slide rendering reproducible when the system Python does not include either helper library.
 
 ### Visual QA before upload
 
@@ -153,6 +155,19 @@ unset CCR_CANVAS_TOKEN
 Run Canvas importers through `uv run --with httpx`; a bare `python` invocation is not portable because the system Python may not include `httpx`. A dependency failure before the token prompt does not touch Canvas, but it wastes a build pass and can leave the operator unsure whether anything changed.
 
 Do not print, log, commit, or repeat the token.
+
+### Classic Quiz practice checks
+
+Use a Classic Quiz when a brief, automatically scored misconception check will save teacher time and immediate feedback is more useful than a printed response sheet. Keep a practice check ungraded and unpublished until review. A reliable importer should:
+
+1. locate or create the quiz by its exact neutral title;
+2. set `quiz_type` to `practice_quiz`, keep `published` false, and allow unlimited attempts when retrying is part of the lesson;
+3. create questions with stable exact names so reruns can update rather than duplicate them;
+4. include answer-specific or general feedback that explains the misconception;
+5. add the Quiz as an explicit module item only after the student page that prepares students for it; and
+6. verify quiz state and question count through `qa_canvas_module.py`.
+
+Selected-response items should check bounded facts, safety decisions, labels, or source interpretation. Use an Assignment, Discussion, or teacher-reviewed artifact for design, reflection, argument, and career-fit judgment.
 
 ## 6. Verification gate
 
@@ -220,6 +235,7 @@ For generic HTML templates that still contain placeholder prose, calculate readi
 ### Rendering and QA fallbacks confirmed on macOS
 
 - Resolve presentation helpers relative to the directory that contains the selected presentation skill's `SKILL.md`. In the bundled runtime, `render_slides.py` and `create_montage.py` are under that skill directory's `container_tools/` folder, not the plugin package root.
+- When either presentation helper reports a missing `pdf2image` or Pillow import, run it through `uv run --with pdf2image --with pillow python ...`; do not patch the skill's bundled runtime or alter the source deck.
 - `pdftoppm` zero-pads page suffixes when the source PDF has many pages (`-054.png`, not `-54.png`). List the rendered directory before copying selected pages instead of guessing filenames.
 - ImageMagick's `montage` command may not be installed. For a worksheet/PDF contact sheet, use the bundled workspace Python plus Pillow to thumbnail and tile the already-rendered PNGs. This is a QA artifact only; keep it in a temporary directory.
 - Do not call the Canvas template QA script with an arbitrary system Python. Use the documented `uv run --with beautifulsoup4 --with textstat ...` command so `bs4` and `textstat` are present.

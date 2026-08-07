@@ -1,111 +1,59 @@
-# Day 2: Climbing the Nursing Ladder
+# Day 2: Compare Nursing Education and Pay
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the RN and NP rows of the Nursing Career Ladder; analyze the relationship between education time and salary; compare three nursing salaries |
+| **Objectives** | Complete a four-career comparison; distinguish common RN education routes; recommend a route using preparation, pay, and one trade-off |
 | **TEKS** | d(2)(A), d(2)(B), d(5)(E) |
-| **5E Phases** | Engage: Warm-Up · Explore: RN and NP ladder rows from H&L and BLS data · Explain: Salary analysis and whole-class share · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Nursing Career Ladder worksheet (all 4 rows) + 2-sentence salary analysis answer |
-| **Materials** | Chromebooks, H&L accounts, BLS RN and NP pages, *Find Your Future* workbook pp. 84-85, Nursing Career Ladder worksheet from Day 1, calculator (optional) |
-
----
+| **5E Phases** | Engage: Warm-Up, Explore: four-role comparison, Explain: Texas program approval and RN routes, Elaborate: recommendation, Evaluate: ranked close |
+| **Deliverable** | Completed Nursing Route Comparison and Decision |
+| **Materials** | Nursing Career Route Guide, Nursing Route Comparison, calculators optional |
 
 ## Warm-Up (5 min)
 
-**WARM-UP: If you could earn money faster with less school (CNA in 12 weeks) OR earn more money with more school (NP in 8 years), which would you choose? Why?**
+**WARM-UP:** A shorter program can lead to work sooner. A longer program can open different responsibilities. What information would you need before choosing?
 
-Take 3-4 responses. Some students will say "more money, more school," some will say "start working now." Bridge: there is no wrong answer, but today students get the actual data to make an informed choice.
+Collect questions about admission, time, cost, approval, license, daily work, and pay. A high salary by itself is not a complete route decision.
 
----
+## Activity 1: Finish the Four-Role Comparison (20 min)
 
-## Activity 1: Complete the RN Row (15 min)
+Students complete RN and nurse practitioner rows on the [Nursing Route Comparison](../../resources/worksheets/2sw-wk3-nursing-route-comparison.pdf), then check all four salary figures against the same May 2024 U.S. median basis.
 
-**Source:** Hats & Ladders app + BLS Registered Nurses page; program context from (FYF pp. 84-85: "What is Happening at My District?")
+Answer key:
 
-Students return to the Nursing Career Ladder worksheet from Day 1. They complete the **RN row** using H&L Hat Finder + BLS data.
+- Nursing assistant: $39,530
+- LVN: $62,340
+- RN: $93,600
+- Nurse practitioner: $129,210
 
-The RN row has a complication: there are TWO entry paths to RN. Walk students through both options on the projector:
+These are BLS national medians. Do not convert them into starting pay or DFW wages.
 
-- **ADN Path:** Associate Degree in Nursing, 2 years at a community college (Dallas College, Tarrant County College)
-- **BSN Path:** Bachelor of Science in Nursing, 4 years at a university (UT Arlington, Texas Woman's University)
+## Activity 2: Evaluate RN Routes (10 min)
 
-Both paths lead to the same RN license (the NCLEX exam). The BSN often pays more long-term and is required for some hospital systems. Students should record BOTH paths in the Education column.
+BLS identifies associate, bachelor's, and approved diploma routes to RN preparation. The Texas Board of Nursing instructs prospective students to verify that a pre-licensure program is approved before enrolling. Graduates then follow the RN licensure examination process.
 
-> [H&L PLATFORM] In the H&L app, click the Registered Nurse Hat, scroll to the education section. The H&L data shows DFW-localized salary information. Students record the salary in their worksheet.
+Students Stop and Jot one possible advantage and one trade-off for an associate and bachelor's route. Accept cost, time, transfer plans, admission requirements, employer preferences, and long-term goals. Do not claim that the degree alone guarantees higher pay.
 
-**DFW RN Salary** (BLS): ~$80K median.
+## Activity 3: Make a Defensible Recommendation (10 min)
 
-!!! tip "Facilitation Tip"
-    The two-path RN is a great teaching moment for d(2)(B). Most students think there is one "right" way to become an RN. The reality: both ADN and BSN graduates take the same NCLEX exam. The choice is about cost, time, and long-term plans.
+Students choose Jordan, Avery, or Sam from Part 3 and recommend a route using:
 
----
+1. one preparation fact,
+2. one correctly labeled pay fact, and
+3. one trade-off or unanswered question.
 
-## Activity 2: Complete the NP Row (12 min)
+**DOK 3:** Why might two students choose different routes even when they use the same career data?
 
-Students complete the **NP row** independently. Key data points:
+## Exit Ticket (5 min)
 
-- **Education:** RN license + Master's degree in Nursing (MSN) or Doctor of Nursing Practice (DNP)
-- **Time to Complete:** 6-8 years total after high school (4 years BSN + 2-4 years MSN/DNP)
-- **DFW Salary:** ~$120K median (BLS)
-- **One Daily Task:** Diagnose patients, prescribe medications, manage chronic conditions
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/2sw-wk3-day2-compare-nursing-education-and-pay.pdf):
 
-Students then look at the FULL completed worksheet (CNA → LVN → RN → NP) and circle the salary differences between adjacent levels.
-
----
-
-## Activity 3: Salary Analysis (15 min)
-
-**Source:** Completed Nursing Career Ladder worksheet
-
-Project the discussion question and let students work individually or in pairs to answer:
-
-**DOK 3:** What conclusions can you draw about the relationship between education level and salary in nursing? Is more education ALWAYS worth the investment? Use specific salary numbers from your worksheet to support your answer.
-
-**Stop and Jot:** Students write a 2-sentence answer below the worksheet. Give a 4 minute time box with the prompt on screen and offer two stems: "More education pays off when _____" and "More education is NOT worth it when _____." Strong answers will:
-
-- Cite specific DFW salaries (CNA ~$32K, NP ~$120K)
-- Acknowledge that the answer depends on the student's life situation (family obligations, financial resources)
-- Identify the "biggest jump", typically LVN → RN, where ~1 year of additional education yields ~$30K salary increase
-
-After 10 minutes, take 3-4 answers that recommend different routes. Record the education time and salary fact behind each choice so students can see why the same table produces different decisions.
-
-Close the share by opening the district page's Career Exploration Connection on financial resources (FYF p. 84). Education and training programs cost money, but grants, scholarships, and loans help cover the expense. Grants and scholarships usually do not have to be repaid; loans are borrowed money that has to be paid back over time. Put the page's own discussion question to the class: why is it important to understand the costs of a big decision before making it?
-
-**DOK 3:** Compare the salaries of three nursing careers (CNA, RN, NP) and explain which offers the BEST balance of education time and salary.
-
-!!! tip "Facilitation Tip"
-    Watch for students who say "More school = always better." Push back: "What if you have to work full-time to support your family while in school?" Real career decisions involve tradeoffs, not just the highest number. The grant-versus-loan distinction is the piece most students have never heard, so leave it on the board through the exit ticket.
-
----
-
-## Exit Ticket (3 min)
-
-**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/2sw-wk3-day2-climbing-the-nursing-ladder.pdf):
-
-Rank all four nursing levels from BEST BALANCE of education time to salary (1) to WORST (4) FOR YOU personally. Use your completed Nursing Career Ladder worksheet.
-
-- CNA: rank ____
-- LVN: rank ____
-- RN: rank ____
-- NP: rank ____
-
-For EACH rank, write ONE data point (time, cost, or salary) from your worksheet that backs up the rank.
-
-- Rank 1 (best balance for me): _______________________________________________________
-
-- Rank 4 (worst balance for me): _______________________________________________________
-
-Bottom line: The factor that matters MOST in my rank is (circle one): **years of training** / **cost of school** / **starting salary** / **long-term salary**. In one sentence, why does this factor matter most to me? *(d(2)(B), d(5)(E))*
-
-   ___________________________________________________________________
-
----
+Rank nursing assistant, LVN, RN, and nurse practitioner from best to least suitable for the fictional student you chose. For Rank 1 and Rank 4, give one preparation or pay fact. Then name the trade-off that had the greatest effect on your ranking. *(d(2)(A), d(2)(B), d(5)(E))*
 
 ## Differentiation
 
-- **Support:** Pre-fill the LVN and RN rows; students complete only NP. Provide a "best balance" sentence stem: "I would pick _____ because it takes _____ years and pays _____."
-- **Extension:** Students calculate the 5-year and 10-year earnings for a CNA vs. an RN, including 2 years of "lost income" while in nursing school. Where is the break-even point?
-- **ELL:** Bilingual worksheet column headers. Pre-teach: Salary = Salario, Education = Educación, Degree = Título, Bachelor's = Licenciatura, Master's = Maestría.
+- **Support:** Complete one RN cell together and provide the frame "I recommend _____ because the route requires _____ and the May 2024 U.S. median is _____. The trade-off is _____."
+- **Extension:** Compare an approved ADN and BSN program using published tuition and admission information, keeping source date and residency assumptions visible.
+- **ELL:** Pre-teach approved = aprobado, degree = título, licensure exam = examen de licencia, trade-off = compensación. Score evidence and reasoning, not English mechanics.

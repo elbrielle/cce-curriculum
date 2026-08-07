@@ -32,6 +32,13 @@ async def main():
         if module.get("published"): problems.append("module is published")
         if positions != list(range(1,len(items)+1)): problems.append(f"positions are not consecutive: {positions}")
         for item in items:
+            if item.get("type") == "Quiz" and item.get("content_id"):
+                quiz=await api(client,f"/courses/{COURSE_ID}/quizzes/{item['content_id']}")
+                questions=await paged(client,f"/courses/{COURSE_ID}/quizzes/{item['content_id']}/questions")
+                if quiz.get("published") or item.get("published"):
+                    problems.append(f"quiz published: {quiz.get('id')}")
+                interactives.append({"item_id":item["id"],"position":item["position"],"type":"Quiz","content_id":quiz.get("id"),"title":quiz.get("title"),"published":quiz.get("published"),"quiz_type":quiz.get("quiz_type"),"questions":len(questions)})
+                continue
             if item.get("type") == "Discussion" and item.get("content_id"):
                 topic=await api(client,f"/courses/{COURSE_ID}/discussion_topics/{item['content_id']}")
                 if topic.get("published") or item.get("published"):

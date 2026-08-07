@@ -1,116 +1,62 @@
-# Day 5: Reflection + Xello Learning Styles + eDynamic
+# Day 5: Save Three Careers in Xello
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the Xello Learning Styles lesson; complete eDynamic Unit 4.2 Part 2; finish the App Exploration Hat ratings and finalize Health Science favorites in H&L; reflect on whether the nursing pathway fits the student's core personality type |
-| **TEKS** | d(1)(A), d(1)(C) |
-| **5E Phases** | Engage: Warm-Up · Explore: Xello Learning Styles assessment · Explain: eDynamic 4.2 Part 2 · Extend: App Exploration Hat ratings and Climber Profile · Evaluate: Reflection and Exit Ticket |
-| **Deliverable** | Updated H&L Climber Profile with 2-3 nursing favorites + Xello Learning Styles result + eDynamic 4.2 Part 2 unit completion + 3-sentence reflection |
-| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook p. 86, Xello accounts, eDynamic Learning login, projector |
-
----
+| **Objectives** | Complete the required Xello Save careers task; save at least three careers; connect one saved career to route, responsibility, or work-condition evidence |
+| **TEKS** | d(1)(C) |
+| **5E Phases** | Engage: Warm-Up, Explore: Xello career review and save task, Explain: individual comparison, Evaluate: completion check and close |
+| **Deliverable** | Xello record with at least three saved careers plus Xello Save Three Careers Reflection |
+| **Materials** | Xello accounts, licensed My Careers teacher guide in Canvas, Xello Save Three Careers Reflection |
 
 ## Warm-Up (5 min)
 
-**WARM-UP: How has your understanding of nursing changed this week compared to what you thought before?**
+**WARM-UP:** Name one career you want to keep exploring and one fact you still need before you could make a decision.
 
-Take 3-4 responses. Bridge: most students arrive thinking "nursing = giving shots and helping doctors." This week showed nursing is a LADDER with technology, math, science, and constant learning.
+Students may choose careers outside Health Science. Saving a career means keeping it for comparison, not committing to it.
 
----
+## Activity 1: Required Xello Save Careers (30 min)
 
-## Activity 1: Xello Learning Styles Lesson (15 min)
+Protect the full configured time. The Bowie Grade 8 Completion Standards require students to save at least **three careers**.
 
-Open Xello and direct students to the **Learning styles** lesson as supplemental instruction. This lesson is not a Bowie Grade 8 completion standard. It helps students examine how they learn best through visual, listening, hands-on, and reading/writing approaches.
+1. Open Xello through ClassLink.
+2. Use Explore Careers or a profile recommendation.
+3. Open a career and review daily tasks, preparation, and work conditions.
+4. Save the career.
+5. Repeat until at least three careers appear in the saved-careers list.
 
-Students complete the lesson, take the assessment, and read their results. They write down their primary learning style.
+The teacher checks the Completion Standards report. A screenshot may help with troubleshooting, but the Xello report is the completion record.
 
-Then they connect their learning style to the nursing career ladder:
+Students who cannot access Xello complete the paper reflection and move to a supervised catch-up list. Paper work does not replace the district completion requirement.
 
-- **Visual learners** → may prefer Diagnostic Imaging (Radiology Tech) or Surgical Tech (watching procedures)
-- **Auditory learners** → may prefer counseling roles (Psychiatric Nurse, Patient Educator)
-- **Kinesthetic learners** → may prefer hands-on patient care (CNA, ER Nurse, EMT)
-- **Reading/writing learners** → may prefer documentation-heavy roles (Nurse Manager, Medical Writer)
+## Activity 2: Individual Comparison (10 min)
 
-Students write one sentence: *"My learning style is _____, which connects to the nursing career of _____ because _____."*
+Students complete the [Xello Save Three Careers Reflection](../../resources/worksheets/2sw-wk3-xello-save-careers-reflection.pdf). They identify:
 
----
+- one saved career that currently fits,
+- one Week 0 result or building block that supports the choice,
+- one career that needs more research, and
+- the exact fact they will check next.
 
-## Activity 2: eDynamic Unit 4.2 Part 2 — Experimenting with Careers (15 min)
-
-Direct students to eDynamic Learning **Unit 4.2 Part 2: Experimenting with Careers**. This unit provides a structured curriculum complement to the H&L exploration done this week.
-
-Students complete the unit's lesson and any embedded activities. The unit reinforces the concept that career exploration is an experiment, try different things, learn from each one.
-
-> [VERIFY IN eDynamic] Confirm that Unit 4.2 Part 2 in eDynamic Learning covers experimenting with careers and is appropriate for 7th-grade Health Science framing.
-
-After completing the unit, students write one sentence about which Health Science "experiment" they want to try next (Day 4 dental, Day 5 medical billing, Wk 6 biomedical).
-
----
-
-## Activity 3: App Exploration Hat Ratings + Climber Profile (10 min)
-
-**Source:** (FYF p. 86: "App Exploration")
-
-Students finish the App Exploration page they started on Day 1 and finalize their nursing favorites. They should favorite **2-3 nursing or related Health Science careers**.
-
-> [H&L PLATFORM] In the Hats & Ladders app, students go back to Clusters, click the Health Science Cluster, and complete the App Exploration steps they have not finished: name 1 Hat that matches their personality or interests and 1 Hat that does not fit and say why for each, then rate at least 3 Hats. They record the answers on workbook page 86. In the Hat Finder they click the heart icon on 2-3 Health Science Hats, then open "Climber Profile." Students should now have favorites from FOUR clusters: Manufacturing, IT, Law, and Health Science. The Climber Profile shows how the favorited Hats connect to the core personality type from Week 0.
-
-**Active Monitoring:** Walk the room with one target, that every student has rated at least 3 Hats and can name the one they favorited. Ask each student: "Which nursing career did you favorite, and how does it fit your core personality type?" If several students have rated Hats without favoriting any, pause and reteach the difference between rating a Hat and saving one to the profile.
-
-!!! tip "Facilitation Tip"
-    Some students will not favorite anything because they did not like nursing. Ask them to name the job condition, training requirement, or daily task that ruled it out, then save that reasoning in the reflection. Eliminating a path is still a career decision.
-
----
-
-## Activity 4: Reflection (5 min)
-
-Students write a 3-sentence reflection in their notebook or on a slip:
-
-1. *"The nursing career I favorited is _____."*
-2. *"My core personality type is _____, and this career fits/doesn't fit because _____."*
-3. *"Next week we explore dental and medical billing. The thing I'm most curious about is _____."*
-
-This reflection is a quick formative check that the week landed.
-
-**DOK 2:** Based on your Xello Learning Styles result from Activity 1, would the education pathway you are most drawn to (CNA certificate vs. BSN degree vs. Nurse Practitioner graduate school) be a good fit for how you actually learn? Explain the connection between your learning style and the amount of time you would spend in a classroom versus hands-on in clinicals.
-
----
+H&L App Exploration and eDynamic Unit 4.2 Part 2 are optional extensions. They do not replace the required Xello task.
 
 ## Exit Ticket (5 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/2sw-wk3-day5-reflection-xello-learning-styles-edynamic.pdf):
+**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/2sw-wk3-day5-save-three-careers-in-xello.pdf):
 
-A nursing career I favorited this week: _______________________
+Place one saved career in the center. Connect it to:
 
-Connect this career to THREE things:
+1. one daily responsibility,
+2. one preparation step,
+3. one work condition or salary-source label, and
+4. one reason to keep exploring or rule it out.
 
-**1. My Xello Learning Style result from today** (visual, auditory, kinesthetic, or reading/writing)
-
-   My learning style: _______________________. In one sentence, does this learning style fit the amount of classroom study my favorited career requires? Why or why not:
-
-   ___________________________________________________________________
-
-**2. My Wk0 core personality type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
-
-   My core personality type: _______________________. In one sentence, does this career fit my type?
-
-   ___________________________________________________________________
-
-**3. The Patient Care Technician program at Singley Academy** (leads to Patient Care Tech and Phlebotomy certifications)
-
-   Does this program lead DIRECTLY to my favorited career or is it a STEPPING STONE? Circle: DIRECT / STEPPING STONE. One sentence why:
-
-   ___________________________________________________________________
-
-*(d(1)(A), d(1)(C))*
-
----
+Star the connection that comes from a verified source. *(d(1)(C))*
 
 ## Differentiation
 
-- **Support:** Provide a fill-in-the-blank reflection template. Use Xello's built-in audio narration for the Learning Styles Lesson.
-- **Extension:** Students research a specialized nursing career not covered this week (Flight Nurse, Forensic Nurse, Nurse Anesthetist) and add it to their Climber Profile.
-- **ELL:** Xello has Spanish-language support built-in. eDynamic also offers Spanish translation. Pair ESL students with bilingual peers for the H&L Climber Profile review.
+- **Support:** Reduce the initial browse to three teacher-selected career pages, then allow the student to replace one after completing the minimum.
+- **Extension:** Compare one saved Health Science career with one saved career from another cluster using the same three evidence categories.
+- **ELL:** Pre-teach save = guardar, compare = comparar, work condition = condición de trabajo, preparation = preparación. Students may use Xello audio and language supports when available.
