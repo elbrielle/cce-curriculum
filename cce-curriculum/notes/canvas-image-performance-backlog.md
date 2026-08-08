@@ -47,9 +47,20 @@ Do not batch-compress screenshots containing small directions, labels, charts, o
 - The source HTML includes `loading="lazy"`, but Canvas did not preserve that attribute in the signed-in rendered DOM during this check. Week 6 therefore controls first-load cost primarily through targeted page selection and small JPEG delivery files rather than assuming browser lazy loading.
 - No Week 6 image exceeds 300 KB. No replacement is warranted unless classroom network testing shows a real delay.
 
+### 4SW Week 1 baseline
+
+- Seven focused workbook JPEGs are 92-193 KB each at 1,020 by 1,320 pixels and display at a maximum of 700 pixels.
+- Canvas file IDs are 14561660-14561666. Day 2 carries the largest combined image weight at about 397 KB across three instructional pages.
+- Signed-in desktop and 390-pixel checks found no horizontal overflow. The mobile display width is about 342 pixels, and the linked student packet provides the independent text and writing route.
+- The Day 5 image remained unloaded above the fold and completed after the student scrolled into the lesson. Do not rely on that behavior alone; the small, focused JPEG remains the primary performance control.
+- No Week 1 replacement is warranted. The first-six-weeks cold-load audit remains open because cached teacher review is not equivalent to a student's first visit on a constrained connection.
+
 ## Later audit queue
 
-- Sample image-heavy pages from the first six weeks in signed-in Canvas.
+- User observation on 2026-08-08: several images in the first six weeks appeared to load slowly during signed-in Canvas review. Treat this as the first performance sample, even where individual files appear modest in size.
+- Sample image-heavy pages from the first six weeks in signed-in Canvas on desktop and a 390-pixel viewport. Include at least one cold-load check on a constrained connection when practical; browser cache can hide the delay students experience on first visit.
 - Record the largest delivery files and the pages students report as slow.
 - Prioritize repeated images, files above roughly 500 KB, and full-page screenshots displayed below half their native width.
 - Compare an optimized copy with the existing Canvas file before replacing anything.
+- Record the combined image weight per page, not only each file size. Several individually reasonable images can still make one student page slow.
+- Keep a text or downloadable-document route for any instructional image whose smallest labels cannot remain readable after optimization.

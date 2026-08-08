@@ -469,3 +469,23 @@ This log records the official Canvas build without storing access credentials or
 - API/browser QA: the generic verifier passed all 17 consecutive items with no unresolved fields, missing file references, unsupported item types, or published content. Signed-in Chrome confirmed the module heading, teacher/student link, official Xello video and PDF routes, image alt text and dimensions, and clean desktop/mobile rendering.
 - Importer: `build/canvas/build_3sw_wk6.py`
 - Read-only verifier: `build/canvas/qa_canvas_module.py 544318`
+
+## 2026-08-08 - 4SW Week 1 paired lesson set
+
+- Module: `4SW Wk1: Build Your Mid-Year Career Blueprint` (544320)
+- State: unpublished
+- The module contains five native Day `SubHeader` items, ten coordinated teacher/student pages, one unpublished Student Annotation assignment, and one unpublished private Blueprint assignment in a 17-item chronological route.
+- Unpublished annotation Assignment: `PRACTICE: Career Iceberg Annotation` (3094020, item 5311442). It annotates the supplied Career Iceberg PDF and also accepts file upload or text entry. Paper, typed labels, drawing, and oral/media routes remain equal evidence routes.
+- Unpublished private Assignment: `DRAFT: Mid-Year Career Blueprint` (3094021, item 5311452). It remains ungraded and accepts file upload, text entry, or media recording until the live Major assignment group and 40/60 weighting are verified.
+- Locked Canvas folder: core Week 1 1155217. The four Day visual folders are also locked. Delivery files remain available inside unpublished pages because individual file locks prevent the embedded visuals from rendering even in teacher preview; the locked parent folders and unpublished content are the access boundary during review.
+- Core artifact file IDs: Profile Audit 14561654, Career Iceberg 14561655, Career Deep Dive 14561656, Pathway and CTSO Decision 14561657, Mid-Year Career Blueprint 14561658, and rubric 14561659.
+- Licensed FYF visuals: seven focused workbook JPEGs are stored only in the locked Canvas Day folders as files 14561660-14561666. They remain gitignored and are not part of the public source backup.
+- Sequence correction: supplemental Xello Quick Sims and the unverified eDynamic 8.1 unit were removed from the required path. H&amp;L and Xello may supply student-selected evidence but are not login-dependent completion gates. No private profile screenshot is required.
+- Standards correction: d(5)(D) was removed because salary research is not a personal budget. Day 3 now carries d(8)(B) through documented preparation, pay, outlook, and source labels; Day 4 retains d(3)(F) through a specific CTSO preparation benefit without promising a local chapter.
+- Current-local correction: Irving ISD High School CTE and 2026-27 course-description pages control program names. TEA's CTSO list establishes recognized organizations but not campus availability.
+- Grading: Days 1-4 are formative. Day 5 is the recommended student-visible 16-point major; self-evidence, source accuracy, pathway reasoning, and a realistic next action are scored. Grammar, art, accent, platform access, and submission mode do not determine the score.
+- Worksheet QA: six PDFs totaling nineteen pages passed strict rendering with zero warnings and visual inspection. The iceberg receives a full page, multi-sentence prompts use full-width ruled areas, and short phrase fields are not used for paragraph-length reasoning.
+- Image-performance QA: all seven delivery images are 92-193 KB. Desktop and 390-pixel checks found no horizontal overflow; images display at about 342 pixels on mobile and load as the student reaches them. The downloadable packet preserves the readable text route.
+- API/browser QA: the generic verifier passed all 17 consecutive items with no unresolved fields, missing references, unsupported item types, or published content. Signed-in Chrome confirmed module order, embedded visuals and alt text, the annotation and Blueprint submission routes, disclosure headings, and clean desktop/mobile rendering. Canvas produced only its own non-blocking publishing-context warning.
+- Importer: `build/canvas/build_4sw_wk1.py`
+- Read-only verifier: `build/canvas/qa_canvas_module.py 544320`
