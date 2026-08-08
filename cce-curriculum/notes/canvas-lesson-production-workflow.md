@@ -218,6 +218,7 @@ No page pair is complete until all checks pass.
 ### Content and accessibility checks
 
 - student prose is near the 6th-7th-grade target;
+- every writing prompt has response space matched to its required output: a word or number may use a short field, a sentence needs at least one full-width ruled line, multi-part reasoning needs separate labeled lines, and a labeled design needs a genuinely usable drawing area;
 - headings do not skip levels;
 - every image has useful alt text;
 - every `<details>` has a `<summary>`;
@@ -270,6 +271,7 @@ For generic HTML templates that still contain placeholder prose, calculate readi
 - `pdftoppm` zero-pads page suffixes when the source PDF has many pages (`-054.png`, not `-54.png`). List the rendered directory before copying selected pages instead of guessing filenames.
 - ImageMagick's `montage` command may not be installed. For a worksheet/PDF contact sheet, use the bundled workspace Python plus Pillow to thumbnail and tile the already-rendered PNGs. This is a QA artifact only; keep it in a temporary directory.
 - Do not call the Canvas template QA script with an arbitrary system Python. Use the documented `uv run --with beautifulsoup4 --with textstat ...` command so `bs4` and `textstat` are present.
+- Xello presentation objects may receive different runtime IDs each time a deck is opened or imported. Resolve the live object by its visible text and slide context before editing; do not hard-code an ID copied from a static inspection. Render the final deck again after the edit and run both template-fidelity and overflow checks.
 - Exit-ticket rendering derives the output filename from the day-page H1. When a day title changes, use the canonical `**EXIT TICKET** (Format):` marker, regenerate, run `build/inject_pdf_links.py`, and review the newly named PDF. Restore timestamp-only churn from unrelated tickets before staging.
 
 ## 8. Efficient scaling pattern

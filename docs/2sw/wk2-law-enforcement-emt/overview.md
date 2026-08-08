@@ -54,7 +54,7 @@ Hats & Ladders and Xello may extend career exploration. Neither platform is requ
 
 ## Grading
 
-The Patient Care Report and complication plan form one 16-point durable evidence set. Score each student's writing with the district bands in the rubric. Do not grade platform access, willingness to be touched, physical technique, artistic presentation, or public speaking. The other artifacts are formative/minor candidates when the campus gradebook structure is confirmed.
+The Patient Care Report and complication plan form the recommended second **major** of the 2SW block. Score the 16-point durable evidence set with the district bands in the rubric. Do not grade platform access, willingness to be touched, physical technique, artistic presentation, or public speaking. The other artifacts are formative only.
 
 ## Access and Participation
 

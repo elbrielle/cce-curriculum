@@ -1,0 +1,443 @@
+"""Build the unpublished 2SW Week 6 biomedical module and interactions."""
+
+import asyncio
+import json
+import mimetypes
+import re
+import sys
+from pathlib import Path
+
+import httpx
+
+BASE = "https://learn.irvingisd.net"
+COURSE_ID = 98060
+MODULE_NAME = "2SW Wk6: Science Meets Medicine"
+QUIZ_TITLE = "PRACTICE: Outbreak Evidence Check"
+ASSIGNMENT_TITLE = "PRACTICE: Explore Career Matches Reflection"
+ROOT = Path(__file__).resolve().parents[2]
+TEMPLATES = Path(__file__).parent / "templates"
+ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/2sw/wk6"
+XELLO = ROOT / "cce-curriculum/resources/xello-licensed/lessons"
+
+
+def slugify(value):
+    return re.sub(r"[^a-z0-9]+", "-", value.lower().replace("&", "and")).strip("-")
+
+
+async def api(client, method, path, **kwargs):
+    response = await client.request(method, f"{BASE}/api/v1{path}", **kwargs)
+    response.raise_for_status()
+    return response.json() if response.content else None
+
+
+async def paged(client, path, params=None):
+    output = []
+    url = f"{BASE}/api/v1{path}"
+    query = {"per_page": 100, **(params or {})}
+    while url:
+        response = await client.get(url, params=query)
+        response.raise_for_status()
+        output += response.json()
+        url = response.links.get("next", {}).get("url")
+        query = None
+    return output
+
+
+async def ensure_module(client):
+    modules = await paged(client, f"/courses/{COURSE_ID}/modules")
+    found = next((module for module in modules if module["name"] == MODULE_NAME), None)
+    if found:
+        if found.get("published"):
+            return await api(client, "PUT", f"/courses/{COURSE_ID}/modules/{found['id']}", data={"module[published]": "false"})
+        return found
+    return await api(client, "POST", f"/courses/{COURSE_ID}/modules", data={"module[name]": MODULE_NAME, "module[published]": "false"})
+
+
+async def ensure_folder(client, path):
+    current = ""
+    folder = None
+    for name in path.split("/")[1:]:
+        target = f"{current}/{name}".strip("/")
+        encoded = httpx.URL("/" + target).raw_path.decode("ascii").lstrip("/")
+        response = await client.get(f"{BASE}/api/v1/courses/{COURSE_ID}/folders/by_path/{encoded}")
+        if response.status_code == 200 and response.json():
+            folder = response.json()[-1]
+        else:
+            folder = await api(
+                client,
+                "POST",
+                f"/courses/{COURSE_ID}/folders",
+                data={"name": name, "parent_folder_path": "course files" + (f"/{current}" if current else ""), "locked": "true"},
+            )
+        current = target
+    if folder and not folder.get("locked"):
+        folder = await api(client, "PUT", f"/folders/{folder['id']}", data={"locked": "true"})
+    return folder
+
+
+async def upload(client, path, folder_path):
+    start = await api(
+        client,
+        "POST",
+        f"/courses/{COURSE_ID}/files",
+        data={"name": path.name, "parent_folder_path": folder_path, "on_duplicate": "overwrite"},
+    )
+    response = await client.post(
+        start["upload_url"],
+        data=start["upload_params"],
+        files={"file": (path.name, path.read_bytes(), mimetypes.guess_type(path.name)[0] or "application/octet-stream")},
+        follow_redirects=True,
+    )
+    response.raise_for_status()
+    return response.json()
+
+
+def render(template_name, values):
+    text = (TEMPLATES / template_name).read_text()
+    for key, value in values.items():
+        text = text.replace("{{" + key + "}}", str(value))
+    unresolved = sorted(set(re.findall(r"\{\{[^}]+\}\}", text)))
+    if unresolved:
+        raise ValueError(f"Unresolved values in {template_name}: {unresolved}")
+    return text
+
+
+async def upsert_page(client, title, body, url):
+    data = {
+        "wiki_page[title]": title,
+        "wiki_page[body]": body,
+        "wiki_page[published]": "false",
+        "wiki_page[editing_roles]": "teachers",
+    }
+    response = await client.get(f"{BASE}/api/v1/courses/{COURSE_ID}/pages/{url}")
+    if response.status_code == 200:
+        return await api(client, "PUT", f"/courses/{COURSE_ID}/pages/{url}", data=data)
+    if response.status_code != 404:
+        response.raise_for_status()
+    return await api(client, "POST", f"/courses/{COURSE_ID}/pages", data=data)
+
+
+async def upsert_page_item(client, module_id, page, title):
+    items = await paged(client, f"/courses/{COURSE_ID}/modules/{module_id}/items")
+    item = next((entry for entry in items if entry.get("page_url") == page["url"]), None)
+    if item:
+        return await api(client, "PUT", f"/courses/{COURSE_ID}/modules/{module_id}/items/{item['id']}", data={"module_item[title]": title})
+    return await api(client, "POST", f"/courses/{COURSE_ID}/modules/{module_id}/items", data={"module_item[type]": "Page", "module_item[page_url]": page["url"], "module_item[title]": title})
+
+
+def file_link(file_id, label):
+    return f'<a href="/courses/{COURSE_ID}/files/{file_id}/preview" data-api-endpoint="/api/v1/courses/{COURSE_ID}/files/{file_id}" data-api-returntype="File">{label}</a>'
+
+
+def image_tag(file_id, alt, max_width=760):
+    return f'<img src="/courses/{COURSE_ID}/files/{file_id}/preview" alt="{alt}" style="display:block;width:100%;max-width:{max_width}px;height:auto;margin:14px auto;border:1px solid #ddd" data-api-endpoint="/api/v1/courses/{COURSE_ID}/files/{file_id}" data-api-returntype="File">'
+
+
+def step(number, title, body, color="#5a2d91"):
+    return f'<h3 style="color:{color};border-bottom:3px solid #d9c9ed">{number}. {title}</h3>{body}'
+
+
+def flow(color, title, text):
+    return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0;color:{color}">{title}</h4><p>{text}</p></div>'
+
+
+QUIZ_QUESTIONS = [
+    {
+        "name": "Q1 - Comparison group",
+        "text": "Which Fairview Edge evidence gives the strongest comparison group?",
+        "correct": "Two residents drank bottled water and did not get sick.",
+        "wrong": ["One resident played soccer.", "One resident is 52 years old.", "The town has about 2,000 residents."],
+        "correct_comment": "Correct. Comparing exposed and unexposed residents strengthens the working claim.",
+        "incorrect_comment": "Look for evidence that compares exposure and outcome, not a detail that applies to only one person.",
+    },
+    {
+        "name": "Q2 - Claim boundary",
+        "text": "What is the strongest conclusion the class can make before water testing?",
+        "correct": "Tap-water exposure after flooding is a supported working hypothesis that still needs testing.",
+        "wrong": ["The tap water is proven to be the cause.", "Every resident will become sick.", "River swimming caused every case."],
+        "correct_comment": "Correct. The pattern supports a hypothesis, not final proof.",
+        "incorrect_comment": "The case supports a working claim, but confirming tests are still required.",
+    },
+    {
+        "name": "Q3 - Immediate versus prevention",
+        "text": "Which choice is a prevention step rather than an immediate action?",
+        "correct": "Protect the water source from future flooding.",
+        "wrong": ["Provide safe drinking water during the current event.", "Tell residents the current approved safety directions.", "Collect water samples today."],
+        "correct_comment": "Correct. Prevention changes the system before the next event.",
+        "incorrect_comment": "Immediate actions address the current event. Prevention reduces the chance of a future event.",
+    },
+    {
+        "name": "Q4 - Real event boundary",
+        "text": "A real local water warning appears during class. What should students do?",
+        "correct": "Follow current local officials, district directions, and a trusted adult.",
+        "wrong": ["Use the fictional worksheet as official guidance.", "Write their own public-health instructions.", "Wait for classmates to vote on the best action."],
+        "correct_comment": "Correct. The classroom case is not official guidance.",
+        "incorrect_comment": "A real event requires current official directions, not a classroom simulation.",
+    },
+]
+
+
+async def upsert_quiz(client):
+    quizzes = await paged(client, f"/courses/{COURSE_ID}/quizzes")
+    quiz = next((entry for entry in quizzes if entry.get("title") == QUIZ_TITLE), None)
+    data = {
+        "quiz[title]": QUIZ_TITLE,
+        "quiz[description]": "<p>Ungraded practice. Retry and use the feedback before writing the response plan.</p>",
+        "quiz[quiz_type]": "practice_quiz",
+        "quiz[published]": "false",
+        "quiz[allowed_attempts]": "-1",
+        "quiz[show_correct_answers]": "true",
+        "quiz[shuffle_answers]": "false",
+    }
+    quiz = await api(client, "PUT" if quiz else "POST", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}" if quiz else f"/courses/{COURSE_ID}/quizzes", data=data)
+    existing = await paged(client, f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions")
+    for position, spec in enumerate(QUIZ_QUESTIONS, start=1):
+        found = next((question for question in existing if question.get("question_name") == spec["name"]), None)
+        answers = [{"answer_text": spec["correct"], "answer_weight": 100}] + [{"answer_text": value, "answer_weight": 0} for value in spec["wrong"]]
+        payload = {"question": {"question_name": spec["name"], "question_text": spec["text"], "question_type": "multiple_choice_question", "position": position, "points_possible": 1, "correct_comments": spec["correct_comment"], "incorrect_comments": spec["incorrect_comment"], "answers": answers}}
+        await api(client, "PUT" if found else "POST", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions/{found['id']}" if found else f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions", json=payload)
+    return await api(client, "GET", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}")
+
+
+async def upsert_quiz_item(client, module_id, quiz):
+    items = await paged(client, f"/courses/{COURSE_ID}/modules/{module_id}/items")
+    item = next((entry for entry in items if entry.get("type") == "Quiz" and entry.get("content_id") == quiz["id"]), None)
+    if item:
+        return await api(client, "PUT", f"/courses/{COURSE_ID}/modules/{module_id}/items/{item['id']}", data={"module_item[title]": QUIZ_TITLE})
+    return await api(client, "POST", f"/courses/{COURSE_ID}/modules/{module_id}/items", data={"module_item[type]": "Quiz", "module_item[content_id]": quiz["id"], "module_item[title]": QUIZ_TITLE})
+
+
+async def upsert_assignment(client):
+    assignments = await paged(client, f"/courses/{COURSE_ID}/assignments")
+    found = next((entry for entry in assignments if entry.get("name") == ASSIGNMENT_TITLE), None)
+    data = {
+        "assignment[name]": ASSIGNMENT_TITLE,
+        "assignment[description]": "<p>Submit the private before-and-after Explore Career Matches reflection. You may type the response or upload the supplied PDF. Do not submit a screenshot of your Xello profile.</p>",
+        "assignment[submission_types][]": ["online_text_entry", "online_upload"],
+        "assignment[grading_type]": "not_graded",
+        "assignment[points_possible]": "0",
+        "assignment[published]": "false",
+    }
+    if found:
+        return await api(client, "PUT", f"/courses/{COURSE_ID}/assignments/{found['id']}", data=data)
+    return await api(client, "POST", f"/courses/{COURSE_ID}/assignments", data=data)
+
+
+async def upsert_assignment_item(client, module_id, assignment):
+    items = await paged(client, f"/courses/{COURSE_ID}/modules/{module_id}/items")
+    item = next((entry for entry in items if entry.get("type") == "Assignment" and entry.get("content_id") == assignment["id"]), None)
+    if item:
+        return await api(client, "PUT", f"/courses/{COURSE_ID}/modules/{module_id}/items/{item['id']}", data={"module_item[title]": ASSIGNMENT_TITLE})
+    return await api(client, "POST", f"/courses/{COURSE_ID}/modules/{module_id}/items", data={"module_item[type]": "Assignment", "module_item[content_id]": assignment["id"], "module_item[title]": ASSIGNMENT_TITLE})
+
+
+async def main():
+    token = sys.stdin.readline().strip()
+    if not token:
+        raise SystemExit("Canvas token required on stdin")
+    async with httpx.AsyncClient(headers={"Authorization": f"Bearer {token}"}, timeout=120) as client:
+        module = await ensure_module(client)
+        quiz = await upsert_quiz(client)
+        assignment = await upsert_assignment(client)
+
+        support_path = "course files/CCR Materials/2SW/Wk6"
+        support_folder = await ensure_folder(client, support_path)
+        worksheet_names = {
+            "CAREERS": "2sw-wk6-biomedical-career-evidence-guide.pdf",
+            "LETTER": "2sw-wk6-cover-letter-lab.pdf",
+            "MEDICS": "2sw-wk6-mini-medics-design-record.pdf",
+            "INVESTIGATE": "2sw-wk6-outbreak-investigation-record.pdf",
+            "RESPONSE": "2sw-wk6-outbreak-response-plan.pdf",
+            "REFLECT": "2sw-wk6-xello-career-matches-reflection.pdf",
+        }
+        files = {key: await upload(client, ROOT / "docs/resources/worksheets" / name, support_path) for key, name in worksheet_names.items()}
+        files["XELLO_GUIDE"] = await upload(client, XELLO / "explore-career-matches.pdf", support_path)
+        files["XELLO_DIRECTIONS"] = await upload(client, XELLO / "explore-career-matches/find-out-why-save-careers-student-instructions.pdf", support_path)
+        files["XELLO_DECK"] = await upload(client, XELLO / "explore-career-matches/explore-career-matches-slides-irving.pptx", support_path)
+
+        uploads = {}
+        folders = {}
+        for day in range(1, 6):
+            folder_path = f"course files/CCR Materials/2SW/Wk6/Day {day} Visuals"
+            folders[day] = await ensure_folder(client, folder_path)
+            uploads[day] = {}
+            source = ASSETS / f"day{day}"
+            if source.exists():
+                for path in sorted(source.glob("*.png")):
+                    uploads[day][path.name] = await upload(client, path, folder_path)
+
+        quiz_url = f"/courses/{COURSE_ID}/quizzes/{quiz['id']}"
+        assignment_url = f"/courses/{COURSE_ID}/assignments/{assignment['id']}"
+        xello_video = '<div style="max-width:760px;margin:18px auto"><iframe title="Xello: Understanding Your Career Matches" src="https://www.youtube.com/embed/xq__qvzVSYU" width="760" height="428" allowfullscreen="allowfullscreen" style="width:100%;max-width:760px;border:0"></iframe><p style="font-size:14px">If the video is blocked, use the numbered steps and one-page directions below.</p></div>'
+
+        student = {
+            1: {
+                "TITLE": "Compare Biomedical Careers and Write for a Job",
+                "PURPOSE": "Use one dated evidence set and answer a fictional job posting with honest evidence.",
+                "TODAY": "<ul><li>compare three biomedical careers;</li><li>read a fictional Student Lab Helper posting;</li><li>write a five-part practice cover letter.</li></ul>",
+                "READY": f'<p>Open {file_link(files["CAREERS"]["id"], "the Biomedical Career Evidence Guide")} and {file_link(files["LETTER"]["id"], "the Cover Letter Lab")}.</p>',
+                "MEDIA": "",
+                "STEPS": step(1, "Compare the evidence", "<p>Find the highest median, fastest growth, and most annual openings. Write why the answers differ.</p>") + step(2, "Choose one career", "<p>Record a daily-work reason, education trade-off, and dated labor-market fact.</p>") + step(3, "Read the fictional posting", "<p>Mark two employer needs and one responsibility. Do not submit the letter to a real employer.</p>") + step(4, "Draft all five parts", "<p>Greeting, opening, evidence-based body, closing, and sign-off. Underline the employer need once and your true evidence twice.</p>"),
+                "EXIT": "<p>Imani has no paid work experience. She organized Science Olympiad supplies and checked a measurement table. Name one posting need she can answer, then write one honest need-to-evidence sentence.</p>",
+                "DONE": "<ul><li>three career measures compared correctly;</li><li>one source and date recorded;</li><li>all five letter parts complete;</li><li>no invented credential, job, or private detail.</li></ul>",
+                "SUPPORT": "<p>median = mediana · outlook = perspectiva · employer = empleador · evidence = evidencia. Frame: “The posting asks for ____. I practiced this when ____.”</p>",
+                "FALLBACK": "<p>Both PDFs contain the complete lesson. No web search, H&amp;L login, or partner is required.</p>",
+            },
+            2: {
+                "TITLE": "Design a Mini Medic",
+                "PURPOSE": "Build a future-technology concept that meets a mission and names the evidence it would still need.",
+                "TODAY": "<ul><li>read the four mission checks;</li><li>plan, draw, and label a design;</li><li>map its journey and name one safety question.</li></ul>",
+                "READY": f'<p>Open {file_link(files["MEDICS"]["id"], "the Mini Medics Design Record")}. Get paper and a pencil or marker.</p>',
+                "MEDIA": image_tag(uploads[2]["fyf-p79-mini-medics.png"]["id"], "Find Your Future Mini Medics mission and design requirements", 650),
+                "STEPS": step(1, "Plan before drawing", image_tag(uploads[2]["fyf-p80-mini-medics.png"]["id"], "Find Your Future Mini Medics planning fields", 650) + "<p>Name the size, guidance, three tools, vessel protection, and completion signal.</p>") + step(2, "Draw and label", image_tag(uploads[2]["fyf-p81-mini-medics.png"]["id"], "Find Your Future drawing, journey, and discussion directions", 650) + "<p>Every label needs a purpose. Artistic skill is not the goal.</p>") + step(3, "Map the journey", "<p>Explain enter, travel, act, and finish.</p>") + step(4, "Name the missing evidence", "<p>Write what a medical researcher would need before testing the idea further.</p>"),
+                "EXIT": "<p>A smaller design may fit, but does that prove it is safe? Explain which control or vessel-damage evidence is still needed.</p>",
+                "DONE": "<ul><li>size comparison and three tools;</li><li>guidance, vessel protection, and signal;</li><li>four-part journey;</li><li>one research evidence need.</li></ul>",
+                "SUPPORT": "<p>clot = coágulo · vessel = vaso · guide = guiar · signal = señal. You may label a teacher-provided outline.</p>",
+                "FALLBACK": "<p>Use the embedded pages and PDF. Plain paper is equal to chart paper. You may work independently.</p>",
+            },
+            3: {
+                "TITLE": "Follow the Outbreak Evidence",
+                "PURPOSE": "Compare exposure and outcome, write a supported claim, and name what still needs testing.",
+                "TODAY": "<ul><li>read the fictional Fairview Edge case;</li><li>compare sick and healthy residents;</li><li>support one working claim with at least three clues.</li></ul>",
+                "READY": f'<p>Open {file_link(files["INVESTIGATE"]["id"], "the Outbreak Investigation Record")}.</p><p><strong>Real-event boundary:</strong> In a real health or water emergency, follow local officials and a trusted adult.</p>',
+                "MEDIA": image_tag(uploads[3]["fyf-p74-outbreak.png"]["id"], "Find Your Future fictional Fairview Edge resident case table", 650) + image_tag(uploads[3]["fyf-p75-outbreak.png"]["id"], "Find Your Future environmental clues and investigation-report prompts", 650),
+                "STEPS": step(1, "Compare exposure and outcome", "<p>Use four rows. Include residents who became sick and residents who stayed healthy.</p>") + step(2, "Write the report", "<p>Record cases, symptoms, timing, three clues, likely source, and a because statement.</p>") + step(3, "Analyze the pattern", image_tag(uploads[3]["fyf-p76-outbreak.png"]["id"], "Find Your Future outbreak pattern, severity, and risk prompts", 650) + "<p>Separate what the case supports from what still needs testing.</p>") + step(4, "Use the feedback check", f'<p><a href="{quiz_url}">Open the Outbreak Evidence Check</a>. Retry and read the feedback.</p>'),
+                "EXIT": "<p>Rank the sick-resident tap-water pattern, healthy bottled-water comparison, flooding near the well, and one resident's river swim. Defend your strongest and weakest evidence.</p>",
+                "DONE": "<ul><li>four exposure/outcome comparisons;</li><li>three clues and one supported claim;</li><li>one unanswered question and test;</li><li>practice check completed or reviewed.</li></ul>",
+                "SUPPORT": "<p>outbreak = brote · source = fuente · exposure = exposición · pattern = patrón. Frame: “The evidence suggests ____ because ____.”</p>",
+                "FALLBACK": "<p>The embedded case and PDF are the complete route. A written self-check replaces partner talk.</p>",
+            },
+            4: {
+                "TITLE": "Build the Outbreak Response",
+                "PURPOSE": "Use evidence to choose confirming tests, immediate actions, and one prevention priority.",
+                "TODAY": "<ul><li>choose tests that could confirm the source;</li><li>estimate impact using town facts;</li><li>separate immediate action from prevention.</li></ul>",
+                "READY": f'<p>Open {file_link(files["RESPONSE"]["id"], "the Outbreak Response Plan")} and your Day 3 record.</p><p><strong>Real-event boundary:</strong> This is fictional analysis, not official health guidance.</p>',
+                "MEDIA": image_tag(uploads[4]["fyf-p77-response.png"]["id"], "Find Your Future helpful information, confirming tests, and impact choices", 650) + image_tag(uploads[4]["fyf-p78-response.png"]["id"], "Find Your Future immediate-action and prevention choices", 650),
+                "STEPS": step(1, "Confirm the working claim", "<p>Name what each test checks and the result that would support the claim.</p>") + step(2, "Estimate possible impact", "<p>Use the 2,000-resident population and shared water-system facts.</p>") + step(3, "Choose two immediate actions", "<p>Name who acts, why it helps now, and what support people need.</p>") + step(4, "Choose one prevention priority", "<p>Connect it to a clue, name a trade-off, and explain why you would fund it first.</p>"),
+                "EXIT": "<p>Classify safe-water distribution and moving well equipment above the flood line as immediate action or prevention. Explain each choice with a case clue.</p>",
+                "DONE": "<ul><li>tests connect to the suspected source;</li><li>impact uses case facts;</li><li>two immediate actions include reasons and support;</li><li>one prevention step answers a clue.</li></ul>",
+                "SUPPORT": "<p>immediate = inmediato · prevention = prevención · test = analizar · trade-off = compensación. Frame: “We would ____ now because ____. We would prevent the next event by ____.”</p>",
+                "FALLBACK": "<p>If you missed Day 3, use the teacher-provided working claim and case summary. No presentation is required.</p>",
+            },
+            5: {
+                "TITLE": "Explore Why Xello Matched You",
+                "PURPOSE": "Complete the required lesson and use evidence to decide what you think about one career match.",
+                "TODAY": "<ul><li>complete Explore career matches in Xello;</li><li>use Find out why for one match;</li><li>submit a private before-and-after reflection.</li></ul>",
+                "READY": f'<p>Open {file_link(files["REFLECT"]["id"], "the private reflection")} and {file_link(files["XELLO_DIRECTIONS"]["id"], "Xello one-page student directions")}.</p>',
+                "MEDIA": xello_video,
+                "STEPS": step(1, "Log in", "<p>ClassLink &gt; Xello. Open Home, then Lessons.</p>") + step(2, "Open Explore career matches", "<p>Complete the lesson prompts and use <strong>Find out why</strong> for at least one match.</p>") + step(3, "Think before deciding", "<p>Compare your interests with the career tasks. A match is information to investigate, not a command.</p>") + step(4, "Reflect privately", f'<p>Complete the PDF or <a href="{assignment_url}">open the private reflection assignment</a>. Do not submit a profile screenshot.</p>'),
+                "EXIT": "<p>Why should a student think critically about a career-assessment result? Use one interest, task, or <strong>Find out why</strong> detail from today's work.</p>",
+                "DONE": "<ul><li>Xello lesson completed or catch-up recorded;</li><li>Find out why used for one match;</li><li>before-and-after thinking explained;</li><li>reflection submitted privately.</li></ul>",
+                "SUPPORT": "<p>match = coincidencia · interest = interés · evidence = evidencia · changed = cambió. The one-page Xello directions stay open while you work.</p>",
+                "FALLBACK": "<p>If Xello is unavailable, use the video, directions, and sample reflection. The required Xello lesson moves to supervised catch-up. Paper does not replace platform completion.</p>",
+            },
+        }
+
+        teacher = {
+            1: {
+                "TITLE": "Biomedical Careers and a Practice Cover Letter",
+                "SUBTITLE": "50 minutes · TEKS d(1)(C), d(2)(A), d(5)(A), d(7)(B)",
+                "ALERT": "<strong>Use the fixed evidence and fictional posting.</strong> Do not make teachers find a live job ad or make students search mixed salary measures.",
+                "PREP": f'<ul><li>Post {file_link(files["CAREERS"]["id"], "the Biomedical Career Evidence Guide")} and {file_link(files["LETTER"]["id"], "the Cover Letter Lab")}.</li><li>Project the career table and fictional posting.</li><li>Keep BLS source links available for questions.</li></ul>',
+                "EVIDENCE": "<p>Three-career comparison, one sourced trade-off choice, and a five-part practice letter. Formative portfolio evidence only.</p>",
+                "FLOW": flow("#5a2d91", "Warm-up · 5", "Choose the most important career factor and explain.") + flow("#4a9d2f", "Career evidence · 12", "Compare median, growth, openings, and education.") + flow("#1f617a", "Fictional posting · 8", "Match two needs to honest evidence.") + flow("#e3ad19", "Letter draft · 20", "Draft all five parts and underline the evidence match.") + flow("#1f617a", "Exit · 5", "Write one need-to-evidence body sentence."),
+                "MONITOR": "<p>Key: Biomedical Engineer has the highest median, Epidemiologist the fastest growth, Medical Scientist the most annual openings. Stop if students call the median a starting salary. The letter must answer one posting need with a true example.</p>",
+                "RESOURCES": '<p><a href="https://www.bls.gov/ooh/architecture-and-engineering/biomedical-engineers.htm">BLS Biomedical Engineers</a> · <a href="https://www.bls.gov/ooh/life-physical-and-social-science/epidemiologists.htm">BLS Epidemiologists</a> · <a href="https://www.bls.gov/ooh/life-physical-and-social-science/medical-scientists.htm">BLS Medical Scientists</a></p>',
+                "SUPPORT": "<p>Read the posting aloud. Permit typed, written, dictated, or teacher-scribed responses when documented. Score evidence, not mechanics unless meaning is unclear.</p>",
+                "FALLBACK": "<p>No vendor login is required. Both PDFs contain the full absence route. H&amp;L is optional enrichment only.</p>",
+            },
+            2: {
+                "TITLE": "Mini Medics Design Challenge",
+                "SUBTITLE": "50 minutes · TEKS d(1)(C)",
+                "ALERT": "<strong>Future-technology scenario.</strong> The workbook asks students to design and reason. Do not present the concept as a clinically available treatment.",
+                "PREP": f'<ul><li>Open licensed pp. 79-81.</li><li>Post {file_link(files["MEDICS"]["id"], "the Mini Medics Design Record")}.</li><li>Place paper and drawing tools at tables.</li></ul>',
+                "EVIDENCE": "<p>Mission-aligned plan, labeled design, four-part journey, and one research evidence question. Do not grade art or public speaking.</p>",
+                "FLOW": flow("#5a2d91", "Warm-up · 5", "Name what a designer must control.") + flow("#4a9d2f", "Mission · 8", "Size, guidance, vessel protection, signal.") + flow("#1f617a", "Plan, draw, map · 27", "Three chunks with checks before release.") + flow("#e3ad19", "Compare · 5", "One strong choice and one safety question.") + flow("#1f617a", "Exit · 5", "Explain why smaller does not automatically mean safer."),
+                "MONITOR": "<p>Release drawing only after the size, tools, guidance, protection, and signal checks. Redirect decoration-first teams to the mission. Key exit answer: B.</p>",
+                "RESOURCES": "<p>Licensed FYF pp. 79-81 are embedded in the student page. Patient Education pp. 82-83 is reserved for optional Canva or Adobe Express extension.</p>",
+                "SUPPORT": "<p>Allow a pre-drawn outline, bilingual labels, speech-to-text, and independent work. Plain paper and chart paper are equal.</p>",
+                "FALLBACK": "<p>No equipment or live site is required. The student page and PDF contain the complete route.</p>",
+            },
+            3: {
+                "TITLE": "Outbreak Investigators: Follow the Evidence",
+                "SUBTITLE": "50 minutes · TEKS d(1)(C)",
+                "ALERT": "<strong>Fictional case.</strong> A supported hypothesis is not proof, and the worksheet is not real public-health guidance.",
+                "PREP": f'<ul><li>Open licensed FYF pp. 74-77.</li><li>Post {file_link(files["INVESTIGATE"]["id"], "the Outbreak Investigation Record")}.</li><li>Open the unpublished evidence quiz.</li></ul>',
+                "EVIDENCE": "<p>Four exposure/outcome comparisons, three clues, one working claim, and one unanswered testing question.</p>",
+                "FLOW": flow("#5a2d91", "Warm-up · 5", "Sort useful information into exposure, symptoms, time, comparison.") + flow("#4a9d2f", "Role · 5", "Investigate patterns and causes without overclaiming.") + flow("#1f617a", "Compare clues · 15", "Think-Pair-Share or written route.") + flow("#e3ad19", "Report and analyze · 20", "Claim, evidence, pattern, severity, risk, test.") + flow("#1f617a", "Exit · 5", "Rank the strongest and weakest evidence."),
+                "MONITOR": "<p>Key pattern: tap-water exposure after flooding near the well, compared with bottled-water residents who stayed healthy. Water testing and additional interviews are still required. Do not accept one resident's river activity as an explanation for every case.</p>",
+                "RESOURCES": '<p>Optional enrichment: <a href="https://www.cdc.gov/nerd-academy/outbreak-investigations/index.html">CDC NERD Academy outbreak investigations</a>. Keep it supplemental.</p>',
+                "SUPPORT": "<p>Read the table aloud, highlight exposure and outcome columns, and allow a written partner route. Provide the real-event boundary in text and speech.</p>",
+                "FALLBACK": "<p>The embedded licensed pages make the absence route complete. Students do not need to search the web.</p>",
+            },
+            4: {
+                "TITLE": "Outbreak Investigators: Build the Response",
+                "SUBTITLE": "50 minutes · TEKS d(1)(C)",
+                "ALERT": "<strong>Analyze supplied actions only.</strong> Students do not invent medical or public-health instructions.",
+                "PREP": f'<ul><li>Open licensed FYF pp. 77-78.</li><li>Post {file_link(files["RESPONSE"]["id"], "the Outbreak Response Plan")}.</li><li>Prepare the Day 3 supported claim for absences.</li></ul>',
+                "EVIDENCE": "<p>Confirming tests, fact-based impact estimate, two immediate actions with supports, and one prevention priority with trade-off.</p>",
+                "FLOW": flow("#5a2d91", "Warm-up · 5", "Separate today action from future prevention.") + flow("#4a9d2f", "Tests and impact · 15", "Connect test to source and estimate to population.") + flow("#1f617a", "Action and prevention · 20", "Reasons, supports, evidence, trade-off.") + flow("#e3ad19", "Review · 5", "Private or partner checklist.") + flow("#1f617a", "Exit · 5", "Classify one immediate and one prevention action."),
+                "MONITOR": "<p>Use four laps: source, test, impact, immediate-versus-prevention. If groups check every option without reasons, model one evidence-to-action sentence. Key exit: safe-water distribution is immediate; moving equipment above flood level is prevention.</p>",
+                "RESOURCES": "<p>Licensed FYF pp. 77-78 supply the action list. The CCE worksheet adds role, support, evidence, and trade-off reasoning.</p>",
+                "SUPPORT": "<p>Use bilingual labels and sentence frames. Permit typed, written, or dictated evidence. No presentation is required.</p>",
+                "FALLBACK": "<p>An absent student starts from the teacher-provided Day 3 claim. In a real event, follow current local officials and district directions.</p>",
+            },
+            5: {
+                "TITLE": "Xello Explore Career Matches",
+                "SUBTITLE": "50 minutes · TEKS d(1)(A)",
+                "ALERT": "<strong>Required Grade 8 task: Explore career matches, 35 minutes.</strong> Matchmaker and at least three saved careers are prerequisites. Save careers is not repeated today.",
+                "PREP": f'<ul><li>Check the Completion Standards report for prerequisites.</li><li>Test ClassLink &gt; Xello.</li><li>Open the official {file_link(files["XELLO_GUIDE"]["id"], "facilitator guide")}, {file_link(files["XELLO_DECK"]["id"], "Irving-adapted slide deck")}, {file_link(files["XELLO_DIRECTIONS"]["id"], "student directions")}, and student video.</li><li>Post {file_link(files["REFLECT"]["id"], "the private reflection")}.</li></ul>',
+                "EVIDENCE": "<p>Xello Completion Standards report plus private before-and-after reflection. Do not require a profile screenshot or public discussion.</p>",
+                "FLOW": flow("#5a2d91", "Warm-up · 5", "Is it okay to reject a high match? Explain.") + flow("#4a9d2f", "Xello lesson · 35", "Lessons &gt; Explore career matches &gt; Find out why.") + flow("#1f617a", "Private reflection · 5", "Used to think, now think, what changed.") + flow("#e3ad19", "Exit · 5", "Explain why assessment results require critical thinking."),
+                "MONITOR": "<p>District minimum: complete the 35-minute lesson. The full official guide describes a broader 120-minute sequence; label it as extended support. Use the report, not public screenshots. Results are evidence to investigate, not verdicts.</p>",
+                "RESOURCES": f'<p>{file_link(files["XELLO_GUIDE"]["id"], "Full facilitator guide, 120-minute extension")}</p><p>{file_link(files["XELLO_DECK"]["id"], "Teacher launch slides adapted for ClassLink")}</p><p>{file_link(files["XELLO_DIRECTIONS"]["id"], "One-page student Find out why directions")}</p><p><a href="https://www.youtube.com/watch?v=xq__qvzVSYU">Official Xello Understanding Your Career Matches video</a></p>',
+                "SUPPORT": "<p>Keep the numbered steps and one-page directions visible. Offer read-aloud, chunking, bilingual labels, and a private written response.</p>",
+                "FALLBACK": "<p>If Xello or prerequisites fail, complete the video and learning reflection, then move the required platform lesson to supervised catch-up. Paper does not count as Xello completion.</p>",
+            },
+        }
+
+        titles = {
+            1: "STUDENT: 2SW Wk6 Day 1 - Biomedical Careers and Cover Letter",
+            2: "STUDENT: 2SW Wk6 Day 2 - Mini Medics Design",
+            3: "STUDENT: 2SW Wk6 Day 3 - Outbreak Evidence",
+            4: "STUDENT: 2SW Wk6 Day 4 - Outbreak Response",
+            5: "STUDENT: 2SW Wk6 Day 5 - Xello Explore Career Matches",
+        }
+        pages = {}
+        order = []
+        for day in range(1, 6):
+            student_title = titles[day]
+            student_page = await upsert_page(client, student_title, render("2sw-wk6-student.html", {"COURSE_ID": COURSE_ID, "DAY": day, **student[day]}), slugify(student_title))
+            teacher_title = f"TEACHER: 2SW Wk6 Day {day} Facilitator Guide"
+            teacher_page = await upsert_page(client, teacher_title, render("2sw-wk6-teacher.html", {"COURSE_ID": COURSE_ID, "DAY": day, "STUDENT_PAGE_URL": student_page["url"], **teacher[day]}), slugify(teacher_title))
+            await upsert_page_item(client, module["id"], teacher_page, teacher_title)
+            await upsert_page_item(client, module["id"], student_page, student_title)
+            pages[day] = {"teacher": teacher_page, "student": student_page}
+            order.extend([("Page", teacher_page["url"], teacher_title), ("Page", student_page["url"], student_title)])
+            if day == 3:
+                await upsert_quiz_item(client, module["id"], quiz)
+                order.append(("Quiz", quiz["id"], QUIZ_TITLE))
+            if day == 5:
+                await upsert_assignment_item(client, module["id"], assignment)
+                order.append(("Assignment", assignment["id"], ASSIGNMENT_TITLE))
+
+        items = await paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
+        for position, (kind, key, title) in enumerate(order, start=1):
+            item = next(entry for entry in items if (kind == "Page" and entry.get("page_url") == key) or (kind in ("Quiz", "Assignment") and entry.get("content_id") == key))
+            await api(client, "PUT", f"/courses/{COURSE_ID}/modules/{module['id']}/items/{item['id']}", data={"module_item[position]": position, "module_item[title]": title})
+
+        final_items = await paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
+        module = await api(client, "GET", f"/courses/{COURSE_ID}/modules/{module['id']}")
+        print(json.dumps({
+            "module": {"id": module["id"], "published": module["published"]},
+            "quiz": {"id": quiz["id"], "published": quiz.get("published")},
+            "assignment": {"id": assignment["id"], "published": assignment.get("published"), "grading_type": assignment.get("grading_type")},
+            "folders": {str(day): {"id": folder["id"], "locked": folder["locked"]} for day, folder in folders.items()},
+            "support_folder": {"id": support_folder["id"], "locked": support_folder["locked"]},
+            "files": {key: value["id"] for key, value in files.items()},
+            "pages": {str(day): {kind: {"url": value["url"], "published": value["published"]} for kind, value in pair.items()} for day, pair in pages.items()},
+            "items": [{"id": item["id"], "position": item["position"], "title": item["title"], "type": item["type"], "page_url": item.get("page_url")} for item in final_items],
+        }, indent=2))
+
+
+asyncio.run(main())

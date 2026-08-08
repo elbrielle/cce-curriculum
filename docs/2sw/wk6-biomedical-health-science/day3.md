@@ -1,130 +1,87 @@
-# Day 3: Outbreak Investigators — Examine the Clues
+# Day 3: Outbreak Investigators, Follow the Evidence
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Read the Fairview Edge case file and environmental clues; identify the likely source of a waterborne outbreak; complete the Investigation Report; analyze the pattern and severity of the illness |
+| **Objectives** | Compare exposure and outcome in the fictional Fairview Edge case; write a claim supported by at least three clues; identify what the evidence does not yet prove |
 | **TEKS** | d(1)(C) |
-| **5E Phases** | Engage: Warm-Up · Explain: What environmental epidemiologists do · Explore: Fairview Edge clues, Investigation Report, and outbreak analysis · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Investigation Report (outbreak description, 3+ pieces of evidence, possible source, symptoms, likely cause) + outbreak analysis (pattern, severity, risk check) |
-| **Materials** | *Find Your Future* workbook pp. 74-77, projector for the case-file image clues |
+| **5E Phases** | Engage: Warm-Up · Explain: Epidemiologist role · Explore: Case comparison, report, and pattern analysis · Evaluate: Exit Ticket |
+| **Deliverable** | [Outbreak Investigation Record](../../resources/worksheets/2sw-wk6-outbreak-investigation-record.pdf) |
+| **Materials** | *Find Your Future* pp. 74-77, investigation record, projector or Canvas crops |
 
 ---
+
+## Before Class
+
+1. Embed the licensed case table and environmental clues in Canvas.
+2. Prepare the written-image route or read-aloud for students who need it.
+3. Keep the case fictional. Do not connect symptoms to a real student or current local event.
+4. Display this boundary: In a real health or water emergency, follow local officials and a trusted adult.
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Six people on your street get the same stomach bug in the same week. What would you check FIRST to find out why?**
+**WARM-UP:** Several people become sick during the same week. What information would help you tell whether they share one source?
 
-Take 3-4 responses: what they ate, where they swam, what they drank, and who they were around. Sort the answers by possible exposure. Environmental epidemiologists compare those exposures to find how an illness spread; students do the same with today's outbreak file.
+Sort responses into exposure, symptoms, time, and comparison groups.
 
----
+## Activity 1: What an Epidemiologist Does (5 min)
 
-## Activity 1: What Does an Environmental Epidemiologist Do? (5 min)
+Use the workbook opening and the BLS definition. Epidemiologists investigate patterns and causes of disease and injury in groups of people. They compare cases, exposures, and time. They do not prove a cause from one clue.
 
-**Source:** (FYF p. 74: "Outbreak Investigators"), a Career Climb activity
+The class task is to make a supported working claim and name the test still needed.
 
-Read the workbook's opening description together. Environmental epidemiologists are scientists who study how and why people get sick, and how illnesses spread from person to person. They gather information, look for patterns, and figure out what might be causing a health problem. Their work keeps communities safe and keeps food, water, and the environment healthy.
+## Activity 2: Compare Sick and Healthy Residents (15 min)
 
-Nursing and dental careers often treat one patient at a time. Epidemiologists compare cases across a community to find a shared source and prevent more illness. Both are Health Science work, and today's use of evidence and investigation also appears in Irving ISD's Biomedical Sciences program of study.
+Students inspect the licensed Fairview Edge case table and environmental clues.
 
-Set the case: a small town is suddenly seeing people fall ill, and the class has been called in to investigate a waterborne outbreak, identify the source, and plan how to stop it from spreading.
+**Think-Pair-Share:** 30 seconds silent think. Partner A completes "The sick residents share _____." Partner B completes "The residents who stayed healthy share _____." Two pairs share. Students may use a written partner route.
 
----
+Students fill four comparison rows in the investigation record. Require exposure and outcome in the same row. If they list only sick residents, redirect them to the residents who stayed healthy.
 
-## Activity 2: Examine the Clues (15 min)
+## Activity 3: Write the Investigation Report (20 min)
 
-**Source:** (FYF pp. 74-75: "Outbreak Investigators", Step 1)
+Students record the number of cases, common symptoms, timing, three clues, likely source, and a claim with evidence. Then they analyze:
 
-**Think-Pair-Share:** the workbook pairs students for this step. Hold a silent 30 second Think while students read the case file on their own, then Partner A talks for 30 seconds about the pattern they see, then Partner B for 30 seconds. Two pairs share with the whole class before anyone writes anything down. Post two stems at different levels: "Everyone who got sick _____" and "The one thing the people who did NOT get sick have in common is _____."
+- what sick residents share;
+- what the healthy comparison group shares;
+- what the one-day difference between Monday and Tuesday cases may suggest;
+- a defensible severity description;
+- whether more people could remain at risk;
+- one question that still requires a test.
 
-**Case File: Fairview Edge.** A small town of about 2,000 residents. Most people drink water from a local well or from the town's water system. The town recently had heavy rainfall and minor flooding.
+**Teacher key:** The strongest working pattern is tap-water exposure after flooding near the well, compared with bottled-water residents who stayed healthy. This is a supported hypothesis, not final proof. Water testing and further interviews are still required.
 
-| Resident | Age | Water source | Recent activity | Symptoms | Symptoms started |
-|---|---|---|---|---|---|
-| Alex | 12 | Tap water | Soccer practice | Stomach pain, vomiting | Monday |
-| Maria | 34 | Tap water | None | Diarrhea, fever | Monday |
-| Jamal | 15 | Tap water | Basketball | Nausea, stomach pain | Tuesday |
-| Mrs. Lee | 52 | Tap water | Gardening | Diarrhea, vomiting | Monday |
-| Ethan | 10 | Bottled water | None | None | Never got sick |
-| Sofia | 13 | Tap water | Swimming in the river | Vomiting, fever | Tuesday |
-| Mr. Cruz | 41 | Tap water | None | Diarrhea | Monday |
-| Lilly | 11 | Bottled water | Dance class | None | Never got sick |
+## Exit Ticket (5 min)
 
-**Environmental clues** (p. 75):
+**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/2sw-wk6-day3-outbreak-investigators-follow-the-evidence.pdf):
 
-- The town's main water well is located near a river
-- After the heavy rain, the river overflowed its banks
-- Some residents reported that their tap water looked slightly cloudy for a short time
-- The town has not recently tested the water quality
+Rank these from strongest to weakest for the tap-water hypothesis:
 
-The workbook also prints **image clues** on page 75. Project that page so the whole class studies the same images at the same time rather than crowding around one book.
+1. sick residents mostly drank tap water;
+2. two bottled-water residents stayed healthy;
+3. flooding occurred near the well;
+4. one sick resident also swam in the river.
 
-!!! tip "Facilitation Tip"
-    The two residents who stayed healthy are the strongest clue in the case, and most students skip right past them. If a pair is stuck, point at Ethan and Lilly and ask what those two did differently. Comparing who got sick with who did not is the move the workbook asks for again on Day 4.
+Students defend the top and bottom rank in one sentence each.
 
----
+- Top evidence: __________________________  Why: _____________________________
 
-## Activity 3: Complete the Investigation Report (10 min)
+  __________________________________________________________________________
+- Bottom evidence: _______________________  Why: _____________________________
 
-**Source:** (FYF p. 75: "Outbreak Investigators", Step 2)
+  __________________________________________________________________________
 
-Pairs complete the workbook's Investigation Report. Every field gets filled:
+## Teacher Key and Extension Prompt
 
-- **Outbreak Description:** what students notice about the illness, including symptoms, how many people are affected, and the timing
-- **Evidence:** at least 3 clues from the case file that students think matter
-- **Possible Source:** check all that apply from well water, river water, tap water, bottled water, food or drinks
-- **Symptoms Observed:** what symptoms people are showing
-- **What do you think caused the outbreak?** possible causes based on the clues
+**Mastery signal:** The student values the sick-to-healthy comparison and explains that one resident's river activity does not explain the other cases by itself. Accept another order when the reasoning is evidence-based.
 
-Hold pairs to the "at least 3" evidence requirement. A report that names one clue is a guess, not an investigation.
+**DOK 3 prompt:** What additional result would most strengthen or weaken the tap-water hypothesis, and why would it change the claim?
 
----
+## Access, Absence, and Extension
 
-## Activity 4: Analyze the Outbreak (12 min)
-
-**Source:** (FYF p. 76: "Outbreak Investigators", Step 3)
-
-Pairs move to the workbook's analysis page and answer three questions:
-
-- **Pattern of Illness:** who got sick first, and who got sick later?
-- **Severity of Illness:** how serious are the symptoms, mild, moderate, or severe? Why did you choose that level?
-- **Risk Check:** are more people at risk if the water is not treated? Yes or no, and explain the answer
-
-The severity choice is the one that produces real argument. There is no single correct level, but the reasoning has to cite symptoms from the case file rather than a general feeling.
-
-**DOK 3:** What patterns do you see in who got sick and when? What does the two-day gap between the Monday cases and the Tuesday cases tell you about how this illness spreads?
-
----
-
-## Exit Ticket (3 min)
-
-**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/2sw-wk6-day3-outbreak-investigators-examine-the-clues.pdf):
-
-Rank these four clues from MOST useful (1) to LEAST useful (4) for proving the TAP WATER made people sick.
-
-- Ethan and Lilly drank bottled water and did not get sick: rank ____
-- The town's water well sits next to a river that overflowed: rank ____
-- Sofia swam in the river before she got sick: rank ____
-- The town has not tested its water quality recently: rank ____
-
-For your #1 and your #4, write one sentence saying why.
-
-- Rank 1 (most useful): _______________________________________________________
-
-- Rank 4 (least useful but still matters): _______________________________________________________
-
-Bottom line: Epidemiologists find the source of an outbreak. Name ONE other Health Science career that would help Fairview Edge after the source is found, and say what that person would do. *(d(1)(C))*
-
-   Career: _______________________
-
-   What they do: ___________________________________________________
-
----
-
-## Differentiation
-
-- **Support:** Provide the case-file table with the "water source" and "symptoms started" columns already highlighted so students compare the two variables that matter most. Provide a sentence stem for the outbreak description: "_____ people got sick. They all _____. The first cases started on _____."
-- **Extension:** Rebuild the case file for a food outbreak instead of a water outbreak. Which column in the table would you change, and what new clue would you have to add so an investigator could still find the source?
-- **ELL:** Bilingual investigation glossary (Outbreak = Brote, Source = Fuente, Evidence = Evidencia, Symptoms = Síntomas, Well = Pozo, Flooding = Inundación, Pattern = Patrón). The case-file table is mostly names and short symptom words, so it reads well with translation support. Pair ELL students with a bilingual partner for the Think-Pair-Share.
+- **Support:** Read the case aloud, highlight the exposure and outcome columns without preselecting the answer, and allow speech-to-text, teacher scribing, or a written partner route.
+- **ELL:** Preteach outbreak, exposure, outcome, source, comparison, and hypothesis with bilingual labels and a claim frame.
+- **Absence:** An absent student receives the same licensed case crops in Canvas and completes the record independently.
+- Extension: change one case fact that would weaken the tap-water hypothesis and explain why.

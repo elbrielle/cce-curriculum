@@ -45,6 +45,12 @@ async def main():
                     problems.append(f"discussion published: {topic.get('id')}")
                 interactives.append({"item_id":item["id"],"position":item["position"],"type":"Discussion","content_id":topic.get("id"),"title":topic.get("title"),"published":topic.get("published")})
                 continue
+            if item.get("type") == "Assignment" and item.get("content_id"):
+                assignment=await api(client,f"/courses/{COURSE_ID}/assignments/{item['content_id']}")
+                if assignment.get("published") or item.get("published"):
+                    problems.append(f"assignment published: {assignment.get('id')}")
+                interactives.append({"item_id":item["id"],"position":item["position"],"type":"Assignment","content_id":assignment.get("id"),"title":assignment.get("name"),"published":assignment.get("published"),"grading_type":assignment.get("grading_type"),"submission_types":assignment.get("submission_types")})
+                continue
             if item.get("type") != "Page" or not item.get("page_url"):
                 problems.append(f"unsupported module item {item.get('id')}: {item.get('type')}")
                 continue

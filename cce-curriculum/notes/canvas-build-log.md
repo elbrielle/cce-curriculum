@@ -296,3 +296,32 @@ This log records the official Canvas build without storing access credentials or
 - Browser QA: the signed-in Day 2 student guide rendered both licensed FYF visuals with descriptive alt text. The Day 4 student guide preserved the fictional-message and no-clinical-advice boundaries. The Day 5 teacher page linked the synthesis, rubric, and licensed Xello guide. The Day 4 student guide had no horizontal overflow at a 390-pixel viewport.
 - Importer: `build/canvas/build_2sw_wk5.py`
 - Read-only verifier: `build/canvas/qa_canvas_module.py 544296`
+
+## 2026-08-08 - 2SW Week 6 paired lesson set
+
+- Module: `2SW Wk6: Science Meets Medicine` (544297)
+- State: unpublished
+- Teacher item IDs: Day 1 5311197, Day 2 5311199, Day 3 5311201, Day 4 5311204, Day 5 5311206
+- Student item IDs: Day 1 5311198, Day 2 5311200, Day 3 5311202, Day 4 5311205, Day 5 5311207
+- Unpublished Classic practice Quiz: `PRACTICE: Outbreak Evidence Check` (quiz 281851, item 5311203). It contains four multiple-choice questions, immediate feedback, and unlimited retries.
+- Unpublished private Assignment: `PRACTICE: Explore Career Matches Reflection` (assignment 3093978, item 5311208). It is ungraded and accepts private text entry or file upload; students are told not to submit profile screenshots.
+- Locked Canvas folders:
+  - Core Week 6 files: 1155170
+  - Day 1 visuals: 1155171
+  - Day 2 visuals: 1155172
+  - Day 3 visuals: 1155173
+  - Day 4 visuals: 1155174
+  - Day 5 visuals: 1155175
+- Core worksheet file IDs after the final space-audit sync: career guide 14561442, cover-letter lab 14561443, Mini Medics record 14561444, investigation record 14561445, response plan 14561446, and Xello reflection 14561447.
+- All ten pages, both practice interactions, and the parent module are unpublished. The generic API verifier passed all 12 items in consecutive order with no unresolved fields, unsupported item types, missing file references, or published content.
+- Six classroom artifacts are supplied: Biomedical Career Evidence Guide, Cover Letter Lab, Mini Medics Design Record, Outbreak Investigation Record, Outbreak Response Plan, and Xello Career Matches Reflection.
+- Career-source correction: the shared evidence guide uses May 2024 BLS U.S. medians, education routes, 2024-34 outlook, and annual openings. It does not call national medians DFW or starting pay. Xello may add a localized figure only when geography, date, and measure are visible. H&amp;L remains optional.
+- Safety and evidence correction: the job posting, Mini Medics design challenge, and outbreak case are controlled fictional tasks. Students do not submit a real application, diagnose a resident, invent public-health instructions, or use classroom material as official emergency guidance.
+- Canvas interaction review: the Day 3 Quiz gives bounded feedback on comparison groups, claim limits, immediate action versus prevention, and the real-event boundary. The Day 5 Assignment provides a private reflection route without making career-assessment results public.
+- Xello resource packaging: Day 5 embeds the licensed facilitator guide, an Irving-adapted six-slide teacher deck, one-page student directions, and the official student-facing video. The live Grade 8 minimum remains Explore career matches for 35 minutes, with Matchmaker and at least three saved careers as prerequisites. The full guide is clearly labeled as an extended 120-minute option.
+- Grading: Week 6 is formative synthesis and adds no new grade. The 2SW map remains two majors in Weeks 1 and 2 and three minors in Weeks 3-5.
+- PDF QA: all six artifacts and five revised exit tickets were rendered, page-count checked, text-extracted, and visually inspected. A prompt-to-space audit enlarged the Mini Medics drawing field, moved the career comparison explanation to a two-line area, expanded outbreak evidence responses, replaced cramped action tables with full-width response fields, and expanded the evidence-ranking ticket. The six core artifacts contain eleven pages with no blank last page, clipped heading, or prompt that asks for sentence reasoning in a phrase-sized field.
+- Presentation QA: the adapted Xello deck preserves the source visual system, removes the authoring-instructions slide, replaces Google SSO with ClassLink &gt; Xello, and passes slide overflow checks. All six slides were rendered and inspected.
+- Browser QA: the signed-in module shows all 12 items in the intended order. The Day 2 student guide renders the three licensed workbook visuals with descriptive alt text. The Day 5 teacher guide exposes the full Xello resource package, the student page embeds the official video, and the student guide remains usable at a 390-by-844 viewport.
+- Importer: `build/canvas/build_2sw_wk6.py`
+- Read-only verifier: `build/canvas/qa_canvas_module.py 544297`

@@ -1,121 +1,91 @@
-# Day 1: Biomedical Pathway + Cover Letter
+# Day 1: Biomedical Careers and a Practice Cover Letter
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Explore the Biomedical Sciences pathway in the Hats & Ladders app; identify 3 biomedical careers; draft a cover letter using the 5-step format |
-| **TEKS** | d(1)(C), d(7)(B) |
-| **5E Phases** | Engage: Warm-Up · Explore: Biomedical Hat browse and career research worksheet · Explain: NIH scientist profile and Stop and Jot · Extend: Cover letter draft and partner feedback · Evaluate: Exit Ticket |
-| **Deliverable** | Career research worksheet (1 biomedical career) + draft cover letter (all 5 sections) |
-| **Materials** | Chromebooks, *Find Your Future* workbook pp. 84-86 and pp. 290-291, printed career research worksheet, printed cover letter worksheet, one real entry-level lab or clinic job posting, NIH STEM video link, projector |
+| **Objectives** | Compare three biomedical careers using dated evidence; explain one education and labor-market trade-off; write a five-part practice cover letter for a fictional employer |
+| **TEKS** | d(1)(C), d(2)(A), d(5)(A), d(7)(B) |
+| **5E Phases** | Engage: Warm-Up · Explain: Evidence guide and posting model · Explore: Career comparison and letter plan · Extend: Practice cover letter · Evaluate: Exit Ticket |
+| **Deliverable** | Completed career comparison and five-part practice cover letter |
+| **Materials** | [Biomedical Career Evidence Guide](../../resources/worksheets/2sw-wk6-biomedical-career-evidence-guide.pdf), [Cover Letter Lab](../../resources/worksheets/2sw-wk6-cover-letter-lab.pdf), projector, optional devices |
 
 ---
+
+## Before Class
+
+1. Open the two student PDFs in Canvas.
+2. Put the career-evidence table on the projector.
+3. Do not search for a live job posting. The fictional Fairview Biomedical Lab posting is the shared source for every student.
+4. Keep the BLS source links on the teacher page for questions. Students do not need open web research today.
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Name one medical technology that did not exist when your grandparents were young. How do you think it was invented?**
+**WARM-UP:** Which matters most when choosing a career: daily work, education time, pay, or job outlook? Pick one and give a reason.
 
-Take 3-4 responses (MRI machines, mRNA vaccines, prosthetics, gene therapy). Bridge: every modern medical technology was invented by a biomedical scientist or engineer. Today the class meets the people who INVENT healthcare.
+Take three responses. Tell students they will use all four types of evidence, because one number cannot make the decision for them.
 
----
+## Activity 1: Read the Career Evidence (12 min)
 
-## Activity 1: H&L Biomedical Pathway Tour (15 min)
+Students use the fixed guide for Bioengineers and Biomedical Engineers, Epidemiologists, and Medical Scientists.
 
-**Source:** (FYF p. 86: "App Exploration") + (FYF p. 84: "What is Happening at My District?")
+**Stop and Jot:** Students answer which career has the highest median, fastest growth, and most annual openings. Then they write one sentence explaining why the three answers differ.
 
-The workbook's district pages describe the Biomedical Sciences program of study as preparing students for careers in health care by focusing on the study of human body systems, disease, medical research and treatment, and laboratory procedures, while building skills in scientific investigation and critical thinking. Read that description aloud and put it next to the app.
+Clarify the evidence basis:
 
-Students then work the App Exploration steps for the Health Science cluster. This is the cluster's fourth and final week, so students go straight to the pathway work rather than repeating the cluster tour they took in Week 3.
+- all pay figures are May 2024 U.S. medians;
+- the pay figures are not starting salaries and are not DFW-local;
+- outlook and openings are national 2024-34 projections;
+- typical education describes the common entry route, not every possible worker.
 
-> [H&L PLATFORM] Open the Hats & Ladders app. Go to Clusters and click the Health Science Cluster. Click "Pathway Possibilities," answer the questions, then explore and rate at least 1 pathway. Rate at least 3 Hats before leaving the cluster.
+**Teacher key:** Biomedical Engineer has the highest median. Epidemiologist has the fastest projected growth. Medical Scientist has the most annual openings. The measures answer different questions.
 
-Inside the cluster, students browse 5 specific biomedical Hats:
+Students choose one career for a fictional student and record one daily-work reason, one education trade-off, and one labor-market fact with source and date.
 
-1. Biomedical Engineer
-2. Lab Technician
-3. Research Scientist
-4. Pharmacist
-5. Genetic Counselor
+## Activity 2: Read the Fictional Posting (8 min)
 
-For each Hat they note the education time and the DFW salary on scratch paper. Most of these careers require a master's or doctoral degree, and students will notice they carry the longest education paths in the Health Science cluster, commonly 6 to 10 years after high school.
+Project the Fairview Biomedical Lab Student Lab Helper posting. Name the boundary before students begin: this is classroom practice, not a real opening, and no letter will be sent.
 
-Then students complete the **career research worksheet** for ONE biomedical career of their choice. This is the same worksheet format taught in Week 0 and used in every cluster week.
+Model one evidence match:
 
-!!! tip "Facilitation Tip"
-    Do not hide the long education path or reduce the decision to salary. Have students compare the years of school, likely debt, daily work, and reported pay so they can explain whether that route fits them.
+> The posting asks for attention to detail. I practiced that when I checked the labels and measurements in my science investigation before submitting it.
 
----
+Students mark two employer needs and one responsibility. They pair each need with evidence they can honestly use from school, service, a team role, or a family responsibility. They may not invent employment, credentials, or private information.
 
-## Activity 2: NIH STEM Video (5 min)
+## Activity 3: Draft the Five-Part Letter (20 min)
 
-Project a short NIH STEM video clip from [science.education.nih.gov](https://science.education.nih.gov) featuring a real biomedical scientist or engineer. Students use Stop and Jot to capture (1) one technology shown and (2) one quality the scientist demonstrates.
+Students complete the Cover Letter Lab in order:
 
-If a video is unavailable, project an NIH career profile page and read it aloud. Students still record one technology and one quality shown by the person in the profile.
+1. professional greeting;
+2. opening with the job, employer, and honest interest;
+3. body with one posting need and one true example;
+4. closing with thanks and a next step;
+5. professional sign-off.
 
----
+After the body paragraph, pause for a self-check. Students underline the employer need once and their evidence twice. If either part is missing, they revise before completing the closing.
 
-## Activity 3: Write a Cover Letter (22 min)
+Students may type, write by hand, or dictate to an approved speech-to-text tool. The evidence standard stays the same.
 
-A cover letter is like a book introduction. It gives a sneak peek of who you are and makes the reader want to learn more. It is a short letter sent with a resume for a job application, personalized to one employer and one job.
+## Exit Ticket (5 min)
 
-**Start with what the employer actually asked for (4 min).** Project one real entry-level lab or clinic job posting and pull it apart the way the workbook's Capstone rung does (FYF pp. 290-291: "Rung 5: Local Connections"): what 2 or 3 responsibilities are listed, what skills and qualifications are required, and what level of education or experience the employer wants. Those four answers are exactly what the cover letter has to respond to. Students complete this rung for a career of their own in 6th Six Weeks, so today is the preview.
+**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/2sw-wk6-day1-biomedical-careers-and-a-practice-cover-letter.pdf):
 
-Then project the **5 sections of a cover letter**:
+Imani wants to practice applying for the same fictional Student Lab Helper role. She has no paid work experience. She helped organize supplies for Science Olympiad and checked a measurement table for her team.
 
-1. **Begin with a Professional Greeting:** "Dear Ms. Smith" or "Dear Hiring Manager"
-2. **Opening Paragraph:** Mention the job title, company name, and why you are excited to work there
-3. **Body Paragraph (Show What You Can Do):** Show off skills and experience with examples
-4. **Closing Paragraph:** Thank the employer, express enthusiasm, mention you would love an interview
-5. **Sign Off Professionally:** "Sincerely" or "Best Regards" + full name
+1. Which employer need should Imani answer in her body paragraph?
+2. Write one honest sentence that connects her experience to that need.
 
-Walk through a worked example on the projector. Use the biomedical career the class just explored:
+## Teacher Key and Extension Prompt
 
-> Dear Hiring Manager,
->
-> I am writing to apply for the Lab Assistant position at UT Southwestern Medical Center. Biomedical research is exciting to me because it solves problems that affect millions of people, and your work on cancer research is particularly inspiring.
->
-> I have strong skills in math and science. In my 7th-grade Career and College Exploration course, I designed a vital signs monitor using a micro:bit microcontroller and led my team's emergency response project. I learn quickly and pay attention to detail.
->
-> Thank you for your time. I would love the opportunity to interview and learn more about the Lab Assistant role.
->
-> Sincerely,
-> [Student Name]
+**Mastery signal:** The sentence names a need from the posting and a specific true example. Do not score preference or writing mechanics unless meaning is unclear.
 
-Students then draft their own cover letter for a job they would love to have at a company they are interested in. The job can be biomedical, but it doesn't have to be, the goal is to practice the 5-section format against a real posting's requirements.
+**DOK 3 prompt:** Which matters more for this fictional role, the career's education route or the student's evidence of careful work? Defend the trade-off with one detail from each document.
 
-After drafting, students swap with a partner and give one piece of constructive feedback on the Body Paragraph, which is the section that decides whether an employer keeps reading.
+## Access, Absence, and Extension
 
-**DOK 2:** How would you describe what makes a cover letter different from a resume? Why do employers want to read both?
-
-!!! tip "Facilitation Tip"
-    Tell students upfront: this is a DRAFT. Real cover letters get revised many times. The goal today is to learn the 5-section structure, not to write a perfect letter.
-
----
-
-## Exit Ticket (3 min)
-
-**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/2sw-wk6-day1-biomedical-pathway-cover-letter.pdf):
-
-Scenario: Imani is applying for a summer Lab Assistant position at UT Southwestern Medical Center. She is 17, has NO paid work experience, but she is on her school's Science Olympiad team and helped at a community health fair last summer.
-
-1. Which TWO cover letter sections (of the 5 from today: Greeting / Opening Paragraph / Body Paragraph / Closing Paragraph / Sign Off) are MOST important for Imani's case, and why?
-
-   Section A: _______________________. Why: ___________________________________________________________________
-
-   Section B: _______________________. Why: ___________________________________________________________________
-
-2. Write ONE sentence Imani could include in her Body Paragraph to "show what she can do" using her real experience (Science Olympiad OR the health fair):
-
-   ___________________________________________________________________
-
-*(d(1)(C), d(7)(B))*
-
----
-
-## Differentiation
-
-- **Support:** Provide a fill-in-the-blank cover letter template with each of the 5 sections labeled. Allow students to write the letter for a familiar job (cashier, babysitter) instead of a biomedical career.
-- **Extension:** Students write TWO cover letters, one for a Lab Tech position and one for a customer service position. How does the language change to match each audience?
-- **ELL:** Bilingual cover letter template. Pre-teach: Greeting = Saludo, Position = Puesto, Skills = Habilidades, Experience = Experiencia, Sincerely = Atentamente.
+- **Support:** Provide sentence frames from the worksheet, read the posting aloud, and allow typed, handwritten, dictated, or teacher-scribed evidence when documented.
+- **ELL:** Preteach employer, requirement, evidence, and qualification with bilingual labels and one completed need-to-evidence example.
+- **Absence:** An absent student uses the same two PDFs and fictional posting. No vendor login or partner is required.
+- A student who finishes early revises the opening so it names one specific reason the fictional lab work is interesting.
+- Optional live extension: compare one available H&L Health Science Hat with the fixed evidence guide. Do not replace the shared evidence with an unverified Hat title or salary.

@@ -1,137 +1,82 @@
-# Day 5: Emerging Career Research + 2SW Wrap-Up
+# Day 5: Xello Explore Career Matches
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Research one emerging biomedical occupation; finalize Health Science cluster favorites in H&L; complete the Xello Save Careers activity; update the My Career Journey reflection for the 2nd Six Weeks |
-| **TEKS** | d(1)(D), d(2)(A), d(5)(A) |
-| **5E Phases** | Engage: Warm-Up · Explore: Emerging biomedical career research · Extend: Xello Save Careers and Health Science cluster ratings · Evaluate: 2SW reflection and Exit Ticket |
-| **Deliverable** | Emerging Biomedical Career Research template (1 emerging career, all fields) + updated H&L Climber Profile (5+ Health Science favorites) + Xello Save Careers completion + 2SW reflection |
-| **Materials** | Chromebooks, H&L accounts, Xello accounts, *Find Your Future* workbook pp. 82-83 and p. 86, BLS Career Outlook page, NIH STEM site, printed Emerging Career Research template, projector |
+| **Objectives** | Complete Xello's required Grade 8 Explore career matches lesson; use Find out why to examine one match; explain whether evidence changed the student's thinking |
+| **TEKS** | d(1)(A) |
+| **5E Phases** | Engage: Warm-Up · Explore: Required Xello lesson · Explain: Private reflection · Evaluate: Exit Ticket |
+| **Deliverable** | Xello Explore career matches completion + [Explore Career Matches Reflection](../../resources/worksheets/2sw-wk6-xello-career-matches-reflection.pdf) |
+| **Materials** | Chromebooks, Xello accounts, official Xello student video, Irving-adapted slide deck, one-page student directions, reflection sheet |
 
 ---
+
+## Before Class
+
+1. Check the Xello Completion Standards report for Matchmaker and Save careers. Students need Matchmaker complete and at least three saved careers.
+2. Assign supervised catch-up for missing prerequisites. Do not make a student invent a career choice.
+3. Open the locked Canvas resource package: facilitator guide, Irving-adapted slides, one-page student directions, and official student video.
+4. Test ClassLink to Xello on the student network.
+5. Keep the full resource's 120-minute option separate from today's required 35-minute district minimum.
 
 ## Warm-Up (5 min)
 
-**WARM-UP: COVID-19 vaccines were developed in record time. What types of scientists made that possible? Name as many as you can in 60 seconds.**
+Use one prompt from the official Xello slide deck:
 
-Take responses and add any missing examples: virologists, immunologists, biomedical engineers, lab technicians, clinical trial coordinators, and manufacturing scientists. Ask which of these jobs depends on a tool or treatment that was uncommon or unavailable ten years ago.
+**WARM-UP:** Is it okay to cross a career off your list even if it scores high on Matchmaker? Explain.
 
----
+Students write first, then two volunteers share. An assessment result is a starting point for investigation, not a command.
 
-## Activity 1: Emerging Biomedical Career Research (20 min)
+## Activity 1: Explore Career Matches in Xello (35 min)
 
-Project a list of emerging biomedical careers on the board for students to choose from:
+Students log in through **ClassLink > Xello**.
 
-- **Genomic Counselor:** helps families understand genetic test results
-- **Bioinformatics Specialist:** analyzes biological data with software
-- **3D Bioprinting Engineer:** designs printable tissues and organs
-- **mRNA Vaccine Specialist:** develops messenger-RNA-based vaccines
-- **AI Drug Discovery Specialist:** uses machine learning to find new drugs
-- **Telehealth Coordinator:** manages remote patient care systems
-- **Wearable Health Tech Designer:** designs Fitbit/Apple Watch-style health devices
-- **CRISPR Gene Editing Technician:** works on gene therapy procedures
-- **Robotic Surgery Technician:** assists surgeons using robotic equipment
+1. Open **Home** and select **Lessons**.
+2. Open **Explore career matches**.
+3. Review the lesson prompts about interests and career matches.
+4. Use **Find out why** for at least one career match.
+5. Compare the match with the career's tasks and the student's interests.
+6. Complete the lesson in Xello.
 
-Each student picks ONE emerging career. They use BLS Career Outlook, H&L Hat Finder (if the career is listed), NIH STEM resources, and Google to complete the **Emerging Career Research template**:
+The official 1-page directions and video remain beside the numbered steps in Canvas. Required directions stay visible; the longer facilitator guide is teacher-only.
 
-| Field | Content |
-|---|---|
-| Career name | |
-| What it involves (2 sentences) | |
-| Education needed | |
-| Salary range | |
-| Why it is "emerging" (what trend created this career?) | |
-| One DFW employer that hires for this role | |
-| Labor market trend (growing fast? slow? stable?) | |
+**Completion evidence:** Use the Xello Completion Standards report. Do not require a public screenshot of a student's profile or assessment results.
 
-> [H&L PLATFORM] In the H&L app, search the Hat Finder for the chosen emerging career. Some emerging careers (like Bioinformatics Specialist) are listed; others students must research outside the app. The H&L app shows DFW-localized salary and demand data when available.
+## Activity 2: Private Reflection (5 min)
 
-**DOK 4:** Based on your research, what argument would you make to convince a school district that biomedical science should be a required course for all high school students? Use labor market data and emerging career trends to support your argument.
+Students complete the before-and-after section:
 
-!!! tip "Facilitation Tip"
-    If a student writes "It's important" or "People need it," ask: "What problem does this career solve? Why didn't it exist 10 years ago?" Require the answer to name the technology, medical need, or job task involved.
+- one match they were unsure about;
+- what they used to think;
+- one interest and one work fact they reviewed;
+- what they think now;
+- what changed or did not change their view.
 
----
+The student may choose the match. Do not require them to share the result with a partner.
 
-## Activity 2: Xello Save Careers (8 min)
+## Exit Ticket (5 min)
 
-Open Xello and direct students to the required Grade 8 **Save careers** task. Students must explore and save at least 3 careers, then use those saved options in later Skills and Explore Career Matches lessons.
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/2sw-wk6-day5-xello-explore-career-matches.pdf):
 
-Students:
+What is one reason a student should think critically about a career-assessment result instead of accepting or rejecting it immediately? Use one detail from today's Xello work.
 
-1. Open their Xello profile
-2. Search for at least 3 careers they explored in 2SW (legal, nursing, dental, biomedical)
-3. Click "Save" on each career
-4. Add a brief note about why they saved each one
+## Teacher Key and Extension Prompt
 
-This creates a Xello-side record of the student's evolving career interests, complementing the H&L Climber Profile.
+**Mastery signal:** The response treats the result as evidence to investigate and cites an interest, task, or Find out why detail.
 
----
+**DOK 2 prompt:** Explain how one interest and one career task together support, complicate, or change your first reaction to a match.
 
-## Activity 3: H&L Health Science Cluster Wrap-Up (10 min)
+## Access, Absence, and Platform Failure
 
-**Source:** (FYF p. 86: "App Exploration")
+- **Support:** Keep the one-page directions visible, read the numbered steps aloud, chunk the lesson, and offer a private written response.
+- **ELL:** Use bilingual labels for match, interest, task, evidence, and changed. A full translation is not required.
+- **Absence:** An absent student may review the page and video independently, but completes the Xello lesson during the teacher's approved catch-up window.
+- If Xello is unavailable, students watch the official video, use the sample reflection, and complete the written learning task. The required platform lesson moves to supervised catch-up.
+- If prerequisites are missing, use the same catch-up rule. Do not pretend a paper sheet completed Xello.
+- H&L is optional today. It does not replace Xello completion.
 
-Students return to the H&L app and finalize ALL their Health Science favorites. They should now have **5 or more Health Science favorites** spanning nursing, dental, medical billing, and biomedical. The App Exploration page closes the cluster with two questions worth answering out loud before students leave it: which Hat matches your personality or interests, and which Hat is clearly NOT a fit for you.
+## Optional Extension
 
-> [H&L PLATFORM] Open the Hats & Ladders app. Go to Clusters and click the Health Science Cluster. Confirm at least 3 Hats and 1 pathway are rated, and that 5+ Health Science careers are favorited (heart icon). Then click "Climber Profile." Students should now see favorites from FOUR clusters: Manufacturing (1SW), IT (1SW), Law (2SW Wk 1-2), and Health Science (2SW Wk 3-6).
-
-The teacher circulates and asks: "Which Health Science career is your TOP favorite, and why?" This is a quick formative check for the entire 4-week Health Science exploration.
-
----
-
-## Activity 4: 2nd Six Weeks Reflection (5 min)
-
-Students update their **My Career Journey** reflection document (originally created in Week 0 of 1SW). They add:
-
-- Clusters explored this six weeks: Law (Wks 1-2), Health Science (Wks 3-6)
-- New favorites added to the Climber Profile
-- SMART goal progress update (from Wk 5)
-- One Powerskill they improved this six weeks
-
-This living document will be reviewed again at mid-year (4SW Wk 1: Career Planning Mid-Year Review).
-
-**DOK 4:** Based on everything you have explored so far. Manufacturing, IT, Law, and Health Science, what pattern do you notice about the types of careers that attract you? What does that pattern tell you about what to explore next?
-
----
-
-## Exit Ticket (2 min)
-
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/2sw-wk6-day5-emerging-career-research-2sw-wrap-up.pdf):
-
-My emerging biomedical career (from Day 5 research): _______________________
-
-Connect this career to THREE things:
-
-**1. The BLS labor market trend I found today** (growing fast, stable, or slow)
-
-   My trend: _______________________. In one sentence, what NEW technology or need created this emerging career in the last 10 years?
-
-   ___________________________________________________________________
-
-**2. The Irving High Biomedical Science pathway** (leads to BACE certification)
-
-   Does the Irving High pathway lead DIRECTLY to my emerging career, or is it a STEPPING STONE through further school? Circle: DIRECT / STEPPING STONE. One sentence why:
-
-   ___________________________________________________________________
-
-**3. What I learned about MYSELF across 2SW** (Law + Health Science clusters)
-
-   One sentence, what pattern do I notice about the careers that attract me after 6 weeks of Health Science + Law exploration?
-
-   ___________________________________________________________________
-
-*(d(1)(D), d(2)(A), d(5)(A))*
-
-Submit the Emerging Career Research template + the updated 2SW reflection as the Week 6 + 2SW summative deliverable.
-
----
-
-## Differentiation
-
-- **Support:** Provide a list of 6 pre-approved emerging biomedical careers with starter research links. Provide a fill-in-the-blank reflection template.
-- **Extension:** "Patient Education" (FYF pp. 82-83). Partners pick one organ or bone from the workbook's list (heart, lungs, brain, stomach, femur, skull, spine), write an AI prompt for a labeled educational illustration a hospital could show patients, generate the image, record what went right and what needs improvement, revise the prompt, generate a second image, and choose the better mock-up to share. Confirm the campus has an approved AI image tool for student use before offering this; if it does not, students write and swap prompts and critique a teacher-generated image on the projector. Students who prefer research instead investigate a DFW biotech employer (UT Southwestern, McKesson, Kimberly-Clark Health) and add it to the research template.
-- **ELL:** Bilingual research template. Pre-teach: Emerging = Emergente, Trend = Tendencia, Employer = Empleador, Investigation = Investigación. Pair ESL students with bilingual peers for the Xello Save Careers step.
+Use *Find Your Future* pp. 82-83, Patient Education, with Canva or Adobe Express. Students generate or sketch a labeled medical illustration, compare it with a trusted anatomy source, and identify one accurate feature and one problem. This is an extension, not part of the Xello minimum.

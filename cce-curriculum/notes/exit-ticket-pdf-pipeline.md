@@ -35,7 +35,7 @@ python3 build/inject_pdf_links.py
 
 1. Write the ticket inside the `## Exit Ticket` section of the relevant `dayN.md` file using the standard `**EXIT TICKET** (Format Name):` marker, following `cce-curriculum/notes/exit-ticket-templates.md` for format choice.
 2. End the payload with the trailing TEKS chip in the existing convention: `*(d(x)(y), d(x)(z))*`.
-3. From the project root: `python3 build/build_pdfs.py docs/<path/to/dayN.md>` to render only that ticket, then `python3 build/inject_pdf_links.py docs/<path/to/dayN.md>` to add the link.
+3. From the project root, use the same explicit dependency environment for both commands: `uv run --with playwright --with jinja2 --with markdown python build/build_pdfs.py docs/<path/to/dayN.md>`, then `uv run --with playwright --with jinja2 --with markdown python build/inject_pdf_links.py docs/<path/to/dayN.md>`. This avoids a system-Python failure when `markdown` is not installed globally.
 4. Run the full preservation loop in `PLANNING.md` §9 before committing.
 
 The pipeline does not validate ticket content. ESL reading level, DOK level, and TEKS alignment remain the author's responsibility (see `cce-curriculum/notes/teks-audit-process.md` and `cce-curriculum/notes/exit-ticket-templates.md`).

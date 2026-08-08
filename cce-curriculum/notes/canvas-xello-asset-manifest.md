@@ -36,7 +36,7 @@ Do not leave a teacher with only “Open Resources in Xello.” The Canvas modul
 | 8 | After high school goal | Activity plan or sample assignment from the resource panel | 1SW Wk0 module | Pending capture |
 | 9 | Save careers | My Careers activity plan and student directions | 2SW career-selection module | Activity plan uploaded to Canvas; student directions pending |
 | 10 | Set goals | My Goals activity plan | 3SW planning module | Uploaded to Canvas; module placement pending |
-| 11 | Explore career matches | Lesson plan; Find Out Why student directions; introduction presentation | 2SW career-matches module | Lesson plan uploaded to Canvas; directions and presentation pending |
+| 11 | Explore career matches | Lesson plan; Find Out Why student directions; introduction presentation; official student video | 2SW career-matches module | Complete package embedded in locked, unpublished 2SW Wk6 Canvas module |
 | 12 | Skills lesson | Lesson plan and any attached student directions or presentation | 3SW skills module | Lesson plan uploaded to Canvas; remaining attachments pending |
 | 13 | Biases and career choices | Lesson plan; student instructions; introduction presentation | 3SW equity and career-choice module | Full English document pack uploaded to Canvas: lesson plan, two student handouts, and PowerPoint |
 | 14 | Scholarship profile | Student guide and family-facing material offered in the resource panel | Financial-planning module | Pending capture |
@@ -99,6 +99,15 @@ Complete one row per uploaded file during the Canvas import.
 - The live Grade 8 requirement is Work experiences: 10 minutes and at least one authentic saved experience. Time Management remains a supplemental extension and is not accepted as the district completion artifact.
 - The broader `My experiences` guide may ask students to record multiple experiences. Teachers may use that as extended support, but the live Completion Standards configuration controls the required minimum.
 - Remaining capture priority for this lesson is any Xello-supplied student directions, presentation, worksheet, or downloadable student video that directly supports Work experiences. Place each licensed binary in locked Canvas, identify its audience and classroom job, and keep a visible text route on the student page.
+
+### Week 6 Explore Career Matches record: 2026-08-08
+
+- `explore-career-matches.pdf` was uploaded as Canvas file 14561430 and embedded on `TEACHER: 2SW Wk6 Day 5 Facilitator Guide` (module item 5311206). It is teacher-facing extended support; the full guide describes a broader 120-minute sequence.
+- `find-out-why-save-careers-student-instructions.pdf` was uploaded as Canvas file 14561431 and embedded on both the teacher and student pages.
+- `explore-career-matches-slides-irving.pptx` was uploaded as Canvas file 14561432 and embedded on the teacher page. The six-slide adaptation preserves the Xello source design and changes the launch route to ClassLink &gt; Xello.
+- The official `Understanding Your Career Matches` student video is embedded on `STUDENT: 2SW Wk6 Day 5 - Xello Explore Career Matches` (module item 5311207). The supplied YouTube player is embedded; no hosted stream was extracted or rehosted.
+- All three licensed binaries sit in locked Canvas folder 1155170. The paired pages, private reflection assignment 3093978, and parent module 544297 remain unpublished.
+- The live Grade 8 requirement controls the core: Explore career matches is 35 minutes and requires Matchmaker plus at least three saved careers. Save careers is not repeated. Platform or prerequisite failure moves to supervised catch-up; paper does not count as Xello completion.
 
 ## Completion gate
 
