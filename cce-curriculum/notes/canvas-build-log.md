@@ -333,3 +333,28 @@ This log records the official Canvas build without storing access credentials or
 - The MkDocs/GitHub Pages site is a legacy archive. It is not a teacher review surface, may be stale, and is no longer part of the routine QA or release gate.
 - The GitHub Pages workflow is manual-only. Routine pushes to `main` do not deploy the legacy site.
 - Default closeout is now Canvas template/API/browser/accessibility/mobile/permissions/Student View verification followed by a source-backup commit and push.
+- Rehost a video file in Canvas only when Xello supplies a downloadable file or the district has explicit permission for that video.
+- Do not extract a media file from a hosted stream merely because it plays in the browser.
+
+## 2026-08-08 - 3SW Week 1 paired lesson set
+
+- Module: `3SW Wk1: Veterinary Science` (544298)
+- State: unpublished
+- Teacher item IDs: Day 1 5311210, Day 2 5311213, Day 3 5311216, Day 4 5311220, Day 5 5311224
+- Student item IDs: Day 1 5311211, Day 2 5311214, Day 3 5311217, Day 4 5311221, Day 5 5311225
+- Native Day `SubHeader` items: 5311209, 5311212, 5311215, 5311219, 5311223. The module uses one chronological route: day header, teacher guide, student guide, then that day's interaction.
+- Unpublished Classic practice Quiz: `PRACTICE: Veterinary Triage Evidence Check` (quiz 281852, item 5311218). Four multiple-choice questions provide immediate feedback and unlimited retries.
+- Unpublished private Assignment: `PRACTICE: Xello Skills Reflection` (assignment 3093979, item 5311222). It is ungraded, accepts private text or file submission, and forbids profile screenshots.
+- Locked Canvas folders: core Week 1 1155181; Day 1 1155182; Day 2 1155183; Day 3 1155184; Day 4 1155185; Day 5 1155186.
+- Core artifact file IDs: career evidence 14561450, comparison 14561451, triage record 14561452, Xello reflection 14561453, pathway brief 14561454, and rubric 14561455.
+- Xello file IDs: Skills facilitator guide 14561456, Irving ClassLink slide deck 14561467, and optional Spanish support deck 14561458.
+- Xello sequence correction: Day 4 protects the required Grade 8 Skills lesson for 35 minutes with at least three saved careers as the prerequisite. Life experiences and Volunteer hours are not repeated. The six-page guide's 85-minute sequence is extended teacher support, not the district minimum.
+- Career evidence correction: the fixed guide uses May 2024 BLS U.S. medians, typical entry education, 2024-34 outlook, and annual openings for Veterinary Assistant, Veterinary Technician, and Veterinarian. No figure is called DFW-localized or starting pay.
+- Program correction: Day 5 uses the current Nimitz public program names and treats certification opportunities and the 300-hour CVA internship route as opportunities with requirements, not guarantees. Workbook district pages are labeled curriculum context.
+- Safety correction: the licensed triage case is fictional. Students observe, compare, prioritize, and report; they do not diagnose, prescribe, or give treatment advice.
+- Grading: the comparison, triage reasoning, and pathway brief form a recommended 16-point minor evidence packet. Quiz attempts, Xello clicks, design polish, and platform access are not separate grades.
+- Worksheet QA: six PDFs totaling eleven pages were rendered, text-extracted, and visually checked. Sentence reasoning has full-width ruled space, multi-part prompts have separate labeled areas, the pathway brief uses short sections rather than a forced paragraph, and the custom triage record supplies decision space missing from the workbook case page.
+- Presentation QA: the six-slide official Xello deck removes the authoring slide, changes Google sign-on to ClassLink &gt; Xello, repairs the agenda, and adds an independent/private exit route. All slides were rendered and inspected; overflow and template checks passed.
+- API/browser QA: the generic verifier passed all 17 consecutive items with no unresolved fields, missing file references, unsupported types, or published content. Signed-in browser QA confirmed the day-header hierarchy, descriptive image alt text, PDF and Quiz links, and clean desktop rendering. Student View correctly showed no modules because the course content remains unpublished, and the test session was exited.
+- Importer: `build/canvas/build_3sw_wk1.py`
+- Read-only verifier: `build/canvas/qa_canvas_module.py 544298`

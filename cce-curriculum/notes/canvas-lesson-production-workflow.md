@@ -137,6 +137,8 @@ Do not assume every student artifact should become a printed worksheet or a stat
 
 Use the least complicated surface that fits the evidence. Paper remains an equal route when handwriting, sketching, manipulatives, device access, or an accommodation makes it the better tool. Before creating graded Canvas objects, confirm the course's Minor/Major assignment groups and weights; never place a grade into an arbitrary imported or default group.
 
+For five-day modules, use a native Canvas `SubHeader` before each Teacher/Student pair. Keep one chronological route: Day header, Teacher Guide, Student Guide, then any interaction used that day. The generic module verifier accepts and records these headers. This gives teachers and students a fast visual scan without creating extra pages or competing navigation systems.
+
 ### Run a periodic engagement and organization scan
 
 At the start of each six-weeks block, and again when a week feels repetitive, make a short research pass through current Canvas documentation, accessibility guidance, practitioner discussions, and a small sample of teacher communities such as Reddit. Treat practitioner posts as leads and implementation warnings, not as research evidence. Confirm features in current official documentation and then verify that Irving ISD has enabled or licensed the feature before making it load-bearing.

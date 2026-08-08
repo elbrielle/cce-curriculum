@@ -1,99 +1,22 @@
-# Day 4: Xello Life Experiences + Volunteer Hours
+# Day 4: Xello Skills
 
-## Lesson Overview
+> **Canvas is authoritative.** This Markdown page is a source backup for the unpublished Canvas Teacher Facilitator Guide and Student Guide.
 
-| | |
-|---|---|
-| **Time** | 50 minutes |
-| **Objectives** | Complete the Xello Life Experiences lesson; log existing volunteer hours; understand how informal experiences (chores, pet care, sports) build the skills colleges and employers look for |
-| **TEKS** | d(1)(A), d(1)(C), d(4)(E) |
-| **5E Phases** | Engage: Warm-Up · Explore: Xello Life Experiences and Volunteer Hours · Extend: Connect experiences to vet careers · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Xello Life Experiences lesson (screenshot of completion screen) + at least one Volunteer Hours entry (or planned entry) |
-| **Materials** | Chromebooks, Xello student accounts, projector |
+## 50-minute plan
 
----
+- **Warm-up — 5 minutes:** Define a transferable skill and name two places it can be used.
+- **Required Xello Skills lesson — 35 minutes:** ClassLink > Xello > Home > Lessons > Skills.
+- **Private reflection — 7 minutes:** Name one current skill, how it appears in veterinary work, and how it transfers to a different career.
+- **Completion report/catch-up — 3 minutes:** The teacher verifies the Completion Standards report or records a supervised catch-up need.
 
-## Warm-Up (5 min)
+The assigned Grade 8 task is **Skills lesson**. Students need at least three saved careers. The official six-page Xello facilitator guide describes an extended 85-minute sequence; the district minimum remains the assigned 35-minute lesson. Life experiences and Volunteer hours are not repeated here.
 
-**WARM-UP: List one thing you do regularly that nobody pays you for, chores, walking a dog, watching a sibling, helping a neighbor, sports practice. Now: what skill does that activity teach you?**
+Paper supports learning when Xello is unavailable, but it does not replace platform completion. Do not require profile screenshots or public sharing of results.
 
-Take 4-5 fast responses. The point: students already have life experiences that will matter to colleges and employers. Today they learn how to log them in Xello so they don't get forgotten.
+## Evidence and supports
 
----
-
-## Activity 1: Xello Life Experiences Lesson (25 min)
-
-**Source:** Bowie Grade 8 Xello Completion Standard, "Life experiences"
-
-Open Xello on the projector. Sign in with the school SSO and walk students through finding the Life Experiences lesson:
-
-1. From the Xello dashboard, click on the lessons tab
-2. Find "Life Experiences" in the 7th-grade lesson list
-3. Click "Start" or "Continue"
-
-Students complete the Xello Life Experiences lesson on their own Chromebooks. The lesson typically includes:
-
-- A short video or slide deck explaining what counts as a life experience
-- Examples of life experiences (jobs, sports, hobbies, family responsibilities, volunteer work)
-- Reflection prompts about what each experience teaches
-
-As students work, circulate and check that they are reading and reflecting, not just clicking through. Pause the class once at the midpoint to ask: "What is one experience you wrote down that you almost forgot was important?"
-
-!!! tip "Facilitation Tip"
-    Students often think "experience" means a paid job, so they leave the form blank. Reframe with examples: babysitting a younger sibling = experience with childcare and patience. Walking a neighbor's dog = experience with reliability and animal handling. Helping at family events = experience with hospitality. Every veterinary job application asks about animal handling experience, informal pet care counts.
-
----
-
-## Activity 2: Xello Volunteer Hours Entry (15 min)
-
-**Source:** Bowie Grade 8 Xello Completion Standard, "Volunteer hours"
-
-After completing the Life Experiences lesson, students navigate to the Volunteer Hours section in their Xello profile (typically under "About Me" or "My Profile"). They add at least ONE volunteer hours entry. If they have never officially volunteered, they can:
-
-- Log a recurring family/community responsibility (helping at church, cleaning common areas, helping at family events)
-- Log a one-time school volunteer event (book fair, club setup, school cleanup)
-- Plan a future volunteer activity to log later
-
-Each entry needs: organization name, role, hours, and a 1-2 sentence description of what they did and learned.
-
-> [VERIFY IN Xello] Confirm with your district that the Volunteer Hours field is enabled in your school's Xello configuration. If it is not, students complete the Life Experiences lesson only and log volunteer experiences in their notebook for later transfer.
-
-**DOK 2:** How does logging volunteer hours in middle school help you when you apply to a vet science high school pathway like Nimitz HS in 8th grade?
-
----
-
-## Activity 3: Connect to Vet Careers (3 min)
-
-Quick whole-class share: which life experience or volunteer activity from today would help on a vet clinic job application? (Examples: pet sitting, animal shelter volunteering, 4-H club, family farm chores, working at a pet store.) Write 2-3 student examples on the board.
-
----
-
-## Exit Ticket (2 min)
-
-**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/3sw-wk1-day4-xello-life-experiences-volunteer-hours.pdf):
-
-1. One life experience I logged in Xello today: _______________________
-
-2. ONE specific skill this experience teaches me (NOT "responsibility" — be specific: "handling a sick dog," "speaking clearly to customers," "showing up on time for practice"):
-
-   ___________________________________________________________________
-
-3. ONE veterinary career (or Animal Systems career) that VALUES this exact skill, and why:
-
-   Career: _______________________. Why the skill matters: ___________________________________________________________________
-
-4. One volunteer activity I could do in the NEXT 2 WEEKS to add another logged hour (animal shelter, 4-H, community garden, school cleanup, church event):
-
-   ___________________________________________________________________
-
-*(d(1)(A), d(1)(C), d(4)(E))*
-
-Submit your Xello Life Experiences completion screenshot with this ticket.
-
----
-
-## Differentiation
-
-- **Support:** Provide a printed list of common middle-school life experiences students can choose from if they get stuck thinking of their own.
-- **Extension:** Plan a real volunteer opportunity in the next two weeks at a local animal shelter, vet clinic, or community garden. Bring back proof to log in Xello.
-- **ELL:** Pre-teach: Volunteer = Voluntario/a, Experience = Experiencia, Hours = Horas. Xello supports Spanish language toggle, show students how to switch the interface language if needed.
+- Xello Completion Standards report
+- private Xello Skills reflection, typed or on the supplied PDF
+- ClassLink-adapted official Xello slide deck
+- bilingual labels, read-aloud, chunking, and an optional Spanish support deck
+- supervised catch-up when the platform or prerequisite is unavailable

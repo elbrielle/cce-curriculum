@@ -109,6 +109,14 @@ Complete one row per uploaded file during the Canvas import.
 - All three licensed binaries sit in locked Canvas folder 1155170. The paired pages, private reflection assignment 3093978, and parent module 544297 remain unpublished.
 - The live Grade 8 requirement controls the core: Explore career matches is 35 minutes and requires Matchmaker plus at least three saved careers. Save careers is not repeated. Platform or prerequisite failure moves to supervised catch-up; paper does not count as Xello completion.
 
+### 3SW Week 1 Skills record: 2026-08-08
+
+- `skills.pdf` was rehosted as Canvas file 14561456 in locked Week 1 folder 1155181 and linked from `TEACHER: 3SW Wk1 Day 4 Facilitator Guide` (module item 5311220).
+- The official English Skills introduction deck was adapted to Irving's `ClassLink > Xello` route and uploaded as file 14561467 after the final visual-QA sync. The six-slide deck also repairs imported agenda numbering and provides an independent/private exit option.
+- The official Spanish Skills deck was uploaded as optional support file 14561458. It does not replace evidence-based bilingual labels, read-aloud, chunking, or the private response route.
+- The student page links a private ungraded reflection assignment (3093979; module item 5311222) and forbids profile screenshots.
+- The live Grade 8 minimum controls the core: Skills lesson is 35 minutes and requires at least three saved careers. The broader official facilitator guide describes an 85-minute sequence and is labeled extended support. Platform or prerequisite failure moves to supervised catch-up; paper does not count as Xello completion.
+
 ## Completion gate
 
 A Xello-backed module is not teacher-ready until:
