@@ -2,7 +2,7 @@
 
 ## What This Is
 
-A 36-week Career and College Explorations (CCE) course curriculum for grades 7-8 across Irving ISD VILS Labs, Texas. Aligned to TEKS 127.2 Career and College Exploration (Adopted 2023). Delivered as a MkDocs Material review site now and, when the course is ready, through an authenticated Canvas course as the official teacher and student home. Hats & Ladders and the *Find Your Future* workbook carry the career-exploration content. District-configured Xello completion standards form a required yearlong profile and planning spine. eDynamic Learning, Canva, Adobe Express, Code.org, and other named tools are supplemental unless the scope and sequence explicitly assigns them.
+A 36-week Career and College Explorations (CCE) course curriculum for grades 7-8 across Irving ISD VILS Labs, Texas. Aligned to TEKS 127.2 Career and College Exploration (Adopted 2023). Canvas is the sole active production, review, and delivery environment for teachers and students. GitHub preserves source, automation, and build history as a backup; the MkDocs site is a legacy archive and is not part of the normal production gate. Hats & Ladders and the *Find Your Future* workbook carry the career-exploration content. District-configured Xello completion standards form a required yearlong profile and planning spine. eDynamic Learning, Canva, Adobe Express, Code.org, and other named tools are supplemental unless the scope and sequence explicitly assigns them.
 
 ## Repo Structure
 
@@ -14,7 +14,7 @@ A 36-week Career and College Explorations (CCE) course curriculum for grades 7-8
 ├── PATHWAYS.md                        ← Irving ISD CTE pathway reference
 ├── PLATFORMS.md                       ← platform descriptions
 │
-├── docs/                              ← THE WEBSITE (source of truth)
+├── docs/                              ← curriculum source/backup (legacy MkDocs input)
 │   ├── scope-and-sequence.md
 │   ├── 1sw/ ... 6sw/                  ← six-weeks blocks
 │   │   └── wkN-topic/

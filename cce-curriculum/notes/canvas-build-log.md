@@ -325,3 +325,11 @@ This log records the official Canvas build without storing access credentials or
 - Browser QA: the signed-in module shows all 12 items in the intended order. The Day 2 student guide renders the three licensed workbook visuals with descriptive alt text. The Day 5 teacher guide exposes the full Xello resource package, the student page embeds the official video, and the student guide remains usable at a 390-by-844 viewport.
 - Importer: `build/canvas/build_2sw_wk6.py`
 - Read-only verifier: `build/canvas/qa_canvas_module.py 544297`
+
+## 2026-08-08 - Canvas-only production decision
+
+- Canvas is the sole active production, review, and delivery environment for teachers and students.
+- GitHub is retained for source control, automation history, and backup only.
+- The MkDocs/GitHub Pages site is a legacy archive. It is not a teacher review surface, may be stale, and is no longer part of the routine QA or release gate.
+- The GitHub Pages workflow is manual-only. Routine pushes to `main` do not deploy the legacy site.
+- Default closeout is now Canvas template/API/browser/accessibility/mobile/permissions/Student View verification followed by a source-backup commit and push.

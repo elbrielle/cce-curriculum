@@ -248,18 +248,18 @@ After Canvas verification:
 1. update `cce-curriculum/notes/canvas-build-log.md` with course, module, page, item, folder, and file IDs;
 2. update the relevant asset manifest when licensed sources were added;
 3. run `git diff --check`;
-4. run the strict MkDocs build;
+4. run the Canvas template, API, browser, accessibility, mobile-layout, permissions, and Student View checks appropriate to the change;
 5. stage only tracked source, templates, scripts, and notes;
 6. confirm licensed visuals are ignored;
-7. commit with a neutral curriculum-production message;
-8. push the working branch and `main`; and
-9. deploy the MkDocs review site when public documentation changed.
+7. commit with a neutral curriculum-production message; and
+8. push the source as a GitHub backup.
+
+Canvas is the sole active production and review environment. MkDocs is a legacy archive: do not build, QA, or deploy it unless the user explicitly requests legacy-site work.
 
 Run local checks through an explicit temporary dependency environment so future agents do not depend on whichever Python packages happen to be installed globally:
 
 ```bash
 uv run --with beautifulsoup4 --with textstat python build/canvas/qa_templates.py 'wkN-*.html'
-uv run --with mkdocs-material --with mike mkdocs build --strict
 ```
 
 For generic HTML templates that still contain placeholder prose, calculate reading level from each fully rendered page body. A reading score from unreplaced tokens is not meaningful.

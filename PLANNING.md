@@ -170,11 +170,11 @@ No systematic pass is pending. If the user directs a Wk0 pilot pass:
 
 ## 1. What This Project Is
 
-A **36-week Career and College Explorations (CCE)** course for grades 7-8 across **Irving ISD VILS Labs**, Texas. Aligned to **TEKS 127.2 (Adopted 2023)**. The public review copy is delivered as a static MkDocs Material website; Canvas will be the official instructional home. Each week has 1 overview + 5 daily plans = **252 markdown files total** in `docs/`.
+A **36-week Career and College Explorations (CCE)** course for grades 7-8 across **Irving ISD VILS Labs**, Texas. Aligned to **TEKS 127.2 (Adopted 2023)**. Canvas is the sole active production, review, and instructional environment. GitHub preserves source and automation as a backup. The static MkDocs site is a legacy archive and is not a teacher-facing review surface or a normal release gate. Each week has 1 overview + 5 daily plans = **252 markdown files total** in `docs/`.
 
 **Platform stack:** Find Your Future workbook (core print source), Hats & Ladders (digital career exploration), Xello Grade 8 Completion Standards (required yearlong spine), eDynamic Learning/Code.org/Canva/Adobe Express (supplemental), and the VILS lab hardware baseline documented in `PLATFORMS.md`.
 
-**Current deployment:** Live at `https://elbrielle.github.io/cce-curriculum/latest/`. Versioned via mike; `v1-teacher-review` preserved as the pre-feedback baseline (do not modify this version).
+**Legacy archive:** `https://elbrielle.github.io/cce-curriculum/latest/`. It may be stale. Do not use it to verify current curriculum or deploy it during ordinary Canvas production. The frozen `v1-teacher-review` snapshot remains a historical record and must not be modified.
 
 ---
 
@@ -414,9 +414,11 @@ Each lesson is a rule with a one-sentence rationale. Full context in commits and
 
 ---
 
-## 11. Deploy Workflow
+## 11. Backup and Legacy Archive Workflow
 
-Push to `main` triggers GitHub Actions `mike deploy --push latest` on `gh-pages`. Verify with `gh run list --limit 3`. Local preview: `python3 -m mkdocs serve`.
+Canvas is the release surface. Verify the actual Canvas module, teacher/student pages, files, permissions, links, interactions, mobile layout, and Student View before publication. Commit and push source changes to GitHub as a backup after Canvas verification.
+
+The MkDocs workflow is manual-only. Do not build, preview, QA, or deploy the legacy site unless the user explicitly requests it. A routine push to `main` must not publish the site.
 
 ### Versioning convention
 
@@ -428,7 +430,7 @@ Push to `main` triggers GitHub Actions `mike deploy --push latest` on `gh-pages`
 
 ### When to tag a new milestone
 
-Create a new named snapshot:
+Only when the user explicitly requests legacy-site archival work, create a new named snapshot:
 - Before a teacher / coordinator review session (capture "what they saw")
 - After a major feedback round ships
 - Before a risky refactor (rollback anchor)

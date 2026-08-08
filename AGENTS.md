@@ -6,7 +6,8 @@ For Canvas lesson production, read and follow `cce-curriculum/notes/canvas-lesso
 
 Non-negotiables:
 
-- Canvas is the official teacher and student delivery environment; MkDocs remains the public review site.
+- Canvas is the sole active production, review, and delivery environment for teachers and students.
+- GitHub is source control and backup only. The MkDocs site is a legacy archive; do not build, QA, or deploy it unless the user explicitly requests that work.
 - Every lesson receives a coordinated Teacher Facilitator Guide and Student Guide.
 - Licensed workbook, Climber Notes, H&L, and Xello binaries or screenshots stay out of Git and the public site. Upload them only to authenticated Canvas.
 - Never store a Canvas token in the repository, a script, a command-line argument, or an output log.

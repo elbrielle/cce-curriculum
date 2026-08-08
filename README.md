@@ -6,23 +6,20 @@ Aligned to TEKS &sect;127.2 Career and College Exploration (Adopted 2023).
 ## Quick Start
 
 ```bash
-# validate the MkDocs site (zero warnings required)
-python3 -m mkdocs build --strict
-
-# local preview
-python3 -m mkdocs serve    # → http://127.0.0.1:8000/
+# validate a prepared Canvas module without changing it
+python3 build/canvas/qa_canvas_module.py <module_id>
 
 # legacy: rebuild .docx/.xlsx
 python3 build/build_docx.py
 python3 build/build_xlsx.py
 ```
 
-Live site: `https://elbrielle.github.io/cce-curriculum/latest/`
+Canvas is the sole active production, review, and delivery environment. GitHub is source control and backup. The MkDocs/GitHub Pages site is a legacy archive and may be stale; do not use it to verify current teacher or student materials.
 
 ## Structure
 
 ```
-docs/                         <- THE WEBSITE (source of truth, edit these)
+docs/                         <- curriculum source/backup; legacy MkDocs input
   scope-and-sequence.md
   1sw/ ... 6sw/               <- six-weeks blocks
     wkN-topic/

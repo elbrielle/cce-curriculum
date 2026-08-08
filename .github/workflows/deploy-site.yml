@@ -1,11 +1,8 @@
 name: Deploy MkDocs to GitHub Pages (via mike)
 
 on:
-  push:
-    branches: [main]
-  schedule:
-    # Runs at midnight UTC every day
-    - cron: '0 0 * * *'
+  # Legacy archive only. Routine source-backup pushes must not publish the site.
+  # Run manually only when the owner explicitly requests an archival deployment.
   workflow_dispatch:
     inputs:
       milestone_name:
