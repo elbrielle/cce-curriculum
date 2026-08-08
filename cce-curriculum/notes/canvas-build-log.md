@@ -445,3 +445,27 @@ This log records the official Canvas build without storing access credentials or
 - API/browser QA: the generic verifier passed all 17 consecutive items with no unresolved fields, missing file references, unsupported types, or published content. Signed-in Chrome confirmed teacher monitoring/key disclosures, student alt text and linked artifacts, all five Quiz questions, the private Assignment submission routes, progressive image loading, and clean desktop/mobile rendering. Student View remains protected by the unpublished module state.
 - Importer: `build/canvas/build_3sw_wk5.py`
 - Read-only verifier: `build/canvas/qa_canvas_module.py 544308`
+
+## 2026-08-08 - 3SW Week 6 paired lesson set
+
+- Module: `3SW Wk6: Build, Test, and Pitch a Business Idea` (544318)
+- State: unpublished
+- Teacher item IDs: Day 1 5311386, Day 2 5311389, Day 3 5311392, Day 4 5311396, Day 5 5311399
+- Student item IDs: Day 1 5311387, Day 2 5311390, Day 3 5311393, Day 4 5311397, Day 5 5311400
+- Native Day `SubHeader` item IDs: 5311385, 5311388, 5311391, 5311395, 5311398. The route remains day header, teacher guide, student guide, then the day's interaction.
+- Unpublished Classic practice Quiz: `PRACTICE: Entrepreneurship Evidence Check` (quiz 281857, item 5311394). Five questions provide immediate feedback and unlimited retries on opportunity structure, customer evidence, Abandon It, source labels, and revenue.
+- Unpublished private Assignment: `DRAFT: Entrepreneurship Portfolio` (3094018, item 5311401). It remains ungraded and accepts file upload, text entry, or media recording until the Major assignment group and 40/60 weighting are verified.
+- Locked Canvas folders: core Week 6 1155212; Day 1 1155213; Day 2 1155214; Day 3 1155215.
+- Core artifact file IDs: opportunity guide 14561631, idea support packet 14561632, venture/pitch record 14561633, living-cost guide 14561634, budget/Scholarship plan 14561635, and portfolio rubric 14561636.
+- Xello file IDs: English Scholarships Guide 14561637 and Spanish Scholarships Guide 14561638. The official 2:02 Xello student video is embedded from its supplied YouTube player.
+- Licensed FYF visuals: five small workbook JPEGs are stored only in locked Canvas folders as files 14561639-14561643. They remain gitignored and are not part of the source backup.
+- Sequence correction: Day 5 protects the required Grade 8 Scholarship profile for 20 minutes. Save careers is not repeated. Teachers verify the Completion Standards report; students do not submit profile screenshots or private answers.
+- Source correction: the budget uses the MIT Dallas County one-adult/no-children scenario updated February 15, 2026. The $3,450 monthly amount is a rounded living-cost scenario, not DFW starting pay, a salary guarantee, or tax advice. H&amp;L salary is not load-bearing.
+- Program correction: the teacher guide uses current Irving ISD Business program names and treats workbook district pages as historical context without promising admission, credentials, placements, or salary.
+- Interaction review: a Quiz saves time on bounded misconceptions; the final portfolio stays private; no Discussion exposes student ideas, budgets, or scholarship information. Live, recorded, private, and written pitch routes use the same evidence.
+- Grading: the individual four-criterion 16-point portfolio is the recommended major. Group attendance, class popularity, public-speaking confidence, design polish, platform access, and the venture verdict do not determine the score.
+- Worksheet QA: six PDFs totaling seventeen pages passed strict rendering with zero warnings and visual inspection. The first render exposed orphaned response lines; the final layout uses deliberate page breaks, short fields for short phrases, separate calculation cells, and full-width space for multi-sentence reasoning.
+- Image-performance QA: all five delivery images are 116-262 KB. Desktop and 390-pixel browser checks found no horizontal overflow. Canvas did not preserve the source `loading="lazy"` attribute in the rendered DOM, so this module relies on small, targeted delivery files rather than assumed lazy loading.
+- API/browser QA: the generic verifier passed all 17 consecutive items with no unresolved fields, missing file references, unsupported item types, or published content. Signed-in Chrome confirmed the module heading, teacher/student link, official Xello video and PDF routes, image alt text and dimensions, and clean desktop/mobile rendering.
+- Importer: `build/canvas/build_3sw_wk6.py`
+- Read-only verifier: `build/canvas/qa_canvas_module.py 544318`

@@ -39,7 +39,7 @@ Do not leave a teacher with only “Open Resources in Xello.” The Canvas modul
 | 11 | Explore career matches | Lesson plan; Find Out Why student directions; introduction presentation; official student video | 2SW career-matches module | Complete package embedded in locked, unpublished 2SW Wk6 Canvas module |
 | 12 | Skills lesson | Lesson plan and any attached student directions or presentation | 3SW skills module | Lesson plan uploaded to Canvas; remaining attachments pending |
 | 13 | Biases and career choices | Lesson plan; student instructions; introduction presentation | 3SW equity and career-choice module | Full English document pack uploaded to Canvas: lesson plan, two student handouts, and PowerPoint |
-| 14 | Scholarship profile | Student guide and family-facing material offered in the resource panel | Financial-planning module | Pending capture |
+| 14 | Scholarship profile | Student guide, Spanish student guide, and official student video | 3SW Wk6 financial-planning module | Complete package embedded in locked, unpublished module |
 | 15 | Make plans | My Plans activity plan and student directions | Course-planning module | Activity and lesson plans uploaded to Canvas; student directions pending |
 | 16 | 4-year course plan and Submit course requests | Course Planner student video/guide; educator guide | Counseling-window module | Pending capture |
 | 17 | Parent 4-year course plan approval | Family guide and Xello Family presentation | Family approval module | Pending capture |
@@ -86,6 +86,8 @@ Complete one row per uploaded file during the Canvas import.
 | Favorite clusters | my-career-clusters.pdf | Teacher | 14517254 | 5293961 | Teacher Build: Xello Grade 8 Licensed Resources | 2026-08-06 | Licensed district resource; locked and unpublished |
 | Personality Style | personality-styles.pdf | Teacher | 14517255 | 5293961 | Teacher Build: Xello Grade 8 Licensed Resources | 2026-08-06 | Licensed district resource; locked and unpublished |
 | Make plans | plans.pdf (activity) | Teacher | 14517256 | 5293961 | Teacher Build: Xello Grade 8 Licensed Resources | 2026-08-06 | Licensed district resource; locked and unpublished |
+| Scholarship profile | scholarships-guide-students.pdf | Student | 14561637 | 5311400 | STUDENT: 3SW Wk6 Day 5 - Budget and Scholarship Profile | 2026-08-08 | Official Xello student guide; locked module and support folder |
+| Scholarship profile | scholarships-guide-students-spanish.pdf | Student support | 14561638 | 5311400 | STUDENT: 3SW Wk6 Day 5 - Budget and Scholarship Profile | 2026-08-08 | Official Xello Spanish student guide; locked module and support folder |
 
 ### Week 4 reuse record: 2026-08-06
 
@@ -133,6 +135,14 @@ Complete one row per uploaded file during the Canvas import.
 - The live Grade 8 requirement controls the core: **Biases and career choices, Activity 2 only, 30 minutes, completed**. The full facilitator package also contains a 30-minute Career Trailblazers activity and a 20-minute Non-traditional Career Matches activity; both are clearly labeled optional extensions.
 - No downloadable student video was present in the captured package. The Canvas build does not invent, scrape, or rehost one. Required student directions remain visible on the Student Guide, and the private reflection assignment is unpublished.
 - Work experiences is not repeated in this week. Platform failure moves the required Xello lesson to supervised catch-up; the paper reflection supports thinking but does not replace Completion Standards evidence.
+
+### 3SW Week 6 Scholarship Profile record: 2026-08-08
+
+- The official English and Spanish Xello Scholarships Guides were uploaded as Canvas files 14561637 and 14561638 in locked Week 6 support folder 1155212 and embedded on both Day 5 guides.
+- Xello's official `Discover your scholarship options` video is embedded from the supplied YouTube player. No hosted stream was extracted or rehosted. The PDF guide and native Canvas directions are the equal text route.
+- The live Grade 8 requirement controls the lesson: **Scholarship profile, 20 minutes, complete the matching profile**. Students do not have to apply for or save a scholarship in this block.
+- Teachers verify completion through the Xello Completion Standards report. Students do not submit screenshots or private profile answers.
+- `Save careers` is not repeated; that requirement was protected in 2SW Wk3. Platform failure moves Scholarship profile to supervised catch-up, and paper does not count as Xello completion.
 
 ## Completion gate
 

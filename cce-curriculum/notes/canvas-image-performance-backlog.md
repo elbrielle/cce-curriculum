@@ -39,6 +39,14 @@ Do not batch-compress screenshots containing small directions, labels, charts, o
 - Progressive scrolling loaded the Day 1, Day 4, and Day 5 images at their point of use; the 390-pixel display width was about 344 pixels and the instructional text remained readable.
 - No Week 5 replacement is warranted. Reassess only if real classroom use or a slower student connection shows a first-load delay.
 
+### 3SW Week 6 baseline
+
+- Five Canvas-only workbook images are 116-262 KB each. They are 1,020 pixels wide and display at a maximum of 700 pixels.
+- Canvas file IDs are 14561639-14561643.
+- Signed-in desktop and 390-pixel checks found no horizontal overflow. Small workbook directions remained readable at desktop width; the linked support packet supplies the independent text route on a phone.
+- The source HTML includes `loading="lazy"`, but Canvas did not preserve that attribute in the signed-in rendered DOM during this check. Week 6 therefore controls first-load cost primarily through targeted page selection and small JPEG delivery files rather than assuming browser lazy loading.
+- No Week 6 image exceeds 300 KB. No replacement is warranted unless classroom network testing shows a real delay.
+
 ## Later audit queue
 
 - Sample image-heavy pages from the first six weeks in signed-in Canvas.
