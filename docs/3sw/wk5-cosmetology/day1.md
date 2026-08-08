@@ -1,113 +1,68 @@
-# Day 1: Human Services Cluster + Special Effects Makeup Concept
+# Day 1: Human Services and SFX Texture Concept
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Tour the Human Services cluster in the workbook and the H&L app; identify personal care and wellness careers; research how prosthetics, texture, and layering work in special effects makeup; build a Concept Card for a three-day SFX transformation |
+| **Objectives** | Describe the Human Services cluster, identify several careers, explain how texture and layering support an SFX design, and create a labeled texture map |
 | **TEKS** | d(1)(B), d(1)(C) |
-| **5E Phases** | Engage: Warm-Up · Explore: Cluster app exploration and SFX partner research · Explain: Style Guide textures and the Concept Card · Evaluate: Exit Ticket |
-| **Deliverable** | Completed SFX Concept Card (character description, texture, materials, color palette, sketch) |
-| **Materials** | *Find Your Future* workbook pp. 127-129 and p. 138, Chromebooks, H&L accounts, colored pencils or markers, projector |
+| **Deliverable** | SFX Texture Concept and Lab Brief, pages 1-3 |
+| **Materials** | FYF pp. 127-129, concept brief, colored pencils, projector |
 
----
+## Before Class
+
+- Post the student guide and concept brief in Canvas.
+- Project FYF p. 127, then pp. 128-129.
+- Prepare one strong texture-map model and one cluttered non-example.
+- Keep H&L optional. The lesson must still run when the platform or a live Hat title changes.
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Think of a movie or show where a person was turned into a creature, a monster, or someone much older. What did the artists change about that actor's skin to make you believe it?**
+**WARM-UP:** Think of a movie, show, or game character whose skin, hair, or clothing texture helps the character look believable. What can a viewer see?
 
-Take 4 student responses and record the visible details they name: scales, cracks, wrinkles, or color. Connect those observations to the Human Services cluster, which includes hairstylists as well as special effects artists. Then begin the three-day SFX build.
+Collect four visual details such as scales, cracks, wrinkles, overlapping pieces, shine, or color change.
 
----
+## Activity 1: Open the Human Services Cluster (8 min)
 
-## Activity 1: Exploring the World of Human Services (12 min)
+Use the FYF p. 127 opener to identify Hair Stylist, Recreational Therapist, and Aesthetician. Students record one task or client need for three Human Services careers. Make clear that SFX makeup sits near personal appearance and film production, while the larger cluster also includes counseling, recreation, and community support.
 
-**Source:** (FYF p. 127: "Exploring the World of HUMAN SERVICES") and (FYF p. 138: "App Exploration")
+**Optional H&L extension:** Browse the Human Services cluster only after students have the fixed career notes. Do not require ratings, favorites, or screenshots for today's evidence.
 
-Open the workbook to page 127. Read the chapter opener together: Human Services careers help people improve their daily lives and overall well-being. Some of these careers focus on personal care and self-expression; others help people navigate challenges, build relationships, or reach important resources. Point to the three Hats printed on the opener page, **Hair Stylist**, **Recreational Therapist**, and **Aesthetician**, and ask the page's own question: how do you think these roles help people in different ways?
+## Activity 2: Read the SFX Challenge (10 min)
 
-**Be the Decision Maker (FYF p. 127):** Students imagine opening a brand new salon and wellness studio built to help people feel confident before a big event. What would the business be called, and what special service would make people want to come? Take three names out loud and hold onto them; students design the business side of this idea on Day 4.
+Use FYF p. 128. Students answer:
 
-> [H&L PLATFORM] The App Exploration page walks students through the cluster in order: open the Hats & Ladders app, go to Clusters, click the Human Services Cluster, watch the "Cluster Tour" video, play "Game Time," find 1 Hat that matches their personality or interests and 1 Hat that does not fit, open "Pathway Possibilities" and answer the questions, then explore and rate at least 1 pathway and at least 3 Hats. Students write their answers in the boxes on page 138.
+1. What is a makeup prosthetic, and what does it change?
+2. Why do texture and layering make an effect more believable?
 
-**Stop and Jot:** Name all four write boxes on page 138 before students open the app. Give 45 seconds per box with the prompt on screen and post two stems: "This Hat fits me because I like _____" and "This Hat is not a fit because it asks me to _____ all day." Read jots over shoulders while students work.
+Students get three lines for the first response and four for the second. A partner may help with oral rehearsal, but every student records individual evidence.
 
-!!! tip "Facilitation Tip"
-    Some students will assume cosmetology is "just hair." Reframe: cosmetology includes color theory, chemistry (dye, perms), business management, customer psychology, and entrepreneurship. It is one of the most diverse skill sets in the personal care world, and special effects makeup sits on the same skill tree.
+## Activity 3: Build the Texture Map (22 min)
 
----
+Use FYF p. 129 to compare smooth/scaled, rough/cracked, layered/wrinkled, and rock/geode textures. Students select one main texture and at most one secondary texture, then complete:
 
-## Activity 2: Special Effects Makeup, Step 1 Research (10 min)
+- a 2-3 sentence character description;
+- a 2-3 color palette with the job of each color;
+- one equal build route;
+- a material or digital-layer explanation; and
+- a full-page labeled sketch with at least three layers or material choices.
 
-**Source:** (FYF p. 128: "Special Effects Makeup", Step 1)
+**Active monitoring:** At minute 10, every student should have the main texture and route. At minute 17, the map should show three labels. Redirect designs that use many unrelated textures or name materials that cannot produce the chosen visual effect.
 
-Read the workbook's scenario aloud (p. 128). Students are part of a special effects team on a fantasy film. In one scene a character discovers an ancient artifact buried underground, and the moment they touch it their skin shifts, cracks, and transforms into something not human. The director wants the change to feel real and alive. Over the next three days students design that transformation, build it, and then evaluate it the way a working artist does.
+## Exit Check (5 min)
 
-The workbook tells students to find a partner for the research step. Pairs research and record answers to three questions on page 128:
+Students name:
 
-- What is a prosthetic in makeup, and how is it used?
-- Why is texture important when creating realistic skin effects?
-- How does layering help make effects look more natural?
+- one Human Services career;
+- one specific task that career performs; and
+- one design skill from today that transfers to that task.
 
-Post one question at a time. Hold a silent 30 second think, then give Partner A 30 seconds and Partner B 30 seconds before anyone writes. Two pairs share each question with the class. Pick your share-out pairs from what you heard while circulating, not from raised hands.
+**DELIVERABLE:** Completed research notes, concept fields, and labeled texture map.
 
-**DOK 2:** How would you summarize the difference between makeup that changes how someone looks and makeup that changes what someone IS in a scene?
+## Support and Absence Route
 
----
-
-## Activity 3: Build Your Concept Card (20 min)
-
-**Source:** (FYF p. 129: "Special Effects Makeup", Step 2)
-
-Project the workbook's **Style Guide** (p. 129) and read the four texture families with students:
-
-| Texture | What it looks like |
-|---|---|
-| Smooth/Scaled | Overlapping, repeating patterns like a snake or a fish |
-| Rough/Cracked | Uneven, broken surfaces like dried mud or a brick wall |
-| Layered/Wrinkled | Folded, wrinkly, organic textures like tree bark or an old mummy |
-| Rock/Geode | Hard, grainy, sparkly surfaces like a crystal cave |
-
-Then project the workbook's **supply table** (p. 129) so students choose materials with the texture in mind, not at random:
-
-| Supply | What it is used for |
-|---|---|
-| Liquid latex or eyelash glue | Skin-safe adhesive to attach materials |
-| Tissue paper or paper towels | Wrinkles, skin texture, and blending edges |
-| Pumpkin or sunflower seeds | Scale-like textures |
-| Dry pasta or lentils | Rough, cracked, or barnacle textures |
-| Coarse salt | Rock or geode textures |
-| Tweezers | Placing small materials precisely |
-| Paint (for materials only) | Adding color before the materials go on |
-
-Students fill in the Concept Card on page 129 with all five fields: **Character Description**, **Textures**, **Materials**, **Color Palette**, and a **sketch** of the concept. The sketch is the plan they build from tomorrow, so it needs to show where each texture sits on the face or arm, not just what the creature looks like.
-
-Circulate and check two things before the period ends: every Concept Card names a texture from the Style Guide, and every materials list actually produces that texture. A card that says "scaled" but lists coarse salt will not build.
-
-!!! tip "Facilitation Tip"
-    Students often pick every texture at once and end up with a design that reads as clutter on camera. Hold them to one primary texture and at most one secondary. The Day 2 extra-time step is where a second texture gets added, and only after the first one works.
-
----
-
-## Exit Ticket (3 min)
-
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/3sw-wk5-day1-human-services-cluster-special-effects-makeup-concept.pdf):
-
-Pick TWO Human Services careers you rated in the app today. Fill in the matrix below using what you read in Hats & Ladders.
-
-| | Career 1: _______________ | Career 2: _______________ |
-|---|---|---|
-| Client-facing or behind the scenes? | | |
-| Creative work or routine work? | | |
-| Training: short (under 1 year) or long (1+ years)? | | |
-
-Bottom line: Which of your two careers fits a student who wants creative, client-facing work with short training? Use one cell from your matrix to explain. *(d(1)(B), d(1)(C))*
-
----
-
-## Differentiation
-
-- **Support:** Concept Card with the Character Description line and one Style Guide texture already filled in, so the student starts at materials and color. Provide a Stop and Jot template with the App Exploration stems already printed.
-- **Extension:** Students who finish the Concept Card early find a real film or show that used the texture family they chose and write two sentences on how the artists pulled it off.
-- **ELL:** Pre-teach: Texture = Textura, Layer = Capa, Scale = Escama, Crack = Grieta, Glue = Pegamento. Project a photo for each of the four Style Guide textures (snake scales, dried mud, tree bark, crystal cave) so the vocabulary lands visually before students choose. H&L supports browser translation for the cluster tour.
+- Use the embedded workbook images and the complete concept brief.
+- Offer a texture photo bank and oral rehearsal before writing.
+- Allow a student to choose from two teacher-selected texture families.
+- An absent student completes the same research and plan independently. No H&L login is required.

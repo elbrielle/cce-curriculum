@@ -423,3 +423,25 @@ This log records the official Canvas build without storing access credentials or
 - API/browser QA: the generic verifier passed all 18 consecutive items with no unresolved fields, missing file references, unsupported types, or published content. Signed-in Chrome confirmed the annotation submission modes, all four Quiz questions, Day 1 lazy-loaded visuals and alt text, Day 5 teacher resources, and a 390-pixel student layout without horizontal overflow. Student View showed no modules because all course modules remain unpublished, and the test session was exited.
 - Importer: `build/canvas/build_3sw_wk4.py`
 - Read-only verifier: `build/canvas/inspect_3sw_wk4.py` and `build/canvas/qa_canvas_module.py 544304`
+
+## 2026-08-08 - 3SW Week 5 paired lesson set
+
+- Module: `3SW Wk5: Style, Service, and Cosmetology Careers` (544308)
+- State: unpublished
+- Teacher item IDs: Day 1 5311349, Day 2 5311352, Day 3 5311355, Day 4 5311359, Day 5 5311362
+- Student item IDs: Day 1 5311350, Day 2 5311353, Day 3 5311356, Day 4 5311360, Day 5 5311363
+- Native Day `SubHeader` item IDs: 5311348, 5311351, 5311354, 5311358, 5311361. The module uses one chronological route: day header, teacher guide, student guide, then that day's interaction when present.
+- Unpublished Classic practice Quiz: `PRACTICE: Texas Cosmetology License and Safety Check` (quiz 281856, item 5311357). Five multiple-choice questions provide immediate feedback and unlimited retries on licensing, source boundaries, and classroom safety.
+- Unpublished private Assignment: `PRACTICE: Cosmetology Career and Business Recommendation` (3094012, item 5311364). It remains ungraded and accepts file upload, text entry, or media recording; paper remains equal.
+- Locked Canvas folders: core Week 5 1155206; Day 1 1155207; Day 2 1155208; Day 3 1155209; Day 4 1155210; Day 5 1155211.
+- Core artifact file IDs: SFX concept/lab brief 14561572, quality revision 14561573, Texas evidence guide 14561574, pathway decision 14561575, salon/wellness campaign 14561576, recommendation 14561577, and minor rubric 14561578.
+- Licensed FYF visuals: nine workbook images are stored only in locked Canvas Day 1-5 folders as files 14561579-14561587. They remain gitignored and are not part of the source backup.
+- Sequence correction: Xello Career Factors, eDynamic 4.2, H&amp;L exploration, and the workbook's student-enterprise prompts are optional context. No supplemental platform task displaces required Grade 8 Xello work.
+- Licensing and program correction: the fixed guide uses current TDLR requirements and the current Irving ISD campus list. It does not present cosmetology apprenticeship as a Texas operator-license route or promise local cost, schedule, transportation, admission, hours, credentials, jobs, or salary.
+- Safety and privacy correction: the core SFX build is dry relief or digital. Optional adhesive work requires a teacher-cleared material and operating plan; no classroom material goes on a student's skin, hair, clothing, face, or body. The wellness campaign uses a fictional business and remains private, with no diagnosis, treatment advice, guaranteed result, real account, or personal disclosure.
+- Grading: Day 5 is a recommended student-visible 16-point minor. The SFX build route, art polish, Quiz attempts, platform access, and partner availability do not determine the score.
+- Worksheet QA: seven PDFs totaling sixteen pages passed strict rendering with zero warnings, text extraction, page-count checks, and visual inspection. Sentence and multi-part reasoning use separate full-width ruled fields, and the concept map, revision drawing, business sketch, campaign post, and six-to-eight-sentence recommendation have proportional space.
+- Image-performance QA: all nine delivery images are 144,771-260,856 bytes at 1,148 by 1,485 pixels, use native lazy loading, and remain readable at an approximately 344-pixel mobile display width. Desktop and 390-pixel checks found no horizontal overflow. No further Week 5 compression is warranted; the measurements are recorded in `canvas-image-performance-backlog.md` for comparison with the first-six-weeks audit.
+- API/browser QA: the generic verifier passed all 17 consecutive items with no unresolved fields, missing file references, unsupported types, or published content. Signed-in Chrome confirmed teacher monitoring/key disclosures, student alt text and linked artifacts, all five Quiz questions, the private Assignment submission routes, progressive image loading, and clean desktop/mobile rendering. Student View remains protected by the unpublished module state.
+- Importer: `build/canvas/build_3sw_wk5.py`
+- Read-only verifier: `build/canvas/qa_canvas_module.py 544308`
