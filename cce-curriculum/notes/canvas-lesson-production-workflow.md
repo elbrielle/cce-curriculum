@@ -223,6 +223,7 @@ No page pair is complete until all checks pass.
 - every writing prompt has response space matched to its required output: a word or number may use a short field, a sentence needs at least one full-width ruled line, multi-part reasoning needs separate labeled lines, and a labeled design needs a genuinely usable drawing area;
 - headings do not skip levels;
 - every image has useful alt text;
+- every raster image is large enough for its instructional text or labels to remain readable but not materially larger than the displayed need; record unusually large files for the Canvas image-performance backlog instead of applying blind batch compression;
 - every `<details>` has a `<summary>`;
 - required directions are not hidden in a disclosure;
 - links have meaningful visible text;
@@ -242,6 +243,8 @@ Open the page through its module-item URL, not only the bare Pages URL. Verify:
 7. the student page can be completed through the written absence path.
 
 Run Canvas Student View before publication. Use the Canvas accessibility checker when final editing begins.
+
+If an image is slow on first load, treat that as a performance defect even when it eventually appears. Record its Canvas file ID, source dimensions, byte size, page, and whether it is reused. Test an optimized copy against the original at desktop and 390-pixel viewport widths, including close inspection of the smallest instructional text. Replace the Canvas copy only after the optimized version remains equally usable; keep the licensed source original unchanged in the local gitignored archive.
 
 ## 7. Record and publish the source work
 

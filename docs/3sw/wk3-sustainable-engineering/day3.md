@@ -1,110 +1,61 @@
-# Day 3: Pest Patrol — Drone Sketch + Labels
+# Day 3: Pest Patrol Drone Design
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Design a labeled drone that meets the constraints from Day 2; explain how each technical feature solves a problem from the field notes |
+| **Objective** | Communicate a drone concept with labeled functions, evidence links, and one tradeoff |
 | **TEKS** | d(1)(C) |
-| **5E Phases** | Engage: Warm-Up · Explain: Drone design frame and board model · Explore: Chart paper drone design · Evaluate: Exit Ticket |
-| **Deliverable** | Labeled drone design with at least 6 annotated parts + design rationale paragraph |
-| **Materials** | *Find Your Future* workbook pp. 94-95; chart paper; sticky notes; rulers, pencils, colored pencils/markers; constraints list from Day 2; projector |
-
----
+| **Deliverable** | Pest Patrol Drone Design Brief draft |
+| **Materials** | FYF p. 95; Design Brief; Day 2 constraints; pencils; optional Canva or Adobe Express |
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Look at your constraints list from yesterday. What is the ONE most important feature your drone needs to have in order to be useful? Why?**
+**WARM-UP:** What makes an engineering sketch useful to another person even when the drawing is rough?
 
-Take 3-4 student responses. Ask which feature solves the most serious field-note problem. Engineers cannot add every possible feature, so students need a reason for what they choose first.
+Expected ideas include labels, arrows, function, scale, and evidence.
 
----
+## Activity 1: Model One Evidence Chain (8 min)
 
-## Activity 1: Drone Design Tutorial (10 min)
+Draw a simple camera box and label it. Model the three-part chain:
 
-**Source:** (FYF p. 94: "Ag-Tech Pest Patrol", Step 2: Brainstorm Ideas)
+1. the field report says;
+2. so the drone includes; and
+3. this feature would help because.
 
-Start with the workbook's Step 2. Students take sticky notes and brainstorm drone ideas, thinking about how the weather and environment will affect the drone and how its design will help farmers. Give this 3 minutes and keep it fast and messy. Nothing gets thrown away yet.
+Do not model a full drone. Students need a clear standard without receiving a design to copy.
 
-While the sticky notes are going up, walk the Engineering Design Process on the board (Define, Research, Plan and Design, Build and Prototype, Test, Improve) and mark where the class already stands: Define and Research finished yesterday, Plan and Design starts now.
+## Activity 2: Design and Label (27 min)
 
-Then build the design frame off the Ag Engineer's three Drone Design Needs (FYF p. 93), one at a time, so students can sort their sticky notes under them:
+Students use the full-page drawing canvas or an equal digital route. Require:
 
-- **Camera Tech:** what will the drone see with, and how does it spot pests the farmer's eyes miss?
-- **Weather Proof:** how does the drone stay straight and steady in 15-20 mph wind and keep working in Texas heat?
-- **Automation:** how does the drone tell the farmer exactly WHERE the worst pest spots are?
+- six or more labeled features;
+- a sensor or camera and what it detects;
+- movement or field coverage;
+- a way to report information to the farmer;
+- safety or crop protection;
+- three evidence links; and
+- one tradeoff.
 
-Add two questions the field notes force but the workbook leaves open: how long does the drone have to fly to cover 50 acres, and is it light enough to fly but strong enough to carry its equipment?
+**Active Monitoring:** Minute 8, the shape and first labels exist. Minute 16, six functions are visible. Minute 23, three labels point to field-report evidence. If several students have part names without functions, pause and model one stronger label.
 
-Quickly model on the board: draw a basic drone shape with 4 propellers, a central body, a camera, and a label. Show students that engineering drawings don't need to be artistic. They need to be **clear and labeled**.
+The Canvas draft Assignment accepts file, image, text, or URL submissions. Paper is equal and may be photographed only if the student wants a digital record.
 
-!!! tip "Facilitation Tip"
-    Some students will get stuck on "I can't draw." Reassure them: this is engineering, not art class. Stick figures, simple shapes, and clear labels are exactly what real engineers use. The label is more important than the drawing quality.
+## Activity 3: Tradeoff Check (5 min)
 
----
+Students complete the evidence-chain and tradeoff page. A tradeoff must name a benefit and a cost, risk, or limit. "My design has no weaknesses" is not acceptable evidence.
 
-## Activity 2: Sketch the Drone (25 min)
+## Exit Check (5 min)
 
-**Source:** (FYF p. 95: "Ag-Tech Pest Patrol", Step 3: Design Your Drone)
+Students use the submission checklist and turn in the draft.
 
-The workbook's Step 3 is short: design your drone on chart paper and label each part with a brief description. CCE holds students to a specific part list. Each student designs their drone on chart paper with AT LEAST 6 labeled parts, and is required to include:
+**DOK 3:** Which feature is most important to the farmer, and which source gives the strongest evidence for it?
 
-- **A camera or imaging system** (high-resolution, multispectral, or thermal)
-- **A way to fly** (propellers, fixed wings, or both)
-- **A way to handle wind** (e.g., heavier base, tilt sensors, larger propellers)
-- **A way to send data to the farmer** (wireless transmitter, app, mapping system)
-- **A power source** (battery, solar panel)
-- **One creative feature of your choice** (e.g., targeted spray nozzle, plant ID software, GPS auto-pilot)
+## Supports and Fallbacks
 
-Each label should include:
-
-- The name of the part
-- A 1-sentence description of what it does
-- Which field notes constraint it solves (e.g., "Solves the 15-20 mph wind problem from the Ag Engineer")
-
-**Active Monitoring:** walk the same pathway three times with one target per lap. Minute 8, drone shape drawn and labeling started. Minute 16, six labels named. Minute 22, each label names the field notes problem it solves. In 25 minutes across 24 students you cannot check every desk carefully, so aim for 10-12 students per lap, prioritizing those who look stuck or are rushing past the label step. Pivot condition: if more than a handful of designs have six labels and no problem links, stop the room and reproject one strong label rather than fixing it desk by desk.
-
-Students you do not reach today will get a second check during Day 4 peer feedback, partners flag missing labels for you.
-
-**DOK 4:** What information from the field notes can you use to defend your claim that this specific design will help the farmer detect pests faster?
-
----
-
-## Activity 3: Design Rationale Paragraph (8 min)
-
-After the design, students write a **3-sentence design rationale** paragraph below or beside their drone. The rationale is NOT a re-description of the labels (the labels already name each part and its job): it surfaces the trade-off reasoning an engineer does:
-
-- **Sentence 1:** "My drone is designed to help [specific problem from field notes] because _____."
-- **Sentence 2:** "If I had to cut one feature to save weight or cost, it would be _____, because _____ matters more for pest detection."
-- **Sentence 3:** "One part of my design I am not yet sure about is _____, because _____."
-
-Sentence 2 (trade-off) and Sentence 3 (self-critique) are what move the rationale from DOK 2 recall into DOK 3-4 engineering reasoning.
-
----
-
-## Exit Ticket (2 min)
-
-**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/3sw-wk3-day3-pest-patrol-drone-sketch-labels.pdf):
-
-1. The feature on my drone that solves the BIGGEST problem from the field notes: _______________________
-
-2. The SPECIFIC problem from the field notes this feature solves (name the writer: Ag Engineer / Farmer / Plant Scientist): _______________________
-
-3. If I had to CUT one feature from my drone to save cost or weight, it would be _______________________ because _______________________________________________________.
-
-4. ONE Agricultural Engineer or Drone Operator task this drone makes FASTER or EASIER than doing it by hand:
-
-   ___________________________________________________________________
-
-*(d(1)(C))*
-
-Submit your drone design + rationale with this ticket.
-
----
-
-## Differentiation
-
-- **Support:** Provide a pre-printed drone outline with arrow lines pointing to label spots. Students fill in the part names and descriptions rather than drawing the drone shape from scratch.
-- **Extension:** Add a "Drone v2.0" design on the back of the chart paper with one big improvement (e.g., longer battery life, larger field coverage, autonomous flight).
-- **ELL:** Pre-teach: Sketch = Boceto, Label = Etiqueta, Feature = Característica, Wing = Ala, Battery = Batería. Labels can be in English, Spanish, or bilingual.
+- **Support:** Offer a basic drone outline, but keep the same six-label and evidence criteria.
+- **Extension:** Add a test plan for one feature.
+- **Language:** Labels may be English, Spanish, or bilingual when the function is clear.
+- **Equipment fallback:** No drone hardware is required. The learning target is design reasoning.
+- **Absence:** Complete the Canvas guide and Design Brief, then submit digitally or on paper.

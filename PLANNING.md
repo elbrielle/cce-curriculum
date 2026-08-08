@@ -253,6 +253,7 @@ Three sources of feedback collected: Google Form (2 responses, E. O'Connor), han
 
 - **C6 H&L teaching guide page references** — PARTIALLY RESOLVED 2026-08-05: still no teaching guide, but the 17 Climber Notes decks (with speaker notes) + 8 general teacher resources arrived; see `cce-curriculum/resources/climber-notes/INDEX.md` and `hl-teacher-resources/INDEX.md`.
 - **Full workbook re-sync pass** — **LIVE as of 2026-08-05.** The official workbook ("Find Your Future") arrived; the re-sync is the FYF realignment (`cce-curriculum/notes/fyf-realignment-plan.md`). Phase A (1SW) complete; Phases B/C pending.
+- **Canvas image first-load performance audit (P2).** Teachers reported that images in the first six weeks can be slow on first load. The 2026-08-08 local Canvas-only baseline contains 162 raster images totaling 76.8 MB; 33 exceed 750 KB, 13 exceed 1 MB, and the largest is about 1.49 MB. Pilot a visually lossless-enough optimization pass on one completed module before changing the archive: preserve readable text at Chromebook/iPad widths, compare the original and optimized image at 100% and mobile width, record file size and first-load behavior, retain descriptive alt text, then replace the Canvas file only if instructional detail is unchanged. Prioritize student-facing pages and repeated images. Do not lower resolution by a blanket batch rule or recompress licensed originals destructively.
 
 ### 4.5 H&L Activity Cross-Reference
 

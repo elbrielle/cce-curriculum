@@ -380,3 +380,22 @@ This log records the official Canvas build without storing access credentials or
 - Permissions QA: core folder 1155187 and Day 1-5 visual folders 1155188-1155192 all report `locked: true` through the Canvas API.
 - Importer: `build/canvas/build_3sw_wk2.py`
 - Read-only verifier: `build/canvas/qa_canvas_module.py 544301`
+
+## 2026-08-08 - 3SW Week 3 paired lesson set
+
+- Module: `3SW Wk3: Sustainable Engineering and Pest Patrol` (544302)
+- State: unpublished
+- The module contains five native Day `SubHeader` items, ten coordinated teacher/student pages, and three unpublished practice assignments in chronological order.
+- Unpublished private assignments: `PRACTICE: Pest Patrol Drone Draft` (3093995), `PRACTICE: Sustainable Engineering Evidence Packet` (3093996), and `PRACTICE: Xello Set Goals Reflection` (3093997). The drone draft supports manual teacher-assigned peer review; automatic peer assignment is off. All three remain ungraded during review.
+- Locked Canvas folders: core Week 3 1155193; Day 1 1155194; Day 2 1155195; Day 3 1155196; Day 4 1155197; Day 5 1155198.
+- Core artifact file IDs: career/problem guide 14561503, Pest Patrol field notes 14561504, drone design brief 14561505, peer review and revision record 14561506, societal-trends evidence 14561507, societal-trends evaluation 14561508, major rubric 14561509, and Xello goals plan 14561510.
+- Xello sequence correction: Day 5 protects the required Grade 8 `Set goals` activity for 20 minutes and requires at least two saved goals. The licensed `My Goals` guide is an extended 25-30 minute route that asks for three goals; the live Completion Standards configuration controls the district minimum.
+- Xello resource packaging: licensed `goals.pdf` is Canvas file 14561511 in the locked Week 3 support folder and is embedded on the teacher page. No aligned Xello student video, deck, worksheet, or student-interface screenshots were present in the captured package, so the student page uses explicit native Canvas directions rather than invented assets.
+- Licensed FYF visuals: five workbook crops are stored only in locked Canvas Day 2-5 folders as files 14561512-14561516. They remain gitignored and are not part of the source backup.
+- Career and trends evidence correction: fixed dated BLS, USDA, EPA, and NASA evidence replaces open searching and distinguishes salary measure, geography, preparation, outlook, and limitations. H&amp;L remains optional rather than load-bearing.
+- Canvas interaction review: Day 3 uses a private draft assignment, Day 4 supports intentional manual peer review with paper/self/teacher alternatives, and Day 5 uses a private Xello reflection. Students do not post personal Xello goals or profile screenshots publicly.
+- Grading: the final drone design, revision record, and societal-trends evaluation form a recommended student-visible 16-point major evidence packet. Platform choice, artwork polish, and peer-review availability do not determine the score.
+- Worksheet QA: eight PDFs were rendered and visually inspected. Multi-sentence prompts use full-width ruled areas, the drone sketch has a dedicated full page, peer feedback and revision decisions have separate writing fields, and the goal plan gives each goal, task, obstacle, backup, and reflection its own usable space.
+- API/browser QA: the generic verifier passed all 18 consecutive items with no unresolved fields, missing file references, unsupported types, or published content. Signed-in Chrome confirmed the Day 2 workbook visuals, Day 3 disclosure panels, Day 4 teacher guide, and a 390-pixel student layout without horizontal overflow. Student View correctly hid the unpublished module.
+- Importer: `build/canvas/build_3sw_wk3.py`
+- Read-only verifier: `build/canvas/qa_canvas_module.py 544302`

@@ -35,7 +35,7 @@ Do not leave a teacher with only “Open Resources in Xello.” The Canvas modul
 | 7 | Life, education, volunteer, and work experiences | My Experiences activity plan; About Me student guide | 2SW profile-update modules | My Experiences and About Me plans uploaded to Canvas; student guide pending |
 | 8 | After high school goal | Activity plan or sample assignment from the resource panel | 1SW Wk0 module | Pending capture |
 | 9 | Save careers | My Careers activity plan and student directions | 2SW career-selection module | Activity plan uploaded to Canvas; student directions pending |
-| 10 | Set goals | My Goals activity plan | 3SW planning module | Uploaded to Canvas; module placement pending |
+| 10 | Set goals | My Goals activity plan | 3SW planning module | Embedded in locked, unpublished 3SW Wk3 Canvas module; student directions supplied as native Canvas steps |
 | 11 | Explore career matches | Lesson plan; Find Out Why student directions; introduction presentation; official student video | 2SW career-matches module | Complete package embedded in locked, unpublished 2SW Wk6 Canvas module |
 | 12 | Skills lesson | Lesson plan and any attached student directions or presentation | 3SW skills module | Lesson plan uploaded to Canvas; remaining attachments pending |
 | 13 | Biases and career choices | Lesson plan; student instructions; introduction presentation | 3SW equity and career-choice module | Full English document pack uploaded to Canvas: lesson plan, two student handouts, and PowerPoint |
@@ -113,6 +113,14 @@ Complete one row per uploaded file during the Canvas import.
 
 - `skills.pdf` was rehosted as Canvas file 14561456 in locked Week 1 folder 1155181 and linked from `TEACHER: 3SW Wk1 Day 4 Facilitator Guide` (module item 5311220).
 - The official English Skills introduction deck was adapted to Irving's `ClassLink > Xello` route and uploaded as file 14561467 after the final visual-QA sync. The six-slide deck also repairs imported agenda numbering and provides an independent/private exit option.
+
+### 3SW Week 3 Set Goals record: 2026-08-08
+
+- `goals.pdf` was rehosted as Canvas file 14561511 in locked Week 3 folder 1155193 and embedded on the Day 5 teacher guide in unpublished module 544302.
+- The live Grade 8 minimum is `Set goals`: 20 minutes and at least two saved goals. The licensed `My Goals` guide is an extended 25-30 minute option that asks students to create three goals; teachers may use the broader sequence, but it does not change the Completion Standards minimum.
+- The student route is `ClassLink > Xello > About Me > Goals`. Completion evidence is the teacher's Xello Completion Standards report plus a private Canvas reflection; students are not asked to submit screenshots of personal goals or profile data.
+- No aligned Xello student-facing video, slide deck, worksheet, or student-interface screenshot was present in the captured asset set. The student page therefore uses concise native Canvas directions and a downloadable planning scaffold rather than inventing or scraping unavailable media.
+- Platform failure moves required Xello completion to supervised catch-up. The paper/Canvas planning scaffold supports thinking but does not substitute for the saved Xello goals.
 - The official Spanish Skills deck was uploaded as optional support file 14561458. It does not replace evidence-based bilingual labels, read-aloud, chunking, or the private response route.
 - The student page links a private ungraded reflection assignment (3093979; module item 5311222) and forbids profile screenshots.
 - The live Grade 8 minimum controls the core: Skills lesson is 35 minutes and requires at least three saved careers. The broader official facilitator guide describes an 85-minute sequence and is labeled extended support. Platform or prerequisite failure moves to supervised catch-up; paper does not count as Xello completion.

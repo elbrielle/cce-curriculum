@@ -1,117 +1,65 @@
-# Day 5: Xello Interests + eDynamic Unit 7.1
+# Day 5: Adaptability and Xello Set Goals
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the Xello Interests Lesson; begin (or complete) eDynamic Unit 7.1: Progressive and Adaptable; reflect on the 3-week Agriculture cluster journey |
-| **TEKS** | d(1)(A), d(1)(C) |
-| **5E Phases** | Engage: Warm-Up · Explore: Xello Interests lesson · Extend: eDynamic Unit 7.1 and Adaptability · Evaluate: Exit Ticket |
-| **Deliverable** | Xello Interests lesson completion screenshot + eDynamic 7.1 progress entry + 3-week Ag reflection (3 sentences) |
-| **Materials** | Chromebooks, Xello accounts, eDynamic Learning accounts, *Find Your Future* workbook p. 146 ("Powerskill: Adaptability", fallback and extension), sticky notes, projector |
-
----
+| **Objective** | Use an adaptability example to plan and save at least two honest goals in Xello |
+| **TEKS** | d(1)(C) through the closing career connection; required Xello completion spine |
+| **Deliverable** | Two saved Xello goals + private Goals Plan and Reflection |
+| **Materials** | FYF p. 146; Xello; Goals Plan and Private Reflection; locked Xello Set Goals educator guide |
 
 ## Warm-Up (5 min)
 
-**WARM-UP: We have spent 3 weeks in Agriculture. Has your view of "ag careers" changed since Week 1? In one sentence, how?**
+**WARM-UP:** What makes a goal easier to act on when a plan changes?
 
-Take 4 student responses. Some students may now connect agriculture with drones or biology; others may say their view did not change. Accept either answer when the student can explain it with something from the past three weeks.
+Collect ideas such as a next task, timeframe, check-in point, obstacle, and backup plan.
 
----
+## Activity 1: Adaptability to Goal Planning (10 min)
 
-## Activity 1: Xello Interests Lesson (20 min)
+Use the delayed-concert problem on FYF p. 146 as a short model. Students do not need to complete the full workbook activity. Ask what the event planner can control, what changed, and what backup action could keep the goal moving.
 
-**Source:** Xello supplemental lesson, "Interests." This lesson is not a Bowie Grade 8 completion standard.
+Then model one goal with:
 
-Open Xello on the projector. Walk students through finding the Interests lesson:
+- a clear statement;
+- a timeframe or check-in date;
+- one task; and
+- one obstacle with a backup plan.
 
-1. From the Xello dashboard, click **Lessons**
-2. Find **"Interests"** or "Discover Your Interests" in the 7th-grade lesson list
-3. Click **Start** or **Continue**
+Students draft two private goals on the planning sheet. Do not require students to share personal goals with classmates.
 
-Students complete the Xello Interests lesson on their own Chromebooks. The lesson typically:
+## Activity 2: Required Xello Set Goals (20 min)
 
-- Asks students to rate activities they enjoy (working outdoors, working with technology, helping people, building things, solving puzzles)
-- Generates a personal interest profile based on their responses
-- Recommends career clusters and specific careers that match their profile
+**District completion standard:** Set goals, 20 minutes, add at least two goals.
 
-After the lesson, students write 2 sentences in their notebook:
+Navigation:
 
-- **Sentence 1:** "Xello's top interest area for me is _____."
-- **Sentence 2:** "One career Xello recommended that connects to what I learned this week is _____."
+1. Open Xello from district single sign-on.
+2. Open **Plans**, then **Goals & Plans**.
+3. Choose **Set a goal**.
+4. Add Goal 1 with its category, timeframe, and at least one task.
+5. Add Goal 2 the same way.
+6. Confirm both goals appear in the plan.
 
-Connection prompt: Did Xello recommend any environmental or agricultural careers? If yes, that's a strong signal about their fit. If no, that's also useful data.
+The licensed Xello educator guide is a 25-30 minute extended lesson and asks students to save three goals. It is useful for teacher modeling, but the live district minimum of two goals controls this class period.
 
-!!! tip "Facilitation Tip"
-    Some students will rush through Xello to "finish faster." Encourage them: "The more honest your answers, the better the recommendations. Garbage in, garbage out."
+Teachers verify completion through the Xello Completion Standards report. Do not require screenshots of personal profiles or goals.
 
----
+## Activity 3: Private Reflection and Career Connection (12 min)
 
-## Activity 2: eDynamic Unit 7.1: Progressive and Adaptable (15 min)
+Students complete the three reflection prompts. The final prompt connects one goal, when appropriate, to Vet Science, Plant Science, Sustainable Engineering, or another career they have identified.
 
-**Source:** eDynamic Learning. Unit 7.1: Progressive and Adaptable (covers Agriculture, Energy, and Health Science clusters)
+The connection may be "no change." Full credit comes from a specific explanation, not from pretending an agriculture career is a personal goal.
 
-Direct students to log into eDynamic Learning and navigate to **Unit 7.1: Progressive and Adaptable**. This unit reinforces the Agriculture cluster content from this six weeks and connects it to two other clusters (Energy and Health Science) that students explored earlier in the year.
+## Completion Check (3 min)
 
-> [VERIFY IN eDynamic] Confirm with your district that Unit 7.1 is enabled and accessible to 7th-grade students. Verify the unit covers Agriculture content as expected. **If the unit is unavailable,** run "Powerskill: Adaptability" from the workbook instead (FYF p. 146). Students are the event planner for a huge outdoor community concert when the tech crew hits a problem and the show is delayed at least 30 minutes with a restless crowd waiting. Step 1: brainstorm on sticky notes how to keep the audience entertained, using the performers, vendors, and other teams already on site. Step 2: write a short stage announcement that tells the crowd about the delay and keeps them willing to wait. Step 3: pair up, share the plan and the announcement, and give each other constructive feedback. It is the same 15-min budget, it needs no internet, and it is the same skill Unit 7.1 is named for. A second fallback if the workbook is not in hand: research ONE real ag-tech company (e.g., Hylio, Skydio, DJI Agriculture) using BLS Environmental Engineers, BLS Agricultural Engineers, or climatekids.nasa.gov and write 2 sentences on what the company does and what careers it employs.
+Students submit the private reflection in Canvas or on paper. The teacher records Xello completion separately.
 
-Students work through Unit 7.1 at their own pace for 15 minutes. Record where each student stops so the unit can continue in Week 4 or beyond.
+## Supports and Fallbacks
 
-!!! note "Differentiation"
-    Some students may finish Unit 7.1 while others need more time. Use the platform's progress record to resume later; do not treat speed as the measure of success.
-
----
-
-## Activity 3: 3-Week Agriculture Reflection (8 min)
-
-After Xello and eDynamic, students take 5 minutes to write a 3-sentence reflection on the entire 3-week Agriculture cluster journey:
-
-- **Sentence 1:** "The most interesting Ag career I learned about over the past 3 weeks is _____."
-- **Sentence 2:** "The Ag activity I enjoyed most was _____ because _____."
-- **Sentence 3:** "If I were to pursue an Ag pathway, I would most likely choose _____ because _____."
-
-Read these before the Hospitality unit begins. They show which Agriculture connections students can name without prompting and which ones need a final reminder.
-
-**DOK 3:** Based on the past 3 weeks of activities (Vet Science, Plant Science, Sustainable Engineering), which Agriculture pathway has the strongest career future in Texas? Defend your answer with evidence from this week's drone activity AND the BLS data from earlier weeks.
-
----
-
-## Exit Ticket (2 min)
-
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/3sw-wk3-day5-xello-interests-edynamic-unit-7-1.pdf):
-
-My FAVORITE Agriculture cluster career after 3 weeks (Vet Science + Plant Science + Sustainable Engineering): _______________________
-
-Connect this career to THREE things:
-
-**1. Xello's TOP recommended interest area for me today**
-
-   My top Xello interest area: _______________________. Does this area match my favorited career? Circle: YES / NO. One sentence why:
-
-   ___________________________________________________________________
-
-**2. An Irving ISD pathway at Nimitz HS** (Vet Science → Elanco, Plant Science → BASF Plant Science, OR Sustainable Engineering → AutoDesk CAD-Inventor)
-
-   My pathway: _______________________. One sentence on why it connects to my favorited career:
-
-   ___________________________________________________________________
-
-**3. The 3SW cluster pattern I see in myself**
-
-   One sentence on what kind of Ag work draws me most (indoor / outdoor / tech-heavy / science-heavy / communication-heavy):
-
-   ___________________________________________________________________
-
-*(d(1)(A), d(1)(C))*
-
-Submit your Xello Interests completion screenshot + 3-sentence reflection with this ticket.
-
----
-
-## Differentiation
-
-- **Support:** Sentence stems for the 3-week reflection. Pre-fill the second sentence template: "The activity I enjoyed most was the _____ activity because _____."
-- **Extension:** Connect your favorite Ag career to a real Irving ISD pathway (Nimitz Vet Science, Nimitz Plant Science, Nimitz Sustainable Engineering). Which pathway would prepare you for it best? Students who finish early run "Powerskill: Adaptability" (FYF p. 146) and write the stage announcement for the delayed concert.
-- **ELL:** Pre-teach: Interest = Interés, Adaptable = Adaptable, Reflection = Reflexión. Xello and eDynamic both support Spanish, show language toggles if needed.
+- **Support:** Draft goals on paper before opening Xello and conference privately on one goal.
+- **Extension:** Add a third goal or a second task only after the two required goals are complete.
+- **Language:** Use category, timeframe, task, obstacle, and backup as the word bank.
+- **Platform failure:** Submit the paper plan and schedule supervised Xello catch-up. Paper does not replace the required platform completion.
+- **Absence:** Complete the Student Guide and planning sheet, then finish Set goals during supervised catch-up.
