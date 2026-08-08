@@ -358,3 +358,25 @@ This log records the official Canvas build without storing access credentials or
 - API/browser QA: the generic verifier passed all 17 consecutive items with no unresolved fields, missing file references, unsupported types, or published content. Signed-in browser QA confirmed the day-header hierarchy, descriptive image alt text, PDF and Quiz links, and clean desktop rendering. Student View correctly showed no modules because the course content remains unpublished, and the test session was exited.
 - Importer: `build/canvas/build_3sw_wk1.py`
 - Read-only verifier: `build/canvas/qa_canvas_module.py 544298`
+
+## 2026-08-08 - 3SW Week 2 paired lesson set
+
+- Module: `3SW Wk2: Plant Science and Agricultural Communication` (544301)
+- State: unpublished
+- Teacher item IDs: Day 1 5311245, Day 2 5311248, Day 3 5311251, Day 4 5311254, Day 5 5311259
+- Student item IDs: Day 1 5311246, Day 2 5311249, Day 3 5311252, Day 4 5311255, Day 5 5311260
+- Native Day `SubHeader` items: 5311244, 5311247, 5311250, 5311253, 5311259. The module uses one chronological route: day header, teacher guide, student guide, then that day's interaction when present.
+- Unpublished Classic practice Quiz: `PRACTICE: Emerging Plant-Tech Evidence Check` (quiz 281854). Four multiple-choice questions provide immediate misconception feedback and unlimited retries.
+- Unpublished private assignments: `PRACTICE: Plant Science Evidence Packet` (3093993) and `PRACTICE: Xello Biases Reflection` (3093994). Both remain ungraded during review.
+- Locked Canvas folders: core Week 2 1155187; Day 1 1155188; Day 2 1155189; Day 3 1155190; Day 4 1155191; Day 5 1155192.
+- Core artifact file IDs: career evidence 14561484, Farm-to-Table planner 14561485, major rubric 14561486, emerging-tech evidence 14561487, emerging-tech evaluation 14561488, and Xello reflection 14561489.
+- Xello file IDs: facilitator guide 14561490, official introduction deck 14561491, Career Trailblazers directions 14561492, and Non-traditional Career Matches directions 14561493.
+- Xello sequence correction: Day 5 protects the required Grade 8 Biases and career choices Activity 2 for 30 minutes. The other two activities in the 80-minute facilitator package are optional extensions. Work experiences is not repeated.
+- Career evidence correction: fixed BLS/USDA guides replace open search and avoid treating national medians as DFW-local or starting pay. Plant Science at Nimitz and the Nimitz Floral Studio are current district facts; unsupported credential claims are omitted.
+- Canvas interaction review: Day 4 uses an unlimited-retry practice quiz for evidence boundaries. Day 5 uses a private reflection assignment; students never post personal Xello results publicly. Canva, Adobe Express, and paper are equal build routes.
+- Grading safety: the infographic and emerging-tech evaluation form a recommended 16-point major packet. Because course 98060 has active enrollments and `apply_assignment_group_weights` is currently false, no assignment-group weights or live grade calculations were changed during module production.
+- Worksheet QA: six PDFs were rendered and visually inspected. The infographic planner includes a full-page 7.25-inch sketch field; the emerging-tech evaluation includes ten ruled lines for a 4-6 sentence response; the Xello reflection has three separate three-line response areas; sentence reasoning is not placed in phrase-sized table cells.
+- API/browser QA: the generic verifier passed all 18 consecutive items with no unresolved fields, missing file references, unsupported types, or published content. Signed-in Chrome confirmed the Day 2 licensed visuals and alt text, the complete Day 5 Xello teacher package, the Day 4 Quiz/Assignment route, and a clean 390-pixel student layout with no horizontal overflow. Canvas stripped CSS `aspect-ratio` from the optional BLS video; the builder now supplies explicit 760-by-428 dimensions and the live player renders at that size. Student View showed no modules because every module remains unpublished, and the test session was exited.
+- Permissions QA: core folder 1155187 and Day 1-5 visual folders 1155188-1155192 all report `locked: true` through the Canvas API.
+- Importer: `build/canvas/build_3sw_wk2.py`
+- Read-only verifier: `build/canvas/qa_canvas_module.py 544301`

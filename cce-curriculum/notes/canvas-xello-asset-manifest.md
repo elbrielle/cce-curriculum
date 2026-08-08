@@ -117,6 +117,15 @@ Complete one row per uploaded file during the Canvas import.
 - The student page links a private ungraded reflection assignment (3093979; module item 5311222) and forbids profile screenshots.
 - The live Grade 8 minimum controls the core: Skills lesson is 35 minutes and requires at least three saved careers. The broader official facilitator guide describes an 85-minute sequence and is labeled extended support. Platform or prerequisite failure moves to supervised catch-up; paper does not count as Xello completion.
 
+### 3SW Week 2 Biases and Career Choices record: 2026-08-08
+
+- The licensed `biases-and-career-choices.pdf` was uploaded as Canvas file 14561490 in locked Week 2 folder 1155187 and linked from `TEACHER: 3SW Wk2 Day 5 Facilitator Guide` (module item 5311259).
+- The official seven-slide `introduction-template.pptx` was uploaded as Canvas file 14561491 and linked from the teacher guide.
+- Optional extension handouts were uploaded to the same locked folder: Career Trailblazers directions as file 14561492 and Non-traditional Career Matches directions as file 14561493.
+- The live Grade 8 requirement controls the core: **Biases and career choices, Activity 2 only, 30 minutes, completed**. The full facilitator package also contains a 30-minute Career Trailblazers activity and a 20-minute Non-traditional Career Matches activity; both are clearly labeled optional extensions.
+- No downloadable student video was present in the captured package. The Canvas build does not invent, scrape, or rehost one. Required student directions remain visible on the Student Guide, and the private reflection assignment is unpublished.
+- Work experiences is not repeated in this week. Platform failure moves the required Xello lesson to supervised catch-up; the paper reflection supports thinking but does not replace Completion Standards evidence.
+
 ## Completion gate
 
 A Xello-backed module is not teacher-ready until:
