@@ -399,3 +399,27 @@ This log records the official Canvas build without storing access credentials or
 - API/browser QA: the generic verifier passed all 18 consecutive items with no unresolved fields, missing file references, unsupported types, or published content. Signed-in Chrome confirmed the Day 2 workbook visuals, Day 3 disclosure panels, Day 4 teacher guide, and a 390-pixel student layout without horizontal overflow. Student View correctly hid the unpublished module.
 - Importer: `build/canvas/build_3sw_wk3.py`
 - Read-only verifier: `build/canvas/qa_canvas_module.py 544302`
+
+## 2026-08-08 - 3SW Week 4 paired lesson set
+
+- Module: `3SW Wk4: Culinary Arts and Hospitality` (544304)
+- State: unpublished
+- Teacher item IDs: Day 1 5311294, Day 2 5311298, Day 3 5311302, Day 4 5311305, Day 5 5311308
+- Student item IDs: Day 1 5311295, Day 2 5311299, Day 3 5311303, Day 4 5311306, Day 5 5311309
+- Native Day `SubHeader` items: 5311293, 5311297, 5311301, 5311304, 5311307. The module uses one chronological route: day header, teacher guide, student guide, then that day's interaction when present.
+- Unpublished Canvas student-annotation Assignment: `PRACTICE: Culinary Twist Menu Design` (3093999, item 5311296). It annotates the supplied menu brief and also accepts file upload or text entry. Paper, Canva, and Adobe Express remain equal routes because Canvas identifies file/text entry as the more accessible commenting route.
+- Unpublished Classic practice Quiz: `PRACTICE: Motivation Check` (281855, item 5311300). Four multiple-choice questions provide immediate feedback and unlimited retries on intrinsic/extrinsic motivation, individual response to incentives, and salary-measure labels.
+- Unpublished private Assignment: `PRACTICE: Hospitality Career and Business Recommendation` (3094000, item 5311310). It remains ungraded until the live Minor assignment group and 40/60 weighting are verified.
+- Locked Canvas folders: core Week 4 1155199; Day 1 1155201; Day 2 1155202; Day 3 1155203; Day 4 1155204; Day 5 1155205.
+- Core artifact file IDs: career evidence 14561537, Culinary Twist brief 14561538, motivation comparison 14561539, Hotel Rescue cards 14561540, Hotel Rescue response 14561541, Cater and Create brief 14561542, recommendation 14561543, and rubric 14561544.
+- Licensed FYF visuals: ten workbook crops are stored only in locked Canvas Day 1-5 folders as files 14561546-14561555. They remain gitignored and are not part of the source backup.
+- Sequence correction: Xello Decision Making, eDynamic 6.1, H&amp;L App Exploration, and Restaurant Rebrand are optional extensions. No required Grade 8 Xello task is displaced or invented in this placement.
+- Career evidence correction: the fixed three-career guide uses May 2024 BLS U.S. medians, common preparation, 2024-34 outlook, annual openings, and work conditions for Chef or Head Cook, Lodging Manager, and Meeting/Convention/Event Planner. No figure is called DFW-localized or starting pay.
+- Program correction: local planning language uses current Irving ISD Culinary Arts, Hospitality Services, Lodging and Resort Management, and FireBird Cafe Catering wording without promising admission, credentials, jobs, or salary.
+- Safety and privacy correction: students design fictional menu and event concepts without preparing food, guaranteeing allergen safety, collecting real client information, or making unverified hotel promises. Hotel Rescue requires each student to produce individual role and transfer evidence.
+- Grading: Day 5 is a recommended student-visible 16-point minor. Daily designs, Quiz attempts, tool choice, public speaking, art polish, and team availability do not become separate grades.
+- Worksheet QA: eight PDFs totaling twenty-one pages passed strict rendering with zero warnings, text extraction, page-count checks, and visual inspection. Sentence reasoning uses full-width ruled areas, the menu and event briefs reserve full pages for labeled design work, team and individual Hotel Rescue evidence are separated, and the final five-to-seven-sentence recommendation has ten writing lines.
+- Image-performance pilot: the decorative/full-page Day 1 opener was reduced from 789,795 bytes to 338,898 bytes while retaining a readable 935-by-1210 image. The original remains in the licensed local archive. Canvas lazy-loads the optimized image only when it approaches the viewport; detail-heavy workbook crops were not blindly batch-compressed.
+- API/browser QA: the generic verifier passed all 18 consecutive items with no unresolved fields, missing file references, unsupported types, or published content. Signed-in Chrome confirmed the annotation submission modes, all four Quiz questions, Day 1 lazy-loaded visuals and alt text, Day 5 teacher resources, and a 390-pixel student layout without horizontal overflow. Student View showed no modules because all course modules remain unpublished, and the test session was exited.
+- Importer: `build/canvas/build_3sw_wk4.py`
+- Read-only verifier: `build/canvas/inspect_3sw_wk4.py` and `build/canvas/qa_canvas_module.py 544304`
