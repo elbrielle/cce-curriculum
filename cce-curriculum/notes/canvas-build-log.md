@@ -271,3 +271,28 @@ This log records the official Canvas build without storing access credentials or
 - PDF QA: seven artifacts and five structured exit tickets were rendered and visually inspected. No response area, table, or heading clips; the rubric fits on two landscape pages.
 - Browser QA: the signed-in module is unpublished with 11 ordered items. The Day 1 student page and Day 4 teacher page render cleanly with no unresolved tokens or desktop overflow. The student guide has no horizontal overflow at a 390-pixel viewport. The Quiz edit surface reports 5 points, Not Published, and the five intended question names.
 - Importer: `build/canvas/build_2sw_wk4.py`
+
+## 2026-08-08 - 2SW Week 5 paired lesson set
+
+- Module: `2SW Wk5: Communication and Goal Setting` (544296)
+- State: unpublished
+- Teacher item IDs: Day 1 5311184, Day 2 5311186, Day 3 5311189, Day 4 5311191, Day 5 5311194
+- Student item IDs: Day 1 5311185, Day 2 5311187, Day 3 5311190, Day 4 5311192, Day 5 5311195
+- Unpublished Classic practice Quiz: `PRACTICE: Active Listening Evidence Check` (quiz 281850, item 5311188). It contains five multiple-choice questions with feedback.
+- Unpublished practice Discussion: `PRACTICE: Little Library Message Lab` (topic 370735, item 5311193). A private written route remains equal.
+- Locked Canvas folders:
+  - Core Week 5 files: 1155164
+  - Day 1 visuals: 1155165
+  - Day 2 visuals: 1155166
+  - Day 3 visuals: 1155167
+  - Day 4 visuals: 1155168
+- All ten pages, both practice interactions, and the parent module are unpublished. The generic API verifier passed all 12 items in consecutive order with no unresolved fields, unsupported item types, missing files, or published content.
+- Seven classroom artifacts are supplied: PowerSkills Transfer Guide, Conflict Resolution Plan, Active Listening Lab, Advocacy SMART Goal and Time Plan, Written Message Lab, Work Experience and Skills Synthesis, and the student-visible 16-point Communication and Goal rubric.
+- Xello sequence correction: Day 5 protects the required Grade 8 Work experiences task for 10 minutes and requires at least one authentic experience. Time Management remains supplemental. Paper may scaffold an access failure but does not replace Completion Standards evidence.
+- Xello resource packaging: the licensed `My experiences` facilitator guide is embedded directly on the Day 5 teacher page. The production workflow now requires agents to inspect and capture the aligned Xello activity plan, facilitator guide, slide deck, worksheet, student directions, and downloadable video when Xello supplies them, then place those files only in locked Canvas.
+- Safety and privacy correction: all health and workplace cases are fictional. Students do not diagnose, give treatment advice, invent charting, share personal health details, or post Xello, CareerOneStop, goal, or skill results publicly.
+- Canvas interaction review: the Day 2 Quiz provides immediate misconception feedback; the Day 4 Discussion supports a genuine reader-feedback exchange without making public participation mandatory. Durable individual evidence remains in the worksheet/synthesis rather than being replaced by clicks.
+- Grading: the week closes with a recommended 16-point minor checkpoint across goal and time planning, practiced transferable skill, two-career transfer, and a specific next action. Daily tickets and practice interactions remain formative.
+- Browser QA: the signed-in Day 2 student guide rendered both licensed FYF visuals with descriptive alt text. The Day 4 student guide preserved the fictional-message and no-clinical-advice boundaries. The Day 5 teacher page linked the synthesis, rubric, and licensed Xello guide. The Day 4 student guide had no horizontal overflow at a 390-pixel viewport.
+- Importer: `build/canvas/build_2sw_wk5.py`
+- Read-only verifier: `build/canvas/qa_canvas_module.py 544296`

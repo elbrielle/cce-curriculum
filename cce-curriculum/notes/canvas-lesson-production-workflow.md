@@ -61,6 +61,14 @@ That directory is gitignored. Upload those assets to a locked Canvas folder unde
 
 Do not upload licensed files to the public MkDocs site. Do not extract or rehost streamed video unless the vendor supplies a downloadable file or the district has explicit permission.
 
+### Package Xello resources for the teacher
+
+For each required Xello task, inspect the authenticated Completion Standards resource drawer and Xello's official teaching-resource library. Capture the downloadable materials that actually support that task, which may include a facilitator guide, slide deck, student worksheet or directions, and a downloadable student-facing video. Upload licensed downloads only to the locked week folder in Canvas.
+
+Do not make the teacher rediscover the Xello library during prep. On the teacher page, label each resource by its classroom job, such as “2-minute student launch,” “teacher demo steps,” “full extension lesson,” or “catch-up directions.” On the student page, embed only the asset that removes a real navigation or understanding barrier. If the resource is broader than the district completion minimum, state both the district minimum and the resource's extended lesson time.
+
+An official hosted video may be embedded when streaming is district-accessible and captions are present. Rehost only a vendor-supplied downloadable file. Never screen-record, scrape, or download a protected stream. Every video needs a visible text route that covers the same required directions.
+
 ## 3. Select and render visuals
 
 Do not decorate for decoration’s sake. A visual earns a place when it helps a student locate a source, understand a step, compare options, recognize a screen, or recover after an absence.
@@ -128,6 +136,29 @@ Do not assume every student artifact should become a printed worksheet or a stat
 - **External tool or licensed platform:** use Xello, H&amp;L, Canva, Adobe Express, Code.org, eDynamic, or another approved integration for the interaction it already does well. Keep the Canvas page as the launch, directions, evidence, and recovery layer.
 
 Use the least complicated surface that fits the evidence. Paper remains an equal route when handwriting, sketching, manipulatives, device access, or an accommodation makes it the better tool. Before creating graded Canvas objects, confirm the course's Minor/Major assignment groups and weights; never place a grade into an arbitrary imported or default group.
+
+### Run a periodic engagement and organization scan
+
+At the start of each six-weeks block, and again when a week feels repetitive, make a short research pass through current Canvas documentation, accessibility guidance, practitioner discussions, and a small sample of teacher communities such as Reddit. Treat practitioner posts as leads and implementation warnings, not as research evidence. Confirm features in current official documentation and then verify that Irving ISD has enabled or licensed the feature before making it load-bearing.
+
+Use the scan to widen the interaction menu beyond pages, quizzes, and discussions:
+
+- **Student annotation:** students mark a supplied PDF or image in Canvas when circling evidence, labeling a diagram, or annotating a model is the learning target. Confirm Chromebook, iPad, and screen-reader routes before use.
+- **Peer review:** use a submitted draft plus a short rubric when students need private, assigned critique. Do not add peer review when a simple partner conference is faster or when late work would strand students without a reviewer.
+- **Choice board:** offer two or three equal ways to practice or show evidence, such as a typed response, audio explanation, annotated visual, or paper sketch. Keep the same success criteria across routes.
+- **Module requirements:** use "view," "submit," or "score at least" requirements only when sequence matters and the requirement will not lock out an absent student or a student waiting for manual grading.
+- **Audio or video response:** allow a brief recording when oral explanation is the target or writing mechanics would obscure the evidence. Always provide a text route and captions or transcript expectations.
+- **Embedded simulation or interactive:** use an approved district tool when it does the authentic work better than a worksheet. Canvas remains the launch, evidence, privacy boundary, and catch-up layer.
+- **Mastery Paths:** consider only after district availability, SIS behavior, and teacher workflow are verified. Start with a small pilot because manual-grading delays can lock later module items.
+
+For every proposed interaction, record four answers in the week audit:
+
+1. What student action improves?
+2. What teacher work disappears?
+3. What access, privacy, moderation, or late-work problem appears?
+4. What equal fallback works without pretending the platform task was completed?
+
+Reject a tool when the only benefit is novelty. The student should still have one obvious starting point in the weekly module, consistent day labels, and a visible completion checklist. This follows the recurring practitioner signal that students lose time when course materials are split across Pages, Files, Assignments, and external sites without a module-first route.
 
 ## 5. Build safely through the Canvas API
 

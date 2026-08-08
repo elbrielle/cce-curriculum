@@ -22,7 +22,7 @@
 | d(4)C | Oral professional presentations | Wk4,6 (6th) | Student presentations | COVERED |
 | d(4)D | Apply core academic skills | Embedded throughout | All platforms | COVERED |
 | d(4)E | Community service and volunteerism | Wk1 (6th) | Education cluster + Supplemental | COVERED |
-| d(4)F | Work ethic, integrity, dedication, perseverance | Wk5 (1st), Wk2 (2nd), Wk5 (2nd), Wk6 (3rd), Wk6 (4th) | H&L PowerSkills + Scenarios | COVERED |
+| d(4)F | Work ethic, integrity, dedication, perseverance | Wk5 (1st), Wk2 (2nd), Wk6 (3rd), Wk6 (4th) | H&L PowerSkills + Scenarios | COVERED |
 | d(5)A | Analyze labor market trends | Wk2 (1st), Wk6 (2nd), Wk4 (4th), Wk4-6 (5th) | H&L Localized Data + BLS | COVERED |
 | d(5)B | Classify high-skill/wage/demand occupations | Wk4 (2nd), Wk4 (4th), Wk3-4 (5th) | H&L + BLS OOH | COVERED |
 | d(5)C | Effects of changing trends on career choices | Wk3 (3rd), Wk3 (6th) | H&L + Supplemental | COVERED |

@@ -93,6 +93,13 @@ Complete one row per uploaded file during the Canvas import.
 - The live Completion Standards configuration, not the broader resource lesson, controls the minimum: Education experiences requires at least one saved experience; Volunteer hours requires at least one completed hour.
 - School Subjects at Work remains supplemental because it is not assigned to Grade 8.
 
+### Week 5 reuse record: 2026-08-08
+
+- The licensed `experiences.pdf` was uploaded as Canvas file 14561413 in locked folder 1155164 and embedded on `TEACHER: 2SW Wk5 Day 5 Facilitator Guide` (module item 5311194).
+- The live Grade 8 requirement is Work experiences: 10 minutes and at least one authentic saved experience. Time Management remains a supplemental extension and is not accepted as the district completion artifact.
+- The broader `My experiences` guide may ask students to record multiple experiences. Teachers may use that as extended support, but the live Completion Standards configuration controls the required minimum.
+- Remaining capture priority for this lesson is any Xello-supplied student directions, presentation, worksheet, or downloadable student video that directly supports Work experiences. Place each licensed binary in locked Canvas, identify its audience and classroom job, and keep a visible text route on the student page.
+
 ## Completion gate
 
 A Xello-backed module is not teacher-ready until:

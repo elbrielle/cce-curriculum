@@ -1,117 +1,53 @@
-# Day 5: Xello Time Management + Reflection
+# Day 5: Record Experience and Connect Skills to a Plan
 
-## Lesson Overview
+## Lesson overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the Xello Time Management Lesson; complete the CareerOneStop Skills Matcher; review and refine the SMART goal from Day 3; write a Powerskills reflection |
-| **TEKS** | d(1)(A), d(4)(A), d(4)(B) |
-| **5E Phases** | Engage: Warm-Up · Explore: Xello Time Management and CareerOneStop Skills Matcher · Extend: SMART goal refined against the new results · Evaluate: Powerskills reflection and Exit Ticket |
-| **Deliverable** | Xello Time Management completion screen + Skills Matcher results screenshot + refined SMART goal + 4-sentence reflection paragraph |
-| **Materials** | Chromebooks, Xello accounts, CareerOneStop Skills Matcher link, SMART Goal worksheet from Day 3, projector |
+| **Target** | Add one authentic Work experience in Xello, analyze Skills Matcher suggestions, and revise a goal using transferable-skill evidence |
+| **TEKS** | d(4)(A), d(4)(B); d(1)(A) supporting evidence |
+| **Evidence** | [Work Experience and Skills Synthesis](../../resources/worksheets/2sw-wk5-work-experience-skills-synthesis.pdf) and [16-point rubric](../../resources/worksheets/2sw-wk5-communication-goal-rubric.pdf) |
+| **Platforms** | Required: Xello Work experiences. Supplemental: CareerOneStop Skills Matcher. Optional extension: Xello Time management. |
 
----
+## Before class
 
-## Warm-Up (5 min)
+- Test ClassLink to Xello and the CareerOneStop Skills Matcher on a student Chromebook.
+- Open Xello Completion Standards so you can verify Work experiences.
+- Post the licensed Xello *My experiences* guide in locked Canvas. The broader guide asks students to add three experiences; the Bowie Grade 8 completion minimum for this task is one Work experience.
+- Do not require a screenshot of personal results.
 
-**WARM-UP: If you had to hire someone for a job, what soft skills would you look for? List your top 3.**
+## Lesson flow
 
-Take 3-4 responses. Bridge: students will see today that the soft skills they value as "boss" are the same skills they have practiced this week, communication, time management, advocacy.
+### 1. Warm-up (5 min)
 
----
+Students list one real responsibility they have handled at school, home, in a club, through volunteering, or through paid/unpaid work. Listing a responsibility does not automatically mean it belongs in the Xello Work category; students use the platform's category and teacher guidance.
 
-## Activity 1: Xello Time Management Lesson (15 min)
+### 2. Required Xello Work experiences (10 min)
 
-Open Xello and direct students to the **Time management** lesson as supplemental instruction. This lesson is not a Bowie Grade 8 completion standard. It teaches time-management strategies and asks students to apply them to their school week.
+Students open **ClassLink → Xello → About Me → Experiences → Work**, add at least one experience that actually happened, and save.
 
-Students complete the lesson, take any embedded quizzes, and read their results. They write down:
+Students do not invent an experience or enter client names, medical details, contact information, or public links. If a student has no qualifying experience, record catch-up and use the sample responsibility on the synthesis sheet. Paper work supports learning but does not replace the required save.
 
-- One time management strategy they want to try
-- One thing in their week that wastes time
+### 3. CareerOneStop Skills Matcher (20 min)
 
-The lesson connects directly to d(4)(A): time management is one of the explicit TEKS this week.
+Students rate all 40 skill and knowledge areas using the tool's anchor statements. They record two career suggestions and one pattern or surprise. Results are suggestions based on self-ratings, not a verdict about fit.
 
----
+No screenshot is required. A teacher glance at the results screen or the private written capture is enough.
 
-## Activity 2: CareerOneStop Skills Matcher (15 min)
+### 4. Private synthesis (12 min)
 
-Open [careeronestop.org/Toolkit/Skills/skills-matcher.aspx](https://www.careeronestop.org/Toolkit/Skills/skills-matcher.aspx) on the projector. Walk students through how the Skills Matcher works:
+Students revise the Day 3 goal, name the time block and backup strategy, and compare one Powerskill across two careers. They may discuss one non-sensitive pattern with a partner, confer with the teacher, or keep the analysis private in writing.
 
-- The tool asks you to rate yourself on 40 skills (Active Listening, Critical Thinking, Reading Comprehension, etc.)
-- Based on your ratings, it shows careers that match your skill profile
+Use the rubric's four criteria. This is a recommended 16-point minor checkpoint after the Canvas Minor group and SIS route are verified.
 
-Students complete the Skills Matcher individually. The tool will return a list of careers ranked by skill match.
+### 5. Submit or record catch-up (3 min)
 
-After completing the matcher, students:
+Students check all four Done when boxes. Teachers record Xello completion from the report and keep absent/no-access students on the supervised catch-up list.
 
-1. **Take a screenshot** of their top 5 career matches
-2. **Compare to their H&L Climber Profile favorites:** is there overlap?
-3. **Write one sentence** noting whether the Skills Matcher recommended any careers they had NOT considered before
+## Supports and fallbacks
 
-> [H&L PLATFORM] Open the Hats & Ladders app and go to Profile, then Climber Profile. Compare the favorited Hats to the CareerOneStop Skills Matcher results. Look for patterns: the same core personality type from "Discover Your Core," the same work values, the same skills showing up in both lists.
-
----
-
-## Activity 3: SMART Refinement + Powerskills Reflection (15 min)
-
-Students close the week by bringing the Xello Time Management strategy and the Skills Matcher results back to the SMART goal they drafted on Day 3, and then writing the reflection that is the week's summative. Keep this as one continuous block so students don't lose momentum with another activity handoff.
-
-**Part A, Refine the SMART goal (5 min).** Students pull out their Day 3 SMART goal and ask three questions:
-
-- Is it still realistic given what I now know about my time?
-- Should I narrow or expand it based on my Skills Matcher results?
-- Have I committed to a specific action that will actually get me there?
-
-Each student rewrites the goal once if needed and highlights any changes from the Day 3 version.
-
-**Part B, Write the reflection (10 min).** Students write a 4-sentence paragraph (this is the Week 5 summative):
-
-1. *"The transferable skill I improved most this week is _____."*
-2. *"It connects to the career of _____ because _____."*
-3. *"This week's biggest aha moment was _____."*
-4. *"I will practice this skill outside of class by _____."*
-
-Submit the reflection and the refined SMART goal together as the Week 5 deliverable.
-
-**DOK 4:** If you were training a new employee at a hospital, how would you teach them the communication skills we practiced this week? Design a brief 30-minute training outline.
-
----
-
-## Exit Ticket (Done as part of reflection)
-
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/2sw-wk5-day5-xello-time-management-reflection.pdf):
-
-The transferable skill I improved MOST this week: _______________________ (from Conflict Resolution / Active Listening / Advocacy / Written Communication / Time Management)
-
-Connect this skill to THREE things:
-
-**1. A career from my CareerOneStop Skills Matcher top 5 that USES this skill**
-
-   Career: _______________________. One sentence, how this skill shows up in that career's daily work:
-
-   ___________________________________________________________________
-
-**2. My SMART goal from Day 3 (refined today)**
-
-   Does this skill help me reach my SMART goal? Circle: YES / NO. One sentence why:
-
-   ___________________________________________________________________
-
-**3. A CLASSMATE's top skill (trade in the last 2 minutes, must be different from mine)**
-
-   Classmate's skill: _______________________. In one sentence, which skill (MINE or CLASSMATE'S) matters more in a high-pressure healthcare job, and why?
-
-   ___________________________________________________________________
-
-*(d(1)(A), d(4)(B))*
-
-Submit the refined SMART goal with this ticket.
-
----
-
-## Differentiation
-
-- **Support:** Provide a fill-in-the-blank reflection template. Use Xello's Spanish-language toggle and CareerOneStop's accessibility features.
-- **Extension:** Students compare their Skills Matcher results to the core personality type they recorded in Week 0 from the H&L "Discover Your Core" task. Where do they overlap, and where do they conflict? Students who kept a Powerskills Trading Card from Week 0 check whether the Powerskill they named as "in training" is the one they improved most this week.
-- **ELL:** CareerOneStop and Xello both support multiple languages. Pair ESL students with bilingual peers for the reflection paragraph. Pre-teach: Reflection = Reflexión, Skill = Habilidad, Goal = Meta, Refine = Refinar.
+- If CareerOneStop is blocked, students choose two careers from a teacher-provided sample and compare the same transferable skill. Do not pretend the Skills Matcher was completed.
+- If Xello is blocked, students complete the reflection now and finish the required save during supervised catch-up.
+- Language support: experience = experiencia; responsibility = responsabilidad; suggestion = sugerencia; transferable = transferible.
+- Xello Time management remains an optional extension because it is not assigned in the Grade 8 completion configuration.
