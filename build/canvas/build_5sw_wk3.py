@@ -224,7 +224,7 @@ async def main():
                 "EVIDENCE": "<p>Formative two-route comparison, ordered application/enrollment steps, organization classification, access, and value.</p>",
                 "FLOW": flow("#315f4c", "Stable facts · 5", "What Registered Apprenticeship is.") + flow("#4c8b38", "Two routes · 12", "Dated cards, variable terms.") + flow("#8a4f2b", "Compare/sequence · 23", "Eligibility through next verification.") + flow("#d39b22", "Organization · 7", "Type, access, value.") + flow("#315f4c", "Exit · 3", "Two steps and one organization."),
                 "MONITOR": "<p>Accept multiple route judgments when the student uses the published facts. Registered Apprenticeship is paid and structured; sponsor eligibility, length, wage, cost, schedule, and license relationship vary. An industry certification is not automatically college credit.</p>",
-                "RESOURCES": '<p><a href="https://www.apprenticeship.gov/career-seekers">Apprenticeship.gov Career Seekers</a> · <a href="https://www.dallascollege.edu/cd/credit/construction/pages/default.aspx">Dallas College Construction Technology</a> · current provider steps are dated in the packet.</p>',
+                "RESOURCES": '<p><a href="https://www.apprenticeship.gov/career-seekers">Apprenticeship.gov Career Seekers</a> · <a href="https://www.dallascollege.edu/study/construction-technology/">Dallas College Construction Technology</a> · current provider steps are dated in the packet.</p>',
                 "SUPPORT": "<p>Use arrows or numbered cards for sequencing. Students may respond privately; no cold contact or public sharing.</p>",
                 "FALLBACK": "<p>Fixed cards replace live provider browsing and remain usable after absence or a site change.</p>",
             },
