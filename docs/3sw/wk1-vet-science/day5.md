@@ -1,5 +1,12 @@
 # Day 5: Veterinary Pathway Brief
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Veterinary Pathways
+- **Objective:** Students will identify a veterinary career opportunity and describe its preparation requirements using current career and local pathway evidence.
+- **TEKS:** d(1)(C), d(2)(A)
+- **Demonstration of Learning:** The recommended durable artifact is a 16-point minor evidence packet. Score career/preparation accuracy, labor-market evidence, current local pathway connection, and a realistic next action. Fabrication, platform access, paragraph length, and design polish do not affect the score.
+<!-- CCE DAILY CONTRACT END -->
 > **Canvas is authoritative.** This Markdown page is a source backup for the unpublished Canvas Teacher Facilitator Guide and Student Guide.
 
 ## 50-minute plan

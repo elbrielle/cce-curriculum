@@ -1,5 +1,12 @@
 # Day 2: TREC Sales Agent Route and Variable-Income Math
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Preparation
+- **Objective:** Students will research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Career Preparation.
+- **TEKS:** d(2)(A)
+- **Demonstration of Learning:** Current TREC sequence and three fictional compensation scenarios.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

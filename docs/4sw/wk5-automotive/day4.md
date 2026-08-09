@@ -1,5 +1,12 @@
 # Day 4: Evaluate Automotive Training Routes
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Training Options
+- **Objective:** Students will evaluate training routes using current evidence and identify what still requires district or program confirmation.
+- **TEKS:** d(2)(B), d(3)(G)
+- **Demonstration of Learning:** Current-source audit, route comparison, scenario recommendation, and verification plan.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
 | | |

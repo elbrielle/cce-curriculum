@@ -1,5 +1,12 @@
 # Day 1: Cluster Roles and Safety Supervisor
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Clusters
+- **Objective:** Students will describe how Architecture & Construction roles work together and use supplied evidence to plan for a fictional hazard scenario.
+- **TEKS:** d(1)(B), d(1)(C)
+- **Demonstration of Learning:** Individual Safety Supervisor plan + cluster-role exit response.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

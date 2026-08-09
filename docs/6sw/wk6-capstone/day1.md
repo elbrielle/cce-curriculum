@@ -1,5 +1,12 @@
 # Day 1: Evidence Inventory and Recovery
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Pathway
+- **Objective:** Students will select a career pathway in a desired field and document high-school courses and postsecondary requirements for a selected career pathway using evidence from Career Pathway.
+- **TEKS:** prepares d(8)(A-C)
+- **Demonstration of Learning:** six-page individual inventory/recovery plan.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** prepares d(8)(A-C)
 **Evidence:** six-page individual inventory/recovery plan
 

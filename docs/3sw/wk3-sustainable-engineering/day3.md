@@ -1,5 +1,12 @@
 # Day 3: Pest Patrol Drone Design
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will communicate a drone concept with labeled functions, evidence links, and one tradeoff.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Pest Patrol Drone Design Brief draft.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

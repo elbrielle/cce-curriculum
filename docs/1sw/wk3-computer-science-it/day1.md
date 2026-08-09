@@ -1,5 +1,12 @@
 # Day 1: Networking Systems Pathway + Transferable Skills
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and identify skills that transfer among a variety of careers using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(4)(B)
+- **Demonstration of Learning:** Network career notes in the engineering notebook + 1 transferable skill written on the App Exploration page.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

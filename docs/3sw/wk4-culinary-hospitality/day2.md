@@ -1,5 +1,12 @@
 # Day 2: Motivation and Three-Career Comparison
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Transferable Skills
+- **Objective:** Students will identify skills that transfer among a variety of careers and use resources to compare the salaries of at least three careers in an interest area using evidence from Transferable Skills.
+- **TEKS:** d(4)(B), d(5)(E)
+- **Demonstration of Learning:** Motivation and Hospitality Career Comparison.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

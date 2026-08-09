@@ -1,5 +1,12 @@
 # Day 5: Record Experience and Connect Skills to a Plan
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Goals and Time
+- **Objective:** Students will add one authentic Work experience in Xello, analyze Skills Matcher suggestions, and revise a goal using transferable-skill evidence.
+- **TEKS:** d(4)(A), d(4)(B); d(1)(A) supporting evidence
+- **Demonstration of Learning:** Work Experience and Skills Synthesis and 16-point rubric.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
 | | |

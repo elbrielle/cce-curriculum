@@ -1,5 +1,12 @@
 # Day 1: IT Support Pathway Exploration
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Preparation
+- **Objective:** Students will research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Career Preparation.
+- **TEKS:** d(2)(A)
+- **Demonstration of Learning:** Notes on 3 IT support careers (education, salary, daily tasks).
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

@@ -1,5 +1,12 @@
 # Day 3: Quality Check and Texas Cosmetology Pathways
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Preparation
+- **Objective:** Students will evaluate and revise an SFX design, identify current Texas Cosmetology Operator requirements, compare high-school and postsecondary training settings, and report questions needed before enrollment.
+- **TEKS:** d(2)(A), d(3)(G)
+- **Demonstration of Learning:** SFX Quality Check and Revision Plan plus Cosmetology Pathway Decision.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

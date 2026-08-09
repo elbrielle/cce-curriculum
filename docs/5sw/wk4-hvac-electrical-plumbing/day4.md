@@ -1,5 +1,12 @@
 # Day 4: Current Entry Routes and Verification Steps
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Preparation
+- **Objective:** Students will research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster and investigate and report the steps required to participate or enroll in career and educational opportunities using evidence from Career Preparation.
+- **TEKS:** d(2)(A), d(3)(G)
+- **Demonstration of Learning:** two-route comparison and ordered next steps.
+<!-- CCE DAILY CONTRACT END -->
 **Time:** 50 minutes
 
 **TEKS:** d(2)(A), d(3)(G)

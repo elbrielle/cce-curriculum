@@ -1,5 +1,12 @@
 # Day 2: Spot a Problem and Generate Ideas
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Entrepreneurship
+- **Objective:** Students will write a clear problem statement, generate at least 10 possible business ideas, and select two using visible criteria.
+- **TEKS:** d(3)(I)
+- **Demonstration of Learning:** FYF pp. 234-235 or the matching support packet pages.
+<!-- CCE DAILY CONTRACT END -->
 | | |
 |---|---|
 | **Time** | 50 minutes |

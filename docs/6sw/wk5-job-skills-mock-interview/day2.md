@@ -1,5 +1,12 @@
 # Day 2: Tailored Cover Letter Simulation
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Business Correspondence
+- **Objective:** Students will write appropriate business correspondence such as a cover letter or thank-you letter using evidence from Business Correspondence.
+- **TEKS:** d(7)(B)
+- **Demonstration of Learning:** six-page plan, draft, accuracy audit, and final fictional letter.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(7)(B)
 **Evidence:** six-page plan, draft, accuracy audit, and final fictional letter
 

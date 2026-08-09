@@ -1,5 +1,12 @@
 # Day 2: ASE and Automotive Training Routes
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Preparation
+- **Objective:** Students will distinguish ASE Entry-Level from professional ASE certification and compare three legitimate preparation routes.
+- **TEKS:** d(2)(A), d(2)(B), d(3)(G)
+- **Demonstration of Learning:** ASE distinction, route evidence table, tradeoff recommendation, and verification question.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
 | | |

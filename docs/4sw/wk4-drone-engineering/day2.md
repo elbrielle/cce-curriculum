@@ -1,5 +1,12 @@
 # Day 2: Compare Drone-Enabled Occupations
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Emerging Careers
+- **Objective:** Students will research and evaluate emerging occupations related to career interest areas and research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Emerging Careers.
+- **TEKS:** d(1)(D), d(2)(A), d(5)(B)
+- **Demonstration of Learning:** Individual Drone-Enabled Occupations evidence table and three source-based classifications.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

@@ -1,5 +1,12 @@
 # Day 4: Code.org Hour of Code (Day 1)
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Hour of Code tutorial 50%+ complete + a screenshot of one programming block sequence.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

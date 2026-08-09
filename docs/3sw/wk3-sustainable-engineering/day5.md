@@ -1,5 +1,12 @@
 # Day 5: Adaptability and Xello Set Goals
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will use an adaptability example to plan and save at least two honest goals in Xello.
+- **TEKS:** d(1)(C) through the closing career connection; required Xello completion spine
+- **Demonstration of Learning:** Two saved Xello goals + private Goals Plan and Reflection.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

@@ -1,5 +1,12 @@
 # Day 2: Assessment Impact and Emerging Engineering Work
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Assessment Impact
+- **Objective:** Students will explain how one assessment may affect a personal route and evaluate a changing engineering specialty.
+- **TEKS:** d(3)(E), d(1)(D)
+- **Demonstration of Learning:** Assessment-impact decision + emerging-specialty evaluation.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

@@ -1,5 +1,12 @@
 # Day 4: Real-Estate Labor Evidence and Economic Sensitivity
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Labor Trends
+- **Objective:** Students will analyze labor-market trends related to a career of interest using evidence from Labor Trends.
+- **TEKS:** d(5)(A)
+- **Demonstration of Learning:** Fixed-source labor analysis and scenario judgment.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

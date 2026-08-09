@@ -1,5 +1,12 @@
 # Day 2: Mini Medics Design Challenge
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will use the workbook's future-technology scenario to plan, label, and explain a tiny medical robot that meets a clear mission and safety constraints.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Mini Medics Design Record with plan, labeled design, journey, and evidence question.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

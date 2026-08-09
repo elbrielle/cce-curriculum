@@ -1,5 +1,12 @@
 # Day 5: 1st Six Weeks Capstone — Reflection, Gallery Walk, IT Wrap-Up
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and describe academic requirements for moving from middle school to high school and from high school to a career or postsecondary education using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(3)(A)
+- **Demonstration of Learning:** Updated My Career Journey reflection (turned in) + completed Glowforge logo (physical artifact) + 2 final IT favorites in H&L.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

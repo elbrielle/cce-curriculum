@@ -1,5 +1,12 @@
 # Day 4: Irving Pathway and CTSO Decision
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Extended Learning
+- **Objective:** Students will compare current Irving ISD pathway options and explain one benefit of CTSO participation.
+- **TEKS:** d(3)(F), d(8)(A)
+- **Demonstration of Learning:** Pathway and CTSO Decision sheet.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

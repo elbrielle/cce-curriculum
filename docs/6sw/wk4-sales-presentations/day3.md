@@ -1,5 +1,12 @@
 # Day 3: BrainBoost Rescue and Career Oral Outline
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and identify skills that transfer among a variety of careers using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(4)(B), d(4)(C)
+- **Demonstration of Learning:** seven-page individual rescue plan and career-brief outline.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(1)(C), d(4)(B), d(4)(C)
 **Evidence:** seven-page individual rescue plan and career-brief outline
 

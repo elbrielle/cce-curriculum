@@ -1,5 +1,12 @@
 # Day 1: Resolve Conflict and Keep the Work Moving
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Transferable Skills
+- **Objective:** Students will use listening, compromise, and respectful language to solve a team conflict, then transfer the skill to two careers.
+- **TEKS:** d(4)(B)
+- **Demonstration of Learning:** Conflict Resolution Plan.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
 | | |

@@ -1,5 +1,12 @@
 # Day 1: Audience and Sales Pitch Plan
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and identify skills that transfer among a variety of careers using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(4)(B)
+- **Demonstration of Learning:** five-page individual audience and pitch plan.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(1)(C), d(4)(B)
 **Evidence:** five-page individual audience and pitch plan
 

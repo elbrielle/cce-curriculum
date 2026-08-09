@@ -1,5 +1,12 @@
 # Day 4: Teach Through Play + Why Service Matters
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and explain the value of community service and volunteerism using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(4)(E)
+- **Demonstration of Learning:** seven-page Teach Through Play and Service Reflection.
+<!-- CCE DAILY CONTRACT END -->
 ## Target and Evidence
 
 **TEKS:** d(1)(C), d(4)(E)

@@ -1,5 +1,12 @@
 # Day 3: Labor Evidence and Classification
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Labor Trends
+- **Objective:** Students will analyze labor-market trends related to a career of interest and classify evidence of high-skill, high-wage, or high-demand occupations using labor-market information using evidence from Labor Trends.
+- **TEKS:** d(5)(A), d(5)(B)
+- **Demonstration of Learning:** four-career classification and limitation.
+<!-- CCE DAILY CONTRACT END -->
 **Time:** 50 minutes
 
 **TEKS:** d(5)(A), d(5)(B)

@@ -1,5 +1,12 @@
 # Day 3: Help Desk Simulator (MakeCode Day 1)
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Transferable Skills
+- **Objective:** Students will identify skills that transfer among a variety of careers using evidence from Transferable Skills.
+- **TEKS:** d(4)(B)
+- **Demonstration of Learning:** MakeCode program with at least 3 troubleshooting steps that displays text on the micro:bit when Button A is pressed.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

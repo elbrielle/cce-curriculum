@@ -1,5 +1,12 @@
 # Day 5: Compare Three Careers and Submit the Budget Portfolio
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Personal Budget
+- **Objective:** Students will prepare a personal budget that reflects a desired lifestyle and use resources to compare the salaries of at least three careers in an interest area using evidence from Personal Budget.
+- **TEKS:** d(5)(D), d(5)(E)
+- **Demonstration of Learning:** three-career salary comparison, weighted recommendation, revised budget, and private portfolio.
+<!-- CCE DAILY CONTRACT END -->
 **Time:** 50 minutes
 
 **TEKS:** d(5)(D), d(5)(E)

@@ -1,5 +1,12 @@
 # Day 4: Document a Fictional Patient Handoff
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Individual Observation and Clinical Handoff Record.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

@@ -1,5 +1,12 @@
 # Day 1: Human Services and SFX Texture Concept
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Clusters
+- **Objective:** Students will describe the Human Services cluster, identify several careers, explain how texture and layering support an SFX design, and create a labeled texture map.
+- **TEKS:** d(1)(B), d(1)(C)
+- **Demonstration of Learning:** SFX Texture Concept and Lab Brief, pages 1-3.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

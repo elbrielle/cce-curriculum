@@ -1,5 +1,12 @@
 # Day 5: Aviation Route and Action Plan
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Goals and Time
+- **Objective:** Students will demonstrate effective time-management and goal-setting strategies and identify career opportunities within one or more career clusters using evidence from Goals and Time.
+- **TEKS:** d(4)(A), d(1)(C)
+- **Demonstration of Learning:** Private individual Aviation Route and Action Plan with student-visible 16-point rubric.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

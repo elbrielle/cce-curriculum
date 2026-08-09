@@ -1,5 +1,12 @@
 # Day 4: Salon Entrepreneurship and Wellness Communication
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Entrepreneurship
+- **Objective:** Students will define a beauty-industry business opportunity, identify owner responsibilities, and create one clear, safe, fictional wellness campaign post.
+- **TEKS:** d(3)(I)
+- **Demonstration of Learning:** Salon and Wellness Campaign Brief.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

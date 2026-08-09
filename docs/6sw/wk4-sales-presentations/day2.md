@@ -1,5 +1,12 @@
 # Day 2: Deliver, Test, and Revise a Sales Pitch
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Transferable Skills
+- **Objective:** Students will identify skills that transfer among a variety of careers and give an oral professional presentation about career and college exploration using appropriate technology using evidence from Transferable Skills.
+- **TEKS:** d(4)(B), d(4)(C)
+- **Demonstration of Learning:** two 60-seconds-or-less oral/AAC attempts plus visible revision record.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(4)(B), d(4)(C)
 **Evidence:** two 60-seconds-or-less oral/AAC attempts plus visible revision record
 

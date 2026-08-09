@@ -1,5 +1,12 @@
 # Day 2: Individual Career Plan
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Pathway
+- **Objective:** Students will select a career pathway in a desired field and document high-school courses and postsecondary requirements for a selected career pathway using evidence from Career Pathway.
+- **TEKS:** d(8)(A), d(8)(B), d(8)(C)
+- **Demonstration of Learning:** eight-page individual career plan.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(8)(A), d(8)(B), d(8)(C)
 **Evidence:** eight-page individual career plan
 

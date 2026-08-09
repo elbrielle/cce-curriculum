@@ -1,5 +1,12 @@
 # Day 3: Decide Which Drone Rule Applies
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Preparation
+- **Objective:** Students will research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Career Preparation.
+- **TEKS:** d(2)(A)
+- **Demonstration of Learning:** Individual operating-rule decision tree and indoor-system readiness check.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

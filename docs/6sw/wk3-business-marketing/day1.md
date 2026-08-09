@@ -1,5 +1,12 @@
 # Day 1: Click Factor - Audience and Ethical CTA
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** six-page individual Click Factor CTA and Ad Plan.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(1)(C)
 **Evidence:** six-page individual Click Factor CTA and Ad Plan
 

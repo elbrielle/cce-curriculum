@@ -1,5 +1,12 @@
 # Day 4: Build, Test, Revise, and Submit
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will complete a concept model, test it against the brief, and document one evidence-based revision.
+- **TEKS:** d(1)(C) reinforcement
+- **Demonstration of Learning:** Submitted design + revision record + career-role explanation.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

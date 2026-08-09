@@ -1,5 +1,12 @@
 # Day 3: Work Values and Building Blocks (Core Day B)
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Assessment
+- **Objective:** Students will analyze and discuss the initial results of career assessments and explore and describe the CTE career clusters using evidence from Career Assessment.
+- **TEKS:** d(1)(A), d(1)(B)
+- **Demonstration of Learning:** Top 2 work values + 3 or more Building Blocks recorded in the H&L Climber Profile, the workbook, and the engineering notebook.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

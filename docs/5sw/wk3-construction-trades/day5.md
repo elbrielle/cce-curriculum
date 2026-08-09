@@ -1,5 +1,12 @@
 # Day 5: Fictional Evidence Report and Professional Briefing
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will turn observation notes into a bounded evidence report; deliver one organized 30–45 second professional briefing.
+- **TEKS:** d(1)(C), d(4)(C)
+- **Demonstration of Learning:** Individual report + live, private recorded, or teacher-conference oral briefing.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

@@ -1,5 +1,12 @@
 # Day 5: Sphero Run-Through + Robots for Crayons Presentations + Manufacturing Favorites
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Clusters
+- **Objective:** Students will explore and describe the CTE career clusters and identify career opportunities within one or more career clusters using evidence from Career Clusters.
+- **TEKS:** d(1)(B), d(1)(C)
+- **Demonstration of Learning:** Sphero demo run + 2-minute team presentation of both fault plans + 2 Manufacturing Hats favorited in Climber Profile.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

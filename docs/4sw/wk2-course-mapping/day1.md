@@ -1,5 +1,12 @@
 # Day 1: Graduation and Assessment Decisions
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Academic Transitions
+- **Objective:** Students will describe the current Texas graduation framework and analyze how different assessments can affect graduation, placement, admission, scholarships, career exploration, or military options.
+- **TEKS:** d(3)(A), d(3)(E)
+- **Demonstration of Learning:** Completed High School Transition and Assessment Decisions packet.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

@@ -1,5 +1,12 @@
 # Day 4: Work Ethic and Integrity — Document the Decision
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Professional Character
+- **Objective:** Students will identify work ethic, integrity, dedication, and perseverance in four fictional workplace decisions and connect one trait to prior class evidence.
+- **TEKS:** d(4)(F)
+- **Demonstration of Learning:** Integrity and Evidence Audit packet.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

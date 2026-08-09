@@ -1,5 +1,12 @@
 # Day 4: Glowforge College/Career Logo Design
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Academic Transitions
+- **Objective:** Students will describe academic requirements for moving from middle school to high school and from high school to a career or postsecondary education using evidence from Academic Transitions.
+- **TEKS:** d(3)(A)
+- **Demonstration of Learning:** Final logo design (digital) + first batch of Glowforge cuts started.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

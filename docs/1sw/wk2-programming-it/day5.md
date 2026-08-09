@@ -1,5 +1,12 @@
 # Day 5: Hour of Code (Day 2) + Pathway Possibilities + IT Favorites
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Hour of Code certificate + 2 IT careers favorited in H&L + Xello Favorite Clusters complete + the IT Salary Comparison worksheet collected with its four sentence Hour of Code reflection.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

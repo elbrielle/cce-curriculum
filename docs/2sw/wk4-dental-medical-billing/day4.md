@@ -1,5 +1,12 @@
 # Day 4: Medical Records and ICD-10-CM Practice
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Preparation
+- **Objective:** Students will research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster and classify evidence of high-skill, high-wage, or high-demand occupations using labor-market information using evidence from Career Preparation.
+- **TEKS:** d(2)(A), d(5)(B)
+- **Demonstration of Learning:** Medical Records Specialist row + individual coding lab.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
 | | |

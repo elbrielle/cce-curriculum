@@ -1,5 +1,12 @@
 # Day 1: Cybersecurity Pathway + CyberSeek Career Map
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Emerging Careers
+- **Objective:** Students will research and evaluate emerging occupations related to career interest areas using evidence from Emerging Careers.
+- **TEKS:** d(1)(D)
+- **Demonstration of Learning:** Cybersecurity career notes + CyberSeek pathway traced from entry-level to advanced.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

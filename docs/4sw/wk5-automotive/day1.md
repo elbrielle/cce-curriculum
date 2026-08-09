@@ -1,5 +1,12 @@
 # Day 1: Crash Crew — Visible Evidence and Preliminary Plan
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Clusters
+- **Objective:** Students will separate what I can see from what a trained technician would still need to inspect.
+- **TEKS:** d(1)(B), d(1)(C)
+- **Demonstration of Learning:** Individual evidence log, preliminary part questions, sequenced shop-process model, and changed-vehicle response.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
 | | |

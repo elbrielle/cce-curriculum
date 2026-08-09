@@ -1,5 +1,12 @@
 # Day 5: Xello Biases and Career Choices
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Emerging Careers
+- **Objective:** Students will research and evaluate emerging occupations related to career interest areas and identify skills that transfer among a variety of careers using evidence from Emerging Careers.
+- **TEKS:** Consolidates d(1)(D) and d(4)(B); no new primary carrier
+- **Demonstration of Learning:** Xello Completion Standards report plus private career-assumption reflection.
+<!-- CCE DAILY CONTRACT END -->
 | | |
 |---|---|
 | **Time** | 50 minutes |

@@ -1,5 +1,12 @@
 # Day 1: Design a Wildlife-Tracking Drone System
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Clusters
+- **Objective:** Students will explore and describe the CTE career clusters and identify career opportunities within one or more career clusters using evidence from Career Clusters.
+- **TEKS:** d(1)(B), d(1)(C)
+- **Demonstration of Learning:** Individual blueprint with six labeled system jobs and one evidence-based redesign.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

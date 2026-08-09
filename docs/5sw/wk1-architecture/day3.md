@@ -1,5 +1,12 @@
 # Day 3: Concept Modeling Foundations
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will create a two-view concept sketch and begin a model using five spatial-design operations.
+- **TEKS:** d(1)(C) reinforcement
+- **Demonstration of Learning:** Two-view sketch + first model checkpoint + career-role exit.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

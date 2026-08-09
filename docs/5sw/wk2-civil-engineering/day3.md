@@ -1,5 +1,12 @@
 # Day 3: Bridge Constraints and Design Evidence
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will compare bridge systems, create two options, and select a design from evidence.
+- **TEKS:** d(1)(C) reinforcement
+- **Demonstration of Learning:** Two-view options + critique + individual career-role decision.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

@@ -1,5 +1,12 @@
 # Day 5: Mid-Year Career Blueprint
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Assessment
+- **Objective:** Students will synthesize self, career, and pathway evidence into a current plan with a backup and next action.
+- **TEKS:** d(1)(A), d(8)(A), d(8)(B)
+- **Demonstration of Learning:** Mid-Year Career Blueprint.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

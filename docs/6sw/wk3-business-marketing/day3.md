@@ -1,5 +1,12 @@
 # Day 3: Expert Edge - Entrepreneurship with Boundaries
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and define entrepreneurship and identify entrepreneurial opportunities in a field of personal interest using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(3)(I)
+- **Demonstration of Learning:** six-page individual fictional Expert Edge plan.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(1)(C), d(3)(I)
 **Evidence:** six-page individual fictional Expert Edge plan
 

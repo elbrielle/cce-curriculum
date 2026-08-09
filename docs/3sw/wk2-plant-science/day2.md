@@ -1,5 +1,12 @@
 # Day 2: Plan a Farm-to-Table Infographic
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and identify skills that transfer among a variety of careers using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(4)(B)
+- **Demonstration of Learning:** Four-step plan, two client facts, full-page sketch, two interview questions.
+<!-- CCE DAILY CONTRACT END -->
 | | |
 |---|---|
 | **Time** | 50 minutes |

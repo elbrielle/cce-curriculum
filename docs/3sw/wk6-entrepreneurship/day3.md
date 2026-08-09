@@ -1,5 +1,12 @@
 # Day 3: Stress-Test Two Ideas and Make the Call
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Entrepreneurship
+- **Objective:** Students will compare two ideas using three tests and make an evidence-based Move Forward, Needs Work, or Abandon It decision.
+- **TEKS:** d(3)(I)
+- **Demonstration of Learning:** Completed stress test and 6-8 sentence decision.
+<!-- CCE DAILY CONTRACT END -->
 | | |
 |---|---|
 | **Time** | 50 minutes |

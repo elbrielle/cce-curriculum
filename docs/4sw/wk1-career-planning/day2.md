@@ -1,5 +1,12 @@
 # Day 2: Career Iceberg and Goal
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Assessment
+- **Objective:** Students will explain the visible and hidden work behind one career and name a current direction.
+- **TEKS:** d(1)(A), d(8)(A)
+- **Demonstration of Learning:** Career Iceberg and Goal sheet or Canvas annotation.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

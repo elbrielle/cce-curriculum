@@ -1,5 +1,12 @@
 # Day 3: Powerskill: Work Ethic — Design a Cybersecurity Bootcamp
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Professional Character
+- **Objective:** Students will define and identify workplace examples of work ethic, integrity, dedication, and perseverance using evidence from Professional Character.
+- **TEKS:** d(4)(F)
+- **Demonstration of Learning:** Completed bootcamp plan table (FYF p. 35) + sign-up flyer + peer feedback slip + integrity reflection (1 paragraph).
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

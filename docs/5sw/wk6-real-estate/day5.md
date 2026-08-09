@@ -1,5 +1,12 @@
 # Day 5: Private Real-Estate Evidence Brief and Six-Weeks Reflection
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(2)(A), d(3)(I), d(4)(C) supporting, d(5)(A), d(5)(D) reassessment
+- **Demonstration of Learning:** Private 45-60 second evidence brief and written six-weeks reflection.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

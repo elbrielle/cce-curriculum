@@ -1,5 +1,12 @@
 # Day 2: Website Revamp — Audit a Real Site
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Completed UX audit (3 strengths, 5 problems, 3 fixes with user benefits) + redesign sketch of one page (FYF pp. 28-29).
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

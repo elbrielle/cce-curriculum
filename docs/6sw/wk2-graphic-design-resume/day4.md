@@ -1,5 +1,12 @@
 # Day 4: Seven Steps of an Effective Job Search
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Job Search
+- **Objective:** Students will identify the steps of an effective job search and write a resume using evidence from Job Search.
+- **TEKS:** d(6)(A), d(7)(A) support
+- **Demonstration of Learning:** six-page Effective Job Search Steps and Tracker.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(6)(A), d(7)(A) support
 **Evidence:** six-page Effective Job Search Steps and Tracker
 

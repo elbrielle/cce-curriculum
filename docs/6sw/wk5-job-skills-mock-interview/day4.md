@@ -1,5 +1,12 @@
 # Day 4: Interview Readiness and Question Practice
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Interview Appearance
+- **Objective:** Students will describe appropriate appearance for an interview and participate in a mock interview using evidence from Interview Appearance.
+- **TEKS:** d(6)(B); prepares d(6)(C)
+- **Demonstration of Learning:** eight-page readiness and question packet plus retryable practice Quiz.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(6)(B); prepares d(6)(C)
 **Evidence:** eight-page readiness and question packet plus retryable practice Quiz
 

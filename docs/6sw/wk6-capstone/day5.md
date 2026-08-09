@@ -1,5 +1,12 @@
 # Day 5: Final Reflection and Transfer Forward
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Pathway
+- **Objective:** Students will select a career pathway in a desired field and write a plan for starting a career after high school and any postsecondary education using evidence from Career Pathway.
+- **TEKS:** d(8)(A), d(8)(C); reflection/revision evidence
+- **Demonstration of Learning:** seven-page private final course reflection.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(8)(A), d(8)(C); reflection/revision evidence
 **Evidence:** seven-page private final course reflection
 

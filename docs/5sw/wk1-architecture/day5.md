@@ -1,5 +1,12 @@
 # Day 5: Unexpected Architecture and Weekly Synthesis
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Clusters
+- **Objective:** Students will apply city-goal evidence to a novelty-building concept and explain how multiple cluster roles work together.
+- **TEKS:** d(1)(B), d(1)(C); portfolio reassesses d(2)(A), d(5)(E)
+- **Demonstration of Learning:** Individual landmark evidence + completed weekly portfolio.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

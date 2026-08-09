@@ -1,5 +1,12 @@
 # Day 3: Compare Three Automotive Occupations
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Preparation
+- **Objective:** Students will compare three automotive occupations without mixing starting pay, local pay, and national median pay.
+- **TEKS:** d(2)(A), d(5)(E)
+- **Demonstration of Learning:** Three-career table, two ranked comparisons, limitation, and fictional-student recommendation.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
 | | |

@@ -1,5 +1,12 @@
 # Day 4: Pay for Education and Training
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Paying for Education
+- **Objective:** Students will investigate and describe methods available to pay for college and other postsecondary training using evidence from Paying for Education.
+- **TEKS:** d(3)(C)
+- **Demonstration of Learning:** funding-method decision guide plus retryable Canvas practice check.
+<!-- CCE DAILY CONTRACT END -->
 **Time:** 50 minutes
 
 **TEKS:** d(3)(C)

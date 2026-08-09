@@ -1,5 +1,12 @@
 # Day 2: Safe or Spoofed? — Investigating a Phishing Inbox
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Seven inbox decisions with written reasoning (FYF p. 25) + one safe email and one spoofed email drafted on a separate sheet.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

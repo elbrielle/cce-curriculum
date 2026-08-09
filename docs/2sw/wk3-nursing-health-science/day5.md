@@ -1,5 +1,12 @@
 # Day 5: Save Three Careers in Xello
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Xello record with at least three saved careers plus Xello Save Three Careers Reflection.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

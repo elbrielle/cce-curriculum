@@ -226,6 +226,9 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
                 problems.append(f"image missing loading=lazy in {page.get('url')}")
         if role == "student":
             required_sections = {
+                "topic": ("topic:",),
+                "objective": ("objective:",),
+                "show your learning": ("show your learning:",),
                 "today you will": ("today you will", "what you will do"),
                 "exit check": ("exit check", "exit ticket"),
                 "you are done when": ("you are done when", "done when"),
@@ -241,6 +244,10 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
                 )
         elif role == "teacher":
             required_sections = {
+                "topic": ("topic:",),
+                "objective": ("objective:",),
+                "teks": ("teks:",),
+                "demonstration of learning": ("demonstration of learning:",),
                 "before class": ("before class", "before students arrive"),
                 "50-minute flow": (
                     "50-minute flow",

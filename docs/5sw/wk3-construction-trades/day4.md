@@ -1,5 +1,12 @@
 # Day 4: Spot the Problem — Observe Before You Infer
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Individual five-image observation log and thermal-image comparison.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

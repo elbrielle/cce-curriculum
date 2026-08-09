@@ -1,5 +1,12 @@
 # Day 2: Machine Breakdown Mystery + Career Research
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will complete the "Machine Breakdown Mystery" troubleshooting activity using the five-stage Technician Checklist; complete a career research worksheet for one Manufacturing career.
+- **TEKS:** d(1)(C), d(2)(A)
+- **Demonstration of Learning:** Completed Machine Breakdown Mystery checklist (FYF p. 208) + career research worksheet.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

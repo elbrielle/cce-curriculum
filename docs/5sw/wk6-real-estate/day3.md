@@ -1,5 +1,12 @@
 # Day 3: Flip This House — ROI and Entrepreneurship
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Entrepreneurship
+- **Objective:** Students will define entrepreneurship and identify entrepreneurial opportunities in a field of personal interest using evidence from Entrepreneurship.
+- **TEKS:** d(3)(I)
+- **Demonstration of Learning:** Renovation strategy and individual entrepreneurship reasoning.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

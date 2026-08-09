@@ -1,5 +1,12 @@
 # Day 4: My Career Journey Reflection (Core Day C)
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Assessment
+- **Objective:** Students will analyze and discuss the initial results of career assessments and explore and describe the CTE career clusters using evidence from Career Assessment.
+- **TEKS:** d(1)(A), d(1)(B)
+- **Demonstration of Learning:** Completed My Career Journey reflection handout (turned in to teacher).
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

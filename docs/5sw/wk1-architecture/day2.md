@@ -1,5 +1,12 @@
 # Day 2: Compare Career Preparation and Pay
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Preparation
+- **Objective:** Students will compare three careers using consistent preparation and salary evidence.
+- **TEKS:** d(2)(A), d(5)(E)
+- **Demonstration of Learning:** Three-career comparison + recommendation.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

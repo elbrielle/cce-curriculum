@@ -1,5 +1,12 @@
 # Day 1: Mid-Year Profile Audit
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Assessment
+- **Objective:** Students will compare an earlier career-assessment or profile result with current evidence.
+- **TEKS:** d(1)(A)
+- **Demonstration of Learning:** Mid-Year Profile Audit.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

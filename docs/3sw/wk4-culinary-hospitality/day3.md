@@ -1,5 +1,12 @@
 # Day 3: Hotel Rescue Team Response
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and define entrepreneurship and identify entrepreneurial opportunities in a field of personal interest using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(3)(I)
+- **Demonstration of Learning:** Hotel Rescue Team and Individual Response.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

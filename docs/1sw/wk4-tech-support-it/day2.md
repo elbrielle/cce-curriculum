@@ -1,5 +1,12 @@
 # Day 2: Certification Deep-Dive — CompTIA Roadmap
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Preparation
+- **Objective:** Students will research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster and use available resources to research and evaluate educational and training options for one or more careers in an identified career cluster using evidence from Career Preparation.
+- **TEKS:** d(2)(A), d(2)(B)
+- **Demonstration of Learning:** Completed Education Pathway Comparison worksheet (3 careers × 5 fields).
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

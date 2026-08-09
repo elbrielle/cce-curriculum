@@ -11,18 +11,18 @@ This static pass proves whether the authored Canvas source visibly contains the 
 ## Coursewide structural baseline
 
 - Coordinated teacher/student pair detected: **180/180**
-- TEKS visible in the teacher guide: **139/180**
+- TEKS visible in the teacher guide: **180/180**
 - 50-minute flow visible: **180/180**
 - Before-class preparation visible: **180/180**
 - Monitoring/key guidance visible: **150/180**
 - Concrete language/reading/participation support detected: **169/180**
 - Absence/platform recovery route detected: **180/180**
 - Student start/done contract detected: **147/180**
-- Teacher guide explicitly labels **Topic**: **11/180**
-- Teacher guide explicitly labels **Objective**: **0/180**
-- Teacher guide explicitly labels **Demonstration of Learning / DOL**: **0/180**
+- Teacher guide explicitly labels **Topic**: **180/180**
+- Teacher guide explicitly labels **Objective**: **180/180**
+- Teacher guide explicitly labels **Demonstration of Learning / DOL**: **180/180**
 
-The last three counts are intentionally strict. A title, `Today you will`, or `Target and evidence` may contain the right substance, but the district-facing labels are not consistently scannable yet.
+The last three counts are intentionally strict. Each source lesson now carries a canonical daily contract, and the Canvas normalization gate renders a teacher version (including the TEKS) and a plain-language student version before coursewide QA.
 
 ## Confirmed first-pass findings
 
@@ -34,9 +34,9 @@ The authenticated Grade 8 configuration requires **After high school goal -> Mat
 
 The intended repaired sequence is Log in/After high school goal, What is CTE/Matchmaker, Personality Style, Learning Style, Add interests/Add skills, Favorite clusters. Current Canvas largely follows that order except for the missing What is CTE/Matchmaker block. Current S&S columns still show the legacy pileup, Favorite Clusters in Wk2, Add Skills in Wk3, a blank Wk4 cell, and Save Careers in Wk5. This must be reconciled before lesson-by-lesson grounding can be called complete.
 
-### P1 - District scan labels are not explicit
+### Repaired - District daily learning contract
 
-Every guide needs a fast teacher-facing block for Topic, Objective, TEKS, and Demonstration of Learning. The current title, subtitle, `Today you will`, and `Target and evidence` usually contain the ingredients, but the required labels are not consistent enough for an evaluator or a teacher scanning during class.
+All 180 source lessons now carry a 1-4 word Topic, an observable TEKS-aligned Objective, the exact TEKS code, and a specific Demonstration of Learning. The Canvas updater places the teacher contract and its student-friendly counterpart near the top of all 360 paired pages and preserves unpublished status. A dedicated QA gate rejects missing labels, objectives without observable action, overlong objectives, vague activity-only DOLs, and lessons without an exact §127.2 expectation.
 
 ### P1 - Projection readiness is not the same as one slide deck per lesson
 
@@ -60,12 +60,12 @@ The strict worksheet build is a useful overflow gate, but it does not prove that
 - Day 5 correctly uses FYF printed pp. 4-5 for `Perks and Quirks`. The workbook's research-note cells are too shallow for full explanations, but the Canvas route adds a one-career-per-page worksheet with dedicated full-width response lines. That is an appropriate scaffold rather than a duplicate decoration.
 - Days 2-3 correctly treat the personality/work-values instruction as H&L plus Climber Notes because FYF does not print those assessments.
 
-**Wk0 verdict:** workbook page grounding passes. The week is not fully copy-ready until the Xello Matchmaker prerequisite gap and the district Topic/Objective/DOL scan block are repaired.
+**Wk0 verdict:** workbook page grounding and the daily learning contract pass. The week is not fully source-grounded until the Xello Matchmaker prerequisite gap is repaired.
 
 ## Immediate gates before teacher-copy readiness
 
 1. Verify all 180 days against the authoritative S&S and the exact licensed source. Presence is not accuracy.
-2. Standardize the teacher scan block so Topic, Objective, TEKS, and Demonstration of Learning are explicit without duplicating prose.
+2. Review the now-standardized daily contracts during source grounding; revise any objective or DOL whose actual source/activity changes.
 3. Confirm each day uses at least one purposeful district move where it improves learning. Variety matters; a mechanical checklist does not.
 4. Cold-read every page pair and artifact as a teacher who has not seen the source files. Record hidden prep, missing models/keys, and timing collisions.
 5. Render every worksheet and inspect response space against the amount and type of writing requested.
@@ -146,12 +146,12 @@ Unresolved `[VERIFY]`/`[TODO]`/`[TBD]` markers detected on **2 day(s)**. Days wi
 | 3SW Wk2 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Think-Pair-Share / Turn and Talk, Active Monitoring | FYF |  |
 | 3SW Wk2 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF |  |
 | 3SW Wk2 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | BLS / current primary source |  |
-| 3SW Wk2 | 5 | Yes | NO | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | Xello |  |
+| 3SW Wk2 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | Xello |  |
 | 3SW Wk3 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Think-Pair-Share / Turn and Talk, Active Monitoring | H&L, BLS / current primary source |  |
 | 3SW Wk3 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring, Chunking | FYF |  |
 | 3SW Wk3 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF |  |
 | 3SW Wk3 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring, TVB | BLS / current primary source |  |
-| 3SW Wk3 | 5 | Yes | NO | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Xello |  |
+| 3SW Wk3 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Xello |  |
 | 3SW Wk4 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, H&L |  |
 | 3SW Wk4 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
 | 3SW Wk4 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF |  |
@@ -199,13 +199,13 @@ Unresolved `[VERIFY]`/`[TODO]`/`[TBD]` markers detected on **2 day(s)**. Days wi
 | 4SW Wk6 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | **REVIEW** |  |
 | 5SW Wk1 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, H&L |  |
 | 5SW Wk1 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
-| 5SW Wk1 | 3 | Yes | NO | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | BLS / current primary source |  |
-| 5SW Wk1 | 4 | Yes | NO | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | **REVIEW** |  |
+| 5SW Wk1 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | BLS / current primary source |  |
+| 5SW Wk1 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | **REVIEW** |  |
 | 5SW Wk1 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Climber Notes, H&L, BLS / current primary source |  |
 | 5SW Wk2 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
 | 5SW Wk2 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | BLS / current primary source |  |
-| 5SW Wk2 | 3 | Yes | NO | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | **REVIEW** |  |
-| 5SW Wk2 | 4 | Yes | NO | Yes | Yes | Yes | NO | Yes | Yes | Active Monitoring | **REVIEW** |  |
+| 5SW Wk2 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | **REVIEW** |  |
+| 5SW Wk2 | 4 | Yes | Yes | Yes | Yes | Yes | NO | Yes | Yes | Active Monitoring | **REVIEW** |  |
 | 5SW Wk2 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
 | 5SW Wk3 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
 | 5SW Wk3 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | **REVIEW** |  |
@@ -222,224 +222,44 @@ Unresolved `[VERIFY]`/`[TODO]`/`[TBD]` markers detected on **2 day(s)**. Days wi
 | 5SW Wk5 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
 | 5SW Wk5 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
 | 5SW Wk5 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
-| 5SW Wk6 | 1 | Yes | NO | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
-| 5SW Wk6 | 2 | Yes | NO | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
-| 5SW Wk6 | 3 | Yes | NO | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
-| 5SW Wk6 | 4 | Yes | NO | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring, Chunking | Xello, H&L, BLS / current primary source |  |
-| 5SW Wk6 | 5 | Yes | NO | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
-| 6SW Wk1 | 1 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
-| 6SW Wk1 | 2 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
-| 6SW Wk1 | 3 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
-| 6SW Wk1 | 4 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
-| 6SW Wk1 | 5 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
-| 6SW Wk2 | 1 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
-| 6SW Wk2 | 2 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
-| 6SW Wk2 | 3 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
-| 6SW Wk2 | 4 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
-| 6SW Wk2 | 5 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
-| 6SW Wk3 | 1 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Think-Pair-Share / Turn and Talk, Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
-| 6SW Wk3 | 2 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
-| 6SW Wk3 | 3 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
-| 6SW Wk3 | 4 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
-| 6SW Wk3 | 5 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
-| 6SW Wk4 | 1 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, H&L, BLS / current primary source |  |
-| 6SW Wk4 | 2 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | H&L, BLS / current primary source |  |
-| 6SW Wk4 | 3 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, H&L, BLS / current primary source |  |
-| 6SW Wk4 | 4 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | H&L, BLS / current primary source |  |
-| 6SW Wk4 | 5 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | H&L, BLS / current primary source |  |
-| 6SW Wk5 | 1 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L |  |
-| 6SW Wk5 | 2 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L |  |
-| 6SW Wk5 | 3 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring, Chunking | Xello, H&L |  |
-| 6SW Wk5 | 4 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L |  |
-| 6SW Wk5 | 5 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L |  |
-| 6SW Wk6 | 1 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | H&L |  |
-| 6SW Wk6 | 2 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | H&L |  |
-| 6SW Wk6 | 3 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | H&L |  |
-| 6SW Wk6 | 4 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | H&L |  |
-| 6SW Wk6 | 5 | Yes | NO | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | H&L |  |
+| 5SW Wk6 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
+| 5SW Wk6 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
+| 5SW Wk6 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 5SW Wk6 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring, Chunking | Xello, H&L, BLS / current primary source |  |
+| 5SW Wk6 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
+| 6SW Wk1 | 1 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 6SW Wk1 | 2 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
+| 6SW Wk1 | 3 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
+| 6SW Wk1 | 4 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 6SW Wk1 | 5 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 6SW Wk2 | 1 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 6SW Wk2 | 2 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
+| 6SW Wk2 | 3 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 6SW Wk2 | 4 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
+| 6SW Wk2 | 5 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 6SW Wk3 | 1 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Think-Pair-Share / Turn and Talk, Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 6SW Wk3 | 2 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 6SW Wk3 | 3 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 6SW Wk3 | 4 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 6SW Wk3 | 5 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
+| 6SW Wk4 | 1 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, H&L, BLS / current primary source |  |
+| 6SW Wk4 | 2 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | H&L, BLS / current primary source |  |
+| 6SW Wk4 | 3 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | FYF, H&L, BLS / current primary source |  |
+| 6SW Wk4 | 4 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | H&L, BLS / current primary source |  |
+| 6SW Wk4 | 5 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | H&L, BLS / current primary source |  |
+| 6SW Wk5 | 1 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L |  |
+| 6SW Wk5 | 2 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L |  |
+| 6SW Wk5 | 3 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring, Chunking | Xello, H&L |  |
+| 6SW Wk5 | 4 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L |  |
+| 6SW Wk5 | 5 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | Xello, H&L |  |
+| 6SW Wk6 | 1 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | H&L |  |
+| 6SW Wk6 | 2 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | H&L |  |
+| 6SW Wk6 | 3 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | H&L |  |
+| 6SW Wk6 | 4 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | H&L |  |
+| 6SW Wk6 | 5 | Yes | Yes | Yes | Yes | NO | Yes | Yes | Yes | Active Monitoring | H&L |  |
 
 ## Exact district-label gap
 
-- 1SW Wk0 Day 1: Topic, Objective, DOL
-- 1SW Wk0 Day 2: Topic, Objective, DOL
-- 1SW Wk0 Day 3: Topic, Objective, DOL
-- 1SW Wk0 Day 4: Topic, Objective, DOL
-- 1SW Wk0 Day 5: Topic, Objective, DOL
-- 1SW Wk1 Day 1: Topic, Objective, DOL
-- 1SW Wk1 Day 2: Topic, Objective, DOL
-- 1SW Wk1 Day 3: Topic, Objective, DOL
-- 1SW Wk1 Day 4: Topic, Objective, DOL
-- 1SW Wk1 Day 5: Topic, Objective, DOL
-- 1SW Wk2 Day 1: Topic, Objective, DOL
-- 1SW Wk2 Day 2: Topic, Objective, DOL
-- 1SW Wk2 Day 3: Topic, Objective, DOL
-- 1SW Wk2 Day 4: Topic, Objective, DOL
-- 1SW Wk2 Day 5: Topic, Objective, DOL
-- 1SW Wk3 Day 1: Topic, Objective, DOL
-- 1SW Wk3 Day 2: Topic, Objective, DOL
-- 1SW Wk3 Day 3: Topic, Objective, DOL
-- 1SW Wk3 Day 4: Topic, Objective, DOL
-- 1SW Wk3 Day 5: Topic, Objective, DOL
-- 1SW Wk4 Day 1: Topic, Objective, DOL
-- 1SW Wk4 Day 2: Topic, Objective, DOL
-- 1SW Wk4 Day 3: Topic, Objective, DOL
-- 1SW Wk4 Day 4: Topic, Objective, DOL
-- 1SW Wk4 Day 5: Topic, Objective, DOL
-- 1SW Wk5 Day 1: Topic, Objective, DOL
-- 1SW Wk5 Day 2: Topic, Objective, DOL
-- 1SW Wk5 Day 3: Topic, Objective, DOL
-- 1SW Wk5 Day 4: Topic, Objective, DOL
-- 1SW Wk5 Day 5: Topic, Objective, DOL
-- 2SW Wk1 Day 1: Topic, Objective, DOL
-- 2SW Wk1 Day 2: Topic, Objective, DOL
-- 2SW Wk1 Day 3: Topic, Objective, DOL
-- 2SW Wk1 Day 4: Topic, Objective, DOL
-- 2SW Wk1 Day 5: Topic, Objective, DOL
-- 2SW Wk2 Day 1: Topic, Objective, DOL
-- 2SW Wk2 Day 2: Topic, Objective, DOL
-- 2SW Wk2 Day 3: Topic, Objective, DOL
-- 2SW Wk2 Day 4: Topic, Objective, DOL
-- 2SW Wk2 Day 5: Topic, Objective, DOL
-- 2SW Wk3 Day 1: Topic, Objective, DOL
-- 2SW Wk3 Day 2: Topic, Objective, DOL
-- 2SW Wk3 Day 3: Topic, Objective, DOL
-- 2SW Wk3 Day 4: Topic, Objective, DOL
-- 2SW Wk3 Day 5: Topic, Objective, DOL
-- 2SW Wk4 Day 1: Topic, Objective, DOL
-- 2SW Wk4 Day 2: Topic, Objective, DOL
-- 2SW Wk4 Day 3: Topic, Objective, DOL
-- 2SW Wk4 Day 4: Topic, Objective, DOL
-- 2SW Wk4 Day 5: Topic, Objective, DOL
-- 2SW Wk5 Day 1: Topic, Objective, DOL
-- 2SW Wk5 Day 2: Topic, Objective, DOL
-- 2SW Wk5 Day 3: Topic, Objective, DOL
-- 2SW Wk5 Day 4: Objective, DOL
-- 2SW Wk5 Day 5: Topic, Objective, DOL
-- 2SW Wk6 Day 1: Topic, Objective, DOL
-- 2SW Wk6 Day 2: Topic, Objective, DOL
-- 2SW Wk6 Day 3: Topic, Objective, DOL
-- 2SW Wk6 Day 4: Topic, Objective, DOL
-- 2SW Wk6 Day 5: Topic, Objective, DOL
-- 3SW Wk1 Day 1: Topic, Objective, DOL
-- 3SW Wk1 Day 2: Topic, Objective, DOL
-- 3SW Wk1 Day 3: Topic, Objective, DOL
-- 3SW Wk1 Day 4: Topic, Objective, DOL
-- 3SW Wk1 Day 5: Topic, Objective, DOL
-- 3SW Wk2 Day 1: Topic, Objective, DOL
-- 3SW Wk2 Day 2: Topic, Objective, DOL
-- 3SW Wk2 Day 3: Topic, Objective, DOL
-- 3SW Wk2 Day 4: Topic, Objective, DOL
-- 3SW Wk2 Day 5: Topic, Objective, DOL
-- 3SW Wk3 Day 1: Topic, Objective, DOL
-- 3SW Wk3 Day 2: Topic, Objective, DOL
-- 3SW Wk3 Day 3: Topic, Objective, DOL
-- 3SW Wk3 Day 4: Topic, Objective, DOL
-- 3SW Wk3 Day 5: Topic, Objective, DOL
-- 3SW Wk4 Day 1: Topic, Objective, DOL
-- 3SW Wk4 Day 2: Topic, Objective, DOL
-- 3SW Wk4 Day 3: Topic, Objective, DOL
-- 3SW Wk4 Day 4: Topic, Objective, DOL
-- 3SW Wk4 Day 5: Topic, Objective, DOL
-- 3SW Wk5 Day 1: Topic, Objective, DOL
-- 3SW Wk5 Day 2: Topic, Objective, DOL
-- 3SW Wk5 Day 3: Topic, Objective, DOL
-- 3SW Wk5 Day 4: Topic, Objective, DOL
-- 3SW Wk5 Day 5: Topic, Objective, DOL
-- 3SW Wk6 Day 1: Topic, Objective, DOL
-- 3SW Wk6 Day 2: Topic, Objective, DOL
-- 3SW Wk6 Day 3: Topic, Objective, DOL
-- 3SW Wk6 Day 4: Topic, Objective, DOL
-- 3SW Wk6 Day 5: Topic, Objective, DOL
-- 4SW Wk1 Day 1: Topic, Objective, DOL
-- 4SW Wk1 Day 2: Topic, Objective, DOL
-- 4SW Wk1 Day 3: Topic, Objective, DOL
-- 4SW Wk1 Day 4: Topic, Objective, DOL
-- 4SW Wk1 Day 5: Topic, Objective, DOL
-- 4SW Wk2 Day 1: Topic, Objective, DOL
-- 4SW Wk2 Day 2: Topic, Objective, DOL
-- 4SW Wk2 Day 3: Topic, Objective, DOL
-- 4SW Wk2 Day 4: Topic, Objective, DOL
-- 4SW Wk2 Day 5: Topic, Objective, DOL
-- 4SW Wk3 Day 1: Topic, Objective, DOL
-- 4SW Wk3 Day 2: Topic, Objective, DOL
-- 4SW Wk3 Day 3: Topic, Objective, DOL
-- 4SW Wk3 Day 4: Topic, Objective, DOL
-- 4SW Wk3 Day 5: Topic, Objective, DOL
-- 4SW Wk4 Day 1: Topic, Objective, DOL
-- 4SW Wk4 Day 2: Topic, Objective, DOL
-- 4SW Wk4 Day 3: Topic, Objective, DOL
-- 4SW Wk4 Day 4: Topic, Objective, DOL
-- 4SW Wk4 Day 5: Topic, Objective, DOL
-- 4SW Wk5 Day 1: Topic, Objective, DOL
-- 4SW Wk5 Day 2: Topic, Objective, DOL
-- 4SW Wk5 Day 3: Topic, Objective, DOL
-- 4SW Wk5 Day 4: Topic, Objective, DOL
-- 4SW Wk5 Day 5: Topic, Objective, DOL
-- 4SW Wk6 Day 1: Topic, Objective, DOL
-- 4SW Wk6 Day 2: Topic, Objective, DOL
-- 4SW Wk6 Day 3: Topic, Objective, DOL
-- 4SW Wk6 Day 4: Topic, Objective, DOL
-- 4SW Wk6 Day 5: Topic, Objective, DOL
-- 5SW Wk1 Day 1: Topic, Objective, DOL
-- 5SW Wk1 Day 2: Topic, Objective, DOL
-- 5SW Wk1 Day 3: Topic, Objective, DOL
-- 5SW Wk1 Day 4: Topic, Objective, DOL
-- 5SW Wk1 Day 5: Topic, Objective, DOL
-- 5SW Wk2 Day 1: Topic, Objective, DOL
-- 5SW Wk2 Day 2: Topic, Objective, DOL
-- 5SW Wk2 Day 3: Topic, Objective, DOL
-- 5SW Wk2 Day 4: Topic, Objective, DOL
-- 5SW Wk2 Day 5: Topic, Objective, DOL
-- 5SW Wk3 Day 1: Topic, Objective, DOL
-- 5SW Wk3 Day 2: Topic, Objective, DOL
-- 5SW Wk3 Day 3: Topic, Objective, DOL
-- 5SW Wk3 Day 4: Topic, Objective, DOL
-- 5SW Wk3 Day 5: Topic, Objective, DOL
-- 5SW Wk4 Day 1: Topic, Objective, DOL
-- 5SW Wk4 Day 2: Topic, Objective, DOL
-- 5SW Wk4 Day 3: Topic, Objective, DOL
-- 5SW Wk4 Day 4: Topic, Objective, DOL
-- 5SW Wk4 Day 5: Topic, Objective, DOL
-- 5SW Wk5 Day 1: Topic, Objective, DOL
-- 5SW Wk5 Day 2: Topic, Objective, DOL
-- 5SW Wk5 Day 3: Topic, Objective, DOL
-- 5SW Wk5 Day 4: Topic, Objective, DOL
-- 5SW Wk5 Day 5: Topic, Objective, DOL
-- 5SW Wk6 Day 1: Topic, Objective, DOL
-- 5SW Wk6 Day 2: Topic, Objective, DOL
-- 5SW Wk6 Day 3: Topic, Objective, DOL
-- 5SW Wk6 Day 4: Topic, Objective, DOL
-- 5SW Wk6 Day 5: Topic, Objective, DOL
-- 6SW Wk1 Day 1: Topic, Objective, DOL
-- 6SW Wk1 Day 2: Topic, Objective, DOL
-- 6SW Wk1 Day 3: Topic, Objective, DOL
-- 6SW Wk1 Day 4: Topic, Objective, DOL
-- 6SW Wk1 Day 5: Topic, Objective, DOL
-- 6SW Wk2 Day 1: Objective, DOL
-- 6SW Wk2 Day 2: Objective, DOL
-- 6SW Wk2 Day 3: Objective, DOL
-- 6SW Wk2 Day 4: Objective, DOL
-- 6SW Wk2 Day 5: Objective, DOL
-- 6SW Wk3 Day 1: Objective, DOL
-- 6SW Wk3 Day 2: Objective, DOL
-- 6SW Wk3 Day 3: Objective, DOL
-- 6SW Wk3 Day 4: Objective, DOL
-- 6SW Wk3 Day 5: Objective, DOL
-- 6SW Wk4 Day 1: Topic, Objective, DOL
-- 6SW Wk4 Day 2: Topic, Objective, DOL
-- 6SW Wk4 Day 3: Topic, Objective, DOL
-- 6SW Wk4 Day 4: Topic, Objective, DOL
-- 6SW Wk4 Day 5: Topic, Objective, DOL
-- 6SW Wk5 Day 1: Topic, Objective, DOL
-- 6SW Wk5 Day 2: Topic, Objective, DOL
-- 6SW Wk5 Day 3: Topic, Objective, DOL
-- 6SW Wk5 Day 4: Topic, Objective, DOL
-- 6SW Wk5 Day 5: Topic, Objective, DOL
-- 6SW Wk6 Day 1: Topic, Objective, DOL
-- 6SW Wk6 Day 2: Topic, Objective, DOL
-- 6SW Wk6 Day 3: Topic, Objective, DOL
-- 6SW Wk6 Day 4: Topic, Objective, DOL
-- 6SW Wk6 Day 5: Topic, Objective, DOL
 
 ## Unresolved verification markers
 

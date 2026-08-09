@@ -1,5 +1,12 @@
 # Day 5: Results, Mars Transfer, and Engineering Synthesis
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify a pattern in test evidence, transfer the design cycle, and explain a realistic engineering next step.
+- **TEKS:** d(1)(C); portfolio reassesses d(1)(B), d(1)(D), d(2)(A), d(3)(E)
+- **Demonstration of Learning:** Rover transfer note + individual weekly portfolio.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

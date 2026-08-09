@@ -1,5 +1,12 @@
 # Day 5: Xello Explore Career Matches
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Assessment
+- **Objective:** Students will analyze and discuss the initial results of career assessments using evidence from Career Assessment.
+- **TEKS:** d(1)(A)
+- **Demonstration of Learning:** Xello Explore career matches completion + Explore Career Matches Reflection.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

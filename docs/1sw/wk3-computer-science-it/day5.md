@@ -1,5 +1,12 @@
 # Day 5: Mini-Presentations + Xello Skills + Wk3 Wrap-Up
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and research and evaluate emerging occupations related to career interest areas using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(1)(D), d(4)(B)
+- **Demonstration of Learning:** 2-minute mini-presentation + Xello Skills updated.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

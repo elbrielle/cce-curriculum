@@ -1,5 +1,12 @@
 # Day 4: Test, Communicate, and Revise
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Goals and Time
+- **Objective:** Students will demonstrate effective time-management and goal-setting strategies and identify career opportunities within one or more career clusters using evidence from Goals and Time.
+- **TEKS:** d(4)(A), d(1)(C)
+- **Demonstration of Learning:** Team Simulation Run Log with three tests plus an individual timed iteration plan.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

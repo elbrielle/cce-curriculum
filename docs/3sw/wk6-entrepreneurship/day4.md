@@ -1,5 +1,12 @@
 # Day 4: Venture Brief and Pitch
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Entrepreneurship
+- **Objective:** Students will build a clear venture brief, communicate the evidence in a short pitch, and connect a visible action to a professional characteristic.
+- **TEKS:** d(3)(I), d(4)(F)
+- **Demonstration of Learning:** Group brief plus each student’s speaking/written record, one peer note, and work-ethic response.
+<!-- CCE DAILY CONTRACT END -->
 | | |
 |---|---|
 | **Time** | 50 minutes |

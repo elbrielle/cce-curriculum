@@ -1,5 +1,12 @@
 # Day 1: Compare First Responder Routes
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Clusters
+- **Objective:** Students will compare daily work and preparation for five first-responder careers; connect two careers to current Singley Academy pathways.
+- **TEKS:** d(1)(B), d(1)(C), d(2)(A)
+- **Demonstration of Learning:** Three completed comparison rows and two evidence-based responses.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

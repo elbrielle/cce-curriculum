@@ -1,5 +1,12 @@
 # Day 3: Location Changes the Cost Target
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Personal Budget
+- **Objective:** Students will prepare a personal budget that reflects a desired lifestyle using evidence from Personal Budget.
+- **TEKS:** d(5)(D) supporting application
+- **Demonstration of Learning:** same-household location comparison and relocation judgment.
+<!-- CCE DAILY CONTRACT END -->
 **Time:** 50 minutes
 
 **TEKS:** d(5)(D) supporting application

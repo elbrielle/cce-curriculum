@@ -1,5 +1,12 @@
 # Day 4: Test and Improve an Inspection System
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and identify skills that transfer among a variety of careers using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(4)(B)
+- **Demonstration of Learning:** Team three-trial log plus individual evidence-based iteration note.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

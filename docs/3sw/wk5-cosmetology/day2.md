@@ -1,5 +1,12 @@
 # Day 2: Build and Test the SFX Texture Model
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will follow a texture map, create visible overlapping layers, test the result, and record one revision.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Finished texture model and SFX Lab Brief page 4.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

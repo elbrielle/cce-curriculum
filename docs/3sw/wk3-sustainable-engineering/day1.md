@@ -1,5 +1,12 @@
 # Day 1: Sustainable Careers and Resource Problems
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will match sustainable-engineering careers to specific water, agriculture, and energy problems using current evidence.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Completed problem-to-career response on the career guide.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

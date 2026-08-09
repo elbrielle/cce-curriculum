@@ -1,5 +1,12 @@
 # Day 4: Communicated Capstone and Revision
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Professional Presentation
+- **Objective:** Students will give an oral professional presentation about career and college exploration using appropriate technology and select a career pathway in a desired field using evidence from Professional Presentation.
+- **TEKS:** d(4)(C), d(8)(A-C)
+- **Demonstration of Learning:** eight-page individual career plan plus five-page private delivery/revision record; Major 2.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(4)(C), d(8)(A-C)
 **Evidence:** eight-page individual career plan plus five-page private delivery/revision record; Major 2
 

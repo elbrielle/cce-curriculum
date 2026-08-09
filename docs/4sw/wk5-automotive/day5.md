@@ -1,5 +1,12 @@
 # Day 5: Automotive Evidence Brief
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will make a current automotive-career recommendation using visible evidence, three-career data, and a realistic preparation route.
+- **TEKS:** d(1)(C), d(2)(B), d(3)(G), d(5)(E)
+- **Demonstration of Learning:** Private five-part brief, source audit, self-score, and revision.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
 | | |

@@ -1,5 +1,12 @@
 # Day 5: Merch Mode + Resume and Design Evidence
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and identify the steps of an effective job search using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(6)(A), d(7)(A)
+- **Demonstration of Learning:** final private résumé, visible revision record, seven-step job-search evidence, tailored bullet, and visible 16-point Minor 2 rubric. Merch Mode is formative design practice.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(1)(C), d(6)(A), d(7)(A)
 **Evidence:** final private résumé, visible revision record, seven-step job-search evidence, tailored bullet, and visible 16-point Minor 2 rubric. Merch Mode is formative design practice.
 

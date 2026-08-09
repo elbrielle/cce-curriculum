@@ -1,5 +1,12 @@
 # Day 2: Aviation Careers and Pilot Preparation Routes
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and investigate and report the steps required to participate or enroll in career and educational opportunities using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(3)(G)
+- **Demonstration of Learning:** Completed Aviation Careers and Pilot Routes evidence guide with one source-based route decision.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

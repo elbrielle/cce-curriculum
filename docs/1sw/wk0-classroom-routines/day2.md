@@ -1,5 +1,12 @@
 # Day 2: H&L Setup and Discover Your Core (Core Day A)
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Assessment
+- **Objective:** Students will analyze and discuss the initial results of career assessments and explore and describe the CTE career clusters using evidence from Career Assessment.
+- **TEKS:** d(1)(A), d(1)(B)
+- **Demonstration of Learning:** H&L Climber Profile active + core personality type written in the engineering notebook and visible on the Climber Profile.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

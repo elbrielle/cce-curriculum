@@ -1,5 +1,12 @@
 # Day 2: Prove That a Skill Transfers
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Transferable Skills
+- **Objective:** Students will use specific job tasks to show how four skills transfer among six careers.
+- **TEKS:** d(4)(B)
+- **Demonstration of Learning:** Transferable Skills Evidence packet.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

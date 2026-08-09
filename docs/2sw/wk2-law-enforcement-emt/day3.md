@@ -1,5 +1,12 @@
 # Day 3: Injured on the Trail — Controlled Simulation
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will describe SAR/WFR responsibilities and demonstrate safe communication, consent, observation, and documentation in a career simulation.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Injured on the Trail Simulation Record.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

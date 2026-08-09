@@ -1,5 +1,12 @@
 # Day 5: Fictional Water-Line Response and Individual Briefing
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and give an oral professional presentation about career and college exploration using appropriate technology using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(4)(C)
+- **Demonstration of Learning:** fictional response plan and individual 30–45 second briefing.
+<!-- CCE DAILY CONTRACT END -->
 **Time:** 50 minutes
 
 **TEKS:** d(1)(C), d(4)(C)

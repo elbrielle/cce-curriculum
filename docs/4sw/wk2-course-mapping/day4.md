@@ -1,5 +1,12 @@
 # Day 4: SMART Experience Action Plan
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Extended Learning
+- **Objective:** Students will evaluate one experience that could support a career direction and write a SMART action plan with an access check, support, obstacle, and backup strategy.
+- **TEKS:** d(3)(F), d(8)(C)
+- **Demonstration of Learning:** Completed SMART Experience Action Plan.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

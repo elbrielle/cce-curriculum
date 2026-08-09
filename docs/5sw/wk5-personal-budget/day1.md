@@ -1,5 +1,12 @@
 # Day 1: Salary Source and Lifestyle Target
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Labor Trends
+- **Objective:** Students will analyze labor-market trends related to a career of interest and prepare a personal budget that reflects a desired lifestyle using evidence from Labor Trends.
+- **TEKS:** d(5)(A), d(5)(D)
+- **Demonstration of Learning:** source-labeled salary/labor trend plus lifestyle target and three ranked priorities.
+<!-- CCE DAILY CONTRACT END -->
 **Time:** 50 minutes
 
 **TEKS:** d(5)(A), d(5)(D)

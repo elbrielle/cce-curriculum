@@ -1,5 +1,12 @@
 # Day 5: Individual High School and Career Plan
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Course Planning
+- **Objective:** Students will synthesize self-evidence, current course and preparation evidence, one advanced or college-credit option, and an action and revision plan into one individual high school and career plan.
+- **TEKS:** d(8)(B), d(8)(C), d(3)(D)
+- **Demonstration of Learning:** Individual High School and Career Plan with student-visible 16-point rubric.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

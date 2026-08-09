@@ -1,5 +1,12 @@
 # Day 4: Review, Revision, and Changing Careers
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Emerging Careers
+- **Objective:** Students will revise a design from specific feedback and evaluate how two societal trends change careers and work tasks.
+- **TEKS:** d(1)(D), d(5)(C)
+- **Demonstration of Learning:** Peer Review and Revision Record + Sustainable Engineering Trends Evaluation.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

@@ -1,5 +1,12 @@
 # Day 4: Interview Appearance and Career-Brief Rehearsal
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Interview Appearance
+- **Objective:** Students will describe appropriate appearance for an interview and give an oral professional presentation about career and college exploration using appropriate technology using evidence from Interview Appearance.
+- **TEKS:** d(6)(B), d(4)(C)
+- **Demonstration of Learning:** three context decisions, retryable practice Quiz, and two rehearsals.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(6)(B), d(4)(C)
 **Evidence:** three context decisions, retryable practice Quiz, and two rehearsals
 

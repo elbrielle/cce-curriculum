@@ -1,5 +1,12 @@
 # Day 2: Four-Year Course Plan Draft
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Course Planning
+- **Objective:** Students will use current Irving ISD course descriptions to draft a four-year sequence, explain one prerequisite chain, and identify questions that require counselor confirmation.
+- **TEKS:** d(8)(B), d(3)(A)
+- **Demonstration of Learning:** Completed Counseling-Ready Four-Year Course Plan Draft.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

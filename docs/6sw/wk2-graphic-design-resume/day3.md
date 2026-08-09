@@ -1,5 +1,12 @@
 # Day 3: Attention to Detail + Resume Revision
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and write a resume using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(7)(A)
+- **Demonstration of Learning:** eight-page Audio Cue and Resume Detail Revision + practice Quiz.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(1)(C), d(7)(A)
 **Evidence:** eight-page Audio Cue and Resume Detail Revision + practice Quiz
 

@@ -1,5 +1,12 @@
 # Day 1: Engineering Roles and Systems Thinking
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Clusters
+- **Objective:** Students will describe the Engineering cluster, one civil-engineering route, and how one design choice affects a larger system.
+- **TEKS:** d(1)(B), d(1)(C), d(2)(A)
+- **Demonstration of Learning:** Career/preparation card + kitchen systems decision.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

@@ -1,5 +1,12 @@
 # Day 3: Sample Application and References
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Job Applications
+- **Objective:** Students will complete sample job applications and explain how to select and use references using evidence from Job Applications.
+- **TEKS:** d(7)(C), d(7)(D)
+- **Demonstration of Learning:** eight-page fictional application, reference-role plan, and unsent permission request.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(7)(C), d(7)(D)
 **Evidence:** eight-page fictional application, reference-role plan, and unsent permission request
 

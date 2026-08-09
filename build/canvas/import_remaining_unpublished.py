@@ -27,6 +27,7 @@ ALL_IMPORTERS = [ORIENTATION_IMPORTER, *IMPORTERS]
 ASSESSMENT_CONFIGURATOR = CANVAS_DIR / "configure_assessment_map.py"
 RUBRIC_CONFIGURATOR = CANVAS_DIR / "configure_assessment_rubrics.py"
 IMAGE_NORMALIZER = CANVAS_DIR / "normalize_unpublished_image_loading.py"
+LESSON_CONTRACT_NORMALIZER = CANVAS_DIR / "normalize_canvas_lesson_contracts.py"
 QA_SCRIPT = CANVAS_DIR / "qa_remaining_unpublished.py"
 
 
@@ -86,6 +87,8 @@ def preflight() -> int:
         missing.append(str(QA_SCRIPT.relative_to(ROOT)))
     if not IMAGE_NORMALIZER.is_file():
         missing.append(str(IMAGE_NORMALIZER.relative_to(ROOT)))
+    if not LESSON_CONTRACT_NORMALIZER.is_file():
+        missing.append(str(LESSON_CONTRACT_NORMALIZER.relative_to(ROOT)))
     if not ASSESSMENT_CONFIGURATOR.is_file():
         missing.append(str(ASSESSMENT_CONFIGURATOR.relative_to(ROOT)))
     if not RUBRIC_CONFIGURATOR.is_file():
@@ -393,6 +396,39 @@ def main() -> int:
         f"rubrics={len(rubric_rows)} "
         f"criteria={sum(item.get('criteria', 0) for item in rubric_rows)} "
         f"advisory={sum(not item.get('use_for_grading') for item in rubric_rows)}",
+        flush=True,
+    )
+
+    print("Applying 180 paired daily learning contracts...", flush=True)
+    contract_normalization = subprocess.run(
+        [sys.executable, str(LESSON_CONTRACT_NORMALIZER)],
+        cwd=ROOT,
+        input=token + "\n",
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    if contract_normalization.returncode:
+        print(
+            redact(contract_normalization.stderr or contract_normalization.stdout, token),
+            file=sys.stderr,
+        )
+        print(
+            "Builders ran, but daily-contract normalization failed. Nothing was published.",
+            file=sys.stderr,
+        )
+        return contract_normalization.returncode
+    try:
+        contract_payload = json.loads(contract_normalization.stdout)
+    except json.JSONDecodeError:
+        print(redact(contract_normalization.stdout[-4000:], token), file=sys.stderr)
+        print("Daily-contract output was not valid JSON.", file=sys.stderr)
+        return 3
+    print(
+        "  "
+        f"contracts={contract_payload.get('contracts')} "
+        f"paired_pages={contract_payload.get('paired_pages_verified')} "
+        f"updated={contract_payload.get('pages_updated')}",
         flush=True,
     )
 

@@ -1,5 +1,12 @@
 # Day 1: Education Cluster + Community Classroom
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Clusters
+- **Objective:** Students will explore and describe the CTE career clusters and identify career opportunities within one or more career clusters using evidence from Career Clusters.
+- **TEKS:** d(1)(B), d(1)(C)
+- **Demonstration of Learning:** five-page Community Classroom Learning-Space Plan.
+<!-- CCE DAILY CONTRACT END -->
 ## Target and Evidence
 
 **TEKS:** d(1)(B), d(1)(C)

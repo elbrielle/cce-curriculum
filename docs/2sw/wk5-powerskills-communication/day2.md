@@ -1,5 +1,12 @@
 # Day 2: Listen for the Detail That Matters
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Transferable Skills
+- **Objective:** Students will separate essential from background detail, ask a new question, and show how active listening transfers to another career.
+- **TEKS:** d(4)(B)
+- **Demonstration of Learning:** Active Listening Lab.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
 | | |

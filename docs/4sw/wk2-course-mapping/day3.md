@@ -1,5 +1,12 @@
 # Day 3: College Credit and Plan Conversation
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** College Credit
+- **Objective:** Students will compare AP and dual credit using current sources, document one option and its limitation, and explain the developing plan through a family, trusted-adult, counselor, teacher, or private reflection route.
+- **TEKS:** d(3)(B), d(3)(D)
+- **Demonstration of Learning:** Completed College Credit Options and Family Conversation packet.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

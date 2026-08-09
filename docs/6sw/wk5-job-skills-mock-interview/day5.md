@@ -1,5 +1,12 @@
 # Day 5: Mock Interview, Revision, and Thank-You Note
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Interview Appearance
+- **Objective:** Students will describe appropriate appearance for an interview and participate in a mock interview using evidence from Interview Appearance.
+- **TEKS:** d(6)(B), d(6)(C), d(7)(B)
+- **Demonstration of Learning:** six-page individual role/revision/thank-you record plus the complete six-part Major 1 portfolio.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(6)(B), d(6)(C), d(7)(B)
 **Evidence:** six-page individual role/revision/thank-you record plus the complete six-part Major 1 portfolio
 

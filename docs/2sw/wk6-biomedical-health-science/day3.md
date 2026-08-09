@@ -1,5 +1,12 @@
 # Day 3: Outbreak Investigators, Follow the Evidence
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Outbreak Investigation Record.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

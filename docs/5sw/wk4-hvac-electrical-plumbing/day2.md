@@ -1,5 +1,12 @@
 # Day 2: HVAC Evidence-First Field Notes
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Transferable Skills
+- **Objective:** Students will identify skills that transfer among a variety of careers using evidence from Transferable Skills.
+- **TEKS:** d(4)(B)
+- **Demonstration of Learning:** four fictional service notes and one transfer sentence.
+<!-- CCE DAILY CONTRACT END -->
 **Time:** 50 minutes
 
 **TEKS:** d(4)(B)

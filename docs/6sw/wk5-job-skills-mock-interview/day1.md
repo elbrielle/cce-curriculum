@@ -1,5 +1,12 @@
 # Day 1: Job Search and Posting Evidence
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Job Search
+- **Objective:** Students will identify the steps of an effective job search using evidence from Job Search.
+- **TEKS:** d(6)(A)
+- **Demonstration of Learning:** six-page individual search/posting packet.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(6)(A)
 **Evidence:** six-page individual search/posting packet
 

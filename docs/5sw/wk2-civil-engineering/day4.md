@@ -1,5 +1,12 @@
 # Day 4: Controlled Test or Fixed-Data Analysis
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will record a standardized result and use failure evidence to justify a redesign.
+- **TEKS:** d(1)(C) reinforcement
+- **Demonstration of Learning:** Team result or sample-data analysis + individual redesign.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

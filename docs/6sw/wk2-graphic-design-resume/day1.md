@@ -1,5 +1,12 @@
 # Day 1: Arts/AV Cluster + Behind the Microphone
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** five-page individual Podcast Production Plan.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(1)(C)
 **Evidence:** five-page individual Podcast Production Plan
 

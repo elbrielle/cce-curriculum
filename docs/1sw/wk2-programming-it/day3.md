@@ -1,5 +1,12 @@
 # Day 3: Powerskill Resilience + IT Salary Showdown
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and analyze labor-market trends related to a career of interest using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(5)(A), d(5)(E)
+- **Demonstration of Learning:** Completed Flip the Failure chart + IT Salary Comparison worksheet (3 careers × 5 fields).
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

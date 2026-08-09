@@ -1,5 +1,12 @@
 # Day 3: From Wireframe to Wow — Build the Screens
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** App plan + 4 labeled wireframe screens (FYF pp. 31-32) + partner walkthrough notes + 2 improvements (FYF p. 33).
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

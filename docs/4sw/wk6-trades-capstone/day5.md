@@ -1,5 +1,12 @@
 # Day 5: Private Mid-Year Evidence Reflection
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Transferable Skills
+- **Objective:** Students will use fixed and personal evidence to explain one change in career thinking, prove two transferable skills, evaluate one organization or route, and set two supported next actions.
+- **TEKS:** d(4)(B), d(3)(H)
+- **Demonstration of Learning:** Four-part Mid-Year Evidence Reflection and self-score.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

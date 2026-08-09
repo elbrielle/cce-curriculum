@@ -1,5 +1,12 @@
 # Day 3: Powerskill: Critical Thinking — Veterinary Triage
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Completed triage notes for both patients (critical information for Leo and Barnaby) + a written decision naming who is seen first and the evidence behind it.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

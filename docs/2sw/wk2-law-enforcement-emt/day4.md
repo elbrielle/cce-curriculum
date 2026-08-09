@@ -1,5 +1,12 @@
 # Day 4: Document and Reassess
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will write an accurate fictional Patient Care Report and choose a safety-first response to one wilderness complication.
+- **TEKS:** d(1)(C), d(4)(F)
+- **Demonstration of Learning:** Fictional Patient Care Report and Safety Plan.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

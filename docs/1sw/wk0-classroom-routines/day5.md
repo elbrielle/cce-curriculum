@@ -1,5 +1,12 @@
 # Day 5: Catch-Up and Your Choice (Flex Day)
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Clusters
+- **Objective:** Students will explore and describe the CTE career clusters using evidence from Career Clusters.
+- **TEKS:** d(1)(B) (Option B); flex day otherwise, core TEKS demonstrated on Days 2-4
+- **Demonstration of Learning:** Default: career research worksheet on 2 Hats (Option B). If any student missed a Core day, their completed catch-up work is the deliverable.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

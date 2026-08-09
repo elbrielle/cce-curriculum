@@ -1,5 +1,12 @@
 # Day 2: Written Communication and Changing Conditions
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and analyze how changing employment trends, societal needs, and economic conditions affect career choices using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(5)(C)
+- **Demonstration of Learning:** fictional Little Library message plus fixed-source economic and societal/technology comparison.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(1)(C), d(5)(C)
 **Evidence:** fictional Little Library message plus fixed-source economic and societal/technology comparison
 

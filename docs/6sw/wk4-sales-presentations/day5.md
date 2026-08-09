@@ -1,5 +1,12 @@
 # Day 5: Career Oral Evidence Brief
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and identify skills that transfer among a variety of careers using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(4)(B), d(4)(C)
+- **Demonstration of Learning:** 60-90-second professional oral/AAC brief, self-evidence, transfer reflection, and rubric.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(1)(C), d(4)(B), d(4)(C)
 **Evidence:** 60-90-second professional oral/AAC brief, self-evidence, transfer reflection, and rubric
 

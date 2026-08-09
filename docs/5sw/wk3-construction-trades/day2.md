@@ -1,5 +1,12 @@
 # Day 2: Real Routes and Career Organizations
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Enrollment Steps
+- **Objective:** Students will investigate and report the steps required to participate or enroll in career and educational opportunities and identify professional associations affiliated with a career pathway using evidence from Enrollment Steps.
+- **TEKS:** d(3)(G), d(3)(H)
+- **Demonstration of Learning:** Individual route and organization comparison.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

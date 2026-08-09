@@ -1,5 +1,12 @@
 # Day 3: City Council in Action — Draft the Town Laws
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Town plan + completed problem table + two drafted laws (what, why, consequence) + one revised law.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

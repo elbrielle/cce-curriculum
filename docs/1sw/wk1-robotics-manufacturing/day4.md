@@ -1,5 +1,12 @@
 # Day 4: Sphero Factory Floor + Robots for Crayons (Part 1)
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Sphero teams driving basic patterns + team role assignments + Steps 1-3 (problems, machine reference, shift notes) complete.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

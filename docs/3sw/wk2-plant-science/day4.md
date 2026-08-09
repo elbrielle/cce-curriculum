@@ -1,5 +1,12 @@
 # Day 4: Evaluate Emerging Plant-Tech Work
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Emerging Careers
+- **Objective:** Students will research and evaluate emerging occupations related to career interest areas and analyze how changing employment trends, societal needs, and economic conditions affect career choices using evidence from Emerging Careers.
+- **TEKS:** d(1)(D), d(5)(C)
+- **Demonstration of Learning:** Individual 4-6 sentence evaluation with two dated facts and one data limit.
+<!-- CCE DAILY CONTRACT END -->
 | | |
 |---|---|
 | **Time** | 50 minutes |

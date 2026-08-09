@@ -1,5 +1,12 @@
 # Day 2: Build a Dallas County Monthly Budget
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Personal Budget
+- **Objective:** Students will prepare a personal budget that reflects a desired lifestyle using evidence from Personal Budget.
+- **TEKS:** d(5)(D)
+- **Demonstration of Learning:** balanced personal budget, surplus/shortage, and one evidence-based revision.
+<!-- CCE DAILY CONTRACT END -->
 **Time:** 50 minutes
 
 **TEKS:** d(5)(D)

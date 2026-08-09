@@ -1,5 +1,12 @@
 # Day 2: Write a First Resume
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Resume Writing
+- **Objective:** Students will write a resume using evidence from Resume Writing.
+- **TEKS:** d(7)(A)
+- **Demonstration of Learning:** six-page First Resume Draft and private Canvas submission.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(7)(A)
 **Evidence:** six-page First Resume Draft and private Canvas submission
 

@@ -1,5 +1,12 @@
 # Day 2: Clinton Lake — Weigh the Evidence
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will separate observations from claims, assess source limits, and write a conclusion that uses three files and names an uncertainty.
+- **TEKS:** d(1)(C), d(4)(F)
+- **Demonstration of Learning:** Clinton Lake Evidence Tracker.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

@@ -1,5 +1,12 @@
 # Day 1: What Counts as an Entrepreneurship Opportunity?
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Entrepreneurship
+- **Objective:** Students will define entrepreneurship and identify opportunities in several fields, including one field of personal interest.
+- **TEKS:** d(3)(I)
+- **Demonstration of Learning:** Completed Entrepreneurship Opportunity Guide.
+<!-- CCE DAILY CONTRACT END -->
 | | |
 |---|---|
 | **Time** | 50 minutes |

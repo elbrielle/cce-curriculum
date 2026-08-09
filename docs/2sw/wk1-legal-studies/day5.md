@@ -1,5 +1,12 @@
 # Day 5: Cluster Wrap-Up + Xello Life Experience
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and identify professional associations affiliated with a career pathway using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(3)(H)
+- **Demonstration of Learning:** Final legal-policy position + Legal Entrepreneur Card + at least one saved Xello Life experience + paper career connection.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

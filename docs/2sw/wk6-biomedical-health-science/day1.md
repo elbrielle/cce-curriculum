@@ -1,5 +1,12 @@
 # Day 1: Biomedical Careers and a Practice Cover Letter
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(2)(A), d(5)(A), d(7)(B)
+- **Demonstration of Learning:** Completed career comparison and five-part practice cover letter.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

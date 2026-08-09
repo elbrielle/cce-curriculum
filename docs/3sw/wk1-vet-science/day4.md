@@ -1,5 +1,12 @@
 # Day 4: Xello Skills
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Transferable Skills
+- **Objective:** Students will identify how one skill transfers between veterinary work and another career by completing Xello Skills and a private evidence reflection.
+- **TEKS:** d(4)(B)
+- **Demonstration of Learning:** Xello Completion Standards report; private Xello Skills reflection, typed or on the supplied PDF.
+<!-- CCE DAILY CONTRACT END -->
 > **Canvas is authoritative.** This Markdown page is a source backup for the unpublished Canvas Teacher Facilitator Guide and Student Guide.
 
 ## 50-minute plan

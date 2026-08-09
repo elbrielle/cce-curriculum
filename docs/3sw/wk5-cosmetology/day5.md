@@ -1,5 +1,12 @@
 # Day 5: Cosmetology Career and Business Recommendation
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will use career, license, program, entrepreneurship, and design evidence to make an individual recommendation.
+- **TEKS:** d(1)(C), d(2)(A), d(3)(G), d(3)(I)
+- **Demonstration of Learning:** Cosmetology Career and Business Recommendation with rubric self-check.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

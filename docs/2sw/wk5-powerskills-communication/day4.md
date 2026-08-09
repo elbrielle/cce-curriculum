@@ -1,5 +1,12 @@
 # Day 4: Write So the Reader Can Act
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Transferable Skills
+- **Objective:** Students will write a clear fictional public message and revise a workplace message using only supplied facts.
+- **TEKS:** d(4)(B)
+- **Demonstration of Learning:** Written Message Lab.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
 | | |

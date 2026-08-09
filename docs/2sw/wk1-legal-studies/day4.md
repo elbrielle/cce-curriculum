@@ -1,5 +1,12 @@
 # Day 4: Policy Showdown — AI in the Courts + Legal Entrepreneurship
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Entrepreneurship
+- **Objective:** Students will define entrepreneurship and identify entrepreneurial opportunities in a field of personal interest and identify professional associations affiliated with a career pathway using evidence from Entrepreneurship.
+- **TEKS:** d(3)(I), d(3)(H)
+- **Demonstration of Learning:** Argument sheet (opening, 3 pieces of evidence, closing) + position statement (5-7 sentences) + Legal Entrepreneur Card (1 career, 4 fields completed).
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

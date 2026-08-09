@@ -1,5 +1,12 @@
 # Day 2: Pest Patrol Field Reports and Constraints
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will pull relevant evidence from three worker reports and turn it into testable design constraints.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Pest Patrol Field Notes and Constraints.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

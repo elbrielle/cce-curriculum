@@ -53,7 +53,7 @@ A TEKS can be both Explicit in some weeks and Implicit in others. The tier colum
 
 ## Coverage Summary
 
-- **Explicit:** 36 of 37 TEKS codes (97%)
+- **Explicit:** 35 of 36 TEKS expectations (97%)
 - **Implicit only:** 1 code: d(4)D (by design — core academic skills are embedded, never named as a week's primary objective)
 - **Hard gaps (no coverage):** 0
 

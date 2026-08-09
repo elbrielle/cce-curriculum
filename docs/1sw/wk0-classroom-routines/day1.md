@@ -1,5 +1,12 @@
 # Day 1: Lab Routines and Your Choice (Flex Day)
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Lab Routines
+- **Objective:** Students will demonstrate time-management and goal-setting strategies by learning the lab routines, confirming course access, and recording an after-high-school goal.
+- **TEKS:** d(4)(A)
+- **Demonstration of Learning:** Signed Lab Safety Contract or teacher-selected routine artifact; Xello login and after-high-school goal completed here or on Day 5.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

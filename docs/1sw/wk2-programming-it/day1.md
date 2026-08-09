@@ -1,5 +1,12 @@
 # Day 1: IT Cluster Tour — Four Irving Programs of Study
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Clusters
+- **Objective:** Students will explore and describe the CTE career clusters and identify career opportunities within one or more career clusters using evidence from Career Clusters.
+- **TEKS:** d(1)(B), d(1)(C)
+- **Demonstration of Learning:** Stop and Jot notes (2 careers + 2 questions) and 1 IT program of study identified for further exploration.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

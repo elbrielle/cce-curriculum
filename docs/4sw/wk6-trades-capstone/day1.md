@@ -1,5 +1,12 @@
 # Day 1: Analytical Reasoning — What the Clues Support
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Transferable Skills
+- **Objective:** Students will separate observations from conclusions, compare four fictional warning-light clue sets, and choose a safe inspection priority using evidence.
+- **TEKS:** d(4)(B)
+- **Demonstration of Learning:** Truck Evidence and Priority packet.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

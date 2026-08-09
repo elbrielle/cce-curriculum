@@ -1,5 +1,12 @@
 # Day 3: Advocate, Set a Goal, and Protect the Time
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Goals and Time
+- **Objective:** Students will state a need respectfully and build a SMART goal with protected time and a backup strategy.
+- **TEKS:** d(4)(A); d(4)(B) through the two-career transfer check
+- **Demonstration of Learning:** Advocacy, SMART Goal, and Time Plan.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
 | | |

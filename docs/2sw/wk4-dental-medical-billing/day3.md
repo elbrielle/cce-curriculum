@@ -1,5 +1,12 @@
 # Day 3: Add Real Experiences in Xello
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** College Credit
+- **Objective:** Students will explore and list opportunities for earning college credit in high school using evidence from College Credit.
+- **TEKS:** d(3)(B)
+- **Demonstration of Learning:** Education experiences + Volunteer hours completion; two current college-credit opportunities.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
 | | |

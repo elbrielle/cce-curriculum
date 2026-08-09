@@ -1,5 +1,12 @@
 # Day 2: Design a Toothbrush with Evidence
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and classify evidence of high-skill, high-wage, or high-demand occupations using labor-market information using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(5)(B)
+- **Demonstration of Learning:** Labeled toothbrush design + provisional two-career classification.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
 | | |

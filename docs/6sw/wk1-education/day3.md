@@ -1,5 +1,12 @@
 # Day 3: Read Education Job Evidence
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(2)(A)
+- **Demonstration of Learning:** five-page Education Job-Posting Evidence packet + retryable practice Quiz.
+<!-- CCE DAILY CONTRACT END -->
 ## Target and Evidence
 
 **TEKS:** d(1)(C), d(2)(A)

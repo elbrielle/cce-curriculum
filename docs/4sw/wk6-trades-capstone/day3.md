@@ -1,5 +1,12 @@
 # Day 3: Career Organizations — Type, Access, and Value
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Extended Learning
+- **Objective:** Students will distinguish CTSOs, professional associations, a credentialing organization, and a government agency; evaluate one realistic student opportunity.
+- **TEKS:** d(3)(F), d(3)(H)
+- **Demonstration of Learning:** Career Organization Types packet.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

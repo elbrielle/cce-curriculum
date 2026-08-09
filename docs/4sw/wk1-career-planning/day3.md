@@ -1,5 +1,12 @@
 # Day 3: Career Deep Dive
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Course Planning
+- **Objective:** Students will document work, preparation, pay, and outlook for one career using labeled evidence.
+- **TEKS:** d(8)(B)
+- **Demonstration of Learning:** Career Deep Dive.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

@@ -8,15 +8,41 @@
 
 Every instructional day receives two coordinated Canvas pages.
 
+Every pair begins with one aligned daily learning contract. This is a required
+instructional chain, not decorative metadata:
+
+1. **Topic:** one to four words naming the day's overarching concept;
+2. **Objective:** one observable student action aligned to an exact current
+   §127.2 CCE TEKS expectation;
+3. **TEKS:** the exact expectation code(s) carried by the objective and evidence;
+4. **Demonstration of Learning:** the specific artifact, response, or performance
+   the teacher will collect or observe, including enough criteria to tell whether
+   the objective was met.
+
+The student guide carries the same chain in plain language under **Today's
+Learning**: Topic, an `I can` Objective, and **Show Your Learning**. Do not change
+the cognitive demand between the teacher and student versions. Avoid
+`understand`, `learn about`, `work on`, or `participate` when the statement never
+names observable evidence. The DOL must assess the action in the objective; an
+engaging activity is not automatically evidence of the TEKS.
+
+The canonical contracts live in the 180 `docs/.../dayN.md` sources and are parsed
+by `build/canvas/lesson_contracts.py`. Run
+`build/canvas/qa_lesson_contracts.py` before Canvas work. Use
+`build/canvas/sync_source_lesson_contracts.py` after a source revision and
+`build/canvas/normalize_canvas_lesson_contracts.py` after any builder that could
+overwrite paired pages. Coursewide Canvas QA rejects a paired page when the
+appropriate visible contract labels are absent.
+
 The course also keeps three coordinated course-level surfaces: `TEACHER: CCE Course Launch Guide` at the top of the unpublished Teacher Build module, `STUDENT: Start Here - How CCE Works` as the only item in the first student-facing orientation module, and the unpublished `Career and College Exploration Home` replacement page. The teacher page is the publication/gradebook/platform/readiness dashboard; the student page explains Modules-first navigation, evidence and submission choices, privacy, and absence/platform recovery; the replacement home page gives students one obvious Modules launch without duplicating the daily directions. Keep all three unpublished until their browser and Student View checks pass. Do not replace a live front page or change the course home layout until the module sequence, navigation menu, direct links, and enrolled-student impact have been reviewed together.
 
 ### Teacher Facilitator Guide
 
-The teacher page is a classroom dashboard, not a pasted copy of the public lesson plan. It must contain:
+The teacher page is a classroom dashboard, not a pasted copy of the source lesson plan. It must contain:
 
 1. before-class preparation;
 2. materials and exact source pages;
-3. learning target and student evidence;
+3. the Topic, Objective, exact TEKS, and Demonstration of Learning contract;
 4. a time-boxed lesson flow;
 5. concise facilitation language and active-monitoring targets;
 6. grading guidance and any answer key;
@@ -31,14 +57,15 @@ Teacher-only pages remain unpublished when the student module is eventually publ
 The student page must work during class and as an independent absence/catch-up path. It must contain:
 
 1. one plain-language purpose statement;
-2. a short “Today you will” list;
-3. materials or “Get ready” list;
-4. short numbered steps in 6th-7th-grade-accessible language;
-5. only the screenshots, workbook crops, or examples that remove real ambiguity;
-6. exact platform navigation;
-7. what to write, create, or submit;
-8. a visible “You are done when” checklist; and
-9. an expandable absence/platform-failure route.
+2. the plain-language Topic, Objective, and Show Your Learning contract;
+3. a short “Today you will” list;
+4. materials or “Get ready” list;
+5. short numbered steps in 6th-7th-grade-accessible language;
+6. only the screenshots, workbook crops, or examples that remove real ambiguity;
+7. exact platform navigation;
+8. what to write, create, or submit;
+9. a visible “You are done when” checklist; and
+10. an expandable absence/platform-failure route.
 
 Keep required directions visible. Use native `<details><summary>` sections only for optional help, examples, vocabulary, sentence frames, early-finishers, or catch-up directions. Do not use legacy `enhanceable_content tabs`.
 
@@ -203,6 +230,11 @@ Run Canvas importers through `uv run --with httpx`; a bare `python` invocation i
 Do not print, log, commit, or repeat the token.
 
 For the repaired 4SW-6SW sequence, `build/canvas/import_remaining_unpublished.py` may build the course orientation plus all 17 remaining week packages with one token entered through standard input. It excludes 4SW Wk1 because that module is already present. The orchestrator stops on the first failed builder, does not attempt later modules after a failure, and prints only a concise module/item summary. After all builders run, it stages the approved 30-entry gradebook with `configure_assessment_map.py`, attaches the 30 native scoring tools with `configure_assessment_rubrics.py`, applies the idempotent `normalize_unpublished_image_loading.py` repair to pages inside the exact 36 unpublished instructional modules, then launches the read-only `qa_remaining_unpublished.py` coursewide verifier with the same in-memory token. The assessment configurator keeps all work unpublished, assigns 18 Minors to the 40% group and 12 Majors to the 60% group, uses 100 gradebook points, and creates missing private submission objects without inventing due dates. The rubric configurator parses the versioned Markdown scoring tools, adds an explicit zero-evidence rating where an older rubric omitted it, attaches each rubric as an advisory grading rubric, and adds the raw-to-100 conversion rule to the Assignment description. The image normalizer refuses published modules, items, or pages and changes only `<img>` elements that lack an explicit loading policy. The verifier covers all 36 instructional weeks, including the already-live 1SW-4SW Wk1 modules; the 17-week import cannot pass by ignoring defects in earlier work. It reports success only when the orientation is first and unpublished, the replacement home exists and is unpublished, the teacher launch page remains in the unpublished Teacher Build module, all 36 exact week-module names exist once, every week remains unpublished, Day 1-5 headers and teacher/student pairs are complete, teacher pages link to their matching student pages, the exact 3-Minor/2-Major course map is staged with real submission routes and the correct advisory rubrics, referenced files resolve, image alt text and native lazy loading are present, and referenced file folders remain locked. It never accepts the token as a command-line argument or writes it to disk.
+
+The orchestrator also runs `normalize_canvas_lesson_contracts.py` after the week
+builders and before image normalization. This protects the daily Topic,
+Objective, TEKS, and DOL contract from being lost when an older builder rewrites
+a page.
 
 Run its credential-free preflight before requesting the token:
 

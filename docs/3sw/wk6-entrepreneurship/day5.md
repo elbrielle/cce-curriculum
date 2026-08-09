@@ -1,5 +1,12 @@
 # Day 5: Personal Budget and Xello Scholarship Profile
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Entrepreneurship
+- **Objective:** Students will revise a personal budget so expenses do not exceed income, distinguish business revenue from personal income, and complete the required Xello Scholarship profile.
+- **TEKS:** d(3)(I), d(5)(D)
+- **Demonstration of Learning:** Personal Budget and Xello Scholarship Plan plus Xello Completion Standards report.
+<!-- CCE DAILY CONTRACT END -->
 | | |
 |---|---|
 | **Time** | 50 minutes |

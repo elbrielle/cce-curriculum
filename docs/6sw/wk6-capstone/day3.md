@@ -1,5 +1,12 @@
 # Day 3: Capstone Presentation Plan and Rehearsal
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Professional Presentation
+- **Objective:** Students will give an oral professional presentation about career and college exploration using appropriate technology and select a career pathway in a desired field using evidence from Professional Presentation.
+- **TEKS:** prepares d(4)(C); reinforces d(8)(A-C)
+- **Demonstration of Learning:** six-page route, speaking/content plan, rehearsal, and revision.
+<!-- CCE DAILY CONTRACT END -->
 **TEKS:** prepares d(4)(C); reinforces d(8)(A-C)
 **Evidence:** six-page route, speaking/content plan, rehearsal, and revision
 

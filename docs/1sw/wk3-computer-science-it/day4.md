@@ -1,5 +1,12 @@
 # Day 4: Emerging Tech Research — AI, Cloud, Data Science
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and research and evaluate emerging occupations related to career interest areas using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(1)(D)
+- **Demonstration of Learning:** Completed Emerging Tech Research Template.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
