@@ -6,7 +6,7 @@ weeks: 6sw/wk6-capstone
 audience: student
 variant_of:
 language: en
-pages: 4
+pages: 3
 orientation: landscape
 ---
 
@@ -23,7 +23,7 @@ orientation: landscape
 
 Total: ____ / 24
 
-This is a Major draft until the live sixth-six-weeks 40/60 assessment map is verified.
+This is Major 2 in the approved sixth-six-weeks assessment map. Keep it unpublished until the Canvas review gate passes.
 
 [[pagebreak]]
 
@@ -31,17 +31,15 @@ This is a Major draft until the live sixth-six-weeks 40/60 assessment map is ver
 
 Masters: 90-100 · Meets: 80-89 · Approaches: 70-79 · Needs Improvement: 60-69. Below 60 follows campus policy.
 
-Criterion scores: Self ____ Research ____ Path ____ Action ____ Communication ____ Reflection ____
+Criterion scores: Self [   ] · Research [   ] · Path [   ] · Action [   ] · Communication [   ] · Reflection [   ]
 
 Strongest evidence:
 
-[[lines: 6]]
+[[lines: 3]]
 
 Priority revision:
 
-[[lines: 7]]
-
-[[pagebreak]]
+[[lines: 3]]
 
 ## Access, Privacy, and Missing-Evidence Boundary
 
@@ -51,7 +49,7 @@ Missing an old workbook page, family interview, platform login, or partner does 
 
 Authorized route/recovery:
 
-[[lines: 7]]
+[[lines: 2]]
 
 [[pagebreak]]
 

@@ -26,12 +26,12 @@ The former presentation math could not fit a class roster. The core delivery is 
 | 1 | Evidence inventory/recovery | Six-page inventory and recovery plan | Private Assignment |
 | 2 | Individual career plan | Eight-page plan | Private Assignment |
 | 3 | Capstone plan/rehearsal | Six-page presentation plan | Private Assignment |
-| 4 | Communicated capstone/revision | Five-page delivery record | Private media/annotation Major 2 Assignment |
+| 4 | Communicated capstone/revision | Eight-page individual plan + five-page delivery/revision record | Private media/annotation Major 2 Assignment |
 | 5 | Course reflection/transfer | Seven-page reflection | Private Assignment |
 
 ## Grading and Access
 
-The 24-point rubric is student-visible. This is **Major 2** in the [6SW assessment map](../../resources/six-weeks-assessment-map.md), pending the live Canvas Major group and 40/60 weights. Missing old pages, platform access, visual polish, public speaking, partner/family attendance, accent, eye contact, disability, camera use, English mechanics, or submission mode do not determine mastery unless meaning is unclear.
+The 24-point rubric is student-visible. This is **Major 2** in the [6SW assessment map](../../resources/six-weeks-assessment-map.md) and remains unpublished until the Canvas review gate passes. The submitted evidence includes the individual career plan, communicated capstone, feedback, visible revision, and transfer record. Missing old pages, platform access, visual polish, public speaking, partner/family attendance, accent, eye contact, disability, camera use, English mechanics, or submission mode do not determine mastery unless meaning is unclear.
 
 ## Licensed and Supplemental Sources
 
