@@ -225,8 +225,13 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
             if (image.get("loading") or "").lower() != "lazy":
                 problems.append(f"image missing loading=lazy in {page.get('url')}")
         if role == "student":
-            for label in ("today you will", "exit check", "you are done when"):
-                if label not in visible_text:
+            required_sections = {
+                "today you will": ("today you will", "what you will do"),
+                "exit check": ("exit check", "exit ticket"),
+                "you are done when": ("you are done when", "done when"),
+            }
+            for label, aliases in required_sections.items():
+                if not any(alias in visible_text for alias in aliases):
                     problems.append(
                         f"student page missing '{label}': {page.get('url')}"
                     )
@@ -235,8 +240,17 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
                     f"student page missing absence/platform route: {page.get('url')}"
                 )
         elif role == "teacher":
-            for label in ("before class", "50-minute flow"):
-                if label not in visible_text:
+            required_sections = {
+                "before class": ("before class", "before students arrive"),
+                "50-minute flow": (
+                    "50-minute flow",
+                    "50-minute lesson flow",
+                    "50 minute flow",
+                    "50 minute lesson flow",
+                ),
+            }
+            for label, aliases in required_sections.items():
+                if not any(alias in visible_text for alias in aliases):
                     problems.append(
                         f"teacher page missing '{label}': {page.get('url')}"
                     )

@@ -228,39 +228,42 @@ def with_conversion_note(description: str | None, raw_points: int) -> str:
 
 def rubric_payload(
     title: str, criteria: list[dict], assignment_id: int, *, include_association: bool
-) -> list[tuple[str, str]]:
-    data: list[tuple[str, str]] = [
-        ("rubric[title]", title),
-        ("rubric[free_form_criterion_comments]", "true"),
-    ]
+) -> dict[str, str]:
+    # httpx.AsyncClient requires an async-compatible request body. A list of
+    # tuples becomes a synchronous iterator in current httpx; Canvas does not
+    # need duplicate form keys here, so a mapping is both correct and portable.
+    data: dict[str, str] = {
+        "rubric[title]": title,
+        "rubric[free_form_criterion_comments]": "true",
+    }
     if include_association:
-        data.extend(
-            [
-                ("rubric_association[association_id]", str(assignment_id)),
-                ("rubric_association[association_type]", "Assignment"),
-                ("rubric_association[use_for_grading]", "false"),
-                ("rubric_association[hide_score_total]", "false"),
-                ("rubric_association[purpose]", "grading"),
-            ]
+        data.update(
+            {
+                "rubric_association[association_id]": str(assignment_id),
+                "rubric_association[association_type]": "Assignment",
+                "rubric_association[use_for_grading]": "false",
+                "rubric_association[hide_score_total]": "false",
+                "rubric_association[purpose]": "grading",
+            }
         )
     for criterion_index, criterion in enumerate(criteria):
         prefix = f"rubric[criteria][{criterion_index}]"
-        data.extend(
-            [
-                (f"{prefix}[description]", criterion["description"]),
-                (f"{prefix}[long_description]", criterion["long_description"]),
-                (f"{prefix}[points]", str(criterion["points"])),
-                (f"{prefix}[criterion_use_range]", "false"),
-            ]
+        data.update(
+            {
+                f"{prefix}[description]": criterion["description"],
+                f"{prefix}[long_description]": criterion["long_description"],
+                f"{prefix}[points]": str(criterion["points"]),
+                f"{prefix}[criterion_use_range]": "false",
+            }
         )
         for rating_index, rating in enumerate(criterion["ratings"]):
             rating_prefix = f"{prefix}[ratings][{rating_index}]"
-            data.extend(
-                [
-                    (f"{rating_prefix}[description]", rating["description"]),
-                    (f"{rating_prefix}[long_description]", rating["long_description"]),
-                    (f"{rating_prefix}[points]", str(rating["points"])),
-                ]
+            data.update(
+                {
+                    f"{rating_prefix}[description]": rating["description"],
+                    f"{rating_prefix}[long_description]": rating["long_description"],
+                    f"{rating_prefix}[points]": str(rating["points"]),
+                }
             )
     return data
 
@@ -377,10 +380,15 @@ async def run(token: str) -> dict:
                     client,
                     "PUT",
                     f"/courses/{COURSE_ID}/rubrics/{existing[0]['id']}",
-                    data=[
-                        *rubric_payload(title, criteria, assignment["id"], include_association=False),
-                        ("rubric[skip_updating_points_possible]", "true"),
-                    ],
+                    data={
+                        **rubric_payload(
+                            title,
+                            criteria,
+                            assignment["id"],
+                            include_association=False,
+                        ),
+                        "rubric[skip_updating_points_possible]": "true",
+                    },
                 )
                 rubric = response.get("rubric") or existing[0]
                 association = await ensure_association(client, rubric, assignment)

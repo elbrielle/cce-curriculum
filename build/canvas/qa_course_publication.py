@@ -75,6 +75,7 @@ async def run(token: str) -> int:
         groups = await paged(
             client, f"/courses/{COURSE_ID}/assignment_groups?include[]=assignments"
         )
+        assignments = await paged(client, f"/courses/{COURSE_ID}/assignments")
         front_page = await api(client, f"/courses/{COURSE_ID}/front_page")
 
         front_audit = TextAudit()
@@ -115,7 +116,13 @@ async def run(token: str) -> int:
                 "id": group.get("id"),
                 "name": group.get("name"),
                 "weight": group.get("group_weight"),
-                "assignments": len(group.get("assignments") or []),
+                # Some Canvas deployments omit the requested embedded assignment
+                # list. Count the authoritative course assignment records by
+                # group id so the publication gate cannot report a false zero.
+                "assignments": sum(
+                    assignment.get("assignment_group_id") == group.get("id")
+                    for assignment in assignments
+                ),
             }
             for group in groups
         ]

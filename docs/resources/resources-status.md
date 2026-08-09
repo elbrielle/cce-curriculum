@@ -2,7 +2,7 @@
 
 **What this page is:** a living checklist of teacher-facing resources that are **ready to use**, **partially built**, or **still to be created** for the CCE Curriculum. This is the page to check when you want to know "what's missing before I can teach this week" or "what should I expect my teammates to build next."
 
-**Last updated:** 2026-08-08. **All 36 weeks are realigned to the official *Find Your Future* workbook, have paired Canvas production packages, and have printable evidence sets.** Canvas is the official delivery environment; this site is the public review and backup surface. The live unpublished course is populated through 4SW Wk1. The 17 remaining 4SW Wk2-6SW Wk6 packages have passed credential-free preflight and are queued for unpublished import plus coursewide API/browser verification.
+**Last updated:** 2026-08-09. **All 36 weeks are realigned to the official *Find Your Future* workbook, have paired Canvas production packages, and have printable evidence sets.** Canvas is the official delivery environment; this site is source-control backup only. The complete live course is now staged in Canvas and remains unpublished for review. Coursewide verification passes all 36 instructional modules, 360 paired pages, 118 interactions, 552 referenced files, and the full 18-minor/12-major assessment map with attached rubrics.
 
 ---
 
@@ -80,7 +80,7 @@ Two Climber Notes decks are also load-bearing in Health Science: **Vitals in Mot
 
 ### New hard dependencies from the Phase C realignment (2026-08-05)
 
-Realigning 4SW, 5SW, and 6SW added four more deck dependencies and one scheduling load. Every deck named here has a gitignored Canvas-only delivery set and a paired module package; the 4SW Wk2-6SW Wk6 assets remain unpublished and await the live batch import/verification gate. Source `.pptx` binaries cannot be retrieved from the repo or public site.
+Realigning 4SW, 5SW, and 6SW added four more deck dependencies and one scheduling load. Every deck named here has a gitignored Canvas-only delivery set and a paired module package; the complete asset set is staged in locked, unpublished Canvas folders. Source `.pptx` binaries cannot be retrieved from the repo or a public site.
 
 | Week | What it needs | Why |
 |---|---|---|
@@ -96,11 +96,11 @@ Realigning 4SW, 5SW, and 6SW added four more deck dependencies and one schedulin
 
 ## Still Needed (the teacher implementation backlog)
 
-The paired Canvas packages and printable evidence sets now cover the core instructional route. The remaining backlog is live import/verification, publication setup, district-specific provisioning, materials/equipment readiness, and classroom-feedback refinements. A week is not fully "turnkey" until its Canvas package, files, interactions, and fallbacks pass teacher and Student View review.
+The paired Canvas packages and printable evidence sets now cover the core instructional route, and the unpublished transfer has passed coursewide API and signed-in teacher review. The remaining backlog is the deliberate publication sequence, student-navigation cleanup, district-specific provisioning, materials/equipment readiness, and classroom-feedback refinements. A week is not fully "turnkey" until its Canvas package, files, interactions, and fallbacks pass teacher and Student View review.
 
 ### 🟡 Canvas Lesson Packages: Teacher Guide + Student Guide
 
-**Status:** 🟡 All 36 paired packages and the course-level Teacher/Student orientation pair are authored. The unpublished live course is populated and verified through 4SW Wk1; the orientation plus 4SW Wk2-6SW Wk6 remain queued for the credentialed batch import and live QA gate.
+**Status:** ✅ All 36 paired packages and the course-level Teacher/Student orientation pair are staged in the live course and remain unpublished. The coursewide API verifier passes 36/36 modules; signed-in review confirms the complete teacher module list, repaired early-course page grammar, representative licensed visuals, final major assignments, and rubric display. Student View correctly shows no instructional modules before publication.
 
 Every lesson needs two coordinated Canvas surfaces:
 
@@ -166,7 +166,7 @@ Completed examples include the 2SW Wk1 position-paper tools, 4SW Wk1 profile aud
 
 ### 🟡 Teacher Facilitator Guides and implementation support
 
-**Status:** 🟡 Paired Teacher Facilitator Guides are authored for all 36 weeks; live import/verification is complete through 4SW Wk1 and pending for the remaining 17 modules.
+**Status:** ✅ Paired Teacher Facilitator Guides are staged and coursewide-verified for all 36 weeks. Every instructional day has one unpublished teacher page and one unpublished student page in chronological Canvas module order.
 
 The Teacher Guide page is the companion, so teachers do not have to cross-reference a separate book while teaching. It carries before-class setup, exact resources, the 50-minute flow and trim point, monitoring/key guidance, grading boundary, supports, and platform/equipment/absence routes. Remaining implementation support belongs in Canvas or a maintained teacher index rather than another disconnected document.
 

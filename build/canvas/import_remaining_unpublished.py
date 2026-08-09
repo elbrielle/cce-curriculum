@@ -7,6 +7,7 @@ command-line argument, written to a file, or included in summary output.
 
 from __future__ import annotations
 
+import ast
 import json
 import py_compile
 import re
@@ -27,6 +28,53 @@ ASSESSMENT_CONFIGURATOR = CANVAS_DIR / "configure_assessment_map.py"
 RUBRIC_CONFIGURATOR = CANVAS_DIR / "configure_assessment_rubrics.py"
 IMAGE_NORMALIZER = CANVAS_DIR / "normalize_unpublished_image_loading.py"
 QA_SCRIPT = CANVAS_DIR / "qa_remaining_unpublished.py"
+
+
+def literal_path(expression: ast.expr, names: dict[str, Path]) -> Path | None:
+    """Resolve a Path expression made only from known names and `/` literals."""
+    if isinstance(expression, ast.Name):
+        return names.get(expression.id)
+    if isinstance(expression, ast.Constant) and isinstance(expression.value, str):
+        return Path(expression.value)
+    if isinstance(expression, ast.BinOp) and isinstance(expression.op, ast.Div):
+        left = literal_path(expression.left, names)
+        right = literal_path(expression.right, names)
+        if left is not None and right is not None:
+            return left / right
+    return None
+
+
+def exact_upload_dependencies(importer: Path) -> set[Path]:
+    """Find fully literal local paths passed to an importer upload helper."""
+    tree = ast.parse(importer.read_text(), filename=str(importer))
+    names = {"ROOT": ROOT, "CANVAS_DIR": CANVAS_DIR}
+    for statement in tree.body:
+        if not isinstance(statement, (ast.Assign, ast.AnnAssign)):
+            continue
+        targets = statement.targets if isinstance(statement, ast.Assign) else [statement.target]
+        value = statement.value
+        if value is None:
+            continue
+        resolved = literal_path(value, names)
+        if resolved is None:
+            continue
+        for target in targets:
+            if isinstance(target, ast.Name):
+                names[target.id] = resolved
+
+    dependencies: set[Path] = set()
+    for node in ast.walk(tree):
+        if not isinstance(node, ast.Call) or len(node.args) < 2:
+            continue
+        function_name = (
+            node.func.attr if isinstance(node.func, ast.Attribute) else None
+        )
+        if function_name != "upload":
+            continue
+        resolved = literal_path(node.args[1], names)
+        if resolved is not None and resolved.is_absolute():
+            dependencies.add(resolved)
+    return dependencies
 
 
 def preflight() -> int:
@@ -100,6 +148,12 @@ def preflight() -> int:
             if name not in dependency_index:
                 errors.append(
                     f"{importer.relative_to(ROOT)}: local dependency not found: {reference}"
+                )
+        for dependency in exact_upload_dependencies(importer):
+            if not dependency.is_file():
+                errors.append(
+                    f"{importer.relative_to(ROOT)}: exact upload path not found: "
+                    f"{dependency.relative_to(ROOT)}"
                 )
 
     template_dir = CANVAS_DIR / "templates"
