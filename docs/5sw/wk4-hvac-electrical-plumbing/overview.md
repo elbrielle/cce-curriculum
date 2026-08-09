@@ -8,13 +8,15 @@ Students compare Electricians; Plumbers, Pipefitters, and Steamfitters; HVAC Mec
 
 > **Learning target:** I can compare four skilled-trades careers, explain the preparation or state credential boundary for each, classify the careers with published evidence, and communicate what the evidence supports without pretending I am licensed to diagnose or repair a real system.
 
-## Evidence students submit
+## Evidence students create
 
 - four-career preparation and labor-evidence record;
 - four HVAC evidence-first field notes;
 - four-career classification and limitation;
 - two current route decisions with exact verification steps;
 - fictional plumbing-response plan and individual 30–45 second briefing.
+
+Only the Day 3 classification and Day 5 individual response are scored together as Major 1. Days 1, 2, and 4 are formative practice; teachers may review them in Canvas or on paper without creating three additional grades.
 
 ## TEKS alignment
 

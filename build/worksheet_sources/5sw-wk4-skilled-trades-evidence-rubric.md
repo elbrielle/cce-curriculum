@@ -25,11 +25,11 @@ Total: ____ / 16
 
 ## Submission and Feedback
 
-- [ ] fixed career/preparation evidence
-- [ ] labor classification with a limitation
-- [ ] two-route comparison and ordered steps
-- [ ] fictional response plan
-- [ ] 30–45 second live, teacher-conference, audio, recorded, written-equivalent, or AAC briefing
+- [ ] Day 3 labor classification with cited evidence and a limitation
+- [ ] Day 5 fictional response plan
+- [ ] Day 5 individual 30–45 second live, teacher-conference, audio, recorded, written-equivalent, or AAC briefing
+
+Day 1 career evidence, Day 2 field notes, and Day 4 route comparison are formative. They support the major but are not extra required pieces of the Major 1 submission.
 
 Art, accent, grammar, H&L state, recording polish, and submission mode do not determine the score unless meaning is unclear.
 

@@ -6,6 +6,8 @@
 
 **Evidence:** fictional response plan and individual 30–45 second briefing
 
+This is the single **Major 1 gradebook entry**. Score it with the Day 3 classification where that evidence was already submitted or turned in. Students do not resubmit or copy the Day 3 packet.
+
 ## Safety boundary
 
 This is a paper/digital communication simulation. Students do not locate utilities, enter a street, direct traffic, shut a valve, excavate, choose repair materials, use tools, or create instructions for a real water-main response. The supplied scenario and emergency-basics slide are classroom context only. Actual work belongs to authorized city/utility personnel and qualified tradespeople under local procedures.

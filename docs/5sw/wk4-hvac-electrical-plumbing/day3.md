@@ -6,6 +6,8 @@
 
 **Evidence:** four-career classification and limitation
 
+This is **Major 1, Part A**. Students submit it once through the Day 3 Canvas activity or the labeled paper route. Keep it available for the combined score on Day 5; students do not copy it into another packet.
+
 ## Fixed May 2024 U.S. evidence
 
 | Occupation | Median | Growth 2024–34 | Annual openings |

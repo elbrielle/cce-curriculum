@@ -18,7 +18,7 @@ MODULE_NAME = "5SW Wk4: Skilled Trades — Evidence, Routes, and Communication"
 ASSIGNMENT_TITLES = {
     1: "PRACTICE: Skilled-Trades Career Evidence",
     2: "PRACTICE: HVAC Evidence-First Field Notes",
-    3: "PRACTICE: Skilled-Trades Labor Classification",
+    3: "MAJOR 1 EVIDENCE: Part A — Skilled-Trades Labor Classification",
     4: "PRACTICE: Current Entry Routes",
     5: "MAJOR 1: Skilled-Trades Classification and Individual Response",
 }
@@ -89,7 +89,7 @@ def student_content(files, visuals, urls):
             "TITLE": "Classify Four Skilled-Trades Careers",
             "PURPOSE": "Use one comparable national dataset and a published classroom rule to classify labor evidence.",
             "TODAY": "<ul><li>read the classroom comparison rule;</li><li>classify four careers;</li><li>cite a fact for each label;</li><li>state a local-data limitation.</li></ul>",
-            "READY": f'<p>Open {link(files["CLASSIFY"]["id"], "the six-page classification packet")} or <a href="{urls[3]}">the Canvas annotation activity</a>.</p>',
+            "READY": f'<p>Open {link(files["CLASSIFY"]["id"], "the six-page classification packet")} or <a href="{urls[3]}">Major 1 Part A in Canvas</a>. Keep this evidence available for the final score on Day 5; you will not need to copy it into a second packet.</p>',
             "MEDIA": "",
             "STEPS": step(1, "Read the rule", "<p>High wage means above $49,500 May 2024 U.S. median. High demand means growth above 3.1%. High skill uses the packet's documented preparation rule. These are classroom labels.</p>")
             + step(2, "Classify each occupation", "<p>Cite preparation, median, or growth evidence for every yes/no decision.</p>")
@@ -119,14 +119,14 @@ def student_content(files, visuals, urls):
             "TITLE": "Fictional Water-Line Response",
             "PURPOSE": "Build a communication and evidence plan for a fictional event, then brief one priority without giving real technical directions.",
             "TODAY": "<ul><li>assign functional team roles;</li><li>mark a fictional site plan;</li><li>sequence communication priorities;</li><li>deliver one individual evidence briefing.</li></ul>",
-            "READY": f'<p>Open {link(files["WATER"]["id"], "the five-page response planner")} and {link(files["RUBRIC"]["id"], "the two-page rubric")}.</p>',
+            "READY": f'<p>Open {link(files["WATER"]["id"], "the five-page response planner")}, {link(files["CLASSIFY"]["id"], "your Day 3 classification evidence")}, and {link(files["RUBRIC"]["id"], "the two-page rubric")}. Your teacher scores the Day 3 evidence where you already submitted or turned it in; do not copy it again.</p>',
             "MEDIA": day5_media,
             "STEPS": step(1, "Stay inside the simulation boundary", "<p>Students do not locate utilities, enter a street, direct traffic, shut a valve, excavate, choose repair materials, use tools, or create real repair instructions.</p>")
             + step(2, "Mark communication evidence", "<p>Use the large sketch area for the supplied boundaries, protected public area, authorized coordination point, and evidence record—not a repair or dig plan.</p>")
             + step(3, "Respond to the twist", "<p>Explain what changes under crowd/time pressure and what safety/evidence priority does not change.</p>")
             + step(4, "Submit an individual briefing", f'<p>Use <a href="{urls[5]}">the private activity</a>. Cover priority, supplied evidence, qualified role, and boundary in 30–45 seconds by live, conference, audio, recorded media, equivalent writing, or AAC.</p>'),
             "EXIT": "<p>Name one A&amp;C career involved and the work product that person supplies.</p>",
-            "DONE": "<ul><li>functional role recorded;</li><li>roomy site-plan sketch;</li><li>before/during/after priorities;</li><li>twist response;</li><li>individual four-job briefing.</li></ul>",
+            "DONE": "<ul><li>Day 3 classification evidence is available to the teacher;</li><li>functional role recorded;</li><li>roomy site-plan sketch;</li><li>before/during/after priorities;</li><li>twist response;</li><li>individual four-job briefing.</li></ul>",
             "SUPPORT": "<p>priority = prioridad · supplied evidence = evidencia proporcionada · authorized = autorizado · boundary = límite · briefing = informe breve.</p>",
             "FALLBACK": "<p>Complete the same fictional plan independently. Live, conference, audio, recorded, equivalent written, and AAC routes use the same evidence criteria.</p>",
         },
@@ -184,7 +184,7 @@ def teacher_content(files):
         5: {
             "TITLE": "Fictional Water-Line Response", "SUBTITLE": "50 minutes · TEKS d(1)(C), d(4)(C)",
             "ALERT": "<strong>Communication simulation only.</strong> Students do not locate utilities, enter a street, direct traffic, operate a valve, excavate, choose materials, use tools, or produce real repair instructions.",
-            "PREP": f'<ul><li>Post {link(files["WATER"]["id"], "the five-page planner")}, {link(files["RUBRIC"]["id"], "the rubric")}, and private Assignment.</li><li>Open the two locked FYF references.</li><li>Offer live, conference, audio, recorded, equivalent written, and AAC briefing routes.</li></ul>',
+            "PREP": f'<ul><li>Post {link(files["WATER"]["id"], "the five-page planner")}, {link(files["RUBRIC"]["id"], "the rubric")}, and private Assignment.</li><li>Keep Day 3 classification submissions available in a second SpeedGrader tab or collect the labeled paper packets; students do not resubmit them.</li><li>Open the two locked FYF references.</li><li>Offer live, conference, audio, recorded, equivalent written, and AAC briefing routes.</li></ul>',
             "EVIDENCE": "<p><strong>Major 1, Part B, in the 5SW assessment map:</strong> fictional communication/safety plan and every student's 30–45 second four-job briefing. Combine with Day 3 under the published rubric; convert to 100 points only after the Major group is verified.</p>",
             "FLOW": flow(color, "Warm-up · 5", "Information and authority connections.") + flow("#4c8b38", "Roles · 8", "Functional jobs and supplied context.") + flow("#b35d2e", "Plan · 20", "Sketch, priorities, twist.") + flow("#d39b22", "Briefings · 12", "Individual equivalent routes.") + flow(color, "Exit · 5", "Career and work product."),
             "MONITOR": "<p>Strong plans begin with authorized alert/coordination, public protection, and evidence records—not a student-authored technical repair move. Briefings must include priority, supplied evidence, qualified role, and boundary. Do not grade art, accent, confidence, or group popularity.</p>",
@@ -231,9 +231,9 @@ async def main():
         descriptions = {
             1: "Annotate or upload the fixed career/preparation record, type labeled responses, or use paper.",
             2: "Complete four evidence-first HVAC notes. Do not diagnose or perform a real check or repair.",
-            3: "Use the fixed May 2024 U.S. evidence and classroom comparison rule. Keep unpublished and ungraded until the 40/60 map is verified.",
+            3: "Complete Major 1 Part A with the fixed May 2024 U.S. evidence and classroom comparison rule. Submit it here once or use the labeled paper route; your teacher will score it with the Day 5 individual response, so do not copy it into a second packet.",
             4: "Compare two fixed route cards and sequence future verification/enrollment steps. Do not submit a real application.",
-            5: "Submit the fictional communication plan plus a 30–45 second live, conference, audio, recorded, equivalent written, or AAC briefing. Keep unpublished and ungraded until the 40/60 map is verified.",
+            5: "This is the single Major 1 gradebook entry. Submit the fictional communication plan plus a 30–45 second live, conference, audio, recorded, equivalent written, or AAC briefing. Your teacher also scores the Day 3 classification where it was already submitted or turned in; do not resubmit it here.",
         }
         assignments = {}
         for day in range(1, 6):
