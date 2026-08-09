@@ -6,7 +6,7 @@ weeks: 6sw/wk5-job-skills
 audience: student
 variant_of:
 language: en
-pages: 4
+pages: 3
 orientation: landscape
 ---
 
@@ -23,7 +23,7 @@ orientation: landscape
 
 Total: ____ / 24
 
-This is a Major draft until the live sixth-six-weeks 40/60 assessment map is verified.
+This is Major 1 in the approved sixth-six-weeks assessment map. Keep it unpublished until the Canvas review gate passes.
 
 [[pagebreak]]
 
@@ -31,17 +31,15 @@ This is a Major draft until the live sixth-six-weeks 40/60 assessment map is ver
 
 Masters: 90-100 · Meets: 80-89 · Approaches: 70-79 · Needs Improvement: 60-69. A below-60 record follows campus policy and is not automatically converted from the rubric without the verified gradebook map.
 
-Criterion scores: Search ____ Cover ____ Application ____ References ____ Interview ____ Thank-you ____
+Criterion scores: Search [   ] · Cover [   ] · Application [   ] · References [   ] · Interview [   ] · Thank-you [   ]
 
 Strongest evidence:
 
-[[lines: 6]]
+[[lines: 3]]
 
 Priority revision:
 
-[[lines: 7]]
-
-[[pagebreak]]
+[[lines: 3]]
 
 ## Privacy and Access Boundary
 
@@ -51,7 +49,7 @@ Equivalent interview routes include paired live, small group, teacher conference
 
 Authorized alternate evidence/accommodation:
 
-[[lines: 7]]
+[[lines: 2]]
 
 [[pagebreak]]
 

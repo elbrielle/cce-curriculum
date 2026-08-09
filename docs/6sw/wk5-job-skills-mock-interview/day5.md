@@ -1,11 +1,11 @@
 # Day 5: Mock Interview, Revision, and Thank-You Note
 
 **TEKS:** d(6)(B), d(6)(C), d(7)(B)
-**Evidence:** seven-page individual role/revision/thank-you record; private Major draft
+**Evidence:** six-page individual role/revision/thank-you record plus the complete six-part Major 1 portfolio
 
 ## Before Class
 
-Post the packet, rubric, and private media/annotation Assignment. Confirm paired, small-group, teacher-conference, private recorded, and AAC routes before class. No message is sent.
+Post the packet, rubric, and private Major 1 media/annotation Assignment. Confirm that Days 1-4 evidence is available in the same submission or compiled portfolio. Confirm paired, small-group, teacher-conference, private recorded, and AAC routes before class. No message is sent.
 
 ## 50-Minute Flow
 
@@ -13,7 +13,7 @@ Post the packet, rubric, and private media/annotation Assignment. Confirm paired
 2. **Round 1 - 12 min.** Students produce assessable interviewer and interviewee evidence, or the authorized equivalent.
 3. **Feedback and switch - 5 min.** Record one strength and one precise revision.
 4. **Round 2 - 12 min.** Apply the revision in the second role/attempt.
-5. **Thank-you and portfolio reflection - 13 min.** Plan and write a brief fictional note; audit it; identify consistency/privacy revision.
+5. **Thank-you and portfolio reflection - 13 min.** Write one brief fictional note; audit it; identify consistency/privacy revision across the six-part portfolio.
 6. **Private submit - 3 min.** Submit only the authorized evidence route.
 
 ## Key and Trim Point

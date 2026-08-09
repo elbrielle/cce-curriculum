@@ -6,7 +6,7 @@ weeks: 6sw/wk5-job-skills
 audience: student
 variant_of:
 language: en
-pages: 7
+pages: 6
 orientation: portrait
 ---
 
@@ -87,29 +87,15 @@ What improved:
 
 [[pagebreak]]
 
-## Thank-You Note Plan
+## Final Fictional Thank-You Note
 
 A brief note is sent soon after a real interview—often within 24 hours—through the authorized route. This classroom note is not sent.
 
 Fictional recipient role: _________________________________________
 
-Specific thanks and one detail from the interview:
+Include a specific thanks/interview detail, one relevant qualification or interest, and a courteous close with an authorized next step.
 
-[[lines: 6]]
-
-One relevant qualification/interest to reinforce:
-
-[[lines: 6]]
-
-Professional close and authorized next step:
-
-[[lines: 4]]
-
-[[pagebreak]]
-
-## Final Fictional Thank-You Note
-
-[[lines: 18]]
+[[lines: 12]]
 
 Audit:
 
