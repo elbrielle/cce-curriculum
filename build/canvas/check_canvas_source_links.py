@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check external source links used by the remaining Canvas builders.
+"""Check external source links used by all 36 Canvas week builders.
 
 The checker fails only on confirmed 404/410 responses. Sites that reject
 automated requests, time out, or return another unusual response are reported
@@ -20,7 +20,10 @@ import urllib.request
 ROOT = Path(__file__).resolve().parents[2]
 CANVAS_DIR = Path(__file__).resolve().parent
 BUILDERS = [
-    *(CANVAS_DIR / f"build_4sw_wk{week}.py" for week in range(2, 7)),
+    *(CANVAS_DIR / f"build_wk{week}.py" for week in range(0, 6)),
+    *(CANVAS_DIR / f"build_2sw_wk{week}.py" for week in range(1, 7)),
+    *(CANVAS_DIR / f"build_3sw_wk{week}.py" for week in range(1, 7)),
+    *(CANVAS_DIR / f"build_4sw_wk{week}.py" for week in range(1, 7)),
     *(CANVAS_DIR / f"build_5sw_wk{week}.py" for week in range(1, 7)),
     *(CANVAS_DIR / f"build_6sw_wk{week}.py" for week in range(1, 7)),
 ]

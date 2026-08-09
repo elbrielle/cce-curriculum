@@ -722,11 +722,11 @@ This log records the official Canvas build without storing access credentials or
 
 ## 2026-08-08 - remaining-builder external source check
 
-- Extracted and checked all 74 external URLs used by the 4SW Wk2-6SW Wk6 Canvas builders.
+- Extracted and checked all 109 unique external URLs used by the full set of 36 Canvas week builders, from 1SW Wk0 through 6SW Wk6.
 - Three confirmed stale routes were repaired: Dallas College Construction Technology now uses `/study/construction-technology/`, Dallas College Electrical Technology uses `/study/electrical-tech/`, and TDLR Journeyman Electrician uses the current `/electricians/apply/individuals/journeyman-electrician.htm` route. All three replacements returned HTTP 200 and were verified against current official search results.
 - Added `build/canvas/check_canvas_source_links.py` as a repeatable course-production check. It fails on confirmed 404/410 responses and separates 403/timeouts for manual review so BLS anti-automation responses are not mislabeled as broken teacher links.
-- Current result: 74 checked, 49 directly reachable through the automated request, zero stale, and 25 manual-review responses. Twenty-four of the manual responses are current BLS pages returning 403 to the checker; the remaining item is an Autodesk privacy page timeout.
-- Manual browser follow-up on August 8 confirmed that the Autodesk Children's Privacy Statement loads at the linked route and is effective April 2026; it explicitly covers Tinkercad, school-authorized child access, and Classroom Safe Mode. Representative BLS Architect and Information Security Analyst pages also loaded at their exact linked routes. Keep the remaining BLS 403 responses in the manual-review class rather than rewriting current official links to avoid an automated access policy.
+- Current whole-course result: 109 checked, 65 directly reachable through the automated request, zero stale, and 44 manual-review responses. Forty-one are current BLS pages returning 403 to the checker; Autodesk and NIFA timed out; CDC returned 403.
+- Manual browser follow-up on August 8 confirmed that the Autodesk Children's Privacy Statement loads at the linked route and is effective April 2026; it explicitly covers Tinkercad, school-authorized child access, and Classroom Safe Mode. The current CDC NERD Academy outbreak-investigation module, February 2026 NIFA specialty-crop automation page, and representative BLS Architect, Information Security Analyst, Veterinarian, and Agricultural and Food Scientist pages also loaded at their exact linked routes. Keep the remaining BLS 403 responses in the manual-review class rather than rewriting current official links to avoid an automated access policy.
 
 ## 2026-08-08 - bulk preflight and response-space verification
 
