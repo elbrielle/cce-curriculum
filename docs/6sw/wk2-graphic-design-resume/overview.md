@@ -14,7 +14,7 @@ I can identify Arts/AV careers, create and revise a truthful privacy-safe résum
 | 2 | first résumé | privacy-safe résumé draft | private annotation/upload Assignment |
 | 3 | attention to detail | audio-cue revision + résumé before/after record | retryable practice Quiz + private revision |
 | 4 | effective job search | seven-step plan and fictional opportunity tracker | private annotation Assignment |
-| 5 | Merch Mode + final evidence | original design brief, final résumé, and self-score | private Major-draft Assignment |
+| 5 | Merch Mode + final evidence | formative original design + final résumé/revision/job-search Minor | private Minor 2 Assignment |
 
 ## TEKS
 
@@ -39,7 +39,7 @@ I can identify Arts/AV careers, create and revise a truthful privacy-safe résum
 
 ## Grading
 
-Days 1-4 provide formative evidence. Day 5 is **Minor 2** in the [6SW assessment map](../../resources/six-weeks-assessment-map.md), pending the live Canvas Minor group and 40/60 weights. Truthfulness, source use, revision, design reasoning, and job-search connection are scored. Platform choice, graphic polish, personal work history, public sharing, and English mechanics are not scored unless meaning is unclear.
+Days 1-4 build the evidence. Day 5 is **Minor 2** in the [6SW assessment map](../../resources/six-weeks-assessment-map.md) and remains unpublished until the Canvas review gate passes. Score truthfulness/privacy, visible résumé revision, the safe seven-step job-search process, tailored evidence, and a specific next action. Merch Mode receives formative design feedback; platform choice, graphic polish, personal work history, public sharing, and English mechanics are not scored unless meaning is unclear.
 
 ## Current Sources
 

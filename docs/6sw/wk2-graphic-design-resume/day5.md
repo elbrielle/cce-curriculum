@@ -1,11 +1,11 @@
 # Day 5: Merch Mode + Resume and Design Evidence
 
 **TEKS:** d(1)(C), d(6)(A), d(7)(A)
-**Evidence:** six-page Merch Mode Design Brief, final private résumé, and visible 16-point rubric
+**Evidence:** final private résumé, visible revision record, seven-step job-search evidence, tailored bullet, and visible 16-point Minor 2 rubric. Merch Mode is formative design practice.
 
 ## Before Class
 
-Open licensed FYF pp. 256-258. Post the design packet, rubric, and private Major-draft Assignment. Canva, Adobe Express, and paper are equal. Keep the task unpublished/ungraded until the 40/60 map is verified.
+Open licensed FYF pp. 256-258. Post the design packet, targeted Minor 2 rubric, and private Assignment. Canva, Adobe Express, and paper are equal. Keep the Assignment unpublished until the Canvas review gate passes.
 
 ## 50-Minute Flow
 
@@ -14,11 +14,11 @@ Open licensed FYF pp. 256-258. Post the design packet, rubric, and private Major
 3. **Two sketches and selection — 12 min.** Options must differ meaningfully.
 4. **Build and 3-second test — 12 min.** Record what a viewer noticed and revise one choice.
 5. **Career/resume connection — 6 min.** One designer duty, current national BLS evidence/limit, and an action-task-result résumé bullet.
-6. **Submit/self-score — 5 min.** Final résumé + design evidence + visible revision.
+6. **Submit/self-score — 5 min.** Submit the final résumé, before/after revision evidence, seven-step search/tracker, and tailored bullet. Merch Mode remains formative and does not add another graded artifact.
 
 ## Monitor and Key
 
-Graphic Designers create visual concepts to communicate ideas. Current BLS evidence: $61,300 May 2024 U.S. median, bachelor's degree as typical entry education, 2% projected 2024-34 growth, and about 20,000 annual openings. These are not DFW starting pay or a guarantee. Score audience reasoning, originality, test evidence, revision, truthful résumé evidence, and job-search connection—not software polish.
+Graphic Designers create visual concepts to communicate ideas. Current BLS evidence: $61,300 May 2024 U.S. median, bachelor's degree as typical entry education, 2% projected 2024-34 growth, and about 20,000 annual openings. These are not DFW starting pay or a guarantee. Give Merch Mode formative feedback on audience, originality, testing, and revision. Score Minor 2 only on the truthful résumé, visible revision, safe seven-step search, tailored evidence, and next action.
 
 ## Platform and Local Boundary
 
