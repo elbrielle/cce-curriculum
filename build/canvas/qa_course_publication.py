@@ -89,7 +89,7 @@ async def run(token: str) -> int:
                 "type": tab.get("type"),
             }
             for tab in tabs
-            if not tab.get("hidden")
+            if not tab.get("hidden") and str(tab.get("id")) != "settings"
         ]
         active_tab_ids = {str(tab["id"]) for tab in active_tabs}
         extra_tabs = [tab for tab in active_tabs if str(tab.get("id")) not in CORE_TABS]
@@ -123,6 +123,11 @@ async def run(token: str) -> int:
                     assignment.get("assignment_group_id") == group.get("id")
                     for assignment in assignments
                 ),
+                "published_assignments": sum(
+                    assignment.get("assignment_group_id") == group.get("id")
+                    and assignment.get("published")
+                    for assignment in assignments
+                ),
             }
             for group in groups
         ]
@@ -149,10 +154,6 @@ async def run(token: str) -> int:
             must_fix.append(
                 f"expected one replacement home page; found {len(replacement_pages)}"
             )
-        elif replacement_pages[0].get("published"):
-            warnings.append(
-                "replacement home page is already published; confirm this was intentional"
-            )
         if len(week_modules) != EXPECTED_WEEK_MODULES:
             must_fix.append(
                 f"expected {EXPECTED_WEEK_MODULES} week modules; found {len(week_modules)}"
@@ -175,9 +176,12 @@ async def run(token: str) -> int:
             warnings.append(
                 f"{len(extra_tabs)} navigation tabs are enabled beyond Home, Modules, and Grades"
             )
-        if legacy_groups:
+        published_legacy_groups = [
+            row for row in legacy_groups if row["published_assignments"]
+        ]
+        if published_legacy_groups:
             warnings.append(
-                f"{len(legacy_groups)} legacy/default assignment groups remain visible in Syllabus"
+                f"{len(published_legacy_groups)} legacy/default groups contain published assignments"
             )
         if not course.get("apply_assignment_group_weights"):
             must_fix.append("assignment-group weighting is not enabled")

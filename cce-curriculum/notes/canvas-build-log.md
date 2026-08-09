@@ -2,6 +2,20 @@
 
 This log records the official Canvas build without storing access credentials or licensed files in GitHub.
 
+## 2026-08-09 — Reviewed launch shell and Week 0 student pilot
+
+- Replaced the generic template home with `Career and College Exploration Home` and set the course home layout to the reviewed Pages front page.
+- Published `START HERE: CCE Course Orientation` with its one student page. `Teacher Build: Licensed Resources` remains unpublished.
+- Reduced student navigation to Home, Modules, and Grades. Instructor-only internal tools remain available to teachers, while integrations are launched from the lesson that gives them a specific job.
+- Unpublished the five unused template pages: `Welcome!`, `Meet Your Teacher`, `Quick Links`, `Schedule`, and `Syllabus`. No pages were deleted.
+- Published `1SW Wk0: Classroom Routines and Career Self-Discovery` as the first instructional pilot. Students see five Day headers, five Student Guides, and `MINOR 1: My Career Journey Reflection`; all five Teacher Facilitator Guides remain unpublished.
+- Unlocked only the `CCR Materials/1SW/Wk0` delivery chain required for authenticated student access. Sibling week folders and the teacher-only licensed Xello library remain locked.
+- Student View verified the replacement home, orientation-first sequence, Week 0 module order, hidden teacher pages, direct Student Guide route, mobile-width layout with no horizontal overflow, and the mapped 100-point Minor.
+- Canvas publication behavior is now recorded in the production workflow: publishing a parent module cascades publication to every child, so teacher pages must be re-hidden afterward; file access also requires the parent folder chain to be available.
+- Launch-shell automation: `build/canvas/configure_course_launch_shell.py`
+- Reviewed-module publisher: `build/canvas/publish_reviewed_module.py`
+- Publication audit: `build/canvas/qa_course_publication.py`
+
 ## 2026-08-06 — CCR course foundation and Week 0
 
 **Course:** `S1 - CC EXPLOR - LUCERO` (Canvas course 98060)

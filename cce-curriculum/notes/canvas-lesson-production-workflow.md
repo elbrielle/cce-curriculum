@@ -304,6 +304,16 @@ uv run --with httpx python build/canvas/qa_course_publication.py
 
 Enter the token through the same echo-disabled, stdin-only pattern. This audit is intentionally stricter than the transfer verifier: it reports the active front page, generic-template placeholders and layout tables, week-module inventory and published state, orientation/teacher-module boundary, learner navigation tabs, assignment groups, and published pages. A nonzero result means the course is still staged or has a learner-facing publication risk; it does not mean the unpublished import failed. Do not silence a finding by publishing everything or hiding links blindly. Resolve it through Student View and record the intended opening sequence.
 
+### Reviewed publication workflow
+
+Use `configure_course_launch_shell.py` to publish the reviewed home and student orientation, set the home-page layout, and reduce learner navigation to Home, Modules, and Grades. Internal Canvas tabs hidden from students remain available to instructors; external tools should be launched contextually from the lesson that uses them rather than left as a long course-navigation menu.
+
+Use `publish_reviewed_module.py` only after the module verifier and browser gate pass. Canvas publishes every child item when a draft module is first published, including unpublished facilitator guides. The publisher therefore reasserts every teacher page and teacher module item as unpublished after the parent-module publication cascade. Do not reverse that order.
+
+Canvas file access inherits folder availability. Unlocking only `.../WkN` is not enough when `CCR Materials` or the six-weeks parent folder is locked. The reviewed-module publisher unlocks the exact week folder, its descendants, and the minimum parent chain needed for authenticated student access. Sibling week folders remain locked until their own publication gate passes. Teacher-only Xello libraries and licensed-resource folders remain locked.
+
+The student-facing route is intentionally small: Home → Modules → Day header → Student Guide → one contextual activity when needed. Current Canvas guidance supports a Pages front page, controlled navigation, and Modules as a linear sequence. Practitioner reviews consistently favor week-based modules, repeatable naming, and placing the activity immediately after the directions. Variety belongs inside the lesson through purposeful annotation, private assignments, short practice checks, recordings, simulations, and platform work; more clicks are not treated as engagement.
+
 If an image is slow on first load, treat that as a performance defect even when it eventually appears. Record its Canvas file ID, source dimensions, byte size, page, and whether it is reused. Test an optimized copy against the original at desktop and 390-pixel viewport widths, including close inspection of the smallest instructional text. Replace the Canvas copy only after the optimized version remains equally usable; keep the licensed source original unchanged in the local gitignored archive.
 
 Run the non-mutating local inventory before a large import and during coursewide QA:
