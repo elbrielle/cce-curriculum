@@ -306,6 +306,14 @@ Enter the token through the same echo-disabled, stdin-only pattern. This audit i
 
 If an image is slow on first load, treat that as a performance defect even when it eventually appears. Record its Canvas file ID, source dimensions, byte size, page, and whether it is reused. Test an optimized copy against the original at desktop and 390-pixel viewport widths, including close inspection of the smallest instructional text. Replace the Canvas copy only after the optimized version remains equally usable; keep the licensed source original unchanged in the local gitignored archive.
 
+Run the non-mutating local inventory before a large import and during coursewide QA:
+
+```bash
+python3 build/canvas/audit_local_image_performance.py --warn-kb 500 --top 30
+```
+
+The report reads PNG/JPEG dimensions and file sizes without decoding, rewriting, or uploading the images. Treat the threshold as a review queue, not an automatic failure: text-heavy workbook crops may legitimately need more bytes than a decorative photo. After live import, add the Canvas file ID, page URL, first-load observation, and reuse count to the same review record before testing an optimized copy.
+
 ## 7. Record and publish the source work
 
 After Canvas verification:
