@@ -5,7 +5,7 @@
 
 ## Before Class
 
-Post the private Major-draft media Assignment, five-page evidence record, and rubric. Confirm each student's route before class. Use sequential 60-90-second slots, simultaneous small groups with recordable evidence, teacher conferences, private recordings, or AAC; do not improvise a 75-minute three-minute roster.
+Post the private formative media Assignment, four-page evidence record, and feedback rubric. Confirm each student's route before class. Use sequential 60-90-second slots, simultaneous small groups with recordable evidence, teacher conferences, private recordings, or AAC; do not improvise a 75-minute three-minute roster.
 
 ## 50-Minute Flow
 

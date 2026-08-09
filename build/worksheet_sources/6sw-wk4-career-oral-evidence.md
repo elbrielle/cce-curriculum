@@ -6,7 +6,7 @@ weeks: 6sw/wk4-sales-presentations
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 4
 orientation: portrait
 ---
 
@@ -26,7 +26,7 @@ The final evidence is a 60-90 second professional oral/communicated brief. A wri
 
 Source(s) used:
 
-[[lines: 5]]
+[[lines: 3]]
 
 [[pagebreak]]
 
@@ -76,23 +76,21 @@ Student self-evidence:
 
 One communication skill I demonstrated:
 
-[[lines: 5]]
+[[lines: 2]]
 
 How the same skill works in two different careers:
 
 Career 1:
 
-[[lines: 4]]
+[[lines: 2]]
 
 Career 2:
 
-[[lines: 4]]
+[[lines: 2]]
 
 One next goal:
 
-[[lines: 4]]
-
-[[pagebreak]]
+[[lines: 2]]
 
 ## Strengths Interview Preview - Not Yet Graded
 
@@ -100,12 +98,12 @@ The capstone later uses a conversation with a trusted adult. A family member is 
 
 Possible approved adult/route (campus route may be arranged later):
 
-[[lines: 4]]
+[[lines: 2]]
 
 Two questions I could add:
 
-[[lines: 6]]
+[[lines: 3]]
 
 Access, language, scheduling, or privacy support I need:
 
-[[lines: 5]]
+[[lines: 2]]

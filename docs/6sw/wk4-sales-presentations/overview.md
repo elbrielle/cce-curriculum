@@ -14,7 +14,7 @@ I can identify sales/marketing careers, plan and revise an ethical audience-spec
 | 2 | oral pitch + revision | two communicated attempts and revision record | private media/annotation Assignment |
 | 3 | BrainBoost rescue + career evidence | individual rescue plan and 60-90-second career outline | private annotation Assignment |
 | 4 | interview appearance + rehearsal | three context decisions and two rehearsals | retryable practice Quiz + rehearsal record |
-| 5 | career oral evidence | 60-90-second live/recorded/AAC brief, reflection, and self-score | private Major-draft media Assignment |
+| 5 | career oral evidence | 60-90-second live/recorded/AAC brief, reflection, and self-score | private formative media Assignment |
 
 ## TEKS
 

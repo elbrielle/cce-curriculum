@@ -6,7 +6,7 @@ weeks: 6sw/wk4-sales-presentations
 audience: student
 variant_of:
 language: en
-pages: 3
+pages: 2
 orientation: landscape
 ---
 
@@ -21,7 +21,7 @@ orientation: landscape
 
 Total: ____ / 16
 
-This is a Major draft until the live sixth-six-weeks 40/60 assessment map is verified.
+This is formative Week 4 rehearsal for the Week 5 and Week 6 majors. Use it for feedback and revision, not as another grade.
 
 [[pagebreak]]
 
@@ -31,28 +31,26 @@ Equivalent oral routes: whole group, small group, teacher conference, recorded a
 
 Written-only work does not demonstrate the oral-presentation standard unless an accommodation formally changes the task. Record the authorized alternate evidence here:
 
-[[lines: 7]]
+[[lines: 1]]
 
 Teacher feedback:
 
-[[lines: 7]]
-
-[[pagebreak]]
+[[lines: 1]]
 
 ## Revision Record
 
 Weakest criterion and why:
 
-[[lines: 4]]
+[[lines: 1]]
 
 One content revision:
 
-[[lines: 4]]
+[[lines: 1]]
 
 One organization or delivery/AAC revision:
 
-[[lines: 4]]
+[[lines: 1]]
 
 Evidence the second attempt improved:
 
-[[lines: 3]]
+[[lines: 1]]
