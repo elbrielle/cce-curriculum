@@ -127,6 +127,8 @@ Write naturally. Student directions should sound like a capable teacher giving a
 
 ### Choose the Canvas interaction on purpose
 
+Use `docs/resources/canvas-engagement-and-organization-patterns.md` as the interaction-selection and integration preflight companion to this workflow.
+
 Do not assume every student artifact should become a printed worksheet or a static page. Before authoring, choose the Canvas surface that removes the most teacher work without weakening the learning target:
 
 - **Page:** directions, examples, source images, absence recovery, and content students need to revisit.
