@@ -147,7 +147,7 @@ async def upsert_item(client, module_id, kind, key, title):
 
 def image_tag(file_id, alt, max_width=700):
     return (
-        f'<img src="/courses/{COURSE_ID}/files/{file_id}/preview" alt="{alt}" '
+        f'<img loading="lazy" src="/courses/{COURSE_ID}/files/{file_id}/preview" alt="{alt}" '
         f'style="display:block;width:100%;max-width:{max_width}px;height:auto;margin:14px auto;border:1px solid #ddd" '
         f'data-api-endpoint="/api/v1/courses/{COURSE_ID}/files/{file_id}" data-api-returntype="File">'
     )

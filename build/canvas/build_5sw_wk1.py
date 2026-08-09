@@ -135,7 +135,7 @@ async def upsert_quiz(client):
 
 def image_tag(file_id, alt):
     return (
-        f'<img src="/courses/{COURSE_ID}/files/{file_id}/preview" alt="{alt}" '
+        f'<img loading="lazy" src="/courses/{COURSE_ID}/files/{file_id}/preview" alt="{alt}" '
         'style="display:block;width:100%;max-width:700px;height:auto;margin:14px auto;border:1px solid #ddd" '
         f'data-api-endpoint="/api/v1/courses/{COURSE_ID}/files/{file_id}" data-api-returntype="File">'
     )
