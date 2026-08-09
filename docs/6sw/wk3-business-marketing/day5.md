@@ -1,11 +1,11 @@
-# Day 5: Private Marketing Evidence Brief
+# Day 5: Ethical Marketing Evidence Brief
 
 **TEKS:** d(1)(C), d(3)(I), d(5)(C)
-**Evidence:** six-page individual brief and 16-point self-score/revision record
+**Evidence:** four-page individual brief and 16-point self-score/revision record
 
 ## Before Class
 
-Post the private Major-draft Assignment, six-page brief, and rubric. Do not require a live pitch, public Discussion, H&L favorites, Xello completion, eDynamic progress, real posting, or personal business disclosure.
+Post the private Minor 3 Assignment, four-page brief, and targeted rubric. Keep it unpublished until the Canvas review gate passes. Do not require a live pitch, public Discussion, H&L favorites, Xello completion, eDynamic progress, real posting, or personal business disclosure.
 
 ## 50-Minute Flow
 

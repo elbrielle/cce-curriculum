@@ -6,7 +6,7 @@ weeks: 6sw/wk3-marketing
 audience: student
 variant_of:
 language: en
-pages: 3
+pages: 2
 orientation: landscape
 ---
 
@@ -21,7 +21,7 @@ orientation: landscape
 
 Total: ____ / 16
 
-This remains a Major draft until the live sixth-six-weeks 40/60 assessment map is verified.
+This is Minor 3 in the approved sixth-six-weeks assessment map. It remains unpublished until the Canvas review gate passes.
 
 [[pagebreak]]
 
@@ -34,22 +34,20 @@ This remains a Major draft until the live sixth-six-weeks 40/60 assessment map i
 - [ ] no real account, sale, payment, contact, personal data, public post, copied mark, or income promise;
 - [ ] platform clicks are not submitted as mastery evidence.
 
+## Feedback and Revision
+
 Teacher feedback:
 
-[[lines: 8]]
-
-[[pagebreak]]
-
-## Revision Record
+[[lines: 2]]
 
 Weakest criterion and why:
 
-[[lines: 4]]
+[[lines: 1]]
 
 Visible revision:
 
-[[lines: 6]]
+[[lines: 2]]
 
 One source, number, audience claim, or boundary I rechecked:
 
-[[lines: 4]]
+[[lines: 1]]
