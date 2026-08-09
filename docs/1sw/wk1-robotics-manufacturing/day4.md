@@ -1,151 +1,83 @@
-# Day 4: Sphero Factory Floor + Robots for Crayons (Part 1)
+# Day 4: Robots for Crayons Evidence and Action Plan
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **Topic:** Manufacturing Troubleshooting
+- **Objective:** Students will identify Manufacturing career opportunities and explain how workers use case evidence to plan a response to two production problems.
 - **TEKS:** d(1)(C)
-- **Demonstration of Learning:** Sphero teams driving basic patterns + team role assignments + Steps 1-3 (problems, machine reference, shift notes) complete.
+- **Demonstration of Learning:** A completed two-problem Robots for Crayons plan with two case clues, a testable solution, ordered steps, tools or adjustments, a time estimate, production effect, and next check for each problem.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Set up Sphero RVR+ teams; learn basic SpheroEDU block-based programming; begin the "Robots for Crayons" team activity at Kaleido-Crayons Factory |
+| **Objectives** | Investigate Color Confusion and Slowpoke Robot; separate evidence from guesses; build a usable response plan for both factory problems; connect the work to Manufacturing roles |
 | **TEKS** | d(1)(C) |
-| **5E Phases** | Engage: Warm-Up · Explain: SpheroEDU block walkthrough · Explore: Factory floor runs and Robots for Crayons case files · Evaluate: Exit Ticket |
-| **Deliverable** | Sphero teams driving basic patterns + team role assignments + Steps 1-3 (problems, machine reference, shift notes) complete |
-| **Materials** | Sphero RVR+ robots (1 per team of 3-4), SpheroEDU app, painter's tape factory floor course, cardboard obstacles, *Find Your Future* workbook pp. 200-202, Chromebooks, projector |
+| **5E Phases** | Engage: Warm-Up · Explain: Machine reference and shift roles · Explore: Shift evidence, brainstorm, and action plan · Evaluate: Exit Ticket |
+| **Deliverable** | Completed Robots for Crayons Evidence and Action Plan for both problems |
+| **Materials** | *Find Your Future* workbook pp. 200-203, [Robots for Crayons Evidence and Action Plan](../../resources/worksheets/1sw-wk1-robots-for-crayons-action-plan.pdf), sticky notes, projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Have you ever seen a real industrial robot in person (at a factory tour, on a video, or in a YouTube short)? What was it doing?**
+**WARM-UP:** A factory machine starts failing right after one part is replaced. What should the team check first, and what evidence would help them decide?
 
-Quick share. If you have access, queue up a 60-second YouTube clip of FANUC robots assembling cars. Bridge: "Today you become the team that runs a factory floor, but with a much smaller robot called a Sphero."
+Students complete a 60-second Stop and Jot, then compare one answer with a partner. Listen for a first check that uses the timing of the failure rather than immediately replacing unrelated parts.
 
----
+## Activity 1: Read the Factory Brief and Machine Reference (10 min)
 
-## Activity 1: Set Up the Factory Floor Course (8 min)
+**Source:** (FYF pp. 200-201: "Robots for Crayons," Steps 1-2)
 
-Before class, lay out a "factory floor" course on the classroom floor using painter's tape:
+Teams read the two production problems:
 
-- A **Start zone** at one end (Point A)
-- A **Delivery zone** at the other end (Point B), about 6-8 feet away
-- 2-3 **obstacles** in the path (cardboard boxes, blocks, books)
-- A **straight path** for the first run, then add complexity later
+- **Color Confusion:** boxes have repeated or missing colors, especially Sky Blue and Violet.
+- **Slowpoke Robot:** the arm moves too slowly or misses crayons, creating falls, piles, jams, and stopped production.
 
-Distribute Sphero RVR+ robots, one per team of 3-4 students. Assign roles within each team:
+Chunk the machine reference into three systems: color sensors, robotic arms, and production lines. After each chunk, ask students to name one possible cause the source actually supports. Record possibilities without choosing a final answer yet.
 
-- **Coder**: Pairs the Sphero to the Chromebook, then builds the block-based program
-- **Tester**: Runs the program and reports what the robot actually did against what the team planned
-- **Navigator**: Measures the course, tracks distances and headings, and calls the next fix
+## Activity 2: Read the Shift Evidence by Role (10 min)
 
-In a team of 4, the extra student takes Coder for the second run and the first Coder moves to Tester, so every seat changes hands at least once.
+**Source:** (FYF pp. 201-202: "Robots for Crayons," Step 3)
 
-Walk students through Sphero pairing:
+Assign each student one lens: Shift Supervisor, Quality Control Specialist, Maintenance Technician, or Packaging Supervisor. Students mark two clues for each problem and record what their role would check first.
 
-1. Power on the Sphero RVR+ (button on the rear).
-2. Open SpheroEDU app on the Chromebook.
-3. Tap "Connect" → select the Sphero by its name.
-4. Confirm the LED indicator goes solid (not blinking).
+**Active Monitoring:** Make two laps. Lap 1 target: every student has marked evidence from the shift notes rather than a general guess. Lap 2 target: each team can explain why the replacement color sensor matters to Color Confusion and why the replaced arm belt matters to Slowpoke Robot. If several teams use the software update as proof, pause and distinguish a possible cause from a confirmed cause.
 
-!!! warning "Common Issue"
-    Sphero pairing fails if multiple teams try to connect to the same robot. Color-code the robots and the Chromebooks (sticker matching) so each team always works with the same Sphero.
+Teacher key:
 
-!!! warning "Before Monday: Device Prep"
-    Charge every robot the night before. The RVR+ battery is removable and takes hours to fill from flat. Connect one robot yourself ahead of class and clear any firmware-update prompt, because that prompt can eat the whole pairing window on the first connect of a term. Then test-pair that robot to one Chromebook. The app is **SpheroEDU**, which runs on a Chromebook through the web version at [edu.sphero.com](https://edu.sphero.com). On district-managed devices it needs an admin-console push and Bluetooth allowed on the student device policy, so file the IT ticket weeks ahead of this week.
+- **Color Confusion:** the problem began after the color sensor was replaced; cleaning, lighting adjustment, and recalibration did not solve it. The software update is a possible factor, not proof. A defensible first plan checks compatibility, installation, and controlled testing of the replacement sensor before unrelated repairs.
+- **Slowpoke Robot:** the problem began after the rubber belt was changed; mismatched speeds and belt tension are named causes in the reference. A defensible first plan checks belt size/tension and then retests the arm and conveyor together.
+- Accept a different plan when students cite the source, use a safe test, and name what result would lead to the next check.
 
-!!! tip "No Robots? Run the Simulator"
-    The SpheroEDU app has a built-in simulator that runs the identical block program on screen, so Activities 1 and 2 both work with no hardware at all. With fewer than 8 robots, run teams of 4-5 and rotate the three roles between runs so no student sits out. With zero robots, every team builds and runs its program in the simulator, and the taped floor course stays down so teams can pace out the distances they are programming.
+## Activity 3: Brainstorm and Build Both Action Plans (20 min)
 
----
+**Source:** (FYF pp. 202-203: "Robots for Crayons," Steps 4-5)
 
-## Activity 2: SpheroEDU Block Programming Basics (15 min)
+Teams generate ideas for both problems on sticky notes. The workbook suggests at least 15 ideas; protect the quality of the final plan if a group needs to stop below that count. Students then complete the expanded action-plan packet. The packet gives each reasoning job its own writing space instead of forcing steps, tools, time, and production effect into narrow workbook table cells.
 
-Project the SpheroEDU app on the screen. Walk students through the **block-based programming interface** one block at a time:
+Each problem needs:
 
-1. **Roll**: Make the Sphero drive forward at a set speed for a set time. Show how to adjust speed (0-255) and duration (seconds).
-2. **Heading**: Set the direction the robot drives (0° = forward, 90° = right, 180° = backward, 270° = left). Heading is absolute, not relative: 0 is always the direction the robot was facing when the program started, no matter which way it is pointing right now. So a Heading of 90 does not mean "turn 90 degrees from here," it means "face the direction that was 90 degrees to the right of the start."
-3. **Stop**: Stop the robot.
-4. **Wait**: Pause the program for a set time.
+1. two clues from the source;
+2. one selected solution;
+3. how the solution works;
+4. three ordered steps;
+5. tools or adjustments;
+6. an estimated time and production effect; and
+7. a prevention step or next evidence-based check.
 
-**Chunking:** Students follow along on their Chromebooks. Say what each block is for before you demonstrate it (Roll drives, Heading aims, Wait buys time, Stop protects the robot), and close each chunk with a quick visual check: "Hold up a thumb if your block is on screen." Do not release the next block until the thumbs are up. Note which block draws the most thumbs down; that block is the 3 minute re-teach at the start of Day 5.
+Use a 10-minute checkpoint: students should have both evidence sections and one selected solution. Use a 16-minute checkpoint: students should be writing the second set of ordered steps. If a team cannot name a tool, test, or time, the plan is still an idea and needs another pass.
 
-**Mini-challenge:** Have each team write a 3-block program that drives the Sphero forward 3 seconds, changes its Heading to 90, and drives forward 2 seconds. Run it on the factory floor course and observe.
+## Exit Ticket (5 min)
 
-!!! tip "Facilitation Tip"
-    The first run will fail for most teams. Sphero overshoots, undershoots, or turns the wrong way. This is GOOD. Tell students: "This is debugging. Real software developers spend more time debugging than writing code." Encourage iteration, not perfection.
+Choose one Manufacturing role that would take part in the response. In two or three sentences, explain what that worker would do first and cite one clue from the case.
 
----
-
-## Activity 3: Begin "Robots for Crayons" — Read the Brief (15 min)
-
-**Source:** (FYF pp. 200-202: "Robots for Crayons", Steps 1-3), a Career Climb activity
-
-**Step 1: Learn about Kaleido-Crayons (p. 200).** Students get into small groups of 3-4 and take turns reading the brief aloud. They are called in to a 24/7 factory where the robotic sorting machine is malfunctioning and production is falling behind. Two specific problems:
-
-- **Problem #1: Color Confusion**: Boxes have repeated colors or missing colors. The robot struggles to tell similar colors apart, especially Sky Blue and Violet. Customers expect complete, accurate boxes.
-- **Problem #2: Slowpoke Robot**: The robotic arm moves too slowly or misses crayons, so crayons fall, pile up, or jam the system. The line has already stopped twice. Delays slow the whole factory and waste materials.
-
-**Step 2: How the Machines Work (p. 201).** This page is the team's technical reference, and it is where the answers hide. Read it as a group and have each team circle the causes that could match their two problems: color sensors read color by light reflection and are thrown off by uneven lighting, dust on the sensor, calibration errors, or low-quality replacement parts; robotic arms run on motors and belts and fail when a belt is too tight or too loose, when arm and conveyor speeds do not match, or when parts wear out; production lines need every part moving at the same speed, so slowing one part affects the whole system.
-
-**Step 3: Read the Shift Notes (pp. 201-202).** Students read the Supervisor Shift Notes from J. Vega's 2nd shift and circle key details. The notes contain the critical clues:
-
-- The color sensor was REPLACED last week, and the new one might not work as well under factory lights.
-- A software update happened at 4:00 PM.
-- Three new people are being trained this week.
-- The robotic arm's rubber belt was recently changed and might be the wrong size.
-- New packaging might be a factor.
-
-**Waste + Impact Report (p. 202):** 68 boxes hand-fixed, 20 boxes pulled from shipping, 430 crayons damaged, two stops of 12 and 14 minutes for a total of 26 minutes that caused over 1.5 hours of downstream delay, 1 full pallet of 120 boxes pushed to the next day. The customer is unhappy, and this is the second wait this month.
-
-**Assign team roles.** The workbook puts students in groups of 3-4 without naming jobs inside the group. Assign these four production roles anyway so every student has something to own when the plan gets written on Day 5:
-
-- **Shift Supervisor**: Leads team discussions and keeps everyone on track.
-- **Quality Control Specialist**: Makes sure product quality meets standards.
-- **Maintenance Tech**: Considers mechanical issues with equipment.
-- **Packaging Supervisor**: Oversees all packaging of the product.
-
-Teams write down who is playing which role. Then each role rereads the shift notes through its own lens and marks the clues that belong to its job. Push teams with these questions:
-
-- Why might these problems be happening?
-- How can the robotic sorter be improved without shutting down the factory?
-- How can the problem be fixed without buying a brand-new robotic sorter?
-- Which clue belongs to your role, and which one is somebody else's problem?
-
-**DOK 3:** What conclusions can you draw about the connection between Problem #1 (Color Confusion) and the shift notes about the new color sensor and the software update?
-
----
-
-## Exit Ticket (2 min)
-
-**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/1sw-wk1-day4-sphero-factory-floor-robots-for-crayons-part-1.pdf):
-
-My production team role today: _______________________ (Shift Supervisor, Quality Control Specialist, Maintenance Tech, or Packaging Supervisor)
-
-Problem: Kaleido-Crayons just reported MORE Color Confusion boxes at 5:00 PM, one hour AFTER the 4:00 PM software update.
-
-Step 1: What does MY ROLE do FIRST in the next 15 minutes? One sentence:
-
-   ___________________________________________________________________
-
-Step 2: Which OTHER role on the team do I need to talk to right now, and why? (Pick ONE: Shift Supervisor / Quality Control Specialist / Maintenance Tech / Packaging Supervisor)
-
-   I need to talk to: _______________________
-
-   Because: ________________________________________________________
-
-Step 3: What is ONE specific clue from the shift notes that points to a possible cause of Color Confusion? *(d(1)(C))*
-
-   ___________________________________________________________________
-
----
+Collect the action-plan packet. The workbook's Step 6 peer presentation may be used as an early-finisher or next-day feedback routine, but it is not required evidence this week because Day 5 protects the required Xello Matchmaker block.
 
 ## Differentiation
 
-- **Support:** Provide pre-built SpheroEDU starter code (drive forward + stop) that students modify rather than build from scratch. For Robots for Crayons, assign roles to students rather than letting them choose (extroverts get Shift Supervisor; detail-focused students get Quality Control).
-- **Extension:** Sphero teams who master the basic 3-block program can add a 4th block (drive backward) and create a square pattern.
-- **ELL:** Bilingual SpheroEDU command card (Roll = Rodar, Heading = Dirección, Stop = Detener, Wait = Esperar). Pair ELL students with bilingual peers when reading the Kaleido-Crayons shift notes.
+- **Support:** Read the shift notes aloud, provide the two-problem packet, and allow students to dictate a plan to a partner or use speech-to-text. Pre-teach evidence, sensor, calibration, belt tension, downtime, and production.
+- **Extension:** Students add a short test-result table showing what the team would do if the first test passes and what it would do if the first test fails.
+- **ELL:** Use bilingual labels: evidence = evidencia, sensor = sensor, belt = correa, adjustment = ajuste, downtime = tiempo de inactividad. Frame: "The clue _____ matters because _____. We will test _____ by _____."
+- **Absence route:** Use the embedded workbook images and action-plan packet in Canvas. Complete both plans independently; no robot, group, or presentation is required.

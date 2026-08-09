@@ -27,7 +27,7 @@ Do not leave a teacher with only “Open Resources in Xello.” The Canvas modul
 | Priority | Xello task or group | Documents to capture | Canvas placement | Status |
 |---:|---|---|---|---|
 | 1 | Log in to Xello | Day 1 checklist; introduction presentation | 1SW Wk0 teacher guide and student launch page | Pending capture |
-| 2 | Matchmaker quiz | Activity lesson plan; student assessment guide | 1SW onboarding module | Lesson plan uploaded to Canvas; student guide pending |
+| 2 | Matchmaker quiz | Activity lesson plan; native student directions and private reflection | 1SW Wk1 Day 5 | Complete unpublished placement: licensed teacher guide embedded; native student guide and private reflection assignment live in Canvas |
 | 3 | Personality Style quiz | Available lesson plan or student guide from the resource panel | 1SW onboarding module | Activity plan uploaded to Canvas |
 | 4 | Learning Style quiz | My Learning Styles activity plan; applicable student guide | 1SW learning-profile module | Activity and lesson plans uploaded to Canvas; student guide pending |
 | 5 | Add interests and Add skills | My Interests plan; About Me student guide; applicable assignment directions | 1SW profile module | My Interests and About Me plans uploaded to Canvas; assignment directions pending |
@@ -101,6 +101,13 @@ Complete one row per uploaded file during the Canvas import.
 - The live Grade 8 requirement is Work experiences: 10 minutes and at least one authentic saved experience. Time Management remains a supplemental extension and is not accepted as the district completion artifact.
 - The broader `My experiences` guide may ask students to record multiple experiences. Teachers may use that as extended support, but the live Completion Standards configuration controls the required minimum.
 - Remaining capture priority for this lesson is any Xello-supplied student directions, presentation, worksheet, or downloadable student video that directly supports Work experiences. Place each licensed binary in locked Canvas, identify its audience and classroom job, and keep a visible text route on the student page.
+
+### 1SW Week 1 Matchmaker record: 2026-08-09
+
+- `matchmaker-assessment.pdf` remains Canvas file 14517237 in the locked, unpublished Xello resource collection and is linked from `TEACHER: 1SW Wk1 Day 5 Facilitator Guide`.
+- `STUDENT: 1SW Wk1 Day 5 - Xello Matchmaker` provides the native student route: ClassLink &gt; Xello &gt; About Me &gt; Matchmaker, the first 39 questions, one `Find out why` inspection, a visible completion checklist, and supervised catch-up when the platform or prerequisite is unavailable.
+- Private `1SW Wk1 Day 5 - Matchmaker Reflection` assignment 3095755 accepts text or audio and remains unpublished and not graded. It does not require a profile screenshot or public disclosure of assessment results.
+- The Completion Standards report is the teacher verification route. The licensed guide supports the teacher; the live district configuration controls completion.
 
 ### Week 6 Explore Career Matches record: 2026-08-08
 

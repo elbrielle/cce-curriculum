@@ -5,18 +5,18 @@
 - **Topic:** Career Clusters
 - **Objective:** Students will explore and describe the CTE career clusters and identify career opportunities within one or more career clusters using evidence from Career Clusters.
 - **TEKS:** d(1)(B), d(1)(C)
-- **Demonstration of Learning:** Stop and Jot notes (2 careers + 2 questions) and 1 Manufacturing pathway identified.
+- **Demonstration of Learning:** Submitted What is CTE response, Stop and Jot notes, and a comparison of two Manufacturing careers using one specific task and one preparation fact for each.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Read the Manufacturing chapter opener; work the Be the Decision Maker prompt with a partner; explore the Manufacturing cluster in the H&L app; identify pathways and Hats |
+| **Objectives** | Complete the required Xello What is CTE task; read the Manufacturing chapter opener; explore Manufacturing careers in the workbook and H&L |
 | **TEKS** | d(1)(B), d(1)(C) |
-| **5E Phases** | Engage: Warm-Up and Be the Decision Maker · Explain: Manufacturing pathways walkthrough · Explore: Cluster app exploration and Stop and Jot · Evaluate: Exit Ticket |
-| **Deliverable** | Stop and Jot notes (2 careers + 2 questions) and 1 Manufacturing pathway identified |
-| **Materials** | *Find Your Future* workbook pp. 199 and 212, Chromebooks, projector for cluster tour video |
+| **5E Phases** | Engage: Warm-Up · Explain: What is CTE and Manufacturing opener · Explore: Cluster app exploration and Stop and Jot · Evaluate: Exit Ticket |
+| **Deliverable** | What is CTE response + Stop and Jot notes + two-career comparison |
+| **Materials** | *Find Your Future* workbook pp. 199 and 212, Chromebooks, Xello and H&L access, projector |
 
 ---
 
@@ -28,7 +28,15 @@ Quick share-out. Listen for students saying "a machine" or "a factory." Bridge: 
 
 ---
 
-## Activity 1: Exploring the World of Manufacturing (15 min)
+## Activity 1: Xello What is CTE? (10 min)
+
+**Source:** Bowie Grade 8 Xello Completion Standard, "What is CTE?"
+
+Students open Xello through ClassLink and locate **What is CTE?** in their assigned work. The district custom task requires a text response or file submission. Preview the current prompt before class and show students where the response is submitted. Do not substitute a different Xello lesson or treat opening the task as completion.
+
+Use the Completion Standards report to verify the submission. If the current prompt needs more than ten minutes, students finish it during supervised catch-up; do not take time from Matchmaker on Day 5.
+
+## Activity 2: Exploring the World of Manufacturing (15 min)
 
 **Source:** (FYF p. 199: "Exploring the World of MANUFACTURING")
 
@@ -43,7 +51,7 @@ The chapter does not print a pathway list. Walk through the **six Manufacturing 
 5. **Welding**: Work with metal and plastic to join parts together using heat (welding, cutting).
 6. **Advanced Manufacturing & Industrial Technology**: Work with high-tech equipment like CNC machines, robots, and computers to shape metal.
 
-Tell students the FANUC Robot Operator 1 certification at Singley Academy connects directly to pathway #1 (Robotics and Automation Technology). The workbook's district pages name that certification and the Robotics & Manufacturing program of study behind it (FYF pp. 210-211: "What is Happening at My District?").
+The current Irving ISD site names **Robotic Manufacturing** in Singley Academy's School of Innovative Technology. The district-customized workbook pages identify the FANUC Robot Operator 1 certification and related equipment and experiences (FYF pp. 210-211). Teach those details as FYF curriculum content and keep the source attached to the claim.
 
 **Be the Decision Maker (FYF p. 199):** Read the opener's boxed prompt aloud. A welder is helping build a rocket launch platform before an important space mission. The team can slow down and double-check every weld, or keep moving quickly to finish on schedule. What would you choose, and how would you explain that decision to the team?
 
@@ -57,11 +65,11 @@ Tell students the FANUC Robot Operator 1 certification at Singley Academy connec
 
 ---
 
-## Activity 2: H&L Manufacturing Cluster App Exploration with Stop and Jot (20 min)
+## Activity 3: H&L Manufacturing Cluster App Exploration with Stop and Jot (15 min)
 
 **Source:** (FYF p. 212: "App Exploration")
 
-> [H&L PLATFORM] The App Exploration page walks students through the cluster in order: open the Hats & Ladders app, go to Clusters, click the Manufacturing Cluster, watch the "Cluster Tour" video, play "Game Time," find 1 Hat that matches their personality or interests and 1 Hat that does not fit, open "Pathway Possibilities" and rate at least 1 pathway, then rate at least 3 Hats. Students record their answers on page 212 and check education, DFW salary, and demand level as they rate.
+> [H&L PLATFORM] The App Exploration page walks students through the cluster in order: open Hats & Ladders, go to the Manufacturing cluster, use the available cluster tour and Game Time, find one Hat that fits and one that does not, and review Pathway Possibilities. Use the current in-app labels. When students record a local salary, they copy the displayed career, geography, measure, and date viewed so the H&L figure remains tied to its source.
 
 **Stop and Jot procedure:** While watching the cluster tour video, students pause TWICE in their **engineering notebook** (dated entry, labeled "1SW Wk1 Manufacturing") to write:
 
@@ -101,5 +109,5 @@ Bottom line: My Wk0 core personality type is _______________. Which of my two ca
 ## Differentiation
 
 - **Support:** Pre-print the 6 Manufacturing pathways with one example Hat per pathway so students can match instead of generate, plus a Stop and Jot template with sentence stems: "One new career I learned about is _____. One question I have is _____." Both are on one sheet: [Printable PDF](../../resources/worksheets/manufacturing-pathways-scaffold.pdf).
-- **Extension:** Students who finish the Hat Finder exploration early dig deeper into one pathway and find a real DFW employer that hires that role (Lockheed Martin in Fort Worth, Toyota in Plano, etc.).
+- **Extension:** Students who finish the Hat Finder exploration early compare one current H&L description with the same occupation in BLS or CareerOneStop and record one similarity or difference.
 - **ELL:** Use H&L's browser translation. Pre-teach: Pathway = Trayectoria, Robot = Robot, Welder = Soldador, Maintenance = Mantenimiento, Electronics = Electrónica.

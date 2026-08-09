@@ -17,7 +17,7 @@ This static pass proves whether the authored Canvas source visibly contains the 
 - Monitoring/key guidance visible: **150/180**
 - Concrete language/reading/participation support detected: **169/180**
 - Absence/platform recovery route detected: **180/180**
-- Student start/done contract detected: **147/180**
+- Student start/done contract detected: **148/180**
 - Teacher guide explicitly labels **Topic**: **180/180**
 - Teacher guide explicitly labels **Objective**: **180/180**
 - Teacher guide explicitly labels **Demonstration of Learning / DOL**: **180/180**
@@ -26,13 +26,13 @@ The last three counts are intentionally strict. Each source lesson now carries a
 
 ## Confirmed first-pass findings
 
-### P0 - Xello prerequisite chain is broken in the current 1SW Canvas sequence
+### Repaired - Xello prerequisite chain across 1SW
 
-The authenticated Grade 8 configuration requires **After high school goal -> Matchmaker quiz -> Personality Style quiz**. The current Canvas source protects After high school goal in 1SW Wk0 and Personality Style in 1SW Wk2, but neither `build_wk0.py` nor `build_wk1.py` protects Matchmaker. A teacher can therefore reach the polished Week 2 guide with students who are blocked by a missing prerequisite. The authoritative S&S is also stale: it still lists the old Wk0 quiz pileup and assigns Favorite Clusters to Wk2 even though the repaired Canvas pages place Personality Style there.
+The authenticated Grade 8 configuration requires **After high school goal -> Matchmaker quiz -> Personality Style quiz**. The source and importer now protect After high school goal in 1SW Wk0, What is CTE plus Matchmaker in 1SW Wk1, and Personality Style in 1SW Wk2. Week 1 Day 5 gives Matchmaker its full launch, 39-question assessment, Find out why review, private reflection, report check, and supervised catch-up route.
 
-### P0 - The authoritative S&S and production Canvas disagree across all six 1SW Xello windows
+### Repaired - Authoritative S&S and production source agree across the six 1SW Xello windows
 
-The intended repaired sequence is Log in/After high school goal, What is CTE/Matchmaker, Personality Style, Learning Style, Add interests/Add skills, Favorite clusters. Current Canvas largely follows that order except for the missing What is CTE/Matchmaker block. Current S&S columns still show the legacy pileup, Favorite Clusters in Wk2, Add Skills in Wk3, a blank Wk4 cell, and Save Careers in Wk5. This must be reconciled before lesson-by-lesson grounding can be called complete.
+Both S&S copies now carry the repaired sequence: Log in/After high school goal, What is CTE/Matchmaker, Personality Style, Learning Style, Add interests/Add skills, and Favorite clusters. The Week 1 importer now implements its two required tasks without displacing the district FYF/H&L Manufacturing sequence.
 
 ### Repaired - District daily learning contract
 
@@ -42,9 +42,9 @@ All 180 source lessons now carry a 1-4 word Topic, an observable TEKS-aligned Ob
 
 Separate decks are intentionally optional. A lesson passes when the teacher guide itself is projection-ready or embeds the exact load-bearing workbook page, Climber slide, Xello launch asset, model, timer/prompt, and key needed for whole-class delivery. The manual review must record that outcome day by day.
 
-### P1 - Two backup lesson sources still carry unresolved eDynamic markers
+### P1 - One backup lesson source still carries an unresolved eDynamic marker
 
-The remaining markers are 1SW Wk1 Day 5 (`Unit 2.1`) and 2SW Wk1 Day 5 (`Unit 5.1`). Canvas already treats eDynamic as supplemental in those lessons, so these markers should either be resolved to a verified optional classroom job or removed from the core route. They cannot remain ambiguous in the copy-ready source package.
+The remaining marker is 2SW Wk1 Day 5 (`Unit 5.1`). Canvas treats eDynamic as supplemental there, so the marker should either be resolved to a verified optional classroom job or removed from the core route. It cannot remain ambiguous in the copy-ready source package.
 
 ### P1 - Artifact layout needs visual, not textual, acceptance
 
@@ -60,7 +60,18 @@ The strict worksheet build is a useful overflow gate, but it does not prove that
 - Day 5 correctly uses FYF printed pp. 4-5 for `Perks and Quirks`. The workbook's research-note cells are too shallow for full explanations, but the Canvas route adds a one-career-per-page worksheet with dedicated full-width response lines. That is an appropriate scaffold rather than a duplicate decoration.
 - Days 2-3 correctly treat the personality/work-values instruction as H&L plus Climber Notes because FYF does not print those assessments.
 
-**Wk0 verdict:** workbook page grounding and the daily learning contract pass. The week is not fully source-grounded until the Xello Matchmaker prerequisite gap is repaired.
+**Wk0 verdict:** workbook page grounding and the daily learning contract pass. Its After high school goal prerequisite now feeds the protected Matchmaker block in Week 1.
+
+### 1SW Wk1 licensed workbook and Xello check - verified in source
+
+- Day 1 correctly uses FYF printed p. 199 for the Manufacturing opener and p. 212 for the H&L App Exploration. The required Xello What is CTE submission runs before the FYF/H&L block.
+- Day 2 correctly uses FYF printed pp. 207-208 for Machine Breakdown Mystery. H&L remains the student-facing career source; any external salary or training comparison stays separately labeled.
+- Day 3 correctly uses FYF printed pp. 204-206 for Super Sports Manufacturing, including the two-view sketch, metal and weld choices, partner prototype, and strength check.
+- Day 4 correctly uses FYF printed pp. 200-203 for both Robots for Crayons problems, machine reference, shift notes, impact report, brainstorm, action plan, and feedback prompt. A two-page CCE scaffold preserves the same evidence jobs with usable handwriting space.
+- Day 5 protects the licensed Xello Matchmaker lesson: first 39 questions, career matches, Find out why, private reflection, Completion Standards evidence, and supervised catch-up. Sphero is no longer a required dependency.
+- FYF printed pp. 210-211 are treated as district-customized HQIM for Singley program, equipment, credential, and experience details. External district pages remain teacher context rather than a competing student answer.
+
+**Wk1 verdict:** source sequence, daily contracts, 50-minute timing, answer guidance, response space, and unpublished Canvas build source pass. Live Canvas API verification remains the final deployment gate.
 
 ## Immediate gates before teacher-copy readiness
 
@@ -71,7 +82,7 @@ The strict worksheet build is a useful overflow gate, but it does not prove that
 5. Render every worksheet and inspect response space against the amount and type of writing requested.
 6. Keep separate slide decks optional. Require a projection-ready Canvas route or embedded licensed visual whenever the live lesson depends on whole-class display.
 
-Unresolved `[VERIFY]`/`[TODO]`/`[TBD]` markers detected on **2 day(s)**. Days with no named instructional move detected: **0**. Both lists appear below.
+Unresolved `[VERIFY]`/`[TODO]`/`[TBD]` markers detected on **1 day(s)**. Days with no named instructional move detected: **0**. Both lists appear below.
 
 ## Day-by-day ledger
 
@@ -82,11 +93,11 @@ Unresolved `[VERIFY]`/`[TODO]`/`[TBD]` markers detected on **2 day(s)**. Days wi
 | 1SW Wk0 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Think-Pair-Share / Turn and Talk, Active Monitoring, TVB | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
 | 1SW Wk0 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring, TVB | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
 | 1SW Wk0 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring, TVB | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
-| 1SW Wk1 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Think-Pair-Share / Turn and Talk, Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
-| 1SW Wk1 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
-| 1SW Wk1 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Active Monitoring, Chunking, TVB | FYF, Xello, H&L, BLS / current primary source |  |
+| 1SW Wk1 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Think-Pair-Share / Turn and Talk, Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 1SW Wk1 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 1SW Wk1 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Active Monitoring, TVB | FYF, Xello, H&L, BLS / current primary source |  |
 | 1SW Wk1 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
-| 1SW Wk1 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Active Monitoring, Chunking | FYF, Climber Notes, Xello, H&L, BLS / current primary source | [VERIFY IN eDynamic] |
+| 1SW Wk1 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
 | 1SW Wk2 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Think-Pair-Share / Turn and Talk, Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
 | 1SW Wk2 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Think-Pair-Share / Turn and Talk, Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
 | 1SW Wk2 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Think-Pair-Share / Turn and Talk, Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
@@ -263,7 +274,6 @@ Unresolved `[VERIFY]`/`[TODO]`/`[TBD]` markers detected on **2 day(s)**. Days wi
 
 ## Unresolved verification markers
 
-- 1SW Wk1 Day 5: [VERIFY IN eDynamic]
 - 2SW Wk1 Day 5: [VERIFY IN eDynamic]
 
 ## Manual grounding protocol

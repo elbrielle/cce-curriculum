@@ -230,8 +230,7 @@
     "instructional_moves": [
       "Stop and Jot",
       "Think-Pair-Share / Turn and Talk",
-      "Active Monitoring",
-      "Chunking"
+      "Active Monitoring"
     ],
     "source_families": [
       "FYF",
@@ -240,6 +239,10 @@
       "BLS / current primary source"
     ],
     "fyf_citations": [
+      "FYF pp. 199",
+      "FYF pp. 207-208",
+      "FYF pp. 204-206",
+      "FYF pp. 200-203",
       "FYF p. 199",
       "FYF pp. 210-211",
       "FYF p. 212"
@@ -272,8 +275,7 @@
     "student_start_and_done_contract": true,
     "instructional_moves": [
       "Stop and Jot",
-      "Active Monitoring",
-      "Chunking"
+      "Active Monitoring"
     ],
     "source_families": [
       "FYF",
@@ -282,8 +284,11 @@
       "BLS / current primary source"
     ],
     "fyf_citations": [
-      "FYF p. 208",
       "FYF pp. 207-208",
+      "FYF pp. 199",
+      "FYF pp. 204-206",
+      "FYF pp. 200-203",
+      "FYF p. 208",
       "FYF p. 212"
     ],
     "unresolved_markers": [],
@@ -315,7 +320,6 @@
     "instructional_moves": [
       "Stop and Jot",
       "Active Monitoring",
-      "Chunking",
       "TVB"
     ],
     "source_families": [
@@ -325,8 +329,11 @@
       "BLS / current primary source"
     ],
     "fyf_citations": [
-      "FYF p. 206",
       "FYF pp. 204-206",
+      "FYF pp. 199",
+      "FYF pp. 207-208",
+      "FYF pp. 200-203",
+      "FYF p. 206",
       "FYF p. 205"
     ],
     "unresolved_markers": [],
@@ -367,7 +374,13 @@
       "BLS / current primary source"
     ],
     "fyf_citations": [
-      "FYF pp. 200-202"
+      "FYF pp. 200-203",
+      "FYF pp. 199",
+      "FYF pp. 207-208",
+      "FYF pp. 204-206",
+      "FYF pp. 200-201",
+      "FYF pp. 201-202",
+      "FYF pp. 202-203"
     ],
     "unresolved_markers": [],
     "manual_checks": [
@@ -394,35 +407,30 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
       "Stop and Jot",
-      "Active Monitoring",
-      "Chunking"
+      "Active Monitoring"
     ],
     "source_families": [
       "FYF",
-      "Climber Notes",
       "Xello",
       "H&L",
       "BLS / current primary source"
     ],
     "fyf_citations": [
-      "FYF pp. 202-203",
-      "FYF p. 203",
-      "FYF p. 209"
+      "FYF pp. 199",
+      "FYF pp. 207-208",
+      "FYF pp. 204-206",
+      "FYF pp. 200-203"
     ],
-    "unresolved_markers": [
-      "[VERIFY IN eDynamic]"
-    ],
+    "unresolved_markers": [],
     "manual_checks": [
       "Verify each cited FYF printed page and named activity against the licensed source.",
       "Verify TEKS verb, student action, and collected evidence against the current standard.",
       "Cold-read the teacher and student pair for next-day implementation burden.",
       "Render and inspect every writing artifact for honest response space.",
-      "Verify exact Xello task name, time, minimum, prerequisite, report evidence, and catch-up route.",
-      "Verify exact licensed deck/slide, projection order, and teacher-only answer guidance.",
-      "Resolve the remaining verification marker before the module is copy-ready."
+      "Verify exact Xello task name, time, minimum, prerequisite, report evidence, and catch-up route."
     ]
   },
   {

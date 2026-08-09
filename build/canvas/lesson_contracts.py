@@ -141,7 +141,7 @@ def _field(text: str, names: tuple[str, ...]) -> str:
     if table:
         return table.group(1).strip()
     plain = re.search(
-        rf"^\*\*(?:{choices}):\*\*\s*(.+?)\s*$",
+        rf"^(?:-\s*)?\*\*(?:{choices}):\*\*\s*(.+?)\s*$",
         text,
         re.MULTILINE | re.IGNORECASE,
     )
@@ -197,7 +197,10 @@ def _plain(value: str) -> str:
 def load_contracts() -> list[LessonContract]:
     contracts: list[LessonContract] = []
     for path in sorted(DOCS.glob("[1-6]sw/wk*/day[1-5].md")):
-        text = SOURCE_CONTRACT_RE.sub("\n", path.read_text(encoding="utf-8"), count=1)
+        raw_text = path.read_text(encoding="utf-8")
+        contract_match = SOURCE_CONTRACT_RE.search(raw_text)
+        contract_text = contract_match.group(0) if contract_match else ""
+        text = SOURCE_CONTRACT_RE.sub("\n", raw_text, count=1)
         heading = re.search(r"^#\s+(.+?)\s*$", text, re.MULTILINE)
         if not heading:
             raise ValueError(f"Missing day heading: {path}")
@@ -205,12 +208,12 @@ def load_contracts() -> list[LessonContract]:
         week_match = re.search(r"/([1-6]sw)/wk(\d+)-", path.as_posix())
         if not day_match or not week_match:
             raise ValueError(path)
-        teks = _field(text, ("TEKS",)) or "Course routine / supporting evidence"
+        teks = _field(contract_text, ("TEKS",)) or _field(text, ("TEKS",)) or "Course routine / supporting evidence"
         codes = _codes(teks)
-        topic = _field(text, ("Topic",)) or (
+        topic = _field(contract_text, ("Topic",)) or _field(text, ("Topic",)) or (
             TOPIC_BY_TEKS[codes[0]] if codes else _topic(heading.group(1))
         )
-        dol = _field(text, ("Demonstration of Learning", "DOL", "Evidence", "Deliverable"))
+        dol = _field(contract_text, ("Demonstration of Learning", "DOL", "Evidence", "Deliverable")) or _field(text, ("Demonstration of Learning", "DOL", "Evidence", "Deliverable"))
         if not dol:
             evidence_section = re.search(
                 r"^##\s+Evidence[^\n]*\n+(.*?)(?=^##\s+|\Z)",
@@ -235,7 +238,7 @@ def load_contracts() -> list[LessonContract]:
         dol = _plain(dol)
         if dol[-1] not in ".!?":
             dol += "."
-        objective = _plain(_field(text, ("Objective", "Objectives", "Target")))
+        objective = _plain(_field(contract_text, ("Objective", "Objectives", "Target")) or _field(text, ("Objective", "Objectives", "Target")))
         # Multi-item legacy objectives frequently list the whole day's agenda.
         # The daily objective needs one observable, TEKS-aligned learning claim;
         # the flow and DOL carry the procedural detail.

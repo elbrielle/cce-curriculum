@@ -10,7 +10,9 @@ The FYF workbook realignment did not replace Xello. FYF and H&L carry career-exp
 - Preserve instructional time, prerequisites, completion evidence, and attached educator resources.
 - S&S column 8 must map every required Grade 8 task to a workable place in the year.
 - eDynamic Learning, Canva, Adobe Express, Code.org, and other tools remain supplemental unless the S&S assigns them for a specific purpose.
-- Xello is the default district source for localized salary information. Verify major salary claims against BLS or CareerOneStop. H&L salary data may supplement the lesson but is not load-bearing unless verified in the live account.
+- Xello and Hats & Ladders are district-adopted HQIM sources. When a student-facing lesson uses a localized salary displayed in either platform, preserve the platform figure and label the exact career, geography, measure, and date viewed. BLS or CareerOneStop is a dated external cross-check, not a silent replacement for what students see in the workbook or app. If two sources differ, show the measures side by side or place the discrepancy in a teacher note; do not change the student answer key to a different number without documenting the source change.
+
+- The district-customized *Find Your Future* pages remain the instructional source for local pathway, credential, equipment, and program examples. Attribute details to the workbook when the current public district page does not enumerate them. A live-site difference becomes a teacher-facing verification note; it does not justify rewriting the student lesson away from the HQIM without a district curriculum decision.
 
 ## D-14: Canvas is the official delivery home
 
