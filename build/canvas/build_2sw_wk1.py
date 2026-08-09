@@ -56,7 +56,7 @@ def detail_images(uploads,names,alts):
     parts=[]
     for index,name in enumerate(names,start=1):
         file=uploads[name]
-        parts.append(f'<p><img src="/courses/{COURSE_ID}/files/{file["id"]}/preview" alt="{alts[index-1]}" style="display:block;width:100%;max-width:680px;height:auto;margin:14px auto;border:1px solid #ddd" data-api-endpoint="/api/v1/courses/{COURSE_ID}/files/{file["id"]}" data-api-returntype="File"></p>')
+        parts.append(f'<p><img loading="lazy" src="/courses/{COURSE_ID}/files/{file["id"]}/preview" alt="{alts[index-1]}" style="display:block;width:100%;max-width:680px;height:auto;margin:14px auto;border:1px solid #ddd" data-api-endpoint="/api/v1/courses/{COURSE_ID}/files/{file["id"]}" data-api-returntype="File"></p>')
     return "".join(parts)
 
 async def main():

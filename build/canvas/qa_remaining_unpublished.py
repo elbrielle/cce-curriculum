@@ -214,6 +214,8 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
         for image in parser.images:
             if not (image.get("alt") or "").strip():
                 problems.append(f"image missing useful alt text in {page.get('url')}")
+            if (image.get("loading") or "").lower() != "lazy":
+                problems.append(f"image missing loading=lazy in {page.get('url')}")
         if role == "student":
             for label in ("today you will", "exit check", "you are done when"):
                 if label not in visible_text:

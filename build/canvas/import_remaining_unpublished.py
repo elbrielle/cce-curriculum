@@ -23,6 +23,7 @@ IMPORTERS = [
     *(CANVAS_DIR / f"build_6sw_wk{week}.py" for week in range(1, 7)),
 ]
 ALL_IMPORTERS = [ORIENTATION_IMPORTER, *IMPORTERS]
+IMAGE_NORMALIZER = CANVAS_DIR / "normalize_unpublished_image_loading.py"
 QA_SCRIPT = CANVAS_DIR / "qa_remaining_unpublished.py"
 
 
@@ -33,6 +34,8 @@ def preflight() -> int:
     ]
     if not QA_SCRIPT.is_file():
         missing.append(str(QA_SCRIPT.relative_to(ROOT)))
+    if not IMAGE_NORMALIZER.is_file():
+        missing.append(str(IMAGE_NORMALIZER.relative_to(ROOT)))
     if missing:
         errors.append("Missing importer(s): " + ", ".join(missing))
 
@@ -48,6 +51,11 @@ def preflight() -> int:
             py_compile.compile(str(QA_SCRIPT), doraise=True)
         except py_compile.PyCompileError as exc:
             errors.append(f"{QA_SCRIPT.relative_to(ROOT)}: {exc.msg}")
+    if IMAGE_NORMALIZER.is_file():
+        try:
+            py_compile.compile(str(IMAGE_NORMALIZER), doraise=True)
+        except py_compile.PyCompileError as exc:
+            errors.append(f"{IMAGE_NORMALIZER.relative_to(ROOT)}: {exc.msg}")
 
     dependency_roots = (
         ROOT / "docs/resources/worksheets",
@@ -251,6 +259,39 @@ def main() -> int:
             )
             return 3
         print("  " + summarize(payload), flush=True)
+
+    print("Normalizing image loading across all 36 unpublished modules...", flush=True)
+    normalization = subprocess.run(
+        [sys.executable, str(IMAGE_NORMALIZER)],
+        cwd=ROOT,
+        input=token + "\n",
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    if normalization.returncode:
+        print(
+            redact(normalization.stderr or normalization.stdout, token),
+            file=sys.stderr,
+        )
+        print(
+            "All builders ran, but image normalization failed. Nothing was published.",
+            file=sys.stderr,
+        )
+        return normalization.returncode
+    try:
+        normalization_payload = json.loads(normalization.stdout)
+    except json.JSONDecodeError:
+        print(redact(normalization.stdout[-4000:], token), file=sys.stderr)
+        print("Image-normalization output was not valid JSON.", file=sys.stderr)
+        return 3
+    print(
+        "  "
+        f"pages={normalization_payload.get('pages_seen')} "
+        f"updated={normalization_payload.get('pages_updated')} "
+        f"images={normalization_payload.get('images_updated')}",
+        flush=True,
+    )
 
     print("Running read-only 36-week coursewide Canvas QA...", flush=True)
     verification = subprocess.run(
