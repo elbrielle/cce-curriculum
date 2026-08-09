@@ -11,7 +11,7 @@
 
 ## Assessment Boundary
 
-This is a **Major draft** until the fifth-six-weeks assessment map and 40/60 Canvas groups are verified. Oral-presentation evidence comes from live, teacher-conference, audio, recorded, or AAC delivery. A written transcript may support planning and accessibility, but written-only work is not labeled d(4)(C) oral evidence.
+This is **recovery or replacement evidence only**. The fifth-six-weeks assessment map already contains three minors and two majors; this activity does not create a third major. Oral-presentation evidence comes from live, teacher-conference, audio, recorded, or AAC delivery. A written transcript may support planning and accessibility, but written-only work is not labeled d(4)(C) oral evidence.
 
 ## 50-Minute Flow
 
@@ -45,7 +45,7 @@ Students submit live to the teacher, in a short conference, by audio/recorded me
 
 ### 4. Six-Weeks Written Reflection (15 min)
 
-Students identify one learning from Architecture, Civil Engineering, Construction, Skilled Trades, Personal Budget, and Real Estate; select the most useful insight; compare their current direction with the beginning of the six weeks; and name one source-label habit they will use in the final six weeks.
+Students write one specific sentence for each week, then explain the strongest cross-week connection, how their direction or question changed or became clearer, and one source-label habit they will use in the final six weeks. The condensed one-page reflection is designed to fit this 15-minute block.
 
 ### 5. Audit and Submit (5 min)
 

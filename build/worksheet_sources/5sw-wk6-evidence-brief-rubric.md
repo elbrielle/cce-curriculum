@@ -21,7 +21,7 @@ orientation: landscape
 
 Total: ____ / 16
 
-This is a Major draft until the live fifth-six-weeks assessment map and 40/60 Canvas groups are verified.
+This is recovery or replacement evidence only. It does not create a third fifth-six-weeks major. The teacher records a replacement score only through the campus recovery/reassessment process.
 
 [[pagebreak]]
 

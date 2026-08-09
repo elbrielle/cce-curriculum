@@ -6,7 +6,7 @@ weeks: 5sw/wk6-real-estate
 audience: student
 variant_of:
 language: en
-pages: 6
+pages: 4
 orientation: portrait
 ---
 
@@ -62,63 +62,31 @@ Entrepreneurship opportunity and responsibility:
 
 [[pagebreak]]
 
-## Weeks 1-3 Reflection
+## Six-Weeks Reflection
 
-Architecture — one specific learning:
+Architecture — one specific learning: [[lines: 1]]
 
-[[lines: 4]]
+Civil Engineering — one specific learning: [[lines: 1]]
 
-Civil Engineering — one specific learning:
+Construction — one specific learning: [[lines: 1]]
 
-[[lines: 4]]
+Skilled Trades — one specific learning: [[lines: 1]]
 
-Construction — one specific learning:
+Personal Budget — one specific learning: [[lines: 1]]
 
-[[lines: 4]]
+Real Estate — one specific learning: [[lines: 1]]
 
-One connection across these weeks:
+The strongest connection across the six weeks:
 
-[[lines: 5]]
+[[lines: 3]]
 
-[[pagebreak]]
+How my direction or question changed or became clearer:
 
-## Weeks 4-6 Reflection
-
-Skilled Trades — one specific learning:
-
-[[lines: 4]]
-
-Personal Budget — one specific learning:
-
-[[lines: 4]]
-
-Real Estate — one specific learning:
-
-[[lines: 4]]
-
-One connection across these weeks:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Direction, Change, and Source Habit
-
-My direction at the start of the six weeks:
-
-[[lines: 4]]
-
-My direction or question now:
-
-[[lines: 4]]
-
-The strongest evidence that changed or confirmed it:
-
-[[lines: 5]]
+[[lines: 3]]
 
 One source-label habit I will use next:
 
-[[lines: 5]]
+[[lines: 3]]
 
 [[pagebreak]]
 
