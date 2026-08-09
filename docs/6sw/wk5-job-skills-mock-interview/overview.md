@@ -29,7 +29,7 @@ Students do **not** enter or submit a real address, phone or email, birth date, 
 | 2 | Tailored cover letter | Six-page plan, draft, audit, final | Private Assignment |
 | 3 | Application and references | Eight-page fictional application/reference packet | Private Assignment |
 | 4 | Interview readiness | Eight-page preparation/question packet | Unlimited-retry practice Quiz |
-| 5 | Mock interview and follow-up | Seven-page interview/revision/thank-you record | Private media/annotation Major draft |
+| 5 | Mock interview and follow-up | Seven-page interview/revision/thank-you record | Private media/annotation Major 1 Assignment |
 
 ## Teacher Readiness
 
@@ -39,7 +39,7 @@ Xello Job Interviews, H&L, FYF Rung 5, live job boards, and CareerOneStop pages 
 
 ## Assessment Status
 
-The six-criterion, 24-point rubric is student-visible. Day 5 remains a **Major draft** until the live sixth-six-weeks 40/60 assessment map confirms placement. Performance bands are Masters 90-100, Meets 80-89, Approaches 70-79, and Needs Improvement 60-69; below 60 follows campus policy. Content, accuracy, privacy, relevance, and communicated evidence are scored—not accent, eye contact, camera use, clothing cost/style, disability, public confidence, or English mechanics unless meaning is unclear.
+The six-criterion, 24-point rubric is student-visible. Day 5 is **Major 1** in the [6SW assessment map](../../resources/six-weeks-assessment-map.md), pending the live Canvas Major group and 40/60 weights. Performance bands are Masters 90-100, Meets 80-89, Approaches 70-79, and Needs Improvement 60-69; below 60 follows campus policy. Content, accuracy, privacy, relevance, and communicated evidence are scored—not accent, eye contact, camera use, clothing cost/style, disability, public confidence, or English mechanics unless meaning is unclear.
 
 ## Current Teacher Sources
 

@@ -54,8 +54,8 @@ No required Xello or eDynamic task belongs in this week. H&L browsing is supplem
 ## Assessment Plan
 
 - **Recommended minor:** Day 2 assessment/emerging-specialty evidence.
-- **Recommended major candidate:** Day 3–5 bridge evidence portfolio, only if the six-weeks map needs a major.
-- Physical build quality, team ranking, H&L activity, public speaking, and FYF rover art remain formative.
+- **Formative portfolio:** Day 3–5 bridge design, test/data, redesign, and synthesis evidence.
+- Physical build quality, team ranking, H&L activity, public speaking, and FYF rover art remain formative. The [5SW assessment map](../../resources/six-weeks-assessment-map.md) uses Day 2 as Minor 2 and does not add a Week 2 major.
 
 The student-visible 16-point rubric scores source accuracy, assessment/emerging reasoning, design/test/revision evidence, and career/pathway synthesis. Individual reasoning is required even when a team builds.
 

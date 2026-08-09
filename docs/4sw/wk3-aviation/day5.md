@@ -103,7 +103,7 @@ A complete plan includes:
 
 ## Exit Ticket: Plan Audit (5 min within Activity 4)
 
-**EXIT TICKET** (3-2-1 Reflective) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day5-aviation-route-action-plan.pdf):
+**EXIT TICKET** (3-2-1 Reflective) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day5-aviation-route-and-action-plan.pdf):
 
 - **3:** List the three timed stages in your current plan.
 - **2:** Name one support and one equal backup.

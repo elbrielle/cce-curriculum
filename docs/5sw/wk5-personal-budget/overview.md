@@ -51,7 +51,7 @@ Every day receives a paired Teacher Facilitator Guide and Student Guide. Require
 
 ## Grading recommendation
 
-Days 1–4 are formative or minor checkpoints. Day 5 is a **Major draft** only until the live Canvas Major group, six-weeks 40/60 weighting, and assessment count are verified. Score individual evidence, not family income, lifestyle cost, chosen career, platform access, design polish, or English mechanics unless meaning is unclear.
+Days 1–4 are formative checkpoints. Day 5 is **Major 2** in the [5SW assessment map](../../resources/six-weeks-assessment-map.md). Keep it unpublished until the live Canvas Major group and 40/60 weighting are verified. Score individual evidence, not family income, lifestyle cost, chosen career, platform access, design polish, or English mechanics unless meaning is unclear.
 
 ## Emotional and privacy boundary
 

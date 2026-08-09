@@ -88,7 +88,7 @@ Use the fixed role list in the packet. Students should not need a live platform 
 
 ## Exit Ticket: Canvas Practice Check (5 min)
 
-**EXIT TICKET** (Mini-Case) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day1-transportation-survey-quality-check.pdf):
+**EXIT TICKET** (Mini-Case) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day1-transportation-cluster-and-survey-design.pdf):
 
 Students complete the unpublished four-question practice Quiz. The items check neutral wording, useful answer choices, privacy, and the analyst-to-career connection. Unlimited attempts and immediate feedback make this formative.
 

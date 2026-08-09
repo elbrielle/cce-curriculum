@@ -39,7 +39,7 @@ I can identify marketing careers, write and revise an ethical audience-specific 
 
 ## Grading
 
-Days 1-4 provide formative evidence. Day 5 is a **16-point Major draft** pending the live sixth-six-weeks 40/60 map. Audience fit, ethical communication, entrepreneurial reasoning, data use, source labeling, career connection, and revision are scored. Platform use, public speaking, artistic polish, personal disclosure, and English mechanics are not scored unless meaning is unclear.
+Days 1-4 provide formative evidence. Day 5 is **Minor 3** in the [6SW assessment map](../../resources/six-weeks-assessment-map.md), pending the live Canvas Minor group and 40/60 weights. Audience fit, ethical communication, entrepreneurial reasoning, data use, source labeling, career connection, and revision are scored. Platform use, public speaking, artistic polish, personal disclosure, and English mechanics are not scored unless meaning is unclear.
 
 ## Current Sources
 

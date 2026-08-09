@@ -39,7 +39,7 @@ I can identify Arts/AV careers, create and revise a truthful privacy-safe résum
 
 ## Grading
 
-Days 1-4 provide formative evidence. Day 5 is a **16-point Major draft** pending the live sixth-six-weeks 40/60 map. Truthfulness, source use, revision, design reasoning, and job-search connection are scored. Platform choice, graphic polish, personal work history, public sharing, and English mechanics are not scored unless meaning is unclear.
+Days 1-4 provide formative evidence. Day 5 is **Minor 2** in the [6SW assessment map](../../resources/six-weeks-assessment-map.md), pending the live Canvas Minor group and 40/60 weights. Truthfulness, source use, revision, design reasoning, and job-search connection are scored. Platform choice, graphic polish, personal work history, public sharing, and English mechanics are not scored unless meaning is unclear.
 
 ## Current Sources
 

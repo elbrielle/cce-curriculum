@@ -39,7 +39,7 @@ Community service may appear as one organization benefit, but this week does not
 
 ## Assessment and Grading
 
-Days 1-4 are formative. Day 5 is a private portfolio synthesis and remains unpublished and ungraded until the 4SW assessment map is verified. The six weeks already has two major candidates (Week 1 Blueprint and Week 2 Individual Plan) and three minor candidates (Weeks 3-5), so this reflection should not silently become an extra required major. It may serve as a recovery or replacement artifact only through a teacher-approved grading decision.
+Days 1-4 are formative. Day 5 is a private portfolio synthesis and remains unpublished and ungraded. The [4SW assessment map](../../resources/six-weeks-assessment-map.md) already places two majors (Week 1 Blueprint and Week 2 Individual Plan) and three minors (Weeks 3-5), so this reflection does not become an extra required grade. It may serve as a recovery or replacement artifact only through a teacher-approved grading decision.
 
 The reflection rubric scores four 0-4 criteria: change supported by evidence; transferable-skill proof; organization and route reasoning; goals, support, and revision. Score reasoning, not career preference, platform history, public speaking, vehicle knowledge, handwriting, or English mechanics unless meaning is unclear.
 

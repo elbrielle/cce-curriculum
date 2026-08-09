@@ -102,6 +102,8 @@ The rest of the IT chapter belongs to the later weeks in this block. Wk3 runs th
 
 **IT Salary Comparison Worksheet + Hour of Code Reflection (Day 5):** Students submit their completed worksheet ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison.pdf)) showing 3 IT careers compared on salary, education, growth rate, daily tasks, and DFW employer. The front page carries the five comparison fields; the back carries the job count, the one-sentence job description, the DFW employer, and the reflection questions. They also write a 4-sentence reflection: (1) which Hour of Code activity they did, (2) one programming concept they used, (3) which IT career they favorited and why, (4) whether they could see themselves in IT. Scored with the **IT Salary Comparison and Hour of Code Reflection Rubric** ([Printable PDF](../../resources/worksheets/wk2-salary-hoc-rubric.pdf)), which carries four-level descriptors for each criterion: Data Completeness, Source Accuracy, Comparison Reasoning, and Hour of Code Reflection, 5 points each, 20 points total. Aligned to d(1)(C), d(5)(A), d(5)(E).
 
+This is **Minor 2** in the [1SW assessment map](../../resources/six-weeks-assessment-map.md). Code.org completion is supplemental and does not affect the score. Convert the 20-point rubric total to its published percentage and enter it as a score out of 100 in the Canvas Minor group.
+
 ## Differentiation
 
 ### Scaffolded Learning

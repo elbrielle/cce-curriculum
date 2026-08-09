@@ -85,7 +85,7 @@ Before cleanup, the recorder confirms that the map, sketch, and aircraft tokens 
 
 ## Exit Ticket: Individual Design Note (5 min)
 
-**EXIT TICKET** (3-2-1 Reflective) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day3-airport-design-note.pdf):
+**EXIT TICKET** (3-2-1 Reflective) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day3-design-a-classroom-airport-map.pdf):
 
 Students answer:
 

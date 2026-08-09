@@ -1,5 +1,7 @@
 # Six-Weeks Grading Framework
 
+The coursewide placement of the three Minor and two Major assessments in each block is maintained in the [Six-Weeks Assessment Map](six-weeks-assessment-map.md). Weekly products not listed there remain formative or recovery evidence even when they have a complete rubric.
+
 Use this framework when setting up the CCE gradebook. The module-level assessment map will identify the exact assignments used in each six-weeks block.
 
 ## Required grade mix

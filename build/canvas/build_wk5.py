@@ -56,7 +56,7 @@ def image_details(course_id,uploads):
     descriptions={2:"Email 1: free tablet prize message",3:"Email 2: Amazon order warning",4:"Email 3: company open-enrollment reminder",5:"Email 4: urgent benefits update",6:"Email 5: urgent account suspension",7:"Email 6: IT password-expiration notice",8:"Email 7: ordinary team-meeting reminder"}
     parts=[]
     for slide in range(2,9):
-        file=uploads[f"slide-{slide}.png"]; num=slide-1
+        file=uploads[f"slide-{slide}.jpg"]; num=slide-1
         parts.append(f'<details style="border:1px solid #cfc5dd;border-radius:8px;padding:12px 16px;margin:12px 0"><summary style="font-weight:700;color:#5a2d91;cursor:pointer">Email {num}</summary><img src="/courses/{course_id}/files/{file["id"]}/preview" alt="{descriptions[slide]}" style="display:block;width:100%;max-width:760px;height:auto;margin:14px auto;border:1px solid #ddd" data-api-endpoint="/api/v1/courses/{course_id}/files/{file["id"]}" data-api-returntype="File"></details>')
     return "".join(parts)
 
@@ -74,7 +74,9 @@ async def main():
             folder_path=f"course files/CCR Materials/1SW/Wk5/Day {day} Visuals"; folders[day]=await ensure_folder(c,folder_path); uploads[day]={}
             day_dir=ASSETS/f"day{day}"
             if day_dir.exists():
-                for path in sorted(day_dir.glob("*.png")): uploads[day][path.name]=await upload(c,path,folder_path)
+                for path in sorted(p for p in day_dir.iterdir() if p.suffix.lower() in {".png",".jpg",".jpeg"}):
+                    if path.suffix.lower()==".png" and (day_dir/f"{path.stem}.jpg").exists(): continue
+                    uploads[day][path.name]=await upload(c,path,folder_path)
         student_values={
           1:{"PROGRAM_IMAGE_ID":uploads[1]["irving-it-programs.png"]["id"],"ROUTE_FILE_ID":files["ROUTE"]["id"]},
           2:{"FLAGS_IMAGE_ID":uploads[2]["safe-or-spoofed-red-flags.png"]["id"],"CHECK_FILE_ID":files["CHECK"]["id"],"EMAIL_DETAILS":image_details(COURSE_ID,uploads[2])},

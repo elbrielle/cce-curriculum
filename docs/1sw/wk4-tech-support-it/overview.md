@@ -93,7 +93,9 @@ The hands-on activity uses **micro:bit + Microsoft MakeCode**. The *Find Your Fu
 
 ## Summative Assessment
 
-**Help Desk Simulator Demo (Day 5):** Teams demonstrate their micro:bit help desk tool to the class. Demos must include: (1) a description of the IT problem they programmed for, (2) the troubleshooting steps in the program, (3) a justification of why those steps are in that order, (4) one IT support career that would actually use a tool like this. Scored with the **Help Desk Simulator Demo Rubric** ([Printable PDF](../../resources/worksheets/wk4-demo-rubric.pdf)), which carries four-level descriptors for each of the three dimensions: Logical Troubleshooting Sequence (d(2)(A)), Certification and Education Path (d(2)(A), d(2)(B)), and Transferable Skills (d(4)(B)), 4 points each, 12 points total. Post the running totals where the class can see them, and give a team whose board fails mid-demo a second attempt in the MakeCode simulator, since the rubric scores the sequence and not the hardware.
+**Help Desk Program Evidence + Individual Career Connection (Day 5):** Teams may demonstrate the micro:bit help desk tool, but the grade comes from the traceable program evidence and each student's own connection sheet. Score four criteria with the **Help Desk Simulator Evidence Rubric** ([Printable PDF](../../resources/worksheets/wk4-demo-rubric.pdf)): Logical Troubleshooting Sequence, Program Logic and Testing, Career and Education Connection, and Transferable Skill and Customer Service, 4 points each and 16 points total. A board or site failure uses the paper trace route with the same criteria.
+
+This is **Minor 3** in the [1SW assessment map](../../resources/six-weeks-assessment-map.md). Use the current 16-point Help Desk Evidence rubric and private individual connection sheet. Do not post public running grade totals; the live demo and hardware run are feedback opportunities, not the only evidence.
 
 ## Differentiation
 

@@ -43,7 +43,7 @@ I can identify careers in Education and Training, compare verified preparation r
 
 ## Assessment and Grading
 
-Days 1-4 create visible formative evidence. Day 5 is a **16-point Major draft**, not a live grade until the sixth-six-weeks 40/60 assessment map is verified. The rubric uses Masters, Meets, Approaches, Needs Improvement, and Insufficient Evidence. Preference, artistic polish, handwriting, English mechanics, platform access, and willingness to disclose personal service are not scored.
+Days 1-4 create visible formative evidence. Day 5 is **Minor 1** in the [6SW assessment map](../../resources/six-weeks-assessment-map.md). Keep it unpublished until the Canvas Minor group and 40/60 weights are verified. The rubric uses Masters, Meets, Approaches, Needs Improvement, and Insufficient Evidence. Preference, artistic polish, handwriting, English mechanics, platform access, and willingness to disclose personal service are not scored.
 
 ## Access and Absence Route
 

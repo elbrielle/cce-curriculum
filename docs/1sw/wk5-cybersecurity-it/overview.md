@@ -110,7 +110,9 @@ The Glowforge college/career logo project is a teacher-designed extension for TE
 
 ## Summative Assessment
 
-**1st Six Weeks Capstone Portfolio:** Students submit (1) their Cybersecurity Bootcamp plan and sign-up flyer (FYF pp. 34-35: "Powerskill: Work Ethic"), (2) their college/career logo (physical artifact, laser-cut or cut by hand from card stock), and (3) their updated My Career Journey reflection from Wk0 with new sections added showing growth in self-awareness and career knowledge. Scored with the **1st Six Weeks Capstone Portfolio Rubric** ([Printable PDF](../../resources/worksheets/wk5-capstone-portfolio-rubric.pdf)), which carries four-level descriptors for each of the three parts on the same 4 Excellent to 1 Needs Improvement scale students met on the Day 3 peer feedback slip, 12 points total. Part 2 scores the postsecondary goal and its connection to an Irving ISD pathway, not the fabrication method, so a hand-cut logo scores the same as a laser-cut one. Aligned to d(1)(D), d(4)(F), d(3)(A).
+**1st Six Weeks Capstone Evidence Portfolio:** Students submit their Cybersecurity Bootcamp plan, sign-up flyer, original postsecondary-goal symbol, and updated My Career Journey reflection. Score the evidence with the **1st Six Weeks Capstone Evidence Rubric** ([Printable PDF](../../resources/worksheets/wk5-capstone-portfolio-rubric.pdf)): Bootcamp Plan, Flyer and Integrity, Postsecondary Goal and Artifact, and Career Reflection, 4 points each and 16 points total. The artifact criterion scores the goal and explanation, not the fabrication method. Aligned to d(1)(D), d(4)(F), d(3)(A).
+
+This is **Major 2** in the [1SW assessment map](../../resources/six-weeks-assessment-map.md). Use the current four-criterion, 16-point Capstone Evidence rubric with the district performance bands. Paper, Canva, Adobe Express, and teacher-selected fabrication examples score equally; Xello completion, H&L favorites, machine operation, and gallery participation are not scored.
 
 ## Differentiation
 

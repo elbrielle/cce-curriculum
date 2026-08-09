@@ -129,6 +129,8 @@ The workbook has no personality-type page and no work values page. Both live in 
 
 **My Career Journey Reflection Handout (collected end of Core Day C / Day 4):** Students synthesize their core personality type, top 2 work values, 3 or more Building Blocks, top H&L cluster recommendations, and three people in their career community into a single written reflection. Scored on completeness, self-awareness, and ability to connect their assessment data to specific cluster curiosity, using the 4-level rubric for those three dimensions ([Printable PDF](../../resources/worksheets/wk0-career-journey-rubric.pdf)). This document is revisited at mid-year (4SW Wk1-2 Career Plan) and end-of-year (6SW Wk6 Final Career Plan). It is a living artifact, not a one-time worksheet.
 
+This is **Minor 1** in the [1SW assessment map](../../resources/six-weeks-assessment-map.md). Convert the 12-point rubric total to its published percentage and enter it as a score out of 100 in the Canvas Minor group.
+
 ## Differentiation
 
 ### Scaffolded Learning

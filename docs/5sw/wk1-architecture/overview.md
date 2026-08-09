@@ -66,8 +66,8 @@ Hats & Ladders browsing and eDynamic 3.1 may be used as verified extensions. The
 ## Assessment Plan
 
 - **Recommended minor:** Day 2 three-career comparison.
-- **Recommended major candidate:** weekly portfolio, only if the six-weeks assessment map still needs a major. It combines the Day 2 comparison, the individual building design, one documented revision, and the Day 5 career/cluster explanation.
-- Day 1 plan, practice checks, H&L browsing, group pitch, and design platform are formative.
+- **Formative portfolio:** the individual building design, one documented revision, and the Day 5 career/cluster explanation.
+- Day 1 plan, practice checks, H&L browsing, group pitch, and design platform are formative. The [5SW assessment map](../../resources/six-weeks-assessment-map.md) uses the Day 2 comparison as Minor 1 and does not add a Week 1 major.
 
 The student-visible 16-point portfolio rubric scores:
 

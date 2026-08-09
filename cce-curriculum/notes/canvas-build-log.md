@@ -674,3 +674,21 @@ This log records the official Canvas build without storing access credentials or
 - Grading boundary: Day 4 is a 24-point Major draft and remains unpublished/ungraded until the sixth-six-weeks assessment count and 40/60 groups are verified. Missing prior artifacts, platform access, visual polish, public speaking, partner/family attendance, accent, eye contact, disability, camera use, English mechanics, and submission route are not mastery criteria unless meaning is unclear.
 - Canvas package: five Day subheaders, ten paired pages, and five private Assignments in a 20-item chronological route. All local content structures compile and render without unresolved fields.
 - Importer: `build/canvas/build_6sw_wk6.py`.
+
+## 2026-08-08 - coursewide assessment-map lock
+
+- Source of truth: `docs/resources/six-weeks-assessment-map.md`.
+- Gradebook architecture: three equally weighted 100-point Minor entries in a 40% group and two equally weighted 100-point Major entries in a 60% group for every six weeks. Raw rubric totals convert through student-visible percentage tables before Canvas entry.
+- Governance correction: weekly products not named in the map remain formative, rehearsal, enrichment, or teacher-approved recovery/replacement evidence. A complete rubric no longer makes a weekly product an automatic grade.
+- Placement corrections: 1SW uses Wk0/Wk2/Wk4 minors and Wk3/Wk5 majors; 2SW retains the existing Wk3/Wk4/Wk5 minors and Wk1/Wk2 majors; 3SW uses Wk1/Wk4/Wk5 minors and Wk2/Wk3 majors; 4SW uses Wk3/Wk4/Wk5 minors and Wk1/Wk2 majors; 5SW uses Wk1/Wk2/Wk3 minors and Wk4/Wk5 majors; 6SW uses Wk1/Wk2/Wk3 minors and Wk5/Wk6 majors.
+- Grade-inflation correction: 3SW Wk6, 5SW Wk6, and 4SW Wk6 are recovery/replacement artifacts rather than extra grades. 6SW Wk4 is structured rehearsal rather than a fourth minor or third major.
+- 1SW scoring-tool repair: the Wk0, Wk2, Wk3, and Wk4 rubrics now use district performance-band language, publish exact raw-score-to-percent conversions, and match their Minor/Major placements. Four PDFs totaling eight pages passed strict rendering and visual inspection.
+- Canvas gate: assignment groups, weights, 100-point assignments, attached rubrics, student-view submission routes, hidden keys, and absence/platform fallbacks must be verified before any mapped grade is published.
+
+## 2026-08-08 - Canvas image optimization pilot
+
+- Baseline: 284 Canvas-only raster assets totaling 100.3 MB; 68 files exceeded 500 KB and 9 exact-duplicate groups contained 19 redundant copies.
+- Pilot: the 1SW Wk1 Day 1 manufacturing opener and seven 1SW Wk5 Day 2 email images now have quality-82 JPEG delivery copies at their original dimensions.
+- Result: active pilot delivery weight fell from 7.99 MB to 1.65 MB, a 6.34 MB / 79.4% reduction. Side-by-side visual inspection confirmed readable workbook copy, email sender/domain clues, and task labels.
+- Importer behavior: `build_wk1.py` and `build_wk5.py` prefer same-stem JPEG files and skip the larger PNG during upload. Originals remain available outside Git for regeneration.
+- Next priority: consolidate exact shared IT/Xello images into one locked Canvas shared folder after unpublished-page reference testing; do not delete live Canvas files during the migration.

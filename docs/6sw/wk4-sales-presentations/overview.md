@@ -41,7 +41,7 @@ I can identify sales/marketing careers, plan and revise an ethical audience-spec
 
 ## Grading
 
-Days 1-4 are formative. Day 5 is a **16-point Major draft** pending the live sixth-six-weeks 40/60 map. Career accuracy, source labels, organization/audience, oral/AAC communication, and visible revision are scored. Clothing cost/style, platform, eye contact, accent, speech difference, camera use, English mechanics, and performance confidence are not scored unless meaning is unclear.
+Days 1-5 are formative rehearsal for the Week 5 interview portfolio and Week 6 capstone. The [6SW assessment map](../../resources/six-weeks-assessment-map.md) does not create a separate Week 4 grade. Use the 16-point rubric for feedback and revision. Clothing cost/style, platform, eye contact, accent, speech difference, camera use, English mechanics, and performance confidence are not scored unless meaning is unclear.
 
 ## Current Sources
 

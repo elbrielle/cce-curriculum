@@ -61,9 +61,9 @@ The Dallas County guide uses the MIT Living Wage Calculator’s one-adult/no-chi
 
 Daily exit checks are formative. Do not create five separate grades.
 
-**Recommended major:** the 16-point Entrepreneurship Portfolio combines each student’s opportunity definition, idea test and decision, individual venture/pitch evidence, and personal budget reasoning. The group’s idea and attendance do not determine the individual score. “Abandon It” earns full credit when the evidence supports the decision.
+**Formative/recovery portfolio:** the 16-point Entrepreneurship Portfolio combines each student’s opportunity definition, idea test and decision, individual venture/pitch evidence, and personal budget reasoning. The group’s idea and attendance do not determine the individual score. “Abandon It” earns full credit when the evidence supports the decision.
 
-The Assignment and rubric remain unpublished and ungraded until the live Major assignment group and 40/60 weighting are verified. Scholarship profile completion is checked through Xello and is not scored for the student’s personal answers.
+The [3SW assessment map](../../resources/six-weeks-assessment-map.md) already places three minors and two majors. Keep this Assignment ungraded unless a teacher intentionally uses it as a major reassessment/replacement. Scholarship profile completion is checked through Xello and is not scored for the student’s personal answers.
 
 ## Teacher setup
 

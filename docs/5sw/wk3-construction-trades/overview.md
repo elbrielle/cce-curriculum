@@ -68,12 +68,12 @@ Annual openings are analyzed separately. Openings include replacement needs and 
 
 ## Assessment and Grading
 
-- Days 1–2: formative or minor candidates.
-- Day 3: individual labor-evidence classification candidate.
+- Days 1–2: formative.
+- Day 3: **Minor 3**, the individual labor-evidence classification.
 - Day 4: formative observation log with a full teacher key.
-- Day 5: individual inspection-evidence report plus 30–45 second live, private recorded, or teacher-conference briefing under one rubric.
+- Day 5: formative individual inspection-evidence report plus 30–45 second live, private recorded, or teacher-conference briefing under one rubric.
 
-Keep all Canvas items unpublished and ungraded until the 5SW assessment map, Minor/Major groups, and 40%/60% weighting are verified. Team attendance, public-speaking confidence, grammar, drawing, accent, H&L state, and platform access do not determine mastery.
+The [5SW assessment map](../../resources/six-weeks-assessment-map.md) is the placement authority. Keep graded Canvas items unpublished until the Minor/Major groups and 40%/60% weighting are verified. Team attendance, public-speaking confidence, grammar, drawing, accent, H&L state, and platform access do not determine mastery.
 
 ## Current Sources
 

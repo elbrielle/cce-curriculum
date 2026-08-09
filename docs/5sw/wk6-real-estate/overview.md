@@ -49,8 +49,8 @@ Students succeed when they can:
 
 ## Assessment Map Boundary
 
-- Days 1-4 are formative or minor candidates. Do not grade platform clicks or daily exit slips separately.
-- Day 5 is a **Major draft**, not an automatically graded major. Keep it unpublished and ungraded until the fifth-six-weeks assessment count, live Canvas assignment groups, and 40% Minor / 60% Major weighting are verified.
+- Days 1-4 are formative. Do not grade platform clicks or daily exit slips separately.
+- Day 5 is a **recovery/replacement draft**, not an automatically graded major. The [5SW assessment map](../../resources/six-weeks-assessment-map.md) already contains three minors and two majors. A teacher may use this evidence brief to replace missing major evidence after review; it does not add a third major.
 - The four Day 5 criteria are source/measure accuracy, licensing and compensation reasoning, cross-week budget/labor connection, and individual professional communication/reflection.
 - Career preference, family income, drawing quality, accent, public-speaking confidence, grammar, partner attendance, and submission mode do not determine mastery.
 

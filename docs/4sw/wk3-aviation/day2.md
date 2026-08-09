@@ -80,7 +80,7 @@ Students add one local verification question to the evidence guide.
 
 ## Exit Ticket: Route Decision (5 min)
 
-**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day2-aviation-route-decision.pdf):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day2-aviation-careers-and-pilot-preparation-routes.pdf):
 
 For fictional Sam:
 

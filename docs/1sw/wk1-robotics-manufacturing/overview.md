@@ -97,9 +97,11 @@ A fourth activity, **Quality Check** (FYF p. 209), puts partners on a frozen piz
 - **Day 4:** Active monitoring during Sphero programming + team role assignments + Decision Tree exit ticket. *d(1)(C)*
 - **Day 5:** Team presentation + 2 Manufacturing Hats favorited + Concept Map exit ticket (career + pathway + core personality type + training fact). *d(1)(B), d(1)(C)*
 
-## Summative Assessment
+## Formative Team Performance
 
 **Robots for Crayons Team Presentation (Day 5):** Teams present their plan for the Kaleido-Crayons crayon-sorting malfunction (FYF p. 203: "Robots for Crayons", Step 6). Presentations must include: (1) the two problems, Color Confusion and Slowpoke Robot, (2) the solution chosen for each and why, (3) the steps to fix the issue and the tools or adjustments needed, (4) the estimated time to complete and how the fix improves production, and (5) one Manufacturing career from the Hats & Ladders app they would want to pursue. Every listening team owes the presenting team one piece of constructive feedback, which is the workbook's own Step 6 requirement. Scored with the **Robots for Crayons Presentation Rubric** ([Printable PDF](../../resources/worksheets/wk1-presentation-rubric.pdf)), which carries four-level descriptors for each criterion: Problem Diagnosis, Solution Choice and Reasoning, Repair Plan Detail, and Career Connection and Delivery, 5 points each, 20 points total. Aligned to d(1)(B), d(1)(C).
+
+Use the rubric for feedback and revision, not a grade. The [1SW assessment map](../../resources/six-weeks-assessment-map.md) protects individual evidence and does not use this team presentation as one of the block's five graded entries.
 
 ## Differentiation
 

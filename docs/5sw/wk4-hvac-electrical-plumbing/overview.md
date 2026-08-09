@@ -59,4 +59,4 @@ The HVAC tickets and plumbing response are fictional classroom evidence exercise
 
 ## Assessment recommendation
 
-Days 1, 2, and 4 are minor candidates. Day 3 classification and Day 5 individual plan/briefing are major candidates only if they fit the six-weeks 40/60 map and at-least-three-minor/two-major count. Group attendance, drawing polish, platform access, and public-speaking confidence do not determine mastery.
+Days 1, 2, and 4 are formative. Day 3 classification and Day 5 individual plan/briefing combine as **Major 1** in the [5SW assessment map](../../resources/six-weeks-assessment-map.md). Group attendance, drawing polish, platform access, and public-speaking confidence do not determine mastery.

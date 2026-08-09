@@ -88,7 +88,7 @@ This section demonstrates both goal-setting and time management. “Communicate 
 
 ## Exit Ticket: New Scenario (5 min)
 
-**EXIT TICKET** (Mini-Case) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day4-test-communicate-revise.pdf):
+**EXIT TICKET** (Mini-Case) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day4-test-communicate-and-revise.pdf):
 
 New fictional situation:
 
