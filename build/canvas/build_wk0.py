@@ -15,6 +15,7 @@ import httpx
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
 MODULE_ID = 542880
+MODULE_NAME = "1SW Wk0: Classroom Routines and Career Self-Discovery"
 ROOT = Path(__file__).resolve().parents[2]
 TEMPLATES = Path(__file__).resolve().parent / "templates"
 ASSET_ROOT = ROOT / "cce-curriculum/resources/canvas-licensed/1sw/wk0"

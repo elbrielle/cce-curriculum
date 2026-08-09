@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read-only QA for the unpublished 4SW Wk2-6SW Wk6 Canvas transfer.
+"""Read-only QA for the complete unpublished CCR Canvas course transfer.
 
 The Canvas token is read once from stdin. The script never writes to Canvas,
 prints the token, or accepts it as a command-line argument.
@@ -20,7 +20,10 @@ COURSE_ID = 98060
 ROOT = Path(__file__).resolve().parents[2]
 CANVAS_DIR = Path(__file__).resolve().parent
 BUILDERS = [
-    *(CANVAS_DIR / f"build_4sw_wk{week}.py" for week in range(2, 7)),
+    *(CANVAS_DIR / f"build_wk{week}.py" for week in range(6)),
+    *(CANVAS_DIR / f"build_2sw_wk{week}.py" for week in range(1, 7)),
+    *(CANVAS_DIR / f"build_3sw_wk{week}.py" for week in range(1, 7)),
+    *(CANVAS_DIR / f"build_4sw_wk{week}.py" for week in range(1, 7)),
     *(CANVAS_DIR / f"build_5sw_wk{week}.py" for week in range(1, 7)),
     *(CANVAS_DIR / f"build_6sw_wk{week}.py" for week in range(1, 7)),
 ]
@@ -167,7 +170,8 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
             )
             if assignment.get("published"):
                 problems.append(f"assignment is published: {assignment.get('id')}")
-            if not assignment.get("submission_types"):
+            submission_types = assignment.get("submission_types") or []
+            if not set(submission_types) - {"none", "not_graded"}:
                 problems.append(
                     f"assignment has no submission route: {assignment.get('id')}"
                 )
@@ -176,7 +180,7 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
                     "type": "Assignment",
                     "id": assignment.get("id"),
                     "title": assignment.get("name"),
-                    "submission_types": assignment.get("submission_types"),
+                    "submission_types": submission_types,
                 }
             )
             continue
@@ -507,9 +511,9 @@ def main() -> int:
     except (SyntaxError, ValueError) as exc:
         print(f"Preflight failed: {exc}", file=sys.stderr)
         return 2
-    if len(names) != 17 or len(set(names)) != 17:
+    if len(names) != 36 or len(set(names)) != 36:
         print(
-            f"Preflight failed: expected 17 unique module names; found {len(names)}",
+            f"Preflight failed: expected 36 unique module names; found {len(names)}",
             file=sys.stderr,
         )
         return 2

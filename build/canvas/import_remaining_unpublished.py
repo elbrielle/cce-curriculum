@@ -252,7 +252,7 @@ def main() -> int:
             return 3
         print("  " + summarize(payload), flush=True)
 
-    print("Running read-only coursewide Canvas QA...", flush=True)
+    print("Running read-only 36-week coursewide Canvas QA...", flush=True)
     verification = subprocess.run(
         [sys.executable, str(QA_SCRIPT)],
         cwd=ROOT,
