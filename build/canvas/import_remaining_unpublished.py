@@ -1,0 +1,86 @@
+#!/usr/bin/env python3
+"""Import the remaining 4SW-6SW Canvas modules with one token from stdin.
+
+The token is passed only through child-process stdin. It is never placed in a
+command-line argument, written to a file, or included in summary output.
+"""
+
+from __future__ import annotations
+
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[2]
+CANVAS_DIR = Path(__file__).resolve().parent
+IMPORTERS = [
+    *(CANVAS_DIR / f"build_4sw_wk{week}.py" for week in range(2, 7)),
+    *(CANVAS_DIR / f"build_5sw_wk{week}.py" for week in range(1, 7)),
+    *(CANVAS_DIR / f"build_6sw_wk{week}.py" for week in range(1, 7)),
+]
+
+
+def redact(value: str, token: str) -> str:
+    return value.replace(token, "[REDACTED]") if token else value
+
+
+def summarize(payload: object) -> str:
+    if not isinstance(payload, dict):
+        return "completed; builder returned non-object JSON"
+    module = payload.get("module", {})
+    module_id = module.get("id", "unknown") if isinstance(module, dict) else "unknown"
+    published = module.get("published", "unknown") if isinstance(module, dict) else "unknown"
+    items = payload.get("items", [])
+    pages = payload.get("pages", {})
+    interactions = payload.get("interactions", payload.get("assignments", {}))
+    return (
+        f"module_id={module_id} published={published} "
+        f"items={len(items) if isinstance(items, list) else 'unknown'} "
+        f"page_days={len(pages) if isinstance(pages, dict) else 'unknown'} "
+        f"interactions={len(interactions) if isinstance(interactions, dict) else 'unknown'}"
+    )
+
+
+def main() -> int:
+    token = sys.stdin.readline().strip()
+    if not token:
+        print("Canvas token required on stdin", file=sys.stderr)
+        return 2
+
+    missing = [str(path.relative_to(ROOT)) for path in IMPORTERS if not path.is_file()]
+    if missing:
+        print("Missing importer(s): " + ", ".join(missing), file=sys.stderr)
+        return 2
+
+    total = len(IMPORTERS)
+    for index, importer in enumerate(IMPORTERS, start=1):
+        label = importer.stem.removeprefix("build_").replace("_", " ").upper()
+        print(f"[{index}/{total}] {label}", flush=True)
+        result = subprocess.run(
+            [sys.executable, str(importer)],
+            cwd=ROOT,
+            input=token + "\n",
+            text=True,
+            capture_output=True,
+            check=False,
+        )
+        if result.returncode:
+            print(redact(result.stderr or result.stdout, token), file=sys.stderr)
+            print(f"Stopped at {label}; later modules were not attempted.", file=sys.stderr)
+            return result.returncode
+        try:
+            payload = json.loads(result.stdout)
+        except json.JSONDecodeError:
+            print(redact(result.stdout[-4000:], token), file=sys.stderr)
+            print(f"Stopped at {label}; builder output was not valid JSON.", file=sys.stderr)
+            return 3
+        print("  " + summarize(payload), flush=True)
+
+    print(f"Imported {total} module packages. Run API/browser QA before publishing anything.")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -692,3 +692,10 @@ This log records the official Canvas build without storing access credentials or
 - Result: active pilot delivery weight fell from 7.99 MB to 1.65 MB, a 6.34 MB / 79.4% reduction. Side-by-side visual inspection confirmed readable workbook copy, email sender/domain clues, and task labels.
 - Importer behavior: `build_wk1.py` and `build_wk5.py` prefer same-stem JPEG files and skip the larger PNG during upload. Originals remain available outside Git for regeneration.
 - Next priority: consolidate exact shared IT/Xello images into one locked Canvas shared folder after unpublished-page reference testing; do not delete live Canvas files during the migration.
+
+## 2026-08-08 - remaining-module import orchestration
+
+- Added `build/canvas/import_remaining_unpublished.py` for 4SW Wk2 through 6SW Wk6, 17 unpublished module packages total.
+- The orchestrator reads one token from standard input, passes it only through each child builder's standard input, redacts it from failure output, stops on the first failed build, and writes no credential or import-state file.
+- 4SW Wk1 is intentionally excluded because it already exists in the live course. Individual week builders retain idempotent upsert behavior and remain the unit of retry.
+- Local checks: script compiles; empty-input test exits 2 with `Canvas token required on stdin`; live import remains pending secure token input.
