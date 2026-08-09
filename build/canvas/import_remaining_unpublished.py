@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import py_compile
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -36,6 +37,35 @@ def preflight() -> int:
             py_compile.compile(str(importer), doraise=True)
         except py_compile.PyCompileError as exc:
             errors.append(f"{importer.relative_to(ROOT)}: {exc.msg}")
+
+    dependency_roots = (
+        ROOT / "docs/resources/worksheets",
+        ROOT / "docs/resources/exit-tickets",
+        ROOT / "cce-curriculum/resources/canvas-licensed",
+        CANVAS_DIR / "templates",
+    )
+    dependency_index = {
+        path.name
+        for directory in dependency_roots
+        for path in directory.rglob("*")
+        if path.is_file()
+    }
+    dependency_pattern = re.compile(
+        r'''["']([^"']+\.(?:pdf|png|jpe?g|html))["']''', re.IGNORECASE
+    )
+    named_dependencies: set[str] = set()
+    for importer in IMPORTERS:
+        if not importer.is_file():
+            continue
+        for reference in dependency_pattern.findall(importer.read_text()):
+            if reference.startswith("http") or "{" in reference:
+                continue
+            name = Path(reference).name
+            named_dependencies.add(name)
+            if name not in dependency_index:
+                errors.append(
+                    f"{importer.relative_to(ROOT)}: local dependency not found: {reference}"
+                )
 
     template_dir = CANVAS_DIR / "templates"
     student_templates = sorted(
@@ -95,7 +125,8 @@ def preflight() -> int:
 
     print(
         f"Preflight passed: {len(IMPORTERS)} builders compile and "
-        f"{len(student_templates)} teacher/student template pairs meet the accessibility contract."
+        f"{len(student_templates)} teacher/student template pairs meet the accessibility contract; "
+        f"{len(named_dependencies)} named local dependencies resolve."
     )
     return 0
 

@@ -201,7 +201,7 @@ Run its credential-free preflight before requesting the token:
 python3 build/canvas/import_remaining_unpublished.py --preflight
 ```
 
-The preflight compiles all 17 builders and checks all 18 coordinated 4SW-6SW teacher/student template pairs for the approved scan headings, semantic student callouts, disclosure summaries, and absence of legacy Canvas tabs. A failed preflight makes no Canvas request.
+The preflight compiles all 17 builders, checks all 18 coordinated 4SW-6SW teacher/student template pairs for the approved scan headings, semantic student callouts, disclosure summaries, and absence of legacy Canvas tabs, and resolves every statically named local PDF, image, and HTML dependency. A failed preflight makes no Canvas request.
 
 Run the external-source link check during a production pass and before publication:
 
