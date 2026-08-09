@@ -106,31 +106,44 @@ One limitation:
 
 Assign a total of 100 points across the factors before choosing a winner.
 
-| Factor | My weight | Why this weight matters |
-|---|---:|---|
-| Salary evidence | /100 |  |
-| Preparation time/requirements | /100 |  |
-| Personal fit | /100 |  |
-| My additional factor: __________ | /100 |  |
-| **Total** | **100/100** |  |
+Salary evidence: ______ / 100
+
+Preparation time/requirements: ______ / 100
+
+Personal fit: ______ / 100
+
+My additional factor: ____________________  Weight: ______ / 100
+
+**Total: 100 / 100**
+
+Why each weight matters to my current decision:
+
+1. Salary: [[lines: 1]]
+2. Preparation: [[lines: 1]]
+3. Personal fit: [[lines: 1]]
+4. Additional factor: [[lines: 1]]
 
 How I will score each career consistently:
 
-[[lines: 4]]
+[[lines: 1]]
 
 My result and why the score is a preference—not proof of the objectively best career:
 
-[[lines: 4]]
+[[lines: 1]]
 
 [[pagebreak]]
 
-## Portfolio Audit and Revised Decision
+## Portfolio Summary and Revised Decision
 
-- [ ] Day 1 salary source/lifestyle target
-- [ ] Day 2 personal budget and $300 stress test
-- [ ] Day 3 location comparison
-- [ ] Day 4 education/training funding guide
-- [ ] Day 5 three-career comparison
+Use Days 1–4 as references when available. The graded submission is this Day 5 portfolio; prior formative packets do not need to be attached again.
+
+Annual before-tax target used: $________________
+
+| Career | Annual salary on my chosen basis | Salary minus annual target |
+|---|---:|---:|
+| Career 1 | $ | $ |
+| Career 2 | $ | $ |
+| Career 3 | $ | $ |
 
 Career selected after the comparison: ______________________
 
@@ -139,7 +152,7 @@ Two evidence details supporting the selection:
 1. [[lines: 1]]
 2. [[lines: 1]]
 
-My revised monthly budget result: $________  surplus / shortage / even
+My revised monthly budget result from the planning scenario: $________  surplus / shortage / even
 
 One budget or source-label correction I made:
 

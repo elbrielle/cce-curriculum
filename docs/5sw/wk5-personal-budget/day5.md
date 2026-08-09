@@ -17,12 +17,12 @@ Fallback: the packet supplies three May 2024 U.S. BLS medians from Architecture 
 1. **Warm-up — 5 min.** Name one financial decision that changed after seeing evidence this week.
 2. **Three-career comparison — 20 min.** Record the same wage measure, preparation, and one limitation for three careers.
 3. **Transparent value decision — 10 min.** Students choose and publish their own factor weights before scoring salary, preparation time, personal fit, and one additional factor. The score explains a preference; it does not prove one career is objectively best.
-4. **Portfolio audit and budget revision — 10 min.** Submit Day 1 source/lifestyle target, Day 2 revised budget, Day 3 location decision, Day 4 funding guide, and Day 5 comparison. Correct one weak or mislabeled claim.
+4. **Portfolio summary and budget revision — 10 min.** Use Days 1–4 as references when available. In the Day 5 portfolio, show all three salary-minus-annual-target calculations, record the revised monthly planning result, and correct one weak or mislabeled claim. Prior formative packets are not attached again.
 5. **Exit — 5 min.** State the selected career, two evidence details, the revised budget result, and one limitation.
 
 ## Monitoring and scoring
 
-The salary comparison must use at least three careers and one comparable basis. The value decision receives credit for transparent weights and evidence, not for choosing the highest-paying career. The budget receives credit for accurate units, complete categories, balance, and a reasoned revision—not for having a surplus.
+The salary comparison must use at least three careers and one comparable basis. The value decision receives credit for transparent weights and evidence, not for choosing the highest-paying career. The budget criterion uses the three visible salary-minus-target calculations, revised monthly result, and evidence limitation in this portfolio—not a second review of every Day 2 category.
 
 ## Access and absence route
 
