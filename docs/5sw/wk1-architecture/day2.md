@@ -1,102 +1,56 @@
-# Day 2: Career Research + Salary Comparison
+# Day 2: Compare Career Preparation and Pay
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the career research worksheet for an A&C career; compare salaries and education timelines across 3+ careers; complete Xello Education Experiences activity |
+| **Target** | Compare three careers using consistent preparation and salary evidence. |
 | **TEKS** | d(2)(A), d(5)(E) |
-| **5E Phases** | Engage: Warm-Up · Explore: A&C career research · Explain: Modeled salary comparison row · Extend: Xello Education Experiences · Evaluate: Exit Ticket |
-| **Deliverable** | Completed career research worksheet + completed salary comparison worksheet |
-| **Materials** | Chromebooks, H&L accounts + *Find Your Future* workbook p. 198, BLS OOH, Xello accounts, printed career research worksheet, printed salary comparison worksheet |
+| **Evidence** | Three-career comparison + recommendation |
 
----
+## Before Class
 
-## Warm-Up (5 min)
+Open the fixed, dated evidence guide for Architect, Drafter, and Interior Designer. It uses May 2024 BLS U.S. median pay and clearly labels preparation. Do not add guessed tuition, an invented salary-to-education ratio, or “entry/mid-career” labels that the source does not provide.
 
-**WARM-UP: How many years of school does it take to become a licensed architect? Write your best guess. We will check your answer today.**
+An optional Xello-local cross-check belongs in a separate field and is usable only when students record exact occupation, geography, measure, and date. H&L is supplemental. No new Xello completion task is assigned today.
 
-Take a quick show of hands for ranges (2 years? 4 years? 6+?). The answer, 5 to 7 years of professional education plus an internship and licensing exam, often surprises students who assumed it was a standard 4-year degree.
+## 50-Minute Flow
 
----
+### 1. Read the label — 5 minutes
 
-## Activity 1: A&C Career Research (20 min)
+Display one number without labels, then add occupation, source, year, geography, and measure. Ask what changed about what the class can honestly claim.
 
-**Source:** CCE career research worksheet (the research format is taught in Wk0) + (FYF p. 198: "App Exploration")
+### 2. Model one evidence row — 10 minutes
 
-Hand out the printed career research worksheet, the same six-field artifact students learned in Wk0 and have used in every cluster week since. Students select one A&C career that interests them, ideally one of the three Hats they rated on the App Exploration page yesterday, and complete all fields:
+Model Architect without reducing licensure to one universal timeline. In Texas, the common structure includes an approved education route, documented AXP experience, and the ARE; routes and timing vary.
 
-- **Name of Career** (e.g., Architect, Drafter, Interior Designer, Urban Planner)
-- **What Interests You?:** Why this career caught their attention
-- **Brief Job Description:** What this professional does daily
-- **Education/Training Needed:** Degrees, certifications, licensing
-- **Average Salary:** Pull DFW-specific salary from H&L career profiles
-- **Tools, Equipment, or Skills Needed:** CAD software, math, design thinking, etc.
+### 3. Complete the fixed comparison — 20 minutes
 
-> [H&L PLATFORM] Students open the Hats & Ladders app, go to Clusters, click the Architecture and Construction Cluster, and use the Hat Finder to return to a Hat they rated on the App Exploration page (FYF p. 198). They pull each worksheet field directly from that Hat's profile in the app, then use at least one additional source, such as the BLS Occupational Outlook Handbook, to confirm the salary and training figures.
+Students record for all three careers:
 
-After completing the worksheet, students have concrete, data-backed knowledge of one A&C career. This becomes the anchor point for the salary comparison activity next.
+- a daily work product;
+- typical entry education or common preparation;
+- any documented experience, examination, registration, or credential boundary;
+- May 2024 U.S. median pay;
+- source/date/geography/measure;
+- one limitation of the comparison.
 
-!!! tip "Facilitation Tip"
-    **Active Monitoring:** walk one lap with a single target, that every worksheet shows a salary figure copied from a source rather than guessed. The predictable error is a national average pulled from a search result instead of the DFW figure on the Hat profile, so have that correction ready before class. If more than a handful of sheets carry guessed numbers, pause the room and reproject the Hat profile screen instead of fixing sheets one at a time.
+### 4. Recommend with evidence — 10 minutes
 
----
+For a fictional student who values design but wants to compare time in preparation, students recommend one career to investigate first. They must cite one salary figure and one preparation difference. Preference is not scored; evidence and reasoning are.
 
-## Activity 2: Salary and Education Comparison (15 min)
+### 5. Exit — 5 minutes
 
-**Source:** Scope and sequence d(5)(E) requirement, compare salaries of at least 3 careers
+Compare the salaries of all three careers from highest to lowest, then explain why salary alone cannot decide which preparation route fits a person.
 
-Distribute the salary comparison worksheet. Students compare at least **3 A&C careers** plus **1 trades career** from the 4th Six Weeks as a contrast. For each career, record:
+## Teacher Key
 
-| Career | Years of Education | Estimated Education Cost | Entry Salary (DFW) | Mid-Career Salary (DFW) |
-|--------|-------------------|------------------------|--------------------|-----------------------|
-| Architect | 5-7 years + ARE | $$$$ | $_____ | $_____ |
-| Drafter | 2 years (associate) | $$ | $_____ | $_____ |
-| Interior Designer | 4 years (bachelor) | $$$ | $_____ | $_____ |
-| (Trades career from 4SW) | 1-2 years or apprenticeship | $ | $_____ | $_____ |
+- Accept only comparisons that preserve the common source basis.
+- A stronger answer cites a specific figure and a specific preparation difference.
+- “Median” is not “starting pay,” “DFW pay,” or guaranteed earnings.
+- Different recommendations can earn full credit.
 
-Model one row on the projector using BLS and H&L data before students work independently. Use sentence stems for students who need support: *"An Architect earns $_____ after _____ years of education. A Drafter earns $_____ after _____ years."*
+## Supports and Absence Route
 
-**DOK 3:** Are the extra years of architecture school "worth it" compared to entering a trade directly after high school? What factors beyond salary, job satisfaction, creative freedom, physical demands, job security, should affect the decision?
-
----
-
-## Activity 3: Xello Education Experiences (10 min)
-
-**Source:** Bowie Grade 8 Xello Completion Standard, "Education experiences"
-
-Direct students to log into Xello and open the **Education Experiences** activity. This activity prompts students to think about how their current school subjects and experiences connect to career possibilities.
-
-Since students are exploring architecture this week, prompt them to think specifically about how math (geometry, measurement), art (design, spatial reasoning), and technology (CAD, 3D modeling) connect to A&C careers. Students who already completed this Xello activity earlier in the year should review and update their responses with new connections from this week.
-
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/5sw-wk1-day2-career-research-salary-comparison.pdf):
-
-From my worksheet, rank these 4 careers from BEST salary-to-education ratio (1) to WORST (4).
-
-- Architect: rank ____
-- Drafter: rank ____
-- Interior Designer: rank ____
-- My 4SW trade career: _______________________. Rank ____
-
-For EACH rank, write ONE specific number (years of school, cost, or salary):
-
-- Rank 1 (best ratio): _______________________________________________________
-
-- Rank 4 (worst ratio): _______________________________________________________
-
-Bottom line: Would I still PICK a career that is NOT Rank 1? Circle: YES / NO. In one sentence, why or why not? *(d(2)(A), d(5)(E))*
-
-   ___________________________________________________________________
-
----
-
-## Differentiation
-
-- **Support:** Provide a pre-filled example row (e.g., Electrician from 4SW Wk4) so students see the expected format before completing their own rows.
-- **Extension:** Research the MacArthur HS Architecture pathway, what specific Revit courses are offered, and what does the certification exam look like?
-- **ELL:** Bilingual salary comparison worksheet with Spanish column headers. Pair ESL students with bilingual peers during the comparison discussion.
+The evidence guide replaces live searching. Use one card at a time, bilingual labels, read-aloud, or speech-to-text. The comparison reserves two lines for each preparation field and at least five lines for the final recommendation.

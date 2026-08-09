@@ -1,117 +1,129 @@
-# Week 2: Mapping My Future — High School Course Planning
+# Week 2: Mapping My Future - High School Course Planning
 
 **4th Six Weeks** | Cross-Cluster Planning | 5 class periods (50 min each)
 
 ## Lesson Objective
 
-Students translate the pathway selection from Week 1 into a concrete 4-year high school course plan using the H&L District Course Planner, write a personal Career Plan that documents pathway choice + course sequence + postsecondary requirements, and download/print the plan to share with their family.
+Students use current Texas and Irving ISD planning sources to build a counseling-ready four-year course-plan draft, compare AP and dual-credit options, set one SMART experience goal, and write an individual high school and career plan that can be revised as requirements change.
 
-**Learning Target:** I can match my career pathway to a Texas endorsement, build a 4-year high school course map for that pathway, and write a Career Plan I can explain to my family.
+**Learning Target:** I can connect my career direction to high school courses, preparation after high school, and actions I can start now.
 
-**Success Criteria:** I will know I am successful when my transition worksheet names my pathway, my campus, my endorsement, and the one test that matters most for my plan, when my 4-year course map has a CTE pathway course in every year from 9th through 12th grade, when my Family Career Plan Letter is filled in and ready to take home, and when my Career Plan lists my career goal, my course sequence, what I need after high school, and three action steps I will start this year.
+**Success Criteria:** I will know I am successful when my plan uses current sources, shows a four-year course sequence and one prerequisite chain, compares an advanced or college-credit option, includes a backup, and names actions I can take before and during Grade 9.
 
-!!! note "Buffer week: adapt freely for state testing season"
-    The original scope-and-sequence intentionally left this week light (Xello completions + eDynamic supplements, no new cluster) because it lands during STAAR / state testing season. The curriculum writer placed the d(8)(C) Career Plan artifact here because Week 2 was the most complete available slot for the summative, but the Day 1-4 supporting activities (HS transition lecture, Family Letter, eDynamic 6.2) are all cut-or-condense candidates when testing eats periods. Load-bearing: Day 2 Course Planner + Day 5 Career Plan write-up (these together produce the d(8)(C) artifact). Flex: Day 1 endorsement lecture, Day 3 Family Letter (can be homework), Day 4 eDynamic (asynchronous).
+!!! note "Counseling-ready draft, not official course requests"
+    This week prepares students for a counselor conversation. Students do not submit official course requests or claim a final four-year schedule. The Irving ISD coursebook and counselor guidance control current course names, prerequisites, campus access, applications, and scheduling. Every uncertain entry is marked for verification.
 
 ## Demonstration of Learning
 
-> "I can map my high school courses to a career pathway using the H&L District Course Planner, write a Career Plan that documents my pathway, course sequence, and postsecondary goals, and explain how planning impacts my future to a family member."
+> "I can explain how my current course and experience choices support a career direction, identify what still needs counselor verification, and revise my plan when better evidence appears."
 
 ## TEKS Alignment
 
-- **d(8)(B):** Document high school courses, postsecondary education, and training requirements for a chosen pathway.
-- **d(8)(C):** Write an individual plan to start a career.
-- **d(3)(A):** Describe academic requirements for transitioning from middle school to high school and from high school to postsecondary education.
-- **d(3)(B):** Identify college credit opportunities such as Advanced Placement, International Baccalaureate, and dual credit.
-- **d(3)(D):** Discuss the impact of effective planning on career and educational goals.
-- **d(3)(E):** Analyze the impact of standardized assessments such as PSAT, SAT, ACT, ASVAB, and TSI on postsecondary opportunities.
+- **d(8)(B):** Document high school courses and postsecondary education and training requirements for a chosen pathway.
+- **d(8)(C):** Write an individual plan for beginning a career.
+- **d(3)(A):** Describe academic requirements for transitions from middle school to high school and from high school to postsecondary education.
+- **d(3)(B):** Identify current college-credit opportunities such as Advanced Placement and dual credit.
+- **d(3)(D):** Discuss how effective planning affects career and educational goals.
+- **d(3)(E):** Analyze how assessments can affect graduation, placement, admission, scholarships, career exploration, or military options.
+- **d(3)(F):** Explain the importance of co-curricular and extracurricular participation.
 
 ## Materials Needed
 
-- Chromebooks with internet access (1 per student)
-- Hats & Ladders student accounts + *Find Your Future* workbook, Capstone chapter (FYF pp. 292-293: "Rung 6: Goal Setting" and FYF pp. 294-296: "Rung 7: High School Plan")
-- Texas OnCourse: [texasoncourse.org](https://texasoncourse.org)
-- College For All Texans: [collegeforalltexans.com](https://www.collegeforalltexans.com)
-- Irving ISD CTE Pathways poster
-- Printed Family Career Plan Letter (locally authored; bilingual English/Spanish)
-- Printed Career Plan Template (1 per student)
-- eDynamic Learning Unit 6.2: Gaining Experience
-- Printed 4-Year Course Map blank template (9th-12th grade)
-- Projector for teacher modeling
+- Chromebooks with internet access
+- *Find Your Future* workbook, FYF pp. 292-293, "Rung 6: Goal Setting," and FYF pp. 294-296, "Rung 7: High School Plan"
+- [TEA Graduation Toolkit 2025](https://tea.texas.gov/about-tea/newsroom/brochures/tea-graduation-toolkit-2025.pdf)
+- [Irving ISD 2026-2027 Middle and High School Course Descriptions](https://www.irvingisd.net/departments-services/curriculum-and-instruction/middle-school-and-high-school-course-descriptions)
+- [TEA Advanced Placement](https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/advanced-placement)
+- [TEA Dual Credit](https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/dual-credit)
+- High School Transition and Assessment Decisions packet
+- Counseling-Ready Four-Year Course Plan Draft
+- College Credit Options and Family Conversation packet
+- SMART Experience Action Plan
+- Individual High School and Career Plan
+- Individual High School and Career Plan Rubric
 
 ## Career Connection
 
-The H&L District Course Planner shows courses by Irving ISD campus. Students select a campus and pathway, fill the CTE course cells for grades 9 through 12, and use that map in Friday's Career Plan. They also prepare a copy and letter to discuss at home.
+Course planning is a sequence problem. A student connects a current interest to a high school program, checks the prerequisite order, identifies preparation after high school, and keeps a backup that protects the same goal. A counselor confirms the operational details before the student submits requests.
 
-**Irving ISD Pathways:** Students complete course mapping for their selected pathway. Common 7th-grade choices include: Computer Science (Irving High, MacArthur, Nimitz), Robotic Manufacturing (Singley), Nursing Science (Singley), Architecture (MacArthur), Aviation Maintenance and Drone Engineering (Irving High), Automotive (Ratteree), and Veterinary Science (Nimitz).
-
-**What is Happening at Irving ISD?** The workbook's district pages carry the two definitions this week's planning rests on (FYF pp. 21-22: "What is Happening at My District?"): CCMR is College, Career, and Military Readiness, and a Program of Study is a sequence of related courses that pairs classroom learning with hands-on experience. Week 0 used those pages to introduce CTE. This week students use them to answer a planning question: "What's Available to Me?" (FYF p. 296) asks what their own likely campus offers, and the Programs of Study sidebar is where that answer comes from.
+The workbook provides a planning frame, not a current district course catalog. Rung 7 asks students to connect classes, activities, CTSOs, and special programs to their goals (FYF pp. 294-296: "Rung 7: High School Plan"). The current Irving ISD coursebook supplies course descriptions, grade levels, and prerequisites. When the two sources differ, the current district source and counselor guidance win.
 
 ## Vocabulary
 
-- **District Course Planner:** In H&L, the tool that shows specific courses available in a student's school district, mapped to career pathways.
-- **Foundation High School Program:** Texas's required graduation framework, 22 credits across English, math, science, social studies, languages, PE, fine arts, and electives.
-- **Endorsement:** A specialization track on top of the Foundation HS Program. Texas offers five: STEM, Business & Industry, Arts & Humanities, Public Services, Multidisciplinary.
-- **Postsecondary:** Anything after high school, 4-year college, community college, trade school, military, certification programs, apprenticeships.
-- **Dual Credit:** A course that earns both high school credit and college credit at the same time, often saving thousands in tuition.
-- **AP (Advanced Placement):** A college-level course taken in high school. Passing the end-of-course exam can earn college credit.
-- **Career Plan:** A written document outlining a student's career goal, the pathway, the courses, the postsecondary training, and the action steps.
-- **SMART Goal:** A goal that is Specific, Measurable, Achievable, Relevant, and Time-Bound. The workbook teaches the five parts on the page students use to write their short-term, high school, and after-high-school goals (FYF p. 292).
+- **Foundation High School Program:** The Texas graduation framework. The 2025 TEA toolkit lists 22 foundation credits.
+- **Endorsement:** An added area of study. The TEA toolkit lists a 26-credit plan when endorsement requirements are included.
+- **Prerequisite:** A course or requirement that must be completed before another course.
+- **Postsecondary:** Education or training after high school, including college, technical training, apprenticeships, military training, and industry credentials.
+- **AP:** A high school course and exam that may earn college credit or placement under the receiving college's policy.
+- **Dual credit:** A college course taken by an eligible high school student that earns both high school and college credit.
+- **Course request:** A student's official request for next year's courses. A request is not the same as a guaranteed schedule.
+- **SMART goal:** A goal that is Specific, Measurable, Achievable, Relevant, and Time-Bound.
+- **Revision rule:** The evidence or change that would cause a student to update a plan.
 
 ## Bridge to Theory (Hats & Ladders)
 
-The *Find Your Future* workbook carries this week inside the Capstone chapter, where two rungs of the Career Ladder do exactly what this week does.
+Rung 6 asks students to write short-, medium-, and long-term SMART goals and identify the resources and support each goal needs (FYF pp. 292-293: "Rung 6: Goal Setting"). This week uses that structure for one experience goal students can begin now.
 
-**Rung 6: Goal Setting** (FYF pp. 292-293) teaches SMART goals on the page (Specific, Measurable, Achievable, Relevant, Time-Bound) and then asks for three of them: a short-term goal for now through the end of 8th grade, a medium-term goal for high school, and a long-term goal for after high school. Every goal carries a "Resources and Support I Need to Achieve My Goal" field, and the rung closes by asking students to check whether their goals are realistic and challenging at the same time. Those three time horizons are already the shape of this week's artifacts: the Experience Action Plan is the short-term goal, the 4-year course map is the medium-term goal, and the postsecondary section of the Career Plan is the long-term goal.
+Rung 7 asks students to consider core classes, electives, CTE courses, clubs, CTSOs, internships, certifications, dual enrollment, and other programs, then name what they can do during Grades 9-12 (FYF pp. 294-296: "Rung 7: High School Plan"). The CCE planning packets add source labels, prerequisite checks, counselor questions, and a backup so students do not mistake an early draft for a guaranteed schedule.
 
-**Rung 7: High School Plan** (FYF pp. 294-296) is the planning artifact itself. It runs three two-column tables that each pair a choice with a "How This Can Help Me Reach My Goals" column: core classes, electives, and career and technical courses; then clubs, sports, CTSOs, and activities; then special programs and opportunities such as internships, certifications, dual enrollment, and career-focused programs. The rung ends with "What's Available to Me?", which asks students what their own likely high school offers and which single opportunity interests them most, and with a "My Plan in Action" table asking for one thing to do in 9th grade, one thing to continue or build on through 10th, 11th, and 12th, and one way to prepare for life after high school. Those tables are also the hand-fill fallback whenever the H&L District Course Planner has no Irving ISD course data loaded.
+## Xello Counseling-Window Boundary
 
-Rungs 6 and 7 belong to this week. Rungs 1 through 3 (FYF pp. 281-286) are built in Week 1, and the remaining rungs, the 32-point rubric (FYF p. 280), and the presentation check in (FYF p. 299: "Prepare & Present") are finished in 6SW. The H&L app's District Course Planner is the digital version of Rung 7: it is loaded with district-specific course catalogs, students select their high school and their pathway, and the tool lays out a 4-year course sequence.
+The authenticated Grade 8 Completion Standards include four planning tasks that belong in the district counseling window:
+
+- **4-year course plan:** 30 minutes
+- **Make plans:** 30 minutes and add at least one plan
+- **Submit course requests:** 20 minutes, Grade 8 only
+- **Parent 4-year course plan approval:** 15 minutes, with a district due date of May 1, 2027 in the current configuration
+
+These tasks are not replaced by the CCE packet. The packet prepares students to complete them with fewer errors. Teachers should open the Canvas counseling-window checkpoint only when counselors confirm the local schedule, course-request process, and family-approval procedure.
 
 ## IISD Instructional Strategies
 
-- **Think-Pair-Share:** Day 3, Activity 3, the DOK 2 comparison of AP courses and dual credit after the College For All Texans search. Distinguished: pose the question to the whole group, hold a silent 30 second Think, then time Partner A for 30 seconds and Partner B for 30 seconds, and post two stems at different levels: "AP is better when _____, and dual credit is better when _____" and "Both save money because _____, but they are graded differently because _____." Ask two pairs to share, not one. Listen while pairs talk for who can name what each option actually earns (an exam score versus college hours on a transcript), and pick your share-out pairs from what you heard rather than from raised hands.
-- **Stop and Jot:** Day 1, the Warm-Up, where students write one worry and one thing they are excited about before any content is taught. Distinguished: put a 90 second box on the board with both stems visible, "One thing about high school that worries me is _____" and "One thing I am excited about is _____", and tell students both lines are required. Read jots over shoulders while they write and sort the worries into scheduling worries and belonging worries. If most jots are scheduling worries (getting lost, hard classes, too many choices), lean the Foundation High School Program walkthrough on the sequence and the choices; if most are belonging worries, lean it on clubs, CTSOs, and the campus-transfer conversation that Activity 2 opens.
-- **Active Monitoring:** Day 2, Activity 2, the 25 minutes of student course mapping, using the three-item checklist already written into the plan. Distinguished: walk a fixed pathway three times, one target per lap (lap 1 the correct Irving ISD campus is selected, lap 2 the pathway matches the student's Week 1 number one ranking, lap 3 no CTE Pathway cell is blank in any of the four years), and carry the checklist on a clipboard rather than in your head. Have feedback ready before class for the two predictable errors: a student mapping their home campus when their pathway lives at a different campus, and a student who fills 9th and 10th grade and leaves 11th and 12th empty because the pathway only lists two courses. If more than a handful hit the blank-cell problem, pause the room and work one 11th and 12th grade fill on the projector instead of solving it desk by desk.
-- **Chunking:** Day 2, Activity 1, the Course Planner walkthrough, taught one grade level at a time rather than as one tour. Distinguished: project the app and release 9th, then 10th, then 11th, then 12th, saying what each year is for before you click it, and narrate the decision at each chunk the way the plan already scripts it in prose (Algebra I in 9th because Geometry in 10th needs it, the 10th grade CTE course because it is the gateway to the 11th grade course). Close each grade-level chunk with a thumbs check before opening the next one. Note which year drew the most thumbs down. That year becomes the first thing you re-teach when students open their own Chromebooks in Activity 2, and students who cleared all four chunks start their own map early instead of waiting.
-- **Time, Voice, Body (TVB):** Day 5, Activity 2, the 25 minute Career Plan write. Distinguished: post the three blocks before the templates go out, Voice 0 for the full write with a visible countdown, pens only, and every Week 1 and Week 2 artifact laid out on the left of the desk so nobody leaves their seat hunting for a worksheet. Post the sentence stem where every student can see it: "My career goal is _____. To prepare, I will take _____ in high school and _____ after high school. My first action step is _____." Narrate the students who are meeting the expectation rather than correcting the ones who are not. If the room is still on section 1 at the halfway mark, say so out loud and name the three sections that must be finished before the templates are collected: career goal, pathway and campus, and the three action steps.
+- **Think-Pair-Share:** Day 3, students compare AP and dual credit after reading the two source cards. Hold a 30-second silent think, then Partner A and Partner B each use one evidence stem. Listen for students who confuse taking an AP course with automatically earning college credit. If that misconception is common, return to the receiving-college policy row before students research an option.
+- **Stop and Jot:** Day 1, students write one high school question and one transition concern. Read for scheduling, belonging, and assessment concerns. Use the dominant concern to choose the first example in the graduation and assessment walkthrough.
+- **Active Monitoring:** Day 2, use three laps through the course-plan draft. Check current course names first, prerequisite logic second, and verification labels and backups third. If students are inventing courses to fill blank years, stop and model how to leave a labeled question instead.
+- **Chunking:** Day 5, release the individual plan in three chunks: direction and self-evidence, course and preparation evidence, then action and revision. Check one model section between chunks. If students copy a pathway claim without a source, reteach the source/date field before the final chunk.
+- **Time, Voice, Body (TVB):** Day 5, keep source packets on the left side of the desk and the final plan on the right. Use Voice 0 during writing and Voice 1 during the optional evidence check. A visible timer protects the rubric review and private submission before class ends.
 
 ## Week at a Glance
 
 | Day | Focus | Key Activities | Deliverable | 5E |
 |-----|-------|---------------|-------------|-----|
-| 1 | MS-to-HS Transition | Foundation HS Program + Endorsements + standardized testing overview | Texas HS endorsement matched to chosen pathway | Engage · Explain · Explore · Evaluate |
-| 2 | H&L District Course Planner | Teacher modeling + student 4-year course mapping | Completed 4-year course map screenshot | Engage · Explain · Explore · Evaluate |
-| 3 | Family Engagement | Download Career Plan + personalize bilingual Family Letter | Printed Family Career Plan Letter ready to take home | Engage · Explore · Explain · Extend · Evaluate |
-| 4 | eDynamic 6.2: Gaining Experience | Unit 6.2 + experience-building action plan | eDynamic completion + 3 experience action items | Engage · Explore · Extend · Evaluate |
-| 5 | Career Plan Write-Up | Final Career Plan template + H&L finalization | Submitted Career Plan (the d(8)(C) summative artifact) | Engage · Explore · Explain · Evaluate |
+| 1 | Graduation and assessment decisions | Current Texas framework, endorsement boundary, assessment scenarios | Transition and Assessment Decisions packet | Engage · Explain · Explore · Evaluate |
+| 2 | Four-year course-plan draft | Current Irving coursebook, prerequisite chain, backup and counselor questions | Counseling-Ready Four-Year Course Plan Draft | Engage · Explain · Explore · Evaluate |
+| 3 | College credit and plan conversation | AP and dual-credit comparison, current option research, trusted-adult or private reflection | College Credit Options and Family Conversation packet | Engage · Explain · Explore · Extend · Evaluate |
+| 4 | Experience and SMART action | Rung 6 goal analysis, access check, backup strategy | SMART Experience Action Plan | Engage · Explain · Explore · Evaluate |
+| 5 | Individual high school and career plan | Evidence synthesis, rubric self-check, private submission | Individual High School and Career Plan | Engage · Explore · Explain · Evaluate |
 
 ## Formative Assessment
 
-- Endorsement-to-pathway match (Day 1): d(3)(A)
-- Course Planner completion screenshot (Day 2): d(8)(B)
-- Family Letter personalization quality (Day 3): d(3)(D)
-- eDynamic 6.2 progress + experience identification (Day 4): d(8)(C)
+- Day 1 assessment-scenario decisions show whether students understand how different assessments affect different options.
+- Day 2 plan audit shows whether students can document a four-year sequence without turning unverified details into facts.
+- Day 3 source comparison shows whether students distinguish AP exam policy from dual-credit course completion.
+- Day 4 SMART check shows whether an experience goal has a measure, time boundary, support, obstacle, and backup.
 
 ## Summative Assessment
 
-**Individual Career Plan (Day 5): the d(8)(C) artifact for the year.** Students submit a written Career Plan including: career goal, core personality type alignment, pathway selection, 4-year HS course map, postsecondary requirements (degree/certification/apprenticeship), three action steps the student can start this year, and one professional organization to join. Scored on completeness (d(8)(B)), quality of reasoning (d(8)(C)), MS-to-HS transition understanding (d(3)(A)), evidence of effective planning (d(3)(D)), and college credit awareness (d(3)(B)).
+**Individual High School and Career Plan, 16 points.** The student-visible rubric scores four criteria: self-evidence and direction, course and pathway planning, postsecondary and college-credit evidence, and action, support, and revision. The plan is a major-grade candidate only after the course's Major assignment group and six-weeks assessment map are verified. Until then, the Canvas Assignment remains unpublished and ungraded.
 
 ## Differentiation
 
 ### Scaffolded Learning
-- Pre-printed Career Plan template with fill-in-the-blank sections and sentence stems
-- Pre-printed list of Irving ISD CTE pathway course sequences for students who struggle with the digital Course Planner
-- Allow Career Plan submission in bullet-point format rather than full paragraphs
-- Pair students for the Course Planner, one navigates, the other reads aloud and records
+
+- Provide the same source cards used in the lesson so no grade depends on open web-search speed.
+- Allow typed, handwritten, or brief audio evidence where the learning target is reasoning rather than handwriting.
+- Use partially completed models with fictional courses and careers so students can see the structure without copying an answer.
+- Let students mark an uncertain item for counselor verification instead of forcing a guess.
 
 ### Extensions
-- Research dual-credit and articulated college credit opportunities for the chosen pathway
-- Build a visual career roadmap (poster or Canva) showing the path from 8th grade to age 30
-- Interview a family member about their own career path and compare it to the student plan
 
-### ELL Language Support
-- Bilingual Family Career Plan Letter provided in English and Spanish (this is critical for parent engagement)
-- Pre-teach: Graduation Plan = Plan de graduación, Postsecondary = Postsecundaria, Course Map = Mapa de cursos, Endorsement = Especialización, Dual Credit = Crédito dual
-- Bilingual Career Plan template with Spanish sentence stems
-- The H&L District Course Planner uses a visual layout that supports ESL navigation
+- Compare two possible four-year plans that protect the same career goal.
+- Investigate how one prerequisite, application, transportation need, or capacity limit changes the plan.
+- Add one current advanced academic or technical opportunity after verifying eligibility and source date.
+
+### Language and Access Support
+
+- Use labeled examples, icons, a short glossary, and sentence frames rather than a full automatic translation.
+- Read source cards aloud or provide text-to-speech while keeping the same evidence requirement.
+- Keep family discussion optional. A trusted adult, counselor, teacher, or private written reflection is an equal route.
+- Do not collect private Xello screenshots, family signatures, transportation details, immigration information, or other sensitive family data as graded evidence.

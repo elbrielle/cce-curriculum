@@ -10,7 +10,7 @@
 | d(2)B | Evaluate educational/training options | Wk4 (1st), Wk3 (2nd), Wk1 (3rd), Wk5 (4th), Wk1 (6th) | H&L + BLS OOH + CareerOneStop | COVERED |
 | d(3)A | MS to HS transition requirements | Wk5 (1st), Wk2 (4th) | H&L Course Planner + Texas OnCourse | COVERED |
 | d(3)B | College credit opportunities (AP, dual credit) | Wk2 (4th), Wk4 (2nd) | H&L Course Planner + College For All Texans | COVERED |
-| d(3)C | Methods to pay for college/postsecondary | Wk5 (5th) | NGPF/EverFi + College For All Texans | COVERED |
+| d(3)C | Methods to pay for college/postsecondary | Wk5 (5th) | Federal Student Aid + TEA policy + CCE fictional cases and Canvas practice check | COVERED |
 | d(3)D | Impact of effective planning | Wk2 (4th) | H&L Career Planner | COVERED |
 | d(3)E | PSAT/SAT/ACT/ASVAB/TSI impact | Wk2 (4th) | Texas OnCourse + Teacher Discussion | COVERED |
 | d(3)F | Co-curricular/extracurricular importance | Wk6 (4th) | TSA connection + SkillsUSA | COVERED |
@@ -23,10 +23,10 @@
 | d(4)D | Apply core academic skills | Embedded throughout | All platforms | COVERED |
 | d(4)E | Community service and volunteerism | Wk1 (6th) | Education cluster + Supplemental | COVERED |
 | d(4)F | Work ethic, integrity, dedication, perseverance | Wk5 (1st), Wk2 (2nd), Wk6 (3rd), Wk6 (4th) | H&L PowerSkills + Scenarios | COVERED |
-| d(5)A | Analyze labor market trends | Wk2 (1st), Wk6 (2nd), Wk4 (4th), Wk4-6 (5th) | H&L Localized Data + BLS | COVERED |
+| d(5)A | Analyze labor market trends | Wk2 (1st), Wk6 (2nd), Wk3-6 (5th) | Xello localized evidence when labeled + fixed BLS evidence | COVERED |
 | d(5)B | Classify high-skill/wage/demand occupations | Wk4 (2nd), Wk4 (4th), Wk3-4 (5th) | H&L + BLS OOH | COVERED |
 | d(5)C | Effects of changing trends on career choices | Wk3 (3rd), Wk3 (6th) | H&L + Supplemental | COVERED |
-| d(5)D | Prepare a personal budget | Wk6 (3rd), Wk5 (5th) | H&L MoneySkills + NGPF/EverFi | COVERED |
+| d(5)D | Prepare a personal budget | Wk6 (3rd), Wk5 (5th) | MIT Living Wage Calculator fixed scenario + CCE budget packet | COVERED |
 | d(5)E | Compare salaries of 3+ careers | Wk2 (1st), Wk3 (2nd), Wk4 (3rd), Wk5 (4th), Wk1,5 (5th) | H&L Localized Salary Data | COVERED |
 | d(6)A | Steps of an effective job search | Wk2,5 (6th) | CareerOneStop + eDynamic 8.2 | COVERED |
 | d(6)B | Appropriate appearance for interview | Wk4-5 (6th) | Supplemental + Practice | COVERED |

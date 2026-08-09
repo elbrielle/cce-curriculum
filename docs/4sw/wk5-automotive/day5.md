@@ -1,116 +1,94 @@
-# Day 5: Cross-Cluster Salary Presentation + H&L Favorites
+# Day 5: Automotive Evidence Brief
 
-## Lesson Overview
+## Lesson overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Present a cross-cluster salary comparison (one automotive career vs. one career from a different cluster); update H&L Climber Profile with Transportation favorites; reflect on how automotive careers compare to careers from earlier in the year |
-| **TEKS** | d(5)(E), d(1)(C) |
-| **5E Phases** | Engage: Warm-Up · Explain: Cross-cluster note card prep · Extend: Cross-cluster presentations · Evaluate: Exit Ticket |
-| **Deliverable** | Cross-Cluster Salary Presentation (1-2 minutes per student) |
-| **Materials** | Chromebooks, H&L accounts, Day 3 Salary Comparison worksheets, printed Cross-Cluster Comparison presentation note card, Xello accounts (Save Careers activity), projector |
+| **TEKS** | d(1)(C), d(2)(B), d(3)(G), d(5)(E) |
+| **Target** | I can make a current automotive-career recommendation using visible evidence, three-career data, and a realistic preparation route. |
+| **Evidence** | Private five-part brief, source audit, self-score, and revision |
+| **Materials** | Automotive Evidence Brief; student-visible 16-point rubric; Days 1-4 evidence; private Canvas Assignment |
 
----
+## Before class
 
-## Warm-Up (3 min)
+1. Post the brief and rubric before students begin.
+2. Return Days 1-4 evidence or provide the fixed model/fallback set.
+3. Keep the Assignment unpublished and ungraded until the Minor assignment group and 40/60 weighting are verified.
+4. Do not schedule Xello **Save careers** again. It belongs earlier in the required Grade 8 sequence. H&L and Xello career browsing are optional extensions only.
 
-**WARM-UP: After this week, has your opinion of automotive careers changed? Write one sentence explaining how.**
+## Warm-up — Strong claim or overclaim? (5 min)
 
-Take 3-4 student responses. Acceptable answers include "I respect them more now," "I want to do this," and "I still don't want this but now I see why someone would." All three are valid mid-year reflections.
+Students repair one sentence that changes a May 2024 U.S. national median into a DFW starting salary and one sentence that treats ASE Entry-Level as professional certification.
 
----
+## Activity 1 — Two evidence moves (8 min)
 
-## Activity 1: Prepare the Cross-Cluster Comparison (10 min)
+Show two anonymous models:
 
-**Source:** Day 3 Salary Comparison worksheet + cross-cluster preview research
+- a claim that keeps source/date/geography/measure; and
+- a recommendation that names both an advantage and a missing fact.
 
-Students take their Day 3 worksheet and complete the cross-cluster row. They pick **one automotive career** (from Day 3) and **one career from a different cluster** they explored earlier this year. They fill in both careers on the printed presentation note card with these fields:
+Students identify what makes each model trustworthy. No student is required to present publicly.
 
-| | Automotive Career | Other Cluster Career |
-|---|---|---|
-| **Career name** | (e.g., Diesel Tech) | (e.g., Registered Nurse) |
-| **DFW experienced salary** | | |
-| **Education time** | | |
-| **Education cost** | | |
-| **Pathway type** | (Apprenticeship / Cert) | (Degree / Cert / Apprenticeship) |
-| **My evaluation** | (Pros and cons) | (Pros and cons) |
-| **My choice and why** | (1 sentence personal preference) | |
+## Activity 2 — Reopen and audit evidence (10 min)
 
-Students prepare a 60-90 second talking script using the back of the note card.
+Students bring forward:
 
-!!! tip "Facilitation Tip"
-    Students may pick extreme cross-cluster comparisons, such as Diesel Tech vs. Surgeon or Auto Mechanic vs. Software Engineer. Let them, then require evidence for each difference. Keep the discussion on pay, training, conditions, and fit instead of declaring one career better.
+- one visible-evidence boundary from Crash Crew;
+- all three occupation salary labels;
+- one ASE distinction;
+- one training-route advantage and tradeoff; and
+- one current source or authorized verification person.
 
----
+If an earlier artifact is missing, use the model evidence strip. Do not make an absent student reconstruct four days before beginning.
 
-## Activity 2: Class Presentations (28 min)
+## Activity 3 — Write the private brief (20 min)
 
-!!! warning "Presentation timing: 25 × 90 sec = 37.5 min, but Activity 2 is 28 min"
-    The 28-min budget only fits at the 60-sec floor (25 × 60 sec = 25 min). Pick one approach before presentations start:
+The brief has five separate response jobs:
 
-    - **Hard 60-sec cap:** Project a visible timer and announce the 60-sec limit before Student 1 starts. 25 × 60 sec = 25 min, leaving 3 min for transitions.
-    - **Parallel corners:** 3 groups of ~8 present simultaneously in corners. Teacher circulates. Each group picks one standout for a final 3-min whole-class share.
-    - **Hybrid:** 10 students present live at 90 sec each (15 min); the other 15 submit written 3-sentence pitches to Google Classroom for the exit ticket.
+1. **Visible evidence:** one supported condition and one conclusion not supported by the image.
+2. **Three-career comparison:** rank or compare all three May 2024 U.S. national medians.
+3. **Current direction:** choose one automotive occupation to investigate and cite two relevant facts.
+4. **Preparation route:** recommend a first route to investigate, with one advantage, tradeoff, and verification question.
+5. **Limitation and next action:** name what the evidence cannot decide and one action within seven days.
 
-**Time, Voice, Body:** Post the three blocks before the first presenter. Voice 0 while the note card is handed off, Voice 3 for the presenter, Voice 1 for the listening-grid partner check. Run a visible countdown for every presenter at whichever cap you picked above, and define where presenters stand and where finished note cards go so transitions do not eat presentation time. Narrate the students who are already meeting the expectation. If the rotation is running long by the fifth presenter, announce the tighter cap before the next presenter begins so nobody is cut short without warning.
+The career choice itself is not graded.
 
-Each student delivers their 60-90 second presentation. Format:
+## Activity 4 — Self-score, revise, submit (7 min)
 
-1. Name the two careers being compared
-2. Share the key salary and education numbers
-3. State which one the student would personally choose and why
-4. End with one criterion they think every student should use when evaluating careers (beyond just salary)
+Students use the 16-point rubric:
 
-The class fills in a quick listening grid: which two careers were compared, which one the presenter chose, what the presenter's "additional criterion" was.
+- 4 points: accurate visible evidence and boundary;
+- 4 points: three-career comparison and labels;
+- 4 points: training-route evaluation;
+- 4 points: recommendation, limitation, and next action.
 
-After the last presentation, run a 2-minute discussion:
-- What additional criteria came up the most? (Common: work-life balance, interest, location, debt avoidance)
-- Did any presenter change their mind during the comparison?
-- Was there a clear pattern of "automotive wins on cost, other career wins on prestige"?
+Students revise the weakest section and submit privately by Canvas upload, text entry, media recording, or paper.
 
-**DOK 4:** Based on everything you have learned this week and earlier this year, create a set of criteria for evaluating whether a career is a good fit. Your criteria should go beyond just salary.
+## Exit ticket (included in the final seven minutes)
 
----
+**EXIT TICKET** (3-2-1 Reflective) · [Printable PDF](../../resources/exit-tickets/4sw-wk5-day5-automotive-evidence-brief.pdf):
 
-## Activity 3: H&L Favorites + Xello (7 min)
+Audit the evidence brief before private submission.
 
-> [H&L PLATFORM] Students follow the app steps on the workbook's App Exploration page for this cluster (FYF p. 170: "App Exploration"): open the Hats & Ladders app, go to Clusters, click the Transportation, Distribution, and Logistics cluster, then click Pathway Possibilities, answer the questions, and rate at least one pathway. They **favorite at least 2 Transportation careers** from this week: Auto Service Technician, Diesel Service Technician, Collision Repair Tech, Automotive Service Manager, or any related Hat. These favorites appear on their Climber Profile and influence pathway recommendations.
+**3 labels I kept accurate:**
 
-The favorites saved today are one of the inputs students pull back at the Capstone, where Rung 1 asks them to review their top Hats, pathways, and clusters (FYF p. 281: "Rung 1").
+1.
+2.
+3.
 
-> [GRADE 8 XELLO] Students complete the required **Save careers** task. Grade 8 students must save at least 3 careers. Students may include the automotive careers they favorited in H&L so the two platforms stay synced.
+**2 routes or occupations I compared:**
 
----
+1.
+2.
 
-## Exit Ticket (2 min)
+**1 unsupported claim I removed or corrected:**
 
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/4sw-wk5-day5-cross-cluster-salary-presentation-h-and-l-favorites.pdf):
+1.
 
-The automotive career I would pick from this week: _______________________
+## Monitoring, grading, and supports
 
-Connect this career to THREE things:
-
-**1. The cross-cluster career I compared it to today**
-
-   My cross-cluster career: _______________________. One number that shows the biggest gap between them (salary OR education years): ___________________________________________________________________
-
-**2. My ONE extra criterion beyond salary** (from today's presentations)
-
-   My criterion: _______________________. Why does this criterion matter for my pick? One sentence:
-
-   ___________________________________________________________________
-
-**3. My NEXT step in Irving ISD** (Ratteree pathway, trade school after graduation, or "still deciding")
-
-   My next step: _______________________. In one sentence, name ONE thing I would need to do this year to stay on track for it: *(d(5)(E), d(1)(C))*
-
-   ___________________________________________________________________
-
----
-
-## Differentiation
-
-- **Support:** Pre-filled note card with the salary and education data already filled in (using Day 3 data). Students only write their evaluation and personal choice. Allow students to present from their seat instead of standing.
-- **Extension:** Build a "Career Evaluation Criteria" rubric that the student would use to evaluate ANY career. Apply the rubric to 3 different careers and show which scores highest.
-- **ELL:** Bilingual note card. Allow students to deliver part of their presentation in Spanish if more comfortable. Pre-teach: Comparison = Comparación, Tradeoff = Compensación, Criteria = Criterios. Pair ESL students with bilingual peers for audience support during their presentation.
+- Recommended minor conversion after local approval: 15-16 Masters, 13-14 Meets, 12 Approaches, 10-11 Needs Improvement; below 10 follows campus policy.
+- Score evidence, reasoning, and accurate limits. Do not score speaking, career preference, vehicle knowledge, platform access, handwriting, or English mechanics unless meaning is unclear.
+- The printable gives each multi-sentence job a full-width writing block. Students may type, dictate, record private media, or use a teacher scribe.
+- Canvas failure means paper or later upload. Missing prior work uses the fixed evidence strip.

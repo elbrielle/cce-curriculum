@@ -1,125 +1,29 @@
-# Day 5: Budget Comparison + 3-Career Salary Analysis + A&C Wrap-Up
+# Day 5: Compare Three Careers and Submit the Budget Portfolio
 
-## Lesson Overview
+**Time:** 50 minutes
 
-| | |
-|---|---|
-| **Time** | 50 minutes |
-| **Objectives** | Compare budgets with a partner who chose a different career; complete a 3-career salary comparison across clusters; update the H&L Career Plan; wrap up the A&C cluster |
-| **TEKS** | d(5)(E), d(5)(D) |
-| **5E Phases** | Engage: Warm-Up · Explain: Partner budget comparison · Extend: Three-career value score and Career Plan update · Evaluate: Exit Ticket |
-| **Deliverable** | Final Personal Budget + 3-career salary comparison chart + updated H&L Career Plan |
-| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook p. 198, students' Day 2 budgets, students' Day 3 Cost of Living worksheets, printed Salary Comparison chart, projector |
+**TEKS:** d(5)(D), d(5)(E)
 
----
+**Evidence:** three-career salary comparison, weighted recommendation, revised budget, and private portfolio
 
-## Warm-Up (5 min)
+## Evidence choices
 
-**WARM-UP: If you could give your future self ONE piece of financial advice, what would it be? Write it down in one sentence.**
+Preferred: three Xello careers from one interest area using the same displayed geography and wage measure. Record occupation, geography, measure, and date for all three.
 
-Collect 3-4 responses. Common student insights: "Start saving young." "Don't buy things you can't afford." "Pick a career that actually pays for the life you want." Bridge: today you'll prove whether your chosen career fits your chosen lifestyle.
+Fallback: the packet supplies three May 2024 U.S. BLS medians from Architecture and Construction—Architects $96,690; Civil Engineers $99,590; Electricians $62,350—with their preparation summaries. Students may not mix the fallback national medians with unlabeled local, starting, or experienced figures in one ranked column.
 
----
+## 50-minute flow
 
-## Activity 1: Budget Comparison — Think-Pair-Share (12 min)
+1. **Warm-up — 5 min.** Name one financial decision that changed after seeing evidence this week.
+2. **Three-career comparison — 20 min.** Record the same wage measure, preparation, and one limitation for three careers.
+3. **Transparent value decision — 10 min.** Students choose and publish their own factor weights before scoring salary, preparation time, personal fit, and one additional factor. The score explains a preference; it does not prove one career is objectively best.
+4. **Portfolio audit and budget revision — 10 min.** Submit Day 1 source/lifestyle target, Day 2 revised budget, Day 3 location decision, Day 4 funding guide, and Day 5 comparison. Correct one weak or mislabeled claim.
+5. **Exit — 5 min.** State the selected career, two evidence details, the revised budget result, and one limitation.
 
-Students pair with a classmate who chose a **different** career on Day 1. They compare their Day 2 budgets:
+## Monitoring and scoring
 
-- **Whose salary is higher?**
-- **Who has more money left over each month?**
-- **What trade-offs did each person make?** (Did they cut savings? Eat out less? Live with a roommate?)
-- **Which lifestyle choices made the biggest difference to the monthly balance, regardless of salary?**
+The salary comparison must use at least three careers and one comparable basis. The value decision receives credit for transparent weights and evidence, not for choosing the highest-paying career. The budget receives credit for accurate units, complete categories, balance, and a reasoned revision—not for having a surplus.
 
-This is where students often realize that a "lower-paying" career with a modest lifestyle leaves more money at the end of the month than a "high-paying" career with an expensive lifestyle. Spending patterns matter as much as income.
+## Access and absence route
 
-**Think-Pair-Share:** Pair by different career first. Hold a silent 30 second Think on "who has more money left over, and why," then time Partner A for 30 seconds and Partner B for 30 seconds. Two stems are posted: "I have $_____ left over and my partner has $_____ because _____" and "My partner's salary is _____ than mine, but their leftover is _____ than mine, which tells me _____." Listen while pairs talk for the ones where the lower salary produced the higher leftover.
-
-After the pair discussion, call on two of those pairs to share one surprising comparison rather than taking raised hands.
-
----
-
-## Activity 2: 3-Career Salary Comparison Chart (15 min)
-
-**Source:** Scope and sequence d(5)(E): compare salaries of at least 3 careers in the student's interest area
-
-!!! tip "Facilitation Tip. Pre-identify careers"
-    Give students the first 2 min of this 15-min activity to write down the 3 careers they plan to compare *before* opening H&L. Picking the names and clusters on paper first saves ~5 min of tool-switching later. Circulate and suggest picks for students who did not take detailed notes in Weeks 1–4, encourage a spread across clusters so the chart is interesting to compare.
-
-Students complete a salary comparison chart covering THREE careers they explored this year, from DIFFERENT clusters. Example combinations:
-
-- IT (Software Developer) + Health Science (Nurse) + Trades (Electrician)
-- Architecture (Architect) + Business (Entrepreneur) + Manufacturing (Robotics Technician)
-
-For each of the 3 careers, students record:
-
-| Career | Cluster | DFW Entry Salary | DFW Experienced | Years of Education | Est. Education Cost |
-|--------|---------|------------------|-----------------|---------------------|-----------------------|
-| 1. | | $ | $ | | $ |
-| 2. | | $ | $ | | $ |
-| 3. | | $ | $ | | $ |
-
-Students then calculate a simple **"Value Score":** their own weighting of salary vs. education time vs. education cost vs. personal fit. No single right answer, the exercise forces them to articulate what matters most to THEM personally.
-
-**DOK 4:** If you were creating a "Career Value Score" that balances salary, education time, education cost, and personal fit, how would you weight each factor? Apply your scoring system to your 3 careers and pick a winner.
-
----
-
-## Activity 3: A&C Cluster Wrap-Up + H&L Career Plan Update (10 min)
-
-**Source:** (FYF p. 198: "App Exploration")
-
-> [H&L PLATFORM] Open the Hats & Ladders app, go to Clusters, click the Architecture and Construction Cluster, click "Pathway Possibilities" and answer the questions, then rate at least 1 pathway and at least 3 Hats. Students record their answers on page 198.
-
-Students then finalize their 5SW work in the app:
-
-1. **Confirm all A&C favorites** from Weeks 1-4 are still relevant after the budget analysis. Some students may remove favorites when they see the salary vs. education cost ratio.
-2. **Update the Career Plan** to reflect this six-weeks' learning. The Career Plan should now show: architecture/engineering/construction/trades from 5SW, plus all prior favorites. This is the same plan students carry into the capstone, where Rung 8 asks them to picture that future and name what success looks like (FYF pp. 297-298: "Rung 8: Stay Motivated").
-3. **Note one budgeting insight** that will shape future career decisions. Example: *"I learned that I care more about working with my hands than about a big salary, so I'm keeping trades on my list."*
-
----
-
-## Activity 4: Six Weeks Reflection + Real Estate Preview (5 min)
-
-Short reflection. Ask:
-
-- Who found out that their dream career actually pays for the lifestyle they want? (Raise hands.)
-- Who found out that they need to either change their career or change their lifestyle? (Raise hands.)
-- Who is reconsidering a career they previously rejected because of the salary data?
-
-Preview next week: **Real Estate**. Students will explore real estate careers, a field where income is commission-based (tied to each sale) rather than salary-based. The entrepreneurship standard (d(3)(I)) comes back in full force because most real estate agents essentially run their own business.
-
----
-
-## Exit Ticket (3 min)
-
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/5sw-wk5-day5-budget-comparison-3-career-salary-analysis-a-and-c-wrap-up.pdf):
-
-The career with the BEST VALUE SCORE for ME from today's 3-career comparison: _______________________
-
-Connect this career to THREE things:
-
-**1. The SALARY + EDUCATION combination** that made this career win MY value score
-
-   DFW salary: $_____. Years of education: _____. In one sentence, why THIS ratio beat the other 2 careers:
-
-   ___________________________________________________________________
-
-**2. My Day 2 budget** (does the salary balance my desired lifestyle?)
-
-   Budget result: Circle: BALANCES / NEEDS LIFESTYLE CUT / NEEDS LIFESTYLE UPGRADE. One sentence why:
-
-   ___________________________________________________________________
-
-**3. The BIGGEST budgeting INSIGHT I learned this week**
-
-   One sentence: ___________________________________________________________________
-
-*(d(5)(D), d(5)(E))*
-
----
-
-## Differentiation
-
-- **Support:** Provide a completed 3-career comparison chart as a worked example. Students use their own data for 2 careers and the pre-filled example for 1 career.
-- **Extension:** Build a budget **vision board** using Canva. Include: career, salary, location, top 3 expenses, and 2 savings goals. Share with the class on Monday.
-- **ELL:** Bilingual 3-career comparison chart. Numbers and salaries are universal. Pair ELL students with bilingual peers for the Think-Pair-Share discussion.
+The fixed three-career evidence makes the lesson independent of Xello availability. Students may submit an annotated packet, typed labeled response, upload, audio explanation, or accommodation-aligned equivalent. H&amp;L favorites, public partner comparisons, a Canva vision board, and a prior workbook are optional and ungraded.

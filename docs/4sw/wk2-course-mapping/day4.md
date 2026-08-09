@@ -1,102 +1,96 @@
-# Day 4: eDynamic 6.2 — Gaining Experience
+# Day 4: SMART Experience Action Plan
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Work through eDynamic Learning Unit 6.2: Gaining Experience; identify three specific ways to start building career experience this year (before high school); connect experience-building to TSA and other Irving ISD student organizations |
+| **Objectives** | Evaluate one experience that could support a career direction and write a SMART action plan with an access check, support, obstacle, and backup strategy |
 | **TEKS** | d(3)(F), d(8)(C) |
-| **5E Phases** | Engage: Warm-Up · Explore: eDynamic 6.2 experience types · Extend: Experience Action Plan · Evaluate: Exit Ticket |
-| **Deliverable** | eDynamic 6.2 progress + completed Experience Action Plan listing 3 specific actions the student will take this school year |
-| **Materials** | Chromebooks, eDynamic Learning Unit 6.2 access, *Find Your Future* workbook pp. 292-293 ("Rung 6: Goal Setting"), printed Experience Action Plan template, projector |
+| **5E Phases** | Engage: Warm-Up · Explain: Rung 6 SMART model · Explore: Experience Action Plan · Evaluate: Self-check and Exit Ticket |
+| **Deliverable** | Completed SMART Experience Action Plan |
+| **Materials** | FYF pp. 292-296, SMART Experience Action Plan, current campus opportunity information when available, projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Besides school, what experiences have you had that might help you in a future career? Think wide, sports, clubs, volunteering, hobbies, family responsibilities, side hustles, video game tournaments, anything.**
+**WARM-UP: Name one experience outside a regular class that has helped you build a skill. What skill did it build?**
 
-Take 5-6 student responses and write them on the board. Label the skill each experience required so students can see that chores, clubs, teams, and volunteer work count as experience even when nobody was paid.
-
----
-
-## Activity 1: eDynamic Unit 6.2 — Gaining Experience (30 min)
-
-**Source:** eDynamic Learning Unit 6.2, Gaining Experience
-
-> [VERIFY IN eDynamic] Confirm that Unit 6.2 is the correct unit on "Gaining Experience" in your eDynamic license. The unit covers job shadowing, internships, co-curricular activities, volunteering, and portfolio building.
-
-Students log into eDynamic and open Unit 6.2. The unit walks students through the major types of career experience available to teenagers:
-
-1. **Job shadowing:** spending a half-day with a working professional in a career of interest
-2. **Internships:** short-term hands-on work, paid or unpaid, often in summer
-3. **Volunteer work:** donating time to community organizations
-4. **Co-curricular activities:** student clubs, school sports, performance groups
-5. **Career and Technical Student Organizations (CTSOs):** TSA, SkillsUSA, FCCLA, FBLA, HOSA, FFA, BPA
-6. **Part-time work:** for older students, paid jobs that build basic workplace skills
-7. **Portfolio projects:** personal work students create on their own time (websites, art, code, music)
-
-As students work through the unit, they note on their Experience Action Plan:
-- One type of experience they have already started building (write the example)
-- Two types of experience the unit introduced that they had not considered before
-- One specific question the unit raised they want to learn more about
-
-!!! tip "Facilitation Tip"
-    **Active Monitoring:** pace check at minute 15. Walk the room with one target, every student has reached the CTSOs section. If students are still on the introduction, give them a private nudge. The CTSOs section is the most relevant for Irving ISD students, and it is the one the workbook's high school planning table asks about by name.
+Accept sports, clubs, volunteering, care for family members, faith or community groups, hobbies, paid work, informal projects, and other real experiences. Students may use a fictional example if the personal topic is private.
 
 ---
 
-## Activity 2: Experience Action Plan (12 min)
+## Activity 1: Read the Goal Structure (8 min)
 
-**Source:** (FYF pp. 292-293: "Rung 6: Goal Setting")
+**Source:** FYF pp. 292-293, "Rung 6: Goal Setting"
 
-The workbook calls this a short-term goal, the one a student can start on now through the end of 8th grade, and it names the quality bar on the page: a goal is **SMART** when it is Specific (it says exactly what you want to do), Measurable (you can tell whether you are making progress), Achievable (it is possible with effort and planning), Relevant (it fits your skills, time, and situation), and Time-Bound (it has a start date, an end date, or a deadline). Read the five words off the board before students write. The workbook's other two goals are already on this week's plate: the medium-term high school goal is the 4-year course map from Day 2, and the long-term goal is the postsecondary section of the Career Plan on Day 5.
+Review the five SMART parts:
 
-After eDynamic, students complete the printed Experience Action Plan. The template asks for **3 specific, time-bound actions** the student will take this school year:
+- **Specific:** names the action;
+- **Measurable:** shows how progress will be checked;
+- **Achievable:** fits current access and responsibilities;
+- **Relevant:** supports a learning or career goal; and
+- **Time-Bound:** has a date or time window.
 
-| # | Action (specific) | When (this month / this semester) | How it connects to my pathway |
-|---|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+Model a weak and revised goal:
 
-**Example actions** to model on the board:
-- "Join TSA in January and sign up for the Drone Challenge competition" (connects to drone engineering pathway)
-- "Ask my aunt who is a nurse if I can shadow her at the hospital during spring break" (connects to nursing pathway)
-- "Volunteer at the Irving Animal Shelter for 5 hours this semester" (connects to vet science pathway)
-- "Build a personal Scratch coding project to add to my Climber Profile by the end of March" (connects to computer science pathway)
-- "Try out for the school robotics team next school year" (connects to robotics manufacturing pathway)
+- Weak: "Join a career club someday."
+- Revised: "Before the end of next month, I will ask the campus sponsor how to attend one open meeting and record one skill the organization practices."
 
-The actions must be specific (not "do something with computers") and time-bound (not "someday"). Students who get stuck pair with a peer or with the teacher to refine their action. Beside each action, students write the one person or resource they need to make it happen, which is the workbook's "Resources and Support I Need to Achieve My Goal" line. That field surfaces access problems early: a student who needs a ride, a signed form, or a family member's permission can be routed to the counselor now instead of in May.
-
-**DOK 3:** What conclusions can you draw about why participating in TSA, SkillsUSA, or other CTSOs builds experience that employers value? How does it look different from just listing classes on a resume?
+The revised goal does not promise that a specific club exists or that the student can join without checking access.
 
 ---
 
-## Exit Ticket (3 min)
+## Activity 2: Choose and Evaluate an Experience (10 min)
 
-**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/4sw-wk2-day4-edynamic-6-2-gaining-experience.pdf):
+**Source:** FYF pp. 294-296, "Rung 7: High School Plan"
 
-Rank my 3 Experience Action Plan items from MOST LIKELY to complete (1) to LEAST LIKELY (3).
+Students choose one possible co-curricular, extracurricular, service, project, job-shadow, work, or portfolio experience. They record:
 
-- Action 1: _______________________. Rank ____
+- the experience and current source;
+- the skill or knowledge it may build;
+- how the skill transfers to a second career;
+- an access requirement or question; and
+- an equal alternative if the first option is unavailable.
 
-- Action 2: _______________________. Rank ____
+Do not promise a CTSO, competition, internship, job shadow, transportation route, or adult contact unless a current campus source confirms it. Students never contact an unfamiliar adult or workplace as part of this lesson.
 
-- Action 3: _______________________. Rank ____
+---
 
-For EACH rank, write ONE reason (access, time, interest, family support) that backs the rank:
+## Activity 3: Write the SMART Action Plan (17 min)
 
-- Rank 1 (most likely): _______________________________________________________
+Students complete the three-page SMART Experience Action Plan. The final goal must include:
 
-- Rank 3 (least likely): _______________________________________________________
+1. the action;
+2. a measure;
+3. a realistic access check;
+4. a connection to the student's direction;
+5. a date or time window;
+6. one support or resource;
+7. one likely obstacle;
+8. one backup strategy; and
+9. one first action within seven days.
 
-Bottom line: ONE CTSO (TSA / SkillsUSA / FBLA / HOSA / FCCLA / FFA / BPA) my pathway connects to, and how joining it THIS YEAR would help my Rank 1 action:
+**Active Monitoring:** First lap checks whether the experience is real or marked for verification. Second lap checks all five SMART parts. Third lap checks access, obstacle, and backup. If students repeatedly depend on an unverified club or adult contact, pause and model a school-based or independent project route.
 
-   My CTSO: _______________________
+---
 
-   How it helps my Rank 1: _____________________________________________
+## Activity 4: Private Self-Check (5 min)
+
+Students underline the five SMART parts in different ways and use the Done When checklist. A partner review is optional. Students do not have to disclose a private goal or family situation.
+
+---
+
+## Exit Ticket (5 min)
+
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/4sw-wk2-day4-smart-experience-action-plan.pdf):
+
+Use these five parts: **measure, access, time, support, backup**.
+
+1. Name the strongest part of your plan. Explain why it is strong.
+2. Name the weakest part of your plan. Explain what is missing.
+3. Write the exact revision you will make now.
 
 *(d(3)(F), d(8)(C))*
 
@@ -104,6 +98,6 @@ Bottom line: ONE CTSO (TSA / SkillsUSA / FBLA / HOSA / FCCLA / FFA / BPA) my pat
 
 ## Differentiation
 
-- **Support:** Pre-filled Experience Action Plan with one action already drafted as an example (related to the student's pathway from Week 1). Students adapt the example and add 2 more.
-- **Extension:** Research a regional TSA, SkillsUSA, FBLA, or HOSA competition that connects to the chosen pathway. Find the competition date, registration deadline, and what students compete in. Bring the registration link to class.
-- **ELL:** Bilingual Experience Action Plan template with Spanish headers. Pre-teach: Experience = Experiencia, Job shadow = Acompañamiento laboral, Internship = Pasantía, Volunteer = Voluntario, Portfolio = Portafolio.
+- **Support:** Offer three source-checked options: one campus or community option, one independent project, and one service or responsibility-based option. Students adapt rather than copy the model.
+- **Extension:** Add a second backup and explain which evidence would make the student switch routes.
+- **ELL:** Use the five SMART labels with icons and the frames "By [date], I will..." and "If [obstacle] happens, I will..." Speech-to-text is an equal route.

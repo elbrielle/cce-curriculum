@@ -1,122 +1,60 @@
-# Day 5: Real Estate Pitch + 5th Six Weeks Reflection
+# Day 5: Private Real-Estate Evidence Brief and Six-Weeks Reflection
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Deliver a 2-minute real estate career "elevator pitch"; complete a 5th Six Weeks reflection covering all 6 weeks; preview the final 6th Six Weeks |
-| **TEKS** | d(4)(C), d(5)(A), d(5)(D) |
-| **5E Phases** | Engage: Warm-Up · Explain: Career pitch build and delivery · Extend: Six-weeks reflection and cross-cluster ranking · Evaluate: Exit Ticket |
-| **Deliverable** | Real estate elevator pitch (oral or written) + 5SW reflection journal entry |
-| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook p. 299 (presentation tips) and pp. 231-233 (extension), students' Week 1-6 deliverables (budget, pitch, research), printed 5SW Reflection journal template, projector |
+| **TEKS** | d(1)(C), d(2)(A), d(3)(I), d(4)(C) supporting, d(5)(A), d(5)(D) reassessment |
+| **Deliverable** | Private 45-60 second evidence brief and written six-weeks reflection |
+| **Materials** | Days 1-4 evidence, Week 5 budget portfolio or fallback strip, prompt/rubric, private Canvas Assignment |
 
----
+## Assessment Boundary
 
-## Warm-Up (5 min)
+This is a **Major draft** until the fifth-six-weeks assessment map and 40/60 Canvas groups are verified. Oral-presentation evidence comes from live, teacher-conference, audio, recorded, or AAC delivery. A written transcript may support planning and accessibility, but written-only work is not labeled d(4)(C) oral evidence.
 
-**WARM-UP: Over the past 6 weeks you explored Architecture, Engineering, Construction, Trades, Budgeting, and Real Estate. Which week was your favorite and why?**
+## 50-Minute Flow
 
-Quick share. No wrong answers, this is a genuine reflection moment. Students often surprise themselves by favoring a topic they initially dismissed (budgeting or trades, usually).
+### 1. Warm-Up — Strongest Evidence (5 min)
 
----
+Students choose the strongest fact from Weeks 1-6 and explain why it changed or confirmed a career decision.
 
-## Activity 1: Real Estate Elevator Pitch (20 min)
+### 2. Assemble the Evidence Strip (10 min)
 
-**Source:** CCE-authored pitch, with delivery coached from (FYF p. 299: "Prepare & Present")
+Students bring forward:
 
-Frame the activity: "Today you are a career counselor. Your job is to convince an undecided student that real estate is a great career option. You have 2 minutes. Sell the career."
+- one real-estate career/work product;
+- one correct Texas license/regulator boundary;
+- one variable-income calculation and limitation;
+- one BLS trend fact and limitation;
+- one Week 5 budget/lifestyle conclusion;
+- one entrepreneurship opportunity/responsibility.
 
-Students build a **2-minute pitch** using the data they collected this week. Good pitches include:
+Missing prior work uses the supplied evidence strip; no student is penalized for a previous absence or platform failure.
 
-- **A hook:** "Did you know a single home sale in DFW can earn an agent $10,000 in commission?"
-- **Earning potential:** specific numbers from their Day 2 commission worksheet
-- **Licensing pathway:** TREC requirements and how MacArthur's Real Estate Marketing pathway prepares students
-- **Entrepreneurship angle:** you are your own boss, build a personal brand, unlimited earning potential
-- **Market demand:** DFW is one of the fastest-growing real estate markets in the country
-- **Personal angle:** who is this career best for? (People who are outgoing, comfortable with variable income, self-motivated)
+### 3. Build and Deliver the Private Brief (15 min)
 
-Students practice silently or with a partner for 5 minutes, then volunteer to present. The practice is required; presenting to the whole class is not. Allow a written pitch when oral presentation is a barrier.
+The 45-60 second brief has four jobs:
 
-Post the workbook's four presentation tips before the first pitch (FYF p. 299: "Prepare & Present"): speak clearly and at a steady pace, look up and engage the audience, show confidence even when nervous, and use your notes to guide you rather than reading them word for word. Students meet these tips again with the 30-second sales pitch in the 6th Six Weeks (FYF pp. 241-243) and use them for real at the Capstone presentation.
+1. name the current career direction or question;
+2. cite two source-labeled facts;
+3. explain one tradeoff or limitation;
+4. state one next investigation action.
 
-!!! tip "Facilitation Tip"
-    **Time, Voice, Body:** project a visible 2-min timer during presentations, hold Voice 1 for the five minutes of partner practice, Voice 0 while a presenter sets up, and Voice 3 for the presenter. Say where the presenter stands and where written pitches go before the first pitch. The 2-min cap mirrors what a real estate agent does when pitching a client at a networking event. Presentation is opt-in this week (see Activity 1 body): if a student is still wrapping at 2 min, let them finish the sentence.
+Students submit live to the teacher, in a short conference, by audio/recorded media, or through AAC. Public whole-class presentation is optional celebration, not required evidence.
 
-**DOK 3:** What makes a career pitch convincing? Is it more about the data (salary, demand) or more about the lifestyle (freedom, variety)? Which appeals to YOU more?
+### 4. Six-Weeks Written Reflection (15 min)
 
----
+Students identify one learning from Architecture, Civil Engineering, Construction, Skilled Trades, Personal Budget, and Real Estate; select the most useful insight; compare their current direction with the beginning of the six weeks; and name one source-label habit they will use in the final six weeks.
 
-## Activity 2: 5th Six Weeks Reflection Journal (20 min)
+### 5. Audit and Submit (5 min)
 
-Distribute the 5SW Reflection Journal template. Students write a multi-section reflection covering the full six weeks:
+Students self-score the four criteria, revise the weakest one, and submit privately. The rubric scores source accuracy, licensing/compensation reasoning, cross-week budget/labor connection, and communication/reflection.
 
-### Section 1: What I Explored
-List each week's topic and one thing I learned:
-- **Week 1 (Architecture):** I learned _____
-- **Week 2 (Civil Engineering):** I learned _____
-- **Week 3 (Construction):** I learned _____
-- **Week 4 (Skilled Trades):** I learned _____
-- **Week 5 (Budgeting):** I learned _____
-- **Week 6 (Real Estate):** I learned _____
+## Monitoring and Grading
 
-### Section 2: Most Valuable Insight
-*"The most valuable thing I learned in the 5th Six Weeks is _____. This will affect my career decisions because _____."*
+Do not score career choice, family finances, artistic polish, accent, confidence, grammar unless meaning is unclear, or submission mode. Students with an authorized accommodation receive an equivalent communication route; document which evidence actually demonstrates the oral standard.
 
-### Section 3: Career Pathway Check
-*"At the start of this six weeks, my top career choice was _____. After this six weeks, my top career choice is _____."* (They may be the same or different.)
+## Support and Fallback
 
-### Section 4: Looking Ahead
-*"In the 6th Six Weeks, we will explore Education, Arts, Business/Marketing, and a final Capstone. I am most curious about _____ because _____."*
-
-### Section 5: Career Fit Ranking
-Rank the top 2-5 careers they are currently considering across ALL clusters explored this year. For each, note: cluster, education timeline, and estimated DFW salary. Two strongly-ranked careers with real rationale are better than five shallow ranks, encourage depth over volume.
-
-**DOK 4:** Looking at all the career clusters you have explored this year, rank 2-5 careers by personal fit. For each, explain what makes it a good fit based on your core personality type, salary expectations, education preferences, and personal interests.
-
----
-
-## Activity 3: Six Weeks Wrap-Up + 6SW Preview (3 min)
-
-Brief whole-class preview of the final six weeks:
-
-- **Wk1:** Education careers (teachers, counselors, administrators)
-- **Wk2:** Graphic Design + Resume writing
-- **Wk3:** Business Marketing
-- **Wk4:** Sales + Oral Presentations
-- **Wk5:** Job Seeking + Mock Interviews
-- **Wk6:** End-of-year Career Plan polish + presentations (see 6SW Wk6 overview for optionality framing)
-
----
-
-## Exit Ticket (2 min)
-
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/5sw-wk6-day5-real-estate-pitch-5th-six-weeks-reflection.pdf):
-
-My TOP career choice as of today (across ALL clusters this year): _______________________
-
-Connect this career to THREE things:
-
-**1. My Wk5 PERSONAL BUDGET** (Does the salary fit my desired lifestyle?)
-
-   Budget result: BALANCES / NEEDS LIFESTYLE CUT / NEEDS LIFESTYLE UPGRADE. One sentence on how the budget INFLUENCED (or did NOT influence) this career choice:
-
-   ___________________________________________________________________
-
-**2. MY 2-minute pitch from today** (one sentence I would actually use to convince a friend to consider this career):
-
-   "_______________________________________________________"
-
-**3. The 5SW INSIGHT that most shaped my thinking** (Arch vs. Engineering vs. Trades vs. Budget vs. Real Estate)
-
-   One sentence: ___________________________________________________________________
-
-*(d(4)(C), d(5)(A), d(5)(D))*
-
----
-
-## Differentiation
-
-- **Support:** Allow students uncomfortable with the oral pitch to submit a written pitch. The writing still practices d(4)(C) because oral and written communication skills transfer.
-- **Extension:** Run "Powerskill: Visual Storytelling" (FYF pp. 231-233). Partners work as the social media marketing team for the workbook's listed property in the Oakridge neighborhood: read the property and neighborhood details, fill the strengths and challenges table by category (Interior, Outdoor Space, Neighborhood, Location), design three to five posts that tell one story instead of listing features, then write the full listing with a strong hook and a call to action. Or, instead of pitching real estate, pitch TWO careers from different clusters that a student could realistically pursue together (e.g., Electrician + Real Estate Investor) and explain how they complement each other.
-- **ELL:** Pitch may be in English, Spanish, or bilingual. Provide bilingual sentence starters: *"A real estate career offers _____ (Una carrera en bienes raíces ofrece _____)."*
+Provide sentence jobs, rehearsal time, private conference, speech-to-text for the written reflection, AAC, bilingual labels, enlarged print, and a fixed missing-work evidence strip. No Xello Save careers repeat, H&L favorite, profile screenshot, public Discussion, real listing, or family financial disclosure is required.

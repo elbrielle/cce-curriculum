@@ -137,6 +137,8 @@ Do not assume every student artifact should become a printed worksheet or a stat
 
 Use the least complicated surface that fits the evidence. Paper remains an equal route when handwriting, sketching, manipulatives, device access, or an accommodation makes it the better tool. Before creating graded Canvas objects, confirm the course's Minor/Major assignment groups and weights; never place a grade into an arbitrary imported or default group.
 
+When a printable or downloadable worksheet is justified, size every response area from the response job, not from the visual symmetry of a table. A label, number, or phrase may use one line; a reason or comparison normally needs two to three full-width lines; a multi-sentence explanation needs its own full-width block; and a sketch needs a box large enough to draw and label. Do not hide several writing jobs in one narrow table cell. Run the worksheet builder with `--strict`, render every page, and inspect a contact sheet. If the packet overflows, rebalance page breaks or increase the honest page count; do not shrink the writing space until the warning disappears. In Canvas, prefer labeled text-entry fields, an annotation assignment, or a private media response when those routes remove printing without weakening the evidence.
+
 For five-day modules, use a native Canvas `SubHeader` before each Teacher/Student pair. Keep one chronological route: Day header, Teacher Guide, Student Guide, then any interaction used that day. The generic module verifier accepts and records these headers. This gives teachers and students a fast visual scan without creating extra pages or competing navigation systems.
 
 ### Run a periodic engagement and organization scan
@@ -278,6 +280,8 @@ For generic HTML templates that still contain placeholder prose, calculate readi
 - Do not call the Canvas template QA script with an arbitrary system Python. Use the documented `uv run --with beautifulsoup4 --with textstat ...` command so `bs4` and `textstat` are present.
 - Xello presentation objects may receive different runtime IDs each time a deck is opened or imported. Resolve the live object by its visible text and slide context before editing; do not hard-code an ID copied from a static inspection. Render the final deck again after the edit and run both template-fidelity and overflow checks.
 - Exit-ticket rendering derives the output filename from the day-page H1. When a day title changes, use the canonical `**EXIT TICKET** (Format):` marker, regenerate, run `build/inject_pdf_links.py`, and review the newly named PDF. Restore timestamp-only churn from unrelated tickets before staging.
+- For repeated PDF QA renders, create a new task-specific directory with `mktemp -d` instead of deleting a wildcard set from a shared temp folder. This avoids unsafe cleanup patterns and prevents stale page images from being mistaken for the latest render.
+- The 2026 *Find Your Future* reference PDF has six front-matter pages before its printed page numbering. When extracting a printed workbook page with `pdftoppm`, use physical PDF index = printed page + 6, then visually confirm the printed page number in the rendered footer before naming or uploading the delivery asset.
 
 ## 8. Efficient scaling pattern
 

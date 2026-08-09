@@ -1,118 +1,105 @@
-# Day 5: Jigsaw Presentations + Career Classification
+# Day 5: Drone Systems Evidence Brief
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Each team teaches the class about their assigned drone industry; classify a chosen drone career as high-skill / high-wage / high-demand with supporting evidence; favorite drone and engineering careers in H&L |
-| **TEKS** | d(1)(D), d(5)(B), d(2)(A) |
-| **5E Phases** | Engage: Warm-Up · Explain: Jigsaw presentations and listening grid · Extend: Career classification and TSA connection · Evaluate: Exit Ticket |
-| **Deliverable** | Team Jigsaw presentation (4 min) + individual Career Classification statement with evidence |
-| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook p. 110, completed UAS Industry Research Templates from Day 2, printed Career Classification template, projector for team presentations |
+| **Objectives** | Synthesize design, occupation, rule, and test evidence; classify a drone-enabled occupation with the published course rule; revise and submit a private evidence brief |
+| **TEKS** | d(1)(D), d(2)(A), d(4)(B), d(5)(B) |
+| **Deliverable** | Private individual 16-point Drone Systems Evidence Brief |
+| **Materials** | Days 1-4 evidence; Evidence Brief; student-visible rubric; private unpublished Canvas Assignment |
 
 ---
 
-## Warm-Up (3 min)
+## Before Class
 
-**WARM-UP: If you could start a drone business tomorrow, what service would you offer and who would your customers be?**
+1. Post the Evidence Brief, rubric, and private unpublished Assignment.
+2. Return or post the Day 1 blueprint, Day 2 occupation guide, Day 3 decision tree, and Day 4 model/run log.
+3. Prepare one complete model and one non-example with unsupported “drone pilot salary” claims.
+4. Keep H&L App Exploration optional after submission. Do not require ratings, favorites, or live Hat titles.
 
-Take 3-4 student responses. This loosens up the room before presentations and surfaces creative student ideas (drone wedding photography, drone yard inspections, drone food delivery for athletes).
+## Warm-Up: Find the Unsupported Claim (5 min)
 
----
+Students correct:
 
-## Activity 1: Jigsaw Presentations (24 min)
+> Drone pilots earn $80,000, Part 107 is required for every indoor and outdoor flight, and Drone Engineering guarantees that career.
 
-Each team has **4 minutes** to present their assigned drone industry from Day 2. Format:
+Expected corrections: occupation-specific data is required; indoor-only operations are outside Part 107; outdoor educational operation rules must be identified; and a pathway prepares rather than guarantees.
 
-1. **Industry overview** (30 sec): What does this industry use drones for?
-2. **Top 3 careers in this industry** (90 sec): Job title, what they do, salary range
-3. **Certifications and training required** (30 sec): Part 107, plus any industry-specific
-4. **Growth projection** (30 sec): How fast is this field expanding?
-5. **Best example** (60 sec): Show one specific real company or project using drones in this industry
+## Activity 1: Evidence Gallery Without Presentations (8 min)
 
-The class fills in a quick listening grid as each team presents, one row per industry with columns for "Top career," "Salary," "Most surprising fact." This grid helps students compare across industries before they classify their own chosen career.
+Display two blueprint revisions and two test-log revisions without student names. Students record one design idea and one testing idea that could transfer to their own evidence. This replaces five four-minute team presentations and protects individual work time.
 
-5 teams × 4 minutes = 20 minutes + 4 minutes of transitions.
+## Activity 2: Rebuild the Classification (10 min)
 
-!!! tip "Facilitation Tip"
-    Project a visible 4-min timer and announce the limit to students before Team 1 starts, so every team gets the same slot. This is the first timed presentation of the year for most students, if a team is still wrapping at 4 min, give them one sentence to close rather than a hard mid-sentence cut. Hard time discipline is drilled explicitly in 6SW Wk4 Sales/Presentations.
+Students select one of the three fixed occupations and record:
 
----
+- exact occupation title;
+- preparation and specialized duty evidence;
+- May 2024 national median and comparison;
+- 2024-2034 growth plus annual openings; and
+- high-skill, high-wage, and high-demand decisions under the published rule.
 
-## Activity 2: Individual Career Classification (15 min)
+All three occupations may meet the course rule. The reasoning and labels, not variety, are the evidence.
 
-**Source:** TEA d(5)(B) classification framework
+## Activity 3: Write the Four-Part Brief (20 min)
 
-After hearing all 5 presentations, each student picks **one drone career** from any industry and writes a Career Classification on the printed template:
+### Part 1: User need and design response
 
-| Field | Student Response |
-|---|---|
-| **Career name** | (e.g., Wind Turbine Drone Inspector) |
-| **Industry** | (e.g., Energy / Construction) |
-| **Median salary** | (with source citation. BLS, DJI, Indeed) |
-| **Education / certification needed** | (FAA Part 107 + ?) |
-| **High-skill?** Yes / No | with evidence |
-| **High-wage?** Yes / No | with evidence (cite the salary number and compare to median Texas wages around $50K) |
-| **High-demand?** Yes / No | with evidence (BLS growth projection or industry news) |
-| **My personal interest level (1-5)** | with one-sentence rationale |
+Explain one mission need, the selected component, and one constraint or tradeoff.
 
-This is the d(5)(B) summative artifact. Students who can justify all three classifications with evidence demonstrate mastery.
+### Part 2: Occupation and preparation
 
-> [H&L PLATFORM] After completing the classification, students return to the Engineering cluster in the Hats & Ladders app and confirm the App Exploration page is finished: at least 3 Hats rated and at least 1 pathway rated (FYF p. 110: "App Exploration"). Then they open the Climber Profile and **favorite at least 2 engineering or drone-related Hats**: Drone Engineer, Mechanical Engineer, Aerospace Engineer, Biomedical Engineer, CAD Technician, Robotics Technician, Electrical Engineer, or Civil Engineer.
+Explain how one occupation contributes to the system and document preparation/certification evidence. Part 107 belongs only when the described job/operation actually uses that rule.
 
-Name where the favorites go next. The Hats students favorite here are part of the pool they draw on at mid-year, when they pull their top Hats and favorite pathways straight from the app for the first Capstone reflection (FYF pp. 281-282: "Rung 1: Who You Are").
+### Part 3: Rule and safety decision
 
-**DOK 3:** What conclusions can you draw about how participating in TSA Drone Challenge builds real career skills? Name at least two specific skills from this week that connect.
+Use one scenario to distinguish indoor operations, outdoor educational operations, or Part 107 work. Name the current source or authorized person needed before action.
 
----
+### Part 4: Test, revise, and transfer
 
-## Activity 3: TSA Connection (5 min)
+Use one Day 4 result to explain a revision and connect one skill to two occupations.
 
-The workbook's district pages name the Technology Student Association as one of the Engineering cluster's student organizations in Irving ISD, alongside SkillsUSA and VEX Robotics (FYF p. 109: "What is Happening at My District?"). For students who participate in TSA Drone Challenge (many IISD VILS students do), connect this week's learning directly to the competition. The Drone Challenge requires:
-- Flight precision (Day 4 navigation course)
-- Documentation of design decisions (Day 1 blueprint)
-- Knowledge of FAA regulations (Day 3 safety briefing)
-- Industry awareness (Day 2 research)
+Each part receives its own response area. Do not compress four explanations into one narrow table cell.
 
-For students who are not in TSA, this is the recruiting moment. They have spent a week practicing the exact skills TSA evaluates. Encourage them to talk to their TSA chapter advisor about joining.
+## Activity 4: Self-Score, Revise, Submit (7 min)
 
----
+Students score four criteria:
 
-## Exit Ticket (3 min)
+1. design reasoning;
+2. occupation and classification evidence;
+3. rule/safety accuracy; and
+4. test-based revision and skill transfer.
 
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/4sw-wk4-day5-jigsaw-presentations-career-classification.pdf):
+They revise the weakest part and submit by upload, text, private media, or paper.
 
-My drone industry I found most interesting this week: _______________________
+## Exit Ticket: Evidence Audit (within Activity 4)
 
-A drone career within it I would consider pursuing: _______________________
+**EXIT TICKET** (3-2-1 Reflective) · [Printable PDF](../../resources/exit-tickets/4sw-wk4-day5-drone-systems-evidence-brief.pdf):
 
-Connect this career to THREE things:
+- **3:** three source or rule labels I kept accurate;
+- **2:** two occupations connected by one transferable skill; and
+- **1:** one unsupported claim I removed or revised.
 
-**1. My high-skill / high-wage / high-demand classification** (pick ONE of the 3)
+*(d(1)(D), d(2)(A), d(4)(B), d(5)(B))*
 
-   My classification: _______________________. ONE specific piece of evidence (salary $, education, or BLS growth %):
+## Scoring Guidance
 
-   ___________________________________________________________________
+Recommended 16-point minor after local assignment-group verification:
 
-**2. TSA Drone Challenge skills** (flight precision, blueprint documentation, FAA regulations, industry awareness)
+- 15-16: Masters
+- 13-14: Meets
+- 12: Approaches
+- 10-11: Needs Improvement
+- below 10 follows campus policy
 
-   Which TSA skill from this week does THIS career use MOST? _______________________. One sentence why:
+Score evidence and reasoning. Do not score aviation interest, live flight, hardware access, public speaking, artistic quality, H&L activity, English mechanics unless meaning is unclear, or submission mode.
 
-   ___________________________________________________________________
+## Supports and Equal Routes
 
-**3. Irving ISD's Drone Engineering pathway** (leads to the FAA Part 107 certification)
-
-   Does this pathway lead DIRECTLY to my career, or is it a STEPPING STONE? Circle: DIRECT / STEPPING STONE. One sentence why:
-
-   ___________________________________________________________________
-
-*(d(1)(D), d(5)(B))*
-
----
-
-## Differentiation
-
-- **Support:** Pre-filled Classification template with the salary and education rows already filled in for one career. Students adapt and write the high-skill / high-wage / high-demand justifications.
-- **Extension:** Compare two drone careers from different industries side by side, which is more accessible without a college degree? Which has higher long-term growth?
-- **ELL:** Bilingual Classification template with Spanish row labels. Pre-teach: High-skill = Alta calificación, High-wage = Alto salario, High-demand = Alta demanda, Evidence = Evidencia. Allow students to deliver one sentence of their team presentation in Spanish if more comfortable.
+- Use one numbered job per part, sentence frames, vocabulary labels, and the fixed evidence guide.
+- Students may type, write, use speech-to-text, teacher scribing, or private media.
+- Missing live-flight evidence uses the same tabletop model data.
+- Canvas failure means paper or later private upload without penalty.
+- No partner, public post, family signature, or live presentation is required.

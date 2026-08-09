@@ -489,3 +489,188 @@ This log records the official Canvas build without storing access credentials or
 - API/browser QA: the generic verifier passed all 17 consecutive items with no unresolved fields, missing references, unsupported item types, or published content. Signed-in Chrome confirmed module order, embedded visuals and alt text, the annotation and Blueprint submission routes, disclosure headings, and clean desktop/mobile rendering. Canvas produced only its own non-blocking publishing-context warning.
 - Importer: `build/canvas/build_4sw_wk1.py`
 - Read-only verifier: `build/canvas/qa_canvas_module.py 544320`
+
+## 2026-08-08 - 4SW Weeks 2-6 pre-import production record
+
+- State: local production complete; Canvas import and API/browser verification pending. All importers create unpublished modules, pages, assignments, quizzes, and locked support folders.
+- Week 2: `4SW Wk2: Build a Counseling-Ready High School Plan`. Five paired guides, one retryable decision Quiz, one annotation activity, and one private plan Assignment. The course plan is counseling-ready evidence, not a promise of admission, credit, or scheduling.
+- Week 3: `4SW Wk3: Aviation Routes, Systems, and Action Planning`. Five paired guides, one retryable survey/evidence Quiz, one design-lab Assignment, and one private action-plan Assignment. Military and civilian routes remain distinct; no student flight or private profile screenshot is required.
+- Week 4: `4SW Wk4: Drone Systems, Rules, and Iteration`. Five paired guides, two retryable rule/evidence Quizzes, two annotation Assignments, and one private evidence brief. Indoor live, simulator, and tabletop routes are equal; no outdoor flight is authorized by the lesson.
+- Week 5: `4SW Wk5: Automotive Evidence and Training Routes`. Five paired guides, two retryable evidence Quizzes, two annotation Assignments, and one private evidence brief. Vehicle cases are fictional visible-evidence exercises, not diagnosis or repair directions.
+- Week 6: `4SW Wk6: Skills That Transfer and Mid-Year Evidence`. Five paired guides, two retryable evidence Quizzes, two annotation Assignments, and one private multimodal reflection. SkillsUSA/TSA are identified as CTSOs, NSPE/AOPA as professional associations, ASE as a credentialing nonprofit, and FAA as a federal agency.
+- Worksheet-space QA: all Week 2-6 packets were generated in strict mode and visually inspected. Multi-sentence reasoning has full-width ruled space or dedicated response pages; short fields are reserved for short evidence labels. Canvas annotation, upload, typed, media, and paper routes are offered only where the evidence remains equivalent.
+- Image-performance QA: Week 2-6 use targeted delivery images rather than full-resolution source pages. Baselines and post-import mobile checks are tracked in `canvas-image-performance-backlog.md`; originals remain unchanged in the licensed local archive.
+- Importers: `build/canvas/build_4sw_wk2.py` through `build/canvas/build_4sw_wk6.py`.
+
+## 2026-08-08 - 5SW Week 1 local production record
+
+- Module target: `5SW Wk1: Blueprint Builders — Architecture Evidence`.
+- State: facilitator/student sequence, six core artifacts, paired templates, and Canvas importer complete locally; API/browser verification pending.
+- Sequence correction: no repeated Xello Education experiences task, required H&amp;L favorite count, or unverified eDynamic 3.1 block. Supplemental platforms cannot displace the fixed evidence or design work.
+- Structure correction: Days 3-4 protect one individual Tinkercad or equal paper concept instead of colliding with a second required landmark product. Day 5 uses Unexpected Architecture as a short group synthesis with individual evidence.
+- Current-evidence correction: Day 2 compares Architect, Drafter, and Interior Designer with May 2024 U.S. BLS medians and preparation labels. Architecture registration uses education, documented experience, and examination rather than one universal year count.
+- Privacy/safety correction: Tinkercad uses a teacher-managed Classroom/class-code route; no universal minor self-signup or public full-name filename. Safety Supervisor is explicitly fictional and non-operational.
+- Worksheet QA: six PDFs totaling twenty-two pages pass strict rendering with zero warnings. The first visual pass caught spilled drawing boxes and an unusably shallow two-view table; the corrected render gives top/front/side drawings dedicated pages and multi-sentence reasoning full-width lines.
+- Licensed delivery media: seven optimized images are stored only in the gitignored Canvas-licensed folder. The sideways city-goals slide was rendered, rotated in the delivery copy, and visually verified without changing the source PPTX.
+- Canvas interaction plan: Day 1 Safety Supervisor annotation, Day 2 unlimited-retry career-evidence Quiz, Day 3 concept annotation, Day 4 test/revision annotation, and Day 5 private multimodal portfolio. The importer creates five native Day subheaders and ten paired pages in a 20-item chronological route.
+- Importer: `build/canvas/build_5sw_wk1.py`.
+
+## 2026-08-08 - 5SW Week 2 local production record
+
+- Module target: `5SW Wk2: Civil Engineering — Systems, Evidence, and Design`.
+- State: facilitator/student sequence, six core artifacts, paired templates, and Canvas importer complete locally; API/browser verification pending.
+- Current-evidence correction: Day 1 uses the May 2024 BLS Civil Engineers U.S. median, typical preparation, 2024-34 outlook, annual openings, and a bounded licensure statement. It distinguishes the current public MacArthur `Engineering` label from the 2026-27 IISD coursebook's `Civil Engineering` label instead of forcing either into a promise.
+- Assessment correction: Day 2 replaces outdated test-card claims with bounded PSAT 8/9, SAT/ACT, TSIA2, and ASVAB uses plus an explicit verification question. The retryable Quiz corrects PSAT 8/9 timing/admissions, enhanced ACT science, TSIA2 exemptions, and emerging-work evidence.
+- Emerging-work correction: students compare the recognized O*NET Transportation Engineers and Water/Wastewater Engineers specialties, identify the driver for change, and state one evidence limitation. No invented futuristic title or unlabeled DFW salary is required.
+- Safety/equity correction: the bridge activity uses one staged-load and stop protocol only if the full safety gate passes. Textbooks, unstable desks, student load placement, improvised scales on the bridge, public team ranking, and an unmeasured strength-to-weight ratio are excluded. The fictional three-sample dataset is an equal evidence route.
+- Worksheet QA: six PDFs totaling twenty-seven pages passed strict rendering with zero warnings and visual inspection. Each bridge option has separate full-size top and side views; the kitchen system and fictional rover each have dedicated drawing pages; multi-sentence reasoning receives full-width ruled space.
+- Licensed delivery media: five focused progressive JPEGs are stored only in the gitignored Canvas-licensed folder. Each is 102-240 KB; the original FYF PDF is unchanged.
+- Canvas interaction plan: Day 1 systems annotation, Day 2 unlimited-retry assessment/evidence Quiz, Day 3 two-option design annotation, Day 4 controlled-test/fixed-data annotation, and Day 5 private multimodal portfolio. The importer creates five native Day subheaders and ten paired pages in a 20-item chronological route.
+- Importer: `build/canvas/build_5sw_wk2.py`.
+
+## 2026-08-08 - 5SW Week 3 local production record
+
+- Module target: `5SW Wk3: Construction — Routes, Evidence, and Observation`.
+- State: facilitator/student sequence, six core artifacts, paired templates, locked visual set, and Canvas importer complete locally; API/browser verification pending.
+- Current-program correction: MacArthur's current public pathway label is Construction within the School of Architecture, Construction and Civil Engineering. Older workbook Construction Technology, NCCER, SkillsUSA, credential, and facility claims are historical context unless a current district source confirms them.
+- Route correction: Registered Apprenticeship is taught through its stable paid-work, instruction, mentoring, progressive-wage, and portable-credential structure. Eligibility, duration, wage, cost, schedule, application, and license relationship remain sponsor- and trade-specific; students compare dated route cards without submitting real applications or personal data.
+- Labor-evidence correction: Day 3 uses one May 2024 U.S. BLS wage basis and 2024-34 national projection basis. The high-skill/high-wage/high-demand labels are explicitly a transparent classroom comparison rule, not official BLS/TWC designations or proof of a DFW shortage.
+- Safety and professional-boundary correction: Days 4-5 are fictional visual-evidence exercises. Students separate observation, possible meaning, evidence limit, and next qualified role; they do not inspect a home, touch equipment, diagnose a defect, estimate repairs, or advise a purchase.
+- Worksheet QA: six PDFs totaling thirty-one pages passed strict rendering with zero warnings and visual inspection. Each classified occupation, image record, and report finding has its own page; multi-sentence reasoning and the individual briefing have full-width writing space.
+- Licensed delivery media: five original Climber Notes source photos and one focused FYF thermal-comparison page are stored only in the gitignored Canvas-licensed folder. The six JPEG delivery copies are 145-340 KB; the PPTX and workbook originals are unchanged.
+- Canvas interaction plan: Day 1 career-evidence annotation, Day 2 route/organization annotation, Day 3 labor-classification annotation, Day 4 visual-observation annotation with six embedded licensed visuals, and Day 5 private multimodal report/briefing. The importer creates five native Day subheaders and ten paired pages in a 20-item chronological route.
+- Grading boundary: Days 3 and 5 are marked Major drafts only. They remain unpublished and ungraded until the live Major group, six-weeks assessment count, and 40/60 weighting are verified.
+- Importer: `build/canvas/build_5sw_wk3.py`.
+
+## 2026-08-08 - 5SW Week 4 local production record
+
+- Module target: `5SW Wk4: Skilled Trades — Evidence, Routes, and Communication`.
+- State: facilitator/student sequence, six core artifacts, paired templates, eight locked licensed visuals, and Canvas importer complete locally; API/browser verification pending.
+- Current-evidence correction: Electrician, Plumbing/Pipefitting/Steamfitting, HVAC, and Welding use one May 2024 U.S. BLS median basis and 2024-34 national projection basis. H&amp;L is supplemental and does not supply load-bearing DFW pay.
+- Route correction: occupation, Registered Apprenticeship, technical-college route, state registration/license, and employer credential remain distinct. Day 4 uses dated Apprenticeship.gov and Dallas College route cards; students never submit a real application or personal data.
+- Safety/professional-boundary correction: HVAC tickets are fictional image-writing exercises, not diagnosis or repair directions. The water-line plan is a communication/evidence simulation; students do not locate utilities, enter a street, direct traffic, operate a valve, excavate, select materials, use tools, or write a real repair procedure.
+- Workbook-model correction: FYF p.186 is embedded with an explicit warning that its stronger diagnosis/action language is not the scoring model. The CCE form requires supplied evidence, cautious possibility, evidence limit, and qualified next check.
+- Worksheet QA: six PDFs totaling twenty-eight pages passed strict rendering with zero warnings and visual inspection. The first render exposed three nearly blank overflow pages; the final packets intentionally use one full page per HVAC ticket, one landscape page per labor classification, a dedicated site-plan sketch page, and full-width multi-sentence response blocks.
+- Licensed delivery media: four original Climber Notes ticket images and four focused FYF pages are stored only in the gitignored Canvas-licensed folder. Day 2 carries six images totaling about 1.04 MB; Day 5 carries two images totaling about 380 KB. Source PPTX/workbook files remain unchanged.
+- Canvas interaction plan: Days 1-4 use private Student Annotation/upload/text activities. Day 5 uses a private multimodal response with live, teacher-conference, audio, recorded, equivalent written, and AAC briefing routes. The importer creates five native Day subheaders and ten paired pages in a 20-item chronological route.
+- Grading boundary: Days 3 and 5 are marked Major drafts only. They remain unpublished and ungraded until the live Major group, six-weeks assessment count, and 40/60 weighting are verified.
+- Importer: `build/canvas/build_5sw_wk4.py`.
+
+## 2026-08-08 - 5SW Week 5 local production record
+
+- Module target: `5SW Wk5: MoneySkills — Budget, Location, and Career Evidence`.
+- State: facilitator/student sequence, six core artifacts, paired templates, two locked licensed workbook reminders, one retryable practice Quiz, and Canvas importer complete locally; API/browser verification pending.
+- Sequence correction: the week does not repeat Xello Scholarship profile, add a supplemental Xello Careers and Lifestyle Costs lesson, or require H&amp;L. Xello is the preferred source for a separately labeled local salary cross-check; fixed evidence carries every lesson when a login or comparable local measure is unavailable.
+- Salary correction: no page converts a median, starting figure, range, national value, or local value into another measure. The final three-career fallback uses May 2024 U.S. BLS medians on one comparison basis and keeps the Dallas County living-cost target separate.
+- Living-cost correction: Days 2-3 use MIT Living Wage Calculator scenarios updated February 15, 2026. Dallas, Tulsa, Los Angeles, and New York County all hold the household at one adult with no children. The figures are instructional scenarios, not personalized financial advice or claims that one location is best.
+- Aid/privacy correction: Day 4 distinguishes FAFSA application, eligibility, aid offer, acceptance, and repayment. It teaches the current Texas FAFSA/TASFA/authorized opt-out routes without requiring any real application or collecting SSNs, tax data, family income, immigration information, FSA IDs, banking information, or signatures.
+- Interaction plan: Days 1-3 use private annotation/upload/text activities; Day 4 uses a five-question unpublished unlimited-retry Classic practice Quiz with immediate feedback; Day 5 uses a private upload/text/media portfolio. No public Discussion exposes financial priorities or family circumstances.
+- Worksheet QA: six PDFs totaling twenty-nine pages passed strict rendering with zero warnings and final visual inspection. Initial renders exposed nearly blank overflow pages; the corrected set reserves short fields for labels and calculations while each budget tradeoff, location recommendation, career comparison, and revision receives a dedicated full-width response area.
+- Licensed delivery media: two prior FYF Rung 3 reminder pages are reused from the gitignored Canvas-licensed archive at 105 KB and 172 KB. Canvas labels them as optional reminders, not current salary proof; the original workbook remains unchanged.
+- Grading boundary: Day 5 is marked Major draft only and remains unpublished and ungraded until the live six-weeks assessment count, Major group, and 40/60 weighting are verified. Career preference, family income, Quiz attempts, grammar, and submission mode do not determine the score.
+- Canvas package: five native Day subheaders, ten paired teacher/student pages, and five interactions in a 20-item chronological route. All local page renders passed with no unresolved template fields.
+- Importer: `build/canvas/build_5sw_wk5.py`.
+
+## 2026-08-08 - 5SW Week 6 local production record
+
+- Module target: `5SW Wk6: Real Estate — Licensing, Variable Income, and Evidence`.
+- State: repaired five-day sequence, six core artifacts, paired templates, three locked licensed FYF visuals, one five-question retryable practice Quiz, and Canvas importer complete locally; API/browser verification pending.
+- Xello/platform correction: duplicate Save careers was removed. H&amp;L and live housing/search sites are supplemental; no favorite, screenshot, or open-web fact hunt is load-bearing.
+- Licensing correction: TREC is the current source of record. Sales Agent, Broker, Property Appraiser/Assessor, and Property Manager duties and regulatory boundaries remain separate. The current public Irving label is Real Estate Marketing at MacArthur; it does not promise admission, schedule, transportation, license completion, exam eligibility, placement, or employment.
+- Compensation correction: classroom percentages and splits are explicitly fictional. Students distinguish transaction gross, supplied split, taxes/expenses/timing, and take-home rather than learning one negotiable commission as a universal standard.
+- Labor correction: Day 4 uses May 2024 U.S. BLS medians of $56,320 for Sales Agents and $72,280 for Brokers, 3% combined growth for 2024-34, and about 46,300 annual openings. It states that BLS wage data exclude self-employed workers and that national evidence does not prove DFW starting pay, a live vacancy, shortage, or future home price.
+- Licensed activity correction: *Flip This House* retains the workbook's $25,000 scenario and buyer evidence while labeling all costs/value increases as simplified fictional inputs. Students calculate net change, cite supplied buyer evidence, and state real-world limits; they do not use real addresses, family property, bids, appraisal, financing, tax, or purchase advice.
+- Communication correction: Day 5 oral evidence uses private live, teacher-conference, audio, recorded, or AAC routes. A transcript may support planning, but written-only work is not automatically labeled d(4)(C) oral evidence. Public presentation is optional celebration only.
+- Worksheet QA: six PDFs totaling twenty-eight pages passed strict rendering with zero warnings and visual inspection. The first render exposed accidental overflow pages in the rubric, ROI plan, and reflection; the final layout preserves full-width multi-sentence fields without blank spill pages.
+- Licensed media: three progressive FYF JPEGs for pp. 238-240 are 130-240 KB each and appear only on Day 3. All required numbers and response jobs also appear in the accessible packet/native Canvas text.
+- Grading boundary: Day 5 is a Major draft and remains unpublished/ungraded until the fifth-six-weeks assessment count and 40/60 groups are verified. Platform access, career preference, family finances, accent, public-speaking confidence, grammar, partner attendance, drawing quality, and submission mode do not determine the score.
+- Canvas package: five Day subheaders, ten paired pages, and five interactions in a 20-item chronological route. All local renders passed without unresolved template fields.
+- Importer: `build/canvas/build_5sw_wk6.py`.
+
+## 2026-08-08 - 6SW Week 1 local production record
+
+- Module target: `6SW Wk1: Education — Learning Design, Routes, and Service`.
+- State: repaired five-day sequence, six core artifacts, paired templates, eight locked licensed FYF visuals, one five-question retryable practice Quiz, and Canvas importer complete locally; API/browser verification pending.
+- Sequence correction: no new required Grade 8 Xello task belongs here. Discover learning pathways, H&amp;L exploration, and eDynamic 7.2 are supplemental only and cannot displace fixed evidence or create graded click requirements.
+- Preparation correction: current TEA guidance supplies five common classroom-teacher requirements while university, post-baccalaureate, alternative, residency, internship, clinical, price, aid, and timing details remain provider-specific. The packet does not teach either route as universally cheaper, faster, paid, unpaid, easier, or better.
+- Local correction: current Irving public evidence names Education and Training at Irving High, MacArthur, and Nimitz and Early Childhood Education at Cardwell. The page does not by itself guarantee admission, course sequence, travel, credential, placement, or employment. Educational Aide I retains its current TEA age/course/grade/credit/district/application/background boundaries.
+- Job-evidence correction: Day 3 uses three fixed fictional posting cards rather than changing job-board searches. Students distinguish responsibility, skill, qualification, preparation, experience, and preferred language and state the evidence limitation.
+- Safety/privacy correction: Teach Through Play has partner, tabletop, teacher-conference, and individual written-simulation routes. Physical performance, cutting skill, personal volunteer disclosure, platform access, artistry, and partner attendance are not scored.
+- Worksheet QA: six PDFs totaling thirty-two pages passed strict rendering with zero warnings after oversized drawing boxes and declared-page mismatches were repaired. Visual inspection confirmed readable rubric text and full-width writing space for every multi-sentence job.
+- Licensed media: eight FYF pages are 152-278 KB each at a 1,300-pixel long edge. Days 1, 4, and 5 carry only their relevant pages; native Canvas text and downloadable packets are the independent completion route.
+- Grading boundary: Day 5 is a 16-point Major draft and remains unpublished/ungraded until the sixth-six-weeks assessment count and 40/60 groups are verified.
+- Canvas package: five Day subheaders, ten paired pages, and five interactions in a 20-item chronological route. All local renders passed without unresolved template fields.
+- Importer: `build/canvas/build_6sw_wk1.py`.
+
+## 2026-08-08 - 6SW Week 2 local production record
+
+- Module target: `6SW Wk2: Arts/AV — First Resume and Design Evidence`.
+- State: repaired five-day sequence, six core artifacts, paired templates, eight locked FYF visuals, one five-question retryable practice Quiz, and Canvas importer complete locally; API/browser verification pending.
+- Resume correction: d(7)(A) no longer rests entirely on supplemental Xello. The required résumé is a private Canvas/paper artifact; optional Xello copying is an extension. Students do not exchange devices/logins or include home address, personal phone/email, birth date, IDs, photo, family data, or reference contacts.
+- Workload correction: the required Game On group product was removed from the core week so students can plan one podcast, draft/revise one résumé, learn a complete job-search sequence, and build/test one original visual design. Arts enrichment remains available after required evidence.
+- Job-search correction: Day 4 teaches seven distinct steps and uses a fictional opportunity. Students do not apply, register, upload, contact an employer, or submit personal data; job-board results are screened and verified through an official employer route or known adult.
+- Copyright/platform correction: Behind the Microphone is a plan rather than a required public recording. Merch Mode uses original fictional identity; real band marks, album art, characters, and trademarks are excluded. Canva, Adobe Express, and paper are equal, while H&amp;L and eDynamic remain supplemental.
+- Current evidence: current Irving pages name Graphic Design and Digital Communication at Irving High, MacArthur, and Nimitz. BLS Graphic Designers uses a May 2024 U.S. median of $61,300, typical bachelor's preparation, 2% 2024-34 growth, and about 20,000 annual openings; none is relabeled DFW starting pay or a guarantee.
+- Worksheet QA: six PDFs totaling thirty-five pages passed strict rendering with zero warnings after declared-page mismatches were repaired. Visual checks confirmed a privacy-forward résumé first page and dedicated full-page design sketch regions.
+- Licensed media: eight FYF delivery images are 137-307 KB at a 1,300-pixel long edge. Required content is repeated in native text and accessible packets.
+- Grading boundary: Day 5 is a 16-point Major draft and remains unpublished/ungraded until the sixth-six-weeks assessment map and 40/60 groups are verified.
+- Importer: `build/canvas/build_6sw_wk2.py`.
+
+## 2026-08-08 - 6SW Week 3 local production record
+
+- Module target: `6SW Wk3: Marketing - Audience, Entrepreneurship, and Data`.
+- State: repaired five-day sequence, six core artifacts, paired templates, eleven locked FYF visuals, one five-question retryable practice Quiz, and Canvas importer complete locally; API/browser verification pending.
+- Sequence correction: no new required Grade 8 Xello task belongs here. School Subjects at Work, H&amp;L exploration, eDynamic 4.1, Google Applied Digital Skills, Canva, and Adobe Express remain supplemental and cannot displace required evidence.
+- Privacy/ethics correction: all campaigns, businesses, messages, prices, and data are classroom scenarios. Students do not create a real account, ad, post, sale, payment, contact form, link, QR code, testimonial, tracking claim, scarcity claim, or collection of personal data.
+- Current-evidence correction: BLS Market Research Analysts uses a May 2024 U.S. median of $76,950, typical bachelor's preparation, 7% projected 2024-34 growth, and about 87,200 annual openings. Growth and openings remain distinct and none is relabeled DFW starting pay, a local shortage, or a guarantee.
+- Data correction: the Family Fun Pass tables and quotes are labeled fictional workbook evidence. Students state a campaign goal before selecting a metric, compare three strategies, cite multiple values, identify conflicting evidence, and plan a next test; there is no teacher-preferred universal answer.
+- Entrepreneurship correction: Expert Edge distinguishes need, audience, deliverable, opportunity, fictional unit/price, responsibility, risk, and control. Logo polish and oral delivery are optional and not scored.
+- Worksheet QA: six PDFs totaling thirty-three pages passed strict rendering with zero warnings. The first render exposed a 12-page data packet, blank overflow pages, and a rubric spill; the corrected landscape packet is six pages, the ad mock-up retains a full page, and every multi-part response has labeled full-width space.
+- Licensed media: eleven progressive FYF JPEGs for pp. 147-148 and 222-230 are 111-300 KB at a 1,300-pixel long edge. Required instructions/data also appear in native Canvas text and accessible packets.
+- Grading boundary: Day 5 is a 16-point Major draft and remains unpublished/ungraded until the sixth-six-weeks assessment count and 40/60 groups are verified.
+- Canvas package: five Day subheaders, ten paired pages, one Quiz, and four private Assignments in a 20-item chronological route. All local renders passed without unresolved template fields.
+- Importer: `build/canvas/build_6sw_wk3.py`.
+
+## 2026-08-08 - 6SW Week 4 local production record
+
+- Module target: `6SW Wk4: Sales and Career Oral Evidence`.
+- State: repaired five-day sequence, six core artifacts, paired templates, nine locked FYF visuals, one five-question retryable practice Quiz, and Canvas importer complete locally; API/browser verification pending.
+- Timing correction: the former 25 students x 3 minutes plan required at least 75 minutes before transitions. The repaired sequence plans 60-90-second individual evidence from Day 1 and supports whole-group, small-group, teacher-conference, private recorded audio/video, and AAC routes.
+- Oral-standard boundary: written notes/transcripts support preparation but are not automatically labeled d(4)(C) oral evidence. Accent, speech difference, disability, camera use, eye contact, public confidence, and English mechanics are not scored unless meaning is unclear.
+- Evidence correction: students may use verified prior evidence or fixed May 2024 U.S. BLS cards for Market Research Analysts, Graphic Designers, and Sales Managers. Every value keeps its measure, date, geography, occupation, and limitation; no national median becomes DFW starting pay.
+- Appearance correction: Day 4 uses workplace, task, safety, virtual format, and accommodation context rather than expensive, gendered, body-based, culturally narrow, or universal fashion rules. Site/task PPE and tools must be confirmed through the employer/site route.
+- Safety/ethics correction: sales and BrainBoost work remain fictional. Students do not sell, post, link, collect data, make health/income/popularity/scarcity claims, or use real contact/payment information.
+- Strengths Interview correction: Day 5 previews the capstone task but does not create a same-day family-adult dependency. The capstone must offer an approved campus-adult route and avoid collecting adult contact information.
+- Worksheet QA: six PDFs totaling thirty pages passed strict rendering with zero warnings and visual inspection. The career outline separates each oral sentence job, the fallback cards fit on one readable page, and every revision/reflection prompt has full-width space.
+- Licensed media: nine progressive FYF JPEGs for pp. 241-247, 280, and 299 are 87-162 KB at a 1,300-pixel long edge. A visual check caught the reference PDF's six-page front-matter offset before import; the corrected files match their printed page labels.
+- Grading boundary: Day 5 is a 16-point Major draft and remains unpublished/ungraded until the sixth-six-weeks assessment count and 40/60 groups are verified.
+- Canvas package: five Day subheaders, ten paired pages, one Quiz, and four private Assignments in a 20-item chronological route. All local renders passed without unresolved template fields.
+- Importer: `build/canvas/build_6sw_wk4.py`.
+
+## 2026-08-08 - 6SW Week 5 local production record
+
+- Module target: `6SW Wk5: Job Search, Applications, and Interviews`.
+- State: repaired five-day sequence, six core artifacts, paired templates, one five-question retryable practice Quiz, and Canvas importer complete locally; API/browser verification pending.
+- Privacy correction: the core week uses the complete fictional Pecan Creek Animal Care / Jordan Rivera case. Students never enter or submit a real address, phone/email, birth date, Social Security/student/driver ID, banking/tax/signature data, family data, availability constraints, protected information, or another person's contact information. No application, permission request, cover letter, thank-you note, or employer contact is sent.
+- Platform correction: live job boards, FYF Rung 5, H&amp;L, and Xello Job Interviews are extensions only. They are not required evidence or district Xello completion standards and cannot make a login, changing posting, or real applicant record load-bearing.
+- Correspondence correction: the cover letter and thank-you note use supplied facts, specific evidence, concise plain language, and visible revision. They do not reward invented enthusiasm, unsupported employer facts, inflated credentials/results, or generic formulaic prose.
+- Reference correction: students identify appropriate reference roles and firsthand evidence without entering real names/contact information. Permission-before-sharing is explicit; the classroom permission request is drafted but not sent.
+- Interview/access correction: appearance uses workplace, task, safety, format, technology, and accommodation context rather than expensive, gendered, body-based, cultural, religious, disability-based, eye-contact, handshake, or camera rules. Paired live, small group, teacher conference, private recording, and AAC routes are supported.
+- Worksheet QA: six PDFs totaling thirty-nine pages passed strict rendering with zero warnings and visual inspection. Initial renders exposed three unintended continuation pages; the final set gives a full draft page to each letter, eight spacious application/reference pages, four pages for eight interview questions, and separate role/revision records.
+- Grading boundary: Day 5 is a 24-point Major draft and remains unpublished/ungraded until the sixth-six-weeks assessment count and 40/60 groups are verified. Accent, camera use, eye contact, clothing cost/style, disability, public confidence, English mechanics, and submission route are not grading criteria unless meaning is unclear.
+- Canvas package: five Day subheaders, ten paired pages, one Quiz, and four private Assignments in a 20-item chronological route. All local content structures compile and render without unresolved fields.
+- Importer: `build/canvas/build_6sw_wk5.py`.
+
+## 2026-08-08 - 6SW Week 6 local production record
+
+- Module target: `6SW Wk6: Career Evidence Capstone`.
+- State: repaired flexible five-day sequence, six core artifacts, paired templates, eight locked licensed workbook visuals, and Canvas importer complete locally; API/browser verification pending.
+- Missing-evidence correction: a lost old workbook page, incomplete family interview, H&amp;L failure, missing partner, or absent prior artifact triggers a documented fixed-source, staff-conference, role-card, or supervised-catch-up route. It does not automatically reduce mastery.
+- Presentation correction: the former serial whole-class presentation plan could exceed the available schedule. The core route is a 2-3-minute individual brief through parallel small groups, teacher conference, private recording, AAC, or authorized multimodal evidence; whole-class delivery is optional celebration.
+- Plan correction: the eight-page career plan distinguishes current evidence, career direction and alternative, task/work product, preparation, labeled labor evidence, current Irving connection, unresolved verification question, postsecondary/training boundary, three action goals, obstacle, backup, support, and flexible conclusion.
+- Privacy/access correction: no private profile screenshot, address/contact/ID data, family finances, health/immigration information, family-adult dependency, public speech, camera, presentation platform, costly visual production, class photo, or pathway guarantee is required.
+- Worksheet QA: six PDFs totaling thirty-six pages passed strict rendering with zero warnings and visual inspection. Every major evidence job receives a dedicated page; the first rubric render exposed one unintended continuation page and the final four-page landscape rubric fits cleanly.
+- Licensed media: eight FYF orientation pages for pp. 277-280 and 297-300 are 112-241 KB each at readable delivery resolution. Native Canvas directions and the accessible packets independently carry every required evidence job.
+- Grading boundary: Day 4 is a 24-point Major draft and remains unpublished/ungraded until the sixth-six-weeks assessment count and 40/60 groups are verified. Missing prior artifacts, platform access, visual polish, public speaking, partner/family attendance, accent, eye contact, disability, camera use, English mechanics, and submission route are not mastery criteria unless meaning is unclear.
+- Canvas package: five Day subheaders, ten paired pages, and five private Assignments in a 20-item chronological route. All local content structures compile and render without unresolved fields.
+- Importer: `build/canvas/build_6sw_wk6.py`.

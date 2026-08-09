@@ -1,134 +1,97 @@
-# Day 1: MS-to-HS Transition + Texas Endorsements
+# Day 1: Graduation and Assessment Decisions
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Understand the Texas Foundation High School Program structure; identify the endorsement that matches the chosen pathway; recognize which standardized tests apply to the chosen postsecondary plan |
+| **Objectives** | Describe the current Texas graduation framework and analyze how different assessments can affect graduation, placement, admission, scholarships, career exploration, or military options |
 | **TEKS** | d(3)(A), d(3)(E) |
-| **5E Phases** | Engage: Warm-Up · Explain: Foundation High School Program and endorsements · Explore: Pathway-to-endorsement match and testing choice · Evaluate: Exit Ticket |
-| **Deliverable** | Completed MS-to-HS Transition worksheet showing chosen endorsement, top 2 HS courses for the pathway, and the most relevant standardized test |
-| **Materials** | Chromebooks, Texas OnCourse access, Irving ISD CTE Pathways poster, printed MS-to-HS Transition worksheet, projector |
+| **5E Phases** | Engage: Warm-Up · Explain: Graduation framework and assessment purposes · Explore: Transition and assessment scenarios · Evaluate: Exit Ticket |
+| **Deliverable** | Completed High School Transition and Assessment Decisions packet |
+| **Materials** | Chromebooks, TEA Graduation Toolkit 2025, High School Transition and Assessment Decisions packet, projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Name one thing you have heard about high school that worries you AND one thing you are excited about. Write both.**
+**WARM-UP: Write one question you have about high school and one choice you think students must make before Grade 9.**
 
-**Stop and Jot:** 90 seconds, both lines required, with the stems on the board: "One thing about high school that worries me is _____" and "One thing I am excited about is _____." Read over shoulders while students write and note whether the worries are about scheduling or about belonging.
-
-Take 4-5 student responses and name both the worry and the excitement. Show one course with a prerequisite so students can see how a 9th-grade choice affects what fits in grades 10 through 12.
+**Stop and Jot:** Give students 90 seconds. Read for scheduling, belonging, assessment, and pathway questions. Use the most common category to introduce the day's first example.
 
 ---
 
-## Activity 1: Texas Foundation HS Program Overview (15 min)
+## Activity 1: Read the Current Graduation Framework (12 min)
 
-**Source:** Texas Education Agency Foundation High School Program
+**Source:** [TEA Graduation Toolkit 2025](https://tea.texas.gov/about-tea/newsroom/brochures/tea-graduation-toolkit-2025.pdf)
 
-Project a one-page summary of the Texas Foundation HS Program. Walk students through the structure:
+Use the toolkit's Foundation High School Program page. Students record the two planning levels in Section 1 of their packet:
 
-- **22 credits required to graduate** in Texas
-- **4 English credits** (English I, II, III, IV)
-- **4 math credits** (Algebra I, Geometry, Algebra II + 1 advanced math)
-- **4 science credits** (Biology, IPC or Chemistry + 2 advanced)
-- **4 social studies credits** (World Geography or History, US History, Government, Economics)
-- **2 language other than English credits** (usually Spanish I & II)
-- **1 PE + 1 Fine Arts**
-- **5+ elective credits:** this is where CTE pathways live
+- The foundation plan requires at least 22 credits: 4 English, 3 math, 3 science, 3 social studies, 2 languages other than English, 1 physical education, 1 fine arts, and 5 electives.
+- A plan with an endorsement totals 26 credits and adds a fourth math credit, a fourth science credit, two electives, and the endorsement requirements.
 
-The CTE elective credits are how students earn their pathway. Most pathways take 4-8 elective credits across 9th-12th grade.
+The toolkit is a statewide baseline. Irving ISD course names, local graduation decisions, substitutions, and a student's individual plan still require current district guidance.
 
-Then introduce the **5 Texas endorsements:** students must pick at least one to graduate under the standard plan:
-
-1. **STEM:** engineering, computer science, advanced math/science
-2. **Business & Industry:** manufacturing, IT, agriculture, marketing, transportation
-3. **Public Services:** health science, education, law enforcement, hospitality, human services
-4. **Arts & Humanities:** fine arts, world languages, social studies
-5. **Multidisciplinary Studies:** broader mix without a single specialization
-
-Each Irving ISD CTE pathway maps to one of these endorsements. Students will use this match-up in the next activity.
+Ask students to explain why a student should check both the state framework and the local coursebook. Accept answers that distinguish graduation rules from local course names, prerequisites, and availability.
 
 ---
 
-## Activity 2: Pathway-to-Endorsement Match (15 min)
+## Activity 2: Connect a Direction to an Endorsement Question (10 min)
 
-Direct students to the Irving ISD CTE Pathways poster on the wall. Each student takes their Pathway Ranking Sheet from Week 1 Day 4 and identifies which endorsement matches their #1 pathway.
+Students use the career direction from their Week 1 Mid-Year Career Blueprint. They record one possible endorsement and one question they need to verify.
 
-| Pathway | Most Likely Endorsement |
-|---|---|
-| Architecture, Civil Engineering, Drone Engineering, Robotics Manufacturing | STEM |
-| Computer Science, Cybersecurity, Programming | STEM |
-| Automotive, Diesel, Collision Repair, Welding, Construction Tech, Aviation | Business & Industry |
-| Business & Marketing, Sales Mgmt, Entrepreneurship, Real Estate | Business & Industry |
-| Nursing, Dental, Medical Billing, Biomedical Science | Public Services |
-| Law Enforcement, Teaching & Training, Early Childhood Ed, Cosmetology | Public Services |
-| Culinary Arts, Lodging & Resort, Digital Comms, Graphic Design | Arts & Humanities or Business & Industry |
-| Vet Science, Plant Science, Sustainable Engineering | STEM or Business & Industry |
+Do not give students a fixed pathway-to-endorsement chart. A program may support more than one endorsement route, and current local guidance controls the student's plan. Model the difference:
 
-Students record on their MS-to-HS Transition worksheet:
-- **My #1 pathway:** _____
-- **The campus that offers it:** _____
-- **The endorsement that matches:** _____
-- **Two CTE courses I might take in 9th and 10th grade:** _____ (use Texas OnCourse to verify)
+- Unsupported claim: "Cybersecurity is always STEM."
+- Counseling-ready statement: "Cybersecurity may support a STEM or Business and Industry route. I will verify the current Irving sequence and endorsement with a counselor."
 
-Those four lines are the middle-school version of the workbook's own closing question. "What's Available to Me?" (FYF p. 296: "Rung 7: High School Plan") asks students what their likely high school offers that connects to their goals and which single opportunity interests them most. The workbook's district pages hold the district-side answer (FYF pp. 21-22: "What is Happening at My District?"): a Program of Study is a sequence of related courses that pairs classroom learning with hands-on experience, and the new Irving CTE Center now being built is described as holding a professional-grade broadcast studio, a full-service salon, a rooftop drone course, auto bays, and training facilities for electrical, HVAC, and plumbing. Read that list aloud while students are working through the pathway poster. It is the most concrete picture of high school CTE they get all week.
+Students write:
 
-> [VERIFY with CTE coordinator] The Irving CTE Center facility list is the workbook's description of a center still under construction. Confirm the opening timeline and which programs of study will actually be housed there before students plan around it, since this year's 7th graders enroll in 9th grade two years from now.
-
-> [VERIFY] Students access [texasoncourse.org](https://texasoncourse.org) and search for sample course sequences for their endorsement. The Texas OnCourse "MapMyGrad" tool offers visual course mapping examples, confirm the current URL with your district counselor before class.
-
-!!! tip "Facilitation Tip"
-    A few students will discover their pathway is NOT at their geographically-assigned high school. This is the moment to teach them about Irving ISD's choice/transfer system. Direct them to talk to their counselor about applying for the campus that offers their pathway.
+1. current career direction;
+2. possible endorsement;
+3. evidence or source used; and
+4. one question for a counselor.
 
 ---
 
-## Activity 3: Standardized Testing — What Matters for Me (12 min)
+## Activity 3: What Does This Assessment Affect? (18 min)
 
-Walk students through the standardized tests they will hear about in high school:
+Clarify that the tests and credentials serve different jobs:
 
-- **PSAT:** practice for the SAT, taken in 10th and 11th grade. National Merit Scholarship qualifier.
-- **SAT / ACT:** used for college admissions. Most Texas colleges accept both.
-- **TSI (Texas Success Initiative):** required for students entering Texas community colleges and 4-year universities to test into college-level courses.
-- **ASVAB:** required for military enlistment. Tests math, vocabulary, mechanical reasoning, electronics. Used to qualify for military jobs.
-- **Industry Certifications:** many CTE pathways end with an industry exam (e.g., FAA Part 107 for drones, ASE for automotive, AutoDesk Revit for architecture).
+- **STAAR End-of-Course assessments:** part of Texas high school graduation requirements, subject to current state rules and approved alternatives.
+- **PSAT:** practice and feedback for college-readiness planning; some administrations connect to scholarship programs.
+- **SAT and ACT:** admission or scholarship evidence when a college or program uses the score.
+- **TSIA:** one way Texas institutions determine college readiness and course placement; exemptions and alternatives exist.
+- **ASVAB:** career exploration and, in an enlistment process, military qualification and job options.
+- **Industry certification assessment:** evidence tied to a specific credential. It is not a general college-admission test.
 
-Students mark on their worksheet which test is most relevant to their postsecondary plan:
-- College-bound → SAT, ACT, TSI
-- Military pathway → ASVAB
-- Trades/CTE pathway → Industry certification + TSI if pursuing community college
+Students complete the two packet scenarios. For each one, they identify:
 
-**DOK 2:** How would you explain the difference between the SAT and the TSI to a student who has never heard of either?
+1. the assessment or result the student should learn more about;
+2. the decision the result may affect;
+3. one next step; and
+4. one fact that still needs verification.
+
+**DOK 3:** A student wants both a technical certificate and the option to transfer to a university later. Which assessment questions should the student ask before choosing classes, and why is one test not enough to plan the whole route?
 
 ---
 
-## Exit Ticket (3 min)
+## Exit Ticket (5 min)
 
-**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/4sw-wk2-day1-ms-to-hs-transition-texas-endorsements.pdf):
+**EXIT TICKET** (Mini-Case) · [Printable PDF](../../resources/exit-tickets/4sw-wk2-day1-graduation-and-assessment-decisions.pdf):
 
-1. My #1 Irving ISD pathway (from Wk 1): _______________________
+Jordan says, "The SAT, TSIA, and an industry certification are all college entrance tests, so I only need to prepare for one."
 
-2. The Texas endorsement that matches (circle one): **STEM** / **Business & Industry** / **Public Services** / **Arts & Humanities** / **Multidisciplinary**
+1. Identify one incorrect part of Jordan's claim.
+2. Explain one different decision each of two assessments may affect.
+3. Name the current source or person Jordan should use to verify the requirement.
 
-3. Two 9th-10th grade CTE courses my pathway requires (use Texas OnCourse or the Irving ISD CTE poster):
-
-   - 9th: _______________________
-
-   - 10th: _______________________
-
-4. The ONE standardized test most relevant to my postsecondary plan (circle one): **PSAT** / **SAT** / **ACT** / **TSI** / **ASVAB** / **industry certification**
-
-5. In one sentence, why does THIS test matter for the pathway I picked?
-
-   ___________________________________________________________________
-
-*(d(3)(A), d(3)(E))*
+*(d(3)(E))*
 
 ---
 
 ## Differentiation
 
-- **Support:** Pre-filled worksheet with the endorsement options visible as a checklist. Students just check the matching endorsement instead of writing it. Pair with a peer to find the pathway on the wall poster.
-- **Extension:** Research the specific industry certification their pathway leads to (FAA Part 107, ASE, Revit, CCNA, etc.): find the exam cost, age requirement, and what it qualifies them to do.
-- **ELL:** Bilingual MS-to-HS worksheet with Spanish endorsement names: STEM = STEM, Business & Industry = Negocios e Industria, Public Services = Servicios Públicos, Arts & Humanities = Artes y Humanidades, Multidisciplinary = Multidisciplinario.
+- **Support:** Give students the six assessment-purpose cards and let them match each card to a scenario before writing.
+- **Extension:** Research one current exemption, alternative, or receiving-institution policy and record the source date.
+- **ELL:** Use the labels graduation, admission, placement, scholarship, career exploration, military qualification, and credential. Students may point to or sort the labels before writing two short sentences.

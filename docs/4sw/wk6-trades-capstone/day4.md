@@ -1,109 +1,66 @@
-# Day 4: Work Ethic in Action + H&L Career Plan Update
+# Day 4: Work Ethic and Integrity — Document the Decision
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Discuss work ethic and integrity in the trades through real workplace examples; update the H&L Career Plan with all 4SW data; review every favorited career across the year |
+| **Objective** | Identify work ethic, integrity, dedication, and perseverance in four fictional workplace decisions and connect one trait to prior class evidence |
 | **TEKS** | d(4)(F) |
-| **5E Phases** | Engage: Warm-Up · Explain: Work ethic and integrity in four trades careers · Extend: Work Ethic Examples worksheet and Career Plan audit · Evaluate: Exit Ticket |
-| **Deliverable** | Updated H&L Career Plan (screenshot showing Week 3-5 favorites added) + Work Ethic example notes |
-| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook p. 170, printed Work Ethic Examples worksheet, projector |
+| **Deliverable** | Integrity and Evidence Audit packet |
+| **Materials** | Four fictional case cards, optional H&L browse |
 
----
+## Before Class
+
+Post the case packet. Do not use real repair histories, flight logs, student work records, or screenshots of private profiles.
 
 ## Warm-Up (5 min)
 
-**WARM-UP: What does "work ethic" mean to you in your own words? Describe someone you know who has a strong work ethic, a teacher, family member, coach, or peer.**
+Define the difference between doing hard work and doing trustworthy work. A person can work quickly and still lack integrity if they hide a skipped check.
 
-Take 4-5 student responses and build a quick word cloud: punctual, finishes things, follows through, takes pride. Ask what each trait looks like during an inspection, repair, or safety check before students connect it to a trades career.
+## Activity 1: Four Traits (10 min)
 
----
+- **Work ethic:** reliable effort and responsibility.
+- **Integrity:** honest action and records, including when no one is watching.
+- **Dedication:** sustained commitment to quality and purpose.
+- **Perseverance:** continuing through a challenge while still following safety and quality boundaries.
 
-## Activity 1: Work Ethic + Integrity in the Trades (15 min)
+Perseverance never means continuing an unsafe task without authorization.
 
-**Source:** Cross-cluster discussion grounded in 4SW careers (Aviation Wk3, Drone Wk4, Automotive Wk5)
+## Activity 2: Four Fictional Cases (20 min)
 
-Walk through 3-4 specific examples where work ethic and integrity in trades careers have life-or-death consequences:
+Students respond to bounded cases involving a missed checklist item, an uncertain measurement, an incomplete handoff, and pressure to sign work that was not verified. For each case they name the trait, the trustworthy action, the record or supervisor route, and the harm the action prevents.
 
-- **Auto Mechanic + brakes:** A mechanic who skips a torque check on a brake job because they want to leave early can cause the wheel to detach on the highway. Integrity means doing every step correctly, especially the boring ones, even when no one is watching.
-- **Aviation Mechanic + engine inspection:** Aviation mechanics sign their name on every inspection. If they miss a crack in a turbine blade and the plane crashes, the FAA traces it to the signature. There is no hiding from poor work in aviation.
-- **Drone Pilot + Part 107 logbook:** Commercial drone pilots are required to log every flight, every battery check, every safety incident. A pilot who lies in their logbook and gets caught loses their certification permanently.
-- **Diesel Tech + commercial truck inspection:** Diesel techs inspect 18-wheelers that share the road with families. Skipping a brake check can kill people. Work ethic isn't a nice-to-have. It is the entire job.
+The cases do not teach tool settings, real repair procedures, clinical advice, or aviation maintenance procedures.
 
-Ask what happens when a skilled worker lies about a repair, inspection, or measurement. In the trades, work ethic affects whether the public can trust the work and whether the finished job is safe.
+## Activity 3: Personal Evidence Audit (10 min)
 
-Students complete the printed Work Ethic Examples worksheet. They pick **one career** they have explored this year and describe:
-- One specific task in that career where work ethic matters
-- The consequence if someone does that task with poor work ethic
-- One way the career uses systems (logs, inspections, signatures, supervisors) to enforce work ethic
+Students select one prior class artifact and write:
 
-**DOK 3:** What conclusions can you draw about why work ethic and integrity are especially critical in trades careers where safety is involved? Give at least two specific examples.
+1. the task they completed;
+2. one visible action that demonstrates a trait;
+3. one honest limitation or revision still needed; and
+4. one next action.
 
----
+H&L may be browsed for another career example, but no favorite count, Career Plan update, or screenshot is required.
 
-## Activity 2: H&L Career Plan Update (25 min)
+## Exit Check (5 min)
 
-**Source:** (FYF p. 170: "App Exploration"), the Transportation cluster's app page
+**EXIT TICKET** (Decision Tree) · [Printable PDF](../../resources/exit-tickets/4sw-wk6-day4-work-ethic-and-integrity-document-the-decision.pdf):
 
-> [H&L PLATFORM] Direct students to open H&L and navigate to their **Career Plan**. The Career Plan is where students accumulate favorites, Building Blocks, and pathway preferences across the entire year. It is not built from scratch each week. It grows. Students who joined the class late or missed weeks can still add favorites at any time.
+Scenario: A worker is pressured to sign an inspection they did not complete.
 
-Students complete a Career Plan accumulation check:
+Step 1: Which professional characteristic is most important?
 
-1. **Review all favorited Hats from Weeks 1-5 of the 4SW**
-    - Week 1: Career Planning (any Hat from earlier weeks revisited during the audit)
-    - Week 3: Aviation Hats, including Pilot, ATC, Aviation Mechanic, and Drone Operator
-    - Week 4: Engineering Hats, including Drone Engineer, Mechanical Engineer, and Aerospace Engineer
-    - Week 5: Automotive Hats, including Auto Tech, Diesel Tech, and Collision Repair Tech
-2. **Run the workbook's rating steps for this cluster** (FYF p. 170): find 1 Hat that matches their interests and say why, find 1 Hat that is not a fit and say why, open Pathway Possibilities and rate at least 1 pathway, then rate at least 3 Hats. Students who never favorited during Weeks 3-5 add favorites here
-3. **Update the Building Blocks section:** students add 1-2 new skills they practiced this six weeks (e.g., "Used the Engineering Design Process," "Operated a drone safely," "Researched salaries across 3 sources")
-4. **Confirm the chosen pathway:** the same one they selected during the mid-year review, or update it if their thinking has shifted
-5. **Take a screenshot** of their updated Career Plan and save it to their student drive
+Step 2: What should the worker do instead of signing?
 
-Check that the H&L Career Plan includes evidence from earlier clusters as well as this week.
-
-!!! tip "Facilitation Tip"
-    Some students will have very thin Career Plans because they forgot to favorite during earlier weeks. Allow them to spend 10 minutes browsing earlier clusters and adding favorites based on memory. The H&L Career Plan only works if it captures real student data over time.
-
-A career plan is a roadmap with both short-term goals (current courses, near-future skills) and long-term goals (HS course sequence, postsecondary path, career destination). Students review their plan against that framing, and today's audit is the raw material for the Capstone rungs where they write it down as SMART goals and a course map (FYF pp. 292-293: "Rung 6: Goal Setting"; FYF pp. 294-296: "Rung 7: High School Plan").
-
----
-
-## Activity 3: Quick Pair Share (5 min)
-
-In pairs, students share:
-- One thing they added to their Career Plan today that wasn't there last week
-- One favorited Hat that surprised them when they re-read their list
-
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/4sw-wk6-day4-work-ethic-in-action-h-and-l-career-plan-update.pdf):
-
-Scenario: A senior diesel technician at a trucking shop is running late for their daughter's soccer game. The last 18-wheeler they need to inspect today requires a 20-minute brake check. They're considering skipping the check "just this once."
-
-1. What COULD happen if they skip the brake check? (One specific safety consequence.)
-
-   ___________________________________________________________________
-
-2. Which system in the trades industry is designed to CATCH this kind of shortcut? (Circle one: **logs** / **inspections** / **signatures** / **supervisors**)
-
-   My pick: _______________________
-
-3. From MY H&L Career Plan, name ONE favorited career where work ethic has similar safety consequences if skipped:
-
-   My career: _______________________
-
-   ONE specific task where work ethic matters in THIS career: ___________________________________________________________________
+Step 3: What documentation or supervisor route keeps the record accurate?
 
 *(d(4)(F))*
 
----
+## Monitoring and Supports
 
-## Differentiation
-
-- **Support:** Pair with a peer who can help navigate the H&L Career Plan. Pre-filled Work Ethic Examples worksheet with one example completed (e.g., Aviation Mechanic + engine inspection). Allow students to add favorites from a teacher-curated list of "high-interest 7th grade careers" if their plan is empty.
-- **Extension:** Audit the Career Plan for diversity, does it show variety across clusters, or is it dominated by one cluster? If dominated, what does that say about the student's thinking?
-- **ELL:** Bilingual Work Ethic worksheet with Spanish prompts. Pre-teach: Integrity = Integridad, Inspection = Inspección, Logbook = Registro, Consequence = Consecuencia.
+- “Tell the truth” is a start; full evidence names the specific honest action and record route.
+- Accept a school activity as personal evidence. Students do not need employment history.
+- Provide sentence frames and allow private typed, dictated, annotated, or paper responses.
+- Absence route is fully independent and uses fictional information only.

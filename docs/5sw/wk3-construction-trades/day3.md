@@ -1,107 +1,57 @@
-# Day 3: Construction Career Classification
+# Day 3: Construction Labor Evidence and Classification
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Classify 5 construction careers as high-skill, high-wage, and/or high-demand using labor market data from H&L and BLS |
-| **TEKS** | d(5)(B), d(5)(A), d(2)(A) |
-| **5E Phases** | Engage: Warm-Up · Explain: Classification terms and worked example · Explore: Classification worksheet · Explain: Share out · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Construction Career Classification worksheet (5 careers with evidence) |
-| **Materials** | Chromebooks, H&L accounts, BLS OOH, printed Construction Career Classification worksheet, projector |
-
----
+| **Objectives** | Compare four occupations on one source basis; analyze growth and openings; classify under the published course rule |
+| **TEKS** | d(5)(A), d(5)(B) |
+| **Deliverable** | Individual four-career classification packet and limitation |
+| **Materials** | Fixed May 2024 BLS evidence guide, classification packet, worked example |
 
 ## Warm-Up (5 min)
 
-**WARM-UP: What does it mean when we say a career is "high-demand"? Define it in your own words. Then give one example of a career you think is high-demand right now.**
+Can an occupation have many annual openings but only average growth? Explain how both could be true.
 
-Collect 2-3 definitions. Push students toward a data-driven definition: *A career where there are more job openings than qualified workers available to fill them.* This is the working definition used by the Bureau of Labor Statistics and the Texas Workforce Commission.
+## Activity 1: Publish the Rule (8 min)
 
----
+Explain that the categories are a classroom comparison rule, not official labels.
 
-## Activity 1: Define the Classification Terms (8 min)
+- **High-skill:** BLS documents substantial occupation-specific preparation such as apprenticeship, moderate/long-term on-the-job training, bachelor’s degree, or a regulated license/credential boundary.
+- **High-wage:** May 2024 U.S. median is above the all-occupation median of $49,500.
+- **High-demand for this comparison:** projected 2024–34 growth is above the all-occupation rate of 3.1%.
 
-Walk through the three classification categories clearly before students start. Project the definitions:
+Annual openings remain a separate trend measure. Use **N/A / not comparable** when evidence is missing; never estimate a number.
 
-- **High-skill** = The career requires significant training, specialized knowledge, or a credential that is hard to obtain quickly. Example: Master electrician.
-- **High-wage** = Median DFW salary is above $50,000/year (the local living wage for a family is roughly that). Example: Construction Manager.
-- **High-demand** = BLS projects job growth above average (usually 5%+ over 10 years) AND there are more openings than qualified workers in DFW. Example: Carpenter in DFW due to the construction boom.
+## Activity 2: Classify Four Fixed Careers (27 min)
 
-A career can check one, two, or all three boxes. When it checks all three, students have evidence that the work requires training, pays well, and has employers looking for workers.
+Students use one BLS geography, year, and measure for:
 
-!!! tip "Facilitation Tip"
-    Model one classification on the board using Electrician data before letting students work independently. Show how you cite specific BLS and H&L numbers as evidence, not just opinions.
+| Occupation | May 2024 U.S. median | 2024–34 growth | Annual openings | Preparation summary |
+|---|---:|---:|---:|---|
+| Construction Manager | $106,980 | 9% | 46,800 | Bachelor's typical |
+| Carpenter | $59,310 | 4% | 74,100 | High-school diploma; OJT or apprenticeship |
+| Construction Equipment Operator | $58,320 | 4% | 46,200 | High-school diploma; occupation-specific OJT |
+| Masonry Worker | $56,600 | 2% | 20,700 | Occupation-specific OJT; route varies |
 
----
+For each occupation, students mark high-skill, high-wage, and high-demand; cite the exact evidence; and state one limitation. They then compare two trends: growth rate and annual openings.
 
-## Activity 2: Classification Worksheet (30 min)
+## Activity 3: Evidence Judgment (7 min)
 
-**Source:** BLS OOH Construction section + H&L localized DFW salary data
+Students recommend one occupation to a fictional student who wants to earn while learning but can accept physically demanding work. They must use one preparation fact, one pay figure, one trend figure, and one limitation.
 
-Distribute the Construction Career Classification worksheet. Students classify 5 construction careers from this week's exploration:
+## Exit Check (3 min)
 
-1. **Carpenter**
-2. **Construction Manager**
-3. **Heavy Equipment Operator**
-4. **Mason or Ironworker**
-5. **A career of their choice** from the A&C cluster
+Which career changed classification when you applied the rule? Cite one number and explain why annual openings and growth are not the same measure.
 
-For each career, they fill in:
+## Teacher Key and Monitoring
 
-| Field | Source |
-|-------|--------|
-| Median DFW salary | H&L Hat profile |
-| Education/training | H&L Hat profile + BLS OOH |
-| BLS 10-year projected growth | BLS OOH |
-| Is it high-skill? (Y/N + reason) | Your judgment with evidence |
-| Is it high-wage? (Y/N + reason) | Salary above or below $50K |
-| Is it high-demand? (Y/N + reason) | BLS growth + DFW job postings |
+- All four are above the $49,500 wage threshold.
+- Construction Manager, Carpenter, and Construction Equipment Operator are above the 3.1% growth threshold; Masonry Worker is not.
+- A high-skill decision must use the published preparation indicator, not prestige or salary.
+- Openings include replacement needs and do not prove an employer shortage in DFW.
 
-Students also pick one career and write a **3-sentence justification** that classifies it with cited evidence. Example format: *"A Construction Manager in DFW has a median salary of $98,000 (H&L), well above the $50,000 high-wage threshold. BLS projects 8% job growth over the next 10 years, faster than average. This career is all three: high-skill, high-wage, and high-demand."*
+## Supports and Fallback
 
-!!! tip "Facilitation Tip"
-    Some students will leave boxes blank if they cannot find data. Walk the same pathway three times with one target per lap: at minute 10 every salary cell carries a source, at minute 20 every career has a BLS growth percentage, and on the last lap the written justification names at least one number. Prompt for the source rather than the answer: "What did you find on BLS? If you cannot find a number, estimate, but explain your reasoning." If more than a handful of students are still missing the growth percentage at the second lap, pivot and reproject the BLS Job Outlook tab for the whole room instead of repeating the search desk by desk.
-
----
-
-## Activity 3: Share Out (5 min)
-
-Quick share: 3-4 volunteers share their "all three" career and their justification. This reinforces the data-driven method and exposes the whole class to different careers.
-
-**DOK 4:** Which construction career would you recommend to someone who wants job security with minimal college debt? Use data from your worksheet to justify your recommendation.
-
----
-
-## Exit Ticket (2 min)
-
-**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/5sw-wk3-day3-construction-career-classification.pdf):
-
-1. ONE construction career I classified as ALL THREE (high-skill + high-wage + high-demand):
-
-   Career: _______________________
-
-2. Cite ONE specific data point for EACH classification:
-
-   - HIGH-SKILL evidence (credential / education / years required): _______________________
-
-   - HIGH-WAGE evidence (DFW median salary $): _______________________
-
-   - HIGH-DEMAND evidence (BLS 10-year growth % OR DFW job postings): _______________________
-
-3. Name ONE other classmate who had a DIFFERENT "all three" career. Whose was it and why?
-
-   Classmate's career: _______________________. In one sentence, why theirs fits all three:
-
-   ___________________________________________________________________
-
-*(d(5)(A), d(5)(B))*
-
----
-
-## Differentiation
-
-- **Support:** Provide a pre-filled example row (Electrician) with all data cells complete so students see the format. They then fill in the other 4 career rows.
-- **Extension:** Research which construction careers are NOT high-demand or high-wage. Why? What changed? (Examples: Elevator installer is high-wage but low-demand due to small total workforce.)
-- **ELL:** Bilingual Classification worksheet with Spanish column headers. Pre-teach: High-Skill = Alta habilidad, High-Wage = Alto salario, High-Demand = Alta demanda. Numbers and percentages are language-accessible.
+The packet gives each occupation a roomy block instead of one dense five-career table. Allow calculator, read-aloud, bilingual labels, typing, dictation, or one-card-at-a-time chunking. No H&L, job-posting site, or open research is required.

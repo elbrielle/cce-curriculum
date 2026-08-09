@@ -1,118 +1,59 @@
-# Day 1: Construction Pathways + Career Research
+# Day 1: Current Pathway and Construction Career Evidence
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Name the Irving ISD programs of study in this cluster; rate a construction pathway in the Hats & Ladders app; complete the career research worksheet for one construction career |
+| **Objectives** | Identify three construction roles; compare documented preparation; explain the current Irving pathway boundary |
 | **TEKS** | d(1)(C), d(2)(A) |
-| **5E Phases** | Engage: Warm-Up · Explain: Irving ISD programs of study · Explore: Pathway rating and career research · Explain: Partner comparison · Evaluate: Exit Ticket |
-| **Deliverable** | Completed career research worksheet (1 construction career) + one Architecture and Construction pathway rated in the app |
-| **Materials** | Chromebooks, H&L accounts + *Find Your Future* workbook (printed pp. 196-198), printed construction career research worksheet, projector |
-
----
+| **Deliverable** | Individual career/preparation evidence card |
+| **Materials** | Fixed three-career guide, current Irving pathway card, optional H&L launch |
 
 ## Warm-Up (5 min)
 
-**WARM-UP: What is being built near your neighborhood right now? A house, apartment, school, road, or business? Estimate how many different workers (carpenters, plumbers, electricians, drivers, managers) are on that job site.**
+Name one decision that must happen before a building crew can begin work. Who needs the result of that decision?
 
-Take 2-3 guesses. Students typically underestimate, a mid-size commercial building can have 50+ workers across a dozen different trades. This sets up why this week is about the *builders* rather than the *designers* from Weeks 1-2.
+## Activity 1: Current District Pathway (10 min)
 
----
+Use the dated CCE pathway card. The public Irving page uses **Construction**; the 2026–27 coursebook lists Principles of Construction through Practicum in Construction, Autodesk Revit, and TSA. Show the FYF district page only as an older workbook snapshot. Do not promise admission, a credential, a job, or a completed postsecondary route.
 
-## Activity 1: Construction Pathways in the App and at Irving ISD (10 min)
+Students write one sentence explaining how high-school CTE can support—but not complete—the preparation for a construction career.
 
-**Source:** (FYF pp. 196-197: "What is Happening at My District?") + (FYF p. 198: "App Exploration")
+## Activity 2: Three Fixed Career Cards (25 min)
 
-Project the district pages and read the PROGRAMS OF STUDY sidebar together. Irving ISD runs three programs of study in this cluster, and each one is a different door into the same industry:
+Students compare Carpenter, Construction Manager, and Construction and Building Inspector. Each card supplies occupation, work, typical preparation, May 2024 U.S. median, outlook, annual openings, source, and one evidence limit.
 
-- **Architecture:** design, architectural drawing, technical drafting, and project planning. *(This is the Week 1 focus.)*
-- **Construction Technology:** building trades, construction methods, safety practices, tools and equipment, blueprint reading, carpentry, and project execution.
-- **Welding:** metal fabrication, welding techniques, and industry safety. *(Welding gets its own day in Week 4.)*
+Students select one role and record:
 
-Week 3 works Construction Technology: the people who build the thing and the people who manage and inspect the job. Week 4 works the skilled trades that make a finished building run.
+1. two daily work products or decisions;
+2. typical preparation and any license boundary;
+3. one accurately labeled pay or outlook figure;
+4. one fact the source does not prove;
+5. one reason the role may or may not fit them.
 
-Students then open the app and work the Pathway Possibilities step from this cluster's App Exploration page (FYF p. 198): answer the pathway questions, then explore and rate at least one Architecture and Construction pathway. Ask for a building pathway rather than a design pathway today, so the app profile ends up carrying both halves of the cluster.
+H&L may help students browse a cluster, but it is not the evidence source and no rating or screenshot is required.
 
-!!! tip "Facilitation Tip"
-    Students sometimes think "construction" means just hammering nails. Emphasize that Construction Managers are well-paid leaders who coordinate schedules, budgets, and safety, a great career for students whose core personality type is Persuader or Organizer.
+## Activity 3: Evidence Comparison (7 min)
 
----
+Students compare their role with a second card. A partner is optional; the written comparison is individual.
 
-## Activity 2: Construction Career Research (25 min)
+- What is one preparation difference?
+- What work product passes from one role to another?
+- What tradeoff would a student accept by choosing one route?
 
-**Source:** Construction career research worksheet (CCE artifact; the research format is taught in Wk0) + (FYF p. 198: "App Exploration")
+## Exit Check (3 min)
 
-Students browse Hats in the Architecture and Construction cluster in the app and answer two of the App Exploration questions as they browse: which Hat matches their interests, and which Hat clearly does not fit them and why. They then pick one Hat to research in full on the worksheet. Favoriting and Hat ratings wait for Day 5, when students have the salary and demand data to rate with.
+Name one construction role, one accurate preparation requirement, and one work product another role uses.
 
-Since students already researched a design career in Week 1, this week they pick a **construction or building career** from:
+## Teacher Key and Monitoring
 
-- Carpenter
-- Construction Manager
-- Mason
-- Heavy Equipment Operator
-- Ironworker
-- Construction Inspector
+- Carpenter: high-school diploma typical; learns on the job or through apprenticeship; May 2024 U.S. median $59,310; 4% growth; about 74,100 annual openings.
+- Construction Manager: bachelor’s degree typical; May 2024 U.S. median $106,980; 9% growth; about 46,800 annual openings.
+- Construction/Building Inspector: do not call the Grade 8 image activity professional inspection preparation. Texas real-estate inspection has a separate TREC license route.
 
-Students complete all fields on the research worksheet:
+Multiple fit decisions are acceptable. Require the student to keep the source label with the claim.
 
-- **Name of Career**
-- **What Interests You?:** why this career caught their attention
-- **Brief Job Description:** what this professional does daily
-- **Education/Training Needed:** apprenticeship length, licensing, NCCER certifications
-- **Average Salary:** DFW data from the H&L Hat profile
-- **Tools, Equipment, or Skills Needed:** physical tools, math, blueprint reading, leadership
+## Supports and Fallback
 
-!!! tip "Facilitation Tip"
-    Check that students are pulling real data from the H&L app, not guessing. If a student writes "$30/hour" without a source, prompt: "Where in H&L did you find that number?" The localized DFW salary data in H&L is the anchor for the classification activity on Day 3, inaccurate data here will cascade.
-
----
-
-## Activity 3: Partner Comparison (7 min)
-
-Students pair up and compare research sheets. They answer:
-
-- How are our two careers similar? (Both in construction, both use physical skills, both involve safety.)
-- How are they different? (Education path, salary ceiling, day-to-day tasks.)
-- Which career pays more entry-level? Which pays more at the top of the scale?
-
-This sets up Day 3's Classification activity where students compare multiple careers systematically.
-
-**DOK 2:** How does a Carpenter's training pathway differ from a Construction Manager's training pathway? Which has a higher salary ceiling?
-
----
-
-## Exit Ticket (3 min)
-
-**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/5sw-wk3-day1-construction-pathways-career-research.pdf):
-
-Scenario: A new 10-story apartment building is about to break ground in Las Colinas. The contractor needs to hire 4 specific trade workers TODAY.
-
-1. Name TWO construction careers from today's career research that this contractor needs:
-
-   - Career 1: _______________________
-
-   - Career 2: _______________________
-
-2. Compare education type for each (apprenticeship / associate degree / bachelor's):
-
-   - Career 1 needs: _______________________
-
-   - Career 2 needs: _______________________
-
-3. ONE SKILL both careers require: _______________________
-
-4. If I had to pick ONE of these pathways TODAY, which would I pick and what TRADEOFF (time / money / physical risk / earning start-date) am I accepting? *(d(1)(C), d(2)(A))*
-
-   My pick: _______________________
-
-   Tradeoff: _______________________________________________________
-
----
-
-## Differentiation
-
-- **Support:** Pre-select 3 construction careers for students to choose between, with the H&L Hat profile page already open on their computer. This reduces decision fatigue.
-- **Extension:** Research Construction Manager career paths that require a bachelor's degree in Construction Management. What universities in Texas offer this degree? Compare to a carpenter who reached master level without any college.
-- **ELL:** Bilingual H&L Hat names: Carpenter = Carpintero, Mason = Albañil, Heavy Equipment Operator = Operador de maquinaria pesada, Construction Manager = Gerente de construcción.
+Use one card at a time, bilingual labels, read-aloud, dictation, or a reduced two-card comparison. No open search, H&L login, partner, or prior construction experience is required.

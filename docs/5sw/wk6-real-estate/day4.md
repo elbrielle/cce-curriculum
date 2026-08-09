@@ -1,116 +1,55 @@
-# Day 4: Market Trends Analysis + H&L Career Plan Update
+# Day 4: Real-Estate Labor Evidence and Economic Sensitivity
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Analyze DFW real estate labor market trends with labor data; connect trends to career opportunities; update the H&L Career Plan with 5th Six Weeks exploration data |
 | **TEKS** | d(5)(A) |
-| **5E Phases** | Engage: Warm-Up · Explain: Modeled market data reading · Explore: Market Trends Analysis notes · Extend: Career Plan update across the six weeks · Evaluate: Exit Ticket |
-| **Deliverable** | Market Trends Analysis notes + updated H&L Career Plan reflecting 5SW exploration |
-| **Materials** | Chromebooks, H&L accounts (Career Plan), BLS Real Estate OOH page, Texas Real Estate Research Center, Zillow or Realtor.com (projected), printed Market Trends Analysis notes sheet, projector |
+| **Deliverable** | Fixed-source labor analysis and scenario judgment |
+| **Materials** | BLS evidence guide, calculators optional, unpublished unlimited-retry Canvas Quiz |
 
----
+## Evidence Boundary
 
-## Warm-Up (5 min)
+The fixed BLS evidence is national and dated. It does not prove DFW starting pay, a current vacancy, a worker shortage, future home prices, or guaranteed commission income. H&L and live housing sites are optional enrichment only.
 
-**WARM-UP: Do you think home prices in DFW will go UP or DOWN over the next 10 years? What evidence supports your prediction?**
+## 50-Minute Flow
 
-Collect 3-4 predictions. Most students predict "up" because everyone is moving to Texas. Bridge: today we will use real data to test that intuition. Economists track specific indicators, today you will think like an economist.
+### 1. Warm-Up — Growth Is Not Openings (5 min)
 
----
+Students predict the difference between projected growth and annual openings. Clarify that openings include replacement needs and do not equal live job postings.
 
-## Activity 1: Teacher Modeling — Reading Real Estate Market Data (10 min)
+### 2. Read the Fixed Evidence (10 min)
 
-Project the Texas Real Estate Research Center website or a BLS Real Estate OOH page. Model how to extract specific data points:
+- Real Estate Sales Agents: $56,320 May 2024 U.S. median annual wage.
+- Real Estate Brokers: $72,280 May 2024 U.S. median annual wage.
+- Combined group: 3% projected growth, 2024-34.
+- Combined group: about 46,300 annual openings on average.
+- BLS reports 54% self-employed in each occupation's 2024 employer distribution.
+- BLS wage data exclude self-employed workers.
+- Work may slow during declining economic activity or rising interest rates.
 
-1. **10-year BLS projection for Real Estate Agents:** typically 3-5% growth
-2. **Median home price in DFW:** pull from Zillow's DFW market page
-3. **Number of home sales per year in DFW:** roughly 100,000+ depending on market conditions
-4. **Interest rate effect:** Higher interest rates → fewer sales → lower commissions
-5. **Population growth:** DFW is one of the fastest-growing metros in the U.S.
+### 3. Analyze Labels and Limitations (20 min)
 
-Emphasize: "Real estate is a CYCLICAL market. Some years are hot (20% sales growth). Some years are cold (sales drop). Agents who survive the cold years become very successful in the hot years. You need to understand the cycle."
+Students complete four evidence jobs:
 
----
+1. compare the two medians without calling either starting or local pay;
+2. explain why 3% growth and 46,300 openings are not contradictory;
+3. explain how economic conditions can affect work and irregular earnings;
+4. name one local question the national source cannot answer.
 
-## Activity 2: Student Market Trends Analysis (20 min)
+### 4. Apply to Fictional Jordan (10 min)
 
-Students complete the Market Trends Analysis notes sheet independently. They pull data from BLS, Zillow, and teacher-provided news articles. Fields:
+Jordan values flexible scheduling but needs predictable monthly income. Students recommend a next investigation step using two BLS facts, one risk, and one authorized local source to verify. There is no predetermined career answer.
 
-| Field | Data Source |
-|-------|-------------|
-| BLS 10-year job outlook for Real Estate Agents | BLS OOH |
-| Median DFW home price (current year) | Zillow DFW market page |
-| Estimated annual home sales in DFW | Texas Real Estate Research Center |
-| Factor 1 driving demand | News article |
-| Factor 2 driving demand | News article |
-| Factor 1 that could slow the market | Interest rates, oversupply, recession |
-| Your career opportunity assessment | 1-2 sentences |
+### 5. Practice Quiz and Exit (5 min)
 
-Students also answer:
+Students use the unlimited-retry Quiz to repair median, openings, self-employed, and economic-sensitivity claims. Quiz attempts are ungraded.
 
-- **Why is DFW a strong market?** (Population growth + corporate relocations + lower cost of living)
-- **What could change the market?** (Federal Reserve raising interest rates sharply, economic downturn, oversupply from new construction)
-- **What does this mean for a new agent starting in 2027-2028?**
+## Monitoring Key
 
-!!! tip "Facilitation Tip"
-    H&L's localized DFW data is useful but limited for real estate. Supplement with news articles from the past 6-12 months for current market conditions. The Texas Real Estate Research Center at Texas A&M publishes monthly reports.
+Require source/date/geography/measure labels. Reject “46,300 new DFW jobs,” “3% means low demand,” “median means starting pay,” and “self-employed wages are included.” Accept multiple Jordan decisions when evidence and limitations are accurate.
 
-**DOK 3:** What conclusions can you draw about how factors like interest rates and population growth affect the number of real estate jobs available in DFW?
+## Support and Fallback
 
----
-
-## Activity 3: H&L Career Plan Update — End of 5SW (12 min)
-
-> [H&L PLATFORM] Students open the Hats & Ladders app and update their Career Plan. The app path is the one they used on the cluster's App Exploration page (FYF p. 254): Clusters, then the Business, Marketing, and Finance cluster, then favorite the Hats worth keeping before moving to the Career Plan.
-
-The Career Plan is the app-side companion to the workbook's Capstone ladder. Students already built the high school plan on Rung 7 (FYF pp. 294-296: "Rung 7: High School Plan"), where they listed the classes, clubs, and programs that move them toward a goal. Today's update is the check on that plan: after six weeks of Architecture, Construction, Trades, Budgeting, and Real Estate, does the plan still point where they want to go?
-
-Students update their Career Plan to reflect everything they explored in the 5th Six Weeks:
-
-- **Architecture** (Wk1)
-- **Civil Engineering** (Wk2)
-- **Construction** (Wk3)
-- **Skilled Trades: HVAC/Electrical/Plumbing/Welding** (Wk4)
-- **Personal Budgeting** (Wk5)
-- **Real Estate** (Wk6)
-
-Students should:
-
-1. **Favorite 1-2 real estate careers** if any interested them (Real Estate Agent, Broker, Appraiser, Property Manager)
-2. **Update Building Blocks** if this week revealed a new connection (sales skills, independence, communication)
-3. **Review the full Career Plan:** by now, students have explored 12+ career clusters. Their plan should show clear patterns in what they are drawn to
-4. **Identify their TOP 3 careers of the year so far:** these will become the focus of the final capstone in 6th Six Weeks
-
-Remind students: The Career Plan is meant to evolve. It is OK to drop interests that no longer feel right and add new ones as they learn more.
-
-**DOK 2:** How has your Career Plan changed from the beginning of the year to now? What surprised you about your own interests?
-
----
-
-## Exit Ticket (3 min)
-
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/5sw-wk6-day4-market-trends-analysis-h-and-l-career-plan-update.pdf):
-
-Use my Day 4 Market Trends notes to fill in the matrix.
-
-| | Factors DRIVING DFW real estate UP | Factors that could SLOW DFW real estate |
-|---|---|---|
-| Factor 1 | | |
-| Factor 2 | | |
-
-Bottom line: In one sentence, which factor (up or slow) is STRONGER RIGHT NOW, and how does that create OR limit career opportunities for a new agent starting in 2027?
-
-   ___________________________________________________________________
-
-MY current top career choice from ALL clusters explored this year: _______________________. *(d(5)(A))*
-
----
-
-## Differentiation
-
-- **Support:** Pre-fill the Market Trends Analysis sheet with BLS data and home price numbers. Students focus on interpreting what the numbers mean rather than collecting them.
-- **Extension:** Compare DFW's real estate market to Austin's or Houston's. Which Texas metro is growing fastest right now? Why?
-- **ELL:** Bilingual Market Trends Analysis sheet. Numbers and percentages are language-accessible. Pair ELL students with bilingual peers for the Career Plan update discussion.
+All evidence appears in the fixed guide. Provide chunked cards, read-aloud, calculator, bilingual labels, or typed/dictated response. A live site is not required.

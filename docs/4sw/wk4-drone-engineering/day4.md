@@ -1,117 +1,91 @@
-# Day 4: Drone Navigation Challenge
+# Day 4: Test and Improve an Inspection System
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Apply Engineering Design Process Phases 4-5 (Test + Iterate); navigate a drone through an obstacle course; track accuracy and time across 3 attempts; connect the experience to real UAS inspection missions |
+| **Objectives** | Run three controlled system tests; use a common communication protocol; identify a constraint, result, revision, and evidence; explain how the same skills transfer to two occupations |
 | **TEKS** | d(1)(C), d(4)(B) |
-| **5E Phases** | Engage: Warm-Up · Explain: Course setup and mission briefing · Explore: Three scored runs per pilot · Extend: Real UAS inspection careers · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Drone Navigation Course score sheet (3 runs per pilot) showing improvement across attempts |
-| **Materials** | Classroom drones, cones / chairs / tape targets for obstacle course setup, printed Drone Navigation Course score sheet, stopwatches, projector for course diagram |
+| **Deliverable** | Team three-trial log plus individual evidence-based iteration note |
+| **Materials** | Drone Systems Test packet; fictional inspection target; timer; selected live indoor microdrone, simulator, or tabletop route |
 
 ---
 
-## Warm-Up (3 min)
+## Before Class
 
-**WARM-UP: What was the hardest part about flying the drone yesterday? What will you do differently today?**
+1. Confirm the same Day 3 safety gate. If any live-flight condition is missing, use simulator or tabletop without reducing the evidence.
+2. Set one short test zone per team. Do not build a five-station obstacle course that requires twelve three-minute flights in a 35-minute block.
+3. Post the four-step communication card: goal, action, result, stop/revise.
+4. Prepare one completed run log and one model showing that faster time is not automatically better evidence.
 
-Take 3-4 quick student responses: "It went up too fast and hit the ceiling," "I confused left and right," or "It crashed when I tried to land." Put each mistake beside the takeoff, navigation, or landing checkpoint where students will correct it today.
+## Warm-Up: What Counts as Improvement? (5 min)
 
----
+Students compare:
 
-## Activity 1: Course Setup + Mission Briefing (8 min)
+- Run A is faster but misses the target image.
+- Run B is slower, stays within the boundary, and captures the required target.
 
-**Source:** Engineering Design Process applied to drone inspection scenarios
+They identify the success criterion that matters and explain why speed alone does not prove improvement.
 
-Set up the indoor course before class (or have students help in the first 3 minutes). The course has 5 stations, marked with cones, chairs, or tape:
+## Activity 1: Set the Test and Roles (8 min)
 
-- **Station 1: Takeoff zone** (taped square on the floor)
-- **Station 2: Hover checkpoint** (a chair the drone must hover above for 5 seconds)
-- **Station 3: Gate** (two cones the drone must fly between)
-- **Station 4: Inspection target** (a target on the wall the drone must approach within 2 feet but not touch)
-- **Station 5: Landing zone** (taped square, different from the takeoff zone)
+Fictional mission: inspect a marked equipment panel and return one usable observation without touching the target or crossing the boundary.
 
-**The mission briefing:** "You are a UAS pilot hired to inspect a wind turbine for damage. Take off from the maintenance pad, hover above the turbine inspection point, fly through the safety gates, approach the damaged area for a close inspection (without crashing into it), and land in the inspection report drop zone. You will be scored on accuracy and time."
+Equal routes:
 
-This is the same scenario real wind farm inspection drone pilots run. Students who are not interested in drones still see why the navigation matters.
+- **Live indoor microdrone:** teacher-cleared low-altitude operation under the exact SOP;
+- **Simulator:** virtual path and target; or
+- **Tabletop:** paper aircraft token moved along a scaled path while a sightline/observation card is completed.
 
----
+Roles rotate across three team trials: operator/mover, spotter/boundary checker, evidence logger, and communication checker. No grade depends on piloting.
 
-## Activity 2: Three Runs Per Pilot (35 min)
+## Activity 2: Run Three Team Trials (24 min)
 
-Distribute the printed Drone Navigation Course score sheet. Each pilot gets 3 attempts. The score sheet captures:
+Each eight-minute trial uses:
 
-| Run # | Takeoff Clean? | Hover Held 5s? | Through Gate? | Inspection (no touch)? | Landing Clean? | Time |
-|---|---|---|---|---|---|---|
-| 1 | | | | | | |
-| 2 | | | | | | |
-| 3 | | | | | | |
+- **2 minutes:** state goal and success criterion;
+- **2 minutes:** run the test;
+- **2 minutes:** record result and breakdown; and
+- **2 minutes:** revise one variable and prepare the next trial.
 
-**How the rotation works:**
+The team may revise only one main variable at a time: route, speed, starting position, communication wording, role timing, target distance, or observation method. This makes the evidence interpretable.
 
-- 4 students per team, 1 drone, 3 runs per student = 12 total runs per team
-- Each run takes ~3 minutes (1 min flight + 2 min reset/swap)
-- 12 runs × 3 minutes = 36 minutes of flight time
-- Roles inside the team rotate per run: Pilot → Spotter → Logger → Coach
+If live hardware fails, the team continues immediately with the same scenario in the simulator or tabletop route and labels the route change in the log.
 
-After each run, the pilot reflects with their team for 30 seconds: "What worked? What will I do differently next time?" This is the iteration step, the heart of the EDP.
+## Activity 3: Individual Iteration and Transfer (8 min)
 
-**Active Monitoring:** walk a fixed pathway three times, one lap per run, each lap with a single target. Run 1 target is a clean takeoff inside the taped square. Run 2 target is the 5 second hover held over the checkpoint. Run 3 target is the inspection approach within 2 feet with no touch. Read the score sheets as you pass rather than watching the flight, and have the feedback ready for the two known errors: throttle pushed all the way up on takeoff, and a pilot steering left and right from their own view instead of the drone's. If more than a handful of teams miss the run 2 target, reproject the hover demonstration to the whole room instead of coaching it team by team.
+Students write in separate full-width areas:
 
-!!! tip "Facilitation Tip"
-    The improvement from Run 1 to Run 3 is the entire point. Even pilots who fail all 3 runs usually fail differently each time, that is iteration. Celebrate the difference, not the absolute success.
+1. the changed variable;
+2. evidence that performance improved, declined, or stayed mixed;
+3. the next test they would run; and
+4. how precision, communication, data interpretation, or iteration transfers to **two** occupations from Day 2.
 
-> [VERIFY] If any drone breaks or has battery issues mid-class, swap to a backup drone OR have the affected team move to flight simulator practice (apps like DJI Flight Simulator or Drone Sim Pro). Keep a 4th backup drone within reach.
+## Exit Ticket (5 min)
 
-**DOK 4:** Based on your performance data across 3 runs, what specific improvements would you recommend for your next attempt? What evidence from your runs supports each recommendation?
+**EXIT TICKET** (Trade-off / Dilemma Analysis) · [Printable PDF](../../resources/exit-tickets/4sw-wk4-day4-test-and-improve-an-inspection-system.pdf):
 
----
+A team can either make another fast run or pause to check why the target evidence is blurry.
 
-## Activity 3: Connect to Real UAS Inspection Careers (3 min)
+1. State one advantage of each choice.
+2. Choose the next action and cite one result from the run log.
+3. Name one transferable skill the decision uses and a second occupation that uses it.
 
-Briefly show 2-3 real-world UAS inspection job titles and what they pay (from BLS or DJI Education):
-- Drone Inspector. Solar farms ($45-65K)
-- Drone Inspector. Wind turbines ($55-75K)
-- Drone Pilot. Construction site survey ($50-70K)
-- UAS Operator. Pipeline inspection ($60-90K)
+*(d(1)(C), d(4)(B))*
 
-The exact same skills students used today (takeoff, hover, navigate, inspect, land) are billable hours in these careers.
+## Teacher Key and Monitoring
 
----
+- A strong revision changes one variable and uses the next result to judge its effect.
+- Usable evidence and boundary control outrank time.
+- Mixed results are valid when the student explains the tradeoff.
+- Transfer earns d(4)(B) only when the response connects the skill to at least two occupations or career contexts.
+- Stop live operation immediately for people entering the zone, unsafe battery/equipment condition, lost control/connection, or failure to follow the model-specific stop procedure.
 
-## Exit Ticket (4 min)
+## Supports and Equal Routes
 
-**EXIT TICKET** (Trade-off / Dilemma Analysis) · [Printable PDF](../../resources/exit-tickets/4sw-wk4-day4-drone-navigation-challenge.pdf):
-
-You are a wind-turbine drone inspector on a real job. You have TWO competing priorities:
-
-- **(A) Fly FAST** to finish the inspection in 20 minutes so the turbine can come back online.
-- **(B) Fly SLOWLY and CAREFULLY** to catch small damage a fast flight might miss.
-
-Pros of picking A: _______________________________________________________
-
-Pros of picking B: _______________________________________________________
-
-My choice (A or B): ________
-
-Quality list: patience / precision / speed / discipline / focus / reliability.
-
-Which quality matters MOST for THIS choice, and why is it the right one over the others? *(d(1)(C), d(4)(B))*
-
-   My quality: _______________________
-
-   Why: ____________________________________________________________
-
-How does my answer connect to what I improved between my 3 drone runs? One sentence:
-
-   ___________________________________________________________________
-
----
-
-## Differentiation
-
-- **Support:** Allow up to 5 attempts instead of 3 for students who need more practice. Reduce the course to 3 stations (takeoff, hover, landing) so the success path is shorter. Pair with a coach who has flown successfully.
-- **Extension:** Add a time pressure, pilot must complete the course in under 90 seconds. Or add a 6th station (a small target the drone must drop a paper ball onto, simulating a delivery payload).
-- **ELL:** The course is visually self-explanatory. Provide bilingual station labels: Despegue (Takeoff), Suspender (Hover), Puerta (Gate), Inspección (Inspection), Aterrizaje (Landing). Pair with a bilingual coach.
+- Use role cards with text and icons; no color-only distinctions.
+- A non-speaking role and private written/text/media response are equal.
+- Reduce the physical path, not the reasoning jobs.
+- An absent student uses the complete tabletop scenario and model run data.
+- No timed competition, payload drop, blindfolded coaching, outdoor flight, or extra attempts tied to a grade.

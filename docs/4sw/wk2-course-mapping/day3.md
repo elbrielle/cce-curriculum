@@ -1,112 +1,94 @@
-# Day 3: Family Engagement — Sharing the Plan
+# Day 3: College Credit and Plan Conversation
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Download or print the H&L Career Plan; personalize the bilingual Family Career Plan Letter; identify one college-credit opportunity (AP or dual credit) within the chosen pathway |
-| **TEKS** | d(3)(D), d(3)(B) |
-| **5E Phases** | Engage: Warm-Up · Explore: Career Plan download · Explain: Family Career Plan Letter · Extend: AP and dual-credit research · Evaluate: Exit Ticket |
-| **Deliverable** | Personalized bilingual Family Career Plan Letter with student signature, ready to take home for family review |
-| **Materials** | Chromebooks, H&L accounts, printed bilingual Family Career Plan Letter (1 per student), College For All Texans access, projector |
+| **Objectives** | Compare AP and dual credit using current sources, document one option and its limitation, and explain the developing plan through a family, trusted-adult, counselor, teacher, or private reflection route |
+| **TEKS** | d(3)(B), d(3)(D) |
+| **5E Phases** | Engage: Warm-Up · Explain: AP and dual-credit source comparison · Explore: Current option research · Extend: Plan conversation or private reflection · Evaluate: Exit Ticket |
+| **Deliverable** | Completed College Credit Options and Family Conversation packet |
+| **Materials** | Chromebooks, TEA AP and dual-credit pages, current Irving ISD coursebook, College Credit Options and Family Conversation packet, projector |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Have you talked to anyone in your family about what career you are interested in? What did they say, and if you have not talked to anyone yet, why not?**
+**WARM-UP: What is one question you would ask before choosing a course that says it may earn college credit?**
 
-Take 3-4 student responses honestly. Some students will say their families do not understand or do not have time. Validate this, and reframe today as their chance to start the conversation by bringing home something concrete.
-
----
-
-## Activity 1: Download the H&L Career Plan (12 min)
-
-**Source:** H&L App. Career Plan export feature
-
-> [H&L PLATFORM] Direct students to navigate to their H&L Career Plan and use the **download/export** feature to save their plan as a PDF or printout. Confirm with your H&L district admin which export option is enabled, most district setups support a PDF download from the Career Plan dashboard. If the app does not support direct export, students take screenshots of their Course Planner from Day 2, their Climber Profile (core personality type + favorites), and their pathway recommendations, then combine them into one document.
-
-Students complete one of three options based on what their account supports:
-1. **PDF download:** save to drive, then print or share with family
-2. **Screenshot bundle:** capture 3-4 key H&L pages and combine
-3. **Workbook backup:** hand-fill the planning tables on FYF pp. 294-296 ("Rung 7: High School Plan") and photocopy them
-
-By the end of this block, every student needs a physical copy or a digital file they can show at home tonight.
-
-!!! tip "Facilitation Tip"
-    Some students will not have a working printer at home. Print the PDF version in class today so it physically goes home in their backpack. Do not assume they will print it themselves.
+Collect questions about eligibility, cost, transfer, grades, workload, transportation, and the receiving college. Do not imply that one option is best for every student.
 
 ---
 
-## Activity 2: Personalize the Family Career Plan Letter (20 min)
+## Activity 1: AP and Dual Credit Are Different Routes (12 min)
 
-**Source:** Bilingual Family Career Plan Letter (provided by teacher)
+**Sources:** [TEA Advanced Placement](https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/advanced-placement) and [TEA Dual Credit](https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/dual-credit)
 
-Distribute the printed bilingual Family Career Plan Letter. The letter has two columns. English on the left, Spanish on the right, and includes blanks for the student to personalize. The structure:
+Students complete the source comparison on page 1 of the packet.
 
-- **Greeting:** "Dear family of _____,"
-- **Course context:** A 2-3 sentence description of what the CCE class has been doing this year
-- **Student personalization section:** Student writes
-    - Their core personality type
-    - Their top 3 favorited careers
-    - Their chosen pathway and the Irving ISD high school that offers it
-    - One thing they learned about themselves this year
-    - One question they want their family to help them think about
-- **Family invitation:** A request for the family to discuss the plan, sign the bottom of the letter, and (optionally) share their own reflection on the student's chosen direction
-- **Signature line for student and family member**
-- **Teacher contact info** for family questions
+- An AP course prepares students for an AP exam. A receiving college decides which score earns credit or placement and what that credit counts for.
+- Dual credit enrolls an eligible high school student in a college course paired with high school credit. Successful completion produces both high school and college credit.
+- AP and dual credit may have fees, eligibility rules, workload, transfer questions, and local availability. Do not promise that either route is free, automatic, or accepted everywhere.
+- The FAST program may make eligible dual-credit courses no-cost for eligible students at participating institutions. Eligibility and participation must be verified.
 
-Students fill in the personalization section in pen. The whole letter goes home with them. The expectation is that families return the signed bottom portion within one week, extra credit if returned by Friday.
-
-> [VERIFY] Confirm that the bilingual Family Career Plan Letter exists in your CCE materials folder. If not, the Texas Education Agency provides a sample family engagement letter on the Texas OnCourse parent resources page.
+**Think-Pair-Share:** Give students 30 seconds to choose one important difference. Partner A explains the AP side and Partner B explains the dual-credit side. Listen for the misconception that enrollment in an AP course automatically creates college credit. If it appears, return to the receiving-college policy row.
 
 ---
 
-## Activity 3: College For All Texans + Dual Credit (10 min)
+## Activity 2: Document One Current Option (15 min)
 
-**Source:** [collegeforalltexans.com](https://www.collegeforalltexans.com): Texas higher education resource hub
+Students use the current Irving ISD coursebook or a teacher-provided current option card. They document:
 
-Direct students to College For All Texans. Students search for their pathway and identify whether any AP or dual-credit course exists for it. The site lists:
-- Texas colleges and their programs
-- Dual credit partnerships with Texas school districts
-- Financial aid information
-- AP course offerings
+1. the exact course or program name;
+2. whether it is AP, dual credit, or another advanced option;
+3. grade level and prerequisite;
+4. what credit or placement may be earned;
+5. one eligibility, transfer, cost, or scheduling question; and
+6. source and access date.
 
-Each student writes on the back of their Family Letter:
-- **One AP course** that connects to my pathway (e.g., AP Computer Science Principles for IT, AP Biology for Health Science)
-- **One dual-credit possibility** at my Irving ISD high school (verify with counselor)
-- **The estimated college tuition savings** if I earn college credit in HS (rough estimate: $300-800 per AP course passed)
+Industry certifications remain valuable but are not labeled as college credit unless a current articulation or college agreement explicitly says so.
 
-This is the d(3)(B) coverage for the week. Students who finish early can browse College For All Texans for financial aid options.
-
-The workbook has a table built for exactly this. "Programs & Opportunities" (FYF p. 295: "Rung 7: High School Plan") lists internships, certifications, dual enrollment, and career-focused programs, and pairs each one with a "How This Can Help Me Reach My Goals" column. Students working from the workbook copy their AP and dual-credit finds straight into that table.
-
-**DOK 2:** How would you compare AP courses and dual credit courses? What are the advantages of each?
-
-**Think-Pair-Share:** 30 seconds of silent Think, then Partner A for 30 seconds and Partner B for 30 seconds, then two pairs share. Post two stems at different levels: "AP is better when _____, and dual credit is better when _____" and "Both save money because _____, but they are graded differently because _____." Listen for who can name what each option actually earns, an exam score versus college hours on a transcript, and pick the share-out pairs from what you heard.
+Open searching is not required. If the district page is blocked or difficult to navigate, use the teacher's dated source card and leave operational questions for counseling.
 
 ---
 
-## Exit Ticket (3 min)
+## Activity 3: Explain and Test the Plan (13 min)
 
-**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/4sw-wk2-day3-family-engagement-sharing-the-plan.pdf):
+Students use page 3 of the packet to prepare a two-minute explanation of their developing plan. They may choose one equal route:
 
-Tonight I bring home my Family Career Plan Letter. My family member asks: "How will this pathway lead to a real job?"
+- discuss with a family member outside class;
+- discuss with another trusted adult, counselor, or teacher;
+- rehearse privately with the written prompt; or
+- record a private audio response in Canvas.
 
-Step 1: What is the FIRST thing I say to answer the question? (One sentence.)
+The explanation includes:
 
-   ___________________________________________________________________
+- current career direction;
+- one possible course or pathway step;
+- one AP or dual-credit option;
+- one limitation or question; and
+- one part of the plan that may change after the conversation.
 
-Step 2: Branch on their response —
+A family signature is not a grade. Students do not share sensitive family information, and an adult's agreement with the career direction is not scored.
 
-   IF my family member is SUPPORTIVE and excited, what do I ask them for next? ___________________________________________________________________
+**DOK 3:** How can a question or disagreement improve a plan without giving another person control over the student's career choice?
 
-   IF my family member is UNSURE or says "that's not a real career," what ONE piece of evidence do I use to explain why it IS a real career? ___________________________________________________________________
+---
 
-Step 3: ONE AP or dual-credit course available in my pathway (from today's College For All Texans research):
+## Exit Ticket (5 min)
 
-   ___________________________________________________________________
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/4sw-wk2-day3-college-credit-and-plan-conversation.pdf):
+
+Add one accurate fact to each row.
+
+| Evidence job | AP | Dual credit |
+|---|---|---|
+| How college credit may be earned | | |
+| Where the student checks the policy or requirement | | |
+| One limitation or question | | |
+
+Bottom line: Write one question you must verify before using either option in your four-year plan.
 
 *(d(3)(B), d(3)(D))*
 
@@ -114,6 +96,6 @@ Step 3: ONE AP or dual-credit course available in my pathway (from today's Colle
 
 ## Differentiation
 
-- **Support:** Pre-filled Family Letter with the student's core personality type and top pathway already filled in by the teacher (using Day 1-2 data). Student only personalizes the open-response section.
-- **Extension:** Write a second letter to a counselor or advisor at the high school the student plans to attend. Ask one specific question about the pathway (course availability, application process, etc.).
-- **ELL:** The bilingual letter format itself supports families whose primary language is Spanish. For students from other language backgrounds, work with the district translation office for additional language versions. Pre-teach: Family = Familia, Plan = Plan, Pathway = Trayectoria, Counselor = Consejero.
+- **Support:** Provide a completed model comparison using a fictional student and a word bank: exam score, college course, receiving policy, eligibility, transcript, transfer, cost.
+- **Extension:** Compare how two receiving colleges treat the same AP score or dual-credit course.
+- **ELL:** Students may rehearse with the frames "AP may help when..." and "Dual credit may help when..." before writing. The trusted-adult or private route remains equal.

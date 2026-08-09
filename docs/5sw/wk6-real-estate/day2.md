@@ -1,118 +1,65 @@
-# Day 2: TREC Licensing + Commission Math
+# Day 2: TREC Sales Agent Route and Variable-Income Math
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Research TREC Sales Agent licensing requirements step by step; calculate commissions at various home prices and sales volumes; compare commission income to a salary equivalent |
 | **TEKS** | d(2)(A) |
-| **5E Phases** | Engage: Warm-Up · Explore: TREC licensing research · Explain: Modeled commission calculation · Explore: Commission and salary worksheet · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Commission vs. Salary Comparison worksheet (math + reflection) |
-| **Materials** | Chromebooks, TREC website ([trec.texas.gov](https://www.trec.texas.gov)), printed TREC Licensing Requirements handout, printed Commission vs. Salary Comparison worksheet, calculator, projector |
+| **Deliverable** | Current TREC sequence and three fictional compensation scenarios |
+| **Materials** | Fixed TREC/commission packet, calculators, Canvas annotation activity |
 
----
+## Safety and Accuracy Boundary
 
-## Warm-Up (5 min)
+Students do not create a REALM account, apply, submit personal information, schedule fingerprints, or contact a broker. Commission terms are negotiable and divided among parties according to agreements. Classroom percentages and splits are fictional math conditions—not “typical” or guaranteed earnings.
 
-**WARM-UP: If you earned 3% of every sale you made, and you sold a $300,000 house, how much would you earn from that one sale? Work it out without a calculator first, then check.**
+## 50-Minute Flow
 
-Quick share. Correct answer: $9,000. This is the "wow moment" of the week, one sale is a big check. Bridge: the catch is that agents do not make a sale every week. Today you'll learn what the actual math looks like over a year.
+### 1. Warm-Up — Gross Is Not Take-Home (5 min)
 
----
+Ask: if a transaction creates $8,000 in gross brokerage revenue, what information is still missing before we know one worker's take-home pay? Look for split/agreements, business expenses, taxes, timing, and whether the transaction closes.
 
-## Activity 1: TREC Licensing Research (18 min)
+### 2. Current TREC Sequence (15 min)
 
-**Source:** [trec.texas.gov](https://www.trec.texas.gov)
+Students put the current route in order:
 
-Direct students to the TREC website. Project the home page and walk through the navigation: Education → Sales Agent Licensing → Requirements.
+1. Meet qualifications, including age 18+.
+2. Complete 180 classroom hours: Principles I, Principles II, Law of Agency, Law of Contracts, Promulgated Contract Forms, and Real Estate Finance.
+3. Submit the application and education documents.
+4. Complete fingerprint/background requirements.
+5. Pass the state and national exam portions.
+6. Receive inactive status after requirements are met.
+7. Obtain licensed-broker sponsorship to move to active status and practice.
 
-Students fill in the TREC Licensing Requirements handout as they read the TREC website:
+Students label every cost, provider, processing time, eligibility detail, and future rule as **verify when applying** rather than memorizing a stale estimate.
 
-| Requirement | Details |
-|-------------|---------|
-| Minimum age | 18 |
-| Citizenship / residency | U.S. citizen or lawfully admitted alien |
-| Education requirement | 180 hours of pre-licensing coursework across 6 required subjects |
-| The 6 required courses | Principles of Real Estate I & II, Law of Agency, Law of Contracts, Promulgated Contract Forms, Real Estate Finance |
-| Background check | Fingerprinting + criminal history check |
-| Sponsoring broker | Must have a licensed broker sponsor to activate your license |
-| Exam | Texas Real Estate Sales Agent Exam (state + national sections) |
-| Cost (approximate) | $200-600 for coursework + $50-150 exam fees + fingerprinting |
+### 3. Model One Fictional Agreement (10 min)
 
-**Irving ISD connection:** MacArthur High School offers **Real Estate Marketing** inside its School of Business and Entrepreneurship. The workbook's district pages describe the district's Real Estate program of study as property valuation, contracts, and business communication built on real estate principles and ethics, and they note that students in it have worked alongside real estate professionals to learn property evaluation, contract law, and the local housing market (FYF pp. 252-253: "What is Happening at My District?").
+Use a $350,000 sale, a fictional 2.5% brokerage-side commission, and a fictional 60% agent split:
 
-!!! tip "Facilitation Tip"
-    Students often ask "Can I become an agent at 16?" The answer is no. TREC requires a minimum age of 18 to sit for the Sales Agent exam. But students can start building real estate knowledge and coursework in the MacArthur Real Estate Marketing pathway so they are ready when they turn 18.
+- $350,000 × 0.025 = $8,750 gross brokerage-side commission.
+- $8,750 × 0.60 = $5,250 fictional agent gross before taxes and business expenses.
 
----
+The numbers are intentionally labeled fictional. They demonstrate order of operations, not a market standard.
 
-## Activity 2: Commission Calculation Activity (20 min)
+### 4. Three Scenarios and Salary Comparison (15 min)
 
-**Source:** Commission vs. Salary Comparison worksheet
+Students calculate three supplied sale/percentage/split cases, then compare variable timing with a fixed fictional monthly salary. They identify:
 
-Project the worksheet and walk through the calculation method with one example. Use $350,000 home × 3% commission = **$10,500 per sale**. Note that the commission is usually split between the buyer's agent and the seller's agent, so the agent's actual take-home is often **half:** $5,250.
+- gross transaction amount;
+- gross amount after the supplied split;
+- one expense/tax/timing fact still missing;
+- one benefit and one risk of variable income;
+- one reason a person might prefer predictable pay.
 
-**Chunking:** Release the worksheet one section at a time and check before moving on. Section 1 is per-sale math, Section 2 is annual income at three sales volumes, Section 3 is the comparison to a salaried role, and Section 4 is the written reflection. The check between Sections 1 and 2 is the one that matters most: if the multiply-then-split order is shaky, Section 2 multiplies the error by twenty.
+### 5. Exit Check (5 min)
 
-Students complete the worksheet by calculating:
+Put three TREC steps in order, calculate one fictional scenario, and explain why the result is not guaranteed take-home pay.
 
-### Section 1: Commission per Sale
-| Home Price | Commission (3%) | Agent Take-Home (50% split) |
-|-----------|-----------------|-----------------------------|
-| $200,000 | $6,000 | $3,000 |
-| $350,000 | $10,500 | $5,250 |
-| $500,000 | $15,000 | $7,500 |
-| $750,000 | $22,500 | $11,250 |
+## Monitoring Key
 
-### Section 2: Annual Income Based on Sales Volume
-| Sales per year | Avg home price | Total gross commission | Estimated take-home |
-|----------------|-----------------|--------------------------|-----------------------|
-| 6 | $350,000 | $63,000 | $31,500 |
-| 12 | $350,000 | $126,000 | $63,000 |
-| 20 | $350,000 | $210,000 | $105,000 |
+Full-credit work labels all percentages and splits as supplied fictional terms, shows multiplication in order, and names at least one missing cost/tax/timing factor. Preference is not scored.
 
-### Section 3: Comparison to Salary-Based Role
-A Property Manager in DFW earns a fixed $70,000/year regardless of transaction volume. Which real estate role pays more if you sell 6 houses per year? 12? 20?
+## Support and Fallback
 
-### Section 4: Reflection
-Students answer: *"What are the risks of commission-based income? What are the rewards? Would you prefer commission or salary? Explain your choice."*
-
-!!! tip "Frame both answers as valid"
-    Before students write, name out loud that neither choice is "better", it depends on the person's financial security, family situation, and tolerance for variability. Commission is not the "right" answer for entrepreneurial students, and salary is not the "safe" answer for cautious ones. Students whose families need predictable income should not feel judged for preferring salary; students drawn to variable earnings should not feel pushed to commit.
-
-**DOK 3:** What conclusions can you draw about the financial risks and rewards of commission-based income? What kind of person is best suited for this income model?
-
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/5sw-wk6-day2-trec-licensing-commission-math.pdf):
-
-1. MATH: How many homes at $300,000 would I need to sell PER YEAR to earn $60,000 in GROSS commissions at 3%? Show my work.
-
-   My calculation: $60,000 ÷ ($300,000 × 0.03) = $60,000 ÷ $_______________________
-
-   Answer: about _______________________ homes per year
-
-2. Name TWO of the 6 TREC Sales Agent course requirements (Principles I & II / Law of Agency / Law of Contracts / Promulgated Contract Forms / Real Estate Finance):
-
-   - Course 1: _______________________
-
-   - Course 2: _______________________
-
-3. MINIMUM AGE to sit for the TREC Sales Agent exam: _______________________
-
-4. Do I prefer COMMISSION or SALARY for MY future income? Why in one sentence? *(d(2)(A))*
-
-   My pick: _______________________
-
-   Why: ____________________________________________________________
-
----
-
-## Differentiation
-
-- **Support:** Provide a commission calculation example with every step worked out ($250,000 × 0.03 = $7,500). Students replicate the formula for different home prices.
-- **Extension:** Research TREC Broker licensing (the advanced license): what additional requirements exist beyond Sales Agent? How long does it take to qualify?
-- **ELL:** Bilingual TREC Licensing handout. Commission math is number-based and language-accessible. Pre-teach: Commission = Comisión, License = Licencia, Sale = Venta.
+Provide a formula strip, calculator, read-aloud, typed response, or paper. The packet contains all required current facts and scenarios; no live TREC navigation is required.
