@@ -748,3 +748,10 @@ This log records the official Canvas build without storing access credentials or
 - Reclassified a separate slide deck for every week as optional projection support rather than a duplicate required deliverable. Native Canvas pages carry the stable directions; licensed Climber Notes and Xello media are embedded only where they remove a real barrier.
 - Replaced the stale list of "missing" position-paper, planning, trades, budget, résumé, interview, and capstone packets with the completed production sets. The universal student supplement is intentionally replaced by just-in-time Canvas/print routes.
 - Marked the August 5 Day-1 readiness backlog as a historical baseline. Future agents must check the live status ledger, assessment map, build log, and filesystem before reopening an old missing-resource claim.
+
+## 2026-08-08 - course orientation package
+
+- Added an unpublished course-level orientation package so the quality of the daily guides does not depend on teachers or students already understanding the project. The package contains `TEACHER: CCE Course Launch Guide` in the existing unpublished Teacher Build module and a first-position `START HERE: CCE Course Orientation` module containing `STUDENT: Start Here - How CCE Works`.
+- The teacher launch dashboard covers Modules-first navigation, the 40/60 three-minor/two-major boundary, Xello versus supplemental-platform roles, equipment/readiness checks, the publication sequence, Student View, equal fallbacks, currently visible optional integrations, and a short classroom-feedback record.
+- The student page covers the one-route daily grammar, evidence/submission choices, private-information boundaries, absence/platform recovery, completion check, and recurring vocabulary. Required directions remain visible; only the glossary is disclosed.
+- The bulk importer now builds orientation before the 17 remaining weeks. The read-only coursewide verifier requires the student orientation module first and unpublished, the Teacher Build module unpublished, both pages present/unpublished, the teacher-to-student link, the required scan labels, and no legacy tabs or unresolved fields.

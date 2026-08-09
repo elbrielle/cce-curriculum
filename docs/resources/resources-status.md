@@ -100,7 +100,7 @@ The paired Canvas packages and printable evidence sets now cover the core instru
 
 ### 🟡 Canvas Lesson Packages: Teacher Guide + Student Guide
 
-**Status:** 🟡 All 36 paired packages are authored. The unpublished live course is populated and verified through 4SW Wk1; 4SW Wk2-6SW Wk6 remain queued for the credentialed batch import and live QA gate.
+**Status:** 🟡 All 36 paired packages and the course-level Teacher/Student orientation pair are authored. The unpublished live course is populated and verified through 4SW Wk1; the orientation plus 4SW Wk2-6SW Wk6 remain queued for the credentialed batch import and live QA gate.
 
 Every lesson needs two coordinated Canvas surfaces:
 

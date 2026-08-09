@@ -16,23 +16,27 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 CANVAS_DIR = Path(__file__).resolve().parent
+ORIENTATION_IMPORTER = CANVAS_DIR / "build_course_orientation.py"
 IMPORTERS = [
     *(CANVAS_DIR / f"build_4sw_wk{week}.py" for week in range(2, 7)),
     *(CANVAS_DIR / f"build_5sw_wk{week}.py" for week in range(1, 7)),
     *(CANVAS_DIR / f"build_6sw_wk{week}.py" for week in range(1, 7)),
 ]
+ALL_IMPORTERS = [ORIENTATION_IMPORTER, *IMPORTERS]
 QA_SCRIPT = CANVAS_DIR / "qa_remaining_unpublished.py"
 
 
 def preflight() -> int:
     errors: list[str] = []
-    missing = [str(path.relative_to(ROOT)) for path in IMPORTERS if not path.is_file()]
+    missing = [
+        str(path.relative_to(ROOT)) for path in ALL_IMPORTERS if not path.is_file()
+    ]
     if not QA_SCRIPT.is_file():
         missing.append(str(QA_SCRIPT.relative_to(ROOT)))
     if missing:
         errors.append("Missing importer(s): " + ", ".join(missing))
 
-    for importer in IMPORTERS:
+    for importer in ALL_IMPORTERS:
         if not importer.is_file():
             continue
         try:
@@ -61,7 +65,7 @@ def preflight() -> int:
         r"""["']([^"']+\.(?:pdf|png|jpe?g|html))["']""", re.IGNORECASE
     )
     named_dependencies: set[str] = set()
-    for importer in IMPORTERS:
+    for importer in ALL_IMPORTERS:
         if not importer.is_file():
             continue
         for reference in dependency_pattern.findall(importer.read_text()):
@@ -128,7 +132,7 @@ def preflight() -> int:
                 f"{template.relative_to(ROOT)}: every disclosure must have one summary"
             )
 
-    html_sources = [*IMPORTERS, *student_templates, *teacher_templates]
+    html_sources = [*ALL_IMPORTERS, *student_templates, *teacher_templates]
     literal_images = 0
     for source in html_sources:
         for image_tag in re.findall(
@@ -147,7 +151,7 @@ def preflight() -> int:
         return 2
 
     print(
-        f"Preflight passed: {len(IMPORTERS)} builders compile and "
+        f"Preflight passed: course orientation and {len(IMPORTERS)} week builders compile; "
         f"{len(student_templates)} teacher/student template pairs meet the accessibility contract; "
         f"{len(named_dependencies)} named local dependencies resolve; "
         f"{literal_images} literal image renderers include alt text."
@@ -190,6 +194,33 @@ def main() -> int:
     if not token:
         print("Canvas token required on stdin", file=sys.stderr)
         return 2
+
+    print("[START] COURSE ORIENTATION", flush=True)
+    orientation = subprocess.run(
+        [sys.executable, str(ORIENTATION_IMPORTER)],
+        cwd=ROOT,
+        input=token + "\n",
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    if orientation.returncode:
+        print(redact(orientation.stderr or orientation.stdout, token), file=sys.stderr)
+        print(
+            "Stopped at course orientation; week modules were not attempted.",
+            file=sys.stderr,
+        )
+        return orientation.returncode
+    try:
+        orientation_payload = json.loads(orientation.stdout)
+    except json.JSONDecodeError:
+        print(redact(orientation.stdout[-4000:], token), file=sys.stderr)
+        print(
+            "Stopped at course orientation; builder output was not valid JSON.",
+            file=sys.stderr,
+        )
+        return 3
+    print("  " + summarize(orientation_payload), flush=True)
 
     total = len(IMPORTERS)
     for index, importer in enumerate(IMPORTERS, start=1):
@@ -247,6 +278,7 @@ def main() -> int:
         return 3
     print(
         "QA passed: "
+        f"orientation={qa.get('orientation', {}).get('passed')} "
         f"modules={qa.get('passed_modules')}/{qa.get('expected_modules')} "
         f"items={qa.get('items')} pages={qa.get('pages')} "
         f"interactions={qa.get('interactions')} "
@@ -254,7 +286,7 @@ def main() -> int:
         flush=True,
     )
     print(
-        f"Imported and verified {total} unpublished module packages. "
+        f"Imported and verified the course orientation plus {total} unpublished week packages. "
         "Run signed-in browser and Student View QA before publishing anything."
     )
     return 0

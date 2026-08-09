@@ -24,6 +24,10 @@ BUILDERS = [
     *(CANVAS_DIR / f"build_5sw_wk{week}.py" for week in range(1, 7)),
     *(CANVAS_DIR / f"build_6sw_wk{week}.py" for week in range(1, 7)),
 ]
+ORIENTATION_MODULE = "START HERE: CCE Course Orientation"
+TEACHER_MODULE = "Teacher Build: Licensed Resources"
+TEACHER_TITLE = "TEACHER: CCE Course Launch Guide"
+STUDENT_TITLE = "STUDENT: Start Here - How CCE Works"
 
 
 class BodyAudit(HTMLParser):
@@ -293,12 +297,137 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
     }
 
 
+async def audit_orientation(client: httpx.AsyncClient, modules: list[dict]) -> dict:
+    problems: list[str] = []
+    orientation_matches = [
+        module for module in modules if module.get("name") == ORIENTATION_MODULE
+    ]
+    teacher_matches = [
+        module for module in modules if module.get("name") == TEACHER_MODULE
+    ]
+    if len(orientation_matches) != 1:
+        problems.append(
+            f"expected one orientation module; found {len(orientation_matches)}"
+        )
+    if len(teacher_matches) != 1:
+        problems.append(
+            f"expected one teacher-build module; found {len(teacher_matches)}"
+        )
+    if problems:
+        return {"problems": problems, "passed": False}
+
+    orientation = orientation_matches[0]
+    teacher_module = teacher_matches[0]
+    if orientation.get("published"):
+        problems.append("orientation module is published")
+    if teacher_module.get("published"):
+        problems.append("teacher-build module is published")
+    if orientation.get("position") != 1:
+        problems.append(
+            f"orientation module is not first: position={orientation.get('position')}"
+        )
+
+    orientation_items = await paged(
+        client, f"/courses/{COURSE_ID}/modules/{orientation['id']}/items"
+    )
+    teacher_items = await paged(
+        client, f"/courses/{COURSE_ID}/modules/{teacher_module['id']}/items"
+    )
+    student_items = [
+        item
+        for item in orientation_items
+        if item.get("type") == "Page" and item.get("title") == STUDENT_TITLE
+    ]
+    launch_items = [
+        item
+        for item in teacher_items
+        if item.get("type") == "Page" and item.get("title") == TEACHER_TITLE
+    ]
+    if len(student_items) != 1:
+        problems.append(
+            f"expected one student orientation page item; found {len(student_items)}"
+        )
+    if len(launch_items) != 1:
+        problems.append(
+            f"expected one teacher launch page item; found {len(launch_items)}"
+        )
+    if len(orientation_items) != 1:
+        problems.append(
+            f"orientation module should contain one page; found {len(orientation_items)} items"
+        )
+    for item in [*orientation_items, *launch_items]:
+        if item.get("published"):
+            problems.append(
+                f"orientation item is published: {item.get('id')} {item.get('title')}"
+            )
+
+    student_page = None
+    teacher_page = None
+    if student_items:
+        student_page = await api(
+            client, f"/courses/{COURSE_ID}/pages/{student_items[0]['page_url']}"
+        )
+    if launch_items:
+        teacher_page = await api(
+            client, f"/courses/{COURSE_ID}/pages/{launch_items[0]['page_url']}"
+        )
+
+    parsed: dict[str, BodyAudit] = {}
+    for role, page, labels in (
+        (
+            "student",
+            student_page,
+            ("today you will", "exit check", "you are done when", "absent"),
+        ),
+        (
+            "teacher",
+            teacher_page,
+            (
+                "before the course opens",
+                "publication sequence",
+                "when the planned route fails",
+            ),
+        ),
+    ):
+        if not page:
+            continue
+        if page.get("published"):
+            problems.append(f"{role} orientation page is published")
+        body = page.get("body") or ""
+        parser = BodyAudit()
+        parser.feed(body)
+        parsed[role] = parser
+        visible_text = " ".join(parser.text).lower()
+        for label in labels:
+            if label not in visible_text:
+                problems.append(f"{role} orientation page missing '{label}'")
+        if re.search(r"\{\{[^}]+\}\}", body):
+            problems.append(f"{role} orientation page has unresolved fields")
+        if "enhanceable_content" in body:
+            problems.append(f"{role} orientation page uses legacy Canvas tabs")
+
+    if student_page and teacher_page:
+        student_url = str(student_page.get("url"))
+        if not any(student_url in href for href in parsed["teacher"].links):
+            problems.append("teacher launch page does not link to student orientation")
+
+    return {
+        "module_id": orientation.get("id"),
+        "teacher_module_id": teacher_module.get("id"),
+        "student_page": student_page.get("url") if student_page else None,
+        "teacher_page": teacher_page.get("url") if teacher_page else None,
+        "problems": problems,
+        "passed": not problems,
+    }
+
+
 async def run(token: str) -> int:
     names = expected_modules()
     async with httpx.AsyncClient(
         headers={"Authorization": f"Bearer {token}"}, timeout=90
     ) as client:
         modules = await paged(client, f"/courses/{COURSE_ID}/modules")
+        orientation_result = await audit_orientation(client, modules)
         global_problems: list[str] = []
         selected: list[dict] = []
         for name in names:
@@ -331,8 +460,10 @@ async def run(token: str) -> int:
             "interactions": sum(result["interactions"] for result in results),
             "referenced_files": sum(result["files"] for result in results),
             "global_problems": global_problems,
+            "orientation": orientation_result,
             "modules": results,
-            "passed": not global_problems
+            "passed": orientation_result["passed"]
+            and not global_problems
             and all(result["passed"] for result in results),
         }
         print(json.dumps(summary, indent=2))
