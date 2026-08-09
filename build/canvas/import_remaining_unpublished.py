@@ -43,6 +43,16 @@ def preflight() -> int:
         for prefix in ("4sw-", "5sw-", "6sw-")
         for path in template_dir.glob(f"{prefix}*-student.html")
     )
+    teacher_templates = sorted(
+        path
+        for prefix in ("4sw-", "5sw-", "6sw-")
+        for path in template_dir.glob(f"{prefix}*-teacher.html")
+    )
+    if len(student_templates) != 18 or len(teacher_templates) != 18:
+        errors.append(
+            "Expected 18 coordinated student and teacher templates; found "
+            f"{len(student_templates)} student and {len(teacher_templates)} teacher"
+        )
     expected_headings = (
         '<h3 style="margin:0 0 8px;font-size:20px">Today you will</h3>',
         '<h3 style="margin:0 0 8px;font-size:20px">Exit check</h3>',
@@ -62,6 +72,21 @@ def preflight() -> int:
                 f"{template.relative_to(ROOT)}: every disclosure must have one summary"
             )
 
+    teacher_headings = ("Before class", "50-minute flow")
+    for template in teacher_templates:
+        text = template.read_text()
+        for heading in teacher_headings:
+            if heading not in text:
+                errors.append(
+                    f"{template.relative_to(ROOT)}: missing teacher scan heading {heading}"
+                )
+        if "enhanceable_content" in text:
+            errors.append(f"{template.relative_to(ROOT)}: legacy Canvas tabs are not allowed")
+        if text.count("<details") != text.count("<summary"):
+            errors.append(
+                f"{template.relative_to(ROOT)}: every disclosure must have one summary"
+            )
+
     if errors:
         print("Preflight failed:", file=sys.stderr)
         for error in errors:
@@ -70,7 +95,7 @@ def preflight() -> int:
 
     print(
         f"Preflight passed: {len(IMPORTERS)} builders compile and "
-        f"{len(student_templates)} student templates meet the accessibility contract."
+        f"{len(student_templates)} teacher/student template pairs meet the accessibility contract."
     )
     return 0
 
