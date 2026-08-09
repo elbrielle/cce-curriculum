@@ -14,7 +14,6 @@ import subprocess
 import sys
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[2]
 CANVAS_DIR = Path(__file__).resolve().parent
 IMPORTERS = [
@@ -22,11 +21,14 @@ IMPORTERS = [
     *(CANVAS_DIR / f"build_5sw_wk{week}.py" for week in range(1, 7)),
     *(CANVAS_DIR / f"build_6sw_wk{week}.py" for week in range(1, 7)),
 ]
+QA_SCRIPT = CANVAS_DIR / "qa_remaining_unpublished.py"
 
 
 def preflight() -> int:
     errors: list[str] = []
     missing = [str(path.relative_to(ROOT)) for path in IMPORTERS if not path.is_file()]
+    if not QA_SCRIPT.is_file():
+        missing.append(str(QA_SCRIPT.relative_to(ROOT)))
     if missing:
         errors.append("Missing importer(s): " + ", ".join(missing))
 
@@ -37,6 +39,11 @@ def preflight() -> int:
             py_compile.compile(str(importer), doraise=True)
         except py_compile.PyCompileError as exc:
             errors.append(f"{importer.relative_to(ROOT)}: {exc.msg}")
+    if QA_SCRIPT.is_file():
+        try:
+            py_compile.compile(str(QA_SCRIPT), doraise=True)
+        except py_compile.PyCompileError as exc:
+            errors.append(f"{QA_SCRIPT.relative_to(ROOT)}: {exc.msg}")
 
     dependency_roots = (
         ROOT / "docs/resources/worksheets",
@@ -51,7 +58,7 @@ def preflight() -> int:
         if path.is_file()
     }
     dependency_pattern = re.compile(
-        r'''["']([^"']+\.(?:pdf|png|jpe?g|html))["']''', re.IGNORECASE
+        r"""["']([^"']+\.(?:pdf|png|jpe?g|html))["']""", re.IGNORECASE
     )
     named_dependencies: set[str] = set()
     for importer in IMPORTERS:
@@ -96,7 +103,9 @@ def preflight() -> int:
                     f"{template.relative_to(ROOT)}: missing semantic callout heading {heading}"
                 )
         if "enhanceable_content" in text:
-            errors.append(f"{template.relative_to(ROOT)}: legacy Canvas tabs are not allowed")
+            errors.append(
+                f"{template.relative_to(ROOT)}: legacy Canvas tabs are not allowed"
+            )
         if text.count("<details") != text.count("<summary"):
             errors.append(
                 f"{template.relative_to(ROOT)}: every disclosure must have one summary"
@@ -111,7 +120,9 @@ def preflight() -> int:
                     f"{template.relative_to(ROOT)}: missing teacher scan heading {heading}"
                 )
         if "enhanceable_content" in text:
-            errors.append(f"{template.relative_to(ROOT)}: legacy Canvas tabs are not allowed")
+            errors.append(
+                f"{template.relative_to(ROOT)}: legacy Canvas tabs are not allowed"
+            )
         if text.count("<details") != text.count("<summary"):
             errors.append(
                 f"{template.relative_to(ROOT)}: every disclosure must have one summary"
@@ -153,7 +164,9 @@ def summarize(payload: object) -> str:
         return "completed; builder returned non-object JSON"
     module = payload.get("module", {})
     module_id = module.get("id", "unknown") if isinstance(module, dict) else "unknown"
-    published = module.get("published", "unknown") if isinstance(module, dict) else "unknown"
+    published = (
+        module.get("published", "unknown") if isinstance(module, dict) else "unknown"
+    )
     items = payload.get("items", [])
     pages = payload.get("pages", {})
     interactions = payload.get("interactions", payload.get("assignments", {}))
@@ -192,17 +205,58 @@ def main() -> int:
         )
         if result.returncode:
             print(redact(result.stderr or result.stdout, token), file=sys.stderr)
-            print(f"Stopped at {label}; later modules were not attempted.", file=sys.stderr)
+            print(
+                f"Stopped at {label}; later modules were not attempted.",
+                file=sys.stderr,
+            )
             return result.returncode
         try:
             payload = json.loads(result.stdout)
         except json.JSONDecodeError:
             print(redact(result.stdout[-4000:], token), file=sys.stderr)
-            print(f"Stopped at {label}; builder output was not valid JSON.", file=sys.stderr)
+            print(
+                f"Stopped at {label}; builder output was not valid JSON.",
+                file=sys.stderr,
+            )
             return 3
         print("  " + summarize(payload), flush=True)
 
-    print(f"Imported {total} module packages. Run API/browser QA before publishing anything.")
+    print("Running read-only coursewide Canvas QA...", flush=True)
+    verification = subprocess.run(
+        [sys.executable, str(QA_SCRIPT)],
+        cwd=ROOT,
+        input=token + "\n",
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    if verification.returncode:
+        print(
+            redact(verification.stderr or verification.stdout, token), file=sys.stderr
+        )
+        print(
+            "All builders ran, but coursewide QA failed. Nothing was published.",
+            file=sys.stderr,
+        )
+        return verification.returncode
+    try:
+        qa = json.loads(verification.stdout)
+    except json.JSONDecodeError:
+        print(redact(verification.stdout[-4000:], token), file=sys.stderr)
+        print("Coursewide QA output was not valid JSON.", file=sys.stderr)
+        return 3
+    print(
+        "QA passed: "
+        f"modules={qa.get('passed_modules')}/{qa.get('expected_modules')} "
+        f"items={qa.get('items')} pages={qa.get('pages')} "
+        f"interactions={qa.get('interactions')} "
+        f"referenced_files={qa.get('referenced_files')}",
+        flush=True,
+    )
+    print(
+        f"Imported and verified {total} unpublished module packages. "
+        "Run signed-in browser and Student View QA before publishing anything."
+    )
     return 0
 
 

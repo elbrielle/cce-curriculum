@@ -200,7 +200,7 @@ Run Canvas importers through `uv run --with httpx`; a bare `python` invocation i
 
 Do not print, log, commit, or repeat the token.
 
-For the repaired 4SW-6SW sequence, `build/canvas/import_remaining_unpublished.py` may run all 17 remaining week builders with one token entered through standard input. It excludes 4SW Wk1 because that module is already present. The orchestrator stops on the first failed builder, does not attempt later modules after a failure, and prints only a concise module/item summary. It never accepts the token as a command-line argument or writes it to disk.
+For the repaired 4SW-6SW sequence, `build/canvas/import_remaining_unpublished.py` may run all 17 remaining week builders with one token entered through standard input. It excludes 4SW Wk1 because that module is already present. The orchestrator stops on the first failed builder, does not attempt later modules after a failure, and prints only a concise module/item summary. After all builders run, it automatically launches the read-only `qa_remaining_unpublished.py` coursewide verifier with the same in-memory token. It reports success only when all 17 exact module names exist once, every module remains unpublished, Day 1-5 headers and teacher/student pairs are complete, teacher pages link to their matching student pages, practice interactions and referenced files resolve, image alt text is present, and referenced file folders remain locked. It never accepts the token as a command-line argument or writes it to disk.
 
 Run its credential-free preflight before requesting the token:
 
@@ -208,7 +208,7 @@ Run its credential-free preflight before requesting the token:
 python3 build/canvas/import_remaining_unpublished.py --preflight
 ```
 
-The preflight compiles all 17 builders, checks all 18 coordinated 4SW-6SW teacher/student template pairs for the approved scan headings, semantic student callouts, disclosure summaries, and absence of legacy Canvas tabs, verifies that every literal image renderer includes an `alt` attribute, and resolves every statically named local PDF, image, and HTML dependency. A failed preflight makes no Canvas request.
+The preflight compiles all 17 builders and the coursewide verifier, checks all 18 coordinated 4SW-6SW teacher/student template pairs for the approved scan headings, semantic student callouts, disclosure summaries, and absence of legacy Canvas tabs, verifies that every literal image renderer includes an `alt` attribute, and resolves every statically named local PDF, image, and HTML dependency. A failed preflight makes no Canvas request.
 
 Run the external-source link check during a production pass and before publication:
 
