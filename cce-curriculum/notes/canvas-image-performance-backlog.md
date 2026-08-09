@@ -169,6 +169,17 @@ Do not batch-compress screenshots containing small directions, labels, charts, o
 - The reference PDF has six front-matter pages before the printed numbering. Delivery extraction used physical PDF index = printed page + 6, and visual checks confirmed printed pp. 241, 244, and 299 before recording the set.
 - Native Canvas text and accessible CCE packets contain every required prompt and labor figure. After import, verify Day 3 at 390 pixels; current page weights do not justify further compression unless the signed-in cold-load check shows a real delay.
 
+### 6SW Week 5 pre-upload baseline
+
+- The core Job Search, Applications, and Interviews pages use no licensed raster images. Student directions, the fictional Pecan Creek case, models, practice evidence, and response jobs are native Canvas text or accessible CCE packets.
+- Do not add decorative screenshots merely for visual variety. Post-import performance QA should focus on the downloadable packet sizes, assignment launch flow, and whether the private media/text/upload routes remain clear at 390 pixels.
+
+### 6SW Week 6 pre-upload baseline
+
+- Eight locked FYF orientation pages are 112-241 KB each at 1,020 by 1,320 pixels. Day 1 is about 451 KB across two images, Day 3 about 414 KB across two, Day 4 about 174 KB, and Day 5 about 394 KB across three.
+- The images orient students to the workbook capstone and reflection prompts, but every required evidence job also appears in native Canvas text or the accessible CCE packets. The final Major does not depend on reading a screenshot.
+- After import, cold-load Days 1 and 5 and verify the Day 3 format choices and Day 5 reflection prompts at 390 pixels. No individual image or combined page weight currently justifies further compression unless signed-in classroom testing shows a real delay.
+
 ## Later audit queue
 
 - User observation on 2026-08-08: several images in the first six weeks appeared to load slowly during signed-in Canvas review. Treat this as the first performance sample, even where individual files appear modest in size.
