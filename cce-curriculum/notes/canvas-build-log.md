@@ -707,3 +707,4 @@ This log records the official Canvas build without storing access credentials or
 - 6SW now exposes Wk1/Wk2/Wk3 as Minor 1/2/3, Wk4 as formative oral rehearsal, Wk5 as Major 1, and Wk6 Day 4 as Major 2.
 - All imported interactions remain unpublished and ungraded; the labels establish instructional intent but do not bypass live assignment-group, weight, rubric, or student-view verification.
 - Validation uses `uv run --with httpx` because the system Python can compile the builders but cannot import them without the Canvas runtime dependency. Compile, rendered-content label checks, and `git diff --check` pass.
+- Import preflight checked all 17 builder files and all 102 named worksheet PDFs. It caught and repaired the 5SW Wk6 licensed-visual path so the three FYF images resolve from `canvas-licensed/5sw/wk6/day3/` before any live API mutation.
