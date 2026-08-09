@@ -224,7 +224,7 @@ async def main():
         reflection = await common.upsert_assignment(
             client,
             REFLECTION_TITLE,
-            "<p>Submit the private Mid-Year Evidence Reflection by upload, text, media, or paper. Keep unpublished and ungraded until the 4SW assessment map is verified.</p>",
+            "<p>Submit the private Mid-Year Evidence Reflection by upload, text, media, or paper. Keep unpublished and ungraded because the 4SW map already contains three minors and two majors.</p>",
             ["online_upload", "online_text_entry", "media_recording"],
         )
         urls = {
@@ -386,7 +386,7 @@ async def main():
             5: {
                 "TITLE": "Private Mid-Year Evidence Reflection",
                 "SUBTITLE": "50 minutes · TEKS d(4)(B), d(3)(H)",
-                "ALERT": "<strong>Portfolio synthesis, not an automatic third major.</strong> Keep unpublished and ungraded until the 4SW assessment map is verified.",
+                "ALERT": "<strong>Portfolio synthesis, not an automatic third major.</strong> Keep unpublished and ungraded because the 4SW map already contains three minors and two majors.",
                 "PREP": f'<ul><li>Post {link(files["REFLECTION"]["id"], "the reflection")} and {link(files["RUBRIC"]["id"], "the rubric")}.</li><li>Open the private Assignment.</li><li>Prepare the generic evidence strip.</li></ul>',
                 "EVIDENCE": "<p>Four-part private reflection, self-score, visible revision, and two supported actions. Portfolio synthesis or approved recovery/replacement evidence.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "Before/now assumption.")
@@ -394,7 +394,7 @@ async def main():
                 + flow("#1f617a", "Reflection · 27", "Four separate response jobs.")
                 + flow("#e3ad19", "Self-score · 5", "Revise weakest criterion.")
                 + flow("#1f617a", "Private submit · 5", "Text, upload, media, or paper."),
-                "MONITOR": "<p>Score only after an approved decision. The six weeks already has two major candidates and three minor candidates. Do not score career preference, public speaking, profile history, platform access, accent, or grammar unless meaning is unclear.</p>",
+                "MONITOR": "<p>Score only after an approved decision. The six weeks already has two mapped majors and three mapped minors. Do not score career preference, public speaking, profile history, platform access, accent, or grammar unless meaning is unclear.</p>",
                 "RESOURCES": "<p>Days 1-4 packets are the source base. The generic strip prevents missing earlier artifacts from becoming a failure point.</p>",
                 "SUPPORT": "<p>Use sentence frames, bullet points in Parts 2/4, speech-to-text, private media, teacher scribe, or paper. Every multi-sentence job has a full page or full-width block.</p>",
                 "FALLBACK": "<p>No sharing circle or partner disclosure is required. Canvas failure means paper or later upload without penalty.</p>",

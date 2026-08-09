@@ -15,10 +15,10 @@ ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/5sw/wk1"
 MODULE_NAME = "5SW Wk1: Blueprint Builders — Architecture Evidence"
 
 SAFETY_TITLE = "PRACTICE: Safety Supervisor Evidence Plan"
-QUIZ_TITLE = "PRACTICE: Architecture Career Evidence Check"
+QUIZ_TITLE = "MINOR 1: Architecture Career Evidence Check"
 DESIGN_TITLE = "PRACTICE: Community Learning Space Concept"
 REVISION_TITLE = "PRACTICE: Building Test and Revision"
-PORTFOLIO_TITLE = "DRAFT: Architecture Evidence Portfolio"
+PORTFOLIO_TITLE = "FORMATIVE: Architecture Evidence Portfolio"
 
 
 async def ensure_module(client):
@@ -323,7 +323,7 @@ async def main():
                 "SUBTITLE": "50 minutes · TEKS d(2)(A), d(5)(E)",
                 "ALERT": "<strong>One evidence basis.</strong> May 2024 U.S. medians are not DFW, starting, maximum, or guaranteed pay.",
                 "PREP": f'<ul><li>Post {link(files["CAREERS"]["id"], "the fixed evidence guide")} and Quiz.</li><li>Model occupation, source, year, geography, and measure.</li></ul>',
-                "EVIDENCE": "<p>Three careers, preparation boundaries, salary comparison, limitation, and Jordan recommendation. Recommended minor candidate.</p>",
+                "EVIDENCE": "<p><strong>Minor 1 in the 5SW assessment map:</strong> three careers, preparation boundaries, salary comparison, limitation, and Jordan recommendation. Convert the rubric result to a 100-point grade only after the Minor group is verified.</p>",
                 "FLOW": flow("#5a2d91", "Labels · 5", "Unsupported versus supported claim.") + flow("#4a9d2f", "Model · 10", "Architect preparation and salary.") + flow("#1f617a", "Compare · 20", "Three fixed career rows.") + flow("#e3ad19", "Recommend · 10", "Salary plus preparation.") + flow("#1f617a", "Exit · 5", "Rank and limitation."),
                 "MONITOR": "<p>Key medians: Architect $96,690; Drafter $65,380; Interior Designer $63,490. Different recommendations can earn full credit. Reject the invented salary-to-education ratio.</p>",
                 "RESOURCES": '<p><a href="https://www.bls.gov/ooh/architecture-and-engineering/architects.htm">BLS Architects</a> · <a href="https://www.bls.gov/ooh/architecture-and-engineering/drafters.htm">BLS Drafters</a> · <a href="https://www.bls.gov/ooh/arts-and-design/interior-designers.htm">BLS Interior Designers</a> · <a href="https://www.ncarb.org/become-architect/earn-license">NCARB licensure</a></p>',
@@ -357,7 +357,7 @@ async def main():
             5: {
                 "TITLE": "Unexpected Architecture and Weekly Synthesis",
                 "SUBTITLE": "50 minutes · TEKS d(1)(B), d(1)(C); portfolio reassesses d(2)(A), d(5)(E)",
-                "ALERT": "<strong>Recommended major candidate, not configured.</strong> Keep the Assignment unpublished and ungraded until the Major group and 40/60 weighting are verified.",
+                "ALERT": "<strong>Formative weekly portfolio.</strong> Use this to rehearse and revise evidence; it is not one of the two mapped 5SW majors. Keep the Assignment unpublished and ungraded until the review gate passes.",
                 "PREP": f'<ul><li>Post the four locked licensed visuals, {link(files["LANDMARK"]["id"], "the individual evidence form")}, and {link(files["RUBRIC"]["id"], "the rubric")}.</li><li>Open the private portfolio Assignment.</li><li>Prepare groups and a solo route.</li></ul>',
                 "EVIDENCE": "<p>Two city goals, individual contribution, three-role synthesis, one preserved Day 2 label, and complete private portfolio.</p>",
                 "FLOW": flow("#5a2d91", "Brief · 5", "City goals and examples.") + flow("#4a9d2f", "Firm concept · 25", "Choose, draw, label, record.") + flow("#1f617a", "Pitch/gallery · 15", "One-minute equal routes.") + flow("#e3ad19", "Synthesis · 5", "Three roles and source label."),

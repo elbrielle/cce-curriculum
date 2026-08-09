@@ -16,10 +16,10 @@ ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/5sw/wk2"
 MODULE_NAME = "5SW Wk2: Civil Engineering — Systems, Evidence, and Design"
 
 SYSTEMS_TITLE = "PRACTICE: Civil Engineering and Systems Evidence"
-QUIZ_TITLE = "PRACTICE: Assessment and Emerging Work Evidence Check"
+QUIZ_TITLE = "MINOR 2: Assessment and Emerging Work Evidence Check"
 DESIGN_TITLE = "PRACTICE: Bridge Design Evidence"
 TEST_TITLE = "PRACTICE: Bridge Test and Redesign Evidence"
-PORTFOLIO_TITLE = "DRAFT: Civil Engineering Evidence Portfolio"
+PORTFOLIO_TITLE = "FORMATIVE: Civil Engineering Evidence Portfolio"
 
 
 async def ensure_module(client):
@@ -285,7 +285,7 @@ async def main():
                 "SUBTITLE": "50 minutes · TEKS d(3)(E), d(1)(D)",
                 "ALERT": "<strong>Do not memorize unstable policies.</strong> Students identify a possible impact, what must be verified, and where to verify it.",
                 "PREP": f'<ul><li>Post {link(files["ASSESS"]["id"], "the current-source packet")} and retryable Quiz.</li><li>Keep the four assessment cards visible.</li><li>Preselect one fictional pathway goal for modeling.</li></ul>',
-                "EVIDENCE": "<p>Assessment impact decision, verification question, two-specialty comparison, judgment, and limitation. Recommended minor candidate.</p>",
+                "EVIDENCE": "<p><strong>Minor 2 in the 5SW assessment map:</strong> assessment impact decision, verification question, two-specialty comparison, judgment, and limitation. Convert the rubric result to a 100-point grade only after the Minor group is verified.</p>",
                 "FLOW": flow("#1f617a", "Boundaries · 5", "What a result can and cannot decide.") + flow("#4a9d2f", "Assessment cards · 15", "Four current bounded uses.") + flow("#5a2d91", "Decision · 10", "Goal impact and verification question.") + flow("#e3ad19", "Specialties · 15", "Compare, judge, limit.") + flow("#1f617a", "Exit · 5", "Impact and emerging evidence."),
                 "MONITOR": "<p>PSAT 8/9 is Grade 8 or 9 and not sent to colleges; enhanced ACT Composite uses English, math, and reading; TSIA2 applies to entering non-exempt students; ASVAB use varies by service/program. For d(1)(D), require a named O*NET occupation, driver/change, judgment, and limitation.</p>",
                 "RESOURCES": '<p><a href="https://counselors.collegeboard.org/assessments/psat-8-9/overview-dates">College Board PSAT 8/9</a> · <a href="https://www.act.org/content/act/en/products-and-services/the-act-educator/the-act-test/enhancements-k12.html">ACT enhancements</a> · <a href="https://www.highered.texas.gov/texas-success-initiative/">Texas Success Initiative</a> · <a href="https://www.onetonline.org/link/summary/17-2051.01">O*NET Transportation Engineers</a> · <a href="https://www.onetonline.org/link/summary/17-2051.02">O*NET Water/Wastewater Engineers</a></p>',
@@ -319,7 +319,7 @@ async def main():
             5: {
                 "TITLE": "Mars Transfer and Weekly Synthesis",
                 "SUBTITLE": "50 minutes · TEKS d(1)(C); portfolio reassesses d(1)(B), d(1)(D), d(2)(A), d(3)(E)",
-                "ALERT": "<strong>Recommended major candidate, not configured.</strong> Keep unpublished and ungraded until the Major group, 40/60 weighting, and six-weeks assessment count are verified.",
+                "ALERT": "<strong>Formative engineering portfolio.</strong> Use the bridge/design evidence for feedback and revision; it is not one of the two mapped 5SW majors. Keep unpublished and ungraded until the review gate passes.",
                 "PREP": f'<ul><li>Post the two locked FYF visuals, {link(files["SYNTHESIS"]["id"], "the synthesis packet")}, and {link(files["RUBRIC"]["id"], "the rubric")}.</li><li>Prepare anonymous physical or fixed-data results.</li><li>Open the private portfolio Assignment.</li></ul>',
                 "EVIDENCE": "<p>Result pattern/limit, fictional rover design/tradeoff, four-part synthesis, pathway boundary, and verification question.</p>",
                 "FLOW": flow("#1f617a", "Pattern · 5", "Anonymous results, no ranking.") + flow("#4a9d2f", "Rover brief · 20", "Fictional design and constraints.") + flow("#5a2d91", "Tradeoff · 10", "Bridge/rover cycle connection.") + flow("#e3ad19", "Synthesis · 10", "Career, assessment, specialty, redesign.") + flow("#1f617a", "Exit · 5", "Pathway support and verification."),

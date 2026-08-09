@@ -6,7 +6,7 @@ import build_5sw_wk1 as prior
 
 common=prior.common; COURSE_ID=common.COURSE_ID; ROOT=common.ROOT
 MODULE_NAME="6SW Wk5: Job Search, Applications, and Interviews"
-TITLES={1:"PRACTICE: Job Search and Posting Evidence",2:"PRACTICE: Tailored Cover Letter",3:"PRACTICE: Application and References",4:"PRACTICE: Interview Readiness",5:"MAJOR DRAFT: Mock Interview and Follow-Up"}
+TITLES={1:"PRACTICE: Job Search and Posting Evidence",2:"PRACTICE: Tailored Cover Letter",3:"PRACTICE: Application and References",4:"PRACTICE: Interview Readiness",5:"MAJOR 1: Mock Interview and Follow-Up"}
 
 async def ensure_module(client):
     modules=await common.paged(client,f"/courses/{COURSE_ID}/modules"); found=next((m for m in modules if m["name"]==MODULE_NAME),None); data={"module[published]":"false"}
@@ -47,6 +47,7 @@ def teacher_content(f):
     out={}
     for d,(title,teks,key,evidence,monitor) in data.items():
         out[d]={"TITLE":title,"SUBTITLE":f"50 minutes · TEKS {teks}","ALERT":"<strong>Boundary:</strong> Complete fictional case only. No real application, contact, message, identity data, reference contact, or public posting.","PREP":f'<ul><li>Post {link(f[key]["id"],"the student packet")} and day interaction.</li><li>Open the coordinated Student Guide.</li><li>Confirm private/access routes before class.</li></ul>',"EVIDENCE":f"<p>{evidence}</p>","FLOW":flow(c,"Warm-up · 5","Activate the day's decision.")+flow("#4c8b38","Model · 8","One accurate teacher example.")+flow("#155d7a","Build evidence · 22","Private fixed-case work.")+flow("#d39b22","Audit/practice/revise · 10","Make the change visible.")+flow(c,"Exit · 5","One conclusion and next check."),"MONITOR":f"<p>{monitor}</p>","RESOURCES":'<p><a href="https://www.careeronestop.org/JobSearch/job-search.aspx">CareerOneStop Job Search</a> · <a href="https://www.careeronestop.org/JobSearch/Interview/interview-and-negotiate.aspx">CareerOneStop Interview Guidance</a>.</p>',"SUPPORT":"<p>Short identity fields request supplied labels only. Evidence and rationale prompts receive 3-8 full-width lines; the cover letter and thank-you each receive a full draft page; eight questions span four pages; the application is eight pages. Accept typing, dictation, annotation, enlarged print, paper, conference, recording, or AAC.</p>","FALLBACK":"<p>The fixed case is complete. H&amp;L, Xello, Rung 5, live job boards, real contact/data, family participation, public performance/Discussion, and camera use are optional or excluded—not required.</p>"}
+    out[5]["EVIDENCE"] = "<p><strong>Major 1 in the 6SW assessment map:</strong> two role/attempt records, feedback, applied revision, thank-you note, reflection, and rubric. Convert the rubric result to a 100-point grade only after the Major group is verified.</p>"
     return out
 
 async def main():

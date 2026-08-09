@@ -348,9 +348,9 @@ async def main():
             5: {
                 "TITLE": "Aviation Route and Action Plan",
                 "SUBTITLE": "50 minutes · TEKS d(4)(A), d(1)(C)",
-                "ALERT": "<strong>Recommended 16-point minor, not yet configured.</strong> Keep the Assignment unpublished and ungraded until the Minor group and 40/60 weighting are verified.",
+                "ALERT": "<strong>Minor 1 in the 4SW assessment map.</strong> Keep the Assignment unpublished and ungraded until the Minor group and 40/60 weighting are verified.",
                 "PREP": f'<ul><li>Post {file_link(files["PLAN"]["id"], "the Action Plan")} and {file_link(files["RUBRIC"]["id"], "the student-visible rubric")}.</li><li>Open the private unpublished Assignment.</li><li>Return Day 2 and Day 4 evidence.</li></ul>',
-                "EVIDENCE": "<p>Private direction, source evidence, three timed stages, support, obstacle, backup, revision condition, self-score, and revision. Recommended 16-point minor.</p>",
+                "EVIDENCE": "<p>Private direction, source evidence, three timed stages, support, obstacle, backup, revision condition, self-score, and revision. Minor 1, scored with the 16-point rubric and converted to 100 gradebook points.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "Direction, not lifetime promise.") + flow("#4a9d2f", "Two showcases · 8", "Transferable revision ideas.") + flow("#1f617a", "Reopen evidence · 10", "Work, preparation, tradeoff, skill, source.") + flow("#e3ad19", "Three stages · 20", "Actions, timing, support, backup, revision.") + flow("#1f617a", "Self-score/submit · 7", "Revise weakest section and submit privately."),
                 "MONITOR": "<p>Suggested conversion after local approval: 15-16 Masters, 13-14 Meets, 12 Approaches, 10-11 Needs Improvement; below 10 follows campus policy. Score evidence and reasoning, not career preference, build quality, speaking, H&amp;L ratings, family military history, grammar unless meaning is unclear, or submission mode.</p>",
                 "RESOURCES": "<p>H&amp;L browse, Xello Jobs and Employers, and eDynamic goal setting are optional after core evidence. The locked workbook App Exploration page is context only and does not prove platform completion.</p>",

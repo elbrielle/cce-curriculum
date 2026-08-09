@@ -539,7 +539,7 @@ This log records the official Canvas build without storing access credentials or
 - Worksheet QA: six PDFs totaling thirty-one pages passed strict rendering with zero warnings and visual inspection. Each classified occupation, image record, and report finding has its own page; multi-sentence reasoning and the individual briefing have full-width writing space.
 - Licensed delivery media: five original Climber Notes source photos and one focused FYF thermal-comparison page are stored only in the gitignored Canvas-licensed folder. The six JPEG delivery copies are 145-340 KB; the PPTX and workbook originals are unchanged.
 - Canvas interaction plan: Day 1 career-evidence annotation, Day 2 route/organization annotation, Day 3 labor-classification annotation, Day 4 visual-observation annotation with six embedded licensed visuals, and Day 5 private multimodal report/briefing. The importer creates five native Day subheaders and ten paired pages in a 20-item chronological route.
-- Grading boundary: Days 3 and 5 are marked Major drafts only. They remain unpublished and ungraded until the live Major group, six-weeks assessment count, and 40/60 weighting are verified.
+- Grading boundary: Day 3 is Minor 3 in the locked 5SW map. Day 5 is formative. Both remain unpublished and ungraded until the review gate and Minor-group configuration are verified.
 - Importer: `build/canvas/build_5sw_wk3.py`.
 
 ## 2026-08-08 - 5SW Week 4 local production record
@@ -553,7 +553,7 @@ This log records the official Canvas build without storing access credentials or
 - Worksheet QA: six PDFs totaling twenty-eight pages passed strict rendering with zero warnings and visual inspection. The first render exposed three nearly blank overflow pages; the final packets intentionally use one full page per HVAC ticket, one landscape page per labor classification, a dedicated site-plan sketch page, and full-width multi-sentence response blocks.
 - Licensed delivery media: four original Climber Notes ticket images and four focused FYF pages are stored only in the gitignored Canvas-licensed folder. Day 2 carries six images totaling about 1.04 MB; Day 5 carries two images totaling about 380 KB. Source PPTX/workbook files remain unchanged.
 - Canvas interaction plan: Days 1-4 use private Student Annotation/upload/text activities. Day 5 uses a private multimodal response with live, teacher-conference, audio, recorded, equivalent written, and AAC briefing routes. The importer creates five native Day subheaders and ten paired pages in a 20-item chronological route.
-- Grading boundary: Days 3 and 5 are marked Major drafts only. They remain unpublished and ungraded until the live Major group, six-weeks assessment count, and 40/60 weighting are verified.
+- Grading boundary: Days 3 and 5 combine as Major 1 in the locked 5SW map. Both remain unpublished and ungraded until the Major group, 60% weighting, combined rubric, and review gate are verified.
 - Importer: `build/canvas/build_5sw_wk4.py`.
 
 ## 2026-08-08 - 5SW Week 5 local production record
@@ -567,7 +567,7 @@ This log records the official Canvas build without storing access credentials or
 - Interaction plan: Days 1-3 use private annotation/upload/text activities; Day 4 uses a five-question unpublished unlimited-retry Classic practice Quiz with immediate feedback; Day 5 uses a private upload/text/media portfolio. No public Discussion exposes financial priorities or family circumstances.
 - Worksheet QA: six PDFs totaling twenty-nine pages passed strict rendering with zero warnings and final visual inspection. Initial renders exposed nearly blank overflow pages; the corrected set reserves short fields for labels and calculations while each budget tradeoff, location recommendation, career comparison, and revision receives a dedicated full-width response area.
 - Licensed delivery media: two prior FYF Rung 3 reminder pages are reused from the gitignored Canvas-licensed archive at 105 KB and 172 KB. Canvas labels them as optional reminders, not current salary proof; the original workbook remains unchanged.
-- Grading boundary: Day 5 is marked Major draft only and remains unpublished and ungraded until the live six-weeks assessment count, Major group, and 40/60 weighting are verified. Career preference, family income, Quiz attempts, grammar, and submission mode do not determine the score.
+- Grading boundary: Day 5 is Major 2 in the locked 5SW map and remains unpublished and ungraded until the Major group, 60% weighting, and review gate are verified. Career preference, family income, Quiz attempts, grammar, and submission mode do not determine the score.
 - Canvas package: five native Day subheaders, ten paired teacher/student pages, and five interactions in a 20-item chronological route. All local page renders passed with no unresolved template fields.
 - Importer: `build/canvas/build_5sw_wk5.py`.
 
@@ -583,7 +583,7 @@ This log records the official Canvas build without storing access credentials or
 - Communication correction: Day 5 oral evidence uses private live, teacher-conference, audio, recorded, or AAC routes. A transcript may support planning, but written-only work is not automatically labeled d(4)(C) oral evidence. Public presentation is optional celebration only.
 - Worksheet QA: six PDFs totaling twenty-eight pages passed strict rendering with zero warnings and visual inspection. The first render exposed accidental overflow pages in the rubric, ROI plan, and reflection; the final layout preserves full-width multi-sentence fields without blank spill pages.
 - Licensed media: three progressive FYF JPEGs for pp. 238-240 are 130-240 KB each and appear only on Day 3. All required numbers and response jobs also appear in the accessible packet/native Canvas text.
-- Grading boundary: Day 5 is a Major draft and remains unpublished/ungraded until the fifth-six-weeks assessment count and 40/60 groups are verified. Platform access, career preference, family finances, accent, public-speaking confidence, grammar, partner attendance, drawing quality, and submission mode do not determine the score.
+- Grading boundary: Day 5 is recovery/replacement evidence only because the locked 5SW map already contains three minors and two majors. It remains unpublished and ungraded until a teacher authorizes a specific recovery use. Platform access, career preference, family finances, accent, public-speaking confidence, grammar, partner attendance, drawing quality, and submission mode do not determine the score.
 - Canvas package: five Day subheaders, ten paired pages, and five interactions in a 20-item chronological route. All local renders passed without unresolved template fields.
 - Importer: `build/canvas/build_5sw_wk6.py`.
 
@@ -598,7 +598,7 @@ This log records the official Canvas build without storing access credentials or
 - Safety/privacy correction: Teach Through Play has partner, tabletop, teacher-conference, and individual written-simulation routes. Physical performance, cutting skill, personal volunteer disclosure, platform access, artistry, and partner attendance are not scored.
 - Worksheet QA: six PDFs totaling thirty-two pages passed strict rendering with zero warnings after oversized drawing boxes and declared-page mismatches were repaired. Visual inspection confirmed readable rubric text and full-width writing space for every multi-sentence job.
 - Licensed media: eight FYF pages are 152-278 KB each at a 1,300-pixel long edge. Days 1, 4, and 5 carry only their relevant pages; native Canvas text and downloadable packets are the independent completion route.
-- Grading boundary: Day 5 is a 16-point Major draft and remains unpublished/ungraded until the sixth-six-weeks assessment count and 40/60 groups are verified.
+- Grading boundary: Day 5 is Minor 1 in the locked 6SW map and remains unpublished/ungraded until the Minor group, 40% weighting, and review gate are verified.
 - Canvas package: five Day subheaders, ten paired pages, and five interactions in a 20-item chronological route. All local renders passed without unresolved template fields.
 - Importer: `build/canvas/build_6sw_wk1.py`.
 
@@ -613,7 +613,7 @@ This log records the official Canvas build without storing access credentials or
 - Current evidence: current Irving pages name Graphic Design and Digital Communication at Irving High, MacArthur, and Nimitz. BLS Graphic Designers uses a May 2024 U.S. median of $61,300, typical bachelor's preparation, 2% 2024-34 growth, and about 20,000 annual openings; none is relabeled DFW starting pay or a guarantee.
 - Worksheet QA: six PDFs totaling thirty-five pages passed strict rendering with zero warnings after declared-page mismatches were repaired. Visual checks confirmed a privacy-forward résumé first page and dedicated full-page design sketch regions.
 - Licensed media: eight FYF delivery images are 137-307 KB at a 1,300-pixel long edge. Required content is repeated in native text and accessible packets.
-- Grading boundary: Day 5 is a 16-point Major draft and remains unpublished/ungraded until the sixth-six-weeks assessment map and 40/60 groups are verified.
+- Grading boundary: Day 5 is Minor 2 in the locked 6SW map and remains unpublished/ungraded until the Minor group, 40% weighting, and review gate are verified.
 - Importer: `build/canvas/build_6sw_wk2.py`.
 
 ## 2026-08-08 - 6SW Week 3 local production record
@@ -627,7 +627,7 @@ This log records the official Canvas build without storing access credentials or
 - Entrepreneurship correction: Expert Edge distinguishes need, audience, deliverable, opportunity, fictional unit/price, responsibility, risk, and control. Logo polish and oral delivery are optional and not scored.
 - Worksheet QA: six PDFs totaling thirty-three pages passed strict rendering with zero warnings. The first render exposed a 12-page data packet, blank overflow pages, and a rubric spill; the corrected landscape packet is six pages, the ad mock-up retains a full page, and every multi-part response has labeled full-width space.
 - Licensed media: eleven progressive FYF JPEGs for pp. 147-148 and 222-230 are 111-300 KB at a 1,300-pixel long edge. Required instructions/data also appear in native Canvas text and accessible packets.
-- Grading boundary: Day 5 is a 16-point Major draft and remains unpublished/ungraded until the sixth-six-weeks assessment count and 40/60 groups are verified.
+- Grading boundary: Day 5 is Minor 3 in the locked 6SW map and remains unpublished/ungraded until the Minor group, 40% weighting, and review gate are verified.
 - Canvas package: five Day subheaders, ten paired pages, one Quiz, and four private Assignments in a 20-item chronological route. All local renders passed without unresolved template fields.
 - Importer: `build/canvas/build_6sw_wk3.py`.
 
@@ -643,7 +643,7 @@ This log records the official Canvas build without storing access credentials or
 - Strengths Interview correction: Day 5 previews the capstone task but does not create a same-day family-adult dependency. The capstone must offer an approved campus-adult route and avoid collecting adult contact information.
 - Worksheet QA: six PDFs totaling thirty pages passed strict rendering with zero warnings and visual inspection. The career outline separates each oral sentence job, the fallback cards fit on one readable page, and every revision/reflection prompt has full-width space.
 - Licensed media: nine progressive FYF JPEGs for pp. 241-247, 280, and 299 are 87-162 KB at a 1,300-pixel long edge. A visual check caught the reference PDF's six-page front-matter offset before import; the corrected files match their printed page labels.
-- Grading boundary: Day 5 is a 16-point Major draft and remains unpublished/ungraded until the sixth-six-weeks assessment count and 40/60 groups are verified.
+- Grading boundary: Day 5 is formative oral-evidence rehearsal in the locked 6SW map and remains unpublished/ungraded until the review gate is verified.
 - Canvas package: five Day subheaders, ten paired pages, one Quiz, and four private Assignments in a 20-item chronological route. All local renders passed without unresolved template fields.
 - Importer: `build/canvas/build_6sw_wk4.py`.
 
@@ -657,7 +657,7 @@ This log records the official Canvas build without storing access credentials or
 - Reference correction: students identify appropriate reference roles and firsthand evidence without entering real names/contact information. Permission-before-sharing is explicit; the classroom permission request is drafted but not sent.
 - Interview/access correction: appearance uses workplace, task, safety, format, technology, and accommodation context rather than expensive, gendered, body-based, cultural, religious, disability-based, eye-contact, handshake, or camera rules. Paired live, small group, teacher conference, private recording, and AAC routes are supported.
 - Worksheet QA: six PDFs totaling thirty-nine pages passed strict rendering with zero warnings and visual inspection. Initial renders exposed three unintended continuation pages; the final set gives a full draft page to each letter, eight spacious application/reference pages, four pages for eight interview questions, and separate role/revision records.
-- Grading boundary: Day 5 is a 24-point Major draft and remains unpublished/ungraded until the sixth-six-weeks assessment count and 40/60 groups are verified. Accent, camera use, eye contact, clothing cost/style, disability, public confidence, English mechanics, and submission route are not grading criteria unless meaning is unclear.
+- Grading boundary: Day 5 is Major 1 in the locked 6SW map and remains unpublished/ungraded until the Major group, 60% weighting, and review gate are verified. Accent, camera use, eye contact, clothing cost/style, disability, public confidence, English mechanics, and submission route are not grading criteria unless meaning is unclear.
 - Canvas package: five Day subheaders, ten paired pages, one Quiz, and four private Assignments in a 20-item chronological route. All local content structures compile and render without unresolved fields.
 - Importer: `build/canvas/build_6sw_wk5.py`.
 
@@ -671,7 +671,7 @@ This log records the official Canvas build without storing access credentials or
 - Privacy/access correction: no private profile screenshot, address/contact/ID data, family finances, health/immigration information, family-adult dependency, public speech, camera, presentation platform, costly visual production, class photo, or pathway guarantee is required.
 - Worksheet QA: six PDFs totaling thirty-six pages passed strict rendering with zero warnings and visual inspection. Every major evidence job receives a dedicated page; the first rubric render exposed one unintended continuation page and the final four-page landscape rubric fits cleanly.
 - Licensed media: eight FYF orientation pages for pp. 277-280 and 297-300 are 112-241 KB each at readable delivery resolution. Native Canvas directions and the accessible packets independently carry every required evidence job.
-- Grading boundary: Day 4 is a 24-point Major draft and remains unpublished/ungraded until the sixth-six-weeks assessment count and 40/60 groups are verified. Missing prior artifacts, platform access, visual polish, public speaking, partner/family attendance, accent, eye contact, disability, camera use, English mechanics, and submission route are not mastery criteria unless meaning is unclear.
+- Grading boundary: Day 4 is Major 2 in the locked 6SW map and remains unpublished/ungraded until the Major group, 60% weighting, and review gate are verified. Missing prior artifacts, platform access, visual polish, public speaking, partner/family attendance, accent, eye contact, disability, camera use, English mechanics, and submission route are not mastery criteria unless meaning is unclear.
 - Canvas package: five Day subheaders, ten paired pages, and five private Assignments in a 20-item chronological route. All local content structures compile and render without unresolved fields.
 - Importer: `build/canvas/build_6sw_wk6.py`.
 
@@ -699,3 +699,11 @@ This log records the official Canvas build without storing access credentials or
 - The orchestrator reads one token from standard input, passes it only through each child builder's standard input, redacts it from failure output, stops on the first failed build, and writes no credential or import-state file.
 - 4SW Wk1 is intentionally excluded because it already exists in the live course. Individual week builders retain idempotent upsert behavior and remain the unit of retry.
 - Local checks: script compiles; empty-input test exits 2 with `Canvas token required on stdin`; live import remains pending secure token input.
+
+## 2026-08-08 - Canvas builder grading-label reconciliation
+
+- Reconciled all 4SW-6SW teacher-guide evidence labels and Canvas activity titles against `docs/resources/six-weeks-assessment-map.md` before live import.
+- 5SW now exposes Wk1/Wk2/Wk3 as Minor 1/2/3, Wk4 as the two-part Major 1, Wk5 as Major 2, and Wk6 as recovery/replacement evidence.
+- 6SW now exposes Wk1/Wk2/Wk3 as Minor 1/2/3, Wk4 as formative oral rehearsal, Wk5 as Major 1, and Wk6 Day 4 as Major 2.
+- All imported interactions remain unpublished and ungraded; the labels establish instructional intent but do not bypass live assignment-group, weight, rubric, or student-view verification.
+- Validation uses `uv run --with httpx` because the system Python can compile the builders but cannot import them without the Canvas runtime dependency. Compile, rendered-content label checks, and `git diff --check` pass.

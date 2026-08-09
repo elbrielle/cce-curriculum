@@ -362,9 +362,9 @@ async def main():
             5: {
                 "TITLE": "Individual High School and Career Plan",
                 "SUBTITLE": "50 minutes · TEKS d(8)(B), d(8)(C), d(3)(D)",
-                "ALERT": "<strong>Recommended 16-point major, not yet configured.</strong> Keep the Assignment unpublished and ungraded until the Major group and 40/60 weighting are verified.",
+                "ALERT": "<strong>Major 2 in the 4SW assessment map.</strong> Keep the Assignment unpublished and ungraded until the Major group and 40/60 weighting are verified.",
                 "PREP": f'<ul><li>Post {file_link(files["PLAN"]["id"], "the four-page plan")} and {file_link(files["RUBRIC"]["id"], "the two-page student rubric")}.</li><li>Open the private unpublished Assignment.</li><li>Have Days 1-4 packets and dated source cards available.</li></ul>',
-                "EVIDENCE": "<p>Private individual plan with self-evidence, course and preparation evidence, college-credit evidence, timed actions, support, backup, and revision rule. Recommended 16-point major.</p>",
+                "EVIDENCE": "<p>Private individual plan with self-evidence, course and preparation evidence, college-credit evidence, timed actions, support, backup, and revision rule. Major 2, scored with the 16-point rubric and converted to 100 gradebook points.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "Supported part and open question.")
                 + flow("#4a9d2f", "Gather · 5", "Days 1-4 evidence set.")
                 + flow("#1f617a", "Write · 28", "Three chunks with checks.")

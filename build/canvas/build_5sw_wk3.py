@@ -17,9 +17,9 @@ MODULE_NAME = "5SW Wk3: Construction — Routes, Evidence, and Observation"
 
 CAREER_TITLE = "PRACTICE: Construction Career Evidence"
 ROUTES_TITLE = "PRACTICE: Construction Routes and Organizations"
-CLASSIFY_TITLE = "MAJOR DRAFT: Construction Labor-Market Classification"
+CLASSIFY_TITLE = "MINOR 3: Construction Labor-Market Classification"
 OBSERVE_TITLE = "PRACTICE: Fictional Visual Observation Lab"
-REPORT_TITLE = "MAJOR DRAFT: Construction Evidence Report and Briefing"
+REPORT_TITLE = "FORMATIVE: Construction Evidence Report and Briefing"
 
 
 async def ensure_module(client):
@@ -209,7 +209,7 @@ async def main():
                 "SUBTITLE": "50 minutes · TEKS d(1)(C), d(2)(A)",
                 "ALERT": "<strong>Use current names and bounded claims.</strong> MacArthur currently lists Construction within ACE. Do not present the older workbook label, NCCER, SkillsUSA, or one trade license ladder as a current universal district guarantee.",
                 "PREP": f'<ul><li>Post {link(files["CAREER"]["id"], "the fixed career packet")} and annotation activity.</li><li>Model occupation, source, date, geography, measure, and preparation boundary.</li><li>Keep H&amp;L optional.</li></ul>',
-                "EVIDENCE": "<p>Three-career comparison, route judgment, and verification question. Recommended minor candidate.</p>",
+                "EVIDENCE": "<p>Formative three-career comparison, route judgment, and verification question.</p>",
                 "FLOW": flow("#315f4c", "Current pathway · 5", "Construction within ACE.") + flow("#4c8b38", "Career cards · 15", "Work, preparation, pay, outlook.") + flow("#8a4f2b", "Compare · 15", "Three routes and boundaries.") + flow("#d39b22", "Decision · 10", "Evidence-based fit and question.") + flow("#315f4c", "Exit · 5", "Career, preparation, boundary."),
                 "MONITOR": "<p>Full credit keeps high-school pathway, postsecondary training, Registered Apprenticeship, and trade-specific licensing distinct. Do not accept invented DFW starting pay or a universal apprentice–journeyworker–master sequence.</p>",
                 "RESOURCES": '<p><a href="https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte/macarthur-high-school">Irving ISD MacArthur CTE</a> · current BLS occupation pages in the packet. FYF claims are historical workbook context unless separately verified.</p>',
@@ -221,7 +221,7 @@ async def main():
                 "SUBTITLE": "50 minutes · TEKS d(3)(G), d(3)(H)",
                 "ALERT": "<strong>Students do not apply.</strong> They compare dated route cards and sequence steps; no contact form, account, or personal data is entered.",
                 "PREP": f'<ul><li>Post {link(files["ROUTES"]["id"], "the routes and organizations packet")} and annotation activity.</li><li>Review the two dated route cards.</li><li>Model the difference among a union, association, CTSO, and credential body.</li></ul>',
-                "EVIDENCE": "<p>Two-route comparison, ordered application/enrollment steps, organization classification, access, and value. Recommended minor candidate.</p>",
+                "EVIDENCE": "<p>Formative two-route comparison, ordered application/enrollment steps, organization classification, access, and value.</p>",
                 "FLOW": flow("#315f4c", "Stable facts · 5", "What Registered Apprenticeship is.") + flow("#4c8b38", "Two routes · 12", "Dated cards, variable terms.") + flow("#8a4f2b", "Compare/sequence · 23", "Eligibility through next verification.") + flow("#d39b22", "Organization · 7", "Type, access, value.") + flow("#315f4c", "Exit · 3", "Two steps and one organization."),
                 "MONITOR": "<p>Accept multiple route judgments when the student uses the published facts. Registered Apprenticeship is paid and structured; sponsor eligibility, length, wage, cost, schedule, and license relationship vary. An industry certification is not automatically college credit.</p>",
                 "RESOURCES": '<p><a href="https://www.apprenticeship.gov/career-seekers">Apprenticeship.gov Career Seekers</a> · <a href="https://www.dallascollege.edu/cd/credit/construction/pages/default.aspx">Dallas College Construction Technology</a> · current provider steps are dated in the packet.</p>',
@@ -233,7 +233,7 @@ async def main():
                 "SUBTITLE": "50 minutes · TEKS d(5)(A), d(5)(B)",
                 "ALERT": "<strong>The labels are a published classroom comparison rule.</strong> They are not official BLS or TWC designations and do not prove a DFW shortage.",
                 "PREP": f'<ul><li>Post {link(files["CLASSIFY"]["id"], "the six-page classification packet")} and annotation activity.</li><li>Project the three comparison thresholds.</li><li>Model one supported yes/no and one limitation.</li></ul>',
-                "EVIDENCE": "<p>Four individual career pages, supported classifications, trend comparison, and evidence limitation. Major draft; do not grade until assessment map approval.</p>",
+                "EVIDENCE": "<p><strong>Minor 3 in the 5SW assessment map:</strong> four individual career pages, supported classifications, trend comparison, and evidence limitation. Convert the rubric result to a 100-point grade only after the Minor group is verified.</p>",
                 "FLOW": flow("#315f4c", "Rule · 5", "Same basis and transparent thresholds.") + flow("#4c8b38", "Model · 8", "One label with evidence.") + flow("#8a4f2b", "Four careers · 27", "One roomy page each.") + flow("#d39b22", "Compare · 7", "Trend and limitation.") + flow("#315f4c", "Exit · 3", "What could change."),
                 "MONITOR": "<p>Key: Construction Manager = yes/yes/yes; Carpenter = course-rule judgment on skill with evidence, yes wage, yes demand; Equipment Operator = course-rule judgment on skill, yes wage, yes demand; Masonry Worker = course-rule judgment on skill, yes wage, no demand. Require the packet's preparation rule and accept defensible nuance.</p>",
                 "RESOURCES": '<p><a href="https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm">BLS projection characteristics</a> and dated occupation pages. Same basis: May 2024 U.S. median and 2024–34 national projections.</p>',
@@ -245,7 +245,7 @@ async def main():
                 "SUBTITLE": "50 minutes · TEKS d(1)(C)",
                 "ALERT": "<strong>This is not a home inspection.</strong> Students analyze supplied fictional images only and never touch a real panel, inspect a home, diagnose a defect, estimate repairs, or advise a buyer.",
                 "PREP": f'<ul><li>Post {link(files["OBSERVE"]["id"], "the observation log")} and annotation activity.</li><li>Open the five locked photos and thermal page.</li><li>Model observation → possibility → limit → qualified role.</li></ul>',
-                "EVIDENCE": "<p>Five observation records plus thermal comparison, each separating clue, possible meaning, limit, and qualified follow-up. Recommended minor candidate.</p>",
+                "EVIDENCE": "<p>Formative five-observation record plus thermal comparison, each separating clue, possible meaning, limit, and qualified follow-up.</p>",
                 "FLOW": flow("#315f4c", "Boundary · 5", "Fictional image analysis only.") + flow("#4c8b38", "Model · 8", "Observation before inference.") + flow("#8a4f2b", "Five images · 25", "Roomy record per image.") + flow("#d39b22", "Thermal · 7", "Pattern and corroboration.") + flow("#315f4c", "Exit · 5", "Complete evidence chain."),
                 "MONITOR": "<p>Key: #1 no visible concern required from this image; #2 visibly worn/damaged shingles; #3 ceiling/wall staining; #4 open service panel with visible cables, but image alone does not prove a violation; #5 damaged/swollen under-sink cabinet base consistent with possible moisture. Thermal differences suggest a location to investigate, not a diagnosis. Accept other careful interpretations tied to visible evidence.</p>",
                 "RESOURCES": '<p>Licensed Climber Notes photos and FYF p.178 remain in authenticated Canvas. <a href="https://www.trec.texas.gov/become-licensed/professional-real-estate-inspector">TREC inspector licensing</a> establishes the professional boundary.</p>',
@@ -255,7 +255,7 @@ async def main():
             5: {
                 "TITLE": "Evidence Report and Individual Briefing",
                 "SUBTITLE": "50 minutes · TEKS d(1)(C), d(4)(C)",
-                "ALERT": "<strong>Recommended major candidate, not configured.</strong> Keep unpublished and ungraded until the Major group, 40/60 weighting, and six-weeks assessment count are verified.",
+                "ALERT": "<strong>Formative inspection report and professional briefing.</strong> Use the report and briefing for feedback; they are not one of the two mapped 5SW majors. Keep unpublished and ungraded until the review gate passes.",
                 "PREP": f'<ul><li>Post {link(files["REPORT"]["id"], "the expanded report")}, {link(files["RUBRIC"]["id"], "the rubric")}, and private Assignment.</li><li>Keep Day 4 visuals available.</li><li>Offer live, audio, recorded, or equivalent written briefing routes.</li></ul>',
                 "EVIDENCE": "<p>Five expanded findings, thermal boundary, and one individual 30–45 second evidence briefing. Group delivery never substitutes for individual evidence.</p>",
                 "FLOW": flow("#315f4c", "Reopen evidence · 5", "Images and prior notes.") + flow("#4c8b38", "Model claim · 5", "Careful language and next role.") + flow("#8a4f2b", "Report · 25", "Five finding blocks and thermal boundary.") + flow("#d39b22", "Briefings · 12", "Individual equivalent routes.") + flow("#315f4c", "Exit · 3", "Why language matters."),
