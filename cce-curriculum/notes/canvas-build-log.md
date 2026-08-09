@@ -2,7 +2,17 @@
 
 This log records the official Canvas build without storing access credentials or licensed files in GitHub.
 
-## 2026-08-09 — Reviewed launch shell and Week 0 student pilot
+## 2026-08-09 — Teacher-owned publication boundary (current)
+
+- The user clarified that course 98060 is the district master/template. It must contain the full course while leaving publication decisions to each teacher after cloning.
+- Returned the reviewed home page, orientation, Teacher Build resources, all 36 instructional week modules, every module item, and their page/assignment/discussion/quiz content to unpublished state. No content was deleted. Canvas requires one published page to retain its front-page designation, so the unused generic `Welcome!` page is the inert technical placeholder; the course opens to Modules and Pages remains hidden from student navigation.
+- Relocked the complete `course files/CCR Materials` and `course files/Licensed` trees. The course default view is Modules; the lean Home, Modules, and Grades navigation remains as an organizational choice.
+- Removed the two auto-publication utilities. Added `build/canvas/stage_course_template.py` as the recovery guardrail for imports or accidental publication.
+- The district-master gate is `build/canvas/qa_remaining_unpublished.py`. `qa_course_publication.py` is only for a teacher-owned clone after that teacher has chosen what to publish.
+
+## 2026-08-09 — Superseded launch-shell experiment
+
+This visibility experiment was reverted the same day after the teacher-owned publication boundary was clarified. It remains here as incident history, not current Canvas state.
 
 - Replaced the generic template home with `Career and College Exploration Home` and set the course home layout to the reviewed Pages front page.
 - Published `START HERE: CCE Course Orientation` with its one student page. `Teacher Build: Licensed Resources` remains unpublished.
