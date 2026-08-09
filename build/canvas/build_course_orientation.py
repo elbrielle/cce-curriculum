@@ -22,7 +22,7 @@ def shell(title: str, subtitle: str, color: str, body: str) -> str:
     return f"""
 <div style="max-width:900px;margin:0 auto;font-family:Arial,Helvetica,sans-serif;color:#202124;line-height:1.55">
   <div style="background:{color};color:#fff;padding:28px 30px;border-radius:14px;margin-bottom:20px">
-    <h1 style="margin:0 0 6px;font-size:30px;line-height:1.2">{title}</h1>
+    <h2 style="margin:0 0 6px;font-size:30px;line-height:1.2">{title}</h2>
     <p style="margin:0;font-size:17px">{subtitle}</p>
   </div>
   {body}

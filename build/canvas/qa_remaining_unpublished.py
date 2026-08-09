@@ -40,6 +40,7 @@ class BodyAudit(HTMLParser):
         self.images: list[dict[str, str | None]] = []
         self.links: list[str] = []
         self.text: list[str] = []
+        self.body_h1 = 0
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         values = dict(attrs)
@@ -47,6 +48,8 @@ class BodyAudit(HTMLParser):
             self.images.append(values)
         if tag.lower() == "a" and values.get("href"):
             self.links.append(str(values["href"]))
+        if tag.lower() == "h1":
+            self.body_h1 += 1
 
     def handle_data(self, data: str) -> None:
         if data.strip():
@@ -431,6 +434,11 @@ async def audit_orientation(client: httpx.AsyncClient, modules: list[dict]) -> d
             problems.append(f"{role} orientation page has unresolved fields")
         if "enhanceable_content" in body:
             problems.append(f"{role} orientation page uses legacy Canvas tabs")
+        if parser.body_h1:
+            problems.append(
+                f"{role} orientation page contains {parser.body_h1} body H1 heading(s); "
+                "Canvas already supplies the page-title H1"
+            )
 
     if student_page and teacher_page:
         student_url = str(student_page.get("url"))
