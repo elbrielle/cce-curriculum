@@ -139,7 +139,14 @@ Do not assume every student artifact should become a printed worksheet or a stat
 
 Use the least complicated surface that fits the evidence. Paper remains an equal route when handwriting, sketching, manipulatives, device access, or an accommodation makes it the better tool. Before creating graded Canvas objects, confirm the course's Minor/Major assignment groups and weights; never place a grade into an arbitrary imported or default group.
 
-When a printable or downloadable worksheet is justified, size every response area from the response job, not from the visual symmetry of a table. A label, number, or phrase may use one line; a reason or comparison normally needs two to three full-width lines; a multi-sentence explanation needs its own full-width block; and a sketch needs a box large enough to draw and label. Do not hide several writing jobs in one narrow table cell. Run the worksheet builder with `--strict`, render every page, and inspect a contact sheet. If the packet overflows, rebalance page breaks or increase the honest page count; do not shrink the writing space until the warning disappears. In Canvas, prefer labeled text-entry fields, an annotation assignment, or a private media response when those routes remove printing without weakening the evidence.
+When a printable or downloadable worksheet is justified, size every response area from the response job, not from the visual symmetry of a table. A label, number, or phrase may use one line; a reason or comparison normally needs two to three full-width lines; a multi-sentence explanation needs its own full-width block; and a sketch needs a box large enough to draw and label. Do not hide several writing jobs in one narrow table cell. Run the worksheet builder with `--strict`, render every page, and inspect a contact sheet. The system Python may not include the worksheet renderer's Markdown, Jinja, or Playwright dependencies, so use the isolated runtime:
+
+```bash
+uv run --with markdown --with jinja2 --with playwright \
+  python build/build_worksheets.py --dry-run --strict
+```
+
+Pass one or more source Markdown paths before `--strict` when rebuilding a selected packet. If the packet overflows, rebalance page breaks or increase the honest page count; do not shrink the writing space until the warning disappears. In Canvas, prefer labeled text-entry fields, an annotation assignment, or a private media response when those routes remove printing without weakening the evidence. A PDF rebuild updates embedded creation timestamps even when the visible layout is unchanged, so visual QA and source control review should focus on the rendered pages and intentional source changes rather than treating a binary timestamp change as a layout change.
 
 For five-day modules, use a native Canvas `SubHeader` before each Teacher/Student pair. Keep one chronological route: Day header, Teacher Guide, Student Guide, then any interaction used that day. The generic module verifier accepts and records these headers. This gives teachers and students a fast visual scan without creating extra pages or competing navigation systems.
 
@@ -201,7 +208,7 @@ Run its credential-free preflight before requesting the token:
 python3 build/canvas/import_remaining_unpublished.py --preflight
 ```
 
-The preflight compiles all 17 builders, checks all 18 coordinated 4SW-6SW teacher/student template pairs for the approved scan headings, semantic student callouts, disclosure summaries, and absence of legacy Canvas tabs, and resolves every statically named local PDF, image, and HTML dependency. A failed preflight makes no Canvas request.
+The preflight compiles all 17 builders, checks all 18 coordinated 4SW-6SW teacher/student template pairs for the approved scan headings, semantic student callouts, disclosure summaries, and absence of legacy Canvas tabs, verifies that every literal image renderer includes an `alt` attribute, and resolves every statically named local PDF, image, and HTML dependency. A failed preflight makes no Canvas request.
 
 Run the external-source link check during a production pass and before publication:
 

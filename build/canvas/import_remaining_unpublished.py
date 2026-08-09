@@ -117,6 +117,18 @@ def preflight() -> int:
                 f"{template.relative_to(ROOT)}: every disclosure must have one summary"
             )
 
+    html_sources = [*IMPORTERS, *student_templates, *teacher_templates]
+    literal_images = 0
+    for source in html_sources:
+        for image_tag in re.findall(
+            r"<img\b[^>]*>", source.read_text(), flags=re.IGNORECASE | re.DOTALL
+        ):
+            literal_images += 1
+            if not re.search(r"\balt\s*=", image_tag, flags=re.IGNORECASE):
+                errors.append(
+                    f"{source.relative_to(ROOT)}: literal image is missing alt text"
+                )
+
     if errors:
         print("Preflight failed:", file=sys.stderr)
         for error in errors:
@@ -126,7 +138,8 @@ def preflight() -> int:
     print(
         f"Preflight passed: {len(IMPORTERS)} builders compile and "
         f"{len(student_templates)} teacher/student template pairs meet the accessibility contract; "
-        f"{len(named_dependencies)} named local dependencies resolve."
+        f"{len(named_dependencies)} named local dependencies resolve; "
+        f"{literal_images} literal image renderers include alt text."
     )
     return 0
 
