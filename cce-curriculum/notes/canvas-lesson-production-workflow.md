@@ -8,7 +8,7 @@
 
 Every instructional day receives two coordinated Canvas pages.
 
-The course also keeps two coordinated orientation surfaces: `TEACHER: CCE Course Launch Guide` at the top of the unpublished Teacher Build module and `STUDENT: Start Here - How CCE Works` as the only item in the first student-facing orientation module. The teacher page is the publication/gradebook/platform/readiness dashboard; the student page explains Modules-first navigation, evidence and submission choices, privacy, and absence/platform recovery. Keep both unpublished until their own browser and Student View checks pass.
+The course also keeps three coordinated course-level surfaces: `TEACHER: CCE Course Launch Guide` at the top of the unpublished Teacher Build module, `STUDENT: Start Here - How CCE Works` as the only item in the first student-facing orientation module, and the unpublished `Career and College Exploration Home` replacement page. The teacher page is the publication/gradebook/platform/readiness dashboard; the student page explains Modules-first navigation, evidence and submission choices, privacy, and absence/platform recovery; the replacement home page gives students one obvious Modules launch without duplicating the daily directions. Keep all three unpublished until their browser and Student View checks pass. Do not replace a live front page or change the course home layout until the module sequence, navigation menu, direct links, and enrolled-student impact have been reviewed together.
 
 ### Teacher Facilitator Guide
 
@@ -246,6 +246,7 @@ No page pair is complete until all checks pass.
 - every template token was replaced;
 - every required Canvas file exists and opens;
 - teacher and student items appear in the intended module order; and
+- the replacement course-home page exists once, remains unpublished, and links to Modules and the Student Start Here page;
 - rerunning the importer does not create duplicate pages or module items.
 
 ### Content and accessibility checks

@@ -15,6 +15,7 @@ ORIENTATION_MODULE = "START HERE: CCE Course Orientation"
 TEACHER_MODULE = "Teacher Build: Licensed Resources"
 TEACHER_TITLE = "TEACHER: CCE Course Launch Guide"
 STUDENT_TITLE = "STUDENT: Start Here - How CCE Works"
+HOME_TITLE = "Career and College Exploration Home"
 
 
 def shell(title: str, subtitle: str, color: str, body: str) -> str:
@@ -176,6 +177,52 @@ def student_body() -> str:
     )
 
 
+def home_body(student_url: str) -> str:
+    modules_url = f"/courses/{COURSE_ID}/modules"
+    student_link = f"/courses/{COURSE_ID}/pages/{student_url}"
+    grades_url = f"/courses/{COURSE_ID}/grades"
+    return shell(
+        "Career and College Exploration",
+        "Explore careers, practice workplace skills, and build evidence for your next step.",
+        "#4b287d",
+        f"""
+<section style="background:#eef7f8;border:1px solid #b7d9de;border-radius:12px;padding:22px;margin:18px 0">
+  <h2 style="margin:0 0 8px;color:#166c7d;font-size:25px">Start today's lesson</h2>
+  <p style="margin:0 0 16px">Open Modules, choose the current six-weeks and week, then start with today's Student Guide.</p>
+  <p style="margin:0"><a href="{modules_url}" style="display:inline-block;background:#166c7d;color:#fff;text-decoration:none;padding:13px 18px;border-radius:8px;font-weight:700">Open Course Modules</a></p>
+</section>
+"""
+        + panel(
+            "How this course works",
+            f"""
+<p>Each week follows one route: Day header → Student Guide → activity. The guide tells you what to do, what counts as evidence, and how to submit it.</p>
+<p><a href="{student_link}">Read the Start Here guide</a> for privacy, submission, and platform-fallback directions.</p>
+""",
+            "#4b287d",
+        )
+        + panel(
+            "If you were absent or technology failed",
+            """
+<p>Open the current Student Guide and use its absence or platform route. Complete the same learning evidence through the named individual, paper, typed, or teacher-approved option. Required Xello completion moves to supervised catch-up when Xello is unavailable.</p>
+""",
+            "#a05a00",
+        )
+        + panel(
+            "Grades and feedback",
+            f"""
+<p>Practice and exit checks help you improve; they are not automatically separate grades. Each six-weeks uses three Minor Assessments and two Major Assessments. Open <a href="{grades_url}">Grades</a> for posted feedback and scores.</p>
+""",
+            "#2f7d32",
+        )
+        + """
+<section style="background:#fff7e6;border:1px solid #e7c679;border-radius:10px;padding:18px 20px;margin:18px 0">
+  <h2 style="margin:0 0 8px;color:#7a4a00;font-size:23px">Keep private information private</h2>
+  <p style="margin:0">Do not post passwords, student IDs, private Xello results, family finances, health information, or personal contact information. Use fictional or teacher-provided information in practice tasks.</p>
+</section>
+""",
+    )
+
+
 async def find_or_create_module(client: httpx.AsyncClient, name: str) -> dict:
     modules = await common.paged(client, f"/courses/{COURSE_ID}/modules")
     found = next((module for module in modules if module.get("name") == name), None)
@@ -200,6 +247,9 @@ async def main() -> None:
         student_page = await common.upsert_page(client, STUDENT_TITLE, student_body())
         teacher_page = await common.upsert_page(
             client, TEACHER_TITLE, teacher_body(student_page["url"])
+        )
+        home_page = await common.upsert_page(
+            client, HOME_TITLE, home_body(student_page["url"])
         )
         student_item = await common.upsert_item(
             client,
@@ -245,6 +295,7 @@ async def main() -> None:
                     "pages": {
                         "teacher": teacher_page,
                         "student": student_page,
+                        "home": home_page,
                     },
                     "items": [student_item, teacher_item],
                 }

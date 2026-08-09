@@ -28,6 +28,7 @@ ORIENTATION_MODULE = "START HERE: CCE Course Orientation"
 TEACHER_MODULE = "Teacher Build: Licensed Resources"
 TEACHER_TITLE = "TEACHER: CCE Course Launch Guide"
 STUDENT_TITLE = "STUDENT: Start Here - How CCE Works"
+HOME_TITLE = "Career and College Exploration Home"
 
 
 class BodyAudit(HTMLParser):
@@ -363,6 +364,7 @@ async def audit_orientation(client: httpx.AsyncClient, modules: list[dict]) -> d
 
     student_page = None
     teacher_page = None
+    home_page = None
     if student_items:
         student_page = await api(
             client, f"/courses/{COURSE_ID}/pages/{student_items[0]['page_url']}"
@@ -370,6 +372,16 @@ async def audit_orientation(client: httpx.AsyncClient, modules: list[dict]) -> d
     if launch_items:
         teacher_page = await api(
             client, f"/courses/{COURSE_ID}/pages/{launch_items[0]['page_url']}"
+        )
+    course_pages = await paged(client, f"/courses/{COURSE_ID}/pages")
+    home_matches = [page for page in course_pages if page.get("title") == HOME_TITLE]
+    if len(home_matches) != 1:
+        problems.append(
+            f"expected one replacement course-home page; found {len(home_matches)}"
+        )
+    elif home_matches:
+        home_page = await api(
+            client, f"/courses/{COURSE_ID}/pages/{home_matches[0]['url']}"
         )
 
     parsed: dict[str, BodyAudit] = {}
@@ -386,6 +398,16 @@ async def audit_orientation(client: httpx.AsyncClient, modules: list[dict]) -> d
                 "before the course opens",
                 "publication sequence",
                 "when the planned route fails",
+            ),
+        ),
+        (
+            "home",
+            home_page,
+            (
+                "start today's lesson",
+                "how this course works",
+                "if you were absent",
+                "grades and feedback",
             ),
         ),
     ):
@@ -410,12 +432,21 @@ async def audit_orientation(client: httpx.AsyncClient, modules: list[dict]) -> d
         student_url = str(student_page.get("url"))
         if not any(student_url in href for href in parsed["teacher"].links):
             problems.append("teacher launch page does not link to student orientation")
+    if student_page and home_page:
+        student_url = str(student_page.get("url"))
+        if not any(student_url in href for href in parsed["home"].links):
+            problems.append("replacement course-home page does not link to orientation")
+        if not any(
+            f"/courses/{COURSE_ID}/modules" in href for href in parsed["home"].links
+        ):
+            problems.append("replacement course-home page does not link to Modules")
 
     return {
         "module_id": orientation.get("id"),
         "teacher_module_id": teacher_module.get("id"),
         "student_page": student_page.get("url") if student_page else None,
         "teacher_page": teacher_page.get("url") if teacher_page else None,
+        "home_page": home_page.get("url") if home_page else None,
         "problems": problems,
         "passed": not problems,
     }
