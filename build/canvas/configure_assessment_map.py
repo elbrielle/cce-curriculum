@@ -26,6 +26,7 @@ MAP_PATH = ROOT / "docs/resources/six-weeks-assessment-map.md"
 
 MINOR_GROUP = "Minor Assessments (40%)"
 MAJOR_GROUP = "Major Assessments (60%)"
+SUBMISSION_LINK_MARKER = "cce-mapped-assignment-link-v1"
 
 
 @dataclass(frozen=True)
@@ -288,10 +289,67 @@ def default_description(assessment: Assessment) -> str:
     )
 
 
+async def ensure_student_submission_link(
+    client, student_item: dict, assignment: dict, assessment: Assessment
+) -> None:
+    """Add one visible, repeat-safe submission route to the matching Student Guide."""
+    page_url = student_item.get("page_url")
+    if not page_url:
+        raise ValueError(f"student page URL missing for {assessment.title!r}")
+    page = await api(client, "GET", f"/courses/{COURSE_ID}/pages/{page_url}")
+    body = page.get("body") or ""
+    body = re.sub(
+        rf'\s*<section[^>]+data-cce-marker="{SUBMISSION_LINK_MARKER}"[\s\S]*?</section>',
+        "",
+        body,
+    ).rstrip()
+    label = "minor" if assessment.group == MINOR_GROUP else "major"
+    panel = (
+        f'<section data-cce-marker="{SUBMISSION_LINK_MARKER}" '
+        'style="border:2px solid #1f617a;border-radius:12px;padding:18px 20px;'
+        'margin:24px 0;background:#f2f8fb">'
+        f'<h3 style="margin:0 0 8px;color:#1f617a">Submit your {label} evidence</h3>'
+        '<p style="margin:0 0 14px">Use the scoring tool to check your work, then '
+        'submit through this private Canvas assignment. Your teacher will tell you '
+        'whether to type, upload a file, record approved media, or turn in the paper route.</p>'
+        f'<p style="margin:0"><a href="/courses/{COURSE_ID}/assignments/{assignment["id"]}" '
+        'style="display:inline-block;background:#1f617a;color:#fff;padding:11px 18px;'
+        'border-radius:6px;text-decoration:none;font-weight:700" '
+        f'data-api-endpoint="/api/v1/courses/{COURSE_ID}/assignments/{assignment["id"]}" '
+        'data-api-returntype="Assignment">'
+        f'Open {assessment.title}</a></p></section>'
+    )
+    await api(
+        client,
+        "PUT",
+        f"/courses/{COURSE_ID}/pages/{page_url}",
+        data={
+            "wiki_page[title]": page["title"],
+            "wiki_page[body]": f"{body}\n{panel}",
+            "wiki_page[published]": "false",
+            "wiki_page[editing_roles]": "teachers",
+        },
+    )
+
+
 async def ensure_module_item(
     client, module: dict, assignment: dict, assessment: Assessment
 ) -> None:
     items = await paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
+    student = next(
+        (
+            item
+            for item in items
+            if item.get("type") == "Page"
+            and (item.get("title") or "").startswith("STUDENT:")
+            and f"Day {assessment.day}" in (item.get("title") or "")
+        ),
+        None,
+    )
+    if not student:
+        raise ValueError(
+            f"student Day {assessment.day} page not found in {assessment.module}"
+        )
     found = next(
         (
             item
@@ -308,21 +366,8 @@ async def ensure_module_item(
             f"/courses/{COURSE_ID}/modules/{module['id']}/items/{found['id']}",
             data={"module_item[title]": assessment.title},
         )
+        await ensure_student_submission_link(client, student, assignment, assessment)
         return
-    student = next(
-        (
-            item
-            for item in items
-            if item.get("type") == "Page"
-            and (item.get("title") or "").startswith("STUDENT:")
-            and f"Day {assessment.day}" in (item.get("title") or "")
-        ),
-        None,
-    )
-    if not student:
-        raise ValueError(
-            f"student Day {assessment.day} page not found in {assessment.module}"
-        )
     created = await api(
         client,
         "POST",
@@ -339,6 +384,7 @@ async def ensure_module_item(
         f"/courses/{COURSE_ID}/modules/{module['id']}/items/{created['id']}",
         data={"module_item[position]": str(student["position"] + 1)},
     )
+    await ensure_student_submission_link(client, student, assignment, assessment)
 
 
 async def run(token: str) -> dict:

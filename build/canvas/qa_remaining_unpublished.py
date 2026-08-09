@@ -15,7 +15,12 @@ import sys
 from html.parser import HTMLParser
 from pathlib import Path
 
-from configure_assessment_map import ASSESSMENTS, MAJOR_GROUP, MINOR_GROUP
+from configure_assessment_map import (
+    ASSESSMENTS,
+    MAJOR_GROUP,
+    MINOR_GROUP,
+    SUBMISSION_LINK_MARKER,
+)
 from configure_assessment_rubrics import NOTE_MARKER, RUBRIC_PREFIX, RUBRICS
 
 BASE = "https://learn.irvingisd.net"
@@ -606,14 +611,42 @@ async def audit_assessment_map(client: httpx.AsyncClient, modules: list[dict]) -
             items = await paged(
                 client, f"/courses/{COURSE_ID}/modules/{module['id']}/items"
             )
-            if not any(
-                item.get("type") == "Assignment"
-                and item.get("content_id") == assignment.get("id")
+            assignment_items = [
+                item
                 for item in items
-            ):
+                if item.get("type") == "Assignment"
+                and item.get("content_id") == assignment.get("id")
+            ]
+            if len(assignment_items) != 1:
                 problems.append(
-                    f"mapped assignment is not in its module: {assessment.title}"
+                    f"mapped assignment is not in its module exactly once: {assessment.title}"
                 )
+            student_items = [
+                item
+                for item in items
+                if item.get("type") == "Page"
+                and (item.get("title") or "").startswith("STUDENT:")
+                and f"Day {assessment.day}" in (item.get("title") or "")
+            ]
+            if len(student_items) != 1:
+                problems.append(
+                    f"mapped assignment has no unique Day {assessment.day} student guide: {assessment.title}"
+                )
+            else:
+                student_page = await api(
+                    client,
+                    f"/courses/{COURSE_ID}/pages/{student_items[0]['page_url']}",
+                )
+                student_body = student_page.get("body") or ""
+                expected_href = f"/courses/{COURSE_ID}/assignments/{assignment['id']}"
+                if student_body.count(SUBMISSION_LINK_MARKER) != 1:
+                    problems.append(
+                        f"student guide lacks one mapped submission panel: {assessment.title}"
+                    )
+                if expected_href not in student_body:
+                    problems.append(
+                        f"student guide does not link to its mapped assignment: {assessment.title}"
+                    )
         rows.append(
             {
                 "id": assignment.get("id"),
