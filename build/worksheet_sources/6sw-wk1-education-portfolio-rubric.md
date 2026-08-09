@@ -6,7 +6,7 @@ weeks: 6sw/wk1-education
 audience: student
 variant_of:
 language: en
-pages: 3
+pages: 2
 orientation: landscape
 ---
 
@@ -21,7 +21,7 @@ orientation: landscape
 
 Total: ____ / 16
 
-This remains a Major draft until the live sixth-six-weeks 40/60 assessment map is verified.
+This is Minor 1 in the approved sixth-six-weeks assessment map. It remains unpublished until the course review gate passes.
 
 [[pagebreak]]
 
@@ -29,16 +29,16 @@ This remains a Major draft until the live sixth-six-weeks 40/60 assessment map i
 
 Teacher feedback:
 
-[[lines: 7]]
+[[lines: 5]]
 
 My weakest criterion and why:
 
-[[lines: 5]]
+[[lines: 3]]
 
 My visible revision:
 
-[[lines: 7]]
+[[lines: 4]]
 
 One source label or pathway claim I rechecked:
 
-[[lines: 4]]
+[[lines: 2]]

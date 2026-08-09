@@ -14,7 +14,7 @@ I can identify careers in Education and Training, compare verified preparation r
 | 2 | Texas teacher and educational-aide routes | source-bounded route comparison | private annotation Assignment |
 | 3 | Reading education job evidence | two-posting comparison and evidence limit | unlimited-retry practice Quiz |
 | 4 | Teach Through Play + service | tested activity plan, revisions, service analysis | private annotation Assignment |
-| 5 | Current Irving pathways + synthesis | six-page evidence portfolio and self-score | private Major-draft Assignment |
+| 5 | Current Irving pathways + synthesis | four-page evidence portfolio and self-score | private Minor 1 Assignment |
 
 ## TEKS Alignment
 
@@ -43,7 +43,7 @@ I can identify careers in Education and Training, compare verified preparation r
 
 ## Assessment and Grading
 
-Days 1-4 create visible formative evidence. Day 5 is **Minor 1** in the [6SW assessment map](../../resources/six-weeks-assessment-map.md). Keep it unpublished until the Canvas Minor group and 40/60 weights are verified. The rubric uses Masters, Meets, Approaches, Needs Improvement, and Insufficient Evidence. Preference, artistic polish, handwriting, English mechanics, platform access, and willingness to disclose personal service are not scored.
+Days 1-4 create visible formative evidence. Day 5 is **Minor 1** in the [6SW assessment map](../../resources/six-weeks-assessment-map.md). Keep it unpublished until the Canvas review gate passes. The rubric uses Masters, Meets, Approaches, Needs Improvement, and Insufficient Evidence. Preference, artistic polish, handwriting, English mechanics, platform access, and willingness to disclose personal service are not scored.
 
 ## Access and Absence Route
 

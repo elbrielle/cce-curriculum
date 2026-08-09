@@ -3,21 +3,21 @@
 ## Target and Evidence
 
 **TEKS:** d(1)(B), d(1)(C), d(2)(A), d(2)(B), d(4)(E)
-**Evidence:** six-page Education Career Evidence Portfolio + visible 16-point rubric
+**Evidence:** four-page Education Career Evidence Portfolio + visible 16-point rubric
 
 Students use the week's evidence to explain one current direction, preparation boundary, posting fact, design revision, service connection, limitation, and next action.
 
 ## Before Class
 
 - Open the current Irving High School CTE page and licensed FYF pp. 218-220.
-- Post the portfolio, rubric, and private Major-draft Assignment.
-- Keep the assignment ungraded/unpublished until the sixth-six-weeks 40/60 map is verified.
+- Post the portfolio, rubric, and private Minor 1 Assignment.
+- Keep the assignment unpublished until the Canvas review gate passes.
 
 ## 50-Minute Flow
 
 1. **Current local evidence — 8 min.** Irving currently names Education and Training at Irving High, MacArthur, and Nimitz, and Early Childhood Education at Cardwell. Separate public listing from guarantees about courses, credentials, travel, admission, or placement.
 2. **Workbook/current comparison — 5 min.** Treat the FYF district pages as curriculum context and identify what must be verified now.
-3. **Assemble evidence — 22 min.** Students complete the six-page portfolio using Days 1-4 or the fixed missing-work strip in Canvas.
+3. **Assemble evidence — 22 min.** Students complete the four-page portfolio using Days 1-4 or the fixed missing-work strip in Canvas. Short source fields accept phrases; reasoning has dedicated full-width space.
 4. **Self-score and revise — 10 min.** Students use all four rubric criteria and make one visible repair.
 5. **Exit — 5 min.** One supported conclusion, one limitation, and one next action.
 

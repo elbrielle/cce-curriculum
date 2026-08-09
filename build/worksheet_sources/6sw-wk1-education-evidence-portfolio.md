@@ -6,73 +6,67 @@ weeks: 6sw/wk1-education
 audience: student
 variant_of:
 language: en
-pages: 6
+pages: 4
 orientation: portrait
 ---
 
-## Current Direction
+## Current Direction and Learning Design
 
 Career or role I am analyzing: __________________________________________
 
 Current Irving pathway connection, if verified: ___________________________
 
-One current fact and its source/date:
+One current fact with source and date:
 
-[[lines: 5]]
+[[lines: 3]]
 
 One claim I am not making:
 
-[[lines: 4]]
-
-[[pagebreak]]
-
-## Learning-Space Evidence
+[[lines: 2]]
 
 My Community Classroom goal:
 
-[[lines: 4]]
+[[lines: 2]]
 
 One design choice and how it supports learning:
 
-[[lines: 6]]
+[[lines: 3]]
 
 One Education career that contributes and what the worker produces:
 
-[[lines: 5]]
+[[lines: 2]]
 
 [[pagebreak]]
 
-## Preparation-Route Evidence
+## Preparation Route and Job Evidence
 
 One verified Texas requirement:
 
-[[lines: 4]]
+[[lines: 2]]
 
 One provider-specific fact that still must be checked:
 
-[[lines: 5]]
+[[lines: 2]]
 
 My route recommendation for the fictional student and the tradeoff:
 
-[[lines: 7]]
-
-[[pagebreak]]
-
-## Job-Posting Evidence
+[[lines: 3]]
 
 Posting card selected: __________________________
 
-One responsibility, one qualification, and one preparation statement:
+Responsibility: [[lines: 1]]
 
-[[lines: 7]]
+Qualification: [[lines: 1]]
+
+Preparation statement: [[lines: 1]]
 
 One transferable skill and how the worker uses it:
 
-[[lines: 6]]
+[[lines: 2]]
 
 One limitation of the posting evidence:
 
-[[lines: 4]]
+[[lines: 2]]
 
 [[pagebreak]]
 
@@ -80,15 +74,15 @@ One limitation of the posting evidence:
 
 One tested design revision and why it improved the activity:
 
-[[lines: 6]]
+[[lines: 3]]
 
 One service skill and how it transfers to the selected career:
 
-[[lines: 6]]
+[[lines: 3]]
 
 Why community service has value beyond an application line:
 
-[[lines: 6]]
+[[lines: 3]]
 
 [[pagebreak]]
 
@@ -96,12 +90,12 @@ Why community service has value beyond an application line:
 
 Does this direction currently fit you? Preference alone is not graded. Use one design example, one preparation fact, one posting fact, and one service or leadership skill.
 
-[[lines: 14]]
+[[lines: 8]]
 
 My next verification or learning action:
 
-[[lines: 5]]
+[[lines: 3]]
 
 Revision made after self-scoring:
 
-[[lines: 4]]
+[[lines: 3]]
