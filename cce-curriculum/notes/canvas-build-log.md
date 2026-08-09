@@ -699,6 +699,7 @@ This log records the official Canvas build without storing access credentials or
 - The orchestrator reads one token from standard input, passes it only through each child builder's standard input, redacts it from failure output, stops on the first failed build, and writes no credential or import-state file.
 - 4SW Wk1 is intentionally excluded because it already exists in the live course. Individual week builders retain idempotent upsert behavior and remain the unit of retry.
 - Local checks: script compiles; empty-input test exits 2 with `Canvas token required on stdin`; live import remains pending secure token input.
+- The orchestrator now supports `--preflight` without a credential. The current pass confirms all 17 builders compile and all 18 4SW-6SW student templates meet the semantic-heading/disclosure/no-legacy-tabs contract before the token prompt.
 
 ## 2026-08-08 - Canvas builder grading-label reconciliation
 

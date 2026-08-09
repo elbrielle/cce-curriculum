@@ -195,6 +195,14 @@ Do not print, log, commit, or repeat the token.
 
 For the repaired 4SW-6SW sequence, `build/canvas/import_remaining_unpublished.py` may run all 17 remaining week builders with one token entered through standard input. It excludes 4SW Wk1 because that module is already present. The orchestrator stops on the first failed builder, does not attempt later modules after a failure, and prints only a concise module/item summary. It never accepts the token as a command-line argument or writes it to disk.
 
+Run its credential-free preflight before requesting the token:
+
+```bash
+python3 build/canvas/import_remaining_unpublished.py --preflight
+```
+
+The preflight compiles all 17 builders and checks the 4SW-6SW student templates for the approved semantic callout headings, disclosure summaries, and absence of legacy Canvas tabs. A failed preflight makes no Canvas request.
+
 ### Classic Quiz practice checks
 
 Use a Classic Quiz when a brief, automatically scored misconception check will save teacher time and immediate feedback is more useful than a printed response sheet. Keep a practice check ungraded and unpublished until review. A reliable importer should:

@@ -8,6 +8,7 @@ command-line argument, written to a file, or included in summary output.
 from __future__ import annotations
 
 import json
+import py_compile
 import subprocess
 import sys
 from pathlib import Path
@@ -20,6 +21,58 @@ IMPORTERS = [
     *(CANVAS_DIR / f"build_5sw_wk{week}.py" for week in range(1, 7)),
     *(CANVAS_DIR / f"build_6sw_wk{week}.py" for week in range(1, 7)),
 ]
+
+
+def preflight() -> int:
+    errors: list[str] = []
+    missing = [str(path.relative_to(ROOT)) for path in IMPORTERS if not path.is_file()]
+    if missing:
+        errors.append("Missing importer(s): " + ", ".join(missing))
+
+    for importer in IMPORTERS:
+        if not importer.is_file():
+            continue
+        try:
+            py_compile.compile(str(importer), doraise=True)
+        except py_compile.PyCompileError as exc:
+            errors.append(f"{importer.relative_to(ROOT)}: {exc.msg}")
+
+    template_dir = CANVAS_DIR / "templates"
+    student_templates = sorted(
+        path
+        for prefix in ("4sw-", "5sw-", "6sw-")
+        for path in template_dir.glob(f"{prefix}*-student.html")
+    )
+    expected_headings = (
+        '<h3 style="margin:0 0 8px;font-size:20px">Today you will</h3>',
+        '<h3 style="margin:0 0 8px;font-size:20px">Exit check</h3>',
+        '<h3 style="margin:0 0 8px;font-size:20px">You are done when</h3>',
+    )
+    for template in student_templates:
+        text = template.read_text()
+        for heading in expected_headings:
+            if heading not in text:
+                errors.append(
+                    f"{template.relative_to(ROOT)}: missing semantic callout heading {heading}"
+                )
+        if "enhanceable_content" in text:
+            errors.append(f"{template.relative_to(ROOT)}: legacy Canvas tabs are not allowed")
+        if text.count("<details") != text.count("<summary"):
+            errors.append(
+                f"{template.relative_to(ROOT)}: every disclosure must have one summary"
+            )
+
+    if errors:
+        print("Preflight failed:", file=sys.stderr)
+        for error in errors:
+            print(f"- {error}", file=sys.stderr)
+        return 2
+
+    print(
+        f"Preflight passed: {len(IMPORTERS)} builders compile and "
+        f"{len(student_templates)} student templates meet the accessibility contract."
+    )
+    return 0
 
 
 def redact(value: str, token: str) -> str:
@@ -44,14 +97,16 @@ def summarize(payload: object) -> str:
 
 
 def main() -> int:
+    if "--preflight" in sys.argv[1:]:
+        return preflight()
+
+    check = preflight()
+    if check:
+        return check
+
     token = sys.stdin.readline().strip()
     if not token:
         print("Canvas token required on stdin", file=sys.stderr)
-        return 2
-
-    missing = [str(path.relative_to(ROOT)) for path in IMPORTERS if not path.is_file()]
-    if missing:
-        print("Missing importer(s): " + ", ".join(missing), file=sys.stderr)
         return 2
 
     total = len(IMPORTERS)
