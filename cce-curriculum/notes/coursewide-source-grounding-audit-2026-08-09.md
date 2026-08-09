@@ -1,7 +1,7 @@
 # Coursewide Source-Grounding and Next-Day-Readiness Audit
 
-**Audit date:** 2026-08-09  
-**Scope:** 36 unpublished instructional modules, 180 Teacher/Student day pairs  
+**Audit date:** 2026-08-09
+**Scope:** 36 unpublished instructional modules, 180 Teacher/Student day pairs
 **Status:** Structural inventory complete; source-by-source semantic verification in progress
 
 ## What this audit proves, and what it does not
