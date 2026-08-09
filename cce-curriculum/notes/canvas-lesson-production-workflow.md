@@ -277,6 +277,14 @@ Open the page through its module-item URL, not only the bare Pages URL. Verify:
 
 Run Canvas Student View before publication. Use the Canvas accessibility checker when final editing begins.
 
+After the unpublished transfer passes, run the separate publication snapshot:
+
+```bash
+uv run --with httpx python build/canvas/qa_course_publication.py
+```
+
+Enter the token through the same echo-disabled, stdin-only pattern. This audit is intentionally stricter than the transfer verifier: it reports the active front page, generic-template placeholders and layout tables, week-module inventory and published state, orientation/teacher-module boundary, learner navigation tabs, assignment groups, and published pages. A nonzero result means the course is still staged or has a learner-facing publication risk; it does not mean the unpublished import failed. Do not silence a finding by publishing everything or hiding links blindly. Resolve it through Student View and record the intended opening sequence.
+
 If an image is slow on first load, treat that as a performance defect even when it eventually appears. Record its Canvas file ID, source dimensions, byte size, page, and whether it is reused. Test an optimized copy against the original at desktop and 390-pixel viewport widths, including close inspection of the smallest instructional text. Replace the Canvas copy only after the optimized version remains equally usable; keep the licensed source original unchanged in the local gitignored archive.
 
 ## 7. Record and publish the source work
