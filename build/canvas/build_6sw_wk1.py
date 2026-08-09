@@ -7,7 +7,7 @@ import build_5sw_wk1 as prior
 common=prior.common; COURSE_ID=common.COURSE_ID; ROOT=common.ROOT
 ASSETS=ROOT/"cce-curriculum/resources/canvas-licensed/6sw/wk1"
 MODULE_NAME="6SW Wk1: Education — Learning Design, Routes, and Service"
-TITLES={1:"PRACTICE: Community Classroom Learning-Space Plan",2:"PRACTICE: Texas Education Career Routes",3:"PRACTICE: Reading Education Job Evidence",4:"PRACTICE: Teach Through Play and Service",5:"MINOR 1: Education Career Evidence Portfolio"}
+TITLES={1:"PRACTICE: Community Classroom Learning-Space Plan",2:"PRACTICE: Texas Education Career Routes",3:"PRACTICE: Reading Education Job Evidence",4:"PRACTICE: Teach Through Play and Service",5:"MINOR 1: Education Evidence Portfolio"}
 
 async def ensure_module(client):
     modules=await common.paged(client,f"/courses/{COURSE_ID}/modules"); found=next((m for m in modules if m["name"]==MODULE_NAME),None); data={"module[published]":"false"}

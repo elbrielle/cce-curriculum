@@ -17,7 +17,7 @@ MODULE_NAME = "5SW Wk3: Construction — Routes, Evidence, and Observation"
 
 CAREER_TITLE = "PRACTICE: Construction Career Evidence"
 ROUTES_TITLE = "PRACTICE: Construction Routes and Organizations"
-CLASSIFY_TITLE = "MINOR 3: Construction Labor-Market Classification"
+CLASSIFY_TITLE = "MINOR 3: Construction Labor-Evidence Classification"
 OBSERVE_TITLE = "PRACTICE: Fictional Visual Observation Lab"
 REPORT_TITLE = "FORMATIVE: Construction Evidence Report and Briefing"
 

@@ -6,7 +6,7 @@ import build_5sw_wk1 as prior
 
 common=prior.common; COURSE_ID=common.COURSE_ID; ROOT=common.ROOT
 MODULE_NAME="6SW Wk5: Job Search, Applications, and Interviews"
-TITLES={1:"PRACTICE: Job Search and Posting Evidence",2:"PRACTICE: Tailored Cover Letter",3:"PRACTICE: Application and References",4:"PRACTICE: Interview Readiness",5:"MAJOR 1: Mock Interview and Follow-Up"}
+TITLES={1:"PRACTICE: Job Search and Posting Evidence",2:"PRACTICE: Tailored Cover Letter",3:"PRACTICE: Application and References",4:"PRACTICE: Interview Readiness",5:"MAJOR 1: Job Skills, Application, and Mock Interview Portfolio"}
 
 async def ensure_module(client):
     modules=await common.paged(client,f"/courses/{COURSE_ID}/modules"); found=next((m for m in modules if m["name"]==MODULE_NAME),None); data={"module[published]":"false"}

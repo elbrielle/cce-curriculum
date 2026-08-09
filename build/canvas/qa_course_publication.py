@@ -124,6 +124,7 @@ async def run(token: str) -> int:
             for row in group_rows
             if row["name"] not in {"Minor Assessments (40%)", "Major Assessments (60%)"}
         ]
+        mapped_groups = {row["name"]: row for row in group_rows}
 
         must_fix: list[str] = []
         warnings: list[str] = []
@@ -171,6 +172,25 @@ async def run(token: str) -> int:
             warnings.append(
                 f"{len(legacy_groups)} legacy/default assignment groups remain visible in Syllabus"
             )
+        if not course.get("apply_assignment_group_weights"):
+            must_fix.append("assignment-group weighting is not enabled")
+        for name, weight, count in (
+            ("Minor Assessments (40%)", 40, 18),
+            ("Major Assessments (60%)", 60, 12),
+        ):
+            group = mapped_groups.get(name)
+            if not group:
+                must_fix.append(f"missing mapped assignment group {name!r}")
+                continue
+            if float(group.get("weight") or 0) != weight:
+                must_fix.append(
+                    f"{name} weight is {group.get('weight')}; expected {weight}"
+                )
+            if group.get("assignments") != count:
+                must_fix.append(
+                    f"{name} contains {group.get('assignments')} assignments; "
+                    f"expected {count}"
+                )
 
         snapshot = {
             "course": {

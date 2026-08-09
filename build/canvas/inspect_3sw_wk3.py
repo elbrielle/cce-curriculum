@@ -8,7 +8,7 @@ COURSE_ID = 98060
 MODULE_NAME = "3SW Wk3: Sustainable Engineering and Pest Patrol"
 ASSIGNMENTS = {
     "PRACTICE: Pest Patrol Drone Draft",
-    "PRACTICE: Sustainable Engineering Evidence Packet",
+    "MAJOR 2: Sustainable Engineering Design and Trends Evidence",
     "PRACTICE: Xello Set Goals Reflection",
 }
 

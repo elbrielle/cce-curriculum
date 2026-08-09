@@ -16,7 +16,7 @@ ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/4sw/wk2"
 MODULE_NAME = "4SW Wk2: Build a Counseling-Ready High School Plan"
 QUIZ_TITLE = "PRACTICE: What Does This Assessment Affect?"
 ANNOTATION_TITLE = "DRAFT: Four-Year Course Plan Annotation"
-PLAN_TITLE = "DRAFT: Individual High School and Career Plan"
+PLAN_TITLE = "MAJOR 2: Individual High School and Career Plan"
 
 
 async def ensure_module(client):

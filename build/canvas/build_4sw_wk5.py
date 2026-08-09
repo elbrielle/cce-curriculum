@@ -17,7 +17,7 @@ CRASH_TITLE = "PRACTICE: Crash Crew Evidence and Preliminary Plan"
 ASE_QUIZ_TITLE = "PRACTICE: ASE and Training Route Check"
 CAREER_TITLE = "PRACTICE: Compare Three Automotive Occupations"
 SOURCE_QUIZ_TITLE = "PRACTICE: What Does This Source Prove?"
-BRIEF_TITLE = "DRAFT: Automotive Evidence Brief"
+BRIEF_TITLE = "MINOR 3: Automotive Evidence Brief"
 
 
 async def ensure_module(client):

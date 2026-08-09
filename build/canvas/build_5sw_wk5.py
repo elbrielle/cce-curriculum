@@ -20,7 +20,7 @@ DAY_TITLES = {
     2: "PRACTICE: Dallas County Personal Budget",
     3: "PRACTICE: Location Cost Comparison",
     4: "PRACTICE: Paying for Education and Training Check",
-    5: "MAJOR 2: Personal Budget and Career Evidence Portfolio",
+    5: "MAJOR 2: Personal Budget Evidence Portfolio",
 }
 
 

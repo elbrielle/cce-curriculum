@@ -17,7 +17,7 @@ DESIGN_TITLE = "PRACTICE: Wildlife-Tracking Drone Design"
 CAREER_QUIZ_TITLE = "PRACTICE: Label the Career Evidence"
 RULE_QUIZ_TITLE = "PRACTICE: Indoor, Outdoor, or Part 107?"
 TEST_TITLE = "PRACTICE: Drone Systems Test and Iteration"
-BRIEF_TITLE = "DRAFT: Drone Systems Evidence Brief"
+BRIEF_TITLE = "MINOR 2: Drone Systems Evidence Brief"
 
 
 async def ensure_module(client):

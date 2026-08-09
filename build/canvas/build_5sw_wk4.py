@@ -18,9 +18,9 @@ MODULE_NAME = "5SW Wk4: Skilled Trades — Evidence, Routes, and Communication"
 ASSIGNMENT_TITLES = {
     1: "PRACTICE: Skilled-Trades Career Evidence",
     2: "PRACTICE: HVAC Evidence-First Field Notes",
-    3: "MAJOR 1A: Skilled-Trades Labor Classification",
+    3: "PRACTICE: Skilled-Trades Labor Classification",
     4: "PRACTICE: Current Entry Routes",
-    5: "MAJOR 1B: Fictional Water-Line Response and Briefing",
+    5: "MAJOR 1: Skilled-Trades Classification and Individual Response",
 }
 
 

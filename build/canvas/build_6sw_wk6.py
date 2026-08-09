@@ -6,7 +6,7 @@ import build_5sw_wk1 as prior
 common=prior.common; COURSE_ID=common.COURSE_ID; ROOT=common.ROOT
 ASSETS=ROOT/"cce-curriculum/resources/canvas-licensed/6sw/wk6"
 MODULE_NAME="6SW Wk6: Career Evidence Capstone"
-TITLES={1:"CAPSTONE: Evidence Inventory and Recovery",2:"CAPSTONE: Individual Career Plan",3:"CAPSTONE: Presentation Plan and Rehearsal",4:"MAJOR 2: Communicated Career Capstone",5:"CAPSTONE: Final Course Reflection"}
+TITLES={1:"CAPSTONE: Evidence Inventory and Recovery",2:"CAPSTONE: Individual Career Plan",3:"CAPSTONE: Presentation Plan and Rehearsal",4:"MAJOR 2: Individual Career Plan and Communicated Capstone",5:"CAPSTONE: Final Course Reflection"}
 
 async def ensure_module(client):
     ms=await common.paged(client,f"/courses/{COURSE_ID}/modules"); m=next((x for x in ms if x["name"]==MODULE_NAME),None); data={"module[published]":"false"}

@@ -23,6 +23,7 @@ IMPORTERS = [
     *(CANVAS_DIR / f"build_6sw_wk{week}.py" for week in range(1, 7)),
 ]
 ALL_IMPORTERS = [ORIENTATION_IMPORTER, *IMPORTERS]
+ASSESSMENT_CONFIGURATOR = CANVAS_DIR / "configure_assessment_map.py"
 IMAGE_NORMALIZER = CANVAS_DIR / "normalize_unpublished_image_loading.py"
 QA_SCRIPT = CANVAS_DIR / "qa_remaining_unpublished.py"
 
@@ -36,6 +37,8 @@ def preflight() -> int:
         missing.append(str(QA_SCRIPT.relative_to(ROOT)))
     if not IMAGE_NORMALIZER.is_file():
         missing.append(str(IMAGE_NORMALIZER.relative_to(ROOT)))
+    if not ASSESSMENT_CONFIGURATOR.is_file():
+        missing.append(str(ASSESSMENT_CONFIGURATOR.relative_to(ROOT)))
     if missing:
         errors.append("Missing importer(s): " + ", ".join(missing))
 
@@ -56,6 +59,11 @@ def preflight() -> int:
             py_compile.compile(str(IMAGE_NORMALIZER), doraise=True)
         except py_compile.PyCompileError as exc:
             errors.append(f"{IMAGE_NORMALIZER.relative_to(ROOT)}: {exc.msg}")
+    if ASSESSMENT_CONFIGURATOR.is_file():
+        try:
+            py_compile.compile(str(ASSESSMENT_CONFIGURATOR), doraise=True)
+        except py_compile.PyCompileError as exc:
+            errors.append(f"{ASSESSMENT_CONFIGURATOR.relative_to(ROOT)}: {exc.msg}")
 
     dependency_roots = (
         ROOT / "docs/resources/worksheets",
@@ -260,6 +268,38 @@ def main() -> int:
             return 3
         print("  " + summarize(payload), flush=True)
 
+    print("Configuring the approved 30-entry assessment map...", flush=True)
+    assessment_setup = subprocess.run(
+        [sys.executable, str(ASSESSMENT_CONFIGURATOR)],
+        cwd=ROOT,
+        input=token + "\n",
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    if assessment_setup.returncode:
+        print(
+            redact(assessment_setup.stderr or assessment_setup.stdout, token),
+            file=sys.stderr,
+        )
+        print(
+            "All builders ran, but assessment-map setup failed. Nothing was published.",
+            file=sys.stderr,
+        )
+        return assessment_setup.returncode
+    try:
+        assessment_payload = json.loads(assessment_setup.stdout)
+    except json.JSONDecodeError:
+        print(redact(assessment_setup.stdout[-4000:], token), file=sys.stderr)
+        print("Assessment-map output was not valid JSON.", file=sys.stderr)
+        return 3
+    print(
+        "  "
+        f"minor={sum(1 for item in assessment_payload.get('assignments', []) if item.get('group') == 'Minor Assessments (40%)')} "
+        f"major={sum(1 for item in assessment_payload.get('assignments', []) if item.get('group') == 'Major Assessments (60%)')}",
+        flush=True,
+    )
+
     print("Normalizing image loading across all 36 unpublished modules...", flush=True)
     normalization = subprocess.run(
         [sys.executable, str(IMAGE_NORMALIZER)],
@@ -320,6 +360,7 @@ def main() -> int:
     print(
         "QA passed: "
         f"orientation={qa.get('orientation', {}).get('passed')} "
+        f"assessment_map={qa.get('assessment_map', {}).get('passed')} "
         f"modules={qa.get('passed_modules')}/{qa.get('expected_modules')} "
         f"items={qa.get('items')} pages={qa.get('pages')} "
         f"interactions={qa.get('interactions')} "

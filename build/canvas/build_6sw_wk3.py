@@ -7,7 +7,7 @@ import build_5sw_wk1 as prior
 common=prior.common; COURSE_ID=common.COURSE_ID; ROOT=common.ROOT
 ASSETS=ROOT/"cce-curriculum/resources/canvas-licensed/6sw/wk3"
 MODULE_NAME="6SW Wk3: Marketing - Audience, Entrepreneurship, and Data"
-TITLES={1:"PRACTICE: Click Factor CTA and Ad Plan",2:"PRACTICE: Written Communication and Changing Conditions",3:"PRACTICE: Expert Edge Entrepreneurship Plan",4:"PRACTICE: Family Fun Pass Data Analysis",5:"MINOR 3: Marketing Evidence Brief"}
+TITLES={1:"PRACTICE: Click Factor CTA and Ad Plan",2:"PRACTICE: Written Communication and Changing Conditions",3:"PRACTICE: Expert Edge Entrepreneurship Plan",4:"PRACTICE: Family Fun Pass Data Analysis",5:"MINOR 3: Ethical Marketing Evidence Brief"}
 
 async def ensure_module(client):
     modules=await common.paged(client,f"/courses/{COURSE_ID}/modules"); found=next((m for m in modules if m["name"]==MODULE_NAME),None); data={"module[published]":"false"}

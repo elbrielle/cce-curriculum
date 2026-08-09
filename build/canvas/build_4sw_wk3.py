@@ -16,7 +16,7 @@ ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/4sw/wk3"
 MODULE_NAME = "4SW Wk3: Aviation Routes, Systems, and Action Planning"
 QUIZ_TITLE = "PRACTICE: Is This Survey Useful?"
 LAB_TITLE = "PRACTICE: Airport Design and Simulation Lab"
-PLAN_TITLE = "DRAFT: Aviation Route and Action Plan"
+PLAN_TITLE = "MINOR 1: Aviation Route and Action Plan"
 
 
 async def ensure_module(client):

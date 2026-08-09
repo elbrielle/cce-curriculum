@@ -15,6 +15,8 @@ import sys
 from html.parser import HTMLParser
 from pathlib import Path
 
+from configure_assessment_map import ASSESSMENTS, MAJOR_GROUP, MINOR_GROUP
+
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
 ROOT = Path(__file__).resolve().parents[2]
@@ -466,6 +468,111 @@ async def audit_orientation(client: httpx.AsyncClient, modules: list[dict]) -> d
     }
 
 
+async def audit_assessment_map(client: httpx.AsyncClient, modules: list[dict]) -> dict:
+    problems: list[str] = []
+    course = await api(client, f"/courses/{COURSE_ID}")
+    groups = await paged(
+        client, f"/courses/{COURSE_ID}/assignment_groups?include[]=assignments"
+    )
+    assignments = await paged(client, f"/courses/{COURSE_ID}/assignments")
+    module_by_name = {module.get("name"): module for module in modules}
+    group_by_name: dict[str, dict] = {}
+    for name, expected_weight in ((MINOR_GROUP, 40), (MAJOR_GROUP, 60)):
+        matches = [group for group in groups if group.get("name") == name]
+        if len(matches) != 1:
+            problems.append(
+                f"expected one assignment group {name!r}; found {len(matches)}"
+            )
+            continue
+        group = matches[0]
+        group_by_name[name] = group
+        if float(group.get("group_weight") or 0) != expected_weight:
+            problems.append(
+                f"assignment group {name!r} weight is {group.get('group_weight')}, "
+                f"expected {expected_weight}"
+            )
+    if not course.get("apply_assignment_group_weights"):
+        problems.append("course assignment-group weighting is not enabled")
+
+    mapped_ids: set[int] = set()
+    mapped_counts = {MINOR_GROUP: 0, MAJOR_GROUP: 0}
+    rows: list[dict] = []
+    for assessment in ASSESSMENTS:
+        matches = [
+            assignment
+            for assignment in assignments
+            if assignment.get("name") == assessment.title
+        ]
+        if len(matches) != 1:
+            problems.append(
+                f"expected one mapped assignment {assessment.title!r}; found {len(matches)}"
+            )
+            continue
+        assignment = matches[0]
+        mapped_ids.add(int(assignment["id"]))
+        mapped_counts[assessment.group] += 1
+        group = group_by_name.get(assessment.group)
+        if group and assignment.get("assignment_group_id") != group.get("id"):
+            problems.append(
+                f"mapped assignment is in the wrong group: {assessment.title}"
+            )
+        if float(assignment.get("points_possible") or 0) != 100:
+            problems.append(f"mapped assignment is not 100 points: {assessment.title}")
+        if assignment.get("grading_type") != "points":
+            problems.append(
+                f"mapped assignment is not points-graded: {assessment.title}"
+            )
+        if assignment.get("published"):
+            problems.append(f"mapped assignment is published: {assessment.title}")
+        submission_types = assignment.get("submission_types") or []
+        if not set(submission_types) - {"none", "not_graded"}:
+            problems.append(
+                f"mapped assignment has no submission route: {assessment.title}"
+            )
+        module = module_by_name.get(assessment.module)
+        if not module:
+            problems.append(f"mapped assignment module is missing: {assessment.module}")
+        else:
+            items = await paged(
+                client, f"/courses/{COURSE_ID}/modules/{module['id']}/items"
+            )
+            if not any(
+                item.get("type") == "Assignment"
+                and item.get("content_id") == assignment.get("id")
+                for item in items
+            ):
+                problems.append(
+                    f"mapped assignment is not in its module: {assessment.title}"
+                )
+        rows.append(
+            {
+                "id": assignment.get("id"),
+                "title": assessment.title,
+                "group": assessment.group,
+                "module": assessment.module,
+            }
+        )
+
+    for name, group in group_by_name.items():
+        extras = [
+            assignment.get("name")
+            for assignment in group.get("assignments") or []
+            if int(assignment.get("id")) not in mapped_ids
+        ]
+        if extras:
+            problems.append(f"unmapped assignments in {name}: {extras}")
+    if mapped_counts != {MINOR_GROUP: 18, MAJOR_GROUP: 12}:
+        problems.append(f"mapped assessment counts are wrong: {mapped_counts}")
+
+    return {
+        "minor": mapped_counts[MINOR_GROUP],
+        "major": mapped_counts[MAJOR_GROUP],
+        "assignments": rows,
+        "problems": problems,
+        "passed": not problems,
+    }
+
+
 async def run(token: str) -> int:
     names = expected_modules()
     async with httpx.AsyncClient(
@@ -473,6 +580,7 @@ async def run(token: str) -> int:
     ) as client:
         modules = await paged(client, f"/courses/{COURSE_ID}/modules")
         orientation_result = await audit_orientation(client, modules)
+        assessment_result = await audit_assessment_map(client, modules)
         global_problems: list[str] = []
         selected: list[dict] = []
         for name in names:
@@ -506,8 +614,10 @@ async def run(token: str) -> int:
             "referenced_files": sum(result["files"] for result in results),
             "global_problems": global_problems,
             "orientation": orientation_result,
+            "assessment_map": assessment_result,
             "modules": results,
             "passed": orientation_result["passed"]
+            and assessment_result["passed"]
             and not global_problems
             and all(result["passed"] for result in results),
         }

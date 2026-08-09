@@ -12,7 +12,7 @@ COURSE_ID = 98060
 MODULE_NAME = "3SW Wk4: Culinary Arts and Hospitality"
 ASSIGNMENTS = {
     "PRACTICE: Culinary Twist Menu Design",
-    "PRACTICE: Hospitality Career and Business Recommendation",
+    "MINOR 2: Hospitality Career and Business Recommendation",
 }
 QUIZ_TITLE = "PRACTICE: Motivation Check"
 
