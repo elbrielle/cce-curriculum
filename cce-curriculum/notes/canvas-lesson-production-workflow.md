@@ -228,6 +228,7 @@ No page pair is complete until all checks pass.
 - student prose is near the 6th-7th-grade target;
 - every writing prompt has response space matched to its required output: a word or number may use a short field, a sentence needs at least one full-width ruled line, multi-part reasoning needs separate labeled lines, and a labeled design needs a genuinely usable drawing area;
 - headings do not skip levels;
+- visually labeled sections such as “Today you will,” “Exit check,” and “You are done when” use real headings rather than bold text alone;
 - every image has useful alt text;
 - every raster image is large enough for its instructional text or labels to remain readable but not materially larger than the displayed need; record unusually large files for the Canvas image-performance backlog instead of applying blind batch compression;
 - every `<details>` has a `<summary>`;
