@@ -28,7 +28,7 @@ Do not leave a teacher with only “Open Resources in Xello.” The Canvas modul
 |---:|---|---|---|---|
 | 1 | Log in to Xello | Day 1 checklist; introduction presentation | 1SW Wk0 teacher guide and student launch page | Pending capture |
 | 2 | Matchmaker quiz | Activity lesson plan; native student directions and private reflection | 1SW Wk1 Day 5 | Complete unpublished placement: licensed teacher guide embedded; native student guide and private reflection assignment live in Canvas |
-| 3 | Personality Style quiz | Available lesson plan or student guide from the resource panel | 1SW onboarding module | Activity plan uploaded to Canvas |
+| 3 | Personality Style quiz | Licensed teacher plan; native student directions and evidence route | 1SW Wk2 Day 5 | Complete unpublished placement with report verification and supervised catch-up |
 | 4 | Learning Style quiz | My Learning Styles activity plan; applicable student guide | 1SW learning-profile module | Activity and lesson plans uploaded to Canvas; student guide pending |
 | 5 | Add interests and Add skills | My Interests plan; About Me student guide; applicable assignment directions | 1SW profile module | My Interests and About Me plans uploaded to Canvas; assignment directions pending |
 | 6 | Favorite clusters | My Career Clusters activity plan | 1SW cluster module | Uploaded to Canvas; module placement pending |
@@ -108,6 +108,13 @@ Complete one row per uploaded file during the Canvas import.
 - `STUDENT: 1SW Wk1 Day 5 - Xello Matchmaker` provides the native student route: ClassLink &gt; Xello &gt; About Me &gt; Matchmaker, the first 39 questions, one `Find out why` inspection, a visible completion checklist, and supervised catch-up when the platform or prerequisite is unavailable.
 - Private `1SW Wk1 Day 5 - Matchmaker Reflection` assignment 3095755 accepts text or audio and remains unpublished and not graded. It does not require a profile screenshot or public disclosure of assessment results.
 - The Completion Standards report is the teacher verification route. The licensed guide supports the teacher; the live district configuration controls completion.
+
+### 1SW Week 2 Personality Style record: 2026-08-09
+
+- `personality-styles.pdf` remains Canvas file 14517255 in the locked, unpublished Xello resource collection and is embedded from `TEACHER: 1SW Wk2 Day 5 Facilitator Guide`.
+- The student guide protects the 20-minute Personality Style task, checks the Matchmaker prerequisite, records one private trait/example, and uses the result in an IT pathway-fit decision. No profile screenshot or public result post is required.
+- Completion is checked through the Xello report. Paper reflection supports the learning when access fails, but the required platform task moves to supervised catch-up.
+- Favorite clusters remains assigned to 1SW Wk5 and is not repeated or compressed into this lesson.
 
 ### Week 6 Explore Career Matches record: 2026-08-08
 

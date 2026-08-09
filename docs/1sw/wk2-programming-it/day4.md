@@ -24,7 +24,7 @@
 
 **WARM-UP: Have you ever written code before, on Scratch, Code.org, Tynker, Roblox Studio, or anywhere else? If yes, what did you make? If no, what do you THINK coding is going to feel like?**
 
-Quick poll. Most students have done at least one Code.org or Scratch tutorial in elementary. Bridge: "Today is your first real Hour of Code as a 7th grader. The activities are harder than what you may have done before. The goal is to learn what software developers actually do. Finishing is optional."
+Quick poll. Some students have used Code.org or Scratch before and some have not. Bridge: "Today you will test a programming concept and connect it to software-development work. Finishing a vendor tutorial is optional; explaining the code is the evidence."
 
 ---
 
@@ -43,7 +43,7 @@ Then project [hourofcode.com/learn](https://hourofcode.com/learn) on the screen 
 
 Tell students they have 5 minutes to browse the picker, read tutorial descriptions, and pick ONE that they want to do. They will work on this same tutorial for 2 days.
 
-Some recommended tutorials for first-time 7th graders:
+Some recommended tutorials for first-time middle school programmers:
 
 - **Minecraft Hour of Code: Adventurer:** Block-based, very visual, easy entry
 - **Dance Party:** Fun, music-based, low barrier

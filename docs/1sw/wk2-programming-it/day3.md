@@ -12,7 +12,7 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Plan a cybersecurity team's bounce-back after a failed test using the Flip the Failure chart; cross-reference H&L and BLS salary data for 3 IT careers; complete the IT Salary Comparison worksheet |
+| **Objectives** | Plan a cybersecurity team's bounce-back after a failed test; compare three IT careers while keeping HQIM local figures and external national figures separately labeled; complete the IT Salary Comparison worksheet |
 | **TEKS** | d(1)(C), d(5)(A), d(5)(E) |
 | **5E Phases** | Engage: Warm-Up · Explore: Flip the Failure chart and the BLS salary comparison · Explain: Share and Compare partner talk · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Flip the Failure chart + IT Salary Comparison worksheet (3 careers × 5 fields) |
@@ -54,11 +54,11 @@ The page also describes a frozen laptop, a phone full of notifications, and a lo
 
 ## Activity 2: BLS Cross-Reference + Salary Comparison Worksheet (25 min)
 
-**Source:** BLS Occupational Outlook Handbook (free, government-maintained, used by professional career counselors)
+**Sources:** Hats & Ladders or Xello for the district-adopted localized HQIM figure; BLS for a separately labeled national cross-check
 
 Open with a 60 second prediction before anyone touches a Chromebook: do all programming jobs pay the same, and which one pays the MOST? Most students guess Game Developer or App Developer. The usual answer is a Backend Engineer or a Software Engineer at a large company. Students write their prediction at the top of the worksheet and check it at the end.
 
-Students pick 3 careers: Software Developer, Web Developer, and ONE other programming or IT Hat (App Developer, Game Developer, Network Administrator, Data Scientist). The **H&L DFW Salary** column comes from their notebook notes from Day 2, the four-row Hat table in the engineering notebook. Anyone whose third career was not in that table opens the Hats & Ladders app, finds that Hat in the IT cluster, and copies the DFW salary range and demand indicator before starting the BLS work.
+Students pick 3 careers: Software Developer, Web Developer, and ONE other programming or IT Hat available in the district platform. The **HQIM localized salary** column comes from the exact H&L or Xello career profile students viewed. They record the platform, exact career title, geography, measure, and date viewed with the number. Anyone whose third career was not in the Day 2 table opens the approved platform, chooses an available IT career, and records those source details before starting the external cross-check.
 
 Direct students to the BLS pages for their 3 chosen careers:
 
@@ -79,7 +79,7 @@ Students fill in the printed **IT Salary Comparison worksheet** ([Printable PDF]
 | Field | Career 1 | Career 2 | Career 3 |
 |---|---|---|---|
 | Career Name | | | |
-| H&L DFW Salary | | | |
+| HQIM localized salary (platform, geography, measure, date) | | | |
 | BLS National Median | | | |
 | Typical Education | | | |
 | Job Growth Rate | | | |
@@ -94,7 +94,7 @@ The back side also holds the job count, the one-sentence job description, and a 
 **DOK 3:** What conclusions can you draw about the relationship between education level and salary for IT careers in the DFW area? Is more education ALWAYS worth it?
 
 !!! tip "Facilitation Tip"
-    The most common student mistake: they confuse "median pay" with "starting pay." Median = the middle of all workers in that career, not the entry level. Show them: "If you Google 'starting salary Software Developer DFW,' you get a different number than the BLS median. The median is what you make in the MIDDLE of your career." The H&L column shows the same idea as a range. An entry-level Software Developer in DFW makes around $70,000 and the same person can make $130,000 or more after 10 years. That gap is what "years of experience" buys in IT.
+    The most common student mistake is treating starting pay, a range, and a median as interchangeable. Teach the labels, then keep both figures in their own columns. A difference between H&L or Xello and BLS is a comparison question, not a reason to overwrite one source with the other.
 
 ---
 

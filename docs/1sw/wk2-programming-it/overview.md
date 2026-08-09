@@ -4,15 +4,15 @@
 
 ## Lesson Objective
 
-Students explore the Information Technology cluster through the Hats & Ladders app and the *Find Your Future* workbook, focus on the Programming and Software Development program of study, work the "Powerskill: Resilience" bounce-back activity after a cybersecurity team's test day fails, compare salaries and demand for programming careers in the DFW area, and complete a Code.org Hour of Code activity to experience the fundamentals of writing software. Students connect the IT cluster to Irving ISD's Computer Science (District Wide) and Programming & Digital Tech (Singley) pathways, both leading to Certified Entry Level Python Programmer credentials.
+Students explore the Information Technology cluster through Hats & Ladders and the district-customized *Find Your Future* workbook, focus on Programming and Software Development, work the "Powerskill: Resilience" bounce-back activity, compare three programming careers with clearly labeled HQIM and external-source evidence, and test a programming concept through Code.org or an equal no-login route. Day 5 protects the required Xello Personality Style task and uses its result in a private IT pathway decision.
 
-**Learning Target:** I can name the four Irving ISD Information Technology programs of study, compare the pay, training, and job growth of three programming careers, plan how a team bounces back after a failed test, and finish a Code.org Hour of Code tutorial.
+**Learning Target:** I can describe the four IT programs named in the district workbook, compare the pay, preparation, and outlook of three programming careers, plan how a team bounces back after a failed test, explain one programming concept, and use my Xello Personality Style result in a career-fit decision.
 
-**Success Criteria:** I will know I am successful when my career research worksheet names the job, the training, the pay, and the tools for one programming career, when my salary comparison worksheet lists pay, education, and growth for three IT careers, when my Flip the Failure chart gives a bounce back idea for all four problems on the list, and when I can name one programming concept I used in my Hour of Code tutorial.
+**Success Criteria:** I will know I am successful when my career research sheet and three-career comparison keep each fact attached to its source, my Flip the Failure chart gives a specific next move for all four problems, I can explain one programming concept, and my final reflection connects a Personality Style trait to an IT fit decision.
 
 ## Demonstration of Learning
 
-> "I can describe the IT career cluster and the four Irving ISD programs of study inside it, identify at least 3 programming careers with their salary ranges and education requirements, and complete a Code.org Hour of Code activity that demonstrates a programming concept."
+> Students demonstrate learning through one completed programming-career research sheet, a source-labeled three-career salary comparison, a programming-concept explanation, Xello Personality Style completion, and a final Career Fit Reflection.
 
 ## TEKS Alignment
 
@@ -21,6 +21,7 @@ Students explore the Information Technology cluster through the Hats & Ladders a
 - **d(2)(A):** Research applicable academic, technical, certification, and training requirements (Day 2 career research worksheet).
 - **d(5)(A):** Analyze labor market trends related to a career of interest (Day 3 BLS job growth).
 - **d(5)(E):** Use resources to compare salaries of at least three careers in the student's interest area (Day 3).
+- **d(1)(A):** Analyze and discuss the initial results of a career assessment (Day 5 Personality Style result and evidence-based reflection).
 
 ## Materials Needed
 
@@ -39,14 +40,14 @@ Students explore the Information Technology cluster through the Hats & Ladders a
 - Engineering notebooks (carry forward). Day 2's four-Hat notes live here, and Day 3 reads them back
 - Code.org teacher account with a section created before the week starts and the section codes ready to post (Days 4-5)
 - Headphones for the Hour of Code days (Days 4-5). A class set is a supply order, not standard classroom stock, so order one, ask students to bring their own, or run the tutorials muted
-- Xello (Favorite Clusters activity). Xello rosters come from the district SSO feed, so confirm your class list appears in Xello before Day 5 and send any missing student to the campus tech coordinator rather than creating an account by hand
+- Xello Personality Style teacher resource and Completion Standards report. Matchmaker is the prerequisite. Confirm the roster before Day 5; never create a second student account by hand
 - Projector
 
 ## Career Connection
 
 Information Technology includes software development, networking, cybersecurity, and other work that keeps digital systems running. In DFW, employers include AT&T, Texas Instruments, Toyota, State Farm, technology startups, banks, and insurance companies. The financial sector is the area's largest IT employer.
 
-**What is Happening at Irving ISD?** **Computer Science (District Wide, every IISD high school)** and **Programming & Digital Tech (Singley Academy)** both lead to the **Certified Entry Level Python Programmer** credential. Python is widely used for data science, AI, web backends, and automation; the credential can qualify a student for paid internships or entry-level development work. The workbook's district pages list four IT programs of study, **Computer Science**, **Programming & Software Development**, **Technology Support**, and **Cybersecurity**; two industry-based certifications, Certified Entry Level Python Programmer and Cybersecurity Fundamentals; two student organizations, the Technology Student Association (TSA) and CyberPatriot; and a new Career and Technical Education Center program in Artificial Intelligence that teaches students to design, program, and ethically apply AI (FYF pp. 36-37: "What is Happening at My District?"). The same pages introduce the **Personal Graduation Plan (PGP)**, which links course choices, career interests, and graduation requirements from middle school forward.
+**What is Happening at Irving ISD?** The district-customized workbook pages list four IT programs of study, **Computer Science**, **Programming & Software Development**, **Technology Support**, and **Cybersecurity**; Certified Entry Level Python Programmer and Cybersecurity Fundamentals as related industry-based certifications; TSA and CyberPatriot; and an Artificial Intelligence program at the new CTE Center (FYF pp. 36-37). Teach those details as attributed HQIM content. If a current public district page uses a different label, place that difference in a dated teacher verification note rather than giving students two competing versions. Do not promise that a listed certification by itself guarantees an internship or entry-level job.
 
 ## Vocabulary
 
@@ -88,7 +89,7 @@ The rest of the IT chapter belongs to the later weeks in this block. Wk3 runs th
 | 2 | Programming Pathway Deep-Dive | Explore Software Developer, Web Developer, App Developer, Game Developer Hats in the app + career research worksheet | Career research worksheet for one programming career | Engage · Explore · Explain · Evaluate |
 | 3 | Powerskill Resilience + IT Salary Showdown | "Flip the Failure" chart + BLS cross-reference + IT Salary Comparison worksheet (3 careers) | Flip the Failure chart + completed salary comparison worksheet | Engage · Explore · Explain · Evaluate |
 | 4 | Hour of Code (Day 1) | Code.org Hour of Code tutorial, students choose theme | Tutorial at the midpoint + screenshot of one block sequence | Engage · Explain · Explore · Evaluate |
-| 5 | Hour of Code (Day 2) + Pathway Possibilities + Favorites | Finish Hour of Code + Pathway Possibilities and pathway rating + favorite 2 IT careers + Xello Favorite Clusters | Hour of Code finished + 2 IT favorites + Xello cluster favorited | Engage · Explore · Extend · Evaluate |
+| 5 | Xello Personality Style + IT decision | Required Personality Style quiz + H&L Pathway Possibilities + Minor 2 reflection | Xello completion in teacher report + trait/example + salary comparison and Career Fit Reflection | Engage · Explore · Explain · Evaluate |
 
 ## Formative Assessment
 
@@ -96,7 +97,7 @@ The rest of the IT chapter belongs to the later weeks in this block. Wk3 runs th
 - **Day 2:** Career research worksheet + Mini-Case exit ticket (cross-platform mobile game app hire). *d(1)(C), d(2)(A)*
 - **Day 3:** Flip the Failure chart + IT Salary Comparison worksheet + Comparison Matrix exit ticket (3 careers x pay/education/growth). *d(1)(C), d(5)(A), d(5)(E)*
 - **Day 4:** Hour of Code midpoint progress + Short Constructed Response exit ticket (programming concept + career + job task). *d(1)(C)*
-- **Day 5:** Hour of Code finish + 2 favorited IT careers + Concept Map exit ticket (favorited career + highest-rated pathway + core personality type + HoC experience). *d(1)(C)*
+- **Day 5:** Xello Personality Style completion + one trait/example + IT Pathway Decision using the salary comparison. *d(1)(A), d(1)(C), d(5)(A), d(5)(E)*
 
 ## Summative Assessment
 

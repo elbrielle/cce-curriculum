@@ -6,67 +6,142 @@ weeks: 1sw/wk2-programming-it
 audience: student
 variant_of:
 language: en
-pages: 2
+pages: 5
 orientation: portrait
 ---
-Pick 3 careers: **Software Developer**, **Web Developer**, and one more programming or IT career you want to know about.
+Pick three programming or IT careers available in H&L or Xello. Use the exact displayed career title and keep each number attached to its source label.
 
-**My prediction, before I look anything up.** The programming career that pays the MOST is _______________________ because
+## Career 1 Evidence Record
+
+**Exact career title:** ______________________________________________
+
+**HQIM localized salary**
+
+- Platform: H&L / Xello
+- Geography shown: ____________________
+- Measure shown (range, median, or other): ____________________
+- Figure: ____________________  Date viewed: ____________________
+
+**External national cross-check**
+
+- BLS occupation title: _____________________________________________
+- National median: ____________________  Data year: ____________________
+- Typical entry education: __________________________________________
+- Job outlook percent and years: ____________________________________
+- Number of jobs or annual openings: _________________________________
+
+**What this worker does** (one clear sentence):
 
 [[lines: 2]]
 
-## Compare the 3 Careers
+**One DFW employer or industry that may hire this work and the source:**
 
-The **DFW salary** row comes from Xello local data unless your teacher gives you a dated, verified H&L range. The other rows come from the BLS page for that career. Fill in every box.
+[[lines: 2]]
 
-| Field | Career 1 | Career 2 | Career 3 |
-|---|---|---|---|
-| **Career Name** | | | |
-| **DFW Salary** (Xello or teacher-verified local range) | | | |
-| **BLS National Median** (the pay row in Quick Facts) | | | |
-| **Typical Education** (school needed to start) | | | |
-| **Job Growth Rate** (the Job Outlook percent) | | | |
-
-**Median pay is not starting pay.** The median is the middle of everyone in that career, not the first paycheck.
+**Keep the labels.** A localized range and a national median are different measures. Do not replace one with the other.
 
 [[pagebreak]]
 
-## Notes From the BLS Page
+## Career 2 Evidence Record
 
-| Field | Career 1 | Career 2 | Career 3 |
-|---|---|---|---|
-| **Number of Jobs** (how many people do this now) | | | |
-| **What they do** (one sentence from the What They Do tab) | | | |
-| **A DFW company that might hire this career** | | | |
+**Exact career title:** ______________________________________________
 
-## Think About Your Data
+**HQIM localized salary**
 
-**1. Which career has the HIGHEST salary?** Name it, then write the number.
+- Platform: H&L / Xello
+- Geography shown: ____________________
+- Measure shown (range, median, or other): ____________________
+- Figure: ____________________  Date viewed: ____________________
+
+**External national cross-check**
+
+- BLS occupation title: _____________________________________________
+- National median: ____________________  Data year: ____________________
+- Typical entry education: __________________________________________
+- Job outlook percent and years: ____________________________________
+- Number of jobs or annual openings: _________________________________
+
+**What this worker does** (one clear sentence):
 
 [[lines: 2]]
 
-**2. Which career has the FASTEST job growth? Are they the same career?**
+**One DFW employer or industry that may hire this work and the source:**
 
 [[lines: 2]]
 
-**3. Check your prediction.** Look back at the top of page 1. Were you right? What surprised you?
+**Source difference I notice:**
 
 [[lines: 2]]
 
-## IT Career Fit Reflection (fill in on Day 5)
+[[pagebreak]]
 
-**1.** The IT pathway I rated was ______ because
+## Career 3 Evidence Record
 
-[[lines: 1]]
+**Exact career title:** ______________________________________________
 
-**2.** One fact from my salary table that changed or confirmed my thinking was
+**HQIM localized salary**
 
-[[lines: 1]]
+- Platform: H&L / Xello
+- Geography shown: ____________________
+- Measure shown (range, median, or other): ____________________
+- Figure: ____________________  Date viewed: ____________________
 
-**3.** One IT career I reviewed was ______. It fits / does not fit me because
+**External national cross-check**
 
-[[lines: 1]]
+- BLS occupation title: _____________________________________________
+- National median: ____________________  Data year: ____________________
+- Typical entry education: __________________________________________
+- Job outlook percent and years: ____________________________________
+- Number of jobs or annual openings: _________________________________
 
-**4.** Can I see myself working in IT? Yes, no, or not sure. Use evidence from this week:
+**What this worker does** (one clear sentence):
 
-[[lines: 1]]
+[[lines: 2]]
+
+**One DFW employer or industry that may hire this work and the source:**
+
+[[lines: 2]]
+
+**Source difference I notice:**
+
+[[lines: 2]]
+
+[[pagebreak]]
+
+## Compare the Three Careers
+
+**1. Which career has the highest HQIM localized salary figure?** Name the figure and its measure.
+
+[[lines: 2]]
+
+**2. Which career has the fastest BLS job growth?** Name the percent and projection years.
+
+[[lines: 2]]
+
+**3. What preparation difference matters most to your decision?**
+
+[[lines: 2]]
+
+**4. Which career would you recommend to someone who shares your priorities?** Use at least two facts from the records.
+
+[[lines: 3]]
+
+[[pagebreak]]
+
+## IT Career Fit Reflection (complete on Day 5)
+
+**1.** My Xello Personality Style result included ____________________. One example is
+
+[[lines: 2]]
+
+**2.** The IT pathway or career I reviewed was ____________________. It fits / does not fit / might fit me because
+
+[[lines: 2]]
+
+**3.** One salary, preparation, task, or demand fact that changed or confirmed my thinking was
+
+[[lines: 2]]
+
+**4. Final call:** Can I see myself working in IT? Yes, no, or not sure. Use evidence from this week.
+
+[[lines: 3]]

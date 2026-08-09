@@ -102,7 +102,7 @@ Unresolved `[VERIFY]`/`[TODO]`/`[TBD]` markers detected on **1 day(s)**. Days wi
 | 1SW Wk2 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Think-Pair-Share / Turn and Talk, Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
 | 1SW Wk2 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Think-Pair-Share / Turn and Talk, Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
 | 1SW Wk2 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Think-Pair-Share / Turn and Talk, Active Monitoring, Chunking, TVB | FYF, Xello, H&L, BLS / current primary source |  |
-| 1SW Wk2 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Think-Pair-Share / Turn and Talk, Active Monitoring, Chunking | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
+| 1SW Wk2 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Think-Pair-Share / Turn and Talk, Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
 | 1SW Wk3 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Active Monitoring | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
 | 1SW Wk3 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Active Monitoring | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
 | 1SW Wk3 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Think-Pair-Share / Turn and Talk, Active Monitoring | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |

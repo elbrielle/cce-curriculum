@@ -284,7 +284,10 @@ def contract_html(contract: LessonContract, role: str) -> str:
         )
     else:
         objective = re.sub(r"^Students? will\s+", "I can ", contract.objective, flags=re.I)
-        dol = f"I will show my learning by completing: {contract.dol[0].lower()}{contract.dol[1:]}"
+        student_dol = contract.dol
+        if not re.match(r"^(Xello|H&L|FYF|Canvas|Code\.org)\b", student_dol):
+            student_dol = student_dol[0].lower() + student_dol[1:]
+        dol = f"I will show my learning by completing: {student_dol}"
         heading = "Today\'s Learning"
         rows = (("Topic", contract.topic), ("Objective", objective), ("Show Your Learning", dol))
     rendered = "".join(

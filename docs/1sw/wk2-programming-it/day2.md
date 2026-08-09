@@ -36,10 +36,12 @@ Quick share; listen for student passion. Bridge: "The people who actually build 
 
 **The 4 Hats to explore:**
 
-1. **Software Developer:** Builds applications and computer programs. Most common Hat in this pathway. Typical education: bachelor's in CS, but many bootcamp/self-taught developers exist.
-2. **Web Developer:** Builds websites and web applications. Splits into Frontend (visual) and Backend (server). Education varies more: bachelor's, associate, certification, or self-taught.
-3. **App Developer (Mobile):** Builds iOS and Android apps. Specialized subset of software developer. Often requires Swift (iOS) or Kotlin (Android).
-4. **Game Developer:** Builds video games. Combines coding with art, sound, and game design. Often requires bachelor's in CS or game design plus a portfolio.
+1. **Software Developer**
+2. **Web Developer**
+3. **App Developer (Mobile)**
+4. **Game Developer**
+
+Use the title, tasks, preparation, salary, and demand exactly as the live H&L Hat presents them. If a title is unavailable or differs, let students select the closest programming Hat and record its exact displayed name. Do not fill an H&L row with a generalized web description.
 
 **Student task:** Students spend ~5 minutes per Hat. Before the first Hat opens, they set up a four-row table in their **engineering notebook** (dated entry, labeled "1SW Wk2 Programming"), one row per Hat. For each Hat they write down:
 
@@ -54,7 +56,7 @@ This notebook table is the week's reference. Day 3's salary worksheet reads its 
 **Active Monitoring:** Walk a fixed route through the room once every five minutes, one Hat per lap. The lap's target is that the row for the Hat under discussion has all five fields filled, not just the Hat name. Ask each student you stop: "Which of these 4 Hats is YOUR favorite so far?" If more than a handful of students have blank salary or demand fields, pause the room and reproject where those two numbers live on a Hat profile instead of pointing them out desk by desk.
 
 !!! tip "Facilitation Tip"
-    Many students will gravitate to Game Developer because it sounds fun. Mention the reality: game development is one of the most competitive AND lowest-paid programming jobs because so many people want to do it. Software Developer (general) typically pays more and has better work-life balance. Don't kill their dream, just give them the data.
+    Many students may choose Game Developer because the title sounds familiar. Ask them to compare the displayed tasks, preparation, pay, and demand before deciding. Do not tell them which career is "better" before they inspect the HQIM evidence.
 
 **DOK 3:** What conclusions can you draw about why Software Developer salaries are higher than Game Developer salaries even though both involve coding?
 
@@ -73,7 +75,7 @@ Pass out the printed career research worksheet ([Printable PDF](../../resources/
 - **Average Salary**
 - **What Tools, Equipment, or Skills are Needed for This Career?**
 
-> [H&L PLATFORM] Students open the Hats & Ladders app, go to Clusters, click the Information Technology Cluster, and use the Hat Finder to return to the programming Hat they picked as their favorite in Activity 1. They pull each worksheet field directly from that Hat's profile in the app, then use at least one additional source, such as the BLS Occupational Outlook Handbook, to confirm the salary and training figures.
+> [H&L PLATFORM] Students return to the programming Hat they selected in Activity 1 and pull each worksheet field directly from that profile. A second source such as BLS is a separately labeled national cross-check. It does not silently replace the H&L salary, preparation, or demand field when the sources use different careers, geographies, dates, or measures.
 
 For the "What Tools, Equipment, or Skills" field, push students to be specific:
 - Software Developer: programming languages (Python, Java, C++), version control (Git), an IDE (VS Code), problem-solving, debugging

@@ -1,5 +1,5 @@
 ---
-title: IT Salary Comparison / Comparación de Salarios en Tecnología
+title: IT Salary Comparison Bilingual Field Guide
 slug: wk2-it-salary-comparison-bilingual
 kind: worksheet
 weeks: 1sw/wk2-programming-it
@@ -9,86 +9,67 @@ language: bilingual
 pages: 3
 orientation: portrait
 ---
-Pick 3 careers: **Software Developer**, **Web Developer**, and one more programming or IT career you want to know about. You may write in English or in Spanish.
+Use this field guide beside the English IT Salary Comparison packet. Write responses in English, Spanish, or both when your teacher allows it.
 
-*Escoge 3 carreras: Software Developer, Web Developer, y una carrera más de programación o de tecnología que te interese. Puedes escribir en inglés o en español.*
+*Usa esta guía junto con el paquete en inglés. Escribe en inglés, español, o los dos idiomas cuando tu maestro lo permita.*
 
-**My prediction, before I look anything up.** The career that pays the MOST is _______________________ because
+## Evidence Labels / Etiquetas de evidencia
 
-*Mi predicción, antes de buscar nada. La carrera que paga MÁS es _______________________ porque*
-
-[[lines: 2]]
-
-## Compare the 3 Careers / Compara las 3 carreras
-
-The **DFW salary** row comes from Xello local data unless your teacher gives you a dated, verified H&L range. The other rows come from the BLS page.
-
-*La fila del salario en DFW viene de tus apuntes del cuaderno del Día 2. Las otras filas vienen de la página de BLS.*
-
-| Field / Campo | Career 1 / Carrera 1 | Career 2 / Carrera 2 | Career 3 / Carrera 3 |
-|---|---|---|---|
-| **Career Name**<br>*Nombre de la carrera* | | | |
-| **DFW Salary**<br>*Salario en DFW (Xello o una fuente local verificada)* | | | |
-| **BLS National Median**<br>*Salario medio nacional (BLS)* | | | |
-| **Typical Education**<br>*Educación que se necesita* | | | |
-| **Job Growth Rate**<br>*Crecimiento del empleo* | | | |
-
-**Median pay is not starting pay.** The median is the middle of everyone in that career.
-
-*El salario medio no es el salario inicial. El medio es el punto de en medio de toda la gente en esa carrera.*
+| English | Español | What to record / Qué debes escribir |
+|---|---|---|
+| Exact career title | Nombre exacto de la carrera | Copy the platform title / Copia el título de la plataforma |
+| Platform | Plataforma | H&L or Xello / H&L o Xello |
+| Geography | Región | The location shown / La región que aparece |
+| Measure | Tipo de medida | Range, median, average, or other / Rango, mediana, promedio, u otra |
+| Figure | Número o cantidad | Include per year or per hour / Incluye por año o por hora |
+| Date viewed | Fecha de consulta | The day you viewed it / El día que lo consultaste |
+| National median | Mediana nacional | BLS figure plus data year / Número de BLS y año de datos |
+| Typical entry education | Educación típica para comenzar | Copy the labeled field / Copia el campo indicado |
+| Job outlook | Proyección de empleo | Percent plus projection years / Porcentaje y años de proyección |
+| Jobs or annual openings | Empleos o vacantes anuales | Copy the exact label / Copia la etiqueta exacta |
 
 [[pagebreak]]
 
-## Notes From the BLS Page / Apuntes de la página de BLS
+## Vocabulary / Vocabulario
 
-| Field / Campo | Career 1 / Carrera 1 | Career 2 / Carrera 2 | Career 3 / Carrera 3 |
-|---|---|---|---|
-| **Number of Jobs**<br>*Número de empleos* | | | |
-| **What they do**<br>*Qué hacen en el trabajo* | | | |
-| **A DFW company that might hire this career**<br>*Una empresa de DFW que podría contratar* | | | |
+- **range / rango:** the lowest and highest figures shown / los números menor y mayor
+- **median / mediana:** the middle value, not starting pay / el valor central, no el salario inicial
+- **source / fuente:** where the information came from / de dónde salió la información
+- **cross-check / verificación adicional:** another source kept under its own label / otra fuente que conserva su propia etiqueta
+- **preparation / preparación:** education, training, certification, or experience / educación, capacitación, certificación, o experiencia
 
-## Think About Your Data / Piensa en tus datos
+## Sentence Frames / Marcos de oración
 
-**1. Which career has the HIGHEST salary?** Name it, then write the number.
+**Compare salary evidence / Compara evidencia salarial**
 
-*¿Cuál carrera tiene el salario MÁS ALTO? Escribe el nombre y el número.*
+H&L or Xello shows ____________________ for ____________________ in ____________________. The measure is ____________________, and I viewed it on ____________________.
 
-[[lines: 2]]
+*H&L o Xello muestra ____________________ para ____________________ en ____________________. El tipo de medida es ____________________, y lo consulté el ____________________.*
 
-**2. Which career has the FASTEST job growth? Are they the same career?**
+[[lines: 3]]
 
-*¿Cuál carrera crece MÁS RÁPIDO? ¿Es la misma carrera?*
+**Explain a difference / Explica una diferencia**
 
-[[lines: 2]]
+The sources differ because they use a different career, geography, year, or measure. I notice
 
-**3. Check your prediction.** Look back at the top of page 1. Were you right? What surprised you?
+*Las fuentes son diferentes porque usan otra carrera, región, año, o medida. Yo noto que*
 
-*Revisa tu predicción arriba en la página 1. ¿Le atinaste? ¿Qué te sorprendió?*
+[[lines: 3]]
 
-[[lines: 2]]
+[[pagebreak]]
 
-## IT Career Fit Reflection (Day 5) / Reflexión sobre carreras de IT (Día 5)
+**Make a recommendation / Haz una recomendación**
 
-**1.** The IT pathway I rated was ______ because
+I recommend ____________________ because ____________________. One salary or outlook fact is ____________________. One preparation fact is ____________________.
 
-*La ruta de IT que evalué fue ______ porque*
+*Recomiendo ____________________ porque ____________________. Un dato de salario o proyección es ____________________. Un dato de preparación es ____________________.*
 
-[[lines: 1]]
+[[lines: 4]]
 
-**2.** One fact from my salary table that changed or confirmed my thinking was
+**Connect to yourself / Conecta contigo**
 
-*Un dato de mi tabla de salarios que cambió o confirmó mis ideas fue*
+This career fits / does not fit / might fit me because
 
-[[lines: 1]]
+*Esta carrera me queda / no me queda / tal vez me queda porque*
 
-**3.** One IT career I reviewed was ______. It fits / does not fit me because
-
-*Una carrera de tecnología que revisé fue ______. Me queda / no me queda porque*
-
-[[lines: 1]]
-
-**4.** Can I see myself working in IT? Yes, no, or not sure. Use evidence from this week:
-
-*¿Me veo trabajando en tecnología? Sí, no, o todavía no sé. Usa evidencia de esta semana:*
-
-[[lines: 1]]
+[[lines: 4]]

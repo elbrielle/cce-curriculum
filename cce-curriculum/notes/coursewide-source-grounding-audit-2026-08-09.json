@@ -631,17 +631,13 @@
     ],
     "source_families": [
       "FYF",
-      "Climber Notes",
       "Xello",
       "H&L",
       "BLS / current primary source"
     ],
     "fyf_citations": [
       "FYF pp. 23",
-      "FYF pp. 26-27",
-      "FYF p. 38",
-      "FYF p. 36",
-      "FYF p. 37"
+      "FYF pp. 26-27"
     ],
     "unresolved_markers": [],
     "manual_checks": [
@@ -649,8 +645,7 @@
       "Verify TEKS verb, student action, and collected evidence against the current standard.",
       "Cold-read the teacher and student pair for next-day implementation burden.",
       "Render and inspect every writing artifact for honest response space.",
-      "Verify exact Xello task name, time, minimum, prerequisite, report evidence, and catch-up route.",
-      "Verify exact licensed deck/slide, projection order, and teacher-only answer guidance."
+      "Verify exact Xello task name, time, minimum, prerequisite, report evidence, and catch-up route."
     ]
   },
   {
