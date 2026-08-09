@@ -64,9 +64,9 @@ This is the coursewide source of truth for graded work. A polished weekly produc
 
 | Category | Placement | Gradebook entry | Scoring tool | Boundary |
 |---|---|---|---|---|
-| Minor 1 | Week 1 | Three-Career Architecture Comparison | 16-point architecture evidence rubric, career-evidence criterion only | The design portfolio remains formative; salary measures stay labeled. |
-| Minor 2 | Week 2 | Assessment and Emerging-Specialty Evidence | 16-point engineering rubric, assessment/emerging criterion set | Bridge fabrication and team ranking are not scored. |
-| Minor 3 | Week 3 | Construction Labor-Evidence Classification | 16-point construction evidence rubric, classification criterion set | Use the fixed dated dataset; H&L state is not evidence. |
+| Minor 1 | Week 1 | Three-Career Architecture Comparison | 16-point Three-Career Architecture Comparison rubric | The design portfolio remains formative; salary measures stay labeled. |
+| Minor 2 | Week 2 | Assessment and Emerging-Specialty Evidence | 16-point Assessment and Emerging-Specialty Evidence rubric | Bridge fabrication and team ranking are not scored. |
+| Minor 3 | Week 3 | Construction Labor-Evidence Classification | 16-point Construction Labor-Evidence Classification rubric | Use the fixed dated dataset; H&L state is not evidence. |
 | Major 1 | Week 4 | Skilled-Trades Classification and Individual Response | 16-point Skilled Trades Evidence rubric | Group plan may support the work, but every criterion needs individual evidence. |
 | Major 2 | Week 5 | Personal Budget Evidence Portfolio | 16-point Budget Portfolio rubric | Use fictional/planning scenarios; never score family income or lifestyle choice. |
 

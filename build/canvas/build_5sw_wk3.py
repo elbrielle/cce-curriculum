@@ -47,7 +47,8 @@ async def main():
             "CLASSIFY": "5sw-wk3-labor-classification.pdf",
             "OBSERVE": "5sw-wk3-visual-observation-log.pdf",
             "REPORT": "5sw-wk3-fictional-evidence-report.pdf",
-            "RUBRIC": "5sw-wk3-construction-evidence-rubric.pdf",
+            "RUBRIC": "5sw-wk3-construction-classification-rubric.pdf",
+            "REPORT_RUBRIC": "5sw-wk3-construction-evidence-rubric.pdf",
         }
         files = {
             key: await common.upload(client, ROOT / "docs/resources/worksheets" / name, support_path)
@@ -160,7 +161,7 @@ async def main():
                 "TITLE": "Classify Four Construction Careers",
                 "PURPOSE": "Use one comparable national evidence basis and a published classroom rule to classify four construction careers.",
                 "TODAY": "<ul><li>read the classroom comparison rule;</li><li>analyze four careers;</li><li>cite a number for each label;</li><li>state one limitation.</li></ul>",
-                "READY": f'<p>Open {link(files["CLASSIFY"]["id"], "the six-page labor classification packet")} or <a href="{urls["classify"]}">the Canvas annotation activity</a>.</p>',
+                "READY": f'<p>Open {link(files["CLASSIFY"]["id"], "the six-page labor classification packet")} and {link(files["RUBRIC"]["id"], "the student-visible Minor 3 rubric")}, or use <a href="{urls["classify"]}">the Canvas annotation activity</a>.</p>',
                 "MEDIA": "",
                 "STEPS": step(1, "Read the rule", "<p>High wage means above the May 2024 U.S. all-occupation median of $49,500. High demand means projected growth above the 3.1% all-occupation comparison. High skill uses the documented preparation rule in the packet.</p>")
                 + step(2, "Classify each career", "<p>Use the same geography, year, and measure. Annual openings are useful context but do not prove a DFW worker shortage.</p>")
@@ -190,7 +191,7 @@ async def main():
                 "TITLE": "Evidence Report and Individual Briefing",
                 "PURPOSE": "Turn the visual evidence into a careful fictional report and communicate one finding clearly.",
                 "TODAY": "<ul><li>complete five report blocks;</li><li>write a thermal-evidence boundary;</li><li>prepare a 30–45 second briefing;</li><li>submit privately.</li></ul>",
-                "READY": f'<p>Open {link(files["REPORT"]["id"], "the seven-page fictional evidence report")} and {link(files["RUBRIC"]["id"], "the two-page rubric")}.</p>',
+                "READY": f'<p>Open {link(files["REPORT"]["id"], "the seven-page fictional evidence report")} and {link(files["REPORT_RUBRIC"]["id"], "the formative report rubric")}.</p>',
                 "MEDIA": "",
                 "STEPS": step(1, "Complete each finding", "<p>Use observation, possible meaning, evidence limit, and next qualified professional. Do not add prices, purchase advice, or a diagnosis.</p>")
                 + step(2, "Write the thermal boundary", "<p>Explain what the temperature pattern shows and what corroboration would still be needed.</p>")
@@ -232,7 +233,7 @@ async def main():
                 "TITLE": "Classify Four Construction Careers",
                 "SUBTITLE": "50 minutes · TEKS d(5)(A), d(5)(B)",
                 "ALERT": "<strong>The labels are a published classroom comparison rule.</strong> They are not official BLS or TWC designations and do not prove a DFW shortage.",
-                "PREP": f'<ul><li>Post {link(files["CLASSIFY"]["id"], "the six-page classification packet")} and annotation activity.</li><li>Project the three comparison thresholds.</li><li>Model one supported yes/no and one limitation.</li></ul>',
+                "PREP": f'<ul><li>Post {link(files["CLASSIFY"]["id"], "the six-page classification packet")}, {link(files["RUBRIC"]["id"], "the Minor 3 rubric")}, and annotation activity.</li><li>Project the three comparison thresholds.</li><li>Model one supported yes/no and one limitation.</li></ul>',
                 "EVIDENCE": "<p><strong>Minor 3 in the 5SW assessment map:</strong> four individual career pages, supported classifications, trend comparison, and evidence limitation. Convert the rubric result to a 100-point grade only after the Minor group is verified.</p>",
                 "FLOW": flow("#315f4c", "Rule · 5", "Same basis and transparent thresholds.") + flow("#4c8b38", "Model · 8", "One label with evidence.") + flow("#8a4f2b", "Four careers · 27", "One roomy page each.") + flow("#d39b22", "Compare · 7", "Trend and limitation.") + flow("#315f4c", "Exit · 3", "What could change."),
                 "MONITOR": "<p>Key: Construction Manager = yes/yes/yes; Carpenter = course-rule judgment on skill with evidence, yes wage, yes demand; Equipment Operator = course-rule judgment on skill, yes wage, yes demand; Masonry Worker = course-rule judgment on skill, yes wage, no demand. Require the packet's preparation rule and accept defensible nuance.</p>",
@@ -256,7 +257,7 @@ async def main():
                 "TITLE": "Evidence Report and Individual Briefing",
                 "SUBTITLE": "50 minutes · TEKS d(1)(C), d(4)(C)",
                 "ALERT": "<strong>Formative inspection report and professional briefing.</strong> Use the report and briefing for feedback; they are not one of the two mapped 5SW majors. Keep unpublished and ungraded until the review gate passes.",
-                "PREP": f'<ul><li>Post {link(files["REPORT"]["id"], "the expanded report")}, {link(files["RUBRIC"]["id"], "the rubric")}, and private Assignment.</li><li>Keep Day 4 visuals available.</li><li>Offer live, audio, recorded, or equivalent written briefing routes.</li></ul>',
+                "PREP": f'<ul><li>Post {link(files["REPORT"]["id"], "the expanded report")}, {link(files["REPORT_RUBRIC"]["id"], "the formative report rubric")}, and private Assignment.</li><li>Keep Day 4 visuals available.</li><li>Offer live, audio, recorded, or equivalent written briefing routes.</li></ul>',
                 "EVIDENCE": "<p>Five expanded findings, thermal boundary, and one individual 30–45 second evidence briefing. Group delivery never substitutes for individual evidence.</p>",
                 "FLOW": flow("#315f4c", "Reopen evidence · 5", "Images and prior notes.") + flow("#4c8b38", "Model claim · 5", "Careful language and next role.") + flow("#8a4f2b", "Report · 25", "Five finding blocks and thermal boundary.") + flow("#d39b22", "Briefings · 12", "Individual equivalent routes.") + flow("#315f4c", "Exit · 3", "Why language matters."),
                 "MONITOR": "<p>Score visible evidence, bounded inference, evidence limit, correct next role, organization, and clarity. Do not score accent, confidence, artistic layout, platform choice, or English mechanics unless meaning is unclear.</p>",

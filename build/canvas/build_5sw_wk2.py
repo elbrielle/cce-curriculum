@@ -16,7 +16,9 @@ ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/5sw/wk2"
 MODULE_NAME = "5SW Wk2: Civil Engineering — Systems, Evidence, and Design"
 
 SYSTEMS_TITLE = "PRACTICE: Civil Engineering and Systems Evidence"
-QUIZ_TITLE = "MINOR 2: Assessment and Emerging Work Evidence Check"
+QUIZ_TITLE = "PRACTICE: Assessment and Emerging Work Evidence Check"
+QUIZ_ALIASES = ("MINOR 2: Assessment and Emerging Work Evidence Check",)
+ASSESSMENT_TITLE = "MINOR 2: Assessment and Emerging-Specialty Evidence"
 DESIGN_TITLE = "PRACTICE: Bridge Design Evidence"
 TEST_TITLE = "PRACTICE: Bridge Test and Redesign Evidence"
 PORTFOLIO_TITLE = "FORMATIVE: Civil Engineering Evidence Portfolio"
@@ -70,7 +72,14 @@ QUESTIONS = [
 
 async def upsert_quiz(client):
     quizzes = await common.paged(client, f"/courses/{COURSE_ID}/quizzes")
-    found = next((quiz for quiz in quizzes if quiz.get("title") == QUIZ_TITLE), None)
+    found = next(
+        (
+            quiz
+            for quiz in quizzes
+            if quiz.get("title") == QUIZ_TITLE or quiz.get("title") in QUIZ_ALIASES
+        ),
+        None,
+    )
     data = {
         "quiz[title]": QUIZ_TITLE,
         "quiz[description]": "<p>Ungraded, unlimited-retry practice. Use the feedback to repair assessment-impact and emerging-work claims.</p>",
@@ -122,7 +131,8 @@ async def main():
             "DESIGN": "5sw-wk2-bridge-design-options.pdf",
             "TEST": "5sw-wk2-bridge-test-and-redesign.pdf",
             "SYNTHESIS": "5sw-wk2-engineering-synthesis.pdf",
-            "RUBRIC": "5sw-wk2-engineering-evidence-rubric.pdf",
+            "RUBRIC": "5sw-wk2-assessment-emerging-rubric.pdf",
+            "PORTFOLIO_RUBRIC": "5sw-wk2-engineering-evidence-rubric.pdf",
         }
         files = {
             key: await common.upload(client, ROOT / "docs/resources/worksheets" / name, support_path)
@@ -147,6 +157,13 @@ async def main():
                 visual_files[key] = await common.upload(client, ASSETS / f"day{day}" / name, folder_path)
 
         quiz = await upsert_quiz(client)
+        assessment = await common.upsert_assignment(
+            client,
+            ASSESSMENT_TITLE,
+            "<p>Submit the assessment-impact decision and two-specialty comparison by Canvas annotation, upload, typed labeled response, or paper. Use the student-visible 16-point rubric; bridge fabrication and team ranking are not part of this grade.</p>",
+            ["student_annotation", "online_upload", "online_text_entry"],
+            files["ASSESS"]["id"],
+        )
         systems = await common.upsert_assignment(
             client,
             SYSTEMS_TITLE,
@@ -178,6 +195,7 @@ async def main():
         urls = {
             "systems": f"/courses/{COURSE_ID}/assignments/{systems['id']}",
             "quiz": f"/courses/{COURSE_ID}/quizzes/{quiz['id']}",
+            "assessment": f"/courses/{COURSE_ID}/assignments/{assessment['id']}",
             "design": f"/courses/{COURSE_ID}/assignments/{design['id']}",
             "test": f"/courses/{COURSE_ID}/assignments/{test['id']}",
             "portfolio": f"/courses/{COURSE_ID}/assignments/{portfolio['id']}",
@@ -213,11 +231,11 @@ async def main():
                 "TITLE": "Assessment Impact and Emerging Work",
                 "PURPOSE": "Explain one possible assessment impact and evaluate two recognized changing engineering specialties.",
                 "TODAY": "<ul><li>read four current assessment cards;</li><li>write one verification question;</li><li>compare two O*NET specialties;</li><li>name a limitation.</li></ul>",
-                "READY": f'<p>Open {link(files["ASSESS"]["id"], "the five-page assessment and specialty packet")}.</p>',
+                "READY": f'<p>Open {link(files["ASSESS"]["id"], "the five-page assessment and specialty packet")} and {link(files["RUBRIC"]["id"], "the student-visible Minor 2 rubric")}.</p>',
                 "STEPS": step(1, "Choose an assessment", "<p>Explain a possible effect on a goal and what the result does not decide by itself.</p>")
                 + step(2, "Verify next", "<p>Write one exact question and name the authorized source that should answer it.</p>")
                 + step(3, "Compare specialties", "<p>Use Transportation Engineers and Water/Wastewater Engineers. Record work, driver, preparation context, and limitation.</p>")
-                + step(4, "Repair claims", f'<p><a href="{urls["quiz"]}">Complete the retryable practice Quiz</a>.</p>'),
+                + step(4, "Submit and repair claims", f'<p><a href="{urls["assessment"]}">Submit the evidence privately</a>, then <a href="{urls["quiz"]}">use the retryable practice Quiz</a> to check current-policy boundaries.</p>'),
                 "EXIT": "<p>Write one accurate assessment-impact statement, one emerging-work judgment, and one evidence limitation.</p>",
                 "DONE": "<ul><li>assessment decision;</li><li>verification question;</li><li>two-specialty comparison;</li><li>supported judgment;</li><li>limitation.</li></ul>",
                 "SUPPORT": "<p>assessment = evaluación · exemption = exención · placement = colocación · specialty = especialidad · limitation = limitación.</p>",
@@ -255,7 +273,7 @@ async def main():
                 "TITLE": "Mars Transfer and Weekly Synthesis",
                 "PURPOSE": "Transfer the design cycle to a fictional rover brief and synthesize the week's individual evidence.",
                 "TODAY": "<ul><li>find a class result pattern;</li><li>design a fictional rover;</li><li>explain one tradeoff;</li><li>submit the private portfolio.</li></ul>",
-                "READY": f'<p>Open {link(files["SYNTHESIS"]["id"], "the five-page synthesis packet")} and {link(files["RUBRIC"]["id"], "the two-page rubric")}.</p>',
+                "READY": f'<p>Open {link(files["SYNTHESIS"]["id"], "the five-page synthesis packet")} and {link(files["PORTFOLIO_RUBRIC"]["id"], "the formative portfolio rubric")}.</p>',
                 "STEPS": step(1, "Read anonymous results", "<p>State a pattern, exception, and the evidence—not a public team ranking.</p>")
                 + step(2, "Use the fictional Mars brief", "<p>Label four rover needs and two constraints in the large design field.</p>")
                 + step(3, "Explain the cycle", "<p>Connect define, test, revise, and evidence across bridge and rover work.</p>")
@@ -284,7 +302,7 @@ async def main():
                 "TITLE": "Assessment Impact and Emerging Work",
                 "SUBTITLE": "50 minutes · TEKS d(3)(E), d(1)(D)",
                 "ALERT": "<strong>Do not memorize unstable policies.</strong> Students identify a possible impact, what must be verified, and where to verify it.",
-                "PREP": f'<ul><li>Post {link(files["ASSESS"]["id"], "the current-source packet")} and retryable Quiz.</li><li>Keep the four assessment cards visible.</li><li>Preselect one fictional pathway goal for modeling.</li></ul>',
+                "PREP": f'<ul><li>Post {link(files["ASSESS"]["id"], "the current-source packet")}, {link(files["RUBRIC"]["id"], "the Minor 2 rubric")}, and retryable Quiz.</li><li>Keep the four assessment cards visible.</li><li>Preselect one fictional pathway goal for modeling.</li></ul>',
                 "EVIDENCE": "<p><strong>Minor 2 in the 5SW assessment map:</strong> assessment impact decision, verification question, two-specialty comparison, judgment, and limitation. Convert the rubric result to a 100-point grade only after the Minor group is verified.</p>",
                 "FLOW": flow("#1f617a", "Boundaries · 5", "What a result can and cannot decide.") + flow("#4a9d2f", "Assessment cards · 15", "Four current bounded uses.") + flow("#5a2d91", "Decision · 10", "Goal impact and verification question.") + flow("#e3ad19", "Specialties · 15", "Compare, judge, limit.") + flow("#1f617a", "Exit · 5", "Impact and emerging evidence."),
                 "MONITOR": "<p>PSAT 8/9 is Grade 8 or 9 and not sent to colleges; enhanced ACT Composite uses English, math, and reading; TSIA2 applies to entering non-exempt students; ASVAB use varies by service/program. For d(1)(D), require a named O*NET occupation, driver/change, judgment, and limitation.</p>",
@@ -320,7 +338,7 @@ async def main():
                 "TITLE": "Mars Transfer and Weekly Synthesis",
                 "SUBTITLE": "50 minutes · TEKS d(1)(C); portfolio reassesses d(1)(B), d(1)(D), d(2)(A), d(3)(E)",
                 "ALERT": "<strong>Formative engineering portfolio.</strong> Use the bridge/design evidence for feedback and revision; it is not one of the two mapped 5SW majors. Keep unpublished and ungraded until the review gate passes.",
-                "PREP": f'<ul><li>Post the two locked FYF visuals, {link(files["SYNTHESIS"]["id"], "the synthesis packet")}, and {link(files["RUBRIC"]["id"], "the rubric")}.</li><li>Prepare anonymous physical or fixed-data results.</li><li>Open the private portfolio Assignment.</li></ul>',
+                "PREP": f'<ul><li>Post the two locked FYF visuals, {link(files["SYNTHESIS"]["id"], "the synthesis packet")}, and {link(files["PORTFOLIO_RUBRIC"]["id"], "the formative portfolio rubric")}.</li><li>Prepare anonymous physical or fixed-data results.</li><li>Open the private portfolio Assignment.</li></ul>',
                 "EVIDENCE": "<p>Result pattern/limit, fictional rover design/tradeoff, four-part synthesis, pathway boundary, and verification question.</p>",
                 "FLOW": flow("#1f617a", "Pattern · 5", "Anonymous results, no ranking.") + flow("#4a9d2f", "Rover brief · 20", "Fictional design and constraints.") + flow("#5a2d91", "Tradeoff · 10", "Bridge/rover cycle connection.") + flow("#e3ad19", "Synthesis · 10", "Career, assessment, specialty, redesign.") + flow("#1f617a", "Exit · 5", "Pathway support and verification."),
                 "MONITOR": "<p>The Mars activity is a fictional workbook transfer brief, not current NASA status. Strong synthesis preserves one accurate career/preparation claim, an assessment impact with boundary, recognized emerging-work evidence, and a result-supported redesign.</p>",
@@ -339,7 +357,7 @@ async def main():
         }
         extras = {
             1: ("Assignment", systems["id"], SYSTEMS_TITLE),
-            2: ("Quiz", quiz["id"], QUIZ_TITLE),
+            2: ("Assignment", assessment["id"], ASSESSMENT_TITLE),
             3: ("Assignment", design["id"], DESIGN_TITLE),
             4: ("Assignment", test["id"], TEST_TITLE),
             5: ("Assignment", portfolio["id"], PORTFOLIO_TITLE),
@@ -368,6 +386,9 @@ async def main():
             kind, key, title = extras[day]
             await prior.upsert_item(client, module["id"], kind, key, title)
             order.append((kind, key, title))
+            if day == 2:
+                await prior.upsert_item(client, module["id"], "Quiz", quiz["id"], QUIZ_TITLE)
+                order.append(("Quiz", quiz["id"], QUIZ_TITLE))
 
         items = await common.paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
         for position, (kind, key, title) in enumerate(order, 1):
@@ -394,6 +415,7 @@ async def main():
                     "quiz": {"id": quiz["id"], "published": quiz.get("published"), "allowed_attempts": quiz.get("allowed_attempts")},
                     "assignments": {
                         "systems": {"id": systems["id"], "published": systems.get("published"), "submission_types": systems.get("submission_types")},
+                        "assessment": {"id": assessment["id"], "published": assessment.get("published"), "submission_types": assessment.get("submission_types")},
                         "design": {"id": design["id"], "published": design.get("published"), "submission_types": design.get("submission_types")},
                         "test": {"id": test["id"], "published": test.get("published"), "submission_types": test.get("submission_types")},
                         "portfolio": {"id": portfolio["id"], "published": portfolio.get("published"), "submission_types": portfolio.get("submission_types")},

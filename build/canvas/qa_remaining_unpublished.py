@@ -16,6 +16,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 from configure_assessment_map import ASSESSMENTS, MAJOR_GROUP, MINOR_GROUP
+from configure_assessment_rubrics import NOTE_MARKER, RUBRIC_PREFIX, RUBRICS
 
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
@@ -475,6 +476,8 @@ async def audit_assessment_map(client: httpx.AsyncClient, modules: list[dict]) -
         client, f"/courses/{COURSE_ID}/assignment_groups?include[]=assignments"
     )
     assignments = await paged(client, f"/courses/{COURSE_ID}/assignments")
+    rubrics = await paged(client, f"/courses/{COURSE_ID}/rubrics")
+    rubric_specs = {spec.assignment_title: spec for spec in RUBRICS}
     module_by_name = {module.get("name"): module for module in modules}
     group_by_name: dict[str, dict] = {}
     for name, expected_weight in ((MINOR_GROUP, 40), (MAJOR_GROUP, 60)):
@@ -509,6 +512,10 @@ async def audit_assessment_map(client: httpx.AsyncClient, modules: list[dict]) -
             )
             continue
         assignment = matches[0]
+        assignment_detail = await api(
+            client,
+            f"/courses/{COURSE_ID}/assignments/{assignment['id']}?include[]=rubric",
+        )
         mapped_ids.add(int(assignment["id"]))
         mapped_counts[assessment.group] += 1
         group = group_by_name.get(assessment.group)
@@ -524,11 +531,74 @@ async def audit_assessment_map(client: httpx.AsyncClient, modules: list[dict]) -
             )
         if assignment.get("published"):
             problems.append(f"mapped assignment is published: {assessment.title}")
+        if NOTE_MARKER not in (assignment_detail.get("description") or ""):
+            problems.append(
+                f"mapped assignment is missing the raw-to-100 conversion note: {assessment.title}"
+            )
         submission_types = assignment.get("submission_types") or []
         if not set(submission_types) - {"none", "not_graded"}:
             problems.append(
                 f"mapped assignment has no submission route: {assessment.title}"
             )
+        rubric_title = RUBRIC_PREFIX + assessment.title
+        rubric_matches = [
+            rubric for rubric in rubrics if rubric.get("title") == rubric_title
+        ]
+        rubric_id = None
+        if len(rubric_matches) != 1:
+            problems.append(
+                f"expected one advisory rubric {rubric_title!r}; found {len(rubric_matches)}"
+            )
+        else:
+            rubric = rubric_matches[0]
+            rubric_id = rubric.get("id")
+            rubric_detail = await api(
+                client,
+                f"/courses/{COURSE_ID}/rubrics/{rubric_id}?include[]=associations",
+            )
+            spec = rubric_specs[assessment.title]
+            criteria = rubric_detail.get("data") or []
+            if len(criteria) not in {3, 4, 6}:
+                problems.append(
+                    f"advisory rubric has unexpected criterion count for {assessment.title}: {len(criteria)}"
+                )
+            points = sum(float(criterion.get("points") or 0) for criterion in criteria)
+            if points != spec.points or float(rubric_detail.get("points_possible") or 0) != spec.points:
+                problems.append(
+                    f"advisory rubric raw total is wrong for {assessment.title}: criteria={points:g} rubric={rubric_detail.get('points_possible')} expected={spec.points}"
+                )
+            for criterion in criteria:
+                ratings = criterion.get("ratings") or []
+                if len(ratings) < 5 or not any(
+                    float(rating.get("points") or 0) == 0 for rating in ratings
+                ):
+                    problems.append(
+                        f"advisory rubric criterion lacks a complete zero-point scale for {assessment.title}: {criterion.get('description')}"
+                    )
+            associations = [
+                entry
+                for entry in (rubric_detail.get("associations") or [])
+                if entry.get("association_type") == "Assignment"
+                and int(entry.get("association_id")) == int(assignment["id"])
+            ]
+            if len(associations) != 1:
+                problems.append(
+                    f"advisory rubric is not associated exactly once with {assessment.title}"
+                )
+            else:
+                association = associations[0]
+                if association.get("use_for_grading"):
+                    problems.append(
+                        f"raw rubric is incorrectly driving the 100-point grade: {assessment.title}"
+                    )
+                if association.get("purpose") != "grading":
+                    problems.append(
+                        f"advisory rubric is not available for scoring: {assessment.title}"
+                    )
+            if assignment_detail.get("use_rubric_for_grading") is not False:
+                problems.append(
+                    f"assignment does not expose the rubric as advisory: {assessment.title}"
+                )
         module = module_by_name.get(assessment.module)
         if not module:
             problems.append(f"mapped assignment module is missing: {assessment.module}")
@@ -550,6 +620,7 @@ async def audit_assessment_map(client: httpx.AsyncClient, modules: list[dict]) -
                 "title": assessment.title,
                 "group": assessment.group,
                 "module": assessment.module,
+                "rubric_id": rubric_id,
             }
         )
 
@@ -563,11 +634,21 @@ async def audit_assessment_map(client: httpx.AsyncClient, modules: list[dict]) -
             problems.append(f"unmapped assignments in {name}: {extras}")
     if mapped_counts != {MINOR_GROUP: 18, MAJOR_GROUP: 12}:
         problems.append(f"mapped assessment counts are wrong: {mapped_counts}")
+    expected_rubric_titles = {RUBRIC_PREFIX + item.title for item in ASSESSMENTS}
+    extra_rubrics = sorted(
+        rubric.get("title")
+        for rubric in rubrics
+        if (rubric.get("title") or "").startswith(RUBRIC_PREFIX)
+        and rubric.get("title") not in expected_rubric_titles
+    )
+    if extra_rubrics:
+        problems.append(f"unmapped CCE advisory rubrics: {extra_rubrics}")
 
     return {
         "minor": mapped_counts[MINOR_GROUP],
         "major": mapped_counts[MAJOR_GROUP],
         "assignments": rows,
+        "rubrics": sum(row.get("rubric_id") is not None for row in rows),
         "problems": problems,
         "passed": not problems,
     }

@@ -24,6 +24,7 @@ IMPORTERS = [
 ]
 ALL_IMPORTERS = [ORIENTATION_IMPORTER, *IMPORTERS]
 ASSESSMENT_CONFIGURATOR = CANVAS_DIR / "configure_assessment_map.py"
+RUBRIC_CONFIGURATOR = CANVAS_DIR / "configure_assessment_rubrics.py"
 IMAGE_NORMALIZER = CANVAS_DIR / "normalize_unpublished_image_loading.py"
 QA_SCRIPT = CANVAS_DIR / "qa_remaining_unpublished.py"
 
@@ -39,6 +40,8 @@ def preflight() -> int:
         missing.append(str(IMAGE_NORMALIZER.relative_to(ROOT)))
     if not ASSESSMENT_CONFIGURATOR.is_file():
         missing.append(str(ASSESSMENT_CONFIGURATOR.relative_to(ROOT)))
+    if not RUBRIC_CONFIGURATOR.is_file():
+        missing.append(str(RUBRIC_CONFIGURATOR.relative_to(ROOT)))
     if missing:
         errors.append("Missing importer(s): " + ", ".join(missing))
 
@@ -64,6 +67,11 @@ def preflight() -> int:
             py_compile.compile(str(ASSESSMENT_CONFIGURATOR), doraise=True)
         except py_compile.PyCompileError as exc:
             errors.append(f"{ASSESSMENT_CONFIGURATOR.relative_to(ROOT)}: {exc.msg}")
+    if RUBRIC_CONFIGURATOR.is_file():
+        try:
+            py_compile.compile(str(RUBRIC_CONFIGURATOR), doraise=True)
+        except py_compile.PyCompileError as exc:
+            errors.append(f"{RUBRIC_CONFIGURATOR.relative_to(ROOT)}: {exc.msg}")
 
     dependency_roots = (
         ROOT / "docs/resources/worksheets",
@@ -297,6 +305,40 @@ def main() -> int:
         "  "
         f"minor={sum(1 for item in assessment_payload.get('assignments', []) if item.get('group') == 'Minor Assessments (40%)')} "
         f"major={sum(1 for item in assessment_payload.get('assignments', []) if item.get('group') == 'Major Assessments (60%)')}",
+        flush=True,
+    )
+
+    print("Attaching 30 student-visible advisory rubrics...", flush=True)
+    rubric_setup = subprocess.run(
+        [sys.executable, str(RUBRIC_CONFIGURATOR)],
+        cwd=ROOT,
+        input=token + "\n",
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    if rubric_setup.returncode:
+        print(
+            redact(rubric_setup.stderr or rubric_setup.stdout, token),
+            file=sys.stderr,
+        )
+        print(
+            "Assessment groups were staged, but rubric setup failed. Nothing was published.",
+            file=sys.stderr,
+        )
+        return rubric_setup.returncode
+    try:
+        rubric_payload = json.loads(rubric_setup.stdout)
+    except json.JSONDecodeError:
+        print(redact(rubric_setup.stdout[-4000:], token), file=sys.stderr)
+        print("Rubric-setup output was not valid JSON.", file=sys.stderr)
+        return 3
+    rubric_rows = rubric_payload.get("rubrics", [])
+    print(
+        "  "
+        f"rubrics={len(rubric_rows)} "
+        f"criteria={sum(item.get('criteria', 0) for item in rubric_rows)} "
+        f"advisory={sum(not item.get('use_for_grading') for item in rubric_rows)}",
         flush=True,
     )
 

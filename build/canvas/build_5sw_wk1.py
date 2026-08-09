@@ -15,7 +15,9 @@ ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/5sw/wk1"
 MODULE_NAME = "5SW Wk1: Blueprint Builders — Architecture Evidence"
 
 SAFETY_TITLE = "PRACTICE: Safety Supervisor Evidence Plan"
-QUIZ_TITLE = "MINOR 1: Architecture Career Evidence Check"
+QUIZ_TITLE = "PRACTICE: Architecture Career Evidence Check"
+QUIZ_ALIASES = ("MINOR 1: Architecture Career Evidence Check",)
+ASSESSMENT_TITLE = "MINOR 1: Three-Career Architecture Comparison"
 DESIGN_TITLE = "PRACTICE: Community Learning Space Concept"
 REVISION_TITLE = "PRACTICE: Building Test and Revision"
 PORTFOLIO_TITLE = "FORMATIVE: Architecture Evidence Portfolio"
@@ -96,7 +98,14 @@ QUESTIONS = [
 
 async def upsert_quiz(client):
     quizzes = await common.paged(client, f"/courses/{COURSE_ID}/quizzes")
-    found = next((quiz for quiz in quizzes if quiz.get("title") == QUIZ_TITLE), None)
+    found = next(
+        (
+            quiz
+            for quiz in quizzes
+            if quiz.get("title") == QUIZ_TITLE or quiz.get("title") in QUIZ_ALIASES
+        ),
+        None,
+    )
     data = {
         "quiz[title]": QUIZ_TITLE,
         "quiz[description]": "<p>Ungraded, unlimited-retry practice. Use the feedback to repair salary, preparation, and design-boundary labels.</p>",
@@ -156,7 +165,8 @@ async def main():
             "DESIGN": "5sw-wk1-concept-building-design.pdf",
             "REVISION": "5sw-wk1-design-test-and-revision.pdf",
             "LANDMARK": "5sw-wk1-unexpected-architecture-evidence.pdf",
-            "RUBRIC": "5sw-wk1-architecture-portfolio-rubric.pdf",
+            "RUBRIC": "5sw-wk1-architecture-comparison-rubric.pdf",
+            "PORTFOLIO_RUBRIC": "5sw-wk1-architecture-portfolio-rubric.pdf",
         }
         files = {
             key: await common.upload(client, ROOT / "docs/resources/worksheets" / name, support_path)
@@ -183,6 +193,13 @@ async def main():
                 visual_files[key] = await common.upload(client, ASSETS / f"day{day}" / name, folder_path)
 
         quiz = await upsert_quiz(client)
+        comparison = await common.upsert_assignment(
+            client,
+            ASSESSMENT_TITLE,
+            "<p>Submit the completed three-career comparison by Canvas annotation, upload, typed labeled response, or paper. Use the student-visible 16-point rubric; Tinkercad, drawing, and public speaking are not part of this grade.</p>",
+            ["student_annotation", "online_upload", "online_text_entry"],
+            files["CAREERS"]["id"],
+        )
         safety = await common.upsert_assignment(
             client,
             SAFETY_TITLE,
@@ -214,6 +231,7 @@ async def main():
         urls = {
             "safety": f"/courses/{COURSE_ID}/assignments/{safety['id']}",
             "quiz": f"/courses/{COURSE_ID}/quizzes/{quiz['id']}",
+            "comparison": f"/courses/{COURSE_ID}/assignments/{comparison['id']}",
             "design": f"/courses/{COURSE_ID}/assignments/{design['id']}",
             "revision": f"/courses/{COURSE_ID}/assignments/{revision['id']}",
             "portfolio": f"/courses/{COURSE_ID}/assignments/{portfolio['id']}",
@@ -251,11 +269,11 @@ async def main():
                 "TITLE": "Compare Career Preparation and Pay",
                 "PURPOSE": "Compare three careers using one dated source basis and accurate preparation boundaries.",
                 "TODAY": "<ul><li>keep labels with salary figures;</li><li>compare preparation;</li><li>rank all three medians;</li><li>recommend with two evidence details.</li></ul>",
-                "READY": f'<p>Open {link(files["CAREERS"]["id"], "the four-page comparable evidence guide")}.</p>',
+                "READY": f'<p>Open {link(files["CAREERS"]["id"], "the four-page comparable evidence guide")} and {link(files["RUBRIC"]["id"], "the student-visible Minor 1 rubric")}.</p>',
                 "STEPS": step(1, "Read the salary label", "<p>Every figure is a May 2024 U.S. median from BLS—not DFW, starting, or guaranteed pay.</p>")
                 + step(2, "Compare preparation", "<p>Separate education, documented experience, examination, and registration boundaries.</p>")
                 + step(3, "Recommend", "<p>Cite one salary figure and one preparation difference for fictional Jordan.</p>")
-                + step(4, "Repair labels", f'<p><a href="{urls["quiz"]}">Complete the retryable evidence Quiz</a>.</p>'),
+                + step(4, "Submit and repair labels", f'<p><a href="{urls["comparison"]}">Submit the comparison privately</a>, then <a href="{urls["quiz"]}">use the retryable practice Quiz</a> to check labels.</p>'),
                 "EXIT": "<p>Rank all three medians, then explain why salary alone cannot decide fit.</p>",
                 "DONE": "<ul><li>three career rows;</li><li>three salary labels;</li><li>preparation difference;</li><li>supported recommendation;</li><li>one limitation.</li></ul>",
                 "SUPPORT": "<p>median = mediana · preparation = preparación · experience = experiencia · examination = examen.</p>",
@@ -293,7 +311,7 @@ async def main():
                 "TITLE": "Unexpected Architecture and Synthesis",
                 "PURPOSE": "Use city-goal evidence in a novelty concept and explain how three cluster roles work together.",
                 "TODAY": "<ul><li>choose two city goals;</li><li>contribute to front and side views;</li><li>give or record a short explanation;</li><li>complete the private portfolio.</li></ul>",
-                "READY": f'<p>Open {link(files["LANDMARK"]["id"], "the four-page individual evidence form")} and {link(files["RUBRIC"]["id"], "the two-page portfolio rubric")}.</p>',
+                "READY": f'<p>Open {link(files["LANDMARK"]["id"], "the four-page individual evidence form")} and {link(files["PORTFOLIO_RUBRIC"]["id"], "the formative portfolio rubric")}.</p>',
                 "STEPS": step(1, "Read the city goals", "<p>Choose two goals from the licensed brief. A memorable shape must still serve users.</p>")
                 + step(2, "Build the firm concept", "<p>Draw front and side views, label evidence, and record your individual contribution.</p>")
                 + step(3, "Pitch or explain", "<p>Use a one-minute paired, written, or private recorded route. Public speaking is formative.</p>")
@@ -322,7 +340,7 @@ async def main():
                 "TITLE": "Compare Career Preparation and Pay",
                 "SUBTITLE": "50 minutes · TEKS d(2)(A), d(5)(E)",
                 "ALERT": "<strong>One evidence basis.</strong> May 2024 U.S. medians are not DFW, starting, maximum, or guaranteed pay.",
-                "PREP": f'<ul><li>Post {link(files["CAREERS"]["id"], "the fixed evidence guide")} and Quiz.</li><li>Model occupation, source, year, geography, and measure.</li></ul>',
+                "PREP": f'<ul><li>Post {link(files["CAREERS"]["id"], "the fixed evidence guide")}, {link(files["RUBRIC"]["id"], "the Minor 1 rubric")}, and Quiz.</li><li>Model occupation, source, year, geography, and measure.</li></ul>',
                 "EVIDENCE": "<p><strong>Minor 1 in the 5SW assessment map:</strong> three careers, preparation boundaries, salary comparison, limitation, and Jordan recommendation. Convert the rubric result to a 100-point grade only after the Minor group is verified.</p>",
                 "FLOW": flow("#5a2d91", "Labels · 5", "Unsupported versus supported claim.") + flow("#4a9d2f", "Model · 10", "Architect preparation and salary.") + flow("#1f617a", "Compare · 20", "Three fixed career rows.") + flow("#e3ad19", "Recommend · 10", "Salary plus preparation.") + flow("#1f617a", "Exit · 5", "Rank and limitation."),
                 "MONITOR": "<p>Key medians: Architect $96,690; Drafter $65,380; Interior Designer $63,490. Different recommendations can earn full credit. Reject the invented salary-to-education ratio.</p>",
@@ -358,7 +376,7 @@ async def main():
                 "TITLE": "Unexpected Architecture and Weekly Synthesis",
                 "SUBTITLE": "50 minutes · TEKS d(1)(B), d(1)(C); portfolio reassesses d(2)(A), d(5)(E)",
                 "ALERT": "<strong>Formative weekly portfolio.</strong> Use this to rehearse and revise evidence; it is not one of the two mapped 5SW majors. Keep the Assignment unpublished and ungraded until the review gate passes.",
-                "PREP": f'<ul><li>Post the four locked licensed visuals, {link(files["LANDMARK"]["id"], "the individual evidence form")}, and {link(files["RUBRIC"]["id"], "the rubric")}.</li><li>Open the private portfolio Assignment.</li><li>Prepare groups and a solo route.</li></ul>',
+                "PREP": f'<ul><li>Post the four locked licensed visuals, {link(files["LANDMARK"]["id"], "the individual evidence form")}, and {link(files["PORTFOLIO_RUBRIC"]["id"], "the formative portfolio rubric")}.</li><li>Open the private portfolio Assignment.</li><li>Prepare groups and a solo route.</li></ul>',
                 "EVIDENCE": "<p>Two city goals, individual contribution, three-role synthesis, one preserved Day 2 label, and complete private portfolio.</p>",
                 "FLOW": flow("#5a2d91", "Brief · 5", "City goals and examples.") + flow("#4a9d2f", "Firm concept · 25", "Choose, draw, label, record.") + flow("#1f617a", "Pitch/gallery · 15", "One-minute equal routes.") + flow("#e3ad19", "Synthesis · 5", "Three roles and source label."),
                 "MONITOR": "<p>A strong synthesis describes distinct work by at least three roles, retains a salary/preparation label, and connects the concept to stated city goals. Public speaking and group attendance are not scored.</p>",
@@ -377,7 +395,7 @@ async def main():
         }
         extras = {
             1: ("Assignment", safety["id"], SAFETY_TITLE),
-            2: ("Quiz", quiz["id"], QUIZ_TITLE),
+            2: ("Assignment", comparison["id"], ASSESSMENT_TITLE),
             3: ("Assignment", design["id"], DESIGN_TITLE),
             4: ("Assignment", revision["id"], REVISION_TITLE),
             5: ("Assignment", portfolio["id"], PORTFOLIO_TITLE),
@@ -406,6 +424,9 @@ async def main():
             kind, key, title = extras[day]
             await upsert_item(client, module["id"], kind, key, title)
             order.append((kind, key, title))
+            if day == 2:
+                await upsert_item(client, module["id"], "Quiz", quiz["id"], QUIZ_TITLE)
+                order.append(("Quiz", quiz["id"], QUIZ_TITLE))
 
         items = await common.paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
         for position, (kind, key, title) in enumerate(order, 1):
@@ -432,6 +453,7 @@ async def main():
                     "quiz": {"id": quiz["id"], "published": quiz.get("published"), "allowed_attempts": quiz.get("allowed_attempts")},
                     "assignments": {
                         "safety": {"id": safety["id"], "published": safety.get("published"), "submission_types": safety.get("submission_types")},
+                        "comparison": {"id": comparison["id"], "published": comparison.get("published"), "submission_types": comparison.get("submission_types")},
                         "design": {"id": design["id"], "published": design.get("published"), "submission_types": design.get("submission_types")},
                         "revision": {"id": revision["id"], "published": revision.get("published"), "submission_types": revision.get("submission_types")},
                         "portfolio": {"id": portfolio["id"], "published": portfolio.get("published"), "submission_types": portfolio.get("submission_types")},
