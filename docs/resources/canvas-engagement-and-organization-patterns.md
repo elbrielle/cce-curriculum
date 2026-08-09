@@ -110,6 +110,17 @@ Across a five-day week, aim for different cognitive actions, not five different 
 
 The same Canvas grammar stays stable while the thinking changes. That is the balance: predictable navigation, varied work.
 
+## August 8, 2026 follow-up research pass
+
+A current official/practitioner scan reinforced the existing Modules-first design and added four publication checks:
+
+1. **Keep one source of truth.** Current middle-school Canvas users repeatedly describe weekly modules, day subheaders, and directly adjacent activities as easier for students and absent learners. They also warn that repeating directions in Pages, Assignments, Files, and a separate syllabus creates update drift. The Student Guide remains the complete route; an Assignment or external tool links back to it instead of copying a second version of the directions. See the [2025 middle-school organization discussion](https://www.reddit.com/r/Teachers/comments/1mnhate/teachers_that_use_canvas_how_do_you_set_up_your/) and [2026 teacher-planner discussion](https://www.reddit.com/r/canvas/comments/1v89ezg/teachers_who_use_canvas_how_do_you_organize/). These posts are implementation signals, not evidence or policy.
+2. **Audit student navigation before publication.** Instructure documents that instructors can hide or disable course-navigation links while still seeing them as teachers. After the core route passes Student View, evaluate whether Pages, Files, Quizzes, and unused LTIs should be hidden so students do not bypass the weekly sequence. Do not change navigation merely to make the teacher view look cleaner. See [Instructure: manage Course Navigation links](https://community.instructure.com/en/kb/articles/660741-how-do-i-manage-course-navigation-links).
+3. **Use requirements as progress signals, not punishment.** A `Mark as Done` page requirement can create a visible completion check, while a submission requirement can confirm that an activity was turned in. Requirements and prerequisites can also re-lock or delay students after edits. Pilot them on one stable week, never behind manual grading, and confirm the absent/late-work route before coursewide use. See [Instructure: edit module requirements and prerequisites](https://community.instructure.com/en/kb/articles/660900-how-do-i-edit-or-delete-a-module).
+4. **Pilot anonymous peer review only where critique matters.** Canvas can assign anonymous peer reviews and attach a rubric, which can reduce social pressure and teacher matching work. Canvas DocViewer annotations do not remain anonymous, and late or missing submissions can strand reviewers. Use this only for a stable draft-review lesson with a private teacher/self-review fallback; do not attach it to personal career profiles or sensitive reflection. See the [Canvas Basics Guide, updated June 27, 2025](https://community.canvaslms.com/html/assets/Canvas_Basics_Guide.pdf).
+
+No new integration became load-bearing from this scan. Studio, Canva, Lucid, annotation, peer review, and requirements remain targeted pilots that must pass student provisioning, accessibility, privacy, mobile, fallback, and teacher-time checks in the live Irving course.
+
 ## Production checklist
 
 - [ ] The interaction improves a defined evidence job.
@@ -122,4 +133,3 @@ The same Canvas grammar stays stable while the thinking changes. That is the bal
 - [ ] Captions/transcript, alt text, keyboard route, contrast, and non-color cues are present.
 - [ ] The activity is correctly labeled practice, formative, minor, major, or recovery.
 - [ ] Student view and teacher view both pass before publishing.
-
