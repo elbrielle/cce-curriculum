@@ -10,16 +10,16 @@ pages: 2
 orientation: landscape
 ---
 
-## Four-Criterion Rubric
+## Four-Criterion Feedback Profile — Not a Grade
 
 | Criterion | 4 — Masters | 3 — Meets | 2 — Approaches | 1 — Needs Improvement | 0 — Insufficient Evidence |
 |---|---|---|---|---|---|
 | Visible evidence accuracy | All findings use precise visible evidence and avoid invented details | Findings are mostly accurate and observable | Some rows mix observation and assumption | Most claims are vague or unsupported | Blank, off-topic, or not submitted |
 | Cautious inference and limit | Every concern uses cautious language and a useful evidence limit | Inferences and limits are mostly accurate | One or more limits are partial | Claims repeatedly diagnose or overstate | Blank, off-topic, or not submitted |
 | Qualified-role connection | Every finding names a reasonable qualified follow-up role and explains why | Roles are accurate with clear reasons | Some roles or reasons need correction | Roles are missing or mostly mismatched | Blank, off-topic, or not submitted |
-| Professional briefing | 30–45 seconds, organized, evidence-based, and clear through an approved oral route | Briefing is accurate and organized | One job is partial or lightly supported | Briefing is difficult to follow or unsupported | No oral/AAC evidence submitted |
+| Professional briefing | 30–45 seconds, organized, evidence-based, and names the role's next work product through an approved oral/AAC route | Briefing is accurate, organized, and connects the role to a work product | One job is partial or lightly supported | Briefing is difficult to follow or misses the career/work-product connection | No oral/AAC evidence submitted |
 
-Total: ____ / 16
+Feedback profile: ____ / 16 — this formative profile is not entered as a separate grade.
 
 [[pagebreak]]
 

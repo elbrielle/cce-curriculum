@@ -6,7 +6,7 @@ weeks: 5sw/wk3-construction-trades
 audience: student
 variant_of:
 language: en
-pages: 6
+pages: 4
 orientation: landscape
 ---
 
@@ -29,83 +29,59 @@ Source basis: May 2024 U.S. medians and 2024–34 national projections, BLS. Ann
 
 [[pagebreak]]
 
-## Construction Manager
+## Construction Manager and Carpenter
 
-High-skill? YES / NO — exact preparation evidence:
+### Construction Manager
 
-[[lines: 3]]
-
-High-wage? YES / NO — exact salary evidence:
-
-[[lines: 3]]
-
-High-demand? YES / NO — exact growth evidence:
-
-[[lines: 3]]
+| Course label | Circle | Exact evidence from page 1 |
+|---|---|---|
+| High-skill | YES / NO |  |
+| High-wage | YES / NO |  |
+| High-demand | YES / NO |  |
 
 One limitation or claim the data does not prove:
 
-[[lines: 4]]
+[[lines: 2]]
+
+### Carpenter
+
+| Course label | Circle | Exact evidence from page 1 |
+|---|---|---|
+| High-skill | YES / NO |  |
+| High-wage | YES / NO |  |
+| High-demand | YES / NO |  |
+
+One limitation or claim the data does not prove:
+
+[[lines: 2]]
 
 [[pagebreak]]
 
-## Carpenter
+## Equipment Operator and Masonry Worker
 
-High-skill? YES / NO — exact preparation evidence:
+### Construction Equipment Operator
 
-[[lines: 3]]
-
-High-wage? YES / NO — exact salary evidence:
-
-[[lines: 3]]
-
-High-demand? YES / NO — exact growth evidence:
-
-[[lines: 3]]
+| Course label | Circle | Exact evidence from page 1 |
+|---|---|---|
+| High-skill | YES / NO |  |
+| High-wage | YES / NO |  |
+| High-demand | YES / NO |  |
 
 One limitation or claim the data does not prove:
 
-[[lines: 4]]
+[[lines: 2]]
 
-[[pagebreak]]
+### Masonry Worker
 
-## Construction Equipment Operator
-
-High-skill? YES / NO — exact preparation evidence:
-
-[[lines: 3]]
-
-High-wage? YES / NO — exact salary evidence:
-
-[[lines: 3]]
-
-High-demand? YES / NO — exact growth evidence:
-
-[[lines: 3]]
+| Course label | Circle | Exact evidence from page 1 |
+|---|---|---|
+| High-skill | YES / NO |  |
+| High-wage | YES / NO |  |
+| High-demand | YES / NO |  |
 
 One limitation or claim the data does not prove:
 
-[[lines: 4]]
-
-[[pagebreak]]
-
-## Masonry Worker
-
-High-skill? YES / NO — exact preparation evidence:
-
-[[lines: 3]]
-
-High-wage? YES / NO — exact salary evidence:
-
-[[lines: 3]]
-
-High-demand? YES / NO — exact growth evidence:
-
-[[lines: 3]]
-
-One limitation or claim the data does not prove:
-
-[[lines: 4]]
+[[lines: 2]]
 
 [[pagebreak]]
 
@@ -115,10 +91,12 @@ How can one occupation have more annual openings but lower growth than another?
 
 [[lines: 5]]
 
+**Use this frame:** I recommend [occupation] because [preparation fact], [pay figure], and [trend figure]. This national evidence does not prove [local or starting-pay limitation].
+
 Recommendation for fictional Jordan using preparation, pay, trend, and one limitation:
 
-[[lines: 8]]
+[[lines: 7]]
 
 One number I would mark **N/A / not comparable** rather than estimate:
 
-[[lines: 4]]
+[[lines: 3]]

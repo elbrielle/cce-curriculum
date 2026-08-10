@@ -6,7 +6,7 @@ weeks: 5sw/wk3-construction-trades
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 4
 orientation: portrait
 ---
 
@@ -60,11 +60,22 @@ One transfer or cost limitation I would verify:
 
 Best route for fictional Jordan and two card details that support the decision:
 
-[[lines: 7]]
+[[lines: 5]]
 
 One advantage of the route Jordan did not choose:
 
-[[lines: 4]]
+[[lines: 2]]
+
+## Individual Exit
+
+Two actual apply/enroll steps for one route:
+
+1. [[lines: 1]]
+2. [[lines: 1]]
+
+One detail that varies and must be verified:
+
+[[lines: 1]]
 
 [[pagebreak]]
 
@@ -73,33 +84,24 @@ One advantage of the route Jordan did not choose:
 | Type | Main job | Construction example or boundary |
 |---|---|---|
 | Union | Represents workers; may bargain or sponsor training | Not every apprenticeship is union |
-| Professional/trade association | Connects workers or employers around a field | May offer learning, standards, or networking |
+| Professional/trade association | Connects workers or employers around a field | Associated General Contractors of America (AGC) |
 | CTSO | Student organization connected to CTE | Current Irving Construction coursebook lists TSA |
 | Credential body | Develops or awards credentials | NCCER is not a union or CTSO |
+
+**Named association card:** AGC supports student chapters at accredited two- and four-year schools with construction-related programs. A future student accesses a chapter through a participating college. AGC says chapter membership helps students observe and develop skills with industry leaders. Source accessed August 2026: AGC Student Chapters.
 
 Selected organization: _____________________________________
 
 Type and affiliated group:
 
-[[lines: 4]]
+[[lines: 2]]
 
 One documented member/student value:
 
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Individual Exit
-
-Two actual apply/enroll steps for one route:
-
-1. [[lines: 3]]
-2. [[lines: 3]]
-
-One detail that varies and must be verified:
-
-[[lines: 4]]
+[[lines: 3]]
 
 Classify one organization and explain one value:
 
-[[lines: 6]]
+[[lines: 3]]
+
+**Use this frame:** [Organization] is a [type]. A student can access it by [step], and one documented value is [value].

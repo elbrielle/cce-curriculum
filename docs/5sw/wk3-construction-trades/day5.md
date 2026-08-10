@@ -2,10 +2,10 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will turn observation notes into a bounded evidence report; deliver one organized 30–45 second professional briefing.
+- **Topic:** Professional Communication
+- **Objective:** Students will organize construction evidence and deliver a clear individual professional briefing.
 - **TEKS:** d(1)(C), d(4)(C)
-- **Demonstration of Learning:** Individual report + live, private recorded, or teacher-conference oral briefing.
+- **Demonstration of Learning:** Individual evidence report + live, private recorded, teacher-conference, or accommodation-aligned oral/AAC briefing.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -15,7 +15,7 @@
 | **Objectives** | Turn observation notes into a bounded evidence report; deliver one organized 30–45 second professional briefing |
 | **TEKS** | d(1)(C), d(4)(C) |
 | **Deliverable** | Individual report + live, private recorded, or teacher-conference oral briefing |
-| **Materials** | Locked images, expanded report, briefing planner, student-visible rubric, private Canvas Assignment |
+| **Materials** | Locked images, shared five-page evidence report begun on Day 4, briefing planner, student-visible feedback guide, private Canvas Assignment |
 
 ## Warm-Up (5 min)
 
@@ -35,7 +35,7 @@ The report does not diagnose, price repairs, rank purchase decisions, or promise
 
 ## Activity 2: Complete the Evidence Report (25 min)
 
-Students use the expanded two-page report rather than the cramped FYF p. 179 table. They complete five image blocks and one thermal-image block. A neutral image still requires the area checked, visible evidence, and the limit of the photograph.
+Students revise the shared five-page evidence report begun on Day 4 rather than recopying the findings into a second packet. They complete five image blocks, the thermal boundary, and the overall summary. A neutral image still requires the area checked, visible evidence, and the limit of the photograph.
 
 Teacher monitoring sequence:
 
@@ -54,6 +54,7 @@ Briefing jobs:
 2. state the visible evidence;
 3. explain one cautious possibility and limit;
 4. recommend the qualified role for further evaluation.
+5. name the work product that worker would create or use next.
 
 Public presentation is optional practice and is not required. There is no cold team jigsaw.
 

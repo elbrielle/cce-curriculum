@@ -3,9 +3,9 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **Objective:** Students will separate visible evidence from inference and identify the qualified construction role that should evaluate a possible concern.
 - **TEKS:** d(1)(C)
-- **Demonstration of Learning:** Individual five-image observation log and thermal-image comparison.
+- **Demonstration of Learning:** Five-image evidence draft and thermal-image boundary.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,8 +14,8 @@
 | **Time** | 50 minutes |
 | **Objectives** | Record visible evidence from five supplied images; state cautious possibilities and limits; identify a qualified follow-up role |
 | **TEKS** | d(1)(C) |
-| **Deliverable** | Individual five-image observation log and thermal-image comparison |
-| **Materials** | Locked Climber Notes slides 2–6, locked FYF pp. 176–178, expanded observation log, zoomable images |
+| **Deliverable** | Draft Findings 1–5 and the thermal boundary in the shared evidence report |
+| **Materials** | Student FYF workbook pp. 176–178, locked Climber Notes slides 2–6, shared five-page evidence report, zoomable images |
 
 ## Warm-Up (5 min)
 
@@ -37,7 +37,7 @@ Use the FYF categories—structure, roof, water/moisture, electrical, and insula
 
 ## Activity 3: Five-Image Evidence Lab (25 min)
 
-Embed the five licensed slides individually in Canvas. Hold each for about four minutes. Students record:
+Embed the five licensed slides individually in Canvas. Hold each for about four minutes. Students draft Findings 1–5 directly in the same report they will revise on Day 5; they do not complete a second observation packet. Each finding records:
 
 1. visible observation;
 2. possible concern;

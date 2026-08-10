@@ -55,22 +55,22 @@ Annual openings are analyzed separately. Openings include replacement needs and 
 | 1 | Current pathway + career preparation | Career/preparation evidence card | d(1)(C), d(2)(A) |
 | 2 | Registered Apprenticeship, college route, and organizations | Route/enrollment and organization comparison | d(3)(G), d(3)(H) |
 | 3 | Fixed labor-market classification | Four-career classification and limitation | d(5)(A), d(5)(B) |
-| 4 | Spot the Problem observation lab | Five-image observation log | d(1)(C) |
-| 5 | Evidence report + professional briefing | Private report and individual oral/text equivalent | d(1)(C), d(4)(C) |
+| 4 | Spot the Problem observation lab | Findings 1–5 + thermal boundary in the shared report | d(1)(C) |
+| 5 | Evidence report + professional briefing | Revised private report + individual oral/AAC briefing | d(1)(C), d(4)(C) |
 
 ## Materials
 
 - Chromebooks and Canvas
 - Locked FYF pp. 176–179 and locked Climber Notes slides 2–6
 - Fixed CCE career, route, organization, and labor-data cards
-- Career evidence card, route comparison, classification packet, observation log, report, and student-visible rubric
+- Career evidence card, route comparison, classification packet, one shared Day 4–5 report, and student-visible feedback guides
 - Optional H&L launch; no app completion evidence
 
 ## Assessment and Grading
 
 - Days 1–2: formative.
 - Day 3: **Minor 3**, the individual labor-evidence classification.
-- Day 4: formative observation log with a full teacher key.
+- Day 4: formative draft in the shared evidence report, with a full teacher key.
 - Day 5: formative individual inspection-evidence report plus 30–45 second live, private recorded, or teacher-conference briefing under one rubric.
 
 The [5SW assessment map](../../resources/six-weeks-assessment-map.md) is the placement authority. Keep graded Canvas items unpublished until the Minor/Major groups and 40%/60% weighting are verified. Team attendance, public-speaking confidence, grammar, drawing, accent, H&L state, and platform access do not determine mastery.
@@ -82,6 +82,7 @@ The [5SW assessment map](../../resources/six-weeks-assessment-map.md) is the pla
 - [Apprenticeship.gov Career Seekers](https://www.apprenticeship.gov/career-seekers)
 - [Dallas College Construction Technology](https://www.dallascollege.edu/study/construction-technology/)
 - [Dallas College application steps](https://www.dallascollege.edu/admissions/apply-texas/)
+- [AGC Student Chapters](https://www.agc.org/connect/chapters/student-chapters)
 - [TREC Professional Real Estate Inspector](https://www.trec.texas.gov/become-licensed/professional-real-estate-inspector)
 - [NCCER credentials and certifications](https://www.nccer.org/credentials-certifications/)
 

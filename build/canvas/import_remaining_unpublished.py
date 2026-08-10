@@ -303,6 +303,40 @@ def main() -> int:
         return 3
     print("  " + summarize(orientation_payload), flush=True)
 
+    # Week builders protect mapped assessments in place. Configure the approved
+    # map before any builder runs so a clean course has those guarded objects.
+    print("Configuring the approved 30-entry assessment map...", flush=True)
+    assessment_setup = subprocess.run(
+        [sys.executable, str(ASSESSMENT_CONFIGURATOR)],
+        cwd=ROOT,
+        input=token + "\n",
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    if assessment_setup.returncode:
+        print(
+            redact(assessment_setup.stderr or assessment_setup.stdout, token),
+            file=sys.stderr,
+        )
+        print(
+            "Assessment-map setup failed; week builders were not attempted.",
+            file=sys.stderr,
+        )
+        return assessment_setup.returncode
+    try:
+        assessment_payload = json.loads(assessment_setup.stdout)
+    except json.JSONDecodeError:
+        print(redact(assessment_setup.stdout[-4000:], token), file=sys.stderr)
+        print("Assessment-map output was not valid JSON.", file=sys.stderr)
+        return 3
+    print(
+        "  "
+        f"minor={sum(1 for item in assessment_payload.get('assignments', []) if item.get('group') == 'Minor Assessments (40%)')} "
+        f"major={sum(1 for item in assessment_payload.get('assignments', []) if item.get('group') == 'Major Assessments (60%)')}",
+        flush=True,
+    )
+
     total = len(IMPORTERS)
     for index, importer in enumerate(IMPORTERS, start=1):
         label = importer.stem.removeprefix("build_").replace("_", " ").upper()
@@ -332,38 +366,6 @@ def main() -> int:
             )
             return 3
         print("  " + summarize(payload), flush=True)
-
-    print("Configuring the approved 30-entry assessment map...", flush=True)
-    assessment_setup = subprocess.run(
-        [sys.executable, str(ASSESSMENT_CONFIGURATOR)],
-        cwd=ROOT,
-        input=token + "\n",
-        text=True,
-        capture_output=True,
-        check=False,
-    )
-    if assessment_setup.returncode:
-        print(
-            redact(assessment_setup.stderr or assessment_setup.stdout, token),
-            file=sys.stderr,
-        )
-        print(
-            "All builders ran, but assessment-map setup failed. Nothing was published.",
-            file=sys.stderr,
-        )
-        return assessment_setup.returncode
-    try:
-        assessment_payload = json.loads(assessment_setup.stdout)
-    except json.JSONDecodeError:
-        print(redact(assessment_setup.stdout[-4000:], token), file=sys.stderr)
-        print("Assessment-map output was not valid JSON.", file=sys.stderr)
-        return 3
-    print(
-        "  "
-        f"minor={sum(1 for item in assessment_payload.get('assignments', []) if item.get('group') == 'Minor Assessments (40%)')} "
-        f"major={sum(1 for item in assessment_payload.get('assignments', []) if item.get('group') == 'Major Assessments (60%)')}",
-        flush=True,
-    )
 
     print("Attaching 30 student-visible advisory rubrics...", flush=True)
     rubric_setup = subprocess.run(

@@ -3,7 +3,7 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters and research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Career Opportunities.
+- **Objective:** Students will identify construction career opportunities and compare documented preparation requirements.
 - **TEKS:** d(1)(C), d(2)(A)
 - **Demonstration of Learning:** Individual career/preparation evidence card.
 <!-- CCE DAILY CONTRACT END -->

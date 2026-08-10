@@ -3,9 +3,9 @@
 ## Daily Learning Contract
 
 - **Topic:** Labor Trends
-- **Objective:** Students will analyze labor-market trends related to a career of interest and classify evidence of high-skill, high-wage, or high-demand occupations using labor-market information using evidence from Labor Trends.
+- **Objective:** Students will analyze construction labor trends and classify four occupations using a published evidence rule.
 - **TEKS:** d(5)(A), d(5)(B)
-- **Demonstration of Learning:** Individual four-career classification packet and limitation.
+- **Demonstration of Learning:** Individual four-career classification and evidence limitation.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 

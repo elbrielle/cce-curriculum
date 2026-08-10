@@ -12,6 +12,8 @@ orientation: portrait
 
 ## Observation Boundary
 
+**Optional enlarged support only:** This one-image-per-page log is not linked or printed by default. The standard Canvas and paper route uses the shared five-page Evidence Report across Days 4–5. Use this longer version only when a student needs one image record per page.
+
 This is a fictional image-analysis exercise. Do not inspect your home, touch wiring, climb, handle mold, use tools, price a repair, or decide whether someone should buy a property.
 
 For each image:

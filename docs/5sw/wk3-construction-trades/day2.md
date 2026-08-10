@@ -3,7 +3,7 @@
 ## Daily Learning Contract
 
 - **Topic:** Enrollment Steps
-- **Objective:** Students will investigate and report the steps required to participate or enroll in career and educational opportunities and identify professional associations affiliated with a career pathway using evidence from Enrollment Steps.
+- **Objective:** Students will investigate enrollment steps for two career-preparation routes and identify an affiliated career organization.
 - **TEKS:** d(3)(G), d(3)(H)
 - **Demonstration of Learning:** Individual route and organization comparison.
 <!-- CCE DAILY CONTRACT END -->
@@ -53,7 +53,7 @@ Students use two dated cards.
 4. Complete pre-advising and determine current TSI/exemption requirements.
 5. Meet with an advisor or pathway specialist and register for the correct classes.
 
-Students compare admission/application, duration, paid-work status, published cost, aid possibility, credential, transfer limit, and next action. They write which route fits a fictional student and one advantage of the other route.
+Students compare the documented start steps, paid-work status, credential type, and the exact time, cost, aid, transfer, or eligibility questions that still require a current listing or program page. They write which route fits a fictional student and one advantage of the other route. They do not invent sponsor-specific values the fixed cards do not provide.
 
 ## Activity 3: Organization Type and Member Value (7 min)
 
@@ -65,6 +65,8 @@ Use fixed cards to distinguish:
 - **Credential body:** develops or awards a credential; NCCER is not a union or CTSO.
 
 Students choose one organization, state its type, identify the affiliated group, and explain one documented member/student value. Do not imply that nonunion work has no benefits.
+
+The named professional/trade association example is the **Associated General Contractors of America (AGC)**. Its student chapters are based at participating accredited two- and four-year construction-related programs. A future student accesses one through a participating college; AGC describes chapter value as observing and developing skills with industry leaders.
 
 ## Exit Check (3 min)
 

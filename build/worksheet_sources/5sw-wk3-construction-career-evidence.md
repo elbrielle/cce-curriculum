@@ -6,7 +6,7 @@ weeks: 5sw/wk3-construction-trades
 audience: student
 variant_of:
 language: en
-pages: 4
+pages: 3
 orientation: portrait
 ---
 
@@ -21,23 +21,23 @@ The older FYF district page uses different wording. High-school CTE can build ev
 
 How the pathway could support—but not complete—one career route:
 
-[[lines: 5]]
-
-[[pagebreak]]
+[[lines: 3]]
 
 ## Fixed Career Cards
 
-| Field | Carpenter | Construction Manager |
-|---|---|---|
-| Work | Builds, repairs, and installs frameworks and structures | Plans, coordinates, budgets, and supervises construction projects |
-| Typical preparation | High-school diploma; OJT or apprenticeship | Bachelor's degree typical; experience may matter |
-| May 2024 U.S. median | $59,310 | $106,980 |
-| 2024–34 growth | 4% | 9% |
-| Annual openings | 74,100 | 46,800 |
+| Field | Carpenter | Construction Manager | Construction & Building Inspector |
+|---|---|---|---|
+| Work | Builds and repairs structures | Plans, budgets, and supervises projects | Checks work against codes, zoning, and specifications |
+| Typical preparation | HS diploma; OJT or apprenticeship | Bachelor's typical; OJT | HS diploma; 5+ years related work; moderate OJT; local rules vary |
+| May 2024 U.S. median | $59,310 | $106,980 | $72,120 |
+| 2024–34 growth | 4% | 9% | -1% |
+| Annual openings | 74,100 | 46,800 | 14,800 |
 
-**Construction and Building Inspector:** checks construction against codes, ordinances, zoning, and specifications. This occupation is not the same as a Texas Professional Real Estate Inspector. Verify current education, experience, and license boundaries before making a route claim.
+The inspector occupation above is not the same as a Texas Professional Real Estate Inspector. State and local license or certification rules vary.
 
 Sources accessed August 2026: U.S. Bureau of Labor Statistics; Texas Real Estate Commission.
+
+**Word bank:** preparation/preparación · median/mediana · opening/vacante · license/licencia · boundary/límite
 
 [[pagebreak]]
 
@@ -62,6 +62,8 @@ One fact the source does **not** prove:
 
 [[lines: 4]]
 
+**Use this frame:** The source supports [fact], but it does not prove [local or personal claim].
+
 [[pagebreak]]
 
 ## Compare and Decide
@@ -83,3 +85,5 @@ My route choice for a fictional student and the tradeoff accepted:
 Why this role may or may not fit me:
 
 [[lines: 5]]
+
+**Use this frame:** I would choose [role] because [work/preparation evidence]. I would accept [tradeoff], and I still need to verify [question].
