@@ -14,7 +14,7 @@ I can identify careers in Education and Training, compare verified preparation r
 | 2 | Texas teacher and educational-aide routes | source-bounded route comparison | private annotation Assignment |
 | 3 | Reading education job evidence | two-posting comparison and evidence limit | unlimited-retry practice Quiz |
 | 4 | Teach Through Play + service | tested activity plan, revisions, service analysis | private annotation Assignment |
-| 5 | Current Irving pathways + synthesis | four-page evidence portfolio and self-score | private Minor 1 Assignment |
+| 5 | Current Irving pathways + synthesis | three-page evidence portfolio and self-score | private Minor 1 Assignment |
 
 ## TEKS Alignment
 
@@ -36,8 +36,8 @@ I can identify careers in Education and Training, compare verified preparation r
 ## Materials
 
 - Canvas Teacher and Student Guides
-- *Find Your Future* licensed pages 213-220 embedded in authenticated Canvas
-- six CCE packets: Community Classroom, Texas routes, job evidence, Teach Through Play/service, portfolio, and rubric
+- *Find Your Future* licensed pages 213-219 embedded in authenticated Canvas; p. 220 remains an optional H&L extension
+- five compact companions plus one student-visible rubric, fifteen pages total if every paper route is used
 - Chromebooks or printed packets; pencils; optional markers
 - teacher-approved scissors and paper only for the Day 4 physical test; a tabletop or written simulation is equal
 
@@ -54,4 +54,3 @@ Every required direction and source is visible in Canvas. Students may annotate,
 - [TEA: Becoming a Classroom Teacher in Texas](https://tea.texas.gov/educators/certification/initial-certification/becoming-classroom-teacher-texas)
 - [TEA: Becoming an Educational Aide in Texas](https://tea.texas.gov/educators/certification/becoming-educational-aide-texas)
 - [Irving ISD High School CTE](https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte)
-- [BLS Educational Instruction and Library Occupations](https://www.bls.gov/ooh/education-training-and-library/home.htm)

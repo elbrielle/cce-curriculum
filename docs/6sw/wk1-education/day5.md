@@ -2,21 +2,21 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Clusters
-- **Objective:** Students will explore and describe the CTE career clusters and identify career opportunities within one or more career clusters using evidence from Career Clusters.
+- **Topic:** Career Evidence
+- **Objective:** Students will synthesize career, preparation, job-posting, learning-design, and service evidence to justify an Education and Training direction and next action.
 - **TEKS:** d(1)(B), d(1)(C), d(2)(A), d(2)(B), d(4)(E)
-- **Demonstration of Learning:** four-page Education Career Evidence Portfolio + visible 16-point rubric.
+- **Demonstration of Learning:** three-page Education Career Evidence Portfolio plus a visible one-page 16-point rubric.
 <!-- CCE DAILY CONTRACT END -->
 ## Target and Evidence
 
 **TEKS:** d(1)(B), d(1)(C), d(2)(A), d(2)(B), d(4)(E)
-**Evidence:** four-page Education Career Evidence Portfolio + visible 16-point rubric
+**Evidence:** three-page Education Career Evidence Portfolio plus a visible one-page 16-point rubric
 
 Students use the week's evidence to explain one current direction, preparation boundary, posting fact, design revision, service connection, limitation, and next action.
 
 ## Before Class
 
-- Open the current Irving High School CTE page and licensed FYF pp. 218-220.
+- Open the current Irving High School CTE page and licensed FYF pp. 218-219. Keep p. 220 H&amp;L exploration optional.
 - Post the portfolio, rubric, and private Minor 1 Assignment.
 - Keep the assignment unpublished until the Canvas review gate passes.
 
@@ -24,7 +24,7 @@ Students use the week's evidence to explain one current direction, preparation b
 
 1. **Current local evidence — 8 min.** Irving currently names Education and Training at Irving High, MacArthur, and Nimitz, and Early Childhood Education at Cardwell. Separate public listing from guarantees about courses, credentials, travel, admission, or placement.
 2. **Workbook/current comparison — 5 min.** Treat the FYF district pages as curriculum context and identify what must be verified now.
-3. **Assemble evidence — 22 min.** Students complete the four-page portfolio using Days 1-4 or the fixed missing-work strip in Canvas. Short source fields accept phrases; reasoning has dedicated full-width space.
+3. **Assemble evidence — 22 min.** Students complete the three-page portfolio using Days 1-4 or the fixed missing-work strip in Canvas. Short source fields accept phrases; reasoning has dedicated full-width space.
 4. **Self-score and revise — 10 min.** Students use all four rubric criteria and make one visible repair.
 5. **Exit — 5 min.** One supported conclusion, one limitation, and one next action.
 

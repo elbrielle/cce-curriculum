@@ -3,14 +3,14 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Preparation
-- **Objective:** Students will research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster and use available resources to research and evaluate educational and training options for one or more careers in an identified career cluster using evidence from Career Preparation.
+- **Objective:** Students will describe common Texas classroom-teacher requirements, compare two preparation patterns, and identify provider evidence needed before choosing a route.
 - **TEKS:** d(2)(A), d(2)(B)
-- **Demonstration of Learning:** five-page Texas Education Career Routes packet.
+- **Demonstration of Learning:** three-page Texas Education Career Routes comparison and evidence-based recommendation.
 <!-- CCE DAILY CONTRACT END -->
 ## Target and Evidence
 
 **TEKS:** d(2)(A), d(2)(B)
-**Evidence:** five-page Texas Education Career Routes packet
+**Evidence:** three-page Texas Education Career Routes comparison and evidence-based recommendation
 
 Students separate statewide certification requirements from provider-specific details and compare a university-based route with a post-baccalaureate or alternative route.
 

@@ -2,15 +2,15 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters and explain the value of community service and volunteerism using evidence from Career Opportunities.
+- **Topic:** Service Learning
+- **Objective:** Students will identify an early-childhood education work product, revise it from test evidence, and explain how service benefits a community while building skills transferable to two careers.
 - **TEKS:** d(1)(C), d(4)(E)
-- **Demonstration of Learning:** seven-page Teach Through Play and Service Reflection.
+- **Demonstration of Learning:** FYF Teach Through Play concept plus a three-page activity, revision, and service analysis.
 <!-- CCE DAILY CONTRACT END -->
 ## Target and Evidence
 
 **TEKS:** d(1)(C), d(4)(E)
-**Evidence:** seven-page Teach Through Play and Service Reflection
+**Evidence:** FYF Teach Through Play concept plus a three-page activity, revision, and service analysis
 
 Students design and revise a classroom-safe activity that practices gross and fine motor skills, then explain how service benefits a community and develops transferable skills.
 

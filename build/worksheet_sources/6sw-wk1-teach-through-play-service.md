@@ -6,99 +6,78 @@ weeks: 6sw/wk1-education
 audience: student
 variant_of:
 language: en
-pages: 7
+pages: 3
 orientation: portrait
 ---
 
-## Design Boundary and Goal
+## Plan from the FYF Brief
 
-Design a fictional classroom activity for young children. It must practice:
+Start with FYF pp. 216-217. Design a fictional classroom activity that practices the supplied gross-motor target and the supplied fine-motor target or an access-equivalent option.
 
-- gross motor: balance on one foot for 5 seconds;
-- fine motor: cut along a straight line with scissors.
+**Theme and activity name:** ____________________________________________
 
-Use classroom-safe materials and teacher-approved scissors. Offer a seated or supported balance route and a pre-cut/tear/fine-motor alternative when needed. A child's ability is not a score of effort or worth.
-
-Theme and activity name:
+**Child-friendly learning goal:**
 
 [[lines: 3]]
 
-The learning goal in child-friendly words:
+**Materials:**
 
-[[lines: 4]]
+[[lines: 1]]
 
-[[pagebreak]]
+| Step | What the child does | Target skill or purpose |
+|---|---|---|
+| First | | |
+| Next | | |
+| Then | | |
 
-## Instructions a Child Can Follow
+One safety or access support:
 
-First:
+[[lines: 3]]
 
-[[lines: 5]]
-
-Next:
-
-[[lines: 5]]
-
-Then:
-
-[[lines: 5]]
-
-How the balance skill is practiced safely:
-
-[[lines: 4]]
-
-How the cutting or equal fine-motor skill is practiced safely:
-
-[[lines: 4]]
+**Language help:** gross motor = motricidad gruesa | fine motor = motricidad fina | access = acceso | revision = revisión
 
 [[pagebreak]]
 
-## Draw or Map the Activity
+## Map the Activity
 
-Label materials, where the child moves, where the child cuts/creates, and one access or safety support.
+Label materials, where the child moves, where the child cuts, tears, traces, or creates, and one safety or access support.
 
-[[box: 5.0]]
+[[box: 5.4]]
 
-[[pagebreak]]
+How this map supports both target skills or an access-equivalent route:
 
-## Test, Observe, Revise
-
-Route used: partner test / tabletop walk-through / teacher conference / individual written simulation
-
-What the tester understood immediately:
-
-[[lines: 4]]
-
-Where the directions or materials caused confusion:
-
-[[lines: 5]]
-
-Revision 1 and why it helps:
-
-[[lines: 5]]
-
-Revision 2 and why it helps:
-
-[[lines: 5]]
+[[lines: 3]]
 
 [[pagebreak]]
 
-## Why Service Matters
+## Test, Revise, and Connect to Service
 
-Community service is unpaid work intended to benefit a community. Do not invent or disclose private service records. You may analyze a real experience, a planned experience, or the supplied tutoring scenario.
+**Route used:** partner test / tabletop walk-through / teacher conference / individual simulation
 
-Experience or scenario:
+What was clear immediately:
+
+[[lines: 1]]
+
+One point of confusion:
+
+[[lines: 2]]
+
+Two revisions and why each helps:
 
 [[lines: 4]]
 
-Specific skill developed and evidence:
+Use a real, planned, or supplied scenario. Personal service disclosure is never required.
 
-[[lines: 6]]
+**Supplied scenario:** A volunteer helps at a library homework table. The volunteer listens to a third grader read directions, breaks the task into smaller steps, asks the student to explain the next step, and does not complete the work for the student.
+
+One community benefit and one skill the volunteer develops:
+
+[[lines: 3]]
 
 How that skill transfers to two careers:
 
-[[lines: 7]]
+[[lines: 3]]
 
-Why the service benefits both the community and the volunteer:
+**Complete frame:** Service benefits the community by **[result]**. The volunteer practices **[skill]**. In a **[career 1]** career, the skill helps **[use]**. In a **[career 2]** career, it helps **[different use]**.
 
-[[lines: 6]]
+Do not score balance, cutting performance, disability, artistry, partner attendance, or private volunteer history.

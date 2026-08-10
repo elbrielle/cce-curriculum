@@ -2,22 +2,22 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Clusters
-- **Objective:** Students will explore and describe the CTE career clusters and identify career opportunities within one or more career clusters using evidence from Career Clusters.
+- **Topic:** Learning Design
+- **Objective:** Students will describe the Education and Training cluster and identify how two careers contribute to a learning-space design.
 - **TEKS:** d(1)(B), d(1)(C)
-- **Demonstration of Learning:** five-page Community Classroom Learning-Space Plan.
+- **Demonstration of Learning:** FYF Community Classroom concept plus a three-page individual learning-space plan and role explanation.
 <!-- CCE DAILY CONTRACT END -->
 ## Target and Evidence
 
 **TEKS:** d(1)(B), d(1)(C)
-**Evidence:** five-page Community Classroom Learning-Space Plan
+**Evidence:** FYF Community Classroom concept plus a three-page individual learning-space plan and role explanation
 
 Students describe how Education and Training workers help people learn, then design a third-grade science learning space whose choices support specific learning goals.
 
 ## Before Class
 
 - Open the Canvas student guide and licensed FYF pp. 213-215.
-- Post the Community Classroom packet and private annotation Assignment.
+- Post the three-page Community Classroom companion and private annotation Assignment.
 - Decide whether students draw digitally or on paper. No poster board is required.
 
 ## 50-Minute Flow

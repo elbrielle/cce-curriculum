@@ -6,96 +6,52 @@ weeks: 6sw/wk1-education
 audience: student
 variant_of:
 language: en
-pages: 5
-orientation: portrait
+pages: 2
+orientation: landscape
 ---
 
-## How to Read a Posting
+## Three Fixed Practice Cards
 
 A job posting is evidence about one employer's opening at one time. It does not prove that every employer uses the same title, duties, education, or experience rules.
 
-Separate these fields:
+| Field | Card A: Instructional Aide | Card B: Training Specialist | Card C: Museum Educator |
+|---|---|---|---|
+| Responsibilities | Support instruction under a certified teacher; prepare materials; help individuals or small groups; support a safe learning environment | Identify learning needs; develop materials; facilitate training; evaluate whether training worked | Plan visitor learning; lead programs; work with collections or exhibits; adapt explanations for audiences |
+| Skills | Communication, organization, patience, teamwork | Communication, facilitation, project organization, learning-material design | Communication, research, facilitation, audience awareness |
+| Preparation in this scenario | Diploma/equivalent plus the employer's stated paraprofessional and certification rules | Bachelor's degree or equivalent documented preparation; experience creating learning materials | Relevant degree or equivalent preparation; institution-specific experience may apply |
+| Limit | Verify the live employer posting and current district rules | Actual employers may use different requirements | Actual institutions may use different requirements |
 
-- **responsibility:** work the employee performs;
-- **skill:** something the employee can do;
-- **qualification:** a condition the applicant must meet;
-- **education or credential:** a documented preparation requirement;
-- **preferred:** helpful, but not always required.
-
-For every record, cite the supplied posting card and its capture date.
+**Vocabulary:** responsibility = work performed | qualification = condition to be considered | preferred = helpful, not automatically required | preparation = education, training, credential, or experience
 
 One difference between a responsibility and a qualification:
 
-[[lines: 5]]
+[[lines: 3]]
+
+**Complete frame:** **[Evidence]** is a responsibility because the worker **[action]**. **[Evidence]** is a qualification because the applicant must **[requirement]**.
 
 [[pagebreak]]
 
-## Posting Card A — Instructional Aide Scenario
+## Record and Compare Two Opportunities
 
-Fictional practice card based on common public-district posting fields. The employee supports instruction under a certified teacher, prepares materials, works with individuals or small groups, and helps maintain a safe learning environment. The card requires a diploma/equivalent and asks the applicant to meet the employer's stated paraprofessional and certification rules. Details must be verified in the live employer posting before anyone applies.
+Cards selected: ________ and ________
 
-Two responsibilities:
+| Evidence field | First card | Second card |
+|---|---|---|
+| Two responsibilities | | |
+| One skill and its use | | |
+| Preparation wording | | |
+| One fact to verify live | | |
 
-[[lines: 5]]
+Which scenario appears enterable sooner after high school? Cite the exact preparation wording and preserve the evidence limit.
 
-Two skills or qualifications:
+[[lines: 3]]
 
-[[lines: 5]]
+One transferable skill both careers use and how the task changes:
 
-Education/credential language and one question to verify:
+[[lines: 3]]
 
-[[lines: 5]]
+One claim these fixed cards cannot prove:
 
-[[pagebreak]]
+[[lines: 2]]
 
-## Posting Card B — Training Specialist Scenario
-
-Fictional practice card based on common employer fields. The employee identifies learning needs, develops training materials, facilitates sessions, and evaluates whether the training worked. The card lists a bachelor's degree or equivalent documented preparation, clear communication, project organization, and experience creating learning materials. Actual employers may use different requirements.
-
-Two responsibilities:
-
-[[lines: 5]]
-
-Two skills or qualifications:
-
-[[lines: 5]]
-
-Education/experience language and one question to verify:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Posting Card C — Museum Educator Scenario
-
-Fictional practice card based on common museum-education fields. The employee plans visitor learning experiences, leads programs, works with collections or exhibits, and adapts explanations for different audiences. The card lists communication, research, group facilitation, and a relevant degree or equivalent preparation; actual institutions vary.
-
-Two responsibilities:
-
-[[lines: 5]]
-
-Two skills or qualifications:
-
-[[lines: 5]]
-
-Education/experience language and one question to verify:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Compare Two Postings
-
-Postings compared: __________________________ and __________________________
-
-Which can a person plausibly enter sooner after high school? Cite the exact supplied evidence and keep its limitation.
-
-[[lines: 7]]
-
-One transferable skill both postings use and how it appears differently:
-
-[[lines: 7]]
-
-One claim the supplied cards cannot prove:
-
-[[lines: 5]]
+**Complete frame:** Card **[letter]** appears enterable sooner in this scenario because **[evidence]**. The cards do not prove **[missing fact]**, so a student should verify **[question or source]** before applying.

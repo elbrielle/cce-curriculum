@@ -6,82 +6,71 @@ weeks: 6sw/wk1-education
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 3
 orientation: portrait
 ---
 
-## Design Brief and Career Map
+## Turn the FYF Brief into a Learning Plan
 
-Design a learning space for a third-grade science class. It must help children investigate, talk, make, and explain—not just look interesting.
+Start with FYF pp. 213-215. This companion is your individual planning surface. It does not replace the team poster.
 
-Three Education and Training careers that could contribute:
+**Third-grade science topic:** __________________________________________
 
-| Career | What this person contributes |
+**Learning goal:** Third graders will learn or be able to...
+
+[[lines: 3]]
+
+| Education career | What this worker contributes or produces |
 |---|---|
-| Teacher | learning goals, instruction, and student support |
-| Instructional coordinator or designer | lesson sequence, resources, and checks for understanding |
-| Curator or museum educator | objects, exhibits, stories, and visitor learning |
+| Teacher | |
+| Instructional coordinator/designer or museum educator | |
 
-My space name: ________________________________________________
+**Student sequence:**
 
-The science goal children will learn:
+1. First, students... [[lines: 2]]
+2. Next, students investigate, build, or test... [[lines: 2]]
+3. Finally, students explain... [[lines: 2]]
 
-[[lines: 5]]
+**Language help:** learning goal = meta de aprendizaje | contribute = contribuir | investigate = investigar
 
-Two careers involved and what each contributes:
-
-[[lines: 6]]
-
-[[pagebreak]]
-
-## Plan the Experience
-
-What students do first:
-
-[[lines: 5]]
-
-What students investigate, build, or test:
-
-[[lines: 6]]
-
-How students explain what they learned:
-
-[[lines: 5]]
-
-One access or safety need and the design response:
-
-[[lines: 5]]
+**Complete frame:** The **[career or role]** contributes **[specific work]** so students can **[learning result]**.
 
 [[pagebreak]]
 
 ## Draw the Learning Space
 
-Use the full area. Label the entrance, investigation area, materials, discussion space, and one access or safety feature.
+Label the entrance, investigation area, materials, discussion space, and one access or safety support. Show where the three student actions happen.
 
-[[box: 5.0]]
+[[box: 5.6]]
+
+One design choice that supports the learning goal:
+
+[[lines: 3]]
 
 [[pagebreak]]
 
-## Persuasive Booking Card
+## Booking Card and Revision
 
 Write for a teacher deciding whether to reserve the space.
 
-**Headline:**
+**Space name and headline:**
 
 [[lines: 2]]
 
-**What students will do:**
+**What students will do and learn:**
 
 [[lines: 5]]
 
-**What students will learn and how the space supports it:**
-
-[[lines: 6]]
-
-**Why this is more than decoration:**
+**Why one design choice supports learning instead of only decoration:**
 
 [[lines: 4]]
 
-Peer feedback—one strength and one specific revision:
+**One access or safety need and the design response:**
 
-[[lines: 5]]
+[[lines: 3]]
+
+**One useful feedback note and the revision I made:**
+
+[[lines: 4]]
+
+**Complete frame:** I changed **[part of the plan]** because the feedback showed **[evidence]**. The change helps students **[action]** safely or accessibly.
