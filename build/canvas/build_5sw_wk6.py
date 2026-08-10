@@ -51,6 +51,16 @@ async def require_formative_assignment(client,description,attachment_id):
         "assignment[annotatable_attachment_id]":str(attachment_id),
     })
 
+async def lock_every_file_in_folder(client,folder):
+    """Keep older licensed/support files private even when this build no longer links them."""
+    records=await common.paged(client,f"/folders/{folder['id']}/files")
+    locked=[]
+    for record in records:
+        if not record.get("locked"):
+            record=await common.api(client,"PUT",f"/files/{record['id']}",data={"locked":"true"})
+        locked.append(record)
+    return locked
+
 QUESTIONS=[
 ("Q1 - wage label","What does $56,320 mean in the fixed Sales Agent evidence?","May 2024 U.S. median annual wage from BLS",["DFW starting salary","Guaranteed self-employed income","Typical commission on one home"],"Correct. Keep date, geography, measure, occupation, and source.","The figure is not local, starting, guaranteed, or per-sale pay."),
 ("Q2 - openings","Why can 3% growth appear beside about 46,300 annual openings?","Many openings replace workers who transfer or leave, while growth measures net employment change.",["Every opening is a new DFW job.","The two figures contradict each other.","Openings are current job postings."],"Correct. Growth and openings measure different things.","Annual openings include replacement needs and are not live postings."),
@@ -153,12 +163,15 @@ async def main():
         ordered_final=sorted(final,key=lambda entry:entry.get("position",0))
         for position,((kind,key,_title),entry) in enumerate(zip(order,ordered_final),1):
             if entry.get("position")!=position or not matches_item(entry,kind,key): raise RuntimeError(f"Week 6 module order mismatch at position {position}")
+        folder_files=await lock_every_file_in_folder(client,folder)
+        visual_folder_files=await lock_every_file_in_folder(client,visual_folder)
         locked_records={**files,**visuals}
         for label,record in locked_records.items():
             check=await common.api(client,"GET",f"/files/{record['id']}")
             if not check.get("locked"): raise RuntimeError(f"Week 6 file is not locked: {label} {record['id']}")
         folder=await common.api(client,"GET",f"/folders/{folder['id']}"); visual_folder=await common.api(client,"GET",f"/folders/{visual_folder['id']}")
         if not folder.get("locked") or not visual_folder.get("locked"): raise RuntimeError("Week 6 support folders must remain locked")
+        if any(not record.get("locked") for record in folder_files+visual_folder_files): raise RuntimeError("Every Week 6 support file must remain locked")
         module=await common.api(client,"GET",f"/courses/{COURSE_ID}/modules/{module['id']}"); print(json.dumps({"module":{"id":module["id"],"published":module["published"]},"folder":{"id":folder["id"],"locked":folder["locked"]},"visual_folder":{"id":visual_folder["id"],"locked":visual_folder["locked"]},"files":{k:x["id"] for k,x in files.items()},"visuals":{k:x["id"] for k,x in visuals.items()},"quiz":{"id":quiz["id"],"published":quiz.get("published")},"assignments":{str(k):{"id":x["id"],"published":x.get("published"),"points":x.get("points_possible"),"grading_type":x.get("grading_type"),"omit_from_final_grade":x.get("omit_from_final_grade"),"submission_types":x.get("submission_types")} for k,x in assignments.items()},"pages":{str(d):{k:{"url":x["url"],"published":x["published"]} for k,x in p.items()} for d,p in pages.items()},"items":[{"position":i["position"],"type":i["type"],"title":i["title"]} for i in ordered_final]},indent=2))
 
 if __name__=="__main__": asyncio.run(main())
