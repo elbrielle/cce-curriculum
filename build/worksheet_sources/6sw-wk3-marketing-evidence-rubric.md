@@ -29,10 +29,10 @@ Score evidence and reasoning. Graphic polish, platform access, public speaking, 
 
 ## Submission Check
 
-- [ ] marketing evidence brief;
-- [ ] Click Factor test/revision;
-- [ ] Expert Edge responsibility/risk evidence;
-- [ ] Family Fun Pass data reasoning;
+- [ ] completed Marketing Evidence Brief;
+- [ ] the brief includes one Click Factor test/revision result;
+- [ ] the brief includes Expert Edge responsibility/risk evidence;
+- [ ] the brief includes Family Fun Pass data reasoning;
 - [ ] no real account, sale, payment, contact, personal data, public post, copied mark, or income promise;
 - [ ] platform clicks are not submitted as mastery evidence.
 
