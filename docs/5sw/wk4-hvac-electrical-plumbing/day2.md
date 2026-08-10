@@ -15,15 +15,15 @@
 
 ## Before class
 
-Embed Climber Notes *PowerSkill: Written Communication* tickets 1–4 in locked Canvas. Provide the licensed FYF parts/model page and the CCE field-note form. Never ask students to perform a real check or repair.
+Embed Climber Notes *PowerSkill: Written Communication* tickets 1–4 in locked Canvas. Students use FYF pp. 185–190 as the default work surface. The enlarged CCE field-note form is only a no-workbook, absence, or scaffold route; students do not complete both. Never ask students to perform a real check or repair.
 
 ## 50-minute flow
 
-1. **Warm-up — 5 min.** What makes a work note useful to the next person?
-2. **Evidence language — 8 min.** Model the sequence: supplied location/complaint → visible or stated evidence → supported issue → evidence limit → qualified next check.
-3. **Parts reference — 7 min.** Use the workbook reference to locate filter, indoor coil/evaporator, outdoor condenser, and airflow evidence. This is vocabulary, not technician authorization.
-4. **Four tickets — 25 min.** Students complete one roomy record per ticket. They may say “could be consistent with” but may not claim a complete diagnosis from one image.
-5. **Exit — 5 min.** Rewrite one vague note into an evidence-first note and explain how the same written-communication skill transfers to another career.
+1. **Warm-up, 5 min.** What makes a work note useful to the next person?
+2. **Evidence language, 8 min.** Relabel the FYF fields before students write: keep **Observation**; treat **Diagnosed problems** as **Supported possibility**; treat **Action** as **Evidence limit + qualified next check**.
+3. **Parts reference, 7 min.** Use the workbook reference to locate filter, indoor coil/evaporator, outdoor condenser, and airflow evidence. This is vocabulary, not technician authorization.
+4. **Four tickets, 25 min.** Students complete FYF pp. 187–190 or the safe-label fallback. They may say “could be consistent with” but may not claim a complete diagnosis from one image.
+5. **Exit, 5 min.** Rewrite one vague note into an evidence-first note and explain how the same written-communication skill transfers to another career.
 
 ## Teacher interpretation guide
 
@@ -36,4 +36,4 @@ Accept other careful interpretations tied to the supplied evidence. Do not rewar
 
 ## Access route
 
-Every ticket is embedded with neutral alt text and adjacent complaint/extra-information text. Allow zoom, read-aloud, typed response, dictation, or paper. No personal home/HVAC story is required.
+Every ticket is embedded with neutral alt text and adjacent complaint/extra-information text. Allow workbook, zoom, read-aloud, typed response, dictation, or the enlarged fallback. No personal home/HVAC story is required.

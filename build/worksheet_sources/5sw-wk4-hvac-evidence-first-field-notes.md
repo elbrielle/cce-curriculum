@@ -24,6 +24,10 @@ Use this sequence:
 
 The FYF example uses more certain words such as “diagnosed” and “action taken.” For this activity, use cautious evidence language because a classroom image does not provide a complete diagnosis.
 
+**Word bank / Banco de palabras:** complaint/problema reportado · visible evidence/evidencia visible · possibility/posibilidad · limit/límite · qualified/calificado
+
+**Complete frame:** The ticket states/shows [clue]. This could be consistent with [possibility], but it does not prove [limit]. A qualified HVAC professional should check [next evidence].
+
 Model evidence-first note:
 
 [[lines: 8]]
@@ -31,6 +35,8 @@ Model evidence-first note:
 [[pagebreak]]
 
 ## Ticket 1 Field Note
+
+**Frame:** The ticket states/shows [clue]. This could be consistent with [possibility], but it does not prove [limit].
 
 Supplied location and complaint:
 
@@ -44,7 +50,7 @@ Supported concern using cautious language:
 
 [[lines: 4]]
 
-Evidence limit — what the ticket cannot prove:
+Evidence limit: what the ticket cannot prove:
 
 [[lines: 4]]
 
@@ -56,6 +62,8 @@ Qualified next check:
 
 ## Ticket 2 Field Note
 
+**Frame:** The ticket states/shows [clue]. This could be consistent with [possibility], but it does not prove [limit].
+
 Supplied location and complaint:
 
 [[lines: 3]]
@@ -68,7 +76,7 @@ Supported concern using cautious language:
 
 [[lines: 4]]
 
-Evidence limit — what the ticket cannot prove:
+Evidence limit: what the ticket cannot prove:
 
 [[lines: 4]]
 
@@ -80,6 +88,8 @@ Qualified next check:
 
 ## Ticket 3 Field Note
 
+**Frame:** The ticket states/shows [clue]. This could be consistent with [possibility], but it does not prove [limit].
+
 Supplied location and complaint:
 
 [[lines: 3]]
@@ -92,7 +102,7 @@ Supported concern using cautious language:
 
 [[lines: 4]]
 
-Evidence limit — what the ticket cannot prove:
+Evidence limit: what the ticket cannot prove:
 
 [[lines: 4]]
 
@@ -104,6 +114,8 @@ Qualified next check:
 
 ## Ticket 4 Field Note
 
+**Frame:** The ticket states/shows [clue]. This could be consistent with [possibility], but it does not prove [limit].
+
 Supplied location and complaint:
 
 [[lines: 3]]
@@ -116,7 +128,7 @@ Supported concern using cautious language:
 
 [[lines: 4]]
 
-Evidence limit — what the ticket cannot prove:
+Evidence limit: what the ticket cannot prove:
 
 [[lines: 4]]
 
@@ -127,6 +139,8 @@ Qualified next check:
 [[pagebreak]]
 
 ## Written-Communication Transfer
+
+**Complete frame:** A [career] worker records [evidence/work product] so [next person] can [decision/action]. Accurate wording matters because [reason].
 
 Rewrite a vague note into an evidence-first note:
 

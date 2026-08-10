@@ -413,8 +413,8 @@ def render_html_for(sheet, env):
 
 FOOTER_STYLE = (
     "font-family:'Source Sans 3',Arial,sans-serif;font-size:7.5pt;color:#8a95a1;"
-    "box-sizing:border-box;width:calc(100% - 1.1in);margin:0 0.55in;"
-    "padding-top:4pt;border-top:0.5pt solid #c8d0d7;"
+    "box-sizing:border-box;width:100%;margin:0;"
+    "padding:4pt 0.55in 0;border-top:0.5pt solid #c8d0d7;"
     "display:flex;justify-content:space-between;align-items:baseline;"
     "-webkit-print-color-adjust:exact;"
 )

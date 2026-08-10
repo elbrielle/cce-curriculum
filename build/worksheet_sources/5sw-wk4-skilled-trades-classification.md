@@ -6,7 +6,7 @@ weeks: 5sw/wk4-hvac-electrical-plumbing
 audience: student
 variant_of:
 language: en
-pages: 6
+pages: 4
 orientation: landscape
 ---
 
@@ -27,85 +27,91 @@ These are classroom comparison labels, not official government designations.
 
 Source basis: May 2024 U.S. medians and 2024–34 national projections, BLS. Openings include replacement needs and do not prove a DFW shortage.
 
-[[pagebreak]]
-
-## Electricians
-
-High-skill? YES / NO — exact preparation evidence:
-
-[[lines: 3]]
-
-High-wage? YES / NO — exact salary evidence:
-
-[[lines: 3]]
-
-High-demand? YES / NO — exact growth evidence:
-
-[[lines: 3]]
-
-One limitation or claim the data does not prove:
-
-[[lines: 4]]
+**Word bank / Banco de palabras:** median/mediana · growth/crecimiento · openings/vacantes · preparation/preparación · limitation/limitación
 
 [[pagebreak]]
 
-## Plumbers, Pipefitters, and Steamfitters
+## Electricians and Plumbing/Pipefitting
 
-High-skill? YES / NO — exact preparation evidence:
+**Complete frame:** [Occupation] is/is not high-[label] under the course rule because [exact evidence].
 
-[[lines: 3]]
+### Electricians
 
-High-wage? YES / NO — exact salary evidence:
+High-skill? Circle YES / NO. Record exact preparation evidence:
 
-[[lines: 3]]
+[[lines: 1]]
 
-High-demand? YES / NO — exact growth evidence:
+High-wage? Circle YES / NO. Record exact salary evidence:
 
-[[lines: 3]]
+[[lines: 1]]
+
+High-demand? Circle YES / NO. Record exact growth evidence:
+
+[[lines: 1]]
 
 One limitation or claim the data does not prove:
 
-[[lines: 4]]
+[[lines: 1]]
+
+### Plumbers, Pipefitters, and Steamfitters
+
+High-skill? Circle YES / NO. Record exact preparation evidence:
+
+[[lines: 1]]
+
+High-wage? Circle YES / NO. Record exact salary evidence:
+
+[[lines: 1]]
+
+High-demand? Circle YES / NO. Record exact growth evidence:
+
+[[lines: 1]]
+
+One limitation or claim the data does not prove:
+
+[[lines: 1]]
 
 [[pagebreak]]
 
-## HVAC Mechanics and Installers
+## HVAC and Welding
 
-High-skill? YES / NO — exact preparation evidence:
+**Complete frame:** [Occupation] is/is not high-[label] under the course rule because [exact evidence].
 
-[[lines: 3]]
+### HVAC Mechanics and Installers
 
-High-wage? YES / NO — exact salary evidence:
+High-skill? Circle YES / NO. Record exact preparation evidence:
 
-[[lines: 3]]
+[[lines: 1]]
 
-High-demand? YES / NO — exact growth evidence:
+High-wage? Circle YES / NO. Record exact salary evidence:
 
-[[lines: 3]]
+[[lines: 1]]
 
-One limitation or claim the data does not prove:
+High-demand? Circle YES / NO. Record exact growth evidence:
 
-[[lines: 4]]
-
-[[pagebreak]]
-
-## Welders, Cutters, Solderers, and Brazers
-
-High-skill? YES / NO — exact preparation evidence:
-
-[[lines: 3]]
-
-High-wage? YES / NO — exact salary evidence:
-
-[[lines: 3]]
-
-High-demand? YES / NO — exact growth evidence:
-
-[[lines: 3]]
+[[lines: 1]]
 
 One limitation or claim the data does not prove:
 
-[[lines: 4]]
+[[lines: 1]]
+
+### Welders, Cutters, Solderers, and Brazers
+
+High-skill? Circle YES / NO. Record exact preparation evidence:
+
+[[lines: 1]]
+
+High-wage? Circle YES / NO. Record exact salary evidence:
+
+[[lines: 1]]
+
+High-demand? Circle YES / NO. Record exact growth evidence:
+
+[[lines: 1]]
+
+One limitation or claim the data does not prove:
+
+[[lines: 1]]
 
 [[pagebreak]]
 

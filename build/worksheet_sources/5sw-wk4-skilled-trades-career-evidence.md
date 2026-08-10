@@ -6,7 +6,7 @@ weeks: 5sw/wk4-hvac-electrical-plumbing
 audience: student
 variant_of:
 language: en
-pages: 4
+pages: 3
 orientation: portrait
 ---
 
@@ -21,30 +21,11 @@ These cards compare occupations. They do not promise a specific job, wage, licen
 | HVAC Mechanic or Installer | Installs, maintains, and repairs heating, cooling, and refrigeration systems | Postsecondary nondegree award typical plus long-term OJT | Technician registration/certification and contractor boundary through TDLR |
 | Welder | Joins or cuts metal parts using occupation-specific processes | High school typical plus technical and OJT routes | Employer/process credentials vary; no single universal Texas welding license |
 
+**Word bank / Banco de palabras:** occupation/ocupación · training route/ruta de formación · license/licencia · credential/credencial · verify/verificar
+
 One difference between an occupation, a training route, and a license or credential:
 
 [[lines: 5]]
-
-[[pagebreak]]
-
-## Fixed Labor Evidence
-
-| Occupation | May 2024 U.S. median | Growth 2024–34 | Annual openings |
-|---|---:|---:|---:|
-| Electricians | $62,350 | 9% | about 81,000 |
-| Plumbers, Pipefitters, and Steamfitters | $62,970 | 4% | about 44,000 |
-| HVAC Mechanics and Installers | $59,810 | 8% | about 40,100 |
-| Welders, Cutters, Solderers, and Brazers | $51,000 | 2% | about 45,600 |
-
-Source basis: U.S. Bureau of Labor Statistics, May 2024 national medians and 2024–34 national projections, accessed August 2026. These are not DFW starting salaries or current job-posting counts.
-
-One figure I can use accurately:
-
-[[lines: 3]]
-
-One claim these figures do **not** prove:
-
-[[lines: 4]]
 
 [[pagebreak]]
 
@@ -94,3 +75,5 @@ The correct official source for that question and why:
 One career I would investigate next and the evidence that shaped my choice:
 
 [[lines: 5]]
+
+**Complete frame:** I would investigate [career] because the evidence shows [work/preparation detail]. I still need to verify [specific question] with [official source].

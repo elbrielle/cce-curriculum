@@ -6,7 +6,7 @@ weeks: 5sw/wk4-hvac-electrical-plumbing
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 4
 orientation: portrait
 ---
 
@@ -21,6 +21,8 @@ One ladder does not fit every skilled trade.
 | HVAC | TDLR technician registration/certification under a licensed contractor; contractor licensure is separate |
 | Welding | Training and employer/process credentials vary; do not invent one universal Texas license |
 
+**Word bank / Banco de palabras:** eligibility/requisitos · enrollment/inscripción · apprenticeship/aprendizaje registrado · estimate/estimación · verify/verificar
+
 One important difference among these boundaries:
 
 [[lines: 5]]
@@ -31,7 +33,9 @@ One official agency and the question I would verify there:
 
 [[pagebreak]]
 
-## Registered Apprenticeship Route Card
+## Two Current Route Cards
+
+### Registered Apprenticeship
 
 A Registered Apprenticeship is a paid job with structured on-the-job learning, related instruction, mentoring, progressive wages, and a portable industry-recognized credential.
 
@@ -45,15 +49,9 @@ Future verification sequence:
 4. Apply directly through the listed employer or sponsor when eligible and ready.
 5. Complete the sponsor's stated screening and next steps.
 
-Two conditions that could vary by sponsor:
+### Dallas College Electrical Technology
 
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Dallas College Electrical Technology Card
-
-Current published examples accessed August 2026 include:
+Current published examples updated June 25, 2026 include:
 
 - Electrical Pre-Apprentice Continuing Education certificate: estimated 6 months and $5,184 in-county.
 - Commercial Electrical credit certificate: estimated 8 months and $2,673 in-county.
@@ -68,9 +66,9 @@ Future verification sequence:
 4. Complete required advising or readiness steps.
 5. Register for the correct current courses with college guidance.
 
-One cost, schedule, or availability condition to verify:
+One sponsor condition and one college condition that could change:
 
-[[lines: 5]]
+[[lines: 4]]
 
 [[pagebreak]]
 
@@ -91,6 +89,8 @@ Best route for fictional Jordan and two card details supporting the decision:
 One advantage of the route Jordan did not choose:
 
 [[lines: 4]]
+
+**Complete frame:** I recommend [route] for Jordan because [card detail 1] and [card detail 2]. The other route may be stronger when [advantage/condition].
 
 [[pagebreak]]
 

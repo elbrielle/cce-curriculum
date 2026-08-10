@@ -1,4 +1,4 @@
-# Week 4: Power, Water, and Heat — Skilled-Trades Evidence
+# Week 4: Power, Water, and Heat: Skilled-Trades Evidence
 
 **5th Six Weeks** | Architecture and Construction | 5 class periods (50 minutes each)
 
@@ -24,7 +24,7 @@ Only the Day 3 classification and Day 5 individual response are scored together 
 - **d(2)(A):** describe preparation, training, certification, registration, and license boundaries (Days 1 and 4);
 - **d(3)(G):** investigate steps to enter two current postsecondary or apprenticeship routes (Day 4);
 - **d(4)(B):** apply written communication and explain how it transfers to another career (Day 2);
-- **d(4)(C):** deliver an individual professional briefing through a live, teacher-conference, audio, recorded, or equivalent written route (Day 5);
+- **d(4)(C):** deliver an individual professional briefing through a live, teacher-conference, private audio/video, or accommodation-aligned oral/AAC route (Day 5). A written plan or transcript may support access but does not by itself demonstrate oral evidence;
 - **d(5)(A), d(5)(B):** analyze and classify four occupations using dated, comparable evidence and a transparent classroom rule (Day 3).
 
 ## Evidence rules
@@ -54,10 +54,10 @@ The HVAC tickets and plumbing response are fictional classroom evidence exercise
 | Day | Focus | Individual evidence | Canvas use |
 |---|---|---|---|
 | 1 | Four careers and preparation boundaries | Career/preparation record | Student Annotation or typed/upload/paper |
-| 2 | HVAC written communication | Four evidence-first service notes + transfer sentence | Embedded licensed tickets + annotation |
+| 2 | HVAC written communication | Four FYF service notes with safer field labels + transfer sentence | FYF pp. 185–190 first; embedded licensed tickets; fallback annotation only when needed |
 | 3 | Labor evidence and classification | Four-career classification + limitation | Annotation with fixed data |
 | 4 | Current entry routes | Two-route comparison and ordered next steps | Annotation; no live application |
-| 5 | Fictional plumbing response | Team plan + individual briefing | Private multimodal submission |
+| 5 | Fictional plumbing response | FYF team plan + two-page individual companion + oral/AAC briefing | FYF pp. 194–195 first; private Major submission |
 
 ## Assessment recommendation
 

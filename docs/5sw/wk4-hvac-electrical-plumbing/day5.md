@@ -21,11 +21,11 @@ This is a paper/digital communication simulation. Students do not locate utiliti
 
 ## 50-minute flow
 
-1. **Warm-up — 5 min.** Before technical work begins, what information and authorities must be connected?
-2. **Roles and supplied protocol — 8 min.** Read the fictional roles and emergency-basics slide. Replace prestige titles with functional jobs: safety/communication lead, system-evidence lead, and plan/record lead.
-3. **Team response plan — 20 min.** Teams mark the supplied diagram, sequence before/during/after priorities, and respond to the crowd/pressure twist. The plan must show who contacts the authorized authority, how the area remains protected, what evidence is recorded, and what the team cannot decide.
-4. **Individual briefings — 12 min.** Every student delivers one 30–45 second evidence brief live, in a teacher conference, by audio/recorded media, or through an equivalent written response. Required jobs: priority, evidence, role, boundary.
-5. **Exit — 5 min.** Name one A&amp;C career involved before, during, or after the event and the work product that worker supplies.
+1. **Warm-up, 5 min.** Before technical work begins, what information and authorities must be connected?
+2. **Roles and supplied protocol, 8 min.** Read the fictional roles and emergency-basics slide. Replace prestige titles with functional jobs: safety/communication lead, system-evidence lead, and plan/record lead.
+3. **FYF team plan + individual companion, 20 min.** Teams use FYF pp. 194–195 for roles, priorities, and the chart-paper sketch. Each student completes the two-page companion with one priority, supplied clue, qualified role/work product, boundary, and crowd/time-pressure response.
+4. **Individual briefings, 12 min.** Every student delivers one 30–45 second evidence brief live, in a teacher conference, through private audio/video, or through an accommodation-aligned oral/AAC route. Required jobs: priority, evidence, role/work product, boundary. A written plan or transcript may support access but does not by itself demonstrate d(4)(C).
+5. **Exit, 5 min.** Name one A&amp;C career involved before, during, or after the event and the work product that worker supplies.
 
 ## Monitoring key
 
@@ -33,4 +33,4 @@ Strong plans begin with alerting/coordination and protecting people, not with st
 
 ## Access and absence route
 
-Use a preformatted plan with enough drawing and writing space. A student may complete an individual plan from the same fictional scenario. Live, audio, recorded, teacher-conference, and equivalent written briefing routes use the same evidence criteria. No H&L favorite or partner attendance is required.
+FYF pp. 194–195 hold the team plan; the two-page companion holds proportionate individual writing and briefing-planning space. A student may complete the same response independently. Private live, audio/video, teacher-conference, and accommodation-aligned oral/AAC routes use the same evidence criteria. No H&L favorite, public presentation, or partner attendance is required.
