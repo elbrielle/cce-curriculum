@@ -35,11 +35,11 @@ One role that combines agriculture and technology: _____________________________
 
 [[pagebreak]]
 
-## Current Irving ISD connection
+## Irving ISD curriculum connection
 
-Irving ISD's current public CTE page lists **Plant Science at Nimitz High School** in the School of Agriculture Science. The same page lists the student-run **Nimitz Floral Studio Flower Shop**. These are current program facts checked August 8, 2026.
+The *Find Your Future* workbook is the student-facing curriculum source for the Plant Science opportunities at Nimitz High School. Use the program names, activities, and experiences as the workbook presents them so the guide stays aligned with the material students have in hand.
 
-The *Find Your Future* workbook gives additional curriculum context about the district program. Treat any specific course, certification, facility, or outcome printed in the workbook as context until a current district source confirms it.
+The current Irving ISD CTE page is a teacher cross-check for public-facing updates. It should not silently replace or contradict the HQIM during the lesson. If a future public update creates a real instructional conflict, flag it for curriculum review.
 
 **Important boundary:** A high-school pathway can build knowledge, experience, and connections. It does not guarantee a certification, job, salary, admission, or college credit.
 

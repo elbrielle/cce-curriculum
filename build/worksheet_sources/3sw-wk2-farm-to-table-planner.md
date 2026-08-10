@@ -6,7 +6,7 @@ weeks: 3sw/wk2-plant-science
 audience: student
 variant_of:
 language: en
-pages: 3
+pages: 2
 orientation: portrait
 ---
 
@@ -18,7 +18,9 @@ Chosen crop:  [ ] Strawberries  [ ] Grapes  [ ] Bell peppers  [ ] Cucumbers
 
 Audience: **adult grocery shoppers who want a quick, clear explanation**
 
-Working title: __________________________________________________________________
+Career connection: The specialist creates ______________________________ for ______________________________.
+
+**Word bank:** planting / siembra · monitoring / monitoreo · harvesting / cosecha · packing / empaque · delivery / entrega · audience / público
 
 ### Plan the four required steps
 
@@ -43,6 +45,8 @@ Why a shopper would care:
 
 [[lines: 2]]
 
+**Frame:** "A shopper would care about [fact] because [reason]."
+
 [[pagebreak]]
 
 ## Part 2: Sketch before you build
@@ -51,37 +55,4 @@ Use this full page to plan the infographic. Show the reading order, title, four 
 
 [[box: 7.25]]
 
-[[pagebreak]]
-
-## Part 3: Plan the details a reader needs
-
-### Two questions for the fictional farm team
-
-Question 1:
-
-[[lines: 3]]
-
-Question 2:
-
-[[lines: 3]]
-
-### Visual and source plan
-
-I will use:  [ ] Canva for Education  [ ] Adobe Express  [ ] Paper/chart paper  [ ] Another teacher-approved route
-
-My visuals will be:  [ ] my own drawings/shapes  [ ] built-in licensed elements  [ ] source-cited images
-
-If I use an outside image, I will record its source here:
-
-[[lines: 2]]
-
-### Final build checklist
-
-- [ ] Engaging, accurate title
-- [ ] Four steps appear in a clear reading order
-- [ ] Each step has a visual and a short explanation
-- [ ] Two facts come from the fictional client brief
-- [ ] Text is readable, high contrast, and not placed over a busy image
-- [ ] Color is not the only way the reader knows the order
-- [ ] No real personal contact information or invented farm claim
-- [ ] Final file is submitted in Canvas
+Write the two interview questions in the large response boxes on **FYF p. 92**. Use the Canvas checklist when you build tomorrow. This planner does not duplicate space already printed in your workbook.

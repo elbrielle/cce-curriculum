@@ -30,8 +30,8 @@ Day 5 consolidates the week. The Xello lesson itself is not treated as an initia
 | Day | Core experience | Durable evidence |
 |---|---|---|
 | 1 | Plant careers + *Grow System Rescue* | First-repair decision, two clues, labeled improvement |
-| 2 | Read the Farm-to-Table client brief and plan | Four-step content plan and full-page sketch |
-| 3 | Build, reader-test, and revise | Farm-to-Table infographic draft |
+| 2 | Read the Farm-to-Table client brief and plan | Four-step content plan, full-page sketch, and Agricultural Communications Specialist role connection |
+| 3 | Build, reader-test, and revise | Farm-to-Table infographic draft plus private formative skill-transfer check |
 | 4 | Evaluate emerging plant-tech work | Individual technology-to-task evaluation and practice quiz |
 | 5 | Xello Biases and career choices | Completion Standards record and private reflection |
 
@@ -40,12 +40,12 @@ Day 5 consolidates the week. The Xello lesson itself is not treated as an initia
 - Five coordinated Teacher Facilitator Guides and five Student Guides
 - Locked licensed FYF pp. 88-92 screenshots
 - Plant Systems Career Evidence Guide
-- Three-page Farm-to-Table Infographic Planner with a full-page sketch area
+- Two-page Farm-to-Table Infographic Planner with a full-page sketch area; FYF p. 92 remains the interview-question surface
 - Emerging Plant-Tech Evidence Guide and two-page evaluation
 - Student-visible 16-point rubric
 - Retryable Canvas practice quiz with misconception feedback
 - Private Canvas evidence-packet and Xello-reflection assignments
-- Licensed Xello 80-minute facilitator package, seven-slide teacher deck, and optional extension handouts
+- Licensed Xello 80-minute facilitator package, original seven-slide template for teacher reference, and optional extension handouts; Canvas supplies the corrected ClassLink launch and lesson-aligned exit
 
 All module items remain unpublished until review. The Xello facilitator package is broader than the district task: **Activity 2 is the assigned 30-minute lesson**. Career Trailblazers and Non-traditional Career Matches are optional extensions, not required completion evidence.
 
@@ -53,13 +53,14 @@ All module items remain unpublished until review. The Xello facilitator package 
 
 Use the Farm-to-Table infographic plus Emerging Plant-Tech Evaluation as one **16-point major evidence packet**. Score client/process accuracy, visual communication, emerging-work evaluation, and evidence/boundaries/revision. Canva, Adobe Express, paper, or another approved route is equal. Do not grade Xello clicks, platform access, drawing skill, public speaking, or H&L favorites.
 
-The active Canvas course does not yet have weighted Minor/Major assignment groups. The assignment remains unpublished and not graded until the 40% Minor / 60% Major structure is intentionally configured for enrolled students.
+The Canvas Major assignment is already configured in the 60% Major group at 100 points. It remains unpublished for teacher cloning. The 16-point rubric is an evidence profile that Canvas scales to the assignment value; it is not a separate grade.
 
 ## Evidence boundaries
 
 - Career pay is May 2024 **U.S. median**, not starting or DFW-local pay.
 - An emerging specialty may use a broader BLS parent occupation. Students must keep that limitation visible.
-- Irving ISD's current CTE page confirms **Plant Science at Nimitz High School** and the Nimitz Floral Studio. Workbook details are curriculum context unless a current district page confirms them.
+- The *Find Your Future* workbook and aligned H&L/Xello materials are the student-facing HQIM. Use their Plant Science program names and activity details as written so Canvas does not contradict the materials in students' hands.
+- Current district and labor-market pages are teacher cross-checks. Label them by source, measure, and date; do not silently use them to rewrite the student-facing curriculum.
 - Sunny Fields Farm is fictional. Students do not add real contact information or convert scenario facts into claims about a real business.
 
 ## Current sources checked August 8, 2026

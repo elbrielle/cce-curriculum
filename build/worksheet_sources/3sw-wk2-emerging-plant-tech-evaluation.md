@@ -18,6 +18,8 @@ orientation: portrait
 
 The BLS parent occupation is: ____________________________________________________
 
+**Word bank:** specialty / especialidad · parent occupation / ocupación principal · automation / automatización · evidence limit / límite de evidencia
+
 ### Trace the change
 
 Technology or trend: ____________________________________________________________
@@ -52,9 +54,11 @@ What does the parent-occupation data not prove about this exact specialty, DFW, 
 
 ### Recommend whether this specialty deserves more investigation
 
-Write 4-6 sentences. Include the technology, one changed task, two dated facts, and one evidence limit. You are evaluating whether to **investigate further**, not promising that the career is a perfect fit.
+Write 4-6 sentences. Include the technology, one changed task, two dated facts, and one evidence limit. Decide whether the specialty deserves more investigation; do not promise that it is a perfect fit.
 
 [[lines: 10]]
+
+**Frame:** "This specialty deserves more investigation because [technology] changes [task]. The data show [dated fact 1] and [dated fact 2]. However, the data cannot prove [limit]."
 
 ### Revision check
 
@@ -66,4 +70,4 @@ Write 4-6 sentences. Include the technology, one changed task, two dated facts, 
 
 My revision improved: ___________________________________________________________
 
-[[lines: 2]]
+[[lines: 1]]

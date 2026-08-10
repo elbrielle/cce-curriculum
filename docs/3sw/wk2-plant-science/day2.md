@@ -2,21 +2,21 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters and identify skills that transfer among a variety of careers using evidence from Career Opportunities.
-- **TEKS:** d(1)(C), d(4)(B)
-- **Demonstration of Learning:** Four-step plan, two client facts, full-page sketch, two interview questions.
+- **Topic:** Client Communication
+- **Objective:** Students will identify an agricultural communication career opportunity by translating a fictional client brief into an accurate visual plan.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Four-step content plan, two client facts, full-page sketch, two interview questions in FYF p. 92, and one accurate Agricultural Communications Specialist role connection.
 <!-- CCE DAILY CONTRACT END -->
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **TEKS** | d(1)(C), d(4)(B) |
+| **TEKS** | d(1)(C) |
 | **Sources** | FYF pp. 91-92; Farm-to-Table Infographic Planner |
-| **Evidence** | Four-step plan, two client facts, full-page sketch, two interview questions |
+| **Evidence** | Four-step plan, two client facts, full-page sketch, two interview questions, and one role-to-task statement |
 
 ## Before class
 
-- Post the two licensed client-brief pages, three-page planner, and student-visible rubric.
+- Post the two licensed client-brief pages, two-page planner, and student-visible rubric.
 - Show one simple teacher-created or licensed process infographic.
 - Have pencils and markers ready. No platform login is needed.
 - State that Sunny Fields Farm is fictional. Workbook facts remain scenario details.
@@ -26,7 +26,7 @@
 | Time | Work |
 |---:|---|
 | 5 | Warm-up: Put four likely food-journey stages in order |
-| 8 | Read the fictional client brief: audience, crop choices, requirements |
+| 8 | Read the fictional client brief: specialist role, audience, crop choices, requirements |
 | 20 | Plan planting, growing/monitoring, harvesting/packing, and selling/delivery |
 | 12 | Use the full-page box to sketch the reader path |
 | 5 | Exit: trace where the reader looks first and next |
@@ -40,9 +40,10 @@
 - Two facts from the fictional client email and why a shopper would care
 - A title and visible reading order
 - Two questions for the fictional farm team
+- One statement naming what an Agricultural Communications Specialist produces and who uses it
 
-The custom planner intentionally gives the sketch a full page and separates the content plan, interview questions, and copyright/privacy check. Do not compress this work into a small table or one paragraph box.
+The custom planner intentionally adds only a roomy content plan and full-page sketch. Students write the two interview questions in the large boxes already printed on FYF p. 92. Do not print a duplicate page for work the workbook already supports.
 
 ## Supports and fallback
 
-Provide a four-step word bank and let students narrate the sketch before writing. Labels and phrases are enough. Drawing quality is not scored. A teacher or self-check can replace partner talk. The PDF is the complete absence route.
+Provide the four-step word bank at the point of use and let students narrate the sketch before writing. Labels and phrases are enough. Drawing quality is not scored. A teacher or self-check can replace partner talk. The planner plus FYF p. 92 form the complete absence route.

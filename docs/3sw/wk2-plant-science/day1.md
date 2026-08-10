@@ -2,17 +2,17 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters and research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Career Opportunities.
+- **Topic:** Plant Careers
+- **Objective:** Students will identify plant-system career opportunities and research the preparation required for selected careers.
 - **TEKS:** d(1)(C), d(2)(A)
-- **Demonstration of Learning:** First-repair decision with two clues, one labeled improvement, one accurate role connection.
+- **Demonstration of Learning:** First-repair decision supported by two clues, one labeled system improvement, and one accurate career-role connection that includes a preparation fact.
 <!-- CCE DAILY CONTRACT END -->
 | | |
 |---|---|
 | **Time** | 50 minutes |
 | **TEKS** | d(1)(C), d(2)(A) |
 | **Sources** | FYF pp. 88-90; Plant Systems Career Evidence Guide |
-| **Evidence** | First-repair decision with two clues, one labeled improvement, one accurate role connection |
+| **Evidence** | First-repair decision with two clues, one labeled improvement, one accurate career duty and preparation fact |
 
 ## Before class
 
@@ -26,7 +26,7 @@
 | Time | Work |
 |---:|---|
 | 5 | Warm-up: What must reach every plant in a hydroponic system? |
-| 8 | Compare the technician, scientist, and engineer roles |
+| 8 | Compare one duty and the typical entry route for the technician, scientist, and engineer roles |
 | 20 | Read every grow-zone clue; identify possible problems |
 | 12 | Choose the first repair and sketch one prevention feature |
 | 5 | Exit: strongest clue and next evidence check |
@@ -40,6 +40,8 @@ Career boundary:
 - Technician: tests, samples, monitors, and records.
 - Scientist: studies plant, soil, water, pests, and growing conditions.
 - Engineer: designs or improves equipment and systems.
+
+Students record one accurate duty and one preparation fact for the role they connect to the system. Typical routes in the fixed guide are associate degree for the technician, at least a bachelor's degree for the scientist, and an engineering bachelor's degree for the engineer.
 
 ## Supports and fallback
 

@@ -2,16 +2,16 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Emerging Careers
-- **Objective:** Students will research and evaluate emerging occupations related to career interest areas and identify skills that transfer among a variety of careers using evidence from Emerging Careers.
-- **TEKS:** Consolidates d(1)(D) and d(4)(B); no new primary carrier
-- **Demonstration of Learning:** Xello Completion Standards report plus private career-assumption reflection.
+- **Topic:** Career Bias
+- **Objective:** Students will revisit an assumption about emerging or nontraditional career work and evaluate it with one career fact.
+- **TEKS:** d(1)(D) reinforcement; no new primary carrier
+- **Demonstration of Learning:** Xello Completion Standards record plus a private assumption-evidence-action reflection.
 <!-- CCE DAILY CONTRACT END -->
 | | |
 |---|---|
 | **Time** | 50 minutes |
 | **Xello completion standard** | Biases and career choices lesson, 30 minutes, lesson completed |
-| **TEKS** | Consolidates d(1)(D) and d(4)(B); no new primary carrier |
+| **TEKS** | d(1)(D) reinforcement; no new primary carrier |
 | **Evidence** | Xello Completion Standards report plus private career-assumption reflection |
 
 ## Required-versus-extended boundary
@@ -27,7 +27,8 @@ The district-assigned Grade 8 task is **Activity 2 only**. It has no prerequisit
 ## Before class
 
 - Check the Completion Standards report and test ClassLink.
-- Open the official seven-slide Xello deck with speaker notes.
+- Project the corrected warm-up and navigation from the Canvas Student Guide.
+- Keep the original seven-slide Xello template in the locked teacher folder for reference. Its Google sign-in slide does not match Irving ClassLink, and its first exit question is unrelated to this lesson; do not project slides 5 or 7.
 - Post the one-page private reflection and private Canvas assignment.
 - Keep the full facilitator guide and two extension handouts in the locked teacher resource folder.
 
@@ -52,4 +53,4 @@ The reflection asks students to:
 
 ## Supports and fallback
 
-Use the official slide deck, read prompts aloud, provide bilingual labels, and allow a private teacher conference. If Xello fails, students complete the reflection with the fixed Plant-Tech Guide and move the required lesson to supervised catch-up. Paper does not count as Xello completion.
+Read prompts aloud, provide bilingual labels, and allow a private teacher conference. If Xello fails, students complete the reflection with the fixed Plant-Tech Guide and move the required lesson to supervised catch-up. Paper does not count as Xello completion.

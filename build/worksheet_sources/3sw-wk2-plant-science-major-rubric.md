@@ -3,16 +3,16 @@ title: Plant Science Communication and Evidence Rubric
 slug: 3sw-wk2-plant-science-major-rubric
 kind: rubric
 weeks: 3sw/wk2-plant-science
-audience: teacher
+audience: student
 variant_of:
 language: en
 pages: 2
 orientation: landscape
 ---
 
-## Recommended major evidence packet: 16 points
+## Use this rubric to check your evidence packet
 
-Score the Farm-to-Table infographic and the individual Emerging Plant-Tech Evaluation together. Canva, Adobe Express, paper, or another approved route is equal. Xello completion, platform access, artistic polish, and public speaking are not separate grades.
+Your packet combines the Farm-to-Table infographic and the individual Emerging Plant-Tech Evaluation. Canva, Adobe Express, paper, or another approved route is equal. Xello completion, platform access, artistic polish, and public speaking are not separate rubric criteria.
 
 | Criterion | Masters - 4 | Meets - 3 | Approaches - 2 | Needs Improvement - 1 | No evidence - 0 |
 |---|---|---|---|---|---|
@@ -33,20 +33,13 @@ Score the Farm-to-Table infographic and the individual Emerging Plant-Tech Evalu
 | Evidence, boundaries, and revision | /4 |
 | **Total** | **/16** |
 
-## Performance-band conversion
+## Before you submit
 
-| Raw points | Percent range | Band |
-|---:|---:|---|
-| 15-16 | 90-100 | Masters |
-| 13-14 | 80-89 | Meets |
-| 12 | 70-79 | Approaches |
-| 10-11 | 60-69 | Needs Improvement |
-| 0-9 | Below 60 | Follow campus or district policy |
+- [ ] I used only the fictional Sunny Fields client facts and did not add real contact details.
+- [ ] My process has four steps, two client facts, and a clear reading order.
+- [ ] I explained how one technology changes a work task.
+- [ ] I attached the date, geography, and measure to each labor-market number.
+- [ ] I stated that parent-occupation data cannot guarantee local starting pay or hiring.
+- [ ] I made one useful revision after a reader test or self-check.
 
-## Scoring boundaries
-
-- The farm is fictional. Do not reward invented real-world claims, contact details, certifications, or guarantees.
-- Pay figures in the evidence guide are May 2024 U.S. medians, not starting or DFW-local pay.
-- An emerging specialty may use a broader BLS parent occupation. Full-credit work states that limit.
-- Score message clarity and evidence, not drawing skill, premium-template access, English mechanics, or enthusiasm for agriculture.
-- Students may revise after feedback according to the teacher's normal major-assignment practice.
+**Reminder:** Your message and evidence matter. Drawing skill, premium templates, and perfect English mechanics are not scored unless the reader cannot understand the meaning.

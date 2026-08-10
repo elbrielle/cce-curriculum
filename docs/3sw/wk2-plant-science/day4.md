@@ -2,10 +2,10 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Emerging Careers
-- **Objective:** Students will research and evaluate emerging occupations related to career interest areas and analyze how changing employment trends, societal needs, and economic conditions affect career choices using evidence from Emerging Careers.
+- **Topic:** Emerging Plant Technology
+- **Objective:** Students will evaluate how a changing technology or trend affects tasks and career choices in plant and agriculture work.
 - **TEKS:** d(1)(D), d(5)(C)
-- **Demonstration of Learning:** Individual 4-6 sentence evaluation with two dated facts and one data limit.
+- **Demonstration of Learning:** Individual 4-6 sentence evaluation using a technology-to-task connection, two dated facts, and one data limit.
 <!-- CCE DAILY CONTRACT END -->
 | | |
 |---|---|
@@ -18,7 +18,7 @@
 
 - Post the Emerging Plant-Tech Evidence Guide, two-page evaluation, and rubric.
 - Open the unpublished retryable practice quiz.
-- Test or skip the optional BLS Agricultural Engineers video.
+- The optional BLS Agricultural Engineers video sits inside a closed disclosure. Test it or leave it closed; the fixed guide carries every required fact.
 - Do not send students to job boards or an open search.
 
 ## 50-minute flow
