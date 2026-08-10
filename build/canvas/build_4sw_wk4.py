@@ -70,6 +70,17 @@ async def upsert_quiz(client, title, questions):
     endpoint = f"/courses/{COURSE_ID}/quizzes/{found['id']}" if found else f"/courses/{COURSE_ID}/quizzes"
     quiz = await common.api(client, "PUT" if found else "POST", endpoint, data=data)
     existing = await common.paged(client, f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions")
+    desired_names = {name for name, *_ in questions}
+    for prior in existing:
+        if prior.get("question_name") not in desired_names:
+            await common.api(
+                client,
+                "DELETE",
+                f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions/{prior['id']}",
+            )
+    existing = [
+        prior for prior in existing if prior.get("question_name") in desired_names
+    ]
     for position, (name, prompt, correct, wrong, yes, no) in enumerate(questions, 1):
         prior = next((q for q in existing if q.get("question_name") == name), None)
         payload = {"question": {"question_name": name, "question_text": prompt, "question_type": "multiple_choice_question", "position": position, "points_possible": 1, "correct_comments": yes, "incorrect_comments": no, "answers": [{"answer_text": correct, "answer_weight": 100}] + [{"answer_text": answer, "answer_weight": 0} for answer in wrong]}}
