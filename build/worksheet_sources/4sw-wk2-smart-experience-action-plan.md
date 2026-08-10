@@ -1,82 +1,54 @@
 ---
-title: SMART Experience Action Plan
+title: Experience Access and Backup Check
 slug: 4sw-wk2-smart-experience-action-plan
 kind: worksheet
 weeks: 4sw/wk2-course-mapping
 audience: student
 variant_of:
 language: en
-pages: 3
+pages: 1
 orientation: portrait
 ---
 
-## Build from experience you can actually access
+## Use this with FYF Rung 6
 
-Valid experience can include a class project, club, CTSO, volunteer work, family responsibility, hobby, job shadow, portfolio project, or paid work. Do not promise an internship, job shadow, ride, fee, or local chapter that has not been confirmed.
+Write the SMART goal on FYF pp. 292-293. Use this page for the access, skill-transfer, obstacle, and backup evidence the workbook does not ask for.
 
-## 1. Experience inventory
+**Experience bank:** project - club or CTSO - service - responsibility - hobby - portfolio - paid work
 
-| Experience I already have | Skill it required | Evidence I could show |
-|---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
+## 1. Choose and explain
 
-## 2. Choose one next experience
+Experience or project: __________________________________  Source or person who confirms it: ____________________
 
-Experience or project: _________________________________________________________
+Skill or knowledge it may build: ______________________________________________________________________
 
-How it connects to my current direction:
+The same skill matters in another career because:
 
-[[lines: 3]]
+[[lines: 1]]
 
 Access check: [ ] free or cost verified  [ ] transportation considered  [ ] permission considered  [ ] adult/contact verified  [ ] equal school-based route available
 
-[[pagebreak]]
-
-## 3. Make it SMART
-
-**Specific:** What exactly will I do?
-
-[[lines: 3]]
-
-**Measurable:** What evidence will show progress or completion?
-
-[[lines: 3]]
-
-**Achievable:** What makes this possible with my current time and access?
-
-[[lines: 3]]
-
-**Relevant:** How does it support my goal or build a transferable skill?
-
-[[lines: 3]]
-
-**Time-Bound:** What is the checkpoint or deadline?
-
-[[lines: 2]]
-
-[[pagebreak]]
-
-## 4. Protect the plan
+## 2. Protect the plan
 
 Person or resource I need: _____________________________________________________
 
 Likely obstacle:
 
-[[lines: 2]]
+[[lines: 1]]
 
 Backup strategy that keeps the same learning goal:
 
-[[lines: 3]]
+[[lines: 1]]
 
 First action I can complete within seven days:
 
-[[lines: 3]]
+[[lines: 1]]
+
+**Complete frame:** If __________________ blocks my first route, I will __________________ so I can still build __________________.
 
 ## Done when
 
 - [ ] The experience is real or clearly marked for verification.
-- [ ] My goal includes all five SMART parts.
+- [ ] My FYF goal includes all five SMART parts.
 - [ ] I considered access and a backup.
 - [ ] I named a first action within seven days.

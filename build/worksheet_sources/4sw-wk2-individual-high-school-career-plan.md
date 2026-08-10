@@ -14,6 +14,8 @@ orientation: portrait
 
 Plans change when evidence changes. This plan should be specific enough to guide a conversation and flexible enough to revise with a counselor.
 
+**Plan words:** direction - evidence - pathway - prerequisite - preparation - backup - revision rule
+
 ## 1. Career direction and self-evidence
 
 Current career or field direction: ______________________________________________
@@ -38,6 +40,8 @@ Why this pathway supports the goal:
 
 [[lines: 4]]
 
+**Complete frame:** This pathway may support my direction because __________________. I still need to verify __________________.
+
 [[pagebreak]]
 
 ## 3. High school course sequence
@@ -56,6 +60,8 @@ One prerequisite chain:
 One course or schedule fact a counselor must verify:
 
 [[lines: 3]]
+
+**Sequence frame:** I placed __________________ before __________________ because __________________ is a prerequisite or preparation step.
 
 [[pagebreak]]
 
@@ -77,6 +83,8 @@ Source and access date:
 
 [[lines: 2]]
 
+**Evidence frame:** This option may help because __________________, but I still need to verify __________________.
+
 ## 5. Experience and support
 
 One experience I will pursue or build:
@@ -93,26 +101,28 @@ One person or resource that can help:
 
 First action within seven days:
 
-[[lines: 3]]
+[[lines: 2]]
 
 Action before the next counseling meeting:
 
-[[lines: 3]]
+[[lines: 2]]
 
 Action during Grade 9:
 
-[[lines: 3]]
+[[lines: 2]]
 
 ## 7. Backup and revision rule
 
 Backup pathway, course, or experience that protects the same goal:
 
-[[lines: 3]]
+[[lines: 2]]
 
 Evidence that would make me revise this plan:
 
-[[lines: 4]]
+[[lines: 3]]
+
+**Revision frame:** I will revise this plan if __________________ because that evidence would change __________________.
 
 One question I will bring to a counselor:
 
-[[lines: 3]]
+[[lines: 2]]

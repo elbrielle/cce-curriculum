@@ -31,14 +31,14 @@ Students use current Texas and Irving ISD planning sources to build a counseling
 
 - Chromebooks with internet access
 - *Find Your Future* workbook, FYF pp. 292-293, "Rung 6: Goal Setting," and FYF pp. 294-296, "Rung 7: High School Plan"
-- [TEA Graduation Toolkit 2025](https://tea.texas.gov/about-tea/newsroom/brochures/tea-graduation-toolkit-2025.pdf)
+- [TEA Chapter 74, Subchapter B: Graduation Requirements, August 2026](https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch074b.pdf)
 - [Irving ISD 2026-2027 Middle and High School Course Descriptions](https://www.irvingisd.net/departments-services/curriculum-and-instruction/middle-school-and-high-school-course-descriptions)
 - [TEA Advanced Placement](https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/advanced-placement)
 - [TEA Dual Credit](https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/dual-credit)
 - High School Transition and Assessment Decisions packet
-- Counseling-Ready Four-Year Course Plan Draft
-- College Credit Options and Family Conversation packet
-- SMART Experience Action Plan
+- Counseling-Ready Four-Year Course Plan Draft as a Canvas annotation, with a three-page paper or enlarged route
+- two-page College Credit and Plan Check
+- FYF Rung 6 SMART goal plus one-page Experience Access and Backup Check
 - Individual High School and Career Plan
 - Individual High School and Career Plan Rubric
 
@@ -51,7 +51,7 @@ The workbook provides a planning frame, not a current district course catalog. R
 ## Vocabulary
 
 - **Foundation High School Program:** The Texas graduation framework. The 2025 TEA toolkit lists 22 foundation credits.
-- **Endorsement:** An added area of study. The TEA toolkit lists a 26-credit plan when endorsement requirements are included.
+- **Endorsement:** An added area of study. Current §74.13 requires at least 26 credits for an endorsement.
 - **Prerequisite:** A course or requirement that must be completed before another course.
 - **Postsecondary:** Education or training after high school, including college, technical training, apprenticeships, military training, and industry credentials.
 - **AP:** A high school course and exam that may earn college credit or placement under the receiving college's policy.
@@ -90,9 +90,9 @@ These tasks are not replaced by the CCE packet. The packet prepares students to 
 | Day | Focus | Key Activities | Deliverable | 5E |
 |-----|-------|---------------|-------------|-----|
 | 1 | Graduation and assessment decisions | Current Texas framework, endorsement boundary, assessment scenarios | Transition and Assessment Decisions packet | Engage · Explain · Explore · Evaluate |
-| 2 | Four-year course-plan draft | Current Irving coursebook, prerequisite chain, backup and counselor questions | Counseling-Ready Four-Year Course Plan Draft | Engage · Explain · Explore · Evaluate |
-| 3 | College credit and plan conversation | AP and dual-credit comparison, current option research, trusted-adult or private reflection | College Credit Options and Family Conversation packet | Engage · Explain · Explore · Extend · Evaluate |
-| 4 | Experience and SMART action | Rung 6 goal analysis, access check, backup strategy | SMART Experience Action Plan | Engage · Explain · Explore · Evaluate |
+| 2 | Four-year course-plan draft | Current Irving coursebook, prerequisite chain, backup and counselor questions | Canvas annotation or three-page paper route | Engage · Explain · Explore · Evaluate |
+| 3 | College credit and plan conversation | AP and dual-credit comparison, current option research, trusted-adult or private reflection | two-page College Credit and Plan Check | Engage · Explain · Explore · Extend · Evaluate |
+| 4 | Experience and SMART action | FYF Rung 6 SMART goal, access check, transfer, obstacle, and backup | FYF goal plus one-page companion | Engage · Explain · Explore · Evaluate |
 | 5 | Individual high school and career plan | Evidence synthesis, rubric self-check, private submission | Individual High School and Career Plan | Engage · Explore · Explain · Evaluate |
 
 ## Formative Assessment
@@ -104,7 +104,7 @@ These tasks are not replaced by the CCE packet. The packet prepares students to 
 
 ## Summative Assessment
 
-**Individual High School and Career Plan, 16 points.** The student-visible rubric scores four criteria: self-evidence and direction, course and pathway planning, postsecondary and college-credit evidence, and action, support, and revision. The plan is a major-grade candidate only after the course's Major assignment group and six-weeks assessment map are verified. Until then, the Canvas Assignment remains unpublished and ungraded.
+**MAJOR 2: Individual High School and Career Plan, 100 gradebook points with a 16-point advisory profile.** The student-visible rubric scores four criteria: self-evidence and direction, course and pathway planning, postsecondary and college-credit evidence, and action, support, and revision. The Assignment is already mapped to Major Assessments (60%) and remains unpublished so each teacher can review and publish it after cloning.
 
 ## Differentiation
 

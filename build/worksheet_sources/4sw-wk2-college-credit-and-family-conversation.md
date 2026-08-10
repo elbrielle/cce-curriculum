@@ -1,14 +1,22 @@
 ---
-title: College Credit Options and Family Conversation
+title: College Credit and Plan Check
 slug: 4sw-wk2-college-credit-and-family-conversation
 kind: worksheet
 weeks: 4sw/wk2-course-mapping
 audience: student
 variant_of:
 language: en
-pages: 3
+pages: 2
 orientation: portrait
 ---
+
+## Read the two routes
+
+| AP COURSE + EXAM | DUAL CREDIT COURSE |
+|---|---|
+| A qualifying AP exam score may earn credit or placement under the receiving college's policy. | An eligible high school student completes a college course that also counts for high school credit. |
+
+**Compare with:** exam score - college course - receiving policy - eligibility - transcript - transfer - cost
 
 ## 1. Compare the options
 
@@ -17,7 +25,6 @@ orientation: portrait
 | AP course and exam |  |  |  |
 | Dual credit |  |  |  |
 | Technical dual credit |  |  |  |
-| Other current Irving opportunity |  |  |  |
 
 ## 2. Connect one option to my plan
 
@@ -35,40 +42,40 @@ What I still need to verify with a counselor or college:
 
 [[pagebreak]]
 
-## 3. Prepare the family conversation
+## 3. Prepare the plan check
 
 The direction I am considering:
 
-[[lines: 2]]
+[[lines: 1]]
 
 Two pieces of evidence behind the direction:
 
-1. [[lines: 2]]
+1. [[lines: 1]]
 
-2. [[lines: 2]]
+2. [[lines: 1]]
 
 One part of the plan that is still a draft:
 
-[[lines: 2]]
+[[lines: 1]]
 
 One question I want a family member or trusted adult to help me consider:
 
-[[lines: 3]]
+[[lines: 2]]
 
-[[pagebreak]]
+## 4. Record the check
 
-## 4. Conversation record
-
-I shared my plan with: [ ] family member  [ ] trusted adult  [ ] counselor  [ ] teacher  [ ] private written reflection
+I used: [ ] family member  [ ] trusted adult  [ ] counselor  [ ] teacher  [ ] private writing  [ ] private audio
 
 One question or reaction I heard:
 
-[[lines: 3]]
+[[lines: 2]]
 
 One part of my plan I will keep, change, or verify because of the conversation:
 
-[[lines: 5]]
+[[lines: 4]]
+
+**Complete frame:** I will [keep / change / verify] __________________ because the question or reflection showed __________________.
 
 ## Important
 
-A signature is not a grade. Students without an available family conversation complete the equal trusted-adult or private reflection route.
+A signature is not a grade. Family, trusted-adult, counselor, teacher, private-writing, and private-audio routes are equal.

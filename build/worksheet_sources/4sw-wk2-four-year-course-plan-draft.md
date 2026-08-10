@@ -6,7 +6,7 @@ weeks: 4sw/wk2-course-mapping
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 3
 orientation: landscape
 ---
 
@@ -20,55 +20,39 @@ Likely high school or program location, if verified: ___________________________
 
 Source and access date: ______________________________________________________________________
 
-## Grade 9 draft
+| PLAN | VERIFY | BACKUP |
+|---|---|---|
+| Put current course names in a possible order. | Mark anything a counselor or current source must confirm. | Keep another route that protects the same goal. |
 
-| English | Math | Science | Social Studies | CTE / pathway | Other requirement or elective |
-|---|---|---|---|---|---|
-|  |  |  |  |  |  |
+**Word bank:** course title - prerequisite - grade level - pathway - verify - backup
 
-Course or prerequisite I need to verify:
+## Grades 9-10 draft
 
-[[lines: 2]]
+Use short course titles or `VERIFY` in the table.
 
-Why one Grade 9 choice matters later:
+| Grade | English | Math | Science | Social Studies | CTE / pathway | Other requirement or elective |
+|---|---|---|---|---|---|---|
+| 9 |  |  |  |  |  |  |
+| 10 |  |  |  |  |  |  |
 
-[[lines: 3]]
-
-[[pagebreak]]
-
-## Grade 10 draft
-
-| English | Math | Science | Social Studies | CTE / pathway | Other requirement or elective |
-|---|---|---|---|---|---|
-|  |  |  |  |  |  |
-
-Course or prerequisite I need to verify:
+One Grade 9 or Grade 10 course or prerequisite I need to verify:
 
 [[lines: 2]]
 
-How this year builds from Grade 9:
-
-[[lines: 3]]
-
 [[pagebreak]]
 
-## Grade 11 draft
+**Sequence frame:** I placed __________________ before __________________ because the coursebook lists __________________ as a prerequisite.
 
-| English | Math | Science | Social Studies | CTE / pathway | Other requirement or elective |
-|---|---|---|---|---|---|
-|  |  |  |  |  |  |
+## Grades 11-12 draft
+
+| Grade | English | Math | Science | Social Studies | CTE / pathway | Other requirement or elective |
+|---|---|---|---|---|---|---|
+| 11 |  |  |  |  |  |  |
+| 12 |  |  |  |  |  |  |
 
 Possible advanced, dual-credit, or technical opportunity to verify:
 
 [[lines: 3]]
-
-[[pagebreak]]
-
-## Grade 12 draft
-
-| English | Math | Science | Social Studies | CTE / pathway | Other requirement or elective |
-|---|---|---|---|---|---|
-|  |  |  |  |  |  |
 
 How this year prepares me for the next step:
 

@@ -5,7 +5,7 @@
 - **Topic:** Course Planning
 - **Objective:** Students will use current Irving ISD course descriptions to draft a four-year sequence, explain one prerequisite chain, and identify questions that require counselor confirmation.
 - **TEKS:** d(8)(B), d(3)(A)
-- **Demonstration of Learning:** Completed Counseling-Ready Four-Year Course Plan Draft.
+- **Demonstration of Learning:** Counseling-Ready Four-Year Course Plan Draft in Canvas annotation or the three-page paper route.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -15,7 +15,7 @@
 | **Objectives** | Use current Irving ISD course descriptions to draft a four-year sequence, explain one prerequisite chain, and identify questions that require counselor confirmation |
 | **TEKS** | d(8)(B), d(3)(A) |
 | **5E Phases** | Engage: Warm-Up · Explain: Source and sequence model · Explore: Four-year course-plan draft · Evaluate: Plan audit and Exit Ticket |
-| **Deliverable** | Completed Counseling-Ready Four-Year Course Plan Draft |
+| **Deliverable** | Course-plan draft in Canvas annotation or the three-page paper route |
 | **Materials** | Chromebooks, Irving ISD 2026-2027 course descriptions, FYF pp. 294-296, Counseling-Ready Four-Year Course Plan Draft, projector |
 
 ---
@@ -48,7 +48,7 @@ Do not provide a completed universal four-year schedule. Core-course placement, 
 
 ## Activity 2: Build the Four-Year Draft (25 min)
 
-Students complete the five-page Counseling-Ready Four-Year Course Plan Draft. They may type in an accessible copy or write on the printed packet.
+Students use the Canvas annotation by default. The three-page paper or enlarged packet captures the same evidence when that route is assigned. Students do not complete both.
 
 Required evidence:
 
@@ -94,6 +94,6 @@ Alex found a course that fits a career goal, but some details are missing.
 
 ## Differentiation
 
-- **Support:** Provide a model with fictional course names, highlight the source/date and prerequisite fields, and complete one Grade 9 row together.
+- **Support:** Provide a model with fictional course names, highlight the source/date and prerequisite fields, and complete one Grade 9 row together. Use the three-page paper route when a larger writing surface is needed.
 - **Extension:** Compare two possible sequences and explain which one leaves more options open.
 - **ELL:** Use the labels course, grade level, prerequisite, campus, verify, and backup. Allow speech-to-text for the prerequisite explanation and counseling questions.

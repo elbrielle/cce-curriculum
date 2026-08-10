@@ -5,7 +5,7 @@
 - **Topic:** College Credit
 - **Objective:** Students will compare AP and dual credit using current sources, document one option and its limitation, and explain the developing plan through a family, trusted-adult, counselor, teacher, or private reflection route.
 - **TEKS:** d(3)(B), d(3)(D)
-- **Demonstration of Learning:** Completed College Credit Options and Family Conversation packet.
+- **Demonstration of Learning:** Completed College Credit and Plan Check.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -15,8 +15,8 @@
 | **Objectives** | Compare AP and dual credit using current sources, document one option and its limitation, and explain the developing plan through a family, trusted-adult, counselor, teacher, or private reflection route |
 | **TEKS** | d(3)(B), d(3)(D) |
 | **5E Phases** | Engage: Warm-Up · Explain: AP and dual-credit source comparison · Explore: Current option research · Extend: Plan conversation or private reflection · Evaluate: Exit Ticket |
-| **Deliverable** | Completed College Credit Options and Family Conversation packet |
-| **Materials** | Chromebooks, TEA AP and dual-credit pages, current Irving ISD coursebook, College Credit Options and Family Conversation packet, projector |
+| **Deliverable** | Completed two-page College Credit and Plan Check |
+| **Materials** | Chromebooks, TEA AP and dual-credit pages, current Irving ISD coursebook, College Credit and Plan Check, projector |
 
 ---
 
@@ -32,7 +32,7 @@ Collect questions about eligibility, cost, transfer, grades, workload, transport
 
 **Sources:** [TEA Advanced Placement](https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/advanced-placement) and [TEA Dual Credit](https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/dual-credit)
 
-Students complete the source comparison on page 1 of the packet.
+Students complete the source comparison on page 1 of the two-page Plan Check.
 
 - An AP course prepares students for an AP exam. A receiving college decides which score earns credit or placement and what that credit counts for.
 - Dual credit enrolls an eligible high school student in a college course paired with high school credit. Successful completion produces both high school and college credit.
@@ -62,7 +62,7 @@ Open searching is not required. If the district page is blocked or difficult to 
 
 ## Activity 3: Explain and Test the Plan (13 min)
 
-Students use page 3 of the packet to prepare a two-minute explanation of their developing plan. They may choose one equal route:
+Students use page 2 of the Plan Check to prepare a two-minute explanation of their developing plan. They may choose one equal route:
 
 - discuss with a family member outside class;
 - discuss with another trusted adult, counselor, or teacher;

@@ -39,6 +39,8 @@ Students open or lay out:
 - Day 4 SMART Experience Action Plan; and
 - the student-visible rubric.
 
+These checkpoints are source material. Students submit the four-page Individual Plan only; Days 1-4 are not four additional Major uploads.
+
 If an artifact is missing, the student uses the matching Canvas guide and source card. A missing platform screenshot is not required.
 
 ---

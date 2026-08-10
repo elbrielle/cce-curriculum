@@ -131,6 +131,43 @@ async def upsert_item(client, module_id, kind, key, title):
     return await common.api(client, "POST", f"/courses/{COURSE_ID}/modules/{module_id}/items", data=data)
 
 
+async def require_major_assignment(client, description):
+    assignments = await common.paged(client, f"/courses/{COURSE_ID}/assignments")
+    matches = [entry for entry in assignments if entry.get("name") == PLAN_TITLE]
+    if len(matches) != 1:
+        raise RuntimeError(
+            f"Expected one existing mapped Major assignment named {PLAN_TITLE!r}; found {len(matches)}"
+        )
+    found = matches[0]
+    if float(found.get("points_possible") or 0) != 100:
+        raise RuntimeError(
+            f"Refusing to modify {PLAN_TITLE!r}: expected 100 points, found {found.get('points_possible')}"
+        )
+    groups = await common.paged(client, f"/courses/{COURSE_ID}/assignment_groups")
+    group = next(
+        (entry for entry in groups if entry.get("id") == found.get("assignment_group_id")),
+        None,
+    )
+    if not group or group.get("name") != "Major Assessments (60%)":
+        raise RuntimeError(
+            f"Refusing to modify {PLAN_TITLE!r}: expected Major Assessments (60%) group"
+        )
+    return await common.api(
+        client,
+        "PUT",
+        f"/courses/{COURSE_ID}/assignments/{found['id']}",
+        data={
+            "assignment[description]": description,
+            "assignment[submission_types][]": [
+                "online_upload",
+                "online_text_entry",
+                "media_recording",
+            ],
+            "assignment[published]": "false",
+        },
+    )
+
+
 def image_tag(file_id, alt):
     return (
         f'<img loading="lazy" src="/courses/{COURSE_ID}/files/{file_id}/preview" alt="{alt}" '
@@ -182,12 +219,8 @@ async def main():
             ["student_annotation", "online_upload", "online_text_entry"],
             files["COURSE"]["id"],
         )
-        plan_assignment = await common.upsert_assignment(
-            client,
-            PLAN_TITLE,
-            "<p>Submit the private Individual High School and Career Plan by file upload, text entry, or media recording. The student-visible 16-point rubric is attached in the guide. The Assignment remains unpublished and ungraded until the Major assignment group and 40/60 weighting are verified.</p>",
-            ["online_upload", "online_text_entry", "media_recording"],
-        )
+        plan_description = f'<p>Submit only the completed four-page Individual High School and Career Plan by file upload, typed response, or approved audio response. Days 1-4 are evidence-building checkpoints, not four additional required uploads. Use the <a href="/courses/{COURSE_ID}/files/{files["RUBRIC"]["id"]}/preview">student scoring guide</a> before submitting. This assignment is already mapped as a 100-point Major Assessment and remains unpublished for teacher review and cloning.</p>'
+        plan_assignment = await require_major_assignment(client, plan_description)
         quiz_url = f"/courses/{COURSE_ID}/quizzes/{quiz['id']}"
         annotation_url = f"/courses/{COURSE_ID}/assignments/{annotation['id']}"
         plan_url = f"/courses/{COURSE_ID}/assignments/{plan_assignment['id']}"
@@ -217,6 +250,49 @@ async def main():
             ),
         }
 
+        contracts = {
+            1: {
+                "TOPIC": "Academic Transitions",
+                "OBJECTIVE": "Students will describe the current Texas graduation framework and analyze how different assessments can affect graduation, placement, admission, scholarships, career exploration, or military options.",
+                "TEKS": "d(3)(A), d(3)(E)",
+                "DOL": "Completed High School Transition and Assessment Decisions packet.",
+                "I_CAN": "explain how graduation rules and different assessments affect different planning decisions.",
+                "SHOW": "complete the Transition and Assessment Decisions packet and use evidence to correct a mixed-up assessment claim.",
+            },
+            2: {
+                "TOPIC": "Course Planning",
+                "OBJECTIVE": "Students will use current Irving ISD course descriptions to draft a four-year sequence, explain one prerequisite chain, and identify questions that require counselor confirmation.",
+                "TEKS": "d(8)(B), d(3)(A)",
+                "DOL": "Counseling-Ready Four-Year Course Plan Draft in Canvas annotation or the three-page paper route.",
+                "I_CAN": "build a four-year course-plan draft without turning an unknown into a fact.",
+                "SHOW": "complete one source-checked course plan with a prerequisite chain, verification label, backup, and counseling questions.",
+            },
+            3: {
+                "TOPIC": "College Credit",
+                "OBJECTIVE": "Students will compare AP and dual credit using current sources, document one option and its limitation, and explain the developing plan through a family, trusted-adult, counselor, teacher, or private reflection route.",
+                "TEKS": "d(3)(B), d(3)(D)",
+                "DOL": "Completed College Credit and Plan Check.",
+                "I_CAN": "compare AP and dual credit and name what I still need to verify before using either option in my plan.",
+                "SHOW": "complete the College Credit and Plan Check with one current option, one limitation, and one keep, change, or verify decision.",
+            },
+            4: {
+                "TOPIC": "Extended Learning",
+                "OBJECTIVE": "Students will evaluate one experience that could support a career direction and write a SMART action plan with an access check, support, obstacle, and backup strategy.",
+                "TEKS": "d(3)(F), d(8)(C)",
+                "DOL": "FYF SMART goal plus the Experience Access and Backup Check.",
+                "I_CAN": "turn one useful experience into a realistic SMART goal with an access check and backup.",
+                "SHOW": "complete the FYF SMART goal and one-page access, skill-transfer, support, obstacle, backup, and seven-day action check.",
+            },
+            5: {
+                "TOPIC": "Course Planning",
+                "OBJECTIVE": "Students will synthesize self-evidence, current course and preparation evidence, one advanced or college-credit option, and an action and revision plan into one individual high school and career plan.",
+                "TEKS": "d(8)(B), d(8)(C), d(3)(D)",
+                "DOL": "Individual High School and Career Plan with student-visible 16-point rubric.",
+                "I_CAN": "use self, course, preparation, and action evidence to build a plan that can change when the evidence changes.",
+                "SHOW": "submit one private Individual High School and Career Plan after a rubric check and visible revision.",
+            },
+        }
+
         file_link = common.file_link
         step = common.step
         flow = common.flow
@@ -225,7 +301,8 @@ async def main():
                 "TITLE": "Graduation and Assessment Decisions",
                 "PURPOSE": "Separate graduation, admission, placement, career-exploration, military, and credential decisions before you plan.",
                 "TODAY": "<ul><li>read the current Texas graduation framework;</li><li>identify one endorsement question;</li><li>analyze two assessment scenarios.</li></ul>",
-                "READY": f'<p>Open {file_link(files["TRANSITION"]["id"], "the Transition and Assessment Decisions packet")}. Your teacher will also post the current TEA Graduation Toolkit.</p>',
+                "READY": f'<p>Open {file_link(files["TRANSITION"]["id"], "the Transition and Assessment Decisions packet")}. Your teacher will also post the current TEA Chapter 74 graduation rule and a dated cohort card.</p>',
+                "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Decision words:</strong> graduation · admission · placement · scholarship · career exploration · military qualification · credential.</p><p><strong>Use this frame:</strong> ___ may affect ___, but it does not decide ___. I will verify ___ with ___.</p></div>',
                 "STEPS": step(1, "Record the two planning levels", "<p>Write the 22-credit foundation baseline and what the 26-credit endorsement plan adds. Keep the source and year.</p>")
                 + step(2, "Write a counseling-ready endorsement statement", "<p>Name one possible endorsement and one question. Do not write “always” unless a current source proves it.</p>")
                 + step(3, "Match the decision, not just the test name", "<p>For each scenario, name what the result may affect, a next step, and one fact to verify.</p>")
@@ -239,7 +316,8 @@ async def main():
                 "TITLE": "Four-Year Course Plan Draft",
                 "PURPOSE": "Build a source-checked draft for a future counselor conversation, not an official schedule.",
                 "TODAY": "<ul><li>find current course information;</li><li>draft Grades 9-12;</li><li>explain one prerequisite chain;</li><li>keep a backup and counselor questions.</li></ul>",
-                "READY": f'<p>Open {file_link(files["COURSE"]["id"], "the five-page course-plan draft")} or <a href="{annotation_url}">open the Canvas annotation activity</a>. Use the current Irving ISD coursebook posted by your teacher.</p>',
+                "READY": f'<p><strong>Default route:</strong> <a href="{annotation_url}">open the Canvas course-plan annotation</a>. Use {file_link(files["COURSE"]["id"], "the three-page paper or enlarged route")} only when your teacher assigns that route. Do not complete both. Keep the current Irving ISD coursebook open.</p>',
+                "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Planning words:</strong> prerequisite = a course required first · verify = check with a current source or counselor · backup = another route that protects the same goal.</p><p><strong>Use this frame:</strong> I placed ___ before ___ because the coursebook lists ___ as a prerequisite. I still need to verify ___.</p></div>',
                 "STEPS": step(1, "Keep the source with the course", "<p>Record the exact title, grade level, prerequisite, source, and access date.</p>")
                 + step(2, "Draft one year at a time", "<p>Complete Grades 9-12. A blank marked for verification is better than an invented course.</p>")
                 + step(3, "Explain the sequence", "<p>Show one prerequisite chain and why an earlier choice matters later.</p>")
@@ -253,7 +331,8 @@ async def main():
                 "TITLE": "College Credit and Plan Conversation",
                 "PURPOSE": "Compare AP and dual credit, then test your plan with a question or reflection.",
                 "TODAY": "<ul><li>compare AP and dual credit;</li><li>document one current local option;</li><li>explain one part of your plan;</li><li>record what you will keep, change, or verify.</li></ul>",
-                "READY": f'<p>Open {file_link(files["CREDIT"]["id"], "the College Credit and Conversation packet")}. Your teacher will post the current TEA AP, dual-credit, and Irving coursebook pages.</p>',
+                "READY": f'<p>Open {file_link(files["CREDIT"]["id"], "the two-page College Credit and Plan Check")}. Your teacher will post the current TEA AP, dual-credit, and Irving coursebook pages.</p>',
+                "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Compare with:</strong> exam score · college course · receiving-college policy · eligibility · transcript · transfer · cost.</p><p><strong>Use this frame:</strong> AP and dual credit both ___. AP depends on ___, while dual credit depends on ___. Before I choose, I need to verify ___.</p></div>',
                 "STEPS": step(1, "Compare the routes", "<p>AP uses an exam and receiving-college policy. Dual credit is a college course that gives high school and college credit after successful completion.</p>")
                 + step(2, "Document one current option", "<p>Keep the exact name, type, grade level, prerequisite, possible credit, source/date, and one limitation or question.</p>")
                 + step(3, "Choose an equal conversation route", "<p>Use a family member, trusted adult, counselor, teacher, private writing, or private audio. A signature is not required.</p>")
@@ -267,7 +346,8 @@ async def main():
                 "TITLE": "SMART Experience Action Plan",
                 "PURPOSE": "Turn one possible experience into a realistic action with support and a backup.",
                 "TODAY": "<ul><li>evaluate one experience;</li><li>write all five SMART parts;</li><li>check access, support, obstacle, and backup;</li><li>choose one action within seven days.</li></ul>",
-                "READY": f'<p>Open {file_link(files["SMART"]["id"], "the three-page SMART Experience Action Plan")}.</p>',
+                "READY": f'<p><strong>Default route:</strong> complete the SMART goal on FYF pp. 292-293, then open {file_link(files["SMART"]["id"], "the one-page Experience Access and Backup Check")}. The companion collects only the evidence the workbook does not ask for.</p>',
+                "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>SMART:</strong> Specific · Measurable · Achievable · Relevant · Time-Bound.</p><p><strong>Use these frames:</strong> By ___, I will ___, and I will know I made progress when ___. If ___ blocks the plan, I will ___ so I can still build ___.</p></div>',
                 "STEPS": step(1, "Choose a real or clearly unverified experience", "<p>Use a club, activity, service, project, responsibility, work, job-shadow, or portfolio option. Do not contact an unfamiliar adult or workplace.</p>")
                 + step(2, "Name the value", "<p>Record the skill it builds and how the same skill transfers to a second career.</p>")
                 + step(3, "Write the five SMART parts", "<p>Specific, Measurable, Achievable, Relevant, and Time-Bound.</p>")
@@ -275,13 +355,14 @@ async def main():
                 "EXIT": "<p>Rank measure, access, time, support, and backup. Revise the weakest part now.</p>",
                 "DONE": "<ul><li>experience and source;</li><li>skill plus second-career transfer;</li><li>all five SMART parts;</li><li>support and obstacle;</li><li>backup;</li><li>seven-day action.</li></ul>",
                 "SUPPORT": "<p>specific = específico · measurable = medible · achievable = alcanzable · relevant = pertinente · time-bound = con fecha. Use “By [date], I will...” and “If [obstacle], I will...”</p>",
-                "FALLBACK": "<p>The PDF and embedded workbook pages are the full independent route. Use an independent project or current responsibility if a club or program cannot be verified.</p>",
+                "FALLBACK": "<p>The embedded workbook pages plus the one-page companion are the full independent route. Use an independent project or current responsibility if a club or program cannot be verified.</p>",
             },
             5: {
                 "TITLE": "Individual High School and Career Plan",
                 "PURPOSE": "Combine your evidence into a current direction, course and preparation plan, backup, and revision rule.",
                 "TODAY": "<ul><li>gather Days 1-4 evidence;</li><li>write the individual plan;</li><li>self-score with the rubric;</li><li>revise and submit privately.</li></ul>",
                 "READY": f'<p>Open {file_link(files["PLAN"]["id"], "the four-page Individual Plan")} and {file_link(files["RUBRIC"]["id"], "the two-page 16-point rubric")}.</p>',
+                "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Plan words:</strong> direction · evidence · prerequisite · preparation · backup · revision rule.</p><p><strong>Use these frames:</strong> My current direction is ___ because my evidence shows ___. I will revise this plan if ___ because that evidence would change ___.</p></div>',
                 "STEPS": step(1, "Direction and self-evidence", "<p>Name a current direction, two pieces of self-evidence, and evidence that would make you reconsider.</p>")
                 + step(2, "Course and preparation evidence", "<p>Bring forward the four-year draft, prerequisite chain, one verification item, preparation after high school, and one advanced or college-credit option.</p>")
                 + step(3, "Action and revision", "<p>Write actions for seven days, the next counseling meeting, and Grade 9. Add support, backup, and a revision rule.</p>")
@@ -289,7 +370,7 @@ async def main():
                 "EXIT": "<p>List three evidence-supported parts, two counseling questions, and one condition that would make you revise.</p>",
                 "DONE": "<ul><li>all seven plan sections;</li><li>source/date labels kept;</li><li>backup and revision rule;</li><li>student-visible rubric check;</li><li>one visible revision;</li><li>private submission.</li></ul>",
                 "SUPPORT": "<p>direction = dirección · evidence = evidencia · revision = revisión. Use “My current direction is... because...” and “I will revise this plan if...” Text, speech-to-text, and media answer the same jobs.</p>",
-                "FALLBACK": "<p>Use the matching Student Guide and dated source cards to rebuild a missing section. Canvas failure means paper or later upload without penalty. This is not an official course request.</p>",
+                "FALLBACK": "<p>Use the matching Student Guide and dated source cards to rebuild a missing section. Days 1-4 are source material, not four additional uploads. Canvas failure means paper or later upload without penalty. This is not an official course request.</p>",
             },
         }
 
@@ -297,8 +378,8 @@ async def main():
             1: {
                 "TITLE": "Graduation and Assessment Decisions",
                 "SUBTITLE": "50 minutes · TEKS d(3)(A), d(3)(E)",
-                "ALERT": "<strong>Use the current TEA framework.</strong> The foundation baseline is 22 credits; the endorsement plan shown in the 2025 toolkit totals 26. Do not teach the stale 4-math, 4-science, 4-social foundation list.",
-                "PREP": f'<ul><li>Post {file_link(files["TRANSITION"]["id"], "the transition packet")} and the <a href="https://tea.texas.gov/about-tea/newsroom/brochures/tea-graduation-toolkit-2025.pdf">TEA 2025 Graduation Toolkit</a>.</li><li>Open the unpublished four-question practice Quiz.</li><li>Prepare six assessment-purpose cards.</li></ul>',
+                "ALERT": "<strong>Use the August 2026 Chapter 74 rule.</strong> The foundation baseline remains 22 credits and an endorsement requires at least 26. Beginning with students entering Grade 9 in 2026-2027, teach the new Personal Financial Literacy and social-studies choices. Current Grade 8 students enter high school after that start date. The 2025 toolkit shows prior-cohort wording.",
+                "PREP": f'<ul><li>Post {file_link(files["TRANSITION"]["id"], "the transition packet")} and <a href="https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch074b.pdf">current TEA Chapter 74, Subchapter B</a>.</li><li>Prepare the current Grade 8 cohort card: U.S. History 1 credit, Government 0.5, Personal Financial Literacy 0.5, and 1 credit from World History, World Geography, or Foundations of Economics.</li><li>Open the unpublished four-question practice Quiz and prepare six assessment-purpose cards.</li></ul>',
                 "EVIDENCE": "<p>Current graduation framework, possible endorsement plus verification question, purpose table, two assessment scenarios, and one source/person to verify. Formative.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "High school question and likely decision.")
                 + flow("#4a9d2f", "Graduation framework · 12", "Foundation versus endorsement plan.")
@@ -306,7 +387,7 @@ async def main():
                 + flow("#e3ad19", "Assessment scenarios · 18", "Decision, next step, and verification.")
                 + flow("#1f617a", "Exit · 5", "Correct the all-tests-are-the-same misconception."),
                 "MONITOR": "<p>Key boundary: EOC for graduation rules; PSAT for practice/feedback and some scholarship programs; SAT/ACT when admission or scholarships use them; TSIA for college readiness/placement with exemptions or alternatives; ASVAB for exploration and military qualification/job options; certification assessments for a named credential. One test does not plan the full route.</p>",
-                "RESOURCES": "<p>The TEA Graduation Toolkit and current institutional policies control. The practice Quiz provides immediate feedback and item-level misconception data.</p>",
+                "RESOURCES": "<p>Current TEA Chapter 74, Subchapter B controls the statewide baseline. The 2025 toolkit is a prior-cohort reference. The revised rule begins with students entering Grade 9 in 2026-2027 and therefore covers later cohorts, including current Grade 8 students. Irving course titles and each student's plan still require district and counselor confirmation.</p>",
                 "SUPPORT": "<p>Use purpose cards and icons, read one scenario at a time, and allow oral rehearsal. The packet gives separate full-width lines for each scenario job.</p>",
                 "FALLBACK": "<p>The dated TEA source card and printed packet are complete. Do not require live test-registration sites or private scores.</p>",
             },
@@ -314,7 +395,7 @@ async def main():
                 "TITLE": "Four-Year Course Plan Draft",
                 "SUBTITLE": "50 minutes · TEKS d(8)(B), d(3)(A)",
                 "ALERT": "<strong>Draft, not requests.</strong> Do not open Xello Submit course requests or parent approval until counselors confirm the local window and process.",
-                "PREP": f'<ul><li>Post {file_link(files["COURSE"]["id"], "the five-page draft")} and the <a href="https://www.irvingisd.net/departments-services/curriculum-and-instruction/middle-school-and-high-school-course-descriptions">current Irving coursebook</a>.</li><li>Open the unpublished annotation Assignment.</li><li>Prepare dated course cards and one fictional model.</li></ul>',
+                "PREP": f'<ul><li>Open the unpublished annotation Assignment and post {file_link(files["COURSE"]["id"], "the three-page paper or enlarged route")}.</li><li>Post the <a href="https://www.irvingisd.net/departments-services/curriculum-and-instruction/middle-school-and-high-school-course-descriptions">current Irving coursebook</a>.</li><li>Prepare dated course cards and one fictional model.</li></ul>',
                 "EVIDENCE": "<p>Four-year draft, current source/date, one prerequisite chain, one verification label, backup, and two counselor questions. Formative.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "What prerequisite errors can cause.")
                 + flow("#4a9d2f", "Source model · 10", "Exact title, grade, prerequisite, question, backup.")
@@ -323,14 +404,14 @@ async def main():
                 + flow("#1f617a", "Exit · 5", "Branch when a detail is unclear."),
                 "MONITOR": "<p>Lap 1 checks title/source/date. Lap 2 checks the prerequisite chain. Lap 3 checks verification labels, backup, and questions. Do not grade a guessed course as more complete than an honest unknown.</p>",
                 "RESOURCES": "<p>Authenticated Xello configuration: 4-year course plan 30 min; Make plans 30 min/add at least one plan; Submit course requests 20 min/Grade 8 only; parent approval 15 min/current due May 1, 2027. These remain counselor-window tasks.</p>",
-                "SUPPORT": "<p>Use a fictional model and complete one Grade 9 row together. Canvas annotation, upload, text, and paper are equal; the five-page packet preserves writing space.</p>",
+                "SUPPORT": "<p>Use a fictional model and complete one Grade 9 row together. Canvas annotation is the default; the three-page paper route keeps the same evidence and writing space.</p>",
                 "FALLBACK": "<p>Dated course cards replace live search. Platform failure never authorizes an invented course or false Xello completion.</p>",
             },
             3: {
                 "TITLE": "College Credit and Plan Conversation",
                 "SUBTITLE": "50 minutes · TEKS d(3)(B), d(3)(D)",
                 "ALERT": "<strong>No automatic credit or free-course promise.</strong> AP depends on exam performance and receiving-college policy. Dual credit has eligibility, completion, transfer, cost, and local-availability questions.",
-                "PREP": f'<ul><li>Post {file_link(files["CREDIT"]["id"], "the college-credit packet")}.</li><li>Open current <a href="https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/advanced-placement">TEA AP</a>, <a href="https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/dual-credit">TEA Dual Credit</a>, and Irving coursebook pages.</li><li>Prepare one dated local option card.</li></ul>',
+                "PREP": f'<ul><li>Post {file_link(files["CREDIT"]["id"], "the two-page College Credit and Plan Check")}.</li><li>Open current <a href="https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/advanced-placement">TEA AP</a>, <a href="https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/dual-credit">TEA Dual Credit</a>, and Irving coursebook pages.</li><li>Prepare one dated local option card.</li></ul>',
                 "EVIDENCE": "<p>Accurate comparison, one current local option with source/date, limitation or question, and one keep/change/verify reflection. Formative.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "Question before choosing college-credit work.")
                 + flow("#4a9d2f", "Compare · 12", "AP and dual-credit evidence.")
@@ -346,7 +427,7 @@ async def main():
                 "TITLE": "SMART Experience Action Plan",
                 "SUBTITLE": "50 minutes · TEKS d(3)(F), d(8)(C)",
                 "ALERT": "<strong>Verify access before naming an opportunity.</strong> Do not promise a CTSO chapter, internship, job shadow, transportation route, or adult contact from workbook context alone.",
-                "PREP": f'<ul><li>Post {file_link(files["SMART"]["id"], "the SMART Action Plan")}.</li><li>Project FYF pp. 292-293.</li><li>Prepare one current campus option, one independent project, and one service or responsibility-based option.</li></ul>',
+                "PREP": f'<ul><li>Have students use FYF pp. 292-293 for the SMART goal.</li><li>Post {file_link(files["SMART"]["id"], "the one-page Experience Access and Backup Check")}.</li><li>Prepare one current campus option, one independent project, and one service or responsibility-based option.</li></ul>',
                 "EVIDENCE": "<p>Evaluated experience, transferable skill, all five SMART parts, access check, support, obstacle, backup, and seven-day action. Formative.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "Experience and skill.")
                 + flow("#4a9d2f", "SMART model · 8", "Weak versus source-checked goal.")
@@ -362,9 +443,9 @@ async def main():
             5: {
                 "TITLE": "Individual High School and Career Plan",
                 "SUBTITLE": "50 minutes · TEKS d(8)(B), d(8)(C), d(3)(D)",
-                "ALERT": "<strong>Major 2 in the 4SW assessment map.</strong> Keep the Assignment unpublished and ungraded until the Major group and 40/60 weighting are verified.",
+                "ALERT": "<strong>Major 2 is already mapped.</strong> The Assignment stays unpublished, is worth 100 points, and remains in Major Assessments (60%) so each teacher can publish it after cloning.",
                 "PREP": f'<ul><li>Post {file_link(files["PLAN"]["id"], "the four-page plan")} and {file_link(files["RUBRIC"]["id"], "the two-page student rubric")}.</li><li>Open the private unpublished Assignment.</li><li>Have Days 1-4 packets and dated source cards available.</li></ul>',
-                "EVIDENCE": "<p>Private individual plan with self-evidence, course and preparation evidence, college-credit evidence, timed actions, support, backup, and revision rule. Major 2, scored with the 16-point rubric and converted to 100 gradebook points.</p>",
+                "EVIDENCE": "<p>Submit the four-page Individual Plan only. It synthesizes self-evidence, course and preparation evidence, college-credit evidence, timed actions, support, backup, and a revision rule. Major 2, scored with the 16-point profile and recorded as 100 gradebook points.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "Supported part and open question.")
                 + flow("#4a9d2f", "Gather · 5", "Days 1-4 evidence set.")
                 + flow("#1f617a", "Write · 28", "Three chunks with checks.")
@@ -395,7 +476,7 @@ async def main():
                 student_title,
                 common.render(
                     "4sw-wk2-student.html",
-                    {"COURSE_ID": COURSE_ID, "DAY": day, "MEDIA": media[day], **student[day]},
+                    {"COURSE_ID": COURSE_ID, "DAY": day, "MEDIA": media[day], **contracts[day], **student[day]},
                 ),
             )
             teacher_title = f"TEACHER: 4SW Wk2 Day {day} Facilitator Guide"
@@ -408,6 +489,7 @@ async def main():
                         "COURSE_ID": COURSE_ID,
                         "DAY": day,
                         "STUDENT_PAGE_URL": student_page["url"],
+                        **contracts[day],
                         **teacher[day],
                     },
                 ),
@@ -468,6 +550,8 @@ async def main():
                     "plan_assignment": {
                         "id": plan_assignment["id"],
                         "published": plan_assignment.get("published"),
+                        "points_possible": plan_assignment.get("points_possible"),
+                        "assignment_group_id": plan_assignment.get("assignment_group_id"),
                         "submission_types": plan_assignment.get("submission_types"),
                         "grading_type": plan_assignment.get("grading_type"),
                     },

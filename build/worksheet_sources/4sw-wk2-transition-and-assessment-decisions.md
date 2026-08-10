@@ -14,7 +14,13 @@ orientation: portrait
 
 Use the current TEA graduation framework and Irving ISD course information your teacher provides. This is a planning draft, not a final schedule or counselor approval.
 
+| READ | DECIDE | VERIFY |
+|---|---|---|
+| Keep the source and year with the rule. | Name what the rule or result may affect. | Check the current requirement with TEA, the institution, or a counselor. |
+
 ## 1. Graduation framework
+
+**Current Grade 8 cohort:** The statewide foundation still totals 22 credits. Beginning with students entering Grade 9 in 2026-2027, the three social studies credits include U.S. History (1), Government (0.5), Personal Financial Literacy (0.5), and one credit from World History, World Geography, or Foundations of Economics. Current Grade 8 students enter high school after that start date.
 
 Foundation High School Program: ______ credits
 
@@ -46,6 +52,10 @@ Why this connection makes sense based on my evidence:
 
 ## 3. Assessments do different jobs
 
+**Decision bank:** graduation - admission - placement - scholarship - career exploration - military qualification - credential
+
+Use short phrases in the table. The scenarios below are where you explain the connection.
+
 | Assessment | What decision or opportunity can it affect? | When would it matter to me? |
 |---|---|---|
 | High school end-of-course assessment |  |  |
@@ -62,11 +72,15 @@ Two assessments or results that may affect the plan, and how:
 
 [[lines: 4]]
 
+**Frame:** __________________ may affect __________________, but it does not decide __________________.
+
 **Scenario B:** A student wants technical training after graduation and is also considering military service.
 
 Two assessments or results that may affect the plan, and how:
 
 [[lines: 4]]
+
+**Frame:** The student should verify __________________ with __________________ because __________________.
 
 [[pagebreak]]
 

@@ -16,7 +16,7 @@
 | **TEKS** | d(3)(A), d(3)(E) |
 | **5E Phases** | Engage: Warm-Up · Explain: Graduation framework and assessment purposes · Explore: Transition and assessment scenarios · Evaluate: Exit Ticket |
 | **Deliverable** | Completed High School Transition and Assessment Decisions packet |
-| **Materials** | Chromebooks, TEA Graduation Toolkit 2025, High School Transition and Assessment Decisions packet, projector |
+| **Materials** | Chromebooks, current TEA Chapter 74 Subchapter B (August 2026), High School Transition and Assessment Decisions packet, projector |
 
 ---
 
@@ -30,12 +30,14 @@
 
 ## Activity 1: Read the Current Graduation Framework (12 min)
 
-**Source:** [TEA Graduation Toolkit 2025](https://tea.texas.gov/about-tea/newsroom/brochures/tea-graduation-toolkit-2025.pdf)
+**Current source:** [TEA Chapter 74, Subchapter B: Graduation Requirements, August 2026](https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch074b.pdf)
 
-Use the toolkit's Foundation High School Program page. Students record the two planning levels in Section 1 of their packet:
+Use current §§74.12-74.13. Students record the two planning levels in Section 1 of their packet:
 
 - The foundation plan requires at least 22 credits: 4 English, 3 math, 3 science, 3 social studies, 2 languages other than English, 1 physical education, 1 fine arts, and 5 electives.
 - A plan with an endorsement totals 26 credits and adds a fourth math credit, a fourth science credit, two electives, and the endorsement requirements.
+
+Beginning with students entering Grade 9 in 2026-2027, the three social studies credits include one credit in U.S. History, one-half credit in U.S. Government, one-half credit in Personal Financial Literacy, and one credit selected from World History, World Geography, or Foundations of Economics. Current Grade 8 students enter high school after that start date, so the rule applies to their planning. The 2025 Graduation Toolkit uses the prior-cohort economics wording and may be shown only to teach why students keep the cohort and source date with a rule.
 
 The toolkit is a statewide baseline. Irving ISD course names, local graduation decisions, substitutions, and a student's individual plan still require current district guidance.
 

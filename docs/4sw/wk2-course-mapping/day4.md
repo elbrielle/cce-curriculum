@@ -5,7 +5,7 @@
 - **Topic:** Extended Learning
 - **Objective:** Students will evaluate one experience that could support a career direction and write a SMART action plan with an access check, support, obstacle, and backup strategy.
 - **TEKS:** d(3)(F), d(8)(C)
-- **Demonstration of Learning:** Completed SMART Experience Action Plan.
+- **Demonstration of Learning:** FYF SMART goal plus the Experience Access and Backup Check.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -15,8 +15,8 @@
 | **Objectives** | Evaluate one experience that could support a career direction and write a SMART action plan with an access check, support, obstacle, and backup strategy |
 | **TEKS** | d(3)(F), d(8)(C) |
 | **5E Phases** | Engage: Warm-Up · Explain: Rung 6 SMART model · Explore: Experience Action Plan · Evaluate: Self-check and Exit Ticket |
-| **Deliverable** | Completed SMART Experience Action Plan |
-| **Materials** | FYF pp. 292-296, SMART Experience Action Plan, current campus opportunity information when available, projector |
+| **Deliverable** | FYF SMART goal plus one-page access, transfer, support, obstacle, backup, and action check |
+| **Materials** | FYF pp. 292-296, Experience Access and Backup Check, current campus opportunity information when available, projector |
 
 ---
 
@@ -65,9 +65,9 @@ Do not promise a CTSO, competition, internship, job shadow, transportation route
 
 ---
 
-## Activity 3: Write the SMART Action Plan (17 min)
+## Activity 3: Write the Goal and Protect the Plan (17 min)
 
-Students complete the three-page SMART Experience Action Plan. The final goal must include:
+Students write the SMART goal on FYF pp. 292-293, then complete the one-page Experience Access and Backup Check. They do not copy the five SMART parts into a second packet. The final evidence must include:
 
 1. the action;
 2. a measure;
@@ -79,13 +79,13 @@ Students complete the three-page SMART Experience Action Plan. The final goal mu
 8. one backup strategy; and
 9. one first action within seven days.
 
-**Active Monitoring:** First lap checks whether the experience is real or marked for verification. Second lap checks all five SMART parts. Third lap checks access, obstacle, and backup. If students repeatedly depend on an unverified club or adult contact, pause and model a school-based or independent project route.
+**Active Monitoring:** First lap checks whether the experience is real or marked for verification. Second lap checks all five SMART parts in the workbook. Third lap checks access, skill transfer, obstacle, and backup on the companion. If students repeatedly depend on an unverified club or adult contact, pause and model a school-based or independent project route.
 
 ---
 
 ## Activity 4: Private Self-Check (5 min)
 
-Students underline the five SMART parts in different ways and use the Done When checklist. A partner review is optional. Students do not have to disclose a private goal or family situation.
+Students underline the five SMART parts in the workbook and use the companion's Done When checklist. A partner review is optional. Students do not have to disclose a private goal or family situation.
 
 ---
 
