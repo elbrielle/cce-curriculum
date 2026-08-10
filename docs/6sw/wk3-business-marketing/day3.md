@@ -5,7 +5,7 @@
 - **Topic:** Entrepreneurship
 - **Objective:** Students will identify a fictional entrepreneurial opportunity by connecting a skill, audience need, deliverable, responsibility, and risk to a marketing career.
 - **TEKS:** d(1)(C), d(3)(I)
-- **Demonstration of Learning:** completed FYF Expert Edge plan plus a two-page individual opportunity, responsibility/risk, private test, revision, and career connection.
+- **Demonstration of Learning:** Completed FYF Expert Edge plan plus a two-page individual opportunity, responsibility/risk, private test, revision, and career connection.
 <!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(1)(C), d(3)(I)
 **Evidence:** FYF Expert Edge plan plus two-page individual opportunity and revision evidence

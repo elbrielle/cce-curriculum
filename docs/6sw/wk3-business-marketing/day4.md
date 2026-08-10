@@ -5,7 +5,7 @@
 - **Topic:** Data-Informed Decisions
 - **Objective:** Students will identify how a marketing career uses preference, performance, and qualitative evidence to choose a strategy, name a limitation, and plan a next test.
 - **TEKS:** d(1)(C)
-- **Demonstration of Learning:** completed FYF Family Fun Pass work plus a two-page individual goal, three-point evidence stack, decision rule, limitation, next test, and career connection.
+- **Demonstration of Learning:** Completed FYF Family Fun Pass work plus a two-page individual goal, three-point evidence stack, decision rule, limitation, next test, and career connection.
 <!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(1)(C)
 **Evidence:** FYF Family Fun Pass work plus two-page evidence decision and next-test plan

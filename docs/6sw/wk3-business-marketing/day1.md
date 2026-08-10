@@ -5,7 +5,7 @@
 - **Topic:** Audience and Message
 - **Objective:** Students will identify a marketing career opportunity and use supplied product evidence to create, test, and revise a truthful audience-specific call to action.
 - **TEKS:** d(1)(C)
-- **Demonstration of Learning:** completed FYF Click Factor work plus a two-page individual audience test, visible revision, and career/work-product connection.
+- **Demonstration of Learning:** Completed FYF Click Factor work plus a two-page individual audience test, visible revision, and career/work-product connection.
 <!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(1)(C)
 **Evidence:** FYF Click Factor work plus two-page audience test, revision, and career connection

@@ -29,6 +29,8 @@ Score evidence and reasoning. Graphic polish, platform access, public speaking, 
 
 ## Submission Check
 
+Submit only the completed Marketing Evidence Brief and this rubric/self-score. Earlier FYF work and companions are reference evidence, not additional required uploads.
+
 - [ ] completed Marketing Evidence Brief;
 - [ ] the brief includes one Click Factor test/revision result;
 - [ ] the brief includes Expert Edge responsibility/risk evidence;

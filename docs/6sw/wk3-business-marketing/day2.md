@@ -5,7 +5,7 @@
 - **Topic:** Changing Conditions
 - **Objective:** Students will identify a marketing career opportunity and analyze how one economic condition and one societal or technology condition could change marketing work and preparation.
 - **TEKS:** d(1)(C), d(5)(C)
-- **Demonstration of Learning:** completed FYF Little Library message plus a two-page individual revision, fixed-source condition comparison, preparation recommendation, and career connection.
+- **Demonstration of Learning:** Completed FYF Little Library message plus a two-page individual revision, fixed-source condition comparison, preparation recommendation, and career connection.
 <!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(1)(C), d(5)(C)
 **Evidence:** FYF Little Library message plus two-page revision and changing-conditions comparison
