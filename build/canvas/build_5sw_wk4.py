@@ -181,7 +181,7 @@ def student_content(files, visuals, urls):
             + step(3, "Compare growth and openings", "<p>Annual openings include replacement needs. A large openings number can appear beside slower growth.</p>")
             + step(4, "State the limit", "<p>Explain why national medians and projections do not prove DFW starting pay, a live vacancy, or a worker shortage.</p>"),
             "EXIT": "<p>State one supported conclusion and one limitation.</p>",
-            "DONE": "<ul><li>four career pages;</li><li>evidence cited for every label;</li><li>growth/openings comparison;</li><li>one national-to-local limitation.</li></ul>",
+            "DONE": "<ul><li>four careers classified;</li><li>evidence cited for every label;</li><li>growth/openings comparison;</li><li>one national-to-local limitation.</li></ul>",
             "SUPPORT": "<p><strong>Word bank:</strong> classification/clasificación · median/mediana · growth/crecimiento · annual openings/vacantes anuales · limitation/limitación.</p><p><strong>Use this frame:</strong> ___ is or is not high-___ under the course rule because the evidence shows ___. This does not prove ___.</p>",
             "FALLBACK": "<p>All required data is in the packet. Never estimate a missing value; mark not available or not comparable.</p>",
         },
@@ -249,7 +249,7 @@ def teacher_content(files):
             "ALERT": "<strong>Classroom comparison rule, not a government label.</strong> National projections do not prove a DFW shortage, current vacancy, or starting salary.",
             "PREP": f'<ul><li>Post {link(files["CLASSIFY"]["id"], "the four-page classification packet")} and annotation activity.</li><li>Project all three rule thresholds.</li><li>Model one yes/no with evidence and one limitation.</li></ul>',
             "EVIDENCE": "<p><strong>Major 1, Part A, in the 5SW assessment map:</strong> four supported classifications, trend/openings comparison, and national-to-local limitation. Day 3 remains a 0-point evidence collector; the mapped 100-point Major is the Day 5 assignment.</p>",
-            "FLOW": flow(color, "Warm-up · 5", "Growth versus openings.") + flow("#4c8b38", "Rule · 8", "Transparent thresholds.") + flow("#b35d2e", "Model · 7", "Fact for every label.") + flow("#d39b22", "Classify · 25", "One occupation per page.") + flow(color, "Exit · 5", "Conclusion and limit."),
+            "FLOW": flow(color, "Warm-up · 5", "Growth versus openings.") + flow("#4c8b38", "Rule · 8", "Transparent thresholds.") + flow("#b35d2e", "Model · 7", "Fact for every label.") + flow("#d39b22", "Classify · 25", "Two occupations per evidence page.") + flow(color, "Exit · 5", "Conclusion and limit."),
             "MONITOR": "<p>All four medians exceed $49,500. Electrician, plumbing/pipefitting, and HVAC growth exceed 3.1%; welding growth does not. High-skill decisions must cite the published preparation rule. Openings include replacement needs.</p>",
             "RESOURCES": '<p>May 2024 U.S. medians and 2024–34 national projections from current BLS occupation pages. Same basis across all four rows.</p>',
             "SUPPORT": "<p>Two occupations per landscape evidence page keep the packet to four pages while preserving labeled rows and full-width conclusion space. Read numbers aloud and score evidence/reasoning rather than English mechanics.</p>",
