@@ -13,12 +13,12 @@ common = prior.common
 COURSE_ID = common.COURSE_ID
 ROOT = common.ROOT
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/5sw/wk4"
-MODULE_NAME = "5SW Wk4: Skilled Trades: Evidence, Routes, and Communication"
+MODULE_NAME = "5SW Wk4: Skilled Trades — Evidence, Routes, and Communication"
 
 ASSIGNMENT_TITLES = {
     1: "PRACTICE: Skilled-Trades Career Evidence",
     2: "PRACTICE: HVAC Evidence-First Field Notes",
-    3: "MAJOR 1 EVIDENCE: Part A: Skilled-Trades Labor Classification",
+    3: "MAJOR 1 EVIDENCE: Part A — Skilled-Trades Labor Classification",
     4: "PRACTICE: Current Entry Routes",
     5: "MAJOR 1: Skilled-Trades Classification and Individual Response",
 }
@@ -106,6 +106,8 @@ async def require_major_assignment(client, description, attachment_id):
             "assignment[published]": "false",
             "assignment[points_possible]": "100",
             "assignment[grading_type]": "points",
+            "assignment[assignment_group_id]": str(found["assignment_group_id"]),
+            "assignment[omit_from_final_grade]": "false",
             "assignment[submission_types][]": [
                 "student_annotation",
                 "online_upload",
