@@ -650,7 +650,7 @@
   },
   {
     "week": "1SW Wk3",
-    "module": "1SW Wk3: Network Ninjas - Computer Science and Networking Careers",
+    "module": "1SW Wk3: Computer Science and Networking Careers",
     "day": 1,
     "source_file": "docs/1sw/wk3-computer-science-it/day1.md",
     "builder": "build/canvas/build_wk3.py",
@@ -664,7 +664,7 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
       "Stop and Jot",
       "Active Monitoring"
@@ -691,7 +691,7 @@
   },
   {
     "week": "1SW Wk3",
-    "module": "1SW Wk3: Network Ninjas - Computer Science and Networking Careers",
+    "module": "1SW Wk3: Computer Science and Networking Careers",
     "day": 2,
     "source_file": "docs/1sw/wk3-computer-science-it/day2.md",
     "builder": "build/canvas/build_wk3.py",
@@ -733,7 +733,7 @@
   },
   {
     "week": "1SW Wk3",
-    "module": "1SW Wk3: Network Ninjas - Computer Science and Networking Careers",
+    "module": "1SW Wk3: Computer Science and Networking Careers",
     "day": 3,
     "source_file": "docs/1sw/wk3-computer-science-it/day3.md",
     "builder": "build/canvas/build_wk3.py",
@@ -760,6 +760,7 @@
       "BLS / current primary source"
     ],
     "fyf_citations": [
+      "FYF pp. 30-33",
       "FYF pp. 31-32",
       "FYF p. 33",
       "FYF pp. 30-32",
@@ -777,7 +778,7 @@
   },
   {
     "week": "1SW Wk3",
-    "module": "1SW Wk3: Network Ninjas - Computer Science and Networking Careers",
+    "module": "1SW Wk3: Computer Science and Networking Careers",
     "day": 4,
     "source_file": "docs/1sw/wk3-computer-science-it/day4.md",
     "builder": "build/canvas/build_wk3.py",
@@ -814,7 +815,7 @@
   },
   {
     "week": "1SW Wk3",
-    "module": "1SW Wk3: Network Ninjas - Computer Science and Networking Careers",
+    "module": "1SW Wk3: Computer Science and Networking Careers",
     "day": 5,
     "source_file": "docs/1sw/wk3-computer-science-it/day5.md",
     "builder": "build/canvas/build_wk3.py",
@@ -828,10 +829,9 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
-      "Active Monitoring",
-      "TVB"
+      "Active Monitoring"
     ],
     "source_families": [
       "Climber Notes",
@@ -852,7 +852,7 @@
   },
   {
     "week": "1SW Wk4",
-    "module": "1SW Wk4: Help Desk Heroes - Tech Support Careers and MakeCode",
+    "module": "1SW Wk4: Tech Support Careers and MakeCode",
     "day": 1,
     "source_file": "docs/1sw/wk4-tech-support-it/day1.md",
     "builder": "build/canvas/build_wk4.py",
@@ -866,9 +866,10 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
       "Stop and Jot",
+      "Think-Pair-Share / Turn and Talk",
       "Active Monitoring",
       "Chunking"
     ],
@@ -881,8 +882,8 @@
     "fyf_citations": [
       "FYF pp. 36",
       "FYF p. 37",
-      "FYF p. 38",
-      "FYF p. 36"
+      "FYF p. 36",
+      "FYF p. 38"
     ],
     "unresolved_markers": [],
     "manual_checks": [
@@ -895,7 +896,7 @@
   },
   {
     "week": "1SW Wk4",
-    "module": "1SW Wk4: Help Desk Heroes - Tech Support Careers and MakeCode",
+    "module": "1SW Wk4: Tech Support Careers and MakeCode",
     "day": 2,
     "source_file": "docs/1sw/wk4-tech-support-it/day2.md",
     "builder": "build/canvas/build_wk4.py",
@@ -909,7 +910,7 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
       "Active Monitoring",
       "Chunking"
@@ -935,7 +936,7 @@
   },
   {
     "week": "1SW Wk4",
-    "module": "1SW Wk4: Help Desk Heroes - Tech Support Careers and MakeCode",
+    "module": "1SW Wk4: Tech Support Careers and MakeCode",
     "day": 3,
     "source_file": "docs/1sw/wk4-tech-support-it/day3.md",
     "builder": "build/canvas/build_wk4.py",
@@ -975,7 +976,7 @@
   },
   {
     "week": "1SW Wk4",
-    "module": "1SW Wk4: Help Desk Heroes - Tech Support Careers and MakeCode",
+    "module": "1SW Wk4: Tech Support Careers and MakeCode",
     "day": 4,
     "source_file": "docs/1sw/wk4-tech-support-it/day4.md",
     "builder": "build/canvas/build_wk4.py",
@@ -1016,7 +1017,7 @@
   },
   {
     "week": "1SW Wk4",
-    "module": "1SW Wk4: Help Desk Heroes - Tech Support Careers and MakeCode",
+    "module": "1SW Wk4: Tech Support Careers and MakeCode",
     "day": 5,
     "source_file": "docs/1sw/wk4-tech-support-it/day5.md",
     "builder": "build/canvas/build_wk4.py",
@@ -1030,23 +1031,21 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": false,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
+      "Stop and Jot",
       "Active Monitoring",
-      "Chunking",
-      "TVB"
+      "Chunking"
     ],
     "source_families": [
       "FYF",
-      "Climber Notes",
       "Xello",
       "H&L",
       "BLS / current primary source"
     ],
     "fyf_citations": [
       "FYF pp. 36",
-      "FYF p. 37",
-      "FYF p. 38"
+      "FYF p. 37"
     ],
     "unresolved_markers": [],
     "manual_checks": [
@@ -1054,13 +1053,12 @@
       "Verify TEKS verb, student action, and collected evidence against the current standard.",
       "Cold-read the teacher and student pair for next-day implementation burden.",
       "Render and inspect every writing artifact for honest response space.",
-      "Verify exact Xello task name, time, minimum, prerequisite, report evidence, and catch-up route.",
-      "Verify exact licensed deck/slide, projection order, and teacher-only answer guidance."
+      "Verify exact Xello task name, time, minimum, prerequisite, report evidence, and catch-up route."
     ]
   },
   {
     "week": "1SW Wk5",
-    "module": "1SW Wk5: Cyber Defenders - Cybersecurity Careers and Capstone",
+    "module": "1SW Wk5: Cybersecurity, Favorite Clusters, and Capstone",
     "day": 1,
     "source_file": "docs/1sw/wk5-cybersecurity-it/day1.md",
     "builder": "build/canvas/build_wk5.py",
@@ -1074,7 +1072,7 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
       "Stop and Jot",
       "Active Monitoring"
@@ -1088,9 +1086,7 @@
     "fyf_citations": [
       "FYF pp. 36-38",
       "FYF pp. 24-25",
-      "FYF pp. 34-35",
-      "FYF pp. 36-37",
-      "FYF p. 38"
+      "FYF pp. 34-35"
     ],
     "unresolved_markers": [],
     "manual_checks": [
@@ -1103,7 +1099,7 @@
   },
   {
     "week": "1SW Wk5",
-    "module": "1SW Wk5: Cyber Defenders - Cybersecurity Careers and Capstone",
+    "module": "1SW Wk5: Cybersecurity, Favorite Clusters, and Capstone",
     "day": 2,
     "source_file": "docs/1sw/wk5-cybersecurity-it/day2.md",
     "builder": "build/canvas/build_wk5.py",
@@ -1117,10 +1113,10 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
-      "Active Monitoring",
-      "Chunking"
+      "Think-Pair-Share / Turn and Talk",
+      "Active Monitoring"
     ],
     "source_families": [
       "FYF",
@@ -1133,7 +1129,6 @@
       "FYF pp. 24-25",
       "FYF pp. 36-38",
       "FYF pp. 34-35",
-      "FYF p. 25",
       "FYF p. 24"
     ],
     "unresolved_markers": [],
@@ -1148,7 +1143,7 @@
   },
   {
     "week": "1SW Wk5",
-    "module": "1SW Wk5: Cyber Defenders - Cybersecurity Careers and Capstone",
+    "module": "1SW Wk5: Cybersecurity, Favorite Clusters, and Capstone",
     "day": 3,
     "source_file": "docs/1sw/wk5-cybersecurity-it/day3.md",
     "builder": "build/canvas/build_wk5.py",
@@ -1162,9 +1157,8 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
-      "Think-Pair-Share / Turn and Talk",
       "Active Monitoring"
     ],
     "source_families": [
@@ -1177,8 +1171,7 @@
       "FYF pp. 34-35",
       "FYF pp. 36-38",
       "FYF pp. 24-25",
-      "FYF p. 35",
-      "FYF p. 280"
+      "FYF p. 34"
     ],
     "unresolved_markers": [],
     "manual_checks": [
@@ -1191,7 +1184,7 @@
   },
   {
     "week": "1SW Wk5",
-    "module": "1SW Wk5: Cyber Defenders - Cybersecurity Careers and Capstone",
+    "module": "1SW Wk5: Cybersecurity, Favorite Clusters, and Capstone",
     "day": 4,
     "source_file": "docs/1sw/wk5-cybersecurity-it/day4.md",
     "builder": "build/canvas/build_wk5.py",
@@ -1205,10 +1198,10 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
-      "Active Monitoring",
-      "TVB"
+      "Think-Pair-Share / Turn and Talk",
+      "Active Monitoring"
     ],
     "source_families": [
       "FYF",
@@ -1219,8 +1212,7 @@
     "fyf_citations": [
       "FYF pp. 36-38",
       "FYF pp. 24-25",
-      "FYF pp. 34-35",
-      "FYF pp. 36-37"
+      "FYF pp. 34-35"
     ],
     "unresolved_markers": [],
     "manual_checks": [
@@ -1233,7 +1225,7 @@
   },
   {
     "week": "1SW Wk5",
-    "module": "1SW Wk5: Cyber Defenders - Cybersecurity Careers and Capstone",
+    "module": "1SW Wk5: Cybersecurity, Favorite Clusters, and Capstone",
     "day": 5,
     "source_file": "docs/1sw/wk5-cybersecurity-it/day5.md",
     "builder": "build/canvas/build_wk5.py",
@@ -1247,14 +1239,12 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
-      "Active Monitoring",
-      "TVB"
+      "Active Monitoring"
     ],
     "source_families": [
       "FYF",
-      "Climber Notes",
       "Xello",
       "H&L",
       "BLS / current primary source"
@@ -1262,8 +1252,7 @@
     "fyf_citations": [
       "FYF pp. 36-38",
       "FYF pp. 24-25",
-      "FYF pp. 34-35",
-      "FYF p. 38"
+      "FYF pp. 34-35"
     ],
     "unresolved_markers": [],
     "manual_checks": [
@@ -1271,13 +1260,12 @@
       "Verify TEKS verb, student action, and collected evidence against the current standard.",
       "Cold-read the teacher and student pair for next-day implementation burden.",
       "Render and inspect every writing artifact for honest response space.",
-      "Verify exact Xello task name, time, minimum, prerequisite, report evidence, and catch-up route.",
-      "Verify exact licensed deck/slide, projection order, and teacher-only answer guidance."
+      "Verify exact Xello task name, time, minimum, prerequisite, report evidence, and catch-up route."
     ]
   },
   {
     "week": "2SW Wk1",
-    "module": "2SW Wk1: Order in the Court - Legal Studies",
+    "module": "2SW Wk1: Legal Studies and Policy Evidence",
     "day": 1,
     "source_file": "docs/2sw/wk1-legal-studies/day1.md",
     "builder": "build/canvas/build_2sw_wk1.py",
@@ -1323,7 +1311,7 @@
   },
   {
     "week": "2SW Wk1",
-    "module": "2SW Wk1: Order in the Court - Legal Studies",
+    "module": "2SW Wk1: Legal Studies and Policy Evidence",
     "day": 2,
     "source_file": "docs/2sw/wk1-legal-studies/day2.md",
     "builder": "build/canvas/build_2sw_wk1.py",
@@ -1337,7 +1325,7 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
       "Think-Pair-Share / Turn and Talk",
       "Active Monitoring"
@@ -1367,7 +1355,7 @@
   },
   {
     "week": "2SW Wk1",
-    "module": "2SW Wk1: Order in the Court - Legal Studies",
+    "module": "2SW Wk1: Legal Studies and Policy Evidence",
     "day": 3,
     "source_file": "docs/2sw/wk1-legal-studies/day3.md",
     "builder": "build/canvas/build_2sw_wk1.py",
@@ -1381,7 +1369,7 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
       "Active Monitoring"
     ],
@@ -1412,7 +1400,7 @@
   },
   {
     "week": "2SW Wk1",
-    "module": "2SW Wk1: Order in the Court - Legal Studies",
+    "module": "2SW Wk1: Legal Studies and Policy Evidence",
     "day": 4,
     "source_file": "docs/2sw/wk1-legal-studies/day4.md",
     "builder": "build/canvas/build_2sw_wk1.py",
@@ -1426,7 +1414,7 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
       "Active Monitoring",
       "TVB"
@@ -1458,7 +1446,7 @@
   },
   {
     "week": "2SW Wk1",
-    "module": "2SW Wk1: Order in the Court - Legal Studies",
+    "module": "2SW Wk1: Legal Studies and Policy Evidence",
     "day": 5,
     "source_file": "docs/2sw/wk1-legal-studies/day5.md",
     "builder": "build/canvas/build_2sw_wk1.py",
@@ -1470,9 +1458,9 @@
     "fifty_minute_flow": true,
     "before_class_prep": true,
     "answer_key_or_monitoring": true,
-    "concrete_eb_support": false,
+    "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
       "Active Monitoring"
     ],
@@ -1490,20 +1478,16 @@
       "FYF pp. 44-47",
       "FYF p. 58",
       "FYF p. 283",
-      "FYF p. 56",
-      "FYF pp. 48-49"
+      "FYF p. 56"
     ],
-    "unresolved_markers": [
-      "[VERIFY IN eDynamic]"
-    ],
+    "unresolved_markers": [],
     "manual_checks": [
       "Verify each cited FYF printed page and named activity against the licensed source.",
       "Verify TEKS verb, student action, and collected evidence against the current standard.",
       "Cold-read the teacher and student pair for next-day implementation burden.",
       "Render and inspect every writing artifact for honest response space.",
       "Verify exact Xello task name, time, minimum, prerequisite, report evidence, and catch-up route.",
-      "Verify exact licensed deck/slide, projection order, and teacher-only answer guidance.",
-      "Resolve the remaining verification marker before the module is copy-ready."
+      "Verify exact licensed deck/slide, projection order, and teacher-only answer guidance."
     ]
   },
   {

@@ -84,3 +84,9 @@ My partner or self-check found this concern:
 I revised ordinance **1 / 2** by
 
 [[lines: 3]]
+
+## 6. Career Connection
+
+Name one Law and Public Safety worker who could help create, explain, review, or enforce one ordinance. State what that worker would do.
+
+[[lines: 4]]

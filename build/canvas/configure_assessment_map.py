@@ -88,7 +88,7 @@ ASSESSMENTS = (
         5,
     ),
     Assessment(
-        "2SW Wk1: Order in the Court - Legal Studies",
+        "2SW Wk1: Legal Studies and Policy Evidence",
         "MAJOR 1: Legal Policy Position Evidence",
         MAJOR_GROUP,
         5,

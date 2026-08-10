@@ -4,7 +4,7 @@
 
 ## Lesson Objective
 
-Students explore the Law, Public Safety, Corrections & Security career cluster through the Hats & Ladders app and the *Find Your Future* workbook, investigate legal careers and their education pathways, design a 10-item emergency kit in "Emergency Essentials: Kit Design," draft and revise town ordinances as a council member in "City Council in Action," and use the "Policy Showdown" legal review protocol to argue a position on artificial intelligence in the courts. Students connect legal careers to Irving ISD's Legal Studies program of study at Singley Academy.
+Students explore the Law, Public Safety, Corrections & Security career cluster through the *Find Your Future* workbook and fixed career evidence, with Hats & Ladders available as supplemental exploration. They investigate legal careers and preparation routes, design a 10-item emergency kit in "Emergency Essentials: Kit Design," draft and revise town ordinances as a council member in "City Council in Action," and use the "Policy Showdown" legal review protocol to argue a position on artificial intelligence in the courts. Students connect legal careers to the workbook's Irving ISD Legal Studies program information.
 
 **Learning Target:** I can name at least three legal careers and the training each one needs, design an emergency kit and defend my choices, write two town laws that are clear, fair, and realistic, and argue a position on AI in the courts using evidence.
 
@@ -26,6 +26,7 @@ Students explore the Law, Public Safety, Corrections & Security career cluster t
 - Chromebooks with internet access (1 per student)
 - Hats & Ladders student accounts + *Find Your Future* workbook, Law and Public Safety chapter (printed pp. 39-58)
 - Printed Career Research Worksheet
+- Printed Legal Career Evidence Cards
 - Printed Emergency Kit Decision Plan
 - Printed City Council Town and Ordinance Plan
 - Printed Legal Review Argument and Evidence Sheet
@@ -35,7 +36,6 @@ Students explore the Law, Public Safety, Corrections & Security career cluster t
 - BLS, Lawyers: [bls.gov/ooh/legal/lawyers.htm](https://www.bls.gov/ooh/legal/lawyers.htm)
 - BLS, Paralegals: [bls.gov/ooh/legal/paralegals-and-legal-assistants.htm](https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm)
 - iCivics free games (Day 3 extension and support option): [icivics.org](https://www.icivics.org)
-- eDynamic Learning Unit 5.1: Law & Order
 - Xello accounts (Life Experience activity)
 - Projector for video and discussion
 
@@ -50,7 +50,7 @@ The legal field includes courtroom attorneys, paralegals who prepare case docume
 - **Paralegal:** A professional who assists lawyers with legal research, document preparation, and case management. Does not require a law degree.
 - **Probable Cause:** A reasonable basis to believe a crime may have been committed, allowing legal action like an arrest or search.
 - **Due Process:** The legal requirement that the government must respect all legal rights owed to a person.
-- **Bar Association:** A professional association for lawyers. Most states require lawyers to pass the Bar Exam to practice law.
+- **Bar Association:** An organization connected to the legal profession. Licensing and membership rules vary by jurisdiction; in Texas, the official organization is the State Bar of Texas.
 - **Entrepreneur (Legal):** A person who starts their own legal business, solo practice, mediation firm, or legal consulting.
 - **Emergency Kit:** A pre-packed set of essential supplies designed to help people survive a disaster or emergency for 72 hours.
 - **Ordinance:** A local law passed by a city or town council. A strong ordinance is clear, fair, and realistic enough to enforce (FYF p. 40).
@@ -81,10 +81,10 @@ The chapter's other two activities, Clinton Lake Case (FYF pp. 48-49) and Injure
 | Day | Focus | Key Activities | Deliverable | 5E |
 |-----|-------|---------------|-------------|-----|
 | 1 | Law and Public Safety Cluster Tour | Chapter opener read-along + Be the Decision Maker pair talk + Law cluster app exploration + legal career research | Career research worksheet (1 legal career) + Stop and Jot notes | Engage · Explain · Explore · Evaluate |
-| 2 | Emergency Essentials Kit Design | "Emergency Essentials: Kit Design" (FYF pp. 50-51): 10-item kit, labeled design, partner share | Completed Emergency Kit design | Engage · Explore · Explain · Evaluate |
-| 3 | City Council in Action | "City Council in Action" (FYF pp. 40-43): town design, problem scan, two drafted ordinances, partner review | Town plan + 2 drafted laws + 1 revised law | Engage · Explain · Explore · Evaluate |
+| 2 | Emergency Essentials Kit Design | "Emergency Essentials: Kit Design" (FYF pp. 50-51): 10-item kit, labeled design, partner share | Completed kit + career-planning connection | Engage · Explore · Explain · Evaluate |
+| 3 | City Council in Action | "City Council in Action" (FYF pp. 40-43): town design, problem scan, two drafted ordinances, partner review | Town plan + 2 ordinances + revision + career-role connection | Engage · Explain · Explore · Evaluate |
 | 4 | Policy Showdown + Legal Entrepreneurship | Legal Review Team roles + argument judged by a peer pair + Legal Entrepreneur Card | Argument sheet + Legal Entrepreneur Card + position paper draft | Engage · Explain · Extend · Explore · Evaluate |
-| 5 | Cluster Wrap-Up + Xello Life Experience | Position paper polish + Pathway Possibilities + Law favorites + Xello Life Experience + eDynamic 5.1 preview | Final Position Paper + updated Climber Profile + Xello reflection | Engage · Explain · Explore · Extend · Evaluate |
+| 5 | Cluster Wrap-Up + Xello Life Experience | Position paper polish + optional Pathway Possibilities + required Xello Life experience + career connection | Final Position Paper + Xello save + career connection | Engage · Explain · Explore · Extend · Evaluate |
 
 ## Formative Assessment
 
@@ -92,7 +92,7 @@ The chapter's other two activities, Clinton Lake Case (FYF pp. 48-49) and Injure
 - Emergency Kit design + Ranked Justification exit ticket (top 3 items ranked by criticality). *Day 2, d(1)(C)*
 - Two drafted ordinances + one revised law + Decision Tree exit ticket (enforcement branch). *Day 3, d(1)(C)*
 - Prepared legal argument + judges' ruling + SCR position paper draft (position, evidence, affected career, association). *Day 4, d(3)(I), d(3)(H)*
-- H&L Favorites + Xello Life Experience + Concept Map exit ticket (career + association + Life Experience + Irving ISD program of study). *Day 5, d(1)(C), d(3)(H)*
+- Selected career + Xello Life Experience + Concept Map exit ticket (career + association + Life Experience + Irving ISD program of study). *Day 5, d(1)(C), d(3)(H)*
 
 ## Summative Assessment
 

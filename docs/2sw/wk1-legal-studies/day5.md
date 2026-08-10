@@ -3,7 +3,7 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters and identify professional associations affiliated with a career pathway using evidence from Career Opportunities.
+- **Objective:** Students will identify one legal career opportunity, explain how a professional association supports that pathway, and connect one authentic life experience to a specific career task.
 - **TEKS:** d(1)(C), d(3)(H)
 - **Demonstration of Learning:** Final legal-policy position + Legal Entrepreneur Card + at least one saved Xello Life experience + paper career connection.
 <!-- CCE DAILY CONTRACT END -->
@@ -16,7 +16,7 @@
 | **TEKS** | d(1)(C), d(3)(H) |
 | **5E Phases** | Engage: Warm-Up · Explain: Position paper polish and submission · Explore: Pathway Possibilities and Law favorites · Extend: Xello Life Experience connections · Evaluate: Exit Ticket |
 | **Deliverable** | Final legal-policy position + Legal Entrepreneur Card + at least one saved Xello Life experience + paper career connection |
-| **Materials** | Chromebooks, Xello accounts, position-paper rubric, Xello Life Experience Connection sheet; H&L and eDynamic optional |
+| **Materials** | Chromebooks, Xello accounts, position-paper rubric, Xello Life Experience Connection sheet; H&L optional |
 
 ---
 
@@ -47,7 +47,7 @@ Students submit the polished paper (digital or paper). This is the summative ass
 
 Students name one legal career they want to investigate, or state that none is a current fit, and cite one job detail. If H&L is available, students may use Pathway Possibilities and favorite careers. The platform action is supplemental and is not graded.
 
-Name where this goes next. These favorites and the pathway rating are the top Hats students draw on in the Capstone, where they choose one Hat as a career goal and write why (FYF p. 283: "Rung 2: Career Goal"). The Irving side of the same question is **Dual Credit** (FYF p. 56), where a Paralegal Associate of Applied Science or a Junior Legal Assistant Certificate at Singley Academy can start in high school.
+Name where this goes next. The careers students investigate become options they can revisit during the Capstone, where they choose one career goal and explain why (FYF p. 283: "Rung 2: Career Goal"). The workbook's district page also introduces dual-credit options connected to Legal Studies (FYF p. 56). Present those program details as the district HQIM snapshot and direct students to a counselor for current enrollment requirements.
 
 Circulate and ask each student, "Which legal career did you favorite, and why?" Check that the answer names a specific job detail rather than only "it sounds cool."
 
@@ -72,25 +72,17 @@ After completing the Xello activity, each student writes one sentence in their n
 
 Students complete the paper connection: what they did or learned, one legal career, and the specific career task that connects. Check the Xello Completion Standards report. Students with an access issue submit the paper connection now and complete the required save in the next supervised catch-up block.
 
-## Optional Extension: eDynamic Unit 5.1 Preview
-
-Use this only inside the Activity 4 catch-up block after all core evidence is complete.
-
-Direct students to eDynamic Learning Unit 5.1: Law & Order. Have them open the unit and read the introduction (5 minutes). This is a preview only. They will not complete the unit today. Tomorrow's class (Wk 2) will pick up first responders using the same workbook chapter, with the "Clinton Lake Case" and "Injured on the Trail" activities (FYF pp. 48-49 and 52-55), and eDynamic 5.1 supports that content.
-
-> [VERIFY IN eDynamic] Confirm the title of Unit 5.1 in eDynamic Learning is "Law & Order" and that it covers law enforcement, courts, and corrections topics suitable for 7th-grade Health Science / Law cluster framing.
-
 ---
 
 ## Exit Ticket (3 min)
 
 **EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/2sw-wk1-day5-cluster-wrap-up-xello-life-experience.pdf):
 
-The legal career I favorited in H&L this week: _______________________
+The legal career I selected from this week's evidence: _______________________
 
 Connect this career to THREE things:
 
-**1. A professional association this career would join** (Texas Bar Association, American Bar Association, NALA for paralegals, NCRA for court reporters, or other)
+**1. A professional association connected to this career** (State Bar of Texas, American Bar Association, NALA for paralegals, NCRA for court reporters, or another verified option)
 
    My association: _______________________. In one sentence, why would this career join that specific association?
 
@@ -98,7 +90,7 @@ Connect this career to THREE things:
 
 **2. One of MY Xello Life Experience connections** from today (a real experience I have that connects to legal work)
 
-   My experience: _______________________. In one sentence, how does this experience prepare me for the favorited career?
+   My experience: _______________________. In one sentence, how does this experience connect to a task in the selected career?
 
    ___________________________________________________________________
 
@@ -116,4 +108,4 @@ Connect this career to THREE things:
 
 - **Support:** Provide a sentence-completion handout for the Xello reflection: "A life experience I have is _____. This connects to the career of _____ because _____."
 - **Extension:** Students draft a 4-year high school plan for the Singley Academy Legal Studies program of study, listing the courses they would take in 9th-12th grade and where a Dual Credit course could fit (FYF p. 56).
-- **ELL:** Pair ESL students with bilingual peers for the Xello Life Experience. Pre-teach: Experience = Experiencia, Volunteer = Voluntario, Skill = Habilidad. Xello has built-in Spanish translation for activity prompts.
+- **ELL:** Pre-teach Experience = Experiencia, Volunteer = Voluntario, and Skill = Habilidad. Use the visible sentence frame on the connection sheet, offer oral rehearsal before writing, and allow read-aloud or speech-to-text according to student supports. Do not depend on a vendor translation feature.
