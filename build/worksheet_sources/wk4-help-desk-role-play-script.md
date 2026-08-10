@@ -20,7 +20,7 @@ orientation: portrait
 | **3** | "What do I do?" | "Let's try one thing at a time. First, can you _______________?" |
 | **4** | "Okay. I did it. Now it says _______________." | "Good. Thank you for checking. Next, please _______________." |
 | **5** | "That did not work either." | "That is okay. It tells us something. Now let's try _______________." |
-| **6** | "It worked! Thank you." *(or)* "It still does not work." | "I am glad that fixed it." *(or)* "I am going to pass this to a specialist and stay with you until it is solved." |
+| **6** | "It worked! Thank you." *(or)* "It still does not work." | "I am glad that fixed it." *(or)* "I will document what we tried and explain the next step before I pass this to a specialist." |
 | **7** | "Is there anything else I should know?" | "If it happens again, try _______________ first, and call us back." |
 
 [[pagebreak]]
@@ -35,7 +35,7 @@ The Tech's job is to sound calm and use plain words. Use the left column. Avoid 
 | "The box that connects to the internet." | "The router." |
 | "Let's try one thing at a time." | "Just do all of this and call me back." |
 | "Thank you for checking that." | "You should have checked that already." |
-| "I am going to stay with you until this is fixed." | "That is not my department." |
+| "I will explain what happens next." | "That is not my department." |
 
 ## After the Role-Play
 

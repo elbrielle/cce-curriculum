@@ -1,115 +1,82 @@
-# Day 5: Help Desk Demos + H&L IT Support Favorites
+# Day 5: Show the Logic and Add a Skill
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters and identify skills that transfer among a variety of careers using evidence from Career Opportunities.
-- **TEKS:** d(1)(C), d(4)(B)
-- **Demonstration of Learning:** 3-minute team demo + 2 IT Support careers favorited in Climber Profile.
+- **Topic:** Career Skills
+- **Objective:** Students will identify an IT support career and common preparation and explain how one practiced skill transfers among careers using their program evidence and Xello profile.
+- **TEKS:** d(1)(C), d(2)(A), d(4)(B)
+- **Demonstration of Learning:** Students submit the team Help Desk Program Evidence and an individual Xello Skill and Help Desk Connection; Xello shows at least one added or updated skill.
 <!-- CCE DAILY CONTRACT END -->
+
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Demonstrate the micro:bit help desk tool to the class; explain the troubleshooting logic; favorite 2 IT Support careers in H&L |
-| **TEKS** | d(1)(C), d(4)(B) |
-| **5E Phases** | Engage: Warm-Up ranking · Explain: Team demos · Extend: IT Support favorites and Climber Profile check · Evaluate: Exit Ticket |
-| **Deliverable** | 3-minute team demo + 2 IT Support careers favorited in Climber Profile |
-| **Materials** | micro:bit devices (with none, teams demo from the MakeCode simulator), Chromebooks, H&L accounts, *Find Your Future* workbook p. 38, printed Help Desk Simulator Demo Rubric ([Printable PDF](../../resources/worksheets/wk4-demo-rubric.pdf)), printed career research worksheet for the optional research task ([Printable PDF](../../resources/worksheets/career-research-worksheet.pdf)), projector |
+| **Required platform task** | Xello **Add skills**, 20 minutes, add at least one skill |
+| **Assessment** | Minor 3, 16-point evidence rubric |
+| **Materials** | Program Evidence, individual connection, rubric, Xello roster, project/trace |
 
----
+## Before Students Arrive
 
-## Warm-Up (5 min)
+1. Order teams before class and cap each lightning demo at one minute.
+2. Post the [16-point rubric](../../resources/worksheets/wk4-demo-rubric.pdf) and print the [individual connection](../../resources/worksheets/wk4-day5-xello-skill-connection.pdf).
+3. Check Xello rosters and open the locked **About Me** teacher guide at the Add/Update Skill section.
+4. Prepare a private turn-in location for the team evidence and individual sheet.
 
-**WARM-UP: After 4 weeks in the IT cluster, rank these IT pathways from most to least interesting to YOU: Programming, Web Development, Networking Systems, Tech Support, Cybersecurity (next week!). Write your ranking.**
+## Activity 1 — One-Minute Lightning Demos (20 min)
 
-Quick share. Note which pathways students name and which no one mentions. Today they demonstrate the help desk tool, save their favorites, and close the week before cybersecurity begins.
+Each team shows or traces:
 
----
+1. the scenario;
+2. the three Button A steps and Button B result;
+3. why Step 1 belongs first;
+4. one IT support career and its common preparation; and
+5. one transferable skill used by the team.
 
-## Activity 1: Team Demos (25 min)
+Keep the demo formative. Do not live-score performance polish or post team totals. If the class has more teams than the time permits, use two gallery stations or schedule private/written explanations while protecting the Xello block.
 
-Each team has 3 minutes to demo their micro:bit help desk tool. Project the team's MakeCode workspace on the screen if possible (so the class sees the code AND the device).
+## Activity 2 — Xello Add Skills (20 min)
 
-**Demo structure (project on screen):**
+Before opening Xello, students stop and jot one specific skill example from school, home, a team, or an activity. Then they open **Xello → About Me → Skills**, add or update at least one real skill, and record an example.
 
-1. **The Scenario:** What IT problem did you program for? (15 seconds)
-2. **The Steps:** Walk through your troubleshooting steps in order. Show what the micro:bit displays for each. (1 minute)
-3. **Why this order?:** Justify why you put the steps in this specific order. (30 seconds)
-4. **The Career:** Name one IT support career that would actually use a tool like this. Why? (30 seconds)
-5. **The Powerskill:** Which Powerskill (communication, problem-solving, patience, attention to detail) was the most important when you built this? (30 seconds)
+Verify completion through the Completion Standards report. Do not require public screenshots of profile information.
 
-After each demo, class gives ONE compliment + ONE question. Score each team with the **Help Desk Simulator Demo Rubric** ([Printable PDF](../../resources/worksheets/wk4-demo-rubric.pdf)): Logical Troubleshooting Sequence, Certification and Education Path, and Transferable Skills, 4 points each, 12 points total. Post the running totals where the class can see them so every team knows its score before the period ends.
+## Activity 3 — Individual Connection and Submission (10 min)
 
-!!! tip "No micro:bits? Run the Simulator"
-    Teams demo from the MakeCode simulator projected on the screen. The class watches the same code and the same LED display it would watch on a board, and the rubric scores the sequence, not the hardware. A team whose board fails mid-demo gets its second attempt in the simulator rather than losing the score.
+Students complete the Xello Skill and Help Desk Connection:
 
-**Time, Voice, Body:** Post the blocks before the first team presents. Voice 0 while a team's MakeCode workspace loads, Voice 3 for the presenter, Voice 1 for the compliment and question. Run a visible 3 minute countdown for every team, and park the micro:bits at the front table between demos so devices are not moving during someone else's turn.
+- skill added or updated;
+- real example;
+- where the skill appeared in the build, trace, test, or role-play;
+- how an IT support worker uses it;
+- another career or setting that needs the same skill; and
+- current interest-to-career connection.
 
-!!! tip "Facilitation Tip"
-    For larger classes (30+), split demos into 2 stations running simultaneously. Half the class demos at Station 1, half at Station 2. After 12 minutes, swap. This keeps demos under 25 minutes total.
+Collect the team Program Evidence and each student's individual sheet. Score privately with the 16-point rubric as **Minor 3**.
 
-**DOK 4:** Based on watching all the demos, what conclusions can you draw about how a real help desk team would use a tool like this in their daily work? What would they need that your tool doesn't have yet?
+## You Are Done When
 
----
+- The team logic can be run or traced.
+- The test and revision are documented.
+- The team evidence names an IT support career and common preparation.
+- The individual connection transfers one skill beyond IT support.
+- Xello Add skills is complete or the access issue is recorded for catch-up.
 
-## Activity 2: H&L IT Support Favorites + Reflection (15 min)
+## Answer and Scoring Guidance
 
-> [H&L PLATFORM] Direct students to the H&L Climber Profile. They favorite at least 2 IT Support careers from the Information Technology Support and Services pathway using the Hat Finder. Students can favorite one of the three Hats they rated on the App Exploration page (FYF p. 38) or a career from their Day 1 notebook notes, and they may fill in the CCE career research worksheet ([Printable PDF](../../resources/worksheets/career-research-worksheet.pdf), the research format is taught in Wk0) for one IT support career before favoriting. Favorites accumulate across all 4 IT weeks (Wks 2-5): students should have 4-6 IT careers favorited by end of Wk5.
+The first two rubric criteria use team evidence. The last two use each student's individual evidence. A student may conclude that IT support is not a good fit and still earn full credit. Hardware, public speaking, and platform speed are not criteria.
 
-**Sentence stems for the favorites reflection (write them in the jot space on page 38):**
+## Supports
 
-- "I favorited _____ because the education path is _____ and the salary is _____."
-- "This career fits my _____ personality type because _____."
-- "The Irving ISD pathway that connects to this career is _____ at _____ High School."
+- Allow one student to operate while another speaks, a private teacher explanation, or a written one-minute script.
+- Read Xello skill descriptions aloud and provide the stem: “I used ___ when I ___. A ___ also uses this skill to ___.”
+- Students may plan bilingually and use speech-to-text.
 
-Walk the room and check that every student has at least 2 IT support careers favorited before they leave.
+## If a Platform Is Unavailable or a Student Is Absent
 
-**Climber Profile Check (5 min):** Students open their Climber Profile and look at the cumulative picture. They should see:
+Use the paper trace for program evidence. If Xello is unavailable, record the issue and complete the reflection with a known skill; required completion moves to the next catch-up block. An absent student may submit a written demo script or explain privately, then complete the individual connection.
 
-- Building Blocks from Wk0 (3+)
-- Manufacturing favorites from Wk1 (2)
-- Programming favorites from Wk2 (2)
-- Networking/Web favorites from Wk3 (optional)
-- IT Support favorites from Wk4 (2)
+## Optional Extension
 
-Tell students: "Look at this. Five weeks ago this profile was empty. Now it has data about who you are AS a future career explorer."
-
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/1sw-wk4-day5-help-desk-demos-h-and-l-it-support-favorites.pdf):
-
-An IT Support career I favorited this week: _______________________
-
-Connect this career to THREE things:
-
-**1. The Singley Academy pathway that connects to it** (Technology Support Services leads to Computer Repair Technology - Job Ready)
-
-   Does the Singley pathway fit this career? Circle: YES / NO. In one sentence, why or why not:
-
-   ___________________________________________________________________
-
-**2. One transferable skill I practiced this week** (problem-solving, patient communication, step-by-step thinking, attention to detail, etc.)
-
-   My skill: _______________________. Where else in my life do I already use this skill? One sentence:
-
-   ___________________________________________________________________
-
-**3. One other IT pathway I explored this six-weeks** (Programming, Web Development, Networking, or, next week, Cybersecurity)
-
-   My other pathway: _______________________. Does my IT Support pick fit BETTER or WORSE than the other pathway? Circle: BETTER / WORSE. One sentence why:
-
-   ___________________________________________________________________
-
-*(d(1)(C), d(4)(B))*
-
----
-
-## Differentiation
-
-- **Support:** Allow students who are uncomfortable demoing to present in pairs (one talks, one operates the micro:bit). Or allow a pre-recorded video of the demo to be played on the projector.
-- **Extension:** Students who finish demos early help refine other teams' programs as a "consultant." They give targeted improvement suggestions.
-- **ELL:** Provide bilingual demo sentence stems: "Our scenario is _____ (Nuestro escenario es _____). Step 1 is _____ (El paso 1 es _____)."
+After all required work is complete, students may review IT support careers in H&L. Favorites and ratings are optional and are not completion evidence.

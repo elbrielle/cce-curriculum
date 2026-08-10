@@ -28,11 +28,11 @@ Scenario: _____________________________________________________________
 
 When Button A is pressed, the program should:
 
-[[lines: 3]]
+[[lines: 2]]
 
 When Button B is pressed, the program should:
 
-[[lines: 2]]
+[[lines: 1]]
 
 ## Test record
 
@@ -42,11 +42,13 @@ When Button B is pressed, the program should:
 
 One bug, confusion, or missing step we found:
 
-[[lines: 2]]
+[[lines: 1]]
 
 One change we made after testing:
 
-[[lines: 2]]
+[[lines: 1]]
+
+[[pagebreak]]
 
 ## Durable project evidence
 
@@ -68,6 +70,16 @@ Common entry preparation from the Route Data Guide:
 [[lines: 2]]
 
 One tradeoff between this route and another IT route:
+
+[[lines: 3]]
+
+## Transferable skill
+
+One skill we used while sequencing, testing, revising, or explaining:
+
+[[lines: 1]]
+
+Name one career or setting outside IT support that uses the same skill. Explain how.
 
 [[lines: 3]]
 

@@ -24,6 +24,9 @@ orientation: portrait
 | **5** | "That did not work." *"Eso no funcionó."* | "That is okay. Now let's try _______________." *"No hay problema. Ahora probemos _______________."* |
 | **6** | "It worked!" *"¡Funcionó!"* | "I am glad that fixed it." *"Qué bueno que se arregló."* |
 
+If it still does not work: “I will document what we tried and explain the next step.”
+*Si todavía no funciona: “Voy a documentar lo que intentamos y explicar el siguiente paso.”*
+
 [[pagebreak]]
 
 ## Words That Help / Palabras Que Ayudan

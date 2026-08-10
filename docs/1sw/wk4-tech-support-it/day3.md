@@ -1,146 +1,82 @@
-# Day 3: Help Desk Simulator (MakeCode Day 1)
+# Day 3: Build a Help Desk Sequence
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Transferable Skills
-- **Objective:** Students will identify skills that transfer among a variety of careers using evidence from Transferable Skills.
+- **Topic:** Troubleshooting Logic
+- **Objective:** Students will identify problem-solving and communication skills that transfer among careers by building, testing, and explaining a three-step help desk sequence.
 - **TEKS:** d(4)(B)
-- **Demonstration of Learning:** MakeCode program with at least 3 troubleshooting steps that displays text on the micro:bit when Button A is pressed.
+- **Demonstration of Learning:** Students complete the first section of the Help Desk Program Evidence: an ordered three-step sequence, Button A and Button B logic, a recorded test, and a transferable-skill connection.
 <!-- CCE DAILY CONTRACT END -->
+
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Set up micro:bit + MakeCode; build a basic 3-step troubleshooting program; load the program onto the micro:bit and test it |
-| **TEKS** | d(4)(B) |
-| **5E Phases** | Engage: Warm-Up · Explain: MakeCode setup and starter program · Explore: 3-step troubleshooting build · Evaluate: Exit Ticket |
-| **Deliverable** | MakeCode program with at least 3 troubleshooting steps that displays text on the micro:bit when Button A is pressed |
-| **Materials** | micro:bit devices (1 per team of 2-3, so 10-15 for a class of 30; with none, the whole day runs in the MakeCode simulator), data-capable USB cables (1 per board), Chromebooks, MakeCode for micro:bit, printed Help Desk scenario cards ([Printable PDF](../../resources/worksheets/wk4-help-desk-scenario-cards.pdf)), projector |
+| **Core artifact** | Help Desk Program Evidence, Day 1 of 2 |
+| **Equal routes** | micro:bit + MakeCode, MakeCode simulator, or paper logic trace |
+| **Materials** | Scenario Cards, Block-Order Guide, Step-Sort Cards, Program Evidence, Day 3 exit ticket |
 
----
+## Before Students Arrive
 
-## Warm-Up (5 min)
+1. Test `makecode.microbit.org` on a student-filtered Chromebook and leave one completed example open.
+2. Assign one Chromebook per team for Days 3-5.
+3. Choose and state the durable backup method.
+4. If using boards, test one complete connect/download cycle. Do not update every board preemptively. Official micro:bit guidance treats firmware update as a troubleshooting step when a compatible device is not found or the installed firmware is too old.
+5. Print duplicate [Scenario Cards](../../resources/worksheets/wk4-help-desk-scenario-cards.pdf), the [Block-Order Guide](../../resources/worksheets/wk4-makecode-starter-blocks.pdf), [Step-Sort Cards](../../resources/worksheets/wk4-troubleshooting-step-sort-cards.pdf), and [Program Evidence](../../resources/worksheets/wk4-help-desk-program-evidence.pdf).
 
-**WARM-UP: If someone brought you a computer that would not turn on, what are the FIRST 3 things you would check, in order?**
+## Bellringer — Put the Checks in Order (5 min)
 
-Quick share. Listen for: "Is it plugged in?" "Is the power button working?" "Is the screen on?" Put those questions in order on the board. Students will use the same sequence to build a troubleshooting checklist on the micro:bit.
+**Prompt:** A Chromebook will not turn on. Which check belongs first: replace the device, check the charger/cable, or open a repair ticket? Explain.
 
----
+Expected reasoning: start with a fast, low-risk check before a more disruptive or expensive action.
 
-## Activity 1: micro:bit + MakeCode Setup (10 min)
+## Activity 1 — Scenario, Roles, and Project Name (10 min)
 
-Distribute micro:bit devices to teams of 2-3 students. Each team gets:
+Give each team one scenario. Assign flexible roles: driver, navigator, tester, and evidence recorder. Students write the exact project name: **Period - Team - Help Desk**.
 
-- 1 micro:bit
-- 1 USB cable
-- A Help Desk scenario card ([Printable PDF](../../resources/worksheets/wk4-help-desk-scenario-cards.pdf)): printer not working, Wi-Fi disconnected, software crashing, computer won't turn on, or password reset
+Teams use the Step-Sort Cards and say their reasoning aloud:
 
-Walk students through MakeCode setup on the projector:
+> “We put ___ first because it is a fast, low-risk check. We put ___ last because ___.”
 
-1. Open [makecode.microbit.org](https://makecode.microbit.org) in Chrome.
-2. Click **"New Project"** and name it (e.g., "Help Desk Tool").
-3. Look at the workspace: **left side** = micro:bit simulator, **middle** = block category drawer, **right** = workspace.
-4. Connect the micro:bit USB cable to the Chromebook.
-5. Click the three dots next to the **Download** button and choose **"Connect device"**. Pick the micro:bit from the browser's device list and click Connect. This WebUSB pairing flow is the normal path on a district-managed Chromebook, not a workaround, and each Chromebook only needs it once for the week.
-6. Click **"Download"** in the bottom-left. The code now flashes straight to the paired board.
+Check the Wi-Fi card specifically: the scenario says everyone else is online, so students troubleshoot the user's device and do not restart shared network equipment.
 
-!!! warning "Before Monday: Device Prep"
-    Count your micro:bits and USB cables two weeks out. A class of 30 needs 10 to 15 boards at teams of 2-3, plus one data-capable cable per board. Decide power now: boards run fine tethered to the Chromebook over USB for the whole period, and battery packs (2 AAA cells per board) are only needed if Day 4 pairs carry devices away from their desks. Then update the firmware across the fleet in one sitting. Download the current DAPLink firmware once from [microbit.org/get-started/user-guide/firmware](https://microbit.org/get-started/user-guide/firmware/), then hold the RESET button while plugging each board in so it mounts as MAINTENANCE instead of MICROBIT, drag that firmware file onto the MAINTENANCE drive, and unplug when it remounts as MICROBIT. Fifteen boards take about twenty minutes and this clears the most common pairing failure before it costs you class time. Finish by running one full Connect device and Download on an actual student Chromebook, signed in as a student, not on the teacher machine.
+## Activity 2 — Build or Trace the Logic (25 min)
 
-!!! tip "No micro:bits? Run the Simulator"
-    The simulator on the left side of the MakeCode workspace runs the identical program, buttons and LED display included. Students click Button A and Button B on screen. Activities 2 and 3 both work with no hardware at all. With fewer boards than teams, run teams of 4 and rotate who holds the device, or put half the teams in the simulator today and swap them onto boards on Day 4.
+Chunk the process. Students test after each chunk.
 
----
+1. Create the `step` variable and set it to 1 on start.
+2. Show “Help Desk Ready.”
+3. Add Button A and the three branches.
+4. Show the current step before increasing the variable.
+5. After Step 3, return to Step 1.
+6. Add Button B to display “FIXED.”
 
-## Activity 2: Build Your First Program — Display a Welcome Message (10 min)
+The paper route uses the same Block-Order Guide. Students trace Button A four times and Button B once.
 
-Project the MakeCode workspace and walk students through building this exact starter program:
+**Active-monitoring look-fors**
 
-1. From the **Basic** category, drag a `show string` block into the `on start` area. Type a welcome message: "Help Desk Ready"
-2. From the **Input** category, drag an `on button A pressed` block into the workspace.
-3. From **Basic**, drag a `show string` block into the `on button A pressed` area. Type the first troubleshooting step: "Step 1: Restart"
-4. Click **Download** and load it to the micro:bit.
-5. Press Button A on the micro:bit. Students should see "Step 1: Restart" scroll across the LED display.
+- A shows Step 1, Step 2, Step 3, then Step 1.
+- B independently displays FIXED.
+- The sequence uses the assigned low-risk steps.
+- The evidence recorder explains why Step 1 belongs first.
 
-**Chunking:** One block at a time on the projector, each with its purpose named before it is demonstrated: `show string` puts words on the screen, `on button A pressed` waits for the user.
+## Activity 3 — Test, Save, and Exit (10 min)
 
-**Visual checkpoint:** Hold up your micro:bit when "Step 1: Restart" is showing. Verify every team got it before moving on. Teams that needed help clearing the checkpoint start Activity 3 from the printed starter blocks ([Printable PDF](../../resources/worksheets/wk4-makecode-starter-blocks.pdf)), which lists all sixteen blocks in drag order so those teams only have to type their own step text.
+Students record their first test, one bug or confusion, and the durable backup location. They complete the Day 3 branching exit ticket.
 
----
+Before leaving, every student names one skill used today and another career or setting that uses the same skill. Examples include nursing, teaching, automotive repair, customer service, and engineering.
 
-## Activity 3: Build a 3-Step Troubleshooting Program (20 min)
+## Supports
 
-Teams build a program that cycles through 3 troubleshooting steps for their assigned scenario. The program logic:
+- Project the completed logic while students build; do not compress all steps into one verbal direction.
+- Use bilingual Step-Sort Cards and allow Spanish step text.
+- Let students use screen magnification or dictate step text to the evidence recorder.
+- Rotate roles at the halfway checkpoint so tool speed does not become the assessment.
 
-- When **Button A** is pressed, advance to the next troubleshooting step.
-- When **Button B** is pressed, mark the problem "solved" (display "FIXED!").
-- The display should show the current step number AND the step text.
+## If Hardware, MakeCode, or Attendance Fails
 
-**Scenario examples:**
-
-- **Scenario: Printer not working**
-  - Step 1: "Check power cable"
-  - Step 2: "Check paper tray"
-  - Step 3: "Restart printer"
-- **Scenario: Wi-Fi disconnected**
-  - Step 1: "Check Wi-Fi switch"
-  - Step 2: "Restart router"
-  - Step 3: "Forget and reconnect network"
-- **Scenario: Software crashing**
-  - Step 1: "Close and reopen app"
-  - Step 2: "Restart computer"
-  - Step 3: "Check for updates"
-- **Scenario: Computer won't turn on**
-  - Step 1: "Check power cable"
-  - Step 2: "Check power button"
-  - Step 3: "Hold power 10 sec"
-- **Scenario: Password reset**
-  - Step 1: "Check caps lock"
-  - Step 2: "Use forgot password link"
-  - Step 3: "Call IT to reset"
-
-To build the cycling logic, students use a **variable** called `step` that increments each time Button A is pressed:
-
-1. From **Variables**, create a variable `step` and set it to 1 in `on start`.
-2. Use `if/then/else` blocks (from **Logic**) inside `on button A pressed` to display a different message for each value of `step`.
-3. Put a `change step by 1` block **below** the whole if block, not above it, so the board shows the current step and then counts up to the next one.
-
-Walk between teams. The trickiest part is the `if/then` logic, sit with teams that get stuck. The predictable bug is a `change step by 1` sitting above the if block, which makes the first press of Button A skip straight to Step 2. The printed starter blocks ([Printable PDF](../../resources/worksheets/wk4-makecode-starter-blocks.pdf)) put the sixteen blocks in the order that avoids it.
-
-!!! tip "Facilitation Tip"
-    Some teams will get frustrated with the if/else nesting. Tell them: "If you can get just TWO steps working today (Step 1 and Step 2), you have done well. We refine tomorrow." Don't push perfection on day 1.
-
-**DOK 2:** How would you describe the logical order of your troubleshooting steps and why that order matters?
-
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/1sw-wk4-day3-help-desk-simulator-makecode-day-1.pdf):
-
-My role today: **Help Desk Technician**. My Day 3 scenario card: _______________________
-
-Step 1: When the user calls, what is the VERY FIRST troubleshooting step you tell them to try? (Use your micro:bit program.)
-
-   ___________________________________________________________________
-
-Step 2: Why is that step FIRST and not a later step? One sentence:
-
-   ___________________________________________________________________
-
-Step 3: Branch the next move based on the result:
-
-   IF the user says the first step FIXED the problem, what do I do next? ___________________________________________________________________
-
-   IF the user says the first step did NOT fix it, what do I do next? ___________________________________________________________________
-
-*(d(4)(B))*
-
----
-
-## Differentiation
-
-- **Support:** Hand out the printed starter blocks ([Printable PDF](../../resources/worksheets/wk4-makecode-starter-blocks.pdf)), which list every block in drag order with the variable and Button A logic already worked out, so students modify only the text strings. Before programming, give these students the troubleshooting step sort cards ([Printable PDF](../../resources/worksheets/wk4-troubleshooting-step-sort-cards.pdf)) and have them physically arrange their scenario's three steps in order first.
-- **Extension:** Add a sound effect (use the **Music** blocks) for "FIXED!" or for advancing to the next step. Add an LED animation that shows progress (1 LED for step 1, 2 LEDs for step 2, etc.).
-- **ELL:** Allow ELL students to write troubleshooting step text in Spanish. Pre-teach: Reiniciar = Restart, Verificar = Check, Cable de poder = Power cable. Use the bilingual step sort cards ([Printable PDF](../../resources/worksheets/wk4-troubleshooting-step-sort-cards-bilingual.pdf)), which print each step in English and Spanish on the same card.
+- No board: use the simulator.
+- Site blocked: arrange the cards, trace A/A/A/A/B, and have another team initial the results.
+- Saved project missing: use the screenshot, share link, downloaded `.hex`, or signed paper trace instead of rebuilding from memory.
+- Absent: complete the paper route or join the assigned team's durable evidence on return.

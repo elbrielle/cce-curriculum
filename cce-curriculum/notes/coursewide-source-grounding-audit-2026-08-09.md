@@ -119,11 +119,11 @@ Unresolved `[VERIFY]`/`[TODO]`/`[TBD]` markers detected on **1 day(s)**. Days wi
 | 1SW Wk3 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Think-Pair-Share / Turn and Talk, Active Monitoring | FYF |  |
 | 1SW Wk3 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Think-Pair-Share / Turn and Talk, Active Monitoring | BLS, optional Xello local cross-check |  |
 | 1SW Wk3 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring, TVB | Xello, BLS evidence from Day 4 |  |
-| 1SW Wk4 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
-| 1SW Wk4 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
-| 1SW Wk4 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
-| 1SW Wk4 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Think-Pair-Share / Turn and Talk, Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
-| 1SW Wk4 | 5 | Yes | Yes | Yes | Yes | Yes | NO | Yes | NO | Active Monitoring, Chunking, TVB | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
+| 1SW Wk4 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Turn and Talk, Active Monitoring, Chunking | FYF pp. 36-38, Xello Add interests, fixed BLS career cards, optional H&L |  |
+| 1SW Wk4 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Active Monitoring, Chunking, Turn and Talk | FYF p. 37, BLS May 2024 route guide, optional current CompTIA check |  |
+| 1SW Wk4 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Active Monitoring, Chunking, structured partner test | MakeCode, micro:bit official troubleshooting, simulator/paper trace |  |
+| 1SW Wk4 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Think-Pair-Share / Turn and Talk, Active Monitoring, Chunking, feedback protocol | MakeCode evidence, CCE role-play scaffold, written alternative |  |
+| 1SW Wk4 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring, Chunking, TVB, one-minute evidence brief | Xello Add skills, BLS route guide, optional H&L |  |
 | 1SW Wk5 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
 | 1SW Wk5 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Active Monitoring, Chunking | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
 | 1SW Wk5 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Think-Pair-Share / Turn and Talk, Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |

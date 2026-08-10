@@ -6,34 +6,29 @@ weeks: 1sw/wk4-tech-support-it
 audience: student
 variant_of: wk4-education-pathway-comparison
 language: bilingual
-pages: 3
+pages: 2
 orientation: portrait
 ---
-**Compare three ways into an IT career.** Pick one career for each column. You may write in English or in Spanish.
-*Compara tres caminos para entrar a una carrera de tecnología. Escoge una carrera para cada columna. Puedes escribir en inglés o en español.*
+**Compare three ways into an IT career.** Use the dated Route Data Guide. You may write in English, Spanish, or both.
+*Compara tres caminos para entrar a una carrera de tecnología. Usa la Guía de Datos de Rutas con fecha. Puedes escribir en inglés, español o los dos.*
 
-Career 1 needs a certification only. Career 2 needs an associate degree plus a certification. Career 3 needs a bachelor's degree.
-*La Carrera 1 solo necesita una certificación. La Carrera 2 necesita un título asociado más una certificación. La Carrera 3 necesita una licenciatura.*
+Do not guess costs or promise that one credential guarantees a job. Employer requirements vary.
+*No adivines costos ni prometas que una credencial garantiza un empleo. Los requisitos cambian según el empleador.*
 
-| Field / Campo | Career 1 / Carrera 1: certification only / solo certificación | Career 2 / Carrera 2: associate + cert / asociado más certificación | Career 3 / Carrera 3: bachelor's / licenciatura |
+| Field / Campo | Career 1 / Carrera 1: user support / soporte al usuario | Career 2 / Carrera 2: network support / soporte de redes | Career 3 / Carrera 3: software developer / desarrollo de software |
 |---|---|---|---|
 | **Career Name** / *Nombre de la carrera* | | | |
-| **Required Education** / *Educación requerida* | | | |
-| **Time to Complete** / *Tiempo para terminar* | | | |
-| **Estimated Cost** / *Costo aproximado* | | | |
-| **Median Salary (BLS)** / *Salario promedio (BLS)* | | | |
+| **Common entry preparation** / *Preparación común de entrada* | | | |
+| **Time consideration** / *Consideración de tiempo* | | | |
+| **2024 BLS median pay** / *Salario mediano de BLS de 2024* | | | |
+| **One tradeoff** / *Una ventaja y desventaja* | | | |
 
-**Where to find each number**
-*Dónde encontrar cada número*
+**How to use the evidence / Cómo usar la evidencia**
 
-- **Required Education:** the education indicator on the Hats & Ladders Hat profile.
-  *Educación requerida: el indicador de educación en el perfil del Hat en Hats & Ladders.*
-- **Time to Complete:** months for a certification, 2 years for an associate degree, 4 years for a bachelor's degree.
-  *Tiempo para terminar: meses para una certificación, 2 años para un título asociado, 4 años para una licenciatura.*
-- **Estimated Cost:** certifications run about $200 to $1,000. An associate degree runs about $5,000 to $15,000. A bachelor's degree runs $40,000 and up.
-  *Costo aproximado: las certificaciones cuestan como $200 a $1,000. Un título asociado cuesta como $5,000 a $15,000. Una licenciatura cuesta $40,000 o más.*
-- **Median Salary:** the BLS Occupational Outlook Handbook page for that job.
-  *Salario promedio: la página del BLS Occupational Outlook Handbook para ese trabajo.*
+- Copy the BLS preparation wording from the Route Data Guide. / *Copia las palabras de preparación de BLS de la Guía de Datos.*
+- Degree labels describe a common program length; certification study time varies. / *Los títulos indican una duración común; el tiempo para estudiar una certificación varía.*
+- The pay figure is a May 2024 U.S. median, not starting or local pay. / *El salario es una mediana nacional de mayo de 2024, no un salario inicial ni local.*
+- Compare cost only when the teacher supplies one current official source. / *Compara costos solamente si el maestro provee una fuente oficial y actual.*
 
 [[pagebreak]]
 
@@ -44,7 +39,7 @@ Career 1 needs a certification only. Career 2 needs an associate degree plus a c
 
 [[lines: 4]]
 
-**2. If you wanted to start earning money as fast as possible, which path would you choose? Give one reason from your table.**
-*Si quisieras empezar a ganar dinero lo más pronto posible, ¿cuál camino escogerías? Da una razón de tu tabla.*
+**2. If you wanted to enter the workforce sooner, which path would you investigate first? Name one benefit and one tradeoff.**
+*Si quisieras entrar al mundo laboral más pronto, ¿cuál camino investigarías primero? Nombra un beneficio y una desventaja.*
 
 [[lines: 6]]
