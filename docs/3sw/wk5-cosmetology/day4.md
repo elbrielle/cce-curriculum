@@ -3,9 +3,9 @@
 ## Daily Learning Contract
 
 - **Topic:** Entrepreneurship
-- **Objective:** Students will define a beauty-industry business opportunity, identify owner responsibilities, and create one clear, safe, fictional wellness campaign post.
+- **Objective:** Students will define entrepreneurship and identify a beauty-industry opportunity and owner responsibilities using a fictional wellness campaign.
 - **TEKS:** d(3)(I)
-- **Demonstration of Learning:** Salon and Wellness Campaign Brief.
+- **Demonstration of Learning:** FYF p. 133 three-post series plus the two-page Salon and Wellness Campaign Companion.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,12 +14,12 @@
 | **Time** | 50 minutes |
 | **Objectives** | Define a beauty-industry business opportunity, identify owner responsibilities, and create one clear, safe, fictional wellness campaign post |
 | **TEKS** | d(3)(I) |
-| **Deliverable** | Salon and Wellness Campaign Brief |
-| **Materials** | FYF p. 127 and pp. 132-133, campaign brief, paper tools, optional Canva or Adobe Express |
+| **Deliverable** | FYF p. 133 three-post series plus the two-page campaign companion |
+| **Materials** | FYF p. 127 and pp. 132-133, two-page companion, paper tools, optional Canva or Adobe Express |
 
 ## Before Class
 
-- Post the campaign brief and embedded workbook pages.
+- Have students open FYF pp. 132-133. Post the two-page companion and embedded workbook pages.
 - Prepare a finished fictional model and a weak model that makes an unsupported health promise.
 - Paper, Canva, and Adobe Express are equal. No real account or public post is needed.
 
@@ -37,7 +37,7 @@ Students use the salon prompt from FYF p. 127 to create a fictional salon, barbe
 - one meaningful difference from other businesses; and
 - one owner skill with a reason.
 
-Students sketch the customer experience and label the service area, check-in or scheduling point, sanitation or cleanup area, one accessibility choice, and one place where records or supplies are managed.
+Students map the customer experience by labeling scheduling or check-in, the service area, sanitation or cleanup, supplies or records, and one access choice that removes a barrier.
 
 ## Activity 2: Read the Stress Toolkit (8 min)
 
@@ -45,14 +45,14 @@ Use FYF p. 132. Students select one technique for a polished campaign post and t
 
 ## Activity 3: Create and Test One Post (20 min)
 
-Students create one polished fictional post with:
+Students use the first phone frame on FYF p. 133 to create one polished fictional post with:
 
 - a headline;
 - a 1-2 sentence plain-language explanation;
 - one realistic tip or encouragement; and
 - one visual element.
 
-Students plan two additional posts with only a technique, headline, and one-sentence tip. This keeps the workbook's three-post series without forcing three polished designs into 17 minutes.
+Students use the other two phone frames for rough plans with only a technique, headline, and one-sentence tip. This keeps the workbook's three-post series without forcing three polished designs into 17 minutes.
 
 Run the reader and safety check. The post must be supportive, private, and free of medical claims, guaranteed results, real handles, contact details, or personal stories. A partner, teacher, or private self-check is equal.
 
@@ -60,11 +60,13 @@ Run the reader and safety check. The post must be supportive, private, and free 
 
 How could a useful, accurate post build trust in a business without replacing professional help?
 
-**DELIVERABLE:** Business concept, one polished post, two rough post plans, and one recorded revision.
+Students record the safety check, revision, and entrepreneurship connection on the companion.
+
+**DELIVERABLE:** FYF p. 133 plus business concept, safety/revision evidence, and entrepreneurship connection on the companion.
 
 ## Support and Absence Route
 
 - Provide two fictional customer choices and a word bank.
-- Accept a labeled sketch or digital design; do not grade art polish.
+- Accept the printed service map or an equivalent digital path; do not grade visual polish.
 - Allow private feedback when sharing wellness content would be uncomfortable.
-- The campaign brief and embedded pages are the full independent route.
+- The workbook images and two-page companion are the full independent route.

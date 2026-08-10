@@ -12,6 +12,8 @@ orientation: portrait
 
 Use the Texas Cosmetology Operator Evidence Guide. Do not guess a cost, completion date, or number of high-school hours when the source does not provide it.
 
+**Word bank:** license = state permission to perform regulated work · route = place or sequence used to prepare · requirement = condition every applicant must meet · unknown = fact the current source does not establish
+
 ## 1. State requirements that both routes share
 
 Training hours: __________
@@ -22,14 +24,17 @@ Minimum application age: __________  Current application fee: __________
 
 ## 2. Compare two places to complete the training
 
+Use short phrases in the table. Write **unknown - ask ____** when the fixed source does not answer the question.
+
 | Question | Irving ISD high-school route | Licensed postsecondary school |
 |---|---|---|
-| When could training begin? | | |
-| Where does training happen? | | |
+| When and where could training happen? | | |
 | What state requirements stay the same? | | |
 | One possible advantage | | |
 | One possible challenge | | |
 | One fact I still need before enrolling | | |
+
+[[pagebreak]]
 
 ## 3. Choose a route for this scenario
 
@@ -39,23 +44,21 @@ Recommended route: ______________________________________
 
 Use one verified fact and one unanswered question in a 3- or 4-sentence recommendation.
 
+Use this frame if helpful: I recommend ____ because the evidence says ____. Before enrolling, Alex still needs to ask ____ about ____.
+
 [[lines: 6]]
 
 ## 4. Build the enrollment question list
 
 Write the exact question Alex should ask each source.
 
-**Counselor or CTE office - ask about application, campus, schedule, or transportation:**
+**Counselor or CTE office - ask about application, campus, schedule, transportation, or course sequence:**
 
-[[lines: 3]]
-
-**Current coursebook - ask about course sequence or prerequisites:**
-
-[[lines: 3]]
+[[lines: 2]]
 
 **TDLR or licensed school - ask about cost, hours, exams, or approval:**
 
-[[lines: 3]]
+[[lines: 2]]
 
 ## 5. Put the verified license steps in order
 
@@ -66,9 +69,3 @@ Number these from 1 to 5.
 - [ ] Take and pass the practical exam.
 - [ ] Become eligible for and pass the written exam.
 - [ ] Confirm the license and renewal requirements.
-
-## 6. Explain why the license exists
-
-Use one health, sanitation, safety, or consumer-protection reason.
-
-[[lines: 4]]

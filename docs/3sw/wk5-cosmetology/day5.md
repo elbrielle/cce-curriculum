@@ -21,7 +21,7 @@
 
 - Post the recommendation, rubric, and evidence guide in Canvas.
 - Open the private unpublished Canvas Assignment.
-- Keep the Assignment ungraded until the live Minor group and 40/60 weighting are verified.
+- Confirm the existing unpublished Assignment remains 100 points in Minor Assessments (40%); do not create or downgrade a duplicate.
 - Xello Exploring Career Factors, eDynamic 4.2, and H&L favorites are optional extensions only. Do not require three separate logins, completion screenshots, or favorite counts.
 
 ## Warm-Up (5 min)
@@ -36,7 +36,7 @@ Students reopen the Texas evidence guide and one artifact from the week. They ch
 - the Texas requirement remains labeled;
 - the district connection is current and not a guarantee;
 - the business idea includes an owner responsibility; and
-- one tradeoff is visible.
+- one trade-off is visible.
 
 ## Activity 2: Plan the Recommendation (8 min)
 
@@ -46,7 +46,7 @@ Students complete five planning fields:
 2. Texas preparation or license fact;
 3. verified next step;
 4. entrepreneurship opportunity and responsibility; and
-5. tradeoff.
+5. trade-off.
 
 ## Activity 3: Write and Connect (22 min)
 

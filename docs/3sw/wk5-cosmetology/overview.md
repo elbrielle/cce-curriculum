@@ -14,11 +14,11 @@ Students explore Human Services careers through the *Find Your Future* Cosmetolo
 - I can plan, build, test, and revise a texture model on an approved practice surface.
 - I can put the current Texas Cosmetology Operator license steps in order.
 - I can compare high-school and postsecondary training without inventing missing cost or schedule data.
-- I can explain one beauty-industry business opportunity, one owner responsibility, and one tradeoff.
+- I can explain one beauty-industry business opportunity, one owner responsibility, and one trade-off.
 
 ## Demonstration of Learning
 
-Students complete an individual **Cosmetology Career and Business Recommendation** using one career task, one current Texas preparation or license fact, one verified next step, one entrepreneurship opportunity, one tradeoff, and one design-to-career connection.
+Students complete an individual **Cosmetology Career and Business Recommendation** using one career task, one current Texas preparation or license fact, one verified next step, one entrepreneurship opportunity, one trade-off, and one design-to-career connection.
 
 ## TEKS Alignment
 
@@ -33,11 +33,13 @@ The supplemental Xello **Exploring Career Factors** lesson is not assigned in th
 ## Materials Needed
 
 - *Find Your Future* printed pp. 127-133 and 136-138
-- SFX Texture Concept and Lab Brief
-- SFX Quality Check and Revision Plan
+- FYF pp. 128-131 as the default SFX work surface
+- Optional three-page no-workbook SFX Texture Concept Brief; its final page preserves the full-size sketch area from FYF p. 129
+- One-page SFX Build and Test Record
+- Optional enlarged/no-workbook SFX Quality Check and Revision Plan
 - Texas Cosmetology Operator Evidence Guide
 - Cosmetology Pathway Decision
-- Salon and Wellness Campaign Brief
+- Two-page Salon and Wellness Campaign Companion used with FYF p. 133
 - Cosmetology Career and Business Recommendation and 16-point rubric
 - Pencils, colored pencils, cardstock, tissue, foil, paper shapes, yarn, scissors, tape, and other teacher-approved dry materials
 - Chromebooks for Canvas and an optional Canva or Adobe Express route
@@ -45,7 +47,7 @@ The supplemental Xello **Exploring Career Factors** lesson is not assigned in th
 
 ## Career and Source Notes
 
-Current TDLR guidance requires a Cosmetology Operator applicant to complete a **1,000-hour course at a licensed school**, pass written and practical exams, and apply for the license. As of the August 8, 2026 source check, the application fee is $50, applicants must be at least 17, and the license is valid for two years. TDLR does not list the cosmetology apprenticeship route that appeared in the earlier lesson draft.
+Current TDLR guidance requires a Cosmetology Operator applicant to complete a **1,000-hour course at a licensed school**, pass written and practical exams, and apply for the license. As of the August 10, 2026 source check, the application fee is $50, applicants must be at least 17, and the license is valid for two years. TDLR does not list the cosmetology apprenticeship route that appeared in the earlier lesson draft.
 
 The current Irving ISD High School CTE page lists Cosmetology at Cardwell Career Preparatory Center, Irving High School, MacArthur High School, and Nimitz High School. The 2026 workbook describes a student-run salon and a Cosmetology Operator License connection. Teachers should present those workbook details as program context and use the current coursebook, counselor, or CTE office for admission, transportation, schedule, hours, and current student-enterprise details.
 
@@ -53,10 +55,10 @@ The BLS May 2024 U.S. median hourly wage for hairdressers, hairstylists, and cos
 
 ## Workbook Grounding
 
-- **Day 1:** Human Services opener and SFX research/concept work (FYF pp. 127-129)
-- **Day 2:** SFX build sequence (FYF p. 130)
-- **Day 3:** SFX quality check and improvement plan (FYF p. 131), then current TDLR and district evidence
-- **Day 4:** Stress Toolkit and fictional social media campaign (FYF pp. 132-133), connected to the salon prompt on p. 127
+- **Day 1:** Human Services opener and default SFX research/concept work (FYF pp. 127-129)
+- **Day 2:** SFX build sequence (FYF p. 130) plus one-page build/test evidence
+- **Day 3:** Default SFX quality check and improvement plan (FYF p. 131), then current TDLR and district evidence
+- **Day 4:** Stress Toolkit and three-post workbook campaign (FYF pp. 132-133), connected to the salon prompt on p. 127 through a two-page companion
 - **Day 5:** Current district context (FYF pp. 136-137) and individual synthesis
 
 The chapter's Advocacy lesson on FYF pp. 134-135 belongs to 2SW Wk5 and is not repeated. H&L App Exploration on p. 138 remains an optional cluster extension after the fixed core evidence is complete.
@@ -74,7 +76,7 @@ The chapter's Advocacy lesson on FYF pp. 134-135 belongs to 2SW Wk5 and is not r
 ## Assessment and Grading
 
 - Days 1-4 are formative practice with specific completion checks.
-- Day 5 is a **recommended 16-point minor**. Keep it unpublished and ungraded in Canvas until the live Minor assignment group and 40/60 weights are verified.
+- Day 5 is the existing mapped **Minor 3**: 100 points in Minor Assessments (40%) with a student-visible 16-point evidence profile. Keep it unpublished in the master course.
 - Do not grade tool choice, fabrication method, art polish, public speaking, accent, handwriting, or English mechanics unless the meaning is unclear.
 - Paper, typed text, speech-to-text, and an approved audio response with the same evidence are equal routes.
 

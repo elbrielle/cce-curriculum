@@ -12,7 +12,7 @@ orientation: portrait
 
 ## Current Texas license steps
 
-**Source checked August 8, 2026:** Texas Department of Licensing and Regulation (TDLR), Apply for a Cosmetology Operator License.
+**Source checked August 10, 2026:** Texas Department of Licensing and Regulation (TDLR), Apply for a Cosmetology Operator License.
 
 1. Complete a **1,000-hour Cosmetology Operator course at a TDLR-licensed school**.
 2. After the school reports **900 hours**, the student may become eligible for the **written exam**.
@@ -66,7 +66,7 @@ The shorter number does not mean the same job. Each license covers a different s
 
 ## Work and pay context
 
-**Source checked August 8, 2026:** U.S. Bureau of Labor Statistics, Barbers, Hairstylists, and Cosmetologists.
+**Source checked August 10, 2026:** U.S. Bureau of Labor Statistics, Barbers, Hairstylists, and Cosmetologists.
 
 - May 2024 U.S. median for hairdressers, hairstylists, and cosmetologists: **$16.95 per hour**.
 - Projected employment growth for that occupation: **6% from 2024 to 2034**.

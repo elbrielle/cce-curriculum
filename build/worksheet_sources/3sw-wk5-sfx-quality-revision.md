@@ -1,5 +1,5 @@
 ---
-title: SFX Quality Check and Revision Plan
+title: SFX Quality Check and Revision Plan - No-Workbook Route
 slug: 3sw-wk5-sfx-quality-revision
 kind: worksheet
 weeks: 3sw/wk5-cosmetology
@@ -9,6 +9,8 @@ language: en
 pages: 2
 orientation: portrait
 ---
+
+Use this expanded sheet only when you cannot write on FYF p. 131 or need the enlarged revision route. Do not complete both.
 
 ## 1. Rate the evidence, not the effort
 
@@ -20,23 +22,25 @@ orientation: portrait
 
 ## 2. Show the evidence
 
+**Word bank:** evidence = what can be seen or measured · cause = why the problem happened · revise = change the plan after testing
+
 **What is one specific place where the texture works? Describe what a viewer can see.**
 
-[[lines: 3]]
+[[lines: 2]]
 
 **What was the biggest build problem? What caused it?**
 
-[[lines: 3]]
+[[lines: 2]]
 
 ## 3. Revise the plan
 
 **Change 1:** What would you change in the material, layer, size, color, placement, or tool?
 
-[[lines: 2]]
+[[lines: 1]]
 
 **Why would that change improve the texture or stability?**
 
-[[lines: 2]]
+[[lines: 1]]
 
 [[pagebreak]]
 
@@ -59,3 +63,5 @@ What information would the SFX artist need to share with this person?
 How could that person's needs change the revised design?
 
 [[lines: 3]]
+
+Use this frame if helpful: The ____ needs to know ____. I would revise ____ because ____.

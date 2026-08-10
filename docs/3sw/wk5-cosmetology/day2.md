@@ -3,9 +3,9 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Opportunities
-- **Objective:** Students will follow a texture map, create visible overlapping layers, test the result, and record one revision.
+- **Objective:** Students will identify a theatrical or performance makeup career opportunity by following a texture map, testing a layered model, and documenting one revision.
 - **TEKS:** d(1)(C)
-- **Demonstration of Learning:** Finished texture model and SFX Lab Brief page 4.
+- **Demonstration of Learning:** Finished texture model plus the one-page SFX Build and Test Record with a career documentation connection.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,13 +14,14 @@
 | **Time** | 50 minutes |
 | **Objectives** | Follow a texture map, create visible overlapping layers, test the result, and record one revision |
 | **TEKS** | d(1)(C) |
-| **Deliverable** | Finished texture model and SFX Lab Brief page 4 |
-| **Materials** | FYF p. 130, teacher-approved dry craft kit, cardstock practice boards, optional approved digital tools |
+| **Deliverable** | Finished texture model plus one-page SFX Build and Test Record |
+| **Materials** | FYF p. 130, one-page build/test record, teacher-approved dry craft kit, cardstock practice boards, optional approved digital tools |
 
 ## Before Class
 
 - Make the dry relief route available at every campus. Prepare cardstock, tissue, foil, paper shapes, yarn, tape, scissors, and trays.
 - Digital design in Canva or Adobe Express is an equal route when the student creates visible layers and labels.
+- Post the one-page SFX Build and Test Record; do not reprint the Day 1 concept work.
 - Run an adhesive lab only after reviewing the product label and SDS, allergy procedures, ventilation, approved surface, supervision, storage, and cleanup. Adhesive work is never the only route.
 - Do not require food, seeds, pasta, lentils, loose salt, latex, or eyelash glue.
 
@@ -48,19 +49,19 @@ Students follow the texture map. At minute 10, check that the main visual struct
 
 ## Activity 3: Test and Revise (7 min)
 
-Students view the model from three feet away and record:
+Students view the model from three feet away and use the one-page record to capture:
 
 - one part that holds, aligns, or reads clearly;
 - one part that moves, flattens, detaches, or becomes hard to read; and
 - one change made during the build.
 
-Students may draw the finished model or record the private Canvas filename of a photo. A photo is optional, not required.
+Students may draw the finished model or record the private Canvas filename of a photo. A photo is optional, not required. Students finish the short career connection: why an SFX artist would document the change before the next build or production step.
 
 ## Exit Check (5 min)
 
 Scenario: A model has many details, but the main texture is hard to identify. What should the artist change first, and why?
 
-**DELIVERABLE:** Model plus the build/test page.
+**DELIVERABLE:** Model plus the one-page build/test record and career connection.
 
 ## Support and Absence Route
 

@@ -3,9 +3,9 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Preparation
-- **Objective:** Students will evaluate and revise an SFX design, identify current Texas Cosmetology Operator requirements, compare high-school and postsecondary training settings, and report questions needed before enrollment.
+- **Objective:** Students will research and describe current Texas cosmetology training and license requirements and investigate the steps required to enter high-school or postsecondary training using a pathway decision.
 - **TEKS:** d(2)(A), d(3)(G)
-- **Demonstration of Learning:** SFX Quality Check and Revision Plan plus Cosmetology Pathway Decision.
+- **Demonstration of Learning:** Completed FYF p. 131 quality check plus the two-page Cosmetology Pathway Decision.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,12 +14,13 @@
 | **Time** | 50 minutes |
 | **Objectives** | Evaluate and revise an SFX design, identify current Texas Cosmetology Operator requirements, compare high-school and postsecondary training settings, and report questions needed before enrollment |
 | **TEKS** | d(2)(A), d(3)(G) |
-| **Deliverable** | SFX Quality Check and Revision Plan plus Cosmetology Pathway Decision |
-| **Materials** | FYF p. 131 and pp. 136-137, two student PDFs, projector |
+| **Deliverable** | FYF p. 131 quality check plus two-page Cosmetology Pathway Decision |
+| **Materials** | FYF p. 131 and pp. 136-137, evidence guide, two-page pathway decision; optional enlarged no-workbook quality sheet |
 
 ## Before Class
 
-- Post the dated Texas Cosmetology Operator Evidence Guide and Pathway Decision.
+- Have students open FYF p. 131. Post the dated Texas Cosmetology Operator Evidence Guide and two-page Pathway Decision.
+- Keep the separate quality sheet as an enlarged/no-workbook route; do not print it in addition to FYF p. 131.
 - Do not make live TDLR navigation load-bearing. The fixed evidence page protects the lesson from site changes and reading variance.
 - Note the current district wording: Cosmetology is listed at Cardwell, Irving, MacArthur, and Nimitz. Do not present Ratteree as the current location.
 - Do not teach a Texas cosmetology apprenticeship route. TDLR's current operator page requires 1,000 hours at a licensed school.
@@ -30,13 +31,13 @@
 
 ## Activity 1: Quality Check and Revision (10 min)
 
-Use FYF p. 131 and the expanded quality sheet. Students rate:
+Use FYF p. 131. Students rate:
 
 - how clearly the texture reads;
 - whether layers or pieces stay aligned or attached; and
 - whether the final build follows the concept map.
 
-Students cite one visible success, identify the cause of the biggest problem, and draw a revision with at least three labels. The revised drawing has a full usable page area.
+Students cite one visible success, identify the cause of the biggest problem, and describe the final improvement plan. The optional expanded sheet provides a labeled revision drawing when that route is instructionally useful.
 
 ## Activity 2: Read the Current Evidence (15 min)
 
