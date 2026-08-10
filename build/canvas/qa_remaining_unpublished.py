@@ -227,8 +227,8 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
         if role == "student":
             required_sections = {
                 "topic": ("topic:",),
-                "objective": ("objective:",),
-                "show your learning": ("show your learning:",),
+                "objective": ("objective:", "i can:"),
+                "show your learning": ("show your learning:", "show my learning:"),
                 "today you will": ("today you will", "what you will do"),
                 "exit check": ("exit check", "exit ticket"),
                 "you are done when": ("you are done when", "done when"),
