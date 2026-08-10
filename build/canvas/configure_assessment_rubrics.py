@@ -10,6 +10,7 @@ converted to a percentage before it is entered in the district gradebook.
 from __future__ import annotations
 
 import asyncio
+import argparse
 import json
 import re
 import sys
@@ -327,21 +328,39 @@ async def ensure_association(
     if len(matches) > 1:
         raise ValueError(f"assignment has duplicate associations for {rubric['title']!r}")
     if matches:
-        return await request(
+        await request(
             client,
             "PUT",
             f"/courses/{COURSE_ID}/rubric_associations/{matches[0]['id']}",
             data=association_data,
         )
-    return await request(
+    else:
+        await request(
+            client,
+            "POST",
+            f"/courses/{COURSE_ID}/rubric_associations",
+            data=association_data,
+        )
+    refreshed = await request(
         client,
-        "POST",
-        f"/courses/{COURSE_ID}/rubric_associations",
-        data=association_data,
+        "GET",
+        f"/courses/{COURSE_ID}/rubrics/{rubric['id']}?include[]=associations",
     )
+    refreshed_matches = [
+        entry
+        for entry in (refreshed.get("associations") or [])
+        if entry.get("association_type") == "Assignment"
+        and int(entry.get("association_id")) == int(assignment["id"])
+    ]
+    if len(refreshed_matches) != 1:
+        raise ValueError(
+            f"expected one verified assignment association for {rubric['title']!r}; "
+            f"found {len(refreshed_matches)}"
+        )
+    return refreshed_matches[0]
 
 
-async def run(token: str) -> dict:
+async def run(token: str, assignment_title: str | None = None) -> dict:
     parsed = {
         spec.assignment_title: (*parse_rubric(SOURCE_DIR / spec.source), spec)
         for spec in RUBRICS
@@ -353,6 +372,8 @@ async def run(token: str) -> dict:
         rubrics = await paged(client, f"/courses/{COURSE_ID}/rubrics")
         results = []
         for assessment in ASSESSMENTS:
+            if assignment_title and assessment.title != assignment_title:
+                continue
             matches = [
                 item for item in assignments if item.get("name") == assessment.title
             ]
@@ -431,6 +452,8 @@ async def run(token: str) -> dict:
                     "use_for_grading": bool(association.get("use_for_grading")),
                 }
             )
+        if assignment_title and not results:
+            raise ValueError(f"no mapped assessment named {assignment_title!r}")
         return {"rubrics": results}
 
 
@@ -474,11 +497,17 @@ def preflight() -> int:
 
 
 def main() -> int:
-    if sys.argv[1:] == ["--preflight"]:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--preflight", action="store_true")
+    parser.add_argument(
+        "--assignment-title",
+        help="Update one mapped assignment instead of all 30.",
+    )
+    args = parser.parse_args()
+    if args.preflight:
+        if args.assignment_title:
+            parser.error("--preflight cannot be combined with --assignment-title")
         return preflight()
-    if sys.argv[1:]:
-        print("usage: configure_assessment_rubrics.py [--preflight]", file=sys.stderr)
-        return 2
     check = preflight()
     if check:
         return check
@@ -496,7 +525,7 @@ def main() -> int:
         print("Canvas token required on stdin", file=sys.stderr)
         return 2
     try:
-        result = asyncio.run(run(token))
+        result = asyncio.run(run(token, args.assignment_title))
     except (httpx.HTTPError, ValueError) as exc:
         print(f"Rubric setup failed: {exc}", file=sys.stderr)
         return 2
