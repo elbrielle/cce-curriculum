@@ -18,7 +18,7 @@
 
 ## Before Class
 
-Open FYF pp. 103 and 174–175 in locked Canvas. Post the fixed Civil Engineer evidence card and a usable kitchen-plan annotation that preserves the appliance locations. H&L is optional.
+Ask students to use FYF p. 103 and pp. 174–175 in their workbooks. Post the locked page images for projection, absence, or enlarged viewing. Add the fixed Civil Engineer evidence card and a short companion only for evidence the workbook does not collect. H&L is optional.
 
 ## 50-Minute Flow
 
@@ -36,7 +36,7 @@ Students record duties, typical entry education, May 2024 U.S. median, outlook, 
 
 ### 4. FYF kitchen systems decision — 15 minutes
 
-Students use the existing appliance plan and blank grid to place cabinets, then document one placement that forced a second change. The analogy is limited: the activity practices dependency reasoning, not civil-engineering approval.
+Students draw on the FYF p. 175 grid, using the existing p. 174 appliance plan. They document one placement that forced a second change. The analogy is limited: the activity practices dependency reasoning, not civil-engineering approval.
 
 ### 5. Exit — 5 minutes
 

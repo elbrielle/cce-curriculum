@@ -25,8 +25,8 @@ Before teaching:
 - prepare the fixed Civil Engineer, Transportation Engineer, and Water/Wastewater Engineer evidence cards;
 - update the assessment-impact cards from official sources and date them;
 - prepare locked FYF pages 103, 106–110, and 174–175 in Canvas;
-- choose the physical-build route only if all materials, stable supports, known load packets, catch tray, marked safety zone, cleanup, and teacher-controlled test stations are ready;
-- otherwise use the equal three-bridge dataset and design-analysis route;
+- prepare the fixed three-bridge dataset as the complete Day 4 route;
+- add one optional teacher-controlled demonstration only if the exact materials, stable supports, known load packets, catch tray, marked safety zone, cleanup, and tested schedule are ready;
 - publish neither the final Assignment nor any grade until the six-weeks assessment map and 40/60 groups are verified.
 
 No required Xello or eDynamic task belongs in this week. H&L browsing is supplemental and cannot be required evidence.
@@ -48,7 +48,7 @@ No required Xello or eDynamic task belongs in this week. H&L browsing is supplem
 | 1 | Cluster, career preparation, systems thinking | Civil-engineer evidence card + FYF kitchen systems decision |
 | 2 | Assessment impact + emerging specialties | Personal assessment decision + evaluated O*NET specialty |
 | 3 | Bridge constraints and two design options | Two-view options, load-path reasoning, role ownership |
-| 4 | Controlled build/test or fixed-data analysis | Standardized result + individual failure/redesign analysis |
+| 4 | Fixed-data analysis; optional controlled demonstration | Standardized result + individual failure/redesign analysis |
 | 5 | Results, FYF Mars transfer, synthesis | Individual weekly portfolio and pathway next step |
 
 ## Assessment Plan
@@ -61,7 +61,7 @@ The student-visible 16-point rubric scores source accuracy, assessment/emerging 
 
 ## Access, Absence, and Safety
 
-- Physical and fixed-data routes use the same constraints, result fields, and redesign reasoning.
+- Fixed data is the complete default route. An optional physical demonstration uses the same constraints, result fields, and redesign reasoning.
 - Absent students analyze the prepared anonymized dataset; they are not penalized for missing fabrication.
 - Offer precut materials, adaptive scissors, large-print/tactile geometry, verbalized load data, captions/transcripts, typing, dictation, and private media.
 - Teacher alone controls load placement. Use secured supports, a catch tray, known lightweight increments, a marked keep-clear zone, one objective stop rule, and a safe load cap. Never use textbooks or unstable desks.

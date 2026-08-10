@@ -4,7 +4,7 @@
 
 - **Topic:** Career Opportunities
 - **Objective:** Students will identify a pattern in test evidence, transfer the design cycle, and explain a realistic engineering next step.
-- **TEKS:** d(1)(C); portfolio reassesses d(1)(B), d(1)(D), d(2)(A), d(3)(E)
+- **TEKS:** d(1)(C)
 - **Demonstration of Learning:** Rover transfer note + individual weekly portfolio.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
@@ -13,12 +13,12 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Target** | Identify a pattern in test evidence, transfer the design cycle, and explain a realistic engineering next step. |
-| **TEKS** | d(1)(C); portfolio reassesses d(1)(B), d(1)(D), d(2)(A), d(3)(E) |
+| **TEKS** | d(1)(C) |
 | **Evidence** | Rover transfer note + individual weekly portfolio |
 
 ## Before Class
 
-Post anonymous bridge/sample results, locked FYF pp. 106–107, the portfolio rubric, and the private Canvas Assignment. H&L favorites are optional; no Xello/eDynamic work is assigned.
+Ask students to use FYF pp. 106–107 in their workbooks. Post anonymous sample results, locked page images for projection or absence, the short synthesis companion, feedback guide, and private Canvas Assignment. H&L favorites are optional; no Xello/eDynamic work is assigned.
 
 ## 50-Minute Flow
 
@@ -26,17 +26,13 @@ Post anonymous bridge/sample results, locked FYF pp. 106–107, the portfolio ru
 
 Introduce forensic/structural review without implying every failure has one obvious cause.
 
-### 2. Results gallery and pattern — 10 minutes
+### 2. FYF Mission to Mars transfer — 15 minutes
 
-Students compare anonymous results and identify one pattern plus one exception. They cite geometry, joint, load point, or stop evidence—not team identity or “winner.”
+Frame pp. 106–107 as a fictional future-rover brief. Students use the FYF p. 107 design field to label four component needs and explain one tradeoff. The rover is EDP transfer practice, not another graded engineering product or current NASA reporting.
 
-### 3. FYF Mission to Mars transfer — 20 minutes
+### 3. Weekly synthesis — 20 minutes
 
-Frame pp. 106–107 as a fictional future-rover brief. Students identify environment constraints, select four component needs, sketch a labeled concept, and explain one tradeoff. The rover is EDP transfer practice, not another graded engineering product or current NASA reporting.
-
-### 4. Weekly synthesis — 10 minutes
-
-Students connect:
+Students identify one pattern plus one exception in the anonymous bridge results, then connect:
 
 - one selected engineering career and accurate preparation fact;
 - one assessment and possible personal impact;
@@ -44,9 +40,13 @@ Students connect:
 - one bridge result and justified redesign;
 - the dated MacArthur pathway distinction and a postsecondary next step.
 
-### 5. Exit and submit — 5 minutes
+### 4. Pathway check — 5 minutes
 
-Explain how the current MacArthur Engineering/Civil Engineering pathway can support preparation without itself completing the bachelor’s/licensure route. Submit privately by upload, text, media, or paper.
+Students explain how the high-school pathway can support preparation without itself completing the bachelor’s/licensure route.
+
+### 5. Submit — 5 minutes
+
+Submit the formative synthesis privately by upload, text, media, or paper.
 
 ## Grading and Access
 

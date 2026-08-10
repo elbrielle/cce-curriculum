@@ -26,7 +26,7 @@ Refresh and date four official-source cards: PSAT 8/9; SAT/ACT; TSIA2; ASVAB. Ke
 
 Students decide which statements must be rechecked when they apply. Testing requirements depend on institution, major, scholarship, exemption, military route, and year.
 
-### 2. Four assessment-impact cards — 15 minutes
+### 2. Four assessment-impact cards — 12 minutes
 
 Students identify:
 
@@ -41,13 +41,13 @@ PSAT 8/9 is for Grades 8–9 and is not sent to colleges. ACT science availabili
 
 Students select one assessment relevant to a fictional pathway, explain the possible impact, and write an exact question for a counselor, institution, or official source. They do not memorize drifting cut scores.
 
-### 4. Evaluate an emerging specialty — 15 minutes
+### 4. Evaluate an emerging specialty — 18 minutes
 
 Students compare Transportation Engineers and Water/Wastewater Engineers as recognized specialties within civil engineering. They cite the documented need/technology, BLS roll-up preparation/pay context, Bright Outlook evidence, and one limitation.
 
-### 5. Exit — 5 minutes
+### 5. Exit or practice check — 5 minutes
 
-Write one accurate assessment impact and evaluate which specialty should be investigated first for a fictional North Texas infrastructure need. Cite one source detail and one limitation.
+Submit the Minor. Use the four-question practice Quiz as the five-minute check when devices are ready; otherwise write one accurate assessment impact, one specialty judgment, one source detail, and one limitation. Students do not complete both checks.
 
 ## Teacher Key
 

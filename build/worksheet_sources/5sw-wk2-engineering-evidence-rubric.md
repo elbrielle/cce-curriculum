@@ -1,16 +1,16 @@
 ---
-title: Civil Engineering Evidence Portfolio Rubric
+title: Civil Engineering Evidence Feedback Guide
 slug: 5sw-wk2-engineering-evidence-rubric
 kind: rubric
 weeks: 5sw/wk2-civil-engineering
 audience: student
 variant_of:
 language: en
-pages: 2
+pages: 1
 orientation: landscape
 ---
 
-## Four-Criterion Rubric
+## Four-Criterion Feedback Profile — Not a Grade
 
 | Criterion | 4 — Masters | 3 — Meets | 2 — Approaches | 1 — Needs Improvement | 0 — Insufficient Evidence |
 |---|---|---|---|---|---|
@@ -19,23 +19,10 @@ orientation: landscape
 | Design, test, and revision evidence | Two options, comparable result, failure evidence, and justified revision are complete | Design/result/revision evidence is clear | One evidence stage is partial | Product is present without usable reasoning | Blank, off-topic, or not submitted |
 | Career/pathway synthesis | Connects role, preparation, assessment, specialty, test evidence, and realistic next step | Makes accurate connections with evidence | Connections are partial or lightly supported | Mostly lists facts without connection | Blank, off-topic, or not submitted |
 
-Total: ____ / 16
-
-[[pagebreak]]
-
-## Submission and Feedback
-
-- [ ] career/preparation and systems evidence
-- [ ] assessment and emerging-specialty decision
-- [ ] bridge design/test/redesign record or equal fixed-data route
-- [ ] weekly synthesis and pathway next step
+## Submission and Feedback Check
 
 Physical fabrication, team result, public speaking, H&L state, drawing polish, accent, and grammar unless meaning is unclear do not determine the score.
 
-Teacher feedback:
+Check each part before submitting: [ ] career/systems · [ ] assessment/specialty · [ ] design/redesign · [ ] weekly synthesis
 
-[[lines: 6]]
-
-Student revision plan:
-
-[[lines: 6]]
+Feedback profile: ____ / 16  Strongest evidence: [____________________]  Next action: [____________________]

@@ -6,7 +6,7 @@ weeks: 5sw/wk2-civil-engineering
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 4
 orientation: portrait
 ---
 
@@ -41,6 +41,10 @@ Exact question and authorized source to check:
 
 [[lines: 5]]
 
+**Word bank:** readiness · admission · placement · exemption · eligibility · verify
+
+**Use this frame:** This result may affect [goal] because [reason]. It does not decide [boundary] by itself. I would verify [question] with [authorized source].
+
 [[pagebreak]]
 
 ## Emerging Specialty Cards
@@ -68,24 +72,16 @@ Civil-engineering specialty involving water supply, treatment, collection, and r
 
 Which specialty should a fictional North Texas community investigate first?
 
-[[lines: 6]]
+[[lines: 4]]
 
 One source detail supporting the judgment:
 
-[[lines: 4]]
-
-[[pagebreak]]
-
-## Individual Exit
-
-One accurate statement about how an assessment may affect a goal:
-
-[[lines: 5]]
-
-One accurate statement about why a specialty qualifies as emerging or Bright Outlook:
-
-[[lines: 5]]
+[[lines: 3]]
 
 One limitation or reason the evidence may change:
 
-[[lines: 5]]
+[[lines: 3]]
+
+**Word bank:** specialty · driver · Bright Outlook · roll-up data · limitation
+
+**Use this frame:** [Specialty] should be investigated first because [source detail]. The evidence is limited by [limitation], so the next check is [verification].

@@ -6,7 +6,7 @@ weeks: 5sw/wk2-civil-engineering
 audience: student
 variant_of:
 language: en
-pages: 6
+pages: 4
 orientation: landscape
 ---
 
@@ -26,41 +26,45 @@ This classroom prototype does not validate a real bridge. Real work requires lic
 - **Truss:** connected members form triangular units that can stabilize an idealized pin-jointed frame; joint/member behavior still matters.
 - **Arch:** curved form transfers compression toward supports/abutments; support behavior matters.
 
+**Word bank:** span · support · member · joint · load point · load path · weak point
+
+**Design question:** How will the complete system carry the marked load toward the supports?
+
 [[pagebreak]]
 
-## Option A — Top View
+## Option A — Top and Side Views
 
 Label 12-inch span, supports, members, joints, and marked load point.
 
-[[box: 5.0]]
+**Top view**
 
-[[pagebreak]]
+[[box: 2.25]]
 
-## Option A — Side View and Prediction
+**Side view**
 
-[[box: 4.2]]
+[[box: 2.25]]
 
 Expected load path and predicted weak point:
 
-[[lines: 3]]
+[[lines: 2]]
 
 [[pagebreak]]
 
-## Option B — Top View
+## Option B — Top and Side Views
 
 Label 12-inch span, supports, members, joints, and marked load point.
 
-[[box: 5.0]]
+**Top view**
 
-[[pagebreak]]
+[[box: 2.25]]
 
-## Option B — Side View and Prediction
+**Side view**
 
-[[box: 4.2]]
+[[box: 2.25]]
 
 Expected load path and predicted weak point:
 
-[[lines: 3]]
+[[lines: 2]]
 
 [[pagebreak]]
 
@@ -76,8 +80,10 @@ Evidence-based strength of Option B:
 
 Chosen option and reason:
 
-[[lines: 5]]
+[[lines: 4]]
 
 Career/role responsible for the next step, evidence needed, and work product:
 
-[[lines: 5]]
+[[lines: 4]]
+
+**Use this frame:** I selected Option [A/B] because [evidence]. Next, a [role] would use [evidence] to produce [work product].

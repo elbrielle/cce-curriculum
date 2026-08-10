@@ -6,8 +6,8 @@ weeks: 5sw/wk2-civil-engineering
 audience: student
 variant_of:
 language: en
-pages: 4
-orientation: portrait
+pages: 2
+orientation: landscape
 ---
 
 ## Fixed Career Evidence
@@ -25,13 +25,15 @@ Source accessed August 2026: U.S. Bureau of Labor Statistics, Civil Engineers.
 
 ## My Evidence Card
 
-One work product: _________________________________________
+**Word bank:** infrastructure · route · median · licensure · public service
 
-One preparation requirement: ______________________________
+One work product: [________________________________________________]
 
-One claim the source does **not** support:
+One preparation requirement: [_____________________________________]
 
-[[lines: 3]]
+One claim the source does **not** support: [________________________]
+
+**Use this frame:** The source supports [evidence], but it does not prove [limit].
 
 [[pagebreak]]
 
@@ -39,11 +41,7 @@ One claim the source does **not** support:
 
 Describe what problems the Engineering cluster helps solve:
 
-[[lines: 5]]
-
-Name two roles and the evidence they exchange:
-
-[[lines: 6]]
+[[lines: 2]]
 
 Current district-source distinction:
 
@@ -52,32 +50,24 @@ Current district-source distinction:
 
 How the high-school pathway can support—but not complete—the postsecondary route:
 
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Kitchen Systems Plan
-
-Use the supplied FYF appliance locations. Add cabinets without blocking the refrigerator, stove/oven, sink, dishwasher, door, or safe movement path. Create a key and show scale or relative spacing.
-
-[[box: 6.3]]
-
-[[pagebreak]]
+[[lines: 2]]
 
 ## Systems Decision
 
+Complete the cabinet plan once on FYF p. 175. Use this section only for the systems explanation.
+
+**Use this frame:** When I placed [cabinet choice], it affected [second element] because [evidence]. This model does not prove [limit].
+
 My first placement choice:
 
-[[lines: 3]]
+[[lines: 1]]
 
 The second element affected by that choice:
 
-[[lines: 3]]
+[[lines: 1]]
 
 Why I changed or kept the plan:
 
-[[lines: 6]]
+[[lines: 2]]
 
-One limit of comparing this kitchen layout with a real civil-engineering project:
-
-[[lines: 5]]
+One limit of comparing this kitchen layout with a real civil-engineering project: [____________________________]

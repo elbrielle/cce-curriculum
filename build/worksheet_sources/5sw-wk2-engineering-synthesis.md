@@ -6,7 +6,7 @@ weeks: 5sw/wk2-civil-engineering
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 3
 orientation: portrait
 ---
 
@@ -26,15 +26,9 @@ The evidence—not a team ranking—that supports my claim:
 
 [[pagebreak]]
 
-## FYF Mission to Mars — Fictional Transfer Brief
-
-This is a workbook design scenario, not current NASA reporting. Identify environment constraints and label four component needs on a future rover concept.
-
-[[box: 5.4]]
-
-[[pagebreak]]
-
 ## Rover Tradeoff
+
+Complete the rover design once on FYF p. 107. Use this section for the transfer reasoning.
 
 Two constraints:
 
@@ -48,7 +42,11 @@ One design tradeoff and evidence behind it:
 
 How the same define-test-revise cycle appears in the bridge and rover tasks:
 
-[[lines: 6]]
+[[lines: 3]]
+
+**Word bank:** constraint · tradeoff · pattern · exception · transfer
+
+**Use this frame:** Across the bridge results, [pattern] appeared, except [exception]. In the rover design, I traded [choice] for [benefit] because [constraint].
 
 [[pagebreak]]
 
@@ -56,21 +54,21 @@ How the same define-test-revise cycle appears in the bridge and rover tasks:
 
 Selected engineering career and accurate preparation fact:
 
-[[lines: 4]]
+[[lines: 3]]
 
 Assessment and possible impact on my goal:
 
-[[lines: 4]]
+[[lines: 3]]
 
 Emerging specialty and evidence that qualifies it:
 
-[[lines: 4]]
+[[lines: 3]]
 
 Bridge result and supported redesign:
 
-[[lines: 4]]
+[[lines: 3]]
 
-[[pagebreak]]
+**Use this frame:** A [career] commonly needs [preparation]. [Assessment] may affect [goal], but I must verify [boundary]. [Specialty] is changing because [driver]. My redesign uses [result evidence].
 
 ## Pathway Next Step
 
@@ -78,10 +76,8 @@ MacArthur public page label: **Engineering**
 
 2026–27 coursebook label: **Civil Engineering**
 
-How this high-school pathway can support preparation without completing the bachelor’s/licensure route:
+**Use this frame:** The high-school pathway can help me [preparation step], but I would still need [postsecondary step]. I would verify [question] with [authorized source].
 
-[[lines: 7]]
+How this high-school pathway can support preparation without completing the bachelor’s/licensure route, including one detail I would verify with a counselor or current program contact:
 
-One exact question I would ask a counselor or current program contact:
-
-[[lines: 5]]
+[[lines: 3]]

@@ -4,8 +4,8 @@
 
 - **Topic:** Career Opportunities
 - **Objective:** Students will record a standardized result and use failure evidence to justify a redesign.
-- **TEKS:** d(1)(C) reinforcement
-- **Demonstration of Learning:** Team result or sample-data analysis + individual redesign.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Fixed-data failure analysis + individual redesign and career-role limit.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -13,8 +13,8 @@
 |---|---|
 | **Time** | 50 minutes |
 | **Target** | Record a standardized result and use failure evidence to justify a redesign. |
-| **TEKS** | d(1)(C) reinforcement |
-| **Evidence** | Team result or sample-data analysis + individual redesign |
+| **TEKS** | d(1)(C) |
+| **Evidence** | Fixed-data failure analysis + individual redesign and career-role limit |
 
 ## Safety and Measurement Protocol
 
@@ -26,7 +26,7 @@
 - Never use textbooks, a scale placed on the bridge, or movable desks.
 - Inspect dropped weights and clean the station before the next team.
 
-If the room cannot meet every condition, use the supplied three-bridge photos/specifications/results. Both routes are equal.
+The supplied three-bridge specifications and results are the complete default route. A physical test is an optional teacher demonstration only when every condition and the class schedule have been tested before class.
 
 ## 50-Minute Flow
 
@@ -34,15 +34,15 @@ If the room cannot meet every condition, use the supplied three-bridge photos/sp
 
 Students restate the load unit, stop rule, cap, keep-clear zone, and their role.
 
-### 2. Build or analyze — 25 minutes
+### 2. Predict and analyze — 20 minutes
 
-Physical teams build from the approved design with prepacked materials and visible checkpoints. Fixed-data teams inspect three supplied designs, predict the result, and identify comparable variables.
+Students inspect three supplied designs, predict the result, and identify comparable and uncontrolled variables. If the optional demonstration is ready, the teacher tests one prepared example while students use the same observation fields.
 
-### 3. Standardized test/results — 10 minutes
+### 3. Reveal standardized results — 10 minutes
 
-Teacher runs the controlled test or students reveal the sample results. Record anonymous team/sample code, maximum completed load stage, stop reason, first failed element, and observation. Do not rank students publicly.
+Students reveal the sample results. Record sample code, maximum completed load stage, stop reason, first failed or limited element, and observation. Do not rank students publicly.
 
-### 4. Individual redesign — 5 minutes
+### 4. Individual redesign — 10 minutes
 
 Each student names one change, the result evidence behind it, and the expected effect. Different redesigns may be valid.
 
