@@ -6,110 +6,78 @@ weeks: 6sw/wk3-marketing
 audience: student
 variant_of:
 language: en
-pages: 6
+pages: 2
 orientation: portrait
 ---
 
-## Fictional Little Library Brief
+## Page 1 - Revise a Fictional Little Library Message
 
-The library is a classroom scenario. Do not publish a post, reveal a real location, photograph a child, identify a resident, create an account, or invite direct contact.
+**Default:** Complete FYF pp. 147-148. This companion adds revision and changing-condition evidence; locked Canvas images support absence.
 
-Supplied status: the fictional library has many adult mystery books, very few children's books, and room for about 20 donations. The community needs a clear message that asks for gently used children's books without promising acceptance of every item.
+**Fictional status:** many adult mystery books, few children's books, and room for about 20 donations. Ask safely for gently used children's books; do not promise that every item will be accepted.
 
-Audience and information the reader needs:
+### See one communication chain
 
-[[lines: 6]]
+| Purpose | Audience | Important detail | Safe action |
+|---|---|---|---|
+| increase children's-book choices | nearby families | room for about 20 donations | use the fictional classroom drop-off route |
 
-[[pagebreak]]
+### Check and revise
 
-## Draft and Revise the Message
+**One useful detail in my FYF message:**
 
-Draft: status + truthful CTA + two useful fictional hashtags
+[[lines: 1]]
 
-[[lines: 9]]
+**One clarity, privacy, or access issue I found:**
 
-Checklist:
+[[lines: 1]]
 
-- [ ] reader can understand the status;
-- [ ] requested action is specific and safe;
-- [ ] no real address/contact/person appears;
-- [ ] concise and on topic;
-- [ ] proofread and accessible without hashtags.
+**Revised message:** Include status + truthful action. No real names, locations, handles, photos, hashtags needed for meaning, or contact information.
 
-Revised message:
+[[lines: 4]]
 
-[[lines: 9]]
-
-[[pagebreak]]
-
-## Current Labor Evidence
-
-Current BLS evidence for **Market Research Analysts and Marketing Specialists**:
-
-- May 2024 U.S. median annual wage: **$76,950**;
-- typical entry-level education: **bachelor's degree**;
-- projected employment growth, 2024-34: **7%**;
-- average annual openings projected over the decade: **about 87,200**;
-- BLS connects growth to increased use of data and market research across industries, including analysis of large data sets such as online reviews and social-media comments.
-
-These are national occupation measures—not DFW starting pay, live vacancies, a shortage, or a guarantee.
-
-One supported conclusion:
-
-[[lines: 5]]
-
-One limitation:
-
-[[lines: 5]]
+> **Word bank:** purpose/propósito · audience/audiencia · detail/detalle · revise/revisar · accessible/accesible
+>
+> **Use this frame:** I changed **[word/detail/format]** so **[audience]** can **[understand or act]** without **[risk or confusion]**.
 
 [[pagebreak]]
 
-## Scenario A — Economic Pressure
+## Page 2 - Compare Two Changing Conditions
 
-Fictional condition: a small entertainment company cuts its campaign budget by 20% after customers reduce discretionary spending. It still must retain current customers and measure which messages produce sales.
+### Current career evidence
 
-Two marketing tasks that may become more important:
+**Market Research Analysts and Marketing Specialists:** May 2024 U.S. median **$76,950**; bachelor's degree typical; **7%** projected growth, 2024-34; about **87,200** annual openings. Not DFW starting pay, live vacancies, a shortage, or a guarantee.
 
-[[lines: 6]]
+**One conclusion the evidence supports:**
 
-One task, channel, or role that may be reduced or changed and why:
+[[lines: 1]]
 
-[[lines: 6]]
+### Condition A - Economic pressure
 
-One skill that makes a worker more adaptable:
+A fictional entertainment company cuts its campaign budget by 20% after customers reduce optional spending. It still needs to keep customers and measure which messages produce sales.
 
-[[lines: 5]]
+**Likely work or hiring effect + why:**
 
-[[pagebreak]]
+[[lines: 2]]
 
-## Scenario B — Societal and Technology Change
+### Condition B - Societal and technology change
 
-Fictional condition: customers increasingly expect accessible mobile content, clear privacy choices, and evidence that a recommendation is trustworthy. The company also has new automated content tools, but people must still check audience fit, accuracy, bias, copyright, and results.
+Customers increasingly expect accessible mobile content, clear privacy choices, and trustworthy evidence. Automated content tools are available, but people must still check audience fit, accuracy, bias, copyright, and results.
 
-Two work tasks or skills likely to change:
+**Likely skill or career-choice effect + why:**
 
-[[lines: 7]]
+[[lines: 2]]
 
-One reason human review remains necessary:
+### Compare and prepare
 
-[[lines: 5]]
+**How the conditions affect marketing work differently:**
 
-How this condition could affect a career choice or training plan:
+[[lines: 2]]
 
-[[lines: 6]]
+**Preparation recommendation:** Name one marketing career/work product and one skill or learning step connected to a condition.
 
-[[pagebreak]]
+[[lines: 2]]
 
-## Compare the Conditions
-
-Economic pressure changes employment or work because:
-
-[[lines: 6]]
-
-Societal/technology change affects work differently because:
-
-[[lines: 6]]
-
-My evidence-based preparation recommendation for a fictional student:
-
-[[lines: 8]]
+> **Word bank:** budget/presupuesto · demand/demanda · channel/canal · privacy/privacidad · adapt/adaptarse
+>
+> **Use this frame:** Economic pressure may change **[work/hiring]** because **[evidence]**. The societal or technology change instead requires **[skill/action]** because **[reason]**.

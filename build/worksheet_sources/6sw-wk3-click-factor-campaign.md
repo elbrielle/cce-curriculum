@@ -1,121 +1,94 @@
 ---
-title: Click Factor CTA and Ad Plan
+title: Click Factor - Audience Test and Revision
 slug: 6sw-wk3-click-factor-campaign
 kind: worksheet
 weeks: 6sw/wk3-marketing
 audience: student
 variant_of:
 language: en
-pages: 6
+pages: 2
 orientation: portrait
 ---
 
-## Audience, Action, and Ethical Boundary
+## Page 1 - Audience, Message, and Truth Check
 
-A call to action tells an audience what to do next. This is a fictional classroom campaign. Do not create a real ad, account, link, QR code, purchase offer, discount, testimonial, tracking claim, or collection of personal data.
+**Default route:** Complete Click Factor in FYF pp. 225-227 and 230. Use this companion for the individual audience, ethics, test, and career evidence the workbook does not collect. The locked Canvas images plus this page are the no-workbook route.
 
-Five CTA approaches: benefit, urgency, curiosity, direct command, and incentive. Urgency and incentives must be truthful; do not invent scarcity, deadlines, savings, guarantees, or popularity.
+### See one
 
-One difference between grabbing attention and helping someone make an informed choice:
+| Audience | Accurate fact | CTA | Why it works |
+|---|---|---|---|
+| busy students | weekly sweet/salty snack delivery | Compare this week's snack-box mix. | It gives a truthful next action without inventing urgency or popularity. |
 
-[[lines: 6]]
+### Build your audience-message chain
 
-[[pagebreak]]
+**Product and intended audience:**
 
-## Product A and Product B
+[[lines: 1]]
 
-**A — Local Car Wash:** fast service, affordable prices, near a busy road.
-
-CTA 1 + type + audience reason:
-
-[[lines: 5]]
-
-CTA 2 + different type + audience reason:
-
-[[lines: 5]]
-
-**B — Cooking Class:** meets weekly, makes five desserts, uses unusual ingredients.
-
-CTA 1 + type + audience reason:
-
-[[lines: 5]]
-
-CTA 2 + different type + audience reason:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Product C and Product D
-
-**C — After-School Snack Box:** weekly delivery, sweet/salty mix, busy-student audience.
-
-CTA 1 + type + audience reason:
-
-[[lines: 5]]
-
-CTA 2 + different type + audience reason:
-
-[[lines: 5]]
-
-**D — Fishing Gear:** monthly subscription, hooks/bobbers/worms/line, family audience.
-
-CTA 1 + type + audience reason:
-
-[[lines: 5]]
-
-CTA 2 + different type + audience reason:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Select One Product and Plan the Ad
-
-Product and intended audience:
-
-[[lines: 3]]
-
-Headline:
+**Two facts from the supplied product brief:**
 
 [[lines: 2]]
 
-Short accurate description:
+**Selected CTA and type:** benefit / urgency / curiosity / direct command / incentive
 
-[[lines: 4]]
+[[lines: 1]]
 
-Selected CTA and type:
+**Why this wording fits the audience:**
 
-[[lines: 3]]
+[[lines: 1]]
 
-Why this wording fits the audience without misleading them:
+### Truth and access check
 
-[[lines: 5]]
+- [ ] The CTA uses only supplied facts.
+- [ ] No invented scarcity, deadline, discount, popularity, testimonial, or guarantee.
+- [ ] No real account, link, QR code, purchase, tracking, or personal data.
+- [ ] The message works without color alone and the main action is easy to find.
+
+> **Word bank:** audience/audiencia · accurate/exacto · benefit/beneficio · evidence/evidencia
+>
+> **Use this frame:** This CTA fits **[audience]** because **[supplied fact or need]**. It avoids **[unsupported claim]**.
 
 [[pagebreak]]
 
-## Ad Mock-Up
+## Page 2 - Test, Revise, and Connect to a Career
 
-Label headline, description, CTA, visual hierarchy, and one access feature. Canva, Adobe Express, and paper are equal.
+### Three-second test
 
-[[box: 5.3]]
+Cover the explanation. Let a partner, teacher, or self-check view the ad for three seconds.
 
-[[pagebreak]]
+**What the viewer noticed or thought the ad asked them to do:**
 
-## Test and Revise
+[[lines: 1]]
 
-What a viewer noticed or understood in three seconds:
+**One part that was confusing, unsupported, or hard to find:**
 
-[[lines: 5]]
+[[lines: 1]]
 
-One confusing, unsupported, or weak part:
+### Visible revision
 
-[[lines: 5]]
+**Before:**
 
-My revision and why it helps:
+[[lines: 1]]
 
-[[lines: 6]]
+**After:**
 
-One marketing career that contributes and what the worker produces:
+[[lines: 1]]
 
-[[lines: 5]]
+**Why the change helps this audience:** Use: I changed **[revision]** so **[audience effect]**.
+
+[[lines: 1]]
+
+### Career connection
+
+Choose one: marketing specialist · copywriter · graphic designer · market research analyst
+
+**Career and work product:**
+
+[[lines: 1]]
+
+**How the worker would use the test evidence next:**
+
+[[lines: 1]]
+
+**Done when:** FYF work or no-workbook route + audience-message chain + truth/access check + test evidence + visible revision + career connection.

@@ -1,131 +1,81 @@
 ---
-title: Family Fun Pass Data Analysis
+title: Family Fun Pass - Evidence Decision and Test Plan
 slug: 6sw-wk3-family-fun-pass-analysis
 kind: worksheet
 weeks: 6sw/wk3-marketing
 audience: student
 variant_of:
 language: en
-pages: 6
+pages: 2
 orientation: landscape
 ---
 
-## Workbook Scenario and Data Limit
+## Page 1 - Goal First, Then Evidence
 
-The Family Fun Pass, preferences, campaign results, and quotes are fictional workbook data. They support a classroom decision—not a real launch or universal claim about age groups.
+**Default:** Complete FYF p. 229, then p. 228. This companion adds the individual decision, limitation, test, and career evidence; locked Canvas images support absence.
 
-### Audience Preference by Age (%)
+All Family Fun Pass data are fictional workbook evidence, not a real launch or a universal age-group claim.
 
-| Age | Social Ads | Influencers | In-Store | Email | Video Ads |
-|---|---:|---:|---:|---:|---:|
-| 25-34 | 65 | 45 | 40 | 38 | 60 |
-| 35-49 | 50 | 30 | 55 | 52 | 48 |
-| 50+ | 32 | 18 | 70 | 66 | 35 |
+### See one
 
-### Past Campaign Performance
+| Goal | Relevant measure | What it can show | What it cannot prove |
+|---|---|---|---|
+| increase clicks | past clicks | which past strategy produced more clicks | that the same strategy will always work or produce the most sales |
 
-| Campaign | Clicks | Sales | Engagement |
-|---|---:|---:|---|
-| Social Media Ads | 12,500 | 1,200 | High |
-| Influencer Campaign | 9,800 | 1,450 | Very High |
-| In-Store Promotion | 4,200 | 1,100 | Medium |
-| Email Campaign | 6,000 | 950 | Medium |
-| Video Ads | 10,200 | 1,050 | High |
+### Set the decision
 
-One pattern and one limitation: ________________________________________________
+**Primary goal:** awareness / clicks / sales / trust / broad age reach
 
-[[pagebreak]]
+**Three strategies compared in FYF:**
 
-## Read the Three Evidence Types
+[[lines: 1]]
 
-Focus-group quotes include trust in recommendations, emails being lost unless interesting, short videos catching attention, family deals simplifying planning, and in-store discovery.
+**Chosen strategy:** ____________________
 
-What the preference table can answer:
+### Build an evidence stack
 
-[[lines: 2]]
-
-What the past-performance table can answer:
-
-[[lines: 2]]
-
-What the quotes add—and cannot prove:
-
-[[lines: 3]]
+| Evidence job | Exact value, quote, or pattern | What it supports |
+|---|---|---|
+| Number 1 | | |
+| Number 2 | | |
+| Quote or pattern | | |
 
 [[pagebreak]]
 
-## Compare Three Strategies
+## Page 2 - Conflict, Limitation, and Next Test
 
-Strategy 1: ____________________ Two supporting values/quotes:
+> **Word bank:** goal/meta · clicks/clics · sales/ventas · evidence/evidencia · measure/medida
+>
+> **Use this frame:** For the goal **[goal]**, I recommend **[strategy]** because **[number]** shows **[meaning]** and **[second evidence]** adds **[meaning]**.
 
-[[lines: 2]]
+### When evidence disagrees
 
-Strength and weakness:
+**One conflict between preference, performance, or quote evidence:**
 
-[[lines: 2]]
+[[lines: 1]]
 
-Strategy 2: ____________________ Two supporting values/quotes:
+**My decision rule:** Which evidence wins for this goal, and why?
 
-[[lines: 2]]
+[[lines: 1]]
 
-Strength and weakness:
+### Keep uncertainty visible
 
-[[lines: 2]]
+**One limitation:**
 
-Strategy 3: ____________________ Two supporting values/quotes:
+[[lines: 1]]
 
-[[lines: 2]]
+**One small next test and the exact result to measure:**
 
-Strength and weakness:
+[[lines: 1]]
 
-[[lines: 2]]
+### Career connection
 
-[[pagebreak]]
+Choose one: market research analyst · marketing specialist · media planner · advertising specialist
 
-## Choose and Defend
+**Career and work product:**
 
-Primary goal selected: awareness / clicks / sales / trust / broad age reach
+[[lines: 1]]
 
-Chosen strategy:
+**How the worker would use the test result next:**
 
-[[lines: 3]]
-
-Three pieces of evidence, including at least two numbers:
-
-[[lines: 5]]
-
-Why the goal changes which number matters most:
-
-[[lines: 3]]
-
-[[pagebreak]]
-
-## Conflicting Evidence and Test Plan
-
-One conflict in the data:
-
-[[lines: 3]]
-
-My decision rule for resolving it:
-
-[[lines: 3]]
-
-One small test and result I would measure next:
-
-[[lines: 4]]
-
-[[pagebreak]]
-
-## Individual Evidence Brief
-
-Strategy, audience, goal, and key message:
-
-[[lines: 4]]
-
-Evidence-based reasoning:
-
-[[lines: 5]]
-
-One limitation and next data question:
-
-[[lines: 3]]
+[[lines: 1]]

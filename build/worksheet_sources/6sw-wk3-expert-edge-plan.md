@@ -1,113 +1,89 @@
 ---
-title: Expert Edge Consulting Plan
+title: Expert Edge - Opportunity, Responsibility, and Revision
 slug: 6sw-wk3-expert-edge-plan
 kind: worksheet
 weeks: 6sw/wk3-marketing
 audience: student
 variant_of:
 language: en
-pages: 6
+pages: 2
 orientation: portrait
 ---
 
-## Entrepreneurship Boundary and Skill Evidence
+## Page 1 - Opportunity with Boundaries
 
-Entrepreneurship involves identifying an opportunity and organizing resources to offer value while accepting responsibility and risk. This is a fictional plan. Students do not sell, contact clients, collect payment/data, promise results, or use a real address/account.
+**Default route:** Complete Expert Edge in FYF pp. 222-224. Use this companion for the individual opportunity, responsibility, risk, boundary, and career evidence the workbook does not collect. The locked Canvas images plus this page are the no-workbook route.
 
-Three real skills or interests and evidence that each is true:
+### See the parts
 
-[[lines: 10]]
+| Skill | Audience need | Deliverable | Opportunity |
+|---|---|---|---|
+| organizing digital photos | a family needs a clear album plan | labeled folder and album outline | offer a fictional planning service with clear limits |
 
-Selected skill and person/problem it could help:
+**Specific deliverable from my FYF plan:**
 
-[[lines: 6]]
+[[lines: 1]]
 
-[[pagebreak]]
+**Why this is an opportunity, not only a topic or hobby:**
 
-## Service and Customer Need
+[[lines: 2]]
 
-Fictional service name: ______________________________________________
+### Responsibility and risk
 
-Specific deliverable the client receives:
+**One owner responsibility:**
 
-[[lines: 6]]
+[[lines: 1]]
 
-Customer need and how the service responds:
+**One risk or uncertainty:**
 
-[[lines: 6]]
+[[lines: 1]]
 
-One boundary—what the service will not claim or do:
+**One control or boundary:**
 
-[[lines: 5]]
+[[lines: 1]]
 
-[[pagebreak]]
-
-## Mission, Price Scenario, and Add-On
-
-Mission statement: who is served, what is provided, and why
-
-[[lines: 6]]
-
-Fictional price and unit: _____________________________________________
-
-Supplied cost/time assumptions used to explain the price:
-
-[[lines: 6]]
-
-Optional add-on and its extra time/cost:
-
-[[lines: 5]]
-
-Why this is classroom math rather than a real market price or income promise:
-
-[[lines: 5]]
+> **Word bank:** opportunity/oportunidad · deliverable/producto entregable · responsibility/responsabilidad · risk/riesgo · control/control
+>
+> **Use this frame:** This is an opportunity because **[audience]** needs **[deliverable]**. The owner must **[responsibility]** and control **[risk]** by **[action]**.
 
 [[pagebreak]]
 
-## Original Brand Sketch
+## Page 2 - Private Test, Revision, and Career Connection
 
-Create an original mark. Do not copy a real logo, mascot, character, or trademark.
+This is a classroom plan, not a business launch. Do not sell, collect payment or data, contact clients, create an account, publish a promotion, promise income/results, or copy a real logo, character, brand, or trademark.
 
-[[box: 5.3]]
+### Test the plan
 
-Colors/shapes/type and what they communicate:
+Use a teacher conference, partner review, or self-check. Oral delivery is optional and is not scored.
 
-[[lines: 5]]
+- [ ] audience, need, and deliverable are distinct;
+- [ ] fictional price includes a unit and is not an income promise;
+- [ ] responsibility, risk, and control are visible;
+- [ ] original mark does not copy a real identity;
+- [ ] message says what the service will and will not do.
 
-[[pagebreak]]
+**Feedback or self-check evidence:**
 
-## Opportunity, Responsibility, and Risk
+[[lines: 2]]
 
-One opportunity and supporting evidence:
+**Visible revision:**
 
-[[lines: 6]]
+[[lines: 2]]
 
-Two owner responsibilities:
+**Why the revision makes the plan clearer or safer:**
 
-[[lines: 6]]
+[[lines: 1]]
 
-One risk or uncertainty:
+### Career connection
 
-[[lines: 5]]
+Choose one: marketing specialist · brand strategist · graphic designer · market research analyst
 
-One qualified adult/source a real entrepreneur would consult:
+**Career, work product, and next use of this evidence:**
 
-[[lines: 5]]
+[[lines: 2]]
 
-[[pagebreak]]
+**One qualified adult or source a real entrepreneur would consult before acting:**
 
-## Private Evidence Pitch and Revision
+[[lines: 1]]
 
-Use a teacher conference, audio, recorded media, AAC, or equivalent written route. This week does not claim the oral-presentation TEK.
-
-30-45 second / 4-6 sentence evidence pitch:
-
-[[lines: 10]]
-
-Feedback or self-check:
-
-[[lines: 5]]
-
-One revision and why:
-
-[[lines: 6]]
+**Done when:** FYF work or no-workbook route + opportunity chain + responsibility/risk/control + private test + visible revision + career connection.

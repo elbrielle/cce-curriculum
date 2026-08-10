@@ -2,13 +2,13 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters and define entrepreneurship and identify entrepreneurial opportunities in a field of personal interest using evidence from Career Opportunities.
+- **Topic:** Ethical Marketing
+- **Objective:** Students will create an evidence brief that identifies a marketing career and entrepreneurial opportunity, explains an ethical audience message and data-informed decision, and analyzes distinct effects of economic and societal or technology change.
 - **TEKS:** d(1)(C), d(3)(I), d(5)(C)
-- **Demonstration of Learning:** four-page individual brief and 16-point self-score/revision record.
+- **Demonstration of Learning:** private four-page Marketing Evidence Brief plus a 16-point self-score and one visible evidence-based revision.
 <!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(1)(C), d(3)(I), d(5)(C)
-**Evidence:** four-page individual brief and 16-point self-score/revision record
+**Evidence:** four-page Marketing Evidence Brief plus 16-point self-score and visible revision
 
 ## Before Class
 

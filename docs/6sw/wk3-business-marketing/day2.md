@@ -2,17 +2,17 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters and analyze how changing employment trends, societal needs, and economic conditions affect career choices using evidence from Career Opportunities.
+- **Topic:** Changing Conditions
+- **Objective:** Students will identify a marketing career opportunity and analyze how one economic condition and one societal or technology condition could change marketing work and preparation.
 - **TEKS:** d(1)(C), d(5)(C)
-- **Demonstration of Learning:** fictional Little Library message plus fixed-source economic and societal/technology comparison.
+- **Demonstration of Learning:** completed FYF Little Library message plus a two-page individual revision, fixed-source condition comparison, preparation recommendation, and career connection.
 <!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(1)(C), d(5)(C)
-**Evidence:** fictional Little Library message plus fixed-source economic and societal/technology comparison
+**Evidence:** FYF Little Library message plus two-page revision and changing-conditions comparison
 
 ## Before Class
 
-Open locked FYF pp. 147-148. Post the six-page packet and retryable practice Quiz. The Little Library status is fictional; students do not use real accounts, names, locations, handles, photos, hashtags, or contact information.
+Have students open FYF pp. 147-148. Post the two-page companion as Canvas-first with print fallback and the retryable practice Quiz. The Little Library status is fictional; students do not use real accounts, names, locations, handles, photos, or contact information.
 
 ## 50-Minute Flow
 
@@ -29,4 +29,4 @@ Accept several message versions if they state the fictional status, intended aud
 
 ## Absence and Access
 
-The packet includes the scenario, current evidence, vocabulary, and response space. Use typing, dictation, read-aloud, enlarged print, or paper. The Quiz is practice, not the only evidence.
+The locked FYF pages plus the two-page companion form the no-workbook route. Use typing, dictation, read-aloud, enlarged print, or paper. The Quiz replaces the final misconception check when used; it is practice, not the only evidence.

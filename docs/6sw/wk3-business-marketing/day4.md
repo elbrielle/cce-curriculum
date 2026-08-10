@@ -2,17 +2,17 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **Topic:** Data-Informed Decisions
+- **Objective:** Students will identify how a marketing career uses preference, performance, and qualitative evidence to choose a strategy, name a limitation, and plan a next test.
 - **TEKS:** d(1)(C)
-- **Demonstration of Learning:** six-page individual analysis using preference, performance, and qualitative evidence.
+- **Demonstration of Learning:** completed FYF Family Fun Pass work plus a two-page individual goal, three-point evidence stack, decision rule, limitation, next test, and career connection.
 <!-- CCE DAILY CONTRACT END -->
 **TEKS:** d(1)(C)
-**Evidence:** six-page individual analysis using preference, performance, and qualitative evidence
+**Evidence:** FYF Family Fun Pass work plus two-page evidence decision and next-test plan
 
 ## Before Class
 
-Open locked FYF pp. 229 and 228 in that order. Post the landscape data packet and private annotation Assignment. Tell students that all Family Fun Pass data are fictional workbook evidence, not universal claims about age groups.
+Have students open FYF p. 229 and then p. 228. Post the two-page landscape companion as Canvas-first with print fallback and the private annotation Assignment. All Family Fun Pass data are fictional workbook evidence, not universal claims about age groups.
 
 ## 50-Minute Flow
 
@@ -29,4 +29,4 @@ There is no single best strategy until a goal is named. Influencer has the most 
 
 ## Absence and Access
 
-The packet reproduces all required fictional data and has full-width writing fields. Students do not need the workbook, H&L, Xello, or an open web search.
+The locked FYF pages plus the two-page companion form the no-workbook route. Students do not need H&L, Xello, or an open web search.

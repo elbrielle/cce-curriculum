@@ -28,11 +28,11 @@ I can identify marketing careers, write and revise an ethical audience-specific 
 - Students do not create a real account, ad, post, sale, payment, contact form, QR code, testimonial, tracking claim, or collection of personal data.
 - Urgency, incentives, price, popularity, income, and scarcity claims must be truthful and bounded. Expert Edge uses a fictional classroom plan, not a real business launch.
 - Canva, Adobe Express, plain text, and paper are equal. Graphic polish is not scored.
-- Current Irving evidence names Business Management and Marketing at Irving and Nimitz, and Business/Retail/Entrepreneurship at MacArthur. Public listings do not guarantee schedule, credential, placement, admission, or employment.
+- FYF remains the student-facing pathway story. The current MacArthur page lists Administrative Management, Entrepreneurship, Real Estate Marketing, and Sales Management under Business and Entrepreneurship; Digital Communication is a separate Arts/AV pathway. Public listings do not guarantee schedule, credential, placement, admission, or employment.
 
 ## Materials
 
-- Canvas paired guides and six CCE packets
+- Canvas paired guides, four two-page companions, the four-page Minor 3 brief, and the two-page rubric
 - locked compressed FYF pp. 147-148, 222-230
 - Chromebook or paper; optional Canva/Adobe Express; pencils/markers
 - current BLS Market Research Analysts and Irving ISD CTE pages
@@ -44,4 +44,4 @@ Days 1-4 build the evidence. Day 5 is **Minor 3** in the [6SW assessment map](..
 ## Current Sources
 
 - [BLS Market Research Analysts](https://www.bls.gov/ooh/business-and-financial/market-research-analysts.htm)
-- [Irving ISD High School CTE](https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte)
+- [Irving ISD MacArthur High School CTE](https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte/macarthur-high-school)

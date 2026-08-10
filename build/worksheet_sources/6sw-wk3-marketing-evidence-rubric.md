@@ -23,6 +23,8 @@ Total: ____ / 16
 
 This is Minor 3 in the approved sixth-six-weeks assessment map. It remains unpublished until the Canvas review gate passes.
 
+Score evidence and reasoning. Graphic polish, platform access, public speaking, personal business experience, and English mechanics are not scored unless meaning is unclear.
+
 [[pagebreak]]
 
 ## Submission Check

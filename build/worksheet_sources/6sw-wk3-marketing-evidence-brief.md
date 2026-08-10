@@ -12,6 +12,8 @@ orientation: portrait
 
 ## Career, Audience, and Ethical Message
 
+**Current source card:** Market Research Analysts and Marketing Specialists - May 2024 U.S. median $76,950; bachelor's degree typical; 7% projected growth, 2024-34; about 87,200 openings per year on average. These are national occupation measures, not DFW starting pay or a guarantee.
+
 Marketing career selected: ___________________________________________
 
 Work product or responsibility:
@@ -38,13 +40,17 @@ One tested revision and evidence:
 
 [[lines: 2]]
 
+> **Word bank:** audience/audiencia · work product/producto de trabajo · accurate/exacto · limitation/limitación
+>
+> **Use this frame:** The **[career]** creates or studies **[work product]** for **[audience]**. I revised **[message]** after **[test evidence]**.
+
 [[pagebreak]]
 
 ## Entrepreneurship Evidence
 
 Opportunity and customer need:
 
-[[lines: 4]]
+[[lines: 3]]
 
 Specific deliverable:
 
@@ -53,6 +59,8 @@ Specific deliverable:
 Responsibility, risk, control, and price limitation:
 
 [[lines: 6]]
+
+> **Use this frame:** The opportunity responds to **[need]** with **[deliverable]**. The owner must **[responsibility]** and control **[risk]** by **[action]**.
 
 [[pagebreak]]
 
@@ -76,7 +84,11 @@ Quote/pattern + what it adds:
 
 Conflict, limitation, and next test:
 
-[[lines: 4]]
+[[lines: 3]]
+
+> **Word bank:** goal/meta · strategy/estrategia · measure/medida · evidence/evidencia · test/prueba
+>
+> **Use this frame:** For the goal **[goal]**, **[strategy]** is supported by **[number]** and **[second evidence]**. The limit is **[limit]**, so I would test **[next result]**.
 
 [[pagebreak]]
 
@@ -84,22 +96,24 @@ Conflict, limitation, and next test:
 
 How economic pressure could change marketing work or hiring:
 
-[[lines: 4]]
+[[lines: 3]]
 
 How societal/technology change could change skills or career choices:
 
-[[lines: 4]]
+[[lines: 3]]
 
 One preparation recommendation:
 
-[[lines: 3]]
+[[lines: 2]]
+
+> **Use this frame:** Economic pressure may change **[work/hiring]** because **[evidence]**. Societal or technology change instead requires **[skill/action]** because **[reason]**.
 
 ## Final Reflection and Revision
 
 Use evidence from CTA, entrepreneurship, data, and changing conditions to explain whether this direction currently fits. Preference itself is not scored.
 
-[[lines: 5]]
+[[lines: 3]]
 
 One visible revision after self-scoring:
 
-[[lines: 3]]
+[[lines: 2]]
