@@ -16,10 +16,10 @@ Student: _______________________ Period: ______ Total: ______ / 16 Date: _______
 
 | Criterion | 4 - Masters | 3 - Meets | 2 - Approaches | 1 - Needs Improvement |
 |---|---|---|---|---|
-| **Bootcamp plan** | Names one audience and need; two measurable goals, activity, place/time, and accurate safety action all fit together. | Plan is complete; one choice is general or only partly connected. | Several parts are present, but the audience, goals, or activity do not align. | Evidence is minimal, unsafe, or too incomplete to evaluate. |
-| **Flyer and integrity** | Original/credited words and visuals clearly show the audience, topic, time/place, and safe sign-up method. | Required flyer information is present; one part is hard to find or general. | Two required parts are missing, or reused work is not credited. | Flyer is missing, mostly copied, or includes unsafe personal contact information. |
+| **Bootcamp plan** | Audience, need, two goals, activity, accurate advice, and a specific behind-the-scenes work task all fit together. | Plan is complete; one choice is general or only partly connected. | Several parts are present, but the audience, goals, activity, or work task do not align. | Evidence is minimal, unsafe, or too incomplete to evaluate. |
+| **Flyer and integrity** | Original/credited words and visuals show the audience, topic, time/place, safe sign-up, and a clear privacy or integrity rule. | Required flyer information and an integrity rule are present; one part is hard to find or general. | Two required parts are missing, or reused work is not credited. | Flyer is missing, mostly copied, or includes unsafe personal contact information. |
 | **Postsecondary goal and artifact** | Original logo/symbol represents a specific goal and names an Irving ISD course, program, or experience to investigate. | Specific goal and original artifact are clear; pathway connection is general. | Goal or artifact is general, but a connection can be identified. | Goal/artifact is missing or copied with no explanation. |
-| **Career reflection** | Uses specific evidence from the six weeks to explain a changed idea, a current interest decision, and a next step. | Answers all prompts with at least one specific example. | Answers are partly complete or mostly general. | Evidence is minimal or too incomplete to evaluate. |
+| **Career reflection and transitions** | Uses specific six-weeks evidence, explains a current interest decision, and gives realistic middle-to-high-school and high-school-to-next-step actions. | Answers all prompts with evidence and two transition steps; one step is general. | Answers are partly complete, mostly general, or include only one transition step. | Evidence or transition steps are too incomplete to evaluate. |
 
 ## Gradebook Conversion
 
@@ -48,4 +48,4 @@ Convert the score to a percentage when entering the major grade:
 - **Plan:** name one audience before choosing activities.
 - **Integrity:** replace copied content or personal contact details with original/credited content and a fictional or teacher-approved sign-up route.
 - **Goal:** complete the goal sentence before opening a design tool.
-- **Reflection:** place the Week 0 response beside the update and ask for one specific change.
+- **Reflection:** use the recovery box when Week 0 evidence is missing; then require one specific change and both transition steps.
