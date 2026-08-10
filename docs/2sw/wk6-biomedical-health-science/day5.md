@@ -5,7 +5,7 @@
 - **Topic:** Career Assessment
 - **Objective:** Students will analyze and discuss the initial results of career assessments using evidence from Career Assessment.
 - **TEKS:** d(1)(A)
-- **Demonstration of Learning:** Xello Explore career matches completion + Explore Career Matches Reflection.
+- **Demonstration of Learning:** Xello Explore career matches completion plus submitted private Canvas reflection.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -15,7 +15,7 @@
 | **Objectives** | Complete Xello's required Grade 8 Explore career matches lesson; use Find out why to examine one match; explain whether evidence changed the student's thinking |
 | **TEKS** | d(1)(A) |
 | **5E Phases** | Engage: Warm-Up · Explore: Required Xello lesson · Explain: Private reflection · Evaluate: Exit Ticket |
-| **Deliverable** | Xello Explore career matches completion + [Explore Career Matches Reflection](../../resources/worksheets/2sw-wk6-xello-career-matches-reflection.pdf) |
+| **Deliverable** | Xello Explore career matches completion plus private Canvas reflection; [optional one-page paper route](../../resources/worksheets/2sw-wk6-xello-career-matches-reflection.pdf) |
 | **Materials** | Chromebooks, Xello accounts, official Xello student video, Irving-adapted slide deck, one-page student directions, reflection sheet |
 
 ---
@@ -27,6 +27,7 @@
 3. Open the locked Canvas resource package: facilitator guide, Irving-adapted slides, one-page student directions, and official student video.
 4. Test ClassLink to Xello on the student network.
 5. Keep the full resource's 120-minute option separate from today's required 35-minute district minimum.
+6. Open the unpublished private reflection assignment. Print the one-page reflection only when assigning paper.
 
 ## Warm-Up (5 min)
 

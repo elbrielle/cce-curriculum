@@ -28,10 +28,8 @@ Students compare three biomedical careers using dated evidence, write a practice
 - *Find Your Future* workbook, Health Science pages 74-86
 - [Biomedical Career Evidence Guide](../../resources/worksheets/2sw-wk6-biomedical-career-evidence-guide.pdf)
 - [Cover Letter Lab](../../resources/worksheets/2sw-wk6-cover-letter-lab.pdf)
-- [Mini Medics Design Record](../../resources/worksheets/2sw-wk6-mini-medics-design-record.pdf)
-- [Outbreak Investigation Record](../../resources/worksheets/2sw-wk6-outbreak-investigation-record.pdf)
-- [Outbreak Response Plan](../../resources/worksheets/2sw-wk6-outbreak-response-plan.pdf)
-- [Explore Career Matches Reflection](../../resources/worksheets/2sw-wk6-xello-career-matches-reflection.pdf)
+- Optional no-workbook/extended routes: [Mini Medics Design Record](../../resources/worksheets/2sw-wk6-mini-medics-design-record.pdf), [Outbreak Investigation Record](../../resources/worksheets/2sw-wk6-outbreak-investigation-record.pdf), and [Outbreak Response Plan](../../resources/worksheets/2sw-wk6-outbreak-response-plan.pdf)
+- Optional paper route: [Explore Career Matches Reflection](../../resources/worksheets/2sw-wk6-xello-career-matches-reflection.pdf)
 - Chart paper or plain paper, markers, and rulers for Day 2
 - Xello accounts with Matchmaker complete and at least three saved careers
 
@@ -89,10 +87,10 @@ Days 1-5 produce portfolio evidence and reteach data. Do not grade drawing skill
 | Day | Focus | Key Activities | Durable evidence | 5E |
 |---|---|---|---|---|
 | 1 | Careers and professional writing | Fixed career evidence, fictional posting, five-part practice letter | Career comparison + practice cover letter | Engage · Explain · Explore · Extend · Evaluate |
-| 2 | Mini Medics | Future-technology design brief, plan, labeled design, journey | Mini Medics Design Record | Engage · Explain · Explore · Evaluate |
-| 3 | Outbreak Investigators | Case comparison, claim, evidence, pattern analysis | Outbreak Investigation Record | Engage · Explain · Explore · Evaluate |
-| 4 | Public-health response | Confirming tests, impact estimate, immediate action, prevention | Outbreak Response Plan | Engage · Explore · Extend · Evaluate |
-| 5 | Xello career matches | Warm-up, required 35-minute lesson, private reflection | Xello completion + reflection | Engage · Explore · Explain · Evaluate |
+| 2 | Mini Medics | Future-technology design brief, plan, labeled design, journey | FYF pp. 80-81 plus career/evidence checks | Engage · Explain · Explore · Evaluate |
+| 3 | Outbreak Investigators | Case comparison, claim, evidence, pattern analysis | FYF pp. 75-76 plus epidemiologist work-product sentence | Engage · Explain · Explore · Evaluate |
+| 4 | Public-health response | Confirming tests, impact estimate, immediate action, prevention | FYF pp. 77-78 plus public-health role sentence | Engage · Explore · Extend · Evaluate |
+| 5 | Xello career matches | Warm-up, required 35-minute lesson, private reflection | Xello completion + private Canvas reflection | Engage · Explore · Explain · Evaluate |
 
 ## Access and Participation
 
@@ -102,6 +100,7 @@ Days 1-5 produce portfolio evidence and reteach data. Do not grade drawing skill
 - Students may complete the design independently or with a partner. No public presentation is required for full credit.
 - Use bilingual labels, glossaries, and sentence frames. Do not require a full translation of every page.
 - The Xello reflection is private. Do not require students to post career-assessment results in a discussion.
+- FYF is the default student work surface on Days 2-4. The separate two-page records are no-workbook, absence, or extended-reasoning routes, not automatic class sets.
 
 ## Optional Extensions
 

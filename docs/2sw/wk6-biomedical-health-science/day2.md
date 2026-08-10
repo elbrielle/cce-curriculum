@@ -3,29 +3,30 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Opportunities
-- **Objective:** Students will use the workbook's future-technology scenario to plan, label, and explain a tiny medical robot that meets a clear mission and safety constraints.
+- **Objective:** Students will use the workbook's future-technology scenario to plan, label, and explain a tiny medical robot, then identify a biomedical career connected to the work.
 - **TEKS:** d(1)(C)
-- **Demonstration of Learning:** Mini Medics Design Record with plan, labeled design, journey, and evidence question.
+- **Demonstration of Learning:** FYF pp. 80-81 design, one evidence question, and one biomedical-career connection.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Use the workbook's future-technology scenario to plan, label, and explain a tiny medical robot that meets a clear mission and safety constraints |
+| **Objectives** | Use the workbook's future-technology scenario to plan, label, and explain a tiny medical robot, then identify a biomedical career connected to the work |
 | **TEKS** | d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explain: Mission and constraints · Explore: Plan, draw, label, and map the journey · Evaluate: Comparison and Exit Ticket |
-| **Deliverable** | [Mini Medics Design Record](../../resources/worksheets/2sw-wk6-mini-medics-design-record.pdf) with plan, labeled design, journey, and evidence question |
-| **Materials** | *Find Your Future* pp. 79-81, design record, chart paper or plain paper, markers or pencils, rulers, projector |
+| **Deliverable** | FYF pp. 80-81 plus one evidence question and one career-work-product connection; [optional expanded record](../../resources/worksheets/2sw-wk6-mini-medics-design-record.pdf) |
+| **Materials** | *Find Your Future* pp. 79-81, chart paper or plain paper, markers or pencils, rulers, projector |
 
 ---
 
 ## Before Class
 
 1. Embed the licensed workbook crops for pp. 79-81 in the student guide.
-2. Put one set of drawing materials at each table.
-3. Decide whether students will use chart paper or the equal plain-paper route.
-4. Keep the four mission requirements visible for the full activity.
+2. Students use FYF pp. 80-81 by default. Print the expanded design record only for the no-workbook or extended route.
+3. Put one set of drawing materials at each table.
+4. Decide whether students will use chart paper or the equal plain-paper route.
+5. Keep the four mission requirements visible for the full activity.
 
 ## Warm-Up (5 min)
 
@@ -35,7 +36,7 @@ Collect ideas such as size, direction, material, speed, tracking, and stopping. 
 
 ## Activity 1: Read the Design Brief (8 min)
 
-Read the workbook scenario and the design record together. State the four checks in plain language:
+Read the workbook scenario and planning page together. If the class is using the optional expanded record, point out where the same checks appear. State the four checks in plain language:
 
 - travel through moving blood;
 - fit inside a narrow vessel;
@@ -48,7 +49,7 @@ Connect the work to careers without overclaiming the technology. Biomedical engi
 
 **Chunk 1, plan, 8 minutes:** Students name the design, compare its size to something familiar, explain guidance or tracking, list three tools or features, and include a completion signal. Check the mission list before releasing drawing.
 
-**Chunk 2, draw and label, 12 minutes:** Students draw on chart paper, plain paper, or the worksheet. Every label states a purpose. Artistic skill is not graded.
+**Chunk 2, draw and label, 12 minutes:** Students draw on FYF p. 81, chart paper, plain paper, or the optional expanded record. Every label states a purpose. Artistic skill is not graded.
 
 **Chunk 3, journey, 7 minutes:** Students explain entry, travel, action, and finish. They answer what evidence a researcher would need before the idea could move toward testing.
 
@@ -61,6 +62,8 @@ Students compare with a partner or use the teacher model if working independentl
 - one choice that helps the design complete the mission;
 - one unanswered safety question;
 - one career that would help design, test, or operate the system.
+
+Students also name what that worker would produce, such as a design specification, test result, or imaging record. This sentence is the direct d(1)(C) evidence.
 
 No public presentation is required.
 
@@ -85,5 +88,5 @@ A team makes its nanobot smaller and adds a brighter color. Which revision provi
 
 - **Support:** A student may work alone, use a pre-drawn outline, or respond through approved teacher scribing. The explanation may be typed, spoken, or written.
 - **ELL:** Use bilingual labels and the word bank for clot, vessel, guide, signal, control, and evidence.
-- **Absence:** An absent student uses the workbook crops and design record. No special equipment is required.
+- **Absence:** An absent student uses the workbook crops. The expanded design record is available when the workbook is unavailable. No special equipment is required.
 - Extension: add one safety feature and name the evidence needed to test it.

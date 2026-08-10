@@ -3,9 +3,9 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **Objective:** Students will use the FYF case to explain how public-health workers connect evidence to confirming tests, immediate action, and prevention.
 - **TEKS:** d(1)(C)
-- **Demonstration of Learning:** Outbreak Response Plan.
+- **Demonstration of Learning:** FYF pp. 77-78 response plan and one public-health career-role sentence.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -15,16 +15,17 @@
 | **Objectives** | Choose tests that could confirm the working claim; estimate possible impact using the town facts; separate immediate actions from prevention; justify one prevention priority |
 | **TEKS** | d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explore: Tests and impact · Extend: Immediate action and prevention · Evaluate: Peer check and Exit Ticket |
-| **Deliverable** | [Outbreak Response Plan](../../resources/worksheets/2sw-wk6-outbreak-response-plan.pdf) |
-| **Materials** | *Find Your Future* pp. 77-78, Day 3 investigation record, response-plan worksheet, projector or Canvas crops |
+| **Deliverable** | FYF pp. 77-78 plus one public-health career-role sentence; [optional expanded response plan](../../resources/worksheets/2sw-wk6-outbreak-response-plan.pdf) |
+| **Materials** | *Find Your Future* pp. 77-78, Day 3 investigation work, projector or Canvas crops |
 
 ---
 
 ## Before Class
 
 1. Reopen the licensed helpful-information and response-plan pages in Canvas.
-2. Post the real-event boundary. Students are analyzing a fictional case, not issuing medical or public-health instructions.
-3. Prepare the Day 3 key so a student who was absent can enter with the supported working claim.
+2. Students use FYF pp. 77-78 by default. Print the expanded response plan only for the no-workbook or extended route.
+3. Post the real-event boundary. Students are analyzing a fictional case, not issuing medical or public-health instructions.
+4. Prepare the Day 3 key so a student who was absent can enter with the supported working claim.
 
 ## Warm-Up (5 min)
 
@@ -42,13 +43,15 @@ They estimate possible impact using two case facts: Fairview Edge has about 2,00
 
 ## Activity 2: Immediate Action and Prevention (20 min)
 
-Students use the workbook's approved action choices and the response-plan worksheet.
+Students use the workbook's approved action choices and response-plan page. The optional expanded record adds separate role, support, evidence, and trade-off fields when the teacher wants that deeper route.
 
-For two immediate actions, they name who acts, why it helps now, and what support residents would need. For one prevention priority, they connect the choice to a case clue, name a trade-off, and explain why they would fund it first.
+Students choose immediate actions from the supplied list and explain why the actions reduce harm during the current event. They choose one prevention step, connect it to a case clue, and explain why it should come first.
 
 Do not ask students to invent health instructions. The teacher presents the source actions exactly as a fictional analysis task. In a real event, current local public-health directions control.
 
-**Active Monitoring laps 3 and 4:** Check that each immediate action has a reason and support route, then check that the prevention choice answers a clue from the case.
+**Active Monitoring laps 3 and 4:** Check that each immediate action has a reason, then check that the prevention choice answers a clue from the case.
+
+Students name one public-health worker who would test, communicate, or manage part of the response and the work product that person would produce. This sentence is the direct d(1)(C) evidence.
 
 ## Activity 3: Quiet Peer or Self-Review (5 min)
 
