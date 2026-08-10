@@ -6,39 +6,25 @@ weeks: 5sw/wk6-real-estate
 audience: student
 variant_of:
 language: en
-pages: 2
+pages: 1
 orientation: landscape
 ---
 
-## Four-Criterion Rubric
+## Formative Evidence Brief Rubric
 
-| Criterion | 4 — Masters | 3 — Meets | 2 — Approaches | 1 — Needs Improvement | 0 — Insufficient Evidence |
+| Criterion | 4 - Masters | 3 - Meets | 2 - Approaches | 1 - Needs Improvement | 0 - Insufficient Evidence |
 |---|---|---|---|---|---|
-| Source and measure accuracy | Two or more facts retain source/date/geography/measure and limits | Facts are accurate with minor label gap | One fact is usable but labels/limits are incomplete | Major source or measure confusion | Blank, off-topic, or no supported fact |
-| Licensing and compensation reasoning | Correct role boundary; fictional gross math; split/expense/timing limit | Correct boundary and mostly correct math/limit | Partial boundary or math with repair needed | Collapses roles or calls gross guaranteed take-home | Blank, off-topic, or unsafe unsupported claim |
-| Budget, labor, and entrepreneurship connection | Specific cross-week connection with tradeoff and responsibility | Clear connection with one supporting detail | General connection or missing tradeoff | Preference stated without evidence | Blank or off-topic |
-| Communication and reflection | Organized 45-60 second private brief plus specific six-week reflection and next action | Complete brief/reflection with minor gap | Understandable but missing one major job | Fragmented or several missing jobs | No usable evidence |
+| Source and measure accuracy | Two or more accurate facts keep the source and needed labels or limits | Facts are accurate with one minor label gap | One usable fact; labels or limits need repair | Major source or measure confusion | Blank, off-topic, or no supported fact |
+| Role and compensation reasoning | Correct role boundary plus accurate fictional gross-math or compensation limit | Correct boundary and mostly accurate reasoning | Partial boundary or reasoning needs repair | Collapses roles or calls gross guaranteed take-home | Blank, off-topic, or unsafe unsupported claim |
+| Entrepreneurship and labor connection | Specific connection uses a responsibility, trend, tradeoff, or limitation | Clear connection with one supporting detail | General connection or missing tradeoff | Preference stated without evidence | Blank or off-topic |
+| Communication and reflection | Organized 45-60 second private brief, specific reflection, and next action | Complete brief/reflection with one minor gap | Understandable but missing one major job | Fragmented or several missing jobs | No usable evidence |
 
 Total: ____ / 16
 
-This is recovery or replacement evidence only. It does not create a third fifth-six-weeks major. The teacher records a replacement score only through the campus recovery/reassessment process.
+This is formative synthesis. It does not create a third fifth-six-weeks major and does not replace a prior grade.
 
-[[pagebreak]]
+Oral evidence route: live / teacher conference / audio / recorded media / AAC / authorized accommodation
 
-## Submission and Feedback
+Teacher feedback: ____________________________________________________________________________________
 
-Oral evidence route used: live / teacher conference / audio / recorded media / AAC / authorized accommodation
-
-A written transcript may support planning, but written-only work is not automatically labeled oral-presentation evidence.
-
-Teacher feedback:
-
-[[lines: 6]]
-
-Student revision plan:
-
-[[lines: 6]]
-
-One source label or calculation I will recheck:
-
-[[lines: 3]]
+Student revision: ____________________________________________________________________________________

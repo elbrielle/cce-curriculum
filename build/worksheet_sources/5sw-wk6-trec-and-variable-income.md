@@ -6,105 +6,85 @@ weeks: 5sw/wk6-real-estate
 audience: student
 variant_of:
 language: en
-pages: 5
-orientation: portrait
+pages: 3
+orientation: landscape
 ---
 
-## Current TREC Sales Agent Route
+## Current Texas Sales Agent Route
 
-Number the current actions in a defensible order.
+Number the actions from 1 to 7.
 
 | Action | Order |
 |---|---:|
 | Meet qualifications, including age 18+ |  |
 | Complete 180 classroom hours across six required courses |  |
-| Submit application and education documents |  |
-| Complete fingerprint/background requirements |  |
-| Pass state and national exam portions |  |
+| Submit the application and education documents |  |
+| Complete fingerprint and background requirements |  |
+| Pass the state and national exam portions |  |
 | Receive inactive status after requirements are met |  |
 | Obtain licensed-broker sponsorship for active practice |  |
 
-The six required 30-hour course blocks: Principles I, Principles II, Law of Agency, Law of Contracts, Promulgated Contract Forms, and Real Estate Finance.
+The six 30-hour courses are Principles I, Principles II, Law of Agency, Law of Contracts, Promulgated Contract Forms, and Real Estate Finance.
 
-One cost, provider, time, or rule detail to verify when applying:
+One cost, provider, processing-time, eligibility, or future-rule detail to verify when applying:
 
-[[lines: 5]]
+[[lines: 2]]
 
-[[pagebreak]]
-
-## Worked Fictional Commission Model
-
-This is classroom math—not a standard or guaranteed agreement.
-
-- Sale price: $350,000
-- Fictional brokerage-side commission: 2.5%
-- Fictional agent split: 60%
-
-1. $350,000 × 0.025 = $8,750 gross brokerage-side commission.
-2. $8,750 × 0.60 = $5,250 fictional agent gross before taxes and business expenses.
-
-Why is $5,250 not guaranteed take-home pay?
-
-[[lines: 6]]
-
-What agreement/timing detail is still missing?
-
-[[lines: 4]]
+**Do not create an account, apply, submit personal information, schedule fingerprints, or contact a broker for this lesson.**
 
 [[pagebreak]]
 
-## Fictional Scenario A
+## Worked Model and Two Fictional Scenarios
 
-Sale price: $280,000 · supplied brokerage-side rate: 2.0% · supplied agent split: 65%
+These percentages and splits are supplied classroom conditions, not typical or guaranteed agreements.
 
-Gross brokerage-side commission: $________________
+**Formula:** sale price x supplied brokerage-side rate x supplied agent split
 
-Fictional agent gross before tax/expenses: $________________
+Worked model: $350,000 x 0.025 = $8,750 gross brokerage-side commission; $8,750 x 0.60 = **$5,250 fictional agent gross before taxes and business expenses**.
 
-Show the calculation:
+| Scenario | Sale price | Supplied side rate | Supplied split | Gross brokerage-side amount | Fictional agent gross |
+|---|---:|---:|---:|---:|---:|
+| A | $280,000 | 2.0% | 65% | $____________ | $____________ |
+| B | $425,000 | 2.25% | 55% | $____________ | $____________ |
 
-[[lines: 5]]
+Show the two multiplication steps for Scenario A:
 
-One missing expense, tax, agreement, or timing fact:
+[[lines: 2]]
 
-[[lines: 5]]
+Show the two multiplication steps for Scenario B:
 
-[[pagebreak]]
+[[lines: 2]]
 
-## Fictional Scenario B
+One reason neither result is guaranteed take-home pay:
 
-Sale price: $425,000 · supplied brokerage-side rate: 2.25% · supplied agent split: 55%
-
-Gross brokerage-side commission: $________________
-
-Fictional agent gross before tax/expenses: $________________
-
-Show the calculation:
-
-[[lines: 5]]
-
-One benefit and one risk of variable income:
-
-[[lines: 6]]
+[[lines: 2]]
 
 [[pagebreak]]
 
-## Fictional Scenario C and Decision
+## Scenario C and the Income Decision
 
-Sale price: $600,000 · supplied brokerage-side rate: 1.75% · supplied agent split: 70%
+Scenario C: $600,000 sale price | supplied side rate 1.75% | supplied agent split 70%
 
-Gross brokerage-side commission: $________________
+Gross brokerage-side amount: $____________________
 
-Fictional agent gross before tax/expenses: $________________
+Fictional agent gross before taxes and business expenses: $____________________
 
-Show the calculation:
-
-[[lines: 4]]
-
-Fictional Jordan needs predictable monthly income but likes flexible scheduling. Which income question should Jordan investigate next, and why?
-
-[[lines: 7]]
-
-One statement I will not make from these scenarios:
+Show both multiplication steps:
 
 [[lines: 3]]
+
+One benefit of variable income: _________________________________________________
+
+One risk of variable income: ____________________________________________________
+
+Jordan values flexible scheduling but needs predictable monthly income. What should Jordan investigate next, and why?
+
+[[lines: 4]]
+
+Complete thought: **Jordan should verify [income fact] because [need or risk].**
+
+One statement these classroom scenarios do not prove:
+
+[[lines: 2]]
+
+**Language help:** gross = bruto | split = reparto | expense = gasto | take-home = ingreso neto | sponsor = patrocinador

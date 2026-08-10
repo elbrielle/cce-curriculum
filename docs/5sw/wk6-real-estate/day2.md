@@ -3,9 +3,9 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Preparation
-- **Objective:** Students will research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Career Preparation.
+- **Objective:** Students will sequence the current Texas Sales Agent route and use supplied fictional terms to distinguish gross revenue from take-home pay.
 - **TEKS:** d(2)(A)
-- **Demonstration of Learning:** Current TREC sequence and three fictional compensation scenarios.
+- **Demonstration of Learning:** Current TREC sequence, three visible fictional calculations, and one compensation limitation.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -13,16 +13,16 @@
 |---|---|
 | **Time** | 50 minutes |
 | **TEKS** | d(2)(A) |
-| **Deliverable** | Current TREC sequence and three fictional compensation scenarios |
+| **Deliverable** | Current TREC sequence, three visible fictional calculations, and one compensation limitation |
 | **Materials** | Fixed TREC/commission packet, calculators, Canvas annotation activity |
 
 ## Safety and Accuracy Boundary
 
-Students do not create a REALM account, apply, submit personal information, schedule fingerprints, or contact a broker. Commission terms are negotiable and divided among parties according to agreements. Classroom percentages and splits are fictional math conditions—not “typical” or guaranteed earnings.
+Students do not create a REALM account, apply, submit personal information, schedule fingerprints, or contact a broker. Commission terms are negotiable and divided among parties according to agreements. Classroom percentages and splits are fictional math conditions, not "typical" or guaranteed earnings.
 
 ## 50-Minute Flow
 
-### 1. Warm-Up — Gross Is Not Take-Home (5 min)
+### 1. Warm-Up: Gross Is Not Take-Home (5 min)
 
 Ask: if a transaction creates $8,000 in gross brokerage revenue, what information is still missing before we know one worker's take-home pay? Look for split/agreements, business expenses, taxes, timing, and whether the transaction closes.
 

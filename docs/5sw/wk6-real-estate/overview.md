@@ -1,4 +1,4 @@
-# Week 6: Real Estate — Licensing, Variable Income, and Evidence
+# Week 6: Real Estate: Licensing, Variable Income, and Evidence
 
 **5th Six Weeks** | Business, Marketing & Finance | 5 class periods (50 minutes each)
 
@@ -24,9 +24,8 @@ Students succeed when they can:
 - **d(1)(C):** Identify career opportunities in Business, Marketing & Finance.
 - **d(2)(A):** Research and describe current training and licensing requirements.
 - **d(3)(I):** Define entrepreneurship and identify a real-estate opportunity and responsibility.
-- **d(4)(C):** Supporting evidence through an individual live, conference, audio, recorded, or AAC professional briefing.
+- **d(4)(C):** Demonstrate professional oral communication through an individual live, conference, audio, recorded, or AAC briefing.
 - **d(5)(A):** Analyze dated wage, outlook, openings, and economic-sensitivity evidence.
-- **d(5)(D):** Reassess the personal-budget evidence built in Week 5; Week 6 does not claim a new full personal budget.
 
 ## Source and Platform Boundaries
 
@@ -41,17 +40,17 @@ Students succeed when they can:
 
 | Day | Focus | Durable evidence | Canvas interaction |
 |---|---|---|---|
-| 1 | Four careers and regulatory boundaries | Four-role career/license record | Private annotation |
-| 2 | Current TREC route and fictional variable-income math | TREC sequence + commission scenarios | Private annotation |
-| 3 | *Flip This House* ROI and entrepreneurship | Renovation plan + individual entrepreneurship reasoning | Private annotation |
+| 1 | Four careers and regulatory boundaries | Four-role record + two-role comparison | Private annotation |
+| 2 | Current TREC route and fictional variable-income math | TREC sequence + three visible calculations | Private annotation |
+| 3 | *Flip This House* ROI and entrepreneurship | FYF plan + one-page individual companion | Private annotation |
 | 4 | BLS labor evidence and economic sensitivity | Trend/limitation analysis | Unlimited-retry practice Quiz |
 | 5 | Six-weeks synthesis | Private oral evidence brief + written reflection | Private multimodal Assignment |
 
 ## Assessment Map Boundary
 
 - Days 1-4 are formative. Do not grade platform clicks or daily exit slips separately.
-- Day 5 is a **recovery/replacement draft**, not an automatically graded major. The [5SW assessment map](../../resources/six-weeks-assessment-map.md) already contains three minors and two majors. A teacher may use this evidence brief to replace missing major evidence after review; it does not add a third major.
-- The four Day 5 criteria are source/measure accuracy, licensing and compensation reasoning, cross-week budget/labor connection, and individual professional communication/reflection.
+- Day 5 is **formative synthesis only**. The [5SW assessment map](../../resources/six-weeks-assessment-map.md) already contains three minors and two majors. The brief does not add a third major and does not replace a prior grade.
+- The four Day 5 criteria are source/measure accuracy, role and compensation reasoning, entrepreneurship/labor connection, and individual professional communication/reflection.
 - Career preference, family income, drawing quality, accent, public-speaking confidence, grammar, partner attendance, and submission mode do not determine mastery.
 
 ## Accessibility, Privacy, and Absence

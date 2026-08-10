@@ -6,100 +6,50 @@ weeks: 5sw/wk6-real-estate
 audience: student
 variant_of:
 language: en
-pages: 5
-orientation: portrait
+pages: 2
+orientation: landscape
 ---
 
-## Current Local and Source Boundary
+## Four Roles, Four Different Boundaries
 
-Current Irving ISD public evidence names **Real Estate Marketing** at MacArthur within the **School of Business and Entrepreneurship**. It does not by itself promise admission, transportation, schedule, license completion, exam eligibility, placement, or employment.
+Current Irving ISD public information names **Real Estate Marketing** at MacArthur in the **School of Business and Entrepreneurship**. That pathway is an option to investigate, not a promise of admission, license completion, or employment.
 
-For every career, keep these separate:
+| Career | Main work product | Preparation or regulator boundary | Compensation pattern |
+|---|---|---|---|
+| Real Estate Sales Agent | Helps clients buy, sell, or rent property; prepares and manages transaction work under a broker | TREC Sales Agent license; broker sponsorship is required for active practice | Often commission-based; agreements, splits, expenses, taxes, timing, and closings vary |
+| Real Estate Broker | May manage a real-estate business and sponsor Sales Agents | Additional Texas education, experience, and licensing requirements | May earn through brokerage business and transactions; not a fixed guaranteed amount |
+| Property Appraiser or Assessor | Develops a property-value estimate | Texas appraiser credentials are handled through TALCB; a Sales Agent license is not an appraisal credential | Pay pattern depends on role and employer; do not infer it from Sales Agent pay |
+| Property Manager | Manages specified property operations, leasing, rent, records, or communication | Duties matter. Some paid showing, leasing, or rent-control activities require a TREC license | May be salary, fee, or another arrangement; one pattern does not fit every job |
 
-- occupation and work product;
-- common preparation;
-- regulator, license, or credential boundary;
-- compensation pattern;
-- one limitation or question to verify.
+**Language help:** work product = producto de trabajo | regulator = agencia reguladora | license = licencia | compensation = compensacion | verify = verificar
 
-One claim I will avoid:
+Complete thought: **A [career] may [work product], but must [boundary].**
 
-[[lines: 5]]
+One role boundary I can explain:
 
-One current source and why it is authoritative:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Real Estate Sales Agent
-
-TREC licenses Sales Agents. An active Sales Agent acts on behalf of a licensed broker and clients. Current requirements include age 18+, 180 classroom hours, application, fingerprint/background review, exam, and broker sponsorship for active practice.
-
-Work product or responsibility:
-
-[[lines: 4]]
-
-Preparation/regulator boundary:
-
-[[lines: 4]]
-
-Compensation pattern and one missing fact:
-
-[[lines: 5]]
+[[lines: 3]]
 
 [[pagebreak]]
 
-## Real Estate Broker
+## Compare, Decide, Verify
 
-Brokers have additional Texas education, experience, and licensing requirements and may manage a real-estate business or sponsor Sales Agents. A Sales Agent is not automatically a Broker.
+Two careers I compared: ______________________________ and ______________________________
 
-Work product or responsibility:
+| Evidence job | Career 1 | Career 2 |
+|---|---|---|
+| Work product |  |  |
+| Preparation or regulator |  |  |
+| Compensation pattern |  |  |
+| One fact still missing |  |  |
 
-[[lines: 4]]
-
-Preparation/regulator boundary:
-
-[[lines: 4]]
-
-Compensation/business pattern and one missing fact:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Property Appraiser or Assessor
-
-Property appraisers and assessors develop value estimates. Texas appraiser credentials are handled through TALCB, an independent subdivision of TREC. A Sales Agent license is not an appraisal credential.
-
-Work product or responsibility:
+Which role will you investigate next? Use two differences from the table.
 
 [[lines: 4]]
 
-Preparation/regulator boundary:
+Complete thought: **I would investigate [role] because [difference 1] and [difference 2].**
 
-[[lines: 4]]
+One official-source question I still need answered:
 
-One reason the role must stay separate from Sales Agent:
+[[lines: 3]]
 
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Property Manager and Career Decision
-
-Property Manager duties vary. TREC states that a license is required for specified paid showing/leasing activities and for a person who controls acceptance or deposit of rent from a resident of a single-family residential unit. Do not claim every property-management job has one identical requirement.
-
-One work product and boundary:
-
-[[lines: 4]]
-
-Two careers I compared: __________________ and __________________
-
-Two important differences:
-
-[[lines: 5]]
-
-My current direction and one official-source question:
-
-[[lines: 5]]
+Source choices: TREC for Sales Agent/Broker/property-management duties; TALCB for appraiser credentials; Irving ISD for the current high-school pathway; BLS for dated national work/pay/outlook evidence.

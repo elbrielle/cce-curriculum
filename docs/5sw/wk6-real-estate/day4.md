@@ -3,9 +3,9 @@
 ## Daily Learning Contract
 
 - **Topic:** Labor Trends
-- **Objective:** Students will analyze labor-market trends related to a career of interest using evidence from Labor Trends.
+- **Objective:** Students will analyze dated wage, growth, openings, self-employment, and economic-sensitivity evidence for real-estate careers.
 - **TEKS:** d(5)(A)
-- **Demonstration of Learning:** Fixed-source labor analysis and scenario judgment.
+- **Demonstration of Learning:** Fixed-source labor analysis, Jordan recommendation, and retryable practice check.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -13,7 +13,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **TEKS** | d(5)(A) |
-| **Deliverable** | Fixed-source labor analysis and scenario judgment |
+| **Deliverable** | Fixed-source labor analysis, Jordan recommendation, and retryable practice check |
 | **Materials** | BLS evidence guide, calculators optional, unpublished unlimited-retry Canvas Quiz |
 
 ## Evidence Boundary
@@ -22,7 +22,7 @@ The fixed BLS evidence is national and dated. It does not prove DFW starting pay
 
 ## 50-Minute Flow
 
-### 1. Warm-Up — Growth Is Not Openings (5 min)
+### 1. Warm-Up: Growth Is Not Openings (5 min)
 
 Students predict the difference between projected growth and annual openings. Clarify that openings include replacement needs and do not equal live job postings.
 

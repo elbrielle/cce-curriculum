@@ -6,105 +6,50 @@ weeks: 5sw/wk6-real-estate
 audience: student
 variant_of:
 language: en
-pages: 4
-orientation: portrait
+pages: 2
+orientation: landscape
 ---
 
-## Evidence Strip
+## Private 45-60 Second Evidence Brief
 
-Real-estate career/work product:
+This is formative synthesis. It is not a third major and does not replace a prior grade.
 
-[[lines: 2]]
+Use short notes, not a full script.
 
-Correct Texas license/regulator boundary:
+| Brief job | My note |
+|---|---|
+| Current career direction or question |  |
+| Source-labeled fact 1 |  |
+| Source-labeled fact 2 |  |
+| Tradeoff or limitation |  |
+| Next investigation action |  |
 
-[[lines: 2]]
+Complete thought: **I am considering [direction]. [Source] shows [fact]. A tradeoff or limit is [limit], so my next action is [action].**
 
-Variable-income calculation and limitation:
+Delivery route: [ ] audio  [ ] recorded media  [ ] teacher conference/live  [ ] AAC  [ ] authorized accommodation
 
-[[lines: 3]]
-
-BLS trend fact and limitation:
-
-[[lines: 3]]
-
-Week 5 budget/lifestyle conclusion:
-
-[[lines: 3]]
-
-Entrepreneurship opportunity and responsibility:
-
-[[lines: 3]]
+A written plan supports delivery, but written-only work is not labeled oral-presentation evidence.
 
 [[pagebreak]]
 
-## Private 45-60 Second Brief Plan
+## Six-Weeks Reflection and Revision
 
-1. My current career direction or question:
+Three specific things I learned across the six weeks:
 
-[[lines: 4]]
+1. [[lines: 1]]
+2. [[lines: 1]]
+3. [[lines: 1]]
 
-2. Source-labeled fact one:
-
-[[lines: 4]]
-
-3. Source-labeled fact two:
-
-[[lines: 4]]
-
-4. Tradeoff or limitation:
-
-[[lines: 4]]
-
-5. Next investigation action:
-
-[[lines: 4]]
-
-[[pagebreak]]
-
-## Six-Weeks Reflection
-
-Architecture — one specific learning: [[lines: 1]]
-
-Civil Engineering — one specific learning: [[lines: 1]]
-
-Construction — one specific learning: [[lines: 1]]
-
-Skilled Trades — one specific learning: [[lines: 1]]
-
-Personal Budget — one specific learning: [[lines: 1]]
-
-Real Estate — one specific learning: [[lines: 1]]
-
-The strongest connection across the six weeks:
-
-[[lines: 3]]
-
-How my direction or question changed or became clearer:
+The strongest connection across two or more weeks:
 
 [[lines: 3]]
 
 One source-label habit I will use next:
 
+[[lines: 2]]
+
+Self-score each criterion from 0 to 4: source accuracy ____ | role and compensation reasoning ____ | entrepreneurship and labor connection ____ | communication and reflection ____
+
+My weakest criterion was ______________________. I revised it by:
+
 [[lines: 3]]
-
-[[pagebreak]]
-
-## Self-Audit and Revision
-
-- [ ] I used two source-labeled facts.
-- [ ] I stated a correct Texas role/license boundary.
-- [ ] I separated fictional commission math from sourced labor evidence.
-- [ ] I connected budget/lifestyle evidence without sharing private finances.
-- [ ] My brief includes a tradeoff and next action.
-- [ ] My reflection names specific learning from all six weeks.
-
-Weakest criterion before revision: __________________________
-
-What I revised:
-
-[[lines: 5]]
-
-One honest limitation that remains:
-
-[[lines: 4]]

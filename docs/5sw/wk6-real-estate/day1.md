@@ -3,9 +3,9 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters and research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Career Opportunities.
+- **Objective:** Students will identify four real-estate careers and compare their work products, preparation, and Texas regulatory boundaries.
 - **TEKS:** d(1)(C), d(2)(A)
-- **Demonstration of Learning:** Four-role career/license record and one evidence-based direction.
+- **Demonstration of Learning:** Four-role evidence record, two-role comparison, and one official-source question.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -13,7 +13,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **TEKS** | d(1)(C), d(2)(A) |
-| **Deliverable** | Four-role career/license record and one evidence-based direction |
+| **Deliverable** | Four-role evidence record, two-role comparison, and one official-source question |
 | **Materials** | Fixed four-role guide, current MacArthur pathway card, calculator optional, Canvas student guide |
 
 ## Before Class
@@ -22,7 +22,7 @@ Post the fixed guide and private annotation activity. H&L may be opened for opti
 
 ## 50-Minute Flow
 
-### 1. Warm-Up — Work Product, Not TV Image (5 min)
+### 1. Warm-Up: Work Product, Not TV Image (5 min)
 
 Students name one thing they think a real-estate worker produces. Collect answers, then separate property showing from contracts, market comparisons, appraisals, leases, budgets, records, and client communication.
 

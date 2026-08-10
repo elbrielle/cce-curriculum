@@ -6,89 +6,61 @@ weeks: 5sw/wk6-real-estate
 audience: student
 variant_of:
 language: en
-pages: 5
-orientation: portrait
+pages: 2
+orientation: landscape
 ---
 
 ## Fixed BLS Evidence Card
 
-Source: U.S. Bureau of Labor Statistics, Occupational Outlook Handbook, current page accessed August 2026.
+Source: U.S. Bureau of Labor Statistics, Occupational Outlook Handbook, accessed August 2026.
 
-- Real Estate Sales Agents: **$56,320 May 2024 U.S. median annual wage**.
-- Real Estate Brokers: **$72,280 May 2024 U.S. median annual wage**.
-- Combined group: **3% projected growth, 2024-34**.
-- Combined group: **about 46,300 annual openings on average**.
-- BLS employer distribution lists **54% self-employed** for each occupation in 2024.
-- BLS wage figures **exclude self-employed workers**.
-- Work may slow during declining economic activity or rising interest rates.
+| Evidence | Correct label |
+|---|---|
+| $56,320 | Real Estate Sales Agents, May 2024 U.S. median annual wage |
+| $72,280 | Real Estate Brokers, May 2024 U.S. median annual wage |
+| 3% | Combined projected growth, 2024-34 |
+| About 46,300 | Combined annual openings on average; includes replacement needs |
+| 54% | BLS employer distribution lists this self-employed share for each occupation in 2024 |
 
-One source/date/geography/measure label I must keep:
+BLS wage figures exclude self-employed workers. Work may slow during declining economic activity or rising interest rates.
 
-[[lines: 4]]
-
-[[pagebreak]]
-
-## Compare the Two Wage Figures
-
-Broker median: $____________  Sales Agent median: $____________
-
-Difference: $____________
-
-What the comparison supports:
-
-[[lines: 5]]
-
-What it does not prove about DFW, starting pay, or one worker:
-
-[[lines: 6]]
-
-[[pagebreak]]
-
-## Growth and Openings
+Broker-agent median difference: $____________________
 
 Why can 3% growth appear beside about 46,300 annual openings?
 
-[[lines: 7]]
+[[lines: 2]]
 
-Why are annual openings not live postings or proof of a shortage?
+Complete thought: **The BLS figure shows [supported fact], but it does not prove [local or individual claim].**
 
-[[lines: 6]]
+One supported conclusion and one limitation:
 
-One local question the national source cannot answer:
-
-[[lines: 4]]
+[[lines: 2]]
 
 [[pagebreak]]
 
-## Self-Employment and Economic Sensitivity
-
-Why must the 54% self-employed fact be kept separate from the wage figures?
-
-[[lines: 6]]
-
-How could higher interest rates or declining economic activity affect work?
-
-[[lines: 6]]
-
-One other factor a worker would verify before choosing the occupation:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Fictional Jordan Recommendation
+## Apply the Evidence to Jordan
 
 Jordan values flexible scheduling but needs predictable monthly income.
 
 Two BLS facts Jordan should use:
 
-1. [[lines: 2]]
-2. [[lines: 2]]
+1. [[lines: 1]]
+2. [[lines: 1]]
 
-One risk or limitation:
+Why must the 54% self-employed fact stay separate from the wage figures?
 
-[[lines: 4]]
+[[lines: 2]]
+
+How could higher interest rates or declining economic activity affect work?
+
+[[lines: 2]]
 
 Recommended next investigation step and why:
 
-[[lines: 6]]
+[[lines: 3]]
+
+Complete thought: **Jordan should investigate [question] with [authorized source] because [evidence and need].**
+
+One local question this national source cannot answer:
+
+[[lines: 1]]

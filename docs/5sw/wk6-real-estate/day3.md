@@ -1,11 +1,11 @@
-# Day 3: Flip This House — ROI and Entrepreneurship
+# Day 3: Flip This House: ROI and Entrepreneurship
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
 - **Topic:** Entrepreneurship
-- **Objective:** Students will define entrepreneurship and identify entrepreneurial opportunities in a field of personal interest using evidence from Entrepreneurship.
+- **Objective:** Students will use supplied buyer and cost evidence to identify a real-estate opportunity, responsibility, risk, and tradeoff.
 - **TEKS:** d(3)(I)
-- **Demonstration of Learning:** Renovation strategy and individual entrepreneurship reasoning.
+- **Demonstration of Learning:** Completed FYF renovation plan plus individual math audit and entrepreneurship response.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -13,8 +13,8 @@
 |---|---|
 | **Time** | 50 minutes |
 | **TEKS** | d(3)(I) |
-| **Deliverable** | Renovation strategy and individual entrepreneurship reasoning |
-| **Materials** | Locked FYF pp. 238-240 visuals, expanded CCE renovation planner, calculator, private annotation activity |
+| **Deliverable** | Completed FYF renovation plan plus individual math audit and entrepreneurship response |
+| **Materials** | Student FYF workbook pp. 238-239, one-page CCE companion, calculator, private Canvas response |
 
 ## Scenario Boundary
 
@@ -22,11 +22,11 @@ This is a fictional workbook decision model. Costs and estimated value increases
 
 ## 50-Minute Flow
 
-### 1. Warm-Up — Benefit and Responsibility (5 min)
+### 1. Warm-Up: Benefit and Responsibility (5 min)
 
 Students write one possible benefit and one responsibility of operating an independent business. Use neutral wording; do not imply entrepreneurship is always preferable to employment.
 
-### 2. Read the Need and Model Net Value (8 min)
+### 2. Read the Need and Model Net Value (10 min)
 
 Read the workbook's buyer preferences. Model one row:
 
@@ -34,9 +34,9 @@ Read the workbook's buyer preferences. Model one row:
 
 Explain that the workbook uses simplified estimates and that actual renovation decisions require qualified estimates, due diligence, financing, permits, inspections, taxes, and risk review.
 
-### 3. Build and Audit the Renovation Plan (22 min)
+### 3. Complete the FYF Renovation Plan (20 min)
 
-Students select upgrades from the workbook's fixed table, keep total cost at or below $25,000, calculate value added and net value change, and justify every selected item with supplied buyer evidence. The expanded planner gives each selected upgrade a roomy evidence block.
+Students work directly in FYF pp. 238-239. They select upgrades from the workbook's fixed table, keep total cost at or below $25,000, calculate value added and net value change, and justify the plan with supplied buyer evidence. The one-page CCE companion collects only the math audit, tradeoff, risk, and professional-boundary evidence that the workbook does not collect.
 
 Active monitoring:
 
@@ -54,4 +54,4 @@ State the chosen plan's total cost, total estimated value added, net value chang
 
 ## Support and Fallback
 
-The licensed pages are embedded in authenticated Canvas with an accessible text summary. Students may work independently, use a calculator, type, dictate, annotate, or use paper. A partner is optional; the reasoning evidence is individual.
+The student workbook is the default route. Licensed page images are embedded in authenticated Canvas for projection and absence. The one-page CCE companion may be typed, dictated, annotated, or completed on paper. Do not require students to complete both a second renovation table and the workbook table. A partner is optional; the reasoning evidence is individual.
