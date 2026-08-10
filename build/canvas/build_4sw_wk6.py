@@ -499,15 +499,33 @@ async def main():
             await upsert_item(client, module["id"], kind, key, title)
             order.append((kind, key, title))
 
-        items = await common.paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
-        for position, (kind, key, title) in enumerate(order, 1):
-            item = next(
-                entry
-                for entry in items
-                if (kind == "SubHeader" and entry.get("id") == key)
+        def matches_item(entry, kind, key):
+            return entry.get("type") == kind and (
+                (kind == "SubHeader" and entry.get("id") == key)
                 or (kind == "Page" and entry.get("page_url") == key)
                 or (kind in ("Assignment", "Quiz") and entry.get("content_id") == key)
             )
+
+        items = await common.paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
+        keep_ids = set()
+        for kind, key, _title in order:
+            match = next(
+                (entry for entry in items if entry["id"] not in keep_ids and matches_item(entry, kind, key)),
+                None,
+            )
+            if not match:
+                raise RuntimeError(f"Missing expected module item: {kind} {key}")
+            keep_ids.add(match["id"])
+        for entry in items:
+            if entry["id"] not in keep_ids:
+                await common.api(
+                    client,
+                    "DELETE",
+                    f"/courses/{COURSE_ID}/modules/{module['id']}/items/{entry['id']}",
+                )
+        items = await common.paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
+        for position, (kind, key, title) in enumerate(order, 1):
+            item = next(entry for entry in items if matches_item(entry, kind, key))
             await common.api(
                 client,
                 "PUT",
@@ -515,6 +533,12 @@ async def main():
                 data={"module_item[position]": position, "module_item[title]": title},
             )
         final_items = await common.paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
+        if len(final_items) != len(order):
+            raise RuntimeError(f"Expected {len(order)} Week 6 module items; found {len(final_items)}")
+        ordered_final = sorted(final_items, key=lambda entry: entry.get("position", 0))
+        for position, ((kind, key, _title), entry) in enumerate(zip(order, ordered_final), 1):
+            if entry.get("position") != position or not matches_item(entry, kind, key):
+                raise RuntimeError(f"Week 6 module order mismatch at position {position}")
         module = await common.api(client, "GET", f"/courses/{COURSE_ID}/modules/{module['id']}")
         print(
             json.dumps(
