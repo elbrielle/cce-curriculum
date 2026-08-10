@@ -643,17 +643,23 @@ This visibility experiment was reverted the same day after the teacher-owned pub
 ## 2026-08-08 - 6SW Week 3 local production record
 
 - Module target: `6SW Wk3: Marketing - Audience, Entrepreneurship, and Data`.
-- State: repaired five-day sequence, six core artifacts, paired templates, eleven locked FYF visuals, one five-question retryable practice Quiz, and Canvas importer complete locally; API/browser verification pending.
+- State: repaired five-day sequence, six core artifacts, paired templates, eleven locked FYF visuals, one five-question retryable practice Quiz, and Canvas importer staged and verified in the live course. All objects remain unpublished for teacher transfer.
 - Sequence correction: no new required Grade 8 Xello task belongs here. School Subjects at Work, H&amp;L exploration, eDynamic 4.1, Google Applied Digital Skills, Canva, and Adobe Express remain supplemental and cannot displace required evidence.
 - Privacy/ethics correction: all campaigns, businesses, messages, prices, and data are classroom scenarios. Students do not create a real account, ad, post, sale, payment, contact form, link, QR code, testimonial, tracking claim, scarcity claim, or collection of personal data.
 - Current-evidence correction: BLS Market Research Analysts uses a May 2024 U.S. median of $76,950, typical bachelor's preparation, 7% projected 2024-34 growth, and about 87,200 annual openings. Growth and openings remain distinct and none is relabeled DFW starting pay, a local shortage, or a guarantee.
 - Data correction: the Family Fun Pass tables and quotes are labeled fictional workbook evidence. Students state a campaign goal before selecting a metric, compare three strategies, cite multiple values, identify conflicting evidence, and plan a next test; there is no teacher-preferred universal answer.
 - Entrepreneurship correction: Expert Edge distinguishes need, audience, deliverable, opportunity, fictional unit/price, responsibility, risk, and control. Logo polish and oral delivery are optional and not scored.
-- Worksheet QA: six PDFs totaling thirty-three pages passed strict rendering with zero warnings. The first render exposed a 12-page data packet, blank overflow pages, and a rubric spill; the corrected landscape packet is six pages, the ad mock-up retains a full page, and every multi-part response has labeled full-width space.
+- Worksheet QA: six PDFs totaling fourteen pages passed strict rendering with zero warnings. Days 1-4 each use one two-page companion only for evidence the FYF workbook does not collect. Day 5 uses a four-page brief and two-page rubric. All fourteen final pages passed visual review for readable hierarchy, proportional response space, point-of-use language support, and student-safe scoring language.
 - Licensed media: eleven progressive FYF JPEGs for pp. 147-148 and 222-230 are 111-300 KB at a 1,300-pixel long edge. Required instructions/data also appear in native Canvas text and accessible packets.
 - Grading boundary: Day 5 is Minor 3 in the locked 6SW map and remains unpublished/ungraded until the Minor group, 40% weighting, and review gate are verified.
 - Canvas package: five Day subheaders, ten paired pages, one Quiz, and four private Assignments in a 20-item chronological route. All local renders passed without unresolved template fields.
 - Importer: `build/canvas/build_6sw_wk3.py`.
+- Owner-style release gate: all 20 responsive Canvas renders and all 14 printable pages passed after exact DOL capitalization was synchronized and rubric page 2 was clarified to require only the brief plus rubric/self-score. Earlier FYF work and companions remain reference evidence rather than extra uploads.
+- Recoverable Git checkpoints: `50888760` (pre-staging package), `06e99c68` (submission-evidence clarification), and `9debbf1e` (release-gate closure).
+- Live Canvas module: 544416, unpublished, with exactly 20 consecutive items. Ten Teacher/Student pages remain unpublished.
+- Live practice: Classic Quiz 281902 is unpublished, unlimited-retry, and contains exactly five questions in the managed order. Assignments 3101883, 3101884, and 3101885 are unpublished, worth 0 points, and omitted from the final grade.
+- Live Minor 3: assignment 3094808 remains unpublished, worth 100 points, counted in `Minor Assessments (40%)`, with exactly one durable submission panel on the Day 5 Student Guide.
+- Locked files: support folder 1155261 contains six locked PDFs (14578331, 14578332, 14578333, 14578335, 14578336, 14578337); licensed-visual folder 1155262 contains eleven locked FYF JPEGs (14562719-14562729). Live generic and week-specific API verification returned no problems.
 
 ## 2026-08-08 - 6SW Week 4 local production record
 
