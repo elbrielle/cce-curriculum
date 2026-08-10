@@ -36,25 +36,26 @@ The local Climber Notes deck titled *PowerSkill: Written Communication* belongs 
 
 | Day | Focus | Durable evidence | Canvas surface |
 |---|---|---|---|
-| 1 | Resolve conflict without skipping safety | Three-row plan plus two-career transfer | Teacher and student pages |
-| 2 | Listen for essential detail | Detail sort, two questions, safe practice note | Pages plus ungraded retryable practice quiz |
+| 1 | Resolve conflict without skipping safety | FYF pp. 144-145 plus two-career transfer | Teacher and student pages; optional no-workbook PDF |
+| 2 | Listen for essential detail | FYF p. 63, two questions, safe practice note | Pages plus ungraded retryable practice quiz; optional lab PDF |
 | 3 | Advocate and plan time | SMART goal, two time blocks, obstacle, backup | Pages; private/paper route |
-| 4 | Write for a reader | Fictional post and fixed-fact workplace rewrite | Pages plus optional ungraded discussion |
-| 5 | Record experience and synthesize | Xello check, two skill matches, revised goal, career transfer | Pages; hold graded assignment until groups are verified |
+| 4 | Write for a reader | FYF pp. 147-148 and fixed-fact workplace rewrite | Pages plus optional ungraded discussion; optional lab PDF |
+| 5 | Record experience and synthesize | Xello check, two skill matches, revised goal, career transfer | Pages plus unpublished Canvas Minor; two-page paper fallback |
 
 ## Grading plan
 
 - Days 1-4 checks are formative. Do not grade acting, drawing, hashtags, accent, or English mechanics unless meaning is unclear.
-- Recommended graded evidence: [Communication and Goal Synthesis Rubric](../../resources/worksheets/2sw-wk5-communication-goal-rubric.pdf), a 16-point **minor** checkpoint.
-- This is the recommended third minor of the 2SW block. Confirm the live Canvas Minor/Major assignment groups and SIS route before creating a graded Canvas assignment.
+- Graded evidence: [Communication and Goal Synthesis Rubric](../../resources/worksheets/2sw-wk5-communication-goal-rubric.pdf), a 16-point **minor** checkpoint.
+- This is the third minor in the approved 2SW assessment map. The Canvas assignment stays unpublished so the cloning teacher controls release and dates.
 
 ## Teacher preparation
 
 1. Post the paired Canvas pages and keep the module unpublished until review.
 2. Keep licensed FYF crops and Xello resources in locked Canvas folders.
-3. Use the [Powerskills Transfer Guide](../../resources/worksheets/2sw-wk5-powerskills-transfer-guide.pdf) throughout the week.
-4. Decide whether students will use the Day 4 discussion or the private written route. Both use the same criteria.
-5. On Day 5, check Work experiences through Xello Completion Standards. Paper does not replace the required save.
+3. Use FYF as the default student work surface on Days 1, 2, and 4. The matching two-page PDFs are no-workbook, absence, or extended-practice routes, not an automatic class set.
+4. Project or post the [Powerskills Transfer Guide](../../resources/worksheets/2sw-wk5-powerskills-transfer-guide.pdf); do not print it for every student unless a class needs that access route.
+5. Decide whether students will use the Day 4 discussion or the private written route. Both use the same criteria.
+6. On Day 5, check Work experiences through Xello Completion Standards. Paper does not replace the required save.
 
 ## Boundaries that do not change
 

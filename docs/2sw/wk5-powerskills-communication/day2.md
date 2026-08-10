@@ -5,7 +5,7 @@
 - **Topic:** Transferable Skills
 - **Objective:** Students will separate essential from background detail, ask a new question, and show how active listening transfers to another career.
 - **TEKS:** d(4)(B)
-- **Demonstration of Learning:** Active Listening Lab.
+- **Demonstration of Learning:** FYF p. 63 responses, safe workplace practice note, and transfer check.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
@@ -14,13 +14,14 @@
 | **Time** | 50 minutes |
 | **Target** | Separate essential from background detail, ask a new question, and show how active listening transfers to another career |
 | **TEKS** | d(4)(B) |
-| **Evidence** | [Active Listening Lab](../../resources/worksheets/2sw-wk5-active-listening-lab.pdf) |
+| **Evidence** | FYF p. 63 plus a safe practice note and transfer check; [optional lab route](../../resources/worksheets/2sw-wk5-active-listening-lab.pdf) |
 | **Source** | FYF pp. 62-63 |
 
 ## Before class
 
 - Open the locked FYF p. 62 account and p. 63 response page.
 - Post the written Maria account as well as the image. Students do not have to hold the account in memory.
+- Students use FYF pp. 62-63 by default. Print the separate lab only for the no-workbook or extended-practice route.
 - Keep the fictional-case boundary visible. Real chest pain with shortness of breath needs immediate adult or emergency help.
 
 ## Lesson flow

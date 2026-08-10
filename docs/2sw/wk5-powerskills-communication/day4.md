@@ -5,7 +5,7 @@
 - **Topic:** Transferable Skills
 - **Objective:** Students will write a clear fictional public message and revise a workplace message using only supplied facts.
 - **TEKS:** d(4)(B)
-- **Demonstration of Learning:** Written Message Lab.
+- **Demonstration of Learning:** FYF Little Library message and fixed-fact workplace rewrite.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
@@ -14,13 +14,14 @@
 | **Time** | 50 minutes |
 | **Target** | Write a clear fictional public message and revise a workplace message using only supplied facts |
 | **TEKS** | d(4)(B) |
-| **Evidence** | [Written Message Lab](../../resources/worksheets/2sw-wk5-written-message-lab.pdf) |
+| **Evidence** | FYF pp. 147-148 plus a fixed-fact workplace rewrite; [optional lab route](../../resources/worksheets/2sw-wk5-written-message-lab.pdf) |
 | **Source** | FYF pp. 147-148 |
 
 ## Before class
 
 - Open the locked FYF crops and the Canvas discussion if using it.
 - Post the privacy rule: no real account, address, photo, handle, phone number, or personal name.
+- Students use FYF pp. 147-148 by default. Print the separate lab only for the no-workbook or extended-rewrite route.
 - Decide the route before class: Canvas discussion for a fictional post and one response, or the private paper/text route. Both use the same criteria.
 
 ## Lesson flow

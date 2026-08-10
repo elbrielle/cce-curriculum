@@ -218,7 +218,7 @@ authenticated-Canvas licensing boundary used by the lesson pages.
 Use an idempotent importer under `build/canvas/`. It should:
 
 1. create or locate the locked Canvas file folder;
-2. upload assets with `on_duplicate=overwrite`;
+2. upload assets with `on_duplicate=overwrite`, then explicitly set each uploaded file record to `locked=true` instead of relying only on the parent folder lock;
 3. resolve existing supporting files by exact display name;
 4. replace all template tokens;
 5. update an existing page by stable URL or create it once;

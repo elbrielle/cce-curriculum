@@ -5,7 +5,7 @@
 - **Topic:** Transferable Skills
 - **Objective:** Students will use listening, compromise, and respectful language to solve a team conflict, then transfer the skill to two careers.
 - **TEKS:** d(4)(B)
-- **Demonstration of Learning:** Conflict Resolution Plan.
+- **Demonstration of Learning:** FYF Conflict Resolution Plan and two-career transfer response.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
@@ -14,13 +14,14 @@
 | **Time** | 50 minutes |
 | **Target** | Use listening, compromise, and respectful language to solve a team conflict, then transfer the skill to two careers |
 | **TEKS** | d(4)(B) |
-| **Evidence** | [Conflict Resolution Plan](../../resources/worksheets/2sw-wk5-conflict-resolution-plan.pdf) |
+| **Evidence** | FYF pp. 144-145 plus a two-career transfer response; [optional no-workbook route](../../resources/worksheets/2sw-wk5-conflict-resolution-plan.pdf) |
 | **Sources** | FYF pp. 12-14, 139, 144-145 |
 
 ## Before class
 
 - Open the locked FYF crops in Canvas.
 - Post the [Powerskills Transfer Guide](../../resources/worksheets/2sw-wk5-powerskills-transfer-guide.pdf).
+- Students use FYF pp. 144-145 by default. Print the separate conflict plan only for the no-workbook or individual fallback route.
 - Use groups of three or four with reader, recorder, facilitator, and designer roles. The designer role is optional if the group has three.
 - Do not require poster paper. The advertisement is an extension after the conflict plan is complete.
 

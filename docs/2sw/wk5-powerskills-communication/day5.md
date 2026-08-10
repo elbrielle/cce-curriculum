@@ -5,7 +5,7 @@
 - **Topic:** Goals and Time
 - **Objective:** Students will add one authentic Work experience in Xello, analyze Skills Matcher suggestions, and revise a goal using transferable-skill evidence.
 - **TEKS:** d(4)(A), d(4)(B); d(1)(A) supporting evidence
-- **Demonstration of Learning:** Work Experience and Skills Synthesis and 16-point rubric.
+- **Demonstration of Learning:** Submitted Communication and Goal Synthesis scored with the 16-point rubric.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
@@ -14,7 +14,7 @@
 | **Time** | 50 minutes |
 | **Target** | Add one authentic Work experience in Xello, analyze Skills Matcher suggestions, and revise a goal using transferable-skill evidence |
 | **TEKS** | d(4)(A), d(4)(B); d(1)(A) supporting evidence |
-| **Evidence** | [Work Experience and Skills Synthesis](../../resources/worksheets/2sw-wk5-work-experience-skills-synthesis.pdf) and [16-point rubric](../../resources/worksheets/2sw-wk5-communication-goal-rubric.pdf) |
+| **Evidence** | Unpublished Canvas Minor by default; [two-page paper fallback](../../resources/worksheets/2sw-wk5-work-experience-skills-synthesis.pdf) and [16-point rubric](../../resources/worksheets/2sw-wk5-communication-goal-rubric.pdf) |
 | **Platforms** | Required: Xello Work experiences. Supplemental: CareerOneStop Skills Matcher. Optional extension: Xello Time management. |
 
 ## Before class
@@ -22,6 +22,7 @@
 - Test ClassLink to Xello and the CareerOneStop Skills Matcher on a student Chromebook.
 - Open Xello Completion Standards so you can verify Work experiences.
 - Post the licensed Xello *My experiences* guide in locked Canvas. The broader guide asks students to add three experiences; the Bowie Grade 8 completion minimum for this task is one Work experience.
+- Open the unpublished **MINOR 3: Communication and Goal Synthesis**. Use the two-page PDF only when assigning the paper route.
 - Do not require a screenshot of personal results.
 
 ## Lesson flow
@@ -46,7 +47,7 @@ No screenshot is required. A teacher glance at the results screen or the private
 
 Students revise the Day 3 goal, name the time block and backup strategy, and compare one Powerskill across two careers. They may discuss one non-sensitive pattern with a partner, confer with the teacher, or keep the analysis private in writing.
 
-Use the rubric's four criteria. This is a recommended 16-point minor checkpoint after the Canvas Minor group and SIS route are verified.
+Use the rubric's four criteria. This is the approved third minor in the 2SW assessment map; the cloning teacher controls publication and dates.
 
 ### 5. Submit or record catch-up (3 min)
 
