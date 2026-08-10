@@ -6,11 +6,11 @@ weeks: 4sw/wk5-automotive
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 4
 orientation: portrait
 ---
 
-## Part 1. Visible evidence and boundary
+## 1. Visible evidence and boundary
 
 One Crash Crew condition supported by the image:
 
@@ -28,9 +28,11 @@ Why the boundary matters:
 
 [[lines: 5]]
 
+**Use this frame if it helps:** “The image supports ____. It does not prove ____. A ____ would need to ____ before ____.”
+
 [[pagebreak]]
 
-## Part 2. Three-career salary comparison
+## 2. Three-career comparison and direction
 
 Salary basis: May 2024 U.S. national median annual wage.
 
@@ -40,45 +42,23 @@ Salary basis: May 2024 U.S. national median annual wage.
 | Diesel Service Technician |  |  |  |
 | Automotive Body and Related Repairer |  |  |  |
 
-Highest-to-lowest comparison in a complete sentence:
+Highest-to-lowest comparison with the full evidence label:
 
-[[lines: 4]]
+[[lines: 3]]
 
-One outlook or openings comparison:
+Occupation I would investigate first and two relevant facts:
 
-[[lines: 4]]
+[[lines: 6]]
 
-One limitation of the evidence:
+One limitation of the national evidence:
 
-[[lines: 4]]
-
-[[pagebreak]]
-
-## Part 3. Current direction
-
-Automotive occupation I would investigate first:
-
-[[lines: 2]]
-
-Fact 1 and source label:
-
-[[lines: 4]]
-
-Fact 2 and source label:
-
-[[lines: 4]]
-
-How those facts connect to a stated priority:
-
-[[lines: 5]]
-
-Career preference itself is not graded.
+[[lines: 3]]
 
 [[pagebreak]]
 
-## Part 4. Preparation-route decision
+## 3. Preparation-route decision
 
-First route I would investigate: [ ] current Irving route [ ] TCC example [ ] registered apprenticeship [ ] employer/OJT
+First route I would investigate: [ ] Irving HQIM/current district route [ ] TCC example [ ] Registered Apprenticeship [ ] employer/OJT
 
 One advantage:
 
@@ -92,13 +72,15 @@ One missing fact:
 
 [[lines: 4]]
 
-Exact verification question and authorized source/person:
+Exact verification question and authorized source or person:
 
 [[lines: 5]]
 
+**Use this frame if it helps:** “I would investigate ____ first because ____. A tradeoff is ____. Before deciding, I would ask ____ whether ____.”
+
 [[pagebreak]]
 
-## Part 5. Limitation, next action, and revision
+## 4. Limitation, next action, and revision
 
 What the evidence cannot decide for me:
 
@@ -116,9 +98,7 @@ Weakest section before revision: _____________________________________________
 
 Revision I made:
 
-[[lines: 3]]
-
-## Evidence audit
+[[lines: 4]]
 
 Three labels I kept accurate:
 
@@ -130,6 +110,6 @@ Three labels I kept accurate:
 
 One unsupported claim I removed or corrected:
 
-[[lines: 2]]
+[[lines: 3]]
 
 Private submission: [ ] Canvas text [ ] Upload [ ] Media [ ] Paper

@@ -6,117 +6,82 @@ weeks: 4sw/wk5-automotive
 audience: student
 variant_of:
 language: en
-pages: 4
-orientation: portrait
+pages: 3
+orientation: landscape
 ---
 
-## One comparison basis
+## 1. Read three occupation cards
 
-Salary = May 2024 U.S. national median annual wage. Outlook = 2024-34 U.S. projection. Openings = annual average over the projection period. These are not DFW starting salaries.
+**One comparison basis:** May 2024 U.S. national median annual wage; 2024-34 U.S. projection; average annual openings over the projection period. These are not DFW starting salaries.
 
-## 1. Automotive Service Technician or Mechanic
+| Automotive Service Technician or Mechanic | Diesel Service Technician or Mechanic | Automotive Body and Related Repairer |
+|---|---|---|
+| Inspects, maintains, and repairs cars and light trucks; often uses computerized diagnostics. | Inspects, repairs, and overhauls buses, trucks, or other vehicles with diesel engines. | Repairs and restores vehicle bodies and related structures after damage. |
+| **Median:** $49,670 | **Median:** $60,640 | **Median:** $51,680 |
+| **Growth:** 4% | **Growth:** 2% | **Growth:** 2% for body/glass group |
+| **Annual openings:** 70,000 | **Annual openings:** 26,500 | **Annual openings:** 16,000 for body/glass group |
+| Many complete a postsecondary automotive program; some enter with high school and learn on the job. | High school plus on-the-job learning is typical; employers may prefer postsecondary diesel training. | High school plus repair training and on-the-job skill development are common routes. |
 
-- Inspects, maintains, and repairs cars and light trucks; increasingly uses computerized diagnostic equipment.
-- Common preparation: many complete a postsecondary automotive program; some enter with high school and learn on the job.
-- Median: **$49,670**
-- Growth: **4%**
-- Annual openings: **70,000**
+One task difference I notice:
 
-Two daily-work facts:
+[[lines: 2]]
 
-1. [[lines: 2]]
-2. [[lines: 2]]
+One preparation difference I notice:
 
-One preparation fact and one limitation:
+[[lines: 2]]
 
-[[lines: 4]]
-
-Source: U.S. Bureau of Labor Statistics, accessed August 2026.
-
-[[pagebreak]]
-
-## 2. Diesel Service Technician or Mechanic
-
-- Diagnoses, adjusts, repairs, or overhauls buses, trucks, and diesel engines.
-- Common preparation: high school plus on-the-job learning; employers may prefer postsecondary diesel training.
-- Median: **$60,640**
-- Growth: **2%**
-- Annual openings: **26,500**
-
-One daily-work fact and one preparation fact:
-
-[[lines: 4]]
-
-## 3. Automotive Body and Related Repairer
-
-- Repairs vehicle bodies and related structures after damage.
-- Preparation may include high-school or postsecondary repair training and on-the-job skill development.
-- Median: **$51,680**
-- Growth: **2% for the combined body and glass group**
-- Annual openings: **16,000 for the combined body and glass group**
-
-One daily-work fact:
-
-[[lines: 3]]
-
-Why the combined-group label must remain:
-
-[[lines: 4]]
-
-Sources: U.S. Bureau of Labor Statistics, accessed August 2026.
+Sources: U.S. Bureau of Labor Statistics occupation profiles. Accessed August 2026.
 
 [[pagebreak]]
 
-## 4. Compare all three
+## 2. Compare all three
 
-| Occupation | Median rank, 1-3 | Common preparation | Growth | Annual openings | One work/task difference |
+| Occupation | Median rank, 1-3 | Preparation evidence | Growth | Annual openings | One work or task difference |
 |---|:---:|---|---:|---:|---|
 | Automotive Service Technician |  |  |  |  |  |
 | Diesel Service Technician |  |  |  |  |  |
 | Automotive Body and Related Repairer |  |  |  |  |  |
 
-Salary difference between the highest and lowest medians:
+Highest-to-lowest median comparison:
 
 [[lines: 2]]
 
-One preparation difference:
-
-[[lines: 3]]
-
 One reason salary alone cannot decide fit:
 
-[[lines: 4]]
+[[lines: 2]]
 
 One limitation of using national evidence for a DFW student:
 
-[[lines: 4]]
+[[lines: 3]]
+
+**Words for this task:** median/mediana · openings/vacantes · preparation/preparación · limitation/limitación
 
 [[pagebreak]]
 
-## 5. Recommend for fictional Taylor
+## 3. Recommend for fictional Taylor
 
 Taylor enjoys diagnostics, wants paid work soon, and prefers electronic systems over painting or heavy equipment.
 
 First occupation Taylor should investigate:
 
-[[lines: 2]]
+[[lines: 1]]
 
 Table fact 1:
 
-[[lines: 3]]
+[[lines: 2]]
 
 Table fact 2:
 
+[[lines: 2]]
+
+Why those facts fit Taylor's priorities:
+
 [[lines: 3]]
-
-Why the facts fit Taylor's priorities:
-
-[[lines: 4]]
 
 One local question the national data cannot answer:
 
-[[lines: 4]]
+[[lines: 3]]
 
 Authorized local or official source:
 
-[[lines: 2]]
+[[lines: 1]]

@@ -3,9 +3,9 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Preparation
-- **Objective:** Students will compare three automotive occupations without mixing starting pay, local pay, and national median pay.
+- **Objective:** Students will research and describe preparation requirements and compare salaries for three automotive careers using one dated evidence basis.
 - **TEKS:** d(2)(A), d(5)(E)
-- **Demonstration of Learning:** Three-career table, two ranked comparisons, limitation, and fictional-student recommendation.
+- **Demonstration of Learning:** Three-career comparison with all salary labels, preparation and task differences, one evidence limitation, and a Taylor recommendation.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
@@ -13,19 +13,19 @@
 |---|---|
 | **Time** | 50 minutes |
 | **TEKS** | d(2)(A), d(5)(E) |
-| **Target** | I can compare three automotive occupations without mixing starting pay, local pay, and national median pay. |
-| **Evidence** | Three-career table, two ranked comparisons, limitation, and fictional-student recommendation |
-| **Materials** | Three Automotive Occupations packet; calculator; optional Xello-localized cross-check |
+| **Target** | I can describe preparation and compare salaries for three automotive careers without mixing evidence labels. |
+| **Evidence** | Three-career comparison, limitation, and two-fact Taylor recommendation |
+| **Materials** | Three-page landscape occupation comparison; calculator; optional Xello-localized cross-check |
 
 ## Before class
 
 Post the fixed BLS evidence set. A live site or vendor login is not required. If Xello supplies a localized figure, students record it in a separate local-evidence field with geography, date, and measure; they do not replace the common national comparison basis.
 
-## Warm-up — Keep the label (5 min)
+## Warm-up: Keep the label (5 min)
 
 Students repair three incomplete statements by adding the missing year, geography, or measure. Model: “$49,670” becomes “$49,670 May 2024 U.S. national median annual wage.”
 
-## Activity 1 — Read the three cards (12 min)
+## Activity 1: Read the three cards (12 min)
 
 Students read one occupation at a time:
 
@@ -37,7 +37,7 @@ Students read one occupation at a time:
 
 Students keep the group limitation with the collision figure: outlook and openings are published for the combined automotive body and glass group.
 
-## Activity 2 — Compare all three (18 min)
+## Activity 2: Compare all three (18 min)
 
 Students complete:
 
@@ -50,7 +50,7 @@ Students complete:
 
 Do not calculate “salary divided by years of education.” Preparation is not a single universal year count, and that ratio creates false precision.
 
-## Activity 3 — Recommend for a fictional student (10 min)
+## Activity 3: Recommend for a fictional student (10 min)
 
 Taylor enjoys diagnostics, wants paid work soon, and prefers electronic systems over painting or heavy equipment. Students recommend the first occupation Taylor should investigate, cite two table facts, and name one local question that national data cannot answer.
 

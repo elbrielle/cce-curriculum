@@ -6,7 +6,7 @@ weeks: 4sw/wk5-automotive
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 3
 orientation: portrait
 ---
 
@@ -14,103 +14,49 @@ orientation: portrait
 
 | | ASE Entry-Level | Professional ASE certification |
 |---|---|---|
-| Intended context | Students and entry-level knowledge checks | Working automotive professionals |
-| Work experience | No work-experience requirement for Entry-Level credential | Relevant approved experience or qualifying training substitution required |
-| Is passing one test the whole requirement? | Passing the Entry-Level test may earn that Entry-Level credential | No. A professional test score alone does not complete certification |
+| Intended context | Student and entry-level knowledge readiness | Working automotive professionals |
+| Experience | No work-experience requirement for the Entry-Level credential | Relevant approved hands-on experience or a qualifying substitution is required |
+| Is one test the whole requirement? | Passing may earn that Entry-Level credential | No. A professional test score alone does not complete certification |
 
 Correct this claim: “I passed one automotive class test, so I am now a professional ASE-certified technician.”
 
-[[lines: 5]]
-
-One ASE detail I would verify on the current official page:
-
-[[lines: 3]]
-
-Source: ASE Entry-Level and ASE Work Experience Requirements. Accessed August 2026.
-
-[[pagebreak]]
-
-## 2. Route card A — Employer/on-the-job learning
-
-Current BLS automotive guidance says many technicians complete a postsecondary automotive program, while some enter with a high school diploma and learn on the job.
-
-What this proves:
-
-[[lines: 2]]
-
-What it does not prove about a specific employer:
-
-[[lines: 3]]
-
-## Route card B — Registered Apprenticeship
-
-Texas Workforce Commission describes a registered apprenticeship as paid employment with structured on-the-job learning, related instruction, mentorship, progressive wages, and sponsor-controlled admission.
-
-One advantage:
-
-[[lines: 2]]
-
-One tradeoff or access question:
-
-[[lines: 3]]
-
-Why every dealership job is not automatically a registered apprenticeship:
-
-[[lines: 3]]
-
-[[pagebreak]]
-
-## 3. Route card C — TCC public technical-college example
-
-Published 2026-27 in-county tuition and fee estimates:
-
-| Program | Credits | Published tuition and fees |
-|---|---:|---:|
-| General Service Technician award | 12 | $888 |
-| Engine Analysis Technician certificate | 21 | $1,554 |
-| Heavy Line Technician certificate | 29 | $2,146 |
-| Automotive Service Technology AAS | 60 | $4,440 |
-
-Important limit: estimates assume in-state, in-county tuition and exclude books and other materials.
-
-What this source proves:
-
-[[lines: 3]]
-
-What the source does not prove for Jordan:
-
 [[lines: 4]]
 
-Two questions Jordan should ask before using the cost:
+**Words for this task:** credential/credencial · experience/experiencia · route/ruta · verify/verificar
 
-1. [[lines: 2]]
-2. [[lines: 2]]
+**Use this frame if it helps:** “ASE Entry-Level shows ____. Professional ASE certification also requires ____.”
 
-Source: Tarrant County College Automotive Service Technology, updated March 9, 2026.
+Sources: ASE Entry-Level and ASE Work Experience Requirements. Accessed August 2026.
 
 [[pagebreak]]
 
-## 4. Compare the routes for fictional Jordan
+## 2. Three preparation routes
+
+### Employer or on-the-job learning
+
+Some workers enter with a high school diploma and learn on the job. A job with informal training is not automatically a Registered Apprenticeship.
+
+### Registered Apprenticeship
+
+Paid employment with structured on-the-job learning, related instruction, mentorship, progressive wages, and sponsor-controlled admission. Actual automotive availability must be verified.
+
+### Public technical-college example
+
+TCC's published 2026-27 in-state, in-county tuition and fee estimates range from **$888** for a 12-credit General Service Technician award to **$4,440** for the 60-credit Automotive Service Technology AAS. Books and other materials are excluded.
+
+| Route | One supported fact | One advantage | One tradeoff or missing fact |
+|---|---|---|---|
+| Employer/OJT |  |  |  |
+| Registered Apprenticeship |  |  |  |
+| TCC example |  |  |  |
+
+Sources: BLS Automotive Service Technicians; TWC ApprenticeshipTexas; TCC Automotive Service Technology. Accessed August 2026.
+
+[[pagebreak]]
+
+## 3. Recommend for fictional Jordan
 
 Jordan wants automotive work, needs income soon, can travel only within DFW, and may want an associate degree later.
-
-| Decision factor | Employer/OJT | Registered Apprenticeship | TCC example |
-|---|---|---|---|
-| When paid work begins |  |  |  |
-| Structured instruction |  |  |  |
-| Credential/completion evidence |  |  |  |
-| Published cost and exclusions |  |  |  |
-| Admission/sponsor question |  |  |  |
-| Advantage |  |  |  |
-| Tradeoff |  |  |  |
-
-The factor that matters most for Jordan:
-
-[[lines: 4]]
-
-[[pagebreak]]
-
-## 5. Recommendation and source audit
 
 First route Jordan should investigate:
 
@@ -124,22 +70,20 @@ Fact 2 and source label:
 
 [[lines: 2]]
 
-One missing fact that could change the recommendation:
+One tradeoff or missing fact:
 
 [[lines: 3]]
 
-Authorized next source or person:
+Exact verification question and authorized source or person:
 
-[[lines: 1]]
+[[lines: 4]]
 
-Why this is an investigation recommendation, not a guarantee:
-
-[[lines: 2]]
+**Use this frame if it helps:** “Jordan should investigate ____ first because ____ and ____. A tradeoff or missing fact is ____. Jordan should verify ____ with ____.”
 
 ## Done when
 
 - [ ] Entry-Level and professional ASE are distinguished
-- [ ] All three routes compared
-- [ ] Two source facts retained
-- [ ] One missing fact and authorized next source
-- [ ] Recommendation addresses Jordan's priorities
+- [ ] all three routes compared
+- [ ] two source facts retained
+- [ ] tradeoff or missing fact named
+- [ ] exact verification question written

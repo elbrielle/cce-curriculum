@@ -43,7 +43,7 @@ Students can:
 - **ASE:** Entry-Level certification has no work-experience requirement. Professional ASE certification requires the relevant test and approved hands-on work experience or a qualifying training substitution. Do not tell students that passing one school test makes them a professional ASE-certified technician. [ASE Entry-Level](https://www.ase.com/entry-level/) · [ASE work experience](https://ase.com/tests/work-experience/)
 - **Registered Apprenticeship:** A registered program is a paid job with structured on-the-job learning, related instruction, mentorship, and progressive wages. Availability and entry requirements depend on the sponsoring employer or program. Do not present every dealership job as a registered apprenticeship. [Texas Workforce Commission](https://www.twc.texas.gov/services/job-training/find-apprenticeships)
 - **Tarrant County College example:** The published 2026-27 in-county tuition and fee estimates range from $888 for the 12-credit General Service Technician award to $4,440 for the 60-credit Automotive Service Technology AAS, excluding books and materials. Students must retain the year, residency assumption, and exclusions. [TCC Automotive Service Technology](https://www.tccd.edu/academics/courses-and-programs/programs-a-z/credit/automotive-automotive-service-technology/)
-- **Irving program context:** The workbook names Automotive Technology, Collision Repair, and Diesel & Heavy Equipment Technology on FYF pp. 168-169. Treat those pages as workbook context. Current campus, eligibility, transportation, sequence, fees, and credential outcomes require the current district coursebook, counselor, or CTE coordinator.
+- **Irving program context:** FYF pp. 168-169 are the district-customized HQIM source for **Automotive Technology**, **Collision Repair**, and **Diesel & Heavy Equipment Technology**. The current Irving High School CTE page confirms the broader **Automotive, Collision Repair and Diesel** offering at Cardwell, Irving, MacArthur, and Nimitz. Use the workbook names with students; use the current coursebook, counselor, or CTE program to verify enrollment logistics the workbook does not state.
 
 ## Licensed and supplemental resources
 
@@ -61,12 +61,12 @@ Students can:
 
 ## Teacher-ready materials
 
-- Crash Crew Evidence and Preliminary Plan
-- ASE and Automotive Training Routes
-- Three Automotive Occupations
-- Automotive Route Decision
-- Automotive Evidence Brief
-- 16-point student-visible rubric
+- three-page Crash Crew no-workbook/annotation companion;
+- three-page ASE and Automotive Training Routes fallback for the Canvas Quiz;
+- three-page Three Automotive Occupations comparison;
+- two-page Automotive Route Decision fallback for the Canvas Quiz;
+- four-page Automotive Evidence Brief; and
+- two-page 16-point student-visible rubric.
 - five one-page exit checks
 
-Every printable sizes its writing area to the response: short labels receive one line; comparisons and justifications receive separate multi-line blocks; the collision diagram and evidence brief receive dedicated pages.
+The custom set is a companion, not a second workbook. Day 1 uses FYF pp. 150-151 first. Days 2 and 4 use Canvas practice Quizzes first. The longer writing space is reserved for the Day 3 comparison and Day 5 Minor. Short labels receive one line; comparisons and justifications receive separate multi-line blocks.

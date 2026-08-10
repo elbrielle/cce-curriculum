@@ -12,7 +12,7 @@ orientation: landscape
 
 ## Student-visible 16-point rubric
 
-| Criterion | Masters — 4 | Meets — 3 | Approaches — 2 | Needs Improvement — 1 | Insufficient evidence — 0 |
+| Criterion | Masters: 4 | Meets: 3 | Approaches: 2 | Needs Improvement: 1 | Insufficient evidence: 0 |
 |---|---|---|---|---|---|
 | Visible evidence and boundary | Exact visible condition; unsupported conclusion clearly rejected; authorized next evidence named and explained | Visible condition and boundary are accurate; next evidence named | Mostly accurate, but boundary or next evidence is general | Observation and conclusion are blurred or important boundary is missing | Blank, off-topic, or unsafe unsupported claim remains |
 | Three-career comparison | All 3 medians correctly labeled/ranked; preparation and outlook/openings compared; limitation explained | All 3 medians compared with labels and one limitation | All 3 appear, but label, comparison, or limitation is incomplete | Fewer than 3 accurate careers or mixed salary measures | Blank, off-topic, or figures are invented |

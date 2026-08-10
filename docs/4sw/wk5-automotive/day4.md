@@ -3,9 +3,9 @@
 ## Daily Learning Contract
 
 - **Topic:** Training Options
-- **Objective:** Students will evaluate training routes using current evidence and identify what still requires district or program confirmation.
+- **Objective:** Students will evaluate automotive education and training options and identify application or enrollment questions for high-school, technical-college, and Registered Apprenticeship routes.
 - **TEKS:** d(2)(B), d(3)(G)
-- **Demonstration of Learning:** Current-source audit, route comparison, scenario recommendation, and verification plan.
+- **Demonstration of Learning:** Four-question source-evidence practice Quiz with an individual Dani recommendation using two facts, one tradeoff or missing fact, and one authorized verification source.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
@@ -13,23 +13,24 @@
 |---|---|
 | **Time** | 50 minutes |
 | **TEKS** | d(2)(B), d(3)(G) |
-| **Target** | I can evaluate training routes using current evidence and identify what still requires district or program confirmation. |
-| **Evidence** | Current-source audit, route comparison, scenario recommendation, and verification plan |
-| **Materials** | Automotive Route Decision packet; FYF pp. 168-169; current district/coursebook route; TCC and TWC evidence cards; practice Quiz |
+| **Target** | I can evaluate three automotive training routes and write the next application or enrollment question. |
+| **Evidence** | Four-question practice Quiz with a two-fact Dani recommendation and verification plan |
+| **Materials** | FYF pp. 168-169; Canvas source cards and Quiz; two-page no-device fallback; current district/coursebook route; TCC and TWC evidence |
 
 ## Before class
 
-1. Check the current Irving CTE/course-description source and record the access date.
-2. Post the fixed TCC and TWC cards. Do not require students to navigate private-school marketing sites.
-3. Treat FYF pp. 168-169 as workbook context, not proof of current campus, admission, schedule, transportation, fees, or certification outcomes.
+1. Open FYF pp. 168-169 as the district-customized HQIM source for the program names and examples.
+2. Check the current Irving CTE/course-description source and record the access date for current campuses and logistics.
+3. Post the fixed TCC and TWC cards. Do not require students to navigate private-school marketing sites.
+4. Keep the two-page Route Decision as the no-device, enlarged, or paper route instead of printing it by default.
 
-## Warm-up — Fact, workbook claim, or question? (5 min)
+## Warm-up: Fact, workbook claim, or question? (5 min)
 
 Students sort six statements. A strong response distinguishes a dated current source, a statement preserved from the workbook, and a question that still needs counselor/program confirmation.
 
-## Activity 1 — Audit the local route (10 min)
+## Activity 1: Audit the local route (10 min)
 
-Students record only what the current district source proves. Possible fields:
+Students begin with the FYF program names, then record what the current district source adds about present campuses and access. Possible fields:
 
 - exact program/pathway name;
 - campus or center when stated;
@@ -39,11 +40,11 @@ Students record only what the current district source proves. Possible fields:
 
 If a detail is absent, students write **not confirmed in this source**. They do not fill the gap with the workbook or memory.
 
-## Activity 2 — Compare three preparation routes (20 min)
+## Activity 2: Compare three preparation routes (20 min)
 
 Students compare:
 
-1. a current verified Irving high-school route or a **confirmation-needed** local card;
+1. the FYF/current Irving high-school route, with logistics questions preserved;
 2. the published 2026-27 TCC Automotive Service Technology examples; and
 3. a registered apprenticeship model from TWC, with actual local availability left as a search/verification question.
 
@@ -57,7 +58,7 @@ Required rows:
 - location/transportation question;
 - advantage, tradeoff, and missing fact.
 
-## Activity 3 — Recommend for Dani (10 min)
+## Activity 3: Recommend for Dani (10 min)
 
 Dani is entering high school, needs a low-cost route, wants hands-on automotive work, and may want college credit later. Students recommend the first route Dani should investigate. A full answer:
 

@@ -3,9 +3,9 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Preparation
-- **Objective:** Students will distinguish ASE Entry-Level from professional ASE certification and compare three legitimate preparation routes.
+- **Objective:** Students will research and describe automotive preparation and certification requirements, evaluate three training options, and identify steps for entering a Registered Apprenticeship or technical-college route.
 - **TEKS:** d(2)(A), d(2)(B), d(3)(G)
-- **Demonstration of Learning:** ASE distinction, route evidence table, tradeoff recommendation, and verification question.
+- **Demonstration of Learning:** Five-question ASE and Training Route practice Quiz with an individual Jordan recommendation using two source facts, one tradeoff or missing fact, and one verification step.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
@@ -13,21 +13,21 @@
 |---|---|
 | **Time** | 50 minutes |
 | **TEKS** | d(2)(A), d(2)(B), d(3)(G) |
-| **Target** | I can distinguish ASE Entry-Level from professional ASE certification and compare three legitimate preparation routes. |
-| **Evidence** | ASE distinction, route evidence table, tradeoff recommendation, and verification question |
-| **Materials** | ASE and Automotive Training Routes packet; current ASE, TWC, BLS, and TCC links; practice Quiz |
+| **Target** | I can describe the ASE requirements, evaluate three training options, and name a real next step. |
+| **Evidence** | Five-question practice Quiz with an individual two-fact Jordan recommendation and verification step |
+| **Materials** | Canvas source cards and practice Quiz; three-page no-device fallback; current ASE, TWC, BLS, and TCC links |
 
 ## Before class
 
-1. Post the dated five-page evidence packet and the unpublished retryable practice Quiz.
+1. Post the dated source cards and unpublished retryable practice Quiz. Keep the three-page packet as the no-device, enlarged, or paper route instead of printing it by default.
 2. Open the current [ASE Entry-Level](https://www.ase.com/entry-level/), [ASE work-experience](https://ase.com/tests/work-experience/), [TWC apprenticeship](https://www.twc.texas.gov/services/job-training/find-apprenticeships), and [TCC Automotive](https://www.tccd.edu/academics/courses-and-programs/programs-a-z/credit/automotive-automotive-service-technology/) pages.
 3. Do not use old fixed test fees, universal wage premiums, “most shops require ASE,” or a guaranteed time to Master status.
 
-## Warm-up — Credential, training, or job? (5 min)
+## Warm-up: Credential, training, or job? (5 min)
 
 Students classify four cards: ASE Entry-Level test, professional ASE certification, Automotive Service Technology AAS, and registered apprenticeship. More than one can contribute to a career, but they are not interchangeable.
 
-## Activity 1 — Repair the ASE misconception (8 min)
+## Activity 1: Repair the ASE misconception (8 min)
 
 Build the distinction:
 
@@ -39,9 +39,9 @@ Build the distinction:
 
 Students write one sentence correcting: “I passed one automotive class test, so I am now a professional ASE-certified technician.”
 
-## Activity 2 — Read three route cards (12 min)
+## Activity 2: Read three route cards (12 min)
 
-Students read fixed, dated cards for:
+Students read the fixed, dated cards in Canvas or the fallback for:
 
 1. **Employer/OJT route:** some workers enter with a high school diploma and learn on the job; the job is not automatically a registered apprenticeship.
 2. **Registered Apprenticeship route:** paid employment, structured on-the-job learning, related instruction, mentorship, progressive wages, and sponsor-specific admission.
@@ -49,9 +49,9 @@ Students read fixed, dated cards for:
 
 Students record what each source proves and what it does not prove about one student's actual availability, admission, cost, schedule, or hiring result.
 
-## Activity 3 — Compare and recommend (18 min)
+## Activity 3: Compare and recommend (18 min)
 
-Fictional student Jordan wants automotive work, needs income soon, can travel only within DFW, and may want an associate degree later. Students compare:
+Fictional student Jordan wants automotive work, needs income soon, can travel only within DFW, and may want an associate degree later. Students compare in the Quiz recommendation or fallback:
 
 - time before paid work;
 - structured instruction;
