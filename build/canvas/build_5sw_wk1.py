@@ -3,6 +3,7 @@
 import asyncio
 import json
 import sys
+from urllib.parse import urlencode
 
 import httpx
 
@@ -213,16 +214,17 @@ async def upsert_quiz(client):
     if set(final_by_name) != set(expected) or len(final_questions) != len(expected):
         actual = [entry.get("question_name") for entry in final_questions]
         raise RuntimeError(f"Architecture Quiz mismatch: expected {expected}, found {actual}")
-    reorder_data = []
+    reorder_fields = []
     for name in expected:
-        reorder_data.extend(
+        reorder_fields.extend(
             [("order[][id]", str(final_by_name[name]["id"])), ("order[][type]", "question")]
         )
     await common.api(
         client,
         "POST",
         f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/reorder",
-        data=reorder_data,
+        content=urlencode(reorder_fields),
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
     )
     final_questions = await common.paged(client, f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions")
     actual = [entry.get("question_name") for entry in final_questions]
