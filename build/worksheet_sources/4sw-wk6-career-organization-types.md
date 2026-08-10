@@ -6,143 +6,103 @@ weeks: 4sw/wk6-trades-capstone
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 3
 orientation: portrait
 ---
 
-## Four types
+## Four types and two school-based examples
 
-| Type | Main job | Example in this packet |
+| Type | Main job | Example |
 |---|---|---|
 | CTSO | School-connected student leadership and career development | SkillsUSA, TSA |
-| Professional association | Membership, learning, connection, and advocacy in a profession | NSPE, AOPA |
-| Credentialing organization | Assesses or certifies knowledge and experience | ASE |
+| Professional association | Learning, connection, and advocacy in a profession | NSPE, AOPA |
+| Credentialing organization | Assesses or credentials knowledge and experience | ASE |
 | Government agency | Public rules, oversight, certificates, and government work | FAA |
 
-Why two organizations can work together without becoming the same type:
+### SkillsUSA: CTSO
+
+- Middle- and high-school participation runs through a school chapter or approved local plan.
+- Students ask a CTE teacher or counselor about local access.
+- The national page does not prove that a specific Irving campus has a chapter or that every activity is free.
+
+### TSA: CTSO
+
+- Middle- and high-school STEM participation runs through a school-affiliated chapter and advisor.
+- Members may take part in competitions, leadership, and community activities.
+- The national page does not prove a specific campus chapter, fee, or event.
+
+Source check: SkillsUSA How to Join and TSA Membership FAQ, accessed August 10, 2026.
+
+One school-access question:
+
+[[lines: 3]]
+
+[[pagebreak]]
+
+## Four more organization cards
+
+### ASE: credentialing organization
+
+ASE is an independent nonprofit that develops automotive assessments and credentials. Professional certification requires the applicable test and approved experience or substitution. It is not a school club.
+
+### FAA: federal government agency
+
+The FAA is part of the U.S. Department of Transportation. It regulates aviation, issues certificates in authorized contexts, and employs workers. It is not a membership association.
+
+### NSPE: professional association
+
+NSPE student membership currently requires qualifying full-time college, graduate, or formal pre-engineering transfer-program enrollment. It is a later professional network, not blanket middle-school membership.
+
+### AOPA: professional membership association
+
+AOPA currently advertises free high-school membership for U.S. residents ages 13-20, with aviation learning and scholarship information. A student must still follow family and district privacy rules before creating an account. AOPA does not issue FAA certificates.
+
+Source check: ASE About, FAA About, NSPE Student Membership, and AOPA High School Membership, accessed August 10, 2026.
+
+**Word bank:** chapter = capítulo local · membership = membresía · credential = credencial · government agency = agencia gubernamental
+
+One fact that separates a membership organization from a credentialing or government organization:
 
 [[lines: 4]]
 
 [[pagebreak]]
 
-## Card 1: SkillsUSA — CTSO
+## Paper practice and realistic decision
 
-- National nonprofit student organization serving CTE students and teachers.
-- A student asks a CTE teacher or counselor whether the school has a chapter; starting a chapter requires school support.
-- Current student resources include leadership, career-ready skills, work-based learning, recognition, scholarships, and career competitions.
-- This card does not prove that a specific Irving campus has a chapter or that every activity is free.
+### Practice check
 
-Source: SkillsUSA official pages, accessed August 2026.
+1. Which pair contains two CTSOs?  [ ] SkillsUSA/TSA  [ ] ASE/FAA  [ ] NSPE/FAA
 
-Type and access route:
+2. Which organization assesses automotive knowledge and experience?  [ ] ASE  [ ] TSA  [ ] FAA
 
-[[lines: 3]]
+3. Which organization is a federal agency?  [ ] FAA  [ ] AOPA  [ ] NSPE
 
-One verified benefit and one unconfirmed local question:
+4. What is the strongest first step for a student interested in SkillsUSA?
+
+[ ] Assume every campus has a free chapter
+
+[ ] Ask a CTE teacher or counselor about the local chapter and requirements
+
+[ ] Register for a professional ASE test
+
+### Fictional Sam's decision
+
+Sam wants a school-based leadership and competition opportunity now and an aviation professional network to investigate later.
+
+School-based organization to ask about now: __________________________________
+
+Fact that supports the choice and local access question:
 
 [[lines: 4]]
 
-## Card 2: TSA — CTSO
-
-- National nonprofit CTSO for middle- and high-school students engaged in STEM.
-- Participation runs through chapters and school advisors.
-- Programs include STEM competitions, leadership, and career development.
-- This card does not prove a specific campus chapter, event, fee, or student eligibility.
-
-Source: TSA 2025-26 Facts, accessed August 2026.
-
-Type, benefit, and local access question:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Card 3: ASE — credentialing organization
-
-- Independent nonprofit created by the automotive industry.
-- Develops assessments and credentials current and future transportation professionals.
-- Professional ASE certification combines the applicable test with approved work experience or substitution; Entry-Level is a separate context.
-- ASE is not a school club and this card does not prove every automotive job requires one exact credential.
-
-Source: ASE About and Work Experience pages, accessed August 2026.
-
-Type, main function, and one claim not supported:
-
-[[lines: 5]]
-
-## Card 4: FAA — federal government agency
-
-- Part of the U.S. Department of Transportation.
-- Its mission is a safe and efficient aerospace system.
-- It regulates aviation, issues certificates in authorized contexts, and hires employees.
-- The FAA is not a membership association or school club.
-
-Source: FAA About, accessed August 2026.
-
-Type, main function, and one reason “join the FAA” is inaccurate:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Card 5: NSPE — professional association
-
-- Membership organization for professional engineers and eligible students.
-- Current student eligibility is tied to qualifying college engineering, engineering technology, pre-engineering transfer, or graduate programs.
-- Benefits may include professional learning, connections, advocacy, publications, events, and scholarships.
-- This card does not offer blanket middle-school membership or prove a local chapter.
-
-Source: NSPE Student Membership, accessed August 2026.
-
-Type, one later benefit, and one eligibility boundary:
-
-[[lines: 5]]
-
-## Card 6: AOPA — professional membership association
-
-- Membership organization serving pilots and general aviation.
-- Benefits vary by membership category and may include safety learning, planning tools, publications, advocacy, and expert support.
-- Current eligibility and price must be checked for the specific category before joining.
-- AOPA does not issue an FAA certificate.
-
-Source: AOPA Membership, accessed August 2026.
-
-Type, one benefit, and one verification question:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Realistic organization decision
-
-Fictional Sam wants a school-based leadership and competition opportunity now and an aviation professional network later.
-
-First organization to ask about now:
-
-[[lines: 1]]
-
-Card fact that supports the choice:
-
-[[lines: 2]]
-
-School access question:
-
-[[lines: 2]]
-
-Later organization to investigate:
-
-[[lines: 1]]
-
-Card fact that supports the later choice:
-
-[[lines: 2]]
-
-Eligibility or cost question:
-
-[[lines: 2]]
-
-## Correct the labels
-
-Correct: “FAA, ASE, and SkillsUSA are three professional associations I can join today.”
+How this opportunity could support career exploration or development:
 
 [[lines: 3]]
+
+Professional organization to investigate later: ______________________________
+
+Fact that supports the choice and one privacy, eligibility, or cost question:
+
+[[lines: 3]]
+
+**Use this frame:** Sam should ask about **[school opportunity]** now because **[card fact]**. This could support career development by **[specific benefit]**. Later, Sam could investigate **[professional organization]**, but first Sam must verify **[access, cost, eligibility, or privacy question]**.

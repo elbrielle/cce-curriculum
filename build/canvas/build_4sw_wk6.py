@@ -18,6 +18,52 @@ SKILLS_TITLE = "PRACTICE: Transferable Skills Evidence"
 ORG_QUIZ_TITLE = "PRACTICE: Career Organization Type Check"
 INTEGRITY_QUIZ_TITLE = "PRACTICE: Integrity and Accurate Records"
 REFLECTION_TITLE = "DRAFT: Private Mid-Year Evidence Reflection"
+LEGACY_REFLECTION_TITLE = REFLECTION_TITLE
+REFLECTION_TITLE = "RECOVERY: Private Mid-Year Evidence Reflection"
+
+
+CONTRACTS = {
+    1: {
+        "TOPIC": "Transferable Skills",
+        "OBJECTIVE": "Students will separate observations from conclusions, choose a safe inspection priority using evidence, and explain how analytical reasoning transfers to another career task.",
+        "TEKS": "d(4)(B)",
+        "DOL": "Completed FYF pp. 154-155 priority and plan plus one clue-limit-safe-action and cross-career transfer response.",
+        "I_CAN": "separate a clue from a conclusion, choose a safe priority, and show how analytical reasoning transfers to another career task.",
+        "SHOW": "Complete FYF pp. 154-155, then write one clue-limit-safe-action and cross-career transfer response.",
+    },
+    2: {
+        "TOPIC": "Transferable Skills",
+        "OBJECTIVE": "Students will use specific job tasks to show how four skills transfer among six careers.",
+        "TEKS": "d(4)(B)",
+        "DOL": "Four transferable-skill comparisons, a three-example pattern claim, and an independent two-career transfer response.",
+        "I_CAN": "use specific tasks to prove that a skill transfers among different careers.",
+        "SHOW": "Complete four skill comparisons, a three-example claim, and one independent two-career transfer response.",
+    },
+    3: {
+        "TOPIC": "Extended Learning",
+        "OBJECTIVE": "Students will distinguish CTSOs, professional associations, a credentialing organization, and a government agency; explain how one realistic student opportunity supports career exploration and development.",
+        "TEKS": "d(3)(F), d(3)(H)",
+        "DOL": "Four-question practice Quiz and one Sam decision with an accurate type, benefit, access boundary, and career-development value.",
+        "I_CAN": "tell what four organization types do and explain how one student opportunity supports career development.",
+        "SHOW": "Complete the four-question practice Quiz and recommend one school-based opportunity now and one professional network to investigate later, using facts and an access boundary.",
+    },
+    4: {
+        "TOPIC": "Professional Character",
+        "OBJECTIVE": "Students will identify work ethic, integrity, dedication, and perseverance in four fictional workplace decisions and connect one trait to prior class evidence.",
+        "TEKS": "d(4)(F)",
+        "DOL": "Five-question practice Quiz, one justified workplace decision, and one personal class-artifact evidence audit.",
+        "I_CAN": "identify four professional characteristics and connect one to a visible action in my class work.",
+        "SHOW": "Complete the five-question practice Quiz, justify one workplace decision, and audit one prior class artifact.",
+    },
+    5: {
+        "TOPIC": "Evidence Reflection",
+        "OBJECTIVE": "Students will use fixed and personal evidence to explain one change in career thinking, prove two transferable skills, evaluate one professional association and its membership boundary, and set two supported next actions.",
+        "TEKS": "d(4)(B), d(3)(H)",
+        "DOL": "Teacher-assigned private four-part recovery reflection, self-score, and visible revision.",
+        "I_CAN": "use evidence to explain a change, prove two skills, evaluate one professional association, and plan two next actions.",
+        "SHOW": "When assigned for recovery or replacement, submit a private four-part reflection with a self-score and one visible revision.",
+    },
+}
 
 
 async def ensure_module(client):
@@ -59,72 +105,26 @@ async def upsert_item(client, module_id, kind, key, title):
 
 QUIZZES = {
     ORG_QUIZ_TITLE: [
-        (
-            "Q1 - CTSO",
-            "Which pair contains two career and technical student organizations?",
-            "SkillsUSA and TSA",
-            ["ASE and FAA", "NSPE and FAA", "AOPA and ASE"],
-            "Correct. Both are school-connected CTSOs.",
-            "SkillsUSA and TSA are the CTSOs in this evidence set.",
-        ),
-        (
-            "Q2 - Credentialing",
-            "Which organization assesses and credentials automotive knowledge and experience?",
-            "ASE",
-            ["FAA", "TSA", "NSPE"],
-            "Correct. ASE is an independent nonprofit credentialing organization.",
-            "ASE develops automotive assessments and credentials; it is not a school club.",
-        ),
-        (
-            "Q3 - Government",
-            "Which organization is a federal government agency rather than a membership association?",
-            "FAA",
-            ["AOPA", "NSPE", "SkillsUSA"],
-            "Correct. The FAA is part of the U.S. Department of Transportation.",
-            "The FAA regulates aviation and is not an association a student joins.",
-        ),
-        (
-            "Q4 - Access",
-            "What is the strongest first step for a student interested in SkillsUSA?",
-            "Ask a CTE teacher or counselor whether the school has a chapter and what access requires.",
-            ["Assume every campus has a free chapter.", "Register for an ASE professional test instead.", "Join the FAA."],
-            "Correct. School access and local requirements must be verified.",
-            "A national organization page does not prove a particular campus chapter.",
-        ),
+        {
+            "name": "Q1 - CTSO",
+            "prompt": "Which pair contains two career and technical student organizations?",
+            "correct": "SkillsUSA and TSA",
+            "wrong": ["ASE and FAA", "NSPE and FAA", "AOPA and ASE"],
+            "yes": "Correct. Both are school-connected CTSOs.",
+            "no": "SkillsUSA and TSA are the CTSOs in this evidence set.",
+        },
+        {"name": "Q2 - Credentialing", "prompt": "Which organization assesses and credentials automotive knowledge and experience?", "correct": "ASE", "wrong": ["FAA", "TSA", "NSPE"], "yes": "Correct. ASE is an independent nonprofit credentialing organization.", "no": "ASE develops automotive assessments and credentials; it is not a school club."},
+        {"name": "Q3 - Government", "prompt": "Which organization is a federal government agency rather than a membership association?", "correct": "FAA", "wrong": ["AOPA", "NSPE", "SkillsUSA"], "yes": "Correct. The FAA is part of the U.S. Department of Transportation.", "no": "The FAA regulates aviation and is not an association a student joins."},
+        {"name": "Q4 - Access", "prompt": "What is the strongest first step for a student interested in SkillsUSA?", "correct": "Ask a CTE teacher or counselor whether the school has a chapter and what access requires.", "wrong": ["Assume every campus has a free chapter.", "Register for an ASE professional test instead.", "Join the FAA."], "yes": "Correct. School access and local requirements must be verified.", "no": "A national organization page does not prove a particular campus chapter."},
+        {"name": "Q5 - Sam decision", "type": "essay_question", "prompt": "Fictional Sam wants a school-based leadership and competition opportunity now and an aviation professional network to investigate later. Recommend one organization for now and one for later. Use one card fact for each, explain how the school opportunity supports career exploration or development, and name one access, eligibility, cost, or privacy question."},
     ],
     INTEGRITY_QUIZ_TITLE: [
-        (
-            "Q1 - Pressure to sign",
-            "A worker is asked to sign an inspection they did not complete. What is the strongest action?",
-            "Do not sign; record the incomplete status accurately and use the supervisor or authorized handoff route.",
-            ["Sign now and fix it later.", "Delete the record.", "Guess that the inspection passed."],
-            "Correct. Integrity protects both the work and the record.",
-            "A signature must not claim work that was not completed.",
-        ),
-        (
-            "Q2 - Conflicting data",
-            "Two approved classroom measurements conflict. What should the team record?",
-            "Both results, the conflict, and the approved next verification step",
-            ["Only the result that looks best", "The average as a guaranteed truth", "No result at all"],
-            "Correct. Honest uncertainty is usable evidence.",
-            "Do not hide or relabel a conflicting measurement.",
-        ),
-        (
-            "Q3 - Perseverance",
-            "Which statement best describes perseverance?",
-            "Continue through difficulty while keeping safety, quality, and authorization boundaries.",
-            ["Continue any task even when it becomes unsafe.", "Hide a mistake to finish on time.", "Never ask for help."],
-            "Correct. Persistence does not erase professional boundaries.",
-            "Unsafe persistence is not professional perseverance.",
-        ),
-        (
-            "Q4 - Evidence",
-            "Which statement is personal evidence of work ethic in class?",
-            "I completed every required evidence row, noticed one weak explanation, and revised it before submitting.",
-            ["I have good work ethic.", "My favorite career is automotive.", "I opened the website."],
-            "Correct. The statement names visible action and revision.",
-            "A trait label or click is not evidence by itself.",
-        ),
+        {"name": "Q1 - Pressure to sign", "prompt": "A worker is asked to sign an inspection they did not complete. What is the strongest action?", "correct": "Do not sign; record the incomplete status accurately and use the supervisor or authorized handoff route.", "wrong": ["Sign now and fix it later.", "Delete the record.", "Guess that the inspection passed."], "yes": "Correct. Integrity protects both the work and the record.", "no": "A signature must not claim work that was not completed."},
+        {"name": "Q2 - Conflicting data", "prompt": "Two approved classroom measurements conflict. What should the team record?", "correct": "Both results, the conflict, and the approved next verification step", "wrong": ["Only the result that looks best", "The average as a guaranteed truth", "No result at all"], "yes": "Correct. Honest uncertainty is usable evidence.", "no": "Do not hide or relabel a conflicting measurement."},
+        {"name": "Q3 - Perseverance", "prompt": "Which statement best describes perseverance?", "correct": "Continue through difficulty while keeping safety, quality, and authorization boundaries.", "wrong": ["Continue any task even when it becomes unsafe.", "Hide a mistake to finish on time.", "Never ask for help."], "yes": "Correct. Persistence does not erase professional boundaries.", "no": "Unsafe persistence is not professional perseverance."},
+        {"name": "Q4 - Evidence", "prompt": "Which statement is personal evidence of work ethic in class?", "correct": "I completed every required evidence row, noticed one weak explanation, and revised it before submitting.", "wrong": ["I have good work ethic.", "My favorite career is automotive.", "I opened the website."], "yes": "Correct. The statement names visible action and revision.", "no": "A trait label or click is not evidence by itself."},
+        {"name": "Q5 - Dedication", "prompt": "Which statement best shows dedication?", "correct": "I kept improving the required product because quality mattered, while still following the deadline and safety rules.", "wrong": ["I refused every revision because the first version was already finished.", "I continued an unsafe task because stopping would look weak.", "I hid the incomplete part so the product looked finished."], "yes": "Correct. Dedication is sustained commitment to quality and purpose within professional boundaries.", "no": "Dedication does not erase deadlines, safety, honesty, or revision."},
+        {"name": "Q6 - Evidence audit", "type": "essay_question", "prompt": "Choose one fictional case and one prior class artifact. For the case, name the characteristic, trustworthy action, accurate record or handoff, and harm prevented. For the artifact, name one visible action that proves a professional characteristic and one honest revision still needed."},
     ],
 }
 
@@ -144,21 +144,30 @@ async def upsert_quiz(client, title, questions):
     endpoint = f"/courses/{COURSE_ID}/quizzes/{found['id']}" if found else f"/courses/{COURSE_ID}/quizzes"
     quiz = await common.api(client, "PUT" if found else "POST", endpoint, data=data)
     existing = await common.paged(client, f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions")
-    for position, (name, prompt, correct, wrong, yes, no) in enumerate(questions, 1):
-        prior = next((question for question in existing if question.get("question_name") == name), None)
-        payload = {
-            "question": {
-                "question_name": name,
-                "question_text": prompt,
-                "question_type": "multiple_choice_question",
-                "position": position,
-                "points_possible": 1,
-                "correct_comments": yes,
-                "incorrect_comments": no,
-                "answers": [{"answer_text": correct, "answer_weight": 100}]
-                + [{"answer_text": answer, "answer_weight": 0} for answer in wrong],
-            }
+    desired_names = {question["name"] for question in questions}
+    for prior in existing:
+        if prior.get("question_name") not in desired_names:
+            await common.api(client, "DELETE", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions/{prior['id']}")
+    existing = [prior for prior in existing if prior.get("question_name") in desired_names]
+    for position, question in enumerate(questions, 1):
+        prior = next((entry for entry in existing if entry.get("question_name") == question["name"]), None)
+        item = {
+            "question_name": question["name"],
+            "question_text": question["prompt"],
+            "question_type": question.get("type", "multiple_choice_question"),
+            "position": position,
+            "points_possible": 1,
         }
+        if item["question_type"] == "multiple_choice_question":
+            item.update(
+                {
+                    "correct_comments": question["yes"],
+                    "incorrect_comments": question["no"],
+                    "answers": [{"answer_text": question["correct"], "answer_weight": 100}]
+                    + [{"answer_text": answer, "answer_weight": 0} for answer in question["wrong"]],
+                }
+            )
+        payload = {"question": item}
         path = (
             f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions/{prior['id']}"
             if prior
@@ -166,6 +175,39 @@ async def upsert_quiz(client, title, questions):
         )
         await common.api(client, "PUT" if prior else "POST", path, json=payload)
     return await common.api(client, "GET", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}")
+
+
+async def upsert_recovery_assignment(client, description):
+    assignments = await common.paged(client, f"/courses/{COURSE_ID}/assignments")
+    matches = [
+        entry
+        for entry in assignments
+        if entry.get("name") in {REFLECTION_TITLE, LEGACY_REFLECTION_TITLE}
+    ]
+    if len(matches) > 1:
+        raise RuntimeError(f"Expected at most one Week 6 recovery reflection; found {len(matches)}")
+    if matches:
+        found = matches[0]
+    else:
+        found = await common.upsert_assignment(
+            client,
+            REFLECTION_TITLE,
+            description,
+            ["online_upload", "online_text_entry", "media_recording"],
+        )
+    return await common.api(
+        client,
+        "PUT",
+        f"/courses/{COURSE_ID}/assignments/{found['id']}",
+        data={
+            "assignment[name]": REFLECTION_TITLE,
+            "assignment[description]": description,
+            "assignment[submission_types][]": ["online_upload", "online_text_entry", "media_recording"],
+            "assignment[grading_type]": "not_graded",
+            "assignment[points_possible]": "0",
+            "assignment[published]": "false",
+        },
+    )
 
 
 def image_tag(file_id, alt):
@@ -210,23 +252,23 @@ async def main():
         truck = await common.upsert_assignment(
             client,
             TRUCK_TITLE,
-            "<p>Annotate or upload the fictional Truck Evidence packet, type a labeled response, or use paper. This is an evidence-boundary task, not a real diagnosis or repair.</p>",
+            f'<p><strong>Workbook first:</strong> complete FYF pp. 154-155, then write the clue-limit-safe-action exit response. Use the <a href="/courses/{COURSE_ID}/files/{files["TRUCK"]["id"]}/preview">three-page fallback</a> only for no-workbook, enlarged, absence, or Canvas-annotation access. This is a fictional evidence task, not a real diagnosis or repair.</p>',
             ["student_annotation", "online_upload", "online_text_entry"],
             files["TRUCK"]["id"],
         )
         skills = await common.upsert_assignment(
             client,
             SKILLS_TITLE,
-            "<p>Annotate or upload the Transferable Skills packet, type the four labeled comparisons, or use paper. Task evidence matters more than the number of checked boxes.</p>",
+            f'<p>Use the six fixed career-task cards. Type the four labeled comparisons, three-example claim, and independent transfer response, or use the <a href="/courses/{COURSE_ID}/files/{files["SKILLS"]["id"]}/preview">four-page paper or enlarged fallback</a>. Task evidence matters more than the number of checked boxes.</p>',
             ["student_annotation", "online_upload", "online_text_entry"],
             files["SKILLS"]["id"],
         )
-        reflection = await common.upsert_assignment(
-            client,
-            REFLECTION_TITLE,
-            "<p>Submit the private Mid-Year Evidence Reflection by upload, text, media, or paper. Keep unpublished and ungraded because the 4SW map already contains three minors and two majors.</p>",
-            ["online_upload", "online_text_entry", "media_recording"],
+        reflection_description = (
+            f'<p><strong>Open only for teacher-approved recovery or replacement evidence.</strong> This is not an automatic third Major or fourth Minor. '
+            f'Use the <a href="/courses/{COURSE_ID}/files/{files["RUBRIC"]["id"]}/preview">student-visible rubric</a>. '
+            'Submit the private four-part reflection by upload, text, approved private media, or paper.</p>'
         )
+        reflection = await upsert_recovery_assignment(client, reflection_description)
         urls = {
             "truck": f"/courses/{COURSE_ID}/assignments/{truck['id']}",
             "skills": f"/courses/{COURSE_ID}/assignments/{skills['id']}",
@@ -238,9 +280,9 @@ async def main():
             1: image_tag(visuals["fyf-analytical-reasoning-tools.jpg"]["id"], "Find Your Future Analytical Reasoning introduction and code-reader and dashboard-light tool limits")
             + image_tag(visuals["fyf-truck-clue-sets.jpg"]["id"], "Four fictional truck clue sets for oil, battery, temperature, and tire-pressure issues")
             + image_tag(visuals["fyf-truck-priority-and-plan.jpg"]["id"], "Find Your Future issue-priority scale and two-issue planning prompts; the repeated Issue 3 label at lower right should read Issue 4"),
-            2: "",
-            3: "",
-            4: "",
+            2: '''<div style="border:1px solid #bad4df;border-radius:10px;padding:14px 18px;margin:18px 0;background:#f8fbfc"><h3 style="margin-top:0;color:#1f617a">Six career-task cards</h3><ul><li><strong>Software developer:</strong> tests a change, explains an issue, and coordinates a release.</li><li><strong>Nurse:</strong> verifies supplied information, communicates a handoff, and works with a care team.</li><li><strong>Lawyer:</strong> reviews evidence, explains a position, and prepares with a legal team.</li><li><strong>Pilot:</strong> uses checklists, evaluates supplied flight information, and communicates with authorized personnel.</li><li><strong>Drone systems technician:</strong> tests a system, records results, and explains a revision.</li><li><strong>Automotive service technician:</strong> follows inspection steps, documents findings, and explains supported next steps.</li></ul><p><strong>Model:</strong> “They all need attention to detail” is only a claim. “A software developer checks a code change; an automotive technician follows an inspection checklist” gives visible task evidence.</p><p style="font-size:14px;color:#52616b">These cards are classroom examples, not complete job descriptions.</p></div>''',
+            3: '''<div style="border:1px solid #bad4df;border-radius:10px;padding:14px 18px;margin:18px 0;background:#f8fbfc"><h3 style="margin-top:0;color:#1f617a">Read the organization cards</h3><p><strong>SkillsUSA: CTSO.</strong> Middle- and high-school participation runs through a school chapter or approved local plan. Ask a CTE teacher or counselor about local access. The national page does not prove a particular campus chapter or free activity.</p><p><strong>TSA: CTSO.</strong> Middle- and high-school STEM participation runs through a school-affiliated chapter and advisor. The national page does not prove a particular campus chapter, fee, or event.</p><p><strong>ASE: credentialing organization.</strong> ASE develops automotive assessments and credentials. Professional certification requires the applicable test and approved experience or substitution. ASE is not a school club.</p><p><strong>FAA: government agency.</strong> The FAA is part of the U.S. Department of Transportation. It regulates aviation and issues certificates in authorized contexts. It is not a membership association.</p><p><strong>NSPE: professional association.</strong> Current student membership requires qualifying full-time college, graduate, or formal pre-engineering transfer-program enrollment. It is a later professional network, not blanket middle-school membership.</p><p><strong>AOPA: professional association.</strong> AOPA currently advertises free high-school membership for U.S. residents ages 13-20. A student still follows family and district privacy rules before creating an account. AOPA does not issue FAA certificates.</p><p style="font-size:14px;color:#52616b">Official source pages checked August 10, 2026. The teacher guide includes direct links.</p></div>''',
+            4: '''<div style="border:1px solid #bad4df;border-radius:10px;padding:14px 18px;margin:18px 0;background:#f8fbfc"><h3 style="margin-top:0;color:#1f617a">Four characteristics and four fictional cases</h3><ul><li><strong>Work ethic:</strong> reliable effort and responsibility.</li><li><strong>Integrity:</strong> honest action and records, even when no one is watching.</li><li><strong>Dedication:</strong> sustained commitment to quality and purpose.</li><li><strong>Perseverance:</strong> continuing through difficulty while keeping safety and quality boundaries.</li></ul><ol><li>A technician notices a blank checklist field after the item moved to the next station. A supervisor is available.</li><li>A team receives two conflicting approved classroom measurements. A teammate wants to report only the better result.</li><li>A worker reaches shift change with one observation not yet verified.</li><li>A worker is pressured to sign an inspection they did not complete.</li></ol><p><strong>Boundary:</strong> Perseverance never means continuing an unsafe or unauthorized task.</p></div>''',
             5: "",
         }
         link, step, flow = common.file_link, common.step, common.flow
@@ -250,21 +292,23 @@ async def main():
                 "TITLE": "Analytical Reasoning: What the Clues Support",
                 "PURPOSE": "Separate supplied clues from conclusions and choose a safe inspection priority.",
                 "TODAY": "<ul><li>read four fictional clue sets;</li><li>name broad system concerns;</li><li>rank inspection priority;</li><li>write safe next steps.</li></ul>",
-                "READY": f'<p>Open {link(files["TRUCK"]["id"], "the five-page Truck Evidence packet")} or <a href="{urls["truck"]}">the Canvas annotation activity</a>. The workbook image repeats Issue 3; the tire-pressure box is Issue 4.</p>',
+                "READY": f'<p><strong>Workbook first:</strong> open FYF pp. 153-155. Use {link(files["TRUCK"]["id"], "the three-page no-workbook fallback")} or <a href="{urls["truck"]}">Canvas annotation</a> only when directed. The workbook repeats Issue 3; the tire-pressure box is Issue 4.</p>',
+                "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Word bank:</strong> clue = supplied fact · concern = broad system to inspect · conclusion = claim that still needs proof · priority = order for responding.</p><p><strong>Use this frame:</strong> The clue shows ___. It does not prove ___. The safe next step is ___ because ___. A ___ also uses analytical reasoning when the worker ___.</p></div>',
                 "STEPS": step(1, "Keep the boundary", "<p>A light or code points toward a system; it does not prove a failed part, repair, or safe-to-drive decision.</p>")
                 + step(2, "Complete four evidence rows", "<p>Use two clues, one broad concern, one unproved conclusion, and one evidence need per case.</p>")
                 + step(3, "Rank priority", "<p>Rank quickest stop-and-inspect response. A lower rank does not mean safe to ignore.</p>")
                 + step(4, "Write authorized next steps", "<p>Stop/protect, notify/hand off, and identify the evidence a trained person still needs. Do not prescribe a repair.</p>"),
-                "EXIT": "<p>Correct the claim that a code already proves the broken part and lets the team skip inspection.</p>",
-                "DONE": "<ul><li>four evidence rows;</li><li>four ranks;</li><li>two safe next-step plans;</li><li>one clue-limit-action exit response.</li></ul>",
-                "SUPPORT": "<p>clue = pista · conclusion = conclusión · inspect = inspeccionar · priority = prioridad. The packet repeats every clue in text.</p>",
-                "FALLBACK": "<p>The packet and adjacent image descriptions are the complete independent route. No partner, open search, vehicle, or personal car knowledge is required.</p>",
+                "EXIT": "<p>Correct the claim that a code already proves the broken part, then name one different career task that uses the same clue-to-conclusion reasoning.</p>",
+                "DONE": "<ul><li>FYF pp. 154-155 complete;</li><li>four ranks;</li><li>two safe next-step plans;</li><li>one clue-limit-safe-action and cross-career transfer response.</li></ul>",
+                "SUPPORT": "<p>clue = pista · conclusion = conclusión · inspect = inspeccionar · priority = prioridad. Read one clue set at a time and highlight only supplied facts.</p>",
+                "FALLBACK": "<p>The three-page fallback and adjacent image descriptions are the complete independent route when the workbook is unavailable. Do not print it by default. No partner, open search, vehicle, or personal car knowledge is required.</p>",
             },
             2: {
                 "TITLE": "Prove That a Skill Transfers",
                 "PURPOSE": "Use specific tasks to show how four skills transfer among six careers.",
                 "TODAY": "<ul><li>read six fixed career cards;</li><li>compare four skills;</li><li>build a three-example claim;</li><li>complete an independent transfer check.</li></ul>",
-                "READY": f'<p>Open {link(files["SKILLS"]["id"], "the seven-page Transferable Skills packet")} or <a href="{urls["skills"]}">the Canvas annotation activity</a>.</p>',
+                "READY": f'<p><a href="{urls["skills"]}">Open the private Canvas response</a>. Keep {link(files["SKILLS"]["id"], "the four-page paper or enlarged fallback")} available without printing it for everyone.</p>',
+                "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Word bank:</strong> task = tarea · skill = habilidad · common = en común · setting = entorno.</p><p><strong>Use this frame:</strong> ___ and ___ both use ___ when they ___. The common behavior is ___. The technical setting changes ___ because ___.</p></div>',
                 "STEPS": step(1, "Move from claim to proof", "<p>A skill label is not proof. Name the visible task where the worker uses it.</p>")
                 + step(2, "Compare four skills", "<p>For each skill, use two careers, common behavior, and a technical-setting difference.</p>")
                 + step(3, "Build a pattern claim", "<p>Use three task examples and one honest limit.</p>")
@@ -272,49 +316,52 @@ async def main():
                 "EXIT": "<p>Name two careers, one transferable skill, one task in each, and the common behavior.</p>",
                 "DONE": "<ul><li>four skill comparisons;</li><li>specific task evidence;</li><li>three-example claim;</li><li>independent transfer response.</li></ul>",
                 "SUPPORT": "<p>task = tarea · skill = habilidad · common = en común · technical = técnico. Phrases are acceptable in evidence boxes.</p>",
-                "FALLBACK": "<p>The fixed cards replace live career research. No 48-cell grid, partner, or login is required.</p>",
+                "FALLBACK": "<p>The four-page fallback includes the fixed cards and every response job. Do not print it by default. No 48-cell grid, partner, live research, or login is required.</p>",
             },
             3: {
                 "TITLE": "Career Organizations: Type, Access, and Value",
                 "PURPOSE": "Distinguish CTSOs and professional associations from credentialing and government organizations.",
                 "TODAY": "<ul><li>learn four organization types;</li><li>read six dated cards;</li><li>recommend one now and one later opportunity;</li><li>repair inaccurate labels.</li></ul>",
-                "READY": f'<p>Open {link(files["ORGS"]["id"], "the five-page Career Organization packet")}.</p>',
+                "READY": f'<p>Open the six dated cards in this guide and <a href="{urls["orgs"]}">the five-question practice Quiz</a>. Keep {link(files["ORGS"]["id"], "the three-page paper fallback")} available without printing it for everyone.</p>',
+                "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Word bank:</strong> chapter = capítulo local · membership = membresía · credential = credencial · agency = agencia.</p><p><strong>Use this frame:</strong> Sam should ask about ___ now because ___. This could support career development by ___. Later, Sam could investigate ___, but first Sam must verify ___.</p></div>',
                 "STEPS": step(1, "Sort by main job", "<p>CTSO, professional association, credentialing organization, or government agency.</p>")
                 + step(2, "Read access before benefits", "<p>Record who can access the named opportunity and what the source does not prove.</p>")
                 + step(3, "Decide for Sam", "<p>Recommend a school-based opportunity now and a professional network to investigate later.</p>")
-                + step(4, "Practice and repair", f'<p><a href="{urls["orgs"]}">Complete the retryable organization-type check</a>, then correct the three-label exit claim.</p>'),
-                "EXIT": "<p>Correct the types and access for FAA, ASE, and SkillsUSA.</p>",
-                "DONE": "<ul><li>six classified cards;</li><li>benefit/function and access boundary;</li><li>now/later decision;</li><li>practice feedback reviewed.</li></ul>",
+                + step(4, "Practice and decide", f'<p><a href="{urls["orgs"]}">Complete four feedback questions and the individual Sam decision</a>.</p>'),
+                "EXIT": "<p>What makes Sam's now/later plan realistic instead of guaranteed?</p>",
+                "DONE": "<ul><li>four feedback questions;</li><li>school-based organization, source fact, and career-development value;</li><li>later professional organization and source fact;</li><li>one access, eligibility, cost, or privacy question.</li></ul>",
                 "SUPPORT": "<p>membership = membresía · student organization = organización estudiantil · credential = credencial · government agency = agencia gubernamental.</p>",
-                "FALLBACK": "<p>The dated cards are the full route. No dense public website, group jigsaw, public presentation, or personal membership is required.</p>",
+                "FALLBACK": "<p>The three-page fallback contains the same cards and questions. Do not print it by default. No dense public website, group jigsaw, public presentation, or personal membership is required.</p>",
             },
             4: {
                 "TITLE": "Work Ethic and Integrity: Document the Decision",
                 "PURPOSE": "Apply four professional characteristics to accurate actions and records.",
                 "TODAY": "<ul><li>distinguish four characteristics;</li><li>solve four fictional cases;</li><li>audit one class artifact;</li><li>repair misconceptions.</li></ul>",
-                "READY": f'<p>Open {link(files["INTEGRITY"]["id"], "the seven-page Integrity and Evidence Audit")}.</p>',
+                "READY": f'<p>Open the four fictional cases in this guide and <a href="{urls["integrity"]}">the six-item practice Quiz</a> with five feedback questions and one evidence-audit response. Keep {link(files["INTEGRITY"]["id"], "the three-page paper fallback")} available without printing it for everyone.</p>',
+                "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Word bank:</strong> integrity = integridad · record = registro · verify = verificar · supervisor = supervisor.</p><p><strong>Use this frame:</strong> This case requires ___. The worker should ___ and record or report ___. This prevents ___ because ___.</p></div>',
                 "STEPS": step(1, "Name the characteristic", "<p>Work ethic, integrity, dedication, or perseverance.</p>")
                 + step(2, "Choose the trustworthy action", "<p>Name what the worker should do and what the record should say.</p>")
                 + step(3, "Audit personal evidence", "<p>Use one class artifact, one visible action, one honest limitation, and one next step.</p>")
-                + step(4, "Practice and repair", f'<p><a href="{urls["integrity"]}">Complete the retryable integrity check</a>, then answer the independent case.</p>'),
+                + step(4, "Practice and audit", f'<p><a href="{urls["integrity"]}">Complete five feedback questions and the private evidence-audit response</a>.</p>'),
                 "EXIT": "<p>Respond to pressure to sign an inspection that was not completed.</p>",
-                "DONE": "<ul><li>four case decisions;</li><li>accurate record/supervisor routes;</li><li>personal evidence audit;</li><li>practice feedback reviewed.</li></ul>",
+                "DONE": "<ul><li>five feedback questions;</li><li>one justified case decision;</li><li>accurate record or supervisor route;</li><li>personal evidence audit.</li></ul>",
                 "SUPPORT": "<p>integrity = integridad · record = registro · verify = verificar · supervisor = supervisor. Employment history is not required.</p>",
-                "FALLBACK": "<p>All cases are fictional and independent. H&amp;L is optional; no private Career Plan or screenshot is required.</p>",
+                "FALLBACK": "<p>The three-page fallback contains the same cases and response jobs. Do not print it by default. H&amp;L is optional; no private Career Plan or screenshot is required.</p>",
             },
             5: {
-                "TITLE": "Private Mid-Year Evidence Reflection",
-                "PURPOSE": "Use evidence to explain one change, prove two skills, evaluate one opportunity, and plan two next actions.",
+                "TITLE": "Recovery: Private Mid-Year Evidence Reflection",
+                "PURPOSE": "When your teacher assigns recovery or replacement evidence, use specific course evidence to show a change, two transferable skills, one professional-association decision, and two next actions.",
                 "TODAY": "<ul><li>build an evidence strip;</li><li>complete four response jobs;</li><li>self-score and revise;</li><li>submit privately.</li></ul>",
-                "READY": f'<p>Open {link(files["REFLECTION"]["id"], "the five-page reflection")} and {link(files["RUBRIC"]["id"], "the two-page rubric")}.</p>',
-                "STEPS": step(1, "Gather bounded evidence", "<p>Use one earlier assumption, current direction, two class tasks, one accurate organization/route fact, and one question.</p>")
-                + step(2, "Write four parts", "<p>Change in thinking; two skills; organization/route decision; two next actions.</p>")
+                "READY": f'<p><strong>Open this task only when your teacher assigns it for recovery or replacement.</strong> Use the private Canvas response and {link(files["RUBRIC"]["id"], "the two-page rubric")}. Keep {link(files["REFLECTION"]["id"], "the four-page paper fallback")} available when needed.</p>',
+                "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Word bank:</strong> reflection = reflexión · evidence = evidencia · association = asociación · revision = revisión.</p><p><strong>Use this frame:</strong> At first, I thought ___. After ___, I now think ___. The evidence that mattered was ___ because ___. The professional association I would investigate is ___, but I still need to verify ___.</p></div>',
+                "STEPS": step(1, "Gather bounded evidence", "<p>Use one earlier assumption, current direction, two class tasks, one accurate professional-association fact, and one membership question.</p>")
+                + step(2, "Write four parts", "<p>Change in thinking; two skills; professional-association decision; two next actions.</p>")
                 + step(3, "Self-score and revise", "<p>Revise the weakest criterion. Longer personal stories are not required.</p>")
                 + step(4, "Submit privately", f'<p><a href="{urls["reflection"]}">Submit by upload, text, private media, or paper</a>.</p>'),
                 "EXIT": "<p>Record three accurate labels, two evidence moves, and one revision.</p>",
                 "DONE": "<ul><li>four reflection parts;</li><li>specific evidence labels;</li><li>two timed actions with support and backup;</li><li>visible revision;</li><li>private submission.</li></ul>",
                 "SUPPORT": "<p>reflection = reflexión · evidence = evidencia · route = ruta · revision = revisión. Bullet points are allowed in Parts 2 and 4.</p>",
-                "FALLBACK": "<p>Use the generic evidence strip when earlier work is missing. No public sharing, profile screenshot, or partner disclosure is required.</p>",
+                "FALLBACK": "<p>The four-page paper route is complete when Canvas is unavailable. Use the generic evidence strip when earlier work is missing. No public sharing, profile screenshot, or partner disclosure is required.</p>",
             },
         }
 
@@ -323,23 +370,23 @@ async def main():
                 "TITLE": "Analytical Reasoning: What the Clues Support",
                 "SUBTITLE": "50 minutes · TEKS d(4)(B)",
                 "ALERT": "<strong>Fictional evidence task only.</strong> Students do not diagnose or repair a real vehicle, prescribe a part, or declare it safe to drive.",
-                "PREP": f'<ul><li>Post {link(files["TRUCK"]["id"], "the Truck Evidence packet")} and annotation activity.</li><li>Project the three FYF pages and name the repeated Issue 3 typo.</li><li>Model clue, concern, conclusion, and evidence need.</li></ul>',
-                "EVIDENCE": "<p>Four bounded evidence rows, four ranks, two authorized next-step plans, and one transfer response. Formative.</p>",
+                "PREP": f'<ul><li>Ask students to open FYF pp. 153-155.</li><li>Keep {link(files["TRUCK"]["id"], "the three-page fallback")} for no-workbook, enlarged, absence, or annotation access; do not print it by default.</li><li>Project the three FYF pages and name the repeated Issue 3 typo.</li><li>Model clue, concern, conclusion, and evidence need.</li></ul>',
+                "EVIDENCE": "<p>Completed FYF pp. 154-155 priority and plan plus one clue-limit-safe-action and cross-career transfer response. Formative.</p>",
                 "FLOW": flow("#5a2d91", "Clue or conclusion · 5", "Sort three statements.")
                 + flow("#4a9d2f", "Tool limits · 7", "Light and code-reader boundaries.")
                 + flow("#1f617a", "Four clue sets · 18", "Evidence before conclusion.")
                 + flow("#e3ad19", "Priority and plan · 15", "Stop, notify, inspect.")
                 + flow("#1f617a", "Exit · 5", "Clue, limit, safe action."),
                 "MONITOR": "<p>Broad accepted concerns: lubrication/engine-temperature; electrical/charging; cooling/temperature; tire/steering. Strong top ranks use steam/very hot and tire pulling/soft evidence; oil plus heat can also be defended. A lower rank still requires service.</p>",
-                "RESOURCES": "<p>Licensed FYF pp. 153-155 are embedded. The CCE packet corrects the Issue 4 label and removes open repair research.</p>",
-                "SUPPORT": "<p>Read clue sets aloud, highlight supplied facts, and allow typing, dictation, annotation, or paper. Every multi-sentence job has its own space.</p>",
-                "FALLBACK": "<p>No vehicle, partner, personal story, or site is required. The three delivery images total about 508 KB; the packet is the independent text route.</p>",
+                "RESOURCES": "<p>Licensed FYF pp. 153-155 carry the default task. The fallback corrects the Issue 4 label and removes open repair research without replacing the workbook.</p>",
+                "SUPPORT": "<p>Keep the point-of-use word bank and full frame visible. Read clue sets aloud, highlight supplied facts, and allow typing, dictation, annotation, or paper.</p>",
+                "FALLBACK": "<p>No vehicle, partner, personal story, or site is required. The three delivery images total about 508 KB; the three-page fallback is the independent text route.</p>",
             },
             2: {
                 "TITLE": "Prove That a Skill Transfers",
                 "SUBTITLE": "50 minutes · TEKS d(4)(B)",
                 "ALERT": "<strong>Task evidence, not box count.</strong> The former 48-cell grid was removed because it demanded cramped repetitive writing without improving the standard evidence.",
-                "PREP": f'<ul><li>Post {link(files["SKILLS"]["id"], "the fixed-card packet")} and annotation activity.</li><li>Model claim versus proof.</li></ul>',
+                "PREP": f'<ul><li>Post the fixed cards and private Canvas response.</li><li>Keep {link(files["SKILLS"]["id"], "the four-page fallback")} for paper or enlarged access; do not print it by default.</li><li>Model claim versus proof.</li></ul>',
                 "EVIDENCE": "<p>Four skills compared across six careers, two task examples per skill, three-example pattern claim, and independent transfer. Formative.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "One skill plus one task.")
                 + flow("#4a9d2f", "Evidence model · 8", "Claim versus proof.")
@@ -348,31 +395,31 @@ async def main():
                 + flow("#1f617a", "Exit · 5", "Two-cluster transfer."),
                 "MONITOR": "<p>Full evidence names the task, common behavior, and technical difference. Do not teach the false binary that soft skills matter more than technical skills in every hiring decision.</p>",
                 "RESOURCES": "<p>The six fixed task cards are course-derived examples, not complete occupation descriptions. Live research is unnecessary.</p>",
-                "SUPPORT": "<p>Read one card and skill at a time. Accept phrases in evidence fields; require a complete final claim. Each skill owns a full page.</p>",
-                "FALLBACK": "<p>Annotation, upload, text, and paper are equal. No partner or login is required.</p>",
+                "SUPPORT": "<p>Keep the point-of-use word bank and full frame visible. Read one card and skill at a time. Accept phrases in comparison fields; require a complete final claim.</p>",
+                "FALLBACK": "<p>Annotation, upload, text, and paper are equal. The four-page fallback is complete and should not be printed by default. No partner or login is required.</p>",
             },
             3: {
                 "TITLE": "Career Organizations: Type, Access, and Value",
                 "SUBTITLE": "50 minutes · TEKS d(3)(F), d(3)(H)",
                 "ALERT": "<strong>Corrected organization types.</strong> FAA is government; ASE is credentialing; SkillsUSA/TSA are CTSOs; NSPE/AOPA are professional associations.",
-                "PREP": f'<ul><li>Post {link(files["ORGS"]["id"], "the six-card packet")} and practice Quiz.</li><li>Open current official source pages only if extending the fixed cards.</li></ul>',
-                "EVIDENCE": "<p>Six classifications, access boundaries, one now/later recommendation, and corrected exit matrix. Formative.</p>",
+                "PREP": f'<ul><li>Post the six dated cards and five-question practice Quiz.</li><li>Keep {link(files["ORGS"]["id"], "the three-page paper fallback")} available without default printing.</li><li>Open current official source pages only if extending the fixed cards.</li></ul>',
+                "EVIDENCE": "<p>Four selected-response checks plus an individual Sam recommendation using two card facts, career-development value, and one access, eligibility, cost, or privacy question. Formative.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "Membership, test, or rule?")
                 + flow("#4a9d2f", "Four types · 10", "Main job and access.")
                 + flow("#1f617a", "Six cards · 20", "Classify and preserve limits.")
                 + flow("#e3ad19", "Decision · 10", "School opportunity now, network later.")
                 + flow("#1f617a", "Exit · 5", "Repair FAA/ASE/SkillsUSA labels."),
-                "MONITOR": "<p>SkillsUSA/TSA access depends on a chapter/advisor. ASE does not prove universal professional certification. FAA cannot be joined as an association. NSPE student eligibility is not a blanket middle-school invitation. AOPA category eligibility and cost must be checked.</p>",
-                "RESOURCES": '<p><a href="https://www.skillsusa.org/join/how-to-join/">SkillsUSA join</a> · <a href="https://tsaweb.org/docs/default-source/default-document-library/tsa-facts.pdf">TSA facts</a> · <a href="https://ase.com/about/">ASE About</a> · <a href="https://www.faa.gov/about">FAA About</a> · <a href="https://www.nspe.org/membership/types-membership/student-membership">NSPE students</a> · <a href="https://aopa.org/membership">AOPA membership</a></p>',
-                "SUPPORT": "<p>Use the four-type chart and one card at a time. The practice Quiz gives immediate corrective feedback before the independent exit.</p>",
-                "FALLBACK": "<p>The packet is the complete no-web route. No group jigsaw, public presentation, or personal membership data is required.</p>",
+                "MONITOR": "<p>SkillsUSA/TSA access depends on a school chapter or approved local plan. ASE does not prove universal professional certification. FAA is an agency. NSPE student eligibility is not blanket middle-school membership. AOPA currently advertises a free U.S. high-school category for ages 13-20, but account creation still follows family and district privacy rules.</p>",
+                "RESOURCES": '<p><a href="https://www.skillsusa.org/join/how-to-join/">SkillsUSA How to Join</a> · <a href="https://tsaweb.org/membership/membership-faq">TSA Membership FAQ</a> · <a href="https://ase.com/about/">ASE About</a> · <a href="https://www.faa.gov/about">FAA About</a> · <a href="https://www.nspe.org/membership/types-membership/student-membership">NSPE Student Membership</a> · <a href="https://www.aopa.org/account/studentjoinform">AOPA High School Membership</a></p>',
+                "SUPPORT": "<p>Keep the point-of-use word bank and full frame visible. Use the four-type chart and one card at a time. The practice Quiz gives immediate corrective feedback before the individual decision.</p>",
+                "FALLBACK": "<p>The three-page fallback is the complete no-web route and should not be printed by default. No group jigsaw, public presentation, or personal membership data is required.</p>",
             },
             4: {
                 "TITLE": "Work Ethic and Integrity: Document the Decision",
                 "SUBTITLE": "50 minutes · TEKS d(4)(F)",
                 "ALERT": "<strong>Accuracy before drama.</strong> Use fictional bounded cases; do not invent real repair, aviation, clinical, or inspection procedures.",
-                "PREP": f'<ul><li>Post {link(files["INTEGRITY"]["id"], "the case packet")} and practice Quiz.</li><li>Prepare one school-artifact model.</li></ul>',
-                "EVIDENCE": "<p>Four case decisions, accurate record/supervisor routes, one personal class-artifact audit, and independent exit. Formative.</p>",
+                "PREP": f'<ul><li>Post the four fictional cases and six-item practice Quiz: five feedback questions plus one evidence-audit response.</li><li>Keep {link(files["INTEGRITY"]["id"], "the three-page paper fallback")} available without default printing.</li><li>Prepare one school-artifact model.</li></ul>',
+                "EVIDENCE": "<p>Five selected-response checks, one justified case decision, and one personal class-artifact evidence audit. Formative.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "Hard work versus trustworthy work.")
                 + flow("#4a9d2f", "Four traits · 10", "Definitions and boundaries.")
                 + flow("#1f617a", "Four cases · 20", "Action, record, harm prevented.")
@@ -380,23 +427,23 @@ async def main():
                 + flow("#1f617a", "Exit · 5", "Pressure-to-sign decision."),
                 "MONITOR": "<p>Integrity requires an accurate action and record, not only “tell the truth.” Perseverance never means continuing unsafe or unauthorized work. Employment history is not required.</p>",
                 "RESOURCES": "<p>The CCE fictional cases are the complete source. H&amp;L career browse is optional and never graded.</p>",
-                "SUPPORT": "<p>Use characteristic/action/record/harm labels, oral rehearsal, and private response modes. Each case owns a full page.</p>",
-                "FALLBACK": "<p>No screenshot, profile history, partner, or workplace experience is required.</p>",
+                "SUPPORT": "<p>Keep the point-of-use word bank and full frame visible. Use characteristic/action/record/harm labels, oral rehearsal, and private response modes.</p>",
+                "FALLBACK": "<p>The three-page fallback contains the same cases and response jobs and should not be printed by default. No screenshot, profile history, partner, or workplace experience is required.</p>",
             },
             5: {
-                "TITLE": "Private Mid-Year Evidence Reflection",
+                "TITLE": "Recovery: Private Mid-Year Evidence Reflection",
                 "SUBTITLE": "50 minutes · TEKS d(4)(B), d(3)(H)",
-                "ALERT": "<strong>Portfolio synthesis, not an automatic third major.</strong> Keep unpublished and ungraded because the 4SW map already contains three minors and two majors.",
-                "PREP": f'<ul><li>Post {link(files["REFLECTION"]["id"], "the reflection")} and {link(files["RUBRIC"]["id"], "the rubric")}.</li><li>Open the private Assignment.</li><li>Prepare the generic evidence strip.</li></ul>',
-                "EVIDENCE": "<p>Four-part private reflection, self-score, visible revision, and two supported actions. Portfolio synthesis or approved recovery/replacement evidence.</p>",
+                "ALERT": "<strong>Recovery or replacement only.</strong> This is not an automatic third Major or fourth Minor. Keep the Assignment unpublished, worth zero points, and not graded until a teacher assigns it for an approved recovery decision.",
+                "PREP": f'<ul><li>Post {link(files["RUBRIC"]["id"], "the student-visible rubric")}.</li><li>Open the private recovery Assignment only when assigned.</li><li>Keep {link(files["REFLECTION"]["id"], "the four-page paper fallback")} available without default printing.</li><li>Prepare the generic evidence strip.</li></ul>',
+                "EVIDENCE": "<p>Teacher-assigned private four-part recovery reflection, self-score, visible revision, and two supported actions. Zero points and not graded by default.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "Before/now assumption.")
                 + flow("#4a9d2f", "Evidence strip · 8", "Bounded facts and question.")
                 + flow("#1f617a", "Reflection · 27", "Four separate response jobs.")
                 + flow("#e3ad19", "Self-score · 5", "Revise weakest criterion.")
                 + flow("#1f617a", "Private submit · 5", "Text, upload, media, or paper."),
                 "MONITOR": "<p>Score only after an approved decision. The six weeks already has two mapped majors and three mapped minors. Do not score career preference, public speaking, profile history, platform access, accent, or grammar unless meaning is unclear.</p>",
-                "RESOURCES": "<p>Days 1-4 packets are the source base. The generic strip prevents missing earlier artifacts from becoming a failure point.</p>",
-                "SUPPORT": "<p>Use sentence frames, bullet points in Parts 2/4, speech-to-text, private media, teacher scribe, or paper. Every multi-sentence job has a full page or full-width block.</p>",
+                "RESOURCES": "<p>Days 1-4 evidence is the source base. Day 5 specifically requires a professional-association fact and membership boundary for d(3)(H). The generic strip prevents missing earlier artifacts from becoming a failure point.</p>",
+                "SUPPORT": "<p>Keep the point-of-use word bank and complete frame visible. Use bullet points in Parts 2/4, speech-to-text, private media, teacher scribe, or paper. Every multi-sentence job has a full-width block.</p>",
                 "FALLBACK": "<p>No sharing circle or partner disclosure is required. Canvas failure means paper or later upload without penalty.</p>",
             },
         }
@@ -406,7 +453,7 @@ async def main():
             2: "Prove a Skill Transfers",
             3: "Career Organization Types",
             4: "Integrity and Accurate Records",
-            5: "Private Mid-Year Reflection",
+            5: "Recovery: Private Mid-Year Reflection",
         }
         extras = {
             1: ("Assignment", truck["id"], TRUCK_TITLE),
@@ -426,7 +473,7 @@ async def main():
                 student_title,
                 common.render(
                     "4sw-wk6-student.html",
-                    {"COURSE_ID": COURSE_ID, "DAY": day, "MEDIA": media[day], **student[day]},
+                    {"COURSE_ID": COURSE_ID, "DAY": day, "MEDIA": media[day], **CONTRACTS[day], **student[day]},
                 ),
             )
             teacher_title = f"TEACHER: 4SW Wk6 Day {day} Facilitator Guide"
@@ -439,6 +486,7 @@ async def main():
                         "COURSE_ID": COURSE_ID,
                         "DAY": day,
                         "STUDENT_PAGE_URL": student_page["url"],
+                        **CONTRACTS[day],
                         **teacher[day],
                     },
                 ),

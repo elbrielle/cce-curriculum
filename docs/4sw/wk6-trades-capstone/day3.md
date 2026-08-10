@@ -1,25 +1,25 @@
-# Day 3: Career Organizations — Type, Access, and Value
+# Day 3: Career Organizations: Type, Access, and Value
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
 - **Topic:** Extended Learning
-- **Objective:** Students will distinguish CTSOs, professional associations, a credentialing organization, and a government agency; evaluate one realistic student opportunity.
+- **Objective:** Students will distinguish CTSOs, professional associations, a credentialing organization, and a government agency; explain how one realistic student opportunity supports career exploration and development.
 - **TEKS:** d(3)(F), d(3)(H)
-- **Demonstration of Learning:** Career Organization Types packet.
+- **Demonstration of Learning:** Four-question practice Quiz and one Sam decision with an accurate type, benefit, access boundary, and career-development value.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objective** | Distinguish CTSOs, professional associations, a credentialing organization, and a government agency; evaluate one realistic student opportunity |
+| **Objective** | Distinguish CTSOs, professional associations, a credentialing organization, and a government agency; explain how one realistic student opportunity supports career exploration and development |
 | **TEKS** | d(3)(F), d(3)(H) |
-| **Deliverable** | Career Organization Types packet |
-| **Materials** | Six fixed dated organization cards, Canvas practice check |
+| **Deliverable** | Practice Quiz and individual organization decision |
+| **Materials** | Six dated organization cards, Canvas practice Quiz, three-page paper fallback |
 
 ## Before Class
 
-Post the fixed cards and retryable practice check. Live organization sites are optional teacher extensions, not load-bearing student research.
+Post the fixed cards and retryable practice Quiz. Keep the three-page paper fallback available without printing it for everyone. Live organization sites are optional teacher extensions, not load-bearing student research.
 
 ## Warm-Up (5 min)
 
@@ -42,11 +42,11 @@ For SkillsUSA, TSA, ASE, FAA, NSPE, and AOPA, students record organization type,
 - ASE is not proof that every student is professionally certified.
 - FAA is not a membership association.
 - NSPE's current student-membership eligibility is aimed at qualifying college or formal transfer-program students, not a blanket middle-school invitation.
-- AOPA benefits and eligibility vary by membership category; students verify the current category before joining.
+- AOPA currently advertises free high-school membership to U.S. residents ages 13-20. Students still verify the current category and follow family and district privacy rules before creating an account.
 
 ## Activity 3: A Realistic Decision (10 min)
 
-Fictional Sam wants a school-based leadership and competition opportunity now and an aviation professional network later. Students recommend one first organization to ask about now and one later organization to investigate, using two card facts and one access question.
+Fictional Sam wants a school-based leadership and competition opportunity now and an aviation professional network later. Students recommend one first organization to ask about now and one later organization to investigate, using two card facts, one explanation of how the school opportunity supports career exploration or development, and one access, eligibility, cost, or privacy question. The short response is the final Quiz item or the paper fallback.
 
 ## Exit Check (5 min)
 
@@ -58,13 +58,13 @@ Fictional Sam wants a school-based leadership and competition opportunity now an
 | ASE |  |  |  |
 | SkillsUSA |  |  |  |
 
-Bottom line: explain why these are not three professional associations a student can simply join today.
+Bottom line: explain why these are not three professional associations a student can join today.
 
 *(d(3)(F), d(3)(H))*
 
 ## Monitoring and Supports
 
-- Full credit depends on organization type, access, and one real function—not logo recognition.
+- Full credit depends on organization type, access, and one real function. Logo recognition is not enough.
 - Community service may be a CTSO benefit, but do not invent a local project.
 - Cards use short sections, source dates, and vocabulary labels. Typed, dictated, annotated, and paper responses are equal.
 - Absence route uses the same fixed cards; no group jigsaw or public presentation is required.

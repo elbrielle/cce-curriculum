@@ -6,135 +6,103 @@ weeks: 4sw/wk6-trades-capstone
 audience: student
 variant_of:
 language: en
-pages: 7
+pages: 3
 orientation: portrait
 ---
 
-## Four professional characteristics
+## Four characteristics and four cases
 
 | Characteristic | What it looks like |
 |---|---|
 | Work ethic | Reliable effort and responsibility |
 | Integrity | Honest action and records, even when no one is watching |
 | Dedication | Sustained commitment to quality and purpose |
-| Perseverance | Continuing through challenge while keeping safety and quality boundaries |
+| Perseverance | Continuing through difficulty while keeping safety and quality boundaries |
 
-Why perseverance does not mean continuing an unsafe or unauthorized task:
+**Case 1:** A fictional technician notices a blank checklist field after the item moved to the next station. A supervisor is available.
+
+Characteristic and trustworthy action: _______________________________________
+
+**Case 2:** A team receives two conflicting approved classroom measurements. A teammate wants to report only the better result.
+
+Characteristic and accurate record: _________________________________________
+
+**Case 3:** A fictional worker reaches shift change with one observation not yet verified.
+
+Characteristic and honest handoff: __________________________________________
+
+**Case 4:** A worker is pressured to sign an inspection they did not complete.
+
+Characteristic and safe supervisor route: ___________________________________
+
+Why perseverance never means continuing an unsafe or unauthorized task:
 
 [[lines: 4]]
 
 [[pagebreak]]
 
-## Case 1: Missed checklist item
+## Paper practice check
 
-A fictional technician notices that one checklist field is blank after the item has moved to the next station. A supervisor is available.
+1. Pressure to sign work you did not complete:
 
-Characteristic most needed and why:
+[ ] Sign and fix later  [ ] Do not sign; record the status and use the authorized supervisor route
 
-[[lines: 4]]
+2. Conflicting measurements:
 
-Trustworthy action:
+[ ] Keep both results, the conflict, and the approved next check  [ ] Report only the preferred result
 
-[[lines: 4]]
+3. Perseverance means:
 
-Record or supervisor route:
+[ ] Continue through difficulty while keeping safety and authorization boundaries
 
-[[lines: 3]]
+[ ] Continue any task even when it becomes unsafe
 
-Harm the action prevents:
+4. Which statement is visible evidence of work ethic?
 
-[[lines: 3]]
+[ ] I have good work ethic
 
-[[pagebreak]]
+[ ] I completed every evidence row, noticed a weak explanation, and revised it
 
-## Case 2: Uncertain measurement
+5. Which statement best shows dedication?
 
-A team receives two conflicting measurements from an approved classroom test. A teammate wants to report the number that makes the design look best.
+[ ] I kept improving the required product because quality mattered, while still following the deadline and safety rules
 
-Characteristic, action, and honest record:
+[ ] I refused every revision because the first version was already finished
 
-[[lines: 6]]
+### Explain one decision
 
-[[pagebreak]]
+Choose one case. Name the characteristic, action, accurate record or handoff, and harm prevented.
 
-## Case 3: Incomplete handoff
-
-A fictional worker reaches shift change with one observation not yet verified. The incoming worker needs an accurate handoff.
-
-Characteristic most needed:
-
-[[lines: 2]]
-
-What the outgoing worker should say or record:
-
-[[lines: 5]]
-
-What the worker should not claim:
-
-[[lines: 3]]
-
-Harm the honest handoff prevents:
-
-[[lines: 3]]
-
-[[pagebreak]]
-
-## Case 4: Pressure to sign
-
-A worker is pressured to sign an inspection they did not complete.
-
-Characteristic, action, documentation, and supervisor route:
+**Use this frame:** This case requires **[professional characteristic]**. The worker should **[trustworthy action]** and record or report **[accurate information]**. This prevents **[possible harm]** because **[evidence-based reason]**.
 
 [[lines: 7]]
 
 [[pagebreak]]
 
-## Personal evidence audit
+## Personal evidence audit and exit
 
-Choose a prior class artifact. Employment history is not required.
+Employment history is not required. Choose one prior class artifact.
 
-Artifact or class task:
+Artifact or class task: ______________________________________________________
 
-[[lines: 2]]
+Characteristic: _____________________________________________________________
 
-Professional characteristic demonstrated:
+Visible action that proves it:
 
-[[lines: 2]]
-
-Visible action in the artifact that proves it:
-
-[[lines: 5]]
+[[lines: 4]]
 
 One honest limitation or revision still needed:
 
-[[lines: 4]]
+[[lines: 3]]
 
 Next action and completion evidence:
 
-[[lines: 4]]
+[[lines: 3]]
 
-[[pagebreak]]
+### Independent exit case
 
-## Independent exit case
+A worker is again pressured to sign an inspection they did not complete.
 
-A worker is pressured to sign an inspection they did not complete.
+**Use this frame:** The worker should not **[unsafe or dishonest action]**. The accurate record should say **[what is known]**. The worker should contact **[authorized person]** because **[reason]**.
 
-Professional characteristic:
-
-[[lines: 2]]
-
-Appropriate action:
-
-[[lines: 4]]
-
-Documentation or supervisor route:
-
-[[lines: 4]]
-
-Why this is stronger than signing and planning to fix it later:
-
-[[lines: 5]]
-
-One phrase that keeps the record accurate:
-
-[[lines: 2]]
+[[lines: 6]]

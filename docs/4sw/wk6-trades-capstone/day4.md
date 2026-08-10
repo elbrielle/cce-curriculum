@@ -1,11 +1,11 @@
-# Day 4: Work Ethic and Integrity — Document the Decision
+# Day 4: Work Ethic and Integrity: Document the Decision
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
 - **Topic:** Professional Character
 - **Objective:** Students will identify work ethic, integrity, dedication, and perseverance in four fictional workplace decisions and connect one trait to prior class evidence.
 - **TEKS:** d(4)(F)
-- **Demonstration of Learning:** Integrity and Evidence Audit packet.
+- **Demonstration of Learning:** Five-question practice Quiz, one justified workplace decision, and one personal class-artifact evidence audit.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,12 +14,12 @@
 | **Time** | 50 minutes |
 | **Objective** | Identify work ethic, integrity, dedication, and perseverance in four fictional workplace decisions and connect one trait to prior class evidence |
 | **TEKS** | d(4)(F) |
-| **Deliverable** | Integrity and Evidence Audit packet |
-| **Materials** | Four fictional case cards, optional H&L browse |
+| **Deliverable** | Five-question practice Quiz, justified decision, and personal evidence audit |
+| **Materials** | Four fictional cases, Canvas practice Quiz, three-page paper fallback |
 
 ## Before Class
 
-Post the case packet. Do not use real repair histories, flight logs, student work records, or screenshots of private profiles.
+Post the four fictional cases and retryable practice Quiz. Keep the three-page paper fallback available without printing it for everyone. Do not use real repair histories, flight logs, work records, or screenshots of private profiles.
 
 ## Warm-Up (5 min)
 
@@ -36,13 +36,13 @@ Perseverance never means continuing an unsafe task without authorization.
 
 ## Activity 2: Four Fictional Cases (20 min)
 
-Students respond to bounded cases involving a missed checklist item, an uncertain measurement, an incomplete handoff, and pressure to sign work that was not verified. For each case they name the trait, the trustworthy action, the record or supervisor route, and the harm the action prevents.
+Students respond to bounded cases involving a missed checklist item, an uncertain measurement, an incomplete handoff, and pressure to sign work that was not verified. The Quiz gives immediate feedback on five decisions, including dedication and work ethic. In the final response, each student chooses one case and names the trait, trustworthy action, record or supervisor route, and harm prevented.
 
 The cases do not teach tool settings, real repair procedures, clinical advice, or aviation maintenance procedures.
 
 ## Activity 3: Personal Evidence Audit (10 min)
 
-Students select one prior class artifact and write:
+Students select one prior class artifact and complete a short private evidence audit in Canvas or on the paper fallback:
 
 1. the task they completed;
 2. one visible action that demonstrates a trait;

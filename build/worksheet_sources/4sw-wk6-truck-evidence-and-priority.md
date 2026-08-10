@@ -6,67 +6,41 @@ weeks: 4sw/wk6-trades-capstone
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 3
 orientation: portrait
 ---
 
-## Evidence boundary
+## No-workbook access: clue sets and evidence boundary
 
-A dashboard light alerts you to a system. A code reader narrows the investigation. Neither proves the failed part, the repair, or whether a vehicle is safe to drive.
+Use this packet only when *Find Your Future* pp. 154-155 are unavailable, enlarged access is needed, or your teacher assigns Canvas annotation. Otherwise, write in the workbook.
 
-Dashboard-light boundary in my words:
+**Evidence boundary:** A dashboard light points toward a system. A code reader narrows an investigation. Neither one proves the failed part, the repair, or whether a vehicle is safe to drive.
 
-[[lines: 3]]
+**Word bank:** clue = supplied fact · concern = broad system to inspect · conclusion = claim that still needs proof · priority = order for responding
 
-Code-reader boundary in my words:
-
-[[lines: 3]]
-
-### Model
-
-Clue: temperature light is on. Possible system concern: engine cooling or temperature. Not proved: the exact failed part. Still needed: trained inspection and approved vehicle information.
-
-One reason a clue and a conclusion must stay separate:
-
-[[lines: 4]]
-
-[[pagebreak]]
-
-## Issue 1 and Issue 2
+**Model:** Temperature light + very hot engine = possible cooling or temperature concern. This does not prove one failed part. A trained inspection and approved vehicle information are still needed.
 
 ### Issue 1
 
-Supplied clues: oil light on; code related to engine oil; oil looks dark; engine feels hotter than usual.
+Oil light on · engine-oil code · dark oil · engine feels hotter than usual
 
-Two exact clues:
+Two exact clues: _____________________________________________________________
 
-[[lines: 1]]
+Broad concern: ______________________________________________________________
 
-Broad possible system concern:
+Not proved yet, and evidence still needed:
 
-[[lines: 1]]
-
-One conclusion these clues do not prove:
-
-[[lines: 2]]
-
-Inspection or approved information still needed:
-
-[[lines: 2]]
+[[lines: 3]]
 
 ### Issue 2
 
-Supplied clues: battery light on; code related to battery; truck struggles to start; interior lights are dim.
+Battery light on · battery-related code · truck struggles to start · interior lights are dim
 
-Two exact clues:
+Two exact clues: _____________________________________________________________
 
-[[lines: 1]]
+Broad concern: ______________________________________________________________
 
-Broad possible system concern:
-
-[[lines: 1]]
-
-One conclusion not proved and one next evidence need:
+Not proved yet, and evidence still needed:
 
 [[lines: 3]]
 
@@ -76,101 +50,70 @@ One conclusion not proved and one next evidence need:
 
 ### Issue 3
 
-Supplied clues: temperature light on; code for engine temperature; engine very hot; steam under hood; radiator fan runs constantly.
+Temperature light on · engine-temperature code · engine very hot · steam under hood · radiator fan runs constantly
 
-Two exact clues:
+Two exact clues: _____________________________________________________________
 
-[[lines: 1]]
+Broad concern: ______________________________________________________________
 
-Broad possible system concern:
-
-[[lines: 1]]
-
-One conclusion not proved and one next evidence need:
+Not proved yet, and evidence still needed:
 
 [[lines: 3]]
 
 ### Issue 4
 
-Supplied clues: tire-pressure light on; code related to tire pressure; tires look slightly flat; truck pulls to one side; tires feel soft.
+Tire-pressure light on · tire-pressure code · tires look slightly flat · truck pulls to one side · tires feel soft
 
-Two exact clues:
+Two exact clues: _____________________________________________________________
 
-[[lines: 1]]
+Broad concern: ______________________________________________________________
 
-Broad possible system concern:
-
-[[lines: 1]]
-
-One conclusion not proved and one next evidence need:
+Not proved yet, and evidence still needed:
 
 [[lines: 3]]
 
-[[pagebreak]]
+### Priority
 
-## Priority decision
+Rank 1 means the quickest stop-and-inspect response. A lower rank does not mean safe to ignore.
 
-Rank 1 means the quickest stop-and-inspect response. Rank all four; a lower rank does not mean safe to ignore.
+| Issue | 1 | 2 | 3 | 4 |
+|---|:---:|:---:|:---:|:---:|
+| My rank |  |  |  |  |
 
-| Issue | My rank, 1-4 | Evidence for the rank |
-|---|:---:|---|
-| 1 |  |  |
-| 2 |  |  |
-| 3 |  |  |
-| 4 |  |  |
-
-Top case 1: _________________________________________________________________
-
-Why it needs quick action:
-
-[[lines: 4]]
-
-Top case 2: _________________________________________________________________
-
-Why it needs quick action:
-
-[[lines: 4]]
-
-One case I ranked lower and why it still needs service:
+Top two issues and the clue that supports each choice:
 
 [[lines: 4]]
 
 [[pagebreak]]
 
-## Safe next-step plan
+## Safe next steps and exit check
 
-For each top case, write a broad authorized response. Do not prescribe a part, tool setting, or repair.
+Do not prescribe a part, tool setting, or repair.
 
-### Top case 1
+### Top issue 1
 
-Stop or protect:
+Stop or protect: _____________________________________________________________
 
-[[lines: 1]]
+Notify or hand off to: _______________________________________________________
 
-Notify or hand off to:
+Evidence a trained person still needs:
 
-[[lines: 1]]
+[[lines: 3]]
 
-Evidence the trained person still needs:
+### Top issue 2
 
-[[lines: 2]]
+Stop or protect: _____________________________________________________________
 
-### Top case 2
+Notify or hand off to: _______________________________________________________
 
-Stop or protect:
+Evidence a trained person still needs:
 
-[[lines: 1]]
+[[lines: 3]]
 
-Notify or hand off to:
+## Correct the claim
 
-[[lines: 1]]
+“The code already told us the broken part, so we can skip the inspection.”
 
-Evidence the trained person still needs:
+**Use this frame:** The clue shows **[observation]**. It does not prove **[conclusion]**. The safe next step is **[authorized action]** because **[reason]**. A **[different career]** also uses analytical reasoning when the worker **[specific task]**.
 
-[[lines: 2]]
-
-## Exit response
-
-Correct: “The code already told us the broken part, so we can skip the inspection.” Use one clue, one limit, and one safe next step.
-
-[[lines: 4]]
+[[lines: 6]]

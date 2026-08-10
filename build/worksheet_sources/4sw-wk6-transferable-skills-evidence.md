@@ -6,13 +6,13 @@ weeks: 4sw/wk6-trades-capstone
 audience: student
 variant_of:
 language: en
-pages: 7
+pages: 4
 orientation: portrait
 ---
 
-## Six fixed career-task cards
+## Six career-task cards
 
-| Career | One task from this course |
+| Career | One visible task from this course |
 |---|---|
 | Software developer | Tests a change, explains an issue, and coordinates a release |
 | Nurse | Verifies supplied information, communicates a handoff, and works with a care team |
@@ -21,142 +21,116 @@ orientation: portrait
 | Drone systems technician | Tests a system, records results, and explains a revision |
 | Automotive service technician | Follows inspection steps, documents findings, and explains supported next steps |
 
-The cards provide classroom examples, not a complete job description.
+These cards are classroom examples, not complete job descriptions.
 
 ### What counts as proof?
 
-Claim only: “All careers need attention to detail.”
+Claim: “All careers need attention to detail.”
 
 Evidence: “A software developer checks a code change; an automotive technician follows an inspection checklist.”
 
-Why the second statement is stronger:
+Why the evidence statement is stronger:
 
 [[lines: 4]]
 
-[[pagebreak]]
+**Word bank:** task = tarea · skill = habilidad · common = en común · setting = entorno
 
-## Skill 1: Analytical reasoning
-
-Careers supported by the cards: [ ] Software developer [ ] Nurse [ ] Lawyer [ ] Pilot [ ] Drone systems technician [ ] Automotive service technician
-
-Career A and task evidence:
-
-[[lines: 3]]
-
-Career B and different task evidence:
-
-[[lines: 3]]
-
-What the skill behavior has in common:
-
-[[lines: 4]]
-
-What changes because the technical setting is different:
-
-[[lines: 4]]
+**Use this frame:** **[career 1]** and **[career 2]** both use **[skill]** when they **[specific tasks]**. The common behavior is **[shared action]**. The technical setting changes **[tool, rule, or knowledge]** because **[reason]**.
 
 [[pagebreak]]
 
-## Skill 2: Communication
+## Compare Skill 1 and Skill 2
 
-Careers supported: [ ] Software developer [ ] Nurse [ ] Lawyer [ ] Pilot [ ] Drone systems technician [ ] Automotive service technician
+### Skill 1: Analytical reasoning
 
-Two career/task examples:
+Career A and task: ___________________________________________________________
 
-[[lines: 5]]
-
-Common behavior and technical difference:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Skill 3: Attention to detail
-
-Careers supported: [ ] Software developer [ ] Nurse [ ] Lawyer [ ] Pilot [ ] Drone systems technician [ ] Automotive service technician
-
-Career A and task evidence:
-
-[[lines: 3]]
-
-Career B and different task evidence:
-
-[[lines: 3]]
+Career B and task: ___________________________________________________________
 
 Common behavior:
 
-[[lines: 4]]
+[[lines: 3]]
 
 Technical difference:
 
-[[lines: 4]]
+[[lines: 3]]
+
+### Skill 2: Communication
+
+Career A and task: ___________________________________________________________
+
+Career B and task: ___________________________________________________________
+
+Common behavior:
+
+[[lines: 3]]
+
+Technical difference:
+
+[[lines: 3]]
 
 [[pagebreak]]
 
-## Skill 4: Teamwork
+## Compare Skill 3 and Skill 4
 
-Careers supported: [ ] Software developer [ ] Nurse [ ] Lawyer [ ] Pilot [ ] Drone systems technician [ ] Automotive service technician
+### Skill 3: Attention to detail
 
-Two career/task examples:
+Career A and task: ___________________________________________________________
 
-[[lines: 5]]
+Career B and task: ___________________________________________________________
 
-Common behavior and technical difference:
+Common behavior:
 
-[[lines: 5]]
+[[lines: 3]]
+
+Technical difference:
+
+[[lines: 3]]
+
+### Skill 4: Teamwork
+
+Career A and task: ___________________________________________________________
+
+Career B and task: ___________________________________________________________
+
+Common behavior:
+
+[[lines: 3]]
+
+Technical difference:
+
+[[lines: 3]]
 
 [[pagebreak]]
 
-## Build a pattern claim
+## Build and test a transfer claim
 
-Skill with the strongest six-career evidence:
-
-[[lines: 2]]
+Skill with the strongest evidence: ___________________________________________
 
 Career/task example 1:
 
-[[lines: 3]]
+[[lines: 2]]
 
 Career/task example 2:
 
-[[lines: 3]]
+[[lines: 2]]
 
 Career/task example 3:
 
-[[lines: 3]]
+[[lines: 2]]
 
-Claim about why this skill transfers:
+Claim about why the skill transfers:
 
-[[lines: 5]]
+[[lines: 4]]
 
-One limit of my claim:
+One limit of the claim:
 
-[[lines: 3]]
+[[lines: 2]]
 
-[[pagebreak]]
+## Independent exit check
 
-## Independent transfer check
+Choose two careers from different clusters and one skill. Use one task from each.
 
-Choose two careers from different clusters.
-
-Career 1: ___________________________________________________________________
-
-Task that uses the skill:
-
-[[lines: 3]]
-
-Career 2: ___________________________________________________________________
-
-Different task that uses the same skill:
-
-[[lines: 3]]
-
-Transferable skill: __________________________________________________________
-
-Common behavior across both tasks:
-
-[[lines: 5]]
-
-Why technical skill still matters in each setting:
+**Use this frame:** **[career 1]** and **[career 2]** both use **[skill]** when they **[specific tasks]**. The common behavior is **[shared action]**. Each worker still needs different technical knowledge because **[reason]**.
 
 [[lines: 5]]

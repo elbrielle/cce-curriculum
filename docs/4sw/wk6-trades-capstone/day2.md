@@ -5,7 +5,7 @@
 - **Topic:** Transferable Skills
 - **Objective:** Students will use specific job tasks to show how four skills transfer among six careers.
 - **TEKS:** d(4)(B)
-- **Demonstration of Learning:** Transferable Skills Evidence packet.
+- **Demonstration of Learning:** Four transferable-skill comparisons, a three-example pattern claim, and an independent two-career transfer response.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,12 +14,12 @@
 | **Time** | 50 minutes |
 | **Objective** | Use specific job tasks to show how four skills transfer among six careers |
 | **TEKS** | d(4)(B) |
-| **Deliverable** | Transferable Skills Evidence packet |
-| **Materials** | Fixed six-career task cards and response packet |
+| **Deliverable** | Four skill comparisons, pattern claim, and independent transfer response |
+| **Materials** | Canvas fixed cards and private response, four-page paper or enlarged fallback |
 
 ## Before Class
 
-Post the fixed cards and packet. No live occupation search is required. The packet uses six careers already encountered in the course: software developer, nurse, lawyer, pilot, drone systems technician, and automotive service technician.
+Post the fixed cards and private Canvas response. Keep the four-page fallback available without printing it for everyone. No live occupation search is required. The cards use six careers already encountered in the course: software developer, nurse, lawyer, pilot, drone systems technician, and automotive service technician.
 
 ## Warm-Up (5 min)
 

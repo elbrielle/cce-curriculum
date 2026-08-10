@@ -2,28 +2,28 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Transferable Skills
-- **Objective:** Students will use fixed and personal evidence to explain one change in career thinking, prove two transferable skills, evaluate one organization or route, and set two supported next actions.
+- **Topic:** Evidence Reflection
+- **Objective:** Students will use fixed and personal evidence to explain one change in career thinking, prove two transferable skills, evaluate one professional association and its membership boundary, and set two supported next actions.
 - **TEKS:** d(4)(B), d(3)(H)
-- **Demonstration of Learning:** Four-part Mid-Year Evidence Reflection and self-score.
+- **Demonstration of Learning:** Teacher-assigned private four-part recovery reflection, self-score, and visible revision.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objective** | Use fixed and personal evidence to explain one change in career thinking, prove two transferable skills, evaluate one organization or route, and set two supported next actions |
+| **Objective** | Use fixed and personal evidence to explain one change in career thinking, prove two transferable skills, evaluate one professional association and its membership boundary, and set two supported next actions |
 | **TEKS** | d(4)(B), d(3)(H) |
-| **Deliverable** | Four-part Mid-Year Evidence Reflection and self-score |
-| **Materials** | Reflection packet, evidence strip, student-visible rubric, private Canvas Assignment |
+| **Deliverable** | Private recovery reflection, self-score, and visible revision when assigned |
+| **Materials** | Private Canvas Assignment, four-page paper fallback, student-visible rubric |
 
 ## Before Class
 
-1. Post the private Assignment, five-page reflection, evidence strip, and rubric.
-2. Keep the Assignment unpublished and ungraded until the assessment map is verified.
+1. Keep the private recovery Assignment unpublished. Open it only for a teacher-approved recovery or replacement decision.
+2. Post the student-visible rubric. Keep the four-page paper fallback available without printing it for everyone.
 3. Prepare a generic evidence strip for students missing Week 0 or prior artifacts.
 
-No sharing circle is required. Students may volunteer one nonprivate insight after submission, but public speaking and disclosure are not assessment criteria.
+This is not an automatic third Major or fourth Minor. No sharing circle is required. Students may volunteer one nonprivate insight after submission, but public speaking and disclosure are not assessment criteria.
 
 ## Warm-Up (5 min)
 
@@ -36,7 +36,7 @@ Students gather or choose:
 - one earlier career prediction or assumption;
 - one current career direction;
 - two class tasks that show transferable skills;
-- one accurate organization or training-route fact; and
+- one accurate professional-association fact and membership boundary; and
 - one unanswered question.
 
 Missing artifacts use the provided model strip. Students do not reconstruct private data or expose screenshots.
@@ -45,7 +45,7 @@ Missing artifacts use the provided model strip. Students do not reconstruct priv
 
 1. **Change in thinking:** 4-5 sentences using one before/now contrast and one source or class experience.
 2. **Two transferable skills:** one task example and explanation for each skill; one may be work ethic or integrity from Day 4.
-3. **Organization or route decision:** name the correct organization/route type, one benefit or function, one access/entry fact, and one limitation.
+3. **Professional-association decision:** name the association, one membership benefit, one eligibility or access fact, and one limitation.
 4. **Two next actions:** each includes a time, support person/source, completion evidence, and backup.
 
 Each multi-sentence job has its own full-width response area. Bullet points are acceptable in Parts 2 and 4 when the evidence remains clear.

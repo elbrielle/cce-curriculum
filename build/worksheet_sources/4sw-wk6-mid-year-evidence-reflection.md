@@ -6,115 +6,91 @@ weeks: 4sw/wk6-trades-capstone
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 4
 orientation: portrait
 ---
 
-## Evidence strip
+## Evidence strip and Part 1
 
-Earlier prediction or assumption:
+Use this paper route only when your teacher assigns the reflection as recovery or replacement evidence. The private Canvas text, upload, or media route is the default.
 
-[[lines: 2]]
+Earlier prediction or assumption: ____________________________________________
 
-Current career direction:
+Current career direction: ___________________________________________________
 
-[[lines: 2]]
+Source or class experience that changed my thinking: _________________________
 
-Source or class experience that changed my thinking:
+Class tasks showing two skills: ______________________________________________
 
-[[lines: 3]]
+Accurate professional-association fact: ______________________________________
 
-Class task showing skill 1:
+One unanswered question: ____________________________________________________
 
-[[lines: 2]]
-
-Class task showing skill 2:
-
-[[lines: 2]]
-
-Accurate organization or training-route fact:
-
-[[lines: 3]]
-
-One unanswered question:
-
-[[lines: 2]]
-
-[[pagebreak]]
-
-## Part 1. Change in my thinking
+### Part 1: Change in my thinking
 
 Write 4-5 sentences. Include a before/now contrast, one source or class experience, and why the evidence mattered.
 
-[[lines: 12]]
+**Use this frame:** At first, I thought **[earlier idea]**. After **[source or class experience]**, I now think **[current idea]**. The evidence that mattered was **[specific fact or result]** because **[reason]**. I still need to verify **[unanswered question]** before I decide **[next choice]**.
 
-Evidence label I used:
-
-[[lines: 2]]
-
-One claim I kept bounded instead of guaranteed:
-
-[[lines: 3]]
+[[lines: 10]]
 
 [[pagebreak]]
 
-## Part 2. Two transferable skills
+## Part 2: Two transferable skills
 
 ### Skill 1
 
-Skill: ______________________________________________________________________
+Skill and class task: ________________________________________________________
 
-Specific class task and visible action:
-
-[[lines: 5]]
-
-How the skill could transfer to a different career:
+Visible action that proves the skill:
 
 [[lines: 4]]
+
+How it could transfer to a different career:
+
+[[lines: 3]]
 
 ### Skill 2
 
-Skill: ______________________________________________________________________
+Skill and class task: ________________________________________________________
 
-Specific class task and visible action:
-
-[[lines: 5]]
-
-How the skill could transfer to a different career:
+Visible action that proves the skill:
 
 [[lines: 4]]
 
+How it could transfer to a different career:
+
+[[lines: 3]]
+
+**Use this frame:** I used **[skill]** when I **[visible class action]**. That skill could transfer to **[different career]** because a worker there must **[specific job task]**.
+
 [[pagebreak]]
 
-## Part 3. Organization or route decision
+## Part 3: Professional-association decision
 
-Organization or training route:
+Professional association: ___________________________________________________
 
-[[lines: 2]]
-
-Correct type:
-
-[[lines: 2]]
-
-One verified benefit or function:
+Verified membership benefit:
 
 [[lines: 3]]
 
-One access, admission, cost, or eligibility fact:
+Membership access, cost, or eligibility fact:
 
 [[lines: 3]]
 
-One limitation or unanswered question:
+Limitation or unanswered question:
 
 [[lines: 3]]
 
-Why this is a realistic next investigation for me:
+Why this is a realistic association to investigate:
 
 [[lines: 5]]
 
+**Use this frame:** **[organization]** is a professional association. Membership could help me **[verified benefit]**, but I must verify **[access, cost, or eligibility fact]** before I **[next action]**.
+
 [[pagebreak]]
 
-## Part 4. Two next actions
+## Part 4: Two next actions and revision
 
 | Job | Action 1 | Action 2 |
 |---|---|---|
@@ -124,14 +100,18 @@ Why this is a realistic next investigation for me:
 | Completion evidence |  |  |
 | Backup if blocked |  |  |
 
-How the actions connect to my current direction:
+How these actions connect to my current direction:
 
-[[lines: 5]]
+[[lines: 4]]
 
-Weakest section before revision: _____________________________________________
+Weakest rubric criterion before revision: ___________________________________
 
 Revision I made:
 
 [[lines: 4]]
+
+One unsupported or overconfident claim I removed:
+
+[[lines: 3]]
 
 Private submission: [ ] Canvas text [ ] Upload [ ] Private media [ ] Paper
