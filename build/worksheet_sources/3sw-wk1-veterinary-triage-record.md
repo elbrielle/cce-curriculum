@@ -10,9 +10,9 @@ pages: 2
 orientation: portrait
 ---
 
-## Fictional emergency-clinic case
+## Optional structured scaffold
 
-Use *Find Your Future* pp. 96-99. This activity practices evidence comparison. It does not teach students to diagnose or treat a real animal. A real animal emergency belongs with a veterinarian or emergency clinic.
+The default student work is *Find Your Future* pp. 96-99, including the response space on p. 99. Use this record only when a student needs a more structured layout or does not have the workbook. This activity practices evidence comparison. It does not teach students to diagnose or treat a real animal. A real animal emergency belongs with a veterinarian or emergency clinic.
 
 ## Step 1: Compare each patient with the correct species reference
 
@@ -36,6 +36,10 @@ One detail that the reference identifies as outside the normal range or urgent:
 [[pagebreak]]
 
 ## Step 3: Make and defend the triage decision
+
+**Word bank:** triage = triaje · observation = observación · range = rango · priority = prioridad
+
+**Frame:** I would report [patient] first because [detail 1] and [detail 2]. The veterinarian still decides [diagnosis or treatment].
 
 Who should the fictional clinic team see first? ______________________________
 

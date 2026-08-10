@@ -114,8 +114,8 @@ OVERRIDES = {
     },
     "docs/3sw/wk1-vet-science/day5.md": {
         "topic": "Veterinary Pathways",
-        "teks": "d(1)(C), d(2)(A)",
-        "objective": "Students will identify a veterinary career opportunity and describe its preparation requirements using current career and local pathway evidence.",
+        "teks": "d(2)(A), d(3)(A)",
+        "objective": "Students will describe middle-school-to-high-school and high-school-to-postsecondary requirements for one veterinary career route using FYF and career evidence.",
     },
 }
 

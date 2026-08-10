@@ -18,6 +18,10 @@ Do not submit a screenshot of your profile. Your teacher checks the Completion S
 
 ## Connect one skill to two settings
 
+**Word bank:** skill = habilidad · transferable = transferible · improve = mejorar
+
+**Frame:** [Skill] is useful in veterinary work when [example]. It is useful in [other career] when [example].
+
 One skill from the lesson: __________________________________________________
 
 How I already practice it at school, home, in an activity, or in my community:

@@ -36,27 +36,31 @@ Use the Veterinary Career Evidence Guide. Keep every number with its measure and
 
 ### Scenario A
 
-Jordan wants to enter the field after high school, learn on the job, and keep future education open. Which route is the strongest current starting point? Use one responsibility and one education fact.
+Jordan wants to enter the field after high school, learn on the job, and keep future education open. Which route is the strongest current starting point? Use one responsibility, one education fact, and one realistic trade-off.
 
 My recommendation: _________________________________________________________
 
 Evidence and reasoning:
 
-[[lines: 4]]
+[[lines: 3]]
 
 ### Scenario B
 
-Sam wants to perform diagnostic tests and assist with clinical care but does not currently want the veterinarian's professional-degree route. Which career best fits? Use two facts.
+Sam wants to perform diagnostic tests and assist with clinical care but does not currently want the veterinarian's professional-degree route. Which career best fits? Use two facts and one realistic trade-off.
 
 My recommendation: _________________________________________________________
 
 Evidence and reasoning:
 
-[[lines: 4]]
+[[lines: 3]]
 
 ### Your current route question
 
-Which of the three routes would you investigate next? “None of these” is valid when you support it.
+Which of the three routes would you investigate next? “None of these” is valid when you support it. Use two facts and one trade-off.
+
+**Word bank:** preparation = preparación · openings = vacantes · trade-off = ventaja y costo
+
+**Frame:** I recommend [career] because [fact 1] and [fact 2]; however, [trade-off].
 
 My current answer: _________________________________________________________
 

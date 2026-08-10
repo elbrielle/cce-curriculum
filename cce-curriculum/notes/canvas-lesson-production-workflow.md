@@ -213,6 +213,43 @@ route is fixed 16:9 HTML/CSS -> per-slide PNG -> PPTX, with the complete lesson
 sequence, facilitation and source notes, full render QA, and the same
 authenticated-Canvas licensing boundary used by the lesson pages.
 
+### Run the owner-style adversarial review before Canvas staging
+
+Canvas is the review environment, but it should not be the first place a lesson
+package is inspected. Before an importer writes a new or materially revised week
+to Canvas:
+
+1. finish the coordinated Teacher/Student pages, interactions, printables, and
+   licensed-asset map locally;
+2. render the pages and every new printable or visual at desktop and narrow
+   viewport sizes;
+3. create a recoverable Git checkpoint that contains only the source package and
+   importer changes -- licensed binaries remain gitignored;
+4. give the rendered package to a separate review agent instructed to act as the
+   course owner, using the current voice profile, anti-AI diagnostic, prior owner
+   feedback, and this workflow;
+5. require that review to separate blocking findings from later polish and check
+   source grounding, learning-contract alignment, next-day teacher readiness,
+   student cognitive load, EB supports, response space, visual consistency,
+   interaction choice, absence recovery, and cross-week scaffolding;
+6. repair the blocking findings and rerun the local render and automated checks;
+   and
+7. only then run the Canvas importer.
+
+The reviewer must inspect the actual rendered lesson package. Reviewing HTML,
+Markdown, or a diff alone will miss clipped text, weak hierarchy, empty writing
+space, slow or oversized images, and a page that is technically complete but hard
+to teach from. The review is not permission to invent a new activity or relabel
+HQIM content. It is a pressure test of the package already grounded in the scope
+and sequence, TEKS, workbook, and assigned platforms.
+
+Name the checkpoint so the week and state are obvious, for example
+`checkpoint(canvas): 3SW Wk1 before staging`. Record the checkpoint commit and
+the resulting Canvas module/object IDs in the build log. If the staged result is
+wrong, repair from the source checkpoint and rerun the idempotent importer; do
+not hand-edit a large set of live Canvas objects without preserving the source
+change that explains them.
+
 ## 5. Build safely through the Canvas API
 
 Use an idempotent importer under `build/canvas/`. It should:

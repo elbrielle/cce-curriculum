@@ -33,20 +33,22 @@ Highest median: ____________________  Fastest growth: ____________________  Most
 
 [[pagebreak]]
 
-## Current local pathway evidence
+## District workbook pathway evidence
 
-Irving ISD's current public site lists **Veterinary Science at Nimitz High School**. The program page describes Small Animal Management, Large Animal Veterinary Science, and Advanced Animal Science. It also lists several certification opportunities and says the Certified Veterinary Assistant route requires 300 clinical internship hours by the end of senior year.
-
-The *Find Your Future* workbook names Animal Science and Plant Science at Nimitz and describes hands-on facilities and animal-care experiences. Treat the workbook as course context and the current district page as the current program check.
+*Find Your Future* pp. 100-101 name **Animal Science** and **Plant Science** at Nimitz High School. The Animal Science section describes a mentorship with Irving Animal Services, pet-care work, animal-science projects, Elanco Fundamentals of Animal Science certification, FFA, and CTE Completer opportunities. Use the workbook wording when you record a local program or experience.
 
 **Important boundary:** A high-school pathway builds knowledge and experience. It does not make a student a veterinarian or replace the college, professional degree, licensing, or credentialing route listed above.
 
-### Sources checked August 8, 2026
+### Sources checked August 9, 2026
 
 - U.S. Bureau of Labor Statistics, Veterinary Assistants and Laboratory Animal Caretakers; Veterinary Technologists and Technicians; Veterinarians. Pay: May 2024. Outlook and openings: 2024-2034.
-- Irving ISD, Nimitz High School Veterinary Science program page.
+- *Find Your Future*, Irving ISD district pathway pages 100-101.
 
 ## What the numbers do and do not show
+
+**Word bank:** median = mediana · preparation = preparación · openings = vacantes
+
+**Frame:** The career with the most openings may have lower median pay because ____.
 
 Why can the career with the most annual openings have the lowest median pay?
 
