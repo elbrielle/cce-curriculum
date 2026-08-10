@@ -2,20 +2,20 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will use an adaptability example to plan and save at least two honest goals in Xello.
-- **TEKS:** d(1)(C) through the closing career connection; required Xello completion spine
-- **Demonstration of Learning:** Two saved Xello goals + private Goals Plan and Reflection.
+- **Topic:** Goal Setting
+- **Objective:** Students will demonstrate goal-setting strategies by saving two goals with a timeframe, next task, obstacle, and backup plan.
+- **TEKS:** d(4)(A); required Xello completion spine
+- **Demonstration of Learning:** Two saved Xello goals + private Goal Check and Reflection.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objective** | Use an adaptability example to plan and save at least two honest goals in Xello |
-| **TEKS** | d(1)(C) through the closing career connection; required Xello completion spine |
-| **Deliverable** | Two saved Xello goals + private Goals Plan and Reflection |
-| **Materials** | FYF p. 146; Xello; Goals Plan and Private Reflection; locked Xello Set Goals educator guide |
+| **Objective** | Demonstrate goal-setting strategies by saving two goals with a timeframe, next task, obstacle, and backup plan |
+| **TEKS** | d(4)(A); required Xello completion spine |
+| **Deliverable** | Two saved Xello goals + private Goal Check and Reflection |
+| **Materials** | FYF p. 146; Xello; Goal Check and Private Reflection; locked Xello Set Goals educator guide |
 
 ## Warm-Up (5 min)
 
@@ -34,7 +34,7 @@ Then model one goal with:
 - one task; and
 - one obstacle with a backup plan.
 
-Students draft two private goals on the planning sheet. Do not require students to share personal goals with classmates.
+Students draft two private goal ideas on the one-page check. They write the full goal statements in Xello instead of copying the same form twice. Do not require students to share personal goals with classmates.
 
 ## Activity 2: Required Xello Set Goals (20 min)
 
@@ -43,7 +43,7 @@ Students draft two private goals on the planning sheet. Do not require students 
 Navigation:
 
 1. Open Xello from district single sign-on.
-2. Open **Plans**, then **Goals & Plans**.
+2. Open **About Me**, then **Goals**.
 3. Choose **Set a goal**.
 4. Add Goal 1 with its category, timeframe, and at least one task.
 5. Add Goal 2 the same way.
@@ -53,11 +53,9 @@ The licensed Xello educator guide is a 25-30 minute extended lesson and asks stu
 
 Teachers verify completion through the Xello Completion Standards report. Do not require screenshots of personal profiles or goals.
 
-## Activity 3: Private Reflection and Career Connection (12 min)
+## Activity 3: Private Reflection (12 min)
 
-Students complete the three reflection prompts. The final prompt connects one goal, when appropriate, to Vet Science, Plant Science, Sustainable Engineering, or another career they have identified.
-
-The connection may be "no change." Full credit comes from a specific explanation, not from pretending an agriculture career is a personal goal.
+Students identify which goal has the clearest next task and which may need revision after the first attempt. They explain the difference privately. The obstacle and backup-plan fields show how they will keep moving if the first plan changes.
 
 ## Completion Check (3 min)
 

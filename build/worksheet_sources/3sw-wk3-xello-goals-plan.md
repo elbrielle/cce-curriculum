@@ -1,84 +1,45 @@
 ---
-title: Xello Goals Plan and Private Reflection
+title: Xello Goal Check and Private Reflection
 slug: 3sw-wk3-xello-goals-plan
 kind: worksheet
 weeks: 3sw/wk3-sustainable-engineering
 audience: student
 variant_of:
 language: en
-pages: 2
+pages: 1
 orientation: portrait
 ---
 
-## Before Xello: plan two honest goals
+## Check two honest goals
 
 The district completion minimum is **two saved goals**. Choose goals that are true for you. You do not need to share private details with classmates.
 
-### Goal 1
+Use Xello for the full goal statements. This page is a private planning check and paper fallback, not a second copy of the Xello form.
 
-Category:  [ ] School  [ ] Skill  [ ] Career exploration  [ ] Personal responsibility  [ ] Other
+| Goal idea or category | Timeframe or check-in | Next task |
+|---|---|---|
+| 1 |  |  |
+| 2 |  |  |
 
-Goal statement:
+One obstacle that could affect either goal: ______________________________________
 
-[[lines: 1]]
+My backup plan if that happens: _________________________________________________
 
-Timeframe or check-in date: _____________________________________________________
+## Save both goals in Xello
 
-One task I can complete:
+1. Open Xello from district single sign-on, then open **About Me > Goals**.
+2. Choose **Set a goal**. Save both goals with a timeframe and at least one task.
+3. Check that both goals appear. Your teacher checks the report; do not post a profile screenshot.
 
-[[lines: 2]]
+## Private reflection
 
-One possible obstacle and my backup plan:
-
-[[lines: 2]]
-
-### Goal 2
-
-Category:  [ ] School  [ ] Skill  [ ] Career exploration  [ ] Personal responsibility  [ ] Other
-
-Goal statement:
-
-[[lines: 1]]
-
-Timeframe or check-in date: _____________________________________________________
-
-One task I can complete:
-
-[[lines: 2]]
-
-One possible obstacle and my backup plan:
-
-[[lines: 2]]
-
-[[pagebreak]]
-
-## In Xello: save both goals
-
-1. Open Xello from district single sign-on.
-2. Open **Plans**, then **Goals & Plans**.
-3. Choose **Set a goal**.
-4. Add Goal 1 with its category, timeframe, and at least one task.
-5. Add Goal 2 the same way.
-6. Check that both goals appear in your plan. Your teacher checks the Completion Standards report; do not post a screenshot with private profile information.
-
-## After Xello: private reflection
-
-Which goal has the clearest next task? Why?
-
-[[lines: 3]]
-
-Which goal may need revision after you try the first task?
-
-[[lines: 3]]
-
-How did this week's engineering work affect one goal, if at all?
+Which goal has the clearest next task? Which may need revision after you try the first task? Explain.
 
 [[lines: 3]]
 
 ### Completion and catch-up check
 
 - [ ] I saved at least two goals in Xello.
-- [ ] Each goal has a timeframe or check-in point.
-- [ ] Each goal has at least one task.
+- [ ] Each goal has a timeframe or check-in point and at least one task.
 - [ ] I completed the private reflection.
-- [ ] If Xello was unavailable, I submitted this plan and scheduled supervised Xello catch-up. Paper planning does not replace the required Xello completion.
+- [ ] If Xello was unavailable, I scheduled supervised catch-up. Paper planning does not replace Xello completion.

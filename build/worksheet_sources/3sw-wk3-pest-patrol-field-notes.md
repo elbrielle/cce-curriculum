@@ -6,7 +6,7 @@ weeks: 3sw/wk3-sustainable-engineering
 audience: student
 variant_of:
 language: en
-pages: 3
+pages: 2
 orientation: portrait
 ---
 
@@ -16,35 +16,41 @@ Use *Find Your Future* pp. 93-94. Record only facts that would change the drone 
 
 ### Agricultural engineer report
 
-Two or three useful facts:
+One or two useful facts:
 
-[[lines: 3]]
+[[lines: 2]]
 
 What the drone must be able to do because of these facts:
 
-[[lines: 2]]
+[[lines: 1]]
 
 ### Farmer report
 
-Two or three useful facts:
-
-[[lines: 3]]
-
-What the drone must be able to do because of these facts:
+One or two useful facts:
 
 [[lines: 2]]
 
-[[pagebreak]]
+What the drone must be able to do because of these facts:
+
+[[lines: 1]]
 
 ### Plant scientist report
 
-Two or three useful facts:
+One or two useful facts:
 
-[[lines: 3]]
+[[lines: 2]]
 
 What the drone must be able to do because of these facts:
 
-[[lines: 2]]
+[[lines: 1]]
+
+### Career opportunity and work product
+
+The agricultural engineer uses these reports to create __________________________
+
+Another worker or team uses that work product to ________________________________
+
+[[pagebreak]]
 
 ## Part 2: Turn evidence into design constraints
 
@@ -52,31 +58,29 @@ A **constraint** is a limit or requirement the design must respect. Write a shor
 
 ### Constraint 1: What must the drone detect or measure?
 
-[[lines: 2]]
+[[lines: 1]]
 
 Evidence from the field reports:
 
-[[lines: 2]]
-
-[[pagebreak]]
+[[lines: 1]]
 
 ### Constraint 2: How must the drone move, cover the field, or protect crops?
 
-[[lines: 2]]
+[[lines: 1]]
 
 Evidence from the field reports:
 
-[[lines: 2]]
+[[lines: 1]]
 
 ### Constraint 3: What limit must the team plan for?
 
 Think about cost, battery life, weather, safety, accuracy, or farmer time.
 
-[[lines: 2]]
+[[lines: 1]]
 
 Evidence or reasoning:
 
-[[lines: 2]]
+[[lines: 1]]
 
 ### Rank the constraints
 
@@ -84,11 +88,11 @@ Most important constraint: _____________________________________________________
 
 Why it comes first:
 
-[[lines: 3]]
+[[lines: 2]]
 
 ### Ready for Day 3
 
-- [ ] I recorded evidence from all three reports.
+- [ ] I recorded evidence from all three reports and named the engineer's work product.
 - [ ] I wrote three testable constraints.
 - [ ] Each constraint has evidence or reasoning beside it.
 - [ ] I ranked one constraint and explained the choice.

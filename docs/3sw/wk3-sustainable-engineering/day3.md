@@ -3,18 +3,18 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Opportunities
-- **Objective:** Students will communicate a drone concept with labeled functions, evidence links, and one tradeoff.
+- **Objective:** Students will identify an agricultural-engineering career opportunity by creating a labeled drone design brief from field evidence.
 - **TEKS:** d(1)(C)
-- **Demonstration of Learning:** Pest Patrol Drone Design Brief draft.
+- **Demonstration of Learning:** Pest Patrol Drone Design Brief draft with a named career, work product, and user.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objective** | Communicate a drone concept with labeled functions, evidence links, and one tradeoff |
+| **Objective** | Identify an agricultural-engineering career opportunity by creating a labeled drone design brief from field evidence |
 | **TEKS** | d(1)(C) |
-| **Deliverable** | Pest Patrol Drone Design Brief draft |
+| **Deliverable** | Pest Patrol Drone Design Brief draft with a named career, work product, and user |
 | **Materials** | FYF p. 95; Design Brief; Day 2 constraints; pencils; optional Canva or Adobe Express |
 
 ## Warm-Up (5 min)
@@ -45,9 +45,11 @@ Students use the full-page drawing canvas or an equal digital route. Require:
 - three evidence links; and
 - one tradeoff.
 
+On the second page, students name the career role, the design brief as a work product, and the worker or user who would use it.
+
 **Active Monitoring:** Minute 8, the shape and first labels exist. Minute 16, six functions are visible. Minute 23, three labels point to field-report evidence. If several students have part names without functions, pause and model one stronger label.
 
-The Canvas draft Assignment accepts file, image, text, or URL submissions. Paper is equal and may be photographed only if the student wants a digital record.
+The Canvas draft Assignment accepts a file, image, text explanation, or media recording. Paper is equal and may be photographed only if the student wants a digital record.
 
 ## Activity 3: Tradeoff Check (5 min)
 
@@ -55,7 +57,7 @@ Students complete the evidence-chain and tradeoff page. A tradeoff must name a b
 
 ## Exit Check (5 min)
 
-Students use the submission checklist and turn in the draft.
+Students use the visible "You are done when" checklist in Canvas and turn in the draft.
 
 **DOK 3:** Which feature is most important to the farmer, and which source gives the strongest evidence for it?
 

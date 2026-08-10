@@ -16,11 +16,12 @@ Students submit one evidence packet: the final Pest Patrol drone design, a peer-
 
 ## TEKS Alignment
 
-- **d(1)(C):** Identify career opportunities through the career/problem guide and the Agricultural Engineer and Drone Operator roles used in the design task.
+- **d(1)(C):** Identify career opportunities through the career/problem guide and the agricultural-engineering work products used in the design task.
 - **d(1)(D):** Research and evaluate emerging occupations related to career interests through the Day 4 trends evaluation.
 - **d(5)(C):** Analyze how employment trends and societal needs affect career choices through sourced agriculture, energy, and water-workforce evidence.
+- **d(4)(A):** Demonstrate goal-setting strategies through two Xello goals with a timeframe, next task, obstacle, and backup plan.
 
-Day 5's Xello Set goals task belongs to the district completion spine. The task supports planning, but this week does not claim a separate TEKS mastery score from a platform click.
+Day 5's Xello Set goals task belongs to the district completion spine. The saved goals and private reflection, not the platform click by itself, provide the d(4)(A) evidence.
 
 ## Materials Needed
 
@@ -33,7 +34,7 @@ Day 5's Xello Set goals task belongs to the district completion spine. The task 
 - Pest Patrol Peer Review and Revision Record
 - Sustainable Engineering Trends Evidence Guide and Trends Evaluation
 - Sustainable Engineering Design and Evidence Rubric
-- Xello Goals Plan and Private Reflection
+- Xello Goal Check and Private Reflection
 - Xello educator resource, "Set Goals," stored in the locked Canvas week folder
 - Pencils and colored pencils; Canva or Adobe Express may be used as equal digital design routes
 

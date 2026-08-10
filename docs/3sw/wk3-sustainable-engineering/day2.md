@@ -3,18 +3,18 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Opportunities
-- **Objective:** Students will pull relevant evidence from three worker reports and turn it into testable design constraints.
+- **Objective:** Students will identify how an agricultural engineer uses worker reports to create testable design constraints.
 - **TEKS:** d(1)(C)
-- **Demonstration of Learning:** Pest Patrol Field Notes and Constraints.
+- **Demonstration of Learning:** Pest Patrol Field Notes and Constraints with an agricultural-engineer work-product connection.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objective** | Pull relevant evidence from three worker reports and turn it into testable design constraints |
+| **Objective** | Identify how an agricultural engineer uses worker reports to create testable design constraints |
 | **TEKS** | d(1)(C) |
-| **Deliverable** | Pest Patrol Field Notes and Constraints |
+| **Deliverable** | Pest Patrol Field Notes and Constraints with an agricultural-engineer work-product connection |
 | **Materials** | FYF pp. 93-94; Field Notes and Constraints packet; highlighters |
 
 ## Warm-Up (5 min)
@@ -35,7 +35,9 @@ Explain that each source sees a different part of the problem. The class will fi
 
 ## Activity 2: Read and Record Evidence (25 min)
 
-Students read each report and record two or three facts that would change the drone design. After each source, stop for a one-minute check and write one example "drone must" statement.
+Students read each report and record one or two facts that would change the drone design. After each source, stop for a one-minute check and write one example "drone must" statement.
+
+Students then name the agricultural engineer's work product: a set of design constraints that another worker or design team can use.
 
 **Chunking:** Engineer report first, then Farmer, then Plant Scientist. Do not read all three and ask students to remember the details later.
 
