@@ -31,7 +31,7 @@ Use the FYF excerpt to frame planning as a cycle: notice evidence, make a choice
 
 ## Activity 2: Build the Blueprint (22 min)
 
-Students gather their four checkpoints and complete the Blueprint:
+Students use their four checkpoints as source material and complete the three-page Blueprint:
 
 1. earlier result and current self-evidence;
 2. current career direction and hidden-work insight;
@@ -58,7 +58,7 @@ No student must share a career choice publicly. The teacher checks that the next
 
 **Complete this sentence: My plan is stronger now because I used evidence from ____ to change or confirm ____.**
 
-Submit the Blueprint in Canvas or hand in the paper copy. Keep Days 1-4 artifacts in the student's portfolio.
+Submit the Blueprint in Canvas or hand in the paper copy. Days 1-4 remain in the student's portfolio and are not four additional required uploads.
 
 ## Scoring
 

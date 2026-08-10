@@ -31,11 +31,12 @@ This week does not claim d(5)(D). Students label salary evidence, but they do no
 ## Materials
 
 - Chromebooks or tablets
-- *Find Your Future* Career Iceberg and Capstone Rungs 1-3 excerpts in authenticated Canvas
+- Student copies of *Find Your Future* for the default Day 2 and Day 3 work
+- *Find Your Future* Career Iceberg and Capstone Rungs 1-3 excerpts in authenticated Canvas for modeling and absence support
 - Mid-Year Profile Audit
-- Career Iceberg and Goal sheet
-- Career Deep Dive
-- Pathway and CTSO Decision sheet
+- Career Iceberg and Goal support packet when the workbook is unavailable
+- Career Deep Dive support packet when the workbook is unavailable
+- Private Canvas Pathway and CTSO Decision, with a paper or enlarged route
 - Mid-Year Career Blueprint and student-visible rubric
 - Current Irving ISD High School CTE hub and 2026-27 course-description page
 - Optional H&L or Xello profile evidence already available to the student
@@ -45,7 +46,7 @@ This week does not claim d(5)(D). Students label salary evidence, but they do no
 - Use H&L and Xello as evidence sources when they are available, not as single points of failure.
 - Do not require screenshots of a student's private profile. Students record only the result or evidence they choose to use.
 - Use one salary figure with its place, year, and measure. A national median is not a DFW starting salary.
-- The Irving ISD CTE hub and current course descriptions control local program names. Workbook and vendor examples may be older.
+- Start with the FYF, H&L, and Xello evidence students are using. Use the current Irving ISD CTE hub and course descriptions to confirm or extend exact campus, course, application, and access details. If a source conflicts with the curriculum, record the conflict for teacher follow-up instead of asking students to reconcile competing claims during the lesson.
 - Texas recognizes nine CTSOs. Local chapter availability must be confirmed before telling students a chapter exists on a specific campus.
 
 ## Week at a Glance
@@ -72,7 +73,9 @@ Use the district bands printed on the rubric: Masters 90-100, Meets 80-89, Appro
 ## Canvas Design
 
 - Each day has a paired Teacher Facilitator Guide and Student Guide.
-- Day 2 uses a Student Annotation assignment for the Career Iceberg, with file upload, text/media, and paper routes available.
+- Day 2 uses FYF pp. 6-8 and 283-284 by default. Student Annotation and the enlarged CCE packet are alternate routes, not extra work.
+- Day 3 uses FYF pp. 285-286 by default. Students add source, date, place, and measure beside the workbook field or in a notebook. The CCE guide is the no-workbook route.
+- Day 4 uses a private, ungraded Canvas Assignment by default. The four-page packet is the paper, enlarged, and independent route.
 - Day 5 uses a private Canvas Assignment with file, text, or media submission and a visible rubric.
 - Required directions remain visible. Optional models and vocabulary may use disclosures.
 - Every student page includes an absence route and a platform-unavailable route.
@@ -93,6 +96,6 @@ Before Day 1:
 - open the locked workbook excerpts in Canvas;
 - choose one dated career example for modeling source labels;
 - confirm whether any named CTSO is actually available locally before presenting it as a campus option; and
-- keep the student packet and a no-login career-data route ready.
+- keep the optional support packets and a no-login career-data route ready.
 
 No teacher should have to recreate a worksheet, invent an answer key, or retrieve every student's old platform history to teach this week.

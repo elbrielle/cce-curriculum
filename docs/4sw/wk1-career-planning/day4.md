@@ -5,7 +5,7 @@
 - **Topic:** Extended Learning
 - **Objective:** Students will compare current Irving ISD pathway options and explain one benefit of CTSO participation.
 - **TEKS:** d(3)(F), d(8)(A)
-- **Demonstration of Learning:** Pathway and CTSO Decision sheet.
+- **Demonstration of Learning:** Private Pathway and CTSO Decision.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,12 +14,12 @@
 | **Time** | 50 minutes |
 | **Objective** | Compare current Irving ISD pathway options and explain one benefit of CTSO participation |
 | **TEKS** | d(3)(F), d(8)(A) |
-| **Deliverable** | Pathway and CTSO Decision sheet |
+| **Deliverable** | Private Pathway and CTSO Decision |
 | **Materials** | Current Irving ISD High School CTE hub, 2026-27 course descriptions, TEA CTSO list |
 
 ## Before Class
 
-Open the current district and TEA links. Verify any campus or local chapter claim before presenting it as fact. The teacher model should show how to write “not yet confirmed” when a detail is missing.
+Open the private, ungraded Canvas Assignment and current district and TEA links. Verify any campus or local chapter claim before presenting it as fact. The teacher model should show how to write “not yet confirmed” when a detail is missing. Keep the four-page packet as the paper, enlarged, and independent route; do not print both routes for every student.
 
 ## Warm-Up (5 min)
 
@@ -35,7 +35,7 @@ Model the route from the Irving ISD High School CTE hub to current program infor
 
 ## Activity 2: Compare Three Options (18 min)
 
-Students use the Pathway and CTSO Decision sheet to record three current options. For each, they capture:
+Students use the private Canvas response or Pathway and CTSO Decision sheet to record three current options. Students with documented reduced quantity may compare two while keeping every evidence field. For each, they capture:
 
 - exact pathway or program name;
 - campus or district location when verified;
@@ -51,13 +51,15 @@ Use the TEA list to explain that CTSOs support leadership, technical practice, c
 
 Do not state that a chapter exists on a campus unless the district or campus confirms it. “I would ask whether this chapter is available” is an acceptable conclusion.
 
+Students submit the structured response privately as typed text, a file, or approved audio. The practice is ungraded.
+
 ## Exit Ticket (5 min)
 
 **Name your current first-choice pathway, one verified fact that supports it, and one question you still need answered. How could a CTSO help you prepare?**
 
 ## Supports and Fallbacks
 
-- **Absent:** Follow the same linked source route and complete the comparison independently.
+- **Absent:** Follow the same linked source route and complete the private Assignment or paper route independently.
 - **District site unavailable:** Use the dated teacher-captured pathway cards and verify again later.
 - **Support:** Compare two pathways instead of three while keeping all evidence fields.
 - **Extension:** Locate the exact prerequisite or application step for one course or program.

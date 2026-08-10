@@ -5,7 +5,7 @@
 - **Topic:** Career Assessment
 - **Objective:** Students will explain the visible and hidden work behind one career and name a current direction.
 - **TEKS:** d(1)(A), d(8)(A)
-- **Demonstration of Learning:** Career Iceberg and Goal sheet or Canvas annotation.
+- **Demonstration of Learning:** Career Iceberg and Goal in the FYF workbook, support packet, or Canvas annotation.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,12 +14,12 @@
 | **Time** | 50 minutes |
 | **Objective** | Explain the visible and hidden work behind one career and name a current direction |
 | **TEKS** | d(1)(A), d(8)(A) |
-| **Deliverable** | Career Iceberg and Goal sheet or Canvas annotation |
+| **Deliverable** | Career Iceberg and Goal in the FYF workbook, support packet, or Canvas annotation |
 | **Materials** | FYF Career Iceberg excerpt, iceberg sheet, colored pencils optional |
 
 ## Before Class
 
-Open the annotation assignment and verify that students can also download the PDF. Keep printed copies ready. Art quality is not scored.
+Ask students to bring their FYF workbook. Open the annotation assignment and enlarged packet as alternate routes. Do not print the packet for every student or ask a student to complete both the workbook and packet. Art quality is not scored.
 
 ## Warm-Up (5 min)
 
@@ -27,22 +27,22 @@ Open the annotation assignment and verify that students can also download the PD
 
 ## Activity 1: Read the Model (10 min)
 
-Use the FYF Career Iceberg model. Above the waterline belongs to what an observer can see: the role, a product, a uniform, or a result. Below the waterline belongs to skills, tools, practice, training, decisions, challenges, and support.
+Use FYF pp. 6-7. Above the waterline belongs to what an observer can see: the role, a product, a uniform, or a result. Below the waterline belongs to skills, tools, practice, training, decisions, challenges, and support.
 
 Model one item in each underwater category. Do not fill the student's career for them.
 
 ## Activity 2: Build a Personal Iceberg (18 min)
 
-Students select one current career idea and add:
+Students use FYF p. 8 and select one current career idea. They add:
 
 - at least three visible items above the waterline; and
 - at least eight specific hidden items below it, including skill, tool, training, responsibility, challenge, and support.
 
-Canvas annotation, typed labels, drawing, and paper are equal routes. The student must be able to read every label at normal viewing size.
+Students label the hidden items as skills, tools or technology, education or training, and responsibilities or challenges. Canvas annotation, the enlarged packet, typed labels, and audio description are equal replacement routes when the workbook is unavailable. The student must be able to read every label at normal viewing size.
 
 ## Activity 3: Turn the Iceberg into a Goal (12 min)
 
-Students complete the goal section:
+Students complete FYF pp. 283-284:
 
 1. current career direction;
 2. two reasons connected to Day 1 evidence;
@@ -58,6 +58,6 @@ The goal is a working direction, not a promise.
 ## Supports and Fallbacks
 
 - **Absent:** Use the embedded model and complete the same iceberg independently.
-- **Canvas annotation unavailable:** Download/upload, type a labeled list, submit audio/video, or use paper.
+- **Workbook unavailable:** Use the enlarged packet, Canvas annotation, typed labeled list, or audio response.
 - **Support:** Use the labeled underwater zones and vocabulary bank.
 - **Extension:** Add a second career and compare one hidden requirement.

@@ -62,6 +62,10 @@ One CTSO, club, project, or experience that could help me test this choice:
 
 [[lines: 3]]
 
+Backup direction if my first choice does not fit:
+
+[[lines: 2]]
+
 ## 4. Evidence and trade-off
 
 Best evidence that this career and pathway fit me:
@@ -76,7 +80,7 @@ One real trade-off or uncertainty:
 
 ## 5. My next action
 
-Within the next month, I will:
+Within the next six weeks, I will:
 
 [[lines: 2]]
 

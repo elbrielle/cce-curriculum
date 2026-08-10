@@ -19,7 +19,7 @@
 
 ## Before Class
 
-Test the sources and prepare one dated model. Xello may supply localized information; BLS supplies national occupation information. Do not mix a local range with a national median without labeling both.
+Ask students to bring their FYF workbook. Test the sources and prepare one dated model. Start with the district-licensed FYF, H&L, or Xello evidence students are using. Use BLS as a national cross-check. Do not mix a local range with a national median without labeling both.
 
 ## Warm-Up (5 min)
 
@@ -40,7 +40,9 @@ Say explicitly: median is not starting pay, national is not DFW, and a posted sa
 
 ## Activity 2: Complete the Deep Dive (25 min)
 
-Students research the career from Day 2. They may use a current Xello profile, BLS, an official training provider, or the teacher's fixed evidence cards. H&L may supplement the evidence but is not required.
+Students research the career from Day 2 on FYF pp. 285-286. They may use a current H&L or Xello profile, BLS, an official training provider, or the teacher's fixed evidence cards. The enlarged CCE Deep Dive replaces the workbook only when the workbook is unavailable or the scaffold is needed.
+
+The workbook asks for pay and outlook but does not provide enough space for every source label. Students write source, date, place, and measure beside the pay field or in a notebook. They write the outlook years beside the outlook field.
 
 Monitoring priorities:
 
@@ -58,6 +60,6 @@ Students use the checklist on the Deep Dive to circle one strong source label an
 
 ## Supports and Fallbacks
 
-- **Absent or web blocked:** Use the dated career card in Canvas.
+- **Absent, workbook unavailable, or web blocked:** Use the enlarged guide and dated career card in Canvas.
 - **Support:** Research one source at a time and use the labeled fields.
 - **Extension:** Compare the same statistic from two sources and explain why the figures differ.

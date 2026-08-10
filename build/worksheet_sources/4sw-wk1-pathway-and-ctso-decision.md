@@ -25,6 +25,8 @@ Singley Academy is application-based. Other travel, transfer, or center arrangem
 
 ## 1. Research three possible pathways
 
+Use short phrases in the table. You will explain and compare on the next pages.
+
 | Rank | Exact pathway name | Campus or center | One course, feature, or requirement | Evidence that it fits my goal |
 |---:|---|---|---|---|
 | 1 |  |  |  |  |
@@ -34,6 +36,8 @@ Singley Academy is application-based. Other travel, transfer, or center arrangem
 [[pagebreak]]
 
 ## 2. Compare the top two
+
+Use short phrases in the table. Use the full-width lines for your decision and question.
 
 | Decision factor | Pathway 1 | Pathway 2 |
 |---|---|---|

@@ -3,16 +3,16 @@ title: Mid-Year Career Blueprint Rubric
 slug: 4sw-wk1-midyear-blueprint-rubric
 kind: rubric
 weeks: 4sw/wk1-career-planning
-audience: teacher
+audience: student
 variant_of:
 language: en
 pages: 2
 orientation: landscape
 ---
 
-## Recommended major evidence packet: 16 points
+## Mid-Year Career Blueprint: 16 points
 
-Score the profile audit, career iceberg or goal, career deep dive, pathway decision, and Mid-Year Career Blueprint together. Platform access, artistic quality, public speaking, and whether the student's choice changed do not determine the score.
+Your teacher scores the three-page Blueprint. Days 1-4 help you build it; you do not submit five files. Platform access, art, public speaking, and whether your choice changed do not determine the score.
 
 | Criterion | Masters - 4 | Meets - 3 | Approaches - 2 | Needs Improvement - 1 | No evidence - 0 |
 |---|---|---|---|---|---|
@@ -43,12 +43,7 @@ Score the profile audit, career iceberg or goal, career deep dive, pathway decis
 | 10-11 | 60-69 | Needs Improvement |
 | 0-9 | Below 60 | Follow campus or district policy |
 
-## Scoring boundaries
+## What does not lower the score
 
-- Score the evidence chain and decision quality, not whether the student keeps the same career goal.
-- H&L, Xello, workbook, prior class artifacts, and teacher-provided records are valid inputs when the student identifies the source.
-- Do not require a screenshot of private profile results.
-- National medians are not local or starting pay. A missing source label lowers Career evidence.
-- Local chapter, transportation, admission, and course availability must be phrased as current evidence or a question, not a promise.
-- English mechanics do not lower the score unless meaning cannot be understood.
-- Students may revise according to the teacher's normal major-assignment practice.
+- Your career choice, platform, art, speaking route, and English mechanics do not lower the score unless meaning cannot be understood.
+- Use source labels and phrase an unconfirmed local detail as a question. Do not submit private profile screenshots.
