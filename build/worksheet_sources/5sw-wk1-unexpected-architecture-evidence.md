@@ -6,7 +6,7 @@ weeks: 5sw/wk1-architecture
 audience: student
 variant_of:
 language: en
-pages: 4
+pages: 2
 orientation: landscape
 ---
 
@@ -22,39 +22,25 @@ Two city goals selected from the licensed brief:
 
 My individual contribution:
 
-[[lines: 4]]
+[[lines: 2]]
 
 One design decision and the city-goal evidence behind it:
 
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Front Concept
-
-Label the important shape, entrance, user feature, and city-goal connection.
-
-[[box: 4.9]]
-
-Labels/material ideas and their purpose:
-
 [[lines: 3]]
 
-[[pagebreak]]
-
-## Side Concept
-
-Show how the building works from a second view and keep labels consistent.
-
-[[box: 4.9]]
+The firm creates one shared front-and-side concept in FYF pp. 183-184, on one team sheet, or in one designated private Canvas submission. Do not redraw the team concept here.
 
 One limitation or question the firm would investigate next:
 
-[[lines: 3]]
+[[lines: 2]]
 
 [[pagebreak]]
 
 ## Cluster Synthesis
+
+**Word bank:** architect · drafter · interior designer · construction manager · engineer · client · city goal · work product
+
+**Use this frame:** We chose **[goal]**. The **[worker]** contributes **[work]**, while the **[worker]** contributes **[work]**. Together, these roles **[result]**.
 
 Describe what three different workers would contribute at different points.
 
@@ -66,12 +52,12 @@ Describe what three different workers would contribute at different points.
 
 One preparation fact from Day 2:
 
-[[lines: 3]]
+[[lines: 2]]
 
 One salary fact with occupation, May 2024, U.S., median, and BLS:
 
-[[lines: 3]]
+[[lines: 2]]
 
 How the roles work together to meet a city goal:
 
-[[lines: 5]]
+[[lines: 3]]

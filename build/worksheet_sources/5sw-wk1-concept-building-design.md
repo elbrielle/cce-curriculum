@@ -47,11 +47,11 @@ Label the exterior walls, entrance, windows, roof direction if relevant, and pur
 
 Show and label the entrance, at least two windows, roof, and purposeful feature.
 
-[[box: 4.2]]
+[[box: 5.0]]
 
 One choice that helps the fictional user:
 
-[[lines: 2]]
+[[lines: 1]]
 
 [[pagebreak]]
 

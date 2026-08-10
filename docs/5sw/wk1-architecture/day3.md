@@ -3,25 +3,24 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Opportunities
-- **Objective:** Students will create a two-view concept sketch and begin a model using five spatial-design operations.
-- **TEKS:** d(1)(C) reinforcement
-- **Demonstration of Learning:** Two-view sketch + first model checkpoint + career-role exit.
+- **Objective:** Students will identify how an Architecture & Construction worker uses top and front views and create a two-view concept with five spatial-design operations.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Two-view concept, first design checkpoint, and career-role work-product explanation.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Target** | Create a two-view concept sketch and begin a model using five spatial-design operations. |
-| **TEKS** | d(1)(C) reinforcement |
-| **Evidence** | Two-view sketch + first model checkpoint + career-role exit |
+| **Target** | Identify how an Architecture & Construction worker uses top and front views and create a two-view concept with five spatial-design operations. |
+| **TEKS** | d(1)(C) |
+| **Evidence** | Two-view concept, first design checkpoint, and career-role work-product explanation |
 
 ## Before Class
 
-- Confirm district approval and create a teacher-managed Tinkercad Classroom with Safe Mode on.
-- Test the class-code/nickname join route, WebGL, saving, starter model, and concurrent Chromebook use.
-- Put the class code, current screenshots, command card, starter model, and private Canvas submission link on the student page.
-- Prepare the equal paper route. It uses the same two-view sketch, constraints, revision, and career explanation.
+- Open the four-page concept packet and private Canvas annotation route. These are the always-ready path.
+- If using the optional Tinkercad extension, confirm district approval, create a teacher-managed Classroom with Safe Mode on, and test the class-code/nickname route, WebGL, saving, and concurrent Chromebook use.
+- Put any live class code and current screenshots in the teacher's local course copy. The master course does not contain a reusable class code.
 
 Tinkercad introduces spatial modeling and iterative design. It is not the same as professional Revit/AutoCAD documentation, code review, or structural analysis.
 
@@ -31,9 +30,9 @@ Tinkercad introduces spatial modeling and iterative design. It is not the same a
 
 The fictional client needs a small community learning space with four exterior walls, a roof, one entrance, two windows, and one purposeful feature. This is a concept/massing model, not a construction-ready design.
 
-### 2. Join the Classroom — 5 minutes
+### 2. Choose the build surface - 5 minutes
 
-Students use the teacher-provided class code and nickname. Do not improvise individual Google/Autodesk account creation. Students who cannot join begin the paper route immediately.
+Students open Canvas annotation or paper. If the teacher has opened a tested Tinkercad Classroom, students may join by class code and nickname. Do not improvise individual Google or Autodesk account creation.
 
 ### 3. Guided five-skill build — 15 minutes
 
@@ -48,7 +47,7 @@ Students complete:
 - labels for use, entrance, windows, roof, and one feature;
 - one sentence explaining who uses the space and why one design choice helps.
 
-Then students begin the model. The Day 3 checkpoint is a saved concept with the main footprint and exterior walls, or the equivalent complete paper base.
+Then students begin the concept. The Day 3 checkpoint is a complete top and front view, or, when Tinkercad is enabled, a saved model with the main footprint and exterior walls.
 
 ### 5. Exit — 5 minutes
 
@@ -56,4 +55,4 @@ Name one Architecture & Construction worker who would use or interpret a more ad
 
 ## Supports and Absence Route
 
-The paper route is not a lesser assignment. Students may use ruler/grid paper, enlarged print, keyboard entry, speech-to-text, or a teacher-provided starter. Tool speed and artistic polish are not graded.
+Canvas annotation and paper are complete routes. Students may use ruler/grid paper, enlarged print, keyboard entry, speech-to-text, or a teacher-provided starter. Tool speed and artistic polish are not graded.

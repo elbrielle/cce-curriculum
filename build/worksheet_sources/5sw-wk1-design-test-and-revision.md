@@ -6,7 +6,7 @@ weeks: 5sw/wk1-architecture
 audience: student
 variant_of:
 language: en
-pages: 4
+pages: 3
 orientation: portrait
 ---
 
@@ -28,29 +28,31 @@ My priority today is:
 
 ## Test One Choice
 
+**Word bank:** original choice · evidence noticed · revision · expected improvement
+
+**Use this frame:** I noticed **[evidence]**. I changed **[original choice]** to **[revision]** because **[reason]**.
+
 The choice I tested:
 
-[[lines: 3]]
+[[lines: 2]]
 
 How I tested it against the client/user need:
 
-[[lines: 5]]
+[[lines: 3]]
 
 Evidence I observed:
 
-[[lines: 5]]
-
-[[pagebreak]]
+[[lines: 3]]
 
 ## Revise from the Evidence
 
 My revision:
 
-[[lines: 5]]
+[[lines: 3]]
 
 Why the revision should help:
 
-[[lines: 5]]
+[[lines: 3]]
 
 [[pagebreak]]
 
@@ -60,14 +62,6 @@ Why the revision should help:
 - [ ] Paper concept submitted or privately photographed
 - [ ] Test evidence and revision are complete
 
-One worker who would contribute after this concept stage:
+**Use this frame:** Next, a **[worker]** would use this evidence to **[work product or decision]**. This concept does not prove **[limit]**.
 
-[[lines: 2]]
-
-What the worker would examine or produce:
-
-[[lines: 5]]
-
-One limit of my concept model:
-
-[[lines: 5]]
+[[lines: 7]]

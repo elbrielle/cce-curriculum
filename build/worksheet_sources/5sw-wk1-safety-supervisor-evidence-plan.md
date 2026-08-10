@@ -6,7 +6,7 @@ weeks: 5sw/wk1-architecture
 audience: student
 variant_of:
 language: en
-pages: 4
+pages: 3
 orientation: portrait
 ---
 
@@ -34,25 +34,17 @@ Do not invent technical settings or procedures. Mark anything that requires a qu
 
 For each rule, cite one scenario detail or evidence category.
 
-1. Rule: ________________________________________________
+**Word bank:** hazard · control · evidence · boundary · qualified professional
 
-   Evidence: _____________________________________________
+**Use this frame for each row:** The scenario shows **[hazard or condition]**. Our rule is **[action or boundary]** because **[evidence]**.
 
-2. Rule: ________________________________________________
-
-   Evidence: _____________________________________________
-
-3. Rule: ________________________________________________
-
-   Evidence: _____________________________________________
-
-4. Rule: ________________________________________________
-
-   Evidence: _____________________________________________
-
-5. Rule: ________________________________________________
-
-   Evidence: _____________________________________________
+| Rule | Scenario evidence and why the rule matters |
+|---|---|
+| 1. |  |
+| 2. |  |
+| 3. |  |
+| 4. |  |
+| 5. |  |
 
 ## Essential People or Equipment Categories
 
@@ -69,9 +61,7 @@ For each rule, cite one scenario detail or evidence category.
 
 Label the work zone, entry/exit route, surface support, safe zone, and neutral emergency-equipment location. Use arrows to show movement.
 
-[[box: 7.0]]
-
-[[pagebreak]]
+[[box: 4.7]]
 
 ## Evidence Check and Career Connection
 
@@ -80,14 +70,6 @@ Label the work zone, entry/exit route, surface support, safe zone, and neutral e
 - [ ] I marked at least one decision that requires a qualified professional.
 - [ ] I did not present this as real operating guidance.
 
-The decision that requires a qualified professional is:
+Below the map, write: **A qualified professional would still need to [decision or review] because [boundary].** Then name one Architecture & Construction worker, what that person contributes, and one role that uses the work next.
 
-[[lines: 3]]
-
-One Architecture & Construction career connected to this scenario is:
-
-[[lines: 2]]
-
-What that worker would actually contribute, and how the role connects to another worker:
-
-[[lines: 6]]
+[[lines: 5]]

@@ -5,7 +5,7 @@
 - **Topic:** Career Preparation
 - **Objective:** Students will compare three careers using consistent preparation and salary evidence.
 - **TEKS:** d(2)(A), d(5)(E)
-- **Demonstration of Learning:** Three-career comparison + recommendation.
+- **Demonstration of Learning:** Minor 1 three-career comparison with complete source labels, preparation boundaries, recommendation, and limitation.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,7 +14,7 @@
 | **Time** | 50 minutes |
 | **Target** | Compare three careers using consistent preparation and salary evidence. |
 | **TEKS** | d(2)(A), d(5)(E) |
-| **Evidence** | Three-career comparison + recommendation |
+| **Evidence** | Minor 1 three-career comparison with complete source labels, preparation boundaries, recommendation, and limitation |
 
 ## Before Class
 
@@ -60,4 +60,4 @@ Compare the salaries of all three careers from highest to lowest, then explain w
 
 ## Supports and Absence Route
 
-The evidence guide replaces live searching. Use one card at a time, bilingual labels, read-aloud, or speech-to-text. The comparison reserves two lines for each preparation field and at least five lines for the final recommendation.
+The evidence cards in Canvas replace live searching. Use one card at a time, bilingual labels, read-aloud, or speech-to-text. The four-page PDF is the annotation, enlarged, paper, or no-device route; students do not complete both surfaces.

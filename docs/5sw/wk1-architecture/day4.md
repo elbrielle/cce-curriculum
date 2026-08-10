@@ -3,22 +3,22 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Opportunities
-- **Objective:** Students will complete a concept model, test it against the brief, and document one evidence-based revision.
-- **TEKS:** d(1)(C) reinforcement
-- **Demonstration of Learning:** Submitted design + revision record + career-role explanation.
+- **Objective:** Students will test a concept against the brief, document one evidence-based revision, and explain which Architecture & Construction worker uses the evidence next.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Private design submission, revision record, and next-worker work-product explanation.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Target** | Complete a concept model, test it against the brief, and document one evidence-based revision. |
-| **TEKS** | d(1)(C) reinforcement |
-| **Evidence** | Submitted design + revision record + career-role explanation |
+| **Target** | Test a concept against the brief, document one evidence-based revision, and explain which Architecture & Construction worker uses the evidence next. |
+| **TEKS** | d(1)(C) |
+| **Evidence** | Private design submission, revision record, and next-worker work-product explanation |
 
 ## Before Class
 
-Open the teacher-managed Tinkercad Classroom, starter model, current export directions, private Canvas Assignment, and paper route. Test the exact student export/upload path. Canvas ownership should identify the student; do not require a full-name public filename.
+Open the private Canvas Assignment and the three-page revision record. If using the optional Tinkercad extension, open the tested Classroom and current export directions. Canvas ownership should identify the student; do not require a full-name public filename.
 
 ## 50-Minute Flow
 
@@ -57,4 +57,4 @@ Name one worker who would contribute after this concept stage, what that worker 
 
 ## Absence and Platform Route
 
-Students use the two-view packet, requirement checklist, and revision record. No partner, live demonstration, or personal account is required.
+Students use the two-view concept, requirement checklist, and revision record. No partner, live demonstration, or personal account is required.

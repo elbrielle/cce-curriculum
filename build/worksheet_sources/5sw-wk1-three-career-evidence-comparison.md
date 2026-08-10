@@ -7,7 +7,7 @@ audience: student
 variant_of:
 language: en
 pages: 4
-orientation: portrait
+orientation: landscape
 ---
 
 ## Read the Labels
@@ -26,15 +26,29 @@ Sources accessed August 2026: BLS Occupational Outlook Handbook profiles for Arc
 
 ## Compare the Work and Preparation
 
-| Career | One daily work product | Education/preparation evidence | Experience, exam, registration, or other boundary |
-|---|---|---|---|
-| Architect |  |  |  |
-| Drafter |  |  |  |
-| Interior Designer |  |  |  |
+For each career, record one work product, the common preparation, and one boundary. Use short phrases, but keep the meaning accurate.
+
+**Architect**
+
+Work product: ____________________ Preparation: ____________________ Boundary: ____________________
+
+Why the boundary matters: [[lines: 2]]
+
+**Drafter**
+
+Work product: ____________________ Preparation: ____________________ Boundary: ____________________
+
+Why the boundary matters: [[lines: 2]]
+
+**Interior Designer**
+
+Work product: ____________________ Preparation: ____________________ Boundary: ____________________
+
+Why the boundary matters: [[lines: 2]]
 
 One preparation difference that matters to me:
 
-[[lines: 5]]
+[[lines: 3]]
 
 [[pagebreak]]
 
@@ -64,20 +78,22 @@ Optional Xello local cross-check: occupation __________ geography __________ mea
 
 Fictional Jordan values design and wants to compare the amount/type of preparation before choosing a career to investigate further.
 
+**Frame:** I recommend **[career]**. Salary evidence: **[figure and full label]**. Preparation evidence: **[fact]**. This matters because **[reason]**. One limitation is **[question]**.
+
 My recommendation: _______________________________________
 
 Salary evidence with complete label:
 
-[[lines: 3]]
+[[lines: 1]]
 
 Preparation evidence:
 
-[[lines: 4]]
+[[lines: 2]]
 
 Why these two pieces of evidence support the recommendation:
 
-[[lines: 7]]
+[[lines: 3]]
 
 One limitation or question Jordan should investigate next:
 
-[[lines: 4]]
+[[lines: 2]]
