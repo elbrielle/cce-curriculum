@@ -2,7 +2,7 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
+- **Topic:** Response Communication
 - **Objective:** Students will describe SAR/WFR responsibilities and demonstrate safe communication, consent, observation, and documentation in a career simulation.
 - **TEKS:** d(1)(C)
 - **Demonstration of Learning:** Injured on the Trail Simulation Record.

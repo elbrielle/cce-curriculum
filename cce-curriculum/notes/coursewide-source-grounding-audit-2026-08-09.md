@@ -15,9 +15,9 @@ This static pass proves whether the authored Canvas source visibly contains the 
 - 50-minute flow visible: **180/180**
 - Before-class preparation visible: **180/180**
 - Monitoring/key guidance visible: **150/180**
-- Concrete language/reading/participation support detected: **170/180**
+- Concrete language/reading/participation support detected: **171/180**
 - Absence/platform recovery route detected: **180/180**
-- Student start/done contract detected: **162/180**
+- Student start/done contract detected: **167/180**
 - Teacher guide explicitly labels **Topic**: **180/180**
 - Teacher guide explicitly labels **Objective**: **180/180**
 - Teacher guide explicitly labels **Demonstration of Learning / DOL**: **180/180**
@@ -45,6 +45,10 @@ Separate decks are intentionally optional. A lesson passes when the teacher guid
 ### Repaired - Supplemental eDynamic content no longer blocks a core lesson
 
 The stale 2SW Wk1 Day 5 `Unit 5.1` verification marker and unverified preview were removed from the core route. eDynamic remains available as supplemental content only when a teacher has verified the exact unit and instructional job; the required Xello Life experiences task and durable legal-career evidence now own the class period.
+
+### Repaired - 2SW Wk2 military/civilian route comparison and evidence delivery
+
+The first-responder route packet now supplies the military-versus-civilian law-enforcement comparison required by the scope and sequence. It uses bounded route language, keeps current BLS and Army COOL facts labeled as cross-checks, preserves workbook/platform HQIM as the student-facing starting point, and provides enough response space for three career comparisons plus a route judgment. Six portrait Climber evidence pages are delivered as upright Canvas-only derivatives with deferred loading; the original licensed assets remain outside Git.
 
 ### P1 - Artifact layout needs visual, not textual, acceptance
 
@@ -123,11 +127,11 @@ Unresolved `[VERIFY]`/`[TODO]`/`[TBD]` markers detected on **0 day(s)**. Days wi
 | 2SW Wk1 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
 | 2SW Wk1 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring, TVB | FYF, Xello, H&L, BLS / current primary source |  |
 | 2SW Wk1 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
-| 2SW Wk2 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
-| 2SW Wk2 | 2 | Yes | Yes | Yes | Yes | Yes | NO | Yes | NO | Active Monitoring | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
-| 2SW Wk2 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Active Monitoring | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
-| 2SW Wk2 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
-| 2SW Wk2 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 2SW Wk2 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 2SW Wk2 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
+| 2SW Wk2 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
+| 2SW Wk2 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 2SW Wk2 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
 | 2SW Wk3 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Think-Pair-Share / Turn and Talk, Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
 | 2SW Wk3 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Active Monitoring | Xello, H&L, BLS / current primary source |  |
 | 2SW Wk3 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Active Monitoring | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |

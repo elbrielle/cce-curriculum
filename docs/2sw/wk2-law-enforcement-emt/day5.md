@@ -2,7 +2,7 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
+- **Topic:** Career Integrity
 - **Objective:** Students will complete the career comparison, synthesize week evidence, and explain how accurate reporting protects people.
 - **TEKS:** d(1)(C), d(2)(A), d(4)(F)
 - **Demonstration of Learning:** First Responder Career and Integrity Reflection plus completed route guide.

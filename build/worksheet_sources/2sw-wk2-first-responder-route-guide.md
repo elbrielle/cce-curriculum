@@ -6,7 +6,7 @@ weeks: 2sw/wk2-law-enforcement-emt
 audience: student
 variant_of:
 language: en
-pages: 2
+pages: 4
 orientation: portrait
 ---
 
@@ -22,19 +22,81 @@ The pay figures below are **U.S. median annual wages from May 2024**. A median i
 | Emergency medical technician (EMT) | Assess patients, provide emergency care, transport safely, and document observations and care | Postsecondary EMT program; all states require licensure and requirements vary | **$41,340** |
 | Public safety telecommunicator | Answer emergency calls, collect location/details, dispatch responders, and track units | High school diploma is typical, followed by agency training; certification rules vary by state/locality | **$50,730** |
 
-**Sources checked August 6, 2026:** U.S. Bureau of Labor Statistics, Occupational Outlook Handbook pages for Police and Detectives, Firefighters, EMTs and Paramedics, and Public Safety Telecommunicators. The Singley Academy page currently lists **Law Enforcement** and **Emergency Medical - EMT** pathways.
+**Sources checked August 9, 2026:** U.S. Bureau of Labor Statistics, Occupational Outlook Handbook pages for Police and Detectives, Firefighters, EMTs and Paramedics, and Public Safety Telecommunicators. The Singley Academy page currently lists **Law Enforcement** and **Emergency Medical - EMT** pathways.
 
 [[pagebreak]]
 
-## Compare Three Routes
+## Compare Three Careers
 
 Choose three careers from the guide.
 
-| Career | One daily task | Training or credential step | What the median does and does not tell you |
-|---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
+### Career 1: ______________________________
+
+One daily task:
+
+[[lines: 1]]
+
+One preparation, training, or credential step:
+
+[[lines: 1]]
+
+What the median does and does not tell you:
+
+[[lines: 1]]
+
+### Career 2: ______________________________
+
+One daily task:
+
+[[lines: 1]]
+
+One preparation, training, or credential step:
+
+[[lines: 1]]
+
+What the median does and does not tell you:
+
+[[lines: 1]]
+
+### Career 3: ______________________________
+
+One daily task:
+
+[[lines: 1]]
+
+One preparation, training, or credential step:
+
+[[lines: 1]]
+
+What the median does and does not tell you:
+
+[[lines: 1]]
+
+[[pagebreak]]
+
+## Compare Civilian and Military Route Systems
+
+**Civilian law-enforcement route:** Requirements vary by agency and locality. A route may include education, an agency selection process, an academy, and on-the-job training.
+
+**Military law-enforcement route:** A service member enlists and completes the branch's initial and job-specific training. Military experience may build related skills and credentials. Army COOL is one official program that helps soldiers identify and pursue credentials.
+
+**Transfer boundary:** Military training or experience does not automatically replace every civilian agency requirement, academy, state license, or certification. Verify the exact civilian requirement before assuming that it transfers.
+
+**One similarity between the route systems:**
+
+[[lines: 2]]
+
+**One difference between the route systems:**
+
+[[lines: 2]]
+
+**One civilian requirement or credential you would verify before assuming transfer:**
+
+[[lines: 2]]
+
+[[pagebreak]]
+
+## Connect the Cluster and District Routes
 
 **1. Which route could a student investigate at Singley Academy?** Name the current pathway and career connection.
 
@@ -48,4 +110,10 @@ Choose three careers from the guide.
 
 [[lines: 4]]
 
+**4. Describe the Law, Public Safety, Corrections and Security cluster.** Use at least two careers from the guide and explain what responsibility connects their work.
+
+[[lines: 4]]
+
 Optional local check: Xello career ____________________ · geography shown ____________________ · figure/range ____________________ · date checked ____________________
+
+**Sources checked August 9, 2026:** U.S. Bureau of Labor Statistics, *Police and Detectives*; U.S. Army, *Army COOL: Certifications and Credentials*. Requirements vary by agency, locality, service branch, occupation, and credential.

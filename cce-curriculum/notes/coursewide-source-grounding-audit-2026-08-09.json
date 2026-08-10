@@ -1506,7 +1506,7 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
       "Active Monitoring"
     ],
@@ -1544,9 +1544,9 @@
     "fifty_minute_flow": true,
     "before_class_prep": true,
     "answer_key_or_monitoring": true,
-    "concrete_eb_support": false,
+    "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
       "Active Monitoring"
     ],
@@ -1589,7 +1589,7 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
       "Active Monitoring"
     ],
@@ -1631,7 +1631,7 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
       "Active Monitoring"
     ],
@@ -1671,7 +1671,7 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
       "Active Monitoring"
     ],
