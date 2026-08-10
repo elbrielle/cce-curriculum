@@ -2,7 +2,7 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Entrepreneurship
+- **Topic:** Personal Budget
 - **Objective:** Students will revise a personal budget so expenses do not exceed income, distinguish business revenue from personal income, and complete the required Xello Scholarship profile.
 - **TEKS:** d(3)(I), d(5)(D)
 - **Demonstration of Learning:** Personal Budget and Xello Scholarship Plan plus Xello Completion Standards report.
@@ -17,7 +17,7 @@
 
 ## Before class
 
-- Post the Dallas County Living-Cost Planning Guide and Personal Budget and Xello Scholarship Plan.
+- Post the Dallas County Living-Cost Planning Guide and Personal Budget and Xello Scholarship Plan. Print budget pp. 1-2. Print p. 3 only for the no-device Xello direction or catch-up route.
 - Open the official Xello Scholarships Guide and 2:02 student video.
 - Check the Xello Completion Standards report before class.
 - Keep Xello personal profile answers private. Do not require screenshots.
@@ -58,7 +58,7 @@ Students do not have to apply for or save a scholarship today. The teacher verif
 
 ### 4. Close and submit — 5 minutes
 
-Students submit the portfolio or mark the paper packet complete. Prompt: “How can a scholarship change a future budget without becoming guaranteed income?”
+Students submit the budget as directed. Open the private recovery portfolio only when the teacher has assigned it to replace missing major evidence; it is not a third automatic Major. Prompt: “How can a scholarship change a future budget without becoming guaranteed income?”
 
 ## Monitoring and key
 

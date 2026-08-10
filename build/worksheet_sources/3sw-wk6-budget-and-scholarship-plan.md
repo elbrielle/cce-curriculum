@@ -6,7 +6,7 @@ weeks: 3sw/wk6-entrepreneurship
 audience: student
 variant_of:
 language: en
-pages: 4
+pages: 3
 orientation: portrait
 ---
 
@@ -31,19 +31,15 @@ Source labels: Dallas County · one adult/no children · updated February 15, 20
 
 My total is **below / equal to / above** the available income.
 
-[[pagebreak]]
-
 ## Part 2: Make one lifestyle choice
 
 Choose one realistic change. You may reduce a category, share housing, use a different transportation plan, add income, or delay a want. Do not erase the first budget.
 
-My change and amount:
+My change and amount: ______________________________________________________
 
-[[lines: 2]]
+Why this change fits the lifestyle I want: _________________________________
 
-Why this change fits the lifestyle I want:
-
-[[lines: 3]]
+[[pagebreak]]
 
 ## Part 3: Build the revised budget
 
@@ -60,8 +56,6 @@ Why this change fits the lifestyle I want:
 | **Total expenses** | **$** |  |
 | **Money left: $3,450 - total expenses** | **$** |  |
 
-[[pagebreak]]
-
 ### Explain the plan
 
 Which two categories take the most money, and what percentage of the $3,450 income do they use together?
@@ -76,7 +70,7 @@ What would change if this household included a child, debt payment, or different
 
 How could an entrepreneur use this budget without confusing revenue with personal income?
 
-[[lines: 3]]
+[[lines: 2]]
 
 [[pagebreak]]
 
@@ -94,19 +88,7 @@ The Grade 8 completion standard is **Scholarship profile: 20 minutes; complete t
 
 Completion check: □ Complete today  □ Supervised catch-up needed
 
-## Private learning reflection
-
-Do not list sensitive profile answers. Explain why accurate information creates better matches.
-
-[[lines: 3]]
-
-Name one part of college cost that a scholarship could help cover:
-
-[[lines: 2]]
-
-How can a scholarship change a future budget without becoming guaranteed income?
-
-[[lines: 3]]
+Do not write private profile answers on this page. The teacher checks the Completion Standards report.
 
 ## Done when
 

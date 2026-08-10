@@ -43,7 +43,7 @@ Licensed workbook and Xello materials stay in the locked Canvas course. H&L rema
 
 The workbook jumps from Step 5 to Step 7 on p. 237. Nothing is missing.
 
-The workbook’s district pages are useful historical context, but the current Irving ISD High School CTE page controls program names. As of August 8, 2026, it lists Business Management at Cardwell, Business Management and Marketing at Irving and Nimitz, and Business, Retail Management and Entrepreneurship plus Real Estate at MacArthur. Do not promise a certification, placement, or course sequence from the workbook alone.
+FYF remains the student-facing district curriculum. The current Irving ISD High School CTE page is a dated teacher cross-check, not a replacement student answer key. As of August 10, 2026, it lists Business Management at Cardwell, Business Management and Marketing at Irving and Nimitz, and Business, Retail Management and Entrepreneurship plus Real Estate at MacArthur. If a public-page label differs from FYF or H&L, name the difference for the teacher and verify it locally; do not make students reconcile competing sources. Do not promise a certification, placement, or course sequence from either source alone.
 
 The Dallas County guide uses the MIT Living Wage Calculator’s one-adult/no-children scenario, updated February 15, 2026. It is a living-cost estimate, not a starting salary, guaranteed pay, or tax calculation. Students use the fixed scenario so the lesson measures budgeting rather than web-search speed.
 
@@ -68,11 +68,12 @@ The [3SW assessment map](../../resources/six-weeks-assessment-map.md) already pl
 ## Teacher setup
 
 1. Put the paired Teacher and Student pages in one chronological Canvas module.
-2. Post the six CCE PDFs. Print only for students using the paper route.
+2. Post the six CCE PDFs. FYF is the default on Days 2-3. Print the four-page support packet only as the no-workbook or enlarged-scaffold route, never in addition to the workbook.
 3. Open the licensed FYF pages and Xello Scholarship guide before class.
 4. Test the official Xello video on the student network; the embedded guide is the equal text route.
 5. Prepare a visible five-minute timer for the idea sprint and a 90-second timer for pitches.
-6. Decide whether pitches run whole-class or in two supervised rooms/stations. Use the written or recorded route for absence, anxiety, speech-language support, or scheduling problems.
+6. For Day 4, print Venture Brief pp. 1-2 once per team and pp. 3-4 once per student. Use the written or recorded route when the number of groups cannot fit, or for absence, anxiety, speech-language support, or scheduling problems.
+7. For Day 5, print Budget Plan pp. 1-2. Print p. 3 only for the no-device Xello directions or catch-up check.
 
 ## Accessibility and language support
 

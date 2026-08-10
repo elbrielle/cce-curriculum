@@ -17,9 +17,10 @@
 
 ## Before class
 
-- Post the Venture Brief and rubric.
+- Post the Venture Brief and recovery rubric.
+- Print Venture Brief pp. 1-2 once per team and pp. 3-4 once per student. The full four-page file is the digital and absence route; do not print four pages per student.
 - Set a 90-second pitch timer and a 30-second question/transition timer.
-- Count groups. Whole-class timing supports up to eight groups in 24 minutes. If there are more, use two supervised pitch stations or recorded submissions.
+- Count groups. Whole-class timing supports up to eight groups in 24 minutes. If there are more, use recorded, private, or written submissions; do not promise two supervised rooms when only one teacher is available.
 - Prepare a written or recorded route. Public speaking performance is not the grade.
 
 ## 50-minute flow

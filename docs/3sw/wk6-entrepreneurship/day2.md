@@ -17,7 +17,7 @@
 
 ## Before class
 
-- Post the two licensed workbook pages and support packet.
+- Post the two licensed workbook pages. Keep the support packet as a no-workbook or enlarged-scaffold route; do not assign both.
 - Put the five-minute countdown where every student can see it.
 - Keep the problem menu visible for students who need a starting point.
 
@@ -67,4 +67,4 @@ Common repair prompts:
 
 ## Support and absence route
 
-Students may use the eight-item problem menu and the support packet instead of the workbook. The packet gives 12 short idea lines and separate writing space for each screening job. Typing, handwriting, speech-to-text, or bilingual brainstorming are equal routes.
+Students may use the eight-item problem menu and the support packet instead of the workbook. They do not complete both. The packet gives 12 short idea lines and separate writing space for each screening job. Typing, handwriting, speech-to-text, or bilingual brainstorming are equal routes.
