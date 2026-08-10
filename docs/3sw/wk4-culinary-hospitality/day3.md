@@ -5,7 +5,7 @@
 - **Topic:** Career Opportunities
 - **Objective:** Students will identify career opportunities within one or more career clusters and define entrepreneurship and identify entrepreneurial opportunities in a field of personal interest using evidence from Career Opportunities.
 - **TEKS:** d(1)(C), d(3)(I)
-- **Demonstration of Learning:** Hotel Rescue Team and Individual Response.
+- **Demonstration of Learning:** FYF p. 118 Hotel Rescue team solution plus the two-page individual role and transfer response.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -15,8 +15,8 @@
 | **Objectives** | Use one hotel role to solve a service crisis; protect a non-negotiable requirement; coordinate at least three roles; transfer the response process to a small hospitality business |
 | **TEKS** | d(1)(C), d(3)(I) |
 | **5E Phases** | Engage, Explore, Explain, Evaluate |
-| **Deliverable** | Hotel Rescue Team and Individual Response |
-| **Materials** | FYF pp. 117-118, role and crisis cards, response packet, one shared writing surface per team |
+| **Deliverable** | FYF p. 118 team solution plus the two-page individual role and transfer response |
+| **Materials** | FYF pp. 117-118, projected or team-copy role and crisis cards, two-page individual response |
 
 ## Warm-Up (5 min)
 
@@ -36,7 +36,7 @@ Students complete the individual role page before group discussion. An absent st
 
 **Source:** (FYF pp. 117-118: "Hotel Rescue")
 
-Teams build one response in this order:
+Teams build one response on FYF p. 118 in this order:
 
 1. Verify confirmed facts and unanswered questions.
 2. Protect the safety, accessibility, reservation, or client requirement.

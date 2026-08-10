@@ -6,41 +6,15 @@ weeks: 3sw/wk4-culinary-hospitality
 audience: student
 variant_of:
 language: en
-pages: 3
+pages: 2
 orientation: portrait
 ---
 
-## Part 1: Build a motivation plan
+## Part 1: Compare the career evidence
 
-Use *Find Your Future* pp. 121-123. Design a professional baking competition that uses at least one **intrinsic** motivator and one **extrinsic** motivator.
+Complete the competition plan in *Find Your Future* p. 122. Use this companion only for the three-career comparison that is not in the workbook.
 
-Contest name: _____________________________________________________________________
-
-Competition goal:
-
-[[lines: 2]]
-
-Two rules or limits:
-
-1. ________________________________________________________________________________
-
-2. ________________________________________________________________________________
-
-Prize, recognition, or outside reward:
-
-[[lines: 2]]
-
-Intrinsic motivator, such as learning, achievement, attitude, or personal pride:
-
-[[lines: 2]]
-
-Why might these motivators affect two bakers differently?
-
-[[lines: 3]]
-
-[[pagebreak]]
-
-## Part 2: Compare the career evidence
+**Word bank:** intrinsic = satisfaction from the work itself · extrinsic = outside reward or consequence · median = middle pay · trade-off = a benefit paired with a cost or limit
 
 Use the fixed Hospitality Career Evidence Guide. Keep the year, geography, and measure attached to every number.
 
@@ -50,7 +24,7 @@ Use the fixed Hospitality Career Evidence Guide. Keep the year, geography, and m
 | Lodging Manager | | | | |
 | Event Planner | | | | |
 
-One important schedule or work-condition difference:
+One important schedule or work-condition difference between two careers:
 
 [[lines: 3]]
 
@@ -60,7 +34,7 @@ One preparation difference that could change a student's choice:
 
 [[pagebreak]]
 
-## Part 3: Connect motivation across careers
+## Part 2: Connect motivation across careers
 
 Choose two careers from the table.
 
@@ -74,12 +48,17 @@ How could extrinsic motivation help in Career 2?
 
 [[lines: 3]]
 
-Which career offers the best fit for a person who values creative control but also wants predictable preparation? Use one career-data fact and one motivation idea.
+### Make the trade-off visible
+
+Which career offers the best fit for a person who values creative control but also wants predictable preparation? Use one career-data fact, one motivation idea, and one trade-off.
 
 [[lines: 6]]
+
+**Complete frame:** I recommend __________________ because the evidence shows __________________. This fits the person because __________________. One trade-off is __________________, which matters because __________________.
 
 ### Evidence boundary
 
 - [ ] I did not call a U.S. median “DFW starting pay.”
 - [ ] I compared all three careers before choosing.
+- [ ] I named both a benefit and a cost or limit in my trade-off.
 - [ ] I treated motivation as personal, not as proof that one worker tries harder.

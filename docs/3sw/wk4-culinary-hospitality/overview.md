@@ -76,7 +76,7 @@ Restaurant Rebrand, H&amp;L App Exploration, Xello Decision Making, and eDynamic
 | 2 | Motivation and career evidence | Design two kinds of motivation and compare three careers | Competition plan and three-career comparison | Engage, Explain, Explore, Evaluate |
 | 3 | Hotel Rescue | Solve one assigned hotel crisis through six distinct roles | Team map and individual transfer response | Engage, Explore, Explain, Evaluate |
 | 4 | Cater and Create | Design a connected client experience and revise it after a reader test | Event brief and revision | Engage, Explore, Extend, Evaluate |
-| 5 | Career and business recommendation | Compare evidence and write a scenario-based recommendation | Recommended 16-point minor checkpoint | Engage, Explain, Elaborate, Evaluate |
+| 5 | Career and business recommendation | Compare evidence and write a scenario-based recommendation | Recommended 16-point minor checkpoint | Engage, Explain, Extend, Evaluate |
 
 ## Assessment and Grading
 

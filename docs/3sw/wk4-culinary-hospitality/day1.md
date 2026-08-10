@@ -5,7 +5,7 @@
 - **Topic:** Career Clusters
 - **Objective:** Students will explore and describe the CTE career clusters and identify career opportunities within one or more career clusters using evidence from Career Clusters.
 - **TEKS:** d(1)(B), d(1)(C)
-- **Demonstration of Learning:** Completed Culinary Twist Menu Brief.
+- **Demonstration of Learning:** Completed FYF pp. 112-113 Culinary Twist plan and menu plus a reader revision and transferable-skill check.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -15,8 +15,8 @@
 | **Objectives** | Explore the Hospitality and Tourism cluster; plan a dish within ingredient constraints; create a clear menu item; connect a design skill to another career |
 | **TEKS** | d(1)(B), d(1)(C) |
 | **5E Phases** | Engage, Explore, Explain, Evaluate |
-| **Deliverable** | Completed Culinary Twist Menu Brief |
-| **Materials** | FYF pp. 111-113, menu brief, projector, colored pencils or markers; optional Canvas annotation, Canva, or Adobe Express |
+| **Deliverable** | FYF pp. 112-113 Culinary Twist plan and menu plus reader revision and transferable-skill check |
+| **Materials** | FYF pp. 111-113, projector, colored pencils or markers; optional no-workbook/Canvas-annotation brief, Canva, or Adobe Express |
 
 ## Warm-Up (5 min)
 
@@ -42,7 +42,7 @@ Model one complete evidence chain: ingredient constraint, preparation choice, cu
 
 ## Activity 3: Build and Test the Menu Item (20 min)
 
-Students create a dish name, price, two- or three-sentence description, and labeled sketch. Canvas student annotation, paper, Canva, and Adobe Express are equal routes.
+Students create a dish name, price, two- or three-sentence description, and labeled sketch on FYF p. 113. The optional no-workbook brief, Canvas annotation, Canva, and Adobe Express are equal alternate routes; students do not complete both the workbook and the brief.
 
 At minute 12, students run the reader checklist. A customer should be able to identify the dish, main ingredients, special ingredient, and price. Students revise one unclear part.
 

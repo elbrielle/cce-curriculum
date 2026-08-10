@@ -5,7 +5,7 @@
 - **Topic:** Career Opportunities
 - **Objective:** Students will identify career opportunities within one or more career clusters and define entrepreneurship and identify entrepreneurial opportunities in a field of personal interest using evidence from Career Opportunities.
 - **TEKS:** d(1)(C), d(3)(I)
-- **Demonstration of Learning:** Cater and Create Event Brief.
+- **Demonstration of Learning:** FYF pp. 119-120 Cater and Create design plus the one-page client, entrepreneurship, and revision companion.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,9 +14,9 @@
 | **Time** | 50 minutes |
 | **Objectives** | Define a client, event feeling, and practical limit; design a connected menu and space; describe what a catering entrepreneur sells; revise after a client check |
 | **TEKS** | d(1)(C), d(3)(I) |
-| **5E Phases** | Engage, Explore, Elaborate, Evaluate |
-| **Deliverable** | Cater and Create Event Brief |
-| **Materials** | FYF pp. 119-120, event brief, colored pencils or markers; optional Canva or Adobe Express |
+| **5E Phases** | Engage, Explore, Extend, Evaluate |
+| **Deliverable** | FYF pp. 119-120 design plus the one-page client, entrepreneurship, and revision companion |
+| **Materials** | FYF pp. 119-120, one-page companion, colored pencils or markers; optional Canva or Adobe Express |
 
 ## Warm-Up (5 min)
 

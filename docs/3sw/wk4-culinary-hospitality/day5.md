@@ -14,7 +14,7 @@
 | **Time** | 50 minutes |
 | **Objectives** | Audit a three-career comparison; evaluate a defined student scenario; recommend one career; explain one entrepreneurial opportunity and tradeoff |
 | **TEKS** | d(1)(C), d(3)(I), d(5)(E) |
-| **5E Phases** | Engage, Explain, Elaborate, Evaluate |
+| **5E Phases** | Engage, Explain, Extend, Evaluate |
 | **Deliverable** | Hospitality Career and Business Recommendation |
 | **Materials** | Fixed career guide, recommendation, 16-point rubric, prior week artifacts; optional Xello Decision Making or eDynamic 6.1 after core work |
 

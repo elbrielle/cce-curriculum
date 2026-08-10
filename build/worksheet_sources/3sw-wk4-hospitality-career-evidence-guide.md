@@ -35,12 +35,12 @@ Irving ISD currently lists the **School of Culinary Arts/Hospitality Services at
 
 These are opportunities to investigate. The page does not guarantee admission, a certification, a job, or a salary.
 
-### Sources checked August 8, 2026
+### Sources checked August 10, 2026
 
-- U.S. Bureau of Labor Statistics, *Chefs and Head Cooks*, May 2024 pay and 2024-2034 outlook.
-- U.S. Bureau of Labor Statistics, *Lodging Managers*, May 2024 pay and 2024-2034 outlook.
-- U.S. Bureau of Labor Statistics, *Meeting, Convention, and Event Planners*, May 2024 pay and 2024-2034 outlook.
-- Irving ISD, *High School CTE* and *Singley Academy* program pages.
+- U.S. Bureau of Labor Statistics, *Chefs and Head Cooks*: bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm
+- U.S. Bureau of Labor Statistics, *Lodging Managers*: bls.gov/ooh/management/lodging-managers.htm
+- U.S. Bureau of Labor Statistics, *Meeting, Convention, and Event Planners*: bls.gov/ooh/business-and-financial/meeting-convention-and-event-planners.htm
+- Irving ISD, *High School CTE* and *Singley Academy* program pages: irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte
 
 ### Quick evidence check
 

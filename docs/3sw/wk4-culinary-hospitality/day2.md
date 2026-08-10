@@ -5,7 +5,7 @@
 - **Topic:** Transferable Skills
 - **Objective:** Students will identify skills that transfer among a variety of careers and use resources to compare the salaries of at least three careers in an interest area using evidence from Transferable Skills.
 - **TEKS:** d(4)(B), d(5)(E)
-- **Demonstration of Learning:** Motivation and Hospitality Career Comparison.
+- **Demonstration of Learning:** FYF p. 122 Motivation Plan plus the two-page Hospitality Career Comparison.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -15,8 +15,8 @@
 | **Objectives** | Distinguish intrinsic and extrinsic motivation; design a short competition plan; compare salary and preparation evidence for three hospitality careers; transfer motivation across careers |
 | **TEKS** | d(4)(B), d(5)(E) |
 | **5E Phases** | Engage, Explain, Explore, Evaluate |
-| **Deliverable** | Motivation and Hospitality Career Comparison |
-| **Materials** | FYF pp. 121-123, fixed Hospitality Career Evidence Guide, comparison packet, optional Canvas practice Quiz |
+| **Deliverable** | FYF p. 122 Motivation Plan plus the two-page Hospitality Career Comparison |
+| **Materials** | FYF pp. 121-123, fixed Hospitality Career Evidence Guide, two-page comparison, optional Canvas practice Quiz |
 
 ## Warm-Up (5 min)
 

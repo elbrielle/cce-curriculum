@@ -6,7 +6,7 @@ weeks: 3sw/wk4-culinary-hospitality
 audience: student
 variant_of:
 language: en
-pages: 3
+pages: 2
 orientation: portrait
 ---
 
@@ -40,60 +40,42 @@ What I can honestly communicate now:
 
 [[pagebreak]]
 
-## Part 2: Team response map
+## Part 2: Team evidence and individual transfer
 
-### Verify
+Complete the team solution in *Find Your Future* p. 118. Then record the evidence that belongs to you.
 
-Confirmed facts and unanswered questions:
+My team's crisis: [ ] A  [ ] B  [ ] C
 
-[[lines: 4]]
+One requirement our response protected: _____________________________________________
 
-### Protect
+Three roles with different actions are recorded on FYF p. 118: [ ]
 
-Safety, accessibility, reservation, or client requirement:
-
-[[lines: 3]]
-
-### Coordinate
-
-Role 1 and action: _________________________________________________________________
-
-Role 2 and action: _________________________________________________________________
-
-Role 3 and action: _________________________________________________________________
-
-### Communicate and follow through
-
-Message to the guest or client:
-
-[[lines: 4]]
-
-Who checks completion, and how?
+One statement our team could honestly communicate without making an unverified promise:
 
 [[lines: 2]]
 
-[[pagebreak]]
+Who follows through, and what does that worker check?
 
-## Part 3: Individual transfer check
+_____________________________________________________________________________________
+
+### Read another response or the teacher model
 
 Read another team's response to a different crisis.
 
 One strong move they used:
 
-[[lines: 2]]
+_____________________________________________________________________________________
 
 One risk or unanswered question:
 
-[[lines: 2]]
+_____________________________________________________________________________________
 
 How would the same verify-protect-coordinate-communicate process help a small catering company, restaurant, or event-planning business?
 
-[[lines: 5]]
+[[lines: 3]]
 
-### Done when
+**Words:** verify = check what is true · protect = keep a requirement from being ignored · coordinate = connect actions · follow through = confirm the plan happened
 
-- [ ] My own role has specific evidence.
-- [ ] The team response protects a non-negotiable requirement.
-- [ ] At least three roles have different actions.
-- [ ] The message makes no unverified promise.
-- [ ] My individual transfer response is complete.
+**Complete frame:** This process would help a __________________ business because the owner coordinates __________________. The owner would first verify __________________, then __________________.
+
+**Done:** [ ] role evidence  [ ] protected requirement  [ ] three role actions on FYF p. 118  [ ] factual message  [ ] individual transfer

@@ -1,5 +1,5 @@
 ---
-title: Culinary Twist Menu Brief
+title: Culinary Twist Menu Brief - No-Workbook Route
 slug: 3sw-wk4-culinary-twist-menu-brief
 kind: worksheet
 weeks: 3sw/wk4-culinary-hospitality
@@ -9,6 +9,10 @@ language: en
 pages: 3
 orientation: portrait
 ---
+
+## Optional no-workbook or Canvas-annotation route
+
+Use this brief only when the student cannot write in *Find Your Future* pp. 112-113 or needs a digital annotation route. Students working in the workbook do not need this three-page packet.
 
 ## Part 1: Plan the dish
 

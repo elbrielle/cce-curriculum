@@ -10,43 +10,40 @@ pages: 2
 orientation: landscape
 ---
 
-## Recommended 16-point minor checkpoint
+## Hospitality Career and Business Recommendation
 
-Score the individual Hospitality Career and Business Recommendation. Daily design work and team participation are practice evidence, not separate grades.
+Use this rubric before you submit. Daily design work and team participation are practice; this rubric scores the individual recommendation.
 
-| Criterion | 4 - Masters evidence | 3 - Meets evidence | 2 - Approaches evidence | 1 - Needs improvement / limited evidence |
-|---|---|---|---|---|
-| Career evidence | Accurate task plus a correctly labeled year, geography, and measure; comparison supports the choice | Accurate task and labeled fact support the choice | Some accurate evidence, but label or comparison is incomplete | Evidence is inaccurate, missing, or unrelated |
-| Preparation and tradeoff | Explains a specific preparation or schedule tradeoff and why it matters to Jordan | Names a relevant tradeoff and explains the choice | Names a tradeoff with limited explanation | Lists only benefits or gives no tradeoff |
-| Entrepreneurship | Names a workable small-business opportunity and explains what the owner sells, coordinates, or risks | Names a relevant business opportunity and service | Names a business idea with limited operation detail | Treats entrepreneurship as only a job title or leaves it blank |
-| Recommendation and local connection | Five to seven clear sentences connect the scenario, evidence, limitation, and a verified local option without guarantees | Recommendation is defensible and uses most required evidence | Recommendation is understandable but missing a required link | Recommendation is unsupported, off topic, or too incomplete to evaluate |
-
-**0 points:** Blank, copied without evidence, or unrelated to the criterion.
+| Criterion | 4 - Masters | 3 - Meets | 2 - Approaches | 1 - Needs improvement | 0 - No evidence |
+|---|---|---|---|---|---|
+| Career evidence | Accurate task plus a correctly labeled year, geography, and measure; comparison supports the choice | Accurate task and labeled fact support the choice | Some accurate evidence, but label or comparison is incomplete | Evidence is inaccurate, missing, or unrelated | Blank or copied without evidence |
+| Preparation and trade-off | Explains a specific preparation or schedule trade-off and why it matters to Jordan | Names a relevant trade-off and explains the choice | Names a trade-off with limited explanation | Lists only benefits or gives no trade-off | Blank or unrelated |
+| Entrepreneurship | Names a workable small-business opportunity and explains what the owner sells, coordinates, or risks | Names a relevant business opportunity and service | Names a business idea with limited operation detail | Treats entrepreneurship as only a job title | Blank or unrelated |
+| Recommendation and local connection | Five to seven clear sentences connect the scenario, evidence, limitation, and a verified local option without guarantees | Recommendation is defensible and uses most required evidence | Recommendation is understandable but missing a required link | Recommendation is unsupported, off topic, or too incomplete to evaluate | Blank or copied without evidence |
 
 [[pagebreak]]
 
-## Score and feedback
+## My score check
 
-| Criterion | Points |
-|---|---:|
-| Career evidence | /4 |
-| Preparation and tradeoff | /4 |
-| Entrepreneurship | /4 |
-| Recommendation and local connection | /4 |
-| **Total** | **/16** |
+Career evidence: ____ /4  ·  Preparation/trade-off: ____ /4  ·  Entrepreneurship: ____ /4  ·  Recommendation: ____ /4  ·  **Total: ____ /16**
 
-### Suggested percentage conversion
+### Course percentage conversion
 
-| Points | Percent | District band |
+| Points | Course percentage | District band |
 |---:|---:|---|
-| 15-16 | 94-100 | Masters |
-| 13-14 | 81-88 | Meets |
-| 12 | 75 | Approaches |
-| 10-11 | 63-69 | Needs Improvement |
-| 0-9 | Follow campus policy | No additional label inferred |
+| 15-16 | 90-100 | Masters |
+| 13-14 | 80-89 | Meets |
+| 12 | 70-79 | Approaches |
+| 10-11 | 60-69 | Needs Improvement |
+| 0-9 | Below 60 | Insufficient evidence; follow campus policy |
 
-One evidence strength: ______________________________________________________________
+One evidence strength: ______________________________  One next revision: ______________________________
 
-One next revision: _________________________________________________________________
+### Before you submit
 
-Score content and reasoning. Do not score drawing quality, platform choice, accent, or English mechanics unless meaning is unclear.
+- [ ] My number still has its year, geography, and measure.
+- [ ] My trade-off names both a benefit and a cost or limit.
+- [ ] I explain what the business owner sells or coordinates.
+- [ ] I describe a local opportunity as something to investigate, not a guarantee.
+
+Your content and reasoning count. Drawing quality, platform choice, accent, and English mechanics do not change the score unless the meaning is unclear.
