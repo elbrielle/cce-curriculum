@@ -12,17 +12,17 @@ orientation: landscape
 
 ## Current Texas Sales Agent Route
 
-Number the actions from 1 to 7.
+The actions are mixed up. Number them from 1 to 7 to show the current route.
 
 | Action | Order |
 |---|---:|
-| Meet qualifications, including age 18+ |  |
-| Complete 180 classroom hours across six required courses |  |
-| Submit the application and education documents |  |
-| Complete fingerprint and background requirements |  |
 | Pass the state and national exam portions |  |
-| Receive inactive status after requirements are met |  |
+| Complete 180 classroom hours across six required courses |  |
 | Obtain licensed-broker sponsorship for active practice |  |
+| Meet qualifications, including age 18+ |  |
+| Submit the application and education documents |  |
+| Receive inactive status after requirements are met |  |
+| Complete fingerprint and background requirements |  |
 
 The six 30-hour courses are Principles I, Principles II, Law of Agency, Law of Contracts, Promulgated Contract Forms, and Real Estate Finance.
 
