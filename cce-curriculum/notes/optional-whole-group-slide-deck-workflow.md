@@ -27,18 +27,30 @@ evidence, timing, source sequence, platform minimum, or success criteria.
    standard, and any supplemental resource used that day.
 3. Cold-read the Canvas Teacher/Student pair for timing, hidden prep, answer
    guidance, supports, and platform or absence recovery.
-4. Write the slide sequence and speaker-note plan from the reviewed lesson.
-5. Build each slide as a fixed 16:9 HTML/CSS frame.
-6. Render each frame to PNG, then place each PNG edge-to-edge on its PowerPoint
+4. Study the strongest available owner-created instructional decks for classroom
+   rhythm, modeling depth, and finish. Inherit the process and quality bar, not
+   an unrelated course's visual theme.
+5. Write a slide-by-slide instructional storyboard from the reviewed lesson.
+   Preserve a useful existing slide unless a specific accuracy, curricular,
+   clarity, accessibility, or visual-composition reason justifies replacing it.
+6. Choose a visual language for this course, age group, lesson topic, and
+   project. Do not automatically reuse the Smart Solutions superhero/comic
+   treatment or any other prior-course theme.
+7. Build each slide as a fixed 16:9 HTML/CSS frame.
+8. Render each frame to PNG, then place each PNG edge-to-edge on its PowerPoint
    slide. This raster-first route is intentional: it protects the reviewed
    HTML/CSS layout from PowerPoint font and object reflow.
-7. Add teacher facilitation notes and source records to PowerPoint speaker notes.
-8. Render the finished PPTX back to images, inspect every slide, and compare it
+9. Add teacher facilitation notes and source records to PowerPoint speaker notes.
+10. Render the finished PPTX back to images, inspect every slide, and compare it
    with the approved HTML render before uploading the deck to locked Canvas.
+11. Produce a review copy and inspect it as a teacher-facing artifact before
+    replacing or adding a deck in the Canvas course.
 
 ## 3. Technical contract
 
-- Use a 16:9 fixed canvas, preferably 1600 x 900 or 1920 x 1080 pixels.
+- Use a 16:9 fixed composition canvas at 1280 x 720 pixels. When a higher-density
+  render is needed, export at an exact 2x multiple rather than changing the
+  layout geometry.
 - Do not rely on responsive reflow inside a slide. The render viewport and the
   slide dimensions are part of the layout contract.
 - Use HTML/CSS for visible composition and Chromium/Playwright for deterministic
@@ -68,22 +80,30 @@ includes:
 3. **Today's learning:** student-friendly Objective and Show Your Learning;
    include the TEKS code where it helps the teacher, not as unexplained student
    clutter.
-4. **Road map and materials:** what students will do and what they need ready.
-5. **Mini-lesson chunks:** one instructional job or important idea per slide.
-6. **Models and non-models:** a worked example, annotated source, decision path,
+4. **Prior-learning connection:** one specific retrieval, comparison, or bridge
+   when the new lesson depends on something students have already done.
+5. **Road map and materials:** what students will do and what they need ready.
+6. **Mini-lesson chunks:** one instructional job or important idea per slide.
+   Introduce a concrete example or question before naming unfamiliar academic
+   vocabulary.
+7. **Models and non-models:** a worked example, annotated source, decision path,
    or misconception check wherever the teacher guide expects one.
-7. **Engagement at the point of use:** dedicated Stop and Jot, Think-Pair-Share,
+8. **Engagement at the point of use:** dedicated Stop and Jot, Think-Pair-Share,
    Turn and Talk, Q-SSA, TVB, chunking pause, or active-monitoring checkpoint.
    Name the student action; do not project a strategy label with no directions.
-8. **Work launch:** numbered directions, the exact source page or platform path,
+   Do not add a persistent Time/Voice/Body footer. Show a TVB direction only
+   when the reviewed lesson specifically needs it at that moment.
+9. **Work launch:** numbered directions, the exact source page or platform path,
    expected artifact, time cue, and a visible `Done when` checklist.
-9. **Mid-work checkpoint:** what students should have completed and what the
+   Show physical and digital procedures one action at a time instead of
+   compressing a multi-step process onto one dense slide.
+10. **Mid-work checkpoint:** what students should have completed and what the
    teacher should correct before students continue.
-10. **Demonstration of Learning:** the exact exit task or collected artifact that
+11. **Demonstration of Learning:** the exact exit task or collected artifact that
     matches the objective.
-11. **Close/next step:** submission, cleanup, catch-up location, or meaningful
+12. **Close/next step:** submission, cleanup, catch-up location, or meaningful
     early-finisher route. Do not end on a generic thank-you slide.
-12. **Credits:** compact human-readable asset credits, with the full record in
+13. **Credits:** compact human-readable asset credits, with the full record in
     speaker notes.
 
 Put transitions, timers, collaboration directions, and material changes on the
@@ -135,6 +155,8 @@ the authenticated Canvas delivery boundary.
 
 - Give each slide one instructional job.
 - Use a direct takeaway or action title rather than a generic chapter label.
+- Remove meta slides, teacher-only decisions, curriculum-planning language, and
+  transitions that do not help students understand or act.
 - Keep the title slide minimal.
 - Default minimums are 50 pt deck title, 35 pt slide title, 24 pt subheading,
   and 16 pt body text; for whole-class projection, prefer 24-32 pt body text
@@ -145,6 +167,13 @@ the authenticated Canvas delivery boundary.
   with the task.
 - Do not rely on color alone. Caption visual evidence and explain what students
   should inspect.
+- Put the word bank, complete-thought sentence stem, labeled example, or visual
+  cue on the slide where students use it. A decorative sentence starter that
+  cannot produce a complete response is not a support.
+- When bilingual student materials are intentionally used, keep the necessary
+  labels, stems, and directions parallel across languages. This does not create
+  a blanket full-translation requirement; it protects the support from becoming
+  incomplete or misleading.
 - Keep prompts visible long enough to complete. Place required instructions on
   the slide, not only in speaker notes.
 - Avoid projecting answer keys with the prompt. Use a later reveal slide or a
@@ -166,7 +195,9 @@ The deck is ready for locked Canvas only when:
 - the Scope and Sequence, HQIM pages, platform task, Objective, and DOL match the
   reviewed Teacher/Student pair exactly;
 - the sequence can carry the complete planned class period, including the
-  bellringer, modeling, student work, collaboration, and close;
+  bellringer, prior-learning connection, modeling, guided directions, checks for
+  understanding, student work, collaboration, work checkpoints, closure, and
+  submission or cleanup where relevant;
 - all answer guidance, monitoring notes, supports, and trim points exist;
 - every external claim and visual has a `[Sources]` note;
 - licensed assets and the packaged deck have stayed out of Git;
@@ -176,6 +207,9 @@ The deck is ready for locked Canvas only when:
 - the smallest instructional text remains readable from the back of a typical
   classroom and on the teacher's projected Canvas preview;
 - the file size and first-load behavior are reasonable for Canvas; and
+- a teacher can teach from the review copy without reconstructing the lesson,
+  and a student can tell from the current slide what they are learning, doing,
+  producing, and doing next; and
 - the deck, file folder, page links, and module item remain unpublished/locked.
 
 Record the final deck name, Canvas file ID, linked lesson, credits status, and QA

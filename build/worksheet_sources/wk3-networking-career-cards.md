@@ -10,7 +10,7 @@ pages: 2
 orientation: portrait
 ---
 
-Use these cards when Hats & Ladders is unavailable or when you need a second source. The education descriptions are typical pathways, not promises or requirements for every employer. Use Xello for current local salary information when it is available.
+Use these cards as the complete comparison route. Hats & Ladders may add exploration, and Xello may provide a localized salary when the exact occupation, geography, measure, and date are visible. Neither platform is required to complete the career comparison. Preparation descriptions are typical pathways, not promises or requirements for every employer.
 
 ## Network Administrator
 
@@ -46,9 +46,43 @@ Studies how an organization works and recommends technology changes. Common task
 
 ## Compare the roles
 
-| Career | One technical task | One transferable skill | Why that skill matters |
-|---|---|---|---|
-| Network Administrator | | | |
-| Network Architect | | | |
-| Database Administrator | | | |
-| Systems Analyst | | | |
+### Network Administrator
+
+**One technical task:** ______________________________________________
+
+**One transferable skill and why it matters:**
+
+[[lines: 2]]
+
+### Network Architect
+
+**One technical task:** ______________________________________________
+
+**One transferable skill and why it matters:**
+
+[[lines: 2]]
+
+### Database Administrator
+
+**One technical task:** ______________________________________________
+
+**One transferable skill and why it matters:**
+
+[[lines: 2]]
+
+### Systems Analyst
+
+**One technical task:** ______________________________________________
+
+**One transferable skill and why it matters:**
+
+[[lines: 2]]
+
+## Sources
+
+U.S. Bureau of Labor Statistics, Occupational Outlook Handbook, accessed August 9, 2026:
+
+- Network and Computer Systems Administrators: bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm
+- Computer Network Architects: bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm
+- Database Administrators and Architects: bls.gov/ooh/computer-and-information-technology/database-administrators.htm
+- Computer Systems Analysts: bls.gov/ooh/computer-and-information-technology/computer-systems-analysts.htm

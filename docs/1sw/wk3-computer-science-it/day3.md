@@ -2,10 +2,10 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **Topic:** App Wireframes
+- **Objective:** Students will identify app design as an Information Technology career opportunity by planning, testing, and revising a four-screen user flow for a specific audience.
 - **TEKS:** d(1)(C)
-- **Demonstration of Learning:** App plan + 4 labeled wireframe screens (FYF pp. 31-32) + partner walkthrough notes + 2 improvements (FYF p. 33).
+- **Demonstration of Learning:** App plan with a specific user and two or three features, four labeled wireframe screens with a clear next action, written walkthrough feedback, and two starred revisions tied to that feedback (FYF pp. 30-33).
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -92,7 +92,7 @@ Day 3 is a rich-submission day: the app design packet already functions as the m
 
 **Submission:** Students submit (1) their app plan (name, target user, 2-3 features), (2) their four labeled wireframe screens, and (3) their two starred improvements with the partner feedback that prompted each one.
 
-**Mastery evidence:** the four screens and the improvement pass demonstrate d(1)(C) app designer role work. Score against the **App Design Packet and Emerging Tech Pitch Rubric** ([Printable PDF](../../resources/worksheets/wk3-app-design-rubric.pdf)), which adapts the 4-level scale from the Capstone chapter (FYF p. 280). Today scores its first three criteria, App Plan, Screen Design, and Response to Feedback. Presenter Delivery is scored on Day 5, so hold the packets and enter one total after the pitches. Judge whether a stranger could follow the screens, not whether the drawing is attractive. *(d(1)(C))*
+**Mastery evidence:** the four screens and improvement pass demonstrate app-designer work under d(1)(C). Score against the **App Design Packet and Emerging Career Evidence Rubric** ([Printable PDF](../../resources/worksheets/wk3-app-design-rubric.pdf)), which adapts the four performance bands from the Capstone chapter (FYF p. 280). Today supplies App Plan, Screen Design, and Response to Feedback. Day 4 supplies Emerging Career Evidence. The Day 5 pitch is communication practice, not a separate live-delivery score. Judge whether a first-time user could follow the screens, not whether the drawing is attractive.
 
 ---
 

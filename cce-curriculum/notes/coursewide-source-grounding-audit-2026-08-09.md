@@ -73,6 +73,17 @@ The strict worksheet build is a useful overflow gate, but it does not prove that
 
 **Wk1 verdict:** source sequence, daily contracts, 50-minute timing, answer guidance, response space, and unpublished Canvas build source pass. Live Canvas API verification remains the final deployment gate.
 
+### 1SW Wk3 licensed workbook, platform, and artifact check - verified in source
+
+- Day 1 uses FYF printed p. 38 as the district HQIM launch into the Information Technology cluster. Because the workbook does not print a four-role networking comparison, a BLS-grounded card set now carries the complete required route. H&L browsing may add context but does not become graded platform state.
+- Day 2 follows FYF printed pp. 28-29 exactly: examine the Paws and Claws practice site named on Climber Notes slide 2, record three strengths and five observable problems, propose a fix and user benefit for three problems, and sketch one improved page. The live practice site was checked on August 9, 2026; a locked captured homepage is embedded as the no-network route.
+- Day 3 follows FYF printed pp. 30-33 exactly: choose one of the three briefs, identify a target user and features, build Home/Main Menu/Action/Success wireframes, run the workbook's partner walkthrough, and make two visible revisions. The artifact and rubric score navigation evidence rather than drawing skill.
+- Day 4 uses a dated six-career BLS evidence guide. Every selection records the occupation actually reported by BLS and labels an exact match, closest occupation, or proxy. Pay is consistently May 2024 U.S. median annual pay and outlook is consistently 2024-34 projected growth; optional Xello DFW evidence stays separately labeled.
+- Day 5 protects the required Xello **Learning Style** quiz for 20 minutes, uses the licensed 15-20 minute prerequisite guide, checks the Completion Standards report, and moves access failures to supervised catch-up. The separate 70-minute Xello lesson remains optional because it assumes additional prerequisites.
+- The Day 4 research sheet was rebuilt as an intentional two-page artifact. Page 1 holds the eight factual evidence fields; page 2 provides five lines for the changing-work explanation, six lines for the two-fact evaluation, a separate local-evidence box, and a one-minute pitch map. The four revised Week 3 PDFs passed strict build checks and full-page visual inspection.
+
+**Wk3 verdict:** the S&S sequence, workbook pages, Climber dependency, required Xello task, dated labor evidence, daily learning contracts, student/teacher Canvas sources, and core artifact response space pass. The live unpublished Canvas import and API module check also pass; browser-size and Student View review remain part of the later publication gate.
+
 ## Immediate gates before teacher-copy readiness
 
 1. Verify all 180 days against the authoritative S&S and the exact licensed source. Presence is not accuracy.
@@ -103,11 +114,11 @@ Unresolved `[VERIFY]`/`[TODO]`/`[TBD]` markers detected on **1 day(s)**. Days wi
 | 1SW Wk2 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Think-Pair-Share / Turn and Talk, Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
 | 1SW Wk2 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Think-Pair-Share / Turn and Talk, Active Monitoring, Chunking, TVB | FYF, Xello, H&L, BLS / current primary source |  |
 | 1SW Wk2 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Think-Pair-Share / Turn and Talk, Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
-| 1SW Wk3 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Active Monitoring | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
-| 1SW Wk3 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Active Monitoring | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
-| 1SW Wk3 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Think-Pair-Share / Turn and Talk, Active Monitoring | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
-| 1SW Wk3 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Active Monitoring | Climber Notes, Xello, H&L, BLS / current primary source |  |
-| 1SW Wk3 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Active Monitoring, TVB | Climber Notes, Xello, H&L, BLS / current primary source |  |
+| 1SW Wk3 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Active Monitoring | FYF, optional H&L/Xello, BLS |  |
+| 1SW Wk3 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Active Monitoring, Chunking | FYF, Climber Notes, Paws and Claws practice site |  |
+| 1SW Wk3 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Think-Pair-Share / Turn and Talk, Active Monitoring | FYF |  |
+| 1SW Wk3 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Think-Pair-Share / Turn and Talk, Active Monitoring | BLS, optional Xello local cross-check |  |
+| 1SW Wk3 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring, TVB | Xello, BLS evidence from Day 4 |  |
 | 1SW Wk4 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
 | 1SW Wk4 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
 | 1SW Wk4 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Active Monitoring, Chunking | FYF, Xello, H&L, BLS / current primary source |  |
