@@ -2,10 +2,10 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters and research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Career Opportunities.
+- **Topic:** Dental Evidence
+- **Objective:** Students will identify Dental Assistant and Dental Hygienist as Health Science careers and describe one preparation requirement for each career.
 - **TEKS:** d(1)(C), d(2)(A)
-- **Demonstration of Learning:** Smile Squad observation record + Dental Assistant and Dental Hygienist comparison rows.
+- **Demonstration of Learning:** Completed FYF Smile Squad evidence response and two-career comparison check.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
@@ -13,12 +13,12 @@
 |---|---|
 | **Time** | 50 minutes |
 | **TEKS** | d(1)(C), d(2)(A) |
-| **Evidence** | Smile Squad observation record + Dental Assistant and Dental Hygienist comparison rows |
+| **Evidence** | FYF pp. 69-71 response + two-career comparison check |
 | **Sources** | FYF pp. 69-71; Climber Notes slides 2-7; BLS career evidence guide |
 
 ## Before class
 
-Open the seven licensed slides in Canvas and post the career evidence guide. Do not call the five images a student's diagnostic record. They are a training image set for noticing patterns. Students describe what they see; they do not diagnose disease.
+Open the seven licensed slides in Canvas and the projected career evidence guide. Students write in their assigned FYF workbook on pp. 69-71. The optional observation PDF is an access or no-workbook fallback, not a default class set. Do not call the five images a student's diagnostic record. They are a training image set for noticing patterns. Students describe what they see; they do not diagnose disease.
 
 ## Learning target
 
@@ -47,7 +47,7 @@ Students choose one low-risk prevention step supported by the workbook clues: br
 
 ### 4. Compare two dental careers (15 minutes)
 
-Using the evidence guide, students complete Dental Assistant and Dental Hygienist rows. They must keep “May 2024,” “U.S.,” and “median” attached to the pay figure. Current local program language is **Dental at Singley Academy**; do not promise a specific credential.
+Using the projected evidence guide or the Canvas check, students compare Dental Assistant and Dental Hygienist. They must keep “May 2024,” “U.S.,” and “median” attached to the pay figure. The current 2026-27 district coursebook lists **Health Science: Dental** at Singley and names Registered Dental Assistant as the program certification. Present that as program context, not a promise that every student earns the credential.
 
 ### 5. Exit ticket (5 minutes)
 

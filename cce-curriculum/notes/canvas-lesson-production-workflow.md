@@ -80,6 +80,8 @@ Use sources in this order:
 5. district pathway and platform references; and
 6. supplemental platforms only where the scope and sequence assigns them.
 
+Use the current district-customized FYF/H&L workbook names as the default teacher and student vocabulary. Xello's configured task names remain authoritative for required Xello completion. Use external sources to fill a genuine evidence gap, not to relabel an HQIM career or pathway. Keep source-method detail in the guide or author ledger when students only need the labeled figure.
+
 Licensed source binaries and rendered screenshots never enter GitHub. Store local Canvas-only visuals under:
 
 `cce-curriculum/resources/canvas-licensed/<six-weeks>/<week>/<day>/`

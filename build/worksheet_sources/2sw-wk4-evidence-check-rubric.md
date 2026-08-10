@@ -43,7 +43,7 @@ orientation: landscape
 
 - Do not deduct for handwriting, platform route, artistic quality, or English mechanics unless meaning is unclear.
 - A Dental Hygienist recommendation can earn full credit even though it exceeds Jordan's stated preference if the student names that trade-off and explains why other evidence outweighs it.
-- Medical Records Specialist has no verified current Irving program connection. Do not require students to invent one.
+- Medical Billing and Coding is current FYF and district-coursebook content. Accept the workbook title. The fixed $50,250/7% figures are the guide's national comparison data, not starting or DFW pay.
 - Dental Assistant is below the course high-wage line but above the growth line. One label does not decide overall career value.
 
 Strength: ___________________________________________________________________

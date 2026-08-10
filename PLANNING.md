@@ -234,7 +234,7 @@ Three sources of feedback collected: Google Form (2 responses, E. O'Connor), han
 
 ### 4.1 US JURISDICTION — Elisha + Claude decide and implement
 
-**All 14 items shipped across sessions 2-3** (DOK audit, facilitation strategies page, CFA template + 1SW sample, TEKS coverage map, engineering notebook supply, Medical Billing cut, JROTC audit, PT/Sonography placeholders, "What is CTE" Xello module, various Hour-of-Code fixes, Irving ISD pathway rewording). Full commit-by-commit history in git log filtered by prefix `git log --oneline --all | grep -E "(fea941b|1b7ec9b|5879218|575be17|a87d597|6da8060|2ace0bf|4a80740|d9ad853|08524c3)"`.
+**All 14 items shipped across sessions 2-3** (DOK audit, facilitation strategies page, CFA template + 1SW sample, TEKS coverage map, engineering notebook supply, the then-current Medical Billing cut, JROTC audit, PT/Sonography placeholders, "What is CTE" Xello module, various Hour-of-Code fixes, Irving ISD pathway rewording). The Medical Billing decision was superseded on 2026-08-09 by the new FYF workbook and 2026-27 coursebook, which list the program at Singley. Full commit-by-commit history in git log filtered by prefix `git log --oneline --all | grep -E "(fea941b|1b7ec9b|5879218|575be17|a87d597|6da8060|2ace0bf|4a80740|d9ad853|08524c3)"`.
 
 **Round-2 follow-ups to watch for:**
 - 1SW CFA results: if >30% of students score ≤2 on any part, the CFA template's reteach triggers fire. Data back-flows into the 2SW block plan.
@@ -308,7 +308,7 @@ Decisions needing a human, not an edit:
 - **d(8)(A)/(B)/(C) buffer-week risk** — every d(8) week is a buffer. If teacher loses buffers, d(8) uncovered.
 - **Curriculum-density pattern** — several weeks feel rushed from implementing all H&L + Xello + eDynamic at full fidelity. What to cut is not Claude's call.
 - **HVAC/Electrical/Plumbing "Coming 2027"** — district-wide or specific campus?
-- **2SW Wk4 Medical Billing** — Singley webpage doesn't list it but S&S includes it (resolved by B1 cut)
+- ~~**2SW Wk4 Medical Billing**~~ — resolved 2026-08-09. FYF and the 2026-27 High School Course Work list Health Science: Medical Billing at Singley. Use the workbook/coursebook names by default.
 
 ---
 

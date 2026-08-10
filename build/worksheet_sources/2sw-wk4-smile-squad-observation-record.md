@@ -1,5 +1,5 @@
 ---
-title: Smile Squad Observation Record
+title: Smile Squad Observation Record - Optional Scaffold
 slug: 2sw-wk4-smile-squad-observation-record
 kind: worksheet
 weeks: 2sw/wk4-dental-medical-billing
@@ -11,6 +11,12 @@ orientation: portrait
 ---
 
 ## Observation boundary
+
+**Use this only when the assigned FYF workbook pages are unavailable or an access scaffold is needed.** The default writing surface is FYF pp. 69-71.
+
+Oral rehearsal: “I notice ____. It could match ____, but the image alone does not prove ____.”
+
+Word bank: **bright · dark · smooth · uneven · developing · restoration · uncertain**
 
 Describe visible patterns. Do not diagnose a person or claim that an image proves a condition.
 
@@ -41,6 +47,8 @@ My recommendation: ___________________________________________________________
 Evidence 1: __________________________________________________________________
 
 Evidence 2: __________________________________________________________________
+
+Sentence frame: “I recommend ____ because the workbook shows ____ and ____.”
 
 ## Observation rewrite
 

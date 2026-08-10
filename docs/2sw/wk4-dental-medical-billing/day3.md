@@ -5,7 +5,7 @@
 - **Topic:** College Credit
 - **Objective:** Students will explore and list opportunities for earning college credit in high school using evidence from College Credit.
 - **TEKS:** d(3)(B)
-- **Demonstration of Learning:** Education experiences + Volunteer hours completion; two current college-credit opportunities.
+- **Demonstration of Learning:** Xello Completion Standards evidence + completed Canvas college-credit opportunity check.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
@@ -13,7 +13,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **TEKS** | d(3)(B) |
-| **Evidence** | Education experiences + Volunteer hours completion; two current college-credit opportunities |
+| **Evidence** | Xello Completion Standards report + Canvas college-credit check |
 | **Platform** | Xello through ClassLink |
 
 ## Accuracy note
@@ -40,7 +40,7 @@ Open Volunteer experiences and add at least one completed hour. A student with n
 
 ### 4. College-credit opportunity check (15 minutes)
 
-Using the current district coursebook or a counselor-approved card, students record two actual opportunities such as an identified dual-credit course or an AP course/exam route. They record the exact title, type, eligibility or prerequisite shown, and source. Industry certification is a valuable credential but is not itself college credit. Colleges set their own AP credit policies.
+Students use two fixed current coursebook cards in Canvas: English III Dual Credit (H) and AP Biology. They identify each route, compare one stated requirement, and choose one fact to verify with a counselor. The current coursebook says English III Dual Credit (H) is open in grades 10-12 after English II and awards high-school and college credit. It lists AP Biology for grades 11-12 after Biology with Chemistry completed or taken at the same time. An AP course does not guarantee college credit; each receiving institution sets its policy. Industry certification is a valuable credential but is not itself college credit.
 
 ### 5. Exit ticket (5 minutes)
 
@@ -52,4 +52,4 @@ Name two current college-credit opportunities you found. For each, write its typ
 
 ## Teacher verification and fallback
 
-Use the Xello Completion Standards report, not a public screenshot, to verify completion. A platform outage moves the required task to supervised catch-up; the paper checkpoint is a temporary planning record, not completion. Students may use the licensed *My Experiences* guide in authenticated Canvas.
+Use the Xello Completion Standards report, not a public screenshot, to verify completion. A platform outage moves the required task to supervised catch-up. The one-page print check is only a fallback for the college-credit response; it does not replace Xello. Students may use the licensed *My Experiences* guide in authenticated Canvas.

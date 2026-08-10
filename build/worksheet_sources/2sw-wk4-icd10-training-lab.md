@@ -6,7 +6,7 @@ weeks: 2sw/wk4-dental-medical-billing
 audience: student
 variant_of:
 language: en
-pages: 3
+pages: 2
 orientation: portrait
 ---
 
@@ -55,8 +55,6 @@ Why is R07.9 weaker? __________________________________________________________
 
 8. A fictional patient fell. Imaging supports an **unspecified fracture of the lower end of the right radius, initial encounter for closed fracture**. Code: __________
 
-[[pagebreak]]
-
 ## Accuracy record
 
 Round 1: ______ / 3 correct
@@ -67,7 +65,7 @@ One correction I made after feedback: _________________________________________
 
 Why does complete documentation matter when choosing a code?
 
-[[lines: 4]]
+[[lines: 3]]
 
 ## Five-code support list
 

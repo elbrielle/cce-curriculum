@@ -1,5 +1,5 @@
 ---
-title: Toothbrush Design Brief
+title: Toothbrush Design Brief - Optional Scaffold
 slug: 2sw-wk4-toothbrush-design-brief
 kind: scaffold
 weeks: 2sw/wk4-dental-medical-billing
@@ -11,6 +11,12 @@ orientation: portrait
 ---
 
 ## Choose one fictional user
+
+**Use this only when FYF pp. 72-73 are unavailable or an access scaffold is needed.** The assigned workbook is the default writing surface.
+
+Oral rehearsal: “My user needs ____, so I will design ____.”
+
+Word bank: **bristles / cerdas · handle / mango · grip / agarre · feature / característica · reach / alcanzar**
 
 - [ ] Young child learning to brush
 - [ ] Person with limited grip strength
@@ -41,6 +47,8 @@ Most important fact for my user: ______________________________________________
 ## Draw and label the prototype
 
 [[box: 4.5]]
+
+Explanation frame: “I chose ____ because it helps the user ____.”
 
 ## Done when
 

@@ -2,10 +2,10 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Preparation
-- **Objective:** Students will research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster and classify evidence of high-skill, high-wage, or high-demand occupations using labor-market information using evidence from Career Preparation.
+- **Topic:** Career Recommendation
+- **Objective:** Students will compare preparation and labor-market evidence for three Health Science careers and recommend one route for a fictional student.
 - **TEKS:** d(2)(A), d(5)(B)
-- **Demonstration of Learning:** Completed comparison + four-part recommendation.
+- **Demonstration of Learning:** Submitted Canvas Minor with three-career comparison and four-part recommendation.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
@@ -32,7 +32,7 @@ Jordan wants a health career, likes careful recordkeeping and helping people, an
 
 ### 3. Plan the recommendation (10 minutes)
 
-Students choose Dental Assistant, Dental Hygienist, or Medical Records Specialist. They may recommend any option that fits the scenario when the evidence is accurate. A local program connection is required only when verified: **Dental at Singley Academy** is current; no current Irving program is promised for Medical Records Specialist.
+Students choose Dental Assistant, Dental Hygienist, or Medical Billing and Coding. They may recommend any option that fits the scenario when the evidence is accurate. FYF and the current district coursebook both verify **Health Science: Dental** and **Health Science: Medical Billing** at Singley. Students use those workbook names, cite the labeled figures in the evidence guide, and verify current application or enrollment details before making a personal plan.
 
 ### 4. Write four sentence jobs (15 minutes)
 

@@ -1,11 +1,11 @@
-# Day 4: Medical Records and ICD-10-CM Practice
+# Day 4: Medical Billing and ICD-10-CM Practice
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Preparation
-- **Objective:** Students will research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster and classify evidence of high-skill, high-wage, or high-demand occupations using labor-market information using evidence from Career Preparation.
+- **Topic:** Health Information
+- **Objective:** Students will describe the Medical Billing and Coding pathway and classify related labor-market evidence while completing a bounded coding simulation.
 - **TEKS:** d(2)(A), d(5)(B)
-- **Demonstration of Learning:** Medical Records Specialist row + individual coding lab.
+- **Demonstration of Learning:** Medical Billing and Coding evidence row + individual coding lab.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
@@ -13,7 +13,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **TEKS** | d(2)(A), d(5)(B) |
-| **Evidence** | Medical Records Specialist row + individual coding lab |
+| **Evidence** | Medical Billing and Coding evidence row + individual coding lab |
 | **Source edition** | FY 2027 ICD-10-CM descriptions, effective October 1, 2026 |
 
 ## Safety boundary
@@ -22,15 +22,15 @@ Every record is fictional. Students must not use their own or anyone else's heal
 
 ## Learning target
 
-I can describe a medical-records career and choose the most specific supported code from a short reference list.
+I can describe Medical Billing and Coding work and choose the most specific supported code from a short reference list.
 
 ## Lesson flow
 
-### 1. Career route and third comparison row (10 minutes)
+### 1. FYF Medical Billing and Coding route (10 minutes)
 
-Medical Records Specialists had a May 2024 U.S. median wage of $50,250, typical postsecondary nondegree preparation, and 7% projected growth from 2024-34. Some workers classify and enter clinical codes; the occupation is broader than billing alone. Students complete the third comparison row and classify it with the same course rule.
+Students read FYF pp. 84-85. The workbook describes Medical Billing and Coding work through medical documentation, insurance processes, coding systems, and care-reimbursement procedures. The current 2026-27 coursebook lists **Health Science: Medical Billing** at Singley and names Certified Billing and Coding Specialist as the program certification. These district sources set the student-facing title and pathway context.
 
-Do not present Medical Billing and Coding as a verified current Irving pathway. The workbook introduces it, but the current Singley public page does not list it.
+The class evidence guide adds a May 2024 U.S. median of $50,250 and 7% projected growth from 2024-34 for the week's same-source comparison. Keep the workbook title, **Medical Billing and Coding**, in student work. The guide's source note records the broader BLS category used for those two comparison figures.
 
 ### 2. Read the controlled code list (7 minutes)
 
@@ -59,10 +59,10 @@ A fictional chart documents **dental caries, unspecified**. Which code from the 
 - C. R51.9
 - D. R07.9
 
-Circle the answer, then write one preparation fact for a Medical Records Specialist and explain whether its May 2024 median is above or below the course high-wage comparison line.
+Circle the answer, then write one preparation fact for Medical Billing and Coding and explain whether the guide's $50,250 U.S. median is above or below the course high-wage line.
 
 *(d(2)(A), d(5)(B))*
 
 ## Key and supports
 
-The code answer is **B, K02.9**. The career median is $50,250, slightly above the $49,500 same-source comparison. Accept a postsecondary nondegree award/certificate as the typical preparation fact. Use the five-code support section if needed; do not grade partner work as individual accuracy.
+The code answer is **B, K02.9**. The guide's career median is $50,250, slightly above the $49,500 same-source comparison. Accept the FYF/Singley Health Informatics and Medical Billing course sequence or a related postsecondary certificate as preparation evidence. Use the five-code support section if needed; do not grade partner work as individual accuracy.

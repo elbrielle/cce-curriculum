@@ -2,10 +2,10 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters and classify evidence of high-skill, high-wage, or high-demand occupations using labor-market information using evidence from Career Opportunities.
+- **Topic:** User-Centered Design
+- **Objective:** Students will identify how oral-health workers respond to user needs and classify two Health Science careers using labor-market evidence.
 - **TEKS:** d(1)(C), d(5)(B)
-- **Demonstration of Learning:** Labeled toothbrush design + provisional two-career classification.
+- **Demonstration of Learning:** Completed FYF toothbrush prototype + two evidence-based career classifications.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson overview
 
@@ -13,7 +13,7 @@
 |---|---|
 | **Time** | 50 minutes |
 | **TEKS** | d(1)(C), d(5)(B) |
-| **Evidence** | Labeled toothbrush design + provisional two-career classification |
+| **Evidence** | FYF p. 73 prototype + two Canvas classification responses |
 | **Sources** | FYF pp. 72-73; design brief; career evidence guide |
 
 ## Learning target
@@ -28,11 +28,11 @@ Students choose a fictional user: a young child learning to brush, a person with
 
 ### 2. Read the fixed design facts (8 minutes)
 
-Use the design brief instead of an open web search. Students highlight the fact that matters most for their user. The core facts support a soft-bristle brush, a head that reaches needed surfaces, and a handle the user can control.
+Project the fixed design facts instead of assigning open web research. Students highlight the fact that matters most for their user in FYF p. 72. The optional design PDF is an access or no-workbook fallback, not a default class set.
 
 ### 3. Sketch and label (18 minutes)
 
-Students work on FYF p. 73 or the Canvas/paper design brief. A complete prototype labels the bristles, head, handle, one added feature, and the user need addressed. Paper and digital routes are equal.
+Students work in FYF p. 73. A complete prototype labels the bristles, head, handle, one added feature, and the user need addressed. Students without the workbook use the optional Canvas/paper scaffold. Paper and digital routes are equal.
 
 ### 4. Quick feedback and revision (8 minutes)
 

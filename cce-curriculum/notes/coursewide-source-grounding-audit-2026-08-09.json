@@ -1989,8 +1989,7 @@
       "Active Monitoring"
     ],
     "source_families": [
-      "Xello",
-      "BLS / current primary source"
+      "Xello"
     ],
     "fyf_citations": [],
     "unresolved_markers": [],
@@ -2022,8 +2021,13 @@
     "instructional_moves": [
       "Active Monitoring"
     ],
-    "source_families": [],
-    "fyf_citations": [],
+    "source_families": [
+      "FYF",
+      "BLS / current primary source"
+    ],
+    "fyf_citations": [
+      "FYF pp. 84-85"
+    ],
     "unresolved_markers": [],
     "manual_checks": [
       "Verify each cited FYF printed page and named activity against the licensed source.",

@@ -191,7 +191,7 @@ These edits break curriculum soundness if you don't pull the full dependency sco
     - Before writing any "Irving ISD Pathway:" section in a week overview, WebFetch or visit <https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte> and the relevant individual school page. Confirm the pathway exists at the campus you are about to cite.
     - Do NOT rely on PATHWAYS.md alone. PATHWAYS.md is a secondary summary and may drift. The canonical sources always win.
     - When a pathway is multi-campus (Automotive, Cosmetology, Education and Training, Lodging and Resort Management, Digital Communications and Graphic Design, Computer Science), say so explicitly. Do not cite a single campus when the pathway lives at multiple.
-    - When a week topic has NO current Irving ISD pathway home (HVAC/Electrical/Plumbing, Medical Billing, Animation), frame it as career exploration using BLS/CareerOneStop, not as a claim about a local pathway.
+    - When a week topic has NO current Irving ISD pathway home (for example, HVAC/Electrical/Plumbing or Animation), frame it as career exploration using BLS/CareerOneStop, not as a claim about a local pathway. Medical Billing is not in this category: FYF and the 2026-27 High School Course Work list Health Science: Medical Billing at Singley.
     - Grep recipe for auditing an existing week's pathway claim: `grep -nE "Singley|Nimitz|MacArthur|Cardwell|Ratteree|Irving High" docs/<path>/overview.md`. Then verify each hit against the Irving ISD website.
 
 ---

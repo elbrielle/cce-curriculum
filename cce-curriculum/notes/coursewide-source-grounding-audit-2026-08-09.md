@@ -151,8 +151,8 @@ Unresolved `[VERIFY]`/`[TODO]`/`[TBD]` markers detected on **0 day(s)**. Days wi
 | 2SW Wk3 | 5 | Yes | Yes | Yes | Yes | Yes | NO | Yes | Yes | Stop and Jot, Active Monitoring | FYF, Xello, H&L |  |
 | 2SW Wk4 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Climber Notes, H&L, BLS / current primary source |  |
 | 2SW Wk4 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF |  |
-| 2SW Wk4 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | Xello, BLS / current primary source |  |
-| 2SW Wk4 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | **REVIEW** |  |
+| 2SW Wk4 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | Xello, current district coursebook |  |
+| 2SW Wk4 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, BLS / current primary source |  |
 | 2SW Wk4 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | Xello, H&L, BLS / current primary source |  |
 | 2SW Wk5 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF |  |
 | 2SW Wk5 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF |  |

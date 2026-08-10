@@ -27,9 +27,7 @@ I can compare health careers using preparation, responsibilities, pay, and outlo
 
 ## Source and accuracy notes
 
-The core pay figures are May 2024 **U.S. medians** from the Bureau of Labor Statistics. They are not starting pay and are not DFW-localized. Xello may be used for a local figure only when students record the geography, date, and pay measure shown.
-
-The current Irving ISD public page lists **Dental** at Singley Academy. The workbook also introduces Medical Billing and Coding, but the current public page does not verify it as a Singley program. This week therefore teaches medical records and coding as career exploration, not as a district-program promise.
+FYF and the current district coursebook provide the career and program names used throughout the week. Both sources include **Health Science: Dental** and **Health Science: Medical Billing** at Singley, so those are the default teacher- and student-facing names. The evidence guide adds one set of May 2024 **U.S. median** pay figures for a consistent comparison. Those figures support the workbook lesson; they do not rename its careers or replace its district pathway information.
 
 The Day 4 practice set uses the FY 2027 ICD-10-CM diagnosis-code descriptions effective October 1, 2026. It is a small classroom simulation, not medical-coding training or health advice. Every chart is fictional.
 
@@ -37,10 +35,10 @@ The Day 4 practice set uses the FY 2027 ICD-10-CM diagnosis-code descriptions ef
 
 | Day | Focus | Student evidence |
 |---|---|---|
-| 1 | Smile Squad observations and dental careers | Observation record + first two career rows |
-| 2 | Perfect Toothbrush and evidence classification | Labeled design + provisional classification |
-| 3 | Xello Education experiences and Volunteer hours | Xello completion + two current college-credit opportunities |
-| 4 | Medical records and ICD-10-CM simulation | Third career row + coding lab |
+| 1 | Smile Squad observations and dental careers | FYF pp. 69-71 response + two-career Canvas check |
+| 2 | Perfect Toothbrush and evidence classification | FYF p. 73 prototype + two Canvas classifications |
+| 3 | Xello Education experiences and Volunteer hours | Xello report + Canvas college-credit check |
+| 4 | Medical Billing and Coding + ICD-10-CM simulation | Third career row + coding lab |
 | 5 | Three-career decision | 16-point minor evidence check |
 
 ## Core materials
@@ -49,9 +47,9 @@ The Day 4 practice set uses the FY 2027 ICD-10-CM diagnosis-code descriptions ef
 - Climber Notes: *Smile Squad*, slides 2-7 (authenticated Canvas only)
 - [Dental Health and Career Evidence Guide](../../resources/worksheets/2sw-wk4-dental-health-data-guide.pdf)
 - [Three-Career Evidence Comparison](../../resources/worksheets/2sw-wk4-career-evidence-comparison.pdf)
-- [Smile Squad Observation Record](../../resources/worksheets/2sw-wk4-smile-squad-observation-record.pdf)
-- [Toothbrush Design Brief](../../resources/worksheets/2sw-wk4-toothbrush-design-brief.pdf)
-- [Xello Experiences Checkpoint](../../resources/worksheets/2sw-wk4-xello-experiences-checkpoint.pdf)
+- [Smile Squad Observation Record](../../resources/worksheets/2sw-wk4-smile-squad-observation-record.pdf) (optional access/no-workbook scaffold)
+- [Toothbrush Design Brief](../../resources/worksheets/2sw-wk4-toothbrush-design-brief.pdf) (optional access/no-workbook scaffold)
+- [College Credit Opportunity Check](../../resources/worksheets/2sw-wk4-xello-experiences-checkpoint.pdf) (optional one-page Canvas-outage fallback; does not replace Xello)
 - [ICD-10-CM Training Lab](../../resources/worksheets/2sw-wk4-icd10-training-lab.pdf)
 - [Health Career Evidence Check Rubric](../../resources/worksheets/2sw-wk4-evidence-check-rubric.pdf)
 
@@ -64,8 +62,8 @@ Days 1-4 are formative. Day 5 is the recommended **16-point minor checkpoint** o
 - **Xello:** required Grade 8 completion tasks and localized career data when clearly labeled.
 - **Hats & Ladders:** optional career exploration; never the only evidence source.
 - **Canvas:** official directions, licensed images, practice quiz, catch-up path, and submission point.
-- **Paper:** equal route for observation, design, comparison, and coding work.
+- **Paper:** FYF is the default writing surface on Days 1-2. Extra PDFs are access, absence, or no-workbook fallbacks. The Day 4 coding lab and Day 5 comparison remain justified separate artifacts.
 
 ## Teacher readiness check
 
-Before teaching, confirm that the licensed slides and workbook crops load in Canvas, Xello opens through ClassLink, the required Xello tasks appear in Completion Standards, and the Day 4 practice quiz remains unpublished until review. No VILS lab equipment is required.
+Before teaching, confirm that the licensed slides and workbook crops load in Canvas, Xello opens through ClassLink, the required Xello tasks appear in Completion Standards, and the Day 3 and Day 4 practice quizzes remain unpublished until review. Default printing is the Day 4 lab only when students are not completing it in Canvas. No VILS lab equipment is required.
