@@ -17,7 +17,7 @@ This static pass proves whether the authored Canvas source visibly contains the 
 - Monitoring/key guidance visible: **150/180**
 - Concrete language/reading/participation support detected: **171/180**
 - Absence/platform recovery route detected: **180/180**
-- Student start/done contract detected: **167/180**
+- Student start/done contract detected: **172/180**
 - Teacher guide explicitly labels **Topic**: **180/180**
 - Teacher guide explicitly labels **Objective**: **180/180**
 - Teacher guide explicitly labels **Demonstration of Learning / DOL**: **180/180**
@@ -77,6 +77,18 @@ The strict worksheet build is a useful overflow gate, but it does not prove that
 
 **Wk1 verdict:** source sequence, daily contracts, 50-minute timing, answer guidance, response space, and unpublished Canvas build source pass. Live Canvas API verification remains the final deployment gate.
 
+### 2SW Wk3 licensed workbook, Xello, and artifact check - verified
+
+- Day 1 correctly uses FYF printed p. 59 for the Health Science opener and pp. 84-85 as the district-customized HQIM snapshot for Irving programs, IBCs, equipment, and experiences. The current Singley webpage is presented as a separate dated cross-check, not as a silent replacement for the workbook.
+- Days 2-4 correctly use FYF printed pp. 60-61 for `Vitals in Motion`, including role preparation, monitored data, the fictional patient scenario, and the report structure. Climber Notes `Vitals in Motion` slide 2 supplies the locked teacher tool reference.
+- Day 5 protects required Xello `Save careers` for 30 minutes and at least three saved careers. H&L remains supplemental, and a paper note can support access without pretending that required Xello completion occurred.
+- The nursing route guide labels its BLS figures as May 2024 U.S. medians. It keeps route, licensure, local data, and source limits visible so students do not relabel a national median as DFW starting pay.
+- The route-comparison packet follows a researched gradual-release sequence: completed Nursing Assistant model, guided LVN evidence sort, RN/NP comparison, and fictional-student recommendation. Stable facts are supplied; students mark, compare, and decide instead of copying reference text.
+- The clinical handoff and vital-sign simulator artifacts state the nursing worker's role, use fictional data, preserve observation-versus-diagnosis boundaries, and provide response space proportionate to the requested phrases and explanations.
+- All four revised printables passed strict page-count/overflow checks and rendered-page inspection. The three-page route comparison gives each reasoning job a full-width response area instead of compressing several answers into narrow table cells.
+
+**2SW Wk3 verdict:** licensed-source sequence, required Xello minimum, daily contracts, safety boundary, scaffolded artifacts, response space, and the unpublished Canvas package pass.
+
 ## Immediate gates before teacher-copy readiness
 
 1. Verify all 180 days against the authoritative S&S and the exact licensed source. Presence is not accuracy.
@@ -132,11 +144,11 @@ Unresolved `[VERIFY]`/`[TODO]`/`[TBD]` markers detected on **0 day(s)**. Days wi
 | 2SW Wk2 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
 | 2SW Wk2 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
 | 2SW Wk2 | 5 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
-| 2SW Wk3 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Think-Pair-Share / Turn and Talk, Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
-| 2SW Wk3 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Stop and Jot, Active Monitoring | Xello, H&L, BLS / current primary source |  |
-| 2SW Wk3 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Active Monitoring | FYF, Climber Notes, Xello, H&L, BLS / current primary source |  |
-| 2SW Wk3 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | NO | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
-| 2SW Wk3 | 5 | Yes | Yes | Yes | Yes | Yes | NO | Yes | NO | Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 2SW Wk3 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Think-Pair-Share / Turn and Talk, Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 2SW Wk3 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Active Monitoring | FYF, Xello, H&L, BLS / current primary source |  |
+| 2SW Wk3 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Active Monitoring | FYF, Climber Notes, Xello, H&L |  |
+| 2SW Wk3 | 4 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Stop and Jot, Active Monitoring | FYF, Xello, H&L |  |
+| 2SW Wk3 | 5 | Yes | Yes | Yes | Yes | Yes | NO | Yes | Yes | Stop and Jot, Active Monitoring | FYF, Xello, H&L |  |
 | 2SW Wk4 | 1 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF, Climber Notes, H&L, BLS / current primary source |  |
 | 2SW Wk4 | 2 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | FYF |  |
 | 2SW Wk4 | 3 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Active Monitoring | Xello, BLS / current primary source |  |

@@ -2,10 +2,10 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **Topic:** Training Simulation
+- **Objective:** Students will identify how nursing workers use monitored data by building and testing a fictional simulator and explaining the career connection.
 - **TEKS:** d(1)(C)
-- **Demonstration of Learning:** Vital Signs Simulator Build and Test record plus screenshot, share link, or paper trace.
+- **Demonstration of Learning:** Vital Signs Simulator Build and Test record, nursing-work connection, and screenshot, share link, or paper trace.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 

@@ -2,8 +2,8 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **Topic:** Saved Career Evidence
+- **Objective:** Students will identify at least three career opportunities in Xello and explain one current fit using task, preparation, work-condition, or profile evidence.
 - **TEKS:** d(1)(C)
 - **Demonstration of Learning:** Xello record with at least three saved careers plus Xello Save Three Careers Reflection.
 <!-- CCE DAILY CONTRACT END -->

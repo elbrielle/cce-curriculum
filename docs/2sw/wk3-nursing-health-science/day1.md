@@ -2,10 +2,10 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Clusters
-- **Objective:** Students will explore and describe the CTE career clusters and identify career opportunities within one or more career clusters using evidence from Career Clusters.
+- **Topic:** Health Science Careers
+- **Objective:** Students will describe the Health Science cluster and identify nursing-related career opportunities by comparing preparation and responsibility evidence.
 - **TEKS:** d(1)(B), d(1)(C)
-- **Demonstration of Learning:** Nursing Career Route Guide notes and the first two rows of the Nursing Route Comparison.
+- **Demonstration of Learning:** Completed nursing assistant model check and guided LVN section of the Nursing Route Comparison.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -15,7 +15,7 @@
 | **Objectives** | Describe the Health Science cluster; distinguish four nursing-related roles; identify the current Irving ISD pathway name; read a salary source label |
 | **TEKS** | d(1)(B), d(1)(C) |
 | **5E Phases** | Engage: Warm-Up and health fair decision, Explore: cluster and role sort, Explain: source labels and local pathway, Evaluate: route recommendation |
-| **Deliverable** | Nursing Career Route Guide notes and the first two rows of the Nursing Route Comparison |
+| **Deliverable** | Nursing assistant model check plus guided LVN comparison section |
 | **Materials** | FYF pp. 59 and 84-85, embedded Canvas visuals, Nursing Career Route Guide, Nursing Route Comparison |
 
 ## Warm-Up (5 min)
@@ -30,7 +30,7 @@ Sort responses into direct care, testing, administration, and research. Keep dif
 
 Students review the chapter opener and the community health fair prompt. In a Think-Pair-Share, each pair names one booth, the Health Science worker who would staff it, and the information families would leave with.
 
-Use the current district correction before discussing local options: the Irving ISD Singley Academy website lists **Nursing Science**, Physical Therapy, Dental, and Emergency Medical - EMT in the School of Health Science. The printed workbook uses older program wording. Current district pages control when the names differ.
+Treat FYF pp. 84-85 as the assigned district-customized HQIM snapshot. The current Singley Academy webpage separately lists **Nursing Science**, Physical Therapy, Dental, and Emergency Medical - EMT. Keep the source labels visible rather than presenting one list as a correction to the other. Do not promise that every student earns one of the workbook's related IBCs.
 
 ## Activity 2: Four Roles, Four Scopes (15 min)
 
@@ -49,7 +49,7 @@ Do not present the list as a required ladder that every worker climbs in order.
 
 Students circle **May 2024**, underline **U.S.**, and box **median** on the route guide. Explain that the figures are neither starting wages nor DFW guarantees.
 
-Students begin the [Nursing Route Comparison](../../resources/worksheets/2sw-wk3-nursing-route-comparison.pdf) with the nursing assistant and LVN rows. If Xello is available, students may add a current local figure only when they record its geography, date, and measure. H&L is optional and not the source of record.
+Students use the completed nursing assistant model, then mark the LVN evidence bank and complete the guided LVN route statement in the [Nursing Route Comparison](../../resources/worksheets/2sw-wk3-nursing-route-comparison.pdf). If Xello is available, students may add a current local figure only when they record its geography, date, and measure. H&L is optional and not the source of record.
 
 **DOK 2:** How do preparation and responsibility differ between a nursing assistant and an LVN?
 

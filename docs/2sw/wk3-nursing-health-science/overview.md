@@ -53,7 +53,7 @@ Students submit the Nursing Route Comparison and one Observation and Clinical Ha
 
 ## Career Connection
 
-The current Irving ISD Singley Academy page lists **Nursing Science** within the School of Health Science. The public page does not guarantee a particular student certification. The lesson therefore treats Nursing Science as the verified local pathway name and directs teachers to confirm current courses and credential opportunities before making a promise.
+FYF pp. 84-85 are the district-customized HQIM snapshot for Health Science programs, related IBCs, equipment, and experiences. The current Singley Academy webpage separately lists **Nursing Science**, Physical Therapy, Dental, and Emergency Medical - EMT. Keep both labels attached to their sources. A difference is a teacher verification note, not a reason to mark the workbook wrong or promise that every student earns a listed credential.
 
 The dated route guide uses May 2024 U.S. medians from the Bureau of Labor Statistics: nursing assistant $39,530, LVN $62,340, RN $93,600, and nurse practitioner $129,210. These are national medians, not starting wages or DFW pay. Xello is the first choice for a current localized figure when its geography, date, and pay measure are visible.
 
@@ -75,7 +75,7 @@ The micro:bit program is a training simulator. It does not measure a person or f
 
 - FYF p. 59 introduces the Health Science cluster and the community health fair decision.
 - FYF pp. 60-61 provide the "Vitals in Motion" scenario, tool questions, data chart, and report fields.
-- FYF pp. 84-85 provide the printed district context; the current Irving ISD website controls when names differ.
+- FYF pp. 84-85 provide the district-customized instructional snapshot. The current Irving ISD website is a separately dated cross-check when its program labels differ.
 - FYF p. 86 provides the Health Science App Exploration page.
 - Climber Notes: "Vitals in Motion," slide 2 identifies the blood pressure cuff, pulse oximeter, digital thermometer, and stopwatch.
 - BLS, Texas Board of Nursing, Irving ISD, and Microsoft MakeCode supply the dated career, licensure, local-pathway, and coding facts in the CCE guides.

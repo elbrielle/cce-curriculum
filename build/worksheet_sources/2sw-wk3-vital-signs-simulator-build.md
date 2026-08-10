@@ -60,7 +60,7 @@ Why is this program a simulator rather than a medical device?
 
 [[lines: 3]]
 
-How does accurate testing connect to nursing work?
+Name one nursing-related role that uses monitored data. What does that worker do with the information?
 
 [[lines: 3]]
 

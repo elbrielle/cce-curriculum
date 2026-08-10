@@ -2,8 +2,8 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Preparation
-- **Objective:** Students will research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster and use available resources to research and evaluate educational and training options for one or more careers in an identified career cluster using evidence from Career Preparation.
+- **Topic:** Nursing Route Choices
+- **Objective:** Students will compare preparation requirements and salaries across four nursing-related careers and evaluate two RN education routes using source-labeled evidence.
 - **TEKS:** d(2)(A), d(2)(B), d(5)(E)
 - **Demonstration of Learning:** Completed Nursing Route Comparison and Decision.
 <!-- CCE DAILY CONTRACT END -->
@@ -26,7 +26,7 @@ Collect questions about admission, time, cost, approval, license, daily work, an
 
 ## Activity 1: Finish the Four-Role Comparison (20 min)
 
-Students complete RN and nurse practitioner rows on the [Nursing Route Comparison](../../resources/worksheets/2sw-wk3-nursing-route-comparison.pdf), then check all four salary figures against the same May 2024 U.S. median basis.
+Students annotate the RN and nurse practitioner route cards on the [Nursing Route Comparison](../../resources/worksheets/2sw-wk3-nursing-route-comparison.pdf), order all four salary figures on the same May 2024 U.S. median basis, and explain one preparation and one responsibility difference.
 
 Answer key:
 
@@ -61,6 +61,6 @@ Rank nursing assistant, LVN, RN, and nurse practitioner from best to least suita
 
 ## Differentiation
 
-- **Support:** Complete one RN cell together and provide the frame "I recommend _____ because the route requires _____ and the May 2024 U.S. median is _____. The trade-off is _____."
+- **Support:** Revisit the completed nursing assistant model, complete the LVN evidence marks together, and use the recommendation frame printed on the organizer.
 - **Extension:** Compare an approved ADN and BSN program using published tuition and admission information, keeping source date and residency assumptions visible.
 - **ELL:** Pre-teach approved = aprobado, degree = título, licensure exam = examen de licencia, trade-off = compensación. Score evidence and reasoning, not English mechanics.

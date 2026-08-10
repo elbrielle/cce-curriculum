@@ -2,10 +2,10 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **Topic:** Clinical Handoff
+- **Objective:** Students will identify a nursing documentation and handoff responsibility by separating supplied observations, reported symptoms, and unsupported inference.
 - **TEKS:** d(1)(C)
-- **Demonstration of Learning:** Individual Observation and Clinical Handoff Record.
+- **Demonstration of Learning:** Individual Observation and Clinical Handoff Record with a named nursing-role connection.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 

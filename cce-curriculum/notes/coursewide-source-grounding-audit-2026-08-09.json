@@ -1712,8 +1712,9 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
+      "Stop and Jot",
       "Think-Pair-Share / Turn and Talk",
       "Active Monitoring"
     ],
@@ -1724,6 +1725,7 @@
       "BLS / current primary source"
     ],
     "fyf_citations": [
+      "FYF pp. 84-85",
       "FYF pp. 59",
       "FYF p. 59"
     ],
@@ -1752,17 +1754,20 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
       "Stop and Jot",
       "Active Monitoring"
     ],
     "source_families": [
+      "FYF",
       "Xello",
       "H&L",
       "BLS / current primary source"
     ],
-    "fyf_citations": [],
+    "fyf_citations": [
+      "FYF pp. 84-85"
+    ],
     "unresolved_markers": [],
     "manual_checks": [
       "Verify each cited FYF printed page and named activity against the licensed source.",
@@ -1788,18 +1793,19 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
+      "Stop and Jot",
       "Active Monitoring"
     ],
     "source_families": [
       "FYF",
       "Climber Notes",
       "Xello",
-      "H&L",
-      "BLS / current primary source"
+      "H&L"
     ],
     "fyf_citations": [
+      "FYF pp. 84-85",
       "FYF p. 60"
     ],
     "unresolved_markers": [],
@@ -1828,17 +1834,18 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": true,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
+      "Stop and Jot",
       "Active Monitoring"
     ],
     "source_families": [
       "FYF",
       "Xello",
-      "H&L",
-      "BLS / current primary source"
+      "H&L"
     ],
     "fyf_citations": [
+      "FYF pp. 84-85",
       "FYF p. 61"
     ],
     "unresolved_markers": [],
@@ -1866,17 +1873,19 @@
     "answer_key_or_monitoring": true,
     "concrete_eb_support": false,
     "absence_or_platform_route": true,
-    "student_start_and_done_contract": false,
+    "student_start_and_done_contract": true,
     "instructional_moves": [
+      "Stop and Jot",
       "Active Monitoring"
     ],
     "source_families": [
       "FYF",
       "Xello",
-      "H&L",
-      "BLS / current primary source"
+      "H&L"
     ],
-    "fyf_citations": [],
+    "fyf_citations": [
+      "FYF pp. 84-85"
+    ],
     "unresolved_markers": [],
     "manual_checks": [
       "Verify each cited FYF printed page and named activity against the licensed source.",

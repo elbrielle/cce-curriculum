@@ -6,66 +6,110 @@ weeks: 2sw/wk3-nursing-health-science
 audience: student
 variant_of:
 language: en
-pages: 2
+pages: 3
 orientation: portrait
 ---
 
-## Part 1: Compare all four careers
+> **Your path:** See one completed route. Try one with support. Compare two more routes. Then recommend one route for a fictional student.
 
-Use the Nursing Career Route Guide. Do not mix a U.S. median with a local or starting figure without labeling the difference.
+## 1. See one: Nursing assistant
 
-| Career | Preparation and license step | Time or route detail | Pay figure with label | One daily responsibility |
-|---|---|---|---|---|
-| Nursing assistant | | | | |
-| LVN | | | | |
-| RN | | | | |
-| Nurse practitioner | | | | |
+This model shows how to keep four kinds of evidence attached to one career.
 
-## Part 2: Compare education options
+| Evidence job | Completed model |
+|---|---|
+| Preparation | State-approved education program; state competency or certification requirements vary |
+| Route detail | A student must verify the exact state and program requirements |
+| Pay label | **$39,530 · May 2024 · U.S. median** |
+| Responsibility | Measure vital signs and report patient concerns to a nurse |
 
-**RN route A:** Associate degree in nursing
+**Why the model works:** The pay figure keeps its year, geography, and measure. The responsibility names work the person does. The route detail tells the student what still needs verification.
 
-One possible advantage: ______________________________________________________
+## 2. Try one together: Licensed vocational nurse
 
-One question or trade-off: __________________________________________________
+Use the evidence bank. Mark **P** beside preparation, **$** beside pay, and **R** beside responsibility.
 
-**RN route B:** Bachelor's degree in nursing
+- [ ] State-approved vocational nursing program, typically about one year, then licensure
+- [ ] $62,340 · May 2024 · U.S. median
+- [ ] Provide basic medical care and document patient status
 
-One possible advantage: ______________________________________________________
+Complete the route statement with the marked evidence:
 
-One question or trade-off: __________________________________________________
+An LVN commonly completes ____________________________________________________
 
-What must be true of either Texas pre-licensure program before a student enrolls?
+before ______________________________________________________________________.
+
+One responsibility is ________________________________________________________.
+
+The pay evidence is __________________________________________________________.
+
+**Stop and Jot:** What changes from the nursing assistant route to the LVN route?
 
 [[lines: 2]]
 
 [[pagebreak]]
 
-## Part 3: Make a route decision
+## 3. Compare: RN and nurse practitioner
 
-Choose a fictional student:
+Read both route cards. Underline preparation, circle the pay label, and box one responsibility on each card.
+
+> **Registered nurse (RN)**
+>
+> Approved nursing program through an associate, bachelor's, or diploma route, then RN licensure. May 2024 U.S. median: **$93,600**. RNs assess patients, coordinate care, and monitor equipment.
+
+> **Nurse practitioner**
+>
+> RN preparation plus graduate education and advanced-practice licensure. May 2024 U.S. median: **$129,210**. Nurse practitioners assess, diagnose, and manage patient care within state scope.
+
+Put all four careers in order from lowest to highest May 2024 U.S. median. Include each figure.
+
+[[lines: 3]]
+
+Name one preparation difference between the RN and nurse practitioner routes.
+
+[[lines: 2]]
+
+Name one responsibility difference. Do not say only that one role has “more responsibility.”
+
+[[lines: 2]]
+
+[[pagebreak]]
+
+## 4. RN route check: Verify before choosing
+
+Both associate and bachelor's programs can be pre-licensure RN routes. In Texas, the student must verify that the program is approved by the Texas Board of Nursing. Program length, cost, admission, transfer options, and employer preferences can differ.
+
+Circle two facts that matter most for **Avery**, who wants to become an RN and limit time away from paid work:
+
+**program approval · program length · cost and aid · admission · transfer options · employer preferences**
+
+Which route should Avery investigate first: associate degree or bachelor's degree? Name one possible advantage and one fact Avery must verify.
+
+[[lines: 3]]
+
+## 5. Decide: Make a route recommendation
+
+Choose a fictional student for the final recommendation:
 
 - [ ] **Jordan** wants the shortest approved route into direct patient support.
-- [ ] **Avery** wants to become an RN and limit time away from paid work.
+- [ ] **Avery** wants the RN route that best fits work, cost, and long-term plans.
 - [ ] **Sam** wants advanced responsibility and accepts graduate school.
 
 Recommended route: ___________________________________________________________
 
-Use one preparation fact:
+Preparation or license evidence: ______________________________________________
+
+Pay evidence with year, geography, and measure: ________________________________
+
+Trade-off or fact to verify: ___________________________________________________
+
+Complete the frame, then add any detail you need: **I recommend** ____________ **for** ____________ **because**
 
 [[lines: 3]]
 
-Use one pay fact and label it correctly:
+## Done when
 
-[[lines: 3]]
-
-Name one trade-off or question the student should investigate:
-
-[[lines: 3]]
-
-## Accuracy check
-
-- [ ] I compared at least three careers.
+- [ ] I completed the LVN practice and compared all four careers.
 - [ ] I labeled U.S. median, local figure, or starting pay correctly.
-- [ ] I did not promise a salary, license, certification, or admission result.
-- [ ] My recommendation uses evidence, not only the highest number.
+- [ ] I named a preparation or responsibility difference.
+- [ ] My recommendation uses evidence and one trade-off or fact to verify.
