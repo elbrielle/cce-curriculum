@@ -10,15 +10,15 @@ pages: 4
 orientation: portrait
 ---
 
-## Fixed Dataset — Complete Default Route
+## Fixed Samples — Predict Before the Reveal
 
-All values below are fictional classroom evidence using the same staged load and stop rule.
+The three fictional classroom samples use the same staged load and stop rule. Study only the visible systems before you predict.
 
-| Sample | Visible system | Maximum completed stage | Stop evidence |
-|---|---|---:|---|
-| A | Flat beam; two main rails; taped card deck | 2 | Center deck reached displacement mark before Stage 3 |
-| B | Triangulated side frames; cross-braced deck | 5 safe cap | No detached joint or displacement stop at cap |
-| C | Curved/segmented sides; narrow support contact | 3 | One support contact slipped before Stage 4 |
+| Sample | Visible system |
+|---|---|
+| A | Flat beam; two main rails; taped card deck |
+| B | Triangulated side frames; cross-braced deck |
+| C | Curved/segmented sides; narrow support contact |
 
 Before revealing the results, predict which sample will complete the highest stage and cite one visible clue:
 
@@ -29,6 +29,14 @@ Before revealing the results, predict which sample will complete the highest sta
 [[pagebreak]]
 
 ## Reveal and Compare
+
+Your teacher reveals this fictional result card after everyone records a prediction.
+
+| Sample | Maximum completed stage | Stop evidence |
+|---|---:|---|
+| A | 2 | Center deck reached displacement mark before Stage 3 |
+| B | 5 safe cap | No detached joint or displacement stop at cap |
+| C | 3 | One support contact slipped before Stage 4 |
 
 Sample I analyzed: [A / B / C]
 

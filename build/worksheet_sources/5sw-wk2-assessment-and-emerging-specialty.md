@@ -6,7 +6,7 @@ weeks: 5sw/wk2-civil-engineering
 audience: student
 variant_of:
 language: en
-pages: 4
+pages: 3
 orientation: portrait
 ---
 
@@ -20,6 +20,18 @@ orientation: portrait
 | ASVAB | Used by armed services for enlistment eligibility and occupational qualification | Current branch/program requirements and score use |
 
 Sources accessed August 2026: College Board, ACT, Texas Higher Education Coordinating Board, and official military/ASVAB information.
+
+## Emerging Specialty Cards
+
+### Transportation Engineers — O*NET 17-2051.01
+
+Civil-engineering specialty involving transportation systems. Changing work may include intelligent transportation systems, traffic analysis, resilience, and new mobility data. O*NET marks the occupation Bright Outlook. Pay/preparation figures may roll up to Civil Engineers rather than describe a separate local wage.
+
+### Water/Wastewater Engineers — O*NET 17-2051.02
+
+Civil-engineering specialty involving water supply, treatment, collection, and related systems. Changing work may reflect aging infrastructure, water quality, resilience, technology, and regulation. O*NET marks the occupation Bright Outlook. Pay/preparation figures may roll up to Civil Engineers.
+
+**Emerging area:** work that is growing or changing because of technology, policy, infrastructure needs, or environmental conditions. It may exist inside an established occupation.
 
 [[pagebreak]]
 
@@ -44,20 +56,6 @@ Exact question and authorized source to check:
 **Word bank:** readiness · admission · placement · exemption · eligibility · verify
 
 **Use this frame:** This result may affect [goal] because [reason]. It does not decide [boundary] by itself. I would verify [question] with [authorized source].
-
-[[pagebreak]]
-
-## Emerging Specialty Cards
-
-### Transportation Engineers — O*NET 17-2051.01
-
-Civil-engineering specialty involving transportation systems. Changing work may include intelligent transportation systems, traffic analysis, resilience, and new mobility data. O*NET marks the occupation Bright Outlook. Pay/preparation figures may roll up to Civil Engineers rather than describe a separate local wage.
-
-### Water/Wastewater Engineers — O*NET 17-2051.02
-
-Civil-engineering specialty involving water supply, treatment, collection, and related systems. Changing work may reflect aging infrastructure, water quality, resilience, technology, and regulation. O*NET marks the occupation Bright Outlook. Pay/preparation figures may roll up to Civil Engineers.
-
-**Emerging area:** work that is growing or changing because of technology, policy, infrastructure needs, or environmental conditions. It may exist inside an established occupation.
 
 [[pagebreak]]
 

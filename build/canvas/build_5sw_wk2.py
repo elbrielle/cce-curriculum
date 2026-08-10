@@ -355,7 +355,7 @@ async def main():
                 "TITLE": "Assessment Impact and Emerging Work",
                 "PURPOSE": "Explain one possible assessment impact and evaluate two recognized changing engineering specialties.",
                 "TODAY": "<ul><li>read four current assessment cards;</li><li>write one verification question;</li><li>compare two O*NET specialties;</li><li>name a limitation.</li></ul>",
-                "READY": f'<p>Open {link(files["ASSESS"]["id"], "the four-page assessment and specialty packet")} and {link(files["RUBRIC"]["id"], "the student-visible Minor 2 rubric")}.</p>',
+                "READY": f'<p>Open {link(files["ASSESS"]["id"], "the three-page assessment and specialty packet")} and {link(files["RUBRIC"]["id"], "the student-visible Minor 2 rubric")}.</p>',
                 "LANGUAGE": "<p><strong>Word bank:</strong> assessment/evaluación · exemption/exención · placement/colocación · specialty/especialidad · limitation/limitación.</p><p><strong>Use this frame:</strong> This result may affect [goal] because [reason]. It does not decide [boundary] by itself. I would verify [question] with [source].</p>",
                 "STEPS": step(1, "Choose an assessment", "<p>Explain a possible effect on a goal and what the result does not decide by itself.</p>")
                 + step(2, "Verify next", "<p>Write one exact question and name the authorized source that should answer it.</p>")
