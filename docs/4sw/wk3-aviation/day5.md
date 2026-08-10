@@ -15,13 +15,13 @@
 | **Objectives** | Use career, route, and simulation evidence to choose a current direction; write three timed actions with support, backup, and a verification rule; self-score and revise |
 | **TEKS** | d(4)(A), d(1)(C) |
 | **Deliverable** | Private individual Aviation Route and Action Plan with student-visible 16-point rubric |
-| **Materials** | Day 2 evidence guide; Day 4 individual iteration plan; Aviation Route and Action Plan; rubric; optional H&L/Xello/eDynamic access after core submission |
+| **Materials** | Four-page Aviation Route and Action Plan started on Day 2; Day 4 individual iteration evidence; rubric; optional H&L/Xello/eDynamic access after core submission |
 
 ---
 
 ## Before Class
 
-1. Post the private Canvas Assignment, plan, and rubric. Keep it unpublished and ungraded until the Minor group and 40/60 weighting are verified.
+1. Open the existing private 100-point Minor Assignment, four-page plan, and rubric. The importer refuses to proceed unless this assignment remains in Minor Assessments (40%). Keep it unpublished for cloning.
 2. Return or post Day 2 and Day 4 evidence.
 3. Prepare one aviation model and one transportation-career alternative. Students do not have to pretend aviation is their personal goal.
 4. Do not schedule every team for a live three-minute presentation. It consumes the block and makes speaking confidence part of the evidence.
@@ -48,7 +48,7 @@ After both, every student writes one design or communication idea that transferr
 
 ## Activity 2: Reopen the Evidence (10 min)
 
-Students review the Day 2 career/route guide and Day 4 iteration plan. They record:
+Students reopen the Day 2 section of the same four-page plan and review their Day 4 iteration evidence. They record:
 
 1. current career or Transportation direction;
 2. one daily-work fact;

@@ -5,7 +5,7 @@
 - **Topic:** Career Opportunities
 - **Objective:** Students will identify career opportunities within one or more career clusters and investigate and report the steps required to participate or enroll in career and educational opportunities using evidence from Career Opportunities.
 - **TEKS:** d(1)(C), d(3)(G)
-- **Demonstration of Learning:** Completed Aviation Careers and Pilot Routes evidence guide with one source-based route decision.
+- **Demonstration of Learning:** Completed Day 2 evidence section of the Aviation Route and Action Plan with one source-based route decision.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,17 +14,18 @@
 | **Time** | 50 minutes |
 | **Objectives** | Compare commercial pilot, air traffic controller, and aircraft maintenance work; investigate verified steps and tradeoffs in civilian and military pilot preparation; separate national medians from starting or local pay |
 | **TEKS** | d(1)(C), d(3)(G) |
-| **Deliverable** | Completed Aviation Careers and Pilot Routes evidence guide with one source-based route decision |
-| **Materials** | Dated evidence guide; current FAA/BLS source links; optional FYF pp. 160-165 and locked *Flight Line Fixers* deck |
+| **Deliverable** | Completed Day 2 evidence section of the Aviation Route and Action Plan with one source-based route decision |
+| **Materials** | Two-page dated reference; four-page Aviation Route and Action Plan; current FAA/BLS source links; optional FYF pp. 160-165 and locked *Flight Line Fixers* deck |
 
 ---
 
 ## Before Class
 
-1. Post the dated evidence guide. Students should not have to search multiple dense federal pages during a 50-minute block.
-2. Open the FAA careers, pilot-school, and ATC qualification pages plus the BLS career pages as teacher verification sources.
-3. Keep H&L optional. Do not assume the named aviation Hats exist or provide DFW-localized pay.
-4. If offering *Flight Line Fixers*, embed the five licensed images and keep the observation key on the teacher page.
+1. Post or project the two-page dated reference. Print only if students need a personal copy.
+2. Open the four-page Aviation Route and Action Plan. Students complete the Day 2 section now and finish the same artifact on Day 5.
+3. Open the FAA careers, pilot-school, and ATC qualification pages plus the BLS career pages as teacher verification sources.
+4. Keep H&L optional. Do not assume the named aviation Hats exist or provide DFW-localized pay.
+5. If offering *Flight Line Fixers*, embed the five licensed images and keep the observation key on the teacher page.
 
 ## Warm-Up: One Career, Different Preparation (5 min)
 
@@ -36,15 +37,13 @@ Look for eligibility, training sequence, cost or funding, time, service commitme
 
 ## Activity 1: Compare Three Aviation Careers (12 min)
 
-Students use the fixed evidence cards to complete a three-row comparison.
+Students use the fixed reference to record one career's work, preparation, national-median label, and source in the Day 2 plan section. They still compare all three roles before selecting evidence.
 
 | Career | Core work | Common preparation | May 2024 national median | One limit or question |
 |---|---|---|---:|---|
 | Commercial pilot | Fly and navigate aircraft; communicate with crews and ATC | FAA flight training and certificates; some employers require or prefer a degree | $122,670 | Commercial pilot is not the same pay measure as airline pilot |
 | Air traffic controller | Direct aircraft movement and maintain separation | FAA eligibility, testing, academy training, and facility training | $144,580 | Applicants face age, citizenship, medical, security, and selection requirements |
 | Aircraft mechanic/service technician | Inspect, test, repair, and document aircraft systems | Often an FAA-approved maintenance program; other routes may include military or supervised experience | $78,680 | National median is not DFW starting pay |
-
-Students star the role whose daily work most interests them and underline the preparation fact that would require the most planning.
 
 The teacher models the source label: “BLS, May 2024 national median, accessed 2026.” Do not call these figures entry salary, DFW salary, or a guarantee.
 
@@ -68,13 +67,13 @@ Students compare two broad preparation routes using the source-dated table. The 
 
 Military branches and aviation jobs differ. Do not generalize one Air Force example to every branch, promise selection, or describe the route as free flight school. Pay and training are connected to military service and obligation.
 
-Students complete:
+Students use the reference table to compare both routes without recopying it. In the Day 2 section of the final plan, they record:
 
-- two entry steps for each route;
-- one advantage supported by the table;
+- the first route Sam should investigate;
+- one entry step;
 - one tradeoff or uncertainty;
-- one question for an authorized source; and
-- a 3-sentence recommendation for fictional Sam that cites two facts.
+- one question and authorized verification source; and
+- a source-based recommendation for fictional Sam.
 
 ## Activity 3: Irving High and JROTC Boundary (5 min)
 
@@ -83,7 +82,7 @@ The current Irving ISD CTE page lists Aviation Maintenance, Drone Engineering, a
 - Aviation Maintenance and Drone Engineering are CTE pathways whose current course access must be checked with the coursebook and counselor.
 - Marine JROTC teaches citizenship, leadership, and responsibility. It is not pilot training, does not seek a military commitment, and does not guarantee selection for a military aviation job.
 
-Students add one local verification question to the evidence guide.
+Students add one local verification question to the Day 2 plan section.
 
 ## Exit Ticket: Route Decision (5 min)
 
@@ -123,4 +122,4 @@ Students observe and cite image evidence. They do not diagnose a real aircraft, 
 - Use fixed evidence cards, icons, and one chunk at a time.
 - Provide bilingual labels for route, preparation, commitment, verify, and tradeoff.
 - Students may write, type, or record the three-sentence recommendation privately.
-- An absent student completes the same guide without H&L, open search, or a partner.
+- An absent student uses the same posted reference and completes the Day 2 plan section without H&L, open search, or a partner.

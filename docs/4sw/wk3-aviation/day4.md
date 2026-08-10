@@ -5,7 +5,7 @@
 - **Topic:** Goals and Time
 - **Objective:** Students will demonstrate effective time-management and goal-setting strategies and identify career opportunities within one or more career clusters using evidence from Goals and Time.
 - **TEKS:** d(4)(A), d(1)(C)
-- **Demonstration of Learning:** Team Simulation Run Log with three tests plus an individual timed iteration plan.
+- **Demonstration of Learning:** Team Simulation Run Log with three tests plus an individual timed iteration plan and new-scenario response.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,14 +14,14 @@
 | **Time** | 50 minutes |
 | **Objectives** | Use a simplified classroom communication protocol; run three timed airport-map tests; set, schedule, and evaluate one improvement goal |
 | **TEKS** | d(4)(A), d(1)(C) |
-| **Deliverable** | Team Simulation Run Log with three tests plus an individual timed iteration plan |
-| **Materials** | Day 3 maps; classroom aircraft tokens; three scenario cards; Simulation Run Log; role/protocol card; timer |
+| **Deliverable** | Team Simulation Run Log with three tests plus an individual timed iteration plan and new-scenario response |
+| **Materials** | Day 3 maps; classroom aircraft tokens; one-page scenario cards; Lab p. 2 team run log and p. 4 individual evidence; timer |
 
 ---
 
 ## Before Class
 
-1. Place each team's map, tokens, scenario cards, and run log together.
+1. Place each team's map, tokens, one-page scenario card, and Lab p. 2 run log together. Return Lab p. 4 to each student.
 2. Post the five-step classroom protocol and one completed example.
 3. Keep the teacher key available. Do not ask students to improvise real emergency or radio-failure procedures.
 4. Label the activity clearly: this protocol is inspired by airport communication but is not FAA phraseology or operational training.

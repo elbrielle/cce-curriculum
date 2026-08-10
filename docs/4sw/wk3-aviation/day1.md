@@ -5,7 +5,7 @@
 - **Topic:** Career Clusters
 - **Objective:** Students will explore and describe the CTE career clusters and identify career opportunities within one or more career clusters using evidence from Career Clusters.
 - **TEKS:** d(1)(B), d(1)(C)
-- **Demonstration of Learning:** Individual 10-question survey draft: 7 multiple-choice, 3 short-answer, one hypothetical incentive, and one quality revision.
+- **Demonstration of Learning:** Team Transportation Survey Project with 10 questions, a hypothetical incentive, a campaign choice, and an individual survey-quality check.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,17 +14,18 @@
 | **Time** | 50 minutes |
 | **Objectives** | Explore the Transportation, Distribution, and Logistics cluster; design a balanced fictional community transportation survey; explain how a Transportation Needs Analyst uses the results |
 | **TEKS** | d(1)(B), d(1)(C) |
-| **Deliverable** | Individual 10-question survey draft: 7 multiple-choice, 3 short-answer, one hypothetical incentive, and one quality revision |
+| **Deliverable** | Team Transportation Survey Project with 10 questions, a hypothetical incentive, a campaign choice, and an individual survey-quality check |
 | **Materials** | FYF pp. 149, 166-167; Transportation Survey Design packet; optional sticky notes; Canvas practice Quiz |
 
 ---
 
 ## Before Class
 
-1. Post the Survey Design packet and the Day 1 Student Guide.
+1. Print the three-page Survey Project packet once per team or assign one shared digital copy. Post the Day 1 Student Guide.
 2. Open FYF p. 149 and pp. 166-167.
 3. Keep the survey fictional. Students do not collect names, addresses, contact information, schedules, or real responses.
-4. Open the unpublished Canvas practice Quiz for the closing check.
+4. Teach four accountable jobs: facilitator/timekeeper, question writer, choice checker, and campaign designer.
+5. Open the unpublished Canvas practice Quiz for each student's closing check.
 
 ## Warm-Up: Visible and Hidden Transportation Work (5 min)
 
@@ -32,7 +33,7 @@ Students list three people whose work supports a commercial flight or city trans
 
 Do not use an unsupported total such as “100+ people.” The instructional point is that the cluster includes planning, operations, maintenance, and safety careers, not one exact staffing count.
 
-## Activity 1: Read the Cluster and the Problem (8 min)
+## Activity 1: Read the Cluster and the Problem (7 min)
 
 **Source:** FYF p. 149 and p. 166
 
@@ -44,17 +45,17 @@ Read the cluster definition and the fictional Transportation Needs Analyst scena
 
 Name the workbook sequence before students begin: discuss the transportation problem, then draft the survey. H&L cluster exploration may be offered after the core work, but it is not required to complete today's evidence.
 
-## Activity 2: Build the Survey (27 min)
+## Activity 2: Build the Team Survey (23 min)
 
 **Source:** FYF pp. 166-167
 
-### A. Define the fictional audience (4 min)
+### A. Define the fictional audience (3 min)
 
 Students choose one audience from the packet, such as students traveling to school, adults working evening shifts, older adults reaching appointments, or residents without a car. They write one transportation need the survey should investigate.
 
-### B. Draft 10 questions (16 min)
+### B. Draft 10 questions (14 min)
 
-Each student writes:
+Each team writes:
 
 - 7 multiple-choice questions with answer choices that cover realistic responses; and
 - 3 short-answer questions that ask for explanation or an idea.
@@ -69,11 +70,11 @@ Monitor for three common defects:
 
 ### C. Add a hypothetical incentive (3 min)
 
-Students name one realistic incentive and explain why it might increase response. It is a design decision, not a real offer. Do not promise gift cards, tickets, food, or transit passes.
+Teams name one realistic incentive and explain why it might increase response. It is a design decision, not a real offer. Do not promise gift cards, tickets, food, or transit passes.
 
-### D. Run the quality check (4 min)
+### D. Run the quality check (3 min)
 
-Partners exchange only the survey draft, not personal transportation stories. Each partner checks:
+The choice checker leads one team review. Students check:
 
 - 7 multiple-choice and 3 short-answer questions;
 - neutral wording;
@@ -81,30 +82,30 @@ Partners exchange only the survey draft, not personal transportation stories. Ea
 - no unnecessary private information; and
 - a clear connection to the fictional audience.
 
-Each student revises one question and marks the change.
+The team revises one question and marks the change.
 
-## Activity 3: Connect Survey Evidence to a Career (5 min)
+## Activity 3: Add the Campaign Choice (7 min)
 
-Students answer in the packet:
+**Source:** FYF p. 167, Step 4
 
-1. What pattern could the survey reveal?
-2. What could a Transportation Needs Analyst recommend after seeing that pattern?
-3. Which second Transportation career would help carry out the recommendation?
+Teams choose a flyer, morning announcement, social-post mockup, or another teacher-approved format. They explain why it fits the fictional audience. This is a campaign plan, not a public post.
 
-Use the fixed role list in the packet. Students should not need a live platform or open search.
+## Activity 4: Quality Revision (3 min)
+
+Each team marks one question that failed a quality check, revises it, and records why the change improves the evidence.
 
 ## Exit Ticket: Canvas Practice Check (5 min)
 
 **EXIT TICKET** (Mini-Case) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day1-transportation-cluster-and-survey-design.pdf):
 
-Students complete the unpublished four-question practice Quiz. The items check neutral wording, useful answer choices, privacy, and the analyst-to-career connection. Unlimited attempts and immediate feedback make this formative.
+Each student completes the unpublished four-question practice Quiz. The items check neutral wording, useful answer choices, privacy, and the analyst-to-career connection. Unlimited attempts and immediate feedback make this formative and keeps individual evidence inside the team task.
 
 1. Which question is more neutral: “Wouldn't a faster bus help everyone?” or “How often would you use a bus that arrived every 20 minutes?” Explain.
 2. Name one answer-choice defect that can make survey results misleading.
 3. Name one piece of private information this fictional survey should not collect.
 4. Explain one action a Transportation Needs Analyst could take after finding a repeated access problem.
 
-If Canvas is unavailable, use the four-item paper check in the packet.
+If Canvas is unavailable, read the four questions aloud and collect a half-sheet or private typed response.
 
 *(d(1)(B), d(1)(C))*
 
@@ -119,6 +120,6 @@ If Canvas is unavailable, use the four-item paper check in the packet.
 
 - Provide sentence frames and the model/non-example pair.
 - Students may type, use speech-to-text, or write by hand.
-- A student without a partner completes the self-check column.
+- A student without a team completes a shortened five-question survey and the same individual quality check.
 - An absent student uses the embedded FYF images, the fixed audience choices, and the paper or Canvas packet.
 - Optional extension: build the survey in an approved form tool using fictional questions only. Do not distribute it or collect real responses.

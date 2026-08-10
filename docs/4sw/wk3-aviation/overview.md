@@ -8,7 +8,7 @@ Students use the *Find Your Future* Transportation Survey Project, a dated FAA/B
 
 **Learning Target:** I can identify aviation careers, compare preparation routes with current evidence, and use a timed plan to improve a team airport-operations test.
 
-**Success Criteria:** I will know I am successful when my survey has 7 multiple-choice questions, 3 short-answer questions, and one hypothetical incentive; my career evidence distinguishes job duties, preparation, national median pay, and limits; my team's airport map passes the five design checks; my run log records three tests and revisions; and my individual plan names a route, three timed actions, a backup, and one fact to verify.
+**Success Criteria:** I will know I am successful when my team survey has 7 multiple-choice questions, 3 short-answer questions, a hypothetical incentive, a campaign choice, and a visible revision; my individual career evidence keeps the source and pay label; my team's airport map passes the design checks; my run log records three tests and revisions; and my individual plan names a route, three timed actions, a backup, and one fact to verify.
 
 ## Demonstration of Learning
 
@@ -25,12 +25,12 @@ Students use the *Find Your Future* Transportation Survey Project, a dated FAA/B
 
 - Chromebooks or tablets
 - *Find Your Future* workbook pp. 149, 166-170
-- Transportation Survey Design packet
-- Aviation Careers and Pilot Routes evidence guide
-- Airport Design and Simulation Lab packet
+- Three-page Transportation Survey Project, one per team or one shared digital copy
+- Two-page Aviation Careers and Pilot Routes reference, posted or projected by default
+- Four-page Airport Design and Simulation Lab, pp. 1-2 team and pp. 3-4 individual
 - Classroom aircraft tokens: LEGO pieces, counters, sticky notes, or paper markers
 - One route per team: LEGO/baseplate, paper and markers, or the district-enabled Lucid whiteboard integration
-- Aviation Route and Action Plan plus student-visible rubric
+- Four-page Aviation Route and Action Plan started Day 2 and finished Day 5, plus student-visible rubric
 - Optional licensed extension: FYF pp. 160-165 and Climber Notes, *Flight Line Fixers*, slides 2-6
 
 ## Source Boundaries
@@ -49,7 +49,7 @@ The workbook's district page says Aviation students use two full-motion flight s
 
 ## Workbook Grounding
 
-- **Transportation Survey Project** (FYF pp. 166-167) is the Day 1 spine. Students act as Transportation Needs Analysts, discuss a fictional community need, design a 10-question survey, and propose a hypothetical incentive. Page 166 has a layout quirk, but the printed activity still reads Step 1 before Step 2: discuss the challenge, then build the survey.
+- **Transportation Survey Project** (FYF pp. 166-167) is the Day 1 spine. Teams act as Transportation Needs Analysts, discuss a fictional community need, design a 10-question survey, propose a hypothetical incentive, and choose the Step 4 campaign format. Accountable jobs keep the group work teachable; the Canvas Quiz supplies each student's quality and career evidence.
 - **Flight Line Fixers** (FYF pp. 160-165) remains an optional Day 2 extension. The Climber deck provides five aircraft photos. Students observe rather than diagnose. A photo with no visible flag does not prove an aircraft is safe, and a middle-school classroom decision never replaces an authorized inspection or the actual Minimum Equipment List process.
 - **District pages and App Exploration** (FYF pp. 168-170) provide the local Aviation Maintenance context and optional H&L route.
 
@@ -57,8 +57,8 @@ The workbook's district page says Aviation students use two full-motion flight s
 
 | Day | Focus | Core Student Action | Evidence |
 |---|---|---|---|
-| 1 | Transportation survey design | Build and quality-check a 10-question survey | Individual survey draft and practice check |
-| 2 | Aviation careers and preparation routes | Compare three careers and civilian/military pilot steps | Source-dated route decision |
+| 1 | Transportation survey design | Build and quality-check a team survey and campaign choice | Team project plus individual practice check |
+| 2 | Aviation careers and preparation routes | Compare three careers and civilian/military pilot steps | Day 2 section of the final plan |
 | 3 | Airport map design | Plan and build through LEGO, paper, or Lucid | Team map plus individual design note |
 | 4 | Test and revise | Run three fictional scenarios with timed revisions | Team run log plus individual iteration plan |
 | 5 | Route and action plan | Choose a route, plan three timed actions, add support and backup | Private individual plan and self-score |
@@ -66,7 +66,7 @@ The workbook's district page says Aviation students use two full-motion flight s
 ## Assessment Map
 
 - **Formative:** Day 1 survey quality check; Day 3 design checkpoint; Day 4 run log and communication check.
-- **Recommended minor:** Aviation Route and Action Plan, 16 points, combining the Day 2 source-based route decision with the Day 5 individual plan. Confirm the live Minor assignment group and 40/60 weights before grading.
+- **Minor 1:** Aviation Route and Action Plan, 16-point evidence profile converted to the existing 100-point assignment in Minor Assessments (40%). It combines the Day 2 source-based route decision with the Day 5 individual plan and remains unpublished for teacher cloning.
 - **Not separately graded:** H&L clicks, optional Xello/eDynamic work, LEGO quality, acting confidence, and team presentation.
 
 The four rubric criteria are source accuracy, route reasoning, timed action plan, and support/backup/revision. Score content and evidence, not accent, public speaking, family military experience, drawing skill, construction material, or English mechanics unless meaning is unclear.
@@ -74,7 +74,7 @@ The four rubric criteria are source accuracy, route reasoning, timed action plan
 ## Teacher Readiness and Safety
 
 - Select the build route before class. Do not require every campus to have LEGO.
-- Preload one model airport map and the three scenario cards. Student pages carry the complete absence route.
+- Preload one model airport map and the one-page scenario set. Student pages carry the complete absence route.
 - Keep the military comparison neutral. Students do not share family service history and are never pushed toward or away from service.
 - Do not collect real community survey responses, names, addresses, schedules, or contact information. The survey remains a fictional design task.
 - No student operates aircraft or drones. This week uses paper, digital, or tabletop models only.

@@ -1,140 +1,125 @@
 ---
-title: Transportation Survey Design
+title: Transportation Survey Project
 slug: 4sw-wk3-transportation-survey-design
 kind: worksheet
 weeks: 4sw/wk3-aviation
 audience: student
 variant_of:
 language: en
-pages: 4
+pages: 3
 orientation: portrait
 ---
 
-## A fictional survey, not a real data collection
+## Team brief
 
-Do not collect names, addresses, phone numbers, schedules, or real responses. Design the questions only.
+Design a survey for the fictional transportation problem in FYF pp. 166-167. Do not distribute it or collect real responses. Do not ask for names, addresses, phone numbers, schedules, or other private information.
 
-## 1. Define the problem
+**Word bank:** neutral · answer choice · private information · campaign
 
-Choose one fictional audience:
-
-- [ ] Students traveling to school
-- [ ] Adults working evening shifts
-- [ ] Older adults reaching appointments
-- [ ] Residents without a car
+**Audience:** [ ] students traveling to school  [ ] evening-shift workers  [ ] older adults reaching appointments  [ ] residents without a car
 
 Transportation need to investigate:
 
 [[lines: 2]]
 
-One Transportation career that could study or solve this need: ___________________
+One Transportation career that could study or solve this need: __________________
 
-Evidence that person would need:
+Evidence that worker would need:
 
 [[lines: 2]]
 
-## 2. Check the models
+## Team jobs
 
-**Neutral multiple choice:** How often would you use a bus that arrived every 20 minutes? Never / 1-2 days a week / 3-4 days / 5 or more days / Not sure
+| Team member | Job | Evidence this person will check |
+|---|---|---|
+|  | Facilitator / timekeeper | Audience and need stay clear |
+|  | Question writer | Ten questions are complete |
+|  | Choice checker | Wording and choices are neutral |
+|  | Campaign designer | Incentive and campaign fit the audience |
 
-**Leading non-example:** Wouldn't a faster bus make your life much better? Yes / No
+## Model and non-example
 
-**Useful short answer:** What is one transportation barrier this fictional community should address?
+**Neutral:** How often would you use a bus that arrived every 20 minutes? Never / 1-2 days / 3-4 days / 5 or more days / Not sure
 
-Explain one defect in the non-example:
+**Leading:** Wouldn't a faster bus make your life much better? Yes / No
+
+Circle the defect in the non-example: **leading wording / incomplete choices / private information**
+
+**Use this frame:** “The question is useful because ____. We revised ____ so the answers would ____.”
+
+[[pagebreak]]
+
+## Seven multiple-choice questions
+
+Write the question and its answer choices. Include “other” or “not sure” only when it closes a real gap.
+
+### 1
+
+[[lines: 2]]
+
+### 2
+
+[[lines: 2]]
+
+### 3
+
+[[lines: 2]]
+
+### 4
+
+[[lines: 2]]
+
+### 5
+
+[[lines: 2]]
+
+### 6
+
+[[lines: 2]]
+
+### 7
 
 [[lines: 2]]
 
 [[pagebreak]]
 
-## 3. Draft seven multiple-choice questions
+## Three short-answer questions
 
-Write each question and its answer choices. Include “other” or “not sure” only when it closes a real gap.
-
-### Question 1
-
-[[lines: 3]]
-
-### Question 2
-
-[[lines: 3]]
-
-### Question 3
-
-[[lines: 3]]
-
-### Question 4
-
-[[lines: 3]]
-
-[[pagebreak]]
-
-### Question 5
-
-[[lines: 3]]
-
-### Question 6
-
-[[lines: 3]]
-
-### Question 7
-
-[[lines: 3]]
-
-## 4. Draft three short-answer questions
-
-### Question 8
+### 8
 
 [[lines: 2]]
 
-### Question 9
+### 9
 
 [[lines: 2]]
 
-### Question 10
+### 10
 
 [[lines: 2]]
 
-[[pagebreak]]
+## Incentive and campaign
 
-## 5. Hypothetical incentive
+Hypothetical incentive: ______________________________________________________
 
-Incentive idea: _____________________________________________________________
+Why it could increase response:
 
-Why it might increase response:
+[[lines: 1]]
 
-[[lines: 2]]
+FYF campaign choice: [ ] flyer  [ ] morning announcement  [ ] social post mockup  [ ] other: __________
 
-This is a design idea only. Do not promise or distribute anything.
+Why this format fits the fictional audience:
 
-## 6. Quality check and revision
+[[lines: 1]]
+
+## Quality check and revision
 
 | Check | Yes | Revise |
 |---|:---:|:---:|
-| Exactly 7 multiple-choice and 3 short-answer questions |  |  |
-| Neutral wording |  |  |
-| Complete, non-overlapping answer choices |  |  |
+| 7 multiple-choice and 3 short-answer questions |  |  |
+| Neutral wording and distinct answer choices |  |  |
 | No unnecessary private information |  |  |
 | Clear connection to the fictional audience |  |  |
 
-Question number revised: ______
-
-What changed and why:
-
-[[lines: 2]]
-
-## 7. Connect evidence to work
-
-Pattern this survey could reveal:
-
-[[lines: 1]]
-
-One recommendation a Transportation Needs Analyst could make:
-
-[[lines: 1]]
-
-Second Transportation career that could help: _________________________________
-
-How that career would help:
+Question revised: ______  What changed and why:
 
 [[lines: 1]]

@@ -5,7 +5,7 @@
 - **Topic:** Career Opportunities
 - **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
 - **TEKS:** d(1)(C)
-- **Demonstration of Learning:** Team airport map plus individual design note and readiness check.
+- **Demonstration of Learning:** Team airport map and readiness check plus an individual design note that names an aviation role and work product.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,17 +14,18 @@
 | **Time** | 50 minutes |
 | **Objectives** | Identify airport-operations roles; design a map that supports a fictional movement simulation; test sightline, route, gate, and labeling constraints |
 | **TEKS** | d(1)(C) |
-| **Deliverable** | Team airport map plus individual design note and readiness check |
-| **Materials** | Airport Design and Simulation Lab packet; aircraft tokens; one equal build route per team: LEGO, paper/markers, or Canvas-enabled Lucid whiteboard |
+| **Deliverable** | Team airport map and readiness check plus an individual design note that names an aviation role and work product |
+| **Materials** | Four-page Airport Design and Simulation Lab; pp. 1-2 team and pp. 3-4 individual; aircraft tokens; one equal build route per team: LEGO, paper/markers, or Canvas-enabled Lucid whiteboard |
 
 ---
 
 ## Before Class
 
 1. Choose the primary build route. LEGO is recommended when available, but paper and Lucid are equal.
-2. Post one completed fictional model and one non-example.
-3. Prepare four aircraft tokens per team. Sticky notes, counters, or paper labels work.
-4. Do not use live airport maps as the only model. The student packet contains the complete schematic and vocabulary route.
+2. If using paper, print Lab pp. 1-2 once per team and pp. 3-4 once per student. Do not print four full packets per team.
+3. Post one completed fictional model and one non-example.
+4. Prepare four aircraft tokens per team. Sticky notes, counters, or paper labels work.
+5. Do not use live airport maps as the only model. The student packet contains the complete route and vocabulary.
 
 ## Warm-Up: Who Needs the Map? (5 min)
 

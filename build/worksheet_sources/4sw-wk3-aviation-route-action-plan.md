@@ -6,13 +6,47 @@ weeks: 4sw/wk3-aviation
 audience: student
 variant_of:
 language: en
-pages: 6
+pages: 4
 orientation: portrait
 ---
 
-## A current direction, not a lifetime promise
+## Day 2 · Evidence and route decision
 
-Choose one:
+Use the two-page Aviation Careers and Pilot Routes reference. Do not copy a salary without its label.
+
+Career: __________________  Daily-work fact: __________________________________
+
+Preparation fact:
+
+[[lines: 2]]
+
+Pay figure and full label: ____________________________________________________
+
+First route fictional Sam should investigate: _________________________________
+
+One entry step:
+
+[[lines: 2]]
+
+One tradeoff or uncertainty:
+
+[[lines: 2]]
+
+Before deciding, Sam must verify __________________ with _______________________
+
+Why that source or person is authorized:
+
+[[lines: 1]]
+
+**Source and access date:** ___________________________________________________
+
+**Use this frame:** “The ____ route may fit Sam because ____. A tradeoff is ____. Before deciding, Sam must verify ____ with ____.”
+
+[[pagebreak]]
+
+## Day 5 · Current direction and first action
+
+Choose one. Your choice is not graded.
 
 - [ ] I want to investigate one aviation route further.
 - [ ] I like the work but need a different preparation route.
@@ -20,27 +54,11 @@ Choose one:
 
 Current career or Transportation direction: ___________________________________
 
-One Day 2 fact that supports this direction:
+One evidence-based reason:
 
 [[lines: 3]]
 
-One fact that could make me revise it:
-
-[[lines: 3]]
-
-[[pagebreak]]
-
-## Reopen the evidence
-
-Daily-work fact:
-
-[[lines: 2]]
-
-Preparation step:
-
-[[lines: 2]]
-
-Tradeoff or eligibility question:
+One fact that could make me revise this direction:
 
 [[lines: 3]]
 
@@ -48,79 +66,65 @@ Communication or systems skill from the simulation:
 
 [[lines: 3]]
 
-Source, date, geography, and measure:
-
-[[lines: 3]]
-
-## Stage 1: Within seven days
+### Stage 1 · Within seven days
 
 Action with a clear verb:
 
-[[lines: 3]]
+[[lines: 1]]
 
-Evidence that will show it is complete:
+Specific day/time block: __________________  Minutes: ______
+
+Evidence that will show completion:
 
 [[lines: 2]]
 
-Specific day and time block: _________________________________________________
+[[pagebreak]]
 
-Person or source that can support it: _________________________________________
+## Stages 2 and 3
 
-Equal backup if the first route is unavailable:
-
-[[lines: 3]]
-
-## Stage 2: Before the next counseling meeting
+### Stage 2 · Before the next counseling meeting
 
 Course, eligibility, access, or preparation question:
 
-[[lines: 3]]
+[[lines: 2]]
 
-When I will check it: ________________________________________________________
+When I will check it: __________________  Authorized person/source: __________________
 
-Person or source authorized to answer it: _____________________________________
+Evidence that will show completion:
 
-Evidence that will show it is complete:
+[[lines: 2]]
 
-[[lines: 3]]
-
-[[pagebreak]]
-
-## Stage 3: During Grade 9 or after high school
+### Stage 3 · During Grade 9 or after high school
 
 Longer preparation step:
 
-[[lines: 3]]
+[[lines: 2]]
 
-Label: [ ] Current requirement  [ ] Conditional  [ ] Still unverified
+Label: [ ] current requirement  [ ] conditional  [ ] still unverified
 
 Why this label is honest:
 
-[[lines: 3]]
+[[lines: 1]]
 
 Evidence that will show progress:
 
-[[lines: 3]]
+[[lines: 2]]
 
-## Time, obstacle, and revision
+### Protect the plan
 
-Weekly time block for Stage 1: ________________________________________________
+Support: ______________________________  Likely obstacle: ______________________________
 
-Likely obstacle:
+Equal backup action:
 
-[[lines: 3]]
+[[lines: 1]]
 
-Backup action:
+Condition that would make me revise the plan:
 
-[[lines: 3]]
-
-Condition that would make me revise this plan:
-
-[[lines: 4]]
+[[lines: 2]]
 
 [[pagebreak]]
 
-## Self-score and revise
+## Self-score, revise, and submit
 
 | Criterion | My level, 0-4 | Evidence I can point to |
 |---|:---:|---|
@@ -137,11 +141,12 @@ Revision I made after self-scoring:
 
 ## Submission check
 
-- [ ] Current direction and evidence-based reason
-- [ ] Daily-work and preparation facts
-- [ ] Three timed stages
-- [ ] Source and access date
-- [ ] Support, obstacle, backup, and revision condition
+- [ ] One source-labeled fact and route tradeoff from Day 2
+- [ ] Current direction with an evidence-based reason
+- [ ] Three timed stages with completion evidence
+- [ ] Support, obstacle, equal backup, and revision condition
 - [ ] One visible revision after self-scoring
 
-Private submission route: [ ] Canvas text  [ ] File  [ ] Media  [ ] Paper
+Private submission: [ ] Canvas text  [ ] file  [ ] media  [ ] paper
+
+**Planning frame:** “By ____, I will ____ for ____ minutes. I will know it is complete when ____. If ____ happens, I will ____ instead.”
