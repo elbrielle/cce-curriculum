@@ -323,7 +323,11 @@ Tracked at `docs/resources/resources-status.md`.
 **Pipeline available — content/design work needed:**
 
 1. **Summative worksheets** for high-stakes assessments (6SW Wk6 Capstone rubric, 4SW Wk2 Career Plan, 5SW Wk5 Budget). The exit-ticket PDF pipeline (`build/build_pdfs.py`) can be reused for summative worksheets, but each worksheet type needs its own design template (per-format Jinja branch + CSS additions). Coordinate with the design team before authoring.
-2. **Presentation slides** (5SW Wk1 prototype first). Same pipeline could render slide PDFs from markdown if a slide template were authored.
+2. **Optional whole-group lesson decks** after each lesson's source-grounding and
+   Canvas pair pass. Use the binding 16:9 HTML/CSS -> PNG -> PPTX workflow in
+   `cce-curriculum/notes/optional-whole-group-slide-deck-workflow.md`. The deck
+   must carry the lesson from bellringer through DOL, include facilitation and
+   source notes, and stay inside locked Canvas when it contains licensed HQIM.
 3. **Teacher edition / answer keys** for the high-stakes summatives — once those summative worksheet templates exist.
 
 **Content-actionable (can build in markdown today):**

@@ -202,6 +202,15 @@ For every proposed interaction, record four answers in the week audit:
 
 Reject a tool when the only benefit is novelty. The student should still have one obvious starting point in the weekly module, consistent day labels, and a visible completion checklist. This follows the recurring practitioner signal that students lose time when course materials are split across Pages, Files, Assignments, and external sites without a module-first route.
 
+### Optional whole-group lesson decks
+
+Build optional teacher projection decks only after the lesson's source-grounding
+pass and coordinated Teacher/Student pair are stable. Follow
+`cce-curriculum/notes/optional-whole-group-slide-deck-workflow.md`. The approved
+route is fixed 16:9 HTML/CSS -> per-slide PNG -> PPTX, with the complete lesson
+sequence, facilitation and source notes, full render QA, and the same
+authenticated-Canvas licensing boundary used by the lesson pages.
+
 ## 5. Build safely through the Canvas API
 
 Use an idempotent importer under `build/canvas/`. It should:
