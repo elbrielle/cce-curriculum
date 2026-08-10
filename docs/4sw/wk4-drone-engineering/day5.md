@@ -3,9 +3,9 @@
 ## Daily Learning Contract
 
 - **Topic:** Emerging Careers
-- **Objective:** Students will research and evaluate emerging occupations related to career interest areas and research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Emerging Careers.
+- **Objective:** Students will research and evaluate emerging occupations, describe preparation requirements, identify transferable skills, and classify careers using evidence from Emerging Careers.
 - **TEKS:** d(1)(D), d(2)(A), d(4)(B), d(5)(B)
-- **Demonstration of Learning:** Private individual 16-point Drone Systems Evidence Brief.
+- **Demonstration of Learning:** Private individual 16-point Drone Systems Evidence Brief with visible self-score and revision.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,8 +14,8 @@
 | **Time** | 50 minutes |
 | **Objectives** | Synthesize design, occupation, rule, and test evidence; classify a drone-enabled occupation with the published course rule; revise and submit a private evidence brief |
 | **TEKS** | d(1)(D), d(2)(A), d(4)(B), d(5)(B) |
-| **Deliverable** | Private individual 16-point Drone Systems Evidence Brief |
-| **Materials** | Days 1-4 evidence; Evidence Brief; student-visible rubric; private unpublished Canvas Assignment |
+| **Deliverable** | Private individual 16-point Drone Systems Evidence Brief with self-score and visible revision |
+| **Materials** | Days 1-4 evidence; four-page Evidence Brief; two-page student-visible rubric; private unpublished Canvas Assignment |
 
 ---
 
@@ -34,13 +34,13 @@ Students correct:
 
 Expected corrections: occupation-specific data is required; indoor-only operations are outside Part 107; outdoor educational operation rules must be identified; and a pathway prepares rather than guarantees.
 
-## Activity 1: Evidence Gallery Without Presentations (8 min)
+## Activity 1: Evidence Gallery Without Presentations (5 min)
 
 Display two blueprint revisions and two test-log revisions without student names. Students record one design idea and one testing idea that could transfer to their own evidence. This replaces five four-minute team presentations and protects individual work time.
 
-## Activity 2: Rebuild the Classification (10 min)
+## Activity 2: Reopen the Evidence (8 min)
 
-Students select one of the three fixed occupations and record:
+Students reopen the fixed occupation, rule, design, and test evidence they will use. For the selected occupation, they confirm:
 
 - exact occupation title;
 - preparation and specialized duty evidence;
@@ -50,7 +50,7 @@ Students select one of the three fixed occupations and record:
 
 All three occupations may meet the course rule. The reasoning and labels, not variety, are the evidence.
 
-## Activity 3: Write the Four-Part Brief (20 min)
+## Activity 3: Write the Four-Part Brief (25 min)
 
 ### Part 1: User need and design response
 
@@ -81,9 +81,9 @@ Students score four criteria:
 
 They revise the weakest part and submit by upload, text, private media, or paper.
 
-## Exit Ticket: Evidence Audit (within Activity 4)
+## Exit Check: Evidence Audit (within Activity 4)
 
-**EXIT TICKET** (3-2-1 Reflective) · [Printable PDF](../../resources/exit-tickets/4sw-wk4-day5-drone-systems-evidence-brief.pdf):
+Students record this audit in the brief or private submission. A separate exit-ticket print is not required:
 
 - **3:** three source or rule labels I kept accurate;
 - **2:** two occupations connected by one transferable skill; and

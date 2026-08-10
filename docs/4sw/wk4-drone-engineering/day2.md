@@ -3,9 +3,9 @@
 ## Daily Learning Contract
 
 - **Topic:** Emerging Careers
-- **Objective:** Students will research and evaluate emerging occupations related to career interest areas and research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Emerging Careers.
+- **Objective:** Students will research and evaluate emerging occupations related to career interest areas, describe preparation requirements, and classify careers as high skill, high wage, or high demand using evidence from Emerging Careers.
 - **TEKS:** d(1)(D), d(2)(A), d(5)(B)
-- **Demonstration of Learning:** Individual Drone-Enabled Occupations evidence table and three source-based classifications.
+- **Demonstration of Learning:** Five-question Drone-Enabled Occupations evidence check with source labels, preparation, classification, tradeoff, and verification step.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,14 +14,14 @@
 | **Time** | 50 minutes |
 | **Objectives** | Compare three occupations that may use, interpret, test, or support drone systems; retain correct pay and growth labels; classify each occupation with a published course rule |
 | **TEKS** | d(1)(D), d(2)(A), d(5)(B) |
-| **Deliverable** | Individual Drone-Enabled Occupations evidence table and three source-based classifications |
-| **Materials** | Dated BLS evidence guide; classification rule card; Canvas practice Quiz |
+| **Deliverable** | Five-question individual evidence check with feedback repair |
+| **Materials** | Two-page dated occupation reference posted or projected; Canvas practice Quiz; oral/paper five-question fallback |
 
 ---
 
 ## Before Class
 
-1. Post the fixed evidence guide. Do not send students through five industries and unrestricted search.
+1. Post or project the two-page fixed evidence reference. Default printing is none. Do not send students through five industries and unrestricted search.
 2. Open current BLS pages for Surveying and Mapping Technicians, Cartographers and Photogrammetrists, and Aerospace Engineering and Operations Technologists/Technicians.
 3. Post the classroom classification rule and the May 2024 all-occupations median/growth comparison.
 4. Open the unpublished retryable Quiz.
@@ -47,7 +47,7 @@ Students identify for each occupation:
 
 Model the label: “BLS, May 2024 U.S. national median, accessed August 2026.” Do not call the value DFW, starting, entry, or guaranteed pay.
 
-## Activity 2: Apply the Published Rule (18 min)
+## Activity 2: Apply the Published Rule (15 min)
 
 Students use the same rule for all three occupations:
 
@@ -57,28 +57,13 @@ Students use the same rule for all three occupations:
 
 They must cite the number or preparation/duty evidence in every Yes/No decision. Explain that “No under this rule” is not an insult and “Yes” is not a promise of employment.
 
-## Activity 3: Compare Access and Tradeoffs (10 min)
+## Activity 3: Complete and Repair the Evidence Check (13 min)
 
-Students choose two occupations and write:
+Students complete the unpublished five-question Canvas practice Quiz. The questions check the pay label, preparation, high-wage classification, high-demand classification, and a recommendation for fictional Taylor that includes one tradeoff and a current verification step. Students read the feedback and repair any missed label or reasoning. If Canvas is unavailable, the teacher asks or posts the same five prompts; a second packet is not required.
 
-1. one preparation difference;
-2. one duty difference;
-3. one labor-market difference; and
-4. a recommendation for fictional Taylor, who likes fieldwork and technology but is not yet sure about a four-year degree.
+## Exit Check (5 min)
 
-More than one recommendation may earn full credit when it uses evidence and a next verification step.
-
-## Exit Ticket: Canvas Evidence Check (5 min)
-
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/4sw-wk4-day2-compare-drone-enabled-occupations.pdf):
-
-| Evidence job | Surveying/Mapping Technician | Cartographer/Photogrammetrist | Aerospace Engineering Technician |
-|---|---|---|---|
-| One preparation fact |  |  |  |
-| High wage under the class rule? Evidence |  |  |  |
-| High demand under the class rule? Evidence |  |  |  |
-
-Which occupation should fictional Taylor investigate first, and what must Taylor verify next?
+Students state which occupation Taylor should investigate first, one tradeoff, and the next fact Taylor must verify. More than one recommendation may earn full credit when it uses the fixed evidence.
 
 *(d(1)(D), d(2)(A), d(5)(B))*
 
@@ -94,4 +79,4 @@ Which occupation should fictional Taylor investigate first, and what must Taylor
 - Use one occupation card at a time with icons and a consistent row order.
 - Students may type, write, use speech-to-text, or answer privately by media.
 - The fixed guide replaces open search, H&L, and partner dependency.
-- An absent student completes the same table and Quiz with no live platform beyond Canvas.
+- An absent student uses the same posted reference and evidence check with no live platform beyond Canvas.

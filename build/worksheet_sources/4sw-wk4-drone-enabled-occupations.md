@@ -6,121 +6,51 @@ weeks: 4sw/wk4-drone-engineering
 audience: student
 variant_of:
 language: en
-pages: 4
-orientation: portrait
+pages: 2
+orientation: landscape
 ---
 
-## Keep the data label attached
+## A drone is a tool. The occupation tells you the work.
 
 All values are **May 2024 U.S. national medians** and **2024-2034 national projections** from BLS, accessed August 2026. They are not DFW starting pay or guarantees.
 
-## 1. Three occupations
+| Occupation | What the worker produces | Drone or data connection | Typical preparation | Median | Growth | Openings/year |
+|---|---|---|---|---:|---:|---:|
+| Surveying and Mapping Technician | Field measurements, site records, maps, and GIS data | May gather site images and processes mapping data | HS diploma typical; moderate-term OJT; some employers prefer GIS or technical education | $51,940 | 5% | 7,600 |
+| Cartographer / Photogrammetrist | Maps and geospatial products | Integrates imagery, LiDAR, GIS, CAD, and field data | Bachelor's degree | $78,380 | 6% | 1,000 |
+| Aerospace Engineering and Operations Technologist / Technician | Test records, equipment data, and maintenance documentation | Runs, tests, records, and maintains equipment used to develop aircraft systems | Associate degree typical; some employers consider certificate or HS routes | $79,830 | 8% | 900 |
 
-| Occupation | Drone/data connection | Typical preparation | Median | Growth | Openings/year |
-|---|---|---|---:|---:|---:|
-| Surveying and Mapping Technician | May use drones for site photos; processes mapping/GIS data | HS diploma typical; moderate-term OJT; some employers prefer GIS/technical education | $51,940 | 5% | 7,600 |
-| Cartographer / Photogrammetrist | Integrates imagery, LiDAR, GIS, CAD, and field data into maps | Bachelor's degree | $78,380 | 6% | 1,000 |
-| Aerospace Engineering and Operations Technologist / Technician | Runs, tests, records, and maintains equipment used to develop aircraft systems | Associate degree typical; some employers consider certificate/HS routes | $79,830 | 8% | 900 |
+### Read one row at a time
 
-## 2. Published classroom rule
+1. Circle the work product.
+2. Box the preparation.
+3. Underline the pay label: **May 2024 U.S. national median**.
+4. Keep growth and annual openings together.
 
-This is a course comparison rule, not an official government designation.
-
-- **High wage:** national median is above the May 2024 all-occupations median of $49,500.
-- **High demand:** growth is above the 3% all-occupations projection; annual openings remain visible.
-- **High skill:** preparation includes postsecondary education or moderate/long-term training and the work uses specialized technical duties.
-
-One reason annual openings must stay visible:
-
-[[lines: 3]]
+**Words for this task:** median/mediana · growth/crecimiento · annual openings/vacantes anuales · preparation/preparación
 
 [[pagebreak]]
 
-## 3. Classify with evidence
+## Published classroom comparison rule
 
-### Surveying and Mapping Technician
+This is a course rule for comparing the three cards. It is not an official government designation.
 
-High skill? [ ] Yes [ ] No. Preparation/duty evidence:
+- **High wage:** the May 2024 national median is above the same-source all-occupations median of $49,500.
+- **High demand:** 2024-2034 growth is above the all-occupations projection of 3%. Keep annual openings visible.
+- **High skill:** preparation includes postsecondary education or moderate/long-term training, and the work uses specialized technical duties.
 
-[[lines: 3]]
+### What the rule does not prove
 
-High wage? [ ] Yes [ ] No. Number and comparison:
+- Every worker in the occupation uses a drone.
+- A national median is a local or starting salary.
+- Faster growth always means more openings.
+- A classification guarantees a job or predicts personal fit.
 
-[[lines: 2]]
+### Fictional Taylor's decision
 
-High demand? [ ] Yes [ ] No. Growth and openings:
+Taylor likes fieldwork and technology but is not yet sure about a four-year degree. In the Canvas evidence check, Taylor must choose a first occupation to investigate, cite two facts, name one tradeoff, and identify a current source or authorized person for the next question.
 
-[[lines: 3]]
-
-### Cartographer / Photogrammetrist
-
-High skill? [ ] Yes [ ] No. Preparation/duty evidence:
-
-[[lines: 3]]
-
-High wage? [ ] Yes [ ] No. Number and comparison:
-
-[[lines: 2]]
-
-High demand? [ ] Yes [ ] No. Growth and openings:
-
-[[lines: 3]]
-
-[[pagebreak]]
-
-### Aerospace Engineering and Operations Technologist / Technician
-
-High skill? [ ] Yes [ ] No. Preparation/duty evidence:
-
-[[lines: 3]]
-
-High wage? [ ] Yes [ ] No. Number and comparison:
-
-[[lines: 2]]
-
-High demand? [ ] Yes [ ] No. Growth and openings:
-
-[[lines: 3]]
-
-## 4. Compare two occupations
-
-Occupation A: __________________________  Occupation B: ________________________
-
-Preparation difference:
-
-[[lines: 3]]
-
-Duty difference:
-
-[[lines: 3]]
-
-Labor-market difference:
-
-[[lines: 3]]
-
-[[pagebreak]]
-
-## 5. Recommend a first investigation for fictional Taylor
-
-Taylor likes fieldwork and technology but is not yet sure about a four-year degree.
-
-First occupation to investigate: ______________________________________________
-
-Evidence that supports the recommendation:
-
-[[lines: 4]]
-
-Tradeoff or limitation Taylor should understand:
-
-[[lines: 3]]
-
-Current source or authorized person Taylor should use next:
-
-[[lines: 2]]
-
-Question to verify:
-
-[[lines: 3]]
+**Use this frame:** “Taylor should investigate ____ first because ____ and ____. A tradeoff is ____. Taylor should verify ____ with ____.”
 
 ## Sources
 

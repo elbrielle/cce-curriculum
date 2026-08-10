@@ -5,7 +5,7 @@
 - **Topic:** Career Opportunities
 - **Objective:** Students will identify career opportunities within one or more career clusters and identify skills that transfer among a variety of careers using evidence from Career Opportunities.
 - **TEKS:** d(1)(C), d(4)(B)
-- **Demonstration of Learning:** Team three-trial log plus individual evidence-based iteration note.
+- **Demonstration of Learning:** Team three-trial systems log plus an individual evidence-based iteration and two-occupation skill-transfer response.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,17 +14,18 @@
 | **Time** | 50 minutes |
 | **Objectives** | Run three controlled system tests; use a common communication protocol; identify a constraint, result, revision, and evidence; explain how the same skills transfer to two occupations |
 | **TEKS** | d(1)(C), d(4)(B) |
-| **Deliverable** | Team three-trial log plus individual evidence-based iteration note |
-| **Materials** | Drone Systems Test packet; fictional inspection target; timer; selected live indoor microdrone, simulator, or tabletop route |
+| **Deliverable** | Team three-trial log plus individual next-test, tradeoff, and two-occupation transfer response |
+| **Materials** | Three-page Drone Systems Test packet; fictional inspection target; timer; selected live indoor microdrone, simulator, or tabletop route |
 
 ---
 
 ## Before Class
 
 1. Confirm the same Day 3 safety gate. If any live-flight condition is missing, use simulator or tabletop without reducing the evidence.
-2. Set one short test zone per team. Do not build a five-station obstacle course that requires twelve three-minute flights in a 35-minute block.
-3. Post the four-step communication card: goal, action, result, stop/revise.
-4. Prepare one completed run log and one model showing that faster time is not automatically better evidence.
+2. Print pp. 1-2 of the test packet once per team and p. 3 once per student, or open the Canvas activity.
+3. Set one short test zone per team. Do not build a five-station obstacle course that requires twelve three-minute flights in a 35-minute block.
+4. Post the four-step communication card: goal, action, result, stop/revise.
+5. Prepare one completed run log and one model showing that faster time is not automatically better evidence.
 
 ## Warm-Up: What Counts as Improvement? (5 min)
 
@@ -69,9 +70,9 @@ Students write in separate full-width areas:
 3. the next test they would run; and
 4. how precision, communication, data interpretation, or iteration transfers to **two** occupations from Day 2.
 
-## Exit Ticket (5 min)
+## Exit Check (5 min)
 
-**EXIT TICKET** (Trade-off / Dilemma Analysis) · [Printable PDF](../../resources/exit-tickets/4sw-wk4-day4-test-and-improve-an-inspection-system.pdf):
+Students use the individual page rather than another handout:
 
 A team can either make another fast run or pause to check why the target evidence is blurry.
 

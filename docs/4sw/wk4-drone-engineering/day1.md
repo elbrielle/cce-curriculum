@@ -5,7 +5,7 @@
 - **Topic:** Career Clusters
 - **Objective:** Students will explore and describe the CTE career clusters and identify career opportunities within one or more career clusters using evidence from Career Clusters.
 - **TEKS:** d(1)(B), d(1)(C)
-- **Demonstration of Learning:** Individual blueprint with six labeled system jobs and one evidence-based redesign.
+- **Demonstration of Learning:** Individual FYF p. 105 wildlife-tracking blueprint with six labeled system jobs plus one evidence-based redesign and occupation work product.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,17 +14,18 @@
 | **Time** | 50 minutes |
 | **Objectives** | Explore Engineering work; translate a wildlife conservationist's needs into system requirements; design and revise a labeled wildlife-tracker blueprint |
 | **TEKS** | d(1)(B), d(1)(C) |
-| **Deliverable** | Individual blueprint with six labeled system jobs and one evidence-based redesign |
-| **Materials** | FYF pp. 103-105; Wildlife-Tracking Drone Design packet; pencil or Canvas annotation; optional sticky notes |
+| **Deliverable** | Individual FYF p. 105 blueprint, changed-mission redesign, and occupation work-product check |
+| **Materials** | FYF pp. 103-105; optional three-page Design Companion for no-workbook, enlarged, or annotation access; pencil or Canvas annotation |
 
 ---
 
 ## Before Class
 
-1. Post the Student Guide, licensed FYF images, and design packet.
-2. Prepare one labeled model and one generic unlabeled non-example.
-3. Keep H&L optional. The workbook opener and fixed role card are the complete career route.
-4. Do not search for a random conservation-drone image during class. Use the licensed scenario and the CCE model so source and copyright boundaries are clear.
+1. Post the Student Guide and licensed FYF images. Use FYF p. 105 as the default blueprint surface.
+2. Post the three-page Design Companion as the no-workbook, enlarged, or annotation route. Do not print it automatically for students using FYF p. 105.
+3. Prepare one labeled model and one generic unlabeled non-example.
+4. Keep H&L optional. The workbook opener and fixed role card are the complete career route.
+5. Do not search for a random conservation-drone image during class. Use the licensed scenario and the CCE model so source and copyright boundaries are clear.
 
 ## Warm-Up: Tool or System? (5 min)
 
@@ -55,7 +56,7 @@ Students write one requirement each for flight, sensing/data, communication, and
 
 **Source:** FYF p. 105
 
-The packet provides a full-page drawing area. Students label:
+Students use the workbook blueprint space. The companion provides the same large-format route when the workbook is missing or an enlarged/annotation version is needed. Students label:
 
 1. flight system;
 2. power source;
@@ -76,9 +77,9 @@ Students name:
 - one component they would change; and
 - evidence from the new environment that explains the change.
 
-## Exit Ticket (5 min)
+## Exit Check (5 min)
 
-**EXIT TICKET** (Mini-Case) · [Printable PDF](../../resources/exit-tickets/4sw-wk4-day1-design-a-wildlife-tracking-drone-system.pdf):
+Students add this final evidence to the blueprint or companion rather than completing another handout:
 
 1. Name one blueprint component you would change for the sea-turtle mission.
 2. Explain which mission condition makes that change necessary.

@@ -49,6 +49,6 @@ One strength:
 
 [[lines: 2]]
 
-One required revision:
+One next revision:
 
 [[lines: 3]]

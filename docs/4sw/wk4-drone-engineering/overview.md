@@ -1,4 +1,4 @@
-# Week 4: Drone Engineering — Design, Evidence, and Responsible Testing
+# Week 4: Drone Engineering: Design, Evidence, and Responsible Testing
 
 **4th Six Weeks** | Engineering / Transportation | 5 class periods (50 min each)
 
@@ -29,7 +29,7 @@ I can explain how a user need changes a drone-system design, compare preparation
 ## Source and Claim Boundaries
 
 - FYF pp. 103-105 supply the Engineering opener and *Protecting Wildlife* design brief.
-- FYF pp. 108-109 are licensed workbook context. Current Irving ISD public information controls current campus/program names: **Aviation Maintenance** and **Drone Engineering** are listed at Irving High School.
+- FYF pp. 108-109 are the district HQIM context for Engineering Design, Drone Engineering, postsecondary options, IBCs, CTSOs, and work-based learning. Keep the workbook names in student and teacher materials rather than introducing a competing pathway story during the lesson.
 - FYF p. 110 and H&L are optional cluster exploration. Live Hat names, ratings, salary, and pathway availability are not required evidence.
 - FAA guidance states that Part 107 does not apply to operations conducted only indoors. Outdoor educational flights still require the school to identify and satisfy the applicable operating rule. A K-12 program that is not a qualifying JROTC, higher-education, or FAA-recognized CBO-chartered program may need to operate under Part 107.
 - The FAA Remote Pilot Certificate is for Part 107 operations. Current eligibility includes age 16, English proficiency, safe physical/mental condition, the initial knowledge test, TSA vetting, and recurrent training every 24 calendar months. Do not publish a universal test fee or promise certification through the course.
@@ -57,11 +57,11 @@ This is a course comparison rule, not an official government designation:
 
 | Day | Focus | Core evidence | Canvas interaction |
 |---|---|---|---|
-| 1 | Engineering design for wildlife | Labeled blueprint and sea-turtle redesign | Optional image annotation or file/text submission |
-| 2 | Drone-enabled occupations | Fixed three-career evidence table and classification | Retryable evidence Quiz |
-| 3 | Rules and indoor safety | Operating-rule decision tree and campus/model checklist | Scenario Quiz or paper decision cards |
-| 4 | Test and iterate | Three team system trials plus individual iteration note | Upload/text/media; live drone, simulator, tabletop equal |
-| 5 | Evidence brief | Private 16-point synthesis and revision | Unpublished Assignment with rubric |
+| 1 | Engineering design for wildlife | FYF p. 105 blueprint, redesign, and occupation work product | Workbook first; optional companion/annotation route |
+| 2 | Drone-enabled occupations | Five-question fixed-evidence check | Posted two-page reference plus retryable Quiz |
+| 3 | Rules and readiness | Four-question rule check plus team gate when used | Posted decision guide, Quiz, one team sheet only if needed |
+| 4 | Test and iterate | Shared three-trial log plus individual iteration/transfer | Two team pages plus one individual page; live, simulator, tabletop equal |
+| 5 | Evidence brief | Private 16-point synthesis, self-score, and revision | Four-page paper/enlarged route or private typed/media submission |
 
 ## Equipment and Safety Gate
 
@@ -77,8 +77,8 @@ Students do not fly outdoors, near airports, over people, blindfolded, beyond si
 
 ## Assessment Plan
 
-- **Formative:** Day 1 blueprint check; Day 2 evidence Quiz; Day 3 rule decision; Day 4 run log.
-- **Recommended minor after assignment-group verification:** 16-point Drone Systems Evidence Brief combining design response, occupation evidence, rule/safety reasoning, and test-based revision.
+- **Formative:** Day 1 workbook blueprint check; Day 2 five-question evidence Quiz; Day 3 four-question rule check plus team gate when used; Day 4 shared run log and individual response.
+- **Minor 2 after importer verification:** 16-point Drone Systems Evidence Brief combining design response, occupation evidence, rule/safety reasoning, and test-based revision. The importer preserves the existing 100-point `Minor Assessments (40%)` mapping and keeps it unpublished.
 - Do not grade H&L clicks, public speaking, artistic quality, live flight, hardware access, or a student's interest in aviation.
 
 ## Teacher-Readiness Standard

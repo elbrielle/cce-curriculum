@@ -6,101 +6,60 @@ weeks: 4sw/wk4-drone-engineering
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 3
 orientation: portrait
 ---
 
-## Federal rule and campus safety are different checks
+## Page 1 · Decision guide
 
-FAA guidance says Part 107 does not apply to operations conducted only indoors. Outdoor educational operations still require the organization to identify and follow an applicable legal operating route. Campus approval and the exact model SOP apply even when Part 107 does not.
+Federal operating rules and campus safety approval are different checks.
 
-## 1. Situation A: closed indoor gym
+| Situation | First rule or source to check | What still must be verified |
+|---|---|---|
+| Microdrone stays inside a closed gym | FAA Part 107 does not apply to an indoor-only operation | Campus approval, exact model SOP, equipment, operating zone, supervision, and stop procedure |
+| Middle-school class plans an outdoor educational flight | FAA Educational Users guidance and the school's legal operating route | District approval, organization status, airspace, aircraft, Remote ID, location, and operating conditions |
+| Company performs a paid roof inspection | Part 107 is the likely federal starting point | Remote pilot authority, airspace, aircraft, people/site limits, privacy, and other current requirements |
 
-Location: __________________________________________________________________
+### Remote Pilot Certificate under Part 107
 
-Does Part 107 apply to an indoor-only operation? [ ] Yes [ ] No
+Current first-time applicant requirements include age 16 or older; English proficiency; safe physical and mental condition; the initial UAG knowledge test; FAA application and TSA vetting. To operate under Part 107, the remote pilot must complete current recurrent training within the previous 24 calendar months.
 
-FAA evidence:
+This page explains a pathway. It does not authorize a flight or ask a middle-school student to disclose health, identity, or eligibility information.
 
-[[lines: 2]]
-
-Campus/model checks still required:
-
-[[lines: 4]]
-
-Person authorized to stop the operation: ______________________________________
+**Words for this task:** indoor only/solo interior · operating route/vía legal de operación · authorization/autorización · verify/verificar
 
 [[pagebreak]]
 
-## 2. Situation B: outdoor middle-school lesson
+## Page 2 · Team readiness gate
 
-Why “educational” does not automatically answer the rule question:
-
-[[lines: 4]]
-
-Organization status or operating route to verify:
-
-[[lines: 3]]
-
-FAA/district source or person to use:
-
-[[lines: 2]]
-
-## 3. Situation C: paid roof inspection
-
-Likely starting federal rule: _________________________________________________
-
-Certificate or supervision evidence:
-
-[[lines: 3]]
-
-Other operation details that may still require approval or verification:
-
-[[lines: 5]]
-
-## 4. Remote Pilot Certificate sequence
-
-Number the current first-time steps in order where an order exists. Mark recurring requirements with R.
-
-| Step or requirement | Order / R | What it means |
-|---|:---:|---|
-| At least age 16 |  |  |
-| English proficiency |  |  |
-| Safe physical and mental condition |  |  |
-| Pass initial UAG knowledge test |  |  |
-| FAA application and TSA vetting |  |  |
-| Recurrent training every 24 calendar months |  |  |
-
-One detail I would verify on the current FAA page before acting:
-
-[[lines: 3]]
-
-[[pagebreak]]
-
-## 5. Indoor system readiness gate
+Print this page once per team only when Day 3 or Day 4 uses a live, simulator, or tabletop test route.
 
 Selected route: [ ] Live indoor microdrone [ ] Simulator [ ] Tabletop
 
 | Check | Ready | Stop / fix | Evidence or note |
 |---|:---:|:---:|---|
-| Teacher/campus authorization confirmed |  |  |  |
-| Exact model SOP/manual available |  |  |  |
-| Aircraft/controller or simulation pieces intact |  |  |  |
-| Battery/charging condition checked when applicable |  |  |  |
+| Teacher and campus authorization confirmed |  |  |  |
+| Exact model SOP or route directions available |  |  |  |
+| Aircraft, controller, simulator, or tabletop pieces intact |  |  |  |
+| Battery and charging condition checked when applicable |  |  |  |
 | Clear operating zone and spectator boundary |  |  |  |
-| One active aircraft/token per zone |  |  |  |
-| Connection/control check complete |  |  |  |
+| One active aircraft or token per zone |  |  |  |
+| Connection or control check complete |  |  |  |
 | Immediate stop procedure understood |  |  |  |
 
 Teacher-cleared route today: _________________________________________________
 
 One hazard found and correction made:
 
-[[lines: 4]]
+[[lines: 3]]
+
+Stop condition the team will use:
+
+[[lines: 2]]
 
 [[pagebreak]]
 
-## 6. Apply the decision process
+## Page 3 · Individual decision practice
 
 New fictional scenario: A community group asks students to fly outdoors at a park and record an event. The flight is called “educational,” and no one has identified the operating rule.
 
@@ -112,13 +71,19 @@ Information still missing:
 
 [[lines: 4]]
 
-Authorized source or person:
+Current source or authorized person:
 
 [[lines: 2]]
 
 Why an indoor safety checklist does not authorize this outdoor operation:
 
 [[lines: 4]]
+
+One campus or model check that still matters even when the federal rule is known:
+
+[[lines: 3]]
+
+**Use this frame:** “Before anyone acts, the school must verify ____ with ____. The indoor checklist does not answer ____ because ____.”
 
 ## Sources
 

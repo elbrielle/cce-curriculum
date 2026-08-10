@@ -1,40 +1,24 @@
 ---
-title: Wildlife-Tracking Drone Design
+title: Wildlife-Tracking System Design Companion
 slug: 4sw-wk4-wildlife-tracking-drone-design
 kind: worksheet
 weeks: 4sw/wk4-drone-engineering
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 3
 orientation: portrait
 ---
 
-## 1. Read the fictional user need
+## Use this companion with FYF pp. 104-105
 
-User: ______________________________________________________________________
+FYF gives you the jaguar mission and a full-page blueprint space. Use this companion for the engineering evidence that does not fit on the workbook page. If you do not have the workbook, draw your labeled blueprint on page 2.
 
-Animal and environment: _____________________________________________________
+### 1. Turn needs into requirements
 
-Three mission needs:
+**Model:** Need: locate an animal at night. Requirement: the system must gather usable low-light or thermal evidence and return a location record to the research team.
 
-1. [[lines: 2]]
-
-2. [[lines: 2]]
-
-3. [[lines: 2]]
-
-Two environmental or animal-behavior constraints:
-
-1. [[lines: 2]]
-
-2. [[lines: 2]]
-
-[[pagebreak]]
-
-## 2. Write requirements
-
-**Model:** Need: locate an animal at night. Requirement: the system must gather usable low-light or thermal evidence and send a location record to the research team.
+**Word bank:** requirement · constraint · navigation · payload · communication · disturbance
 
 Flight requirement:
 
@@ -48,50 +32,44 @@ Communication requirement:
 
 [[lines: 2]]
 
-Environmental-protection requirement:
+Environmental or wildlife-protection requirement:
 
 [[lines: 2]]
 
-## 3. Draw the top-down or side-view blueprint
-
-Label flight, power, navigation, payload/data, communication, and environmental protection.
-
-[[box: 6.0]]
+**Use this frame:** “Because the mission needs ____, the ____ system must ____.”
 
 [[pagebreak]]
 
-## 4. Explain the six system jobs
+## 2. Label the system
 
-| System job | Component or feature | What it does for this mission |
-|---|---|---|
-| Flight |  |  |
-| Power |  |  |
-| Navigation / obstacle sensing |  |  |
-| Data collection payload |  |  |
-| Communication / data return |  |  |
-| Environmental protection / wildlife disturbance |  |  |
+Draw in FYF p. 105. If the workbook is unavailable, draw here. Label all six system jobs and add a short job statement to each label.
 
-One assumption the team would need to test:
+[[box: 4.25]]
 
-[[lines: 3]]
+- [ ] Flight
+- [ ] Power
+- [ ] Navigation or obstacle sensing
+- [ ] Data-collection payload
+- [ ] Communication or data return
+- [ ] Environmental protection or reduced wildlife disturbance
 
-One tradeoff in the design:
+One assumption the design team would need to test:
 
-[[lines: 3]]
+[[lines: 1]]
+
+One tradeoff, including both the advantage and the cost:
+
+[[lines: 2]]
 
 [[pagebreak]]
 
-## 5. Changed mission: sea turtles at night
+## 3. Changed mission: sea turtles at night
 
 The new conservation team works on a remote beach at night and must avoid disturbing nesting sea turtles.
 
-One component I would keep:
+One component I would keep and why it still fits:
 
-[[lines: 2]]
-
-Why it still fits:
-
-[[lines: 2]]
+[[lines: 3]]
 
 One component I would change:
 
@@ -105,14 +83,16 @@ One occupation that would help test, build, operate, or interpret the system:
 
 [[lines: 2]]
 
-That person's job in the mission:
+That person's work product for this mission:
 
-[[lines: 2]]
+[[lines: 3]]
+
+**Use this frame:** “I would change ____ because the beach mission ____. A ____ would help by producing ____.”
 
 ## Done when
 
-- [ ] Six labeled system jobs
+- [ ] Four requirements
+- [ ] Six labeled system jobs on FYF p. 105 or page 2
 - [ ] One assumption and one tradeoff
-- [ ] Keep/change redesign for the new mission
-- [ ] Evidence-based explanation
-- [ ] One occupation and job connection
+- [ ] Evidence-based changed-mission response
+- [ ] One occupation and work product

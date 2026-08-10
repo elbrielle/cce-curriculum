@@ -6,154 +6,114 @@ weeks: 4sw/wk4-drone-engineering
 audience: student
 variant_of:
 language: en
-pages: 5
-orientation: portrait
+pages: 3
+orientation: landscape
 ---
 
-## Fictional inspection mission
+## Page 1 · Team run log
 
-Inspect a marked equipment panel and return one usable observation without touching the target or crossing the boundary.
+Fictional mission: inspect a marked equipment panel and return one usable observation without touching the target or crossing the boundary.
 
 Route: [ ] Live indoor microdrone [ ] Simulator [ ] Tabletop
 
 Roles: operator/mover · spotter/boundary checker · evidence logger · communication checker
 
-## Success criteria
+### Trial 1
 
-- [ ] Stay inside the assigned boundary
-- [ ] Reach the observation position without target contact
-- [ ] Record one usable observation
-- [ ] Use goal, action, result, stop/revise communication
-- [ ] Stop immediately when a safety or control condition fails
+Goal and main variable: ______________________________________________________
 
-## Trial 1
+Result and usable evidence:
 
-Goal and success criterion:
-
-[[lines: 2]]
-
-Main variable being tested: __________________________________________________
-
-Result:
-
-[[lines: 2]]
+[[lines: 1]]
 
 Breakdown or limitation:
 
-[[lines: 2]]
+[[lines: 1]]
 
-One-variable revision before Trial 2:
+One-variable revision: ______________________________________________________
 
-[[lines: 2]]
+### Trial 2
 
-[[pagebreak]]
+Goal and main variable: ______________________________________________________
 
-## Trial 2
+Result compared with Trial 1:
 
-Goal and success criterion:
-
-[[lines: 2]]
-
-Main variable being tested: __________________________________________________
-
-Result:
-
-[[lines: 3]]
-
-Evidence compared with Trial 1:
-
-[[lines: 4]]
+[[lines: 1]]
 
 Breakdown or limitation:
 
-[[lines: 3]]
+[[lines: 1]]
 
-One-variable revision before Trial 3:
+One-variable revision: ______________________________________________________
 
-[[lines: 3]]
-
-[[pagebreak]]
-
-## Trial 3
-
-Goal and success criterion:
-
-[[lines: 2]]
-
-Main variable being tested: __________________________________________________
-
-Result:
-
-[[lines: 3]]
-
-Evidence compared with Trials 1-2:
-
-[[lines: 4]]
-
-Final breakdown or limitation:
-
-[[lines: 3]]
-
-Next test:
-
-[[lines: 3]]
+Stop immediately when a safety, boundary, equipment, connection, or control condition fails.
 
 [[pagebreak]]
 
-## Individual iteration note
+## Page 2 · Team evidence continued
 
-Variable changed:
+### Trial 3 or written third trial
+
+Goal and main variable: ______________________________________________________
+
+Result compared with Trials 1-2: _____________________________________________
+
+Final breakdown or limitation: ______________________________________________
+
+Next test: __________________________________________________________________
+
+### Team claim
+
+The strongest result was Trial ____ because:
 
 [[lines: 2]]
+
+Our evidence is limited because:
+
+[[lines: 2]]
+
+One role rotation or communication change that improved the system:
+
+[[lines: 2]]
+
+### Team check
+
+- [ ] Stayed inside the assigned boundary
+- [ ] Avoided target contact
+- [ ] Recorded one usable observation
+- [ ] Used goal, action, result, stop/revise communication
+- [ ] Changed one main variable at a time
+
+[[pagebreak]]
+
+## Page 3 · Individual iteration and transfer
+
+Variable changed: ____________________________________________________________
 
 Evidence that performance improved, declined, or stayed mixed:
 
-[[lines: 5]]
+[[lines: 2]]
 
 Next test and the evidence it would produce:
 
-[[lines: 4]]
+[[lines: 2]]
 
-One transferable skill: ______________________________________________________
+Transferable skill: ___________________________________________________________
 
-Occupation 1 and how it uses the skill:
+How the skill appears in two occupations:
 
-[[lines: 3]]
+[[lines: 2]]
 
-Occupation 2 and how it uses the skill:
-
-[[lines: 3]]
-
-[[pagebreak]]
-
-## Tradeoff decision
+### Tradeoff decision
 
 A team can make another fast run or pause to investigate why the target evidence is blurry.
 
-Advantage of another fast run:
+One advantage of each choice:
+
+[[lines: 1]]
+
+My next action and run-log evidence:
 
 [[lines: 2]]
 
-Advantage of pausing to investigate:
-
-[[lines: 2]]
-
-My next action:
-
-[[lines: 2]]
-
-Run-log evidence that supports it:
-
-[[lines: 3]]
-
-Transferable skill and a second occupation that uses it:
-
-[[lines: 3]]
-
-## Done when
-
-- [ ] Three trials or two trials plus a written third
-- [ ] One main variable changed at a time
-- [ ] Result and evidence recorded
-- [ ] Individual iteration note
-- [ ] Skill connected to two occupations
+**Use this frame:** “I would ____ because Trial ____ showed ____. The skill ____ also matters in ____ and ____ because ____.”

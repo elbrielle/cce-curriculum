@@ -5,7 +5,7 @@
 - **Topic:** Career Preparation
 - **Objective:** Students will research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Career Preparation.
 - **TEKS:** d(2)(A)
-- **Demonstration of Learning:** Individual operating-rule decision tree and indoor-system readiness check.
+- **Demonstration of Learning:** Four-question operating-rule evidence check plus a team readiness gate when a live, simulator, or tabletop test route is used.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -14,8 +14,8 @@
 | **Time** | 50 minutes |
 | **Objectives** | Distinguish indoor, outdoor educational/recreational, and Part 107 operations; describe the current Remote Pilot Certificate pathway; complete the campus/model-specific indoor safety gate |
 | **TEKS** | d(2)(A) |
-| **Deliverable** | Individual operating-rule decision tree and indoor-system readiness check |
-| **Materials** | FAA rule cards; Drone Operation Decision and Readiness packet; exact campus/model SOP when live flight is offered; optional teacher demo or simulator |
+| **Deliverable** | Four-question individual rule check plus one team readiness gate when a test route is used |
+| **Materials** | Three-page Decision and Readiness guide; exact campus/model SOP when live flight is offered; optional teacher demo, simulator, or tabletop model |
 
 ---
 
@@ -23,8 +23,9 @@
 
 1. Decide whether the lesson will use live indoor microdrones, a simulator, or the tabletop route. All are equal.
 2. Live flight requires campus approval, teacher authorization/training, the exact model manual/SOP, inspected equipment, a clear indoor zone, and an immediate stop procedure.
-3. Post current FAA Educational Users, Part 107, indoor-operations, and Remote Pilot Certificate sources.
-4. Do not use a student signature as the safety gate. Teacher observation of the readiness check controls access.
+3. Post page 1 of the Decision and Readiness guide. Print page 2 once per team only if a test route is used. Page 3 is the no-Canvas individual route.
+4. Post current FAA Educational Users, Part 107, indoor-operations, and Remote Pilot Certificate sources and open the unpublished four-question practice Quiz.
+5. Do not use a student signature as the safety gate. Teacher observation of the readiness check controls access.
 
 ## Warm-Up: Same Drone, Different Rule (5 min)
 
@@ -45,9 +46,9 @@ Use the FAA source cards:
 - Qualifying educational organizations for the educational recreational provision include higher education, JROTC, and programs chartered by an FAA-recognized CBO. Do not assume a general middle-school class automatically qualifies.
 - Part 107 permits many nonrecreational operations. The remote pilot in command must hold the certificate or directly supervise a person operating the controls.
 
-Students complete a three-branch decision tree: location, purpose/organization, rule to verify, authorized person/source, and evidence needed before flight.
+Students compare the three branches on the posted guide: location, purpose/organization, rule to verify, authorized person/source, and evidence needed before flight.
 
-## Activity 2: Remote Pilot Certificate Pathway (10 min)
+## Activity 2: Remote Pilot Certificate Pathway (8 min)
 
 Current first-time applicant evidence:
 
@@ -60,7 +61,11 @@ Current first-time applicant evidence:
 
 Students sequence the steps and label which details require current FAA verification. Do not publish a universal testing fee, guarantee district certification, or ask middle-school students to self-screen health or citizenship/identity information.
 
-## Activity 3: Indoor System Readiness Gate (18 min)
+## Activity 3: Four-Question Rule Check (12 min)
+
+Students complete the unpublished practice Quiz and use feedback to repair one missed rule or certificate boundary. Page 3 of the guide carries the same four decisions when Canvas is unavailable.
+
+## Activity 4: System Readiness Gate (8 min)
 
 The class uses only the selected route.
 
@@ -84,9 +89,9 @@ Students locate takeoff/stop controls, identify the virtual boundary, and rehear
 
 Students inspect a printed equipment/space scenario, identify three hazards, and revise the setup before moving a paper aircraft token.
 
-## Exit Ticket (5 min)
+## Exit Check (5 min)
 
-**EXIT TICKET** (Decision Tree) · [Printable PDF](../../resources/exit-tickets/4sw-wk4-day3-decide-which-drone-rule-applies.pdf):
+Students answer this final prompt in Canvas, on page 3, or orally:
 
 For each situation, name the first rule or source to verify and explain why:
 
@@ -94,7 +99,7 @@ For each situation, name the first rule or source to verify and explain why:
 2. middle-school class planning an outdoor educational flight; and
 3. paid roof inspection.
 
-Then name one campus/model-specific safety check that federal rule knowledge does not replace.
+Then name one campus/model-specific safety check that federal rule knowledge does not replace. A separate exit-ticket print is not required.
 
 *(d(2)(A))*
 
