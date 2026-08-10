@@ -17,7 +17,7 @@ Students compare preparation, responsibility, and pay across four nursing-relate
 
 ## Demonstration of Learning
 
-Students submit the Nursing Route Comparison and one Observation and Clinical Handoff Record. The MakeCode build may be completed on a physical micro:bit, in the browser simulator, or through a paper block trace. Day 5 completion is verified in the Xello Completion Standards report.
+Students submit the Canvas Nursing Route Evidence Check (or the optional print scaffold) and one Observation and Clinical Handoff Record. The MakeCode build may be completed on a physical micro:bit, in the browser simulator, or through a paper block trace. Day 5 completion is verified in the Xello Completion Standards report.
 
 ## TEKS Alignment
 
@@ -33,7 +33,8 @@ Students submit the Nursing Route Comparison and one Observation and Clinical Ha
 - *Find Your Future* workbook pp. 59-61, 84-86
 - Climber Notes: "Vitals in Motion," slide 2 tool reference
 - [Nursing Career Route Guide](../../resources/worksheets/2sw-wk3-nursing-route-guide.pdf)
-- [Nursing Route Comparison and Decision](../../resources/worksheets/2sw-wk3-nursing-route-comparison.pdf)
+- Canvas Nursing Assistant/LVN Model Check and Nursing Route Evidence Check (default response surfaces)
+- [Nursing Route Comparison and Decision](../../resources/worksheets/2sw-wk3-nursing-route-comparison.pdf) (optional print/access fallback; do not print as a class set by default)
 - [Vital Signs Simulator Build and Test](../../resources/worksheets/2sw-wk3-vital-signs-simulator-build.pdf)
 - [Fictional Patient Handoff Cards](../../resources/worksheets/2sw-wk3-fictional-patient-cards.pdf)
 - [Observation and Clinical Handoff Record](../../resources/worksheets/2sw-wk3-clinical-handoff-record.pdf)
@@ -92,8 +93,8 @@ The micro:bit program is a training simulator. It does not measure a person or f
 
 | Day | Focus | Key Activities | Deliverable | 5E |
 |---|---|---|---|---|
-| 1 | Health Science and nursing roles | FYF opener, current local pathway, four-role route guide | Route guide notes and first comparison rows | Engage, Explore, Explain, Evaluate |
-| 2 | Education and pay trade-offs | Compare four careers, evaluate RN routes, make a recommendation | Completed Nursing Route Comparison | Engage, Explore, Explain, Elaborate, Evaluate |
+| 1 | Health Science and nursing roles | FYF opener, current local pathway, four-role route guide | Two-question Canvas model check or pages 1-2 print fallback | Engage, Explore, Explain, Evaluate |
+| 2 | Education and pay trade-offs | Compare four careers, evaluate RN routes, make a recommendation | Canvas Nursing Route Evidence Check or optional print fallback | Engage, Explore, Explain, Elaborate, Evaluate |
 | 3 | Vital-signs training simulator | Tool research, MakeCode demo, build and test | Simulator screenshot/share link or paper trace plus test record | Engage, Explore, Explain, Elaborate, Evaluate |
 | 4 | Fictional patient handoff | Analyze case cards, separate observation from inference, practice quiz | Individual Observation and Clinical Handoff Record | Engage, Explore, Explain, Elaborate, Evaluate |
 | 5 | Required Xello completion | Save at least three careers and connect one to this week's evidence | Xello completion plus individual reflection | Engage, Explore, Explain, Evaluate |
@@ -103,6 +104,7 @@ The micro:bit program is a training simulator. It does not measure a person or f
 - Daily exit tickets remain formative.
 - The Day 4 route-and-handoff evidence set is the recommended **minor checkpoint**, scored with the 16-point rubric. Device access, platform access, public speaking, and physical measurement are not graded.
 - The Canvas practice quiz is ungraded and may be retried. It checks misconceptions before the handoff is submitted.
+- The two nursing-route Canvas checks are ungraded response surfaces. They replace routine printing; the four-page organizer is an access/no-device fallback under the same success criteria.
 - Xello completion may be recorded as part of a later profile checkpoint. Do not create a separate grade for every click.
 
 ## Differentiation

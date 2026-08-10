@@ -5,7 +5,7 @@
 - **Topic:** Health Science Careers
 - **Objective:** Students will describe the Health Science cluster and identify nursing-related career opportunities by comparing preparation and responsibility evidence.
 - **TEKS:** d(1)(B), d(1)(C)
-- **Demonstration of Learning:** Completed nursing assistant model check and guided LVN section of the Nursing Route Comparison.
+- **Demonstration of Learning:** Completed two-question Canvas nursing assistant/LVN model check or pages 1-2 of the optional print scaffold.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -15,8 +15,8 @@
 | **Objectives** | Describe the Health Science cluster; distinguish four nursing-related roles; identify the current Irving ISD pathway name; read a salary source label |
 | **TEKS** | d(1)(B), d(1)(C) |
 | **5E Phases** | Engage: Warm-Up and health fair decision, Explore: cluster and role sort, Explain: source labels and local pathway, Evaluate: route recommendation |
-| **Deliverable** | Nursing assistant model check plus guided LVN comparison section |
-| **Materials** | FYF pp. 59 and 84-85, embedded Canvas visuals, Nursing Career Route Guide, Nursing Route Comparison |
+| **Deliverable** | Two-question Canvas model check or pages 1-2 print fallback |
+| **Materials** | FYF pp. 59 and 84-85, embedded Canvas visuals, Nursing Career Route Guide, Canvas model check, optional Nursing Route Comparison scaffold |
 
 ## Warm-Up (5 min)
 
@@ -34,7 +34,7 @@ Treat FYF pp. 84-85 as the assigned district-customized HQIM snapshot. The curre
 
 ## Activity 2: Four Roles, Four Scopes (15 min)
 
-Distribute the [Nursing Career Route Guide](../../resources/worksheets/2sw-wk3-nursing-route-guide.pdf). Students annotate one preparation step and one responsibility for nursing assistant, LVN, RN, and nurse practitioner.
+Display or embed the [Nursing Career Route Guide](../../resources/worksheets/2sw-wk3-nursing-route-guide.pdf). Do not print a source guide for every student by default. Students identify one preparation step and one responsibility for nursing assistant, LVN, RN, and nurse practitioner.
 
 Check the distinction that matters:
 
@@ -49,7 +49,7 @@ Do not present the list as a required ladder that every worker climbs in order.
 
 Students circle **May 2024**, underline **U.S.**, and box **median** on the route guide. Explain that the figures are neither starting wages nor DFW guarantees.
 
-Students use the completed nursing assistant model, then mark the LVN evidence bank and complete the guided LVN route statement in the [Nursing Route Comparison](../../resources/worksheets/2sw-wk3-nursing-route-comparison.pdf). If Xello is available, students may add a current local figure only when they record its geography, date, and measure. H&L is optional and not the source of record.
+Students use the completed nursing assistant model, then classify the LVN evidence and explain one route difference in the two-question Canvas model check. The [Nursing Route Comparison](../../resources/worksheets/2sw-wk3-nursing-route-comparison.pdf) is an optional print/access scaffold; pages 1-2 carry the same work. If Xello is available, students may add a current local figure only when they record its geography, date, and measure. H&L is optional and not the source of record.
 
 **DOK 2:** How do preparation and responsibility differ between a nursing assistant and an LVN?
 
@@ -69,4 +69,4 @@ Which route better fits a fictional student who wants the shortest approved path
 
 - **Support:** Highlight the preparation and responsibility sentence for each role before students write.
 - **Extension:** Add one work-setting difference from BLS.
-- **ELL:** Pre-teach route = ruta, median = mediana, license = licencia, responsibility = responsabilidad. Use "This role prepares through _____ and commonly _____."
+- **ELL:** Keep the point-of-use words preparation/preparación, median/mediana, license/licencia, and responsibility/responsabilidad visible. Rehearse "The LVN route requires _____, while the nursing assistant route _____." before students submit their own response.
