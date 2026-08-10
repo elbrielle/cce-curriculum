@@ -9,7 +9,7 @@ I can build a monthly budget for a stated lifestyle, compare the same household-
 ## Success criteria
 
 - My salary evidence records the occupation, geography, measure, source, and access date.
-- My budget uses the supplied monthly income and basic-cost evidence without pretending a planning estimate is a tax calculation.
+- My budget uses a supplied fictional monthly income and basic-cost evidence without pretending a planning estimate is a tax calculation.
 - My location comparison uses the same one-adult/no-children household scenario in all three places.
 - My three-career comparison uses the same wage basis across all three occupations.
 - My education-funding decision separates grants, scholarships, work-study, loans, savings, employer benefits, and Registered Apprenticeship accurately.
@@ -27,7 +27,7 @@ I can build a monthly budget for a stated lifestyle, compare the same household-
 2. **Hats & Ladders is supplemental.** No budget, grade, or completion proof depends on a Hat profile or favorite.
 3. **The independent fallback is fixed and dated.** Students without usable Xello evidence use the supplied May 2024 U.S. BLS career card and label it national.
 4. **The Dallas County cost baseline is fixed.** MIT's one-adult/no-children scenario, updated February 15, 2026, lists $48,489 required annual income before taxes and $41,399 after taxes. Annual basic expenses are converted to monthly values in the CCE packet.
-5. **The course take-home factor is a planning scenario only.** When students test a selected annual salary, the packet may use an explicitly supplied classroom factor. It is not tax advice; actual deductions vary.
+5. **The monthly budget uses a fixed fictional income.** Students do not estimate take-home pay from an annual salary. The salary-minus-cost-target comparison on Day 5 stays on a before-tax basis and is labeled as a screening comparison, not an affordability claim.
 6. **No live financial account is created.** Students do not complete FAFSA/TASFA, apply for aid, contact providers, disclose family income, or enter personal financial information.
 
 ## Five-day sequence
@@ -36,9 +36,9 @@ I can build a monthly budget for a stated lifestyle, compare the same household-
 |---|---|---|---|
 | 1 | Salary source + lifestyle target | Source-labeled career/lifestyle target and trend interpretation | d(5)(A), d(5)(D) |
 | 2 | Build the Dallas County monthly budget | Complete personal budget with surplus/shortage and one revision | d(5)(D) |
-| 3 | Location changes the cost target | Dallas/Tulsa/Los Angeles/New York comparison and relocation judgment | d(5)(D) support |
+| 3 | Location changes the cost target | Same-$70,000-offer comparison and relocation judgment | d(5)(D) support |
 | 4 | Pay for education or training | Funding-method decision guide + retryable Canvas practice check | d(3)(C) |
-| 5 | Compare three careers + submit portfolio | Same-basis salary comparison, value explanation, revised budget | d(5)(D), d(5)(E) |
+| 5 | Compare three careers + submit portfolio | Same-basis salary comparison, tradeoff explanation, revised budget | d(5)(D), d(5)(E) |
 
 ## Canvas design
 

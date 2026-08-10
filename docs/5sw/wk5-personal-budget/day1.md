@@ -3,15 +3,15 @@
 ## Daily Learning Contract
 
 - **Topic:** Labor Trends
-- **Objective:** Students will analyze labor-market trends related to a career of interest and prepare a personal budget that reflects a desired lifestyle using evidence from Labor Trends.
+- **Objective:** Students will analyze a current labor-market trend and use accurate salary evidence to build a fictional lifestyle target.
 - **TEKS:** d(5)(A), d(5)(D)
-- **Demonstration of Learning:** source-labeled salary/labor trend plus lifestyle target and three ranked priorities.
+- **Demonstration of Learning:** source-labeled salary and trend evidence, fictional lifestyle target, and three ranked priorities.
 <!-- CCE DAILY CONTRACT END -->
 **Time:** 50 minutes
 
 **TEKS:** d(5)(A), d(5)(D)
 
-**Evidence:** source-labeled salary/labor trend plus lifestyle target and three ranked priorities
+**Evidence:** source-labeled salary and trend evidence, fictional lifestyle target, and three ranked priorities
 
 ## Before class
 

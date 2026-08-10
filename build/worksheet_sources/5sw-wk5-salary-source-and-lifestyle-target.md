@@ -6,131 +6,87 @@ weeks: 5sw/wk5-personal-budget
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 3
 orientation: portrait
 ---
 
-## Salary Evidence Audit
+## 1. Label the Salary Evidence
 
-Preferred source: Xello localized salary with the displayed geography, measure, and date. If that evidence is unavailable, use the fixed fallback card on page 2.
+> **SOURCE -> LABEL -> DECISION**  A salary number is useful only when the label travels with it.
+
+Preferred source: Xello localized salary with the displayed geography, measure, and date. If Xello is unavailable or its label is unclear, use the fixed Electricians card below.
+
+| Fixed no-login card | Current evidence |
+|---|---|
+| Occupation | Electricians |
+| Typical entry education | High-school diploma or equivalent; most learn through apprenticeship |
+| May 2024 U.S. median | **$62,350** |
+| 2024-34 projected growth | **9%** |
+| Annual openings | About **81,000** |
+
+Source: U.S. Bureau of Labor Statistics, accessed August 2026. This is a national median and national projection. It is not DFW starting pay, a current vacancy, or a job offer.
 
 Career/occupation: _________________________________________
 
-Source: ____________________  Access date: _________________
+Source and access date: ____________________________________
 
-Displayed geography: ______________________________________
-
-Displayed wage measure — check or write the source's exact label:
-
-[ ] starting pay  [ ] median  [ ] average  [ ] range  [ ] other: __________
+Geography and exact wage measure: __________________________
 
 Annual amount or displayed range: __________________________
 
-One sentence that labels the evidence accurately:
+**Word bank:** source/fuente · geography/ubicación · median/mediana · range/rango · projection/proyección.
 
-[[lines: 4]]
-
-One claim this evidence does **not** prove:
-
-[[lines: 4]]
+**Complete frame:** My source shows __________ for __________ in __________. It does not prove __________.
 
 [[pagebreak]]
 
-## Fixed No-Login Career Card
+## 2. Build a Fictional Lifestyle Target
 
-### Electricians
+This is a planning scenario. Do not describe your family, current home, income, debt, or bills.
 
-- Work: install, maintain, and repair electrical power, communications, lighting, and control systems.
-- Typical entry education: high-school diploma or equivalent.
-- Common route: most learn through a four- or five-year apprenticeship; Texas license eligibility must be checked through TDLR.
-- May 2024 U.S. median: **$62,350**.
-- 2024–34 projected growth: **9%**.
-- About **81,000 annual openings**.
+| Part of the scenario | What matters in this plan? |
+|---|---|
+| Housing and household |  |
+| Transportation |  |
+| Food, health, and basic needs |  |
+| Internet, phone, and community |  |
+| Interests, travel, or giving |  |
+| Emergency and future savings |  |
 
-Source: U.S. Bureau of Labor Statistics, accessed August 2026. The wage is a national median, not DFW starting pay or a job offer.
-
-Trend conclusion using one exact fact:
+One choice I would protect and why:
 
 [[lines: 5]]
 
-One limitation of using national projections for my future:
-
-[[lines: 4]]
-
-[[pagebreak]]
-
-## My Lifestyle Target
-
-This is a planning scenario. You do not have to describe your family or current home.
-
-### Housing and household
-
-What type of place and household arrangement would fit this scenario?
+One choice I could change if the math does not work:
 
 [[lines: 5]]
 
-### Transportation
+**Word bank:** need/necesidad · want/deseo · protect/proteger · adjust/ajustar · savings/ahorros.
 
-What would this scenario use to get to work, school, stores, and activities?
-
-[[lines: 4]]
-
-### Food, health, and basic needs
-
-What choices matter most here?
-
-[[lines: 4]]
-
-### Connection, interests, and community
-
-What technology, hobbies, travel, giving, or community costs matter?
-
-[[lines: 5]]
+**Complete frame:** I would protect __________ because __________. I could adjust __________ if __________.
 
 [[pagebreak]]
 
-## Savings and Future Goals
+## 3. Rank Priorities and Read the Trend
 
-Emergency goal:
+| Rank | Priority | Why it matters in this fictional plan |
+|---:|---|---|
+| 1 |  |  |
+| 2 |  |  |
+| 3 |  |  |
 
-[[lines: 3]]
-
-Education/training or career goal:
-
-[[lines: 3]]
-
-Long-term purchase or experience:
+Trend evidence from Xello or the fixed BLS card:
 
 [[lines: 3]]
 
-One choice I am willing to adjust if the budget does not balance:
+What the trend suggests:
 
 [[lines: 4]]
 
-One choice I want to protect and why:
+One limitation or question the source does not answer:
 
 [[lines: 4]]
 
-[[pagebreak]]
+**Word bank:** priority/prioridad · trend/tendencia · growth/crecimiento · openings/vacantes · limitation/limitación.
 
-## Rank Three Priorities
-
-### Priority 1
-
-Name: ____________________  Why it comes first: [[lines: 3]]
-
-### Priority 2
-
-Name: ____________________  Why it comes second: [[lines: 3]]
-
-### Priority 3
-
-Name: ____________________  Why it comes third: [[lines: 3]]
-
-One need and one want in this scenario:
-
-[[lines: 4]]
-
-How the salary evidence and career trend might affect the plan:
-
-[[lines: 4]]
+**Complete frame:** I ranked __________ first because __________. The trend shows __________, but it does not tell me __________.

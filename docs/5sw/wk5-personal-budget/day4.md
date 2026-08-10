@@ -3,7 +3,7 @@
 ## Daily Learning Contract
 
 - **Topic:** Paying for Education
-- **Objective:** Students will investigate and describe methods available to pay for college and other postsecondary training using evidence from Paying for Education.
+- **Objective:** Students will investigate and describe current methods for paying for college and other postsecondary training.
 - **TEKS:** d(3)(C)
 - **Demonstration of Learning:** funding-method decision guide plus retryable Canvas practice check.
 <!-- CCE DAILY CONTRACT END -->
@@ -22,7 +22,7 @@ Post the CCE guide, the official Federal Student Aid one-page resource/link, and
 1. **Warm-up — 5 min.** Which sources reduce cost, which earn money, and which must be repaid?
 2. **Method cards — 10 min.** Compare scholarships, grants, work-study, federal/private loans, savings/529, employer tuition benefits, and Registered Apprenticeship.
 3. **FAFSA/TASFA/opt-out boundary — 10 min.** FAFSA is free and can open access to federal grants, work-study, and loans. Current Texas public-school policy requires seniors to complete FAFSA, TASFA, or a signed opt-out; middle-school students do none of these in class.
-4. **Scenario decisions — 15 min.** Students build funding sequences for three fictional students and explain what each method does and does not guarantee.
+4. **Scenario decisions — 15 min.** Students build funding sequences for two fictional students and explain what each method does and does not guarantee.
 5. **Canvas practice check — 7 min.** Five bounded questions with immediate feedback and unlimited retries.
 6. **Exit — 3 min.** Name one source that reduces cost, one that earns money, and one that creates repayment.
 

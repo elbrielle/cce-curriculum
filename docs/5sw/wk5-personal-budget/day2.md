@@ -3,15 +3,15 @@
 ## Daily Learning Contract
 
 - **Topic:** Personal Budget
-- **Objective:** Students will prepare a personal budget that reflects a desired lifestyle using evidence from Personal Budget.
+- **Objective:** Students will prepare and revise a fictional personal budget that reflects a desired lifestyle.
 - **TEKS:** d(5)(D)
-- **Demonstration of Learning:** balanced personal budget, surplus/shortage, and one evidence-based revision.
+- **Demonstration of Learning:** fictional Dallas County monthly budget with balance, one $300 event response, and one evidence-based revision.
 <!-- CCE DAILY CONTRACT END -->
 **Time:** 50 minutes
 
 **TEKS:** d(5)(D)
 
-**Evidence:** balanced personal budget, surplus/shortage, and one evidence-based revision
+**Evidence:** fictional Dallas County monthly budget with balance, one $300 event response, and one evidence-based revision
 
 ## Fixed Dallas County baseline
 
@@ -34,8 +34,8 @@ These are scenario estimates, not a family's bill, a guaranteed price, or a comp
 
 1. **Warm-up — 5 min.** Predict the largest category in the supplied scenario and explain why.
 2. **Worked model — 12 min.** Build the fixed $3,450 baseline one category at a time. Check units and total after every section.
-3. **Student budget — 25 min.** Students keep, reduce, or increase stated categories to reflect the Day 1 lifestyle, add savings and wants, then calculate surplus or shortage. Every change needs a written assumption.
-4. **Stress test — 5 min.** Reduce available monthly income by $300 and identify the first revision without judging the career or family.
+3. **Student budget — 25 min.** Use the supplied fictional monthly income of **$4,200**. Students keep, reduce, or increase stated categories to reflect the Day 1 lifestyle, add savings and wants, then calculate surplus or shortage. Every change needs a written assumption.
+4. **$300 event card — 5 min.** Reduce the fictional monthly income by $300 and identify the first revision without judging the career or family.
 5. **Exit — 3 min.** Record final balance and one justified revision.
 
 ## Monitoring checks
@@ -44,7 +44,7 @@ These are scenario estimates, not a family's bill, a guaranteed price, or a comp
 - Minute 15: basic categories are complete.
 - Minute 22: total and surplus/shortage are visible.
 
-Common errors: mixing annual and monthly numbers, subtracting the same amount twice, omitting a category without explaining it, or calling the fixed scenario a real person's budget.
+Common errors: mixing annual and monthly numbers, subtracting the same amount twice, omitting a category without explaining it, converting a career salary into take-home pay, or calling the fixed scenario a real person's budget.
 
 ## Access and absence route
 

@@ -6,15 +6,15 @@ weeks: 5sw/wk5-personal-budget
 audience: student
 variant_of:
 language: en
-pages: 6
+pages: 4
 orientation: portrait
 ---
 
-## Dallas County One-Adult Baseline
+## 1. Read the Dallas County Scenario
 
 MIT Living Wage Calculator, Dallas County, one adult/no children, updated February 15, 2026:
 
-| Category | Annual basic expense | Monthly rounded amount |
+| Category | Annual expense | Rounded monthly amount |
 |---|---:|---:|
 | Housing | $17,805 | $1,484 |
 | Transportation | $8,440 | $703 |
@@ -23,134 +23,112 @@ MIT Living Wage Calculator, Dallas County, one adult/no children, updated Februa
 | Civic participation | $2,583 | $215 |
 | Internet and mobile | $1,454 | $121 |
 | Other basic needs | $4,067 | $339 |
-| **Total required after taxes** | **$41,399** | **about $3,450** |
+| **Total after taxes** | **$41,399** | **about $3,450** |
 
 Required annual income before taxes: **$48,489**.
 
-These are estimates for one scenario, not a family's bill or a guaranteed price. Household size, benefits, debt, savings, taxes, and personal choices change the result.
+These are estimates for one scenario. They are not a family's bill, a complete budget, or a guaranteed price.
 
-One category I need defined before budgeting:
+### Worked monthly model
 
-[[lines: 4]]
+Fictional monthly planning income: **$4,200**
 
-[[pagebreak]]
+$4,200 - $3,450 basic-cost baseline = **$750 remaining**
 
-## Worked Electrician Planning Model
+Example: $300 emergency savings + $200 long-term goal + $250 wants/flex = $750.
 
-Fallback annual salary: $62,350 May 2024 U.S. median.
+**Word bank:** monthly/mensual · category/categoría · baseline/punto de referencia · remaining/restante.
 
-For this classroom scenario only, use an **80% planning factor** to leave room for taxes and payroll deductions. This is not a tax calculation.
-
-1. Estimated annual take-home for planning:
-
-$62,350 × 0.80 = **$49,880**
-
-2. Estimated monthly planning income:
-
-$49,880 ÷ 12 = **$4,156.67**
-
-3. Fixed Dallas County basic-cost baseline:
-
-$4,156.67 − $3,450 = **$706.67 remaining**
-
-4. Example remaining-money plan:
-
-| Choice | Amount |
-|---|---:|
-| Emergency savings | $300 |
-| Long-term goal | $200 |
-| Wants/flex | $206.67 |
-| **Total** | **$706.67** |
-
-One assumption that could change this model:
-
-[[lines: 4]]
+**Complete frame:** The fixed scenario leaves $________ after basic costs. It still does not include __________.
 
 [[pagebreak]]
 
-## My Monthly Planning Income
+## 2. Build the Fictional Monthly Budget
 
-Career and salary source: __________________________________
+Start with the supplied **$4,200 monthly planning income**. Keep or change the baseline to match the fictional lifestyle target. Do not convert a career salary into take-home pay.
 
-Annual salary or fixed fallback amount: $____________________
+| Category | MIT baseline | My plan |
+|---|---:|---:|
+| Housing | $1,484 | $ |
+| Transportation | $703 | $ |
+| Food | $335 | $ |
+| Medical | $253 | $ |
+| Civic participation | $215 | $ |
+| Internet/mobile | $121 | $ |
+| Other basic needs | $339 | $ |
+| Emergency savings | -- | $ |
+| Long-term goal | -- | $ |
+| Wants/flex | -- | $ |
+| **Total spending** |  | **$** |
 
-Classroom planning factor: 80%
+One amount I changed and the assumption behind it:
 
-Annual planning take-home: $____________ × 0.80 = $____________
+[[lines: 2]]
 
-Monthly planning income: $____________ ÷ 12 = $____________
+**Word bank:** income/ingreso · expense/gasto · assumption/supuesto · savings/ahorros.
 
-If my source gives only a range or cannot supply one annual number, I will use the fixed fallback rather than invent a midpoint.
-
-Explain what this planning income is—and is not:
-
-[[lines: 6]]
-
-[[pagebreak]]
-
-## My Basic-Needs Plan
-
-| Category | MIT baseline | My amount | Why I kept or changed it |
-|---|---:|---:|---|
-| Housing | $1,484 | $ |  |
-| Transportation | $703 | $ |  |
-| Food | $335 | $ |  |
-| Medical | $253 | $ |  |
-| Civic | $215 | $ |  |
-| Internet/mobile | $121 | $ |  |
-| Other basic needs | $339 | $ |  |
-| **Basic-needs total** | **$3,450** | **$** |  |
-
-One change that needs a fuller explanation:
-
-[[lines: 5]]
+**Complete frame:** I changed __________ from $________ to $________ because this fictional plan assumes __________.
 
 [[pagebreak]]
 
-## Savings, Wants, and Balance
+## 3. Calculate and Explain the Balance
 
-Monthly planning income: $________________
+Monthly planning income: **$4,200**
 
-Basic-needs total: − $________________
-
-Emergency savings: − $________________
-
-Long-term goal: − $________________
-
-Wants/flex: − $________________
+Total spending: - $________________
 
 **Final monthly balance:** $________________
 
 [ ] surplus  [ ] shortage  [ ] exactly even
 
-Why my savings and wants amounts match my stated priorities:
+Show one check of your math:
 
-[[lines: 6]]
+[[lines: 1]]
+
+Why the savings and wants amounts match the priorities from Day 1:
+
+[[lines: 3]]
 
 If the plan has a shortage, the first evidence-based revision is:
 
-[[lines: 5]]
+[[lines: 2]]
+
+One need or cost this simplified plan still misses:
+
+[[lines: 2]]
+
+**Word bank:** surplus/superávit · shortage/déficit · balance/saldo · revise/revisar.
+
+**Complete frame:** My plan has a __________ of $________. I would revise __________ because __________.
 
 [[pagebreak]]
 
-## $300 Stress Test and Revision
+## 4. Respond to the $300 Event Card
 
-New monthly planning income: original $________ − $300 = $________
+For this fictional event, monthly planning income drops by **$300**.
+
+New monthly planning income: $4,200 - $300 = $____________
 
 What I would protect:
 
-[[lines: 4]]
+[[lines: 2]]
 
 What I would reduce, delay, or replace:
 
-[[lines: 5]]
+[[lines: 3]]
 
-Revised final balance: $________________
+Revised total spending: $____________
 
-Why the revision is realistic for this fictional plan:
+Revised final balance: $____________
 
-[[lines: 6]]
+Why the revision fits the priorities and the new limit:
 
-One factor the budget still does not include:
+[[lines: 3]]
 
-[[lines: 4]]
+One uncertainty that remains:
+
+[[lines: 2]]
+
+**Word bank:** event/evento · protect/proteger · reduce/reducir · delay/posponer · uncertainty/incertidumbre.
+
+**Complete frame:** After the $300 change, I protected __________ and changed __________ because __________.

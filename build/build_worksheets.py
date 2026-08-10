@@ -416,6 +416,7 @@ FOOTER_STYLE = (
     "box-sizing:border-box;width:100%;margin:0;"
     "padding:4pt 0.55in 0;border-top:0.5pt solid #c8d0d7;"
     "display:flex;justify-content:space-between;align-items:baseline;"
+    "background:#ffffff;position:relative;z-index:9999;overflow:visible;"
     "-webkit-print-color-adjust:exact;"
 )
 

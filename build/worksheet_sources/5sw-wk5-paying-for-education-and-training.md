@@ -6,102 +6,88 @@ weeks: 5sw/wk5-personal-budget
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 3
 orientation: portrait
 ---
 
-## Method Guide
+## 1. Sort the Funding Methods
 
-| Method | What it does | Key boundary |
+| Method | What it does | Boundary to verify |
 |---|---|---|
-| Scholarship | Gift aid from a school or other provider | Eligibility, deadlines, and conditions vary |
+| Scholarship | Gift aid from a school or provider | Eligibility, deadline, and conditions vary |
 | Grant | Aid that generally does not require repayment when conditions are met | Eligibility and continued requirements vary |
-| Work-study | Eligible student earns money through a job | Not an automatic tuition discount or guaranteed job |
-| Loan | Borrowed money can cover eligible costs | Must be repaid with interest and complete terms matter |
-| Savings/529 | Money set aside before the bill | Rules, taxes, ownership, and available balance vary |
-| Employer tuition benefit | Employer pays or reimburses some education cost | Job, eligible program, amount, timing, and stay requirements vary |
-| Registered Apprenticeship | Paid job with structured learning and a portable credential | Current opening and sponsor terms vary |
+| Work-study | Eligible student earns money through a job | Award and job are not automatic |
+| Loan | Borrowed money covers eligible costs | Repayment, interest, fees, and terms matter |
+| Savings/529 | Money was set aside before the bill | Rules, ownership, and balance vary |
+| Employer tuition benefit | Employer pays or reimburses some cost | Job, program, amount, timing, and stay rules vary |
+| Registered Apprenticeship | Paid job plus structured learning | Opening, eligibility, wage, schedule, and sponsor terms vary |
 
-Two methods that reduce cost without creating repayment:
+Sort at least one method into each job:
 
-[[lines: 4]]
+- Reduces cost without repayment: __________________________
+- Earns money through work: ________________________________
+- Borrows money: __________________________________________
+- Requires a real provider or sponsor to verify: __________
 
-One method that earns money and one that borrows money:
+**Word bank:** scholarship/beca · grant/subvención · earn/ganar · borrow/pedir prestado · repayment/reembolso.
 
-[[lines: 4]]
-
-[[pagebreak]]
-
-## FAFSA, TASFA, and Texas Policy
-
-FAFSA is a free application used to determine eligibility for federal grants, work-study, and loans. States, schools, and some private providers also use FAFSA information. FAFSA is not an aid award or a loan by itself.
-
-Current Texas public-school graduation policy requires a senior to do one of the following:
-
-1. complete and submit FAFSA;
-2. complete and submit TASFA; or
-3. submit a signed opt-out form.
-
-Middle-school students do none of these in this lesson. Never enter a Social Security number, tax data, family income, citizenship/immigration information, or personal aid account for class.
-
-Explain the difference between an application and an aid offer:
-
-[[lines: 6]]
+**Complete frame:** __________ can __________, but the student still needs to verify __________.
 
 [[pagebreak]]
 
-## Fictional Case 1 — Reduce the Price First
+## 2. Decide for Two Fictional Students
+
+### Taylor -- reduce the price first
 
 Taylor has a strong academic record and community-service experience. Taylor wants a current college or technical-school program but has not compared aid offers.
 
-First two methods to investigate and why:
+First two methods Taylor should investigate and why:
 
-1. [[lines: 5]]
-2. [[lines: 5]]
+1. [[lines: 2]]
+2. [[lines: 2]]
 
-One deadline or condition to verify:
+One deadline or condition to verify: ________________________
 
-[[lines: 4]]
-
-Why a loan should not be mislabeled as free money:
-
-[[lines: 4]]
-
-[[pagebreak]]
-
-## Fictional Case 2 — Earn While Learning
+### Jordan -- earn while learning
 
 Jordan wants structured technical training and paid work. A current Registered Apprenticeship listing may fit, but there is no guaranteed opening.
 
 What Jordan must verify in a real sponsor listing:
 
-[[lines: 6]]
+[[lines: 2]]
 
-How this route changes the payment picture:
+One reason a technical-college route could still fit better:
 
-[[lines: 5]]
+[[lines: 2]]
 
-One reason a technical-college route could still be a better fit:
+**Word bank:** eligibility/requisitos · deadline/fecha límite · sponsor/patrocinador · offer/oferta · condition/condición.
 
-[[lines: 5]]
+**Complete frame:** I would investigate __________ first because __________. Before deciding, the student must verify __________.
 
 [[pagebreak]]
 
-## Fictional Case 3 — Build a Funding Sequence
+## 3. Repair Claims and Build a Safe Sequence
 
-Sam has a college/career-school goal and an employer that may offer tuition support after six months of employment.
+FAFSA is a free application used to determine eligibility for federal grants, work-study, and loans. It is not an aid award or a loan by itself. Texas currently requires a graduating senior to complete and submit FAFSA, complete and submit TASFA when applicable, or submit an authorized signed opt-out. Middle-school students do none of those actions in this lesson.
 
-Put four actions in a sensible order:
+Repair each claim:
 
-1. [[lines: 2]]
-2. [[lines: 2]]
-3. [[lines: 2]]
-4. [[lines: 2]]
+1. "FAFSA is a loan." -> [[lines: 2]]
+2. "Work-study erases tuition." -> [[lines: 2]]
+3. "Every apprenticeship is open and uses the same rules." -> [[lines: 2]]
 
-Name one method that reduces cost, one that earns money, and one that creates repayment:
+Put five future actions in a safe order:
 
-[[lines: 4]]
+| Order | Action |
+|---:|---|
+| 1 |  |
+| 2 |  |
+| 3 |  |
+| 4 |  |
+| 5 |  |
 
-One claim Sam must verify rather than assume:
+One official source to recheck later: _______________________
 
-[[lines: 3]]
+**Word bank:** application/solicitud · aid offer/oferta de ayuda · compare/comparar · verify/verificar · accept/aceptar.
+
+**Complete frame:** First, the student should __________. Before accepting anything, the student should compare __________ and verify __________.

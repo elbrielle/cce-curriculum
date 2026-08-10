@@ -6,107 +6,53 @@ weeks: 5sw/wk5-personal-budget
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 2
 orientation: landscape
 ---
 
-## Fixed Same-Household Evidence
+## 1. Hold the Job Offer Constant
 
-MIT Living Wage Calculator, one adult/no children, 2,080 hours/year, updated February 15, 2026:
+Fictional Jordan has the same **$70,000 annual before-tax offer** in every location. The household scenario also stays the same: one adult/no children, 2,080 work hours/year. MIT Living Wage Calculator data was updated February 15, 2026.
 
-| Location | Hourly living-wage rate | Required annual income before taxes |
-|---|---:|---:|
-| Tulsa County, Oklahoma | $21.23 | $44,165 |
-| Dallas County, Texas | $23.31 | $48,489 |
-| Los Angeles County, California | $28.92 | $60,161 |
-| New York County, New York | $38.21 | $79,469 |
+| Location | Hourly target | Annual before-tax target | $70,000 - target | Result |
+|---|---:|---:|---:|---|
+| Tulsa County, Oklahoma | $21.23 | $44,165 | $ | above / below |
+| Dallas County, Texas | $23.31 | $48,489 | $ | above / below |
+| Los Angeles County, California | $28.92 | $60,161 | $ | above / below |
+| New York County, New York | $38.21 | $79,469 | $ | above / below |
 
-These figures hold the household scenario constant. They do not provide the local salary for one occupation, predict every person's expenses, or include the student's preferred household.
+Choose Dallas and two other locations. Complete all three table cells, then show one subtraction:
 
-My selected career salary and its exact source label:
+[[lines: 1]]
 
-[[lines: 4]]
+**Word bank:** fixed offer/oferta fija · annual target/meta anual · gap/diferencia · above/por encima · below/por debajo.
 
-[[pagebreak]]
-
-## Dallas County
-
-Required annual before-tax target: $48,489
-
-Selected career salary: $________________
-
-Career salary − cost target = $________________
-
-[ ] above target  [ ] below target  [ ] not comparable because: __________
-
-What the difference suggests:
-
-[[lines: 6]]
-
-One missing factor:
-
-[[lines: 4]]
+**Calculation frame:** $70,000 - [annual target] = [gap].
 
 [[pagebreak]]
 
-## Comparison Location 1
+## 2. Recommend a Location for Fictional Jordan
 
-Location: [ ] Tulsa County  [ ] Los Angeles County  [ ] New York County
+Rank the three locations you compared:
 
-Required annual before-tax target: $________________
+| Rank | Location | One number that supports the rank |
+|---:|---|---|
+| 1 |  |  |
+| 2 |  |  |
+| 3 |  |  |
 
-Selected career salary: $________________
+Two nonfinancial factors Jordan should investigate:
 
-Career salary − cost target = $________________
+1. ______________________________  2. ______________________________
 
-[ ] above target  [ ] below target  [ ] not comparable because: __________
-
-What the difference suggests:
-
-[[lines: 6]]
-
-One missing factor:
-
-[[lines: 4]]
-
-[[pagebreak]]
-
-## Comparison Location 2
-
-Location: [ ] Tulsa County  [ ] Los Angeles County  [ ] New York County
-
-Required annual before-tax target: $________________
-
-Selected career salary: $________________
-
-Career salary − cost target = $________________
-
-[ ] above target  [ ] below target  [ ] not comparable because: __________
-
-What the difference suggests:
-
-[[lines: 6]]
-
-One missing factor:
-
-[[lines: 4]]
-
-[[pagebreak]]
-
-## Relocation Judgment for Fictional Jordan
-
-Rank the three locations from strongest to weakest fit for the supplied career evidence:
-
-1. ____________________  Evidence: [[lines: 2]]
-
-2. ____________________  Evidence: [[lines: 2]]
-
-3. ____________________  Evidence: [[lines: 2]]
-
-Jordan's best current choice and two numbers supporting it:
-
-[[lines: 5]]
-
-One nonfinancial factor Jordan should investigate before moving:
+Jordan's strongest current choice and why:
 
 [[lines: 2]]
+
+One question the table cannot answer: ________________________________________________
+
+One limitation of the fixed $70,000 offer: ___________________________________________
+
+**Word bank:** recommend/recomendar · nonfinancial/no financiero · investigate/investigar · limitation/limitación.
+
+**Sentence frame:** I recommend [location] for Jordan because the gap is [number] and [nonfinancial reason]. Jordan still needs to investigate [question].
