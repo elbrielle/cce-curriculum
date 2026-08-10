@@ -207,10 +207,25 @@ async def upsert_quiz(client):
             else f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions"
         )
         await common.api(client, "PUT" if prior else "POST", path, json=payload)
-    final_questions = await common.paged(client, f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions")
-    ordered = sorted(final_questions, key=lambda entry: entry.get("position", 0))
     expected = [name for name, *_rest in QUESTIONS]
-    actual = [entry.get("question_name") for entry in ordered]
+    final_questions = await common.paged(client, f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions")
+    final_by_name = {entry.get("question_name"): entry for entry in final_questions}
+    if set(final_by_name) != set(expected) or len(final_questions) != len(expected):
+        actual = [entry.get("question_name") for entry in final_questions]
+        raise RuntimeError(f"Architecture Quiz mismatch: expected {expected}, found {actual}")
+    reorder_data = []
+    for name in expected:
+        reorder_data.extend(
+            [("order[][id]", str(final_by_name[name]["id"])), ("order[][type]", "question")]
+        )
+    await common.api(
+        client,
+        "POST",
+        f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/reorder",
+        data=reorder_data,
+    )
+    final_questions = await common.paged(client, f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions")
+    actual = [entry.get("question_name") for entry in final_questions]
     if actual != expected:
         raise RuntimeError(f"Architecture Quiz mismatch: expected {expected}, found {actual}")
     return await common.api(client, "GET", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}")
