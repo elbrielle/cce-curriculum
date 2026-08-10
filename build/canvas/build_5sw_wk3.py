@@ -175,7 +175,7 @@ async def main():
         report = await common.upsert_assignment(
             client,
             REPORT_TITLE,
-            "<p>Submit the private fictional evidence report and a 30–45 second live, private audio/video, teacher-conference, or accommodation-aligned oral/AAC briefing. This remains formative, worth 0 points, not graded, and unpublished.</p>",
+            "<p>Submit the private fictional evidence report and a 30–45 second live, private audio/video, teacher-conference, or accommodation-aligned oral/AAC briefing. This remains formative, worth 0 points, omitted from the final grade, and unpublished.</p>",
             ["online_upload", "online_text_entry", "media_recording"],
         )
 

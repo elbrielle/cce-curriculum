@@ -100,8 +100,12 @@ async def upsert_assignment(client, title, description, submission_types, attach
         "assignment[name]": title,
         "assignment[description]": description,
         "assignment[submission_types][]": submission_types,
-        "assignment[grading_type]": "not_graded",
+        # Canvas removes online submission routes when Display Grade is set to
+        # Not Graded. Keep private evidence collection available while making
+        # the formative item gradebook-neutral.
+        "assignment[grading_type]": "percent",
         "assignment[points_possible]": "0",
+        "assignment[omit_from_final_grade]": "true",
         "assignment[published]": "false",
     }
     if attachment_id:
