@@ -1,5 +1,5 @@
 ---
-title: Resume, Revision, and Job-Search Evidence Rubric
+title: Resume, Revision, and Job-Search Evidence - Minor 2 Rubric
 slug: 6sw-wk2-resume-design-rubric
 kind: rubric
 weeks: 6sw/wk2-graphic-design-resume
@@ -21,7 +21,7 @@ orientation: landscape
 
 Total: ____ / 16
 
-This is Minor 2 in the approved sixth-six-weeks assessment map. Merch Mode design is formative and does not add a scored criterion.
+This is Minor 2 in the approved sixth-six-weeks assessment map. Merch Mode design is formative and does not add a scored criterion. Canvas records the grade out of 100: add the four ratings, divide by 16, multiply by 100, and round to the nearest whole point.
 
 [[pagebreak]]
 

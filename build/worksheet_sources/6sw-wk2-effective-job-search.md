@@ -1,124 +1,126 @@
 ---
-title: Effective Job Search Steps and Tracker
+title: Seven-Step Job Search
 slug: 6sw-wk2-effective-job-search
 kind: worksheet
 weeks: 6sw/wk2-graphic-design-resume
 audience: student
 variant_of:
 language: en
-pages: 6
+pages: 3
 orientation: portrait
 ---
 
-## Seven Steps and Safety Boundary
+## Page 1 - See and Try the Seven Steps
 
-1. Set a realistic target.
-2. Prepare truthful materials.
-3. Choose safe, credible search sources and people.
-4. Search with specific keywords and location.
-5. Screen the posting and employer before acting.
-6. Track the opportunity, deadline, and status.
-7. Tailor, apply through an authorized route, and follow up appropriately.
+This is a classroom simulation. Do not apply, create an account, contact anyone, upload a résumé to an external site, or enter personal information.
 
-Today uses fictional postings and a tracker. Do not apply, create an account, upload a résumé, contact an employer, or enter personal information.
+### The path
 
-The step most often skipped and why it matters:
+1. **Target** an opportunity. 2. **Prepare** truthful materials. 3. **Choose sources.** 4. **Search** with specific words and location. 5. **Screen** the employer, work, qualifications, deadline, and route. 6. **Track** source/date, status, and next action. 7. **Tailor and follow up** through an authorized route.
 
-[[lines: 6]]
+### Try Steps 1-4
 
-[[pagebreak]]
+**1. Target:** What opportunity or skill area are you practicing for?
 
-## Step 1-2 — Target and Materials
+[[lines: 1]]
 
-Fictional target opportunity:
+**2. Prepare:** Check the materials you would prepare later with a teacher or trusted adult.
 
-[[lines: 4]]
+- [ ] truthful résumé; [ ] schedule/availability; [ ] work samples if requested; [ ] questions to verify.
 
-Three keywords that fit the target:
+**3. Credible sources:** Name two safe starting points.
 
-[[lines: 4]]
+[[lines: 1]]
 
-Materials ready and what each proves:
+**4. Search string:** Include role, skill, and location.
 
-[[lines: 7]]
+[[lines: 1]]
 
-One missing item and safe next action:
-
-[[lines: 5]]
+> **Word bank:** target/meta · source/fuente · screen/revisar · track/registrar · tailor/adaptar
+>
+> **Use this frame:** I would search for **[target]** using **[source/words]** because **[reason]**.
 
 [[pagebreak]]
 
-## Step 3-4 — Sources and Search
+## Page 2 - Supplied Fictional Posting
 
-Two credible source types and why:
+### Bowie Media Lab Design Helper - Classroom Practice Only
 
-[[lines: 6]]
+**Organization:** Bowie Media Lab (fictional classroom scenario)
 
-Search string with job, skill, and location:
+**Location:** Irving, Texas
 
-[[lines: 4]]
+**Source/date:** CCE fictional practice card, August 2026
 
-One warning sign in a search result or message:
+**Status:** Practice only; no application or contact route exists
 
-[[lines: 5]]
+**Purpose**
 
-How I would verify through the official employer site or a known adult:
+Help the fictional media lab prepare clear, original visual materials for a student showcase.
 
-[[lines: 5]]
+**Responsibilities**
 
-[[pagebreak]]
+- organize approved text/images in a one-page event flyer;
+- create two layout options for a defined audience;
+- check spelling, alignment, hierarchy, and source labels;
+- revise the selected layout after feedback.
 
-## Step 5 — Screen a Fictional Posting
+**Qualifications for this scenario**
 
-Employer name shown: ___________________________________________
+- follow a supplied brief and deadline;
+- explain one original design choice;
+- revise a digital or paper draft;
+- keep student information private.
 
-Title and location: ______________________________________________
+**Preferred, not required**
 
-Responsibilities and required qualifications:
+- experience with Canva, Adobe Express, Google Slides, or another approved design route.
 
-[[lines: 7]]
+**Practice deadline:** Friday at the end of class
 
-Deadline/application route shown:
+**Authorized route:** submit only to the private Canvas classroom Assignment or teacher-approved paper tray
 
-[[lines: 4]]
+### Step 5 - Screen the posting
 
-Two checks before acting:
-
-[[lines: 6]]
-
-[[pagebreak]]
-
-## Step 6 — Opportunity Tracker
-
-| Field | Record |
+| Screen field | Evidence from the card |
 |---|---|
-| Employer and title | |
+| Two responsibilities | |
+| Two qualifications | |
+| One preferred item | |
+| Fictional-practice proof | |
+
+[[pagebreak]]
+
+## Page 3 - Track, Tailor, and Decide
+
+### Step 6 - Opportunity tracker
+
+| Field | My record |
+|---|---|
+| Target/title | |
+| Organization and location | |
 | Source and capture date | |
 | Deadline | |
-| Required materials | |
-| Status | |
-| Next action/date | |
+| Status | practice only - not applied |
+| Authorized route | |
+| Next action | |
 
-Why tracking matters when someone searches for several opportunities:
+### Step 7 - Tailor true evidence
 
-[[lines: 6]]
+Choose one responsibility from the posting. Use only evidence already true in your résumé or the labeled Jordan practice scenario.
 
-[[pagebreak]]
+**Responsibility I selected:**
 
-## Step 7 — Tailor and Follow Up
+[[lines: 1]]
 
-One résumé bullet I would move, revise, or emphasize for the fictional posting:
+**Résumé bullet before tailoring:**
 
-[[lines: 7]]
+[[lines: 2]]
 
-Why it matches the posting:
+**Tailored bullet with action + task + evidence/purpose:**
 
-[[lines: 5]]
+[[lines: 3]]
 
-Appropriate follow-up plan if the posting permits it:
+**Authorized next action and follow-up plan:** Use: Before any real application, I would verify **[fact]** with **[trusted route]**.
 
-[[lines: 5]]
-
-One action I will never take without teacher/family authorization:
-
-[[lines: 5]]
+[[lines: 2]]

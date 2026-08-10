@@ -3,16 +3,16 @@
 ## Daily Learning Contract
 
 - **Topic:** Job Search
-- **Objective:** Students will identify the steps of an effective job search and write a resume using evidence from Job Search.
-- **TEKS:** d(6)(A), d(7)(A) support
-- **Demonstration of Learning:** six-page Effective Job Search Steps and Tracker.
+- **Objective:** Students will identify and apply seven steps of an effective job search to one supplied fictional opportunity without applying or sharing personal data.
+- **TEKS:** d(6)(A)
+- **Demonstration of Learning:** three-page seven-step trace with a supplied fictional posting, screening record, tracker, tailored résumé bullet, and authorized next action.
 <!-- CCE DAILY CONTRACT END -->
-**TEKS:** d(6)(A), d(7)(A) support
-**Evidence:** six-page Effective Job Search Steps and Tracker
+**TEKS:** d(6)(A)
+**Evidence:** three-page seven-step trace and tailored résumé evidence
 
 ## Before Class
 
-Post the fixed fictional opportunity and tracker. Students do not apply, create accounts, contact employers, upload a résumé, or enter personal information.
+Post the three-page packet containing the complete fictional opportunity. Students do not apply, create accounts, contact employers, upload a résumé to an external site, or enter personal information.
 
 ## Seven Steps
 

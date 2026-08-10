@@ -1,4 +1,4 @@
-# Week 2: Design Your Brand — Arts/AV + First Resume
+# Week 2: Design Your Brand - Arts/AV + First Resume
 
 **6th Six Weeks** · **5 class periods (50 minutes each)**
 
@@ -10,10 +10,10 @@ I can identify Arts/AV careers, create and revise a truthful privacy-safe résum
 
 | Day | Focus | Required evidence | Canvas interaction |
 |---|---|---|---|
-| 1 | cluster + Behind the Microphone | individual podcast production plan | private annotation Assignment |
-| 2 | first résumé | privacy-safe résumé draft | private annotation/upload Assignment |
-| 3 | attention to detail | audio-cue revision + résumé before/after record | retryable practice Quiz + private revision |
-| 4 | effective job search | seven-step plan and fictional opportunity tracker | private annotation Assignment |
+| 1 | cluster + Behind the Microphone | FYF plan + individual production-role companion | private annotation Assignment |
+| 2 | first résumé | privacy-safe one-page résumé | private annotation/upload Assignment |
+| 3 | attention to detail | FYF audio cues + one-page résumé revision record | retryable practice Quiz |
+| 4 | effective job search | seven-step trace through one supplied fictional posting | private annotation Assignment |
 | 5 | Merch Mode + final evidence | formative original design + final résumé/revision/job-search Minor | private Minor 2 Assignment |
 
 ## TEKS
@@ -32,14 +32,14 @@ I can identify Arts/AV careers, create and revise a truthful privacy-safe résum
 
 ## Materials
 
-- Canvas paired guides and six CCE packets
+- Canvas paired guides and six compact CCE artifacts totaling thirteen pages
 - locked compressed FYF pp. 255-258 and 270-273
 - Chromebook or paper; optional Canva/Adobe Express; pencils/markers
-- current CareerOneStop résumé guidance and BLS Graphic Designers page
+- current CareerOneStop résumé guidance, BLS Graphic Designers page, and Irving ISD CTE listing
 
 ## Grading
 
-Days 1-4 build the evidence. Day 5 is **Minor 2** in the [6SW assessment map](../../resources/six-weeks-assessment-map.md) and remains unpublished until the Canvas review gate passes. Score truthfulness/privacy, visible résumé revision, the safe seven-step job-search process, tailored evidence, and a specific next action. Merch Mode receives formative design feedback; platform choice, graphic polish, personal work history, public sharing, and English mechanics are not scored unless meaning is unclear.
+Days 1-4 build the evidence. Day 5 is **Minor 2** in the [6SW assessment map](../../resources/six-weeks-assessment-map.md) and remains unpublished until teacher transfer. Score truthfulness/privacy, visible résumé revision, the safe seven-step job-search process, tailored evidence, and a specific next action. Merch Mode receives formative design feedback; platform choice, graphic polish, personal work history, public sharing, and English mechanics are not scored unless meaning is unclear.
 
 ## Current Sources
 

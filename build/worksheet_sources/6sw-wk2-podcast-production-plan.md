@@ -1,107 +1,84 @@
 ---
-title: Podcast Production Plan
+title: Behind the Microphone - Individual Production Evidence
 slug: 6sw-wk2-podcast-production-plan
 kind: worksheet
 weeks: 6sw/wk2-graphic-design-resume
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 2
 orientation: portrait
 ---
 
-## Audience, Purpose, and Career Roles
+## Page 1 - Audience and Production Roles
 
-This is a plan, not a public recording. Do not use real private stories, student contact information, copyrighted music, or a real guest without teacher approval.
+**Default route:** Complete the episode plan in FYF pp. 270-271. Use this companion for the individual evidence the workbook does not collect. The locked Canvas images plus this page are the no-workbook route.
 
-Podcast name: _________________________________________________
+### See how the roles connect
 
-Episode title: _________________________________________________
+- **Host/interviewer:** spoken questions and transitions;
+- **Producer:** episode plan, order, and deadlines;
+- **Sound designer:** original or licensed sound plan;
+- **Editor/access lead:** organized sequence and transcript/captions.
 
-Intended audience and what they need:
+**Audience:** Who is the episode for, and what do they already know?
 
-[[lines: 5]]
+[[lines: 2]]
 
-Episode purpose in one clear sentence:
+**Purpose:** What should the audience understand, feel, or do after listening?
 
-[[lines: 4]]
+[[lines: 2]]
 
-Two production careers and what each worker contributes:
+### Choose two roles
 
-[[lines: 6]]
+**Role 1:** ____________________  **Contribution:**
 
-[[pagebreak]]
+[[lines: 2]]
 
-## Episode Structure
+**Role 2:** ____________________  **Contribution:**
 
-**Introduction:** welcome, host, and why the topic matters
+[[lines: 2]]
 
-[[lines: 5]]
-
-**Main topic:** background a new listener needs
-
-[[lines: 6]]
-
-**Three key points, stories, or questions:**
-
-[[lines: 8]]
+> **Word bank:** audience/audiencia · contribution/contribución · sequence/secuencia · transcript/transcripción
+>
+> **Use this frame:** The **[role]** contributes **[work product]** so the audience can **[purpose]**.
 
 [[pagebreak]]
 
-## Interview and Engagement
+## Page 2 - Access, Rights, and Revision
 
-Question 1 and why it helps the audience:
+### Production boundary check
 
-[[lines: 5]]
+Check every decision your plan protects:
 
-Question 2 and why it helps the audience:
+- [ ] no real student contact information, private story, or identifying detail;
+- [ ] no public posting or real guest is required;
+- [ ] audio is original, appropriately licensed, teacher supplied, or replaced with silence;
+- [ ] a transcript or caption plan gives the audience a text route;
+- [ ] the episode has a clear opening, middle, and closing.
 
-[[lines: 5]]
+**My individual contribution:** Name the exact part you planned, wrote, checked, or revised.
 
-Question 3 and why it helps the audience:
+[[lines: 3]]
 
-[[lines: 5]]
+### Feedback and visible revision
 
-One way to keep a listener oriented or interested without copying another show:
+**Feedback or self-check evidence:** What did the reviewer notice?
 
-[[lines: 5]]
+[[lines: 2]]
 
-[[pagebreak]]
+**My revision:** What changed because of that evidence? Use: I changed **[revision]** so **[effect]**.
 
-## Audio, Accessibility, and Promotion
+[[lines: 2]]
 
-Original or licensed audio plan; silence is acceptable:
+**Why the revision helps the audience or production team:**
 
-[[lines: 5]]
+[[lines: 2]]
 
-Transcript/caption and sound-access plan:
+### Evidence limit
 
-[[lines: 5]]
+Planning a strong episode does not guarantee popularity or income. What would a producer need to test or learn after the plan?
 
-Promotion concept using fictional/sample channels only:
+[[lines: 2]]
 
-[[lines: 5]]
-
-Privacy or copyright check:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Closing and Individual Evidence
-
-Closing, thanks, and next-episode preview:
-
-[[lines: 6]]
-
-My individual production role and contribution:
-
-[[lines: 6]]
-
-One peer/teacher note and my revision:
-
-[[lines: 7]]
-
-One claim this plan cannot prove about podcast income or popularity:
-
-[[lines: 4]]
+**Done when:** FYF plan or no-workbook route + audience/purpose + two roles + access/rights checks + individual revision and evidence limit.

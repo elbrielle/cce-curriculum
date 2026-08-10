@@ -31,7 +31,7 @@
 | d(6)A | Steps of an effective job search | Wk2,5 (6th) | CareerOneStop + eDynamic 8.2 | COVERED |
 | d(6)B | Appropriate appearance for interview | Wk4-5 (6th) | Supplemental + Practice | COVERED |
 | d(6)C | Participate in a mock interview | Wk5 (6th) | Teacher-facilitated + CareerOneStop | COVERED |
-| d(7)A | Write a resume | Wk2 (6th) | Xello + CareerOneStop Resume Guide | COVERED |
+| d(7)A | Write a resume | Wk2 (6th) | CCE/CareerOneStop private résumé in Canvas or on paper; Xello supplemental | COVERED |
 | d(7)B | Write business correspondence (cover letter, thank you) | Wk6 (2nd), Wk5 (6th) | Controlled practice posting + supplemental resources | COVERED |
 | d(7)C | Complete sample job applications | Wk5 (6th) | CareerOneStop Practice Application | COVERED |
 | d(7)D | Protocol for selecting/using references | Wk5 (6th) | Supplemental + class discussion | COVERED |

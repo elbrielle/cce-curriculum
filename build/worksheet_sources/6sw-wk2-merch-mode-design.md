@@ -1,111 +1,83 @@
 ---
-title: Merch Mode Design Brief and Career Evidence
+title: Merch Mode - Audience Test and Career Connection
 slug: 6sw-wk2-merch-mode-design
 kind: worksheet
 weeks: 6sw/wk2-graphic-design-resume
 audience: student
 variant_of:
 language: en
-pages: 6
+pages: 2
 orientation: portrait
 ---
 
-## Band Identity and Audience
+## Page 1 - Test the FYF Design
 
-This is a fictional brand. Use original names, symbols, and text. Do not copy a real band logo, album art, copyrighted character, or trademark.
+**Default route:** Complete the identity, principles, and large sketch in FYF pp. 256-258. Use this companion to record the audience test and revision. Canva, Adobe Express, and paper are equal.
 
-Band name: _________________________________________________
+**Fictional audience:**
 
-Music style or genre: ________________________________________
+[[lines: 1]]
 
-Audience and what matters to them:
+**What should a viewer notice in three seconds?**
 
-[[lines: 5]]
+[[lines: 1]]
 
-Visual style, stage look, and overall message:
+**Originality check:** List what you created yourself. Do not copy a real band mark, album art, character, or trademark.
 
-[[lines: 7]]
+[[lines: 2]]
 
-[[pagebreak]]
+### Viewer test
 
-## Five Design Principles
+Use a partner, teacher conference, or self-test with the design covered and then shown for three seconds.
 
-**3-Second Rule — one main idea:**
+**What the viewer noticed first:**
 
-[[lines: 4]]
+[[lines: 2]]
 
-**Visual hierarchy — what appears first and why:**
+**Evidence that matched the intended audience/message:**
 
-[[lines: 4]]
+[[lines: 2]]
 
-**Font choice — readable style and reason:**
+**One mismatch or unclear choice:**
 
-[[lines: 4]]
+[[lines: 2]]
 
-**Memorable design — original repeating symbol or shape:**
+**Revision:** Use: I changed **[revision]** so the audience can **[purpose]**.
 
-[[lines: 4]]
-
-**Fit the vibe — how the parts belong together:**
-
-[[lines: 4]]
+[[lines: 2]]
 
 [[pagebreak]]
 
-## Sketch Option A
+## Page 2 - Graphic Design Career Evidence
 
-Label type, symbol, color/value contrast, and the intended first look.
+### Current national evidence
 
-[[box: 5.5]]
+| Field | BLS Graphic Designers |
+|---|---|
+| What they do | create visual concepts by hand or with software to communicate ideas |
+| Typical entry education | bachelor's degree |
+| May 2024 U.S. median pay | $61,300 |
+| 2024-34 outlook | 2% growth; about 20,000 openings each year on average |
+| Evidence limit | national occupation evidence, not DFW starting pay or a guarantee |
 
-One strength and one risk:
+Graphic designers may meet with clients, create layouts and visual elements, present concepts, incorporate feedback, and check designs before publishing.
 
-[[lines: 4]]
+**One graphic-designer responsibility used in Merch Mode:**
 
-[[pagebreak]]
+[[lines: 2]]
 
-## Sketch Option B
+**Work product and audience evidence:**
 
-Make a meaningfully different hierarchy or symbol choice.
+[[lines: 2]]
 
-[[box: 5.5]]
+**One limitation of the BLS or three-second-test evidence:**
 
-One strength and one risk:
+[[lines: 2]]
 
-[[lines: 4]]
+### Portfolio-ready résumé bullet
 
-[[pagebreak]]
+Write one truthful action + task + evidence/purpose bullet from this design practice. Do not claim a public client, sale, or publication.
 
-## Select, Build, and Test
+[[lines: 3]]
 
-Selected option and why it fits the audience:
-
-[[lines: 6]]
-
-Route: Canva / Adobe Express / paper / other approved accessible route
-
-3-second test: what the viewer noticed first:
-
-[[lines: 5]]
-
-One revision based on the test:
-
-[[lines: 6]]
-
-[[pagebreak]]
-
-## Career and Resume Connection
-
-Current BLS evidence: Graphic Designers create visual concepts that communicate ideas; the May 2024 U.S. median annual wage was $61,300, typical entry-level education was a bachelor's degree, projected growth was 2% for 2024-34, and about 20,000 annual openings were projected. These are national occupation measures, not DFW starting pay or a guarantee.
-
-One designer duty demonstrated here:
-
-[[lines: 5]]
-
-One portfolio/resume bullet using action + task + result/purpose:
-
-[[lines: 6]]
-
-One evidence limitation or future question:
-
-[[lines: 5]]
+> **Resume frame:** Designed **[work product]** for a fictional **[audience]**; tested **[choice]** and revised **[change]** after **[evidence]**.

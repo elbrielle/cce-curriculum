@@ -1,113 +1,108 @@
 ---
-title: First Resume Draft
+title: First Resume - Evidence Planner and One-Page Draft
 slug: 6sw-wk2-first-resume-draft
 kind: worksheet
 weeks: 6sw/wk2-graphic-design-resume
 audience: student
 variant_of:
 language: en
-pages: 6
+pages: 3
 orientation: portrait
 ---
 
-## Privacy-Safe Header and Target
+## Page 1 - See One: A Fictional Middle-School Resume
 
-This is a private school résumé draft. Do **not** enter a home address, personal phone, personal email, date of birth, student ID, Social Security number, photo, family information, references, or another person's contact information. Use a school-approved email only if the teacher directs it.
+### Jordan Lee | Irving, Texas
+**Target:** Student Media Lab Helper - classroom practice scenario
 
-Name or approved student label: ______________________________________
+**Education**
 
-City and state only, if approved: _____________________________________
+Bowie Middle School | Expected completion: 2027
 
-Target opportunity or career direction:
+**Skills**
 
-[[lines: 4]]
+- Visual communication: planned two original event flyers and revised the hierarchy after feedback.
+- Organization: tracked team materials and deadlines during a four-day design challenge.
+- Audio planning: wrote clear interview questions and a transcript plan for a class podcast.
 
-Optional one-sentence summary of what you can contribute:
+**Projects, Activities, and Service**
 
-[[lines: 4]]
+- **Career and College Explorations Project:** Created an original visual concept for a fictional audience; tested the concept with one viewer and revised the font size.
+- **Library Volunteer Scenario:** Sorted materials, explained directions, and recorded what the learner needed next.
 
-[[pagebreak]]
+### Why this model works
 
-## Education and Relevant Learning
+| Notice | Evidence in the model |
+|---|---|
+| Safe header | name, city/state, and school only; no private contact data |
+| Standard headings | Education, Skills, Projects/Activities/Service |
+| Specific bullets | action + task + evidence or purpose |
+| Truthful boundary | the target and examples are labeled as classroom practice |
 
-Current school: _________________________________________________
+### Privacy check
 
-Anticipated promotion/completion date, if approved: _____________________
+Keep these off the classroom résumé: home address, personal phone/email, birth date, ID numbers, photo, family information, and reference contacts.
 
-Relevant classes, projects, or training—list only what is true:
-
-[[lines: 8]]
-
-One project bullet using action + task + result or purpose:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Skills With Evidence
-
-Avoid a list of vague traits. For each skill, give a project, class, activity, service, or responsibility that demonstrates it.
-
-Skill 1 + evidence:
-
-[[lines: 5]]
-
-Skill 2 + evidence:
-
-[[lines: 5]]
-
-Skill 3 + evidence:
-
-[[lines: 5]]
-
-Technical tools or languages I can honestly use:
-
-[[lines: 5]]
+> **Word bank:** heading/encabezado · evidence/evidencia · project/proyecto · responsibility/responsabilidad
+>
+> **Action verbs:** created · planned · organized · revised · explained · tracked · tested
 
 [[pagebreak]]
 
-## Experience, Projects, Activities, or Service
+## Page 2 - Plan Your Evidence
 
-Paid work is not required. Use a real school project, family responsibility, club, sport, volunteer experience, informal helping, or teacher-supplied scenario. Do not invent dates, titles, hours, awards, or results.
+Use true school, project, activity, service, or responsibility evidence. Paid work is not required. If you need a privacy-safe alternate, use Jordan's fictional scenario and label it **practice**.
 
-Entry 1—role/project, organization/context, dates or time period:
+**Safe display name:** ______________________________  **City/state or school only:** ______________________________
 
-[[lines: 4]]
+**Target opportunity or skill area:**
 
-Two evidence bullets:
+[[lines: 1]]
+
+### Education and relevant learning
+
+School/program: ______________________________  Expected completion year: __________
+
+Two relevant classes, projects, or learning experiences:
+
+[[lines: 2]]
+
+### Build three evidence bullets
+
+**Skill 1:** ____________________  **Action + task + evidence/purpose:**
+
+[[lines: 2]]
+
+**Skill 2:** ____________________  **Action + task + evidence/purpose:**
+
+[[lines: 2]]
+
+**Skill 3:** ____________________  **Action + task + evidence/purpose:**
+
+[[lines: 2]]
+
+[[pagebreak]]
+
+## Page 3 - Assemble the One-Page Resume
+
+# __________________________________________
+**City/state or school only:** __________________________________________
+
+**Target:** __________________________________________
+
+## Education
+
+[[lines: 3]]
+
+## Skills
+
+[[lines: 5]]
+
+## Projects, Activities, Service, or Responsibilities
 
 [[lines: 7]]
 
-Entry 2—role/project, organization/context, dates or time period:
+## Assembly check
 
-[[lines: 4]]
-
-Two evidence bullets:
-
-[[lines: 7]]
-
-[[pagebreak]]
-
-## One-Page Resume Assembly Check
-
-Check before you format or copy into an optional tool:
-
-- [ ] standard headings make sections easy to find;
-- [ ] every claim is true and specific;
-- [ ] bullets begin with clear action words;
-- [ ] spelling, dates, capitalization, and verb tense are consistent;
-- [ ] no sensitive personal information or reference contact appears;
-- [ ] formatting is readable and not dependent on color or graphics;
-- [ ] the strongest evidence matches the target opportunity.
-
-My strongest bullet and why:
-
-[[lines: 5]]
-
-One section that needs evidence:
-
-[[lines: 5]]
-
-My revision plan:
-
-[[lines: 6]]
+- [ ] standard headings and readable font; [ ] true, specific evidence; [ ] consistent details;
+- [ ] no sensitive data; [ ] no invented title, tool, award, hours, result, or experience.

@@ -1,113 +1,45 @@
 ---
-title: Audio Cue and Resume Detail Revision
+title: Attention to Detail - Resume Revision Record
 slug: 6sw-wk2-audio-cue-and-resume-revision
 kind: worksheet
 weeks: 6sw/wk2-graphic-design-resume
 audience: student
 variant_of:
 language: en
-pages: 8
+pages: 1
 orientation: portrait
 ---
 
-## Attention to Detail Checklist
+## Use FYF First
 
-Good detail helps another person act without guessing. For each audio cue, specify the action, material/object, surface or environment, timing, intensity, and mood when relevant. Do not create or perform unsafe sound effects.
+Complete the audio-cue work in FYF pp. 272-273. Use this page to connect that detail work to a sound-production career and a visible résumé revision. The locked Canvas images provide the no-workbook cue route.
 
-One detail category and why the sound team needs it:
+### Career opportunity
 
-[[lines: 5]]
+Choose one: sound designer · foley artist · audio editor · production assistant
 
-The same idea transfers to a résumé because:
+**Career:** ______________________________  **Work product:**
 
-[[lines: 5]]
+[[lines: 1]]
 
-[[pagebreak]]
+**One cue detail this worker needs so the worker does not have to guess:**
 
-## Rewrite Cue 1 and Cue 2
+[[lines: 2]]
 
-**Original:** Running sound
+**Language help:** cue/señal · material/material · surface/superficie · timing/ritmo · mood/ambiente
 
-Rewritten cue:
+### Resume before and after
 
-[[lines: 6]]
+**Before:** Copy one vague trait, tool name, or weak bullet from your résumé.
 
-Details added and why:
+[[lines: 2]]
 
-[[lines: 5]]
+**Check the weak spot:** [ ] no action; [ ] no task/context; [ ] no evidence/purpose; [ ] inconsistent details.
 
-**Original:** Drop sound
+**After:** Rewrite the bullet with action + task + evidence/purpose.
 
-Rewritten cue:
+[[lines: 3]]
 
-[[lines: 6]]
+**Why it helps, plus one consistency repair:** The revision shows **[evidence]** by **[action]**. I also corrected **[detail]**.
 
-Details added and why:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Rewrite Cue 3 and Cue 4
-
-**Original:** Animal noise
-
-Rewritten cue:
-
-[[lines: 6]]
-
-Details added and why:
-
-[[lines: 5]]
-
-**Original:** Background music starts
-
-Rewritten cue:
-
-[[lines: 6]]
-
-Details added and why:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Resume Evidence Audit
-
-Keep the résumé private. Peer review is optional and uses a student-controlled redacted copy; students never exchange devices or logins.
-
-One vague claim in my résumé:
-
-[[lines: 4]]
-
-Revised with action + task + evidence/result:
-
-[[lines: 6]]
-
-One inconsistent date, tense, heading, or capitalization pattern:
-
-[[lines: 4]]
-
-My correction:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Before-and-After Revision Record
-
-Before:
-
-[[lines: 6]]
-
-Feedback or checklist evidence:
-
-[[lines: 5]]
-
-After:
-
-[[lines: 7]]
-
-Why the revision helps an employer understand my evidence:
-
-[[lines: 6]]
+[[lines: 2]]
