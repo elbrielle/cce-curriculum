@@ -4,7 +4,7 @@
 
 ## Lesson Objective
 
-Students compare construction careers and preparation routes, investigate the steps for a Registered Apprenticeship and a Dallas College construction program, classify construction occupations with one published course rule, and turn visible clues from a fictional property into a careful evidence report and short professional briefing.
+Students compare construction careers and preparation routes, investigate the steps for a Registered Apprenticeship and a Dallas College construction program, classify construction occupations with one published course rule, and turn visible clues from a fictional property into a careful evidence report and short oral/AAC professional briefing using appropriate technology.
 
 **Learning Target:** I can use dated evidence to compare construction careers and routes, explain what an assessment image supports and does not support, and communicate one finding clearly.
 
@@ -17,7 +17,7 @@ Students compare construction careers and preparation routes, investigate the st
 - **d(3)(G):** Investigate and report the steps required to apply to a Registered Apprenticeship and enroll in a community or technical college route (Day 2).
 - **d(3)(H):** Distinguish a union, professional/trade association, CTSO, and credential body; explain the value of one affiliated organization (Day 2).
 - **d(5)(A), d(5)(B):** Analyze labor trends and classify occupations with a consistent, published evidence rule (Day 3).
-- **d(4)(C):** Deliver an individual 30–45 second professional evidence briefing (Day 5).
+- **d(4)(C):** Deliver an individual 30-45 second oral/AAC professional evidence briefing using the visible report/evidence card, private recording, or AAC/speech-generating device (Day 5).
 
 ## Evidence Boundary
 
@@ -56,7 +56,7 @@ Annual openings are analyzed separately. Openings include replacement needs and 
 | 2 | Registered Apprenticeship, college route, and organizations | Route/enrollment and organization comparison | d(3)(G), d(3)(H) |
 | 3 | Fixed labor-market classification | Four-career classification and limitation | d(5)(A), d(5)(B) |
 | 4 | Spot the Problem observation lab | Findings 1–5 + thermal boundary in the shared report | d(1)(C) |
-| 5 | Evidence report + professional briefing | Revised private report + individual oral/AAC briefing | d(1)(C), d(4)(C) |
+| 5 | Evidence report + professional briefing | Revised private report + individual oral/AAC briefing using appropriate technology | d(1)(C), d(4)(C) |
 
 ## Materials
 
@@ -71,7 +71,7 @@ Annual openings are analyzed separately. Openings include replacement needs and 
 - Days 1–2: formative.
 - Day 3: **Minor 3**, the individual labor-evidence classification.
 - Day 4: formative draft in the shared evidence report, with a full teacher key.
-- Day 5: formative individual inspection-evidence report plus 30–45 second live, private recorded, or teacher-conference briefing under one rubric.
+- Day 5: formative individual inspection-evidence report plus a 30-45 second oral/AAC briefing using the visible report/evidence card, private recording, or AAC/speech-generating device under one rubric.
 
 The [5SW assessment map](../../resources/six-weeks-assessment-map.md) is the placement authority. Keep graded Canvas items unpublished until the Minor/Major groups and 40%/60% weighting are verified. Team attendance, public-speaking confidence, grammar, drawing, accent, H&L state, and platform access do not determine mastery.
 

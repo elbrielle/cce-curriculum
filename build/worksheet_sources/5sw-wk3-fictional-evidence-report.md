@@ -130,7 +130,7 @@ One important report limitation:
 
 [[pagebreak]]
 
-## 30–45 Second Professional Briefing Planner
+## 30-45 Second Professional Briefing Planner
 
 Image and area: _____________________________________________
 
@@ -154,6 +154,10 @@ Image and area: _____________________________________________
 
 [[lines: 2]]
 
+Appropriate technology choice: report/evidence card · private recording · AAC/speech-generating device
+
+My choice: ________________________________________________
+
 Phrase that keeps my claim accurate: ________________________
 
-**Briefing options:** live teacher conference · private audio/video · accommodation-aligned oral/AAC route
+**Oral/AAC route:** live or teacher conference with visible report/evidence card · private audio/video · accommodation-aligned AAC/speech-generating device

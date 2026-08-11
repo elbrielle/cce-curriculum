@@ -17,6 +17,20 @@
 | **Deliverable** | Individual career/preparation evidence card |
 | **Materials** | Fixed three-career guide, current Irving pathway card, optional H&L launch |
 
+## Next-Day Operations
+
+- **Default:** one device per student, one projector, zero prints. Students submit the private Canvas annotation individually.
+- **Paper:** one three-page career packet and one pencil per student; one collection tray per class.
+- A partner may compare one preparation difference. Each student still submits one complete card.
+- **Checkpoint:** by minute 22, students have a role, two work products, and a bounded preparation route. By minute 35, they have a source limit and route decision.
+- **Pivot:** color-code the supplied model into work, preparation, number, limit, and tradeoff. **Trim:** cut the partner comparison, not the individual decision or submission.
+
+## Ready-to-Project Model
+
+**Carpenter:** Two work products are a measured wall frame and installed door or window components. BLS lists a high-school diploma as typical and says carpenters learn on the job or through apprenticeship. The May 2024 U.S. median annual wage is $59,310. That figure does not prove DFW starting pay or a guaranteed wage. For fictional Jordan, the route fits because Jordan wants to earn while learning, but Jordan must accept physical work and verify a current sponsor's terms.
+
+**Non-example:** “Carpenters make good money and become masters after apprenticeship.” This drops the source labels and invents a universal ladder.
+
 ## Warm-Up (5 min)
 
 Name one decision that must happen before a building crew can begin work. Who needs the result of that decision?

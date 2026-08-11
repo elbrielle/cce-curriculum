@@ -2,10 +2,10 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Preparation
-- **Objective:** Students will research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster and investigate and report the steps required to participate or enroll in career and educational opportunities using evidence from Career Preparation.
+- **Topic:** Entry Routes
+- **Objective:** Students will compare two current preparation routes and report the steps required to verify and enter one route.
 - **TEKS:** d(2)(A), d(3)(G)
-- **Demonstration of Learning:** two-route comparison and ordered next steps.
+- **Demonstration of Learning:** Two-route comparison, supported choice, and three ordered next steps.
 <!-- CCE DAILY CONTRACT END -->
 **Time:** 50 minutes
 
@@ -15,7 +15,9 @@
 
 ## Before class
 
-Use fixed, dated official route cards: one Registered Apprenticeship/provider example and one public technical-college example. Include exact eligibility, application/enrollment steps, published duration, paid-work status, published cost/aid boundary, credential, and source date. Students do not browse private-school sales pages or submit real forms.
+Default digital route: one Canvas-capable device per student. Paper route: one four-page route packet per student. Students compare independently; pairs may arrange the three steps orally. Every student submits one private Canvas route or one paper packet.
+
+Project this supplied model: **I recommend the Registered Apprenticeship route for Jordan because the card identifies paid work and structured instruction. The college route may be stronger when Jordan wants a scheduled certificate first. Jordan still must verify a current opening, eligibility, and sponsor terms.** Students do not create accounts, enter personal data, contact sponsors, browse private-school sales pages, or submit real forms.
 
 ## 50-minute flow
 
@@ -28,6 +30,14 @@ Use fixed, dated official route cards: one Registered Apprenticeship/provider ex
 ## Monitoring key
 
 Registered Apprenticeship is a paid job with structured instruction, mentoring, progressive wages, and a portable credential, but sponsor terms vary. Technical-college tuition, aid, admission, schedule, transfer, and job outcomes must be verified for the student's cycle. “Private trade school” is not automatically faster, cheaper, better, or worse; do not use an unsourced debt comparison.
+
+## Monitor, pivot, and trim
+
+- **Minute 15:** Each state-boundary row names the correct agency or variable credential boundary. If one-third force one ladder across all trades, project the first-page comparison.
+- **Minute 28:** Both route columns contain start, paid-work, cost/variable, outcome, and verification evidence.
+- **Minute 42:** Jordan's choice cites two card details and one advantage of the other route.
+- **Minute 46:** Three actions are ordered and one current source is named.
+- **Safe trim:** Accept arrows and labeled bullets. Protect both route columns, supported choice, three actions, and a condition to recheck. Collect one route and close devices.
 
 ## Access route
 

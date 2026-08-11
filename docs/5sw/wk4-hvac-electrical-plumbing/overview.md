@@ -24,7 +24,7 @@ Only the Day 3 classification and Day 5 individual response are scored together 
 - **d(2)(A):** describe preparation, training, certification, registration, and license boundaries (Days 1 and 4);
 - **d(3)(G):** investigate steps to enter two current postsecondary or apprenticeship routes (Day 4);
 - **d(4)(B):** apply written communication and explain how it transfers to another career (Day 2);
-- **d(4)(C):** deliver an individual professional briefing through a live, teacher-conference, private audio/video, or accommodation-aligned oral/AAC route (Day 5). A written plan or transcript may support access but does not by itself demonstrate oral evidence;
+- **d(4)(C):** deliver an individual professional briefing with an appropriate technology support: the companion/evidence card for live or teacher-conference delivery, private audio/video, or an AAC/speech-generating device (Day 5). A written plan or transcript may support access but does not by itself demonstrate oral evidence;
 - **d(5)(A), d(5)(B):** analyze and classify four occupations using dated, comparable evidence and a transparent classroom rule (Day 3).
 
 ## Evidence rules

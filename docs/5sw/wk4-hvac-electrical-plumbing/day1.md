@@ -2,10 +2,10 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters and research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Career Opportunities.
+- **Topic:** Skilled-Trades Preparation
+- **Objective:** Students will describe the work and preparation boundaries for four skilled-trades careers.
 - **TEKS:** d(1)(C), d(2)(A)
-- **Demonstration of Learning:** four-career preparation record.
+- **Demonstration of Learning:** Four-career preparation record with two differences and one verification question.
 <!-- CCE DAILY CONTRACT END -->
 **Time:** 50 minutes
 
@@ -15,7 +15,9 @@
 
 ## Before class
 
-Provide the fixed evidence packet. Do not depend on H&L, open search, or remembered apprenticeship lengths. Keep the current MacArthur Welding/Construction labels visible without promising admission, credentials, placement, or employment.
+Default digital route: one Canvas-capable device per student. Paper route: print one three-page career packet per student, but do not print for students annotating in Canvas. Students work independently; pairs may rehearse the comparison. Every student submits one private Canvas route or one labeled paper packet.
+
+Project this supplied model: **Electrician is the occupation. A Registered Apprenticeship can be a training route. A Texas electrician license is a separate legal boundary. The card does not promise a DFW starting wage or admission.** Do not depend on H&L, open search, or remembered apprenticeship lengths. Keep current MacArthur Welding/Construction labels bounded without promising admission, credentials, placement, or employment.
 
 ## 50-minute flow
 
@@ -31,6 +33,13 @@ Provide the fixed evidence packet. Do not depend on H&L, open search, or remembe
 - Plumbers, pipefitters, and steamfitters: high school typical; most learn through apprenticeship; Texas plumber licenses and apprentice registration are governed by TSBPE. Journeyman eligibility includes 8,000 hours plus the approved training/program condition and exam.
 - HVAC mechanics/installers: postsecondary nondegree award typical plus long-term on-the-job training. Texas non-exempt technician work requires the relevant TDLR registration or certification under a licensed contractor; contractor licensure is a separate route.
 - Welders: high school typical plus technical and on-the-job training. Do not invent one universal Texas welding license or require one named industry certification for every job.
+
+## Monitor, pivot, and trim
+
+- **Minute 13:** Students can label occupation, route, license, and credential without using them as synonyms. If one-third mix the labels, project the Electrician model and underline each noun.
+- **Minute 30:** All four career rows contain work and preparation/state-boundary evidence.
+- **Minute 43:** Two real differences and one official-source question are present.
+- **Safe trim:** Accept concise labeled bullets and one strong verification question. Protect all four career rows and both differences. Collect one response route, then close devices.
 
 ## Access route
 

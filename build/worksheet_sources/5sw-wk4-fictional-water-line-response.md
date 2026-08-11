@@ -54,11 +54,11 @@ What does **not** change because it protects people and evidence:
 
 1. **Priority:** what must happen first in the classroom plan?
 
-[[lines: 2]]
+[[lines: 1]]
 
 2. **Evidence:** which supplied detail supports that priority?
 
-[[lines: 2]]
+[[lines: 1]]
 
 3. **Role and work product:** who owns the next professional decision or record?
 
@@ -68,6 +68,6 @@ What does **not** change because it protects people and evidence:
 
 [[lines: 2]]
 
-Approved oral route: live / teacher conference / private audio or video / accommodation-aligned oral or AAC
+Technology support: ☐ companion/evidence card for live/conference ☐ private recording ☐ AAC/speech-generating device
 
-A written plan or transcript may support access, but it does not by itself demonstrate oral TEKS d(4)(C).
+A transcript supports access; it is not oral evidence by itself. Camera use and visual polish are not required.

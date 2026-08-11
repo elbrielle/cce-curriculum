@@ -17,7 +17,7 @@ orientation: landscape
 | Evidence accuracy | Uses precise supplied facts and labels source basis, occupation, and limits accurately | Evidence is mostly accurate and labeled | Some evidence is incomplete or mixed | Claims are mostly unsupported or mislabeled | Blank, off-topic, or not submitted |
 | Preparation and route boundaries | Separates occupation, training route, credential/license, and variable conditions consistently | Boundaries are mostly accurate | One or more boundaries need correction | Repeatedly treats one route or license as universal | Blank, off-topic, or not submitted |
 | Cautious professional reasoning | Conclusions follow the evidence and clearly state what is not proved or authorized | Reasoning and limits are mostly clear | One conclusion or limit is partial | Repeatedly diagnoses, guesses, or overstates | Blank, off-topic, or not submitted |
-| Individual briefing | 30–45 seconds, organized around priority, evidence, role/work product, and boundary through an approved oral/AAC route | All four jobs are present and mostly supported | One job is partial or lightly supported | Briefing is difficult to follow or unsupported | No oral/AAC evidence submitted |
+| Individual briefing | 30–45 seconds, organized around priority, evidence, role/work product, and boundary through an approved oral/AAC route with appropriate technology support | All four jobs and a technology support are present and mostly supported | One job or the technology support is partial | Briefing is difficult to follow, unsupported, or missing an appropriate technology support | No oral/AAC evidence submitted |
 
 Total: ____ / 16
 
@@ -27,9 +27,9 @@ Total: ____ / 16
 
 - [ ] Day 3 labor classification with cited evidence and a limitation
 - [ ] Day 5 individual response companion
-- [ ] Day 5 individual 30–45 second live, teacher-conference, private audio/video, or accommodation-aligned oral/AAC briefing
+- [ ] Day 5 individual 30–45 second oral/AAC briefing with companion/evidence card, private recording, or AAC/speech-generating device
 
-A written plan or transcript may support access, but it does not by itself demonstrate oral TEKS d(4)(C).
+A transcript supports access; it is not oral evidence by itself. Camera use and visual polish are not grading criteria.
 
 Day 1 career evidence, Day 2 field notes, and Day 4 route comparison are formative. They support the major but are not extra required pieces of the Major 1 submission.
 

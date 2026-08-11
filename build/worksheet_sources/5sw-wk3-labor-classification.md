@@ -21,9 +21,9 @@ These are classroom comparison labels, not official government designations.
 | Occupation | U.S. median | Growth | Annual openings | Preparation summary |
 |---|---:|---:|---:|---|
 | Construction Manager | $106,980 | 9% | 46,800 | Bachelor's typical |
-| Carpenter | $59,310 | 4% | 74,100 | HS diploma; OJT or apprenticeship |
-| Construction Equipment Operator | $58,320 | 4% | 46,200 | HS diploma; occupation-specific OJT |
-| Masonry Worker | $56,600 | 2% | 20,700 | Occupation-specific OJT; route varies |
+| Carpenter | $59,310 | 4% | 74,100 | HS diploma; apprenticeship is the BLS training category |
+| Construction Equipment Operator | $58,320 | 4% | 46,200 | HS diploma; moderate-term OJT in detailed BLS rows; apprenticeship also possible |
+| Masonry Worker | $56,600 | 2% | 20,700 | HS diploma; apprenticeship or OJT; route varies by specialty |
 
 Source basis: May 2024 U.S. medians and 2024–34 national projections, BLS. Annual openings include replacement needs and do not prove a DFW shortage.
 

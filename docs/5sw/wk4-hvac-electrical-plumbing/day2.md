@@ -2,10 +2,10 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Transferable Skills
-- **Objective:** Students will identify skills that transfer among a variety of careers using evidence from Transferable Skills.
+- **Topic:** Evidence-First Notes
+- **Objective:** Students will identify how evidence-first written communication transfers from HVAC service notes to another career.
 - **TEKS:** d(4)(B)
-- **Demonstration of Learning:** four fictional service notes and one transfer sentence.
+- **Demonstration of Learning:** Four fictional service notes and one written-communication transfer response.
 <!-- CCE DAILY CONTRACT END -->
 **Time:** 50 minutes
 
@@ -15,7 +15,9 @@
 
 ## Before class
 
-Embed Climber Notes *PowerSkill: Written Communication* tickets 1–4 in locked Canvas. Students use FYF pp. 185–190 as the default work surface. The enlarged CCE field-note form is only a no-workbook, absence, or scaffold route; students do not complete both. Never ask students to perform a real check or repair.
+Per student: FYF workbook pp. 185–190, pencil, and one Canvas-capable device to view the locked tickets and submit privately. Print the six-page safe-label fallback only for a student without the workbook or needing enlarged access. Students never complete both surfaces. Notes are independent; pairs may rehearse one bounded sentence. Collect one workbook upload/typed route or one fallback packet per student.
+
+Project this non-ticket model: **The note states that one room feels warmer and shows a partly blocked return area. This could be consistent with restricted airflow, but one image does not prove the cause. A qualified HVAC professional checks the full airflow path and system conditions.** Never ask students to inspect, diagnose, reset, clean, or repair real equipment.
 
 ## 50-minute flow
 
@@ -33,6 +35,13 @@ Embed Climber Notes *PowerSkill: Written Communication* tickets 1–4 in locked 
 - **Ticket 4:** visibly weathered/dirty outdoor unit with insufficient cooling. The photo does not prove the failed component. A qualified professional evaluates the condenser and full system.
 
 Accept other careful interpretations tied to the supplied evidence. Do not reward confident guessing over a bounded claim.
+
+## Monitor, pivot, and trim
+
+- **Minute 13:** Students have relabeled Diagnosis as **Supported possibility** and Action as **Evidence limit + qualified next check**. If one-third write certain diagnoses, project the non-ticket model and circle *could*, *does not prove*, and *qualified*.
+- **Minute 30:** Tickets 1–2 include evidence, possibility, limit, and next check.
+- **Minute 42:** All four tickets are complete.
+- **Safe trim:** Accept one precise sentence across the four labels per ticket. Do not drop a ticket, limit, next check, or transfer response. Use the final five minutes for transfer, collect one route, and close devices.
 
 ## Access route
 

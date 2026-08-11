@@ -17,6 +17,20 @@
 | **Deliverable** | Draft Findings 1–5 and the thermal boundary in the shared evidence report |
 | **Materials** | Student FYF workbook pp. 176–178, locked Climber Notes slides 2–6, shared five-page evidence report, zoomable images |
 
+## Next-Day Operations
+
+- **Default:** one FYF workbook and one device per student, one projector, zero prints. Students begin the one shared Days 4–5 report in Canvas.
+- **Paper:** print one five-page report per student once for both days; one pencil per student and one collection tray per class. Do not also print the seven-page enlarged log unless a student needs one image per page.
+- Students work individually. Project one image at a time for about four minutes.
+- **Checkpoint:** after each image, the observation comes before the possibility. By minute 40, the thermal record names a visible pattern and evidence still needed.
+- **Pivot:** use the neutral image description, then have students underline what is visible and bracket the cautious possibility. **Trim:** cut whole-class sharing, not the five findings, thermal boundary, or saved report.
+
+## Ready-to-Project Model
+
+**Image 3:** I observe irregular brown discoloration where the ceiling meets the upper wall. This could indicate current or past moisture. The image cannot prove the source, whether the area is wet now, or whether mold is present. A Texas-licensed Professional Real Estate Inspector should evaluate the property, then route any confirmed roof or plumbing concern to the appropriate qualified trade professional.
+
+**Non-example:** “The roof leaks and there is mold.” The photograph does not prove either diagnosis.
+
 ## Warm-Up (5 min)
 
 What is the difference between “I see a brown ring” and “the roof is leaking”? Which statement is an observation?

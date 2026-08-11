@@ -17,6 +17,20 @@
 | **Deliverable** | Individual route and organization comparison |
 | **Materials** | Apprenticeship.gov card, Dallas College card, organization-type cards, response packet |
 
+## Next-Day Operations
+
+- **Default:** one device per student, one projector, zero prints. Students submit the private Canvas annotation individually.
+- **Paper:** one four-page route packet and one pencil per student; one collection tray per class.
+- Use pairs only to rehearse the order of route steps. Students do not open an account, contact form, or real application.
+- **Checkpoint:** by minute 22, each route has two ordered steps and one variable marked for verification. By minute 43, the organization type, future access route, and documented value are present.
+- **Pivot:** give students the five numbered route steps to sequence before writing. **Trim:** cut pair rehearsal, not the individual comparison or organization evidence.
+
+## Ready-to-Project Model
+
+Fictional Jordan should investigate a Registered Apprenticeship first because it is a paid job with structured learning. Jordan would search by occupation and location, open a sponsor listing, record eligibility and documents, and apply through that sponsor only when eligible. Dallas College offers a published certificate or A.A.S. route with advising; Jordan still must verify current cost, credit status, campus, and transfer limits. AGC is a professional/trade association. A future student could access a student chapter through a participating accredited college, and one documented value is learning with industry leaders.
+
+**Non-example:** “Apprenticeship is free and leads from apprentice to master.” Sponsor terms and ladders vary.
+
 ## Warm-Up (5 min)
 
 What information would you need before deciding whether a training route is realistic for you?
