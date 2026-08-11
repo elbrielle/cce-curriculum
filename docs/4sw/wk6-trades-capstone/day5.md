@@ -21,7 +21,8 @@
 
 1. Keep the private recovery Assignment unpublished. Open it only for a teacher-approved recovery or replacement decision.
 2. Post the student-visible rubric. Keep the four-page paper fallback available without printing it for everyone.
-3. Prepare a generic evidence strip for students missing Week 0 or prior artifacts.
+3. Use the supplied fictional Morgan evidence strip for students missing prior artifacts. Students analyze the strip without claiming Morgan's experience as their own.
+4. Provide one device and rubric per assigned student. Print one packet only for a paper or enlarged route; collect one private Canvas response or one packet and rubric.
 
 This is not an automatic third Major or fourth Minor. No sharing circle is required. Students may volunteer one nonprivate insight after submission, but public speaking and disclosure are not assessment criteria.
 
@@ -78,6 +79,10 @@ Submit by Canvas text, upload, private media, or paper. Career preference, accen
 *(d(4)(B), d(3)(H))*
 
 ## Monitoring and Supports
+
+- **Minute 13:** the evidence strip has all required entries. **Minute 24:** Parts 1-2 are present. **Minute 36:** Parts 3-4 are present. **Minute 45:** self-score and revision are complete.
+- If time is short, accept bullets in Parts 2 and 4 and one strong sentence per required job, then schedule completion rather than deleting a rubric criterion.
+- Close the private task after collection. Keep it unpublished for every student who was not assigned recovery.
 
 - A strong reflection contains evidence, not a longer personal story.
 - Provide sentence frames, speech-to-text, teacher scribing, audio response, or paper.

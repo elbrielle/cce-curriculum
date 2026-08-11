@@ -28,7 +28,7 @@ Why the boundary matters:
 
 [[lines: 5]]
 
-**Use this frame if it helps:** “The image supports ____. It does not prove ____. A ____ would need to ____ before ____.”
+**Use this frame if it helps:** “The image supports [visible condition]. It does not prove [unsupported conclusion]. A [authorized role] would need to [evidence step] before [decision].”
 
 [[pagebreak]]
 
@@ -38,9 +38,9 @@ Salary basis: May 2024 U.S. national median annual wage.
 
 | Occupation | Median | Rank, 1-3 | One preparation fact |
 |---|---:|:---:|---|
-| Automotive Service Technician |  |  |  |
-| Diesel Service Technician |  |  |  |
-| Automotive Body and Related Repairer |  |  |  |
+| Automotive Service Technician | $49,670 |  |  |
+| Diesel Service Technician | $60,640 |  |  |
+| Automotive Body and Related Repairer | $51,680 |  |  |
 
 Highest-to-lowest comparison with the full evidence label:
 
@@ -53,6 +53,8 @@ Occupation I would investigate first and two relevant facts:
 One limitation of the national evidence:
 
 [[lines: 3]]
+
+**Use this frame if it helps:** “On the May 2024 U.S. national median basis, [comparison]. I would investigate [career] because [fact 1] and [fact 2]. The evidence cannot decide [limit].”
 
 [[pagebreak]]
 
@@ -76,7 +78,7 @@ Exact verification question and authorized source or person:
 
 [[lines: 5]]
 
-**Use this frame if it helps:** “I would investigate ____ first because ____. A tradeoff is ____. Before deciding, I would ask ____ whether ____.”
+**Use this frame if it helps:** “I would investigate [route] first because [advantage]. A tradeoff is [tradeoff]. Before deciding, I would ask [authorized source or person] whether [exact question].”
 
 [[pagebreak]]
 
@@ -88,13 +90,15 @@ What the evidence cannot decide for me:
 
 One action I can complete within seven days:
 
-[[lines: 3]]
+[[lines: 2]]
+
+**Use this frame if it helps:** “Within seven days I will [action] and keep [completion evidence].”
 
 Completion evidence:
 
 [[lines: 2]]
 
-Weakest section before revision: _____________________________________________
+Weakest section before revision: **[section name]**
 
 Revision I made:
 
@@ -102,14 +106,14 @@ Revision I made:
 
 Three labels I kept accurate:
 
-1. __________________________________________________________________________
+1. **[label]**
 
-2. __________________________________________________________________________
+2. **[label]**
 
-3. __________________________________________________________________________
+3. **[label]**
 
 One unsupported claim I removed or corrected:
 
-[[lines: 3]]
+[[lines: 2]]
 
 Private submission: [ ] Canvas text [ ] Upload [ ] Media [ ] Paper

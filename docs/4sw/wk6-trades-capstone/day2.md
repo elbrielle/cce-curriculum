@@ -19,7 +19,7 @@
 
 ## Before Class
 
-Post the fixed cards and private Canvas response. Keep the four-page fallback available without printing it for everyone. No live occupation search is required. The cards use six careers already encountered in the course: software developer, nurse, lawyer, pilot, drone systems technician, and automotive service technician.
+Provide one device per student; no grouping is required. Project the supplied claim-versus-proof model and fixed cards. Print one four-page fallback only for each paper or enlarged-route student. Collect one Canvas response or one packet, not a separate exit. No live occupation search is required.
 
 ## Warm-Up (5 min)
 
@@ -55,6 +55,10 @@ Students choose the skill with the strongest six-career evidence and write a cla
 *(d(4)(B))*
 
 ## Monitoring and Supports
+
+- **Minute 13:** responses name tasks, not titles alone. If more than one-third list only skill names, annotate the supplied model together.
+- **Minute 29:** two comparisons are complete. **Minute 41:** all four comparisons and three task examples are present.
+- Safe trim: use the same strongest three examples in the pattern claim and independent exit instead of generating new examples.
 
 - A career title alone is not proof; require the task.
 - Read one card at a time and highlight the action verb.

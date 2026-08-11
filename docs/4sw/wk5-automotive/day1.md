@@ -15,14 +15,15 @@
 | **TEKS** | d(1)(B), d(1)(C) |
 | **Target** | I can describe the Transportation cluster and show how an automotive worker separates visible evidence from questions for a trained inspection. |
 | **Evidence** | FYF p. 151 collision report, three bounded questions, broad process sequence, and changed-vehicle occupation response |
-| **Materials** | FYF pp. 149-152 embedded in Canvas; optional three-page Crash Crew companion; projector; private text/upload/annotation Assignment or paper |
+| **Materials** | One FYF workbook and one Canvas-capable device per student; one projector; private text/upload/annotation Assignment; optional three-page companion, one per student only for no-workbook, enlarged, annotation, or paper access; one paper collection tray |
 
 ## Before class
 
-1. Open the licensed Crash Crew vehicle page in Canvas and check the smallest labels from the back of the room.
-2. Tell students to use FYF p. 151 first. Post the three-page **Crash Crew Evidence Companion** only for no-workbook, enlarged, typed, or Canvas-annotation access.
-3. Project a vocabulary model: **part** is the noun a shop may order; **visible condition** is what the student can actually observe.
-4. Keep Hats & Ladders optional. The lesson cannot depend on a particular Hat title or login.
+1. Default to one workbook and one device per student, one projector, and zero prints. Students keep the workbook after the teacher checks p. 151 during the second lap; Canvas collects the bounded questions, sequence, and changed-vehicle response.
+2. For the paper or no-workbook route, print one three-page **Crash Crew Evidence Companion** per student and collect all three pages in one labeled tray. The companion replaces the workbook/Canvas route; students do not complete both.
+3. Project this supplied model: **part:** left front bumper cover; **visible condition:** cracked near the left light; **bounded question:** “What approved inspection is needed before deciding whether the bumper cover can be repaired or must be replaced?”
+4. Project the non-example: “The frame is safe and the sensor only needs resetting.” The image cannot support either conclusion.
+5. Keep Hats & Ladders optional. No live vehicle, shop tool, diagnostic device, personal story, Hat title, or login is required.
 
 ## Warm-up: Seen and not yet known (5 min)
 
@@ -81,7 +82,11 @@ Scenario: A customer points to the workbook photograph and says, “The damage i
 
 ## Monitoring and supports
 
-- Check observation language before students reach repair questions.
+- **CFU at minute 10:** sample five responses for the part/condition distinction. Reteach with the supplied model if fewer than four are accurate.
+- **Lap 1, minutes 15-20:** check neutral evidence words and **confirm** on uncertain labels. Prompt, “What can the image prove?”
+- **Lap 2, minutes 28-34:** check one bounded question before students sequence the work. If more than one-third prescribe a repair, contrast the model and non-example.
+- **Pivot:** students who need support complete one strong bounded question, the full broad sequence, and the changed-vehicle response. Do not cut the individual occupation connection.
+- **Trim:** skip whole-group sharing. Protect the final five-minute exit response and Canvas/paper collection.
 - Provide a labeled body-parts diagram and bilingual labels: part/pieza, condition/condición, visible/visible, inspect/inspeccionar, repair/reparar, replace/reemplazar.
 - A student may type, dictate, annotate, or write. Partner talk is optional; the evidence remains individual.
-- An absent student receives the same embedded images and adjacent text descriptions. No live vehicle or personal car knowledge is required.
+- At minute 45, students save the Canvas response or place the complete paper set in the tray. An absent or interrupted student uses the same private Assignment and embedded images; no live vehicle or personal car knowledge is required.

@@ -62,17 +62,19 @@ One limitation of using national evidence for a DFW student:
 
 Taylor enjoys diagnostics, wants paid work soon, and prefers electronic systems over painting or heavy equipment.
 
+**Use this frame if it helps:** “Taylor should investigate [occupation] because [fact 1] and [fact 2]. The national evidence cannot answer [local unknown], so Taylor should verify it with [authorized source].”
+
 First occupation Taylor should investigate:
 
 [[lines: 1]]
 
 Table fact 1:
 
-[[lines: 2]]
+[[lines: 1]]
 
 Table fact 2:
 
-[[lines: 2]]
+[[lines: 1]]
 
 Why those facts fit Taylor's priorities:
 
@@ -80,7 +82,7 @@ Why those facts fit Taylor's priorities:
 
 One local question the national data cannot answer:
 
-[[lines: 3]]
+[[lines: 2]]
 
 Authorized local or official source:
 

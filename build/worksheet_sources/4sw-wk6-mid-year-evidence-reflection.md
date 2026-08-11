@@ -92,13 +92,15 @@ Why this is a realistic association to investigate:
 
 ## Part 4: Two next actions and revision
 
+Write one short, specific phrase in each cell. Each action needs its own time, support, completion evidence, and backup.
+
 | Job | Action 1 | Action 2 |
 |---|---|---|
-| Specific action |  |  |
-| Time or deadline |  |  |
-| Support person or source |  |  |
-| Completion evidence |  |  |
-| Backup if blocked |  |  |
+| Specific action | &nbsp;<br><br> |  |
+| Time or deadline | &nbsp;<br><br> |  |
+| Support person or source | &nbsp;<br><br> |  |
+| Completion evidence | &nbsp;<br><br> |  |
+| Backup if blocked | &nbsp;<br><br> |  |
 
 How these actions connect to my current direction:
 

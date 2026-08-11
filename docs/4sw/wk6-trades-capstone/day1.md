@@ -19,7 +19,7 @@
 
 ## Before Class
 
-1. Ask students to open FYF pp. 153-155. Post the three-page fallback only for no-workbook, enlarged, absence, or Canvas-annotation access.
+1. Place one FYF workbook and one device per student. Post one three-page fallback only for each no-workbook, enlarged, absence, or Canvas-annotation student.
 2. Project the four fictional clue sets. Tell students that the workbook's repeated second “Issue 3” label is Issue 4.
 3. Model the difference between a clue, a possible system concern, and a repair conclusion.
 
@@ -67,6 +67,11 @@ Scenario: A coworker says, “The code already told us the broken part, so we ca
 *(d(4)(B))*
 
 ## Monitoring and Supports
+
+- **Minute 12:** students label clues without naming a failed part. If more than one-third diagnose, rework the supplied temperature-light model.
+- **Minute 28:** all four concerns and ranks are present. **Minute 42:** both plans name stop/protect, handoff, and missing evidence.
+- Initial FYF pp. 154-155 during work time. Students submit only the private exit; collect one fallback only from students assigned that route.
+- Safe trim: complete two full evidence rows, rank all four, and protect both plans plus the exit; finish the other evidence rows during recovery.
 
 - Evidence names what is supplied; inference names what might be true; conclusion requires confirmation.
 - Use the adjacent text description if the workbook image is difficult to read.

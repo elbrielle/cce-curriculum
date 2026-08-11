@@ -15,14 +15,14 @@
 | **TEKS** | d(2)(B), d(3)(G) |
 | **Target** | I can evaluate three automotive training routes and write the next application or enrollment question. |
 | **Evidence** | Four-question practice Quiz with a two-fact Dani recommendation and verification plan |
-| **Materials** | FYF pp. 168-169; Canvas source cards and Quiz; two-page no-device fallback; current district/coursebook route; TCC and TWC evidence |
+| **Materials** | One Canvas-capable device per student; one projector; embedded FYF pp. 168-169; Canvas source cards and Quiz; one two-page fallback per student only for no-device, enlarged, or paper access; one paper collection tray; current district/coursebook, TCC, and TWC teacher-verification sources |
 
 ## Before class
 
-1. Open FYF pp. 168-169 as the district-customized HQIM source for the program names and examples.
-2. Check the current Irving CTE/course-description source and record the access date for current campuses and logistics.
-3. Post the fixed TCC and TWC cards. Do not require students to navigate private-school marketing sites.
-4. Keep the two-page Route Decision as the no-device, enlarged, or paper route instead of printing it by default.
+1. Default to one device per student, one projector, and zero prints. Open the embedded FYF pp. 168-169 images as the district-customized HQIM source for program names and examples.
+2. Post the fixed Irving, TCC, and TWC evidence in the Student Guide and the unpublished practice Quiz. Current live pages are teacher-verification sources, not student navigation requirements.
+3. For the paper route, print one two-page Route Decision per student and collect it in one labeled tray. The packet replaces the Quiz.
+4. Project the supplied Dani model and non-example. Do not require private-school marketing research or public pathway disclosure.
 
 ## Warm-up: Fact, workbook claim, or question? (5 min)
 
@@ -81,7 +81,12 @@ Step 3: What exact question should Dani ask, and which authorized source or pers
 
 ## Monitoring and supports
 
-- Keep the route cards visible. Students should never have to infer a five-digit tuition figure from marketing copy.
+- **CFU at minute 10:** students sort one HQIM program name, one current-campus fact, and one unresolved logistics question. Reteach if fewer than four of five sampled responses keep them separate.
+- **Lap 1, minutes 17-24:** check that missing schedule, transportation, eligibility, and credit details read **not confirmed**, not guessed.
+- **Lap 2, minutes 30-37:** look for two facts tied to Dani's low-cost, hands-on, and possible-credit priorities. Prompt, “Which priority does this fact answer?”
+- **Pivot:** if one-third guarantee admission or credit, pause and have students underline exact source language before revising.
+- **Trim:** omit live-site navigation and the full six-row logistics audit. Protect the individual Dani recommendation and exact authorized-source question.
+- Keep route evidence visible. Students should never have to infer a tuition figure from marketing copy.
 - Accept **not confirmed** as accurate evidence.
 - Vocabulary: admission/admisión, tuition/matrícula, sponsor/patrocinador, exclusion/exclusión, verify/verificar.
-- If the district site is unavailable, students use the dated captured card and preserve every confirmation-needed label.
+- At minute 45, students submit the Quiz or place the packet in the tray. If the district site is unavailable, students use the dated fixed evidence and preserve every confirmation-needed label; interrupted work resumes through the same Quiz.

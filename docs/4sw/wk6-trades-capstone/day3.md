@@ -19,7 +19,7 @@
 
 ## Before Class
 
-Post the fixed cards and retryable practice Quiz. Keep the three-page paper fallback available without printing it for everyone. Live organization sites are optional teacher extensions, not load-bearing student research.
+Provide one device per student; no grouping or account creation is required. The six dated cards and five-item Quiz are supplied. Print one paper fallback only for each no-device or enlarged-route student. Q5 is the exit, so collect one Quiz or one packet without a second response.
 
 ## Warm-Up (5 min)
 
@@ -34,7 +34,7 @@ Which of these actions requires membership: joining a student chapter, taking a 
 
 One organization can collaborate with another, but collaboration does not make them the same type.
 
-## Activity 2: Read and Classify Six Cards (20 min)
+## Activity 2: Read and Classify Six Cards (18 min)
 
 For SkillsUSA, TSA, ASE, FAA, NSPE, and AOPA, students record organization type, who can access the named opportunity, one verified benefit or function, and one claim the source does not support. Key boundaries:
 
@@ -44,25 +44,21 @@ For SkillsUSA, TSA, ASE, FAA, NSPE, and AOPA, students record organization type,
 - NSPE's current student-membership eligibility is aimed at qualifying college or formal transfer-program students, not a blanket middle-school invitation.
 - AOPA currently advertises free high-school membership to U.S. residents ages 13-20. Students still verify the current category and follow family and district privacy rules before creating an account.
 
-## Activity 3: A Realistic Decision (10 min)
+## Practice Feedback (7 min)
+
+Complete the four selected-response checks and use the feedback to repair organization labels.
+
+## Activity 3 and Exit: A Realistic Decision (10 min)
 
 Fictional Sam wants a school-based leadership and competition opportunity now and an aviation professional network later. Students recommend one first organization to ask about now and one later organization to investigate, using two card facts, one explanation of how the school opportunity supports career exploration or development, and one access, eligibility, cost, or privacy question. The short response is the final Quiz item or the paper fallback.
 
-## Exit Check (5 min)
-
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/4sw-wk6-day3-career-organizations-type-access-and-value.pdf):
-
-| Organization | Correct type | Join, access, or use? | One accurate function |
-|---|---|---|---|
-| FAA |  |  |  |
-| ASE |  |  |  |
-| SkillsUSA |  |  |  |
-
-Bottom line: explain why these are not three professional associations a student can join today.
-
-*(d(3)(F), d(3)(H))*
+The Sam decision is the exit check. Do not collect a second matrix or repeat the response.
 
 ## Monitoring and Supports
+
+- **Minute 12:** students separate membership, credentialing, and government. If more than one-third misclassify FAA or ASE, reshow the four-type chart.
+- **Minute 30:** all six cards are classified. **Minute 42:** Sam's response contains now/later, two facts, career-development value, and one boundary.
+- Safe trim: read the bold lead sentence on each card, but protect all four feedback questions and the Sam decision.
 
 - Full credit depends on organization type, access, and one real function. Logo recognition is not enough.
 - Community service may be a CTSO benefit, but do not invent a local project.

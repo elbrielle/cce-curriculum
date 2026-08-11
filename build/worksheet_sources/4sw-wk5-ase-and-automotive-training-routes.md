@@ -24,7 +24,7 @@ Correct this claim: “I passed one automotive class test, so I am now a profess
 
 **Words for this task:** credential/credencial · experience/experiencia · route/ruta · verify/verificar
 
-**Use this frame if it helps:** “ASE Entry-Level shows ____. Professional ASE certification also requires ____.”
+**Use this frame if it helps:** “ASE Entry-Level shows [readiness evidence]. Professional ASE certification also requires [test and approved experience or substitution].”
 
 Sources: ASE Entry-Level and ASE Work Experience Requirements. Accessed August 2026.
 
@@ -78,7 +78,7 @@ Exact verification question and authorized source or person:
 
 [[lines: 4]]
 
-**Use this frame if it helps:** “Jordan should investigate ____ first because ____ and ____. A tradeoff or missing fact is ____. Jordan should verify ____ with ____.”
+**Use this frame if it helps:** “Jordan should investigate [route] first because [fact 1] and [fact 2]. A tradeoff or missing fact is [limit]. Jordan should verify [exact unknown] with [authorized source or person].”
 
 ## Done when
 

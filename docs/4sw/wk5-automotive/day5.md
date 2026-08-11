@@ -15,29 +15,32 @@
 | **TEKS** | d(1)(C), d(2)(B), d(3)(G), d(5)(E) |
 | **Target** | I can identify an automotive direction, evaluate a preparation route, and compare three salaries without overclaiming the evidence. |
 | **Evidence** | Private four-part brief, source audit, self-score, and revision |
-| **Materials** | Four-page Automotive Evidence Brief; student-visible 16-point rubric; Days 1-4 evidence; private Canvas Assignment |
+| **Materials** | One Canvas-capable device per student; one projector; private Canvas Assignment; Days 1-4 evidence or fixed Student Guide evidence strip; zero default prints; for paper, one four-page brief and one two-page rubric per student plus one collection tray |
 
 ## Before class
 
-1. Post the brief and rubric before students begin.
-2. Return Days 1-4 evidence or provide the fixed model/fallback set.
-3. Keep the Assignment unpublished and ungraded until the Minor assignment group and 40/60 weighting are verified.
-4. Do not schedule Xello **Save careers** again. It belongs earlier in the required Grade 8 sequence. H&L and Xello career browsing are optional extensions only.
+1. Default to one device per student, one projector, and zero prints. Post the brief, rubric, and protected private unpublished Minor Assignment.
+2. For paper, print one four-page brief and one two-page rubric per student; collect the complete brief and self-score in one tray. Students use paper or a digital response, not both.
+3. Return Days 1-4 evidence. A student missing prior work uses the complete supplied model and fixed Student Guide evidence strip; do not require reconstruction of four lessons.
+4. Display the minute-18 and minute-42 checkpoints. Keep the same Assignment available for a teacher-scheduled recovery window.
+5. Do not schedule Xello **Save careers** again. It belongs earlier in the required Grade 8 sequence. H&L and Xello career browsing are optional extensions only.
 
 ## Warm-up: Strong claim or overclaim? (5 min)
 
 Students repair one sentence that changes a May 2024 U.S. national median into a DFW starting salary and one sentence that treats ASE Entry-Level as professional certification.
 
-## Activity 1: Two evidence moves (8 min)
+## Activity 1: Study the supplied model (7 min)
 
-Show two anonymous models:
+Project the complete supplied four-part model. Students identify:
 
-- a claim that keeps source/date/geography/measure; and
-- a recommendation that names both an advantage and a missing fact.
+- one supported condition and unsupported conclusion;
+- the complete May 2024 U.S. national median labels;
+- one route advantage and missing fact; and
+- one exact action and visible claim revision.
 
-Students identify what makes each model trustworthy. No student is required to present publicly.
+No student is required to present publicly.
 
-## Activity 2: Reopen and audit evidence (10 min)
+## Activity 2: Reopen or recover evidence (6 min)
 
 Students bring forward:
 
@@ -47,9 +50,9 @@ Students bring forward:
 - one training-route advantage and tradeoff; and
 - one current source or authorized verification person.
 
-If an earlier artifact is missing, use the model evidence strip. Do not make an absent student reconstruct four days before beginning.
+If an earlier artifact is missing, use the fixed evidence strip in the Student Guide. Do not make an absent student reconstruct four days before beginning.
 
-## Activity 3: Write the private brief (20 min)
+## Activity 3: Write the private brief (24 min)
 
 The brief has four separate response jobs:
 
@@ -60,7 +63,7 @@ The brief has four separate response jobs:
 
 The career choice itself is not graded.
 
-## Activity 4: Self-score, revise, submit (7 min)
+## Activity 4: Self-score, revise, submit (8 min)
 
 Students use the 16-point rubric:
 
@@ -94,7 +97,13 @@ Audit the evidence brief before private submission.
 
 ## Monitoring, grading, and supports
 
+- **CFU at minute 12:** students identify the evidence boundary, full salary label, route tradeoff, and verification source in the supplied model.
+- **Checkpoint at minute 18:** every student has prior evidence or the fixed strip open and has chosen a response mode.
+- **Lap 1, minutes 22-29:** check the visible-evidence boundary and all three prefilled medians/ranks before students recommend.
+- **Lap 2, minutes 33-38:** require a route advantage, tradeoff or missing fact, and exact authorized-source question. If one-third overclaim, project the revised salary sentence and reteach the label.
+- **Checkpoint at minute 42:** all four rubric jobs have evidence. Students may use labeled bullets or the complete frames; do not remove any scored criterion.
+- **Trim/recovery:** skip partner review and optional extensions. Protect self-score, one visible revision, and private submission. If time expires, save the same artifact for the teacher-scheduled recovery window; do not create a second worksheet or grade a partial upload as final.
 - Recommended minor conversion after local approval: 15-16 Masters, 13-14 Meets, 12 Approaches, 10-11 Needs Improvement; below 10 follows campus policy.
 - Score evidence, reasoning, and accurate limits. Do not score speaking, career preference, vehicle knowledge, platform access, handwriting, or English mechanics unless meaning is unclear.
 - The four-page printable gives each multi-sentence job a full-width writing block. Students may type, dictate, record private media, or use a teacher scribe.
-- Canvas failure means paper or later upload. Missing prior work uses the fixed evidence strip.
+- At minute 47, students submit privately or place the complete brief and self-score in the tray. Canvas failure means paper or later upload through the same Assignment. Missing prior work uses the fixed evidence strip.

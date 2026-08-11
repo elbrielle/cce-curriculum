@@ -89,4 +89,4 @@ That person's bounded role:
 
 [[lines: 4]]
 
-**Use this frame if it helps:** “The image supports ____. It does not prove ____. A ____ would next ____ because ____.”
+**Use this frame if it helps:** “The image supports [visible condition]. It does not prove [unsupported conclusion]. A [authorized role] would next [evidence step] because [reason].”

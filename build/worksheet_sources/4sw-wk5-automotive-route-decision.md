@@ -33,6 +33,8 @@ Why a missing logistics detail should become a question instead of a guess:
 
 Dani is entering high school, needs a low-cost route, wants hands-on automotive work, and may want college credit later.
 
+**Use this frame if it helps:** “Dani should investigate [route] first because [fact 1] and [fact 2]. A tradeoff or missing fact is [limit]. Dani should ask [authorized source or person] whether [exact question].”
+
 Compare the first three routes Dani should investigate:
 
 | Route | One supported fact | One advantage | One tradeoff or missing fact |
@@ -43,11 +45,11 @@ Compare the first three routes Dani should investigate:
 
 First route Dani should investigate and why:
 
-[[lines: 4]]
+[[lines: 3]]
 
 Two source facts that support the recommendation:
 
-[[lines: 4]]
+[[lines: 3]]
 
 Exact next verification question and authorized source or person:
 

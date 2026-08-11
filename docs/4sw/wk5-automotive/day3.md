@@ -15,11 +15,11 @@
 | **TEKS** | d(2)(A), d(5)(E) |
 | **Target** | I can describe preparation and compare salaries for three automotive careers without mixing evidence labels. |
 | **Evidence** | Three-career comparison, limitation, and two-fact Taylor recommendation |
-| **Materials** | Three-page landscape occupation comparison; calculator; optional Xello-localized cross-check |
+| **Materials** | One Canvas-capable device per student for annotation; one projector; one calculator per pair only for wage differences; zero default prints; one three-page landscape comparison per student only for paper/enlarged access; one paper collection tray; optional Xello-localized cross-check |
 
 ## Before class
 
-Post the fixed BLS evidence set. A live site or vendor login is not required. If Xello supplies a localized figure, students record it in a separate local-evidence field with geography, date, and measure; they do not replace the common national comparison basis.
+Default to one device per student, one projector, and zero prints. Post the fixed BLS evidence set and the Canvas annotation Assignment. For paper/enlarged access, print one three-page comparison per student; paper replaces annotation and is collected in one tray. Project the supplied comparison and Taylor models. A live site or vendor login is not required. If Xello supplies a localized figure, students record it in a separate local-evidence field with geography, date, and measure; they do not replace the common national comparison basis.
 
 ## Warm-up: Keep the label (5 min)
 
@@ -72,7 +72,11 @@ Which occupation should Taylor investigate first? Use two facts and one limitati
 
 ## Monitoring and supports
 
-- Check labels before calculations or recommendations.
+- **CFU at minute 9:** students repair “$49,670 salary” to “$49,670 May 2024 U.S. national median annual wage.” Reteach if fewer than four of five sampled responses include year, geography, and measure.
+- **Lap 1, minutes 16-23:** check all three rankings and the body/glass combined-group label before preparation comparison.
+- **Lap 2, minutes 29-36:** look for a real task or preparation difference rather than three copied descriptions. Prompt, “What changes across these jobs?”
+- **Pivot:** if one-third mix figures or groups, stop calculations and color-code median, growth, openings, and preparation on the supplied model.
+- **Trim:** do not calculate dollar differences or run optional Xello. Protect the limitation and two-fact Taylor recommendation.
 - Pre-highlight the four comparable fields. Provide calculator access only for differences, not a fabricated salary/education ratio.
 - Vocabulary: median/mediana, outlook/perspectiva, openings/vacantes, preparation/preparación, limitation/limitación.
-- H&L is optional browse. BLS supplies the fixed common comparison; Xello may add, but not replace, a clearly labeled local cross-check.
+- At minute 45, students submit the annotation/upload/text response or place the paper packet in the tray. An incomplete student resumes the same practice Assignment. H&L is optional browse. BLS supplies the fixed common comparison; Xello may add, but not replace, a clearly labeled local cross-check.
