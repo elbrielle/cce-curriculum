@@ -1,93 +1,83 @@
 ---
-title: Audience and Sales Pitch Plan
+title: 30-Second Pitch - Audience, Accuracy, and Career Connection
 slug: 6sw-wk4-sales-pitch-plan
 kind: worksheet
 weeks: 6sw/wk4-sales-presentations
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 2
 orientation: portrait
 ---
 
-## Pitch Anatomy and Ethical Boundary
+## Page 1 - Check the Audience and the Claim
 
-A short pitch has four parts: hook, clear offer, audience benefit, and call to action. Use a fictional classroom product/service or your fictional Expert Edge idea. Do not make real sales, links, QR codes, scarcity, discounts, testimonials, guarantees, health claims, income claims, or collect personal data.
+**Default:** Complete *30 Seconds to Sell* in FYF pp. 241-243. This companion adds the individual audience, accuracy, career, and oral-route evidence. Locked Canvas images plus both pages support the no-workbook route.
 
-Label the four parts in the SparkClean model after your teacher reads it:
+### See one
 
-[[lines: 6]]
+| Audience | Supplied fact | Audience benefit | Safe call to action |
+|---|---|---|---|
+| busy students | fictional tutoring service offers 20-minute review sessions | review can fit between activities | Compare the two review-session options. |
 
-One claim that would need verification before a real pitch:
+### Check your FYF pitch
 
-[[lines: 4]]
+**Fictional product or service:**
+
+[[lines: 1]]
+
+**Specific audience and situation:**
+
+[[lines: 1]]
+
+**One supplied fact or logical reason for the audience benefit:**
+
+[[lines: 1]]
+
+**One audience assumption I should not present as fact:**
+
+[[lines: 1]]
+
+### Accuracy and privacy boundary
+
+- [ ] The pitch is fictional classroom work; no sale, payment, link, QR code, contact, account, or personal data.
+- [ ] The pitch does not invent urgency, scarcity, discounts, testimonials, popularity, health results, income, or guarantees.
+- [ ] The benefit follows from a supplied fact or clearly labeled reasoning.
+- [ ] The call to action is safe and specific.
+
+> **Word bank:** audience/audiencia · benefit/beneficio · evidence/evidencia · assumption/suposicion · accurate/exacto
+>
+> **Use this frame:** The benefit fits **[audience]** because **[fact or reason]**. I should not assume **[assumption]**.
 
 [[pagebreak]]
 
-## Offer and Audience
+## Page 2 - Career Connection and No-Workbook Route
 
-Fictional product/service and what the audience receives:
+### Career connection
 
-[[lines: 5]]
+Choose one: sales representative · sales manager · marketing specialist · copywriter
 
-Specific audience and situation:
+**Career, work product, one preparation fact, and one second career that uses the same skill:**
 
-[[lines: 5]]
+[[lines: 2]]
 
-What the audience cares about—and evidence/logic for that claim:
+**Day 2 oral route:** live partner / small group / teacher conference / recorded audio-video / AAC
+
+### No-workbook pitch route
+
+Complete this page only if you do not have a usable workbook page. If your FYF pitch is complete, keep Page 2 as an absence or catch-up route.
+
+### Four-part pitch
+
+| Pitch part | Notes |
+|---|---|
+| Hook | |
+| What it is | |
+| Audience benefit | |
+| Call to action | |
+
+**Full 4-6 sentence pitch:**
 
 [[lines: 7]]
 
-One audience assumption I should not treat as fact:
-
-[[lines: 4]]
-
-[[pagebreak]]
-
-## Plan the Four Parts
-
-Hook:
-
-[[lines: 5]]
-
-What it is:
-
-[[lines: 5]]
-
-Benefits (not only features):
-
-[[lines: 6]]
-
-Call to action:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Full 30-Second Draft
-
-Write about 4-6 short sentences. Accuracy matters more than hype.
-
-[[lines: 18]]
-
-Words/claims to verify or revise:
-
-[[lines: 4]]
-
-[[pagebreak]]
-
-## Transfer and Exit
-
-One skill used in this pitch and how it transfers to a different career:
-
-[[lines: 7]]
-
-One sales/marketing career, what that worker produces, and one preparation fact:
-
-[[lines: 7]]
-
-My Day 2 delivery route: live partner / small group / teacher conference / recorded audio-video / AAC
-
-One next revision:
-
-[[lines: 5]]
+**Done when:** FYF pitch or no-workbook route + audience/fact/assumption check + accuracy boundary + career/work-product/preparation/transfer evidence + selected oral route.

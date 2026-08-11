@@ -10,9 +10,9 @@ I can identify sales/marketing careers, plan and revise an ethical audience-spec
 
 | Day | Focus | Required evidence | Canvas interaction |
 |---|---|---|---|
-| 1 | audience + pitch anatomy | individual audience and 30-second pitch plan | private annotation Assignment |
-| 2 | oral pitch + revision | two communicated attempts and revision record | private media/annotation Assignment |
-| 3 | BrainBoost rescue + career evidence | individual rescue plan and 60-90-second career outline | private annotation Assignment |
+| 1 | audience + pitch anatomy | FYF pitch plus individual audience/accuracy/career evidence | private annotation Assignment |
+| 2 | oral pitch + revision | two communicated attempts, visible revision, and transfer record | private media/annotation Assignment |
+| 3 | BrainBoost rescue + career evidence | FYF campaign work plus individual decision and 60-90-second career outline | private annotation Assignment |
 | 4 | interview appearance + rehearsal | three context decisions and two rehearsals | retryable practice Quiz + rehearsal record |
 | 5 | career oral evidence | 60-90-second live/recorded/AAC brief, reflection, and self-score | private formative media Assignment |
 
@@ -20,7 +20,7 @@ I can identify sales/marketing careers, plan and revise an ethical audience-spec
 
 - **d(1)(C):** identify sales, marketing, and selected career opportunities/work products (Days 1, 3, 5).
 - **d(4)(B):** identify transferable problem-solving, audience, organization, and communication skills (Days 1-5).
-- **d(4)(C):** give an oral professional presentation on career/college exploration (Days 2, 4, 5; Day 5 primary evidence).
+- **d(4)(C):** give an oral professional presentation on career/college exploration using appropriate technology (Days 4-5; Day 5 primary evidence). Day 2 is product-pitch practice and does not claim this standard.
 - **d(6)(B):** describe appropriate appearance for an interview using workplace, task, safety, virtual-format, and accommodation context (Day 4).
 
 ## Evidence and Access Boundaries
@@ -34,14 +34,14 @@ I can identify sales/marketing careers, plan and revise an ethical audience-spec
 
 ## Materials
 
-- Canvas paired guides and six CCE packets
+- Canvas paired guides, five compact companion/evidence tools, and one formative rubric
 - locked compressed FYF pp. 241-247, 280, and 299
 - Chromebook/microphone or live/AAC route; paper; visible timer
 - current CareerOneStop interview guidance, BLS occupation pages, and Irving ISD CTE pages
 
 ## Grading
 
-Days 1-5 are formative rehearsal for the Week 5 interview portfolio and Week 6 capstone. The [6SW assessment map](../../resources/six-weeks-assessment-map.md) does not create a separate Week 4 grade. Use the 16-point rubric for feedback and revision. Clothing cost/style, platform, eye contact, accent, speech difference, camera use, English mechanics, and performance confidence are not scored unless meaning is unclear.
+Days 1-5 are formative rehearsal for the Week 5 interview and Week 6 capstone. The [6SW assessment map](../../resources/six-weeks-assessment-map.md) does not create a separate Week 4 grade. Use the 16-point rubric for feedback and revision. Clothing cost/style, platform, eye contact, accent, speech difference, camera use, English mechanics, and performance confidence are not scored unless meaning is unclear.
 
 ## Current Sources
 

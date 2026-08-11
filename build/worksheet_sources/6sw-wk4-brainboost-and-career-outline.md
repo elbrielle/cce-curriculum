@@ -1,127 +1,81 @@
 ---
-title: BrainBoost Rescue and Career Oral Outline
+title: BrainBoost - Individual Decision and Career Brief Outline
 slug: 6sw-wk4-brainboost-and-career-outline
 kind: worksheet
 weeks: 6sw/wk4-sales-presentations
 audience: student
 variant_of:
 language: en
-pages: 7
+pages: 2
 orientation: portrait
 ---
 
-## BrainBoost Evidence
+## Page 1 - Individual Problem-Solving Evidence
 
-The fictional campaign reached active students ages 14-18, but engagement and sales were low. Customer feedback says the bar looks like other snacks, the reason to try it is unclear, and the audience does not see a need.
+**Default route:** Complete BrainBoost in FYF pp. 244-247 with your group. Use this companion for the individual decision and career evidence the workbook does not collect. The locked Canvas pages plus both pages are the no-workbook route.
 
-Observable message/visual evidence from the workbook:
+### Campaign evidence already supplied
 
-[[lines: 7]]
+- The campaign reached active students ages 14-18.
+- Engagement and sales were low.
+- Customer feedback says the product looks like other snacks, the reason to try it is unclear, and the audience does not see a need.
 
-One-sentence problem statement (cause, not only result):
+**Cause-based problem statement:** Low sales are the result. What message or value problem may be causing the result?
 
-[[lines: 5]]
+[[lines: 2]]
 
-[[pagebreak]]
+**Best FYF solution and the exact evidence it answers:**
 
-## Generate and Screen Solutions
+[[lines: 2]]
 
-List at least six distinct solutions. Do not invent health/nutrition outcomes, discounts, reviews, scarcity, popularity, or personal-data collection.
+**One solution I rejected because it invented a health, nutrition, discount, scarcity, popularity, testimonial, or data claim:**
 
-[[lines: 12]]
+[[lines: 2]]
 
-Criteria used to screen ideas:
+### Transfer the problem-solving move
 
-[[lines: 5]]
+**A second career where a worker must separate a cause from a result, plus the worker's next evidence step:**
 
-[[pagebreak]]
+[[lines: 2]]
 
-## Three-Solution Plan
-
-Solution 1 + evidence + expected effect:
-
-[[lines: 6]]
-
-Solution 2 + evidence + expected effect:
-
-[[lines: 6]]
-
-Solution 3 + evidence + expected effect:
-
-[[lines: 6]]
+> **Word bank:** result/resultado · cause/causa · evidence/evidencia · screen/evaluar · revise/revisar
+>
+> **Use this frame:** The result is **[result]**, but **[evidence]** suggests the cause may be **[cause]**. A **[second career]** would next check **[evidence]**.
 
 [[pagebreak]]
 
-## Revised Campaign Concept
+## Page 2 - Fixed Career Cards and Oral Outline
 
-Clear message and unique selling point, limited to supplied facts:
+Choose one card or use previously verified evidence with the same labels.
 
-[[lines: 6]]
+| Career | Work product or responsibility | Typical preparation | Current BLS evidence |
+|---|---|---|---|
+| Market Research Analyst | studies consumer preferences and business conditions | bachelor's degree | $76,950 May 2024 U.S. median; 7% growth 2024-34; about 87,200 openings/year |
+| Graphic Designer | creates visual concepts that communicate ideas | bachelor's degree | $61,300 May 2024 U.S. median; 2% growth; about 20,000 openings/year |
+| Sales Manager | plans/directs delivery of products or services and analyzes sales data | bachelor's degree plus related experience typical; some jobs accept HS diploma | $138,060 May 2024 U.S. median; 5% growth; about 49,000 openings/year |
 
-Email, social, or in-store concept:
+These are national occupation measures, not DFW starting pay, live vacancies, shortages, or personal outcomes.
 
-[[box: 4.7]]
+### 60-90-second outline
 
-[[pagebreak]]
+**Opening - career and reason:**
 
-## Choose Career Evidence
+[[lines: 1]]
 
-Use a previously verified career or one fixed fallback card. Do not mix national median, local estimate, starting pay, and range.
+**Duty or work product:**
 
-Career and cluster: ______________________________________________
+[[lines: 1]]
 
-Daily responsibility/work product:
+**Typical preparation:**
 
-[[lines: 5]]
+[[lines: 1]]
 
-Typical preparation:
+**Labor evidence with measure, amount, geography, date/source, and limit:**
 
-[[lines: 4]]
+[[lines: 2]]
 
-Pay measure + amount + geography + date/source:
+**Conclusion - fit, question, or next step without claiming certainty:**
 
-[[lines: 4]]
+[[lines: 2]]
 
-One outlook/openings fact and its limitation:
-
-[[lines: 4]]
-
-[[pagebreak]]
-
-## Fixed Fallback Career Cards
-
-**Market Research Analysts and Marketing Specialists:** May 2024 U.S. median $76,950; bachelor's degree typical; 7% projected growth 2024-34; about 87,200 openings per year. Workers study consumer preferences and business conditions.
-
-**Graphic Designers:** May 2024 U.S. median $61,300; bachelor's degree typical; 2% projected growth 2024-34; about 20,000 openings per year. Workers create visual concepts that communicate ideas.
-
-**Sales Managers:** May 2024 U.S. median $138,060; bachelor's degree and related work experience typical; 5% projected growth 2024-34; about 49,000 openings per year. Workers plan/direct delivery of products or services to customers.
-
-All are national medians and projections, not DFW starting pay, live vacancies, shortages, or personal outcomes.
-
-Why I chose this career and which evidence I will cite:
-
-[[lines: 6]]
-
-[[pagebreak]]
-
-## 60-90 Second Career Oral Outline
-
-Opening - career and reason:
-
-[[lines: 4]]
-
-Fact 1 - work product/duty:
-
-[[lines: 4]]
-
-Fact 2 - preparation:
-
-[[lines: 4]]
-
-Fact 3 - correctly labeled labor evidence:
-
-[[lines: 4]]
-
-Conclusion - fit, question, or next step without claiming certainty:
-
-[[lines: 5]]
+**Done when:** completed FYF/no-workbook BrainBoost reasoning + individual cause/evidence decision + rejected unsupported claim + two-career transfer + complete oral outline.

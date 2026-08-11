@@ -2,17 +2,17 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Transferable Skills
-- **Objective:** Students will identify skills that transfer among a variety of careers and give an oral professional presentation about career and college exploration using appropriate technology using evidence from Transferable Skills.
-- **TEKS:** d(4)(B), d(4)(C)
-- **Demonstration of Learning:** two 60-seconds-or-less oral/AAC attempts plus visible revision record.
+- **Topic:** Oral Revision
+- **Objective:** Students will communicate an audience-specific pitch twice, use feedback to make one visible revision, and explain how the communication skill transfers to a second career.
+- **TEKS:** d(4)(B)
+- **Demonstration of Learning:** Two timed oral/AAC pitch attempts, one specific feedback point, a visible before/after revision, and a two-career transfer response.
 <!-- CCE DAILY CONTRACT END -->
-**TEKS:** d(4)(B), d(4)(C)
-**Evidence:** two 60-seconds-or-less oral/AAC attempts plus visible revision record
+**TEKS:** d(4)(B)
+**Evidence:** two timed oral/AAC attempts, specific feedback, visible revision, and two-career transfer
 
 ## Before Class
 
-Post the private media/annotation Assignment and four-page record. Set live partner, small-group, teacher-conference, recorded audio/video, and AAC routes before class. Do not make partner attendance or camera use a requirement.
+Post the private media/annotation Assignment and two-page record. Have FYF p. 243 available. Set live partner, small-group, teacher-conference, recorded audio/video, and AAC routes before class. Do not make partner attendance or camera use a requirement.
 
 ## 50-Minute Flow
 

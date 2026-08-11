@@ -1,110 +1,81 @@
 ---
-title: Interview Appearance and Career Brief Rehearsal
+title: Interview Appearance and Career-Brief Rehearsal
 slug: 6sw-wk4-appearance-and-rehearsal
 kind: worksheet
 weeks: 6sw/wk4-sales-presentations
 audience: student
 variant_of:
 language: en
-pages: 6
-orientation: portrait
+pages: 2
+orientation: landscape
 ---
 
-## Context-First Appearance
+## Page 1 - Choose for the Context
 
-Appropriate appearance depends on the workplace, task, safety needs, and interview format. The goal is prepared, clean, safe, and role-aware—not expensive, gendered, culturally narrow, or based on a person's body.
+Appropriate interview appearance depends on the workplace, task, safety rules, format, and accommodation. The interviewer should evaluate preparation and role awareness--not brand, price, body, culture, religion, disability, or gender expression.
 
-Four decisions that usually matter:
+### See one
 
-- learn the workplace expectation;
-- choose clean, functional clothing one step more formal when appropriate;
-- include task-required safety gear when a demonstration is expected;
-- prepare the environment/technology for a virtual interview.
+| Context | Useful preparation | Verify before the interview |
+|---|---|---|
+| virtual customer-support interview | clean functional clothing, tested audio, private background, notifications off | camera expectation, access option, backup connection route |
 
-What an interviewer should evaluate instead of brand, price, body, culture, religion, disability, or gender expression:
+### Make three context decisions
 
-[[lines: 6]]
+| Scenario | Prepared, clean, functional, or safe choice | One respectful question to verify |
+|---|---|---|
+| office/customer-facing | | |
+| skilled-trade task demonstration | | |
+| virtual interview | | |
 
-[[pagebreak]]
+For a task demonstration, tools and PPE follow the employer/site instructions. Do not bring or use tools or safety gear until the route is confirmed.
 
-## Scenario 1 - Office or Customer-Facing Interview
+**How one accommodation or access need could change the plan without lowering the job standard:**
 
-Top/layer, bottom, footwear, and materials:
+[[lines: 1]]
 
-[[lines: 7]]
-
-Why the choices fit the workplace without requiring expensive clothing:
-
-[[lines: 6]]
-
-One respectful verification question before the interview:
-
-[[lines: 4]]
+> **Word bank:** workplace/lugar de trabajo · task/tarea · safety/seguridad · accommodation/adaptacion · verify/verificar
+>
+> **Use this frame:** For **[context]**, I would choose **[functional choice]** because **[task/safety/access reason]**. I would verify **[question]**.
 
 [[pagebreak]]
 
-## Scenario 2 - Skilled-Trade Interview with Possible Task Demonstration
-
-Clean role-appropriate clothing and any supplied/required safety gear:
-
-[[lines: 7]]
-
-What must be confirmed before bringing or using tools/PPE:
-
-[[lines: 6]]
-
-Why fashion advice never overrides site safety or an accommodation:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Scenario 3 - Virtual Interview
-
-Clothing/appearance choice:
-
-[[lines: 4]]
-
-Camera, lighting, sound, background, notifications, and privacy check:
-
-[[lines: 8]]
-
-What to do if video, audio, or bandwidth fails:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Career Brief Rehearsal 1
+## Page 2 - Rehearse, Revise, Rehearse Again
 
 Route: live partner / small group / teacher conference / recorded audio-video / AAC
 
-Time: ______ seconds
+Appropriate technology choice: private recording / Canvas evidence card / teacher-approved visual / AAC
 
-Content heard: career / duty / preparation / labor evidence / conclusion
-
-Delivery evidence or AAC effectiveness:
-
-[[lines: 6]]
-
-One feedback point and planned revision:
-
-[[lines: 7]]
-
-[[pagebreak]]
-
-## Career Brief Rehearsal 2
+### Attempt 1
 
 Time: ______ seconds
 
-Revision applied:
+Content present: career / duty / preparation / labeled labor evidence / bounded conclusion
 
-[[lines: 6]]
+**One exact strength and one exact revision:**
 
-What became clearer:
+[[lines: 2]]
 
-[[lines: 6]]
+### Make the revision visible
 
-One final content check and one final delivery/AAC check:
+**Before:**
 
-[[lines: 7]]
+[[lines: 1]]
+
+**After:**
+
+[[lines: 1]]
+
+### Attempt 2
+
+Time: ______ seconds
+
+**What became clearer, more accurate, better organized, or easier to understand:**
+
+[[lines: 2]]
+
+**Final content check and final delivery/AAC check:**
+
+[[lines: 1]]
+
+**Done when:** three context decisions and questions + access/safety reasoning + Quiz feedback + two rehearsals + technology choice + visible revision.

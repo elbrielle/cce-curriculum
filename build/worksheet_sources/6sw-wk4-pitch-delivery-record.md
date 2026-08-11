@@ -1,85 +1,83 @@
 ---
-title: Sales Pitch Delivery and Revision Record
+title: 30-Second Pitch - Deliver, Revise, Deliver Again
 slug: 6sw-wk4-pitch-delivery-record
 kind: worksheet
 weeks: 6sw/wk4-sales-presentations
 audience: student
 variant_of:
 language: en
-pages: 4
+pages: 2
 orientation: portrait
 ---
 
-## Delivery Check
+## Page 1 - First Attempt and Specific Feedback
+
+**Use your FYF pp. 241-243 pitch.** This page records the oral/AAC evidence, feedback, and revision that the workbook does not hold.
+
+### Before you begin
 
 Route: live partner / small group / teacher conference / recorded audio-video / AAC
 
-The pitch must remain oral/communicated evidence. A written draft supports the delivery but does not replace it unless an accommodation changes the task.
-
+- [ ] hook, offer, benefit, and call to action;
 - [ ] 60 seconds or less;
-- [ ] hook, clear offer, benefit, and call to action;
-- [ ] accurate, audience-specific language;
+- [ ] accurate audience language;
 - [ ] understandable pace/volume or effective AAC output;
-- [ ] no unverified urgency, guarantee, popularity, health, or income claim.
+- [ ] no unsupported urgency, guarantee, popularity, health, or income claim.
 
-My first-delivery time: ______ seconds
+**Attempt 1 time:** ______ seconds
 
-One part I communicated clearly:
+**One part that communicated clearly:**
 
-[[lines: 5]]
+[[lines: 2]]
 
-[[pagebreak]]
+Feedback source: partner / teacher / self-recording / transcript / checklist
 
-## Feedback Without a Partner Dependency
+**One exact word, sentence, pause, or organization choice to revise:**
 
-Feedback source: partner / teacher / self-recording / speech-to-text transcript / checklist
+[[lines: 2]]
 
-Evidence the audience understood:
+**Why this change should help the audience:**
 
-[[lines: 6]]
+[[lines: 2]]
 
-One confusing or weak part:
-
-[[lines: 6]]
-
-Specific revision advice:
-
-[[lines: 6]]
+> **Word bank:** pace/ritmo · clear/claro · specific/especifico · revise/revisar · feedback/retroalimentacion
+>
+> **Use this frame:** I will change **[exact part]** because the audience needs **[clearer meaning or action]**.
 
 [[pagebreak]]
 
-## Revise and Deliver Again
+## Page 2 - Visible Revision and Second Attempt
 
-Before:
+### Keep the change visible
 
-[[lines: 6]]
+**Before:**
 
-After:
+[[lines: 2]]
 
-[[lines: 7]]
+**After:**
 
-Why the revision improves accuracy, audience fit, organization, or delivery:
+[[lines: 2]]
 
-[[lines: 7]]
+**Attempt 2 time:** ______ seconds
 
-Second-delivery time: ______ seconds
+**Evidence the revision changed clarity, accuracy, organization, or delivery/AAC output:**
 
-[[pagebreak]]
+[[lines: 3]]
 
-## Individual Reflection
+### Transfer the skill
 
-Strongest oral/communication evidence:
+Choose one communication skill: audience awareness · concise organization · accurate claims · understandable delivery · feedback and revision
 
-[[lines: 6]]
+**Career 1 and how the skill works there:**
 
-One transferable skill and a second career where it matters:
+[[lines: 2]]
 
-[[lines: 6]]
+**Career 2 and how the same skill works there:**
 
-One boundary I kept:
+[[lines: 2]]
 
-[[lines: 5]]
+**One next goal for the Career Oral Evidence Brief:**
 
-One goal for the Career Oral Evidence Brief:
+[[lines: 2]]
 
-[[lines: 5]]
+**Done when:** two timed oral/AAC attempts + specific feedback + visible before/after revision + evidence of its effect + two-career transfer response.

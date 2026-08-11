@@ -6,104 +6,87 @@ weeks: 6sw/wk4-sales-presentations
 audience: student
 variant_of:
 language: en
-pages: 4
+pages: 2
 orientation: portrait
 ---
 
-## Final Evidence Check
+## Page 1 - Final Speaking Notes and Source Check
 
-Route: live whole group / live small group / teacher conference / recorded audio-video / AAC
+Oral/AAC route: whole group / small group / teacher conference / private recording / AAC
 
-The final evidence is a 60-90 second professional oral/communicated brief. A written outline supports the evidence. Written-only work does not demonstrate d(4)(C) unless an accommodation formally changes the task.
+Supporting technology: private recording / Canvas evidence card / approved visual / AAC
 
-- [ ] career and reason;
-- [ ] one real duty/work product;
-- [ ] typical preparation;
-- [ ] one labor figure with measure, amount, geography, date/source;
-- [ ] fit/question/next step without certainty or salary guarantee;
-- [ ] understandable organization and delivery/AAC output;
-- [ ] 60-90 seconds.
+**Boundary:** Written-only work counts only when an accommodation changes the oral task.
 
-Source(s) used:
+### Source check
 
-[[lines: 3]]
+- [ ] career, reason, one real duty or work product, and typical preparation;
+- [ ] one labor figure with measure, amount, geography, and date/source;
+- [ ] one limit and a bounded conclusion--no guarantee, certainty, live-vacancy, or shortage claim;
+- [ ] 60-90-second route and appropriate supporting technology.
 
-[[pagebreak]]
+### Speaking notes
 
-## Final Speaking Notes
+**Opening - career and reason:**
 
-Use keywords, not a full script, when that supports your access needs.
+[[lines: 1]]
 
-Opening:
+**Duty or work product:**
 
-[[lines: 4]]
+[[lines: 1]]
 
-Duty/work product:
+**Typical preparation:**
 
-[[lines: 4]]
+[[lines: 1]]
 
-Preparation:
+**Labor evidence and limitation:**
 
-[[lines: 4]]
+[[lines: 2]]
 
-Labor evidence:
+**Conclusion:**
 
-[[lines: 4]]
+[[lines: 1]]
 
-Conclusion:
-
-[[lines: 4]]
+> **Word bank:** work product/producto de trabajo · preparation/preparacion · median/mediana · limitation/limitacion · source/fuente
+>
+> **Use this frame:** A **[career]** creates or studies **[work product]**. The source reports **[measure and amount]** for **[geography/date]**, but it does not prove **[limit]**.
 
 [[pagebreak]]
 
-## Delivery Record
+## Page 2 - Delivery Evidence, Transfer, and Next Revision
 
 Date/route: ______________________________________________________
 
 Time: ______ seconds
 
-Teacher/assessor evidence notes:
-
-[[lines: 10]]
-
-Student self-evidence:
-
-[[lines: 7]]
-
-[[pagebreak]]
-
-## Transfer Reflection
-
-One communication skill I demonstrated:
-
-[[lines: 2]]
-
-How the same skill works in two different careers:
-
-Career 1:
-
-[[lines: 2]]
-
-Career 2:
-
-[[lines: 2]]
-
-One next goal:
-
-[[lines: 2]]
-
-## Strengths Interview Preview - Not Yet Graded
-
-The capstone later uses a conversation with a trusted adult. A family member is not required. A teacher, counselor, coach, mentor, or other approved campus adult may be used. Do not submit private family details or an adult's contact information.
-
-Possible approved adult/route (campus route may be arranged later):
-
-[[lines: 2]]
-
-Two questions I could add:
+**Teacher/assessor evidence--one content strength and one communication strength:**
 
 [[lines: 3]]
 
-Access, language, scheduling, or privacy support I need:
+**Student self-evidence--the exact sentence, source label, organization move, pace, volume, or AAC choice that worked:**
+
+[[lines: 3]]
+
+### Transfer the communication skill
+
+**One communication skill I used:**
+
+[[lines: 1]]
+
+**Career 1 and how the skill works there:**
 
 [[lines: 2]]
+
+**Career 2 and how the same skill works there:**
+
+[[lines: 2]]
+
+**One next revision after self-scoring:**
+
+[[lines: 2]]
+
+### Week 5 preview--not graded today
+
+Interview practice will use a private campus route. Do not enter a family member's contact information or private family details.
+
+**Done when:** 60-90-second oral/AAC career brief + appropriate technology choice + source labels and limitation + delivery evidence + two-career transfer + self-score + next revision.
