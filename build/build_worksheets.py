@@ -414,7 +414,10 @@ def render_html_for(sheet, env):
 FOOTER_STYLE = (
     "font-family:'Source Sans 3',Arial,sans-serif;font-size:7.5pt;color:#8a95a1;"
     "box-sizing:border-box;width:100%;margin:0;"
-    "padding:4pt 0.55in 0;border-top:0.5pt solid #c8d0d7;"
+    # Chromium can trim the final footer glyph on even pages when the right
+    # edge sits exactly on the PDF margin. Keep the content inset slightly
+    # farther on the right while preserving the worksheet's 0.55in body grid.
+    "padding:4pt 0.70in 0 0.55in;border-top:0.5pt solid #c8d0d7;"
     "display:flex;justify-content:space-between;align-items:baseline;"
     "background:#ffffff;position:relative;z-index:9999;overflow:visible;"
     "-webkit-print-color-adjust:exact;"

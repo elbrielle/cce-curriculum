@@ -1,160 +1,138 @@
 ---
-title: Practice Application and Reference Protocol
+title: Fictional Application and Reference Protocol
 slug: 6sw-wk5-application-and-references
 kind: worksheet
 weeks: 6sw/wk5-job-skills
 audience: student
 variant_of:
 language: en
-pages: 8
+pages: 4
 orientation: portrait
 ---
 
 ## Simulation Boundary
 
-Complete every field with the fictional Jordan Rivera case or N/A. Do not enter your real address, phone/email, birth date, SSN, student ID, driver's-license data, banking/tax data, family information, availability constraints, signature, or another person's contact information.
+Use the fictional Jordan Rivera case or **N/A**. Do not enter your real address, phone, email, birth date, SSN, student or driver ID, banking or tax data, signature, family information, schedule constraints, protected information, or another person's contact information.
 
-Why a complete truthful application matters:
+> **Word bank:** applicable/aplicable · N/A/no aplica · consistent/coherente · reference/referencia · permission/permiso
 
-[[lines: 6]]
+## 1. Position and Fictional Applicant
 
-When to use N/A:
+Desired position: **Student Office Assistant**<br>
+Employer: **Pecan Creek Animal Care - fictional classroom case**<br>
+Applicant: **Jordan Rivera** · `jordan.rivera@example.com` · Irving, Texas<br>
+Authorized route: **teacher simulation only**
 
-[[lines: 4]]
+How Jordan learned about the position: teacher-provided classroom posting
 
-[[pagebreak]]
+Why Jordan is interested, using only the posting and supplied evidence:
 
-## Fictional Identity and Target
+[[lines: 3]]
 
-Applicant: Jordan Rivera · `jordan.rivera@example.com` · Irving, Texas
-
-Desired position: ________________________________________________
-
-Official/teacher source: _________________________________________
-
-How did Jordan learn about it? ___________________________________
-
-Authorized contact route: teacher simulation only
-
-Why Jordan is interested:
-
-[[lines: 6]]
-
-[[pagebreak]]
-
-## Education and Activities
+## 2. Education and Activity Evidence
 
 School: Fictional Irving Middle School · Grade 8 · expected promotion 2027
 
-Relevant courses/projects/activities:
+Relevant course, project, or activity: ____________________________
 
-[[lines: 8]]
+Two skills with evidence:
 
-Skills with evidence:
-
-[[lines: 8]]
+1. [[lines: 1]]
+2. [[lines: 1]]
 
 [[pagebreak]]
 
-## Experience Record
+## 3. Experience and Skills
 
-Experience type: class supply checkout project
-Role: student inventory coordinator · Dates: six-week classroom project
+Experience type: **class supply checkout project**<br>
+Role: **student inventory coordinator** · Dates: **six-week classroom project**
 
 Responsibilities and results:
 
-[[lines: 8]]
+[[lines: 4]]
 
-Second experience/activity or N/A:
+Second experience or activity: **supervised school family-event greeting**
 
-[[lines: 8]]
+Responsibilities and evidence:
 
-Why unpaid school/activity evidence can still be relevant:
+[[lines: 3]]
 
-[[lines: 5]]
+Why school, project, activity, or service evidence can be relevant even when it is unpaid:
 
-[[pagebreak]]
+[[lines: 2]]
 
-## Availability and Applicant Statements
+## 4. Availability and Applicant Statements
 
-For this simulation, use: after-school student schedule; details discussed only through an authorized process.
+For this simulation, use: **after-school student schedule; details discussed only through an authorized process.**
 
-One availability question to clarify:
+One availability or supervision question to clarify:
 
-[[lines: 5]]
+[[lines: 2]]
 
-What Jordan can truthfully say about job duties and supervision:
+One claim Jordan must not make:
 
-[[lines: 6]]
-
-What Jordan must not claim:
-
-[[lines: 6]]
+[[lines: 2]]
 
 [[pagebreak]]
 
-## Reference Types and Selection
+## 5. Select Reference Roles
 
-Reference A: teacher who supervised the inventory project.
-Reference B: activity sponsor who observed teamwork and attendance.
-Reference C: adult supervisor from the school family event.
-No names or contact details are used.
+No real names or contact details are used.
 
-Best reference for accuracy/organization + why:
+| Reference role | What this person observed | Best evidence this person could discuss |
+|---|---|---|
+| Teacher who supervised the inventory project | | |
+| Activity sponsor who observed teamwork and attendance | | |
+| Adult supervisor from the school family event | | |
 
-[[lines: 6]]
+Use the frame: **I chose the [role] because that person observed Jordan [action].**
 
-Best reference for communication/dependability + why:
+Best reference for accuracy or organization and why:
 
-[[lines: 6]]
+[[lines: 3]]
 
-Why family/friends are usually weaker than someone who observed relevant work:
+Best reference for communication or dependability and why:
 
-[[lines: 5]]
+[[lines: 3]]
+
+Why a family member or friend is usually weaker than a person who observed relevant work:
+
+[[lines: 2]]
 
 [[pagebreak]]
 
-## Ask Permission Before Sharing
+## 6. Ask Permission Before Sharing
 
-Draft only; do not send.
+Draft only. Do not send.
 
-Subject: Reference permission for a fictional classroom application
+**Subject:** Reference permission for a fictional classroom application
 
-Greeting and request:
-
-[[lines: 6]]
-
-Position/skills the reference may be asked about:
-
-[[lines: 5]]
-
-Ask for preferred contact route and permission to share it:
-
-[[lines: 5]]
-
-Closing/thanks:
+Greeting, position, and respectful request:
 
 [[lines: 4]]
 
-[[pagebreak]]
+Skills the reference may be asked about:
 
-## Final Application Audit
+[[lines: 2]]
 
-- [ ] instructions read first;
-- [ ] every field completed or N/A;
-- [ ] target title is specific;
-- [ ] application matches the fictional evidence card/cover letter;
-- [ ] relevant skills have evidence;
-- [ ] no false work history or credential;
-- [ ] no real personal/reference data;
-- [ ] reference permission comes before sharing information;
-- [ ] proofreading complete;
-- [ ] no real submission/contact.
+Ask for permission and the person's preferred contact route:
 
-One inconsistency I found and fixed:
+[[lines: 3]]
 
-[[lines: 6]]
+Closing and thanks:
 
-One field that might vary across real applications:
+[[lines: 1]]
 
-[[lines: 5]]
+## 7. Final Audit
+
+- [ ] Every applicable field is complete or N/A.
+- [ ] Target title is specific and evidence matches the cover letter.
+- [ ] No false work history, credential, or result was added.
+- [ ] No real applicant or reference data appears.
+- [ ] Reference roles can speak from firsthand evidence.
+- [ ] Permission comes before sharing contact information.
+- [ ] Nothing is sent or submitted outside this private class simulation.
+
+One inconsistency or privacy risk I found and fixed:
+
+[[lines: 2]]

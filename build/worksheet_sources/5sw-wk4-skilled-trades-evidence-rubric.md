@@ -12,7 +12,7 @@ orientation: landscape
 
 ## Four-Criterion Rubric
 
-| Criterion | 4: Masters | 3: Meets | 2: Approaches | 1: Needs Improvement | 0: Insufficient Evidence |
+| Criterion | 4 - Masters (4 pts) | 3 - Meets (3 pts) | 2 - Approaches (2 pts) | 1 - Needs Improvement (1 pt) | 0 - Insufficient Evidence (0 pts) |
 |---|---|---|---|---|---|
 | Evidence accuracy | Uses precise supplied facts and labels source basis, occupation, and limits accurately | Evidence is mostly accurate and labeled | Some evidence is incomplete or mixed | Claims are mostly unsupported or mislabeled | Blank, off-topic, or not submitted |
 | Preparation and route boundaries | Separates occupation, training route, credential/license, and variable conditions consistently | Boundaries are mostly accurate | One or more boundaries need correction | Repeatedly treats one route or license as universal | Blank, off-topic, or not submitted |

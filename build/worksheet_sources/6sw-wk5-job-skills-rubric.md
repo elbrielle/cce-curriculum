@@ -6,67 +6,49 @@ weeks: 6sw/wk5-job-skills
 audience: student
 variant_of:
 language: en
-pages: 3
+pages: 2
 orientation: landscape
 ---
 
-## Six-Criterion Rubric
+## Six-Criterion Evidence Profile
 
 | Criterion | 4 - Masters | 3 - Meets | 2 - Approaches | 1 - Needs Improvement | 0 - Insufficient Evidence |
 |---|---|---|---|---|---|
-| Search/posting evidence d6A | Seven-step logic, screened source, relevant evidence match, safe next action | Complete with one minor gap | Important step/evidence incomplete | Posting copied with little screening | Blank/off-topic |
-| Cover letter d7B | Tailored, truthful, concise, specific evidence, complete business structure, visible revision | Strong with one minor gap | General or partially tailored | Generic/inflated/incomplete | Blank/copied/off-topic |
-| Application d7C | Complete/N/A, consistent, relevant evidence, privacy-safe, carefully audited | Complete with one minor gap | Several gaps/inconsistencies | Incomplete or invented information | Blank/off-topic |
-| References d7D | Appropriate roles, evidence-based rationale, permission-before-sharing protocol, respectful draft | Accurate with one minor gap | Partial selection/protocol | Real contact data or weak rationale | Blank/off-topic |
-| Mock interview d6B/d6C | Prepared context/access plan; effective interviewee and interviewer evidence; relevant follow-up; revision visible | Strong participation with one minor gap | One role or revision is partial | Minimal participation or inappropriate/private question | No assessable participation |
-| Thank-you correspondence d7B | Brief, specific, accurate, courteous, reinforces evidence, authorized route/boundary | Complete with one minor gap | Generic or missing one job | Inaccurate, pressuring, or incomplete | Blank/off-topic |
+| Search and posting screen d(6)(A) | Sequences the safe search; screens source/data; uses accurate match, gap, and next action | Accurate with one minor gap | Partial sequence or screen | Copies the posting with little decision evidence | Blank, copied, or off-topic |
+| Cover letter d(7)(B) | Tailored, truthful, concise; two specific evidence links; complete structure; visible revision | Strong with one minor gap | General or partly tailored | Generic, inflated, or incomplete | Blank, copied, or off-topic |
+| Application d(7)(C) | Complete or N/A; consistent; relevant; privacy-safe; audited | Complete with one minor gap | Several gaps or inconsistencies | Incomplete or invented information | Blank or off-topic |
+| References d(7)(D) | Appropriate roles; firsthand evidence; permission-before-sharing protocol; respectful draft | Accurate with one minor gap | Partial selection or protocol | Weak rationale or real contact data | Blank or off-topic |
+| Mock interview d(6)(B), d(6)(C) | Context-aware preparation; assessable interviewee and interviewer evidence; job-related follow-up; revision applied | Strong with one minor gap | One role or revision is partial | Minimal evidence or inappropriate/private question | No assessable participation |
+| Thank-you correspondence d(7)(B) | Brief, specific, accurate, courteous; reinforces evidence; stays within authorized boundary | Complete with one minor gap | Generic or missing one job | Inaccurate, pressuring, or incomplete | Blank or off-topic |
 
-Total: ____ / 24
+Raw total: ____ / 24
 
-This is Major 1 in the approved sixth-six-weeks assessment map. Keep it unpublished until the Canvas review gate passes.
+**Evidence locations:** Day 1 search screen · Day 2 final letter · Day 3 application/reference record · Day 5 interview/follow-up record. Students do not resubmit the same packet.
 
 [[pagebreak]]
 
-## Performance-Band Record
+## Convert the Raw Score to the Canvas Score
 
-Masters: 90-100 · Meets: 80-89 · Approaches: 70-79 · Needs Improvement: 60-69. A below-60 record follows campus policy and is not automatically converted from the rubric without the verified gradebook map.
+| Raw | 24 | 23 | 22 | 21 | 20 | 19 | 18 | 17 | 16 | 15 | 14 | 13 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Canvas % | 100 | 96 | 92 | 88 | 83 | 79 | 75 | 71 | 67 | 63 | 58 | 54 |
 
-Criterion scores: Search [   ] · Cover [   ] · Application [   ] · References [   ] · Interview [   ] · Thank-you [   ]
+| Raw | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Canvas % | 50 | 46 | 42 | 38 | 33 | 29 | 25 | 21 | 17 | 13 | 8 | 4 | 0 |
 
-Strongest evidence:
+**District bands:** Masters 90-100 · Meets 80-89 · Approaches 70-79 · Needs Improvement 60-69 · below 60 follows campus policy.
 
-[[lines: 3]]
+## Self-Score and Revision
+
+Criterion scores: Search [  ] · Cover [  ] · Application [  ] · References [  ] · Interview [  ] · Thank-you [  ]
+
+Strongest evidence and where it appears:
+
+[[lines: 1]]
 
 Priority revision:
 
-[[lines: 3]]
+[[lines: 1]]
 
-## Privacy and Access Boundary
-
-The portfolio uses fictional identity/employer/reference roles. Do not score or collect real address, phone/email, birth date, SSN, student ID, driver's-license data, banking/tax data, family information, availability constraints, signature, immigration/health/disability/religion information, or another person's contact information.
-
-Equivalent interview routes include paired live, small group, teacher conference, recorded role simulation, or AAC. Accent, speech difference, disability, camera use, eye contact, clothing cost/style, and public confidence are not scored unless meaning is unclear.
-
-Authorized alternate evidence/accommodation:
-
-[[lines: 2]]
-
-[[pagebreak]]
-
-## Revision Record
-
-Weakest criterion and why:
-
-[[lines: 3]]
-
-Before:
-
-[[lines: 4]]
-
-After:
-
-[[lines: 5]]
-
-How the revision improves accuracy, relevance, privacy, or communication:
-
-[[lines: 4]]
+**Access boundary:** Private live, small-group, teacher-conference, recorded audio/video, and authorized oral/AAC routes use the same evidence. Accent, eye contact, handshake, camera use, clothing cost or style, disability, public confidence, paid work history, and English mechanics are not scored unless meaning is unclear.

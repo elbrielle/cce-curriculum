@@ -1,100 +1,82 @@
 ---
-title: Cover Letter Simulation
+title: Fictional Cover Letter Lab
 slug: 6sw-wk5-cover-letter-simulation
 kind: worksheet
 weeks: 6sw/wk5-job-skills
 audience: student
 variant_of:
 language: en
-pages: 6
+pages: 3
 orientation: portrait
 ---
 
-## Purpose and Privacy
+## 1. Case File and Evidence Match
 
-A cover letter connects a specific posting to truthful evidence. Many employers do not require one; follow the posting. This simulation uses the fictional Pecan Creek posting and a fictional applicant identity. Do not use your home address, personal phone/email, birth date, ID numbers, family data, or a real employer contact.
+**Position:** Pecan Creek Animal Care - Student Office Assistant<br>
+**Applicant:** Jordan Rivera · `jordan.rivera@example.com` · Irving, Texas<br>
+**Status:** fictional classroom case; nothing is sent
 
-Four jobs of a short cover letter:
+Jordan organized a class supply checkout for six weeks, checked 120 spreadsheet entries, revised labels after classmates reported confusion, greeted families during a supervised school event, and asks clarifying questions. Skills include accuracy, organization, respectful communication, Google Docs, and Google Sheets. No paid work or credential is claimed.
 
-[[lines: 6]]
+| The posting needs... | Jordan can truthfully show... |
+|---|---|
+| accurate data entry | |
+| respectful communication or organization | |
 
-One difference between a cover letter and a resume:
+One gap Jordan must not hide or invent:
 
-[[lines: 4]]
+[[lines: 2]]
 
-[[pagebreak]]
+> **Word bank:** requirement/requisito · evidence/evidencia · tailor/adaptar · qualification/cualificación · revision/revisión
 
-## Fictional Applicant Evidence Card
+## 2. Plan Three Short Paragraphs
 
-**Jordan Rivera** · `jordan.rivera@example.com` · Irving, Texas
-Grade 8 student. Organized a class supply checkout for six weeks, revised labels after classmates reported confusion, greeted families during a supervised school event, and used a spreadsheet to check 120 inventory entries. Skills: respectful communication, accuracy, organization, asking clarifying questions, Google Docs/Sheets. No paid work claimed.
+**Opening:** name the position, how Jordan learned about it, and one specific reason for interest.
 
-Posting requirement/evidence match 1:
+[[lines: 2]]
 
-[[lines: 6]]
+**Evidence:** connect two posting needs to two supplied actions.<br>
+Frame: **Your posting asks for [need]. Jordan demonstrated [skill] when [action and result].**
 
-Match 2:
+[[lines: 3]]
 
-[[lines: 6]]
+**Closing:** thank the reader and name an authorized next step without pressure.
 
-One gap Jordan should not hide or invent:
+[[lines: 1]]
 
-[[lines: 5]]
+## 3. Full Draft
 
-[[pagebreak]]
+Write three short paragraphs. Use only the fictional evidence above. Plain, specific language is stronger than inflated enthusiasm.
 
-## Plan the Letter
+[[lines: 16]]
 
-Recipient role if no name is verified: Hiring Manager / Office Manager / Human Resources
+## 4. Evidence Audit
 
-Opening - position, source, specific interest:
+- [ ] Names the correct fictional role and employer.
+- [ ] Uses two accurate evidence links.
+- [ ] Does not invent work history, credentials, results, or employer facts.
+- [ ] Does not include real address, phone, email, ID, family, health, or schedule data.
+- [ ] Uses a courteous close and authorized next step.
+- [ ] Sounds like a person, not a template filled with generic praise.
 
-[[lines: 5]]
-
-Body evidence 1 - action, task, result/purpose, posting link:
-
-[[lines: 5]]
-
-Body evidence 2:
-
-[[lines: 5]]
-
-Closing - interest, thanks, authorized next step:
-
-[[lines: 4]]
+Star one sentence you will revise on the final page.
 
 [[pagebreak]]
 
-## Full Draft
+## 5. Final Simulation Letter
 
-Use 3-4 short paragraphs and Jordan's fictional evidence only.
+Recipient role if no verified name is available: **Hiring Manager / Office Manager / Human Resources**
 
-[[lines: 20]]
+[[lines: 15]]
 
-[[pagebreak]]
+## 6. Make the Revision Visible
 
-## Accuracy and Voice Audit
+Before phrase: _________________________________________________
 
-- [ ] every claim is supported by the evidence card;
-- [ ] letter is tailored to this posting;
-- [ ] no invented enthusiasm, employer fact, credential, work history, or result;
-- [ ] no private data;
-- [ ] concise plain language sounds like a real person;
-- [ ] opening/body/closing jobs are clear;
-- [ ] spelling/format do not obscure meaning.
+After phrase: __________________________________________________
 
-One generic or inflated sentence I revised:
+The change improved **accuracy / specificity / relevance / clarity** because:
 
-[[lines: 6]]
+[[lines: 2]]
 
-Before / after:
-
-[[lines: 8]]
-
-[[pagebreak]]
-
-## Final Simulation Letter
-
-[[lines: 22]]
-
-This letter is not sent. It uses a fictional applicant, employer, and `example.com` address.
+**Not sent:** This simulation uses a fictional applicant, employer, and `example.com` address. A real applicant follows the posting about whether a cover letter is required.

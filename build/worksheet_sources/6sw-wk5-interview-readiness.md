@@ -1,129 +1,85 @@
 ---
-title: Interview Readiness and Question Practice
+title: Interview Preparation Planner
 slug: 6sw-wk5-interview-readiness
 kind: worksheet
 weeks: 6sw/wk5-job-skills
 audience: student
 variant_of:
 language: en
-pages: 8
+pages: 3
 orientation: portrait
 ---
 
-## Before the Interview
+## 1. Prepare for the Context
 
-- research the verified employer/role;
-- review posting, resume, cover letter, and examples;
-- prepare concise truthful stories and questions;
-- confirm time, place/link, format, accessibility, and task/safety expectations;
-- plan to arrive/sign in about 10-15 minutes early;
-- choose context-appropriate clean, functional, safe clothing;
-- test virtual audio/video/background/privacy and a backup route.
+Interview preparation changes with the workplace, task, safety needs, format, technology, and accommodation. It is not one expensive, gendered, body-based, cultural, eye-contact, handshake, or camera rule.
 
-Three checks most relevant to Jordan's fictional interview:
+> **Word bank:** context/contexto · task/tarea · accommodation/adaptación · evidence/evidencia · follow-up/seguimiento
 
-[[lines: 6]]
+| Fictional interview | Two preparations that fit the context | One item to verify |
+|---|---|---|
+| Office/customer-facing | | |
+| Skilled-trade task demonstration | | |
+| Virtual or phone | | |
 
-[[pagebreak]]
-
-## Answer Framework
-
-Use **Situation/Task - Action - Result/Reflection** for experience questions. A result may be what improved, what was completed, or what you learned. Do not invent a number or outcome.
-
-Jordan evidence bank: six-week supply checkout; 120 spreadsheet entries checked; labels revised after confusion; supervised family-event greeting; clarifying questions; no paid work claimed.
-
-Model outline for “Tell me about a time you solved a problem”:
-
-[[lines: 8]]
-
-One honest limit/growth statement:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Questions 1-2
-
-**1. Tell me about yourself and why this role interests you.**
-
-[[lines: 8]]
-
-**2. What is one strength relevant to this job? Give evidence.**
-
-[[lines: 8]]
-
-[[pagebreak]]
-
-## Questions 3-4
-
-**3. Tell me about a time you solved a problem or corrected a mistake.**
-
-[[lines: 8]]
-
-**4. Describe a time you worked with another person or served an audience.**
-
-[[lines: 8]]
-
-[[pagebreak]]
-
-## Questions 5-6
-
-**5. What is one area you are developing, and what action are you taking?**
-
-[[lines: 8]]
-
-**6. How would you handle unclear instructions or private information?**
-
-[[lines: 8]]
-
-[[pagebreak]]
-
-## Questions 7-8
-
-**7. Why should this fictional employer consider Jordan?**
-
-[[lines: 8]]
-
-**8. What question should Jordan ask the interviewer?**
-
-[[lines: 8]]
-
-[[pagebreak]]
-
-## Interviewer Role
-
-The interviewer listens, asks one question at a time, allows thinking time, takes evidence notes, asks a relevant follow-up, and avoids protected/private questions about family, health, religion, disability, immigration, age, or other personal topics unrelated to the simulation.
-
-One useful follow-up for an incomplete answer:
-
-[[lines: 5]]
-
-One neutral evidence note:
-
-[[lines: 5]]
-
-One question the interviewer must not ask and why:
-
-[[lines: 6]]
-
-[[pagebreak]]
-
-## Final Readiness Plan
-
-My route: paired live / small group / teacher conference / recorded role simulation / AAC
-
-Two questions I will answer:
-
-[[lines: 5]]
-
-Two questions I will ask as interviewer:
-
-[[lines: 5]]
-
-Appearance/technology/access plan:
-
-[[lines: 6]]
-
-One support or accommodation to confirm privately:
+Use the frame: **For a [format/task] interview, Jordan should prepare [action] because [job, safety, technology, or access reason].**
 
 [[lines: 4]]
+
+## 2. Build Evidence, Not a Memorized Script
+
+Use **Situation or Task - Action - Result or Reflection** when a question asks for an example. A school, project, activity, service, or responsibility example is valid. Do not invent paid work, a number, or a result.
+
+Jordan evidence bank: six-week supply checkout · 120 entries checked · labels revised after confusion · supervised family-event greeting · clarifying questions · no paid work claimed
+
+[[pagebreak]]
+
+## 3. Prepare Three Interviewee Responses
+
+**Question 1: Tell me about yourself and why this role interests you.**
+
+[[lines: 6]]
+
+**Question 2: Give an example of accuracy, organization, or problem solving.**
+
+[[lines: 7]]
+
+**Question 3: How would you handle unclear instructions or private information?**
+
+[[lines: 7]]
+
+One honest growth statement plus a specific action:
+
+[[lines: 3]]
+
+[[pagebreak]]
+
+## 4. Prepare the Interviewer Role
+
+The interviewer asks one question at a time, allows thinking time, listens, records neutral evidence, and asks a job-related follow-up. Do not ask about family, religion, health, disability, immigration, age, or other protected or unrelated personal information.
+
+Useful follow-up for an incomplete answer:
+
+[[lines: 4]]
+
+Neutral evidence note:
+
+[[lines: 3]]
+
+One question Jordan can ask about the job or training:
+
+[[lines: 3]]
+
+## 5. Confirm the Day 5 Route
+
+My assigned route: **paired live / small group / teacher conference / private recording / AAC**
+
+Technology or communication check: __________________________________
+
+- [ ] I know my assigned route. If I need a different route or support, I will tell the teacher privately; I will not write private details here.
+
+Final preparation action:
+
+[[lines: 3]]
+
+**Practice Quiz:** Complete the five-question Canvas check and review every feedback explanation.

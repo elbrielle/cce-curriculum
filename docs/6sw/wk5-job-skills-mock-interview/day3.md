@@ -2,30 +2,29 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Job Applications
-- **Objective:** Students will complete sample job applications and explain how to select and use references using evidence from Job Applications.
+- **Topic:** Applications and References
+- **Objective:** Students will complete a sample job application and explain protocol for selecting and using references by using supplied fictional information and asking permission before sharing.
 - **TEKS:** d(7)(C), d(7)(D)
-- **Demonstration of Learning:** eight-page fictional application, reference-role plan, and unsent permission request.
+- **Demonstration of Learning:** Four-page fictional application, reference-role plan, unsent permission request, and privacy audit.
 <!-- CCE DAILY CONTRACT END -->
-**TEKS:** d(7)(C), d(7)(D)
-**Evidence:** eight-page fictional application, reference-role plan, and unsent permission request
 
 ## Before Class
 
-Post the private Assignment. The simulation remains fictional from start to finish; do not collect, display, or shred real student application data.
+Post the private Student Annotation and four-page packet. Students use Jordan Rivera from start to finish. Do not collect, display, or ask students to destroy real application or reference data.
 
 ## 50-Minute Flow
 
-1. **Warm-up - 5 min.** Explain truthful completion, N/A, consistency, proofreading, and following the posting.
-2. **Chunk the application - 20 min.** Complete fictional identity/target, education/activities, experience, skills, and availability sections one at a time.
-3. **Reference protocol - 10 min.** Choose three appropriate roles, explain firsthand evidence, and apply permission-before-sharing.
-4. **Permission draft and audit - 10 min.** Draft but do not send a request; run completeness, consistency, relevance, and privacy checks.
-5. **Exit - 5 min.** Explain why permission protects the applicant, reference, and employer.
+1. **Bellringer - 5 min.** Sort four fields into “use supplied fact,” “use N/A,” or “do not provide in this simulation.”
+2. **Application model - 7 min.** Read directions first, use a specific target, complete applicable fields, keep evidence consistent, and use N/A only when a field does not apply.
+3. **Chunked application - 18 min.** Complete target and education, then experience, skills, and fictional availability. Pause after each section for an active-monitoring check.
+4. **Reference protocol - 8 min.** Select roles that observed the relevant work. Separate teacher, activity sponsor, and adult supervisor evidence.
+5. **Permission draft and audit - 7 min.** Draft but do not send the request. Ask before sharing any contact route.
+6. **Exit - 5 min.** Explain how permission protects the applicant, reference, and employer.
 
-## Key and Trim Point
+## Monitor, Key, and Trim Point
 
-Full evidence uses only supplied fictional facts, fills every applicable field or uses N/A, stays consistent with the letter, selects non-family roles able to speak firsthand, explains each choice, and drafts a respectful permission request. Never require a name or contact detail for a real reference. Trim optional comparison first.
+Full evidence uses only supplied facts, completes applicable fields or N/A, matches the cover letter, selects reference roles with firsthand evidence, and asks permission before sharing. No student enters a real name, contact route, availability, ID, signature, health, family, or immigration information. Trim optional comparison before the consistency/privacy audit.
 
-## Absence and Access
+## Supports and Access
 
-All fields have proportional writing space, including expanded experience and rationale sections. Accept typed labeled answers, annotation, dictation, enlarged print, or paper.
+Keep **applicable/aplicable**, **N/A/no aplica**, **consistent/coherente**, **reference/referencia**, and **permission/permiso** beside the form. Use the frame: “I chose the **[role]** because that person observed Jordan **[action]**.” Short fields receive short spaces; evidence and rationale fields receive multiple lines. Accept typing, annotation, dictation, enlarged print, or paper.

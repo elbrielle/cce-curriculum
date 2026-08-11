@@ -1,57 +1,46 @@
 ---
-title: Mock Interview and Thank-You Record
+title: Mock Interview and Follow-Up Record
 slug: 6sw-wk5-mock-interview-and-thank-you
 kind: worksheet
 weeks: 6sw/wk5-job-skills
 audience: student
 variant_of:
 language: en
-pages: 6
+pages: 4
 orientation: portrait
 ---
 
-## Simulation Roles and Boundaries
+## Simulation Route and Boundary
 
 Use Jordan Rivera and the fictional Pecan Creek posting. Do not disclose personal information, real work history, reference contacts, family information, protected/private topics, or send any message.
 
-Route: paired live / small group / teacher conference / recorded role simulation / AAC
+My route: **paired live / small group / teacher conference / private recording / AAC**
 
-Round 1 role: interviewer / interviewee
-Round 2 role: interviewer / interviewee
+> **Word bank:** interviewee/entrevistado · interviewer/entrevistador · follow-up/seguimiento · revision/revisión · thank-you/agradecimiento
 
-Ready checks:
-
-- [ ] posting/evidence card and question plan open;
-- [ ] timer and feedback method ready;
-- [ ] appearance/technology/access plan complete;
-- [ ] one follow-up question prepared;
-- [ ] private/irrelevant questions excluded.
-
-[[pagebreak]]
-
-## Interviewee Evidence - Round 1
+## 1. Interviewee Evidence - Round 1
 
 Question answered: _______________________________________________
 
-Situation/task evidence:
+Situation or task:
 
-[[lines: 5]]
+[[lines: 3]]
 
 Action:
 
-[[lines: 5]]
+[[lines: 3]]
 
-Result/reflection:
+Result or reflection:
 
-[[lines: 5]]
+[[lines: 3]]
 
-One strength and one revision:
+One evidence detail the listener should hear:
 
-[[lines: 5]]
+[[lines: 1]]
 
 [[pagebreak]]
 
-## Interviewer Evidence - Round 1
+## 2. Interviewer Evidence - Round 1
 
 Question asked: __________________________________________________
 
@@ -59,68 +48,69 @@ Neutral evidence notes:
 
 [[lines: 6]]
 
-Relevant follow-up and why:
+Relevant follow-up:
 
-[[lines: 5]]
+[[lines: 3]]
 
-One listening/organization strength and one revision:
+Why the follow-up helps assess the job evidence:
 
-[[lines: 5]]
+[[lines: 3]]
+
+One interviewer strength and one exact revision:
+
+[[lines: 4]]
+
+## 3. Feedback to Apply
+
+Specific strength: _______________________________________________
+
+Specific change: _________________________________________________
 
 [[pagebreak]]
 
-## Round 2 Revision Evidence
+## 4. Round 2 Revision Evidence
 
 Role and question: _______________________________________________
 
-Revision applied from Round 1:
-
-[[lines: 6]]
-
-Evidence from the second round:
-
-[[lines: 8]]
-
-What improved:
-
-[[lines: 6]]
-
-[[pagebreak]]
-
-## Final Fictional Thank-You Note
-
-A brief note is sent soon after a real interview—often within 24 hours—through the authorized route. This classroom note is not sent.
-
-Fictional recipient role: _________________________________________
-
-Include a specific thanks/interview detail, one relevant qualification or interest, and a courteous close with an authorized next step.
-
-[[lines: 12]]
-
-Audit:
-
-- [ ] specific, brief, accurate, and courteous;
-- [ ] no new unsupported claim;
-- [ ] no pressure or repeated contact;
-- [ ] no real address/contact data;
-- [ ] not sent.
-
-[[pagebreak]]
-
-## Portfolio Reflection
-
-Strongest evidence across posting, cover letter, application, references, interview, and thank-you note:
+Use the frame: **I changed [specific response move] after [feedback]. The change helped because [effect].**
 
 [[lines: 5]]
 
-One inconsistency or privacy risk I fixed:
+Evidence from the second round:
+
+[[lines: 7]]
+
+What improved in relevance, organization, accuracy, listening, or response:
 
 [[lines: 4]]
 
-One job-search step I would use next in a real future situation—with a trusted adult:
+## 5. Interview Preparation Check
+
+One workplace, task, safety, format, technology, or access decision that supported the interview:
 
 [[lines: 4]]
 
-One revision I would make before a real application:
+[[pagebreak]]
 
-[[lines: 4]]
+## 6. Final Fictional Thank-You Note
+
+A real thank-you note is usually brief and sent through an authorized route soon after the interview. This classroom note is not sent.
+
+Include a specific thanks or interview detail, one relevant qualification or interest, and a courteous close.
+
+[[lines: 11]]
+
+- [ ] Brief, specific, accurate, and courteous.
+- [ ] No new unsupported claim, pressure, or repeated contact.
+- [ ] No real address or contact data.
+- [ ] Not sent.
+
+## 7. Portfolio Consistency Check
+
+One inconsistency or privacy risk I fixed across the posting screen, letter, application, references, interview, or thank-you note:
+
+[[lines: 3]]
+
+One revision I would make before a real future application with a trusted adult:
+
+[[lines: 3]]

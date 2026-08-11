@@ -1,114 +1,76 @@
 ---
-title: Job Search and Posting Evidence
+title: Job Search and Posting Screen
 slug: 6sw-wk5-job-search-and-posting-evidence
 kind: worksheet
 weeks: 6sw/wk5-job-skills
 audience: student
 variant_of:
 language: en
-pages: 6
+pages: 2
 orientation: portrait
 ---
 
-## Seven-Step Search Cycle
+## 1. Put the Search Cycle in Order
 
-1. Set a target. 2. Prepare truthful materials. 3. Search through credible sources. 4. Screen the posting and employer. 5. Track status/deadline. 6. Tailor and apply through an authorized route. 7. Follow up safely.
+Write **1-7** beside the actions. Then draw an arrow from **screen** to the first action that could share information.
 
-Why searching, screening, and applying are separate steps:
+| Order | Mixed action |
+|---|---|
+| ___ | Tailor the materials and apply through an authorized route. |
+| ___ | Set a specific job target. |
+| ___ | Follow up safely and update the tracker. |
+| ___ | Screen the posting, source, employer, and data request. |
+| ___ | Prepare truthful evidence and documents. |
+| ___ | Track the source, date, deadline, and status. |
+| ___ | Search through credible sources. |
 
-[[lines: 6]]
+> **Word bank:** posting/oferta de empleo · screen/revisar · verify/verificar · evidence/evidencia · authorized/autorizado
 
-One step students often skip and the risk:
+Why must screening happen before an application or contact?
 
-[[lines: 5]]
+[[lines: 3]]
 
-[[pagebreak]]
+## 2. Fixed Practice Posting
 
-## Fixed Practice Posting - Fictional
+**Pecan Creek Animal Care - Student Office Assistant**<br>
+**Status:** fictional classroom case, not a live vacancy · **Reviewed:** August 2026
 
-**Pecan Creek Animal Care - Student Office Assistant**
-Fictional classroom employer; not a live vacancy. Helps prepare appointment materials, organizes approved files, greets visitors with an adult supervisor, and communicates routine nonclinical information. Desired evidence: accurate data entry, respectful communication, organization, dependable attendance, and ability to ask for clarification. Student schedule; training provided. No animal treatment, medication advice, payment handling, or unsupervised access to private records.
+Helps prepare appointment materials, organizes approved files, greets visitors with an adult supervisor, and communicates routine nonclinical information. Desired evidence: accurate data entry, respectful communication, organization, dependable attendance, and asking for clarification. Student schedule; training provided. No animal treatment, medication advice, payment handling, or unsupervised access to private records.
 
-Job title, employer, source/status, and date reviewed:
-
-[[lines: 4]]
-
-Three responsibilities:
-
-[[lines: 6]]
-
-Three qualifications/skills:
-
-[[lines: 6]]
+Underline **two duties**. Box **two desired skills**. Star **one boundary**.
 
 [[pagebreak]]
 
-## Match Evidence
+## 3. Match, Gap, and Verification
 
-One true school/project/activity/service responsibility that could support the posting:
+**Fictional applicant evidence:** Jordan Rivera organized a class supply checkout for six weeks, checked 120 spreadsheet entries, revised labels after classmates reported confusion, greeted families during a supervised school event, and asks clarifying questions. No paid work or credential is claimed.
 
-[[lines: 6]]
+| Posting need | Jordan's truthful action or evidence |
+|---|---|
+| Match 1 | |
+| Match 2 | |
 
-One transferable skill + action/task/evidence example:
+One gap Jordan should not hide or invent:
 
-[[lines: 7]]
+[[lines: 2]]
 
-One qualification the fictional applicant still needs to develop:
+Two details a real applicant should verify through the official employer site or a known adult:
 
-[[lines: 5]]
+1. [[lines: 1]]
+2. [[lines: 1]]
 
-One clarification question:
+> **Red flags:** payment or gift-card request · banking or ID data before a verified process · personal-email domain · off-platform pressure · vague duties · guaranteed pay · text-only interview
 
-[[lines: 4]]
+## 4. Make the Safe Decision
 
-[[pagebreak]]
+Decision: **continue through a verified route / pause and verify / stop and report**
 
-## Screen Before Acting
+Use the frame: **I would verify [detail] through [official or known route] before [action].**
 
-What would you verify through the official employer site or a known adult?
+[[lines: 3]]
 
-[[lines: 7]]
+One search step students may skip and the consequence:
 
-Red flags: pressure to act immediately, request for payment, gift cards, banking/ID data before a verified process, personal-email domain, off-platform messaging, vague duties, guaranteed pay, or interview-only-by-text.
+[[lines: 2]]
 
-Two red flags and the safe response:
-
-[[lines: 7]]
-
-Why a job-board result is not independent employer verification:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Fictional Opportunity Tracker
-
-Target/keywords: __________________________________________________
-
-Source and verification route:
-
-[[lines: 4]]
-
-Posting reviewed date / deadline or N/A: __________________________
-
-Status: saved / screened / tailored / teacher-approved next step / closed
-
-Next authorized action:
-
-[[lines: 5]]
-
-No real application, registration, contact, resume upload, or personal data entry occurs in this lesson.
-
-[[pagebreak]]
-
-## Rung 5 and Absence Route
-
-The fixed case demonstrates the course standard. If your teacher later supplies a current verified posting for FYF Rung 5, record the title, employer, official source, review date, responsibilities, qualifications, and preparation without contacting the employer or sharing personal information.
-
-Current posting evidence, if teacher-approved:
-
-[[lines: 10]]
-
-One limitation or change risk:
-
-[[lines: 5]]
+**Classroom boundary:** Do not register, apply, upload a résumé, contact an employer, or enter personal information. This record is the complete lesson route.

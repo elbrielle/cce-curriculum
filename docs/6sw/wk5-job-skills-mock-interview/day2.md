@@ -1,31 +1,30 @@
-# Day 2: Tailored Cover Letter Simulation
+# Day 2: Tailored Cover Letter
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
 - **Topic:** Business Correspondence
-- **Objective:** Students will write appropriate business correspondence such as a cover letter or thank-you letter using evidence from Business Correspondence.
+- **Objective:** Students will write appropriate business correspondence by tailoring a fictional cover letter to a posting, using supplied evidence, and making one visible revision.
 - **TEKS:** d(7)(B)
-- **Demonstration of Learning:** six-page plan, draft, accuracy audit, and final fictional letter.
+- **Demonstration of Learning:** Three-page fictional cover-letter plan, draft, evidence audit, and final revision.
 <!-- CCE DAILY CONTRACT END -->
-**TEKS:** d(7)(B)
-**Evidence:** six-page plan, draft, accuracy audit, and final fictional letter
 
 ## Before Class
 
-Post the private Assignment and fictional Jordan Rivera evidence card. The letter is not sent and contains no real contact information.
+Post the private Assignment, three-page cover-letter packet, and two-page Major rubric. Keep the fictional posting and Jordan evidence card visible. The letter is not sent.
 
 ## 50-Minute Flow
 
-1. **Warm-up - 5 min.** Distinguish resume facts from the job of a cover letter.
-2. **Model - 8 min.** Show opening, two evidence links, and closing; explain that requirements vary by posting.
-3. **Plan - 10 min.** Match Jordan's supplied evidence to the Pecan Creek posting and identify one honest gap.
-4. **Draft and audit - 22 min.** Write 3-4 short paragraphs, then remove generic, inflated, unsupported, or private language.
-5. **Exit - 5 min.** Record one before/after revision and why it improved the letter.
+1. **Bellringer - 5 min.** Decide which three statements belong in a resume, cover letter, or neither.
+2. **Model - 8 min.** Show the four jobs of the letter: name the position, connect evidence, explain fit without invention, and close courteously.
+3. **Plan - 9 min.** Match two supplied Jordan facts to two posting needs and name one gap that must remain honest.
+4. **Draft - 13 min.** Write three short paragraphs. Students may use the complete sentence frames, then revise the wording into Jordan's plain voice.
+5. **Audit and final - 10 min.** Check every claim against the evidence card, remove generic or inflated language, and make one before/after revision visible.
+6. **Exit - 5 min.** Explain why the revision made the letter more accurate, specific, or useful.
 
-## Key and Trim Point
+## Monitor, Key, and Trim Point
 
-A strong letter is specific, truthful, concise, tailored, complete, and supported by the evidence card. It does not invent enthusiasm, employer facts, credentials, work history, results, or a personal identity. Trim optional peer review before reducing final-draft time.
+A strong simulation letter names the role, uses two accurate evidence links, stays concise, acknowledges no false credential or work history, and includes a courteous next step. Requirements vary: a real applicant follows the posting about whether a cover letter is required. Trim peer exchange before planning, final-writing, or revision time.
 
-## Absence and Access
+## Supports and Access
 
-The packet supplies the posting and applicant evidence. Accept typing, dictation, annotation, or paper. Score evidence and meaning, not formulaic enthusiasm or perfect English mechanics.
+Keep **requirement/requisito**, **evidence/evidencia**, **tailor/adaptar**, **qualification/cualificación**, and **revision/revisión** beside the plan. Use the frame: “Your posting asks for **[need]**. Jordan demonstrated **[skill]** when **[action and result]**.” Accept typing, annotation, dictation, enlarged print, or paper. Score evidence and meaning, not formulaic enthusiasm or perfect English mechanics.
