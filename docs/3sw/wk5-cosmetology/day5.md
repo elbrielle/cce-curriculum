@@ -19,8 +19,8 @@
 
 ## Before Class
 
-- Post the recommendation, rubric, and evidence guide in Canvas.
-- Open the private unpublished Canvas Assignment.
+- Print one double-sided recommendation per paper-route student. Post the rubric and evidence guide digitally; print one set per student only for a no-device route.
+- Open the private unpublished Canvas Assignment and provide one device per Canvas-route student.
 - Confirm the existing unpublished Assignment remains 100 points in Minor Assessments (40%); do not create or downgrade a duplicate.
 - Xello Exploring Career Factors, eDynamic 4.2, and H&L favorites are optional extensions only. Do not require three separate logins, completion screenshots, or favorite counts.
 
@@ -52,6 +52,8 @@ Students complete five planning fields:
 
 Students write 6-8 sentences recommending a Human Services career for Jordan. They then select one SFX, pathway, salon, or wellness design decision and explain how it demonstrates a skill used in the career.
 
+Point-of-use frames: “I recommend ___ because ___. Texas requires ___. A verified next step is ___. One opportunity is ___, and the owner must ___. One trade-off is ___. My ___ design shows ___ because ___.”
+
 The student packet provides ten full-width lines for the recommendation and a separate evidence section. A typed, speech-to-text, or approved audio response must address the same evidence jobs.
 
 ## Activity 4: Self-Score and Submit (7 min)
@@ -59,6 +61,8 @@ The student packet provides ten full-width lines for the recommendation and a se
 Students use the student-visible 16-point rubric, revise one weak criterion, and submit privately in Canvas or turn in the paper copy.
 
 **DELIVERABLE:** Individual recommendation and design-to-career connection.
+
+**Safe trim:** Skip warm-up sharing. Protect the rubric self-check, revision, private submission, and reset.
 
 ## Scoring Notes
 

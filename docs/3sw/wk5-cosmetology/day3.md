@@ -15,15 +15,16 @@
 | **Objectives** | Evaluate and revise an SFX design, identify current Texas Cosmetology Operator requirements, compare high-school and postsecondary training settings, and report questions needed before enrollment |
 | **TEKS** | d(2)(A), d(3)(G) |
 | **Deliverable** | FYF p. 131 quality check plus two-page Cosmetology Pathway Decision |
-| **Materials** | FYF p. 131 and pp. 136-137, evidence guide, two-page pathway decision; optional enlarged no-workbook quality sheet |
+| **Materials** | FYF p. 131, evidence guide, two-page pathway decision; optional enlarged no-workbook quality sheet |
 
 ## Before Class
 
-- Have students open FYF p. 131. Post the dated Texas Cosmetology Operator Evidence Guide and two-page Pathway Decision.
-- Keep the separate quality sheet as an enlarged/no-workbook route; do not print it in addition to FYF p. 131.
+- Have students open FYF p. 131. Print one double-sided Pathway Decision per student. Post the dated Texas Cosmetology Operator Evidence Guide digitally; print one copy per pair only when devices are unavailable.
+- Keep the separate quality sheet as an enlarged/no-workbook route; print one only for each student without the workbook, not a class set.
 - Do not make live TDLR navigation load-bearing. The fixed evidence page protects the lesson from site changes and reading variance.
 - Note the current district wording: Cosmetology is listed at Cardwell, Irving, MacArthur, and Nimitz. Do not present Ratteree as the current location.
-- Do not teach a Texas cosmetology apprenticeship route. TDLR's current operator page requires 1,000 hours at a licensed school.
+- For this in-state beginner scenario, use the current TDLR Apply page's 1,000-hour licensed-school route. Do not substitute an informal salon apprenticeship. Out-of-state, equivalence, and other special application cases are outside this lesson.
+- Keep the five-question Canvas practice check optional after the pathway decision or for recovery; it is not part of the default 50 minutes.
 
 ## Warm-Up (5 min)
 
@@ -39,7 +40,7 @@ Use FYF p. 131. Students rate:
 
 Students cite one visible success, identify the cause of the biggest problem, and describe the final improvement plan. The optional expanded sheet provides a labeled revision drawing when that route is instructionally useful.
 
-## Activity 2: Read the Current Evidence (15 min)
+## Activity 2: Read the Current Evidence (13 min)
 
 Students annotate the fixed evidence guide:
 
@@ -57,11 +58,13 @@ Students complete the two-route table for an Irving ISD high-school setting and 
 
 Students write exact enrollment questions for three sources and put the five license steps in order. This is stronger evidence than ranking invented costs or completion dates.
 
-## Exit Check (5 min)
+## Exit Check and Collect (7 min)
 
 What state requirement stays the same in both routes, and what local question could change the decision?
 
 **DELIVERABLE:** Quality/revision evidence and complete pathway decision.
+
+**Safe trim:** Omit the optional Quiz or extended route discussion. Protect the two-setting comparison, ordered license steps, exit, and collection.
 
 ## Teacher Key
 

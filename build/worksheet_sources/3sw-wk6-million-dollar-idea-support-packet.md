@@ -14,7 +14,7 @@ orientation: portrait
 
 Choose a real, school-appropriate problem. Do not include a classmate's private information.
 
-**Problem menu:** long lunch lines · lost supplies · dead device batteries · confusing bus waits · missed homework · wasted food · hard-to-find clubs · limited quiet study space
+**Start here:** problem = what is happening and why it matters · customer = person who may choose the offer · first version = smallest workable form. **Problem menu:** long lunch lines · lost supplies · dead device batteries · confusing bus waits · missed homework · wasted food · hard-to-find clubs · limited quiet study space
 
 My problem:
 
@@ -85,11 +85,15 @@ One idea I dropped and the screening reason:
 
 Use specific evidence. “People will like it” is not enough.
 
+**Word bank:** problem fit = how directly the idea solves the need · customer choice = why someone may choose it · build challenge = what could make the first version difficult
+
+**Missing Day 2?** Use this fixed pair: students need charged devices. Compare a checkout charging station with classroom delivery of charged power banks.
+
 | Test | Idea 1 evidence | Idea 2 evidence |
 |---|---|---|
-| **Problem fit:** How well does it solve the exact problem? |  |  |
-| **Customer choice:** Why choose it over another option? |  |  |
-| **Build challenge:** What could make the first version difficult? |  |  |
+| **Problem fit:** How well does it solve the exact problem? | <br> | <br> |
+| **Customer choice:** Why choose it over another option? | <br> | <br> |
+| **Build challenge:** What could make the first version difficult? | <br> | <br> |
 
 ## Compare the risk
 

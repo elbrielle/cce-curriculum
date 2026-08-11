@@ -19,15 +19,15 @@
 
 ## Before Class
 
-- Have students open FYF pp. 132-133. Post the two-page companion and embedded workbook pages.
-- Prepare a finished fictional model and a weak model that makes an unsupported health promise.
-- Paper, Canva, and Adobe Express are equal. No real account or public post is needed.
+- Have students open FYF pp. 132-133. Print one double-sided companion per student and post the embedded workbook pages.
+- Project the supplied pair; no teacher-created sample is required. Safe: “Try a short breathing break. Breathe in slowly, then breathe out slowly. This may help you pause and refocus.” Unsafe: “Our method cures anxiety in 30 seconds.”
+- Paper is the default. Canva and Adobe Express are equal optional routes with one device per digital-route student. No real account or public post is needed.
 
 ## Warm-Up (5 min)
 
 **WARM-UP:** If you owned a salon or studio, what would you sell, and what responsibility would you have besides doing the service?
 
-## Activity 1: Define the Business (12 min)
+## Activity 1: Define the Business (10 min)
 
 Students use the salon prompt from FYF p. 127 to create a fictional salon, barbershop, nail studio, skincare studio, mobile service, or SFX studio. They name:
 
@@ -39,11 +39,11 @@ Students use the salon prompt from FYF p. 127 to create a fictional salon, barbe
 
 Students map the customer experience by labeling scheduling or check-in, the service area, sanitation or cleanup, supplies or records, and one access choice that removes a barrier.
 
-## Activity 2: Read the Stress Toolkit (8 min)
+## Activity 2: Read the Stress Toolkit (6 min)
 
 Use FYF p. 132. Students select one technique for a polished campaign post and two different techniques for rough follow-up plans. Present the workbook descriptions as general wellness education, not medical treatment.
 
-## Activity 3: Create and Test One Post (20 min)
+## Activity 3: Create, Check, and Revise (22 min)
 
 Students use the first phone frame on FYF p. 133 to create one polished fictional post with:
 
@@ -52,11 +52,11 @@ Students use the first phone frame on FYF p. 133 to create one polished fictiona
 - one realistic tip or encouragement; and
 - one visual element.
 
-Students use the other two phone frames for rough plans with only a technique, headline, and one-sentence tip. This keeps the workbook's three-post series without forcing three polished designs into 17 minutes.
+Students use the other two phone frames for rough plans with only a technique, headline, and one-sentence tip. This keeps the workbook's three-post series without forcing three polished designs into one work block.
 
 Run the reader and safety check. The post must be supportive, private, and free of medical claims, guaranteed results, real handles, contact details, or personal stories. A partner, teacher, or private self-check is equal.
 
-## Exit Check (5 min)
+## Exit Check, Collect, and Reset (7 min)
 
 How could a useful, accurate post build trust in a business without replacing professional help?
 
@@ -64,9 +64,11 @@ Students record the safety check, revision, and entrepreneurship connection on t
 
 **DELIVERABLE:** FYF p. 133 plus business concept, safety/revision evidence, and entrepreneurship connection on the companion.
 
+**Safe trim:** Replace partner review with the private self-check. Protect one polished post, two rough plans, the safety revision, entrepreneurship connection, and collection.
+
 ## Support and Absence Route
 
-- Provide two fictional customer choices and a word bank.
+- Provide the ready-to-use customer choices “a student preparing for a performance” and “an adult client with a busy workday.” Offer the headlines “Pause and Breathe,” “One-Minute Reset,” or “Make Space to Refocus.”
 - Accept the printed service map or an equivalent digital path; do not grade visual polish.
 - Allow private feedback when sharing wellness content would be uncomfortable.
 - The workbook images and two-page companion are the full independent route.

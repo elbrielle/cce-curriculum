@@ -64,4 +64,4 @@ How could that person's needs change the revised design?
 
 [[lines: 3]]
 
-Use this frame if helpful: The ____ needs to know ____. I would revise ____ because ____.
+Use this frame if helpful: The [professional] needs to know [information]. I would revise [design choice] because [reason].

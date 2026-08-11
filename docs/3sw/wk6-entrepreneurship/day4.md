@@ -2,7 +2,7 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Entrepreneurship
+- **Topic:** Venture Pitch
 - **Objective:** Students will build a clear venture brief, communicate the evidence in a short pitch, and connect a visible action to a professional characteristic.
 - **TEKS:** d(3)(I), d(4)(F)
 - **Demonstration of Learning:** Group brief plus each student’s speaking/written record, one peer note, and work-ethic response.
@@ -19,6 +19,7 @@
 
 - Post the Venture Brief and recovery rubric.
 - Print Venture Brief pp. 1-2 once per team and pp. 3-4 once per student. The full four-page file is the digital and absence route; do not print four pages per student.
+- Keep Day 3 groups when possible. Default to teams of three or four. Assign four jobs: problem and customer evidence, offer and customer choice, first-version challenge and needs, and pitch question/transition. In a team of three, combine the last two jobs.
 - Set a 90-second pitch timer and a 30-second question/transition timer.
 - Count groups. Whole-class timing supports up to eight groups in 24 minutes. If there are more, use recorded, private, or written submissions; do not promise two supervised rooms when only one teacher is available.
 - Prepare a written or recorded route. Public speaking performance is not the grade.
@@ -40,7 +41,7 @@ Groups complete six sections:
 5. call and evidence; and
 6. people, tools, time, or money needed for a first version.
 
-At minute 9, stop decorating. Assign speaking jobs and rehearse once. A student may record, submit a written pitch, or present privately with the same evidence.
+Each student first shares their Day 3 call. The group uses the recorded comparison rather than a popularity vote to confirm one idea. At minute 9, stop decorating. Assign speaking jobs and rehearse once. A student may record, submit a written pitch, or present privately with the same evidence.
 
 ### 3. Pitch rotation — 24 minutes
 
@@ -71,6 +72,8 @@ Do not ask why perseverance matters “more” for owners. The work may look dif
 Strong responses name an observable action: arrived prepared, used accurate evidence, practiced, accepted a revision, completed a promised task, or answered honestly when evidence was missing.
 
 Do not score confidence, accent, volume beyond audibility, design polish, or whether the group’s venture wins approval.
+
+Use two build laps. At minute 6, check problem, customer, and offer. At minute 12, check that every student has an individual speaking or written job and one likely question. If a quarter of the teams cannot point to evidence behind the call, pause for one worked evidence sentence before pitches begin. Collect team pp. 1-2 by group name and individual pp. 3-4 by student name. If the class has more than eight teams or loses five minutes, move remaining pitches to the recorded, private, or written route; preserve the individual work-ethic close and collection.
 
 ## Support and absence route
 

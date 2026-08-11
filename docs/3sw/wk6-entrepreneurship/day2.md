@@ -2,22 +2,23 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Entrepreneurship
+- **Topic:** Idea Generation
 - **Objective:** Students will write a clear problem statement, generate at least 10 possible business ideas, and select two using visible criteria.
 - **TEKS:** d(3)(I)
-- **Demonstration of Learning:** FYF pp. 234-235 or the matching support packet pages.
+- **Demonstration of Learning:** A problem statement, at least 10 ideas, two screened ideas with reasons, and one dropped-idea reason on FYF pp. 234-235 or the matching support pages.
 <!-- CCE DAILY CONTRACT END -->
 | | |
 |---|---|
 | **Time** | 50 minutes |
 | **Objective** | Write a clear problem statement, generate at least 10 possible business ideas, and select two using visible criteria |
 | **TEKS** | d(3)(I) |
-| **Evidence** | FYF pp. 234-235 or the matching support packet pages |
+| **Evidence** | Problem statement, 10+ ideas, two screened ideas with reasons, and one dropped-idea reason on FYF pp. 234-235 or the matching support pages |
 | **Sources** | FYF pp. 234-235, “Million Dollar Idea” Steps 1-3 |
 
 ## Before class
 
 - Post the two licensed workbook pages. Keep the support packet as a no-workbook or enlarged-scaffold route; do not assign both.
+- Default quantities: one FYF workbook per student. If a student needs the alternate route, provide one four-page support packet to that student instead of the workbook pages.
 - Put the five-minute countdown where every student can see it.
 - Keep the problem menu visible for students who need a starting point.
 
@@ -64,6 +65,8 @@ Common repair prompts:
 - “Who has the problem?”
 - “What is the smallest version you could build?”
 - “What does the customer do now?”
+
+Use two laps. During the sprint, check only idea count; during screening, check whether each reason uses a criterion. If a quarter of the class is polishing one idea instead of generating, reset the five-minute sprint and remind students that phrases count. Trim the final verbal share before trimming the two screened ideas or dropped-idea reason.
 
 ## Support and absence route
 

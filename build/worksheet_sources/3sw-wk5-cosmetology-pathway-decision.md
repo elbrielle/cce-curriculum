@@ -44,7 +44,7 @@ Recommended route: ______________________________________
 
 Use one verified fact and one unanswered question in a 3- or 4-sentence recommendation.
 
-Use this frame if helpful: I recommend ____ because the evidence says ____. Before enrolling, Alex still needs to ask ____ about ____.
+Use this frame if helpful: I recommend [route] because the evidence says [verified fact]. Before enrolling, Alex still needs to ask [source] about [question].
 
 [[lines: 6]]
 

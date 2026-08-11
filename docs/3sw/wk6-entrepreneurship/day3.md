@@ -2,7 +2,7 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Entrepreneurship
+- **Topic:** Idea Testing
 - **Objective:** Students will compare two ideas using three tests and make an evidence-based Move Forward, Needs Work, or Abandon It decision.
 - **TEKS:** d(3)(I)
 - **Demonstration of Learning:** Completed stress test and 6-8 sentence decision.
@@ -20,6 +20,7 @@
 - Post the licensed workbook pages and support packet.
 - Open the ungraded Canvas practice check.
 - Tell students that the workbook skips from Step 5 to Step 7; nothing is missing.
+- Default quantities: one FYF workbook per student, or the same support packet the student used on Day 2. One device per student or pair supports the optional practice check; the paper close is equal.
 
 ## 50-minute flow
 
@@ -60,6 +61,8 @@ There is no single correct venture or verdict. Strong evidence:
 - does not treat enthusiasm as proof of demand; and
 - connects the verdict to the comparison.
 
+Use one lap per test. Check problem fit first, customer choice second, and build challenge third. If a quarter of the class writes opinions without comparing the two ideas, pause after the current test and model one evidence sentence with the fixed charger example. Trim the small-group share to one partner before trimming the written call; the practice check may move to early-finisher or catch-up time.
+
 ## Support and absence route
 
-Use one question at a time, sentence frames, oral rehearsal, or speech-to-text. The support packet is the full independent route. A student absent for group compare completes one written comparison using the teacher model or another fictional idea.
+Use one question at a time, sentence frames, oral rehearsal, or speech-to-text. The support packet is the full independent route. A student missing Day 2 may use this fixed pair: students need charged devices; compare a checkout charging station with classroom delivery of charged power banks. The student still completes all three tests and the written call.

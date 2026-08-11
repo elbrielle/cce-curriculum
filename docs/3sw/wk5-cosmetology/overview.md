@@ -36,6 +36,7 @@ The supplemental Xello **Exploring Career Factors** lesson is not assigned in th
 - FYF pp. 128-131 as the default SFX work surface
 - Optional three-page no-workbook SFX Texture Concept Brief; its final page preserves the full-size sketch area from FYF p. 129
 - One-page SFX Build and Test Record
+- One index card per student for the Day 1 individual career-task check
 - Optional enlarged/no-workbook SFX Quality Check and Revision Plan
 - Texas Cosmetology Operator Evidence Guide
 - Cosmetology Pathway Decision
@@ -47,7 +48,7 @@ The supplemental Xello **Exploring Career Factors** lesson is not assigned in th
 
 ## Career and Source Notes
 
-Current TDLR guidance requires a Cosmetology Operator applicant to complete a **1,000-hour course at a licensed school**, pass written and practical exams, and apply for the license. As of the August 10, 2026 source check, the application fee is $50, applicants must be at least 17, and the license is valid for two years. TDLR does not list the cosmetology apprenticeship route that appeared in the earlier lesson draft.
+For the in-state beginner route used in this lesson, current TDLR guidance requires a Cosmetology Operator applicant to complete a **1,000-hour course at a licensed school**, pass written and practical exams, and apply for the license. As of the August 11, 2026 source check, the application fee is $50, applicants must be at least 17, and the license is valid for two years. Do not substitute an informal salon apprenticeship for this scenario; out-of-state, equivalence, and other special application cases are outside the lesson.
 
 The current Irving ISD High School CTE page lists Cosmetology at Cardwell Career Preparatory Center, Irving High School, MacArthur High School, and Nimitz High School. The 2026 workbook describes a student-run salon and a Cosmetology Operator License connection. Teachers should present those workbook details as program context and use the current coursebook, counselor, or CTE office for admission, transportation, schedule, hours, and current student-enterprise details.
 

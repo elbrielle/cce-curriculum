@@ -19,9 +19,9 @@
 
 ## Before Class
 
-- Make the dry relief route available at every campus. Prepare cardstock, tissue, foil, paper shapes, yarn, tape, scissors, and trays.
-- Digital design in Canva or Adobe Express is an equal route when the student creates visible layers and labels.
-- Post the one-page SFX Build and Test Record; do not reprint the Day 1 concept work.
+- Make the dry relief route available at every campus. Provide one cardstock board and at least three approved dry layer pieces per student, one scissors and one tape roll per pair, and one supply tray plus one return bin per table of four.
+- Assign one materials manager and one cleanup checker per table. Digital design in Canva or Adobe Express is an equal route; provide one device per digital-route student.
+- Print one SFX Build and Test Record per student; do not reprint the Day 1 concept work.
 - Run an adhesive lab only after reviewing the product label and SDS, allergy procedures, ventilation, approved surface, supervision, storage, and cleanup. Adhesive work is never the only route.
 - Do not require food, seeds, pasta, lentils, loose salt, latex, or eyelash glue.
 
@@ -41,13 +41,13 @@ Project FYF p. 130, then show the campus route:
 
 Do not model classroom material on a person, even as a joke or quick demonstration.
 
-## Activity 2: Build the Model (25 min)
+## Activity 2: Build the Model (22 min)
 
 Students follow the texture map. At minute 10, check that the main visual structure is present. At minute 18, check that at least three layers overlap. Students who finish early add smaller details only when the main texture remains clear.
 
 **Teacher monitoring:** Score the evidence, not the fabrication method. A paper relief, digital model, and approved adhesive model can all demonstrate planning, layering, texture, testing, and revision.
 
-## Activity 3: Test and Revise (7 min)
+## Activity 3: Test, Revise, and Clean (10 min)
 
 Students view the model from three feet away and use the one-page record to capture:
 
@@ -57,11 +57,15 @@ Students view the model from three feet away and use the one-page record to capt
 
 Students may draw the finished model or record the private Canvas filename of a photo. A photo is optional, not required. Students finish the short career connection: why an SFX artist would document the change before the next build or production step.
 
+Use the complete frame: “An SFX artist would document this change because ___.” Materials managers return tools and loose supplies; cleanup checkers verify the table and floor before the exit check.
+
 ## Exit Check (5 min)
 
 Scenario: A model has many details, but the main texture is hard to identify. What should the artist change first, and why?
 
 **DELIVERABLE:** Model plus the one-page build/test record and career connection.
+
+**Safe trim:** Remove extra detail. Protect one test, one revision, the career connection, and cleanup.
 
 ## Support and Absence Route
 

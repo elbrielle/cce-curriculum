@@ -28,7 +28,8 @@ Students use the *Find Your Future* “Million Dollar Idea” process to find a 
 
 - *Find Your Future* p. 221, Business, Marketing, and Finance opener
 - *Find Your Future* pp. 234-237, “Million Dollar Idea”
-- *Find Your Future* pp. 252-254, workbook district context and App Exploration
+- *Find Your Future* pp. 252-253, workbook district context
+- *Find Your Future* p. 254, optional H&L App Exploration
 - CCE Entrepreneurship Opportunity Guide
 - CCE Million Dollar Idea support and catch-up packet
 - CCE Venture Brief and Individual Pitch Record
@@ -69,7 +70,7 @@ The [3SW assessment map](../../resources/six-weeks-assessment-map.md) already pl
 
 1. Put the paired Teacher and Student pages in one chronological Canvas module.
 2. Post the six CCE PDFs. FYF is the default on Days 2-3. Print the four-page support packet only as the no-workbook or enlarged-scaffold route, never in addition to the workbook.
-3. Open the licensed FYF pages and Xello Scholarship guide before class.
+3. Open the licensed FYF pages and Xello Scholarship guide before class. Day 1 uses FYF p. 221 and the embedded pp. 252-253 district context; p. 254 is the optional H&L extension.
 4. Test the official Xello video on the student network; the embedded guide is the equal text route.
 5. Prepare a visible five-minute timer for the idea sprint and a 90-second timer for pitches.
 6. For Day 4, print Venture Brief pp. 1-2 once per team and pp. 3-4 once per student. Use the written or recorded route when the number of groups cannot fit, or for absence, anxiety, speech-language support, or scheduling problems.

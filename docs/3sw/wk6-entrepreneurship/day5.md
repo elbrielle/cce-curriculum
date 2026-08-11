@@ -17,7 +17,7 @@
 
 ## Before class
 
-- Post the Dallas County Living-Cost Planning Guide and Personal Budget and Xello Scholarship Plan. Print budget pp. 1-2. Print p. 3 only for the no-device Xello direction or catch-up route.
+- Post the Dallas County Living-Cost Planning Guide and Personal Budget and Xello Scholarship Plan. Default quantities: one Budget Plan pp. 1-2 per student, one Living-Cost Guide per pair or a projected copy, one calculator per student or pair, and one district-connected device per student for Xello. Print p. 3 only for the no-device Xello direction or catch-up route.
 - Open the official Xello Scholarships Guide and 2:02 student video.
 - Check the Xello Completion Standards report before class.
 - Keep Xello personal profile answers private. Do not require screenshots.
@@ -69,6 +69,8 @@ Budget math must satisfy:
 The revised total must be $3,450 or less. There is no single correct set of category choices. Strong reasoning keeps the place, household, date, and measure attached and recognizes that family needs change the estimate.
 
 In Xello, honest “I don’t know” answers are better than invented profile information. Scholarship matches are possibilities, not awards or guaranteed income.
+
+Use two budget laps. First check totals and the four source labels; then check the revised total and revenue explanation. If a quarter of the class exceeds $3,450 because the same category was counted twice, pause for one whole-class total check. In Xello, verify access by minute 3 and move unresolved logins to the supervised catch-up list without collecting profile answers. Trim the optional video and whole-group share before trimming the revised budget, revenue explanation, or protected 20-minute Xello block.
 
 ## Support and absence route
 

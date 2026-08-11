@@ -2,7 +2,7 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Entrepreneurship
+- **Topic:** Business Opportunities
 - **Objective:** Students will define entrepreneurship and identify opportunities in several fields, including one field of personal interest.
 - **TEKS:** d(3)(I)
 - **Demonstration of Learning:** Completed Entrepreneurship Opportunity Guide.
@@ -13,13 +13,13 @@
 | **Objective** | Define entrepreneurship and identify opportunities in several fields, including one field of personal interest |
 | **TEKS** | d(3)(I) |
 | **Evidence** | Completed Entrepreneurship Opportunity Guide |
-| **Sources** | FYF p. 221 and pp. 252-254; current Irving ISD High School CTE page |
+| **Sources** | FYF p. 221 and pp. 252-253; FYF p. 254 optional H&L extension; current Irving ISD High School CTE page |
 
 ## Before class
 
-- Post the Entrepreneurship Opportunity Guide and licensed FYF opener.
+- Print one two-page Entrepreneurship Opportunity Guide per student and collect it at the end of class. If the teacher already has a working private digital annotation-and-collection route, post the same file as an equal option; do not build a new destination for this lesson. Also post licensed FYF p. 221 and pp. 252-253.
 - Open the current Irving ISD High School CTE page.
-- If using H&L, test the Business cluster launch. The fixed guide remains the no-login route.
+- If using optional FYF p. 254/H&L App Exploration, test the Business cluster launch. The fixed guide remains the complete no-login route.
 
 ## 50-minute flow
 
@@ -31,7 +31,7 @@ Students think silently, then each partner gets 30 seconds. Listen for students 
 
 ### 2. Read the cluster opener — 10 minutes
 
-Use FYF p. 221 to name the work of business analysts, financial examiners, e-commerce specialists, marketers, and entrepreneurs. Define entrepreneurship plainly: an owner finds a problem or unmet need, organizes a response, and takes responsibility for the result.
+Use FYF p. 221 to name the work of business analysts, financial examiners, e-commerce specialists, marketers, and entrepreneurs. Scan FYF pp. 252-253 for the workbook's Irving program examples; label them curriculum context, not a promise of current placement or certification. Define entrepreneurship plainly: an owner finds a problem or unmet need, organizes a response, and takes responsibility for the result.
 
 Do not present every self-employed person as successful or every idea as an opportunity. Customer need, cost, competition, rules, and delivery still matter.
 
@@ -60,6 +60,8 @@ Prompt: “Your cousin has $3,000 and wants to start a business. Name one field,
 Full evidence includes a problem or need, an offer, and an owner responsibility. “Restaurant,” “YouTube,” or “make money” alone is not an opportunity description.
 
 Accept a wide range of fields. Do not score whether the teacher personally likes the business. Score the connection between problem, customer, offer, and responsibility.
+
+Use two laps. At minute 6 of the cross-field list, check that each row names a need and offer. At minute 12, check for four different fields and one owner responsibility per row. If a quarter of the class has four versions of the same business, pause for one contrasting field example, then restart the list. Trim the optional whole-group share before trimming the completed guide or close.
 
 ## Support and absence route
 
