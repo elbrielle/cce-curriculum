@@ -21,10 +21,18 @@
 
 ## Before Class
 
-1. Place each team's map, tokens, one-page scenario card, and Lab p. 2 run log together. Return Lab p. 4 to each student.
-2. Post the five-step classroom protocol and one completed example.
+1. Return one map, four tokens, one token tray, and Lab p. 2 per four-student team. Return Lab p. 4 to each student.
+2. Project the one-page scenario cards or print one page per team. Default printing is zero. Project the supplied five-step model and completed log below.
 3. Keep the teacher key available. Do not ask students to improvise real emergency or radio-failure procedures.
 4. Label the activity clearly: this protocol is inspired by airport communication but is not FAA phraseology or operational training.
+
+## Supplied Call and Completed Log
+
+**Call:** Controller: “Alpha, move from Gate 1 to the R1 hold marker by Taxi A.” Mover: “Alpha repeats: Gate 1 to R1 hold marker by Taxi A.” Controller: “Confirmed.” Recorder logs complete route/no conflict.
+
+**Log:** Goal—keep Bravo still while Alpha moves. Breakdown—both tokens entered Taxi A. Revision—add a hold marker and name the first aircraft. Evidence—second run moved one aircraft at a time.
+
+**Non-example:** “Plane, go over there.”
 
 ## Warm-Up: Find the Ambiguity (5 min)
 
@@ -118,6 +126,10 @@ Multiple sequences may work. The answer must keep one aircraft still, use an ava
 - Run 3 monitors route revision after a constraint changes.
 - Stop unsafe physical behavior around materials, but do not claim the tabletop model teaches real aviation safety clearance.
 - If time slips, run two scenarios and complete the third as a written individual scenario. Do not remove the timed iteration plan.
+- Before starting the clock, one team locates Name, Route, Repeat, Confirm, and Log in the supplied call.
+- Check Run 1 for a full route and repeat/confirm, Run 2 for one aircraft held with a logged reason, and Run 3 for a revision tied to the changed constraint.
+- If two teams move without repeat/confirm, stop the clock and rehearse the model once.
+- Never trim the individual p. 4 timed plan, new-scenario response, five-minute collection, or materials reset.
 
 ## Supports and Equal Routes
 
@@ -126,3 +138,4 @@ Multiple sequences may work. The answer must keep one aircraft still, use an ava
 - Paper, LEGO, and Lucid maps use the same cards and log.
 - An absent student uses the model map and written scenario packet; no team performance is required for the individual evidence.
 - Optional extension: students invent a fourth constraint but must also write the expected safe classroom sequence and teacher key before another team runs it.
+- The recorder returns the map, p. 2 log, and four tokens to the tray. Each student submits or saves p. 4 before devices close.

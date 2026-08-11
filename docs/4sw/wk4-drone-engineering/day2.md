@@ -2,8 +2,8 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Emerging Careers
-- **Objective:** Students will research and evaluate emerging occupations related to career interest areas, describe preparation requirements, and classify careers as high skill, high wage, or high demand using evidence from Emerging Careers.
+- **Topic:** Drone-Enabled Work
+- **Objective:** Students will evaluate three drone-enabled occupations, describe preparation, and classify each as high skill, high wage, or high demand using dated occupation evidence.
 - **TEKS:** d(1)(D), d(2)(A), d(5)(B)
 - **Demonstration of Learning:** Five-question Drone-Enabled Occupations evidence check with source labels, preparation, classification, tradeoff, and verification step.
 <!-- CCE DAILY CONTRACT END -->
@@ -73,6 +73,10 @@ Students state which occupation Taylor should investigate first, one tradeoff, a
 - Cartographer/photogrammetrist: bachelor's; $78,380; 6%; 1,000 openings. Under the rule: high skill, high wage, high demand.
 - Aerospace engineering/operations technologist or technician: associate typical; $79,830; 8%; 900 openings. Under the rule: high skill, high wage, high demand.
 - Annual openings prevent the false conclusion that the fastest growth rate always creates the most openings.
+- **Lap 1, minute 14:** sample five screens or responses. If two students detach a number from its year/geography/measure, pause and relabel one value together.
+- **Lap 2, minute 30:** require a number or preparation/duty fact beside each classification. If fewer than four of five sampled students cite evidence, model one Yes and one No before the Quiz.
+- **Safe trim:** skip whole-group reporting and send students directly to Q5. The Q5 recommendation and feedback repair are the exit check; do not require a second copy of the same answer.
+- **Collection:** Canvas Quiz feedback is the response home. With no Canvas, use the five projected prompts and collect one half-sheet or record a private oral check; do not print another packet.
 
 ## Supports and Equal Routes
 

@@ -21,11 +21,17 @@
 
 ## Before Class
 
-1. Choose the primary build route. LEGO is recommended when available, but paper and Lucid are equal.
-2. If using paper, print Lab pp. 1-2 once per team and pp. 3-4 once per student. Do not print four full packets per team.
-3. Post one completed fictional model and one non-example.
-4. Prepare four aircraft tokens per team. Sticky notes, counters, or paper labels work.
+1. Make teams of four. Assign planner, builder, mover, and checker/recorder; combine roles in a team of three.
+2. Choose one build route per team. Prepare one baseplate, one 11×17 sheet, or one Lucid board per team; four labeled aircraft tokens in one tray or envelope; and, for paper, one pencil and two markers.
+3. For paper, print Lab pp. 1-2 once per team and p. 3 once per student today. Hold p. 4 for Day 4. Default digital printing is zero.
+4. Project the supplied fictional model and non-example below.
 5. Do not use live airport maps as the only model. The student packet contains the complete route and vocabulary.
+
+## Supplied Model and Non-Example
+
+**Ready model:** R1 and R2 are two nonintersecting parallel runways. Taxi A connects Gates 1-2 to R1; Taxi B connects Gates 3-4 to R2. A tower marker can see both runways. The predicted conflict is where Taxi A meets the shared gate lane, so the revision adds a hold marker and a one-aircraft-at-a-time rule.
+
+**Non-example:** two unlabeled lines, one gate, no taxi route, no north arrow, and aircraft that must jump across the page.
 
 ## Warm-Up: Who Needs the Map? (5 min)
 
@@ -85,11 +91,13 @@ The teacher monitors one criterion per lap:
 3. visible conflict point; and
 4. usable alternate route.
 
+Before releasing materials, each team points to the runway, taxi route, gate, tower, north arrow, and alternate route on the supplied model. At plan minute 6, check all labels, two movement arrows, and one predicted conflict. At build minute 9, check complete routes and the alternate. If teams begin decorating before routes work, pause materials and require the readiness checklist. If time slips, use a flat paper model; protect the labeled sketch, conflict/revision, individual p. 3 note, readiness test, and cleanup.
+
 ## Activity 4: Readiness Check and Cleanup (5 min)
 
 Teams test one aircraft from Gate 1 to R1, then from R1 back to a gate. They correct one blocked or confusing route.
 
-Before cleanup, the recorder confirms that the map, sketch, and aircraft tokens are stored together or saved in the approved Canvas location. A photo is optional and must not include student faces or names.
+Before cleanup, the recorder places Lab pp. 1-2, the labeled model, and all four tokens in the team tray or saves them in the approved Canvas location. Each student submits or saves p. 3. A photo is optional and must not include student faces or names.
 
 ## Exit Ticket: Individual Design Note (5 min)
 

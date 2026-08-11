@@ -21,11 +21,19 @@
 
 ## Before Class
 
-1. Print the three-page Survey Project packet once per team or assign one shared digital copy. Post the Day 1 Student Guide.
+1. Make teams of four. Print the three-page Survey Project packet once per team, or assign one shared editable digital copy per team. Do not give every student a duplicate packet.
 2. Open FYF p. 149 and pp. 166-167.
 3. Keep the survey fictional. Students do not collect names, addresses, contact information, schedules, or real responses.
-4. Teach four accountable jobs: facilitator/timekeeper, question writer, choice checker, and campaign designer.
-5. Open the unpublished Canvas practice Quiz for each student's closing check.
+4. Teach four accountable jobs: facilitator/timekeeper, question writer, choice checker, and campaign designer. Put one labeled collection tray or digital folder in place for the single team copy.
+5. Plan for one device per student during the five-minute private Quiz. Keep one half-sheet per student only for a Canvas outage.
+
+## Supplied Model
+
+- **Useful item:** “How many days each week would you use a bus after 6 p.m.? 0; 1-2; 3-4; 5 or more; Not sure.”
+- **Non-example:** “Don't you agree the terrible evening bus schedule must change?”
+- **Complete explanation:** “The first question is useful because it asks one measurable thing. We revised the ranges so every realistic answer had one place.”
+
+Students identify the neutral wording, complete choices, and the private detail the useful item does not request.
 
 ## Warm-Up: Visible and Hidden Transportation Work (5 min)
 
@@ -115,6 +123,10 @@ If Canvas is unavailable, read the four questions aloud and collect a half-sheet
 - A strong short-answer item asks for an explanation, barrier, or proposed change.
 - Reject prompts that request a home address, work schedule, phone number, immigration status, or another unnecessary identifier.
 - A city may use patterns to adjust routes, hours, stops, access, or communication. Student recommendations must remain tied to the fictional evidence.
+- **Lap 1, team minute 6:** check an exact fictional audience, one need, and at least three neutral questions.
+- **Lap 2, team minute 15:** check both question types, distinct choices, and no identifiers.
+- If a third of teams have fewer than six usable questions, pause for a two-minute question-stem sort. Those teams may finish five polished questions, but they still need both question types, privacy, campaign choice, a visible revision, and the individual Quiz.
+- Trim public sharing first. Protect the Quiz, visible revision, and collection of the single team copy.
 
 ## Supports and Equal Routes
 
@@ -123,3 +135,4 @@ If Canvas is unavailable, read the four questions aloud and collect a half-sheet
 - A student without a team completes a shortened five-question survey and the same individual quality check.
 - An absent student uses the embedded FYF images, the fixed audience choices, and the paper or Canvas packet.
 - Optional extension: build the survey in an approved form tool using fictional questions only. Do not distribute it or collect real responses.
+- The recorder places the named packet in the period tray. The materials lead returns pencils and closes the shared file.

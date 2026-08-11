@@ -2,8 +2,8 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Emerging Careers
-- **Objective:** Students will research and evaluate emerging occupations, describe preparation requirements, identify transferable skills, and classify careers using evidence from Emerging Careers.
+- **Topic:** Evidence Synthesis
+- **Objective:** Students will evaluate a drone-enabled occupation, describe preparation, classify the career with dated evidence, and defend a design/rule/test recommendation using transferable skills.
 - **TEKS:** d(1)(D), d(2)(A), d(4)(B), d(5)(B)
 - **Demonstration of Learning:** Private individual 16-point Drone Systems Evidence Brief with visible self-score and revision.
 <!-- CCE DAILY CONTRACT END -->
@@ -23,7 +23,7 @@
 
 1. Post the Evidence Brief, rubric, and private unpublished Assignment.
 2. Return or post the Day 1 blueprint, Day 2 occupation guide, Day 3 decision tree, and Day 4 model/run log.
-3. Prepare one complete model and one non-example with unsupported “drone pilot salary” claims.
+3. Use the supplied supported/unsupported examples in the current Student Guide. Reopen the Day 1 or Day 4 supplied model only for a missing prior artifact; no teacher-created samples are required.
 4. Keep H&L App Exploration optional after submission. Do not require ratings, favorites, or live Hat titles.
 
 ## Warm-Up: Find the Unsupported Claim (5 min)
@@ -34,9 +34,9 @@ Students correct:
 
 Expected corrections: occupation-specific data is required; indoor-only operations are outside Part 107; outdoor educational operation rules must be identified; and a pathway prepares rather than guarantees.
 
-## Activity 1: Evidence Gallery Without Presentations (5 min)
+## Activity 1: Audit Two Supplied Evidence Moves (5 min)
 
-Display two blueprint revisions and two test-log revisions without student names. Students record one design idea and one testing idea that could transfer to their own evidence. This replaces five four-minute team presentations and protects individual work time.
+Project the two supplied examples in the Student Guide. Students identify why the test claim is supported and repair the generic salary/Part 107 claim. This replaces teacher-created samples and five four-minute team presentations while protecting individual work time.
 
 ## Activity 2: Reopen the Evidence (8 min)
 
@@ -51,6 +51,8 @@ Students reopen the fixed occupation, rule, design, and test evidence they will 
 All three occupations may meet the course rule. The reasoning and labels, not variety, are the evidence.
 
 ## Activity 3: Write the Four-Part Brief (25 min)
+
+Use visible checkpoints: Part 1 complete by minute 6, Part 2 by minute 12, Part 3 by minute 18, and Part 4 by minute 25. A complete, evidence-bounded sentence for each job is stronger than extra decorative detail.
 
 ### Part 1: User need and design response
 
@@ -102,6 +104,12 @@ Recommended 16-point minor after local assignment-group verification:
 - below 10 follows campus policy
 
 Score evidence and reasoning. Do not score aviation interest, live flight, hardware access, public speaking, artistic quality, H&L activity, English mechanics unless meaning is unclear, or submission mode.
+
+- **Lap 1, minute 18:** verify that each student has a named source/label and is not using a generic “drone pilot salary.” If three or more students repeat the unsupported claim, pause and repair the label together.
+- **Lap 2, minute 32:** check Parts 1-2; provide the fixed model evidence only for a missing prior artifact, not as a replacement for available student work.
+- **Lap 3, minute 43:** check all four parts and the self-score. Require one visible revision before submission.
+- **Safe trim:** remove the gallery and shorten the warm-up to one corrected claim. Protect all four rubric criteria, self-score, revision, and private submission.
+- **Submission check:** confirm a private Canvas submission or collect the four-page paper brief. Do not use a Discussion or public gallery as the evidence home.
 
 ## Supports and Equal Routes
 

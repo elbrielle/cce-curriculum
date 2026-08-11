@@ -2,8 +2,8 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Preparation
-- **Objective:** Students will research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Career Preparation.
+- **Topic:** Drone Rules
+- **Objective:** Students will describe current technical, certification, and training requirements by distinguishing indoor, outdoor educational, and Part 107 operating routes and the Remote Pilot pathway.
 - **TEKS:** d(2)(A)
 - **Demonstration of Learning:** Four-question operating-rule evidence check plus a team readiness gate when a live, simulator, or tabletop test route is used.
 <!-- CCE DAILY CONTRACT END -->
@@ -23,7 +23,7 @@
 
 1. Decide whether the lesson will use live indoor microdrones, a simulator, or the tabletop route. All are equal.
 2. Live flight requires campus approval, teacher authorization/training, the exact model manual/SOP, inspected equipment, a clear indoor zone, and an immediate stop procedure.
-3. Post page 1 of the Decision and Readiness guide. Print page 2 once per team only if a test route is used. Page 3 is the no-Canvas individual route.
+3. Post page 1 of the Decision and Readiness guide. If a test route is used, make teams of four and print page 2 once per team. Page 3 is the no-Canvas individual route.
 4. Post current FAA Educational Users, Part 107, indoor-operations, and Remote Pilot Certificate sources and open the unpublished four-question practice Quiz.
 5. Do not use a student signature as the safety gate. Teacher observation of the readiness check controls access.
 
@@ -71,11 +71,10 @@ The class uses only the selected route.
 
 ### Live indoor microdrone route
 
-Teacher models the exact campus/model SOP. Students rotate through readiness roles without powering the aircraft until cleared:
+Teacher models the exact campus/model SOP. In teams of four, students rotate through readiness roles without powering the aircraft until cleared:
 
-- equipment checker;
+- equipment and battery checker;
 - boundary/people checker;
-- battery/charging observer;
 - controller/connection checker; and
 - stop-procedure reader.
 
@@ -109,6 +108,11 @@ Then name one campus/model-specific safety check that federal rule knowledge doe
 - Outdoor school flight: identify the organization's legal operating route; do not assume recreational status. Use FAA Educational Users guidance and district administration.
 - Paid roof inspection: Part 107 is the likely starting rule; additional airspace, aircraft, operation, state/local, privacy, and site rules may apply.
 - Stop any launch when the exact hardware, battery, connection, boundary, or supervision check fails.
+- **Lap 1, minute 15:** sample four situation decisions. If two students say “educational means exempt,” stop and replay the organization/legal-route check.
+- **Lap 2, minute 32:** check Quiz repairs for the difference between federal rules and campus/model approval. Require one current source or authorized person in each repaired explanation.
+- **Readiness checkpoint, minute 43:** every team has four named roles, one stop call, and a teacher-cleared route. If any check is unresolved, mark “stop/fix” and use tabletop on Day 4.
+- **Safe trim:** omit the live/simulator handling rehearsal, not the four-question rule check or stop procedure. No student charges, swaps, or troubleshoots a battery; power-down and charging remain teacher tasks.
+- **Collect/retain:** keep one readiness page per team for Day 4 and the private Quiz result per student. Reset tabletop pieces or controller/simulator stations before dismissal.
 
 ## Supports and Equal Routes
 

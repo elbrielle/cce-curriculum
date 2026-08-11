@@ -2,8 +2,8 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters and identify skills that transfer among a variety of careers using evidence from Career Opportunities.
+- **Topic:** Systems Iteration
+- **Objective:** Students will identify career opportunities and explain transferable skills by using three controlled trials to revise one system variable and connect the skill to two occupations.
 - **TEKS:** d(1)(C), d(4)(B)
 - **Demonstration of Learning:** Team three-trial systems log plus an individual evidence-based iteration and two-occupation skill-transfer response.
 <!-- CCE DAILY CONTRACT END -->
@@ -22,10 +22,10 @@
 ## Before Class
 
 1. Confirm the same Day 3 safety gate. If any live-flight condition is missing, use simulator or tabletop without reducing the evidence.
-2. Print pp. 1-2 of the test packet once per team and p. 3 once per student, or open the Canvas activity.
-3. Set one short test zone per team. Do not build a five-station obstacle course that requires twelve three-minute flights in a 35-minute block.
+2. Default paper route: teams of four receive one copy of pp. 1-2; each student receives p. 3 or uses the private Canvas text/upload response. Do not assign every student an annotation copy of the team pages.
+3. Set one tabletop zone per team: one paper aircraft token, one boundary/route sheet, one target card, and one timer visible to the class. A teacher-cleared live aircraft or simulator may replace one tabletop zone; teams do not wait in a long equipment rotation.
 4. Post the four-step communication card: goal, action, result, stop/revise.
-5. Prepare one completed run log and one model showing that faster time is not automatically better evidence.
+5. Project the supplied completed model trial in the Student Guide. It shows that faster time is not automatically better evidence and supplies the absence/recovery data.
 
 ## Warm-Up: What Counts as Improvement? (5 min)
 
@@ -89,6 +89,11 @@ A team can either make another fast run or pause to check why the target evidenc
 - Mixed results are valid when the student explains the tradeoff.
 - Transfer earns d(4)(B) only when the response connects the skill to at least two occupations or career contexts.
 - Stop live operation immediately for people entering the zone, unsafe battery/equipment condition, lost control/connection, or failure to follow the model-specific stop procedure.
+- **Checkpoint, minute 13:** every team has four roles, a route, and one success criterion. If not, assign roles and begin with the supplied model rather than losing test time.
+- **Checkpoint, minute 29:** two trials and two one-variable revisions are recorded. If fewer than three teams are ready, stop all routes and complete Trial 3 as a written prediction using the same evidence fields.
+- **Checkpoint, minute 42:** every student has started the individual response. Prompt for a trial number and observable result before accepting “it worked.”
+- **Safe trim:** use the supplied third model trial or a written third trial; never remove the individual iteration, tradeoff, or two-occupation transfer.
+- **Cleanup/collection:** one team packet is collected once. Each student submits p. 3 by private text/upload or turns in the paper page. Return tokens and cards to the team envelope; the teacher powers down and stores live hardware.
 
 ## Supports and Equal Routes
 

@@ -22,9 +22,15 @@
 ## Before Class
 
 1. Open the existing private 100-point Minor Assignment, four-page plan, and rubric. The importer refuses to proceed unless this assignment remains in Minor Assessments (40%). Keep it unpublished for cloning.
-2. Return or post Day 2 and Day 4 evidence.
-3. Prepare one aviation model and one transportation-career alternative. Students do not have to pretend aviation is their personal goal.
+2. Return each named paper plan and Day 4 evidence, or open the same private digital route. Default printing is zero; print only a replacement plan when needed. Keep one device per student for digital submission.
+3. Project the supplied model below. Students do not have to pretend aviation is their personal goal.
 4. Do not schedule every team for a live three-minute presentation. It consumes the block and makes speaking confidence part of the evidence.
+
+## Supplied Model
+
+> My current direction is aircraft mechanic because I am interested in inspecting and documenting systems. BLS reports a May 2024 U.S. median annual wage of $78,680 for aircraft mechanics and service technicians; this is not DFW starting pay. A common preparation route is an FAA-approved maintenance program, but I still need to verify the current Irving course sequence with my counselor. By Friday, I will compare the district course description with the FAA mechanic page for 20 minutes and save two labeled facts. Before my next counseling meeting, I will write one question about enrollment and bring the source. During Grade 9, I will complete the confirmed first course or use my equal backup of comparing Drone Engineering if access changes. My support is my counselor; if the course is unavailable, I will revise the plan after checking the current coursebook.
+
+Students locate source accuracy, route reasoning, three stages, support, backup, and the revision condition.
 
 ## Warm-Up: Direction, Not a Lifetime Promise (5 min)
 
@@ -36,15 +42,9 @@ Students choose one current statement:
 
 They cite one fact from Day 2. Changing direction is allowed when evidence changes.
 
-## Activity 1: Two Fast Team Showcases (8 min)
+## Activity 1: Model and Fast CFU (8 min)
 
-Select two teams with different map or communication revisions. Each receives:
-
-- 1 minute to show the map;
-- 1 minute to model one classroom call; and
-- 1 minute to explain the revision and evidence.
-
-After both, every student writes one design or communication idea that transferred across teams. Other teams do not lose class time carrying models or waiting to present. Teams may upload an optional photo or short recording without student faces or names.
+Read the supplied model once. Students mark the career fact and complete source label, the tradeoff or unknown, all three time horizons, the equal backup, and the revision condition. Then each student writes one simulation skill that could transfer to a career plan. No student presentation is required.
 
 ## Activity 2: Reopen the Evidence (10 min)
 
@@ -96,6 +96,14 @@ Students use the four criteria:
 4. **Support and revision:** support, obstacle, backup, and revision condition are specific.
 
 Students circle one level, revise the weakest section, and submit privately by Canvas text, file upload, media recording, or paper.
+
+Checkpoints protect the rubric work:
+
+- plan minute 7: career direction, work/preparation evidence, and full source label;
+- plan minute 14: three actions with time, completion sign, and authorized support/source; and
+- review minute 3: obstacle, equal backup, revision condition, self-score, and visible revision.
+
+If one third of the class lacks a rubric job, pause for a three-minute model audit. Trim partner or public sharing first. Never cut a rubric criterion or the final five-minute private submission. Unfinished in-class work returns through the same private Assignment or paper recovery tray during the next teacher-provided window; it is not automatic homework.
 
 ## Submission Check
 

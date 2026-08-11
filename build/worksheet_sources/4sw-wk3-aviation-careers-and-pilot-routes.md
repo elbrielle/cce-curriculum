@@ -45,7 +45,7 @@ Current Air Force information states a 10-year active-duty service commitment af
 
 No route is automatically better. A defensible recommendation keeps the **step**, **tradeoff**, and **verification source** together.
 
-**Use this frame:** “The ____ route may fit Sam because ____. A tradeoff is ____. Before deciding, Sam must verify ____ with ____.”
+**Use this frame:** “The [route] may fit Sam because [evidence]. A tradeoff is [benefit or limit]. Before deciding, Sam must verify [unknown] with [authorized source or person].”
 
 ## Local boundary
 

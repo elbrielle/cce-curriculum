@@ -21,11 +21,17 @@
 
 ## Before Class
 
-1. Post or project the two-page dated reference. Print only if students need a personal copy.
-2. Open the four-page Aviation Route and Action Plan. Students complete the Day 2 section now and finish the same artifact on Day 5.
+1. Post or project the two-page dated reference. Default printing is zero; print one per table only if projection or digital access is not usable.
+2. Open the four-page Aviation Route and Action Plan. The default digital route uses one device per student. For paper, print one plan per student, label it, and retain it in the class folder through Day 5.
 3. Open the FAA careers, pilot-school, and ATC qualification pages plus the BLS career pages as teacher verification sources.
 4. Keep H&L optional. Do not assume the named aviation Hats exist or provide DFW-localized pay.
 5. If offering *Flight Line Fixers*, embed the five licensed images and keep the observation key on the teacher page.
+
+## Supplied Model
+
+> Sam should investigate the civilian route first because Sam wants to compare local training schedules before making a service decision. One entry step is choosing an FAA-certificated instructor or school; a Part 141 school uses an FAA-approved structured curriculum, but that does not make it universally better. A tradeoff is that training time and cost vary. Before deciding, Sam should verify certificate requirements on the FAA Become a Pilot page and ask a counselor which Irving course is currently available.
+
+Students locate the route, evidence, tradeoff, unknown, and authorized verification source.
 
 ## Warm-Up: One Career, Different Preparation (5 min)
 
@@ -104,6 +110,10 @@ There is no single preferred route. Full credit depends on accurate evidence and
 - The broader combined pilot median and the airline-pilot median are different measures; do not substitute them for commercial-pilot pay.
 - FAA ATC requirements are current and selective. Avoid turning the list into a promise or a student medical self-screen.
 - A military route is service first. A civilian route may carry substantial cost, but the lesson does not publish unstable universal price estimates.
+- **Lap 1, minute 10:** check one exact career title, daily-work fact, preparation fact, full pay label, and source.
+- **Lap 2, pilot-route minute 12:** check an entry step, tradeoff, unknown, and authorized source.
+- If students choose from preference alone, pause and color-code claim, evidence, and unknown in the supplied model.
+- Trim the optional Irving/JROTC discussion first and turn it into the local verification question. Protect the recommendation, source/date labels, and plan retention.
 
 ## Optional Flight Line Fixers Extension
 
@@ -123,3 +133,4 @@ Students observe and cite image evidence. They do not diagnose a real aircraft, 
 - Provide bilingual labels for route, preparation, commitment, verify, and tradeoff.
 - Students may write, type, or record the three-sentence recommendation privately.
 - An absent student uses the same posted reference and completes the Day 2 plan section without H&L, open search, or a partner.
+- Students save the digital plan in the named private location or place the named paper plan in the class folder. They do not submit the Minor early.

@@ -22,4 +22,4 @@ These are classroom constraints, not real FAA procedures. Use the same five step
 |---|---|
 | R1 is closed before movement begins. Alpha and Bravo must use an available route without crossing another moving aircraft. One gate is blocked. **Success:** use the alternate route, change the sequence, and explain the revision. | Alpha and Bravo request movement at the same time. Taxi A is blocked. Decide who moves first, write the full five-step classroom call, and set one two-minute improvement goal. |
 
-**Useful language:** “Alpha, move from ____ to ____ by ____.” · “I repeat: ____.” · “Confirmed / Correct the route to ____.”
+**Useful language:** “Alpha, move from [start] to [destination] by [route].” · “I repeat: [complete route].” · “Confirmed / Correct the route to [destination].”

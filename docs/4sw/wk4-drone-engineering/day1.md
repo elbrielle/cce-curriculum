@@ -2,8 +2,8 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Clusters
-- **Objective:** Students will explore and describe the CTE career clusters and identify career opportunities within one or more career clusters using evidence from Career Clusters.
+- **Topic:** Engineering Systems
+- **Objective:** Students will describe Engineering work and identify career opportunities by translating a fictional wildlife need into a labeled system blueprint and occupation work product.
 - **TEKS:** d(1)(B), d(1)(C)
 - **Demonstration of Learning:** Individual FYF p. 105 wildlife-tracking blueprint with six labeled system jobs plus one evidence-based redesign and occupation work product.
 <!-- CCE DAILY CONTRACT END -->
@@ -23,7 +23,7 @@
 
 1. Post the Student Guide and licensed FYF images. Use FYF p. 105 as the default blueprint surface.
 2. Post the three-page Design Companion as the no-workbook, enlarged, or annotation route. Do not print it automatically for students using FYF p. 105.
-3. Prepare one labeled model and one generic unlabeled non-example.
+3. Project the supplied wetland-bird system model in the Student Guide. Its six job labels are a finished example for a different mission; students must adapt the jobs rather than copy its components. Use the supplied non-example, “camera, propeller, battery,” to show that names without jobs are not complete labels.
 4. Keep H&L optional. The workbook opener and fixed role card are the complete career route.
 5. Do not search for a random conservation-drone image during class. Use the licensed scenario and the CCE model so source and copyright boundaries are clear.
 
@@ -93,6 +93,10 @@ Students add this final evidence to the blueprint or companion rather than compl
 - Good redesign evidence may include open shoreline, salt/sand, darkness, nesting behavior, limited power access, long distance, or wildlife disturbance.
 - Accept several occupations when the job is defensible: robotics/aerospace engineer, aerospace engineering technician, mapping technician, cartographer/photogrammetrist, electronics technician, wildlife biologist, or data analyst.
 - Do not require GPS tags, thermal cameras, satellite links, or solar power as universally correct. These are options whose fit and constraints must be tested.
+- **Lap 1, minute 12:** check four students or teams for a requirement that can be observed or tested. If two or more write only a feature name, stop and rebuild one “must + job” requirement together.
+- **Lap 2, minute 27:** check all six system jobs. Give one prompt only: “What does this part do for the user?” If a student is behind, provide the six job headings but not the solution components.
+- **Safe trim:** shorten the warm-up share and use one changed-mission sentence, but protect all six labels, one redesign, and the occupation work product.
+- **Collect/retain:** students keep the FYF blueprint through Day 5. The private practice Assignment holds the required four requirements, assumption/tradeoff, changed-mission response, and occupation work product; a photo of FYF p. 105 may be attached. Paper-companion students turn in the companion once.
 
 ## Supports and Equal Routes
 

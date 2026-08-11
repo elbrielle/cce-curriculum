@@ -40,7 +40,7 @@ Why that source or person is authorized:
 
 **Source and access date:** ___________________________________________________
 
-**Use this frame:** “The ____ route may fit Sam because ____. A tradeoff is ____. Before deciding, Sam must verify ____ with ____.”
+**Use this frame:** “The [route] may fit Sam because [evidence]. A tradeoff is [benefit or limit]. Before deciding, Sam must verify [unknown] with [authorized source or person].”
 
 [[pagebreak]]
 
@@ -149,4 +149,4 @@ Revision I made after self-scoring:
 
 Private submission: [ ] Canvas text  [ ] file  [ ] media  [ ] paper
 
-**Planning frame:** “By ____, I will ____ for ____ minutes. I will know it is complete when ____. If ____ happens, I will ____ instead.”
+**Planning frame:** “By [date], I will [action] for [minutes]. I will know it is complete when [evidence]. If [obstacle] happens, I will [equal backup] instead.”

@@ -83,7 +83,7 @@ Revision completed or still needed:
 
 [[lines: 4]]
 
-**Use this frame:** “A ____ uses the ____ to ____. We changed ____ because the test showed ____.”
+**Use this frame:** “A [aviation role] uses the [map feature] to [task]. We changed [feature or sequence] because the test showed [evidence].”
 
 ## Day 3 readiness check
 
@@ -97,11 +97,11 @@ Revision completed or still needed:
 
 One copy per student
 
-**Use this frame:** “Our goal was ____ during the ____-minute block. The log shows ____, so next we would ____.”
+**Use this frame:** “Our goal was [goal] in the [2- or 3]-minute block. [Evidence] showed [result], so next we would [adjustment].”
 
 Specific improvement goal:
 
-[[lines: 2]]
+[[lines: 1]]
 
 Exact two- or three-minute block used: ________________________________________
 
@@ -111,11 +111,11 @@ Person, tool, or evidence that supported the change:
 
 Evidence the change helped or did not help:
 
-[[lines: 3]]
+[[lines: 2]]
 
 Next adjustment if the scenario ran again:
 
-[[lines: 2]]
+[[lines: 1]]
 
 ## New scenario
 

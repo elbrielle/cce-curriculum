@@ -66,15 +66,15 @@ Next test: __________________________________________________________________
 
 The strongest result was Trial ____ because:
 
-[[lines: 2]]
+[[lines: 1]]
 
 Our evidence is limited because:
 
-[[lines: 2]]
+[[lines: 1]]
 
 One role rotation or communication change that improved the system:
 
-[[lines: 2]]
+[[lines: 1]]
 
 ### Team check
 
@@ -83,6 +83,8 @@ One role rotation or communication change that improved the system:
 - [ ] Recorded one usable observation
 - [ ] Used goal, action, result, stop/revise communication
 - [ ] Changed one main variable at a time
+
+**Recovery model - use only for absence, equipment failure, or a written third trial:** T1 direct/18 s - target seen, boundary crossed. T2 wider/24 s - stayed inside, usable observation. T3 same safe route + stop/check/26 s - stayed inside, target and handoff complete. Speed did not decide the strongest result.
 
 [[pagebreak]]
 

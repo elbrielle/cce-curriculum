@@ -45,7 +45,7 @@ Evidence that worker would need:
 
 Circle the defect in the non-example: **leading wording / incomplete choices / private information**
 
-**Use this frame:** “The question is useful because ____. We revised ____ so the answers would ____.”
+**Use this frame:** “The question is useful because [reason]. We revised [question or choice] so the answers would [improvement].”
 
 [[pagebreak]]
 
