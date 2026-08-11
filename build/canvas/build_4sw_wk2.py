@@ -369,18 +369,52 @@ async def upsert_annotation(client, description, attachment_id):
         ),
         data=data,
     )
-    if (
-        assignment.get("published")
-        or float(assignment.get("points_possible") or 0) != 0
-        or assignment.get("grading_type") != "percent"
-        or not assignment.get("omit_from_final_grade")
-        or int(assignment.get("annotatable_attachment_id") or 0) != int(attachment_id)
-    ):
+    assignment = await common.api(
+        client,
+        "GET",
+        f"/courses/{COURSE_ID}/assignments/{assignment['id']}",
+    )
+    source_file = await common.api(client, "GET", f"/files/{attachment_id}")
+    annotation_attachment_id = int(
+        assignment.get("annotatable_attachment_id") or 0
+    )
+    annotation_file = (
+        await common.api(client, "GET", f"/files/{annotation_attachment_id}")
+        if annotation_attachment_id
+        else {}
+    )
+    if annotation_file and not annotation_file.get("locked"):
+        annotation_file = await common.api(
+            client,
+            "PUT",
+            f"/files/{annotation_attachment_id}",
+            data={"locked": "true"},
+        )
+    failures = {
+        "published": assignment.get("published") is not False,
+        "points_possible": float(assignment.get("points_possible") or 0) != 0,
+        "grading_type": assignment.get("grading_type") != "percent",
+        "omit_from_final_grade": assignment.get("omit_from_final_grade") is not True,
+        "annotatable_attachment_missing": not annotation_attachment_id,
+        "source_file_locked": source_file.get("locked") is not True,
+        "annotation_file_locked": annotation_file.get("locked") is not True,
+        "annotation_filename": annotation_file.get("filename")
+        != source_file.get("filename"),
+        "annotation_size": int(annotation_file.get("size") or -1)
+        != int(source_file.get("size") or -2),
+    }
+    failed = [name for name, value in failures.items() if value]
+    if failed:
         raise RuntimeError(
-            f"Annotation invariant failed: published={assignment.get('published')}, "
+            f"Annotation invariant failed ({', '.join(failed)}): "
+            f"published={assignment.get('published')}, "
             f"points={assignment.get('points_possible')}, grading={assignment.get('grading_type')}, "
             f"omit={assignment.get('omit_from_final_grade')}, "
-            f"attachment={assignment.get('annotatable_attachment_id')}"
+            f"source_file={attachment_id}, attachment={annotation_attachment_id}, "
+            f"source_name={source_file.get('filename')!r}, "
+            f"attachment_name={annotation_file.get('filename')!r}, "
+            f"source_size={source_file.get('size')}, "
+            f"attachment_size={annotation_file.get('size')}"
         )
     return assignment
 
@@ -843,6 +877,16 @@ async def main():
         annotation = await common.api(
             client, "GET", f"/courses/{COURSE_ID}/assignments/{annotation['id']}"
         )
+        annotation_file = await common.api(
+            client,
+            "GET",
+            f"/files/{annotation['annotatable_attachment_id']}",
+        )
+        annotation_source = await common.api(
+            client,
+            "GET",
+            f"/files/{files['COURSE']['id']}",
+        )
         plan_assignment = await common.api(
             client, "GET", f"/courses/{COURSE_ID}/assignments/{plan_assignment['id']}"
         )
@@ -859,6 +903,11 @@ async def main():
             or float(annotation.get("points_possible") or 0) != 0
             or annotation.get("grading_type") != "percent"
             or not annotation.get("omit_from_final_grade")
+            or annotation_file.get("locked") is not True
+            or annotation_source.get("locked") is not True
+            or annotation_file.get("filename") != annotation_source.get("filename")
+            or int(annotation_file.get("size") or -1)
+            != int(annotation_source.get("size") or -2)
         ):
             raise RuntimeError("4SW Wk2 annotation invariant failed")
         if (
