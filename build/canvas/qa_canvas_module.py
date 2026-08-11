@@ -7,6 +7,40 @@ BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
 SUBMISSION_LINK_MARKER = 'cce-mapped-assignment-link-v1'
 
+WEEK_SPECS = {
+    "6SW Wk5: Job Search, Applications, and Interviews": {
+        "items": 20,
+        "pages": 10,
+        "assignment_titles": [
+            "PRACTICE: Job Search and Posting Evidence",
+            "PRACTICE: Tailored Cover Letter",
+            "PRACTICE: Application and References",
+            "PRACTICE: Interview Readiness Planner",
+            "MAJOR 1: Job Skills, Application, and Mock Interview Portfolio",
+        ],
+        "major_title": "MAJOR 1: Job Skills, Application, and Mock Interview Portfolio",
+        "major_group": "Major Assessments (60%)",
+        "submission_markers": 1,
+        "quiz_title": "PRACTICE QUIZ: Interview Readiness Check",
+        "question_names": [
+            "Q1 - screening",
+            "Q2 - application",
+            "Q3 - references",
+            "Q4 - appearance",
+            "Q5 - privacy",
+        ],
+        "file_names": {
+            "6sw-wk5-job-search-and-posting-evidence.pdf",
+            "6sw-wk5-cover-letter-simulation.pdf",
+            "6sw-wk5-application-and-references.pdf",
+            "6sw-wk5-interview-readiness.pdf",
+            "6sw-wk5-mock-interview-and-thank-you.pdf",
+            "6sw-wk5-job-skills-rubric.pdf",
+        },
+        "folder_suffix": "CCR Materials/6SW/Wk5",
+    }
+}
+
 
 async def api(client, path):
     response = await client.get(f"{BASE}/api/v1{path}")
@@ -38,6 +72,7 @@ async def main():
         headers={"Authorization": f"Bearer {token}"}, timeout=60
     ) as client:
         module = await api(client, f"/courses/{COURSE_ID}/modules/{module_id}")
+        spec = WEEK_SPECS.get(module.get("name"))
         items = await paged(client, f"/courses/{COURSE_ID}/modules/{module_id}/items")
         problems = []
         pages = []
@@ -131,6 +166,10 @@ async def main():
                             "omit_from_final_grade"
                         ),
                         "submission_types": assignment.get("submission_types"),
+                        "annotatable_attachment_id": assignment.get(
+                            "annotatable_attachment_id"
+                        ),
+                        "assignment_group_id": assignment.get("assignment_group_id"),
                     }
                 )
                 continue
@@ -164,6 +203,7 @@ async def main():
                     "item_id": item["id"],
                     "position": item["position"],
                     "url": page["url"],
+                    "title": item.get("title"),
                     "published": page["published"],
                     "body_chars": len(body),
                     "submission_markers": body.count(SUBMISSION_LINK_MARKER),
@@ -215,6 +255,139 @@ async def main():
                     "all_files_locked": not unlocked,
                 }
             )
+        external_quiz = None
+        if spec:
+            if len(items) != spec["items"]:
+                problems.append(
+                    f"expected {spec['items']} module items; found {len(items)}"
+                )
+            if len(pages) != spec["pages"]:
+                problems.append(f"expected {spec['pages']} pages; found {len(pages)}")
+            item_types = [item.get("type") for item in items]
+            expected_types = ["SubHeader", "Page", "Page", "Assignment"] * 5
+            if item_types != expected_types:
+                problems.append(f"module item type order mismatch: {item_types}")
+
+            assignments = [
+                entry for entry in interactives if entry.get("type") == "Assignment"
+            ]
+            assignment_titles = [entry.get("title") for entry in assignments]
+            if assignment_titles != spec["assignment_titles"]:
+                problems.append(
+                    f"assignment title/order mismatch: {assignment_titles}"
+                )
+            for entry in assignments:
+                title = entry.get("title") or ""
+                if title.startswith("PRACTICE:"):
+                    if float(entry.get("points_possible") or 0) != 0:
+                        problems.append(f"practice assignment has points: {title}")
+                    if entry.get("grading_type") != "percent":
+                        problems.append(
+                            f"practice assignment lost its submission-preserving percentage setting: {title}"
+                        )
+                    if entry.get("omit_from_final_grade") is not True:
+                        problems.append(f"practice assignment counts toward grade: {title}")
+                if title == spec["major_title"]:
+                    if float(entry.get("points_possible") or 0) != 100:
+                        problems.append("mapped Major is not worth 100 points")
+                    if entry.get("grading_type") != "points":
+                        problems.append("mapped Major is not points-graded")
+                    if entry.get("omit_from_final_grade") is True:
+                        problems.append("mapped Major is omitted from final grade")
+                    groups = await paged(client, f"/courses/{COURSE_ID}/assignment_groups")
+                    group = next(
+                        (
+                            candidate
+                            for candidate in groups
+                            if candidate.get("id") == entry.get("assignment_group_id")
+                        ),
+                        None,
+                    )
+                    if not group or group.get("name") != spec["major_group"]:
+                        problems.append(
+                            f"mapped Major is outside {spec['major_group']}"
+                        )
+
+            marker_pages = [page for page in pages if page["submission_markers"]]
+            marker_count = sum(page["submission_markers"] for page in pages)
+            if marker_count != spec["submission_markers"]:
+                problems.append(
+                    f"expected {spec['submission_markers']} submission marker; found {marker_count}"
+                )
+            if marker_pages and not all(
+                "STUDENT: 6SW Wk5 Day 5" in (page.get("title") or "")
+                for page in marker_pages
+            ):
+                problems.append("submission marker appears outside the Day 5 Student Guide")
+
+            file_names = {record.get("name") for record in files}
+            if file_names != spec["file_names"]:
+                problems.append(
+                    f"referenced Week 5 file set mismatch: {sorted(file_names)}"
+                )
+            if len(folders) != 1 or not (
+                folders[0].get("name") or ""
+            ).endswith(spec["folder_suffix"]):
+                problems.append(
+                    f"Week 5 files are outside the exact locked folder: {folders}"
+                )
+
+            for entry in assignments:
+                title = entry.get("title") or ""
+                submission_types = set(entry.get("submission_types") or [])
+                required_types = {
+                    "student_annotation",
+                    "online_upload",
+                    "online_text_entry",
+                }
+                if title == spec["major_title"]:
+                    required_types.add("media_recording")
+                if not required_types.issubset(submission_types):
+                    problems.append(
+                        f"assignment is missing an approved private route: {title} {sorted(submission_types)}"
+                    )
+                if entry.get("annotatable_attachment_id") is None:
+                    problems.append(f"assignment has no annotatable packet: {title}")
+
+            quizzes = await paged(client, f"/courses/{COURSE_ID}/quizzes")
+            quiz_matches = [
+                quiz for quiz in quizzes if quiz.get("title") == spec["quiz_title"]
+            ]
+            if len(quiz_matches) != 1:
+                problems.append(
+                    f"expected one {spec['quiz_title']!r}; found {len(quiz_matches)}"
+                )
+            else:
+                quiz = await api(
+                    client, f"/courses/{COURSE_ID}/quizzes/{quiz_matches[0]['id']}"
+                )
+                questions = await paged(
+                    client,
+                    f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions",
+                )
+                names = [question.get("question_name") for question in questions]
+                if quiz.get("published"):
+                    problems.append(f"linked practice Quiz is published: {quiz.get('id')}")
+                if quiz.get("quiz_type") != "practice_quiz":
+                    problems.append("linked Quiz is not a practice Quiz")
+                if quiz.get("allowed_attempts") != -1:
+                    problems.append("linked practice Quiz is not unlimited-attempt")
+                if quiz.get("show_correct_answers") is not True:
+                    problems.append("linked practice Quiz hides correct answers")
+                if quiz.get("shuffle_answers") is not False:
+                    problems.append("linked practice Quiz shuffles the fixed answer order")
+                if names != spec["question_names"]:
+                    problems.append(f"linked practice Quiz order mismatch: {names}")
+                external_quiz = {
+                    "id": quiz.get("id"),
+                    "title": quiz.get("title"),
+                    "published": quiz.get("published"),
+                    "quiz_type": quiz.get("quiz_type"),
+                    "allowed_attempts": quiz.get("allowed_attempts"),
+                    "show_correct_answers": quiz.get("show_correct_answers"),
+                    "shuffle_answers": quiz.get("shuffle_answers"),
+                    "question_names": names,
+                }
         result = {
             "module": {
                 "id": module_id,
@@ -226,6 +399,7 @@ async def main():
             "interactives": interactives,
             "referenced_files": files,
             "referenced_folders": folders,
+            "external_quiz": external_quiz,
             "problems": problems,
             "passed": not problems,
         }
