@@ -128,6 +128,12 @@ Bottom line: Which of your three careers has the BEST combination of HIGH salary
 
 Students turn the five-page packet into the class tray or named digital folder. The teacher returns the same packet on Day 5 for the Career Fit Reflection.
 
+## Access and Recovery
+
+- **Absent today:** Use the embedded failed-test images, the Day 2 HQIM records, and the fixed career card inside the BLS guide to complete the same four-row chart and pages 1-4. Do not assign a replacement worksheet.
+- **Live source unavailable:** Use the fixed career card in the BLS guide and keep the source/date visible. The evidence job does not change.
+- **Day 2 packet also missing:** Give the student the career model and supervised catch-up route. The student should not invent a salary, preparation requirement, or outlook figure.
+
 ---
 
 ## Differentiation
