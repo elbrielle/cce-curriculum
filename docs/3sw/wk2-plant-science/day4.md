@@ -16,8 +16,9 @@
 
 ## Before class
 
-- Post the Emerging Plant-Tech Evidence Guide, two-page evaluation, and rubric.
-- Open the unpublished retryable practice quiz.
+- Give each student the saved infographic, the two-page evaluation printed double-sided, a pencil, and one device for the practice quiz and submission.
+- Post the Emerging Plant-Tech Evidence Guide digitally; default print count is 0. For a no-device class, print one guide per pair. Post the rubric digitally.
+- Open the unpublished retryable practice quiz and combined Major assignment. Keep the evaluation individual; pairs may rehearse the parent/specialty distinction.
 - The optional BLS Agricultural Engineers video sits inside a closed disclosure. Test it or leave it closed; the fixed guide carries every required fact.
 - Do not send students to job boards or an open search.
 
@@ -30,7 +31,7 @@
 | 10 | Read the three fixed specialty cards |
 | 20 | Complete the individual evaluation |
 | 5 | Retry the Canvas evidence quiz and revise |
-| 3 | Add the evaluation to the evidence packet |
+| 3 | Submit the saved infographic and evaluation together once |
 
 ## Evidence key
 
@@ -47,6 +48,13 @@ Full-credit reasoning connects a named technology to a changed task, uses two da
 ## Canvas interaction
 
 The four-question practice quiz checks parent-occupation limits, median pay, the meaning of emerging work, and the agriculture-engineering technology link. Attempts are unlimited and feedback directs students back to the guide. The written evaluation remains the durable evidence.
+
+## Monitor, pivot, and trim
+
+- Chunk the evaluation into technology -> task -> two dated facts -> limit, then Active Monitor each link.
+- By minute 16, students should have a specialty, parent occupation, and technology-to-task chain. If the parent median becomes a local starting salary, pause and model the complete limitation frame.
+- By minute 36, the 4-6 sentences should contain two dated facts and one data limit.
+- If time is short, cut the optional video first. If needed, replace the Canvas practice quiz with the paper self-check. Protect the evaluation, one revision, and combined Major submission.
 
 ## Supports and fallback
 

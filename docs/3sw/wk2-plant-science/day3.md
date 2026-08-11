@@ -16,10 +16,10 @@
 
 ## Before class
 
-- Confirm the district-approved Canva or Adobe route only if offering it.
-- Keep paper ready from the start.
-- Post the rubric and open the unpublished Canvas evidence-packet assignment.
-- Project a complete model with a clear reading order. It does not need elaborate artwork.
+- Give each student the completed Day 2 plan and either one district device or one sheet of paper/chart paper with markers. Keep paper visible from the start.
+- Confirm the district-approved Canva or Adobe route only if offering it. Do not require a personal login.
+- Post the rubric digitally; default print count is 0. Open only the unpublished transfer check today. The Major opens after Day 4.
+- Project the supplied teacher-only four-step process wireframe. Keep the artifact individual; use pairs of two for the 60-second reader test, with teacher/self-check as the equal alternate.
 
 ## 50-minute flow
 
@@ -29,7 +29,7 @@
 | 8 | Model accuracy, readability, contrast, and source/privacy boundaries |
 | 25 | Build in the student's chosen equal route |
 | 7 | Run a 60-second reader test and make one revision |
-| 5 | Compare how one communication skill works in two careers and submit |
+| 5 | Save the infographic and submit only the private two-career transfer check |
 
 ## Minimum artifact
 
@@ -48,9 +48,16 @@ To demonstrate d(4)(B), every student also names one communication skill and exp
 
 ## Canvas submission
 
-The Major assignment accepts file upload, text entry, or media recording. Students may submit the infographic today and add the Day 4 evaluation before final scoring. Paper work can be photographed/scanned or collected as a labeled original. Canvas replaces the retired Google Classroom submission route.
+Students save the infographic with their name and keep it for Day 4. They do **not** submit it to the Major today. Paper work can be photographed/scanned after Day 4 or collected as a labeled original. Canvas replaces the retired Google Classroom submission route.
 
 The separate **FORMATIVE: Communication Skill Transfer** check is the collection home for the d(4)(B) response. Students submit two sentences as text or a short private recording. This check is not another major-grade criterion; the major rubric continues to score the infographic and Day 4 evaluation.
+
+## Monitor, pivot, and trim
+
+- Chunk the build with a visible midpoint and Active Monitor one criterion at a time.
+- By minute 13, students should have a title, four regions, and reading path. If template browsing is replacing content work, move students to the supplied wireframe.
+- By minute 32, four ordered steps, one visual and short explanation per step, and two scenario facts should be visible. Run the 60-second reader test and require one visible revision.
+- If time is short, cut decorative polish first. Protect the reader test, one revision, saved artifact, and private transfer check.
 
 ## Supports and fallback
 

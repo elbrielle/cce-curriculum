@@ -16,9 +16,10 @@
 
 ## Before class
 
-- Post the two licensed client-brief pages, two-page planner, and student-visible rubric.
-- Show one simple teacher-created or licensed process infographic.
-- Have pencils and markers ready. No platform login is needed.
+- Give each student FYF workbook pp. 91-92, the two-page planner printed double-sided, a pencil, and markers or colored pencils.
+- Post the student-visible rubric digitally; default print count is 0.
+- Project the supplied teacher-only four-step process wireframe in the Canvas Facilitator Guide. No design login is needed.
+- Keep the plan individual. Use pairs of two only for the brief trace and reader-path rehearsal.
 - State that Sunny Fields Farm is fictional. Workbook facts remain scenario details.
 
 ## 50-minute flow
@@ -43,6 +44,13 @@
 - One statement naming what an Agricultural Communications Specialist produces and who uses it
 
 The custom planner intentionally adds only a roomy content plan and full-page sketch. Students write the two interview questions in the large boxes already printed on FYF p. 92. Do not print a duplicate page for work the workbook already supports.
+
+## Monitor, pivot, and trim
+
+- Think-Pair-Share the brief trace, then Active Monitor the planner.
+- By minute 13, every student should have marked the role, audience, crop choices, and required content. If students add outside facts, reset with: "Use only what the client supplied."
+- By minute 30, all four stages and two client facts should be planned. If the reader path is unclear, point to the supplied wireframe and ask where the eye goes next.
+- If time is short, cut the share-out or narrated rehearsal. Protect the four-step plan, two facts, full-page sketch, and two interview questions.
 
 ## Supports and fallback
 

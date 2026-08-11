@@ -44,20 +44,24 @@ Highest median: ____________________  Fastest growth: ____________________  Most
 - U.S. Bureau of Labor Statistics, Veterinary Assistants and Laboratory Animal Caretakers; Veterinary Technologists and Technicians; Veterinarians. Pay: May 2024. Outlook and openings: 2024-2034.
 - *Find Your Future*, Irving ISD district pathway pages 100-101.
 
-## What the numbers do and do not show
+## Day 1: Choose one role
 
 **Word bank:** median = mediana · preparation = preparación · openings = vacantes
 
-**Frame:** The career with the most openings may have lower median pay because ____.
+**Frame:** I would investigate [career] because the work includes [daily task] and the preparation requires [education or training].
+
+Role I would investigate: __________________________________________________
+
+One daily task:
+
+[[lines: 1]]
+
+One preparation requirement:
+
+[[lines: 2]]
+
+### One number question
 
 Why can the career with the most annual openings have the lowest median pay?
 
-____________________________________________________________________________
-
-____________________________________________________________________________
-
-What is one fact you would still need before choosing a route for yourself?
-
-____________________________________________________________________________
-
-____________________________________________________________________________
+[[lines: 1]]

@@ -29,7 +29,7 @@ Day 5 consolidates the week. The Xello lesson itself is not treated as an initia
 
 | Day | Core experience | Durable evidence |
 |---|---|---|
-| 1 | Plant careers + *Grow System Rescue* | First-repair decision, two clues, labeled improvement |
+| 1 | Plant careers + *Grow System Rescue* | FYF first-repair decision, two clues, and labeled improvement; private role-duty-preparation check |
 | 2 | Read the Farm-to-Table client brief and plan | Four-step content plan, full-page sketch, and Agricultural Communications Specialist role connection |
 | 3 | Build, reader-test, and revise | Farm-to-Table infographic draft plus private formative skill-transfer check |
 | 4 | Evaluate emerging plant-tech work | Individual technology-to-task evaluation and practice quiz |
@@ -44,6 +44,7 @@ Day 5 consolidates the week. The Xello lesson itself is not treated as an initia
 - Emerging Plant-Tech Evidence Guide and two-page evaluation
 - Student-visible 16-point rubric
 - Retryable Canvas practice quiz with misconception feedback
+- Private 0-point Day 1 Plant Career Connection text check; no additional worksheet or packet
 - Private Canvas evidence-packet and Xello-reflection assignments
 - Licensed Xello 80-minute facilitator package, original seven-slide template for teacher reference, and optional extension handouts; Canvas supplies the corrected ClassLink launch and lesson-aligned exit
 

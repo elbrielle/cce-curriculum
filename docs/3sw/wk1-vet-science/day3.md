@@ -12,18 +12,27 @@
 
 ## 50-minute plan
 
-- **Warm-up -- 5 minutes:** Separate observation from diagnosis.
+- **Stop and Jot -- 4 minutes:** Separate an observation from a diagnosis.
 - **Patient charts -- 8 minutes:** Read Leo and Barnaby on FYF pp. 96-97 before deciding.
-- **Reference check -- 12 minutes:** Compare each patient with the correct species reference on p. 98.
-- **Workbook decision -- 15 minutes:** Complete the notes and decision on p. 99.
+- **Reference check -- 10 minutes:** Compare each patient with the correct species reference on p. 98.
+- **Workbook decision -- 18 minutes:** Complete the notes and decision on p. 99.
 - **Practice check -- 5 minutes:** Use the retryable Canvas quiz and its feedback.
-- **Exit -- 5 minutes:** Name the technician's work product and defend which patient should be seen first.
+- **Submit and reset -- 5 minutes:** Name the technician's work product, submit or store p. 99, and return materials.
 
 ## Key and role boundary
 
 Barnaby is the intended first priority. The strongest evidence cluster is repeated unproductive retching, a painful distended abdomen, a heart rate of 150, and a weak pulse. Leo's cloudy eyes and dull skin match the supplied shedding reference. Students observe, compare, prioritize, and report; they do not diagnose, prescribe, or advise treatment.
 
 FYF p. 99 is the default writing surface and has enough room for both patients and the decision. The custom two-page triage record is an optional scaffold or absence route, not a default print requirement.
+
+## Next-day setup and monitoring
+
+- **Students:** one FYF workbook opened to pp. 96-99 and one pencil per student; one device per student for the practice quiz. Print the optional two-page triage record only for assigned students or an absent student without the workbook.
+- **Teacher:** one display device with pp. 96-99 and the unpublished practice quiz. Students reason privately; an optional partner check may ask students to point to evidence without sharing personal information.
+- **Lap 1:** after the patient charts, check that observations are recorded before any priority choice. If more than one-fourth of students diagnose, restate the boundary: observe, compare, prioritize, report.
+- **Lap 2:** on p. 99, require the correct species reference and two case details. If a student relies on appearance alone, prompt, “Which range or observation supports that?”
+- **Pivot:** if devices fail, preserve FYF p. 99 and move the ungraded quiz to the next available class opening; do not replace the workbook decision with another worksheet.
+- **Trim:** shorten the optional partner defense or move the practice quiz. Preserve the workbook decision and five-minute submit/reset block.
 
 ## Support and recovery
 

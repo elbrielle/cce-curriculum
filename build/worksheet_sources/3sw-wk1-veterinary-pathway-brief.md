@@ -12,7 +12,7 @@ orientation: portrait
 
 ## Decision question
 
-Should a fictional student with an interest in animal care investigate the Animal Science or Veterinary Science opportunities described for Nimitz in *Find Your Future*? Use the week's career, pathway, triage, and skill evidence. A supported “not yet” or “no” can earn full credit.
+Should a fictional student with an interest in animal care investigate the **Animal Science** opportunity described for Nimitz in *Find Your Future*? Use the week's career, pathway, triage, and skill evidence. A supported “not yet” or “no” can earn full credit.
 
 ## 1. Choose the current career route
 
@@ -34,7 +34,7 @@ One May 2024 U.S. median or 2024-34 outlook fact:
 
 ## 2. Map the transition
 
-One Nimitz Animal Science or Veterinary Science opportunity from FYF pp. 100-101 that matters to this student:
+One Nimitz Animal Science opportunity from FYF pp. 100-101 that matters to this student:
 
 [[lines: 2]]
 

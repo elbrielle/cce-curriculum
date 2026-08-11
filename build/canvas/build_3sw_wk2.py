@@ -6,6 +6,7 @@ import mimetypes
 import re
 import sys
 from pathlib import Path
+from urllib.parse import urlencode
 
 import httpx
 
@@ -14,6 +15,7 @@ COURSE_ID = 98060
 MODULE_NAME = "3SW Wk2: Plant Science and Agricultural Communication"
 QUIZ_TITLE = "PRACTICE: Emerging Plant-Tech Evidence Check"
 PACKET_TITLE = "MAJOR 1: Farm-to-Table and Emerging Plant-Tech Evidence"
+CAREER_TITLE = "PRACTICE: Plant Career Connection"
 TRANSFER_TITLE = "FORMATIVE: Communication Skill Transfer"
 REFLECTION_TITLE = "PRACTICE: Xello Biases Reflection"
 ROOT = Path(__file__).resolve().parents[2]
@@ -48,14 +50,15 @@ async def ensure_module(client):
     modules = await paged(client, f"/courses/{COURSE_ID}/modules")
     found = next((value for value in modules if value["name"] == MODULE_NAME), None)
     if found:
-        if found.get("published"):
-            return await api(
-                client,
-                "PUT",
-                f"/courses/{COURSE_ID}/modules/{found['id']}",
-                data={"module[published]": "false"},
-            )
-        return found
+        return await api(
+            client,
+            "PUT",
+            f"/courses/{COURSE_ID}/modules/{found['id']}",
+            data={
+                "module[name]": MODULE_NAME,
+                "module[published]": "false",
+            },
+        )
     return await api(
         client,
         "POST",
@@ -119,7 +122,38 @@ async def upload(client, path, folder_path):
     )
     response.raise_for_status()
     uploaded = response.json()
-    return await api(client, "PUT", f"/files/{uploaded['id']}", data={"locked": "true"})
+    record = await api(
+        client, "PUT", f"/files/{uploaded['id']}", data={"locked": "true"}
+    )
+    if not record.get("locked"):
+        raise RuntimeError(f"Canvas did not lock uploaded file {path.name!r}")
+    return record
+
+
+async def lock_folder_files(client, folder):
+    current = await api(client, "GET", f"/folders/{folder['id']}")
+    if not current.get("locked"):
+        current = await api(
+            client, "PUT", f"/folders/{folder['id']}", data={"locked": "true"}
+        )
+    if not current.get("locked"):
+        raise RuntimeError(
+            f"Canvas did not lock folder {folder.get('full_name') or folder['id']}"
+        )
+    for entry in await paged(client, f"/folders/{folder['id']}/files"):
+        if not entry.get("locked"):
+            await api(
+                client, "PUT", f"/files/{entry['id']}", data={"locked": "true"}
+            )
+    final = await paged(client, f"/folders/{folder['id']}/files")
+    unlocked = [
+        entry.get("display_name") or entry.get("filename")
+        for entry in final
+        if not entry.get("locked")
+    ]
+    if unlocked:
+        raise RuntimeError(f"Unlocked files remain in folder {folder['id']}: {unlocked}")
+    return current
 
 
 def render(template_name, values):
@@ -261,9 +295,63 @@ QUESTIONS = [
 ]
 
 
+async def prepare_quiz_questions(client, quiz_id, desired_names):
+    existing = await paged(
+        client, f"/courses/{COURSE_ID}/quizzes/{quiz_id}/questions"
+    )
+    keep, seen = [], set()
+    for question in existing:
+        name = question.get("question_name")
+        if name not in desired_names or name in seen:
+            await api(
+                client,
+                "DELETE",
+                f"/courses/{COURSE_ID}/quizzes/{quiz_id}/questions/{question['id']}",
+            )
+        else:
+            seen.add(name)
+            keep.append(question)
+    return keep
+
+
+async def finalize_quiz_order(client, quiz_id, expected_names):
+    final = await paged(client, f"/courses/{COURSE_ID}/quizzes/{quiz_id}/questions")
+    by_name = {entry.get("question_name"): entry for entry in final}
+    if set(by_name) != set(expected_names) or len(final) != len(expected_names):
+        raise RuntimeError(
+            f"Quiz {quiz_id} question mismatch: "
+            f"{[entry.get('question_name') for entry in final]}"
+        )
+    fields = []
+    for name in expected_names:
+        fields.extend(
+            [("order[][id]", str(by_name[name]["id"])), ("order[][type]", "question")]
+        )
+    await api(
+        client,
+        "POST",
+        f"/courses/{COURSE_ID}/quizzes/{quiz_id}/reorder",
+        content=urlencode(fields),
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
+    )
+    ordered = await paged(
+        client, f"/courses/{COURSE_ID}/quizzes/{quiz_id}/questions"
+    )
+    actual = [entry.get("question_name") for entry in ordered]
+    if actual != expected_names:
+        raise RuntimeError(
+            f"Quiz {quiz_id} order mismatch: expected {expected_names}, found {actual}"
+        )
+
+
 async def upsert_quiz(client):
     quizzes = await paged(client, f"/courses/{COURSE_ID}/quizzes")
-    quiz = next((entry for entry in quizzes if entry.get("title") == QUIZ_TITLE), None)
+    matches = [entry for entry in quizzes if entry.get("title") == QUIZ_TITLE]
+    if len(matches) > 1:
+        raise RuntimeError(
+            f"Expected at most one quiz named {QUIZ_TITLE!r}; found {len(matches)}"
+        )
+    quiz = matches[0] if matches else None
     data = {
         "quiz[title]": QUIZ_TITLE,
         "quiz[description]": "<p>Ungraded practice. Retry and use the feedback before submitting the Emerging Plant-Tech Evaluation.</p>",
@@ -283,9 +371,8 @@ async def upsert_quiz(client):
         ),
         data=data,
     )
-    existing = await paged(
-        client, f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions"
-    )
+    expected = [entry[0] for entry in QUESTIONS]
+    existing = await prepare_quiz_questions(client, quiz["id"], set(expected))
     for position, (
         name,
         text,
@@ -318,7 +405,14 @@ async def upsert_quiz(client):
             ),
             json=payload,
         )
-    return await api(client, "GET", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}")
+    await finalize_quiz_order(client, quiz["id"], expected)
+    quiz = await api(client, "GET", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}")
+    if quiz.get("published") or quiz.get("quiz_type") != "practice_quiz":
+        raise RuntimeError(
+            f"Practice quiz invariant failed: published={quiz.get('published')}, "
+            f"type={quiz.get('quiz_type')}"
+        )
+    return quiz
 
 
 async def require_major_assignment(client):
@@ -355,25 +449,84 @@ async def require_major_assignment(client):
         ],
         "assignment[published]": "false",
     }
-    return await api(
+    packet = await api(
         client, "PUT", f"/courses/{COURSE_ID}/assignments/{found['id']}", data=data
     )
+    if (
+        packet.get("published")
+        or float(packet.get("points_possible") or 0) != 100
+        or packet.get("assignment_group_id") != group["id"]
+        or packet.get("grading_type") != "points"
+        or packet.get("omit_from_final_grade") is not False
+    ):
+        raise RuntimeError(
+            f"Major invariant failed after update: published={packet.get('published')}, "
+            f"points={packet.get('points_possible')}, group={packet.get('assignment_group_id')}, "
+            f"grading={packet.get('grading_type')}, omit={packet.get('omit_from_final_grade')}"
+        )
+    return packet
+
+
+async def upsert_career_assignment(client):
+    assignments = await paged(client, f"/courses/{COURSE_ID}/assignments")
+    matches = [entry for entry in assignments if entry.get("name") == CAREER_TITLE]
+    if len(matches) > 1:
+        raise RuntimeError(
+            f"Expected at most one assignment named {CAREER_TITLE!r}; found {len(matches)}"
+        )
+    found = matches[0] if matches else None
+    data = {
+        "assignment[name]": CAREER_TITLE,
+        "assignment[description]": '<div style="max-width:820px;margin:0 auto;font-family:Arial,Helvetica,sans-serif;line-height:1.5;color:#24323d"><h2 style="color:#5a2d91">Plant Career Connection</h2><p><strong>Submit only three details:</strong> one chosen plant-system role, one accurate duty, and one preparation fact.</p><p><strong>Complete frame:</strong> “A [role] would [duty]. A typical entry route is [preparation].”</p><p>Keep the first-repair decision, two clues, and labeled system improvement in <em>Find Your Future</em> pp. 89-90. Do not copy those workbook responses into this check.</p></div>',
+        "assignment[submission_types][]": ["online_text_entry"],
+        "assignment[grading_type]": "not_graded",
+        "assignment[points_possible]": "0",
+        "assignment[omit_from_final_grade]": "true",
+        "assignment[published]": "false",
+    }
+    assignment = await api(
+        client,
+        "PUT" if found else "POST",
+        (
+            f"/courses/{COURSE_ID}/assignments/{found['id']}"
+            if found
+            else f"/courses/{COURSE_ID}/assignments"
+        ),
+        data=data,
+    )
+    if (
+        assignment.get("published")
+        or float(assignment.get("points_possible") or 0) != 0
+        or assignment.get("grading_type") != "not_graded"
+        or not assignment.get("omit_from_final_grade")
+        or "online_text_entry" not in (assignment.get("submission_types") or [])
+    ):
+        raise RuntimeError(
+            f"Career practice invariant failed: published={assignment.get('published')}, "
+            f"points={assignment.get('points_possible')}, grading={assignment.get('grading_type')}, "
+            f"omit={assignment.get('omit_from_final_grade')}, submissions={assignment.get('submission_types')}"
+        )
+    return assignment
 
 
 async def upsert_practice_assignment(client):
     assignments = await paged(client, f"/courses/{COURSE_ID}/assignments")
-    found = next(
-        (entry for entry in assignments if entry.get("name") == REFLECTION_TITLE), None
-    )
+    matches = [entry for entry in assignments if entry.get("name") == REFLECTION_TITLE]
+    if len(matches) > 1:
+        raise RuntimeError(
+            f"Expected at most one assignment named {REFLECTION_TITLE!r}; found {len(matches)}"
+        )
+    found = matches[0] if matches else None
     data = {
         "assignment[name]": REFLECTION_TITLE,
         "assignment[description]": "<p>Submit the private Xello Biases reflection as text or upload the supplied PDF. Do not post a public discussion or profile screenshot.</p>",
         "assignment[submission_types][]": ["online_text_entry", "online_upload"],
         "assignment[grading_type]": "not_graded",
         "assignment[points_possible]": "0",
+        "assignment[omit_from_final_grade]": "true",
         "assignment[published]": "false",
     }
-    return await api(
+    assignment = await api(
         client,
         "PUT" if found else "POST",
         (
@@ -383,22 +536,38 @@ async def upsert_practice_assignment(client):
         ),
         data=data,
     )
+    if (
+        assignment.get("published")
+        or float(assignment.get("points_possible") or 0) != 0
+        or assignment.get("grading_type") != "not_graded"
+        or not assignment.get("omit_from_final_grade")
+    ):
+        raise RuntimeError(
+            f"Reflection invariant failed: published={assignment.get('published')}, "
+            f"points={assignment.get('points_possible')}, grading={assignment.get('grading_type')}, "
+            f"omit={assignment.get('omit_from_final_grade')}"
+        )
+    return assignment
 
 
 async def upsert_transfer_assignment(client):
     assignments = await paged(client, f"/courses/{COURSE_ID}/assignments")
-    found = next(
-        (entry for entry in assignments if entry.get("name") == TRANSFER_TITLE), None
-    )
+    matches = [entry for entry in assignments if entry.get("name") == TRANSFER_TITLE]
+    if len(matches) > 1:
+        raise RuntimeError(
+            f"Expected at most one assignment named {TRANSFER_TITLE!r}; found {len(matches)}"
+        )
+    found = matches[0] if matches else None
     data = {
         "assignment[name]": TRANSFER_TITLE,
         "assignment[description]": "<p>Name one communication skill used in your infographic. Explain how an Agricultural Communications Specialist uses that skill and how a worker in one other career uses the same skill for a different task. Submit two sentences as text or a short private recording.</p>",
         "assignment[submission_types][]": ["online_text_entry", "media_recording"],
         "assignment[grading_type]": "not_graded",
         "assignment[points_possible]": "0",
+        "assignment[omit_from_final_grade]": "true",
         "assignment[published]": "false",
     }
-    return await api(
+    assignment = await api(
         client,
         "PUT" if found else "POST",
         (
@@ -408,6 +577,18 @@ async def upsert_transfer_assignment(client):
         ),
         data=data,
     )
+    if (
+        assignment.get("published")
+        or float(assignment.get("points_possible") or 0) != 0
+        or assignment.get("grading_type") != "not_graded"
+        or not assignment.get("omit_from_final_grade")
+    ):
+        raise RuntimeError(
+            f"Transfer invariant failed: published={assignment.get('published')}, "
+            f"points={assignment.get('points_possible')}, grading={assignment.get('grading_type')}, "
+            f"omit={assignment.get('omit_from_final_grade')}"
+        )
+    return assignment
 
 
 async def main():
@@ -420,6 +601,7 @@ async def main():
         module = await ensure_module(client)
         quiz = await upsert_quiz(client)
         packet = await require_major_assignment(client)
+        career = await upsert_career_assignment(client)
         transfer = await upsert_transfer_assignment(client)
         reflection = await upsert_practice_assignment(client)
 
@@ -462,9 +644,13 @@ async def main():
             if source.exists():
                 for path in sorted(source.glob("*.png")):
                     uploads[day][path.name] = await upload(client, path, folder_path)
+        support_folder = await lock_folder_files(client, support_folder)
+        for day, folder in folders.items():
+            folders[day] = await lock_folder_files(client, folder)
 
         quiz_url = f"/courses/{COURSE_ID}/quizzes/{quiz['id']}"
         packet_url = f"/courses/{COURSE_ID}/assignments/{packet['id']}"
+        career_url = f"/courses/{COURSE_ID}/assignments/{career['id']}"
         transfer_url = f"/courses/{COURSE_ID}/assignments/{transfer['id']}"
         reflection_url = f"/courses/{COURSE_ID}/assignments/{reflection['id']}"
 
@@ -519,14 +705,15 @@ async def main():
         # Canvas strips CSS aspect-ratio from iframe styles. Keep explicit dimensions so
         # the player does not collapse to the browser's 150-pixel default height.
         bls_video = '<details style="border:1px solid #bad4df;border-radius:8px;padding:12px 16px;margin:14px 0;background:#f2f8fb"><summary style="font-weight:700;color:#1f617a;cursor:pointer">Optional: watch the BLS Agricultural Engineers video</summary><p style="font-size:14px">This video is enrichment. The fixed evidence guide carries every required fact.</p><div style="max-width:760px;margin:12px auto"><iframe width="760" height="428" style="display:block;width:100%;max-width:760px;border:0" src="https://www.youtube.com/embed/ozIUJsnBDLY" title="U.S. Bureau of Labor Statistics video: Agricultural Engineers" loading="lazy" allowfullscreen></iframe></div></details>'
+        process_wireframe = '''<details style="border:1px solid #bad4df;border-radius:8px;padding:12px 16px;margin:14px 0;background:#f2f8fb"><summary style="font-weight:700;color:#1f617a;cursor:pointer">Teacher model: four-step process infographic wireframe</summary><p><strong>Use this structure, not its wording.</strong> The model shows reading order and space planning without completing the Sunny Fields task for students.</p><div style="max-width:720px;margin:12px auto;border:2px solid #5a2d91;border-radius:10px;padding:14px;background:#fff"><p style="margin:0 0 12px;text-align:center;font-size:22px;font-weight:700;color:#5a2d91">[Clear title for the chosen crop]</p><div style="border-left:6px solid #4a9d2f;padding:8px 12px;margin:8px 0"><strong>1 · Planting</strong><br>[one short explanation] + [one labeled visual]</div><div style="border-left:6px solid #1f617a;padding:8px 12px;margin:8px 0"><strong>2 · Growing and monitoring</strong><br>[one short explanation] + [one labeled visual]</div><div style="border-left:6px solid #e3ad19;padding:8px 12px;margin:8px 0"><strong>3 · Harvesting and packing</strong><br>[one short explanation] + [one labeled visual]</div><div style="border-left:6px solid #9a4f79;padding:8px 12px;margin:8px 0"><strong>4 · Selling or delivery</strong><br>[one short explanation] + [one labeled visual]</div><p style="margin:12px 0 0;padding:10px;background:#f7f1fb"><strong>Two client-fact callouts:</strong> [fact + why a shopper cares] · [fact + why a shopper cares]</p></div><p><strong>Reader path:</strong> title → steps 1–4 → two fact callouts. During the model, point to each region and ask, “Where does your eye go next?”</p></details>'''
 
         contracts = {
             1: {
                 "TOPIC": "Plant Careers",
-                "OBJECTIVE": "Students will identify plant-system career opportunities and research the preparation required for selected careers.",
+                "OBJECTIVE": "Students will identify one plant-system career role and describe one preparation fact connected to that work.",
                 "TEKS": "d(1)(C), d(2)(A)",
                 "DOL": "First-repair decision supported by two clues, one labeled system improvement, and one accurate career-role connection that includes a preparation fact.",
-                "STUDENT_OBJECTIVE": "identify how technicians, scientists, and engineers improve plant systems and compare how they prepare for the work.",
+                "STUDENT_OBJECTIVE": "identify one plant-system career role and one way a person prepares for that work.",
                 "STUDENT_DOL": "defend a first repair with two clues, label one improvement, and connect the work to one career role and its preparation.",
             },
             2: {
@@ -543,7 +730,7 @@ async def main():
                 "TEKS": "d(4)(B)",
                 "DOL": "Completed infographic, documented revision, and a two-career explanation of how one communication skill transfers.",
                 "STUDENT_OBJECTIVE": "build and revise a clear infographic, then explain how one communication skill works in two careers.",
-                "STUDENT_DOL": "submit the infographic, name one revision, and compare how the same skill is used in agricultural communication and another career.",
+                "STUDENT_DOL": "complete and save the infographic, name one revision, and compare how the same skill is used in agricultural communication and another career.",
             },
             4: {
                 "TOPIC": "Emerging Plant Technology",
@@ -556,7 +743,7 @@ async def main():
             5: {
                 "TOPIC": "Career Bias",
                 "OBJECTIVE": "Students will revisit an assumption about emerging or nontraditional career work and evaluate it with one career fact.",
-                "TEKS": "d(1)(D) reinforcement; no new primary carrier",
+                "TEKS": "d(1)(D)",
                 "DOL": "Xello Completion Standards record plus a private assumption-evidence-action reflection.",
                 "STUDENT_OBJECTIVE": "use evidence to test a career assumption before ruling a career in or out.",
                 "STUDENT_DOL": "complete the Xello lesson and submit a private reflection with one assumption, one career fact, and one fair next action.",
@@ -574,7 +761,7 @@ async def main():
                     1,
                     "Meet the work",
                     grow_pages[1]
-                    + '<p>Compare technician, scientist, and engineer duties and typical entry routes. Record one duty and one preparation fact for the role most likely to test the system first.</p><p><strong>Career frame:</strong> "A [role] would [duty]. A typical entry route is [preparation]."</p>',
+                    + f'<p>Compare technician, scientist, and engineer duties and typical entry routes. Choose the role most likely to test the system first.</p><p><a href="{career_url}">Open the private Plant Career Connection check</a>. Submit only your chosen role, one accurate duty, and one preparation fact.</p><p><strong>Career frame:</strong> "A [role] would [duty]. A typical entry route is [preparation]."</p>',
                 )
                 + step(
                     2,
@@ -593,11 +780,11 @@ async def main():
                     "Sketch an improvement",
                     "<p>On workbook p. 90, the back of the page, or plain paper, label water flow, nutrients, lights, plant placement, and one prevention feature.</p>",
                 ),
-                "EXIT": "<p>Which clue had the greatest effect on your first-repair decision, and what evidence would you check next?</p>",
-                "DONE": "<ul><li>all clues reviewed;</li><li>one first repair defended with two clues;</li><li>one system improvement labeled;</li><li>one career duty and one preparation fact accurate.</li></ul>",
-                "VISIBLE_SUPPORT": '<p><strong>Word bank:</strong> nutrients = nutrientes · water flow = flujo de agua · evidence = evidencia · priority = prioridad.</p><p><strong>Exit frame:</strong> "[Clue] mattered most because [reason]. Next, I would check [evidence]."</p>',
+                "EXIT": "<p>Check both evidence homes: the private Canvas check has only the chosen role, duty, and preparation fact; FYF pp. 89-90 hold the first-repair decision, two clues, and labeled improvement.</p>",
+                "DONE": "<ul><li>private career check submitted with one role, duty, and preparation fact;</li><li>all clues reviewed in FYF;</li><li>one first repair defended with two clues in FYF;</li><li>one system improvement labeled in FYF.</li></ul>",
+                "VISIBLE_SUPPORT": '<p><strong>Word bank:</strong> duty = responsabilidad · preparation = preparación · evidence = evidencia · priority = prioridad.</p><p><strong>Career frame:</strong> "A [role] would [duty]. A typical entry route is [preparation]."</p><p><strong>Repair frame:</strong> "I would fix [repair] first because [clue 1] and [clue 2]."</p>',
                 "SUPPORT": "<p>Use labels and short phrases in the sketch. Read the clues aloud or color-code water, light, nutrients, and cleanliness before choosing a repair.</p>",
-                "FALLBACK": "<p>The embedded licensed pages and fixed career guide are the complete route. A plain-paper system sketch is equal to chart paper.</p>",
+                "FALLBACK": "<p>The embedded licensed pages and fixed career guide are the complete route. A plain-paper system sketch is equal to chart paper. If Canvas is unavailable, draft the three career details in the FYF margin and transfer only those details to the private check at the next access point.</p>",
             },
             2: {
                 "TITLE": "Plan a Farm-to-Table Infographic",
@@ -657,11 +844,11 @@ async def main():
                 )
                 + step(
                     4,
-                    "Revise and submit",
-                    f'<p>Fix one message or accessibility problem, then <a href="{packet_url}">open the Plant Science Evidence Packet assignment</a> and upload the infographic draft.</p><p><a href="{transfer_url}">Open the private Communication Skill Transfer check</a>. Submit two sentences or a short private recording comparing how one skill is used by an Agricultural Communications Specialist and a worker in another career. This is the formative d(4)(B) evidence; it is not another major-grade criterion.</p>',
+                    "Revise, save, and transfer",
+                    f'<p>Fix one message or accessibility problem. Save the infographic with your name and keep it for tomorrow; do not submit it to the Major yet.</p><p><a href="{transfer_url}">Open the private Communication Skill Transfer check</a>. Submit two sentences or a short private recording. <strong>Complete frame:</strong> "[Skill] helps an Agricultural Communications Specialist [specific task]. The same skill helps a [second career] [different task]." This is the formative d(4)(B) evidence; it is not another major-grade criterion.</p>',
                 ),
                 "EXIT": "<p>Name one communication skill you used. How would the same skill help an Agricultural Communications Specialist and a worker in one other career?</p>",
-                "DONE": "<ul><li>four steps and two facts;</li><li>clear reading order;</li><li>readable text and contrast;</li><li>one revision;</li><li>private two-career transfer check submitted;</li><li>Canvas draft submission.</li></ul>",
+                "DONE": "<ul><li>four steps and two facts;</li><li>clear reading order;</li><li>readable text and contrast;</li><li>one revision;</li><li>infographic saved for tomorrow;</li><li>private two-career transfer check submitted.</li></ul>",
                 "VISIBLE_SUPPORT": '<p><strong>Word bank:</strong> clarity = claridad · contrast = contraste · revise = revisar · audience = público.</p><p><strong>Frame:</strong> "[Skill] helps an Agricultural Communications Specialist [task]. The same skill helps a [second career] [different task]."</p>',
                 "SUPPORT": "<p>Use built-in icons, shapes, or your own drawings. Text-to-speech can check wording. A teacher or self-check can replace peer feedback.</p>",
                 "FALLBACK": "<p>Paper is an equal route. Photograph or scan the finished page for Canvas; if upload fails, turn in the labeled original and record the access issue. The transfer check can be a private oral response to the teacher if Canvas fails.</p>",
@@ -680,17 +867,17 @@ async def main():
                 + step(
                     2,
                     "Trace the change",
-                    "<p>Connect one named technology to one changed task and one needed skill or preparation route.</p>",
+                    '<p>Connect one named technology to one changed task and one needed skill or preparation route.</p><p><strong>Complete frame:</strong> "[Technology] changes the task of [task] because workers now [specific action]. This makes [skill or preparation] important."</p>',
                 )
                 + step(
                     3,
                     "Use two dated facts",
-                    "<p>Keep the parent occupation, U.S. median, date, and outlook labels attached. State one evidence limit.</p>",
+                    '<p>Keep the parent occupation, U.S. median, date, and outlook labels attached. State one evidence limit.</p><p><strong>Complete frame:</strong> "The [parent occupation] figure is a May 2024 U.S. median, so it cannot prove [local starting pay or exact specialty pay]."</p>',
                 )
                 + step(
                     4,
                     "Check the reasoning",
-                    f'<p><a href="{quiz_url}">Open the Emerging Plant-Tech Evidence Check</a>. Retry, revise your evaluation, and add it to the <a href="{packet_url}">evidence packet assignment</a>.</p>',
+                    f'<p><a href="{quiz_url}">Open the Emerging Plant-Tech Evidence Check</a>. Retry and revise your evaluation. Then <a href="{packet_url}">open the Plant Science Evidence Packet assignment</a> and submit the saved infographic plus today\'s evaluation together, one time.</p>',
                 ),
                 "EXIT": '<p>Why is "technology is changing the work" more accurate than claiming every specialty is a brand-new occupation?</p>',
                 "DONE": "<ul><li>specialty and parent occupation named;</li><li>technology connected to a task;</li><li>two dated facts;</li><li>one data limit;</li><li>4-6 sentence evaluation revised and submitted.</li></ul>",
@@ -719,7 +906,7 @@ async def main():
                 + step(
                     3,
                     "Test an assumption with evidence",
-                    "<p>Use one Plant-Tech Guide fact or one Xello career-profile fact. You do not need to disclose a protected identity or personal experience.</p>",
+                    '<p>Use one Plant-Tech Guide fact or one Xello career-profile fact. You do not need to disclose a protected identity or personal experience.</p><p><strong>Complete frame:</strong> "People may assume [idea]. The fact [evidence] challenges or complicates that idea because [reason]."</p>',
                 )
                 + step(
                     4,
@@ -739,13 +926,15 @@ async def main():
                 "TITLE": "Diagnose a Grow System",
                 "SUBTITLE": "50 minutes · TEKS d(1)(C), d(2)(A)",
                 "ALERT": "<strong>Do not turn Day 1 into an open H&amp;L search.</strong> The fixed career guide and licensed workbook carry the lesson with no login or live-data verification burden.",
-                "PREP": f'<ul><li>Post {file_link(files["CAREERS"]["id"], "the career guide")} and FYF pp. 88-90.</li><li>Provide plain paper for the optional system sketch.</li><li>Model one two-clue diagnosis without giving the final priority.</li></ul>',
-                "EVIDENCE": "<p>First-repair decision supported by two clues, one labeled system improvement, and one accurate career duty plus preparation fact. Formative evidence.</p>",
+                "PREP": f'<ul><li><strong>Per student:</strong> FYF workbook pp. 88-90 and pencil. Keep one sheet of plain paper per student available only if the workbook sketch space is not usable.</li><li><strong>Devices:</strong> one per student or one per pair for {file_link(files["CAREERS"]["id"], "the career guide")}; default print count is 0. Print one guide per pair only for a no-device class.</li><li>Open the unpublished private <strong>{CAREER_TITLE}</strong> assignment. It accepts one individual Canvas text response and remains 0-point, not graded, and omitted from the final grade.</li><li><strong>Grouping:</strong> individual evidence; optional pairs for the warm-up and clue comparison.</li><li>Model one two-clue diagnosis without giving the final priority.</li></ul>',
+                "EVIDENCE": "<p><strong>FYF pp. 89-90:</strong> first-repair decision supported by two clues and one labeled system improvement. <strong>Private Canvas practice check:</strong> one chosen role, one accurate duty, and one preparation fact. Do not make students copy the grow-system response into Canvas.</p>",
                 "FLOW": flow(
                     "#5a2d91", "System warm-up · 5", "What must reach every plant?"
                 )
                 + flow(
-                    "#4a9d2f", "Career evidence · 8", "Duty plus typical entry route."
+                    "#4a9d2f",
+                    "Career evidence · 8",
+                    "Submit one role, duty, and preparation fact privately.",
                 )
                 + flow(
                     "#1f617a",
@@ -758,18 +947,20 @@ async def main():
                     "First repair plus prevention feature.",
                 )
                 + flow(
-                    "#1f617a", "Exit · 5", "Strongest clue and next evidence check."
+                    "#1f617a",
+                    "Verify and reset · 5",
+                    "Check the two evidence homes and return materials.",
                 ),
-                "MONITOR": "<p>Strong reasoning prioritizes slow water flow/pump or blockage because weak roots and uneven growth support inadequate circulation; accept another first repair when two supplied clues and a coherent sequence support it. Students should not claim that one symptom proves one cause. Career key: technician tests/records and usually follows an associate-degree route; scientist studies plant/soil conditions and typically needs at least a bachelor's degree; engineer designs system changes and typically needs an engineering bachelor's degree.</p>",
-                "RESOURCES": f'<p>{file_link(files["CAREERS"]["id"], "Dated career evidence guide")} · H&amp;L browsing is optional enrichment only.</p>',
+                "MONITOR": "<p><strong>District moves:</strong> use a 60-second Stop and Jot for the warm-up, then Active Monitor the individual evidence. <strong>Minute 13 target:</strong> each student has submitted one role, one duty, and one preparation fact in the private Canvas check. If several students copy salary figures, pause and model duty → preparation once. <strong>Minute 28 target:</strong> every FYF clue is marked before a repair is chosen. Strong reasoning often prioritizes slow water flow/pump or blockage because weak roots and uneven growth support inadequate circulation; accept another first repair when two supplied clues and a coherent sequence support it. Students should not claim one symptom proves one cause. Career key: technician tests/records and usually follows an associate-degree route; scientist studies plant/soil conditions and typically needs at least a bachelor's degree; engineer designs system changes and typically needs an engineering bachelor's degree.</p><p><strong>Safe trim:</strong> reduce the system sketch to labels and arrows. Protect the private role-duty-preparation response and the FYF two-clue first-repair decision.</p>",
+                "RESOURCES": f'<p>{file_link(files["CAREERS"]["id"], "Dated career evidence guide")} · The private Canvas check is the only career-response submission home. H&amp;L browsing is optional enrichment only.</p>',
                 "SUPPORT": "<p>Read clues aloud, color-code water/light/nutrients/cleanliness, allow oral rehearsal, and accept labeled diagrams plus short phrases. The workbook provides substantial writing space on pp. 89-90.</p>",
-                "FALLBACK": "<p>All licensed pages are embedded. An absent student completes the same individual decision and sketch; partner comparison is optional.</p>",
+                "FALLBACK": "<p>All licensed pages are embedded. An absent student completes the same individual FYF decision and sketch plus the private Canvas career check; partner comparison is optional. If Canvas is unavailable, draft the three career details in the FYF margin and transfer only those details at the next access point.</p>",
             },
             2: {
                 "TITLE": "Plan a Farm-to-Table Infographic",
                 "SUBTITLE": "50 minutes · TEKS d(1)(C)",
                 "ALERT": "<strong>Sunny Fields Farm is fictional.</strong> Preserve workbook facts as scenario details; do not convert them into claims about a real business or current agriculture practice.",
-                "PREP": f'<ul><li>Post FYF pp. 91-92, {file_link(files["PLANNER"]["id"], "the two-page planner")}, and {file_link(files["RUBRIC"]["id"], "the student rubric")}.</li><li>Show one simple process infographic model from a teacher-created or licensed source.</li><li>Have pencils and markers ready; no login is needed.</li></ul>',
+                "PREP": f'<ul><li><strong>Per student:</strong> FYF workbook pp. 91-92, {file_link(files["PLANNER"]["id"], "the two-page planner")} printed double-sided, pencil, and markers or colored pencils. Post the {file_link(files["RUBRIC"]["id"], "student rubric")} digitally; default rubric print count is 0.</li><li><strong>Teacher display:</strong> open the supplied four-step wireframe below. No design login is needed.</li><li><strong>Grouping:</strong> individual plan; pairs of two only for the brief trace and reader-path rehearsal.</li></ul>' + process_wireframe,
                 "EVIDENCE": "<p>Client requirement map, four-step content plan, two useful facts, full-page sketch, two interview questions on FYF p. 92, and one accurate Agricultural Communications Specialist role connection. This begins the recommended major packet.</p>",
                 "FLOW": flow(
                     "#5a2d91", "Food-journey warm-up · 5", "Name four likely stages."
@@ -788,7 +979,7 @@ async def main():
                 + flow(
                     "#1f617a", "Exit · 5", "Role, product, audience, and reader path."
                 ),
-                "MONITOR": "<p>Require planting, growing/monitoring, harvesting/packing, and selling/delivery. Students may choose any listed crop. The role connection should identify that an Agricultural Communications Specialist creates an agriculture message or visual for a specific audience. The custom planner adds only the roomy content plan and full-page sketch. Students use the two large boxes already provided on FYF p. 92 for interview questions.</p>",
+                "MONITOR": "<p><strong>District moves:</strong> Think-Pair-Share the brief trace, then Active Monitor the planner. <strong>Minute 13 target:</strong> every student has marked role, audience, crop choices, and required content. If the class confuses scenario facts with outside research, reset with “Use only what the client supplied.” <strong>Minute 30 target:</strong> all four stages and two client facts are planned. Require planting, growing/monitoring, harvesting/packing, and selling/delivery. Students may choose any listed crop. The role connection should identify that an Agricultural Communications Specialist creates an agriculture message or visual for a specific audience. The custom planner adds only the roomy content plan and full-page sketch. Students use the two large boxes already provided on FYF p. 92 for interview questions.</p><p><strong>Safe trim:</strong> cut the share-out or narrated rehearsal. Protect the four-step plan, two facts, full-page sketch, and two interview questions.</p>",
                 "RESOURCES": "<p>Licensed FYF pp. 91-92 are embedded at the step where students use them. Canva and Adobe are not needed until Day 3.</p>",
                 "SUPPORT": "<p>Use icons plus words, provide the four-step word bank at the point of use, accept phrases, and let students narrate the sketch before writing. Do not grade drawing quality.</p>",
                 "FALLBACK": "<p>The two-page planner plus FYF p. 92 form the complete absence route. If a student misses partner talk, use a teacher or self trace of the reading order.</p>",
@@ -797,7 +988,7 @@ async def main():
                 "TITLE": "Build and Test the Infographic",
                 "SUBTITLE": "50 minutes · TEKS d(4)(B)",
                 "ALERT": "<strong>Canva for Education, Adobe Express, and paper are equal.</strong> Do not require premium assets, a personal account, or a real social-media post. Submit through Canvas, not Google Classroom.",
-                "PREP": f'<ul><li>Confirm the district-approved Canva or Adobe route only if offering it.</li><li>Keep paper or chart paper ready from the start.</li><li>Post the {file_link(files["RUBRIC"]["id"], "student rubric")} and open the unpublished evidence-packet and transfer-check assignments.</li><li>Project a finished teacher model with a clear reading order.</li></ul>',
+                "PREP": f'<ul><li><strong>Per student:</strong> completed Day 2 plan and either one district device or one sheet of paper/chart paper with markers. Keep paper visible from the start.</li><li>Confirm Canva for Education or Adobe Express only if offering the digital route; do not require a personal login.</li><li>Post the {file_link(files["RUBRIC"]["id"], "student rubric")} digitally; default print count is 0. Open only the unpublished transfer check today. The Major opens after Day 4.</li><li><strong>Grouping:</strong> individual artifact; pairs of two for the 60-second reader test, with teacher/self-check as the equal alternate.</li></ul>' + process_wireframe,
                 "EVIDENCE": "<p>Farm-to-Table infographic and one documented message/accessibility revision. The separate private Communication Skill Transfer check collects the two-career d(4)(B) response as formative evidence; it is not scored in the major-packet rubric.</p>",
                 "FLOW": flow(
                     "#5a2d91", "Plan check · 5", "Four steps, two facts, reader path."
@@ -815,11 +1006,11 @@ async def main():
                 )
                 + flow(
                     "#1f617a",
-                    "Transfer and submit · 5",
-                    "Two-career skill comparison plus private submission.",
+                    "Save and transfer · 5",
+                    "Save the artifact; submit only the private two-career comparison.",
                 ),
-                "MONITOR": "<p>Full draft: accurate title, four ordered steps, one visual and short explanation per step, and two scenario facts. The d(4)(B) response must name two different careers and show how one communication skill looks in each; a generic statement that communication is important does not demonstrate transfer.</p>",
-                "RESOURCES": f'<p>{file_link(files["PLANNER"]["id"], "Planner")} · {file_link(files["RUBRIC"]["id"], "16-point student rubric")} · Major assignment accepts upload, text entry, or media recording. The separate ungraded transfer check accepts text or a private recording.</p>',
+                "MONITOR": "<p><strong>District moves:</strong> chunk the build with a visible midpoint and Active Monitor for one criterion at a time. <strong>Minute 13 target:</strong> title, four regions, and reading path are placed. If several students are choosing templates instead of building content, move everyone to the supplied wireframe. <strong>Minute 32 target:</strong> four ordered steps, one visual and short explanation per step, and two scenario facts are visible. Run the 60-second reader test: first look, unclear spot, one revision. The d(4)(B) response must name two different careers and show how one communication skill looks in each; “communication is important” does not demonstrate transfer.</p><p><strong>Safe trim:</strong> cut decorative polish first. Protect one visible revision, the saved artifact, and the private transfer check. Do not collect the Major today.</p>",
+                "RESOURCES": f'<p>{file_link(files["PLANNER"]["id"], "Planner")} · {file_link(files["RUBRIC"]["id"], "16-point student rubric")} · The separate ungraded transfer check accepts text or a private recording. Students save and retain the infographic for tomorrow; the combined Major submission happens once after Day 4.</p>',
                 "SUPPORT": "<p>Provide a four-box layout, built-in icons, speech-to-text, enlarged print, and a paper route. Score communication rather than artistry or English mechanics unless meaning is unclear.</p>",
                 "FALLBACK": "<p>If a design platform fails, move immediately to paper. If Canvas upload fails, collect the labeled original or file and record the access issue.</p>",
             },
@@ -827,7 +1018,7 @@ async def main():
                 "TITLE": "Evaluate Emerging Plant-Tech Work",
                 "SUBTITLE": "50 minutes · TEKS d(1)(D), d(5)(C)",
                 "ALERT": "<strong>Do not invent a job title's salary.</strong> Every specialty is paired with a real BLS parent occupation, and students must state that limitation.",
-                "PREP": f'<ul><li>Post {file_link(files["EMERGING_GUIDE"]["id"], "the dated evidence guide")}, {file_link(files["EMERGING_EVAL"]["id"], "evaluation")}, and {file_link(files["RUBRIC"]["id"], "rubric")}.</li><li>Test or skip the optional official BLS video.</li><li>Open the unpublished practice quiz and evidence-packet assignment.</li></ul>',
+                "PREP": f'<ul><li><strong>Per student:</strong> saved infographic, {file_link(files["EMERGING_EVAL"]["id"], "two-page evaluation")} printed double-sided, pencil, and one device for the practice quiz/submit route.</li><li>Post {file_link(files["EMERGING_GUIDE"]["id"], "the dated evidence guide")} digitally; default print count is 0. Print one guide per pair only for a no-device class. Post the {file_link(files["RUBRIC"]["id"], "rubric")} digitally.</li><li>Test or skip the optional official BLS video. Open the unpublished quiz and combined Major assignment.</li><li><strong>Grouping:</strong> individual evaluation and submission; pairs may rehearse the parent/specialty distinction.</li></ul>',
                 "EVIDENCE": "<p>Individual technology-to-task evaluation with two dated facts, one evidence limit, and a revision. This completes the recommended 16-point major packet.</p>",
                 "FLOW": flow(
                     "#5a2d91",
@@ -850,17 +1041,21 @@ async def main():
                     "Technology, task, two facts, limit.",
                 )
                 + flow("#4a9d2f", "Practice quiz · 5", "Retry and revise.")
-                + flow("#1f617a", "Submit · 3", "Add evaluation to the packet."),
-                "MONITOR": "<p>Key facts: technician parent = $48,480/5%; soil and plant scientist = $71,410/5%; agricultural engineer = $84,630/6%. All are May 2024 U.S. medians/outlook 2024-34. Full evidence says the figure belongs to the parent occupation and cannot prove an exact specialty's local starting pay.</p>",
+                + flow(
+                    "#1f617a",
+                    "Submit · 3",
+                    "Submit the saved infographic and evaluation together once.",
+                ),
+                "MONITOR": "<p><strong>District moves:</strong> chunk the evaluation into technology → task → two dated facts → limit, then Active Monitor each link. <strong>Minute 16 target:</strong> students have a specialty, parent occupation, and technology-to-task chain. If students call the parent median a local starting salary, stop and model the complete limit frame. <strong>Minute 36 target:</strong> 4–6 sentences contain two dated facts and one data limit. Key facts: technician parent = $48,480/5%; soil and plant scientist = $71,410/5%; agricultural engineer = $84,630/6%. All are May 2024 U.S. medians/outlook 2024–34. The figure belongs to the parent occupation and cannot prove an exact specialty's local starting pay.</p><p><strong>Safe trim:</strong> cut the optional video first. If needed, replace the Canvas practice quiz with the paper self-check. Protect the individual evaluation, one revision, and one combined submission of infographic plus evaluation.</p>",
                 "RESOURCES": '<p><a href="https://www.bls.gov/ooh/life-physical-and-social-science/agricultural-and-food-science-technicians.htm">BLS Technicians</a> · <a href="https://www.bls.gov/ooh/life-physical-and-social-science/agricultural-and-food-scientists.htm">BLS Scientists</a> · <a href="https://www.bls.gov/ooh/architecture-and-engineering/agricultural-engineers.htm">BLS Engineers</a> · <a href="https://www.ars.usda.gov/oc/dof/farming-with-precision/">USDA Precision Agriculture</a> · <a href="https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops">USDA Automation for Specialty Crops</a></p>',
                 "SUPPORT": "<p>Model one trend-to-task chain. Highlight specialty, parent occupation, measure/date, and limitation in four colors. The evaluation gives ten full writing lines for the 4-6 sentence response.</p>",
                 "FALLBACK": "<p>The fixed guide replaces open searching and job boards. The video and quiz are optional support; the paper evaluation is the durable evidence.</p>",
             },
             5: {
                 "TITLE": "Xello Biases and Career Choices",
-                "SUBTITLE": "50 minutes · d(1)(D) reinforcement; no new primary carrier",
+                "SUBTITLE": "50 minutes · TEKS d(1)(D)",
                 "ALERT": "<strong>Required Grade 8 task: Biases and career choices, 30 minutes.</strong> Do not repeat Work experiences. The licensed 80-minute facilitator package is an extended sequence; only Activity 2 is the district completion task today.",
-                "PREP": f'<ul><li>Check the Xello Completion Standards report and test ClassLink.</li><li>Open the {file_link(files["XELLO_GUIDE"]["id"], "official 80-minute facilitator guide")} for teacher background.</li><li>Use only Activity 2 today. The {file_link(files["XELLO_TRAIL"]["id"], "Career Trailblazers")} and {file_link(files["XELLO_MATCH"]["id"], "Non-traditional Career Matches")} handouts are optional extensions.</li><li>Post the {file_link(files["BIAS_REFLECT"]["id"], "private reflection")} and assignment. Project the warm-up and navigation from the Canvas Student Guide.</li></ul>',
+                "PREP": f'<ul><li><strong>Per student:</strong> one district device and headphones if the Xello lesson uses audio. Post the {file_link(files["BIAS_REFLECT"]["id"], "one-page private reflection")} digitally; default print count is 0, with one copy per student only for the paper route.</li><li>Check the Xello Completion Standards report and test ClassLink. Open the {file_link(files["XELLO_GUIDE"]["id"], "official 80-minute facilitator guide")} for teacher background, but use only Activity 2 today.</li><li>The {file_link(files["XELLO_TRAIL"]["id"], "Career Trailblazers")} and {file_link(files["XELLO_MATCH"]["id"], "Non-traditional Career Matches")} handouts are optional extensions, not required prep.</li><li><strong>Grouping:</strong> individual/private work. Project the warm-up and navigation; do not require public sharing.</li></ul>',
                 "EVIDENCE": "<p>Xello Completion Standards report plus a private career-assumption reflection using one career fact and one fair investigation strategy. No public discussion or profile screenshot.</p>",
                 "FLOW": flow(
                     "#5a2d91",
@@ -882,7 +1077,7 @@ async def main():
                     "Report/catch-up · 3",
                     "Verify or schedule supervised completion.",
                 ),
-                "MONITOR": "<p>Activity 2 has no prerequisite. The extended Activity 3 recommends Matchmaker and asks students to revisit a discounted career; it is not today's completion minimum. Protect privacy: students may write about general cultural or media assumptions and are never required to disclose identity or discrimination experiences.</p>",
+                "MONITOR": "<p><strong>Curriculum note:</strong> d(1)(D) is reinforcement through the private evidence check; Xello is the completion-standard carrier. Activity 2 has no prerequisite. The extended Activity 3 recommends Matchmaker and asks students to revisit a discounted career; it is not today's minimum. <strong>District move:</strong> use a private Stop and Jot, then Active Monitor navigation without reading student answers. <strong>Minute 8 target:</strong> every student is in Biases and career choices or has a named access barrier. If several students remain on Home, pause for one ClassLink/navigation reset. <strong>Minute 35 target:</strong> lesson completion or supervised catch-up is recorded. Protect privacy: students may write about general cultural or media assumptions and are never required to disclose identity or discrimination experiences.</p><p><strong>Safe trim:</strong> cut public sharing and optional extensions. Protect the 30-minute Xello lesson, report/catch-up record, and private reflection.</p>",
                 "RESOURCES": f'<p>{file_link(files["XELLO_DECK"]["id"], "Original seven-slide Xello template")} · {file_link(files["XELLO_GUIDE"]["id"], "Full licensed facilitator package")}. The original template is stored for teacher reference, but its Google sign-in slide does not match Irving ClassLink and its first exit question is unrelated to today\'s task. Do not project slides 5 or 7. The Canvas Student Guide supplies the corrected launch and exit.</p>',
                 "SUPPORT": "<p>Read prompts aloud, permit a private pass on discussion, and offer bilingual labels and teacher conference. The one-page reflection provides three separate response areas instead of one dense paragraph box.</p>",
                 "FALLBACK": "<p>If Xello fails, students use the fixed Plant-Tech Guide for the private reflection and complete Xello in supervised catch-up. Paper does not count as platform completion.</p>",
@@ -941,6 +1136,15 @@ async def main():
                 ("Page", teacher_page["url"], teacher_title),
                 ("Page", student_page["url"], student_title),
             ]
+            if day == 1:
+                await upsert_module_item(
+                    client,
+                    module["id"],
+                    "Assignment",
+                    career["id"],
+                    CAREER_TITLE,
+                )
+                order.append(("Assignment", career["id"], CAREER_TITLE))
             if day == 3:
                 await upsert_module_item(
                     client,
@@ -974,14 +1178,42 @@ async def main():
         items = await paged(
             client, f"/courses/{COURSE_ID}/modules/{module['id']}/items"
         )
-        for position, (kind, key, title) in enumerate(order, 1):
+
+        def matches_item(entry, kind, key):
+            if entry.get("type") != kind:
+                return False
+            if kind == "SubHeader":
+                return entry.get("id") == key
+            if kind == "Page":
+                return entry.get("page_url") == key
+            return entry.get("content_id") == key
+
+        keep_ids = set()
+        for kind, key, _title in order:
             item = next(
-                entry
-                for entry in items
-                if (kind == "SubHeader" and entry.get("id") == key)
-                or (kind == "Page" and entry.get("page_url") == key)
-                or (kind in ("Quiz", "Assignment") and entry.get("content_id") == key)
+                (
+                    entry
+                    for entry in items
+                    if entry["id"] not in keep_ids and matches_item(entry, kind, key)
+                ),
+                None,
             )
+            if item is None:
+                raise RuntimeError(f"Missing expected module item: {kind} {key}")
+            keep_ids.add(item["id"])
+        for entry in items:
+            if entry["id"] not in keep_ids:
+                await api(
+                    client,
+                    "DELETE",
+                    f"/courses/{COURSE_ID}/modules/{module['id']}/items/{entry['id']}",
+                )
+
+        items = await paged(
+            client, f"/courses/{COURSE_ID}/modules/{module['id']}/items"
+        )
+        for position, (kind, key, title) in enumerate(order, 1):
+            item = next(entry for entry in items if matches_item(entry, kind, key))
             await api(
                 client,
                 "PUT",
@@ -989,12 +1221,53 @@ async def main():
                 data={"module_item[position]": position, "module_item[title]": title},
             )
 
-        final_items = await paged(
-            client, f"/courses/{COURSE_ID}/modules/{module['id']}/items"
+        final_items = sorted(
+            await paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items"),
+            key=lambda entry: entry.get("position") or 0,
         )
         module = await api(
             client, "GET", f"/courses/{COURSE_ID}/modules/{module['id']}"
         )
+        if module.get("published"):
+            raise RuntimeError("3SW Wk2 module unexpectedly published")
+        if quiz.get("published"):
+            raise RuntimeError("3SW Wk2 practice quiz unexpectedly published")
+        for label, assignment in (
+            ("Major", packet),
+            ("career", career),
+            ("transfer", transfer),
+            ("reflection", reflection),
+        ):
+            if assignment.get("published"):
+                raise RuntimeError(f"3SW Wk2 {label} assignment unexpectedly published")
+        published_pages = [
+            value["url"]
+            for pair in pages.values()
+            for value in pair.values()
+            if value.get("published")
+        ]
+        if published_pages:
+            raise RuntimeError(f"Published 3SW Wk2 pages remain: {published_pages}")
+        published_items = [
+            entry.get("title") for entry in final_items if entry.get("published")
+        ]
+        if published_items:
+            raise RuntimeError(f"Published 3SW Wk2 module items remain: {published_items}")
+        if len(final_items) != len(order):
+            raise RuntimeError(
+                f"Expected {len(order)} 3SW Wk2 module items; found {len(final_items)}"
+            )
+        for position, ((kind, key, title), item) in enumerate(
+            zip(order, final_items), start=1
+        ):
+            if (
+                item.get("position") != position
+                or item.get("title") != title
+                or not matches_item(item, kind, key)
+            ):
+                raise RuntimeError(
+                    f"3SW Wk2 module order mismatch at position {position}"
+                )
         groups = await paged(client, f"/courses/{COURSE_ID}/assignment_groups")
         print(
             json.dumps(
@@ -1006,16 +1279,33 @@ async def main():
                             "id": packet["id"],
                             "published": packet.get("published"),
                             "grading_type": packet.get("grading_type"),
+                            "omit_from_final_grade": packet.get(
+                                "omit_from_final_grade"
+                            ),
+                        },
+                        "career": {
+                            "id": career["id"],
+                            "published": career.get("published"),
+                            "grading_type": career.get("grading_type"),
+                            "omit_from_final_grade": career.get(
+                                "omit_from_final_grade"
+                            ),
                         },
                         "reflection": {
                             "id": reflection["id"],
                             "published": reflection.get("published"),
                             "grading_type": reflection.get("grading_type"),
+                            "omit_from_final_grade": reflection.get(
+                                "omit_from_final_grade"
+                            ),
                         },
                         "transfer": {
                             "id": transfer["id"],
                             "published": transfer.get("published"),
                             "grading_type": transfer.get("grading_type"),
+                            "omit_from_final_grade": transfer.get(
+                                "omit_from_final_grade"
+                            ),
                         },
                     },
                     "assignment_groups": [

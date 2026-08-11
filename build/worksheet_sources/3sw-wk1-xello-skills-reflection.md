@@ -16,6 +16,13 @@ Complete the **Skills lesson** in Xello. The district completion target is the f
 
 Do not submit a screenshot of your profile. Your teacher checks the Completion Standards report.
 
+**Access check:**
+
+- [ ] I completed Xello Skills.
+- [ ] Xello or the three-career prerequisite was unavailable. I used one teacher-provided skill below and need supervised Xello catch-up.
+
+If blocked, choose one temporary skill: **observation · communication · problem solving · teamwork · organization**. The reflection supports today's thinking; it does not replace Xello completion.
+
 ## Connect one skill to two settings
 
 **Word bank:** skill = habilidad · transferable = transferible · improve = mejorar
@@ -39,13 +46,3 @@ How the skill could transfer to a different career or pathway:
 Other career or pathway: ___________________________________________________
 
 [[lines: 2]]
-
-## One next practice opportunity
-
-In the next two weeks, I can practice this skill by:
-
-[[lines: 2]]
-
-How I will know I practiced it:
-
-[[lines: 1]]
