@@ -3,16 +3,16 @@ title: Nursing Route and Handoff Rubric
 slug: 2sw-wk3-handoff-rubric
 kind: rubric
 weeks: 2sw/wk3-nursing-health-science
-audience: teacher
+audience: student
 variant_of:
 language: en
 pages: 2
 orientation: landscape
 ---
 
-## Recommended minor checkpoint: 16 points
+## Minor checkpoint: 16 points
 
-Score the student's Nursing Route Comparison and Observation and Clinical Handoff Record. Platform access, device access, speaking, and physical measurement are not graded.
+Score the student's Day 2 Nursing Route Evidence Check (or equal print comparison) and Observation and Clinical Handoff Record. Platform access, device access, speaking, and physical measurement are not graded.
 
 | Criterion | Masters - 4 | Meets - 3 | Approaches - 2 | Needs Improvement - 1 | No evidence - 0 |
 |---|---|---|---|---|---|

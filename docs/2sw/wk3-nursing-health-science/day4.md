@@ -40,6 +40,8 @@ Required privacy boundary: all names and data come from the fictional cards. Stu
 
 Use the [Fictional Patient Handoff Cards](../../resources/worksheets/2sw-wk3-fictional-patient-cards.pdf). Assign one card to each pair, then rotate or display all four.
 
+Print one four-card set per eight students, or display the cards digitally. Give one two-page handoff record to each student. Project the rubric unless students will mark an individual copy.
+
 - Card A asks students to compare after-activity and after-rest values.
 - Card B requires a prompt supervised handoff based on the full picture, including reported symptoms.
 - Card C shows why normal-looking numbers do not erase what a person says.
@@ -58,6 +60,8 @@ The evidence is the distinction between observation and inference, the use of tw
 Students complete the unpublished Canvas **Vital Signs and Handoff Check**. It is an ungraded practice quiz with immediate feedback. A paper question set using the same five ideas is the equal fallback.
 
 Review only the most-missed item before the exit ticket.
+
+**Safe trim:** Move the practice quiz to the next opening when time is short. Protect the individual handoff and one evidence-based revision. Reserve three minutes to attach the card letter, collect each individual record, and return reusable cards.
 
 ## Exit Ticket (3 min)
 

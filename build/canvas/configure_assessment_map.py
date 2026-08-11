@@ -74,7 +74,7 @@ ASSESSMENTS = (
         "2SW Wk3: Nursing Science - Routes, Simulation, and Handoff",
         "MINOR 1: Nursing Route and Handoff",
         MINOR_GROUP,
-        5,
+        4,
     ),
     Assessment(
         "2SW Wk4: Smile Squad - Dental Science and Health Data",
