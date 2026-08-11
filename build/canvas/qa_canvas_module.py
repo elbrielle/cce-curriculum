@@ -5,6 +5,7 @@ import httpx
 
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
+SUBMISSION_LINK_MARKER = 'cce-mapped-assignment-link-v1'
 
 
 async def api(client, path):
@@ -58,6 +59,12 @@ async def main():
                 )
                 if quiz.get("published") or item.get("published"):
                     problems.append(f"quiz published: {quiz.get('id')}")
+                if quiz.get("quiz_type") != "practice_quiz":
+                    problems.append(f"quiz is not practice: {quiz.get('id')}")
+                if quiz.get("allowed_attempts") != -1:
+                    problems.append(f"quiz is not unlimited-attempt: {quiz.get('id')}")
+                if quiz.get("show_correct_answers") is not True:
+                    problems.append(f"quiz hides correct answers: {quiz.get('id')}")
                 interactives.append(
                     {
                         "item_id": item["id"],
@@ -68,6 +75,11 @@ async def main():
                         "published": quiz.get("published"),
                         "quiz_type": quiz.get("quiz_type"),
                         "questions": len(questions),
+                        "allowed_attempts": quiz.get("allowed_attempts"),
+                        "show_correct_answers": quiz.get("show_correct_answers"),
+                        "question_names": [
+                            question.get("question_name") for question in questions
+                        ],
                     }
                 )
                 continue
@@ -95,6 +107,16 @@ async def main():
                 )
                 if assignment.get("published") or item.get("published"):
                     problems.append(f"assignment published: {assignment.get('id')}")
+                title = assignment.get("name") or ""
+                if title.startswith(("PRACTICE:", "FORMATIVE:", "RECOVERY:")):
+                    if float(assignment.get("points_possible") or 0) != 0:
+                        problems.append(
+                            f"grade-neutral assignment has points: {assignment.get('id')}"
+                        )
+                    if assignment.get("omit_from_final_grade") is not True:
+                        problems.append(
+                            f"grade-neutral assignment counts toward final grade: {assignment.get('id')}"
+                        )
                 interactives.append(
                     {
                         "item_id": item["id"],
@@ -104,6 +126,10 @@ async def main():
                         "title": assignment.get("name"),
                         "published": assignment.get("published"),
                         "grading_type": assignment.get("grading_type"),
+                        "points_possible": assignment.get("points_possible"),
+                        "omit_from_final_grade": assignment.get(
+                            "omit_from_final_grade"
+                        ),
                         "submission_types": assignment.get("submission_types"),
                     }
                 )
@@ -140,9 +166,11 @@ async def main():
                     "url": page["url"],
                     "published": page["published"],
                     "body_chars": len(body),
+                    "submission_markers": body.count(SUBMISSION_LINK_MARKER),
                 }
             )
         files = []
+        folder_ids = set()
         for file_id in sorted(file_ids):
             try:
                 record = await api(client, f"/files/{file_id}")
@@ -157,10 +185,36 @@ async def main():
                     problems.append(
                         f"referenced file is unlocked: {file_id} {record.get('display_name')}"
                     )
+                if record.get("folder_id"):
+                    folder_ids.add(int(record["folder_id"]))
             except httpx.HTTPStatusError as exc:
                 problems.append(
                     f"file {file_id} did not resolve: HTTP {exc.response.status_code}"
                 )
+        folders = []
+        for folder_id in sorted(folder_ids):
+            folder = await api(client, f"/folders/{folder_id}")
+            folder_files = await paged(client, f"/folders/{folder_id}/files")
+            if not folder.get("locked"):
+                problems.append(
+                    f"referenced folder is unlocked: {folder_id} {folder.get('full_name')}"
+                )
+            unlocked = [
+                record.get("id") for record in folder_files if not record.get("locked")
+            ]
+            if unlocked:
+                problems.append(
+                    f"folder {folder_id} contains unlocked files: {unlocked}"
+                )
+            folders.append(
+                {
+                    "id": folder_id,
+                    "name": folder.get("full_name"),
+                    "locked": folder.get("locked"),
+                    "files": len(folder_files),
+                    "all_files_locked": not unlocked,
+                }
+            )
         result = {
             "module": {
                 "id": module_id,
@@ -171,6 +225,7 @@ async def main():
             "pages": pages,
             "interactives": interactives,
             "referenced_files": files,
+            "referenced_folders": folders,
             "problems": problems,
             "passed": not problems,
         }
