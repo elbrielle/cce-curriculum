@@ -19,7 +19,7 @@
 
 ## Before Students Arrive
 
-Post or print the [Route Data Guide](../../resources/worksheets/wk4-route-data-guide.pdf), [Education Pathway Comparison](../../resources/worksheets/wk4-education-pathway-comparison.pdf), optional [model](../../resources/worksheets/wk4-education-pathway-comparison-model.pdf), and [Route Decision](../../resources/worksheets/wk4-day2-route-decision.pdf). Do not send students to open search for certification prices or college costs.
+Print one [Route Data Guide](../../resources/worksheets/wk4-route-data-guide.pdf) per pair and one [Education Pathway Comparison](../../resources/worksheets/wk4-education-pathway-comparison.pdf) and [Route Decision](../../resources/worksheets/wk4-day2-route-decision.pdf) per student. Project the supplied [model](../../resources/worksheets/wk4-education-pathway-comparison-model.pdf); print one per pair only when students need it at the desk. Do not send students to open search for certification prices or college costs.
 
 ## Bellringer — What Does a Certification Show? (5 min)
 
@@ -65,6 +65,8 @@ Students complete the Route Decision. Use QSSSA for one oral rehearsal before wr
 - **Stem:** “The student should investigate ___ because ___. A benefit is ___. A tradeoff is ___.”
 - **Share:** partner, then two evidence-based responses.
 - **Assess:** listen for a preparation fact and employer variation.
+
+Post the point-of-use word bank **median, preparation, benefit, tradeoff, requirement**. If time is short, take one oral response and protect all three route rows plus the written decision.
 
 Multiple recommendations are acceptable. “User support” is a reasonable first investigation, but a student may defend another route if the evidence and tradeoff fit the scenario.
 

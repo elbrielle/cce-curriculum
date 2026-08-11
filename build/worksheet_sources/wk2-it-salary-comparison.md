@@ -9,9 +9,11 @@ language: en
 pages: 5
 orientation: portrait
 ---
-Pick three programming or IT careers available in H&L or Xello. Use the exact displayed career title and keep each number attached to its source label.
+Use this same packet on Days 2, 3, and 5. On Day 2, choose three programming or IT careers available in H&L or Xello and complete only the HQIM section on pages 1-3. On Day 3, add the four BLS fields and complete page 4. Save page 5 for Day 5.
 
 ## Career 1 Evidence Record
+
+### Day 2 - HQIM career evidence
 
 **Exact career title:** ______________________________________________
 
@@ -22,21 +24,22 @@ Pick three programming or IT careers available in H&L or Xello. Use the exact di
 - Measure shown (range, median, or other): ____________________
 - Figure: ____________________  Date viewed: ____________________
 
-**External national cross-check**
+**One task this worker does:**
+
+[[lines: 2]]
+
+**Common preparation** (education, training, or certification):
+
+[[lines: 2]]
+
+### Day 3 - BLS national cross-check
 
 - BLS occupation title: _____________________________________________
 - National median: ____________________  Data year: ____________________
 - Typical entry education: __________________________________________
-- Job outlook percent and years: ____________________________________
-- Number of jobs or annual openings: _________________________________
+- Outlook (% and years):
 
-**What this worker does** (one clear sentence):
-
-[[lines: 2]]
-
-**One DFW employer or industry that may hire this work and the source:**
-
-[[lines: 2]]
+[[lines: 1]]
 
 **Keep the labels.** A localized range and a national median are different measures. Do not replace one with the other.
 
@@ -44,6 +47,8 @@ Pick three programming or IT careers available in H&L or Xello. Use the exact di
 
 ## Career 2 Evidence Record
 
+### Day 2 - HQIM career evidence
+
 **Exact career title:** ______________________________________________
 
 **HQIM localized salary**
@@ -53,30 +58,29 @@ Pick three programming or IT careers available in H&L or Xello. Use the exact di
 - Measure shown (range, median, or other): ____________________
 - Figure: ____________________  Date viewed: ____________________
 
-**External national cross-check**
+**One task this worker does:**
+
+[[lines: 2]]
+
+**Common preparation** (education, training, or certification):
+
+[[lines: 2]]
+
+### Day 3 - BLS national cross-check
 
 - BLS occupation title: _____________________________________________
 - National median: ____________________  Data year: ____________________
 - Typical entry education: __________________________________________
-- Job outlook percent and years: ____________________________________
-- Number of jobs or annual openings: _________________________________
+- Outlook (% and years):
 
-**What this worker does** (one clear sentence):
-
-[[lines: 2]]
-
-**One DFW employer or industry that may hire this work and the source:**
-
-[[lines: 2]]
-
-**Source difference I notice:**
-
-[[lines: 2]]
+[[lines: 1]]
 
 [[pagebreak]]
 
 ## Career 3 Evidence Record
 
+### Day 2 - HQIM career evidence
+
 **Exact career title:** ______________________________________________
 
 **HQIM localized salary**
@@ -86,25 +90,22 @@ Pick three programming or IT careers available in H&L or Xello. Use the exact di
 - Measure shown (range, median, or other): ____________________
 - Figure: ____________________  Date viewed: ____________________
 
-**External national cross-check**
+**One task this worker does:**
+
+[[lines: 2]]
+
+**Common preparation** (education, training, or certification):
+
+[[lines: 2]]
+
+### Day 3 - BLS national cross-check
 
 - BLS occupation title: _____________________________________________
 - National median: ____________________  Data year: ____________________
 - Typical entry education: __________________________________________
-- Job outlook percent and years: ____________________________________
-- Number of jobs or annual openings: _________________________________
+- Outlook (% and years):
 
-**What this worker does** (one clear sentence):
-
-[[lines: 2]]
-
-**One DFW employer or industry that may hire this work and the source:**
-
-[[lines: 2]]
-
-**Source difference I notice:**
-
-[[lines: 2]]
+[[lines: 1]]
 
 [[pagebreak]]
 

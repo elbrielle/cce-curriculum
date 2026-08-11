@@ -68,8 +68,18 @@ CompTIA may be used as a current optional example of industry certification. Cer
 - Test `makecode.microbit.org` on a student-filtered Chromebook.
 - Choose the primary build route and its backup before Day 3.
 - If using hardware, count boards and data-capable cables and test one full connect/download cycle. Update firmware only when a board fails the official connection check and troubleshooting guidance points to firmware.
-- Assign one Chromebook per team for Days 3-5 and choose a durable backup method: screenshot, share link, downloaded `.hex`, or signed paper trace.
-- Post or print the Week 4 support packet in the order students use it.
+- Plan teams of four for Days 3-5. Per team, prepare one Chromebook, one scenario card, one matching three-card sort, one block-order guide, one Program Evidence sheet, and one micro:bit plus data-capable cable only when using hardware.
+- Assign Driver, Navigator, Tester, and Evidence Recorder. In a team of three, the Tester also records. Rotate Driver and Navigator after the Button A branches are complete.
+- Choose one durable backup method for the class: screenshot, share link, downloaded `.hex`, or signed paper trace. Label the digital or paper turn-in location before Day 3.
+- Do not make one 13-item student packet. Print only the pages students write on; post reusable references digitally or provide one copy per pair or team.
+
+### Default quantities
+
+- **Day 1:** one Career Cards packet per pair, one Career and Interest Check per student, one rostered Chromebook per student for Xello.
+- **Day 2:** one Route Data Guide per pair, one comparison and one Route Decision per student, one model per pair only when students need it at the desk.
+- **Day 3:** one complete build/evidence set per team of four and one Day 3 exit check per student.
+- **Day 4:** one role-play script per pair, one Customer Service Check per student, one monitoring roster for the teacher.
+- **Day 5:** one Program Evidence sheet per team, one individual connection per student, and one rostered Chromebook per student for Xello.
 
 ### Print/post in teaching order
 
@@ -121,6 +131,14 @@ CompTIA may be used as a current optional example of industry certification. Cer
 - MakeCode unavailable: use the paper trace and partner initials.
 - Student absent Day 3 or 4: complete the same paper logic/test record or join the assigned team's durable evidence on return.
 - Student absent Day 5: submit a written lightning-demo script or explain privately, then complete the individual connection and Xello catch-up.
+
+## Safe Trim and Cleanup Points
+
+- **Day 1:** cut optional H&L browsing and the whole-class share first. Protect the fixed career evidence, 15-minute Xello block, and written connection.
+- **Day 2:** cut CompTIA browsing and shorten the share to one response. Protect all three route rows and the written recommendation.
+- **Day 3:** at minute 35, move a team without working Button A to the equal paper trace. Stop all building at minute 40; test, back up, complete the exit check, then return hardware.
+- **Day 4:** cap file recovery at three minutes and use the backup or paper trace. Run one role-play round instead of two when needed; protect the test, revision, and individual check.
+- **Day 5:** stop demos at minute 20 and move unfinished teams to a written or private route. Protect the full 20-minute Xello block and individual submission.
 
 ## Optional Whole-Group Slide Deck
 

@@ -79,6 +79,11 @@ async def main():
                 for path in sorted(p for p in day_dir.iterdir() if p.suffix.lower() in {".png",".jpg",".jpeg"}):
                     if path.suffix.lower()==".png" and (day_dir/f"{path.stem}.jpg").exists(): continue
                     uploads[day][path.name]=await upload(c,path,folder_path)
+        deck_path=ASSETS/"day2/optional-whole-group/safe-or-spoofed-lesson-presentation.pptx"
+        if not deck_path.exists(): raise ValueError(f"Missing reviewed Day 2 lesson presentation: {deck_path}")
+        files["DAY2_DECK"]=await upload(c,deck_path,"course files/CCR Materials/1SW/Wk5/Day 2 Visuals")
+        if not files["DAY2_DECK"].get("locked"):
+            files["DAY2_DECK"]=await api(c,"PUT",f"/files/{files['DAY2_DECK']['id']}",data={"locked":"true"})
         student_values={
           1:{"PROGRAM_IMAGE_ID":uploads[1]["irving-it-programs.png"]["id"],"ROUTE_FILE_ID":files["ROUTE"]["id"]},
           2:{"FLAGS_IMAGE_ID":uploads[2]["safe-or-spoofed-red-flags.png"]["id"],"CHECK_FILE_ID":files["CHECK"]["id"],"EMAIL_DETAILS":image_details(COURSE_ID,uploads[2])},
@@ -95,6 +100,7 @@ async def main():
         teacher_data[2].update({
           "TITLE":"Safe or Spoofed? Phishing and Integrity",
           "SUBTITLE":"50 minutes - TEKS d(4)(F)",
+          "PREP":f'<ul><li>Open the <a href="/courses/{COURSE_ID}/files/{files["DAY2_DECK"]["id"]}/preview">optional whole-group lesson presentation</a>; it carries the bellringer, model, paced email reveals, midpoint check, and close.</li><li>Post or print the <a href="/courses/{COURSE_ID}/files/{files["CHECK"]["id"]}/preview">Phishing Red-Flag Checklist</a>. Default printing is one checklist per student only when students are not annotating digitally.</li><li>Confirm FYF pp. 24-25 and the seven locked email images are available. Post the response: Pause, verify independently, report, delete.</li></ul>',
           "EVIDENCE":"<p>Formative/minor option: seven decisions, hardest-call explanation, independent verification response, and integrity explanation. Score visible evidence and revision, not whether the student's first call matches the key.</p>",
           "MONITOR":"<p><strong>Key:</strong> 1 spoofed (prize, odd sender/link); 2 spoofed (amaz0n and order-check domain); 3 safe-looking (company HR, no link/private request; still verify through portal/known HR); 4 spoofed (.co sender, TODAY, update link); 5 spoofed (urgent suspension and unrelated fix domain); 6 spoofed (.co sender and portal-login link); 7 safe-looking (ordinary manager note; verify through known channel if uncertain). Safe-looking is not proven safe. A practice message sent to a real person would be dishonest and could cause harm; it stays fictional and private.</p>"})
         teacher_data[3].update({

@@ -69,6 +69,41 @@ The student page must work during class and as an independent absence/catch-up p
 
 Keep required directions visible. Use native `<details><summary>` sections only for optional help, examples, vocabulary, sentence frames, early-finishers, or catch-up directions. Do not use legacy `enhanceable_content tabs`.
 
+### Teacher operations gate
+
+Passing the page/template checks does not by itself mean a new teacher can run
+the lesson tomorrow. Before release, cold-read the pair as a classroom operator:
+
+1. supply the finished model, non-example, answer guidance, or tested procedure
+   the guide expects; do not assign “make an example” as hidden teacher prep;
+2. name the default route and exact operational quantities: copies per student
+   or team, team size, number of card sets, devices, stations, and any pages that
+   are reference-only rather than printed;
+3. fit setup, transitions, login, material changes, submission, and cleanup
+   inside the stated class period instead of making the activity blocks consume
+   all available minutes;
+4. identify one safe trim point that protects the Objective and Demonstration of
+   Learning when a period is shortened;
+5. turn active monitoring into an executable move: name the lap or checkpoint,
+   the target evidence, the feedback students receive, the likely misconception,
+   and the teacher pivot if several students miss it;
+6. when a lesson already includes student talk, give it a short accountable
+   structure such as Stop and Jot, Turn and Talk, Think-Pair-Share, or Q-SSA;
+   do not add a new activity or written artifact merely to display a strategy
+   label;
+7. place one essential word bank, complete-thought frame, or visual cue beside a
+   language-heavy response job. A larger bilingual support packet may remain
+   optional, but the minimum scaffold may not be hidden at the bottom of the
+   page; and
+8. provide a meaningful early-finisher or recovery move that deepens or repairs
+   the same evidence instead of sending students to unrelated busywork.
+
+For required Xello tasks, the same gate includes a recurring teacher routine:
+check the Completion Standards report, record access/catch-up needs, protect the
+task minimum, and verify the completion evidence after the supervised catch-up
+window. A paper activity may support access while the platform is unavailable,
+but it does not become false Xello completion.
+
 ## 2. Source and licensing boundary
 
 Use sources in this order:

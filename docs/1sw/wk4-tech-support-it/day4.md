@@ -18,7 +18,7 @@
 
 ## Before Students Arrive
 
-Confirm that teams can reopen the project or retrieve their backup. Post the four customer-service rules and print the [Role-Play Script](../../resources/worksheets/wk4-help-desk-role-play-script.pdf), optional [bilingual script](../../resources/worksheets/wk4-help-desk-role-play-script-bilingual.pdf), monitoring roster, and [Customer Service Check](../../resources/worksheets/wk4-day4-customer-service-check.pdf).
+Keep the Day 3 teams and pair each team with one neighboring test team. Per team, set out one saved project or paper trace and one Program Evidence sheet. Print one [Role-Play Script](../../resources/worksheets/wk4-help-desk-role-play-script.pdf) per pair, one [Customer Service Check](../../resources/worksheets/wk4-day4-customer-service-check.pdf) per student, one monitoring roster for the teacher, and place the optional [bilingual script](../../resources/worksheets/wk4-help-desk-role-play-script-bilingual.pdf) at the same table. Post a visible timer and the four customer-service rules.
 
 ## Bellringer — Technical Problem or Communication Problem? (5 min)
 
@@ -36,6 +36,8 @@ Teams confirm:
 - the evidence sheet explains the first-step reason.
 
 Core behavior comes before sound, animation, or extra steps.
+
+Cap file recovery at three minutes. If a project does not reopen, use the named backup or paper trace instead of rebuilding.
 
 ## Activity 2 — Partner Test and Revision (10 min)
 
@@ -62,13 +64,15 @@ Teach the four rules before practice:
 3. give one step at a time; and
 4. stay calm and explain what happens next.
 
-Pairs complete two short rounds and switch roles. A written chat transcript or annotated script is an equal route.
+Pairs complete one short round and switch roles for a second round if time allows. A written chat transcript or annotated script is an equal route.
 
 **Active monitoring:** record one observed example for each student. If several students skip acknowledgment, pause and model one opening line. Do not grade acting confidence, accent, or humor.
 
 ## Activity 4 — Customer Service Check (10 min)
 
 Students select the best first response, identify two rules it follows, rewrite one rejected response, and name another career that uses the same communication skill.
+
+Begin this check by minute 40. Use the final two minutes to collect checks, scripts, and team evidence and return any hardware.
 
 **Answer key:** C. It acknowledges the urgency, uses calm language, and asks one diagnostic question. A corrects emotion instead of helping; B skips acknowledgment and assumes a cause; D abandons the user.
 

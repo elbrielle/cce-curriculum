@@ -19,8 +19,8 @@
 
 ## Before Students Arrive
 
-1. Order teams before class and cap each lightning demo at one minute.
-2. Post the [16-point rubric](../../resources/worksheets/wk4-demo-rubric.pdf) and print the [individual connection](../../resources/worksheets/wk4-day5-xello-skill-connection.pdf).
+1. Order teams before class and cap each lightning demo at one minute. If there are more than eight teams, prepare two gallery lanes or the written or private route.
+2. Set out one Program Evidence sheet per team. Project the [16-point rubric](../../resources/worksheets/wk4-demo-rubric.pdf), print one per team only when students need a desk copy, and print one [individual connection](../../resources/worksheets/wk4-day5-xello-skill-connection.pdf) per student.
 3. Check Xello rosters and open the locked **About Me** teacher guide at the Add/Update Skill section.
 4. Prepare a private turn-in location for the team evidence and individual sheet.
 
@@ -34,11 +34,13 @@ Each team shows or traces:
 4. one IT support career and its common preparation; and
 5. one transferable skill used by the team.
 
-Keep the demo formative. Do not live-score performance polish or post team totals. If the class has more teams than the time permits, use two gallery stations or schedule private/written explanations while protecting the Xello block.
+Keep the demo formative. Do not live-score performance polish or post team totals. Stop demos at minute 20; unfinished teams use a gallery, private, or written explanation while the class protects the Xello block.
 
 ## Activity 2 — Xello Add Skills (20 min)
 
 Before opening Xello, students stop and jot one specific skill example from school, home, a team, or an activity. Then they open **Xello → About Me → Skills**, add or update at least one real skill, and record an example.
+
+Post the word bank **skill, evidence, transfer, preparation, example** and the complete frame: “I used ___ when I ___. An IT support worker uses it to ___. A ___ also uses it to ___.”
 
 Verify completion through the Completion Standards report. Do not require public screenshots of profile information.
 

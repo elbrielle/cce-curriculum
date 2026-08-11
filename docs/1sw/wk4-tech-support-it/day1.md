@@ -20,7 +20,7 @@
 ## Before Students Arrive
 
 1. Open FYF pp. 36 and 38 in the locked Canvas student guide.
-2. Post the [IT Support Career Cards](../../resources/worksheets/wk4-it-support-career-cards.pdf) and [Career and Interest Check](../../resources/worksheets/wk4-day1-career-interest-check.pdf).
+2. Print one [IT Support Career Cards](../../resources/worksheets/wk4-it-support-career-cards.pdf) packet per pair and one [Career and Interest Check](../../resources/worksheets/wk4-day1-career-interest-check.pdf) per student.
 3. Check the Xello roster and open the locked **My Interests** teacher guide.
 4. If using H&L, verify the live pathway and Hat titles. The career cards remain the complete required route.
 
@@ -41,7 +41,7 @@ Use FYF p. 36 to connect the work to Irving ISD's Technology Support program, th
 
 Students underline one task, circle common preparation, and box one transferable skill on each card. They then choose two roles and begin the comparison.
 
-**Stop and Jot:** “One role handles ___, while the other handles ___. Their preparation differs because ___.”
+**Stop and Jot:** Post the word bank **task, preparation, certification, transferable skill**. Students complete: “One role handles ___, while the other handles ___. Common preparation may include ___. Their preparation differs because ___.”
 
 **Active-monitoring look-fors**
 

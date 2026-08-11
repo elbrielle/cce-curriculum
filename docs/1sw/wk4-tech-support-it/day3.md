@@ -19,11 +19,11 @@
 
 ## Before Students Arrive
 
-1. Test `makecode.microbit.org` on a student-filtered Chromebook and leave one completed example open.
-2. Assign one Chromebook per team for Days 3-5.
+1. Test `makecode.microbit.org` once on a student-filtered Chromebook. Project the supplied Block-Order Guide and printer trace in the Student Guide; no teacher-created MakeCode project is required.
+2. Make teams of four. Per team, prepare one Chromebook, one scenario card, one matching three-card sort, one Block-Order Guide, one Program Evidence sheet, and one micro:bit plus data-capable cable only when using hardware.
 3. Choose and state the durable backup method.
 4. If using boards, test one complete connect/download cycle. Do not update every board preemptively. Official micro:bit guidance treats firmware update as a troubleshooting step when a compatible device is not found or the installed firmware is too old.
-5. Print duplicate [Scenario Cards](../../resources/worksheets/wk4-help-desk-scenario-cards.pdf), the [Block-Order Guide](../../resources/worksheets/wk4-makecode-starter-blocks.pdf), [Step-Sort Cards](../../resources/worksheets/wk4-troubleshooting-step-sort-cards.pdf), and [Program Evidence](../../resources/worksheets/wk4-help-desk-program-evidence.pdf).
+5. Print one [Day 3 exit check](../../resources/exit-tickets/1sw-wk4-day3-help-desk-simulator-makecode-day-1.pdf) per student. Label the hardware return and evidence turn-in locations.
 
 ## Bellringer — Put the Checks in Order (5 min)
 
@@ -33,11 +33,13 @@ Expected reasoning: start with a fast, low-risk check before a more disruptive o
 
 ## Activity 1 — Scenario, Roles, and Project Name (10 min)
 
-Give each team one scenario. Assign flexible roles: driver, navigator, tester, and evidence recorder. Students write the exact project name: **Period - Team - Help Desk**.
+Give each team one scenario. The Driver controls the device, the Navigator reads one block at a time, the Tester predicts and runs A/A/A/A/B, and the Evidence Recorder writes what happened. In a team of three, the Tester also records. Rotate Driver and Navigator after the Button A branches. Students write the exact project name: **Period - Team - Help Desk**.
 
 Teams use the Step-Sort Cards and say their reasoning aloud:
 
 > “We put ___ first because it is a fast, low-risk check. We put ___ last because ___.”
+
+Project the word bank **sequence, variable, branch, test, backup**. Before teams build, every team must explain its first step with the frame above.
 
 Check the Wi-Fi card specifically: the scenario says everyone else is online, so students troubleshoot the user's device and do not restart shared network equipment.
 
@@ -52,6 +54,8 @@ Chunk the process. Students test after each chunk.
 5. After Step 3, return to Step 1.
 6. Add Button B to display “FIXED.”
 
+After the variable chunk, ask every Tester to identify the value before the first press. After Button A, every Tester dry-traces A/A/A/A before the team continues. If two teams skip directly to Step 2, pause and point to block 11 on the supplied guide.
+
 The paper route uses the same Block-Order Guide. Students trace Button A four times and Button B once.
 
 **Active-monitoring look-fors**
@@ -63,7 +67,7 @@ The paper route uses the same Block-Order Guide. Students trace Button A four ti
 
 ## Activity 3 — Test, Save, and Exit (10 min)
 
-Students record their first test, one bug or confusion, and the durable backup location. They complete the Day 3 branching exit ticket.
+At minute 35, teams without working Button A move to the equal paper trace. At minute 40, all building stops. Students test from minutes 40-44, save or sign the trace from 44-47, complete the branching exit from 47-49, then close tabs, return hardware, and turn in evidence.
 
 Before leaving, every student names one skill used today and another career or setting that uses the same skill. Examples include nursing, teaching, automotive repair, customer service, and engineering.
 
