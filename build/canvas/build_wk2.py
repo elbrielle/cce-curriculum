@@ -37,6 +37,21 @@ async def upload(c,path,folder):
     if not uploaded.get("locked"):
         raise ValueError(f"Canvas file did not remain locked: {uploaded.get('display_name', path.name)}")
     return uploaded
+async def lock_folder_files(c,folder_id):
+    folder=await api(c,"GET",f"/folders/{folder_id}")
+    if not folder.get("locked"):
+        folder=await api(c,"PUT",f"/folders/{folder_id}",data={"locked":"true"})
+    if not folder.get("locked"):
+        raise ValueError(f"Canvas folder did not remain locked: {folder_id}")
+    existing=await paged(c,f"/folders/{folder_id}/files")
+    for file in existing:
+        if not file.get("locked"):
+            await api(c,"PUT",f"/files/{file['id']}",data={"locked":"true"})
+    verified=await paged(c,f"/folders/{folder_id}/files")
+    unlocked=[file["id"] for file in verified if not file.get("locked")]
+    if unlocked:
+        raise ValueError(f"Canvas folder {folder_id} contains unlocked files: {unlocked}")
+    return verified
 async def find_file(c,name):
     files=await paged(c,f"/courses/{COURSE_ID}/files",{"search_term":name}); match=next((f for f in files if f.get("display_name")==name),None)
     if not match: raise ValueError(f"Canvas file not found: {name}")
@@ -69,11 +84,19 @@ async def main():
         support_names={
           "PROGRAMS":"wk2-it-programs-scaffold.pdf","EXAMPLE":"wk2-career-research-web-developer.pdf","SALARY":"wk2-it-salary-comparison.pdf","MODEL":"wk2-it-salary-comparison-model.pdf","SALARY_BI":"wk2-it-salary-comparison-bilingual.pdf","GUIDE":"wk2-bls-data-guide.pdf","FLIP":"wk2-flip-the-failure-scaffold.pdf","RUBRIC":"wk2-salary-hoc-rubric.pdf","CLIPBOARD":"clipboard-roster-grid.pdf","D5":"wk2-day5-it-pathway-decision.pdf",
           "E1":"1sw-wk2-day1-it-cluster-tour-four-irving-programs-of-study.pdf","E2":"1sw-wk2-day2-programming-pathway-deep-dive-software-web-app-game.pdf","E3":"1sw-wk2-day3-powerskill-resilience-it-salary-showdown.pdf","E4":"1sw-wk2-day4-code-org-hour-of-code-day-1.pdf"}
-        support_folder="course files/CCR Materials/1SW/Wk2"; await ensure_folder(c,support_folder); files={}
+        support_folder="course files/CCR Materials/1SW/Wk2"; support_folder_info=await ensure_folder(c,support_folder); files={}
         for key,name in support_names.items():
             source_dir=ROOT/"docs/resources/exit-tickets" if name.startswith("1sw-") else ROOT/"docs/resources/worksheets"
             files[key]=await upload(c,source_dir/name,support_folder)
+        await lock_folder_files(c,support_folder_info["id"])
         files["XELLO"]=await find_file(c,"personality-styles.pdf")
+        xello_folder_id=files["XELLO"].get("folder_id")
+        if not xello_folder_id:
+            raise ValueError("Xello personality-styles.pdf did not report a folder_id")
+        await lock_folder_files(c,xello_folder_id)
+        files["XELLO"]=await find_file(c,"personality-styles.pdf")
+        if not files["XELLO"].get("locked"):
+            raise ValueError("Xello personality-styles.pdf did not remain locked")
         uploads={}; folders={}
         for day in range(1,6):
             folder_path=f"course files/CCR Materials/1SW/Wk2/Day {day} Visuals"; folders[day]=await ensure_folder(c,folder_path); uploads[day]={}
