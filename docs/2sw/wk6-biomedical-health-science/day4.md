@@ -2,7 +2,7 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
+- **Topic:** Outbreak Response
 - **Objective:** Students will use the FYF case to explain how public-health workers connect evidence to confirming tests, immediate action, and prevention.
 - **TEKS:** d(1)(C)
 - **Demonstration of Learning:** FYF pp. 77-78 response plan and one public-health career-role sentence.
@@ -26,6 +26,8 @@
 2. Students use FYF pp. 77-78 by default. Print the expanded response plan only for the no-workbook or extended route.
 3. Post the real-event boundary. Students are analyzing a fictional case, not issuing medical or public-health instructions.
 4. Prepare the Day 3 key so a student who was absent can enter with the supported working claim.
+5. Default route: individual FYF pp. 77-78. Display one Day 3 supported claim for the class; print the expanded response plan only for the no-workbook or extended route.
+6. Supplied claim: **Tap-water exposure after flooding near the well is the strongest current hypothesis; bottled-water residents who stayed healthy strengthen the comparison, but water testing is still needed.**
 
 ## Warm-Up (5 min)
 
@@ -41,7 +43,7 @@ They estimate possible impact using two case facts: Fairview Edge has about 2,00
 
 **Active Monitoring laps 1 and 2:** Check that the test reaches the suspected source and that the impact reason uses the population or shared system.
 
-## Activity 2: Immediate Action and Prevention (20 min)
+## Activity 2: Immediate Action and Prevention (18 min)
 
 Students use the workbook's approved action choices and response-plan page. The optional expanded record adds separate role, support, evidence, and trade-off fields when the teacher wants that deeper route.
 
@@ -53,7 +55,9 @@ Do not ask students to invent health instructions. The teacher presents the sour
 
 Students name one public-health worker who would test, communicate, or manage part of the response and the work product that person would produce. This sentence is the direct d(1)(C) evidence.
 
-## Activity 3: Quiet Peer or Self-Review (5 min)
+**Safe trim:** Cut the peer exchange and use the private self-check. Protect one confirming test, the impact estimate, one immediate action with a reason, one prevention priority tied to a clue, and the career-role sentence. Reserve three minutes to collect or confirm workbook evidence.
+
+## Activity 3: Quiet Peer or Self-Review (4 min)
 
 Students use the five-item review checklist. A partner may mark one missing link between evidence and action. A private self-check is equal and does not reduce the score.
 

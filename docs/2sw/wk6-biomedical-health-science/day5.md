@@ -3,7 +3,7 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Assessment
-- **Objective:** Students will analyze and discuss the initial results of career assessments using evidence from Career Assessment.
+- **Objective:** Students will analyze one Xello career match using an interest, a career task, and evidence from Find out why.
 - **TEKS:** d(1)(A)
 - **Demonstration of Learning:** Xello Explore career matches completion plus submitted private Canvas reflection.
 <!-- CCE DAILY CONTRACT END -->
@@ -28,6 +28,7 @@
 4. Test ClassLink to Xello on the student network.
 5. Keep the full resource's 120-minute option separate from today's required 35-minute district minimum.
 6. Open the unpublished private reflection assignment. Print the one-page reflection only when assigning paper.
+7. Default route: individual work with one device per student. A peer navigator may point to the next step but does not control another student's account or view private results unnecessarily.
 
 ## Warm-Up (5 min)
 
@@ -52,6 +53,8 @@ The official 1-page directions and video remain beside the numbered steps in Can
 
 **Completion evidence:** Use the Xello Completion Standards report. Do not require a public screenshot of a student's profile or assessment results.
 
+**Safe trim:** Cut the separate exit prompt because the private reflection already captures the TEKS evidence. Do not cut the 35-minute Xello lesson, Find out why, report verification, or catch-up record. Reserve two minutes for students to submit privately, sign out, and close personal account screens.
+
 ## Activity 2: Private Reflection (5 min)
 
 Students complete the before-and-after section:
@@ -64,11 +67,11 @@ Students complete the before-and-after section:
 
 The student may choose the match. Do not require them to share the result with a partner.
 
-## Exit Ticket (5 min)
+## Private Reflection and Exit Check (5 min)
 
 **EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/2sw-wk6-day5-xello-explore-career-matches.pdf):
 
-What is one reason a student should think critically about a career-assessment result instead of accepting or rejecting it immediately? Use one detail from today's Xello work.
+The final private-reflection response is the exit check: explain one reason a student should think critically about a career-assessment result instead of accepting or rejecting it immediately. Use one detail from today's Xello work. Do not submit a second response.
 
 ## Teacher Key and Extension Prompt
 

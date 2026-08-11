@@ -19,25 +19,26 @@
 
 ## Before class
 
+- Provide **one two-page SMART/time-plan copy per student, double-sided when available**, or **one internet-connected device per student** for the teacher-approved digital annotation route. Provide **one teacher display/device** with the FYF p. 134 scenario and worked model.
 - Open the locked FYF p. 134 scenario. Keep p. 135 as an optional extension.
 - Use the workbook scenario as a scenario, not a source of current national statistics. Say “limited food access can make a healthy diet harder.”
-- Prepare one current course checkpoint or date students may use in a goal.
+- Use a supplied checkpoint such as **end of the next class** or **the teacher-posted Week 6 checkpoint**. Teachers do not create an extra calendar handout.
 
 ## Lesson flow
 
-### 1. Warm-up: Assertive or aggressive? (5 min)
+### 1. Warm-up: Assertive or aggressive? (4 min)
 
 Students revise an aggressive sentence into a respectful request that still names the need.
 
-### 2. Read the advocacy need (10 min)
+### 2. Read the advocacy need (8 min)
 
 Use FYF p. 134. Students identify what Shawn, Roberto, and Alicia need and propose one realistic action a nutritionist could advocate for. Do not repeat the workbook's national count as a current fact.
 
-### 3. Model a SMART goal (8 min)
+### 3. Model a SMART goal (7 min)
 
 Weak: “I want to learn about careers.”
 
-Model: “By the Week 6 checkpoint, I will compare three careers using one responsibility and one preparation fact for each.”
+Model: “By the Week 6 checkpoint, I will compare three careers using one responsibility and one preparation fact for each so I can choose one route to investigate next.”
 
 Check Specific, Measurable, Achievable, Relevant, and Time-bound. Then add what the acronym alone misses: when the work will happen and what the student will do if the first plan fails.
 
@@ -53,13 +54,23 @@ Monitor for:
 - a time block that fits the week; and
 - a backup that changes the route, not the goal.
 
-### 5. Exit check (7 min)
+### 5. Self-check, revise, and transfer (7 min)
 
 Students revise one weak component and complete the two-career advocacy transfer lines. This is DOK 2-3 work, not DOK 4.
 
+### 6. Submit and reset (4 min)
+
+Students confirm the goal, two time blocks, obstacle, if-then backup, and transfer lines. **Trim:** if drafting runs long, use private self-check instead of peer feedback. Do not cut the backup, revision, transfer, or close.
+
+## Active monitoring move
+
+- **Model CFU:** students identify the action, measure, and deadline in the worked example.
+- **Lap 1:** check for a visible product/count and a real checkpoint. If more than one in four goals uses “someday,” project the model and revise the deadline together.
+- **Lap 2:** check that the backup changes the route, not the goal. If a backup repeats the same blocked action, prompt “What different route still reaches the evidence?”
+
 ## Supports and fallbacks
 
-- Provide the frame: “By ____, I will ____ as shown by ____. I will work on it ____. If ____, then I will ____.”
+- Place the complete frame beside the goal and backup: **“By ____, I will ____ as shown by ____. I will work on it ____. If ____, then I will ____.”**
 - Language support: goal = meta; deadline = fecha límite; obstacle = obstáculo; backup = alternativa.
 - Allow speech-to-text or a teacher scribe when documented.
 - If a student has no safe goal to share, use a fictional student goal and score the same criteria.

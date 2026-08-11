@@ -1,34 +1,20 @@
 ---
-title: Written Message Lab
+title: Workplace Message Companion
 slug: 2sw-wk5-written-message-lab
 kind: worksheet
 weeks: 2sw/wk5-powerskills-communication
 audience: student
 variant_of:
 language: en
-pages: 2
+pages: 1
 orientation: portrait
 ---
 
-## Part 1: Fictional Little Library post
+## Use this companion after FYF pp. 147-148
 
-Do not post from a real social account. Do not use a real address, photo, handle, phone number, or personal name.
+The workbook is the writing surface for the fictional Little Library message. This page adds only the fixed-fact workplace rewrite and transfer evidence. Do not post from a real account or use a real address, photo, handle, phone number, or personal name.
 
-Fictional status: **full / empty / needs a type of book**
-
-Fictional general location: _________________________________________________________________
-
-Reader action: **donate / visit / take books / other:** ______________________________________
-
-Draft a 2-4 sentence post with a clear status, one action, and two useful hashtags.
-
-[[lines: 5]]
-
-Self-check: **reader-focused / clear / concise / on-topic / proofread**
-
-[[pagebreak]]
-
-## Part 2: Rewrite one fixed workplace message
+## Rewrite one fixed workplace message
 
 Choose one. Use only the supplied facts.
 
@@ -43,6 +29,8 @@ Audience: ______________________________  Action the reader must take: _________
 Rewritten message:
 
 [[lines: 5]]
+
+Complete frame: “The ____ is ____. Please ____ by ____. Questions should go to ____.”
 
 ## Notice + Question + Next Step
 

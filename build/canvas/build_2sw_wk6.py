@@ -6,6 +6,7 @@ import mimetypes
 import re
 import sys
 from pathlib import Path
+from urllib.parse import urlencode
 
 import httpx
 
@@ -116,12 +117,36 @@ async def upload(client, path, folder_path):
         follow_redirects=True,
     )
     response.raise_for_status()
-    record = response.json()
+    record = await api(
+        client, "PUT", f"/files/{response.json()['id']}", data={"locked": "true"}
+    )
     if not record.get("locked"):
-        record = await api(
-            client, "PUT", f"/files/{record['id']}", data={"locked": "true"}
-        )
+        raise RuntimeError(f"Canvas did not lock uploaded file {path.name!r}")
     return record
+
+
+async def lock_folder_files(client, folder):
+    current = await api(client, "GET", f"/folders/{folder['id']}")
+    if not current.get("locked"):
+        current = await api(
+            client, "PUT", f"/folders/{folder['id']}", data={"locked": "true"}
+        )
+    if not current.get("locked"):
+        raise RuntimeError(
+            f"Canvas did not lock folder {folder.get('full_name') or folder['id']}"
+        )
+    for entry in await paged(client, f"/folders/{folder['id']}/files"):
+        if not entry.get("locked"):
+            await api(client, "PUT", f"/files/{entry['id']}", data={"locked": "true"})
+    final = await paged(client, f"/folders/{folder['id']}/files")
+    unlocked = [
+        entry.get("display_name") or entry.get("filename")
+        for entry in final
+        if not entry.get("locked")
+    ]
+    if unlocked:
+        raise RuntimeError(f"Unlocked files remain in folder {folder['id']}: {unlocked}")
+    return current
 
 
 def render(template_name, values):
@@ -270,6 +295,55 @@ QUIZ_QUESTIONS = [
 ]
 
 
+async def prepare_quiz_questions(client, quiz_id, desired_names):
+    existing = await paged(
+        client, f"/courses/{COURSE_ID}/quizzes/{quiz_id}/questions"
+    )
+    keep, seen = [], set()
+    for question in existing:
+        name = question.get("question_name")
+        if name not in desired_names or name in seen:
+            await api(
+                client,
+                "DELETE",
+                f"/courses/{COURSE_ID}/quizzes/{quiz_id}/questions/{question['id']}",
+            )
+        else:
+            seen.add(name)
+            keep.append(question)
+    return keep
+
+
+async def finalize_quiz_order(client, quiz_id, expected_names):
+    final = await paged(client, f"/courses/{COURSE_ID}/quizzes/{quiz_id}/questions")
+    by_name = {entry.get("question_name"): entry for entry in final}
+    if set(by_name) != set(expected_names) or len(final) != len(expected_names):
+        raise RuntimeError(
+            f"Quiz {quiz_id} question mismatch: "
+            f"{[entry.get('question_name') for entry in final]}"
+        )
+    fields = []
+    for name in expected_names:
+        fields.extend(
+            [("order[][id]", str(by_name[name]["id"])), ("order[][type]", "question")]
+        )
+    await api(
+        client,
+        "POST",
+        f"/courses/{COURSE_ID}/quizzes/{quiz_id}/reorder",
+        content=urlencode(fields),
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
+    )
+    ordered = await paged(
+        client, f"/courses/{COURSE_ID}/quizzes/{quiz_id}/questions"
+    )
+    actual = [entry.get("question_name") for entry in ordered]
+    if actual != expected_names:
+        raise RuntimeError(
+            f"Quiz {quiz_id} order mismatch: expected {expected_names}, found {actual}"
+        )
+
+
 async def upsert_quiz(client):
     quizzes = await paged(client, f"/courses/{COURSE_ID}/quizzes")
     quiz = next((entry for entry in quizzes if entry.get("title") == QUIZ_TITLE), None)
@@ -290,9 +364,8 @@ async def upsert_quiz(client):
         else f"/courses/{COURSE_ID}/quizzes",
         data=data,
     )
-    existing = await paged(
-        client, f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions"
-    )
+    expected = [spec["name"] for spec in QUIZ_QUESTIONS]
+    existing = await prepare_quiz_questions(client, quiz["id"], set(expected))
     for position, spec in enumerate(QUIZ_QUESTIONS, start=1):
         found = next(
             (
@@ -325,6 +398,7 @@ async def upsert_quiz(client):
             else f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions",
             json=payload,
         )
+    await finalize_quiz_order(client, quiz["id"], expected)
     return await api(client, "GET", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}")
 
 
@@ -371,10 +445,25 @@ async def upsert_assignment(client):
         "assignment[published]": "false",
     }
     if found:
-        return await api(
+        assignment = await api(
             client, "PUT", f"/courses/{COURSE_ID}/assignments/{found['id']}", data=data
         )
-    return await api(client, "POST", f"/courses/{COURSE_ID}/assignments", data=data)
+    else:
+        assignment = await api(
+            client, "POST", f"/courses/{COURSE_ID}/assignments", data=data
+        )
+    if (
+        assignment.get("published")
+        or float(assignment.get("points_possible") or 0) != 0
+        or assignment.get("grading_type") != "not_graded"
+    ):
+        raise RuntimeError(
+            "Formative reflection invariant failed after update: "
+            f"published={assignment.get('published')}, "
+            f"points={assignment.get('points_possible')}, "
+            f"grading={assignment.get('grading_type')}"
+        )
+    return assignment
 
 
 async def upsert_assignment_item(client, module_id, assignment):
@@ -460,6 +549,10 @@ async def main():
                 for path in sorted(source.glob("*.png")):
                     uploads[day][path.name] = await upload(client, path, folder_path)
 
+        support_folder = await lock_folder_files(client, support_folder)
+        for day, folder in folders.items():
+            folders[day] = await lock_folder_files(client, folder)
+
         quiz_url = f"/courses/{COURSE_ID}/quizzes/{quiz['id']}"
         assignment_url = f"/courses/{COURSE_ID}/assignments/{assignment['id']}"
         xello_video = '<div style="max-width:760px;margin:18px auto"><iframe title="Xello: Understanding Your Career Matches" src="https://www.youtube.com/embed/xq__qvzVSYU" width="760" height="428" allowfullscreen="allowfullscreen" style="width:100%;max-width:760px;border:0"></iframe><p style="font-size:14px">If the video is blocked, use the numbered steps and one-page directions below.</p></div>'
@@ -468,7 +561,7 @@ async def main():
             1: {
                 "TITLE": "Compare Biomedical Careers and Write for a Job",
                 "PURPOSE": "Use one dated evidence set and answer a fictional job posting with honest evidence.",
-                "TOPIC": "Career Opportunities",
+                "TOPIC": "Biomedical Careers",
                 "I_CAN": "I can compare three biomedical careers and write a practice cover letter that answers one employer need with honest evidence.",
                 "SHOW_LEARNING": "Complete the career comparison and five-part practice cover letter.",
                 "TODAY": "<ul><li>compare three biomedical careers;</li><li>read a fictional Student Lab Helper posting;</li><li>write a five-part practice cover letter.</li></ul>",
@@ -492,7 +585,7 @@ async def main():
                 + step(
                     4,
                     "Draft all five parts",
-                    "<p>Greeting, opening, evidence-based body, closing, and sign-off. Underline the employer need once and your true evidence twice.</p>",
+                    "<p>Greeting, opening, evidence-based body, closing, and sign-off. Underline the employer need once and your true evidence twice.</p><div style=\"border-left:5px solid #1f617a;background:#f2f8fb;padding:10px 14px;margin:12px 0\"><strong>Use while drafting:</strong> employer/empleador · need/necesidad · evidence/evidencia · reliable/confiable<br><strong>Complete thought:</strong> The posting asks for _____. I practiced this when _____. This would help the lab because _____.</div>",
                 ),
                 "EXIT": "<p>Imani has no paid work experience. She organized Science Olympiad supplies and checked a measurement table. Name one posting need she can answer, then write one honest need-to-evidence sentence.</p>",
                 "DONE": "<ul><li>three career measures compared correctly;</li><li>one source and date recorded;</li><li>all five letter parts complete;</li><li>no invented credential, job, or private detail.</li></ul>",
@@ -502,7 +595,7 @@ async def main():
             2: {
                 "TITLE": "Design a Mini Medic",
                 "PURPOSE": "Build a future-technology concept that meets a mission and names the evidence it would still need.",
-                "TOPIC": "Career Opportunities",
+                "TOPIC": "Biomedical Design",
                 "I_CAN": "I can use the FYF future-technology scenario to plan, label, and explain a tiny medical robot and name a career connected to the work.",
                 "SHOW_LEARNING": "Complete FYF pp. 80-81, one evidence question, and one biomedical-career connection.",
                 "TODAY": "<ul><li>read the four mission checks;</li><li>plan, draw, and label a design;</li><li>map its journey and name one safety question.</li></ul>",
@@ -540,7 +633,7 @@ async def main():
                 + step(
                     4,
                     "Name the missing evidence",
-                    "<p>Write what a medical researcher would need before testing the idea further.</p>",
+                    "<p>Write what a medical researcher would need before testing the idea further.</p><div style=\"border-left:5px solid #1f617a;background:#f2f8fb;padding:10px 14px;margin:12px 0\"><strong>Use while explaining:</strong> clot/coágulo · vessel/vaso · guide/guiar · signal/señal · evidence/evidencia<br><strong>Complete thought:</strong> The _____ feature helps the design _____, but researchers still need evidence about _____ before testing.</div>",
                 )
                 + step(
                     5,
@@ -555,7 +648,7 @@ async def main():
             3: {
                 "TITLE": "Follow the Outbreak Evidence",
                 "PURPOSE": "Compare exposure and outcome, write a supported claim, and name what still needs testing.",
-                "TOPIC": "Career Opportunities",
+                "TOPIC": "Outbreak Evidence",
                 "I_CAN": "I can use the FYF case to explain how an epidemiologist compares evidence, writes a working claim, and identifies what still needs testing.",
                 "SHOW_LEARNING": "Complete FYF pp. 75-76 and one epidemiologist work-product sentence.",
                 "TODAY": "<ul><li>read the fictional Fairview Edge case;</li><li>compare sick and healthy residents;</li><li>support one working claim with at least three clues.</li></ul>",
@@ -578,7 +671,7 @@ async def main():
                 + step(
                     2,
                     "Write the report",
-                    "<p>Record cases, symptoms, timing, three clues, likely source, and a because statement.</p>",
+                    "<p>Record cases, symptoms, timing, three clues, likely source, and a because statement.</p><div style=\"border-left:5px solid #1f617a;background:#f2f8fb;padding:10px 14px;margin:12px 0\"><strong>Use while comparing:</strong> outbreak/brote · exposure/exposición · outcome/resultado · source/fuente · hypothesis/hipótesis<br><strong>Complete thought:</strong> Sick residents mostly _____, while residents who stayed healthy _____. The evidence suggests _____ because _____. It does not yet prove _____.</div>",
                 )
                 + step(
                     3,
@@ -608,7 +701,7 @@ async def main():
             4: {
                 "TITLE": "Build the Outbreak Response",
                 "PURPOSE": "Use evidence to choose confirming tests, immediate actions, and one prevention priority.",
-                "TOPIC": "Career Opportunities",
+                "TOPIC": "Outbreak Response",
                 "I_CAN": "I can use the FYF case to explain how public-health workers connect evidence to tests, immediate action, and prevention.",
                 "SHOW_LEARNING": "Complete FYF pp. 77-78 and one public-health career-role sentence.",
                 "TODAY": "<ul><li>choose tests that could confirm the source;</li><li>estimate impact using town facts;</li><li>separate immediate action from prevention.</li></ul>",
@@ -641,7 +734,7 @@ async def main():
                 + step(
                     4,
                     "Choose a prevention priority",
-                    "<p>Connect one supplied prevention choice to a clue and explain why it should come first.</p>",
+                    "<p>Connect one supplied prevention choice to a clue and explain why it should come first.</p><div style=\"border-left:5px solid #1f617a;background:#f2f8fb;padding:10px 14px;margin:12px 0\"><strong>Use while deciding:</strong> immediate/inmediato · prevention/prevención · evidence/evidencia · trade-off/ventaja y límite<br><strong>Complete thought:</strong> We would _____ now because _____. To prevent another event, we would _____ because the case shows _____.</div>",
                 )
                 + step(
                     5,
@@ -678,9 +771,9 @@ async def main():
                 + step(
                     4,
                     "Reflect privately",
-                    f'<p><a href="{assignment_url}">Open the private reflection assignment</a>. Type the four responses or upload the paper route only when your teacher assigned it. Do not submit a profile screenshot.</p>',
+                    f'<p><a href="{assignment_url}">Open the private reflection assignment</a>. Type the four responses or upload the paper route only when your teacher assigned it. Do not submit a profile screenshot.</p><div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:10px 14px;margin:12px 0"><strong>Use while reflecting:</strong> match/coincidencia · interest/interés · task/tarea · evidence/evidencia · changed/cambió<br><strong>Complete thought:</strong> I used to think _____. After reviewing my interest in _____ and the career task _____, I now think _____ because _____.</div>',
                 ),
-                "EXIT": "<p>Why should a student think critically about a career-assessment result? Use one interest, task, or <strong>Find out why</strong> detail from today's work.</p>",
+                "EXIT": "<p>Your final private-reflection response is the exit check. Explain why a student should think critically about a match and use one interest, task, or <strong>Find out why</strong> detail. Do not submit a second response.</p>",
                 "DONE": "<ul><li>Xello lesson completed or catch-up recorded;</li><li>Find out why used for one match;</li><li>before-and-after thinking explained;</li><li>reflection submitted privately.</li></ul>",
                 "SUPPORT": "<p>match = coincidencia · interest = interés · evidence = evidencia · changed = cambió. The one-page Xello directions stay open while you work.</p>",
                 "FALLBACK": "<p>If Xello is unavailable, use the video, directions, and sample reflection. The required Xello lesson moves to supervised catch-up. Paper does not replace platform completion.</p>",
@@ -690,14 +783,14 @@ async def main():
         teacher = {
             1: {
                 "TITLE": "Biomedical Careers and a Practice Cover Letter",
-                "TOPIC": "Career Opportunities",
+                "TOPIC": "Biomedical Careers",
                 "OBJECTIVE": "Students will compare three biomedical careers using preparation and labor-market evidence, then write a practice cover letter that answers one employer need with honest evidence.",
                 "TEKS": "d(1)(C), d(2)(A), d(5)(A), d(7)(B)",
                 "DOL": "Completed three-career comparison and five-part practice cover letter.",
                 "SUBTITLE": "50 minutes · TEKS d(1)(C), d(2)(A), d(5)(A), d(7)(B)",
                 "ALERT": "<strong>Use the fixed evidence and fictional posting.</strong> Do not make teachers find a live job ad or make students search mixed salary measures.",
-                "PREP": f"<ul><li>Post {file_link(files['CAREERS']['id'], 'the Biomedical Career Evidence Guide')} and {file_link(files['LETTER']['id'], 'the Cover Letter Lab')}.</li><li>Project the career table and fictional posting.</li><li>Keep BLS source links available for questions.</li></ul>",
-                "EVIDENCE": "<p>Three-career comparison, one sourced trade-off choice, and a five-part practice letter. Formative portfolio evidence only.</p>",
+                "PREP": f"<ul><li><strong>Default grouping:</strong> pairs for the career scan; individual writing for the letter.</li><li>Project or post {file_link(files['CAREERS']['id'], 'the Biomedical Career Evidence Guide')}; print one copy per pair only when devices are not the reference route.</li><li>Provide one two-page {file_link(files['LETTER']['id'], 'Cover Letter Lab')} per student, or assign digital annotation. Project the supplied fictional posting.</li><li><strong>Supplied model:</strong> “The posting asks for attention to detail. I practiced this when I checked the labels and measurements in my science investigation before submitting it.”</li><li>Keep BLS source links available for questions. No live job search is needed.</li></ul>",
+                "EVIDENCE": "<p>Collect one individual five-part practice letter per student. The three-career comparison is a reference/Stop and Jot, not a second graded packet. Formative portfolio evidence only; Week 6 adds no Minor or Major.</p>",
                 "FLOW": flow(
                     "#5a2d91",
                     "Warm-up · 5",
@@ -715,27 +808,26 @@ async def main():
                 )
                 + flow(
                     "#e3ad19",
-                    "Letter draft · 20",
+                    "Letter draft · 17",
                     "Draft all five parts and underline the evidence match.",
                 )
-                + flow(
-                    "#1f617a", "Exit · 5", "Write one need-to-evidence body sentence."
-                ),
-                "MONITOR": "<p>Key: Biomedical Engineer has the highest median, Epidemiologist the fastest growth, Medical Scientist the most annual openings. Stop if students call the median a starting salary. The letter must answer one posting need with a true example.</p>",
+                + flow("#1f617a", "Exit and collect · 5", "Write one need-to-evidence sentence and submit the individual letter.")
+                + flow("#24323d", "Transition buffer · 3", "Distribute/close documents and confirm names on submissions."),
+                "MONITOR": "<p><strong>Lap 1—career labels:</strong> target = May 2024 U.S. median and 2024-34 projection stay attached. Key: Biomedical Engineer has the highest median, Epidemiologist the fastest growth, Medical Scientist the most annual openings. If several students call median starting pay, pause and relabel one figure together. <strong>Lap 2—posting evidence:</strong> target = one exact employer need matched to one true example. Ask, “Which words came from the posting, and what did you actually do?” If students invent experience, return to the supplied school/team/family examples. <strong>Lap 3—letter:</strong> target = all five parts plus a specific body paragraph.</p><p><strong>Safe trim:</strong> use the teacher-key Stop and Jot instead of a full three-career written comparison. Protect the posting match, honest body paragraph, and five-part letter check.</p>",
                 "RESOURCES": '<p><a href="https://www.bls.gov/ooh/architecture-and-engineering/biomedical-engineers.htm">BLS Biomedical Engineers</a> · <a href="https://www.bls.gov/ooh/life-physical-and-social-science/epidemiologists.htm">BLS Epidemiologists</a> · <a href="https://www.bls.gov/ooh/life-physical-and-social-science/medical-scientists.htm">BLS Medical Scientists</a></p>',
-                "SUPPORT": "<p>Read the posting aloud. Permit typed, written, dictated, or teacher-scribed responses when documented. Score evidence, not mechanics unless meaning is unclear.</p>",
+                "SUPPORT": "<p>The complete need-to-evidence frame is visible beside the drafting step. Read the posting aloud and mark one need/example in different colors. Permit typed, written, dictated, or teacher-scribed responses when documented. Score evidence, not mechanics unless meaning is unclear.</p>",
                 "FALLBACK": "<p>No vendor login is required. Both PDFs contain the full absence route. H&amp;L is optional enrichment only.</p>",
             },
             2: {
                 "TITLE": "Mini Medics Design Challenge",
-                "TOPIC": "Career Opportunities",
+                "TOPIC": "Biomedical Design",
                 "OBJECTIVE": "Students will use the FYF future-technology scenario to plan, label, and explain a tiny medical robot and identify a biomedical career connected to the work.",
                 "TEKS": "d(1)(C)",
                 "DOL": "FYF pp. 80-81 design, one evidence question, and one career-work-product connection.",
                 "SUBTITLE": "50 minutes · TEKS d(1)(C)",
                 "ALERT": "<strong>Future-technology scenario.</strong> The workbook asks students to design and reason. Do not present the concept as a clinically available treatment.",
-                "PREP": f"<ul><li>Open licensed pp. 79-81; students use FYF pp. 80-81 by default.</li><li>Keep {file_link(files['MEDICS']['id'], 'the optional expanded design record')} for the no-workbook or extended route instead of printing it automatically.</li><li>Place paper and drawing tools at tables.</li></ul>",
-                "EVIDENCE": "<p>Mission-aligned plan, labeled design, four-part journey, and one research evidence question. Do not grade art or public speaking.</p>",
+                "PREP": f"<ul><li><strong>Default grouping:</strong> individual FYF design, then partner feedback. Provide one workbook and pencil per student, one ruler per pair, and one drawing-tool cup per table.</li><li>Open licensed pp. 79-81; students write on FYF pp. 80-81 by default.</li><li>Keep {file_link(files['MEDICS']['id'], 'the optional expanded design record')} for the no-workbook or extended route instead of printing it automatically. Chart paper is optional, not required.</li><li>Project the four mission checks. Model one purpose label: <strong>tracking signal — helps the trained team locate the design</strong>. Students create the remaining labels.</li></ul>",
+                "EVIDENCE": "<p>Check one individual mission-aligned plan, labeled design, four-part journey, research evidence question, and career-work-product sentence. Formative portfolio evidence only; do not grade art, public speaking, or materials access.</p>",
                 "FLOW": flow(
                     "#5a2d91", "Warm-up · 5", "Name what a designer must control."
                 )
@@ -746,8 +838,8 @@ async def main():
                 )
                 + flow(
                     "#1f617a",
-                    "Plan, draw, map · 27",
-                    "Three chunks with checks before release.",
+                    "Plan, draw, map · 24",
+                    "Three chunks with checks before release; switch to individual evidence after partner talk.",
                 )
                 + flow(
                     "#e3ad19",
@@ -756,62 +848,63 @@ async def main():
                 )
                 + flow(
                     "#1f617a",
-                    "Exit · 5",
-                    "Explain why smaller does not automatically mean safer.",
-                ),
-                "MONITOR": "<p>Release drawing only after the size, tools, guidance, protection, and signal checks. Redirect decoration-first teams to the mission. Key exit answer: B.</p>",
+                    "Exit and collect · 5",
+                    "Explain why smaller does not automatically mean safer; confirm the career sentence.",
+                )
+                + flow("#24323d", "Cleanup · 3", "Return rulers/tools and confirm workbook or digital evidence."),
+                "MONITOR": "<p><strong>Checkpoint 1—release to draw:</strong> target = size, three tools, guidance, vessel protection, and signal. If three or more students stall on decoration, stop and model how one label states a purpose. <strong>Checkpoint 2—journey:</strong> target = enter, travel, act, finish in a workable order. Ask, “Where is the trained team still in control?” <strong>Checkpoint 3—evidence:</strong> target = one safety question plus a biomedical career and work product. Key exit answer: smaller may help fit but does not prove control or vessel safety.</p><p><strong>Safe trim:</strong> cut chart-paper transfer and partner comparison first. Protect the mission check, labeled workbook design, evidence question, and career-work-product sentence. Reserve three minutes for tool return and evidence collection.</p>",
                 "RESOURCES": "<p>Licensed FYF pp. 79-81 are embedded in the student page. Patient Education pp. 82-83 is reserved for optional Canva or Adobe Express extension.</p>",
-                "SUPPORT": "<p>Allow a pre-drawn outline, bilingual labels, speech-to-text, and independent work. Plain paper and chart paper are equal.</p>",
+                "SUPPORT": "<p>The design-evidence frame and bilingual terms are visible beside the missing-evidence step. Allow the supplied workbook outline, speech-to-text, and independent work. The optional PDF now has one proportional sketch box. Plain paper and chart paper are equal.</p>",
                 "FALLBACK": "<p>No equipment or live site is required. The student page and PDF contain the complete route.</p>",
             },
             3: {
                 "TITLE": "Outbreak Investigators: Follow the Evidence",
-                "TOPIC": "Career Opportunities",
+                "TOPIC": "Outbreak Evidence",
                 "OBJECTIVE": "Students will use the FYF case to explain how an epidemiologist compares exposure and outcome, writes a working claim, and identifies what still needs testing.",
                 "TEKS": "d(1)(C)",
                 "DOL": "FYF pp. 75-76 investigation report and one epidemiologist work-product sentence.",
                 "SUBTITLE": "50 minutes · TEKS d(1)(C)",
                 "ALERT": "<strong>Fictional case.</strong> A supported hypothesis is not proof, and the worksheet is not real public-health guidance.",
-                "PREP": f"<ul><li>Open licensed FYF pp. 74-77; students use FYF pp. 75-76 by default.</li><li>Keep {file_link(files['INVESTIGATE']['id'], 'the optional expanded investigation record')} for the no-workbook or extended route.</li><li>Open the unpublished evidence quiz.</li></ul>",
-                "EVIDENCE": "<p>FYF investigation report with a sick-to-healthy comparison, three clues, one working claim, one unanswered testing question, and an epidemiologist work-product sentence.</p>",
+                "PREP": f"<ul><li><strong>Default grouping:</strong> individual FYF pp. 75-76 with a two-minute pair comparison. Provide one workbook per student and project the embedded case table.</li><li>Keep {file_link(files['INVESTIGATE']['id'], 'the optional expanded investigation record')} for the no-workbook or extended route; do not print it as a second class packet.</li><li>Open the unpublished evidence quiz. Display the fictional-case/real-event boundary before students enter the case.</li></ul>",
+                "EVIDENCE": "<p>Collect one individual FYF investigation report with a sick-to-healthy comparison, three clues, working claim, unanswered test, and epidemiologist work-product sentence. The quiz is formative feedback, not a second graded artifact. Week 6 adds no Minor or Major.</p>",
                 "FLOW": flow(
                     "#5a2d91",
-                    "Warm-up · 5",
+                    "Warm-up · 4",
                     "Sort useful information into exposure, symptoms, time, comparison.",
                 )
                 + flow(
                     "#4a9d2f",
-                    "Role · 5",
+                    "Role · 4",
                     "Investigate patterns and causes without overclaiming.",
                 )
                 + flow(
                     "#1f617a",
-                    "Compare clues · 15",
+                    "Compare clues · 11",
                     "Think-Pair-Share or written route.",
                 )
                 + flow(
                     "#e3ad19",
-                    "Report and analyze · 20",
+                    "Report and analyze · 18",
                     "Claim, evidence, pattern, severity, risk, test.",
                 )
-                + flow(
-                    "#1f617a", "Exit · 5", "Rank the strongest and weakest evidence."
-                ),
-                "MONITOR": "<p>Key pattern: tap-water exposure after flooding near the well, compared with bottled-water residents who stayed healthy. Water testing and additional interviews are still required. Do not accept one resident's river activity as an explanation for every case.</p>",
+                + flow("#e3ad19", "Practice check · 5", "Retry feedback or use the written self-check.")
+                + flow("#1f617a", "Career close and collect · 5", "Name the report product and who uses it next.")
+                + flow("#24323d", "Transition buffer · 3", "Confirm individual records and restate the real-event boundary."),
+                "MONITOR": "<p><strong>Lap 1—comparison:</strong> target = exposure and outcome in the same sentence, including a healthy comparison. If several students list only sick residents, pause and point to the bottled-water rows without supplying the claim. <strong>Lap 2—claim:</strong> target = tap-water exposure after flooding near the well, supported by three clues and qualified as a hypothesis. If one river swim becomes the whole explanation, ask whether it accounts for every case. <strong>Lap 3—next test:</strong> target = water testing or additional interviews. <strong>Lap 4—career:</strong> target = an investigation-report part and its next user.</p><p><strong>Safe trim:</strong> move the practice quiz and ranked exit check to the next opening. Protect the individual comparison, working claim, unanswered test, and career-work-product sentence.</p>",
                 "RESOURCES": '<p>Optional enrichment: <a href="https://www.cdc.gov/nerd-academy/outbreak-investigations/index.html">CDC NERD Academy outbreak investigations</a>. Keep it supplemental.</p>',
-                "SUPPORT": "<p>Read the table aloud, highlight exposure and outcome columns, and allow a written partner route. Provide the real-event boundary in text and speech.</p>",
+                "SUPPORT": "<p>The complete comparison/claim frame is visible beside the report step. Read the table aloud, highlight exposure and outcome columns, and allow a written partner route. Provide the real-event boundary in text and speech. Score the evidence chain, not English mechanics.</p>",
                 "FALLBACK": "<p>The embedded licensed pages make the absence route complete. Students do not need to search the web.</p>",
             },
             4: {
                 "TITLE": "Outbreak Investigators: Build the Response",
-                "TOPIC": "Career Opportunities",
+                "TOPIC": "Outbreak Response",
                 "OBJECTIVE": "Students will use the FYF case to explain how public-health workers connect evidence to confirming tests, immediate action, and prevention.",
                 "TEKS": "d(1)(C)",
                 "DOL": "FYF pp. 77-78 response plan and one public-health career-role sentence.",
                 "SUBTITLE": "50 minutes · TEKS d(1)(C)",
                 "ALERT": "<strong>Analyze supplied actions only.</strong> Students do not invent medical or public-health instructions.",
-                "PREP": f"<ul><li>Open licensed FYF pp. 77-78; students use those workbook pages by default.</li><li>Keep {file_link(files['RESPONSE']['id'], 'the optional expanded response plan')} for the no-workbook or extended route.</li><li>Prepare the Day 3 supported claim for absences.</li></ul>",
-                "EVIDENCE": "<p>FYF response plan with source checks, fact-based impact estimate, explained immediate actions, one prevention choice tied to a clue, and a public-health career-role sentence.</p>",
+                "PREP": f"<ul><li><strong>Default grouping:</strong> individual FYF pp. 77-78 with an optional quiet partner check. Provide one workbook per student.</li><li>Project the supplied Day 3 working claim: <strong>Tap-water exposure after flooding near the well is the strongest current hypothesis; bottled-water residents who stayed healthy strengthen the comparison, but water testing is still needed.</strong></li><li>Keep {file_link(files['RESPONSE']['id'], 'the optional expanded response plan')} for the no-workbook or extended route; do not print it automatically.</li><li>Display the real-event boundary. Students analyze only the supplied action list.</li></ul>",
+                "EVIDENCE": "<p>Collect one individual FYF response plan with a confirming test, fact-based impact estimate, explained immediate action, prevention priority tied to a clue, and public-health career-role sentence. Formative portfolio evidence only; Week 6 adds no Minor or Major.</p>",
                 "FLOW": flow(
                     "#5a2d91",
                     "Warm-up · 5",
@@ -824,18 +917,19 @@ async def main():
                 )
                 + flow(
                     "#1f617a",
-                    "Action and prevention · 20",
+                    "Action and prevention · 18",
                     "Reasons, supports, evidence, trade-off.",
                 )
-                + flow("#e3ad19", "Review · 5", "Private or partner checklist.")
+                + flow("#e3ad19", "Review · 4", "Private or partner checklist.")
                 + flow(
                     "#1f617a",
-                    "Exit · 5",
+                    "Exit and collect · 5",
                     "Classify one immediate and one prevention action.",
-                ),
-                "MONITOR": "<p>Use four laps: source, test, impact, immediate-versus-prevention. If groups check every option without reasons, model one evidence-to-action sentence. Key exit: safe-water distribution is immediate; moving equipment above flood level is prevention.</p>",
+                )
+                + flow("#24323d", "Transition buffer · 3", "Confirm individual evidence and close the fictional case."),
+                "MONITOR": "<p><strong>Lap 1—test:</strong> target = the check reaches the suspected source and names a supporting result. <strong>Lap 2—impact:</strong> target = reasoning uses the 2,000-person population or shared system. If students write “thousands,” ask them to compare the estimate with the town total. <strong>Lap 3—immediate action:</strong> target = one supplied action plus why it reduces current harm. <strong>Lap 4—prevention:</strong> target = one system change tied to a case clue and one trade-off. If several students check every option, pause and model one evidence-to-action sentence. Key exit: safe-water distribution is immediate; moving equipment above flood level is prevention.</p><p><strong>Safe trim:</strong> replace peer review with the private checklist. Protect one test, impact estimate, immediate action, prevention priority, and career-role sentence.</p>",
                 "RESOURCES": "<p>Licensed FYF pp. 77-78 supply the action list. The CCE worksheet adds role, support, evidence, and trade-off reasoning.</p>",
-                "SUPPORT": "<p>Use bilingual labels and sentence frames. Permit typed, written, or dictated evidence. No presentation is required.</p>",
+                "SUPPORT": "<p>The complete immediate/prevention frame and bilingual terms are visible beside the decision step. Permit typed, written, or dictated evidence. No presentation is required. Score the evidence-to-action link, not English mechanics.</p>",
                 "FALLBACK": "<p>An absent student starts from the teacher-provided Day 3 claim. In a real event, follow current local officials and district directions.</p>",
             },
             5: {
@@ -846,8 +940,8 @@ async def main():
                 "DOL": "Explore career matches completion plus submitted private reflection.",
                 "SUBTITLE": "50 minutes · TEKS d(1)(A)",
                 "ALERT": "<strong>Required Grade 8 task: Explore career matches, 35 minutes.</strong> Matchmaker and at least three saved careers are prerequisites. Save careers is not repeated today.",
-                "PREP": f"<ul><li>Check the Completion Standards report for prerequisites.</li><li>Test ClassLink &gt; Xello.</li><li>Open the official {file_link(files['XELLO_GUIDE']['id'], 'facilitator guide')}, {file_link(files['XELLO_DECK']['id'], 'Irving-adapted slide deck')}, {file_link(files['XELLO_DIRECTIONS']['id'], 'student directions')}, and student video.</li><li>Open the private Canvas reflection assignment. Use {file_link(files['REFLECT']['id'], 'the one-page reflection')} only for the assigned paper route.</li></ul>",
-                "EVIDENCE": "<p>Xello Completion Standards report plus private before-and-after reflection. Do not require a profile screenshot or public discussion.</p>",
+                "PREP": f"<ul><li>Check the Completion Standards report for Matchmaker and at least three saved careers. Assign prerequisite catch-up before class.</li><li><strong>Default grouping:</strong> individual work, one device per student. A peer navigator may point but does not control another account.</li><li>Test ClassLink &gt; Xello. Open the official {file_link(files['XELLO_GUIDE']['id'], 'facilitator guide')}, {file_link(files['XELLO_DECK']['id'], 'Irving-adapted slide deck')}, {file_link(files['XELLO_DIRECTIONS']['id'], 'student directions')}, and student video.</li><li>Open the private Canvas reflection assignment. Use {file_link(files['REFLECT']['id'], 'the one-page reflection')} only for the assigned paper route.</li></ul>",
+                "EVIDENCE": "<p>Verify Explore career matches in the Xello Completion Standards report and collect one private before-and-after reflection. Do not require a profile screenshot, public discussion, or duplicate exit artifact. Formative portfolio evidence only; Week 6 adds no Minor or Major.</p>",
                 "FLOW": flow(
                     "#5a2d91",
                     "Warm-up · 5",
@@ -863,14 +957,10 @@ async def main():
                     "Private reflection · 5",
                     "Used to think, now think, what changed.",
                 )
-                + flow(
-                    "#e3ad19",
-                    "Exit · 5",
-                    "Explain why assessment results require critical thinking.",
-                ),
-                "MONITOR": "<p>District minimum: complete the 35-minute lesson. The full official guide describes a broader 120-minute sequence; label it as extended support. Use the report, not public screenshots. Results are evidence to investigate, not verdicts.</p>",
+                + flow("#e3ad19", "Submit, verify, sign out · 5", "Private reflection, report/catch-up record, and account close."),
+                "MONITOR": "<p><strong>Minute 8:</strong> target = every student is in Explore career matches or has a named access/prerequisite barrier. If several students remain on Home, pause for one navigation reset using the supplied directions. <strong>Minute 20:</strong> target = students are using Find out why, not ranking matches from the title alone. Ask, “Which interest and task did you compare?” <strong>Minute 35:</strong> target = lesson completion or supervised catch-up recorded. <strong>Final check:</strong> verify through the report and collect the private reflection; never request a public screenshot.</p><p><strong>Safe trim:</strong> cut the separate exit prompt because the private reflection already contains the TEKS evidence. Protect the 35-minute Xello lesson, Find out why, report verification, and catch-up record.</p>",
                 "RESOURCES": f'<p>{file_link(files["XELLO_GUIDE"]["id"], "Full facilitator guide, 120-minute extension")}</p><p>{file_link(files["XELLO_DECK"]["id"], "Teacher launch slides adapted for ClassLink")}</p><p>{file_link(files["XELLO_DIRECTIONS"]["id"], "One-page student Find out why directions")}</p><p><a href="https://www.youtube.com/watch?v=xq__qvzVSYU">Official Xello Understanding Your Career Matches video</a></p>',
-                "SUPPORT": "<p>Keep the numbered steps and one-page directions visible. Offer read-aloud, chunking, bilingual labels, and a private written response.</p>",
+                "SUPPORT": "<p>The complete before/after frame is visible beside the private reflection. Keep the numbered steps and one-page directions visible. Offer read-aloud, chunking, bilingual labels, and a private written response. Score evidence use, not match rank or English mechanics.</p>",
                 "FALLBACK": "<p>If Xello or prerequisites fail, complete the video and learning reflection, then move the required platform lesson to supervised catch-up. Paper does not count as Xello completion.</p>",
             },
         }
@@ -928,17 +1018,40 @@ async def main():
                 await upsert_assignment_item(client, module["id"], assignment)
                 order.append(("Assignment", assignment["id"], ASSIGNMENT_TITLE))
 
-        items = await paged(
-            client, f"/courses/{COURSE_ID}/modules/{module['id']}/items"
-        )
-        for position, (kind, key, title) in enumerate(order, start=1):
+        items = await paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
+
+        def matches_item(entry, kind, key):
+            if entry.get("type") != kind:
+                return False
+            if kind == "SubHeader":
+                return entry.get("id") == key
+            if kind == "Page":
+                return entry.get("page_url") == key
+            return entry.get("content_id") == key
+
+        keep_ids = set()
+        for kind, key, _title in order:
             item = next(
-                entry
-                for entry in items
-                if (kind == "SubHeader" and entry.get("id") == key)
-                or (kind == "Page" and entry.get("page_url") == key)
-                or (kind in ("Quiz", "Assignment") and entry.get("content_id") == key)
+                (
+                    entry
+                    for entry in items
+                    if entry["id"] not in keep_ids and matches_item(entry, kind, key)
+                ),
+                None,
             )
+            if item is None:
+                raise RuntimeError(f"Missing expected module item: {kind} {key}")
+            keep_ids.add(item["id"])
+        for entry in items:
+            if entry["id"] not in keep_ids:
+                await api(
+                    client,
+                    "DELETE",
+                    f"/courses/{COURSE_ID}/modules/{module['id']}/items/{entry['id']}",
+                )
+        items = await paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
+        for position, (kind, key, title) in enumerate(order, start=1):
+            item = next(entry for entry in items if matches_item(entry, kind, key))
             await api(
                 client,
                 "PUT",
@@ -946,12 +1059,37 @@ async def main():
                 data={"module_item[position]": position, "module_item[title]": title},
             )
 
-        final_items = await paged(
-            client, f"/courses/{COURSE_ID}/modules/{module['id']}/items"
-        )
+        final_items = await paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
         module = await api(
             client, "GET", f"/courses/{COURSE_ID}/modules/{module['id']}"
         )
+        if module.get("published"):
+            raise RuntimeError("Week 6 module unexpectedly published")
+        if quiz.get("published"):
+            raise RuntimeError("Week 6 practice quiz unexpectedly published")
+        if assignment.get("published"):
+            raise RuntimeError("Week 6 formative reflection unexpectedly published")
+        published_pages = [
+            value["url"]
+            for pair in pages.values()
+            for value in pair.values()
+            if value.get("published")
+        ]
+        if published_pages:
+            raise RuntimeError(f"Published Week 6 pages remain: {published_pages}")
+        if len(final_items) != len(order):
+            raise RuntimeError(
+                f"Expected {len(order)} Week 6 module items; found {len(final_items)}"
+            )
+        for position, ((kind, key, title), item) in enumerate(
+            zip(order, final_items), start=1
+        ):
+            if (
+                item.get("position") != position
+                or item.get("title") != title
+                or not matches_item(item, kind, key)
+            ):
+                raise RuntimeError(f"Week 6 module order mismatch at position {position}")
         print(
             json.dumps(
                 {
@@ -985,6 +1123,7 @@ async def main():
                             "title": item["title"],
                             "type": item["type"],
                             "page_url": item.get("page_url"),
+                            "content_id": item.get("content_id"),
                         }
                         for item in final_items
                     ],
@@ -994,4 +1133,5 @@ async def main():
         )
 
 
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())

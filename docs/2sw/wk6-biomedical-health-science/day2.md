@@ -2,7 +2,7 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
+- **Topic:** Biomedical Design
 - **Objective:** Students will use the workbook's future-technology scenario to plan, label, and explain a tiny medical robot, then identify a biomedical career connected to the work.
 - **TEKS:** d(1)(C)
 - **Demonstration of Learning:** FYF pp. 80-81 design, one evidence question, and one biomedical-career connection.
@@ -27,6 +27,8 @@
 3. Put one set of drawing materials at each table.
 4. Decide whether students will use chart paper or the equal plain-paper route.
 5. Keep the four mission requirements visible for the full activity.
+6. Default route: individual workbook design with partner feedback. Provide one workbook and pencil per student, one ruler per pair, and one shared drawing-tool cup per table. Chart paper is optional; do not print the expanded record as a class set.
+7. Use the supplied label model: **tracking signal — helps the trained team locate the design**. Students create the remaining purpose labels.
 
 ## Warm-Up (5 min)
 
@@ -45,7 +47,7 @@ Read the workbook scenario and planning page together. If the class is using the
 
 Connect the work to careers without overclaiming the technology. Biomedical engineers design devices and systems. Medical scientists test ideas and study safety. Imaging professionals operate systems used to see inside the body.
 
-## Activity 2: Plan, Draw, and Map (27 min)
+## Activity 2: Plan, Draw, and Map (24 min)
 
 **Chunk 1, plan, 8 minutes:** Students name the design, compare its size to something familiar, explain guidance or tracking, list three tools or features, and include a completion signal. Check the mission list before releasing drawing.
 
@@ -66,6 +68,8 @@ Students compare with a partner or use the teacher model if working independentl
 Students also name what that worker would produce, such as a design specification, test result, or imaging record. This sentence is the direct d(1)(C) evidence.
 
 No public presentation is required.
+
+**Safe trim:** Cut chart-paper transfer and the partner comparison first. Protect the mission check, labeled workbook design, evidence question, and career-work-product sentence. Reserve three minutes to return rulers and drawing tools and collect or check workbook evidence.
 
 ## Exit Ticket (5 min)
 

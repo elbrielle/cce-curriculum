@@ -22,13 +22,15 @@ One respectful action a nutritionist could propose: ____________________________
 
 ## Build one SMART career-exploration goal
 
-| Part | My plan |
-|---|---|
-| Specific: What will I do? | |
-| Measurable: What count or evidence will show progress? | |
-| Achievable: Why does it fit my time and access? | |
-| Relevant: How does it help my next decision? | |
-| Time-bound: What real course checkpoint or date will I use? | |
+**Specific — action I will take:** ____________________________________________________________
+
+**Measurable — count or evidence:** __________________________________________________________
+
+**Achievable — why it fits my time and access:** ______________________________________________
+
+**Relevant — how it helps my next decision:** _________________________________________________
+
+**Time-bound — real course checkpoint or date:** ______________________________________________
 
 Final goal: _______________________________________________________________________________
 
@@ -46,6 +48,8 @@ ________________________________________________________________________________
 Likely obstacle: __________________________________________________________________________
 
 Backup strategy: “If ______________________________, then I will _____________________________.”
+
+Complete frame: “By ____, I will ____ as shown by ____. I will work on it ____. If ____, then I will ____.”
 
 ## Private self-check or optional peer feedback
 

@@ -21,13 +21,19 @@ Use the fictional Maria account on FYF p. 62. This is a listening exercise, not 
 | Background | | |
 | Background | | |
 
+Complete frame: “The detail ____ is essential/background because ____.”
+
 ## Ask two new questions
 
 A clarifying question asks for information the speaker did not already give.
 
-1. ________________________________________________________________________________
+**Question 1:**
 
-2. ________________________________________________________________________________
+[[lines: 2]]
+
+**Question 2:**
+
+[[lines: 2]]
 
 Safety note: Real chest pain with shortness of breath needs immediate adult or emergency help. Do not practice a response on a classmate.
 
@@ -43,15 +49,25 @@ Choose one fictional card. One person speaks, one listens, and an optional obser
 
 **Card C: Equipment problem.** A coworker says a cart wheel sticks only when the cart is full. The repair request says only “cart broken.” The team needs a better description before routing it.
 
-Paraphrase: “I heard you say ____________________________________________________________.”
+**Paraphrase:**
 
-Clarifying question: _____________________________________________________________________
+[[lines: 1]]
 
-Safe next step or person to notify: ________________________________________________________
+**Clarifying question:**
+
+[[lines: 2]]
+
+Complete frame: “I heard you say ____. What ____?”
+
+**Safe next step or person to notify:**
+
+[[lines: 1]]
 
 ## Observation and transfer
 
-I noticed the listener ____________________________________________________________________
+**I noticed the listener:**
+
+[[lines: 1]]
 
 Another career that uses the same listening move: __________________________________________
 

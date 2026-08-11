@@ -37,9 +37,9 @@ The local Climber Notes deck titled *PowerSkill: Written Communication* belongs 
 | Day | Focus | Durable evidence | Canvas surface |
 |---|---|---|---|
 | 1 | Resolve conflict without skipping safety | FYF pp. 144-145 plus two-career transfer | Teacher and student pages; optional no-workbook PDF |
-| 2 | Listen for essential detail | FYF p. 63, two questions, safe practice note | Pages plus ungraded retryable practice quiz; optional lab PDF |
+| 2 | Listen for essential detail | FYF p. 63 and active-listening evidence check | Pages plus ungraded retryable practice quiz; optional lab PDF |
 | 3 | Advocate and plan time | SMART goal, two time blocks, obstacle, backup | Pages; private/paper route |
-| 4 | Write for a reader | FYF pp. 147-148 and fixed-fact workplace rewrite | Pages plus optional ungraded discussion; optional lab PDF |
+| 4 | Write for a reader | FYF pp. 147-148 and fixed-fact workplace rewrite | Pages plus optional ungraded discussion; one-page private companion |
 | 5 | Record experience and synthesize | Xello check, two skill matches, revised goal, career transfer | Pages plus unpublished Canvas Minor; two-page paper fallback |
 
 ## Grading plan
@@ -52,9 +52,9 @@ The local Climber Notes deck titled *PowerSkill: Written Communication* belongs 
 
 1. Post the paired Canvas pages and keep the module unpublished until review.
 2. Keep licensed FYF crops and Xello resources in locked Canvas folders.
-3. Use FYF as the default student work surface on Days 1, 2, and 4. The matching two-page PDFs are no-workbook, absence, or extended-practice routes, not an automatic class set.
+3. Use FYF as the default student work surface on Days 1, 2, and 4. The Day 1-2 two-page PDFs are no-workbook routes, not automatic class sets. Day 4 uses one short workplace-message companion only for the private/paper route; it does not repeat the FYF Little Library page.
 4. Project or post the [Powerskills Transfer Guide](../../resources/worksheets/2sw-wk5-powerskills-transfer-guide.pdf); do not print it for every student unless a class needs that access route.
-5. Decide whether students will use the Day 4 discussion or the private written route. Both use the same criteria.
+5. Decide whether students will use the Day 4 discussion or the one-page private written route. Both collect the same workplace rewrite and use the same criteria.
 6. On Day 5, check Work experiences through Xello Completion Standards. Paper does not replace the required save.
 
 ## Boundaries that do not change

@@ -2,10 +2,10 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters and research and describe academic, technical, certification, and training requirements for one or more careers in an identified career cluster using evidence from Career Opportunities.
+- **Topic:** Biomedical Careers
+- **Objective:** Students will compare preparation and labor-market evidence for three biomedical careers, then write a practice cover letter that answers one employer need with honest evidence.
 - **TEKS:** d(1)(C), d(2)(A), d(5)(A), d(7)(B)
-- **Demonstration of Learning:** Completed career comparison and five-part practice cover letter.
+- **Demonstration of Learning:** Completed three-career comparison and five-part practice cover letter.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -26,6 +26,7 @@
 2. Put the career-evidence table on the projector.
 3. Do not search for a live job posting. The fictional Fairview Biomedical Lab posting is the shared source for every student.
 4. Keep the BLS source links on the teacher page for questions. Students do not need open web research today.
+5. Default route: project or post one career-evidence guide per pair and provide one two-page Cover Letter Lab per student. Students may annotate both digitally instead. Do not print two four-page class packets.
 
 ## Warm-Up (5 min)
 
@@ -60,7 +61,7 @@ Model one evidence match:
 
 Students mark two employer needs and one responsibility. They pair each need with evidence they can honestly use from school, service, a team role, or a family responsibility. They may not invent employment, credentials, or private information.
 
-## Activity 3: Draft the Five-Part Letter (20 min)
+## Activity 3: Draft the Five-Part Letter (17 min)
 
 Students complete the Cover Letter Lab in order:
 
@@ -74,7 +75,9 @@ After the body paragraph, pause for a self-check. Students underline the employe
 
 Students may type, write by hand, or dictate to an approved speech-to-text tool. The evidence standard stays the same.
 
-## Exit Ticket (5 min)
+**Safe trim:** Shorten the three-career comparison to the teacher-key Stop and Jot. Protect the posting analysis, one honest need-to-evidence body paragraph, and the five-part letter check. Reserve three minutes to collect or confirm submissions.
+
+## Exit Ticket and Collection (5 min)
 
 **EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/2sw-wk6-day1-biomedical-careers-and-a-practice-cover-letter.pdf):
 
@@ -82,6 +85,8 @@ Imani wants to practice applying for the same fictional Student Lab Helper role.
 
 1. Which employer need should Imani answer in her body paragraph?
 2. Write one honest sentence that connects her experience to that need.
+
+Use the remaining three-minute transition buffer to confirm names/submissions and close projected documents.
 
 ## Teacher Key and Extension Prompt
 
