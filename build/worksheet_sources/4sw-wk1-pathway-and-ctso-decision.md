@@ -61,7 +61,7 @@ One question I still need to ask a counselor, teacher, or family member:
 
 ## 3. Career and Technical Student Organizations
 
-Texas recognizes CTSOs as part of CTE programs. They can provide leadership practice, projects, competitions, service, and contact with people who share a career interest. Local chapter availability varies.
+The current TEA page lists state-recognized CTSOs as part of CTE programs. The examples below are the organizations most directly connected to the career areas in this guide; the state list also includes additional organizations. CTSOs can provide leadership practice, projects, competitions, service, and contact with people who share a career interest. Local chapter availability varies.
 
 | Career area | CTSO examples recognized by Texas |
 |---|---|
@@ -72,7 +72,7 @@ Texas recognizes CTSOs as part of CTE programs. They can provide leadership prac
 | Skilled trades and technical service | SkillsUSA |
 | STEM, engineering, technology | TSA |
 
-Sources: Texas Education Agency CTSO page and CTSO Oversight Policy. Confirm the actual chapter and participation requirements with the campus.
+Sources: Texas Education Agency CTSO page and CTSO Oversight Policy, checked August 11, 2026. Confirm the actual chapter and participation requirements with the campus.
 
 CTSO that may connect to my first-choice pathway: ______________________________
 

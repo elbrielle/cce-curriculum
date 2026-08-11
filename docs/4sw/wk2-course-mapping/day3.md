@@ -16,7 +16,7 @@
 | **TEKS** | d(3)(B), d(3)(D) |
 | **5E Phases** | Engage: Warm-Up · Explain: AP and dual-credit source comparison · Explore: Current option research · Extend: Plan conversation or private reflection · Evaluate: Exit Ticket |
 | **Deliverable** | Completed two-page College Credit and Plan Check |
-| **Materials** | Chromebooks, TEA AP and dual-credit pages, current Irving ISD coursebook, College Credit and Plan Check, projector |
+| **Materials** | One two-page College Credit and Plan Check per student, one device per pair for TEA and Irving source checks, embedded 2026-2027 Irving option card, projector |
 
 ---
 
@@ -58,6 +58,8 @@ Industry certifications remain valuable but are not labeled as college credit un
 
 Open searching is not required. If the district page is blocked or difficult to navigate, use the teacher's dated source card and leave operational questions for counseling.
 
+The Student Guide supplies the dated card: Irving's 2026-2027 coursebook lists English III - Dual Credit for Grades 10-12 with English II as the prerequisite and says successful completion meets high-school and college-credit requirements. Students still label college readiness, campus availability, cost, transfer, and placement for counselor or receiving-college verification.
+
 ---
 
 ## Activity 3: Explain and Test the Plan (13 min)
@@ -96,6 +98,8 @@ Add one accurate fact to each row.
 | One limitation or question | | |
 
 Bottom line: Write one question you must verify before using either option in your four-year plan.
+
+Students place the completed two-page check in the CCR Week 2 folder for Day 5.
 
 *(d(3)(B), d(3)(D))*
 

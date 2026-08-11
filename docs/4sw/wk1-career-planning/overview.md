@@ -47,7 +47,7 @@ This week does not claim d(5)(D). Students label salary evidence, but they do no
 - Do not require screenshots of a student's private profile. Students record only the result or evidence they choose to use.
 - Use one salary figure with its place, year, and measure. A national median is not a DFW starting salary.
 - Start with the FYF, H&L, and Xello evidence students are using. Use the current Irving ISD CTE hub and course descriptions to confirm or extend exact campus, course, application, and access details. If a source conflicts with the curriculum, record the conflict for teacher follow-up instead of asking students to reconcile competing claims during the lesson.
-- Texas recognizes nine CTSOs. Local chapter availability must be confirmed before telling students a chapter exists on a specific campus.
+- The current TEA page lists multiple state-recognized CTSOs, including the nine organizations used as the guide's career-area examples. Local chapter availability must be confirmed before telling students a chapter exists on a specific campus.
 
 ## Week at a Glance
 
@@ -75,7 +75,7 @@ Use the district bands printed on the rubric: Masters 90-100, Meets 80-89, Appro
 - Each day has a paired Teacher Facilitator Guide and Student Guide.
 - Day 2 uses FYF pp. 6-8 and 283-284 by default. Student Annotation and the enlarged CCE packet are alternate routes, not extra work.
 - Day 3 uses FYF pp. 285-286 by default. Students add source, date, place, and measure beside the workbook field or in a notebook. The CCE guide is the no-workbook route.
-- Day 4 uses a private, ungraded Canvas Assignment by default. The four-page packet is the paper, enlarged, and independent route.
+- Day 4 uses a private, grade-neutral Canvas Assignment by default. The four-page packet is the paper, enlarged, and independent route.
 - Day 5 uses a private Canvas Assignment with file, text, or media submission and a visible rubric.
 - Required directions remain visible. Optional models and vocabulary may use disclosures.
 - Every student page includes an absence route and a platform-unavailable route.

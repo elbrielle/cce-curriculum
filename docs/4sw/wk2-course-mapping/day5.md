@@ -16,7 +16,7 @@
 | **TEKS** | d(8)(B), d(8)(C), d(3)(D) |
 | **5E Phases** | Engage: Warm-Up · Explore: Gather source evidence · Explain: Individual plan · Evaluate: Rubric self-check and submission |
 | **Deliverable** | Individual High School and Career Plan with student-visible 16-point rubric |
-| **Materials** | Week 1 Mid-Year Career Blueprint, Week 2 packets, FYF pp. 292-296, Individual High School and Career Plan, rubric, Canvas Assignment |
+| **Materials** | Week 1 Mid-Year Career Blueprint, retained Week 2 evidence folder, four-page Individual High School and Career Plan, on-screen two-page rubric, one device per student, paper or enlarged plan and rubric only for students assigned that route |
 
 ---
 
@@ -48,6 +48,8 @@ If an artifact is missing, the student uses the matching Canvas guide and source
 ## Activity 2: Write the Individual Plan (28 min)
 
 Students complete the four-page Individual High School and Career Plan in three chunks.
+
+Use the 28-minute block as 8 minutes for Chunk 1, 10 minutes for Chunk 2, and 8 minutes for Chunk 3, with a one-minute source check after each of the first two chunks. If class ends before all four rubric criteria are represented, move the student to the recovery window rather than deleting a criterion to force submission.
 
 **Chunk 1: Direction and self-evidence**
 

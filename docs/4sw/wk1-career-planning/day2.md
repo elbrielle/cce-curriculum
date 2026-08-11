@@ -19,7 +19,7 @@
 
 ## Before Class
 
-Ask students to bring their FYF workbook. Open the annotation assignment and enlarged packet as alternate routes. Do not print the packet for every student or ask a student to complete both the workbook and packet. Art quality is not scored.
+Provide one FYF workbook per student and optional colored pencils shared by table. The default route requires no printing or device. Open the annotation assignment and four-page enlarged packet only for students using an alternate route; print only for those students. Do not ask a student to complete both the workbook and packet. Art quality is not scored.
 
 ## Warm-Up (5 min)
 
@@ -40,6 +40,10 @@ Students use FYF p. 8 and select one current career idea. They add:
 
 Students label the hidden items as skills, tools or technology, education or training, and responsibilities or challenges. Canvas annotation, the enlarged packet, typed labels, and audio description are equal replacement routes when the workbook is unavailable. The student must be able to read every label at normal viewing size.
 
+**Monitoring pass 1:** By build minute 6, students have at least one skill, tool, training step, responsibility, challenge, and support.
+
+**Pivot:** If students list only visible products, pause and sort the supplied architect examples. If time slips, trim the final share-out, not the goal or research question.
+
 ## Activity 3: Turn the Iceberg into a Goal (12 min)
 
 Students complete FYF pp. 283-284:
@@ -53,7 +57,7 @@ The goal is a working direction, not a promise.
 
 ## Exit Ticket (5 min)
 
-**Name one hidden requirement that changed how you see this career. Does it strengthen, weaken, or complicate your interest? Explain.**
+**Name one hidden requirement that changed how you see this career. Does it strengthen, weaken, or complicate your interest? Explain.** Students close devices and return shared supplies before leaving.
 
 ## Supports and Fallbacks
 

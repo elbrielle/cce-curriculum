@@ -19,9 +19,12 @@
 
 ## Before Class
 
-- Open the Day 1 Student Guide and model.
+- Print one Mid-Year Profile Audit per student, double-sided: two pages on one sheet. This is the default response home.
+- Set one labeled Day 1-to-Day 5 class folder or period tray. Collect the named Audits today and return them on Day 5.
+- Open the Day 1 Student Guide and supplied label-versus-evidence model.
 - Give students access to earlier evidence without requiring a private screenshot.
 - Prepare the no-prior-evidence route: students use today's self-evidence inventory as a baseline.
+- Devices are optional. Use one per student only when students choose to consult existing H&L, Xello, or portfolio evidence.
 
 ## Warm-Up (5 min)
 
@@ -65,7 +68,7 @@ Partners respond with one clarifying question, not a judgment about whether the 
 
 **What is one conclusion you can defend about yourself now, and what evidence supports it?**
 
-Submit the completed audit. The teacher checks for a result, current evidence, and a defensible conclusion.
+Students write their name and place the completed Audit in the period folder. The teacher checks for a result, current evidence, and a defensible conclusion, then retains the Audit for Day 5.
 
 ## Supports and Fallbacks
 
@@ -73,3 +76,5 @@ Submit the completed audit. The teacher checks for a result, current evidence, a
 - **Platform unavailable:** Use notebook, workbook, and remembered classroom evidence. Platform history is optional.
 - **Support:** Offer the evidence bank and sentence frames. Allow speech-to-text.
 - **Extension:** Identify evidence that does not fit the current conclusion and explain why it matters.
+
+If more than one third of the class writes broad preferences instead of evidence, pause for a two-minute second teach with the supplied model. Trim the partner share to one clarifying question when needed; protect the conclusion and collection.

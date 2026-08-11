@@ -16,7 +16,7 @@
 | **TEKS** | d(3)(A), d(3)(E) |
 | **5E Phases** | Engage: Warm-Up · Explain: Graduation framework and assessment purposes · Explore: Transition and assessment scenarios · Evaluate: Exit Ticket |
 | **Deliverable** | Completed High School Transition and Assessment Decisions packet |
-| **Materials** | Chromebooks, current TEA Chapter 74 Subchapter B (August 2026), High School Transition and Assessment Decisions packet, projector |
+| **Materials** | One three-page High School Transition and Assessment Decisions packet per student, current TEA Chapter 74 Subchapter B (August 2026), one device per pair for source checking, projector |
 
 ---
 
@@ -81,6 +81,8 @@ Students complete the two packet scenarios. For each one, they identify:
 3. one next step; and
 4. one fact that still needs verification.
 
+The packet's decision bank replaces a separate assessment-card set. The four-question Canvas Quiz is optional practice or recovery; the 50-minute core route ends with the packet exit check.
+
 **DOK 3:** A student wants both a technical certificate and the option to transfer to a university later. Which assessment questions should the student ask before choosing classes, and why is one test not enough to plan the whole route?
 
 ---
@@ -95,12 +97,14 @@ Jordan says, "The SAT, TSIA, and an industry certification are all college entra
 2. Explain one different decision each of two assessments may affect.
 3. Name the current source or person Jordan should use to verify the requirement.
 
+During the exit lap, record formative completion. Students keep the packet in their CCR Week 2 folder because Day 5 uses it as source evidence.
+
 *(d(3)(E))*
 
 ---
 
 ## Differentiation
 
-- **Support:** Give students the six assessment-purpose cards and let them match each card to a scenario before writing.
+- **Support:** Have students point to one term in the packet decision bank before they use the complete frame: “___ may affect ___, but it does not decide ___.”
 - **Extension:** Research one current exemption, alternative, or receiving-institution policy and record the source date.
 - **ELL:** Use the labels graduation, admission, placement, scholarship, career exploration, military qualification, and credential. Students may point to or sort the labels before writing two short sentences.

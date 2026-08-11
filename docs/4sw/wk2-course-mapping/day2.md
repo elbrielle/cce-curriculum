@@ -16,7 +16,7 @@
 | **TEKS** | d(8)(B), d(3)(A) |
 | **5E Phases** | Engage: Warm-Up · Explain: Source and sequence model · Explore: Four-year course-plan draft · Evaluate: Plan audit and Exit Ticket |
 | **Deliverable** | Course-plan draft in Canvas annotation or the three-page paper route |
-| **Materials** | Chromebooks, Irving ISD 2026-2027 course descriptions, FYF pp. 294-296, Counseling-Ready Four-Year Course Plan Draft, projector |
+| **Materials** | One device per student for the default Canvas annotation, Irving ISD 2026-2027 course descriptions, FYF pp. 294-296, one three-page paper draft per student assigned the paper or enlarged route, projector |
 
 ---
 
@@ -40,6 +40,8 @@ Project one fictional student's draft. Show how to:
 4. label a campus, application, transportation, or capacity question for verification; and
 5. add a backup that supports the same career goal.
 
+Use the finished model embedded in the Student Guide: Grade 9 English I → Grade 10 English II (prerequisite: English I) → Grade 11 English III - Dual Credit (prerequisite: English II). The student marks dual-credit readiness, campus availability, and counselor placement `VERIFY` and keeps source-checked English III as the backup. This is a model of source and sequence handling, not a universal English plan.
+
 **Chunking:** Model Grade 9 first, then the later prerequisite chain, then the backup. After each chunk, ask students which source field proves the entry. If students answer with "I heard" or "the workbook says," return to the current coursebook and access-date field.
 
 Do not provide a completed universal four-year schedule. Core-course placement, endorsement choices, advanced academics, campus access, and student needs vary.
@@ -61,6 +63,8 @@ Required evidence:
 - two counseling questions.
 
 Students do not invent a course to fill a blank. A labeled question is stronger evidence than a made-up answer.
+
+Canvas students submit the annotation so it is available on Day 5. Paper students place the draft in the CCR Week 2 folder. Students do not complete both routes.
 
 **Active Monitoring:** Walk three laps. Lap 1 checks current titles and source dates. Lap 2 checks one prerequisite chain. Lap 3 checks verification labels, backup, and counseling questions. If three or more students use the same unsupported course name, pause and model the search once for the whole class.
 

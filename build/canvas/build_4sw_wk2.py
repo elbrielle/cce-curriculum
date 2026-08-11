@@ -2,7 +2,9 @@
 
 import asyncio
 import json
+import re
 import sys
+from urllib.parse import urlencode
 
 import httpx
 
@@ -17,16 +19,157 @@ MODULE_NAME = "4SW Wk2: Build a Counseling-Ready High School Plan"
 QUIZ_TITLE = "PRACTICE: What Does This Assessment Affect?"
 ANNOTATION_TITLE = "DRAFT: Four-Year Course Plan Annotation"
 PLAN_TITLE = "MAJOR 2: Individual High School and Career Plan"
+MAJOR_GROUP = "Major Assessments (60%)"
+TEMPLATES = ROOT / "build/canvas/templates"
+
+
+def preflight():
+    worksheet_names = (
+        "4sw-wk2-transition-and-assessment-decisions.pdf",
+        "4sw-wk2-four-year-course-plan-draft.pdf",
+        "4sw-wk2-college-credit-and-family-conversation.pdf",
+        "4sw-wk2-smart-experience-action-plan.pdf",
+        "4sw-wk2-individual-high-school-career-plan.pdf",
+        "4sw-wk2-high-school-career-plan-rubric.pdf",
+    )
+    visual_names = {
+        2: ("fyf-rung7-classes-to-consider.jpg", "fyf-rung7-plan-in-action.jpg"),
+        4: ("fyf-rung6-smart-goals.jpg", "fyf-rung6-goal-check.jpg"),
+        5: ("fyf-rung7-opportunities.jpg",),
+    }
+    required = [
+        TEMPLATES / "4sw-wk2-student.html",
+        TEMPLATES / "4sw-wk2-teacher.html",
+        *(ROOT / "docs/resources/worksheets" / name for name in worksheet_names),
+        *(
+            ASSETS / f"day{day}" / name
+            for day, names in visual_names.items()
+            for name in names
+        ),
+    ]
+    missing = [str(path.relative_to(ROOT)) for path in required if not path.is_file()]
+    if missing:
+        raise FileNotFoundError(f"4SW Wk2 preflight missing required files: {missing}")
+
+
+async def canvas_preflight(client):
+    modules = await common.paged(client, f"/courses/{COURSE_ID}/modules")
+    module_matches = [entry for entry in modules if entry.get("name") == MODULE_NAME]
+    if len(module_matches) > 1:
+        raise RuntimeError(
+            f"Duplicate Canvas modules named {MODULE_NAME!r}: "
+            f"{[entry['id'] for entry in module_matches]}"
+        )
+
+    groups = await common.paged(client, f"/courses/{COURSE_ID}/assignment_groups")
+    major_groups = [entry for entry in groups if entry.get("name") == MAJOR_GROUP]
+    if len(major_groups) != 1:
+        raise RuntimeError(
+            f"Expected exactly one {MAJOR_GROUP!r} group; found {len(major_groups)}"
+        )
+
+    assignments = await common.paged(client, f"/courses/{COURSE_ID}/assignments")
+    plan_matches = [entry for entry in assignments if entry.get("name") == PLAN_TITLE]
+    if len(plan_matches) != 1:
+        raise RuntimeError(
+            f"Expected one existing mapped Major assignment named {PLAN_TITLE!r}; "
+            f"found {len(plan_matches)}"
+        )
+    plan = plan_matches[0]
+    rubric_note = re.search(
+        r'<div data-cce-rubric-note="cce-advisory-rubric-v1".*?</div>',
+        plan.get("description") or "",
+        flags=re.I | re.S,
+    )
+    if (
+        plan.get("published")
+        or float(plan.get("points_possible") or 0) != 100
+        or plan.get("grading_type") != "points"
+        or plan.get("assignment_group_id") != major_groups[0].get("id")
+        or plan.get("omit_from_final_grade") is not False
+        or rubric_note is None
+    ):
+        raise RuntimeError(
+            f"Mapped Major preflight failed for {PLAN_TITLE!r}: "
+            f"published={plan.get('published')}, points={plan.get('points_possible')}, "
+            f"grading={plan.get('grading_type')}, group={plan.get('assignment_group_id')}, "
+            f"omit={plan.get('omit_from_final_grade')}"
+        )
+
+    annotation_matches = [
+        entry for entry in assignments if entry.get("name") == ANNOTATION_TITLE
+    ]
+    if len(annotation_matches) > 1:
+        raise RuntimeError(
+            f"Duplicate assignments named {ANNOTATION_TITLE!r}: "
+            f"{[entry['id'] for entry in annotation_matches]}"
+        )
+    quizzes = await common.paged(client, f"/courses/{COURSE_ID}/quizzes")
+    quiz_matches = [entry for entry in quizzes if entry.get("title") == QUIZ_TITLE]
+    if len(quiz_matches) > 1:
+        raise RuntimeError(
+            f"Duplicate quizzes named {QUIZ_TITLE!r}: "
+            f"{[entry['id'] for entry in quiz_matches]}"
+        )
+    return {
+        "plan": plan,
+        "major_group": major_groups[0],
+        "rubric_note": rubric_note.group(0),
+    }
 
 
 async def ensure_module(client):
     modules = await common.paged(client, f"/courses/{COURSE_ID}/modules")
-    found = next((entry for entry in modules if entry["name"] == MODULE_NAME), None)
+    matches = [entry for entry in modules if entry.get("name") == MODULE_NAME]
+    if len(matches) > 1:
+        raise RuntimeError(
+            f"Duplicate Canvas modules named {MODULE_NAME!r}: "
+            f"{[entry['id'] for entry in matches]}"
+        )
+    found = matches[0] if matches else None
     data = {"module[published]": "false"}
     if found:
         return await common.api(client, "PUT", f"/courses/{COURSE_ID}/modules/{found['id']}", data=data)
     data["module[name]"] = MODULE_NAME
     return await common.api(client, "POST", f"/courses/{COURSE_ID}/modules", data=data)
+
+
+async def upload_locked(client, path, folder_path):
+    uploaded = await common.upload(client, path, folder_path)
+    record = await common.api(
+        client, "GET", f"/files/{uploaded['id']}"
+    )
+    if not record.get("locked"):
+        record = await common.api(
+            client, "PUT", f"/files/{uploaded['id']}", data={"locked": "true"}
+        )
+    if not record.get("locked"):
+        raise RuntimeError(f"Canvas did not lock uploaded file {path.name!r}")
+    return record
+
+
+async def lock_folder_files(client, folder):
+    current = await common.api(client, "GET", f"/folders/{folder['id']}")
+    if not current.get("locked"):
+        current = await common.api(
+            client, "PUT", f"/folders/{folder['id']}", data={"locked": "true"}
+        )
+    if not current.get("locked"):
+        raise RuntimeError(f"Canvas did not lock folder {folder['id']}")
+    for entry in await common.paged(client, f"/folders/{folder['id']}/files"):
+        if not entry.get("locked"):
+            await common.api(
+                client, "PUT", f"/files/{entry['id']}", data={"locked": "true"}
+            )
+    final = await common.paged(client, f"/folders/{folder['id']}/files")
+    unlocked = [
+        entry.get("display_name") or entry.get("filename")
+        for entry in final
+        if not entry.get("locked")
+    ]
+    if unlocked:
+        raise RuntimeError(f"Unlocked files remain in folder {folder['id']}: {unlocked}")
+    return current, len(final)
 
 
 QUESTIONS = [
@@ -67,7 +210,12 @@ QUESTIONS = [
 
 async def upsert_quiz(client):
     quizzes = await common.paged(client, f"/courses/{COURSE_ID}/quizzes")
-    quiz = next((entry for entry in quizzes if entry.get("title") == QUIZ_TITLE), None)
+    matches = [entry for entry in quizzes if entry.get("title") == QUIZ_TITLE]
+    if len(matches) > 1:
+        raise RuntimeError(
+            f"Duplicate quizzes named {QUIZ_TITLE!r}: {[entry['id'] for entry in matches]}"
+        )
+    quiz = matches[0] if matches else None
     data = {
         "quiz[title]": QUIZ_TITLE,
         "quiz[description]": "<p>Ungraded practice. Retry and use the feedback to separate graduation, admission, placement, career-exploration, military, and credential decisions.</p>",
@@ -79,6 +227,19 @@ async def upsert_quiz(client):
     }
     path = f"/courses/{COURSE_ID}/quizzes/{quiz['id']}" if quiz else f"/courses/{COURSE_ID}/quizzes"
     quiz = await common.api(client, "PUT" if quiz else "POST", path, data=data)
+    existing = await common.paged(client, f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions")
+    expected_names = [spec[0] for spec in QUESTIONS]
+    seen = set()
+    for question in existing:
+        name = question.get("question_name")
+        if name not in expected_names or name in seen:
+            await common.api(
+                client,
+                "DELETE",
+                f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions/{question['id']}",
+            )
+        else:
+            seen.add(name)
     existing = await common.paged(client, f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions")
     for position, (name, text, correct, wrong, correct_comment, incorrect_comment) in enumerate(QUESTIONS, 1):
         found = next((entry for entry in existing if entry.get("question_name") == name), None)
@@ -101,7 +262,46 @@ async def upsert_quiz(client):
             else f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions"
         )
         await common.api(client, "PUT" if found else "POST", question_path, json=payload)
-    return await common.api(client, "GET", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}")
+    final_questions = await common.paged(
+        client, f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions"
+    )
+    by_name = {entry.get("question_name"): entry for entry in final_questions}
+    if set(by_name) != set(expected_names) or len(final_questions) != len(expected_names):
+        raise RuntimeError(
+            f"Quiz {quiz['id']} question mismatch: "
+            f"{[entry.get('question_name') for entry in final_questions]}"
+        )
+    fields = []
+    for name in expected_names:
+        fields.extend(
+            [("order[][id]", str(by_name[name]["id"])), ("order[][type]", "question")]
+        )
+    await common.api(
+        client,
+        "POST",
+        f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/reorder",
+        content=urlencode(fields),
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
+    )
+    ordered = await common.paged(
+        client, f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions"
+    )
+    actual_order = [entry.get("question_name") for entry in ordered]
+    if actual_order != expected_names:
+        raise RuntimeError(
+            f"Quiz {quiz['id']} order mismatch: expected {expected_names}, found {actual_order}"
+        )
+    final = await common.api(client, "GET", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}")
+    if (
+        final.get("published")
+        or final.get("quiz_type") != "practice_quiz"
+        or int(final.get("allowed_attempts") or 0) != -1
+    ):
+        raise RuntimeError(
+            f"Practice quiz invariant failed: published={final.get('published')}, "
+            f"type={final.get('quiz_type')}, attempts={final.get('allowed_attempts')}"
+        )
+    return final
 
 
 async def upsert_item(client, module_id, kind, key, title):
@@ -110,9 +310,10 @@ async def upsert_item(client, module_id, kind, key, title):
         (
             item
             for item in items
-            if (kind == "SubHeader" and item.get("title") == title)
+            if item.get("type") == kind
+            and ((kind == "SubHeader" and item.get("title") == title)
             or (kind == "Page" and item.get("page_url") == key)
-            or (kind in ("Assignment", "Quiz") and item.get("content_id") == key)
+            or (kind in ("Assignment", "Quiz") and item.get("content_id") == key))
         ),
         None,
     )
@@ -121,9 +322,13 @@ async def upsert_item(client, module_id, kind, key, title):
             client,
             "PUT",
             f"/courses/{COURSE_ID}/modules/{module_id}/items/{found['id']}",
-            data={"module_item[title]": title},
+            data={"module_item[title]": title, "module_item[published]": "false"},
         )
-    data = {"module_item[type]": kind, "module_item[title]": title}
+    data = {
+        "module_item[type]": kind,
+        "module_item[title]": title,
+        "module_item[published]": "false",
+    }
     if kind == "Page":
         data["module_item[page_url]"] = key
     elif kind in ("Assignment", "Quiz"):
@@ -131,41 +336,91 @@ async def upsert_item(client, module_id, kind, key, title):
     return await common.api(client, "POST", f"/courses/{COURSE_ID}/modules/{module_id}/items", data=data)
 
 
-async def require_major_assignment(client, description):
+async def upsert_annotation(client, description, attachment_id):
     assignments = await common.paged(client, f"/courses/{COURSE_ID}/assignments")
-    matches = [entry for entry in assignments if entry.get("name") == PLAN_TITLE]
-    if len(matches) != 1:
+    matches = [entry for entry in assignments if entry.get("name") == ANNOTATION_TITLE]
+    if len(matches) > 1:
         raise RuntimeError(
-            f"Expected one existing mapped Major assignment named {PLAN_TITLE!r}; found {len(matches)}"
+            f"Duplicate assignments named {ANNOTATION_TITLE!r}: "
+            f"{[entry['id'] for entry in matches]}"
         )
-    found = matches[0]
-    if float(found.get("points_possible") or 0) != 100:
-        raise RuntimeError(
-            f"Refusing to modify {PLAN_TITLE!r}: expected 100 points, found {found.get('points_possible')}"
-        )
-    groups = await common.paged(client, f"/courses/{COURSE_ID}/assignment_groups")
-    group = next(
-        (entry for entry in groups if entry.get("id") == found.get("assignment_group_id")),
-        None,
+    found = matches[0] if matches else None
+    data = {
+        "assignment[name]": ANNOTATION_TITLE,
+        "assignment[description]": description,
+        "assignment[submission_types][]": [
+            "student_annotation",
+            "online_upload",
+            "online_text_entry",
+        ],
+        "assignment[annotatable_attachment_id]": str(attachment_id),
+        "assignment[grading_type]": "percent",
+        "assignment[points_possible]": "0",
+        "assignment[omit_from_final_grade]": "true",
+        "assignment[published]": "false",
+    }
+    assignment = await common.api(
+        client,
+        "PUT" if found else "POST",
+        (
+            f"/courses/{COURSE_ID}/assignments/{found['id']}"
+            if found
+            else f"/courses/{COURSE_ID}/assignments"
+        ),
+        data=data,
     )
-    if not group or group.get("name") != "Major Assessments (60%)":
+    if (
+        assignment.get("published")
+        or float(assignment.get("points_possible") or 0) != 0
+        or assignment.get("grading_type") != "percent"
+        or not assignment.get("omit_from_final_grade")
+        or int(assignment.get("annotatable_attachment_id") or 0) != int(attachment_id)
+    ):
         raise RuntimeError(
-            f"Refusing to modify {PLAN_TITLE!r}: expected Major Assessments (60%) group"
+            f"Annotation invariant failed: published={assignment.get('published')}, "
+            f"points={assignment.get('points_possible')}, grading={assignment.get('grading_type')}, "
+            f"omit={assignment.get('omit_from_final_grade')}, "
+            f"attachment={assignment.get('annotatable_attachment_id')}"
         )
-    return await common.api(
+    return assignment
+
+
+async def update_major_assignment(client, plan_id, group_id, description):
+    updated = await common.api(
         client,
         "PUT",
-        f"/courses/{COURSE_ID}/assignments/{found['id']}",
+        f"/courses/{COURSE_ID}/assignments/{plan_id}",
         data={
+            "assignment[name]": PLAN_TITLE,
             "assignment[description]": description,
             "assignment[submission_types][]": [
                 "online_upload",
                 "online_text_entry",
                 "media_recording",
             ],
+            "assignment[points_possible]": "100",
+            "assignment[grading_type]": "points",
+            "assignment[assignment_group_id]": str(group_id),
+            "assignment[omit_from_final_grade]": "false",
             "assignment[published]": "false",
         },
     )
+    if (
+        updated.get("published")
+        or float(updated.get("points_possible") or 0) != 100
+        or updated.get("grading_type") != "points"
+        or updated.get("assignment_group_id") != group_id
+        or updated.get("omit_from_final_grade") is not False
+        or 'data-cce-rubric-note="cce-advisory-rubric-v1"'
+        not in (updated.get("description") or "")
+    ):
+        raise RuntimeError(
+            f"Mapped Major invariant failed for {PLAN_TITLE!r}: "
+            f"published={updated.get('published')}, points={updated.get('points_possible')}, "
+            f"grading={updated.get('grading_type')}, group={updated.get('assignment_group_id')}, "
+            f"omit={updated.get('omit_from_final_grade')}"
+        )
+    return updated
 
 
 def image_tag(file_id, alt):
@@ -176,11 +431,25 @@ def image_tag(file_id, alt):
     )
 
 
+def matches_item(item, kind, key):
+    if item.get("type") != kind:
+        return False
+    if kind == "SubHeader":
+        return item.get("title") == key
+    if kind == "Page":
+        return item.get("page_url") == key
+    if kind in ("Assignment", "Quiz"):
+        return item.get("content_id") == key
+    return False
+
+
 async def main():
+    preflight()
     token = sys.stdin.readline().strip()
     if not token:
         raise SystemExit("Canvas token required on stdin")
     async with httpx.AsyncClient(headers={"Authorization": f"Bearer {token}"}, timeout=120) as client:
+        state = await canvas_preflight(client)
         module = await ensure_module(client)
         support_path = "course files/CCR Materials/4SW/Wk2"
         support_folder = await common.ensure_folder(client, support_path)
@@ -193,7 +462,7 @@ async def main():
             "RUBRIC": "4sw-wk2-high-school-career-plan-rubric.pdf",
         }
         files = {
-            key: await common.upload(client, ROOT / "docs/resources/worksheets" / name, support_path)
+            key: await upload_locked(client, ROOT / "docs/resources/worksheets" / name, support_path)
             for key, name in worksheet_names.items()
         }
 
@@ -207,20 +476,32 @@ async def main():
             folder_path = f"course files/CCR Materials/4SW/Wk2/Day {day} Visuals"
             visual_folders[day] = await common.ensure_folder(client, folder_path)
             visuals[day] = {
-                name: await common.upload(client, ASSETS / f"day{day}" / name, folder_path)
+                name: await upload_locked(client, ASSETS / f"day{day}" / name, folder_path)
                 for name in names
             }
 
+        support_folder, support_file_count = await lock_folder_files(
+            client, support_folder
+        )
+        visual_file_counts = {}
+        for day, folder in visual_folders.items():
+            visual_folders[day], visual_file_counts[day] = await lock_folder_files(
+                client, folder
+            )
+
         quiz = await upsert_quiz(client)
-        annotation = await common.upsert_assignment(
+        annotation = await upsert_annotation(
             client,
-            ANNOTATION_TITLE,
             "<p>Complete the counseling-ready four-year draft by Canvas annotation, file upload, text entry, or paper. Do not submit official course requests. Mark uncertain entries for counselor verification.</p>",
-            ["student_annotation", "online_upload", "online_text_entry"],
             files["COURSE"]["id"],
         )
-        plan_description = f'<p>Submit only the completed four-page Individual High School and Career Plan by file upload, typed response, or approved audio response. Days 1-4 are evidence-building checkpoints, not four additional required uploads. Use the <a href="/courses/{COURSE_ID}/files/{files["RUBRIC"]["id"]}/preview">student scoring guide</a> before submitting. This assignment is already mapped as a 100-point Major Assessment and remains unpublished for teacher review and cloning.</p>'
-        plan_assignment = await require_major_assignment(client, plan_description)
+        plan_description = f'<p>Submit only the completed four-page Individual High School and Career Plan by file upload, typed response, or approved audio response. Days 1-4 are evidence-building checkpoints, not four additional required uploads. Use the <a href="/courses/{COURSE_ID}/files/{files["RUBRIC"]["id"]}/preview">student scoring guide</a> before submitting. This assignment is mapped as a 100-point Major Assessment and remains unpublished for teacher review and cloning.</p>{state["rubric_note"]}'
+        plan_assignment = await update_major_assignment(
+            client,
+            state["plan"]["id"],
+            state["major_group"]["id"],
+            plan_description,
+        )
         quiz_url = f"/courses/{COURSE_ID}/quizzes/{quiz['id']}"
         annotation_url = f"/courses/{COURSE_ID}/assignments/{annotation['id']}"
         plan_url = f"/courses/{COURSE_ID}/assignments/{plan_assignment['id']}"
@@ -301,16 +582,16 @@ async def main():
                 "TITLE": "Graduation and Assessment Decisions",
                 "PURPOSE": "Separate graduation, admission, placement, career-exploration, military, and credential decisions before you plan.",
                 "TODAY": "<ul><li>read the current Texas graduation framework;</li><li>identify one endorsement question;</li><li>analyze two assessment scenarios.</li></ul>",
-                "READY": f'<p>Open {file_link(files["TRANSITION"]["id"], "the Transition and Assessment Decisions packet")}. Your teacher will also post the current TEA Chapter 74 graduation rule and a dated cohort card.</p>',
+                "READY": f'<p>Use one printed copy of {file_link(files["TRANSITION"]["id"], "the three-page Transition and Assessment Decisions packet")}. Page 1 already contains the dated Grade 8 cohort facts. Keep the packet in your CCR Week 2 folder for Day 5.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Decision words:</strong> graduation · admission · placement · scholarship · career exploration · military qualification · credential.</p><p><strong>Use this frame:</strong> ___ may affect ___, but it does not decide ___. I will verify ___ with ___.</p></div>',
                 "STEPS": step(1, "Record the two planning levels", "<p>Write the 22-credit foundation baseline and what the 26-credit endorsement plan adds. Keep the source and year.</p>")
                 + step(2, "Write a counseling-ready endorsement statement", "<p>Name one possible endorsement and one question. Do not write “always” unless a current source proves it.</p>")
                 + step(3, "Match the decision, not just the test name", "<p>For each scenario, name what the result may affect, a next step, and one fact to verify.</p>")
-                + step(4, "Check your thinking", f'<p><a href="{quiz_url}">Open the four-question practice check</a>. Retry and use the feedback.</p>'),
+                + step(4, "Check your thinking", f'<p>Finish the packet exit check. If time remains or you need another practice route, <a href="{quiz_url}">open the optional four-question practice check</a> and use the feedback.</p>'),
                 "EXIT": "<p>Correct Jordan's claim that the SAT, TSIA, and an industry certification are all the same kind of test.</p>",
                 "DONE": "<ul><li>graduation framework and source;</li><li>possible endorsement plus question;</li><li>assessment purpose table;</li><li>two scenario decisions;</li><li>one current verification source or person.</li></ul>",
-                "SUPPORT": "<p>graduation = graduación · admission = admisión · placement = colocación · credential = credencial. Sort the six purpose cards before writing.</p>",
-                "FALLBACK": "<p>The packet and TEA source card are the complete route. If the live page is unavailable, use the dated card and keep your verification question.</p>",
+                "SUPPORT": "<p>graduation = graduación · admission = admisión · placement = colocación · credential = credencial. Point to one word in the packet decision bank, then complete: “___ may affect ___, but it does not decide ___.”</p>",
+                "FALLBACK": "<p>The printed packet is the complete route. Its dated cohort note and decision bank replace the live source and practice Quiz when either is unavailable. Keep the packet for Day 5.</p>",
             },
             2: {
                 "TITLE": "Four-Year Course Plan Draft",
@@ -318,14 +599,14 @@ async def main():
                 "TODAY": "<ul><li>find current course information;</li><li>draft Grades 9-12;</li><li>explain one prerequisite chain;</li><li>keep a backup and counselor questions.</li></ul>",
                 "READY": f'<p><strong>Default route:</strong> <a href="{annotation_url}">open the Canvas course-plan annotation</a>. Use {file_link(files["COURSE"]["id"], "the three-page paper or enlarged route")} only when your teacher assigns that route. Do not complete both. Keep the current Irving ISD coursebook open.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Planning words:</strong> prerequisite = a course required first · verify = check with a current source or counselor · backup = another route that protects the same goal.</p><p><strong>Use this frame:</strong> I placed ___ before ___ because the coursebook lists ___ as a prerequisite. I still need to verify ___.</p></div>',
-                "STEPS": step(1, "Keep the source with the course", "<p>Record the exact title, grade level, prerequisite, source, and access date.</p>")
-                + step(2, "Draft one year at a time", "<p>Complete Grades 9-12. A blank marked for verification is better than an invented course.</p>")
+                "STEPS": step(1, "Keep the source with the course", "<p>Record the exact title, grade level, prerequisite, source, and access date.</p><div style=\"border:1px solid #bad4df;background:#f2f8fb;padding:12px 16px;margin:12px 0\"><p style=\"margin:0 0 6px\"><strong>Worked sequence from the 2026-27 Irving coursebook:</strong></p><p style=\"margin:0\">Grade 9 English I → Grade 10 English II (prerequisite: English I) → Grade 11 English III - Dual Credit (prerequisite: English II). Mark <strong>VERIFY</strong> beside dual-credit readiness, campus availability, and counselor placement. A source-checked English III route is the backup.</p></div>")
+                + step(2, "Draft one year at a time", "<p>Complete Grades 9-12. A blank marked for verification is better than an invented course. Use the model's structure, not its English choices.</p>")
                 + step(3, "Explain the sequence", "<p>Show one prerequisite chain and why an earlier choice matters later.</p>")
                 + step(4, "Protect the goal", "<p>Add a backup and two counselor questions about access, application, transportation, capacity, or sequence.</p>"),
                 "EXIT": "<p>What do you do when a course title is current but its grade level, campus, or prerequisite is unclear?</p>",
                 "DONE": "<ul><li>source and access date;</li><li>four-year draft;</li><li>one prerequisite chain;</li><li>one item marked for verification;</li><li>one backup;</li><li>two counselor questions.</li></ul>",
-                "SUPPORT": "<p>prerequisite = requisito previo · verify = verificar · backup = alternativa. Use the fictional model to see the structure, not to copy course names.</p>",
-                "FALLBACK": "<p>Use the dated course cards and paper or text-entry route. Do not submit course requests. The official Xello tasks wait for the counseling window.</p>",
+                "SUPPORT": "<p>prerequisite = requisito previo · verify = verificar · backup = alternativa. Complete: “I placed ___ before ___ because the coursebook lists ___ as a prerequisite. I still need to verify ___.”</p>",
+                "FALLBACK": "<p>Use the embedded worked sequence and the three-page paper route. Mark every missing operational detail <strong>VERIFY</strong>. Do not submit course requests; the official Xello tasks wait for the counseling window.</p>",
             },
             3: {
                 "TITLE": "College Credit and Plan Conversation",
@@ -334,13 +615,13 @@ async def main():
                 "READY": f'<p>Open {file_link(files["CREDIT"]["id"], "the two-page College Credit and Plan Check")}. Your teacher will post the current TEA AP, dual-credit, and Irving coursebook pages.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Compare with:</strong> exam score · college course · receiving-college policy · eligibility · transcript · transfer · cost.</p><p><strong>Use this frame:</strong> AP and dual credit both ___. AP depends on ___, while dual credit depends on ___. Before I choose, I need to verify ___.</p></div>',
                 "STEPS": step(1, "Compare the routes", "<p>AP uses an exam and receiving-college policy. Dual credit is a college course that gives high school and college credit after successful completion.</p>")
-                + step(2, "Document one current option", "<p>Keep the exact name, type, grade level, prerequisite, possible credit, source/date, and one limitation or question.</p>")
+                + step(2, "Document one current option", "<p>Keep the exact name, type, grade level, prerequisite, possible credit, source/date, and one limitation or question.</p><div style=\"border:1px solid #bad4df;background:#f2f8fb;padding:12px 16px;margin:12px 0\"><p style=\"margin:0 0 6px\"><strong>Current Irving source card · 2026-27:</strong></p><p style=\"margin:0\"><strong>English III - Dual Credit</strong> is listed for Grades 10-12 with English II as the prerequisite. The coursebook says successful completion meets high-school and college-credit requirements. Still verify college readiness, campus availability, cost, transfer, and placement with the counselor or receiving college.</p></div>")
                 + step(3, "Choose an equal conversation route", "<p>Use a family member, trusted adult, counselor, teacher, private writing, or private audio. A signature is not required.</p>")
                 + step(4, "Revise honestly", "<p>Record one part you will keep, change, or verify because of the question or reflection.</p>"),
                 "EXIT": "<p>Add one accurate fact to AP only, both, and dual credit only. Then write one verification question.</p>",
                 "DONE": "<ul><li>accurate source comparison;</li><li>one current local option;</li><li>one limitation or question;</li><li>equal conversation or private route;</li><li>one keep, change, or verify decision.</li></ul>",
                 "SUPPORT": "<p>exam score = puntaje de examen · college course = curso universitario · transfer = transferencia · eligibility = elegibilidad. Rehearse with the two sentence frames before writing.</p>",
-                "FALLBACK": "<p>Use the dated source cards and complete the private written reflection. No family signature, partner, or live search is required.</p>",
+                "FALLBACK": "<p>Use the embedded 2026-27 Irving source card and complete the private written reflection. Label any unanswered eligibility, transfer, cost, or scheduling detail <strong>VERIFY</strong>. No family signature, partner, or live search is required.</p>",
             },
             4: {
                 "TITLE": "SMART Experience Action Plan",
@@ -348,10 +629,10 @@ async def main():
                 "TODAY": "<ul><li>evaluate one experience;</li><li>write all five SMART parts;</li><li>check access, support, obstacle, and backup;</li><li>choose one action within seven days.</li></ul>",
                 "READY": f'<p><strong>Default route:</strong> complete the SMART goal on FYF pp. 292-293, then open {file_link(files["SMART"]["id"], "the one-page Experience Access and Backup Check")}. The companion collects only the evidence the workbook does not ask for.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>SMART:</strong> Specific · Measurable · Achievable · Relevant · Time-Bound.</p><p><strong>Use these frames:</strong> By ___, I will ___, and I will know I made progress when ___. If ___ blocks the plan, I will ___ so I can still build ___.</p></div>',
-                "STEPS": step(1, "Choose a real or clearly unverified experience", "<p>Use a club, activity, service, project, responsibility, work, job-shadow, or portfolio option. Do not contact an unfamiliar adult or workplace.</p>")
+                "STEPS": step(1, "Choose a real or clearly unverified experience", "<p>Choose one route: (1) an independent three-sample project, (2) a four-week service or responsibility role with an evidence log, or (3) one verified campus/community meeting with an independent-project backup. Do not contact an unfamiliar adult or workplace.</p>")
                 + step(2, "Name the value", "<p>Record the skill it builds and how the same skill transfers to a second career.</p>")
                 + step(3, "Write the five SMART parts", "<p>Specific, Measurable, Achievable, Relevant, and Time-Bound.</p>")
-                + step(4, "Protect the plan", "<p>Add support, likely obstacle, backup, and one first action within seven days.</p>"),
+                + step(4, "Protect the plan", "<p>Add support, likely obstacle, backup, and one first action within seven days. Use an if/when-then action: “When class ends Friday, I will spend 20 minutes on sample 1. If the device is unavailable, I will sketch the same evidence on paper.”</p>"),
                 "EXIT": "<p>Rank measure, access, time, support, and backup. Revise the weakest part now.</p>",
                 "DONE": "<ul><li>experience and source;</li><li>skill plus second-career transfer;</li><li>all five SMART parts;</li><li>support and obstacle;</li><li>backup;</li><li>seven-day action.</li></ul>",
                 "SUPPORT": "<p>specific = específico · measurable = medible · achievable = alcanzable · relevant = pertinente · time-bound = con fecha. Use “By [date], I will...” and “If [obstacle], I will...”</p>",
@@ -361,7 +642,7 @@ async def main():
                 "TITLE": "Individual High School and Career Plan",
                 "PURPOSE": "Combine your evidence into a current direction, course and preparation plan, backup, and revision rule.",
                 "TODAY": "<ul><li>gather Days 1-4 evidence;</li><li>write the individual plan;</li><li>self-score with the rubric;</li><li>revise and submit privately.</li></ul>",
-                "READY": f'<p>Open {file_link(files["PLAN"]["id"], "the four-page Individual Plan")} and {file_link(files["RUBRIC"]["id"], "the two-page 16-point rubric")}.</p>',
+                "READY": f'<p><strong>Default route:</strong> complete {file_link(files["PLAN"]["id"], "the four-page Individual Plan")} and use {file_link(files["RUBRIC"]["id"], "the two-page 16-point rubric")} on screen. Print the rubric only when you need a paper or enlarged copy. Submit the plan privately; keep Days 1-4 as source evidence.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Plan words:</strong> direction · evidence · prerequisite · preparation · backup · revision rule.</p><p><strong>Use these frames:</strong> My current direction is ___ because my evidence shows ___. I will revise this plan if ___ because that evidence would change ___.</p></div>',
                 "STEPS": step(1, "Direction and self-evidence", "<p>Name a current direction, two pieces of self-evidence, and evidence that would make you reconsider.</p>")
                 + step(2, "Course and preparation evidence", "<p>Bring forward the four-year draft, prerequisite chain, one verification item, preparation after high school, and one advanced or college-credit option.</p>")
@@ -379,55 +660,55 @@ async def main():
                 "TITLE": "Graduation and Assessment Decisions",
                 "SUBTITLE": "50 minutes · TEKS d(3)(A), d(3)(E)",
                 "ALERT": "<strong>Use the August 2026 Chapter 74 rule.</strong> The foundation baseline remains 22 credits and an endorsement requires at least 26. Beginning with students entering Grade 9 in 2026-2027, teach the new Personal Financial Literacy and social-studies choices. Current Grade 8 students enter high school after that start date. The 2025 toolkit shows prior-cohort wording.",
-                "PREP": f'<ul><li>Post {file_link(files["TRANSITION"]["id"], "the transition packet")} and <a href="https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch074b.pdf">current TEA Chapter 74, Subchapter B</a>.</li><li>Prepare the current Grade 8 cohort card: U.S. History 1 credit, Government 0.5, Personal Financial Literacy 0.5, and 1 credit from World History, World Geography, or Foundations of Economics.</li><li>Open the unpublished four-question practice Quiz and prepare six assessment-purpose cards.</li></ul>',
+                "PREP": f'<ul><li><strong>Print:</strong> one copy per student of {file_link(files["TRANSITION"]["id"], "the three-page transition packet")}; no separate cohort or assessment cards. Page 1 carries the August 2026 Grade 8 cohort facts and page 2 carries the decision bank.</li><li><strong>Project:</strong> <a href="https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch074b.pdf">current TEA Chapter 74, Subchapter B</a>. One device per pair is enough for a source check; the packet is the no-device route.</li><li><strong>Canvas:</strong> keep the four-question Quiz unpublished until the teacher chooses to use it as optional practice or recovery.</li></ul>',
                 "EVIDENCE": "<p>Current graduation framework, possible endorsement plus verification question, purpose table, two assessment scenarios, and one source/person to verify. Formative.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "High school question and likely decision.")
                 + flow("#4a9d2f", "Graduation framework · 12", "Foundation versus endorsement plan.")
                 + flow("#1f617a", "Endorsement question · 10", "Possible connection without an always claim.")
                 + flow("#e3ad19", "Assessment scenarios · 18", "Decision, next step, and verification.")
                 + flow("#1f617a", "Exit · 5", "Correct the all-tests-are-the-same misconception."),
-                "MONITOR": "<p>Key boundary: EOC for graduation rules; PSAT for practice/feedback and some scholarship programs; SAT/ACT when admission or scholarships use them; TSIA for college readiness/placement with exemptions or alternatives; ASVAB for exploration and military qualification/job options; certification assessments for a named credential. One test does not plan the full route.</p>",
+                "MONITOR": "<p><strong>Monitor:</strong> During the scenario block, check every student's first decision label before reading the explanation. Give the feedback, “Name the decision this result affects.” <strong>Misconception:</strong> students group every assessment as college admission. If three students do this, pause and sort EOC, TSIA, and certification under graduation, placement, and credential before restarting. <strong>Safe trim:</strong> skip the optional Canvas Quiz; do not trim the two scenarios or exit correction. <strong>Retain:</strong> record the formative completion during the exit lap, then students place the packet in their CCR Week 2 folder for Day 5.</p><p><strong>Key:</strong> EOC connects to graduation rules; PSAT to practice/feedback and some scholarship programs; SAT/ACT to admission or scholarships when a program uses them; TSIA to college readiness/placement with exemptions or alternatives; ASVAB to exploration and military qualification/job options; certification assessments to a named credential.</p>",
                 "RESOURCES": "<p>Current TEA Chapter 74, Subchapter B controls the statewide baseline. The 2025 toolkit is a prior-cohort reference. The revised rule begins with students entering Grade 9 in 2026-2027 and therefore covers later cohorts, including current Grade 8 students. Irving course titles and each student's plan still require district and counselor confirmation.</p>",
-                "SUPPORT": "<p>Use purpose cards and icons, read one scenario at a time, and allow oral rehearsal. The packet gives separate full-width lines for each scenario job.</p>",
-                "FALLBACK": "<p>The dated TEA source card and printed packet are complete. Do not require live test-registration sites or private scores.</p>",
+                "SUPPORT": "<p>Point to the packet decision bank at the moment students enter each scenario. Read one scenario at a time, allow a 30-second oral rehearsal, and require the complete frame: “___ may affect ___, but it does not decide ___. I will verify ___ with ___.”</p>",
+                "FALLBACK": "<p>The printed packet is the complete route and already includes the dated cohort facts. If the live TEA page or Canvas Quiz fails, students keep the source year and verification question. Do not require test-registration sites or private scores.</p>",
             },
             2: {
                 "TITLE": "Four-Year Course Plan Draft",
                 "SUBTITLE": "50 minutes · TEKS d(8)(B), d(3)(A)",
                 "ALERT": "<strong>Draft, not requests.</strong> Do not open Xello Submit course requests or parent approval until counselors confirm the local window and process.",
-                "PREP": f'<ul><li>Open the unpublished annotation Assignment and post {file_link(files["COURSE"]["id"], "the three-page paper or enlarged route")}.</li><li>Post the <a href="https://www.irvingisd.net/departments-services/curriculum-and-instruction/middle-school-and-high-school-course-descriptions">current Irving coursebook</a>.</li><li>Prepare dated course cards and one fictional model.</li></ul>',
+                "PREP": f'<ul><li><strong>Default digital route:</strong> one device per student, the unpublished annotation Assignment, and the <a href="https://www.irvingisd.net/departments-services/curriculum-and-instruction/middle-school-and-high-school-course-descriptions">2026-27 Irving coursebook</a>.</li><li><strong>Paper/enlarged route:</strong> print one copy per assigned student of {file_link(files["COURSE"]["id"], "the three-page course-plan draft")}; students do not complete both routes.</li><li><strong>Project:</strong> the finished English I → English II → English III - Dual Credit example already embedded in the Student Guide. No teacher-created course card or model is required.</li></ul>',
                 "EVIDENCE": "<p>Four-year draft, current source/date, one prerequisite chain, one verification label, backup, and two counselor questions. Formative.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "What prerequisite errors can cause.")
                 + flow("#4a9d2f", "Source model · 10", "Exact title, grade, prerequisite, question, backup.")
                 + flow("#1f617a", "Draft · 25", "Grades 9-12 and sequence check.")
                 + flow("#e3ad19", "Audit · 5", "Source, sequence, verification.")
                 + flow("#1f617a", "Exit · 5", "Branch when a detail is unclear."),
-                "MONITOR": "<p>Lap 1 checks title/source/date. Lap 2 checks the prerequisite chain. Lap 3 checks verification labels, backup, and questions. Do not grade a guessed course as more complete than an honest unknown.</p>",
+                "MONITOR": "<p><strong>Monitor:</strong> Lap 1 checks exact title/source/date and gives “Show me the line that supports this.” Lap 2 checks one prerequisite chain. Lap 3 checks a VERIFY label, backup, and two counselor questions. <strong>Misconception:</strong> a full table looks stronger than an honest unknown. If three students invent the same course or campus, stop and model a labeled VERIFY branch. <strong>Safe trim:</strong> change the peer audit to the same private self-audit; protect the prerequisite chain, backup, and questions. <strong>Save:</strong> Canvas students submit the annotation; paper students place the draft in the CCR Week 2 folder for Day 5.</p>",
                 "RESOURCES": "<p>Authenticated Xello configuration: 4-year course plan 30 min; Make plans 30 min/add at least one plan; Submit course requests 20 min/Grade 8 only; parent approval 15 min/current due May 1, 2027. These remain counselor-window tasks.</p>",
-                "SUPPORT": "<p>Use a fictional model and complete one Grade 9 row together. Canvas annotation is the default; the three-page paper route keeps the same evidence and writing space.</p>",
-                "FALLBACK": "<p>Dated course cards replace live search. Platform failure never authorizes an invented course or false Xello completion.</p>",
+                "SUPPORT": "<p>Use the embedded source-checked English sequence and complete one new Grade 9 row together. Keep the complete frame beside the explanation: “I placed ___ before ___ because ___. I still need to verify ___.” Canvas annotation is the default; the three-page paper route keeps the same evidence.</p>",
+                "FALLBACK": "<p>The embedded model plus paper draft replace live search. Students mark unavailable details VERIFY and write the counselor question. Platform failure never authorizes an invented course or false Xello completion.</p>",
             },
             3: {
                 "TITLE": "College Credit and Plan Conversation",
                 "SUBTITLE": "50 minutes · TEKS d(3)(B), d(3)(D)",
                 "ALERT": "<strong>No automatic credit or free-course promise.</strong> AP depends on exam performance and receiving-college policy. Dual credit has eligibility, completion, transfer, cost, and local-availability questions.",
-                "PREP": f'<ul><li>Post {file_link(files["CREDIT"]["id"], "the two-page College Credit and Plan Check")}.</li><li>Open current <a href="https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/advanced-placement">TEA AP</a>, <a href="https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/dual-credit">TEA Dual Credit</a>, and Irving coursebook pages.</li><li>Prepare one dated local option card.</li></ul>',
+                "PREP": f'<ul><li><strong>Print:</strong> one copy per student of {file_link(files["CREDIT"]["id"], "the two-page College Credit and Plan Check")}. Students keep it for Day 5.</li><li><strong>Devices:</strong> one per pair for current <a href="https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/advanced-placement">TEA AP</a>, <a href="https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/dual-credit">TEA Dual Credit</a>, and Irving coursebook checks; the printed packet and embedded card are the no-device route.</li><li><strong>Project:</strong> the 2026-27 Irving English III - Dual Credit source card embedded in the Student Guide. No teacher-created card is required.</li></ul>',
                 "EVIDENCE": "<p>Accurate comparison, one current local option with source/date, limitation or question, and one keep/change/verify reflection. Formative.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "Question before choosing college-credit work.")
                 + flow("#4a9d2f", "Compare · 12", "AP and dual-credit evidence.")
                 + flow("#1f617a", "Current option · 15", "Name, type, eligibility, possible credit, limitation.")
                 + flow("#e3ad19", "Plan conversation · 13", "Equal adult or private route.")
                 + flow("#1f617a", "Exit · 5", "AP-only, both, dual-only, question."),
-                "MONITOR": "<p>Full response keeps source/date and a limitation. FAST may support eligible students at participating institutions; it does not make every dual-credit course free. Industry certification is not college credit without a current articulation agreement.</p>",
+                "MONITOR": "<p><strong>Monitor:</strong> At the end of the comparison, listen to one AP/dual-credit Think-Pair-Share per table. Then check each current option for a source/date and limitation. Give the feedback, “Attach the condition to the claim.” <strong>Misconception:</strong> taking AP guarantees credit or any dual credit is free and transfers everywhere. If it appears at two tables, return to receiving-college policy and FAST eligibility before research continues. <strong>Safe trim:</strong> use the embedded Irving card instead of live option research; protect the comparison and keep/change/verify reflection. <strong>Retain:</strong> students place the two-page check in the Week 2 folder.</p>",
                 "RESOURCES": "<p>Use TEA for the route definitions and current Irving sources for local availability. A receiving college or counselor answers transfer and operational questions.</p>",
-                "SUPPORT": "<p>Use a two-column source card, oral rehearsal, and the packet's separate writing areas. Family, trusted adult, counselor, teacher, private writing, and private audio are equal.</p>",
+                "SUPPORT": "<p>Keep the word bank and complete AP/dual-credit frame visible during the comparison. Students rehearse once before writing. Family, trusted adult, counselor, teacher, private writing, and private audio are equal.</p>",
                 "FALLBACK": "<p>No signature is required. The dated source card and private reflection route complete the lesson without a partner or family conversation.</p>",
             },
             4: {
                 "TITLE": "SMART Experience Action Plan",
                 "SUBTITLE": "50 minutes · TEKS d(3)(F), d(8)(C)",
                 "ALERT": "<strong>Verify access before naming an opportunity.</strong> Do not promise a CTSO chapter, internship, job shadow, transportation route, or adult contact from workbook context alone.",
-                "PREP": f'<ul><li>Have students use FYF pp. 292-293 for the SMART goal.</li><li>Post {file_link(files["SMART"]["id"], "the one-page Experience Access and Backup Check")}.</li><li>Prepare one current campus option, one independent project, and one service or responsibility-based option.</li></ul>',
+                "PREP": f'<ul><li><strong>Required HQIM:</strong> one FYF workbook per student, open to pp. 292-293.</li><li><strong>Print:</strong> one copy per student of {file_link(files["SMART"]["id"], "the one-page Experience Access and Backup Check")}. Students keep both pieces for Day 5.</li><li><strong>Project:</strong> the three ready routes in the Student Guide: independent three-sample project; four-week service/responsibility evidence log; or one verified meeting with an independent-project backup. No teacher-created opportunity list is required.</li></ul>',
                 "EVIDENCE": "<p>Evaluated experience, transferable skill, all five SMART parts, access check, support, obstacle, backup, and seven-day action. Formative.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "Experience and skill.")
                 + flow("#4a9d2f", "SMART model · 8", "Weak versus source-checked goal.")
@@ -435,26 +716,26 @@ async def main():
                 + flow("#e3ad19", "Write plan · 17", "Five SMART parts and protection.")
                 + flow("#4a9d2f", "Self-check · 5", "Underline each part.")
                 + flow("#1f617a", "Exit · 5", "Rank and revise the weak part."),
-                "MONITOR": "<p>Lap 1 checks real or clearly unverified. Lap 2 checks the five SMART parts. Lap 3 checks access, obstacle, and backup. A platform-neutral independent project is equal to a club or program.</p>",
+                "MONITOR": "<p><strong>Monitor:</strong> Lap 1 checks that the experience is real or marked VERIFY. Lap 2 has students point to all five SMART parts. Lap 3 checks access, obstacle, backup, and an exact seven-day action. Give the feedback, “Name when you will act and what you will do if the barrier happens.” <strong>Misconception:</strong> naming a club is a complete plan. If three students stop there, model the embedded when-then action and paper/device backup. <strong>Safe trim:</strong> drop the optional partner review and use the private checklist; do not trim the SMART goal or access/backup companion. <strong>Retain:</strong> the workbook and one-page companion return to the Week 2 evidence folder.</p>",
                 "RESOURCES": "<p>Licensed Rung 6 pages are embedded. Rung 7 supplies opportunity categories, but current campus information controls availability.</p>",
-                "SUPPORT": "<p>Use SMART icons and sentence frames. The packet gives a separate full-width response area for every reasoning job.</p>",
+                "SUPPORT": "<p>Keep the SMART labels beside the workbook and the if/when-then frame beside the obstacle and backup job. Allow oral rehearsal or speech-to-text before students record the same evidence.</p>",
                 "FALLBACK": "<p>No eDynamic unit is required. An absent student can complete the packet with the embedded visuals and one source-checked option card.</p>",
             },
             5: {
                 "TITLE": "Individual High School and Career Plan",
                 "SUBTITLE": "50 minutes · TEKS d(8)(B), d(8)(C), d(3)(D)",
                 "ALERT": "<strong>Major 2 is already mapped.</strong> The Assignment stays unpublished, is worth 100 points, and remains in Major Assessments (60%) so each teacher can publish it after cloning.",
-                "PREP": f'<ul><li>Post {file_link(files["PLAN"]["id"], "the four-page plan")} and {file_link(files["RUBRIC"]["id"], "the two-page student rubric")}.</li><li>Open the private unpublished Assignment.</li><li>Have Days 1-4 packets and dated source cards available.</li></ul>',
+                "PREP": f'<ul><li><strong>Default:</strong> one device per student, {file_link(files["PLAN"]["id"], "the four-page plan")}, the on-screen {file_link(files["RUBRIC"]["id"], "two-page student rubric")}, and the private unpublished Assignment.</li><li><strong>Paper/enlarged route:</strong> print one four-page plan per assigned student and one rubric only for students who need paper or enlarged scoring support.</li><li><strong>Set out:</strong> each student’s retained Days 1-4 evidence folder. No additional source packet or upload is required.</li></ul>',
                 "EVIDENCE": "<p>Submit the four-page Individual Plan only. It synthesizes self-evidence, course and preparation evidence, college-credit evidence, timed actions, support, backup, and a revision rule. Major 2, scored with the 16-point profile and recorded as 100 gradebook points.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "Supported part and open question.")
                 + flow("#4a9d2f", "Gather · 5", "Days 1-4 evidence set.")
-                + flow("#1f617a", "Write · 28", "Three chunks with checks.")
+                + flow("#1f617a", "Write · 28", "8 min direction/self-evidence; 10 min course/preparation; 8 min action/revision, with a 1-minute source check after each of the first two chunks.")
                 + flow("#e3ad19", "Self-score · 7", "Circle, revise, and retain evidence labels.")
                 + flow("#1f617a", "Submit · 5", "Private 3-2-1 and plan."),
-                "MONITOR": "<p>Suggested conversion after local approval: 15-16 Masters, 13-14 Meets, 12 Approaches, 10-11 Needs Improvement; below 10 follows campus policy. Score evidence and reasoning, not family availability, adult agreement, grammar unless meaning is unclear, handwriting, art, accent, or submission mode.</p>",
+                "MONITOR": "<p><strong>Monitor:</strong> Check one section after each writing chunk: self-evidence, then course/preparation evidence, then action/revision. Give “Show the source or label VERIFY” before students continue. If several students copy unsupported claims, pause at the source/date field and revise one model line together. <strong>Safe trim:</strong> shorten the warm-up share and use a private rubric check; protect the visible revision and private submission. <strong>Collect:</strong> submit only the four-page plan in Canvas or collect the paper plan. Days 1-4 remain source evidence, not additional uploads.</p><p><strong>Scoring:</strong> Suggested conversion after local approval: 15-16 Masters, 13-14 Meets, 12 Approaches, 10-11 Needs Improvement; below 10 follows campus policy. Score evidence and reasoning, not family availability, adult agreement, grammar unless meaning is unclear, handwriting, art, accent, or submission mode.</p>",
                 "RESOURCES": "<p>The plan prepares students for the counselor-controlled Xello planning tasks. It does not count as 4-year course plan, Make plans, Submit course requests, or parent approval completion.</p>",
                 "SUPPORT": "<p>Use one numbered prompt per evidence job, speech-to-text, teacher scribe, or private media recording. The PDFs preserve full-width space.</p>",
-                "FALLBACK": "<p>Missing prior work is rebuilt from the matching Student Guide and source card. Canvas failure means paper or later upload without penalty.</p>",
+                "FALLBACK": "<p>Missing prior evidence is rebuilt from the matching Student Guide and embedded source card. If class ends before all four rubric criteria are present, use the teacher's recovery window; do not delete a criterion to force submission. Canvas failure means paper or later upload without penalty.</p>",
             },
         }
 
@@ -468,8 +749,8 @@ async def main():
         pages, order = {}, []
         for day in range(1, 6):
             header_title = f"Day {day} · {day_names[day]}"
-            header = await upsert_item(client, module["id"], "SubHeader", None, header_title)
-            order.append(("SubHeader", header["id"], header_title))
+            await upsert_item(client, module["id"], "SubHeader", None, header_title)
+            order.append(("SubHeader", header_title, header_title))
             student_title = f"STUDENT: 4SW Wk2 Day {day} - {day_names[day]}"
             student_page = await common.upsert_page(
                 client,
@@ -514,23 +795,110 @@ async def main():
                 order.append(("Assignment", plan_assignment["id"], PLAN_TITLE))
 
         items = await common.paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
-        for position, (kind, key, title) in enumerate(order, 1):
+        keep_ids = set()
+        for kind, key, _title in order:
             item = next(
-                entry
-                for entry in items
-                if (kind == "SubHeader" and entry.get("id") == key)
-                or (kind == "Page" and entry.get("page_url") == key)
-                or (kind in ("Assignment", "Quiz") and entry.get("content_id") == key)
+                (
+                    entry
+                    for entry in items
+                    if entry["id"] not in keep_ids and matches_item(entry, kind, key)
+                ),
+                None,
             )
+            if item is None:
+                raise RuntimeError(f"Missing expected module item: {kind} {key}")
+            keep_ids.add(item["id"])
+        for entry in items:
+            if entry["id"] not in keep_ids:
+                await common.api(
+                    client,
+                    "DELETE",
+                    f"/courses/{COURSE_ID}/modules/{module['id']}/items/{entry['id']}",
+                )
+
+        items = await common.paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
+        for position, (kind, key, title) in enumerate(order, 1):
+            matching = [entry for entry in items if matches_item(entry, kind, key)]
+            if len(matching) != 1:
+                raise RuntimeError(
+                    f"Expected one module item for {kind} {key}; found {len(matching)}"
+                )
             await common.api(
                 client,
                 "PUT",
-                f"/courses/{COURSE_ID}/modules/{module['id']}/items/{item['id']}",
-                data={"module_item[position]": position, "module_item[title]": title},
+                f"/courses/{COURSE_ID}/modules/{module['id']}/items/{matching[0]['id']}",
+                data={
+                    "module_item[position]": position,
+                    "module_item[title]": title,
+                    "module_item[published]": "false",
+                },
             )
 
-        final_items = await common.paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
+        final_items = sorted(
+            await common.paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items"),
+            key=lambda entry: entry.get("position") or 0,
+        )
         module = await common.api(client, "GET", f"/courses/{COURSE_ID}/modules/{module['id']}")
+        quiz = await common.api(client, "GET", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}")
+        annotation = await common.api(
+            client, "GET", f"/courses/{COURSE_ID}/assignments/{annotation['id']}"
+        )
+        plan_assignment = await common.api(
+            client, "GET", f"/courses/{COURSE_ID}/assignments/{plan_assignment['id']}"
+        )
+        if module.get("published"):
+            raise RuntimeError("4SW Wk2 module unexpectedly published")
+        if (
+            quiz.get("published")
+            or quiz.get("quiz_type") != "practice_quiz"
+            or int(quiz.get("allowed_attempts") or 0) != -1
+        ):
+            raise RuntimeError("4SW Wk2 practice quiz invariant failed")
+        if (
+            annotation.get("published")
+            or float(annotation.get("points_possible") or 0) != 0
+            or annotation.get("grading_type") != "percent"
+            or not annotation.get("omit_from_final_grade")
+        ):
+            raise RuntimeError("4SW Wk2 annotation invariant failed")
+        if (
+            plan_assignment.get("published")
+            or float(plan_assignment.get("points_possible") or 0) != 100
+            or plan_assignment.get("grading_type") != "points"
+            or plan_assignment.get("assignment_group_id") != state["major_group"]["id"]
+            or plan_assignment.get("omit_from_final_grade") is not False
+            or 'data-cce-rubric-note="cce-advisory-rubric-v1"'
+            not in (plan_assignment.get("description") or "")
+        ):
+            raise RuntimeError("4SW Wk2 mapped Major invariant failed")
+        published_pages = [
+            value["url"]
+            for pair in pages.values()
+            for value in pair.values()
+            if value.get("published")
+        ]
+        if published_pages:
+            raise RuntimeError(f"Published 4SW Wk2 pages remain: {published_pages}")
+        if not support_folder.get("locked") or any(
+            not folder.get("locked") for folder in visual_folders.values()
+        ):
+            raise RuntimeError("One or more 4SW Wk2 Canvas folders remain unlocked")
+        if len(final_items) != 18 or len(final_items) != len(order):
+            raise RuntimeError(
+                f"Expected exactly 18 4SW Wk2 module items; found {len(final_items)}"
+            )
+        published_items = [
+            entry.get("title") for entry in final_items if entry.get("published")
+        ]
+        if published_items:
+            raise RuntimeError(f"Published 4SW Wk2 module items remain: {published_items}")
+        for position, ((kind, key, title), item) in enumerate(zip(order, final_items), 1):
+            if (
+                item.get("position") != position
+                or item.get("title") != title
+                or not matches_item(item, kind, key)
+            ):
+                raise RuntimeError(f"4SW Wk2 module order mismatch at {position}")
         print(
             json.dumps(
                 {
@@ -546,6 +914,9 @@ async def main():
                         "published": annotation.get("published"),
                         "submission_types": annotation.get("submission_types"),
                         "annotatable_attachment_id": annotation.get("annotatable_attachment_id"),
+                        "points_possible": annotation.get("points_possible"),
+                        "grading_type": annotation.get("grading_type"),
+                        "omit_from_final_grade": annotation.get("omit_from_final_grade"),
                     },
                     "plan_assignment": {
                         "id": plan_assignment["id"],
@@ -554,10 +925,11 @@ async def main():
                         "assignment_group_id": plan_assignment.get("assignment_group_id"),
                         "submission_types": plan_assignment.get("submission_types"),
                         "grading_type": plan_assignment.get("grading_type"),
+                        "omit_from_final_grade": plan_assignment.get("omit_from_final_grade"),
                     },
-                    "support_folder": {"id": support_folder["id"], "locked": support_folder["locked"]},
+                    "support_folder": {"id": support_folder["id"], "locked": support_folder["locked"], "file_count": support_file_count},
                     "visual_folders": {
-                        str(day): {"id": folder["id"], "locked": folder["locked"]}
+                        str(day): {"id": folder["id"], "locked": folder["locked"], "file_count": visual_file_counts[day]}
                         for day, folder in visual_folders.items()
                     },
                     "files": {key: value["id"] for key, value in files.items()},

@@ -19,7 +19,7 @@
 
 ## Before Class
 
-Open the private, ungraded Canvas Assignment and current district and TEA links. Verify any campus or local chapter claim before presenting it as fact. The teacher model should show how to write “not yet confirmed” when a detail is missing. Keep the four-page packet as the paper, enlarged, and independent route; do not print both routes for every student.
+Provide one device per student for the default private Canvas route. Print zero copies by default; print the four-page packet only for students using the paper, enlarged, or independent route. Open the private, grade-neutral Canvas Assignment and current district and TEA links. Project the supplied model and August 11, 2026 Irving ISD CTE snapshot. Verify any campus or local chapter claim before presenting it as fact. The supplied model shows how to write “not yet confirmed” when a detail is missing.
 
 ## Warm-Up (5 min)
 
@@ -45,17 +45,23 @@ Students use the private Canvas response or Pathway and CTSO Decision sheet to r
 
 Students rank the options using fit and evidence, not class popularity.
 
+**Monitoring pass 1:** Check exact program and campus names plus the source access date.
+
+**Monitoring pass 2:** Check that the comparison uses evidence and that an unconfirmed course, prerequisite, access step, or local chapter is written as a question.
+
 ## Activity 3: CTSO Connection (10 min)
 
 Use the TEA list to explain that CTSOs support leadership, technical practice, competition, service, and contact with people in a career field. Students select one organization that plausibly connects to their leading pathway and explain one specific benefit.
 
 Do not state that a chapter exists on a campus unless the district or campus confirms it. “I would ask whether this chapter is available” is an acceptable conclusion.
 
-Students submit the structured response privately as typed text, a file, or approved audio. The practice is ungraded.
+Students submit the structured response privately as typed text, a file, or approved audio. The practice is grade-neutral.
+
+If students treat a program as a credential or invent a chapter, pause on the supplied model and require “not yet confirmed.” If time slips, compare two options with every evidence field; do not cut the CTSO benefit, verification question, or private submission.
 
 ## Exit Ticket (5 min)
 
-**Name your current first-choice pathway, one verified fact that supports it, and one question you still need answered. How could a CTSO help you prepare?**
+**Name your current first-choice pathway, one verified fact that supports it, and one question you still need answered. How could a CTSO help you prepare?** Submit privately and close source tabs.
 
 ## Supports and Fallbacks
 

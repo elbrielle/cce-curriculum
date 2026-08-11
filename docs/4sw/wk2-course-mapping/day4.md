@@ -16,7 +16,7 @@
 | **TEKS** | d(3)(F), d(8)(C) |
 | **5E Phases** | Engage: Warm-Up · Explain: Rung 6 SMART model · Explore: Experience Action Plan · Evaluate: Self-check and Exit Ticket |
 | **Deliverable** | FYF SMART goal plus one-page access, transfer, support, obstacle, backup, and action check |
-| **Materials** | FYF pp. 292-296, Experience Access and Backup Check, current campus opportunity information when available, projector |
+| **Materials** | One FYF workbook and one one-page Experience Access and Backup Check per student, embedded experience-route bank, current campus opportunity information when available, projector |
 
 ---
 
@@ -61,6 +61,8 @@ Students choose one possible co-curricular, extracurricular, service, project, j
 - an access requirement or question; and
 - an equal alternative if the first option is unavailable.
 
+The Student Guide supplies three routes that do not require a teacher-created opportunity list: an independent three-sample project; a four-week service or responsibility role with an evidence log; or one verified campus/community meeting with an independent-project backup.
+
 Do not promise a CTSO, competition, internship, job shadow, transportation route, or adult contact unless a current campus source confirms it. Students never contact an unfamiliar adult or workplace as part of this lesson.
 
 ---
@@ -78,6 +80,8 @@ Students write the SMART goal on FYF pp. 292-293, then complete the one-page Exp
 7. one likely obstacle;
 8. one backup strategy; and
 9. one first action within seven days.
+
+Students write the first action as an if/when-then move: when they will act, what they will do, and how they will continue if the likely barrier occurs.
 
 **Active Monitoring:** First lap checks whether the experience is real or marked for verification. Second lap checks all five SMART parts in the workbook. Third lap checks access, skill transfer, obstacle, and backup on the companion. If students repeatedly depend on an unverified club or adult contact, pause and model a school-based or independent project route.
 
@@ -98,6 +102,8 @@ Use these five parts: **measure, access, time, support, backup**.
 1. Name the strongest part of your plan. Explain why it is strong.
 2. Name the weakest part of your plan. Explain what is missing.
 3. Write the exact revision you will make now.
+
+Students keep the workbook goal and one-page companion in the CCR Week 2 folder for Day 5.
 
 *(d(3)(F), d(8)(C))*
 
