@@ -40,6 +40,10 @@ TEACHER_MODULE = "Teacher Build: Licensed Resources"
 TEACHER_TITLE = "TEACHER: CCE Course Launch Guide"
 STUDENT_TITLE = "STUDENT: Start Here - How CCE Works"
 HOME_TITLE = "Career and College Exploration Home"
+REQUEST_CONCURRENCY = 8
+_request_semaphore: asyncio.Semaphore | None = None
+_object_tasks: dict[str, asyncio.Task[object]] = {}
+_paged_tasks: dict[str, asyncio.Task[list[dict]]] = {}
 
 
 class BodyAudit(HTMLParser):
@@ -85,23 +89,49 @@ def expected_modules() -> list[str]:
     return [module_name(builder) for builder in BUILDERS]
 
 
-async def api(client: httpx.AsyncClient, path: str) -> object:
-    response = await client.get(f"{BASE}/api/v1{path}")
+async def _api(client: httpx.AsyncClient, path: str) -> object:
+    if _request_semaphore is None:
+        raise RuntimeError("request semaphore was not initialized")
+    async with _request_semaphore:
+        response = await client.get(f"{BASE}/api/v1{path}")
     response.raise_for_status()
     return response.json()
 
 
-async def paged(client: httpx.AsyncClient, path: str) -> list[dict]:
+async def api(client: httpx.AsyncClient, path: str) -> object:
+    """Return one exact GET result, sharing repeated reads across the audit."""
+
+    task = _object_tasks.get(path)
+    if task is None:
+        task = asyncio.create_task(_api(client, path))
+        _object_tasks[path] = task
+    return await task
+
+
+async def _paged(client: httpx.AsyncClient, path: str) -> list[dict]:
     results: list[dict] = []
     url: str | None = f"{BASE}/api/v1{path}"
     params: dict[str, int] | None = {"per_page": 100}
     while url:
-        response = await client.get(url, params=params)
+        if _request_semaphore is None:
+            raise RuntimeError("request semaphore was not initialized")
+        async with _request_semaphore:
+            response = await client.get(url, params=params)
         response.raise_for_status()
         results.extend(response.json())
         url = response.links.get("next", {}).get("url")
         params = None
     return results
+
+
+async def paged(client: httpx.AsyncClient, path: str) -> list[dict]:
+    """Return one paginated GET result, sharing repeated reads across the audit."""
+
+    task = _paged_tasks.get(path)
+    if task is None:
+        task = asyncio.create_task(_paged(client, path))
+        _paged_tasks[path] = task
+    return await task
 
 
 def day_number(title: str) -> int | None:
@@ -229,16 +259,32 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
                 "topic": ("topic:",),
                 "objective": ("objective:", "i can:"),
                 "show your learning": ("show your learning:", "show my learning:"),
-                "today you will": ("today you will", "what you will do"),
-                "exit check": ("exit check", "exit ticket"),
+                "today you will": (
+                    "today you will",
+                    "what you will do",
+                ),
                 "you are done when": ("you are done when", "done when"),
             }
+            strong_label_patterns = {
+                "topic": r"<strong\b[^>]*>\s*topic\s*:?\s*</strong>",
+                "objective": r"<strong\b[^>]*>\s*(?:objective|i can)\s*:?\s*</strong>",
+                "show your learning": r"<strong\b[^>]*>\s*show (?:your|my) learning\s*:?\s*</strong>",
+            }
             for label, aliases in required_sections.items():
-                if not any(alias in visible_text for alias in aliases):
+                visible_match = any(alias in visible_text for alias in aliases)
+                semantic_match = bool(
+                    label in strong_label_patterns
+                    and re.search(
+                        strong_label_patterns[label], body, flags=re.IGNORECASE
+                    )
+                )
+                if not visible_match and not semantic_match:
                     problems.append(
                         f"student page missing '{label}': {page.get('url')}"
                     )
-            if "absent" not in visible_text and "platform" not in visible_text:
+            if not any(
+                label in visible_text for label in ("absent", "absence", "platform")
+            ):
                 problems.append(
                     f"student page missing absence/platform route: {page.get('url')}"
                 )
@@ -709,6 +755,10 @@ async def audit_assessment_map(client: httpx.AsyncClient, modules: list[dict]) -
 
 
 async def run(token: str) -> int:
+    global _request_semaphore
+    _request_semaphore = asyncio.Semaphore(REQUEST_CONCURRENCY)
+    _object_tasks.clear()
+    _paged_tasks.clear()
     names = expected_modules()
     async with httpx.AsyncClient(
         headers={"Authorization": f"Bearer {token}"}, timeout=90
@@ -738,7 +788,9 @@ async def run(token: str) -> int:
                 continue
             selected.append(matches[0])
 
-        results = [await audit_module(client, module) for module in selected]
+        results = await asyncio.gather(
+            *(audit_module(client, module) for module in selected)
+        )
         summary = {
             "expected_modules": len(names),
             "found_modules": len(selected),

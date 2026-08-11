@@ -10,6 +10,7 @@ renames known draft aliases, assigns 100 points, and places assignments in the
 from __future__ import annotations
 
 import asyncio
+import ast
 import json
 import re
 import sys
@@ -52,19 +53,19 @@ ASSESSMENTS = (
         5,
     ),
     Assessment(
-        "1SW Wk4: Help Desk Heroes - Tech Support Careers and MakeCode",
+        "1SW Wk4: Tech Support Careers and MakeCode",
         "MINOR 3: Help Desk Program Evidence and Career Connection",
         MINOR_GROUP,
         5,
     ),
     Assessment(
-        "1SW Wk3: Network Ninjas - Computer Science and Networking Careers",
+        "1SW Wk3: Computer Science and Networking Careers",
         "MAJOR 1: App Design and Emerging-Career Evidence Packet",
         MAJOR_GROUP,
         5,
     ),
     Assessment(
-        "1SW Wk5: Cyber Defenders - Cybersecurity Careers and Capstone",
+        "1SW Wk5: Cybersecurity, Favorite Clusters, and Capstone",
         "MAJOR 2: Cybersecurity Capstone Evidence Portfolio",
         MAJOR_GROUP,
         5,
@@ -522,6 +523,46 @@ def preflight() -> int:
     if wrong_modules:
         print(
             f"Preflight failed: mapped week mismatch for {wrong_modules}",
+            file=sys.stderr,
+        )
+        return 2
+
+    exact_module_errors: list[str] = []
+    for assessment in ASSESSMENTS:
+        match = re.match(r"([1-6])SW Wk([0-6]):", assessment.module)
+        if not match:
+            exact_module_errors.append(f"unparseable module name {assessment.module!r}")
+            continue
+        six_weeks, week = (int(value) for value in match.groups())
+        builder = (
+            ROOT / "build/canvas" / f"build_wk{week}.py"
+            if six_weeks == 1
+            else ROOT / "build/canvas" / f"build_{six_weeks}sw_wk{week}.py"
+        )
+        if not builder.is_file():
+            exact_module_errors.append(f"missing builder {builder.relative_to(ROOT)}")
+            continue
+        tree = ast.parse(builder.read_text(encoding="utf-8"), filename=str(builder))
+        literal_name = None
+        for node in tree.body:
+            if not isinstance(node, ast.Assign):
+                continue
+            if not any(
+                isinstance(target, ast.Name) and target.id == "MODULE_NAME"
+                for target in node.targets
+            ):
+                continue
+            if isinstance(node.value, ast.Constant) and isinstance(node.value.value, str):
+                literal_name = node.value.value
+                break
+        if literal_name != assessment.module:
+            exact_module_errors.append(
+                f"{assessment.title}: map={assessment.module!r} builder={literal_name!r}"
+            )
+    if exact_module_errors:
+        print(
+            "Preflight failed: exact builder module-name drift; "
+            + "; ".join(exact_module_errors),
             file=sys.stderr,
         )
         return 2

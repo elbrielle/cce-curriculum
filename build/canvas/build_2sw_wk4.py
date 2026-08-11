@@ -404,6 +404,14 @@ async def upsert_assignment_item(c, module_id, assignment):
 
 
 async def update_minor_assignment(c, assignment, description):
+    existing_description = assignment.get("description") or ""
+    note = re.search(
+        r'<div data-cce-rubric-note="cce-advisory-rubric-v1".*?</div>',
+        existing_description,
+        flags=re.DOTALL,
+    )
+    if note and "cce-advisory-rubric-v1" not in description:
+        description = description.rstrip() + note.group(0)
     return await api(
         c,
         "PUT",

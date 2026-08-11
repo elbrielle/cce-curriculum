@@ -367,6 +367,47 @@ def main() -> int:
             return 3
         print("  " + summarize(payload), flush=True)
 
+    # Builders replace authored Student Guide bodies. Reconcile the map again
+    # afterward so every mapped guide regains exactly one generated submission
+    # panel and one typed Assignment module item.
+    print("Reconciling assessment links after week-page writes...", flush=True)
+    assessment_reconciliation = subprocess.run(
+        [sys.executable, str(ASSESSMENT_CONFIGURATOR)],
+        cwd=ROOT,
+        input=token + "\n",
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    if assessment_reconciliation.returncode:
+        print(
+            redact(
+                assessment_reconciliation.stderr or assessment_reconciliation.stdout,
+                token,
+            ),
+            file=sys.stderr,
+        )
+        print(
+            "Week builders ran, but post-builder assessment reconciliation failed. "
+            "Nothing was published.",
+            file=sys.stderr,
+        )
+        return assessment_reconciliation.returncode
+    try:
+        reconciled_assessments = json.loads(assessment_reconciliation.stdout)
+    except json.JSONDecodeError:
+        print(
+            redact(assessment_reconciliation.stdout[-4000:], token),
+            file=sys.stderr,
+        )
+        print("Post-builder assessment-map output was not valid JSON.", file=sys.stderr)
+        return 3
+    print(
+        "  "
+        f"assignments={len(reconciled_assessments.get('assignments', []))}",
+        flush=True,
+    )
+
     print("Attaching 30 student-visible advisory rubrics...", flush=True)
     rubric_setup = subprocess.run(
         [sys.executable, str(RUBRIC_CONFIGURATOR)],
