@@ -24,7 +24,7 @@ Before revealing the results, predict which sample will complete the highest sta
 
 [[lines: 4]]
 
-**Optional demonstration boundary:** A teacher may demonstrate one prepared model only after a tested kit, secured supports, catch tray, marked keep-clear zone, known lightweight stages, safe cap, objective stop rule, and workable class schedule are ready. Students do not place loads. Never use textbooks or unstable desks.
+**Fixed-data boundary:** This packet is the complete route. The module does not supply an approved live-test kit or physical-test protocol. Do not improvise with textbooks, desks, scales, loose weights, or student load placement.
 
 [[pagebreak]]
 

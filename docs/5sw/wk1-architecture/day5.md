@@ -19,8 +19,10 @@
 ## Before Class
 
 - Have students open FYF pp. 182-184 in their workbooks. Upload the licensed city-goals slide and workbook visuals only to locked Canvas for projection and absence access.
-- Prepare groups of three or four and an individual evidence form for every student.
-- Keep the formative portfolio Assignment private, unpublished, and not graded. It accepts the Day 2 comparison, design image or paper equivalent, revision record, and individual synthesis by upload, text, or media.
+- Default: one FYF workbook and one device per student, one projector, and zero prints. Use groups of 3-4 with one shared design surface per team and one individual private portfolio response per student.
+- Assign facilitator, evidence checker, sketch lead, and timekeeper. In a 3-person team, combine evidence checker and timekeeper. Keep a solo model-analysis route ready.
+- Paper: one two-page individual form per student only when needed, one shared team sheet per team if FYF is unavailable, and one collection tray per class.
+- Keep the formative portfolio Assignment private, unpublished, and not graded. It accepts Day 3 concept evidence, Day 4 revision evidence, and the Day 5 individual synthesis. The graded Day 2 Minor stays referenced in place and is not reuploaded.
 - H&L favorites and eDynamic 3.1 are optional extensions only after live verification.
 
 ## 50-Minute Flow
@@ -29,7 +31,7 @@
 
 Students read FYF p. 182 and the licensed city-goals card. Clarify that a memorable shape still must serve users, communicate purpose, and acknowledge cost and material limits.
 
-### 2. Firm concept — 25 minutes
+### 2. Firm concept — 22 minutes
 
 Each firm:
 
@@ -43,22 +45,24 @@ Each firm:
 
 Each student completes a concise individual record naming the chosen goals, one contribution, one design decision, and one A&C career responsible for related real-world work.
 
-### 3. Paired/gallery pitches — 15 minutes
+### 3. Paired pitches — 12 minutes
 
-Firms exchange one-minute pitches. Listeners give one evidence-based strength and one question using the 1–4 feedback scale. Public speaking is formative; a written or recorded private explanation is equal.
+Paired firms exchange one-minute pitches. Listeners give one evidence-based strength and one question. Public speaking is formative; a written or recorded private explanation is equal.
 
-### 4. Cluster synthesis — 5 minutes
+### 4. Individual synthesis, submission, and cleanup — 11 minutes
 
-Individually describe how at least three roles—such as architect, drafter, engineer, construction manager, or skilled-trades worker—would contribute at different points. Name one preparation or salary fact from Day 2 and preserve its source label.
+Individually describe how at least three roles—such as architect, drafter, engineer, construction manager, or skilled-trades worker—would contribute at different points. Reference one correctly labeled Day 2 fact, submit Day 3-5 evidence privately, and return materials.
 
 ## Weekly Portfolio
 
 Students submit:
 
-- Day 2 three-career comparison;
+- Day 3 concept evidence;
 - Day 4 design or paper equivalent;
 - one documented test and revision;
 - Day 5 individual cluster synthesis.
+
+The graded Day 2 Minor remains in its existing Assignment. Students may reference one fact and its source label but do not upload the Minor again.
 
 The formative feedback guide checks career and source accuracy, design and revision evidence, career and cluster connection, and supported explanation. Grammar, art, accent, tool choice, group attendance, and platform access do not determine the feedback.
 
@@ -68,6 +72,8 @@ The formative feedback guide checks career and source accuracy, design and revis
 - One salary claim retains occupation, May 2024, U.S., median, and BLS.
 - One preparation claim distinguishes education, experience, examination, or other training.
 - The landmark connects to stated city goals rather than visual novelty alone.
+
+At minute 12, every team needs two city goals, assigned roles, and one shared surface. Check goal-to-design evidence during minutes 15-22 and individual contributions at minute 27. During minutes 31-38, listen for three distinct roles and one labeled Day 2 fact. If time is tight, use paired firms rather than a gallery rotation; protect the final individual synthesis, private submission, and cleanup.
 
 ## Absence Route
 

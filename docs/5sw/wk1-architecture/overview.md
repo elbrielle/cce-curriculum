@@ -8,7 +8,7 @@ Students examine how design, planning, drafting, and construction roles work tog
 
 **Learning target:** I can compare architecture careers and use design evidence to explain how a building meets a need.
 
-**Done when:** My portfolio contains a source-labeled three-career comparison, a building design, and an individual explanation connecting the design to an Architecture & Construction career.
+**Done when:** My Day 2 Minor is submitted once. My formative portfolio contains Day 3 concept evidence, Day 4 revision evidence, and a Day 5 individual explanation that references one correctly labeled Day 2 fact without reuploading the Minor.
 
 ## Standards
 
@@ -65,7 +65,7 @@ Hats & Ladders browsing and eDynamic 3.1 may be used as verified extensions. The
 ## Assessment Plan
 
 - **Recommended minor:** Day 2 three-career comparison.
-- **Formative portfolio:** the individual building design, one documented revision, and the Day 5 career/cluster explanation.
+- **Formative portfolio:** Day 3 concept evidence, Day 4 revision evidence, and the Day 5 career/cluster explanation. The graded Day 2 Minor stays referenced in place and is not resubmitted.
 - Day 1 plan, practice checks, H&L browsing, group pitch, and design platform are formative. The [5SW assessment map](../../resources/six-weeks-assessment-map.md) uses the Day 2 comparison as Minor 1 and does not add a Week 1 major.
 
 The student-visible formative feedback guide checks:

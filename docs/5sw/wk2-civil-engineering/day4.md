@@ -2,7 +2,7 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
+- **Topic:** Test and Redesign
 - **Objective:** Students will record a standardized result and use failure evidence to justify a redesign.
 - **TEKS:** d(1)(C)
 - **Demonstration of Learning:** Fixed-data failure analysis + individual redesign and career-role limit.
@@ -16,17 +16,9 @@
 | **TEKS** | d(1)(C) |
 | **Evidence** | Fixed-data failure analysis + individual redesign and career-role limit |
 
-## Safety and Measurement Protocol
+## Fixed-Data Route and Future Demo Boundary
 
-- Use secured tabletop supports with 12-inch marks and a catch tray.
-- Teacher alone places known lightweight load packets at the marked point.
-- Everyone stays behind the marked line; no hands, faces, or feet enter the zone.
-- Use the same staged loads, unit, safe cap, and objective stop rule for every bridge.
-- Stop at the first detached joint, deck displacement reaching the marked limit, or safe load cap. Do not pursue violent collapse.
-- Never use textbooks, a scale placed on the bridge, or movable desks.
-- Inspect dropped weights and clean the station before the next team.
-
-The supplied three-bridge specifications and results are the complete default route. A physical test is an optional teacher demonstration only when every condition and the class schedule have been tested before class.
+The supplied three-bridge specifications and results are the complete route. Provide one device or one four-page packet per student; default physical materials: 0. This module does not supply an approved physical-test kit or live-test protocol. Do not improvise with textbooks, desks, scales, loose weights, or student load placement. A future demonstration must be separately approved with one exact prepared bridge/material set, secured supports, labeled load stages and unit, safe cap, catch tray, marked keep-clear zone, tested timing, observation roles, reset, and cleanup. If any element is missing, use the fixed data.
 
 ## 50-Minute Flow
 
@@ -36,7 +28,7 @@ Students restate the load unit, stop rule, cap, keep-clear zone, and their role.
 
 ### 2. Predict and analyze — 20 minutes
 
-Students inspect three supplied designs, predict the result, and identify comparable and uncontrolled variables. If the optional demonstration is ready, the teacher tests one prepared example while students use the same observation fields.
+Students inspect three supplied designs, predict the result, and identify comparable and uncontrolled variables.
 
 ### 3. Reveal standardized results — 10 minutes
 
@@ -53,3 +45,5 @@ Name who would review the result next, what additional evidence a real project n
 ## Teacher Look-Fors
 
 Do not calculate strength-to-weight unless every bridge mass and supported load use common measured units. This core route compares maximum completed safe load only.
+
+Monitor at minutes 10, 25, 35, and 44 for evidence-based prediction, result reveal, fair comparison/pattern, and redesign/role/limit. If one-third claim certainty before the reveal, model “predicts” versus “proves.” Accept labeled bullets when time is short; protect result, redesign, next measure, reviewer, and prototype limit. Collect one annotation/upload or packet and close devices.

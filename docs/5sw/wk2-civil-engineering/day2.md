@@ -18,7 +18,7 @@
 
 ## Before Class
 
-Refresh and date four official-source cards: PSAT 8/9; SAT/ACT; TSIA2; ASVAB. Keep PSAT/NMSQT/National Merit in optional help rather than turning recognition into a scholarship guarantee. Prepare fixed O*NET/BLS cards for Transportation Engineers and Water/Wastewater Engineers.
+Provide one Canvas-capable device per student and post the three-page packet and two-page rubric digitally. Default prints: 0. Print one packet per paper-route student and one rubric only when the student will mark it. The Teacher Guide supplies a complete fictional assessment/specialty model. Keep the Quiz unpublished and use it only after Minor submission for an assigned repair/retry or early-finisher check.
 
 ## 50-Minute Flow
 
@@ -45,13 +45,15 @@ Students select one assessment relevant to a fictional pathway, explain the poss
 
 Students compare Transportation Engineers and Water/Wastewater Engineers as recognized specialties within civil engineering. They cite the documented need/technology, BLS roll-up preparation/pay context, Bright Outlook evidence, and one limitation.
 
-### 5. Exit or practice check — 5 minutes
+### 5. Submit or repair — 5 minutes
 
-Submit the Minor. Use the four-question practice Quiz as the five-minute check when devices are ready; otherwise write one accurate assessment impact, one specialty judgment, one source detail, and one limitation. Students do not complete both checks.
+Submit the Minor once. Students point to their impact/boundary and judgment/limitation, then revise a missing job. The four-question Quiz is optional repair/retry feedback after submission, not a second DOL or extra grade.
 
 ## Teacher Key
 
 Multiple decisions may earn full credit. Require an impact plus a verification question. “Emerging” means growing/changing work, not necessarily a title created within ten years.
+
+At minute 12, students can state one possible use and one boundary. By minute 25, the impact, exact question, and authorized source are present. By minute 39, both specialty comparisons are complete. By minute 46, the judgment cites a source detail and limitation. If one-third write guarantees, reshow the supplied model. Trim the optional Quiz and verbal share, not any Minor rubric job.
 
 ## Supports and Absence Route
 

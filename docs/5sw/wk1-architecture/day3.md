@@ -18,9 +18,9 @@
 
 ## Before Class
 
-- Open the four-page concept packet and private Canvas annotation route. These are the always-ready path.
+- Default: one device per student, one projector, and zero prints. Open the four-page concept packet and private Canvas annotation route. Paper: one packet, one pencil, and one ruler per student, plus one collection tray per class.
 - If using the optional Tinkercad extension, confirm district approval, create a teacher-managed Classroom with Safe Mode on, and test the class-code/nickname route, WebGL, saving, and concurrent Chromebook use.
-- Put any live class code and current screenshots in the teacher's local course copy. The master course does not contain a reusable class code.
+- Put any tested live class code in the teacher's local course copy. The master course does not promise reusable class codes, screenshots, or controls.
 
 Tinkercad introduces spatial modeling and iterative design. It is not the same as professional Revit/AutoCAD documentation, code review, or structural analysis.
 
@@ -36,7 +36,7 @@ Students open Canvas annotation or paper. If the teacher has opened a tested Tin
 
 ### 3. Guided five-skill build — 15 minutes
 
-Model drag/place, resize, align, group, and hole/subtract one at a time. After each operation, students reproduce it in the starter model or mark the equivalent step on paper. Include trackpad directions and current screenshots.
+Model drag/place, resize, align, group, and hole/subtract one at a time. After each operation, students reproduce it in the starter model or mark the equivalent step on paper. The supplied top/front-view example is the no-prep projection model.
 
 ### 4. Sketch and begin — 20 minutes
 
@@ -56,3 +56,5 @@ Name one Architecture & Construction worker who would use or interpret a more ad
 ## Supports and Absence Route
 
 Canvas annotation and paper are complete routes. Students may use ruler/grid paper, enlarged print, keyboard entry, speech-to-text, or a teacher-provided starter. Tool speed and artistic polish are not graded.
+
+At minute 8, ask students what top and front views show differently. At minute 15, every student needs a working surface and footprint; move immediately to paper after a failed join. Check orientation and labels during minutes 18-25 and the purposeful feature/user need during minutes 30-38. Trim the fifth operation demonstration, not the two views, checkpoint, career-role exit, or collection.

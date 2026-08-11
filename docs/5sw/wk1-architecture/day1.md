@@ -18,9 +18,9 @@
 
 ## Before Class
 
-- Have students open FYF pp. 171-173 in their workbooks. Open the locked visuals for projection and absence access.
+- Default: one FYF workbook and one Canvas-capable device per student, one projector, and zero prints. FYF pp. 171-173 supply the scenario; the Canvas annotation is each student's individual response home.
 - Post the fixed hazard/equipment card. FYF says to research online; this course uses one supplied evidence set so students do not search for operational diving procedures.
-- Prepare chart paper, plain paper, or the Canvas/fallback plan. The plan needs five rule lines, four equipment or trained-person fields, and at least half a page for the map.
+- Paper route: one three-page packet per student and one collection tray per class. Partners check evidence for two minutes, but every student keeps and submits an individual response.
 - Review the answer guidance. Accept different priorities when the student cites the supplied scenario evidence.
 - Do not use open-web searches or live H&L navigation as required evidence.
 
@@ -60,6 +60,8 @@ Name one Architecture & Construction career connected to this scenario, state wh
 - The map has readable labels rather than decorative detail.
 - Students do not present pure oxygen, improvised diving procedures, or their plan as real safety guidance.
 - Career explanations name work, not only a job title.
+
+At minute 8, sample five students for one hazard, one evidence category, and one connected job. During minutes 15-20, check that rules cite supplied evidence. During minutes 28-34, check the map labels and professional boundary. If more than one-third invent operational procedures, project the supplied model and non-example. Trim whole-group sharing, not the final career connection or collection.
 
 ## Supports and Absence Route
 

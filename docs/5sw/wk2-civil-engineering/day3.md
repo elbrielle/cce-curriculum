@@ -2,7 +2,7 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
+- **Topic:** Bridge Design Evidence
 - **Objective:** Students will compare bridge systems, create two options, and select a design from evidence.
 - **TEKS:** d(1)(C)
 - **Demonstration of Learning:** Two-view options + critique + individual career-role decision.
@@ -18,7 +18,7 @@
 
 ## Before Class
 
-Post the fixed-data route, shared constraints, static bridge comparison, load-path visual, and design packet. A physical demonstration is optional only after the entire kit/test gate and schedule are tested.
+Provide one Canvas-capable device or one four-page landscape design packet per student, plus pencil and ruler. Students use one route. Work is individual; pairs may give the brief critique, with self-review or a teacher conference as equal routes. Project packet page 1 and the supplied two-option model in the Teacher Guide. No physical materials or build station are required.
 
 ## 50-Minute Flow
 
@@ -44,4 +44,6 @@ Name the civil/structural/technician role responsible for the next project step,
 
 ## Access and Absence Route
 
-Use precut materials, adaptive scissors, design/data roles, tactile or large-print geometry, and verbal explanation. Absent students complete both options and use the same sample data on Day 4.
+Use tactile or large-print geometry, verbal description, typing, dictation, or a teacher scribe. Absent students complete both options and use the same sample data on Day 4.
+
+Monitor at minutes 10, 25, 38, and 45 for constraints, Option A, a meaningfully different Option B, and the supported choice/role response. If one-third changed only color or decoration, reshow the model. Accept clean labeled line diagrams and concise strengths when time is short; protect both distinct options, the supported choice, and the individual career-role evidence. Collect one annotation/upload or packet and stack rulers.

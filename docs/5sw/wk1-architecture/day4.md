@@ -18,7 +18,7 @@
 
 ## Before Class
 
-Open the private Canvas Assignment and the three-page revision record. If using the optional Tinkercad extension, open the tested Classroom and current export directions. Canvas ownership should identify the student; do not require a full-name public filename.
+Default: one device and retained Day 3 concept per student, one projector, and zero prints. Paper: one three-page revision record per student, the retained design, pencils/rulers as needed, and one collection tray per class. If using the optional Tinkercad extension, open the tested Classroom and current export directions. Canvas ownership should identify the student; do not require a full-name public filename.
 
 ## 50-Minute Flow
 
@@ -30,23 +30,23 @@ Students compare yesterday’s checkpoint with the brief and write one priority:
 
 Reteach only the operation most students marked as uncertain. Students already ready begin their build.
 
-### 3. Build and test — 30 minutes
+### 3. Build and test — 27 minutes
 
 Use three visible checkpoints:
 
-- **Minute 10:** footprint, four exterior walls, and roof are visible;
-- **Minute 20:** entrance and two windows are represented;
-- **Minute 30:** purposeful feature is labeled and one requirement has been tested.
+- **Minute 15:** footprint, four exterior walls, roof, and response mode are visible;
+- **Minute 25:** entrance, two windows, and purposeful feature are labeled;
+- **Minute 37:** test evidence, revision, expected improvement, next worker, and limitation are present.
 
 Students record the original choice, test evidence, revision, and why the revision helps the fictional user. Digital and paper routes use the same checklist.
 
-### 4. Export and submit — 5 minutes
+### 4. Requirement review — 8 minutes
 
-Students use the current tested export or screenshot route and submit privately in Canvas. If export fails, the teacher-visible saved Classroom model plus the revision record is sufficient temporary evidence. Paper designs are photographed privately or submitted on paper.
+Students check the brief and revision record. Labeled bullets or the complete frame are acceptable when they preserve every evidence job.
 
-### 5. Career-role explanation — 5 minutes
+### 5. Submit and clean up — 5 minutes
 
-Name one worker who would contribute after this concept stage, what that worker would examine or produce, and one limit of the Grade 8 model.
+Students submit privately, name the next worker and one model limitation, then return materials. If time expires, save the same artifact for a teacher-scheduled recovery window; do not create a second worksheet.
 
 ## Teacher Look-Fors
 

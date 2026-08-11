@@ -2,7 +2,7 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Clusters
+- **Topic:** Engineering Systems
 - **Objective:** Students will describe the Engineering cluster, one civil-engineering route, and how one design choice affects a larger system.
 - **TEKS:** d(1)(B), d(1)(C), d(2)(A)
 - **Demonstration of Learning:** Career/preparation card + kitchen systems decision.
@@ -18,7 +18,7 @@
 
 ## Before Class
 
-Ask students to use FYF p. 103 and pp. 174–175 in their workbooks. Post the locked page images for projection, absence, or enlarged viewing. Add the fixed Civil Engineer evidence card and a short companion only for evidence the workbook does not collect. H&L is optional.
+Provide one FYF workbook, pencil, and Canvas-capable device per student. Default companion prints: 0. Print one two-page companion only for each no-workbook, enlarged, or paper-route student. Students use workbook + Canvas or one companion, not both. Project the locked FYF pages and the supplied source-label/system model in the Teacher Guide. Work is individual; pairs may rehearse the systems explanation. H&L is optional.
 
 ## 50-Minute Flow
 
@@ -47,6 +47,9 @@ In three short jobs: describe the cluster, name one civil-engineering career and
 - Students preserve U.S./median/May 2024/BLS labels.
 - They distinguish entry education from PE licensure.
 - The systems explanation names a first choice, affected element, and reason.
+- By minute 12, source labels are intact; by minute 28, career/preparation and pathway boundaries are present; by minute 42, FYF p. 175 shows a first choice, second effect, and reason. If one-third label the wage as local or starting pay, reshow the model. Trim the pathway share or partner rehearsal, not the career/preparation evidence, systems decision, or private exit.
+
+Collect one Canvas response or one companion. Initial FYF p. 175 during the final monitoring lap, then close devices.
 
 ## Absence Route
 

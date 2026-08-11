@@ -4,7 +4,7 @@
 
 ## Week Purpose
 
-Students study how civil-engineering roles plan and improve infrastructure, examine how assessment results can affect different postsecondary routes, and complete a controlled bridge design-test-revision cycle or an equal fixed-data analysis route.
+Students study how civil-engineering roles plan and improve infrastructure, examine how assessment results can affect different postsecondary routes, and complete a bridge design-test-revision cycle with the supplied fixed dataset.
 
 **Learning target:** I can use current sources to explain a civil-engineering route, evaluate an emerging specialty, and revise a design from test evidence.
 
@@ -24,9 +24,9 @@ Before teaching:
 
 - prepare the fixed Civil Engineer, Transportation Engineer, and Water/Wastewater Engineer evidence cards;
 - update the assessment-impact cards from official sources and date them;
-- prepare locked FYF pages 103, 106–110, and 174–175 in Canvas;
+- prepare locked FYF pages 103, 106–107, and 174–175 in Canvas;
 - prepare the fixed three-bridge dataset as the complete Day 4 route;
-- add one optional teacher-controlled demonstration only if the exact materials, stable supports, known load packets, catch tray, marked safety zone, cleanup, and tested schedule are ready;
+- use the fixed dataset as the complete route. This module does not supply an approved physical-test kit or live-test protocol; any future demonstration needs a separate exact materials, loads/unit/cap, safety, timing, reset, and cleanup approval;
 - publish neither the final Assignment nor any grade until the six-weeks assessment map and 40/60 groups are verified.
 
 No required Xello or eDynamic task belongs in this week. H&L browsing is supplemental and cannot be required evidence.
@@ -48,20 +48,20 @@ No required Xello or eDynamic task belongs in this week. H&L browsing is supplem
 | 1 | Cluster, career preparation, systems thinking | Civil-engineer evidence card + FYF kitchen systems decision |
 | 2 | Assessment impact + emerging specialties | Personal assessment decision + evaluated O*NET specialty |
 | 3 | Bridge constraints and two design options | Two-view options, load-path reasoning, role ownership |
-| 4 | Fixed-data analysis; optional controlled demonstration | Standardized result + individual failure/redesign analysis |
+| 4 | Fixed-data analysis | Standardized result + individual failure/redesign analysis |
 | 5 | Results, FYF Mars transfer, synthesis | Individual weekly portfolio and pathway next step |
 
 ## Assessment Plan
 
 - **Recommended minor:** Day 2 assessment/emerging-specialty evidence.
 - **Formative portfolio:** Day 3–5 bridge design, test/data, redesign, and synthesis evidence.
-- Physical build quality, team ranking, H&L activity, public speaking, and FYF rover art remain formative. The [5SW assessment map](../../resources/six-weeks-assessment-map.md) uses Day 2 as Minor 2 and does not add a Week 2 major.
+- Any separately approved physical demonstration, team ranking, H&L activity, public speaking, and FYF rover art remain formative. The [5SW assessment map](../../resources/six-weeks-assessment-map.md) uses Day 2 as Minor 2 and does not add a Week 2 major.
 
 The student-visible 16-point rubric scores source accuracy, assessment/emerging reasoning, design/test/revision evidence, and career/pathway synthesis. Individual reasoning is required even when a team builds.
 
 ## Access, Absence, and Safety
 
-- Fixed data is the complete default route. An optional physical demonstration uses the same constraints, result fields, and redesign reasoning.
+- Fixed data is the complete default route. No physical test is required or supplied in this module.
 - Absent students analyze the prepared anonymized dataset; they are not penalized for missing fabrication.
 - Offer precut materials, adaptive scissors, large-print/tactile geometry, verbalized load data, captions/transcripts, typing, dictation, and private media.
 - Teacher alone controls load placement. Use secured supports, a catch tray, known lightweight increments, a marked keep-clear zone, one objective stop rule, and a safe load cap. Never use textbooks or unstable desks.

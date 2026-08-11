@@ -13,10 +13,10 @@ orientation: landscape
 ## Constraints and Evidence Boundary
 
 - 12-inch clear span between secured supports
-- teacher-provided prepacked material limit
+- same fictional material limit for both options
 - one marked load point
-- same known staged loads and stop rule for every physical test
-- equal fixed-data route when the physical test gate is not met
+- same fictional staged loads and stop rule in the Day 4 dataset
+- fixed-data analysis as the complete Day 4 route
 
 This classroom prototype does not validate a real bridge. Real work requires licensed analysis, codes, materials testing, geotechnical evidence, public review, and longer validation.
 
