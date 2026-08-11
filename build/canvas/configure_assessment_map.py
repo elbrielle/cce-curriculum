@@ -124,7 +124,7 @@ ASSESSMENTS = (
         "3SW Wk2: Plant Science and Agricultural Communication",
         "MAJOR 1: Farm-to-Table and Emerging Plant-Tech Evidence",
         MAJOR_GROUP,
-        5,
+        4,
         ("PRACTICE: Plant Science Evidence Packet",),
     ),
     Assessment(
