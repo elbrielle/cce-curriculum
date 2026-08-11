@@ -442,6 +442,7 @@ async def upsert_assignment(client):
         "assignment[submission_types][]": ["online_text_entry", "online_upload"],
         "assignment[grading_type]": "not_graded",
         "assignment[points_possible]": "0",
+        "assignment[omit_from_final_grade]": "true",
         "assignment[published]": "false",
     }
     if found:
@@ -456,12 +457,14 @@ async def upsert_assignment(client):
         assignment.get("published")
         or float(assignment.get("points_possible") or 0) != 0
         or assignment.get("grading_type") != "not_graded"
+        or not assignment.get("omit_from_final_grade")
     ):
         raise RuntimeError(
             "Formative reflection invariant failed after update: "
             f"published={assignment.get('published')}, "
             f"points={assignment.get('points_possible')}, "
-            f"grading={assignment.get('grading_type')}"
+            f"grading={assignment.get('grading_type')}, "
+            f"omit={assignment.get('omit_from_final_grade')}"
         )
     return assignment
 
@@ -1099,6 +1102,7 @@ async def main():
                         "id": assignment["id"],
                         "published": assignment.get("published"),
                         "grading_type": assignment.get("grading_type"),
+                        "omit_from_final_grade": assignment.get("omit_from_final_grade"),
                     },
                     "folders": {
                         str(day): {"id": folder["id"], "locked": folder["locked"]}
