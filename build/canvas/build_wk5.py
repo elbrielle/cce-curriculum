@@ -33,7 +33,27 @@ async def ensure_folder(c,path):
     return folder
 async def upload(c,path,folder):
     init=await api(c,"POST",f"/courses/{COURSE_ID}/files",data={"name":path.name,"parent_folder_path":folder,"on_duplicate":"overwrite"})
-    r=await c.post(init["upload_url"],data=init["upload_params"],files={"file":(path.name,path.read_bytes(),mimetypes.guess_type(path.name)[0] or "application/octet-stream")},follow_redirects=True); r.raise_for_status(); return r.json()
+    r=await c.post(init["upload_url"],data=init["upload_params"],files={"file":(path.name,path.read_bytes(),mimetypes.guess_type(path.name)[0] or "application/octet-stream")},follow_redirects=True); r.raise_for_status(); uploaded=r.json()
+    if not uploaded.get("locked"):
+        uploaded=await api(c,"PUT",f"/files/{uploaded['id']}",data={"locked":"true"})
+    if not uploaded.get("locked"):
+        raise ValueError(f"Canvas file did not remain locked: {uploaded.get('display_name', path.name)}")
+    return uploaded
+async def lock_folder_files(c,folder_id):
+    folder=await api(c,"GET",f"/folders/{folder_id}")
+    if not folder.get("locked"):
+        folder=await api(c,"PUT",f"/folders/{folder_id}",data={"locked":"true"})
+    if not folder.get("locked"):
+        raise ValueError(f"Canvas folder did not remain locked: {folder_id}")
+    existing=await paged(c,f"/folders/{folder_id}/files")
+    for file in existing:
+        if not file.get("locked"):
+            await api(c,"PUT",f"/files/{file['id']}",data={"locked":"true"})
+    verified=await paged(c,f"/folders/{folder_id}/files")
+    unlocked=[file["id"] for file in verified if not file.get("locked")]
+    if unlocked:
+        raise ValueError(f"Canvas folder {folder_id} contains unlocked files: {unlocked}")
+    return verified
 async def find_file(c,name):
     files=await paged(c,f"/courses/{COURSE_ID}/files",{"search_term":name}); match=next((f for f in files if f.get("display_name")==name),None)
     if not match: raise ValueError(f"Canvas file not found: {name}")
@@ -68,9 +88,16 @@ async def main():
     async with httpx.AsyncClient(headers={"Authorization":f"Bearer {token}"},timeout=120) as c:
         module=await ensure_module(c); module_id=module["id"]
         support_names={"ROUTE":"wk5-cyberseek-pathway.pdf","CHECK":"wk5-red-flag-checklist.pdf","PLAN":"wk5-bootcamp-planning-template.pdf","MODEL":"wk5-bootcamp-model.pdf","CONNECTION":"wk5-favorite-cluster-connection.pdf","RUBRIC":"wk5-capstone-portfolio-rubric.pdf","REFLECTION":"wk5-reflection-update-template.pdf","REFLECTION_BI":"wk5-reflection-update-bilingual.pdf"}
-        support_folder="course files/CCR Materials/1SW/Wk5"; await ensure_folder(c,support_folder); files={}
+        support_folder="course files/CCR Materials/1SW/Wk5"; support_folder_info=await ensure_folder(c,support_folder); files={}
         for key,name in support_names.items(): files[key]=await upload(c,ROOT/"docs/resources/worksheets"/name,support_folder)
         files["XELLO"]=await find_file(c,"my-career-clusters.pdf")
+        xello_folder_id=files["XELLO"].get("folder_id")
+        if not xello_folder_id:
+            raise ValueError("Xello my-career-clusters.pdf did not report a folder_id")
+        await lock_folder_files(c,xello_folder_id)
+        files["XELLO"]=await find_file(c,"my-career-clusters.pdf")
+        if not files["XELLO"].get("locked"):
+            raise ValueError("Xello my-career-clusters.pdf did not remain locked")
         uploads={}; folders={}
         for day in range(1,6):
             folder_path=f"course files/CCR Materials/1SW/Wk5/Day {day} Visuals"; folders[day]=await ensure_folder(c,folder_path); uploads[day]={}
@@ -84,6 +111,9 @@ async def main():
         files["DAY2_DECK"]=await upload(c,deck_path,"course files/CCR Materials/1SW/Wk5/Day 2 Visuals")
         if not files["DAY2_DECK"].get("locked"):
             files["DAY2_DECK"]=await api(c,"PUT",f"/files/{files['DAY2_DECK']['id']}",data={"locked":"true"})
+        await lock_folder_files(c,support_folder_info["id"])
+        for folder in folders.values():
+            await lock_folder_files(c,folder["id"])
         student_values={
           1:{"PROGRAM_IMAGE_ID":uploads[1]["irving-it-programs.png"]["id"],"ROUTE_FILE_ID":files["ROUTE"]["id"]},
           2:{"FLAGS_IMAGE_ID":uploads[2]["safe-or-spoofed-red-flags.png"]["id"],"CHECK_FILE_ID":files["CHECK"]["id"],"EMAIL_DETAILS":image_details(COURSE_ID,uploads[2])},
