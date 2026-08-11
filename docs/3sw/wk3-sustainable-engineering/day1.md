@@ -3,19 +3,23 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Opportunities
-- **Objective:** Students will match sustainable-engineering careers to specific water, agriculture, and energy problems using current evidence.
+- **Objective:** Students will match one sustainable-engineering career to a crop-and-water problem using current evidence.
 - **TEKS:** d(1)(C)
-- **Demonstration of Learning:** Completed problem-to-career response on the career guide.
+- **Demonstration of Learning:** Individual response naming a lead career, matching task, weaker comparison, and one current fact from the fixed guide.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objective** | Match sustainable-engineering careers to specific water, agriculture, and energy problems using current evidence |
+| **Objective** | Match one sustainable-engineering career to a crop-and-water problem using current evidence |
 | **TEKS** | d(1)(C) |
-| **Deliverable** | Completed problem-to-career response on the career guide |
-| **Materials** | Sustainable Engineering Career and Problem Guide; projector; optional H&L access |
+| **Deliverable** | Individual lead-career response with a matching task, weaker comparison, and current fact |
+| **Materials** | Sustainable Engineering Career and Problem Guide; one device per student or pair; private Canvas practice check; optional H&L access |
+
+## Before Class
+
+Post the two-page guide and open the unpublished, 0-point **PRACTICE: Sustainable Career Match** assignment. The default digital route uses zero prints. For a no-device class, print one guide per student, double-sided, and collect that guide instead of requiring a Canvas copy. Project this supplied model: Agricultural Engineer should lead because the worker designs farm systems and monitoring equipment; Wind Turbine Technician is weaker because turbine repair does not address crop monitoring; a typical entry route is a bachelor's degree.
 
 ## Warm-Up (5 min)
 
@@ -46,6 +50,8 @@ Students choose the best lead career and write:
 2. one reason another career is a weaker lead; and
 3. one current fact about opportunity or preparation.
 
+Use the complete frame at the response: “The ____ should lead because this worker ____. A weaker lead is ____ because ____. One current fact is ____.”
+
 The expected lead is **Agricultural Engineer** when the justification connects farm systems, irrigation, equipment, or monitoring to the crop problem. Environmental Engineer can also earn credit when a student builds a clear water-system argument. Do not score career preference.
 
 ## Activity 3: Compare and Defend (10 min)
@@ -58,7 +64,7 @@ Listen for the distinction between investigating a career and guaranteeing a job
 
 ## Exit Check (5 min)
 
-Students submit the career guide response or complete the same three fields in Canvas.
+Students type the four-part response in the private Canvas practice check or upload/submit the completed guide. They do not complete both routes.
 
 **DOK 3:** Which matters more for this problem, career growth or the worker's actual task? Defend the choice with one fact.
 
@@ -66,6 +72,12 @@ Students submit the career guide response or complete the same three fields in C
 
 - **Support:** Highlight the task column and allow students to choose between only Environmental Engineer and Agricultural Engineer before comparing all four.
 - **Extension:** Compare the two technical occupations. Explain why faster growth does not automatically mean more annual openings.
-- **Language:** Use task, preparation, median, growth, and openings as the word bank.
+- **Language:** Use task, preparation, median, projection, and evidence limit as the word bank. Keep the complete frame beside the response rather than only in the support section.
 - **Platform fallback:** H&L is optional. The fixed guide carries all required evidence.
-- **Absence:** Complete both pages of the guide independently and submit in Canvas.
+- **Absence:** Complete both pages of the guide independently and submit through the same private check or give the paper guide to the teacher.
+
+## Monitor, Pivot, and Trim
+
+- By minute 13, each student should select a worker task before looking at pay. If several students choose only by salary or growth, compare one task row to one data row.
+- By minute 33, each response should have a lead, matching task, weaker comparison, and current fact. Correct every DFW-starting-pay relabel.
+- If time is short, cut the partner share. Protect the individual response and seven-minute submit/reset window.

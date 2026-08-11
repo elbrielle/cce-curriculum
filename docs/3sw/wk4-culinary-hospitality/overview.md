@@ -32,12 +32,12 @@ Students submit an individual Hospitality Career and Business Recommendation. Th
 
 - *Find Your Future* printed pp. 111-113, 117-123, and 124-125 as district workbook context
 - Hospitality Career Evidence Guide
-- Culinary Twist Menu Brief
-- Motivation and Hospitality Career Comparison
-- Hotel Rescue Role and Crisis Cards
-- Hotel Rescue Team and Individual Response
-- Cater and Create Event Brief
-- Hospitality Career and Business Recommendation and 16-point rubric
+- Culinary Twist Menu Brief, only for a no-workbook or Canvas-annotation route
+- Motivation and Hospitality Career Comparison, one two-page double-sided copy per student when paper is needed
+- Hotel Rescue Role and Crisis Cards, projected or one three-page set per team
+- Hotel Rescue Team and Individual Response, one two-page double-sided copy per student when paper is needed
+- Cater and Create Event Brief, one page per student
+- Hospitality Career and Business Recommendation and 16-point rubric, in Canvas or printed double-sided
 - Colored pencils or markers; paper remains an equal route
 - Optional district-approved Canva for Education or Adobe Express access
 
@@ -74,22 +74,22 @@ Restaurant Rebrand, H&amp;L App Exploration, Xello Decision Making, and eDynamic
 |---|---|---|---|---|
 | 1 | Culinary Twist | Plan a dish within ingredient constraints and build a readable menu item | Individual menu brief | Engage, Explore, Explain, Evaluate |
 | 2 | Motivation and career evidence | Design two kinds of motivation and compare three careers | Competition plan and three-career comparison | Engage, Explain, Explore, Evaluate |
-| 3 | Hotel Rescue | Solve one assigned hotel crisis through six distinct roles | Team map and individual transfer response | Engage, Explore, Explain, Evaluate |
+| 3 | Hotel Rescue | Solve one assigned hotel crisis through coordinated roles | Team map and individual transfer response | Engage, Explore, Explain, Evaluate |
 | 4 | Cater and Create | Design a connected client experience and revise it after a reader test | Event brief and revision | Engage, Explore, Extend, Evaluate |
-| 5 | Career and business recommendation | Compare evidence and write a scenario-based recommendation | Recommended 16-point minor checkpoint | Engage, Explain, Extend, Evaluate |
+| 5 | Career and business recommendation | Compare evidence and write a scenario-based recommendation | Mapped 16-point Minor 2 checkpoint | Engage, Explain, Extend, Evaluate |
 
 ## Assessment and Grading
 
 Days 1-4 are formative practice. Do not grade art polish, platform choice, public speaking confidence, or whether a classmate was available.
 
-**Recommended minor grade:** Hospitality Career and Business Recommendation, 16 points.
+**Mapped minor grade:** Hospitality Career and Business Recommendation, 16 raw rubric points converted to the existing 100-point Canvas Minor 2 assignment.
 
 - Career evidence: 4 points
 - Preparation and tradeoff: 4 points
 - Entrepreneurship: 4 points
 - Recommendation and verified local connection: 4 points
 
-This is the second recommended minor in 3SW. Week 1 is the first minor; Weeks 2 and 3 carry the two recommended majors. Week 5 can supply the third minor. Confirm the live Canvas assignment groups before turning on points or grade calculations.
+This is Minor 2 in 3SW. The importer must find exactly one unpublished 100-point assignment in **Minor Assessments (40%)** before it writes any Wk4 content. The rubric conversion is `(raw score / 16) × 100`, rounded to the nearest whole number.
 
 ## Differentiation
 

@@ -55,6 +55,10 @@ Write five to seven sentences. Your response must:
 5. name one entrepreneurial opportunity and what the owner sells;
 6. connect to a current Irving ISD option when the evidence supports it.
 
+**Words:** recommendation = recomendación · evidence = evidencia · preparation = preparación · schedule = horario · business = negocio
+
+**Sentence jobs:** I recommend ____. This work fits Jordan because ____. The May 2024 U.S. ____ shows ____. One preparation or schedule trade-off is ____. A related business could sell or coordinate ____. A current Irving ISD option to investigate is ____.
+
 [[lines: 10]]
 
 ### Self-check

@@ -55,10 +55,10 @@ Irving ISD currently lists **Sustainable Engineering at Nimitz High School** and
 
 | Day | Focus | Key Activities | Student Evidence |
 |---|---|---|---|
-| 1 | Careers and resource problems | Fixed career guide; drought and crop problem brief | Problem-to-career response |
+| 1 | Careers and resource problems | Fixed career guide; drought and crop problem brief | Private or collected problem-to-career response |
 | 2 | Read Pest Patrol field reports | FYF pp. 93-94; constraints record | Field notes and three constraints |
 | 3 | Design from evidence | FYF p. 95; paper, Canva, or Adobe route | Labeled drone draft and tradeoff |
-| 4 | Review, revise, and evaluate trends | Private peer review; fixed trends evidence | Visible revision and trends evaluation |
+| 4 | Review, revise, and evaluate trends | Peer/self-review; fixed trends evidence; Major submission | Visible revision and trends evaluation |
 | 5 | Adaptability and required Xello goals | FYF p. 146 bridge; Xello Set goals | Two saved goals and private reflection |
 
 ## Assessment Plan
@@ -70,9 +70,19 @@ Irving ISD currently lists **Sustainable Engineering at Nimitz High School** and
 ## Canvas Interaction Plan
 
 - Every day has one Teacher Facilitator Guide and one Student Guide.
-- Day 3 includes an unpublished, ungraded Canvas Assignment for the Pest Patrol draft. Digital students may submit a file, image, text, or URL. Paper remains equal.
+- Day 1 includes an unpublished, 0-point private response home for the lead career, matching task, weaker comparison, and current fact. Students submit text/an upload or turn in the completed paper guide, not both.
+- Day 3 includes an unpublished, ungraded Canvas Assignment for the Pest Patrol draft. Digital students may submit a file, image, text, or private media explanation. Paper remains equal.
 - Day 4 may use Canvas peer review only after the teacher manually assigns reviewers. Automatic peer assignment remains off because late or missing submissions can strand students without a review.
+- The mapped Major submission belongs after the Day 4 Student Guide. Day 5 stays focused on the required Xello task.
 - Day 5 uses a private submission for the goal reflection. Students do not post profile screenshots or personal goals to a discussion.
+
+## Print Plan
+
+- Day 1 defaults to digital with zero prints; the no-device route is one double-sided guide per student.
+- Day 2 uses one required double-sided field-notes sheet per student.
+- Day 3 uses one double-sided Design Brief per student unless the teacher assigns an equal digital evidence route.
+- Day 4 uses one revision-record page plus one double-sided Trends Evaluation per student. The trends guide and rubric default to digital.
+- Day 5 defaults to digital with zero prints; the one-page Goal Check is printed only for planning support or an outage.
 
 ## Differentiation and Access
 

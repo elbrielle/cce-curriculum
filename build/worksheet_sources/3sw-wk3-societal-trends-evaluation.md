@@ -48,18 +48,17 @@ Which trend seems likely to change more daily work? Use evidence, not only your 
 
 [[pagebreak]]
 
-## Part 2: Recommend what a student should investigate next
+## Part 2: Evaluate what changed
 
-Choose one career or pathway connected to the two trends. Write 5-7 sentences.
+Choose one career connected to the two trends. Write **3-4 complete sentences**.
 
 Your response must include:
 
 - the career or pathway;
 - two facts from the evidence guide;
-- how the trend changes a task or skill;
-- one preparation difference or local pathway connection;
+- how each trend changes a task or skill;
 - one limit in the evidence; and
-- a clear recommendation to investigate or not investigate further.
+- a clear recommendation for what to investigate next.
 
 [[lines: 8]]
 
@@ -71,8 +70,8 @@ Your response must include:
 - [ ] I explained a changed task or skill.
 - [ ] I included one evidence limit.
 
-### One-sentence revision note
+### Done when
 
-The change that made my evaluation stronger was:
-
-[[lines: 1]]
+- [ ] I compared two trends and used two sourced facts total.
+- [ ] I explained changed work and stated one evidence limit.
+- [ ] I wrote 3-4 complete sentences and checked the source labels.

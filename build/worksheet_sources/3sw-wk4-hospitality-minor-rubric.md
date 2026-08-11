@@ -29,13 +29,11 @@ Career evidence: ____ /4  ·  Preparation/trade-off: ____ /4  ·  Entrepreneursh
 
 ### Course percentage conversion
 
-| Points | Course percentage | District band |
-|---:|---:|---|
-| 15-16 | 90-100 | Masters |
-| 13-14 | 80-89 | Meets |
-| 12 | 70-79 | Approaches |
-| 10-11 | 60-69 | Needs Improvement |
-| 0-9 | Below 60 | Insufficient evidence; follow campus policy |
+Canvas stores this Minor as 100 points. Convert the raw score with the same rule for every student:
+
+**Course percentage = (raw score ÷ 16) × 100, rounded to the nearest whole number.**
+
+District bands: **90-100 Masters · 80-89 Meets · 70-79 Approaches · 60-69 Needs Improvement.** Scores below 60 follow campus policy.
 
 One evidence strength: ______________________________  One next revision: ______________________________
 

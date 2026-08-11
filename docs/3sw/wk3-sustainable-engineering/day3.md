@@ -17,6 +17,10 @@
 | **Deliverable** | Pest Patrol Drone Design Brief draft with a named career, work product, and user |
 | **Materials** | FYF p. 95; Design Brief; Day 2 constraints; pencils; optional Canva or Adobe Express |
 
+## Before Class
+
+Give each student the completed Day 2 constraints and one two-page Design Brief printed double-sided. Post the rubric digitally; default rubric print count is 0. Provide one device only to students using Canva or Adobe Express. Open the unpublished draft assignment and keep paper equal. Project the supplied evidence-chain model: "The farmer cannot walk every row, so the drone includes a mapping route. This helps the farmer find problem areas faster."
+
 ## Warm-Up (5 min)
 
 **WARM-UP:** What makes an engineering sketch useful to another person even when the drawing is rough?
@@ -33,7 +37,7 @@ Draw a simple camera box and label it. Model the three-part chain:
 
 Do not model a full drone. Students need a clear standard without receiving a design to copy.
 
-## Activity 2: Design and Label (27 min)
+## Activity 2: Design and Label (25 min)
 
 Students use the full-page drawing canvas or an equal digital route. Require:
 
@@ -47,11 +51,11 @@ Students use the full-page drawing canvas or an equal digital route. Require:
 
 On the second page, students name the career role, the design brief as a work product, and the worker or user who would use it.
 
-**Active Monitoring:** Minute 8, the shape and first labels exist. Minute 16, six functions are visible. Minute 23, three labels point to field-report evidence. If several students have part names without functions, pause and model one stronger label.
+**Active Monitoring:** By minute 18, the large sketch and at least three function labels exist. By minute 32, six labels and three links to Day 2 evidence are visible. If several students have part names without functions, pause and add a verb to one label. If several have labels without evidence links, apply the supplied chain to one feature.
 
 The Canvas draft Assignment accepts a file, image, text explanation, or media recording. Paper is equal and may be photographed only if the student wants a digital record.
 
-## Activity 3: Tradeoff Check (5 min)
+## Activity 3: Tradeoff Check (7 min)
 
 Students complete the evidence-chain and tradeoff page. A tradeoff must name a benefit and a cost, risk, or limit. "My design has no weaknesses" is not acceptable evidence.
 
@@ -68,3 +72,5 @@ Students use the visible "You are done when" checklist in Canvas and turn in the
 - **Language:** Labels may be English, Spanish, or bilingual when the function is clear.
 - **Equipment fallback:** No drone hardware is required. The learning target is design reasoning.
 - **Absence:** Complete the Canvas guide and Design Brief, then submit digitally or on paper.
+
+If time is short, cut color and decorative polish. Protect six functional labels, three evidence links, one complete chain, one tradeoff, and the five-minute save/submit/reset window.

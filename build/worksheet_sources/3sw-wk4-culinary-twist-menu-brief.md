@@ -28,6 +28,10 @@ How will the special ingredient change the flavor, texture, color, or presentati
 
 [[lines: 3]]
 
+**Words:** ingredient = ingrediente · constraint = condition or limit · texture = textura · presentation = presentación
+
+**Complete frame:** The special ingredient changes the __________________ by __________________.
+
 How will the dish be prepared? Name at least two steps.
 
 [[lines: 4]]
@@ -77,5 +81,7 @@ One question a customer might still have:
 One skill from this task that transfers to a non-cooking career:
 
 [[lines: 2]]
+
+**Complete frame:** __________________ transfers to __________________ because both jobs require __________________.
 
 Build route: [ ] Canvas annotation  [ ] Paper  [ ] Canva  [ ] Adobe Express  [ ] Other approved route

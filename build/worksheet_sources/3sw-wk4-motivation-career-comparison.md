@@ -16,13 +16,15 @@ Complete the competition plan in *Find Your Future* p. 122. Use this companion o
 
 **Word bank:** intrinsic = satisfaction from the work itself · extrinsic = outside reward or consequence · median = middle pay · trade-off = a benefit paired with a cost or limit
 
-Use the fixed Hospitality Career Evidence Guide. Keep the year, geography, and measure attached to every number.
+Use the fixed Hospitality Career Evidence Guide. The stable evidence is already printed below so you can spend the lesson comparing, not copying. Keep the year, geography, and measure attached to every number.
 
-| Career | May 2024 U.S. median | Common preparation | 2024-2034 growth | Annual openings |
-|---|---|---|---|---|
-| Chef or Head Cook | | | | |
-| Lodging Manager | | | | |
-| Event Planner | | | | |
+| Career | May 2024 U.S. median | Common preparation | 2024-2034 outlook |
+|---|---:|---|---|
+| Chef or Head Cook | $60,990 | High school diploma is typical; 5+ years related experience is common | 7% growth; about 24,400 openings/year |
+| Lodging Manager | $68,130 | Experience, certificate/associate degree, or bachelor's degree are common routes | 3% growth; about 5,400 openings/year |
+| Event Planner | $59,440 | Bachelor's degree is typical; event or hospitality experience may help | 5% growth; about 15,500 openings/year |
+
+Mark the evidence: **circle** the highest median, **box** the most annual openings, and **star** the career with a bachelor's degree as the typical entry education.
 
 One important schedule or work-condition difference between two careers:
 
@@ -40,19 +42,23 @@ Choose two careers from the table.
 
 Career 1: ______________________________  Career 2: ______________________________
 
-How could intrinsic motivation help in Career 1?
+How could intrinsic motivation help a worker persist or improve in Career 1?
 
 [[lines: 3]]
 
-How could extrinsic motivation help in Career 2?
+**Complete frame:** Intrinsic motivation could help a __________________ persist when __________________ because __________________.
+
+How could extrinsic motivation affect effort or follow-through in Career 2?
 
 [[lines: 3]]
+
+**Complete frame:** An outside __________________ could affect a __________________ by __________________, but workers may respond differently because __________________.
 
 ### Make the trade-off visible
 
 Which career offers the best fit for a person who values creative control but also wants predictable preparation? Use one career-data fact, one motivation idea, and one trade-off.
 
-[[lines: 6]]
+[[lines: 5]]
 
 **Complete frame:** I recommend __________________ because the evidence shows __________________. This fits the person because __________________. One trade-off is __________________, which matters because __________________.
 

@@ -2,8 +2,8 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Opportunities
-- **Objective:** Students will identify career opportunities within one or more career clusters and define entrepreneurship and identify entrepreneurial opportunities in a field of personal interest using evidence from Career Opportunities.
+- **Topic:** Catering Entrepreneurship
+- **Objective:** Students will identify catering career opportunities and explain entrepreneurship by designing a connected client service with one practical limit and one owner responsibility.
 - **TEKS:** d(1)(C), d(3)(I)
 - **Demonstration of Learning:** FYF pp. 119-120 Cater and Create design plus the one-page client, entrepreneurship, and revision companion.
 <!-- CCE DAILY CONTRACT END -->
@@ -16,7 +16,7 @@
 | **TEKS** | d(1)(C), d(3)(I) |
 | **5E Phases** | Engage, Explore, Extend, Evaluate |
 | **Deliverable** | FYF pp. 119-120 design plus the one-page client, entrepreneurship, and revision companion |
-| **Materials** | FYF pp. 119-120, one-page companion, colored pencils or markers; optional Canva or Adobe Express |
+| **Materials** | Per student: FYF workbook opened to pp. 119-120, one-page companion, pencil, and optional colored pencils or markers. Teacher: projector with one completed client/limit model. Device only for an approved digital design route. |
 
 ## Warm-Up (5 min)
 
@@ -32,6 +32,8 @@ Students choose an event, a feeling, a client or audience, and one practical lim
 
 Define entrepreneurship before design begins: the owner sells and coordinates a service and accepts responsibility for cost, staffing, client communication, and risk. A business idea is not complete only because it has a logo or menu.
 
+Model a narrow plan: **fictional school recognition dinner; calm and welcoming feeling; students and families as the audience; 90-minute setup limit.** The menu, table layout, quiet welcome activity, and take-home note should all support the same feeling. The owner coordinates food, setup, staffing, access, and the client update rather than only drawing a logo.
+
 ## Activity 2: Design the Connected Experience (27 min)
 
 **Source:** (FYF pp. 119-120: "Cater and Create")
@@ -41,6 +43,8 @@ Students design at least three foods or drinks, a labeled table/space plan, ente
 Paper, Canva, Adobe Express, and another approved tool are equal. Do not require a real account, client name, address, contact information, payment detail, or public post.
 
 At minute 18, check the practical limit. A visually connected plan can still fail if it ignores staffing, access, weather, time, or cost.
+
+**Active-monitoring pivot:** At minute 18 of the design block, every student should be able to point to the client, feeling, and limit and show how two choices connect. If more than one quarter has attractive but disconnected ideas, pause and ask, “Which client need does this choice solve?” If time compresses, use the teacher or self-check instead of a partner check; preserve the visible revision, exit response, and five-minute collection/reset.
 
 ## Activity 3: Client Test and Revision (5 min)
 
@@ -56,6 +60,6 @@ Students explain why a client might pay for the complete experience and name one
 
 ## Differentiation
 
-- **Support:** Preselect an event and feeling, provide a color/word bank, and allow a labeled sketch instead of a polished layout.
+- **Support:** Preselect an event and feeling, keep the model visible, and allow a labeled sketch instead of a polished layout. Use the complete frame beside the response: “A client might pay because ____. The ____ supports the feeling, while the owner must ____.”
 - **Extension:** Create a one-page invitation or menu card that uses only approved or student-created visuals.
 - **ELL:** Use client/cliente, catering/servicio de banquetes, menu/menú, guest/invitado, limit/límite, and revise/revisar. Drawings count when labels make the reasoning clear.

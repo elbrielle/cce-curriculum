@@ -17,6 +17,10 @@
 | **Deliverable** | Pest Patrol Field Notes and Constraints with an agricultural-engineer work-product connection |
 | **Materials** | FYF pp. 93-94; Field Notes and Constraints packet; highlighters |
 
+## Before Class
+
+Give each student FYF pp. 93-94, one two-page field-notes sheet printed double-sided, a pencil, and a highlighter. No student device is required. Keep evidence individual; use pairs of two only for a 60-second fact-to-function check. Project this supplied model: "The engineer report says the site has 15-20 mph wind, so the drone must stay steady enough to collect usable images in that wind."
+
 ## Warm-Up (5 min)
 
 **WARM-UP:** A farmer says, "I need a drone." What must an engineer ask before drawing anything?
@@ -37,6 +41,8 @@ Explain that each source sees a different part of the problem. The class will fi
 
 Students read each report and record one or two facts that would change the drone design. After each source, stop for a one-minute check and write one example "drone must" statement.
 
+Use the complete frame beside each source row: “The ____ report says ____, so the drone must ____.”
+
 Students then name the agricultural engineer's work product: a set of design constraints that another worker or design team can use.
 
 **Chunking:** Engineer report first, then Farmer, then Plant Scientist. Do not read all three and ask students to remember the details later.
@@ -51,6 +57,8 @@ Students then name the agricultural engineer's work product: a set of design con
 
 Students write three constraints: detection or measurement, movement or field coverage, and one practical limit. They rank the most important constraint and give a reason.
 
+Use the ranking frame at this decision: “The most important constraint is ____ because the ____ report shows ____.”
+
 Accept cost, battery, weather, safety, accuracy, or farmer time when the student explains why the limit matters.
 
 ## Exit Check (5 min)
@@ -63,5 +71,7 @@ Students underline the evidence for the top-ranked constraint and submit the pac
 
 - **Support:** Provide the modeled first row and a word bank: detect, map, report, withstand, cover, protect.
 - **Extension:** Add a measurable test for one constraint.
-- **Language:** Allow bilingual notes and require one clear function statement in the student's strongest available language.
+- **Language:** Allow bilingual notes and require one clear function statement in the student's strongest available language. Keep the source and ranking frames beside the two responses.
 - **Absence:** Canvas includes readable workbook crops and the same packet. No live platform login is required.
+
+If time is short, cut the partner reports and extension test. Protect all three source rows, three constraints, the career work-product connection, and the ranked decision. The teacher checks or collects the field-notes sheet; students do not make a second Canvas copy.

@@ -131,7 +131,7 @@ ASSESSMENTS = (
         "3SW Wk3: Sustainable Engineering and Pest Patrol",
         "MAJOR 2: Sustainable Engineering Design and Trends Evidence",
         MAJOR_GROUP,
-        5,
+        4,
         ("PRACTICE: Sustainable Engineering Evidence Packet",),
     ),
     Assessment(

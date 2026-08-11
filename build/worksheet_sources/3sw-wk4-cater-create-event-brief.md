@@ -26,7 +26,7 @@ ________________________________________________________________________________
 
 ### Business check
 
-What complete service would this owner sell—not just the food?
+What complete service would this owner sell, not just the food?
 
 _____________________________________________________________________________________
 
