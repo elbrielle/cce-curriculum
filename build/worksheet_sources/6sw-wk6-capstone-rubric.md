@@ -6,67 +6,49 @@ weeks: 6sw/wk6-capstone
 audience: student
 variant_of:
 language: en
-pages: 3
+pages: 2
 orientation: landscape
 ---
 
-## Six-Criterion Rubric
+## Six-Criterion Major 2 Evidence Profile
 
 | Criterion | 4 - Masters | 3 - Meets | 2 - Approaches | 1 - Needs Improvement | 0 - Insufficient Evidence |
 |---|---|---|---|---|---|
-| Self/career direction d8A | Current self evidence supports a career direction and flexible alternative | Accurate with one minor gap | Partial evidence or weak fit | Preference stated with little evidence | Blank/off-topic |
-| Career research | Task, preparation, labor measure/date/geography/source, and limitation are accurate | One minor label/detail gap | Several labels/details missing | Unsupported or mixed measures | Blank/off-topic |
-| HS/postsecondary plan d8B | Current Irving connection, verification question, postsecondary/training route, and next step are clear | Strong with one minor gap | Partial pathway/route evidence | Unverified guarantee or vague path | Blank/off-topic |
-| Individual action plan d8C | Three feasible goals plus obstacle, backup, support, date, and flexible conclusion | Complete with one minor gap | Some action elements missing | Wish rather than actionable plan | Blank/off-topic |
-| Communicated evidence d4C | Organized, understandable oral/AAC/multimodal route uses evidence and fits time/audience | Strong with one minor gap | Uneven organization/evidence | Minimal or unclear communication | No assessable route |
-| Reflection/revision | Specific feedback, visible revision, transfer, and realistic next action | Complete with one minor gap | General reflection or partial revision | Minimal unsupported reflection | Blank/off-topic |
+| Current direction d(8)(A) | Self evidence supports a career pathway/direction and flexible alternative | Accurate with one minor gap | Partial evidence or weak connection | Preference with little evidence | Blank/off-topic |
+| Career evidence | Task, preparation, labor labels, source, and limitation are accurate | One minor detail gap | Several labels/details missing | Unsupported or mixed measures | Blank/off-topic |
+| HS/training route d(8)(B) | Current high-school connection, verification question, training route, and next step are clear | Strong with one minor gap | Partial route evidence | Unverified guarantee or vague route | Blank/off-topic |
+| Action plan d(8)(C) | Three feasible actions include dates, obstacle, backup, support, and flexibility | Complete with one minor gap | Some action elements missing | Wish rather than a plan | Blank/off-topic |
+| Oral/AAC evidence d(4)(C) | Organized 2-3-minute career/college brief uses evidence, audience fit, and appropriate technology | Strong with one minor gap | Uneven organization/evidence | Minimal or unclear communication | No assessable oral/AAC route |
+| Feedback and revision | Specific feedback leads to a visible, explained improvement and transfer action | Complete with one minor gap | General feedback or partial revision | Minimal unsupported reflection | Blank/off-topic |
 
-Total: ____ / 24
+**Raw total:** ______ / 24
 
-This is Major 2 in the approved sixth-six-weeks assessment map. Keep it unpublished until the Canvas review gate passes.
-
-[[pagebreak]]
-
-## Performance-Band Record
-
-Masters: 90-100 · Meets: 80-89 · Approaches: 70-79 · Needs Improvement: 60-69. Below 60 follows campus policy.
-
-Criterion scores: Self [   ] · Research [   ] · Path [   ] · Action [   ] · Communication [   ] · Reflection [   ]
-
-Strongest evidence:
-
-[[lines: 3]]
-
-Priority revision:
-
-[[lines: 3]]
-
-## Access, Privacy, and Missing-Evidence Boundary
-
-Equivalent communicated routes include live whole-group, small group, teacher conference, recorded audio/video, AAC, or an authorized multimodal alternative. Accent, eye contact, disability, camera use, clothing/style, visual polish, public confidence, and English mechanics are not scored unless meaning is unclear.
-
-Missing an old workbook page, family interview, platform login, or partner does not automatically lower mastery. Students use the documented recovery route and current evidence. No private profile screenshot, contact data, family finances, health/immigration information, or unsupported pathway guarantee.
-
-Authorized route/recovery:
-
-[[lines: 2]]
+**Submission boundary:** The Day 2 career plan stays in its original Canvas or labeled-paper location. Submit the Day 4 communicated evidence, two-page delivery/revision record, and this self-score through Major 2. The teacher scores the complete profile across those two locations.
 
 [[pagebreak]]
 
-## Revision Record
+## Score, Revise, and Use the Plan
 
-Weakest criterion and why:
+**Performance bands:** Masters 90-100 · Meets 80-89 · Approaches 70-79 · Needs Improvement 60-69. Below 60 follows campus policy.
 
-[[lines: 3]]
+Criterion scores: Direction [   ] · Career Evidence [   ] · Route [   ] · Action [   ] · Communication [   ] · Revision [   ]
+
+**Strongest evidence:** ______________________________________________________________________________________________
+
+**Priority revision:** _______________________________________________________________________________________________
 
 Before:
 
-[[lines: 4]]
+[[lines: 1]]
 
 After:
 
-[[lines: 5]]
+[[lines: 2]]
 
-How the revision improved the evidence:
+How the revision improved the plan or communication:
 
-[[lines: 4]]
+[[lines: 1]]
+
+**Access:** Oral/AAC evidence may be live, small group, teacher conference, private audio/video, or an authorized accommodation-aligned route using appropriate technology. A written outline supports the work but does not by itself demonstrate d(4)(C). Accent, eye contact, disability, camera use, clothing/style, visual polish, public confidence, and English mechanics are not scored unless meaning is unclear.
+
+**Privacy and recovery:** Missing an old artifact, family interview, platform login, or partner does not automatically lower mastery. Use the documented recovery route. Do not submit private profile screenshots, contact data, family finances, health or immigration information, or unsupported pathway guarantees.

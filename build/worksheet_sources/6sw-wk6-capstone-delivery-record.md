@@ -1,94 +1,72 @@
 ---
-title: Capstone Delivery Record
+title: Capstone Delivery and Revision Record
 slug: 6sw-wk6-capstone-delivery-record
 kind: worksheet
 weeks: 6sw/wk6-capstone
 audience: student
 variant_of:
 language: en
-pages: 5
+pages: 2
 orientation: portrait
 ---
 
-## Final Evidence Check
+## Communicated Career Evidence
 
-- [ ] current career direction and self evidence;
-- [ ] career task/work product;
+**Date:** __________________  **Route:** _________________________________  **Technology used:** _________________________________
+
+**Time:** __________________  **Audience:** ________________________________________________________________________
+
+Check the evidence that was communicated:
+
+- [ ] current direction and flexible alternative;
+- [ ] career task or work product;
 - [ ] preparation and labeled labor evidence;
-- [ ] current Irving connection with uncertainty;
-- [ ] training/postsecondary route;
-- [ ] action goal, obstacle/backup, and support;
-- [ ] evidence limitation;
-- [ ] no private data.
+- [ ] high-school and postsecondary/training route;
+- [ ] next action, support, and backup;
+- [ ] source limitation and flexible close.
 
-Missing item/recovery:
+Strongest claim and evidence:
 
-[[lines: 6]]
+[[lines: 5]]
 
-[[pagebreak]]
+One source label or limitation I communicated:
 
-## Delivery Evidence
+[[lines: 3]]
 
-Route/date/time: __________________________________________________
+If something was missing, name the recovery route:
 
-Main claims communicated:
-
-[[lines: 8]]
-
-Evidence/source labels communicated:
-
-[[lines: 7]]
+[[lines: 3]]
 
 [[pagebreak]]
 
-## Feedback Record
+## Feedback, Revision, and Transfer
 
-Reviewer route: teacher / self-recording / peer / AAC partner / other authorized
+One effective choice:
 
-One accurate/effective choice:
-
-[[lines: 6]]
+[[lines: 3]]
 
 One gap or unclear point:
 
-[[lines: 6]]
+[[lines: 3]]
 
-Specific revision:
+Before revision:
 
-[[lines: 6]]
+[[lines: 3]]
 
-[[pagebreak]]
+After revision:
 
-## Revision or Make-Up Evidence
+[[lines: 4]]
 
-Before:
+Why the revision improved the evidence:
 
-[[lines: 6]]
+[[lines: 3]]
 
-After:
+One item to share with a counselor or trusted adult: ________________________________________________________________
 
-[[lines: 7]]
+One question to verify before course registration: _________________________________________________________________
 
-Why it improved accuracy, organization, evidence, access, or privacy:
+One action and date: ______________________________________________________________________________________________
 
-[[lines: 6]]
+One reminder that keeps the plan flexible: _________________________________________________________________________
 
-[[pagebreak]]
-
-## Transfer Forward
-
-One item to share with a counselor or trusted adult:
-
-[[lines: 5]]
-
-One question to verify before course registration:
-
-[[lines: 5]]
-
-One action with a date:
-
-[[lines: 5]]
-
-One reminder that keeps the plan flexible:
-
-[[lines: 5]]
+**Complete frame:** After **[feedback]**, I changed **[before]** to **[after]**. This improved **[accuracy, organization, evidence, audience fit, access, or privacy]** because **[reason]**.

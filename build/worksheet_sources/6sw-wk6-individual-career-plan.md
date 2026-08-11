@@ -6,142 +6,114 @@ weeks: 6sw/wk6-capstone
 audience: student
 variant_of:
 language: en
-pages: 8
+pages: 4
 orientation: portrait
 ---
 
-## 1. Who I Am Now
+## 1. Current Direction
 
-Two current interests/values/strengths and evidence:
+**Career pathway or direction:** ______________________________________  **Flexible alternative:** ______________________________________
 
-[[lines: 9]]
-
-How one result changed or stayed stable:
+Two current interests, values, or strengths and the evidence behind them:
 
 [[lines: 6]]
 
-[[pagebreak]]
-
-## 2. Career Direction
-
-Career goal: _____________________________________________________
-
-Alternative direction: ___________________________________________
-
-Daily task or work product:
-
-[[lines: 6]]
-
-Why the direction fits current evidence—not a forever promise:
-
-[[lines: 7]]
-
-[[pagebreak]]
-
-## 3. Preparation and Labor Evidence
-
-Typical preparation requirement and source/date:
-
-[[lines: 6]]
-
-Salary amount/measure/geography/date/source:
-
-[[lines: 5]]
-
-Growth/openings measure/date/source:
-
-[[lines: 5]]
-
-One limitation:
+One daily task or work product in this career:
 
 [[lines: 4]]
 
-[[pagebreak]]
-
-## 4. Irving High-School Connection
-
-Current verified program/pathway label and campus/source/date:
-
-[[lines: 6]]
-
-One high-school course or enrollment action to verify:
+Why this direction fits my current evidence without becoming a forever promise:
 
 [[lines: 5]]
 
-What is confirmed versus still a question:
+**Language help:** direction/dirección · alternative/alternativa · work product/producto de trabajo · evidence/evidencia
 
-[[lines: 7]]
+**Complete frame:** My current direction is **[direction]** because **[self evidence]** connects to **[career task]**. My alternative is **[alternative]**.
 
 [[pagebreak]]
 
-## 5. Postsecondary or Training Route
+## 2. Preparation and Labor Evidence
 
-Route type/provider to investigate:
+**Typical preparation requirement:**
 
 [[lines: 4]]
 
-Admission/enrollment step:
+Source and date: ____________________________________________________________________________________________________
 
-[[lines: 5]]
+**Salary:** $________________  Measure: __________________  Geography: __________________  Date/year: ________________
 
-Credential/degree/license boundary:
+Source: _____________________________________________________________________________________________________________
 
-[[lines: 5]]
+**Growth or openings:** ______________________________  Measure/date: __________________________________________________
 
-Cost/time/aid question to verify—not assume:
+Source: _____________________________________________________________________________________________________________
 
-[[lines: 5]]
+One limitation or reason this evidence could change:
 
-[[pagebreak]]
+[[lines: 4]]
 
-## 6. Three Action Goals
+**Quick audit:** [ ] I did not call a national median local starting pay. [ ] I kept the source/date/measure visible. [ ] I did not treat a projection as a guarantee.
 
-Goal 1 - action, measure, date, support:
-
-[[lines: 6]]
-
-Goal 2:
-
-[[lines: 6]]
-
-Goal 3:
-
-[[lines: 6]]
+**Complete frame:** The evidence shows **[amount or trend]** for **[place/time/measure]**. It helps me compare **[decision]**, but it cannot guarantee **[limit]**.
 
 [[pagebreak]]
 
-## 7. Obstacles, Support, and Motivation
+## 3. High School and Training Route
+
+**Current Irving high-school pathway/program label, campus, source, and date:**
+
+[[lines: 5]]
+
+One course, application, or enrollment action to verify:
+
+[[lines: 4]]
+
+What is confirmed? __________________________________________  What is still a question? _______________________________
+
+**Postsecondary or training route:** _________________________________________________________________________________
+
+Admission or enrollment step:
+
+[[lines: 4]]
+
+Degree, credential, certification, or license boundary:
+
+[[lines: 4]]
+
+Cost, time, aid, or transportation question to verify rather than assume:
+
+[[lines: 3]]
+
+[[pagebreak]]
+
+## 4. Action Plan and Flexible Close
+
+| Action | How I will know it is complete | Date/checkpoint | Support person or role |
+|---|---|---|---|
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
 
 Likely obstacle and early warning sign:
 
-[[lines: 5]]
+[[lines: 3]]
 
 Backup strategy:
 
-[[lines: 5]]
+[[lines: 3]]
 
-Support role and how/when I will ask:
+How and when I will ask for support:
 
-[[lines: 5]]
+[[lines: 3]]
 
-Private affirmation or reminder:
+### Evidence-based conclusion
+
+The strongest evidence for my current direction is:
 
 [[lines: 4]]
 
-[[pagebreak]]
+The most important uncertainty is: _________________________________________________________________________________
 
-## 8. Evidence-Based Conclusion
+My next verified action is: ________________________________________________________________________________________
 
-My current direction is ___________________________________________
-
-The strongest evidence is:
-
-[[lines: 7]]
-
-The most important uncertainty is:
-
-[[lines: 6]]
-
-My next verified action is:
-
-[[lines: 6]]
+**Complete frame:** I will start by **[action]** by **[date]** with help from **[support]**. If **[obstacle]** happens, I will **[backup]**.

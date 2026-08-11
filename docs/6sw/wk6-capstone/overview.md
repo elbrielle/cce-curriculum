@@ -4,39 +4,41 @@
 
 ## Weekly Target
 
-Students inventory current evidence, recover missing pieces without penalty for a lost old artifact or platform failure, write an individual career plan, prepare and deliver a concise evidence-based capstone through an equivalent private route, revise from feedback, and reflect on transferable learning.
+Students recover one missing or uncertain piece of evidence, update a flexible career plan, communicate the plan in a concise oral/AAC career-and-college brief using appropriate technology, revise from feedback, and choose a realistic next action.
 
 ## TEKS Evidence
 
-- **d(8)(A):** current self evidence supports a flexible career direction and alternative.
-- **d(8)(B):** verified high-school connection and postsecondary/training route, with uncertainties labeled.
-- **d(8)(C):** three feasible actions plus obstacle, backup, support, date, and flexible conclusion.
-- **d(4)(C):** organized, understandable individual communicated evidence through live, conference, recording, AAC, or authorized multimodal route.
+- **d(8)(A):** select a current career pathway or direction related to the student's evidence, with a flexible alternative.
+- **d(8)(B):** document current high-school courses or enrollment actions and postsecondary/training requirements, with unresolved questions labeled.
+- **d(8)(C):** write an individual plan for starting a career after high school and any postsecondary education.
+- **d(4)(C):** give an oral professional presentation about career and college exploration using appropriate technology.
 
-## Structural Corrections
+## Structure
 
-The capstone does not require all eight original workbook pages, a completed family interview, H&L access/download, a private profile screenshot, a particular presentation platform, public speaking, or a family adult. Missing prior evidence triggers a documented recovery route using a fixed source, teacher/counselor/staff conference, supplied role card, or supervised catch-up.
+The capstone is one evolving evidence record, not five separate portfolios. Day 1 identifies what is ready and recovers one gap. Day 2 creates the four-page career plan. Day 3 prepares the oral/AAC brief. Day 4 communicates and revises the evidence. Day 5 closes the course with a two-page transfer reflection. The Day 2 plan stays where the student first submits or turns it in; Day 4 does not require a duplicate upload.
 
-The former presentation math could not fit a class roster. The core delivery is 2-3 minutes and may occur in parallel small groups, teacher conferences, private recordings, or AAC. Whole-class presentations are optional celebration only.
+Missing prior evidence triggers a documented recovery route using a supplied source, teacher/counselor/staff conference, prior Canvas work, or supervised platform catch-up. A missing old workbook page, family interview, H&L login, partner, camera, or public-presentation route does not erase current learning.
 
 ## Week at a Glance
 
 | Day | Focus | Durable evidence | Canvas interaction |
 |---|---|---|---|
-| 1 | Evidence inventory/recovery | Six-page inventory and recovery plan | Private Assignment |
-| 2 | Individual career plan | Eight-page plan | Private Assignment |
-| 3 | Capstone plan/rehearsal | Six-page presentation plan | Private Assignment |
-| 4 | Communicated capstone/revision | Eight-page individual plan + five-page delivery/revision record | Private media/annotation Major 2 Assignment |
-| 5 | Course reflection/transfer | Seven-page reflection | Private Assignment |
+| 1 | Evidence audit and recovery | Two-page inventory/recovery plan | Private practice Assignment |
+| 2 | Individual career plan | Four-page career plan | Private practice Assignment; retained for Major 2 scoring |
+| 3 | Oral/AAC brief and rehearsal | Two-page presentation/rehearsal plan | Private practice Assignment |
+| 4 | Communicated capstone and revision | Oral/AAC evidence plus two-page delivery/revision record and rubric | Private Major 2 Assignment |
+| 5 | Reflection and transfer | Two-page final reflection and next-action plan | Private practice Assignment |
 
 ## Grading and Access
 
-The 24-point rubric is student-visible. This is **Major 2** in the [6SW assessment map](../../resources/six-weeks-assessment-map.md) and remains unpublished until the Canvas review gate passes. The submitted evidence includes the individual career plan, communicated capstone, feedback, visible revision, and transfer record. Missing old pages, platform access, visual polish, public speaking, partner/family attendance, accent, eye contact, disability, camera use, English mechanics, or submission mode do not determine mastery unless meaning is unclear.
+The student-visible 24-point evidence profile is **Major 2** in the [6SW assessment map](../../resources/six-weeks-assessment-map.md). The teacher scores the Day 2 career plan from its original location and the Day 4 communicated evidence, delivery/revision record, and self-score from the mapped Major. Students do not resubmit the Day 2 plan.
+
+Oral/AAC evidence may be live, small group, teacher conference, private audio/video, or an authorized accommodation-aligned route using appropriate technology. A written outline may scaffold the evidence but does not by itself demonstrate d(4)(C). Accent, eye contact, disability, camera use, clothing/style, visual polish, public confidence, and English mechanics are not scored unless meaning is unclear.
 
 ## Licensed and Supplemental Sources
 
-FYF Capstone pp. 277-280 and 297-300 may be embedded in authenticated Canvas as optional workbook orientation. H&L Career Plan, FYF Rungs, and prior portfolio artifacts may supply evidence but are not the only completion route. Current district/campus facts must be verified and dated; no pathway, admission, transportation, schedule, credential, placement, or employment guarantee is inferred.
+FYF Capstone pp. 277-280 and 297-300 are locked Canvas orientation and reflection supports. Students use the custom evidence record because the capstone must remain completable after absence or lost prior work. H&L Career Plan, Xello profile evidence, and earlier course artifacts may supply evidence but are not required completion routes. No new Xello or eDynamic task is assigned in this week.
 
 ## End-of-Year Flexibility
 
-If the calendar compresses, preserve Day 1 inventory, Day 2 plan, one private Day 4 communicated/revision route, and Day 5 reflection. Combine Days 3-4 or schedule private submissions; cut celebration and decorative production first.
+If the calendar compresses, preserve Day 1 recovery, the Day 2 career plan, one private Day 4 oral/AAC communication and revision route, and the Day 5 next-action reflection. Combine Days 3-4 or schedule private recordings; cut celebration and decorative production first.

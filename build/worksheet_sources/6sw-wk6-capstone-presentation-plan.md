@@ -6,116 +6,58 @@ weeks: 6sw/wk6-capstone
 audience: student
 variant_of:
 language: en
-pages: 6
-orientation: portrait
+pages: 2
+orientation: landscape
 ---
 
-## Route, Audience, and Privacy
+## Plan a 2-3 Minute Career Evidence Brief
 
-Route: live class / small group / teacher conference / recorded audio/video / AAC / authorized multimodal alternative
+**Oral/AAC route:** live / small group / teacher conference / private audio-video / authorized AAC route
 
-Audience and purpose:
+**Appropriate technology:** Canvas recording / teacher-approved visual / evidence card / AAC technology / other approved: ______________________
 
-[[lines: 5]]
+**Audience and purpose:** ___________________________________________________________________________________________
 
-Information I will keep private:
+| Speaking job | Evidence or words I will use | Source label or visual cue |
+|---|---|---|
+| 1. Current direction and alternative | | |
+| 2. Career task or work product | | |
+| 3. Preparation and labor evidence | | |
+| 4. High-school and training route | | |
+| 5. Next action, support, and backup | | |
+| 6. Limitation and flexible close | | |
 
-[[lines: 5]]
+**Information I will keep private:** _________________________________________________________________________________
 
-Target time: 2-3 minutes. Visual polish and expensive tools are not scored.
-
-[[pagebreak]]
-
-## Opening - Self and Direction
-
-Opening hook:
-
-[[lines: 5]]
-
-Current career direction + alternative:
-
-[[lines: 6]]
-
-Self evidence:
-
-[[lines: 6]]
+**Complete opening frame:** My current direction is **[direction]**. I chose it because **[self evidence]** connects to **[career task]**.
 
 [[pagebreak]]
 
-## Career Evidence
+## Rehearse, Revise, and Protect the Route
 
-Daily task/work product:
+| Check | Attempt 1 | Attempt 2 |
+|---|---|---|
+| Time | | |
+| Route/technology worked | yes / not yet | yes / not yet |
+| Strongest evidence | | |
+| Missing or unclear point | | |
 
-[[lines: 5]]
+**Specific feedback or self-check:** _________________________________________________________________________________
 
-Preparation evidence:
+Before revision:
 
-[[lines: 5]]
+[[lines: 1]]
 
-Labor evidence with measure/date/geography/source:
+After revision:
 
-[[lines: 6]]
+[[lines: 2]]
 
-Limitation:
+Why the revision improved accuracy, organization, evidence, audience fit, access, or privacy:
 
-[[lines: 4]]
+[[lines: 1]]
 
-[[pagebreak]]
+**Technology or access backup:** ____________________________________________________________________________________
 
-## Pathway and Training Evidence
+**Done when:** [ ] 2-3 minutes [ ] all six jobs [ ] one appropriate technology [ ] source labels [ ] privacy protected [ ] visible revision
 
-Current verified Irving connection:
-
-[[lines: 6]]
-
-High-school action/course to verify:
-
-[[lines: 5]]
-
-Postsecondary/training route and next step:
-
-[[lines: 6]]
-
-[[pagebreak]]
-
-## Goals and Motivation
-
-Most important SMART action:
-
-[[lines: 6]]
-
-Obstacle + backup:
-
-[[lines: 5]]
-
-Support strategy:
-
-[[lines: 5]]
-
-Closing sentence:
-
-[[lines: 4]]
-
-[[pagebreak]]
-
-## Rehearsal and Access Check
-
-Attempt 1 time/route: _____________________________________________
-
-One evidence strength:
-
-[[lines: 4]]
-
-One revision:
-
-[[lines: 5]]
-
-Attempt 2 time/route: _____________________________________________
-
-Access/technology/material backup:
-
-[[lines: 5]]
-
-Final revision applied:
-
-[[lines: 5]]
+**Language help:** audience/audiencia · source/fuente · limitation/limitación · rehearse/ensayar · revision/revisión

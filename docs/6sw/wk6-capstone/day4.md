@@ -3,21 +3,19 @@
 ## Daily Learning Contract
 
 - **Topic:** Professional Presentation
-- **Objective:** Students will give an oral professional presentation about career and college exploration using appropriate technology and select a career pathway in a desired field using evidence from Professional Presentation.
-- **TEKS:** d(4)(C), d(8)(A-C)
-- **Demonstration of Learning:** eight-page individual career plan plus five-page private delivery/revision record; Major 2.
+- **Objective:** Students will give an oral professional presentation about career and college exploration using appropriate technology, then use feedback to revise one evidence gap.
+- **TEKS:** d(4)(C), d(8)(B), d(8)(C)
+- **Demonstration of Learning:** Private 2-3-minute oral/AAC career brief, two-page delivery/revision record, visible revision, transfer action, and six-criterion Major 2 self-score; the Day 2 plan remains in its original location.
 <!-- CCE DAILY CONTRACT END -->
-**TEKS:** d(4)(C), d(8)(A-C)
-**Evidence:** eight-page individual career plan plus five-page private delivery/revision record; Major 2
 
 ## 50-Minute Flow
 
-1. **Final check - 5 min.** Confirm the individual plan, eight evidence jobs, rubric, route, and privacy.
-2. **Delivery block - 25 min.** Parallel small groups, conferences, private recordings, AAC, or mixed scheduled routes.
-3. **Feedback - 8 min.** One accurate choice and one gap/unclear point.
-4. **Revision/make-up evidence - 9 min.** Before/after and reason.
-5. **Private submit - 3 min.** Individual plan, communicated evidence, feedback, visible revision, transfer item, and self-score.
+1. **Final check - 5 min.** Confirm the six speaking jobs, source labels, rubric, route, technology, backup, and privacy boundary.
+2. **Parallel delivery block - 22 min.** Use small groups, teacher conferences, private recordings, AAC, or a mixed route schedule. Do not run an impossible serial roster.
+3. **Feedback - 7 min.** Record one effective choice and one exact gap or unclear point.
+4. **Revision and transfer - 11 min.** Show before/after, explain the improvement, and name one item, question, or dated action to carry forward.
+5. **Private submit - 5 min.** Submit the Day 4 communicated evidence, two-page record, and self-score once. The teacher scores the Day 2 plan from its original location.
 
 ## Key and Access
 
-Do not run a serial roster that cannot fit. Score organization, understandable communication, evidence, source labels, limitation, audience/time fit, and revision—not accent, eye contact, camera use, public confidence, memorization, or visual polish.
+Score evidence, organization, source labels, audience and time fit, appropriate technology, and visible revision. Do not score accent, eye contact, camera use, public confidence, memorization, disability, or visual polish. A written plan or transcript may scaffold access but does not replace assessable oral/AAC evidence unless an authorized accommodation defines the route.

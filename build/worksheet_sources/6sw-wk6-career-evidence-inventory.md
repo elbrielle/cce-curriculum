@@ -6,107 +6,64 @@ weeks: 6sw/wk6-capstone
 audience: student
 variant_of:
 language: en
-pages: 6
-orientation: portrait
+pages: 2
+orientation: landscape
 ---
 
-## Purpose and Privacy
+## Start With What You Have
 
-The capstone is a current evidence plan, not a punishment for a missing old page. Do not include home address, phone/email, ID numbers, family finances, health/immigration information, private interview contact data, or screenshots of a private profile.
+This capstone uses current evidence. A missing old page, platform login, interview, or partner does not erase what you learned.
 
-Current career direction and one reason:
+**Current career direction:** ___________________________________  **Flexible alternative:** ___________________________________
 
-[[lines: 5]]
+**One reason my direction changed or stayed the same:**
 
-One thing that changed since the start of the course:
+[[lines: 3]]
 
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Evidence Inventory - Self and Career
-
-| Evidence job | Ready / revise / recover | Where it is | What it currently proves |
-|---|---|---|---|
-| interests, values, or strengths |  |  |  |
-| career goal and alternative |  |  |  |
-| daily task or work product |  |  |  |
-| preparation requirement |  |  |  |
-| labor evidence with labels |  |  |  |
-
-Priority recovery:
-
-[[lines: 5]]
+| Evidence job | Ready | Revise | Recover | Where I can find or rebuild it |
+|---|:---:|:---:|:---:|---|
+| Interest, value, or strength | [ ] | [ ] | [ ] | |
+| Career direction and alternative | [ ] | [ ] | [ ] | |
+| Daily task or work product | [ ] | [ ] | [ ] | |
+| Preparation requirement | [ ] | [ ] | [ ] | |
+| Salary or outlook with labels | [ ] | [ ] | [ ] | |
+| High-school pathway or action | [ ] | [ ] | [ ] | |
+| Postsecondary or training route | [ ] | [ ] | [ ] | |
+| Next action and support person | [ ] | [ ] | [ ] | |
 
 [[pagebreak]]
 
-## Evidence Inventory - Path and Action
+## Recover One Gap and Build the Map
 
-| Evidence job | Ready / revise / recover | Where it is | What it currently proves |
-|---|---|---|---|
-| Irving pathway/current source |  |  |  |
-| high-school course/action |  |  |  |
-| postsecondary/training route |  |  |  |
-| SMART next step |  |  |  |
-| support role/strategy |  |  |  |
+**Choose one recovery route:** teacher/counselor conference / supplied source card / prior Canvas work / supervised platform catch-up / another approved route
 
-Priority recovery:
+Missing or uncertain evidence: ______________________________________________________________________________________
 
-[[lines: 5]]
+Source or person I used: __________________________________________  Date checked: _________________________________
 
-[[pagebreak]]
+What the recovered evidence supports:
 
-## Recovery Route A - Missing Prior Artifact
+[[lines: 3]]
 
-Missing evidence: ________________________________________________
+What it does **not** prove:
 
-Fixed source or teacher conference I will use:
+[[lines: 2]]
 
-[[lines: 5]]
+### Four pieces I will carry into the career plan
 
-New evidence statement:
+1. ________________________________________________________________________________________________________________
+2. ________________________________________________________________________________________________________________
+3. ________________________________________________________________________________________________________________
+4. ________________________________________________________________________________________________________________
 
-[[lines: 7]]
+**One conflict or question I still need to resolve:**
 
-Source/date/limit:
+[[lines: 2]]
 
-[[lines: 5]]
+**Day 2 priority:** _________________________________________________________________________________________________
 
-[[pagebreak]]
+**Language help:** evidence/evidencia · recover/recuperar · source/fuente · limitation/limitación · pathway/ruta
 
-## Recovery Route B - Missing Interview or Platform Evidence
+**Complete frame:** I recovered **[evidence]** from **[source]**. It supports **[claim]**, but it does not prove **[limit]**.
 
-Choose: teacher/counselor/staff conference / supplied role card / private written comparison / supervised platform catch-up
-
-What the route can honestly prove:
-
-[[lines: 6]]
-
-What it cannot prove:
-
-[[lines: 5]]
-
-Evidence I will carry into the plan:
-
-[[lines: 7]]
-
-[[pagebreak]]
-
-## Capstone Evidence Map
-
-My six strongest pieces of evidence:
-
-1. ______________________________________________________________
-2. ______________________________________________________________
-3. ______________________________________________________________
-4. ______________________________________________________________
-5. ______________________________________________________________
-6. ______________________________________________________________
-
-One conflict I must resolve:
-
-[[lines: 5]]
-
-My Day 2 priority and why:
-
-[[lines: 5]]
+**Privacy:** Do not include home address, contact information, ID numbers, family finances, health or immigration information, or screenshots of a private profile.

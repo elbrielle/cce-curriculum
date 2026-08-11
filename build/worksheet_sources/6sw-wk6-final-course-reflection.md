@@ -1,117 +1,70 @@
 ---
-title: Final Course Reflection
+title: Final Course Reflection and Transfer Plan
 slug: 6sw-wk6-final-course-reflection
 kind: worksheet
 weeks: 6sw/wk6-capstone
 audience: student
 variant_of:
 language: en
-pages: 7
-orientation: portrait
+pages: 2
+orientation: landscape
 ---
 
-## Then and Now
+## Then, Now, and the Evidence Between
 
 At the start of CCE, I thought career planning was:
 
-[[lines: 6]]
+[[lines: 1]]
 
 Now I think:
 
-[[lines: 6]]
+[[lines: 1]]
 
-Evidence of the change:
+One piece of course evidence that explains the change:
 
-[[lines: 5]]
+[[lines: 1]]
 
-[[pagebreak]]
-
-## What I Explored
-
-One meaningful example from each six weeks:
-
-1SW: [[lines: 3]]
-
-2SW: [[lines: 3]]
-
-3SW: [[lines: 3]]
-
-[[pagebreak]]
-
-## What I Explored - Continued
-
-4SW: [[lines: 3]]
-
-5SW: [[lines: 3]]
-
-6SW: [[lines: 3]]
-
-The example that changed my thinking most:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## What I Learned About Myself
-
-Most valuable self-knowledge:
-
-[[lines: 7]]
-
-How it affects a decision:
-
-[[lines: 6]]
-
-How I feel about my future now and why:
-
-[[lines: 5]]
-
-[[pagebreak]]
-
-## Skills I Can Transfer
-
-| Skill | Evidence from this course | Another place I can use it |
+| Six weeks | One activity, decision, or artifact I remember | What it helped me understand |
 |---|---|---|
-| 1 |  |  |
-| 2 |  |  |
-| 3 |  |  |
-| 4 |  |  |
-| 5 |  |  |
+| 1SW | | |
+| 2SW | | |
+| 3SW | | |
+| 4SW | | |
+| 5SW | | |
+| 6SW | | |
 
-Strongest transfer example:
+**Most important example and why:**
 
-[[lines: 5]]
+[[lines: 2]]
 
-[[pagebreak]]
+## Transfer Forward
 
-## My Next Real Step
+| Transferable skill | Evidence from CCE | Another place I can use it |
+|---|---|---|
+| | | |
+| | | |
+| | | |
 
-Action: ___________________________________________________________
+**Next real action:** ______________________________________________  **Date/checkpoint:** ______________________________
 
-Date/checkpoint: __________________________________________________
-
-Support role: _____________________________________________________
+**Support person or role:** _______________________________________  **How I will ask:** _________________________________
 
 Why this action is realistic:
 
-[[lines: 6]]
+[[lines: 1]]
 
-What could change my plan:
+What could change my plan, and how I will respond:
 
-[[lines: 5]]
+[[lines: 1]]
 
-[[pagebreak]]
+One thing I want a counselor or trusted adult to understand:
 
-## Advice and Closing
+[[lines: 1]]
 
 Advice to a future CCE student:
 
-[[lines: 8]]
+[[lines: 1]]
 
-One thing I want a counselor or trusted adult to understand about my plan:
+**One question I still have:** ______________________________________________________________________________________
 
-[[lines: 6]]
-
-One question I still have:
-
-[[lines: 5]]
+**Complete frame:** I will use **[skill]** from **[course evidence]** when I **[new context]**. My next action is **[action]** by **[date]**, and I will ask **[support role]** for **[help]**.

@@ -20,7 +20,14 @@ WEEK_SPECS = {
         ],
         "major_title": "MAJOR 1: Job Skills, Application, and Mock Interview Portfolio",
         "major_group": "Major Assessments (60%)",
+        "practice_titles": [
+            "PRACTICE: Job Search and Posting Evidence",
+            "PRACTICE: Tailored Cover Letter",
+            "PRACTICE: Application and References",
+            "PRACTICE: Interview Readiness Planner",
+        ],
         "submission_markers": 1,
+        "submission_marker_page_prefix": "STUDENT: 6SW Wk5 Day 5",
         "quiz_title": "PRACTICE QUIZ: Interview Readiness Check",
         "question_names": [
             "Q1 - screening",
@@ -37,8 +44,49 @@ WEEK_SPECS = {
             "6sw-wk5-mock-interview-and-thank-you.pdf",
             "6sw-wk5-job-skills-rubric.pdf",
         },
-        "folder_suffix": "CCR Materials/6SW/Wk5",
-    }
+        "folder_suffixes": {"CCR Materials/6SW/Wk5"},
+    },
+    "6SW Wk6: Career Evidence Capstone": {
+        "items": 20,
+        "pages": 10,
+        "assignment_titles": [
+            "CAPSTONE: Evidence Inventory and Recovery",
+            "CAPSTONE: Individual Career Plan",
+            "CAPSTONE: Presentation Plan and Rehearsal",
+            "MAJOR 2: Individual Career Plan and Communicated Capstone",
+            "CAPSTONE: Final Course Reflection",
+        ],
+        "major_title": "MAJOR 2: Individual Career Plan and Communicated Capstone",
+        "major_group": "Major Assessments (60%)",
+        "practice_titles": [
+            "CAPSTONE: Evidence Inventory and Recovery",
+            "CAPSTONE: Individual Career Plan",
+            "CAPSTONE: Presentation Plan and Rehearsal",
+            "CAPSTONE: Final Course Reflection",
+        ],
+        "submission_markers": 1,
+        "submission_marker_page_prefix": "STUDENT: 6SW Wk6 Day 4",
+        "file_names": {
+            "6sw-wk6-career-evidence-inventory.pdf",
+            "6sw-wk6-individual-career-plan.pdf",
+            "6sw-wk6-capstone-presentation-plan.pdf",
+            "6sw-wk6-capstone-delivery-record.pdf",
+            "6sw-wk6-final-course-reflection.pdf",
+            "6sw-wk6-capstone-rubric.pdf",
+            "fyf-p277.jpg",
+            "fyf-p278.jpg",
+            "fyf-p279.jpg",
+            "fyf-p280.jpg",
+            "fyf-p297.jpg",
+            "fyf-p298.jpg",
+            "fyf-p299.jpg",
+            "fyf-p300.jpg",
+        },
+        "folder_suffixes": {
+            "CCR Materials/6SW/Wk6",
+            "CCR Materials/6SW/Wk6/Locked Licensed Visuals",
+        },
+    },
 }
 
 
@@ -278,7 +326,7 @@ async def main():
                 )
             for entry in assignments:
                 title = entry.get("title") or ""
-                if title.startswith("PRACTICE:"):
+                if title in spec["practice_titles"]:
                     if float(entry.get("points_possible") or 0) != 0:
                         problems.append(f"practice assignment has points: {title}")
                     if entry.get("grading_type") != "percent":
@@ -315,21 +363,34 @@ async def main():
                     f"expected {spec['submission_markers']} submission marker; found {marker_count}"
                 )
             if marker_pages and not all(
-                "STUDENT: 6SW Wk5 Day 5" in (page.get("title") or "")
+                (page.get("title") or "").startswith(
+                    spec["submission_marker_page_prefix"]
+                )
                 for page in marker_pages
             ):
-                problems.append("submission marker appears outside the Day 5 Student Guide")
+                problems.append(
+                    "submission marker appears outside "
+                    f"{spec['submission_marker_page_prefix']}"
+                )
 
             file_names = {record.get("name") for record in files}
             if file_names != spec["file_names"]:
                 problems.append(
-                    f"referenced Week 5 file set mismatch: {sorted(file_names)}"
+                    f"referenced module file set mismatch: {sorted(file_names)}"
                 )
-            if len(folders) != 1 or not (
-                folders[0].get("name") or ""
-            ).endswith(spec["folder_suffix"]):
+            folder_names = {
+                folder.get("name") or "" for folder in folders
+            }
+            matched_suffixes = {
+                suffix
+                for suffix in spec["folder_suffixes"]
+                if any(name.endswith(suffix) for name in folder_names)
+            }
+            if matched_suffixes != spec["folder_suffixes"] or len(folders) != len(
+                spec["folder_suffixes"]
+            ):
                 problems.append(
-                    f"Week 5 files are outside the exact locked folder: {folders}"
+                    f"module files are outside the exact locked folders: {folders}"
                 )
 
             for entry in assignments:
@@ -349,45 +410,46 @@ async def main():
                 if entry.get("annotatable_attachment_id") is None:
                     problems.append(f"assignment has no annotatable packet: {title}")
 
-            quizzes = await paged(client, f"/courses/{COURSE_ID}/quizzes")
-            quiz_matches = [
-                quiz for quiz in quizzes if quiz.get("title") == spec["quiz_title"]
-            ]
-            if len(quiz_matches) != 1:
-                problems.append(
-                    f"expected one {spec['quiz_title']!r}; found {len(quiz_matches)}"
-                )
-            else:
-                quiz = await api(
-                    client, f"/courses/{COURSE_ID}/quizzes/{quiz_matches[0]['id']}"
-                )
-                questions = await paged(
-                    client,
-                    f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions",
-                )
-                names = [question.get("question_name") for question in questions]
-                if quiz.get("published"):
-                    problems.append(f"linked practice Quiz is published: {quiz.get('id')}")
-                if quiz.get("quiz_type") != "practice_quiz":
-                    problems.append("linked Quiz is not a practice Quiz")
-                if quiz.get("allowed_attempts") != -1:
-                    problems.append("linked practice Quiz is not unlimited-attempt")
-                if quiz.get("show_correct_answers") is not True:
-                    problems.append("linked practice Quiz hides correct answers")
-                if quiz.get("shuffle_answers") is not False:
-                    problems.append("linked practice Quiz shuffles the fixed answer order")
-                if names != spec["question_names"]:
-                    problems.append(f"linked practice Quiz order mismatch: {names}")
-                external_quiz = {
-                    "id": quiz.get("id"),
-                    "title": quiz.get("title"),
-                    "published": quiz.get("published"),
-                    "quiz_type": quiz.get("quiz_type"),
-                    "allowed_attempts": quiz.get("allowed_attempts"),
-                    "show_correct_answers": quiz.get("show_correct_answers"),
-                    "shuffle_answers": quiz.get("shuffle_answers"),
-                    "question_names": names,
-                }
+            if spec.get("quiz_title"):
+                quizzes = await paged(client, f"/courses/{COURSE_ID}/quizzes")
+                quiz_matches = [
+                    quiz for quiz in quizzes if quiz.get("title") == spec["quiz_title"]
+                ]
+                if len(quiz_matches) != 1:
+                    problems.append(
+                        f"expected one {spec['quiz_title']!r}; found {len(quiz_matches)}"
+                    )
+                else:
+                    quiz = await api(
+                        client, f"/courses/{COURSE_ID}/quizzes/{quiz_matches[0]['id']}"
+                    )
+                    questions = await paged(
+                        client,
+                        f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions",
+                    )
+                    names = [question.get("question_name") for question in questions]
+                    if quiz.get("published"):
+                        problems.append(f"linked practice Quiz is published: {quiz.get('id')}")
+                    if quiz.get("quiz_type") != "practice_quiz":
+                        problems.append("linked Quiz is not a practice Quiz")
+                    if quiz.get("allowed_attempts") != -1:
+                        problems.append("linked practice Quiz is not unlimited-attempt")
+                    if quiz.get("show_correct_answers") is not True:
+                        problems.append("linked practice Quiz hides correct answers")
+                    if quiz.get("shuffle_answers") is not False:
+                        problems.append("linked practice Quiz shuffles the fixed answer order")
+                    if names != spec["question_names"]:
+                        problems.append(f"linked practice Quiz order mismatch: {names}")
+                    external_quiz = {
+                        "id": quiz.get("id"),
+                        "title": quiz.get("title"),
+                        "published": quiz.get("published"),
+                        "quiz_type": quiz.get("quiz_type"),
+                        "allowed_attempts": quiz.get("allowed_attempts"),
+                        "show_correct_answers": quiz.get("show_correct_answers"),
+                        "shuffle_answers": quiz.get("shuffle_answers"),
+                        "question_names": names,
+                    }
         result = {
             "module": {
                 "id": module_id,
