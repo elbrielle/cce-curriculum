@@ -457,7 +457,7 @@ async def run(token: str, assignment_title: str | None = None) -> dict:
         return {"rubrics": results}
 
 
-def preflight() -> int:
+def preflight(*, announce: bool = True) -> int:
     errors: list[str] = []
     mapped = {assessment.title for assessment in ASSESSMENTS}
     configured = {spec.assignment_title for spec in RUBRICS}
@@ -492,7 +492,8 @@ def preflight() -> int:
         for error in errors:
             print(f"- {error}", file=sys.stderr)
         return 2
-    print("Preflight passed: 30 mapped advisory rubrics parse with 0-point ratings and expected totals.")
+    if announce:
+        print("Preflight passed: 30 mapped advisory rubrics parse with 0-point ratings and expected totals.")
     return 0
 
 
@@ -508,7 +509,8 @@ def main() -> int:
         if args.assignment_title:
             parser.error("--preflight cannot be combined with --assignment-title")
         return preflight()
-    check = preflight()
+    # Keep live stdout machine-readable: the orchestrator expects one JSON object.
+    check = preflight(announce=False)
     if check:
         return check
     global httpx
