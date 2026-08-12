@@ -12,7 +12,7 @@
 
 ## Before Class
 
-Post the three-page packet with its fictional middle-school model and the private upload/annotation Assignment. Optional Xello copying must not replace the Canvas/paper route.
+Per student, provide the three-page packet, a pencil, and one private Canvas or paper route. Students work independently; they may rehearse one redacted bullet with a partner but do not exchange devices, files, or full resumes. Project the model *Designed two original event flyers and revised the hierarchy after teacher feedback.* Contrast it with *Good at Canva.* Optional Xello copying must not replace the Canvas/paper route.
 
 ## 50-Minute Flow
 
@@ -24,7 +24,7 @@ Post the three-page packet with its fictional middle-school model and the privat
 
 ## Monitor and Key
 
-Do not reward invented titles, dates, awards, hours, results, or tools. “No paid experience” is not a deficit when projects and responsibilities provide evidence. CareerOneStop recommends standard headings and relevant true evidence; graphic decoration cannot rescue weak content.
+At minute 14, students should be able to point to action, task, and evidence/purpose in the model. If one-third list traits or tools only, contrast the model and nonexample. At minute 31, look for three truthful evidence bullets and standard headings. At minute 44, the one-page draft should be readable and contain no sensitive data. Do not reward invented titles, dates, awards, hours, results, or tools. “No paid experience” is not a deficit when projects and responsibilities provide evidence. CareerOneStop recommends standard headings and relevant true evidence; graphic decoration cannot rescue weak content. Safe trim: assemble two strongest bullets plus one supported skill, then finish formatting in catch-up. Collect one resume route.
 
 ## Privacy and Absence Route
 

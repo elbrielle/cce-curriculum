@@ -10,10 +10,10 @@ I can identify careers in Education and Training, compare verified preparation r
 
 | Day | Focus | Required evidence | Canvas interaction |
 |---|---|---|---|
-| 1 | Education cluster + Community Classroom | learning-space plan and booking card | private annotation Assignment |
+| 1 | Education cluster + Community Classroom | FYF team concept + individual career/design reasoning | private annotation Assignment |
 | 2 | Texas teacher and educational-aide routes | source-bounded route comparison | private annotation Assignment |
 | 3 | Reading education job evidence | two-posting comparison and evidence limit | unlimited-retry practice Quiz |
-| 4 | Teach Through Play + service | tested activity plan, revisions, service analysis | private annotation Assignment |
+| 4 | Teach Through Play + service | FYF activity + individual test/revision/service evidence | private annotation Assignment |
 | 5 | Current Irving pathways + synthesis | three-page evidence portfolio and self-score | private Minor 1 Assignment |
 
 ## TEKS Alignment
@@ -37,7 +37,7 @@ I can identify careers in Education and Training, compare verified preparation r
 
 - Canvas Teacher and Student Guides
 - *Find Your Future* licensed pages 213-219 embedded in authenticated Canvas; p. 220 remains an optional H&L extension
-- five compact companions plus one student-visible rubric, fifteen pages total if every paper route is used
+- five compact companions plus one student-visible rubric, thirteen pages total if every paper route is used
 - Chromebooks or printed packets; pencils; optional markers
 - teacher-approved scissors and paper only for the Day 4 physical test; a tabletop or written simulation is equal
 

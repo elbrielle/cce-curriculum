@@ -12,7 +12,7 @@
 
 ## Before Class
 
-Have students open FYF pp. 272-273. Post the one-page résumé revision record and unlimited-retry Quiz. Peer review is optional and only through a student-controlled redacted copy.
+Per student, provide FYF pp. 272-273, a pencil, the Day 2 resume, and one revision record. Project this cue model: *Fast rubber-soled footsteps cross a tile floor, then stop at the metal bowl.* Resume model: *Before: Creative. After: Designed two flyer layouts and revised the larger heading after feedback.* Post the unlimited-retry Quiz. Peer review is optional and only through a student-controlled redacted copy.
 
 ## 50-Minute Flow
 
@@ -24,7 +24,7 @@ Have students open FYF pp. 272-273. Post the one-page résumé revision record a
 
 ## Monitor and Key
 
-Multiple cue rewrites are correct when they are safe, specific, and internally consistent. Do not ask students to create unsafe sound effects. Resume revision must be visible; “fixed it” without before/after evidence is incomplete.
+At minute 14, each cue should name an action plus at least two useful conditions. If one-third only add adjectives, label material, surface, and timing in the model. At minute 31, the resume record should preserve the vague before and specific after. At minute 44, students should explain why the change helps and name one consistency repair. Multiple cue rewrites are correct when they are safe, specific, and internally consistent. Do not ask students to create unsafe sound effects. Resume revision must be visible; “fixed it” without before/after evidence is incomplete. Safe trim: complete one cue together and leave the Quiz for catch-up; protect the before/after resume evidence. Collect the revision record and return resumes.
 
 ## Absence and Access
 

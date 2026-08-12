@@ -12,20 +12,20 @@
 
 ## Before Class
 
-Have students open FYF pp. 256-258. Post the two-page design companion, targeted Minor 2 rubric, and private Assignment. Canva, Adobe Express, and paper are equal. Keep the Assignment unpublished for teacher transfer.
+Per student, provide FYF pp. 256-258, pencil/markers, the two-page design companion, final resume, revision record, job-search trace, and Minor 2 rubric. Start with a readiness gate: students place the resume, revision record, job-search trace, and rubric in order before Merch Mode. Students missing evidence use the fixed models inside those packets; they do not reconstruct Days 2-4 or finish Merch Mode first. Project this design model: *The message is calm electronic music. The title is largest; one original wave symbol repeats; the viewer noticed the title first. Revision: increase contrast between the title and background.* Canva, Adobe Express, and paper are equal.
 
 ## 50-Minute Flow
 
-1. **Fictional brand and originality — 5 min.** No real band logo, album art, character, or trademark.
-2. **Read and plan in FYF — 10 min.** Use the 3-Second Rule, hierarchy, font choice, memorable symbol, and fit-the-vibe coherence.
-3. **Sketch and select — 12 min.** Use the FYF sketch area; options must differ meaningfully.
-4. **Test and revise — 12 min.** Build digitally or on paper, record what a viewer noticed, and revise one choice.
-5. **Career/resume connection — 6 min.** One designer duty, current national BLS evidence/limit, and an action-task-result résumé bullet.
-6. **Submit/self-score — 5 min.** Submit the final résumé, before/after revision evidence, seven-step search/tracker, and tailored bullet. Merch Mode remains formative and does not add another graded artifact.
+1. **Readiness gate — 8 min.** Put all Minor evidence in order; route missing evidence to the fixed packet models.
+2. **Merch principle and sketch — 8 min.** Use one audience, message, hierarchy choice, and original symbol.
+3. **Three-second test — 8 min.** Record what was noticed and make one visible revision.
+4. **Career/resume connection — 6 min.** One designer duty, current national BLS evidence/limit, and an action-task-result résumé bullet.
+5. **Minor review and self-score — 13 min.** Check all four criteria and make one visible evidence repair.
+6. **Package and submit — 7 min.** Upload one combined PDF/document, type responses under the exact rubric labels, or turn in one labeled paper set. Do not submit Merch Mode as a second graded artifact.
 
 ## Monitor and Key
 
-Graphic Designers create visual concepts to communicate ideas. Current BLS evidence: $61,300 May 2024 U.S. median, bachelor's degree as typical entry education, 2% projected 2024-34 growth, and about 20,000 annual openings. These are not DFW starting pay or a guarantee. Give Merch Mode formative feedback on audience, originality, testing, and revision. Score Minor 2 only on the truthful résumé, visible revision, safe seven-step search, tailored evidence, and next action.
+At minute 8, every student should have all Minor evidence in order or be using a fixed recovery model. If one-third are missing work, pause Merch Mode and run the rubric recovery route. At minute 22, ready students should have one original testable design concept and one viewer/self-test note. At minute 37, each Minor route should contain the resume, revision, seven-step trace, tailored bullet, and next action. At minute 46, the rubric should include a self-score and visible evidence repair. Graphic Designers create visual concepts to communicate ideas. Current BLS evidence: $61,300 May 2024 U.S. median, bachelor's degree as typical entry education, 2% projected 2024-34 growth, and about 20,000 annual openings. These are not DFW starting pay or a guarantee. Give Merch Mode formative feedback on audience, originality, testing, and revision. Score Minor 2 only on the truthful résumé, visible revision, safe seven-step search, tailored evidence, and next action. Safe trim: defer Merch Mode build and polish; never trim Minor assembly, self-score, privacy check, or submission.
 
 ## Platform and Local Boundary
 

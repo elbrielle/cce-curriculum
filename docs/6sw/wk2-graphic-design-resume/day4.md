@@ -12,7 +12,7 @@
 
 ## Before Class
 
-Post the three-page packet containing the complete fictional opportunity. Students do not apply, create accounts, contact employers, upload a résumé to an external site, or enter personal information.
+Per student, provide the three-page packet, a pencil, and the student's private resume or the printed Jordan model. Pairs may screen the supplied posting, then each student completes a tracker and tailors one true bullet. Project this model: *Target: classroom design helper. Source: supplied CCE card. Screen: fictional, no contact route. Status: practice only. Next action: compare one true flyer bullet to the responsibilities.* Students do not apply, create accounts, contact employers, upload a résumé to an external site, or enter personal information.
 
 ## Seven Steps
 
@@ -35,4 +35,4 @@ Post the three-page packet containing the complete fictional opportunity. Studen
 
 ## Key and Safety Boundary
 
-Strong evidence keeps searching, screening, tracking, tailoring, applying, and following up separate. A message or job-board result is not verification; use the official employer site or a known adult. No real-world action occurs in this lesson.
+At minute 14, students should sequence all seven steps. If one-third apply before screening, replay target, prepare, source/search, screen, track, tailor/authorized apply, and follow-up. At minute 30, the tracker should keep source/date, fictional status, and authorized route visible. At minute 43, the tailored bullet should use true evidence and the next action should name a trusted route. Strong evidence keeps searching, screening, tracking, tailoring, applying, and following up separate. A message or job-board result is not verification; use the official employer site or a known adult. No real-world action occurs in this lesson. Safe trim: supply the search string and screen one field together; protect screening, tracker, tailored bullet, and authorized next action. Collect one trace.

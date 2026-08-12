@@ -43,6 +43,6 @@ Days 1-4 build the evidence. Day 5 is **Minor 2** in the [6SW assessment map](..
 
 ## Current Sources
 
-- [CareerOneStop Resume Guide](https://www.careeronestop.org/JobSearch/Resumes/resume-guide.aspx)
+- [CareerOneStop Resume Guide](https://cloudfront.careeronestop.org/JobSearch/Resumes/ResumeGuide/introduction.aspx?frd=true)
 - [BLS Graphic Designers](https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm)
 - [Irving ISD High School CTE](https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte)

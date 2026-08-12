@@ -34,7 +34,7 @@ This is Minor 2 in the approved sixth-six-weeks assessment map. Merch Mode desig
 - [ ] no personal address, phone, personal email, identifiers, references, or unauthorized contact data;
 - [ ] optional Xello copy is not required evidence.
 
-Submission route: Canvas upload / annotation / typed labeled response / paper / authorized accommodation
+Submission route: one combined Canvas upload / typed response under the exact rubric labels / one labeled paper bundle / authorized accommodation
 
 ## Feedback and Revision
 

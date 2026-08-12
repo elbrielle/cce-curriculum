@@ -2,6 +2,7 @@
 
 import asyncio
 import json
+import re
 import sys
 from urllib.parse import urlencode
 
@@ -16,6 +17,7 @@ COURSE_ID = common.COURSE_ID
 ROOT = common.ROOT
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/6sw/wk2"
 MODULE_NAME = "6SW Wk2: Arts/AV — First Resume and Design Evidence"
+MODULE_ALIASES = ("6SW Wk2: Arts/AV - First Resume and Design Evidence",)
 TITLES = {
     1: "PRACTICE: Podcast Production Evidence",
     2: "PRACTICE: First Resume Draft",
@@ -24,6 +26,72 @@ TITLES = {
     5: "MINOR 2: Resume, Revision, and Job-Search Evidence",
 }
 MINOR_ALIASES = ("MINOR 2: Resume and Merch Design Evidence",)
+TEMPLATES = ROOT / "build/canvas/templates"
+WORKSHEET_NAMES = {
+    "PODCAST": "6sw-wk2-podcast-production-plan.pdf",
+    "RESUME": "6sw-wk2-first-resume-draft.pdf",
+    "DETAIL": "6sw-wk2-audio-cue-and-resume-revision.pdf",
+    "SEARCH": "6sw-wk2-effective-job-search.pdf",
+    "MERCH": "6sw-wk2-merch-mode-design.pdf",
+    "RUBRIC": "6sw-wk2-resume-design-rubric.pdf",
+}
+VISUAL_PAGES = (255, 256, 257, 258, 270, 271, 272, 273)
+RUBRIC_MARKER = 'data-cce-rubric-note="cce-advisory-rubric-v1"'
+
+
+def preflight():
+    required = [
+        TEMPLATES / "6sw-wk2-student.html",
+        TEMPLATES / "6sw-wk2-teacher.html",
+        *(ROOT / "docs/resources/worksheets" / name for name in WORKSHEET_NAMES.values()),
+        *(ASSETS / f"fyf-p{page}.jpg" for page in VISUAL_PAGES),
+    ]
+    missing = [str(path.relative_to(ROOT)) for path in required if not path.is_file()]
+    if missing:
+        raise FileNotFoundError(f"6SW Wk2 preflight missing required files: {missing}")
+
+
+async def canvas_preflight(client):
+    modules = await common.paged(client, f"/courses/{COURSE_ID}/modules")
+    accepted_modules = {MODULE_NAME, *MODULE_ALIASES}
+    module_matches = [entry for entry in modules if entry.get("name") in accepted_modules]
+    if len(module_matches) > 1:
+        raise RuntimeError(f"Duplicate 6SW Wk2 modules: {[entry['id'] for entry in module_matches]}")
+    assignments = await common.paged(client, f"/courses/{COURSE_ID}/assignments")
+    for day in (1, 2, 4):
+        matches = [entry for entry in assignments if entry.get("name") == TITLES[day]]
+        if len(matches) > 1:
+            raise RuntimeError(f"Duplicate assignments named {TITLES[day]!r}: {[entry['id'] for entry in matches]}")
+    minor_matches = [entry for entry in assignments if entry.get("name") in {TITLES[5], *MINOR_ALIASES}]
+    if len(minor_matches) != 1:
+        raise RuntimeError(f"Expected exactly one mapped Resume Minor; found {[entry['id'] for entry in minor_matches]}")
+    minor = minor_matches[0]
+    groups = await common.paged(client, f"/courses/{COURSE_ID}/assignment_groups")
+    minor_groups = [entry for entry in groups if entry.get("name") == "Minor Assessments (40%)"]
+    if len(minor_groups) != 1:
+        raise RuntimeError(f"Expected exactly one Minor Assessments (40%) group; found {[entry['id'] for entry in minor_groups]}")
+    description = minor.get("description") or ""
+    if (
+        minor.get("assignment_group_id") != minor_groups[0].get("id")
+        or minor.get("published") is not False
+        or float(minor.get("points_possible") or 0) != 100
+        or minor.get("grading_type") != "points"
+        or minor.get("omit_from_final_grade") is not False
+        or RUBRIC_MARKER not in description
+    ):
+        raise RuntimeError("Mapped Resume Minor failed prewrite group/grade/rubric/unpublished checks")
+    quizzes = await common.paged(client, f"/courses/{COURSE_ID}/quizzes")
+    quiz_matches = [entry for entry in quizzes if entry.get("title") == TITLES[3]]
+    if len(quiz_matches) > 1:
+        raise RuntimeError(f"Duplicate quizzes named {TITLES[3]!r}: {[entry['id'] for entry in quiz_matches]}")
+    marker_pattern = re.compile(
+        r'<div\b[^>]*data-cce-rubric-note=["\']cce-advisory-rubric-v1["\'][^>]*>.*?</div>',
+        re.IGNORECASE | re.DOTALL,
+    )
+    marker_match = marker_pattern.search(description)
+    if not marker_match:
+        raise RuntimeError("Mapped Resume Minor is missing the exact rubric conversion-note block")
+    return minor, minor_groups[0], marker_match.group(0)
 
 CONTRACTS = {
     1: {
@@ -71,7 +139,7 @@ CONTRACTS = {
 
 async def ensure_module(client):
     modules = await common.paged(client, f"/courses/{COURSE_ID}/modules")
-    matches = [module for module in modules if module.get("name") == MODULE_NAME]
+    matches = [module for module in modules if module.get("name") in {MODULE_NAME, *MODULE_ALIASES}]
     if len(matches) > 1:
         raise RuntimeError(f"Expected at most one {MODULE_NAME!r} module; found {len(matches)}")
     data = {"module[published]": "false", "module[name]": MODULE_NAME}
@@ -87,8 +155,14 @@ async def mapped_minor_assignment(client):
     if len(matches) != 1:
         raise RuntimeError(f"Expected one existing mapped Resume Minor named in {sorted(accepted)!r}; found {len(matches)}")
     found = matches[0]
-    if float(found.get("points_possible") or 0) != 100:
-        raise RuntimeError(f"Refusing to modify Resume Minor: expected 100 points, found {found.get('points_possible')}")
+    if (
+        found.get("published") is not False
+        or float(found.get("points_possible") or 0) != 100
+        or found.get("grading_type") != "points"
+        or found.get("omit_from_final_grade") is not False
+        or RUBRIC_MARKER not in (found.get("description") or "")
+    ):
+        raise RuntimeError("Refusing to modify Resume Minor: prewrite grade/rubric/unpublished invariant failed")
     groups = await common.paged(client, f"/courses/{COURSE_ID}/assignment_groups")
     group = next((entry for entry in groups if entry.get("id") == found.get("assignment_group_id")), None)
     if not group or group.get("name") != "Minor Assessments (40%)":
@@ -96,27 +170,88 @@ async def mapped_minor_assignment(client):
     return found
 
 
-async def require_minor_assignment(client, description):
-    found = await mapped_minor_assignment(client)
-    scoring_note = (
-        '<div data-cce-rubric-note="cce-advisory-rubric-v1" '
-        'style="border-left:4px solid #0b5f8a;padding:10px 14px;margin:16px 0">'
-        '<p><strong>How this is scored:</strong> Use the student-visible Canvas rubric. '
-        'Add the raw criterion ratings out of 16, divide by 16, multiply by 100, and round '
-        'to the nearest whole point. Enter that percentage as the score out of 100. A score '
-        'below 60 follows campus recovery or reassessment policy.</p>'
-        '<p>The rubric is advisory in Canvas so its raw total cannot silently replace the '
-        '100-point district grade.</p></div>'
-    )
-    return await common.api(client, "PUT", f"/courses/{COURSE_ID}/assignments/{found['id']}", data={
+async def require_minor_assignment(client, found, group, description, scoring_note):
+    assignment = await common.api(client, "PUT", f"/courses/{COURSE_ID}/assignments/{found['id']}", data={
         "assignment[name]": TITLES[5],
         "assignment[description]": description + scoring_note,
         "assignment[published]": "false",
         "assignment[points_possible]": "100",
         "assignment[grading_type]": "points",
         "assignment[omit_from_final_grade]": "false",
+        "assignment[assignment_group_id]": str(group["id"]),
         "assignment[submission_types][]": ["online_upload", "online_text_entry"],
     })
+    assignment = await common.api(client, "GET", f"/courses/{COURSE_ID}/assignments/{assignment['id']}")
+    if (
+        assignment.get("published") is not False
+        or assignment.get("assignment_group_id") != group.get("id")
+        or float(assignment.get("points_possible") or 0) != 100
+        or assignment.get("grading_type") != "points"
+        or assignment.get("omit_from_final_grade") is not False
+        or RUBRIC_MARKER not in (assignment.get("description") or "")
+    ):
+        raise RuntimeError("Resume Minor failed post-update grade/rubric/unpublished checks")
+    return assignment
+
+
+async def upload_locked(client, path, folder_path):
+    uploaded = await common.upload(client, path, folder_path)
+    record = await common.api(client, "GET", f"/files/{uploaded['id']}")
+    if not record.get("locked"):
+        record = await common.api(client, "PUT", f"/files/{uploaded['id']}", data={"locked": "true"})
+    if record.get("locked") is not True:
+        raise RuntimeError(f"Canvas did not lock {path.name!r}")
+    return record
+
+
+async def lock_folder_files(client, folder):
+    current = await common.api(client, "GET", f"/folders/{folder['id']}")
+    if not current.get("locked"):
+        current = await common.api(client, "PUT", f"/folders/{folder['id']}", data={"locked": "true"})
+    if current.get("locked") is not True:
+        raise RuntimeError(f"Canvas did not lock folder {folder['id']}")
+    for record in await common.paged(client, f"/folders/{folder['id']}/files"):
+        if not record.get("locked"):
+            await common.api(client, "PUT", f"/files/{record['id']}", data={"locked": "true"})
+    final = await common.paged(client, f"/folders/{folder['id']}/files")
+    if any(record.get("locked") is not True for record in final):
+        raise RuntimeError(f"Unlocked files remain in folder {folder['id']}")
+    return current, len(final)
+
+
+async def assert_annotation_assignment(client, title, assignment, source_id):
+    fresh = await common.api(client, "GET", f"/courses/{COURSE_ID}/assignments/{assignment['id']}")
+    source = await common.api(client, "GET", f"/files/{source_id}")
+    clone_id = int(fresh.get("annotatable_attachment_id") or 0)
+    clone = await common.api(client, "GET", f"/files/{clone_id}") if clone_id else {}
+    if clone and not clone.get("locked"):
+        clone = await common.api(client, "PUT", f"/files/{clone_id}", data={"locked": "true"})
+    required_routes = {"student_annotation", "online_upload", "online_text_entry"}
+    if (
+        fresh.get("published") is not False
+        or float(fresh.get("points_possible") or 0) != 0
+        or fresh.get("grading_type") != "percent"
+        or fresh.get("omit_from_final_grade") is not True
+        or set(fresh.get("submission_types") or []) != required_routes
+        or not clone_id
+        or source.get("locked") is not True
+        or clone.get("locked") is not True
+        or clone.get("filename") != source.get("filename")
+        or int(clone.get("size") or -1) != int(source.get("size") or -2)
+    ):
+        raise RuntimeError(f"Practice annotation invariant failed for {title!r}")
+    return fresh
+
+
+async def upsert_practice_assignment(client, title, description, attachment_id):
+    assignment = await common.upsert_assignment(
+        client,
+        title,
+        description,
+        ["student_annotation", "online_upload", "online_text_entry"],
+        attachment_id,
+    )
+    return await assert_annotation_assignment(client, title, assignment, attachment_id)
 
 
 QUESTIONS = [
@@ -126,6 +261,8 @@ QUESTIONS = [
     ("Q4 - search step", "What should happen before a student acts on a job-board result?", "Screen the posting and verify the employer through an official route or known adult.", ["Upload personal data immediately.", "Message the contact in the ad.", "Assume the first result is current."], "Correct. Searching and verifying are separate steps.", "A result or message is not independent verification."),
     ("Q5 - platform", "What counts as the required resume evidence?", "The truthful privacy-safe resume in Canvas or on paper; an optional Xello copy is supplemental.", ["Only an Xello completion screen", "Three H&L favorites", "A public Discussion post"], "Correct. The standard is the resume, not a platform click.", "Xello and H&L are not required completion tasks here, and resumes remain private."),
 ]
+if len({question[0] for question in QUESTIONS}) != len(QUESTIONS):
+    raise ValueError("Resume practice Quiz question names must be unique")
 
 
 async def upsert_quiz(client):
@@ -165,7 +302,10 @@ async def upsert_quiz(client):
     final_questions = await common.paged(client, f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions")
     if [entry.get("question_name") for entry in final_questions] != expected:
         raise RuntimeError("Resume practice Quiz order mismatch")
-    return await common.api(client, "GET", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}")
+    final = await common.api(client, "GET", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}")
+    if final.get("published") is not False or final.get("quiz_type") != "practice_quiz" or int(final.get("allowed_attempts") or 0) != -1:
+        raise RuntimeError("Resume practice Quiz state mismatch")
+    return final
 
 
 def student_content(files, visuals, urls):
@@ -176,9 +316,10 @@ def student_content(files, visuals, urls):
         'style="border:2px solid #1f617a;border-radius:12px;padding:18px 20px;'
         'margin:24px 0;background:#f2f8fb">'
         '<h3 style="margin:0 0 8px;color:#1f617a">Submit your minor evidence</h3>'
-        '<p style="margin:0 0 14px">Use the visible rubric to check your work, then submit '
-        'through this private Canvas assignment. Your teacher will tell you whether to type, '
-        'upload a file, or turn in the paper route.</p>'
+        '<p style="margin:0 0 14px">Use the visible rubric to check your work. Upload one '
+        'combined PDF/document containing the final resume, visible revision record, and seven-step '
+        'job-search evidence; or turn in one labeled paper set. Typed responses use the rubric labels '
+        'in the same order. Do not upload Merch Mode.</p>'
         f'<p style="margin:0"><a href="{urls[5]}" '
         'style="display:inline-block;background:#1f617a;color:#fff;padding:11px 18px;'
         'border-radius:6px;text-decoration:none;font-weight:700" '
@@ -201,11 +342,11 @@ def teacher_content(files):
     support = '<p>Point to the visible word bank and complete frame before students write. Accept typing, dictation, annotation, enlarged print, bilingual labels, paper, private rehearsal, and teacher scribing. Score evidence and reasoning, not English mechanics unless meaning is unclear.</p>'
     fallback = '<p>Locked FYF images and fixed companions are the complete absence/platform route. No public recording, public Discussion, real application, employer contact, personal-data entry, device exchange, H&amp;L, Xello, or eDynamic completion is required.</p>'
     return {
-        1: {"TITLE": "Behind the Microphone", "SUBTITLE": "50 minutes · FYF pp. 255 and 270-271 first", "ALERT": "<strong>Trim point:</strong> protect audience, structure, two career roles, access/rights, and revision; trim decorative promotion work first.", "PREP": f'<ul><li>Have students open FYF pp. 255 and 270-271.</li><li>Post {link(files["PODCAST"]["id"], "the two-page individual companion")} and private annotation route.</li><li>Choose workbook or locked images for the episode plan; do not require both.</li></ul>', "EVIDENCE": "<p>Collect the FYF plan plus two roles/contributions, access and rights checks, individual contribution, revision, and evidence limit.</p>", "FLOW": flow(color, "Cluster opener · 7", "Name how Arts/AV workers communicate through sound, image, text, movement, and interaction.") + flow("#4c8b38", "Read the brief · 8", "Set audience, privacy, copyright, and accessibility boundaries.") + flow("#1f617a", "Complete the FYF plan · 22", "Monitor purpose, structure, questions/key points, and closing.") + flow("#d39b22", "Individual production evidence · 8", "Use partner, teacher, or self-review; record roles and revision.") + flow(color, "Exit · 5", "Career, work product, and audience-centered decision."), "MONITOR": "<p>Require two distinct production roles and a concrete work product. Audio may be original, licensed, teacher supplied, or omitted. Planning does not prove popularity or income. A public recording is never required.</p>", "RESOURCES": sources, "SUPPORT": support, "FALLBACK": fallback},
-        2: {"TITLE": "Write a First Resume", "SUBTITLE": "50 minutes · private one-page evidence", "ALERT": "<strong>Privacy boundary:</strong> minimize personal data and never reward invented titles, dates, awards, hours, results, tools, or experience.", "PREP": f'<ul><li>Post {link(files["RESUME"]["id"], "the three-page model, planner, and one-page draft")}.</li><li>Open the private upload/annotation Assignment.</li><li>Optional Xello copying must not replace Canvas or paper.</li></ul>', "EVIDENCE": "<p>Collect a one-page resume with a safe header, standard headings, specific true evidence, consistent details, and no sensitive information.</p>", "FLOW": flow(color, "Purpose and privacy · 7", "A resume matches true evidence to a target; it is not a personal-data form.") + flow("#4c8b38", "Study the model · 10", "Notice standard headings, action verbs, specific evidence, and simple formatting.") + flow("#1f617a", "Plan and assemble · 23", "Use school, projects, activities, service, responsibilities, or the labeled scenario.") + flow("#d39b22", "Assembly check · 7", "Check readability, truthfulness, consistency, relevance, and privacy.") + flow(color, "Exit · 3", "Strongest bullet and its evidence."), "MONITOR": "<p>CareerOneStop recommends standard headings and relevant true evidence. The class version uses a simple one-page structure. Paid work is not required. Remove sensitive data before any feedback; peers never exchange devices or logins.</p>", "RESOURCES": sources, "SUPPORT": support, "FALLBACK": fallback},
-        3: {"TITLE": "Attention to Detail and Resume Revision", "SUBTITLE": "50 minutes · FYF pp. 272-273 first", "ALERT": "<strong>Evidence boundary:</strong> a revision is visible before-and-after evidence, not a claim that the student fixed it.", "PREP": f'<ul><li>Have students open FYF pp. 272-273.</li><li>Post {link(files["DETAIL"]["id"], "the one-page resume revision record")} and practice Quiz.</li><li>Peer review is optional and uses only a student-controlled redacted copy.</li></ul>', "EVIDENCE": "<p>Collect the FYF cue work and one-page career/resume revision record; use the Quiz for immediate feedback only.</p>", "FLOW": flow(color, "Detail model · 7", "Another worker should be able to act without guessing.") + flow("#4c8b38", "FYF cue work · 15", "Add action, material/object, surface/environment, timing/intensity, and mood where relevant.") + flow("#1f617a", "Resume audit · 13", "Replace one vague claim and identify one consistency issue.") + flow("#d39b22", "Record before and after · 10", "Require visible evidence and why it helps the reader.") + flow(color, "Quiz and exit · 5", "Use feedback; name the strongest repair."), "MONITOR": "<p>Many cue rewrites can be correct when safe, specific, and internally consistent. Do not require unsafe sound effects. Quiz attempts are ungraded and unlimited; do not add a second written check that repeats the same question.</p>", "RESOURCES": sources, "SUPPORT": support, "FALLBACK": fallback},
-        4: {"TITLE": "Seven Steps of an Effective Job Search", "SUBTITLE": "50 minutes · supplied fictional posting", "ALERT": "<strong>Safety boundary:</strong> students do not apply, create accounts, contact anyone, upload to an external site, or enter personal information.", "PREP": f'<ul><li>Post {link(files["SEARCH"]["id"], "the three-page seven-step trace")} and private annotation route.</li><li>The complete fictional posting is printed on page 2.</li><li>No live job board or open search is required.</li></ul>', "EVIDENCE": "<p>Collect all seven steps, screening evidence, tracker, tailored true bullet, and authorized next action.</p>", "FLOW": flow(color, "Warm-up · 5", "Why is search jobs not a complete plan?") + flow("#4c8b38", "Model the seven steps · 10", "Walk one target from preparation through authorized follow-up.") + flow("#1f617a", "Build Steps 1-4 · 12", "Target, materials, credible sources, and search string.") + flow("#d39b22", "Screen and track · 13", "Use only the supplied fictional posting.") + flow("#1f617a", "Tailor and follow up · 7", "Revise one true bullet and name an authorized next action.") + flow(color, "Exit · 3", "Most dangerous skipped step and risk."), "MONITOR": "<p>Searching, screening, tracking, tailoring, applying, and following up are separate. A job-board result is not independent verification. The practice posting has no real application route.</p>", "RESOURCES": sources, "SUPPORT": support, "FALLBACK": fallback},
-        5: {"TITLE": "Merch Mode and Final Resume Evidence", "SUBTITLE": "50 minutes · FYF pp. 256-258 + Minor 2", "ALERT": "<strong>Minor 2:</strong> score only the resume, visible revision, safe seven-step search, tailored evidence, and next action. Merch Mode is formative.", "PREP": f'<ul><li>Have students open FYF pp. 256-258 and post {link(files["MERCH"]["id"], "the two-page audience-test companion")}.</li><li>Post {link(files["RUBRIC"]["id"], "the two-page Minor 2 rubric")} and private Minor 2 Assignment.</li><li>Keep every Canvas object unpublished for teacher transfer.</li></ul>', "EVIDENCE": "<p>Formative: original design, audience test, revision, and graphic-design connection. Minor 2: final resume, visible revision, seven-step trace, tailored bullet, next action, and self-score.</p>", "FLOW": flow(color, "Original identity · 5", "No real band mark, album art, character, or trademark.") + flow("#4c8b38", "FYF principles and plan · 10", "Set audience, hierarchy, font/contrast, original symbol, and coherent vibe.") + flow("#1f617a", "Sketch and select · 12", "Use FYF; options must differ meaningfully.") + flow("#d39b22", "Test and revise · 12", "Canva, Adobe Express, paper, partner, teacher, and self-test routes are equal.") + flow("#1f617a", "Career and resume link · 6", "Graphic-design duty, evidence limit, and truthful bullet.") + flow(color, "Submit and self-score · 5", "Use the visible rubric; Merch Mode is not another graded artifact."), "MONITOR": "<p>Current BLS: Graphic Designers create visual concepts; $61,300 May 2024 U.S. median; bachelor's typical; 2% projected 2024-34; about 20,000 annual openings. These are not DFW starting pay or a guarantee. Current Irving lists Digital Communication and Graphic Design at Irving High, MacArthur, and Nimitz without guaranteeing admission, schedule, credential, placement, equipment, or employment.</p>", "RESOURCES": sources, "SUPPORT": support, "FALLBACK": fallback},
+        1: {"TITLE": "Behind the Microphone", "SUBTITLE": "50 minutes · FYF pp. 255 and 270-271 first", "ALERT": "<strong>Trim point:</strong> protect audience, structure, two career roles, access/rights, and revision; trim decorative promotion work first.", "PREP": f'<ul><li><strong>Per student:</strong> FYF pp. 255 and 270-271, pencil, and one two-page {link(files["PODCAST"]["id"], "individual companion")} by Canvas annotation or print. Use the locked images only for a missing workbook.</li><li><strong>Grouping:</strong> teams of three or four may build the FYF episode plan; every student completes and submits an individual companion.</li><li>Project this supplied model: <em>The producer contributes the episode order and deadline plan; the editor/access lead contributes the transcript and final sequence so the audience can follow the episode.</em></li><li>Use one labeled paper tray or the private Canvas collector. No recording equipment is required.</li></ul>', "EVIDENCE": "<p>Check the shared FYF plan in place; collect one individual companion per student with two roles/contributions, access and rights checks, individual contribution, revision, and evidence limit.</p>", "FLOW": flow(color, "Cluster opener · 7", "Name how Arts/AV workers communicate through sound, image, text, movement, and interaction.") + flow("#4c8b38", "Read the brief · 8", "Set audience, privacy, copyright, and accessibility boundaries.") + flow("#1f617a", "Complete the FYF plan · 22", "Monitor purpose, structure, questions/key points, and closing.") + flow("#d39b22", "Individual production evidence · 8", "Use partner, teacher, or self-review; record roles and revision.") + flow(color, "Exit · 5", "Career, work product, and audience-centered decision."), "MONITOR": "<p><strong>Minute 15:</strong> every team has an audience, purpose, and episode topic. If one-third start with promotion, redirect them to audience and purpose. <strong>Minute 30:</strong> the plan has an opening, middle, questions/key points, and closing. <strong>Minute 43:</strong> each companion names two distinct roles and one access/rights decision. Audio may be original, licensed, teacher supplied, or omitted. Safe trim: remove decorative promotion work, not audience, structure, roles, access/rights, or revision. Collect companions; return shared workbooks and close devices.</p>", "RESOURCES": sources, "SUPPORT": support, "FALLBACK": fallback},
+        2: {"TITLE": "Write a First Resume", "SUBTITLE": "50 minutes · private one-page evidence", "ALERT": "<strong>Privacy boundary:</strong> minimize personal data and never reward invented titles, dates, awards, hours, results, tools, or experience.", "PREP": f'<ul><li><strong>Per student:</strong> one three-page {link(files["RESUME"]["id"], "model, planner, and one-page draft")}, pencil, and a private Canvas or paper route.</li><li><strong>Grouping:</strong> independent evidence selection; a student may rehearse one redacted bullet with a partner, but students do not exchange devices, files, or full resumes.</li><li>Project this model: <em>Designed two original event flyers and revised the hierarchy after teacher feedback.</em> Nonexample: <em>Good at Canva.</em></li><li>Optional Xello copying must not replace Canvas or paper. Use one labeled paper tray or private collector.</li></ul>', "EVIDENCE": "<p>Collect a one-page resume with a safe header, standard headings, specific true evidence, consistent details, and no sensitive information.</p>", "FLOW": flow(color, "Purpose and privacy · 7", "A resume matches true evidence to a target; it is not a personal-data form.") + flow("#4c8b38", "Study the model · 10", "Notice standard headings, action verbs, specific evidence, and simple formatting.") + flow("#1f617a", "Plan and assemble · 23", "Use school, projects, activities, service, responsibilities, or the labeled scenario.") + flow("#d39b22", "Assembly check · 7", "Check readability, truthfulness, consistency, relevance, and privacy.") + flow(color, "Exit · 3", "Strongest bullet and its evidence."), "MONITOR": "<p><strong>Minute 14:</strong> students can point to the action, task, and evidence/purpose in the model. If one-third list traits or tools only, contrast the model and nonexample. <strong>Minute 31:</strong> each student has three truthful evidence bullets and standard headings. <strong>Minute 44:</strong> the one-page draft is readable and contains no sensitive data. Safe trim: assemble two strongest bullets plus one supported skill today; finish formatting privately during catch-up. Protect truthfulness, privacy, headings, and a readable one-page route. Collect one resume route.</p>", "RESOURCES": sources, "SUPPORT": support, "FALLBACK": fallback},
+        3: {"TITLE": "Attention to Detail and Resume Revision", "SUBTITLE": "50 minutes · FYF pp. 272-273 first", "ALERT": "<strong>Evidence boundary:</strong> a revision is visible before-and-after evidence, not a claim that the student fixed it.", "PREP": f'<ul><li><strong>Per student:</strong> FYF pp. 272-273, pencil, the Day 2 resume, and one {link(files["DETAIL"]["id"], "resume revision record")} by print or private file. The locked FYF images replace a missing workbook.</li><li>Project this cue model: <em>Fast rubber-soled footsteps cross a tile floor, then stop at the metal bowl.</em> Resume model: <em>Before: Creative. After: Designed two flyer layouts and revised the larger heading after feedback.</em></li><li>Peer review is optional and uses only a student-controlled redacted bullet. Keep the five-question Quiz ungraded, unpublished, and unlimited-retry.</li></ul>', "EVIDENCE": "<p>Check the FYF cue work in place; collect the one-page career/resume revision record. The Quiz repairs labels and is not another written DOL.</p>", "FLOW": flow(color, "Detail model · 7", "Another worker should be able to act without guessing.") + flow("#4c8b38", "FYF cue work · 15", "Add action, material/object, surface/environment, timing/intensity, and mood where relevant.") + flow("#1f617a", "Resume audit · 13", "Replace one vague claim and identify one consistency issue.") + flow("#d39b22", "Record before and after · 10", "Require visible evidence and why it helps the reader.") + flow(color, "Quiz and exit · 5", "Use feedback; name the strongest repair."), "MONITOR": "<p><strong>Minute 14:</strong> each cue names an action plus at least two useful conditions. If one-third only add adjectives, reproject the cue model and label material, surface, and timing. <strong>Minute 31:</strong> the resume record preserves the vague before and specific after. <strong>Minute 44:</strong> students explain why the change helps and name one consistency repair. Safe trim: complete one cue together and leave the Quiz for catch-up; never trim the visible before/after resume evidence. Collect the revision record and return resumes.</p>", "RESOURCES": sources, "SUPPORT": support, "FALLBACK": fallback},
+        4: {"TITLE": "Seven Steps of an Effective Job Search", "SUBTITLE": "50 minutes · supplied fictional posting", "ALERT": "<strong>Safety boundary:</strong> students do not apply, create accounts, contact anyone, upload to an external site, or enter personal information.", "PREP": f'<ul><li><strong>Per student:</strong> one three-page {link(files["SEARCH"]["id"], "seven-step trace")}, pencil, and the student\'s private resume or the printed Jordan model.</li><li><strong>Grouping:</strong> independent tracker; pairs may screen the supplied posting, then each student tailors one true bullet.</li><li>Project this model: <em>Target: classroom design helper. Source: supplied CCE card. Screen: fictional, no contact route. Status: practice only. Next action: compare one true flyer bullet to the responsibilities.</em></li><li>No live job board, open search, application, account, employer contact, or external upload is required.</li></ul>', "EVIDENCE": "<p>Collect one seven-step trace per student with screening evidence, tracker, tailored true bullet, and authorized next action.</p>", "FLOW": flow(color, "Warm-up · 5", "Why is search jobs not a complete plan?") + flow("#4c8b38", "Model the seven steps · 10", "Walk one target from preparation through authorized follow-up.") + flow("#1f617a", "Build Steps 1-4 · 12", "Target, materials, credible sources, and search string.") + flow("#d39b22", "Screen and track · 13", "Use only the supplied fictional posting.") + flow("#1f617a", "Tailor and follow up · 7", "Revise one true bullet and name an authorized next action.") + flow(color, "Exit · 3", "Most dangerous skipped step and risk."), "MONITOR": "<p><strong>Minute 14:</strong> students can sequence all seven steps. If one-third apply before screening, replay target → prepare → source/search → screen → track → tailor/authorized apply → follow-up. <strong>Minute 30:</strong> the tracker keeps source/date, fictional status, and authorized route visible. <strong>Minute 43:</strong> the tailored bullet uses true evidence and the next action names a trusted verification route. Safe trim: supply the search string and screen one field together; protect screening, tracker, tailored bullet, and authorized next action. Collect one trace.</p>", "RESOURCES": sources, "SUPPORT": support, "FALLBACK": fallback},
+        5: {"TITLE": "Merch Mode and Final Resume Evidence", "SUBTITLE": "50 minutes · FYF pp. 256-258 + Minor 2", "ALERT": "<strong>Minor 2:</strong> score only the resume, visible revision, safe seven-step search, tailored evidence, and next action. Merch Mode is formative and trims first.", "PREP": f'<ul><li><strong>Per student:</strong> FYF pp. 256-258, pencil/markers, one two-page {link(files["MERCH"]["id"], "audience-test companion")}, the final resume, revision record, job-search trace, and access to the {link(files["RUBRIC"]["id"], "Minor 2 rubric")}.</li><li><strong>Start-of-class readiness gate:</strong> students place the resume, revision record, job-search trace, and rubric in order before beginning Merch Mode. Send missing-evidence students to the fixed recovery facts/models inside those packets; do not make them reconstruct Days 2-4 or complete Merch Mode first.</li><li><strong>Grouping:</strong> design and Minor evidence are individual; use pairs only for the three-second test. Teacher conference or self-test is equal.</li><li>Project this design model: <em>The intended message is calm electronic music. The title is the largest element; one original wave symbol repeats; the viewer first noticed the title. Revision: increase contrast between the title and background.</em></li><li>Default digital collection: one combined PDF/document with the final resume, revision record, seven-step search evidence, and rubric self-score/visible revision. Typed route follows those exact labels. Paper route is one labeled set. Do not submit Merch Mode as a second graded artifact.</li></ul>', "EVIDENCE": "<p>Formative: one original design concept, quick audience test, revision, and graphic-design connection. Minor 2: collect one combined digital file, exact labeled typed response, or one labeled paper set containing the final resume, visible revision, seven-step trace, tailored bullet, next action, rubric self-score, and visible revision.</p>", "FLOW": flow(color, "Readiness gate · 8", "Put all Minor evidence in order; route missing evidence to the fixed packet models.") + flow("#4c8b38", "Merch principle and sketch · 8", "Use one audience, message, hierarchy choice, and original symbol.") + flow("#d39b22", "Three-second test · 8", "Record what was noticed and make one visible revision.") + flow("#1f617a", "Career and resume link · 6", "Graphic-design duty, evidence limit, and truthful bullet.") + flow("#4c8b38", "Minor review and self-score · 13", "Check all four criteria and make one visible evidence repair.") + flow(color, "Package and submit · 7", "Upload one combined file, type exact labels, or turn in one labeled set."), "MONITOR": "<p><strong>Minute 8:</strong> every student has all Minor evidence in order or is using the fixed recovery model for a missing criterion. If one-third are missing work, pause Merch Mode and run the rubric recovery route. <strong>Minute 22:</strong> ready students have one original testable design concept and one viewer/self-test note. <strong>Minute 37:</strong> every Minor route contains the resume, revision, seven-step trace, tailored bullet, and next action. <strong>Minute 46:</strong> the rubric has a self-score and visible evidence repair. Safe trim: defer Merch Mode build/polish and accept one paper sketch plus self-test; never trim Minor assembly, self-score, privacy check, or submission. Current BLS: $61,300 May 2024 U.S. median; bachelor's typical; 2% projected 2024-34; about 20,000 annual openings. These are not DFW starting pay or a guarantee.</p>", "RESOURCES": sources, "SUPPORT": support, "FALLBACK": fallback},
     }
 
 
@@ -220,34 +361,40 @@ async def lock_every_file_in_folder(client, folder):
 
 
 async def main():
+    preflight()
     token = sys.stdin.readline().strip()
     if not token:
         raise SystemExit("Canvas token required on stdin")
     async with httpx.AsyncClient(headers={"Authorization": f"Bearer {token}"}, timeout=120) as client:
         # Validate the weighted object before the first Canvas mutation.
-        await mapped_minor_assignment(client)
+        minor_preflight, minor_group, scoring_note = await canvas_preflight(client)
         module = await ensure_module(client)
         path = "course files/CCR Materials/6SW/Wk2"
         folder = await common.ensure_folder(client, path)
-        names = {"PODCAST": "6sw-wk2-podcast-production-plan.pdf", "RESUME": "6sw-wk2-first-resume-draft.pdf", "DETAIL": "6sw-wk2-audio-cue-and-resume-revision.pdf", "SEARCH": "6sw-wk2-effective-job-search.pdf", "MERCH": "6sw-wk2-merch-mode-design.pdf", "RUBRIC": "6sw-wk2-resume-design-rubric.pdf"}
-        files = {key: await common.upload(client, ROOT / "docs/resources/worksheets" / name, path) for key, name in names.items()}
+        files = {key: await upload_locked(client, ROOT / "docs/resources/worksheets" / name, path) for key, name in WORKSHEET_NAMES.items()}
         visual_path = "course files/CCR Materials/6SW/Wk2/Locked Licensed Visuals"
         visual_folder = await common.ensure_folder(client, visual_path)
-        pageset = [255, 256, 257, 258, 270, 271, 272, 273]
-        visuals = {f"p{page}": await common.upload(client, ASSETS / f"fyf-p{page}.jpg", visual_path) for page in pageset}
+        visuals = {f"p{page}": await upload_locked(client, ASSETS / f"fyf-p{page}.jpg", visual_path) for page in VISUAL_PAGES}
+        folder, support_file_count = await lock_folder_files(client, folder)
+        visual_folder, visual_file_count = await lock_folder_files(client, visual_folder)
         quiz = await upsert_quiz(client)
         assignments = {}
         for day, key in {1: "PODCAST", 2: "RESUME", 4: "SEARCH"}.items():
-            assignments[day] = await common.upsert_assignment(client, TITLES[day], "<p>Complete privately by annotation, upload, typed labeled responses, or paper. Use one response route, not all routes.</p>", ["student_annotation", "online_upload", "online_text_entry"], files[key]["id"])
+            descriptions = {
+                1: "Complete FYF pp. 270-271 first. Submit only the individual production-role companion by annotation, upload, typed labeled responses, or one labeled paper copy. Do not rebuild or submit a second podcast plan.",
+                2: "Submit one private first resume route: annotate the attached model/planner, upload the completed resume, type the labeled headings and bullets, or turn in one labeled paper copy. Do not include sensitive contact or reference data.",
+                4: "Complete one seven-step route using the attached fictional posting: annotation, upload, typed labeled responses, or one labeled paper copy. Do not apply, contact anyone, create an account, or enter personal data.",
+            }
+            assignments[day] = await upsert_practice_assignment(client, TITLES[day], f"<p>{descriptions[day]}</p>", files[key]["id"])
         evidence_links = (
             f'<p>Submit the private final evidence: {common.file_link(files["RESUME"]["id"], "one-page resume")}, '
             f'{common.file_link(files["DETAIL"]["id"], "visible revision record")}, '
             f'{common.file_link(files["SEARCH"]["id"], "seven-step job-search trace and tailored bullet")}, '
             f'and {common.file_link(files["RUBRIC"]["id"], "self-score rubric")}. '
-            'Merch Mode design is formative and is not another graded artifact. '
+            'Default digital route: upload one combined PDF/document containing the final resume, visible revision record, seven-step job-search evidence, tailored bullet, next action, self-score, and visible revision. Typed route: use those exact labels in that order. Paper route: turn in one labeled bundle. Merch Mode design is formative and is not another graded artifact. '
             'Career preference, platform access, graphic polish, paid work history, public sharing, and English mechanics unless meaning is unclear do not determine the score.</p>'
         )
-        assignments[5] = await require_minor_assignment(client, evidence_links)
+        assignments[5] = await require_minor_assignment(client, minor_preflight, minor_group, evidence_links, scoring_note)
         urls = {day: f"/courses/{COURSE_ID}/assignments/{assignment['id']}" for day, assignment in assignments.items()}
         urls[3] = f"/courses/{COURSE_ID}/quizzes/{quiz['id']}"
         students = student_content(files, visuals, urls)
@@ -257,8 +404,8 @@ async def main():
         order, pages = [], {}
         for day in range(1, 6):
             header_title = f"Day {day} · {labels[day]}"
-            header = await prior.upsert_item(client, module["id"], "SubHeader", None, header_title)
-            order.append(("SubHeader", header["id"], header_title))
+            await prior.upsert_item(client, module["id"], "SubHeader", None, header_title)
+            order.append(("SubHeader", header_title, header_title))
             student_title = f"STUDENT: 6SW Wk2 Day {day} - {labels[day]}"
             student_page = await common.upsert_page(client, student_title, common.render("6sw-wk2-student.html", {"COURSE_ID": COURSE_ID, "DAY": day, **CONTRACTS[day], **students[day]}))
             teacher_title = f"TEACHER: 6SW Wk2 Day {day} Facilitator Guide"
@@ -271,7 +418,7 @@ async def main():
             pages[day] = {"teacher": teacher_page, "student": student_page}
 
         def matches_item(entry, kind, key):
-            return entry.get("type") == kind and ((kind == "SubHeader" and entry.get("id") == key) or (kind == "Page" and entry.get("page_url") == key) or (kind in ("Assignment", "Quiz") and entry.get("content_id") == key))
+            return entry.get("type") == kind and ((kind == "SubHeader" and entry.get("title") == key) or (kind == "Page" and entry.get("page_url") == key) or (kind in ("Assignment", "Quiz") and entry.get("content_id") == key))
 
         items = await common.paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
         keep_ids = set()
@@ -286,23 +433,46 @@ async def main():
         items = await common.paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
         for position, (kind, key, title) in enumerate(order, 1):
             item = next(entry for entry in items if matches_item(entry, kind, key))
-            await common.api(client, "PUT", f"/courses/{COURSE_ID}/modules/{module['id']}/items/{item['id']}", data={"module_item[position]": position, "module_item[title]": title})
+            await common.api(client, "PUT", f"/courses/{COURSE_ID}/modules/{module['id']}/items/{item['id']}", data={"module_item[position]": position, "module_item[title]": title, "module_item[published]": "false"})
         final = await common.paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
         ordered = sorted(final, key=lambda entry: entry.get("position", 0))
-        if len(ordered) != len(order):
-            raise RuntimeError(f"Expected {len(order)} Resume module items; found {len(ordered)}")
-        for position, ((kind, key, _title), entry) in enumerate(zip(order, ordered), 1):
-            if entry.get("position") != position or not matches_item(entry, kind, key):
+        if len(order) != 20 or len(ordered) != 20:
+            raise RuntimeError(f"Expected exactly 20 Resume module items; built {len(order)} and found {len(ordered)}")
+        for position, ((kind, key, title), entry) in enumerate(zip(order, ordered), 1):
+            if entry.get("position") != position or not matches_item(entry, kind, key) or entry.get("title") != title or entry.get("published") is not False:
                 raise RuntimeError(f"Resume module order mismatch at position {position}")
-
-        folder_files = await lock_every_file_in_folder(client, folder)
-        visual_files = await lock_every_file_in_folder(client, visual_folder)
-        folder = await common.api(client, "GET", f"/folders/{folder['id']}")
-        visual_folder = await common.api(client, "GET", f"/folders/{visual_folder['id']}")
-        if not folder.get("locked") or not visual_folder.get("locked") or any(not record.get("locked") for record in folder_files + visual_files):
-            raise RuntimeError("Every Resume support folder and file must remain locked")
         module = await common.api(client, "GET", f"/courses/{COURSE_ID}/modules/{module['id']}")
-        print(json.dumps({"module": {"id": module["id"], "published": module["published"]}, "folder": {"id": folder["id"], "locked": folder["locked"]}, "visual_folder": {"id": visual_folder["id"], "locked": visual_folder["locked"]}, "files": {key: record["id"] for key, record in files.items()}, "visuals": {key: record["id"] for key, record in visuals.items()}, "quiz": {"id": quiz["id"], "published": quiz.get("published")}, "assignments": {str(day): {"id": assignment["id"], "published": assignment.get("published"), "points": assignment.get("points_possible"), "grading_type": assignment.get("grading_type"), "omit_from_final_grade": assignment.get("omit_from_final_grade")} for day, assignment in assignments.items()}, "pages": {str(day): {kind: {"url": page["url"], "published": page["published"]} for kind, page in pair.items()} for day, pair in pages.items()}, "items": [{"position": entry["position"], "type": entry["type"], "title": entry["title"]} for entry in ordered]}, indent=2))
+        if module.get("published") is not False:
+            raise RuntimeError("Resume module unexpectedly published")
+        fresh_modules = await common.paged(client, f"/courses/{COURSE_ID}/modules")
+        fresh_aliases = [entry for entry in fresh_modules if entry.get("name") in {MODULE_NAME, *MODULE_ALIASES}]
+        if len(fresh_aliases) != 1 or fresh_aliases[0].get("id") != module.get("id") or fresh_aliases[0].get("published") is not False:
+            raise RuntimeError("Final Resume module alias/state invariant failed")
+        for day, key in {1: "PODCAST", 2: "RESUME", 4: "SEARCH"}.items():
+            assignments[day] = await assert_annotation_assignment(client, TITLES[day], assignments[day], files[key]["id"])
+        minor = await common.api(client, "GET", f"/courses/{COURSE_ID}/assignments/{assignments[5]['id']}")
+        if (
+            minor.get("assignment_group_id") != minor_group.get("id")
+            or minor.get("published") is not False
+            or float(minor.get("points_possible") or 0) != 100
+            or minor.get("grading_type") != "points"
+            or minor.get("omit_from_final_grade") is not False
+            or RUBRIC_MARKER not in (minor.get("description") or "")
+        ):
+            raise RuntimeError("Final Resume Minor invariant failed")
+        assignments[5] = minor
+        quiz = await common.api(client, "GET", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}")
+        if quiz.get("published") is not False or quiz.get("quiz_type") != "practice_quiz" or int(quiz.get("allowed_attempts") or 0) != -1:
+            raise RuntimeError("Final Resume Quiz invariant failed")
+        for day, pair in pages.items():
+            for kind, value in pair.items():
+                page = await common.api(client, "GET", f"/courses/{COURSE_ID}/pages/{value['url']}")
+                if page.get("published") is not False:
+                    raise RuntimeError(f"Published 6SW Wk2 {kind} page on Day {day}")
+                pair[kind] = page
+        folder, support_file_count = await lock_folder_files(client, folder)
+        visual_folder, visual_file_count = await lock_folder_files(client, visual_folder)
+        print(json.dumps({"module": {"id": module["id"], "published": module["published"]}, "folder": {"id": folder["id"], "locked": folder["locked"], "files": support_file_count}, "visual_folder": {"id": visual_folder["id"], "locked": visual_folder["locked"], "files": visual_file_count}, "files": {key: record["id"] for key, record in files.items()}, "visuals": {key: record["id"] for key, record in visuals.items()}, "quiz": {"id": quiz["id"], "published": quiz.get("published")}, "assignments": {str(day): {"id": assignment["id"], "published": assignment.get("published"), "points": assignment.get("points_possible"), "grading_type": assignment.get("grading_type"), "omit_from_final_grade": assignment.get("omit_from_final_grade")} for day, assignment in assignments.items()}, "pages": {str(day): {kind: {"url": page["url"], "published": page["published"]} for kind, page in pair.items()} for day, pair in pages.items()}, "items": [{"position": entry["position"], "type": entry["type"], "title": entry["title"]} for entry in ordered]}, indent=2))
 
 
 if __name__ == "__main__":

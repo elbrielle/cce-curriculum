@@ -40,7 +40,7 @@ Two details I must verify with a specific provider:
 
 ## Educational Aide I and Irving Boundary
 
-TEA lists two possible Educational Aide I eligibility patterns. One pattern is for a high-school graduate or GED holder with approved experience working with students or parents. The high-school-student pattern includes being at least 18, earning 70 or better in at least two specified Education and Training courses for three or more credits, district verification, application steps, and a criminal-history review that includes fingerprinting.
+TEA lists two possible Educational Aide I eligibility patterns. One pattern is for a high-school graduate or GED holder with approved experience working with students or parents. The high-school-student pattern includes being at least 18, earning 70 or better in at least two specified Education and Training courses for three or more credits, written superintendent verification, application steps, and a criminal-history review that includes fingerprinting.
 
 Current Irving public evidence names **Education and Training** at Irving High, MacArthur, and Nimitz and **Early Childhood Education** at Cardwell. A public program listing does not guarantee admission, a schedule, travel, certification, placement, or employment.
 

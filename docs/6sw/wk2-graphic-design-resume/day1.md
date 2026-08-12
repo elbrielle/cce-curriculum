@@ -12,7 +12,7 @@
 
 ## Before Class
 
-Have students open FYF pp. 255 and 270-271. Post the two-page individual companion as the Canvas-first or no-workbook route. Recording, public posting, H&L, and a guest are not required.
+Per student, provide FYF pp. 255 and 270-271, a pencil, and one two-page companion by Canvas annotation or print. Teams of three or four may build the FYF episode plan; every student submits an individual companion. Project this model: *The producer contributes the episode order and deadline plan; the editor/access lead contributes the transcript and final sequence so the audience can follow the episode.* Recording, public posting, H&L, and a guest are not required.
 
 ## 50-Minute Flow
 
@@ -24,7 +24,7 @@ Have students open FYF pp. 255 and 270-271. Post the two-page individual compani
 
 ## Key and Trim Point
 
-Full evidence includes audience, purpose, structured outline, questions, original/licensed audio boundary, transcript/caption plan, two careers, individual contribution, revision, and one popularity/income evidence limit. Trim decorative promotion work first.
+At minute 15, every team should have an audience, purpose, and topic. If one-third start with promotion, redirect them to audience and purpose. At minute 30, look for an opening, middle, questions/key points, and closing. At minute 43, each companion should name two roles and one access/rights decision. Full evidence includes audience, purpose, structured outline, questions, original/licensed audio boundary, transcript/caption plan, two careers, individual contribution, revision, and one popularity/income evidence limit. Trim decorative promotion work first. Collect individual companions, return shared workbooks, and close devices.
 
 ## Absence and Access
 
