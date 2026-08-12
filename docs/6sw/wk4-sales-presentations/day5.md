@@ -12,7 +12,7 @@
 
 ## Before Class
 
-Post the private formative media Assignment, two-page evidence record, and two-page feedback rubric. Confirm each student's route before class. Use sequential 60-90-second slots, simultaneous small groups with recordable evidence, teacher conferences, private recordings, or AAC; do not improvise a 75-minute three-minute roster.
+Per student, have the two-page Career Oral Evidence Brief, two-page rubric, Day 3 outline, and assigned technology. Prepare one class roster/checkoff and timer. Checkoff fields are **student, career, date, route, seconds, technology used, oral/AAC complete, written record complete**. Confirm each route before class. Use sequential 60-90-second slots, simultaneous small groups with recordable evidence, teacher conferences, private recordings, or AAC. Project this complete model: “I am exploring market research analysis because the work studies what audiences need. Analysts collect and explain consumer evidence; a bachelor's degree is typical. BLS reports a $76,950 May 2024 U.S. median and 7% projected growth for 2024-34. Those measures do not guarantee DFW starting pay. My next step is to compare the work with graphic design.” Do not improvise a 75-minute three-minute roster.
 
 ## 50-Minute Flow
 
@@ -23,7 +23,7 @@ Post the private formative media Assignment, two-page evidence record, and two-p
 
 ## Key and Trim Point
 
-The brief must include accurate career evidence, understandable oral/AAC communication, and one appropriate technology choice: a private recording, Canvas evidence card, teacher-approved visual, or AAC/speech-generating device. Written-only work does not demonstrate d(4)(C) unless an accommodation changes the task. Do not score accent, speech difference, disability, camera use, eye contact, public confidence, or English mechanics unless meaning is unclear.
+At minute 5, every student needs a route, slot, and named technology. If one-third are not ready, use the complete fixed model and conference queue. At minute 25, the checkoff should show at least half of oral/AAC routes complete while waiting students finish written evidence. At minute 43, every student needs oral/AAC completion plus the written record/self-score or a named make-up slot. Recorded students upload the written record/rubric and private audio/video together. Live, conference, and AAC students submit the written record/rubric by annotation, upload, labeled text, or paper while the teacher completes the named checkoff. Text alone is not oral evidence. Trim public sharing and the Week 5 preview first; preserve oral/AAC evidence, appropriate technology, written record, and checkoff.
 
 ## Absence and Access
 

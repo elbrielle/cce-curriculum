@@ -25,7 +25,7 @@ This is formative Week 4 feedback for the Week 5 interview and Week 6 capstone. 
 
 Score evidence and meaning. Do not score accent, speech difference, disability, camera use, eye contact, public-speaking confidence, clothing cost/style, or English mechanics unless meaning is unclear.
 
-**Submission check:** Submit only the two-page Career Oral Evidence Brief and this rubric/self-score through the private formative assignment. Earlier FYF work and companions are reference evidence, not additional uploads.
+**Submission check:** Recorded route uploads the two-page brief, this rubric/self-score, and private audio/video together. Live, conference, or AAC route submits the brief/rubric while the teacher records student, career, date, route, seconds, technology used, oral/AAC complete, and written record complete on the class checkoff. Text alone is not oral evidence. Earlier FYF work and companions stay in place.
 
 [[pagebreak]]
 

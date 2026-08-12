@@ -12,7 +12,7 @@
 
 ## Before Class
 
-Have students open FYF pp. 147-148. Post the two-page companion as Canvas-first with print fallback and the retryable practice Quiz. The Little Library status is fictional; students do not use real accounts, names, locations, handles, photos, or contact information.
+Default: one FYF workbook and device per student, one projector, and zero prints. Post the two-page companion, private annotation Assignment, and retryable practice Quiz. Paper fallback is one front-and-back companion per student and one collection tray; use a five-question paper check only for a Canvas outage. The Little Library status is fictional; students do not use real accounts, names, locations, handles, photos, contact information, student data, or audience tracking.
 
 ## 50-Minute Flow
 
@@ -21,12 +21,12 @@ Have students open FYF pp. 147-148. Post the two-page companion as Canvas-first 
 3. **Draft and revise - 13 min.** Write the fictional Little Library message and record one clarity/accessibility revision.
 4. **Read current career evidence - 8 min.** BLS Market Research Analysts: $76,950 May 2024 U.S. median, bachelor's degree typical, 7% projected growth 2024-34, about 87,200 openings per year. These are not DFW starting pay or guarantees.
 5. **Analyze two changing conditions - 12 min.** Use fixed fictional scenarios to separate an economic pressure from a societal/technology change and name a preparation response.
-6. **Exit - 5 min.** State how one change affects work and what a worker can do next.
+6. **Submit/Quiz/cleanup - 5 min.** Submit the private response first; use Quiz feedback if time remains.
 
 ## Key and Trim Point
 
-Accept several message versions if they state the fictional status, intended audience, useful action, and access need without real-world data. Economic effects concern spending, budgets, demand, or hiring; societal/technology effects concern audience behavior, tools, channels, accessibility, or privacy. Trim optional message decoration first.
+Minute 14: messages include status, truthful action, and no identifying data; if one-third copies the vague prompt, project the before/after model. Minute 32: students label $76,950 as May 2024 U.S. median, 7% as 2024-34 growth, and about 87,200 as annual openings; never substitute the 63,000 numeric employment change. Minute 43: economic effects concern spending/budget/demand/hiring while societal/technology effects concern behavior/tools/access/privacy/human review. Defer Quiz retries and sharing first; protect the revision, two distinct effects, preparation, private submission, and cleanup.
 
 ## Absence and Access
 
-The locked FYF pages plus the two-page companion form the no-workbook route. Use typing, dictation, read-aloud, enlarged print, or paper. The Quiz replaces the final misconception check when used; it is practice, not the only evidence.
+The locked FYF pages plus the two-page companion form the no-workbook route. Use typing, dictation, read-aloud, enlarged print, or paper. Submit one private response route. The Quiz follows the Assignment for feedback; it does not replace or duplicate the DOL.

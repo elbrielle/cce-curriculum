@@ -12,20 +12,20 @@
 
 ## Before Class
 
-Have students open FYF pp. 225-227 and 230. Post the two-page companion as Canvas-first with print fallback, the private annotation Assignment, and one completed teacher model. H&L, a public ad, a real link, Canva, and printing are not required.
+Default: one FYF workbook and device per student, one projector, and zero prints. Post the two-page companion and private annotation Assignment. Paper fallback is one front-and-back companion per student plus one collection tray; students use one route. Pairs compare CTAs and run the three-second test, but each student submits individual evidence. No real audience survey, student-data collection, tracking, public ad, account, link, H&L, or design platform is required.
 
 ## 50-Minute Flow
 
-1. **Audience/action warm-up - 5 min.** Identify what an ad asks a viewer to do.
-2. **Read and model - 8 min.** Distinguish benefit, urgency, curiosity, direct command, and incentive. Model truthful urgency versus invented scarcity.
-3. **Write and compare - 12 min.** Draft two different CTAs for each of four workbook products; compare audience fit in FYF.
-4. **Plan and build - 15 min.** Select one product and create the mock-up on FYF p. 230. Canva, Adobe Express, and plain text are equal optional routes.
-5. **Three-second test and revise - 5 min.** Viewer, teacher, or self-check names what is clear or confusing.
-6. **Exit - 5 min.** Name one marketing career, its work product, and the revision.
+1. **Audience/action warm-up - 6 min.** Identify what an ad asks a viewer to do.
+2. **Sample CTA types - 9 min.** Compare the approaches, then draft two truthful CTAs for one chosen product. The teacher may supply the remaining comparison examples.
+3. **Build one FYF ad - 17 min.** Headline, accurate description, CTA, hierarchy, and access cue.
+4. **Three-second test and revise - 10 min.** Viewer, teacher, or self-check names what is clear or confusing; keep before/after evidence.
+5. **Career connection - 4 min.** Name one marketing worker, work product, and next use of the result.
+6. **Submit and cleanup - 4 min.** One private route and material return.
 
 ## Key and Trim Point
 
-Strong work identifies an audience, uses accurate product facts, labels CTA type, avoids false urgency/incentives, creates readable hierarchy, records test evidence, and revises visibly. Trim a second digital build or partner share first; never trim the individual revision.
+Minute 12: each student can point to one supplied fact and one clear action; if one-third invents urgency, pause and repair the model claim. Minute 30: every ad has audience, accurate description, CTA, hierarchy, and access. Minute 42: the revision answers test evidence, not decoration preference. Supply the second sample CTA and trim optional polish/share-out first; protect one FYF ad, individual revision, career link, submission, and cleanup.
 
 ## Absence and Access
 

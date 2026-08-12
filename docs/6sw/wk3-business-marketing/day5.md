@@ -12,7 +12,7 @@
 
 ## Before Class
 
-Post the private Minor 3 Assignment, four-page brief, and targeted rubric. Keep it unpublished until the Canvas review gate passes. Do not require a live pitch, public Discussion, H&L favorites, Xello completion, eDynamic progress, real posting, or personal business disclosure.
+Default: one device per student, one projector, and zero prints. Post the private Minor 3 Assignment, four-page brief, and two-page rubric. Paper fallback is one four-page brief and one two-page rubric per student, stapled as one set, plus one collection tray. Earlier work is reference evidence, not another upload. Keep everything unpublished until the Canvas review gate passes. Do not require a live pitch, public Discussion, H&L favorites, Xello completion, eDynamic progress, real posting, or personal business disclosure.
 
 ## 50-Minute Flow
 
@@ -21,12 +21,12 @@ Post the private Minor 3 Assignment, four-page brief, and targeted rubric. Keep 
 3. **Entrepreneurship section - 10 min.** State opportunity, deliverable, responsibility, risk, and ethical boundary.
 4. **Data and changing-conditions section - 12 min.** Cite three values/quotes, a decision, one limitation, and two distinct effects.
 5. **Self-score and revise - 10 min.** Use four criteria and make one visible revision.
-6. **Submit - 5 min.** Upload/annotate/type privately or turn in paper.
+6. **Submit - 5 min.** Upload one private file, type the labeled response, or turn in one labeled paper set.
 
 ## Key and Trim Point
 
-The brief must make the student's reasoning visible; platform clicks or artwork alone are not mastery evidence. Economic and societal/technology effects must remain distinct. Current BLS data are labeled by measure/date/geography. Trim optional visual polish and oral sharing first; preserve self-score and revision.
+Minute 10: every student has prior evidence or the complete model strip; no one rebuilds four days. Minute 26: audience/communication and entrepreneurship include a boundary, not only preference. Minute 40: data reasoning includes two numbers, quote/pattern, limitation/test, and distinct economic and societal/technology effects. Minute 46: all four self-scores and one visible revision are complete. Accept labeled bullets and trim sharing/polish first; never trim a rubric job, self-score, revision, private submission, or cleanup.
 
 ## Absence and Access
 
-Students may use completed packets or the included recap prompts. Accept typing, dictation, annotation, enlarged print, or paper. The rubric scores content and reasoning, not public speaking, platform access, design polish, personal experience, or English mechanics unless meaning is unclear.
+Students may use completed packets or the included recap prompts. Accept a file upload, labeled text entry with speech-to-text or dictation support, enlarged print, or one labeled paper set. The rubric scores content and reasoning, not public speaking, platform access, design polish, personal experience, or English mechanics unless meaning is unclear.

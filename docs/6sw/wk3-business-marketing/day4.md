@@ -12,7 +12,7 @@
 
 ## Before Class
 
-Have students open FYF p. 229 and then p. 228. Post the two-page landscape companion as Canvas-first with print fallback and the private annotation Assignment. All Family Fun Pass data are fictional workbook evidence, not universal claims about age groups.
+Default: one FYF workbook and device per student, one projector, and zero prints. Post the two-page landscape companion and private annotation Assignment. Paper fallback is one two-page landscape packet per student and one collection tray. Students decide individually after one pair evidence-sort. All Family Fun Pass data are fictional workbook evidence, not universal age-group claims; do not survey students, collect personal preferences, or track behavior.
 
 ## 50-Minute Flow
 
@@ -25,7 +25,7 @@ Have students open FYF p. 229 and then p. 228. Post the two-page landscape compa
 
 ## Key and Trim Point
 
-There is no single best strategy until a goal is named. Influencer has the most sales in the past-campaign table; social has the most clicks; in-store/email are stronger among the 50+ preference row. Full credit depends on accurate citation and reasoning, not teacher preference. Trim a third strategy detail first, not the decision/limitation/test.
+Minute 12: every student names a goal before a strategy; if one-third picks by preference, project the sales-goal model. Minute 29: the evidence stack has two exact numbers and one quote/pattern with meanings. Minute 43: conflict, decision rule, limitation, next test, and exact result are visible. Influencer has the most past sales; Social has the most clicks. Supply the third-strategy comparison and trim sharing first; protect goal, evidence, limit/test, career link, submission, and cleanup.
 
 ## Absence and Access
 

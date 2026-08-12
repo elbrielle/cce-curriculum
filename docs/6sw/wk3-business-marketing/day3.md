@@ -12,7 +12,7 @@
 
 ## Before Class
 
-Have students open FYF pp. 222-224. Post the two-page companion as Canvas-first with print fallback, the private annotation Assignment, and a completed model. This is a classroom plan: no real sale, payment, contact, account, booking, client data, public promotion, copied mark, or income promise.
+Default: one FYF workbook and device per student, one projector, and zero prints. Post the two-page companion and private annotation Assignment. Paper fallback is one front-and-back companion per student, pencils/markers, and one collection tray. Students work individually; partner, teacher conference, or self-check are equal. This is a classroom plan: no real sale, payment, contact, account, booking, client data, public promotion, copied mark, or income promise.
 
 ## 50-Minute Flow
 
@@ -25,7 +25,7 @@ Have students open FYF pp. 222-224. Post the two-page companion as Canvas-first 
 
 ## Key and Trim Point
 
-The need, audience, deliverable, opportunity, fictional unit/price, responsibility, and risk are distinct. A vague topic is not a service. The price is classroom reasoning, not a promise of income or market value. Trim logo decoration or oral sharing first; preserve responsibility/risk evidence.
+Minute 12: students can name audience + need + deliverable; if one-third starts with logo only, reproject the model chain. Minute 29: the fictional price includes a unit and no income promise; responsibility, risk, and control are distinct. Minute 42: feedback produces one visible clarity or safety revision. Trim logo polish and oral pitch first; protect opportunity reasoning, responsibility/risk/control, revision, career link, submission, and cleanup.
 
 ## Absence and Access
 

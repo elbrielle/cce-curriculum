@@ -12,7 +12,7 @@
 
 ## Before Class
 
-Have students open FYF pp. 244-247 and post the two-page companion as Canvas-first with print fallback. Sticky notes are optional, and the companion keeps each student's reasoning visible. The three fixed career cards remove any prior-research or login dependency.
+Per student, have FYF pp. 244-247, a pencil, and one two-page companion by private Canvas annotation or print. Project both supplied models. **Cause/evidence:** “Result: sales are low. Evidence: students say the snack looks like other snacks and the reason to try it is unclear. Possible cause: the campaign does not communicate a distinct value.” **Career outline:** “Market research analysts study consumer preferences. A bachelor's degree is typical. BLS reports a $76,950 May 2024 U.S. median and 7% projected growth for 2024-34. Those measures are not DFW starting pay or a guarantee.” Sticky notes are optional. The three fixed career cards remove prior-research and login dependencies.
 
 ## 50-Minute Flow
 
@@ -26,7 +26,7 @@ Have students open FYF pp. 244-247 and post the two-page companion as Canvas-fir
 
 ## Key and Trim Point
 
-BrainBoost reached its stated audience; the problem is weak differentiation/need/message, not audience targeting. Multiple solutions work when grounded and bounded. Fixed fallback BLS cards are U.S. medians/projections, not DFW starting pay. Trim the campaign sketch first; preserve individual career evidence.
+At minute 13, students should distinguish the low-sales result from a message/value cause. If one-third blame the audience, reread the supplied reach fact and comments. At minute 31, require the selected solution to answer exact evidence without adding a claim. At minute 44, require duty, preparation, measure, geography/date, and limitation in one outline. BrainBoost reached its stated audience; the issue is weak differentiation/need/message. Trim campaign-sketch polish first and provide the fixed career card; preserve cause/evidence, rejected claim, transfer, and outline. Collect the companion.
 
 ## Absence and Access
 

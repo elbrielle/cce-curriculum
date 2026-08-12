@@ -11,10 +11,10 @@ I can identify sales/marketing careers, plan and revise an ethical audience-spec
 | Day | Focus | Required evidence | Canvas interaction |
 |---|---|---|---|
 | 1 | audience + pitch anatomy | FYF pitch plus individual audience/accuracy/career evidence | private annotation Assignment |
-| 2 | oral pitch + revision | two communicated attempts, visible revision, and transfer record | private media/annotation Assignment |
+| 2 | oral pitch + revision | two communicated attempts, visible revision, and transfer record | private upload/annotation Assignment + teacher oral/AAC checkoff |
 | 3 | BrainBoost rescue + career evidence | FYF campaign work plus individual decision and 60-90-second career outline | private annotation Assignment |
-| 4 | interview appearance + rehearsal | three context decisions and two rehearsals | retryable practice Quiz + rehearsal record |
-| 5 | career oral evidence | 60-90-second live/recorded/AAC brief, reflection, and self-score | private formative media Assignment |
+| 4 | interview appearance + rehearsal | three context decisions and two rehearsals | private rehearsal-record Assignment + linked retryable practice Quiz |
+| 5 | career oral evidence | 60-90-second live/recorded/AAC brief, reflection, and self-score | private two-part formative Assignment + teacher oral/AAC checkoff |
 
 ## TEKS
 
@@ -25,7 +25,8 @@ I can identify sales/marketing careers, plan and revise an ethical audience-spec
 
 ## Evidence and Access Boundaries
 
-- The final brief lasts 60-90 seconds and may be live whole group, live small group, teacher conference, recorded audio/video, or AAC/speech-generating device. A written outline supports oral evidence but does not replace it unless an accommodation formally changes the task.
+- The final brief lasts 60-90 seconds and may be live whole group, live small group, teacher conference, recorded audio/video, or AAC/speech-generating device. Every route uses appropriate evidence or assistive technology. A written outline supports oral evidence but does not replace it unless an accommodation formally changes the task.
+- Recorded students upload the written record/rubric and private audio/video together. Live, conference, and AAC students submit the written record/rubric while the teacher records student, career, date, route, seconds, technology, oral/AAC completion, and written completion on the class checkoff.
 - No student is required to present for three minutes to a full class. The schedule is planned before Day 1 rather than improvised on presentation day.
 - Required content uses verified prior research or one of three fixed BLS fallback cards. Dated U.S. medians are never relabeled DFW starting pay.
 - Pitch and BrainBoost work are fictional. Students do not sell, post, link, collect data, make health/income/popularity/scarcity claims, or use real contact/payment information.
@@ -45,8 +46,8 @@ Days 1-5 are formative rehearsal for the Week 5 interview and Week 6 capstone. T
 
 ## Current Sources
 
-- [CareerOneStop: Get Ready to Interview](https://www.careeronestop.org/JobSearch/Interview/interview-and-negotiate.aspx)
-- [CareerOneStop: Dress for Success](https://www.careeronestop.org/Veterans/JobSearch/Interviews/dress-for-success.aspx)
+- [CareerOneStop: Get Ready to Interview](https://cloudfront.careeronestop.org/JobSearch/Interview/interview-and-negotiate.aspx?frd=true)
+- [CareerOneStop: Dress for Success](https://cloudfront.careeronestop.org/Veterans/JobSearch/Interviews/dress-for-success.aspx?frd=true)
 - [BLS Sales Managers](https://www.bls.gov/ooh/management/sales-managers.htm)
 - [BLS Market Research Analysts](https://www.bls.gov/ooh/business-and-financial/market-research-analysts.htm)
 - [BLS Graphic Designers](https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm)

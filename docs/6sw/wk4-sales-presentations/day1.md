@@ -12,7 +12,7 @@
 
 ## Before Class
 
-Have students open FYF pp. 241-243. Post the two-page companion as Canvas-first with print fallback and choose a fictional teacher model. H&L, a real product, a public pitch, and printing are not required.
+Per student, have FYF pp. 241-243, a pencil, and one two-page companion by private Canvas annotation or print. Use one labeled tray or the private Canvas collector. Project this complete model: **Audience:** busy students. **Fact:** the fictional service offers 20-minute review sessions. **Benefit:** review can fit between activities. **Safe action:** compare the two session options. **Boundary:** do not claim the service guarantees a grade. Preassign Day 2 live, conference, recording, or AAC routes. H&L, a real product, a public pitch, and printing are not required.
 
 ## 50-Minute Flow
 
@@ -25,7 +25,7 @@ Have students open FYF pp. 241-243. Post the two-page companion as Canvas-first 
 
 ## Key and Trim Point
 
-Require all four FYF pitch parts, an audience situation, a benefit rather than a feature list, one assumption limit, an ethical boundary, a career/work-product connection, and a Day 2 oral route. Trim optional sharing first.
+At minute 13, students should be able to point to the hook, offer, benefit, and call to action. If one-third confuse a feature and benefit, contrast **20-minute session** with **fits between activities**. At minute 30, require an audience situation and supplied fact or labeled reason. At minute 44, check the ethical boundary, career connection, and Day 2 route. Trim optional sharing first; preserve all four pitch parts and companion evidence. Collect one route and return workbooks.
 
 ## Absence and Access
 

@@ -16,6 +16,7 @@ COURSE_ID = common.COURSE_ID
 ROOT = common.ROOT
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/6sw/wk4"
 MODULE_NAME = "6SW Wk4: Sales and Career Oral Evidence"
+MODULE_ALIASES = ("6SW Wk4: Sales / Presentations",)
 TITLES = {
     1: "PRACTICE: Audience and Sales Pitch Plan",
     2: "PRACTICE: Oral Pitch Delivery and Revision",
@@ -23,6 +24,65 @@ TITLES = {
     4: "PRACTICE: Interview Appearance and Rehearsal",
     5: "FORMATIVE: Career Oral Evidence Brief",
 }
+DAY4_ASSIGNMENT_TITLE = "PRACTICE: Interview Appearance and Rehearsal Record"
+TEMPLATES = ROOT / "build/canvas/templates"
+WORKSHEET_NAMES = {
+    "PLAN": "6sw-wk4-sales-pitch-plan.pdf",
+    "DELIVERY": "6sw-wk4-pitch-delivery-record.pdf",
+    "BRAIN": "6sw-wk4-brainboost-and-career-outline.pdf",
+    "APPEAR": "6sw-wk4-appearance-and-rehearsal.pdf",
+    "ORAL": "6sw-wk4-career-oral-evidence.pdf",
+    "RUBRIC": "6sw-wk4-career-oral-rubric.pdf",
+}
+VISUAL_PAGES = (241, 242, 243, 244, 245, 246, 247, 280, 299)
+ANNOTATION_DAYS = {1: "PLAN", 2: "DELIVERY", 3: "BRAIN", 4: "APPEAR", 5: "ORAL"}
+
+
+def preflight():
+    required = [
+        TEMPLATES / "6sw-wk4-student.html",
+        TEMPLATES / "6sw-wk4-teacher.html",
+        *(ROOT / "docs/resources/worksheets" / name for name in WORKSHEET_NAMES.values()),
+        *(ASSETS / f"fyf-p{page}.jpg" for page in VISUAL_PAGES),
+    ]
+    missing = [str(path.relative_to(ROOT)) for path in required if not path.is_file()]
+    if missing:
+        raise FileNotFoundError(f"6SW Wk4 preflight missing required files: {missing}")
+
+
+async def canvas_preflight(client):
+    modules = await common.paged(client, f"/courses/{COURSE_ID}/modules")
+    module_matches = [entry for entry in modules if entry.get("name") in {MODULE_NAME, *MODULE_ALIASES}]
+    if len(module_matches) > 1:
+        raise RuntimeError(f"Duplicate 6SW Wk4 modules: {[entry['id'] for entry in module_matches]}")
+    assignments = await common.paged(client, f"/courses/{COURSE_ID}/assignments")
+    assignment_matches = {}
+    assignment_titles = {1: TITLES[1], 2: TITLES[2], 3: TITLES[3], 4: DAY4_ASSIGNMENT_TITLE, 5: TITLES[5]}
+    for day, title in assignment_titles.items():
+        matches = [entry for entry in assignments if entry.get("name") == title]
+        if len(matches) > 1:
+            raise RuntimeError(f"Duplicate assignments named {title!r}: {[entry['id'] for entry in matches]}")
+        if matches and (
+            matches[0].get("published") is not False
+            or float(matches[0].get("points_possible") or 0) != 0
+            or matches[0].get("grading_type") != "percent"
+            or matches[0].get("omit_from_final_grade") is not True
+            or set(matches[0].get("submission_types") or [])
+            != {"student_annotation", "online_upload", "online_text_entry"}
+        ):
+            raise RuntimeError(f"Refusing to modify malformed formative assignment {title!r}")
+        assignment_matches[day] = matches[0] if matches else None
+    quizzes = await common.paged(client, f"/courses/{COURSE_ID}/quizzes")
+    quiz_matches = [entry for entry in quizzes if entry.get("title") == TITLES[4]]
+    if len(quiz_matches) > 1:
+        raise RuntimeError(f"Duplicate quizzes named {TITLES[4]!r}: {[entry['id'] for entry in quiz_matches]}")
+    if quiz_matches and (
+        quiz_matches[0].get("published") is not False
+        or quiz_matches[0].get("quiz_type") != "practice_quiz"
+        or int(quiz_matches[0].get("allowed_attempts") or 0) != -1
+    ):
+        raise RuntimeError(f"Refusing to modify malformed practice Quiz {TITLES[4]!r}")
+    return assignment_matches, quiz_matches[0] if quiz_matches else None
 
 CONTRACTS = {
     1: {
@@ -70,13 +130,82 @@ CONTRACTS = {
 
 async def ensure_module(client):
     modules = await common.paged(client, f"/courses/{COURSE_ID}/modules")
-    matches = [module for module in modules if module.get("name") == MODULE_NAME]
+    matches = [module for module in modules if module.get("name") in {MODULE_NAME, *MODULE_ALIASES}]
     if len(matches) > 1:
         raise RuntimeError(f"Expected at most one {MODULE_NAME!r} module; found {len(matches)}")
     data = {"module[published]": "false", "module[name]": MODULE_NAME}
     if matches:
         return await common.api(client, "PUT", f"/courses/{COURSE_ID}/modules/{matches[0]['id']}", data=data)
     return await common.api(client, "POST", f"/courses/{COURSE_ID}/modules", data=data)
+
+
+async def upload_locked(client, path, folder_path):
+    uploaded = await common.upload(client, path, folder_path)
+    record = await common.api(client, "GET", f"/files/{uploaded['id']}")
+    if record.get("locked") is not True:
+        record = await common.api(client, "PUT", f"/files/{uploaded['id']}", data={"locked": "true"})
+    if record.get("locked") is not True:
+        raise RuntimeError(f"Canvas did not lock {path.name!r}")
+    return record
+
+
+async def lock_folder_files(client, folder, expected_names):
+    current = await common.api(client, "GET", f"/folders/{folder['id']}")
+    if current.get("locked") is not True:
+        current = await common.api(client, "PUT", f"/folders/{folder['id']}", data={"locked": "true"})
+    if current.get("locked") is not True:
+        raise RuntimeError(f"Canvas did not lock folder {folder['id']}")
+    for record in await common.paged(client, f"/folders/{folder['id']}/files"):
+        if record.get("locked") is not True:
+            await common.api(client, "PUT", f"/files/{record['id']}", data={"locked": "true"})
+    final = await common.paged(client, f"/folders/{folder['id']}/files")
+    names = {record.get("filename") for record in final}
+    if any(record.get("locked") is not True for record in final) or not set(expected_names).issubset(names):
+        raise RuntimeError(f"Unlocked files remain in folder {folder['id']}")
+    return current, len(final)
+
+
+async def assert_annotation_assignment(client, title, assignment, source_id, required_routes):
+    fresh = await common.api(client, "GET", f"/courses/{COURSE_ID}/assignments/{assignment['id']}")
+    source = await common.api(client, "GET", f"/files/{source_id}")
+    clone_id = int(fresh.get("annotatable_attachment_id") or 0)
+    clone = await common.api(client, "GET", f"/files/{clone_id}") if clone_id else {}
+    if clone and clone.get("locked") is not True:
+        clone = await common.api(client, "PUT", f"/files/{clone_id}", data={"locked": "true"})
+    if (
+        fresh.get("published") is not False
+        or float(fresh.get("points_possible") or 0) != 0
+        or fresh.get("grading_type") != "percent"
+        or fresh.get("omit_from_final_grade") is not True
+        or set(fresh.get("submission_types") or []) != set(required_routes)
+        or not clone_id
+        or source.get("locked") is not True
+        or clone.get("locked") is not True
+        or clone.get("filename") != source.get("filename")
+        or int(clone.get("size") or -1) != int(source.get("size") or -2)
+    ):
+        raise RuntimeError(f"Formative annotation invariant failed for {title!r}")
+    return fresh
+
+
+async def upsert_formative_assignment(client, found, title, description, attachment_id, routes):
+    data = {
+        "assignment[name]": title,
+        "assignment[description]": description,
+        "assignment[submission_types][]": routes,
+        "assignment[annotatable_attachment_id]": str(attachment_id),
+        "assignment[grading_type]": "percent",
+        "assignment[points_possible]": "0",
+        "assignment[omit_from_final_grade]": "true",
+        "assignment[published]": "false",
+    }
+    assignment = await common.api(
+        client,
+        "PUT" if found else "POST",
+        f"/courses/{COURSE_ID}/assignments/{found['id']}" if found else f"/courses/{COURSE_ID}/assignments",
+        data=data,
+    )
+    return await assert_annotation_assignment(client, title, assignment, attachment_id, routes)
 
 
 QUESTIONS = [
@@ -191,7 +320,10 @@ async def upsert_quiz(client):
     final_questions = await common.paged(client, f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions")
     if [question.get("question_name") for question in final_questions] != expected:
         raise RuntimeError("Sales practice Quiz order mismatch")
-    return await common.api(client, "GET", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}")
+    final = await common.api(client, "GET", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}")
+    if final.get("published") is not False or final.get("quiz_type") != "practice_quiz" or int(final.get("allowed_attempts") or 0) != -1:
+        raise RuntimeError("Sales practice Quiz state mismatch")
+    return final
 
 
 def student_content(files, visuals, urls):
@@ -201,7 +333,7 @@ def student_content(files, visuals, urls):
         f'<section data-cce-marker="{SUBMISSION_LINK_MARKER}" '
         'style="border:2px solid #245f69;border-radius:12px;padding:18px 20px;margin:24px 0;background:#f4fafb">'
         '<h3 style="margin:0 0 8px;color:#245f69">Submit your formative oral evidence</h3>'
-        '<p style="margin:0 0 14px">Use the rubric to check your work. Submit the private oral/AAC evidence plus the two-page record and self-score through this Canvas assignment. Earlier FYF work and companions stay available as reference evidence.</p>'
+        '<p style="margin:0 0 14px">Use the rubric to check both parts. <strong>Recorded route:</strong> upload the completed brief/rubric and private audio/video together as files in one submission. <strong>Live, conference, or AAC route:</strong> submit the written brief/rubric by annotation, upload, or exact labeled text; your teacher records the career, date, route, time, technology used, and completion on the class checkoff. Text alone is not oral evidence.</p>'
         f'<p style="margin:0"><a href="{urls[5]}" style="display:inline-block;background:#245f69;color:#fff;padding:11px 18px;border-radius:6px;text-decoration:none;font-weight:700" data-api-endpoint="/api/v1{urls[5]}" data-api-returntype="Assignment">Open {TITLES[5]}</a></p></section>'
     )
     return {
@@ -221,7 +353,7 @@ def student_content(files, visuals, urls):
             "TITLE": "Deliver, Test, and Revise",
             "PURPOSE": "Deliver the FYF pitch twice through a private oral/AAC route and make one specific revision between attempts.",
             "TODAY": "<ul><li>check the pitch boundary;</li><li>deliver once;</li><li>collect specific feedback;</li><li>revise, deliver again, and transfer the skill.</li></ul>",
-            "READY": f'<p><strong>Use your FYF pp. 241-243 pitch.</strong> Open {link(files["DELIVERY"]["id"], "the two-page delivery and revision record")} and <a href="{urls[2]}">the private media/annotation activity</a>.</p>',
+            "READY": f'<p><strong>Use your FYF pp. 241-243 pitch.</strong> Open {link(files["DELIVERY"]["id"], "the two-page delivery and revision record")} and <a href="{urls[2]}">the private upload/annotation activity</a>. Recorded route: upload the written record and private audio/video together. Live, conference, or AAC route: submit the written record while your teacher completes the oral/AAC checkoff.</p>',
             "MEDIA": media([("p243", "Practice, partner/small-group/class options, feedback record, and discussion")]),
             "STEPS": step(1, "Check the boundary", "<p>Remove unsupported urgency, guarantees, health, popularity, scarcity, or income claims.</p>") + step(2, "Deliver once", "<p>Use the route your teacher assigned: live partner/small group, teacher conference, private recording, or AAC. Keep it at 60 seconds or less.</p>") + step(3, "Get specific feedback", "<p>Name an exact word, sentence, pause, or organization choice to revise.</p>") + step(4, "Revise and deliver again", "<p>Keep the before/after language visible, record the time and effect, then compare how the skill works in two careers.</p>"),
             "EXIT": "<p>State the revision that changed clarity, accuracy, organization, or delivery/AAC output.</p>",
@@ -245,7 +377,7 @@ def student_content(files, visuals, urls):
             "TITLE": "Interview Appearance and Rehearsal",
             "PURPOSE": "Choose interview preparation for the actual context, then rehearse and revise your career brief.",
             "TODAY": "<ul><li>compare office, task-demonstration, and virtual contexts;</li><li>complete a retryable Quiz;</li><li>rehearse once;</li><li>revise and rehearse again.</li></ul>",
-            "READY": f'<p>Open {link(files["APPEAR"]["id"], "the two-page landscape appearance and rehearsal companion")} and <a href="{urls[4]}">the retryable practice Quiz</a>.</p>',
+            "READY": f'<p>Open {link(files["APPEAR"]["id"], "the two-page landscape appearance and rehearsal companion")}, <a href="{urls[4]}">the private rehearsal-record activity</a>, and <a href="{urls["quiz"]}">the retryable practice Quiz</a>. Use one record route; do not complete both print and digital copies.</p>',
             "MEDIA": "",
             "STEPS": step(1, "Use the context", "<p>Base the choice on workplace, task, safety, format, and accommodation--not cost, body, gender, culture, religion, or disability.</p>") + step(2, "Make three decisions", "<p>Choose and explain preparation for an office/customer-facing interview, a skilled-trade task demonstration, and a virtual interview. Write one respectful question to verify for each.</p>") + step(3, "Use Quiz feedback", "<p>Check safety, source labels, virtual readiness, and the oral-route boundary. Retry after reading the feedback.</p>") + step(4, "Rehearse twice", "<p>Use a live, conference, private recording, or AAC route. Keep the revision visible between attempts.</p>"),
             "EXIT": "<p>Name one final content check and one final delivery/AAC check.</p>",
@@ -271,7 +403,7 @@ def student_content(files, visuals, urls):
 def teacher_content(files):
     link, flow = common.file_link, common.flow
     color = "#245f69"
-    sources = '<p><a href="https://www.careeronestop.org/JobSearch/Interview/interview-and-negotiate.aspx">CareerOneStop Interview Guidance</a> · <a href="https://www.bls.gov/ooh/management/sales-managers.htm">BLS Sales Managers</a> · <a href="https://www.bls.gov/ooh/business-and-financial/market-research-analysts.htm">BLS Market Research Analysts</a> · <a href="https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm">BLS Graphic Designers</a> · <a href="https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte/macarthur-high-school">Irving ISD MacArthur CTE</a>.</p>'
+    sources = '<p><a href="https://cloudfront.careeronestop.org/JobSearch/Interview/interview-and-negotiate.aspx?frd=true">CareerOneStop Interview Guidance</a> · <a href="https://cloudfront.careeronestop.org/Veterans/JobSearch/Interviews/dress-for-success.aspx?frd=true">CareerOneStop Appearance Guidance</a> · <a href="https://www.bls.gov/ooh/management/sales-managers.htm">BLS Sales Managers</a> · <a href="https://www.bls.gov/ooh/business-and-financial/market-research-analysts.htm">BLS Market Research Analysts</a> · <a href="https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm">BLS Graphic Designers</a> · <a href="https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte/macarthur-high-school">Irving ISD MacArthur CTE</a>.</p>'
     support = "<p>Point-of-use word banks and complete sentence frames appear before the student steps. Companion prompts are sized for the requested answer: short labels use one line; reasons and transfer explanations use two or three full-width lines. Accept typing, dictation, annotation, enlarged print, live/private recording, or AAC. Score evidence and meaning, not English mechanics unless meaning is unclear.</p>"
     fallback = "<p>Locked FYF pages support projection and absence. Students use the workbook first and one companion route for evidence the workbook does not collect; do not make them complete both the workbook and a duplicate packet. H&amp;L, Xello, eDynamic, public Discussion, real sales/posts/accounts/data, clothing expense/modeling, family contact information, and camera use are not required.</p>"
     return {
@@ -279,10 +411,10 @@ def teacher_content(files):
             "TITLE": "Audience and Sales Pitch Plan",
             "SUBTITLE": "50 minutes · FYF pp. 241-243",
             "ALERT": "<strong>Workbook first:</strong> FYF holds the seven-step pitch activity. The two-page companion adds audience/assumption, ethical, career, transfer, and oral-route evidence; it does not replace FYF for students who have the workbook.",
-            "PREP": f'<ul><li>Have students open FYF pp. 241-243.</li><li>Post {link(files["PLAN"]["id"], "the two-page companion")} as Canvas-first with print fallback and open one fictional completed model.</li><li>Preassign Day 2 live, conference, recording, or AAC routes.</li></ul>',
+            "PREP": f'<ul><li><strong>Per student:</strong> FYF pp. 241-243, pencil, and one {link(files["PLAN"]["id"], "two-page companion")} by private annotation or print.</li><li><strong>Model:</strong> <em>Audience: busy students. Fact: the fictional service offers 20-minute review sessions. Benefit: review can fit between activities. Safe action: compare the two session options. Do not claim it guarantees a grade.</em></li><li>Preassign Day 2 live, conference, recording, or AAC routes; use one labeled tray or private collector.</li></ul>',
             "EVIDENCE": "<p>Collect the FYF pitch plus the individual audience/fact/assumption check, accuracy/privacy boundary, career/work-product connection, transferable skill, and selected Day 2 oral route.</p>",
             "FLOW": flow(color, "Persuasion warm-up · 5", "Identify the hook, audience benefit, and requested action in one short model.") + flow("#4c8b38", "Read SparkClean · 8", "Label the four FYF parts and flag one claim that would need verification.") + flow("#8e4f7a", "Define offer and audience · 10", "Complete FYF Steps 2-3; separate evidence or logic from assumption.") + flow("#d39b22", "Plan four parts · 12", "Complete FYF Step 4 with concise, accurate language.") + flow(color, "Write and add evidence · 10", "Complete FYF Step 5 and the companion jobs the workbook does not collect.") + flow("#8e4f7a", "Exit · 5", "Career, work product, transferable skill, and one bounded claim."),
-            "MONITOR": "<p><strong>Key:</strong> all four parts must be visible; the benefit must follow from a supplied fact or labeled reasoning; the call to action must be safe and specific. A product feature is what it has; a benefit is why that feature matters to the named audience. If students write before naming the audience, return them to FYF Step 3. Trim optional sharing first.</p>",
+            "MONITOR": "<p><strong>Minute 13:</strong> students can point to hook, offer, benefit, and call to action. If one-third confuse feature and benefit, contrast <em>20-minute session</em> with <em>fits between activities</em>. <strong>Minute 30:</strong> each pitch names an audience situation and supplied fact or labeled reason. <strong>Minute 44:</strong> the companion has the ethical boundary, career connection, and Day 2 route. Safe trim: remove optional sharing, not the four pitch parts or companion evidence. Collect one route and return workbooks.</p>",
             "RESOURCES": sources,
             "SUPPORT": support,
             "FALLBACK": fallback,
@@ -291,10 +423,10 @@ def teacher_content(files):
             "TITLE": "Deliver, Test, and Revise",
             "SUBTITLE": "50 minutes · FYF p. 243",
             "ALERT": "<strong>Oral evidence with equal private routes:</strong> partner attendance and camera use are not requirements. A written draft supports the delivery but does not automatically replace oral/AAC evidence.",
-            "PREP": f'<ul><li>Have students reopen the FYF pitch.</li><li>Post {link(files["DELIVERY"]["id"], "the two-page delivery and revision record")} and private media/annotation activity.</li><li>Set a visible 60-second timer and confirm live, conference, recorded, and AAC routes before class.</li></ul>',
+            "PREP": f'<ul><li><strong>Per student:</strong> Day 1 pitch, pencil, and one {link(files["DELIVERY"]["id"], "two-page delivery record")} by private annotation or print; one timer serves the class.</li><li><strong>Model:</strong> Before: <em>Sign up now.</em> Feedback: the next step is vague. After: <em>Compare the two fictional session options and circle the one that fits your schedule.</em> Effect: the audience knows the safe next action.</li><li>Confirm live, conference, recorded, and AAC routes before class; pairs share feedback, not devices or files.</li></ul>',
             "EVIDENCE": "<p>Collect two timed oral/AAC attempts, one exact feedback point, visible before/after revision, evidence of its effect, and a two-career transfer response.</p>",
             "FLOW": flow(color, "Delivery model · 5", "Model understandable pace, clear organization, and a safe call to action.") + flow("#4c8b38", "Silent accuracy check · 5", "Remove unsupported urgency, guarantees, health, popularity, scarcity, or income claims.") + flow("#8e4f7a", "Attempt 1 · 10", "Record route, time, and one exact strength.") + flow("#d39b22", "Specific feedback · 8", "Name one exact word, sentence, pause, or organization choice to revise.") + flow(color, "Revise · 10", "Preserve the before/after language and the reason.") + flow("#4c8b38", "Attempt 2 · 7", "Apply the change and record its effect.") + flow("#8e4f7a", "Exit · 5", "Compare how the communication skill works in two careers."),
-            "MONITOR": "<p>Feedback is specific enough to act on: 'change the call to action so the next step is clear' works; 'be more confident' does not. Score understandable meaning, organization, audience fit, accuracy, and revision. Do not score accent, eye contact, memorization, public confidence, or camera use. Trim class share-outs first; preserve Attempt 2.</p>",
+            "MONITOR": "<p><strong>Minute 15:</strong> each student has Attempt 1 time and one exact strength. If one-third give trait feedback, reproject the before-feedback-after model. <strong>Minute 31:</strong> before and after language is visible and the reason names the audience need. <strong>Minute 44:</strong> Attempt 2 time, effect, and transfer are recorded. Do not score accent, eye contact, memorization, confidence, or camera use. Safe trim: remove share-outs and finish transfer in catch-up; preserve Attempt 2 and visible revision. Collect one record.</p>",
             "RESOURCES": sources,
             "SUPPORT": support,
             "FALLBACK": fallback,
@@ -303,10 +435,10 @@ def teacher_content(files):
             "TITLE": "BrainBoost Decision and Career Outline",
             "SUBTITLE": "50 minutes · FYF pp. 244-247",
             "ALERT": "<strong>Workbook first:</strong> FYF holds the campaign analysis, brainstorm, three-solution table, and mini campaign plan. The companion adds individual cause/evidence, claim screening, transfer, and career-outline evidence.",
-            "PREP": f'<ul><li>Have students open FYF pp. 244-247.</li><li>Post {link(files["BRAIN"]["id"], "the two-page companion")} as Canvas-first with print fallback.</li><li>Project one cause-versus-result model and the three fixed career cards.</li></ul>',
+            "PREP": f'<ul><li><strong>Per student:</strong> FYF pp. 244-247, pencil, and one {link(files["BRAIN"]["id"], "two-page companion")} by private annotation or print.</li><li><strong>Cause/evidence model:</strong> <em>Result: sales are low. Evidence: students say the snack looks like other snacks and the reason to try it is unclear. Possible cause: the campaign does not communicate a distinct value.</em></li><li><strong>Career-outline model:</strong> <em>Market research analysts study consumer preferences. A bachelor\'s degree is typical. BLS reports a $76,950 May 2024 U.S. median and 7% projected growth for 2024-34. Those measures are not DFW starting pay or a guarantee.</em></li></ul>',
             "EVIDENCE": "<p>Collect FYF BrainBoost work plus an individual cause/evidence decision, rejected unsupported claim, cross-career problem-solving response, and complete fixed-source career outline. Oral evidence begins on Day 4; the outline itself is not mislabeled d(4)(C).</p>",
             "FLOW": flow(color, "Problem versus result · 5", "Low sales are a result; unclear value is a possible cause supported by supplied comments.") + flow("#4c8b38", "Analyze evidence · 8", "Review FYF message, visuals, stated audience, and customer comments.") + flow("#8e4f7a", "Generate and screen · 10", "Use FYF p. 246 and remove unsupported claims.") + flow("#d39b22", "Build the FYF rescue · 10", "Complete the three-solution plan and campaign concept.") + flow(color, "Choose career evidence · 7", "Use one fixed BLS card or equivalent verified prior evidence.") + flow("#4c8b38", "Outline the brief · 7", "Opening, duty, preparation, labeled labor evidence, limitation, and close.") + flow("#8e4f7a", "Exit · 3", "Result, possible cause, evidence, second career, and next check."),
-            "MONITOR": "<p><strong>Key:</strong> the stated audience was reached. Strong problem statements name weak differentiation, unclear need, or unclear message as a possible cause. Several solutions can work when each answers supplied evidence and stays inside the product facts. Fixed BLS cards use May 2024 U.S. medians and 2024-34 projections; they are not DFW starting pay or shortages. Trim campaign sketch polish first.</p>",
+            "MONITOR": "<p><strong>Minute 13:</strong> students distinguish the low-sales result from a message/value cause. If one-third blame the audience, reread the supplied reach fact and comments. <strong>Minute 31:</strong> each chosen solution answers exact evidence and adds no claim. <strong>Minute 44:</strong> the career outline keeps duty, preparation, measure, geography/date, and limitation together. Safe trim: remove campaign sketch polish and provide the fixed career card; preserve cause/evidence, rejected claim, transfer, and outline. Collect the companion.</p>",
             "RESOURCES": sources,
             "SUPPORT": support,
             "FALLBACK": fallback,
@@ -315,10 +447,10 @@ def teacher_content(files):
             "TITLE": "Interview Appearance and Rehearsal",
             "SUBTITLE": "50 minutes · Context-first CCE lesson",
             "ALERT": "<strong>Appearance is a job-context decision:</strong> workplace, task, safety, format, and accommodation determine the plan. Do not teach cost, body, gender, culture, religion, disability, or fashion taste as professionalism.",
-            "PREP": f'<ul><li>Post {link(files["APPEAR"]["id"], "the two-page landscape companion")} and retryable practice Quiz.</li><li>Set oral/AAC rehearsal routes and a visible 60-90-second timer.</li><li>Project the three ready-to-use models in this guide; no additional model is needed.</li></ul>',
+            "PREP": f'<ul><li><strong>Per student:</strong> one {link(files["APPEAR"]["id"], "two-page landscape companion")}, the private rehearsal-record Assignment, pencil, Quiz access, and the Day 3 outline. One timer serves the class. Students use one Canvas or paper record route, not both.</li><li>Preassign live, conference, private recording, or AAC routes. Every route names appropriate technology: timer plus evidence card/approved visual, private recording, or AAC device.</li><li><strong>Rehearsal model:</strong> <em>Attempt 1 omitted the labor-evidence limit. Revision: add “This U.S. median does not guarantee my pay.” Attempt 2 includes the limit while the Canvas evidence card keeps the source label visible.</em></li></ul>',
             "EVIDENCE": "<p>Collect three context decisions and respectful verification questions, Quiz-feedback review, two timed oral/AAC career rehearsals, one appropriate technology choice, visible revision, and evidence of what changed.</p>",
             "FLOW": flow(color, "Context-first warm-up · 5", "Compare how workplace, task, safety, format, and accommodation change preparation.") + flow("#4c8b38", "Three scenarios · 12", "Office/customer-facing, skilled-trade task demonstration, and virtual interview.") + flow("#8e4f7a", "Practice Quiz · 8", "Use immediate feedback on safety, source labels, virtual readiness, and oral routes.") + flow("#d39b22", "Rehearsal 1 · 8", "Capture content and delivery/AAC evidence.") + flow(color, "Feedback and revision · 7", "Name and apply one exact change.") + flow("#4c8b38", "Rehearsal 2 · 7", "Record time and the effect of the revision.") + flow("#8e4f7a", "Exit · 3", "One final content check and one delivery/AAC check."),
-            "MONITOR": "<p><strong>Ready-to-use models:</strong></p><ul><li><strong>Office/customer-facing:</strong> clean, functional clothing that fits the role; verify workplace dress expectations and any access or accommodation needs.</li><li><strong>Skilled-trade task demonstration:</strong> clean work clothing with hair, jewelry, and loose items secured as the task requires; verify the exact PPE, tools, and arrival instructions before bringing or using anything.</li><li><strong>Virtual:</strong> clean, functional clothing, tested audio, a private background, notifications off, and a backup connection route; verify camera and access expectations.</li></ul><p><strong>Key:</strong> prepared, clean, functional, safe, and role-aware reasoning can look different across students and contexts. Task-required PPE or tools must be confirmed with the employer or site. Trim optional class modeling first.</p>",
+            "MONITOR": "<p><strong>Models:</strong> office/customer-facing = clean functional clothing plus workplace/access verification; task demonstration = clean work clothing plus exact site PPE/tool verification; virtual = tested audio, private background, notifications off, backup route, and verified access expectations. <strong>Minute 17:</strong> each scenario has a functional choice and question. If one-third write fashion rules, return to workplace/task/safety/format/accommodation. <strong>Minute 33:</strong> Attempt 1 includes oral/AAC evidence and named technology. <strong>Minute 45:</strong> Attempt 2 and revision are complete. Safe trim: leave the Quiz for catch-up and remove class modeling; preserve both rehearsals and technology evidence. Collect the companion and close devices.</p>",
             "RESOURCES": sources,
             "SUPPORT": support,
             "FALLBACK": fallback,
@@ -327,10 +459,10 @@ def teacher_content(files):
             "TITLE": "Career Oral Evidence Brief",
             "SUBTITLE": "50 minutes · Formative Week 4 evidence",
             "ALERT": "<strong>No separate Week 4 grade:</strong> this is planned formative rehearsal for the Week 5 interview and Week 6 capstone. Every student still needs assessable oral/AAC evidence through an assigned route.",
-            "PREP": f'<ul><li>Post {link(files["ORAL"]["id"], "the two-page Career Oral Evidence Brief")}, {link(files["RUBRIC"]["id"], "the two-page feedback profile")}, and the private formative media Assignment.</li><li>Confirm each student\'s route before class and display the sequence or conference schedule.</li><li>Keep FYF p. 299 and the Presenter Delivery row on p. 280 as teacher references; do not assign the full capstone pages today.</li></ul>',
+            "PREP": f'<ul><li><strong>Per student:</strong> one {link(files["ORAL"]["id"], "two-page Career Oral Evidence Brief")}, one {link(files["RUBRIC"]["id"], "two-page feedback profile")}, Day 3 outline, and assigned technology. One class roster/checkoff and timer are required.</li><li>Before class assign slots, parallel groups, conferences, private recordings, or AAC. Checkoff fields: <strong>student, career, date, route, seconds, technology used, oral/AAC complete, written record complete</strong>.</li><li><strong>Complete model:</strong> <em>I am exploring market research analysis because the work studies what audiences need. Analysts collect and explain consumer evidence; a bachelor\'s degree is typical. BLS reports a $76,950 May 2024 U.S. median and 7% projected growth for 2024-34. Those measures do not guarantee DFW starting pay. My next step is to compare the work with graphic design.</em></li><li>Keep FYF pp. 280 and 299 as teacher references only.</li></ul>',
             "EVIDENCE": "<p>Collect a 60-90-second oral/AAC career brief with one appropriate technology choice, duty/work product, preparation, correctly labeled labor evidence, limitation, bounded conclusion, and understandable organization; add delivery evidence, two-career transfer, self-score, and one visible revision.</p>",
             "FLOW": flow(color, "Final evidence check · 5", "Career, duty, preparation, measure, amount, geography, date/source, limitation, conclusion, and time.") + flow("#4c8b38", "Oral/AAC evidence window · 35", "Use the preassigned route; students waiting complete private self-evidence and transfer reflection.") + flow("#8e4f7a", "Self-score and revise · 7", "Use all four criteria and keep one change visible.") + flow("#d39b22", "Week 5 preview · 3", "Private campus interview route; no family contact information is collected."),
-            "MONITOR": "<p>The roster only closes when routes are planned before class. Parallel small groups, teacher conferences, private recordings, and AAC are equal evidence routes. A written-only response is not mislabeled oral evidence unless an accommodation changes the task. Do not score accent, speech difference, disability, camera use, eye contact, public confidence, or English mechanics unless meaning is unclear. Trim optional public sharing first.</p>",
+            "MONITOR": "<p><strong>Minute 5:</strong> every student has a route, slot, and named technology. If one-third are not ready, use the complete fixed model and conference queue. <strong>Minute 25:</strong> the checkoff shows at least half of oral/AAC routes complete while waiting students finish written evidence. <strong>Minute 43:</strong> each student has oral/AAC completion plus written record/self-score or a named make-up slot. Recorded route submits written record plus media together. Live/conference/AAC route submits written record while the teacher completes the named checkoff. Text alone is not oral evidence. Safe trim: remove public sharing and preview; preserve oral/AAC evidence, technology, written record, and checkoff.</p>",
             "RESOURCES": sources,
             "SUPPORT": support,
             "FALLBACK": fallback,
@@ -338,69 +470,69 @@ def teacher_content(files):
     }
 
 
-async def lock_every_file_in_folder(client, folder):
-    records = await common.paged(client, f"/folders/{folder['id']}/files")
-    locked = []
-    for record in records:
-        if not record.get("locked"):
-            record = await common.api(client, "PUT", f"/files/{record['id']}", data={"locked": "true"})
-        locked.append(record)
-    return locked
-
-
 async def main():
+    preflight()
     token = sys.stdin.readline().strip()
     if not token:
         raise SystemExit("Canvas token required on stdin")
-
-    names = {
-        "PLAN": "6sw-wk4-sales-pitch-plan.pdf",
-        "DELIVERY": "6sw-wk4-pitch-delivery-record.pdf",
-        "BRAIN": "6sw-wk4-brainboost-and-career-outline.pdf",
-        "APPEAR": "6sw-wk4-appearance-and-rehearsal.pdf",
-        "ORAL": "6sw-wk4-career-oral-evidence.pdf",
-        "RUBRIC": "6sw-wk4-career-oral-rubric.pdf",
-    }
-    support_paths = {key: ROOT / "docs/resources/worksheets" / name for key, name in names.items()}
-    pageset = [241, 242, 243, 244, 245, 246, 247, 280, 299]
-    visual_paths = {f"p{page}": ASSETS / f"fyf-p{page}.jpg" for page in pageset}
-    missing = [str(path) for path in [*support_paths.values(), *visual_paths.values()] if not path.is_file()]
-    if missing:
-        raise RuntimeError(f"Refusing partial Canvas write; missing upload dependencies: {missing}")
+    support_paths = {key: ROOT / "docs/resources/worksheets" / name for key, name in WORKSHEET_NAMES.items()}
+    visual_paths = {f"p{page}": ASSETS / f"fyf-p{page}.jpg" for page in VISUAL_PAGES}
 
     async with httpx.AsyncClient(headers={"Authorization": f"Bearer {token}"}, timeout=120) as client:
+        existing_assignments, _existing_quiz = await canvas_preflight(client)
         module = await ensure_module(client)
         support_path = "course files/CCR Materials/6SW/Wk4"
         support_folder = await common.ensure_folder(client, support_path)
-        files = {key: await common.upload(client, path, support_path) for key, path in support_paths.items()}
+        files = {key: await upload_locked(client, path, support_path) for key, path in support_paths.items()}
         visual_path = "course files/CCR Materials/6SW/Wk4/Locked Licensed Visuals"
         visual_folder = await common.ensure_folder(client, visual_path)
-        visuals = {key: await common.upload(client, path, visual_path) for key, path in visual_paths.items()}
+        visuals = {key: await upload_locked(client, path, visual_path) for key, path in visual_paths.items()}
+        support_folder, _support_count = await lock_folder_files(client, support_folder, [path.name for path in support_paths.values()])
+        visual_folder, _visual_count = await lock_folder_files(client, visual_folder, [path.name for path in visual_paths.values()])
 
         quiz = await upsert_quiz(client)
-        assignments = {}
-        for day, key in {1: "PLAN", 2: "DELIVERY", 3: "BRAIN"}.items():
-            assignments[day] = await common.upsert_assignment(
+        routes = ["student_annotation", "online_upload", "online_text_entry"]
+        descriptions = {
+            1: "<p>Complete the FYF pitch first. Submit only the two-page companion by annotation, one PDF/photo upload, or labeled text. This private formative activity is 0 points, omitted from the final grade, and unpublished for teacher transfer.</p>",
+            2: "<p><strong>Two parts are required.</strong> Recorded route: upload the completed two-page delivery record and private audio/video together as files in one submission. Live, conference, or AAC route: submit the written record by annotation, upload, or labeled text; the teacher records student, date, route, both attempt times, feedback/revision, and oral/AAC completion on the class checkoff. Text alone is not oral evidence. This private formative activity is 0 points, omitted from the final grade, and unpublished for teacher transfer.</p>",
+            3: "<p>Complete FYF BrainBoost first. Submit only the two-page individual companion by annotation, one PDF/photo upload, or labeled text. This private formative activity is 0 points, omitted from the final grade, and unpublished for teacher transfer.</p>",
+            4: "<p>Submit one two-page rehearsal record by annotation, one PDF/photo upload, or exact labeled text. Record all three context decisions, both oral/AAC rehearsal attempts, the technology actually used, and one visible revision. The retryable Quiz is feedback; it is not a substitute for this record. This private formative activity is 0 points, omitted from the final grade, and unpublished for teacher transfer.</p>",
+        }
+        assignments = {
+            day: await upsert_formative_assignment(
                 client,
+                existing_assignments[day],
                 TITLES[day],
-                "<p>Complete privately by annotation, upload, typed labeled responses, or paper. Start in the FYF workbook and use one companion route for evidence the workbook does not collect.</p>",
-                ["student_annotation", "online_upload", "online_text_entry", "media_recording"],
+                descriptions[day],
                 files[key]["id"],
+                routes,
             )
-        final_description = (
-            f'<p>Submit {common.file_link(files["ORAL"]["id"], "the two-page Career Oral Evidence Brief")} and '
-            f'{common.file_link(files["RUBRIC"]["id"], "the two-page feedback profile and self-score")} with the private 60-90-second oral/AAC evidence. '
-            "Earlier FYF work and companions are reference evidence, not additional uploads. This assignment is formative, 0 points, not graded, and unpublished for teacher transfer.</p>"
-        )
-        assignments[5] = await common.upsert_assignment(
+            for day, key in {1: "PLAN", 2: "DELIVERY", 3: "BRAIN"}.items()
+        }
+        assignments[4] = await upsert_formative_assignment(
             client,
+            existing_assignments[4],
+            DAY4_ASSIGNMENT_TITLE,
+            descriptions[4],
+            files["APPEAR"]["id"],
+            routes,
+        )
+        final_description = (
+            f'<p><strong>Two parts are required.</strong> Use {common.file_link(files["ORAL"]["id"], "the two-page Career Oral Evidence Brief")} and '
+            f'{common.file_link(files["RUBRIC"]["id"], "the two-page feedback profile and self-score")}. '
+            "<strong>Recorded route:</strong> upload the completed brief/rubric and private audio/video together as files in one submission. "
+            "<strong>Live, conference, or AAC route:</strong> submit the written brief/rubric by annotation, upload, or exact labeled text; the teacher records student, career, date, route, seconds, technology used, oral/AAC complete, and written record complete on the class checkoff. Text alone is not oral evidence. Earlier work stays in place and is not re-uploaded. This private formative activity is 0 points, omitted from the final grade, and unpublished for teacher transfer.</p>"
+        )
+        assignments[5] = await upsert_formative_assignment(
+            client,
+            existing_assignments[5],
             TITLES[5],
             final_description,
-            ["media_recording", "online_upload", "online_text_entry"],
             files["ORAL"]["id"],
+            routes,
         )
         urls = {day: f"/courses/{COURSE_ID}/assignments/{assignment['id']}" for day, assignment in assignments.items()}
-        urls[4] = f"/courses/{COURSE_ID}/quizzes/{quiz['id']}"
+        urls["quiz"] = f"/courses/{COURSE_ID}/quizzes/{quiz['id']}"
 
         students = student_content(files, visuals, urls)
         teachers = teacher_content(files)
@@ -415,14 +547,14 @@ async def main():
             1: ("Assignment", assignments[1]["id"], TITLES[1]),
             2: ("Assignment", assignments[2]["id"], TITLES[2]),
             3: ("Assignment", assignments[3]["id"], TITLES[3]),
-            4: ("Quiz", quiz["id"], TITLES[4]),
+            4: ("Assignment", assignments[4]["id"], DAY4_ASSIGNMENT_TITLE),
             5: ("Assignment", assignments[5]["id"], TITLES[5]),
         }
         order, pages = [], {}
         for day in range(1, 6):
             header_title = f"Day {day} · {labels[day]}"
-            header = await prior.upsert_item(client, module["id"], "SubHeader", None, header_title)
-            order.append(("SubHeader", header["id"], header_title))
+            await prior.upsert_item(client, module["id"], "SubHeader", None, header_title)
+            order.append(("SubHeader", header_title, header_title))
             student_title = f"STUDENT: 6SW Wk4 Day {day} - {labels[day]}"
             student_page = await common.upsert_page(
                 client,
@@ -444,7 +576,7 @@ async def main():
 
         def matches_item(entry, kind, key):
             return entry.get("type") == kind and (
-                (kind == "SubHeader" and entry.get("id") == key)
+                (kind == "SubHeader" and entry.get("title") == key)
                 or (kind == "Page" and entry.get("page_url") == key)
                 or (kind in ("Assignment", "Quiz") and entry.get("content_id") == key)
             )
@@ -466,25 +598,39 @@ async def main():
                 client,
                 "PUT",
                 f"/courses/{COURSE_ID}/modules/{module['id']}/items/{item['id']}",
-                data={"module_item[position]": position, "module_item[title]": title},
+                data={"module_item[position]": position, "module_item[title]": title, "module_item[published]": "false"},
             )
         final = await common.paged(client, f"/courses/{COURSE_ID}/modules/{module['id']}/items")
         ordered = sorted(final, key=lambda entry: entry.get("position", 0))
-        if len(ordered) != len(order):
-            raise RuntimeError(f"Expected {len(order)} Sales module items; found {len(ordered)}")
-        for position, ((kind, key, _title), entry) in enumerate(zip(order, ordered), 1):
-            if entry.get("position") != position or not matches_item(entry, kind, key):
+        if len(ordered) != 20:
+            raise RuntimeError(f"Expected 20 Sales module items; found {len(ordered)}")
+        for position, ((kind, key, title), entry) in enumerate(zip(order, ordered), 1):
+            if entry.get("position") != position or entry.get("title") != title or entry.get("published") is not False or not matches_item(entry, kind, key):
                 raise RuntimeError(f"Sales module order mismatch at position {position}")
 
-        support_files = await lock_every_file_in_folder(client, support_folder)
-        visual_files = await lock_every_file_in_folder(client, visual_folder)
-        support_folder = await common.api(client, "GET", f"/folders/{support_folder['id']}")
-        visual_folder = await common.api(client, "GET", f"/folders/{visual_folder['id']}")
-        if not support_folder.get("locked") or not visual_folder.get("locked") or any(not record.get("locked") for record in support_files + visual_files):
-            raise RuntimeError("Every Sales support folder and file must remain locked")
+        support_folder, _support_count = await lock_folder_files(client, support_folder, [path.name for path in support_paths.values()])
+        visual_folder, _visual_count = await lock_folder_files(client, visual_folder, [path.name for path in visual_paths.values()])
         module = await common.api(client, "GET", f"/courses/{COURSE_ID}/modules/{module['id']}")
-        if module.get("published"):
+        modules = await common.paged(client, f"/courses/{COURSE_ID}/modules")
+        aliases = [entry for entry in modules if entry.get("name") in {MODULE_NAME, *MODULE_ALIASES}]
+        if module.get("published") is not False or len(aliases) != 1 or aliases[0].get("id") != module.get("id"):
             raise RuntimeError("Sales module must remain unpublished")
+        for day, assignment in assignments.items():
+            title = DAY4_ASSIGNMENT_TITLE if day == 4 else TITLES[day]
+            assignments[day] = await assert_annotation_assignment(client, title, assignment, files[ANNOTATION_DAYS[day]]["id"], routes)
+        quiz = await common.api(client, "GET", f"/courses/{COURSE_ID}/quizzes/{quiz['id']}")
+        if quiz.get("published") is not False or quiz.get("quiz_type") != "practice_quiz" or int(quiz.get("allowed_attempts") or 0) != -1:
+            raise RuntimeError("Sales practice Quiz final state mismatch")
+        final_questions = await common.paged(client, f"/courses/{COURSE_ID}/quizzes/{quiz['id']}/questions")
+        expected_question_names = [name for name, *_rest in QUESTIONS]
+        if [question.get("question_name") for question in final_questions] != expected_question_names:
+            raise RuntimeError("Sales practice Quiz final question order mismatch")
+        for day, pair in pages.items():
+            for kind, page in pair.items():
+                fresh = await common.api(client, "GET", f"/courses/{COURSE_ID}/pages/{page['url']}")
+                if fresh.get("published") is not False:
+                    raise RuntimeError(f"Published 6SW Wk4 page remains: {fresh.get('title')}")
+                pages[day][kind] = fresh
         print(
             json.dumps(
                 {

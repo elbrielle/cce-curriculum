@@ -12,7 +12,7 @@ orientation: portrait
 
 ## Page 1 - Audience, Message, and Truth Check
 
-**Default route:** Complete Click Factor in FYF pp. 225-227 and 230. Use this companion for the individual audience, ethics, test, and career evidence the workbook does not collect. The locked Canvas images plus this page are the no-workbook route.
+**Default route:** Sample the CTA approaches in FYF pp. 225-227, then choose one supplied product and complete one ad on p. 230. Use this companion for the individual audience, ethics, test, and career evidence the workbook does not collect. The locked Canvas images plus this page are the no-workbook route.
 
 ### See one
 
@@ -42,7 +42,7 @@ orientation: portrait
 
 - [ ] The CTA uses only supplied facts.
 - [ ] No invented scarcity, deadline, discount, popularity, testimonial, or guarantee.
-- [ ] No real account, link, QR code, purchase, tracking, or personal data.
+- [ ] No real account, link, QR code, purchase, audience survey, tracking, or personal/minor data.
 - [ ] The message works without color alone and the main action is easy to find.
 
 > **Word bank:** audience/audiencia · accurate/exacto · benefit/beneficio · evidence/evidencia

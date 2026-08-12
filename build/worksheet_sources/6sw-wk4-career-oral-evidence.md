@@ -14,7 +14,9 @@ orientation: portrait
 
 Oral/AAC route: whole group / small group / teacher conference / private recording / AAC
 
-Supporting technology: private recording / Canvas evidence card / approved visual / AAC
+Supporting technology planned: timer + Canvas evidence card/approved visual / private recording / AAC
+
+Technology actually used: ________________________________________________
 
 **Boundary:** Written-only work counts only when an accommodation changes the oral task.
 
@@ -55,17 +57,21 @@ Supporting technology: private recording / Canvas evidence card / approved visua
 
 ## Page 2 - Delivery Evidence, Transfer, and Next Revision
 
-Date/route: ______________________________________________________
+Student: ____________________ Career: ____________________ Date: __________
+
+Route: whole group / small group / teacher conference / private recording / AAC
 
 Time: ______ seconds
 
+**Teacher checkoff:** oral/AAC complete [ ] written record complete [ ] technology verified [ ]
+
 **Teacher/assessor evidence--one content strength and one communication strength:**
 
-[[lines: 3]]
+[[lines: 2]]
 
-**Student self-evidence--the exact sentence, source label, organization move, pace, volume, or AAC choice that worked:**
+**Student self-evidence--exact sentence, source label, organization, pace, volume, or AAC choice:**
 
-[[lines: 3]]
+[[lines: 2]]
 
 ### Transfer the communication skill
 
@@ -75,18 +81,16 @@ Time: ______ seconds
 
 **Career 1 and how the skill works there:**
 
-[[lines: 2]]
+[[lines: 1]]
 
 **Career 2 and how the same skill works there:**
 
-[[lines: 2]]
+[[lines: 1]]
 
 **One next revision after self-scoring:**
 
-[[lines: 2]]
+[[lines: 1]]
 
-### Week 5 preview--not graded today
+**Done:** 60-90-second oral/AAC brief + technology + source label/limit + delivery evidence + 2-career transfer + self-score + revision.
 
-Interview practice will use a private campus route. Do not enter a family member's contact information or private family details.
-
-**Done when:** 60-90-second oral/AAC career brief + appropriate technology choice + source labels and limitation + delivery evidence + two-career transfer + self-score + next revision.
+**Collection:** Recorded route uploads brief/rubric + private audio/video together. Live/conference/AAC submits brief/rubric while teacher completes checkoff. Text alone is not oral evidence.

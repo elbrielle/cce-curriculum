@@ -44,7 +44,9 @@ For a task demonstration, tools and PPE follow the employer/site instructions. D
 
 Route: live partner / small group / teacher conference / recorded audio-video / AAC
 
-Appropriate technology choice: private recording / Canvas evidence card / teacher-approved visual / AAC
+Appropriate technology planned: timer + Canvas evidence card/teacher-approved visual / private recording / AAC
+
+Technology actually used: ________________________________________________
 
 ### Attempt 1
 
@@ -54,7 +56,7 @@ Content present: career / duty / preparation / labeled labor evidence / bounded 
 
 **One exact strength and one exact revision:**
 
-[[lines: 2]]
+[[lines: 1]]
 
 ### Make the revision visible
 
@@ -72,10 +74,10 @@ Time: ______ seconds
 
 **What became clearer, more accurate, better organized, or easier to understand:**
 
-[[lines: 2]]
+[[lines: 1]]
 
 **Final content check and final delivery/AAC check:**
 
 [[lines: 1]]
 
-**Done when:** three context decisions and questions + access/safety reasoning + Quiz feedback + two rehearsals + technology choice + visible revision.
+**Checkoff:** student ______ career ______ date ______ route ______ Attempt 1 ___ sec Attempt 2 ___ sec oral/AAC [ ] technology [ ]

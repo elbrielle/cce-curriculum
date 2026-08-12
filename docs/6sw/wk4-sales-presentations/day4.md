@@ -12,7 +12,7 @@
 
 ## Before Class
 
-Post the two-page landscape companion and practice Quiz. Set oral/AAC rehearsal routes and a visible timer. Do not require students to model clothing, disclose cost/body/culture/religion/disability information, or turn appearance into a gendered fashion lesson.
+Per student, have one two-page landscape companion, a pencil, the private rehearsal-record Assignment, linked practice Quiz access, and the Day 3 outline. One timer serves the class. Students complete one record route by Canvas annotation/upload/text or paper; do not assign both. Preassign live, conference, private-recording, or AAC routes. Every route names appropriate technology: timer plus evidence card/teacher-approved visual, private recording, or AAC device. Project this rehearsal model: **Attempt 1** omitted the labor-evidence limit. **Revision:** add “This U.S. median does not guarantee my pay.” **Attempt 2** includes the limit while the evidence card keeps the source label visible. Do not require clothing modeling or personal cost/body/culture/religion/disability disclosure.
 
 ## 50-Minute Flow
 
@@ -26,7 +26,7 @@ Post the two-page landscape companion and practice Quiz. Set oral/AAC rehearsal 
 
 ## Key and Trim Point
 
-Score prepared, clean, functional, safe, and role-aware reasoning, not brand, expense, body, gender, culture, religion, or disability. Task-required PPE must be confirmed with the employer/site; fashion guidance never overrides safety/accommodation. Trim optional class modeling first.
+Use these context models: office/customer-facing = clean functional clothing plus workplace/access verification; task demonstration = clean work clothing plus exact site PPE/tool verification; virtual = tested audio, private background, notifications off, backup route, and verified access expectations. At minute 17, each scenario needs a functional choice and question. If one-third write fashion rules, return to workplace/task/safety/format/accommodation. At minute 33, check Attempt 1 oral/AAC evidence and named technology. At minute 45, require Attempt 2 and a visible revision. Trim the Quiz to catch-up and remove class modeling first; preserve both rehearsals and technology evidence. Submit the Canvas record or collect one labeled paper companion, then close devices.
 
 ## Absence and Access
 
