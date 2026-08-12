@@ -3,9 +3,9 @@
 ## Daily Learning Contract
 
 - **Topic:** Evidence Briefing
-- **Objective:** Students will organize and deliver a private professional briefing that uses career, training, entrepreneurship, and labor evidence to justify a next action.
+- **Objective:** Students will organize and deliver a private professional briefing using an appropriate evidence or assistive technology to justify a next action with career, training, entrepreneurship, and labor evidence.
 - **TEKS:** d(1)(C), d(2)(A), d(3)(I), d(4)(C), d(5)(A)
-- **Demonstration of Learning:** Private 45-60 second evidence brief, specific six-weeks reflection, self-score, and visible revision.
+- **Demonstration of Learning:** Private 45-60 second oral/AAC evidence brief using a companion/evidence card, private recording, or AAC device; specific six-weeks reflection, self-score, and visible revision.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
@@ -18,7 +18,11 @@
 
 ## Assessment Boundary
 
-This is **formative synthesis only**. The fifth-six-weeks assessment map already contains three minors and two majors; this activity does not create a third major and does not replace a prior grade. Oral-presentation evidence comes from live, teacher-conference, audio, recorded, or AAC delivery. A written transcript may support planning and accessibility, but written-only work is not labeled d(4)(C) oral evidence.
+This is **formative synthesis only**. The fifth-six-weeks assessment map already contains three minors and two majors; this activity does not create a third major and does not replace a prior grade. Every oral/AAC route uses an appropriate evidence or assistive technology: a companion/evidence card for live or teacher-conference delivery, a private recording, or an AAC/speech-generating device. A written transcript may support planning and accessibility, but written-only work is not labeled d(4)(C) oral evidence.
+
+## Before Class
+
+Provide one two-page brief per student, rubric access, and Days 1-4 evidence or the fixed facts already printed in this week. Preassign one private technology route: companion/evidence card for live or conference delivery, private recording, or AAC/speech-generating device. Open a **Day 5 Oral/AAC Evidence Checkoff** on the class roster with these fields: student, date, technology route, two source-labeled facts, tradeoff or limit, next action, and complete/follow-up. Project this model: *I am considering real-estate sales. TREC shows active practice requires broker sponsorship, and BLS reports a $56,320 May 2024 U.S. median that excludes self-employed workers. Income may be irregular, so my next action is to compare a broker-sponsored route with a predictable-pay role.* Use asynchronous submission by default.
 
 ## 50-Minute Flow
 
@@ -47,7 +51,14 @@ The 45-60 second brief has four jobs:
 3. explain one tradeoff or limitation;
 4. state one next investigation action.
 
-Students prepare and submit a short audio, recorded-media, or AAC response. A teacher conference or live response is available when useful, but the class does not wait for one-at-a-time presentations. Public whole-class presentation is optional celebration, not required evidence.
+Students use a companion/evidence card for a live or teacher-conference response, a private recording, or an AAC/speech-generating device. Camera use and visual polish are not required. The class does not wait for one-at-a-time presentations. Public whole-class presentation is optional celebration, not required evidence.
+
+The two required parts have one exact collection protocol:
+
+- **Default private recording route:** In the Canvas Assignment, students choose **File Upload** and attach the completed written brief/reflection plus the private audio or video file together.
+- **Live, teacher-conference, or AAC route:** Students submit the written reflection by Canvas annotation, file upload, text entry, or labeled paper. The teacher records the oral/AAC evidence on the **Day 5 Oral/AAC Evidence Checkoff**.
+
+A media file by itself is incomplete because it does not collect the written reflection. Written work by itself is not oral/AAC evidence.
 
 ### 4. Reflect and Revise (18 min)
 
@@ -55,11 +66,11 @@ Students name three specific pieces of learning from the six weeks, explain the 
 
 ### 5. Deliver and Submit (5 min)
 
-Students submit the private brief and reflection. The rubric scores source accuracy, licensing/compensation reasoning, entrepreneurship/labor connection, and communication/reflection.
+Students submit both parts. For the recording route, Canvas holds the written reflection and audio/video file together. For a live, conference, or AAC route, the writing has its own named home and the Day 5 Oral/AAC Evidence Checkoff records the performance. The rubric scores source accuracy, licensing/compensation reasoning, entrepreneurship/labor connection, and communication/reflection.
 
 ## Monitoring and Grading
 
-Do not score career choice, family finances, artistic polish, accent, confidence, grammar unless meaning is unclear, or submission mode. Students with an authorized accommodation receive an equivalent communication route; document which evidence actually demonstrates the oral standard.
+At minute 14, each plan should have a direction or question and two source-labeled facts. If one-third list facts without a decision, reproject the model and mark direction, evidence, limit, and action. At minute 27, rehearsal should run 45-60 seconds and name one tradeoff or limit. By minute 42, the reflection should include three specifics, one cross-week connection, and a self-score. By minute 47, the revision should be visible and each student should have either two uploaded files or a written submission paired with a Day 5 Oral/AAC Evidence Checkoff entry. Safe trim: accept concise reflection bullets and finish the recording or conference asynchronously. Never trim the two facts, tradeoff, next action, technology support, written reflection, or visible revision. Do not score career choice, family finances, artistic polish, accent, confidence, grammar unless meaning is unclear, or submission mode.
 
 ## Support and Fallback
 

@@ -20,6 +20,10 @@
 
 The fixed BLS evidence is national and dated. It does not prove DFW starting pay, a current vacancy, a worker shortage, future home prices, or guaranteed commission income. H&L and live housing sites are optional enrichment only.
 
+## Before Class
+
+Provide one Canvas-capable device or one two-page labor guide per student. Project this model: *BLS reports a $56,320 May 2024 U.S. median for Sales Agents. That does not prove DFW starting pay, and the wage survey excludes self-employed workers.* Keep the five-question practice Quiz unpublished, ungraded, and unlimited-retry. It is feedback after the guide, not a second written DOL.
+
 ## 50-Minute Flow
 
 ### 1. Warm-Up: Growth Is Not Openings (5 min)
@@ -55,7 +59,7 @@ Students use the unlimited-retry Quiz to repair median, openings, self-employed,
 
 ## Monitoring Key
 
-Require source/date/geography/measure labels. Reject “46,300 new DFW jobs,” “3% means low demand,” “median means starting pay,” and “self-employed wages are included.” Accept multiple Jordan decisions when evidence and limitations are accurate.
+At minute 14, students should label both medians with date, geography, measure, and occupation. If one-third call openings growth, model replacement needs versus net change. By minute 29, the explanation should separate 3% growth from about 46,300 annual openings. By minute 40, the Jordan response should use two facts, one risk, and an authorized source. By minute 47, students should repair at least one Quiz label. Safe trim: teacher-check Questions 1-3 orally and leave the Quiz for catch-up; protect the written conclusion, limitation, and Jordan recommendation. Collect one guide route.
 
 ## Support and Fallback
 

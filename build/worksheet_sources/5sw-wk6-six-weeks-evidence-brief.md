@@ -26,9 +26,9 @@ Use short notes, not a full script.
 
 Complete thought: **I am considering [direction]. [Source] shows [fact]. A tradeoff or limit is [limit], so my next action is [action].**
 
-Delivery route: [ ] audio  [ ] recorded media  [ ] teacher conference/live  [ ] AAC  [ ] authorized accommodation
+Technology route: [ ] companion/evidence card for live or teacher conference  [ ] private recording  [ ] AAC/speech-generating device  [ ] authorized accommodation
 
-A written plan supports delivery, but written-only work is not labeled oral-presentation evidence.
+A written plan supports delivery, but written-only work is not labeled oral-presentation evidence. Camera use and visual polish are not required.
 
 [[pagebreak]]
 

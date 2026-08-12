@@ -24,7 +24,7 @@ Students succeed when they can:
 - **d(1)(C):** Identify career opportunities in Business, Marketing & Finance.
 - **d(2)(A):** Research and describe current training and licensing requirements.
 - **d(3)(I):** Define entrepreneurship and identify a real-estate opportunity and responsibility.
-- **d(4)(C):** Demonstrate professional oral communication through an individual live, conference, audio, recorded, or AAC briefing.
+- **d(4)(C):** Demonstrate professional oral communication through an individual briefing using a companion/evidence card for live or conference delivery, a private recording, or an AAC/speech-generating device.
 - **d(5)(A):** Analyze dated wage, outlook, openings, and economic-sensitivity evidence.
 
 ## Source and Platform Boundaries

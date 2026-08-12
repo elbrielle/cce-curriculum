@@ -25,12 +25,16 @@ Fallback: the packet supplies three May 2024 U.S. BLS medians from Architecture 
 2. **Three-career comparison — 20 min.** Record the same wage measure, preparation, and one limitation for three careers.
 3. **Tradeoff decision — 10 min.** Students recommend one career using two exact evidence details, one personal priority, and one disadvantage or cost of that choice. The recommendation explains a current preference; it does not prove one career is objectively best.
 4. **Portfolio summary and budget revision — 10 min.** Use Days 1–4 as references when available. In the Day 5 portfolio, show all three salary-minus-annual-target calculations, record the revised monthly planning result, and correct one weak or mislabeled claim. Prior formative packets are not attached again.
-5. **Exit — 5 min.** State the selected career, two evidence details, the revised budget result, and one limitation.
+5. **Rubric check, submit, and clean up — 5 min.** State the selected career, two evidence details, the revised budget result, and one limitation; submit one private portfolio and return materials.
+
+Default digital: one device and calculator per student; a calculator may be shared by a pair. Paper: one four-page landscape portfolio and one two-page rubric per student, with one collection tray. Students submit individual evidence. Days 1–4 are references only and are not attached again.
 
 ## Monitoring and scoring
 
 The salary comparison must use at least three careers and one comparable basis. The recommendation receives credit for evidence and an honest tradeoff, not for choosing the highest-paying career. The budget criterion uses the three visible salary-minus-target calculations, revised monthly result, and evidence limitation in this portfolio--not a second review of every Day 2 category.
 
+At minute 8, students with mixed Xello labels switch to the fixed fallback. By minute 32, the recommendation needs two exact facts and a tradeoff; by minute 42, every rubric job must be visible. Students behind use fixed evidence and labeled bullets. Cut sharing and decorative formatting before cutting a scored criterion; save the same portfolio for recovery rather than assigning homework or resubmitting Days 1–4.
+
 ## Access and absence route
 
-The fixed three-career evidence makes the lesson independent of Xello availability. Students may submit an annotated packet, typed labeled response, upload, audio explanation, or accommodation-aligned equivalent. H&amp;L favorites, public partner comparisons, a Canva vision board, and a prior workbook are optional and ungraded.
+The fixed three-career evidence makes the lesson independent of Xello availability. Students may submit an annotated packet, typed labeled response, upload, speech-to-text within the document/text route, or the same labeled paper portfolio. H&amp;L favorites, public partner comparisons, a Canva vision board, and a prior workbook are optional and ungraded.

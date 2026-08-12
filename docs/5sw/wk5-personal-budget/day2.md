@@ -36,13 +36,17 @@ These are scenario estimates, not a family's bill, a guaranteed price, or a comp
 2. **Worked model — 12 min.** Build the fixed $3,450 baseline one category at a time. Check units and total after every section.
 3. **Student budget — 25 min.** Use the supplied fictional monthly income of **$4,200**. Students keep, reduce, or increase stated categories to reflect the Day 1 lifestyle, add savings and wants, then calculate surplus or shortage. Every change needs a written assumption.
 4. **$300 event card — 5 min.** Reduce the fictional monthly income by $300 and identify the first revision without judging the career or family.
-5. **Exit — 3 min.** Record final balance and one justified revision.
+5. **Submit and clean up — 3 min.** Record final balance and one justified revision, submit privately, and return calculators/devices.
+
+Default digital: one device and calculator per student; a calculator may be shared by a pair. Paper: one four-page packet per student and one collection tray. Students build individual budgets from the fixed scenario.
 
 ## Monitoring checks
 
 - Minute 5 of the build: income and units are correct.
 - Minute 15: basic categories are complete.
 - Minute 22: total and surplus/shortage are visible.
+
+If more than one-quarter mixes annual and monthly units, pause and relabel both together. Students behind use the worked baseline but still complete the balance, $300 event, revision, and limit. Cut optional peer comparison before cutting evidence; save the same packet for recovery.
 
 Common errors: mixing annual and monthly numbers, subtracting the same amount twice, omitting a category without explaining it, converting a career salary into take-home pay, or calling the fixed scenario a real person's budget.
 

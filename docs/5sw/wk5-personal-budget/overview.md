@@ -46,7 +46,7 @@ Every day receives a paired Teacher Facilitator Guide and Student Guide. Require
 
 - Days 1–3 use Student Annotation, upload, typed labeled responses, or paper.
 - Day 4 uses a short unlimited-retry Canvas practice Quiz for bounded financial-aid misconceptions plus a private notes artifact.
-- Day 5 uses one self-contained private portfolio Assignment with upload, text, or media options and a student-visible 16-point rubric. Days 1–4 may inform the decision but are not extra attachments the teacher must reopen to score the major.
+- Day 5 uses one self-contained private portfolio Assignment with annotation, upload, or typed labeled responses and a student-visible 16-point rubric. The teacher may collect the same labeled paper portfolio. Days 1–4 may inform the decision but are not extra attachments the teacher must reopen to score the major.
 - CareerOneStop, the MIT Living Wage Calculator, Canva, and Adobe Express may be linked as extensions. None is a completion gate.
 
 ## Grading recommendation

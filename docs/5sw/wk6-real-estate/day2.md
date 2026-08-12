@@ -20,6 +20,10 @@
 
 Students do not create a REALM account, apply, submit personal information, schedule fingerprints, or contact a broker. Commission terms are negotiable and divided among parties according to agreements. Classroom percentages and splits are fictional math conditions, not "typical" or guaranteed earnings.
 
+## Before Class
+
+Provide one Canvas-capable device or one three-page packet per student, plus a pencil and calculator. Students work independently; pairs may compare the seven-step order before revising. Project the worked model already printed in the packet and this nonexample: *The agent takes home $5,250.* Students should identify that the sentence drops taxes, expenses, agreement terms, timing, and whether the transaction closes.
+
 ## 50-Minute Flow
 
 ### 1. Warm-Up: Gross Is Not Take-Home (5 min)
@@ -65,7 +69,7 @@ Put three TREC steps in order, calculate one fictional scenario, and explain why
 
 ## Monitoring Key
 
-Full-credit work labels all percentages and splits as supplied fictional terms, shows multiplication in order, and names at least one missing cost/tax/timing factor. Preference is not scored.
+At minute 15, students should have steps 1, 2, 6, and 7 correctly placed. If one-third put sponsorship before inactive eligibility, contrast inactive license status with active practice. At minute 29, Scenario A should show $5,600 then $3,640. At minute 40, B should show $9,562.50 then $5,259.38 and C should show $10,500 then $7,350. By minute 46, the limitation should name a missing tax, expense, agreement, timing, or closing condition. Safe trim: solve C together, but protect all seven steps, one independent two-step scenario, and the compensation limit. Collect one route.
 
 ## Support and Fallback
 

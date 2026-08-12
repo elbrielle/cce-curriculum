@@ -12,7 +12,9 @@ orientation: landscape
 
 ## 1. Hold the Job Offer Constant
 
-Fictional Jordan has the same **$70,000 annual before-tax offer** in every location. The household scenario also stays the same: one adult/no children, 2,080 work hours/year. MIT Living Wage Calculator data was updated February 15, 2026.
+Fictional Jordan has the same **$70,000 annual before-tax offer** in every location. The household scenario also stays the same: one adult/no children. MIT Living Wage Calculator data was updated February 15, 2026.
+
+Use the **supplied official annual before-tax targets**. Do not rebuild them from the displayed hourly rates; the hourly display is rounded and will produce a slightly different result. Your calculation job is $70,000 minus the supplied annual target.
 
 | Location | Hourly target | Annual before-tax target | $70,000 - target | Result |
 |---|---:|---:|---:|---|
@@ -27,7 +29,7 @@ Choose Dallas and two other locations. Complete all three table cells, then show
 
 **Word bank:** fixed offer/oferta fija · annual target/meta anual · gap/diferencia · above/por encima · below/por debajo.
 
-**Calculation frame:** $70,000 - [annual target] = [gap].
+**Calculation frame:** $70,000 - [supplied annual target] = [gap].
 
 [[pagebreak]]
 

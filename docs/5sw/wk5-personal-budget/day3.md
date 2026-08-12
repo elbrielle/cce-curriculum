@@ -15,7 +15,7 @@
 
 ## Fixed February 2026 evidence
 
-MIT Living Wage Calculator, one adult/no children, 2,080 work hours per year:
+MIT Living Wage Calculator, one adult/no children:
 
 | Location | Living-wage hourly rate |
 |---|---:|
@@ -30,13 +30,17 @@ Students compare Dallas with two of the other locations. Fictional Jordan receiv
 
 1. **Prediction — 5 min.** Rank the four locations before seeing the rates.
 2. **Read the fixed evidence — 8 min.** Identify household scenario, date, hourly unit, and source limitation.
-3. **Three-location comparison — 20 min.** Convert the hourly requirement to an annual before-tax target using 2,080 hours, then subtract each target from Jordan's fixed $70,000 offer.
+3. **Three-location comparison — 20 min.** Use the supplied official annual before-tax targets, then subtract each target from Jordan's fixed $70,000 offer. Do not rebuild the annual target from the rounded hourly display.
 4. **Relocation decision — 12 min.** Choose a location for fictional Jordan using the three calculated gaps, two nonfinancial factors, and one question the table cannot answer.
-5. **Exit — 5 min.** Rank three locations and cite one number for the first and last ranks.
+5. **Submit and clean up — 5 min.** Rank three locations, cite one number for the first and last ranks, submit privately, and return materials.
+
+Default digital: one device and calculator per student; a calculator may be shared by a pair. Paper: one two-page landscape packet per student and one collection tray. Students complete individual comparisons.
 
 ## Monitoring key
 
-Hourly living-wage rate × 2,080 gives an approximate annual earnings target. The fixed $70,000 offer is a fictional comparison tool. It does not provide a local salary for an occupation, predict rent, prove affordability for every person, or include a student's desired household.
+The official annual targets are supplied because MIT's displayed hourly values are rounded; hourly × 2,080 will differ slightly. The fixed $70,000 offer is a fictional comparison tool. It does not provide a local salary for an occupation, predict rent, prove affordability for every person, or include a student's desired household.
+
+By minute 25, three calculations should use the supplied annual targets. By minute 40, the recommendation should contain three gaps, two nonfinancial factors, and one unresolved question. If students are behind, use labeled bullets; cut prediction sharing before cutting evidence. Save the same response for recovery.
 
 ## Access and absence route
 

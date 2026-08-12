@@ -20,6 +20,10 @@
 
 This is a fictional workbook decision model. Costs and estimated value increases are supplied scenario data, not current contractor bids, appraisals, tax advice, financing advice, or a promise of profit. Students do not research or use real addresses, listings, family property, or purchase plans.
 
+## Before Class
+
+Provide FYF pp. 238-239, pencil, calculator, and one one-page companion per student by Canvas annotation or print. Pairs may discuss buyer evidence, but each student submits one companion. Project this model: *Kitchen refresh costs $10,000 and adds an estimated $15,000, so net change is +$5,000. It fits the supplied buyer preference for a modern kitchen. It does not prove a real bid or resale gain.* Use the locked FYF images only for projection or absence. Do not print a second renovation table.
+
 ## 50-Minute Flow
 
 ### 1. Warm-Up: Benefit and Responsibility (5 min)
@@ -40,9 +44,11 @@ Students work directly in FYF pp. 238-239. They select upgrades from the workboo
 
 Active monitoring:
 
-- Lap 1: total cost is at or below $25,000.
-- Lap 2: every reason cites a buyer preference, not personal taste.
-- Lap 3: total net value change uses value added minus cost.
+- Minute 14: students can calculate one net change and cite a buyer preference. If one-third choose by taste, reread the four supplied preferences.
+- Minute 28: total cost is at or below $25,000 and work remains in the FYF table.
+- Minute 40: companion totals match the plan, and opportunity, responsibility, risk, and qualified role are distinct.
+
+Safe trim: accept a three-upgrade plan and concise bullets. Protect the math audit, buyer-evidence reason, risk, and simulation limit. Check FYF in place and collect only the companion.
 
 ### 4. Entrepreneurship Connection (10 min)
 

@@ -18,7 +18,7 @@
 
 ## Before Class
 
-Post the fixed guide and private annotation activity. H&L may be opened for optional exploration, but it is not the source of record for licensing or pay. Do not ask students to search live salary ranges.
+Provide one Canvas-capable device or one two-page fixed guide per student, plus a pencil. Students use one route, not both. Work is independent; pairs of two may rehearse the comparison before each student submits. Project this model: *A Sales Agent helps manage a transaction under a sponsoring broker. A property appraiser develops a value opinion under a separate credential boundary. The Real Estate Marketing pathway is an option to investigate, not a license guarantee.* Prepare one labeled paper tray or the private Canvas collector. H&L may be opened for optional exploration, but it is not the source of record for licensing or pay.
 
 ## 50-Minute Flow
 
@@ -49,7 +49,7 @@ Name one role, one work product, one correct regulator/license boundary, and one
 
 ## Monitoring Key
 
-Reject these shortcuts: every role is an agent; a sales-agent license permits appraisal; every property manager needs the same license; commission means a fixed percentage; the high-school pathway guarantees a license. Accept different career directions when the evidence is accurate.
+At minute 13, students should match each role to a distinct work product. If one-third collapse the roles, reproject the model and sort one role by work product and regulator. By minute 28, all four role rows should be usable. By minute 40, comparisons should name two differences and an authorized source. Safe trim: accept one concise difference in each category, but protect the official-source question and correct license boundary. Collect one route and close devices.
 
 ## Support and Fallback
 
