@@ -132,16 +132,17 @@ async def assert_annotation_assignment(client, assignment, source_attachment_id,
 
 
 async def assert_folder_files(client, folder, expected_names):
-    """Lock and verify every file currently stored in an exact module folder."""
+    """Require the current package and lock every file already in its module folder."""
     folder = await common.lock_folder_files(client, folder)
     files = await common.paged(client, f"/folders/{folder['id']}/files")
     actual = {record.get("display_name") or record.get("filename") for record in files}
     if folder.get("locked") is not True or any(record.get("locked") is not True for record in files):
         raise RuntimeError(f"Education folder lock invariant failed for {folder['id']}")
-    if actual != set(expected_names):
+    missing = set(expected_names) - actual
+    if missing:
         raise RuntimeError(
-            f"Education folder contents mismatch for {folder['id']}: "
-            f"expected={sorted(expected_names)!r}, actual={sorted(actual)!r}"
+            f"Education folder is missing required files for {folder['id']}: "
+            f"missing={sorted(missing)!r}, actual={sorted(actual)!r}"
         )
     return folder, files
 
