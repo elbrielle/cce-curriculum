@@ -62,13 +62,15 @@ async def canvas_preflight(client):
         matches = [entry for entry in assignments if entry.get("name") == title]
         if len(matches) > 1:
             raise RuntimeError(f"Duplicate assignments named {title!r}: {[entry['id'] for entry in matches]}")
+        # Legacy unpublished practices may have extra submission routes. The
+        # write below normalizes those routes, and the post-write/final checks
+        # require the exact approved set. Grading/publication state still fails
+        # closed before any mutation.
         if matches and (
             matches[0].get("published") is not False
             or float(matches[0].get("points_possible") or 0) != 0
             or matches[0].get("grading_type") != "percent"
             or matches[0].get("omit_from_final_grade") is not True
-            or set(matches[0].get("submission_types") or [])
-            != {"student_annotation", "online_upload", "online_text_entry"}
         ):
             raise RuntimeError(f"Refusing to modify malformed formative assignment {title!r}")
         assignment_matches[day] = matches[0] if matches else None
