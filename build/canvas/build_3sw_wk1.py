@@ -38,7 +38,7 @@ def preflight():
         XELLO / "skills.pdf",
         XELLO / "skills/skills-slides-irving.pptx",
         XELLO / "skills/skills-slides-spanish.pptx",
-        ASSETS / "day1/fyf-agriculture-opener.png",
+        ASSETS / "day1/fyf-agriculture-opener.jpg",
         *(ASSETS / "day3" / f"fyf-vet-triage-{number}.png" for number in range(1, 5)),
         *(ASSETS / "day5" / f"fyf-irving-ag-programs-{number}.png" for number in range(1, 3)),
     ]
@@ -302,7 +302,18 @@ async def main():
             folders[day], uploads[day] = await ensure_folder(client, folder_path), {}
             source = ASSETS / f"day{day}"
             if source.exists():
-                for path in sorted(source.glob("*.png")):
+                for path in sorted(
+                    candidate
+                    for candidate in source.iterdir()
+                    if candidate.suffix.lower() in {".png", ".jpg", ".jpeg"}
+                    and not (
+                        candidate.suffix.lower() == ".png"
+                        and (
+                            candidate.with_suffix(".jpg").exists()
+                            or candidate.with_suffix(".jpeg").exists()
+                        )
+                    )
+                ):
                     uploads[day][path.name] = await upload(client, path, folder_path)
         support_folder, support_file_count = await lock_folder_files(client, support_folder)
         folder_file_counts = {}
@@ -316,7 +327,7 @@ async def main():
                 "PURPOSE": "Compare three veterinary careers using one dated evidence set.",
                 "TODAY": "<ul><li>identify what each role does;</li><li>compare education, pay, growth, and openings;</li><li>choose one role to investigate.</li></ul>",
                 "READY": f'<p>Open {file_link(files["CAREERS"]["id"], "the Veterinary Career Evidence Guide")}.</p>',
-                "MEDIA": image_tag(uploads[1]["fyf-agriculture-opener.png"]["id"], "Find Your Future agriculture and animal-care career opener"),
+                "MEDIA": image_tag(uploads[1]["fyf-agriculture-opener.jpg"]["id"], "Find Your Future agriculture and animal-care career opener"),
                 "STEPS": step(1, "Stop and Jot", "<p>Who works on a veterinary team, and what might that person do?</p>") + step(2, "Read all three career cards", "<p>Read duties first. Then read preparation and labor evidence. Keep the salary measure, source, date, and education route attached to each number.</p>") + step(3, "Choose one role", "<p>Complete the Day 1 choice on the guide. Use this frame: <strong>I would investigate ____ because the work includes ____ and the preparation requires ____.</strong></p>"),
                 "EXIT": "<p>Submit or store the Day 1 choice. A partner may check that the two facts can be found in the guide.</p>",
                 "DONE": "<ul><li>three roles reviewed;</li><li>one role chosen;</li><li>one daily task and one preparation requirement recorded.</li></ul>",

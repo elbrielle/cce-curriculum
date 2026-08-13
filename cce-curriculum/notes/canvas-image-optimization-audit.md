@@ -33,6 +33,25 @@ JPEG delivery copies were exported at quality 82 while retaining the original di
 
 `build_wk1.py` and `build_wk5.py` now prefer a same-stem JPEG when it exists and skip the larger PNG during Canvas upload. The original PNGs remain available for regeneration and close inspection but are no longer the active delivery files for those pages.
 
+## 3SW Week 1 Agriculture Opener
+
+The 3SW Week 1 Day 1 FYF Agriculture opener was the largest remaining likely
+delivery candidate in the local audit. The licensed 1,275 by 1,650 PNG remains
+unchanged in the gitignored archive. A 1,020 by 1,320 JPEG delivery copy reduced
+the file from 1,518,018 bytes to 482,337 bytes, a 68.2% reduction.
+
+The original and delivery copy were compared at original detail, the 720-pixel
+Canvas maximum, and a 390-pixel viewport. The chapter title, explanatory text,
+decision prompt, career labels, and page number remain as readable as the source
+at each displayed size. The native Student Guide and fixed career-evidence guide
+remain the independent text route. `build_3sw_wk1.py` now preflights, uploads,
+locks, and embeds the JPEG while retaining the PNG locally.
+
+The local audit now reports the complete licensed archive separately from likely
+Canvas delivery candidates. Same-stem PNG originals are excluded from the
+delivery ranking when a JPEG delivery copy exists, which prevents source
+preservation from being misreported as student download weight.
+
 ## Duplicate Findings
 
 The clearest repeated uploads are:
