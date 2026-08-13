@@ -40,6 +40,24 @@ TEACHER_MODULE = "Teacher Build: Licensed Resources"
 TEACHER_TITLE = "TEACHER: CCE Course Launch Guide"
 STUDENT_TITLE = "STUDENT: Start Here - How CCE Works"
 HOME_TITLE = "Career and College Exploration Home"
+CONTRACT_SECTION_RE = re.compile(
+    r"<section\b[^>]*\bdata-cce-lesson-contract\s*=\s*['\"]1['\"][^>]*>"
+    r".*?</section>",
+    re.I | re.S,
+)
+TEACHER_LEGACY_CONTRACT_RE = re.compile(
+    r'<strong\b[^>]*>\s*topic\s*:?.*?'
+    r'<strong\b[^>]*>\s*objective\s*:?.*?'
+    r'<strong\b[^>]*>\s*teks\s*:?.*?'
+    r'<strong\b[^>]*>\s*demonstration of learning\s*:?',
+    re.I | re.S,
+)
+STUDENT_LEGACY_CONTRACT_RE = re.compile(
+    r'<strong\b[^>]*>\s*topic\s*:?.*?'
+    r'<strong\b[^>]*>\s*(?:objective|i can|today[’\']s learning)\s*:?.*?'
+    r'<strong\b[^>]*>\s*show (?:your|my) learning\s*:?',
+    re.I | re.S,
+)
 REQUEST_CONCURRENCY = 8
 _request_semaphore: asyncio.Semaphore | None = None
 _object_tasks: dict[str, asyncio.Task[object]] = {}
@@ -242,6 +260,24 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
             if title.startswith("STUDENT:")
             else "other"
         )
+        contract_sections = CONTRACT_SECTION_RE.findall(body)
+        if len(contract_sections) != 1:
+            problems.append(
+                f"page must contain exactly one marked lesson contract; found "
+                f"{len(contract_sections)}: {page.get('url')}"
+            )
+        outside_contract = CONTRACT_SECTION_RE.sub("", body)
+        legacy_pattern = (
+            TEACHER_LEGACY_CONTRACT_RE
+            if role == "teacher"
+            else STUDENT_LEGACY_CONTRACT_RE
+            if role == "student"
+            else None
+        )
+        if legacy_pattern and legacy_pattern.search(outside_contract):
+            problems.append(
+                f"page contains a duplicate legacy lesson contract: {page.get('url')}"
+            )
         if page.get("published"):
             problems.append(f"page is published: {page.get('url')}")
         unresolved = sorted(set(re.findall(r"\{\{[^}]+\}\}", body)))
