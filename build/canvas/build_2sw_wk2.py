@@ -30,10 +30,26 @@ async def ensure_folder(c,path):
         else: folder=await api(c,"POST",f"/courses/{COURSE_ID}/folders",data={"name":name,"parent_folder_path":"course files"+(f"/{current}" if current else ""),"locked":"true"})
         current=target
     if folder and not folder.get("locked"): folder=await api(c,"PUT",f"/folders/{folder['id']}",data={"locked":"true"})
+    if folder: folder=await api(c,"GET",f"/folders/{folder['id']}")
+    if not folder or folder.get("locked") is not True: raise RuntimeError(f"Canvas folder did not remain locked: {path}")
     return folder
 async def upload(c,path,folder):
     init=await api(c,"POST",f"/courses/{COURSE_ID}/files",data={"name":path.name,"parent_folder_path":folder,"on_duplicate":"overwrite"})
-    r=await c.post(init["upload_url"],data=init["upload_params"],files={"file":(path.name,path.read_bytes(),mimetypes.guess_type(path.name)[0] or "application/octet-stream")},follow_redirects=True); r.raise_for_status(); return r.json()
+    r=await c.post(init["upload_url"],data=init["upload_params"],files={"file":(path.name,path.read_bytes(),mimetypes.guess_type(path.name)[0] or "application/octet-stream")},follow_redirects=True); r.raise_for_status(); uploaded=r.json()
+    if uploaded.get("locked") is not True: uploaded=await api(c,"PUT",f"/files/{uploaded['id']}",data={"locked":"true"})
+    if uploaded.get("locked") is not True: raise RuntimeError(f"Canvas file did not remain locked: {path.name}")
+    return uploaded
+async def lock_folder_files(c,folder,required_names=()):
+    current=await api(c,"GET",f"/folders/{folder['id']}")
+    if current.get("locked") is not True: current=await api(c,"PUT",f"/folders/{folder['id']}",data={"locked":"true"})
+    files=await paged(c,f"/folders/{folder['id']}/files")
+    for file in files:
+        if file.get("locked") is not True: await api(c,"PUT",f"/files/{file['id']}",data={"locked":"true"})
+    current=await api(c,"GET",f"/folders/{folder['id']}"); verified=await paged(c,f"/folders/{folder['id']}/files")
+    names={file.get("display_name") or file.get("filename") for file in verified}; missing=set(required_names)-names
+    unlocked=[file.get("id") for file in verified if file.get("locked") is not True]
+    if current.get("locked") is not True or missing or unlocked: raise RuntimeError(f"2SW Wk2 folder invariant failed for {folder['id']}: missing={sorted(missing)} unlocked={unlocked}")
+    return current,verified
 def render(name,values):
     text=(TEMPLATES/name).read_text()
     for k,v in values.items(): text=text.replace("{{"+k+"}}",str(v))
@@ -70,12 +86,14 @@ async def main():
     async with httpx.AsyncClient(headers={"Authorization":f"Bearer {token}"},timeout=120) as c:
         module=await ensure_module(c); module_id=module["id"]; discussion=await upsert_discussion(c)
         names={"ROUTE":"2sw-wk2-first-responder-route-guide.pdf","TRACKER":"2sw-wk2-clinton-lake-evidence-tracker.pdf","SIM":"2sw-wk2-trail-simulation-record.pdf","PCR":"2sw-wk2-patient-care-report.pdf","RUBRIC":"2sw-wk2-pcr-rubric.pdf","REFLECTION":"2sw-wk2-integrity-career-reflection.pdf"}
-        support_folder="course files/CCR Materials/2SW/Wk2"; await ensure_folder(c,support_folder); files={k:await upload(c,ROOT/"docs/resources/worksheets"/v,support_folder) for k,v in names.items()}
+        support_folder="course files/CCR Materials/2SW/Wk2"; support_folder_record=await ensure_folder(c,support_folder); files={k:await upload(c,ROOT/"docs/resources/worksheets"/v,support_folder) for k,v in names.items()}
+        await lock_folder_files(c,support_folder_record,names.values())
         uploads={}; folders={}
         for day in range(1,6):
             fp=f"course files/CCR Materials/2SW/Wk2/Day {day} Visuals"; folders[day]=await ensure_folder(c,fp); uploads[day]={}
             visual_paths=sorted((ASSETS/f"day{day}").glob("file-*-upright.png" if day==2 else "*.png"))
             for path in visual_paths: uploads[day][path.name]=await upload(c,path,fp)
+            await lock_folder_files(c,folders[day],[path.name for path in visual_paths])
         student_values={
           1:{"OPENER_IMAGE_ID":uploads[1]["law-public-safety-opener.png"]["id"],"PROGRAM_IMAGE_ID":uploads[1]["irving-first-responder-programs.png"]["id"],"ROUTE_FILE_ID":files["ROUTE"]["id"]},
           2:{"TRACKER_FILE_ID":files["TRACKER"]["id"],"EVIDENCE_IMAGES":evidence_images(uploads[2]),"DISCUSSION_URL":f"/courses/{COURSE_ID}/discussion_topics/{discussion['id']}"},

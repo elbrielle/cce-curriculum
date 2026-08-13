@@ -57,6 +57,10 @@ async def ensure_folder(client, folder_path):
         current = target
     if folder and not folder.get("locked"):
         folder = await api(client, "PUT", f"/folders/{folder['id']}", data={"locked": "true"})
+    if folder:
+        folder = await api(client, "GET", f"/folders/{folder['id']}")
+    if not folder or folder.get("locked") is not True:
+        raise RuntimeError(f"Canvas folder did not remain locked: {folder_path}")
     return folder
 
 
@@ -64,15 +68,46 @@ async def upload(client, path, folder_path):
     init = await api(client, "POST", f"/courses/{COURSE_ID}/files", data={"name": path.name, "parent_folder_path": folder_path, "on_duplicate": "overwrite"})
     response = await client.post(init["upload_url"], data=init["upload_params"], files={"file": (path.name, path.read_bytes(), mimetypes.guess_type(path.name)[0] or "application/octet-stream")}, follow_redirects=True)
     response.raise_for_status()
-    return response.json()
+    uploaded = response.json()
+    if uploaded.get("locked") is not True:
+        uploaded = await api(client, "PUT", f"/files/{uploaded['id']}", data={"locked": "true"})
+    if uploaded.get("locked") is not True:
+        raise RuntimeError(f"Canvas file did not remain locked: {path.name}")
+    return uploaded
 
 
 async def find_file(client, display_name):
     files = await paged(client, f"/courses/{COURSE_ID}/files", {"search_term": display_name})
-    match = next((item for item in files if item.get("display_name") == display_name), None)
-    if not match:
-        raise ValueError(f"Canvas file not found: {display_name}")
-    return match
+    matches = [item for item in files if item.get("display_name") == display_name]
+    if len(matches) != 1:
+        raise ValueError(f"Expected one Canvas file named {display_name!r}; found {len(matches)}")
+    current = await api(client, "GET", f"/files/{matches[0]['id']}")
+    if current.get("locked") is not True:
+        current = await api(client, "PUT", f"/files/{current['id']}", data={"locked": "true"})
+    if current.get("locked") is not True:
+        raise RuntimeError(f"Referenced Canvas file did not remain locked: {display_name}")
+    return current
+
+
+async def lock_folder_files(client, folder, required_names=()):
+    current = await api(client, "GET", f"/folders/{folder['id']}")
+    if current.get("locked") is not True:
+        current = await api(client, "PUT", f"/folders/{folder['id']}", data={"locked": "true"})
+    files = await paged(client, f"/folders/{folder['id']}/files")
+    for file in files:
+        if file.get("locked") is not True:
+            await api(client, "PUT", f"/files/{file['id']}", data={"locked": "true"})
+    current = await api(client, "GET", f"/folders/{folder['id']}")
+    verified = await paged(client, f"/folders/{folder['id']}/files")
+    names = {file.get("display_name") or file.get("filename") for file in verified}
+    missing = set(required_names) - names
+    unlocked = [file.get("id") for file in verified if file.get("locked") is not True]
+    if current.get("locked") is not True or missing or unlocked:
+        raise RuntimeError(
+            f"1SW Wk0 folder invariant failed for {folder['id']}: "
+            f"missing={sorted(missing)} unlocked={unlocked}"
+        )
+    return current, verified
 
 
 def render_template(filename, values):
@@ -114,14 +149,19 @@ async def main():
             "D4_JOURNEY": "my-career-journey.pdf", "D4_STEMS": "my-career-journey-stems.pdf", "D4_BI": "my-career-journey-bilingual.pdf", "D4_RUBRIC": "wk0-career-journey-rubric.pdf", "D4_EXIT": "1sw-wk0-day4-my-career-journey-reflection-core-day-c.pdf",
             "D5_RESEARCH": "career-research-worksheet.pdf", "D5_EXAMPLE": "career-research-worksheet-example.pdf", "D5_BI": "career-research-worksheet-bilingual.pdf", "D5_EXIT": "1sw-wk0-day5-catch-up-and-your-choice-flex-day.pdf",
         }
+        support_folder = await ensure_folder(client, "course files/CCR Materials/1SW/Wk0")
         support = {key: await find_file(client, name) for key, name in support_names.items()}
+        await lock_folder_files(client, support_folder, support_names.values())
         uploads, folders = {}, {}
-        for day in (1, 3, 4, 5):
+        for day in (1, 2, 3, 4, 5):
             folder_path = f"course files/CCR Materials/1SW/Wk0/Day {day} Visuals"
             folders[day] = await ensure_folder(client, folder_path)
             uploads[day] = {}
-            for path in sorted((ASSET_ROOT / f"day{day}").glob("*.png")):
-                uploads[day][path.name] = await upload(client, path, folder_path)
+            if day != 2:
+                for path in sorted((ASSET_ROOT / f"day{day}").glob("*.png")):
+                    uploads[day][path.name] = await upload(client, path, folder_path)
+            required_names = [path.name for path in sorted((ASSET_ROOT / f"day{day}").glob("*.png"))]
+            await lock_folder_files(client, folders[day], required_names)
 
         specs = [
             {"day": 1, "teacher_url": "teacher-day-1-facilitator-guide", "teacher_title": "TEACHER: Day 1 Facilitator Guide", "student_title": "STUDENT: 1SW Wk0 Day 1 - Welcome to the CCE Lab", "values": {"CAREER_HUNT_IMAGE_ID": uploads[1]["classroom-career-hunt.png"]["id"], "SAFETY_FILE_ID": support["D1_SAFETY"]["id"], "SAFETY_BILINGUAL_FILE_ID": support["D1_SAFETY_BI"]["id"], "CAREER_HUNT_SCAFFOLD_FILE_ID": support["D1_SCAFFOLD"]["id"], "EXIT_TICKET_FILE_ID": support["D1_EXIT"]["id"]}},

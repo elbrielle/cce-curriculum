@@ -30,14 +30,33 @@ async def ensure_folder(c,path):
         else: folder=await api(c,"POST",f"/courses/{COURSE_ID}/folders",data={"name":name,"parent_folder_path":"course files"+(f"/{current}" if current else ""),"locked":"true"})
         current=target
     if folder and not folder.get("locked"): folder=await api(c,"PUT",f"/folders/{folder['id']}",data={"locked":"true"})
+    if folder: folder=await api(c,"GET",f"/folders/{folder['id']}")
+    if not folder or folder.get("locked") is not True: raise RuntimeError(f"Canvas folder did not remain locked: {path}")
     return folder
 async def upload(c,path,folder):
     init=await api(c,"POST",f"/courses/{COURSE_ID}/files",data={"name":path.name,"parent_folder_path":folder,"on_duplicate":"overwrite"})
-    r=await c.post(init["upload_url"],data=init["upload_params"],files={"file":(path.name,path.read_bytes(),mimetypes.guess_type(path.name)[0] or "application/octet-stream")},follow_redirects=True); r.raise_for_status(); return r.json()
+    r=await c.post(init["upload_url"],data=init["upload_params"],files={"file":(path.name,path.read_bytes(),mimetypes.guess_type(path.name)[0] or "application/octet-stream")},follow_redirects=True); r.raise_for_status(); uploaded=r.json()
+    if uploaded.get("locked") is not True: uploaded=await api(c,"PUT",f"/files/{uploaded['id']}",data={"locked":"true"})
+    if uploaded.get("locked") is not True: raise RuntimeError(f"Canvas file did not remain locked: {path.name}")
+    return uploaded
 async def find_file(c,name):
-    files=await paged(c,f"/courses/{COURSE_ID}/files",{"search_term":name}); match=next((f for f in files if f.get("display_name")==name),None)
-    if not match: raise ValueError(f"Canvas file not found: {name}")
-    return match
+    files=await paged(c,f"/courses/{COURSE_ID}/files",{"search_term":name}); matches=[f for f in files if f.get("display_name")==name]
+    if len(matches)!=1: raise ValueError(f"Expected one Canvas file named {name!r}; found {len(matches)}")
+    current=await api(c,"GET",f"/files/{matches[0]['id']}")
+    if current.get("locked") is not True: current=await api(c,"PUT",f"/files/{current['id']}",data={"locked":"true"})
+    if current.get("locked") is not True: raise RuntimeError(f"Referenced Canvas file did not remain locked: {name}")
+    return current
+async def lock_folder_files(c,folder,required_names=()):
+    current=await api(c,"GET",f"/folders/{folder['id']}")
+    if current.get("locked") is not True: current=await api(c,"PUT",f"/folders/{folder['id']}",data={"locked":"true"})
+    files=await paged(c,f"/folders/{folder['id']}/files")
+    for file in files:
+        if file.get("locked") is not True: await api(c,"PUT",f"/files/{file['id']}",data={"locked":"true"})
+    current=await api(c,"GET",f"/folders/{folder['id']}"); verified=await paged(c,f"/folders/{folder['id']}/files")
+    names={file.get("display_name") or file.get("filename") for file in verified}; missing=set(required_names)-names
+    unlocked=[file.get("id") for file in verified if file.get("locked") is not True]
+    if current.get("locked") is not True or missing or unlocked: raise RuntimeError(f"1SW Wk3 folder invariant failed for {folder['id']}: missing={sorted(missing)} unlocked={unlocked}")
+    return current,verified
 def render(name,values):
     text=(TEMPLATES/name).read_text()
     for k,v in values.items(): text=text.replace("{{"+k+"}}",str(v))
@@ -63,17 +82,20 @@ async def main():
         support_names={
           "CARDS":"wk3-networking-career-cards.pdf","SKILLS":"wk3-transferable-skills-list.pdf","UX":"wk3-ux-audit-scaffold.pdf","WIRE":"wk3-wireframe-template.pdf","WIRE_BI":"wk3-wireframe-template-bilingual.pdf","RESEARCH":"wk3-emerging-tech-research-template.pdf","LINKS":"wk3-emerging-careers-link-sheet.pdf","RUBRIC":"wk3-app-design-rubric.pdf","COMPARE":"wk3-day4-career-comparison.pdf","REFLECTION":"wk3-day5-learning-style-connection.pdf",
           "E1":"1sw-wk3-day1-networking-systems-pathway-transferable-skills.pdf","E2":"1sw-wk3-day2-website-revamp-audit-a-real-site.pdf"}
-        support_folder="course files/CCR Materials/1SW/Wk3"; await ensure_folder(c,support_folder); files={}
+        support_folder="course files/CCR Materials/1SW/Wk3"; support_folder_record=await ensure_folder(c,support_folder); files={}
         for key,name in support_names.items():
             source_dir=ROOT/"docs/resources/exit-tickets" if name.startswith("1sw-") else ROOT/"docs/resources/worksheets"
             files[key]=await upload(c,source_dir/name,support_folder)
         files["XELLO"]=await find_file(c,"learning-styles.pdf")
+        await lock_folder_files(c,support_folder_record,support_names.values())
         uploads={}; folders={}
         for day in range(1,6):
             folder_path=f"course files/CCR Materials/1SW/Wk3/Day {day} Visuals"; folders[day]=await ensure_folder(c,folder_path); uploads[day]={}
             day_dir=ASSETS/f"day{day}"
             if day_dir.exists():
                 for path in sorted(day_dir.glob("*.png")): uploads[day][path.name]=await upload(c,path,folder_path)
+            required_names=[path.name for path in sorted(day_dir.glob("*.png"))] if day_dir.exists() else []
+            await lock_folder_files(c,folders[day],required_names)
         student_values={
           1:{"APP_IMAGE_ID":uploads[1]["it-app-exploration.png"]["id"],"CARDS_FILE_ID":files["CARDS"]["id"],"SKILLS_FILE_ID":files["SKILLS"]["id"],"EXIT_FILE_ID":files["E1"]["id"]},
           2:{"PAGE28_IMAGE_ID":uploads[2]["website-revamp-034.png"]["id"],"PAGE29_IMAGE_ID":uploads[2]["website-revamp-035.png"]["id"],"SLIDE_IMAGE_ID":uploads[2]["website-revamp-climber-slide.png"]["id"],"FALLBACK_IMAGE_ID":uploads[2]["paws-and-claws-home.png"]["id"],"SCAFFOLD_FILE_ID":files["UX"]["id"],"EXIT_FILE_ID":files["E2"]["id"]},
