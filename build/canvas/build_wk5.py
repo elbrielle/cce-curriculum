@@ -6,7 +6,38 @@ import httpx
 
 BASE="https://learn.irvingisd.net"; COURSE_ID=98060
 MODULE_NAME="1SW Wk5: Cybersecurity, Favorite Clusters, and Capstone"
+MODULE_ALIASES={MODULE_NAME,"1SW Wk5: Cyber Defenders - Cybersecurity Careers and Capstone","1SW Wk5: Cyber Defenders — Cybersecurity Careers and Capstone"}
+MAPPED_MAJOR_TITLE="MAJOR 2: Cybersecurity Capstone Evidence Portfolio"
+MAJOR_GROUP_NAME="Major Assessments (60%)"
+RUBRIC_NOTE_MARKER='data-cce-rubric-note="cce-advisory-rubric-v1"'
+MAJOR_SUBMISSION_TYPES={"online_upload","online_text_entry","media_recording"}
 ROOT=Path(__file__).resolve().parents[2]; TEMPLATES=Path(__file__).parent/"templates"; ASSETS=ROOT/"cce-curriculum/resources/canvas-licensed/1sw/wk5"
+SUPPORT_NAMES={"ROUTE":"wk5-cyberseek-pathway.pdf","CHECK":"wk5-red-flag-checklist.pdf","PLAN":"wk5-bootcamp-planning-template.pdf","MODEL":"wk5-bootcamp-model.pdf","CONNECTION":"wk5-favorite-cluster-connection.pdf","RUBRIC":"wk5-capstone-portfolio-rubric.pdf","REFLECTION":"wk5-reflection-update-template.pdf","REFLECTION_BI":"wk5-reflection-update-bilingual.pdf"}
+REQUIRED_VISUALS={
+    1:("irving-it-programs.png",),
+    2:("safe-or-spoofed-red-flags.jpg",*(f"slide-{number}.jpg" for number in range(2,9))),
+    3:("community-cybersecurity-bootcamp.jpg","integrity-and-original-work.png"),
+    4:("it-app-exploration.png",),
+    5:("postsecondary-options.png",),
+}
+DAY2_DECK=ASSETS/"day2/optional-whole-group/safe-or-spoofed-lesson-presentation.pptx"
+
+def preferred_images(folder):
+    return sorted(
+        path for path in folder.iterdir()
+        if path.suffix.lower() in {".png",".jpg",".jpeg"}
+        and not (path.suffix.lower()==".png" and (path.with_suffix(".jpg").exists() or path.with_suffix(".jpeg").exists()))
+    )
+
+def preflight():
+    required=[
+        *(TEMPLATES/name for name in ("wk5-teacher.html",*(f"wk5-day{day}-student.html" for day in range(1,6)))),
+        *(ROOT/"docs/resources/worksheets"/name for name in SUPPORT_NAMES.values()),
+        *(ASSETS/f"day{day}"/name for day,names in REQUIRED_VISUALS.items() for name in names),
+        DAY2_DECK,
+    ]
+    missing=[str(path.relative_to(ROOT)) for path in required if not path.is_file()]
+    if missing: raise FileNotFoundError(f"1SW Wk5 preflight missing required files: {missing}")
 
 def slugify(v): return re.sub(r"[^a-z0-9]+","-",v.lower().replace("&","and")).strip("-")
 async def api(c,m,p,**kw):
@@ -16,11 +47,30 @@ async def paged(c,p,params=None):
     while url:
         r=await c.get(url,params=q); r.raise_for_status(); out+=r.json(); url=r.links.get("next",{}).get("url"); q=None
     return out
-async def ensure_module(c):
-    prior_names={"1SW Wk5: Cyber Defenders - Cybersecurity Careers and Capstone","1SW Wk5: Cyber Defenders — Cybersecurity Careers and Capstone"}
-    modules=await paged(c,f"/courses/{COURSE_ID}/modules"); found=next((m for m in modules if m["name"] in {MODULE_NAME,*prior_names}),None)
-    if found: return await api(c,"PUT",f"/courses/{COURSE_ID}/modules/{found['id']}",data={"module[name]":MODULE_NAME,"module[published]":"false"})
-    return await api(c,"POST",f"/courses/{COURSE_ID}/modules",data={"module[name]":MODULE_NAME,"module[published]":"false"})
+async def canvas_preflight(c):
+    modules=await paged(c,f"/courses/{COURSE_ID}/modules")
+    module_matches=[entry for entry in modules if entry.get("name") in MODULE_ALIASES]
+    if len(module_matches)!=1: raise RuntimeError(f"Expected one 1SW Wk5 module across accepted aliases; found {len(module_matches)}")
+    module=module_matches[0]
+    if module.get("published") is not False: raise RuntimeError("Refusing to modify a published 1SW Wk5 module")
+    groups=await paged(c,f"/courses/{COURSE_ID}/assignment_groups")
+    group_matches=[entry for entry in groups if entry.get("name")==MAJOR_GROUP_NAME]
+    if len(group_matches)!=1: raise RuntimeError(f"Expected one {MAJOR_GROUP_NAME!r} group; found {len(group_matches)}")
+    assignments=await paged(c,f"/courses/{COURSE_ID}/assignments")
+    major_matches=[entry for entry in assignments if entry.get("name")==MAPPED_MAJOR_TITLE]
+    if len(major_matches)!=1: raise RuntimeError(f"Expected one mapped assignment {MAPPED_MAJOR_TITLE!r}; found {len(major_matches)}")
+    major=major_matches[0]; failures=[]
+    if major.get("published") is not False: failures.append("published")
+    if float(major.get("points_possible") or 0)!=100: failures.append("points_possible")
+    if major.get("grading_type")!="points": failures.append("grading_type")
+    if major.get("omit_from_final_grade") is not False: failures.append("omit_from_final_grade")
+    if major.get("assignment_group_id")!=group_matches[0].get("id"): failures.append("assignment_group")
+    if set(major.get("submission_types") or [])!=MAJOR_SUBMISSION_TYPES: failures.append("submission_types")
+    if RUBRIC_NOTE_MARKER not in (major.get("description") or ""): failures.append("rubric_marker")
+    if failures: raise RuntimeError(f"Mapped Major preflight failed: {failures}")
+    return module,major,group_matches[0]
+async def ensure_module(c,module):
+    return await api(c,"PUT",f"/courses/{COURSE_ID}/modules/{module['id']}",data={"module[name]":MODULE_NAME,"module[published]":"false"})
 async def ensure_folder(c,path):
     current=""; folder=None
     for name in path.split("/")[1:]:
@@ -30,6 +80,8 @@ async def ensure_folder(c,path):
         else: folder=await api(c,"POST",f"/courses/{COURSE_ID}/folders",data={"name":name,"parent_folder_path":"course files"+(f"/{current}" if current else ""),"locked":"true"})
         current=target
     if folder and not folder.get("locked"): folder=await api(c,"PUT",f"/folders/{folder['id']}",data={"locked":"true"})
+    if folder: folder=await api(c,"GET",f"/folders/{folder['id']}")
+    if not folder or folder.get("locked") is not True: raise RuntimeError(f"Canvas folder did not remain locked: {path}")
     return folder
 async def upload(c,path,folder):
     init=await api(c,"POST",f"/courses/{COURSE_ID}/files",data={"name":path.name,"parent_folder_path":folder,"on_duplicate":"overwrite"})
@@ -39,25 +91,30 @@ async def upload(c,path,folder):
     if not uploaded.get("locked"):
         raise ValueError(f"Canvas file did not remain locked: {uploaded.get('display_name', path.name)}")
     return uploaded
-async def lock_folder_files(c,folder_id):
-    folder=await api(c,"GET",f"/folders/{folder_id}")
+async def lock_folder_files(c,folder,required_names=()):
+    folder=await api(c,"GET",f"/folders/{folder['id']}")
     if not folder.get("locked"):
-        folder=await api(c,"PUT",f"/folders/{folder_id}",data={"locked":"true"})
+        folder=await api(c,"PUT",f"/folders/{folder['id']}",data={"locked":"true"})
     if not folder.get("locked"):
-        raise ValueError(f"Canvas folder did not remain locked: {folder_id}")
-    existing=await paged(c,f"/folders/{folder_id}/files")
+        raise ValueError(f"Canvas folder did not remain locked: {folder['id']}")
+    existing=await paged(c,f"/folders/{folder['id']}/files")
     for file in existing:
         if not file.get("locked"):
             await api(c,"PUT",f"/files/{file['id']}",data={"locked":"true"})
-    verified=await paged(c,f"/folders/{folder_id}/files")
+    folder=await api(c,"GET",f"/folders/{folder['id']}"); verified=await paged(c,f"/folders/{folder['id']}/files")
+    names={file.get("display_name") or file.get("filename") for file in verified}
+    missing=set(required_names)-names
     unlocked=[file["id"] for file in verified if not file.get("locked")]
-    if unlocked:
-        raise ValueError(f"Canvas folder {folder_id} contains unlocked files: {unlocked}")
-    return verified
+    if folder.get("locked") is not True or missing or unlocked:
+        raise ValueError(f"Canvas folder {folder['id']} invariant failed: missing={sorted(missing)} unlocked={unlocked}")
+    return folder,verified
 async def find_file(c,name):
-    files=await paged(c,f"/courses/{COURSE_ID}/files",{"search_term":name}); match=next((f for f in files if f.get("display_name")==name),None)
-    if not match: raise ValueError(f"Canvas file not found: {name}")
-    return match
+    files=await paged(c,f"/courses/{COURSE_ID}/files",{"search_term":name}); matches=[f for f in files if f.get("display_name")==name]
+    if len(matches)!=1: raise ValueError(f"Expected one Canvas file named {name!r}; found {len(matches)}")
+    current=await api(c,"GET",f"/files/{matches[0]['id']}")
+    if current.get("locked") is not True: current=await api(c,"PUT",f"/files/{current['id']}",data={"locked":"true"})
+    if current.get("locked") is not True: raise RuntimeError(f"Referenced Canvas file did not remain locked: {name}")
+    return current
 def render(name,values):
     text=(TEMPLATES/name).read_text()
     for k,v in values.items(): text=text.replace("{{"+k+"}}",str(v))
@@ -69,10 +126,30 @@ async def upsert_page(c,title,body,url):
     if r.status_code==200: return await api(c,"PUT",f"/courses/{COURSE_ID}/pages/{url}",data=data)
     if r.status_code!=404: r.raise_for_status()
     return await api(c,"POST",f"/courses/{COURSE_ID}/pages",data=data)
-async def upsert_item(c,module_id,page,title):
-    items=await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items"); item=next((i for i in items if i.get("page_url")==page["url"]),None)
-    if item: return await api(c,"PUT",f"/courses/{COURSE_ID}/modules/{module_id}/items/{item['id']}",data={"module_item[title]":title})
-    return await api(c,"POST",f"/courses/{COURSE_ID}/modules/{module_id}/items",data={"module_item[type]":"Page","module_item[page_url]":page["url"],"module_item[title]":title})
+def item_matches(item,kind,key,title):
+    if item.get("type")!=kind: return False
+    if kind=="SubHeader": return item.get("title")==title
+    if kind=="Page": return item.get("page_url")==key
+    return item.get("content_id")==key
+async def reconcile_module_items(c,module_id,expected):
+    items=await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items"); keep=[]
+    for kind,key,title in expected:
+        matches=[entry for entry in items if item_matches(entry,kind,key,title) and entry.get("id") not in keep]
+        if matches: keep.append(matches[0]["id"]); continue
+        data={"module_item[type]":kind,"module_item[title]":title,"module_item[published]":"false"}
+        if kind=="Page": data["module_item[page_url]"]=key
+        elif kind=="Assignment": data["module_item[content_id]"]=key
+        created=await api(c,"POST",f"/courses/{COURSE_ID}/modules/{module_id}/items",data=data); keep.append(created["id"])
+    for item in items:
+        if item["id"] not in keep: await api(c,"DELETE",f"/courses/{COURSE_ID}/modules/{module_id}/items/{item['id']}")
+    for position,(item_id,(kind,key,title)) in enumerate(zip(keep,expected),start=1):
+        await api(c,"PUT",f"/courses/{COURSE_ID}/modules/{module_id}/items/{item_id}",data={"module_item[position]":position,"module_item[title]":title,"module_item[published]":"false"})
+    final=sorted(await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items"),key=lambda entry:entry.get("position") or 0)
+    if len(final)!=16: raise RuntimeError(f"Expected literal 16-item 1SW Wk5 module; found {len(final)}")
+    for position,(item,(kind,key,title)) in enumerate(zip(final,expected),start=1):
+        if item.get("position")!=position or item.get("title")!=title or item.get("published") is not False or not item_matches(item,kind,key,title):
+            raise RuntimeError(f"1SW Wk5 item mismatch at position {position}: {item}")
+    return final
 def flow(color,title,text): return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0;color:{color}">{title}</h4><p>{text}</p></div>'
 def image_details(course_id,uploads):
     descriptions={2:"Email 1: free tablet prize message",3:"Email 2: Amazon order warning",4:"Email 3: company open-enrollment reminder",5:"Email 4: urgent benefits update",6:"Email 5: urgent account suspension",7:"Email 6: IT password-expiration notice",8:"Email 7: ordinary team-meeting reminder"}
@@ -83,18 +160,20 @@ def image_details(course_id,uploads):
     return "".join(parts)
 
 async def main():
+    preflight()
     token=sys.stdin.readline().strip()
     if not token: raise SystemExit("Canvas token required on stdin")
     async with httpx.AsyncClient(headers={"Authorization":f"Bearer {token}"},timeout=120) as c:
-        module=await ensure_module(c); module_id=module["id"]
-        support_names={"ROUTE":"wk5-cyberseek-pathway.pdf","CHECK":"wk5-red-flag-checklist.pdf","PLAN":"wk5-bootcamp-planning-template.pdf","MODEL":"wk5-bootcamp-model.pdf","CONNECTION":"wk5-favorite-cluster-connection.pdf","RUBRIC":"wk5-capstone-portfolio-rubric.pdf","REFLECTION":"wk5-reflection-update-template.pdf","REFLECTION_BI":"wk5-reflection-update-bilingual.pdf"}
+        existing_module,mapped_major,major_group=await canvas_preflight(c)
+        module=await ensure_module(c,existing_module); module_id=module["id"]
         support_folder="course files/CCR Materials/1SW/Wk5"; support_folder_info=await ensure_folder(c,support_folder); files={}
-        for key,name in support_names.items(): files[key]=await upload(c,ROOT/"docs/resources/worksheets"/name,support_folder)
+        for key,name in SUPPORT_NAMES.items(): files[key]=await upload(c,ROOT/"docs/resources/worksheets"/name,support_folder)
         files["XELLO"]=await find_file(c,"my-career-clusters.pdf")
         xello_folder_id=files["XELLO"].get("folder_id")
         if not xello_folder_id:
             raise ValueError("Xello my-career-clusters.pdf did not report a folder_id")
-        await lock_folder_files(c,xello_folder_id)
+        xello_folder=await api(c,"GET",f"/folders/{xello_folder_id}")
+        await lock_folder_files(c,xello_folder,("my-career-clusters.pdf",))
         files["XELLO"]=await find_file(c,"my-career-clusters.pdf")
         if not files["XELLO"].get("locked"):
             raise ValueError("Xello my-career-clusters.pdf did not remain locked")
@@ -103,21 +182,21 @@ async def main():
             folder_path=f"course files/CCR Materials/1SW/Wk5/Day {day} Visuals"; folders[day]=await ensure_folder(c,folder_path); uploads[day]={}
             day_dir=ASSETS/f"day{day}"
             if day_dir.exists():
-                for path in sorted(p for p in day_dir.iterdir() if p.suffix.lower() in {".png",".jpg",".jpeg"}):
-                    if path.suffix.lower()==".png" and (day_dir/f"{path.stem}.jpg").exists(): continue
+                for path in preferred_images(day_dir):
                     uploads[day][path.name]=await upload(c,path,folder_path)
-        deck_path=ASSETS/"day2/optional-whole-group/safe-or-spoofed-lesson-presentation.pptx"
-        if not deck_path.exists(): raise ValueError(f"Missing reviewed Day 2 lesson presentation: {deck_path}")
-        files["DAY2_DECK"]=await upload(c,deck_path,"course files/CCR Materials/1SW/Wk5/Day 2 Visuals")
+        files["DAY2_DECK"]=await upload(c,DAY2_DECK,"course files/CCR Materials/1SW/Wk5/Day 2 Visuals")
         if not files["DAY2_DECK"].get("locked"):
             files["DAY2_DECK"]=await api(c,"PUT",f"/files/{files['DAY2_DECK']['id']}",data={"locked":"true"})
-        await lock_folder_files(c,support_folder_info["id"])
-        for folder in folders.values():
-            await lock_folder_files(c,folder["id"])
+        support_folder_info,support_folder_files=await lock_folder_files(c,support_folder_info,SUPPORT_NAMES.values())
+        folder_files={}
+        for day,folder in folders.items():
+            required=[path.name for path in preferred_images(ASSETS/f"day{day}")]
+            if day==2: required.append(DAY2_DECK.name)
+            folders[day],folder_files[day]=await lock_folder_files(c,folder,required)
         student_values={
           1:{"PROGRAM_IMAGE_ID":uploads[1]["irving-it-programs.png"]["id"],"ROUTE_FILE_ID":files["ROUTE"]["id"]},
-          2:{"FLAGS_IMAGE_ID":uploads[2]["safe-or-spoofed-red-flags.png"]["id"],"CHECK_FILE_ID":files["CHECK"]["id"],"EMAIL_DETAILS":image_details(COURSE_ID,uploads[2])},
-          3:{"BOOTCAMP_IMAGE_ID":uploads[3]["community-cybersecurity-bootcamp.png"]["id"],"PLAN_IMAGE_ID":uploads[3]["integrity-and-original-work.png"]["id"],"PLAN_FILE_ID":files["PLAN"]["id"],"MODEL_FILE_ID":files["MODEL"]["id"]},
+          2:{"FLAGS_IMAGE_ID":uploads[2]["safe-or-spoofed-red-flags.jpg"]["id"],"CHECK_FILE_ID":files["CHECK"]["id"],"EMAIL_DETAILS":image_details(COURSE_ID,uploads[2])},
+          3:{"BOOTCAMP_IMAGE_ID":uploads[3]["community-cybersecurity-bootcamp.jpg"]["id"],"PLAN_IMAGE_ID":uploads[3]["integrity-and-original-work.png"]["id"],"PLAN_FILE_ID":files["PLAN"]["id"],"MODEL_FILE_ID":files["MODEL"]["id"]},
           4:{"PROFILE_IMAGE_ID":uploads[4]["it-app-exploration.png"]["id"],"CONNECTION_FILE_ID":files["CONNECTION"]["id"]},
           5:{"OPTIONS_IMAGE_ID":uploads[5]["postsecondary-options.png"]["id"],"REFLECTION_FILE_ID":files["REFLECTION"]["id"],"REFLECTION_BI_FILE_ID":files["REFLECTION_BI"]["id"],"RUBRIC_FILE_ID":files["RUBRIC"]["id"]}}
         student_titles={1:"STUDENT: 1SW Wk5 Day 1 - Cybersecurity Career Routes",2:"STUDENT: 1SW Wk5 Day 2 - Safe or Spoofed Inbox",3:"STUDENT: 1SW Wk5 Day 3 - Community Cybersecurity Bootcamp",4:"STUDENT: 1SW Wk5 Day 4 - Xello Favorite Clusters",5:"STUDENT: 1SW Wk5 Day 5 - Capstone Goal and Reflection"}
@@ -160,17 +239,31 @@ async def main():
         for day in range(1,6):
             st=student_titles[day]; student=await upsert_page(c,st,render(f"wk5-day{day}-student.html",{"COURSE_ID":COURSE_ID,**student_values[day]}),slugify(st))
             tt=f"TEACHER: 1SW Wk5 Day {day} Facilitator Guide"; teacher=await upsert_page(c,tt,render("wk5-teacher.html",{"COURSE_ID":COURSE_ID,"DAY":day,"STUDENT_PAGE_URL":student["url"],**contracts[day],**teacher_data[day]}),slugify(tt))
-            await upsert_item(c,module_id,teacher,tt); await upsert_item(c,module_id,student,st); pages[day]={"teacher":teacher,"student":student}
-        items=await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items"); by_url={i.get("page_url"):i for i in items}
-        desired=[]; used=set()
+            pages[day]={"teacher":teacher,"student":student}
+        expected=[]
         for day in range(1,6):
-            header=next((i for i in items if i.get("type")=="SubHeader" and i.get("title")==f"Day {day}"),None)
-            if header: desired.append(header["id"]); used.add(header["id"])
+            expected.append(("SubHeader",None,f"Day {day}"))
             for page_kind in ("teacher","student"):
-                item=by_url[pages[day][page_kind]["url"]]; desired.append(item["id"]); used.add(item["id"])
-        desired.extend(i["id"] for i in sorted(items,key=lambda item:item["position"]) if i["id"] not in used)
-        for position,item_id in reversed(list(enumerate(desired,start=1))): await api(c,"PUT",f"/courses/{COURSE_ID}/modules/{module_id}/items/{item_id}",data={"module_item[position]":position})
-        final=await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items"); module=await api(c,"GET",f"/courses/{COURSE_ID}/modules/{module_id}")
-        print(json.dumps({"module":{"id":module_id,"published":module["published"]},"folders":{str(d):{"id":f["id"],"locked":f["locked"]} for d,f in folders.items()},"pages":{str(d):{k:{"url":v["url"],"published":v["published"]} for k,v in p.items()} for d,p in pages.items()},"items":[{"id":i["id"],"position":i["position"],"title":i["title"],"page_url":i.get("page_url")} for i in final]},indent=2))
+                page=pages[day][page_kind]
+                expected.append(("Page",page["url"],page["title"]))
+        expected.append(("Assignment",mapped_major["id"],MAPPED_MAJOR_TITLE))
+        final=await reconcile_module_items(c,module_id,expected)
+        module=await api(c,"GET",f"/courses/{COURSE_ID}/modules/{module_id}")
+        final_major=await api(c,"GET",f"/courses/{COURSE_ID}/assignments/{mapped_major['id']}")
+        final_pages=[await api(c,"GET",f"/courses/{COURSE_ID}/pages/{page['url']}") for day in range(1,6) for page in pages[day].values()]
+        final_failures=[]
+        if module.get("published") is not False: final_failures.append("module_published")
+        if any(page.get("published") is not False for page in final_pages): final_failures.append("page_published")
+        if final_major.get("published") is not False or float(final_major.get("points_possible") or 0)!=100 or final_major.get("grading_type")!="points" or final_major.get("omit_from_final_grade") is not False: final_failures.append("major_grading")
+        if final_major.get("assignment_group_id")!=major_group.get("id") or set(final_major.get("submission_types") or [])!=MAJOR_SUBMISSION_TYPES or RUBRIC_NOTE_MARKER not in (final_major.get("description") or ""): final_failures.append("major_identity")
+        support_folder_info,support_folder_files=await lock_folder_files(c,support_folder_info,SUPPORT_NAMES.values())
+        for day,folder in folders.items():
+            required=[path.name for path in preferred_images(ASSETS/f"day{day}")]
+            if day==2: required.append(DAY2_DECK.name)
+            folders[day],folder_files[day]=await lock_folder_files(c,folder,required)
+        xello_folder,xello_folder_files=await lock_folder_files(c,xello_folder,("my-career-clusters.pdf",))
+        files["XELLO"]=await find_file(c,"my-career-clusters.pdf")
+        if final_failures: raise RuntimeError(f"1SW Wk5 final invariant failed: {final_failures}")
+        print(json.dumps({"module":{"id":module_id,"published":module["published"]},"major":{"id":final_major["id"],"published":final_major.get("published"),"points":final_major.get("points_possible"),"group":final_major.get("assignment_group_id"),"grading_type":final_major.get("grading_type"),"omit_from_final_grade":final_major.get("omit_from_final_grade")},"support_folder":{"id":support_folder_info["id"],"locked":support_folder_info["locked"],"file_count":len(support_folder_files)},"folders":{str(d):{"id":f["id"],"locked":f["locked"],"file_count":len(folder_files[d])} for d,f in folders.items()},"files":{k:v["id"] for k,v in files.items()},"pages":{str(d):{k:{"url":v["url"],"published":v["published"]} for k,v in p.items()} for d,p in pages.items()},"items":[{"id":i["id"],"position":i["position"],"title":i["title"],"type":i["type"],"page_url":i.get("page_url"),"content_id":i.get("content_id"),"published":i.get("published")} for i in final]},indent=2))
 
-asyncio.run(main())
+if __name__=="__main__": asyncio.run(main())

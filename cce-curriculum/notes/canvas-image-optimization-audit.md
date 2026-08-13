@@ -108,6 +108,32 @@ Powerskills opener are present in locked lesson folders but are not embedded by
 their current builders or Student Guides. Their archive size is not treated as
 a reason to create another delivery copy.
 
+## 1SW Week 5 Cybersecurity Visuals
+
+Two active FYF pages in the 1SW Week 5 Student Guides received smaller delivery
+copies while their licensed PNG sources remained unchanged in the gitignored
+archive:
+
+| Active visual | Source PNG | Delivery JPEG | Savings |
+|---|---:|---:|---:|
+| Day 2 Safe or Spoofed red flags | 668,557 bytes | 345,947 bytes | 48.3% |
+| Day 3 Community Cybersecurity Bootcamp | 826,484 bytes | 381,327 bytes | 53.9% |
+
+Both delivery files are 1,020 by 1,320 pixels, down from 1,275 by 1,650. The
+source and delivery copies were compared at original detail and at a 390-pixel
+student viewport. The titles, explanatory text, red-flag evidence, scenario
+details, planning prompts, and page numbers retain the source's usable
+readability. The native Student Guides, red-flag checklist, bootcamp plan, and
+completed model remain the independent text and response routes.
+
+`build_wk5.py` now preflights and embeds the two JPEG filenames, skips their
+same-stem PNG sources during upload, verifies returned file locks, sweeps the
+support and Day 1-5 visual folders, protects the existing mapped Major, and
+reconciles the exact sixteen unpublished module items. Twenty current desktop
+and 390-pixel Teacher/Student renders were regenerated with lazy-image and
+stable-height checks and inspected at original detail with no clipping,
+overflow, broken image, or incomplete page tail.
+
 ## Duplicate Findings
 
 The clearest repeated uploads are:
