@@ -98,7 +98,7 @@ What the median does and does not tell you:
 
 ## Connect the Cluster and District Routes
 
-**1. Which route could a student investigate at Singley Academy?** Name the current pathway and career connection.
+**1. Connect both current Singley Academy pathways.** Name one career from this guide connected to **Law Enforcement** and one connected to **Emergency Medical - EMT**.
 
 [[lines: 3]]
 

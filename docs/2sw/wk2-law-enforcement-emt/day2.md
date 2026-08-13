@@ -42,7 +42,7 @@ Students choose the two strongest harm files, one source-related file, and one e
 - Files 1 and 6 strongly show serious pollution/ecological harm.
 - File 3 documents a major storm; File 5 raises possible illegal dumping. Both support plausible outside or mixed causes, not certainty.
 - File 2 reports routine landfill conditions but is limited and partly relies on an older major check.
-- File 4 is the City's own statement. Its lack of confirmed containment testing weakens confidence but does not prove leakage.
+- File 4 is the City's own statement. It reports routine monitoring and containment testing with no evidence of leakage, but it does not provide raw test results or independent verification. That source limitation does not prove leakage.
 - No file directly documents a containment failure. A defensible conclusion must preserve that gap.
 
 Integrity here means reporting inconvenient evidence and source limits. Do not tell students that one classroom rule settles every real legal disclosure duty.

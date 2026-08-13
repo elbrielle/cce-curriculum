@@ -98,7 +98,7 @@ ASSESSMENTS = (
         "2SW Wk2: First Responders - Evidence, Response, and Handoff",
         "MAJOR 2: Patient Care Report and Complication Plan",
         MAJOR_GROUP,
-        5,
+        4,
     ),
     Assessment(
         "3SW Wk1: Veterinary Science",
@@ -305,14 +305,32 @@ async def ensure_student_submission_link(
         body,
     ).rstrip()
     label = "minor" if assessment.group == MINOR_GROUP else "major"
+    submission_types = set(assignment.get("submission_types") or [])
+    route_labels = []
+    if "student_annotation" in submission_types:
+        route_labels.append("annotate the supplied file")
+    if "online_upload" in submission_types:
+        route_labels.append("upload the required file or files")
+    if "online_text_entry" in submission_types:
+        route_labels.append("type the required evidence in Canvas")
+    if "media_recording" in submission_types:
+        route_labels.append("record approved media when the Student Guide defines that evidence route")
+    if "online_url" in submission_types:
+        route_labels.append("submit the required link")
+    if not route_labels:
+        raise ValueError(f"no supported private submission route for {assessment.title!r}")
+    if len(route_labels) == 1:
+        route_text = route_labels[0]
+    else:
+        route_text = ", ".join(route_labels[:-1]) + f", or {route_labels[-1]}"
     panel = (
         f'<section data-cce-marker="{SUBMISSION_LINK_MARKER}" '
         'style="border:2px solid #1f617a;border-radius:12px;padding:18px 20px;'
         'margin:24px 0;background:#f2f8fb">'
         f'<h3 style="margin:0 0 8px;color:#1f617a">Submit your {label} evidence</h3>'
         '<p style="margin:0 0 14px">Use the scoring tool to check your work, then '
-        'submit through this private Canvas assignment. Your teacher will tell you '
-        'whether to type, upload a file, record approved media, or turn in the paper route.</p>'
+        f'submit through this private Canvas assignment: {route_text}. Follow the matching '
+        'Student Guide for the exact evidence package. The documented teacher-collected paper route remains available.</p>'
         f'<p style="margin:0"><a href="/courses/{COURSE_ID}/assignments/{assignment["id"]}" '
         'style="display:inline-block;background:#1f617a;color:#fff;padding:11px 18px;'
         'border-radius:6px;text-decoration:none;font-weight:700" '
@@ -365,7 +383,10 @@ async def ensure_module_item(
             client,
             "PUT",
             f"/courses/{COURSE_ID}/modules/{module['id']}/items/{found['id']}",
-            data={"module_item[title]": assessment.title},
+            data={
+                "module_item[title]": assessment.title,
+                "module_item[published]": "false",
+            },
         )
         await ensure_student_submission_link(client, student, assignment, assessment)
         return
@@ -377,13 +398,17 @@ async def ensure_module_item(
             "module_item[type]": "Assignment",
             "module_item[content_id]": str(assignment["id"]),
             "module_item[title]": assessment.title,
+            "module_item[published]": "false",
         },
     )
     await api(
         client,
         "PUT",
         f"/courses/{COURSE_ID}/modules/{module['id']}/items/{created['id']}",
-        data={"module_item[position]": str(student["position"] + 1)},
+        data={
+            "module_item[position]": str(student["position"] + 1),
+            "module_item[published]": "false",
+        },
     )
     await ensure_student_submission_link(client, student, assignment, assessment)
 
@@ -440,6 +465,7 @@ async def run(token: str) -> dict:
                 "assignment[assignment_group_id]": str(group_ids[assessment.group]),
                 "assignment[points_possible]": "100",
                 "assignment[grading_type]": "points",
+                "assignment[omit_from_final_grade]": "false",
                 "assignment[published]": "false",
             }
             if not existing:

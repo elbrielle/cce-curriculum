@@ -20,7 +20,7 @@
 
 ## Before Class
 
-Post the report, rubric, and three complication choices. This is fictional documentation: students must not enter real names or medical information. Speaking is optional; each student submits written evidence.
+Post the report, rubric, and three complication choices. This is fictional documentation: students must not enter real names or medical information. Each student submits the completed written report and plan through private file upload or text entry, or turns in a labeled paper copy. Speaking is optional; a media recording alone is not the Major evidence.
 
 ## Warm-Up (5 min)
 

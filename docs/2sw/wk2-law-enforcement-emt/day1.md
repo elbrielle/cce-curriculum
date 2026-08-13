@@ -15,11 +15,11 @@
 | **Objective** | Describe the cluster; compare civilian and military law-enforcement route systems; and identify first-responder careers and preparation requirements |
 | **TEKS** | d(1)(B), d(1)(C), d(2)(A) |
 | **Deliverable** | Completed First Responder Route Guide with three career comparisons, a route-system analysis, district connections, and a cluster description |
-| **Materials** | [First Responder Route Guide](../../resources/worksheets/2sw-wk2-first-responder-route-guide.pdf), FYF pp. 56-58, current Singley Academy CTE page, optional Xello/H&L |
+| **Materials** | [First Responder Route Guide](../../resources/worksheets/2sw-wk2-first-responder-route-guide.pdf), reused FYF p. 39 cluster overview, FYF p. 56 district-program page, current Singley Academy CTE page, optional Xello/H&L |
 
 ## Before Class
 
-Open the dated route guide and the current Irving ISD Singley Academy page. If offering Xello or H&L, preflight it on the student network. Do not make a vendor login the only research route.
+Open the reused FYF p. 39 cluster overview, FYF p. 56, the four-page dated route guide, and the current Irving ISD Singley Academy page. FYF p. 57 is not needed for today's evidence, and the optional p. 58 app route belongs to Day 5. If offering Xello or H&L, preflight it on the student network. Do not make a vendor login the only research route.
 
 ## Warm-Up (5 min)
 
@@ -44,7 +44,7 @@ Students choose three careers and complete the table. Pause after the first row 
 
 Students use the fixed guide to compare civilian and military law-enforcement route systems. Require one similarity, one difference, and one civilian requirement or credential that must be verified before a student assumes transfer. Military training may build related skills and credentials; it does not automatically replace every civilian academy, agency requirement, state license, or certification.
 
-Students then use the current district page and FYF district spread to connect **Law Enforcement** and **Emergency Medical - EMT** to one career each. Make clear that a program is an opportunity to investigate, not a guaranteed job or credential.
+Students then use the current district page and FYF p. 56 context to connect **Law Enforcement** and **Emergency Medical - EMT** to one career each. Make clear that a program is an opportunity to investigate, not a guaranteed job or credential.
 
 Optional Xello extension: add one current local figure with career, geography, date checked, and whether the display is a range, median, or another measure.
 

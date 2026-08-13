@@ -33,7 +33,7 @@ Hats & Ladders and Xello may extend career exploration. Neither platform is requ
 - [Fictional Patient Care Report and Safety Plan](../../resources/worksheets/2sw-wk2-patient-care-report.pdf)
 - [Patient Care Report Evidence Rubric](../../resources/worksheets/2sw-wk2-pcr-rubric.pdf)
 - [First Responder Career and Integrity Reflection](../../resources/worksheets/2sw-wk2-integrity-career-reflection.pdf)
-- *Find Your Future* pp. 48-58 and Climber Notes decks “Clinton Lake Case” and “Injured on the Trail,” embedded only in authenticated Canvas
+- *Find Your Future* p. 39 cluster overview (reused from Week 1), pp. 48-58, and Climber Notes decks “Clinton Lake Case” and “Injured on the Trail,” embedded only in authenticated Canvas
 
 ## Source-Control Notes
 

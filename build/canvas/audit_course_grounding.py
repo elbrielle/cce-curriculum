@@ -291,7 +291,7 @@ def write_report(audits: list[DayAudit]) -> None:
         "",
         "### Repaired - 2SW Wk2 military/civilian route comparison and evidence delivery",
         "",
-        "The first-responder route packet now supplies the military-versus-civilian law-enforcement comparison required by the scope and sequence. It uses bounded route language, keeps current BLS and Army COOL facts labeled as cross-checks, preserves workbook/platform HQIM as the student-facing starting point, and provides enough response space for three career comparisons plus a route judgment. Six portrait Climber evidence pages are delivered as upright Canvas-only derivatives with deferred loading; the original licensed assets remain outside Git.",
+        "The first-responder route packet now supplies the military-versus-civilian law-enforcement comparison required by the scope and sequence. It uses bounded route language, keeps current BLS and Army COOL facts labeled as cross-checks, preserves workbook/platform HQIM as the student-facing starting point, and provides enough response space for three career comparisons plus a route judgment. Six readable Climber evidence images are delivered with deferred loading: five portrait Canvas-only derivatives and the correctly oriented landscape source slide for File 5. The original licensed assets remain outside Git.",
         "",
         "### P1 - Artifact layout needs visual, not textual, acceptance",
         "",
