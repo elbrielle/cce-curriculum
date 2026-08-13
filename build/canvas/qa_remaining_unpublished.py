@@ -229,6 +229,13 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
             )
             if assignment.get("published"):
                 problems.append(f"assignment is published: {assignment.get('id')}")
+            if (
+                float(assignment.get("points_possible") or 0) == 0
+                and assignment.get("omit_from_final_grade") is not True
+            ):
+                problems.append(
+                    f"grade-neutral assignment counts toward final grade: {assignment.get('id')}"
+                )
             submission_types = assignment.get("submission_types") or []
             if not set(submission_types) - {"none", "not_graded"}:
                 problems.append(
@@ -389,6 +396,10 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
             )
             continue
         folder_id = record.get("folder_id")
+        if record.get("locked") is not True:
+            problems.append(
+                f"referenced file is unlocked: {file_id} {record.get('display_name')}"
+            )
         if folder_id and folder_id not in folders:
             folder = await api(client, f"/folders/{folder_id}")
             folders[folder_id] = folder
@@ -396,12 +407,23 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
                 problems.append(
                     f"referenced file folder is unlocked: {folder_id} {folder.get('full_name')}"
                 )
+            folder_files = await paged(client, f"/folders/{folder_id}/files")
+            unlocked = sorted(
+                file.get("id")
+                for file in folder_files
+                if file.get("locked") is not True
+            )
+            if unlocked:
+                problems.append(
+                    f"referenced folder contains unlocked files: {folder_id} {unlocked}"
+                )
         files.append(
             {
                 "id": file_id,
                 "name": record.get("display_name"),
                 "size": record.get("size"),
                 "folder_id": folder_id,
+                "locked": record.get("locked"),
             }
         )
 
