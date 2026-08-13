@@ -20,7 +20,7 @@ SUPPORT_NAMES={
 REQUIRED_VISUALS={
   1:("it-chapter-opener.jpg","irving-it-programs-page-1.png","it-app-exploration.png"),
   2:("it-app-exploration.png",),
-  3:("resilience-scenario.png","flip-the-failure-chart.png"),
+  3:("resilience-scenario.jpg","flip-the-failure-chart.jpg"),
   4:(),
   5:("it-app-exploration.png",),
 }
@@ -181,7 +181,7 @@ async def main():
         student_values={
           1:{"OPENER_IMAGE_ID":uploads[1]["it-chapter-opener.jpg"]["id"],"DISTRICT1_IMAGE_ID":uploads[1]["irving-it-programs-page-1.png"]["id"],"APP_IMAGE_ID":uploads[1]["it-app-exploration.png"]["id"],"PROGRAMS_FILE_ID":files["PROGRAMS"]["id"],"EXIT_FILE_ID":files["E1"]["id"]},
           2:{"APP_IMAGE_ID":uploads[2]["it-app-exploration.png"]["id"],"SALARY_FILE_ID":files["SALARY"]["id"],"EXAMPLE_FILE_ID":files["EXAMPLE"]["id"],"EXIT_FILE_ID":files["E2"]["id"]},
-          3:{"SCENARIO_IMAGE_ID":uploads[3]["resilience-scenario.png"]["id"],"CHART_IMAGE_ID":uploads[3]["flip-the-failure-chart.png"]["id"],"FLIP_FILE_ID":files["FLIP"]["id"],"SALARY_FILE_ID":files["SALARY"]["id"],"MODEL_FILE_ID":files["MODEL"]["id"],"GUIDE_FILE_ID":files["GUIDE"]["id"],"BILINGUAL_FILE_ID":files["SALARY_BI"]["id"],"EXIT_FILE_ID":files["E3"]["id"]},
+          3:{"SCENARIO_IMAGE_ID":uploads[3]["resilience-scenario.jpg"]["id"],"CHART_IMAGE_ID":uploads[3]["flip-the-failure-chart.jpg"]["id"],"FLIP_FILE_ID":files["FLIP"]["id"],"SALARY_FILE_ID":files["SALARY"]["id"],"MODEL_FILE_ID":files["MODEL"]["id"],"GUIDE_FILE_ID":files["GUIDE"]["id"],"BILINGUAL_FILE_ID":files["SALARY_BI"]["id"],"EXIT_FILE_ID":files["E3"]["id"]},
           4:{"EXIT_FILE_ID":files["E4"]["id"]},
           5:{"APP_IMAGE_ID":uploads[5]["it-app-exploration.png"]["id"],"RUBRIC_FILE_ID":files["RUBRIC"]["id"],"EXIT_FILE_ID":files["D5"]["id"]}}
         student_titles={1:"STUDENT: 1SW Wk2 Day 1 - Map the IT Cluster",2:"STUDENT: 1SW Wk2 Day 2 - Compare Programming Careers",3:"STUDENT: 1SW Wk2 Day 3 - Resilience and Salary Showdown",4:"STUDENT: 1SW Wk2 Day 4 - Test a Programming Concept",5:"STUDENT: 1SW Wk2 Day 5 - Personality Style and IT Decision"}

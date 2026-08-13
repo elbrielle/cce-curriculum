@@ -108,6 +108,34 @@ Powerskills opener are present in locked lesson folders but are not embedded by
 their current builders or Student Guides. Their archive size is not treated as
 a reason to create another delivery copy.
 
+## 1SW Week 2 Day 3 Resilience Visuals
+
+The two active FYF resilience pages embedded together in the 1SW Week 2 Day 3
+Student Guide received smaller delivery copies while their licensed PNG sources
+remain unchanged in the gitignored archive:
+
+| Active visual | Source PNG | Delivery JPEG | Savings |
+|---|---:|---:|---:|
+| Resilience cybersecurity scenario | 707,820 bytes | 410,443 bytes | 42.0% |
+| Flip the Failure chart | 745,019 bytes | 256,798 bytes | 65.5% |
+
+Both delivery files are 1,020 by 1,320 pixels, down from 1,275 by 1,650. Their
+combined first-load weight falls from 1,452,839 bytes to 667,241 bytes, a 54.1%
+reduction. The original and delivery copies were compared at original detail
+and in the current desktop and 390-pixel Student Guide renders. The scenario
+facts, failure labels, response-table headings, resilience prompts, discussion
+questions, and page numbers retain the source's usable readability. The native
+Student Guide also restates the four failure jobs, supplies the bounce-back
+word bank and complete frame, and provides the separate accessible BLS and
+comparison routes.
+
+`build_wk2.py` now preflights, uploads, locks, and embeds the two JPEG filenames
+while retaining the PNG sources locally. Twenty current Teacher/Student desktop
+and 390-pixel renders were regenerated with image-completion, stable-height, and
+horizontal-overflow checks. All twenty were inspected at original detail; the
+Day 3 images load correctly, the complete page tails remain present, and no
+responsive clipping or collision was found.
+
 ## 1SW Week 5 Cybersecurity Visuals
 
 Two active FYF pages in the 1SW Week 5 Student Guides received smaller delivery
