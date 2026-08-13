@@ -136,6 +136,35 @@ horizontal-overflow checks. All twenty were inspected at original detail; the
 Day 3 images load correctly, the complete page tails remain present, and no
 responsive clipping or collision was found.
 
+## 3SW Week 3 Day 2 Pest Patrol Field Notes
+
+The two active FYF field-report pages embedded in the 3SW Week 3 Day 2 Student
+Guide received smaller delivery copies while their licensed PNG sources remain
+unchanged in the gitignored archive:
+
+| Active visual | Source PNG | Delivery JPEG | Savings |
+|---|---:|---:|---:|
+| Agricultural engineer field report | 452,107 bytes | 336,094 bytes | 25.7% |
+| Farmer and plant scientist field reports | 919,518 bytes | 345,669 bytes | 62.4% |
+
+Both delivery files are 1,020 by 1,320 pixels, down from 1,275 by 1,650. Their
+combined first-load weight falls from 1,371,625 bytes to 681,763 bytes, a 50.3%
+reduction. The original and delivery copies were compared at original detail.
+The Ag-Tech Pest Patrol title, three worker reports, dates, evidence fields,
+report facts, Step 2 heading, photograph, and printed page numbers retain the
+source's usable readability. The native Student Guide and two-page field-notes
+sheet remain the independent text and response route.
+
+`build_3sw_wk3.py` now preflights and embeds the two JPEG filenames, prefers a
+same-stem JPEG during visual upload, and leaves the licensed PNG originals
+untouched for source inspection and future regeneration.
+
+Twenty current Teacher/Student desktop and 430-pixel renders were regenerated
+with image-completion and horizontal-overflow checks. All twenty were inspected
+at original detail. Both Day 2 field-report images load, their small text retains
+the source's usable readability, every page tail is complete, and no responsive
+clipping or collision was found.
+
 ## 1SW Week 5 Cybersecurity Visuals
 
 Two active FYF pages in the 1SW Week 5 Student Guides received smaller delivery

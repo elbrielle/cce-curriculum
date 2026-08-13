@@ -26,8 +26,8 @@ WORKSHEET_FILES = {
 }
 VISUAL_FILES = {
     2: (
-        "fyf-pest-patrol-field-notes-1.png",
-        "fyf-pest-patrol-field-notes-2.png",
+        "fyf-pest-patrol-field-notes-1.jpg",
+        "fyf-pest-patrol-field-notes-2.jpg",
     ),
     3: ("fyf-pest-patrol-design-review.png",),
     4: ("fyf-pest-patrol-design-review.png",),
@@ -162,7 +162,7 @@ async def upload(client, path, folder_path):
     return record
 
 
-async def lock_folder_files(client, folder):
+async def lock_folder_files(client, folder, required_names=()):
     current = await api(client, "GET", f"/folders/{folder['id']}")
     if not current.get("locked"):
         current = await api(
@@ -177,15 +177,41 @@ async def lock_folder_files(client, folder):
             await api(
                 client, "PUT", f"/files/{entry['id']}", data={"locked": "true"}
             )
+    current = await api(client, "GET", f"/folders/{folder['id']}")
     final = await paged(client, f"/folders/{folder['id']}/files")
+    names = {
+        entry.get("display_name") or entry.get("filename") for entry in final
+    }
+    missing = set(required_names) - names
     unlocked = [
         entry.get("display_name") or entry.get("filename")
         for entry in final
         if not entry.get("locked")
     ]
-    if unlocked:
-        raise RuntimeError(f"Unlocked files remain in folder {folder['id']}: {unlocked}")
-    return current
+    if current.get("locked") is not True or missing or unlocked:
+        raise RuntimeError(
+            f"3SW Wk3 folder invariant failed for {folder['id']}: "
+            f"missing={sorted(missing)} unlocked={unlocked}"
+        )
+    return current, final
+
+
+def preferred_images(folder):
+    candidates = sorted(
+        path
+        for path in folder.iterdir()
+        if path.is_file() and path.suffix.lower() in {".png", ".jpg", ".jpeg"}
+    )
+    jpeg_stems = {
+        path.stem.lower()
+        for path in candidates
+        if path.suffix.lower() in {".jpg", ".jpeg"}
+    }
+    return [
+        path
+        for path in candidates
+        if path.suffix.lower() != ".png" or path.stem.lower() not in jpeg_stems
+    ]
 
 
 def render(template, values):
@@ -436,28 +462,36 @@ async def main():
             support,
         )
 
-        folders, visuals = {}, {}
+        folders, visuals, visual_required = {}, {}, {}
         for day in range(1, 6):
             path = f"course files/CCR Materials/3SW/Wk3/Day {day} Visuals"
             folders[day], visuals[day] = await ensure_folder(client, path), {}
             source = ASSETS / f"day{day}"
-            if source.exists():
-                for image in sorted(source.glob("*.png")):
-                    visuals[day][image.name] = await upload(client, image, path)
+            day_images = preferred_images(source) if source.exists() else []
+            visual_required[day] = tuple(image.name for image in day_images)
+            for image in day_images:
+                visuals[day][image.name] = await upload(client, image, path)
 
-        support_folder = await lock_folder_files(client, support_folder)
+        support_folder, support_folder_files = await lock_folder_files(
+            client,
+            support_folder,
+            (*WORKSHEET_FILES.values(), XELLO_GUIDE.name),
+        )
+        folder_files = {}
         for day in range(1, 6):
-            folders[day] = await lock_folder_files(client, folders[day])
+            folders[day], folder_files[day] = await lock_folder_files(
+                client, folders[day], visual_required[day]
+            )
 
         career_url = f"/courses/{COURSE_ID}/assignments/{career['id']}"
         draft_url = f"/courses/{COURSE_ID}/assignments/{draft['id']}"
         packet_url = f"/courses/{COURSE_ID}/assignments/{packet['id']}"
         goals_url = f"/courses/{COURSE_ID}/assignments/{goals['id']}"
         field_media = image_tag(
-            visuals[2]["fyf-pest-patrol-field-notes-1.png"]["id"],
+            visuals[2]["fyf-pest-patrol-field-notes-1.jpg"]["id"],
             "Find Your Future Pest Patrol agricultural engineer field notes",
         ) + image_tag(
-            visuals[2]["fyf-pest-patrol-field-notes-2.png"]["id"],
+            visuals[2]["fyf-pest-patrol-field-notes-2.jpg"]["id"],
             "Find Your Future Pest Patrol farmer and plant scientist field notes",
         )
         design_media = image_tag(
