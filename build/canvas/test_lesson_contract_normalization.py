@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import unittest
+from pathlib import Path
 
+from lesson_contracts import LessonContract, contract_html
 from normalize_canvas_lesson_contracts import (
     CONTRACT_RE,
     insert_contract,
@@ -24,6 +26,21 @@ STUDENT_PANEL = (
 
 
 class LessonContractNormalizationTest(unittest.TestCase):
+    def test_contract_text_quotes_match_canvas_round_trip(self) -> None:
+        contract = LessonContract(
+            week="1SW Wk1",
+            day=2,
+            source=Path("day2.md"),
+            topic="Career Opportunities",
+            objective='Students will complete the "Machine & Method" check.',
+            teks="d(1)(C)",
+            dol='A labeled "Machine & Method" response.',
+        )
+        rendered = contract_html(contract, "teacher")
+        self.assertIn('the "Machine &amp; Method" check', rendered)
+        self.assertIn('A labeled "Machine &amp; Method" response', rendered)
+        self.assertNotIn("&quot;", rendered)
+
     def assert_normalized(
         self,
         original: str,

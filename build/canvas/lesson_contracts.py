@@ -291,7 +291,8 @@ def contract_html(contract: LessonContract, role: str) -> str:
         heading = "Today\'s Learning"
         rows = (("Topic", contract.topic), ("Objective", objective), ("Show Your Learning", dol))
     rendered = "".join(
-        f'<p style="margin:6px 0"><strong>{html.escape(label)}:</strong> {html.escape(value)}</p>'
+        f'<p style="margin:6px 0"><strong>{html.escape(label, quote=False)}:</strong> '
+        f'{html.escape(value, quote=False)}</p>'
         for label, value in rows
     )
     return (
