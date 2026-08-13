@@ -3,7 +3,7 @@
 ## Daily Learning Contract
 
 - **Topic:** First Responder Routes
-- **Objective:** Students will describe the Law, Public Safety, Corrections and Security cluster; compare civilian and military law-enforcement route systems; and identify first-responder careers and preparation requirements.
+- **Objective:** Students will describe the Law, Public Safety, Corrections and Security cluster, compare civilian and military law-enforcement route systems, and identify first-responder careers and preparation requirements.
 - **TEKS:** d(1)(B), d(1)(C), d(2)(A)
 - **Demonstration of Learning:** Three career comparisons, a civilian/military route analysis, two district connections, and a cluster description.
 <!-- CCE DAILY CONTRACT END -->
@@ -12,7 +12,7 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objective** | Describe the cluster; compare civilian and military law-enforcement route systems; and identify first-responder careers and preparation requirements |
+| **Objective** | Describe the cluster, compare civilian and military law-enforcement route systems, and identify first-responder careers and preparation requirements |
 | **TEKS** | d(1)(B), d(1)(C), d(2)(A) |
 | **Deliverable** | Completed First Responder Route Guide with three career comparisons, a route-system analysis, district connections, and a cluster description |
 | **Materials** | [First Responder Route Guide](../../resources/worksheets/2sw-wk2-first-responder-route-guide.pdf), reused FYF p. 39 cluster overview, FYF p. 56 district-program page, current Singley Academy CTE page, optional Xello/H&L |
