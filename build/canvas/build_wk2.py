@@ -6,7 +6,40 @@ import httpx
 
 BASE="https://learn.irvingisd.net"; COURSE_ID=98060
 MODULE_NAME="1SW Wk2: Code Your Future - Programming Careers in IT"
+MODULE_ALIASES={MODULE_NAME}
+MAPPED_MINOR_TITLE="MINOR 2: IT Salary Comparison and Career-Fit Reflection"
+MINOR_GROUP_NAME="Minor Assessments (40%)"
+RUBRIC_NOTE_MARKER='data-cce-rubric-note="cce-advisory-rubric-v1"'
+MINOR_SUBMISSION_TYPES={"online_upload","online_text_entry","media_recording"}
 ROOT=Path(__file__).resolve().parents[2]; TEMPLATES=Path(__file__).parent/"templates"; ASSETS=ROOT/"cce-curriculum/resources/canvas-licensed/1sw/wk2"
+
+SUPPORT_NAMES={
+  "PROGRAMS":"wk2-it-programs-scaffold.pdf","EXAMPLE":"wk2-career-research-web-developer.pdf","SALARY":"wk2-it-salary-comparison.pdf","MODEL":"wk2-it-salary-comparison-model.pdf","SALARY_BI":"wk2-it-salary-comparison-bilingual.pdf","GUIDE":"wk2-bls-data-guide.pdf","FLIP":"wk2-flip-the-failure-scaffold.pdf","RUBRIC":"wk2-salary-hoc-rubric.pdf","CLIPBOARD":"clipboard-roster-grid.pdf","D5":"wk2-day5-it-pathway-decision.pdf",
+  "E1":"1sw-wk2-day1-it-cluster-tour-four-irving-programs-of-study.pdf","E2":"1sw-wk2-day2-programming-pathway-deep-dive-software-web-app-game.pdf","E3":"1sw-wk2-day3-powerskill-resilience-it-salary-showdown.pdf","E4":"1sw-wk2-day4-code-org-hour-of-code-day-1.pdf",
+}
+REQUIRED_VISUALS={
+  1:("it-chapter-opener.jpg","irving-it-programs-page-1.png","it-app-exploration.png"),
+  2:("it-app-exploration.png",),
+  3:("resilience-scenario.png","flip-the-failure-chart.png"),
+  4:(),
+  5:("it-app-exploration.png",),
+}
+
+def preflight():
+    required=[
+        *(TEMPLATES/name for name in ("wk2-teacher.html",*(f"wk2-day{day}-student.html" for day in range(1,6)))),
+        *(ROOT/("docs/resources/exit-tickets" if name.startswith("1sw-") else "docs/resources/worksheets")/name for name in SUPPORT_NAMES.values()),
+        *(ASSETS/f"day{day}"/name for day,names in REQUIRED_VISUALS.items() for name in names),
+    ]
+    missing=[str(path.relative_to(ROOT)) for path in required if not path.is_file()]
+    if missing: raise FileNotFoundError(f"1SW Wk2 preflight missing required files: {missing}")
+
+def preferred_images(folder):
+    return sorted(
+        path for path in folder.iterdir()
+        if path.suffix.lower() in {".png",".jpg",".jpeg"}
+        and not (path.suffix.lower()==".png" and (path.with_suffix(".jpg").exists() or path.with_suffix(".jpeg").exists()))
+    )
 
 def slugify(v): return re.sub(r"[^a-z0-9]+","-",v.lower().replace("&","and")).strip("-")
 async def api(c,m,p,**kw):
@@ -16,9 +49,30 @@ async def paged(c,p,params=None):
     while url:
         r=await c.get(url,params=q); r.raise_for_status(); out+=r.json(); url=r.links.get("next",{}).get("url"); q=None
     return out
-async def ensure_module(c):
-    modules=await paged(c,f"/courses/{COURSE_ID}/modules"); found=next((m for m in modules if m["name"]==MODULE_NAME),None)
-    return found or await api(c,"POST",f"/courses/{COURSE_ID}/modules",data={"module[name]":MODULE_NAME,"module[published]":"false"})
+async def canvas_preflight(c):
+    modules=await paged(c,f"/courses/{COURSE_ID}/modules")
+    module_matches=[entry for entry in modules if entry.get("name") in MODULE_ALIASES]
+    if len(module_matches)!=1: raise RuntimeError(f"Expected one 1SW Wk2 module across accepted aliases; found {len(module_matches)}")
+    module=module_matches[0]
+    if module.get("published") is not False: raise RuntimeError("Refusing to modify a published 1SW Wk2 module")
+    groups=await paged(c,f"/courses/{COURSE_ID}/assignment_groups")
+    group_matches=[entry for entry in groups if entry.get("name")==MINOR_GROUP_NAME]
+    if len(group_matches)!=1: raise RuntimeError(f"Expected one {MINOR_GROUP_NAME!r} group; found {len(group_matches)}")
+    assignments=await paged(c,f"/courses/{COURSE_ID}/assignments")
+    minor_matches=[entry for entry in assignments if entry.get("name")==MAPPED_MINOR_TITLE]
+    if len(minor_matches)!=1: raise RuntimeError(f"Expected one mapped assignment {MAPPED_MINOR_TITLE!r}; found {len(minor_matches)}")
+    minor=minor_matches[0]; failures=[]
+    if minor.get("published") is not False: failures.append("published")
+    if float(minor.get("points_possible") or 0)!=100: failures.append("points_possible")
+    if minor.get("grading_type")!="points": failures.append("grading_type")
+    if minor.get("omit_from_final_grade") is not False: failures.append("omit_from_final_grade")
+    if minor.get("assignment_group_id")!=group_matches[0].get("id"): failures.append("assignment_group")
+    if set(minor.get("submission_types") or [])!=MINOR_SUBMISSION_TYPES: failures.append("submission_types")
+    if RUBRIC_NOTE_MARKER not in (minor.get("description") or ""): failures.append("rubric_marker")
+    if failures: raise RuntimeError(f"Mapped Minor preflight failed: {failures}")
+    return module,minor,group_matches[0]
+async def ensure_module(c,module):
+    return await api(c,"PUT",f"/courses/{COURSE_ID}/modules/{module['id']}",data={"module[name]":MODULE_NAME,"module[published]":"false"})
 async def ensure_folder(c,path):
     current=""; folder=None
     for name in path.split("/")[1:]:
@@ -37,25 +91,29 @@ async def upload(c,path,folder):
     if not uploaded.get("locked"):
         raise ValueError(f"Canvas file did not remain locked: {uploaded.get('display_name', path.name)}")
     return uploaded
-async def lock_folder_files(c,folder_id):
-    folder=await api(c,"GET",f"/folders/{folder_id}")
+async def lock_folder_files(c,folder,required_names=()):
+    folder=await api(c,"GET",f"/folders/{folder['id']}")
     if not folder.get("locked"):
-        folder=await api(c,"PUT",f"/folders/{folder_id}",data={"locked":"true"})
+        folder=await api(c,"PUT",f"/folders/{folder['id']}",data={"locked":"true"})
     if not folder.get("locked"):
-        raise ValueError(f"Canvas folder did not remain locked: {folder_id}")
-    existing=await paged(c,f"/folders/{folder_id}/files")
+        raise ValueError(f"Canvas folder did not remain locked: {folder['id']}")
+    existing=await paged(c,f"/folders/{folder['id']}/files")
     for file in existing:
         if not file.get("locked"):
             await api(c,"PUT",f"/files/{file['id']}",data={"locked":"true"})
-    verified=await paged(c,f"/folders/{folder_id}/files")
-    unlocked=[file["id"] for file in verified if not file.get("locked")]
-    if unlocked:
-        raise ValueError(f"Canvas folder {folder_id} contains unlocked files: {unlocked}")
-    return verified
+    folder=await api(c,"GET",f"/folders/{folder['id']}"); verified=await paged(c,f"/folders/{folder['id']}/files")
+    names={file.get("display_name") or file.get("filename") for file in verified}
+    missing=set(required_names)-names
+    unlocked=[file.get("display_name") or file.get("filename") for file in verified if file.get("locked") is not True]
+    if folder.get("locked") is not True or missing or unlocked:
+        raise ValueError(f"1SW Wk2 folder invariant failed for {folder['id']}: missing={sorted(missing)} unlocked={unlocked}")
+    return folder,verified
 async def find_file(c,name):
-    files=await paged(c,f"/courses/{COURSE_ID}/files",{"search_term":name}); match=next((f for f in files if f.get("display_name")==name),None)
-    if not match: raise ValueError(f"Canvas file not found: {name}")
-    return match
+    files=await paged(c,f"/courses/{COURSE_ID}/files",{"search_term":name}); matches=[f for f in files if f.get("display_name")==name]
+    if len(matches)!=1: raise ValueError(f"Expected one Canvas file named {name!r}; found {len(matches)}")
+    current=await api(c,"GET",f"/files/{matches[0]['id']}")
+    if current.get("locked") is not True: raise ValueError(f"Referenced Canvas file is not locked: {name}")
+    return current
 def render(name,values):
     text=(TEMPLATES/name).read_text()
     for k,v in values.items(): text=text.replace("{{"+k+"}}",str(v))
@@ -67,44 +125,61 @@ async def upsert_page(c,title,body,url):
     if r.status_code==200: return await api(c,"PUT",f"/courses/{COURSE_ID}/pages/{url}",data=data)
     if r.status_code!=404: r.raise_for_status()
     return await api(c,"POST",f"/courses/{COURSE_ID}/pages",data=data)
-async def upsert_item(c,module_id,kind,key,title,alias=None):
-    items=await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items")
-    item=next((i for i in items if (kind=="SubHeader" and i.get("type")=="SubHeader" and i.get("title") in {title,alias}) or (kind=="Page" and i.get("page_url")==key)),None)
-    if item: return await api(c,"PUT",f"/courses/{COURSE_ID}/modules/{module_id}/items/{item['id']}",data={"module_item[title]":title})
-    data={"module_item[type]":kind,"module_item[title]":title}
-    if kind=="Page": data["module_item[page_url]"]=key
-    return await api(c,"POST",f"/courses/{COURSE_ID}/modules/{module_id}/items",data=data)
+def item_matches(item,kind,key,title):
+    if item.get("type")!=kind: return False
+    if kind=="SubHeader": return item.get("title")==title
+    if kind=="Page": return item.get("page_url")==key
+    return item.get("content_id")==key
+async def reconcile_module_items(c,module_id,expected):
+    items=await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items"); keep=[]
+    for kind,key,title in expected:
+        matches=[entry for entry in items if item_matches(entry,kind,key,title) and entry.get("id") not in keep]
+        if matches: keep.append(matches[0]["id"]); continue
+        data={"module_item[type]":kind,"module_item[title]":title,"module_item[published]":"false"}
+        if kind=="Page": data["module_item[page_url]"]=key
+        elif kind=="Assignment": data["module_item[content_id]"]=key
+        created=await api(c,"POST",f"/courses/{COURSE_ID}/modules/{module_id}/items",data=data); keep.append(created["id"])
+    for item in items:
+        if item["id"] not in keep: await api(c,"DELETE",f"/courses/{COURSE_ID}/modules/{module_id}/items/{item['id']}")
+    for position,(item_id,(kind,key,title)) in enumerate(zip(keep,expected),start=1):
+        await api(c,"PUT",f"/courses/{COURSE_ID}/modules/{module_id}/items/{item_id}",data={"module_item[position]":position,"module_item[title]":title,"module_item[published]":"false"})
+    final=sorted(await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items"),key=lambda entry:entry.get("position") or 0)
+    if len(final)!=16: raise RuntimeError(f"Expected literal 16-item 1SW Wk2 module; found {len(final)}")
+    for position,(item,(kind,key,title)) in enumerate(zip(final,expected),start=1):
+        if item.get("position")!=position or item.get("title")!=title or item.get("published") is not False or not item_matches(item,kind,key,title):
+            raise RuntimeError(f"1SW Wk2 item mismatch at position {position}: {item}")
+    return final
 def flow(color,title,text): return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0;color:{color}">{title}</h4><p>{text}</p></div>'
 
 async def main():
+    preflight()
     token=sys.stdin.readline().strip()
     if not token: raise SystemExit("Canvas token required on stdin")
     async with httpx.AsyncClient(headers={"Authorization":f"Bearer {token}"},timeout=120) as c:
-        module=await ensure_module(c); module_id=module["id"]
-        support_names={
-          "PROGRAMS":"wk2-it-programs-scaffold.pdf","EXAMPLE":"wk2-career-research-web-developer.pdf","SALARY":"wk2-it-salary-comparison.pdf","MODEL":"wk2-it-salary-comparison-model.pdf","SALARY_BI":"wk2-it-salary-comparison-bilingual.pdf","GUIDE":"wk2-bls-data-guide.pdf","FLIP":"wk2-flip-the-failure-scaffold.pdf","RUBRIC":"wk2-salary-hoc-rubric.pdf","CLIPBOARD":"clipboard-roster-grid.pdf","D5":"wk2-day5-it-pathway-decision.pdf",
-          "E1":"1sw-wk2-day1-it-cluster-tour-four-irving-programs-of-study.pdf","E2":"1sw-wk2-day2-programming-pathway-deep-dive-software-web-app-game.pdf","E3":"1sw-wk2-day3-powerskill-resilience-it-salary-showdown.pdf","E4":"1sw-wk2-day4-code-org-hour-of-code-day-1.pdf"}
+        existing_module,mapped_minor,minor_group=await canvas_preflight(c)
+        module=await ensure_module(c,existing_module); module_id=module["id"]
         support_folder="course files/CCR Materials/1SW/Wk2"; support_folder_info=await ensure_folder(c,support_folder); files={}
-        for key,name in support_names.items():
+        for key,name in SUPPORT_NAMES.items():
             source_dir=ROOT/"docs/resources/exit-tickets" if name.startswith("1sw-") else ROOT/"docs/resources/worksheets"
             files[key]=await upload(c,source_dir/name,support_folder)
-        await lock_folder_files(c,support_folder_info["id"])
+        support_folder_info,support_folder_files=await lock_folder_files(c,support_folder_info,SUPPORT_NAMES.values())
         files["XELLO"]=await find_file(c,"personality-styles.pdf")
         xello_folder_id=files["XELLO"].get("folder_id")
         if not xello_folder_id:
             raise ValueError("Xello personality-styles.pdf did not report a folder_id")
-        await lock_folder_files(c,xello_folder_id)
+        xello_folder=await api(c,"GET",f"/folders/{xello_folder_id}")
+        await lock_folder_files(c,xello_folder,("personality-styles.pdf",))
         files["XELLO"]=await find_file(c,"personality-styles.pdf")
         if not files["XELLO"].get("locked"):
             raise ValueError("Xello personality-styles.pdf did not remain locked")
-        uploads={}; folders={}
+        uploads={}; folders={}; folder_files={}
         for day in range(1,6):
             folder_path=f"course files/CCR Materials/1SW/Wk2/Day {day} Visuals"; folders[day]=await ensure_folder(c,folder_path); uploads[day]={}
-            day_dir=ASSETS/f"day{day}"
-            if day_dir.exists():
-                for path in sorted(day_dir.glob("*.png")): uploads[day][path.name]=await upload(c,path,folder_path)
+            day_dir=ASSETS/f"day{day}"; day_images=preferred_images(day_dir) if day_dir.exists() else []
+            for path in day_images: uploads[day][path.name]=await upload(c,path,folder_path)
+            folders[day],folder_files[day]=await lock_folder_files(c,folders[day],(path.name for path in day_images))
         student_values={
-          1:{"OPENER_IMAGE_ID":uploads[1]["it-chapter-opener.png"]["id"],"DISTRICT1_IMAGE_ID":uploads[1]["irving-it-programs-page-1.png"]["id"],"APP_IMAGE_ID":uploads[1]["it-app-exploration.png"]["id"],"PROGRAMS_FILE_ID":files["PROGRAMS"]["id"],"EXIT_FILE_ID":files["E1"]["id"]},
+          1:{"OPENER_IMAGE_ID":uploads[1]["it-chapter-opener.jpg"]["id"],"DISTRICT1_IMAGE_ID":uploads[1]["irving-it-programs-page-1.png"]["id"],"APP_IMAGE_ID":uploads[1]["it-app-exploration.png"]["id"],"PROGRAMS_FILE_ID":files["PROGRAMS"]["id"],"EXIT_FILE_ID":files["E1"]["id"]},
           2:{"APP_IMAGE_ID":uploads[2]["it-app-exploration.png"]["id"],"SALARY_FILE_ID":files["SALARY"]["id"],"EXAMPLE_FILE_ID":files["EXAMPLE"]["id"],"EXIT_FILE_ID":files["E2"]["id"]},
           3:{"SCENARIO_IMAGE_ID":uploads[3]["resilience-scenario.png"]["id"],"CHART_IMAGE_ID":uploads[3]["flip-the-failure-chart.png"]["id"],"FLIP_FILE_ID":files["FLIP"]["id"],"SALARY_FILE_ID":files["SALARY"]["id"],"MODEL_FILE_ID":files["MODEL"]["id"],"GUIDE_FILE_ID":files["GUIDE"]["id"],"BILINGUAL_FILE_ID":files["SALARY_BI"]["id"],"EXIT_FILE_ID":files["E3"]["id"]},
           4:{"EXIT_FILE_ID":files["E4"]["id"]},
@@ -168,19 +243,31 @@ async def main():
             "SUPPORT":"<p>The Student Guide places a fit word bank and complete frame beside page 5. Read result descriptions aloud, allow a student to keep unchosen traits private, and accept oral rehearsal or speech-to-text.</p>",
             "FALLBACK":"<p>Record the Xello issue, complete page 5 and the workbook pathway check, and add platform completion to the next supervised catch-up block. Use the one-page decision sheet only if the original packet is unavailable.</p>"}}
         day_headers={1:"Day 1 — Map the IT Cluster",2:"Day 2 — Compare Programming Careers",3:"Day 3 — Resilience and Salary Showdown",4:"Day 4 — Test a Programming Concept",5:"Day 5 — Personality Style and IT Decision"}
-        pages={}; order=[]
+        pages={}
         for day in range(1,6):
             st=student_titles[day]; su=slugify(st); student=await upsert_page(c,st,render(f"wk2-day{day}-student.html",{"COURSE_ID":COURSE_ID,**student_values[day]}),su)
             tt=f"TEACHER: 1SW Wk2 Day {day} Facilitator Guide"; tu=slugify(tt); teacher=await upsert_page(c,tt,render("wk2-teacher.html",{"COURSE_ID":COURSE_ID,"DAY":day,"STUDENT_PAGE_URL":student["url"],**contracts[day],**teacher_data[day]}),tu)
-            header=await upsert_item(c,module_id,"SubHeader",None,day_headers[day],f"Day {day}")
-            teacher_item=await upsert_item(c,module_id,"Page",teacher["url"],tt)
-            student_item=await upsert_item(c,module_id,"Page",student["url"],st)
-            pages[day]={"teacher":teacher,"student":student}; order.extend([(header["id"],day_headers[day]),(teacher_item["id"],tt),(student_item["id"],st)])
-        items=await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items")
-        minor=next((i for i in items if i.get("type")=="Assignment" and i.get("title")=="MINOR 2: IT Salary Comparison and Career-Fit Reflection"),None)
-        if minor: order.append((minor["id"],minor["title"]))
-        for position,(item_id,title) in reversed(list(enumerate(order,start=1))): await api(c,"PUT",f"/courses/{COURSE_ID}/modules/{module_id}/items/{item_id}",data={"module_item[position]":position,"module_item[title]":title})
-        final=await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items"); module=await api(c,"GET",f"/courses/{COURSE_ID}/modules/{module_id}")
-        print(json.dumps({"module":{"id":module_id,"published":module["published"]},"folders":{str(d):{"id":f["id"],"locked":f["locked"]} for d,f in folders.items()},"pages":{str(d):{k:{"url":v["url"],"published":v["published"]} for k,v in p.items()} for d,p in pages.items()},"items":[{"id":i["id"],"position":i["position"],"title":i["title"],"page_url":i.get("page_url")} for i in final]},indent=2))
+            pages[day]={"teacher":teacher,"student":student}
+        expected=[]
+        for day in range(1,6):
+            expected.append(("SubHeader",None,day_headers[day]))
+            for page_kind in ("teacher","student"):
+                page=pages[day][page_kind]
+                expected.append(("Page",page["url"],page["title"]))
+        expected.append(("Assignment",mapped_minor["id"],MAPPED_MINOR_TITLE))
+        final=await reconcile_module_items(c,module_id,expected)
+        module=await api(c,"GET",f"/courses/{COURSE_ID}/modules/{module_id}")
+        final_minor=await api(c,"GET",f"/courses/{COURSE_ID}/assignments/{mapped_minor['id']}")
+        final_pages=[await api(c,"GET",f"/courses/{COURSE_ID}/pages/{page['url']}") for day in range(1,6) for page in pages[day].values()]
+        final_failures=[]
+        if module.get("published") is not False: final_failures.append("module_published")
+        if any(page.get("published") is not False for page in final_pages): final_failures.append("page_published")
+        if final_minor.get("published") is not False or float(final_minor.get("points_possible") or 0)!=100 or final_minor.get("grading_type")!="points" or final_minor.get("omit_from_final_grade") is not False: final_failures.append("minor_grading")
+        if final_minor.get("assignment_group_id")!=minor_group.get("id") or set(final_minor.get("submission_types") or [])!=MINOR_SUBMISSION_TYPES or RUBRIC_NOTE_MARKER not in (final_minor.get("description") or ""): final_failures.append("minor_identity")
+        support_folder_info,support_folder_files=await lock_folder_files(c,support_folder_info,SUPPORT_NAMES.values())
+        for day,folder in folders.items():
+            day_dir=ASSETS/f"day{day}"; folders[day],folder_files[day]=await lock_folder_files(c,folder,(path.name for path in preferred_images(day_dir)) if day_dir.exists() else ())
+        if final_failures: raise RuntimeError(f"1SW Wk2 final invariant failed: {final_failures}")
+        print(json.dumps({"module":{"id":module_id,"published":module["published"]},"minor":{"id":final_minor["id"],"published":final_minor.get("published"),"points":final_minor.get("points_possible"),"group":final_minor.get("assignment_group_id"),"grading_type":final_minor.get("grading_type"),"omit_from_final_grade":final_minor.get("omit_from_final_grade")},"support_folder":{"id":support_folder_info["id"],"locked":support_folder_info["locked"],"file_count":len(support_folder_files)},"folders":{str(d):{"id":f["id"],"locked":f["locked"],"file_count":len(folder_files[d])} for d,f in folders.items()},"files":{k:v["id"] for k,v in files.items()},"pages":{str(d):{k:{"url":v["url"],"published":v["published"]} for k,v in p.items()} for d,p in pages.items()},"items":[{"id":i["id"],"position":i["position"],"title":i["title"],"type":i["type"],"page_url":i.get("page_url"),"content_id":i.get("content_id"),"published":i.get("published")} for i in final]},indent=2))
 
-asyncio.run(main())
+if __name__=="__main__": asyncio.run(main())

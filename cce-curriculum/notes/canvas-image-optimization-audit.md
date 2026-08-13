@@ -88,6 +88,26 @@ sweeps, exact typed sixteen-item reconciliation, and final fresh checks for the
 module, pages, Major grading state, submission routes, rubric marker, and
 storage locks.
 
+## 1SW Week 2 Information Technology Opener
+
+The 1SW Week 2 Day 1 FYF Information Technology opener is an active Student
+Guide image. The licensed 1,275 by 1,650 PNG remains unchanged in the
+gitignored archive. A 1,020 by 1,320 JPEG delivery copy reduced the file from
+1,155,234 bytes to 427,457 bytes, a 63.0% reduction.
+
+The original and delivery copy were compared at original detail and current
+Canvas display sizes. The chapter title, explanatory text, security decision,
+career labels, and page number remain as readable as the source. The native
+Student Guide restates the required decision and keeps the H&amp;L-unavailable
+route independent of the image. `build_wk2.py` now preflights, uploads, locks,
+and embeds the JPEG while retaining the PNG locally.
+
+The audit explicitly skipped larger archive files that do not create active
+student page weight. The 1SW Week 1 Day 5 slide images and the 2SW Week 5 FYF
+Powerskills opener are present in locked lesson folders but are not embedded by
+their current builders or Student Guides. Their archive size is not treated as
+a reason to create another delivery copy.
+
 ## Duplicate Findings
 
 The clearest repeated uploads are:
@@ -110,7 +130,7 @@ The importers currently organize files by lesson/day for teacher clarity. A late
 
 ## Priority Queue
 
-1. Convert remaining 1SW presentation slides and chapter openers larger than 750 KB after side-by-side text checks.
+1. Convert remaining active 1SW presentation slides and chapter openers larger than 750 KB after confirming the exact importer and Student Guide reference and completing side-by-side text checks.
 2. Move exact shared IT/Xello images to one locked shared Canvas folder and update importers to reuse their file IDs.
 3. Optimize 2SW/3SW chapter openers and image-heavy deck slides larger than 750 KB.
 4. Leave the already optimized 5SW/6SW JPEG production sets alone unless browser timing shows a specific problem; most are already roughly 90–300 KB.
