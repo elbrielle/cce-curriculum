@@ -284,10 +284,12 @@ def contract_html(contract: LessonContract, role: str) -> str:
         )
     else:
         objective = re.sub(r"^Students? will\s+", "I can ", contract.objective, flags=re.I)
-        student_dol = contract.dol
-        if not re.match(r"^(Xello|H&L|FYF|Canvas|Code\.org)\b", student_dol):
-            student_dol = student_dol[0].lower() + student_dol[1:]
-        dol = f"I will show my learning by completing: {student_dol}"
+        # The label already tells students what this evidence represents. Keep
+        # the canonical evidence criteria intact instead of adding a generic
+        # sentence that can produce constructions such as "by completing:
+        # students complete ...". Only shift an explicit third-person subject
+        # to the student-facing second person.
+        dol = re.sub(r"^Students?\b", "You", contract.dol, count=1, flags=re.I)
         heading = "Today\'s Learning"
         rows = (("Topic", contract.topic), ("Objective", objective), ("Show Your Learning", dol))
     rendered = "".join(
