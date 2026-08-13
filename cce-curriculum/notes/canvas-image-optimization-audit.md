@@ -67,6 +67,27 @@ Student Guide and nursing-route evidence materials remain the independent text
 route. `build_2sw_wk3.py` now preflights, uploads, locks, and embeds the JPEG
 while retaining the PNG locally.
 
+## 2SW Week 1 Law and Public Safety Opener
+
+The 2SW Week 1 Day 1 FYF Law and Public Safety opener is an active Student
+Guide image. The licensed 1,148 by 1,485 PNG remains unchanged in the
+gitignored archive. A 1,020 by 1,320 JPEG delivery copy reduced the file from
+1,305,837 bytes to 464,321 bytes, a 64.4% reduction.
+
+The original and delivery copy were compared at original detail, desktop
+Canvas width, and a 430-pixel mobile viewport. The chapter title, career
+labels, explanatory text, decision prompt, and page number remain as readable
+as the source. The native Student Guide and Legal Career Evidence Cards remain
+the independent text route. `build_2sw_wk1.py` now preflights, uploads, locks,
+and embeds the JPEG while retaining the PNG locally.
+
+This slice also brought the importer to the current release-safety standard
+before any live write: local dependency preflight before stdin, a unique
+unpublished mapped-Major guard before mutation, locked upload and folder
+sweeps, exact typed sixteen-item reconciliation, and final fresh checks for the
+module, pages, Major grading state, submission routes, rubric marker, and
+storage locks.
+
 ## Duplicate Findings
 
 The clearest repeated uploads are:

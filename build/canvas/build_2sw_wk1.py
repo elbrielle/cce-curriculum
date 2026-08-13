@@ -6,7 +6,37 @@ import httpx
 
 BASE="https://learn.irvingisd.net"; COURSE_ID=98060
 MODULE_NAME="2SW Wk1: Legal Studies and Policy Evidence"
+MODULE_ALIASES={MODULE_NAME,"2SW Wk1: Order in the Court - Legal Studies","2SW Wk1: Order in the Court — Legal Studies"}
+MAPPED_MAJOR_TITLE="MAJOR 1: Legal Policy Position Evidence"
+MAJOR_GROUP_NAME="Major Assessments (60%)"
+RUBRIC_NOTE_MARKER='data-cce-rubric-note="cce-advisory-rubric-v1"'
+MAJOR_SUBMISSION_TYPES={"online_upload","online_text_entry","media_recording"}
 ROOT=Path(__file__).resolve().parents[2]; TEMPLATES=Path(__file__).parent/"templates"; ASSETS=ROOT/"cce-curriculum/resources/canvas-licensed/2sw/wk1"
+
+SUPPORT_NAMES={"CAREER":"career-research-worksheet.pdf","CAREER_CARDS":"2sw-wk1-legal-career-cards.pdf","KIT":"2sw-wk1-emergency-kit-plan.pdf","TOWN":"2sw-wk1-city-council-plan.pdf","ARGUMENT":"2sw-wk1-policy-argument-and-evidence.pdf","ENTREPRENEUR":"2sw-wk1-legal-entrepreneur-card.pdf","RUBRIC":"2sw-wk1-position-paper-rubric.pdf","CONNECTION":"2sw-wk1-xello-life-experience-connection.pdf"}
+REQUIRED_VISUALS={
+    1:("law-cluster-opener.jpg","irving-legal-programs.png"),
+    2:("emergency-essentials-056.png","emergency-essentials-057.png"),
+    3:("city-council-046.png","city-council-047.png","city-council-048.png","city-council-049.png"),
+    4:("policy-showdown-050.png",),
+    5:("irving-legal-programs.png",),
+}
+
+def preflight():
+    required=[
+        *(TEMPLATES/name for name in ("2sw-wk1-teacher.html",*(f"2sw-wk1-day{day}-student.html" for day in range(1,6)))),
+        *(ROOT/"docs/resources/worksheets"/name for name in SUPPORT_NAMES.values()),
+        *(ASSETS/f"day{day}"/name for day,names in REQUIRED_VISUALS.items() for name in names),
+    ]
+    missing=[str(path.relative_to(ROOT)) for path in required if not path.is_file()]
+    if missing: raise FileNotFoundError(f"2SW Wk1 preflight missing required files: {missing}")
+
+def preferred_images(folder):
+    return sorted(
+        path for path in folder.iterdir()
+        if path.suffix.lower() in {".png",".jpg",".jpeg"}
+        and not (path.suffix.lower()==".png" and (path.with_suffix(".jpg").exists() or path.with_suffix(".jpeg").exists()))
+    )
 
 def slugify(v): return re.sub(r"[^a-z0-9]+","-",v.lower().replace("&","and")).strip("-")
 async def api(c,m,p,**kw):
@@ -16,11 +46,32 @@ async def paged(c,p,params=None):
     while url:
         r=await c.get(url,params=q); r.raise_for_status(); out+=r.json(); url=r.links.get("next",{}).get("url"); q=None
     return out
-async def ensure_module(c):
-    prior_names={"2SW Wk1: Order in the Court - Legal Studies","2SW Wk1: Order in the Court — Legal Studies"}
-    modules=await paged(c,f"/courses/{COURSE_ID}/modules"); found=next((m for m in modules if m["name"] in {MODULE_NAME,*prior_names}),None)
-    if found: return await api(c,"PUT",f"/courses/{COURSE_ID}/modules/{found['id']}",data={"module[name]":MODULE_NAME,"module[published]":"false"})
-    return await api(c,"POST",f"/courses/{COURSE_ID}/modules",data={"module[name]":MODULE_NAME,"module[published]":"false"})
+async def canvas_preflight(c):
+    modules=await paged(c,f"/courses/{COURSE_ID}/modules")
+    module_matches=[entry for entry in modules if entry.get("name") in MODULE_ALIASES]
+    if len(module_matches)!=1: raise RuntimeError(f"Expected one 2SW Wk1 module across accepted aliases; found {len(module_matches)}")
+    module=module_matches[0]
+    if module.get("published") is not False: raise RuntimeError("Refusing to modify a published 2SW Wk1 module")
+    groups=await paged(c,f"/courses/{COURSE_ID}/assignment_groups")
+    group_matches=[entry for entry in groups if entry.get("name")==MAJOR_GROUP_NAME]
+    if len(group_matches)!=1: raise RuntimeError(f"Expected one {MAJOR_GROUP_NAME!r} group; found {len(group_matches)}")
+    assignments=await paged(c,f"/courses/{COURSE_ID}/assignments")
+    major_matches=[entry for entry in assignments if entry.get("name")==MAPPED_MAJOR_TITLE]
+    if len(major_matches)!=1: raise RuntimeError(f"Expected one mapped assignment {MAPPED_MAJOR_TITLE!r}; found {len(major_matches)}")
+    major=major_matches[0]
+    failures=[]
+    if major.get("published") is not False: failures.append("published")
+    if float(major.get("points_possible") or 0)!=100: failures.append("points_possible")
+    if major.get("grading_type")!="points": failures.append("grading_type")
+    if major.get("omit_from_final_grade") is not False: failures.append("omit_from_final_grade")
+    if major.get("assignment_group_id")!=group_matches[0].get("id"): failures.append("assignment_group")
+    if set(major.get("submission_types") or [])!=MAJOR_SUBMISSION_TYPES: failures.append("submission_types")
+    if RUBRIC_NOTE_MARKER not in (major.get("description") or ""): failures.append("rubric_marker")
+    if failures: raise RuntimeError(f"Mapped Major preflight failed: {failures}")
+    return module,major,group_matches[0]
+
+async def ensure_module(c,module):
+    return await api(c,"PUT",f"/courses/{COURSE_ID}/modules/{module['id']}",data={"module[name]":MODULE_NAME,"module[published]":"false"})
 async def ensure_folder(c,path):
     current=""; folder=None
     for name in path.split("/")[1:]:
@@ -33,11 +84,27 @@ async def ensure_folder(c,path):
     return folder
 async def upload(c,path,folder):
     init=await api(c,"POST",f"/courses/{COURSE_ID}/files",data={"name":path.name,"parent_folder_path":folder,"on_duplicate":"overwrite"})
-    r=await c.post(init["upload_url"],data=init["upload_params"],files={"file":(path.name,path.read_bytes(),mimetypes.guess_type(path.name)[0] or "application/octet-stream")},follow_redirects=True); r.raise_for_status(); return r.json()
+    r=await c.post(init["upload_url"],data=init["upload_params"],files={"file":(path.name,path.read_bytes(),mimetypes.guess_type(path.name)[0] or "application/octet-stream")},follow_redirects=True); r.raise_for_status()
+    uploaded=await api(c,"PUT",f"/files/{r.json()['id']}",data={"locked":"true"})
+    if uploaded.get("locked") is not True: raise RuntimeError(f"Canvas did not lock uploaded file {path.name!r}")
+    return uploaded
+async def lock_folder_files(c,folder,required_names=()):
+    current=await api(c,"GET",f"/folders/{folder['id']}")
+    if current.get("locked") is not True: current=await api(c,"PUT",f"/folders/{folder['id']}",data={"locked":"true"})
+    for entry in await paged(c,f"/folders/{folder['id']}/files"):
+        if entry.get("locked") is not True: await api(c,"PUT",f"/files/{entry['id']}",data={"locked":"true"})
+    current=await api(c,"GET",f"/folders/{folder['id']}"); files=await paged(c,f"/folders/{folder['id']}/files")
+    names={entry.get("display_name") or entry.get("filename") for entry in files}
+    missing=set(required_names)-names
+    unlocked=[entry.get("display_name") or entry.get("filename") for entry in files if entry.get("locked") is not True]
+    if current.get("locked") is not True or missing or unlocked: raise RuntimeError(f"2SW Wk1 folder invariant failed for {folder['id']}: missing={sorted(missing)} unlocked={unlocked}")
+    return current,files
 async def find_file(c,name):
     files=await paged(c,f"/courses/{COURSE_ID}/files",{"search_term":name}); match=next((f for f in files if f.get("display_name")==name),None)
     if not match: raise ValueError(f"Canvas file not found: {name}")
-    return match
+    current=await api(c,"GET",f"/files/{match['id']}")
+    if current.get("locked") is not True: raise RuntimeError(f"Referenced Canvas file is not locked: {name}")
+    return current
 def render(name,values):
     text=(TEMPLATES/name).read_text()
     for k,v in values.items(): text=text.replace("{{"+k+"}}",str(v))
@@ -49,10 +116,30 @@ async def upsert_page(c,title,body,url):
     if r.status_code==200: return await api(c,"PUT",f"/courses/{COURSE_ID}/pages/{url}",data=data)
     if r.status_code!=404: r.raise_for_status()
     return await api(c,"POST",f"/courses/{COURSE_ID}/pages",data=data)
-async def upsert_item(c,module_id,page,title):
-    items=await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items"); item=next((i for i in items if i.get("page_url")==page["url"]),None)
-    if item: return await api(c,"PUT",f"/courses/{COURSE_ID}/modules/{module_id}/items/{item['id']}",data={"module_item[title]":title})
-    return await api(c,"POST",f"/courses/{COURSE_ID}/modules/{module_id}/items",data={"module_item[type]":"Page","module_item[page_url]":page["url"],"module_item[title]":title})
+def item_matches(item,kind,key,title):
+    if item.get("type")!=kind: return False
+    if kind=="SubHeader": return item.get("title")==title
+    if kind=="Page": return item.get("page_url")==key
+    return item.get("content_id")==key
+async def reconcile_module_items(c,module_id,expected):
+    items=await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items"); keep=[]
+    for kind,key,title in expected:
+        matches=[entry for entry in items if item_matches(entry,kind,key,title) and entry.get("id") not in keep]
+        if matches: keep.append(matches[0]["id"]); continue
+        data={"module_item[type]":kind,"module_item[title]":title,"module_item[published]":"false"}
+        if kind=="Page": data["module_item[page_url]"]=key
+        elif kind=="Assignment": data["module_item[content_id]"]=key
+        created=await api(c,"POST",f"/courses/{COURSE_ID}/modules/{module_id}/items",data=data); keep.append(created["id"])
+    for item in items:
+        if item["id"] not in keep: await api(c,"DELETE",f"/courses/{COURSE_ID}/modules/{module_id}/items/{item['id']}")
+    for position,(item_id,(kind,key,title)) in enumerate(zip(keep,expected),start=1):
+        await api(c,"PUT",f"/courses/{COURSE_ID}/modules/{module_id}/items/{item_id}",data={"module_item[position]":position,"module_item[title]":title,"module_item[published]":"false"})
+    final=sorted(await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items"),key=lambda entry:entry.get("position") or 0)
+    if len(final)!=16: raise RuntimeError(f"Expected literal 16-item 2SW Wk1 module; found {len(final)}")
+    for position,(item,(kind,key,title)) in enumerate(zip(final,expected),start=1):
+        if item.get("position")!=position or item.get("title")!=title or item.get("published") is not False or not item_matches(item,kind,key,title):
+            raise RuntimeError(f"2SW Wk1 item mismatch at position {position}: {item}")
+    return final
 def flow(color,title,text): return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0;color:{color}">{title}</h4><p>{text}</p></div>'
 def detail_images(uploads,names,alts):
     parts=[]
@@ -62,20 +149,25 @@ def detail_images(uploads,names,alts):
     return "".join(parts)
 
 async def main():
+    preflight()
     token=sys.stdin.readline().strip()
     if not token: raise SystemExit("Canvas token required on stdin")
     async with httpx.AsyncClient(headers={"Authorization":f"Bearer {token}"},timeout=120) as c:
-        module=await ensure_module(c); module_id=module["id"]
-        support_names={"CAREER":"career-research-worksheet.pdf","CAREER_CARDS":"2sw-wk1-legal-career-cards.pdf","KIT":"2sw-wk1-emergency-kit-plan.pdf","TOWN":"2sw-wk1-city-council-plan.pdf","ARGUMENT":"2sw-wk1-policy-argument-and-evidence.pdf","ENTREPRENEUR":"2sw-wk1-legal-entrepreneur-card.pdf","RUBRIC":"2sw-wk1-position-paper-rubric.pdf","CONNECTION":"2sw-wk1-xello-life-experience-connection.pdf"}
-        support_folder="course files/CCR Materials/2SW/Wk1"; await ensure_folder(c,support_folder); files={}
-        for key,name in support_names.items(): files[key]=await upload(c,ROOT/"docs/resources/worksheets"/name,support_folder)
+        existing_module,mapped_major,major_group=await canvas_preflight(c)
+        module=await ensure_module(c,existing_module); module_id=module["id"]
+        support_folder_path="course files/CCR Materials/2SW/Wk1"; support_folder=await ensure_folder(c,support_folder_path); files={}
+        for key,name in SUPPORT_NAMES.items(): files[key]=await upload(c,ROOT/"docs/resources/worksheets"/name,support_folder_path)
         files["XELLO"]=await find_file(c,"experiences.pdf")
         uploads={}; folders={}
         for day in range(1,6):
             folder_path=f"course files/CCR Materials/2SW/Wk1/Day {day} Visuals"; folders[day]=await ensure_folder(c,folder_path); uploads[day]={}
-            for path in sorted((ASSETS/f"day{day}").glob("*.png")): uploads[day][path.name]=await upload(c,path,folder_path)
+            for path in preferred_images(ASSETS/f"day{day}"): uploads[day][path.name]=await upload(c,path,folder_path)
+        support_folder,support_folder_files=await lock_folder_files(c,support_folder,SUPPORT_NAMES.values())
+        folder_files={}
+        for day,folder in folders.items():
+            folders[day],folder_files[day]=await lock_folder_files(c,folder,(path.name for path in preferred_images(ASSETS/f"day{day}")))
         student_values={
-          1:{"OPENER_IMAGE_ID":uploads[1]["law-cluster-opener.png"]["id"],"PROGRAM_IMAGE_ID":uploads[1]["irving-legal-programs.png"]["id"],"CAREER_FILE_ID":files["CAREER"]["id"],"CAREER_CARDS_FILE_ID":files["CAREER_CARDS"]["id"]},
+          1:{"OPENER_IMAGE_ID":uploads[1]["law-cluster-opener.jpg"]["id"],"PROGRAM_IMAGE_ID":uploads[1]["irving-legal-programs.png"]["id"],"CAREER_FILE_ID":files["CAREER"]["id"],"CAREER_CARDS_FILE_ID":files["CAREER_CARDS"]["id"]},
           2:{"PAGE1_IMAGE_ID":uploads[2]["emergency-essentials-056.png"]["id"],"PAGE2_IMAGE_ID":uploads[2]["emergency-essentials-057.png"]["id"],"PLAN_FILE_ID":files["KIT"]["id"]},
           3:{"PAGE1_IMAGE_ID":uploads[3]["city-council-046.png"]["id"],"PLAN_FILE_ID":files["TOWN"]["id"],"SOURCE_IMAGES":detail_images(uploads[3],["city-council-047.png","city-council-048.png","city-council-049.png"],["Find Your Future town-design directions","Find Your Future problem scan and ordinance-drafting directions","Find Your Future partner-review directions"])},
           4:{"POLICY_IMAGE_ID":uploads[4]["policy-showdown-050.png"]["id"],"ARGUMENT_FILE_ID":files["ARGUMENT"]["id"],"ENTREPRENEUR_FILE_ID":files["ENTREPRENEUR"]["id"]},
@@ -93,21 +185,30 @@ async def main():
           3:{"TOPIC":"Local Ordinances","OBJECTIVE":"Students will identify legal and public-service career opportunities by drafting clear, fair, enforceable ordinances and connecting one worker to the process.","TEKS":"d(1)(C)","DOL":"Town plan, four-problem scan, two complete ordinances, one revision, and one specific worker/task connection.","STUDENT_OBJECTIVE":"I can write two workable town ordinances and explain who would create, review, explain, or enforce one of them.","STUDENT_DOL":"I will complete the town plan, two ordinances, one revision, and one worker/task connection."},
           4:{"TOPIC":"Legal Entrepreneurship","OBJECTIVE":"Students will define entrepreneurship, identify a plausible independent-work opportunity in the legal field, and explain how one professional association supports that pathway.","TEKS":"d(3)(I), d(3)(H)","DOL":"Controlled-evidence policy argument and personal position plus a complete Legal Entrepreneur and Association Card.","STUDENT_OBJECTIVE":"I can evaluate a policy from both sides and connect one legal business opportunity to a professional association.","STUDENT_DOL":"I will submit evidence for both sides, my own position, and a complete career-and-association card."},
           5:{"TOPIC":"Experience Connections","OBJECTIVE":"Students will identify one legal career opportunity, explain how a professional association supports it, and connect one authentic life experience to a specific career task.","TEKS":"d(1)(C), d(3)(H)","DOL":"Final legal-policy evidence, completed association card, at least one saved Xello Life experience, and a specific experience-to-career connection.","STUDENT_OBJECTIVE":"I can connect a life experience and a professional association to one legal career.","STUDENT_DOL":"I will submit the final evidence, save one Xello Life experience, and explain one specific career connection."}}
-        pages={}; order=[]
+        pages={}
         for day in range(1,6):
             st=student_titles[day]; student=await upsert_page(c,st,render(f"2sw-wk1-day{day}-student.html",{"COURSE_ID":COURSE_ID,**contracts[day],**student_values[day]}),slugify(st))
             tt=f"TEACHER: 2SW Wk1 Day {day} Facilitator Guide"; teacher=await upsert_page(c,tt,render("2sw-wk1-teacher.html",{"COURSE_ID":COURSE_ID,"DAY":day,"STUDENT_PAGE_URL":student["url"],**contracts[day],**teacher_data[day]}),slugify(tt))
-            await upsert_item(c,module_id,teacher,tt); await upsert_item(c,module_id,student,st); pages[day]={"teacher":teacher,"student":student}
-        items=await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items"); by_url={i.get("page_url"):i for i in items}
-        desired=[]; used=set()
+            pages[day]={"teacher":teacher,"student":student}
+        expected=[]
         for day in range(1,6):
-            header=next((i for i in items if i.get("type")=="SubHeader" and i.get("title")==f"Day {day}"),None)
-            if header: desired.append(header["id"]); used.add(header["id"])
+            expected.append(("SubHeader",None,f"Day {day}"))
             for page_kind in ("teacher","student"):
-                item=by_url[pages[day][page_kind]["url"]]; desired.append(item["id"]); used.add(item["id"])
-        desired.extend(i["id"] for i in sorted(items,key=lambda item:item["position"]) if i["id"] not in used)
-        for position,item_id in reversed(list(enumerate(desired,start=1))): await api(c,"PUT",f"/courses/{COURSE_ID}/modules/{module_id}/items/{item_id}",data={"module_item[position]":position})
-        final=await paged(c,f"/courses/{COURSE_ID}/modules/{module_id}/items"); module=await api(c,"GET",f"/courses/{COURSE_ID}/modules/{module_id}")
-        print(json.dumps({"module":{"id":module_id,"published":module["published"]},"folders":{str(d):{"id":f["id"],"locked":f["locked"]} for d,f in folders.items()},"files":{k:v["id"] for k,v in files.items()},"pages":{str(d):{k:{"url":v["url"],"published":v["published"]} for k,v in p.items()} for d,p in pages.items()},"items":[{"id":i["id"],"position":i["position"],"title":i["title"],"page_url":i.get("page_url")} for i in final]},indent=2))
+                page=pages[day][page_kind]
+                expected.append(("Page",page["url"],page["title"]))
+        expected.append(("Assignment",mapped_major["id"],MAPPED_MAJOR_TITLE))
+        final=await reconcile_module_items(c,module_id,expected)
+        module=await api(c,"GET",f"/courses/{COURSE_ID}/modules/{module_id}")
+        final_major=await api(c,"GET",f"/courses/{COURSE_ID}/assignments/{mapped_major['id']}")
+        final_pages=[await api(c,"GET",f"/courses/{COURSE_ID}/pages/{page['url']}") for day in range(1,6) for page in pages[day].values()]
+        final_failures=[]
+        if module.get("published") is not False: final_failures.append("module_published")
+        if any(page.get("published") is not False for page in final_pages): final_failures.append("page_published")
+        if final_major.get("published") is not False or float(final_major.get("points_possible") or 0)!=100 or final_major.get("grading_type")!="points" or final_major.get("omit_from_final_grade") is not False: final_failures.append("major_grading")
+        if final_major.get("assignment_group_id")!=major_group.get("id") or set(final_major.get("submission_types") or [])!=MAJOR_SUBMISSION_TYPES or RUBRIC_NOTE_MARKER not in (final_major.get("description") or ""): final_failures.append("major_identity")
+        support_folder,support_folder_files=await lock_folder_files(c,support_folder,SUPPORT_NAMES.values())
+        for day,folder in folders.items(): folders[day],folder_files[day]=await lock_folder_files(c,folder,(path.name for path in preferred_images(ASSETS/f"day{day}")))
+        if final_failures: raise RuntimeError(f"2SW Wk1 final invariant failed: {final_failures}")
+        print(json.dumps({"module":{"id":module_id,"published":module["published"]},"major":{"id":final_major["id"],"published":final_major.get("published"),"points":final_major.get("points_possible"),"group":final_major.get("assignment_group_id"),"grading_type":final_major.get("grading_type"),"omit_from_final_grade":final_major.get("omit_from_final_grade")},"support_folder":{"id":support_folder["id"],"locked":support_folder["locked"],"file_count":len(support_folder_files)},"folders":{str(d):{"id":f["id"],"locked":f["locked"],"file_count":len(folder_files[d])} for d,f in folders.items()},"files":{k:v["id"] for k,v in files.items()},"pages":{str(d):{k:{"url":v["url"],"published":v["published"]} for k,v in p.items()} for d,p in pages.items()},"items":[{"id":i["id"],"position":i["position"],"title":i["title"],"type":i["type"],"page_url":i.get("page_url"),"content_id":i.get("content_id"),"published":i.get("published")} for i in final]},indent=2))
 
-asyncio.run(main())
+if __name__=="__main__": asyncio.run(main())
