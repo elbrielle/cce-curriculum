@@ -14,6 +14,16 @@ MINOR_TITLE="MINOR 1: Nursing Route and Handoff"
 ROOT=Path(__file__).resolve().parents[2]; TEMPLATES=Path(__file__).parent/"templates"; ASSETS=ROOT/"cce-curriculum/resources/canvas-licensed/2sw/wk3"
 
 def slugify(v): return re.sub(r"[^a-z0-9]+","-",v.lower().replace("&","and")).strip("-")
+def preferred_images(folder):
+    return sorted(
+        path
+        for path in folder.iterdir()
+        if path.suffix.lower() in {".png", ".jpg", ".jpeg"}
+        and not (
+            path.suffix.lower() == ".png"
+            and (path.with_suffix(".jpg").exists() or path.with_suffix(".jpeg").exists())
+        )
+    )
 async def api(c,m,p,**kw):
     r=await c.request(m,f"{BASE}/api/v1{p}",**kw); r.raise_for_status(); return r.json() if r.content else None
 async def paged(c,p,params=None):
@@ -214,6 +224,9 @@ async def upsert_model_quiz(c):
 def flow(color,title,text): return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0;color:{color}">{title}</h4><p>{text}</p></div>'
 
 async def main():
+    opener=ASSETS/"day1/health-science-opener.jpg"
+    if not opener.is_file():
+        raise FileNotFoundError(f"2SW Wk3 preflight missing required delivery image: {opener}")
     token=sys.stdin.readline().strip()
     if not token: raise SystemExit("Canvas token required on stdin")
     async with httpx.AsyncClient(headers={"Authorization":f"Bearer {token}"},timeout=120) as c:
@@ -225,7 +238,7 @@ async def main():
         uploads={}; folders={}
         for day in range(1,6):
             fp=f"course files/CCR Materials/2SW/Wk3/Day {day} Visuals"; folders[day]=await ensure_folder(c,fp); uploads[day]={}
-            for path in sorted((ASSETS/f"day{day}").glob("*.png")): uploads[day][path.name]=await upload(c,path,fp)
+            for path in preferred_images(ASSETS/f"day{day}"): uploads[day][path.name]=await upload(c,path,fp)
         await lock_folder_files(c,core)
         for folder in folders.values():
             await lock_folder_files(c,folder)
@@ -245,7 +258,7 @@ async def main():
         minor_url=f"/courses/{COURSE_ID}/assignments/{minor['id']}"
         quiz_url=f"/courses/{COURSE_ID}/quizzes/{quiz['id']}"; model_quiz_url=f"/courses/{COURSE_ID}/quizzes/{model_quiz['id']}"; route_quiz_url=f"/courses/{COURSE_ID}/quizzes/{route_quiz['id']}"
         student_values={
-          1:{"OPENER_IMAGE_ID":uploads[1]["health-science-opener.png"]["id"],"PROGRAM_IMAGE_ID":uploads[1]["irving-health-programs.png"]["id"],"ROUTE_FILE_ID":files["ROUTE"]["id"],"COMPARE_FILE_ID":files["COMPARE"]["id"],"MODEL_QUIZ_URL":model_quiz_url},
+          1:{"OPENER_IMAGE_ID":uploads[1]["health-science-opener.jpg"]["id"],"PROGRAM_IMAGE_ID":uploads[1]["irving-health-programs.png"]["id"],"ROUTE_FILE_ID":files["ROUTE"]["id"],"COMPARE_FILE_ID":files["COMPARE"]["id"],"MODEL_QUIZ_URL":model_quiz_url},
           2:{"COMPARE_FILE_ID":files["COMPARE"]["id"],"ROUTE_FILE_ID":files["ROUTE"]["id"],"ROUTE_QUIZ_URL":route_quiz_url},
           3:{"BUILD_FILE_ID":files["BUILD"]["id"],"RESEARCH_IMAGE_ID":uploads[3]["vitals-research.png"]["id"],"TOOLS_IMAGE_ID":uploads[3]["vitals-tool-reference.png"]["id"]},
           4:{"CARDS_FILE_ID":files["CARDS"]["id"],"HANDOFF_FILE_ID":files["HANDOFF"]["id"],"RUBRIC_FILE_ID":files["RUBRIC"]["id"],"REPORT_IMAGE_ID":uploads[4]["vitals-report.png"]["id"],"QUIZ_URL":quiz_url,"MINOR_URL":minor_url},

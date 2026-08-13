@@ -52,6 +52,21 @@ Canvas delivery candidates. Same-stem PNG originals are excluded from the
 delivery ranking when a JPEG delivery copy exists, which prevents source
 preservation from being misreported as student download weight.
 
+## 2SW Week 3 Health Science Opener
+
+The 2SW Week 3 Day 1 FYF Health Science opener is an active Student Guide
+image, unlike several large files that remain locked in Canvas folders but are
+not embedded. The licensed 1,275 by 1,650 PNG remains unchanged in the
+gitignored archive. A 1,020 by 1,320 JPEG delivery copy reduced the file from
+1,314,848 bytes to 418,120 bytes, a 68.2% reduction.
+
+The original and delivery copy were compared at original detail and at the
+Canvas display sizes. The chapter title, career labels, explanatory text,
+decision prompt, and page number remain as readable as the source. The native
+Student Guide and nursing-route evidence materials remain the independent text
+route. `build_2sw_wk3.py` now preflights, uploads, locks, and embeds the JPEG
+while retaining the PNG locally.
+
 ## Duplicate Findings
 
 The clearest repeated uploads are:
