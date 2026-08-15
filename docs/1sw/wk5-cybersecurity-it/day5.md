@@ -21,8 +21,9 @@
 
 1. Return the Week 0 Career Journey reflections and the Day 3 plan/flyer.
 2. Post the [Career Journey Update](../../resources/worksheets/wk5-reflection-update-template.pdf), [English/Spanish support](../../resources/worksheets/wk5-reflection-update-bilingual.pdf), and [Capstone Rubric](../../resources/worksheets/wk5-capstone-portfolio-rubric.pdf).
-3. Put paper, pencils, markers, and a two-shape idea menu out before class. Canva or Adobe is optional.
-4. Do not build the lesson around a Glowforge/xTool queue. A trained authorized operator may fabricate selected examples later under the campus SOP; students submit the design itself.
+3. Remind students to retrieve the CCE Six-Weeks Evidence Log from the CCE binder or teacher-designated digital folder named in Week 0. The log stays with the student and is not part of the Major submission.
+4. Put paper, pencils, markers, and a two-shape idea menu out before class. Canva or Adobe is optional.
+5. Do not build the lesson around a Glowforge/xTool queue. A trained authorized operator may fabricate selected examples later under the campus SOP; students submit the design itself.
 
 ## Bellringer — Two Transitions (5 min)
 
@@ -70,6 +71,10 @@ Students place the evidence in this order:
 4. Career Journey update.
 
 They use the rubric to check one criterion at a time and mark missing evidence for reassessment. Submit through the **Major 2: Cybersecurity Capstone Evidence Portfolio** Canvas Assignment or the teacher's paper collection route.
+
+During this same packet check, students keep the completed Career Journey Update open and spend 2 to 3 minutes on **Entry 1** of the CCE Six-Weeks Evidence Log. They copy short phrases for: **Career Journey Update**; one transferable skill; the visible action from their specific six-weeks example; one revision or recovery move; and the next action already named on the update. Students return the log to the CCE binder or teacher-designated digital folder. Do not collect, upload, or grade the log as a fifth artifact.
+
+If the log is missing, students write the same five short phrases under **Entry 1 hold** in the CCE notebook or teacher-designated digital folder. They transfer those phrases later from the hold note. They do not reconstruct old work or submit another copy of the Career Journey Update.
 
 ## Teacher Scoring Guidance
 

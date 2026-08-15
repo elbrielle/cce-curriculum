@@ -16,7 +16,7 @@
 | **TEKS** | d(1)(C), d(4)(B) |
 | **5E Phases** | Engage: Warm-Up · Explore: Hat Finder networking career notes · Explain: Transferable skills discussion and DOK 3 · Evaluate: Exit Ticket |
 | **Deliverable** | Four-role career comparison + Programming/Networking Venn exit |
-| **Materials** | *Find Your Future* workbook p. 38, Networking Career Cards ([Printable PDF](../../resources/worksheets/wk3-networking-career-cards.pdf)), Chromebooks if using the optional H&L browse, engineering notebooks, projector, Ten Transferable Skills list ([Printable PDF](../../resources/worksheets/wk3-transferable-skills-list.pdf)), Day 1 exit ticket |
+| **Materials** | *Find Your Future* workbook p. 38, Networking Career Cards ([Printable PDF](../../resources/worksheets/wk3-networking-career-cards.pdf)), Chromebooks if using the optional H&L browse, established CCE notebook route when students do not write on the cards, projector, Ten Transferable Skills list ([Printable PDF](../../resources/worksheets/wk3-transferable-skills-list.pdf)), Day 1 exit ticket |
 
 ---
 
@@ -41,7 +41,7 @@ Give every student the **Networking Career Cards**. Those cards are the complete
 3. **Database Administrator:** Manages the systems where company data is stored. Backs it up, secures it, makes sure it's accessible to the right people.
 4. **Systems Analyst:** Bridges business needs and IT solutions. Talks to non-technical employees about their problems and figures out how IT can help.
 
-Students complete the four-row comparison on the card set or in a dated notebook entry labeled "1SW Wk3 Networking":
+Students complete the four-row comparison on the card set or in a dated CCE notebook entry labeled "1SW Wk3 Networking." Use the same OneNote, physical, Canvas, or teacher-designated paper route established during onboarding; do not require a new notebook type:
 
 - career name;
 - one technical task;

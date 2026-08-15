@@ -1,145 +1,169 @@
-# Day 1: Lab Routines and Your Choice (Flex Day)
+# Day 1: Your CCE Notebook and First-Week Goal
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Lab Routines
-- **Objective:** Students will demonstrate time-management and goal-setting strategies by learning the lab routines, confirming course access, and recording an after-high-school goal.
+- **Topic:** CCE Notebook and Goal-Setting
+- **Objective:** Students will demonstrate time-management and goal-setting strategies by setting up a retrievable CCE notebook, locating the course tools, and planning one specific first-week action.
 - **TEKS:** d(4)(A)
-- **Demonstration of Learning:** Signed Lab Safety Contract or teacher-selected routine artifact; Xello login and after-high-school goal completed here or on Day 5.
+- **Demonstration of Learning:** A private first-week CCE goal entry that names the goal, why it matters, one specific action, when or at which checkpoint the action will happen, confidence from 1-5, and one accountability or recovery support.
 <!-- CCE DAILY CONTRACT END -->
-## Lesson Overview
 
-| | |
-|---|---|
-| **Time** | 50 minutes |
-| **Objectives** | Establish CCE lab routines and expectations; confirm Xello access and record an after-high-school goal; run campus-required first-week activities and resolve technology access issues |
-| **TEKS** | N/A (flex day; core TEKS demonstrated on Days 2-4) |
-| **5E Phases** | Engage: Warm-Up · Explore: Lab routines walkthrough and Classroom Career Hunt · Explain: Share and Compare discussion · Evaluate: Exit Ticket |
-| **Deliverable** | Signed Lab Safety Contract or teacher-selected routine artifact; Xello login and after-high-school goal completed here or on Day 5 |
-| **Materials** | Xello accounts, printed Lab Safety Contract ([Printable PDF](../../resources/worksheets/lab-safety-contract.pdf)), *Find Your Future* workbook pp. 2-3, Chromebooks, projector, **Engineering notebooks** (1 per student, distribute today, yearlong CCE artifact) |
+## Why this lesson comes first
 
----
+Students completed the Smart Solutions launch and team-building sequence during the campus's first instructional week. Today begins the CCE curriculum. Students need one dependable place for short thinking, focused notes, and reflection before the Hats & Ladders core sequence begins tomorrow.
 
-!!! abstract "This is a flex day. Pick what your campus needs."
+The notebook is a **workspace**, not a second LMS and not a replacement for *Find Your Future*, Hats & Ladders, Xello, or Canvas. Students should not copy work just to make the notebook look full.
 
-    Day 1 is the natural routines day. Use the full period for Lab Routines + Safety Contract, run the short World of Work chapter activity below, handle a campus event, or let SSO and roster issues resolve. The core CCE content begins on Day 2. The required Xello access-and-goal block may run today or on Day 5; if Monday disappears, protect Days 2-4 and move Xello to Friday.
+The goal routine preserves the structure of Jenna Hainlen's teacher-created `AVID First Week Goal-Setting Sheet`: one goal, why it matters, a specific action, a scheduled time/checkpoint, a confidence check, and accountability. It is minimally reframed for Grade 7 CCE. The AVID cross-class grade table, 24-entry planner count, supply compliance, and signatures are not part of this lesson.
 
----
+## Before students arrive
 
-## Warm-Up (Optional)
+### Owner route: OneNote pilot
 
-**WARM-UP (optional, 5 min): On page 1 of your new engineering notebook, write or draw what you think you might want to be when you grow up. It is 100% okay if you have no idea. Write "I don't know yet" and draw a question mark, or write "I am still exploring." There is no wrong answer.**
+1. **Current launch decision:** the live course-navigation check on August 15 showed only a hidden tool labeled **Office 365**. It did not show a named **Microsoft 365 LTI**, **Microsoft Education**, or **OneNote Class Notebook** route. Do not make Monday depend on that unverified integration and do not enable it during class.
+2. If you finish and test a standalone Class Notebook Sunday, use it. Otherwise, run the complete Canvas/paper fallback Monday. Do not spend Sunday attempting an admin-controlled Canvas integration.
+3. Create only this pilot structure:
+   - **Content Library:** `00 Start Here`; `Models & Resources`
+   - **Private student notebook:** `CCE Work`; `Focused Notes`; `Evidence & Reflection`
+   - Leave Collaboration Space unused or locked during onboarding.
+4. In the Content Library, create one editable page named **Notebook Setup + First-Week Goal**. Copy the block below into the page. It preserves the field order from the source-derived [CCE First Week Goal-Setting Sheet](../../resources/worksheets/cce-first-week-goal-setting.pdf) without asking students to type on a PDF printout.
 
-If you run this, distribute engineering notebooks first so students can make their Day 1 entry on page 1. Have them label the cover with their name + "CCE Engineering Notebook." Students revisit this page at 6SW Wk6 Capstone and compare. Reassure anyone who wrote "I don't know yet." That is why this class exists. If the notebooks have not arrived, run today's entry on loose-leaf in a folder and have students tape or copy it onto page 1 the day the notebooks land.
+   > **Notebook test:** The place I will use for CCE work is _____. If it does not open, I will use _____.
+   >
+   > **My first-week CCE goal:**
+   >
+   > **Why this goal matters to me:**
+   >
+   > **One specific action I will take:**
+   >
+   > **When or at which class checkpoint I will do it:**
+   >
+   > **My confidence right now: 1 2 3 4 5**
+   >
+   > **What will help me follow through?** Calendar/planner / teacher check-in / classmate / reminder or alarm / fallback route
 
----
+5. Open the page through one student test account. Type the notebook test line, close or refresh the page, and confirm the response remains. Then use **Distribute Page** to copy the page into each student's private `CCE Work` section. Check **View distributed pages** before class. If any part of this test fails, use the complete Canvas/paper route Monday; do not repair the notebook during class.
+6. Keep large FYF/H&L files in locked Canvas. Link to them; do not make sync depend on PDF printouts embedded in OneNote.
 
-## Option A: Lab Routines and Safety Contract (Default Option)
+Use Microsoft's current teacher references only as needed:
 
-This is the default option for Day 1 and carries the normal first-week routines load. Every VILS lab is different. Your Chromebook cart location, voice-level norms, equipment sign-out system, and safety expectations are yours to set. Use the starter list below and substitute what actually works in your room.
+- [Create a Class Notebook](https://support.microsoft.com/en-us/education/create-a-class-notebook-in-onenote) for the standalone setup route.
+- [Class Notebook tools in OneNote for the web](https://support.microsoft.com/en-us/education/onenote/class-notebook-tools-instructions-for-onenote-for-the-web) for the teacher toolbar, page distribution, and student-work review.
+- [Distribute pages and sections](https://support.microsoft.com/en-us/education/onenote/distribute-pages-and-sections-to-class-notebooks) for the exact `Distribute Page` and `View distributed pages` steps.
+- [Microsoft 365 LTI in Canvas](https://learn.microsoft.com/en-us/microsoft-365/lti/microsoft-365-lti-canvas?view=o365-worldwide) only to identify the current integration and the classic OneNote LTI 1.1 retirement boundary. Installation and migration remain district-admin work.
 
-**Starter routines checklist (adapt to your lab):**
+### Equal physical route
 
-1. **Chromebook checkout and return procedures.** Where the cart is, how to log in, what to do if a Chromebook will not charge.
-2. **Software and website use rules.** Only sites assigned by the teacher; closed-tab discipline.
-3. **Equipment respect.** Students who break, mishandle, or take equipment home lose lab privileges.
-4. **Voice levels and movement.** Set **Time, Voice, Body** for the year on day one: name the four voice levels you will use (Voice 0 silent independent work, Voice 1 quick partner questions, Voice 2 group work, Voice 3 presenting), say which tasks happen at desks and which happen at the hands-on equipment, and define exactly where backpacks and extra items go so walkways stay clear.
-5. **Lab safety basics.** Walkways clear, no food or drink on tech, report damage immediately.
+Students may use a spiral notebook, composition notebook, binder section, or teacher-designated paper folder. They create the same three labeled sections: `CCE Work`, `Focused Notes`, and `Evidence & Reflection`. The teacher may project the prompts below or provide one plain sheet. Do not require a purchase, specific brand, tabs, decoration, or recopying.
 
-Distribute the printed Lab Safety Contract ([Printable PDF](../../resources/worksheets/lab-safety-contract.pdf)). Its ten rules cover the five routines above plus the hands-on tool safety later maker weeks need, and it leaves two blank lines for the rules you added to the walkthrough. Students read and sign it in class, take it home for a guardian signature, and return it. File in a Day 1 folder.
+### Materials and quantities
 
-!!! tip "Facilitation Tip"
-    The student's signature is not paperwork. It is the evidence you will reference if a rule is broken. The seriousness sets the tone for the year.
+- 1 charged Chromebook per student; 2 spare devices if available
+- 1 *Find Your Future* workbook per student for the course-map demonstration; students do not complete a workbook page today
+- projector and the Day 1 launch deck
+- tested OneNote route **or** the complete Canvas/paper fallback
+- default paper copies: 0; print one [CCE First Week Goal-Setting Sheet](../../resources/worksheets/cce-first-week-goal-setting.pdf) per student only if using the paper route
+- one teacher list for access problems; do not troubleshoot one account while the class waits
 
-This option can fill 40 to 45 minutes (the full period minus warm-up) on campuses that need full first-day routines. If your campus has a separate CTE orientation day, compress the routines walkthrough to 20 minutes and add Option B or Option C.
+## Fifty-minute flow
 
----
+### 1. Welcome to CCE — 5 minutes
 
-## Option B: Xello Access and First Goal (Required This Week)
+Project the four places students will use this year:
 
-**Source:** Bowie Grade 8 Xello Completion Standards, "Log in to Xello" and "After high school goal."
+- **Canvas:** today's directions, models, links, and submissions
+- **Find Your Future / Hats & Ladders:** the core career curriculum and profile
+- **Xello:** assigned profile and future-planning extensions
+- **CCE notebook:** short thinking, focused notes, and reflection when another tool does not already hold the work
 
-Students launch Xello through district SSO and confirm that the dashboard loads. After access is confirmed, students open **About Me** and select one after-high-school goal: **Not sure yet, More school or training,** or **Alternate route**. Tell students that the choice is a starting point and can change as they learn more this year.
+Say: **"Every tool has one job. We are not copying the same answer into four places."**
 
-Allow 25 minutes for the two tasks. Do not add Matchmaker, Personality Style, Learning Style, Skills Lab, or Mission Complete to this block. Matchmaker needs its own 30-minute lesson, and the live Grade 8 configuration does not assign Skills Lab or Mission Complete.
+### 2. Locate the course tools — 8 minutes
 
-If a student cannot log in, record the student's name for the campus roster check and let the student continue with the non-Xello option. Do not spend the whole class troubleshooting one account. The Day 5 guide repeats this block for catch-up.
+Students open the Day 1 Student Guide in Canvas, point to the *Find Your Future* workbook, and locate the Hats & Ladders and Xello links without starting either activity. Model how the daily guide tells them exactly which tool owns the response.
 
----
+**Look-for:** by minute 13, at least 80 percent of students can return to the Day 1 Student Guide without asking for the link again.
 
-## Option C: Classroom Career Hunt
+**Pivot:** if fewer than 80 percent can return, stop and repeat the navigation once on the projector. Do not continue adding tools.
 
-**Source:** (FYF pp. 2-3: "Classroom Career Hunt")
+### 3. Set up and test the notebook route — 12 minutes
 
-**Step 1: Behind the Scenes (p. 2).** Open the workbook to page 2. Read the four printed examples together and discuss, as a class, every career behind each one:
+Students enter their private notebook or label the three physical sections. They open or create `CCE Work -> Notebook Setup + First-Week Goal` and complete this test line:
 
-- **Your backpack.** Designers decide how it looks, fabric makers create the materials, factory workers put it all together.
-- **Video games.** Game designers come up with the ideas, coders make the game work, artists create the characters and worlds.
-- **School lunch.** Nutritionists plan the menu, farmers grow the food, delivery drivers bring it to school, cafeteria workers prepare and serve it.
-- **Your favorite music.** Musicians write and perform the songs, sound engineers make the music sound great, producers put it all together.
+> The place I will use for CCE work is __________. If it does not open, I will use __________.
 
-**Step 2: Classroom Career Hunt (10 min, p. 3).** Pair students up. Partners look around the room and list as many items as they can spot. For each one they talk about who might have designed it, built it, delivered it, or sold it, and write their list on page 3.
+Use **Canvas response** or **paper page** as the recovery choice. A student who completes work through the fallback does not copy it again later.
 
-If a pair stalls, seed them with three objects and the careers behind each. These seeds are a CCE addition, not printed in the workbook:
+**OneNote check:** students type one sentence, close or refresh the page, and confirm the sentence is still there. Demonstrate Immersive Reader once if it is available.
 
-- The chair you are sitting in. Furniture Designer, Carpenter, Truck Driver.
-- The Chromebook on your desk. Software Engineer, Electrical Engineer, Assembly Worker.
-- The shoes you are wearing. Shoe Designer, Material Scientist, Marketer.
+**Look-for:** by minute 25, every student has either a confirmed digital page or a named physical/Canvas route. Record account problems and move on.
 
-**Step 3: Share and Compare (p. 3).** Bring the class back together and work the workbook's discussion prompts:
+### 4. First-week CCE goal — 17 minutes
 
-- Which item surprised you the most when you saw how many careers were involved?
-- Why do you think it takes so many different people to create one product or experience?
-- What item in the classroom do you think required the largest team of people to create? What might happen if one of those careers was missing?
+Use the preserved source sequence. Students respond privately under these headings:
 
-**DOK 2:** How would you describe the difference between a career you can see (a teacher, a chef) and a career that is "behind the scenes" (a software engineer, a quality control inspector)? Why are both important?
+1. **My first-week CCE goal**
+2. **Why this goal matters to me**
+3. **One specific action I will take**
+4. **When or at which class checkpoint I will do it**
+5. **My confidence right now: 1 2 3 4 5**
+6. **What will help me follow through?** Calendar/planner / teacher check-in / classmate / reminder or alarm / fallback route
 
-Extra time, from the workbook: pairs pick another location (a park, a restaurant, a sports stadium, a concert venue) and brainstorm as many careers as they can that work in that place.
+Students may use a fictional or course-only goal. Do not require disclosure about grades, home responsibilities, disability, health, or family circumstances.
 
-This option fits in about 20 minutes. Use alongside a shortened Option A if you want to bracket routines with a low-stakes group activity.
+#### Complete teacher model
 
----
+> **Goal:** By Friday, I will complete Discover Your Core carefully.<br>
+> **Why:** I want the result to be based on my real answers.<br>
+> **Action:** I will read every question and ask for help if a word is unclear.<br>
+> **Checkpoint:** Tuesday during the 20-minute Hats & Ladders block.<br>
+> **Confidence:** 4<br>
+> **Support:** Teacher check-in and the Canvas/paper fallback if my account does not open.
 
-## Option D: Campus Event Buffer or Tech Access Resolution
+#### Useful non-model
 
-If your campus has a Cub Camp, orientation, ID photos, schedule changes, roster churn, SSO setup, or any other first-week event, this is the day to absorb it. The core CCE content begins Day 2. Protect those three days over this one.
+> **Goal:** Do better.<br>
+> **Action:** Try harder later.<br>
+> **Confidence:** 5
 
----
+Ask what is missing: a visible action, a real checkpoint, and a support or recovery route. Preserve Jenna's time-management move: make the plan smaller and more specific instead of telling the student to want it more.
 
-## Exit Ticket (Optional)
+**Look-for:** by minute 38, every goal has an action and a checkpoint. If one third of the class is still writing vague goals, pause and revise one anonymous example together.
 
-Run this ticket if the Classroom Career Hunt ran. If the period was routines, Xello, and campus business, use the signed Safety Contract and Xello completion as the day's artifacts.
+### 5. Partner or private check — 5 minutes
 
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/1sw-wk0-day1-lab-routines-and-your-choice-flex-day.pdf):
+Students either share only the **action and checkpoint** with a partner or use the private self-check below. They do not have to share the goal or why it matters.
 
-One object from today's career hunt: _______________________
+- Can someone see what I will do?
+- Did I name when I will do it?
+- Did I choose a support or recovery route?
 
-Connect this object to THREE careers:
+### 6. Close and save — 3 minutes
 
-**1. A career that DESIGNED or BUILT it**
+Students point to today's entry and tell the teacher or a partner where they will find tomorrow's directions. Close with: **"Tomorrow, Hats & Ladders begins building your Climber Profile. Your notebook will hold only the short thinking the app and workbook do not already save."**
 
-   My career: _______________________. What did this worker do to the object? One sentence:
+## Collection and grading
 
-   ___________________________________________________________________
+- Do not create a separate Canvas submission.
+- The teacher may review the named private page or physical entry during class.
+- Score only completion of the six source-grounded goal fields if a completion record is needed.
+- Do not grade notebook type, supplies, handwriting, decoration, tabs, neatness, confidence level, career certainty, or private content.
 
-**2. A career that MOVED it or SOLD it**
+## Recovery
 
-   My career: _______________________. What did this worker do to the object? One sentence:
+- **OneNote page missing:** use the identical Canvas or paper prompts today; fix distribution later.
+- **Microsoft/Canvas identity mismatch:** record the name and use the fallback. Do not hold the class.
+- **Device will not sync:** use OneNote for the web if it opens; otherwise use Canvas or paper.
+- **Absent:** complete the six prompts from the Day 1 Student Guide. No notebook setup scavenger hunt or duplicate copying is required.
+- **Late arrival:** complete the test line and six goal prompts; the teacher explains the four-tool map during the final check.
 
-   ___________________________________________________________________
+## Protected trim
 
-**3. A career you CANNOT see when you look at the object**
+If time is lost, shorten the four-tool tour and partner check. Protect the notebook route test, the action/checkpoint fields, and the save/fallback check. Do not cut the recovery route and then tell students the notebook is required.
 
-   My career: _______________________. Why is this career hard to see? One sentence:
+## Source notes
 
-   ___________________________________________________________________
-
-*(d(1)(B))*
-
----
-
-## Differentiation
-
-- **Support:** For Option A, pair new-to-the-school students with returning students during the routines walkthrough. For Option B, hand out the partial career hunt ([Printable PDF](../../resources/worksheets/career-hunt-scaffold.pdf)), which lists 5 items already (chair, light bulb, water bottle, backpack, marker) so students fill in only the careers.
-- **Extension:** For Option B, challenge students to find at least one item in the room that took 5 or more different careers to create. They should list all 5.
-- **ELL:** Bilingual word bank of common careers in Spanish and English (Maestro = Teacher, Ingeniero = Engineer, Diseñador = Designer, Carpintero = Carpenter). For Option A, use the Spanish and English version of the Lab Safety Contract ([Printable PDF](../../resources/worksheets/lab-safety-contract-spanish.pdf)), which carries both languages on one page so a Spanish-speaking guardian can read what they are signing. Pair ELL students with bilingual peers during the routines walkthrough.
+- Jenna Hainlen, `AVID 26-27 Skills Check`, especially `AVID First Week Goal-Setting Sheet` — goal sequence and accountability design.
+- Jenna Hainlen, Week 1.3 `Time Management` — revise vague intentions into a small, specific, scheduled, realistic action.
+- Microsoft Support, Class Notebook creation, web tools, and page distribution guidance — current OneNote architecture and recovery boundaries. Direct links are listed in **Before students arrive**.
+- Microsoft Learn, Microsoft 365 LTI deployment and migration guidance for Canvas — current integration name and the September 17, 2026 retirement boundary for classic OneNote Class Notebook LTI 1.1. District-admin setup is not a Sunday teacher task.

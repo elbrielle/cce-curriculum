@@ -304,7 +304,7 @@ Never write the Canvas token to disk. Never place it in the command string. Read
 stty -echo
 IFS= read -r CCR_CANVAS_TOKEN
 stty echo
-printf '%s\n' "$CCR_CANVAS_TOKEN" | uv run --with httpx python build/canvas/build_wk0_day2.py
+printf '%s\n' "$CCR_CANVAS_TOKEN" | uv run --with httpx python build/canvas/build_wk0.py
 unset CCR_CANVAS_TOKEN
 ```
 

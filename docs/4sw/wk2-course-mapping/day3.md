@@ -2,21 +2,21 @@
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** College Credit
-- **Objective:** Students will compare AP and dual credit using current sources, document one option and its limitation, and explain the developing plan through a family, trusted-adult, counselor, teacher, or private reflection route.
+- **Topic:** Postsecondary Routes and Credit
+- **Objective:** Students will compare AP and dual credit, investigate three postsecondary preparation routes with fixed current evidence, and explain which route they would investigate first while keeping alternatives open.
 - **TEKS:** d(3)(B), d(3)(D)
-- **Demonstration of Learning:** Completed College Credit and Plan Check.
+- **Demonstration of Learning:** Completed Postsecondary Route Trail and College Credit Check.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Compare AP and dual credit using current sources, document one option and its limitation, and explain the developing plan through a family, trusted-adult, counselor, teacher, or private reflection route |
+| **Objectives** | Compare AP and dual credit, investigate three postsecondary preparation routes with fixed current evidence, and explain which route to investigate first while keeping alternatives open |
 | **TEKS** | d(3)(B), d(3)(D) |
-| **5E Phases** | Engage: Warm-Up · Explain: AP and dual-credit source comparison · Explore: Current option research · Extend: Plan conversation or private reflection · Evaluate: Exit Ticket |
-| **Deliverable** | Completed two-page College Credit and Plan Check |
-| **Materials** | One two-page College Credit and Plan Check per student, one device per pair for TEA and Irving source checks, embedded 2026-2027 Irving option card, projector |
+| **5E Phases** | Engage: Warm-Up · Explain: AP and dual-credit comparison · Explore: Fixed-evidence route trail · Extend: Flexible route plan · Evaluate: Exit Ticket |
+| **Deliverable** | Completed two-page Postsecondary Route Trail and College Credit Check |
+| **Materials** | One two-page Route Trail and College Credit Check per student, six fixed route cards from the Student Guide, current TEA AP and Dual Credit pages, current Irving coursebook, projector |
 
 ---
 
@@ -28,60 +28,57 @@ Collect questions about eligibility, cost, transfer, grades, workload, transport
 
 ---
 
-## Activity 1: AP and Dual Credit Are Different Routes (12 min)
+## Activity 1: AP and Dual Credit Are Different Routes (8 min)
 
 **Sources:** [TEA Advanced Placement](https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/advanced-placement) and [TEA Dual Credit](https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/dual-credit)
 
-Students complete the source comparison on page 1 of the two-page Plan Check.
+Students complete Part A on page 1 of the two-page check.
 
 - An AP course prepares students for an AP exam. A receiving college decides which score earns credit or placement and what that credit counts for.
 - Dual credit enrolls an eligible high school student in a college course paired with high school credit. Successful completion produces both high school and college credit.
 - AP and dual credit may have fees, eligibility rules, workload, transfer questions, and local availability. Do not promise that either route is free, automatic, or accepted everywhere.
-- The FAST program may make eligible dual-credit courses no-cost for eligible students at participating institutions. Eligibility and participation must be verified.
 
 **Think-Pair-Share:** Give students 30 seconds to choose one important difference. Partner A explains the AP side and Partner B explains the dual-credit side. Listen for the misconception that enrollment in an AP course automatically creates college credit. If it appears, return to the receiving-college policy row.
 
 ---
 
-## Activity 2: Document One Current Option (15 min)
+## Activity 2: Follow the Route Trail (20 min)
 
-Students use the current Irving ISD coursebook or a teacher-provided current option card. They document:
+Students use six fixed cards from the Student Guide. Each card names a route, one bounded fact, and the operational questions that still require a current program, counselor, institution, employer, sponsor, official branch source, or occupational profile.
 
-1. the exact course or program name;
-2. whether it is AP, dual credit, or another advanced option;
-3. grade level and prerequisite;
-4. what credit or placement may be earned;
-5. one eligibility, transfer, cost, or scheduling question; and
-6. source and access date.
+1. bachelor's degree;
+2. associate degree or transfer;
+3. certificate or technical training;
+4. Registered Apprenticeship;
+5. military service and training; and
+6. direct work with on-the-job training.
 
-Industry certifications remain valuable but are not labeled as college credit unless a current articulation or college agreement explicitly says so.
+Students complete any three cards. For each, they record one fact and one tradeoff or question. The route cards do not rank the options, promise an outcome, or ask students to screen their own military eligibility.
 
-Open searching is not required. If the district page is blocked or difficult to navigate, use the teacher's dated source card and leave operational questions for counseling.
+Use one of two equal routes:
 
-The Student Guide supplies the dated card: Irving's 2026-2027 coursebook lists English III - Dual Credit for Grades 10-12 with English II as the prerequisite and says successful completion meets high-school and college-credit requirements. Students still label college readiness, campus availability, cost, transfer, and placement for counselor or receiving-college verification.
+- **Movement trail:** Post or project the numbered cards. Groups rotate, and every member contributes two notes before the group marks repeated ideas.
+- **Seated/private trail:** Students read the same cards in order, record the same evidence, and mark repeated ideas independently. Movement, partner talk, and public preference are not required.
+
+This retains the teacher-crafted read, compare-and-contrast, mark-overlap, and summarize sequence from Jenna Hainlen's AVID 2 work. The dated AVID articles, local announcements, student names, military eligibility packet, and college-worth debate are not used as evidence.
 
 ---
 
-## Activity 3: Explain and Test the Plan (13 min)
+## Activity 3: Compare, Summarize, and Keep Three Routes Open (12 min)
 
-Students use page 2 of the Plan Check to prepare a two-minute explanation of their developing plan. They may choose one equal route:
+Students use page 2 to identify two repeated ideas and one important difference across their three cards. They then use a fictional career goal or their current private direction to list three possible routes.
 
-- discuss with a family member outside class;
-- discuss with another trusted adult, counselor, or teacher;
-- rehearse privately with the written prompt; or
-- record a private audio response in Canvas.
+Students name:
 
-The explanation includes:
+- one route to investigate first, not choose forever;
+- one middle-school action;
+- one high-school action;
+- one fact to verify later; and
+- one current AP, dual-credit, or technical dual-credit option that may support the plan.
 
-- current career direction;
-- one possible course or pathway step;
-- one AP or dual-credit option;
-- one limitation or question; and
-- one part of the plan that may change after the conversation.
+The college-credit entry keeps its exact current Irving source and access date. Industry certifications are not labeled as college credit unless a current articulation or college agreement says so.
 
-A family signature is not a grade. Students do not share sensitive family information, and an adult's agreement with the career direction is not scored.
-
-**DOK 3:** How can a question or disagreement improve a plan without giving another person control over the student's career choice?
+**DOK 3:** How could two different preparation routes protect the same career goal, and what evidence would make you investigate one before the other?
 
 ---
 
@@ -97,7 +94,7 @@ Add one accurate fact to each row.
 | Where the student checks the policy or requirement | | |
 | One limitation or question | | |
 
-Bottom line: Write one question you must verify before using either option in your four-year plan.
+Bottom line: Name one postsecondary route you would investigate first and one fact you would verify before using it in your plan.
 
 Students place the completed two-page check in the CCR Week 2 folder for Day 5.
 
@@ -107,6 +104,6 @@ Students place the completed two-page check in the CCR Week 2 folder for Day 5.
 
 ## Differentiation
 
-- **Support:** Provide a completed model comparison using a fictional student and a word bank: exam score, college course, receiving policy, eligibility, transcript, transfer, cost.
-- **Extension:** Compare how two receiving colleges treat the same AP score or dual-credit course.
-- **ELL:** Students may rehearse with the frames "AP may help when..." and "Dual credit may help when..." before writing. The trusted-adult or private route remains equal.
+- **Support:** Complete the AP/dual-credit row and one route card with a fictional student. Keep one card visible at a time and use the word bank: credential, education or training, entry requirement, time, cost, commitment, backup.
+- **Extension:** Add a fourth route and identify the current source that would answer its most important unanswered question.
+- **ELL:** Students may point to the route label, rehearse with "Both routes..." and "Unlike...," then record a short phrase. Movement, seated comparison, private card order, text-to-speech, and teacher read-aloud collect the same evidence.

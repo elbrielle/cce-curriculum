@@ -71,12 +71,12 @@ The current Irving ISD site names **Robotic Manufacturing** in Singley Academy's
 
 > [H&L PLATFORM] The App Exploration page walks students through the cluster in order: open Hats & Ladders, go to the Manufacturing cluster, use the available cluster tour and Game Time, find one Hat that fits and one that does not, and review Pathway Possibilities. Use the current in-app labels. When students record a local salary, they copy the displayed career, geography, measure, and date viewed so the H&L figure remains tied to its source.
 
-**Stop and Jot procedure:** While watching the cluster tour video, students pause TWICE in their **engineering notebook** (dated entry, labeled "1SW Wk1 Manufacturing") to write:
+**Stop and Jot procedure:** While watching the cluster tour video, students pause TWICE in their established **CCE notebook** (OneNote, physical notebook, Canvas, or teacher-designated paper equivalent; dated entry labeled "1SW Wk1 Manufacturing") to write:
 
 - **Stop 1:** One new career you learned about in this video
 - **Stop 2:** One question you still have about manufacturing
 
-After the video, students work the rest of the App Exploration page and browse Hats. In the same engineering notebook entry, they write down:
+After the video, students work the rest of the App Exploration page and browse Hats. In the same CCE notebook entry, they write down:
 
 - One Hat (career) within the pathway that interests them
 - The education or training required for that Hat

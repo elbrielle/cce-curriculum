@@ -21,6 +21,7 @@
 - Open the official Xello Scholarships Guide and 2:02 student video.
 - Check the Xello Completion Standards report before class.
 - Keep Xello personal profile answers private. Do not require screenshots.
+- Ask students to open Entry 3 of the CCE Six-Weeks Evidence Log from their CCE binder or teacher-designated digital folder. The log stays with the student and is not collected.
 
 ## 50-minute flow
 
@@ -58,7 +59,11 @@ Students do not have to apply for or save a scholarship today. The teacher verif
 
 ### 4. Close and submit — 5 minutes
 
-Students submit the budget as directed. Open the private recovery portfolio only when the teacher has assigned it to replace missing major evidence; it is not a third automatic Major. Prompt: “How can a scholarship change a future budget without becoming guaranteed income?”
+For the first 2 minutes, students submit the budget as directed. Open the private recovery portfolio only when the teacher has assigned it to replace missing major evidence; it is not a third automatic Major.
+
+For the final 3 minutes, students use short phrases from the revised Budget and Scholarship Plan to complete Evidence Log Entry 3: artifact or task, transferable skill, visible action, revision or recovery move, and next step. They keep the log in their CCE binder or teacher-designated digital folder. They do not upload the log or resubmit the budget.
+
+If the log is missing, students record the five short phrases in their CCE notebook or teacher-designated digital folder and transfer them later. They do not reconstruct earlier work.
 
 ## Monitoring and key
 
@@ -72,6 +77,8 @@ In Xello, honest “I don’t know” answers are better than invented profile i
 
 Use two budget laps. First check totals and the four source labels; then check the revised total and revenue explanation. If a quarter of the class exceeds $3,450 because the same category was counted twice, pause for one whole-class total check. In Xello, verify access by minute 3 and move unresolved logins to the supervised catch-up list without collecting profile answers. Trim the optional video and whole-group share before trimming the revised budget, revenue explanation, or protected 20-minute Xello block.
 
+At minute 47, check that Entry 3 uses phrases already visible in the revised plan. Do not collect the Evidence Log or score it as another artifact.
+
 ## Support and absence route
 
-Use the fixed budget scenario, calculator, read-aloud, chunked table, or teacher-selected starting amounts. If Xello is unavailable, students finish the budget and private reflection, then join the supervised catch-up list. Paper does not count as Xello completion. The official guide is the text alternative to the video.
+Use the fixed budget scenario, calculator, read-aloud, chunked table, or teacher-selected starting amounts. If Xello is unavailable, students finish the budget and private reflection, then join the supervised catch-up list. Paper does not count as Xello completion. The official guide is the text alternative to the video. A missing Evidence Log uses the five-phrase notebook or digital-folder fallback without a penalty or second submission.

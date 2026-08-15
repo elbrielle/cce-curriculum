@@ -1,5 +1,5 @@
 ---
-title: College Credit and Plan Check
+title: Postsecondary Route Trail and College Credit Check
 slug: 4sw-wk2-college-credit-and-family-conversation
 kind: worksheet
 weeks: 4sw/wk2-course-mapping
@@ -10,72 +10,76 @@ pages: 2
 orientation: portrait
 ---
 
-## Read the two routes
+## Part A: Keep AP and dual credit separate
 
 | AP COURSE + EXAM | DUAL CREDIT COURSE |
 |---|---|
 | A qualifying AP exam score may earn credit or placement under the receiving college's policy. | An eligible high school student completes a college course that also counts for high school credit. |
 
-**Compare with:** exam score - college course - receiving policy - eligibility - transcript - transfer - cost
+| Option | What can a student earn? | One condition or question to verify |
+|---|---|---|
+| AP course and exam |  |  |
+| Dual credit |  |  |
 
-## 1. Compare the options
+## Part B: Read the route cards
 
-| Option | What can a student earn? | What determines whether credit transfers or is awarded? | One question to verify |
-|---|---|---|---|
-| AP course and exam |  |  |  |
-| Dual credit |  |  |  |
-| Technical dual credit |  |  |  |
+These are routes to **explore**, not a ranking or a permanent choice. The exact career and current program control the requirement.
 
-## 2. Connect one option to my plan
+| Route | Fixed source fact | What still needs checking |
+|---|---|---|
+| Bachelor's degree | BLS lists a bachelor's degree as the typical entry education for some occupations. | Exact career, program, admission, cost, time, and any license. |
+| Associate degree or transfer | BLS lists an associate degree for some occupations. An associate program may prepare for work or become a step toward another degree. | Exact program, transfer policy, cost, time, and career fit. |
+| Certificate or technical training | BLS uses “postsecondary nondegree award” for some career-entry programs. Licenses can vary by state. | Exact credential, license, program quality, cost, and time. |
+| Registered Apprenticeship | A Registered Apprenticeship combines paid work, a mentor, related instruction, wage growth, and an industry credential. | Employer or sponsor, application, schedule, location, and entry rules. |
+| Military service and training | Each branch sets its own standards. Testing and other requirements can affect enlistment and job options. | Current branch requirements, service commitment, training, and job availability. Do not self-screen. |
+| Direct work with on-the-job training | BLS lists high school, no formal credential, and several levels of on-the-job training for different occupations. | Exact occupation, entry requirement, pay, training, advancement, and backup. |
 
-Possible course or opportunity: __________________________________________________
-
-Current Irving source and access date: ___________________________________________
-
-How it could support my career or education goal:
-
-[[lines: 3]]
-
-What I still need to verify with a counselor or college:
-
-[[lines: 3]]
+**Sources, August 2026:** BLS OOH · Apprenticeship.gov · USAGov · TEA · Irving ISD.
 
 [[pagebreak]]
 
-## 3. Prepare the plan check
+## 1. Follow the route trail
 
-The direction I am considering:
+Use the movement trail or the seated/private card order. Complete any **three different routes**.
 
-[[lines: 1]]
+| Route | One fact from the card | One tradeoff or question |
+|---|---|---|
+| 1. |  |  |
+| 2. |  |  |
+| 3. |  |  |
 
-Two pieces of evidence behind the direction:
+## 2. Compare the notes
 
-1. [[lines: 1]]
+I used: [ ] movement trail  [ ] seated cards  [ ] private card order
 
-2. [[lines: 1]]
+Two facts that showed up in more than one route: _____________________________________________
 
-One part of the plan that is still a draft:
+One important difference: _________________________________________________________________
 
-[[lines: 1]]
+## 3. Build a flexible plan
 
-One question I want a family member or trusted adult to help me consider:
+Use a fictional career goal or your current private direction. List three routes that could lead toward it.
 
-[[lines: 2]]
+| Possible route | Why it could fit | What I would verify later |
+|---|---|---|
+| A. |  |  |
+| B. |  |  |
+| C. |  |  |
 
-## 4. Record the check
+Route I would **investigate first**, not choose forever: ________________________________________
 
-I used: [ ] family member  [ ] trusted adult  [ ] counselor  [ ] teacher  [ ] private writing  [ ] private audio
+One middle-school action: _________________________________________________________________
 
-One question or reaction I heard:
+One high-school action: __________________________________________________________________
 
-[[lines: 2]]
+## 4. Connect college credit to the plan
 
-One part of my plan I will keep, change, or verify because of the conversation:
+Possible AP, dual-credit, or technical dual-credit option: ______________________________________
 
-[[lines: 4]]
+Current Irving source and access date: ______________________________________________________
 
-**Complete frame:** I will [keep / change / verify] __________________ because the question or reflection showed __________________.
+One condition or question to verify: _________________________________________________________
 
-## Important
+**Complete frame:** I will investigate __________________ first because __________________. I will keep __________________ as another route and verify __________________ later.
 
-A signature is not a grade. Family, trusted-adult, counselor, teacher, private-writing, and private-audio routes are equal.
+**Done when:** [ ] AP and dual credit are accurate. [ ] I completed three route cards. [ ] I kept three possible routes, named two actions, and marked one fact to verify later.

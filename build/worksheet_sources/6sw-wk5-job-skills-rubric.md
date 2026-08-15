@@ -51,4 +51,6 @@ Priority revision:
 
 [[lines: 1]]
 
-**Access boundary:** Private live, small-group, teacher-conference, recorded audio/video, and authorized oral/AAC routes use the same evidence. Accent, eye contact, handshake, camera use, clothing cost or style, disability, public confidence, paid work history, and English mechanics are not scored unless meaning is unclear.
+**Day 5 collection:** Recorded route uploads the written record/self-score + private media together. Live/conference/AAC submits the written record + teacher **Day 5 Interview Evidence Checkoff** (student, date, route, accessible opening/close, both roles/follow-up, revision, oral/AAC, written record, follow-up date). Text or media alone is incomplete.
+
+**Access boundary:** Accent, eye contact, handshake, camera use, clothing cost/style, disability, public confidence, paid work history, and English mechanics are not scored unless meaning is unclear.

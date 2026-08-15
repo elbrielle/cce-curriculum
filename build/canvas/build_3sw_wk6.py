@@ -598,7 +598,30 @@ async def main():
                     "<p><strong>Materials:</strong> one budget copy (pp. 1-2) and one device per student; "
                     "one cost guide and calculator per pair. Page 3 is only the no-device Xello directions "
                     "and catch-up check.</p>"
-                )
+                    "<p><strong>Evidence Log:</strong> open Entry 3 from your CCE binder or teacher-designated "
+                    "digital folder. Keep it with you; it is not another submission.</p>"
+                ),
+                "STEPS": student[5]["STEPS"]
+                + step(
+                    6,
+                    "Transfer Entry 3",
+                    "<p>Use short phrases from your revised Budget and Scholarship Plan: artifact or task, "
+                    "transferable skill, visible action, revision or recovery move, and next step. Keep the "
+                    "Evidence Log in your CCE binder or teacher-designated digital folder. Do not upload the "
+                    "log or resubmit the budget.</p>",
+                ),
+                "EXIT": (
+                    "<p><strong>Entry 3 transfer:</strong> Copy the five short phrases from your revised plan. "
+                    "If the log is missing, record the phrases in your CCE notebook or teacher-designated "
+                    "digital folder and transfer them later. Do not reconstruct earlier work.</p>"
+                ),
+                "DONE": student[5]["DONE"].replace(
+                    "</ul>",
+                    "<li>Evidence Log Entry 3 saved with me, or five fallback phrases saved for later transfer;</li></ul>",
+                ),
+                "FALLBACK": student[5]["FALLBACK"]
+                + "<p>A missing Evidence Log does not require a second submission. Save the five short phrases "
+                "in your CCE notebook or teacher-designated digital folder and transfer them later.</p>",
             }
         )
 
@@ -729,14 +752,25 @@ async def main():
                     f'{file_link(files["RUBRIC"]["id"], "the recovery rubric")}.</li>'
                     "<li>Print budget pp. 1-2 once per student, supply one cost guide and calculator per pair, "
                     "and one device per student. Print p. 3 only for no-device directions or catch-up.</li>"
-                    "<li>Open the Xello Completion Standards report and optional official video.</li></ul>"
+                    "<li>Open the Xello Completion Standards report and optional official video.</li>"
+                    "<li>Ask students to open Entry 3 of the CCE Six-Weeks Evidence Log from their CCE binder "
+                    "or teacher-designated digital folder. Do not collect it.</li></ul>"
+                ),
+                "FLOW": teacher[5]["FLOW"].replace("Submit · 5", "Submit budget · 2")
+                + flow(
+                    "#e3ad19",
+                    "Evidence Log Entry 3 · 3",
+                    "Transfer five short phrases from the revised plan; keep the log student-owned.",
                 ),
                 "MONITOR": (
                     "<p>Lap 1 checks the four source labels and first total. Lap 2 checks a revised total of $3,450 "
                     "or less plus the revenue/personal-income distinction. At the Xello transition, verify that "
                     "students can reach Scholarship matches/profile before releasing the 20-minute block. If Xello "
                     "fails, move students to the supervised catch-up list; never collect private answers or "
-                    "screenshots. Trim the optional video before budget reasoning or required profile time.</p>"
+                    "screenshots. At minute 47, check that Entry 3 copies the five short phrases already visible in "
+                    "the revised plan. If the log is missing, students save those phrases in their CCE notebook or "
+                    "teacher-designated digital folder and transfer them later. Do not collect or score the log. "
+                    "Trim the optional video before budget reasoning or required profile time.</p>"
                 ),
             }
         )

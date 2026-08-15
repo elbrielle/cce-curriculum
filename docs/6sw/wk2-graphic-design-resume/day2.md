@@ -12,19 +12,19 @@
 
 ## Before Class
 
-Per student, provide the three-page packet, a pencil, and one private Canvas or paper route. Students work independently; they may rehearse one redacted bullet with a partner but do not exchange devices, files, or full resumes. Project the model *Designed two original event flyers and revised the hierarchy after teacher feedback.* Contrast it with *Good at Canva.* Optional Xello copying must not replace the Canvas/paper route.
+Per student, provide the three-page packet, a pencil, one private Canvas or paper route, and the student-owned **CCE Six-Weeks Evidence Log** when available. Students work independently; they may rehearse one redacted bullet with a partner but do not exchange devices, files, or full resumes. Preserve the adapted teacher-created comparison: project *Objective: To get a job. Skills: Can use a computer. Project: Helped with flyers.* Contrast it with *Designed two original event flyers and revised the hierarchy after teacher feedback.* Ask what action, task, evidence, or purpose the weak sample hides. The Evidence Log is a source only; do not collect it or require old artifacts again. Jordan is the complete fallback. Optional Xello copying must not replace the Canvas/paper route.
 
 ## 50-Minute Flow
 
 1. **Purpose and privacy — 7 min.** A résumé matches true evidence to a target; it is not a personal-data form.
-2. **Model standard sections — 10 min.** Header/target, Education, Skills, and Experience/Projects/Activities/Service. References and photos stay off.
-3. **Plan and assemble — 23 min.** Students select true evidence, draft specific bullets, and assemble a one-page résumé. Paid work is not required.
+2. **Compare the models — 10 min.** Use the teacher-created weak sample to reveal the missing action, task, evidence, and purpose. References and photos stay off.
+3. **Plan and assemble — 23 min.** Students select one Evidence Log entry, another true experience, or the labeled Jordan fallback; draft specific bullets; and assemble a one-page résumé. Paid work is not required.
 4. **Assembly check — 7 min.** Check standard headings, action words, specific evidence, consistency, readable formatting, and privacy.
 5. **Exit — 3 min.** Strongest bullet and one needed revision.
 
 ## Monitor and Key
 
-At minute 14, students should be able to point to action, task, and evidence/purpose in the model. If one-third list traits or tools only, contrast the model and nonexample. At minute 31, look for three truthful evidence bullets and standard headings. At minute 44, the one-page draft should be readable and contain no sensitive data. Do not reward invented titles, dates, awards, hours, results, or tools. “No paid experience” is not a deficit when projects and responsibilities provide evidence. CareerOneStop recommends standard headings and relevant true evidence; graphic decoration cannot rescue weak content. Safe trim: assemble two strongest bullets plus one supported skill, then finish formatting in catch-up. Collect one resume route.
+At minute 14, students should be able to explain why *Can use a computer* is weaker than an action + task + evidence bullet. If one-third still list traits or tools only, label the four missing parts directly on the teacher-created sample. At minute 31, look for three truthful evidence bullets and standard headings. At minute 44, the one-page draft should be readable and contain no sensitive data. Do not reward invented titles, dates, awards, hours, results, or tools. “No paid experience” is not a deficit when projects and responsibilities provide evidence. CareerOneStop recommends standard headings and relevant true evidence; graphic decoration cannot rescue weak content. Safe trim: assemble two strongest bullets plus one supported skill, then finish formatting in catch-up. Collect one resume route; leave the Evidence Log and old artifacts with the student.
 
 ## Privacy and Absence Route
 

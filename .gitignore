@@ -6,12 +6,15 @@ site/
 build/_fixture_out/
 build/worksheet_template/_render.html
 build/worksheet_template/_preview-*.html
+tmp/
+.tmp/
 
 # Large reference PDFs (116MB+, too big for GitHub)
 cce-curriculum/resources/reference-pdfs/*.pdf
 
 # H&L teacher-material binaries (tracked .txt extracts live alongside)
 cce-curriculum/resources/climber-notes/*.pptx
+cce-curriculum/resources/climber-notes/Climber Notes_ Vitals in Motion/
 cce-curriculum/resources/hl-teacher-resources/*.pdf
 
 # Xello licensed downloads are staged locally for authenticated Canvas upload
@@ -19,6 +22,15 @@ cce-curriculum/resources/xello-licensed/
 
 # Licensed workbook/deck images rendered for authenticated Canvas pages
 cce-curriculum/resources/canvas-licensed/
+
+# Shared AVID reference materials are private comparison sources, not course deliverables
+cce-curriculum/resources/avid-reference/source/
+
+# Local owner/source documents and Office lock files are not public deliverables
+CCR Planning2026/
+District Expectations Docs/
+Lucero CCR 26-27 IPC - Filled.docx
+~$*.docx
 
 # Original reference .docx files (not source of truth)
 SW[1-6]/

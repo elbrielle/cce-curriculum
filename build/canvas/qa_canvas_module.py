@@ -1,11 +1,16 @@
 """Read-only Canvas module QA. Reads the API token from stdin and prints no secrets."""
 
-import asyncio, json, re, sys
+import asyncio, html, json, re, sys
 import httpx
 
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
 SUBMISSION_LINK_MARKER = 'cce-mapped-assignment-link-v1'
+WK0_MODULE_ID = 542880
+WK0_MODULE_NAME = "1SW Wk0: Classroom Routines and Career Self-Discovery"
+WK0_MINOR_TITLE = "MINOR 1: My Career Journey Reflection"
+WK0_MINOR_GROUP = "Minor Assessments (40%)"
+WK0_MINOR_SUBMISSION_TYPES = {"online_upload", "online_text_entry"}
 
 WEEK_SPECS = {
     "6SW Wk5: Job Search, Applications, and Interviews": {
@@ -45,6 +50,35 @@ WEEK_SPECS = {
             "6sw-wk5-job-skills-rubric.pdf",
         },
         "folder_suffixes": {"CCR Materials/6SW/Wk5"},
+        "practice_submission_types": {
+            "student_annotation",
+            "online_upload",
+            "online_text_entry",
+        },
+        # Canvas submission types are alternatives, so media_recording would let a
+        # student submit only the oral artifact and omit the required written
+        # portfolio. The recorded route therefore uses online_upload for the
+        # written record + private media together; live/conference/AAC evidence is
+        # paired with the named teacher checkoff.
+        "major_submission_types": {
+            "student_annotation",
+            "online_upload",
+            "online_text_entry",
+        },
+        "major_description_fragments": {
+            "two parts are required",
+            "written record/self-score and private audio/video together as files in one submission",
+            "live, conference, or aac route",
+            "day 5 interview evidence checkoff",
+            "text or media alone is incomplete",
+        },
+        "submission_page_fragments": {
+            "two parts are required",
+            "completed four-page record/self-score and private audio/video together as files in one submission",
+            "live, conference, or aac route",
+            "day 5 interview evidence checkoff",
+            "text or media alone is incomplete",
+        },
     },
     "6SW Wk6: Career Evidence Capstone": {
         "items": 20,
@@ -86,8 +120,67 @@ WEEK_SPECS = {
             "CCR Materials/6SW/Wk6",
             "CCR Materials/6SW/Wk6/Locked Licensed Visuals",
         },
+        "practice_submission_types": {
+            "student_annotation",
+            "online_upload",
+            "online_text_entry",
+        },
+        "major_submission_types": {
+            "media_recording",
+            "student_annotation",
+            "online_upload",
+            "online_text_entry",
+        },
     },
 }
+
+
+def visible_text(value):
+    """Normalize Canvas HTML for narrow, fail-closed protocol assertions."""
+    without_tags = re.sub(r"<[^>]+>", " ", value or "")
+    return " ".join(html.unescape(without_tags).lower().split())
+
+
+def missing_fragments(value, fragments):
+    normalized = visible_text(value)
+    return sorted(fragment for fragment in fragments if fragment not in normalized)
+
+
+def submission_protocol_problems(
+    spec, title, submission_types, assignment_description="", marker_page_body=""
+):
+    """Return exact route/protocol defects without contacting Canvas."""
+    actual_types = set(submission_types or [])
+    expected_types = (
+        spec["major_submission_types"]
+        if title == spec["major_title"]
+        else spec["practice_submission_types"]
+    )
+    problems = []
+    if actual_types != expected_types:
+        problems.append(
+            "assignment private-route mismatch: "
+            f"{title} actual={sorted(actual_types)} expected={sorted(expected_types)}"
+        )
+    if title != spec["major_title"]:
+        return problems
+    missing = missing_fragments(
+        assignment_description, spec.get("major_description_fragments", set())
+    )
+    if missing:
+        problems.append(
+            "mapped Major description is missing the two-part collection protocol: "
+            f"{missing}"
+        )
+    missing = missing_fragments(
+        marker_page_body, spec.get("submission_page_fragments", set())
+    )
+    if missing:
+        problems.append(
+            "mapped Student panel is missing the two-part collection protocol: "
+            f"{missing}"
+        )
+    return problems
 
 
 async def api(client, path):
@@ -125,6 +218,8 @@ async def main():
         problems = []
         pages = []
         interactives = []
+        assignment_descriptions = {}
+        page_bodies = {}
         file_ids = set()
         positions = [item.get("position") for item in items]
         if module.get("published"):
@@ -191,6 +286,7 @@ async def main():
                 if assignment.get("published") or item.get("published"):
                     problems.append(f"assignment published: {assignment.get('id')}")
                 title = assignment.get("name") or ""
+                assignment_descriptions[title] = assignment.get("description") or ""
                 if title.startswith(("PRACTICE:", "FORMATIVE:", "RECOVERY:")):
                     if float(assignment.get("points_possible") or 0) != 0:
                         problems.append(
@@ -238,6 +334,7 @@ async def main():
                 continue
             page = await api(client, f"/courses/{COURSE_ID}/pages/{item['page_url']}")
             body = page.get("body") or ""
+            page_bodies[page["url"]] = body
             unresolved = sorted(set(re.findall(r"\{\{[^}]+\}\}", body)))
             if page.get("published"):
                 problems.append(f"page published: {page['url']}")
@@ -395,18 +492,20 @@ async def main():
 
             for entry in assignments:
                 title = entry.get("title") or ""
-                submission_types = set(entry.get("submission_types") or [])
-                required_types = {
-                    "student_annotation",
-                    "online_upload",
-                    "online_text_entry",
-                }
-                if title == spec["major_title"]:
-                    required_types.add("media_recording")
-                if not required_types.issubset(submission_types):
-                    problems.append(
-                        f"assignment is missing an approved private route: {title} {sorted(submission_types)}"
+                marker_body = (
+                    page_bodies.get(marker_pages[0]["url"], "")
+                    if len(marker_pages) == 1
+                    else ""
+                )
+                problems.extend(
+                    submission_protocol_problems(
+                        spec,
+                        title,
+                        entry.get("submission_types"),
+                        assignment_descriptions.get(title, ""),
+                        marker_body,
                     )
+                )
                 if entry.get("annotatable_attachment_id") is None:
                     problems.append(f"assignment has no annotatable packet: {title}")
 
@@ -450,6 +549,55 @@ async def main():
                         "shuffle_answers": quiz.get("shuffle_answers"),
                         "question_names": names,
                     }
+        if module_id == WK0_MODULE_ID:
+            if module.get("name") != WK0_MODULE_NAME:
+                problems.append(
+                    f"Wk0 module identity mismatch: {module.get('name')!r}"
+                )
+            expected_types = [
+                "SubHeader", "Page", "Page",
+                "SubHeader", "Page", "Page",
+                "SubHeader", "Page", "Page",
+                "SubHeader", "Page", "Page", "Assignment",
+                "SubHeader", "Page", "Page",
+            ]
+            item_types = [item.get("type") for item in items]
+            if len(items) != 16 or len(pages) != 10 or item_types != expected_types:
+                problems.append(
+                    "Wk0 exact 16-item inventory mismatch: "
+                    f"items={len(items)} pages={len(pages)} types={item_types}"
+                )
+            assignments = [
+                entry for entry in interactives if entry.get("type") == "Assignment"
+            ]
+            if len(assignments) != 1 or assignments[0].get("title") != WK0_MINOR_TITLE:
+                problems.append(
+                    f"Wk0 mapped Minor identity/order mismatch: {assignments}"
+                )
+            else:
+                minor = assignments[0]
+                if set(minor.get("submission_types") or []) != WK0_MINOR_SUBMISSION_TYPES:
+                    problems.append(
+                        "Wk0 mapped Minor submission routes mismatch: "
+                        f"{minor.get('submission_types')}"
+                    )
+                if float(minor.get("points_possible") or 0) != 100:
+                    problems.append("Wk0 mapped Minor is not worth 100 points")
+                if minor.get("grading_type") != "points":
+                    problems.append("Wk0 mapped Minor is not points-graded")
+                if minor.get("omit_from_final_grade") is not False:
+                    problems.append("Wk0 mapped Minor is omitted from the final grade")
+                groups = await paged(client, f"/courses/{COURSE_ID}/assignment_groups")
+                group = next(
+                    (
+                        candidate
+                        for candidate in groups
+                        if candidate.get("id") == minor.get("assignment_group_id")
+                    ),
+                    None,
+                )
+                if not group or group.get("name") != WK0_MINOR_GROUP:
+                    problems.append(f"Wk0 mapped Minor is outside {WK0_MINOR_GROUP}")
         result = {
             "module": {
                 "id": module_id,
@@ -470,4 +618,5 @@ async def main():
             raise SystemExit(2)
 
 
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())

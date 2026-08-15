@@ -519,6 +519,31 @@ async def main():
             },
         }
 
+        student[4].update(
+            {
+                "READY": student[4]["READY"]
+                + "<p><strong>Evidence Log:</strong> open Entry 4 from your CCE binder or teacher-designated "
+                "digital folder. Keep it with you; it is not another submission.</p>",
+                "STEPS": student[4]["STEPS"]
+                + step(
+                    5,
+                    "Transfer Entry 4",
+                    "<p>Use the Personal Evidence Audit already open. Copy short phrases for artifact or task, "
+                    "transferable skill, visible action, revision or recovery move, and next step. Keep the log "
+                    "in your CCE binder or teacher-designated digital folder.</p>",
+                ),
+                "EXIT": student[4]["EXIT"]
+                + "<p>Then transfer the five audit phrases to Entry 4. This is not a second Quiz response or upload.</p>",
+                "DONE": student[4]["DONE"].replace(
+                    "</ul>",
+                    "<li>Evidence Log Entry 4 saved with me, or five fallback phrases saved for later transfer.</li></ul>",
+                ),
+                "FALLBACK": student[4]["FALLBACK"]
+                + "<p>If the Evidence Log is missing, save the five short phrases in your CCE notebook or "
+                "teacher-designated digital folder and transfer them later. Do not reconstruct earlier work.</p>",
+            }
+        )
+
         teacher = {
             1: {
                 "TITLE": "Analytical Reasoning: What the Clues Support",
@@ -601,6 +626,31 @@ async def main():
                 "FALLBACK": "<p>No sharing circle or partner disclosure is required. Canvas failure means paper or later upload without penalty.</p>",
             },
         }
+
+        teacher[4].update(
+            {
+                "PREP": teacher[4]["PREP"].replace(
+                    "</ul>",
+                    "<li>Ask students to open Entry 4 of the CCE Six-Weeks Evidence Log from their CCE binder "
+                    "or teacher-designated digital folder. Do not collect it.</li></ul>",
+                ),
+                "FLOW": teacher[4]["FLOW"].replace(
+                    "Complete Q6 once.",
+                    "Complete Q6 once; transfer Entry 4 during the same block.",
+                ),
+                "MONITOR": (
+                    "<p><strong>Minute 12:</strong> students distinguish integrity from perseverance. If one-third "
+                    "select persistence without the safety boundary, repair Case 4 together. <strong>Minute 30:</strong> "
+                    "five feedback items are complete. <strong>Minute 42:</strong> Q6 names a trait, action, record or "
+                    "handoff, harm prevented, artifact evidence, and honest revision. Use the final 3 minutes of the "
+                    "12-minute case/artifact block for Entry 4; this replaces optional H&amp;L browsing. If the log is "
+                    "missing, students save the five short phrases in their CCE notebook or teacher-designated "
+                    "digital folder and transfer them later. Safe trim: analyze two cases instead of four, but protect "
+                    "all five checks, Q6, and the Entry 4 transfer. Collect one Quiz or packet only; do not collect or "
+                    "score the Evidence Log.</p>"
+                ),
+            }
+        )
 
         day_names = {
             1: "What the Clues Support",

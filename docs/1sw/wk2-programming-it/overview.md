@@ -38,7 +38,7 @@ Students explore the Information Technology cluster through Hats & Ladders and t
 - Day 1 and Day 3 optional support prints: Irving ISD IT programs of study and Stop and Jot ([Printable PDF](../../resources/worksheets/wk2-it-programs-scaffold.pdf)) and Flip the Failure chart with row 1 filled in ([Printable PDF](../../resources/worksheets/wk2-flip-the-failure-scaffold.pdf)). Flip the Failure stays in the FYF workbook for the class; the separate chart is not a whole-class print.
 - IT Salary Comparison and Career Fit Reflection Rubric for the Day 5 summative ([Printable PDF](../../resources/worksheets/wk2-salary-hoc-rubric.pdf))
 - Active Monitoring clipboard roster for Days 4 and 5 ([Printable PDF](../../resources/worksheets/clipboard-roster-grid.pdf))
-- Engineering notebooks for Day 2's lightweight four-Hat browse: exact title plus one task or reaction
+- Established CCE notebook route for Day 2's lightweight four-Hat browse: exact title plus one task or reaction; OneNote, physical, Canvas, or teacher-designated paper remain equivalent
 - One verified no-login Code.org or Hour of Code tutorial for Day 4, if the teacher uses the live route. The Student Guide's delivery-robot trace is the complete no-site route, so this lesson does not require accounts, section codes, teacher-built block cards, or a second day of vendor completion.
 - Headphones on Day 4 only if a class set already exists. Run the tutorial muted rather than making headphones a prerequisite.
 - Xello Personality Style teacher resource and Completion Standards report. Matchmaker is the prerequisite. Confirm the roster before Day 5; never create a second student account by hand

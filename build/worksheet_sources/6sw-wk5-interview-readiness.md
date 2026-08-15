@@ -28,9 +28,15 @@ Use the frame: **For a [format/task] interview, Jordan should prepare [action] b
 
 ## 2. Build Evidence, Not a Memorized Script
 
-Use **Situation or Task - Action - Result or Reflection** when a question asks for an example. A school, project, activity, service, or responsibility example is valid. Do not invent paid work, a number, or a result.
+Start with one entry from your **CCE Six-Weeks Evidence Log** if you have it. The log is a source, not another submission. Use **Situation or Task - Action - Result or Reflection** when a question asks for an example. A school, project, activity, service, or responsibility example is valid. Do not invent paid work, a number, or a result.
 
-Jordan evidence bank: six-week supply checkout · 120 entries checked · labels revised after confusion · supervised family-event greeting · clarifying questions · no paid work claimed
+If the log is unavailable or not appropriate, use the complete Jordan evidence bank: six-week supply checkout · 120 entries checked · labels revised after confusion · supervised family-event greeting · clarifying questions · no paid work claimed
+
+**Accessible opening model:** “Hello. I’m Jordan. I’m here to discuss the office assistant role. Thank you for meeting with me.”
+
+**Accessible close model:** “Thank you for your time. What is the next step in your process?”
+
+Use speech, AAC, text-to-speech, an interpreter, or a private teacher conference. A professional opening or close does not require a handshake, eye contact, camera, or one body or speech style.
 
 [[pagebreak]]
 

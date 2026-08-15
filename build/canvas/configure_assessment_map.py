@@ -16,6 +16,7 @@ import re
 import sys
 from dataclasses import dataclass
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import httpx
 
@@ -28,6 +29,38 @@ MAP_PATH = ROOT / "docs/resources/six-weeks-assessment-map.md"
 MINOR_GROUP = "Minor Assessments (40%)"
 MAJOR_GROUP = "Major Assessments (60%)"
 SUBMISSION_LINK_MARKER = "cce-mapped-assignment-link-v1"
+GENERIC_SUBMISSION_PANEL_SENTINEL = (
+    "Follow the matching Student Guide for the exact evidence package."
+)
+SUBMISSION_PANEL_RE = re.compile(
+    rf'<section\b[^>]*\bdata-cce-marker\s*=\s*(["\'])'
+    rf'{re.escape(SUBMISSION_LINK_MARKER)}\1[^>]*>[\s\S]*?</section>',
+    re.I,
+)
+LINK_ATTR_RE = re.compile(
+    r'\b(?P<attr>href|data-api-endpoint)\s*=\s*(["\'])'
+    r'(?P<value>[^"\']+)\2',
+    re.I,
+)
+
+
+def exact_assignment_target(value: str, *, assignment_id: int, api: bool) -> bool:
+    """Accept only this course's exact Assignment URL on the trusted Canvas host."""
+    parsed = urlsplit(value)
+    if parsed.scheme or parsed.netloc:
+        if (
+            parsed.scheme.lower() != "https"
+            or parsed.netloc.lower() != "learn.irvingisd.net"
+        ):
+            return False
+    if value.startswith("//"):
+        return False
+    expected_path = (
+        f"/api/v1/courses/{COURSE_ID}/assignments/{assignment_id}"
+        if api
+        else f"/courses/{COURSE_ID}/assignments/{assignment_id}"
+    )
+    return parsed.path.rstrip("/") == expected_path
 
 
 @dataclass(frozen=True)
@@ -299,11 +332,6 @@ async def ensure_student_submission_link(
         raise ValueError(f"student page URL missing for {assessment.title!r}")
     page = await api(client, "GET", f"/courses/{COURSE_ID}/pages/{page_url}")
     body = page.get("body") or ""
-    body = re.sub(
-        rf'\s*<section[^>]+data-cce-marker="{SUBMISSION_LINK_MARKER}"[\s\S]*?</section>',
-        "",
-        body,
-    ).rstrip()
     label = "minor" if assessment.group == MINOR_GROUP else "major"
     submission_types = set(assignment.get("submission_types") or [])
     route_labels = []
@@ -338,13 +366,69 @@ async def ensure_student_submission_link(
         'data-api-returntype="Assignment">'
         f'Open {assessment.title}</a></p></section>'
     )
+    existing_panels = list(SUBMISSION_PANEL_RE.finditer(body))
+    if len(existing_panels) > 1:
+        raise ValueError(
+            f"multiple marked submission panels on {page.get('title')!r}"
+        )
+    if existing_panels:
+        existing = existing_panels[0]
+        existing_html = existing.group(0)
+        if GENERIC_SUBMISSION_PANEL_SENTINEL in existing_html:
+            # Generic panels are derived from the Assignment's current routes,
+            # so regenerate them whenever the assessment map runs.
+            body_without_panel = (
+                body[: existing.start()] + body[existing.end() :]
+            ).rstrip()
+            final_body = f"{body_without_panel}\n{panel}"
+        else:
+            # Builder-authored panels may define a stricter collection protocol
+            # (for example, written evidence plus oral/AAC evidence). Preserve
+            # that teacher-designed language only when it links to this exact
+            # mapped Assignment; a stale or wrong link fails closed.
+            expected_id = int(assignment["id"])
+            assignment_attrs = [
+                match
+                for match in LINK_ATTR_RE.finditer(existing_html)
+                if "/assignments/" in match.group("value")
+            ]
+            href_targets = [
+                match.group("value")
+                for match in assignment_attrs
+                if match.group("attr").lower() == "href"
+            ]
+            endpoint_targets = [
+                match.group("value")
+                for match in assignment_attrs
+                if match.group("attr").lower() == "data-api-endpoint"
+            ]
+            valid_href = bool(href_targets) and all(
+                exact_assignment_target(
+                    value, assignment_id=expected_id, api=False
+                )
+                for value in href_targets
+            )
+            valid_endpoints = all(
+                exact_assignment_target(
+                    value, assignment_id=expected_id, api=True
+                )
+                for value in endpoint_targets
+            )
+            if not valid_href or not valid_endpoints:
+                raise ValueError(
+                    f"custom submission panel on {page.get('title')!r} does not "
+                    f"link to mapped assignment {assignment['id']}"
+                )
+            final_body = body
+    else:
+        final_body = f"{body.rstrip()}\n{panel}"
     await api(
         client,
         "PUT",
         f"/courses/{COURSE_ID}/pages/{page_url}",
         data={
             "wiki_page[title]": page["title"],
-            "wiki_page[body]": f"{body}\n{panel}",
+            "wiki_page[body]": final_body,
             "wiki_page[published]": "false",
             "wiki_page[editing_roles]": "teachers",
         },

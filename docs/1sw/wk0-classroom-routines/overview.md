@@ -1,154 +1,132 @@
-# Week 0: Who Am I? — Classroom Routines & Career Self-Discovery
+# IPC Week 1 / Curriculum Wk0: CCE Routines and Career Self-Discovery
 
-**1st Six Weeks** | Onboarding / Cross-Cluster | 5 class periods (50 min each)
+**1st Six Weeks** | Onboarding / Cross-Cluster | 5 class periods, 50 minutes each
 
-## Lesson Objective
+## Pacing reality
 
-Students complete the load-bearing CCE self-discovery activities in **three core class periods** and use **two flex periods** to establish lab routines, safety expectations, and campus-specific first-week activities. Core outputs: H&L Climber Profile setup, core personality type, top 2 work values, three or more Building Blocks, and the My Career Journey reflection. The Day 5 flex period also teaches the career research worksheet that every later week reuses. Every later H&L recommendation depends on these core outputs.
+Students completed the Smart Solutions launch, Ready Set Design, partner draw, team-building, and related opening activities during the campus's first instructional week. The curriculum's original `1SW Wk0` therefore begins for the owner on Monday, August 17, as **IPC Week 1**.
 
-Week 0 also establishes the two required Xello starting points: students confirm district SSO access and select an after-high-school goal. Schedule that 25-minute block on either flex day; it should not displace the three Hats & Ladders core days.
+This is not a free-floating AVID week and not a generic notebook week. Hats & Ladders / *Find Your Future* remains the core curriculum. One carefully chosen AVID-derived structure helps students set up a usable notebook and first-week goal Monday; Tuesday-Thursday build the required Climber Profile; Friday protects core catch-up and required Xello access before enrichment.
 
-**Learning Target:** I can name my core personality type and my top two work values, list at least three of my Building Blocks, explain how those results point to career clusters I want to explore, and record my current after-high-school goal in Xello.
+## Weekly objective
 
-**Success Criteria:** I will know I am successful when my Climber Profile shows my core personality type, my top two work values, and at least three Building Blocks, and when the My Career Journey reflection lists my top three recommended clusters, one career I am curious about with two sentences on why, and three people in my career community.
+Students will establish one retrievable CCE notebook route, complete the load-bearing H&L self-discovery inputs, use those inputs in the mapped My Career Journey Minor, and confirm the required Xello access/after-high-school goal.
 
-## Demonstration of Learning
+**Learning target:** I can use my core personality, work values, Building Blocks, and first cluster recommendations to explain one career I want to investigate next.
 
-> "I can describe what a CTE career cluster is, complete my core personality type and work values activities, list at least 3 of my Building Blocks, and explain how my results connect to possible career pathways."
+**Success criteria:**
 
-## TEKS Alignment
+- I can find today's directions and the tool that owns each response.
+- My H&L profile contains my available core personality, work values, and at least three Building Blocks.
+- My FYF Building Blocks pages name at least three experiences and skills.
+- I submitted one complete My Career Journey reflection through one approved route.
+- My Xello account opens and contains an after-high-school goal, or my access problem is recorded for a named recovery check.
 
-- **d(1)(A):** Analyze and discuss the initial results of the assessments (Days 2, 3, 4).
-- **d(1)(B):** Explore and describe the CTE career clusters (Days 1, 4, 5).
+## TEKS
 
-## Materials Needed
+- **d(1)(A):** analyze and discuss initial career-assessment results (Days 2-4).
+- **d(1)(B):** explore and describe CTE clusters using career-assessment and career-research evidence (Days 2-5).
+- **d(4)(A):** demonstrate goal-setting/time-management by naming a specific action, checkpoint, confidence level, and support/recovery route (Day 1; reinforced Day 5).
 
-**Yearlong supply (distributed Day 1):**
+## Source hierarchy and response homes
 
-- **Engineering notebook** (1 per student, bound composition notebook or equivalent). Yearlong artifact students carry to every CCE week. Used for stop-and-jot notes, sketches, warm-up entries, and deliverables marked "sketch in engineering notebook." Students write their name + "CCE Engineering Notebook" on the cover Day 1, pg. 1 is the Day 1 Predictions warm-up.
+1. **Hats & Ladders / Find Your Future** is the core career curriculum.
+2. **Canvas** holds the daily Teacher/Student Guides, models, authenticated links/assets, and the mapped Minor submission.
+3. **Xello** holds only the assigned extension tasks for this week: login and after-high-school goal. Matchmaker does not run yet.
+4. **CCE notebook** holds short private thinking, focused notes, and reflection only when the app/workbook does not already provide the response home.
 
-**Core Days (2-4), required:**
+Say to students: **"Every tool has one job. We are not copying the same answer into four places."**
 
-- Chromebooks with internet access (1 per student)
-- Hats & Ladders student accounts (pre-rostered via Clever/ClassLink)
-- *Find Your Future* workbook, World of Work chapter (printed pp. 9-11 for Building Blocks)
-- Climber Notes decks for Days 2 and 3 (Climber Notes: "Learning Your Core Personality Types" and "Exploring Your Work Values"), projected from the teacher machine
-- Projector for teacher modeling
-- Printed "My Career Journey" reflection handout (1 per student; used on Core Day C) ([Printable PDF](../../resources/worksheets/my-career-journey.pdf))
-- Printed Building Blocks word bank (support scaffold for Core Day B) ([Printable PDF](../../resources/worksheets/building-blocks-word-bank.pdf))
-- Engineering notebooks (carry forward from Day 1 distribution)
+| Evidence job | Primary response home | What the notebook adds |
+|---|---|---|
+| Core personality result | H&L Climber Profile | one key phrase, one real question, one career curiosity |
+| Work values | H&L Climber Profile | one expected/surprised sentence |
+| Building Blocks and skills | FYF pp. 9-11; save three in H&L | one value + experience + possible-cluster connection |
+| Career Journey synthesis | mapped Minor 1 reflection | no duplicate notebook response |
+| After-high-school goal | Xello | no duplicate copy |
+| Perks & Quirks | FYF p. 5 | no transfer worksheet |
 
-**Flex Days (1 and 5), as needed based on the options you choose:**
+## Notebook pilot
 
-- Printed Lab Safety Contract (1 per student; for Day 1 default option) ([Printable PDF](../../resources/worksheets/lab-safety-contract.pdf))
-- *Find Your Future* workbook printed pp. 2-3 (Classroom Career Hunt), pp. 4-5 (Perks and Quirks), pp. 12-16 (Powerskills and Design Thinking)
-- Printed career research worksheet (CCE artifact; 2 copies per student for the Day 5 default option) ([Printable PDF](../../resources/worksheets/career-research-worksheet.pdf))
-- Sticky dots and 14 CTE cluster posters or printed cluster cards (if running the Gallery Walk option)
-- Xello student accounts, pre-rostered (required Week 0 starting tasks: Log in to Xello and After high school goal)
-- Backup: CareerOneStop Interest Assessment ([careeronestop.org](https://www.careeronestop.org/ExploreCareers/Assessments/interests.aspx)) if H&L SSO is unavailable
+The owner will pilot OneNote Class Notebook because page distribution fits the owner's teaching workflow. Other teachers may use a physical notebook, binder section, paper folder, or another district-approved digital notebook. The facilitator guides define the content fields; the delivery route is teacher choice.
 
-## Career Connection
+### Digital owner route
 
-Students begin with their own personality traits, interests, and values before they compare specific career clusters. The six H&L core personality types (Doer, Analyzer, Creator, Helper, Persuader, Organizer) sort people by the kind of work that feels natural to them, the same job-fit thinking career counselors and the federal O*NET database use. H&L uses the data students enter this week for its recommendations through the rest of the year; students return to it during the 4SW Wk1 mid-year reconciliation and the 6SW Wk6 capstone.
+- **Content Library:** `00 Start Here`; `Models & Resources`
+- **Private student notebook:** `CCE Work`; `Focused Notes`; `Evidence & Reflection`
+- **Collaboration Space:** unused or locked during onboarding
 
-**What is Happening at Irving ISD?** All Irving ISD CTE pathways are introduced at the overview level (Irving High School, MacArthur High School, Nimitz High School, Singley Academy, Cardwell Career Preparatory Center, and Ratteree Career Development Center). Students meet specific pathways during each week's Career Connection discussion starting in 1SW Wk1. The workbook's district pages give the teacher the framing to use on Day 2 (FYF pp. 21-22: "What is Happening at My District?"): CCMR stands for College, Career, and Military Readiness; a Program of Study is a sequence of related courses that pairs classroom learning with hands-on experience; and the new Irving CTE Center now being built will hold a professional-grade broadcast studio, a full-service salon, a rooftop drone course, auto bays, and training facilities for electrical, HVAC, and plumbing.
+Use the current unified Microsoft 365 LTI/Microsoft Education tool only if it is already available and tested. Do not build around the classic OneNote LTI 1.1, which Microsoft is retiring September 17, 2026. If the current integration is not available Sunday, use a pretested standalone Class Notebook or the complete Canvas/paper fallback Monday.
 
-## Vocabulary
+Keep large licensed FYF/H&L files in locked Canvas and link to them. Do not make Class Notebook sync depend on embedded PDF printouts.
 
-- **Career Cluster:** A grouping of occupations and industries based on shared knowledge, skills, and interests. Texas CTE recognizes 14-16 clusters; H&L organizes its content the same way.
-- **Pathway:** A specific sequence of courses and experiences within a career cluster (e.g., Culinary Arts is a pathway within Hospitality and Tourism).
-- **Hat:** Hats & Ladders' name for an individual job title (e.g., Veterinarian, Welder, Software Developer).
-- **Climber Profile:** A personalized snapshot of a student's career interests, experiences, and goals in H&L. It evolves as students complete activities and assessments.
-- **Core Personality Type:** H&L's six personality categories (Doer, Analyzer, Creator, Helper, Persuader, Organizer). Most people match more than one.
-- **Work Values:** The things a person needs from a job to feel good about doing it. Achievement, Independence, Recognition, Relationships, Support, and Working Conditions are the six starter words CCE gives students; the H&L app returns each student's own set.
-- **Building Block:** An experience, interest, or skill a student already has (sports, hobbies, chores, clubs, family responsibilities) that connects to future careers.
-- **Powerskill:** Hats & Ladders' name for people skills that travel with you into any career (communication, teamwork, problem-solving, adaptability, leadership, time management, creativity, work ethic, empathy, confidence).
-- **Perk and Quirk:** A perk is a part of a job someone may enjoy. A quirk is something unusual, unexpected, or hard about the job. The same job detail can be a perk to one person and a quirk to another.
-- **CCMR:** College, Career, and Military Readiness. The Texas term for being prepared for life after high school.
+### Content-equivalent physical route
 
-## Bridge to Theory (Hats & Ladders)
+Use the same three labels in a spiral, composition notebook, binder section, or teacher-designated paper folder. Students receive the same prompt, model, language support, time, feedback, and grading expectation. Do not grade notebook brand, supplies, decoration, handwriting, tabs, color coding, or aesthetic neatness.
 
-The *Find Your Future* workbook opens with the World of Work chapter, printed pages 1 to 22. Five activities from that chapter appear this week:
+### Source-grounded Monday routine
 
-- **Classroom Career Hunt** (FYF pp. 2-3): Partners trace everyday items back to the careers that made them, then hunt the room for 10 minutes. Used as the Day 1 flex option.
-- **Perks and Quirks** (FYF pp. 4-5): Students choose 2 Hats in the Hat Finder and research salary, education or training, Powerskills needed, other skills, work environment, and one additional fact, marking each detail as a perk, a quirk, or neutral. This is where CCE teaches the career research format for the whole year. Used as the Day 5 default option.
-- **My Building Blocks** (FYF pp. 9-11): Students inventory experiences across four categories (school, home, community, hobbies and interests), name the skill each one is teaching, talk two of them out with a partner, and reflect. Used on Core Day B.
-- **Introduction to Powerskills** (FYF pp. 12-14): The 10-Powerskill chart, a partner round matching the top 2 Powerskills to seven careers, a self-check, and a Powerskills Trading Card. Used as a Day 5 flex option.
-- **Powerskill: Design Thinking** (FYF pp. 15-16): The "worst idea" smartphone brainstorm and class vote. Used as a Day 5 flex option.
+Monday preserves the field sequence from Jenna Hainlen's teacher-created `AVID First Week Goal-Setting Sheet`: goal, why it matters, one specific action, when/checkpoint, confidence, and accountability/support. It removes AVID cross-class grade monitoring, planner-entry quotas, supply compliance, signatures, and other high-school/all-classes assumptions. The current CCE Project Routine Card and Six-Weeks Evidence Log are not distributed in the launch default and are not represented as AVID resources.
 
-The workbook has no personality-type page and no work values page. Both live in the H&L app, and H&L supplies the teaching decks the teacher projects: (Climber Notes: "Learning Your Core Personality Types") drives the app task Profile → Discover Your Core on Core Day A, and (Climber Notes: "Exploring Your Work Values") drives Profile → Discover Your Work Values on Core Day B. Students record both results in their engineering notebooks, because the workbook has no space for them. Both results return as reflection inputs in the Capstone chapter (FYF p. 281: "Rung 1: Who You Are"), which lists Building Blocks, Personality Types, and Work Values among the things students draw on there.
+## Week at a glance
 
-## IISD Instructional Strategies
+| Day | Core focus | Required evidence | 50-minute shape |
+|---|---|---|---|
+| 1 | CCE tools, notebook pilot, first-week goal | private six-field CCE goal entry and a tested response/fallback route | 5 welcome + 8 tools + 12 setup + 17 goal + 5 check + 3 close |
+| 2 | FYF p. 21 + H&L Discover Your Core | profile result + private result/phrase/question/career-curiosity interpretation | 5 opener + 5 CTE + 10 setup + 23 assessment + 7 ticket/save |
+| 3 | H&L Work Values + FYF pp. 9-11 Building Blocks | H&L/FYF inputs + one value-to-experience-to-cluster connection | 5 opener + 15 values + 17 Building Blocks + 8 saves/recommendations + 5 close |
+| 4 | My Career Journey synthesis | one mapped Minor submitted through file, exact labeled text, or paper | 5 warm-up + 8 gather + 5 model + 22 draft + 6 revise + 4 submit |
+| 5 | core catch-up, Xello, then FYF pp. 4-5 | one verified requirement/result | 5 plan + 20 focus + 15 second priority + 5 verify + 5 close |
 
-- **Think-Pair-Share:** Day 3, Activity 2, the Step 3 "Talk It Out" partner round in the Building Blocks activity (FYF p. 10). Distinguished: hold a silent 30 second Think while each student picks two Building Blocks, one they already know has taught them something and one they are unsure about, then time Partner A for 30 seconds and Partner B for 30 seconds. The listening partner's only job is to name the skills they hear. Post two stems at different levels: "One thing I do a lot is _____. I think it teaches me _____" and "I am not sure what _____ is teaching me. What skill do you hear in it?" Ask two pairs to share, not one. Listen for pairs who name a skill their partner missed, and if most pairs are only saying "responsibility," feed planning, patience, and persistence into the room before students fill in the Step 2 skills column.
-- **Stop and Jot:** Day 2, Activity 3, step 4 right after Discover Your Core returns a result. Distinguished: put the prompt on screen before the assessment starts, give 60 seconds, and offer two stems: "My core personality type is _____, which means I like to _____. One career that might fit me is _____" and "One thing in my description that surprised me is _____." Read jots over shoulders while students write. If most jots copy the type name with no evidence from the description, stop and read one description aloud so students see what "it fit me because" sounds like before they close the app.
-- **Active Monitoring:** Day 4, Activity 2, the 30 minute My Career Journey reflection. Distinguished: walk a fixed pathway three times, one target per lap (lap 1, items 1 to 5 copied from the open Climber Profile rather than from memory; lap 2, item 6 names a specific Hat with two sentences; lap 3, item 8 names three real people). Have the feedback ready before class for the two predictable misconceptions: a student who writes a cluster name where item 6 asks for a career, and a student whose career community is three family members with no teacher, coach, or counselor. If more than a handful stall on item 6, pause the room and project the Hat Finder to model one pick instead of repeating it desk by desk.
-- **Chunking:** Day 3, the three activities in order, because each one feeds the next: work values (Activity 1), Building Blocks (Activity 2), then the cluster recommendations the app computes from both (Activity 3). Distinguished: say what each chunk feeds before it starts, close Activity 1 by having students read their two work values to a neighbor, close Activity 2 with the visual check that three Building Blocks are on every profile, and do not release Activity 3 until both are entered. The same logic sets the week: Core A seeds personality, Core B seeds values and Building Blocks, Core C synthesizes. If the Activity 2 check finds a group without app entries, run Activity 3 as a projected walkthrough while you finish those entries with them.
-- **Time, Voice, Body (TVB):** Day 5, Option A running in parallel with the menu options while you work 1-on-1 with catch-up students. Distinguished: post the three blocks before the period starts, Voice 0 for the first 15 minutes while catch-up students take an assessment, Voice 2 after that for the partner options, a visible countdown for each option so the room turns over together, and a stated drop point for finished worksheets so nobody queues at your table. Narrate the students who are meeting the expectation rather than correcting the ones who are not. If the room drifts louder during catch-up, move the catch-up group to a quieter corner rather than stopping the whole class.
+## Required sources and materials
 
-## Week 0 Flexibility Framework
+### Daily
 
-!!! abstract "3 core days + 2 flex days"
+- 1 charged Chromebook per student; 2 spares if available
+- 1 *Find Your Future* workbook per student
+- projector and the complete daily launch deck
+- tested H&L/Xello launch routes
+- private OneNote/physical notebook route plus full Canvas/paper fallback
 
-    Week 0 runs **three core CCE days and two flex days**. The core days deliver the data every later week depends on. The flex days belong to the teacher, for routines, campus events, or first-week tech access issues. **Every VILS lab is different.** This structure exists so teachers can pad and elongate rather than feel rushed.
+### Day-specific
 
-    **Core days (load-bearing; must land in Week 0 or early 1SW Wk1):**
+- Day 2: Climber Notes `Learning Your Core Personality Types`; FYF p. 21
+- Day 3: Climber Notes `Exploring Your Work Values`; FYF pp. 9-11; optional word banks by need
+- Day 4: My Career Journey standard/stems/bilingual options; student-visible 12-point rubric; FYF p. 22
+- Day 5: FYF pp. 4-5; private readiness list; Xello login/goal route
 
-    1. **Core A (Day 2 default):** H&L Climber Profile setup + Discover Your Core
-    2. **Core B (Day 3 default):** Work values (top 2) + Building Blocks (3 or more)
-    3. **Core C (Day 4 default):** My Career Journey reflection handout (synthesis + summative)
+Default copies should be zero when a tested digital route is in use. Print only the route a student needs. Do not hand every student three versions of the same artifact.
 
-    **Flex days (teacher's choice, with one required Xello block):**
+## Assessment
 
-    Day 1 default is Monday lab routines. Day 5 default is Friday catch-up plus the career research worksheet, the one flex item later weeks depend on. Place the required 25-minute Xello access-and-goal block on whichever flex day is cleaner. Use the remaining flex time for the Lab Safety Contract, the Classroom Career Hunt, Perks and Quirks, the Powerskills chart and Trading Card, the Design Thinking Powerskill, the Gallery Walk, campus events, or other first-week needs. If both flex days disappear, complete the Xello block and career research format during the first clean periods of 1SW Wk1.
+### Formative
 
-    !!! note "One flex item has a downstream dependency"
-        The career research worksheet taught in Day 5 Option B is reused in every cluster week starting with 1SW Wk1 Day 2, where the plan names it as a format students already know. If Friday is eaten by a campus event, run Option B in your first clean period of 1SW Wk1 before that Day 2 worksheet goes out.
+- Day 1 private goal entry and notebook-route test
+- Day 2 H&L result interpretation and diagnostic exit/save check
+- Day 3 profile/FYF inputs plus one synthesis connection
+- Day 5 one verified requirement/result
 
-## Week at a Glance
+### Mapped Minor 1
 
-| Day | Role | Focus | Deliverable | 5E |
-|-----|------|-------|-------------|-----|
-| 1 | **Flex** | Lab Routines + Safety + Your Choice (Monday routines day) | Signed Safety Contract (default) or teacher's choice | Engage · Explore · Explain · Evaluate |
-| 2 | **Core A** | H&L Setup + Discover Your Core | Core personality type in the Climber Profile and the engineering notebook | Engage · Explain · Explore · Evaluate |
-| 3 | **Core B** | Work Values + Building Blocks | Top 2 work values + 3 or more Building Blocks in the app | Engage · Explore · Explain · Evaluate |
-| 4 | **Core C** | My Career Journey Reflection (synthesis) | Completed My Career Journey handout (collected) | Engage · Explain · Extend · Evaluate |
-| 5 | **Flex** | Catch-Up + Career Research Format (Friday flex day) | Career research worksheet on 2 Hats (default) or teacher's choice | Explore · Extend · Evaluate |
+**My Career Journey Reflection** occurs Day 4. It is a 100-point, points-graded Minor in the Minor 40% group with the student-visible 12-point advisory rubric. Students submit once by file upload, exact labeled text items 1-8, or teacher-collected paper. The teacher retains the same artifact for later mid-year/capstone use; students do not resubmit it.
 
-**Required Xello placement:** Add **Log in to Xello + After high school goal** (25 minutes total) to Day 1 or Day 5. These are the only Xello completion tasks assigned in Week 0. Matchmaker and the remaining Grade 8 standards spiral into later modules.
+## Teacher-created source decisions
 
-## Formative Assessment
+- **Use Monday:** the original First Week Goal-Setting field sequence, minimally reframed for CCE/Grade 7.
+- **Hold for a real point of need:** preserve Jenna Hainlen's complete five-phase focused-note-taking sequence and crane usability test for a later dedicated lesson. Week 0 uses only short H&L/FYF interpretation prompts and does not present them as AVID focused notes.
+- **Use Friday only as a facilitation move:** three priorities, two No-Zone distractions, one bounded quiet work block; no points/compliance grade.
+- **Defer:** full Skills Check, full Time Management deck, Cornell/paper-crane sequence, and self-advocacy scenarios. These deserve their own later point-of-need lessons and should not displace H&L.
 
-- **Day 1 (Flex):** Xello login and after-high-school goal completion; Concept Map exit ticket on one classroom object and the three careers behind it if the Career Hunt ran. *d(1)(B)*
-- **Day 2 (Core A):** Core personality type recorded in the Climber Profile and the engineering notebook, plus the Diagnostic MCQ exit ticket; check for evidence students read their result description rather than just copying the type name. *d(1)(A)*
-- **Day 3 (Core B):** Top 2 work values selected + 3 or more Building Blocks in the Climber Profile, plus the Trade-off exit ticket. *d(1)(A)*
-- **Day 4 (Core C):** My Career Journey reflection handout completion quality (synthesis of Days 2 and 3 data), plus the Ranked Justification exit ticket. *d(1)(A), d(1)(B)*
-- **Day 5 (Flex):** Career research worksheet on 2 Hats plus the Comparison Matrix exit ticket, if Option B ran. Catch-up work otherwise. *d(1)(B)*
+The repository record `cce-curriculum/notes/avid-source-and-provenance-ledger.md` holds the exact preservation/adaptation decisions. The private source archive and licensed H&L assets remain outside Git and are delivered only through authenticated, locked Canvas storage.
 
-## Summative Assessment
+## Recovery priorities
 
-**My Career Journey Reflection Handout (collected end of Core Day C / Day 4):** Students synthesize their core personality type, top 2 work values, 3 or more Building Blocks, top H&L cluster recommendations, and three people in their career community into a single written reflection. Scored on completeness, self-awareness, and ability to connect their assessment data to specific cluster curiosity, using the 4-level rubric for those three dimensions ([Printable PDF](../../resources/worksheets/wk0-career-journey-rubric.pdf)). This document is revisited at mid-year (4SW Wk1-2 Career Plan) and end-of-year (6SW Wk6 Final Career Plan). It is a living artifact, not a one-time worksheet.
+1. Protect individual H&L results; never use another student's account.
+2. If H&L is unavailable, use the fixed source chart/list for a provisional response and name Friday catch-up.
+3. If OneNote is unavailable, use the identical Canvas/paper prompt and accept that original work without later recopying.
+4. If a result is missing on Day 4, mark it pending, finish the independent sections, and score after the real result is added.
+5. If H&L/Xello fails Friday, move the student to FYF p. 4-5 and record the exact access recovery.
 
-This is **Minor 1** in the [1SW assessment map](../../resources/six-weeks-assessment-map.md). Convert the 12-point rubric total to its published percentage and enter it as a score out of 100 in the Canvas Minor group.
+## Source/authenticated boundary
 
-## Differentiation
-
-### Scaffolded Learning
-
-- Pre-filled sentence stems on the reflection handout ([Printable PDF](../../resources/worksheets/my-career-journey-stems.pdf)): "My top personality type is _____, which means I like to _____. One career that might fit me is _____."
-- For students who struggle with reading, pair them with a partner who reads assessment items aloud.
-- Provide a simplified visual version of the 14 H&L clusters with icons and 1-sentence descriptions.
-- Print the Building Blocks word bank ([Printable PDF](../../resources/worksheets/building-blocks-word-bank.pdf)): sports, music, video games, cooking, babysitting, fixing things, drawing, and more, so students can circle theirs rather than generate from scratch.
-
-### Extensions
-
-- Students explore 2-3 Hat profiles within their top recommended cluster and mark each job detail as a perk, a quirk, or neutral.
-- Challenge: Find a career that bridges two of your core personality types (Creator + Helper = Art Teacher; Doer + Helper = EMT).
-- Compare the H&L core personality result to the CareerOneStop Interest Assessment results. Do they agree?
-
-### ELL Language Support
-
-- H&L is compatible with browser-based translation tools. Show ELL students how to enable Google Translate page translation.
-- Pre-teach key vocabulary in Spanish: Career Cluster = Grupo de carreras, Personality = Personalidad, Values = Valores, Building Blocks = Bloques de construcción, Pathway = Trayectoria.
-- Pair ELL students with bilingual peers during the Core Day A Discover Your Core assessment for read-aloud support.
-- Provide the bilingual version of the My Career Journey reflection handout with Spanish sentence stems ([Printable PDF](../../resources/worksheets/my-career-journey-bilingual.pdf)).
+Canvas is the active teacher and student delivery environment. GitHub stores source and backup only; the legacy MkDocs site is not a current teacher-delivery target. Licensed FYF/H&L binaries, Climber Notes, private AVID source files, and student information remain outside Git/public hosting. Canvas keeps authenticated assets locked until review/publication approval.

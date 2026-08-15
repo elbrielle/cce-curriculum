@@ -20,7 +20,7 @@ orientation: portrait
 | **2. What Interests You?** | I am on websites every day and I want to know who makes them look and work the way they do. I like that you can see your change on the screen right away. |
 | **3. Brief Job Description** | A web developer builds websites and web apps. They write the code for the buttons, menus, and pages, test the site on a phone and on a laptop, and fix what breaks. |
 | **4. Education / Training Needed** | Many web developers have a bachelor's degree. Some finish a 2 year degree, a coding bootcamp, or a certification instead, then show their work in a portfolio. |
-| **5. Average Salary** | About $90,000 a year in the United States. BLS changes this number every year, so check the live page and write what it says today. |
+| **5. Salary Evidence** | **$90,930 median annual wage** for web developers · United States · U.S. Bureau of Labor Statistics Occupational Outlook Handbook · May 2024. This is a national median, not local or starting pay. |
 | **6. What Tools, Equipment, or Skills are Needed for This Career?** | HTML, CSS, and JavaScript. A framework like React or Vue. A code editor like VS Code. Skills: designing a page that works on a small phone screen, testing in more than one browser, and debugging when the page does not do what you told it to do. |
 
 ### Now You Try
@@ -41,7 +41,9 @@ orientation: portrait
 
 [[lines: 1]]
 
-**5. Average Salary**
+**5. Salary Evidence**
+
+Include the number or range, salary type, geography, source, and data year.
 
 [[lines: 1]]
 

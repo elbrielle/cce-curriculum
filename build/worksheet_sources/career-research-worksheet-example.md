@@ -20,7 +20,7 @@ orientation: portrait
 | **2. What Interests You?** | I have taken care of animals my whole life. I want to know how to help a pet that is sick and cannot tell you what hurts. |
 | **3. Brief Job Description** | A veterinarian is an animal doctor. They examine pets and farm animals, give shots, take x-rays, do surgery, and explain the care plan to the owner. |
 | **4. Education / Training Needed** | 4 years of college, then 4 more years of veterinary school. You also need a state license to work. |
-| **5. Average Salary** | About $120,000 a year in the United States. |
+| **5. Salary Evidence** | **$125,510 median annual wage** · United States · U.S. Bureau of Labor Statistics Occupational Outlook Handbook · May 2024. This is a national median, not local or starting pay. |
 | **6. What Tools, Equipment, or Skills are Needed for This Career?** | Stethoscope, x-ray machine, surgery tools, microscope, and a computer for animal records. Skills: calm hands with a scared animal, strong science and math, and clear talking with a worried owner. |
 
 ### Now You Try
@@ -41,7 +41,9 @@ orientation: portrait
 
 [[lines: 1]]
 
-**5. Average Salary**
+**5. Salary Evidence**
+
+Include the number or range, salary type, geography, source, and data year.
 
 [[lines: 1]]
 

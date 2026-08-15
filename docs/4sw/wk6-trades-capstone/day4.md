@@ -19,7 +19,7 @@
 
 ## Before Class
 
-Provide one device per student; no grouping or employment history is required. The four cases, six-item Quiz, and supplied Day 2 class-artifact model are ready. Print one paper fallback only for each no-device or enlarged-route student. Q6 is the exit, so collect one Quiz or one packet without a second response.
+Provide one device per student; no grouping or employment history is required. The four cases, six-item Quiz, and supplied Day 2 class-artifact model are ready. Print one paper fallback only for each no-device or enlarged-route student. Ask students to open Entry 4 of the CCE Six-Weeks Evidence Log from their CCE binder or teacher-designated digital folder. Q6 is the exit, so collect one Quiz or one packet without a second response.
 
 ## Warm-Up (5 min)
 
@@ -53,15 +53,17 @@ Students select one prior class artifact and complete a short private evidence a
 3. one honest limitation or revision still needed; and
 4. one next action.
 
-H&L may be browsed for another career example, but no favorite count, Career Plan update, or screenshot is required.
+Use the final 3 minutes of this 12-minute block to complete Evidence Log Entry 4 from the Personal Evidence Audit already open. Students copy short phrases for artifact or task, transferable skill, visible action, revision or recovery move, and next step. This replaces optional H&L browsing; it does not replace Q6.
+
+The log stays in the student's CCE binder or teacher-designated digital folder. It is not collected, uploaded, graded, or resubmitted. If the log is missing, students record the five short phrases in their CCE notebook or teacher-designated digital folder and transfer them later. They do not reconstruct earlier work.
 
 The final Quiz response combines the justified case decision and personal evidence audit. It is the exit check; do not collect a second copy.
 
 ## Monitoring and Supports
 
 - **Minute 12:** students distinguish integrity from perseverance. If more than one-third choose persistence without the safety boundary, repair Case 4 together.
-- **Minute 30:** the five feedback checks are complete. **Minute 42:** Q6 names the trait, action, record or handoff, harm prevented, visible artifact action, and honest revision.
-- Safe trim: analyze two cases instead of four, but protect all five checks and Q6.
+- **Minute 30:** the five feedback checks are complete. **Minute 42:** Q6 names the trait, action, record or handoff, harm prevented, visible artifact action, and honest revision. **Minute 47:** students transfer the five already-written phrases to Entry 4.
+- Safe trim: analyze two cases instead of four, but protect all five checks, Q6, and the Entry 4 transfer.
 
 - “Tell the truth” is a start; full evidence names the specific honest action and record route.
 - Accept a school activity as personal evidence. Students do not need employment history.

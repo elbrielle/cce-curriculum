@@ -39,6 +39,10 @@ Bowie Middle School | Expected completion: 2027
 | Specific bullets | action + task + evidence or purpose |
 | Truthful boundary | the target and examples are labeled as classroom practice |
 
+### Repair a teacher-created weak sample
+
+**Skills: Can use a computer.** This is too broad. What **action**, **task**, and **evidence or purpose** are missing?
+
 ### Privacy check
 
 Keep these off the classroom résumé: home address, personal phone/email, birth date, ID numbers, photo, family information, and reference contacts.
@@ -51,7 +55,7 @@ Keep these off the classroom résumé: home address, personal phone/email, birth
 
 ## Page 2 - Plan Your Evidence
 
-Use true school, project, activity, service, or responsibility evidence. Paid work is not required. If you need a privacy-safe alternate, use Jordan's fictional scenario and label it **practice**.
+Start with one entry from your **CCE Six-Weeks Evidence Log** if you have it, or use another true school, project, activity, service, or responsibility example. The log is a source, not another submission. Paid work is not required. If you need a privacy-safe alternate, use Jordan's fictional scenario and label it **practice**.
 
 **Safe display name:** ______________________________  **City/state or school only:** ______________________________
 

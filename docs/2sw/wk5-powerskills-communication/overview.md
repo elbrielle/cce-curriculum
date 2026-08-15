@@ -26,7 +26,7 @@ Students can:
 |---|---|---|
 | 1 | FYF pp. 12-14, 139, 144-145 | Powerskills and conflict-resolution plan |
 | 2 | FYF pp. 62-63 | Active-listening detail sort and questions |
-| 3 | FYF pp. 134-135 | Advocacy scenario plus a CCE SMART/time plan |
+| 3 | FYF pp. 134-135; Jenna Hainlen's teacher-shared *Self-Advocacy Scenarios* | Curated fictional scenario practice plus a CCE SMART/time plan |
 | 4 | FYF pp. 147-148 | Fictional Little Library message |
 | 5 | Xello Work experiences; CareerOneStop Skills Matcher | Required profile completion and private synthesis |
 
@@ -56,10 +56,12 @@ The local Climber Notes deck titled *PowerSkill: Written Communication* belongs 
 4. Project or post the [Powerskills Transfer Guide](../../resources/worksheets/2sw-wk5-powerskills-transfer-guide.pdf); do not print it for every student unless a class needs that access route.
 5. Decide whether students will use the Day 4 discussion or the one-page private written route. Both collect the same workplace rewrite and use the same criteria.
 6. On Day 5, check Work experiences through Xello Completion Standards. Paper does not replace the required save.
+7. On Day 3, use the curated scenario bank embedded in the paired Canvas pages. Do not upload the complete private source deck. The CCE bank keeps the short teacher-made scenario structure and removes adult disputes, unsafe disclosure prompts, and AVID-only machinery.
 
 ## Boundaries that do not change
 
 - Every health or workplace case is fictional.
 - Students practice communication, not diagnosis, treatment, charting, legal advice, or workplace policy.
 - Personal assessment results, health information, and SMART goals stay private unless the student chooses to share.
+- Self-advocacy is not self-rescue. Unsafe, threatening, harassing, or medically urgent situations go to a trusted adult or campus emergency route immediately.
 - Xello Time management is supplemental for Bowie Grade 8. It does not replace the required Work experiences task.

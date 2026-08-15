@@ -3,7 +3,7 @@
 ## Daily Learning Contract
 
 - **Topic:** Course Planning
-- **Objective:** Students will synthesize self-evidence, current course and preparation evidence, one advanced or college-credit option, and an action and revision plan into one individual high school and career plan.
+- **Objective:** Students will synthesize self-evidence, current course evidence, three possible postsecondary preparation routes, one advanced or college-credit option, and an action and revision plan into one individual high school and career plan.
 - **TEKS:** d(8)(B), d(8)(C), d(3)(D)
 - **Demonstration of Learning:** Individual High School and Career Plan with student-visible 16-point rubric.
 <!-- CCE DAILY CONTRACT END -->
@@ -12,7 +12,7 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Synthesize self-evidence, current course and preparation evidence, one advanced or college-credit option, and an action and revision plan into one individual high school and career plan |
+| **Objectives** | Synthesize self-evidence, current course evidence, three possible postsecondary preparation routes, one advanced or college-credit option, and an action and revision plan into one individual high school and career plan |
 | **TEKS** | d(8)(B), d(8)(C), d(3)(D) |
 | **5E Phases** | Engage: Warm-Up · Explore: Gather source evidence · Explain: Individual plan · Evaluate: Rubric self-check and submission |
 | **Deliverable** | Individual High School and Career Plan with student-visible 16-point rubric |
@@ -62,7 +62,8 @@ Use the 28-minute block as 8 minutes for Chunk 1, 10 minutes for Chunk 2, and 8 
 - four-year course sequence or linked course-plan draft;
 - one prerequisite chain;
 - one item marked for counselor verification;
-- preparation after high school;
+- three possible preparation routes after high school;
+- one route to investigate first without treating it as permanent;
 - one AP, dual-credit, or other advanced option with source/date; and
 - one limitation or question.
 
@@ -105,6 +106,6 @@ Students submit the plan privately in Canvas as a file, text, or brief audio res
 
 ## Differentiation
 
-- **Support:** Use the four-page scaffold with one labeled prompt per evidence job. Let students dictate one section before writing or use speech-to-text.
+- **Support:** Use the four-page scaffold with one labeled prompt per evidence job. Let students dictate one section before writing or use speech-to-text. A fictional career goal is an equal route for the three-route comparison.
 - **Extension:** Build a second plan that protects the same goal through a different course or training route, then compare the risks.
 - **ELL:** Use the sentence frames "My current direction is... because my evidence shows..." and "I will revise this plan if..." Score the evidence, not grammar unless meaning is unclear.

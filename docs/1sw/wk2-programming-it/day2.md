@@ -16,7 +16,7 @@
 | **TEKS** | d(1)(C), d(2)(A) |
 | **5E Phases** | Engage: Warm-Up · Explore: Four programming Hats in the app · Explain: Day 2 HQIM evidence on pages 1-3 · Evaluate: Exit Ticket |
 | **Deliverable** | Lightweight four-Hat notes, Day 2 HQIM sections on pages 1-3, and a supported hiring decision |
-| **Materials** | Five-page IT Salary Comparison packet ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison.pdf)), engineering notebooks, *Find Your Future* workbook p. 38, Chromebooks, and projector |
+| **Materials** | Five-page IT Salary Comparison packet ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison.pdf)), established CCE notebook route (OneNote, physical, Canvas, or teacher-designated paper), *Find Your Future* workbook p. 38, Chromebooks, and projector |
 
 ---
 
@@ -50,7 +50,7 @@ Quick share; listen for student passion. Bridge: "The people who actually build 
 
 Use the titles exactly as the live H&L Hat presents them. If a title is unavailable or differs, let students select another available programming Hat and record its exact displayed name.
 
-**Student task:** Students spend about three minutes per Hat. In a dated engineering-notebook entry, they record only the exact displayed title and one job task or honest reaction for each. This is a quick browse, not a second research worksheet.
+**Student task:** Students spend about three minutes per Hat. In a dated CCE notebook entry, they record only the exact displayed title and one job task or honest reaction for each. Use the same OneNote, physical, Canvas, or teacher-designated paper route established during onboarding. This is a quick browse, not a second research worksheet.
 
 **Active Monitoring:** Walk one fixed route. The target is one exact title and one task or reaction per row. Ask: "Which three careers deserve a closer look, and what made you choose them?"
 

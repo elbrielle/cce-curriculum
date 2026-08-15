@@ -14,9 +14,15 @@ orientation: portrait
 
 Use Jordan Rivera and the fictional Pecan Creek posting. Do not disclose personal information, real work history, reference contacts, family information, protected/private topics, or send any message.
 
+Keep one prepared **CCE Six-Weeks Evidence Log** example open as a source, or use Jordan. Do not submit the log or earlier artifacts again.
+
 My route: **paired live / small group / teacher conference / private recording / AAC**
 
+**Collection:** Recorded route uploads this completed record and private audio/video together. Live, conference, or AAC route submits this record while the teacher completes the **Day 5 Interview Evidence Checkoff**. Text or media alone is incomplete.
+
 > **Word bank:** interviewee/entrevistado · interviewer/entrevistador · follow-up/seguimiento · revision/revisión · thank-you/agradecimiento
+
+**Opening/close model:** “Hello. I’m Jordan. I’m here to discuss the office assistant role. Thank you for meeting with me.” / “Thank you for your time. What is the next step in your process?” Use speech, AAC, text-to-speech, an interpreter, or private conference; no handshake, eye contact, camera, or one body or speech style is required.
 
 ## 1. Interviewee Evidence - Round 1
 
@@ -24,15 +30,15 @@ Question answered: _______________________________________________
 
 Situation or task:
 
-[[lines: 3]]
+[[lines: 2]]
 
 Action:
 
-[[lines: 3]]
+[[lines: 2]]
 
 Result or reflection:
 
-[[lines: 3]]
+[[lines: 2]]
 
 One evidence detail the listener should hear:
 

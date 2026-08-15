@@ -24,6 +24,7 @@
 - Open Xello Completion Standards so you can verify Work experiences.
 - Post the licensed Xello *My experiences* guide in locked Canvas. The broader guide asks students to add three experiences; the Bowie Grade 8 completion minimum for this task is one Work experience.
 - Open the unpublished **MINOR 3: Communication and Goal Synthesis**. Print the two-page synthesis only for assigned paper students: **one double-sided copy per assigned student; default copies: 0**.
+- Remind students to retrieve the CCE Six-Weeks Evidence Log from the CCE binder or teacher-designated digital folder named in Week 0. The log stays with the student and is not part of the Minor submission.
 - Do not require a screenshot of personal results.
 
 ## Lesson flow
@@ -54,17 +55,22 @@ Use the rubric's four criteria. This is the approved third minor in the 2SW asse
 
 Students check all four Done when boxes. Teachers record Xello completion from the report and keep absent/no-access students on the supervised catch-up list.
 
+During this same 5-minute check, students keep the completed Communication and Goal Synthesis open and spend 2 to 3 minutes on **Entry 2** of the CCE Six-Weeks Evidence Log. They copy short phrases for: **Communication and Goal Synthesis**; the transferable communication skill already named; one visible action from a Week 5 example; the backup strategy as the revision or recovery move; and the evidence-based next action. Students return the log to the CCE binder or teacher-designated digital folder. Do not collect, upload, or grade the log as another assignment.
+
+If the log is missing, students write the same five short phrases under **Entry 2 hold** in the CCE notebook or teacher-designated digital folder. They transfer those phrases later from the hold note. They do not reconstruct old work or submit the synthesis again.
+
 **Trim:** if Skills Matcher is not complete at minute 32, stop after the current chunk and use the fixed IT support specialist and dental assistant pair supplied in the Student Guide and paper route. Record Skills Matcher as incomplete; do not mislabel it as completed. Protect the required Xello save, synthesis, and submission check.
 
 ## Active monitoring move
 
 - **Minute 14 CFU:** Work experience is saved or supervised catch-up is recorded privately.
 - **Skills Matcher checkpoints:** check progress after ratings 10, 20, and 30; read anchors aloud in chunks when students are clicking without reading.
-- **Synthesis lap:** check one revised goal, one protected time block, one backup, two Week 5 activity examples, and one communication skill across two careers. If students copy a career title without an action, use “What does the worker do with the skill?”
+- **Synthesis lap:** check one revised goal, one protected time block, one backup, two Week 5 activity examples, and one communication skill across two careers. If students copy a career title without an action, use “What does the worker do with the skill?” During the submit/check block, verify that five short Entry 2 phrases move into the student-owned log or an Entry 2 hold note. Do not collect the log.
 
 ## Supports and fallbacks
 
 - If CareerOneStop is blocked, students use the fixed IT support specialist and dental assistant pair supplied in the Student Guide and paper route. They compare the same transferable skill and do not pretend the Skills Matcher was completed.
 - If Xello is blocked, students complete the reflection now and finish the required save during supervised catch-up.
+- If the Evidence Log is missing, students copy five short phrases from the open synthesis into an **Entry 2 hold** note in the CCE notebook or teacher-designated digital folder, then transfer the phrases later. They do not reconstruct or upload old work.
 - Place these frames beside the response: **“I used ____ when I ____.” “The suggestions share ____ because I rated ____ as important.” “In ____, the worker uses ____ when ____.”** Word bank: experience = experiencia; responsibility = responsabilidad; suggestion = sugerencia; transferable = transferible.
 - Xello Time management remains an optional extension because it is not assigned in the Grade 8 completion configuration.

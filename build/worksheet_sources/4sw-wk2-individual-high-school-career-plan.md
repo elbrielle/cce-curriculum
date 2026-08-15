@@ -65,29 +65,29 @@ One course or schedule fact a counselor must verify:
 
 [[pagebreak]]
 
-## 4. After high school
+## 4. Routes after high school
 
-Common education or training route for the career:
+Use the Day 3 route trail. Keep three possibilities. You are choosing what to investigate first, not choosing your whole future.
 
-[[lines: 3]]
+| Possible route | How it could prepare me | What I still need to verify |
+|---|---|---|
+| A. |  |  |
+| B. |  |  |
+| C. |  |  |
 
-License, certification, degree, apprenticeship, military training, or other requirement when applicable:
-
-[[lines: 3]]
-
-One college-credit or advanced opportunity I may consider in high school:
-
-[[lines: 3]]
-
-Source and access date:
+Route I will investigate first and why:
 
 [[lines: 2]]
 
-**Evidence frame:** This option may help because __________________, but I still need to verify __________________.
+One college-credit or advanced opportunity I may consider in high school: __________________________
+
+Source, access date, and one condition: ______________________________________________________
+
+**Evidence frame:** I will investigate __________________ first because __________________. I will keep __________________ as another route and verify __________________ later.
 
 ## 5. Experience and support
 
-One experience I will pursue or build:
+One experience I will pursue or build while I keep the routes open:
 
 [[lines: 3]]
 

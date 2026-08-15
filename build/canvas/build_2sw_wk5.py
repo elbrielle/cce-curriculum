@@ -16,6 +16,53 @@ TEMPLATES = Path(__file__).parent / "templates"
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/2sw/wk5"
 
 
+# Preservation-first adaptation of Jenna Hainlen's teacher-shared
+# "Self-Advocacy Scenarios" deck. The source deck contains 36 school, social,
+# workplace, and adult-life situations. This bank keeps the strongest Grade 7
+# fits, removes private-disclosure prompts and adult financial/legal disputes,
+# and retains the source's short scenario-first teaching move. The complete
+# source deck stays in the private AVID reference library; it is not uploaded by
+# this importer.
+ADVOCACY_SCENARIOS = [
+    (
+        "Confusing directions",
+        "You are working on a CCE task and reach a confusing section. You do not know how to finish it, and the checkpoint is tomorrow.",
+    ),
+    (
+        "Your name",
+        "It is the third week of school, and a teacher still mispronounces your name.",
+    ),
+    (
+        "Return after an absence",
+        "You return to a project after an absence. A checkpoint is coming up, and you do not know what changed or what you still need to finish.",
+    ),
+    (
+        "Finding a resource",
+        "You need a useful book or source, but this is your first time using the library and you do not know where to begin.",
+    ),
+    (
+        "Uneven group work",
+        "You are working on a group project, but the other group members expect you to do most of the work.",
+    ),
+    (
+        "A distracting workspace",
+        "A student at your table is off-task and distracting. It is making it hard for you to focus on the work.",
+    ),
+    (
+        "Different career interests",
+        "A family member wants you to explore the same career they chose, but you want to investigate something different.",
+    ),
+    (
+        "Unfamiliar workplace task",
+        "During fictional workplace training, a situation comes up that was not in the directions. You do not want to interrupt, but you also do not want to guess or create a safety problem.",
+    ),
+    (
+        "An uncomfortable comment",
+        "During a fictional workplace or group task, someone makes repeated comments that make the work feel uncomfortable or unsafe.",
+    ),
+]
+
+
 def slugify(v):
     return re.sub(r"[^a-z0-9]+", "-", v.lower().replace("&", "and")).strip("-")
 
@@ -224,6 +271,50 @@ def step(num, title, body, color="#5a2d91"):
 
 def flow(color, title, text):
     return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0;color:{color}">{title}</h4><p>{text}</p></div>'
+
+
+def advocacy_scenario_bank():
+    cards = "".join(
+        f'<li style="margin:0 0 10px"><strong>{title}:</strong> {scenario}</li>'
+        for title, scenario in ADVOCACY_SCENARIOS
+    )
+    return (
+        '<details style="border:1px solid #d9c9ed;border-radius:8px;padding:12px 16px;margin:14px 0;background:#faf8fd">'
+        '<summary style="font-weight:700;color:#5a2d91;cursor:pointer">Fictional scenario bank</summary>'
+        f'<ol style="padding-left:22px">{cards}</ol>'
+        '</details>'
+    )
+
+
+def advocacy_frame():
+    return (
+        '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:12px 16px;margin:12px 0">'
+        '<p style="margin-top:0"><strong>Notice:</strong> What happened or what is unclear?</p>'
+        '<p><strong>Need:</strong> What support, clarification, space, or route is needed?</p>'
+        '<p><strong>Reason:</strong> What task, access, or safety reason can be shared without private details?</p>'
+        '<p style="margin-bottom:0"><strong>Next step:</strong> What safe action could happen now, or which trusted adult can help?</p>'
+        '</div>'
+    )
+
+
+def advocacy_model():
+    return (
+        '<div style="border:1px solid #bad4df;border-radius:8px;background:#fff;padding:12px 16px;margin:12px 0">'
+        '<p style="margin-top:0"><strong>Worked model - confusing directions</strong></p>'
+        '<p><strong>Notice:</strong> “The last two directions are unclear to me.”</p>'
+        '<p><strong>Need:</strong> “I need one example or the steps read aloud.”</p>'
+        '<p><strong>Reason:</strong> “The checkpoint is tomorrow, and I want to finish the task correctly.”</p>'
+        '<p style="margin-bottom:0"><strong>Next step:</strong> “Can you show me the first step, or tell me who can help?”</p>'
+        '</div>'
+    )
+
+
+def advocacy_safety_boundary():
+    return (
+        '<div style="border-left:5px solid #b33a3a;background:#fff2f2;padding:12px 16px;margin:12px 0">'
+        '<strong>Self-advocacy is not self-rescue.</strong> If a situation feels unsafe, threatening, harassing, or medically urgent, stop the practice frame and get a trusted adult right away. Follow campus emergency procedures when immediate help is needed. You never have to share private health, family, disability, or discipline details for this activity.'
+        '</div>'
+    )
 
 
 QUIZ_QUESTIONS = [
@@ -736,40 +827,49 @@ async def main():
             },
             3: {
                 "TITLE": "Advocate, Set a Goal, and Protect the Time",
-                "PURPOSE": "Turn a need into a realistic goal, time plan, and backup.",
+                "PURPOSE": "Use a clear response frame, then turn a need into a realistic goal, time plan, and backup.",
                 "TOPIC": "Goals and Time",
                 "I_CAN": "I can state a need respectfully and build a SMART goal with protected work time and a backup strategy.",
                 "SHOW_LEARNING": "Complete the Advocacy, SMART Goal, and Time Plan.",
-                "TODAY": "<ul><li>read three community voices;</li><li>write one SMART goal;</li><li>schedule two actions and one backup.</li></ul>",
+                "TODAY": "<ul><li>practice one fictional self-advocacy scenario;</li><li>read three community voices;</li><li>write one SMART goal;</li><li>schedule two actions and one backup.</li></ul>",
                 "READY": f"<p>Open {file_link(files['SMART']['id'], 'the Advocacy, SMART Goal, and Time Plan')} and keep {file_link(files['RUBRIC']['id'], 'the weekly rubric')} nearby.</p>",
                 "STEPS": step(
                     1,
-                    "Identify the need",
+                    "Practice the four-move response",
+                    advocacy_frame()
+                    + advocacy_model()
+                    + advocacy_scenario_bank()
+                    + "<p>Use the scenario your teacher selects. If you are absent, choose one from the bank. Write or rehearse one response that uses all four moves. You may keep the response private or use the fictional point of view.</p>"
+                    + advocacy_safety_boundary(),
+                )
+                + step(
+                    2,
+                    "Use the frame with the advocacy need",
                     image_tag(
                         uploads[3]["fyf-advocacy-need.png"]["id"],
                         "Find Your Future fictional mobile farmers market advocacy scenario and three community voices",
                         700,
                     )
-                    + "<p>Name one voice that should shape the plan and one respectful action.</p>",
+                    + "<p>Choose one community voice. Name what the person notices, needs, and can explain, then propose one respectful next step.</p>",
                 )
                 + step(
-                    2,
+                    3,
                     "Build the SMART goal",
                     "<p>Use “end of the next class” or the teacher-posted Week 6 checkpoint. Your goal needs an action, measure, reason, and deadline.</p><div style=\"border-left:4px solid #1f617a;background:#f2f8fb;padding:10px 14px;margin:12px 0\"><p><strong>Worked model:</strong> “By the Week 6 checkpoint, I will compare three careers using one responsibility and one preparation fact for each so I can choose one route to investigate next. I will work Tuesday from 4:00–4:20 and Thursday from 4:00–4:20. If a site is blocked, I will use the saved guide and finish the same comparison offline.”</p><p><strong>Find:</strong> the action, measure, reason, deadline, two work blocks, obstacle, and different backup route.</p></div><p><strong>Complete frame:</strong> “By ____, I will ____ as shown by ____.”</p>",
                 )
                 + step(
-                    3,
+                    4,
                     "Protect the time",
                     "<p>Schedule two short work blocks. Name an obstacle and an if-then backup.</p><p><strong>Complete frame:</strong> “I will work on it ____. If ____, then I will ____.”</p>",
                 )
                 + step(
-                    4,
+                    5,
                     "Keep it private or ask for feedback",
                     "<p>Use a private self-check, teacher conference, or optional peer response.</p>",
                 ),
-                "DONE": "<ul><li>all five SMART parts;</li><li>two time blocks;</li><li>one obstacle and useful backup;</li><li>two-career advocacy transfer.</li></ul>",
-                "SUPPORT": "<p>goal = meta · deadline = fecha límite · obstacle = obstáculo · backup = alternativa. Complete frames are beside Steps 2 and 3.</p>",
-                "FALLBACK": "<p>If you do not want to share a personal goal, revise a fictional student's goal and use the same checklist.</p>",
+                "DONE": "<ul><li>one Notice, Need, Reason, and Next step practice response;</li><li>all five SMART parts;</li><li>two time blocks;</li><li>one obstacle and useful backup;</li><li>two-career advocacy transfer.</li></ul>",
+                "SUPPORT": "<p>advocate = abogar por ti o por otra persona · need = necesidad · reason = razón · next step = próximo paso · goal = meta · deadline = fecha límite · obstacle = obstáculo · backup = alternativa. Use the four labeled moves in Step 1 and the complete goal frames in Steps 3-4.</p>",
+                "FALLBACK": "<p>Use a fictional scenario and keep the response private. If a situation is unsafe, threatening, harassing, or medically urgent, stop the practice frame and get a trusted adult right away. You do not have to share private health, family, disability, or discipline details. If you do not want to share a personal goal, revise a fictional student's goal and use the same checklist.</p>",
             },
             4: {
                 "TITLE": "Write So the Reader Can Act",
@@ -819,8 +919,8 @@ async def main():
                 "TOPIC": "Goals and Time",
                 "I_CAN": "I can add one authentic Work experience, analyze skill suggestions, and revise a goal using evidence from two careers.",
                 "SHOW_LEARNING": "Submit the four-part Communication and Goal Synthesis.",
-                "TODAY": "<ul><li>save one real Work experience in Xello;</li><li>record two Skills Matcher suggestions or use the fixed career pair;</li><li>revise a goal and compare one skill across careers.</li></ul>",
-                "READY": f'<p>Open the <a href="{minor_url}">Communication and Goal Synthesis</a> and {file_link(files["RUBRIC"]["id"], "the 16-point rubric")}. Use {file_link(files["SYNTH"]["id"], "the optional two-page paper route")} only when your teacher assigns paper.</p>',
+                "TODAY": "<ul><li>save one real Work experience in Xello;</li><li>record two Skills Matcher suggestions or use the fixed career pair;</li><li>revise a goal and compare one skill across careers;</li><li>store five short Entry 2 phrases without another submission.</li></ul>",
+                "READY": f'<p>Open the <a href="{minor_url}">Communication and Goal Synthesis</a> and {file_link(files["RUBRIC"]["id"], "the 16-point rubric")}. Use {file_link(files["SYNTH"]["id"], "the optional two-page paper route")} only when your teacher assigns paper. Retrieve your CCE Six-Weeks Evidence Log from the CCE binder or teacher-designated digital folder; it stays with you.</p>',
                 "STEPS": step(
                     1,
                     "Add one real Work experience",
@@ -840,10 +940,15 @@ async def main():
                     4,
                     "Show transfer",
                     "<p>Name two Week 5 activities that show the Powerskill. Then compare the skill across two careers: name what stays the same and what changes.</p><p><strong>Complete frame:</strong> “I showed ____ when I ____ and ____. In ____, the worker uses the skill when ____. In ____, the same skill ____.”</p>",
+                )
+                + step(
+                    5,
+                    "Submit once and store Entry 2",
+                    "<p>Submit the Communication and Goal Synthesis through the assigned Canvas or paper route. Keep it open for 2 to 3 minutes. In <strong>Entry 2</strong> of your CCE Six-Weeks Evidence Log, copy short phrases for: <strong>Communication and Goal Synthesis</strong>; your named communication skill; one visible action from a Week 5 example; your backup strategy as the revision or recovery move; and your evidence-based next action.</p><p>Return the log to your CCE binder or teacher-designated digital folder. Do not submit the log or the synthesis again. The log is not another grade.</p>",
                 ),
-                "DONE": "<ul><li>Xello save or catch-up recorded;</li><li>two skill suggestions or the fixed career pair recorded honestly;</li><li>revised goal and time plan;</li><li>two Week 5 examples and a two-career transfer comparison.</li></ul>",
+                "DONE": "<ul><li>Xello save or catch-up recorded;</li><li>two skill suggestions or the fixed career pair recorded honestly;</li><li>revised goal and time plan;</li><li>two Week 5 examples and a two-career transfer comparison;</li><li>Entry 2 stored in the Evidence Log or five short phrases saved in an Entry 2 hold note.</li></ul>",
                 "SUPPORT": "<p>experience = experiencia; responsibility = responsabilidad; suggestion = sugerencia; transferable = transferible. Complete frames are beside Steps 2-4.</p>",
-                "FALLBACK": "<p>If Xello fails, complete the reflection and finish the required save in supervised catch-up. If CareerOneStop fails or remains incomplete at the stop time, use the fixed IT support specialist and dental assistant pair in Step 2 and record the tool as incomplete. Xello Time Management is supplemental and does not replace Work experiences.</p>",
+                "FALLBACK": "<p>If Xello fails, complete the reflection and finish the required save in supervised catch-up. If CareerOneStop fails or remains incomplete at the stop time, use the fixed IT support specialist and dental assistant pair in Step 2 and record the tool as incomplete. If the Evidence Log is missing, copy the same five short phrases from the open synthesis under <strong>Entry 2 hold</strong> in the CCE notebook or teacher-designated digital folder, then transfer them later. Do not reconstruct or upload old work. Xello Time Management is supplemental and does not replace Work experiences.</p>",
             },
         }
         teacher = {
@@ -928,13 +1033,13 @@ async def main():
                 "TEKS": "d(4)(A); d(4)(B) through the two-career transfer check",
                 "DOL": "Advocacy, SMART Goal, and Time Plan.",
                 "SUBTITLE": "50 minutes · TEKS d(4)(A), d(4)(B)",
-                "ALERT": "<strong>SMART is not enough by itself.</strong> Students also schedule the work and create a backup strategy.",
-                "PREP": f"<ul><li><strong>Per student:</strong> 1 two-page {file_link(files['SMART']['id'], 'SMART/time plan')}, double-sided when available, and 1 pencil; or 1 device for the approved digital annotation route.</li><li><strong>Teacher:</strong> 1 display/device with FYF p. 134 and {file_link(files['RUBRIC']['id'], 'student-visible weekly rubric')}. The worked model is embedded in the Student Guide.</li><li><strong>Checkpoint:</strong> use end of next class or the teacher-posted Week 6 checkpoint; no extra calendar handout.</li><li><strong>Grouping:</strong> individual/private goal evidence; peer response optional.</li></ul>",
-                "EVIDENCE": "<p>SMART goal, two time blocks, obstacle, if-then backup, and two-career advocacy transfer.</p>",
+                "ALERT": "<strong>Self-advocacy is not self-rescue.</strong> If a situation is unsafe, threatening, harassing, or medically urgent, students stop the practice frame and get a trusted adult right away. SMART still requires scheduled work and a backup strategy.",
+                "PREP": f"<ul><li><strong>Per student:</strong> 1 two-page {file_link(files['SMART']['id'], 'SMART/time plan')}, double-sided when available, and 1 pencil; or 1 device for the approved digital annotation route.</li><li><strong>Teacher:</strong> 1 display/device with FYF p. 134, the embedded fictional scenario bank, and {file_link(files['RUBRIC']['id'], 'student-visible weekly rubric')}. Select one scenario before class; do not project the complete private source deck.</li><li><strong>Source note:</strong> the scenario-first practice is curated from Jenna Hainlen's teacher-shared <em>Self-Advocacy Scenarios</em> deck. The CCE version keeps her short situation-and-response structure while removing adult disputes, unsafe disclosure prompts, and AVID-only machinery.</li><li><strong>Checkpoint:</strong> use end of next class or the teacher-posted Week 6 checkpoint; no extra calendar handout.</li><li><strong>Grouping:</strong> individual/private goal evidence; peer response optional.</li></ul>",
+                "EVIDENCE": "<p>One brief formative Notice, Need, Reason, and Next step response inside the existing two-page artifact; then the durable SMART goal, two time blocks, obstacle, if-then backup, and two-career advocacy transfer. There is no new submission or separate grade.</p>",
                 "FLOW": flow(
                     "#5a2d91",
-                    "Assertive warm-up · 4",
-                    "Rewrite one aggressive sentence.",
+                    "Four-move scenario · 4",
+                    "Notice, Need, Reason, Next step.",
                 )
                 + flow(
                     "#4a9d2f",
@@ -955,9 +1060,9 @@ async def main():
                     "Private revision and two-career check.",
                 )
                 + flow("#606c76", "Submit and reset · 4", "Check all parts; preserve privacy."),
-                "MONITOR": "<ul><li><strong>Model CFU:</strong> identify action, measure, and deadline in the example.</li><li><strong>Lap 1:</strong> check visible product/count and real checkpoint. If more than 1 in 4 uses “someday,” revise one deadline together.</li><li><strong>Lap 2:</strong> check that the backup changes route, not goal. Prompt “What different route still reaches the evidence?”</li><li><strong>Full evidence:</strong> five SMART parts, two time blocks, obstacle, controllable backup, two-career advocacy transfer.</li><li><strong>Trim:</strong> use private self-check instead of peer feedback. Do not cut backup, revision, transfer, or close.</li></ul>",
-                "SUPPORT": "<p>Place this beside the task: <strong>“By ____, I will ____ as shown by ____. I will work on it ____. If ____, then I will ____.”</strong> Goals remain private. A fictional goal may replace personal disclosure.</p>",
-                "FALLBACK": "<p>No live platform is required. Speech-to-text, teacher conference, paper, and private digital annotation are equal. The revised worksheet provides full-width writing space.</p>",
+                "MONITOR": "<ul><li><strong>Scenario CFU:</strong> the response states what happened, asks for a specific support or route, gives a shareable reason, and proposes a safe next step. Do not require a student to explain private circumstances.</li><li><strong>Safety pivot:</strong> if the scenario involves danger, harassment, threats, medical urgency, or possible harm, the correct next step is a trusted adult or campus emergency route, not negotiation.</li><li><strong>Model CFU:</strong> identify action, measure, and deadline in the SMART example.</li><li><strong>Lap 1:</strong> check visible product/count and real checkpoint. If more than 1 in 4 uses “someday,” revise one deadline together.</li><li><strong>Lap 2:</strong> check that the backup changes route, not goal. Prompt “What different route still reaches the evidence?”</li><li><strong>Full durable evidence:</strong> five SMART parts, two time blocks, obstacle, controllable backup, two-career advocacy transfer. The four-move scenario response is formative inside the same artifact.</li><li><strong>Trim:</strong> use one scenario and private self-check instead of peer feedback. Do not cut backup, revision, transfer, or close.</li></ul>",
+                "SUPPORT": "<p>Keep all four labels visible: <strong>“I notice ____. I need ____. The reason I can share is ____. A safe next step is ____.”</strong> Then place the goal frame beside the task: <strong>“By ____, I will ____ as shown by ____. I will work on it ____. If ____, then I will ____.”</strong> A written, oral, AAC, or teacher-conference response may use the same four moves. Goals remain private; a fictional goal may replace personal disclosure.</p>",
+                "FALLBACK": "<p>No live platform or separate scenario deck is required. Speech-to-text, teacher conference, paper, and private digital annotation are equal. Use a fictional scenario in place of personal disclosure. Unsafe, threatening, harassing, or medically urgent situations go to a trusted adult or campus emergency route immediately.</p>",
             },
             4: {
                 "TITLE": "Write So the Reader Can Act",
@@ -1007,8 +1112,8 @@ async def main():
                 "DOL": "Submitted Communication and Goal Synthesis scored with the 16-point rubric.",
                 "SUBTITLE": "50 minutes · TEKS d(4)(A), d(4)(B); d(1)(A) supporting",
                 "ALERT": "<strong>Required task: Work experiences.</strong> Xello Time Management is supplemental and does not replace this Grade 8 completion standard.",
-                "PREP": f'<ul><li><strong>Per student:</strong> 1 internet-connected device with ClassLink, Xello, CareerOneStop, and Canvas access.</li><li><strong>Teacher:</strong> 1 device with Completion Standards open and 1 display for Skills Matcher checkpoints.</li><li><strong>Print only for assigned students:</strong> 1 two-page {file_link(files["SYNTH"]["id"], "synthesis")} per student, double-sided when available. Default copies: 0.</li><li><strong>Grouping:</strong> individual/private profile and Minor evidence; optional partner talk shares only non-sensitive patterns.</li><li>Open the unpublished <a href="{minor_url}">Communication and Goal Synthesis</a>, {file_link(files["RUBRIC"]["id"], "student-visible rubric")}, and licensed {file_link(files["XELLO"]["id"], "My experiences guide")}.</li></ul>',
-                "EVIDENCE": "<p>Required Xello save/report plus the four-part Canvas Minor: revised goal, time plan and backup, two Week 5 activity examples, two-career skill transfer, and one evidence-based next action.</p>",
+                "PREP": f'<ul><li><strong>Per student:</strong> 1 internet-connected device with ClassLink, Xello, CareerOneStop, and Canvas access.</li><li><strong>Teacher:</strong> 1 device with Completion Standards open and 1 display for Skills Matcher checkpoints.</li><li><strong>Print only for assigned students:</strong> 1 two-page {file_link(files["SYNTH"]["id"], "synthesis")} per student, double-sided when available. Default copies: 0.</li><li><strong>Grouping:</strong> individual/private profile and Minor evidence; optional partner talk shares only non-sensitive patterns.</li><li>Open the unpublished <a href="{minor_url}">Communication and Goal Synthesis</a>, {file_link(files["RUBRIC"]["id"], "student-visible rubric")}, and licensed {file_link(files["XELLO"]["id"], "My experiences guide")}.</li><li>Remind students to retrieve the CCE Six-Weeks Evidence Log from the CCE binder or teacher-designated digital folder named in Week 0. It stays with the student.</li></ul>',
+                "EVIDENCE": "<p>Required Xello save/report plus the four-part Canvas Minor: revised goal, time plan and backup, two Week 5 activity examples, two-career skill transfer, and one evidence-based next action. Entry 2 is a 2- to 3-minute transfer into the student-owned Evidence Log, not another Assignment, upload, or grade.</p>",
                 "FLOW": flow(
                     "#5a2d91",
                     "Responsibility warm-up · 4",
@@ -1032,11 +1137,11 @@ async def main():
                 + flow(
                     "#1f617a",
                     "Submit/verify · 5",
-                    "Check report and list absences/access failures.",
+                    "Check report; copy five phrases into Entry 2 or an Entry 2 hold note; list absences/access failures.",
                 ),
-                "MONITOR": "<ul><li><strong>Minute 14 CFU:</strong> Work experience saved or catch-up recorded privately.</li><li><strong>Matcher checkpoints:</strong> after ratings 10, 20, and 30, verify progress and read anchors aloud if students click without reading.</li><li><strong>Synthesis lap:</strong> check revised goal, protected time, backup, two Week 5 activity examples, and one communication action across two careers. Prompt “What does the worker do with the skill?”</li><li><strong>Boundary:</strong> results are idea-generators from self-ratings, not identity or verdict. Use multiple sources and counselor discussion for decisions.</li><li><strong>Trim:</strong> at minute 32, stop after the current chunk and use the fixed IT support specialist and dental assistant pair in the Student Guide. Record Matcher incomplete; protect Xello, synthesis, and submit.</li></ul>",
+                "MONITOR": "<ul><li><strong>Minute 14 CFU:</strong> Work experience saved or catch-up recorded privately.</li><li><strong>Matcher checkpoints:</strong> after ratings 10, 20, and 30, verify progress and read anchors aloud if students click without reading.</li><li><strong>Synthesis lap:</strong> check revised goal, protected time, backup, two Week 5 activity examples, and one communication action across two careers. Prompt “What does the worker do with the skill?”</li><li><strong>Submit/check:</strong> verify five short Entry 2 phrases copied from the open synthesis: artifact, skill, visible action, backup as recovery, and next action. The log returns to the named CCE storage place and is not collected.</li><li><strong>Boundary:</strong> results are idea-generators from self-ratings, not identity or verdict. Use multiple sources and counselor discussion for decisions.</li><li><strong>Trim:</strong> at minute 32, stop after the current chunk and use the fixed IT support specialist and dental assistant pair in the Student Guide. Record Matcher incomplete; protect Xello, synthesis, and submit.</li></ul>",
                 "SUPPORT": "<p>Place these beside the response: <strong>“I used ____ when I ____.” “The suggestions share ____ because I rated ____ as important.” “In ____, the worker uses ____ when ____.”</strong> Read anchors aloud in chunks. Private writing, audio, and teacher conference are equal.</p>",
-                "FALLBACK": "<p>Paper does not replace Xello completion. Move the save to supervised catch-up. If CareerOneStop is blocked/incomplete, use the fixed IT support specialist and dental assistant pair supplied in the Student Guide and paper route. Do not pretend the assessment was completed. Xello Time Management is supplemental only.</p>",
+                "FALLBACK": "<p>Paper does not replace Xello completion. Move the save to supervised catch-up. If CareerOneStop is blocked/incomplete, use the fixed IT support specialist and dental assistant pair supplied in the Student Guide and paper route. Do not pretend the assessment was completed. If the Evidence Log is missing, students copy the same five short phrases from the open synthesis under <strong>Entry 2 hold</strong> in the CCE notebook or teacher-designated digital folder, then transfer them later. Do not reconstruct or upload old work. Xello Time Management is supplemental only.</p>",
             },
         }
         titles = {

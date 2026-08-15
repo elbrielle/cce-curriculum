@@ -583,12 +583,12 @@ async def main():
                 "SHOW": "complete one source-checked course plan with a prerequisite chain, verification label, backup, and counseling questions.",
             },
             3: {
-                "TOPIC": "College Credit",
-                "OBJECTIVE": "Students will compare AP and dual credit using current sources, document one option and its limitation, and explain the developing plan through a family, trusted-adult, counselor, teacher, or private reflection route.",
+                "TOPIC": "Postsecondary Routes and Credit",
+                "OBJECTIVE": "Students will compare AP and dual credit, investigate three postsecondary preparation routes with fixed current evidence, and explain which route they would investigate first while keeping alternatives open.",
                 "TEKS": "d(3)(B), d(3)(D)",
-                "DOL": "Completed College Credit and Plan Check.",
-                "I_CAN": "compare AP and dual credit and name what I still need to verify before using either option in my plan.",
-                "SHOW": "complete the College Credit and Plan Check with one current option, one limitation, and one keep, change, or verify decision.",
+                "DOL": "Completed Postsecondary Route Trail and College Credit Check.",
+                "I_CAN": "compare possible routes after high school and explain what I would investigate first without making a permanent choice.",
+                "SHOW": "compare AP and dual credit, record evidence for three routes, keep three possibilities, and name one middle-school action, one high-school action, and one fact to verify later.",
             },
             4: {
                 "TOPIC": "Extended Learning",
@@ -600,7 +600,7 @@ async def main():
             },
             5: {
                 "TOPIC": "Course Planning",
-                "OBJECTIVE": "Students will synthesize self-evidence, current course and preparation evidence, one advanced or college-credit option, and an action and revision plan into one individual high school and career plan.",
+                "OBJECTIVE": "Students will synthesize self-evidence, current course evidence, three possible postsecondary preparation routes, one advanced or college-credit option, and an action and revision plan into one individual high school and career plan.",
                 "TEKS": "d(8)(B), d(8)(C), d(3)(D)",
                 "DOL": "Individual High School and Career Plan with student-visible 16-point rubric.",
                 "I_CAN": "use self, course, preparation, and action evidence to build a plan that can change when the evidence changes.",
@@ -611,6 +611,23 @@ async def main():
         file_link = common.file_link
         step = common.step
         flow = common.flow
+        route_cards = """
+<div style="border:1px solid #cfc5dd;border-radius:10px;background:#faf8fd;padding:14px 18px;margin:14px 0">
+  <p style="margin:0 0 10px"><strong>Route source cards:</strong> Read the cards in the room or use this seated/private order. These are possibilities to compare, not a ranking or a permanent choice.</p>
+  <h4 style="color:#5a2d91;margin:14px 0 4px">1. Bachelor's degree</h4>
+  <p style="margin:0"><strong>Fixed fact:</strong> BLS lists a bachelor's degree as the typical entry education for some occupations. <strong>Check:</strong> the exact career, program, admission, cost, time, and any license.</p>
+  <h4 style="color:#5a2d91;margin:14px 0 4px">2. Associate degree or transfer</h4>
+  <p style="margin:0"><strong>Fixed fact:</strong> BLS lists an associate degree for some occupations. An associate program may prepare for work or become a step toward another degree. <strong>Check:</strong> the exact program, transfer policy, cost, time, and career fit.</p>
+  <h4 style="color:#5a2d91;margin:14px 0 4px">3. Certificate or technical training</h4>
+  <p style="margin:0"><strong>Fixed fact:</strong> BLS uses “postsecondary nondegree award” for some career-entry programs, and licenses can vary by state. <strong>Check:</strong> the exact credential, license, program quality, cost, and time.</p>
+  <h4 style="color:#5a2d91;margin:14px 0 4px">4. Registered Apprenticeship</h4>
+  <p style="margin:0"><strong>Fixed fact:</strong> a Registered Apprenticeship combines paid work, a mentor, related instruction, wage growth, and an industry credential. <strong>Check:</strong> the employer or sponsor, application, schedule, location, and entry rules.</p>
+  <h4 style="color:#5a2d91;margin:14px 0 4px">5. Military service and training</h4>
+  <p style="margin:0"><strong>Fixed fact:</strong> each branch sets its own standards. Testing and other requirements can affect enlistment and job options. <strong>Check:</strong> current requirements, service commitment, training, and job availability. Do not use this lesson to decide whether you personally qualify.</p>
+  <h4 style="color:#5a2d91;margin:14px 0 4px">6. Direct work with on-the-job training</h4>
+  <p style="margin:0"><strong>Fixed fact:</strong> BLS lists high school, no formal credential, and several levels of on-the-job training for different occupations. <strong>Check:</strong> the exact occupation, entry requirement, pay, training, advancement, and backup.</p>
+</div>
+"""
         student = {
             1: {
                 "TITLE": "Graduation and Assessment Decisions",
@@ -643,19 +660,19 @@ async def main():
                 "FALLBACK": "<p>Use the embedded worked sequence and the three-page paper route. Mark every missing operational detail <strong>VERIFY</strong>. Do not submit course requests; the official Xello tasks wait for the counseling window.</p>",
             },
             3: {
-                "TITLE": "College Credit and Plan Conversation",
-                "PURPOSE": "Compare AP and dual credit, then test your plan with a question or reflection.",
-                "TODAY": "<ul><li>compare AP and dual credit;</li><li>document one current local option;</li><li>explain one part of your plan;</li><li>record what you will keep, change, or verify.</li></ul>",
-                "READY": f'<p>Open {file_link(files["CREDIT"]["id"], "the two-page College Credit and Plan Check")}. Your teacher will post the current TEA AP, dual-credit, and Irving coursebook pages.</p>',
-                "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Compare with:</strong> exam score · college course · receiving-college policy · eligibility · transcript · transfer · cost.</p><p><strong>Use this frame:</strong> AP and dual credit both ___. AP depends on ___, while dual credit depends on ___. Before I choose, I need to verify ___.</p></div>',
+                "TITLE": "Postsecondary Route Trail and College Credit",
+                "PURPOSE": "Compare several ways to prepare after high school, then decide what to investigate first without closing the other routes.",
+                "TODAY": "<ul><li>compare AP and dual credit;</li><li>follow three fixed-evidence route cards;</li><li>compare notes and mark overlap;</li><li>keep three possible routes and plan two next actions.</li></ul>",
+                "READY": f'<p>Open {file_link(files["CREDIT"]["id"], "the two-page Postsecondary Route Trail and College Credit Check")}. Use the movement trail or the seated/private card order below. Both routes use the same cards and produce the same evidence.</p>',
+                "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Compare with:</strong> credential · education or training · work-based learning · entry requirement · time · cost · commitment · backup.</p><p><strong>Use these frames:</strong> Both routes ___. Unlike ___, ___ includes ___. I will investigate ___ first because ___. I still need to verify ___.</p></div>',
                 "STEPS": step(1, "Compare the routes", "<p>AP uses an exam and receiving-college policy. Dual credit is a college course that gives high school and college credit after successful completion.</p>")
-                + step(2, "Document one current option", "<p>Keep the exact name, type, grade level, prerequisite, possible credit, source/date, and one limitation or question.</p><div style=\"border:1px solid #bad4df;background:#f2f8fb;padding:12px 16px;margin:12px 0\"><p style=\"margin:0 0 6px\"><strong>Current Irving source card · 2026-27:</strong></p><p style=\"margin:0\"><strong>English III - Dual Credit</strong> is listed for Grades 10-12 with English II as the prerequisite. The coursebook says successful completion meets high-school and college-credit requirements. Still verify college readiness, campus availability, cost, transfer, and placement with the counselor or receiving college.</p></div>")
-                + step(3, "Choose an equal conversation route", "<p>Use a family member, trusted adult, counselor, teacher, private writing, or private audio. A signature is not required.</p>")
-                + step(4, "Revise honestly", "<p>Record one part you will keep, change, or verify because of the question or reflection.</p>"),
-                "EXIT": "<p>Add one accurate fact to AP only, both, and dual credit only. Then write one verification question.</p>",
-                "DONE": "<ul><li>accurate source comparison;</li><li>one current local option;</li><li>one limitation or question;</li><li>equal conversation or private route;</li><li>one keep, change, or verify decision.</li></ul>",
-                "SUPPORT": "<p>exam score = puntaje de examen · college course = curso universitario · transfer = transferencia · eligibility = elegibilidad. Rehearse with the two sentence frames before writing.</p>",
-                "FALLBACK": "<p>Use the embedded 2026-27 Irving source card and complete the private written reflection. Label any unanswered eligibility, transfer, cost, or scheduling detail <strong>VERIFY</strong>. No family signature, partner, or live search is required.</p>",
+                + step(2, "Follow the route trail", route_cards + "<p>Complete any three routes. For each one, record one fixed fact and one tradeoff or question.</p>")
+                + step(3, "Compare, mark overlap, and summarize", "<p>In the movement route, every group member contributes two notes, the group marks repeated ideas, and each student writes the summary on the check. In the seated/private route, compare your three rows and mark the repeated ideas yourself. You do not have to announce a personal preference.</p>")
+                + step(4, "Keep three routes open", "<p>Use a fictional career goal or your current private direction. List three possible routes, choose one to investigate first, and write one middle-school action, one high-school action, and one fact to verify later. Finish by naming one current AP, dual-credit, or technical dual-credit option.</p>"),
+                "EXIT": "<p>Add one accurate fact to AP only, both, and dual credit only. Then name one route you would investigate first and one fact you would verify before using it.</p>",
+                "DONE": "<ul><li>accurate AP and dual-credit comparison;</li><li>three route-card facts and questions;</li><li>two repeated ideas and one difference;</li><li>three possible routes;</li><li>one middle-school action and one high-school action;</li><li>one current college-credit option and verification question.</li></ul>",
+                "SUPPORT": "<p>route = ruta · credential = credencial · transfer = transferencia · requirement = requisito · backup = alternativa. Complete: “Both routes ___. Unlike ___, ___ includes ___. I will investigate ___ first because ___.”</p>",
+                "FALLBACK": "<p>The printed check and embedded route cards are the complete route. Use the seated/private order, a fictional career goal, and the fixed source facts. Mark any unanswered cost, transfer, eligibility, commitment, or scheduling detail <strong>VERIFY</strong>. No partner, family signature, personal eligibility check, or live search is required.</p>",
             },
             4: {
                 "TITLE": "SMART Experience Action Plan",
@@ -674,12 +691,12 @@ async def main():
             },
             5: {
                 "TITLE": "Individual High School and Career Plan",
-                "PURPOSE": "Combine your evidence into a current direction, course and preparation plan, backup, and revision rule.",
+                "PURPOSE": "Combine your evidence into a current direction, course plan, three possible preparation routes, backup, and revision rule.",
                 "TODAY": "<ul><li>gather Days 1-4 evidence;</li><li>write the individual plan;</li><li>self-score with the rubric;</li><li>revise and submit privately.</li></ul>",
                 "READY": f'<p><strong>Default route:</strong> complete {file_link(files["PLAN"]["id"], "the four-page Individual Plan")} and use {file_link(files["RUBRIC"]["id"], "the two-page 16-point rubric")} on screen. Print the rubric only when you need a paper or enlarged copy. Submit the plan privately; keep Days 1-4 as source evidence.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Plan words:</strong> direction · evidence · prerequisite · preparation · backup · revision rule.</p><p><strong>Use these frames:</strong> My current direction is ___ because my evidence shows ___. I will revise this plan if ___ because that evidence would change ___.</p></div>',
                 "STEPS": step(1, "Direction and self-evidence", "<p>Name a current direction, two pieces of self-evidence, and evidence that would make you reconsider.</p>")
-                + step(2, "Course and preparation evidence", "<p>Bring forward the four-year draft, prerequisite chain, one verification item, preparation after high school, and one advanced or college-credit option.</p>")
+                + step(2, "Course and preparation evidence", "<p>Bring forward the four-year draft, prerequisite chain, one verification item, three possible routes after high school, the route you would investigate first, and one advanced or college-credit option.</p>")
                 + step(3, "Action and revision", "<p>Write actions for seven days, the next counseling meeting, and Grade 9. Add support, backup, and a revision rule.</p>")
                 + step(4, "Self-score and submit", f'<p>Circle one rubric level in each row, revise one weak section, then <a href="{plan_url}">submit the private plan</a> or hand in paper.</p>'),
                 "EXIT": "<p>List three evidence-supported parts, two counseling questions, and one condition that would make you revise.</p>",
@@ -723,20 +740,20 @@ async def main():
                 "FALLBACK": "<p>The embedded model plus paper draft replace live search. Students mark unavailable details VERIFY and write the counselor question. Platform failure never authorizes an invented course or false Xello completion.</p>",
             },
             3: {
-                "TITLE": "College Credit and Plan Conversation",
+                "TITLE": "Postsecondary Route Trail and College Credit",
                 "SUBTITLE": "50 minutes · TEKS d(3)(B), d(3)(D)",
-                "ALERT": "<strong>No automatic credit or free-course promise.</strong> AP depends on exam performance and receiving-college policy. Dual credit has eligibility, completion, transfer, cost, and local-availability questions.",
-                "PREP": f'<ul><li><strong>Print:</strong> one copy per student of {file_link(files["CREDIT"]["id"], "the two-page College Credit and Plan Check")}. Students keep it for Day 5.</li><li><strong>Devices:</strong> one per pair for current <a href="https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/advanced-placement">TEA AP</a>, <a href="https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/dual-credit">TEA Dual Credit</a>, and Irving coursebook checks; the printed packet and embedded card are the no-device route.</li><li><strong>Project:</strong> the 2026-27 Irving English III - Dual Credit source card embedded in the Student Guide. No teacher-created card is required.</li></ul>',
-                "EVIDENCE": "<p>Accurate comparison, one current local option with source/date, limitation or question, and one keep/change/verify reflection. Formative.</p>",
+                "ALERT": "<strong>Explore routes; do not force a permanent choice.</strong> No card promises admission, transfer, cost, employment, military eligibility, or a local program. Students may use a fictional goal and the seated/private route.",
+                "PREP": f'<ul><li><strong>Print:</strong> one copy per student of {file_link(files["CREDIT"]["id"], "the two-page Postsecondary Route Trail and College Credit Check")}. Students keep it for Day 5.</li><li><strong>Movement route:</strong> project or post the six route cards from the Student Guide around the room. <strong>Seated/private route:</strong> students read the same cards in order from the Guide or printout. Do not make movement or public preference a requirement.</li><li><strong>Sources:</strong> keep the current TEA AP and Dual Credit pages and Irving coursebook available for the college-credit check. The fixed route cards replace open searching.</li></ul>',
+                "EVIDENCE": "<p>Accurate AP/dual-credit comparison, three route-card facts and questions, overlap summary, three possible routes, two timed actions, one current college-credit option, and one later verification fact. Formative.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "Question before choosing college-credit work.")
-                + flow("#4a9d2f", "Compare · 12", "AP and dual-credit evidence.")
-                + flow("#1f617a", "Current option · 15", "Name, type, eligibility, possible credit, limitation.")
-                + flow("#e3ad19", "Plan conversation · 13", "Equal adult or private route.")
-                + flow("#1f617a", "Exit · 5", "AP-only, both, dual-only, question."),
-                "MONITOR": "<p><strong>Monitor:</strong> At the end of the comparison, listen to one AP/dual-credit Think-Pair-Share per table. Then check each current option for a source/date and limitation. Give the feedback, “Attach the condition to the claim.” <strong>Misconception:</strong> taking AP guarantees credit or any dual credit is free and transfers everywhere. If it appears at two tables, return to receiving-college policy and FAST eligibility before research continues. <strong>Safe trim:</strong> use the embedded Irving card instead of live option research; protect the comparison and keep/change/verify reflection. <strong>Retain:</strong> students place the two-page check in the Week 2 folder.</p>",
-                "RESOURCES": "<p>Use TEA for the route definitions and current Irving sources for local availability. A receiving college or counselor answers transfer and operational questions.</p>",
-                "SUPPORT": "<p>Keep the word bank and complete AP/dual-credit frame visible during the comparison. Students rehearse once before writing. Family, trusted adult, counselor, teacher, private writing, and private audio are equal.</p>",
-                "FALLBACK": "<p>No signature is required. The dated source card and private reflection route complete the lesson without a partner or family conversation.</p>",
+                + flow("#4a9d2f", "AP and dual credit · 8", "One fact and one condition for each.")
+                + flow("#1f617a", "Route trail · 20", "Three cards; movement or seated/private order.")
+                + flow("#e3ad19", "Compare and plan · 12", "Mark overlap, keep three routes, name two actions.")
+                + flow("#1f617a", "Exit · 5", "College-credit fact, first investigation, verification."),
+                "MONITOR": "<p><strong>Monitor:</strong> Lap 1 checks that each route note comes from a fixed card. Lap 2 asks each student to mark one repeated idea and one difference. Lap 3 checks for three possible routes, the words <em>investigate first</em>, two timed actions, and a fact to verify. Give the feedback, “Keep the route and the condition together.” <strong>Misconceptions:</strong> AP enrollment automatically creates credit; one route is best for everyone; exploring military service means deciding whether a student qualifies. If any spreads across two groups, pause and model a fictional student who keeps three routes open. <strong>Safe trim:</strong> complete two cards as a class and one independently; protect the three-route plan and college-credit check. <strong>Retain:</strong> students place the same two-page check in the Week 2 folder for Day 5.</p>",
+                "RESOURCES": '<p><strong>Teacher-crafted structure:</strong> the individual read, group compare-and-contrast, overlap mark, group summary, and evidence-backed choice sequence is preserved from Jenna Hainlen’s AVID 2 two-year/four-year comparison. The numbered trail and one response tracker preserve the useful station structure from her route materials. The dated AVID articles, student names, local announcements, military eligibility worksheet, and college-worth debate are not carried forward.</p><p><strong>Current fixed sources:</strong> <a href="https://www.bls.gov/ooh/about/ooh-faqs.htm">BLS Occupational Outlook Handbook</a> for career-specific entry education and training; <a href="https://www.apprenticeship.gov/career-seekers">Apprenticeship.gov Career Seekers</a> for paid work, mentoring, related instruction, wage growth, and credential features; <a href="https://www.usa.gov/military-requirements">USAGov Military Requirements</a> for the branch-specific boundary; <a href="https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/advanced-placement">TEA AP</a>, <a href="https://tea.texas.gov/student-readiness-and-high-school/college-career-and-military-prep/dual-credit">TEA Dual Credit</a>, and the current Irving coursebook for the college-credit check. A counselor, receiving institution, employer or apprenticeship sponsor, official branch source, or current occupational profile answers the operational questions.</p>',
+                "SUPPORT": "<p>Keep one complete route card visible at a time. Students may point to the route label, rehearse with “Both routes...” and “Unlike...,” then record a short phrase. Movement, seated comparison, private card order, text-to-speech, and teacher read-aloud collect the same evidence.</p>",
+                "FALLBACK": "<p>The printed check and embedded fixed cards complete the lesson without live search, movement, a partner, family discussion, or personal disclosure. Use a fictional goal when needed. Do not use the military card for student eligibility screening.</p>",
             },
             4: {
                 "TITLE": "SMART Experience Action Plan",
@@ -760,7 +777,7 @@ async def main():
                 "SUBTITLE": "50 minutes · TEKS d(8)(B), d(8)(C), d(3)(D)",
                 "ALERT": "<strong>Major 2 is already mapped.</strong> The Assignment stays unpublished, is worth 100 points, and remains in Major Assessments (60%) so each teacher can publish it after cloning.",
                 "PREP": f'<ul><li><strong>Default:</strong> one device per student, {file_link(files["PLAN"]["id"], "the four-page plan")}, the on-screen {file_link(files["RUBRIC"]["id"], "two-page student rubric")}, and the private unpublished Assignment.</li><li><strong>Paper/enlarged route:</strong> print one four-page plan per assigned student and one rubric only for students who need paper or enlarged scoring support.</li><li><strong>Set out:</strong> each student’s retained Days 1-4 evidence folder. No additional source packet or upload is required.</li></ul>',
-                "EVIDENCE": "<p>Submit the four-page Individual Plan only. It synthesizes self-evidence, course and preparation evidence, college-credit evidence, timed actions, support, backup, and a revision rule. Major 2, scored with the 16-point profile and recorded as 100 gradebook points.</p>",
+                "EVIDENCE": "<p>Submit the four-page Individual Plan only. It synthesizes self-evidence, course evidence, three possible preparation routes, the route to investigate first, college-credit evidence, timed actions, support, backup, and a revision rule. Major 2, scored with the 16-point profile and recorded as 100 gradebook points.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "Supported part and open question.")
                 + flow("#4a9d2f", "Gather · 5", "Days 1-4 evidence set.")
                 + flow("#1f617a", "Write · 28", "8 min direction/self-evidence; 10 min course/preparation; 8 min action/revision, with a 1-minute source check after each of the first two chunks.")
@@ -776,7 +793,7 @@ async def main():
         day_names = {
             1: "Graduation and Assessment Decisions",
             2: "Four-Year Course Plan Draft",
-            3: "College Credit and Plan Conversation",
+            3: "Postsecondary Route Trail and College Credit",
             4: "SMART Experience Action Plan",
             5: "Individual High School and Career Plan",
         }

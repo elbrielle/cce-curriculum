@@ -20,6 +20,51 @@ IMAGE_WITHOUT_LOADING = re.compile(
     r"<img\b(?![^>]*\bloading\s*=)",
     flags=re.IGNORECASE,
 )
+RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
+RETRYABLE_EXCEPTIONS = (
+    httpx.ConnectError,
+    httpx.ConnectTimeout,
+    httpx.ReadError,
+    httpx.ReadTimeout,
+    httpx.RemoteProtocolError,
+    httpx.WriteError,
+    httpx.WriteTimeout,
+)
+MAX_ATTEMPTS = 3
+
+
+async def request(
+    client: httpx.AsyncClient,
+    method: str,
+    url: str,
+    *,
+    data: dict[str, str] | None = None,
+    params: dict[str, int] | None = None,
+) -> httpx.Response:
+    """Retry only transient Canvas/network failures; every write is idempotent."""
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        try:
+            response = await client.request(method, url, data=data, params=params)
+        except RETRYABLE_EXCEPTIONS as exc:
+            if attempt == MAX_ATTEMPTS:
+                raise ValueError(
+                    f"{method} request failed after {MAX_ATTEMPTS} attempts: "
+                    f"{type(exc).__name__}"
+                ) from exc
+            await asyncio.sleep(attempt)
+            continue
+        if response.status_code not in RETRYABLE_STATUS_CODES:
+            response.raise_for_status()
+            return response
+        if attempt == MAX_ATTEMPTS:
+            raise ValueError(
+                f"{method} request failed after {MAX_ATTEMPTS} attempts: "
+                f"HTTPStatusError status={response.status_code}"
+            )
+        retry_after = response.headers.get("Retry-After", "")
+        delay = int(retry_after) if retry_after.isdigit() else attempt
+        await asyncio.sleep(min(delay, 5))
+    raise RuntimeError("unreachable retry state")
 
 
 async def api(
@@ -29,8 +74,7 @@ async def api(
     *,
     data: dict[str, str] | None = None,
 ) -> object:
-    response = await client.request(method, f"{BASE}/api/v1{path}", data=data)
-    response.raise_for_status()
+    response = await request(client, method, f"{BASE}/api/v1{path}", data=data)
     return response.json() if response.content else None
 
 
@@ -39,8 +83,7 @@ async def paged(client: httpx.AsyncClient, path: str) -> list[dict]:
     url: str | None = f"{BASE}/api/v1{path}"
     params: dict[str, int] | None = {"per_page": 100}
     while url:
-        response = await client.get(url, params=params)
-        response.raise_for_status()
+        response = await request(client, "GET", url, params=params)
         records.extend(response.json())
         url = response.links.get("next", {}).get("url")
         params = None
