@@ -18,9 +18,9 @@ The pay figures are **May 2024 U.S. medians from BLS**. A median is the middle w
 |---|---|---:|---:|---|
 | Dental Assistant | Postsecondary nondegree award is typical; requirements vary by state | $47,300 | 6% | Prepare patients, assist with procedures, records, or X-rays when qualified |
 | Dental Hygienist | Associate degree is typical; programs often take about 3 years; state license | $94,260 | 7% | Clean teeth, assess oral health, and teach prevention |
-| Medical Records Specialist | Postsecondary nondegree award is typical | $50,250 | 7% | Review, classify, and enter health information; some assign clinical codes |
+| Medical Billing & Coding* | Singley pathway includes Health Informatics and Practicum in Medical Billing | $50,250* | 7%* | Medical documentation, insurance processes, coding systems, and care-reimbursement procedures |
 
-**Do not mix measures.** If Xello shows a local figure, record the geography, date, and type of pay before comparing it.
+*The Medical Billing pay and growth figures use the broader BLS Medical Records Specialists national category. Keep **Medical Billing & Coding**, the FYF title, as the career name. If Xello shows a local figure, record the geography, date, and type of pay before comparing it.
 
 ## Course evidence rule
 
@@ -41,10 +41,10 @@ This is a classroom comparison rule, not an official government label.
 
 ## Current Irving connection
 
-The current Irving ISD Singley Academy page lists **Dental** in the School of Health Science. The older workbook also discusses Medical Billing and Coding, but the current public page does not verify it as a Singley program. Treat Medical Records Specialist as career exploration unless the district confirms a current program.
+FYF and the 2026-27 Irving ISD high-school coursebook list **Health Science: Dental** and **Health Science: Medical Billing** at Singley. They name Registered Dental Assistant and Certified Billing and Coding Specialist among the related program certifications. Use those district titles in student work. A listed certification is a program opportunity, not an automatic outcome for every student.
 
-## Sources checked August 6, 2026
+## Sources checked August 9, 2026
 
 - U.S. Bureau of Labor Statistics Occupational Outlook Handbook: Dental Assistants; Dental Hygienists; Medical Records Specialists
 - BLS Occupational Employment and Wage Statistics: May 2024 all-occupation median
-- Irving ISD: Singley Academy CTE pathways
+- Irving ISD: 2026-27 High School Course Work, printed pp. 59-60; Singley Academy CTE pathway page

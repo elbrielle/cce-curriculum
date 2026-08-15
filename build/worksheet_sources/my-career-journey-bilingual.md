@@ -88,14 +88,13 @@ It caught my attention because
 
 *Mi comunidad de apoyo. Escribe por lo menos tres nombres.*
 
-A family member / *Un familiar*: ______________________________________________
+A family role or initials / *Un rol familiar o iniciales*: ______________________________________________
 
-A teacher / *Un maestro(a)*: ______________________________________________
+A teacher, counselor, or mentor role/initials / *Un rol o iniciales de maestro(a), consejero(a) o mentor(a)*: ______________________________________________
 
-A coach or club sponsor / *Un entrenador o líder de un club*: ______________________________________________
+A coach, club sponsor, friend, or other support role/initials / *Un rol o iniciales de entrenador, líder de club, amigo u otro apoyo*: ______________________________________________
 
 A friend / *Un amigo(a)*: ______________________________________________
 
-*Keep this page. You will see it again in January and May.*
-
-*Guarda esta hoja. La vas a ver otra vez en enero y en mayo.*
+*Your teacher will keep this reflection available for the mid-year review and final capstone. You will not resubmit the same artifact.*<br>
+*Tu maestro(a) guardará esta reflexión para la revisión de mitad de año y el proyecto final. No volverás a entregar el mismo trabajo.*

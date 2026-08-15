@@ -1,5 +1,12 @@
 # Day 2: Machine Breakdown Mystery + Career Research
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will complete the "Machine Breakdown Mystery" troubleshooting activity using the five-stage Technician Checklist; complete a career research worksheet for one Manufacturing career.
+- **TEKS:** d(1)(C), d(2)(A)
+- **Demonstration of Learning:** Completed Machine Breakdown Mystery checklist (FYF p. 208) + career research worksheet.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
@@ -71,7 +78,7 @@ Pass out the printed career research worksheet. This is the same six-field forma
 - **Average Salary**
 - **What Tools, Equipment, or Skills are Needed for This Career?**
 
-> [H&L PLATFORM] Students open the Hats & Ladders app, go to Clusters, click the Manufacturing Cluster, and use the Hat Finder to return to a Hat that caught their attention on Day 1 (one of the three they rated on the App Exploration page). They pull each worksheet field directly from that Hat's profile in the app, then use at least one additional source, such as the BLS Occupational Outlook Handbook, to confirm the salary and training figures.
+> [H&L PLATFORM] Students open the Hats & Ladders app, go to Clusters, click the Manufacturing Cluster, and use the Hat Finder to return to a Hat that caught their attention on Day 1. They pull each worksheet field directly from that Hat's profile. If they compare it with BLS or CareerOneStop, they keep the sources separate: record the H&L career, geography, salary measure, and date viewed, then label the external figure with its own geography, measure, and date. A different national figure does not replace the district HQIM figure.
 
 Walk the room. Confirm every student has a chosen Hat before they start writing. Stop students who pick the same Hat as their neighbor and challenge them to pick something different to broaden the class's exposure.
 

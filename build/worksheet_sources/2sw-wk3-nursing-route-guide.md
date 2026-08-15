@@ -33,7 +33,7 @@ Texas students should verify that a vocational or registered nursing program is 
 
 ## Irving ISD connection
 
-The current Irving ISD Singley Academy page lists **Nursing Science** in the School of Health Science. The public page does not promise that every student earns a particular nursing credential. Treat the high school pathway as preparation and verify current courses, certifications, and eligibility with the district.
+FYF pp. 84-85 are the district-customized instructional snapshot for Health Science program, IBC, equipment, and experience examples. The current Singley Academy webpage separately lists **Nursing Science** in the School of Health Science. Keep each label attached to its source. Neither source promises that every student earns a particular credential.
 
 ## Use Xello for current local information
 
@@ -43,12 +43,15 @@ The current Irving ISD Singley Academy page lists **Nursing Science** in the Sch
 4. Record the geography, date, and pay measure shown.
 5. If Xello has no exact match, keep the BLS national median and label it correctly.
 
-| Career | Xello geography | Data date | Pay measure | Figure shown |
-|---|---|---|---|---|
-| Nursing assistant | | | | |
-| LVN | | | | |
-| RN | | | | |
-| Nurse practitioner | | | | |
+The Nursing Route Comparison is the writing organizer. This guide stays beside it as the evidence source, so students do not have to copy the full reference table before they can compare the routes.
+
+## Quick language guide
+
+- **preparation:** education, training, and practice before entering the work
+- **licensure:** legal permission from a state board to practice a regulated profession
+- **median:** the middle wage in a group, not starting pay or a promise
+- **responsibility:** work the person is expected and authorized to do
+- **trade-off:** a benefit that comes with a cost, limit, or unanswered question
 
 ## Sources checked August 6, 2026
 

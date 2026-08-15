@@ -1,109 +1,82 @@
-# Day 2: Certification Deep-Dive — CompTIA Roadmap
+# Day 2: Compare IT Education Routes
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
+
+- **Topic:** Education Routes
+- **Objective:** Students will research, describe, and evaluate education and training options for IT careers using common preparation, time, pay, and tradeoff evidence from a dated source guide.
+- **TEKS:** d(2)(A), d(2)(B)
+- **Demonstration of Learning:** Students complete a three-route comparison and recommend one route for a student scenario using an accurate preparation fact, a benefit, and a tradeoff.
+<!-- CCE DAILY CONTRACT END -->
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Explore the CompTIA Career Roadmap; identify which certifications connect to which IT careers; complete the Education Pathway Comparison worksheet (3 careers) |
-| **TEKS** | d(2)(A), d(2)(B) |
-| **5E Phases** | Engage: Warm-Up · Explain: CompTIA roadmap walkthrough · Explore: Roadmap research and Education Pathway Comparison worksheet · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Education Pathway Comparison worksheet (3 careers × 5 fields) |
-| **Materials** | Chromebooks, CompTIA Career Roadmap link, printed Education Pathway Comparison worksheet ([Printable PDF](../../resources/worksheets/wk4-education-pathway-comparison.pdf)), *Find Your Future* workbook p. 37, BLS Computer Support Specialists page, projector |
+| **HQIM** | FYF p. 37 Industry-Based Certification explainer |
+| **Current evidence** | BLS Computer Support Specialists and Software Developers; May 2024 U.S. medians |
+| **Materials** | Route Data Guide, Education Pathway Comparison, optional model, Route Decision |
 
----
+## Before Students Arrive
 
-## Warm-Up (5 min)
+Print one [Route Data Guide](../../resources/worksheets/wk4-route-data-guide.pdf) per pair and one [Education Pathway Comparison](../../resources/worksheets/wk4-education-pathway-comparison.pdf) and [Route Decision](../../resources/worksheets/wk4-day2-route-decision.pdf) per student. Project the supplied [model](../../resources/worksheets/wk4-education-pathway-comparison-model.pdf); print one per pair only when students need it at the desk. Do not send students to open search for certification prices or college costs.
 
-**WARM-UP: What is a certification? How is it different from a diploma or a degree?**
+## Bellringer — What Does a Certification Show? (5 min)
 
-Quick share. Students may treat certifications like school awards. Clarify the difference: a certification shows that the student passed an assessment created or recognized by an industry. CompTIA, Cisco, Microsoft, and Google certifications can appear as job qualifications.
+**Prompt:** What is the difference between a certification, a degree, and a participation certificate?
 
----
+Accept partial ideas, then clarify: an industry certification is evidence that a person met a defined skill standard. It is not a job guarantee and it is not the same credential as a college degree.
 
-## Activity 1: CompTIA Career Roadmap Exploration (20 min)
+## Activity 1 — Read the Evidence Correctly (10 min)
 
-**Source:** CompTIA Career Roadmap, [comptia.org/content/it-careers-path-roadmap](https://www.comptia.org/content/it-careers-path-roadmap)
+Use FYF p. 37 to introduce IBCs. Then model four labels on the Route Data Guide:
 
-Project the CompTIA Career Roadmap on the screen. CompTIA is a nonprofit that issues IT certifications recognized worldwide. Their roadmap shows EVERY major IT certification and which careers each one prepares you for.
+- **typical/common preparation** does not mean every employer has the same rule;
+- **median** is the midpoint of workers' wages;
+- **May 2024 U.S.** identifies the measure, date, and geography; and
+- **tradeoff** means a benefit paired with a cost, limit, or sacrifice.
 
-!!! warning "Check the Link Before Class"
-    CompTIA has reorganized this page more than once, and district filtering can block it. Open the roadmap yourself the week before. If it 404s or is filtered, search comptia.org for "career roadmap" and use whatever the current page is called. If nothing resolves, the activity still runs: the four certification tiers below are the roadmap's content, so project this page instead and have students research time and cost per certification from the BLS page and general search. Nothing later in the week depends on the roadmap graphic itself.
+Use Computer User Support Specialists as the worked example. Think aloud: “Some college is common, and some candidates may qualify with a high school diploma plus relevant certification. I cannot rewrite that as ‘certification always gets the job.’”
 
-Walk through the roadmap with students:
+## Activity 2 — Complete the Three-Route Comparison (25 min)
 
-- **Entry level:** CompTIA IT Fundamentals (ITF+): for people brand new to IT
-- **Foundational (most important):** CompTIA A+, the entry-level certification for any IT support job. Covers hardware, software, networking, troubleshooting, and security basics.
-- **Specialization:** CompTIA Network+ (networking), Security+ (cybersecurity), Server+ (servers), Linux+ (Linux operating system), Cloud+ (cloud computing)
-- **Advanced:** CompTIA CySA+ (cybersecurity analyst), PenTest+ (ethical hacker), CASP+ (cybersecurity architect)
+Students compare:
 
-Tell students that **CompTIA A+** is the certification most often listed in entry-level IT job postings. Many people earn it with 2-6 months of self-study and a $200-500 exam fee. Compare that to a 4-year degree at $50,000+.
+1. Computer User Support Specialist;
+2. Computer Network Support Specialist; and
+3. Software Developer.
 
-The workbook puts the same idea in Irving ISD's words. An Industry-Based Certification, or IBC, proves a person learned a specific skill, and schools, training programs, and employers read one as evidence that person is ready for the next step (FYF p. 37: "What is Happening at My District?"). The certifications on the CompTIA roadmap work that way for IT support.
+For each route, students record common entry preparation, time consideration, May 2024 U.S. median pay, and one tradeoff. Cost is not required because the course has not supplied one comparable current cost dataset.
 
-Students explore the roadmap on their Chromebooks. They identify which certifications connect to the IT support careers they explored on Day 1. They note: certification name, time to earn (research online), cost, and what career it unlocks.
+**Active-monitoring key**
 
-!!! tip "Facilitation Tip"
-    Some students will get overwhelmed by the long list of certifications. Tell them: "You only need to know 3 right now: A+, Network+, and Security+. The other certifications are for advanced specializations, focus on the foundation first."
+- User support: some college common; some candidates may qualify with high school diploma plus relevant IT certifications; $60,340.
+- Network support: associate degree typical; $73,340.
+- Software developer: bachelor's degree typical; $133,080.
+- These figures are national medians, not starting or DFW salaries.
 
----
+Students who need support use the model column and highlight the source sentence before copying it.
 
-## Activity 2: Education Pathway Comparison Worksheet (20 min)
+## Activity 3 — Route Decision (10 min)
 
-Distribute the **Education Pathway Comparison worksheet** ([Printable PDF](../../resources/worksheets/wk4-education-pathway-comparison.pdf)). Students compare 3 IT careers side-by-side, picking ONE from each category:
+Students complete the Route Decision. Use QSSSA for one oral rehearsal before writing.
 
-1. **Certification-only career** (e.g., Help Desk Technician with CompTIA A+)
-2. **Associate degree + cert career** (e.g., IT Support Specialist with associate degree + Network+)
-3. **Bachelor's degree career** (e.g., Software Developer or Network Architect)
+- **Question:** Which route should a student who wants earlier workforce entry and room to advance investigate first?
+- **Stem:** “The student should investigate ___ because ___. A benefit is ___. A tradeoff is ___.”
+- **Share:** partner, then two evidence-based responses.
+- **Assess:** listen for a preparation fact and employer variation.
 
-For each career, students fill in 5 fields:
+Post the point-of-use word bank **median, preparation, benefit, tradeoff, requirement**. If time is short, take one oral response and protect all three route rows plus the written decision.
 
-| Field | Career 1 (Cert) | Career 2 (AS + Cert) | Career 3 (Bachelor's) |
-|---|---|---|---|
-| Career Name | | | |
-| Required Education | | | |
-| Time to Complete | | | |
-| Estimated Cost (rough) | | | |
-| Median Salary (BLS) | | | |
+Multiple recommendations are acceptable. “User support” is a reasonable first investigation, but a student may defend another route if the evidence and tradeoff fit the scenario.
 
-Then students answer 2 reflection questions on the back:
+## Supports
 
-1. Which path takes the LEAST time? Which path takes the MOST?
-2. If you wanted to start earning money as fast as possible, which path would you choose?
+- Bilingual field labels and a short glossary: median/mediana, preparation/preparación, tradeoff/ventaja y desventaja.
+- Read the scenario aloud and let students annotate the exact facts they will use.
+- Do not grade spelling or mechanics unless meaning is unclear.
+- Extension: compare a current CompTIA route only from an official page and record the access date; do not make changing exam names or prices required evidence.
 
-**DOK 3:** What conclusions can you draw about whether a 4-year degree is always the best choice for someone who wants to work in IT support? Use the cost and time data from your worksheet to support your answer.
+## If the Web Is Blocked or a Student Is Absent
 
-!!! tip "Facilitation Tip"
-    Students may try to skip the "cost" field because it feels uncomfortable to discuss money. Push them to put rough numbers: "Certifications: $200-1000. Associate degree: $5,000-15,000 at a community college. Bachelor's: $40,000-100,000+." These numbers should shock them, and that's the point. Education is an investment with a real cost.
-
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/1sw-wk4-day2-certification-deep-dive-comptia-roadmap.pdf):
-
-Rank these three training paths from FASTEST to EARNING INCOME (1) to SLOWEST (3). Use your Education Pathway Comparison worksheet.
-
-- CompTIA A+ certification only: rank ____
-- Associate degree + CompTIA Network+: rank ____
-- Bachelor's degree in Computer Science: rank ____
-
-For EACH rank, write one specific data point (time, cost, or salary) from your worksheet that backs up the rank.
-
-- Rank 1 (fastest): _______________________________________________________
-
-- Rank 2: _______________________________________________________
-
-- Rank 3 (slowest): _______________________________________________________
-
-Bottom line: Which path would you recommend to a student who says "I don't want debt and I want to work ASAP"? One sentence why. *(d(2)(A), d(2)(B))*
-
-   ___________________________________________________________________
-
----
-
-## Differentiation
-
-- **Support:** Hand out the model version of the worksheet ([Printable PDF](../../resources/worksheets/wk4-education-pathway-comparison-model.pdf)), which pre-fills column 1 with Help Desk Technician and CompTIA A+, including the time, cost, and salary. Students complete columns 2 and 3.
-- **Extension:** Students research the cost of a CompTIA A+ exam voucher and find one free study resource (Professor Messer on YouTube is the standard).
-- **ELL:** Bilingual worksheet with Spanish column headers ([Printable PDF](../../resources/worksheets/wk4-education-pathway-comparison-bilingual.pdf)). Allow ELL students to use Spanish-language CompTIA roadmap resources (Latin American IT certification sites).
+The dated Route Data Guide is the normal required source, so the lesson does not fail when BLS or CompTIA is blocked. An absent student completes the same guide, comparison, and decision.

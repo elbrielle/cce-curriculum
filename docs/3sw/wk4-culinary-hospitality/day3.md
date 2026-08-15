@@ -1,112 +1,75 @@
-# Day 3: Hotel Rescue — Team Problem Solving
+# Day 3: Hotel Rescue Team Response
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Hotel Operations
+- **Objective:** Students will identify hospitality career opportunities, explain how coordinated hotel roles solve one fictional service crisis, and identify a small-business opportunity that uses the same process.
+- **TEKS:** d(1)(C), d(3)(I)
+- **Demonstration of Learning:** FYF p. 118 coordinated response plus an individual role record and small-business transfer naming what the owner sells or coordinates.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the "Hotel Rescue" team activity; play one of six hotel staff roles; brainstorm solutions to 3 hotel crises; present the team's best solution |
+| **Objectives** | Use one hotel role to solve a service crisis; protect a non-negotiable requirement; coordinate at least three roles; transfer the response process to a small hospitality business |
 | **TEKS** | d(1)(C), d(3)(I) |
-| **5E Phases** | Engage: Warm-Up · Explore: Role choice and three-problem brainstorm · Explain: Team solution share-out · Evaluate: Exit Ticket |
-| **Deliverable** | Group brainstorm sheet + 1 problem solution presented to class |
-| **Materials** | *Find Your Future* workbook pp. 117-118, printed Hotel Rescue role cards (6 roles), chart paper or whiteboard space per group, projector |
+| **5E Phases** | Engage, Explore, Explain, Evaluate |
+| **Deliverable** | FYF p. 118 team solution plus the two-page individual role and transfer response |
+| **Materials** | Per student: FYF workbook opened to pp. 117-118, one two-page individual response digitally or printed double-sided, and pencil. Per team: one projected or three-page role/crisis set. Teacher: one projected completed Crisis C model. |
 
----
+## Warm-Up (4 min)
 
-## Warm-Up (5 min)
+**WARM-UP:** A hotel guest has a problem. What should staff verify before they promise a solution?
 
-**WARM-UP: Have you ever stayed at a hotel where something went wrong (room not ready, food problem, AC broken)? How did the staff handle it?**
+Collect facts, safety/access needs, available resources, cost authority, and a realistic timeline.
 
-Take 3-4 student responses. Ask who handles the guest, who fixes the immediate problem, and who keeps it from happening again. Students will need all three roles in today's hotel scenarios.
+## Activity 1: Assign Roles and One Crisis (7 min)
 
----
+**Source:** (FYF p. 117: "Hotel Rescue")
 
-## Activity 1: Set the Scenario + Choose Roles (10 min)
+Build teams of four to six. For six, assign one student to each role. For five, combine Senior Concierge with Guest Services Manager. For four, also combine Hotel Director with Front Desk Agent. Each team receives one crisis: overbooking, short-staffed retreat, or unready accessible room. Use `ceiling(roster ÷ 6)` card sets if printing. Assigning one crisis protects the time needed for role-specific evidence and avoids shallow answers to all three.
 
-**Source:** (FYF p. 117: "Hotel Rescue"), a Career Climb activity, Step 1
+Students complete the individual role page before group discussion. An absent student selects one role and completes the same response independently.
 
-Read the workbook background on page 117 together: students are part of a team that works at a large hotel to make sure everything goes according to plan. They are preparing for an important week with a lot of events and guests coming through the doors, but there is a BIG problem that needs to be solved, and it cannot be done alone.
+Move directly to the assigned table. The workbook holder opens to p. 118; the card-set manager keeps the role/crisis set at the center; every student completes individual evidence before discussion.
 
-Group students into teams of 6 (or 4-5 if class is smaller; assign multiple roles to one student if needed). **Step 1: Choose a Role.** Hand out the role cards built from the workbook's six positions (p. 117):
+## Activity 2: Verify, Protect, Coordinate, Communicate (19 min)
 
-- **Hotel Director:** Oversees the hotel and makes the big decisions
-- **Front Desk Agent:** Greets guests and handles check-in and check-out services
-- **Events Planner:** Organizes special events and hotel activities
-- **Head Chef:** Runs the hotel restaurants and prepares the meals
-- **Guest Services Manager:** Organizes staff and ensures all rooms are ready for guests
-- **Senior Concierge:** Helps guests with travel plans, entertainment, and special requests
+**Source:** (FYF pp. 117-118: "Hotel Rescue")
 
-Each student checks their role on the workbook page. Each role brings a different skill set to the team.
+Teams build one response on FYF p. 118 in this order:
 
-!!! tip "Facilitation Tip"
-    Some students will fight over the "Hotel Director" role because it sounds important. Reframe: the Hotel Director can't fix anything alone. The Head Chef is the only one who can solve the kitchen crisis. The Front Desk Agent is the only one who can negotiate with guests at check-in. Every role is essential.
+1. Verify confirmed facts and unanswered questions.
+2. Protect the safety, accessibility, reservation, or client requirement.
+3. Give at least three roles different actions.
+4. Write a factual message that makes no unverified promise.
+5. Assign one role to follow through.
 
----
+Do not solve short staffing by ignoring food-safety rules. Do not move a guest into a room that does not meet an accessibility request. Do not promise another hotel's room, transportation, payment, or refund before verification.
 
-## Activity 2: The 3 Problems + Brainstorm (25 min)
+**Teacher model, Crisis C:** Verify the guest's confirmed request, meeting time, room status, and which suitable rooms are actually available. Protect the accessibility requirement. Guest Services checks the room and timeline; Front Desk gives the verified update; Concierge offers a verified place to prepare or transportation option only after confirmation; the Hotel Director handles any authorized service recovery. The factual message is, “I can confirm your accessible room is still being prepared. I am checking the exact ready time now, and I will update you by ____. Meanwhile, the verified option available is ____.” Guest Services follows through by confirming that the suitable room and promised update actually happen.
 
-**Source:** (FYF p. 117: "Hotel Rescue", Step 2) + (FYF p. 118: "Hotel Rescue", Steps 3-4)
+## Activity 3: Read Another Response (8 min)
 
-**Step 2: Read About the Problems.** Project the 3 problems from the workbook on the screen so all groups can see them:
+Teams exchange responses only when both are ready. Each student reads one different crisis, records one strong move, and names one risk or unanswered question. Use the completed teacher model when a student is absent, a team is unfinished, or time is short. No public post is required.
 
-- **Problem 1:** The hotel is overbooked. There are not enough rooms for all the guests who made reservations. How can you fix this?
-- **Problem 2:** A large business retreat event is planned. The Head Chef planned an elaborate menu, but now some kitchen staff are sick and can't come to work. What do you do?
-- **Problem 3:** A VIP guest is staying at the hotel and has an important meeting to get ready for. He paid extra for early check-in and extra amenities, but the room is not ready. How can you help?
+**Active-monitoring pivot:** At minute 13, every student should have two needed facts, one protected requirement, and one first action. If more than one quarter starts with a promise instead of verification, pause and sort one statement as confirmed, being checked, or not yet promised. At minute 30, teams need three different role actions and a named follow-through worker. If time compresses, replace the peer exchange with the teacher model; preserve the individual role evidence, FYF p. 118 response, transfer, and five-minute collection/reset.
 
-**Step 3: Brainstorm Solutions.** Each team works through ALL 3 problems in the workbook brainstorm boxes (p. 118), which ask how all the roles will work together and what will keep both the guests happy and the hotel running.
+## Individual Transfer Check (7 min)
 
-**Part 1 (5 min):** Each role brainstorms on their OWN, what would your specific staff position contribute to solving each problem? Write 1-2 ideas per problem.
+Students explain how the same response process would help a catering company, restaurant, lodging business, or event-planning company. The response must name what the owner sells or coordinates.
 
-**Part 2 (15 min):** Teams share role-by-role and combine ideas into one team solution per problem. The Hotel Director can facilitate the discussion (it's part of their role).
+**DOK 3:** Which response step becomes harder when one person owns a small business and performs several roles? Explain the risk.
 
-**Time, Voice, Body:** Voice 0 for the individual brainstorm, Voice 2 once teams start combining, and chart paper stays flat on the table until the team is ready to write its final solution.
+**DELIVERABLE:** Individual role evidence, team response map, and individual entrepreneurship transfer.
 
-**Part 3 (5 min), Step 4: Share Your Ideas.** Each team picks ONE problem to present to the class. The team writes their final solution on chart paper or a whiteboard, then assigns one speaker per role (each role says one sentence about how their position helped solve the problem).
+## Collect and Reset (5 min)
 
-**DOK 3:** What conclusions can you draw about why hotels need a Hotel Director AND a Guest Services Manager AND a Front Desk Agent? Why not just one big "Hotel Boss"?
-
----
-
-## Activity 3: Quick Class Share (8 min)
-
-Each team has 60-90 seconds to present their chosen problem and team solution, explaining how they decided on it, how each role helped, and what their biggest challenge was. After all teams present, discuss the workbook's Class Discussion questions (FYF p. 118):
-
-- What did you learn about teamwork during this activity?
-- What two Powerskills do you think are most important for anyone with a career in Hospitality and Tourism?
-- What was easiest and hardest about working with other people in different roles who might have different points of view?
-
-Connect to entrepreneurship: someone who owns a small hotel or B&B has to wear ALL of these hats themselves (or hire people for each). That's the entrepreneurial side of hospitality.
-
----
-
-## Exit Ticket (2 min)
-
-**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/3sw-wk4-day3-hotel-rescue-team-problem-solving.pdf):
-
-My Hotel Rescue role today: _______________________ (Hotel Director / Front Desk Agent / Events Planner / Head Chef / Guest Services Manager / Senior Concierge)
-
-New crisis: A large wedding is scheduled tonight at the hotel but a water leak just shut down the ballroom.
-
-Step 1: What does MY ROLE do FIRST in the next 15 minutes?
-
-   ___________________________________________________________________
-
-Step 2: Branch on resources —
-
-   IF I can move the wedding to another hotel space (lobby, outdoor deck, restaurant), what do I do next? ___________________________________________________________________
-
-   IF NO other hotel space works, what do I do next? ___________________________________________________________________
-
-Step 3: Name ONE entrepreneurial opportunity in Hospitality (small B&B, food truck, event-planning company, wedding venue) that a small-business owner could build to handle BOTH cooking AND venue crises:
-
-   ___________________________________________________________________
-
-*(d(1)(C), d(3)(I))*
-
----
+Students place the team response with the workbook holder, submit or store the individual response, return the three-page card set intact, and reset the table. Do not use this five-minute block for another presentation.
 
 ## Differentiation
 
-- **Support:** Provide a "Solution Starter" sheet for each role with sentence stems: "As the Head Chef, I would solve the kitchen problem by _____." Students fill in the blanks.
-- **Extension:** Add a 4th hotel crisis your team would have to solve (e.g., a power outage during a wedding reception, a flood in the parking garage). What roles handle it?
-- **ELL:** Pre-teach: Hotel = Hotel, Director = Director/a, Guest = Huésped, Chef = Chef, Concierge = Conserje. Color-code role cards so non-English speakers can identify their role visually. Pair with bilingual peers.
+- **Support:** Use the role starters and complete Verify before joining the team. Keep the complete frame beside the transfer response: “This process would help a ____ business because the owner coordinates ____. The owner would first verify ____, then ____.”
+- **Extension:** Add a second constraint, such as severe weather, a multilingual guest, or a vendor delay, without removing the original requirement.
+- **ELL:** Use verify/verificar, guest/huésped, accessible/accesible, promise/promesa, and follow through/dar seguimiento. Acting is optional; written role evidence is equal.

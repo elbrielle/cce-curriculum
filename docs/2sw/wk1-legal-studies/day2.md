@@ -1,5 +1,12 @@
 # Day 2: Emergency Essentials Kit Design
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will apply critical thinking and public-service mindset by designing a 10-item emergency kit for a specific disaster scenario; explain why each item is essential.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Completed Emergency Kit plan with exactly 10 labeled items, reasons for the top 3, one revision, and one firefighter or emergency-management planning connection.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
@@ -8,7 +15,7 @@
 | **Objectives** | Apply critical thinking and public-service mindset by designing a 10-item emergency kit for a specific disaster scenario; explain why each item is essential |
 | **TEKS** | d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explore: Scenario choice, 10-item selection, and kit design · Explain: Partner share and class discussion · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Emergency Kit design (10 items selected, drawn or labeled, with rationale for top 3 items) |
+| **Deliverable** | Completed Emergency Kit plan with exactly 10 labeled items, reasons for the top 3, one revision, and one career-planning connection |
 | **Materials** | *Find Your Future* workbook pp. 50-51, printed Emergency Kit Decision Plan (or blank paper), pencils; approved digital design tool optional |
 
 ---

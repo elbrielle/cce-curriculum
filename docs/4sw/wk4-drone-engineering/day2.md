@@ -1,108 +1,86 @@
-# Day 2: UAS Industry Jigsaw Research
+# Day 2: Compare Drone-Enabled Occupations
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Drone-Enabled Work
+- **Objective:** Students will evaluate three drone-enabled occupations, describe preparation, and classify each as high skill, high wage, or high demand using dated occupation evidence.
+- **TEKS:** d(1)(D), d(2)(A), d(5)(B)
+- **Demonstration of Learning:** Five-question Drone-Enabled Occupations evidence check with source labels, preparation, classification, tradeoff, and verification step.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Each team becomes the expert on one drone industry through research; identify careers, certifications, salary ranges, and growth projections; classify drone careers as high-skill, high-wage, and high-demand |
-| **TEKS** | d(2)(A), d(5)(B), d(1)(D) |
-| **5E Phases** | Engage: Warm-Up · Explain: Jigsaw setup and template walkthrough · Explore: Team research on the assigned industry · Evaluate: Exit Ticket |
-| **Deliverable** | Completed UAS Industry Research Template for the assigned industry (1 per student, but team collaborates) |
-| **Materials** | Chromebooks, BLS pages bookmarked, FAA Drone Zone (faa.gov/uas), DJI Education site (dji.com/education), printed UAS Industry Research Template, projector |
+| **Objectives** | Compare three occupations that may use, interpret, test, or support drone systems; retain correct pay and growth labels; classify each occupation with a published course rule |
+| **TEKS** | d(1)(D), d(2)(A), d(5)(B) |
+| **Deliverable** | Five-question individual evidence check with feedback repair |
+| **Materials** | Two-page dated occupation reference posted or projected; Canvas practice Quiz; oral/paper five-question fallback |
 
 ---
 
-## Warm-Up (5 min)
+## Before Class
 
-**WARM-UP: Pick an industry, farming, construction, movies, package delivery, or emergency rescue. How could a drone help in that industry?**
+1. Post or project the two-page fixed evidence reference. Default printing is none. Do not send students through five industries and unrestricted search.
+2. Open current BLS pages for Surveying and Mapping Technicians, Cartographers and Photogrammetrists, and Aerospace Engineering and Operations Technologists/Technicians.
+3. Post the classroom classification rule and the May 2024 all-occupations median/growth comparison.
+4. Open the unpublished retryable Quiz.
 
-Take 5 student responses, one per industry. This sets up the Jigsaw teams, students who pick the same industry will end up on the same team.
+## Warm-Up: Drone Is a Tool, Not One Salary (5 min)
 
----
+Students respond:
 
-## Activity 1: Jigsaw Setup (5 min)
+> Two workers both use drone images. One gathers site photos; another turns images and LiDAR into maps. Why might their training and pay differ?
 
-Assign each team of 3-4 students one of the 5 drone industries:
+Use responses to establish the lesson boundary: “drone pilot” may be a task, credential, specialty, or job title, but it does not create one reliable wage series.
 
-- **Team Agriculture:** drones for crop monitoring, targeted spraying, livestock tracking
-- **Team Construction:** drones for site surveys, building inspection, progress documentation
-- **Team Film & Media:** drones for cinematography, news coverage, sports broadcasts
-- **Team Delivery:** drones for package logistics (Amazon, UPS, medical supplies)
-- **Team Emergency Services:** drones for search and rescue, disaster response, firefighting
+## Activity 1: Read Three Evidence Cards (12 min)
 
-Each team's job today is to become the expert on their industry. Each team will teach the rest of the class on Day 5.
+Students identify for each occupation:
 
-Distribute the printed UAS Industry Research Template. The template has 6 sections:
+- one core duty;
+- the drone/data connection;
+- typical preparation;
+- May 2024 U.S. national median;
+- 2024-2034 growth; and
+- annual openings.
 
-1. **What does this industry use drones for?** (Specific applications)
-2. **What careers exist in this industry?** (At least 3, pilot, technician, data analyst, fleet manager, etc.)
-3. **What certifications are required?** (FAA Part 107? Specialty add-ons? Industry-specific licenses?)
-4. **What is the typical salary?** (Entry and experienced, use BLS where possible)
-5. **How fast is this field growing?** (BLS growth projection, news headlines about industry expansion)
-6. **High-skill / High-wage / High-demand classification** (Yes/No for each, with one piece of evidence)
+Model the label: “BLS, May 2024 U.S. national median, accessed August 2026.” Do not call the value DFW, starting, entry, or guaranteed pay.
 
----
+## Activity 2: Apply the Published Rule (15 min)
 
-## Activity 2: Team Research (35 min)
+Students use the same rule for all three occupations:
 
-Teams research using the bookmarked sources:
+- high wage when national median exceeds $49,500;
+- high demand when growth exceeds 3%, with annual openings kept visible; and
+- high skill when documented preparation/training and specialized duties meet the course definition.
 
-- **BLS Occupational Outlook Handbook:** search for related occupations (commercial pilots for aerial photography, agricultural workers for ag drones, firefighters for emergency drones)
-- **FAA Drone Zone:** for certification requirements and current rules
-- **DJI Education:** for industry-specific drone product pages that show real applications
-- **General web search:** for news headlines about drone industry growth in their specific field
+They must cite the number or preparation/duty evidence in every Yes/No decision. Explain that “No under this rule” is not an insult and “Yes” is not a promise of employment.
 
-The team works collaboratively but each student fills out their own template. Roles inside the team:
+## Activity 3: Complete and Repair the Evidence Check (13 min)
 
-- **Researcher:** finds source material
-- **Recorder:** captures data on a shared doc
-- **Salary Specialist:** focuses on BLS pay data
-- **Growth Specialist:** focuses on industry growth projections
+Students complete the unpublished five-question Canvas practice Quiz. The questions check the pay label, preparation, high-wage classification, high-demand classification, and a recommendation for fictional Taylor that includes one tradeoff and a current verification step. Students read the feedback and repair any missed label or reasoning. If Canvas is unavailable, the teacher asks or posts the same five prompts; a second packet is not required.
 
-Roles rotate every 10 minutes so every student touches every section.
+## Exit Check (5 min)
 
-!!! tip "Facilitation Tip"
-    Construction is the easiest industry to find data on (many trade publications, lots of drone surveying news). Emergency Services is the hardest (career titles overlap with traditional firefighting). If a team is stuck on Emergency Services, suggest they search "drone search and rescue careers" and look at FEMA or local fire department sites.
+Students state which occupation Taylor should investigate first, one tradeoff, and the next fact Taylor must verify. More than one recommendation may earn full credit when it uses the fixed evidence.
 
-**Active Monitoring:** walk the room twice while teams research. Lap 1 target is section 3, every team has found what certification their industry requires beyond Part 107. Lap 2 target is section 6, every team has reached the High-skill / High-wage / High-demand classification before the period ends. This is the d(5)(B) anchor. Have the feedback ready for the two predictable stalls: a team quoting a national salary with no source, and a team calling a field high-demand from a single news headline. If more than one team is stuck on the same section, pause the room and model that section on the projector instead of fixing it team by team.
+*(d(1)(D), d(2)(A), d(5)(B))*
 
-**DOK 4:** Based on your research, what argument would you make for classifying your industry's drone careers as high-skill, high-wage, AND high-demand? Use specific salary numbers, education requirements, and growth projections to support your argument.
+## Teacher Key
 
----
+- Surveying/mapping technician: HS typical; moderate-term OJT; $51,940; 5%; 7,600 openings. Under the published rule: high wage, high demand, and high skill when the student cites specialized duties plus moderate-term training.
+- Cartographer/photogrammetrist: bachelor's; $78,380; 6%; 1,000 openings. Under the rule: high skill, high wage, high demand.
+- Aerospace engineering/operations technologist or technician: associate typical; $79,830; 8%; 900 openings. Under the rule: high skill, high wage, high demand.
+- Annual openings prevent the false conclusion that the fastest growth rate always creates the most openings.
+- **Lap 1, minute 14:** sample five screens or responses. If two students detach a number from its year/geography/measure, pause and relabel one value together.
+- **Lap 2, minute 30:** require a number or preparation/duty fact beside each classification. If fewer than four of five sampled students cite evidence, model one Yes and one No before the Quiz.
+- **Safe trim:** skip whole-group reporting and send students directly to Q5. The Q5 recommendation and feedback repair are the exit check; do not require a second copy of the same answer.
+- **Collection:** Canvas Quiz feedback is the response home. With no Canvas, use the five projected prompts and collect one half-sheet or record a private oral check; do not print another packet.
 
-## Exit Ticket (5 min)
+## Supports and Equal Routes
 
-**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/4sw-wk4-day2-uas-industry-jigsaw-research.pdf):
-
-Rank the 5 drone industries (Agriculture / Construction / Film & Media / Delivery / Emergency Services) from MOST interesting to me (1) to LEAST (5).
-
-- Rank 1: _______________________
-
-- Rank 2: _______________________
-
-- Rank 3: _______________________
-
-- Rank 4: _______________________
-
-- Rank 5: _______________________
-
-For my RANK 1 industry, fill in:
-
-- Drone career in this industry with the HIGHEST salary I found: _______________________
-
-- Training it requires (FAA Part 107 + other certs): _______________________
-
-- Check: HIGH-SKILL? _____ / HIGH-WAGE? _____ / HIGH-DEMAND? _____
-
-Bottom line: In one sentence, which of the THREE classifications is the BIGGEST reason my Rank 1 career interests me? *(d(2)(A), d(5)(B))*
-
-   ___________________________________________________________________
-
----
-
-## Differentiation
-
-- **Support:** Pre-selected research links for each industry (a curated list of 3-4 sources per industry) so students don't get lost in web searches. Pre-fill the FAA Part 107 row of the template since it applies to almost every industry.
-- **Extension:** Compare two drone industries side by side, which has higher pay, which has faster growth, which is more accessible for someone without a college degree?
-- **ELL:** Bilingual research template with Spanish row labels. Pre-teach: Industry = Industria, Application = Aplicación, Certification = Certificación, Salary = Salario, Growth = Crecimiento, High-demand = Alta demanda.
+- Use one occupation card at a time with icons and a consistent row order.
+- Students may type, write, use speech-to-text, or answer privately by media.
+- The fixed guide replaces open search, H&L, and partner dependency.
+- An absent student uses the same posted reference and evidence check with no live platform beyond Canvas.

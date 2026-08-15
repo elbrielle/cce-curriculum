@@ -1,114 +1,78 @@
-# Day 5: Xello Career Factors + eDynamic 4.2 + H&L Favorites
+# Day 5: Cosmetology Career and Business Recommendation
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will use career, license, program, entrepreneurship, and design evidence to make an individual recommendation.
+- **TEKS:** d(1)(C), d(2)(A), d(3)(G), d(3)(I)
+- **Demonstration of Learning:** Cosmetology Career and Business Recommendation with rubric self-check.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the Xello Exploring Career Factors lesson; make progress on eDynamic Unit 4.2 Part 1; favorite Personal Care careers in H&L; reflect on the Human Services cluster |
-| **TEKS** | d(1)(A), d(1)(C) |
-| **5E Phases** | Engage: Warm-Up · Explore: Xello Career Factors and eDynamic 4.2 · Extend: Human Services favorites and week reflection · Evaluate: Exit Ticket |
-| **Deliverable** | Xello completion screenshot + favorited careers in H&L (screenshot) + 3-sentence cluster reflection |
-| **Materials** | Chromebooks, Xello accounts, eDynamic Learning accounts, H&L accounts, *Find Your Future* workbook p. 138, projector |
+| **Objectives** | Use career, license, program, entrepreneurship, and design evidence to make an individual recommendation |
+| **TEKS** | d(1)(C), d(2)(A), d(3)(G), d(3)(I) |
+| **Deliverable** | Cosmetology Career and Business Recommendation with rubric self-check |
+| **Materials** | Recommendation, 16-point rubric, Texas evidence guide, Week 5 artifacts |
 
----
+## Before Class
+
+- Print one double-sided recommendation per paper-route student. Post the rubric and evidence guide digitally; print one set per student only for a no-device route.
+- Open the private unpublished Canvas Assignment and provide one device per Canvas-route student.
+- Confirm the existing unpublished Assignment remains 100 points in Minor Assessments (40%); do not create or downgrade a duplicate.
+- Xello Exploring Career Factors, eDynamic 4.2, and H&L favorites are optional extensions only. Do not require three separate logins, completion screenshots, or favorite counts.
 
 ## Warm-Up (5 min)
 
-**WARM-UP: When you imagine your future job, what 3 things matter MOST to you, pay, hours, location, helping people, creativity, or something else? Name your top 3 in order.**
+**WARM-UP:** For Jordan, rank these decision factors: creative work, client contact, training and license, business ownership, and work schedule. Which factor belongs first, and why?
 
-Take 4-5 student responses and group similar answers on the board. Students will use the Xello lesson to name these as career factors and decide which ones carry the most weight for them.
+## Activity 1: Audit the Evidence (8 min)
 
----
+Students reopen the Texas evidence guide and one artifact from the week. They check that:
 
-## Activity 1: Xello Exploring Career Factors Lesson (20 min)
+- the career task is accurate;
+- the Texas requirement remains labeled;
+- the district connection is current and not a guarantee;
+- the business idea includes an owner responsibility; and
+- one trade-off is visible.
 
-**Source:** Xello supplemental lesson, "Exploring Career Factors." This lesson is not a Bowie Grade 8 completion standard.
+## Activity 2: Plan the Recommendation (8 min)
 
-Open Xello on the projector. Walk students through finding the lesson:
+Students complete five planning fields:
 
-1. From the Xello dashboard, click **Lessons**
-2. Find **"Exploring Career Factors"** in the 7th-grade lesson list
-3. Click **Start** or **Continue**
+1. career and task;
+2. Texas preparation or license fact;
+3. verified next step;
+4. entrepreneurship opportunity and responsibility; and
+5. trade-off.
 
-Students complete the lesson on their own Chromebooks. The lesson typically includes:
+## Activity 3: Write and Connect (22 min)
 
-- A list of common career factors (income, work-life balance, location, growth potential, helping others, creativity, independence)
-- Scenarios where students rank or weight different factors
-- A reflection on which factors matter most to them personally
+Students write 6-8 sentences recommending a Human Services career for Jordan. They then select one SFX, pathway, salon, or wellness design decision and explain how it demonstrates a skill used in the career.
 
-After the lesson, students write 2 sentences in their notebook:
+Point-of-use frames: “I recommend ___ because ___. Texas requires ___. A verified next step is ___. One opportunity is ___, and the owner must ___. One trade-off is ___. My ___ design shows ___ because ___.”
 
-- **Sentence 1:** "My top 3 career factors are _____, _____, and _____."
-- **Sentence 2:** "A career that fits these factors is _____."
+The student packet provides ten full-width lines for the recommendation and a separate evidence section. A typed, speech-to-text, or approved audio response must address the same evidence jobs.
 
-!!! tip "Facilitation Tip"
-    Connect the Xello lesson back to this week's cosmetology focus. A cosmetologist who values "creativity" and "independence" might thrive as a salon owner. A cosmetologist who values "stable pay" and "no risk" might thrive as a salon employee. Same career, different fit factors.
+## Activity 4: Self-Score and Submit (7 min)
 
----
+Students use the student-visible 16-point rubric, revise one weak criterion, and submit privately in Canvas or turn in the paper copy.
 
-## Activity 2: eDynamic Unit 4.2 Part 1 (15 min)
+**DELIVERABLE:** Individual recommendation and design-to-career connection.
 
-**Source:** eDynamic Learning. Unit 4.2 Part 1: Experimenting with Careers (Human Services focus)
+**Safe trim:** Skip warm-up sharing. Protect the rubric self-check, revision, private submission, and reset.
 
-Direct students to log into eDynamic and navigate to **Unit 4.2 Part 1: Experimenting with Careers**. This unit reinforces the Human Services cluster content from this week.
+## Scoring Notes
 
-> [VERIFY IN eDynamic] Confirm with your district that Unit 4.2 Part 1 is enabled and accessible to 7th-grade students. Verify the unit covers Human Services / cosmetology content as expected.
+- Any appropriate Human Services career can earn full credit when the task, preparation, next step, business reasoning, and design connection are accurate.
+- Recommended bands after local approval: 15-16 Masters, 13-14 Meets, 12 Approaches, 10-11 Needs Improvement; 0-9 follows campus policy.
+- Score content and reasoning. Do not score tool choice, fabrication quality, handwriting, accent, or English mechanics unless meaning is unclear.
 
-Students work through Unit 4.2 Part 1 for 15 minutes. Record the last completed section so unfinished students know where to resume.
+## Support and Absence Route
 
----
-
-## Activity 3: H&L Favorites + Cluster Reflection (8 min)
-
-**Source:** (FYF p. 138: "App Exploration")
-
-> [H&L PLATFORM] Direct students to the Hat Finder in the H&L app, filter by Human Services, and click the heart or favorite icon on 2-3 personal care or health and wellness careers from this week. The favorited Hats appear in their Climber Profile under "Favorites" and accumulate across all 36 weeks of the course. Students who did not finish the App Exploration page on Day 1 close out the remaining steps here: rate at least 1 pathway under Pathway Possibilities and rate at least 3 Hats.
-
-Students take a screenshot of their Climber Profile favorites screen and save it to Google Drive.
-
-Then they write a 3-sentence reflection on the Human Services week:
-
-- **Sentence 1:** "The most interesting Human Services career I learned about this week is _____."
-- **Sentence 2:** "If I were to pursue cosmetology in Texas, my biggest goal would be _____."
-- **Sentence 3:** "The activity that helped me understand the entrepreneurship side of cosmetology was _____."
-
-**DOK 3:** Looking back at the week's activities (Special Effects Makeup, TDLR licensing research, Salon Concept, Stress Toolkit), which TWO had the strongest connection to the daily life of a real cosmetologist? Defend your answer.
-
----
-
-## Exit Ticket (2 min)
-
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/3sw-wk5-day5-xello-career-factors-edynamic-4-2-h-and-l-favorites.pdf):
-
-A Human Services career I favorited in H&L this week: _______________________
-
-Connect this career to THREE things:
-
-**1. Your TOP career factor from today's Xello lesson** (example: creativity, stable pay, flexible hours, helping others)
-
-   My top factor: _______________________. Why does this career match (or not match) my top factor? One sentence:
-
-   ___________________________________________________________________
-
-**2. A CLASSMATE's top factor** (different from yours; trade with a peer in the last minute)
-
-   My classmate's factor: _______________________. Does this career still fit if that factor matters MOST? One sentence why or why not:
-
-   ___________________________________________________________________
-
-**3. One fact from this week** (TDLR hours, a salon business skill, a stress management technique, an SFX texture that worked)
-
-   My fact: _______________________. Why does this fact matter for someone going into this career? One sentence:
-
-   ___________________________________________________________________
-
-*(d(1)(A), d(1)(C))*
-
----
-
-## Differentiation
-
-- **Support:** Sentence stems for the 3-sentence reflection. Pre-fill: "The most interesting career I learned about is _____ because it combines _____ and _____."
-- **Extension:** Connect your favorite Human Services career to the Ratteree Cosmetology pathway. What courses would prepare you best?
-- **ELL:** Pre-teach: Factor = Factor, Income = Ingreso, Reflection = Reflexión. Xello and eDynamic both support Spanish, show language toggles if needed.
+- Use the numbered planning fields and sentence jobs.
+- Allow oral rehearsal, speech-to-text, or a private audio response with transcript or teacher note.
+- An absent student can complete the assignment with the fixed guide and any one design artifact. No partner or platform screenshot is required.
+- Required directions remain visible in Canvas. Optional vocabulary and models may use disclosure sections.

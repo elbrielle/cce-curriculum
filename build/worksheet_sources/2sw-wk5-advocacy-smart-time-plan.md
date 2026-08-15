@@ -10,25 +10,39 @@ pages: 2
 orientation: portrait
 ---
 
-## Start with the need
+## Practice the four-move response
+
+Use one fictional scenario selected by the teacher. You may answer as the fictional person and keep your response private.
+
+**Notice — what happened or is unclear:** _____________________________________________________
+
+**Need — support, clarification, space, or route:** ___________________________________________
+
+**Reason — a task, access, or safety reason you can share:** __________________________________
+
+**Next step — one safe action or trusted adult who can help:** _________________________________
+
+> **Self-advocacy is not self-rescue.** If a situation feels unsafe, threatening, harassing, or medically urgent, stop and get a trusted adult right away. You never have to share private health, family, disability, or discipline details for this activity.
+
+## Use the frame with the FYF need
 
 Use the fictional mobile farmers' market scenario on FYF pp. 134-135.
 
-Who or what needs support? _________________________________________________________________
+One voice or detail that should shape the plan: ______________________________________________
 
-One voice or detail that should shape the plan: _____________________________________________
-
-One respectful action a nutritionist could propose: _________________________________________
+Notice, Need, Reason, Next step: _____________________________________________________________
 
 ## Build one SMART career-exploration goal
 
-| Part | My plan |
-|---|---|
-| Specific: What will I do? | |
-| Measurable: What count or evidence will show progress? | |
-| Achievable: Why does it fit my time and access? | |
-| Relevant: How does it help my next decision? | |
-| Time-bound: What real course checkpoint or date will I use? | |
+**Specific — action I will take:** ____________________________________________________________
+
+**Measurable — count or evidence:** __________________________________________________________
+
+**Achievable — why it fits my time and access:** ______________________________________________
+
+**Relevant — how it helps my next decision:** _________________________________________________
+
+**Time-bound — real course checkpoint or date:** ______________________________________________
 
 Final goal: _______________________________________________________________________________
 
@@ -47,6 +61,8 @@ Likely obstacle: _______________________________________________________________
 
 Backup strategy: “If ______________________________, then I will _____________________________.”
 
+Complete frame: “By [deadline], I will [action]. Evidence: [evidence]. Work time: [time]. If [obstacle], I will [backup].”
+
 ## Private self-check or optional peer feedback
 
 - [ ] The goal names one action and one measure.
@@ -54,11 +70,11 @@ Backup strategy: “If ______________________________, then I will _____________
 - [ ] The plan includes protected time.
 - [ ] The backup strategy is under my control.
 
-Notice: ___________________________________________________________________________________
+One move that is clear: ____________________________________________________________________
 
-Question: _________________________________________________________________________________
+One move to strengthen: ____________________________________________________________________
 
-Next step: ________________________________________________________________________________
+Revision I made: __________________________________________________________________________
 
 ## Transfer check
 
@@ -67,5 +83,7 @@ Career 1 that uses advocacy: _____________________  Action: ____________________
 Career 2 that uses advocacy: _____________________  Action: _________________________________
 
 ## Language support
+
+advocate = abogar por ti o por otra persona · need = necesidad · reason = razón · next step = próximo paso
 
 goal = meta · deadline = fecha límite · obstacle = obstáculo · backup = alternativa

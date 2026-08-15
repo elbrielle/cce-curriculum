@@ -1,5 +1,7 @@
 # Six-Weeks Grading Framework
 
+The coursewide placement of the three Minor and two Major assessments in each block is maintained in the [Six-Weeks Assessment Map](six-weeks-assessment-map.md). Weekly products not listed there remain formative or recovery evidence even when they have a complete rubric.
+
 Use this framework when setting up the CCE gradebook. The module-level assessment map will identify the exact assignments used in each six-weeks block.
 
 ## Required grade mix
@@ -58,4 +60,4 @@ Before the six weeks begins, confirm:
 5. Absent students have a completion route that measures the same learning.
 6. The final grade mix calculates to 40% minor and 60% major.
 
-The current curriculum still needs a block-by-block assessment map. Until that map ships, use the weekly Formative Assessment and Summative Assessment sections to select the strongest evidence without exceeding the required minimum simply to create more grades.
+The approved block-by-block placements are maintained in the [Six-Weeks Assessment Map](six-weeks-assessment-map.md). Do not substitute a polished weekly product for one of those entries without an intentional assessment-map revision; the map protects the 3-Minor/2-Major limit and prevents practice work from silently becoming extra grades.

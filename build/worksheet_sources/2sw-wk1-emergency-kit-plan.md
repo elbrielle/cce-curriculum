@@ -41,7 +41,7 @@ The most urgent problem people face in this scenario is
 
 Draw or arrange the 10 items. Label every item so another person can understand the kit quickly.
 
-[[box: 4.2]]
+[[box: 3.5]]
 
 ## 4. Defend the Top Three
 
@@ -59,4 +59,10 @@ ____________________________________________________________________________
 
 One item I would change after feedback is ____________________ because
 
-[[lines: 2]]
+[[lines: 1]]
+
+## 5. Career Connection
+
+Firefighters and emergency-management workers plan before an emergency begins. One planning task this activity models is
+
+[[lines: 1]]

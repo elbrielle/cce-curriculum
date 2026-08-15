@@ -1,4 +1,6 @@
-# Day-1 Readiness Backlog — synthesized from the 2026-08-05 teachability audit
+# Day-1 Readiness Backlog — 2026-08-05 baseline audit
+
+> **Historical baseline, not current completion status.** This file preserves the original evidence and workstream decomposition that drove the structure revision. Since this audit, the course gained 250 verified worksheet/rubric/reference PDFs, a locked three-minor/two-major map for every six weeks, an authenticated Xello sequence, paired Canvas build packages for all 36 weeks, and live unpublished Canvas content through 4SW Wk1. Use `docs/resources/resources-status.md`, `docs/resources/six-weeks-assessment-map.md`, and `cce-curriculum/notes/canvas-build-log.md` for current state. Do not reopen a missing-artifact claim here without checking those sources and the current filesystem first.
 
 **The question this answers:** can a brand-new teacher open the live site Monday morning — with the site, a class set of the "Find Your Future" workbook, the printed exit tickets, and standard classroom stock — and teach the day? Five parallel auditors swept all 36 weeks (145 teaching days), the workbook's own teacher-provisioning assumptions, the site's onboarding surface, and the year-level assessment infrastructure.
 
@@ -10,7 +12,7 @@
 
 ## 1. The verdict map
 
-Zero of 36 weeks are turnkey today. 18 weeks are RUNNABLE-WITH-PRINTING — meaning every gap is an artifact that must be **authored** (not just photocopied) but the content is fully specified in the prose. 18 weeks have at least one BLOCKED day:
+At the time of the August 5 audit, zero of 36 weeks were turnkey. Eighteen were RUNNABLE-WITH-PRINTING and eighteen had at least one blocked day. The table below records that original baseline; it is not the August 8 Canvas-production verdict.
 
 | Block | Blocked | Why (dominant cause) |
 |---|---|---|

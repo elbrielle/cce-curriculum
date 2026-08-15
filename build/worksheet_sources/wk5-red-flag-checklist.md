@@ -22,15 +22,17 @@ You are the cybersecurity analyst. Check a flag each time you spot it. A message
 
 ## Mark Each Email
 
+In the flag columns, write **Y** when you see the flag and **—** when you do not. For the decision, write **Safe-looking** or **Spoofed**. Safe-looking means the image has no obvious warning sign; it still needs independent verification when the request matters.
+
 | Email | Sender | Urgency | Private info | Link/file | Writing | Decision |
 |---|---|---|---|---|---|---|
-| 1 | | | | | | Safe / Spoofed |
-| 2 | | | | | | Safe / Spoofed |
-| 3 | | | | | | Safe / Spoofed |
-| 4 | | | | | | Safe / Spoofed |
-| 5 | | | | | | Safe / Spoofed |
-| 6 | | | | | | Safe / Spoofed |
-| 7 | | | | | | Safe / Spoofed |
+| 1 | | | | | | Safe-looking / Spoofed |
+| 2 | | | | | | Safe-looking / Spoofed |
+| 3 | | | | | | Safe-looking / Spoofed |
+| 4 | | | | | | Safe-looking / Spoofed |
+| 5 | | | | | | Safe-looking / Spoofed |
+| 6 | | | | | | Safe-looking / Spoofed |
+| 7 | | | | | | Safe-looking / Spoofed |
 
 ## Explain the Hardest Call
 
@@ -53,5 +55,11 @@ If your teacher asks you to draft a practice message:
 My practice message uses these two red flags: ____________________ and ____________________.
 
 What should a person do instead of clicking or replying?
+
+[[lines: 3]]
+
+## Integrity Check
+
+Why would it be dishonest or harmful to send this practice message to a real person?
 
 [[lines: 3]]

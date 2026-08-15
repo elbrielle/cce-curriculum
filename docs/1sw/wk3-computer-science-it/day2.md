@@ -1,15 +1,22 @@
 # Day 2: Website Revamp — Audit a Real Site
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** User Experience
+- **Objective:** Students will identify UX design as an Information Technology career opportunity by analyzing how a website supports or blocks a user's goal and proposing evidence-based improvements.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Completed UX audit with three strengths, five observable problems, three fixes with user benefits, and one redesigned page sketch; the Rosa mini-case names two UX problems and justifies the highest-impact fix.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Explain what good and bad User Experience look like; audit a real website as a UX Designer; name 3 things that work and 5 problems; write a fix and a user benefit for 3 of the problems |
+| **Objectives** | Analyze good and bad user experience; audit a practice website as a UX designer; name three strengths and five observable problems; write a fix and user benefit for three problems |
 | **TEKS** | d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explain: Learn About UX · Explore: Website audit, fixes, and redesign sketch · Evaluate: Exit Ticket |
 | **Deliverable** | Completed UX audit (3 strengths, 5 problems, 3 fixes with user benefits) + redesign sketch of one page (FYF pp. 28-29) |
-| **Materials** | *Find Your Future* workbook pp. 28-29, the practice site named on the teacher's Climber Notes deck (Climber Notes: "Website Revamp", slide 2), Chromebooks, projector, sticky notes (about 4 per student), plain paper (1 sheet per student), printed Website Audit Scaffold for the support group ([Printable PDF](../../resources/worksheets/wk3-ux-audit-scaffold.pdf)) |
+| **Materials** | *Find Your Future* workbook pp. 28-29, Paws and Claws practice site named on Climber Notes "Website Revamp" slide 2, embedded Climber Notes URL slide, teacher-captured fallback site images, Chromebooks, projector, sticky notes (about 4 per student), plain paper (1 sheet per student), optional Website Audit Scaffold ([Printable PDF](../../resources/worksheets/wk3-ux-audit-scaffold.pdf)), Day 2 exit ticket |
 
 ---
 
@@ -21,7 +28,7 @@ Quick share. Sort responses on the board: easy to find, fast loading, and works 
 
 ---
 
-## Activity 1: Step 1 — Learn About UX (15 min)
+## Activity 1: Step 1 — Learn About UX (12 min)
 
 **Source:** (FYF p. 28: "Website Revamp", Step 1: Learn About UX)
 
@@ -31,40 +38,40 @@ Then read the scenario: students are a UX Designer, and a company has asked for 
 
 Walk the two lists in Step 1 side by side. Good UX: easy navigation with clearly labeled menus, clear buttons and links that tell you what happens when you click, fast and simple paths that finish a task in a few steps. Bad UX: confusing navigation with hidden links and no way back home, cluttered design with too much text and pop-ups, unclear instructions on buttons and search bars, and broken or slow features.
 
-After reading, ask 3-4 students to name ONE good-UX rule and ONE bad-UX problem. Then show 2 example websites on the projector: one well-designed (Apple, Wikipedia, Khan Academy) and one cluttered (a busy news site). Have students apply the workbook's four rows to critique each.
+After reading, ask three or four students to name one good-UX rule and one bad-UX problem. Model one chain using the practice-site image: **observable problem -> specific fix -> user benefit**. Keep the example about a task the user is trying to complete, not personal taste about colors or style. This removes the need for a teacher to find unrelated websites before class.
 
 !!! tip "Facilitation Tip"
     Show one school-appropriate broken or cluttered site before the workbook example. Ask students to name the problem using the four UX rows; keep their terms on the board for the audit.
 
 ---
 
-## Activity 2: Steps 2-5 — Investigate, Audit, and Fix (25 min)
+## Activity 2: Steps 2-5 — Investigate, Audit, and Fix (27 min)
 
 **Source:** (FYF pp. 28-29: "Website Revamp", Steps 2-5)
 
-!!! warning "Before Monday: Open the Practice Site Yourself"
-    Load [pawsandclaws.hatsandladders.com](https://pawsandclaws.hatsandladders.com) on a student Chromebook, through the district filter, and click all the way to a checkout. The whole 25 minute audit rests on that site loading. Note two or three problems you find so you have a model ready if the room stalls on the 5-problems list.
+!!! warning "Before Class: One Short Platform Check"
+    Load [pawsandclaws.hatsandladders.com](https://pawsandclaws.hatsandladders.com) on one student Chromebook through the district filter. The Canvas student guide also carries teacher-captured fallback images, so a site outage does not cancel the activity.
 
-!!! tip "Site Blocked or Down? Audit a Public Site Instead"
-    If Paws and Claws will not load, run the same five workbook steps against one of the cluttered public sites you already planned to project in Activity 1. Pick one busy news or shopping homepage, put the URL on the board, and have the whole class audit that single site together. Steps 3 through 5 and the deliverable are unchanged, and the exit ticket does not depend on the practice site at all.
+!!! tip "Site Blocked or Down? Use the Captured Site Route"
+    Use the locked Canvas fallback images of the same H&L practice site. Students inspect the visible menus, labels, layout, and paths and complete the same strengths, problems, fixes, user benefits, and redesign. Do not send the teacher searching for a replacement public site during class.
 
-**Step 2: Investigate a Website (5 min).** Project the practice site named on the Climber Notes deck (Climber Notes: "Website Revamp", slide 2) and put it on student Chromebooks. The site is **Paws and Claws** at [pawsandclaws.hatsandladders.com](https://pawsandclaws.hatsandladders.com), an H&L-hosted practice website that is the same for every campus, so the day runs whether or not you have the deck. Students click through it as a first-time customer trying to buy something.
+**Step 2: Investigate a Website (5 min).** Project the practice site named on Climber Notes "Website Revamp" slide 2 and put it on student Chromebooks. The site is **Paws and Claws** at [pawsandclaws.hatsandladders.com](https://pawsandclaws.hatsandladders.com). Students click through it as first-time customers trying to complete a purchase. If the site is unavailable, switch immediately to the locked fallback images.
 
 **Stop and Jot:** 90 seconds of sticky notes before any list-making, one thought per note, with two stems on the board: "The first thing I tried to do was _____" and "I got stuck when _____." This is the workbook's own Step 2 task.
 
-**Step 3: Be a UX Detective (8 min).** Students fill in the two workbook lists on page 29: at least 3 things that work well (easy or helpful) and at least 5 problems they noticed.
+**Step 3: Be a UX Detective (9 min).** Students fill in the two workbook lists on page 29: at least three things that work well and at least five observable problems.
 
-**Step 4: Fix the Problem (8 min).** Students choose 3 of their 5 problems and complete the workbook's three-column table: the Problem, Your Fix, and How Your Fix Will Help Users. The third column is the one students skip, and it is the one that separates a UX Designer from a complainer.
+**Step 4: Fix the Problem (9 min).** Students choose three of their five problems and complete the workbook's three-column table: Problem, Your Fix, and How Your Fix Will Help Users. The third column distinguishes a supported design decision from a complaint.
 
-**Step 5: Sketch a Better Design (4 min).** On a separate sheet of paper, students sketch one page of a better version of the site.
+**Step 5: Sketch a Better Design (4 min).** On a separate sheet of paper, students sketch one improved page and label the change connected to one of their three fixes.
 
 **Active Monitoring:** Walk one lap at minute 12 targeting the 5-problems list (every student has five, not two) and a second lap at minute 20 targeting the How Your Fix Will Help Users column. If a lap turns up mostly blank third columns, pause the room and model one fix out loud using a problem from a student's own list.
 
-**DOK 3:** What conclusions can you draw about why the "how will this help users" column is harder to write than the problem column? What does writing it force you to know about the person using the site?
+**Evidence question:** Why is "this helps users because..." stronger evidence than saying a page looks better? Use one fix from your audit.
 
 ---
 
-## Exit Ticket (5 min)
+## Exit Ticket (6 min)
 
 **EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/1sw-wk3-day2-website-revamp-audit-a-real-site.pdf):
 

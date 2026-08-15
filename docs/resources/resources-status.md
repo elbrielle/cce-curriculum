@@ -2,7 +2,7 @@
 
 **What this page is:** a living checklist of teacher-facing resources that are **ready to use**, **partially built**, or **still to be created** for the CCE Curriculum. This is the page to check when you want to know "what's missing before I can teach this week" or "what should I expect my teammates to build next."
 
-**Last updated:** 2026-08-06. **All 36 weeks are realigned to the official *Find Your Future* workbook.** The 1SW printable set is complete. The district grading structure, VILS hardware baseline, approved generative tools, Canvas destination, multilingual-support policy, and authenticated 24-task Grade 8 Xello completion spine are now documented. Rewriting the S&S and daily guides to match that Xello sequence, plus the 2SW-6SW material packs, remains active work.
+**Last updated:** 2026-08-09. **All 36 weeks are realigned to the official *Find Your Future* workbook, have paired Canvas production packages, and have printable evidence sets.** Canvas is the official delivery environment; this site is source-control backup only. The complete live course is now staged in Canvas and remains unpublished for review. Coursewide verification passes all 36 instructional modules, 360 paired pages, 118 interactions, 552 referenced files, and the full 18-minor/12-major assessment map with attached rubrics.
 
 ---
 
@@ -15,7 +15,7 @@
 
 ---
 
-## Built & Ready (the current live site)
+## Built & Ready (the current production set)
 
 | Resource | Status | Where |
 |----------|--------|-------|
@@ -28,7 +28,7 @@
 | Differentiation (Support / Extension / ELL + Spanish vocab) on every day | ✅ | Every daily plan |
 | Facilitation Tip blocks (222 across the curriculum) | ✅ | Throughout daily plans |
 | Printable exit-ticket PDFs (178, one per daily exit ticket, Irving ISD branded) | ✅ | `docs/resources/exit-tickets/`, linked from every day page |
-| Printable worksheets, rubrics, and scaffolds for ALL of 1SW (50 PDFs: the CCE career research worksheet family, My Career Journey, Lab Safety Contract EN/ES, scenario and step-sort cards, five weekly summative rubrics, the 1SW capstone portfolio rubric, and bilingual variants) | ✅ | `docs/resources/worksheets/`, linked from every 1SW week's pages |
+| Printable worksheets, rubrics, references, and scaffolds for all 36 weeks (250 PDFs; strict source validation currently reports zero warnings) | ✅ | `docs/resources/worksheets/`; paired Canvas packages link or attach the aligned set |
 | 1SW Common Formative Assessment (stimulus, 4 parts, 4-level rubric) | ✅ | [1SW CFA](../1sw/cfa.md) |
 | Six-weeks grading framework (40% minor, 60% major; minimum 3 minor and 2 major grades) | ✅ | [Six-Weeks Grading Framework](grading-framework.md) |
 | Authenticated Grade 8 Xello task list, prerequisite order, and teacher setup path | ✅ | [Xello Grade 8 Implementation Guide](xello-grade-8-implementation.md) |
@@ -46,7 +46,7 @@ Operating manual: `cce-curriculum/notes/exit-ticket-pdf-pipeline.md`. Do not han
 
 ### Worksheet PDF pipeline (new 2026-08-05)
 
-Classroom printables (worksheets, rubrics, contracts, and scaffolds) have their own generator. Sources are markdown files in `build/worksheet_sources/`; output lands in `docs/resources/worksheets/` with the same Irving ISD branding as the exit tickets. The current set has 50 sheets and covers all of 1SW. Later blocks are queued in the Day-1 readiness backlog (`cce-curriculum/notes/day1-readiness-backlog.md`).
+Classroom printables (worksheets, rubrics, contracts, references, and scaffolds) have their own generator. Sources are markdown files in `build/worksheet_sources/`; output lands in `docs/resources/worksheets/` with the same Irving ISD branding as the exit tickets. The current verified set has 250 PDFs and covers all 36 weeks. Response-space QA sizes fields from the writing or drawing job instead of forcing sentence reasoning into narrow table cells.
 
 ```bash
 python3 build/build_worksheets.py            # regenerate every worksheet PDF
@@ -76,11 +76,11 @@ Realigning 2SW and 3SW to *Find Your Future* introduced three supply requirement
 | **2SW Wk2 Days 3-4** (Law Enforcement / EMT) | **Per-pair first-aid supplies**: one triangular bandage or equivalent cloth for the sling, tape, and a popsicle stick or similar rigid splint for the finger | Students take turns as responder and injured hiker and physically apply a sling and a splint. Budget one set per pair, not one per class |
 | **3SW Wk5 Days 1-3** (Cosmetology) | **Special effects makeup supplies**: tissue or cotton for texture, liquid latex or a school-safe adhesive alternative, cream or water-based color, tweezers, and a skin-safe base surface | Special Effects Makeup is the only FYF activity the workbook itself splits across three days, and Day 2 is a hands-on build. Check student allergies before ordering; the latex substitute is the usual accommodation |
 
-Two Climber Notes decks are also now load-bearing in Health Science: **Vitals in Motion** (2SW Wk3, the tool reference and the fever, blood pressure, and pulse oximeter charts) and **Smile Squad** (2SW Wk4, Mia's five X-rays). Both decks are on hand as teacher-held files (the repo tracks text extracts only; the `.pptx` binaries are gitignored, so they are NOT retrievable from the repo or the site — teacher hosting is an open item in `cce-curriculum/notes/day1-readiness-backlog.md`).
+Two Climber Notes decks are also load-bearing in Health Science: **Vitals in Motion** (2SW Wk3, the tool reference and the fever, blood pressure, and pulse oximeter charts) and **Smile Squad** (2SW Wk4, Mia's five X-rays). Their selected instructional visuals are embedded in the locked, unpublished Canvas modules with teacher guidance and accessible student routes. The source `.pptx` binaries remain gitignored and are not exposed on this public site.
 
 ### New hard dependencies from the Phase C realignment (2026-08-05)
 
-Realigning 4SW, 5SW, and 6SW added four more deck dependencies and one scheduling load. Every deck named here is on hand as a teacher-held file (the repo tracks text extracts at `cce-curriculum/resources/climber-notes/`, but the `.pptx` binaries are gitignored and cannot be retrieved from the repo or the site); the point is that these days have no content without them. Teacher hosting is an open item in the Day-1 readiness backlog.
+Realigning 4SW, 5SW, and 6SW added four more deck dependencies and one scheduling load. Every deck named here has a gitignored Canvas-only delivery set and a paired module package; the complete asset set is staged in locked, unpublished Canvas folders. Source `.pptx` binaries cannot be retrieved from the repo or a public site.
 
 | Week | What it needs | Why |
 |---|---|---|
@@ -96,11 +96,11 @@ Realigning 4SW, 5SW, and 6SW added four more deck dependencies and one schedulin
 
 ## Still Needed (the teacher implementation backlog)
 
-The daily plans describe WHAT students do and give the facilitation approach, but they intentionally do **not** include the student-facing artifacts that teachers would photocopy, project, or print. Those are the items below. A week is not fully "turnkey" for a new teacher until its checklist here is green.
+The paired Canvas packages and printable evidence sets now cover the core instructional route, and the unpublished transfer has passed coursewide API and signed-in teacher review. The remaining backlog is the deliberate publication sequence, student-navigation cleanup, district-specific provisioning, materials/equipment readiness, and classroom-feedback refinements. A week is not fully "turnkey" until its Canvas package, files, interactions, and fallbacks pass teacher and Student View review.
 
 ### 🟡 Canvas Lesson Packages: Teacher Guide + Student Guide
 
-**Status:** 🟡 Week 0 teacher pages are staged in the unpublished CCR Canvas course; student-facing guides and the reusable presentation pattern are not yet built.
+**Status:** ✅ All 36 paired packages and the course-level Teacher/Student orientation pair are staged in the live course and remain unpublished. The coursewide API verifier passes 36/36 modules; signed-in review confirms the complete teacher module list, repaired early-course page grammar, representative licensed visuals, final major assignments, and rubric display. Student View correctly shows no instructional modules before publication.
 
 Every lesson needs two coordinated Canvas surfaces:
 
@@ -109,54 +109,31 @@ Every lesson needs two coordinated Canvas surfaces:
 
 The attached 2027 VILS Canvas export is the layout reference, especially its strong headers, visual cues, embedded examples, and short task blocks. Its legacy `enhanceable_content tabs` code is **not** the implementation standard because [current Canvas community guidance](https://community.canvaslms.com/t5/Canvas-Developers-Group/HTML-to-Create-Tabs-That-Work-for-Keyboard-Navigation/m-p/618344) identifies mobile and keyboard-accessibility problems. Use a readable single-column page and native disclosure sections for optional help, examples, vocabulary, or extensions. Keep essential directions visible.
 
-**Pilot:** finish 1SW Wk0 first, review it in Student View at desktop and mobile width, test keyboard navigation and the absence/catch-up path, then use the approved package as the template for the remaining weeks.
+**Reference implementation:** 1SW Wk0 Day 2 passed the desktop/mobile, disclosure, visual, and absence-route review and became the production grammar. Later packages add native Day subheaders, private multimodal Assignments, Student Annotation, retryable practice Quizzes, and limited Discussions where those interactions remove teacher work without weakening the evidence.
 
 **Image rule:** screenshots and workbook crops must be instructionally necessary, tightly cropped, given useful alt text, and stored in authenticated Canvas when the source is licensed. Record the source and capture date so platform screenshots can be refreshed later.
 
-### 🟡 Presentation Slides (per week)
+### 🟡 Presentation and projection support
 
-**Status:** ⬜ Not yet built.
+**Status:** 🟡 Integrated at the point of use; a separate deck for every week is intentionally not a universal requirement.
 
-**What's needed:** A slide deck per week (or per day) the teacher can project for warm-ups, cluster tour videos, vocabulary introductions, activity directions, and the exit ticket. Right now the daily plans say things like "project the Safety Supervisor scenario on the board" without an actual slide to project.
+The native Canvas Student Guide can serve as the projection surface for warm-ups, numbered directions, source images, checks, and exit prompts. Licensed Climber Notes and Xello decks are embedded only where they carry unique evidence or materially reduce teacher explanation. A separate weekly deck should be added only when it improves pacing or visibility beyond the Canvas page; it is not a second copy of the same directions.
 
-**Open questions for the teacher review:**
-
-- Do teachers want one deck per week or one per day?
-- Google Slides or Canva? (Canva matches 6SW Wk2 content; Google Slides is faster to edit and shares cleanly on district accounts.)
-- Should slides include the warm-up prompt, vocabulary, activity directions, and exit ticket, or just the visuals?
-- Do teachers prefer branded slides (IISD logo, CCE title) or minimal?
+**Teacher-review question:** after classroom use, identify the small number of weeks where a projection deck would remove repeated scrolling or improve whole-class pacing. Build those from the existing Canvas content rather than maintaining 36 duplicate decks.
 
 ---
 
 ### 🟡 Assessment Worksheets (non-photocopiable artifacts)
 
-**Status:** 🟡 Partially addressed. Exit tickets are covered by the PDF pipeline above. Daily plans also reference specific workbook pages (photocopiable when allowed by the H&L license), but some activities require separate worksheets that do not live in the workbook.
+**Status:** ✅ The 250-PDF production set covers the standalone worksheets, rubrics, reference cards, evidence packets, and scaffolds named by the 36-week Canvas build. Licensed workbook/deck pages remain in authenticated Canvas rather than being copied into the public set.
 
-**Examples from the curriculum that need a printable artifact:**
-
-- ~~**1SW Wk0 Days 4-5**: My Career Journey reflection handout + the CCE career research worksheet~~ ✅ **Built 2026-08-05** (with worked-example, stems, and bilingual variants) — see `docs/resources/worksheets/`. The full audited list of what each remaining week still needs is in `cce-curriculum/notes/day1-readiness-backlog.md` and `cce-curriculum/notes/day1-audit/`.
-- **2SW Wk1 Day 5**: Position Paper rubric + final-draft template
-- **4SW Wk1 Day 1**: Core Types vs. Favorites reconciliation worksheet
-- **4SW Wk2 Day 5**: Individual Career Plan template (the official d(8)(C) artifact)
-- **4SW Wk6**: Transferable Skills Matrix, STEM Program planning chart, Professional Associations Jigsaw template, Mid-Year Reflection template
-- **5SW Wk1 Day 2**: Architecture Career Research worksheet
-- **5SW Wk4 Days 1–4**: Skilled Trades Comparison Matrix (the week's summative)
-- **5SW Wk5 Days 1–4**: Personal Budget Template + DFW cost reference sheet
-- **6SW Wk2**: Resume Builder template (Xello-native, but printable backup needed)
-- **6SW Wk5**: Cover Letter template, Mock Interview rubric, Reference sheet
-- **6SW Wk6**: Capstone Career Plan presentation rubric
-
-**Open questions:**
-
-- Which of these can be photocopied directly from the H&L workbook (and under what license)?
-- Which need to be recreated as standalone Google Docs / printable PDFs?
-- Should we build one master "Student Artifacts" folder in the Drive, organized by week?
+Completed examples include the 2SW Wk1 position-paper tools, 4SW Wk1 profile audit and blueprint rubric, 4SW Wk2 individual plan, 4SW Wk6 transfer/evidence set, 5SW architecture/trades/budget sets, 6SW résumé and job-skills packets, and the 6SW career-plan/capstone set. Keep print as an equal route, but prefer native Canvas annotation, typed, upload, or private media submission when that reduces copying and preserves the same evidence.
 
 ---
 
 ### 🟡 Common Formative Assessments (CFAs)
 
-**Status:** 🟡 Partial. 1 of 6 built.
+**Status:** 🟡 Pilot only. The 1SW CFA is drafted; 2SW-6SW are deliberately deferred until the first CFA is administered and teachers report on timing, clarity, item behavior, and scoring calibration.
 
 **What's needed:** A Common Formative Assessment at the end of each six-weeks block (six total) that measures TEKS mastery for that block and produces data all VILS teachers share, so the district can see where the curriculum is and isn't landing.
 
@@ -187,30 +164,24 @@ The attached 2027 VILS Canvas export is the layout reference, especially its str
 
 ---
 
-### 🟡 Teacher Edition / Facilitator Guide (companion doc)
+### 🟡 Teacher Facilitator Guides and implementation support
 
-**Status:** ⬜ Not yet built.
+**Status:** ✅ Paired Teacher Facilitator Guides are staged and coursewide-verified for all 36 weeks. Every instructional day has one unpublished teacher page and one unpublished student page in chronological Canvas module order.
 
-**What's needed:** A teacher-only companion doc (not on the public site) that contains the items below. Partially mitigated by the 8 H&L teacher resources and the 17 Climber Notes decks now in `cce-curriculum/resources/`, which carry rubrics and some facilitation guidance but no answer keys.
+The Teacher Guide page is the companion, so teachers do not have to cross-reference a separate book while teaching. It carries before-class setup, exact resources, the 50-minute flow and trim point, monitoring/key guidance, grading boundary, supports, and platform/equipment/absence routes. Remaining implementation support belongs in Canvas or a maintained teacher index rather than another disconnected document.
 
-- Answer keys for every worksheet and CFA
-- "Things that go wrong" notes from classroom experience (once we have them)
-- Bell schedule variants (if any VILS lab runs a different period length)
-- Substitute-teacher plans for each week
-- Materials ordering checklist per six-weeks block
+- classroom-tested "things that go wrong" notes after the first administration;
+- bell-schedule variants if campuses use a different period length;
+- substitute-teacher routes and a consolidated materials/equipment readiness list; and
+- teacher feedback on which optional enhancements actually save time.
 
 ---
 
 ### 🟡 Student Packet / Workbook Supplement
 
-**Status:** ⬜ Not yet built (and possibly not needed).
+**Status:** 🚫 A universal supplement is not planned. Use the 250 just-in-time printables or their Canvas submission equivalents.
 
-**What's needed:** A short printed packet with the handouts for the weeks where students need paper artifacts the H&L workbook does not cover. Could be a single-semester packet or a per-six-weeks stapled mini-packet.
-
-**Open questions:**
-
-- Do we want to print and distribute packets at the start of each six-weeks block, or lean on just-in-time single worksheets?
-- Does H&L allow us to photocopy their workbook pages into a consolidated teacher packet, or is their license individual-use only?
+Teachers may print a week-level packet when that fits the campus copy workflow, but Canvas remains the source of directions and files. Do not combine licensed H&L/Xello pages into a public or Git-tracked packet.
 
 ---
 
@@ -222,7 +193,7 @@ The attached 2027 VILS Canvas export is the layout reference, especially its str
 
 ### 🟡 eDynamic + Xello platform verification
 
-**Status:** 🟡 Partial. ~15 `[VERIFY IN eDynamic]` callouts and ~5 `[VERIFY IN Xello]` callouts remain in the daily plans. Each is a platform-access question: "confirm this unit/task still exists and is enabled in the district license." Resolution requires district admin login, not curriculum writing.
+**Status:** 🟡 Xello's authenticated Grade 8 completion spine and captured resource set are reconciled. eDynamic and H&L remain supplemental unless a specific live activity is verified and assigned for an instructional purpose. Required Xello completion always remains a real platform task with supervised catch-up; paper supports learning but does not falsely count as completion.
 
 **Action owner:** District admin / VILS program coordinator.
 

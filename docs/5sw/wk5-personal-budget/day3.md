@@ -1,102 +1,47 @@
-# Day 3: Cost of Living Comparison
+# Day 3: Location Changes the Cost Target
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
-## Lesson Overview
+- **Topic:** Personal Budget
+- **Objective:** Students will compare one fixed income across three locations and explain how cost targets change a personal budget decision.
+- **TEKS:** d(5)(D)
+- **Demonstration of Learning:** same-$70,000-offer, three-location comparison and Jordan recommendation.
+<!-- CCE DAILY CONTRACT END -->
+**Time:** 50 minutes
 
-| | |
-|---|---|
-| **Time** | 50 minutes |
-| **Objectives** | Compare the cost of living for the chosen career in DFW vs. two other cities using CareerOneStop's comparison tool; calculate which city leaves the most leftover money |
-| **TEKS** | d(5)(A) |
-| **5E Phases** | Engage: Warm-Up · Explain: CareerOneStop tool modeling · Explore: Three-city analysis · Extend: Relocation decision · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Cost of Living Comparison worksheet (3 cities) with calculated leftover income |
-| **Materials** | Chromebooks, CareerOneStop Cost of Living Comparison tool, students' Day 2 budget, printed Cost of Living Comparison worksheet, calculator, projector |
+**TEKS:** d(5)(D)
 
----
+**Evidence:** same-$70,000-offer, three-location comparison and Jordan recommendation
 
-## Warm-Up (5 min)
+## Fixed February 2026 evidence
 
-**WARM-UP: Do you think it costs more to live in Dallas, New York City, or Los Angeles? Make a prediction, no Googling. Then estimate: How much more expensive do you think the most expensive city is?**
+MIT Living Wage Calculator, one adult/no children:
 
-Collect 3-4 predictions. Most students intuitively pick New York or LA. Bridge: today we will use real data to find out exactly how different the costs are, and we will see that higher salaries in expensive cities do not always mean more money in your pocket.
+| Location | Living-wage hourly rate |
+|---|---:|
+| Tulsa County, Oklahoma | $21.23 |
+| Dallas County, Texas | $23.31 |
+| Los Angeles County, California | $28.92 |
+| New York County, New York | $38.21 |
 
----
+Students compare Dallas with two of the other locations. Fictional Jordan receives the same **$70,000 annual before-tax offer** in every location so the cost target is the only number that changes. The household scenario and source date stay the same. CareerOneStop may be demonstrated as an extension, but it is not load-bearing.
 
-## Activity 1: Teacher Modeling — CareerOneStop Comparison Tool (10 min)
+## 50-minute flow
 
-Project the [CareerOneStop Cost of Living Comparison](https://www.careeronestop.org/Toolkit/Wages/compare-cost-of-living.aspx) tool on the screen. Model the workflow:
+1. **Prediction — 5 min.** Rank the four locations before seeing the rates.
+2. **Read the fixed evidence — 8 min.** Identify household scenario, date, hourly unit, and source limitation.
+3. **Three-location comparison — 20 min.** Use the supplied official annual before-tax targets, then subtract each target from Jordan's fixed $70,000 offer. Do not rebuild the annual target from the rounded hourly display.
+4. **Relocation decision — 12 min.** Choose a location for fictional Jordan using the three calculated gaps, two nonfinancial factors, and one question the table cannot answer.
+5. **Submit and clean up — 5 min.** Rank three locations, cite one number for the first and last ranks, submit privately, and return materials.
 
-1. **Enter Career:** Use the career you modeled on Day 2 (Electrician)
-2. **Enter Home City:** Dallas, TX
-3. **Enter Comparison City 1:** New York, NY
-4. **Enter Comparison City 2:** Rural Texas (e.g., Lubbock, TX) or a Midwest city (e.g., Kansas City, MO)
+Default digital: one device and calculator per student; a calculator may be shared by a pair. Paper: one two-page landscape packet per student and one collection tray. Students complete individual comparisons.
 
-The tool returns a comparison showing how much more or less the same career earns, and how much more or less it costs to live, across the 3 cities. Walk students through interpreting the output:
+## Monitoring key
 
-- **Salary difference:** New York Electrician may earn $15K more than Dallas
-- **Housing difference:** New York rent may be 2x Dallas rent
-- **Overall index:** The cost of living index shows the percentage difference (Dallas = 100, New York ≈ 150+)
+The official annual targets are supplied because MIT's displayed hourly values are rounded; hourly × 2,080 will differ slightly. The fixed $70,000 offer is a fictional comparison tool. It does not provide a local salary for an occupation, predict rent, prove affordability for every person, or include a student's desired household.
 
-**Model one comparison aloud:** If the New York salary is $15,000 higher but annual housing costs are $20,000 higher, the larger salary leaves $5,000 less before the other cost differences are counted. Students use the tool's current numbers rather than assuming the higher salary produces more spending money.
+By minute 25, three calculations should use the supplied annual targets. By minute 40, the recommendation should contain three gaps, two nonfinancial factors, and one unresolved question. If students are behind, use labeled bullets; cut prediction sharing before cutting evidence. Save the same response for recovery.
 
----
+## Access and absence route
 
-## Activity 2: Student Cost of Living Analysis (30 min)
-
-**Time, Voice, Body:** Post the three blocks before Chromebooks open. Voice 0 for the first ten minutes of data collection, Voice 1 for checking a number with a neighbor, and a visible countdown per city so no student spends twenty-five minutes on city one. The Day 2 budget sheet stays to the left of the Chromebook, not under it.
-
-Students run the same analysis for their own chosen career from Day 2. They compare:
-
-- **City 1 (Home):** Dallas, TX (or Irving, TX)
-- **City 2:** A high-cost city, pick one of New York NY, San Francisco CA, Los Angeles CA, Boston MA, Seattle WA
-- **City 3:** A low-cost city, pick one of Lubbock TX, Tulsa OK, Kansas City MO, Pittsburgh PA, Memphis TN
-
-For each city, students record on the worksheet:
-
-| Field | City 1 (Dallas) | City 2 (High-cost) | City 3 (Low-cost) |
-|-------|-----------------|---------------------|---------------------|
-| Same career, local salary | $ | $ | $ |
-| Monthly net income | $ | $ | $ |
-| Average rent (1BR) | $ | $ | $ |
-| Grocery/food index | | | |
-| Transportation cost | $ | $ | $ |
-| Total estimated monthly expenses | $ | $ | $ |
-| Monthly leftover (net − expenses) | $ | $ | $ |
-
-Students then answer: **Which city leaves you with the most money at the end of the month?** Most students will find that Dallas or the low-cost city wins, the high-cost city often pays more but costs MORE more.
-
-!!! tip "Facilitation Tip"
-    Circulate and check that students are using the CareerOneStop tool correctly. Some will Google "rent in New York" and grab the first number, which may be Manhattan luxury rent. Push them back to the CareerOneStop tool which averages across the whole metro area.
-
-**DOK 4:** Based on your cost of living comparison, if you were offered a job in your chosen career at $20,000 more per year in San Francisco vs. staying in Dallas, would you take it? Use your data to justify your decision.
-
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/5sw-wk5-day3-cost-of-living-comparison.pdf):
-
-Rank the 3 cities from BEST leftover monthly income (1) to WORST (3) for my career.
-
-- Dallas (home): rank ____. Leftover = $_____
-- High-cost city: _______________________. Rank ____. Leftover = $_____
-- Low-cost city: _______________________. Rank ____. Leftover = $_____
-
-For EACH rank, cite ONE specific number (salary in that city OR rent in that city) that backs the rank:
-
-- Rank 1 (best leftover): _______________________________________________________
-
-- Rank 3 (worst leftover): _______________________________________________________
-
-Bottom line: A friend gets offered $20K MORE per year in the HIGH-cost city. Should they take it? Circle: **YES** / **NO**. In one sentence, WHY?
-
-   ___________________________________________________________________
-
-*(d(5)(A))*
-
----
-
-## Differentiation
-
-- **Support:** Pre-select the comparison cities for students (no choice needed) and provide a simplified version of the CareerOneStop output with just rent and salary filled in. Students calculate leftover only.
-- **Extension:** Research why young professionals are moving to Dallas from expensive cities. Use news articles about migration patterns to support a short paragraph on DFW as a career destination.
-- **ELL:** CareerOneStop tool is graphical and accessible. Bilingual Cost of Living worksheet. Pre-teach: Cost of Living = Costo de vida, Rent = Alquiler, Index = Índice.
+All required numbers appear in the packet. Calculator, multiplication table, precomputed annual targets, typed response, annotation, or paper are acceptable. If the live tool is blocked, instruction continues unchanged.

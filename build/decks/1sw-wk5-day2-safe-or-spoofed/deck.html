@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>1SW Wk5 Day 2 — Safe or Spoofed?</title>
+  <style>
+    :root {
+      --ink: #eef4f7;
+      --muted: #adc0c9;
+      --night: #101820;
+      --night-2: #172630;
+      --violet: #8e5bd8;
+      --violet-2: #5a2d91;
+      --teal: #2ba7a1;
+      --gold: #f1bc4b;
+      --coral: #ee735e;
+      --paper: #f7f5ef;
+      --dark: #1d2a32;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: #05090c; font-family: Arial, Helvetica, sans-serif; }
+    body { width: 1280px; }
+    .slide {
+      position: relative;
+      width: 1280px;
+      height: 720px;
+      overflow: hidden;
+      color: var(--ink);
+      background:
+        linear-gradient(135deg, rgba(142,91,216,.12), transparent 38%),
+        linear-gradient(315deg, rgba(43,167,161,.08), transparent 34%),
+        var(--night);
+      page-break-after: always;
+    }
+    .slide::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
+      background-size: 40px 40px;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,.8), transparent 90%);
+    }
+    .pad { position: relative; z-index: 2; height: 100%; padding: 54px 72px 48px; }
+    .eyebrow { color: var(--teal); font-size: 18px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; }
+    h1, h2, h3, p { margin: 0; }
+    h1 { font-size: 66px; line-height: 1.03; max-width: 970px; letter-spacing: -2px; }
+    h2 { font-size: 43px; line-height: 1.08; letter-spacing: -1px; max-width: 1110px; }
+    h3 { font-size: 27px; line-height: 1.2; }
+    .lede { font-size: 29px; line-height: 1.34; color: var(--muted); max-width: 930px; }
+    .small { font-size: 20px; line-height: 1.38; color: var(--muted); }
+    .footer { position: absolute; z-index: 3; left: 72px; right: 72px; bottom: 28px; display: flex; justify-content: space-between; color: #7f969f; font-size: 15px; }
+    .accent-line { width: 106px; height: 8px; margin: 20px 0 26px; background: linear-gradient(90deg, var(--violet), var(--teal)); border-radius: 6px; }
+    .title-slide .pad { display: flex; flex-direction: column; justify-content: center; }
+    .title-slide .signal {
+      position: absolute; right: 74px; top: 78px; width: 250px; height: 250px;
+      border: 2px solid rgba(142,91,216,.55); border-radius: 50%;
+    }
+    .title-slide .signal::before, .title-slide .signal::after {
+      content: ""; position: absolute; border-radius: 50%; border: 2px solid rgba(43,167,161,.45);
+    }
+    .title-slide .signal::before { inset: 42px; }
+    .title-slide .signal::after { inset: 86px; border-color: rgba(241,188,75,.7); }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; margin-top: 34px; }
+    .two-col.wide-right { grid-template-columns: .78fr 1.22fr; }
+    .two-col.wide-left { grid-template-columns: 1.18fr .82fr; }
+    .plain-list { margin: 22px 0 0; padding: 0; list-style: none; }
+    .plain-list li { position: relative; margin: 16px 0; padding-left: 38px; font-size: 28px; line-height: 1.25; }
+    .plain-list li::before { content: ""; position: absolute; left: 0; top: 11px; width: 15px; height: 15px; background: var(--gold); border-radius: 50%; }
+    .number-list { counter-reset: steps; margin: 26px 0 0; padding: 0; list-style: none; }
+    .number-list li { counter-increment: steps; display: grid; grid-template-columns: 54px 1fr; gap: 18px; align-items: start; margin: 17px 0; font-size: 26px; line-height: 1.27; }
+    .number-list li::before { content: counter(steps); display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; color: #0d171c; background: var(--gold); font-weight: 900; }
+    .callout { border-left: 8px solid var(--gold); padding: 18px 24px; background: rgba(241,188,75,.09); font-size: 30px; line-height: 1.28; }
+    .callout.teal { border-color: var(--teal); background: rgba(43,167,161,.09); }
+    .callout.coral { border-color: var(--coral); background: rgba(238,115,94,.09); }
+    .frame { border: 2px solid rgba(255,255,255,.16); border-radius: 18px; background: rgba(255,255,255,.045); padding: 24px 28px; }
+    .frame h3 { margin-bottom: 12px; color: var(--gold); }
+    .frame p, .frame li { font-size: 24px; line-height: 1.33; }
+    .frame ul { margin: 12px 0 0; padding-left: 26px; }
+    .word { color: var(--gold); font-weight: 800; }
+    .teal { color: var(--teal); }
+    .violet { color: #b68ae9; }
+    .coral { color: var(--coral); }
+    .question { font-size: 38px; line-height: 1.18; max-width: 1040px; }
+    .stem { margin-top: 28px; padding: 18px 24px; border: 2px dashed rgba(241,188,75,.68); color: #fff2c9; font-size: 27px; line-height: 1.3; }
+    .image-card { position: relative; border-radius: 18px; overflow: hidden; background: #fff; box-shadow: 0 20px 50px rgba(0,0,0,.34); }
+    .image-card img { display: block; width: 100%; height: 100%; object-fit: contain; background: white; }
+    .image-card.email { height: 485px; }
+    .image-card.page { height: 500px; }
+    .image-label { position: absolute; left: 18px; top: 18px; padding: 9px 14px; border-radius: 999px; color: #fff; background: rgba(16,24,32,.88); font-size: 17px; font-weight: 800; }
+    .bottom-task { position: absolute; z-index: 4; left: 72px; right: 72px; bottom: 58px; display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-radius: 12px; background: rgba(16,24,32,.94); border: 1px solid rgba(255,255,255,.18); }
+    .bottom-task strong { font-size: 21px; color: var(--gold); }
+    .bottom-task span { font-size: 19px; color: var(--muted); }
+    .email-slide .pad { padding-top: 34px; }
+    .email-slide h2 { font-size: 37px; margin-bottom: 16px; }
+    .email-slide .image-card.email { height: 525px; }
+    .process { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 42px; }
+    .process .step { position: relative; min-height: 230px; padding: 26px 22px; border-top: 7px solid var(--violet); background: rgba(255,255,255,.055); }
+    .process .step:nth-child(2) { border-color: var(--teal); }
+    .process .step:nth-child(3) { border-color: var(--gold); }
+    .process .step:nth-child(4) { border-color: var(--coral); }
+    .process .n { color: var(--muted); font-size: 18px; font-weight: 800; letter-spacing: 1px; }
+    .process h3 { margin: 36px 0 10px; font-size: 30px; }
+    .process p { color: var(--muted); font-size: 21px; line-height: 1.32; }
+    .roles { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 42px; }
+    .role { min-height: 278px; padding: 30px; border: 2px solid rgba(255,255,255,.16); }
+    .role:first-child { border-top: 9px solid var(--violet); }
+    .role:last-child { border-top: 9px solid var(--teal); }
+    .role h3 { font-size: 33px; margin-bottom: 18px; }
+    .role p { color: var(--muted); font-size: 25px; line-height: 1.36; }
+    .metric-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; margin-top: 40px; }
+    .metric { padding: 26px 20px; border-bottom: 6px solid var(--teal); background: rgba(255,255,255,.055); min-height: 178px; }
+    .metric b { display: block; color: var(--gold); font-size: 45px; margin-bottom: 10px; }
+    .metric span { font-size: 22px; line-height: 1.25; color: var(--muted); }
+    .credits { columns: 2; column-gap: 64px; margin-top: 30px; }
+    .credit { break-inside: avoid; margin-bottom: 24px; }
+    .credit h3 { color: var(--teal); margin-bottom: 8px; }
+    .credit p { font-size: 20px; line-height: 1.36; color: var(--muted); }
+    code { font-family: "Courier New", monospace; color: #fff4cb; }
+  </style>
+</head>
+<body>
+  <section class="slide title-slide">
+    <div class="signal"></div>
+    <div class="pad">
+      <div class="eyebrow">Phishing and Integrity</div>
+      <div class="accent-line"></div>
+      <h1>Safe or Spoofed?</h1>
+      <p class="lede" style="margin-top:22px">Find the evidence. Make a careful call. Verify through a trusted route.</p>
+    </div>
+    <div class="footer"><span>1SW • Week 5 • Day 2</span><span>College and Career Exploration</span></div>
+  </section>
+
+  <section class="slide email-slide">
+    <div class="pad">
+      <div class="eyebrow">Stop and jot • 90 seconds</div>
+      <h2>Slow down before you label it.</h2>
+      <div class="image-card email"><img src="../../../cce-curriculum/resources/canvas-licensed/1sw/wk5/day2/slide-2.png" alt="Email 1 prize message"><div class="image-label">Email 1</div></div>
+    </div>
+    <div class="bottom-task"><strong>Write one observation.</strong><span>What can you see that should slow you down?</span></div>
+  </section>
+
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Today’s learning</div>
+      <h2>Integrity means using evidence and protecting people—even when a message looks convincing.</h2>
+      <div class="two-col" style="margin-top:50px">
+        <div class="frame"><h3>I can</h3><p>Identify ethical and safe responses to suspicious messages and explain why integrity matters in cybersecurity.</p></div>
+        <div class="frame"><h3>Show my learning</h3><p>Classify seven messages, explain my hardest call with visible evidence, choose a safe response, and name one integrity behavior.</p></div>
+      </div>
+    </div>
+    <div class="footer"><span>TEKS d(4)(F)</span><span>Evidence matters more than a first guess.</span></div>
+  </section>
+
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Model the thinking</div>
+      <h2>Evidence comes before the decision.</h2>
+      <div class="two-col" style="margin-top:48px">
+        <div class="frame"><h3>Observation</h3><p>“The sender ends in <code>prize-center123.net</code>.”</p><p class="small" style="margin-top:18px">This is something anyone can point to in the message.</p></div>
+        <div class="frame"><h3>Decision</h3><p>“This message is spoofed.”</p><p class="small" style="margin-top:18px">This is the judgment supported by the observation.</p></div>
+      </div>
+      <div class="callout teal" style="margin-top:38px">A strong answer names the clue <strong>and</strong> explains why it matters.</div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Road map</div>
+      <h2>Four moves carry the whole investigation.</h2>
+      <div class="process">
+        <div class="step"><div class="n">01</div><h3>Learn</h3><p>Five common red flags</p></div>
+        <div class="step"><div class="n">02</div><h3>Inspect</h3><p>Seven fictional messages</p></div>
+        <div class="step"><div class="n">03</div><h3>Respond</h3><p>Use a trusted route</p></div>
+        <div class="step"><div class="n">04</div><h3>Explain</h3><p>Complete the integrity check</p></div>
+      </div>
+    </div>
+    <div class="footer"><span>Have ready: workbook or Canvas guide + red-flag checklist</span><span>All decisions are recorded individually.</span></div>
+  </section>
+
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">FYF p. 24</div>
+      <h2>Five clues deserve a closer look.</h2>
+      <div class="two-col wide-left" style="margin-top:22px">
+        <ol class="number-list">
+          <li>Strange sender address</li>
+          <li>Urgent or emotional language</li>
+          <li>Request for private information</li>
+          <li>Suspicious link or attachment</li>
+          <li>Spelling or grammar problems</li>
+        </ol>
+        <div class="image-card page"><img src="../../../cce-curriculum/resources/canvas-licensed/1sw/wk5/day2/safe-or-spoofed-red-flags.png" alt="Find Your Future phishing red flags page"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Weigh the evidence</div>
+      <h2>A typo may be a clue. A mismatched domain is stronger evidence.</h2>
+      <div class="two-col" style="margin-top:50px">
+        <div class="frame"><h3 class="coral">Weak by itself</h3><p>One awkward sentence or misspelled word</p></div>
+        <div class="frame"><h3 class="teal">Stronger</h3><p>A company name that does not match the sender or destination domain</p></div>
+      </div>
+      <div class="callout" style="margin-top:38px">Look for a <strong>pattern of evidence</strong>. Do not make one typo do all the work.</div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Question • Signal • Stem • Assess</div>
+      <h2>Which clue should carry more weight?</h2>
+      <div class="two-col" style="margin-top:54px">
+        <div class="frame"><h3>1 finger</h3><p>A typo in the message</p></div>
+        <div class="frame"><h3>2 fingers</h3><p>A sender domain that does not match the company</p></div>
+      </div>
+      <div class="stem">“The stronger clue is ___ because it shows ___.”</div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Important boundary</div>
+      <h2>Safe-looking is not the same as proven safe.</h2>
+      <div class="two-col wide-left" style="margin-top:50px">
+        <div>
+          <p class="lede">A polished message can still be fake. A normal-looking message can still deserve verification.</p>
+          <div class="callout teal" style="margin-top:34px">If you are unsure, open the official app or site yourself—or contact someone you already know.</div>
+        </div>
+        <div class="frame"><h3>Do not use</h3><ul><li>a phone number inside the message;</li><li>a reply button inside the message;</li><li>a link inside the message.</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Investigation routine</div>
+      <h2>Use the same three moves every time.</h2>
+      <div class="process" style="grid-template-columns:repeat(3,1fr)">
+        <div class="step"><div class="n">01</div><h3>Inspect</h3><p>Point to the sender, wording, request, link, or file.</p></div>
+        <div class="step"><div class="n">02</div><h3>Decide</h3><p>Mark <strong>Safe-looking</strong> or <strong>Spoofed</strong>.</p></div>
+        <div class="step"><div class="n">03</div><h3>Respond</h3><p>Name the independent route you would use.</p></div>
+      </div>
+      <div class="stem">“I marked ___ because I can see ___. I would verify by ___.”</div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Partner roles</div>
+      <h2>Talk together. Record your own evidence.</h2>
+      <div class="roles">
+        <div class="role"><h3>Evidence Reader</h3><p>Reads the sender and message aloud. Names one visible clue without deciding yet.</p></div>
+        <div class="role"><h3>Verifier</h3><p>Checks whether the clue supports the decision and names a trusted verification route.</p></div>
+      </div>
+      <div class="callout" style="margin-top:34px">Switch roles after Email 4. Both partners complete all seven rows.</div>
+    </div>
+  </section>
+
+  <section class="slide email-slide">
+    <div class="pad"><div class="eyebrow">Guided model</div><h2>Email 1 — inspect before deciding</h2><div class="image-card email"><img src="../../../cce-curriculum/resources/canvas-licensed/1sw/wk5/day2/slide-2.png" alt="Email 1 prize message"><div class="image-label">Email 1</div></div></div>
+    <div class="bottom-task"><strong>Point to the strongest clue.</strong><span>Then record: decision + evidence + safe response.</span></div>
+  </section>
+
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Model answer</div>
+      <h2>Email 1 is spoofed because the evidence works together.</h2>
+      <div class="metric-row">
+        <div class="metric"><b>1</b><span>Prize pressure</span></div>
+        <div class="metric"><b>2</b><span>Odd sender domain</span></div>
+        <div class="metric"><b>3</b><span>Unrelated claim link</span></div>
+        <div class="metric"><b>4</b><span>Pause, verify, report, delete</span></div>
+      </div>
+      <div class="stem">“I marked spoofed because the sender and claim link do not match a trusted company route.”</div>
+    </div>
+  </section>
+
+  <section class="slide email-slide">
+    <div class="pad"><div class="eyebrow">Investigation</div><h2>Email 2 — inspect, decide, respond</h2><div class="image-card email"><img src="../../../cce-curriculum/resources/canvas-licensed/1sw/wk5/day2/slide-3.png" alt="Email 2 order warning"><div class="image-label">Email 2</div></div></div>
+    <div class="bottom-task"><strong>Record one visible clue.</strong><span>Use the official order history if verification is needed.</span></div>
+  </section>
+
+  <section class="slide email-slide">
+    <div class="pad"><div class="eyebrow">Investigation</div><h2>Email 3 — safe-looking or spoofed?</h2><div class="image-card email"><img src="../../../cce-curriculum/resources/canvas-licensed/1sw/wk5/day2/slide-4.png" alt="Email 3 open enrollment reminder"><div class="image-label">Email 3</div></div></div>
+    <div class="bottom-task"><strong>Do not call it “proven safe.”</strong><span>Name the route you would use if uncertain.</span></div>
+  </section>
+
+  <section class="slide email-slide">
+    <div class="pad"><div class="eyebrow">Investigation</div><h2>Email 4 — what clue should carry the most weight?</h2><div class="image-card email"><img src="../../../cce-curriculum/resources/canvas-licensed/1sw/wk5/day2/slide-5.png" alt="Email 4 urgent benefits update"><div class="image-label">Email 4</div></div></div>
+    <div class="bottom-task"><strong>Finish your first four rows.</strong><span>Then pause for the partner check.</span></div>
+  </section>
+
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Think • Pair • Share</div>
+      <h2>Defend one decision without saying “it just looks fake.”</h2>
+      <div class="stem" style="margin-top:70px">“The strongest clue in Email ___ is ___ because ___. The safe next action is ___.”</div>
+      <div class="two-col" style="margin-top:42px">
+        <div class="frame"><h3>Partner A</h3><p>Share your evidence and decision.</p></div>
+        <div class="frame"><h3>Partner B</h3><p>Ask: “What can you point to?”</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Midpoint checkpoint</div>
+      <h2>Do not move on until your evidence is visible.</h2>
+      <div class="metric-row">
+        <div class="metric"><b>4</b><span>decisions recorded</span></div>
+        <div class="metric"><b>4</b><span>visible clues named</span></div>
+        <div class="metric"><b>1</b><span>independent route used</span></div>
+        <div class="metric"><b>0</b><span>links clicked</span></div>
+      </div>
+      <div class="callout coral" style="margin-top:36px">If your reason is only “bad grammar,” add a stronger clue before continuing.</div>
+    </div>
+  </section>
+
+  <section class="slide email-slide">
+    <div class="pad"><div class="eyebrow">Investigation</div><h2>Email 5 — pressure is not proof</h2><div class="image-card email"><img src="../../../cce-curriculum/resources/canvas-licensed/1sw/wk5/day2/slide-6.png" alt="Email 5 account suspension warning"><div class="image-label">Email 5</div></div></div>
+    <div class="bottom-task"><strong>Name the clue and the trusted contact.</strong><span>Do not use the message’s contact information.</span></div>
+  </section>
+
+  <section class="slide email-slide">
+    <div class="pad"><div class="eyebrow">Investigation</div><h2>Email 6 — inspect the sender and login route</h2><div class="image-card email"><img src="../../../cce-curriculum/resources/canvas-licensed/1sw/wk5/day2/slide-7.png" alt="Email 6 password expiration notice"><div class="image-label">Email 6</div></div></div>
+    <div class="bottom-task"><strong>Record your independent route.</strong><span>Open the known portal yourself.</span></div>
+  </section>
+
+  <section class="slide email-slide">
+    <div class="pad"><div class="eyebrow">Investigation</div><h2>Email 7 — normal-looking still deserves judgment</h2><div class="image-card email"><img src="../../../cce-curriculum/resources/canvas-licensed/1sw/wk5/day2/slide-8.png" alt="Email 7 team meeting reminder"><div class="image-label">Email 7</div></div></div>
+    <div class="bottom-task"><strong>Finish all seven rows.</strong><span>Use “safe-looking” when no visible red flag appears.</span></div>
+  </section>
+
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Safe response protocol</div>
+      <h2>When a message is suspicious, use a route you control.</h2>
+      <div class="process">
+        <div class="step"><div class="n">01</div><h3>Pause</h3><p>Do not click, reply, or forward.</p></div>
+        <div class="step"><div class="n">02</div><h3>Verify</h3><p>Use the official app, site, or known contact.</p></div>
+        <div class="step"><div class="n">03</div><h3>Report</h3><p>Use the approved school or workplace route.</p></div>
+        <div class="step"><div class="n">04</div><h3>Delete</h3><p>Remove it after reporting.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Optional safe-practice sketch • 2 minutes</div>
+      <h2>Build a fictional example without creating a real threat.</h2>
+      <div class="two-col wide-left" style="margin-top:42px">
+        <div class="frame"><h3>Include</h3><ul><li>fictional person and organization;</li><li>an <code>example.com</code> address;</li><li>two written red flags;</li><li>a paper or assigned-document draft.</li></ul></div>
+        <div class="frame"><h3 class="coral">Never include</h3><ul><li>working links or QR codes;</li><li>real names or credentials;</li><li>attachments or password requests;</li><li>Irving ISD impersonation.</li></ul></div>
+      </div>
+      <div class="callout coral" style="margin-top:30px">The message is never sent or posted.</div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Demonstration of learning • 5 minutes</div>
+      <h2>Finish the investigation with evidence and integrity.</h2>
+      <ol class="number-list" style="margin-top:46px">
+        <li>The hardest email was ___ because I could see ___.</li>
+        <li>Instead of clicking or replying, I would ___.</li>
+        <li>A cybersecurity worker shows integrity by ___ because ___.</li>
+      </ol>
+      <div class="callout teal" style="margin-top:34px">Your score comes from your evidence and reasoning—not whether your first guess matched.</div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Close</div>
+      <h2>You are done when the evidence trail is complete.</h2>
+      <div class="two-col wide-left" style="margin-top:42px">
+        <div class="frame"><h3>Submit or check</h3><ul><li>seven decisions and clues;</li><li>hardest-call explanation;</li><li>safe response;</li><li>integrity behavior.</li></ul></div>
+        <div>
+          <div class="callout teal"><strong>Absent?</strong><br>Use the same seven locked images and checklist in Canvas.</div>
+          <div class="callout" style="margin-top:22px"><strong>Finished early?</strong><br>Improve one weak reason by adding a stronger clue.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="pad">
+      <div class="eyebrow">Credits</div>
+      <h2>Sources used in this lesson presentation</h2>
+      <div class="credits">
+        <div class="credit"><h3>District HQIM</h3><p><em>Find Your Future</em>, pp. 24–25, “Safe or Spoofed?” District-licensed; authenticated Canvas use only.</p></div>
+        <div class="credit"><h3>Licensed visual evidence</h3><p>Hats &amp; Ladders, <em>Climber Notes: Safe or Spoofed?</em>, slides 2–8. District-licensed; authenticated Canvas use only.</p></div>
+        <div class="credit"><h3>Current safety guidance</h3><p>Cybersecurity and Infrastructure Security Agency, Secure Our World: recognize and report phishing.</p></div>
+        <div class="credit"><h3>Course source</h3><p>Irving ISD College and Career Exploration, 1SW Wk5 Day 2 Teacher Facilitator Guide and Student Guide.</p></div>
+      </div>
+      <p class="small" style="position:absolute;left:72px;bottom:50px">Exact licensed slide references are in the notes. Public guidance includes direct URLs and an access date.</p>
+    </div>
+  </section>
+</body>
+</html>

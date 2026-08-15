@@ -1,113 +1,73 @@
-# Day 2: Million Dollar Idea — Spot the Problem and Generate Ideas
+# Day 2: Spot a Problem and Generate Ideas
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
-## Lesson Overview
-
+- **Topic:** Idea Generation
+- **Objective:** Students will write a clear problem statement, generate at least 10 possible business ideas, and select two using visible criteria.
+- **TEKS:** d(3)(I)
+- **Demonstration of Learning:** A problem statement, at least 10 ideas, two screened ideas with reasons, and one dropped-idea reason on FYF pp. 234-235 or the matching support pages.
+<!-- CCE DAILY CONTRACT END -->
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Name a problem worth solving at school, in your community, in your country, or in the world; generate at least 10 business ideas in a timed five-minute sprint; screen the list down to your two strongest ideas and defend each pick |
+| **Objective** | Write a clear problem statement, generate at least 10 possible business ideas, and select two using visible criteria |
 | **TEKS** | d(3)(I) |
-| **5E Phases** | Engage: Warm-Up · Explore: Spot the Problem and the rapid idea sprint · Explain: Idea Swap partner screen · Evaluate: Exit Ticket |
-| **Deliverable** | "Million Dollar Idea" Steps 1-3 completed: written problem statement + 10 or more ideas + top 2 ideas with reasons |
-| **Materials** | *Find Your Future* workbook pp. 234-235, visible countdown timer on the projector, notebook, projector |
+| **Evidence** | Problem statement, 10+ ideas, two screened ideas with reasons, and one dropped-idea reason on FYF pp. 234-235 or the matching support pages |
+| **Sources** | FYF pp. 234-235, “Million Dollar Idea” Steps 1-3 |
 
----
+## Before class
 
-## Warm-Up (5 min)
+- Post the two licensed workbook pages. Keep the support packet as a no-workbook or enlarged-scaffold route; do not assign both.
+- Default quantities: one FYF workbook per student. If a student needs the alternate route, provide one four-page support packet to that student instead of the workbook pages.
+- Put the five-minute countdown where every student can see it.
+- Keep the problem menu visible for students who need a starting point.
 
-**WARM-UP: Name one thing at school, in your neighborhood, or online that does not work the way it should. What exactly goes wrong?**
+## 50-minute flow
 
-Take 5-6 responses quickly and list them without judging them. Ask which annoyance someone might pay to remove. Students will use that test on a problem of their own.
+### 1. Notice problems — 5 minutes
 
----
+Ask students to name one small frustration from a normal school day. Separate a complaint from a problem statement: “Lunch is bad” is broad; “students with a six-minute line have little time to eat” names what is happening and why it matters.
 
-## Activity 1: Step 1 — Spot the Problem (10 min)
+### 2. Write the problem — 8 minutes
 
-**Source:** (FYF p. 234: "Million Dollar Idea", Step 1)
+Students complete Step 1. They name what is happening, who experiences it, and why it matters. School-appropriate fictional examples are fine. No classmate’s private information belongs in the scenario.
 
-Open the workbook to page 234 and read the opener together. Most people think entrepreneurs land one perfect idea right away, and that is not how it works. Entrepreneurs come up with lots of ideas, quickly and without overthinking. Some are strong, some are strange, and some do not work at all. Entrepreneurs test their ideas, learn from them, and decide which ones are worth their time.
+### 3. Run the idea sprint — 7 minutes
 
-Students then work Step 1. The workbook asks them to think of a problem they care about and gives four places to look:
+Review the rules for one minute. Then run the five-minute sprint. Short phrases count. Students do not erase, judge, or improve ideas while the timer is running.
 
-- A problem at school
-- A problem in your community
-- A problem in your country
-- A problem in the world
+At minute 3, scan for six ideas. If several students are stalled, model three deliberately ordinary ideas and restart the remaining time.
 
-Each student writes the problem clearly on page 234, then answers the second prompt: what is happening, and why is it a problem?
+### 4. Screen the list — 10 minutes
 
-!!! tip "Facilitation Tip"
-    Students who write "world hunger" or "climate change" stall in the next step because the problem is too large to attack with one idea. Ask them for the version they can see with their own eyes: not hunger, but the lunch line running out of food before sixth period. A problem a seventh grader has personally watched happen produces far better ideas than an abstract one.
+Students mark ideas that:
 
----
+- solve the exact problem;
+- have a realistic first version; and
+- could be used or chosen by a customer.
 
-## Activity 2: Steps 2-3 — Rapid Idea Generation and Choose Your Best Ideas (20 min)
+They choose two and explain why each survived the screen.
 
-**Source:** (FYF p. 235: "Million Dollar Idea", Steps 2-3)
+### 5. Develop the top two — 15 minutes
 
-**Step 2: Rapid Idea Generation (8 min).** The workbook gives students five minutes to write as many business ideas as they can that could solve their problem, aiming for at least 10 to 12. Post the workbook's four rules where the whole room can see them:
+Students give each top idea a name or clear description and write a separate reason for problem fit, realism, and customer use. They also name one idea they dropped and the criterion it failed.
 
-- Do not judge your ideas
-- Do not stop to fix anything
-- Keep writing even if ideas seem wild or unrealistic
-- The more ideas, the better
+### 6. Close — 5 minutes
 
-Run a visible five-minute countdown. Pens stay down until the timer starts, nothing gets crossed out while it runs, and when it ends students count their ideas and write the number at the top of the page.
+Prompt: “Name your strongest idea and one idea you dropped. What evidence separated them?”
 
-**Step 3: Choose Your Best Ideas (12 min).** Students read back through their list and choose the top 2 with the most potential, using the workbook's three screening questions:
+## Monitoring and key
 
-- Which ideas actually solve the problem?
-- Which ideas feel realistic to create?
-- Which ideas would people actually use?
+The sprint target is quantity, not polish. A strange idea can count. The screening reasons must do more than repeat the idea.
 
-For each of the two, they write why they chose it.
+Common repair prompts:
 
-**Active Monitoring:** walk two laps with one target each. Lap 1 at minute 3 of the sprint checks that every page has at least six ideas on it and nobody is erasing. Lap 2 during Step 3 checks that each "why this works" sentence answers one of the three screening questions instead of just repeating the idea. Have the response ready for the two predictable misconceptions: a student who stops at four ideas because they want good ones, and a student who picks the first idea on the list instead of screening. If more than a handful of pages stall under six ideas, pause the room, put three of your own throwaway ideas on the board to show how low the bar is, and restart the clock for the remaining time.
+- “Who has the problem?”
+- “What is the smallest version you could build?”
+- “What does the customer do now?”
 
----
+Use two laps. During the sprint, check only idea count; during screening, check whether each reason uses a criterion. If a quarter of the class is polishing one idea instead of generating, reset the five-minute sprint and remind students that phrases count. Trim the final verbal share before trimming the two screened ideas or dropped-idea reason.
 
-## Activity 3: Idea Swap (10 min)
+## Support and absence route
 
-**Source:** (FYF p. 235: "Million Dollar Idea", Step 3 screening questions)
-
-Pairs trade workbooks. Each partner reads the other's problem statement and top 2 ideas, then answers the same three screening questions as an outsider who has never seen the idea before. Partners mark which of the two ideas they would actually use.
-
-**Think-Pair-Share:** 30 seconds of silent Think on the prompt "which of my partner's two ideas would I actually use, and why," then Partner A for 30 seconds and Partner B for 30 seconds. Post two stems: "I would use idea _____ because _____" and "Idea _____ solves the problem better, but idea _____ is easier to build because _____." Two pairs share with the class, chosen from what you heard while circulating.
-
-Students note in their own workbook where their partner disagreed with them. That disagreement is the first piece of real customer feedback they have received, and it feeds tomorrow's stress test.
-
-**DOK 3:** Why do entrepreneurs write 10 or 12 ideas before picking one instead of starting with the best idea they already have? What would they miss if they stopped at the first idea?
-
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/3sw-wk6-day2-million-dollar-idea-spot-the-problem-and-generate-ideas.pdf):
-
-1. The problem I chose to solve: _______________________________________________________
-
-2. How many ideas did I write during the five-minute sprint? _______________________
-
-3. My strongest idea: _______________________. In one sentence, how does it solve the problem?
-
-   ___________________________________________________________________
-
-4. One idea I did NOT pick. Why did I leave it behind? (Use one of these three reasons: it does not really solve the problem / it is not realistic to build / people would not use it.)
-
-   Idea I dropped: _______________________
-
-   Reason: __________________________________________________________
-
-5. My partner said they would use idea _____. The HARDEST part of the five-minute sprint was _______________________________________________________.
-
-*(d(3)(I))*
-
-Submit your workbook pages 234-235 with this ticket.
-
----
-
-## Differentiation
-
-- **Support:** Give a problem menu with six school-sized problems already written (lunch line, lost water bottles, phone charging, bus wait, homework tracking, recycling) so no student loses the sprint choosing a problem. Provide an idea sheet with 10 numbered blanks so the target is visible.
-- **Extension:** Take your third-best idea, the one you did not pick, and rewrite it so it beats your top idea on one of the three screening questions. What did you have to change?
-- **ELL:** Pre-teach: Problem = Problema, Idea = Idea, Solve = Resolver, Realistic = Realista, Customer = Cliente. Ideas may be written in Spanish, English, or both during the sprint; speed matters more than language during Step 2.
+Students may use the eight-item problem menu and the support packet instead of the workbook. They do not complete both. The packet gives 12 short idea lines and separate writing space for each screening job. Typing, handwriting, speech-to-text, or bilingual brainstorming are equal routes.

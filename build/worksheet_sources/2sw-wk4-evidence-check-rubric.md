@@ -3,7 +3,7 @@ title: Health Career Evidence Check Rubric
 slug: 2sw-wk4-evidence-check-rubric
 kind: rubric
 weeks: 2sw/wk4-dental-medical-billing
-audience: teacher
+audience: student
 variant_of:
 language: en
 pages: 2
@@ -39,12 +39,14 @@ orientation: landscape
 | 10-11 | 60-69 | Needs Improvement |
 | 0-9 | Below 60 | Follow campus/district policy |
 
-## Calibration notes
+## Before I submit
 
-- Do not deduct for handwriting, platform route, artistic quality, or English mechanics unless meaning is unclear.
-- A Dental Hygienist recommendation can earn full credit even though it exceeds Jordan's stated preference if the student names that trade-off and explains why other evidence outweighs it.
-- Medical Records Specialist has no verified current Irving program connection. Do not require students to invent one.
-- Dental Assistant is below the course high-wage line but above the growth line. One label does not decide overall career value.
+- [ ] All three career rows are complete.
+- [ ] Every pay figure keeps its year, place, and measure.
+- [ ] Every classification cites the comparison rule and one number or preparation fact.
+- [ ] My recommendation connects to Jordan's needs.
+- [ ] I named one real trade-off or fact to verify.
+- [ ] I revised one weak fact, label, or explanation after self-scoring.
 
 Strength: ___________________________________________________________________
 

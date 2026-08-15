@@ -52,8 +52,8 @@ Write one question you still have about careers, school after high school, or yo
 
 **8. My Career Community**
 
-Name three people who can cheer you on and help you stay on track. They can be people you already know, like family, friends, teachers, or coaches. They can also be people you hope to meet, like a mentor.
+Name three support roles or trusted people who can cheer you on and help you stay on track. You may use a role, initials, or a person's name. Examples: family member, friend, teacher, counselor, coach, club sponsor, or future mentor.
 
 [[lines: 3]]
 
-*Keep this page. You will see it again in January and May.*
+*Your teacher will keep this reflection available for the mid-year review and final capstone. You will not resubmit the same artifact.*

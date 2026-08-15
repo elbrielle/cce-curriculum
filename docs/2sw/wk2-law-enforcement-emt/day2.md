@@ -1,12 +1,19 @@
 # Day 2: Clinton Lake — Weigh the Evidence
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Evidence Integrity
+- **Objective:** Students will separate observations from claims, assess source limits, and write a conclusion that uses three files and names an uncertainty.
+- **TEKS:** d(4)(F)
+- **Demonstration of Learning:** Clinton Lake Evidence Tracker.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
 | **Objective** | Separate observations from claims, assess source limits, and write a conclusion that uses three files and names an uncertainty |
-| **TEKS** | d(1)(C), d(4)(F) |
+| **TEKS** | d(4)(F) |
 | **Deliverable** | [Clinton Lake Evidence Tracker](../../resources/worksheets/2sw-wk2-clinton-lake-evidence-tracker.pdf) |
 | **Materials** | FYF pp. 48-49; Climber Notes “Clinton Lake Case,” slides 2-7, embedded in locked Canvas |
 
@@ -35,7 +42,7 @@ Students choose the two strongest harm files, one source-related file, and one e
 - Files 1 and 6 strongly show serious pollution/ecological harm.
 - File 3 documents a major storm; File 5 raises possible illegal dumping. Both support plausible outside or mixed causes, not certainty.
 - File 2 reports routine landfill conditions but is limited and partly relies on an older major check.
-- File 4 is the City's own statement. Its lack of confirmed containment testing weakens confidence but does not prove leakage.
+- File 4 is the City's own statement. It reports routine monitoring and containment testing with no evidence of leakage, but it does not provide raw test results or independent verification. That source limitation does not prove leakage.
 - No file directly documents a containment failure. A defensible conclusion must preserve that gap.
 
 Integrity here means reporting inconvenient evidence and source limits. Do not tell students that one classroom rule settles every real legal disclosure duty.

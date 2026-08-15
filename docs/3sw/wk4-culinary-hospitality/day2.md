@@ -1,107 +1,61 @@
-# Day 2: Powerskill Motivation + Salary Comparison
+# Day 2: Motivation and Three-Career Comparison
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Comparison
+- **Objective:** Students will identify skills that transfer among a variety of careers and use resources to compare the salaries of at least three careers in an interest area using evidence from Transferable Skills.
+- **TEKS:** d(4)(B), d(5)(E)
+- **Demonstration of Learning:** FYF p. 122 Motivation Plan plus a marked three-career evidence table, two comparison responses, and one evidence-based fit decision.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the "Powerskill: Motivation" activity; identify intrinsic and extrinsic motivation in workplace examples; compare salaries of 3 hospitality careers using BLS |
+| **Objectives** | Distinguish intrinsic and extrinsic motivation; design a short competition plan; compare salary and preparation evidence for three hospitality careers; transfer motivation across careers |
 | **TEKS** | d(4)(B), d(5)(E) |
-| **5E Phases** | Engage: Warm-Up · Explain: Types of motivation · Explore: Competition plan, share and compare, and BLS salary comparison · Evaluate: Exit Ticket |
-| **Deliverable** | Completed competition plan from the workbook + 3-career salary comparison worksheet |
-| **Materials** | *Find Your Future* workbook pp. 121-123, Chromebooks, BLS Hospitality career tabs, printed salary comparison worksheet, projector |
-
----
+| **5E Phases** | Engage, Explain, Explore, Evaluate |
+| **Deliverable** | FYF p. 122 Motivation Plan plus the two-page Hospitality Career Comparison |
+| **Materials** | Per student: FYF workbook opened to p. 122, fixed career guide in Canvas, one two-page comparison digitally or printed double-sided, and pencil. Teacher: projector with the completed fixed evidence table. One device per student only for the optional practice Quiz. |
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Think of one chore you HATE doing. Now think of one hobby you LOVE doing. What is the difference between why you do each one?**
+**WARM-UP:** Name one task you do because you enjoy improving and one task you do because of an outside reward or consequence.
 
-Take 3-4 student responses and sort them into reasons that come from the person and reasons that come from an outside reward. Introduce the terms *intrinsic* and *extrinsic* after students can see both groups.
+Introduce intrinsic and extrinsic after students sort examples. Do not label one type as morally better.
 
----
-
-## Activity 1: "Powerskill: Motivation" — Design a Competition (20 min)
+## Activity 1: Build a Motivation Plan (15 min)
 
 **Source:** (FYF pp. 121-123: "Powerskill: Motivation")
 
-Read the workbook intro on page 121 together: motivation is what keeps you going when things get difficult. It is the energy that helps you tackle challenges, stay focused on your goals, and take pride in what you do. No matter what career you choose, motivation pushes you to learn new skills, solve problems, and keep improving.
+Students design a professional baking competition with a clear goal, two rules, one outside reward, and one intrinsic motivator. They explain why the same motivator may affect two bakers differently.
 
-**Step 1: Review Types of Motivation.** Project the workbook chart (p. 121). **Intrinsic motivation** comes from within yourself. **Extrinsic motivation** comes from the outside world.
+Use this teacher-created contrast: **“I keep practicing because improving the technique feels satisfying”** is intrinsic; **“I keep practicing because the winner receives a paid bakery shadow day”** is extrinsic. The same student may value both, and a reward does not prove that one worker tries harder.
 
-| INTRINSIC MOTIVATION | EXTRINSIC MOTIVATION |
-|---|---|
-| **Competence and Learning Motivation:** enjoying the process of learning, growing, and improving your skills | **Incentive Motivation:** working toward a reward, prize, or recognition |
-| **Attitude Motivation:** wanting to create a positive environment for yourself and others | **Power Motivation:** enjoying opportunities to lead, guide, or influence decisions |
-| **Achievement Motivation:** setting personal goals and feeling proud when you accomplish them | **Avoidance Motivation:** taking action to avoid negative consequences or problems |
+The Canvas practice Quiz is optional for early finishers or the next class opening. It does not add another timed block to this 50-minute lesson. Immediate feedback checks classification; the written plan remains the evidence.
 
-**Step 2: Create a Detailed Competition Plan.** Students are an event organizer designing a high-stakes baking competition for professional bakers. The bakers must create the most hyper-realistic cake possible, cakes so realistic they look like everyday objects. The student's job is to design a competition that will motivate the bakers to do their best. Students fill in the five-row plan from page 122:
+## Activity 2: Read the Fixed Career Evidence (10 min)
 
-| Category | Description |
-|---|---|
-| Contest Name | A creative and catchy title |
-| Competition Goals | What is the purpose? Skill, creativity, or pushing boundaries? |
-| Rules and Guidelines | What are the requirements? Time limits? Restrictions on materials? |
-| Prizes and Rewards | What will motivate the bakers? Cash prize, trophy, TV show feature, career opportunities? |
-| Types of Motivation | Identify at least two types of motivation your competition will use |
+Students read Chef or Head Cook, Lodging Manager, and Meeting/Convention/Event Planner. The stable table is already printed on the companion. Students circle the highest median, box the most annual openings, star the bachelor's-typical route, and compare one preparation and one work-condition difference. They do not spend the lesson copying the guide.
 
-**Step 3: Share and Compare.** In the last few minutes, students pair up and present their plans, comparing which types of motivation each one used. Which competition would motivate professional bakers the most, and why?
+Do not use an open search for the core. Xello may add local salary evidence only when geography, date, and measure are visible. H&amp;L is optional.
 
-!!! tip "Facilitation Tip"
-    The "types of motivation" row is the key. Students often default to "money" (extrinsic), so push them: what intrinsic motivator could you add? The chance to create something never seen before, or the chance to learn from master bakers, both count.
+## Activity 3: Compare and Transfer (15 min)
 
----
+Students compare all three careers and then focus on two. They explain how intrinsic motivation may help in one career and extrinsic motivation may affect another. The final response uses one career-data fact, one motivation idea, and one tradeoff.
 
-## Activity 2: Hospitality Salary Comparison (20 min)
+**Active-monitoring pivot:** At minute 30, students should have all three evidence marks and both comparison prompts started. If more than one quarter relabels a median as starting or DFW pay, stop and rebuild one complete label: **May 2024 U.S. median annual pay**. If devices fail or time compresses, move the ungraded Quiz to the next opening; preserve the written fit decision and five-minute evidence-label check.
 
-**Source:** Bureau of Labor Statistics. Chefs and Head Cooks, Lodging Managers, Meeting/Convention/Event Planners
+**DOK 3:** Which career offers the best fit for a person who values creative control but also wants predictable preparation? Use one fact and one tradeoff.
 
-Transition from motivation to the practical question: how much do hospitality careers earn? Project the BLS Chefs page on the screen and walk students through finding the median annual pay.
+## Exit Check (5 min)
 
-Students complete the salary comparison worksheet for 3 hospitality careers:
+Students underline the year/geography/measure attached to their number and circle one transfer statement that applies to more than one career.
 
-| Career | Median Pay | Education | Job Outlook | One Daily Task |
-|---|---|---|---|---|
-| Line Cook OR Head Chef | | | | |
-| Lodging Manager | | | | |
-| Event Planner | | | | |
-
-Students use these BLS pages:
-
-- BLS Chefs: [bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm](https://www.bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm)
-- BLS Lodging Managers: [bls.gov/ooh/management/lodging-managers.htm](https://www.bls.gov/ooh/management/lodging-managers.htm)
-- BLS Event Planners: [bls.gov/ooh/business-and-financial/meeting-convention-and-event-planners.htm](https://www.bls.gov/ooh/business-and-financial/meeting-convention-and-event-planners.htm)
-
-After filling in the table, students answer one analysis question:
-
-> "Which of these 3 careers offers the best balance of pay AND lifestyle for someone who LOVES hospitality work? Defend your answer with at least one piece of data from the worksheet."
-
-**DOK 3:** A line cook earns less than a head chef but works fewer hours and has less stress. Why might someone CHOOSE to stay a line cook even though they could become a head chef?
-
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/3sw-wk4-day2-powerskill-motivation-salary-comparison.pdf):
-
-Use your salary comparison worksheet to fill in the matrix.
-
-| | Chef / Line Cook | Lodging Manager | Event Planner |
-|---|---|---|---|
-| BLS median pay | | | |
-| Typical education | | | |
-| Primary type of motivation (intrinsic / extrinsic) that my competition design used | | | |
-
-Bottom line: Which of the three careers has the BEST balance of pay AND intrinsic motivation (doing it because you love it) FOR ME? Use one specific number + one motivation type from the matrix to back the pick. *(d(4)(B), d(5)(E))*
-
-   ___________________________________________________________________
-
-Submit your competition plan and salary comparison with this ticket.
-
----
+**DELIVERABLE:** Three-career comparison, two-career motivation transfer, and evidence-based fit decision.
 
 ## Differentiation
 
-- **Support:** Pre-fill the salary comparison worksheet with one career's median pay and education already entered as a model. Provide BLS direct-link cards for each career.
-- **Extension:** Add a 4th career: Restaurant Manager. Compare its salary to a Head Chef's, why is the manager often paid LESS than the chef even though management sounds more "important"?
-- **ELL:** Pre-teach: Motivation = Motivación, Salary = Salario, Outlook = Perspectiva, Reward = Recompensa. Bilingual salary worksheet with Spanish column headers.
+- **Support:** Read one career row at a time and pre-highlight pay measure, preparation, and outlook headings. Keep the complete intrinsic, extrinsic, and recommendation frames beside the matching response spaces.
+- **Extension:** Compare Cook with Chef or Head Cook and explain how experience changes the route and responsibility.
+- **ELL:** Use motivation/motivación, median/mediana, preparation/preparación, reward/recompensa, and tradeoff/compensación. Score evidence and reasoning, not English mechanics unless meaning is unclear.

@@ -1,104 +1,73 @@
 ---
-title: My Career Journey Update / Mi Camino Profesional: Actualización
+title: Career Journey Language Support / Apoyo para Mi Camino Profesional
 slug: wk5-reflection-update-bilingual
-kind: worksheet
+kind: scaffold
 weeks: 1sw/wk5-cybersecurity-it
 audience: student
 variant_of: wk5-reflection-update-template
 language: bilingual
-pages: 3
+pages: 2
 orientation: portrait
 ---
 
-Put your Week 0 My Career Journey handout next to this page. Open your Climber Profile before you start. You may write in English or in Spanish. Turn both pages in together.
+Use this page with the Career Journey update. It gives bilingual labels, a word bank, and complete sentence frames. You may plan ideas in either language and submit the response format your teacher approves.
 
-*Pon tu hoja de Mi Camino Profesional de la Semana 0 junto a esta página. Abre tu Climber Profile antes de empezar. Puedes escribir en inglés o en español. Entrega las dos hojas juntas.*
+*Usa esta página con la actualización de Mi Camino Profesional. Incluye etiquetas bilingües, un banco de palabras y oraciones modelo completas. Puedes planear en cualquiera de los dos idiomas y entregar el formato que apruebe tu docente.*
 
-## 1. What clusters have I explored?
+## Word Bank / Banco de Palabras
 
-*¿Qué grupos de carreras exploré?*
+interest / *interés* · skill / *habilidad* · evidence / *evidencia* · pathway / *ruta* · course / *curso* · program / *programa* · training / *capacitación* · goal / *meta* · next step / *próximo paso* · changed / *cambió* · strengthened / *fortaleció*
 
-The two career groups I explored were ______________________________________ and ______________________________________ .
+## 1. Changed Idea / Idea que Cambió
 
-*Los dos grupos de carreras que exploré fueron ______________________________________ y ______________________________________ .*
+At first, I thought ________________________________. Now I think ________________________________ because ________________________________.
 
-The Information Technology pathways I rated in the app were:
-
-*Las carreras de Tecnología de la Información que califiqué en la aplicación fueron:*
-
-1. ______________________________________
-2. ______________________________________
-3. ______________________________________
-
-## 2. What careers did I favorite?
-
-*¿Qué carreras marqué como favoritas? Escribe por lo menos seis.*
-
-1. ______________________________________________________
-2. ______________________________________________________
-3. ______________________________________________________
-4. ______________________________________________________
-5. ______________________________________________________
-6. ______________________________________________________
-
-## 3. What surprised me?
-
-*¿Qué me sorprendió?*
-
-The biggest surprise of these five weeks was
-
-*La sorpresa más grande de estas cinco semanas fue*
+*Al principio, pensaba ________________________________. Ahora pienso ________________________________ porque ________________________________.*
 
 [[lines: 2]]
 
-[[pagebreak]]
+## 2. Evidence / Evidencia
 
-## 4. What do I want to explore next?
+The activity, career, skill, or result ________________________________ changed or strengthened my thinking because it showed me ________________________________.
 
-*¿Qué quiero explorar después? Las próximas seis semanas estudiamos Leyes y Servicio Público y Ciencias de la Salud.*
-
-The one I most want to explore is ______________________________________ because
-
-*El que más quiero explorar es ______________________________________ porque*
+*La actividad, carrera, habilidad o resultado ________________________________ cambió o fortaleció mi pensamiento porque me mostró ________________________________.*
 
 [[lines: 2]]
 
-## 5. What is my postsecondary goal?
+## 3. Current Direction / Dirección Actual
 
-*¿Cuál es mi meta después de la preparatoria?*
+I am **interested / unsure / not interested** in ________________________________ because the work or preparation involves ________________________________.
 
-After high school I want to ______________________________________ .
-
-*Después de la preparatoria quiero ______________________________________ .*
-
-My logo shows ______________________________________ .
-
-*Mi logotipo representa ______________________________________ .*
-
-The Irving ISD pathway that gets me there is ______________________________________ .
-
-*La ruta de Irving ISD que me lleva ahí es ______________________________________ .*
-
-## 6. What Powerskills did I practice?
-
-*¿Qué Powerskills practiqué? Encierra dos o tres.*
-
-Work Ethic / *Ética de trabajo* · Communication / *Comunicación* · Problem-Solving / *Resolución de problemas* · Integrity / *Integridad* · Time Management / *Manejo del tiempo*
-
-I practiced ______________________________________ when I ______________________________________
-
-*Practiqué ______________________________________ cuando ______________________________________*
+*Estoy **interesado/a / indeciso/a / no interesado/a** en ________________________________ porque el trabajo o la preparación incluye ________________________________.*
 
 [[lines: 2]]
 
-## 7. One question I still have
+## 4. Goal / Meta
 
-*Una pregunta que todavía tengo sobre las carreras, la preparatoria, o la vida después de la preparatoria.*
+After high school, I currently want to ________________________________. One Irving ISD course, program, or experience I need to investigate is ________________________________.
 
-[[lines: 3]]
+*Después de la preparatoria, actualmente quiero ________________________________. Un curso, programa o experiencia de Irving ISD que necesito investigar es ________________________________.*
 
-## Look Back at Week 0
+[[lines: 2]]
 
-*Mira otra vez tu hoja de la Semana 0. El cambio más grande entre ese estudiante y este es:*
+## 5. Two Transition Steps / Dos Pasos de Transición
+
+Before ninth grade, I can ________________________________ because ________________________________.
+
+*Antes del noveno grado, puedo ________________________________ porque ________________________________.*
+
+[[lines: 2]]
+
+During high school, I can prepare for college, training, military service, or work by ________________________________.
+
+*Durante la preparatoria, puedo prepararme para la universidad, capacitación, servicio militar o trabajo al ________________________________.*
+
+[[lines: 2]]
+
+## 6. This-Year Action / Acción de Este Año
+
+This school year, I will ________________________________. I will know I completed it when ________________________________.
+
+*Este año escolar, voy a ________________________________. Sabré que lo completé cuando ________________________________.*
 
 [[lines: 2]]

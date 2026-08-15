@@ -1,5 +1,12 @@
 # Day 5: Save Three Careers in Xello
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Saved Career Evidence
+- **Objective:** Students will identify at least three career opportunities in Xello and explain one current fit using task, preparation, work-condition, or profile evidence.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Xello record with at least three saved careers plus Xello Save Three Careers Reflection.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
@@ -21,6 +28,8 @@ Students may choose careers outside Health Science. Saving a career means keepin
 
 Protect the full configured time. The Bowie Grade 8 Completion Standards require students to save at least **three careers**.
 
+Default setup is individual work with one device per student. A peer may navigate beside a student, but each student saves careers in their own account. Provide one reflection per student as paper or digital annotation.
+
 1. Open Xello through ClassLink.
 2. Use Explore Careers or a profile recommendation.
 3. Open a career and review daily tasks, preparation, and work conditions.
@@ -28,6 +37,8 @@ Protect the full configured time. The Bowie Grade 8 Completion Standards require
 5. Repeat until at least three careers appear in the saved-careers list.
 
 The teacher checks the Completion Standards report. A screenshot may help with troubleshooting, but the Xello report is the completion record.
+
+**Safe trim:** Shorten the comparison to one career, one evidence statement, and one fact to verify. Do not cut the 30-minute Xello block or the final report/catch-up check. Reserve two minutes for students to confirm saves, sign out, and close personal account screens.
 
 Students who cannot access Xello complete the paper reflection and move to a supervised catch-up list. Paper work does not replace the district completion requirement.
 

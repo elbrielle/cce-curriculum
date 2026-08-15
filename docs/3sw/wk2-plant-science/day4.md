@@ -1,111 +1,61 @@
-# Day 4: Emerging Ag Career Research
+# Day 4: Evaluate Emerging Plant-Tech Work
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
-## Lesson Overview
-
+- **Topic:** Emerging Plant Technology
+- **Objective:** Students will evaluate how a changing technology or trend affects tasks and career choices in plant and agriculture work.
+- **TEKS:** d(1)(D), d(5)(C)
+- **Demonstration of Learning:** Individual 4-6 sentence evaluation using a technology-to-task connection, two dated facts, and one data limit.
+<!-- CCE DAILY CONTRACT END -->
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Research one emerging agriculture career using BLS and USDA resources; identify the technology and societal trend driving the career's growth; complete a research template |
-| **TEKS** | d(1)(D) |
-| **5E Phases** | Engage: Warm-Up · Explain: What is an emerging career · Explore: BLS and USDA research · Explain: Paired template trade · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Emerging Ag Career Research template (one career, fully filled in) |
-| **Materials** | Chromebooks, BLS Career Outlook tabs, USDA Careers page, printed Emerging Career Research template, projector |
+| **TEKS** | d(1)(D), d(5)(C) |
+| **Sources** | Fixed BLS/USDA evidence guide; optional official BLS video |
+| **Evidence** | Individual 4-6 sentence evaluation with two dated facts and one data limit |
 
----
+## Before class
 
-## Warm-Up (5 min)
+- Give each student the saved infographic, the two-page evaluation printed double-sided, a pencil, and one device for the practice quiz and submission.
+- Post the Emerging Plant-Tech Evidence Guide digitally; default print count is 0. For a no-device class, print one guide per pair. Post the rubric digitally.
+- Open the unpublished retryable practice quiz and combined Major assignment. Keep the evaluation individual; pairs may rehearse the parent/specialty distinction.
+- The optional BLS Agricultural Engineers video sits inside a closed disclosure. Test it or leave it closed; the fixed guide carries every required fact.
+- Do not send students to job boards or an open search.
 
-**WARM-UP: Drones can now fly over a 50-acre farm and find pest damage in 30 minutes, work that used to take a farmer 2 days. Who flies the drone? Did that job exist 20 years ago?**
+## 50-minute flow
 
-Take 3 student responses. Define an emerging career as a job created or substantially changed by newer technology or a newer social need. Students will choose one to research today.
+| Time | Work |
+|---:|---|
+| 4 | Optional BLS video hook or read one engineer task |
+| 8 | Model the difference between a specialty and a BLS parent occupation |
+| 10 | Read the three fixed specialty cards |
+| 20 | Complete the individual evaluation |
+| 5 | Retry the Canvas evidence quiz and revise |
+| 3 | Submit the saved infographic and evaluation together once |
 
----
+## Evidence key
 
-## Activity 1: What Is an Emerging Career? (10 min)
+| Specialty | Parent occupation | May 2024 U.S. median | 2024-34 outlook |
+|---|---|---:|---:|
+| Precision Agriculture Systems Technician | Agricultural and Food Science Technician | $48,480 | 5% growth |
+| Controlled-Environment Plant Scientist | Soil and Plant Scientist | $71,410 | 5% growth |
+| Agricultural Automation Engineer | Agricultural Engineer | $84,630 | 6% growth |
 
-**Source:** TEKS d(1)(D): Research and evaluate emerging occupations related to career interest areas
+Full-credit reasoning connects a named technology to a changed task, uses two dated facts, and states that the parent-occupation figure cannot prove an exact specialty's DFW starting pay or guarantee local hiring.
 
-Project the definition of "emerging occupation" on the board: a career that has grown rapidly because of new technology, new social needs, or new economic conditions.
+“Emerging” may describe changing tasks and tools inside an established occupation. It does not require claiming that an entire occupation appeared recently.
 
-Walk through 4 examples in agriculture that didn't exist (or were tiny) in the year 2000:
+## Canvas interaction
 
-- **Agricultural Drone Operator:** flies drones over fields to detect pests, monitor crop health, and apply targeted spray
-- **Precision Agriculture Technician:** uses GPS, soil sensors, and data software to help farmers maximize yields with minimum waste
-- **Vertical Farming Manager:** runs urban indoor farms that grow leafy greens in stacked trays under LED lights
-- **Hydroponic Specialist:** grows plants in nutrient-rich water without soil, used in cities and even on the International Space Station. Students already worked a day in this job on Day 1, diagnosing the failing lettuce section in "Grow System Rescue"
+The four-question practice quiz checks parent-occupation limits, median pay, the meaning of emerging work, and the agriculture-engineering technology link. Attempts are unlimited and feedback directs students back to the guide. The written evaluation remains the durable evidence.
 
-Each of these is part of a real H&L Hat or BLS career profile. Students will pick ONE for today's research.
+## Monitor, pivot, and trim
 
-!!! tip "Facilitation Tip"
-    Some students will say, "I don't care about farming." Show the work before asking again: Precision Ag Technicians earn $50,000-$80,000 and use drones, GPS, and Python data scripts. These are technology careers applied to agriculture.
+- Chunk the evaluation into technology -> task -> two dated facts -> limit, then Active Monitor each link.
+- By minute 16, students should have a specialty, parent occupation, and technology-to-task chain. If the parent median becomes a local starting salary, pause and model the complete limitation frame.
+- By minute 36, the 4-6 sentences should contain two dated facts and one data limit.
+- If time is short, cut the optional video first. If needed, replace the Canvas practice quiz with the paper self-check. Protect the evaluation, one revision, and combined Major submission.
 
----
+## Supports and fallback
 
-## Activity 2: BLS + USDA Research (25 min)
-
-**Source:** BLS OOH + USDA Careers page
-
-Students choose ONE emerging ag career and complete the research template using two sources:
-
-- **BLS Occupational Outlook Handbook:** [bls.gov/ooh/](https://www.bls.gov/ooh/): search for the career or its parent category (e.g., Agricultural Technicians, Agricultural Engineers)
-- **USDA Careers:** [usda.gov/our-agency/careers](https://www.usda.gov/our-agency/careers): find federal ag jobs and read the descriptions
-
-The research template has these fields:
-
-- **Career Name:**
-- **One-Sentence Description (in your own words):**
-- **Education/Training Required:**
-- **Average Salary Range:**
-- **Job Outlook (% growth or "fast/slow growing"):**
-- **Technology Used:** (drones, GPS, sensors, software, etc.)
-- **What Societal/Tech Trend Drives This Career?:** (e.g., climate change, urban food deserts, labor shortages on farms)
-- **One Real Employer Hiring This Role:** (find from a job board search)
-
-**Time, Voice, Body:** Post the three blocks before anyone opens a browser tab. Voice 0 for the research block, a visible countdown on screen, and finished templates go face up on the corner of the desk so the trade in Activity 3 starts without a hunt.
-
-Walk around and help students who get lost on the BLS site. The most helpful trick: search "Agricultural" in the BLS search bar and pick the closest matching career.
-
-**DOK 4:** Based on labor market data and the technology driving this career's growth, what argument would you make for why schools should teach this career topic alongside traditional farming?
-
----
-
-## Activity 3: Quick Pair Share (8 min)
-
-In the last 8 minutes, students pair up and trade research templates. Each partner reads the other's template silently for 2 minutes, then asks 2 questions about it. The questions can be:
-
-- Why did you pick this career?
-- What surprised you most in your research?
-- Would you actually want this job? Why or why not?
-
-This gives every student exposure to a second emerging ag career without doing double the research.
-
----
-
-## Exit Ticket (2 min)
-
-**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/3sw-wk2-day4-emerging-ag-career-research.pdf):
-
-Rank the four emerging ag careers from today by WHICH YOU WOULD PURSUE FIRST (1) to LAST (4), based on what I learned today.
-
-- Agricultural Drone Operator: rank ____
-- Precision Agriculture Technician: rank ____
-- Vertical Farming Manager: rank ____
-- Hydroponic Specialist: rank ____
-
-For EACH rank, write ONE reason (technology, salary, daily task, growth) from today's research.
-
-- Rank 1 (most likely for me): _______________________________________________________
-
-- Rank 4 (least likely for me): _______________________________________________________
-
-Bottom line: The emerging ag career I researched is _______________________ and it is growing because _______________________________________________________. *(d(1)(D))*
-
-Submit the research template with this ticket.
-
----
-
-## Differentiation
-
-- **Support:** Pre-fill the template with the career name (e.g., "Agricultural Drone Operator") and the BLS link. Students focus on filling in the data fields.
-- **Extension:** Compare your emerging career to its 20-year-old version. (e.g., "Agricultural Drone Operator" vs. "Crop Scout 20 years ago.") What changed?
-- **ELL:** Pre-teach: Emerging = Emergente, Career = Carrera, Outlook = Perspectiva, Technology = Tecnología. Bilingual research template with Spanish field labels.
+Highlight specialty, parent occupation, measure/date, and limitation in four colors. The evaluation provides ten full lines for the 4-6 sentence response. If video or Canvas fails, the fixed guide and paper self-check are complete.

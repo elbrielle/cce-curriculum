@@ -1,116 +1,71 @@
-# Day 3: Xello Quick Sims — The Real Game
+# Day 3: Career Deep Dive
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Research
+- **Objective:** Students will document work, preparation, pay, and outlook for one career using labeled evidence.
+- **TEKS:** d(8)(B)
+- **Demonstration of Learning:** Career Deep Dive.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the Xello "Quick Sims: The Real Game" simulation; track financial decisions made during the simulation; complete Rung 3 of the Capstone ladder for the Day 2 career goal; compare lifestyle desires to career salary realities |
-| **TEKS** | d(5)(D), d(8)(A) |
-| **5E Phases** | Engage: Warm-Up · Explore: Real Game simulation and decision log · Extend: Rung 3 Career Deep Dive for the student's own career goal · Explain: Career vs. lifestyle debrief · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Real Game decision log showing all major lifestyle choices and the running budget impact + completed Rung 3 pages |
-| **Materials** | Chromebooks, Xello student accounts, *Find Your Future* workbook pp. 285-286, printed Real Game decision log (1 per student), projector |
+| **Objective** | Document work, preparation, pay, and outlook for one career using labeled evidence |
+| **TEKS** | d(8)(B) |
+| **Deliverable** | Career Deep Dive |
+| **Materials** | FYF Rung 3 excerpt, Deep Dive sheet, teacher-curated career sources |
 
----
+## Before Class
+
+Provide one FYF workbook and one device per student. Print zero copies by default; print the four-page enlarged guide only for students using the no-workbook or added-scaffold route. Test the sources and project the supplied Registered Nurse card dated August 11, 2026. Start with the district-licensed FYF, H&L, or Xello evidence students are using. Use BLS as a national cross-check. Do not mix a local range with a national median without labeling both.
 
 ## Warm-Up (5 min)
 
-**WARM-UP: If you earned $40,000 per year (about $2,500/month after taxes), how would you spend that money? List your top 5 monthly expenses and rough amounts.**
+Label each phrase as **place**, **year**, or **measure**: DFW, May 2024, median annual wage. Explain why a salary without these labels is incomplete evidence.
 
-Collect 2-3 student responses on the board without correcting the numbers. Keep them visible so students can compare their guesses with the housing, transportation, food, and entertainment costs in Xello.
+## Activity 1: Read a Source Card (10 min)
 
----
+Model how to capture:
 
-## Activity 1: Xello "Quick Sims: The Real Game" (35 min)
+- career and common tasks;
+- typical education or training;
+- license or certification when the source names one;
+- salary with place, year, and measure;
+- outlook with geography and time period; and
+- source title or URL.
 
-**Source:** Xello supplemental activity, "Quick Sims: The Real Game." This activity is not a Bowie Grade 8 completion standard.
+Say explicitly: median is not starting pay, national is not DFW, and a posted salary is not a guarantee.
 
-Direct students to log into Xello and navigate to **Quick Sims**. The Real Game simulation puts students into a young adult scenario where they make decisions about housing, transportation, food, entertainment, and savings based on a realistic salary tied to a career.
+## Activity 2: Complete the Deep Dive (25 min)
 
-> [XELLO SUPPLEMENTAL] Quick Sims is available in Xello but is not a Bowie Grade 8 completion standard. Use it only when it supports the day's learning target; do not count it toward required completion.
+Students research the career from Day 2 on FYF pp. 285-286. They may use a current H&L or Xello profile, BLS, an official training provider, or the teacher's fixed evidence cards. The enlarged CCE Deep Dive replaces the workbook only when the workbook is unavailable or the scaffold is needed.
 
-Students work through the simulation independently. As they make each decision, they log it on the printed decision log:
+Carry forward two common tasks and one work setting from FYF pp. 283-284. Put them beside the career name or in a notebook; p. 285 begins with preparation rather than repeating the career snapshot.
 
-| Decision Category | What I Chose | Monthly Cost | Running Budget Remaining |
-|---|---|---|---|
-| Career & Salary | | | |
-| Housing | | | |
-| Transportation | | | |
-| Food / Groceries | | | |
-| Phone / Internet | | | |
-| Entertainment | | | |
-| Savings | | | |
-| Insurance / Healthcare | | | |
+The workbook asks for pay and outlook but does not provide enough space for every source label. Students write source, date, place, and measure beside the pay field or in a notebook. They write the outlook years beside the outlook field.
 
-The decision log is critical. Without it, the simulation becomes a video game students click through. With it, students see the math piling up against their early choices.
+Monitoring priorities:
 
-!!! tip "Facilitation Tip"
-    Circulate aggressively for the first 10 minutes. Students who skip the decision log lose the entire point of the activity. If a student finishes the Sim in under 5 minutes, they clicked through without thinking, make them restart and log every decision.
+1. every number has a source label;
+2. preparation is a real requirement or common route, not a guess; and
+3. the student explains what the evidence means for them.
 
-!!! note "Common Misstep"
-    Students may pick the cheapest option for everything to "win" the simulation. Stop the room at minute 15 and ask whether those choices match the life they described in the warm-up. Their budget should test a realistic lifestyle, even when that lifestyle does not balance.
+If one third of the class confuses median with starting pay or national with local, project the supplied card and relabel it together. If students are behind, make the partner label check independent; protect the source labels, first step, and exit response.
 
-**Rung 3 as students finish.** The Sim hands students a salary. Rung 3 asks them to find their own (FYF pp. 285-286: "Rung 3: Career Deep Dive"). As each student finishes the simulation, they open pages 285-286 and complete the deep dive for the career goal they named on Rung 2 yesterday:
+## Activity 3: Evidence Check (5 min)
 
-- **Education or Training Required:** check one of high school diploma, trade or technical school, associate's degree, bachelor's degree, master's degree or higher, or other
-- **Special certifications, licenses, or training needed**
-- **About how long it takes to prepare for this career**
-- **Salary and Outlook:** estimated starting salary, national average, average in your area, and whether the field is growing, stable, or declining
+Students use the checklist on the Deep Dive to circle one strong source label and repair one incomplete claim. A partner may check labels, but the research remains individual.
 
-Numbers come from the Hats & Ladders Hat page, BLS, and the app's Career Plan. The Skills Check on page 286 is Activity 2.
+## Exit Ticket (5 min)
 
-!!! tip "Facilitation Tip"
-    Rung 3 is one of the three rungs this week has to protect if a testing day eats a period. If the simulation is running long, cut the decision log to the three categories named in Support rather than cutting Rung 3. The salary numbers on page 286 are the ones 5SW's budget week builds a full monthly budget from, and 6SW pulls into the finished ladder.
+**Which career requirement will take the most planning for you? Name the evidence and one realistic first step.**
 
----
+Students retain the Deep Dive for Day 5, save their work, close source tabs, and return devices to the assigned charging or storage location.
 
-## Activity 2: Debrief — Career vs. Lifestyle (8 min)
+## Supports and Fallbacks
 
-After students complete the Sim, run a quick whole-class debrief. Ask:
-
-1. Who ran out of money? Why?
-2. Who had to give up something they really wanted?
-3. Who picked an expensive lifestyle and could afford it? What career did you have?
-4. Who picked a cheap lifestyle on purpose? Why?
-5. How does the Sim's salary compare to the starting salary you just wrote on Rung 3 for your own career goal?
-
-Compare the choices that balanced with the ones that did not. Ask what changed when students adjusted the career, housing, transportation, or entertainment line. Do not rank the careers; keep the discussion on the tradeoff each budget made visible.
-
-**Stop and Jot:** Close the debrief with the Skills Check on page 286. Give students 3 minutes and the three lines the workbook prints: skills this career might need, skills I already have, and skills I will need to build. Post a stem for the third line, "A skill I will need to build is _____, and I can start by _____." Read the third line over shoulders. Whichever skill shows up most across the room is the one to name again on Day 5 when students write their mid-year update.
-
-**DOK 3:** What conclusions can you draw about the relationship between the career you want and the lifestyle you can afford? Did the simulation change your thinking about your top career from yesterday?
-
----
-
-## Exit Ticket (3 min)
-
-**EXIT TICKET** (Trade-off / Dilemma Analysis) · [Printable PDF](../../resources/exit-tickets/4sw-wk1-day3-xello-quick-sims-the-real-game.pdf):
-
-You finished The Real Game. You got ONE career and ONE monthly budget. Now imagine your SAME career, but you have to pick between two lifestyles:
-
-- **(A) Cheaper lifestyle** (smaller apartment, used car, eat-at-home): you save $400/month extra.
-- **(B) More-expensive lifestyle** (nicer apartment, newer car, eat out weekly): you save nothing extra but enjoy more now.
-
-Pros of picking A: _______________________________________________________
-
-Pros of picking B: _______________________________________________________
-
-My choice (A or B): ________
-
-Quality list: patience / discipline / flexibility / dedication / self-awareness / confidence.
-
-Which QUALITY does my choice require MOST, and why is it the right quality for this specific tradeoff? *(d(5)(D), d(8)(A))*
-
-   My quality: _______________________
-
-   Why: ____________________________________________________________
-
-Submit your Real Game decision log and your Rung 3 pages with this ticket.
-
----
-
-## Differentiation
-
-- **Support:** Pre-print the decision log with the categories already filled in. Students only have to add their choices and the dollar amounts. For students who struggle with budgeting math, pair them with a partner who tracks the running total while they make choices.
-- **Extension:** After completing the Sim once, restart it with a different career (one that pays significantly less or more). Compare the two budget outcomes side by side. Which lifestyle was more sustainable? Then check the Rung 3 outlook box against BLS. Is the field growing, stable, or declining, and does that change the comparison?
-- **ELL:** Xello includes Spanish-language interface options, confirm with your district admin and direct ESL students to the language toggle if available. Pre-teach: Budget = Presupuesto, Salary = Salario, Expense = Gasto, Savings = Ahorros, Rent = Alquiler, Training = Capacitación. Rung 3's education box is a checkbox list, so students can complete it before writing anything in prose.
+- **Absent, workbook unavailable, or web blocked:** Use the enlarged guide and dated career card in Canvas.
+- **Support:** Research one source at a time and use the labeled fields.
+- **Extension:** Compare the same statistic from two sources and explain why the figures differ.

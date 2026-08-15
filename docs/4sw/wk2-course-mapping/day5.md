@@ -1,121 +1,111 @@
-# Day 5: Career Plan Write-Up — The d(8)(C) Artifact
+# Day 5: Individual High School and Career Plan
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Course Planning
+- **Objective:** Students will synthesize self-evidence, current course evidence, three possible postsecondary preparation routes, one advanced or college-credit option, and an action and revision plan into one individual high school and career plan.
+- **TEKS:** d(8)(B), d(8)(C), d(3)(D)
+- **Demonstration of Learning:** Individual High School and Career Plan with student-visible 16-point rubric.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Synthesize all Week 1-2 work into a written individual Career Plan; finalize the H&L Career Plan in the platform; submit the d(8)(C) summative deliverable for the year |
-| **TEKS** | d(8)(C), d(8)(B), d(3)(D) |
-| **5E Phases** | Engage: Warm-Up · Explore: Gather Week 1 and Week 2 artifacts · Explain: Career Plan write-up · Evaluate: H&L finalization and Exit Ticket |
-| **Deliverable** | Submitted Career Plan (printed and digital): the year's d(8)(C) summative artifact |
-| **Materials** | Chromebooks, H&L accounts + *Find Your Future* workbook pp. 292-296 ("Rung 6: Goal Setting", "Rung 7: High School Plan"), printed Career Plan template, Day 1-4 worksheets from this week and Week 1, projector |
+| **Objectives** | Synthesize self-evidence, current course evidence, three possible postsecondary preparation routes, one advanced or college-credit option, and an action and revision plan into one individual high school and career plan |
+| **TEKS** | d(8)(B), d(8)(C), d(3)(D) |
+| **5E Phases** | Engage: Warm-Up · Explore: Gather source evidence · Explain: Individual plan · Evaluate: Rubric self-check and submission |
+| **Deliverable** | Individual High School and Career Plan with student-visible 16-point rubric |
+| **Materials** | Week 1 Mid-Year Career Blueprint, retained Week 2 evidence folder, four-page Individual High School and Career Plan, on-screen two-page rubric, one device per student, paper or enlarged plan and rubric only for students assigned that route |
 
 ---
 
 ## Warm-Up (5 min)
 
-**WARM-UP: If someone gave you 90 seconds at a family dinner to explain your entire career plan from now through age 25, what would you say?**
+**WARM-UP: What is one part of your plan that feels supported by evidence and one part that is still a question?**
 
-Ask 1-2 volunteers to deliver the 90-second pitch. While they speak, have listeners mark the career goal, course plan, education path, and first action they hear. Those are the sections students will put into today's formal Career Plan.
-
----
-
-## Activity 1: Gather All the Pieces (7 min)
-
-Students take 10 minutes to lay out every artifact from Week 1 and Week 2 on their desk:
-
-- **Week 1 Day 1:** Core Types vs. Favorites worksheet
-- **Week 1 Day 2:** The Career Iceberg
-- **Week 1 Day 3:** Real Game decision log
-- **Week 1 Day 4:** Pathway Ranking Sheet
-- **Week 1 Day 5:** My Career Journey Mid-Year Update
-- **Week 2 Day 1:** MS-to-HS Transition worksheet (endorsement, courses, test)
-- **Week 2 Day 2:** 4-Year Course Map screenshot
-- **Week 2 Day 3:** Family Career Plan Letter (their copy)
-- **Week 2 Day 4:** Experience Action Plan
-
-Every Career Plan section pulls from one of these artifacts. If something is missing, students reconstruct it from H&L now.
-
-!!! tip "Facilitation Tip"
-    Walk the room with a checklist. Students who have lost worksheets can pull screenshots from their drive (they should have the Day 2 Course Planner screenshot from this week and the Career Iceberg from Week 1). The 10-minute prep step is essential, students who skip it will be missing data when they start writing.
+Students write privately. Ask for examples of evidence types rather than personal answers: assessment result, daily work, source-checked course, prerequisite, preparation requirement, or adult feedback.
 
 ---
 
-## Activity 2: Write the Career Plan (25 min)
+## Activity 1: Gather the Evidence Set (5 min)
 
-**Source:** (FYF pp. 294-296: "Rung 7: High School Plan") + (FYF pp. 292-293: "Rung 6: Goal Setting")
+Students open or lay out:
 
-Distribute the printed Career Plan template. The template has 8 required sections, each pulls directly from a Week 1-2 artifact:
+- Week 1 Mid-Year Career Blueprint;
+- Day 1 Transition and Assessment Decisions;
+- Day 2 Four-Year Course Plan Draft;
+- Day 3 College Credit Options and Conversation;
+- Day 4 SMART Experience Action Plan; and
+- the student-visible rubric.
 
-1. **My Career Goal** (1 sentence): From the Career Iceberg + Pathway Ranking
-2. **My Core Personality Type and Why It Matches** (2-3 sentences): From the Core Types vs. Favorites worksheet
-3. **My Chosen Pathway and Campus** (1-2 sentences): From Pathway Ranking Sheet
-4. **My 4-Year High School Course Map** (table, summarized from Day 2 screenshot)
-5. **What I Need After High School** (sentences): Degree, certification, apprenticeship, military, or industry exam from MS-to-HS worksheet
-6. **My Three Action Steps for This School Year:** Direct copy from Experience Action Plan
-7. **One Professional Organization I Will Join:** From Pathway Ranking Sheet
-8. **One Family Member I Will Share This With:** Connects to the Family Letter
+These checkpoints are source material. Students submit the four-page Individual Plan only; Days 1-4 are not four additional Major uploads.
 
-Students write in pen on the printed template. They can use complete sentences or bullet points, both are valid.
-
-**Time, Voice, Body (TVB):** post the three blocks before the templates go out. Voice 0 for the full write with a visible countdown, pens only, and every Week 1 and Week 2 artifact laid out on the left of the desk so nobody leaves their seat hunting for a worksheet.
-
-Sections 4, 5, and 6 are the workbook's three goal horizons in Career Plan form: the course map is the medium-term high school goal, the postsecondary section is the long-term goal, and the action steps are the short-term goal students wrote on Day 4.
-
-The Career Plan is the **d(8)(C) summative artifact** for the year. Students must connect a career goal to their own course, education, and experience choices in one plan.
-
-!!! tip "Facilitation Tip"
-    For students who freeze at the writing task, sit with them for 90 seconds and have them tell you their plan out loud. Write down their first sentence for them. After that they almost always finish the rest themselves.
+If an artifact is missing, the student uses the matching Canvas guide and source card. A missing platform screenshot is not required.
 
 ---
 
-## Activity 3: Finalize H&L Career Plan + Submit (10 min)
+## Activity 2: Write the Individual Plan (28 min)
 
-**Source:** H&L App. Career Plan submission
+Students complete the four-page Individual High School and Career Plan in three chunks.
 
-> [H&L PLATFORM] Students return to the H&L Career Plan tool one final time. They confirm: (1) the core personality type from **Discover Your Core** is recorded, (2) at least 3 favorited Hats are tagged, (3) the chosen pathway is selected, (4) any coach messaging or notes are filled in. Confirm with your H&L district admin whether the Career Plan has a "submit to coach" workflow, if it does, every student should submit so it shows up on your coach dashboard for grading.
+Use the 28-minute block as 8 minutes for Chunk 1, 10 minutes for Chunk 2, and 8 minutes for Chunk 3, with a one-minute source check after each of the first two chunks. If class ends before all four rubric criteria are represented, move the student to the recovery window rather than deleting a criterion to force submission.
 
-After H&L finalization, students submit the printed Career Plan template to the teacher in-tray. Tell students to keep the plan somewhere they can find it in the spring. The workbook's completion check (FYF p. 299: "Prepare & Present") asks them to show this high school plan as part of the capstone presentation in 6SW, and a plan that goes missing has to be rebuilt from scratch.
+**Chunk 1: Direction and self-evidence**
 
-**DOK 4:** Based on everything you have learned this semester about career planning, what criteria would you use to evaluate whether your plan is strong enough to guide your decisions for the next 4-6 years?
+- current career direction or pathway question;
+- two specific pieces of self-evidence; and
+- evidence that would cause the student to reconsider.
+
+**Chunk 2: Course and postsecondary evidence**
+
+- four-year course sequence or linked course-plan draft;
+- one prerequisite chain;
+- one item marked for counselor verification;
+- three possible preparation routes after high school;
+- one route to investigate first without treating it as permanent;
+- one AP, dual-credit, or other advanced option with source/date; and
+- one limitation or question.
+
+**Chunk 3: Action, support, and revision**
+
+- action within seven days;
+- action before the next counseling meeting;
+- action during Grade 9;
+- support or resource;
+- backup; and
+- a specific revision rule.
+
+**Time, Voice, Body (TVB):** Keep source packets on the left and the plan on the right. Use Voice 0 during each writing block and a visible timer. Offer Voice 1 only during the optional evidence check.
+
+**DOK 3:** Which part of the plan is most likely to change after a counselor meeting, and which career goal or skill should remain protected even if the course sequence changes?
 
 ---
 
-## Exit Ticket (3 min)
+## Activity 3: Self-Score and Revise (7 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/4sw-wk2-day5-career-plan-write-up-the-d-8-c-artifact.pdf):
+Students use the 16-point rubric before submission. They circle one descriptor in each row and revise one section that is at Approaches, Needs Improvement, or Insufficient Evidence.
 
-My career goal from my Career Plan: _______________________
+The teacher scores evidence and reasoning. Do not score family availability, adult agreement, English mechanics unless meaning is unclear, handwriting, art, accent, or platform access.
 
-Connect this goal to THREE things:
+---
 
-**1. The Irving ISD pathway + campus I selected** (from my Career Plan Section 3)
+## Exit Ticket and Submission (5 min)
 
-   Pathway: _______________________ at _______________________. One sentence on why THIS pathway (not a different one) is the strongest match for my goal:
+**EXIT TICKET** (3-2-1 Reflective) · [Printable PDF](../../resources/exit-tickets/4sw-wk2-day5-individual-high-school-and-career-plan.pdf):
 
-   ___________________________________________________________________
+- **3** parts of my plan supported by evidence
+- **2** questions I will take to a counselor or trusted adult
+- **1** condition that would make me revise the plan
 
-**2. My 9th-grade gateway course** (from my 4-year course map)
-
-   9th-grade course: _______________________. In one sentence, what happens to my pathway if I DON'T take this course in 9th grade?
-
-   ___________________________________________________________________
-
-**3. My first action step THIS MONTH** (from my Experience Action Plan)
-
-   First action: _______________________. What ONE small thing will I do THIS WEEK to start it?
-
-   ___________________________________________________________________
+Students submit the plan privately in Canvas as a file, text, or brief audio response. Paper submission is equal. This draft prepares students for the counselor-controlled Xello planning tasks; it does not count as `Submit course requests` or parent approval.
 
 *(d(8)(B), d(8)(C), d(3)(D))*
-
-Submit this on top of your Career Plan.
 
 ---
 
 ## Differentiation
 
-- **Support:** Modified Career Plan template with sentence stems pre-filled for each section: "My career goal is to become a _____. I will need to take _____ courses in high school. After high school, I will _____. My first action step is _____ this month." Bullet point format is acceptable.
-- **Extension:** Add a 9th section called "Plan B", what is the backup pathway if the first choice does not work out, and what is the overlap between the two plans?
-- **ELL:** Bilingual Career Plan template with Spanish sentence stems and bilingual headers. Allow students to write the response side in Spanish if more comfortable. Pre-teach: Career Goal = Meta profesional, Action Step = Paso de acción, Postsecondary = Postsecundaria.
+- **Support:** Use the four-page scaffold with one labeled prompt per evidence job. Let students dictate one section before writing or use speech-to-text. A fictional career goal is an equal route for the three-route comparison.
+- **Extension:** Build a second plan that protects the same goal through a different course or training route, then compare the risks.
+- **ELL:** Use the sentence frames "My current direction is... because my evidence shows..." and "I will revise this plan if..." Score the evidence, not grammar unless meaning is unclear.

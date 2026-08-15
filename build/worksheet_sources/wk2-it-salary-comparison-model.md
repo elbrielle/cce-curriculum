@@ -1,5 +1,5 @@
 ---
-title: IT Salary Comparison Worksheet (Software Developer Model)
+title: IT Salary Comparison Evidence Model
 slug: wk2-it-salary-comparison-model
 kind: worksheet
 weeks: 1sw/wk2-programming-it
@@ -9,66 +9,60 @@ language: en
 pages: 2
 orientation: portrait
 ---
-**Career 1 is filled in for you as a model.** Read it first. Then fill in Career 2 and Career 3 the same way. Career 2 is **Web Developer**. Career 3 is any other programming or IT career you want to know about.
+Use this guide beside the five-page IT Salary Comparison packet. It shows how to label evidence without supplying numbers that may be outdated or belong to a different career.
 
-**My prediction, before I look anything up.** The programming career that pays the MOST is _______________________ because
+## Model Career Evidence Record
 
-[[lines: 2]]
+**Exact career title:** Copy the complete title displayed in H&L or Xello.
 
-## Compare the 3 Careers
+### HQIM localized salary
 
-The **DFW salary** row comes from Xello local data unless your teacher gives you a dated, verified H&L range. The other rows come from the BLS page for that career.
+- **Platform:** Write H&L or Xello.
+- **Geography shown:** Copy the location displayed with the figure.
+- **Measure shown:** Write range, median, average, or the exact label shown.
+- **Figure:** Copy the figure with its unit, such as per year or per hour.
+- **Date viewed:** Write today's date.
 
-| Field | Career 1 (model) | Career 2 | Career 3 |
-|---|---|---|---|
-| **Career Name** | Software Developer | | |
-| **DFW Salary** (Xello or teacher-verified local range) | Teacher adds the current verified local range and retrieval date | | |
-| **BLS National Median** (the pay row in Quick Facts) | About $130,000 a year | | |
-| **Typical Education** (school needed to start) | Bachelor's degree (4 years of college) | | |
-| **Job Growth Rate** (the Job Outlook percent) | About 17%, much faster than average | | |
+### External national cross-check
 
-**The model numbers are not forever.** BLS changes them every year. Look at the live page. If your number is different from mine, cross mine out and write yours.
+- **BLS occupation title:** Copy the BLS title. It may be broader than the HQIM career.
+- **National median and data year:** Keep both together.
+- **Typical entry education:** Copy the labeled BLS field.
+- **Job outlook:** Record the percent and projection years.
+- **Jobs or openings:** Copy the exact field label; total jobs and annual openings are not the same.
 
-**Median pay is not starting pay.** The median is the middle of everyone in that career, not the first paycheck. That is why the model shows $70,000 to start and about $130,000 in the middle.
+### One-sentence task model
+
+**Too vague:** This person works with computers.
+
+**Specific:** This worker designs, tests, or improves a named digital product or system for a named user.
+
+[[lines: 3]]
 
 [[pagebreak]]
 
-## Notes From the BLS Page
+## Model Comparison Reasoning
 
-| Field | Career 1 (model) | Career 2 | Career 3 |
-|---|---|---|---|
-| **Number of Jobs** (how many people do this now) | About 1.7 million in the United States | | |
-| **What they do** (one sentence from the What They Do tab) | Software developers design and build the computer programs and apps that people use every day. | | |
-| **A DFW company that might hire this career** | AT&T | | |
+### Keep unlike measures separate
 
-## Think About Your Data
+**Not ready:** Career A pays more because its number is bigger.
 
-**1. Which career has the HIGHEST salary?** Name it, then write the number.
+**Ready:** H&L or Xello shows Career A's localized **[measure]** as **[figure]** for **[geography]** on **[date]**. BLS shows Career B's **national median** as **[figure]** for **[data year]**. Those figures use different measures, so I will not treat them as a direct same-basis ranking.
 
-[[lines: 2]]
+### Use two comparable facts
 
-**2. Which career has the FASTEST job growth? Are they the same career?**
+**Recommendation frame:** I recommend ____________________ because its ____________________ is ____________________. Its preparation differs from ____________________ because ____________________.
 
-[[lines: 2]]
+[[lines: 4]]
 
-**3. Check your prediction.** Look back at the top of page 1. Were you right? What surprised you?
+### Explain a source difference
 
-[[lines: 2]]
+The sources may differ because they use a different career title, geography, year, or measure. The difference I notice is
 
-## IT Career Fit Reflection (fill in on Day 5)
+[[lines: 3]]
 
-**1.** The IT pathway I rated was ______ because
+### Career-fit frame
 
-[[lines: 1]]
+My Personality Style result included ____________________. This career fits / does not fit / might fit because the work requires ____________________, and my evidence is ____________________.
 
-**2.** One fact from my salary table that changed or confirmed my thinking was
-
-[[lines: 1]]
-
-**3.** One IT career I reviewed was ______. It fits / does not fit me because
-
-[[lines: 1]]
-
-**4.** Can I see myself working in IT? Yes, no, or not sure. Use evidence from this week:
-
-[[lines: 1]]
+[[lines: 4]]

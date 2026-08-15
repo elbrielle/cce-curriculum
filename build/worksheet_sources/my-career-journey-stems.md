@@ -74,12 +74,12 @@ Something I still want to know about careers or about school after high school i
 
 Fill in at least three names. You do not have to fill in all four.
 
-A family member: ______________________________________________
+A family member role or initials: ______________________________________________
 
-A teacher: ______________________________________________
+A teacher, counselor, or mentor role/initials: ______________________________________________
 
-A coach or club sponsor: ______________________________________________
+A coach, club sponsor, friend, or other support role/initials: ______________________________________________
 
 A friend: ______________________________________________
 
-*Keep this page. You will see it again in January and May.*
+*Your teacher will keep this reflection available for the mid-year review and final capstone. You will not resubmit the same artifact.*

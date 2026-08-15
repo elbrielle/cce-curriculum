@@ -1,31 +1,34 @@
-# Day 5: Mini-Presentations + Xello Skills + Wk3 Wrap-Up
+# Day 5: Emerging-Career Pitches + Xello Learning Style
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Evidence
+- **Objective:** Students will identify and evaluate an emerging or rapidly changing Information Technology occupation by presenting dated work, preparation, pay, growth, and exact/proxy evidence from their research.
+- **TEKS:** d(1)(C), d(1)(D)
+- **Demonstration of Learning:** One-minute evidence pitch using the completed research sheet plus the required Xello Learning Style quiz and Learning Style/IT connection sheet.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Deliver a 2-minute mini-presentation on a researched emerging IT career; complete the Xello Add Skills activity; reflect on Networking and Web Development pathways |
-| **TEKS** | d(1)(C), d(1)(D), d(4)(B) |
-| **5E Phases** | Engage: Warm-Up · Explain: Emerging tech mini-presentations and group vote · Extend: Xello Add Skills applied to the student's own life · Evaluate: Exit Ticket |
-| **Deliverable** | 2-minute mini-presentation + Xello Skills updated |
-| **Materials** | Chromebooks, Xello accounts, completed Emerging Tech Research Templates from Day 4 ([Printable PDF](../../resources/worksheets/wk3-emerging-tech-research-template.pdf)), App Design Packet and Emerging Tech Pitch Rubric ([Printable PDF](../../resources/worksheets/wk3-app-design-rubric.pdf)), projector |
+| **Objectives** | Deliver a one-minute evidence pitch on a researched IT occupation; complete the required 20-minute Xello Learning Style quiz; connect one learning strategy to an IT task |
+| **TEKS** | d(1)(C), d(1)(D) |
+| **5E Phases** | Engage: Pitch rehearsal · Explain: Emerging-career evidence pitches · Extend: Xello Learning Style quiz and strategy connection · Evaluate: Written evidence packet |
+| **Deliverable** | One-minute evidence pitch + Xello Learning Style completion + Learning Style/IT connection sheet |
+| **Materials** | Chromebooks, rostered Xello accounts, completed Emerging Tech Research Templates ([Printable PDF](../../resources/worksheets/wk3-emerging-tech-research-template.pdf)), Learning Style and IT Career Connection sheet ([Printable PDF](../../resources/worksheets/wk3-day5-learning-style-connection.pdf)), App Design Packet and Emerging Career Evidence Rubric ([Printable PDF](../../resources/worksheets/wk3-app-design-rubric.pdf)), licensed Xello *My Learning Styles* prerequisite guide, projector |
 
 ---
 
-## Warm-Up (5 min)
+## Pitch Setup and Rehearsal (4 min)
 
-**WARM-UP: You have now spent 2 weeks in IT. Has your interest in IT gone up, down, or stayed the same since last Wednesday? Write one sentence explaining why.**
-
-Quick share. Ask students whose interest changed to name the fact that changed it. During today's presentations, each student will hear about emerging IT careers beyond the one they researched.
+Students highlight six items on the Day 4 research sheet: career, work task, preparation, pay and year, growth and year range, exact/proxy label, and emerging-work explanation. They rehearse the opening and closing once with a partner or quietly to themselves.
 
 ---
 
-## Activity 1: Emerging Tech Mini-Presentations (25 min)
+## Activity 1: Emerging Tech Lightning Pitches (20 min)
 
-Students share their Day 4 research in small groups of 4-5 (NOT as a whole class, too many presentations). Each student gets 2 minutes to pitch their emerging career to the group.
-
-**Time, Voice, Body:** Post the three blocks before the first presenter. Voice 0 while a presenter sets up, Voice 3 for the presenter, Voice 1 for the star and wish. A visible 2 minute countdown runs on the screen for every pitch, and research templates stay face down until the presenter finishes so listeners are listening.
+Students share their Day 4 research in groups of four or five. Each student gets one minute to explain the evidence. The current slide shows the six pitch jobs and a visible one-minute countdown. After each pitch, one listener gives one evidence-based star and asks one question. The pitch is communication practice; the teacher does not have to score several groups simultaneously.
 
 **Pitch structure (project on screen):**
 
@@ -36,77 +39,41 @@ Students share their Day 4 research in small groups of 4-5 (NOT as a whole class
 5. **Why it's emerging:** What new technology made this job exist?
 6. **One DFW company** that hires for this role
 
-After each presentation, the group gives ONE star (something good) and ONE wish (something they wish they had heard more about). After all presentations in a group, the group VOTES on which emerging career they think will be most in-demand in 10 years.
-
-Walk between groups and listen for students using transferable skills vocabulary (problem-solving, communication, attention to detail) when they describe their careers. Score Presenter Delivery on the App Design Packet and Emerging Tech Pitch Rubric ([Printable PDF](../../resources/worksheets/wk3-app-design-rubric.pdf)) as you circulate, and enter the week's 16-point total once the Day 3 packets are added to it.
+Walk between groups and listen for the difference between the selected title and the BLS occupation used. Note students who call a proxy exact or turn a national median into a local starting salary; correct those claims before the research packet is scored.
 
 !!! tip "Facilitation Tip"
-    Tell students BEFORE presentations: "You are not graded on perfection. You are graded on whether you can explain your career to someone who has never heard of it. If your group can summarize what your career is after your pitch, you succeeded."
+    Tell students before presentations: "The pitch is practice. Use the evidence sheet so your listener can explain the work and the source limit when you finish."
 
-**DOK 4:** If you were advising a current 8th grader on which IT pathway to choose for high school, what evidence from this week (Networking, Web Development, OR an emerging career) would you use to support your recommendation?
-
----
-
-## Activity 2: Xello Add Skills Activity (12 min)
-
-**Source:** Bowie Grade 8 Xello Completion Standard, "Add skills"
-
-Xello student accounts are rostered by the district and reach students through the same SSO tile as the rest of their Xello work, so confirm with your campus tech coordinator that this section appears on your Xello roster before the week starts rather than troubleshooting logins during the period.
-
-Direct students to Xello and have them complete the Add Skills activity. Xello asks students to identify skills they have, skills they want to develop, and skills they think are important for future careers. This is the Xello equivalent of the H&L Building Blocks activity from Wk0.
-
-For each skill they add, students should write a short sentence explaining where they use that skill (school, sports, hobbies, family). Examples:
-
-- **Communication:** "I use this when I help my younger sister with her homework."
-- **Problem-solving:** "I use this when I figure out how to beat hard levels in video games."
-- **Time Management:** "I use this when I juggle school, soccer practice, and chores."
-
-Tell students: "These skills are the FOUNDATION for the careers you've been researching. Both H&L and Xello are tracking what you have to offer."
+**Check for understanding:** Ask one group to explain why a proxy can still be useful and what it cannot prove.
 
 ---
 
-## Activity 3: Wk3 Reflection (5 min)
+## Activity 2: Required Xello Learning Style Quiz (20 min)
 
-Students write a quick 3-sentence reflection in their workbook margin:
+**Source:** Bowie Grade 8 Xello Completion Standard, **Learning Style quiz**. The live completion minimum is 20 minutes with the quiz completed; no prerequisite is shown in the authenticated configuration. The licensed *My Learning Styles* prerequisite guide supports a 15-20 minute launch and reflection. The separate 70-minute *Learning styles* lesson is an optional extension that assumes additional prerequisites and is not required here.
 
-1. The IT pathway I am most interested in after this week is _____.
-2. The transferable skill I am strongest in is _____.
-3. The emerging IT career I want to remember is _____.
+Confirm the roster and Completion Standards report before class. Students use the district SSO and do not create another account.
 
-This is data for the Wk0 → 6SW Final Career Plan growth check.
+Students open **About Me > Learning Style**, complete the quiz, and review the result. They record one strategy Xello recommends or one strategy they already know works for them on the connection sheet.
+
+Do not present the result as a fixed label or a limit on what the student can do. The useful evidence is the learning method the student can try in a real class task.
 
 ---
 
-## Exit Ticket (3 min)
+## Activity 3: Learning Style and IT Connection (6 min)
 
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/1sw-wk3-day5-mini-presentations-xello-skills-wk3-wrap-up.pdf):
+Students complete the Learning Style and IT Career Connection sheet. They name one learning strategy, one class task where it could help, one IT career from the week, one part of that work that may fit, and one challenge plus a strategy. The final interest call may be more interested, less interested, or about the same; all three are valid when supported by one fact from the week.
 
-The IT career I am most interested in after this week: _______________________
+---
 
-Connect this career to THREE things:
+## Evidence Collection and Close
 
-**1. An Irving ISD pathway** (Computer Science at Irving High / MacArthur / Nimitz, Programming & Digital Tech at Singley, or Cybersecurity at Singley)
-
-   My pathway: _______________________ at _______________________ High School. Why does this pathway connect to my career choice? One sentence:
-
-   ___________________________________________________________________
-
-**2. One transferable skill from my Xello Add Skills today**
-
-   My transferable skill: _______________________. Where do I already USE this skill in my life (school, sports, hobbies, family)? One sentence:
-
-   ___________________________________________________________________
-
-**3. An emerging IT career from a CLASSMATE's Day 5 pitch** (not your own)
-
-   Classmate's emerging career: _______________________. Does my chosen career OR the classmate's emerging career have a faster path in Irving ISD? Circle: MINE / CLASSMATE'S. One sentence why: ___________________________________________________________________
-
-*(d(1)(C), d(1)(D), d(4)(B))*
+Collect or verify the Day 3 app packet and Day 4 research sheet as one Major 1 submission. Use the 16-point rubric. Check the Xello Completion Standards report separately; a platform completion click is not part of the major grade.
 
 ---
 
 ## Differentiation
 
-- **Support:** Allow students who are uncomfortable presenting to record a 2-minute video of their pitch instead of presenting live, using the Chromebook Camera app in video mode (or Screencastify if your campus has it), saved into the student's own Google Drive CCE folder and shared with you.
+- **Support:** Students may read from the evidence sheet, give the pitch privately to the teacher, record a one-minute audio response in the approved private Canvas assignment, or submit an equivalent written evidence brief. Use the same content criteria; public confidence is not scored.
 - **Extension:** Students who finish early help a classmate refine their pitch by giving extra feedback. They can also watch one of the H&L "From the Field" interview videos and connect what the professional says to their researched career.
-- **ELL:** Provide bilingual presentation sentence stems: "The career I researched is _____ (La carrera que investigué es _____). It is emerging because _____ (Es emergente porque _____)."
+- **ELL:** Provide complete-thought frames: "The career I researched is _____. BLS reports _____ for the broader/exact occupation _____. This work is changing because _____." Students may rehearse or present in Spanish while keeping the source labels and numbers accurate.

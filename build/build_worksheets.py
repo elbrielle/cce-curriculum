@@ -48,7 +48,6 @@ Usage:
 
 import argparse
 import asyncio
-import html as html_mod
 import re
 import subprocess
 import sys
@@ -413,8 +412,13 @@ def render_html_for(sheet, env):
 
 FOOTER_STYLE = (
     "font-family:'Source Sans 3',Arial,sans-serif;font-size:7.5pt;color:#8a95a1;"
-    "width:100%;margin:0 0.55in;padding-top:4pt;border-top:0.5pt solid #c8d0d7;"
-    "display:flex;justify-content:space-between;align-items:baseline;"
+    "box-sizing:border-box;width:100%;margin:0;"
+    # Chromium's header/footer layer can shift toward an outer edge on even
+    # pages. Keep one compact page label centered instead of anchoring text to
+    # both crop edges; the worksheet title is already visible on page 1.
+    "padding:4pt 0.75in 0;border-top:0.5pt solid #c8d0d7;"
+    "display:flex;justify-content:center;align-items:baseline;"
+    "background:#ffffff;position:relative;z-index:9999;overflow:visible;"
     "-webkit-print-color-adjust:exact;"
 )
 
@@ -422,12 +426,11 @@ FOOTER_STYLE = (
 def footer_template(sheet):
     return (
         '<div style="%s">'
-        '<span style="letter-spacing:0.02em;">%s</span>'
         '<span style="letter-spacing:0.06em;text-transform:uppercase;">'
         'Irving ISD CCE &middot; Page <span class="pageNumber"></span>'
         ' of <span class="totalPages"></span></span>'
         "</div>"
-    ) % (FOOTER_STYLE, html_mod.escape(sheet.title))
+    ) % FOOTER_STYLE
 
 
 HEADER_TEMPLATE = '<div style="display:none"></div>'

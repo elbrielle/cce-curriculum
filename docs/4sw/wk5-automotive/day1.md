@@ -1,121 +1,92 @@
-# Day 1: Crash Crew — Collision Report
+# Day 1: Crash Crew: Visible Evidence and Preliminary Plan
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
-## Lesson Overview
+- **Topic:** Career Clusters
+- **Objective:** Students will explore and describe the Transportation, Distribution, and Logistics career cluster and identify automotive career opportunities by separating visible evidence from questions for a trained inspection.
+- **TEKS:** d(1)(B), d(1)(C)
+- **Demonstration of Learning:** Individual FYF p. 151 collision report plus three bounded inspection questions, a broad process sequence, and one changed-vehicle occupation response.
+<!-- CCE DAILY CONTRACT END -->
+## Lesson overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Work the "Crash Crew" collision repair activity: inspect a damaged vehicle, complete a Collision Report, and build a step-by-step repair plan with a partner; browse the Transportation cluster in the Hats & Ladders app and meet the Automotive & Collision Repair Hats |
-| **TEKS** | d(1)(C), d(1)(B) |
-| **5E Phases** | Engage: Warm-Up · Explore: Vehicle inspection and Collision Report · Explain: Repair plan and class discussion · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Collision Report (vehicle description, area of damage, at least 3 damaged parts, visible damage description, probable cause) plus a step-by-step repair plan with a repair-or-replace call and a reason for each part |
-| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook Transportation chapter (printed pp. 149-170), Crash Crew pages (printed pp. 150-152), projector |
+| **TEKS** | d(1)(B), d(1)(C) |
+| **Target** | I can describe the Transportation cluster and show how an automotive worker separates visible evidence from questions for a trained inspection. |
+| **Evidence** | FYF p. 151 collision report, three bounded questions, broad process sequence, and changed-vehicle occupation response |
+| **Materials** | One FYF workbook and one Canvas-capable device per student; one projector; private text/upload/annotation Assignment; optional three-page companion, one per student only for no-workbook, enlarged, annotation, or paper access; one paper collection tray |
 
----
+## Before class
 
-## Warm-Up (5 min)
+1. Default to one workbook and one device per student, one projector, and zero prints. Students keep the workbook after the teacher checks p. 151 during the second lap; Canvas collects the bounded questions, sequence, and changed-vehicle response.
+2. For the paper or no-workbook route, print one three-page **Crash Crew Evidence Companion** per student and collect all three pages in one labeled tray. The companion replaces the workbook/Canvas route; students do not complete both.
+3. Project this supplied model: **part:** left front bumper cover; **visible condition:** cracked near the left light; **bounded question:** “What approved inspection is needed before deciding whether the bumper cover can be repaired or must be replaced?”
+4. Project the non-example: “The frame is safe and the sensor only needs resetting.” The image cannot support either conclusion.
+5. Keep Hats & Ladders optional. No live vehicle, shop tool, diagnostic device, personal story, Hat title, or login is required.
 
-**WARM-UP: Picture a car you have seen after a crash. Name one thing that was damaged that you could SEE. Name one thing that might be damaged that you could NOT see.**
+## Warm-up: Seen and not yet known (5 min)
 
-Take 4-5 student responses. Students usually name bumpers, doors, and broken glass first. Add the frame, radiator, airbag sensors, and wiring behind a panel. A collision repair technician has to inspect visible and hidden damage before writing the repair plan students will make today.
+Students name one condition visible after a collision and one condition that could not be confirmed from a photograph. Sort answers under **visible evidence** and **requires inspection**.
 
----
+Do not invite stories about identifiable crashes. Students may use the fictional workbook vehicle only.
 
-## Activity 1: Crash Crew — Examine the Vehicle (12 min)
+## Activity 1: Read the Crash Crew problem (8 min)
 
-**Source:** (FYF pp. 150-151: "Crash Crew", Steps 1-2), a Career Climb activity
+Use FYF pp. 149-150. Students identify:
 
-Open the workbook to page 150 and read the introduction together. Collision repair is about bringing damaged cars back to life after accidents. Auto body technicians inspect a vehicle, decide which parts can be fixed and which have to be replaced, and use specialized tools to make the car safe and looking right again. The workbook calls every repair a puzzle, and students are the technician who has to solve this one. A damaged vehicle has arrived at their shop.
+- the Transportation cluster connection;
+- the fictional customer or shop need;
+- what the images can show; and
+- what a photograph cannot prove about structural, electrical, restraint, or mechanical safety.
 
-**Chunking:** Run the two steps as separate chunks with a check between them, because the workbook deliberately separates looking from writing.
+State the boundary plainly: this is a preliminary classroom evidence exercise. A real vehicle requires an authorized trained inspection and manufacturer/shop procedures.
 
-**Step 1: Examine the Vehicle.** Students study the damage images on page 150 from every angle and write nothing at all. Give the full time to looking. Close the chunk with a quick verbal check: can each student name one damaged area out loud before any pencil moves? Students who start filling in boxes during Step 1 tend to record the first dent they see and miss the rest of the car.
+## Activity 2: Observe before writing (12 min)
 
-**Step 2: Complete the Collision Report.** Students turn to page 151 and fill in the report:
+Use the Crash Crew vehicle views and FYF p. 151. Students complete the workbook collision report independently, then audit it for:
 
-- **Vehicle Description:** color, type, general condition
-- **Area of Damage:** check all that apply from front, rear, left side, right side, top, bottom, tires
-- **Damaged Parts:** list at least 3 parts they believe are damaged
-- **Visible Damage Description:** what the damage actually looks like, in detail
-- **What do you think happened:** the probable cause of the damage
+- view or area;
+- exact visible condition;
+- likely part name, marked **confirm** when uncertain; and
+- one additional inspection or information need.
 
-!!! tip "Facilitation Tip"
-    "Damaged Parts" and "Visible Damage Description" are the two boxes students blur together. Parts are nouns a shop would order (bumper cover, headlight assembly, hood, fender). The description is what the metal and glass look like (creased, cracked, pushed in toward the wheel). Give one example of each from the projected image and let students find the rest.
+Require neutral observation words: cracked, creased, missing, shifted, scratched, or pushed inward. Reject claims such as “the frame is safe” or “the airbag sensor works” when the image cannot show that.
 
----
+## Activity 3: Build a preliminary plan (15 min)
 
-## Activity 2: Create the Repair Plan (25 min)
+Students select three visible conditions. In the private Canvas response or companion, they record:
 
-**Source:** (FYF p. 152: "Crash Crew", Step 4)
+1. the part or system to confirm;
+2. the repair/replace question a trained technician would investigate;
+3. the evidence or procedure still needed; and
+4. where the decision belongs in a broad shop sequence.
 
-!!! warning "The workbook skips Step 3"
-    Crash Crew is printed with Step 1, Step 2, then Step 4. There is no Step 3 anywhere in the activity. Tell students before they turn the page so nobody hunts for a missing task or assumes they lost a worksheet.
+Use this safe model sequence: **document and protect the vehicle → complete structural/mechanical/electrical inspection → follow approved repair information → repair or replace as authorized → refinish when applicable → calibrate/verify systems when applicable → final quality and safety checks.** Students do not invent tool settings, structural pulls, airbag work, or calibration instructions.
 
-Students work with a partner. The workbook lets them use a computer to research three things while they plan: how damaged car parts are repaired, what tools collision repair uses, and whether a given part is usually repaired or replaced.
+## Activity 4: Changed vehicle (5 min)
 
-The plan has three pieces on page 152:
+New fictional condition: the same visible panel damage appears on a vehicle with cameras and sensors behind the bumper. Students name one step they would keep, one question they would add, and the evidence that makes the change necessary.
 
-1. **Part / Repair or Replace? / Why?** Students list the damaged parts from their Collision Report, make the call on each one, and give the reason behind the call.
-2. **Step-by-Step Repair Plan.** How they would fix the vehicle, in as many steps as the job needs.
-3. **Time Estimate.** Several hours, 1-2 days, or several days, plus the reasoning behind the estimate.
+## Exit ticket (5 min)
 
-**Active Monitoring:** Walk a fixed pathway twice while pairs work. Lap 1 target: every part on the list has a repair-or-replace call AND a reason, not just a checked box. Lap 2 target: the step-by-step plan runs in an order a shop could actually follow, with structural work before paint. Have feedback ready for the two predictable errors: replacing every part because replacing sounds safer, and painting before the panel underneath is straightened. If more than a handful of pairs miss the lap 2 target, pause the room and walk one sequence on the board instead of fixing it pair by pair.
+**EXIT TICKET** (Mini-Case) · [Printable PDF](../../resources/exit-tickets/4sw-wk5-day1-crash-crew-visible-evidence-and-preliminary-plan.pdf):
 
-After the plans are written, run the workbook's Class Discussion (p. 152):
+Scenario: A customer points to the workbook photograph and says, “The damage is only cosmetic, so the vehicle is safe to drive.”
 
-- How does understanding the car's structure help make better repair decisions?
-- Which tools or techniques were most important for your repair plan, and why?
-- How might the age or type of car change how you plan the repairs?
-- What Powerskills do you think are most important for a collision repair technician?
+1. Record one condition the image supports.
 
-**Think-Pair-Share:** Take the last two prompts to pairs. 30 seconds of silent Think, then Partner A for 30 seconds and Partner B for 30 seconds, then two pairs share with the whole class. Post two stems: "An older car changes the plan because _____" and "A collision repair technician needs _____ most because _____."
+2. Record one conclusion the image does **not** support.
 
-**DOK 3:** Two technicians look at the same damaged part and disagree, one says repair and one says replace. What evidence would settle the disagreement? Name at least two things they could check.
+3. Name one automotive occupation that would contribute next and explain its bounded role.
 
----
+## Monitoring and supports
 
-## Activity 3: Quick Browse — Automotive & Collision Repair Hats (5 min)
-
-> [H&L PLATFORM] Students open the Hats & Ladders app, go to Clusters, and click the Transportation, Distribution, and Logistics cluster, following the app path on the workbook's App Exploration page (FYF p. 170: "App Exploration"). They browse the Automotive & Collision Repair Hats, glance at 2-3 of them (Autobody Technician, Automotive Engineering Technician, Diesel Technician), and rate at least 3 Hats. Students note that the education indicator here looks different from the engineering Hats they explored earlier in the year: apprenticeship plus certification rather than a 4-year degree.
-
-This is a preview, not a deep dive. Day 2 covers ASE certification and Day 5 comes back to the app to favorite careers.
-
----
-
-## Exit Ticket (3 min)
-
-**EXIT TICKET** (Venn Diagram Comparison) · [Printable PDF](../../resources/exit-tickets/4sw-wk5-day1-crash-crew-collision-report.pdf):
-
-Both **Auto Service Technician** and **Collision Repair Technician** are Transportation cluster careers you saw in H&L today. Fill in the Venn Diagram below.
-
-```
-     AUTO SERVICE TECH                   COLLISION REPAIR TECH
-     ----------------------              -----------------------
-
-     (different: 2 things              (different: 2 things
-      only Auto Tech does)              only Collision does)
-
-
-
-                        (overlap: 2 things
-                         BOTH careers do)
-
-```
-
-- **Unique to Auto Service Tech:** ___________________________________
-
-- **Unique to Collision Repair Tech:** ___________________________________
-
-- **Shared by both:** ___________________________________
-
-Bottom line: a student who loves PAINT + BODY WORK should pick which career, and why? *(d(1)(B), d(1)(C))*
-
-   ___________________________________________________________________
-
----
-
-## Differentiation
-
-- **Support:** Pre-fill the Vehicle Description box and one of the three Damaged Parts lines on the Collision Report so students start from a model instead of a blank page. Give a labeled car diagram (hood, fender, bumper cover, headlight assembly, quarter panel) so students can name parts without hunting for vocabulary. Pair with a peer for the Step 1 inspection.
-- **Extension:** Students who finish the repair plan early pick one tool they named and research what it does, what it costs a shop, and which ASE certification area covers it. They bring one sentence back to Day 2.
-- **ELL:** Bilingual Collision Report labels. Pre-teach: Collision = Colisión, Damage = Daño, Repair = Reparar, Replace = Reemplazar, Part = Pieza, Tool = Herramienta, Frame = Chasis, Dent = Abolladura. The workbook damage images carry the whole inspection visually, so ELL students can complete Step 1 without reading. Sentence stem for the repair-or-replace call: "Yo reemplazaría _____ porque _____."
+- **CFU at minute 10:** sample five responses for the part/condition distinction. Reteach with the supplied model if fewer than four are accurate.
+- **Lap 1, minutes 15-20:** check neutral evidence words and **confirm** on uncertain labels. Prompt, “What can the image prove?”
+- **Lap 2, minutes 28-34:** check one bounded question before students sequence the work. If more than one-third prescribe a repair, contrast the model and non-example.
+- **Pivot:** students who need support complete one strong bounded question, the full broad sequence, and the changed-vehicle response. Do not cut the individual occupation connection.
+- **Trim:** skip whole-group sharing. Protect the final five-minute exit response and Canvas/paper collection.
+- Provide a labeled body-parts diagram and bilingual labels: part/pieza, condition/condición, visible/visible, inspect/inspeccionar, repair/reparar, replace/reemplazar.
+- A student may type, dictate, annotate, or write. Partner talk is optional; the evidence remains individual.
+- At minute 45, students save the Canvas response or place the complete paper set in the tray. An absent or interrupted student uses the same private Assignment and embedded images; no live vehicle or personal car knowledge is required.

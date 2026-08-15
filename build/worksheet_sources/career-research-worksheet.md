@@ -10,7 +10,7 @@ pages: 1
 orientation: portrait
 ---
 
-**One career per sheet.** Fill in all six parts. Start in the Hats & Ladders app. Then check your pay and training facts in one more source before you write them down.
+**One career per sheet.** Fill in all six parts. Use the source your teacher assigns. Hats & Ladders, Xello, or another approved source may help you explore, but do not invent a fact when a site is unavailable.
 
 **1. Name of Career**
 
@@ -34,14 +34,14 @@ How much school or training do you need after high school?
 
 [[lines: 2]]
 
-**5. Average Salary**
+**5. Salary Evidence**
 
-How much does this job pay in one year?
+Record the number or range, salary type (for example, median or typical range), geography, source, and data year.
 
 [[lines: 1]]
 
 **6. What Tools, Equipment, or Skills are Needed for This Career?**
 
-[[lines: 4]]
+[[lines: 3]]
 
 *Keep this sheet. You will use these same six parts in every career week this year.*

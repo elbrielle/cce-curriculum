@@ -1,115 +1,93 @@
-# Day 1: Cybersecurity Pathway + CyberSeek Career Map
+# Day 1: Evaluate an Emerging Cybersecurity Occupation
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
+
+- **Topic:** Emerging Cybersecurity Work
+- **Objective:** Students will research and evaluate an emerging cybersecurity occupation by comparing duties, common preparation, pay, projected growth, and one source limitation.
+- **TEKS:** d(1)(D)
+- **Demonstration of Learning:** Students complete one possible cybersecurity route and use two dated BLS facts plus one limitation to explain why Information Security Analyst qualifies as an emerging occupation.
+<!-- CCE DAILY CONTRACT END -->
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Explore the Cybersecurity pathway in H&L; investigate Information Security Analyst, Penetration Tester, and Security Consultant Hats; trace a path from middle school to a cybersecurity career using CyberSeek |
-| **TEKS** | d(1)(D) |
-| **5E Phases** | Engage: Warm-Up · Explore: Cybersecurity Hat research in the app · Explain: CyberSeek pathway walkthrough · Evaluate: Exit Ticket |
-| **Deliverable** | Cybersecurity career notes + CyberSeek pathway traced from entry-level to advanced |
-| **Materials** | *Find Your Future* workbook pp. 36-38, Chromebooks, engineering notebooks, CyberSeek.org, printed CyberSeek pathway sheet ([Printable PDF](../../resources/worksheets/wk5-cyberseek-pathway.pdf)), BLS Information Security Analysts page, projector |
+| **Core source** | Cybersecurity Career Route Guide |
+| **Supplemental** | Live CyberSeek or H&L browse after a student-filter check |
+| **Materials** | FYF pp. 36-38, Route Guide, highlighters, projector |
 
----
+## Before Students Arrive
 
-## Warm-Up (5 min)
+1. Post or print the [Cybersecurity Career Route Guide](../../resources/worksheets/wk5-cyberseek-pathway.pdf).
+2. Open FYF pp. 36-38 in Canvas.
+3. If using CyberSeek or H&L, test the exact path on a student Chromebook and write the retrieval date on the board. The fixed guide still carries the required evidence.
+4. Do not prepare a salary ladder or promise that students move from one title to the next. The three roles are examples of experience that can build toward cybersecurity.
 
-**WARM-UP: Have you, a friend, or a family member ever been hacked, scammed, had a password stolen, or received a fake email pretending to be from a real company? What happened?**
+## Bellringer — Who Protects the System? (5 min)
 
-Quick share, many students will have personal stories. Bridge: "Every one of those situations had a person on the OTHER side trying to protect you. That person is a cybersecurity professional. This week we meet them."
+**Prompt:** A school account is sending messages that its owner did not write. What needs to happen first: investigate the account, redesign the school's website, or buy every student a new device? Explain.
 
----
+Expected reasoning: investigate the account and protect access before spending money or changing an unrelated system.
 
-## Activity 1: H&L Cybersecurity Pathway Exploration (20 min)
+## Activity 1 — District Context and Source Labels (10 min)
 
-**Source:** (FYF pp. 36-37: "What is Happening at My District?") + (FYF p. 38: "App Exploration")
+Use FYF pp. 36-38 to locate the district-customized Information Technology programs and IBC explanation. Distinguish three ideas:
 
-The workbook no longer prints an Information Technology pathway list. What it prints instead is better: the district pages name **Cybersecurity** as one of Irving ISD's four Information Technology programs of study, describe it as preparing students for careers in information security through network security, cyber threats, and risk management, and name the **Cybersecurity Fundamentals** industry-based certification and the **CyberPatriot** student organization that go with it. Put those two names on the board before students open the app; they come back on Day 4.
+- a **program of study** is a high-school route;
+- an **occupation** is work people are paid to do; and
+- a **credential** is evidence of a skill or requirement, not a job guarantee.
 
-> [H&L PLATFORM] Direct students to the H&L app, then to Clusters, then to the Information Technology Cluster, which is the path the App Exploration page uses (FYF p. 38). Inside the cluster, students use the Hat Finder to explore four specific Hats: Information Security Analyst, Cybersecurity Specialist, Penetration Tester (Ethical Hacker), and Security Consultant.
+Model the labels on the Route Guide: May 2024 **U.S. median**, 2024-34 **projection**, and **typical** preparation. A median is not starting pay. A projection can change.
 
-**The 4 Cybersecurity Hats to explore:**
+## Activity 2 — Compare Three Roles and Build a Route (25 min)
 
-1. **Information Security Analyst:** The most common cybersecurity job. Monitors networks for threats, responds to attacks, sets up firewalls and security policies. Median salary in DFW: $90,000+.
-2. **Cybersecurity Specialist:** Broader title that covers many specializations. Could focus on cloud security, mobile security, application security.
-3. **Penetration Tester (Ethical Hacker):** Hired by companies to TRY to hack into their systems and find vulnerabilities BEFORE bad guys do. Requires deep technical skill plus integrity.
-4. **Security Consultant:** Independent expert who advises companies on how to improve their security. Often a senior role with 10+ years of experience.
+Students read the three role cards in order:
 
-Students spend ~5 minutes per Hat and write down in their engineering notebooks:
+1. Computer User Support Specialist;
+2. Network and Computer Systems Administrator; and
+3. Information Security Analyst.
 
-- Hat name
-- Education needed
-- DFW or national salary
-- One thing that surprised them
+They complete the five route steps, then highlight:
 
-**Stop and Jot:** Put those four fields on the screen before the first Hat and take a 45 second jot at the end of each Hat rather than one jot at the end of all four. Two stems for students who stall: "A _____ needs _____ years of training and earns about $_____" and "I did not expect this job to _____."
+- one duty that changes across the roles;
+- one preparation fact;
+- the Information Security Analyst median and growth projection; and
+- one limitation of the evidence.
 
-!!! tip "Facilitation Tip"
-    Ethical Hacker / Penetration Tester is the role that gets the most student excitement. Tell them the truth: yes, it's an awesome job, but it requires YEARS of programming and networking experience first. You don't start there. You START as an Information Security Analyst and work up.
+**Stop and Jot:** “The source helps me understand ___, but it does not tell me ___.”
 
----
+Useful limitations include national rather than DFW data, median rather than starting pay, one occupation title rather than every cybersecurity role, and a projection rather than a guarantee.
 
-## Activity 2: CyberSeek Career Pathway Map (20 min)
+## Activity 3 — Pair Evidence Check (5 min)
 
-**Source:** [cyberseek.org/pathway.html](https://www.cyberseek.org/pathway.html): Free interactive map maintained by NICE (National Initiative for Cybersecurity Education)
+Partner A reads one source fact and the route it supports. Partner B asks, “What does that fact not prove?” Switch.
 
-!!! warning "Before Monday: Link Check"
-    Open [cyberseek.org/pathway.html](https://www.cyberseek.org/pathway.html) on a student Chromebook, on the student network, days before this lesson. This one site carries the whole 20 minutes, and district filters treat security-topic sites unevenly. Check the BLS Information Security Analysts page the same way. The live job count moves, so read the number off the screen on the day instead of promising a figure in advance. If either site is blocked, file the unblock request early and run the activity from the printed CyberSeek pathway sheet ([Printable PDF](../../resources/worksheets/wk5-cyberseek-pathway.pdf)), which carries the four layers and the five-step frame on one page.
+H&L or CyberSeek may be opened as a dated comparison if time remains. Students label exactly what the site shows instead of forcing a live title or count to match the fixed guide.
 
-Project the CyberSeek Career Pathway Map on the screen. CyberSeek shows the progression from entry-level cybersecurity careers to advanced senior roles. It also shows real-time data on how many jobs are open in the US right now (the number is shockingly high, usually 500,000+).
+## Exit — Emerging Occupation Evaluation (5 min)
 
-Walk students through the 4 layers of the CyberSeek pathway:
+Students write four concise lines:
 
-1. **Entry-Level (0-3 years):** Cybersecurity Specialist, Cyber Crime Analyst, IT Auditor
-2. **Mid-Level (3-7 years):** Cybersecurity Analyst, Penetration Tester, Cybersecurity Consultant
-3. **Advanced (7+ years):** Cybersecurity Manager, Cybersecurity Engineer, Cybersecurity Architect
-4. **Senior:** Cybersecurity CISO (Chief Information Security Officer)
+1. Information Security Analyst is an emerging occupation because ___% projected growth is higher than the all-occupations projection of about 3%.
+2. One common preparation fact is ___.
+3. One duty is ___.
+4. One reason the evidence could change or be incomplete is ___.
 
-For each layer, click on a job title and look at:
+## Teacher Key and Monitoring
 
-- Number of currently open jobs in the US
-- Median salary
-- Common certifications required (CompTIA Security+, CISSP, CEH)
+- BLS: $124,910 May 2024 U.S. median; bachelor's degree plus related experience typical; 29% projected growth for 2024-34; about 16,000 openings per year on average.
+- The Route Guide is not a fixed ladder. Accept a different possible route when the student labels it honestly.
+- Reject claims that the median is starting pay, the occupation is entry-level for everyone, or a certification guarantees a job.
+- A student may conclude “not interested” and still demonstrate mastery.
 
-**Student task:** Each student picks ONE entry-level cybersecurity job and traces a 5-step pathway from where they are NOW (7th grade) to becoming that professional. Steps go on the printed CyberSeek pathway sheet ([Printable PDF](../../resources/worksheets/wk5-cyberseek-pathway.pdf)), or in the engineering notebook under the Hat notes:
+## Supports
 
-1. Now: 7th grade
-2. High school (9-12): Singley Cybersecurity pathway + Cybersecurity Fundamentals certification
-3. After high school: Community college, 4-year college, OR direct entry with CompTIA A+ + Security+
-4. First job: Entry-level cybersecurity role
-5. 5 years later: Mid-level role you want to reach
+- Pre-teach median, projection, related experience, certification, and source limitation.
+- Let students highlight the exact line before writing.
+- Use the frame: “This career is changing because ___. The source may not show ___.”
+- Allow oral rehearsal or speech-to-text for the evaluation.
 
-**DOK 3:** What conclusions can you draw about the gap between the number of open cybersecurity jobs in the US and the number of qualified workers? What does this mean for someone starting now?
+## If a Site Is Blocked or a Student Is Absent
 
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/1sw-wk5-day1-cybersecurity-pathway-cyberseek-career-map.pdf):
-
-Rank these three CyberSeek cybersecurity careers from FASTEST to reach (1) to SLOWEST (3) starting from 7th grade today.
-
-- Cybersecurity Specialist (entry-level, 0-3 years): rank ____
-- Cybersecurity Engineer (advanced, 7+ years): rank ____
-- Cybersecurity CISO (senior / Chief Information Security Officer): rank ____
-
-For EACH rank, write one specific reason (education time, certifications required, or job experience) from today's CyberSeek research.
-
-- Rank 1 (fastest to reach): _______________________________________________________
-
-- Rank 2: _______________________________________________________
-
-- Rank 3 (slowest): _______________________________________________________
-
-Bottom line: CyberSeek showed hundreds of thousands of OPEN US cybersecurity jobs. In one sentence, explain why "high-demand" means these jobs get FILLED faster than people can be trained. *(d(1)(D))*
-
-   ___________________________________________________________________
-
----
-
-## Differentiation
-
-- **Support:** Hand out the printed CyberSeek pathway sheet ([Printable PDF](../../resources/worksheets/wk5-cyberseek-pathway.pdf)), which lists the four layers and pre-labels the five steps so students write in their target job instead of building the frame. For the Hat notes, project one completed example row beside the four field headings (Information Security Analyst, bachelor's degree, $90,000+ in DFW, "did not expect it to be mostly monitoring") so students copy the format into the notebook before the first Hat.
-- **Extension:** Students explore the **NOVA Cybersecurity Lab** game (free, PBS): [pbs.org/wgbh/nova/labs/lab/cyber/](https://www.pbs.org/wgbh/nova/labs/lab/cyber/). It is an interactive game that teaches phishing, password security, and basic ethical hacking concepts.
-- **ELL:** Bilingual cybersecurity vocabulary: Hacker = Hacker, Virus = Virus, Contraseña = Password, Análisis = Analysis, Firewall = Cortafuegos, Phishing = Suplantación de identidad. CyberSeek does not have full Spanish translation, so pair ELL students with bilingual peers.
+The fixed Route Guide is the normal required source. A student completes the same route and emerging-occupation evaluation without a live platform.

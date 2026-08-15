@@ -1,114 +1,63 @@
-# Day 1: Hospitality Cluster + Culinary Twist
+# Day 1: Culinary Twist Menu Design
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Hospitality Careers
+- **Objective:** Students will explore and describe the CTE career clusters and identify career opportunities within one or more career clusters using evidence from Career Clusters.
+- **TEKS:** d(1)(B), d(1)(C)
+- **Demonstration of Learning:** Completed FYF pp. 112-113 Culinary Twist plan and menu plus a reader revision and transferable-skill check in the Canvas practice text entry or teacher-provided index card.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Explore the Hospitality and Tourism cluster in the workbook and the Hats & Ladders app; complete the "Culinary Twist" creative dish design activity; experience the creative side of culinary careers |
+| **Objectives** | Explore the Hospitality and Tourism cluster; plan a dish within ingredient constraints; create a clear menu item; connect a design skill to another career |
 | **TEKS** | d(1)(B), d(1)(C) |
-| **5E Phases** | Engage: Warm-Up · Explore: Chapter opener and app cluster exploration · Explain: Menu mockup and dish presentations · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Culinary Twist dish description + menu mockup |
-| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook pp. 111-113 and p. 126, printed menu mockup template, colored pencils/markers, projector |
-
----
+| **5E Phases** | Engage, Explore, Explain, Evaluate |
+| **Deliverable** | FYF pp. 112-113 Culinary Twist plan and menu plus reader revision and transferable-skill check |
+| **Materials** | Per student: FYF workbook opened to pp. 111-113, pencil, and optional colored pencils or markers. Paper-only evidence route: one index card. Teacher: projector and six visible special-ingredient choices. Device only for the optional Canvas, Canva, or Adobe Express route. Do not print the no-workbook brief as a class set. |
 
 ## Warm-Up (5 min)
 
-**WARM-UP: What is the best meal you've ever had at a restaurant? What made it special, the food itself, the way it was served, the atmosphere, or something else?**
+**WARM-UP:** Think of one meal or snack that felt special. Which detail mattered most: flavor, presentation, service, setting, or timing? Explain the choice.
 
-Take 3-4 student responses. Sort their answers into the food itself and the experience around it, such as service, timing, setting, or presentation. Today's chef task asks students to plan for both.
+Sort responses into food decisions and guest-experience decisions. Students use both kinds of thinking today.
 
----
+## Activity 1: Open the Cluster (8 min)
 
-## Activity 1: Hospitality & Tourism Cluster Tour (10 min)
+**Source:** (FYF p. 111: "Exploring the World of HOSPITALITY AND TOURISM")
 
-**Source:** (FYF p. 111: "Exploring the World of HOSPITALITY AND TOURISM") + (FYF p. 126: "App Exploration")
+Read the opener and the fall-festival decision. Students identify at least three kinds of work in the cluster and choose whether food or entertainment should receive more of a fictional festival budget. Require one guest need in the reason, such as safety, comfort, access, cost, or enjoyment.
 
-Open the workbook to page 111 and read the opener together. Hospitality and Tourism is about creating experiences people will remember. Event planners, hotel managers, chefs, tour guides, and entertainment teams all work to make guests feel welcomed, comfortable, and excited to be there. The page puts three Hats in front of students: **Food Critic**, **Chef**, and **Augmented Reality Tour Creator**. The chapter prints no pathway list, so the pathways come from the app.
+H&amp;L Cluster Tour and Game Time are optional. The embedded FYF page and teacher explanation carry the core when the platform is unavailable.
 
-Read the **"Be the Decision Maker"** prompt on the same page: you are in charge of planning a huge fall festival that will bring visitors in from all over the country. Do you focus more on live entertainment or on food experiences? How will you keep guests comfortable, safe, and excited all the way through?
+## Activity 2: Plan the Culinary Twist (12 min)
 
-**Think-Pair-Share:** 30 seconds of silent Think, then Partner A for 30 seconds, then Partner B for 30 seconds. Two pairs share with the whole class.
+**Source:** (FYF pp. 112-113: "Culinary Twist," Steps 1-3)
 
-> [H&L PLATFORM] Working from the App Exploration page (FYF p. 126), students open the Hats & Ladders app, go to **Clusters**, click the **Hospitality and Tourism Cluster**, watch the **Cluster Tour** video, and play **Game Time**. They write down one thing they learned. If time is tight, students finish the rest of the App Exploration page on Day 5.
+Students choose four or five base ingredients. A partner or teacher assigns one special ingredient. Students explain how the special ingredient changes flavor, texture, color, or presentation and list at least two preparation steps.
 
----
+Model one complete evidence chain using a workbook example: **pomegranate seeds → crush some into a dressing and keep some whole → add tart flavor, red color, and crunch to a festival taco salad.** Point out that this is a communication model, not a recipe or safety guarantee. Do not prepare or taste food. Students should not promise that a fictional dish is safe for every customer.
 
-## Activity 2: "Culinary Twist" — Choose Ingredients and Plan Your Dish (15 min)
+## Activity 3: Build and Test the Menu Item (20 min)
 
-**Source:** (FYF pp. 112-113: "Culinary Twist"), a Career Climb activity, Steps 1-3
+Students create a dish name, price, two- or three-sentence description, and labeled sketch on FYF p. 113. The optional no-workbook brief, Canvas annotation, Canva, and Adobe Express are equal alternate routes; students do not complete both the workbook and the brief.
 
-Read the workbook background on page 112 together: students step into a chef's role and create their own dish, but with a twist. A partner chooses one special ingredient the dish must feature, and the goal is to find a creative way to work it in.
+At minute 12, students run the reader checklist. A customer should be able to identify the dish, main ingredients, special ingredient, and price. Students revise one unclear part.
 
-Release the steps one at a time and model the whole chain once on the projector with a single example dish before students choose anything.
+**Active-monitoring pivot:** By minute 25, every student should have a dish name, price, description, and labeled sketch in progress. If more than one quarter of the class is missing an element, pause for a 60-second whole-group model that labels all four. If time compresses, skip the 30-second share; preserve the reader revision, transfer check, and five-minute collection/reset.
 
-**Step 1: Choose Your Base Ingredients.** Students circle four to five ingredients from the workbook's five groups (p. 112):
+**DOK 2:** Which skill from this task transfers best to a non-cooking career: working with constraints, describing a product, pricing, or visual communication? Use one example.
 
-- **Proteins:** Chicken, Ground Beef, Steak, Pork Chops, Eggs, Tofu, Black Beans
-- **Carbohydrates:** Pasta, Rice, Potatoes, Bread, Tortillas
-- **Fruits and Vegetables:** Green Beans, Tomatoes, Lemons, Ginger, Spinach, Jalapenos, Onions, Bell Peppers, Cantaloupe, Watermelon, Strawberries
-- **Dairy:** Butter, Milk, Cheese, Cream, Yogurt, Sour Cream
-- **Sauces and Seasoning:** Ketchup, Mustard, Mayonnaise, Soy Sauce, Pepper, Salt, Olive Oil, Tomato Sauce, Hot Sauce
+## Share and Exit Check (5 min)
 
-**Step 2: Incorporate Your Special Ingredient.** A partner picks ONE special ingredient the student must use. The workbook's examples (p. 112): Squid Ink, Pomegranate Seeds, Marshmallow Fluff, Sprinkles, Coffee Beans, Gummy Bears, Syrup. Students write it on the line provided.
+Students give a 30-second menu explanation to a partner, teacher, or voice recorder, then submit the reader revision and transferable-skill check through the Canvas practice text entry. A paper-route student uses one teacher-provided index card. Workbook students do not complete the three-page no-workbook brief. Public presentation is optional.
 
-**Step 3: Plan Your Dish.** Students answer the two workbook prompts on page 113: how will you creatively incorporate your special ingredient, and how will you prepare the dish?
-
-!!! tip "Facilitation Tip"
-    Some students will pick the obvious combo (marshmallow fluff + bread = dessert sandwich). Ask them to change the ingredient's form or role: coffee beans ground into a steak rub, squid ink stirred into pasta dough, or gummy bears melted into a glaze. Professional chefs work within ingredient, cost, and customer constraints.
-
----
-
-## Activity 3: Menu Mockup and Dish Presentations (15 min)
-
-**Source:** (FYF p. 113: "Culinary Twist", Steps 4-5)
-
-**Step 4: Create a Menu Mockup.** Distribute the printed menu mockup template. The workbook asks for four things, and all four are graded:
-
-- **A name for the dish** (creative and memorable)
-- **A short description** (2-3 sentences in restaurant menu style, appetizing language)
-- **A price**
-- **A sketch of what the dish looks like**
-
-Post one strong description and one flat one on the projector and let the room name the difference before students write their own.
-
-**Step 5: Present Your Dish.** Students get into groups of three or four, present their dish, and explain how they incorporated their special ingredient.
-
-Close with the workbook's own Class Discussion prompts (p. 113): how do people with culinary art careers incorporate creativity into their jobs, beyond cooking what other skills would a chef need to be successful, and which of your Building Blocks would help you be successful as a chef?
-
-**DOK 2:** A chef needs creativity AND skill. Which skill from this activity (creativity, working with constraints, presenting your work) connects most to a NON-cooking career you could imagine yourself in?
-
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/3sw-wk4-day1-hospitality-cluster-culinary-twist.pdf):
-
-Scenario: A new hotel with its own restaurant is opening near your school. Irving ISD trains students for two programs of study in this cluster: **Culinary Arts** and **Lodging and Resort Management**. The hotel can hire ONE person first.
-
-1. Which program should the hotel hire from FIRST? Circle one.
-
-   CULINARY ARTS / LODGING AND RESORT MANAGEMENT
-
-2. Name ONE job in that program. In one sentence, say what that person does on their first day at work.
-
-   Job: _______________________
-
-   First-day task: ___________________________________________________
-
-3. My Culinary Twist special ingredient today was _______________________. In one sentence, how would my dish fit this hotel restaurant's menu?
-
-   ___________________________________________________________________
-
-*(d(1)(B), d(1)(C))*
-
-Submit your menu mockup and dish description with this ticket.
-
----
+**DELIVERABLE:** FYF pp. 112-113 or the no-workbook brief with all four menu elements and three sketch labels, plus the reader revision and transferable-skill check in Canvas text entry or on one index card.
 
 ## Differentiation
 
-- **Support:** Pre-fill the menu mockup template with the category labels and a price range. Provide an example dish description as a model.
-- **Extension:** Run "Restaurant Rebrand" (FYF pp. 114-116). As the new head chef, sort the four customer complaints into what needs to improve, pick a restaurant theme (Neon/Glow in the Dark, Music, Reading/Books, Time Travel, Technology, Sports, or your own), and lay out a full menu with two appetizers, two main dishes, a specialty drink, and a dessert.
-- **ELL:** Pre-teach: Dish = Plato, Ingredient = Ingrediente, Menu = Menú, Chef = Chef. The menu mockup can be written in English, Spanish, or both. Many real restaurant menus in Texas use both languages.
+- **Support:** Offer two possible special ingredients, keep the model visible, and use the point-of-use frame: “The special ingredient changes the ____ by ____.” The optional brief includes the labeled plate outline and a complete transfer frame.
+- **Extension:** Use FYF pp. 114-116, "Restaurant Rebrand," to place the menu item inside a larger restaurant concept.
+- **ELL:** Use dish/plato, ingredient/ingrediente, menu/menú, price/precio, and customer/cliente. Rehearse the description orally before writing.

@@ -1,108 +1,41 @@
-# Day 1: Education Cluster Tour + Community Classroom
+# Day 1: Education Cluster + Community Classroom
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
-## Lesson Overview
+- **Topic:** Learning Design
+- **Objective:** Students will describe the Education and Training cluster and identify how two careers contribute to a learning-space design.
+- **TEKS:** d(1)(B), d(1)(C)
+- **Demonstration of Learning:** FYF team concept plus a two-page individual career-and-design explanation.
+<!-- CCE DAILY CONTRACT END -->
+## Target and Evidence
 
-| | |
-|---|---|
-| **Time** | 50 minutes |
-| **Objectives** | Explore the Education and Training cluster in the workbook and in the Hats & Ladders app; identify careers inside the cluster; design a learning space and a persuasive poster with a partner using the Community Classroom activity |
-| **TEKS** | d(1)(B), d(1)(C) |
-| **5E Phases** | Engage: Warm-Up and Be the Decision Maker · Explore: App Exploration and Community Classroom design · Explain: Poster presentation to another pair · Evaluate: Exit Ticket |
-| **Deliverable** | Community Classroom learning space design + persuasive poster, presented to a second pair |
-| **Materials** | Chromebooks, H&L accounts, *Find Your Future* workbook printed pp. 213-215 and p. 220, sticky notes, printed poster template or chart paper, projector |
+**TEKS:** d(1)(B), d(1)(C)
+**Evidence:** FYF team concept plus a two-page individual career-and-design explanation
 
----
+Students describe how Education and Training workers help people learn, then design a third-grade science learning space whose choices support specific learning goals.
 
-## Warm-Up (5 min)
+## Before Class
 
-**WARM-UP: Name your favorite teacher you have ever had. What made them great, their knowledge, their personality, the way they ran the classroom, or something else?**
+- Open the Canvas student guide and licensed FYF pp. 213-215.
+- Post the two-page Community Classroom individual-evidence companion and private annotation Assignment.
+- Default: one device and one FYF workbook per student, one projector, zero prints. Paper route: one two-page companion per student and one collection tray. Students use either paper or Canvas, not both.
+- Teams build the concept once in FYF. The companion collects individual reasoning only; no second poster or redraw is required.
 
-Take 3-4 responses. Point out that teachers plan the content, the room, and what students will do in it. Today students take on the room itself by designing a learning space.
+## 50-Minute Flow
 
----
+1. **Warm-up and cluster description — 5 min.** What did a teacher, coach, tutor, trainer, librarian, or museum educator help you learn?
+2. **Licensed scenario and model — 9 min.** Read FYF pp. 213-214. Model one design choice that connects to a science goal; decoration alone is not evidence.
+3. **Team concept and individual reasoning — 21 min.** Teams create the concept once in FYF. Each student records the goal, two career contributions, and why one design choice supports learning, access, safety, or clarity.
+4. **Booking decision and revision — 10 min.** Students write for a teacher deciding whether to reserve the space, then use a peer note, teacher conference, or self-check to recommend one revision.
+5. **Exit — 5 min.** Name one Education career, its contribution, one design choice, and the learning goal it supports.
 
-## Activity 1: Education and Training Cluster Tour (15 min)
+## Monitor and Key
 
-**Source:** (FYF p. 213: "Exploring the World of EDUCATION AND TRAINING") and (FYF p. 220: "App Exploration")
+- **Minute 12:** every student has a third-grade science goal and two distinct Education roles. If one-third lists decoration only, project the supplied soil-investigation model and rebuild one choice as goal → worker → design.
+- **Minute 30:** each team FYF concept shows the learning action; each student has explained one design choice and one access or safety need. Students behind use the supplied concept and continue the same individual questions.
+- **Minute 43:** the booking explanation names learning, not appearance alone, and includes one evidence-based revision.
+- Trim partner sharing and poster polish first. Protect the goal, role evidence, individual design reasoning, revision, submission, and cleanup.
 
-Open by framing this as the last six weeks of the year, starting with the cluster students have spent more hours inside than any other. Read the chapter opener together. Careers in Education and Training are about helping people learn, grow, and build skills for the future, in classrooms and in workplaces both.
+## Access, Absence, and Platform Route
 
-The opener puts three Hats on the page: **Curator**, **Early Childhood Teacher**, and **Middle School Teacher**. Ask the page's own question, how does each of those roles support learners? Curator is the surprise on that list, and it is the fastest route into the point that this cluster runs well past the K-12 classroom.
-
-1. **Think-Pair-Share:** Read the "Be the Decision Maker" prompt on page 213. Students are in charge of curriculum and learning at a school, and their job is to create a brand new class that every middle schooler must take. What is the class called, and what will students learn? Hold a silent 30 second Think, then time Partner A for 30 seconds and Partner B for 30 seconds. Two pairs share out, not one.
-2. **Watch the cluster tour video** in the H&L app. While watching, students use **Stop and Jot:** pause twice to write down one education career they did not know existed and one question they have.
-3. **Work the first half of the App Exploration page** (p. 220) and record the answers in the workbook.
-
-> [H&L PLATFORM] Follow the App Exploration page (FYF p. 220). Open the Hats & Ladders app, go to Clusters, and click the Education and Training Cluster. Students watch the "Cluster Tour" video, click "Game Time" and play the game, then write down one thing they learned. Next they find 1 Hat that matches their personality or interests and 1 Hat that feels like it is NOT a fit, and say why for each. The rest of the page, the Pathway Possibilities step and the three Hat ratings, is held for Days 2 and 5. The chapter prints no pathway list, so the app is where students meet the pathways inside this cluster.
-
-!!! tip "Facilitation Tip"
-    If students assume "Education = Teacher Only," push back immediately. Show them the range: Instructional Designer (curriculum for online courses), School Counselor, Principal, Librarian, Curator, Early Childhood Educator, Corporate Trainer, ESL Teacher, Special Ed Teacher. The cluster is much bigger than they think.
-
----
-
-## Activity 2: Community Classroom — Design the Space and the Poster (25 min)
-
-**Source:** (FYF pp. 214-215: "Community Classroom"), a Career Climb activity
-
-Read the setup on page 214. Outdoor classrooms can give students direct access to plants, weather, and soil; indoor spaces can put books, technology, and work surfaces within reach. Students are in charge of curriculum at a school, and they have to design a new learning space for third-grade science.
-
-**Step 1: Learn the Requirements (3 min)**
-
-From page 214:
-
-- The space can be indoors or outdoors
-- The focus is third-grade science
-- Teachers can sign up to use the space once a month
-
-The space must meet three learning goals: conducting experiments and investigations, asking questions and making observations to find answers, and understanding how science connects to everyday life. The page also lists what third graders study, so the space has to hold all of it: lifecycle of bugs and plants, weather patterns, magnets, fossils, the scientific method, and writing a science report.
-
-**Step 2: Brainstorm Ideas (7 min)**
-
-Students pair up and brainstorm on sticky notes against the four questions on page 215: how the space helps students and teachers meet the learning goals, what makes it innovative and exciting, what supplies it needs, and how it differs from a typical classroom and why it is better for teaching science.
-
-**Step 3: Create a Poster (11 min)**
-
-With the same partner, pairs design a colorful poster that does three things: explains the learning space concept (what is it, and how will it work?), persuades teachers to use it (why should they be excited to bring their students here?), and clearly states which learning goals the space meets, in words or pictures. Canva, Google Drawings, chart paper, or the printed poster template all work.
-
-**Step 4: Present Your Work (4 min)**
-
-Each pair presents its concept and poster to another pair, who play the third-grade teachers deciding whether to sign up. Presenters have to say what would convince a teacher to book the space.
-
-!!! tip "Facilitation Tip"
-    Project a sample poster on the board for 30 seconds before pairs start, to show what "persuasive" looks like (catchy headline, key features bulleted, a call to action like "Sign up today!"). Do not over-model. They need to make their own design choices.
-
-**DOK 2:** How would you compare your learning space to a typical classroom? Name 3 specific differences and explain why each one helps third-graders learn science better.
-
-**DELIVERABLE:** Learning space design (digital or paper) + persuasive poster, presented to a second pair. Both submitted to Google Classroom or the class binder.
-
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/6sw-wk1-day1-education-cluster-tour-community-classroom.pdf):
-
-Scenario: A DFW school district wants to create ONE new learning space AND ONE new training program for their staff. They have budget to hire ONE Education & Training professional (NOT a classroom teacher) to lead each.
-
-1. Which EDUCATION career would lead the STUDENT learning space? (Instructional Designer / School Counselor / Principal / Librarian / Curator / Special Ed Teacher / other)
-
-   My pick: _______________________
-
-2. Which EDUCATION career would lead the STAFF training program?
-
-   My pick: _______________________
-
-3. In one sentence, what is ONE skill my STUDENT-space career needs that my STAFF-training career does NOT need?
-
-   ___________________________________________________________________
-
-4. The MOST INNOVATIVE feature of MY Community Classroom design: _______________________
-
-*(d(1)(B), d(1)(C))*
-
----
-
-## Differentiation
-
-- **Support:** Provide a list of "design starters", outdoor garden, indoor lab with 4 stations, science discovery zone, greenhouse classroom, makerspace, so pairs can choose rather than start from scratch. Provide a poster template with headline + 3 bullet point sections pre-labeled.
-- **Extension:** Pairs who finish early take the workbook's Class Discussion questions (p. 215) to the pair that reviewed their poster: what kinds of feedback would you want before opening the space, and how can a learning space encourage curiosity and creativity? They then revise one feature of the design based on the answer.
-- **ELL:** Pre-teach: Learning Space = Espacio de aprendizaje, Classroom = Salón de clases, Outdoor = Al aire libre, Experiment = Experimento. The design activity is highly visual and accessible for all language levels. Provide bilingual sentence stems for the poster.
+The locked FYF images and two-page companion are the complete absence/platform route. If the workbook or team is unavailable, students use the **Soil Detectives Lab** concept supplied in both Canvas guides: compare sealed soil samples, record observations, and explain soil's effect on plant growth; teacher = investigation sequence; museum educator = picture prompts; low shelves, wide paths, sealed trays, and picture labels = access/safety; headline = “Investigate soil like a scientist”; feedback = labels look too similar; revision = add a different large picture and texture cue to each station. Students answer the same individual questions without inventing missing facts. Typing, dictation, annotation, enlarged print, and a scribe are valid. H&L is optional only.

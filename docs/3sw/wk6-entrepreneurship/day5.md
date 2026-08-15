@@ -1,134 +1,84 @@
-# Day 5: Personal Budget + Xello Save Careers
+# Day 5: Personal Budget and Xello Scholarship Profile
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
-## Lesson Overview
-
+- **Topic:** Personal Budget
+- **Objective:** Students will revise a personal budget so expenses do not exceed income, distinguish business revenue from personal income, and complete the required Xello Scholarship profile.
+- **TEKS:** d(3)(I), d(5)(D)
+- **Demonstration of Learning:** Personal Budget and Xello Scholarship Plan plus Xello Completion Standards report.
+<!-- CCE DAILY CONTRACT END -->
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Finish the Business cluster App Exploration page and pick the career whose salary drives your budget; build a personal budget on DFW cost-of-living data; use Xello to save favorite careers from this six weeks; reflect on the entire 3rd Six Weeks |
+| **Objective** | Revise a personal budget so expenses do not exceed income, distinguish business revenue from personal income, and complete the required Xello Scholarship profile |
 | **TEKS** | d(3)(I), d(5)(D) |
-| **5E Phases** | Engage: Warm-Up · Explore: Pathway Possibilities and the salary number · Extend: Personal budget build · Explain: Xello save and 3SW reflection · Evaluate: Exit Ticket |
-| **Deliverable** | Completed personal budget worksheet + Xello Save Careers entries + 3SW capstone reflection paragraph |
-| **Materials** | Chromebooks, H&L accounts, Xello accounts, *Find Your Future* workbook p. 254, printed Personal Budget worksheet with DFW cost-of-living data, projector |
+| **Evidence** | Personal Budget and Xello Scholarship Plan plus Xello Completion Standards report |
+| **Sources** | MIT Living Wage Calculator, Dallas County; Dallas College 2026 brief; Xello Scholarships Guide and official student video |
 
----
+## Before class
 
-## Warm-Up (5 min)
+- Post the Dallas County Living-Cost Planning Guide and Personal Budget and Xello Scholarship Plan. Default quantities: one Budget Plan pp. 1-2 per student, one Living-Cost Guide per pair or a projected copy, one calculator per student or pair, and one district-connected device per student for Xello. Print p. 3 only for the no-device Xello direction or catch-up route.
+- Open the official Xello Scholarships Guide and 2:02 student video.
+- Check the Xello Completion Standards report before class.
+- Keep Xello personal profile answers private. Do not require screenshots.
+- Ask students to open Entry 3 of the CCE Six-Weeks Evidence Log from their CCE binder or teacher-designated digital folder. The log stays with the student and is not collected.
 
-**WARM-UP: If you earned $4,000 a month, would that be enough to live the lifestyle you want? List the 3 biggest things you'd spend it on.**
+## 50-minute flow
 
-Take 4-5 student responses and group them as rent, transportation, food, phone, savings, or entertainment. Students will put amounts beside those categories using a career salary they researched this six weeks.
+### 1. Read the source labels — 5 minutes
 
----
+Display the four labels: Dallas County, one adult/no children, updated February 15, 2026, living-cost estimate. Ask what would make the number change.
 
-## Activity 1: Pathway Possibilities and Your Salary Number (10 min)
+Students use the fixed $3,450 monthly after-tax scenario. Do not convert an H&L or Xello median into starting pay or take-home pay.
 
-**Source:** (FYF p. 254: "App Exploration")
+### 2. Build and revise the budget — 20 minutes
 
-Four lifestyle questions frame the budget, and they sit at the top of the CCE budget worksheet: what kind of lifestyle do I want as an adult, where do I want to live and work, what will I want to buy, and what savings goals will I have? Put them on the board while students finish the App Exploration page they started on Day 1.
+Students copy the rounded reference amounts, add an optional savings goal, and total the first budget. They make one lifestyle choice and build a revised budget that does not exceed $3,450.
 
-> [H&L PLATFORM] Open the Hats & Ladders app, go to Clusters, click the Business, Marketing, and Finance Cluster, click "Pathway Possibilities" and answer the questions, then rate at least 1 pathway and at least 3 Hats. Students record their answers on page 254.
+They then:
 
-Each student then picks ONE career to budget on. It can be a Hat they rated today or any career they favorited during this six weeks, and they pull its DFW salary from the app. That number runs the whole budget.
+- calculate the percentage used by their two largest categories;
+- explain what could change for a different household; and
+- explain why business revenue is not the same as personal income.
 
-Project the conversion once so every student uses the same method: a $50,000 salary is about $4,166 a month before taxes, and roughly $3,200 a month after taxes in Texas, where there is no state income tax.
+The last point is the entrepreneurship connection: owners must pay business expenses before treating money as personal income.
 
-!!! tip "Facilitation Tip"
-    Students always overestimate how much they'll have left after rent. Show them: in Irving, a 1-bedroom apartment is $1,200-$1,600/month. That's 30-40% of a $50K salary. The first lesson of budgeting is that rent eats more than you expect.
+### 3. Complete Xello Scholarship profile — 20 minutes
 
----
+The authenticated Grade 8 completion standard is **Scholarship profile: 20 minutes; complete the matching profile**.
 
-## Activity 2: Build Your Personal Budget (20 min)
+Student route:
 
-Distribute the Personal Budget worksheet with DFW cost-of-living data already loaded. Each student builds the budget on the salary they pulled in Activity 1.
+1. sign in through the district launch page;
+2. open College Planning, then Scholarships or Scholarship matches;
+3. open the profile or profile booster;
+4. answer honestly, including “I don’t know” when that is accurate; and
+5. stop when the profile is complete.
 
-The budget worksheet has these categories:
+Students do not have to apply for or save a scholarship today. The teacher verifies completion in the report, not by collecting private answers.
 
-| Category | Estimated DFW Cost (per month) | Your Allocation |
-|---|---|---|
-| Rent / Housing | $1,200-$1,800 | |
-| Utilities (electric, water, internet) | $150-$250 | |
-| Groceries | $300-$500 | |
-| Phone | $40-$80 | |
-| Transportation (car payment, gas, insurance) | $400-$700 | |
-| Entertainment / Eating Out | $100-$300 | |
-| Savings (emergency + long-term) | At least 10% | |
-| Clothes & Personal Care | $50-$150 | |
-| Other (subscriptions, gym, etc.) | $50-$200 | |
-| **TOTAL** | | |
+### 4. Close and submit — 5 minutes
 
-Students fill in their allocations and total them up. The total must NOT exceed their monthly take-home pay.
+For the first 2 minutes, students submit the budget as directed. Open the private recovery portfolio only when the teacher has assigned it to replace missing major evidence; it is not a third automatic Major.
 
-After filling in the budget, students answer these analysis questions:
+For the final 3 minutes, students use short phrases from the revised Budget and Scholarship Plan to complete Evidence Log Entry 3: artifact or task, transferable skill, visible action, revision or recovery move, and next step. They keep the log in their CCE binder or teacher-designated digital folder. They do not upload the log or resubmit the budget.
 
-- What percentage of your monthly income goes to rent? (Calculate: rent ÷ income × 100)
-- Is the salary from your chosen career enough to live the lifestyle you want? Yes / No / Almost
-- If "no," what would you change, your career, your lifestyle, or both?
+If the log is missing, students record the five short phrases in their CCE notebook or teacher-designated digital folder and transfer them later. They do not reconstruct earlier work.
 
-**DOK 3:** What conclusions can you draw about how your career choice directly affects the lifestyle you can afford? Use specific numbers from your budget.
+## Monitoring and key
 
----
+Budget math must satisfy:
 
-## Activity 3: Xello Save Careers + 3SW Capstone Reflection (12 min)
+`money left = $3,450 - total expenses`
 
-**Source:** Bowie Grade 8 Xello Completion Standard, "Save careers"
+The revised total must be $3,450 or less. There is no single correct set of category choices. Strong reasoning keeps the place, household, date, and measure attached and recognizes that family needs change the estimate.
 
-Direct students to open Xello and save 2-3 careers from this six weeks to their Xello profile. The Save Careers task lives under "Career Match" or "Saved Careers" depending on the Xello version.
+In Xello, honest “I don’t know” answers are better than invented profile information. Scholarship matches are possibilities, not awards or guaranteed income.
 
-> [VERIFY IN Xello] Confirm with your district that the Save Careers task is enabled. If not, students log saved careers in their notebook for later transfer.
+Use two budget laps. First check totals and the four source labels; then check the revised total and revenue explanation. If a quarter of the class exceeds $3,450 because the same category was counted twice, pause for one whole-class total check. In Xello, verify access by minute 3 and move unresolved logins to the supervised catch-up list without collecting profile answers. Trim the optional video and whole-group share before trimming the revised budget, revenue explanation, or protected 20-minute Xello block.
 
-Tell students where the saved career goes next: at mid-year they run a Career Deep Dive on their top career goal (FYF pp. 285-286: "Rung 3: Career Deep Dive"), researching the education and training it requires, its starting salary, the national average pay, and whether the field is growing. Today's saved list is the short list they will choose that goal from.
+At minute 47, check that Entry 3 uses phrases already visible in the revised plan. Do not collect the Evidence Log or score it as another artifact.
 
-After saving careers in Xello, students write a 3SW capstone reflection paragraph (5-7 sentences) in their notebook. The reflection covers:
+## Support and absence route
 
-- The clusters explored this six weeks (Agriculture, Hospitality, Human Services, Business)
-- One new favorite career and why
-- One thing they learned about entrepreneurship
-- Whether they see themselves as an entrepreneur and why or why not (this is the BIG d(3)(I) reflection)
-
-Sentence stems available for students who need them:
-
-- "This six weeks I explored _____, _____, _____, and _____ clusters."
-- "My favorite new career is _____ because _____."
-- "The most important thing I learned about entrepreneurship is _____."
-- "I [do / do not] see myself as an entrepreneur because _____."
-
-**DOK 4:** Looking at all the career clusters you've explored so far this year, what patterns do you see in the careers that attract you? What does this tell you about who you are as a future professional?
-
----
-
-## Exit Ticket (3 min)
-
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/3sw-wk6-day5-personal-budget-xello-save-careers.pdf):
-
-My favorited career from this 3SW + the salary I used in today's budget: _______________________ ($_______________________/month take-home)
-
-Connect this career to THREE things:
-
-**1. The biggest line item in my budget today** (usually rent, transportation, or food)
-
-   Line item: _______________________ = $_______________________ (_____% of my monthly income). In one sentence, does this career's salary comfortably cover this line item?
-
-   ___________________________________________________________________
-
-**2. Whether this career has an ENTREPRENEURIAL version** (small business, solo practice, freelance, food truck, salon ownership, etc.)
-
-   The entrepreneurial version: _______________________. In one sentence, would starting my own version of this work CHANGE my monthly budget?
-
-   ___________________________________________________________________
-
-**3. ME as an entrepreneur (or not)**
-
-   "I DO / DO NOT see myself as an entrepreneur because _______________________________________________________."
-
-*(d(3)(I), d(5)(D))*
-
-Submit your personal budget + 3SW capstone reflection paragraph with this ticket.
-
----
-
-## Differentiation
-
-- **Support:** Provide a pre-filled budget worksheet with the salary already entered, taxes already calculated, and rent already chosen. Students fill in only the discretionary categories.
-- **Extension:** Build TWO budgets, one for an entry-level job in your favorite cluster, and one for a senior job in the same cluster. How does the lifestyle change?
-- **ELL:** Pre-teach: Budget = Presupuesto, Income = Ingreso, Rent = Renta, Savings = Ahorros. Bilingual budget worksheet with Spanish category labels. The reflection paragraph may be written in English, Spanish, or bilingual.
+Use the fixed budget scenario, calculator, read-aloud, chunked table, or teacher-selected starting amounts. If Xello is unavailable, students finish the budget and private reflection, then join the supervised catch-up list. Paper does not count as Xello completion. The official guide is the text alternative to the video. A missing Evidence Log uses the five-phrase notebook or digital-folder fallback without a penalty or second submission.

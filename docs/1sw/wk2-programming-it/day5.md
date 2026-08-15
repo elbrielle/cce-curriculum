@@ -1,121 +1,83 @@
-# Day 5: Hour of Code (Day 2) + Pathway Possibilities + IT Favorites
+# Day 5: Xello Personality Style + IT Pathway Decision
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
+
+- **Topic:** Career Fit
+- **Objective:** Students will analyze one Personality Style result and use career evidence to make an Information Technology fit decision.
+- **TEKS:** d(1)(A), d(1)(C), d(5)(A), d(5)(E)
+- **Demonstration of Learning:** Xello Personality Style completion plus the five-page IT Salary Comparison and Career Fit Reflection packet submitted as Minor 2.
+<!-- CCE DAILY CONTRACT END -->
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Finish the Hour of Code tutorial; complete the Pathway Possibilities step and rate an IT pathway; favorite 2 programming careers in the Climber Profile; complete Xello Favorite Clusters |
-| **TEKS** | d(1)(C) |
-| **5E Phases** | Engage: Warm-Up · Explore: Hour of Code finish · Extend: Pathway Possibilities, IT favorites, and Xello Favorite Clusters · Evaluate: Exit Ticket |
-| **Deliverable** | Hour of Code certificate + 2 IT careers favorited in H&L + Xello Favorite Clusters complete + the IT Salary Comparison worksheet collected with its four sentence Hour of Code reflection |
-| **Materials** | Chromebooks, Code.org (same section codes as Day 4), H&L accounts, *Find Your Future* workbook pp. 36-38, Xello accounts (rostered through the district SSO feed; confirm your class list appears before today and send any missing student to the campus tech coordinator rather than creating an account by hand), the Day 3 IT Salary Comparison worksheets to hand back, IT Salary Comparison and Hour of Code Reflection Rubric ([Printable PDF](../../resources/worksheets/wk2-salary-hoc-rubric.pdf)), projector |
+| **Objectives** | Complete the required Xello Personality Style quiz; connect one trait to a real example; use H&L Pathway Possibilities and the week's salary evidence to make an IT fit decision |
+| **TEKS** | d(1)(A), d(1)(C), d(5)(A), d(5)(E) |
+| **5E Phases** | Engage: assessment launch · Explore: Xello and H&L · Explain: Career Fit Reflection · Evaluate: IT decision |
+| **Deliverable** | Xello completion evidence in the teacher report + IT Salary Comparison and Career Fit Reflection |
+| **Materials** | 1 Chromebook per student, district SSO, Xello, H&L, *Find Your Future* p. 38, each student's returned five-page salary packet, and [Minor 2 rubric](../../resources/worksheets/wk2-salary-hoc-rubric.pdf). The [one-page IT Pathway Decision](../../resources/worksheets/wk2-day5-it-pathway-decision.pdf) is a lost-packet, enlarged-print, or catch-up route, not a second whole-class assignment. |
 
----
+## Before Students Arrive
 
-## Warm-Up (5 min)
+1. Check the Xello Completion Standards report. Personality Style requires Matchmaker, so list students who need supervised Matchmaker catch-up instead of discovering the prerequisite during class.
+2. Open the licensed Xello Personality Style teacher resource in the locked Canvas teacher guide.
+3. Open H&L Information Technology > Pathway Possibilities and verify the live route from a student-filtered Chromebook.
+4. Return each student's five-page salary packet. Display the rubric. Print the one-page decision only for students using the replacement route.
+5. Keep Xello results and reflection evidence individual and private. An adjacent peer may help with navigation without seeing or answering the assessment.
 
-**WARM-UP: Yesterday you started a Code.org tutorial. On a scale of 1-10, how much did you enjoy it? What does that tell you about whether IT is a good fit for you?**
+## Launch and Prerequisite Route (5 min)
 
-Quick share. Students who scored 8-10 are the ones to watch; they may be future programmers. Students who scored 1-3 may have found the tutorial frustrating. Bridge by reminding them that programming is one of MANY IT careers, and Wks 3-5 explore others.
+Students open Xello Personality Style. Anyone whose Matchmaker prerequisite is missing moves to page 5 of the salary packet while the teacher adds the platform task to one supervised catch-up list. Do not let multiple students lose the first ten minutes trying random menus or creating another account.
 
----
+## Activity 1: Xello Personality Style (20 min)
 
-## Activity 1: Finish the Hour of Code Tutorial (20 min)
+Students open **ClassLink > Xello > About Me > Personality Style**, complete the quiz, and review the result. They privately record:
 
-Students sign back into Code.org and continue from where they left off yesterday. Progress is saved to the section they joined on Day 4, so students who worked as guests yesterday join the section now and restart their tutorial, which is why the guest list from Day 4 matters. Goal: finish the tutorial and earn the completion certificate.
+- one trait that sounds like them; and
+- one example from school, home, a team, or an activity that supports or challenges that result.
 
-Walk the room. Same active monitoring as Day 4: progress check, concept check, frustration check.
+Remind students that an assessment suggests patterns; it does not decide who they are or which career they must choose. Check completion through the teacher report. Do not require profile screenshots.
 
-**For students who finish early:**
+**Active monitoring:** First lap checks that students reached Personality Style rather than another quiz. Second lap checks completion progress. Third lap asks students to explain one trait in their own words. If Matchmaker is missing, move the student to the written reflection and add the platform task to supervised catch-up.
 
-- Screenshot their Code.org completion certificate (printing only if a classroom printer is mapped to student Chromebooks)
-- Try a SECOND Hour of Code tutorial with a different theme
-- Help a struggling classmate (without doing the work for them)
+**CFU and privacy:** Ask students to point to the trait label and the example box without sharing the result aloud. If more than four students lack the prerequisite or Xello fails, move those students to page 5 and use one catch-up roster rather than troubleshooting accounts one at a time.
 
-**For students who are still stuck:**
+## Activity 2: H&L Pathway Possibilities (10 min)
 
-- Sit with them and ask leading questions: "What did you just try? What did you expect to happen? What actually happened?"
-- Allow them to switch tutorials ONCE if they are completely stuck and not learning anything
+Students open **Information Technology > Pathway Possibilities**, answer the prompts, rate at least one pathway, and review two Hats. Favoriting a Hat is optional: a student may decide that neither career fits and explain why.
 
-**DOK 4:** Based on your Hour of Code experience, what argument would you make for or against a 7th grader pursuing programming as a future career? Use specific evidence from the tutorial (something that was easy / hard / fun / boring).
+Students record the exact HQIM evidence they use. For salary, keep the career name, geography, measure, and date viewed attached to the number. Do not replace the H&L or Xello figure with a differently defined web statistic. A dated BLS figure may be discussed as a national teacher cross-check, but it remains separately labeled.
 
----
+## Activity 3: Minor 2 Career Fit Reflection (10 min)
 
-## Activity 2: Pathway Possibilities + IT Favorites (15 min)
+Students finish the four labeled jobs on page 5 of the returned salary packet. Use the [IT Pathway Decision](../../resources/worksheets/wk2-day5-it-pathway-decision.pdf) only when the original packet is unavailable or a one-page enlarged route is needed:
 
-**Source:** (FYF p. 38: "App Exploration"), the Pathway Possibilities step
+1. Name the IT pathway they rated.
+2. Cite one salary or labor-market fact from the completed three-career comparison.
+3. Name one career they reviewed and explain why it fits or does not fit.
+4. Decide whether they could see themselves in IT and support the decision with one Personality Style result or programming experience.
 
-> [H&L PLATFORM] Students return to the Information Technology Cluster in the Hats & Ladders app and click "Pathway Possibilities." They answer the questions there, then explore and rate at least 1 pathway. This is the one step of the App Exploration page held back from Day 1, because a pathway rating means more after a week of salary, training, and Hour of Code experience. Students finish in their Climber Profile.
+Score the combined salary comparison and reflection with the [Minor 2 rubric](../../resources/worksheets/wk2-salary-hoc-rubric.pdf). Code.org completion, H&L favorites, and the daily exit are not separate grades.
 
-After the Pathway Possibilities step, students must:
+Keep these words beside page 5: **trait, example, evidence, preparation, task, fits, does not fit, might fit**. A complete response frame is: "My result included _____. This career fits / does not fit / might fit because the work requires _____, and my evidence is _____."
 
-1. **Favorite at least 2 IT careers** in their Climber Profile using the Hat Finder. They should choose Hats from the programming pathway they explored this week (or a different IT pathway if they prefer).
-2. **Re-check their initial cluster recommendations** from Wk0. Has the IT cluster moved up the ranking now that they have data? Why or why not?
+## Submit and Close (5 min)
 
-Name where this goes next. This week's favorites, pathway rating, and research sheet are the kind of career-interest evidence that shapes a **Personal Graduation Plan (PGP)**, the roadmap that links course choices, career interests, graduation requirements, and future goals into one plan (FYF p. 36). Students return to it in 4SW when they map high school courses.
+Students check that pages 1-4 hold three career records and one comparison, then check all four page 5 reflection jobs. They submit all five pages through the named Minor 2 route and confirm that any platform catch-up need is on the teacher's list.
 
-**Sentence stem for the favorites reflection (use the word banks):**
+Students may reject the IT cluster and still demonstrate full mastery when the evidence and reasoning are specific. If time slips, omit favoriting and shorten H&L to one pathway plus one Hat. Do not cut Personality Style, page 5, or submission.
 
-*Core personality types (from Wk0):* Doer, Analyzer, Creator, Helper, Persuader, Organizer
-*Work Values (from Wk0):* Achievement, Independence, Recognition, Relationships, Support, Working Conditions
+## Answer Guidance and Monitoring
 
-"I favorited ______________________________________________________
+There is no single correct career-fit decision. Full-credit work accurately represents the student's assessment result and the cited HQIM evidence. Do not score English mechanics unless meaning is unclear. Redirect claims such as "the quiz says I must be a programmer" or salary numbers with no career/geography/measure attached.
 
-because it matches my ______________________________ personality type
+## Supports and Fallbacks
 
-and my ______________________________ Work Value."
-
-**Collect the week's summative.** Hand back the Day 3 IT Salary Comparison worksheets as this activity starts. Students fill in the four sentence Hour of Code reflection printed at the end of the worksheet: the tutorial they did, one programming concept they used and what it did in their code, the IT career they favorited and why, and whether they can see themselves in IT. Both sides of the worksheet plus those four sentences are the collected artifact. Score it with the **IT Salary Comparison and Hour of Code Reflection Rubric** ([Printable PDF](../../resources/worksheets/wk2-salary-hoc-rubric.pdf)): Data Completeness, Source Accuracy, Comparison Reasoning, and Hour of Code Reflection, 5 points each, 20 points total.
-
-!!! tip "Facilitation Tip"
-    Students who disliked the Hour of Code may be hesitant to favorite an IT career. Do not require an IT favorite. A student can finish the week by naming why the work does not fit them and choosing a career that does.
-
----
-
-## Activity 3: Xello Favorite Clusters (8 min)
-
-**Source:** Bowie Grade 8 Xello Completion Standard, "Favorite clusters"
-
-Students log into Xello and complete the Favorite Clusters activity. They mark which clusters from the Xello cluster list they are most interested in. This is a quick task. Xello will use these favorites to refine its career recommendations later in the year.
-
-Tell students: "This is the Xello version of what you did in H&L. Both platforms are tracking your interests. By 6SW Wk6 (the Final Career Plan), both platforms will have a deep picture of who you are."
-
-!!! tip "No Xello Login? Do Not Troubleshoot It Here"
-    Xello rosters arrive through the district SSO feed, not through anything you set up in class, and Xello and H&L usually sit behind different providers. Check that your class list appears in Xello before this day. A student who still cannot get in finishes the H&L favorites instead and goes to the campus tech coordinator, and the Xello task moves to the next week's spare minutes.
-
----
-
-## Exit Ticket (2 min)
-
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/1sw-wk2-day5-hour-of-code-day-2-pathway-possibilities-it-favorites.pdf):
-
-An IT career I favorited this week: _______________________
-
-Connect this career to THREE things:
-
-**1. The IT pathway I rated today** (from Pathway Possibilities in the app)
-
-   The pathway I rated highest: _______________________. Does this line up with the career I favorited? Circle YES / NO. In one sentence, why: ___________________________________________________________________
-
-**2. My Wk0 core personality type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
-
-   My core personality type: _______________________. Why does this career match (or not match) my type? One sentence:
-
-   ___________________________________________________________________
-
-**3. My Hour of Code experience** (enjoyed / struggled / surprised by something)
-
-   My experience in ONE word: _______________________. Does my experience strengthen or weaken my interest in this career? One sentence why:
-
-   ___________________________________________________________________
-
-*(d(1)(C))*
-
----
-
-## Differentiation
-
-- **Support:** Allow students who are still stuck on Hour of Code to write a 3-sentence reflection about what they tried, what failed, and what they would do differently next time. This earns the deliverable credit even without finishing the tutorial.
-- **Extension:** Students who finish early take the workbook's "Extra Time?" prompt on the App Exploration page (FYF p. 38) and rate two more IT Hats, then answer the district page's certification question (FYF p. 37): if you could earn a certification in any skill, what would it be and why?
-- **ELL:** Bilingual reflection sentence stems for the Pathway Possibilities reflection. Pair ELL students with bilingual peers for the Xello Favorite Clusters activity.
+- Read result descriptions aloud, provide trait/example sentence frames, and allow oral rehearsal or speech-to-text.
+- Use bilingual field labels and a short vocabulary bank rather than translating the entire assessment.
+- A student may keep a personal result private and discuss only the trait they choose to use as evidence.
+- If H&L is unavailable, use the workbook pathway page and completed salary packet. Live H&L exploration moves to catch-up.
+- If Xello is unavailable or the prerequisite is missing, record the issue, complete page 5, and schedule supervised platform catch-up. Paper work supports learning but does not count as Xello completion.
+- Code.org may continue only as an early-finisher extension after required work is complete.

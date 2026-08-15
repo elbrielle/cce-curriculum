@@ -1,122 +1,128 @@
-# Day 3: LEGO ATC — Build the Airport
+# Day 3: Design a Classroom Airport Map
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Team airport map and readiness check plus an individual design note that names an aviation role and work product.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Apply Engineering Design Process phases 1-2 (Define & Ideate) by building a LEGO airport with at least 2 runways, taxiways, a control tower, and parking; plan the spatial layout with safe distances between runways |
+| **Objectives** | Identify airport-operations roles; design a map that supports a fictional movement simulation; test sightline, route, gate, and labeling constraints |
 | **TEKS** | d(1)(C) |
-| **5E Phases** | Engage: Warm-Up · Explain: Challenge specs and design process · Explore: Sketch, peer critique, and LEGO build · Evaluate: Exit Ticket |
-| **Deliverable** | Built LEGO airport (1 per team) ready for Day 4 simulation, plus a labeled paper sketch of the layout |
-| **Materials** | LEGO bricks and baseplates (1 set per team of 3-4 students), printed Airport Layout sketch page, printed ATC scenario cards (1 per team to read for context only, not yet running), projector for LEGO airport reference images |
+| **Deliverable** | Team airport map and readiness check plus an individual design note that names an aviation role and work product |
+| **Materials** | Four-page Airport Design and Simulation Lab; pp. 1-2 team and pp. 3-4 individual; aircraft tokens; one equal build route per team: LEGO, paper/markers, or Canvas-enabled Lucid whiteboard |
 
 ---
 
-## Warm-Up (5 min)
+## Before Class
 
-**WARM-UP: Air traffic controllers manage dozens of planes at once and make split-second decisions. What skills do you think that requires? List 3.**
+1. Make teams of four. Assign planner, builder, mover, and checker/recorder; combine roles in a team of three.
+2. Choose one build route per team. Prepare one baseplate, one 11×17 sheet, or one Lucid board per team; four labeled aircraft tokens in one tray or envelope; and, for paper, one pencil and two markers.
+3. For paper, print Lab pp. 1-2 once per team and p. 3 once per student today. Hold p. 4 for Day 4. Default digital printing is zero.
+4. Project the supplied fictional model and non-example below.
+5. Do not use live airport maps as the only model. The student packet contains the complete route and vocabulary.
 
-Take 3-4 student responses: focus, communication, fast thinking, math, or calmness. Add spatial planning, then ask what happens when two runways cross or a gate blocks a taxi route. Students must solve those layout problems before running the simulation.
+## Supplied Model and Non-Example
 
----
+**Ready model:** R1 and R2 are two nonintersecting parallel runways. Taxi A connects Gates 1-2 to R1; Taxi B connects Gates 3-4 to R2. A tower marker can see both runways. The predicted conflict is where Taxi A meets the shared gate lane, so the revision adds a hold marker and a one-aircraft-at-a-time rule.
 
-## Activity 1: The Challenge + Engineering Design Process (8 min)
+**Non-example:** two unlabeled lines, one gate, no taxi route, no north arrow, and aircraft that must jump across the page.
 
-**Source:** Engineering Design Process applied to spatial design
+## Warm-Up: Who Needs the Map? (5 min)
 
-Announce the challenge clearly so teams understand the constraints:
+Students match four jobs to the information each needs:
 
-**The Challenge:** In teams of 3-4, build a LEGO airport that can handle at least 4 simultaneous aircraft on Day 4. Your airport must include:
+- air traffic controller;
+- pilot;
+- airport operations worker; and
+- aircraft mechanic.
 
-- **At least 2 runways** with safe spacing (minimum 6 LEGO studs apart)
-- **Taxiways** connecting every runway to a terminal/parking area
-- **A control tower** with a clear sightline to all runways
-- **Designated parking areas** (gates) for at least 4 planes
-- **Clear color-coded paths** (use one color brick line per runway)
+Accept overlap when the explanation is sound. The point is that aviation work depends on shared, precise information.
 
-Introduce the EDP and tell students today covers Phases 1 and 2 only:
+## Activity 1: Learn the Classroom Design Rules (7 min)
 
-1. **Define the Problem:** What does our airport need to handle? (4 simultaneous aircraft, safe spacing.)
-2. **Research & Ideate:** Look at real airport layouts. How do they avoid collisions?
-3. **Prototype:** Build it.
-4. **Test:** Run the simulation (Day 4).
-5. **Redesign:** Fix what failed.
+Explain that the build is a **fictional classroom model**, not an FAA-approved airport design. The minimum spacing and simplified labels exist so students can run and analyze the tabletop simulation.
 
-Today's goal: complete Phases 1 and 2 (define + ideate + sketch + start build).
+Every map must include:
 
-!!! tip "Facilitation Tip"
-    Do not distribute LEGOs immediately. Distribute the sketch pages first and require teams to draw their layout BEFORE touching bricks. Teams that get LEGOs first will spend the entire period building random shapes with no plan.
+1. two labeled runways that do not intersect;
+2. at least one taxi route from each runway to the gate area;
+3. one control-tower marker with a clear view of both runways;
+4. four labeled aircraft parking spaces;
+5. a north arrow and route labels; and
+6. a runway-closed alternate route for Day 4.
 
----
+For LEGO models, the class uses a minimum six-stud gap as a design constraint. It is not a real aviation separation standard.
 
-## Activity 2: Research + Sketch (12 min)
+## Activity 2: Plan Before Building (12 min)
 
-Project images of real airports for reference: DFW Airport (the closest), Love Field (smaller), Hartsfield-Jackson Atlanta (largest). Students notice the patterns:
+Teams complete the top-down sketch in the lab packet before receiving materials or opening Lucid.
 
-- Runways are usually parallel or in an X shape
-- Taxiways run parallel to runways and connect to the terminal
-- Control towers are positioned where they can see every runway
-- Gates are clustered at the terminal, not scattered
+Required planning evidence:
 
-Each team sketches their airport on the printed Airport Layout sketch page. The sketch must include:
+- R1 and R2 runway labels;
+- Taxi A and Taxi B routes;
+- control tower, four gates, and north arrow;
+- arrows showing one aircraft route from gate to runway and one from runway to gate;
+- one predicted conflict point; and
+- one revision that reduces the conflict.
 
-- **Top-down view** of the airport
-- **Labels** for runways (R1, R2), taxiways (T-Alpha, T-Bravo), control tower, and gate areas
-- **Spacing measurements** in LEGO studs
-- **Compass directions** so the simulation can use "north runway" / "south runway" terminology
+Each student records one design responsibility. A student without a team uses the same small-airport scenario independently.
 
-Teams swap sketches with another team for a 2-minute peer critique: "Where would two planes most likely collide?" Then teams revise based on feedback.
+## Activity 3: Build Through an Equal Route (16 min)
 
----
+Teams choose or use the route assigned by the teacher:
 
-## Activity 3: Build the LEGO Airport (22 min)
+- **LEGO:** build on a baseplate and use small pieces as aircraft;
+- **Paper:** draw the map and move labeled sticky notes or counters; or
+- **Lucid:** create the map with shapes and move aircraft markers during testing.
 
-**Chunking:** The sketch is the gate. A team picks up bricks and baseplates only after its sketch is approved, and no team is finished until the five-row checklist below has been walked with them. Teams build their airport from the approved sketch while the teacher walks the room with the spatial reasoning checklist:
+All routes use the same checklist and earn the same evidence. Construction detail and artwork do not affect the score.
 
-| Check | Yes / No |
-|---|---|
-| Is there minimum 6-stud spacing between runways? | |
-| Are taxiways connected to BOTH runways AND the gate area? | |
-| Can the control tower see all runways? (Stand a brick on the tower position and check sightlines) | |
-| Are there at least 4 designated gate spaces? | |
-| Are runways color-coded (one solid brick line per runway)? | |
+The teacher monitors one criterion per lap:
 
-Teams that finish the build early read their assigned ATC scenario card for tomorrow but do NOT yet run it.
+1. complete routes;
+2. readable labels;
+3. visible conflict point; and
+4. usable alternate route.
 
-!!! tip "Facilitation Tip"
-    Approve each team's airport before they leave class. If a team built a single runway with no taxiway, prompt them: "How will Plane 2 get from gate to runway without crossing Plane 1's path?" Let them engineer their own realization rather than redesigning for them.
+Before releasing materials, each team points to the runway, taxi route, gate, tower, north arrow, and alternate route on the supplied model. At plan minute 6, check all labels, two movement arrows, and one predicted conflict. At build minute 9, check complete routes and the alternate. If teams begin decorating before routes work, pause materials and require the readiness checklist. If time slips, use a flat paper model; protect the labeled sketch, conflict/revision, individual p. 3 note, readiness test, and cleanup.
 
-**DOK 2:** How would you describe the spatial reasoning decisions your team made about runway placement? Why does spacing matter for safety in real airports?
+## Activity 4: Readiness Check and Cleanup (5 min)
 
----
+Teams test one aircraft from Gate 1 to R1, then from R1 back to a gate. They correct one blocked or confusing route.
 
-## Exit Ticket (3 min)
+Before cleanup, the recorder places Lab pp. 1-2, the labeled model, and all four tokens in the team tray or saves them in the approved Canvas location. Each student submits or saves p. 3. A photo is optional and must not include student faces or names.
 
-**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day3-lego-atc-build-the-airport.pdf):
+## Exit Ticket: Individual Design Note (5 min)
 
-1. TWO spatial reasoning skills I used during today's LEGO build:
+**EXIT TICKET** (3-2-1 Reflective) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day3-design-a-classroom-airport-map.pdf):
 
-   Skill 1: _______________________
+Students answer:
 
-   Skill 2: _______________________
+- **3:** Name one map feature, the aviation role that uses it, and how the feature helps.
+- **2:** Describe one conflict point and one piece of evidence that shows the problem.
+- **1:** Explain one revision completed or still needed before Day 4.
 
-2. For EACH skill, give ONE specific example of how a real Air Traffic Controller uses that exact skill every day at a busy airport like DFW:
-
-   Skill 1 → ATC use: ________________________________________________
-
-   Skill 2 → ATC use: ________________________________________________
-
-3. The ONE thing my team's airport still NEEDS to fix before running the Day 4 simulation:
-
-   ___________________________________________________________________
+The response needs three separate full-width writing areas. A single tiny box is not enough.
 
 *(d(1)(C))*
 
----
+## Teacher Key and Monitoring
 
-## Differentiation
+- A complete route visibly connects gate, taxi route, and runway without requiring the token to jump over an unlabeled gap.
+- A useful conflict point names where two aircraft paths could cross or where a marker blocks movement.
+- A strong revision changes the route, sequence, label, or gate assignment and explains the effect.
+- Do not grade whether a student's map resembles DFW or a real airport. This is a communication and systems model.
 
-- **Support:** Pre-built starter base, one runway and one taxiway already laid out. Teams add the second runway, control tower, and gates from there. Provide a printed reference image of a small regional airport for inspiration.
-- **Extension:** Add a second control tower and design a hand-off procedure between ground control and tower control. Or build a third runway crossing the first two and figure out how to schedule simultaneous takeoffs.
-- **ELL:** LEGO building is hands-on and naturally accessible. Provide a bilingual sketch label sheet. Runway = Pista, Taxiway = Calle de rodaje, Control Tower = Torre de control, Gate = Puerta, Terminal = Terminal.
+## Supports and Equal Routes
+
+- Provide the labeled starter schematic and vocabulary strip.
+- Students may take recorder, planner, mover, checker, or builder roles; speaking is not required.
+- Paper, LEGO, and Lucid follow the same readiness checklist.
+- An absent student completes the independent paper/digital map and joins a simulation group on return or uses the written Day 4 scenario route.

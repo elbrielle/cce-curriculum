@@ -1,122 +1,95 @@
-# Day 2: Apprenticeships + Trade Unions
+# Day 2: Real Routes and Career Organizations
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Enrollment Steps
+- **Objective:** Students will investigate enrollment steps for two career-preparation routes and identify an affiliated career organization.
+- **TEKS:** d(3)(G), d(3)(H)
+- **Demonstration of Learning:** Individual route and organization comparison.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Explain the apprenticeship pipeline (apprentice → journeyman → master); research the role of trade unions in construction; compare apprenticeship to the 4-year college path |
+| **Objectives** | Explain the stable features of Registered Apprenticeship; report apply/enroll steps for two routes; distinguish four organization types |
 | **TEKS** | d(3)(G), d(3)(H) |
-| **5E Phases** | Engage: Warm-Up · Explain: Apprenticeship pipeline · Explore: Trade union research · Explain: Partner union comparison · Evaluate: Exit Ticket |
-| **Deliverable** | Apprenticeship vs. College comparison chart + Union research notes (1 union) |
-| **Materials** | Chromebooks, printed Apprenticeship Pathway infographic, printed Apprenticeship vs. College comparison chart, projector |
+| **Deliverable** | Individual route and organization comparison |
+| **Materials** | Apprenticeship.gov card, Dallas College card, organization-type cards, response packet |
 
----
+## Next-Day Operations
+
+- **Default:** one device per student, one projector, zero prints. Students submit the private Canvas annotation individually.
+- **Paper:** one four-page route packet and one pencil per student; one collection tray per class.
+- Use pairs only to rehearse the order of route steps. Students do not open an account, contact form, or real application.
+- **Checkpoint:** by minute 22, each route has two ordered steps and one variable marked for verification. By minute 43, the organization type, future access route, and documented value are present.
+- **Pivot:** give students the five numbered route steps to sequence before writing. **Trim:** cut pair rehearsal, not the individual comparison or organization evidence.
+
+## Ready-to-Project Model
+
+Fictional Jordan should investigate a Registered Apprenticeship first because it is a paid job with structured learning. Jordan would search by occupation and location, open a sponsor listing, record eligibility and documents, and apply through that sponsor only when eligible. Dallas College offers a published certificate or A.A.S. route with advising; Jordan still must verify current cost, credit status, campus, and transfer limits. AGC is a professional/trade association. A future student could access a student chapter through a participating accredited college, and one documented value is learning with industry leaders.
+
+**Non-example:** “Apprenticeship is free and leads from apprentice to master.” Sponsor terms and ladders vary.
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Would you rather spend 4 years in college paying tuition, or 4 years in an apprenticeship earning a paycheck while you learn on the job? Write down your first instinct and one reason.**
+What information would you need before deciding whether a training route is realistic for you?
 
-Collect 2-3 responses. This frames the whole day. Students often assume college is the only "respectable" post-high-school path, apprenticeships challenge that assumption.
+## Activity 1: Registered Apprenticeship Facts (12 min)
 
----
+Teach only the stable evidence from Apprenticeship.gov:
 
-## Activity 1: The Apprenticeship Pipeline (15 min)
+- an apprenticeship is a paid job;
+- it includes structured on-the-job learning and related instruction;
+- a mentor supports the apprentice;
+- wages progress as skills grow;
+- completion leads to a portable industry-recognized credential.
 
-Introduce the apprenticeship model using the projected infographic. **Chunking:** walk one stage at a time, say what the stage is for before the numbers go up, and close each stage with a quick check (thumbs, or one student restating the stage in their own words) before releasing the next one.
+Eligibility, length, wage, cost, schedule, application, license relationship, and available openings vary by sponsor and occupation. **Apprentice → journeyworker → master is not a universal construction ladder.** Students do not contact a sponsor or submit an application.
 
-1. **Apply:** Usually requires a high school diploma and a passing score on a basic aptitude test. Some unions have waiting lists.
-2. **Apprentice (2-5 years):** You are a paid employee who works on real job sites AND attends classroom training (usually evenings or once a week). Starting wage is typically 50% of journeyman wage. Pay increases as you complete phases.
-3. **Journeyman:** You pass a licensing exam and become a fully trained, independent worker. You can work anywhere in your trade at full wage.
-4. **Master:** The highest level. Masters can pull their own permits, run their own business, and train apprentices. Takes 2-5 additional years of journeyman experience.
+## Activity 2: Compare Two Enrollment Routes (23 min)
 
-**Key numbers to share:**
+Students use two dated cards.
 
-- Union electrical apprentices in DFW typically earn $16-22/hour starting wage, rising to $30-45/hour as journeymen.
-- Apprenticeship is **free:** union programs pay you to train. No student loans.
-- At the end of 4-5 years, a journeyman is earning roughly the same as an entry-level college graduate, but with zero debt.
+### Route A: Registered Apprenticeship search and application
 
-Students fill in the Apprenticeship vs. College comparison chart:
+1. Search the Apprenticeship Job Finder by occupation and location.
+2. Open a current employer or sponsor listing.
+3. Record eligibility, documents, work location, training structure, wage information, credential, and deadline exactly as listed.
+4. Apply directly through the employer or sponsor only when the student is eligible and ready in the future.
+5. Follow the sponsor's screening and next-step instructions.
 
-| | Apprenticeship | 4-Year College |
-|---|---|---|
-| Cost | Free (you get paid) | $40,000-120,000 typical |
-| Length | 4-5 years | 4 years |
-| Starting wage during training | $16-22/hr | $0 (usually) |
-| Ending wage | $30-45/hr as journeyman | varies by major |
-| Debt at finish | $0 | Average $30,000+ |
+### Route B: Dallas College Construction Technology
 
-!!! tip "Facilitation Tip"
-    Do not present apprenticeship as "better than college." It is a different path that suits different students. Emphasize that both are valid and the best choice depends on personality, interests, and career goals.
+1. Choose a current Construction Technology certificate or A.A.S. route.
+2. Check campus, estimated time, published tuition basis, credit/noncredit status, and transfer limit.
+3. Complete the Dallas College or ApplyTexas application when ready.
+4. Complete pre-advising and determine current TSI/exemption requirements.
+5. Meet with an advisor or pathway specialist and register for the correct classes.
 
----
+Students compare the documented start steps, paid-work status, credential type, and the exact time, cost, aid, transfer, or eligibility questions that still require a current listing or program page. They write which route fits a fictional student and one advantage of the other route. They do not invent sponsor-specific values the fixed cards do not provide.
 
-## Activity 2: Trade Union Research (20 min)
+## Activity 3: Organization Type and Member Value (7 min)
 
-**Source:** Union websites + BLS occupational profiles
+Use fixed cards to distinguish:
 
-Assign or let students choose one trade union to research:
+- **Union:** represents workers and may bargain or sponsor training.
+- **Professional/trade association:** connects people or employers around a field and may provide learning, standards, or networking.
+- **CTSO:** student organization connected to CTE; current Irving Construction coursebook lists TSA.
+- **Credential body:** develops or awards a credential; NCCER is not a union or CTSO.
 
-- **IBEW** (International Brotherhood of Electrical Workers)
-- **UA** (United Association of Plumbers and Pipefitters)
-- **UBC** (United Brotherhood of Carpenters)
-- **Laborers' International Union of North America (LIUNA)**
-- **International Union of Operating Engineers (IUOE):** heavy equipment operators
+Students choose one organization, state its type, identify the affiliated group, and explain one documented member/student value. Do not imply that nonunion work has no benefits.
 
-For their chosen union, students collect:
+The named professional/trade association example is the **Associated General Contractors of America (AGC)**. Its student chapters are based at participating accredited two- and four-year construction-related programs. A future student accesses one through a participating college; AGC describes chapter value as observing and developing skills with industry leaders.
 
-- **Full name and main trade:** what trade does this union represent?
-- **Apprenticeship length:** how many years to become a journeyman?
-- **DFW local number** (search "[union name] DFW local"): is there a local chapter in Dallas or Fort Worth?
-- **Benefits of membership:** wages, health insurance, retirement, ongoing training
-- **How to apply:** age, education, other requirements
+## Exit Check (3 min)
 
-Students record findings on their Union Research Notes sheet.
+List two actual steps for one route. Then classify one organization and explain one value it provides.
 
-A union is not the only professional organization in this cluster. Irving ISD's own student organization for the construction and welding programs is **SkillsUSA** (FYF pp. 196-197: "What is Happening at My District?"), which runs the same idea at student level: you join, you build skills, you compete, and you meet employers.
+## Teacher Key and Monitoring
 
-**DOK 3:** What is the value of union membership for a new construction apprentice? Name three specific benefits a union provides that a non-union job might not.
+Reject universal claims such as “all apprenticeships are free,” “every journeyworker is licensed,” or “master workers can always pull permits.” Accept different route recommendations when card evidence supports the choice. No student submits personal data or an application.
 
----
+## Supports and Fallback
 
-## Activity 3: Think-Pair-Share (7 min)
-
-Students pair up with a classmate who researched a DIFFERENT union and compare notes. Run it as a timed **Think-Pair-Share:** 30 seconds of silent Think, then Partner A for 30 seconds, then Partner B for 30 seconds, then two pairs share with the whole class. Discussion questions:
-
-- What do both unions offer their members?
-- Which apprenticeship is longer?
-- Which starting wage is higher?
-- Would you personally apply to either? Why or why not?
-
----
-
-## Exit Ticket (3 min)
-
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/5sw-wk3-day2-apprenticeships-trade-unions.pdf):
-
-Use my Day 2 Apprenticeship vs. College chart to fill in the matrix.
-
-| | Apprenticeship | 4-Year College |
-|---|---|---|
-| Cost (who pays) | | |
-| Length (years to finish) | | |
-| Wage during training | | |
-| Debt at finish | | |
-
-Bottom line: Which route fits ME TODAY, and why? Use one specific cell from the matrix to back the pick.
-
-   My route: _______________________
-
-   Why: ____________________________________________________________
-
-ONE specific advantage of the OTHER route that I am CHOOSING to give up: *(d(3)(G), d(3)(H))*
-
-   ___________________________________________________________________
-
----
-
-## Differentiation
-
-- **Support:** Pre-select one union per student and provide the website page ready to go. Limit research to the 3 most important fields (name, length of apprenticeship, starting wage).
-- **Extension:** Research the history of trade unions in America. Why did they form? What role did they play in creating the 40-hour work week?
-- **ELL:** Bilingual union research template. Pre-teach: Union = Sindicato, Member = Miembro, Benefits = Beneficios, Apprentice = Aprendiz. Pair ELL students with bilingual peers for research.
+Provide sentence frames, bilingual labels, audio/read-aloud, and a two-column comparison. The fixed cards replace a five-site scavenger hunt. Absence and blocked-site routes use the same packet.

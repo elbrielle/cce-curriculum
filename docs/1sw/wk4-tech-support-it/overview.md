@@ -1,120 +1,145 @@
-# Week 4: Help Desk Heroes — Tech Support Careers + MakeCode
+# Week 4: Tech Support Careers and MakeCode
 
-**1st Six Weeks** | Information Technology Cluster | 5 class periods (50 min each)
+**1st Six Weeks** | Information Technology Cluster | 5 class periods (50 minutes each)
 
-## Lesson Objective
+## Week Purpose
 
-Students explore the Information Technology Support and Services pathway in Hats & Ladders, learn the difference between certification and degree pathways for IT careers, build a micro:bit help desk simulator using Microsoft MakeCode, and practice customer service communication through a partner role-play. Students see that not every IT career requires a 4-year degree; many high-paying IT support roles are accessible with industry certifications like CompTIA A+.
+Students compare IT support careers and preparation routes, complete the required Grade 8 Xello **Add interests** and **Add skills** tasks, and build a simple help desk sequence. The digital build is not the point by itself. Students must be able to explain why the steps are ordered, document a test and revision, connect the work to an IT support career, and show how communication and problem-solving transfer beyond IT.
 
-**Learning Target:** I can name IT support careers and the training each one needs, explain how a certification is different from a degree, build a micro:bit program that shows troubleshooting steps in order, and help a frustrated user in a calm, clear way.
+The week uses three equal implementation routes:
 
-**Success Criteria:** I will know I am successful when my notebook lists the education, the pay, and one daily task for three IT support careers, when my Education Pathway Comparison worksheet is filled in for a certification career, an associate degree career, and a bachelor's degree career, when my micro:bit shows three troubleshooting steps in order and shows FIXED when Button B is pressed, and when two IT support careers are saved in my Climber Profile.
+- **micro:bit + MakeCode** when tested hardware is available;
+- **MakeCode simulator** when the site works but hardware is limited; or
+- **paper logic trace** when the site or device is unavailable.
 
-## Demonstration of Learning
+Hardware access does not affect the score.
 
-> "I can describe the IT Support pathway, explain the difference between a certification and a degree, build a micro:bit program that displays troubleshooting steps for a help desk scenario, and demonstrate clear customer service communication in a partner role-play."
+## Week Learning Target
+
+I can compare IT support careers and education routes, organize and test a troubleshooting sequence, and explain how one skill I practiced transfers to another career or setting.
+
+## Week Demonstration of Learning
+
+Students submit the **Help Desk Program Evidence** and an individual **Xello Skill and Help Desk Connection**. The team artifact documents the three-step sequence, button logic, test, and revision. The individual artifact names an IT support career and preparation route, connects a practiced skill to a real example, and transfers that skill to a second career or setting.
+
+This is **Minor 3** in the 1SW assessment map. Use the 16-point **Help Desk Simulator Evidence Rubric**. The one-minute lightning demo is formative communication practice, not the only graded evidence.
 
 ## TEKS Alignment
 
-- **d(1)(C):** Identify various career opportunities within one or more career clusters (Day 5 H&L Favorites).
-- **d(2)(A):** Research and describe applicable academic, technical, certification, and training requirements for one or more careers (Days 1-2).
-- **d(2)(B):** Use available resources to research and evaluate educational and training options for one or more careers (Day 2).
-- **d(4)(B):** Identify skills that can be transferable among a variety of careers (Days 3-5).
+- **d(1)(C):** Identify career opportunities within one or more career clusters. Students compare four support roles and name a career connected to their tool.
+- **d(2)(A):** Research and describe academic, technical, certification, and training requirements for one or more careers.
+- **d(2)(B):** Use available resources to research and evaluate educational and training options for one or more careers.
+- **d(4)(B):** Identify skills transferable among a variety of careers. Students connect troubleshooting and customer-service skills to IT support and at least one other career or setting.
 
-## Materials Needed
+## Source Grounding
 
-- Chromebooks (1 per student)
-- Hats & Ladders accounts + *Find Your Future* workbook, Information Technology chapter (printed pp. 23-38; this week uses pp. 36-38)
-- Engineering notebooks (issued in Wk0; carry the Day 1 Hat notes that Day 5 reads back)
-- micro:bit devices (1 per team of 2-3 students, so 10-15 boards for a class of 30; with fewer, run teams of 4, and with none, Days 3 to 5 run in the MakeCode simulator)
-- USB cables, data-capable, one per board (boards run tethered over USB for the whole period, so battery packs at 2 AAA cells per board are only needed if Day 4 pairs move away from their desks)
-- Microsoft MakeCode for micro:bit: [makecode.microbit.org](https://makecode.microbit.org). Pairing uses the WebUSB "Connect device" flow, and DAPLink firmware needs updating across the fleet before the week starts; see the Day 3 device-prep note
+### District HQIM
 
-- CompTIA Career Roadmap: [comptia.org/content/it-careers-path-roadmap](https://www.comptia.org/content/it-careers-path-roadmap) (link-check the week before; if it is dead or filtered, Day 2 runs off the certification tiers printed on the day page)
-- BLS, Computer Support Specialists: [bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm](https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm)
-- Printed Education Pathway Comparison worksheet, 3 careers × 5 fields ([Printable PDF](../../resources/worksheets/wk4-education-pathway-comparison.pdf))
-- Printed Help Desk scenario cards, five scenarios each carrying its three-step sequence ([Printable PDF](../../resources/worksheets/wk4-help-desk-scenario-cards.pdf))
-- Printed MakeCode starter blocks, the Day 3 recovery path for teams that miss the visual checkpoint ([Printable PDF](../../resources/worksheets/wk4-makecode-starter-blocks.pdf))
-- Help Desk Simulator Demo Rubric for the Day 5 summative ([Printable PDF](../../resources/worksheets/wk4-demo-rubric.pdf))
-- Active Monitoring clipboard roster for Day 4 ([Printable PDF](../../resources/worksheets/clipboard-roster-grid.pdf))
-- Day 3 and Day 4 support scaffolds: troubleshooting step sort cards ([Printable PDF](../../resources/worksheets/wk4-troubleshooting-step-sort-cards.pdf)) and the Help Desk role-play script ([Printable PDF](../../resources/worksheets/wk4-help-desk-role-play-script.pdf))
-- Projector
+- **FYF pp. 36-37:** Irving ISD Information Technology programs and the Industry-Based Certification explainer.
+- **FYF p. 38:** Information Technology App Exploration.
+- **Hats & Ladders:** supplemental career and pathway exploration. It may deepen the lesson, but no required evidence depends on a particular Hat title, live feature, or login.
 
-## Career Connection
+The workbook names **Technology Support** in the Irving ISD Information Technology section. The current district site names the program **Technology Support Services** in the School of Innovative Technology at Singley Academy. Present the workbook as the student-facing HQIM and use the current district name when describing the program. Do not add an entry-salary promise or guarantee that one credential leads directly to a job.
 
-Help Desk Technicians, IT Support Specialists, Desktop Support Technicians, and Systems Administrators solve the technology problems that interrupt daily work. Many IT support jobs do not require a 4-year degree; workers often begin with a high school diploma and an industry certification such as **CompTIA A+**.
+### Required Xello Grade 8 Completion Standards
 
-**What is Happening at Irving ISD?** **Technology Support Services at Singley Academy** leads to the **Computer Repair Technology (Job Ready)** certification. This is a direct entry point into IT support careers for students who want to start working right after high school instead of going to college. A student with this credential can earn $40-50K starting salary in DFW. The workbook's district pages name **Technology Support** as one of Irving ISD's Information Technology programs of study and describe it as preparing students for careers in IT services through computer hardware, systems troubleshooting, and software installation (FYF pp. 36-37: "What is Happening at My District?"). The same pages explain what an Industry-Based Certification (IBC) is: proof that a person learned a specific skill, which schools, training programs, and employers read as evidence of readiness for the next step. Day 2 puts CompTIA time and cost numbers behind that idea.
+- **Add interests:** 15 minutes; add at least one interest.
+- **Add skills:** 20 minutes; add at least one skill.
 
-## Vocabulary
+The Xello Completion Standards report is the completion evidence. A paper reflection supports learning during an outage, but the required Xello action moves to a supervised catch-up block.
 
-- **Help Desk:** A centralized resource for providing technical assistance and troubleshooting to users with IT problems. Also called a Service Desk.
-- **Certification:** A credential earned by passing an exam that proves you have specific knowledge or skills. In IT, certifications are often valued as much as degrees.
-- **CompTIA:** A nonprofit trade association that issues industry-recognized IT certifications. The most common: A+, Network+, Security+.
-- **CompTIA A+:** The entry-level IT certification. Covers hardware, software, troubleshooting, networking basics, and security basics. Most IT support roles ask for it.
-- **Troubleshooting:** The systematic process of diagnosing and fixing a problem in technology. The same five-stage checklist students worked in Wk1 (FYF pp. 207-208: "Machine Breakdown Mystery"), but for computers: identify the problem, analyze possible causes, implement a solution, test and observe, prevent future breakdowns.
-- **micro:bit:** A small programmable computer designed for education. Has buttons, LED display, and can be programmed using block-based code in MakeCode.
-- **MakeCode:** Microsoft's free block-based programming environment for micro:bit. Same drag-and-drop interface as Scratch.
-- **Customer Service:** The communication skill of helping a frustrated user fix their problem patiently and clearly.
+### Current Career Evidence
 
-## Bridge to Theory (Hats & Ladders)
+The fixed Route Data Guide uses U.S. Bureau of Labor Statistics data:
 
-The *Find Your Future* workbook gives Information Technology printed pages 23-38, and it prints no tech support activity and no pathway list. This week works from two of its pages. Students meet **Information Technology Support and Services**, the pathway where people help users and businesses troubleshoot and fix computer, software, and network problems, in the Hats & Ladders app through the Pathway Possibilities step on the App Exploration page (FYF p. 38: "App Exploration"), and they meet Irving ISD's own **Technology Support** program of study on the district pages (FYF pp. 36-37: "What is Happening at My District?"). Students explore four Hats in this pathway during Day 1: Help Desk Technician, IT Support Specialist, Desktop Support Technician, and Systems Administrator.
+- Computer User Support Specialists: some college courses are common; some candidates qualify with a high school diploma plus relevant IT certifications; **$60,340 May 2024 U.S. median**.
+- Computer Network Support Specialists: associate degree typical; **$73,340 May 2024 U.S. median**.
+- Software Developers: bachelor's degree typical; **$133,080 May 2024 U.S. median**.
 
-The H&L app's **education indicators** show the difference between certification-only careers (Help Desk) and degree-required careers (Software Developer). Students compare these in the Day 2 Education Pathway Comparison worksheet, alongside the workbook's own "What is an IBC?" explainer on the district pages.
+These are national medians, not starting salaries, local guarantees, or student outcomes. Xello may provide a separate localized comparison when the occupation, geography, measure, and date are visible. Do not mix unlike salary measures in one scored comparison.
 
-The hands-on activity uses **micro:bit + Microsoft MakeCode**. The *Find Your Future* workbook has no tech support activity, so the Help Desk Simulator is a CCE-original build based on a help desk troubleshooting tool. Students program diagnostic checklists to appear on the micro:bit's LED screen. The five-stage Technician Checklist from Wk1 is the closest workbook activity (FYF pp. 207-208: "Machine Breakdown Mystery").
+CompTIA may be used as a current optional example of industry certification. Certification names, exam versions, prices, and roadmaps change, so the required lesson does not depend on memorizing them or searching for prices.
 
-## IISD Instructional Strategies
+## Teacher Readiness Checklist
 
-- **Think-Pair-Share:** Day 4, Activity 1, the swap where partner teams test each other's troubleshooting programs. Distinguished: after the swap, hold a silent 30 second Think on the three feedback questions already in the plan (was the order logical, were the steps clear, was anything confusing or missing), then time Team A for 30 seconds and Team B for 30 seconds so the quieter team is not talked over. Post two stems at different levels: "The order made sense to me because _____" and "I got stuck at step _____ because the words _____." Ask two teams to share one piece of feedback with the room, not one. Listen while teams talk for whether the feedback is about step order or about wording, and open Day 5 demos with whichever of the two you heard teams struggle to give.
-- **Stop and Jot:** Day 1, Activity 1, the engineering notebook page students fill in for each of the four IT Support Hats. Distinguished: name the four fields before the browse starts, give roughly 5 minutes per Hat with the fields on screen, and post stems that carry the certification vocabulary Day 2 depends on: "A _____ certification takes _____ months to earn and qualifies you for _____", "A _____ degree takes _____ years and qualifies you for _____", and "This Hat needs a degree, a certification, or both because the profile says _____." Read notes over shoulders during the browse and track whether the education field is getting filled in. If most sheets carry salary but not education, stop the room and reproject where the education indicator sits, because Activity 2 and all of Day 2 stand on that field.
-- **Active Monitoring:** Day 4, Activity 2, the customer service role-play. Distinguished: walk a fixed route through the pairs twice, once per round of the role-play, carrying a clipboard printed from the [Active Monitoring Clipboard Roster](../../resources/worksheets/clipboard-roster-grid.pdf) with three of the four customer service rules written into the checkpoint headers (acknowledge, simple language, one step at a time) and the fourth, stay calm, tracked in the Notes column. Have the feedback ready before class for the two failures you will see most: the tech who reads the micro:bit steps without waiting for the user to confirm, and the tech who answers jargon with more jargon. Give it pair by pair, in the moment, naming the rule. If more than a handful of pairs skip the acknowledge step, pause the room and model one opening line before the swap instead of correcting pair by pair.
-- **Chunking:** Day 3, Activities 2 and 3, the MakeCode build. Distinguished: teach one block at a time on the projector, say what each block is for before demonstrating it (`show string` puts words on the screen, `on button A pressed` waits for the user, the `step` variable remembers where the user is), and close the starter program with the visual checkpoint already written into the plan: every team holds up a micro:bit reading "Step 1: Restart" before variable work begins. Note which teams needed help to clear that checkpoint. Those teams start Activity 3 from the printed [MakeCode starter blocks](../../resources/worksheets/wk4-makecode-starter-blocks.pdf), and teams that cleared it early go straight to the if/then branching. The week runs on the same principle: pathway exploration, then certifications, then two days of building, then role-play and demos.
-- **Time, Voice, Body (TVB):** Day 5, Activity 1, the 3 minute team demos. Distinguished: post the three blocks before the first team presents, Voice 0 while each team's MakeCode workspace loads on the projector, Voice 3 for the presenter, Voice 1 for the compliment and question that follow, and run a visible 3 minute countdown for every team. Say where the micro:bits sit between demos so devices are not being passed around during someone else's turn. Narrate the teams meeting the expectation rather than correcting the ones who are not. If the rotation is running long by the third team, cut the class compliment to a thumbs up and announce that change before the next team starts.
+### Before the week
+
+- Confirm Xello rosters and open the locked **My Interests** and **About Me** teacher resources in Canvas.
+- Test `makecode.microbit.org` on a student-filtered Chromebook.
+- Choose the primary build route and its backup before Day 3.
+- If using hardware, count boards and data-capable cables and test one full connect/download cycle. Update firmware only when a board fails the official connection check and troubleshooting guidance points to firmware.
+- Plan teams of four for Days 3-5. Per team, prepare one Chromebook, one scenario card, one matching three-card sort, one block-order guide, one Program Evidence sheet, and one micro:bit plus data-capable cable only when using hardware.
+- Assign Driver, Navigator, Tester, and Evidence Recorder. In a team of three, the Tester also records. Rotate Driver and Navigator after the Button A branches are complete.
+- Choose one durable backup method for the class: screenshot, share link, downloaded `.hex`, or signed paper trace. Label the digital or paper turn-in location before Day 3.
+- Do not make one 13-item student packet. Print only the pages students write on; post reusable references digitally or provide one copy per pair or team.
+
+### Default quantities
+
+- **Day 1:** one Career Cards packet per pair, one Career and Interest Check per student, one rostered Chromebook per student for Xello.
+- **Day 2:** one Route Data Guide per pair, one comparison and one Route Decision per student, one model per pair only when students need it at the desk.
+- **Day 3:** one complete build/evidence set per team of four and one Day 3 exit check per student.
+- **Day 4:** one role-play script per pair, one Customer Service Check per student, one monitoring roster for the teacher.
+- **Day 5:** one Program Evidence sheet per team, one individual connection per student, and one rostered Chromebook per student for Xello.
+
+### Print/post in teaching order
+
+1. [IT Support Career Cards](../../resources/worksheets/wk4-it-support-career-cards.pdf)
+2. [Day 1 Career and Interest Check](../../resources/worksheets/wk4-day1-career-interest-check.pdf)
+3. [Route Data Guide](../../resources/worksheets/wk4-route-data-guide.pdf)
+4. [Education Pathway Comparison](../../resources/worksheets/wk4-education-pathway-comparison.pdf) and [model](../../resources/worksheets/wk4-education-pathway-comparison-model.pdf)
+5. [Day 2 Route Decision](../../resources/worksheets/wk4-day2-route-decision.pdf)
+6. [Help Desk Scenario Cards](../../resources/worksheets/wk4-help-desk-scenario-cards.pdf)
+7. [MakeCode Block-Order Guide](../../resources/worksheets/wk4-makecode-starter-blocks.pdf)
+8. [Troubleshooting Step-Sort Cards](../../resources/worksheets/wk4-troubleshooting-step-sort-cards.pdf)
+9. [Help Desk Program Evidence](../../resources/worksheets/wk4-help-desk-program-evidence.pdf)
+10. [Help Desk Role-Play Script](../../resources/worksheets/wk4-help-desk-role-play-script.pdf)
+11. [Day 4 Customer Service Check](../../resources/worksheets/wk4-day4-customer-service-check.pdf)
+12. [Xello Skill and Help Desk Connection](../../resources/worksheets/wk4-day5-xello-skill-connection.pdf)
+13. [Help Desk Simulator Evidence Rubric](../../resources/worksheets/wk4-demo-rubric.pdf)
 
 ## Week at a Glance
 
-| Day | Focus | Key Activities | Deliverable | 5E |
-|-----|-------|---------------|-------------|-----|
-| 1 | IT Support Pathway Exploration | H&L IT Support and Services pathway + Hat profiles for Help Desk Technician, IT Support Specialist, Systems Administrator | Notes on 3 IT support careers | Engage · Explore · Explain · Evaluate |
-| 2 | Certification Deep-Dive | CompTIA Career Roadmap exploration + Education Pathway Comparison worksheet | Completed Education Pathway Comparison worksheet (3 careers) | Engage · Explain · Explore · Evaluate |
-| 3 | Help Desk Simulator (MakeCode Day 1) | micro:bit + MakeCode setup; build basic troubleshooting program | MakeCode program with 3 troubleshooting steps displaying on micro:bit | Engage · Explain · Explore · Evaluate |
-| 4 | Help Desk Simulator (MakeCode Day 2) + Role-Play | Refine MakeCode program; partner customer service role-play | Refined MakeCode program + role-play observation | Engage · Explore · Explain · Extend · Evaluate |
-| 5 | Presentations + H&L Favorites | Team demos + H&L favorites update | Demo + 2 IT support careers favorited | Engage · Explain · Extend · Evaluate |
+| Day | Topic | Core experience | Required evidence |
+|---|---|---|---|
+| 1 | IT Support Careers | Fixed four-role comparison + Xello Add interests | Two-career and interest check |
+| 2 | Education Routes | Dated BLS route guide + three-route comparison | Comparison and route decision |
+| 3 | Troubleshooting Logic | Build, simulate, or trace a three-step sequence | Program Evidence begins |
+| 4 | Testing and Customer Service | Partner test, revision, and safe role-play | Revision record + customer-service check |
+| 5 | Transferable Skills | One-minute demos + Xello Add skills | Program Evidence + individual connection |
 
-## Formative Assessment
+## District Instructional Moves
 
-- **Day 1:** 3 IT support career notes + Comparison Matrix exit ticket (2 careers x education/salary/task). *d(2)(A)*
-- **Day 2:** Education Pathway Comparison worksheet + Ranked Justification exit ticket (cert vs. AS vs. BS by speed to earning). *d(2)(A), d(2)(B)*
-- **Day 3:** MakeCode program runs on micro:bit + Decision Tree exit ticket (first step + branching). *d(4)(B)*
-- **Day 4:** Role-play observation + Diagnostic MCQ exit ticket (customer service misconceptions). *d(4)(B)*
-- **Day 5:** Demo + 2 IT Support Hats favorited + Concept Map exit ticket (career + Singley pathway + transferable skill + Wk1-4 cross-pathway compare). *d(1)(C), d(4)(B)*
+- **Stop and Jot:** Day 1, students mark one task, preparation fact, and transferable skill before comparing roles.
+- **QSSSA:** Day 2 route recommendation. **Question:** Which route should the student investigate first? **Stem:** “The student should investigate ___ because ___. A tradeoff is ___.” **Signal:** table tent or hand signal. **Share:** partner, then selected class responses. **Assess:** listen for one accurate preparation fact and one tradeoff.
+- **Chunking:** Day 3, model one MakeCode block or paper-logic move at a time; students test after each chunk.
+- **Think-Pair-Share:** Day 4 partner test. Silent notice, partner evidence exchange, one revision decision.
+- **Active Monitoring:** Day 4 role-play. Track acknowledgment, plain language, one step at a time, and calm response.
+- **Stop and Jot:** Day 5, students record one specific skill example before opening Xello so the profile entry is evidence-based rather than a random click.
 
-## Summative Assessment
+## Emergent Bilingual and Accessibility Supports
 
-**Help Desk Simulator Demo (Day 5):** Teams demonstrate their micro:bit help desk tool to the class. Demos must include: (1) a description of the IT problem they programmed for, (2) the troubleshooting steps in the program, (3) a justification of why those steps are in that order, (4) one IT support career that would actually use a tool like this. Scored with the **Help Desk Simulator Demo Rubric** ([Printable PDF](../../resources/worksheets/wk4-demo-rubric.pdf)), which carries four-level descriptors for each of the three dimensions: Logical Troubleshooting Sequence (d(2)(A)), Certification and Education Path (d(2)(A), d(2)(B)), and Transferable Skills (d(4)(B)), 4 points each, 12 points total. Post the running totals where the class can see them, and give a team whose board fails mid-demo a second attempt in the MakeCode simulator, since the rubric scores the sequence and not the hardware.
+- Put word banks and sentence stems at the point of use; do not hide required directions in an accordion.
+- Allow English, Spanish, or bilingual planning and role-play. Score the evidence and reasoning, not accent or English mechanics unless meaning is unclear.
+- Use the model comparison, bilingual step cards, bilingual role-play script, oral rehearsal, speech-to-text, screen magnification, and a written-chat alternative.
+- Assign flexible team roles: driver, navigator, tester, and evidence recorder. Every student still completes the individual Day 5 connection.
+- Keep the paper route equal. Students are graded on sequence, testing, career evidence, and transferable-skill reasoning—not hardware speed or public performance.
 
-## Differentiation
+## Absence and Platform Rules
 
-### Scaffolded Learning
+- H&L unavailable: use the fixed career cards; no required evidence is lost.
+- Xello unavailable: record the issue, complete the paper reflection, and schedule the completion action for catch-up.
+- MakeCode unavailable: use the paper trace and partner initials.
+- Student absent Day 3 or 4: complete the same paper logic/test record or join the assigned team's durable evidence on return.
+- Student absent Day 5: submit a written lightning-demo script or explain privately, then complete the individual connection and Xello catch-up.
 
-- Printed MakeCode starter blocks that students copy and modify rather than build from scratch ([Printable PDF](../../resources/worksheets/wk4-makecode-starter-blocks.pdf)).
-- Education Pathway Comparison worksheet with the certification-only career pre-filled as a model ([Printable PDF](../../resources/worksheets/wk4-education-pathway-comparison-model.pdf)).
-- Pre-printed troubleshooting step cards that students arrange in order before programming ([Printable PDF](../../resources/worksheets/wk4-troubleshooting-step-sort-cards.pdf)).
-- Pair work for MakeCode: one student programs, the other tests on the micro:bit.
+## Safe Trim and Cleanup Points
 
-### Extensions
+- **Day 1:** cut optional H&L browsing and the whole-class share first. Protect the fixed career evidence, 15-minute Xello block, and written connection.
+- **Day 2:** cut CompTIA browsing and shorten the share to one response. Protect all three route rows and the written recommendation.
+- **Day 3:** at minute 35, move a team without working Button A to the equal paper trace. Stop all building at minute 40; test, back up, complete the exit check, then return hardware.
+- **Day 4:** cap file recovery at three minutes and use the backup or paper trace. Run one role-play round instead of two when needed; protect the test, revision, and individual check.
+- **Day 5:** stop demos at minute 20 and move unfinished teams to a written or private route. Protect the full 20-minute Xello block and individual submission.
 
-- Students research the CompTIA A+ certification exam topics and create a study plan.
-- Add a timer or counter to the MakeCode program that tracks how many troubleshooting steps the user went through.
-- Compare IT support salaries in DFW vs. national average using BLS data.
-- Research the Singley Academy Technology Support Services pathway and map out 9th-12th grade courses.
+## Optional Whole-Group Slide Deck
 
-### ELL Language Support
-
-- Pre-teach: Certification = Certificación, Troubleshooting = Solución de problemas, Help Desk = Mesa de ayuda, Customer Service = Servicio al cliente.
-- Bilingual troubleshooting step cards with English and Spanish labels ([Printable PDF](../../resources/worksheets/wk4-troubleshooting-step-sort-cards-bilingual.pdf)).
-- Role-play scripts with sentence stems in both languages ([Printable PDF](../../resources/worksheets/wk4-help-desk-role-play-script-bilingual.pdf)): "I am going to try _____ to fix your problem (Voy a intentar _____ para resolver tu problema)."
-- Bilingual Education Pathway Comparison worksheet with Spanish column headers ([Printable PDF](../../resources/worksheets/wk4-education-pathway-comparison-bilingual.pdf)).
-- Pair ELL students with bilingual peers during the customer service role-play.
+When produced, the optional deck must carry the complete daily teaching sequence from bellringer through submission/cleanup. Build it as a 1280×720 HTML/CSS storyboard, render to high-resolution PNGs, assemble as full-slide images in PowerPoint, add speaker notes with teacher moves and a `[Sources]` section, then inspect the exported PowerPoint. It is an optional teaching surface; the paired Canvas guides and evidence artifacts remain the lesson source of truth.

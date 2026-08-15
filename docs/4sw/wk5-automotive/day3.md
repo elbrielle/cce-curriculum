@@ -1,94 +1,82 @@
-# Day 3: Automotive Salary Showdown
+# Day 3: Compare Three Automotive Occupations
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
-## Lesson Overview
+- **Topic:** Career Preparation
+- **Objective:** Students will research and describe preparation requirements and compare salaries for three automotive careers using one dated evidence basis.
+- **TEKS:** d(2)(A), d(5)(E)
+- **Demonstration of Learning:** Three-career comparison with all salary labels, preparation and task differences, one evidence limitation, and a Taylor recommendation.
+<!-- CCE DAILY CONTRACT END -->
+## Lesson overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Compare salaries for at least 3 automotive careers using H&L, BLS, and CareerOneStop; calculate the salary-to-education-time ratio; preview tomorrow's cross-cluster comparison |
-| **TEKS** | d(5)(E), d(2)(B) |
-| **5E Phases** | Engage: Warm-Up · Explore: Three-career salary research · Extend: Cross-cluster preview career · Explain: Class salary tally · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Automotive Salary Comparison worksheet showing 3 automotive careers + 1 cross-cluster preview career |
-| **Materials** | Chromebooks, H&L accounts, BLS Automotive Service Technicians page, BLS Diesel Service Technicians page, CareerOneStop Compare Occupations tool, printed Automotive Salary Comparison worksheet, calculator (or phone calculator), projector |
+| **TEKS** | d(2)(A), d(5)(E) |
+| **Target** | I can describe preparation and compare salaries for three automotive careers without mixing evidence labels. |
+| **Evidence** | Three-career comparison, limitation, and two-fact Taylor recommendation |
+| **Materials** | One Canvas-capable device per student for annotation; one projector; one calculator per pair only for wage differences; zero default prints; one three-page landscape comparison per student only for paper/enlarged access; one paper collection tray; optional Xello-localized cross-check |
 
----
+## Before class
 
-## Warm-Up (5 min)
+Default to one device per student, one projector, and zero prints. Post the fixed BLS evidence set and the Canvas annotation Assignment. For paper/enlarged access, print one three-page comparison per student; paper replaces annotation and is collected in one tray. Project the supplied comparison and Taylor models. A live site or vendor login is not required. If Xello supplies a localized figure, students record it in a separate local-evidence field with geography, date, and measure; they do not replace the common national comparison basis.
 
-**WARM-UP: Guess, how much do you think an experienced diesel mechanic earns per year in Dallas? Write your guess.**
+## Warm-up: Keep the label (5 min)
 
-Take 5-6 student guesses; $25,000-$30,000 is common. Then show the comparison figure: experienced diesel mechanics in DFW earn $55,000-$75,000, with master diesel technicians at large fleets making $80,000 or more. Students will check salary figures across H&L, BLS, and a local source today.
+Students repair three incomplete statements by adding the missing year, geography, or measure. Model: “$49,670” becomes “$49,670 May 2024 U.S. national median annual wage.”
 
----
+## Activity 1: Read the three cards (12 min)
 
-## Activity 1: Three-Career Salary Research (35 min)
+Students read one occupation at a time:
 
-**Source:** H&L Hat profiles + BLS Occupational Outlook Handbook + CareerOneStop Compare Occupations
+| Occupation | May 2024 U.S. national median | Growth, 2024-34 | Annual openings | Common preparation summary |
+|---|---:|---:|---:|---|
+| Automotive Service Technician/Mechanic | $49,670 | 4% | 70,000 | Postsecondary automotive program is common; some enter with high school and learn on the job |
+| Diesel Service Technician/Mechanic | $60,640 | 2% | 26,500 | High school plus on-the-job learning is typical; employers may prefer diesel training |
+| Automotive Body and Related Repairer | $51,680 | 2% for body/glass group | 16,000 for body/glass group | High school plus repair training; industry certification may support advancement |
 
-Distribute the printed Automotive Salary Comparison worksheet. Students fill in salary data for **3 automotive careers**:
+Students keep the group limitation with the collision figure: outlook and openings are published for the combined automotive body and glass group.
 
-1. **Auto Service Technician** (the standard mechanic)
-2. **Diesel Service Technician** (heavy trucks, buses, construction equipment)
-3. **Collision Repair Technician** (bodywork, painting, frame straightening)
+## Activity 2: Compare all three (18 min)
 
-Students who finish early add a 4th: **Automotive Service Manager** (the technician's path to management).
+Students complete:
 
-The worksheet has these columns:
+- highest-to-lowest national median ranking;
+- preparation difference;
+- growth and openings comparison;
+- one work-condition or task difference;
+- one reason salary alone cannot decide fit; and
+- one limitation created by using national evidence.
 
-| Career | DFW Entry Salary | DFW Experienced Salary | Education Time | Education Cost | 10-Year Job Demand |
-|---|---|---|---|---|---|
-| Auto Service Technician | | | | | |
-| Diesel Service Technician | | | | | |
-| Collision Repair Technician | | | | | |
+Do not calculate “salary divided by years of education.” Preparation is not a single universal year count, and that ratio creates false precision.
 
-Students gather data from three sources for cross-validation:
+## Activity 3: Recommend for a fictional student (10 min)
 
-1. **H&L Hat profile:** DFW-specific salary if available
-    > [H&L PLATFORM] Students reach the Hat pages the same way they did on Day 1, through Clusters, then the Transportation, Distribution, and Logistics cluster, following the app path on the workbook's App Exploration page (FYF p. 170: "App Exploration"). They record salary and demand data in the worksheet columns using the career research format taught in Wk0.
-2. **BLS Occupational Outlook Handbook:** national median pay and 10-year job outlook
-3. **CareerOneStop Compare Occupations:** side-by-side career comparison with state-level data
+Taylor enjoys diagnostics, wants paid work soon, and prefers electronic systems over painting or heavy equipment. Students recommend the first occupation Taylor should investigate, cite two table facts, and name one local question that national data cannot answer.
 
-After filling in all three rows, students calculate one ratio for each career:
+Preference is not scored. The recommendation must fit the scenario and evidence.
 
-**Salary-to-Education Ratio = Experienced DFW Salary ÷ Years of Education Required**
+## Exit ticket (5 min)
 
-This ratio surfaces something important: a career that requires a 6-month certificate and pays $50K has a much higher ratio than a 4-year degree career that pays $60K.
+**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/4sw-wk5-day3-compare-three-automotive-occupations.pdf):
 
-!!! tip "Facilitation Tip"
-    **Active Monitoring:** Walk a fixed pathway three times, one lap per career row, carrying the checklist. Each lap has one target: at least 2 of the 3 sources used for that career, and the numbers written where they belong. Have feedback ready for the two predictable errors: a national BLS median copied into the DFW column, and an hourly wage recorded as if it were annual. Students who fill in only the H&L numbers are doing single-source research, push them to cross-check on BLS. If the hourly-versus-annual error shows up on more than a handful of sheets, pause and convert one wage on the board for the whole room.
+Use the fixed evidence cards to complete the comparison.
 
-After completing the 3 automotive careers, students preview Day 5 by adding **one career from a different cluster** they explored earlier this year. Examples: Software Developer (1SW IT), Registered Nurse (2SW Health Science), Veterinarian (3SW Ag), Architect (5SW preview). They fill in only the salary and education time columns for the cross-cluster career, the full comparison happens Day 5.
-
-**DOK 4:** If you were advising a student who cared most about earning potential with the shortest education time, which automotive career would you recommend? Use specific numbers from your research to justify the recommendation.
-
----
-
-## Activity 2: Quick Class Tally (5 min)
-
-Take a quick verbal poll: which of the 3 automotive careers had the highest experienced DFW salary? Most students will be surprised that diesel often outpaces auto repair, especially at the experienced level. Discuss for 1-2 minutes why diesel pays more, fewer technicians, more demanding work, larger equipment.
-
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/4sw-wk5-day3-automotive-salary-showdown.pdf):
-
-Use your Day 3 worksheet to fill in the matrix below for the 3 automotive careers.
-
-| | Auto Service Tech | Diesel Service Tech | Collision Repair Tech |
+| | Automotive Service Technician | Diesel Service Technician | Automotive Body and Related Repairer |
 |---|---|---|---|
-| DFW experienced salary ($) | | | |
-| Years of education required | | | |
-| Salary ÷ years (ratio) | | | |
+| Median rank, 1-3 | | | |
+| One preparation fact | | | |
+| One limitation or label | | | |
 
-Bottom line: Which career has the BEST salary-to-education ratio? Name it, and write the ratio you calculated. Then explain in one sentence why that ratio is important for someone who wants to earn quickly. *(d(5)(E), d(2)(B))*
+Which occupation should Taylor investigate first? Use two facts and one limitation.
 
-   ___________________________________________________________________
+## Monitoring and supports
 
----
-
-## Differentiation
-
-- **Support:** Pre-filled worksheet with one career row already completed (Auto Service Technician, with all 3 sources). Students replicate the process for the other 2 careers. Provide a calculator.
-- **Extension:** Research the salary trajectory across a 20-year career, what does an automotive technician earn at year 1, year 5, year 10, and year 20? Plot it on a simple line graph.
-- **ELL:** Bilingual salary worksheet with Spanish column headers: Salario inicial = Entry salary, Salario experimentado = Experienced salary, Tiempo de educación = Education time, Costo = Cost, Demanda = Demand. Sentence stem for the ratio analysis: "El _____ tiene la mejor proporción porque _____."
+- **CFU at minute 9:** students repair “$49,670 salary” to “$49,670 May 2024 U.S. national median annual wage.” Reteach if fewer than four of five sampled responses include year, geography, and measure.
+- **Lap 1, minutes 16-23:** check all three rankings and the body/glass combined-group label before preparation comparison.
+- **Lap 2, minutes 29-36:** look for a real task or preparation difference rather than three copied descriptions. Prompt, “What changes across these jobs?”
+- **Pivot:** if one-third mix figures or groups, stop calculations and color-code median, growth, openings, and preparation on the supplied model.
+- **Trim:** do not calculate dollar differences or run optional Xello. Protect the limitation and two-fact Taylor recommendation.
+- Pre-highlight the four comparable fields. Provide calculator access only for differences, not a fabricated salary/education ratio.
+- Vocabulary: median/mediana, outlook/perspectiva, openings/vacantes, preparation/preparación, limitation/limitación.
+- At minute 45, students submit the annotation/upload/text response or place the paper packet in the tray. An incomplete student resumes the same practice Assignment. H&L is optional browse. BLS supplies the fixed common comparison; Xello may add, but not replace, a clearly labeled local cross-check.

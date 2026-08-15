@@ -6,7 +6,7 @@ weeks: 2sw/wk1-legal-studies
 audience: student
 variant_of:
 language: en
-pages: 4
+pages: 2
 orientation: portrait
 ---
 
@@ -40,15 +40,13 @@ Evidence 2 and why it matters:
 
 [[lines: 3]]
 
-[[pagebreak]]
-
 Evidence 3 or a response to the other side:
 
-[[lines: 3]]
+[[lines: 2]]
 
 Closing recommendation:
 
-[[lines: 3]]
+[[lines: 2]]
 
 ## 2. Judge the Policy
 
@@ -56,14 +54,14 @@ After hearing both sides, circle one: **approve** · **revise** · **reject**
 
 The strongest evidence was ____________________ because
 
-[[lines: 3]]
+[[lines: 2]]
 
 One safeguard or change I would require is
 
-[[lines: 3]]
+[[lines: 2]]
 
 ## 3. Personal Position
 
 My personal decision may differ from my assigned side. In 5-7 sentences, state a position, use at least two details from the evidence bank or discussion, name one affected legal career, and explain one safeguard or concern.
 
-[[lines: 8]]
+[[lines: 7]]

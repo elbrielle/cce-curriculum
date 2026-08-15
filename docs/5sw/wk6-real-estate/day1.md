@@ -1,124 +1,56 @@
-# Day 1: Real Estate Career Exploration — H&L + Gallery Walk
+# Day 1: Four Real-Estate Careers and Boundaries
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify four real-estate careers and compare their work products, preparation, and Texas regulatory boundaries.
+- **TEKS:** d(1)(C), d(2)(A)
+- **Demonstration of Learning:** Four-role evidence record, two-role comparison, and one official-source question.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Explore real estate careers in H&L's Business, Marketing, and Finance cluster; distinguish commission-based from salary-based roles via Gallery Walk; complete Real Estate Career Research Sheet for one career |
 | **TEKS** | d(1)(C), d(2)(A) |
-| **5E Phases** | Engage: Warm-Up · Explore: Cluster and district pathway tour · Explain: Gallery Walk income-model debrief · Explore: Career research sheet · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Real Estate Career Research Sheet for 1 career |
-| **Materials** | Chromebooks, H&L accounts + *Find Your Future* workbook (printed pp. 252-254), printed Gallery Walk career profile cards (Agent, Broker, Appraiser, Property Manager), Real Estate Career Research Sheet, projector |
+| **Deliverable** | Four-role evidence record, two-role comparison, and one official-source question |
+| **Materials** | Fixed four-role guide, current MacArthur pathway card, calculator optional, Canvas student guide |
 
----
+## Before Class
 
-## Warm-Up (5 min)
+Provide one Canvas-capable device or one two-page fixed guide per student, plus a pencil. Students use one route, not both. Work is independent; pairs of two may rehearse the comparison before each student submits. Project this model: *A Sales Agent helps manage a transaction under a sponsoring broker. A property appraiser develops a value opinion under a separate credential boundary. The Real Estate Marketing pathway is an option to investigate, not a license guarantee.* Prepare one labeled paper tray or the private Canvas collector. H&L may be opened for optional exploration, but it is not the source of record for licensing or pay.
 
-**WARM-UP: How much do you think a typical house costs in your neighborhood? Take a guess. Then estimate: if a real estate agent earned 3% commission, how much would they earn from selling that house?**
+## 50-Minute Flow
 
-Collect 2-3 guesses. DFW average home prices run $300K-$450K depending on neighborhood. At 3% commission, that is $9,000-$13,500 per sale. This primes students for the commission math on Day 2 and shows them immediately that real estate can be lucrative with just a few sales a year.
+### 1. Warm-Up: Work Product, Not TV Image (5 min)
 
----
+Students name one thing they think a real-estate worker produces. Collect answers, then separate property showing from contracts, market comparisons, appraisals, leases, budgets, records, and client communication.
 
-## Activity 1: H&L Business/Finance Cluster — Real Estate Pathway (15 min)
+### 2. Current Local Pathway Boundary (8 min)
 
-**Source:** (FYF p. 254: "App Exploration") and (FYF pp. 252-253: "What is Happening at My District?")
+Current Irving ISD public evidence names **Real Estate Marketing** at MacArthur in the **School of Business and Entrepreneurship**. It is a high-school pathway to investigate, not a promise of admission, license completion, transportation, schedule, placement, or employment.
 
-Direct students to open Hats & Ladders and go to Clusters, then the Business, Marketing, and Finance cluster. The workbook's App Exploration page carries the path: watch the Cluster Tour video, then open Pathway Possibilities and rate at least one pathway. The chapter itself prints no pathway list, so Pathway Possibilities is where students meet the cluster's pathways. Game Time and the Hat ratings on the same page are the early-finisher options.
+### 3. Four Fixed Career Cards (22 min)
 
-Then map the cluster the way Irving ISD maps it. The district pages list **six Business, Marketing, and Finance programs of study**:
+Students record work, common preparation, regulator/license boundary, compensation pattern, and one limitation for:
 
-- **Business Management:** planning, organizing operations, and decision making
-- **Administrative Management:** office and business support, professional procedures, and business technology
-- **Retail Management:** merchandising, sales strategies, and business operations
-- **Real Estate:** property valuation, contracts, and business communication, built on real estate principles and ethics
-- **Entrepreneurship:** starting and managing a business, business planning, and financial management
-- **Marketing & Sales:** advertising, branding, product promotion, market research, and data-driven decisions
+1. **Real Estate Sales Agent:** TREC license; works on behalf of and under sponsorship of a licensed broker for active practice; compensation often includes commissions that vary and are divided.
+2. **Real Estate Broker:** additional education/experience/license requirements; may manage a real-estate business and sponsor agents.
+3. **Property Appraiser/Assessor:** develops property-value estimates; Texas appraiser credentials are handled through TALCB, an independent subdivision of TREC; do not treat a sales-agent license as an appraisal credential.
+4. **Property Manager:** duties vary. TREC says a license is required for specified paid leasing/showing or rent-control activities; do not claim every property-management job has the same license requirement.
 
-Students focus on Real Estate. Using the Hat Finder in the app, they browse real estate Hats:
+### 4. Compare and Decide (10 min)
 
-- Real Estate Agent
-- Real Estate Broker
-- Appraiser
-- Property Manager
-- Mortgage Loan Officer
+Students compare two roles on work product, authority, preparation, and income pattern. They choose one role to investigate next and name the official source that must answer their remaining question.
 
-For each Hat, students note: education/licensing requirements, salary data (DFW), demand level, and whether it is commission-based or salary-based.
+### 5. Exit Check (5 min)
 
-!!! tip "Facilitation Tip"
-    Students are often surprised to learn that Property Managers and Appraisers earn a fixed salary while Agents and Brokers earn commission. Draw this distinction clearly, it frames the income discussion on Day 2.
+Name one role, one work product, one correct regulator/license boundary, and one fact the career card does not prove.
 
----
+## Monitoring Key
 
-## Activity 2: Gallery Walk — 4 Real Estate Roles (15 min)
+At minute 13, students should match each role to a distinct work product. If one-third collapse the roles, reproject the model and sort one role by work product and regulator. By minute 28, all four role rows should be usable. By minute 40, comparisons should name two differences and an authorized source. Safe trim: accept one concise difference in each category, but protect the official-source question and correct license boundary. Collect one route and close devices.
 
-Before class, post four career profile cards around the room, one for each role:
+## Support and Fallback
 
-1. **Real Estate Agent:** Commission-based (2.5-3% of each sale). Median DFW: $50K-80K but highly variable. License: TREC Sales Agent.
-2. **Real Estate Broker:** Commission + brokerage management. Median DFW: $75K-150K+. License: TREC Broker (advanced).
-3. **Appraiser:** Salary-based. Median DFW: $55K-75K. License: Texas Appraiser Licensing and Certification Board.
-4. **Property Manager:** Salary-based. Median DFW: $60K-90K. License: Varies by role (sometimes TREC).
-
-Students rotate through the 4 stations in pairs, taking notes on:
-
-- **Income model:** Commission or salary?
-- **Licensing:** What Texas agency regulates this role?
-- **Education time:** How long does it take to get licensed?
-- **Best for:** Which core personality type fits this role (Doer, Analyzer, Creator, Helper, Persuader, Organizer)?
-
-**DOK 2:** How would you describe the key difference between earning a commission and earning a salary? Which model do you think would motivate you more, and why?
-
-**Think-Pair-Share:** Hold the DOK 2 question until every pair has visited all four cards. Silent 30 second Think, then Partner A for 30 seconds and Partner B for 30 seconds. Two pairs share with the whole class.
-
----
-
-## Activity 3: Real Estate Career Research Sheet (12 min)
-
-Students pick **one** real estate career (from the 4 Gallery Walk roles or another H&L Hat) and complete a Real Estate Career Research Sheet. This is the same CCE career research format taught in Wk0 and reused in every cluster week. Fields:
-
-- **Career Name**
-- **What Interests You?:** why this career caught their attention
-- **Brief Job Description:** daily responsibilities
-- **Income Model:** commission, salary, or mixed
-- **Education/Licensing Required:** TREC or other Texas agency
-- **DFW Salary Range:** from H&L and BLS
-- **One Skill Needed:** sales, communication, attention to detail, math
-
----
-
-## Exit Ticket (3 min)
-
-**EXIT TICKET** (Mini-Case / Scenario Application) · [Printable PDF](../../resources/exit-tickets/5sw-wk6-day1-real-estate-career-exploration-h-and-l-gallery-walk.pdf):
-
-Scenario: A DFW couple just inherited a 4-bedroom house from a relative. They want to RENT it out (not sell) and need help managing tenants. They also want to KNOW the market value for tax purposes.
-
-1. Which TWO real estate careers do they need to HIRE?
-
-   Hire 1 (property management): _______________________
-
-   Hire 2 (market value): _______________________
-
-2. For EACH career, is the person paid on COMMISSION or SALARY?
-
-   Hire 1: commission / salary
-
-   Hire 2: commission / salary
-
-3. ONE risk of my #1 Hire's income model AND ONE upside:
-
-   Risk: _______________________
-
-   Upside: _______________________
-
-4. Which income model (commission OR salary) fits MY personal risk tolerance, and why? *(d(2)(A), d(5)(A))*
-
-   ___________________________________________________________________
-
----
-
-## Differentiation
-
-- **Support:** Pre-select the career (Real Estate Agent) for students who need focus. Provide the Hat profile page pre-loaded. They fill in only the income and education fields.
-- **Extension:** Research Compass, Keller Williams, or Ebby Halliday, what are these companies, and how does the brokerage model work in DFW?
-- **ELL:** Bilingual Gallery Walk cards with Spanish summary labels. Pair ELL students with bilingual peers for the walk.
+The record uses short cells only for short facts and full-width lines for the comparison. Students may type, dictate, annotate, or use paper. Fixed cards are the complete no-login/absence route.

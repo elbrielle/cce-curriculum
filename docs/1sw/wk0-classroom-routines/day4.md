@@ -1,98 +1,96 @@
-# Day 4: My Career Journey Reflection (Core Day C)
+# Day 4: My Career Journey Reflection
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
-## Lesson Overview
+- **Topic:** Career Assessment
+- **Objective:** Students will analyze and discuss the initial results of career assessments and explore and describe the CTE career clusters using evidence from Career Assessment.
+- **TEKS:** d(1)(A), d(1)(B)
+- **Demonstration of Learning:** Completed My Career Journey reflection submitted once as Minor 1 through file upload, exact labeled text entry, or teacher-collected paper.
+<!-- CCE DAILY CONTRACT END -->
 
-| | |
-|---|---|
-| **Time** | 50 minutes |
-| **Objectives** | Synthesize Week 0 data (core personality type, work values, Building Blocks, H&L cluster recommendations) into the My Career Journey reflection handout; compare the Day 2 warm-up prediction to the actual result; name three people in a career community |
-| **TEKS** | d(1)(A), d(1)(B) |
-| **5E Phases** | Engage: Warm-Up · Explain: Cluster recommendation review · Extend: My Career Journey reflection · Evaluate: Exit Ticket |
-| **Deliverable** | Completed My Career Journey reflection handout (turned in to teacher) |
-| **Materials** | Chromebooks, H&L accounts, engineering notebooks, *Find Your Future* workbook p. 22, printed My Career Journey reflection handout ([Printable PDF](../../resources/worksheets/my-career-journey.pdf)), projector |
+## Why this lesson comes here
 
----
+Days 2-3 collected three inputs: core personality, work values, and Building Blocks. Today students retrieve those inputs, summarize what they currently notice, reflect on surprises, and apply the evidence to one career curiosity. This is the H&L/FYF synthesis job already assigned for the week, not a substitute for or compressed version of Jenna Hainlen's full focused-note-taking lesson.
 
-!!! warning "Core day. This is the summative."
-    Today produces the **My Career Journey reflection handout**, the Week 0 summative assessment. This document is returned to students at 4SW Wk1 Day 1 (mid-year reconciliation) and referenced again at 6SW Wk6 Capstone. Save every completed handout in a class folder labeled "Week 0, return at mid-year and capstone." If a student is absent today, schedule them to complete the reflection on Day 5 flex or the first clean period of 1SW Wk1.
+This is **Minor 1**, not a Major. Students submit the reflection once. They do not also submit a cluster-ranking exit ticket or a duplicate notebook page.
 
----
+## Before students arrive
 
-## Warm-Up (5 min)
+- Verify the mapped Canvas Assignment is named `MINOR 1: My Career Journey Reflection`, unpublished, 100 points, points grading, Minor group, omit=false, and has the advisory-rubric marker.
+- Prepare one response route per student:
+  - file upload of the completed two-page reflection;
+  - exact labeled text entry using items 1-8;
+  - teacher-collected paper labeled with student name/date.
+- Default print count: one standard reflection per student using paper; otherwise 0. Keep sentence-stem and bilingual-support versions ready by need, not as three packets for everyone.
+- Open H&L profiles, FYF p. 22, the Student Guide, the Day 4 deck, and the 12-point student rubric.
+- Use a secure teacher folder or the Canvas submission itself for later mid-year/capstone retrieval. Students do not resubmit the same artifact later.
 
-**WARM-UP: Open your H&L Climber Profile and look at it. What has changed since Core Day A on Day 2? Name one thing the app now knows about you that it did not know on Tuesday.**
+## Complete model
 
-Bridge: "The last two core days were about loading data into your Climber Profile. Today is about pulling it all together into a story about who YOU are." Set the tone. Today is reflective and synthesis-focused, not new content.
+Model one difficult item before students begin:
 
----
+> **Career:** Veterinary Technician<br>
+> **Evidence:** My Helper core type fits because I like supporting living things. Relationships is one of my work values. Caring for my dog is a Building Block that has taught me patience. I am curious about this career, but I still need to learn the required education and daily work before deciding whether it fits.
 
-## Activity 1: Review Your Cluster Recommendations (10 min)
+**Non-model:** "Health Science because it fits me." Explain that Health Science is a cluster, not a career, and `fits me` does not name evidence.
 
-**Source:** H&L Climber Profile cluster recommendations (generated from the Core Day A core personality result and the Core Day B work values and Building Blocks)
+## Fifty-minute flow
 
-Direct students to open their Climber Profile and find the recommended clusters section. The H&L app has now generated personalized cluster recommendations from the three inputs: core personality type (Day 2), work values (Day 3), and Building Blocks (Day 3).
+### 1. Profile warm-up — 5 minutes
 
-Students write their top 3 recommended clusters in the engineering notebook. They will use these in the reflection handout.
+Students open the Climber Profile and privately answer: what does the profile know now that it did not know on Day 2?
 
-> [H&L PLATFORM] The H&L app uses the core personality result, work values, and Building Blocks to generate cluster recommendations. Students should now see a personalized list. These recommendations will refine over the year as students explore and favorite Hats.
+### 2. Gather the evidence — 8 minutes
 
-!!! tip "Facilitation Tip"
-    If a student dismisses a surprising cluster ("I got Agriculture, I live in Irving"), open its description before moving on. Agriculture includes Veterinary Science, Food Science, and Environmental Engineering as well as farming, so the title alone is not enough to judge the match.
+Students locate:
 
----
+1. core personality result and one meaningful phrase;
+2. top work values;
+3. three Building Blocks and skills;
+4. available cluster recommendations;
+5. the original Day 2 prediction.
 
-## Activity 2: My Career Journey Reflection Handout (30 min)
+The student points to each source and the teacher checks access, not binder/neatness. Do not copy the results into another holding sheet before the reflection.
 
-**Source:** Synthesis of Core Day A and Core Day B H&L data, plus (FYF p. 22: "Building a Career Community")
+**Minute 13 look-for:** every student has the profile, FYF pages, and private notes open or has missing items visibly marked `pending`.
 
-Distribute the printed My Career Journey reflection handout ([Printable PDF](../../resources/worksheets/my-career-journey.pdf)). This is the major summative assessment for Week 0. It pulls together everything students learned on Core Days A and B.
+### 3. Model the evidence connection and rubric — 5 minutes
 
-**Reflection sections (students fill in):**
+Project the complete model. Show how type + value + Building Block support one career curiosity and how the final sentence names what is still unknown. Review the 12-point rubric in student language: complete evidence, accurate self-awareness, and a supported career connection.
 
-1. **My Top Core Personality Type:** ____ (from H&L Discover Your Core, Core Day A)
-2. **My Warm-Up Prediction vs. My Actual Result:** Did they match? If yes, what does that tell you about how well you know yourself? If no, what do you think caused the difference?
-3. **My Top 2 Work Values:** ____ and ____ (from Core Day B H&L Discover Your Work Values)
-4. **My Top 3 Building Blocks:** ____, ____, ____ (from Core Day B H&L app entries)
-5. **My Top 3 H&L Cluster Recommendations:** ____, ____, ____ (from today's Activity 1)
-6. **One Career I Am Curious About:** Name one specific Hat from this week (or any career you have heard of) and explain in 2 sentences why it caught your attention.
-7. **One Question I Have:** Write one question you still have about careers, education, or your future.
-8. **My Career Community:** ____, ____, ____ (three people who can encourage you and help you stay on track, from FYF p. 22). They can be people you already know, such as family, friends, teachers, or coaches, or people you hope to meet, such as a mentor.
+### 4. Complete My Career Journey — 22 minutes
 
-Frame item 8 with the workbook's own question from page 22: why do successful people usually rely on a team of supporters? The facing paragraph, "Being a Career Thinker and Doer," gives the closing frame for the whole week: career planning is not about having everything figured out, it is about continuing to learn, grow, and discover new possibilities.
+Students complete all eight sections. For Career Community, students may name a **role**, initials, or a trusted person. They do not have to disclose full names or personal relationships publicly.
 
-This document is revisited at mid-year (4SW Wk1-2 Career Plan) and end-of-year (6SW Wk6 Final Career Plan). Tell students to save it, because the class returns to it in January and in May to measure how much their thinking moved.
+Run three monitoring laps:
 
-!!! note "Persistent Portfolio (critical for mid-year and capstone)"
-    Keep all students' My Career Journey reflections in a folder (digital or paper) that you can re-issue at 4SW Wk1 Day 1 (mid-year reconciliation) and 6SW Wk6 Day 1 (capstone). Both later weeks directly ask students to reference their Week 0 answers to measure growth. If the reflection is lost, students cannot complete those warm-ups without reconstructing data from memory. A simple class folder labeled "Week 0, return at mid-year and capstone" is enough.
+1. Items 1-5 match an open source rather than memory.
+2. Item 6 names a career, not a cluster, and uses two evidence-based sentences.
+3. Item 8 includes three support roles/people; fictional roles are allowed when privacy is needed.
 
-**Active Monitoring:** walk the room three times while students fill in the handout, one target per lap. Lap 1, items 1 through 5 are copied from an open Climber Profile rather than from memory. Lap 2, item 6 names a specific Hat and carries two sentences. Lap 3, item 8 names three real people. Have the feedback ready before class for the two predictable misconceptions: a student who writes a cluster name where item 6 asks for a career, and a student whose career community is three family members with no teacher, coach, or counselor. The pivot: if more than a handful stall on item 6, pause the room and project the Hat Finder to model one pick instead of repeating it desk by desk.
+If one third of the class stalls on item 6, pause once and annotate the complete model. Do not repeat the explanation desk by desk.
 
-**DOK 3:** What conclusions can you draw about how your core personality type, work values, and Building Blocks all connect to a possible career cluster? Pick ONE cluster from your top 3 and explain how all three inputs support it.
+### 5. Self-check and revise — 6 minutes
 
----
+Students use the rubric and make one visible revision. Speech-to-text, dictation to an adult, bilingual support, or oral rehearsal may support the writing; the final evidence still follows one approved private submission route.
 
-## Exit Ticket (5 min)
+### 6. Submit once and clean up — 4 minutes
 
-**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/1sw-wk0-day4-my-career-journey-reflection-core-day-c.pdf):
+- **File route:** upload the completed reflection as one file.
+- **Text route:** use labels 1-8 and include every response.
+- **Paper route:** hand the labeled paper to the teacher.
 
-Copy the three recommended clusters from your Climber Profile. Rank them from MOST curious (1) to LEAST curious (3). Back each rank with your own Week 0 data: your core personality type, one of your work values, or one of your Building Blocks.
+Students do not submit the Day 2/3 pages or a second exit ticket. Teacher confirms the submission/collection and stores it for later retrieval.
 
-- Rank 1 (most curious): _______________________. My reason from my own data: ___________________________________________________________________
+## Pivot, trim, recovery
 
-- Rank 2: _______________________. My reason from my own data: ___________________________________________________________________
+- **Missing one H&L result:** mark that field `pending`, complete every independent section, and protect Friday catch-up. Score only after the result is added.
+- **Platform outage:** use saved notebook/FYF evidence and paper/text. Do not invent a cluster recommendation.
+- **Absent:** complete the reflection during Friday's protected catch-up or the next clean period; do not replace it with a different packet.
+- **Protected trim:** reduce the warm-up and whole-group rubric talk. Protect 22 minutes of drafting, one revision, and the exact submission check.
 
-- Rank 3 (least curious): _______________________. My reason from my own data: ___________________________________________________________________
+## Source notes
 
-Bottom line: name ONE thing you would still need to find out about your Rank 1 cluster before you could say it really fits you.
-
-   ___________________________________________________________________
-
-*(d(1)(A), d(1)(B))*
-
----
-
-## Differentiation
-
-- **Support:** Provide the fill-in-the-blank version of the My Career Journey reflection ([Printable PDF](../../resources/worksheets/my-career-journey-stems.pdf)), which pre-prints sentence stems ("My top core personality type is ____, which means I like to ____") and, for item 8, four role labels (a family member, a teacher, a coach or club sponsor, a friend) so students fill in names rather than generating categories.
-- **Extension:** Students who finish early explore the H&L Hat Finder and favorite their first 3 Hats from any cluster. These become part of their Climber Profile portfolio and feed into the 4SW Wk1 Favorites Audit at mid-year.
-- **ELL:** Bilingual reflection handout with Spanish sentence stems ([Printable PDF](../../resources/worksheets/my-career-journey-bilingual.pdf)). Pair ELL students with bilingual peers if extended conversation is needed during the reflection.
+- H&L Climber Profile outputs from Days 2-3.
+- *Find Your Future* p. 22, `Building a Career Community`.
+- The full Jenna Hainlen focused-note-taking sequence remains held for a later dedicated point of need; it is not claimed as the source of this H&L/FYF reflection.

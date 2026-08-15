@@ -1,116 +1,67 @@
-# Day 5: Xello Decision Making + eDynamic 6.1 + App Exploration
+# Day 5: Hospitality Career and Business Recommendation
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Recommendation
+- **Objective:** Students will compare salary and preparation evidence for three hospitality careers and recommend one career with a related entrepreneurial opportunity and supported local connection.
+- **TEKS:** d(1)(C), d(3)(I), d(5)(E)
+- **Demonstration of Learning:** Five-to-seven-sentence Hospitality Career and Business Recommendation scored with the 16-point rubric in mapped Minor 2.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete the Xello Decision Making lesson; make progress on eDynamic Unit 6.1: Entertaining and Exploring; finish the workbook's App Exploration page for this cluster; reflect on the Hospitality and Tourism cluster |
-| **TEKS** | d(1)(C), d(3)(I) |
-| **5E Phases** | Engage: Warm-Up · Explain: Xello decision-making framework · Extend: eDynamic 6.1 and App Exploration ratings · Evaluate: Exit Ticket |
-| **Deliverable** | Xello Decision Making completion screenshot + completed App Exploration page + 3-sentence cluster reflection |
-| **Materials** | Chromebooks, Xello accounts, eDynamic Learning accounts, H&L accounts, projector |
-
----
+| **Objectives** | Audit a three-career comparison; evaluate a defined student scenario; recommend one career; explain one entrepreneurial opportunity and tradeoff |
+| **TEKS** | d(1)(C), d(3)(I), d(5)(E) |
+| **5E Phases** | Engage, Explain, Extend, Evaluate |
+| **Deliverable** | Hospitality Career and Business Recommendation |
+| **Materials** | Per student: fixed career guide in Canvas, one two-page recommendation digitally or printed double-sided, student-visible rubric, pencil, and one device for private Canvas submission when used. Teacher: projector with the Jordan scenario and a five-field evidence check. Optional Xello Decision Making or eDynamic 6.1 begins only after core work. |
 
 ## Warm-Up (5 min)
 
-**WARM-UP: We just spent a week in Hospitality and Tourism. If you HAD to work in this cluster, which side would you pick. The kitchen, the hotel, or the events side? Why?**
+**WARM-UP:** Which matters most when choosing among Chef, Lodging Manager, and Event Planner: daily work, preparation, schedule, pay, or business opportunity? Explain one choice.
 
-Take 4 student responses. Validate all answers. Some students discovered they love this cluster; some discovered it's not for them. Both are useful.
+Do not frame the highest salary as the automatic best answer.
 
----
+## Activity 1: Audit the Evidence (10 min)
 
-## Activity 1: Xello Decision Making Lesson (20 min)
+Students correct their three-career comparison using the fixed guide. Check all five fields: May 2024 U.S. median, common preparation, 2024-2034 growth, annual openings, and work condition.
 
-**Source:** Xello supplemental lesson, "Decision Making." This lesson is not a Bowie Grade 8 completion standard.
+Students must not relabel a national median as DFW or starting pay. Xello may add localized evidence only when geography, date, and measure remain visible.
 
-Open Xello on the projector. Walk students through finding the Decision Making lesson:
+## Activity 2: Plan from Jordan's Scenario (10 min)
 
-1. From the Xello dashboard, click **Lessons**
-2. Find **"Decision Making"** in the 7th-grade lesson list
-3. Click **Start** or **Continue**
+Students identify Jordan's interests and constraints, compare all three careers, and plan one recommendation. Any career may earn full credit when the task, evidence, tradeoff, and business opportunity fit the scenario.
 
-Students complete the lesson on their own Chromebooks. The lesson typically includes:
+Model only the evidence chain, not a full response: **Lodging Manager → coordinates guest service and hotel operations → $68,130 May 2024 U.S. median annual pay → evenings/weekends may be required → a small lodging or guest-service business must sell and coordinate a verified service.** Students still decide which career best fits Jordan.
 
-- A framework for making decisions (gather info, weigh options, predict consequences, decide, reflect)
-- Practice scenarios where students apply the framework
-- A reflection on how good decisions matter for career paths
+The current local evidence supports these investigation links:
 
-**Stop and Jot:** After the lesson, students take 90 seconds to write one sentence in their notebook applying the decision-making framework to a real career choice. Two stems on the board:
+- Singley Academy: Culinary Arts and Hospitality Services
+- Irving, MacArthur, and Nimitz: Lodging and Resort Management
+- Singley: FireBird Cafe Catering student-run business
 
-- "If I had to decide between [career A] and [career B], I would gather information about _____, weigh the options of _____, and predict that _____."
-- "An entrepreneurial opportunity in hospitality is _____, and it needs _____ skills beyond cooking."
+Do not claim a guaranteed credential, admission, job, or salary.
 
-!!! tip "Facilitation Tip"
-    Connect the Xello lesson to this week's activities. Hotel Rescue required real-time decision making with limited info. Cater and Create required choosing one event, one feeling, and one take-home touch, then defending how they fit together. Career decisions work the same way. Students will face them at the end of 8th grade when they pick their high school pathway.
+## Activity 3: Write the Recommendation (20 min)
 
----
+Students write five to seven sentences. The response includes one career task, one correctly labeled number, one preparation or schedule tradeoff, one entrepreneurial opportunity, and one verified local connection when relevant.
 
-## Activity 2: eDynamic Unit 6.1: Entertaining and Exploring (15 min)
+**Active-monitoring pivot:** At minute 25, every plan should have a career task, labeled number, tradeoff, and business opportunity. If more than one quarter has a preference without evidence, stop and model how one row becomes one sentence. If time compresses, trim the warm-up share or final verbal debrief; preserve the individual recommendation, rubric revision, private submission, and five-minute reset.
 
-**Source:** eDynamic Learning. Unit 6.1: Entertaining and Exploring (covers Arts/AV and Hospitality clusters)
+**DOK 3:** Which evidence changes the recommendation most: the career task, the preparation route, or the schedule? Explain why the other two still matter.
 
-Direct students to log into eDynamic and navigate to **Unit 6.1: Entertaining and Exploring**. This unit reinforces the Hospitality cluster content from this week and previews the Arts/AV cluster (which appears later in the year).
+## Self-Score and Submit (5 min)
 
-> [VERIFY IN eDynamic] Confirm with your district that Unit 6.1 is enabled and accessible to 7th-grade students. Verify the unit covers Hospitality content as expected.
+Students use the 16-point rubric, revise one weak criterion, and submit through the private Canvas Assignment or on paper.
 
-Students work through Unit 6.1 for 15 minutes. Record the last completed section so unfinished students know where to resume.
+**DELIVERABLE:** Individual Hospitality Career and Business Recommendation. Score the four 0-4 criteria, then convert with `(raw score / 16) × 100`, rounded to the nearest whole number, in the existing mapped Minor 2 assignment.
 
----
-
-## Activity 3: App Exploration + Cluster Reflection (8 min)
-
-**Source:** (FYF p. 126: "App Exploration")
-
-> [H&L PLATFORM] Students finish the App Exploration page they started on Day 1. In the Hospitality and Tourism cluster they find 1 Hat that matches their personality or interests and say why, find 1 Hat that feels like a poor fit and say why, click **Pathway Possibilities**, answer the questions there, rate at least 1 pathway, and rate at least 3 Hats. The page closes with a free space for jotting thoughts on the cluster in emojis, pictures, or words.
-
-Students take a screenshot of their rated Hats and save it to Google Drive. The Hats they rate here feed the mid-year self-audit in 4SW Wk1 (FYF pp. 281-282: "Rung 1: Who You Are"), which pulls their top Hats and favorite pathways straight from the app.
-
-Then they write a 3-sentence reflection on the Hospitality and Tourism week:
-
-- **Sentence 1:** "The most interesting hospitality career I learned about this week is _____."
-- **Sentence 2:** "The activity I enjoyed most was _____ because _____."
-- **Sentence 3:** "If I owned a small hospitality business, it would be _____ (food truck, B&B, event planning company, etc.) because _____."
-
-**DOK 3:** Looking at the 3 hospitality activities (Culinary Twist, Hotel Rescue, Cater and Create), which one required the MOST teamwork? Which required the most individual creativity? Defend your answers with examples.
-
----
-
-## Exit Ticket (2 min)
-
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/3sw-wk4-day5-xello-decision-making-edynamic-6-1-app-exploration.pdf):
-
-A Hospitality career I rated highly this week: _______________________
-
-Connect this career to THREE things:
-
-**1. Today's Xello Decision Making framework** (gather info → weigh options → predict → decide → reflect)
-
-   Which step is HARDEST for someone picking my top-rated career, and why? One sentence:
-
-   ___________________________________________________________________
-
-**2. The Singley Academy Culinary Arts OR Hospitality Services pathway** (ServSafe Manager certification)
-
-   Does Singley's pathway lead DIRECTLY to my top-rated career or is it a STEPPING STONE? Circle: DIRECT / STEPPING STONE. One sentence why:
-
-   ___________________________________________________________________
-
-**3. My small-business (entrepreneurship) dream in Hospitality**
-
-   If I owned a small hospitality business, it would be: _______________________ (food truck, B&B, event-planning company, etc.). One sentence why:
-
-   ___________________________________________________________________
-
-*(d(1)(C), d(3)(I))*
-
-Submit Xello screenshot + rated Hats screenshot + 3-sentence reflection with this ticket.
-
----
+Xello Decision Making, eDynamic Unit 6.1, and H&amp;L App Exploration are optional extensions. They do not replace or add requirements to the individual evidence check.
 
 ## Differentiation
 
-- **Support:** Sentence stems for the 3-sentence reflection. Pre-fill: "The most interesting career I learned about is _____ because it combines _____ and _____."
-- **Extension:** Connect your favorite hospitality career to a real Irving employer (Hilton DFW Lakes, Embassy Suites Las Colinas, Toyota Music Factory venues). What entry-level role would you start in?
-- **ELL:** Pre-teach: Decision = Decisión, Choice = Elección, Reflect = Reflexionar. Xello and eDynamic both support Spanish, show language toggles if needed.
+- **Support:** Use the five planning fields before writing and keep the numbered sentence jobs beside the ten full-width writing lines. Allow oral rehearsal, speech-to-text, keyboard entry, or teacher scribing.
+- **Extension:** Add a second recommendation for a student with different preparation or schedule needs.
+- **ELL:** Use recommendation/recomendación, evidence/evidencia, preparation/preparación, schedule/horario, and business/negocio. Allow speech-to-text and score content rather than mechanics unless meaning is unclear.

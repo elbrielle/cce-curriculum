@@ -1,129 +1,49 @@
-# Day 3: Bridge Challenge — Design Phase
+# Day 3: Bridge Constraints and Design Evidence
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Bridge Design Evidence
+- **Objective:** Students will compare bridge systems, create two options, and select a design from evidence.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Two-view options + critique + individual career-role decision.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Apply the Engineering Design Process (EDP) phases 1-2: Define the problem and research/sketch 2 bridge design options before building |
+| **Target** | Compare bridge systems, create two options, and select a design from evidence. |
 | **TEKS** | d(1)(C) |
-| **5E Phases** | Engage: Warm-Up · Explain: Design challenge and Engineering Design Process · Explore: Bridge type research and two design sketches · Evaluate: Exit Ticket |
-| **Deliverable** | Approved bridge sketch showing two design options with labeled structural elements (truss, arch, or beam) |
-| **Materials** | Chromebooks, printed Bridge Design sketch page, projector, PBS Design Squad videos, bridge materials for display only (not yet built) |
+| **Evidence** | Two-view options + critique + individual career-role decision |
 
----
+## Before Class
 
-## Warm-Up (5 min)
+Provide one Canvas-capable device or one four-page landscape design packet per student, plus pencil and ruler. Students use one route. Work is individual; pairs may give the brief critique, with self-review or a teacher conference as equal routes. Project packet page 1 and the supplied two-option model in the Teacher Guide. No physical materials or build station are required.
 
-**WARM-UP: Think about the strongest bridge you have ever seen. What made it strong, the shape, the materials, or the size? Write down your best guess.**
+## 50-Minute Flow
 
-Collect 2-3 guesses, then test the shapes. A triangle holds its shape under load, while a square can fold into a parallelogram.
+### 1. Shape investigation — 5 minutes
 
----
+Demonstrate a pin-jointed square and triangulated frame. Say that triangulation can make an idealized frame geometrically stable; joints, material, span, loading, and failure mode still matter.
 
-## Activity 1: The Challenge + Engineering Design Process (10 min)
+### 2. Constraints and evidence cycle — 10 minutes
 
-**Source:** CCE-original challenge. The *Find Your Future* workbook prints no civil engineering activity, so the problem below is grounded on the TxDOT Dallas district project listings and the BLS civil engineers page rather than on a workbook scenario.
+The classroom comparison uses a 12-inch span, one marked load point, and standardized fictional results. The goal is a comparable result and justified revision, not a winner. Real infrastructure also requires licensed analysis, codes, geotechnical evidence, public review, and long-duration validation.
 
-Name the real version of the problem first, in one minute. TxDOT's Dallas district is rebuilding interchanges and frontage roads across the metroplex, the Trinity River flood control system keeps water out of neighborhoods that flooded before it existed, and the DART Silver Line runs a rail corridor through Irving that had to cross roads already in use. Every one of those projects is somebody deciding how much load a structure has to carry and what happens to everything around it. Today students take the same decision at desk scale.
+### 3. Compare bridge systems — 10 minutes
 
-Announce the challenge clearly so students understand the constraints:
+Use teacher-curated beam, truss, and arch visuals. Explain that performance depends on the complete system; do not force every team toward a predetermined truss answer.
 
-**The Challenge:** In teams of 2-3, design and build a bridge that spans a **12-inch gap** between two desks. The bridge must hold as much weight as possible without collapsing. The winning bridge holds the most weight per gram of materials used (strength-to-weight ratio).
+### 4. Draw two options and critique — 20 minutes
 
-**Material limits per team:**
+The packet gives Option A and B a landscape drawing page with separate top and side fields. Students label the 12-inch span, supports, members, joints, load point, expected load path, and predicted weak point. Each student records one critique and the evidence behind the final choice.
 
-- 40 plastic drinking straws
-- 3 feet of masking tape
-- 5 index cards
-- Scissors
+### 5. Exit — 5 minutes
 
-Introduce the Engineering Design Process. Civil engineers follow this same process in real projects.
+Name the civil/structural/technician role responsible for the next project step, what evidence that worker needs, and what the worker would produce.
 
-1. **Define the Problem:** What exactly are we solving? (Span 12 inches, hold maximum weight.)
-2. **Research & Ideate:** How have others solved this problem? What designs work?
-3. **Prototype:** Build it.
-4. **Test:** Measure performance.
-5. **Redesign:** Fix what failed.
+## Access and Absence Route
 
-Today's goal: Complete Phases 1 and 2.
+Use tactile or large-print geometry, verbal description, typing, dictation, or a teacher scribe. Absent students complete both options and use the same sample data on Day 4.
 
-!!! tip "Facilitation Tip"
-    Do not distribute materials today. Students who get materials immediately start building without thinking. The point of Day 3 is forcing them to plan first, just like a real civil engineer does before pouring a single cubic yard of concrete.
-
----
-
-## Activity 2: Bridge Type Research (15 min)
-
-**Chunking:** Project one bridge type at a time and say what each one is for before showing it. Close each type with the three research questions below before moving to the next, and demonstrate the triangle-versus-square load test on the projector inside the truss chunk.
-
-Project a quick 3-minute visual tour of bridge types on the screen, use PBS Design Squad or a static comparison slide:
-
-- **Beam Bridge:** simplest. A flat deck with supports on each end. Weak unless the beam is thick.
-- **Truss Bridge:** triangular framework. Distributes load across many small pieces. Common in railroads.
-- **Arch Bridge:** curved. The weight pushes outward into the ground. Very strong but hard to build.
-
-After the tour, teams research bridge types online (PBS Design Squad, BLS civil engineering page, or a teacher-curated image set). They identify:
-
-- Which type fits a 12-inch span with straws?
-- What is the key structural element of each?
-- Which uses triangles and why are triangles strong?
-
-!!! note "Why Triangles?"
-    A triangle is the only shape that does not deform under load without breaking a connection. Push on a square and it becomes a parallelogram. Push on a triangle and nothing moves unless one of the sides breaks. This is why trusses are made of triangles.
-
----
-
-## Activity 3: Design Two Options + Peer Critique (17 min)
-
-Each team sketches **two** different bridge designs on the provided sketch page. The sketches must include:
-
-- **Top-down view** of the bridge
-- **Side view** showing the structural shape
-- **Labels** for each structural element (truss, arch, beam, support column)
-- **Predicted weak points:** where do they think it will break first?
-
-After sketching, teams swap sketches with another team for a 2-minute peer critique. The critiquing team answers: *"Where do you think this design will fail first, and why?"*
-
-Teams then **pick one design** to build on Day 4 based on the peer feedback.
-
-**DOK 2:** Why is a truss stronger than a simple beam bridge? Use your sketch to explain.
-
-!!! tip "Facilitation Tip"
-    Approve each team's final design before they leave class. If a team picked a flat beam bridge with no triangular reinforcement, prompt them with: "What shape holds its form under load?" and send them back to revise. Avoid saying "That won't work", let them engineer their own realization.
-
----
-
-## Exit Ticket (3 min)
-
-**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/5sw-wk2-day3-bridge-challenge-design-phase.pdf):
-
-1. My team's bridge type (circle one): **Truss** / **Arch** / **Beam** / **Other: _______________________**
-
-2. Space below, sketch the chosen design (top view OR side view) with at least 3 structural elements labeled:
-
-```
-
-
-
-```
-
-3. ONE design feature I picked specifically to MAKE IT STRONGER:
-
-   Feature: _______________________. Why it makes it stronger in one sentence:
-
-   ___________________________________________________________________
-
-4. The WEAK POINT I expect to fail first: _______________________. Why I expect that in one sentence:
-
-   ___________________________________________________________________
-
-*(d(1)(C))*
-
----
-
-## Differentiation
-
-- **Support:** Provide truss and arch bridge templates with basic geometry already drawn. Students adapt the template for the 12-inch span rather than designing from scratch.
-- **Extension:** Research cable-stayed and suspension bridges, why are these used for very long spans? How do they differ from truss bridges?
-- **ELL:** Visual bridge type poster with Spanish labels: Truss = Armadura, Arch = Arco, Beam = Viga, Support = Soporte, Load = Carga. Bridge-building is highly visual and accessible across language levels.
+Monitor at minutes 10, 25, 38, and 45 for constraints, Option A, a meaningfully different Option B, and the supported choice/role response. If one-third changed only color or decoration, reshow the model. Accept clean labeled line diagrams and concise strengths when time is short; protect both distinct options, the supported choice, and the individual career-role evidence. Collect one annotation/upload or packet and stack rulers.

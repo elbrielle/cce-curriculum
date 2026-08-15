@@ -1,130 +1,30 @@
-# Day 2: Cover Letter Writing
+# Day 2: Tailored Cover Letter
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
-## Lesson Overview
+- **Topic:** Business Correspondence
+- **Objective:** Students will write appropriate business correspondence by tailoring a fictional cover letter to a posting, using supplied evidence, and making one visible revision.
+- **TEKS:** d(7)(B)
+- **Demonstration of Learning:** Three-page fictional cover-letter plan, draft, evidence audit, and final revision.
+<!-- CCE DAILY CONTRACT END -->
 
-| | |
-|---|---|
-| **Time** | 50 minutes |
-| **Objectives** | Write a complete cover letter for a sample job posting following business letter conventions |
-| **TEKS** | d(7)(B) |
-| **5E Phases** | Engage: Warm-Up · Explain: Teacher cover letter modeling · Explore: Student cover letter writing · Evaluate: Exit Ticket |
-| **Deliverable** | Completed cover letter (3 paragraphs + header + closing) |
-| **Materials** | Chromebooks, sample job posting (from Day 1), Cover Letter Template, projector |
+## Before Class
 
----
+Post the private Assignment, three-page cover-letter packet, and two-page Major rubric. Keep the fictional posting and Jordan evidence card visible. The letter is not sent.
 
-## Warm-Up (5 min)
+## 50-Minute Flow
 
-**WARM-UP: A cover letter tells an employer WHY they should read your resume. If you had only THREE sentences to convince them, what would those sentences be?**
+1. **Bellringer - 5 min.** Decide which three statements belong in a resume, cover letter, or neither.
+2. **Model - 8 min.** Show the four jobs of the letter: name the position, connect evidence, explain fit without invention, and close courteously.
+3. **Plan - 9 min.** Match two supplied Jordan facts to two posting needs and name one gap that must remain honest.
+4. **Draft - 13 min.** Write three short paragraphs. Students may use the complete sentence frames, then revise the wording into Jordan's plain voice.
+5. **Audit and final - 10 min.** Check every claim against the evidence card, remove generic or inflated language, and make one before/after revision visible.
+6. **Exit - 5 min.** Explain why the revision made the letter more accurate, specific, or useful.
 
-Take 3-4 responses. Use them to name the three jobs of a cover letter: say which position you want, show why you fit it, and ask for the next conversation. Students will build one short paragraph around each job.
+## Monitor, Key, and Trim Point
 
----
+A strong simulation letter names the role, uses two accurate evidence links, stays concise, acknowledges no false credential or work history, and includes a courteous next step. Requirements vary: a real applicant follows the posting about whether a cover letter is required. Trim peer exchange before planning, final-writing, or revision time.
 
-## Activity 1: Teacher Cover Letter Modeling (15 min)
+## Supports and Access
 
-**Source:** Cover Letter Template + sample job posting from Day 1
-
-Open a Google Doc on the projector. Create a new cover letter LIVE for the Pecan Creek Veterinary Clinic posting from Day 1. Walk through every section as you write, narrating decisions:
-
-**Header:**
-
-```
-Alex Martinez
-Irving, TX
-alex.martinez@email.com  |  (469) 555-0100
-
-April 15, 2026
-
-Pecan Creek Veterinary Clinic
-Hiring Manager
-Irving, TX
-```
-
-**Greeting:**
-
-`Dear Hiring Manager:`
-
-(Note: Use a real name if you have one. "To Whom It May Concern" is outdated. "Dear Hiring Manager" is the safe modern default.)
-
-**Paragraph 1, Why I'm writing:**
-
-> *"I am writing to apply for the Part-Time Office Assistant position at Pecan Creek Veterinary Clinic, which I saw posted on the school job board. I am a 7th-grade student at [Your Middle School], and I am excited about the opportunity to work with animals while building professional office skills."*
-
-**Paragraph 2, Why I'm qualified:**
-
-> *"I have experience caring for my family's two dogs and a cat, and I am comfortable around animals of all sizes. I have strong organizational skills from helping with filing in the school library, and I am proficient with Google Workspace and basic office software. I am dependable, reliable, and known for being friendly with people I meet. I am bilingual in English and Spanish, which I understand could be helpful in working with all of your patients' families."*
-
-**Paragraph 3, Call to action:**
-
-> *"Thank you for considering my application. I have attached my resume for your review. I would welcome the chance to interview and learn more about how I can contribute to your team. Please feel free to contact me at (469) 555-0100 or alex.martinez@email.com."*
-
-**Closing:**
-
-```
-Sincerely,
-Alex Martinez
-```
-
-Narrate decisions while writing: "I'm starting paragraph 2 with my dog experience because the job involves animals, that's the most relevant fact. I'm mentioning bilingual at the end because it's a bonus, not the main reason."
-
-!!! tip "Facilitation Tip"
-    Make the modeling INTERACTIVE. Pause after each paragraph and ask: "What did I include? Why did I include it? What did I leave out?" Students often learn more from watching the writing than from being told the rules.
-
----
-
-## Activity 2: Student Cover Letter Writing (28 min)
-
-**Source:** Cover Letter Template + sample job posting
-
-Students open their Cover Letter Template (Google Doc or printed). They write their own complete cover letter for the Pecan Creek Vet Clinic posting (or a real job posting if they're using the extension).
-
-**Required elements:**
-
-- Header with name, contact, date, employer
-- Greeting (Dear...)
-- Three full paragraphs (Why I'm writing, Why I'm qualified, Call to action)
-- Closing + name
-
-Each paragraph should be 3-5 sentences. NOT one giant paragraph.
-
-**Active Monitoring:** Walk the same pathway three times, one target per lap, and mark a clipboard as you go.
-
-1. **Lap 1 target, is the FIRST sentence specific to this job?** (Names the position, says how they found it.) If vague, send back.
-2. **Lap 2 target, are the QUALIFICATIONS connected to this specific job?** (Animal experience, organization, friendly attitude, for the vet clinic.) If generic, send back.
-3. **Lap 3 target, does the CALL TO ACTION include contact info?** Many students forget this.
-
-Pivot condition: if more than a handful of letters fail the lap 2 target, stop the room and reread the posting's qualifications line out loud instead of fixing letters desk by desk.
-
-By the end of class, every student has a complete cover letter saved in Google Docs.
-
-**DOK 3:** What conclusions can you draw about WHY a cover letter exists if employers already see your resume? What does the cover letter add that the resume can't?
-
-**DELIVERABLE:** Complete cover letter (3 paragraphs + header + closing) saved in Google Docs.
-
----
-
-## Exit Ticket (2 min)
-
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/6sw-wk5-day2-cover-letter-writing.pdf):
-
-Fill each cell using the cover letter you wrote today.
-
-| | Paragraph 1 | Paragraph 2 | Paragraph 3 |
-|---|---|---|---|
-| Purpose (one phrase) | | | |
-| ONE specific line I used from my letter | | | |
-
-Bottom line: What would an EMPLOYER miss if paragraph 2 (qualifications) was skipped? Answer in one sentence.
-
-   ___________________________________________________________________
-
-*(d(7)(B))*
-
----
-
-## Differentiation
-
-- **Support:** Provide a sentence-by-sentence fill-in-the-blank cover letter template. Students complete each blank with their personal info and one example. The structure is pre-built so they don't have to invent the format.
-- **Extension:** Students write a SECOND cover letter for a different real job posting (Indeed) and compare how the letters had to change. They write a 3-sentence reflection on the differences.
-- **ELL:** Bilingual cover letter template with Spanish sentence stems. Bilingual students should name their language skills in the qualifications paragraph. Many DFW employers need workers who can communicate with customers and families in more than one language.
+Keep **requirement/requisito**, **evidence/evidencia**, **tailor/adaptar**, **qualification/cualificación**, and **revision/revisión** beside the plan. Use the frame: “Your posting asks for **[need]**. Jordan demonstrated **[skill]** when **[action and result]**.” Accept typing, annotation, dictation, enlarged print, or paper. Score evidence and meaning, not formulaic enthusiasm or perfect English mechanics.

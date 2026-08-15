@@ -1,48 +1,39 @@
 ---
-title: Xello Experiences Checkpoint
+title: College Credit Opportunity Check - Optional Print Fallback
 slug: 2sw-wk4-xello-experiences-checkpoint
 kind: worksheet
 weeks: 2sw/wk4-dental-medical-billing
 audience: student
 variant_of:
 language: en
-pages: 2
+pages: 1
 orientation: portrait
 ---
 
-## Record only real experiences
+## This page does not replace Xello
 
-Do not invent volunteer hours. Do not include private contact information, client names, medical details, or a public link to your profile.
+Required Education experiences and Volunteer hours are verified in the Xello Completion Standards report. If Xello is unavailable, complete this college-credit check and join supervised Xello catch-up.
 
-### Required: Education experiences
+## Compare two current Irving opportunities
 
-- [ ] Open Xello through ClassLink.
-- [ ] Open About Me → Experiences → Education.
-- [ ] Add at least one actual education experience and save it.
+**English III Dual Credit (H):** grades 10-12; prerequisite English II; the coursebook says it meets high-school and college-credit requirements.
 
-One skill or responsibility from the experience: _______________________________
+**AP Biology:** grades 11-12; prerequisite Biology plus Chemistry completed or taken at the same time; college credit depends on the receiving institution's AP policy.
 
-### Required: Volunteer hours
+Word bank: **dual credit / crédito doble · prerequisite / prerrequisito · receiving institution / institución que recibe el crédito**
 
-- [ ] Open Volunteer experiences.
-- [ ] Add at least one hour you actually completed.
-- [ ] If you do not have a completed hour, tell the teacher and join catch-up.
+1. One difference in how the two opportunities may lead to college credit:
 
-One skill or responsibility from the experience: _______________________________
+[[lines: 3]]
 
-Completion status: Education complete / Volunteer complete / Catch-up needed
+2. One requirement I would need to plan for:
 
-[[pagebreak]]
+[[lines: 3]]
 
-## Two current college-credit opportunities
+3. One question I would verify with a counselor or college:
 
-Use the current district coursebook or counselor-approved source. An industry certification is a credential, not college credit.
+[[lines: 3]]
 
-| Exact course or opportunity | Type (AP or dual credit) | Eligibility, prerequisite, or limit shown | Source |
-|---|---|---|---|
-| 1. | | | |
-| 2. | | | |
+Sentence frame: “____ may fit my plan because ____. Before choosing it, I would verify ____.”
 
-Which option could fit your plan, and what would you verify next?
-
-[[lines: 4]]
+Source: Irving ISD 2026-27 High School Course Work, printed pp. 12-13 and 19; checked August 9, 2026.

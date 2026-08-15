@@ -1,5 +1,12 @@
 # Day 4: Policy Showdown — AI in the Courts + Legal Entrepreneurship
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Entrepreneurship
+- **Objective:** Students will define entrepreneurship, identify a plausible independent-work opportunity in the legal field, and explain how one professional association supports that career pathway.
+- **TEKS:** d(3)(I), d(3)(H)
+- **Demonstration of Learning:** Argument sheet (opening, 3 pieces of evidence, closing) + position statement (5-7 sentences) + Legal Entrepreneur Card (1 career, 4 fields completed).
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
@@ -9,7 +16,7 @@
 | **TEKS** | d(3)(I), d(3)(H) |
 | **5E Phases** | Engage: Warm-Up · Explain: Legal Review Team roles and the model policy · Extend: Prepared arguments applied to AI in the courts · Explore: Legal entrepreneur research · Evaluate: Exit Ticket |
 | **Deliverable** | Argument sheet (opening, 3 pieces of evidence, closing) + position statement (5-7 sentences) + Legal Entrepreneur Card (1 career, 4 fields completed) |
-| **Materials** | *Find Your Future* workbook pp. 44-47, Legal Review Argument and Evidence Sheet, Legal Entrepreneur and Association Card, teacher-approved career/association sources, projector |
+| **Materials** | *Find Your Future* workbook pp. 44-47, Legal Review Argument and Evidence Sheet, Legal Entrepreneur and Association Card with fixed career/association bank, projector |
 
 ---
 
@@ -84,7 +91,7 @@ The workbook's guiding questions transfer directly to today's policy (FYF p. 46)
 
 After the rulings, students write their personal position, which can match or differ from the side they argued.
 
-**DOK 4:** What criteria would you use to evaluate whether AI should be used in a specific part of the legal system, like determining bail amounts? Consider fairness, accuracy, and ethics in your answer.
+**DOK 3:** What criteria would you use to evaluate whether an AI recommendation tool should be used in one part of the legal system? Consider transparency, accuracy, human review, and a way to challenge errors.
 
 ---
 
@@ -99,9 +106,9 @@ Students complete the **Legal Entrepreneur Card** (4 fields):
 | Career name | Solo-Practice Family Lawyer |
 | What the business does | Helps families with divorces, custody, adoption |
 | Startup needs | Law degree, bar license, office space, malpractice insurance |
-| One professional association they would join | Texas Bar Association or American Bar Association Family Law Section |
+| One professional association that supports the career | State Bar of Texas or American Bar Association Family Law Section |
 
-Each student picks ONE legal career that could include self-employment, contract work, or a small business and completes the card with a teacher-approved source. H&L may supplement the research, but no student needs an open Google search or vendor login to complete the card.
+Each student picks ONE legal career that could include self-employment, contract work, or a small business and completes the card with its fixed career and association bank. H&L may supplement the research, but no student needs an open Google search or vendor login to complete the card.
 
 **DOK 3:** What conclusions can you draw about the risks and rewards of starting your own law practice versus working for a large firm?
 

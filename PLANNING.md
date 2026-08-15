@@ -11,7 +11,7 @@
 
 **AS OF 2026-08-05: the official Irving ISD workbook ("Find Your Future", FYF) arrived and the curriculum is mid-realignment against it.** The generic H&L workbook is retired as a citation source. **THE FYF REALIGNMENT IS COMPLETE — all 36 weeks, all three phases (2026-08-05).** Every week is re-cited to `(FYF p. N: "Section Name")`, carries the district-expectations overlay (Learning Target/Success Criteria, five-move IISD blocks at Distinguished, 5E mapping), and passed the preservation loop. Wk0 fully audited (36/36 now). RIASEC renamed to the six H&L core personality types repo-wide. Powerskills supplement retired. The Capstone spine is live (Rungs 1-3 → 4SW Wk1, 6-7 → 4SW Wk2, Rung 4 assigned 6SW Wk4 → debriefed Wk6, Rung 5 practiced 6SW Wk1 → graded Wk5, rubric + Rung 8 + Prepare & Present + Final Reflection → 6SW Wk6). 178 exit-ticket PDFs, 100% structured render.
 
-**Standing rulings (binding):** (1) **6SW Wk5 is NON-CUTTABLE** — it is the sole or primary carrier for d(6)(B), d(6)(C), d(7)(C), d(7)(D); end-of-year time loss must not swallow it. (2) d(6)(B) and the interview/job-search scaffolds are CCE-original with zero workbook grounding, clearly labeled — never "restore" a workbook citation for them. (3) Campus/credential claims never come from one source alone (one fabricated credential was caught and removed; see PATHWAYS.md conflict notes and the `[VERIFY with CTE coordinator]` flags). (4) d(7)(A) resume coverage rests entirely on Xello.
+**Standing rulings (binding):** (1) **6SW Wk5 is NON-CUTTABLE** — it is the sole or primary carrier for d(6)(B), d(6)(C), d(7)(C), d(7)(D); end-of-year time loss must not swallow it. (2) d(6)(B) and the interview/job-search scaffolds are CCE-original with zero workbook grounding, clearly labeled — never "restore" a workbook citation for them. (3) Campus/credential claims never come from one source alone (one fabricated credential was caught and removed; see PATHWAYS.md conflict notes and the `[VERIFY with CTE coordinator]` flags). (4) d(7)(A) résumé coverage is carried by the private Canvas-or-paper first-résumé evidence in 6SW Wk2; Xello copying is supplemental only.
 
 **Follow-up backlog from the realignment:** (a) seven weeks claim audited day-level TEKS codes that S&S column 11 does not yet carry — flagged in col 12, needs a PO ratification pass (4SW Wk2/Wk4/Wk6, 5SW Wk2/Wk3/Wk6, 6SW Wk5); (b) coordinator verification list (pathway/campus/credential conflicts flagged `[VERIFY with CTE coordinator]` across ~10 weeks); (c) optional promotions Elisha may ratify: Safety Squad as a 4SW Wk5 two-day spine, CEO Edition to 6SW Wk5 spine, GADS restore in 6SW Wk3, Creativity promotion in 5SW Wk3; and (d) restore the authenticated 24-task Grade 8 Xello completion spine. **Read `cce-curriculum/notes/fyf-realignment-plan.md`, `cce-curriculum/notes/district-expectations-2026.md`, `cce-curriculum/notes/implementation-decisions-2026-08-06.md`, and `cce-curriculum/notes/xello-grade-8-reconciliation.md` before touching any week.**
 
@@ -170,7 +170,7 @@ No systematic pass is pending. If the user directs a Wk0 pilot pass:
 
 ## 1. What This Project Is
 
-A **36-week Career and College Explorations (CCE)** course for grades 7-8 across **Irving ISD VILS Labs**, Texas. Aligned to **TEKS 127.2 (Adopted 2023)**. Canvas is the sole active production, review, and instructional environment. GitHub preserves source and automation as a backup. The static MkDocs site is a legacy archive and is not a teacher-facing review surface or a normal release gate. Each week has 1 overview + 5 daily plans = **252 markdown files total** in `docs/`.
+A **36-week Career and College Explorations (CCE)** course for grades 7-8 across **Irving ISD VILS Labs**, Texas. Aligned to **TEKS 127.2 (Adopted 2023)**. Canvas is the sole active production, review, and instructional environment. GitHub preserves source and automation and hosts a generated public planning mirror; it is not a classroom-delivery surface. The static MkDocs site is a legacy archive and is not a teacher-facing review surface or a normal release gate. Each week has 1 overview + 5 daily plans = **252 markdown files total** in `docs/`.
 
 **Platform stack:** Find Your Future workbook (core print source), Hats & Ladders (digital career exploration), Xello Grade 8 Completion Standards (required yearlong spine), eDynamic Learning/Code.org/Canva/Adobe Express (supplemental), and the VILS lab hardware baseline documented in `PLATFORMS.md`.
 
@@ -234,7 +234,7 @@ Three sources of feedback collected: Google Form (2 responses, E. O'Connor), han
 
 ### 4.1 US JURISDICTION — Elisha + Claude decide and implement
 
-**All 14 items shipped across sessions 2-3** (DOK audit, facilitation strategies page, CFA template + 1SW sample, TEKS coverage map, engineering notebook supply, Medical Billing cut, JROTC audit, PT/Sonography placeholders, "What is CTE" Xello module, various Hour-of-Code fixes, Irving ISD pathway rewording). Full commit-by-commit history in git log filtered by prefix `git log --oneline --all | grep -E "(fea941b|1b7ec9b|5879218|575be17|a87d597|6da8060|2ace0bf|4a80740|d9ad853|08524c3)"`.
+**All 14 items shipped across sessions 2-3** (DOK audit, facilitation strategies page, CFA template + 1SW sample, TEKS coverage map, engineering notebook supply, the then-current Medical Billing cut, JROTC audit, PT/Sonography placeholders, "What is CTE" Xello module, various Hour-of-Code fixes, Irving ISD pathway rewording). The Medical Billing decision was superseded on 2026-08-09 by the new FYF workbook and 2026-27 coursebook, which list the program at Singley. Full commit-by-commit history in git log filtered by prefix `git log --oneline --all | grep -E "(fea941b|1b7ec9b|5879218|575be17|a87d597|6da8060|2ace0bf|4a80740|d9ad853|08524c3)"`.
 
 **Round-2 follow-ups to watch for:**
 - 1SW CFA results: if >30% of students score ≤2 on any part, the CFA template's reteach triggers fire. Data back-flows into the 2SW block plan.
@@ -253,6 +253,7 @@ Three sources of feedback collected: Google Form (2 responses, E. O'Connor), han
 
 - **C6 H&L teaching guide page references** — PARTIALLY RESOLVED 2026-08-05: still no teaching guide, but the 17 Climber Notes decks (with speaker notes) + 8 general teacher resources arrived; see `cce-curriculum/resources/climber-notes/INDEX.md` and `hl-teacher-resources/INDEX.md`.
 - **Full workbook re-sync pass** — **LIVE as of 2026-08-05.** The official workbook ("Find Your Future") arrived; the re-sync is the FYF realignment (`cce-curriculum/notes/fyf-realignment-plan.md`). Phase A (1SW) complete; Phases B/C pending.
+- **Canvas image first-load performance audit (P2) — PILOT COMPLETE 2026-08-08.** The refreshed local baseline contains 284 Canvas-only raster files totaling 100.3 MB, including 68 files over 500 KB and nine exact-duplicate groups. The Week 1 Day 1 opener plus seven Week 5 Day 2 email images now use visually inspected JPEG delivery copies: 7.99 MB became 1.65 MB, a 79.4% reduction, while original dimensions and readable text were retained. The importers prefer the optimized files without deleting licensed originals. Shared-file deduplication and student-network cold-load checks remain pending; see `cce-curriculum/notes/canvas-image-optimization-audit.md`.
 
 ### 4.5 H&L Activity Cross-Reference
 
@@ -304,10 +305,10 @@ Decisions needing a human, not an edit:
 - **6SW Wk6 Days 3/4 co-facilitator staffing** — district admin/counselor for capstone presentations?
 - **1SW Wk3 Sphero tech-tool drift** — S&S col 7 says "RVR+" but implementation uses paper wireframing
 - **3SW Wk6 Glowforge tech-tool drift** — S&S col 7 says "Glowforge: Cut logo" but week is paper investor pitch
-- **d(8)(A)/(B)/(C) buffer-week risk** — every d(8) week is a buffer. If teacher loses buffers, d(8) uncovered.
+- ~~**d(8)(A)/(B)/(C) buffer-week risk**~~ — resolved in the current 4SW Wk1 and 6SW Wk6 designs. Flex or compressed calendars must still preserve the Mid-Year Career Blueprint and the 6SW individual career plan + communicated capstone minimums; optional sharing, browsing, and production polish are trimmed first.
 - **Curriculum-density pattern** — several weeks feel rushed from implementing all H&L + Xello + eDynamic at full fidelity. What to cut is not Claude's call.
 - **HVAC/Electrical/Plumbing "Coming 2027"** — district-wide or specific campus?
-- **2SW Wk4 Medical Billing** — Singley webpage doesn't list it but S&S includes it (resolved by B1 cut)
+- ~~**2SW Wk4 Medical Billing**~~ — resolved 2026-08-09. FYF and the 2026-27 High School Course Work list Health Science: Medical Billing at Singley. Use the workbook/coursebook names by default.
 
 ---
 
@@ -322,7 +323,11 @@ Tracked at `docs/resources/resources-status.md`.
 **Pipeline available — content/design work needed:**
 
 1. **Summative worksheets** for high-stakes assessments (6SW Wk6 Capstone rubric, 4SW Wk2 Career Plan, 5SW Wk5 Budget). The exit-ticket PDF pipeline (`build/build_pdfs.py`) can be reused for summative worksheets, but each worksheet type needs its own design template (per-format Jinja branch + CSS additions). Coordinate with the design team before authoring.
-2. **Presentation slides** (5SW Wk1 prototype first). Same pipeline could render slide PDFs from markdown if a slide template were authored.
+2. **Optional whole-group lesson decks** after each lesson's source-grounding and
+   Canvas pair pass. Use the binding 16:9 HTML/CSS -> PNG -> PPTX workflow in
+   `cce-curriculum/notes/optional-whole-group-slide-deck-workflow.md`. The deck
+   must carry the lesson from bellringer through DOL, include facilitation and
+   source notes, and stay inside locked Canvas when it contains licensed HQIM.
 3. **Teacher edition / answer keys** for the high-stakes summatives — once those summative worksheet templates exist.
 
 **Content-actionable (can build in markdown today):**
@@ -418,23 +423,23 @@ Each lesson is a rule with a one-sentence rationale. Full context in commits and
 
 Canvas is the release surface. Verify the actual Canvas module, teacher/student pages, files, permissions, links, interactions, mobile layout, and Student View before publication. Commit and push source changes to GitHub as a backup after Canvas verification.
 
-The MkDocs workflow is manual-only. Do not build, preview, QA, or deploy the legacy site unless the user explicitly requests it. A routine push to `main` must not publish the site.
+The approved GitHub Pages surface is the generated **public planning mirror** under `public-site/`. It may expose tracked lesson plans and public-safe linked resources for planning, transparency, and administrator reference, but it is never the student/teacher classroom-delivery environment. Build it from `docs/`; do not maintain a second hand-edited curriculum. Its publication policy must fail closed on missing links, outside-root files, and licensed/private H&L, FYF, Xello, Climber Notes, or AVID sources. Canvas module IDs may be recorded as stable metadata; never invent lesson-item IDs or claim exact live-body parity without a fresh secure Canvas identity/state export.
 
-### Versioning convention
+The MkDocs archive is frozen. Do not build, preview, QA, or deploy it unless the user explicitly requests archival work. The current Pages workflow builds and verifies `public-site/` on pull requests and deploys that generated mirror only after a push to `main` or an owner-invoked manual run. It never publishes Canvas.
 
-- **`latest`** — rolling pointer, always the current in-progress state. Every push to `main` updates this.
-- **Named milestones** — frozen snapshots for review. Created via Actions UI "Run workflow" with `milestone_name` input, or via `gh workflow run deploy-site.yml -f milestone_name=<name>`. Naming is descriptor-based, chosen to match the review scope.
+### Legacy MkDocs version history
+
+- **`latest`** — historical rolling pointer from the retired MkDocs workflow. It no longer updates.
+- **Named milestones** — frozen historical snapshots from the retired workflow.
   - `v1-teacher-review` — state presented at the 2026-04-15 teacher meeting (pre-feedback baseline). Do not touch.
   - `exit-ticket-pilot` — 2SW Wk2 exit-ticket pilot + TEKS audit work from 2026-04-16, for coordinator review.
-- **`YYYY-MM-DD`** — automatic daily snapshots from the nightly cron if `docs/` changed that day (noise — ignore unless debugging).
+- **`YYYY-MM-DD`** — historical daily snapshots from the retired workflow (noise — ignore unless debugging).
 
 ### When to tag a new milestone
 
-Only when the user explicitly requests legacy-site archival work, create a new named snapshot:
+Only when the user explicitly requests legacy-site archival work, plan a separate guarded archive operation. Do not route it through the current public-mirror workflow. Historical reasons to preserve a snapshot include:
 - Before a teacher / coordinator review session (capture "what they saw")
 - After a major feedback round ships
 - Before a risky refactor (rollback anchor)
-
-If a milestone name is wrong after the fact, delete and redeploy: `mike delete <name> --push` (requires `git fetch origin gh-pages` first), then `gh workflow run deploy-site.yml -f milestone_name=<correct-name>`.
 
 Never rename or delete `v1-teacher-review` — it's the historical record of what went in front of teachers on 2026-04-15.

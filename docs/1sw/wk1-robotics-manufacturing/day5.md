@@ -1,126 +1,77 @@
-# Day 5: Sphero Run-Through + Robots for Crayons Presentations + Manufacturing Favorites
+# Day 5: Xello Matchmaker and Career-Match Reflection
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Interests
+- **Objective:** Students will analyze and discuss the initial results of a career assessment by connecting one Matchmaker result to an interest and one career detail.
+- **TEKS:** d(1)(A)
+- **Demonstration of Learning:** Matchmaker Phase 1 completed in Xello plus a private three-part reflection naming one surprise, one Find out why connection, and one example of an interest affecting a career match.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Run the Sphero through the factory floor course; complete "Robots for Crayons" Steps 4-6 (Brainstorm → Create a Plan → Present); favorite 2 Manufacturing careers in H&L |
-| **TEKS** | d(1)(B), d(1)(C) |
-| **5E Phases** | Engage: Warm-Up · Explore: Sphero final runs and the two fault plans · Explain: Team presentations · Extend: Manufacturing favorites and Xello interests · Evaluate: Exit Ticket |
-| **Deliverable** | Sphero demo run + 2-minute team presentation of both fault plans + 2 Manufacturing Hats favorited in Climber Profile |
-| **Materials** | Sphero RVR+ robots, SpheroEDU app, factory floor course, *Find Your Future* workbook pp. 202-203 (and p. 209 for the extension), sticky notes, Robots for Crayons Presentation Rubric, Active Monitoring clipboard roster, Climber Notes deck "Quality Check" for the extension, Chromebooks, projector, Xello accounts |
+| **Objectives** | Complete the first 39 Matchmaker questions; review career matches; use Find out why; explain how one interest affected a result |
+| **TEKS** | d(1)(A) |
+| **5E Phases** | Engage: Interest warm-up · Explain: Matchmaker scale and Find out why model · Explore: Matchmaker assessment · Evaluate: Private reflection and completion check |
+| **Deliverable** | Xello Matchmaker completion + private Matchmaker reflection |
+| **Materials** | Chromebooks, district ClassLink/Xello accounts, licensed Xello Matchmaker educator guide, private Canvas Matchmaker Reflection assignment, projector |
 
 ---
 
-## Warm-Up (5 min)
+## Before Class
 
-**WARM-UP: Look at your Sphero program from yesterday. What worked? What failed? What are you going to change today?**
+1. Confirm that students completed **After high school goal** in Week 0. Matchmaker is locked until that prerequisite is complete.
+2. Open the Xello Completion Standards report and the student demo account.
+3. Open the licensed **Matchmaker Assessment** educator guide and the official **Understanding Your Career Matches** video if it is available and district-accessible.
+4. Open the private Canvas Matchmaker Reflection assignment. Do not create a public discussion or require screenshots of student results.
+5. Keep a roster list for students who need supervised prerequisite or login catch-up.
 
-Quick share. Frame the day: "Today is the test day. Both your Sphero AND your Kaleido-Crayons plan have to be presentation-ready by the end of class."
+## Warm-Up and Launch (5 min)
 
----
+**WARM-UP:** Name one activity you like doing and one kind of task you avoid. What might those answers tell you about work you would enjoy?
 
-## Activity 1: Sphero Final Run-Through (15 min)
+Clarify that Matchmaker suggests careers from student responses. It does not decide a student's future, and a surprising or poor match is still useful evidence.
 
-Teams have 8 minutes to refine their Sphero programs and run them through the factory floor course at least twice. Each run, they observe and adjust:
+## Activity 1: Model the Response Scale and Find out why (7 min)
 
-- Did the Sphero make it from Start to Delivery zone?
-- Did it hit any obstacles?
-- Was the path efficient or did it overshoot?
+**Source:** Xello licensed resource, "Matchmaker Assessment"
 
-**Active Monitoring:** Walk a fixed route through the stations twice during the 8 minutes. Lap 1 target: every team has a Roll block with a duration set. Lap 2 target: the Heading value names a direction, not an angle of turn. Carry a clipboard printed from the [Active Monitoring Clipboard Roster](../../resources/worksheets/clipboard-roster-grid.pdf), with this week's three checkpoints written in, and mark it as you go. If more than a handful of teams miss the lap 2 target, stop the room and reproject the Heading block instead of fixing it robot by robot.
+Use the student demo account to show the response scale from **Like Very Much** to **Dislike Very Much**. Model one career result and open **Find out why**. Students should notice which interests raised or lowered the match. Do not project a real student's profile.
 
-!!! tip "No Robots? Run the Simulator"
-    The SpheroEDU app's built-in simulator runs the identical block program on screen, so the refinement runs and the official run both work with no hardware. With fewer than 8 robots, run teams of 4-5 and rotate the three roles between runs. With zero robots, every official run happens in the simulator, projected so the whole class watches the same screen the way it would watch the floor course.
+If time and access allow, play the official short student video. The visible teacher model and Canvas text directions are the equal no-video route.
 
-After the 8 minutes, each team gets ONE official run while the rest of the class watches. The teacher (or a designated observer) tracks: did the Sphero complete the course without hitting obstacles?
+## Activity 2: Complete Matchmaker Phase 1 (28 min)
 
-!!! tip "Facilitation Tip"
-    Some teams' Sphero will fail spectacularly on the official run, backwards, off-course, into a wall. Celebrate the failures as much as the successes. Tell the class: "Real factory engineers spend 80% of their time fixing problems. Failure IS the job. What matters is what you learn and how you iterate."
+Students open **ClassLink > Xello > About Me > Matchmaker** and complete the first 39 questions. They review the resulting career matches and open **Find out why** for at least one career.
 
-**DOK 2:** How would you describe the connection between the code blocks you wrote and the actual movement of the robot? Where did your code differ from what you expected?
+**Active Monitoring:** First lap target: every student is in Matchmaker, not another About Me quiz. Second lap target: students are using the full response scale rather than choosing the same answer repeatedly. Final lap target: each finished student has opened one career and Find out why before moving to the reflection.
 
----
+Do not rush a student through the assessment to reach the reflection. If the quiz or prerequisite is incomplete at minute 40, record the student for supervised catch-up and let the student begin the reflection with a teacher sample result.
 
-## Activity 2: Complete the "Robots for Crayons" Action Plan (15 min)
+## Activity 3: Private Matchmaker Reflection (7 min)
 
-**Source:** (FYF pp. 202-203: "Robots for Crayons", Steps 4-5)
+Students respond in the private Canvas assignment. Each prompt has its own response field:
 
-Teams return to the workbook and complete the planning steps:
+1. What result surprised you, and why?
+2. What did Find out why show about one career match?
+3. Give one example of how an interest affected a career match.
 
-**Step 4: Brainstorm Solutions (5 min):** Hand each team a pad of sticky notes. The workbook asks for at least 15 ideas across both problems, one idea per note, no filtering yet. Each role brainstorms from its own perspective first, then the team pools the notes on the desk. Prompt with the workbook's four angles: tools or adjustments needed, steps to take, fixes that save time and money, and ways to stop the problem from coming back.
+Score the reasoning, not whether the student likes the suggested career. Sentence frames:
 
-**Step 5: Create a Plan (10 min):** Teams pick the single best idea for each problem and fill the plan table on page 203. The table has one column for Color Confusion and one for Slowpoke Robot, with six rows each:
+- "I was surprised that _____ because _____."
+- "Find out why showed that _____ matched because _____."
+- "My interest in _____ raised/lowered the match for _____ because _____."
 
-- My Solution
-- How it Works
-- Steps to Fix the Issue
-- Tools or Adjustments Needed
-- Estimated Time to Complete
-- How it Improves Production
+## Completion Check and Catch-Up Plan (3 min)
 
-!!! tip "Facilitation Tip"
-    Teams that brainstorm well often stall at the plan table because every idea still feels alive. Give them a 60 second decision rule: the winning idea is the one the team can name a tool and a time for. If they cannot fill "Tools or Adjustments Needed" and "Estimated Time to Complete," the idea is not ready and the next one gets a turn.
-
----
-
-## Activity 3: "Robots for Crayons" Team Presentations + Manufacturing Favorites (15 min)
-
-**Source:** (FYF p. 203: "Robots for Crayons", Step 6)
-
-**Presentations (10 min):** Each team has 2 minutes to present. The workbook asks teams to present to one other group and collect at least one piece of constructive feedback. Run it as whole-class presentations instead so every team is scored, and give the feedback requirement to the audience: each listening team owes the presenter one specific piece of constructive feedback, written on a sticky note and handed over at the end. Presentations cover:
-
-- The two problems, named and explained
-- The chosen solution for each and why it beat the other ideas
-- The steps to fix the issue and the tools or adjustments needed
-- The estimated time to complete and how the fix improves production
-- One Manufacturing career from the Hats & Ladders app the team would want to pursue
-
-Score each team with the **Robots for Crayons Presentation Rubric** ([Printable PDF](../../resources/worksheets/wk1-presentation-rubric.pdf)): Problem Diagnosis, Solution Choice and Reasoning, Repair Plan Detail, and Career Connection and Delivery, 5 points each, 20 points total.
-
-**H&L Manufacturing Favorites (5 min):** After presentations, direct students to their Climber Profile.
-
-> [H&L PLATFORM] Direct students to open the Hat Finder, navigate to the Manufacturing cluster, and favorite at least 2 Manufacturing Hats that interest them. Students can favorite the career they researched on Day 2, one of the three Hats they rated on the App Exploration page, or a new one based on what they learned this week. Favorites are saved to the Climber Profile and accumulate across all 36 weeks of the course.
-
-**Xello: What is CTE? + Add Interests (final 2 min if time):** Direct students to Xello and have them complete the "What is CTE?" lesson and add at least 2 manufacturing-related interests using the Add Interests feature. This is a quick task, the goal is just to start the Xello data set for the cluster.
-
-> [VERIFY IN eDynamic] eDynamic Unit 2.1 (Knowledge and Innovation) is mapped for this week in the scope-and-sequence. Confirm specific activities in eDynamic and assign as a homework option for students who finish early.
-
----
-
-## Exit Ticket (2 min)
-
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/1sw-wk1-day5-sphero-run-through-robots-for-crayons-presentations-manufacturing-favorites.pdf):
-
-A Manufacturing career I favorited in H&L this week: _______________________
-
-Connect this career to THREE things:
-
-**1. The Manufacturing PATHWAY it belongs to** (Robotics & Automation, Industrial Maintenance, Manufacturing Tech, Electronics, Welding, or Advanced Manufacturing)
-
-   My pathway: _______________________. Why does this career belong to that pathway? One sentence:
-
-   ___________________________________________________________________
-
-**2. My Wk0 core personality type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
-
-   My core personality type: _______________________. Why does this career match (or not match) my type? One sentence:
-
-   ___________________________________________________________________
-
-**3. A TRAINING FACT from my Day 2 career research** (example: "FANUC Robot Operator training is 1 semester at Singley")
-
-   My training fact: _______________________. One sentence on why this fact matters to a student deciding whether to pursue this career:
-
-   ___________________________________________________________________
-
-*(d(1)(B), d(1)(C))*
-
----
+Use the Completion Standards report as the platform record. Students do not submit profile screenshots. Record four statuses separately: complete, prerequisite missing, login/access issue, or absent. Schedule supervised catch-up for the last three.
 
 ## Differentiation
 
-- **Support:** Allow students who are uncomfortable presenting to submit a written version of the plan instead. They write 1 paragraph per problem (Color Confusion and Slowpoke Robot).
-- **Extension:** Students who finish early run the workbook's "Quality Check" activity (FYF p. 209). Partners become quality inspectors on a frozen pizza line and flag every issue they can find on sticky notes: anything unusual on the line, equipment cleanliness, and products that look damaged or out of place. Project the four factory line photos from the teacher deck (Climber Notes: "Quality Check", slides 2-5) so both partners are looking at the same image, and hold the deck on one photo at a time rather than clicking through.
-- **ELL:** Provide bilingual presentation sentence stems: "Our solution to Problem 1 is _____ (Nuestra solución al Problema 1 es _____)." Allow ELL students to present in pairs so they can support each other.
+- **Support:** Read response-scale labels aloud, reduce visual distractions, provide the sentence frames, and allow speech-to-text or an oral teacher conference for the reflection.
+- **Extension:** Compare one strong match and one weak match. Explain which interest changed the result most and what other evidence the student would want before making a career decision.
+- **ELL:** Use bilingual labels: interest = interés, match = coincidencia, result = resultado, surprised = sorprendido/a, reason = razón. Students may rehearse in their strongest language before submitting in English.
+- **Platform fallback:** A paper interest sort or teacher sample can support the reflection, but it does not count as Matchmaker completion. Complete the required Xello task during supervised catch-up.
+- **Absence route:** Complete Matchmaker and the private reflection in a supervised make-up setting so the teacher can verify the prerequisite and Completion Standards report.

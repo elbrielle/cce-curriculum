@@ -1,5 +1,12 @@
 # Day 3: City Council in Action — Draft the Town Laws
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters using evidence from Career Opportunities.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Town plan, completed problem table, two drafted ordinances, one revision, and one specific Law and Public Safety worker connected to the ordinance process.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
@@ -8,7 +15,7 @@
 | **Objectives** | Describe what a city council member does; design a town and scan it for problems; draft two ordinances that are clear, fair, and realistic; peer-review a partner's laws and revise one |
 | **TEKS** | d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explain: City council role and ordinance rules · Explore: Town design, problem scan, and law drafting · Evaluate: Peer review of laws and Exit Ticket |
-| **Deliverable** | Town plan + completed problem table + two drafted laws (what, why, consequence) + one revised law |
+| **Deliverable** | Town plan + completed problem table + two drafted ordinances + one revision + one career-role connection |
 | **Materials** | *Find Your Future* workbook pp. 40-43, printed City Council Town and Ordinance Plan, pencils or colored pencils, projector |
 
 ---

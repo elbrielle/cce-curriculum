@@ -1,117 +1,87 @@
-# Day 2: ASE Certification + Apprenticeship vs. College
+# Day 2: ASE and Automotive Training Routes
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
-## Lesson Overview
+- **Topic:** Career Preparation
+- **Objective:** Students will research and describe automotive preparation and certification requirements, evaluate three training options, and identify steps for entering a Registered Apprenticeship or technical-college route.
+- **TEKS:** d(2)(A), d(2)(B), d(3)(G)
+- **Demonstration of Learning:** Five-question ASE and Training Route practice Quiz with an individual Jordan recommendation using two source facts, one tradeoff or missing fact, and one verification step.
+<!-- CCE DAILY CONTRACT END -->
+## Lesson overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Understand what ASE certification is and how it works; complete the Apprenticeship vs. College comparison chart; recognize the apprenticeship pathway as a legitimate (and often better) alternative to a 4-year degree for trades careers |
-| **TEKS** | d(2)(A), d(3)(G) |
-| **5E Phases** | Engage: Warm-Up · Explore: ASE certification research · Explain: Apprenticeship vs. college chart and pair share · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Apprenticeship vs. College comparison chart with personal preference statement |
-| **Materials** | Chromebooks, ASE.com bookmarked, BLS Automotive Service Technicians page bookmarked, printed Apprenticeship vs. College comparison chart, projector |
+| **TEKS** | d(2)(A), d(2)(B), d(3)(G) |
+| **Target** | I can describe the ASE requirements, evaluate three training options, and name a real next step. |
+| **Evidence** | Five-question practice Quiz with an individual two-fact Jordan recommendation and verification step |
+| **Materials** | One Canvas-capable device per student; one projector; Canvas source cards and practice Quiz; one three-page fallback per student only for no-device, enlarged, or paper access; one paper collection tray; current ASE, TWC, BLS, and TCC teacher-verification links |
 
----
+## Before class
 
-## Warm-Up (5 min)
+1. Default to one device per student, one projector, and zero prints. Post the dated source cards and unpublished retryable practice Quiz.
+2. For the paper route, print one three-page packet per student and collect it in one labeled tray. The packet replaces the Quiz; students do not complete both.
+3. Use the fixed evidence embedded in the Student Guide. Open current [ASE Entry-Level](https://www.ase.com/entry-level/), [ASE work-experience](https://ase.com/tests/work-experience/), [TWC apprenticeship](https://www.twc.texas.gov/services/job-training/find-apprenticeships), and [TCC Automotive](https://www.tccd.edu/academics/courses-and-programs/programs-a-z/credit/automotive-automotive-service-technology/) only as teacher-verification sources.
+4. Project the supplied Jordan model. It demonstrates two facts, one missing fact, one verification job, and no promised admission or employment.
+5. Do not use old fixed test fees, universal wage premiums, “most shops require ASE,” or a guaranteed time to Master status.
 
-**WARM-UP: Would you rather get paid while you learn a job, or pay tuition to go to college first and then start working? Write one sentence explaining your choice.**
+## Warm-up: Credential, training, or job? (5 min)
 
-**Stop and Jot:** Give a 60-second time box with the prompt on screen and post two stems, "I would rather _____ because _____" and "The risk of my choice is _____." Read jots over shoulders and note how many students name a risk at all. If almost none do, front-load the Net Financial Position row in Activity 2 so the tradeoff lands before students commit to a side.
+Students classify four cards: ASE Entry-Level test, professional ASE certification, Automotive Service Technology AAS, and registered apprenticeship. More than one can contribute to a career, but they are not interchangeable.
 
-Take 5-6 student responses. Many students will pick "get paid while I learn" without explaining why a career might require college instead. Put time, tuition, earnings during training, and the required credential on the board as the four comparison rows students will research.
+## Activity 1: Repair the ASE misconception (8 min)
 
----
+Build the distinction:
 
-## Activity 1: ASE Certification Deep-Dive (18 min)
-
-**Source:** [ASE.com](https://www.ase.com): National Institute for Automotive Service Excellence
-
-ASE stands for **Automotive Service Excellence**. It is the national certification system for automotive professionals, and most repair shops require it.
-
-Students open ASE.com and explore the certification categories. Project the ASE site on the board and walk through:
-
-- **What ASE is:** A nonprofit that creates and grades automotive certification exams used across the industry
-- **The exam structure:** Multiple-choice tests in specific specialty areas
-- **Specialty categories** (the ASE test series):
-    - Engine Repair (A1)
-    - Brakes (A5)
-    - Electrical / Electronic Systems (A6)
-    - HVAC (A7)
-    - Engine Performance (A8)
-    - Plus many more across A1-A9 for cars, T1-T8 for medium/heavy trucks, B1-B6 for collision/refinish, etc.
-- **ASE Master Technician:** A technician who has passed all the core exams in a specialty group (e.g., A1-A8 for cars). Master techs earn significantly more.
-- **Cost:** Each test is $48 + a $36 registration fee. Affordable.
-- **How long it takes:** Most techs earn their first ASE within 1-2 years on the job
-- **Salary impact:** ASE-certified techs earn roughly 10-20% more than non-certified
-
-Students take notes on the printed chart with three quick questions:
-- Which ASE specialty interests me most? Why?
-- How long does it take to become Master ASE certified?
-- What does the certification cost?
-
-The cross-check source is the BLS Automotive Service Technicians page, where students verify the salary impact of certification. BLS confirms that certifications are a key way technicians increase pay over a career.
-
----
-
-## Activity 2: Apprenticeship vs. College Comparison (22 min)
-
-**Source:** BLS Automotive Service Technicians + ASE.com + general apprenticeship research
-
-Distribute the printed Apprenticeship vs. College comparison chart. Students fill in both columns:
-
-| Category | Apprenticeship Pathway | College Pathway |
+| | ASE Entry-Level | Professional ASE certification |
 |---|---|---|
-| **Time to start working** | 0 years (you start working day 1) | 4 years (after degree) |
-| **Annual cost during training** | -$0 to -$5K (you pay nothing or buy basic tools) | $15K-$60K tuition + room & board |
-| **Income during training** | $25K-$40K starting (paid apprentice wage) | $0 (most college students are not earning full-time) |
-| **Total cost over 4 years** | -$0 to -$20K | $60K-$240K |
-| **Income earned over 4 years** | $100K-$160K (paid as you learn) | $0-$15K (part-time work) |
-| **Net financial position after 4 years** | +$100K-$140K | -$60K to -$225K |
-| **Credential earned** | Journeyman certification + ASE | Bachelor's degree |
-| **Long-term ceiling** | Master tech, shop owner, fleet manager ($60K-$120K) | Engineering job, management ($55K-$150K) |
-| **Best fit for** | Hands-on learner, wants to start working soon, wants to avoid debt | Wants academic experience, plans careers requiring a degree |
+| Intended context | Students/entry-level knowledge checks | Working automotive professionals |
+| Work experience | No experience requirement for Entry-Level credential | Relevant approved experience or qualifying substitution required |
+| Test alone sufficient? | Entry-Level credential may be earned by passing its test | No; passing a professional test alone does not complete certification |
 
-After filling in the chart, students write a 3-sentence personal preference statement at the bottom: "Based on this chart, I would choose the _____ pathway because _____. The biggest tradeoff for me is _____."
+Students write one sentence correcting: “I passed one automotive class test, so I am now a professional ASE-certified technician.”
 
-!!! tip "Facilitation Tip"
-    Some students will be shocked by the "Net financial position" row and say, "But college is supposed to be better!" Send the comparison back to the career: medicine, law, and engineering require degrees, while many trades and technician roles use a different training path. Students should judge whether the pathway fits the career they named.
+## Activity 2: Read three route cards (12 min)
 
-**DOK 3:** What conclusions can you draw about whether apprenticeship or college is the better fit for someone interested in automotive? What factors would change your answer?
+Students read the fixed, dated cards in Canvas or the fallback for:
 
----
+1. **Employer/OJT route:** some workers enter with a high school diploma and learn on the job; the job is not automatically a registered apprenticeship.
+2. **Registered Apprenticeship route:** paid employment, structured on-the-job learning, related instruction, mentorship, progressive wages, and sponsor-specific admission.
+3. **Public technical-college route:** TCC's 2026-27 Automotive Service Technology examples range from a 12-credit award to a 60-credit AAS. Published in-county tuition and fee estimates exclude books and materials.
 
-## Activity 3: Think-Pair-Share (3 min)
+Students record what each source proves and what it does not prove about one student's actual availability, admission, cost, schedule, or hiring result.
 
-In pairs, students share their personal preference statements. Each pair finds one thing they agree on and one thing they disagree on.
+## Activity 3: Compare and recommend (18 min)
 
----
+Fictional student Jordan wants automotive work, needs income soon, can travel only within DFW, and may want an associate degree later. Students compare in the Quiz recommendation or fallback:
 
-## Exit Ticket (2 min)
+- time before paid work;
+- structured instruction;
+- published credential or completion evidence;
+- stated cost and exclusions when available;
+- admission or sponsor questions; and
+- one advantage and tradeoff.
 
-**EXIT TICKET** (Trade-off / Dilemma Analysis) · [Printable PDF](../../resources/exit-tickets/4sw-wk5-day2-ase-certification-apprenticeship-vs-college.pdf):
+There is no predetermined winning route. A full recommendation cites two facts, addresses Jordan's income and degree priorities, and names an authorized next source.
 
-Sam is graduating from high school in DFW next year. Sam wants to be an auto technician. Sam has two paths to pick:
+## Exit ticket (7 min)
 
-- **(A) Apprenticeship at a Ford dealership:** start working day 1, earn $30K year 1, study for ASE exams on the job. No tuition. Takes 2-3 years to earn first ASE.
-- **(B) 18-month UTI trade school:** full-time student, $35,000 tuition, no salary while in school, finishes ASE-ready in 18 months.
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/4sw-wk5-day2-ase-and-automotive-training-routes.pdf):
 
-Pros of picking A: _______________________________________________________
+1. Correct one ASE misconception.
+2. Choose the first route Jordan should investigate.
+3. Cite two facts and one missing fact that must be verified.
 
-Pros of picking B: _______________________________________________________
+Students may use the practice Quiz first; the exit response remains individual.
 
-Sam's choice (A or B): ________
+## Monitoring and supports
 
-Sam's family is worried about paying rent next year. Does that change the choice? Circle: YES / NO
-
-In one sentence, use ONE number from today's chart to explain why. *(d(2)(A), d(3)(G))*
-
-   ___________________________________________________________________
-
----
-
-## Differentiation
-
-- **Support:** Pre-filled comparison chart with the Time, Cost, and Credential rows already filled in. Students fill in only the Income, Net Position, and Best Fit rows. Pair with a peer for the personal preference statement.
-- **Extension:** Research a specific apprenticeship program in DFW (e.g., the Texas Workforce Commission apprenticeship search tool). Find one real apprenticeship opening with the company name, pay rate, and application requirements.
-- **ELL:** Bilingual comparison chart with Spanish row labels. Pre-teach: Apprenticeship = Aprendizaje, College = Universidad, Pay = Pago, Tuition = Matrícula, Credential = Credencial, Tradeoff = Compensación.
+- **CFU at minute 10:** sample five responses. At least four should distinguish Entry-Level from professional test-plus-experience requirements before route comparison begins.
+- **Lap 1, minutes 16-22:** check that OJT is not labeled Registered Apprenticeship and every TCC amount keeps year, residency, and exclusions.
+- **Lap 2, minutes 30-37:** require Jordan responses to address income soon and possible later degree work. Prompt, “Which source fact fits that priority?”
+- **Pivot:** if one-third of students list preferences only, highlight two facts in the supplied model and have students rehearse the complete frame orally before typing.
+- **Trim:** omit live-site demonstration. Protect Quiz question 5, one revision after feedback, and private submission.
+- Reject “free,” “guaranteed job,” “no debt,” and “ASE certified at graduation” unless the exact current source supports the bounded claim.
+- Use route/training/experience/credential labels in English and Spanish: ruta, capacitación, experiencia, credencial.
+- Read one card at a time. Allow speech-to-text or private audio.
+- At minute 43, students submit the Quiz or place the packet in the tray. If a website or Canvas fails, the dated packet is the complete route; interrupted digital work resumes through the same Quiz.

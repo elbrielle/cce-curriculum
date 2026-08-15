@@ -1,11 +1,18 @@
 # Day 4: Document and Reassess
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Professional Documentation
+- **Objective:** Students will identify EMT and Search and Rescue documentation responsibilities, write an accurate fictional Patient Care Report, and choose a safety-first response to one wilderness complication.
+- **TEKS:** d(1)(C), d(4)(F)
+- **Demonstration of Learning:** Fictional Patient Care Report and Safety Plan with one specific career-role connection.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objective** | Write an accurate fictional Patient Care Report and choose a safety-first response to one wilderness complication |
+| **Objective** | Identify EMT and Search and Rescue documentation responsibilities, write an accurate fictional Patient Care Report, and choose a safety-first response to one wilderness complication |
 | **TEKS** | d(1)(C), d(4)(F) |
 | **Deliverable** | [Fictional Patient Care Report and Safety Plan](../../resources/worksheets/2sw-wk2-patient-care-report.pdf) |
 | **Scoring** | [Patient Care Report Evidence Rubric](../../resources/worksheets/2sw-wk2-pcr-rubric.pdf) |
@@ -13,7 +20,7 @@
 
 ## Before Class
 
-Post the report, rubric, and three complication choices. This is fictional documentation: students must not enter real names or medical information. Speaking is optional; each student submits written evidence.
+Post the report, rubric, and three complication choices. This is fictional documentation: students must not enter real names or medical information. Each student submits the completed written report and plan through private file upload or text entry, or turns in a labeled paper copy. Speaking is optional; a media recording alone is not the Major evidence.
 
 ## Warm-Up (5 min)
 
@@ -21,7 +28,7 @@ Post the report, rubric, and three complication choices. This is fictional docum
 
 ## Activity 1: Patient Care Report (20 min)
 
-Students complete all five sections. Require observations instead of diagnoses. “The scenario shows a swollen, bent finger” is appropriate; inventing a specific fracture is not.
+Students complete all five report sections and the career-role connection. Require observations instead of diagnoses. “The scenario shows a swollen, bent finger” is appropriate; inventing a specific fracture is not.
 
 ## Activity 2: Safety-First Complication (15 min)
 

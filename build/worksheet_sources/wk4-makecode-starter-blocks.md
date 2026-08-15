@@ -36,4 +36,6 @@ orientation: portrait
 
 **Test it.** Press A four times. You should see Step 1, Step 2, Step 3, and then Step 1 again. Press B. You should see FIXED!
 
-**Teacher, rebuilding this in about 60 seconds.** Make the variable, drop `set step to 1` and `show string "Help Desk Ready"` in `on start`, add `on button A pressed` with a three-branch if on `step` and one `show string` per branch, put `change step by 1` under the if with a `if step > 3 then set step to 1` guard beneath it, then `on button B pressed` with `show string "FIXED!"`. Build it once on the projector before class and leave the tab open. Any student who needs it can copy it off the screen.
+## Before you leave
+
+Record your project name and backup location on the Help Desk Program Evidence sheet. If the site is unavailable, trace Button A four times and Button B once on this guide and ask another team to initial the result.

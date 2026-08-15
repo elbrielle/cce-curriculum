@@ -1,86 +1,99 @@
-# Day 5: 1st Six Weeks Capstone — Reflection, Gallery Walk, IT Wrap-Up
+# Day 5: 1st Six Weeks Capstone
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
+
+- **Topic:** Transition Planning
+- **Objective:** Students will describe academic requirements for moving from middle school to high school and from high school to a career or postsecondary goal using an original symbol and evidence from the six weeks.
+- **TEKS:** d(3)(A)
+- **Demonstration of Learning:** Students submit the four-piece Cybersecurity Capstone Evidence Portfolio with a specific postsecondary goal, one high-school action, one postsecondary preparation step, and a Career Journey update.
+<!-- CCE DAILY CONTRACT END -->
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Finish remaining Glowforge cuts; participate in the Gallery Walk; update the Wk0 My Career Journey reflection with new data; favorite final IT careers in H&L; complete Xello Save Careers |
-| **TEKS** | d(1)(C), d(3)(A) |
-| **5E Phases** | Engage: Warm-Up · Explain: Gallery Walk share-out · Evaluate: My Career Journey reflection update · Extend: IT favorites and Xello Save Careers |
-| **Deliverable** | Updated My Career Journey reflection (turned in) + completed Glowforge logo (physical artifact) + 2 final IT favorites in H&L |
-| **Materials** | Cut logos in the labeled tray, permanent markers, card stock and scissors for any piece that was not cut, Wk0 My Career Journey reflection handouts to return ([Printable PDF](../../resources/worksheets/my-career-journey.pdf)), printed reflection update template ([Printable PDF](../../resources/worksheets/wk5-reflection-update-template.pdf)), H&L accounts, Xello accounts, projector, gallery display surface (a long table, a counter, or a stretch of wall), sticky notes (3 per student) |
+| **Major assessment** | Major 2: Cybersecurity Capstone Evidence Portfolio |
+| **Scoring** | 16-point Capstone Evidence Rubric |
+| **Equal design routes** | Paper, Canva, or Adobe Express; fabrication is optional |
 
----
+## Before Students Arrive
 
-## Warm-Up (5 min)
+1. Return the Week 0 Career Journey reflections and the Day 3 plan/flyer.
+2. Post the [Career Journey Update](../../resources/worksheets/wk5-reflection-update-template.pdf), [English/Spanish support](../../resources/worksheets/wk5-reflection-update-bilingual.pdf), and [Capstone Rubric](../../resources/worksheets/wk5-capstone-portfolio-rubric.pdf).
+3. Remind students to retrieve the CCE Six-Weeks Evidence Log from the CCE binder or teacher-designated digital folder named in Week 0. The log stays with the student and is not part of the Major submission.
+4. Put paper, pencils, markers, and a two-shape idea menu out before class. Canva or Adobe is optional.
+5. Do not build the lesson around a Glowforge/xTool queue. A trained authorized operator may fabricate selected examples later under the campus SOP; students submit the design itself.
 
-**WARM-UP: Complete this sentence: "Five weeks ago, I thought IT was _____. Now I know IT is _____."**
+## Bellringer — Two Transitions (5 min)
 
-Quick share. Listen for growth: "I thought IT was just programming, now I know it's tech support, networking, web design, AND cybersecurity." Bridge: "Today is the wrap-up day for the entire 1st Six Weeks. Time to look back."
+Students complete both stems before opening a design tool:
 
----
+> Before high school, I need to ___ so I can ___ in high school.
 
-## Activity 1: Finish Glowforge Cuts + Gallery Walk (15 min)
+> During or after high school, I need to ___ so I can move toward ___.
 
-!!! warning "Before Monday: Prep for the Capstone Day"
-    Pull the Week 0 folder and sort the My Career Journey handouts by period, because Activity 2 has no substrate without them. Print the reflection update template and the bilingual version for the students who need them. Clear the display surface and buy sticky notes, three per student. Check your media releases before the day, not after: photographing student work for a bulletin board or a district post needs the permission on file, so confirm which students are covered and photograph only their pieces.
+Model the difference between a vague hope and a requirement to investigate. “Go to college” is a destination. “Compare admission requirements and complete the required high-school courses” is a planning action.
 
-**Pick up and finish the logos (10 min):** The pieces cut during the week come out of the labeled tray. Teams find theirs, write the team names and the postsecondary goal on the back in permanent marker, and set the piece on the display surface. Any file still running finishes in the background while this happens. A team whose piece was never cut, because the machine was down or the material ran out, makes the card-stock version now and puts it on the table with everybody else's. Nobody stands empty-handed at the Gallery Walk.
+## Activity 1 — Original Goal Symbol (15 min)
 
-**Time, Voice, Body:** Same three blocks as Day 4. Voice 0 at the machine if a cut is still running, only the team whose file is running stands there, finished pieces go from the tray to the display surface rather than back to a desk, and the Gallery Walk moves in one direction so the table does not clog. If pickup is still going at the 10 minute mark, move the rest of the room onto the reflection and announce the change before the walk starts.
+Students finish this sentence first:
 
-**Gallery Walk (5 min):** With every piece out on the display surface, laser-cut and hand-cut side by side, students do a brief gallery walk to see each other's postsecondary goals. Each student stops at 3 logos that are NOT their own and writes a sticky note: "I like that you chose _____." (positive only).
+> “My symbol represents ___ because after high school I want to ___.”
 
-!!! tip "Facilitation Tip"
-    The Gallery Walk is a moment of community celebration. These logos represent students committing, even tentatively, to a future direction. Treat it with respect. Take photos for your bulletin board (with parent permission).
+They combine two simple shapes or ideas into an original symbol. They do not trace a college, company, or military logo. Paper, Canva, Adobe Express, SVG, and PNG are equal. The teacher scores the goal and explanation, not drawing skill.
 
----
+If the student's goal is still uncertain, the symbol may represent a direction to investigate, such as helping people, building systems, creating art, repairing technology, or serving the community.
 
-## Activity 2: 1st Six Weeks Reflection Update (20 min)
+## Activity 2 — Career Journey Update (20 min)
 
-Return students' Wk0 My Career Journey reflection handouts ([Printable PDF](../../resources/worksheets/my-career-journey.pdf)) from the persistent portfolio folder. Tell them: "Five weeks ago you wrote down what you knew about yourself. Today you add a SECOND section showing how much you've learned."
+Students place the Week 0 response beside the new two-page update. They use one specific activity, career, skill, platform result, or piece of feedback from the six weeks.
 
-**The reflection update. Students work the seven questions on the printed update template ([Printable PDF](../../resources/worksheets/wk5-reflection-update-template.pdf)) with the Wk0 page beside it, and turn both in together:**
+The update asks for:
 
-1. **What clusters have I explored?** _____ (Manufacturing + IT, and name the IT pathways you rated in the app)
-2. **What careers did I favorite?** _____ (List all 6+ favorited Hats from the Climber Profile)
-3. **What surprised me?** _____ (1-2 sentences)
-4. **What do I want to explore next?** _____ (Looking ahead to 2SW: Law, Public Service, Health Science)
-5. **What is my postsecondary goal?** _____ (The college / trade school / cert / career your logo represents)
-6. **What Powerskills did I practice?** _____ (Work Ethic, Communication, Problem-Solving, Integrity, Time Management, pick 2-3)
-7. **One question I still have** _____
+- one idea that changed or became stronger;
+- one specific source of evidence;
+- current interest decision;
+- postsecondary goal or direction;
+- one middle-school-to-high-school action;
+- one high-school-to-postsecondary preparation step; and
+- one next action this school year.
 
-Students compare this update to their Day 1 self. Walk the room and ask: "What is the biggest change between Wk0 and now?"
+Interests are allowed to change. A student may decide IT or cybersecurity is not a fit and still earn full credit.
 
-This reflection is the major summative assessment for the Wk5 capstone. Collect all reflections at end of class and score them with the [1st Six Weeks Capstone Portfolio Rubric](../../resources/worksheets/wk5-capstone-portfolio-rubric.pdf), Part 3.
+## Activity 3 — Packet Check and Submission (10 min)
 
-**DOK 4:** Based on everything you have learned about yourself and about IT/Manufacturing careers over the past 5 weeks, what criteria would you use to decide which career cluster to explore deeply next? Rank your top 2 criteria and explain why.
+Students place the evidence in this order:
 
----
+1. Bootcamp plan;
+2. flyer prototype;
+3. original symbol and goal/transition steps; and
+4. Career Journey update.
 
-## Activity 3: Final H&L Favorites + Xello Save Careers (10 min)
+They use the rubric to check one criterion at a time and mark missing evidence for reassessment. Submit through the **Major 2: Cybersecurity Capstone Evidence Portfolio** Canvas Assignment or the teacher's paper collection route.
 
-> [H&L PLATFORM] Direct students to their H&L Climber Profile. They should now have favorites from Manufacturing (Wk1, 2 careers) AND IT (Wks 2-5, 4-6 careers). Verify each student has at least 6 total favorited Hats. Students who have fewer should add 1-2 more from any IT or Manufacturing pathway, or from the three Hats they rated on the cluster's app page (FYF p. 38: "App Exploration"). The Climber Profile becomes the foundation for the Career Plan students build later in the year (4SW Wk1-2 + 6SW Wk6).
+During this same packet check, students keep the completed Career Journey Update open and spend 2 to 3 minutes on **Entry 1** of the CCE Six-Weeks Evidence Log. They copy short phrases for: **Career Journey Update**; one transferable skill; the visible action from their specific six-weeks example; one revision or recovery move; and the next action already named on the update. Students return the log to the CCE binder or teacher-designated digital folder. Do not collect, upload, or grade the log as a fifth artifact.
 
-**Xello Save Careers (final 5 min):** Students log into Xello and complete the Save Careers activity. They save 2-3 careers from the Xello career library that interest them. This builds the Xello-side dataset that parallels their H&L favorites. Xello accounts are rostered by the district, not by the campus, so verify with your CTE coordinator that your sections are loaded and that students can sign in through the district portal before this day; if the roster is not live, students list their 2-3 careers on the back of the reflection update and enter them in Xello the next time the lab is open.
+If the log is missing, students write the same five short phrases under **Entry 1 hold** in the CCE notebook or teacher-designated digital folder. They transfer those phrases later from the hold note. They do not reconstruct old work or submit another copy of the Career Journey Update.
 
-Tell students: "Both platforms now know what you like. The next 30 weeks add more data, more careers, more clusters. By the time you finish 6SW, you'll have a portfolio of 20-30 favorited careers across 14 clusters."
+## Teacher Scoring Guidance
 
----
+- Use one 16-point score and the district-band conversion on the rubric.
+- Do not create separate grades for the flyer, symbol, gallery, Xello, H&L, or a live presentation.
+- Paper and digital work score equally.
+- Missing older evidence triggers the normal catch-up/reassessment route, not a machine-access or attendance penalty.
+- Score the two transition steps for specificity and logical connection, not whether the teacher agrees with the student's goal.
 
-## Exit Ticket (Deliverable-only day, no formal ticket)
+## Supports
 
-Day 5 is the 1SW capstone day. The updated My Career Journey reflection IS the week's summative mastery probe — a multi-part structured reflection already covers synthesis across all five weeks. No additional 3-min exit ticket.
+- Complete the goal sentence orally before designing.
+- Use the two-shape menu, Week 0 page, and completed bootcamp model.
+- Offer English/Spanish field labels, sentence stems, speech-to-text, or a private conference.
+- Provide a recovery box for students who cannot locate Week 0 work.
 
-**Final Submission:** Students turn in (1) their updated My Career Journey reflection with the Wk0 page attached, (2) their completed logo (taken home or stored), and (3) confirmation of 2 IT favorites + Xello Save Careers. Score the three-part portfolio with the [1st Six Weeks Capstone Portfolio Rubric](../../resources/worksheets/wk5-capstone-portfolio-rubric.pdf), 4 levels per part, 12 points total.
+## If a Tool, Older Artifact, or Student Is Missing
 
-**Mastery evidence:** Reflection Q1 (clusters explored) + Q2 (favorited careers) demonstrate d(1)(C). Reflection Q5 (postsecondary goal) paired with the physical Glowforge artifact demonstrates d(3)(A). *(d(1)(C), d(3)(A))*
-
----
-
-## Differentiation
-
-- **Support:** The printed reflection update template ([Printable PDF](../../resources/worksheets/wk5-reflection-update-template.pdf)) carries a fill-in-the-blank frame for each of the 7 questions, so students complete it in 15 minutes instead of writing freeform.
-- **Extension:** Students who finish early start the **NOVA Cybersecurity Lab** game (PBS): [pbs.org/wgbh/nova/labs/lab/cyber/](https://www.pbs.org/wgbh/nova/labs/lab/cyber/). Or they can write a 1-paragraph "letter to my Wk0 self" describing what they would tell themselves 5 weeks ago.
-- **ELL:** Bilingual reflection template with Spanish sentence stems for the 7 questions ([Printable PDF](../../resources/worksheets/wk5-reflection-update-bilingual.pdf)); students may answer in English or Spanish. Pair ELL students with bilingual peers for the Gallery Walk so they can talk through their cluster interests aloud.
+- No design platform: use paper.
+- No laser: no change to the lesson or score.
+- Missing Week 0 page: complete the recovery prompts on the update.
+- Absent: complete the same four-piece packet privately; no public gallery or presentation is required.

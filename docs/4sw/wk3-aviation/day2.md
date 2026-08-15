@@ -1,110 +1,136 @@
-# Day 2: Aviation Career Research + Military vs. Civilian Pathways
+# Day 2: Aviation Careers and Pilot Preparation Routes
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will identify career opportunities within one or more career clusters and investigate and report the steps required to participate or enroll in career and educational opportunities using evidence from Career Opportunities.
+- **TEKS:** d(1)(C), d(3)(G)
+- **Demonstration of Learning:** Completed Day 2 evidence section of the Aviation Route and Action Plan with one source-based route decision.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete a career research worksheet for one aviation career; compare military and civilian pathways into aviation using BLS and FAA data; identify JROTC as a high school entry point |
+| **Objectives** | Compare commercial pilot, air traffic controller, and aircraft maintenance work; investigate verified steps and tradeoffs in civilian and military pilot preparation; separate national medians from starting or local pay |
 | **TEKS** | d(1)(C), d(3)(G) |
-| **5E Phases** | Engage: Warm-Up · Explore: Aviation career research · Explain: Pathway comparison and JROTC · Evaluate: Exit Ticket |
-| **Deliverable** | Completed career research worksheet (1 aviation career) + completed Military vs. Civilian Pathways comparison chart |
-| **Materials** | Chromebooks, H&L accounts, printed career research worksheet, printed Military vs. Civilian Pathways comparison chart, FAA Careers and BLS aviation pages bookmarked, *Find Your Future* workbook pp. 160-165 and Climber Notes deck "Flight Line Fixers" for the extension, projector |
+| **Deliverable** | Completed Day 2 evidence section of the Aviation Route and Action Plan with one source-based route decision |
+| **Materials** | Two-page dated reference; four-page Aviation Route and Action Plan; current FAA/BLS source links; optional FYF pp. 160-165 and locked *Flight Line Fixers* deck |
 
 ---
 
-## Warm-Up (5 min)
+## Before Class
 
-**WARM-UP: Name a branch of the US military. Do you know anyone who has served, or who is currently serving? What did they do (or what do they do now)?**
+1. Post or project the two-page dated reference. Default printing is zero; print one per table only if projection or digital access is not usable.
+2. Open the four-page Aviation Route and Action Plan. The default digital route uses one device per student. For paper, print one plan per student, label it, and retain it in the class folder through Day 5.
+3. Open the FAA careers, pilot-school, and ATC qualification pages plus the BLS career pages as teacher verification sources.
+4. Keep H&L optional. Do not assume the named aviation Hats exist or provide DFW-localized pay.
+5. If offering *Flight Line Fixers*, embed the five licensed images and keep the observation key on the teacher page.
 
-Take 4-5 student responses; some students may know veterans personally. Add military service to the four-year college and FAA-certified flight-school routes already under discussion, then have students compare the training each aviation career requires.
+## Supplied Model
 
----
+> Sam should investigate the civilian route first because Sam wants to compare local training schedules before making a service decision. One entry step is choosing an FAA-certificated instructor or school; a Part 141 school uses an FAA-approved structured curriculum, but that does not make it universally better. A tradeoff is that training time and cost vary. Before deciding, Sam should verify certificate requirements on the FAA Become a Pilot page and ask a counselor which Irving course is currently available.
 
-## Activity 1: Aviation Career Research (20 min)
+Students locate the route, evidence, tradeoff, unknown, and authorized verification source.
 
-**Source:** CCE career research worksheet; app steps follow (FYF p. 170: "App Exploration")
+## Warm-Up: One Career, Different Preparation (5 min)
 
-Pass out the printed career research worksheet. This is the same six-field format students learned in Wk0, so name the connection rather than reteaching it.
+Students respond to a fictional choice:
 
-> [H&L PLATFORM] Students open the Hats & Ladders app, go to **Clusters**, click the **Transportation, Distribution, and Logistics Cluster**, and use the Hat Finder to return to a Hat from Day 1's browse. Today the choice is limited to aviation Hats: Pilot, Air Traffic Controller, Aviation Mechanic, Flight Dispatcher, or Drone Operator. Students pull each worksheet field directly from that Hat's profile in the app.
+> Sam wants to become a pilot. Sam assumes college, civilian flight school, and military pilot training are three versions of the same program. What information would Sam need before choosing?
 
-Students complete the printed worksheet:
+Look for eligibility, training sequence, cost or funding, time, service commitment, medical requirements, credentials, selection, and backup options. Students do not share family military history.
 
-| Field | What I Found |
-|---|---|
-| **Name of Career** | (e.g., Air Traffic Controller) |
-| **What Interests You?** | Why this Hat caught my eye |
-| **Brief Job Description** | What this person does day-to-day |
-| **Education / Training Needed** | Degree? Certification? Military? Apprenticeship? |
-| **Average Salary (DFW if available)** | From the H&L Hat profile + cross-check on BLS |
-| **Tools, Equipment, or Skills Needed** | Specific gear and competencies |
+## Activity 1: Compare Three Aviation Careers (12 min)
 
-After filling in the H&L data, students cross-check the salary on the BLS pages bookmarked on their Chromebook:
-- BLS Airline and Commercial Pilots
-- BLS Air Traffic Controllers
-- BLS Aircraft Mechanics
+Students use the fixed reference to record one career's work, preparation, national-median label, and source in the Day 2 plan section. They still compare all three roles before selecting evidence.
 
-If the BLS number differs from the H&L number, students note both. Local DFW pay can vary from national averages.
+| Career | Core work | Common preparation | May 2024 national median | One limit or question |
+|---|---|---|---:|---|
+| Commercial pilot | Fly and navigate aircraft; communicate with crews and ATC | FAA flight training and certificates; some employers require or prefer a degree | $122,670 | Commercial pilot is not the same pay measure as airline pilot |
+| Air traffic controller | Direct aircraft movement and maintain separation | FAA eligibility, testing, academy training, and facility training | $144,580 | Applicants face age, citizenship, medical, security, and selection requirements |
+| Aircraft mechanic/service technician | Inspect, test, repair, and document aircraft systems | Often an FAA-approved maintenance program; other routes may include military or supervised experience | $78,680 | National median is not DFW starting pay |
 
-!!! tip "Facilitation Tip"
-    BLS pages are dense for 7th graders. Project the BLS Airline Pilots page and show students exactly where to find the median pay number, usually in the "Quick Facts" box at the top right. They do not need to read the whole article to extract one salary.
+The teacher models the source label: “BLS, May 2024 national median, accessed 2026.” Do not call these figures entry salary, DFW salary, or a guarantee.
 
----
+## Activity 2: Civilian and Military Pilot Routes (23 min)
 
-## Activity 2: Military vs. Civilian Pathways Comparison (20 min)
+Students compare two broad preparation routes using the source-dated table. The comparison is not a recruitment activity and does not ask which route is “better.”
 
-**Source:** FAA Careers website, BLS Pilot/ATC pages, military branch career pages
+### Civilian preparation example
 
-Distribute the printed Military vs. Civilian Pathways comparison chart. Students fill in the chart for **becoming a pilot** (the most common aviation career students ask about). The chart has three columns:
+1. Verify eligibility and medical requirements for the intended certificate or job.
+2. Choose an FAA-certificated instructor or school. A Part 141 school uses an FAA-approved structured curriculum; colleges may pair a degree with flight training.
+3. Earn the required pilot certificates and ratings, build the required experience, and complete employer training.
+4. For scheduled airline work, meet ATP requirements. A commercial pilot certificate comes earlier and is not the same credential.
 
-| | College Pathway | Military Pathway | FAA Flight School Pathway |
-|---|---|---|---|
-| **Where you train** | 4-year university with aviation program (e.g., Embry-Riddle, UND, OU) | Air Force, Navy, Army, Marine Corps, or Coast Guard | FAA Part 141 flight school |
-| **Time commitment** | 4 years degree + flight hours | 4-6 years military service after training | 6 months to 2 years |
-| **Cost to student** | $80,000-$200,000 tuition + flight fees | Free + paid salary during service | $50,000-$100,000 |
-| **Credentials earned** | BS + commercial pilot license + ATP eligibility | Military pilot wings + civilian commercial license | Commercial pilot license |
-| **Key advantage** | Fast civilian career start | No tuition, paid training, prestige | Direct industry route |
-| **Key tradeoff** | Expensive | Multi-year service commitment | No degree, no military benefits |
+### Military pilot example: U.S. Air Force
 
-Students research using the bookmarked FAA Careers page (faa.gov/jobs), BLS Airline Pilots page, and the military branch career pages. They fill in the chart and then write a 2-3 sentence personal preference at the bottom: "Based on this comparison, I would choose the _____ pathway because _____."
+1. Qualify for an officer route and hold or be near completion of a bachelor's degree.
+2. Meet academic, testing, selection, medical, physical, security, and age requirements.
+3. Complete officer training and pilot training if selected; aircraft and location are not guaranteed by student preference.
+4. Current Air Force information states a 10-year active-duty service commitment after pilot training.
 
-!!! tip "Facilitation Tip"
-    Some students will react strongly against the military option ("I would never join the military") while others will pick it instantly ("I want to fly fighter jets"). Both reactions are valid 7th-grade responses. Do not push either direction, just make sure they can articulate WHY in their preference statement.
+Military branches and aviation jobs differ. Do not generalize one Air Force example to every branch, promise selection, or describe the route as free flight school. Pay and training are connected to military service and obligation.
 
-**DOK 3:** What conclusions can you draw about the advantages and disadvantages of each aviation pathway? What factors would influence your decision the most?
+Students use the reference table to compare both routes without recopying it. In the Day 2 section of the final plan, they record:
 
----
+- the first route Sam should investigate;
+- one entry step;
+- one tradeoff or uncertainty;
+- one question and authorized verification source; and
+- a source-based recommendation for fictional Sam.
 
-## Activity 3: JROTC Connection (3 min)
+## Activity 3: Irving High and JROTC Boundary (5 min)
 
-Briefly introduce JROTC as the high school program that bridges middle school to the military pathway. JROTC is offered at multiple Irving ISD high schools. It does not commit a student to joining the military, but it provides leadership training and a head start on military careers if they choose that direction.
+The current Irving ISD CTE page lists Aviation Maintenance, Drone Engineering, and Marine JROTC at Irving High School. Clarify the roles:
 
-> [VERIFY] Confirm with your district counselor which Irving ISD high schools offer JROTC and which branches (Air Force, Army, Navy, Marine Corps).
+- Aviation Maintenance and Drone Engineering are CTE pathways whose current course access must be checked with the coursebook and counselor.
+- Marine JROTC teaches citizenship, leadership, and responsibility. It is not pilot training, does not seek a military commitment, and does not guarantee selection for a military aviation job.
 
----
+Students add one local verification question to the Day 2 plan section.
 
-## Exit Ticket (2 min)
+## Exit Ticket: Route Decision (5 min)
 
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day2-aviation-career-research-military-vs-civilian-pathways.pdf):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day2-aviation-careers-and-pilot-preparation-routes.pdf):
 
-Use your Military vs. Civilian Pathways chart to fill in the matrix for becoming a PILOT.
+For fictional Sam:
 
-| | College Pathway | Military Pathway | FAA Flight School |
-|---|---|---|---|
-| Time to pilot license | | | |
-| Cost to the student | | | |
-| One advantage | | | |
+1. Choose the civilian or Air Force preparation route as the first route to investigate.
+2. Cite one entry step and one tradeoff.
+3. Name the authorized source or person Sam should use to verify the next requirement.
 
-Bottom line: Which of the THREE pathways would I personally consider FIRST, and what is the MAIN reason? Use one specific cell from the matrix to back the pick. *(d(3)(G))*
+There is no single preferred route. Full credit depends on accurate evidence and a defensible match to Sam's stated needs.
 
-   ___________________________________________________________________
+*(d(1)(C), d(3)(G))*
 
----
+## Teacher Key and Monitoring
 
-## Differentiation
+- Correct salary labels: commercial pilot $122,670; ATC $144,580; aircraft mechanic/service technician $78,680. All are May 2024 national medians.
+- The broader combined pilot median and the airline-pilot median are different measures; do not substitute them for commercial-pilot pay.
+- FAA ATC requirements are current and selective. Avoid turning the list into a promise or a student medical self-screen.
+- A military route is service first. A civilian route may carry substantial cost, but the lesson does not publish unstable universal price estimates.
+- **Lap 1, minute 10:** check one exact career title, daily-work fact, preparation fact, full pay label, and source.
+- **Lap 2, pilot-route minute 12:** check an entry step, tradeoff, unknown, and authorized source.
+- If students choose from preference alone, pause and color-code claim, evidence, and unknown in the supplied model.
+- Trim the optional Irving/JROTC discussion first and turn it into the local verification question. Protect the recommendation, source/date labels, and plan retention.
 
-- **Support:** Pre-filled comparison chart with the Time Commitment and Cost rows already filled in. Students only fill in Credentials, Advantages, and Tradeoffs. Pair with a peer for the BLS page navigation.
-- **Extension (from the workbook):** **Flight Line Fixers** (FYF pp. 160-165), the workbook's aircraft mechanic activity. Students who finish the research early read the "Common Aircraft Issues" chart on p. 160, inspect the five aircraft photos the teacher projects (Climber Notes: "Flight Line Fixers", slides 2-6) with sticky notes, complete the Inspection Report on p. 161 with at least three observed issues, rate the issue Low, Medium, or High on the Severity Guide (p. 162), and make the Minimum Equipment List go or no-go call on p. 163. Students who get that far compare their call with a partner's using the Step 6 check on p. 165.
-- **Extension:** Add a 4th column for the **Coast Guard Aviator pathway** (different from Air Force/Navy in significant ways). Or research the difference between Air Force and Navy pilot training pipelines.
-- **ELL:** Bilingual comparison chart with Spanish row labels. Pre-teach: Pilot = Piloto, Military = Militar, Civilian = Civil, Tuition = Matrícula, Service = Servicio. Allow Spanish responses on the personal preference statement.
+## Optional Flight Line Fixers Extension
+
+Use FYF pp. 160-165 and licensed slides 2-6 only after core work.
+
+- Image 1: no obvious visible flag; the photo alone does not prove airworthiness.
+- Image 2: visible fan-blade crack/damage; treat as a serious observation requiring authorized inspection and grounding in the classroom scenario.
+- Image 3: no obvious visible flag from this angle; do not infer safety.
+- Image 4: no obvious visible flag; a cockpit photo is not a systems test.
+- Image 5: visible dark/purple stain below landing gear may suggest a leak; document the observation and require authorized inspection.
+
+Students observe and cite image evidence. They do not diagnose a real aircraft, prescribe a repair, or learn an actual MEL decision from the simplified workbook table.
+
+## Supports and Equal Routes
+
+- Use fixed evidence cards, icons, and one chunk at a time.
+- Provide bilingual labels for route, preparation, commitment, verify, and tradeoff.
+- Students may write, type, or record the three-sentence recommendation privately.
+- An absent student uses the same posted reference and completes the Day 2 plan section without H&L, open search, or a partner.
+- Students save the digital plan in the named private location or place the named paper plan in the class folder. They do not submit the Minor early.

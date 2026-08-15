@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "public_source_roots": [
+    "docs"
+  ],
+  "public_binary_root": "docs/resources",
+  "protected_path_fragments": [
+    "avid-reference",
+    "canvas-licensed",
+    "climber-notes",
+    "hl-teacher-resources",
+    "reference-pdfs",
+    "xello-licensed"
+  ],
+  "protected_file_extensions": [
+    ".pptx"
+  ],
+  "rules": [
+    "Only tracked Markdown under docs may become a public page.",
+    "Only locally linked files under docs/resources may be copied into the site.",
+    "Authenticated Canvas, H&L, FYF, Xello, Climber Notes, and private AVID assets never enter the public build.",
+    "A missing, outside-root, or protected local link fails the build instead of being silently copied."
+  ]
+}

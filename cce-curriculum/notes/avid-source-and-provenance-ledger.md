@@ -1,0 +1,88 @@
+# AVID Source and Provenance Ledger
+
+**Purpose:** record what the original teacher-created source does, what CCE needs, what is preserved, and why any change is necessary. This prevents source-grounded materials from being quietly replaced by generic CCE or AI-created substitutes.
+
+**Current release focus:** the owner's IPC Week 1, beginning Monday, August 17, 2026. This is curriculum `1SW Wk0`, shifted one campus week because students completed the Smart Solutions launch and team-building sequence during the first instructional week.
+
+## Decision labels
+
+- **Original preserved**
+- **Original with minimal CCE/Grade 7 reframing**
+- **Substantially adapted from named source**
+- **New CCE artifact created only because no adequate source existed**
+- **Excluded**
+- **Hold for later point of need**
+
+## Launch-week source decisions
+
+| Source | Original instructional job and useful structure | CCE destination | Decision | Preserved | Necessary changes / boundaries | Delivery and rights |
+|---|---|---|---|---|---|---|
+| Jenna Hainlen, `AVID 26-27 Skills Check`, especially `AVID First Week Goal-Setting Sheet` | Weekly reflection and first-week goal cycle: goal, why it matters, one specific action, scheduled day/time, confidence, accountability, and a short student-to-teacher note | Monday notebook onboarding and first private CCE goal entry | **Original with minimal CCE/Grade 7 reframing** | Goal cycle, field order, confidence check, accountability prompt, calm student voice | Change AVID to CCE; use one CCE learning/work habit rather than another class's grade; remove the eight-class grade table, 24-entry planner count, supply compliance, signatures, and other cross-class monitoring; add a non-disclosure option and a recovery/support choice | Teacher permission covers teacher-created source use. Keep the source archive private. Publish only the minimally reframed CCE page after embedded-rights review; otherwise provide it through locked Canvas/OneNote and a paper equivalent. |
+| Jenna Hainlen, Week 1.3 `Time Management` | Moves students from vague intentions through time wasters/savers, priorities, a realistic task list, a schedule, and revision | Monday goal model and teacher think-aloud | **Hold most; minimally preserve one move** | Revise a vague goal into one small, specific, scheduled, realistic action | Do not teach the full 21-slide high-school lesson during launch week; use one worked CCE example only | Cite source in teacher notes. Revisit the full structure later when a multi-day CCE task creates a real time-management need. |
+| Jenna Hainlen, Week 1.4 slides plus `FNT Notes Cornell Notes` | Five purposeful note phases: take/collect, process, connect/question, summarize/reflect, apply/use; teacher modeling; notes exist for a reason | Later complete focused-note-taking lesson at a verified CCE point of need | **Hold for later point of need; preserve the original teaching structure** | The full five-phase logic, teacher modeling, and a real use test | Grade 7 wording and CCE content will be selected when the destination lesson is known; do not compress the sequence into a launch-week shorthand, add a second Cornell packet, or claim ordinary H&L reflection is AVID FNT | Original handout/decks stay in the private source archive pending rights review. The launch guides do not cite the short H&L interpretation as an AVID notes routine. |
+| Jenna Hainlen, Week 1.4 paper-crane FNT practice | Demonstrates whether notes are actually usable by having students follow them | Later focused-note-taking lesson | **Hold for later point of need** | Complete collect/process/connect/summarize/apply sequence and usability test | Do not cram into H&L launch week | Revisit when a full focused-note-taking lesson is scheduled. |
+| Jenna Hainlen, Week 1.2 `What Is a Successful Student?` and weekly slide routine | Discussion, stand/share/sit participation, visible daily agenda, repeated classroom rhythm | Brief Monday/Tuesday teacher moves and slide-deck rhythm | **Substantially adapted from named source** | Student-generated habits, visible agenda, predictable transitions, movement plus seated/private alternative | Reframe from broad AVID success/compliance to transferable CCE learner habits; no public ranking, supply score, or mandatory standing | Record slide/source credit in speaker notes. Use a seated/private response route. |
+| Jenna Hainlen, Week 1.5 `Self Advocacy` | Scenario-first practice for asking for help and naming a need | Later powerskills/self-advocacy week | **Hold for later point of need** | Scenario-first structure and concise advocacy frame | Do not add another activity to launch week | Already identified as useful for later CCE adaptation; keep it out of this week's response load. |
+| Jenna Hainlen, Week 1.6 `Pomodoro Work Time` | Three priorities, two distractions/no-zone items, protected quiet work block | Optional Friday catch-up management move | **Original with minimal CCE/Grade 7 reframing** | Priorities, named distractions, short protected work interval | No team points, silence penalty, or on-task grade; students may use a quiet/private or accessibility-equivalent route | Teacher slide cue only; no new worksheet or submission. |
+| `Find Your Future` / Hats & Ladders assigned launch pages and Climber Notes | Core CCE sequence: career language, core personality, work values, Building Blocks, cluster recommendations, My Career Journey, Perks and Quirks | Tuesday-Friday core lessons | **Original preserved** | Assigned order, platform vocabulary, source imagery, response jobs, core reflection | Remove duplicate transcription among H&L, FYF, notebook, and extra worksheets; write in the notebook only when the workbook/platform has no suitable response home or synthesis is the learning job | Licensed assets stay authenticated in locked Canvas. Tracked source and guidance name exact pages/tasks and access routes without copying licensed binaries; MkDocs is not an active delivery target. |
+| Xello Grade 8 onboarding and after-high-school goal | Required yearlong planning extension | Friday first-priority block if not completed Monday | **Original preserved** | Login/access check and one after-high-school goal before Matchmaker | Do not run Matchmaker early; provide outage/catch-up route | Authenticated district platform only. |
+| Current CCE Project Routine Card (`Plan -> Do -> Recover -> Reflect`; `Capture -> Label -> Question -> Use`) | Locally generated synthesis presented as the launch routine | None in the launch default | **Excluded from launch; hold for later review** | None presumed | It compresses several source ideas into a new framework and was presented too quickly as AVID-derived. It may return only if a later lesson has a verified gap the original sources do not fill. | Do not distribute Monday or call it AVID. Keep current local file until later artifact-retirement review; do not delete user work casually. |
+| Current CCE Six-Weeks Evidence Log | Locally generated six-entry transfer log for later resume/interview/capstone reuse | Not distributed during launch week | **Hold for later review** | Potential downstream transfer function only | Do not front-load an empty yearlong artifact before students understand the notebook or have evidence to log; verify later consumers and teacher maintenance cost first | Do not call it AVID. Keep current local file pending coursewide review. |
+
+## Authenticated Week 1 deck inventory and exact reuse map
+
+The source audit now uses the actual editable PowerPoint exports, not link titles, screenshots, or an agent summary. The six originals are stored only in the ignored private source archive at `cce-curriculum/resources/avid-reference/source/week1-originals/`.
+
+| Original deck | Slides | Handcrafted sequence confirmed in the original | Launch-week use |
+|---|---:|---|---|
+| `AVID - Week 1.1 [26-27]` | 98 | Daily welcome/get-ready/agenda/supplies frame; explicit entrance, warm-up, absence, technology, and classroom-procedure slides; short goal reflection and closure | Preserve the daily launch and procedure choreography. Rebuild campus/class-specific copy for CCE, but do not replace the sequence with a four-slide summary. Key source frames include slides 9, 51, 53-57, 69-90. |
+| `AVID - Week 1.2 [26-27]` | 50 | Skills Check introduction; original First Week Goal-Setting Sheet; think -> stand/share/sit; structured reading and group roles; binder/planner setup | Monday uses the original goal-setting field sequence from slide 13 and the participation choreography from slides 14-15 where useful. Binder/planner compliance is not imported; OneNote and physical routes receive the same CCE content. |
+| `AVID - Week 1.3 [26-27]` | 59 | Full Time Management sequence: quick write, time wasters/savers, priorities, task list, schedule, and goal revision | Monday preserves only the goal-revision move from slides 50-51 and one small/scheduled-action model. The full high-school time-management lesson at slides 34-51 is held for a later point of need. |
+| `AVID - Week 1.4 [26-27]` | 57 | Five focused-note-taking phases with modeling, followed by paper-crane collection, processing, connection, summary/reflection, application, and a learning log | Preserve the five-phase instructional logic from slides 11-26 as the later FNT authority. Do not compress it into `Capture -> Label -> Question -> Use`. Do not cram the crane sequence at slides 31-38 into the H&L launch week. |
+| `AVID - Week 1.5 [26-27]` | 22 | Students test whether notes are usable by applying them to the crane task, then reflect; planner check follows | Hold slides 9-15 for the later complete FNT lesson. Do not substitute a generic CCE worksheet for the usability test. |
+| `AVID - Week 1.6 [26-27]` | 22 | Pomodoro setup with priority tasks, named No-Zone distractions, a protected work block, and explicit work expectations | Friday may minimally adapt slides 8-10 as the catch-up focus routine. Remove AVID points/compliance and retain an equivalent quiet/private access route. |
+
+### Slide-deck construction rule from the originals
+
+The rejected 22-slide launch skeleton is not a final deliverable. Jenna's originals show that a low-prep teacher deck needs a complete facilitation path rather than approximately four summary slides per day. Each CCE day must therefore include, as needed: a welcome/get-ready screen; today's lesson and materials; one direction or model per slide; the actual source/workbook step; participation or partner directions with an equal seated/private route; visible work-block checkpoints or timer cues; recovery/trim directions; and a real close. Output slide count is determined by that instructional sequence, not an arbitrary quota.
+
+### Frozen source-grounded launch-deck inventory
+
+The following five private, Canvas-bound decks are the reviewed launch package. They remain under the ignored `cce-curriculum/resources/avid-reference/source/derived/` directory because their adapted frames may retain permission-bounded source design or imagery. Their tracked builders and this ledger preserve the reproducible decisions without publishing the licensed binaries.
+
+| Day | Slides | Private Canvas-bound file | SHA-256 | Final evidence |
+|---|---:|---|---|---|
+| Monday | 15 | `cce-week1-day1-source-grounded.pptx` | `22f748463eeec7cdb03631e78b505aa13423a619f3916706dd4cc76fec8d2770` | 15/15 full-size inspection; every slide has timing, teacher move, student action, look-for, pivot/trim, recovery/access, and sources; fidelity pass; only inherited floral edge bleed flagged |
+| Tuesday | 16 | `cce-week1-day2-source-grounded.pptx` | `0452fdad088814c41de28ef64268833178bd6740f8a0f134616d8277bee46bfc` | 16/16 full-size inspection; 16/16 timing/purpose/monitor/pivot/trim/recovery/source notes; fidelity and placeholder passes; the short H&L interpretation is explicitly not presented as Jenna's full AVID focused-note-taking sequence |
+| Wednesday | 16 | `cce-week1-day3-source-grounded.pptx` | `cafaf39c1a7a91fc0c0e11e2430b97a53f5966b1ee311ee08d8e9db25dc13072` | 16/16 inspection; exact 50-minute flow; fidelity, notes, placeholder, and visible-source-remnant passes; notes now explicitly use this single projectable deck because the required Climber Notes frames are embedded |
+| Thursday | 13 | `cce-week1-day4-source-grounded.pptx` | `726b133ead699ff71e95699547c7737f9b34a92ce1ce7307475d1f1e8fb92994` | 13/13 full-size inspection and complete speaker notes; fidelity, placeholder, and list-marker passes |
+| Friday | 15 | `cce-week1-day5-source-grounded.pptx` | `6aaa2f483bc1af02174cd8aae5a1b1176b5ec2a3396cee715676b707099180dd` | 15/15 full-size inspection and complete speaker notes; exact 0-5 / 5-25 / 25-40 / 40-45 / 45-50 timing; fidelity, placeholder, list-marker, and timing-assertion passes |
+
+Total: **75 source-grounded slides**. Every day has its own complete 50-minute teaching route; slide counts differ because the instructional jobs differ.
+
+## Launch-week instructional spine
+
+This sequence preserves the current H&L/FYF order and uses AVID structures only where they perform a verified classroom job.
+
+| Day | Required core | Notebook/source-grounded routine | One response home | Protected close |
+|---|---|---|---|---|
+| Monday | CCE/Canvas/FYF/H&L course map; classroom and digital routines | Set up the OneNote pilot or physical equivalent; complete the minimally reframed First Week CCE Goal using goal, why, action, checkpoint, confidence, and accountability/recovery support | Private notebook page or the identical paper page; no second Canvas upload | Student can locate today's page and explain the next action and fallback |
+| Tuesday | H&L vocabulary, FYF p. 21 CTE framing, `Discover Your Core` | Short H&L interpretation: name the result, cite one phrase as evidence, ask one real question, and name one career curiosity | H&L stores the result; notebook holds only the short interpretation because FYF has no personality response page | One evidence-based reflection, not a copied type label; do not label this short response as AVID focused note-taking |
+| Wednesday | H&L `Discover Your Work Values`; FYF pp. 9-11 Building Blocks; save needed profile inputs | Structured think-pair-share and one synthesis only | H&L stores work values/profile data; FYF holds Building Blocks; notebook stores only the short value + experience + possible-cluster connection | Student can name one result, one Building Block, and why the connection may matter |
+| Thursday | My Career Journey reflection using the three prior inputs | Use the existing mapped Minor to synthesize and reflect; do not add a learning log or present the reflection as a replacement for Jenna's full focused-note-taking lesson | Existing reflection/Minor only | Self-check, revise, submit through the exact mapped route |
+| Friday | Core catch-up first; required Xello access + after-high-school goal; FYF pp. 4-5 Perks and Quirks only when readiness permits | Optional source-grounded three-priority/two-distraction quiet work routine | Missing core artifact, Xello goal, or FYF workbook pages; no transfer worksheet | Student identifies what is complete, what remains, and the exact next access route |
+
+## Current rights and parity boundary
+
+- The teacher-created AVID source archive remains private and ignored by Git.
+- Teacher permission allows instructional use, but embedded third-party images, AVID-branded/proprietary text, commercial links, and student/private information require separate review before public redistribution.
+- Locked Canvas/OneNote may hold authenticated or permission-bounded materials.
+- GitHub remains source control and backup. Tracked source maps, builders, and public-safe documentation must preserve the lesson's instructional truth without copying licensed FYF/H&L or uncleared source binaries; the legacy MkDocs site is not an active delivery target.
+- Source/Canvas parity means the same approved lesson contract and teacher guidance, not illegal binary duplication.
+
+## Next source decisions
+
+- Decide whether the minimally reframed First Week CCE Goal page can be publicly distributed or should remain authenticated.
+- Keep the completed frame maps, intentional-deviation records, fidelity reports, and frozen deck hashes synchronized whenever a launch deck is intentionally revised.
+- First focused-note-taking placement candidate: `3SW Wk3 Day 2 - Pest Patrol Field Reports and Constraints`. Students already collect evidence from three worker reports, process each fact into a `drone must` statement, connect sources, summarize three constraints, and apply the notes to the Day 3 design. That existing field-notes sheet can become the authentic usability test without adding a Cornell packet or literal paper-crane activity. The full preservation contract and adoption gate are recorded in [AVID Focused Notes Placement Audit](avid-focused-notes-placement-audit.md). This is a candidate, not an adopted change while Week 0 still awaits final live parity.
+- Revisit the Six-Weeks Evidence Log only after confirming each downstream consumer and the smallest sustainable teacher routine.

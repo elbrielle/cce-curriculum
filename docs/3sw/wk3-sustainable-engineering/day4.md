@@ -1,115 +1,97 @@
-# Day 4: Pest Patrol — Peer Feedback + Societal Trends
+# Day 4: Review, Revision, and Changing Careers
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Emerging Careers
+- **Objective:** Students will evaluate how two societal trends change sustainable-engineering careers and work tasks using current evidence.
+- **TEKS:** d(1)(D), d(5)(C)
+- **Demonstration of Learning:** One visible Pest Patrol revision plus a two-trend evaluation using two sourced facts and one evidence limit.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Get peer feedback on the drone design using the workbook's peer feedback form; analyze how changing societal needs create new ag and environmental careers; complete a societal trends chart |
+| **Objective** | Evaluate how two societal trends change sustainable-engineering careers and work tasks using current evidence |
 | **TEKS** | d(1)(D), d(5)(C) |
-| **5E Phases** | Engage: Warm-Up · Explain: Peer feedback exchange · Extend: Societal trends chart · Evaluate: Exit Ticket |
-| **Deliverable** | Completed peer feedback form + societal trends chart with at least 5 rows |
-| **Materials** | *Find Your Future* workbook p. 95; printed societal trends chart; drone designs from Day 3 |
+| **Deliverable** | One visible Pest Patrol revision plus a two-trend evaluation using two facts and one evidence limit |
+| **Materials** | Drone drafts; FYF p. 95; one Peer Review and Revision Record per student; one two-page Trends Evaluation per student; digital Trends Evidence Guide and rubric |
 
----
+## Before Class
+
+Give each student a saved drone draft, FYF p. 95, one revision record, and one two-page Trends Evaluation printed double-sided. Post the Trends Evidence Guide and rubric digitally; default print count is 0 for both. For a no-device class, print one guide per pair. Use pairs of two for review, with self-review or a teacher conference as the equal alternate. Open the unpublished Major assignment.
+
+Project these supplied models:
+
+- Feedback: "Label what the camera detects so the farmer knows why it is useful."
+- Trend reasoning: "Precision-agriculture tools can change an agricultural engineer's monitoring work by adding sensor and drone data. USDA evidence supports scouting and monitoring, but it does not prove every farm can afford or benefit from the same system."
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Engineers always show their designs to other people before building. Why? What can a peer see that the designer can't see in their own work?**
+**WARM-UP:** Which feedback is more useful: "good job" or "your camera label explains what it detects"? Why?
 
-Take 3 student responses. The point: peer feedback catches blind spots. Today the class becomes a team of engineers reviewing each other's drones, just like a real engineering firm.
+Name the rule for the review: feedback points to evidence in the work and suggests a next step.
 
----
+## Activity 1: Private Peer Review and Revision (12 min)
 
-## Activity 1: Peer Feedback on Drone Designs (20 min)
+Students use the printed form or a manually assigned Canvas peer review. Automatic peer assignment stays off.
 
-**Source:** (FYF p. 95: "Ag-Tech Pest Patrol", Step 4: Get Peer Feedback)
+Review timing:
 
-Pair students up. Each student takes a turn explaining their drone to their partner. Three things every explanation has to cover, drawn from what the workbook's form then rates:
+- 3 minutes: Reviewer reads or listens.
+- 3 minutes: Reviewer checks the criteria and writes one specific next step.
+- 4 minutes: Designer chooses and makes one revision.
+- 2 minutes: Designer records where the change appears and why it helps.
 
-- The pest problem at Green Valley Farms and how your drone helps farmers find and stop pests
-- How the drone actually works, part by part
-- Which technology choice you are least sure about and why
+An absent student or a student without a reviewer completes a structured self-review or teacher conference. Peer availability does not control the student's grade.
 
-**Time, Voice, Body:** post the four blocks before the first partner speaks and run a visible countdown for each. Partner A explains (min 0-6), Partner B explains (min 6-12), both fill the workbook form with specific notes (min 12-17), both write 1-2 revisions in pen on their own design (min 17-20). Voice 1 for the explaining turns, Voice 0 while partners write so reviewers are producing their own reasoning. Drone designs stay flat on the desk during the writing blocks and completed forms go in the return tray. If a pair runs short, move the revision note to the exit ticket instead of cutting it from Day 4.
+## Activity 2: Read Three Trends (8 min)
 
-Partners write the reviewer's name at the top and rate five criteria Yes, No, or Somewhat, adding notes that explain each rating (FYF p. 95):
+Students use the fixed evidence guide. The three trends are precision agriculture and drones, wind and solar installation work, and technology in the water workforce.
 
-| Criteria | Yes / No / Somewhat | Peer Feedback Notes |
-|---|---|---|
-| My partner understood the problem | | |
-| The drone is creative and functional | | |
-| Technology is used appropriately in the drone design | | |
-| My partner explained their concept to me in a way that was effective | | |
-| This drone helps with the problem and makes an impact | | |
+Model one distinction:
 
-After the feedback exchange, each student goes back to their drone and writes 1-2 things they would CHANGE based on the feedback (in pen, on the original design).
+- a technology can change a task;
+- a growth percentage is a projection; and
+- neither one guarantees a job or starting salary.
 
-Close the activity with the workbook's own Class Discussion prompts (FYF p. 95): what work values might matter in this role, how do different roles use their strengths to solve a problem like this, and what would drones help farmers with most and what would they NOT be able to help with? The last prompt is the honest limit of the technology and it sets up Activity 2's careers-that-change column.
+Students choose two trends. They locate one changed task, one fact, and one limit for each before writing.
 
-!!! tip "Facilitation Tip"
-    The workbook's form has a Notes column next to every rating, and that column is where the learning is. Train students to fill it with specifics, not "good job." Model on the board: instead of "I like your drone," write "Your camera placement is great because it sees the underside of leaves where spider mites hide." A Somewhat with a specific note is worth more to the designer than a Yes with a blank.
+## Activity 3: Evaluate Two Trends (18 min)
 
----
+Students complete both trend records and the comparison. They then write a 3-4 sentence conclusion that uses two sourced facts total, explains changed work, and states one evidence limit.
 
-## Activity 2: Societal Trends Chart (20 min)
+Use the complete frame beside the conclusion: “The ____ trend changes ____ work by ____. The evidence shows ____, but it does not prove ____. I would investigate ____ next because ____.”
 
-**Source:** TEKS d(5)(C): Analyze the effects of changing employment trends, societal needs, and economic conditions on career choices
+## Submit and Reset (7 min)
 
-Move to the societal needs analysis by tracing yesterday's drone to the job behind it. Ag-Tech Drone Operator became possible when farm needs met newer drone and sensor technology. The Ag Engineer's field notes give students the need: Green Valley Farms sprays chemicals across the whole field, while targeted spraying would use them only where pests are present (FYF p. 93). Use that need-and-technology pair as the model for today's new-careers chart.
+Students highlight two sourced facts, circle the evidence limit, and submit the final design, revision record, and Trends Evaluation together once. Allow time for collection and cleanup.
 
-Project the chart template on the board:
+**DOK 3:** Which trend is likely to change more daily work? Defend the answer with one fact and one limit.
 
-| Societal Change | New Careers Created | Careers Changing or Adapting |
-|---|---|---|
-| Climate awareness | Sustainability Consultant, Environmental Engineer | Traditional energy roles adding renewable skill sets (wind/solar technicians) |
-| Pest pressure on farms | Ag-Tech Drone Operator, Precision Agriculture Technician | Crop inspection shifting from hand-walking to drone-assisted monitoring |
-| (3 more rows for students to fill in) | | |
+## Teacher Key and Scoring Notes
 
-Walk through the first 2 rows as examples. **Think-Pair-Share:** before anyone writes a third row, hold a silent 30 second Think on "what is one thing that is changing about how people live, and who gets hired because of it," then Partner A for 30 seconds and Partner B for 30 seconds. Two stems on the board: "Society is changing in the area of _____, so a new career like _____ is growing because _____" and "One career that is not disappearing but changing is _____, because workers now have to _____." Then students fill in 3 MORE rows on their own. Possible societal changes to spark ideas:
+There is no single best trend or career. Full-credit reasoning:
 
-- Aging population
-- Plastic waste in oceans
-- Online shopping growth
-- Remote work normalization
-- Renewable energy demand
-- Water scarcity in Texas
-- Vertical farming in cities
-- AI in agriculture
+- uses the guide accurately;
+- explains a changed task or skill;
+- keeps source, date, and measure attached to numbers;
+- states one limit; and
+- recommends further investigation or explains why the student would not prioritize it.
 
-Students use H&L career data, BLS, and class discussion to populate their rows. Each row needs at least 1 new career and 1 career that is changing or adapting. If students bring up a family member's job when the class discusses "careers changing," honor the reference, most jobs that look like they are disappearing are actually shifting as workers add new skills (e.g., an oil-and-gas technician retraining for wind turbine maintenance stays in the same energy sector).
+Use the 16-point major rubric for the final packet. Peer comments are formative.
 
-**DOK 3:** Based on your chart, what advice would you give a younger student deciding between a career in fossil fuels and a career in renewable energy? Use societal trends data to defend your advice.
+## Supports and Fallbacks
 
----
+- **Support:** Compare only precision agriculture and water-workforce technology, with the trend names prefilled.
+- **Extension:** Explain why 50% growth and 2,300 annual openings answer different questions.
+- **Language:** Supply the word bank trend, revision, projection, daily task, and evidence limit. Keep the complete trend frame beside the conclusion.
+- **Platform fallback:** Paper review is equal to Canvas peer review.
+- **Absence:** Use self-review plus the same fixed evidence guide. No open web research is required.
 
-## Activity 3: Quick Class Share (3 min)
+## Monitor, Pivot, and Trim
 
-In the last 3 minutes, ask two pairs from the Activity 2 share to give one row from their chart that the rest of the class might not have thought of. Pick the pairs from what you heard while they talked, not from raised hands. Surface the most surprising connections.
-
----
-
-## Exit Ticket (2 min)
-
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/3sw-wk3-day4-pest-patrol-peer-feedback-societal-trends.pdf):
-
-Use your Day 4 Societal Trends Chart to fill in the matrix.
-
-| Societal Change | New Career Created | Existing Career CHANGING |
-|---|---|---|
-| Change 1: _______________ | | |
-| Change 2: _______________ | | |
-
-Bottom line: Which of your two societal changes is creating the MOST new careers (quantity and variety), and why? *(d(1)(D), d(5)(C))*
-
-   ___________________________________________________________________
-
-Submit your peer feedback form and societal trends chart with this ticket.
-
----
-
-## Differentiation
-
-- **Support:** Pre-fill the societal trends chart with 3 societal changes already listed in column 1. Students fill in only the new and declining careers.
-- **Extension:** Add a 4th column to the chart: "What technology drives this change?" Fill in for at least 3 rows.
-- **ELL:** Pre-teach: Society = Sociedad, Trend = Tendencia, Decline = Declive, Demand = Demanda. Bilingual societal trends chart with Spanish column headers.
+- By minute 15, each student should have one specific next step and one visible change. If reviewer access fails, move immediately to self-review or a teacher conference.
+- By minute 33, each selected trend should have a changed task, sourced fact, and limit. If students treat growth as a guarantee or a U.S. median as starting pay, pause and use the supplied trend model.
+- By minute 43, the conclusion should contain both trends, two facts total, and one evidence limit.
+- If time is short, replace partner review with a five-minute self-review and cut oral sharing. Protect one visible revision, two-trend evidence, and the seven-minute submit/cleanup window.

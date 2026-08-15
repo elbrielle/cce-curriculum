@@ -32,3 +32,7 @@ Rejected response: ____   Rule it breaks: ______________________________
 My improved response:
 
 [[lines: 4]]
+
+Name one career outside IT support that needs the same communication skill. Explain how.
+
+[[lines: 2]]

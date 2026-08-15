@@ -26,6 +26,8 @@ Weak: “We will vote.”
 
 Stronger: “Each person gets 30 seconds to explain the idea. We will combine two name ideas, then use a blind vote if the combined name does not work.”
 
+Complete frame: “Each person needs ____. We can ____ so that ____. If that does not work, we will ____.”
+
 [[pagebreak]]
 
 ## Transfer the skill
@@ -48,7 +50,7 @@ Listening and compromise do not replace a safety rule. Protect immediate safety,
 
 If time remains, sketch a poster using the name your team agreed on. Artistic quality is not graded.
 
-[[box: 2.0]]
+[[box: 1.2]]
 
 ## Done when
 

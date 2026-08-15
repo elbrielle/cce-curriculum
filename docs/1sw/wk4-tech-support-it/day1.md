@@ -1,97 +1,91 @@
-# Day 1: IT Support Pathway Exploration
+# Day 1: IT Support Careers and Interests
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
+
+- **Topic:** IT Support Careers
+- **Objective:** Students will identify career opportunities and research and describe common preparation requirements for IT support careers using district HQIM and fixed career evidence.
+- **TEKS:** d(1)(C), d(2)(A)
+- **Demonstration of Learning:** Students complete a two-career evidence comparison and connect one current interest to a specific IT support task; Xello shows at least one added or updated interest.
+<!-- CCE DAILY CONTRACT END -->
 
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Explore the IT Support and Services pathway in H&L; investigate Help Desk Technician, IT Support Specialist, and Systems Administrator Hats; understand that not all IT careers require a 4-year degree |
-| **TEKS** | d(2)(A) |
-| **5E Phases** | Engage: Warm-Up · Explore: IT Support Hat browse in the app · Explain: Certification and degree comparison · Evaluate: Exit Ticket |
-| **Deliverable** | Notes on 3 IT support careers (education, salary, daily tasks) |
-| **Materials** | *Find Your Future* workbook pp. 36 and 38, Chromebooks, engineering notebooks, projector |
+| **HQIM** | FYF pp. 36 and 38; H&L optional exploration |
+| **Required platform task** | Xello **Add interests**, 15 minutes, add at least one interest |
+| **Materials** | Career Cards, Career and Interest Check, workbook, Chromebook, projector |
 
----
+## Before Students Arrive
 
-## Warm-Up (5 min)
+1. Open FYF pp. 36 and 38 in the locked Canvas student guide.
+2. Print one [IT Support Career Cards](../../resources/worksheets/wk4-it-support-career-cards.pdf) packet per pair and one [Career and Interest Check](../../resources/worksheets/wk4-day1-career-interest-check.pdf) per student.
+3. Check the Xello roster and open the locked **My Interests** teacher guide.
+4. If using H&L, verify the live pathway and Hat titles. The career cards remain the complete required route.
 
-**WARM-UP: Think about the last time something went wrong with your technology (phone, computer, game console, school Chromebook). Who fixed it? How did they figure out what was wrong?**
+## Bellringer — Technology Help (5 min)
 
-Quick share. Listen for a parent, sibling, school IT employee, or YouTube tutorial. Name the common thread: each person diagnosed a problem for someone else. Help desk workers do that as their daily job.
+**Prompt:** Think of the last time technology stopped working. What was wrong, who helped, and what did that person check first?
 
----
+Students stop and jot for one minute, then turn and talk. Listen for a problem, helper, and diagnostic action. Bridge: IT support workers diagnose technology problems for other people as their daily work.
 
-## Activity 1: H&L Information Technology Support and Services Pathway (25 min)
+## Activity 1 — Compare Four Support Roles (20 min)
 
-**Source:** (FYF p. 38: "App Exploration") and (FYF p. 36: "What is Happening at My District?")
+Use FYF p. 36 to connect the work to Irving ISD's Technology Support program, then distribute the Career Cards. Students read all four cards:
 
-> [H&L PLATFORM] The App Exploration page walks students through the cluster in order: open the Hats & Ladders app, go to Clusters, click the Information Technology Cluster, watch the "Cluster Tour" video, play "Game Time," find 1 Hat that matches their personality or interests and 1 Hat that does not fit, open "Pathway Possibilities" and rate at least 1 pathway, then rate at least 3 Hats. Point the pathway rating at **Information Technology Support and Services**, where careers help people and businesses troubleshoot and fix computer, software, and network problems. Students use the Hat Finder to explore four specific Hats: Help Desk Technician, IT Support Specialist, Desktop Support Technician, and Systems Administrator. Students check education indicators and rate Perks/Quirks/Job Gear, recording their answers on page 38.
+- Help Desk Technician
+- IT Support Specialist
+- Desktop Support Technician
+- Systems Administrator
 
-**The 4 IT Support Hats to explore:**
+Students underline one task, circle common preparation, and box one transferable skill on each card. They then choose two roles and begin the comparison.
 
-1. **Help Desk Technician:** First line of support. Answers calls, emails, and chats from users with computer problems. Walks them through troubleshooting steps. Often the entry-level role.
-2. **IT Support Specialist:** Slightly more experienced. Handles harder problems that the help desk passes up. Sometimes goes to a user's desk to fix things in person.
-3. **Desktop Support Technician:** Specializes in physical hardware: replacing keyboards, swapping hard drives, installing software on individual machines.
-4. **Systems Administrator:** Senior IT support role. Manages servers, user accounts for the entire company, network configurations. Requires more experience and often a certification or degree.
+**Stop and Jot:** Post the word bank **task, preparation, certification, transferable skill**. Students complete: “One role handles ___, while the other handles ___. Common preparation may include ___. Their preparation differs because ___.”
 
-Irving ISD runs its own version of this pathway. The workbook's district pages list **Technology Support** among the district's Information Technology programs of study and describe it as preparing students for careers in IT services through computer hardware, systems troubleshooting, and software installation (FYF p. 36: "What is Happening at My District?").
+**Active-monitoring look-fors**
 
-**Student task:** Spend ~5 minutes per Hat. **Stop and Jot:** for each Hat, write down in the engineering notebook:
+- Help desk work includes tickets, questions, simple fixes, documentation, and escalation.
+- Desktop support emphasizes device setup and repair.
+- Systems administration usually carries wider system responsibility and often requires more preparation or experience.
+- Students copy “common preparation” accurately and do not turn it into a universal guarantee.
 
-- Hat name
-- Education needed (DEGREE / CERTIFICATION / BOTH)
-- DFW salary range
-- 1-2 daily tasks
+If H&L is live, students may use FYF p. 38 to browse the Information Technology Support and Services pathway after the fixed evidence is complete. App ratings and favorites are not required evidence.
 
-Two stems for students who stall on the education field: "This Hat needs a degree, a certification, or both because the profile says _____" and "A _____ certification takes _____ months to earn and qualifies you for _____."
+## Activity 2 — Xello Add Interests (15 min)
 
-Walk the room and check the **education** field first. Most of these careers list a certification or associate degree rather than a 4-year bachelor's; ask students to mark that difference before they move on.
+Students open district SSO, then **Xello → About Me → Interests**. Each student adds or updates at least one real interest and notices where it appears in About Me.
 
-!!! tip "Facilitation Tip"
-    Students often assume "all good IT jobs need college." Stop the class when a student notices a Hat doesn't require a 4-year degree. Make a big deal of it: "Notice that Help Desk Technician says 'High school diploma + CompTIA A+ certification.' That is a path you could be on by age 19, making $40-50K. That is a lot of money for someone two years out of high school."
+Before students click, model the difference between a broad category and useful evidence:
 
----
+- “Technology” is broad.
+- “Fixing devices,” “helping people,” or “organizing information” makes a clearer career connection.
 
-## Activity 2: Not All IT Careers Need a Degree — Discussion (15 min)
+Do not require screenshots of private profile information. Verify completion through the teacher Completion Standards report.
 
-Pull up TWO H&L Hat profiles side by side on the projector:
+## Activity 3 — Career and Interest Evidence (10 min)
 
-- **Help Desk Technician** (entry-level IT support, no 4-year degree required)
-- **Software Developer** (typically requires a 4-year bachelor's)
+Students finish the Career and Interest Check:
 
-Ask students to look at the differences:
+1. one task for each selected career;
+2. common entry preparation for each;
+3. one transferable skill for each;
+4. a career choice supported by one task and one preparation fact; and
+5. an interest-to-task connection.
 
-- Education time: 6-12 months for a certification vs. 4 years for a degree
-- Cost: $200-2,000 for a certification vs. $40,000-100,000+ for a degree
-- Starting salary: $40K-50K for help desk vs. $70K-90K for software developer
-- Earning ceiling: Help desk caps lower than software development, but the gap closes over time as help desk techs move up to network admin or sysadmin roles
+**QSSSA response stem:** “I would investigate ___ first because the role ___. Its common preparation is ___.”
 
-Ask students: "Which path is BETTER?" The answer is "it depends on the person." A student who hates school but loves fixing things should go the certification route. A student who loves academic challenges and wants high earnings might pick the degree route.
+## Answer Guidance
 
-**DOK 2:** How would you compare the education pathways for a Help Desk Technician versus a Software Developer? Which one allows you to start earning money sooner?
+There is no single correct career choice. Full evidence names two relevant careers, uses the card wording accurately, and explains the choice with both work and preparation. A student may decide that neither career fits and still demonstrate mastery.
 
----
+## Supports
 
-## Exit Ticket (5 min)
+- Pre-teach: support, technician, administrator, certification, preparation, transferable.
+- Let students highlight evidence before writing.
+- Provide the frame: “My interest in ___ connects to ___ because the worker ___.”
+- Allow oral rehearsal, speech-to-text, or bilingual planning.
 
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/1sw-wk4-day1-it-support-pathway-exploration.pdf):
+## If a Platform Is Unavailable or a Student Is Absent
 
-Pick TWO IT support careers from today (Help Desk Technician, IT Support Specialist, Desktop Support Technician, or Systems Administrator). Fill in the matrix using H&L data.
-
-| | Career 1: _______________ | Career 2: _______________ |
-|---|---|---|
-| Education needed (circle) | degree / cert / both | degree / cert / both |
-| DFW starting salary (rough) | | |
-| One daily task | | |
-
-Bottom line: A student who wants to start earning money by age 19 (NO 4-year college) should pick which of your two careers, and why? Use one cell from the matrix. *(d(2)(A))*
-
-   ___________________________________________________________________
-
----
-
-## Differentiation
-
-- **Support:** Project the four-row frame (Hat name, education, DFW salary range, one or two daily tasks) before the browse starts and leave it on screen for the whole activity. For students who would spend the period drawing the frame instead of filling it, rule those four rows into their engineering notebook during the warm-up so they only add data.
-- **Extension:** Students research a 5th IT support career not on the list: Network Operations Center (NOC) Technician, Field Service Technician, or Technical Account Manager.
-- **ELL:** Pre-teach: Soporte técnico = Tech Support, Mesa de ayuda = Help Desk, Especialista = Specialist, Administrador de sistemas = Systems Administrator.
+The fixed Career Cards replace H&L completely. If Xello is unavailable, students complete the reflection using a current interest; required Add interests completion moves to the next supervised catch-up block. An absent student completes the same cards and check.

@@ -1,5 +1,12 @@
 # Day 3: Super Sports Manufacturing — Design, Build, Test
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Opportunities
+- **Objective:** Students will complete the "Super Sports Manufacturing" welder activity (sketch + metal choice + weld choice + labeled welds); build a bike rack prototype with a partner and stress-test the joints.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Bike rack sketch with labeled welds (FYF p. 206) + one tested prototype per pair.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |

@@ -1,138 +1,31 @@
-# Day 4: Mock Interview Prep + Fishbowl Demo
+# Day 4: Interview Preparation
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
-## Lesson Overview
+- **Topic:** Interview Preparation
+- **Objective:** Students will describe context-appropriate appearance for an interview and prepare truthful, relevant responses and interviewer questions for a mock interview.
+- **TEKS:** d(6)(B)
+- **Demonstration of Learning:** Three-page interview-readiness planner plus five-question retryable practice Quiz.
+<!-- CCE DAILY CONTRACT END -->
 
-| | |
-|---|---|
-| **Time** | 50 minutes |
-| **Objectives** | Describe appropriate appearance and preparation for an interview; prepare answers to 8 standard interview questions; observe a fishbowl mock interview demonstration |
-| **TEKS** | d(6)(B) (d(6)(C) demonstrated for all students on Day 5) |
-| **5E Phases** | Engage: Warm-Up · Explain: Interview readiness and appearance · Explore: Eight question prep and fishbowl observation · Evaluate: Exit Ticket |
-| **Deliverable** | 8 interview question answers prepared + fishbowl observation notes |
-| **Materials** | Chromebooks, printed Interview Readiness Guide and Interview Question Set (CCE artifacts), CareerOneStop Job Interview Tips, printed Mock Interview Question Cards, Mock Interview Rubric, projector |
+## Before Class
 
----
+Post the three-page planner and practice Quiz. Ask students to open one **CCE Six-Weeks Evidence Log** entry as a source; do not collect the log or old artifacts again. Use the complete Jordan bank when the log is missing or not appropriate. Project this complete model: *Situation/task: our design team had two versions of the event flyer. Action: I compared the audience and deadline, asked which information had to be noticed first, and revised the larger heading. Result/reflection: the viewer found the date faster; next time I would run the test before choosing colors.* Contrast it with *I am creative and helped my group.* Project the accessible opening and close: *Hello. I’m Jordan. I’m here to discuss the office assistant role. Thank you for meeting with me.* / *Thank you for your time. What is the next step in your process?* Model the same words through speech, AAC, text-to-speech, an interpreter, or private conference. Preassign paired, small-group, teacher-conference, private recording, and AAC routes. No student is required to perform publicly or use a camera.
 
-## Warm-Up (5 min)
+## 50-Minute Flow
 
-**WARM-UP: What is the SCARIEST part of a job interview for you? Write it down. We are going to practice until it is not scary.**
+1. **Bellringer - 5 min.** Identify what changes across an office interview, a task demonstration, and a virtual interview.
+2. **Context model - 8 min.** Workplace, task, safety, format, technology, and accommodation come before fashion rules.
+3. **Evidence model - 8 min.** Expand one Evidence Log or Jordan example into situation/task, action, and result/reflection, then model the accessible opening and close. A school, activity, project, service, or responsibility example is valid; paid work is not required.
+4. **Prepare three answers - 14 min.** Students build evidence notes rather than memorized scripts.
+5. **Interviewer role - 7 min.** Prepare a relevant follow-up and a neutral note. Exclude protected or unrelated personal questions.
+6. **Practice Quiz - 5 min.** Review every feedback explanation.
+7. **Exit - 3 min.** Record the assigned Day 5 route and one final preparation action.
 
-Take 3-4 responses. Common answers are "I won't know what to say," "I'll forget my words," and "they'll ask something hard." Keep the list up and match each fear to a practice move during the lesson.
+## Monitor, Key, and Trim Point
 
----
+At minute 13, context choices should match the workplace, task, safety, format, technology, or access need. At minute 25, each student should have one complete evidence arc with a specific action; if one-third use only traits, label the model's situation/task, action, and result/reflection. At minute 39, three response notes should be truthful and brief enough to speak rather than read, and the opening/close should work through the assigned communication route. At minute 47, the route, technology/communication check, and interviewer follow-up should be ready. Eye contact, handshake, expensive or gendered clothing, camera use, and one cultural or body norm are not universal requirements. An interviewer asks about job evidence, not family, religion, health, disability, immigration, or other protected/private information. Trim optional partner rehearsal before the evidence arc, accessible opening/close, assigned route, or private support check.
 
-## Activity 1: Interview Readiness and Appearance (10 min)
+## Supports and Access
 
-**Source:** Interview Readiness Guide (CCE artifact) + CareerOneStop Job Interview Tips
-
-The *Find Your Future* workbook has no interview section and no dress code page. The Interview Readiness Guide handed out today is CCE-authored, and it is the only place in the course where appearance for an interview is taught, so do not skip it. Students read it with a partner. It covers four topics:
-
-1. **Dress for success, six rules:** clothes clean and free of wrinkles; shoulders, midriff, and knees covered, nothing ripped and no slogans; closed-toe shoes, clean; hair neat and out of your face; jewelry, cologne, and accessories kept light; and the rule that decides the other five, dress one step nicer than what people wear on the job every day.
-2. **Getting ready:** research the company, practice common questions out loud, lay out your outfit the night before, bring printed resume copies, plan your body language, prepare your own questions, and arrive 10 to 15 minutes early.
-3. **Remote and phone interviews:** test your tech, find a quiet space with a plain background, dress the same way you would in person, and speak a little slower than feels natural.
-4. **Follow up:** send a thank-you email after every interview, within 24 hours.
-
-**Think-Pair-Share:** After the read, hold a silent 30 second Think on "which of these would I forget on the day," then time Partner A for 30 seconds and Partner B for 30 seconds. Stems: "The tip I would most likely forget is _____ because _____" and "Arriving 15 minutes early tells an employer _____ before I say a word." Two pairs share out, not one.
-
-**Connection to the capstone:** Students are already carrying the Strengths Interview (FYF pp. 287-289: "Rung 4"), where they interview a trusted adult using prepared questions plus at least two of their own. That is the asking side of the table, and it is why Rung 4 makes them plan questions in advance. Today they move to the answering side. Question 8 on the question set is where the two sides meet.
-
-!!! tip "Facilitation Tip"
-    Students always read "arrive 10-15 minutes early" as "be on time." Stress the difference: 10 to 15 minutes EARLY means you walk into the building 10 to 15 minutes before the interview start time. Rule 6 is the one worth the most class time, because it turns a list students have to memorize into a question they can answer for any job: what do people wear here on a normal Tuesday, and what is one step nicer than that?
-
----
-
-## Activity 2: Eight Standard Interview Questions (15 min)
-
-**Source:** Interview Question Set (CCE artifact)
-
-The eight questions below are CCE-authored, not workbook content. They are the most common questions employers ask, and students will use them in tomorrow's mock interview.
-
-**The 8 questions:**
-
-1. Tell me about yourself.
-2. Why do you want this job?
-3. What are your strengths?
-4. What are your weaknesses?
-5. Describe a time you solved a problem.
-6. How do you handle stressful situations?
-7. Why should I hire you?
-8. Do you have any questions for me?
-
-**Student task:** Pick a job. The default three are Warehouse Associate, Office Assistant, and Social Media Assistant. Students may instead use the Pecan Creek Vet Clinic Office Assistant posting they wrote to on Day 2, or the real posting they recorded on Job Posting #1. Write **bullet-point answers** to ALL 8 questions for that job. NOT essays, bullet points only. The notes should be enough to guide an answer without becoming a script. Students who chose a real posting should answer question 2 from the posting's own responsibilities line.
-
-**Tips for each question:**
-
-- **Tell me about yourself:** 30 seconds. Name, school, two or three relevant skills, why you want THIS job. Do not list your life story.
-- **Why do you want this job:** Connect to specific things about the company or role. Avoid "I need money", even if true.
-- **Strengths:** Pick 2-3 that are RELEVANT to the job. Give a one-sentence example for each.
-- **Weaknesses:** Pick a real one, then say what you are doing to improve it. NEVER say "I don't have any weaknesses", that fails the question.
-- **Solved a problem:** Tell a SHORT story (Situation, what you did, the result). 30 seconds.
-- **Handle stress:** Give a specific strategy (deep breaths, make a list, ask for help). Show self-awareness.
-- **Why should I hire you:** Repeat your top 2-3 strengths and connect them to the job's needs.
-- **Your questions:** ALWAYS have 1-2 questions ready. ("What would my first week look like?" / "What do you like about working here?") Never say "no", it signals lack of interest.
-
-Students complete their bullet-point answers individually. Teacher walks one lap with a single target: "Show me your answer to question 8, your questions for the interviewer." Students who don't have any are reminded that having no questions kills an interview. If the lap turns up more than a handful of blank question 8s, put two model questions on the board and give the room 60 seconds to steal one.
-
----
-
-## Activity 3: Fishbowl Mock Interview Demo (15 min)
-
-**Source:** Fishbowl strategy + Mock Interview Rubric
-
-Demonstrate a real mock interview live. Two options:
-
-**Option A, Teacher as interviewer, student volunteer as interviewee.** Teacher reads the 8 questions. Student volunteer answers as if applying for the job they prepared in Activity 2.
-
-**Option B, Two student volunteers.** One is the interviewer, one is the interviewee. They use the question cards.
-
-The rest of the class observes and scores using the printed Mock Interview Rubric. They watch for:
-
-- **Body language:** Eye contact, sit up straight, no fidgeting
-- **Voice:** Clear, audible, not too fast, not too quiet
-- **Answer quality:** Specific examples, on-topic, appropriate length
-- **Professionalism:** Greeting, handshake, "thank you" at the end
-
-After the fishbowl, lead a 3-minute debrief:
-
-- What did the interviewee do well?
-- What is one specific thing they could improve?
-- What surprised you?
-
-The room setup, question cards, timing, and rubric stay in place for tomorrow so students practice the same routine they will use in the scored interview.
-
-!!! tip "Facilitation Tip"
-    Ask for a confident volunteer and tell them what the demonstration will include before they agree. After the first run, repeat one answer with a slumped posture, low voice, and one-word response; have the class name which rubric rows changed.
-
-**DOK 2:** What body language signals professionalism in an interview? Name 3 specific things you observed in the fishbowl.
-
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/6sw-wk5-day4-mock-interview-prep-fishbowl-demo.pdf):
-
-Write your answer to the question: **"Tell me about yourself."**
-
-Keep it under 30 seconds when read aloud (about 60-80 words). Include: your name, your grade/school, 2-3 relevant skills, and why you want THIS job.
-
-   ___________________________________________________________________
-
-   ___________________________________________________________________
-
-   ___________________________________________________________________
-
-   ___________________________________________________________________
-
-ONE body-language rule I will follow tomorrow during my mock interview (eye contact, posture, handshake, etc.):
-
-   ___________________________________________________________________
-
-*(d(6)(B), d(6)(C))*
-
----
-
-## Differentiation
-
-- **Support:** Provide answer frameworks for each of the 8 questions ("My biggest strength is _____. For example, _____."). Allow students to use their notes during tomorrow's mock interview. Pair anxious students with the most confident peer for tomorrow.
-- **Extension:** Students prepare answers for ALL 8 questions for TWO different jobs (Warehouse + Office Assistant). They compare which answers had to change and why.
-- **ELL:** Pre-teach: Strengths = Fortalezas, Weaknesses = Debilidades, Body Language = Lenguaje corporal, Eye Contact = Contacto visual. Allow ESL students to write answers in Spanish or bilingual format. Pair with bilingual peers for tomorrow's mock interview.
+Keep **context/contexto**, **task/tarea**, **accommodation/adaptación**, **evidence/evidencia**, and **follow-up/seguimiento** beside the planner. Use the frame: “For a **[format/task]** interview, Jordan should prepare **[action]** because **[job, safety, technology, or access reason]**.” Accept short notes, dictation, annotation, enlarged print, paper, speech, AAC, text-to-speech, an interpreter, or private conference. A professional opening or close does not require a handshake, eye contact, camera, or one body or speech style. Xello Job Interviews is supplemental only.

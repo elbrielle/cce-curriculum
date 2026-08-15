@@ -27,19 +27,19 @@ Do not leave a teacher with only “Open Resources in Xello.” The Canvas modul
 | Priority | Xello task or group | Documents to capture | Canvas placement | Status |
 |---:|---|---|---|---|
 | 1 | Log in to Xello | Day 1 checklist; introduction presentation | 1SW Wk0 teacher guide and student launch page | Pending capture |
-| 2 | Matchmaker quiz | Activity lesson plan; student assessment guide | 1SW onboarding module | Lesson plan uploaded to Canvas; student guide pending |
-| 3 | Personality Style quiz | Available lesson plan or student guide from the resource panel | 1SW onboarding module | Activity plan uploaded to Canvas |
+| 2 | Matchmaker quiz | Activity lesson plan; native student directions and private reflection | 1SW Wk1 Day 5 | Complete unpublished placement: licensed teacher guide embedded; native student guide and private reflection assignment live in Canvas |
+| 3 | Personality Style quiz | Licensed teacher plan; native student directions and evidence route | 1SW Wk2 Day 5 | Complete unpublished placement with report verification and supervised catch-up |
 | 4 | Learning Style quiz | My Learning Styles activity plan; applicable student guide | 1SW learning-profile module | Activity and lesson plans uploaded to Canvas; student guide pending |
 | 5 | Add interests and Add skills | My Interests plan; About Me student guide; applicable assignment directions | 1SW profile module | My Interests and About Me plans uploaded to Canvas; assignment directions pending |
 | 6 | Favorite clusters | My Career Clusters activity plan | 1SW cluster module | Uploaded to Canvas; module placement pending |
 | 7 | Life, education, volunteer, and work experiences | My Experiences activity plan; About Me student guide | 2SW profile-update modules | My Experiences and About Me plans uploaded to Canvas; student guide pending |
 | 8 | After high school goal | Activity plan or sample assignment from the resource panel | 1SW Wk0 module | Pending capture |
 | 9 | Save careers | My Careers activity plan and student directions | 2SW career-selection module | Activity plan uploaded to Canvas; student directions pending |
-| 10 | Set goals | My Goals activity plan | 3SW planning module | Uploaded to Canvas; module placement pending |
+| 10 | Set goals | My Goals activity plan | 3SW planning module | Embedded in locked, unpublished 3SW Wk3 Canvas module; student directions supplied as native Canvas steps |
 | 11 | Explore career matches | Lesson plan; Find Out Why student directions; introduction presentation; official student video | 2SW career-matches module | Complete package embedded in locked, unpublished 2SW Wk6 Canvas module |
 | 12 | Skills lesson | Lesson plan and any attached student directions or presentation | 3SW skills module | Lesson plan uploaded to Canvas; remaining attachments pending |
 | 13 | Biases and career choices | Lesson plan; student instructions; introduction presentation | 3SW equity and career-choice module | Full English document pack uploaded to Canvas: lesson plan, two student handouts, and PowerPoint |
-| 14 | Scholarship profile | Student guide and family-facing material offered in the resource panel | Financial-planning module | Pending capture |
+| 14 | Scholarship profile | Student guide, Spanish student guide, and official student video | 3SW Wk6 financial-planning module | Complete package embedded in locked, unpublished module |
 | 15 | Make plans | My Plans activity plan and student directions | Course-planning module | Activity and lesson plans uploaded to Canvas; student directions pending |
 | 16 | 4-year course plan and Submit course requests | Course Planner student video/guide; educator guide | Counseling-window module | Pending capture |
 | 17 | Parent 4-year course plan approval | Family guide and Xello Family presentation | Family approval module | Pending capture |
@@ -86,6 +86,8 @@ Complete one row per uploaded file during the Canvas import.
 | Favorite clusters | my-career-clusters.pdf | Teacher | 14517254 | 5293961 | Teacher Build: Xello Grade 8 Licensed Resources | 2026-08-06 | Licensed district resource; locked and unpublished |
 | Personality Style | personality-styles.pdf | Teacher | 14517255 | 5293961 | Teacher Build: Xello Grade 8 Licensed Resources | 2026-08-06 | Licensed district resource; locked and unpublished |
 | Make plans | plans.pdf (activity) | Teacher | 14517256 | 5293961 | Teacher Build: Xello Grade 8 Licensed Resources | 2026-08-06 | Licensed district resource; locked and unpublished |
+| Scholarship profile | scholarships-guide-students.pdf | Student | 14561637 | 5311400 | STUDENT: 3SW Wk6 Day 5 - Budget and Scholarship Profile | 2026-08-08 | Official Xello student guide; locked module and support folder |
+| Scholarship profile | scholarships-guide-students-spanish.pdf | Student support | 14561638 | 5311400 | STUDENT: 3SW Wk6 Day 5 - Budget and Scholarship Profile | 2026-08-08 | Official Xello Spanish student guide; locked module and support folder |
 
 ### Week 4 reuse record: 2026-08-06
 
@@ -100,6 +102,20 @@ Complete one row per uploaded file during the Canvas import.
 - The broader `My experiences` guide may ask students to record multiple experiences. Teachers may use that as extended support, but the live Completion Standards configuration controls the required minimum.
 - Remaining capture priority for this lesson is any Xello-supplied student directions, presentation, worksheet, or downloadable student video that directly supports Work experiences. Place each licensed binary in locked Canvas, identify its audience and classroom job, and keep a visible text route on the student page.
 
+### 1SW Week 1 Matchmaker record: 2026-08-09
+
+- `matchmaker-assessment.pdf` remains Canvas file 14517237 in the locked, unpublished Xello resource collection and is linked from `TEACHER: 1SW Wk1 Day 5 Facilitator Guide`.
+- `STUDENT: 1SW Wk1 Day 5 - Xello Matchmaker` provides the native student route: ClassLink &gt; Xello &gt; About Me &gt; Matchmaker, the first 39 questions, one `Find out why` inspection, a visible completion checklist, and supervised catch-up when the platform or prerequisite is unavailable.
+- Private `1SW Wk1 Day 5 - Matchmaker Reflection` assignment 3095755 accepts text or audio and remains unpublished and not graded. It does not require a profile screenshot or public disclosure of assessment results.
+- The Completion Standards report is the teacher verification route. The licensed guide supports the teacher; the live district configuration controls completion.
+
+### 1SW Week 2 Personality Style record: 2026-08-09
+
+- `personality-styles.pdf` remains Canvas file 14517255 in the locked, unpublished Xello resource collection and is embedded from `TEACHER: 1SW Wk2 Day 5 Facilitator Guide`.
+- The student guide protects the 20-minute Personality Style task, checks the Matchmaker prerequisite, records one private trait/example, and uses the result in an IT pathway-fit decision. No profile screenshot or public result post is required.
+- Completion is checked through the Xello report. Paper reflection supports the learning when access fails, but the required platform task moves to supervised catch-up.
+- Favorite clusters remains assigned to 1SW Wk5 and is not repeated or compressed into this lesson.
+
 ### Week 6 Explore Career Matches record: 2026-08-08
 
 - `explore-career-matches.pdf` was uploaded as Canvas file 14561430 and embedded on `TEACHER: 2SW Wk6 Day 5 Facilitator Guide` (module item 5311206). It is teacher-facing extended support; the full guide describes a broader 120-minute sequence.
@@ -108,6 +124,39 @@ Complete one row per uploaded file during the Canvas import.
 - The official `Understanding Your Career Matches` student video is embedded on `STUDENT: 2SW Wk6 Day 5 - Xello Explore Career Matches` (module item 5311207). The supplied YouTube player is embedded; no hosted stream was extracted or rehosted.
 - All three licensed binaries sit in locked Canvas folder 1155170. The paired pages, private reflection assignment 3093978, and parent module 544297 remain unpublished.
 - The live Grade 8 requirement controls the core: Explore career matches is 35 minutes and requires Matchmaker plus at least three saved careers. Save careers is not repeated. Platform or prerequisite failure moves to supervised catch-up; paper does not count as Xello completion.
+
+### 3SW Week 1 Skills record: 2026-08-08
+
+- `skills.pdf` was rehosted as Canvas file 14561456 in locked Week 1 folder 1155181 and linked from `TEACHER: 3SW Wk1 Day 4 Facilitator Guide` (module item 5311220).
+- The official English Skills introduction deck was adapted to Irving's `ClassLink > Xello` route and uploaded as file 14561467 after the final visual-QA sync. The six-slide deck also repairs imported agenda numbering and provides an independent/private exit option.
+
+### 3SW Week 3 Set Goals record: 2026-08-08
+
+- `goals.pdf` was rehosted as Canvas file 14561511 in locked Week 3 folder 1155193 and embedded on the Day 5 teacher guide in unpublished module 544302.
+- The live Grade 8 minimum is `Set goals`: 20 minutes and at least two saved goals. The licensed `My Goals` guide is an extended 25-30 minute option that asks students to create three goals; teachers may use the broader sequence, but it does not change the Completion Standards minimum.
+- The student route is `ClassLink > Xello > About Me > Goals`. Completion evidence is the teacher's Xello Completion Standards report plus a private Canvas reflection; students are not asked to submit screenshots of personal goals or profile data.
+- No aligned Xello student-facing video, slide deck, worksheet, or student-interface screenshot was present in the captured asset set. The student page therefore uses concise native Canvas directions and a downloadable planning scaffold rather than inventing or scraping unavailable media.
+- Platform failure moves required Xello completion to supervised catch-up. The paper/Canvas planning scaffold supports thinking but does not substitute for the saved Xello goals.
+- The official Spanish Skills deck was uploaded as optional support file 14561458. It does not replace evidence-based bilingual labels, read-aloud, chunking, or the private response route.
+- The student page links a private ungraded reflection assignment (3093979; module item 5311222) and forbids profile screenshots.
+- The live Grade 8 minimum controls the core: Skills lesson is 35 minutes and requires at least three saved careers. The broader official facilitator guide describes an 85-minute sequence and is labeled extended support. Platform or prerequisite failure moves to supervised catch-up; paper does not count as Xello completion.
+
+### 3SW Week 2 Biases and Career Choices record: 2026-08-08
+
+- The licensed `biases-and-career-choices.pdf` was uploaded as Canvas file 14561490 in locked Week 2 folder 1155187 and linked from `TEACHER: 3SW Wk2 Day 5 Facilitator Guide` (module item 5311259).
+- The official seven-slide `introduction-template.pptx` was uploaded as Canvas file 14561491 and linked from the teacher guide.
+- Optional extension handouts were uploaded to the same locked folder: Career Trailblazers directions as file 14561492 and Non-traditional Career Matches directions as file 14561493.
+- The live Grade 8 requirement controls the core: **Biases and career choices, Activity 2 only, 30 minutes, completed**. The full facilitator package also contains a 30-minute Career Trailblazers activity and a 20-minute Non-traditional Career Matches activity; both are clearly labeled optional extensions.
+- No downloadable student video was present in the captured package. The Canvas build does not invent, scrape, or rehost one. Required student directions remain visible on the Student Guide, and the private reflection assignment is unpublished.
+- Work experiences is not repeated in this week. Platform failure moves the required Xello lesson to supervised catch-up; the paper reflection supports thinking but does not replace Completion Standards evidence.
+
+### 3SW Week 6 Scholarship Profile record: 2026-08-08
+
+- The official English and Spanish Xello Scholarships Guides were uploaded as Canvas files 14561637 and 14561638 in locked Week 6 support folder 1155212 and embedded on both Day 5 guides.
+- Xello's official `Discover your scholarship options` video is embedded from the supplied YouTube player. No hosted stream was extracted or rehosted. The PDF guide and native Canvas directions are the equal text route.
+- The live Grade 8 requirement controls the lesson: **Scholarship profile, 20 minutes, complete the matching profile**. Students do not have to apply for or save a scholarship in this block.
+- Teachers verify completion through the Xello Completion Standards report. Students do not submit screenshots or private profile answers.
+- `Save careers` is not repeated; that requirement was protected in 2SW Wk3. Platform failure moves Scholarship profile to supervised catch-up, and paper does not count as Xello completion.
 
 ## Completion gate
 

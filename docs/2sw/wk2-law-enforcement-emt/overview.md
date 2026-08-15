@@ -12,7 +12,7 @@ Hats & Ladders and Xello may extend career exploration. Neither platform is requ
 
 **Success criteria:**
 
-- compare at least three careers using correctly labeled preparation and pay evidence;
+- compare at least three careers using correctly labeled preparation and pay evidence, then distinguish civilian and military route systems;
 - use three Clinton Lake files and name an important uncertainty;
 - follow the trail simulation boundary or complete the equal observer/documenter route;
 - write all five sections of a fictional Patient Care Report; and
@@ -23,7 +23,7 @@ Hats & Ladders and Xello may extend career exploration. Neither platform is requ
 - **d(1)(B):** Explore and describe a CTE career cluster (Day 1).
 - **d(1)(C):** Identify career opportunities within a cluster (Days 1, 3, 4, and 5).
 - **d(2)(A):** Research and describe academic, technical, certification, and training requirements (Days 1 and 5).
-- **d(4)(F):** Identify work ethic, integrity, dedication, and perseverance in professional decisions (Days 2, 4, and 5).
+- **d(4)(F):** Identify work ethic and integrity in evidence reporting, safety decisions, and professional handoffs (Days 2, 4, and 5).
 
 ## Teacher-Ready Materials
 
@@ -33,7 +33,7 @@ Hats & Ladders and Xello may extend career exploration. Neither platform is requ
 - [Fictional Patient Care Report and Safety Plan](../../resources/worksheets/2sw-wk2-patient-care-report.pdf)
 - [Patient Care Report Evidence Rubric](../../resources/worksheets/2sw-wk2-pcr-rubric.pdf)
 - [First Responder Career and Integrity Reflection](../../resources/worksheets/2sw-wk2-integrity-career-reflection.pdf)
-- *Find Your Future* pp. 48-58 and Climber Notes decks “Clinton Lake Case” and “Injured on the Trail,” embedded only in authenticated Canvas
+- *Find Your Future* p. 39 cluster overview (reused from Week 1), pp. 48-58, and Climber Notes decks “Clinton Lake Case” and “Injured on the Trail,” embedded only in authenticated Canvas
 
 ## Source-Control Notes
 
@@ -46,7 +46,7 @@ Hats & Ladders and Xello may extend career exploration. Neither platform is requ
 
 | Day | Focus | Durable evidence |
 |---:|---|---|
-| 1 | Career routes and Singley connections | Three-route comparison |
+| 1 | Career routes, military/civilian comparison, and Singley connections | Three-career comparison and route-system analysis |
 | 2 | Clinton Lake evidence | Six-file tracker and careful conclusion |
 | 3 | Trail-response career simulation | Research and simulation record |
 | 4 | Patient report and complication | Individual report and safety plan |

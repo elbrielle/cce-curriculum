@@ -1,106 +1,155 @@
-# Day 5: ATC Presentations + Aviation Goal Plan
+# Day 5: Aviation Route and Action Plan
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Goals and Time
+- **Objective:** Students will demonstrate effective time-management and goal-setting strategies and identify career opportunities within one or more career clusters using evidence from Goals and Time.
+- **TEKS:** d(4)(A), d(1)(C)
+- **Demonstration of Learning:** Private individual Aviation Route and Action Plan with student-visible 16-point rubric.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Present LEGO ATC simulation results and procedures; complete eDynamic Unit 2.2 Setting Goals; write a 3-step goal plan for an aviation career; finish the cluster's App Exploration page and rate Transportation Hats |
+| **Objectives** | Use career, route, and simulation evidence to choose a current direction; write three timed actions with support, backup, and a verification rule; self-score and revise |
 | **TEKS** | d(4)(A), d(1)(C) |
-| **5E Phases** | Engage: Warm-Up · Explain: Team ATC presentations · Extend: Goal plan and App Exploration · Evaluate: Exit Ticket |
-| **Deliverable** | Team ATC presentation (3 minutes) + individual 3-step goal plan for an aviation career |
-| **Materials** | LEGO airports from Day 3-4, Simulation Run Logs from Day 4, Chromebooks, H&L accounts, *Find Your Future* workbook p. 170, eDynamic Unit 2.2 access, Xello accounts (Jobs and Employers), printed 3-Step Aviation Goal Plan template, projector |
+| **Deliverable** | Private individual Aviation Route and Action Plan with student-visible 16-point rubric |
+| **Materials** | Four-page Aviation Route and Action Plan started on Day 2; Day 4 individual iteration evidence; rubric; optional H&L/Xello/eDynamic access after core submission |
 
 ---
 
-## Warm-Up (3 min)
+## Before Class
 
-**WARM-UP: On a scale of 1-10, how interested are you in an aviation career after this week? Has the number changed since Monday?**
+1. Open the existing private 100-point Minor Assignment, four-page plan, and rubric. The importer refuses to proceed unless this assignment remains in Minor Assessments (40%). Keep it unpublished for cloning.
+2. Return each named paper plan and Day 4 evidence, or open the same private digital route. Default printing is zero; print only a replacement plan when needed. Keep one device per student for digital submission.
+3. Project the supplied model below. Students do not have to pretend aviation is their personal goal.
+4. Do not schedule every team for a live three-minute presentation. It consumes the block and makes speaking confidence part of the evidence.
 
-Take a quick show of hands or whip-around responses. No discussion. This is a thermometer check, not a debate.
+## Supplied Model
 
----
+> My current direction is aircraft mechanic because I am interested in inspecting and documenting systems. BLS reports a May 2024 U.S. median annual wage of $78,680 for aircraft mechanics and service technicians; this is not DFW starting pay. A common preparation route is an FAA-approved maintenance program, but I still need to verify the current Irving course sequence with my counselor. By Friday, I will compare the district course description with the FAA mechanic page for 20 minutes and save two labeled facts. Before my next counseling meeting, I will write one question about enrollment and bring the source. During Grade 9, I will complete the confirmed first course or use my equal backup of comparing Drone Engineering if access changes. My support is my counselor; if the course is unavailable, I will revise the plan after checking the current coursebook.
 
-## Activity 1: Team ATC Presentations (18 min)
+Students locate source accuracy, route reasoning, three stages, support, backup, and the revision condition.
 
-Each team has 3 minutes to present:
+## Warm-Up: Direction, Not a Lifetime Promise (5 min)
 
-1. **Show their LEGO airport** and walk through the layout decisions
-2. **Demonstrate their best ATC communication procedure** (one team member acts as controller, another moves a plane)
-3. **Share the most challenging scenario** they faced and how they solved it
-4. **Connect the simulation to a real aviation career** (pilot, ATC, dispatcher)
+Students choose one current statement:
 
-The class fills in a quick listening grid as each team presents, what was the most creative layout solution, what was the smartest communication procedure, what would they steal from another team's design.
+- I want to investigate one aviation route further.
+- I like the work but need a different preparation route.
+- Aviation is not my current fit, but one Transportation career is.
 
-!!! tip "Facilitation Tip"
-    **Time, Voice, Body:** post the blocks before the first team presents. Voice 0 while a team carries its airport to the front, Voice 3 for the presenter, Voice 1 for the listening grid. Run a visible 3 minute countdown on the projector for every team and say where airports sit while teams wait. With 6-7 teams this fills 18-21 minutes and leaves time for the goal plan. If the rotation is running long by the third team, cut the demonstration to one radio call and announce the change before the next team starts.
+They cite one fact from Day 2. Changing direction is allowed when evidence changes.
 
----
+## Activity 1: Model and Fast CFU (8 min)
 
-## Activity 2: eDynamic 2.2 Completion + Aviation Goal Plan (20 min)
+Read the supplied model once. Students mark the career fact and complete source label, the tradeoff or unknown, all three time horizons, the equal backup, and the revision condition. Then each student writes one simulation skill that could transfer to a career plan. No student presentation is required.
 
-**Source:** eDynamic Unit 2.2 + 3-Step Aviation Goal Plan template
+## Activity 2: Reopen the Evidence (10 min)
 
-Students return to eDynamic Unit 2.2 from Day 4 and finish the unit. Review the five SMART criteria before they write: Specific, Measurable, Achievable, Relevant, and Time-bound.
+Students reopen the Day 2 section of the same four-page plan and review their Day 4 iteration evidence. They record:
 
-After completing eDynamic, each student writes a **3-step goal plan for an aviation career** on the printed template. Even if a student is not personally interested in aviation, they write the plan as an exercise in long-range goal sequencing. The template structure:
+1. current career or Transportation direction;
+2. one daily-work fact;
+3. one preparation step;
+4. one tradeoff or eligibility question;
+5. one communication or systems skill from the simulation; and
+6. one source and access date.
 
-| Goal | Specific Action | When |
-|---|---|---|
-| **Step 1: This year (7th grade)** | Example: "Join Civil Air Patrol cadet program" or "Watch 3 documentaries on FAA careers" | By June 2026 |
-| **Step 2: High school (9th-12th)** | Example: "Take Algebra I, Geometry, Physics, and apply to JROTC" | 2027-2031 |
-| **Step 3: After high school** | Example: "Enroll in Embry-Riddle aviation program" or "Join Air Force pilot training" | 2031-2035 |
+Students choosing a non-aviation Transportation role use the same evidence jobs. They do not copy a pilot plan that does not fit their direction.
 
-Each step must be specific (no "study hard") and time-bound. Students who picked a non-aviation pathway in Week 1 still write the aviation plan as a thought exercise. The skill of breaking a long career into staged goals applies to ANY pathway.
+## Activity 3: Write the Three-Stage Action Plan (20 min)
 
-> [H&L PLATFORM] Students finish the App Exploration page they started on Day 1 (FYF p. 170). In the Transportation, Distribution, and Logistics cluster they name 1 Hat that matches their personality or interests and say why, name 1 Hat that feels like a poor fit and say why, click **Pathway Possibilities**, answer the questions there, rate at least 1 pathway, and **rate at least 3 Hats**: Pilot, ATC, Aviation Mechanic, Drone Operator, Flight Dispatcher, or Transportation Needs Analyst. The page closes with a free space for jotting thoughts on the cluster in emojis, pictures, or words.
+Each action needs a verb, evidence of completion, a real time window, support, and a backup.
 
-Every Hat rated here lands in the student's Climber Profile, which is the source the Capstone self-inventory draws on when students list their top Hats and favorite pathways (FYF p. 281: "Rung 1: Who You Are").
+### Stage 1: Within seven days
 
-> [XELLO SUPPLEMENTAL] Students with extra time may complete the Xello "Jobs and Employers" lesson. It is not a Bowie Grade 8 completion standard.
+Choose a small verification or exploration action, such as reading the current district course description, asking a counselor a prepared question, or comparing one FAA/BLS source. Do not contact an unfamiliar workplace or military recruiter as a class requirement.
 
-**DOK 3:** What conclusions can you draw about why goal-setting is especially important for careers like pilot or air traffic controller that require years of training? How is this different from a career you can start with a 6-month certification?
+### Stage 2: Before the next counseling meeting
 
----
+Name one course, eligibility, access, or preparation question and when it will be checked. Include the person or source authorized to answer it.
 
-## Activity 3: Quick Share (6 min)
+### Stage 3: During Grade 9 or after high school
 
-In pairs, students share one of their three goal steps with a partner. Then 2-3 volunteers share Step 3, the long-term goal, with the whole class. Ask listeners to identify where the sequences differ and whether each step still leads to the named career.
+Name one longer preparation step and label it as current, conditional, or unverified. A middle-school student cannot guarantee future selection, medical eligibility, course capacity, military assignment, or employment.
 
----
+### Time and backup
 
-## Exit Ticket (3 min)
+Students add:
 
-**EXIT TICKET** (Concept Map / Connection Diagram) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day5-atc-presentations-aviation-goal-plan.pdf):
+- one weekly time block for Stage 1;
+- one likely obstacle;
+- one equal backup action; and
+- one condition that would make them revise the plan.
 
-The Transportation career I found MOST interesting this week: _______________________
+The packet provides separate writing areas for each job. Do not compress three actions, time blocks, support, backup, and revision into one small table cell.
 
-Connect this career to THREE things:
+## Activity 4: Self-Score, Revise, and Submit (7 min)
 
-**1. My 3-step goal plan Step 1** (the action I'll take THIS school year)
+Students use the four criteria:
 
-   My Step 1: _______________________. In one sentence, which ONE small thing will I do THIS WEEK to kick it off?
+1. **Source accuracy:** facts retain source, date, geography, and measure.
+2. **Route reasoning:** the direction uses evidence and names a tradeoff or question.
+3. **Timed action plan:** three stages include realistic timing and completion evidence.
+4. **Support and revision:** support, obstacle, backup, and revision condition are specific.
 
-   ___________________________________________________________________
+Students circle one level, revise the weakest section, and submit privately by Canvas text, file upload, media recording, or paper.
 
-**2. The Irving High School of Aviation Science pathway** (Aviation Maintenance + Drone Engineering)
+Checkpoints protect the rubric work:
 
-   Does this pathway lead DIRECTLY to my career, or is it a STEPPING STONE through college / military / FAA school? Circle: DIRECT / STEPPING STONE. One sentence why:
+- plan minute 7: career direction, work/preparation evidence, and full source label;
+- plan minute 14: three actions with time, completion sign, and authorized support/source; and
+- review minute 3: obstacle, equal backup, revision condition, self-score, and visible revision.
 
-   ___________________________________________________________________
+If one third of the class lacks a rubric job, pause for a three-minute model audit. Trim partner or public sharing first. Never cut a rubric criterion or the final five-minute private submission. Unfinished in-class work returns through the same private Assignment or paper recovery tray during the next teacher-provided window; it is not automatic homework.
 
-**3. My Wk0 core personality type** (Doer, Analyzer, Creator, Helper, Persuader, or Organizer)
+## Submission Check
 
-   My core personality type: _______________________. In one sentence, why does my type fit (or not fit) the SPLIT-SECOND decisions and math of Transportation careers?
+A complete plan includes:
 
-   ___________________________________________________________________
+- current direction with one evidence-based reason;
+- daily-work and preparation facts;
+- three timed stages;
+- source and access date;
+- support, obstacle, backup, and revision condition; and
+- one visible revision after self-scoring.
+
+## Exit Ticket: Plan Audit (5 min within Activity 4)
+
+**EXIT TICKET** (3-2-1 Reflective) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day5-aviation-route-and-action-plan.pdf):
+
+- **3:** List the three timed stages in your current plan.
+- **2:** Name one support and one equal backup.
+- **1:** Name one condition that would make you revise the plan.
 
 *(d(4)(A), d(1)(C))*
 
----
+## Teacher Scoring Guidance
 
-## Differentiation
+Recommended 16-point minor after local gradebook verification:
 
-- **Support:** Pre-filled Goal Plan template with Step 1 already drafted as a class option ("Watch 3 aviation documentaries this semester"). Students adapt and add Steps 2 and 3.
-- **Extension:** Build a 4-step plan that includes a backup if the primary aviation path doesn't work out (e.g., color-blindness disqualifies pilot training). What is the alternate aviation career and how does the plan branch?
-- **ELL:** Bilingual Goal Plan template with Spanish headers. Pre-teach: Goal = Meta, Step = Paso, Action = Acción, Year = Año. Allow students to write goal text in Spanish if more comfortable.
+- 15-16: Masters
+- 13-14: Meets
+- 12: Approaches
+- 10-11: Needs Improvement
+- below 10 follows campus policy
+
+Score the private individual evidence. Team build quality, public speaking, H&L ratings, family military background, and platform access do not affect the score.
+
+## Optional Platform Extensions
+
+- H&L Transportation cluster browse and ratings, if the live titles resolve.
+- Xello *Jobs and Employers*, labeled supplemental and not a Grade 8 completion standard.
+- eDynamic goal-setting lesson, only after the teacher confirms the current unit and students finish the core plan.
+
+None of these extensions replaces or adds points to the individual plan.
+
+## Supports and Equal Routes
+
+- Students may select an aviation or another Transportation direction.
+- Use sentence frames, speech-to-text, teacher scribing, or private media.
+- A student who missed the simulation uses the model run log and completes the same individual reasoning.
+- Canvas failure means paper or later private upload without penalty.
+- No partner, family signature, public post, profile screenshot, or live presentation is required.

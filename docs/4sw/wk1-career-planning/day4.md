@@ -1,105 +1,71 @@
-# Day 4: eDynamic 8.1 — Choosing a Career Path
+# Day 4: Irving Pathway and CTSO Decision
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Extended Learning
+- **Objective:** Students will compare current Irving ISD pathway options and explain one benefit of CTSO participation.
+- **TEKS:** d(3)(F), d(8)(A)
+- **Demonstration of Learning:** Private Pathway and CTSO Decision.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Work through eDynamic Learning Unit 8.1: Your Turn! Choosing a Career Path; rank top 3 Irving ISD pathways with rationale; identify professional organizations connected to chosen pathways and name one specific benefit of joining in 9th grade |
-| **TEKS** | d(3)(F), d(8)(A), d(8)(B) |
-| **5E Phases** | Engage: Warm-Up · Explore: eDynamic Unit 8.1 self-paced work · Explain: Pathway Ranking Sheet rationale and organization match · Evaluate: Exit Ticket |
-| **Deliverable** | eDynamic 8.1 progress + completed Pathway Ranking Sheet (top 3 with rationale and one professional organization per pathway) |
-| **Materials** | Chromebooks, eDynamic Learning Unit 8.1 access, printed Pathway Ranking Sheet, Irving ISD CTE Pathways poster, projector |
+| **Objective** | Compare current Irving ISD pathway options and explain one benefit of CTSO participation |
+| **TEKS** | d(3)(F), d(8)(A) |
+| **Deliverable** | Private Pathway and CTSO Decision |
+| **Materials** | Current Irving ISD High School CTE hub, 2026-27 course descriptions, TEA CTSO list |
 
----
+## Before Class
+
+Provide one device per student for the default private Canvas route. Print zero copies by default; print the four-page packet only for students using the paper, enlarged, or independent route. Open the private, grade-neutral Canvas Assignment and current district and TEA links. Project the supplied model and August 11, 2026 Irving ISD CTE snapshot. Verify any campus or local chapter claim before presenting it as fact. The supplied model shows how to write “not yet confirmed” when a detail is missing.
 
 ## Warm-Up (5 min)
 
-**WARM-UP: What is the difference between a career and a job? Write your answer in one sentence, no looking it up.**
+**What information would you need before choosing a high-school pathway? Name two facts and one person you could ask.**
 
-Take 3-4 student definitions and project all of them. Then offer the working definition: a *job* is something you do for money right now; a *career* is work built over time, often across multiple jobs in the same field. Ask students to keep that difference in mind as they make choices in eDynamic.
+## Activity 1: Read the Current District Source (12 min)
 
----
+Model the route from the Irving ISD High School CTE hub to current program information and course descriptions. Students record the source and date accessed. Clarify:
 
-## Activity 1: eDynamic Unit 8.1 — Choosing a Career Path (30 min)
+- a program name is not the same as a certification;
+- a career can connect to more than one pathway; and
+- local offerings and application rules can change.
 
-**Source:** eDynamic Learning Unit 8.1, Your Turn! Choosing a Career Path
+## Activity 2: Compare Three Options (18 min)
 
-> [VERIFY IN eDynamic] Confirm with your district admin that Unit 8.1 is the correct unit for "Choosing a Career Path." If the unit numbering has shifted in your eDynamic license, locate the equivalent unit on personal assessment review and career path selection.
+Students use the private Canvas response or Pathway and CTSO Decision sheet to record three current options. Students with documented reduced quantity may compare two while keeping every evidence field. For each, they capture:
 
-Students log into eDynamic and open Unit 8.1. Teacher orients students to the unit structure on the projector, most eDynamic units have an introduction, content sections, an interactive activity, and a check-for-understanding quiz.
+- exact pathway or program name;
+- campus or district location when verified;
+- one connection to their career evidence;
+- one course, requirement, or question to verify; and
+- source.
 
-The unit walks students through:
-1. Reviewing personal assessment results (core personality types, Work Values)
-2. Strategies for matching assessments to career choices
-3. Introduction to job search basics
-4. Identifying professional organizations connected to a career interest
+Students rank the options using fit and evidence, not class popularity.
 
-Students work at their own pace. As they work, they note three things on their Pathway Ranking Sheet:
-- **One key strategy from the unit** for matching assessment results to careers
-- **One professional organization** the unit mentions that connects to their chosen pathway
-- **One question they still have** about choosing a career path
+**Monitoring pass 1:** Check exact program and campus names plus the source access date.
 
-**Active Monitoring:** Walk the room twice during the self-paced block. Lap 1 at minute 8, target: every student is past the introduction and into the assessment-review section. Lap 2 at minute 15, target: every student has reached the professional organizations section. Students still on the introduction get a private nudge, not a whole-class announcement. If more than a handful miss the minute 15 target, pivot and project the organizations section to the room so the Pathway Ranking Sheet still has the data it needs. The unit is self-paced but the class period is not.
+**Monitoring pass 2:** Check that the comparison uses evidence and that an unconfirmed course, prerequisite, access step, or local chapter is written as a question.
 
-!!! tip "Facilitation Tip"
-    Students who did not finish the Rung 3 Skills Check on Day 3 can close it out in the first minutes of this block. Rung 3 is one of the three artifacts this week has to protect.
+## Activity 3: CTSO Connection (10 min)
 
----
+Use the TEA list to explain that CTSOs support leadership, technical practice, competition, service, and contact with people in a career field. Students select one organization that plausibly connects to their leading pathway and explain one specific benefit.
 
-## Activity 2: Pathway Ranking Sheet (12 min)
+Do not state that a chapter exists on a campus unless the district or campus confirms it. “I would ask whether this chapter is available” is an acceptable conclusion.
 
-After eDynamic work time, students complete the Pathway Ranking Sheet. They list their **top 3 Irving ISD pathways** in order, with one sentence of rationale for each. The sheet has these fields per pathway:
+Students submit the structured response privately as typed text, a file, or approved audio. The practice is grade-neutral.
 
-| Rank | Irving ISD Pathway | Campus | Rationale (1 sentence) | Professional Organization |
-|---|---|---|---|---|
-| #1 | | | Why this is my top choice | |
-| #2 | | | Why this is my backup | |
-| #3 | | | Why this is interesting but not first | |
+If students treat a program as a credential or invent a chapter, pause on the supplied model and require “not yet confirmed.” If time slips, compare two options with every evidence field; do not cut the CTSO benefit, verification question, or private submission.
 
-Examples for the professional organization column: SkillsUSA (trades), HOSA (health science), FBLA (business), TSA (technology), FCCLA (family/consumer sciences), FFA (agriculture).
+## Exit Ticket (5 min)
 
-!!! tip "Why Student Organizations Matter"
-    Every Irving ISD pathway has a student organization that meets after school, runs competitions, and connects students with working professionals. Joining one in 9th grade turns career exploration from a once-a-week CTE class into a weekly habit. Students who compete in regional events, earn industry-recognized credentials through the org, or meet professionals in the pathway build a resume and a network years before graduation. When students name the org that matches their pathway, push them one step further: when will you join, and what is the first benefit you want from it?
+**Name your current first-choice pathway, one verified fact that supports it, and one question you still need answered. How could a CTSO help you prepare?** Submit privately and close source tabs.
 
-Students cross-reference their H&L Career Plan recommendations from Day 2 and their iceberg from Day 2, does their #1 pathway match the iceberg they built? If not, that is a real signal worth catching now rather than in 9th grade.
+## Supports and Fallbacks
 
-**DOK 2:** How would you compare the career matching process in eDynamic to the recommendations you got from H&L on Day 2? Do they point you toward the same pathways?
-
----
-
-## Exit Ticket (3 min)
-
-**EXIT TICKET** (Ranked Justification) · [Printable PDF](../../resources/exit-tickets/4sw-wk1-day4-edynamic-8-1-choosing-a-career-path.pdf):
-
-Rank my top 3 Irving ISD pathways from MOST INTERESTED (1) to LEAST (3) using my Day 4 Pathway Ranking Sheet.
-
-- Rank 1 (#1 pick): _______________________. Campus: _______________________
-
-- Rank 2 (backup): _______________________. Campus: _______________________
-
-- Rank 3 (interesting but not first): _______________________. Campus: _______________________
-
-For EACH rank, write ONE professional organization (SkillsUSA, HOSA, FBLA, TSA, FCCLA, FFA, or another) that connects to it:
-
-- Rank 1 org: _______________________
-
-- Rank 2 org: _______________________
-
-- Rank 3 org: _______________________
-
-For my Rank 1 org, write ONE specific benefit of joining in 9th grade (examples: compete in regional events, earn industry credentials, meet working professionals in the pathway, build a resume before senior year):
-
-   ___________________________________________________________________
-
-Bottom line: Does my Rank 1 match my H&L Career Plan recommendation from Day 2? Circle: YES / NO. One sentence why or why not: *(d(3)(F), d(8)(A), d(8)(B))*
-
-   ___________________________________________________________________
-
----
-
-## Differentiation
-
-- **Support:** For students who struggle to navigate eDynamic independently, pair them with a peer who can help them stay on the unit page. Provide a simplified Pathway Ranking Sheet with only the top 1 pathway required (rather than 3).
-- **Extension:** Research one of the professional organizations in depth, find a regional or state competition the student could participate in this school year. Bring back the registration link and deadline.
-- **ELL:** eDynamic interface usually supports Spanish translation in browser settings. Pre-teach: Career Path = Trayectoria profesional, Professional Organization = Organización profesional, Backup = Plan de respaldo. Bilingual Pathway Ranking Sheet with Spanish headers.
+- **Absent:** Follow the same linked source route and complete the private Assignment or paper route independently.
+- **District site unavailable:** Use the dated teacher-captured pathway cards and verify again later.
+- **Support:** Compare two pathways instead of three while keeping all evidence fields.
+- **Extension:** Locate the exact prerequisite or application step for one course or program.

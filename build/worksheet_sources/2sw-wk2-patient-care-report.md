@@ -38,6 +38,10 @@ Do not include a real person's name or medical information. Record only what the
 
 ## Wilderness Complication Plan
 
+**Career connection:** Circle one role represented in this activity: **EMT** · **Search and Rescue worker**. What documentation or handoff responsibility did the activity model?
+
+[[lines: 1]]
+
 Circle one: **severe thunderstorm** · **anxious patient** · **fast-moving stream**
 
 ### Safety First
@@ -48,20 +52,20 @@ Circle one: **severe thunderstorm** · **anxious patient** · **fast-moving stre
 
 Our first action is
 
-[[lines: 2]]
+[[lines: 1]]
 
 This protects the patient and team because
 
-[[lines: 3]]
+[[lines: 2]]
 
 What we will communicate to dispatch or the next responder:
 
-[[lines: 3]]
+[[lines: 2]]
 
 What could make us stop and reassess:
 
-[[lines: 3]]
+[[lines: 2]]
 
 One alternative route or action:
 
-[[lines: 2]]
+[[lines: 1]]

@@ -1,133 +1,141 @@
-# Day 4: LEGO ATC — Run the Simulation + 8 Ideas in 8 Minutes
+# Day 4: Test, Communicate, and Revise
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Goals and Time
+- **Objective:** Students will demonstrate effective time-management and goal-setting strategies and identify career opportunities within one or more career clusters using evidence from Goals and Time.
+- **TEKS:** d(4)(A), d(1)(C)
+- **Demonstration of Learning:** Team Simulation Run Log with three tests plus an individual timed iteration plan and new-scenario response.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Run the LEGO ATC simulation using printed scenario cards; generate eight transportation ideas in eight minutes; begin eDynamic Unit 2.2 Setting Goals |
+| **Objectives** | Use a simplified classroom communication protocol; run three timed airport-map tests; set, schedule, and evaluate one improvement goal |
 | **TEKS** | d(4)(A), d(1)(C) |
-| **5E Phases** | Engage: Warm-Up · Explore: Three simulation runs · Explain: Goal-setting unit start · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Simulation Run Log (3 runs of increasing complexity) + completed 8-ideas sheet |
-| **Materials** | Built LEGO airports from Day 3, printed ATC scenario cards (4 difficulty tiers), printed Simulation Run Log, printed 8-ideas sheet, eDynamic Unit 2.2 access, projector |
+| **Deliverable** | Team Simulation Run Log with three tests plus an individual timed iteration plan and new-scenario response |
+| **Materials** | Day 3 maps; classroom aircraft tokens; one-page scenario cards; Lab p. 2 team run log and p. 4 individual evidence; timer |
 
 ---
 
-## Warm-Up: 8 Ideas in 8 Minutes (8 min)
+## Before Class
 
-**Source:** CCE ideation warm-up
+1. Return one map, four tokens, one token tray, and Lab p. 2 per four-student team. Return Lab p. 4 to each student.
+2. Project the one-page scenario cards or print one page per team. Default printing is zero. Project the supplied five-step model and completed log below.
+3. Keep the teacher key available. Do not ask students to improvise real emergency or radio-failure procedures.
+4. Label the activity clearly: this protocol is inspired by airport communication but is not FAA phraseology or operational training.
 
-Open with a fast idea-generation round. Creativity in this cluster is the ability to see a movement problem from many angles and imagine solutions nobody has built yet, which is what transportation designers, dispatchers, and controllers do when the usual plan stops working.
+## Supplied Call and Completed Log
 
-**The prompt:**
+**Call:** Controller: “Alpha, move from Gate 1 to the R1 hold marker by Taxi A.” Mover: “Alpha repeats: Gate 1 to R1 hold marker by Taxi A.” Controller: “Confirmed.” Recorder logs complete route/no conflict.
 
-> How might we create a new form of transportation that can take people around the world in under an hour?
+**Log:** Goal—keep Bravo still while Alpha moves. Breakdown—both tokens entered Taxi A. Revision—add a hold marker and name the first aircraft. Evidence—second run moved one aircraft at a time.
 
-Distribute the printed "8 ideas in 8 minutes" sheet. Set a visible timer for **8 minutes**. Each student fills the 8 boxes with 8 different ideas. The rules:
-- No wrong answers
-- Don't overthink it, just write or draw
-- Wild ideas count, and wild ideas are encouraged
+**Non-example:** “Plane, go over there.”
 
-After 8 minutes, students stop writing. In groups of 3-4, they share their ideas (1 minute each). The group picks the **single most creative idea** to nominate to the class.
+## Warm-Up: Find the Ambiguity (5 min)
 
-**WARM-UP: Connect today's creativity warm-up to ATC: how do air traffic controllers use creativity when planes need to land in unexpected order?**
+Students compare two directions:
 
-Take 1-2 quick responses, then transition to the simulation.
+- “Plane, go now.”
+- “Alpha, move from Gate 1 to the hold marker for Runway 1 by Taxi A.”
 
----
+They underline what makes the second direction easier to follow: aircraft name, start, destination, and route. Students add one missing confirmation step.
 
-## Activity 1: ATC Simulation Runs (28 min)
+## Activity 1: Practice the Five-Step Protocol (8 min)
 
-**Source:** Engineering Design Process Phase 4-5 (Test + Iterate) applied to the LEGO airport from Day 3
+Use one teacher model with an aircraft token.
 
-Distribute the printed ATC scenario cards. Each card has 4 difficulty tiers, teams start at Tier 1 and progress as they succeed.
+1. **Name:** address one aircraft.
+2. **Route:** state the start, destination, and path.
+3. **Repeat:** the mover repeats the direction before moving.
+4. **Confirm:** the controller says “confirmed” or corrects the route.
+5. **Log:** the recorder marks the result and any breakdown.
 
-**Tier 1 (Run #1): Basic Sequencing:**
-- 2 planes need to take off
-- 1 plane needs to land
-- No weather, no emergencies
+Students practice one call and repeat. Explain that real ATC language and separation rules require formal training; students use only the classroom protocol printed in the packet.
 
-**Tier 2 (Run #2): Adding Pressure:**
-- 4 planes total, 2 takeoffs and 2 landings
-- One plane needs to taxi from the gate while another is landing on a parallel runway
-- Light wind (announced by teacher mid-run)
+## Activity 2: Run Three Timed Tests (24 min)
 
-**Tier 3 (Run #3): Real Complexity:**
-- 6 planes, 3 takeoffs and 3 landings staggered
-- One emergency landing announced mid-run (requires runway clearance)
-- One plane has a mechanical issue and needs to return to the gate
+Each run lasts eight minutes:
 
-**Tier 4 (Optional Extension):**
-- 8 planes
-- Weather closure of one runway
-- VIP arrival that requires priority sequencing
+- **3 minutes:** run the scenario;
+- **2 minutes:** identify one breakdown using the log; and
+- **3 minutes:** revise the map, role sequence, or wording and prepare the next run.
 
-**How each team runs the simulation:**
-1. **One student is the controller** (gives verbal commands)
-2. **Other students are the pilots** (move LEGO planes following commands)
-3. **One student logs the run** on the Simulation Run Log
-4. **Rotate roles each run** so every student plays controller at least once
+### Run 1: Basic sequence
 
-The controller uses ATC sentence stems written on the projector:
-- "Flight 123, cleared for takeoff runway 1."
-- "Flight 456, hold position at gate alpha."
-- "Flight 789, taxi to runway 2 via taxiway bravo."
-- "Flight 999, you are cleared to land on runway 1, wind 5 knots from the north."
+- Alpha moves Gate 1 to the R1 hold marker.
+- Bravo moves R2 to Gate 2.
+- Charlie remains at Gate 3.
 
-The Simulation Run Log captures:
-- Run number and tier
-- Number of planes safely handled
-- Any collisions or near-misses
-- Communication breakdowns observed
-- One thing the team will change for the next run
+Success: one aircraft moves at a time and both moving aircraft complete the five-step protocol.
 
-!!! tip "Facilitation Tip"
-    **Active Monitoring:** walk one lap per run, each lap with a single target. Run 1, every clearance names a runway. Run 2, the pilot reads the command back before the plane moves. Run 3, the runway is cleared before the emergency landing. Carry the communication checklist and mark it as you go. Prepare for two likely breakdowns: a clearance with no runway number, and two pilots moving at once because nobody acknowledged. Stop the team mid-run when you see one and ask what happened and how a real ATC would fix it. If more than a handful of teams miss the Run 2 target, model one full call-and-readback for the class.
+### Run 2: Two requests
 
-**DOK 4:** Based on your simulation experience, what specific improvements would you recommend to your team's communication procedures? What evidence from your test runs supports each recommendation?
+- Alpha requests Gate 1 to R1.
+- Bravo requests Gate 2 to R2 at the same time.
+- The controller must sequence the requests and keep one aircraft at a hold marker.
 
----
+Success: the team states the order, repeats each direction, and logs why one aircraft waits.
 
-## Activity 2: eDynamic 2.2 Setting Goals — Start (10 min)
+### Run 3: Runway closure
 
-**Source:** eDynamic Learning Unit 2.2, Setting Goals
+- R1 is closed before movement begins.
+- Alpha and Bravo must use the available route without crossing another moving aircraft.
+- One gate is temporarily blocked.
 
-> [VERIFY IN eDynamic] Confirm that Unit 2.2 is the correct unit on Setting Goals.
+Success: the team uses its alternate route, changes the sequence, and explains the revision.
 
-Students log into eDynamic and begin Unit 2.2. The unit covers SMART goal-setting, short-term vs. long-term goals, and how to break big goals into smaller actions. They will continue this unit on Day 5, today is just the start. As they read, they note one specific goal-setting strategy that applies to aviation careers (which require years of training).
+Rotate roles so every student has a meaningful job. A team with four students cannot make every member the controller in three runs; do not promise that. Speaking, moving, recording, and safety-checking are equal participation roles.
 
-The bridge between the simulation and goal-setting is direct: aviation careers are built one small step at a time over many years. Becoming a commercial pilot takes 1,500 flight hours. Becoming an ATC takes years of FAA training. Goal-setting is not optional.
+## Activity 3: Individual Timed Iteration Plan (8 min)
 
----
+Students use one run-log breakdown to write:
 
-## Exit Ticket (4 min)
+- one specific improvement goal;
+- the exact two- or three-minute block when the team worked on it;
+- who or what supported the change;
+- evidence that the change helped or did not help; and
+- the next adjustment if the scenario ran again.
 
-**EXIT TICKET** (Decision Tree / Branching Prompt) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day4-lego-atc-run-the-simulation-8-ideas-in-8-minutes.pdf):
+This section demonstrates both goal-setting and time management. “Communicate better” without a timed action and evidence is incomplete.
 
-My role in my team today: **Air Traffic Controller**
+## Exit Ticket: New Scenario (5 min)
 
-New scenario: Two planes request takeoff clearance at the SAME TIME. Both are on parallel runways.
+**EXIT TICKET** (Mini-Case) · [Printable PDF](../../resources/exit-tickets/4sw-wk3-day4-test-communicate-and-revise.pdf):
 
-Step 1: What COMMAND do I give FIRST, and to WHICH plane? (Use today's sentence stems.)
+New fictional situation:
 
-   First command: ___________________________________________________
+> Alpha and Bravo request movement at the same time. Taxi A is blocked.
 
-Step 2: Branch on pilot response.
+Students write:
 
-   IF Pilot 1 ACKNOWLEDGES "cleared for takeoff runway 1," what do I say to Pilot 2 next? ___________________________________________________________________
+1. which aircraft moves first and why;
+2. the full five-step classroom call for that aircraft; and
+3. one 2-minute team goal before attempting the next run.
 
-   IF Pilot 1 does NOT respond (radio silence), what do I do next? ___________________________________________________________________
-
-Step 3: ONE SPECIFIC goal I could set if I wanted to become a pilot or ATC (from today's eDynamic 2.2 goal-setting start):
-
-   ___________________________________________________________________
+Multiple sequences may work. The answer must keep one aircraft still, use an available route, include repeat/confirm, and state a timed improvement.
 
 *(d(4)(A), d(1)(C))*
 
----
+## Teacher Key and Monitoring
 
-## Differentiation
+- Run 1 monitors complete call-and-repeat.
+- Run 2 monitors sequencing and holding one aircraft.
+- Run 3 monitors route revision after a constraint changes.
+- Stop unsafe physical behavior around materials, but do not claim the tabletop model teaches real aviation safety clearance.
+- If time slips, run two scenarios and complete the third as a written individual scenario. Do not remove the timed iteration plan.
+- Before starting the clock, one team locates Name, Route, Repeat, Confirm, and Log in the supplied call.
+- Check Run 1 for a full route and repeat/confirm, Run 2 for one aircraft held with a logged reason, and Run 3 for a revision tied to the changed constraint.
+- If two teams move without repeat/confirm, stop the clock and rehearse the model once.
+- Never trim the individual p. 4 timed plan, new-scenario response, five-minute collection, or materials reset.
 
-- **Support:** Keep students at Tier 1 until they can complete the call-and-readback sequence without skipping a step. Provide a printed sentence stem card for the controller role so they have the language to use.
-- **Extension:** Create a fourth scenario card with an unexpected event (bird strike, runway debris, lost radio communication). Run the team through it as a true emergency drill.
-- **ELL:** The bilingual ATC command card from Day 1 carries over here, make sure ESL students rotate into the controller role using the bilingual command card. Pre-teach: Cleared = Despejado, Hold = Mantenga, Taxi = Taxi, Runway = Pista.
+## Supports and Equal Routes
+
+- Provide the five-step card with icons and bilingual labels.
+- A student may use a non-speaking role and answer the individual scenario in writing, text, or media.
+- Paper, LEGO, and Lucid maps use the same cards and log.
+- An absent student uses the model map and written scenario packet; no team performance is required for the individual evidence.
+- Optional extension: students invent a fourth constraint but must also write the expected safe classroom sequence and teacher key before another team runs it.
+- The recorder returns the map, p. 2 log, and four tokens to the tray. Each student submits or saves p. 4 before devices close.

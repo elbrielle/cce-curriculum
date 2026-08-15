@@ -1,113 +1,31 @@
-# Day 2: First Resume in Xello
+# Day 2: Write a First Resume
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
-## Lesson Overview
+- **Topic:** Resume Writing
+- **Objective:** Students will write a truthful, privacy-safe one-page resume with standard headings and specific evidence from school, projects, activities, service, or responsibilities.
+- **TEKS:** d(7)(A)
+- **Demonstration of Learning:** three-page résumé planner and assembled one-page résumé submitted privately in Canvas or on paper.
+<!-- CCE DAILY CONTRACT END -->
+**TEKS:** d(7)(A)
+**Evidence:** three-page résumé planner and assembled one-page résumé
 
-| | |
-|---|---|
-| **Time** | 50 minutes |
-| **Objectives** | Understand resume sections and purpose; complete a first-draft resume in Xello including header, career objective, education, skills, activities, and community service |
-| **TEKS** | d(7)(A) |
-| **5E Phases** | Engage: Warm-Up · Explain: Teacher resume modeling · Explore: Xello Resume Builder draft · Evaluate: Exit Ticket |
-| **Deliverable** | Draft resume (v1) saved in Xello Resume Builder |
-| **Materials** | Chromebooks, Xello accounts, printed Resume Template (backup), CareerOneStop Resume Guide, projector |
+## Before Class
 
----
+Per student, provide the three-page packet, a pencil, one private Canvas or paper route, and the student-owned **CCE Six-Weeks Evidence Log** when available. Students work independently; they may rehearse one redacted bullet with a partner but do not exchange devices, files, or full resumes. Preserve the adapted teacher-created comparison: project *Objective: To get a job. Skills: Can use a computer. Project: Helped with flyers.* Contrast it with *Designed two original event flyers and revised the hierarchy after teacher feedback.* Ask what action, task, evidence, or purpose the weak sample hides. The Evidence Log is a source only; do not collect it or require old artifacts again. Jordan is the complete fallback. Optional Xello copying must not replace the Canvas/paper route.
 
-## Warm-Up (5 min)
+## 50-Minute Flow
 
-**WARM-UP: If someone asked you to list every skill, every activity, every accomplishment, every responsibility, and every community service you have ever done, how long would the list be? Try it. Just write the list.**
+1. **Purpose and privacy — 7 min.** A résumé matches true evidence to a target; it is not a personal-data form.
+2. **Compare the models — 10 min.** Use the teacher-created weak sample to reveal the missing action, task, evidence, and purpose. References and photos stay off.
+3. **Plan and assemble — 23 min.** Students select one Evidence Log entry, another true experience, or the labeled Jordan fallback; draft specific bullets; and assemble a one-page résumé. Paid work is not required.
+4. **Assembly check — 7 min.** Check standard headings, action words, specific evidence, consistency, readable formatting, and privacy.
+5. **Exit — 3 min.** Strongest bullet and one needed revision.
 
-Give students 3 minutes to write. Most students will think they have nothing, then surprise themselves at how long the list gets when they actually try. This is the opening hook for "you have more resume content than you think."
+## Monitor and Key
 
----
+At minute 14, students should be able to explain why *Can use a computer* is weaker than an action + task + evidence bullet. If one-third still list traits or tools only, label the four missing parts directly on the teacher-created sample. At minute 31, look for three truthful evidence bullets and standard headings. At minute 44, the one-page draft should be readable and contain no sensitive data. Do not reward invented titles, dates, awards, hours, results, or tools. “No paid experience” is not a deficit when projects and responsibilities provide evidence. CareerOneStop recommends standard headings and relevant true evidence; graphic decoration cannot rescue weak content. Safe trim: assemble two strongest bullets plus one supported skill, then finish formatting in catch-up. Collect one resume route; leave the Evidence Log and old artifacts with the student.
 
-## Activity 1: Teacher Resume Modeling (15 min)
+## Privacy and Absence Route
 
-**Source:** Xello Resume Builder + CareerOneStop Resume Guide
-
-Open Xello and project the Resume Builder on the board. Walk through a sample middle school resume LIVE, building it as students watch. Use a fictional student: "Alex Martinez, 8th Grade, Oakview Middle School" (or substitute your own school name).
-
-**Chunking:** Build one section at a time, say what the section is for before you fill it, and take a thumbs check after each one before moving to the next. Whichever section draws the most thumbs down is the section you revisit first while circulating in Activity 2.
-
-Walk through each section:
-
-**Header (1 min):** Name, address (city + state OK, no street for safety), phone, email, school. Make it look professional. No emojis. No nicknames.
-
-**Career Objective (3 min):** One or two sentences about what the student wants. Show several samples:
-
-- *"To explore a career in graphic design and contribute creative skills to a school yearbook or design club."*
-- *"To gain experience working with younger children through a tutoring or summer camp role."*
-- *"Seeking a part-time role using my customer service and communication skills."*
-
-**Education (2 min):** Current school, grade, expected graduation year. Honor roll, GPA (if strong), perfect attendance, anything that shows academic engagement.
-
-**Skills (3 min):** Push students hard here. Skills include:
-
-- **Technology:** Google Workspace, Canva, basic coding (Scratch, Python intro), TinkerCAD, Adobe Express, Microsoft Office
-- **Languages:** English, Spanish, ASL, etc. (Bilingual = HUGE on a resume)
-- **Soft skills:** Communication, teamwork, time management, problem-solving, leadership
-
-**Activities & Awards (2 min):** TSA, athletics, band, choir, theater, robotics, student council, honor roll, perfect attendance, science fair winner, art show, math team
-
-**Community Service (2 min):** Tutoring, peer mentoring, food bank, church/temple/mosque service, family caregiver responsibilities, helping at school events
-
-**References (2 min):** Skip this section on a middle school resume OR write "Available upon request"
-
-The key teaching moment is to keep showing students that their lives ARE resume material. Tutoring a younger sibling = childcare experience. Helping at a church festival = event setup + customer service. Babysitting = responsibility + time management.
-
-!!! tip "Facilitation Tip"
-    During modeling, deliberately add something a student would think doesn't count ("helping my grandma with her phone"), then label it: "This shows patience, communication, and tech skills." Repeating this 3-4 times unlocks students' thinking about their own experiences.
-
----
-
-## Activity 2: Xello Resume Builder (28 min)
-
-**Source:** Xello Resume Builder, used as supplemental Grade 8 instruction. Resume is not a Bowie Grade 8 completion standard.
-
-Direct students to log into Xello and open the **Resume Builder** feature. Xello walks them through each section step-by-step with prompts for what to include.
-
-Students work independently. **Active Monitoring:** walk the room three times, one target per lap, and carry the three jobs below as the lap targets. If a lap turns up more than a handful of blank Skills sections, pivot and reproject the Skills list to the whole room instead of prompting student by student.
-
-1. **Help students who claim they have nothing:** Pull out their actual life: babysitting, tutoring, sports, helping family, school clubs. Push them to write SOMETHING in every section.
-2. **Check skills sections:** Most students undersell their tech skills. Ask "Have you used Canva? Google Slides? TinkerCAD? Scratch? Photoshop?" If yes, it goes on the resume.
-3. **Check career objective quality:** Vague objectives ("I want a job") get sent back. Specific objectives ("I want a part-time job working with animals or in a daycare") stay.
-
-**Goal for Day 2:** Every student leaves with a complete first-draft resume saved in Xello, even if it is rough. Day 3 is for revision and refinement.
-
-!!! tip "Facilitation Tip"
-    Set a visible 5-minute warning before the end of class. Students MUST save their draft in Xello before logging off. The system saves automatically but only if they have entered something in each section.
-
-**DOK 2:** How would you describe the purpose of a resume? Who reads it and what are they looking for in 10 seconds of skimming?
-
-**DELIVERABLE:** Resume draft v1 saved in Xello Resume Builder. Visible on the Xello dashboard for the teacher to confirm completion.
-
----
-
-## Exit Ticket (2 min)
-
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/6sw-wk2-day2-first-resume-in-xello.pdf):
-
-For each of the 6 resume sections, mark whether I filled it in with SPECIFIC content (1 SPECIFIC item) or if it needs more work.
-
-| Section | Filled with SPECIFIC content (check YES / NO) | One SPECIFIC item I added (or note "still blank") |
-|---|---|---|
-| Header (name/school/contact) | | |
-| Career Objective | | |
-| Education | | |
-| Skills | | |
-| Activities & Awards | | |
-| Community Service | | |
-
-Bottom line: The section that was HARDEST to fill in: _______________________. In one sentence, why was it hardest?
-
-   ___________________________________________________________________
-
-*(d(7)(A))*
-
----
-
-## Differentiation
-
-- **Support:** Provide the printed Resume Template as a fallback for students struggling with Xello. Allow them to fill it out by hand and type it into Xello later. Provide a list of 20 sample skills (technology, language, soft skills) so students can pick from a menu instead of generating from scratch.
-- **Extension:** Students who finish early use CareerOneStop Resume Guide to learn about action verbs ("organized," "led," "created," "designed") and rewrite their bullet points using stronger language.
-- **ELL:** Pre-teach: Resume = Currículum, Education = Educación, Skills = Habilidades, Experience = Experiencia, Activities = Actividades, References = Referencias. Bilingual middle schoolers should ALWAYS list Spanish (or other home language) as a skill, bilingual is one of the most marketable skills in DFW. Pair ESL students with bilingual peers if needed.
+No home address, personal phone/email, date of birth, student ID, SSN, photo, family information, or reference contact. Students never exchange accounts or devices.

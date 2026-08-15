@@ -1,5 +1,12 @@
 # Day 1: IT Cluster Tour — Four Irving Programs of Study
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** IT Career Cluster
+- **Objective:** Students will explore and describe the CTE career clusters and identify career opportunities within one or more career clusters using workbook and H&L evidence.
+- **TEKS:** d(1)(B), d(1)(C)
+- **Demonstration of Learning:** Stop-and-Jot notes, one IT program selected for further exploration, and the Programming/Cybersecurity Venn diagram.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
@@ -13,6 +20,13 @@
 
 ---
 
+## Before Students Arrive
+
+- Test the H&L Information Technology tour, Game Time, and Hat profiles once from a student-filtered Chromebook.
+- Plan for 1 Chromebook and 1 workbook per student. Students work individually, then use one assigned elbow partner for the two timed turns.
+- Print 1 exit ticket per enrolled student plus 2 spares. Print the programs/Stop-and-Jot scaffold only for students who need enlarged or structured notes.
+- If time slips, take one whole-group share instead of two. Keep the H&L rating evidence, Venn DOL, and 3-minute close.
+
 ## Warm-Up (5 min)
 
 **WARM-UP: Every app on your phone was built by someone. Pick ONE app you use every day and guess: How many people do you think it took to build it from scratch?**
@@ -21,7 +35,7 @@ Quick share. Most students will guess "5 to 20." The actual number for a major a
 
 ---
 
-## Activity 1: Exploring the World of Information Technology (15 min)
+## Activity 1: Exploring the World of Information Technology (12 min)
 
 **Source:** (FYF p. 23: "Exploring the World of INFORMATION TECHNOLOGY")
 
@@ -37,6 +51,8 @@ Three Hats appear on the opener page. Read each one aloud and ask students which
 
 **Think-Pair-Share:** 30 seconds of silent Think, then Partner A talks for 30 seconds, then Partner B for 30 seconds. Two pairs share with the whole class. Listen for students who name a cost to the app's users, not only a cost to the company. Close with the page's own closing question: what do you think it takes to work in a field like technology that is constantly changing?
 
+Keep the language support beside the decision: **user, company, privacy, risk, shut down, repair**. A complete response frame is: "I would _____ because leaving the app open could _____, while shutting it down could _____."
+
 Then map the cluster the way Irving ISD maps it. The district pages (FYF p. 36: "What is Happening at My District?") list **four IT programs of study**:
 
 1. **Computer Science:** software development and problem solving, built on coding, algorithms, and data processing.
@@ -51,7 +67,7 @@ Each of the next four weeks takes one of them. This week is Programming & Softwa
 
 ---
 
-## Activity 2: H&L IT Cluster App Exploration with Stop and Jot (20 min)
+## Activity 2: H&L IT Cluster App Exploration with Stop and Jot (23 min)
 
 **Source:** (FYF p. 38: "App Exploration"), Steps 1-3 and the Hat rating step
 
@@ -66,11 +82,13 @@ For each Hat they open, students check education requirements, DFW salary, and d
 
 Walk the room and stop students who are scrolling without reading. Ask them to read one Hat profile aloud to you.
 
+**CFU and pivot:** As each program is named, students hold up 1-4 fingers and explain one program in a phrase. During the app block, the first lap checks the career/question jot and the second checks both fit reasons. If more than one quarter of the class cannot distinguish programming from cybersecurity, reproject FYF p. 36 and sort two job tasks together before the Venn diagram.
+
 **DOK 2:** How would you compare the education requirements for a Software Developer (4-year degree typical) versus a Web Developer (sometimes degree, sometimes certification, sometimes self-taught)?
 
 ---
 
-## Exit Ticket (5 min)
+## Exit Ticket (7 min)
 
 **EXIT TICKET** (Venn Diagram Comparison) · [Printable PDF](../../resources/exit-tickets/1sw-wk2-day1-it-cluster-tour-four-irving-programs-of-study.pdf):
 
@@ -99,6 +117,12 @@ Fill in the Venn Diagram using the workbook page and the Hats you opened in the 
 Bottom line: A student who wants to spend the day writing and testing code should pick which program of study, and why? *(d(1)(B), d(1)(C))*
 
    ___________________________________________________________________
+
+Keep these words visible beside the comparison: **coding, debugging, testing, network, data, protection, both, unlike**. A complete comparison frame is: "Both programs use _____, but Programming & Software Development focuses on _____ while Cybersecurity focuses on _____."
+
+## Save and Close (3 min)
+
+Students submit the exit ticket, close H&L, and return the workbook to its class location. Record any platform failure for the next supervised catch-up block.
 
 ---
 

@@ -36,31 +36,27 @@ This program is a **training simulation**. It does not measure a person, diagnos
 
 [[pagebreak]]
 
-## Add a handoff alert
+## Paper block trace
 
-Add this **simulation rule** after Button A displays the value:
+Use this only when MakeCode will not open. Trace Button A from left to right. Then complete Button B and check both sequences against the test record on page 1.
 
-- If `heartRate > 100`, show the letter `R` for **report**.
-- Otherwise, show a check mark.
+**Button A:** `on button A pressed` → set `heartRate` to `pick random 60 to 110` → show number `heartRate` → show heart → pause `200 ms` → clear screen
 
-The `R` does not diagnose anything. It reminds the learner to document the value, listen to the fictional patient, and report through the scenario's chain of supervision.
+**Button B:** `on button B pressed` → set `temperature` to `pick random 970 to 1005` → show number `temperature`
 
-| Alert test | Fictional input | Expected output | Pass? |
-|---|---:|---|---|
-| Within assigned range | 84 | Check mark | |
-| Report branch | 108 | R | |
+Where does the fictional value come from? ____________________________________
 
 ## Explain your design
 
 Which block stores a value? __________________________________________________
 
-Which block makes a decision? ________________________________________________
+Which block displays a value? ________________________________________________
 
 Why is this program a simulator rather than a medical device?
 
 [[lines: 3]]
 
-How does accurate testing connect to nursing work?
+Name one nursing-related role that uses monitored data. What does that worker do with the information?
 
 [[lines: 3]]
 
@@ -71,3 +67,7 @@ How does accurate testing connect to nursing work?
 - [ ] Paper block trace supplied by the teacher
 
 The route does not change the score. Evidence is the tested logic and explanation.
+
+Complete thought: “Button [A or B] should [expected result]. It shows [result]. I would revise [block] because [reason].”
+
+[[lines: 2]]

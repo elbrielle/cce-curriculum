@@ -1,5 +1,12 @@
 # Day 3: Build a Vital-Signs Training Simulator
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Training Simulation
+- **Objective:** Students will identify how nursing workers use monitored data by building and testing a fictional simulator and explaining the career connection.
+- **TEKS:** d(1)(C)
+- **Demonstration of Learning:** Vital Signs Simulator Build and Test record, nursing-work connection, and screenshot, share link, or paper trace.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
@@ -27,6 +34,8 @@ Students match the blood pressure cuff, pulse oximeter, digital thermometer, and
 
 Use the [Vital Signs Simulator Build and Test](../../resources/worksheets/2sw-wk3-vital-signs-simulator-build.pdf). Demonstrate only Button A:
 
+The matching Canvas Student Guide includes the completed Button A visual. This is the required model; the teacher does not need to create a screenshot.
+
 1. `on button A pressed`
 2. set `heartRate` to `pick random 60 to 110`
 3. `show number heartRate`
@@ -42,6 +51,8 @@ Students use one equal route:
 - MakeCode browser simulator, or
 - paper block trace.
 
+Default setup is pairs with one connected device per pair. Assign Driver and Code Reader, then switch roles after Button A passes. Each student completes a test explanation; each pair may submit one screenshot or share link. If paper is the response route, provide one two-page build-and-test guide per student.
+
 Active-monitoring laps:
 
 1. Button A displays a fictional heart-rate value.
@@ -49,6 +60,8 @@ Active-monitoring laps:
 3. The student can explain where the values came from and why the program is not a medical device.
 
 Students who finish add a simulation alert: if heart rate is greater than 100, display `R` for report; otherwise display a check mark. The alert is a classroom handoff rule, not a diagnosis.
+
+**Safe trim:** Cut the optional alert and pulse-animation refinement first. Protect both button tests, the simulator boundary, and the nursing-role connection. Reserve the final four minutes to save the artifact, return optional hardware, close MakeCode, and collect records.
 
 **DOK 2:** Why does testing the program with more than one value matter to a worker who depends on accurate information?
 

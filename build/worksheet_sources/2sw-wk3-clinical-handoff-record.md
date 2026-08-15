@@ -18,19 +18,19 @@ Card: A / B / C / D
 
 Where is the person, and what needs attention now?
 
-[[lines: 3]]
+[[lines: 2]]
 
 ### 2. Observations
 
 Record the supplied numbers and the person's exact reported symptoms. Do not add a diagnosis.
 
-[[lines: 5]]
+[[lines: 4]]
 
 ### 3. Comparison or data-quality check
 
 What changed, stayed the same, or appears unreliable?
 
-[[lines: 4]]
+[[lines: 3]]
 
 [[pagebreak]]
 
@@ -38,13 +38,17 @@ What changed, stayed the same, or appears unreliable?
 
 What would you do within the fictional scenario, and which supervised role receives the report?
 
-[[lines: 5]]
+[[lines: 4]]
+
+Which nursing-related role owns this documentation or handoff task?
+
+[[lines: 1]]
 
 ### 5. Reasoning
 
 Which two case facts support your action?
 
-[[lines: 5]]
+[[lines: 4]]
 
 ## Separate observation from inference
 
@@ -59,5 +63,6 @@ Which two case facts support your action?
 - [ ] I used only fictional information from the card.
 - [ ] I recorded what the person said.
 - [ ] I did not diagnose.
+- [ ] I named the nursing-related role connected to the task.
 - [ ] I named a clear supervised handoff.
 - [ ] I used two case facts in my reasoning.

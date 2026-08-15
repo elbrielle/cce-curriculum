@@ -1,17 +1,31 @@
 # Day 3: Powerskill Resilience + IT Salary Showdown
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Resilience and Labor-Market Evidence
+- **Objective:** Students will plan a specific response to a failed technology test and analyze labor-market evidence for three IT careers without mixing unlike salary measures.
+- **TEKS:** d(1)(C), d(5)(A), d(5)(E)
+- **Demonstration of Learning:** Four-row Flip the Failure chart, pages 1-4 of the three-career salary packet, and one claim supported by a labeled number.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Plan a cybersecurity team's bounce-back after a failed test using the Flip the Failure chart; cross-reference H&L and BLS salary data for 3 IT careers; complete the IT Salary Comparison worksheet |
+| **Objectives** | Plan a cybersecurity team's bounce-back after a failed test; compare three IT careers while keeping HQIM local figures and external national figures separately labeled; complete the IT Salary Comparison worksheet |
 | **TEKS** | d(1)(C), d(5)(A), d(5)(E) |
 | **5E Phases** | Engage: Warm-Up · Explore: Flip the Failure chart and the BLS salary comparison · Explain: Share and Compare partner talk · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Flip the Failure chart + IT Salary Comparison worksheet (3 careers × 5 fields) |
-| **Materials** | *Find Your Future* workbook pp. 26-27, engineering notebooks (Day 2 Hat table), Chromebooks, BLS Computer/IT pages, printed IT Salary Comparison worksheet ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison.pdf)), and, for the students who need them, the BLS data extraction guide ([Printable PDF](../../resources/worksheets/wk2-bls-data-guide.pdf)) and the pre-filled Flip the Failure chart ([Printable PDF](../../resources/worksheets/wk2-flip-the-failure-scaffold.pdf)), projector |
+| **Deliverable** | Four-row Flip the Failure chart, four BLS fields added to each Day 2 career record, and the page 4 comparison |
+| **Materials** | *Find Your Future* workbook pp. 26-27, each student's Day 2 salary packet, Chromebooks, BLS Computer/IT pages, and, for students who need them, the BLS data extraction guide ([Printable PDF](../../resources/worksheets/wk2-bls-data-guide.pdf)) and pre-filled Flip the Failure chart ([Printable PDF](../../resources/worksheets/wk2-flip-the-failure-scaffold.pdf)), projector |
 
 ---
+
+## Before Students Arrive
+
+- Open FYF pp. 26-27, the fixed Software Developer and Web Developer BLS pages, and the BLS IT index for each student's third career. Return each student's Day 2 salary packet.
+- Do not print a second whole-class packet. Print the evidence model, bilingual headers, extraction guide, and prefilled resilience row only for students who use them.
+- Flip the Failure stays in the FYF workbook. Do not print a second whole-class chart.
+- Set one class tray or named digital folder for holding the salary packet until Day 5. If time slips, use page 4 of the packet as the DOL and skip the separate comparison-matrix exit rather than making students copy the same three numbers twice.
 
 ## Warm-Up (5 min)
 
@@ -21,7 +35,7 @@ Quick share. Most students will name quitting, blaming, or trying again with no 
 
 ---
 
-## Activity 1: Powerskill Resilience — Flip the Failure (15 min)
+## Activity 1: Powerskill Resilience — Flip the Failure (13 min)
 
 **Source:** (FYF pp. 26-27: "Powerskill: Resilience")
 
@@ -38,6 +52,8 @@ The page also describes a frozen laptop, a phone full of notifications, and a lo
 
 **Step 2: Flip the Failure (p. 27).** Students fill the three-column chart in their workbook. Column 1 is the What Went Wrong item, column 2 is Bounce Back Ideas (how do we fix the problem?), and column 3 is Tips for the Team to Stay Resilient. All four rows get filled.
 
+Keep the language support beside the chart: **update, assign, test, alert, pause, check, communicate**. A complete response frame is: "Next time, the _____ should _____ by _____ so that _____."
+
 **Step 3: Share and Compare (p. 27).** **Think-Pair-Share:** 30 seconds of silent Think on the workbook's own question, how focusing on solutions instead of mistakes shows resilience, then Partner A reads one row for 30 seconds and Partner B reads a different row for 30 seconds. Partners name one place their charts agree and one place they differ. Two pairs share with the class.
 
 !!! tip "Facilitation Tip"
@@ -45,13 +61,13 @@ The page also describes a frozen laptop, a phone full of notifications, and a lo
 
 ---
 
-## Activity 2: BLS Cross-Reference + Salary Comparison Worksheet (25 min)
+## Activity 2: BLS Cross-Reference + Salary Comparison Worksheet (22 min)
 
-**Source:** BLS Occupational Outlook Handbook (free, government-maintained, used by professional career counselors)
+**Sources:** Hats & Ladders or Xello for the district-adopted localized HQIM figure; BLS for a separately labeled national cross-check
 
-Open with a 60 second prediction before anyone touches a Chromebook: do all programming jobs pay the same, and which one pays the MOST? Most students guess Game Developer or App Developer. The usual answer is a Backend Engineer or a Software Engineer at a large company. Students write their prediction at the top of the worksheet and check it at the end.
+Open with a 60-second prediction before anyone touches a Chromebook: do all programming jobs pay the same, and which one might pay the most? Students record the prediction in the page 4 margin and check it after the cross-check.
 
-Students pick 3 careers: Software Developer, Web Developer, and ONE other programming or IT Hat (App Developer, Game Developer, Network Administrator, Data Scientist). The **H&L DFW Salary** column comes from their notebook notes from Day 2, the four-row Hat table in the engineering notebook. Anyone whose third career was not in that table opens the Hats & Ladders app, finds that Hat in the IT cluster, and copies the DFW salary range and demand indicator before starting the BLS work.
+Students keep the same three careers they chose on Day 2. The **HQIM localized salary** evidence should already be complete. Today they add the BLS national cross-check without replacing or recopying the HQIM section.
 
 Direct students to the BLS pages for their 3 chosen careers:
 
@@ -59,39 +75,40 @@ Direct students to the BLS pages for their 3 chosen careers:
 - Web Developers: [bls.gov/ooh/computer-and-information-technology/web-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm)
 - (Their choice): browse [bls.gov/ooh/computer-and-information-technology/home.htm](https://www.bls.gov/ooh/computer-and-information-technology/home.htm)
 
-**Chunking:** Teach the five fields one at a time on the projector with the Software Developer column filled in as the model ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison-model.pdf)). Say what each field is for before showing where it lives on the BLS page, and take a quick thumbs check after each field before releasing the next one. Students who need the walkthrough in front of them work from the BLS data extraction guide ([Printable PDF](../../resources/worksheets/wk2-bls-data-guide.pdf)), which names each Quick Facts row to copy and the three rows to skip. For each BLS page, students find:
+**Chunking:** Teach the four BLS fields one at a time on the projector with the evidence-label model ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison-model.pdf)). Say what each field is for before showing where it lives on the BLS page, and take a quick thumbs check after each field before releasing the next one. Students who need the walkthrough in front of them work from the BLS data extraction guide ([Printable PDF](../../resources/worksheets/wk2-bls-data-guide.pdf)). For each BLS page, students find only:
 
-- **Median Pay** (national; located in the Quick Facts box at the top)
+- **BLS occupation title**
+- **Median Pay** and data year (national; located in the Quick Facts box at the top)
 - **Typical Entry-Level Education**
-- **Job Outlook** (e.g., "Much faster than average, 25% growth")
-- **Number of Jobs** (current employment count)
-- **One sentence about what they do** (from the "What They Do" tab)
+- **Job Outlook** percent and projection years
 
-Students fill in the printed **IT Salary Comparison worksheet** ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison.pdf)), 3 careers × 5 fields:
+Students add those four BLS fields to pages 1-3 of the packet they started yesterday:
 
 | Field | Career 1 | Career 2 | Career 3 |
 |---|---|---|---|
-| Career Name | | | |
-| H&L DFW Salary | | | |
-| BLS National Median | | | |
-| Typical Education | | | |
-| Job Growth Rate | | | |
+| BLS occupation title | | | |
+| National median + data year | | | |
+| Typical entry education | | | |
+| Outlook percent + projection years | | | |
 
-After students complete the worksheet, they answer 2 reflection questions on the back:
-
-1. Which career has the HIGHEST salary?
-2. Which career has the FASTEST job growth? Are they the same career?
-
-The back side also holds the job count, the one-sentence job description, and a DFW employer for each career, plus the prediction check from the start of the activity. Those three fields are what the Day 5 summative means by daily tasks and DFW employer, so collect the sheet with both sides complete.
+Page 4 carries the comparison and prediction check. Do not add jobs/openings, employer research, a duplicate job description, or a separate source-difference paragraph. Collect pages 1-4 together; page 5 stays blank until the Day 5 Career Fit Reflection.
 
 **DOK 3:** What conclusions can you draw about the relationship between education level and salary for IT careers in the DFW area? Is more education ALWAYS worth it?
 
 !!! tip "Facilitation Tip"
-    The most common student mistake: they confuse "median pay" with "starting pay." Median = the middle of all workers in that career, not the entry level. Show them: "If you Google 'starting salary Software Developer DFW,' you get a different number than the BLS median. The median is what you make in the MIDDLE of your career." The H&L column shows the same idea as a range. An entry-level Software Developer in DFW makes around $70,000 and the same person can make $130,000 or more after 10 years. That gap is what "years of experience" buys in IT.
+    The most common student mistake is treating starting pay, a range, and a median as interchangeable. Teach the labels, then keep both figures in their own columns. A difference between H&L or Xello and BLS is a comparison question, not a reason to overwrite one source with the other.
+
+**CFU and pivot:** After each field, students show thumbs up, side, or down for whether they can locate it. The first lap checks BLS occupation title, then median and year. If more than one quarter of the class mixes annual/hourly, range/median, or outlook percent/years, stop and repair one row with the supplied evidence-label model before continuing.
 
 ---
 
-## Exit Ticket (5 min)
+## Comparison DOL (7 min)
+
+Page 4 of the salary packet is the default DOL. Students use two comparable facts to make one career recommendation and preserve the source labels.
+
+Keep these words beside the response: **localized, national, range, median, outlook, percentage, source**. A complete frame is: "I choose _____ because BLS shows _____% growth from _____ to _____. The HQIM shows _____ as a _____ for _____, so I kept the two measures separate."
+
+Use the separate matrix below only when it gives the teacher useful additional evidence. Do not require both routes by default.
 
 **EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/1sw-wk2-day3-powerskill-resilience-it-salary-showdown.pdf):
 
@@ -107,10 +124,20 @@ Bottom line: Which of your three careers has the BEST combination of HIGH salary
 
    ___________________________________________________________________
 
+## Collect and Close (3 min)
+
+Students turn the five-page packet into the class tray or named digital folder. The teacher returns the same packet on Day 5 for the Career Fit Reflection.
+
+## Access and Recovery
+
+- **Absent today:** Use the embedded failed-test images, the Day 2 HQIM records, and the fixed career card inside the BLS guide to complete the same four-row chart and pages 1-4. Do not assign a replacement worksheet.
+- **Live source unavailable:** Use the fixed career card in the BLS guide and keep the source/date visible. The evidence job does not change.
+- **Day 2 packet also missing:** Give the student the career model and supervised catch-up route. The student should not invent a salary, preparation requirement, or outlook figure.
+
 ---
 
 ## Differentiation
 
-- **Support:** Hand these students the model version of the IT Salary Comparison worksheet ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison-model.pdf)), which prints the Software Developer column filled in. Students complete the other 2 columns. For Flip the Failure, use the pre-printed chart with row 1 ("The alert system was too slow") already filled in ([Printable PDF](../../resources/worksheets/wk2-flip-the-failure-scaffold.pdf)) so students complete the remaining three rows. Pair either one with the BLS data extraction guide ([Printable PDF](../../resources/worksheets/wk2-bls-data-guide.pdf)).
+- **Support:** Place the evidence-label model beside the student's packet ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison-model.pdf)); it shows how to preserve title, geography, measure, source, and date without replacing the student's own data. For Flip the Failure, use the pre-printed chart with row 1 ("The alert system was too slow") already filled in ([Printable PDF](../../resources/worksheets/wk2-flip-the-failure-scaffold.pdf)) so students complete the remaining three rows. Pair either one with the BLS data extraction guide ([Printable PDF](../../resources/worksheets/wk2-bls-data-guide.pdf)).
 - **Extension:** Students compare their 3 DFW IT careers to the same 3 careers in San Francisco. The salaries are higher in SF, but cost of living is much higher too. Discuss: which is actually a better deal?
 - **ELL:** Bilingual worksheet headers (Career = Carrera, Salary = Salario, Education = Educación, Growth = Crecimiento) on the Spanish-header version of the sheet ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison-bilingual.pdf)). Allow ELL students to use the BLS pages in their preferred language via browser translation. Read the four scenario failures aloud before students start the chart, and offer the stem "Next time the team should _____ so that _____ (La próxima vez el equipo debe _____ para que _____)."

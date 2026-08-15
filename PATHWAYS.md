@@ -2,7 +2,7 @@
 
 ## ⚠ Canonical sources
 
-This file is built from the authoritative Irving ISD CTE pages (verbatim WebFetch, captured 2026-04-14 night) and the official **Program Certifications** poster the user shared. When this file and the canonical sources disagree, the canonical sources win.
+This file is built from the authoritative Irving ISD CTE pages, the official **Program Certifications** poster, the 2026 *Find Your Future* district workbook, and the 2026-27 Irving ISD High School Course Work. The current coursebook and district-customized workbook are authoritative when a shorter public pathway page has not yet caught up with a new program.
 
 **Per-school pathway listings (source: individual school CTE webpages):**
 
@@ -12,6 +12,7 @@ This file is built from the authoritative Irving ISD CTE pages (verbatim WebFetc
 - [Singley Academy CTE](https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte/singley-academy)
 - [Cardwell Prep CTE](https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte/cardwell-prep)
 - [Industry Certifications for Students](https://www.irvingisd.net/departments-services/career-and-technical-education-cte/industry-certifications-for-students)
+- [2026-27 High School Course Work](https://resources.finalsite.net/images/v1766088664/irvingisdnet/irvingisdnet/irvingisdnet/cqzmgaph9bmjcbxmpth9/2026-2027-Course-Work-High-School.pdf)
 
 **Certification-to-pathway mapping (source: Program Certifications poster).** Every pathway below that has a named certification has it confirmed against the poster.
 
@@ -19,6 +20,7 @@ This file is built from the authoritative Irving ISD CTE pages (verbatim WebFetc
 
 - **Before 2026-04-14 night:** the pre-rewrite version had fabricated pathway-to-school assignments (Real Estate at Singley, Entrepreneurship/Sales Management/Administrative Management at Singley+Nimitz, Medical Billing at Singley). These contaminated ~13 week overviews through session 3+4. The night-session audit fixed all 13; see commit `28a9afe`.
 - **2026-04-14 night second rewrite (this file):** after user flagged that the first rewrite still had incomplete multi-campus context and had lost the Ratteree vs. Cardwell distinction, the full school webpages + Program Certifications poster were used to produce the definitive reference below.
+- **2026-08-09 Medical Billing correction:** the newer FYF workbook and 2026-27 High School Course Work both list Health Science: Medical Billing at Singley. They supersede the older website-only conclusion that the program had no Irving home.
 
 ---
 
@@ -115,7 +117,7 @@ The **"District Wide"** section on the Program Certifications poster refers to c
 |---|---|---|
 | **School of Culinary Arts/Hospitality Services** | Culinary Arts, Hospitality Services | (General Management — listed as district-wide on poster) |
 | **School of Law and Public Service** | Legal Studies, Law Enforcement | Non-Commissioned Security Officer Level II (Law Enforcement) |
-| **School of Health Science** | Nursing Science, Physical Therapy, Dental, Emergency Medical - EMT | Patient Care Tech - A Phlebotomy (Nursing Science); Certified Occupational Therapist Assist (Physical Therapy); Registered Dental Assistant (Dental); Emergency Medical Training (EMT-B) (Emergency Medical) |
+| **School of Health Science** | Nursing Science, Physical Therapy, Dental, Emergency Medical - EMT, Medical Billing | Patient Care Tech - A Phlebotomy (Nursing Science); Certified Occupational Therapist Assist (Physical Therapy); Registered Dental Assistant (Dental); Emergency Medical Training (EMT-B) (Emergency Medical); Certified Billing and Coding Specialist (Medical Billing) |
 | **School of Innovative Technology** | Cybersecurity, Programming and Digital Technology, Technology Support Services, Robotic Manufacturing | Cybersecurity Fundamentals; Certified Entry Level Python Programmer (Programming and Digital Technology); Computer Repair Technology - Job Ready (Technology Support Services); FANUC Robot Operator 1 (Robotic Manufacturing) |
 
 **Singley also runs The FireBird Cafe Catering** — a student-led catering enterprise under the School of Culinary Arts/Hospitality Services.
@@ -175,7 +177,7 @@ Non-exhaustive mapping of CCE course weeks to their closest Irving ISD pathway h
 | 2SW Wk 1 Legal Studies | **Legal Studies** at Singley (School of Law and Public Service) |
 | 2SW Wk 2 Law Enforcement / EMT | **Law Enforcement** at Singley (School of Law and Public Service) → Non-Commissioned Security Officer Level II; **Emergency Medical - EMT** at Singley (School of Health Science) → EMT-B |
 | 2SW Wk 3 Nursing / Health Science | **Nursing Science** at Singley (School of Health Science) → Patient Care Tech - A Phlebotomy |
-| 2SW Wk 4 Dental / Medical Billing | **Dental** at Singley (School of Health Science) → Registered Dental Assistant. **Medical Billing: sources conflict.** [VERIFY with CTE coordinator] This file's campus sections, built from the district CTE website, list no Medical Billing pathway at any campus. But the official 2026 district workbook *Find Your Future* names **Medical Billing & Coding** as one of five Irving ISD Health Science programs of study (FYF p. 84: "What is Happening at My District?"), alongside Patient Care Technician, Dental Assistant, EMT, and Biomedical Sciences. Until the CTE coordinator resolves which is current, teach the career-exploration content and do not promise students a specific campus placement. |
+| 2SW Wk 4 Dental / Medical Billing | **Dental** at Singley (School of Health Science) → Registered Dental Assistant. **Medical Billing** at Singley → Certified Billing and Coding Specialist. FYF pp. 84-85 and the 2026-27 High School Course Work are the current sources for the Medical Billing program. |
 | 2SW Wk 5 Powerskills / Communication | Cross-cluster (not a specific pathway home) |
 | 2SW Wk 6 Biomedical / Health Science | **Biomedical Science** at Irving High (School of Biomedical Science) → Biotechnology Aptitude and Competency Exam (BACE) |
 | 3SW Wk 1 Vet Science | **Veterinary Science** at Nimitz (School of Agriculture Science) → Elanco Veterinary Medical Applications |
@@ -211,6 +213,6 @@ Non-exhaustive mapping of CCE course weeks to their closest Irving ISD pathway h
 2. **Cite the specific "School of X" where one exists** — "Nursing Science at Singley (School of Health Science)" is richer than "Nursing at Singley."
 3. **Name multi-campus explicitly** for district-wide pathways — "Education at Irving High, MacArthur, and Nimitz" not "Education (District Wide)."
 4. **Distinguish Cardwell from Ratteree** — Cosmetology and Automotive live at **Ratteree**, not Cardwell. Early Childhood Education lives at **Cardwell**.
-5. **If the week has no current Irving ISD home** (HVAC, Medical Billing), cover the topic as career exploration using BLS/CareerOneStop/O*NET. Do not claim a local pathway.
+5. **If the week has no current Irving ISD home** (for example, HVAC/Electrical/Plumbing), cover the topic as career exploration using BLS/CareerOneStop/O*NET. Do not claim a local pathway.
 6. **Use the certification name from the Program Certifications poster** when citing a credential. Do not invent credential names.
 7. **Always verify against the canonical Irving ISD website** before shipping any new pathway claim. This file is a secondary reference and may drift over time.

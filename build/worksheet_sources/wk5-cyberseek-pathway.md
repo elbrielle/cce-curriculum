@@ -24,6 +24,24 @@ These are examples, not a required ladder. People enter cybersecurity through di
 
 Information Security Analyst employment is projected to grow **29% from 2024 to 2034**. That is a projection, not a promise that every applicant will get a job.
 
+## Is Information Security Analyst an Emerging Career?
+
+Use the source note and table to make a careful judgment.
+
+**Evidence 1 — change:** The projected growth is ______%. The all-occupations comparison is about **3%** for the same period.
+
+**Evidence 2 — work or preparation:**
+
+[[lines: 2]]
+
+**My judgment:** Information Security Analyst **does / does not** show evidence of being an emerging career because
+
+[[lines: 3]]
+
+**One limit of this evidence:** Circle one, then explain if needed.
+
+national, not DFW-local · projection, not guarantee · median, not starting pay · another limit: ____________________
+
 ## Build One Possible Route
 
 **1. Now:** One skill I can practice in middle school is

@@ -1,104 +1,92 @@
-# Day 4: Ratteree Automotive Pathway Deep-Dive
+# Day 4: Evaluate Automotive Training Routes
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
-## Lesson Overview
+- **Topic:** Training Options
+- **Objective:** Students will evaluate automotive education and training options and identify application or enrollment questions for high-school, technical-college, and Registered Apprenticeship routes.
+- **TEKS:** d(2)(B), d(3)(G)
+- **Demonstration of Learning:** Four-question source-evidence practice Quiz with an individual Dani recommendation using two facts, one tradeoff or missing fact, and one authorized verification source.
+<!-- CCE DAILY CONTRACT END -->
+## Lesson overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Understand how the Irving ISD Ratteree automotive pathways work; compare starting automotive training in HS vs. waiting until after graduation; research at least one trade school option (UTI, Lincoln Tech, or TCC) |
 | **TEKS** | d(2)(B), d(3)(G) |
-| **5E Phases** | Engage: Warm-Up · Explain: Ratteree pathway and district programs of study · Explore: Trade school research · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Ratteree vs. Trade School comparison notes showing time, cost, and outcomes for both options |
-| **Materials** | Chromebooks, *Find Your Future* workbook district pages (printed pp. 168-169), Irving ISD Ratteree program info (district website), UTI website ([uti.edu](https://www.uti.edu)), Lincoln Tech website, Tarrant County College automotive program page, printed Ratteree vs. Trade School comparison notes template, projector |
+| **Target** | I can evaluate three automotive training routes and write the next application or enrollment question. |
+| **Evidence** | Four-question practice Quiz with a two-fact Dani recommendation and verification plan |
+| **Materials** | One Canvas-capable device per student; one projector; embedded FYF pp. 168-169; Canvas source cards and Quiz; one two-page fallback per student only for no-device, enlarged, or paper access; one paper collection tray; current district/coursebook, TCC, and TWC teacher-verification sources |
 
----
+## Before class
 
-## Warm-Up (5 min)
+1. Default to one device per student, one projector, and zero prints. Open the embedded FYF pp. 168-169 images as the district-customized HQIM source for program names and examples.
+2. Post the fixed Irving, TCC, and TWC evidence in the Student Guide and the unpublished practice Quiz. Current live pages are teacher-verification sources, not student navigation requirements.
+3. For the paper route, print one two-page Route Decision per student and collect it in one labeled tray. The packet replaces the Quiz.
+4. Project the supplied Dani model and non-example. Do not require private-school marketing research or public pathway disclosure.
 
-**WARM-UP: Have you heard of Ratteree before? What do you know about the programs offered at Irving ISD's career centers?**
+## Warm-up: Fact, workbook claim, or question? (5 min)
 
-Take 4-5 student responses. Separate what students know from what they are guessing about the centers. Today's pathway research should answer what students train on, which certifications they can earn, and how they apply.
+Students sort six statements. A strong response distinguishes a dated current source, a statement preserved from the workbook, and a question that still needs counselor/program confirmation.
 
----
+## Activity 1: Audit the local route (10 min)
 
-## Activity 1: Irving ISD Ratteree Automotive Pathways (18 min)
+Students begin with the FYF program names, then record what the current district source adds about present campuses and access. Possible fields:
 
-**Source:** (FYF pp. 168-169: "What is Happening at My District?") + Irving ISD Career Centers, Ratteree program pages
+- exact program/pathway name;
+- campus or center when stated;
+- grade or prerequisite when stated;
+- application or counselor step when stated; and
+- source title/access date.
 
-> [VERIFY with CTE coordinator] The workbook's district pages name three Transportation programs of study for Irving ISD but do not say which campus hosts each one. The Irving ISD CTE pathway reference places Automotive at Ratteree Career Development Center with the ASE certification. Confirm which campus offers each program, the schedule and transportation format, and the current certification outcomes. Irving ISD CTE updates these annually.
+If a detail is absent, students write **not confirmed in this source**. They do not fill the gap with the workbook or memory.
 
-Project the Ratteree program info on the screen. Cover the structure:
+## Activity 2: Compare three preparation routes (20 min)
 
-- **Three programs of study named on the workbook's district pages:**
-    1. **Automotive Technology** (engine systems, diagnostics, routine maintenance and repair)
-    2. **Collision Repair** (damage assessment, refinishing, structural repair, auto body restoration)
-    3. **Diesel & Heavy Equipment Technology** (engine performance, maintenance, and diagnostics for heavy-duty vehicles)
-- **How it works:** Students attend their home high school for half the day and travel to Ratteree for the other half (AM or PM session). The center is a real automotive shop with bays, lifts, tools, and live vehicles.
-- **What students do:** Hands-on work on actual cars and trucks. Engine diagnosis, brake repair, electrical work, body repair, painting, paint matching.
-- **Certifications:** Students prepare for ASE entry-level exams. Some students earn ASE before graduation.
-- **Industry partnerships:** Local dealerships (Ford, Chevrolet, dealers across DFW) often hire program graduates directly. Some students walk into $40K+ jobs the day after graduation.
-- **Cost to the student:** Free (it is part of Irving ISD curriculum).
-- **Automotive Enterprise Days:** Community service events where students in the Automotive Technology and Collision Repair programs provide basic vehicle maintenance, oil changes and tire rotations, to the public at heavily discounted rates (FYF pp. 168-169). Students get hands-on hours on real customer vehicles and the community gets affordable service.
-- **Certification and student organization:** The industry certification tied to these programs is **Automotive Service Excellence (ASE)** and the student organization is **SkillsUSA** (FYF p. 169).
+Students compare:
 
-Students take notes on their printed comparison template. The Ratteree column captures:
-- Time to complete: ~3 years (10th-12th grade)
-- Cost: $0
-- Credential earned: HS diploma + ASE entry-level + on-the-job experience
-- Income while in the program: $0 (it is school)
-- Employability after graduation: Direct dealership hire possible
-- Best fit for: Students who know they want trades and want to start ASAP
+1. the FYF/current Irving high-school route, with logistics questions preserved;
+2. the published 2026-27 TCC Automotive Service Technology examples; and
+3. a registered apprenticeship model from TWC, with actual local availability left as a search/verification question.
 
----
+Required rows:
 
-## Activity 2: Trade School Research (20 min)
+- who controls admission;
+- when paid work begins;
+- structured instruction;
+- credential/completion evidence;
+- published cost and exclusions;
+- location/transportation question;
+- advantage, tradeoff, and missing fact.
 
-Students choose **one trade school option** to research and fill in the second column of their comparison template. Options:
+## Activity 3: Recommend for Dani (10 min)
 
-- **Universal Technical Institute (UTI):** National automotive trade school chain. Locations across the US, including the Houston area. Programs include automotive, diesel, collision, and motorcycle.
-- **Lincoln Tech:** Another national chain. Programs in automotive technology and diesel.
-- **Tarrant County College (TCC): Automotive Technology program:** Local community college option in DFW with much lower cost than UTI/Lincoln.
+Dani is entering high school, needs a low-cost route, wants hands-on automotive work, and may want college credit later. Students recommend the first route Dani should investigate. A full answer:
 
-Students browse the chosen school's website and capture:
-- **Time to complete:** Typically 6-24 months for certificate programs, 2 years for AAS degree
-- **Cost:** UTI ~$30K-$50K, Lincoln Tech ~$25K-$45K, TCC ~$3K-$8K
-- **Credential earned:** Certificate, diploma, or AAS degree + ASE prep
-- **Income while in school:** Usually $0 (full-time student)
-- **Employability after:** Many programs guarantee interviews; UTI advertises high placement rates
-- **Best fit for:** Students who did NOT go through Ratteree and want intensive post-HS training
+- uses two source facts;
+- addresses both cost and future-credit priorities;
+- avoids guaranteeing admission, certification, or hiring; and
+- names the counselor, program, sponsor, or official page that should verify the missing detail.
 
-After both columns are filled in, students write a 2-3 sentence comparison: "If I were sure I wanted to be an auto technician, I would choose _____ because _____. The biggest difference between the two options is _____."
+## Exit ticket (5 min)
 
-!!! tip "Facilitation Tip"
-    The Ratteree comparison usually wins on cost (free vs. $30K+) but loses on intensity (a few hours per day vs. full-time). Both options are legitimate. Make sure students understand that picking trade school after HS is also valid if they did not choose the CTE pathway in 9th grade.
+**EXIT TICKET** (Decision Tree) · [Printable PDF](../../resources/exit-tickets/4sw-wk5-day4-evaluate-automotive-training-routes.pdf):
 
-**DOK 2:** How would you describe the difference between starting your automotive training in HIGH SCHOOL at Ratteree versus waiting until after graduation to attend a trade school? What is the financial impact?
+Problem: Dani needs a low-cost, hands-on automotive route and may want college credit later. No source guarantees admission, certification, or hiring.
 
----
+Step 1: Which route should Dani investigate first, and which two facts support that first step?
 
-## Exit Ticket (7 min)
+Step 2: What limitation or missing fact could change the recommendation?
 
-**EXIT TICKET** (Diagnostic MCQ with Misconception Distractors) · [Printable PDF](../../resources/exit-tickets/4sw-wk5-day4-ratteree-automotive-pathway-deep-dive.pdf):
+Step 3: What exact question should Dani ask, and which authorized source or person should answer it?
 
-Scenario: Dani is a 9th-grader at Nimitz. She loves taking apart her family's car and wants to be an auto technician. Her family cannot pay $30,000 for tuition after high school.
+## Monitoring and supports
 
-Question: Based on what you learned today, what is the BEST next step for Dani?
-
-- A. Wait until after graduation and take out a loan for UTI or Lincoln Tech.
-- B. Apply to Ratteree in 10th grade and earn ASE-ready training during high school at no cost.
-- C. Transfer to a 4-year university program after high school because auto careers require a degree.
-- D. Wait until senior year to decide so she can explore more careers first.
-
-Circle your answer. In one sentence, explain why the OTHER three choices are weaker for Dani's situation. *(d(2)(B), d(3)(G))*
-
-   ___________________________________________________________________
-
-   ___________________________________________________________________
-
----
-
-## Differentiation
-
-- **Support:** Pre-filled comparison template with the Ratteree column already completed (since students cannot easily research it). Students fill in only the trade school column. Pair with a peer for the website navigation.
-- **Extension:** Build a 5-year cost projection, total spending for a Ratteree graduate vs. a UTI graduate, including tuition, lost income during training, and earnings after credentialing. Which one comes out ahead financially after 5 years?
-- **ELL:** Bilingual comparison template with Spanish column headers. Pre-teach: Trade school = Escuela técnica, Tuition = Matrícula, Hands-on = Práctico, Credential = Credencial. UTI website has Spanish content available, check the language toggle.
+- **CFU at minute 10:** students sort one HQIM program name, one current-campus fact, and one unresolved logistics question. Reteach if fewer than four of five sampled responses keep them separate.
+- **Lap 1, minutes 17-24:** check that missing schedule, transportation, eligibility, and credit details read **not confirmed**, not guessed.
+- **Lap 2, minutes 30-37:** look for two facts tied to Dani's low-cost, hands-on, and possible-credit priorities. Prompt, “Which priority does this fact answer?”
+- **Pivot:** if one-third guarantee admission or credit, pause and have students underline exact source language before revising.
+- **Trim:** omit live-site navigation and the full six-row logistics audit. Protect the individual Dani recommendation and exact authorized-source question.
+- Keep route evidence visible. Students should never have to infer a tuition figure from marketing copy.
+- Accept **not confirmed** as accurate evidence.
+- Vocabulary: admission/admisión, tuition/matrícula, sponsor/patrocinador, exclusion/exclusión, verify/verificar.
+- At minute 45, students submit the Quiz or place the packet in the tray. If the district site is unavailable, students use the dated fixed evidence and preserve every confirmation-needed label; interrupted work resumes through the same Quiz.

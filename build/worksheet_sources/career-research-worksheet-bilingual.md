@@ -38,9 +38,13 @@ orientation: portrait
 
 [[lines: 2]]
 
-**5. Average Salary**
+**5. Salary Evidence**
 
-*Salario promedio en un año*
+*Evidencia salarial*
+
+Record the number or range, salary type, geography, source, and data year.
+
+*Anota la cifra o el rango, el tipo de salario, el lugar, la fuente y el año de los datos.*
 
 [[lines: 1]]
 

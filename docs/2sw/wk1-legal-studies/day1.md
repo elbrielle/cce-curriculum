@@ -1,5 +1,12 @@
 # Day 1: Law and Public Safety Cluster Tour + Legal Career Research
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Career Clusters
+- **Objective:** Students will explore and describe the CTE career clusters and identify career opportunities within one or more career clusters using evidence from Career Clusters.
+- **TEKS:** d(1)(B), d(1)(C)
+- **Demonstration of Learning:** Completed legal career research worksheet (1 legal career, all 6 fields) + Stop and Jot notes.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
@@ -9,7 +16,7 @@
 | **TEKS** | d(1)(B), d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explain: Chapter opener and Be the Decision Maker · Explore: Law cluster app exploration and career research · Evaluate: Exit Ticket |
 | **Deliverable** | Completed legal career research worksheet (1 legal career, all 6 fields) + Stop and Jot notes |
-| **Materials** | Chromebooks, *Find Your Future* workbook pp. 39, 56-58, career research worksheet, teacher-provided dated career profiles, projector; H&L optional |
+| **Materials** | Chromebooks, *Find Your Future* workbook pp. 39, 56-58, Career Research Worksheet, Legal Career Evidence Cards, projector; H&L optional |
 
 ---
 
@@ -53,7 +60,7 @@ This week takes Legal Studies. Wk 2 takes the first-responder side of the cluste
 
 **Source:** (FYF p. 58: "App Exploration"), Steps 1-3 and the Hat rating step
 
-Use teacher-provided dated career profiles as the dependable research route. H&L may supplement the lesson when it is available: students may watch the cluster tour, explore the game, and note one career that fits and one that does not. A working H&L login is not required evidence.
+Use the supplied **Legal Career Evidence Cards** as the dependable research route. They use dated BLS national medians on one consistent basis. H&L or Xello may supplement the lesson when available, especially for the district-provided local view, but students must label the geography, year, and salary type rather than mixing unlike figures. A working vendor login is not required evidence.
 
 **Stop and Jot procedure:** While watching the Law cluster tour video, students pause TWICE in their workbook margin to write:
 
@@ -71,7 +78,7 @@ Each student then selects ONE legal career and completes the **legal career rese
 - Average Salary
 - What Tools, Equipment, or Skills are Needed for This Career?
 
-**DOK 2:** How would you compare the education pathway for a Paralegal versus an Attorney? Which pathway lets you enter the workforce sooner, and which one earns more?
+**DOK 2:** Compare the common preparation and May 2024 U.S. median pay for a paralegal and a lawyer. Which tradeoff matters more to you right now, and what evidence supports that choice?
 
 !!! tip "Facilitation Tip"
     Students often overlook Court Reporter and Paralegal. Use them to compare different legal-career routes, but verify current preparation and pay facts in the dated source instead of teaching a fixed salary or program length from memory.

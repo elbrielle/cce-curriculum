@@ -1,132 +1,32 @@
-# Day 2: Written Communication + Economic Conditions
+# Day 2: Written Communication and Changing Conditions
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
-## Lesson Overview
+- **Topic:** Changing Conditions
+- **Objective:** Students will identify a marketing career opportunity and analyze how one economic condition and one societal or technology condition could change marketing work and preparation.
+- **TEKS:** d(1)(C), d(5)(C)
+- **Demonstration of Learning:** Completed FYF Little Library message plus a two-page individual revision, fixed-source condition comparison, preparation recommendation, and career connection.
+<!-- CCE DAILY CONTRACT END -->
+**TEKS:** d(1)(C), d(5)(C)
+**Evidence:** FYF Little Library message plus two-page revision and changing-conditions comparison
 
-| | |
-|---|---|
-| **Time** | 50 minutes |
-| **Objectives** | Practice written communication by writing one Little Library social media post with a clear status, a call to action, and hashtags; analyze how economic conditions affect marketing employment |
-| **TEKS** | d(1)(C), d(5)(C) |
-| **5E Phases** | Engage: Warm-Up · Explore: Little Library post · Explain: Economic conditions chart and pair-share · Evaluate: Exit Ticket |
-| **Deliverable** | Little Library social media post + economic conditions analysis chart |
-| **Materials** | Chromebooks, *Find Your Future* workbook pp. 147-148, sticky notes, printed Economic Conditions Analysis chart, BLS labor data, projector |
+## Before Class
 
----
+Default: one FYF workbook and device per student, one projector, and zero prints. Post the two-page companion, private annotation Assignment, and retryable practice Quiz. Paper fallback is one front-and-back companion per student and one collection tray; use a five-question paper check only for a Canvas outage. The Little Library status is fictional; students do not use real accounts, names, locations, handles, photos, contact information, student data, or audience tracking.
 
-## Warm-Up (5 min)
+## 50-Minute Flow
 
-**WARM-UP: When the economy is doing well, do companies spend MORE or LESS on advertising? What about during a recession? Why?**
+1. **Clear-message warm-up - 5 min.** Compare a vague notice with a specific audience-ready notice.
+2. **Read the four writing moves - 7 min.** Purpose, audience, important detail, and action.
+3. **Draft and revise - 13 min.** Write the fictional Little Library message and record one clarity/accessibility revision.
+4. **Read current career evidence - 8 min.** BLS Market Research Analysts: $76,950 May 2024 U.S. median, bachelor's degree typical, 7% projected growth 2024-34, about 87,200 openings per year. These are not DFW starting pay or guarantees.
+5. **Analyze two changing conditions - 12 min.** Use fixed fictional scenarios to separate an economic pressure from a societal/technology change and name a preparation response.
+6. **Submit/Quiz/cleanup - 5 min.** Submit the private response first; use Quiz feedback if time remains.
 
-Take 2-3 responses. Most students will guess that companies spend more when business is good. Connect that answer to d(5)(C): marketing jobs rise and fall with company budgets, so economic conditions can change hiring quickly in this field.
+## Key and Trim Point
 
----
+Minute 14: messages include status, truthful action, and no identifying data; if one-third copies the vague prompt, project the before/after model. Minute 32: students label $76,950 as May 2024 U.S. median, 7% as 2024-34 growth, and about 87,200 as annual openings; never substitute the 63,000 numeric employment change. Minute 43: economic effects concern spending/budget/demand/hiring while societal/technology effects concern behavior/tools/access/privacy/human review. Defer Quiz retries and sharing first; protect the revision, two distinct effects, preparation, private submission, and cleanup.
 
-## Activity 1: H&L Powerskill — Written Communication (20 min)
+## Absence and Access
 
-**Source:** (FYF pp. 147-148: "Powerskill: Written Communication")
-
-!!! note "This lesson is not in the Business chapter"
-    Written Communication sits in the Powerskills in Action chapter at pages 147-148, so students page backward from the Business chapter to reach it. Give the page number before they open the book.
-
-Frame the skill from the workbook: communicating well means sharing your thoughts clearly and understanding other people, and at work that happens through emails, letters, reports, and social media. When it goes well, people avoid confusion and everyone is working from the same information.
-
-Post the workbook's four tips for effective written communication (FYF p. 148) where students can see them while they draft:
-
-1. **Put yourself in your reader's shoes:** what information do they need?
-2. **Be clear and concise**
-3. **Stay on topic:** avoid irrelevant information
-4. **Proofread** to catch typos and confusing sentences
-
-**The workbook scenario:** A town has several Little Libraries, small spaces where people can take, trade, or leave books for free. The community needs to know when a library needs more books, has too many, or has specific books available. The student has been given the job of running a social media account that keeps the community informed.
-
-**Step 1: Brainstorm Ideas (3 min)**
-
-Students imagine they are responsible for a Little Library in their neighborhood and brainstorm on sticky notes (FYF p. 147), then answer in writing:
-
-- Is your Little Library full, empty, or in need of specific types of books?
-- What do you want people to do (donate, take books, check out the selection)?
-- Where is your Little Library located?
-
-**Step 2: Create a Social Media Post (15 min)**
-
-Using a digital tool (Canva, Google Drawings) or paper, students create one social media post. The workbook (FYF p. 148) requires the post to:
-
-- **Clearly explain the status** of the Little Library
-- **Include a call to action** (ask people to donate, visit, or take books)
-- **Include at least 2 hashtags** that help people find the post
-
-The post should look like a real Instagram or TikTok post, not just a paragraph. Students can include a photo, an emoji, a strong headline, and the hashtags at the bottom.
-
-After designing, lead a quick partner discussion using the workbook's Class Discussion questions (FYF p. 148):
-
-- How did you make sure your message was clear?
-- Why is it important to be specific when asking for help or giving information?
-- How can social media be used effectively to communicate with others?
-
-!!! tip "Facilitation Tip"
-    The most common mistake is making the post too long. Show a real Instagram caption on the projector, most are under 50 words. The post is a marketing tool, not an essay. If a student writes a paragraph, push them to cut it in half.
-
-**Connection to marketing:** This is exactly the work a Social Media Manager does daily, write short, clear, persuasive posts that drive action. It is one of the fastest-growing marketing careers.
-
----
-
-## Activity 2: Economic Conditions and Marketing Jobs (20 min)
-
-**Source:** BLS labor market data + scope-and-sequence d(5)(C)
-
-Distribute the printed Economic Conditions Analysis chart. Students complete a side-by-side analysis:
-
-| Factor | Strong Economy | Weak Economy / Recession |
-|---|---|---|
-| Marketing job availability | | |
-| Marketing budgets at companies | | |
-| Which marketing roles get cut first? | | |
-| Which marketing roles are recession-proof? | | |
-| What does this mean for a marketing professional? | | |
-
-**Walk students through the key concepts** (5 min):
-
-- When the economy is strong, businesses grow → more revenue → more marketing budget → MORE marketing jobs
-- When the economy slows down, marketing budgets are often the FIRST thing cut because it feels "optional"
-- BUT, even in recessions, some marketing roles stay strong:
-    - **Digital marketing** (SEO, social media) tends to survive cuts because it has measurable ROI
-    - **Discount/value marketing** grows because companies need to convince budget-conscious shoppers
-    - **In-house marketing teams** survive better than agencies and freelancers
-
-**Students complete the chart** (10 min) using BLS data and what they just learned. They search "marketing manager outlook" on bls.gov to find the projected growth rate (typically 6-8% over 10 years).
-
-**Pair-Share** (5 min): Students share one row of their chart with a partner. The partner gives one suggestion to strengthen the answer.
-
-**DOK 3:** What conclusions can you draw about why a marketing professional with BOTH traditional skills (TV, billboards, print) AND digital skills (social media, SEO, email) is more job-secure than someone with only one type of skill?
-
-**DELIVERABLE:** Completed Little Library social media post + completed Economic Conditions Analysis chart.
-
----
-
-## Exit Ticket (5 min)
-
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/6sw-wk3-day2-written-communication-economic-conditions.pdf):
-
-Fill in each cell using today's Economic Conditions Analysis chart.
-
-| | Strong Economy | Weak Economy / Recession |
-|---|---|---|
-| Marketing job availability (more / same / fewer) | | |
-| Which marketing role gets cut FIRST | | |
-| Which marketing role stays STRONG | | |
-
-Bottom line: ONE digital marketing skill that is "recession-proof" and the reason it survives cuts:
-
-   Skill: _______________________
-
-   Why it survives: ________________________________________________
-
-*(d(5)(C), d(1)(C))*
-
----
-
-## Differentiation
-
-- **Support:** Provide a fill-in-the-blank social media post template ("Our Little Library at _____ needs _____. Please bring _____. #LittleLibrary #_____"). For the economic chart, fill in the "strong economy" column as an example so students only complete the "weak economy" column.
-- **Extension:** Students research a real recession (2008 or 2020) and find a specific marketing role that grew DURING the recession. They write one paragraph explaining why.
-- **ELL:** Pre-teach: Recession = Recesión, Budget = Presupuesto, Hashtag = Etiqueta. The social media post is highly visual. Allow it to be written in Spanish or bilingual, many DFW Little Libraries actually use bilingual posts because of the diverse community.
+The locked FYF pages plus the two-page companion form the no-workbook route. Use typing, dictation, read-aloud, enlarged print, or paper. Submit one private response route. The Quiz follows the Assignment for feedback; it does not replace or duplicate the DOL.

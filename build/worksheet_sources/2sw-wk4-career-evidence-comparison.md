@@ -1,5 +1,5 @@
 ---
-title: Three-Career Evidence Comparison
+title: Three-Career Evidence Comparison - Optional Print Route
 slug: 2sw-wk4-career-evidence-comparison
 kind: worksheet
 weeks: 2sw/wk4-dental-medical-billing
@@ -10,43 +10,56 @@ pages: 2
 orientation: landscape
 ---
 
-## Build the table across the week
+## Use Canvas unless your teacher assigns this print route
 
-| Career | One responsibility | Common preparation | May 2024 U.S. median | 2024-34 growth |
+The facts are already here so you can spend time comparing, not copying. Pay figures are **May 2024 U.S. medians** and outlook is **projected U.S. growth from 2024-34**.
+
+| Career | Responsibility | Common preparation | Median | Growth |
 |---|---|---|---:|---:|
-| Dental Assistant | | | | |
-| Dental Hygienist | | | | |
-| Medical Records Specialist | | | | |
+| Dental Assistant | Prepare patients; assist with procedures, records, or X-rays when qualified | Postsecondary nondegree award is typical; state rules vary | $47,300 | 6% |
+| Dental Hygienist | Clean teeth, assess oral health, and teach prevention | Associate degree is typical; programs often take about 3 years; state license | $94,260 | 7% |
+| Medical Billing & Coding* | Medical documentation, insurance processes, coding systems, and care-reimbursement procedures | Singley pathway includes Health Informatics and Practicum in Medical Billing | $50,250* | 7%* |
 
-Source used: _________________________________________________________________
+## Apply the course comparison rule
 
-## Apply the course evidence rule
+Course lines: high-wage evidence = above **$49,500**; high-demand evidence = above **3%**; high-skill evidence = specialized preparation, licensure/credential, or specialized duties. These are classroom comparison labels, not official government designations.
 
-| Career | High-skill evidence and why | High-wage evidence? | High-demand evidence? |
-|---|---|---|---|
-| Dental Assistant | | | |
-| Dental Hygienist | | | |
-| Medical Records Specialist | | | |
+| Career | High wage? | High demand? | High-skill evidence | One number or preparation fact that supports a label |
+|---|---|---|---|---|
+| Dental Assistant | Yes / No | Yes / No | | |
+| Dental Hygienist | Yes / No | Yes / No | | |
+| Medical Billing & Coding* | Yes / No | Yes / No | | |
+
+Sentence frame: “I classified ____ as ____ because the guide shows ____.”
 
 [[pagebreak]]
 
-## Recommendation plan
+## Recommend a route for Jordan
 
-Fictional student need: ______________________________________________________
+Jordan likes careful recordkeeping and helping people. Jordan prefers preparation shorter than a four-year degree and wants to compare wage and growth evidence.
 
-My recommendation: __________________________________________________________
+Word bank: **preparation · responsibility · median · growth · evidence · trade-off / ventaja y límite**
 
-Preparation fact: ___________________________________________________________
+1. Recommend one career and connect it to one of Jordan's needs.
 
-Pay fact with year, geography, and measure: __________________________________
+[[lines: 2]]
 
-Outlook fact and comparison: __________________________________________________
+2. State the common preparation and one responsibility.
 
-One trade-off or question to verify: __________________________________________
+[[lines: 2]]
 
-## Final check
+3. Cite the May 2024 U.S. median and 2024-34 growth figure.
 
-- [ ] I compared all three careers on the same pay basis.
-- [ ] I did not call a national median “starting pay” or “DFW pay.”
-- [ ] My recommendation uses at least two accurate facts.
-- [ ] My local-program statement is verified or clearly marked unknown.
+[[lines: 2]]
+
+4. Explain one trade-off or one fact Jordan should verify.
+
+[[lines: 2]]
+
+## Done when
+
+- [ ] I used the same labels and at least two accurate facts.
+- [ ] I explained a trade-off or next fact to verify.
+- [ ] I did not call a U.S. median “starting pay” or “DFW pay.”
+
+Sources: FYF pp. 84-85 and Irving ISD 2026-27 coursebook. *Pay and growth use the broader BLS Medical Records Specialists national category; checked August 9, 2026.

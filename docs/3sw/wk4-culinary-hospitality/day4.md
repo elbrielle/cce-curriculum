@@ -1,129 +1,65 @@
-# Day 4: Cater and Create — Event Design
+# Day 4: Cater and Create Client Experience
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Catering Entrepreneurship
+- **Objective:** Students will identify catering career opportunities and explain entrepreneurship by designing a connected client service with one practical limit and one owner responsibility.
+- **TEKS:** d(1)(C), d(3)(I)
+- **Demonstration of Learning:** FYF pp. 119-120 Cater and Create design plus the one-page client, entrepreneurship, and revision companion.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Run the "Cater and Create" activity as the owner of a catering company; choose an event style and the feeling it should create; design a themed menu, a table experience, and one take-home touch; compare designs with a partner |
+| **Objectives** | Define a client, event feeling, and practical limit; design a connected menu and space; describe what a catering entrepreneur sells; revise after a client check |
 | **TEKS** | d(1)(C), d(3)(I) |
-| **5E Phases** | Engage: Warm-Up · Explore: Event style and feeling · Extend: Menu, table, and extra touches · Explain: Share and Compare · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Cater and Create event design sheet (style, feeling, menu, table design, entertainment, take-home touch) |
-| **Materials** | *Find Your Future* workbook pp. 119-120, printed Cater and Create event design sheet, colored pencils/markers, projector |
-
----
+| **5E Phases** | Engage, Explore, Extend, Evaluate |
+| **Deliverable** | FYF pp. 119-120 design plus the one-page client, entrepreneurship, and revision companion |
+| **Materials** | Per student: FYF workbook opened to pp. 119-120, one-page companion, pencil, and optional colored pencils or markers. Teacher: projector with one completed client/limit model. Device only for an approved digital design route. |
 
 ## Warm-Up (5 min)
 
-**WARM-UP: Think of the best party or event you have ever been to. Name ONE thing that was not food that made it feel special.**
+**WARM-UP:** Name one event detail outside the food that changes how guests experience an event.
 
-Take 3-4 student responses. Answers usually include music, decorations, lighting, or a small gift. Point out which details changed the event without changing the food. Students will make those decisions for a catering company today.
+Sort examples into space, access, timing, entertainment, service, and take-home details.
 
----
+## Activity 1: Read the Client and Business Goal (8 min)
 
-## Activity 1: Your Catering Company — Choose a Style and Vibe (12 min)
+**Source:** (FYF p. 119: "Cater and Create")
 
-**Source:** (FYF p. 119: "Cater and Create"), a Career Climb activity, Step 1
+Students choose an event, a feeling, a client or audience, and one practical limit. Limits may involve time, budget, staffing, space, allergies, accessibility, or weather.
 
-Read the workbook background on page 119 together. When people think about catering they think about food, but the job goes further. Many catering teams design the full event atmosphere, including menus, table settings, and floral arrangements. Creativity matters as much as cooking skill, because every detail shapes how guests remember the event.
+Define entrepreneurship before design begins: the owner sells and coordinates a service and accepts responsibility for cost, staffing, client communication, and risk. A business idea is not complete only because it has a logo or menu.
 
-The client brief on the same page: students are an entrepreneur who owns a catering company known for creating full event experiences. A new client wants everything at their event to match the same vibe, from the menu to the floral design to the small details guests take home.
+Model a narrow plan: **fictional school recognition dinner; calm and welcoming feeling; students and families as the audience; 90-minute setup limit.** The menu, table layout, quiet welcome activity, and take-home note should all support the same feeling. The owner coordinates food, setup, staffing, access, and the client update rather than only drawing a logo.
 
-**Step 1: Choose a Style and Vibe.** Students make two choices on the design sheet.
+## Activity 2: Design the Connected Experience (27 min)
 
-What event are you planning for?
+**Source:** (FYF pp. 119-120: "Cater and Create")
 
-- "After Dark" Event at the Zoo
-- Skateboarding Showcase
-- Read-A-Thon
-- Local festival
-- Other
+Students design at least three foods or drinks, a labeled table/space plan, entertainment, a take-home touch, and one accessibility choice. Each choice must support the same event feeling and client.
 
-What feeling are you trying to create?
+Paper, Canva, Adobe Express, and another approved tool are equal. Do not require a real account, client name, address, contact information, payment detail, or public post.
 
-- Calm and elegant
-- Bright and energetic
-- Cozy and warm
-- Bold and creative
-- Other
+At minute 18, check the practical limit. A visually connected plan can still fail if it ignores staffing, access, weather, time, or cost.
 
-Students write both choices at the top of the sheet before anything else. Every later decision has to point back to them.
+**Active-monitoring pivot:** At minute 18 of the design block, every student should be able to point to the client, feeling, and limit and show how two choices connect. If more than one quarter has attractive but disconnected ideas, pause and ask, “Which client need does this choice solve?” If time compresses, use the teacher or self-check instead of a partner check; preserve the visible revision, exit response, and five-minute collection/reset.
 
-!!! tip "Facilitation Tip"
-    The pairing is where the thinking happens. A Read-A-Thon that is "bold and creative" is a different job from a Read-A-Thon that is "cozy and warm." If a student picks a mismatch by accident, do not correct it. Ask what food and what table would make that combination work, since that is the design problem a real client hands a caterer.
+## Activity 3: Client Test and Revision (5 min)
 
----
+A partner, teacher, or self-check identifies one strength and one workable change. Students record and make one revision. Peer availability does not affect the grade.
 
-## Activity 2: Design the Menu, the Table, and the Extra Touches (25 min)
+## Exit Check (5 min)
 
-**Source:** (FYF pp. 119-120: "Cater and Create", Steps 2-4)
+Students explain why a client might pay for the complete experience and name one responsibility the owner carries beyond cooking.
 
-Three design frames, one at a time.
+**DOK 3:** Two catering companies serve the same menu. What choices could make one plan fit the client better? Use one design detail and one business limit.
 
-**Time, Voice, Body:** Post the three blocks before markers come out. A visible countdown runs for each frame so no pair spends the whole block on flowers, Voice 1 for partner design talk, markers live in the center tray, and finished sheets go face up at the table edge.
-
-**Step 2: Design the Menu (10 min).** Students plan a themed menu for their event and answer the workbook's three prompts (p. 119): what foods will be served, how do the foods match the event vibe, and how will the menu be presented (names, style, layout)?
-
-**Step 3: Design the Table Experience (8 min).** Students design the visual side of the event (p. 120): what flowers or colors will be used, how will tables be decorated, and what small design detail ties everything together?
-
-**Step 4: Add Extra Touches (7 min).** Two decisions (p. 120). First, entertainment: live music, a drone show, a photo booth, or the student's own idea. Second, one small detail guests will notice or take home: a gift bag, apparel such as a hat, shirt, or socks, a dessert, or the student's own idea.
-
-**Active Monitoring:** Walk a fixed pathway once per frame. Lap 1 target, the menu names use the event's vibe words and not generic ones. Lap 2 target, the colors on the table match the menu, not a favorite color. Lap 3 target, the take-home item is something a guest could actually carry out. Have feedback ready for the two known stalls: a student who lists foods with no theme connection, and a student who designs a beautiful table that has nothing to do with the event they picked.
-
-**DOK 4:** Two catering companies serve the exact same menu at the same event. One event feels expensive and the other feels thrown together. What design choices, outside the food, created that difference?
-
----
-
-## Activity 3: Share and Compare (5 min)
-
-**Source:** (FYF p. 120: "Cater and Create", Step 5)
-
-Students share their event design with a partner and work the workbook's four discussion prompts:
-
-- What part of your design feels the most connected?
-- If you had to remove one element, what would change the most?
-- How do the food and the table choices work together?
-- What detail would guests remember most?
-
-Pairs then make ONE quick edit to their sheet based on what their partner said before turning it in.
-
-!!! note "Connection to Career"
-    Catering is one of the most common entrepreneurial entry points in hospitality, because a caterer can start with a kitchen, a van, and one client instead of a building and a lease. Irving ISD students already do a version of this work: the district's Culinary Arts and Hospitality programs cater events on campus and at venues around the city (FYF pp. 124-125: "What is Happening at My District?").
-
----
-
-## Exit Ticket (3 min)
-
-**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/3sw-wk4-day4-cater-and-create-event-design.pdf):
-
-1. My event: _______________________ The feeling I designed for: _______________________
-
-2. Name ONE food from my menu. In one sentence, say how it matches the feeling.
-
-   Food: _______________________
-
-   How it matches: ___________________________________________________
-
-3. Name ONE thing from my table design (a color, a flower, a decoration). In one sentence, say how it matches the same feeling.
-
-   ___________________________________________________________________
-
-4. My take-home touch was: _______________________. In one sentence, why would a client pay extra for it?
-
-   ___________________________________________________________________
-
-5. Catering is a business one person can start and run. Name ONE other small hospitality business a person could start, and one skill from today the owner would need.
-
-   Business: _______________________ Skill: _______________________
-
-*(d(1)(C), d(3)(I))*
-
-Submit your event design sheet with this ticket.
-
----
+**DELIVERABLE:** Event brief with client, feeling, limit, menu, space, extra touches, entrepreneurship explanation, and one revision.
 
 ## Differentiation
 
-- **Support:** Pre-fill the design sheet with the event and the feeling already circled so students start at the menu frame. Provide a color-and-word bank for each feeling (calm and elegant: soft, white, candlelight, quiet).
-- **Extension:** Build the event's invitation or menu card in Canva using the colors from your table design. Then write the one-sentence pitch you would send the client with it.
-- **ELL:** Pre-teach: Catering = Servicio de banquetes, Menu = Menú, Table = Mesa, Flowers = Flores, Guest = Invitado. The design sheet can be labeled in English, Spanish, or both, and drawings count as answers on the table-design frame.
+- **Support:** Preselect an event and feeling, keep the model visible, and allow a labeled sketch instead of a polished layout. Use the complete frame beside the response: “A client might pay because ____. The ____ supports the feeling, while the owner must ____.”
+- **Extension:** Create a one-page invitation or menu card that uses only approved or student-created visuals.
+- **ELL:** Use client/cliente, catering/servicio de banquetes, menu/menú, guest/invitado, limit/límite, and revise/revisar. Drawings count when labels make the reasoning clear.

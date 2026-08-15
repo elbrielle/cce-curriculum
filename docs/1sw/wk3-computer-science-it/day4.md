@@ -1,15 +1,22 @@
 # Day 4: Emerging Tech Research — AI, Cloud, Data Science
+<!-- CCE DAILY CONTRACT START -->
+## Daily Learning Contract
 
+- **Topic:** Emerging IT Work
+- **Objective:** Students will research and evaluate one emerging or rapidly changing Information Technology occupation by distinguishing an exact occupation from a proxy and using dated evidence about work, preparation, pay, and projected growth.
+- **TEKS:** d(1)(C), d(1)(D)
+- **Demonstration of Learning:** Completed Emerging Tech Research Template plus an evidence comparison that accurately labels the BLS occupation, exact/proxy status, May 2024 national median pay, 2024-34 growth rate, and the technology or work change supporting the emerging-career claim.
+<!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Research one emerging IT career; complete the Emerging Tech Research Template; identify why the career is "emerging" and what makes it grow |
+| **Objectives** | Research one emerging or rapidly changing IT occupation; distinguish an exact BLS occupation from a broader proxy; evaluate why the work is changing |
 | **TEKS** | d(1)(C), d(1)(D) |
 | **5E Phases** | Engage: Warm-Up · Explain: Emerging career options and what "emerging" means · Explore: Three-source research · Evaluate: Exit Ticket |
-| **Deliverable** | Completed Emerging Tech Research Template |
-| **Materials** | Chromebooks, BLS Computer/IT pages, H&L Hat Finder, printed Emerging Tech Research Template, 1 per student ([Printable PDF](../../resources/worksheets/wk3-emerging-tech-research-template.pdf)), printed Emerging Careers link sheet for the support group ([Printable PDF](../../resources/worksheets/wk3-emerging-careers-link-sheet.pdf)), projector |
+| **Deliverable** | Completed Emerging Tech Research Template + Emerging/Established IT Career Comparison |
+| **Materials** | Chromebooks, dated Emerging IT Career Evidence Guide ([Printable PDF](../../resources/worksheets/wk3-emerging-careers-link-sheet.pdf)), Emerging Tech Research Template ([Printable PDF](../../resources/worksheets/wk3-emerging-tech-research-template.pdf)), Emerging/Established IT Career Comparison ([Printable PDF](../../resources/worksheets/wk3-day4-career-comparison.pdf)), optional Xello local-salary cross-check, projector |
 
 ---
 
@@ -17,76 +24,66 @@
 
 **WARM-UP: Name one technology you use today that did NOT exist when your parents were in middle school. (Hint: smartphones, video calls, streaming, social media, AI chatbots, etc.)**
 
-Quick share. Bridge: "Every one of those technologies created NEW jobs that didn't exist 20 years ago. Today you research one of those new jobs."
+Quick share. Bridge: "New technology can create a new job title, but it can also change an older occupation. Today you separate the title from the evidence."
 
 ---
 
-## Activity 1: Choose an Emerging IT Career (5 min)
+## Activity 1: Choose and Model an Emerging IT Career (8 min)
 
-The TEKS standard d(1)(D) requires students to research and evaluate **emerging occupations**, careers that are brand new or growing very fast. Project the list of 7 emerging IT career options:
+The TEKS standard d(1)(D) requires students to research and evaluate **emerging occupations**. For this lesson, students examine new titles and rapidly changing work. Project the six choices from the dated evidence guide:
 
-1. **AI Engineer:** Builds artificial intelligence systems and trains machine learning models.
-2. **Machine Learning Specialist:** Teaches computers to learn from data without explicit programming.
-3. **Cloud Architect:** Designs cloud-based systems (AWS, Azure, Google Cloud).
-4. **Cybersecurity Analyst:** Detects and responds to cyber threats. (Wk5 will go deeper here.)
-5. **Data Scientist:** Analyzes large amounts of data to find patterns and make predictions.
-6. **UX Designer:** Designs how users experience digital products (apps, websites, software).
-7. **Drone Software Developer:** Programs drones for delivery, inspection, mapping, agriculture.
+1. **AI or Machine Learning Engineer** — uses Computer and Information Research Scientists as a broader proxy.
+2. **Cloud Architect** — uses Computer Network Architects as a broader proxy.
+3. **Information Security Analyst** — exact BLS occupation; rapidly growing work.
+4. **Data Scientist** — exact BLS occupation; rapidly growing work.
+5. **UX Designer** — uses Web and Digital Interface Designers as the closest BLS occupation.
+6. **Drone Software Developer** — uses Software Developers as a broader proxy.
 
-Each student picks ONE career to research. Avoid duplicates within table groups so the class hears about more careers in the Day 5 mini-presentations.
+Each student picks one career. Table groups may spread choices so Day 5 includes variety, but students are not assigned an unwanted career solely to prevent duplicates.
+
+Before students begin, model the source-label decision with two rows from the guide:
+
+- **Data Scientist** is an exact BLS occupation. Its pay and growth figures describe the selected occupation.
+- **AI or Machine Learning Engineer** uses Computer and Information Research Scientists as a broader proxy. Those figures provide context for related work; they do not become an exact salary or growth claim for every AI/ML engineer.
+
+Ask students to turn and tell a partner which statement is safe: “BLS reports this exact career” or “BLS reports a related occupation that helps us understand this career.” Listen for students who treat *proxy* as “fake” or “wrong”; clarify that a proxy is useful when its limit is stated.
 
 ---
 
-## Activity 2: Research Using BLS + H&L + Web (35 min)
+## Activity 2: Controlled Source Research (30 min)
 
-Students research their chosen career using THREE sources:
+The evidence guide supplies a dated BLS starting point for every choice. Students open the named BLS page when available and complete the research sheet. They must distinguish what the source actually measures from the title they selected.
 
-1. **BLS Occupational Outlook Handbook:** [bls.gov/ooh/computer-and-information-technology/home.htm](https://www.bls.gov/ooh/computer-and-information-technology/home.htm). Find the entry for their career (some are listed under "Computer and Information Research Scientists" for AI/ML).
-2. **H&L Hat Finder:** Search the H&L app for their career and pull DFW data if available.
-3. **Google search:** Find at least one DFW-area company that hires for this role.
+Use Xello as an optional localized salary cross-check only when the exact career, DFW geography, pay measure, and date are visible. H&L may support exploration, but neither live platform is required evidence. Do not ask students to hunt through general Google results or search snippets for a current job posting during this lesson.
 
-Students complete the **Emerging Tech Research Template** ([Printable PDF](../../resources/worksheets/wk3-emerging-tech-research-template.pdf)), one row per field:
+Students complete the **Emerging Tech Research Template** ([Printable PDF](../../resources/worksheets/wk3-emerging-tech-research-template.pdf)):
 
-| Field | Student Notes |
-|---|---|
-| Career Name | |
-| What does this person do? (3-5 sentences) | |
-| Education needed (degree, certification, or both?) | |
-| Median salary (BLS) | |
-| Job growth rate (BLS) | |
-| Why is this considered "emerging"? | |
-| One DFW company that hires for this role | |
+1. selected career title;
+2. BLS occupation actually used;
+3. exact match or proxy;
+4. two or three work tasks;
+5. typical preparation;
+6. national median pay with year;
+7. growth rate with year range; and
+8. technology, demand, or work-task change supporting the emerging claim.
 
-**Active Monitoring:** Walk one lap at minute 12 targeting the salary and growth-rate rows (both pulled from BLS, not from a search snippet) and a second lap at minute 25 targeting the "why is this considered emerging" row. Stop students who are scrolling without writing. If a lap turns up several students stuck on a career with no BLS entry, pull the room together and name the closest-match rule in the tip below rather than solving it seat by seat.
+**Active Monitoring:** Walk one lap at minute 10 targeting BLS occupation plus exact/proxy label and a second lap at minute 22 targeting the emerging-work explanation. Stop students who copied a proxy number as though it described the exact title. If several students are stuck, re-model the AI/ML proxy row from the guide.
 
 !!! tip "Facilitation Tip"
-    Some emerging careers (especially AI Engineer and Drone Software Developer) are not yet listed as standalone careers on BLS. In those cases, direct students to "Software Developers" or "Computer and Information Research Scientists" as the closest match, and explicitly note in their template that the BLS doesn't yet have a unique entry, which is itself proof the career is emerging.
+    A missing standalone BLS title is not proof that a career is emerging. The student needs separate evidence that technology, demand, or work tasks are changing. The proxy tells the reader only about a broader occupation.
 
-**DOK 4:** Based on your research, what argument would you make for or against a 7th grader pursuing this emerging career instead of a more traditional IT career like Network Administrator? Use salary, growth, and education data to support your argument.
+**Evidence question (DOK 3):** Would you recommend the selected career to a student who wants rapidly changing work? Use two dated facts and explain the limit created by an exact or proxy source.
 
 ---
 
-## Exit Ticket (5 min)
+## Evidence Comparison (7 min)
 
-**EXIT TICKET** (Comparison Matrix) · [Printable PDF](../../resources/exit-tickets/1sw-wk3-day4-emerging-tech-research-ai-cloud-data-science.pdf):
-
-Compare YOUR emerging IT career (from today) to a traditional IT career (pick ONE from Wks 1-3: Software Developer, Web Developer, Network Administrator, or Database Administrator).
-
-| | My emerging career: ____________________ | Traditional career: ____________________ |
-|---|---|---|
-| What does this person DO? (one phrase) | | |
-| Median salary (BLS) | | |
-| Job growth rate (BLS) | | |
-| Why did this career exist 20 years ago? | Yes / No | Yes / No |
-
-Bottom line: Which of the two careers is growing FASTER right now? Use the growth rates from your matrix to back up your answer in one sentence. *(d(1)(C), d(1)(D))*
-
-   ___________________________________________________________________
+Use the **Emerging and Established IT Career Comparison** ([Printable PDF](../../resources/worksheets/wk3-day4-career-comparison.pdf)). Students compare the occupation, work task, exact/proxy label, May 2024 national median, and 2024-34 growth rate, then write one evidence claim and one limit. This comparison is part of the Day 4 Demonstration of Learning. *(d(1)(C), d(1)(D))*
 
 ---
 
 ## Differentiation
 
-- **Support:** Hand out the printed Emerging Careers link sheet ([Printable PDF](../../resources/worksheets/wk3-emerging-careers-link-sheet.pdf)), which names the exact BLS page for all seven careers and stars the four whose BLS page matches them closely. Point students who need direction at the four starred careers. Nothing has to be bookmarked into student browser profiles; the sheet carries the links. Pre-fill the "Career Name" field for them.
+- **Support:** Use the dated evidence guide, preselect one of the two exact-match choices, and prefill the BLS occupation. Students may highlight the pay, growth, and preparation lines before transferring them to the research sheet.
 - **Extension:** Students research a SECOND emerging career and compare them on salary, growth, and education. Which is the better bet for someone starting their career today?
-- **ELL:** Bilingual emerging career names: Inteligencia Artificial = AI, Aprendizaje automático = Machine Learning, Nube = Cloud, Ciberseguridad = Cybersecurity, Ciencia de datos = Data Science. Allow ELL students to research using Spanish-language tech sites.
+- **ELL:** Provide bilingual labels for the evidence fields: occupation = ocupación, task = tarea, preparation = preparación, median pay = salario mediano, growth = crecimiento, exact match = coincidencia exacta, proxy = ocupación aproximada. Allow oral rehearsal before students write the evidence claim.
