@@ -338,8 +338,8 @@ def page_shell(current: Path, title: str, description: str, body: str, page_clas
   <main id="main-content">{body}</main>
   <footer class="site-footer">
     <div class="shell footer-grid">
-      <div><h2>Public curriculum reference</h2><p>This site contains the course sequence and public resources. Canvas holds the active lessons, assignments, and licensed source material.</p></div>
-      <div><h2>Source repository</h2><p>The pages are generated from the tracked curriculum files. <a href="https://github.com/elbrielle/cce-curriculum">View the source on GitHub</a>.</p></div>
+      <div><h2>Created by Elisha Lucero</h2><p>Career and College Explorations is a 36-week Grade 7 curriculum for Irving ISD.</p></div>
+      <div><h2>Canvas Commons</h2><p>This site is maintained in parity with the corresponding Canvas modules shared through Canvas Commons.</p></div>
     </div>
   </footer>
   <script src="{js}" defer></script>
@@ -441,8 +441,8 @@ def resources_page(pages: dict[Path, Page]) -> str:
 
 def about_page() -> str:
     current = Path("about/index.html")
-    body = '''<header class="page-hero shell"><p class="eyebrow">Site information</p><h1>About this curriculum site</h1><p class="page-summary">A public reference for administrators, teachers, and portfolio review.</p></header><div class="shell"><article class="prose"><h2>Course delivery</h2><p>Canvas holds the active Teacher and Student Guides, assignments, authenticated platform links, and licensed files. Teachers control when course materials are published.</p><h2>Public curriculum reference</h2><p>This site contains the tracked 36-week curriculum, public planning documents, and public-safe resources. Its pages are generated from the curriculum source files in GitHub.</p><h2>Licensed and private materials</h2><p>Hats & Ladders, <em>Find Your Future</em>, Xello, Climber Notes, private AVID source files, and student information are not included on this public site.</p><h2>Source use and adaptations</h2><p>Teacher-created materials are preserved when they fit the course. Changes are documented when Grade 7, CCE, access, or timing requires an adaptation.</p></article></div>'''
-    return page_shell(current, "About this curriculum site", "A public reference for the CCE curriculum and its source boundaries.", body, "page-about")
+    body = '''<header class="page-hero shell"><p class="eyebrow">About the course</p><h1>Career and College Explorations</h1><p class="page-summary">A 36-week Grade 7 course aligned to Texas TEKS §127.2.</p></header><div class="shell"><article class="prose"><h2>Created by</h2><p>Elisha Lucero created and developed this curriculum for Career and College Explorations in Irving ISD.</p><h2>Sources and credits</h2><p>The course uses Hats & Ladders, the 2026 Irving ISD <em>Find Your Future</em> workbook, and Xello as its primary career-exploration sources. Selected routines and activities were adapted from AVID materials shared by Singley Academy teacher Jenna Hainlen. Individual lessons cite additional district, state, labor-market, and career sources where they are used.</p><h2>Canvas Commons</h2><p>This public curriculum is maintained in parity with the corresponding Canvas modules shared through Canvas Commons. The Canvas modules include the complete Teacher and Student Guides, assignments, and licensed instructional files.</p></article></div>'''
+    return page_shell(current, "About Career and College Explorations", "Creator, source attributions, and Canvas Commons information for the CCE curriculum.", body, "page-about")
 
 
 def write_text(output_root: Path, rel: Path, value: str) -> None:
