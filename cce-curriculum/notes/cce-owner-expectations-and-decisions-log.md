@@ -69,9 +69,9 @@
 ### Canvas and source-control parity
 
 - Canvas is the sole active instructional, assessment, review, and authenticated-asset environment.
-- GitHub is source control and backup. The current MkDocs site is a legacy archive, not an active teacher-delivery surface.
+- GitHub is source control and backup and hosts a generated public planning mirror. The mirror supports planning and administrator review but is not an active teacher/student delivery surface. The current MkDocs site is a legacy archive.
 - Do not maintain independent lesson copies by hand. The tracked builders and canonical curriculum source must preserve the same approved lesson truth as Canvas without copying licensed binaries.
-- A future public teacher reference remains an owner interest, but it is a separate architecture and rights decision. Do not build, QA, migrate, or deploy it unless the owner explicitly reopens that work.
+- The owner explicitly reopened the public-reference work on August 15. Use the generated `public-site/` architecture and its fail-closed rights policy; do not revive MkDocs or copy licensed/private assets into GitHub Pages.
 - **Permanent publication boundary:** agents never publish Canvas modules, Pages, Assignments, Quizzes, or files. Agents may build, restage, and verify unpublished content, but the owner always performs the Canvas Publish click personally when ready.
 - Git push, site deployment, front-page change, or navigation change requires explicit owner approval and post-release verification.
 
@@ -88,14 +88,14 @@
 - **Superseded:** a 22-slide, roughly four-slides-per-day launch summary is an acceptable Week 1 facilitation deck.
   **Current rule:** the six authenticated Week 1 AVID decks, totaling 308 slides, are the visual and instructional source set. Build each CCE day by preserving the useful source layouts, one-action-per-slide pacing, models, participation cues, work checkpoints, and real closure. Add new CCE/H&L slides only where the source does not contain the required content. The rejected skeleton is quarantined and must not be published.
 - **Superseded:** the public MkDocs site is an active delivery surface that must be updated with every Canvas change.
-  **Current rule:** Canvas is the sole active delivery surface; GitHub is source/backup and MkDocs is legacy. A future public teacher reference requires a separate explicit architecture and rights decision.
+  **Current rule:** Canvas is the sole active delivery surface. GitHub holds source/backup plus a generated public planning mirror built from tracked curriculum source. The mirror is fail-closed against licensed/private sources and is not a substitute for live Canvas review. MkDocs is legacy.
 
 ## Unresolved owner/team decisions
 
 - Whether the pilot OneNote section structure should become the shared coursewide structure after teacher feedback.
 - Whether other VILS teachers will use physical notebooks, digital notebooks, or a mix.
 - Which notebook routines should be common across teachers and which remain teacher choice.
-- Whether to reopen a future public teacher-reference project and, if so, which generated architecture and rights boundary to use.
+- Whether a later secure Canvas identity export should add verified immutable lesson-item IDs to the public mirror; do not invent them.
 - Which teacher-created AVID artifacts include third-party content that limits public redistribution.
 - Whether the Hats & Ladders teacher account exposes a reliable demo-student workflow.
 
@@ -124,6 +124,14 @@ For every source-derived artifact, record:
 
 The owner is building the course while teaching it and needs the system to reduce prep rather than create another maintenance burden. The quality bar is not “technically complete.” The course should feel coherent, teachable, visually intentional, source-grounded, engaging, and unmistakably shaped by real classroom materials and teacher judgment.
 
+## Public planning mirror decision — August 15, 2026
+
+- Replace the generic MkDocs presentation with a generated static site under `public-site/`; do not create a second hand-edited curriculum.
+- Use the owner's IDK Can You?/HalllDay Material 3 Expressive specification as design guidance: role-based tonal color, strong Nunito/Inter hierarchy, purposeful asymmetry, state-driven shape/color, stillness at rest, and reduced-motion support.
+- Do not reproduce the VILS mirror's asset-dump or repetitive card-grid feel. The CCE information architecture is a guided curriculum book: six chapter bands, a 36-week sequence, weekly timelines, readable daily plans, and a curated public-resource shelf.
+- Canvas remains the classroom and the owner remains the only Canvas publisher. GitHub Pages exposes only public-safe planning content and resources. H&L, FYF, Xello, Climber Notes, private AVID source files, and student information remain authenticated-only.
+- Preserve verified Canvas module IDs as metadata. Do not invent immutable lesson-item IDs or claim exact live parity until a secure read-only Canvas export verifies those IDs and current state.
+
 ## Current verified launch checkpoint — August 15, 2026
 
 - The owner's **IPC Week 1** is curriculum `1SW Wk0`, beginning Monday, August 17 after the Smart Solutions launch week.
@@ -135,7 +143,7 @@ The owner is building the course while teaching it and needs the system to reduc
 - Monday uses the source-grounded first-week goal cycle, a reversible OneNote Class Notebook pilot, and an equal physical/Canvas-paper route. The teacher guide provides exact materials, models, timing, monitoring, trim, and recovery. Current Microsoft support links are recorded in the canonical Day 1 source.
 - The current live Week 1 gate passes with 16 exact module items, ten unpublished Pages, five Day SubHeaders, one mapped Minor at position 13, locked referenced files/folders, and no problems. The mapped written reflection exposes only `online_upload` and `online_text_entry`; labeled paper remains teacher-collected and standalone media is not advertised. Coursewide QA passes 36/36 modules, 360 unpublished pages, the 18-Minor/12-Major assessment map, orientation, and global checks.
 - The corrected IPC file `Lucero CCR 26-27 IPC - CCE Week 1 Source-Grounded.docx` renders cleanly across all five pages. Its August 17-21 row maps the owner's IPC Week 1 to curriculum `1SW Wk0` in the correct notebook -> H&L Core -> Work Values/Building Blocks -> My Career Journey -> catch-up/Xello order and names the current 12-point Day 4 rubric.
-- No public-site work was performed. No Git files were staged, committed, or pushed because the worktree contains mixed curriculum, private-source, generated, and unrelated changes that require an intentional source/backup scope.
+- That launch checkpoint originally stopped before public-site work. The later owner-authorized `public-site/` slice was intentionally scoped, built, verified, and pushed separately without staging the six rejected/superseded local artifacts.
 
 ## Owner Sunday review map — 15 minutes
 

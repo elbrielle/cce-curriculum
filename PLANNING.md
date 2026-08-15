@@ -170,7 +170,7 @@ No systematic pass is pending. If the user directs a Wk0 pilot pass:
 
 ## 1. What This Project Is
 
-A **36-week Career and College Explorations (CCE)** course for grades 7-8 across **Irving ISD VILS Labs**, Texas. Aligned to **TEKS 127.2 (Adopted 2023)**. Canvas is the sole active production, review, and instructional environment. GitHub preserves source and automation as a backup. The static MkDocs site is a legacy archive and is not a teacher-facing review surface or a normal release gate. Each week has 1 overview + 5 daily plans = **252 markdown files total** in `docs/`.
+A **36-week Career and College Explorations (CCE)** course for grades 7-8 across **Irving ISD VILS Labs**, Texas. Aligned to **TEKS 127.2 (Adopted 2023)**. Canvas is the sole active production, review, and instructional environment. GitHub preserves source and automation and hosts a generated public planning mirror; it is not a classroom-delivery surface. The static MkDocs site is a legacy archive and is not a teacher-facing review surface or a normal release gate. Each week has 1 overview + 5 daily plans = **252 markdown files total** in `docs/`.
 
 **Platform stack:** Find Your Future workbook (core print source), Hats & Ladders (digital career exploration), Xello Grade 8 Completion Standards (required yearlong spine), eDynamic Learning/Code.org/Canva/Adobe Express (supplemental), and the VILS lab hardware baseline documented in `PLATFORMS.md`.
 
@@ -423,23 +423,23 @@ Each lesson is a rule with a one-sentence rationale. Full context in commits and
 
 Canvas is the release surface. Verify the actual Canvas module, teacher/student pages, files, permissions, links, interactions, mobile layout, and Student View before publication. Commit and push source changes to GitHub as a backup after Canvas verification.
 
-The MkDocs workflow is manual-only. Do not build, preview, QA, or deploy the legacy site unless the user explicitly requests it. A routine push to `main` must not publish the site.
+The approved GitHub Pages surface is the generated **public planning mirror** under `public-site/`. It may expose tracked lesson plans and public-safe linked resources for planning, transparency, and administrator reference, but it is never the student/teacher classroom-delivery environment. Build it from `docs/`; do not maintain a second hand-edited curriculum. Its publication policy must fail closed on missing links, outside-root files, and licensed/private H&L, FYF, Xello, Climber Notes, or AVID sources. Canvas module IDs may be recorded as stable metadata; never invent lesson-item IDs or claim exact live-body parity without a fresh secure Canvas identity/state export.
 
-### Versioning convention
+The MkDocs archive is frozen. Do not build, preview, QA, or deploy it unless the user explicitly requests archival work. The current Pages workflow builds and verifies `public-site/` on pull requests and deploys that generated mirror only after a push to `main` or an owner-invoked manual run. It never publishes Canvas.
 
-- **`latest`** — rolling pointer, always the current in-progress state. Every push to `main` updates this.
-- **Named milestones** — frozen snapshots for review. Created via Actions UI "Run workflow" with `milestone_name` input, or via `gh workflow run deploy-site.yml -f milestone_name=<name>`. Naming is descriptor-based, chosen to match the review scope.
+### Legacy MkDocs version history
+
+- **`latest`** — historical rolling pointer from the retired MkDocs workflow. It no longer updates.
+- **Named milestones** — frozen historical snapshots from the retired workflow.
   - `v1-teacher-review` — state presented at the 2026-04-15 teacher meeting (pre-feedback baseline). Do not touch.
   - `exit-ticket-pilot` — 2SW Wk2 exit-ticket pilot + TEKS audit work from 2026-04-16, for coordinator review.
-- **`YYYY-MM-DD`** — automatic daily snapshots from the nightly cron if `docs/` changed that day (noise — ignore unless debugging).
+- **`YYYY-MM-DD`** — historical daily snapshots from the retired workflow (noise — ignore unless debugging).
 
 ### When to tag a new milestone
 
-Only when the user explicitly requests legacy-site archival work, create a new named snapshot:
+Only when the user explicitly requests legacy-site archival work, plan a separate guarded archive operation. Do not route it through the current public-mirror workflow. Historical reasons to preserve a snapshot include:
 - Before a teacher / coordinator review session (capture "what they saw")
 - After a major feedback round ships
 - Before a risky refactor (rollback anchor)
-
-If a milestone name is wrong after the fact, delete and redeploy: `mike delete <name> --push` (requires `git fetch origin gh-pages` first), then `gh workflow run deploy-site.yml -f milestone_name=<correct-name>`.
 
 Never rename or delete `v1-teacher-review` — it's the historical record of what went in front of teachers on 2026-04-15.

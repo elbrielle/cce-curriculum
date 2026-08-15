@@ -2,7 +2,7 @@
 
 ## What This Is
 
-A 36-week Career and College Explorations (CCE) course curriculum for grades 7-8 across Irving ISD VILS Labs, Texas. Aligned to TEKS 127.2 Career and College Exploration (Adopted 2023). Canvas is the sole active production, review, and delivery environment for teachers and students. GitHub preserves source, automation, and build history as a backup; the MkDocs site is a legacy archive and is not part of the normal production gate. Hats & Ladders and the *Find Your Future* workbook carry the career-exploration content. District-configured Xello completion standards form a required yearlong profile and planning spine. eDynamic Learning, Canva, Adobe Express, Code.org, and other named tools are supplemental unless the scope and sequence explicitly assigns them.
+A 36-week Career and College Explorations (CCE) course curriculum for grades 7-8 across Irving ISD VILS Labs, Texas. Aligned to TEKS 127.2 Career and College Exploration (Adopted 2023). Canvas is the sole active production, review, and delivery environment for teachers and students. GitHub preserves source, automation, and build history and hosts a generated public planning mirror; it is not a classroom-delivery environment. The MkDocs site is a legacy archive and is not part of the normal production gate. Hats & Ladders and the *Find Your Future* workbook carry the career-exploration content. District-configured Xello completion standards form a required yearlong profile and planning spine. eDynamic Learning, Canva, Adobe Express, Code.org, and other named tools are supplemental unless the scope and sequence explicitly assigns them.
 
 ## Repo Structure
 
@@ -22,6 +22,12 @@ A 36-week Career and College Explorations (CCE) course curriculum for grades 7-8
 │   │       └── day1.md ... day5.md    ← five daily lesson plans
 │   └── resources/
 │       └── exit-tickets/              ← generated PDFs (one per ticket)
+│
+├── public-site/                       ← generated public planning mirror
+│   ├── build_site.py                  ← canonical docs -> public-safe static site
+│   ├── verify_site.py                 ← links, identity, accessibility, and rights gate
+│   ├── publication-policy.json        ← fail-closed public/private boundary
+│   └── assets/                        ← Material 3 Expressive site CSS/JS
 │
 ├── cce-curriculum/                    ← reference data (not the website)
 │   ├── scope-and-sequence.md          ← master pacing guide (authoritative)
@@ -152,6 +158,10 @@ Old-workbook chapter-to-week crosswalk (historical): `cce-curriculum/notes/revis
 /usr/bin/python3 build/inject_pdf_links.py   # refresh [Printable PDF] links in day files
 /usr/bin/python3 build/build_docx.py         # rebuild .docx files (legacy)
 /usr/bin/python3 build/build_xlsx.py         # rebuild spreadsheet (legacy)
+
+# Generated public planning mirror (not classroom delivery)
+UV_CACHE_DIR=/tmp/cce-site-uv uv run --with markdown --with beautifulsoup4 python public-site/build_site.py
+UV_CACHE_DIR=/tmp/cce-site-uv uv run --with beautifulsoup4 python public-site/verify_site.py
 ```
 
 **PDF regeneration is NOT byte-idempotent** (Chromium stamps a creation date into every PDF). After a pipeline run, restore timestamp-only churns: verify content equality (pdftotext) and `git restore` PDFs whose text is unchanged, so commits carry only real changes.

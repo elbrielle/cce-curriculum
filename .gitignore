@@ -1,6 +1,7 @@
 # Generated output (rebuild from markdown with build scripts)
 output/
 site/
+public-site/dist/
 
 # Worksheet-pipeline test renders + transient preview HTML
 build/_fixture_out/
