@@ -111,16 +111,16 @@ setParagraphs(7, "You can use a physical planner. (I have extras!)\nOr you can u
   { bulletCharacter: "•", marginLeft: 22, indent: -12, spaceBefore: 16, runs: [{ run: "Today’s page: ", textStyle: { bold: true, fontSize: "22pt" } }, { run: "CCE Work → Notebook Setup + First-Week Goal", textStyle: { fontSize: "22pt" } }] },
 ]);
 
-setText(8, "Evaluate: Planner Expectations", "CCE Notebook Expectations");
+setText(8, "Evaluate: Planner Expectations", "How to Know Where to Work");
 setParagraphs(8, "Academic Content\nYou must have something written down for every class every day.\nHomework/after school responsibilities\nIf no homework/after school responsibilities, a short note about what you did in class\nNote: even if you were absent, you need to have recorded something for each class. Make sure you ask what you missed!", [
-  { runs: [{ run: "One response home", textStyle: { bold: true, fontSize: "20pt" } }] },
-  { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "Use the app, workbook, Canvas, or notebook named in today’s guide", textStyle: { fontSize: "18pt" } }] },
-  { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "Do not copy the same answer into every tool", textStyle: { fontSize: "18pt" } }] },
-  { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "Keep private reflections private", textStyle: { fontSize: "18pt" } }] },
-  { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "If a tool fails, use the named fallback and keep moving", textStyle: { bold: true, fontSize: "18pt" } }] },
+  { runs: [{ run: "Follow today’s guide", textStyle: { bold: true, fontSize: "20pt" } }] },
+  { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "Start in the Canvas Student Guide", textStyle: { fontSize: "18pt" } }] },
+  { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "Open the activity named in the directions", textStyle: { fontSize: "18pt" } }] },
+  { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "Use your notebook when the directions ask for it", textStyle: { fontSize: "18pt" } }] },
+  { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "Turn in only the work named in the guide", textStyle: { bold: true, fontSize: "18pt" } }] },
 ]);
 setParagraphs(8, "Organization\nLegible to you and your teacher\nPrevious tasks are checked or crossed off\nColors, highlights, or symbols are used if wanted", [
-  { runs: [{ run: "Locate and use", textStyle: { bold: true, fontSize: "20pt" } }] },
+  { runs: [{ run: "Check before you move on", textStyle: { bold: true, fontSize: "20pt" } }] },
   { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "You can reopen today’s page", textStyle: { fontSize: "18pt" } }] },
   { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "Page title and date make sense to you", textStyle: { fontSize: "18pt" } }] },
   { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "You know where tomorrow’s directions live", textStyle: { fontSize: "18pt" } }] },
@@ -218,7 +218,7 @@ const noteSets = [
   }),
   noteBlock({
     timing: "0:30-5:00.",
-    move: "Name the four tools and repeat: every tool has one job; students do not copy one answer into four places.",
+    move: "Model the daily routine: start in Canvas, open the activity named in the directions, use the notebook only when directed, and turn in only the named work.",
     action: "Open the Canvas Day 1 Student Guide and locate FYF/H&L, Xello, and the chosen notebook route without starting later tasks.",
     lookFor: "By minute 5, at least 80% can point to the Student Guide and name the job of each tool.",
     pivot: "If fewer than 80% can locate the guide, model the route once from the student view and have students mirror it.",

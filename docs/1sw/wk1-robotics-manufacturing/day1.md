@@ -16,7 +16,7 @@
 | **TEKS** | d(1)(B), d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explain: What is CTE and Manufacturing opener · Explore: Cluster app exploration and Stop and Jot · Evaluate: Exit Ticket |
 | **Deliverable** | What is CTE response + Stop and Jot notes + two-career comparison |
-| **Materials** | *Find Your Future* workbook pp. 199 and 212, Chromebooks, Xello and H&L access, projector |
+| **Materials** | Day 1 teacher slides (Canvas), *Find Your Future* workbook pp. 199 and 212, Chromebooks, Xello and H&L access, projector |
 
 ---
 

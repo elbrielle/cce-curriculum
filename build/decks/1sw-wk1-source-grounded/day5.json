@@ -1,0 +1,162 @@
+{
+  "sources": [
+    "CCE 1SW Wk1 Day 5 canonical lesson, Xello Matchmaker and Career-Match Reflection, accessed 2026-08-15.",
+    "Xello licensed educator guide, Matchmaker Assessment, current local district copy.",
+    "Private teacher-created AVID source deck, inherited layout and lesson choreography only."
+  ],
+  "recovery": "Use the teacher demo, licensed guide, sentence frames, and private Canvas response. A paper sort can support reflection but does not count as Matchmaker completion; record the access status for supervised catch-up.",
+  "slides": [
+    {
+      "texts": ["CCE Day 5", "Xello Matchmaker\nInterests • Results • Reflection"],
+      "timing": "0:00-0:20",
+      "lookFor": "Students enter with Chromebooks closed until the privacy and prerequisite directions are stated.",
+      "pivot": "Keep this cover up while the teacher demo account and Completion Standards report are ready."
+    },
+    {
+      "texts": ["Friday"],
+      "timing": "0:20-0:40",
+      "lookFor": "Students are seated and ready for an individual assessment block.",
+      "pivot": "Move students to lower-distraction seats before launching Xello."
+    },
+    {
+      "texts": [
+        "Today’s Lesson\nModel the scale\nAnswer 39 questions\nOpen Find out why\nReflect privately",
+        "Get Ready\n",
+        "Welcome!",
+        "Chromebook\nClassLink + Xello\nPrivate Canvas reflection\nNo screenshots of results",
+        "Discussion\n\nOne activity you like\nOne task you avoid\nWhat might those answers suggest about work?"
+      ],
+      "timing": "0:40-1:00",
+      "lookFor": "Students can name the assessment, Find out why, and private reflection as three separate actions.",
+      "pivot": "Do not show a real student profile; keep the demo account ready."
+    },
+    {
+      "texts": [
+        "Warm-Up: Likes and Avoids",
+        "LIKE: __________________\nAVOID: ________________\nWHY? __________________",
+        "",
+        ""
+      ],
+      "timing": "1:00-5:00",
+      "lookFor": "One liked activity, one avoided task, and a tentative connection—not a permanent label.",
+      "pivot": "Allow fictional or course-only examples; no hobby or family disclosure is required.",
+      "images": [
+        {
+          "path": "cce-curriculum/resources/xello-licensed/prerequisites/matchmaker-assessment-page-1.png",
+          "alt": "Licensed Xello Matchmaker educator guide showing the current assessment overview"
+        }
+      ],
+      "removeImages": [0]
+    },
+    {
+      "texts": [
+        "Matchmaker Suggests",
+        "Your answers change the order of career matches.\nA surprising or weak match is still useful evidence.\nYou can change, learn, and investigate before deciding anything."
+      ],
+      "timing": "5:00-6:00",
+      "lookFor": "Students understand that the result is a starting point, not a grade or destiny.",
+      "pivot": "Ask for a silent thumbs-sideways if a student has ever changed an interest."
+    },
+    {
+      "texts": [
+        "Prerequisite Check",
+        "Matchmaker opens only after the earlier After high school goal is complete. STATUS: ready • prerequisite missing • login/access issue • absent. The teacher records the status; students do not submit screenshots."
+      ],
+      "timing": "6:00-7:00",
+      "lookFor": "Every student is quickly assigned the ready or catch-up route without public disclosure.",
+      "pivot": "Students with a missing prerequisite use supervised catch-up; do not consume the whole class launch."
+    },
+    {
+      "texts": [
+        "Use the Full Response Scale",
+        "LIKE VERY MUCH\nLIKE\nNOT SURE\nDISLIKE\nDISLIKE VERY MUCH\n\nAnswer honestly. Do not choose the same response repeatedly just to finish."
+      ],
+      "timing": "7:00-10:00",
+      "lookFor": "Students can distinguish strong like, uncertainty, and strong dislike.",
+      "pivot": "Read the scale aloud and model one neutral example through the demo account."
+    },
+    {
+      "texts": [
+        "Open Find out why",
+        "Choose one sample career result • Open Find out why • Notice which interests raised or lowered the match. Model with the teacher demo—not a real student profile."
+      ],
+      "timing": "10:00-12:00",
+      "lookFor": "Students can explain that a match score is connected to specific interest answers.",
+      "pivot": "Use the visible text model if video or demo access fails."
+    },
+    {
+      "texts": [
+        "ClassLink → Xello → About Me",
+        "Exact route",
+        "ABOUT ME",
+        "MATCHMAKER",
+        "39 QUESTIONS",
+        "FIND OUT WHY",
+        "PRIVATE REFLECTION"
+      ],
+      "timing": "12:00-14:00",
+      "lookFor": "Every ready student opens Matchmaker, not another About Me quiz.",
+      "pivot": "Project the tested campus route; record access issues rather than sharing credentials."
+    },
+    {
+      "texts": [
+        "Work Block 1: Questions 1-20",
+        "Read each statement • Use the full scale • Ask for a read-aloud when a word is unclear. Quiet individual work: the goal is an honest pattern, not the fastest finish."
+      ],
+      "timing": "14:00-28:00",
+      "lookFor": "First lap: all ready students are in Matchmaker and reading rather than rapid-clicking.",
+      "pivot": "If one third stalls on vocabulary, pause for one sample read-aloud and restart the quiet block.",
+      "trim": "Do not trim the 28-minute assessment runway; trim optional video or whole-group discussion."
+    },
+    {
+      "texts": [
+        "Questions 21-39",
+        "Keep using the full scale.",
+        "WORK BLOCK 2\nFinish the first 39 questions.\nReview the career matches that appear.\nOpen one career.\nDo not move to another About Me assessment.",
+        "Second lap: varied responses, steady reading, and the correct assessment."
+      ],
+      "timing": "28:00-38:00",
+      "lookFor": "Second lap: students use varied responses; finished students are reviewing matches, not starting another quiz.",
+      "pivot": "If a student will not finish by minute 40, record catch-up and allow a teacher-sample reflection start."
+    },
+    {
+      "texts": [
+        "Use Find out why Before You Reflect",
+        "One career result",
+        "OPEN",
+        "Find out why\nWhich interest raised or lowered this match?\nWhat part fits or surprises you?\n\nA result can be useful even when you dislike it."
+      ],
+      "timing": "38:00-40:00",
+      "lookFor": "Final lap: each finished student opens one career and Find out why.",
+      "pivot": "Use the teacher-sample result for students whose assessment is still pending."
+    },
+    {
+      "texts": [
+        "Private Reflection",
+        "1. What result surprised you, and why?\n2. What did Find out why show about one match?\n3. Give one example of how an interest affected a career match.\nText or private oral conference. Score the reasoning—not whether the student likes the result."
+      ],
+      "timing": "40:00-47:00",
+      "lookFor": "All three prompts have a reason or example; students do not post screenshots or public results.",
+      "pivot": "Use the three sentence frames, speech-to-text, or private conference record."
+    },
+    {
+      "texts": [
+        "Record Completion Status",
+        "COMPLETE\nPREREQUISITE MISSING\nLOGIN / ACCESS ISSUE\nABSENT\nCompletion Standards is the platform record. Schedule supervised catch-up for the last three."
+      ],
+      "timing": "47:00-49:00",
+      "lookFor": "Teacher status list matches the Completion Standards report and private reflection records.",
+      "pivot": "Do not call out statuses aloud; record them quietly while students close."
+    },
+    {
+      "texts": [
+        "A result that surprised me was ____. One interest that changed a match was ____. One question I still have is ____.\n\nNo screenshot. Submit once through the private route.",
+        "Close: Result → Reason → Question",
+        "Image by Jeswin Thomas on Unsplash"
+      ],
+      "timing": "49:00-50:00",
+      "lookFor": "Students submit one private response or have a named catch-up status.",
+      "pivot": "Use a silent close; protect privacy and finish the status record."
+    }
+  ]
+}

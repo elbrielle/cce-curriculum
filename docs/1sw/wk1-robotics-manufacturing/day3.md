@@ -16,7 +16,7 @@
 | **TEKS** | d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explore: Bike rack design, metal and weld choices, prototype build and strength test · Explain: Class discussion on design trade-offs · Evaluate: Exit Ticket |
 | **Deliverable** | Bike rack sketch with labeled welds (FYF p. 206) + one tested prototype per pair |
-| **Materials** | *Find Your Future* workbook pp. 204-206, popsicle sticks, straws, hot glue guns and glue sticks (one gun per pair-station), heat-safe station mats (one per station), scrap trays, scissors, craft gloves, plain paper, pencils, projector |
+| **Materials** | Day 3 teacher slides (Canvas), *Find Your Future* workbook pp. 204-206, popsicle sticks, straws, hot glue guns and glue sticks (one gun per pair-station), heat-safe station mats (one per station), scrap trays, scissors, craft gloves, plain paper, pencils, projector |
 
 ---
 

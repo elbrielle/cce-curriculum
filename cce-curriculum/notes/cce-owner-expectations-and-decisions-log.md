@@ -72,7 +72,7 @@
 - GitHub is source control and backup and hosts a generated public planning mirror. The mirror supports planning and administrator review but is not an active teacher/student delivery surface. The current MkDocs site is a legacy archive.
 - Do not maintain independent lesson copies by hand. The tracked builders and canonical curriculum source must preserve the same approved lesson truth as Canvas without copying licensed binaries.
 - The owner explicitly reopened the public-reference work on August 15. Use the generated `public-site/` architecture and its fail-closed rights policy; do not revive MkDocs or copy licensed/private assets into GitHub Pages.
-- **Permanent publication boundary:** agents never publish Canvas modules, Pages, Assignments, Quizzes, or files. Agents may build, restage, and verify unpublished content, but the owner always performs the Canvas Publish click personally when ready.
+- **Permanent publication boundary:** the owner controls Canvas publication. Agents never publish or unpublish modules, Pages, Assignments, Quizzes, or files. Existing owner-published content may still be maintained in place; publication is not a maintenance blocker. Record the before state, make only the approved content change, and require every publication value to remain unchanged afterward.
 - Git push, site deployment, front-page change, or navigation change requires explicit owner approval and post-release verification.
 
 ## Superseded assumptions
@@ -135,7 +135,7 @@ The owner is building the course while teaching it and needs the system to reduc
 ## Current verified launch checkpoint — August 15, 2026
 
 - The owner's **IPC Week 1** is curriculum `1SW Wk0`, beginning Monday, August 17 after the Smart Solutions launch week.
-- Canvas module `542880`, `1SW Wk0: Classroom Routines and Career Self-Discovery`, remains unpublished with an exact 16-item structure: five day SubHeaders, ten Teacher/Student Pages, and the mapped Day 4 Minor 1 Assignment at position 13.
+- Canvas module `542880`, `1SW Wk0: Classroom Routines and Career Self-Discovery`, had an exact 16-item structure at the reviewed launch checkpoint: five day SubHeaders, ten Teacher/Student Pages, and the mapped Day 4 Minor 1 Assignment at position 13. The owner later published the module. Agents must preserve that owner-selected publication state during maintenance.
 - The five reviewed local Canvas-bound decks total 75 slides (15/16/16/13/15). The source-integrity repair changed the local Day 2 deck to SHA-256 `0452fdad088814c41de28ef64268833178bd6740f8a0f134616d8277bee46bfc`; it is now restaged as locked Canvas file `14615688`. A separate post-run re-download hash comparison was not performed, so do not overstate byte-parity evidence for that one file.
 - The Monday goal sheet and all four Thursday reflection/rubric PDFs are also byte-for-byte identical between the reviewed local files and locked Canvas downloads.
 - The post-restage 20 live responsive Teacher/Student desktop/mobile views are complete and unpublished, have exactly one canonical contract each, load every image, and have zero horizontal overflow. Changed Day 1-5 Teacher and Day 2/4/5 Student views were inspected at original detail at desktop and mobile with no clipping, overlap, broken media, missing tail, or mobile scan blocker.
@@ -173,18 +173,18 @@ This is a review path, not another lesson plan. The Teacher Facilitator Guide an
 - Projector connected with the Day 1 deck open.
 - One FYF workbook per student for the course-map demonstration only; students do not complete a workbook page Monday.
 - One teacher access-problem list. Move a student to the approved fallback instead of troubleshooting one account while the class waits.
-- Canvas module `542880` remains unpublished until the owner reviews it and personally chooses to publish it. Agents do not perform publication.
+- Confirm the current state of Canvas module `542880`, but do not change its publication state. The owner controls publication.
 
-### Minutes 13-15: rehearse only the load-bearing moves
+### Minutes 13-15: rehearse the essential moves
 
-- Opening line: **“Every tool has one job. We are not copying the same answer into four places.”**
+- Opening line: **“Start in Canvas. Today’s guide will tell you what to open and what to complete.”**
 - Notebook test line: **“The place I will use for CCE work is ____. If it does not open, I will use ____.”**
 - Goal model: goal, why, one visible action, checkpoint, confidence 1-5, and support/recovery.
 - Protected trim: shorten the course-tool tour and partner check. Do not cut the notebook save test, action/checkpoint, or fallback.
 
 ### Monday-ready boundary
 
-Monday's teacher deck, goal sheet, Teacher/Student guides, exact 50-minute flow, OneNote/paper parity, models, monitoring, trim, and recovery are reviewed and now restaged to the unpublished Canvas module. Deep, coursewide, responsive, and human visual gates pass. The remaining owner actions are the OneNote student-account test, Hats & Ladders teacher-account/roster verification, and explicit publication decision.
+Monday's teacher deck, goal sheet, Teacher/Student guides, exact 50-minute flow, OneNote/paper parity, models, monitoring, trim, and recovery were reviewed and restaged to Canvas. Deep, coursewide, responsive, and human visual gates passed at that checkpoint. The owner later published the module; future maintenance must preserve that state. The remaining operational checks are the OneNote student-account test and Hats & Ladders teacher-account/roster verification.
 
 ## VILS notebook-pilot feedback protocol
 

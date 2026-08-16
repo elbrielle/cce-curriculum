@@ -1,0 +1,213 @@
+{
+  "sources": [
+    "CCE 1SW Wk1 Day 3 canonical lesson, Super Sports Manufacturing, accessed 2026-08-15.",
+    "Find Your Future pp. 204-206, Super Sports Manufacturing.",
+    "Private teacher-created AVID source deck, inherited layout and lesson choreography only."
+  ],
+  "recovery": "Use the embedded FYF pages, pre-drawn rack scaffold, and tape or dry-fit route. Hot glue is never required for access; the Canvas Student Guide remains the absence route.",
+  "slides": [
+    {
+      "texts": ["CCE Day 3", "Super Sports Manufacturing\nDesign • Build • Test"],
+      "timing": "0:00-0:20",
+      "lookFor": "Students enter and leave all glue guns unplugged.",
+      "pivot": "Hold this cover while materials stay at the supervised stations."
+    },
+    {
+      "texts": ["Wednesday"],
+      "timing": "0:20-0:40",
+      "lookFor": "Pairs and station routes are visible before the launch.",
+      "pivot": "Assign pairs from the posted list; do not spend work time negotiating partners."
+    },
+    {
+      "texts": [
+        "Today’s Lesson\nSketch + label\nChoose material + weld\nBuild one rack\nTest one weak spot",
+        "Get Ready\n",
+        "Welcome!",
+        "FYF pp. 204-206\nPencil + ruler\nPartner materials stay closed\nTape/dry-fit route available",
+        "Discussion\n\nWho designs a bike rack?\nWho builds it?\nWho checks that it holds up?"
+      ],
+      "timing": "0:40-1:00",
+      "lookFor": "Students can name the individual sketch and the one shared tested prototype.",
+      "pivot": "State the no-glue-yet rule before displaying the materials.",
+      "removeShapes": ["Google Shape;421;p51", "Google Shape;428;p51"],
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day3/bike-rack-design-brief.png",
+          "alt": "Find Your Future Super Sports Manufacturing bike-rack design brief"
+        }
+      ]
+    },
+    {
+      "texts": [
+        "How many bikes use the rack near our school?\n\nIf a district orders 100 new racks, who designs them, who builds them, and what must they survive?",
+        "Warm-Up: Follow the Product",
+        "Word Bank:\ndesign     weld     inspect\nweather     load     joint\nprototype     production",
+        "Write one role and one job that role performs."
+      ],
+      "timing": "1:00-5:00",
+      "lookFor": "One named role plus a visible task, not just 'factory worker.'",
+      "pivot": "Offer designer, welder, production technician, and quality inspector as starting roles."
+    },
+    {
+      "texts": [
+        "100 CUSTOM BIKE RACKS",
+        "Meet the Manufacturing Order",
+        "DESIGN",
+        "METAL",
+        "JOINTS",
+        "TEST",
+        "You are the expert welder at SuperSports Manufacturing. The rack must be durable, functional, weather-resistant, and repeatable 100 times."
+      ],
+      "timing": "5:00-8:00",
+      "lookFor": "Students understand that one prototype represents a repeatable production decision.",
+      "pivot": "Ask what changes when a company must build 100 identical products, not one craft project."
+    },
+    {
+      "texts": [
+        "What Must the Rack Do?",
+        "Requirements",
+        "STRONG",
+        "RAIN",
+        "COMPACT",
+        "REPEAT",
+        "Hold multiple bikes without bending. Survive outdoor weather. Fit near sidewalks. Use joints another team could build the same way."
+      ],
+      "timing": "8:00-12:00",
+      "lookFor": "Sketch ideas respond to at least three requirements.",
+      "pivot": "Point to the requirement a decorative idea must still satisfy."
+    },
+    {
+      "texts": [
+        "Sketch Top + Side Views",
+        "FYF p. 204\nTOP VIEW = from above\nSIDE VIEW = from the side\n\nLabel where bikes sit and where the rack touches the ground."
+      ],
+      "timing": "12:00-18:00",
+      "lookFor": "Both views are present and refer to the same rack shape.",
+      "pivot": "Use the pre-drawn scaffold; students modify and label rather than start from a blank page.",
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day3/bike-rack-design-brief.png",
+          "alt": "Find Your Future top-view and side-view bike-rack sketch spaces"
+        }
+      ]
+    },
+    {
+      "texts": [
+        "Choose One Metal",
+        "ALUMINUM — lightweight; no rust; bends and dents • STAINLESS STEEL — very strong; no rust; heavy • CARBON STEEL — strong; affordable; may rust if uncoated"
+      ],
+      "timing": "18:00-22:00",
+      "lookFor": "One metal choice plus a pro and a tradeoff from the source table.",
+      "pivot": "Use: I chose ____ because ____, even though ____."
+    },
+    {
+      "texts": [
+        "Choose a Joint",
+        "SPOT — small points in thin metal • FILLET — pieces at an angle • SURFACING — fills a hole • CORNER — supports an outside angle"
+      ],
+      "timing": "22:00-26:00",
+      "lookFor": "Students choose a named method that matches the geometry of the joint.",
+      "pivot": "Hold two sticks in an L shape and ask which method is designed for that angle.",
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day3/metals-and-welding-methods.png",
+          "alt": "Find Your Future metal tradeoffs and welding-method reference"
+        }
+      ]
+    },
+    {
+      "texts": [
+        "Today’s Lesson\nName the weld.\nPoint to the joint.\nExplain why it fits.",
+        "Open FYF p. 204",
+        "Label Every Planned Weld",
+        "Arrow + weld name + reason",
+        "Example: Fillet weld here because the upright meets the base at an angle."
+      ],
+      "timing": "26:00-30:00",
+      "lookFor": "Every arrow has a weld name; at least one label explains the joint shape.",
+      "pivot": "If labels say only 'weld here,' return students to the four-method reference.",
+      "removeShapes": ["Google Shape;349;p47", "Google Shape;356;p47"],
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day3/metals-and-welding-methods.png",
+          "alt": "Find Your Future welding-method chart used to label the bike-rack sketch"
+        }
+      ]
+    },
+    {
+      "texts": [
+        "Choose One Design to Build",
+        "Partners compare both sketches. Build ONE rack together • Choose the design with clearer requirements and weld labels—not the fastest drawing • Cannot agree? Use the design you can explain and test."
+      ],
+      "timing": "30:00-33:00",
+      "lookFor": "Each pair points to one selected sketch and names why it is buildable.",
+      "pivot": "Teacher assigns the clearer labeled design when a pair remains stuck."
+    },
+    {
+      "texts": [
+        "Build Safety Before Speed",
+        "VOICE 1\nGun stays on the heat-safe mat\nCraft gloves before glue\nScraps in the tray\nOne pair per station\nTape or dry-fit counts equally",
+      "",
+      ""
+      ],
+      "timing": "33:00-35:00",
+      "lookFor": "Students can point to the mat, gloves, scrap tray, timer, and their assigned connection route.",
+      "pivot": "If station control is not ready, run the entire build as tape/dry-fit; do not delay the design evidence.",
+      "removeShapes": ["Google Shape;300;p43"],
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day3/build-and-test-prototype.jpg",
+          "alt": "Find Your Future prototype build and strength-test directions"
+        }
+      ]
+    },
+    {
+      "texts": [
+        "One rack.\nOne visible timer.\nOne safe route.",
+        "Build for 7 Minutes",
+        "ARRANGE",
+        "CONNECT",
+        "CHECK JOINTS",
+        "ADJUST",
+        "Match the chosen sketch. Try more than one joint when a section feels weak."
+      ],
+      "timing": "35:00-42:00",
+      "lookFor": "Pairs build the selected geometry, keep materials at stations, and adjust at least one weak connection.",
+      "pivot": "At minute 39, stop decoration and require a standing base plus one tested joint."
+    },
+    {
+      "texts": [
+        "Test, Observe, Reinforce",
+        "Press gently • Does it balance or wobble? • Name the strongest joint • Name the weak spot • What would you reinforce first?"
+      ],
+      "timing": "42:00-45:00",
+      "lookFor": "Each pair names one observed weak spot and one evidence-based reinforcement.",
+      "pivot": "If a rack fails completely, use the failure as the test result; students do not need to rebuild."
+    },
+    {
+      "texts": [
+        "Rank the Three Metals\n1 = best outdoors • 2 = middle • 3 = weakest fit",
+        "Use one pro and one con for #1. Name the weak prototype joint, the weld that strengthens it, and one other Manufacturing career.",
+        "Source: Find Your Future, Manufacturing"
+      ],
+      "timing": "45:00-49:00",
+      "lookFor": "The ranking cites the source table, the weak spot matches the prototype test, and the second career has a task.",
+      "pivot": "Allow labeled bullets and the metal-choice sentence frame.",
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day3/metals-and-welding-methods.png",
+          "alt": "Find Your Future metal pros, cons, and welding-method reference used for the exit ticket"
+        }
+      ]
+    },
+    {
+      "texts": [
+        "Thursday",
+        "Tomorrow: use case evidence to plan for two robot problems."
+      ],
+      "timing": "49:00-50:00",
+      "lookFor": "Sketches are labeled, one prototype per pair is accounted for, and all glue guns are unplugged on mats.",
+      "pivot": "Students leave prototypes in the named tray; do not spend the final minute on a gallery walk."
+    }
+  ]
+}

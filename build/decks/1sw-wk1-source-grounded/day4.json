@@ -1,0 +1,192 @@
+{
+  "sources": [
+    "CCE 1SW Wk1 Day 4 canonical lesson, Robots for Crayons Evidence and Action Plan, accessed 2026-08-15.",
+    "Find Your Future pp. 200-203, Robots for Crayons.",
+    "Private teacher-created AVID source deck, inherited layout and lesson choreography only."
+  ],
+  "recovery": "Use the embedded FYF pages and two-problem packet. Students may work independently, dictate, or use speech-to-text; the peer presentation is not required evidence.",
+  "slides": [
+    {
+      "texts": ["CCE Day 4", "Robots for Crayons\nEvidence • Test • Plan"],
+      "timing": "0:00-0:20",
+      "lookFor": "Students enter with FYF pp. 200-203 and the action-plan packet ready.",
+      "pivot": "Hold the cover until groups and role lenses are assigned."
+    },
+    {
+      "texts": ["Thursday"],
+      "timing": "0:20-0:40",
+      "lookFor": "Materials are distributed without beginning the case early.",
+      "pivot": "Use seated groups; movement is not required."
+    },
+    {
+      "texts": [
+        "Today’s Lesson\nRead two problems\nMark evidence\nBuild two testable plans",
+        "Get Ready\n",
+        "Welcome!",
+        "FYF pp. 200-203\nAction-plan packet\nPencil or speech-to-text\nPrivate/independent route available",
+        "Discussion\n\nA failure begins right after one part is replaced. What should the team check first—and why?"
+      ],
+      "timing": "0:40-1:00",
+      "lookFor": "Students can name the two case problems and the two completed plans due today.",
+      "pivot": "Read only the output sequence; teach vocabulary at the machine-reference slide."
+    },
+    {
+      "texts": ["Stop and Jot: What Changed?"],
+      "timing": "1:00-5:00",
+      "lookFor": "One first check plus the evidence that would make it useful.",
+      "pivot": "Offer replaced part, new settings, or new material as examples; do not solve either case yet.",
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day4/robots-for-crayons-problems.png",
+          "alt": "Find Your Future Robots for Crayons Color Confusion and Slowpoke Robot problems"
+        }
+      ],
+      "removeImages": [1]
+    },
+    {
+      "texts": [
+        "Two Factory Problems",
+        "COLOR CONFUSION — boxes repeat or miss colors, especially Sky Blue and Violet • SLOWPOKE ROBOT — the arm moves too slowly or misses crayons, causing falls, piles, jams, and stopped production."
+      ],
+      "timing": "5:00-9:00",
+      "lookFor": "Students can describe each symptom without adding a cause.",
+      "pivot": "Ask students to label each statement symptom, not solution.",
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day4/robots-for-crayons-problems.png",
+          "alt": "Find Your Future description of the two Robots for Crayons production problems"
+        }
+      ],
+      "removeImages": [0]
+    },
+    {
+      "texts": [
+        "Three Systems to Understand",
+        "COLOR SENSORS\nidentify colors\nROBOTIC ARMS\nmove and place crayons\nPRODUCTION LINE\ncoordinates speed and flow\nAfter each chunk, name one source-supported cause—not a final answer."
+      ],
+      "timing": "9:00-15:00",
+      "lookFor": "Students connect each symptom to a relevant system and keep possibilities open.",
+      "pivot": "Read one system at a time and ask what evidence would point toward it.",
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day4/how-the-machines-work.png",
+          "alt": "Find Your Future reference explaining color sensors, robotic arms, and production lines"
+        }
+      ],
+      "removeImages": [0]
+    },
+    {
+      "texts": [
+        "Read the Shift Evidence by Role",
+        "SHIFT SUPERVISOR\nQUALITY CONTROL SPECIALIST\nMAINTENANCE TECHNICIAN\nPACKAGING SUPERVISOR\nMark two clues for each problem. Record what your role would check first."
+      ],
+      "timing": "15:00-20:00",
+      "lookFor": "Every student marks case evidence and can explain the first check through the assigned role lens.",
+      "pivot": "Read the shift notes aloud and allow a private individual route.",
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day4/shift-notes-and-impact-report.png",
+          "alt": "Find Your Future shift notes and production impact evidence for Robots for Crayons"
+        }
+      ],
+      "removeImages": [0]
+    },
+    {
+      "texts": [
+        "Color Confusion: Strongest Evidence",
+        "The problem began after the color sensor was replaced. Cleaning, lighting adjustment, and recalibration did not solve it.\nDefensible first plan: check compatibility and installation, then run a controlled sensor test.\nThe software update is possible—not proven."
+      ],
+      "timing": "20:00-24:00",
+      "lookFor": "Students cite the replacement-sensor timing and distinguish possible from confirmed.",
+      "pivot": "If students call the update proof, ask what controlled test would separate the two causes.",
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day4/shift-notes-and-impact-report.png",
+          "alt": "Find Your Future evidence used to analyze the Color Confusion case"
+        }
+      ],
+      "removeImages": [0]
+    },
+    {
+      "texts": [
+        "Slowpoke Robot: Strongest Evidence",
+        "The problem began after the rubber belt was changed. The reference names mismatched speed and belt tension as causes.\nDefensible first plan: check belt size and tension, then retest the arm and conveyor together."
+      ],
+      "timing": "24:00-28:00",
+      "lookFor": "Students connect the new belt to a safe size/tension check and observable retest.",
+      "pivot": "Ask what a successful retest would look and sound like.",
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day4/how-the-machines-work.png",
+          "alt": "Find Your Future machine reference used to analyze belt tension and coordinated line speed"
+        }
+      ],
+      "removeImages": [0]
+    },
+    {
+      "texts": [
+        "Evidence, Possible Cause, or Guess?",
+        "EVIDENCE\nA source says the failure began after the belt change.\nPOSSIBLE CAUSE\nThe new belt may have the wrong size or tension.\nGUESS\nReplace the motor because motors break.\nA plan needs evidence + a safe test."
+      ],
+      "timing": "28:00-31:00",
+      "lookFor": "Students sort claims correctly and can repair a guess by adding source evidence and a test.",
+      "pivot": "Run a three-finger check: 1 evidence, 2 possible cause, 3 guess.",
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day4/robots-for-crayons-problems.png",
+          "alt": "Find Your Future problem statements used to distinguish evidence from guesses"
+        }
+      ],
+      "removeImages": [0]
+    },
+    {
+      "texts": [
+        "Brainstorm, Then Select",
+        "Generate several safe ideas for BOTH problems.\n\nStop below the workbook’s 15-idea suggestion if needed to protect the final plan.\n\nChoose the idea with:\n• two case clues\n• a controlled test\n• an observable result\n• a next check if it fails"
+      ],
+      "timing": "31:00-35:00",
+      "lookFor": "Both problems have more than one idea before teams select a response.",
+      "pivot": "If brainstorming becomes random, require every new idea to connect to a marked clue.",
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day5/robots-for-crayons-action-plan.png",
+          "alt": "CCE Robots for Crayons two-problem evidence and action-plan response surface"
+        }
+      ],
+      "removeImages": [0]
+    },
+    {
+      "texts": [
+        "Complete Both Action Plans",
+        "EACH PROBLEM NEEDS\n1. Two source clues\n2. Selected solution\n3. How it works\n4. Three ordered steps\n5. Tools or adjustments\n6. Time + production effect\n7. Prevention or next evidence-based check\n\n10-minute check: evidence + one solution.\n16-minute check: second ordered plan."
+      ],
+      "timing": "35:00-45:00",
+      "lookFor": "By minute 40, both evidence sections and one selected solution are complete; by minute 44, ordered steps exist for both.",
+      "pivot": "If a team cannot name a tool, test, time, or result, label the response an idea and send it back for one concrete detail.",
+      "trim": "Trim the brainstorm count and peer presentation before trimming either final plan.",
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day5/robots-for-crayons-action-plan.png",
+          "alt": "CCE action-plan packet with separate space for evidence, steps, tools, time, production effect, and next check"
+        }
+      ],
+      "removeImages": [0]
+    },
+    {
+      "texts": [
+        "Exit: Who Acts First?",
+        "Choose one Manufacturing role.\nIn 2-3 sentences:\nExplain what that worker does first.\nCite one clue from the case.\nSubmit the two-problem packet. The peer presentation is optional, not required evidence this week."
+      ],
+      "timing": "45:00-50:00",
+      "lookFor": "The role’s first action matches the cited clue and both packet plans are collected.",
+      "pivot": "Accept a private oral conference or speech-to-text; record the evidence without requiring public presentation.",
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day4/shift-notes-and-impact-report.png",
+          "alt": "Find Your Future role and shift evidence reference for the Robots for Crayons exit response"
+        }
+      ],
+      "removeImages": [0]
+    }
+  ]
+}

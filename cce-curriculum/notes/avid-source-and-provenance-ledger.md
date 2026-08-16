@@ -60,6 +60,20 @@ The following five private, Canvas-bound decks are the reviewed launch package. 
 
 Total: **75 source-grounded slides**. Every day has its own complete 50-minute teaching route; slide counts differ because the instructional jobs differ.
 
+## 1SW Wk1 Manufacturing teacher-deck package
+
+The five Manufacturing decks use the private teacher-created AVID originals for layout, daily rhythm, one-action-per-slide pacing, and closure. The lesson content comes from the current 1SW Wk1 H&L, *Find Your Future*, Xello, and CCE lesson sources. The decks do not import AVID grading systems, planner checks, student information, campus-specific announcements, or unrelated AVID assignments.
+
+| Day | Slides | Private Canvas file | SHA-256 | Source and adaptation record |
+|---|---:|---|---|---|
+| 1 | 15 | `cce-1sw-wk1-day1-manufacturing-source-grounded.pptx` | `715fa8dae6feff86d78aaefe734b4f5221ec77c389f51826c22b5819c6f24198` | Manufacturing cluster, FYF pp. 199 and 212, current H&L Manufacturing route, and required Xello `What Is CTE?`; private AVID layout and facilitation rhythm only |
+| 2 | 16 | `cce-1sw-wk1-day2-manufacturing-source-grounded.pptx` | `7c72d61863f15b9b7f5edad28c304122993fc62074adff71e2e7ed94af984577` | FYF pp. 207-208 Machine Breakdown Mystery plus one H&L Manufacturing Hat research record; private AVID layout and facilitation rhythm only |
+| 3 | 16 | `cce-1sw-wk1-day3-manufacturing-source-grounded.pptx` | `01d5ae4ed72b9663cd551ff0a1a7a0660d3c2f2ee5bda19f0ef65ccd5532e93e` | FYF pp. 204-206 design, metal, weld, build, and test sequence; private AVID layout and facilitation rhythm only |
+| 4 | 13 | `cce-1sw-wk1-day4-manufacturing-source-grounded.pptx` | `c02a86f1da143410e5f6228dd0b80070014701613056e1771c1427328e89e437` | FYF pp. 200-203 Robots for Crayons evidence and action-plan sequence; private AVID layout and facilitation rhythm only |
+| 5 | 15 | `cce-1sw-wk1-day5-manufacturing-source-grounded.pptx` | `b61da919524fcd3133b3e33a4c015ac3c4345628125725dc58509cb8bcde93ef` | Licensed Xello Matchmaker route, current prerequisite, first 39 questions, `Find out why`, private reflection, and Completion Standards check; private AVID layout and facilitation rhythm only |
+
+Final checks on 2026-08-16: 75/75 slides inspected; every deck runs continuously from 0:00 to 50:00; 75/75 speaker notes include timing, purpose, monitoring, pivot, trim, recovery/access, and sources; all five template-fidelity checks report zero issues; no empty bullet or number metadata remains. The overflow helper reports only the same inherited edge artwork already present in each approved starter. The five PPTX files remain ignored and are uploaded only to the locked Canvas support folder. Tracked JSON and the deck builder preserve the reproducible edits without publishing the permission-bounded binaries.
+
 ## Launch-week instructional spine
 
 This sequence preserves the current H&L/FYF order and uses AVID structures only where they perform a verified classroom job.

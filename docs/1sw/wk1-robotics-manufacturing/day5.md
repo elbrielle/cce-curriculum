@@ -16,13 +16,13 @@
 | **TEKS** | d(1)(A) |
 | **5E Phases** | Engage: Interest warm-up · Explain: Matchmaker scale and Find out why model · Explore: Matchmaker assessment · Evaluate: Private reflection and completion check |
 | **Deliverable** | Xello Matchmaker completion + private Matchmaker reflection |
-| **Materials** | Chromebooks, district ClassLink/Xello accounts, licensed Xello Matchmaker educator guide, private Canvas Matchmaker Reflection assignment, projector |
+| **Materials** | Day 5 teacher slides (Canvas), Chromebooks, district ClassLink/Xello accounts, licensed Xello Matchmaker educator guide, private Canvas Matchmaker Reflection assignment, projector |
 
 ---
 
 ## Before Class
 
-1. Confirm that students completed **After high school goal** in Week 0. Matchmaker is locked until that prerequisite is complete.
+1. Confirm that students completed the earlier **After high school goal**. Matchmaker is locked until that prerequisite is complete.
 2. Open the Xello Completion Standards report and the student demo account.
 3. Open the licensed **Matchmaker Assessment** educator guide and the official **Understanding Your Career Matches** video if it is available and district-accessible.
 4. Open the private Canvas Matchmaker Reflection assignment. Do not create a public discussion or require screenshots of student results.

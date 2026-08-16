@@ -1,0 +1,168 @@
+{
+  "sources": [
+    "CCE 1SW Wk1 Day 1 canonical lesson, Manufacturing Cluster Tour, accessed 2026-08-15.",
+    "Find Your Future pp. 199 and 212, Manufacturing opener and App Exploration.",
+    "Private teacher-created AVID source deck, inherited layout and lesson choreography only."
+  ],
+  "recovery": "Use the Canvas Student Guide, FYF pages, and the named notebook or paper route. A platform outage is recorded for supervised catch-up; students do not use a peer account.",
+  "slides": [
+    {
+      "texts": ["CCE 1SW", "Manufacturing Careers"],
+      "timing": "0:00-0:20",
+      "lookFor": "Students enter, open Canvas Day 1, and leave H&L/Xello closed until directed.",
+      "pivot": "If devices are delayed, begin the product warm-up orally while materials arrive."
+    },
+    {
+      "texts": ["Monday"],
+      "timing": "0:20-0:40",
+      "lookFor": "The room is ready for the Day 1 launch.",
+      "pivot": "Keep this divider visible while students settle."
+    },
+    {
+      "texts": [
+        "Today’s Lesson",
+        "Get Ready",
+        "Chromebook\nFind Your Future pp. 199 + 212\nOpen Canvas: Day 1 Student Guide\nCCE notebook or paper fallback",
+        "Submit What Is CTE?\nTour Manufacturing\nCompare two careers",
+        "Welcome!"
+      ],
+      "timing": "0:40-1:00",
+      "lookFor": "Students can name the three products due today: Xello response, Stop and Jot, and two-career comparison.",
+      "pivot": "Read only the action verbs; explain each tool when its block begins.",
+      "removeShapes": ["Google Shape;709;p94"],
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day1/manufacturing-chapter-opener.jpg",
+          "alt": "Find Your Future Manufacturing chapter opener showing manufacturing careers and equipment"
+        }
+      ]
+    },
+    {
+      "texts": [
+        "Think",
+        "Name one product you used this morning.\n\nHow do you think it was made? Who designed, built, tested, or repaired the machines behind it?"
+      ],
+      "timing": "1:00-5:00",
+      "lookFor": "One product plus at least one human role behind the machine.",
+      "pivot": "Offer phone, toothbrush, shoes, or cereal as examples; reject 'a machine' as the whole answer."
+    },
+    {
+      "texts": [
+        "Xello: What Is CTE?",
+        "Open ClassLink → Xello → assigned work → What Is CTE?\n\nRead the current prompt. Submit a text response or file as directed. Opening the task is not completion.\n\nIf the prompt needs more time, finish during supervised catch-up—not during Friday Matchmaker."
+      ],
+      "timing": "5:00-15:00",
+      "lookFor": "Every student opens the exact assigned task and submits or is recorded for catch-up.",
+      "pivot": "Project the teacher-demo route and current prompt; do not substitute another Xello lesson.",
+      "trim": "Protect the full ten minutes. Move unfinished work to supervised catch-up."
+    },
+    {
+      "texts": [
+        "Manufacturing Is More Than Assembly Lines",
+        "People in this cluster turn ideas and raw materials into finished goods.\n\nThey design, program, operate, assemble, repair, test, and improve.\n\nCurrent H&L fit: Doer • Analyzer • Creator"
+      ],
+      "timing": "15:00-18:00",
+      "lookFor": "Students replace the one-job factory stereotype with several distinct roles.",
+      "pivot": "Ask who programs the robot, tests the product, and keeps the line safe.",
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day1/hnl-manufacturing-cluster-current.png",
+          "alt": "Current authenticated Hats and Ladders Manufacturing cluster overview"
+        }
+      ],
+      "sources": ["Authenticated Hats & Ladders Manufacturing cluster, viewed in teacher Climber Mode on 2026-08-15."]
+    },
+    {
+      "texts": [
+        "Read FYF p. 199",
+        "Point to the three Hats on the opener:\nAutomation Specialist\nMechatronics Technician\nWelder\nQuestion: What problems might these workers solve during a normal day?"
+      ],
+      "timing": "18:00-22:00",
+      "lookFor": "Students use the printed Hats and name a plausible problem, not only a tool.",
+      "pivot": "Read the opener aloud and pause after each Hat for one possible job problem."
+    },
+    {
+      "texts": [
+        "Robotics & Automation Technology\nIndustrial Maintenance\nManufacturing Technology\nElectronics Technology\nWelding\nAdvanced Manufacturing & Industrial Technology",
+        "Six Manufacturing Pathways",
+        "Current H&L labels\n\nPathways group related careers and training. A pathway is not one job."
+      ],
+      "timing": "22:00-25:00",
+      "lookFor": "Students can distinguish a pathway from a Hat and can locate all six current labels.",
+      "pivot": "Use a six-group jigsaw only if the read-aloud stalls; otherwise keep the list brief."
+    },
+    {
+      "texts": [
+        "Safety First",
+        "A welder is building a rocket launch platform.\n\nSlow down and double-check every weld—or keep moving to meet the deadline?\n\nUse evidence: What does the team risk in each choice?"
+      ],
+      "timing": "25:00-28:00",
+      "lookFor": "Students name a consequence larger than the schedule, such as safety or mission failure.",
+      "pivot": "Ask: What does one failed weld cost compared with three extra minutes?",
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day1/manufacturing-chapter-opener.jpg",
+          "alt": "Find Your Future Manufacturing opener with the welder decision-making prompt"
+        }
+      ],
+      "sources": ["Find Your Future p. 199, Be the Decision Maker prompt."]
+    },
+    {
+      "texts": [
+        "Think → Share → Switch",
+        "Think silently for 30 seconds.\nPartner A: 30 seconds.\nPartner B: 30 seconds.\n\nI would ____ because ____.\nSlowing down costs ____, but a bad weld costs ____."
+      ],
+      "timing": "28:00-30:00",
+      "lookFor": "Both partners speak or use the private written route; reasons cite a tradeoff.",
+      "pivot": "Keep students seated if movement costs time. Call on two pairs you heard while circulating."
+    },
+    {
+      "texts": [
+        "Open Manufacturing",
+        "Clusters → Manufacturing\nOpen Cluster Tour\nThen open Pathway Possibilities\nDo not rapid-click. Use the current labels on screen.",
+        "Exact H&L route"
+      ],
+      "timing": "30:00-33:00",
+      "lookFor": "Every student reaches Manufacturing and can see Cluster Tour plus Pathway Possibilities.",
+      "pivot": "Use the projected authenticated screenshot; if H&L is down, use FYF p. 212 and mark the app work pending."
+    },
+    {
+      "texts": [
+        "Stop Twice During the Tour",
+        "One notebook entry—not another worksheet",
+        "Stop 1: One new career from the video\nStop 2: One question you still have\n\nWrite in the dated CCE entry:\n1SW Wk1 Manufacturing"
+      ],
+      "timing": "33:00-39:00",
+      "lookFor": "Two short notebook notes appear at the correct pauses; students do not copy the video.",
+      "pivot": "Pause the class video yourself if individual controls or audio create delays."
+    },
+    {
+      "texts": [
+        "Explore One Hat",
+        "Record in the same entry:\none Manufacturing Hat that interests you\neducation or training\none surprising task, salary, or training detail\nSalary evidence needs career, geography, measure, and date viewed."
+      ],
+      "timing": "39:00-44:00",
+      "lookFor": "Each student can tell you one career found and point to its current H&L profile.",
+      "pivot": "If a student is scrolling without a Hat, sit beside them and choose one pathway first."
+    },
+    {
+      "texts": [
+        "Compare Two Careers",
+        "Career 1 + Career 2\nFor each, record:\n• one specific daily task\n• one preparation fact\n• robots, metal, or both?\n\nThen connect one cell to your Wk0 core type."
+      ],
+      "timing": "44:00-49:00",
+      "lookFor": "Two different careers, one specific task and preparation fact each, plus one evidence-based core-type connection.",
+      "pivot": "Use the scaffolded matrix and sentence stem; accept a provisional core type if H&L access is pending."
+    },
+    {
+      "texts": [
+        "Before today, I thought Manufacturing was ____.\nNow I know it also includes ____.\nTomorrow: use a technician’s five-stage checklist to solve a machine breakdown.",
+        "Close: What Changed?",
+        "Photo by Jess Bailey on Unsplash"
+      ],
+      "timing": "49:00-50:00",
+      "lookFor": "Students name a real expansion in their understanding and submit the comparison.",
+      "pivot": "Use a silent written close if sharing would delay collection."
+    }
+  ]
+}

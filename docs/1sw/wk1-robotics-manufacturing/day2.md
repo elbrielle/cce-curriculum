@@ -16,7 +16,7 @@
 | **TEKS** | d(1)(C), d(2)(A) |
 | **5E Phases** | Engage: Warm-Up · Explore: Technician Checklist and Manufacturing career research · Explain: Class discussion on the breakdown clues · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Machine Breakdown Mystery checklist (FYF p. 208) + career research worksheet |
-| **Materials** | *Find Your Future* workbook pp. 207-208, printed career research worksheet, Chromebooks, projector |
+| **Materials** | Day 2 teacher slides (Canvas), *Find Your Future* workbook pp. 207-208, printed career research worksheet, Chromebooks, projector |
 
 ---
 

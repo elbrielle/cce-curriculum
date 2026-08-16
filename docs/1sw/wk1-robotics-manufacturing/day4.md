@@ -16,7 +16,7 @@
 | **TEKS** | d(1)(C) |
 | **5E Phases** | Engage: Warm-Up · Explain: Machine reference and shift roles · Explore: Shift evidence, brainstorm, and action plan · Evaluate: Exit Ticket |
 | **Deliverable** | Completed Robots for Crayons Evidence and Action Plan for both problems |
-| **Materials** | *Find Your Future* workbook pp. 200-203, [Robots for Crayons Evidence and Action Plan](../../resources/worksheets/1sw-wk1-robots-for-crayons-action-plan.pdf), sticky notes, projector |
+| **Materials** | Day 4 teacher slides (Canvas), *Find Your Future* workbook pp. 200-203, [Robots for Crayons Evidence and Action Plan](../../resources/worksheets/1sw-wk1-robots-for-crayons-action-plan.pdf), sticky notes, projector |
 
 ---
 
