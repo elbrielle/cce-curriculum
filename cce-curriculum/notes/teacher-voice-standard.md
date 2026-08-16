@@ -2,11 +2,23 @@
 
 Use this standard for prose under `docs/`. Curriculum structure still follows `CLAUDE.md`, `editing-heuristics.md`, and the relevant authoring rulebook. This file governs the sentences inside that structure.
 
+This standard incorporates Elisha Lucero's current Voice Profile and the `ai-writing-tells` review. When those sources and a generic curriculum style conflict, use the Voice Profile.
+
 ## The reader
 
 Write for a teacher preparing to teach, often with limited time and no prior knowledge of the lesson. Give the teacher the fact, decision, example, or classroom move they need. Do not advertise the lesson to them.
 
 The voice should be direct, observant, and specific. It may be formal because this is district curriculum, but it should still sound like one teacher explaining the work to another.
+
+## Public site audience
+
+The public site is a curriculum reference for Irving ISD teachers, administrators, and future course owners. Write the current course, not the history of how it was built.
+
+- Do not include personal pacing history, dates tied to one teacher's calendar, internal revision notes, rejected drafts, audit findings, repo decisions, or implementation diary language.
+- Do not call the reader `the owner`.
+- Do not defend the curriculum against an earlier version. State the current sequence and requirements directly.
+- Put creator credit, source attribution, and Canvas Commons parity on the About page. Keep lesson pages about the lesson.
+- Describe Canvas, FYF, H&L, Xello, notebooks, and public resources by what teachers and students do with them.
 
 ## What to write
 
@@ -28,6 +40,9 @@ The voice should be direct, observant, and specific. It may be formal because th
 - Lead-ins that only announce the list or table immediately below them.
 - Stiff substitutes for `is`, `are`, `has`, `uses`, or `shows`.
 - Claims about what `real professionals` do unless the sentence names a sourced practice.
+- Structural-engineering metaphors for required lessons, evidence, files, or platforms.
+- Labels such as `source-grounded`, `reviewed`, `preservation-first`, or `public-safe` when the sentence can name the source, review result, or available material directly.
+- `Pilot`, `launch decision`, and similar project-status terms when the text is giving current curriculum directions.
 
 ## Protected curriculum language
 

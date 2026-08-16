@@ -21,7 +21,7 @@
 
 - Have students open FYF p. 131. Print one double-sided Pathway Decision per student. Post the dated Texas Cosmetology Operator Evidence Guide digitally; print one copy per pair only when devices are unavailable.
 - Keep the separate quality sheet as an enlarged/no-workbook route; print one only for each student without the workbook, not a class set.
-- Do not make live TDLR navigation load-bearing. The fixed evidence page protects the lesson from site changes and reading variance.
+- Use the fixed evidence page so students can complete the lesson without live TDLR navigation.
 - Note the current district wording: Cosmetology is listed at Cardwell, Irving, MacArthur, and Nimitz. Do not present Ratteree as the current location.
 - For this in-state beginner scenario, use the current TDLR Apply page's 1,000-hour licensed-school route. Do not substitute an informal salon apprenticeship. Out-of-state, equivalence, and other special application cases are outside this lesson.
 - Keep the five-question Canvas practice check optional after the pathway decision or for recovery; it is not part of the default 50 minutes.

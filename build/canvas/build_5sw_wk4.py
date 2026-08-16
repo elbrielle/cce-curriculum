@@ -407,7 +407,7 @@ def teacher_content(files):
             "MONITOR": "<p><strong>Minute 13:</strong> students have relabeled Diagnosis as Supported possibility and Action as Evidence limit + qualified next check. If one-third write certain diagnoses, project the supplied non-ticket model and circle <em>could</em>, <em>does not prove</em>, and <em>qualified</em>. <strong>Minute 30:</strong> Tickets 1–2 each include evidence, possibility, limit, and next check. <strong>Minute 42:</strong> all four tickets are complete. Safe trim: accept one precise sentence across the four labels per ticket; do not drop a ticket, limit, next check, or transfer response. Use the last five minutes for the transfer response, collect one route, and close devices.</p><p><strong>Key:</strong> Ticket 1—visible ice and weak cooling/airflow, root cause unproved. Ticket 2—heavy dust/debris on indoor coil and uneven airflow. Ticket 3—dirty filter with supplied weak/dusty airflow. Ticket 4—weathered/dirty outdoor unit; no failed component is proved.</p>",
             "RESOURCES": "<p>Licensed Climber Notes tickets and FYF pages remain in locked Canvas. No real HVAC check, reset, cleaning, or repair is assigned.</p>",
             "SUPPORT": "<p>Neutral alt text does not reveal the key. Offer zoom, read-aloud, dictation, typed response, workbook, or the enlarged safe-label fallback.</p>",
-            "FALLBACK": "<p>Every load-bearing visual is embedded. An absent student completes the same individual route.</p>",
+            "FALLBACK": "<p>Every required visual is embedded. An absent student completes the same individual route.</p>",
         },
         3: {
             "TITLE": "Classify Four Skilled-Trades Careers", "SUBTITLE": "50 minutes · TEKS d(5)(A), d(5)(B)",

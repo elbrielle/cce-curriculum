@@ -43,7 +43,7 @@ Students read the five fixed examples in the Opportunity Guide. For each, identi
 2. the product or service; and
 3. one owner responsibility.
 
-Optional H&L route: students browse the Business cluster for one unfamiliar career. Do not make exact Hat titles or platform access load-bearing.
+Optional H&L route: students browse the Business cluster for one unfamiliar career. Students do not need exact Hat titles or platform access to complete the lesson.
 
 ### 4. Build the cross-field list — 18 minutes
 

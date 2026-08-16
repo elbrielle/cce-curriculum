@@ -283,7 +283,7 @@ def write_report(audits: list[DayAudit]) -> None:
         "",
         "### P1 - Projection readiness is not the same as one slide deck per lesson",
         "",
-        "Separate decks are intentionally optional. A lesson passes when the teacher guide itself is projection-ready or embeds the exact load-bearing workbook page, Climber slide, Xello launch asset, model, timer/prompt, and key needed for whole-class delivery. The manual review must record that outcome day by day.",
+        "Separate decks are intentionally optional. A lesson passes when the teacher guide itself is projection-ready or embeds the exact required workbook page, Climber slide, Xello launch asset, model, timer/prompt, and key needed for whole-class delivery. The manual review must record that outcome day by day.",
         "",
         "### Repaired - Supplemental eDynamic content no longer blocks a core lesson",
         "",
@@ -379,7 +379,7 @@ def write_report(audits: list[DayAudit]) -> None:
             "",
             "For each day, record a verdict for: S&S topic/activity; exact FYF printed page and section; exact Climber deck/slide; exact Xello task/time/minimum/prerequisite; supplemental-platform boundary; current pathway and labor-data claims; TEKS verb/action/evidence; teacher cold-start readiness; student clarity; EB supports; district move; artifact response space; and absence/platform route.",
             "",
-            "A day is **Copy-ready** only when every load-bearing item is verified and the teacher can run the lesson without inventing directions, examples, answers, data, materials, or timing decisions.",
+            "A day is **Copy-ready** only when every required item is verified and the teacher can run the lesson without inventing directions, examples, answers, data, materials, or timing decisions.",
         ]
     )
     REPORT.write_text("\n".join(report) + "\n", encoding="utf-8")

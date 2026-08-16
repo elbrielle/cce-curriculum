@@ -14,6 +14,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SITE = ROOT / "public-site" / "dist"
+UNWANTED_STRUCTURAL_METAPHOR = re.compile(r"\bload(?:\s+|-+)bearing\b", re.IGNORECASE)
 
 
 def parse_args() -> argparse.Namespace:
@@ -36,8 +37,17 @@ def verify(site: Path) -> None:
         problems.append(f"week_count={manifest.get('week_count')} expected=36")
     if manifest.get("lesson_count") != 180:
         problems.append(f"lesson_count={manifest.get('lesson_count')} expected=180")
-    if manifest.get("page_count") != 231:
-        problems.append(f"page_count={manifest.get('page_count')} expected=231")
+    if manifest.get("page_count") != 228:
+        problems.append(f"page_count={manifest.get('page_count')} expected=228")
+
+    excluded = set(manifest["publication_policy"].get("excluded_markdown", []))
+    expected_exclusions = {
+        "resources/canvas-engagement-and-organization-patterns.md",
+        "resources/resources-status.md",
+        "resources/teks-coverage-matrix.md",
+    }
+    if excluded != expected_exclusions:
+        problems.append(f"excluded_markdown={sorted(excluded)} expected={sorted(expected_exclusions)}")
 
     protected = tuple(manifest["publication_policy"]["protected_path_fragments"])
     copied = manifest.get("copied_resources", [])
@@ -62,8 +72,11 @@ def verify(site: Path) -> None:
         problems.append(f"html files={len(html_files)} manifest page_count={manifest.get('page_count')}")
     seen_titles: dict[str, Path] = {}
     for page in html_files:
-        soup = BeautifulSoup(page.read_text(encoding="utf-8"), "html.parser")
+        page_text = page.read_text(encoding="utf-8")
+        soup = BeautifulSoup(page_text, "html.parser")
         rel = page.relative_to(site)
+        if UNWANTED_STRUCTURAL_METAPHOR.search(soup.get_text(" ", strip=True)):
+            problems.append(f"unwanted structural metaphor: {rel}")
         if soup.html is None or soup.html.get("lang") != "en":
             problems.append(f"missing html lang=en: {rel}")
         if len(soup.find_all("h1")) != 1:

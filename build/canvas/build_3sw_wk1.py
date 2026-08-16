@@ -388,7 +388,7 @@ async def main():
             1: {
                 "TITLE": "Meet the Veterinary Team",
                 "SUBTITLE": "50 minutes · TEKS d(1)(C), d(2)(A)",
-                "ALERT": "<strong>Use the fixed, dated evidence cards.</strong> Do not make H&amp;L or a live salary search load-bearing.",
+                "ALERT": "<strong>Use the fixed, dated evidence cards.</strong> Students do not need H&amp;L or a live salary search to complete this lesson.",
                 "PREP": f'<ul><li><strong>Per student:</strong> one FYF workbook, one two-page {file_link(files["CAREERS"]["id"], "evidence guide")} printed double-sided, and one pencil. A Canvas annotation/text-entry route may replace the print.</li><li><strong>Teacher:</strong> one display device with FYF p. 87.</li><li><strong>Grouping:</strong> independent reading and writing; pairs only for the four-minute evidence check.</li></ul>',
                 "EVIDENCE": "<p>One chosen role supported by one daily task and one preparation requirement. This is formative preparation for the weekly minor packet.</p>",
                 "FLOW": flow("#5a2d91", "Stop and Jot · 4", "Who works on a veterinary team, and what might that person do?") + flow("#4a9d2f", "FYF opener · 7", "Notice the range of agriculture and animal-care work on p. 87.") + flow("#1f617a", "Fixed evidence · 14", "Chunk the cards: duties first, then preparation and labor evidence.") + flow("#e3ad19", "Chosen-role response · 16", "Complete the guide's Day 1 choice with one task and one preparation fact.") + flow("#4a9d2f", "Partner evidence check · 4", "Partners point to the two source facts; they do not select a role for each other.") + flow("#1f617a", "Submit and reset · 5", "Store or submit the Day 1 choice and return materials."),

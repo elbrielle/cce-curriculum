@@ -36,11 +36,11 @@ Model one difficult item before students begin:
 
 ## Fifty-minute flow
 
-### 1. Profile warm-up — 5 minutes
+### 1. Profile warm-up -- 5 minutes
 
 Students open the Climber Profile and privately answer: what does the profile know now that it did not know on Day 2?
 
-### 2. Gather the evidence — 8 minutes
+### 2. Gather the evidence -- 8 minutes
 
 Students locate:
 
@@ -54,11 +54,11 @@ The student points to each source and the teacher checks access, not binder/neat
 
 **Minute 13 look-for:** every student has the profile, FYF pages, and private notes open or has missing items visibly marked `pending`.
 
-### 3. Model the evidence connection and rubric — 5 minutes
+### 3. Model the evidence connection and rubric -- 5 minutes
 
 Project the complete model. Show how type + value + Building Block support one career curiosity and how the final sentence names what is still unknown. Review the 12-point rubric in student language: complete evidence, accurate self-awareness, and a supported career connection.
 
-### 4. Complete My Career Journey — 22 minutes
+### 4. Complete My Career Journey -- 22 minutes
 
 Students complete all eight sections. For Career Community, students may name a **role**, initials, or a trusted person. They do not have to disclose full names or personal relationships publicly.
 
@@ -70,11 +70,11 @@ Run three monitoring laps:
 
 If one third of the class stalls on item 6, pause once and annotate the complete model. Do not repeat the explanation desk by desk.
 
-### 5. Self-check and revise — 6 minutes
+### 5. Self-check and revise -- 6 minutes
 
 Students use the rubric and make one visible revision. Speech-to-text, dictation to an adult, bilingual support, or oral rehearsal may support the writing; the final evidence still follows one approved private submission route.
 
-### 6. Submit once and clean up — 4 minutes
+### 6. Submit once and clean up -- 4 minutes
 
 - **File route:** upload the completed reflection as one file.
 - **Text route:** use labels 1-8 and include every response.

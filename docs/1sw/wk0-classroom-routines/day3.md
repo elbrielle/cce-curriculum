@@ -22,12 +22,12 @@ Do not require students to copy all three outputs into all three places.
 
 ## Before students arrive
 
-- Open the Day 3 source-grounded deck and Student Guide. The reviewed deck already embeds the required `Exploring Your Work Values` frames; do not open a second Climber Notes deck.
+- Open the Day 3 presentation and Student Guide. The presentation includes the required `Exploring Your Work Values` frames; do not open a second Climber Notes deck.
 - Verify the teacher H&L route and keep the six starter values visible.
 - Set one *Find Your Future* workbook to pp. 9-11 at each seat; one workbook per student.
 - Open the Day 3 Student Guide and launch deck.
 - Prepare the optional Building Blocks word bank and bilingual support for students who need idea retrieval; default copies: 0.
-- Students need the private `CCE Work` page or physical equivalent named **Work Values + Building Blocks — Day 3**.
+- Students need the private `CCE Work` page or physical equivalent named **Work Values + Building Blocks -- Day 3**.
 
 ## Complete model
 
@@ -40,13 +40,13 @@ Do not require students to copy all three outputs into all three places.
 
 ## Fifty-minute flow
 
-### 1. Work-value opener — 5 minutes
+### 1. Work-value opener -- 5 minutes
 
 Students choose privately: higher pay while working alone, or lower pay with a team they enjoy? Ask two students to share and name the value inside each reason. A seated/private response is equal to standing or sharing aloud.
 
-### 2. Discover Your Work Values — 15 minutes
+### 2. Discover Your Work Values -- 15 minutes
 
-Use the Climber Notes hook and six starter words embedded in the Day 3 source-grounded deck. Keep the explanation to four minutes, then direct students to the source-prescribed H&L route: **Profile > Discover Your Work Values**. The teacher should verify this path in the current student view before class because the teacher account does not prove the student navigation. Students complete the activity, leave the result open, and privately note:
+Use the Climber Notes hook and six starter words embedded in the Day 3 presentation. Keep the explanation to four minutes, then direct students to **Profile > Discover Your Work Values**. Verify this path in Student View before class. Students complete the activity, leave the result open, and privately note:
 
 > My top work values are ____. I expected / was surprised by ____ because ____.
 
@@ -54,7 +54,7 @@ This uses Jenna Hainlen's teacher-created private-think → partner-discuss → 
 
 **Minute 20 look-for:** every student is in the correct activity or has the fixed value list and a provisional choice. Never enter personal results in another student's account.
 
-### 3. FYF Building Blocks — 17 minutes
+### 3. FYF Building Blocks -- 17 minutes
 
 Open FYF pp. 9-11. Explain that experience is broader than paid work. Use the complete model, then give one minute of private think time. Students record at least three real experiences and name a visible skill each one builds.
 
@@ -69,11 +69,11 @@ Partner A shares one Building Block for 30 seconds; Partner B names the skill th
 
 **Minute 37 look-for:** every student has three experiences and a skill beside each. If one third of the class is blank, pause and model one more ordinary experience rather than distributing another packet to everyone.
 
-### 4. Save profile inputs and locate recommendations — 8 minutes
+### 4. Save profile inputs and locate recommendations -- 8 minutes
 
 Students return to H&L, save at least three Building Blocks, and locate any initial cluster recommendations. Frame recommendations as starting suggestions. If H&L does not yet show recommendations, students do not invent them; they will retrieve them tomorrow or during Friday catch-up.
 
-### 5. One connection and cleanup — 5 minutes
+### 5. One connection and cleanup -- 5 minutes
 
 In the private notebook page, students complete one synthesis:
 
@@ -98,6 +98,6 @@ If recommendations are unavailable, students write `cluster pending` and complet
 
 ## Source notes
 
-- Climber Notes, `Exploring Your Work Values` — H&L work-values instruction and platform task.
-- *Find Your Future* pp. 9-11, `My Building Blocks` — the primary student response surface.
-- Jenna Hainlen Week 1 routines — private think, structured partner talk, whole-group share, and notes used for a clear later purpose.
+- Climber Notes, `Exploring Your Work Values` -- H&L work-values instruction and platform task.
+- *Find Your Future* pp. 9-11, `My Building Blocks` -- the primary student response surface.
+- Jenna Hainlen Week 1 routines -- private think, structured partner talk, whole-group share, and notes used for a clear later purpose.

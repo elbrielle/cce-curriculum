@@ -21,7 +21,7 @@
 - Open the unpublished private **PRACTICE: Plant Career Connection** assignment. It accepts one individual text response and remains 0-point, not graded, and omitted from the final grade.
 - Keep evidence individual. Pairs are optional for the warm-up and clue comparison.
 - Model how two clues can support a hypothesis without proving a single cause.
-- Keep H&L optional. Do not make live titles, salaries, or login success load-bearing.
+- Keep H&L optional. Students do not need live titles, salaries, or a successful login to complete this lesson.
 
 ## 50-minute flow
 

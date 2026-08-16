@@ -24,7 +24,7 @@ MIT Living Wage Calculator, one adult/no children:
 | Los Angeles County, California | $28.92 |
 | New York County, New York | $38.21 |
 
-Students compare Dallas with two of the other locations. Fictional Jordan receives the same **$70,000 annual before-tax offer** in every location so the cost target is the only number that changes. The household scenario and source date stay the same. CareerOneStop may be demonstrated as an extension, but it is not load-bearing.
+Students compare Dallas with two of the other locations. Fictional Jordan receives the same **$70,000 annual before-tax offer** in every location so the cost target is the only number that changes. The household scenario and source date stay the same. CareerOneStop is an optional extension.
 
 ## 50-minute flow
 
