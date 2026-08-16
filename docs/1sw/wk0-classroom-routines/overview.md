@@ -33,7 +33,7 @@ Students will establish one retrievable CCE notebook route, complete the require
 3. **Xello** holds only the assigned extension tasks for this week: login and after-high-school goal. Matchmaker does not run yet.
 4. **CCE notebook** holds short private thinking, focused notes, and reflection only when the app/workbook does not already provide the response home.
 
-**Student reminder:** Every tool has one job. Students record each response once in the location named below.
+**Student reminder:** Start in Canvas. The daily guide tells students what to open, where to work, and what to turn in.
 
 | Evidence job | Primary response home | What the notebook adds |
 |---|---|---|

@@ -14,6 +14,8 @@ REFLECTION_TITLE="PRACTICE: 1SW Wk1 Matchmaker Reflection"
 REFLECTION_ROUTES={"online_text_entry","media_recording"}
 ROOT=Path(__file__).resolve().parents[2]; TEMPLATES=Path(__file__).parent/"templates"; ASSETS=ROOT/"cce-curriculum/resources/canvas-licensed/1sw/wk1"
 XELLO_GUIDE=ROOT/"cce-curriculum/resources/xello-licensed/prerequisites/matchmaker-assessment.pdf"
+DECK_ROOT=ROOT/"cce-curriculum/resources/avid-reference/source/derived"
+DECK_FILES={day:DECK_ROOT/f"cce-1sw-wk1-day{day}-manufacturing-source-grounded.pptx" for day in range(1,6)}
 SUPPORT_NAMES={
   "PATHWAYS":"manufacturing-pathways-scaffold.pdf","TECH":"technician-checklist-scaffold.pdf","RESEARCH":"career-research-worksheet.pdf","RESEARCH_EX":"career-research-worksheet-example-welder.pdf","RESEARCH_BI":"career-research-worksheet-bilingual.pdf","PLAN":"1sw-wk1-robots-for-crayons-action-plan.pdf",
   "E1":"1sw-wk1-day1-manufacturing-cluster-tour-more-than-assembly-lines.pdf","E2":"1sw-wk1-day2-machine-breakdown-mystery-career-research.pdf","E3":"1sw-wk1-day3-super-sports-manufacturing-design-build-test.pdf"}
@@ -29,6 +31,7 @@ def preflight():
     required=[
         *(TEMPLATES/name for name in ("wk1-teacher.html",*(f"wk1-day{day}-student.html" for day in range(1,6)))),
         *(ROOT/("docs/resources/exit-tickets" if key.startswith("E") else "docs/resources/worksheets")/name for key,name in SUPPORT_NAMES.items()),
+        *DECK_FILES.values(),
         *(ASSETS/f"day{day}"/name for day,names in REQUIRED_VISUALS.items() for name in names),
         XELLO_GUIDE,
     ]
@@ -171,7 +174,9 @@ async def main():
         for key,name in SUPPORT_NAMES.items():
             source_dir=ROOT/"docs/resources/exit-tickets" if key.startswith("E") else ROOT/"docs/resources/worksheets"
             files[key]=await upload(c,source_dir/name,support_folder)
-        support_folder_info,support_folder_files=await lock_folder_files(c,support_folder_info,SUPPORT_NAMES.values())
+        for day,path in DECK_FILES.items(): files[f"DECK{day}"]=await upload(c,path,support_folder)
+        support_required=(*SUPPORT_NAMES.values(),*(path.name for path in DECK_FILES.values()))
+        support_folder_info,support_folder_files=await lock_folder_files(c,support_folder_info,support_required)
         uploads={}; folders={}; folder_files={}
         for day,names in REQUIRED_VISUALS.items():
             folder_path=f"course files/CCR Materials/1SW/Wk1/Day {day} Visuals"; folders[day]=await ensure_folder(c,folder_path); uploads[day]={}
@@ -220,7 +225,7 @@ async def main():
             st=student_titles[day]; su=student_urls[day]; values={"COURSE_ID":COURSE_ID,**student_values[day]}
             student=await upsert_page(c,st,render_page(f"wk1-day{day}-student.html",values,day,"student"),su)
             tt=f"TEACHER: 1SW Wk1 Day {day} Facilitator Guide"; tu=slugify(tt)
-            teacher_values={"COURSE_ID":COURSE_ID,"DAY":day,"STUDENT_PAGE_URL":student["url"],**teacher_data[day],"LOGISTICS":logistics[day],"MODEL":models[day],"MONITOR":teacher_data[day]["MONITOR"]+monitoring[day]}
+            teacher_values={"COURSE_ID":COURSE_ID,"DAY":day,"STUDENT_PAGE_URL":student["url"],"DECK_FILE_ID":files[f"DECK{day}"]["id"],**teacher_data[day],"LOGISTICS":logistics[day],"MODEL":models[day],"MONITOR":teacher_data[day]["MONITOR"]+monitoring[day]}
             teacher=await upsert_page(c,tt,render_page("wk1-teacher.html",teacher_values,day,"teacher"),tu)
             pages[day]={"teacher":teacher,"student":student}
             expected.extend([("SubHeader",None,header_title),("Page",teacher["url"],tt),("Page",student["url"],st)])
@@ -243,7 +248,7 @@ async def main():
                 current=await api(c,"GET",f"/courses/{COURSE_ID}/pages/{page['url']}")
                 if current.get("published") is not False: raise RuntimeError(f"1SW Wk1 {role} page became published: Day {day}")
                 fresh_pages[day][role]=current
-        support_folder_info,support_folder_files=await lock_folder_files(c,support_folder_info,SUPPORT_NAMES.values())
+        support_folder_info,support_folder_files=await lock_folder_files(c,support_folder_info,support_required)
         for day,names in REQUIRED_VISUALS.items(): folders[day],folder_files[day]=await lock_folder_files(c,folders[day],names)
         xello_guide=await find_file(c,"matchmaker-assessment.pdf")
         print(json.dumps({"module":{"id":module_id,"published":module["published"]},"assignment":{"id":reflection["id"],"published":reflection.get("published"),"points_possible":reflection.get("points_possible"),"grading_type":reflection.get("grading_type"),"omit_from_final_grade":reflection.get("omit_from_final_grade"),"submission_types":reflection.get("submission_types")},"support_folder":{"id":support_folder_info["id"],"locked":support_folder_info["locked"],"files":len(support_folder_files)},"folders":{str(d):{"id":f["id"],"locked":f["locked"],"files":len(folder_files[d])} for d,f in folders.items()},"xello_guide":{"id":xello_guide["id"],"locked":xello_guide["locked"]},"pages":{str(d):{k:{"url":v["url"],"published":v["published"]} for k,v in p.items()} for d,p in fresh_pages.items()},"items":[{"id":i["id"],"position":i["position"],"title":i["title"],"type":i["type"],"page_url":i.get("page_url"),"published":i.get("published")} for i in final]},indent=2))

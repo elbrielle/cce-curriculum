@@ -1,0 +1,186 @@
+{
+  "sources": [
+    "CCE 1SW Wk1 Day 2 canonical lesson, Machine Breakdown Mystery and Career Research, accessed 2026-08-15.",
+    "Find Your Future pp. 207-208, Machine Breakdown Mystery.",
+    "Private teacher-created AVID source deck, inherited layout and lesson choreography only."
+  ],
+  "recovery": "Use the embedded FYF pages and Canvas Student Guide. Students may work alone, dictate, or use the bilingual scaffold; H&L outages use the named fixed-source model and supervised catch-up.",
+  "slides": [
+    {
+      "texts": ["Tuesday"],
+      "timing": "0:00-0:20",
+      "lookFor": "Students enter with FYF pp. 207-208 and the Day 2 Student Guide open.",
+      "pivot": "Keep this divider visible while pairs and materials settle."
+    },
+    {
+      "texts": [
+        "Today’s Lesson",
+        "Get Ready",
+        "FYF pp. 207-208\nCareer research sheet\nChromebook + pencil",
+        "Solve the breakdown\nResearch one career\nRecommend a route",
+        "Welcome!"
+      ],
+      "timing": "0:20-1:00",
+      "lookFor": "Students can name the five-stage checklist, one-career research, and the exit recommendation.",
+      "pivot": "Read only the three outputs; explain details at the matching slide.",
+      "removeShapes": ["Google Shape;552;p77"],
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day2/machine-breakdown-clues.jpg",
+          "alt": "Find Your Future Machine Breakdown Mystery scenario and clues"
+        }
+      ]
+    },
+    {
+      "texts": [
+        "Think",
+        "Think of the last time a phone, bike, controller, or other item broke.\n\nWhat was the FIRST thing you did to figure out what was wrong?"
+      ],
+      "timing": "1:00-5:00",
+      "lookFor": "Students name an observation or first check before a repair.",
+      "pivot": "Offer turn it off/on, inspect damage, or ask what changed as starting examples."
+    },
+    {
+      "texts": [
+        "Troubleshooting",
+        "Do not guess and replace random parts.\n\nObserve → identify → analyze → test one safe solution → prevent the next breakdown."
+      ],
+      "timing": "5:00-7:00",
+      "lookFor": "Students can explain why technicians gather evidence before changing the machine.",
+      "pivot": "Ask what could go wrong if a technician changes three parts at once."
+    },
+    {
+      "texts": [
+        "Machine Breakdown Mystery",
+        "YOU ARE THE TECHNICIAN\nA fruit-packaging line has stopped. The label machine will not feed labels.",
+        "Production is at a standstill.\nYour job: use the clues and the five-stage Technician Checklist to find the most defensible first repair."
+      ],
+      "timing": "7:00-10:00",
+      "lookFor": "Students understand the broken function: labels do not feed, while the rest of the line is running.",
+      "pivot": "Point to the exact machine and restate the production consequence."
+    },
+    {
+      "texts": [
+        "Technician Checklist: 1-2",
+        "1. IDENTIFY THE PROBLEM\nWhat is not working? What happened right before it stopped?",
+        "2. ANALYZE POSSIBLE CAUSES\nMechanical failure? Electrical issue? Operator error? Something else?"
+      ],
+      "frameAdjustments": {
+        "1": {
+          "left": 18,
+          "width": -18
+        }
+      },
+      "timing": "10:00-14:00",
+      "lookFor": "Students separate the observed problem from possible causes.",
+      "pivot": "Model one observation and one hypothesis; do not solve the case yet."
+    },
+    {
+      "texts": [
+        "Technician Checklist: 3-5",
+        "3. Implement one safe solution\n4. Test and observe\n5. Prevent future breakdowns\n\nIf the test fails, return to the checklist with new evidence."
+      ],
+      "timing": "14:00-17:00",
+      "lookFor": "Students understand that testing can send the team back to an earlier step.",
+      "pivot": "Use a familiar broken-pencil-sharpener example if the loop is unclear."
+    },
+    {
+      "texts": [
+        "Read the Five Clues",
+        "Clicking noise • no smoke, sparks, or leaks • other machines still run • sticker roll is in place but labels do not feed • problem began after a new roll was installed",
+        "Circle the clue that narrows the cause most.\nUnderline what the clue rules out."
+      ],
+      "timing": "17:00-20:00",
+      "lookFor": "Students identify the newly installed roll as the strongest timing clue without treating it as proof.",
+      "pivot": "Ask: What changed right before the machine stopped?"
+    },
+    {
+      "texts": [
+        "Pair Plan: Complete All Five Stages",
+        "Partner or private route:\n1. Name the exact problem.\n2. List two possible causes.\n3. Choose one safe first solution.\n4. Name the test result you need.\n5. Prevent a repeat.",
+        "Do not jump from one clue to a final answer.\nYour plan must show how the test proves or disproves the cause."
+      ],
+      "timing": "20:00-29:00",
+      "lookFor": "Every pair has evidence in Stage 1, a testable Stage 3 solution, and an observable Stage 4 result.",
+      "pivot": "At minute 24, stop one third of the class if they are writing repairs without causes."
+    },
+    {
+      "texts": [
+        "Likely first check",
+        "Best clue",
+        "Which clue narrowed the cause most?",
+        "Label-roll size, type, alignment, or jammed feed",
+        "Evidence Check"
+      ],
+      "timing": "29:00-32:00",
+      "lookFor": "Students cite a clue and explain why it changes the first check.",
+      "pivot": "Clarify that likely is not confirmed; the controlled test supplies the next evidence.",
+      "removeShapes": ["Google Shape;552;p77"],
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day2/technician-checklist.png",
+          "alt": "Find Your Future five-stage Technician Checklist"
+        }
+      ]
+    },
+    {
+      "texts": [
+        "Complete Model",
+        "Clue → cause → test",
+        "The problem began after a new label roll was installed. I would stop the machine, check the roll size and alignment, remove any jam, and run a short controlled test. If labels feed correctly, document the correct roll setup and add it to operator training."
+      ],
+      "timing": "32:00-35:00",
+      "lookFor": "Students can point to the clue, safe action, observable test, and prevention move.",
+      "pivot": "Read the model one sentence at a time and label each reasoning job."
+    },
+    {
+      "texts": [
+        "Choose One Hat",
+        "Return to Manufacturing in H&L.\nChoose one Hat you noticed.\nKeep that Hat open for research.",
+        "Different careers are welcome. Never force a student away from a real interest."
+      ],
+      "timing": "35:00-37:00",
+      "lookFor": "Each student has one actual Manufacturing career open, not only a cluster or pathway.",
+      "pivot": "Offer Welder, Automation Specialist, or Mechatronics Technician as fixed-source starting points."
+    },
+    {
+      "texts": [
+        "Research Six Fields",
+        "Career name\nWhat interests you?\nBrief job description\nEducation or training\nSalary evidence\nTools, equipment, or skills"
+      ],
+      "timing": "37:00-41:00",
+      "lookFor": "Students copy evidence from the Hat profile into the matching field without inventing missing details.",
+      "pivot": "Use the bilingual field labels or Welder example; reduce writing volume, not evidence quality."
+    },
+    {
+      "texts": [
+        "Label Salary Evidence",
+        "NUMBER OR RANGE\nMEASURE\nannual • hourly • monthly\nGEOGRAPHY\nlocal • Texas • U.S.",
+        "SOURCE + DATA YEAR OR DATE VIEWED\nKeep H&L and BLS figures separate. A different national figure does not replace the district HQIM figure."
+      ],
+      "timing": "41:00-44:00",
+      "lookFor": "Salary entries include the number, measure, geography, source, and year/date.",
+      "pivot": "Project one correctly labeled sample and one unlabeled number; ask which is usable evidence."
+    },
+    {
+      "texts": [
+        "Exit: Recommend a Route",
+        "Jamie wants a Manufacturing job after high school.\n1. Name one researched career.\n2. Name two training or certification steps.\n3. Estimate the total time.",
+        "Use your worksheet.\nDo not promise admission, hiring, certification, or a local salary."
+      ],
+      "timing": "44:00-49:00",
+      "lookFor": "The recommendation uses the researched career and two concrete preparation steps with a defensible time estimate.",
+      "pivot": "Allow labeled bullets or speech-to-text; if training evidence is missing, students mark it to verify rather than guess."
+    },
+    {
+      "texts": [
+        "What happened right before the breakdown? Why does that clue matter?\nTomorrow: design, build, and test one bike-rack prototype with a partner.",
+        "Close: Evidence Before Repair",
+        "Photo by Jess Bailey on Unsplash"
+      ],
+      "timing": "49:00-50:00",
+      "lookFor": "Students can name the timing clue and submit both the checklist and career research.",
+      "pivot": "Use one private sentence if the class needs the full minute for collection."
+    }
+  ]
+}

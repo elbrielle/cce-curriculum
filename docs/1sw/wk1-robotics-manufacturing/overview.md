@@ -35,6 +35,7 @@ Students explore the Manufacturing career cluster through Hats & Ladders and the
 - BLS Welders: [bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm](https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm)
 - Xello: required What is CTE and Matchmaker tasks, licensed Matchmaker educator guide, student demo account, and Completion Standards report
 - Projector for workbook, H&L, and Xello demonstrations
+- Five daily teacher slide decks, attached to the matching Facilitator Guides in Canvas
 
 ## Career Connection
 

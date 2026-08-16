@@ -69,18 +69,18 @@ Students may use a spiral notebook, composition notebook, binder section, or tea
 
 ### 1. Welcome to CCE -- 5 minutes
 
-Project the four places students will use this year:
+Project the Day 1 Student Guide and model the routine:
 
-- **Canvas:** today's directions, models, links, and submissions
-- **Find Your Future / Hats & Ladders:** the core career curriculum and profile
-- **Xello:** assigned profile and future-planning extensions
-- **CCE notebook:** short thinking, focused notes, and reflection when another tool does not already hold the work
+1. Start in Canvas.
+2. Open the activity named in today's directions.
+3. Use the notebook only when the directions ask for a note or reflection.
+4. Turn in only the work named in the guide.
 
-Say: **"Every tool has one job. We are not copying the same answer into four places."**
+Say: **"Start in Canvas. Today's guide will tell you what to open and what to complete."**
 
 ### 2. Locate the course tools -- 8 minutes
 
-Students open the Day 1 Student Guide in Canvas, point to the *Find Your Future* workbook, and locate the Hats & Ladders and Xello links without starting either activity. Model how the daily guide tells them exactly which tool owns the response.
+Students open the Day 1 Student Guide in Canvas, point to the *Find Your Future* workbook, and locate the Hats & Ladders and Xello links without starting either activity. Model how the daily guide tells them what to open and what to complete.
 
 **Look-for:** by minute 13, at least 80 percent of students can return to the Day 1 Student Guide without asking for the link again.
 

@@ -322,7 +322,7 @@ const noteSets = [
   [
     "[Timing] 0:10–0:40",
     "[Teacher move] Name the three response homes: H&L stores values/profile data; FYF holds Building Blocks; the private page holds one short synthesis.",
-    "[Look-for] Students are not creating a second worksheet or copying one answer into every tool.",
+    "[Look-for] Students record only the evidence named in the Day 3 guide.",
     "[Pivot] Direct students without a device to FYF and the fixed-value provisional route.",
     "[Trim] Keep the one-response-home explanation even if setup is fast.",
     "[Recovery] Canvas or one paper page is equal to the digital private page.",
