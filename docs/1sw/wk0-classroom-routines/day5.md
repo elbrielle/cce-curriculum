@@ -12,7 +12,7 @@
 
 Friday is not a menu of unrelated activities and not a place to make students do three packets. Every student starts with the most important unfinished requirement. Required Xello access and the after-high-school goal must not disappear. FYF pp. 4-5 introduce the yearlong career-research format only after core profile work and Xello access are ready.
 
-The short focus block preserves a useful move from Jenna Hainlen's Week 1.6 routine: name priorities, name likely distractions, then work quietly for a bounded interval. It is not a points system, behavior grade, or new worksheet.
+The short focus block adapts Jenna Hainlen's Week 1.6 routine: name priorities, name likely distractions, then work quietly for a set interval. Do not attach behavior points or add another worksheet.
 
 ## Before students arrive
 
@@ -44,13 +44,13 @@ Materials:
 
 ## Fifty-minute flow
 
-### 1. Readiness check and focus plan — 5 minutes
+### 1. Readiness check and focus plan -- 5 minutes
 
 Students write three numbered priorities for today. They circle the one that must happen first. Then they name two `No-Zone` distractions to set aside during the focus block. This may stay private.
 
 Teacher directs each student to **one** starting path. Students do not choose the easiest path.
 
-### 2. Protected focus block — 20 minutes
+### 2. Protected focus block -- 20 minutes
 
 - **Core catch-up:** complete the earliest missing input. Students with a pending Minor finish the missing result, revise, and submit the same reflection.
 - **Xello required:** enter through district SSO, confirm the dashboard loads, open About Me, and choose one after-high-school goal: Not sure yet, More school or training, or Alternate route. The choice may change later. Do not run Matchmaker today.
@@ -58,7 +58,7 @@ Teacher directs each student to **one** starting path. Students do not choose th
 
 **Minute 25 look-for:** every student has one visible result, not three partially opened tasks.
 
-### 3. Second priority block — 15 minutes
+### 3. Second priority block -- 15 minutes
 
 Students move only after the first priority is verified.
 
@@ -68,7 +68,7 @@ Students move only after the first priority is verified.
 
 Do not require students to transfer FYF answers to a separate CCE worksheet or open-ended BLS search today. Later career lessons teach fixed-source salary evidence with sufficient time.
 
-### 4. Verify and recover — 5 minutes
+### 4. Verify and recover -- 5 minutes
 
 Teacher verifies one result per student:
 
@@ -78,7 +78,7 @@ Teacher verifies one result per student:
 
 Record remaining access problems. Do not mark a platform outage as missing effort.
 
-### 5. Close — 5 minutes
+### 5. Close -- 5 minutes
 
 Students finish:
 
@@ -105,6 +105,6 @@ Students return FYF to the class-set location and close H&L/Xello tabs before le
 
 ## Source notes
 
-- Bowie Grade 8 Xello Completion Standards — login and after-high-school goal before Matchmaker.
-- *Find Your Future* pp. 4-5, `Perks and Quirks` — primary career-research response surface.
-- Jenna Hainlen Week 1.6 focus routine — three priorities, two No-Zone distractions, one bounded work interval; points/compliance scoring removed.
+- Bowie Grade 8 Xello Completion Standards -- login and after-high-school goal before Matchmaker.
+- *Find Your Future* pp. 4-5, `Perks and Quirks` -- primary career-research response surface.
+- Jenna Hainlen Week 1.6 focus routine -- three priorities, two No-Zone distractions, and one timed work interval, adapted without behavior points.

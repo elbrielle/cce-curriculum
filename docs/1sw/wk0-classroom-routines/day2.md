@@ -16,12 +16,12 @@
 | **TEKS** | d(1)(A), d(1)(B) |
 | **5E Phases** | Engage: Warm-Up · Explain: CTE framing and the six core personality types · Explore: Climber Profile setup and Discover Your Core · Evaluate: Notebook interpretation and save check |
 | **Deliverable** | H&L Climber Profile active + short private notebook interpretation using result, key phrase, question, and career curiosity |
-| **Materials** | Day 2 source-grounded deck with the required `Learning Your Core Personality Types` frames embedded, Chromebooks, projector, campus H&L SSO route, private OneNote `CCE Work` section or physical equivalent, one *Find Your Future* workbook per student opened to p. 21; p. 22 stays closed until Thursday |
+| **Materials** | Day 2 presentation with the required `Learning Your Core Personality Types` frames embedded, Chromebooks, projector, campus H&L SSO route, private OneNote `CCE Work` section or physical equivalent, one *Find Your Future* workbook per student opened to p. 21; p. 22 stays closed until Thursday |
 
 ---
 
 !!! warning "Core day. Protect this period."
-    Today delivers the first of three load-bearing Week 0 outputs. The H&L Climber Profile and the core personality type are consumed directly by 4SW Wk1 Day 1 (mid-year reconciliation warm-up and the personality-versus-Favorites worksheet) and by 6SW Wk6 Capstone. If today is eaten by a campus event, reschedule Core Day A to your next clean period before Day 3 runs.
+    The core personality result is used again in 4SW Wk1 and the 6SW Wk6 capstone. If a campus event interrupts this lesson, teach Core Day A before Day 3.
 
 ---
 
@@ -57,7 +57,7 @@ Direct students to:
 
 Frame the H&L vocabulary the workbook uses: students are **Climbers**, careers are **Hats**, and clusters are groupings of related careers. They will hear these words all year.
 
-> [H&L PLATFORM] Confirm the campus-issued sign-in method and roster before this lesson. Hats & Ladders currently documents Google or issued username/password sign-in, and the live sign-in page also exposes Continue with School. The exact district identity provider still requires owner verification. Students return to the Climber Profile every core day to add data, and the Profile section is where both of this week's app activities live.
+> [H&L PLATFORM] Confirm the campus-issued sign-in method and roster before this lesson. Hats & Ladders currently documents Google or issued username/password sign-in, and the live sign-in page also exposes Continue with School. Verify the district identity provider before class. Students return to the Climber Profile every core day to add data, and the Profile section is where both of this week's app activities live.
 
 !!! warning "Common Issue"
     SSO outages happen in the first week of school. Do not ask a student to complete a personal result inside another student's account. If H&L will not open, give the student the six-type chart and have them choose a **provisional** top type with one supporting phrase. Record the access problem and protect Friday catch-up time for the individual app activity.
@@ -71,7 +71,7 @@ Official teacher references:
 
 ## Activity 3: The Six Core Personality Types and Discover Your Core (23 min)
 
-**Source:** Climber Notes, `Learning Your Core Personality Types`, slides 2-5. These frames are already embedded in the reviewed Day 2 source-grounded deck. The *Find Your Future* workbook has no personality response page, so the deck carries this content and the student's short interpretation goes in the private CCE notebook.
+**Source:** Climber Notes, `Learning Your Core Personality Types`, slides 2-5. These frames are embedded in the Day 2 presentation. The *Find Your Future* workbook has no personality response page, so the presentation carries this content and the student's short interpretation goes in the private CCE notebook.
 
 Project slide 2 and read the hook together: some activities feel completely natural while others feel like a chore, and personality types help explain why. Most people match more than one type.
 
@@ -86,13 +86,13 @@ Project the slide 3 table and walk through each type with what people of that ty
 
 Students then open the app and complete the activity (approximately 18 minutes of runway).
 
-> [H&L PLATFORM] Students open the Hats & Ladders app, click **Profile**, then go to **Discover Your Core** and complete the activity (shown in the Day 2 source-grounded deck from Climber Notes slide 4). The activity presents illustrated, age-appropriate survey questions and the platform calculates their top personality types. These results feed directly into the cluster recommendations the app generates on Core Day B, so honest answers matter.
+> [H&L PLATFORM] Students open the Hats & Ladders app, click **Profile**, then go to **Discover Your Core** and complete the activity shown in the Day 2 presentation. The activity presents illustrated survey questions and the platform calculates their top personality types. These results feed into the cluster recommendations the app generates on Core Day B, so students should read each question before answering.
 
 **Student task:**
 
 1. In the H&L app, open **Profile**, then **Discover Your Core**.
 2. Read each question. Answer honestly. Do not rush.
-3. When your result comes back, open the private notebook page labeled **Core Personality — Day 2**.
+3. When your result comes back, open the private notebook page labeled **Core Personality -- Day 2**.
 4. Add one short interpretation of the H&L result without creating a second packet:
    - **Result:** my top type is ____.
    - **Evidence:** one phrase from the description that fits or surprises me is ____.
@@ -104,7 +104,7 @@ This four-prompt H&L interpretation is a CCE response to the app result, not a c
 **Active Monitoring:** walk the room while students take the activity. Lap 1 target is that every student is reading the questions rather than clicking through; stop and reset rapid click-through. Lap 2 target is the notebook interpretation. If one third of the class copies only the type name, read one description aloud and model selecting one meaningful phrase before students close the app.
 
 !!! tip "Facilitation Tip"
-    Set the frame up front and repeat it several times: there are no wrong answers and no better types, and the most successful adults usually have careers that match who they are rather than who they think they should be. If a student rushes, sit next to them and read questions aloud. **Peer support:** if multiple students need read-aloud help, pair them with fluent-reading peers first. That frees you to monitor the whole room. If most of the room finishes early, use the source-grounded deck's embedded discussion frame: which core type fits a nurse, a chef, or a pilot? Why do people have more than one type?
+    There are no wrong answers and no preferred core types. If a student rushes, sit next to them and read questions aloud. **Peer support:** if multiple students need read-aloud help, pair them with fluent-reading peers first. That frees you to monitor the whole room. If most of the room finishes early, use the Day 2 presentation's discussion frame: which core type fits a nurse, a chef, or a pilot? Why do people have more than one type?
 
 **DOK 2:** How would you describe the difference between your top core personality type and the type you predicted in the warm-up? What might explain the difference, or the match?
 

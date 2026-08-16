@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the public-safe CCE curriculum mirror from canonical Markdown."""
+"""Build the public CCE curriculum reference from canonical Markdown."""
 
 from __future__ import annotations
 
@@ -28,37 +28,37 @@ CHAPTERS = {
     "1sw": {
         "number": "01",
         "title": "IT & Manufacturing",
-        "description": "Start with career self-discovery, then investigate the systems, people, and skills behind computing and modern production.",
+        "description": "Career self-discovery, manufacturing, programming, computer science, technology support, and cybersecurity.",
         "color": "var(--chapter-1)",
     },
     "2sw": {
         "number": "02",
         "title": "Law, Public Service & Health Science",
-        "description": "Use evidence, communication, and care-centered decisions across legal, emergency, and health pathways.",
+        "description": "Legal studies, public safety, nursing, dental and medical careers, communication, and biomedical science.",
         "color": "var(--chapter-2)",
     },
     "3sw": {
         "number": "03",
         "title": "Agriculture, Hospitality, Human Services & Business",
-        "description": "Connect practical work, service, creativity, and entrepreneurship to real career evidence.",
+        "description": "Agriculture, plant and animal science, culinary arts, cosmetology, and entrepreneurship.",
         "color": "var(--chapter-3)",
     },
     "4sw": {
         "number": "04",
         "title": "Career Planning, Transportation & Engineering",
-        "description": "Turn exploration into a course plan while testing how routes, systems, and design choices work.",
+        "description": "Course planning, aviation, drone systems, automotive careers, transferable skills, and pathway evidence.",
         "color": "var(--chapter-4)",
     },
     "5sw": {
         "number": "05",
         "title": "Architecture & Construction",
-        "description": "Read constraints, compare skilled-trade routes, and connect work decisions to money and place.",
+        "description": "Architecture, civil engineering, construction, skilled trades, budgeting, and real estate.",
         "color": "var(--chapter-5)",
     },
     "6sw": {
         "number": "06",
         "title": "Education, Arts, Business & Capstone",
-        "description": "Practice how people teach, design, market, sell, apply, interview, and communicate a career plan.",
+        "description": "Education, graphic design, marketing, sales, job preparation, interviews, and the final career plan.",
         "color": "var(--chapter-6)",
     },
 }
@@ -176,7 +176,7 @@ def output_for_markdown(source: Path) -> Path:
 def classify(source: Path) -> tuple[str, str]:
     rel = source.relative_to(DOCS_ROOT)
     if rel == Path("scope-and-sequence.md"):
-        return "resource", "36-week planning reference"
+        return "resource", "36-week course sequence"
     if rel.parts[0] == "resources":
         return "resource", "Teacher resource"
     if source.name == "overview.md":
@@ -192,10 +192,12 @@ def classify(source: Path) -> tuple[str, str]:
     return "page", "CCE curriculum"
 
 
-def discover_pages() -> dict[Path, Page]:
+def discover_pages(policy: dict) -> dict[Path, Page]:
     pages: dict[Path, Page] = {}
+    excluded = {Path(value) for value in policy.get("excluded_markdown", [])}
     for source in sorted(DOCS_ROOT.rglob("*.md")):
-        if source == DOCS_ROOT / "index.md":
+        relative_source = source.relative_to(DOCS_ROOT)
+        if source == DOCS_ROOT / "index.md" or relative_source in excluded:
             continue
         output = output_for_markdown(source)
         kind, eyebrow = classify(source)
@@ -300,7 +302,7 @@ def page_shell(current: Path, title: str, description: str, body: str, page_clas
     search_index = rel_url(current, Path("data/search-index.json"))
     home = rel_url(current, Path("index.html"))
     escaped_title = html.escape(title)
-    escaped_description = html.escape(description or "CCE curriculum planning mirror")
+    escaped_description = html.escape(description or "CCE curriculum reference")
     return f"""<!doctype html>
 <html lang="en" data-search-index="{search_index}">
 <head>
@@ -361,7 +363,7 @@ def render_content_page(page: Page, content: str, pages: dict[Path, Page]) -> st
         rail = f'<aside class="day-rail" aria-label="Week navigation"><strong>This week</strong>{"".join(items)}</aside>'
     boundary = ""
     if page.kind in {"week", "lesson", "assessment"}:
-        boundary = '<aside class="public-boundary"><strong>Planning mirror:</strong> authenticated student links, licensed workbook pages, platform interactions, and submissions live in Canvas. This page preserves the public-safe instructional plan.</aside>'
+        boundary = '<aside class="public-boundary"><strong>Canvas materials:</strong> student submissions, licensed course files, and authenticated platform activities are available in Canvas. This page includes the lesson plan and public resources.</aside>'
     body = f"""
       <header class="page-hero shell">
         <nav class="breadcrumb" aria-label="Breadcrumb">{crumb_html}</nav>
@@ -435,8 +437,8 @@ def resources_page(pages: dict[Path, Page]) -> str:
     current = Path("resources/index.html")
     resources = sorted((page for page in pages.values() if page.kind == "resource"), key=lambda page: page.title)
     cards = "".join(f'<a class="resource-link" href="{rel_url(current, page.output)}"><h2>{html.escape(page.title)}</h2><p>{html.escape(page.summary)}</p></a>' for page in resources)
-    body = f'''<header class="page-hero shell"><p class="eyebrow">Public planning tools</p><h1>Course resources</h1><p class="page-summary">Pacing, TEKS, assessment, facilitation, and implementation references generated from the same curriculum source.</p></header><div class="shell resource-index">{cards}</div>'''
-    return page_shell(current, "Course resources", "Public CCE planning and implementation resources.", body, "page-resources")
+    body = f'''<header class="page-hero shell"><p class="eyebrow">Course documents</p><h1>Course resources</h1><p class="page-summary">Scope and sequence, TEKS, assessments, and teaching references.</p></header><div class="shell resource-index">{cards}</div>'''
+    return page_shell(current, "Course resources", "CCE scope, assessment, and teaching resources.", body, "page-resources")
 
 
 def about_page() -> str:
@@ -461,7 +463,7 @@ def sha256(path: Path) -> str:
 
 def build(output_root: Path) -> None:
     policy = json.loads((SITE_ROOT / "publication-policy.json").read_text(encoding="utf-8"))
-    pages = discover_pages()
+    pages = discover_pages(policy)
     copied: dict[Path, Path] = {}
     if output_root.exists():
         shutil.rmtree(output_root)

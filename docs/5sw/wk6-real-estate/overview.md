@@ -32,7 +32,7 @@ Students succeed when they can:
 - TREC is the source of record for Texas Sales Agent requirements. Current stable requirements include age 18+, 180 classroom hours across six named courses, application, fingerprint/background review, exam, and broker sponsorship for active practice.
 - BLS is the fixed national labor source: May 2024 U.S. medians of $56,320 for Real Estate Sales Agents and $72,280 for Real Estate Brokers; 3% projected growth for the combined group from 2024-34; about 46,300 annual openings. These figures are not DFW starting pay and the wage survey excludes self-employed workers.
 - Current Irving ISD public evidence names **Real Estate Marketing** at MacArthur within the **School of Business and Entrepreneurship**. It does not by itself promise admission, transportation, schedule, college credit, license completion, exam eligibility, placement, or a specific credential.
-- H&L is supplemental. Xello may provide a separately labeled local cross-check. No live platform, favorite, screenshot, or open search is load-bearing.
+- H&L is supplemental. Xello may provide a separately labeled local cross-check. Students can complete the week without a live platform, favorite, screenshot, or open search.
 - Required Xello **Save careers** was completed earlier in the year. It is not repeated in this week.
 - All commission percentages, splits, sale counts, and expenses used for class math are explicitly fictional. Real compensation agreements are negotiable and variable.
 
