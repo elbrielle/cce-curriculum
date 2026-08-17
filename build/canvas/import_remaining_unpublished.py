@@ -27,6 +27,7 @@ ALL_IMPORTERS = [ORIENTATION_IMPORTER, *IMPORTERS]
 ASSESSMENT_CONFIGURATOR = CANVAS_DIR / "configure_assessment_map.py"
 RUBRIC_CONFIGURATOR = CANVAS_DIR / "configure_assessment_rubrics.py"
 IMAGE_NORMALIZER = CANVAS_DIR / "normalize_unpublished_image_loading.py"
+IMAGE_ACCESS_NORMALIZER = CANVAS_DIR / "normalize_embedded_image_access.py"
 LESSON_CONTRACT_NORMALIZER = CANVAS_DIR / "normalize_canvas_lesson_contracts.py"
 QA_SCRIPT = CANVAS_DIR / "qa_remaining_unpublished.py"
 
@@ -87,6 +88,8 @@ def preflight() -> int:
         missing.append(str(QA_SCRIPT.relative_to(ROOT)))
     if not IMAGE_NORMALIZER.is_file():
         missing.append(str(IMAGE_NORMALIZER.relative_to(ROOT)))
+    if not IMAGE_ACCESS_NORMALIZER.is_file():
+        missing.append(str(IMAGE_ACCESS_NORMALIZER.relative_to(ROOT)))
     if not LESSON_CONTRACT_NORMALIZER.is_file():
         missing.append(str(LESSON_CONTRACT_NORMALIZER.relative_to(ROOT)))
     if not ASSESSMENT_CONFIGURATOR.is_file():
@@ -113,6 +116,11 @@ def preflight() -> int:
             py_compile.compile(str(IMAGE_NORMALIZER), doraise=True)
         except py_compile.PyCompileError as exc:
             errors.append(f"{IMAGE_NORMALIZER.relative_to(ROOT)}: {exc.msg}")
+    if IMAGE_ACCESS_NORMALIZER.is_file():
+        try:
+            py_compile.compile(str(IMAGE_ACCESS_NORMALIZER), doraise=True)
+        except py_compile.PyCompileError as exc:
+            errors.append(f"{IMAGE_ACCESS_NORMALIZER.relative_to(ROOT)}: {exc.msg}")
     if ASSESSMENT_CONFIGURATOR.is_file():
         try:
             py_compile.compile(str(ASSESSMENT_CONFIGURATOR), doraise=True)
@@ -506,6 +514,37 @@ def main() -> int:
         f"pages={normalization_payload.get('pages_seen')} "
         f"updated={normalization_payload.get('pages_updated')} "
         f"images={normalization_payload.get('images_updated')}",
+        flush=True,
+    )
+
+    print("Making embedded page images course-visible and restoring the CCE home...", flush=True)
+    image_access = subprocess.run(
+        [sys.executable, str(IMAGE_ACCESS_NORMALIZER)],
+        cwd=ROOT,
+        input=token + "\n",
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    if image_access.returncode:
+        print(redact(image_access.stderr or image_access.stdout, token), file=sys.stderr)
+        print(
+            "All builders ran, but embedded-image access normalization failed.",
+            file=sys.stderr,
+        )
+        return image_access.returncode
+    try:
+        image_access_payload = json.loads(image_access.stdout)
+    except json.JSONDecodeError:
+        print(redact(image_access.stdout[-4000:], token), file=sys.stderr)
+        print("Embedded-image access output was not valid JSON.", file=sys.stderr)
+        return 3
+    print(
+        "  "
+        f"image_files={image_access_payload.get('embedded_image_files')} "
+        f"folder_chain={image_access_payload.get('visible_folder_chain')} "
+        f"home={image_access_payload.get('home_page')} "
+        f"default={image_access_payload.get('default_view')}",
         flush=True,
     )
 

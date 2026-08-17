@@ -23,6 +23,12 @@ from configure_assessment_map import (
 )
 from configure_assessment_rubrics import NOTE_MARKER, RUBRIC_PREFIX, RUBRICS
 from build_course_orientation import CLASSLINK_URL, HATS_LADDERS_URL, ONENOTE_URL
+from normalize_embedded_image_access import (
+    file_is_visible,
+    folder_is_visible,
+    image_file_ids,
+    normalize as audit_embedded_image_access,
+)
 
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
@@ -192,6 +198,7 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
     pages: list[dict] = []
     interactions: list[dict] = []
     file_ids: set[int] = set()
+    embedded_image_ids: set[int] = set()
 
     if module.get("published"):
         problems.append("module is published")
@@ -382,6 +389,7 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
             problems.append(f"paired page lacks TEACHER/STUDENT title: {title}")
 
         file_ids.update(int(value) for value in re.findall(r"/files/(\d+)", body))
+        embedded_image_ids.update(image_file_ids(body))
         pages.append(
             {
                 "role": role,
@@ -429,6 +437,7 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
 
     files: list[dict] = []
     folders: dict[int, dict] = {}
+    image_folder_ids: set[int] = set()
     for file_id in sorted(file_ids):
         try:
             record = await api(client, f"/files/{file_id}")
@@ -438,27 +447,19 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
             )
             continue
         folder_id = record.get("folder_id")
-        if record.get("locked") is not True:
+        is_embedded_image = file_id in embedded_image_ids
+        if is_embedded_image and not file_is_visible(record):
             problems.append(
-                f"referenced file is unlocked: {file_id} {record.get('display_name')}"
+                f"embedded image file is restricted: {file_id} {record.get('display_name')}"
             )
+        if not is_embedded_image and record.get("locked") is not True:
+            problems.append(
+                f"non-image referenced file is unlocked: {file_id} {record.get('display_name')}"
+            )
+        if is_embedded_image and folder_id:
+            image_folder_ids.add(int(folder_id))
         if folder_id and folder_id not in folders:
-            folder = await api(client, f"/folders/{folder_id}")
-            folders[folder_id] = folder
-            if not folder.get("locked"):
-                problems.append(
-                    f"referenced file folder is unlocked: {folder_id} {folder.get('full_name')}"
-                )
-            folder_files = await paged(client, f"/folders/{folder_id}/files")
-            unlocked = sorted(
-                file.get("id")
-                for file in folder_files
-                if file.get("locked") is not True
-            )
-            if unlocked:
-                problems.append(
-                    f"referenced folder contains unlocked files: {folder_id} {unlocked}"
-                )
+            folders[int(folder_id)] = await api(client, f"/folders/{folder_id}")
         files.append(
             {
                 "id": file_id,
@@ -466,8 +467,19 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
                 "size": record.get("size"),
                 "folder_id": folder_id,
                 "locked": record.get("locked"),
+                "embedded_image": is_embedded_image,
             }
         )
+
+    for folder_id, folder in folders.items():
+        if folder_id in image_folder_ids and not folder_is_visible(folder):
+            problems.append(
+                f"embedded image folder is restricted: {folder_id} {folder.get('full_name')}"
+            )
+        if folder_id not in image_folder_ids and folder.get("locked") is not True:
+            problems.append(
+                f"non-image referenced folder is unlocked: {folder_id} {folder.get('full_name')}"
+            )
 
     return {
         "id": module_id,
@@ -476,7 +488,8 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
         "pages": len(pages),
         "interactions": len(interactions),
         "files": len(files),
-        "locked_folders": len(folders),
+        "referenced_folders": len(folders),
+        "embedded_images": len(embedded_image_ids),
         "problems": problems,
         "passed": not problems,
     }
@@ -602,7 +615,10 @@ async def audit_orientation(client: httpx.AsyncClient, modules: list[dict]) -> d
     ):
         if not page:
             continue
-        if page.get("published"):
+        if role == "home":
+            if page.get("published") is not True or page.get("front_page") is not True:
+                problems.append("home page is not published and set as the front page")
+        elif page.get("published"):
             problems.append(f"{role} orientation page is published")
         body = page.get("body") or ""
         parser = BodyAudit()
@@ -667,12 +683,23 @@ async def audit_orientation(client: httpx.AsyncClient, modules: list[dict]) -> d
                     f"replacement course-home page contains rejected/internal phrase {rejected!r}"
                 )
 
+    course = await api(client, f"/courses/{COURSE_ID}")
+    if course.get("default_view") != "wiki":
+        problems.append("course default view is not the CCE Pages front page")
+    try:
+        image_access = await audit_embedded_image_access(client, check_only=True)
+    except RuntimeError as exc:
+        problems.append(f"embedded image access: {exc}")
+        image_access = {"passed": False}
+
     return {
         "module_id": orientation.get("id"),
         "teacher_module_id": teacher_module.get("id"),
         "student_page": student_page.get("url") if student_page else None,
         "teacher_page": teacher_page.get("url") if teacher_page else None,
         "home_page": home_page.get("url") if home_page else None,
+        "default_view": course.get("default_view"),
+        "image_access": image_access,
         "problems": problems,
         "passed": not problems,
     }

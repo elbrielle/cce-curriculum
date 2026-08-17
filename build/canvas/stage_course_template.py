@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-"""Return the CCR Canvas source course to a fully staged template.
+"""Return the CCE Canvas source course to a teacher-ready staged template.
 
 The source course contains every teacher guide, student guide, interaction,
 rubric, and file, but it does not decide what a teacher publishes after
 cloning. This script unpublishes all 36 instructional modules, the student
-orientation, the replacement home page, and their child content. It also
-relocks curriculum and licensed file folders. Nothing is deleted.
+orientation, and their child content. It keeps the reviewed CCE home published
+as the course front page and keeps images embedded in Canvas pages visible to
+enrolled students. Non-image curriculum and licensed files remain locked.
+Nothing is deleted.
 """
 
 from __future__ import annotations
@@ -25,13 +27,13 @@ from build_course_orientation import (
     TEACHER_MODULE,
     TEACHER_TITLE,
 )
+from normalize_embedded_image_access import normalize as normalize_image_access
 
 WEEK_PATTERN = re.compile(r"^[1-6]SW Wk[0-6]:")
 LOCKED_FOLDER_PREFIXES = (
     "course files/CCR Materials",
     "course files/Licensed",
 )
-INERT_FRONT_PAGE_TITLE = "Welcome!"
 
 
 async def api(client: httpx.AsyncClient, method: str, path: str, **kwargs):
@@ -100,63 +102,28 @@ async def stage_interaction(client: httpx.AsyncClient, item: dict) -> None:
 
 
 async def stage(client: httpx.AsyncClient) -> None:
-    # Canvas will reject unpublishing the active front page while the course
-    # default view is still Pages. Return the course to Modules first.
-    await api(
-        client,
-        "PUT",
-        f"/courses/{COURSE_ID}",
-        data={"course[default_view]": "modules"},
-    )
-
     pages = await paged(client, f"/courses/{COURSE_ID}/pages")
     home_matches = [page for page in pages if page.get("title") == HOME_TITLE]
     if len(home_matches) != 1:
         raise RuntimeError(
             f"expected one page {HOME_TITLE!r}; found {len(home_matches)}"
         )
-    if home_matches[0].get("front_page"):
-        placeholders = [
-            page for page in pages if page.get("title") == INERT_FRONT_PAGE_TITLE
-        ]
-        if len(placeholders) != 1:
-            raise RuntimeError(
-                f"expected one inert front page {INERT_FRONT_PAGE_TITLE!r}; "
-                f"found {len(placeholders)}"
-            )
-        placeholder = placeholders[0]
-        await api(
-            client,
-            "PUT",
-            f"/courses/{COURSE_ID}/pages/{placeholder['url']}",
-            data={
-                "wiki_page[published]": "true",
-                "wiki_page[front_page]": "true",
-                "wiki_page[editing_roles]": "teachers",
-                "wiki_page[notify_of_update]": "false",
-            },
-        )
-        pages = await paged(client, f"/courses/{COURSE_ID}/pages")
-
-    for title in {HOME_TITLE, STUDENT_TITLE, TEACHER_TITLE}:
+    for title in {STUDENT_TITLE, TEACHER_TITLE}:
         matches = [page for page in pages if page.get("title") == title]
         if len(matches) != 1:
             raise RuntimeError(f"expected one page {title!r}; found {len(matches)}")
         page = matches[0]
         if not page.get("published") and not page.get("front_page"):
             continue
-        update = {
-            "wiki_page[published]": "false",
-            "wiki_page[editing_roles]": "teachers",
-            "wiki_page[notify_of_update]": "false",
-        }
-        if title == HOME_TITLE:
-            update["wiki_page[front_page]"] = "false"
         await api(
             client,
             "PUT",
             f"/courses/{COURSE_ID}/pages/{page['url']}",
-            data=update,
+            data={
+                "wiki_page[published]": "false",
+                "wiki_page[editing_roles]": "teachers",
+                "wiki_page[notify_of_update]": "false",
+            },
         )
 
     modules = await paged(client, f"/courses/{COURSE_ID}/modules")
@@ -207,6 +174,11 @@ async def stage(client: httpx.AsyncClient) -> None:
                 f"/folders/{folder['id']}",
                 data={"locked": "true"},
             )
+
+    # Builders and the staging sweep lock source files by default. Reopen only
+    # files used by actual <img> elements and their folder chains, then restore
+    # the reviewed CCE home as the published front page/default course view.
+    await normalize_image_access(client)
 
 async def audit(client: httpx.AsyncClient) -> dict:
     course = await api(client, "GET", f"/courses/{COURSE_ID}")
@@ -262,7 +234,7 @@ async def audit(client: httpx.AsyncClient) -> dict:
                 if quiz.get("published"):
                     published_content.append(quiz.get("title"))
 
-    expected_pages = [HOME_TITLE, STUDENT_TITLE, TEACHER_TITLE]
+    expected_pages = [STUDENT_TITLE, TEACHER_TITLE]
     published_course_pages = [
         title
         for title in expected_pages
@@ -271,20 +243,23 @@ async def audit(client: httpx.AsyncClient) -> dict:
     published_modules = [
         module.get("name") for module in targets if module.get("published")
     ]
-    unlocked_folders = [
-        folder.get("full_name") for folder in target_folders if not folder.get("locked")
-    ]
+    home = page_by_title.get(HOME_TITLE, {})
+    front = await api(client, "GET", f"/courses/{COURSE_ID}/front_page")
+    image_access = await normalize_image_access(client, check_only=True)
     week_modules = [
         module for module in targets if WEEK_PATTERN.match(module.get("name") or "")
     ]
     passed = (
         len(week_modules) == 36
-        and course.get("default_view") == "modules"
+        and course.get("default_view") == "wiki"
+        and home.get("published") is True
+        and home.get("front_page") is True
+        and front.get("title") == HOME_TITLE
         and not published_modules
         and not published_items
         and not published_content
         and not published_course_pages
-        and not unlocked_folders
+        and image_access.get("passed") is True
     )
     return {
         "course": {
@@ -296,8 +271,13 @@ async def audit(client: httpx.AsyncClient) -> dict:
         "published_items": published_items,
         "published_content": published_content,
         "published_course_pages": published_course_pages,
-        "locked_folders": len(target_folders) - len(unlocked_folders),
-        "unlocked_folders": unlocked_folders,
+        "home": {
+            "title": home.get("title"),
+            "published": home.get("published"),
+            "front_page": home.get("front_page"),
+        },
+        "image_access": image_access,
+        "tracked_file_folders": len(target_folders),
         "passed": passed,
     }
 

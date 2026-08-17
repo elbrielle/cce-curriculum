@@ -3,6 +3,12 @@
 import asyncio, html, json, re, sys
 import httpx
 
+from normalize_embedded_image_access import (
+    file_is_visible,
+    folder_is_visible,
+    image_file_ids,
+)
+
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
 SUBMISSION_LINK_MARKER = 'cce-mapped-assignment-link-v1'
@@ -221,6 +227,7 @@ async def main():
         assignment_descriptions = {}
         page_bodies = {}
         file_ids = set()
+        embedded_image_ids = set()
         positions = [item.get("position") for item in items]
         if module.get("published"):
             problems.append("module is published")
@@ -343,6 +350,7 @@ async def main():
             if "enhanceable_content" in body:
                 problems.append(f"legacy Canvas tabs in {page['url']}")
             file_ids.update(int(value) for value in re.findall(r"/files/(\d+)", body))
+            embedded_image_ids.update(image_file_ids(body))
             pages.append(
                 {
                     "item_id": item["id"],
@@ -356,6 +364,7 @@ async def main():
             )
         files = []
         folder_ids = set()
+        image_folder_ids = set()
         for file_id in sorted(file_ids):
             try:
                 record = await api(client, f"/files/{file_id}")
@@ -364,14 +373,21 @@ async def main():
                         "id": file_id,
                         "name": record.get("display_name"),
                         "locked": record.get("locked"),
+                        "embedded_image": file_id in embedded_image_ids,
                     }
                 )
-                if not record.get("locked"):
+                if file_id in embedded_image_ids and not file_is_visible(record):
                     problems.append(
-                        f"referenced file is unlocked: {file_id} {record.get('display_name')}"
+                        f"embedded image file is restricted: {file_id} {record.get('display_name')}"
+                    )
+                if file_id not in embedded_image_ids and not record.get("locked"):
+                    problems.append(
+                        f"non-image referenced file is unlocked: {file_id} {record.get('display_name')}"
                     )
                 if record.get("folder_id"):
                     folder_ids.add(int(record["folder_id"]))
+                    if file_id in embedded_image_ids:
+                        image_folder_ids.add(int(record["folder_id"]))
             except httpx.HTTPStatusError as exc:
                 problems.append(
                     f"file {file_id} did not resolve: HTTP {exc.response.status_code}"
@@ -380,16 +396,13 @@ async def main():
         for folder_id in sorted(folder_ids):
             folder = await api(client, f"/folders/{folder_id}")
             folder_files = await paged(client, f"/folders/{folder_id}/files")
-            if not folder.get("locked"):
+            if folder_id in image_folder_ids and not folder_is_visible(folder):
                 problems.append(
-                    f"referenced folder is unlocked: {folder_id} {folder.get('full_name')}"
+                    f"embedded image folder is restricted: {folder_id} {folder.get('full_name')}"
                 )
-            unlocked = [
-                record.get("id") for record in folder_files if not record.get("locked")
-            ]
-            if unlocked:
+            if folder_id not in image_folder_ids and not folder.get("locked"):
                 problems.append(
-                    f"folder {folder_id} contains unlocked files: {unlocked}"
+                    f"non-image referenced folder is unlocked: {folder_id} {folder.get('full_name')}"
                 )
             folders.append(
                 {
@@ -397,7 +410,7 @@ async def main():
                     "name": folder.get("full_name"),
                     "locked": folder.get("locked"),
                     "files": len(folder_files),
-                    "all_files_locked": not unlocked,
+                    "contains_embedded_images": folder_id in image_folder_ids,
                 }
             )
         external_quiz = None
