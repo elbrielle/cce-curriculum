@@ -23,6 +23,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE_ROOT = ROOT / "public-site"
 DOCS_ROOT = ROOT / "docs"
 DEFAULT_OUTPUT = SITE_ROOT / "dist"
+COMPLETE_ARTIFACT_INVENTORY = ROOT / "cce-curriculum/notes/google-workspace-complete-artifact-inventory.json"
 
 CHAPTERS = {
     "1sw": {
@@ -269,6 +270,46 @@ def markdown_html(page: Page, pages: dict[Path, Page], output_root: Path, copied
     return str(soup)
 
 
+def week_address(page: Page) -> str:
+    rel = page.source.relative_to(DOCS_ROOT)
+    match = re.fullmatch(r"wk(\d+)-.+", rel.parts[1])
+    if page.kind != "week" or not match or not re.fullmatch(r"[1-6]sw", rel.parts[0]):
+        raise ValueError(f"Cannot resolve curriculum address for {page.source.relative_to(ROOT)}")
+    return f"{rel.parts[0].upper()} Wk{match.group(1)}"
+
+
+def unit_downloads_html(
+    page: Page,
+    releases: list[dict[str, object]],
+    copied: dict[Path, Path],
+    policy: dict,
+) -> str:
+    links: list[str] = []
+    for release in releases:
+        source = (ROOT / str(release["source"])).resolve()
+        if not source.is_file():
+            raise FileNotFoundError(f"Missing unit download: {release['source']}")
+        try:
+            resource_rel = source.relative_to(DOCS_ROOT / "resources")
+        except ValueError as exc:
+            raise ValueError(f"Unit download outside docs/resources: {release['source']}") from exc
+        lowered = source.as_posix().lower()
+        if any(fragment in lowered for fragment in policy["protected_path_fragments"]):
+            raise ValueError(f"Protected unit download: {release['source']}")
+        if source.suffix.lower() in policy["protected_file_extensions"]:
+            raise ValueError(f"Protected unit download type: {release['source']}")
+        target = Path("assets", "resources", resource_rel)
+        copied[source] = target
+        links.append(
+            f'<li><a href="{rel_url(page.output, target)}" download>{html.escape(source.name)}</a></li>'
+        )
+    return (
+        '<section class="unit-downloads" aria-labelledby="unit-downloads-heading">'
+        '<h2 id="unit-downloads-heading">Downloads</h2>'
+        '<ul>' + "".join(links) + "</ul></section>"
+    )
+
+
 def day_pages_for_week(page: Page, pages: dict[Path, Page]) -> list[Page]:
     week_dir = page.source.parent
     return [pages[(week_dir / f"day{day}.md").resolve()] for day in range(1, 6)]
@@ -463,6 +504,13 @@ def sha256(path: Path) -> str:
 
 def build(output_root: Path) -> None:
     policy = json.loads((SITE_ROOT / "publication-policy.json").read_text(encoding="utf-8"))
+    complete_inventory = json.loads(COMPLETE_ARTIFACT_INVENTORY.read_text(encoding="utf-8"))
+    complete_by_address = {
+        unit["curriculum_address"]: unit["required_releases"]
+        for unit in complete_inventory["units"]
+    }
+    if len(complete_by_address) != 36:
+        raise ValueError(f"Complete artifact inventory must contain 36 units, found {len(complete_by_address)}")
     pages = discover_pages(policy)
     copied: dict[Path, Path] = {}
     if output_root.exists():
@@ -474,6 +522,12 @@ def build(output_root: Path) -> None:
     rendered_manifest = []
     for page in pages.values():
         content = markdown_html(page, pages, output_root, copied, policy)
+        if page.kind == "week":
+            address = week_address(page)
+            releases = complete_by_address.get(address)
+            if not releases:
+                raise ValueError(f"No unit downloads recorded for {address}")
+            content += unit_downloads_html(page, releases, copied, policy)
         rendered = render_content_page(page, content, pages)
         write_text(output_root, page.output, rendered)
         plain = BeautifulSoup(content, "html.parser").get_text(" ", strip=True)

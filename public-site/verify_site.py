@@ -14,6 +14,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SITE = ROOT / "public-site" / "dist"
+COMPLETE_ARTIFACT_INVENTORY = ROOT / "cce-curriculum/notes/google-workspace-complete-artifact-inventory.json"
 UNWANTED_STRUCTURAL_METAPHOR = re.compile(r"\bload(?:\s+|-+)bearing\b", re.IGNORECASE)
 
 
@@ -51,6 +52,23 @@ def verify(site: Path) -> None:
 
     protected = tuple(manifest["publication_policy"]["protected_path_fragments"])
     copied = manifest.get("copied_resources", [])
+    inventory = json.loads(COMPLETE_ARTIFACT_INVENTORY.read_text(encoding="utf-8"))
+    expected_sources = {
+        release["source"]
+        for unit in inventory["units"]
+        for release in unit["required_releases"]
+    }
+    copied_sources = {record["source"] for record in copied}
+    if len(copied) != 302:
+        problems.append(f"copied resources={len(copied)} expected=302")
+    if copied_sources != expected_sources:
+        problems.append(
+            f"copied resource set drift missing={sorted(expected_sources - copied_sources)} "
+            f"extra={sorted(copied_sources - expected_sources)}"
+        )
+    excluded_sources = {record["source"] for record in inventory["excluded_artifacts"]}
+    if copied_sources & excluded_sources:
+        problems.append(f"excluded artifacts copied: {sorted(copied_sources & excluded_sources)}")
     for record in copied:
         lowered = record["source"].lower()
         if any(fragment in lowered for fragment in protected):
@@ -71,6 +89,11 @@ def verify(site: Path) -> None:
     if len(html_files) != manifest.get("page_count"):
         problems.append(f"html files={len(html_files)} manifest page_count={manifest.get('page_count')}")
     seen_titles: dict[str, Path] = {}
+    week_download_sections = 0
+    expected_week_counts = {
+        unit["curriculum_address"]: unit["required_release_count"]
+        for unit in inventory["units"]
+    }
     for page in html_files:
         page_text = page.read_text(encoding="utf-8")
         soup = BeautifulSoup(page_text, "html.parser")
@@ -92,6 +115,18 @@ def verify(site: Path) -> None:
             problems.append(f"missing skip link: {rel}")
         if not soup.find("main", id="main-content"):
             problems.append(f"missing main landmark: {rel}")
+        downloads = soup.find("section", class_="unit-downloads")
+        if downloads:
+            week_download_sections += 1
+            match = re.fullmatch(r"curriculum/([1-6])sw/wk(\d+)-[^/]+/index\.html", rel.as_posix())
+            if not match:
+                problems.append(f"downloads section outside week overview: {rel}")
+            else:
+                address = f"{match.group(1)}SW Wk{match.group(2)}"
+                actual_count = len(downloads.find_all("a", href=True))
+                expected_count = expected_week_counts[address]
+                if actual_count != expected_count:
+                    problems.append(f"{address} downloads={actual_count} expected={expected_count}")
         for node, attribute in [(anchor, "href") for anchor in soup.find_all("a", href=True)] + [(image, "src") for image in soup.find_all("img", src=True)] + [(script, "src") for script in soup.find_all("script", src=True)] + [(link, "href") for link in soup.find_all("link", href=True)]:
             value = node.get(attribute, "").strip()
             if not value or value.startswith(("#", "http://", "https://", "mailto:", "tel:", "data:")):
@@ -120,6 +155,9 @@ def verify(site: Path) -> None:
             problems.append(f"unsafe search URL: {record['url']}")
         if not (site / record["url"]).is_file():
             problems.append(f"missing search target: {record['url']}")
+
+    if week_download_sections != 36:
+        problems.append(f"week download sections={week_download_sections} expected=36")
 
     if problems:
         print("PUBLIC SITE VERIFY: FAIL")

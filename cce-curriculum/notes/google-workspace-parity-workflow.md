@@ -29,13 +29,16 @@ Units_CCR/
       .pptx, .docx, .xlsx, and public-safe PDFs
 ```
 
-Generate the 36-unit inventory from the built public-site manifest and the editable-artifact parity manifest. Create folders only from that inventory; do not type or guess a second unit list. Stable folder and file IDs live in `google-workspace-drive-state.json`.
+Generate the 36-unit inventory from the current Canvas builders, built public-site manifest, and editable-artifact parity manifest. Create folders only from that inventory; do not type or guess a second unit list. Stable folder and file IDs live in `google-workspace-drive-state.json`.
 
-`Lucero's Weekly Slides/` is a separate teaching folder. It contains Ms. Lucero's combined Monday-Friday decks. Those decks are assembled from the approved daily masters; they do not replace the daily source files.
+`Lucero's Weekly Slides/` is a separate teaching folder. It contains one current
+combined Monday-Friday Week 1 deck. It is assembled from the approved daily
+masters and does not replace the daily source files. A duplicate removed by the
+teacher is not recreated by the parity workflow.
 
 ## Artifact rules
 
-For every teacher-facing artifact:
+For every teacher-facing editable artifact:
 
 1. Start from the approved tracked file or generated Canvas source.
 2. Upload the exact Office binary to the unit's `Download Releases` folder.
@@ -50,7 +53,10 @@ Format pairs follow the artifact's real job:
 - presentations: PowerPoint plus native Google Slides;
 - editable documents: Word plus native Google Docs;
 - spreadsheets: Excel plus native Google Sheets;
-- fixed-layout worksheets or rubrics: the verified PDF remains the primary release. Add an editable Google version only when it preserves the instructional layout and response space.
+- fixed-layout worksheets or rubrics: the verified PDF remains the primary release. Add an editable Google version only when it preserves the instructional layout and response space;
+- Canvas pages: remain web-native Teacher and Student Guides. Do not generate redundant Google Docs unless an approved editable document source exists;
+- embedded page images: remain embedded media, not loose Drive artifacts;
+- teacher answer keys: remain in authenticated Canvas while the Drive mirror is readable across the IISD domain.
 
 Do not convert a PDF into a loose Google Doc merely to satisfy a file-count rule. Equivalent access matters more than matching extensions.
 
@@ -71,8 +77,7 @@ Do not create a second file with `final`, `new`, or a date suffix when an existi
 
 Use this order after an approved tracked artifact changes:
 
-1. Rebuild and verify `public-site/` so `public-site/dist/data/site-manifest.json` contains the current public-safe release set.
-2. Run the local inventory and manifest gates:
+1. Run the local inventory, public-site build, and manifest gates:
 
    ```bash
    UV_CACHE_DIR=/tmp/cce-google-parity-uv \
@@ -80,18 +85,25 @@ Use this order after an approved tracked artifact changes:
      python build/google_workspace/verify_parity.py
    ```
 
-   This one command verifies the generated public site, rebuilds the deterministic
-   36-unit distribution inventory, checks every recorded Drive folder and release,
-   checks the exact Canvas/public Google `/copy` link sets, and compiles the
-   36-module live-Canvas expectation set before any credential is requested.
+   This one command rebuilds and verifies the generated public site, rebuilds both the public
+   distribution inventory and the complete 36-unit Canvas-builder artifact
+   inventory, checks every recorded Drive folder and release, checks the exact
+   Canvas/public Google `/copy` link sets, and compiles the 36-module live-Canvas
+   expectation set before any credential is requested.
 
-3. Use the Google Drive connector to update the recorded stable file ID. Replace bytes in place for Office or PDF releases. Update the native Google master only when an editable equivalent is justified.
-4. Re-read the affected Drive folder and file metadata. Confirm the recorded parent folder, name, byte count, native file type, and Irving ISD domain-reader access.
-5. Add or refresh the Canvas Google `/copy` link in the matching Teacher Facilitator Guide. Keep the page, module, and file package unpublished and locked.
-6. Add a public-site `/copy` link only for an artifact whose manifest decision is `public_site.included = true`. Authenticated AVID, H&L, FYF, Xello, and Climber materials stay out of the public mirror.
-7. Rebuild the public mirror and rerun the Canvas, site, parity, and Drive-distribution gates.
+2. Use the Google Drive connector to update the recorded stable file ID. Replace bytes in place for Office or PDF releases. Update the native Google master only when an editable equivalent is justified.
+3. Re-read the affected Drive folder and file metadata. Confirm the recorded parent folder, name, byte count, native file type, and Irving ISD domain-reader access.
+4. Add or refresh the Canvas Google `/copy` link in the matching Teacher Facilitator Guide. Keep the page, module, and file package unpublished and locked.
+5. Add a public-site `/copy` link only for an artifact whose manifest decision is `public_site.included = true`. Authenticated AVID, H&L, FYF, Xello, and Climber materials stay out of the public mirror.
+6. Rerun the one-command parity gate after the live update.
 
-`google-workspace-distribution-inventory.json` is generated and may be replaced by its builder. `google-workspace-drive-state.json` is the stable-ID readback record and changes only after the live Drive operation is verified.
+`google-workspace-distribution-inventory.json` records public-site-linked files.
+`google-workspace-complete-artifact-inventory.json` records the union of every
+public-safe artifact referenced by the 36 current Canvas builders or an existing
+unit download. Both files
+are generated and may be replaced by their builders. `google-workspace-drive-state.json`
+is the stable-ID readback record and changes only after the live Drive operation
+is verified.
 
 ## Teacher edits made during class
 
@@ -106,6 +118,18 @@ This feedback loop is how later decks should become more accurate to actual clas
 
 ## Current synchronized state
 
-As of 2026-08-16, `Units_CCR` contains all 36 curriculum unit folders. Each unit has one `Google Masters` folder and one `Download Releases` folder. The recorded public distribution includes 132 unique public-safe files referenced 133 times across the 36 units. Weeks 0 and 1 also contain ten verified native Google Slides masters and their matching PowerPoint releases. Week 0 includes the native first-week goal-setting Google Doc plus the matching Word and PDF releases.
+As of 2026-08-17, `Units_CCR` contains all 36 curriculum unit folders. Each unit
+has one `Google Masters` folder and one `Download Releases` folder. The complete
+Canvas-builder and public-site union contains 305 unit-file references
+representing 302 unique public-safe sources. Live readback matched all 305
+required files by exact Drive ID, filename, MIME type, and byte count. One
+teacher answer key is explicitly excluded from the domain-readable mirror and
+remains Canvas-only.
 
-The live readback verified 36 unit folders, 72 standard subfolders, all 133 public release references, ten native presentations, ten PowerPoint releases, and Irving ISD domain-reader access. The exact IDs and local hashes are recorded in the two manifests and the Drive-state file rather than repeated in this narrative.
+Weeks 0 and 1 contain ten verified native Google Slides masters and their
+matching PowerPoint releases. Week 0 includes the native first-week goal-setting
+Google Doc plus the matching Word and PDF releases. Every week overview on the
+public site now lists its public-safe downloads, so the public distribution uses
+the same 305 unit references and 302 unique files as Drive. Exact IDs, hashes,
+byte counts, public-link decisions, and exclusions are recorded in the manifests
+and Drive-state file rather than repeated in this narrative.

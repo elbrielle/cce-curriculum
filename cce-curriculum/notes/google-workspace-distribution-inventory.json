@@ -10,13 +10,25 @@
     "url": "https://drive.google.com/drive/folders/1FbY0WdnXN-PkW6Vi76qcpDfp7SKq5c5H"
   },
   "unit_count": 36,
-  "unique_public_resource_count": 132,
+  "unique_public_resource_count": 302,
   "units": [
     {
       "curriculum_address": "1SW Wk0",
       "source_directory": "docs/1sw/wk0-classroom-routines",
       "drive_folder_title": "SW1 · Wk0 Classroom Routines and Career Self-Discovery",
       "public_resources": [
+        {
+          "source": "docs/resources/worksheets/building-blocks-word-bank-bilingual.pdf",
+          "output": "assets/resources/worksheets/building-blocks-word-bank-bilingual.pdf",
+          "sha256": "876ab76a273faef30f56d17f292ae9f9fd98e69be0ceae35390669f69fbf5b84",
+          "bytes": 219797
+        },
+        {
+          "source": "docs/resources/worksheets/building-blocks-word-bank.pdf",
+          "output": "assets/resources/worksheets/building-blocks-word-bank.pdf",
+          "sha256": "c112d0a59d761a20581b8c7edd20e437887567d2731c814da92ce6e7d51d3cb0",
+          "bytes": 177280
+        },
         {
           "source": "docs/resources/worksheets/cce-first-week-goal-setting.docx",
           "output": "assets/resources/worksheets/cce-first-week-goal-setting.docx",
@@ -28,6 +40,30 @@
           "output": "assets/resources/worksheets/cce-first-week-goal-setting.pdf",
           "sha256": "65e3fcd807378a8b3af93fd4fbc116f70549e08457c00f24b121cb47d9e5dfb6",
           "bytes": 48550
+        },
+        {
+          "source": "docs/resources/worksheets/my-career-journey-bilingual.pdf",
+          "output": "assets/resources/worksheets/my-career-journey-bilingual.pdf",
+          "sha256": "e65b9049917624291afe8b2ab44032e8600aab1f30f54e08da7a2035da6b4a10",
+          "bytes": 226988
+        },
+        {
+          "source": "docs/resources/worksheets/my-career-journey-stems.pdf",
+          "output": "assets/resources/worksheets/my-career-journey-stems.pdf",
+          "sha256": "0171534706b87a80d5a16c4bca0843a943ade0051c68e7306dd4dea2c5e1c6d0",
+          "bytes": 212402
+        },
+        {
+          "source": "docs/resources/worksheets/my-career-journey.pdf",
+          "output": "assets/resources/worksheets/my-career-journey.pdf",
+          "sha256": "f75131821bed5f588c35928b19f03594279a1ccd47d8cded51b2e17ac68620b8",
+          "bytes": 207746
+        },
+        {
+          "source": "docs/resources/worksheets/wk0-career-journey-rubric.pdf",
+          "output": "assets/resources/worksheets/wk0-career-journey-rubric.pdf",
+          "sha256": "332196d5aec881763ca86fe5ba6709d50fd69c8ac50ca2e6ed1cd3e58cff2bc0",
+          "bytes": 271673
         }
       ],
       "editable_artifacts": [
@@ -212,7 +248,7 @@
           }
         }
       ],
-      "public_resource_count": 2,
+      "public_resource_count": 8,
       "editable_artifact_count": 5
     },
     {
@@ -243,6 +279,24 @@
           "output": "assets/resources/worksheets/1sw-wk1-robots-for-crayons-action-plan.pdf",
           "sha256": "9581883ef7a57b66b08fd62394717184e603f2a672b1c51fc64769541111689f",
           "bytes": 196622
+        },
+        {
+          "source": "docs/resources/worksheets/career-research-worksheet-bilingual.pdf",
+          "output": "assets/resources/worksheets/career-research-worksheet-bilingual.pdf",
+          "sha256": "12b84c06a9241a2a5130b3d39ac90008be1a838bdc7c5957310a7aa7e8eb5508",
+          "bytes": 218401
+        },
+        {
+          "source": "docs/resources/worksheets/career-research-worksheet-example-welder.pdf",
+          "output": "assets/resources/worksheets/career-research-worksheet-example-welder.pdf",
+          "sha256": "b1d238ac7899d6da5a70550f11f0597178a5e2ed6de2146fd1d117d886b84da7",
+          "bytes": 260421
+        },
+        {
+          "source": "docs/resources/worksheets/career-research-worksheet.pdf",
+          "output": "assets/resources/worksheets/career-research-worksheet.pdf",
+          "sha256": "342251f72bb5f5161745da5e8fb1b1391a3abd0d06809126cf05a49027714cfd",
+          "bytes": 208457
         },
         {
           "source": "docs/resources/worksheets/clipboard-roster-grid.pdf",
@@ -445,7 +499,7 @@
           }
         }
       ],
-      "public_resource_count": 7,
+      "public_resource_count": 10,
       "editable_artifact_count": 5
     },
     {
@@ -636,6 +690,12 @@
           "bytes": 223821
         },
         {
+          "source": "docs/resources/worksheets/clipboard-roster-grid.pdf",
+          "output": "assets/resources/worksheets/clipboard-roster-grid.pdf",
+          "sha256": "54762972ff06c0040bff50e4f6950b6346dd1bf698c7c31ba641058a30231ef8",
+          "bytes": 204851
+        },
+        {
           "source": "docs/resources/worksheets/wk4-day1-career-interest-check.pdf",
           "output": "assets/resources/worksheets/wk4-day1-career-interest-check.pdf",
           "sha256": "a8f04c5ed35e054ba4b0b49a6b570ad21575429fd0f6286af27925ce0ba86646",
@@ -664,6 +724,12 @@
           "output": "assets/resources/worksheets/wk4-demo-rubric.pdf",
           "sha256": "696ed30a95e66cbebe2e1f728cf5d4316a3dd8e055cd4349b3079726a643171b",
           "bytes": 274220
+        },
+        {
+          "source": "docs/resources/worksheets/wk4-education-pathway-comparison-bilingual.pdf",
+          "output": "assets/resources/worksheets/wk4-education-pathway-comparison-bilingual.pdf",
+          "sha256": "1120e60bf01967d648914274d400bd2c2d2edf890b93df2518e3bd3f879c2c7d",
+          "bytes": 298344
         },
         {
           "source": "docs/resources/worksheets/wk4-education-pathway-comparison-model.pdf",
@@ -720,6 +786,12 @@
           "bytes": 165015
         },
         {
+          "source": "docs/resources/worksheets/wk4-troubleshooting-step-sort-cards-bilingual.pdf",
+          "output": "assets/resources/worksheets/wk4-troubleshooting-step-sort-cards-bilingual.pdf",
+          "sha256": "5e885cf0cd4e57188e1f64dee0e868a348d2b301a5a7dcd952921a5a5a2020bd",
+          "bytes": 212936
+        },
+        {
           "source": "docs/resources/worksheets/wk4-troubleshooting-step-sort-cards.pdf",
           "output": "assets/resources/worksheets/wk4-troubleshooting-step-sort-cards.pdf",
           "sha256": "a8d7e3e1603db34b09b2d4ac1e51df758308cd96b8596063f82ce164a08fb399",
@@ -727,7 +799,7 @@
         }
       ],
       "editable_artifacts": [],
-      "public_resource_count": 16,
+      "public_resource_count": 19,
       "editable_artifact_count": 0
     },
     {
@@ -822,10 +894,58 @@
           "output": "assets/resources/exit-tickets/2sw-wk1-day5-cluster-wrap-up-xello-life-experience.pdf",
           "sha256": "aa35cf2a022db944d9df4a68ee98f672cc9a393f652e06a87e38f7cd27e550b7",
           "bytes": 278002
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk1-city-council-plan.pdf",
+          "output": "assets/resources/worksheets/2sw-wk1-city-council-plan.pdf",
+          "sha256": "6929daf78ac6671578bc996fba8ead66b779dc95d5d8676b98752c04f4f5e0d3",
+          "bytes": 224781
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk1-emergency-kit-plan.pdf",
+          "output": "assets/resources/worksheets/2sw-wk1-emergency-kit-plan.pdf",
+          "sha256": "dc81c998d372636f7129df9f5df1d43cce08edea5e28c37c6028276f6da3881f",
+          "bytes": 222809
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk1-legal-career-cards.pdf",
+          "output": "assets/resources/worksheets/2sw-wk1-legal-career-cards.pdf",
+          "sha256": "b934d4078f578efaadad694273eafd216a7811f1f6f7617b6e5fdc5715d3b341",
+          "bytes": 262369
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk1-legal-entrepreneur-card.pdf",
+          "output": "assets/resources/worksheets/2sw-wk1-legal-entrepreneur-card.pdf",
+          "sha256": "ae48533b52ad6acc6d1b2931bbb475573aebcfb57f50d933994583369c2edfa7",
+          "bytes": 260113
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk1-policy-argument-and-evidence.pdf",
+          "output": "assets/resources/worksheets/2sw-wk1-policy-argument-and-evidence.pdf",
+          "sha256": "30a71cf881ee35647e9bd7fa04792783129223ef53f07daca54f1fdaa32175dc",
+          "bytes": 229761
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk1-position-paper-rubric.pdf",
+          "output": "assets/resources/worksheets/2sw-wk1-position-paper-rubric.pdf",
+          "sha256": "b6f16419d417c20aecd49d2f313722ad3aa1dca2f70aca854593cf4ce4825599",
+          "bytes": 236114
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk1-xello-life-experience-connection.pdf",
+          "output": "assets/resources/worksheets/2sw-wk1-xello-life-experience-connection.pdf",
+          "sha256": "bb28359c689059390d29b86dd6081082086ffeb8edba95ec79e6c1aecc8b529b",
+          "bytes": 185403
+        },
+        {
+          "source": "docs/resources/worksheets/career-research-worksheet.pdf",
+          "output": "assets/resources/worksheets/career-research-worksheet.pdf",
+          "sha256": "342251f72bb5f5161745da5e8fb1b1391a3abd0d06809126cf05a49027714cfd",
+          "bytes": 208457
         }
       ],
       "editable_artifacts": [],
-      "public_resource_count": 5,
+      "public_resource_count": 13,
       "editable_artifact_count": 0
     },
     {
@@ -1188,63 +1308,358 @@
       "curriculum_address": "3SW Wk1",
       "source_directory": "docs/3sw/wk1-vet-science",
       "drive_folder_title": "SW3 · Wk1 Vet Science",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/3sw-wk1-veterinary-career-comparison.pdf",
+          "output": "assets/resources/worksheets/3sw-wk1-veterinary-career-comparison.pdf",
+          "sha256": "af6b92aeffdd383438803a54a3420b1e7f9c65b978488e70d42118eabf8114df",
+          "bytes": 234044
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk1-veterinary-career-evidence-guide.pdf",
+          "output": "assets/resources/worksheets/3sw-wk1-veterinary-career-evidence-guide.pdf",
+          "sha256": "205a2ddd59be7190fae94febaf6082004a7a1a04eb627c455c6af23fcdb1e5f5",
+          "bytes": 275924
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk1-veterinary-evidence-rubric.pdf",
+          "output": "assets/resources/worksheets/3sw-wk1-veterinary-evidence-rubric.pdf",
+          "sha256": "03799a891a5c486fc46e0897032a8adad0f74b045c9efc56f94f2455bad7fb51",
+          "bytes": 227657
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk1-veterinary-pathway-brief.pdf",
+          "output": "assets/resources/worksheets/3sw-wk1-veterinary-pathway-brief.pdf",
+          "sha256": "83ecd1f9b785367f673acad4ef8ee254d01287aa26b4c0bde17f6b6f48f781a9",
+          "bytes": 212424
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk1-veterinary-triage-record.pdf",
+          "output": "assets/resources/worksheets/3sw-wk1-veterinary-triage-record.pdf",
+          "sha256": "5463e2ae618631ae3468f5427c181cb1f74e619a16301bc6478056bd3b14cba1",
+          "bytes": 231632
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk1-xello-skills-reflection.pdf",
+          "output": "assets/resources/worksheets/3sw-wk1-xello-skills-reflection.pdf",
+          "sha256": "abb5a4382e47980b2213ef96d33b480dbf17f9c2b95c219d5ca7d6c12d601bbb",
+          "bytes": 194141
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 6,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "3SW Wk2",
       "source_directory": "docs/3sw/wk2-plant-science",
       "drive_folder_title": "SW3 · Wk2 Plant Science",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/3sw-wk2-emerging-plant-tech-evaluation.pdf",
+          "output": "assets/resources/worksheets/3sw-wk2-emerging-plant-tech-evaluation.pdf",
+          "sha256": "33aa14fb63397ddcbcc8bcb277dfdd5fc2b5c546077c39abb01bd9785f56f4d1",
+          "bytes": 210114
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk2-emerging-plant-tech-evidence.pdf",
+          "output": "assets/resources/worksheets/3sw-wk2-emerging-plant-tech-evidence.pdf",
+          "sha256": "5e69f0a04ebdb6cdfb599eab8e7e686381e27dedda9e4b6c6b143bf7fb542288",
+          "bytes": 274609
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk2-farm-to-table-planner.pdf",
+          "output": "assets/resources/worksheets/3sw-wk2-farm-to-table-planner.pdf",
+          "sha256": "b75af7a963ea9eaccf1841e8b6b1cb9fa1a2608c20f5f61fdc805d72bdb658fe",
+          "bytes": 249426
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk2-plant-career-evidence-guide.pdf",
+          "output": "assets/resources/worksheets/3sw-wk2-plant-career-evidence-guide.pdf",
+          "sha256": "17bbc96f2213662f5573801984a75c5597543fb83055fd4714d1b39034ce6aef",
+          "bytes": 277368
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk2-plant-science-major-rubric.pdf",
+          "output": "assets/resources/worksheets/3sw-wk2-plant-science-major-rubric.pdf",
+          "sha256": "8b297b45016ebfadc3c38f86834c3e2e02fde70b8544fe392f14356d5d53fd47",
+          "bytes": 232625
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk2-xello-biases-reflection.pdf",
+          "output": "assets/resources/worksheets/3sw-wk2-xello-biases-reflection.pdf",
+          "sha256": "bb2df056ded1947245c9f664a5d84c8d43129cb783379a41ab1c9c4a4f0ffd38",
+          "bytes": 200947
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 6,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "3SW Wk3",
       "source_directory": "docs/3sw/wk3-sustainable-engineering",
       "drive_folder_title": "SW3 · Wk3 Sustainable Engineering",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/3sw-wk3-drone-design-brief.pdf",
+          "output": "assets/resources/worksheets/3sw-wk3-drone-design-brief.pdf",
+          "sha256": "ec861962b886f7871a088b4d6283967d457e9837183a868b0f408b8f592e0e16",
+          "bytes": 193278
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk3-peer-review-revision.pdf",
+          "output": "assets/resources/worksheets/3sw-wk3-peer-review-revision.pdf",
+          "sha256": "bddcaa738a589b306e47795165a7a70f1a164ffe3ad015f5ab0f377b6b773b36",
+          "bytes": 190425
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk3-pest-patrol-field-notes.pdf",
+          "output": "assets/resources/worksheets/3sw-wk3-pest-patrol-field-notes.pdf",
+          "sha256": "b20ac59517e7b674a488ad221cf35f0aa7d8fbe6ddd626ad32792942fa098b0c",
+          "bytes": 205383
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk3-societal-trends-evaluation.pdf",
+          "output": "assets/resources/worksheets/3sw-wk3-societal-trends-evaluation.pdf",
+          "sha256": "540b8d793f88164c3975707e9e7bf87ee002257327c3da8b5144f45706f79f0f",
+          "bytes": 199644
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk3-societal-trends-evidence.pdf",
+          "output": "assets/resources/worksheets/3sw-wk3-societal-trends-evidence.pdf",
+          "sha256": "47e3f10cd869f9da5540692dbfbf1fbd672c8215949aa62b5cd688cdc9bde7c4",
+          "bytes": 259259
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk3-sustainable-career-problem-guide.pdf",
+          "output": "assets/resources/worksheets/3sw-wk3-sustainable-career-problem-guide.pdf",
+          "sha256": "de47c6d1e84c46f6a9f7021e50639f88fee0cee98b805cb2521ef7678c0db6aa",
+          "bytes": 260346
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk3-sustainable-engineering-major-rubric.pdf",
+          "output": "assets/resources/worksheets/3sw-wk3-sustainable-engineering-major-rubric.pdf",
+          "sha256": "21015933d91e3603f05776364eb37eae327b17fca21329eba8d271fbf279f4cc",
+          "bytes": 231628
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk3-xello-goals-plan.pdf",
+          "output": "assets/resources/worksheets/3sw-wk3-xello-goals-plan.pdf",
+          "sha256": "4f154a70d7cfcf3b72107b0e399869bcc5d85a47a1b83915c227eed08cad8878",
+          "bytes": 216441
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 8,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "3SW Wk4",
       "source_directory": "docs/3sw/wk4-culinary-hospitality",
       "drive_folder_title": "SW3 · Wk4 Culinary Hospitality",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/3sw-wk4-cater-create-event-brief.pdf",
+          "output": "assets/resources/worksheets/3sw-wk4-cater-create-event-brief.pdf",
+          "sha256": "17522f1ccf0428988be26a2fb0d9a6fe587e48a76d5f905d267af46b7fce935f",
+          "bytes": 203818
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk4-culinary-twist-menu-brief.pdf",
+          "output": "assets/resources/worksheets/3sw-wk4-culinary-twist-menu-brief.pdf",
+          "sha256": "aa8d3fce32b6c4fc3532171293ed1b241463412920e474627f4b3d5472b9d493",
+          "bytes": 218331
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk4-hospitality-career-evidence-guide.pdf",
+          "output": "assets/resources/worksheets/3sw-wk4-hospitality-career-evidence-guide.pdf",
+          "sha256": "9f352d0249e4ae6e4942e3cfc2f89fd870602e25cfc1bce522c931a7cfffe8ea",
+          "bytes": 284779
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk4-hospitality-minor-rubric.pdf",
+          "output": "assets/resources/worksheets/3sw-wk4-hospitality-minor-rubric.pdf",
+          "sha256": "f966344ada79dfe57802a8e886e57ceb3c9309d6acf5fe5c542032994191a7da",
+          "bytes": 270966
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk4-hospitality-recommendation.pdf",
+          "output": "assets/resources/worksheets/3sw-wk4-hospitality-recommendation.pdf",
+          "sha256": "3870f10d1fb8868f841f5080ad3ab4ecabcd568313b09193179f9278af38fe0b",
+          "bytes": 232042
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk4-hotel-rescue-cards.pdf",
+          "output": "assets/resources/worksheets/3sw-wk4-hotel-rescue-cards.pdf",
+          "sha256": "442e05f44f7ed80f6f11ee6179add3b77f70aaf5fad4f6722b8653cb9f7319cc",
+          "bytes": 254588
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk4-hotel-rescue-response.pdf",
+          "output": "assets/resources/worksheets/3sw-wk4-hotel-rescue-response.pdf",
+          "sha256": "d79036d6646104527f9b479eddbaf355c9a8d84b2aea0f52fa0c1d1944d8e2e3",
+          "bytes": 212655
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk4-motivation-career-comparison.pdf",
+          "output": "assets/resources/worksheets/3sw-wk4-motivation-career-comparison.pdf",
+          "sha256": "c1217405e36b4081268dc94d4ee8dd6f773bec921e0bccfa5c8cabeb036af2fd",
+          "bytes": 255160
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 8,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "3SW Wk5",
       "source_directory": "docs/3sw/wk5-cosmetology",
       "drive_folder_title": "SW3 · Wk5 Cosmetology",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/3sw-wk5-cosmetology-minor-rubric.pdf",
+          "output": "assets/resources/worksheets/3sw-wk5-cosmetology-minor-rubric.pdf",
+          "sha256": "85d4ecfa5ab6ef7ef5c5d271455507042a04c211d3b6d9fef9e351421fb218e3",
+          "bytes": 224254
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk5-cosmetology-pathway-decision.pdf",
+          "output": "assets/resources/worksheets/3sw-wk5-cosmetology-pathway-decision.pdf",
+          "sha256": "a5ba582e75cf14a9456c046eb6a1176c4f9f94d675e98071795c65eae7cf3f99",
+          "bytes": 237781
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk5-cosmetology-recommendation.pdf",
+          "output": "assets/resources/worksheets/3sw-wk5-cosmetology-recommendation.pdf",
+          "sha256": "936432fb381bbab6427d4d095ee618c97c55fbe1167d2d050b5da2ded8007539",
+          "bytes": 216309
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk5-salon-wellness-campaign.pdf",
+          "output": "assets/resources/worksheets/3sw-wk5-salon-wellness-campaign.pdf",
+          "sha256": "ef3a01fa7f0a57e1de2c6090815e2884937f90c2df3e514943533897c9b35d06",
+          "bytes": 220349
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk5-sfx-build-test-record.pdf",
+          "output": "assets/resources/worksheets/3sw-wk5-sfx-build-test-record.pdf",
+          "sha256": "b0a9562eedfa44ad7ce164b78a17dc497446b75abd17edbb0debd9b2105fa870",
+          "bytes": 192942
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk5-sfx-concept-lab-brief.pdf",
+          "output": "assets/resources/worksheets/3sw-wk5-sfx-concept-lab-brief.pdf",
+          "sha256": "d06415a27e70437caa2713fb372c674cb01efb1bcba6ddc949be6533810178e8",
+          "bytes": 262110
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk5-sfx-quality-revision.pdf",
+          "output": "assets/resources/worksheets/3sw-wk5-sfx-quality-revision.pdf",
+          "sha256": "b20be8f5f21dc400098856038209f7c98cba8a2680bb0702b7071569622325c0",
+          "bytes": 235880
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk5-texas-cosmetology-evidence-guide.pdf",
+          "output": "assets/resources/worksheets/3sw-wk5-texas-cosmetology-evidence-guide.pdf",
+          "sha256": "e11d8af3befb4c837b459344fb92eebc81bcd97b3b72296879b882dba3caa36a",
+          "bytes": 278262
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 8,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "3SW Wk6",
       "source_directory": "docs/3sw/wk6-entrepreneurship",
       "drive_folder_title": "SW3 · Wk6 Entrepreneurship",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/3sw-wk6-budget-and-scholarship-plan.pdf",
+          "output": "assets/resources/worksheets/3sw-wk6-budget-and-scholarship-plan.pdf",
+          "sha256": "1cf77024b1c20a9024da5c46860578110257bcb3414b757e608df68fafad8f32",
+          "bytes": 300678
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk6-dallas-county-living-cost-guide.pdf",
+          "output": "assets/resources/worksheets/3sw-wk6-dallas-county-living-cost-guide.pdf",
+          "sha256": "5adab2dcc9a7c586b9a798cb47f8fd73c1d44792c653b5651f6c3f198e4dba6a",
+          "bytes": 281863
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk6-entrepreneurship-opportunity-guide.pdf",
+          "output": "assets/resources/worksheets/3sw-wk6-entrepreneurship-opportunity-guide.pdf",
+          "sha256": "4da5a2315af7d00d1711c11c11308a8a8f7eba5c72df592bfb87e0660494795b",
+          "bytes": 229044
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk6-entrepreneurship-portfolio-rubric.pdf",
+          "output": "assets/resources/worksheets/3sw-wk6-entrepreneurship-portfolio-rubric.pdf",
+          "sha256": "9430c6a8f7480297a02e0e33d3b904a500b9df02621a6d492d51f07d4b5dca8a",
+          "bytes": 235074
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk6-million-dollar-idea-support-packet.pdf",
+          "output": "assets/resources/worksheets/3sw-wk6-million-dollar-idea-support-packet.pdf",
+          "sha256": "cd3f8b058db50f84bd4f3d5f3389cea23ed907b1861b17c613129b65623fd8fe",
+          "bytes": 271739
+        },
+        {
+          "source": "docs/resources/worksheets/3sw-wk6-venture-brief-and-pitch-record.pdf",
+          "output": "assets/resources/worksheets/3sw-wk6-venture-brief-and-pitch-record.pdf",
+          "sha256": "3e0f665afa915ed54ffe7f7e9a8136a938d0c118a690feb03c3f2934875e9089",
+          "bytes": 218660
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 6,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "4SW Wk1",
       "source_directory": "docs/4sw/wk1-career-planning",
       "drive_folder_title": "SW4 · Wk1 Career Planning",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/4sw-wk1-career-deep-dive.pdf",
+          "output": "assets/resources/worksheets/4sw-wk1-career-deep-dive.pdf",
+          "sha256": "47eb1dc8739028df950263f3a5594a53679a71928472bd9ea481305673f25f55",
+          "bytes": 251129
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk1-career-iceberg-and-goal.pdf",
+          "output": "assets/resources/worksheets/4sw-wk1-career-iceberg-and-goal.pdf",
+          "sha256": "d588afe032e925474e79b91bee2a318faae07d37fbef9ceceab2482f75fd9f76",
+          "bytes": 224034
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk1-midyear-blueprint-rubric.pdf",
+          "output": "assets/resources/worksheets/4sw-wk1-midyear-blueprint-rubric.pdf",
+          "sha256": "4d74df962f4753492c49cad6fbee146bb2bd2c4e1405b621441f16672cc51791",
+          "bytes": 235110
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk1-midyear-career-blueprint.pdf",
+          "output": "assets/resources/worksheets/4sw-wk1-midyear-career-blueprint.pdf",
+          "sha256": "2be19c39a8f0306f168dc5b3622565a66bcc51dbf618ee6973d554cdfcfeaaa4",
+          "bytes": 193608
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk1-midyear-profile-audit.pdf",
+          "output": "assets/resources/worksheets/4sw-wk1-midyear-profile-audit.pdf",
+          "sha256": "5d84c46bcb0a0ec04498860ba47eb2371df197d52dbdf56c5ecdf75a044ac786",
+          "bytes": 205196
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk1-pathway-and-ctso-decision.pdf",
+          "output": "assets/resources/worksheets/4sw-wk1-pathway-and-ctso-decision.pdf",
+          "sha256": "1a452c4dc3fef03bafbe7ddc10db1ccf6b63f18f7c0b4bbe0673b98c80ba2443",
+          "bytes": 259461
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 6,
       "editable_artifact_count": 0
     },
     {
@@ -1281,10 +1696,46 @@
           "output": "assets/resources/exit-tickets/4sw-wk2-day5-individual-high-school-and-career-plan.pdf",
           "sha256": "71e6c9b812e1196df0ccda6a9d58de2419518d2b6c6d1a0d425c9c3c115c689c",
           "bytes": 221605
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk2-college-credit-and-family-conversation.pdf",
+          "output": "assets/resources/worksheets/4sw-wk2-college-credit-and-family-conversation.pdf",
+          "sha256": "ae135cced94e3671ec3708c3e4fc7f8ef6de7824f178e480b6d2734f5166d345",
+          "bytes": 251354
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk2-four-year-course-plan-draft.pdf",
+          "output": "assets/resources/worksheets/4sw-wk2-four-year-course-plan-draft.pdf",
+          "sha256": "67105497c4891d4958d47953569dc1d282c9d19f668748f972789e21aad95dbc",
+          "bytes": 241152
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk2-high-school-career-plan-rubric.pdf",
+          "output": "assets/resources/worksheets/4sw-wk2-high-school-career-plan-rubric.pdf",
+          "sha256": "1e3adb60460c3b2643d3c4748b04fbb3c9e317f499515ae62350b254882e6bcd",
+          "bytes": 229316
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk2-individual-high-school-career-plan.pdf",
+          "output": "assets/resources/worksheets/4sw-wk2-individual-high-school-career-plan.pdf",
+          "sha256": "197a58321d5056cdb4b25afbee8e1ca3361a454762ae35390270db1fb30e9969",
+          "bytes": 227296
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk2-smart-experience-action-plan.pdf",
+          "output": "assets/resources/worksheets/4sw-wk2-smart-experience-action-plan.pdf",
+          "sha256": "f8d6b005cdc6ce1cb3b6669a28bc47100e6bc1f815044c3629858e5c3a2c6a81",
+          "bytes": 201503
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk2-transition-and-assessment-decisions.pdf",
+          "output": "assets/resources/worksheets/4sw-wk2-transition-and-assessment-decisions.pdf",
+          "sha256": "9fa5d7fcaa969906b27713b0383e199830d86cf833cdec3eed0c1f5dc5f92ac1",
+          "bytes": 250928
         }
       ],
       "editable_artifacts": [],
-      "public_resource_count": 5,
+      "public_resource_count": 11,
       "editable_artifact_count": 0
     },
     {
@@ -1321,19 +1772,92 @@
           "output": "assets/resources/exit-tickets/4sw-wk3-day5-aviation-route-and-action-plan.pdf",
           "sha256": "8eff9206f591da91d4b240964601bd0c510e721b041f837dc21f9cedbb7e42fb",
           "bytes": 217269
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk3-airport-design-simulation-lab.pdf",
+          "output": "assets/resources/worksheets/4sw-wk3-airport-design-simulation-lab.pdf",
+          "sha256": "4d2734ac6c926498f6ae5cc6c4ad6a2da93e4309d6c861d28c7167626bc0f1b2",
+          "bytes": 248809
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk3-aviation-careers-and-pilot-routes.pdf",
+          "output": "assets/resources/worksheets/4sw-wk3-aviation-careers-and-pilot-routes.pdf",
+          "sha256": "8908feed11c99bb52b777a960aee953df24f8e2cffd660968bfc6d8acd36657c",
+          "bytes": 263521
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk3-aviation-route-action-plan.pdf",
+          "output": "assets/resources/worksheets/4sw-wk3-aviation-route-action-plan.pdf",
+          "sha256": "2fcd60dcbb8111e3e5db6cd70ceb90b52d3fe6c769154177e601094683060d64",
+          "bytes": 240240
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk3-classroom-scenario-cards.pdf",
+          "output": "assets/resources/worksheets/4sw-wk3-classroom-scenario-cards.pdf",
+          "sha256": "db868c5a71ab9ec61f748ddf9f9a397691a40f1352ad35ff7f2eb9054fefce56",
+          "bytes": 231825
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk3-route-action-rubric.pdf",
+          "output": "assets/resources/worksheets/4sw-wk3-route-action-rubric.pdf",
+          "sha256": "3cb4f9505e0a2cf8dc3b0f0fff81a4bca48e3f0e99ce7519cdfd94ba238d6fd4",
+          "bytes": 230600
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk3-transportation-survey-design.pdf",
+          "output": "assets/resources/worksheets/4sw-wk3-transportation-survey-design.pdf",
+          "sha256": "4c5e5520df3aa36cc54feb9c2eb710540bfa99ed953e791c28a7a11e719ca12c",
+          "bytes": 248184
         }
       ],
       "editable_artifacts": [],
-      "public_resource_count": 5,
+      "public_resource_count": 11,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "4SW Wk4",
       "source_directory": "docs/4sw/wk4-drone-engineering",
       "drive_folder_title": "SW4 · Wk4 Drone Engineering",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/4sw-wk4-drone-enabled-occupations.pdf",
+          "output": "assets/resources/worksheets/4sw-wk4-drone-enabled-occupations.pdf",
+          "sha256": "55d55bae37acd3015e0382e91fafd05ccd955a76e4060d6a1acfadea48835e29",
+          "bytes": 292316
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk4-drone-operation-decision-readiness.pdf",
+          "output": "assets/resources/worksheets/4sw-wk4-drone-operation-decision-readiness.pdf",
+          "sha256": "e540624662d45a64115b4e441ee09364fe732a504af46e6a2ce1f36e58eaf78f",
+          "bytes": 275451
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk4-drone-systems-evidence-brief.pdf",
+          "output": "assets/resources/worksheets/4sw-wk4-drone-systems-evidence-brief.pdf",
+          "sha256": "93613070a9c5bbb89f55b7663d1c252a7f7cb61cc87ae616ffc376b0edd8c5a9",
+          "bytes": 264755
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk4-drone-systems-evidence-rubric.pdf",
+          "output": "assets/resources/worksheets/4sw-wk4-drone-systems-evidence-rubric.pdf",
+          "sha256": "e2776b6e60455f587730a1acc5e86a0b4eccd0956affaef01dba9458068cc5af",
+          "bytes": 236818
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk4-drone-systems-test.pdf",
+          "output": "assets/resources/worksheets/4sw-wk4-drone-systems-test.pdf",
+          "sha256": "9817a323e293a193ccaed09514fef1a4167a2d2dced69f2f8f36c94464108a3b",
+          "bytes": 232590
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk4-wildlife-tracking-drone-design.pdf",
+          "output": "assets/resources/worksheets/4sw-wk4-wildlife-tracking-drone-design.pdf",
+          "sha256": "8e0da8eb753c850d952d0b49e7a2fc945503db4a07cc8257c492558a635800fe",
+          "bytes": 240748
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 6,
       "editable_artifact_count": 0
     },
     {
@@ -1370,10 +1894,46 @@
           "output": "assets/resources/exit-tickets/4sw-wk5-day5-automotive-evidence-brief.pdf",
           "sha256": "fe37c029d85258fe6694112435e5fb60b01f3d83ff68964176ac649b2c801b7d",
           "bytes": 206952
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk5-ase-and-automotive-training-routes.pdf",
+          "output": "assets/resources/worksheets/4sw-wk5-ase-and-automotive-training-routes.pdf",
+          "sha256": "a04610104a0a994d8faa1904062002ce6d59495a3ba0175f10d738131d2aaada",
+          "bytes": 254159
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk5-automotive-evidence-brief.pdf",
+          "output": "assets/resources/worksheets/4sw-wk5-automotive-evidence-brief.pdf",
+          "sha256": "8c701b05cc9f90d47a978f64ac1580f6cfadefb0c4c51130e581878837d45b71",
+          "bytes": 236099
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk5-automotive-evidence-rubric.pdf",
+          "output": "assets/resources/worksheets/4sw-wk5-automotive-evidence-rubric.pdf",
+          "sha256": "491ea8af343154eceba06e7c4e5ab432a13d4bf38bff4705d2116d6da7063e7c",
+          "bytes": 231071
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk5-automotive-route-decision.pdf",
+          "output": "assets/resources/worksheets/4sw-wk5-automotive-route-decision.pdf",
+          "sha256": "5db9c3c132d263afa22c63b44c30c36fff7af4fdf356e8220c7bf2b0101fe9fe",
+          "bytes": 240014
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk5-crash-crew-evidence-and-preliminary-plan.pdf",
+          "output": "assets/resources/worksheets/4sw-wk5-crash-crew-evidence-and-preliminary-plan.pdf",
+          "sha256": "218ddf023b48ec4ba7e435b1bc03c77cabce9e31d394954cf53a1d161c6425fb",
+          "bytes": 237497
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk5-three-automotive-occupations.pdf",
+          "output": "assets/resources/worksheets/4sw-wk5-three-automotive-occupations.pdf",
+          "sha256": "b324ffbcea3b4c1d40e229e86aa2fafc9d8e7f2b6e94dbe202ebe02a66069a6a",
+          "bytes": 262213
         }
       ],
       "editable_artifacts": [],
-      "public_resource_count": 5,
+      "public_resource_count": 11,
       "editable_artifact_count": 0
     },
     {
@@ -1398,118 +1958,610 @@
           "output": "assets/resources/exit-tickets/4sw-wk6-day5-private-mid-year-evidence-reflection.pdf",
           "sha256": "ced38894d5bf0c8177a43e253363ddb74e776e44e420765487aec0026d158bf3",
           "bytes": 217576
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk6-career-organization-types.pdf",
+          "output": "assets/resources/worksheets/4sw-wk6-career-organization-types.pdf",
+          "sha256": "9e7d9839b05a920d9767adadae20c7beae95cad49fa1ff04e61fa00f9669176c",
+          "bytes": 259822
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk6-integrity-and-evidence-audit.pdf",
+          "output": "assets/resources/worksheets/4sw-wk6-integrity-and-evidence-audit.pdf",
+          "sha256": "0198583191ceb99043cc605ed17a7b78d1199e5c6847e576e3758cb05405e50f",
+          "bytes": 244717
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk6-mid-year-evidence-reflection.pdf",
+          "output": "assets/resources/worksheets/4sw-wk6-mid-year-evidence-reflection.pdf",
+          "sha256": "c62c0b66181f55a83958f2636ca1acf24229cb94ca0b02de0192fb67beb4119d",
+          "bytes": 236328
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk6-mid-year-evidence-rubric.pdf",
+          "output": "assets/resources/worksheets/4sw-wk6-mid-year-evidence-rubric.pdf",
+          "sha256": "0c3ab645089f69c18e7500ee069af9d223f7309b43ad57ab4a3bd594b65b4ab6",
+          "bytes": 219589
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk6-transferable-skills-evidence.pdf",
+          "output": "assets/resources/worksheets/4sw-wk6-transferable-skills-evidence.pdf",
+          "sha256": "4e616d2f31aa731a4619c367a2c4346bef61e20b75381b770335ed04d768ed4e",
+          "bytes": 254217
+        },
+        {
+          "source": "docs/resources/worksheets/4sw-wk6-truck-evidence-and-priority.pdf",
+          "output": "assets/resources/worksheets/4sw-wk6-truck-evidence-and-priority.pdf",
+          "sha256": "acef43c348b3851ccbe3903271489c079d2d91cde8eaedaa72cec08647fcdc7c",
+          "bytes": 234564
         }
       ],
       "editable_artifacts": [],
-      "public_resource_count": 3,
+      "public_resource_count": 9,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "5SW Wk1",
       "source_directory": "docs/5sw/wk1-architecture",
       "drive_folder_title": "SW5 · Wk1 Architecture",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/5sw-wk1-architecture-comparison-rubric.pdf",
+          "output": "assets/resources/worksheets/5sw-wk1-architecture-comparison-rubric.pdf",
+          "sha256": "b734c36e4ad960e91eacfc04b88cc397307847fb36fdf92d8584d2fff11ac5d9",
+          "bytes": 234892
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk1-architecture-portfolio-rubric.pdf",
+          "output": "assets/resources/worksheets/5sw-wk1-architecture-portfolio-rubric.pdf",
+          "sha256": "6a136fbce382a624c3d69cabff7aed847b5348638646d453f30a0ff5fbd9bea3",
+          "bytes": 214306
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk1-concept-building-design.pdf",
+          "output": "assets/resources/worksheets/5sw-wk1-concept-building-design.pdf",
+          "sha256": "b9fd595c6b2deb4b8bbed825d63556232ecf17c8522549885979a4dadf1d8a3a",
+          "bytes": 197614
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk1-design-test-and-revision.pdf",
+          "output": "assets/resources/worksheets/5sw-wk1-design-test-and-revision.pdf",
+          "sha256": "4ea15a871f115adbc930318acacb069474148b25c2bbc451674830db285a8e35",
+          "bytes": 223690
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk1-safety-supervisor-evidence-plan.pdf",
+          "output": "assets/resources/worksheets/5sw-wk1-safety-supervisor-evidence-plan.pdf",
+          "sha256": "305f1e38d274fd149bf1b4a7d3b0652eea091218189db93cdb5d9e6dbd1867f8",
+          "bytes": 247608
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk1-three-career-evidence-comparison.pdf",
+          "output": "assets/resources/worksheets/5sw-wk1-three-career-evidence-comparison.pdf",
+          "sha256": "7dc2381328afd785135c610fc5989a79a7c4de911c227c8ab5beb45359703ca4",
+          "bytes": 269812
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk1-unexpected-architecture-evidence.pdf",
+          "output": "assets/resources/worksheets/5sw-wk1-unexpected-architecture-evidence.pdf",
+          "sha256": "365d2c6f4c62a3fe5c1351edc590f6084140e416991b3df84a05055d62069f2e",
+          "bytes": 214647
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 7,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "5SW Wk2",
       "source_directory": "docs/5sw/wk2-civil-engineering",
       "drive_folder_title": "SW5 · Wk2 Civil Engineering",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/5sw-wk2-assessment-and-emerging-specialty.pdf",
+          "output": "assets/resources/worksheets/5sw-wk2-assessment-and-emerging-specialty.pdf",
+          "sha256": "5de1895930467b776ed1a40d84b354381d327bf83da70c6e8e5e86fa00d1ef05",
+          "bytes": 258363
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk2-assessment-emerging-rubric.pdf",
+          "output": "assets/resources/worksheets/5sw-wk2-assessment-emerging-rubric.pdf",
+          "sha256": "9ee0190ab8aa53f9748b3adbaafb4e3842b6ce892d3e402b9983706774dfc3a8",
+          "bytes": 242340
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk2-bridge-design-options.pdf",
+          "output": "assets/resources/worksheets/5sw-wk2-bridge-design-options.pdf",
+          "sha256": "64ea44e3e53d918b793a9ea6079d5ca72a028acced07e62d08031d9151e440df",
+          "bytes": 210856
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk2-bridge-test-and-redesign.pdf",
+          "output": "assets/resources/worksheets/5sw-wk2-bridge-test-and-redesign.pdf",
+          "sha256": "3a986c49c20813639e7e16db6b359440dd95441f888a5fb2f68e1776fa007463",
+          "bytes": 235912
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk2-civil-engineer-and-systems-evidence.pdf",
+          "output": "assets/resources/worksheets/5sw-wk2-civil-engineer-and-systems-evidence.pdf",
+          "sha256": "2ce95bab446df67326d5e0309688bb27a4deea945193f9bd7a63c80943f82084",
+          "bytes": 248529
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk2-engineering-evidence-rubric.pdf",
+          "output": "assets/resources/worksheets/5sw-wk2-engineering-evidence-rubric.pdf",
+          "sha256": "bf59d30b47fd8fc1b5b798f34f855bc980a64c91f9f397f86d7ef2047ccd4322",
+          "bytes": 215496
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk2-engineering-synthesis.pdf",
+          "output": "assets/resources/worksheets/5sw-wk2-engineering-synthesis.pdf",
+          "sha256": "953d4e2b81fa781cc4c1bc6d88e5e9083e0b8802eb75f24b19da36eb3327072a",
+          "bytes": 207393
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 7,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "5SW Wk3",
       "source_directory": "docs/5sw/wk3-construction-trades",
       "drive_folder_title": "SW5 · Wk3 Construction Trades",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/5sw-wk3-construction-career-evidence.pdf",
+          "output": "assets/resources/worksheets/5sw-wk3-construction-career-evidence.pdf",
+          "sha256": "78f5729bb5df2619540a9fa47224296e10bc30cfacd8040a1a80a5b19bd3a981",
+          "bytes": 257906
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk3-construction-classification-rubric.pdf",
+          "output": "assets/resources/worksheets/5sw-wk3-construction-classification-rubric.pdf",
+          "sha256": "fee9abf11f2b86aa175de43085346044fa51363dd9aa89e97bbf755b5e108dd8",
+          "bytes": 238766
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk3-construction-evidence-rubric.pdf",
+          "output": "assets/resources/worksheets/5sw-wk3-construction-evidence-rubric.pdf",
+          "sha256": "7d2510cb790458c099f5107e03714268ebea1c07d1cc2bac83ab4c84356e0df1",
+          "bytes": 221919
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk3-fictional-evidence-report.pdf",
+          "output": "assets/resources/worksheets/5sw-wk3-fictional-evidence-report.pdf",
+          "sha256": "e4b2da7a4802ecd0cfca21f9dde4b9ee3710ce2d98d3758d4dfe72eb80f20009",
+          "bytes": 216856
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk3-labor-classification.pdf",
+          "output": "assets/resources/worksheets/5sw-wk3-labor-classification.pdf",
+          "sha256": "d7fb608191a93f87ff7c09a88e91562a7fa0523916aaf3f224bf23849e18c58a",
+          "bytes": 265615
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk3-routes-and-organizations.pdf",
+          "output": "assets/resources/worksheets/5sw-wk3-routes-and-organizations.pdf",
+          "sha256": "57eca7ed869ad32f7a42ba6a950c735377c87ed8babb4ff29632a698232fe046",
+          "bytes": 247743
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 6,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "5SW Wk4",
       "source_directory": "docs/5sw/wk4-hvac-electrical-plumbing",
       "drive_folder_title": "SW5 · Wk4 HVAC Electrical Plumbing",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/5sw-wk4-current-entry-routes.pdf",
+          "output": "assets/resources/worksheets/5sw-wk4-current-entry-routes.pdf",
+          "sha256": "eface2ed43e7b771bd4ea86614acd628f0f488d8d80f37e915a174113b0485ee",
+          "bytes": 259829
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk4-fictional-water-line-response.pdf",
+          "output": "assets/resources/worksheets/5sw-wk4-fictional-water-line-response.pdf",
+          "sha256": "e8173978d83554596d9206f0577de11b90fb5de0f88c1a4c8a8032804f6ba4ca",
+          "bytes": 217476
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk4-hvac-evidence-first-field-notes.pdf",
+          "output": "assets/resources/worksheets/5sw-wk4-hvac-evidence-first-field-notes.pdf",
+          "sha256": "b09355cf06d87049bd3d2c3f47fdad3c65faba5b5053e47fdf12db7085abf968",
+          "bytes": 217849
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk4-skilled-trades-career-evidence.pdf",
+          "output": "assets/resources/worksheets/5sw-wk4-skilled-trades-career-evidence.pdf",
+          "sha256": "f229bfe794136ed6411fce3408da6e829668127869e1f3189710dcbf281dc79d",
+          "bytes": 243504
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk4-skilled-trades-classification.pdf",
+          "output": "assets/resources/worksheets/5sw-wk4-skilled-trades-classification.pdf",
+          "sha256": "8a68f06baa094f0deb0faa3b6bd79514e71fa64eead0586acf5e0b4ed2da4038",
+          "bytes": 276036
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk4-skilled-trades-evidence-rubric.pdf",
+          "output": "assets/resources/worksheets/5sw-wk4-skilled-trades-evidence-rubric.pdf",
+          "sha256": "2386639affa1c4b1113c39c9c331b61fa7f09c233cffdcd8fd14877c23316865",
+          "bytes": 222046
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 6,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "5SW Wk5",
       "source_directory": "docs/5sw/wk5-personal-budget",
       "drive_folder_title": "SW5 · Wk5 Personal Budget",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/5sw-wk5-budget-portfolio-rubric.pdf",
+          "output": "assets/resources/worksheets/5sw-wk5-budget-portfolio-rubric.pdf",
+          "sha256": "e880cbf33ce31bfe31554dde1d17400f2505a90effd82409167cf6d0a037a8b3",
+          "bytes": 217450
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk5-dallas-county-personal-budget.pdf",
+          "output": "assets/resources/worksheets/5sw-wk5-dallas-county-personal-budget.pdf",
+          "sha256": "c1f7f5cfdab5a1b1350f579363188f645256a3e03b4ae3e28ba249d4d488646a",
+          "bytes": 295957
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk5-location-cost-comparison.pdf",
+          "output": "assets/resources/worksheets/5sw-wk5-location-cost-comparison.pdf",
+          "sha256": "5b83f61ebbaa85804489570ab2c777a964ab59f66ebe34a3f3af4a09af5092f5",
+          "bytes": 247134
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk5-paying-for-education-and-training.pdf",
+          "output": "assets/resources/worksheets/5sw-wk5-paying-for-education-and-training.pdf",
+          "sha256": "dad83ad757b8bd64008c6e65f664b4c4934577878c18d472e614ca2c025a4a22",
+          "bytes": 255154
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk5-salary-source-and-lifestyle-target.pdf",
+          "output": "assets/resources/worksheets/5sw-wk5-salary-source-and-lifestyle-target.pdf",
+          "sha256": "3e6bf6aad45c0b03eb2058129e0af684d38be2f98b09cc369b1bad820035d047",
+          "bytes": 265219
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk5-three-career-budget-portfolio.pdf",
+          "output": "assets/resources/worksheets/5sw-wk5-three-career-budget-portfolio.pdf",
+          "sha256": "9e2037b0184374d75bcd3b8e15f974d0cf4b7d8c628321219513eb706304979e",
+          "bytes": 266085
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 6,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "5SW Wk6",
       "source_directory": "docs/5sw/wk6-real-estate",
       "drive_folder_title": "SW5 · Wk6 Real Estate",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/5sw-wk6-evidence-brief-rubric.pdf",
+          "output": "assets/resources/worksheets/5sw-wk6-evidence-brief-rubric.pdf",
+          "sha256": "42398bb56d7e3369f77b525e450cfd5f0a6421a9398aea6c405f4fedf2e934f1",
+          "bytes": 212542
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk6-flip-this-house-evidence-plan.pdf",
+          "output": "assets/resources/worksheets/5sw-wk6-flip-this-house-evidence-plan.pdf",
+          "sha256": "4fa12c1135a74537a27382a6daee6716ecda70fcf8834bccfc911e1e6e31b5f0",
+          "bytes": 224827
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk6-real-estate-career-boundaries.pdf",
+          "output": "assets/resources/worksheets/5sw-wk6-real-estate-career-boundaries.pdf",
+          "sha256": "ba7dba45c39e49b6225eed9b0ae85b1af64dc9b9218f2820abca580963ffa971",
+          "bytes": 250777
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk6-real-estate-labor-evidence.pdf",
+          "output": "assets/resources/worksheets/5sw-wk6-real-estate-labor-evidence.pdf",
+          "sha256": "d1ad340a91a3fecb06117a4f2bc2de8c70525c6eaa3736bf18b79adc8ddcc9e0",
+          "bytes": 251767
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk6-six-weeks-evidence-brief.pdf",
+          "output": "assets/resources/worksheets/5sw-wk6-six-weeks-evidence-brief.pdf",
+          "sha256": "18808a8f8756ea91ee6e3f46443fa2415b774b2dac696c55191c978dfc2220ce",
+          "bytes": 250814
+        },
+        {
+          "source": "docs/resources/worksheets/5sw-wk6-trec-and-variable-income.pdf",
+          "output": "assets/resources/worksheets/5sw-wk6-trec-and-variable-income.pdf",
+          "sha256": "ab6500bf1f853800bd4ccfade786033508ada0da603f001ac81f4e1da4391c4e",
+          "bytes": 266752
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 6,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "6SW Wk1",
       "source_directory": "docs/6sw/wk1-education",
       "drive_folder_title": "SW6 · Wk1 Education",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/6sw-wk1-community-classroom-plan.pdf",
+          "output": "assets/resources/worksheets/6sw-wk1-community-classroom-plan.pdf",
+          "sha256": "adb63f7ea95a9b1a0dede5ff5d7924587cc5541d8e7ab61fec6aea05d2e15a92",
+          "bytes": 221469
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk1-education-evidence-portfolio.pdf",
+          "output": "assets/resources/worksheets/6sw-wk1-education-evidence-portfolio.pdf",
+          "sha256": "bfdb58782392ffe3a4cbb5fe13a130ce94608b02007bb3a99382d321c5150063",
+          "bytes": 218533
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk1-education-job-evidence.pdf",
+          "output": "assets/resources/worksheets/6sw-wk1-education-job-evidence.pdf",
+          "sha256": "e42433b1787c5fe7f589dff698df854bf6c2113598c98b3438ff380b4efb07f2",
+          "bytes": 239451
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk1-education-portfolio-rubric.pdf",
+          "output": "assets/resources/worksheets/6sw-wk1-education-portfolio-rubric.pdf",
+          "sha256": "af30b8c49b9c7b91837f121052c5cd53762899792f59738d8e6398aed0b087af",
+          "bytes": 220146
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk1-teach-through-play-service.pdf",
+          "output": "assets/resources/worksheets/6sw-wk1-teach-through-play-service.pdf",
+          "sha256": "61685c7e574f7b8bf86a62948136ae4bdf713b71ff0bc08f6172f91c2b46121a",
+          "bytes": 205154
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk1-texas-education-routes.pdf",
+          "output": "assets/resources/worksheets/6sw-wk1-texas-education-routes.pdf",
+          "sha256": "e53019008df451d968a4bb817ee79be3e231560ee707c8225fef62abaed4cbc8",
+          "bytes": 264862
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 6,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "6SW Wk2",
       "source_directory": "docs/6sw/wk2-graphic-design-resume",
       "drive_folder_title": "SW6 · Wk2 Graphic Design Resume",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/6sw-wk2-audio-cue-and-resume-revision.pdf",
+          "output": "assets/resources/worksheets/6sw-wk2-audio-cue-and-resume-revision.pdf",
+          "sha256": "f740f9f8735deb84de527e4eae7107b0ed5ebeb7281d14b555b3c5fdcd91b502",
+          "bytes": 204053
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk2-effective-job-search.pdf",
+          "output": "assets/resources/worksheets/6sw-wk2-effective-job-search.pdf",
+          "sha256": "c002877fe431ccc031e0a8f8757604b0c4b331a4ca063f56860723a36781e21a",
+          "bytes": 288805
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk2-first-resume-draft.pdf",
+          "output": "assets/resources/worksheets/6sw-wk2-first-resume-draft.pdf",
+          "sha256": "d71d38132eb9bafbe420162438e8374dbcd2a43efc405f4d2342aaa1b6d28c70",
+          "bytes": 272556
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk2-merch-mode-design.pdf",
+          "output": "assets/resources/worksheets/6sw-wk2-merch-mode-design.pdf",
+          "sha256": "4e83b8df53b88faf48fb2edb89b8581106f13be3ee89ff1a57fdb5efc5c7caca",
+          "bytes": 272145
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk2-podcast-production-plan.pdf",
+          "output": "assets/resources/worksheets/6sw-wk2-podcast-production-plan.pdf",
+          "sha256": "75e09834e622ba77b29a4aae360b136ee37ca0a0e1dd10066a5c488cbb50071b",
+          "bytes": 252187
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk2-resume-design-rubric.pdf",
+          "output": "assets/resources/worksheets/6sw-wk2-resume-design-rubric.pdf",
+          "sha256": "93d87146977ccf265a79191cac9fe6153d912f4f72c05941807475c79dfe5663",
+          "bytes": 220794
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 6,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "6SW Wk3",
       "source_directory": "docs/6sw/wk3-business-marketing",
       "drive_folder_title": "SW6 · Wk3 Business Marketing",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/6sw-wk3-click-factor-campaign.pdf",
+          "output": "assets/resources/worksheets/6sw-wk3-click-factor-campaign.pdf",
+          "sha256": "8711339d145227a820d9e541f35a782963c8f601593b657736b32ad90e0474a9",
+          "bytes": 259884
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk3-expert-edge-plan.pdf",
+          "output": "assets/resources/worksheets/6sw-wk3-expert-edge-plan.pdf",
+          "sha256": "2d1fb419a9096127a3559dc5ce57ce7ec0ffa588756d8dcd4ef0c50f5a7026cd",
+          "bytes": 262622
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk3-family-fun-pass-analysis.pdf",
+          "output": "assets/resources/worksheets/6sw-wk3-family-fun-pass-analysis.pdf",
+          "sha256": "4311bf4419b824c4f6ca7940dd90c770878cbc480db43555778b135e6a3b0255",
+          "bytes": 278824
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk3-marketing-evidence-brief.pdf",
+          "output": "assets/resources/worksheets/6sw-wk3-marketing-evidence-brief.pdf",
+          "sha256": "4c98a2c597d84cf1b06c76d4603bb6e394340b58d7ea807cdb8362d92995f61c",
+          "bytes": 254884
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk3-marketing-evidence-rubric.pdf",
+          "output": "assets/resources/worksheets/6sw-wk3-marketing-evidence-rubric.pdf",
+          "sha256": "864fc4928c9e8782620a7b8fb38f56390d7dd5c607d2e57dc1fdc447926aaf12",
+          "bytes": 221790
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk3-written-communication-and-change.pdf",
+          "output": "assets/resources/worksheets/6sw-wk3-written-communication-and-change.pdf",
+          "sha256": "48f6ecc46506864bb496c9feb9a2aeb18b5760c42546dc69ca97763de13b8da0",
+          "bytes": 281186
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 6,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "6SW Wk4",
       "source_directory": "docs/6sw/wk4-sales-presentations",
       "drive_folder_title": "SW6 · Wk4 Sales Presentations",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/6sw-wk4-appearance-and-rehearsal.pdf",
+          "output": "assets/resources/worksheets/6sw-wk4-appearance-and-rehearsal.pdf",
+          "sha256": "825ead56d564057b41b6a6489cebd0ddab038f2cc762d0ba6f2437abe2fc40bb",
+          "bytes": 272665
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk4-brainboost-and-career-outline.pdf",
+          "output": "assets/resources/worksheets/6sw-wk4-brainboost-and-career-outline.pdf",
+          "sha256": "590569e1227791a442f49da1326d38850bc7865825dc8400a86dcafa35249673",
+          "bytes": 283316
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk4-career-oral-evidence.pdf",
+          "output": "assets/resources/worksheets/6sw-wk4-career-oral-evidence.pdf",
+          "sha256": "06aba7b3ed3e1623ea772316d1a0fa5aabb8e4133735c548f04fd71cafb21093",
+          "bytes": 252778
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk4-career-oral-rubric.pdf",
+          "output": "assets/resources/worksheets/6sw-wk4-career-oral-rubric.pdf",
+          "sha256": "747ee16a01d3c68b3af359803ff1ab05742a7fa07532a67975aff0e48329018e",
+          "bytes": 247442
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk4-pitch-delivery-record.pdf",
+          "output": "assets/resources/worksheets/6sw-wk4-pitch-delivery-record.pdf",
+          "sha256": "c31ff1f65ae024fb6b08db0beff47379e570af08571164b7dbf84b9693c31d8f",
+          "bytes": 257148
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk4-sales-pitch-plan.pdf",
+          "output": "assets/resources/worksheets/6sw-wk4-sales-pitch-plan.pdf",
+          "sha256": "e5cd2753ae0446de1ca7789a637b5c476ff4809f43691386502d479afb8431d0",
+          "bytes": 274833
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 6,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "6SW Wk5",
       "source_directory": "docs/6sw/wk5-job-skills-mock-interview",
       "drive_folder_title": "SW6 · Wk5 Job Skills Mock Interview",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/6sw-wk5-application-and-references.pdf",
+          "output": "assets/resources/worksheets/6sw-wk5-application-and-references.pdf",
+          "sha256": "cc625eddfd2439e62c84e485bb46e14ae185fece2b90f6fc7223bc21483d1992",
+          "bytes": 270922
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk5-cover-letter-simulation.pdf",
+          "output": "assets/resources/worksheets/6sw-wk5-cover-letter-simulation.pdf",
+          "sha256": "0a94c9a8648c78f260c3c3d7c1b890f00d7186d0c729079beafe55b833cda92e",
+          "bytes": 262565
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk5-interview-readiness.pdf",
+          "output": "assets/resources/worksheets/6sw-wk5-interview-readiness.pdf",
+          "sha256": "760efa826a93667bc0cc41af12b1085e51eb599c99afa9d16297a487d135b6d8",
+          "bytes": 257445
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk5-job-search-and-posting-evidence.pdf",
+          "output": "assets/resources/worksheets/6sw-wk5-job-search-and-posting-evidence.pdf",
+          "sha256": "03cd2e11830b39acd6bf0a9216f60818bd69dbd070ba4d4dc375be0f1f5bd375",
+          "bytes": 268141
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk5-job-skills-rubric.pdf",
+          "output": "assets/resources/worksheets/6sw-wk5-job-skills-rubric.pdf",
+          "sha256": "49a95ece8690b4f717643f938bff7e7a337422ef36f2df0628a44d538855881a",
+          "bytes": 254704
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk5-mock-interview-and-thank-you.pdf",
+          "output": "assets/resources/worksheets/6sw-wk5-mock-interview-and-thank-you.pdf",
+          "sha256": "65480cfc31238f542ca8011bd85bfd201262139163b063d9ef13a6893517b4ec",
+          "bytes": 249869
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 6,
       "editable_artifact_count": 0
     },
     {
       "curriculum_address": "6SW Wk6",
       "source_directory": "docs/6sw/wk6-capstone",
       "drive_folder_title": "SW6 · Wk6 Capstone",
-      "public_resources": [],
+      "public_resources": [
+        {
+          "source": "docs/resources/worksheets/6sw-wk6-capstone-delivery-record.pdf",
+          "output": "assets/resources/worksheets/6sw-wk6-capstone-delivery-record.pdf",
+          "sha256": "46177cd66dc773a31f9fdf04a6aecdb5e0f3a8eb5edcd387315347fabd8c8146",
+          "bytes": 198008
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk6-capstone-presentation-plan.pdf",
+          "output": "assets/resources/worksheets/6sw-wk6-capstone-presentation-plan.pdf",
+          "sha256": "59c64d0b25ea7bbb196866b72169d50c1177de99d56cf13cb029e106c35e76d1",
+          "bytes": 235343
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk6-capstone-rubric.pdf",
+          "output": "assets/resources/worksheets/6sw-wk6-capstone-rubric.pdf",
+          "sha256": "dc816557d7a107498c309d0177927082471fb4215ee3ee04e56a51067cfe2ddb",
+          "bytes": 247129
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk6-career-evidence-inventory.pdf",
+          "output": "assets/resources/worksheets/6sw-wk6-career-evidence-inventory.pdf",
+          "sha256": "7bfd8c5ba3380f8e217df60c6bb5cc09c8a4d49c4e46a817224b013f724f9f0e",
+          "bytes": 236033
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk6-final-course-reflection.pdf",
+          "output": "assets/resources/worksheets/6sw-wk6-final-course-reflection.pdf",
+          "sha256": "5356f8ac20d1e56822b923da8d4fb52ca0969be1672e7c38cb6e0cdfa211a78e",
+          "bytes": 210034
+        },
+        {
+          "source": "docs/resources/worksheets/6sw-wk6-individual-career-plan.pdf",
+          "output": "assets/resources/worksheets/6sw-wk6-individual-career-plan.pdf",
+          "sha256": "4ca2c9bda40d71a3ffec61c64076fb2b101363dba7a2028eef518bfc8784fcb7",
+          "bytes": 230950
+        }
+      ],
       "editable_artifacts": [],
-      "public_resource_count": 0,
+      "public_resource_count": 6,
       "editable_artifact_count": 0
     }
   ]
