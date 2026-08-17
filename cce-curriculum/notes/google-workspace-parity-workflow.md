@@ -133,3 +133,11 @@ public site now lists its public-safe downloads, so the public distribution uses
 the same 305 unit references and 302 unique files as Drive. Exact IDs, hashes,
 byte counts, public-link decisions, and exclusions are recorded in the manifests
 and Drive-state file rather than repeated in this narrative.
+
+The current Drive readback also verifies the full editable distribution layer:
+the 36 `Download Releases` folders contain 315 exact files (the 305 curriculum
+references plus ten PowerPoint releases), and the recorded `Google Masters`
+folders contain ten native Google Slides decks plus one native Google Doc. Each
+file matched its recorded ID, parent folder, title, byte count or native MIME
+type. `Lucero's Weekly Slides` contains one current combined Week 1 teaching
+deck; the duplicate the teacher removed was not recreated.
