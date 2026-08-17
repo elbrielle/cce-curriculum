@@ -16,6 +16,8 @@ Use the notebook for short thinking, focused notes, and reflection. Canvas remai
 
 Monday's goal entry adapts a teacher-created AVID first-week goal-setting sheet for Grade 7 CCE. Students record one goal, why it matters, a specific action, a scheduled checkpoint, a confidence check, and a person or resource that can help. Do not collect grades from other classes, count planner entries, score supplies, or require a signature.
 
+Teacher file options: [PDF](../../resources/worksheets/cce-first-week-goal-setting.pdf) · [Word](../../resources/worksheets/cce-first-week-goal-setting.docx) · [Make a Google Docs copy](https://docs.google.com/document/d/1rb8sHX56FYPeddRX-QX0_YG-bD7FrZZpQnh06q0r9w8/copy)
+
 ## Before students arrive
 
 ### OneNote route

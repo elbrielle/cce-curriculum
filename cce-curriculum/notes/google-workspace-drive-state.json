@@ -1,0 +1,1347 @@
+{
+  "version": 1,
+  "checked_on": "2026-08-16",
+  "drive_root": {
+    "title": "Units_CCR",
+    "id": "1FbY0WdnXN-PkW6Vi76qcpDfp7SKq5c5H",
+    "url": "https://drive.google.com/drive/folders/1FbY0WdnXN-PkW6Vi76qcpDfp7SKq5c5H"
+  },
+  "expected_unit_count": 36,
+  "expected_public_resource_references": 133,
+  "live_verification": {
+    "checked_on": "2026-08-16",
+    "matching_unit_folders": 36,
+    "matching_unit_subfolders": 72,
+    "matching_public_releases": 133,
+    "verified_editable_presentations": 10,
+    "verified_office_presentation_releases": 10,
+    "root_sharing": "irvingisd.net domain reader"
+  },
+  "units": [
+    {
+      "curriculum_address": "1SW Wk0",
+      "unit_folder": {
+        "title": "SW1 · Wk0 Classroom Routines and Career Self-Discovery",
+        "id": "1nXiYLt--932Knh-SjcWaI5mDqJ_BIBGa"
+      },
+      "google_masters_folder_id": "117satomVUMXl-7fOFlYzTChD3__Fy0Mh",
+      "download_releases_folder_id": "1vo-cQVbHu1_jW2eIVLbUCY_odx4sgMK5",
+      "native_support_files": [
+        {
+          "key": "1sw-wk0-first-week-goal-setting",
+          "source": "docs/resources/worksheets/cce-first-week-goal-setting.docx",
+          "sha256": "efff2181c4189c86677763f2aefbc27e6e02989a9ff2ca15230561ba426cf90d",
+          "bytes": 8103,
+          "native_google_file_id": "1rb8sHX56FYPeddRX-QX0_YG-bD7FrZZpQnh06q0r9w8",
+          "native_google_title": "CCE First-Week Goal Setting",
+          "mime_type": "application/vnd.google-apps.document",
+          "copy_url": "https://docs.google.com/document/d/1rb8sHX56FYPeddRX-QX0_YG-bD7FrZZpQnh06q0r9w8/copy",
+          "office_release_file_id": "132mlajTOoqB_E1E4FA5Odu1-ibPxpJui",
+          "sharing": "iis-d-domain-reader",
+          "canvas_source": "build/canvas/build_wk0.py",
+          "public_source_pages": [
+            "docs/1sw/wk0-classroom-routines/day1.md"
+          ]
+        }
+      ],
+      "public_releases": [
+        {
+          "source": "docs/resources/worksheets/cce-first-week-goal-setting.docx",
+          "sha256": "efff2181c4189c86677763f2aefbc27e6e02989a9ff2ca15230561ba426cf90d",
+          "bytes": 8103,
+          "drive_file_id": "132mlajTOoqB_E1E4FA5Odu1-ibPxpJui",
+          "drive_name": "CCE First-Week Goal Setting.docx"
+        },
+        {
+          "source": "docs/resources/worksheets/cce-first-week-goal-setting.pdf",
+          "sha256": "65e3fcd807378a8b3af93fd4fbc116f70549e08457c00f24b121cb47d9e5dfb6",
+          "bytes": 48550,
+          "drive_file_id": "1Aq2wXJTgpvqiEgdhNqO6KzBbFtcAfB5m",
+          "drive_name": "cce-first-week-goal-setting.pdf"
+        }
+      ]
+    },
+    {
+      "curriculum_address": "1SW Wk1",
+      "unit_folder": {
+        "title": "SW1 · Wk1 Robotics and Manufacturing",
+        "id": "15-fUDKDVf-MW6IMyeMcaBNme0os2E_u3"
+      },
+      "google_masters_folder_id": "1rzbkQgCRD9YJyg7lhLSAdlyE6kkIGlnv",
+      "download_releases_folder_id": "1dv58lEDhTYeDxMeh7CNAlqvP03jTgo1g",
+      "public_releases": [
+        {
+          "source": "docs/resources/exit-tickets/1sw-wk1-day1-manufacturing-cluster-tour-more-than-assembly-lines.pdf",
+          "sha256": "817f5028753c4232895fb4d94249e7118dc3420c3456580e056e03c3772b1185",
+          "bytes": 246060,
+          "drive_file_id": "1oFBR5B1rDsib3Zy3wzUzw4BhKBD8KvIs",
+          "drive_name": "1sw-wk1-day1-manufacturing-cluster-tour-more-than-assembly-lines.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/1sw-wk1-day2-machine-breakdown-mystery-career-research.pdf",
+          "sha256": "add505e4c3d640f38c25f6d1b8f60878f1f5b496ab638179103cae6384f5856a",
+          "bytes": 228793,
+          "drive_file_id": "1nDnTLqJVLctQAzrdsYzjHIMHeymOnaTR",
+          "drive_name": "1sw-wk1-day2-machine-breakdown-mystery-career-research.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/1sw-wk1-day3-super-sports-manufacturing-design-build-test.pdf",
+          "sha256": "9e3dbfb847a9daab4b510c06c657d3cc476e52966071799f3bcd66e9535d19c0",
+          "bytes": 214162,
+          "drive_file_id": "1mH0kw3iVkdpio3HNwmwU4O7GnrHZSC6A",
+          "drive_name": "1sw-wk1-day3-super-sports-manufacturing-design-build-test.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/1sw-wk1-robots-for-crayons-action-plan.pdf",
+          "sha256": "9581883ef7a57b66b08fd62394717184e603f2a672b1c51fc64769541111689f",
+          "bytes": 196622,
+          "drive_file_id": "1S_RBjFPLHN85lO1mR7m1EJMDuADgbJ8w",
+          "drive_name": "1sw-wk1-robots-for-crayons-action-plan.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/clipboard-roster-grid.pdf",
+          "sha256": "54762972ff06c0040bff50e4f6950b6346dd1bf698c7c31ba641058a30231ef8",
+          "bytes": 204851,
+          "drive_file_id": "1kP97RWKBS9dMgzW-5WUPbZJAfKUOpuDo",
+          "drive_name": "clipboard-roster-grid.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/manufacturing-pathways-scaffold.pdf",
+          "sha256": "8c62cdf788791b75544a42a5e9b4a5204b6fea953838c0894257cab864ca4b7e",
+          "bytes": 245120,
+          "drive_file_id": "12k-hCsBPuBBqC3cQ2fmYWbLG3RKN868N",
+          "drive_name": "manufacturing-pathways-scaffold.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/technician-checklist-scaffold.pdf",
+          "sha256": "eef0052ddbcb0e3febbae0b9350858fae9dac998aebe8ebfac825285180cd30e",
+          "bytes": 229093,
+          "drive_file_id": "1nbVeLvuIyJgHGS_2cvS3LqlrEhhTxr7g",
+          "drive_name": "technician-checklist-scaffold.pdf"
+        }
+      ]
+    },
+    {
+      "curriculum_address": "1SW Wk2",
+      "unit_folder": {
+        "title": "SW1 · Wk2 Programming IT",
+        "id": "14k5keCKsuvgXCHgDNoluxosKMYC4PrTJ"
+      },
+      "google_masters_folder_id": "1BlhhcSuQkIYR38q9mhp6haNYZlBqypf3",
+      "download_releases_folder_id": "1RQaWGD2I_RoD7Z-Zs1fFa7lRkOYNZ_iZ",
+      "public_releases": [
+        {
+          "source": "docs/resources/exit-tickets/1sw-wk2-day1-it-cluster-tour-four-irving-programs-of-study.pdf",
+          "sha256": "12b1d8ab827859facbda264f2feb6de9dda51df3fc0bd46480dd85db1420b55a",
+          "bytes": 257283,
+          "drive_file_id": "1hkm3TSwmbvZjY-q-0SnsSYAzD_Vt6Ts5",
+          "drive_name": "1sw-wk2-day1-it-cluster-tour-four-irving-programs-of-study.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/1sw-wk2-day2-programming-pathway-deep-dive-software-web-app-game.pdf",
+          "sha256": "2a9761dfb22a0102f9dedce1d6913a89b033d38431d1a0f4c25f52f9771c6aa3",
+          "bytes": 225434,
+          "drive_file_id": "1A5f17fqW0rtRhKB7H62OW4_nCeDqSsPa",
+          "drive_name": "1sw-wk2-day2-programming-pathway-deep-dive-software-web-app-game.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/1sw-wk2-day3-powerskill-resilience-it-salary-showdown.pdf",
+          "sha256": "9c482b12c42fcc264d891ae90ee49c030bea64312848048613f9c8f0b2ff0d5c",
+          "bytes": 251072,
+          "drive_file_id": "15D-xGVeEz0LoXlD6wRC1d56RcQU9KDfH",
+          "drive_name": "1sw-wk2-day3-powerskill-resilience-it-salary-showdown.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/1sw-wk2-day4-code-org-hour-of-code-day-1.pdf",
+          "sha256": "1672e249d03eb91685d1342d29b0bd3667eb043e4d0dcfa801d896dc1254554b",
+          "bytes": 223197,
+          "drive_file_id": "1eDQ8PTFg7o6rZNKBKweQtYaeoTQpj8QP",
+          "drive_name": "1sw-wk2-day4-code-org-hour-of-code-day-1.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/clipboard-roster-grid.pdf",
+          "sha256": "54762972ff06c0040bff50e4f6950b6346dd1bf698c7c31ba641058a30231ef8",
+          "bytes": 204851,
+          "drive_file_id": "1TTWUzTGTKL0X5VlgqKhHHrQyYpWYD4-w",
+          "drive_name": "clipboard-roster-grid.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk2-bls-data-guide.pdf",
+          "sha256": "a8c7ae3eeee16938758276aa9799a8b40f678936df58d77568f0c459d4446e5b",
+          "bytes": 257152,
+          "drive_file_id": "13vzxsX9Aw30mY59KKDd5etTV77eLNB8C",
+          "drive_name": "wk2-bls-data-guide.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk2-career-research-web-developer.pdf",
+          "sha256": "ca1a961d67c4562800c0e1666da3b42d20926470defdbe9a2c41a1901f40a590",
+          "bytes": 269349,
+          "drive_file_id": "1yV4jEXk2OWjwUZmR6er0xpTkGc2KCn_2",
+          "drive_name": "wk2-career-research-web-developer.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk2-day5-it-pathway-decision.pdf",
+          "sha256": "7a048c83bbe0416ec4e6ec58278657b083d36dad7d55974ea3f2481f0503e1b4",
+          "bytes": 196836,
+          "drive_file_id": "1uNjOWKSq48x9uepaSUiQGf54--mHYXZP",
+          "drive_name": "wk2-day5-it-pathway-decision.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk2-flip-the-failure-scaffold.pdf",
+          "sha256": "07a1b31c0b6df77d3a4644175acaf9fb725db180496af91c290902c876af906e",
+          "bytes": 232858,
+          "drive_file_id": "13mKdzejE5gw7lmbULmWFlvYcVZqE0077",
+          "drive_name": "wk2-flip-the-failure-scaffold.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk2-it-programs-scaffold.pdf",
+          "sha256": "470a4a9626fac704d71592f6751e08111a5be99b879917638f6e457968cf7051",
+          "bytes": 241671,
+          "drive_file_id": "1VpjWFb8payiznJ6zwyK7wtxZSalVyU58",
+          "drive_name": "wk2-it-programs-scaffold.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk2-it-salary-comparison-bilingual.pdf",
+          "sha256": "b863b6f1cdd12c1510aa82ac6836326371f4c93c031733424986786c1a76f0ca",
+          "bytes": 277392,
+          "drive_file_id": "1ROX0OfDAfyEscSnENmTTx6sdP3RtVIY4",
+          "drive_name": "wk2-it-salary-comparison-bilingual.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk2-it-salary-comparison-model.pdf",
+          "sha256": "e567e854f2adca9b95b318716642506164b44e09aff1b4438290e40d880999cd",
+          "bytes": 226324,
+          "drive_file_id": "1uzoaeJb6pNhCLQ0QVZpMm-jIKAHSHnR3",
+          "drive_name": "wk2-it-salary-comparison-model.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk2-it-salary-comparison.pdf",
+          "sha256": "2f393a6ced2cc9636ae5f3215087ebb273db5294ffd9c929d2069de5adfe55a9",
+          "bytes": 226903,
+          "drive_file_id": "1NQbX7tktmRZh4d9GZJat2psjQ3DxA8Zr",
+          "drive_name": "wk2-it-salary-comparison.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk2-salary-hoc-rubric.pdf",
+          "sha256": "80dfb75314b162e4e307b86e0898f6b56b07e0d22994b09ebc8293b13729aa57",
+          "bytes": 279769,
+          "drive_file_id": "1B-txHyuVYSMyEAkkeILx2WqoIb9DulDZ",
+          "drive_name": "wk2-salary-hoc-rubric.pdf"
+        }
+      ]
+    },
+    {
+      "curriculum_address": "1SW Wk3",
+      "unit_folder": {
+        "title": "SW1 · Wk3 Computer Science IT",
+        "id": "1rBuD991wkimQ-7b7f0c8XamrC875ENlt"
+      },
+      "google_masters_folder_id": "1fp1hKYqArYtxPPbzEjbqvKY4xaY7_ds0",
+      "download_releases_folder_id": "14DDgDcSX73cEIR0LyIBOdcvPCZjS2cma",
+      "public_releases": [
+        {
+          "source": "docs/resources/exit-tickets/1sw-wk3-day1-networking-systems-pathway-transferable-skills.pdf",
+          "sha256": "670a9559f833b4cde11a78bc45ef1d1be015da41eecf4565fa2f8926eda1a197",
+          "bytes": 249710,
+          "drive_file_id": "1r70JgBCvSsNQzT73EdRhcQwgm0v0G4Jf",
+          "drive_name": "1sw-wk3-day1-networking-systems-pathway-transferable-skills.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/1sw-wk3-day2-website-revamp-audit-a-real-site.pdf",
+          "sha256": "b0fd69bea7851e44bec8ea1c65d3d9205ca2d5dee148c53e77bf8d1a0ad1f7a9",
+          "bytes": 221952,
+          "drive_file_id": "1HHzt4dXPrbTTzQKdIEumdSkZPG_ps9qn",
+          "drive_name": "1sw-wk3-day2-website-revamp-audit-a-real-site.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk3-app-design-rubric.pdf",
+          "sha256": "958cda02386d3cae5d2b774b67a437402bd1065100b329c4117bd7ad07db6350",
+          "bytes": 290545,
+          "drive_file_id": "1LWuv88wiswL6vX7mtbTGdrBDmh1GsMIo",
+          "drive_name": "wk3-app-design-rubric.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk3-day4-career-comparison.pdf",
+          "sha256": "859d850f58839bb7894598c0017d4b437e7a7ac4b31edffc830827858c006c2d",
+          "bytes": 163743,
+          "drive_file_id": "1kMuJpv32HoTafld9tQOGuHNwl_kcNSR-",
+          "drive_name": "wk3-day4-career-comparison.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk3-day5-learning-style-connection.pdf",
+          "sha256": "db41a7f59658d78e7434bccadd8c6a35238b7e18896e68a07a84c712d93abe6c",
+          "bytes": 200994,
+          "drive_file_id": "1kcnUziiU_IlSjBRGFlFimd-hnpWgxntw",
+          "drive_name": "wk3-day5-learning-style-connection.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk3-emerging-careers-link-sheet.pdf",
+          "sha256": "00825ff36cade3ca44ea1ae89052a86a2597ade435567ddb2269a5986d7071fb",
+          "bytes": 232596,
+          "drive_file_id": "1MdfGdyGywZvepBFFlOZWzn9Fk-JIUT9F",
+          "drive_name": "wk3-emerging-careers-link-sheet.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk3-emerging-tech-research-template.pdf",
+          "sha256": "2180fcdc458298c5d92903a8a9e9faff9db6ba6fd301f5bd81b0ee5a37337eaa",
+          "bytes": 220750,
+          "drive_file_id": "1jDqeWVUjs6r3t1aykcuBW7VNQNXrO22o",
+          "drive_name": "wk3-emerging-tech-research-template.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk3-networking-career-cards.pdf",
+          "sha256": "3bbafc0360954d75d016dad7d18c56c381d341d721ca74c2aff67e938433e98a",
+          "bytes": 215879,
+          "drive_file_id": "1TeoxNw8zKatU9QWmI_grTuBmhtjPrRhd",
+          "drive_name": "wk3-networking-career-cards.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk3-transferable-skills-list.pdf",
+          "sha256": "5a71b1289c1922af5d6643ead3c769eadbb47d3c29905a919fab143f39d0fad7",
+          "bytes": 218588,
+          "drive_file_id": "1GMFvnieClwHAJjOWcg6s1UuBwMi-bZ1a",
+          "drive_name": "wk3-transferable-skills-list.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk3-ux-audit-scaffold.pdf",
+          "sha256": "abe573a918a35c0c85adc9747dd0425cdde41918e0cc724368f76897c00d6f4c",
+          "bytes": 208821,
+          "drive_file_id": "1PRAgqpa11U9zj4ERl6yl6_GqSeMbtaPF",
+          "drive_name": "wk3-ux-audit-scaffold.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk3-wireframe-template-bilingual.pdf",
+          "sha256": "16d571d49514d8fa22263433d433a0a35104874d46bdc9849aa1f412b6d48dd3",
+          "bytes": 230319,
+          "drive_file_id": "1L_qkNdQxXm0_4CKc3wHzYQ607mpKJJOr",
+          "drive_name": "wk3-wireframe-template-bilingual.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk3-wireframe-template.pdf",
+          "sha256": "fee5ada985cb87fc3438fc7252e6111a5f3221fa6699f9daed05fab9be949dd6",
+          "bytes": 195634,
+          "drive_file_id": "1Lhz4cxyjomtmQ7Bkpu5ltYlRIr6nrMgO",
+          "drive_name": "wk3-wireframe-template.pdf"
+        }
+      ]
+    },
+    {
+      "curriculum_address": "1SW Wk4",
+      "unit_folder": {
+        "title": "SW1 · Wk4 Tech Support IT",
+        "id": "1DUNQf6bDCoTMjfT3wmDwh-4fOML9iFsu"
+      },
+      "google_masters_folder_id": "1KR0k9ce3tOE9rZ28H7bL_f3m_WcQw7Pv",
+      "download_releases_folder_id": "12AiCvZ2HHyUs6p5YGGQCeQTzC1xbcVfV",
+      "public_releases": [
+        {
+          "source": "docs/resources/exit-tickets/1sw-wk4-day3-help-desk-simulator-makecode-day-1.pdf",
+          "sha256": "61535683221d902c04fb769fa8958799d0bc1bb4ab8bed31c9d9e7ef083731bd",
+          "bytes": 223821,
+          "drive_file_id": "1-jKr00-XskmCuKHlD7SZhqsqsCFJ76oH",
+          "drive_name": "1sw-wk4-day3-help-desk-simulator-makecode-day-1.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk4-day1-career-interest-check.pdf",
+          "sha256": "a8f04c5ed35e054ba4b0b49a6b570ad21575429fd0f6286af27925ce0ba86646",
+          "bytes": 175672,
+          "drive_file_id": "1Nuw46OFN9ckD_WAZB4xV76BR2m65khDF",
+          "drive_name": "wk4-day1-career-interest-check.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk4-day2-route-decision.pdf",
+          "sha256": "0098e0b4d3c8ee4457b58d6abd19f148a62676f8f6933b2ef29ddfb4813af9f6",
+          "bytes": 153215,
+          "drive_file_id": "1ofSFEO3Fl1dxUkgPw335eV5A23HibLpx",
+          "drive_name": "wk4-day2-route-decision.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk4-day4-customer-service-check.pdf",
+          "sha256": "685c06487e9bd3a13f0288f3f8f331add99fc52baf172762ac7f15cae067d594",
+          "bytes": 176671,
+          "drive_file_id": "1MNaKZjoB9wwPVsQVeeOesdBegR8N1hX_",
+          "drive_name": "wk4-day4-customer-service-check.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk4-day5-xello-skill-connection.pdf",
+          "sha256": "5e5895fdb2696665c4362de988d20c8f578a5769dd3ee6ba8de7138061da50f9",
+          "bytes": 161687,
+          "drive_file_id": "18rajwQMe5xCnZg22X_OVOua7Kw29CytY",
+          "drive_name": "wk4-day5-xello-skill-connection.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk4-demo-rubric.pdf",
+          "sha256": "696ed30a95e66cbebe2e1f728cf5d4316a3dd8e055cd4349b3079726a643171b",
+          "bytes": 274220,
+          "drive_file_id": "17PyTT7-T7657Xma76ay5X80NC4Na3E7i",
+          "drive_name": "wk4-demo-rubric.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk4-education-pathway-comparison-model.pdf",
+          "sha256": "fd4f474f39857d36c10a70b80ab6b774e9d84bb2e8e39a9b136472fa20136d8e",
+          "bytes": 188509,
+          "drive_file_id": "1jDEyZryB8YIU5Zh26XAb8t2eem2yA1Wk",
+          "drive_name": "wk4-education-pathway-comparison-model.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk4-education-pathway-comparison.pdf",
+          "sha256": "ac7a09f1ca8ae733cae6b656b9bba7495386eacf8dba906a6ad29359ac55bd9e",
+          "bytes": 177580,
+          "drive_file_id": "1ngew8Vvd28EsYnf7y0rZm7SKeF3aCTRe",
+          "drive_name": "wk4-education-pathway-comparison.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk4-help-desk-program-evidence.pdf",
+          "sha256": "3cebec79cba1040d2b06d98ecb789edc6372c2dc5c47fee859b21d2da82e5908",
+          "bytes": 235575,
+          "drive_file_id": "1Dl4150WS3XBjVjGnqlCM5vN0YLL5rkJj",
+          "drive_name": "wk4-help-desk-program-evidence.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk4-help-desk-role-play-script-bilingual.pdf",
+          "sha256": "85db0af6735b24a732b8cf5246e4a45ff69f97317e636e14b8335faad04094e2",
+          "bytes": 301930,
+          "drive_file_id": "19_Hi1_cCHw43iZcBMeBfXrpapuLKTTd4",
+          "drive_name": "wk4-help-desk-role-play-script-bilingual.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk4-help-desk-role-play-script.pdf",
+          "sha256": "924465e88508f3cbe9c276798b2c39f6c2dcc65bf31e21163e275987d8a63ea3",
+          "bytes": 242219,
+          "drive_file_id": "1u73z_2QQTCOWf_Ikj_FEI_cERf78XCh1",
+          "drive_name": "wk4-help-desk-role-play-script.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk4-help-desk-scenario-cards.pdf",
+          "sha256": "ffa8c8fa43445d315f91da0b223c2c6c4ad735aa95ccfb9339a89c582631a1f1",
+          "bytes": 181939,
+          "drive_file_id": "1SeAAvOfnFHq2-dfx5Ap6wn5rXN307X_m",
+          "drive_name": "wk4-help-desk-scenario-cards.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk4-it-support-career-cards.pdf",
+          "sha256": "72ef4dc259a3298669a7495cc8070c91abe7845dc288158fd2172ee62c4d461c",
+          "bytes": 166494,
+          "drive_file_id": "1ZgbcqZvHhpZzAxmF_4v8dU4tv61fsfX-",
+          "drive_name": "wk4-it-support-career-cards.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk4-makecode-starter-blocks.pdf",
+          "sha256": "fd23266bc71d89454dc4e40e6e52e8dd2ecf3271a59e1c4722711f96be9994b4",
+          "bytes": 262123,
+          "drive_file_id": "1_87TWeGCSX1jIEQsvlWuePK01nEHONBU",
+          "drive_name": "wk4-makecode-starter-blocks.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk4-route-data-guide.pdf",
+          "sha256": "af16f48d6ac0edfdf195ba7bd512f192bccf1d6a752a97b04ea7d9c2076d8690",
+          "bytes": 165015,
+          "drive_file_id": "1TWHWQPu48cBs3zMMLZ35xOwZu1xKp2m5",
+          "drive_name": "wk4-route-data-guide.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk4-troubleshooting-step-sort-cards.pdf",
+          "sha256": "a8d7e3e1603db34b09b2d4ac1e51df758308cd96b8596063f82ce164a08fb399",
+          "bytes": 184691,
+          "drive_file_id": "1N-Qs61ZDqjsftXeSIQZPg7aqJhsVoFKu",
+          "drive_name": "wk4-troubleshooting-step-sort-cards.pdf"
+        }
+      ]
+    },
+    {
+      "curriculum_address": "1SW Wk5",
+      "unit_folder": {
+        "title": "SW1 · Wk5 Cybersecurity IT",
+        "id": "1PaTGC6WWN36JEOW3ojlrFiD7OOM6y3Sp"
+      },
+      "google_masters_folder_id": "1kB3g7_VuuPB9C66e-0KdRKygHFuOG1rR",
+      "download_releases_folder_id": "1P1vqOoi2nCCH61Y2QNQI2rN5MmZtlmHX",
+      "public_releases": [
+        {
+          "source": "docs/resources/worksheets/wk5-bootcamp-model.pdf",
+          "sha256": "917455883f67f1f0db451fff5a6728c5f61247ca1f3e89ea1967f60de993de7a",
+          "bytes": 242998,
+          "drive_file_id": "1IUnQx3rcbM5v9aNtqApndUoJR_GJPc5B",
+          "drive_name": "wk5-bootcamp-model.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk5-bootcamp-planning-template.pdf",
+          "sha256": "6cf9694ea019eafd82c03b902166d1bba40271b722e7866468d6764bbd5285cb",
+          "bytes": 203912,
+          "drive_file_id": "1S8MRMHc3lvjxjvW0k5aCm4P_gQy_6dSd",
+          "drive_name": "wk5-bootcamp-planning-template.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk5-capstone-portfolio-rubric.pdf",
+          "sha256": "8647ac646de2209cfa7d26896a7ebe4b359a8d632141aaabba4bc079702c2d78",
+          "bytes": 278316,
+          "drive_file_id": "1Z4IscRG56isXf6pUtUcyDzbGpQs9ZT-x",
+          "drive_name": "wk5-capstone-portfolio-rubric.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk5-cyberseek-pathway.pdf",
+          "sha256": "b6d377fc34e2770105f23499f33effa50f44cbd1bbaef25f1458dd73a5dc8d5a",
+          "bytes": 278823,
+          "drive_file_id": "1FebOEdz0GAFYjEJWsW5NQefnOPtcrSEW",
+          "drive_name": "wk5-cyberseek-pathway.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk5-favorite-cluster-connection.pdf",
+          "sha256": "145d7dadfd3e4ac0cfacf4c90e19a758cd0edc74a6ac33a3166484134f8e9713",
+          "bytes": 184991,
+          "drive_file_id": "1zC0rgBUhg1UmmpPOoWe41JXSHws594sI",
+          "drive_name": "wk5-favorite-cluster-connection.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk5-red-flag-checklist.pdf",
+          "sha256": "7bc854b12b9bef09ccf794df22a929f92cd11a5b6cbf06653f5a7928fd87f7c2",
+          "bytes": 233560,
+          "drive_file_id": "1Yg6E2FDA8eenS289r53mb3RlzrnYFe6C",
+          "drive_name": "wk5-red-flag-checklist.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk5-reflection-update-bilingual.pdf",
+          "sha256": "d04a77529adb81a6ea9e5ac15d7feee5619092921fefea075dce27dea280b275",
+          "bytes": 231270,
+          "drive_file_id": "11sQMUzRZJaK3O1wHcCRbItVtLx1M_ETB",
+          "drive_name": "wk5-reflection-update-bilingual.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/wk5-reflection-update-template.pdf",
+          "sha256": "b787d32f3c0a65b83d47878377085fe7ff8f5b31d79da257e6def71013e54ae5",
+          "bytes": 211431,
+          "drive_file_id": "1FrgAeN8B8_TCr-MlaqxUlBIdmcN-Nt9S",
+          "drive_name": "wk5-reflection-update-template.pdf"
+        }
+      ]
+    },
+    {
+      "curriculum_address": "2SW Wk1",
+      "unit_folder": {
+        "title": "SW2 · Wk1 Legal Studies",
+        "id": "1MQGlow4E2t1Xg8r9od0ZOSwS5YtyEbHq"
+      },
+      "google_masters_folder_id": "15kBnCNKBdRbrBCADz-xCgIZpAWBi3rYk",
+      "download_releases_folder_id": "1TTCNukKK5xbBFmQNJYWhEs9_pn6MPYCx",
+      "public_releases": [
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk1-day1-law-and-public-safety-cluster-tour-legal-career-research.pdf",
+          "sha256": "c28835fae7e65c71c4aec9756f44f21a94018990e385a324cc7231de316db8fb",
+          "bytes": 238416,
+          "drive_file_id": "1ks43bwPMjvdAtczeSXYpE7H3F8kzf7na",
+          "drive_name": "2sw-wk1-day1-law-and-public-safety-cluster-tour-legal-career-research.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk1-day2-emergency-essentials-kit-design.pdf",
+          "sha256": "d83e38574835372d9a72eae99e2214f29c1783f5ac086e775081aa64606658df",
+          "bytes": 207672,
+          "drive_file_id": "1ybQkkvitjJQSz5Yt0ItEf5fcapx8Yjc1",
+          "drive_name": "2sw-wk1-day2-emergency-essentials-kit-design.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk1-day3-city-council-in-action-draft-the-town-laws.pdf",
+          "sha256": "a81abd85e55058641d366eeedbec733bd4a7545647ea81ce62ad24ef295e03f2",
+          "bytes": 222848,
+          "drive_file_id": "1GOyCWEmYn8a9X9ifhE3NSS7vDnCVY193",
+          "drive_name": "2sw-wk1-day3-city-council-in-action-draft-the-town-laws.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk1-day4-policy-showdown-ai-in-the-courts-legal-entrepreneurship.pdf",
+          "sha256": "38bdd02123796c0c20d33014b6d0187813224e88b9d82a02b687b0284fa762a7",
+          "bytes": 219694,
+          "drive_file_id": "1ox9GCupz7Z5a1Z5zO11yOIGWSdIzXGlM",
+          "drive_name": "2sw-wk1-day4-policy-showdown-ai-in-the-courts-legal-entrepreneurship.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk1-day5-cluster-wrap-up-xello-life-experience.pdf",
+          "sha256": "aa35cf2a022db944d9df4a68ee98f672cc9a393f652e06a87e38f7cd27e550b7",
+          "bytes": 278002,
+          "drive_file_id": "1gymE8Fkc7N-KZPdeF9DSZgiv3V5482dF",
+          "drive_name": "2sw-wk1-day5-cluster-wrap-up-xello-life-experience.pdf"
+        }
+      ]
+    },
+    {
+      "curriculum_address": "2SW Wk2",
+      "unit_folder": {
+        "title": "SW2 · Wk2 Law Enforcement EMT",
+        "id": "1e595qKz8CNOYiDpfH3-47YjwckFzj6yR"
+      },
+      "google_masters_folder_id": "1R_wCbpycdZrHueoXxFtDVn825phl-pfU",
+      "download_releases_folder_id": "1zN5fZbVUGk5eo-uOgkfOSXQcytDuMV4V",
+      "public_releases": [
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk2-day1-compare-first-responder-routes.pdf",
+          "sha256": "edea0748cd8d36796a0640c8032311b5c0974c5efc841d7ba0a6e339e4c5bfa7",
+          "bytes": 186968,
+          "drive_file_id": "1xoeAMK-LzCgDndPIOCuEIBwB73H8992a",
+          "drive_name": "2sw-wk2-day1-compare-first-responder-routes.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk2-day2-clinton-lake-weigh-the-evidence.pdf",
+          "sha256": "1dd67024bd23e98d13905ea15c5b24e9807373bee94a09749d304083cb765f21",
+          "bytes": 186945,
+          "drive_file_id": "1NjkXC8smaduL03wWSWV0Weebulg5cXd4",
+          "drive_name": "2sw-wk2-day2-clinton-lake-weigh-the-evidence.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk2-day3-injured-on-the-trail-controlled-simulation.pdf",
+          "sha256": "5032aba98e53ea95f990b663a827a5819ade21f1ba75c227d497bb397884d2e9",
+          "bytes": 193960,
+          "drive_file_id": "141R4CoYi7y9rgmkRmc5SK38r31RNgj4P",
+          "drive_name": "2sw-wk2-day3-injured-on-the-trail-controlled-simulation.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk2-day4-document-and-reassess.pdf",
+          "sha256": "8ffdd2fe101f5f3a44dd600a8bc116b9c60d8a8af5f4230ed5e48265776c1ab7",
+          "bytes": 183902,
+          "drive_file_id": "1SMPcfaN28EqMo3J9SPut5z1oGVwWWQTP",
+          "drive_name": "2sw-wk2-day4-document-and-reassess.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk2-day5-career-decision-and-integrity-reflection.pdf",
+          "sha256": "16eb7513a235ab7cab188f93574a44cadcd652d7ccde17aaebc85ccdb1b8ed18",
+          "bytes": 189273,
+          "drive_file_id": "1ZyjTAUONpP6GSv47YNCwrhN25jX0uXwM",
+          "drive_name": "2sw-wk2-day5-career-decision-and-integrity-reflection.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk2-clinton-lake-evidence-tracker.pdf",
+          "sha256": "ab4e8363b02ec72dc0f0406f7adeefb7e1f895ff2e5c69970d40863a58143c24",
+          "bytes": 223995,
+          "drive_file_id": "1wgNnecdriPhLXEdt5V5PO4oeTtegH_w6",
+          "drive_name": "2sw-wk2-clinton-lake-evidence-tracker.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk2-first-responder-route-guide.pdf",
+          "sha256": "66dc35930efecfe31c4fa64e3304a3a816a10aa75b006c4b22935398a370d097",
+          "bytes": 210113,
+          "drive_file_id": "1DaGMxTiyDNNSpp-CQ8ImfVGbqrl8TR3k",
+          "drive_name": "2sw-wk2-first-responder-route-guide.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk2-integrity-career-reflection.pdf",
+          "sha256": "5208f96595c2292f43810e59d8820daa90f7a731e01543608c45765de33e1e0c",
+          "bytes": 200475,
+          "drive_file_id": "1lyIPS8vGKZEZehGbuoPIuAdPlBwdZu3d",
+          "drive_name": "2sw-wk2-integrity-career-reflection.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk2-patient-care-report.pdf",
+          "sha256": "04502c76178d692692af1e9151331b85863171a8d04033811bf4fdc621798bb3",
+          "bytes": 214697,
+          "drive_file_id": "1fDnfZ1C0iqYn1huYWpzOoEtfHmv12h_f",
+          "drive_name": "2sw-wk2-patient-care-report.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk2-pcr-rubric.pdf",
+          "sha256": "84c5be79bdab8bb223faaa1b104510d810633e99f9b02516bf76cd712f77e827",
+          "bytes": 233811,
+          "drive_file_id": "1V3UNFaXcA1-Y9Z5OIXdrH1m075Pf3ouU",
+          "drive_name": "2sw-wk2-pcr-rubric.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk2-trail-simulation-record.pdf",
+          "sha256": "f2e3343e84a2c59965d99fe1f8973b5ed5de371662e1ade0185b10d20be0df13",
+          "bytes": 239426,
+          "drive_file_id": "1WYPWlXEy8t4i7ShZHx2Hwfs8ZkeylFjE",
+          "drive_name": "2sw-wk2-trail-simulation-record.pdf"
+        }
+      ]
+    },
+    {
+      "curriculum_address": "2SW Wk3",
+      "unit_folder": {
+        "title": "SW2 · Wk3 Nursing Health Science",
+        "id": "1xL_-7ilS-6WnUfAcYsVnlEejaN0WmL4p"
+      },
+      "google_masters_folder_id": "1iSZMiRvScRa5ZUjdEAawFaQYd1AkUKwk",
+      "download_releases_folder_id": "1AhgcBkcil-KY1xEQpJP6Q8lbgyih1jh2",
+      "public_releases": [
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk3-day1-health-science-and-nursing-routes.pdf",
+          "sha256": "6536b9b1df0b4b677605d3c1634d8cad7ab2a7342de33739d513cc0deb2ff527",
+          "bytes": 221937,
+          "drive_file_id": "1z3GESdsrWtocD2Cjg6ZfCYzjA94-sIk-",
+          "drive_name": "2sw-wk3-day1-health-science-and-nursing-routes.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk3-day2-compare-nursing-education-and-pay.pdf",
+          "sha256": "1b5d9983953594d3e7ca54c144e8032b29452f13d64995f7c4b38c8752933a0e",
+          "bytes": 206156,
+          "drive_file_id": "1xIuTNE4X8Z56JPdJ35jwfz_xSOMkUKbn",
+          "drive_name": "2sw-wk3-day2-compare-nursing-education-and-pay.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk3-day3-build-a-vital-signs-training-simulator.pdf",
+          "sha256": "ea3d9f3fe660fb52e8e6331cf39614c7ae8884c8241f2a5f89dc86b2e7b1326d",
+          "bytes": 213963,
+          "drive_file_id": "1QvQVAZQd2RkJvFYSzJ80O6_8ImBkekFc",
+          "drive_name": "2sw-wk3-day3-build-a-vital-signs-training-simulator.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk3-day4-document-a-fictional-patient-handoff.pdf",
+          "sha256": "6b38d6331e5c83e73728bc09db82cf75a1216bf90dd6f7d407dc007dca7b82ac",
+          "bytes": 212487,
+          "drive_file_id": "1Mx5vSG7Rbjgs8rV3PcII9Iseb6acHBkS",
+          "drive_name": "2sw-wk3-day4-document-a-fictional-patient-handoff.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk3-day5-save-three-careers-in-xello.pdf",
+          "sha256": "c5fa08e6d1114ba7b9abb0cdb0539bffb62128246c3f61d59e9f930439ffa716",
+          "bytes": 202109,
+          "drive_file_id": "1El9KOZm9CQnmWE296ltckHP01dvhjEBL",
+          "drive_name": "2sw-wk3-day5-save-three-careers-in-xello.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk3-clinical-handoff-record.pdf",
+          "sha256": "28874418c77cca890b121ce6197bc72bc17a2d53b746bbca2e3bceed06af2319",
+          "bytes": 217962,
+          "drive_file_id": "168wr5pd58KG-dL-1ChVWGoHPxxQPVTAe",
+          "drive_name": "2sw-wk3-clinical-handoff-record.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk3-fictional-patient-cards.pdf",
+          "sha256": "7ca0b2c6f57cba204c3ec553bb1888024cecd8b2a507fd659eb8b82a3d190a0a",
+          "bytes": 214084,
+          "drive_file_id": "1XM-z3iqXyF8EjWLlWYet_CcWSDrPaZ7U",
+          "drive_name": "2sw-wk3-fictional-patient-cards.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk3-handoff-rubric.pdf",
+          "sha256": "aea28088290b735ce991513b2b5e242beddd77f01250fa22022753dcffe56e62",
+          "bytes": 229159,
+          "drive_file_id": "1vfgCoycdlrrXhazDnyRag8dVPpS_DndD",
+          "drive_name": "2sw-wk3-handoff-rubric.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk3-nursing-route-comparison.pdf",
+          "sha256": "8563e817e43a60576aa5b18f37afff7e45fb78a29d42b998a2ad61c7c638b50c",
+          "bytes": 515071,
+          "drive_file_id": "1dwYzjYT-UPJNuNWdrqf-vn6oK9zfDL_Q",
+          "drive_name": "2sw-wk3-nursing-route-comparison.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk3-nursing-route-guide.pdf",
+          "sha256": "2e951ea2be065800d9842babfd30902538e67f878537ec3ea0926a58db2a2fb7",
+          "bytes": 263983,
+          "drive_file_id": "1i-WGaw7oWOV1YE6AXmwawn_R8TKnc6NX",
+          "drive_name": "2sw-wk3-nursing-route-guide.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk3-vital-signs-simulator-build.pdf",
+          "sha256": "9bf5eb9be98676096e7ff50c526829c028e1610509cb13b36b27f55bad454f00",
+          "bytes": 252480,
+          "drive_file_id": "1MX7zB5v_8EGtNwig2uU0uNhrjtEEkLxE",
+          "drive_name": "2sw-wk3-vital-signs-simulator-build.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk3-xello-save-careers-reflection.pdf",
+          "sha256": "9dd3dd7a535ab71421e46d4b8d7c73f2d4f0a5ab6201ee2e6f20e39b01119e20",
+          "bytes": 200757,
+          "drive_file_id": "1yqiFXdFhC2sVRGxwke5NM8CubvsWki1I",
+          "drive_name": "2sw-wk3-xello-save-careers-reflection.pdf"
+        }
+      ]
+    },
+    {
+      "curriculum_address": "2SW Wk4",
+      "unit_folder": {
+        "title": "SW2 · Wk4 Dental Medical Billing",
+        "id": "1o3a7ga_rnMhNlXfjg7C3l537XA-SFgcK"
+      },
+      "google_masters_folder_id": "1QRrLyCzG6KumcLHfCgM6gG8ygjuSx54z",
+      "download_releases_folder_id": "1KJtYzj8EfBxRzwWAkd8wqX6LmRkvFP19",
+      "public_releases": [
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk4-day1-read-dental-evidence-carefully.pdf",
+          "sha256": "90fab687f784af1d8d8d7db6f2f064c92de6170d68367215cb63a2de2fe1f55e",
+          "bytes": 197261,
+          "drive_file_id": "1qGRa0ic26vvnVN5R-z78Xhb7TnG7mA_x",
+          "drive_name": "2sw-wk4-day1-read-dental-evidence-carefully.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk4-day2-design-a-toothbrush-with-evidence.pdf",
+          "sha256": "084d46bb2a30c3f8df45b15bd137ad187b3bb3344f599426a0c004c5270612ab",
+          "bytes": 215306,
+          "drive_file_id": "1pPnmxD0Y5D8Ak7II4SLMPvjbbiU6q6jv",
+          "drive_name": "2sw-wk4-day2-design-a-toothbrush-with-evidence.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk4-day3-add-real-experiences-in-xello.pdf",
+          "sha256": "7a125fb3d3c045ca7b82de2045631838cd5bc43072e2cf82bfed2372e61b50b2",
+          "bytes": 202699,
+          "drive_file_id": "1UuCQq44D1ocjvkTzsyvHIjmAUh8t4P6H",
+          "drive_name": "2sw-wk4-day3-add-real-experiences-in-xello.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk4-career-evidence-comparison.pdf",
+          "sha256": "ef2b89dab653c337e1ea644e41e457246ea28cc8e04e6bba0c6ea0376df05f7c",
+          "bytes": 279827,
+          "drive_file_id": "1SLVzr5_cUDDo5l_8Xg7M_A6y1IlCgcDb",
+          "drive_name": "2sw-wk4-career-evidence-comparison.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk4-dental-health-data-guide.pdf",
+          "sha256": "0755cdfa7f34f5273d3c69ab7c8bd9a89eac3eb578cf61dcbaedc0bba9cbebc6",
+          "bytes": 295492,
+          "drive_file_id": "1x9z40j_ibTsBc1DA39O3JC2guxc3SJcw",
+          "drive_name": "2sw-wk4-dental-health-data-guide.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk4-evidence-check-rubric.pdf",
+          "sha256": "1dd79efd4317dec59e9bc291baee660a599722912be46a2854af9b43f1868d7f",
+          "bytes": 230483,
+          "drive_file_id": "1JROQGewORvwPDgZIgQ03prdTZGukU4p5",
+          "drive_name": "2sw-wk4-evidence-check-rubric.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk4-icd10-training-lab.pdf",
+          "sha256": "869ca9e7285faa4f0a39df57551ad16a1f488cc196ce54eb75444a5952faaa8e",
+          "bytes": 249946,
+          "drive_file_id": "1oRmzm_t21_z2oxpMFPe9fLs-XrMaLgPj",
+          "drive_name": "2sw-wk4-icd10-training-lab.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk4-smile-squad-observation-record.pdf",
+          "sha256": "f7b72a64c5d19e98f1557dabb25c813aab8001307201ec4dedbf935c69367a95",
+          "bytes": 237529,
+          "drive_file_id": "1Ohv3WPwcCAWSI1sMJC1gDSu4WNNcQJQK",
+          "drive_name": "2sw-wk4-smile-squad-observation-record.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk4-toothbrush-design-brief.pdf",
+          "sha256": "089118b09eb30ffa6612d8f478ba1ef716416bface321727245282bf8df2123f",
+          "bytes": 240071,
+          "drive_file_id": "1eTRWnSpMgFpbQ5JFt0gH0IbKwEBgI8sJ",
+          "drive_name": "2sw-wk4-toothbrush-design-brief.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk4-xello-experiences-checkpoint.pdf",
+          "sha256": "2cde3d6c253d5ccfa07449bd4097e504bdcd0df18f1267c3f63c31ab6e533d74",
+          "bytes": 225528,
+          "drive_file_id": "1LOVDZJGLeKLPOulcpoLGmYYO5_xJ2Yjz",
+          "drive_name": "2sw-wk4-xello-experiences-checkpoint.pdf"
+        }
+      ]
+    },
+    {
+      "curriculum_address": "2SW Wk5",
+      "unit_folder": {
+        "title": "SW2 · Wk5 Powerskills Communication",
+        "id": "1pTCK95Z3HlfbbQ6JUjaJB-4agQVzubsI"
+      },
+      "google_masters_folder_id": "1tlzmXFUgZXWGZ0fEFUcQz_uOB_0frQap",
+      "download_releases_folder_id": "11ubXWHkSElwY889vFD0XBOlKnnxTxRy1",
+      "public_releases": [
+        {
+          "source": "docs/resources/worksheets/2sw-wk5-active-listening-lab.pdf",
+          "sha256": "f6968e92e2c111c7d1ce9761fd1dfa5ac322b426951887e4abcab383a493fcfa",
+          "bytes": 244361,
+          "drive_file_id": "1igLzkF0hQJbsvAbimzBphWZEnWoEIPWA",
+          "drive_name": "2sw-wk5-active-listening-lab.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk5-advocacy-smart-time-plan.pdf",
+          "sha256": "2e2ea7d1a1a822632d7d5c4e93fe1a37ef24404e8f17d640b7dfcd24a4d987cc",
+          "bytes": 248860,
+          "drive_file_id": "1xy3y0ClCxn2pY17GKzykaIVt75B9sGu1",
+          "drive_name": "2sw-wk5-advocacy-smart-time-plan.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk5-communication-goal-rubric.pdf",
+          "sha256": "4da07671b3eb0dd10d4b1ff19fa3f06e52e4d7ab49a3961de44a3d377934661d",
+          "bytes": 235108,
+          "drive_file_id": "1DMhhRtBy-INiz9BO1VLD7bLafIwNYVgP",
+          "drive_name": "2sw-wk5-communication-goal-rubric.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk5-conflict-resolution-plan.pdf",
+          "sha256": "1a5308840cbba4641aa4044d95aa2f48eae028354beefd83fd7342c437c351a6",
+          "bytes": 231298,
+          "drive_file_id": "12bRLLn2GLDyX6w1aTwqEFtlX2mzwHv3M",
+          "drive_name": "2sw-wk5-conflict-resolution-plan.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk5-powerskills-transfer-guide.pdf",
+          "sha256": "fe672ef0f8a6b9419c0940a0fcf6e9f14f030ce6cc29864366a42d617e956ba0",
+          "bytes": 249569,
+          "drive_file_id": "1xhoMkqZwRULt1ZsHpDqnDR44nKb7dc4l",
+          "drive_name": "2sw-wk5-powerskills-transfer-guide.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk5-work-experience-skills-synthesis.pdf",
+          "sha256": "a6029194f8b151b147e042099e1bbc34989721d2f03790e1e4a305e4d375e6aa",
+          "bytes": 233178,
+          "drive_file_id": "1jGUepzvKwIA4eSn3Szj6ODCDp0eGOBTu",
+          "drive_name": "2sw-wk5-work-experience-skills-synthesis.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk5-written-message-lab.pdf",
+          "sha256": "37355c78ca30429bac8ecf6597162c38a32c9d08762d58671918563fb1d975c7",
+          "bytes": 215916,
+          "drive_file_id": "10KycWbtaYOaYeNRE9_1kuP9_pnKgjIWV",
+          "drive_name": "2sw-wk5-written-message-lab.pdf"
+        }
+      ]
+    },
+    {
+      "curriculum_address": "2SW Wk6",
+      "unit_folder": {
+        "title": "SW2 · Wk6 Biomedical Health Science",
+        "id": "1mH04uiOAGm-fL5sgvZYT7uXjRIEWYFtX"
+      },
+      "google_masters_folder_id": "1Wf7kTwtzTiGBAOV3z8Ziy8DK39IU5O0k",
+      "download_releases_folder_id": "1RNTBnUIoTxnErynd8vKMKLfr0ndTguIl",
+      "public_releases": [
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk6-day1-biomedical-careers-and-a-practice-cover-letter.pdf",
+          "sha256": "0e5d846bc45da164ab266a7b7a309936d8adc2f946a4bbfbf39941727f06eba7",
+          "bytes": 201457,
+          "drive_file_id": "1wEtG_-AIDo7grjUbJHVQvMtYqGeIwf8h",
+          "drive_name": "2sw-wk6-day1-biomedical-careers-and-a-practice-cover-letter.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk6-day2-mini-medics-design-challenge.pdf",
+          "sha256": "dcb94933a6dcddfc98c7f6e9f42ff75a5905db1958897d9e3900ef08864aa68b",
+          "bytes": 214371,
+          "drive_file_id": "1_Xgjyu6O3x_KrdvFI2RVE3asSj-zSeOf",
+          "drive_name": "2sw-wk6-day2-mini-medics-design-challenge.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk6-day3-outbreak-investigators-follow-the-evidence.pdf",
+          "sha256": "1ec890522050145e8d6ea6bca893c8758f24086b1cba0e779a879d3752e2daba",
+          "bytes": 202229,
+          "drive_file_id": "10lLN-ZSQKP1vC_quZNNlSEe-3UyJjprC",
+          "drive_name": "2sw-wk6-day3-outbreak-investigators-follow-the-evidence.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk6-day4-outbreak-investigators-build-the-response.pdf",
+          "sha256": "a5e881c270e7d652d6c11d6b3ee727e89f0d0e63ee56bcf742b0bcf08067bcb6",
+          "bytes": 204704,
+          "drive_file_id": "1qhhPm_ax16RObGrVugpjMQ0Kzy4KjP94",
+          "drive_name": "2sw-wk6-day4-outbreak-investigators-build-the-response.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/2sw-wk6-day5-xello-explore-career-matches.pdf",
+          "sha256": "1a314d2e2627272d12138a01b281edf131738d53cc4d686b2dcc5bcc1a7ec629",
+          "bytes": 196766,
+          "drive_file_id": "15SiuvAZA9ZaTHjyCWeSa-Y7i4Fe4CVEF",
+          "drive_name": "2sw-wk6-day5-xello-explore-career-matches.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk6-biomedical-career-evidence-guide.pdf",
+          "sha256": "bc0044645b28196550f46ef9a9cc0eba3c57984c12e23025f8b999ce985c6254",
+          "bytes": 266532,
+          "drive_file_id": "1l_OS4RWwVfS2eyhDHoezpR05Um2E5FkU",
+          "drive_name": "2sw-wk6-biomedical-career-evidence-guide.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk6-cover-letter-lab.pdf",
+          "sha256": "fd4759dce57e1f45298d7ade24eacd231d712e849a43706a7c6b76b814aa5fe4",
+          "bytes": 240540,
+          "drive_file_id": "1Oq4qStbg1ASrURwppWRGGJwmqswStw8J",
+          "drive_name": "2sw-wk6-cover-letter-lab.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk6-mini-medics-design-record.pdf",
+          "sha256": "13f168d4bda1517ff1ba5c1b4593c9c5c2242d20279c895cf2c97a88a0446998",
+          "bytes": 206684,
+          "drive_file_id": "1B75AP39C0RlF_5UOYV8WQ96qDkQbkPrM",
+          "drive_name": "2sw-wk6-mini-medics-design-record.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk6-outbreak-investigation-record.pdf",
+          "sha256": "f44a284275684412652687c1024226769181998bad0974575e6f3293d2912ff3",
+          "bytes": 220842,
+          "drive_file_id": "19qwILJxh7bs9dvyVe9uvILbC6vi1Khtr",
+          "drive_name": "2sw-wk6-outbreak-investigation-record.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk6-outbreak-response-plan.pdf",
+          "sha256": "f7164334a1386c7238b8883ab73fdffeef92c83710024df794eb351c0b33d009",
+          "bytes": 228510,
+          "drive_file_id": "1bMF3qcvIj_EwjPZlzGN_f07Sm-HgsE0V",
+          "drive_name": "2sw-wk6-outbreak-response-plan.pdf"
+        },
+        {
+          "source": "docs/resources/worksheets/2sw-wk6-xello-career-matches-reflection.pdf",
+          "sha256": "776020c0acfd069a4dbb16a4e1afe5cdf81b4080e9be9e2d144b3effe6b6e4dd",
+          "bytes": 191416,
+          "drive_file_id": "1e9fRyq7gwLauyFox9TlMtJKhe3rsxx7o",
+          "drive_name": "2sw-wk6-xello-career-matches-reflection.pdf"
+        }
+      ]
+    },
+    {
+      "curriculum_address": "3SW Wk1",
+      "unit_folder": {
+        "title": "SW3 · Wk1 Vet Science",
+        "id": "1iFgeoRgEg8wgOiTfmVNF6fS09Hm6GX1q"
+      },
+      "google_masters_folder_id": "1vJ6T0U5UGPHe9VNXq9MccwdgMXNXwx6N",
+      "download_releases_folder_id": "1i9npLB2-_jrFAcsHbshDBCyOz4eIFEX9",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "3SW Wk2",
+      "unit_folder": {
+        "title": "SW3 · Wk2 Plant Science",
+        "id": "1DKv2wWKzvXGPxBtUhEtH5QBEZGYfbP27"
+      },
+      "google_masters_folder_id": "1Rd9Kjc92aZRmqNuGTlhVco4Dg3fm5Oi5",
+      "download_releases_folder_id": "1M9upwfPYAaGYWnuuwadNymUrTkvQIZ1p",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "3SW Wk3",
+      "unit_folder": {
+        "title": "SW3 · Wk3 Sustainable Engineering",
+        "id": "1Tp6b66JJuWh2DtQ_n3b462BRaPBMnmV3"
+      },
+      "google_masters_folder_id": "1KljYyN4IIrBUMq5aFAxPqTjSXqEE3iav",
+      "download_releases_folder_id": "1ZDzi7yTaHmAXM9qGbljJRl0iVUnPHB2g",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "3SW Wk4",
+      "unit_folder": {
+        "title": "SW3 · Wk4 Culinary Hospitality",
+        "id": "1GNvTlwC7qqOBVV32RyVFJnFa1OdHtHf8"
+      },
+      "google_masters_folder_id": "1TCuEh-MT-pNOihqMZAqeemqfk_ithalj",
+      "download_releases_folder_id": "19ifYb_SmWGgrmGLmvX4rr44BOVzN7NXQ",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "3SW Wk5",
+      "unit_folder": {
+        "title": "SW3 · Wk5 Cosmetology",
+        "id": "1u85hiaASz3pYRB3JkoQM9zgx3Pv6_xb5"
+      },
+      "google_masters_folder_id": "1pyJ57fKRPTnRsgkuCFOIXgMImfr2aFpc",
+      "download_releases_folder_id": "19mIRs-wSfh7m6xMRMSI52WRwKEfgTW2v",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "3SW Wk6",
+      "unit_folder": {
+        "title": "SW3 · Wk6 Entrepreneurship",
+        "id": "1ShwkB6xXq5CpUEbbJx4v6Zc33OX11eid"
+      },
+      "google_masters_folder_id": "14MZFfYRR8oAsadF01gUZ6NZGUi58VWBW",
+      "download_releases_folder_id": "14oMGmRB4MgnRD1-CJ7sQYKcEO5SnG8LU",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "4SW Wk1",
+      "unit_folder": {
+        "title": "SW4 · Wk1 Career Planning",
+        "id": "1wYJnK5aPBNzECowbAGrf0Nz4jCLjpp1g"
+      },
+      "google_masters_folder_id": "1Jq---i_sWa3zybWPSt8wV01Bs_y-7X_7",
+      "download_releases_folder_id": "1YEPMhxCrj-FSrzeAniihN5WbPN7v-Qz9",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "4SW Wk2",
+      "unit_folder": {
+        "title": "SW4 · Wk2 Course Mapping",
+        "id": "1HLOfD6cU6aScFHAmvkKPvBCKOgG5v6P4"
+      },
+      "google_masters_folder_id": "1zjqyuU-DAi4JXPSFAl2EBAJPxeU3kVgj",
+      "download_releases_folder_id": "1pxR_69eIIgn2yOLjIo1FzQq6fA8OGy3_",
+      "public_releases": [
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk2-day1-graduation-and-assessment-decisions.pdf",
+          "sha256": "7faaf96336d51f1ed7d1cf9276a7efd230edaa53af708a6e079f4e4c700d90ad",
+          "bytes": 210191,
+          "drive_file_id": "1GwnhKGbVEXpE7kcK7FsFH4rUTf3yIbjI",
+          "drive_name": "4sw-wk2-day1-graduation-and-assessment-decisions.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk2-day2-four-year-course-plan-draft.pdf",
+          "sha256": "f26a93f0ba732013222334c087dd0c33db6d23b3cc02f57749d007dd50b15c69",
+          "bytes": 210599,
+          "drive_file_id": "1vre8r_TVQ8_RJUlpCaTYDDHAfdiCHYQv",
+          "drive_name": "4sw-wk2-day2-four-year-course-plan-draft.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk2-day3-college-credit-and-plan-conversation.pdf",
+          "sha256": "0ab3d70036209f79a9e04d1654e5b2cca8c425ed567637e08f3f790986355b26",
+          "bytes": 230788,
+          "drive_file_id": "1MuibrwWYOeHMR3cPrDm7U3JxEPWeRJ2l",
+          "drive_name": "4sw-wk2-day3-college-credit-and-plan-conversation.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk2-day4-smart-experience-action-plan.pdf",
+          "sha256": "3be68566c6529761c8592c26897cbf5a24d3b8f820038740ea31ac01c461550d",
+          "bytes": 214965,
+          "drive_file_id": "1NMER9-qscA1Aq_lUXerA6Yt2t8uuUMMy",
+          "drive_name": "4sw-wk2-day4-smart-experience-action-plan.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk2-day5-individual-high-school-and-career-plan.pdf",
+          "sha256": "71e6c9b812e1196df0ccda6a9d58de2419518d2b6c6d1a0d425c9c3c115c689c",
+          "bytes": 221605,
+          "drive_file_id": "1nMykm00onTW51IFNOWk3BuYWLwnKw09x",
+          "drive_name": "4sw-wk2-day5-individual-high-school-and-career-plan.pdf"
+        }
+      ]
+    },
+    {
+      "curriculum_address": "4SW Wk3",
+      "unit_folder": {
+        "title": "SW4 · Wk3 Aviation",
+        "id": "1bg0oVZmb23VGuQb6mFkWqLn0nq8yErii"
+      },
+      "google_masters_folder_id": "1yCIHh19kJ8Y_TBGLBuVsGGW_q5cyJ9si",
+      "download_releases_folder_id": "1eyz1BA6eEFtNAoqz_XDdMrMuZow0O3wG",
+      "public_releases": [
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk3-day1-transportation-cluster-and-survey-design.pdf",
+          "sha256": "f48ddb2338b97dd8ef296ca82342a1ed06abda0329ccc1c1c002d5f5fd0597c2",
+          "bytes": 227319,
+          "drive_file_id": "14vWAckQeLgMm8gsGxzGQOF9RaWfr9fcV",
+          "drive_name": "4sw-wk3-day1-transportation-cluster-and-survey-design.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk3-day2-aviation-careers-and-pilot-preparation-routes.pdf",
+          "sha256": "4f714d78caf9761e3df0ee249ec6930a820bd73bc305ef26a822fa483f3f0bda",
+          "bytes": 208450,
+          "drive_file_id": "16soWcGL2adS5VYMk7LULQDQH1TKGfkJ4",
+          "drive_name": "4sw-wk3-day2-aviation-careers-and-pilot-preparation-routes.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk3-day3-design-a-classroom-airport-map.pdf",
+          "sha256": "749e9682cd4f7df03725c6065ae31f766ef7c382ee2013beb75d68e77ba4e40f",
+          "bytes": 218545,
+          "drive_file_id": "1t6KejdBgvUoX4YcRv2BIsrLp9Ot77AXj",
+          "drive_name": "4sw-wk3-day3-design-a-classroom-airport-map.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk3-day4-test-communicate-and-revise.pdf",
+          "sha256": "615c06965880e7458f27bcd75a3fb9847e9e7fc608e226b50d1a112519de3f9b",
+          "bytes": 214322,
+          "drive_file_id": "1WIDeRvvKBfr6iO12c7IyN8AQnHvOCYG0",
+          "drive_name": "4sw-wk3-day4-test-communicate-and-revise.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk3-day5-aviation-route-and-action-plan.pdf",
+          "sha256": "8eff9206f591da91d4b240964601bd0c510e721b041f837dc21f9cedbb7e42fb",
+          "bytes": 217269,
+          "drive_file_id": "18uVvNV5czMHs5R3ZlkuvyHsh-1kSwkIi",
+          "drive_name": "4sw-wk3-day5-aviation-route-and-action-plan.pdf"
+        }
+      ]
+    },
+    {
+      "curriculum_address": "4SW Wk4",
+      "unit_folder": {
+        "title": "SW4 · Wk4 Drone Engineering",
+        "id": "1XWy08cVovGGaAAPeQI3Y_v7pGCo86gZ-"
+      },
+      "google_masters_folder_id": "1Z-AsFN54GfWI8pQ0o7rq7vwqVVe909yq",
+      "download_releases_folder_id": "1Mn966kg4SivBrmhb6LEJQUmyfNQfyMYs",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "4SW Wk5",
+      "unit_folder": {
+        "title": "SW4 · Wk5 Automotive",
+        "id": "1B9pvJbB1ue35hwheqzy7d5r4RtqvUUgq"
+      },
+      "google_masters_folder_id": "165bCNBHr9eBZtiXzCw_MA9K3k08AvJor",
+      "download_releases_folder_id": "1p57AEmTYzKTKtmqv218-0PVD4K_allCL",
+      "public_releases": [
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk5-day1-crash-crew-visible-evidence-and-preliminary-plan.pdf",
+          "sha256": "61841d83b3471c1f99a7db7b2a48113feb2f6737332e01347521e4f50e1d2875",
+          "bytes": 205098,
+          "drive_file_id": "1wXBzxT6bUPTPNv1XFoq5WVnGzddShoHn",
+          "drive_name": "4sw-wk5-day1-crash-crew-visible-evidence-and-preliminary-plan.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk5-day2-ase-and-automotive-training-routes.pdf",
+          "sha256": "00bc6f2a6795d3deaaf81f9b6ae83020eac4496b7333cc9cdd34f46ccc6e4afc",
+          "bytes": 200445,
+          "drive_file_id": "1l_jgnpYXTuVQdl0latt_OzWzump_tDc4",
+          "drive_name": "4sw-wk5-day2-ase-and-automotive-training-routes.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk5-day3-compare-three-automotive-occupations.pdf",
+          "sha256": "d6957ac87a126f22138c6d0ac80e2bdc0d9eaabd90424142e4b44125a75f2fb5",
+          "bytes": 235194,
+          "drive_file_id": "16LvN6PzevlZKaCP_MN3jA-wFnt-AVUCc",
+          "drive_name": "4sw-wk5-day3-compare-three-automotive-occupations.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk5-day4-evaluate-automotive-training-routes.pdf",
+          "sha256": "494e40353a25c907e97f0fe6ecb400ad8e684a1a5855ef5c53c71813a1d5c87e",
+          "bytes": 212593,
+          "drive_file_id": "1dZZs_UbuxT1VRsgEqmqDhCYcs3fcRNWV",
+          "drive_name": "4sw-wk5-day4-evaluate-automotive-training-routes.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk5-day5-automotive-evidence-brief.pdf",
+          "sha256": "fe37c029d85258fe6694112435e5fb60b01f3d83ff68964176ac649b2c801b7d",
+          "bytes": 206952,
+          "drive_file_id": "1vj36lYclHJ_gLIX7UBllKAZZzLoVPpXj",
+          "drive_name": "4sw-wk5-day5-automotive-evidence-brief.pdf"
+        }
+      ]
+    },
+    {
+      "curriculum_address": "4SW Wk6",
+      "unit_folder": {
+        "title": "SW4 · Wk6 Trades Capstone",
+        "id": "1QH4_rJ880g9LrvRpIcxH4tA8sUn7Zz-i"
+      },
+      "google_masters_folder_id": "1L-_81qFztEXrX1JYGEuTqPJ3htwCHkM2",
+      "download_releases_folder_id": "1r_B-gn5pwnDPJocjE-Amschh9AFLN7xG",
+      "public_releases": [
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk6-day1-analytical-reasoning-what-the-clues-support.pdf",
+          "sha256": "9be76f75c92eaf65cb0fc720ecb601811fb059d855d31015085100b4631a297c",
+          "bytes": 213439,
+          "drive_file_id": "18C6O0xFeD7RLwwXcu5XX4l7v3VWb48sO",
+          "drive_name": "4sw-wk6-day1-analytical-reasoning-what-the-clues-support.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk6-day2-prove-that-a-skill-transfers.pdf",
+          "sha256": "caad6d5fe28206a1466e9bda31838612783bb6e0e2d3b3e813c5e1d9c0089f6f",
+          "bytes": 200998,
+          "drive_file_id": "1hecIub5lvo5ZSsYljxEISYtqvW5UTCgR",
+          "drive_name": "4sw-wk6-day2-prove-that-a-skill-transfers.pdf"
+        },
+        {
+          "source": "docs/resources/exit-tickets/4sw-wk6-day5-private-mid-year-evidence-reflection.pdf",
+          "sha256": "ced38894d5bf0c8177a43e253363ddb74e776e44e420765487aec0026d158bf3",
+          "bytes": 217576,
+          "drive_file_id": "1Lwo9QJokrzBJTuo_dHwQKJRos9qc8Rc0",
+          "drive_name": "4sw-wk6-day5-private-mid-year-evidence-reflection.pdf"
+        }
+      ]
+    },
+    {
+      "curriculum_address": "5SW Wk1",
+      "unit_folder": {
+        "title": "SW5 · Wk1 Architecture",
+        "id": "1OdddgisT6SxXWGoRLD2KO8NAX9vDaYeS"
+      },
+      "google_masters_folder_id": "1CMecGGK-wpmsK73olXDPWxBUTFtwbZeF",
+      "download_releases_folder_id": "1GpXru6H7pqMueSybnxwIzg6MULQAHoOv",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "5SW Wk2",
+      "unit_folder": {
+        "title": "SW5 · Wk2 Civil Engineering",
+        "id": "14U8UzxDomce4-Ii32Cm_VqDkEjGxqBTg"
+      },
+      "google_masters_folder_id": "1BcMqQip4ob6N-8BsPJUPEEXKgbZf4bJz",
+      "download_releases_folder_id": "1ok_qIgnhFepi4s1QBWE8yZgIzuWpTdlx",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "5SW Wk3",
+      "unit_folder": {
+        "title": "SW5 · Wk3 Construction Trades",
+        "id": "1jjueb3MAWqgD_fTqmYUZ7c9VZh-Eaxcn"
+      },
+      "google_masters_folder_id": "168vh821ESpChkHVY9oHFrd3K4Lz3z_gP",
+      "download_releases_folder_id": "1aSvjIMX9NTvMmVNO2p5jmLOhWALDcJX-",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "5SW Wk4",
+      "unit_folder": {
+        "title": "SW5 · Wk4 HVAC Electrical Plumbing",
+        "id": "1CzPN5f87_U2fa_koR56fHT-eeq0dou8G"
+      },
+      "google_masters_folder_id": "1x2EVwSqSfxNxNHYMs500G3Qfrmo_YrNn",
+      "download_releases_folder_id": "1ss9CKDiJ1qI34sTxL2fVwVzKuf2_sxd-",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "5SW Wk5",
+      "unit_folder": {
+        "title": "SW5 · Wk5 Personal Budget",
+        "id": "1wCTVMaTpoJU9ilqDw8bWqIwdBr_GjfsA"
+      },
+      "google_masters_folder_id": "1xeWYLUfHp4n6bzOi3zP_hGiKCZ1P6qIr",
+      "download_releases_folder_id": "1wxBmtj9zax05rV0qYp54j0YzlEUfs4mv",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "5SW Wk6",
+      "unit_folder": {
+        "title": "SW5 · Wk6 Real Estate",
+        "id": "14uNB1HYBqMpR9_ojm8Q2AXTSPV-I26iv"
+      },
+      "google_masters_folder_id": "1-ZUsc6IC59_gmsl1yX-wYEbpMpuCNW85",
+      "download_releases_folder_id": "16N7WZO11GcOb0jWP9KQL4EdmdKhOuOAz",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "6SW Wk1",
+      "unit_folder": {
+        "title": "SW6 · Wk1 Education",
+        "id": "1p5W-X_H85uDogShL3C2pvu-_0axBomxJ"
+      },
+      "google_masters_folder_id": "1PcFRxW5GfImDpr2EJnyEJTppFN4cshjp",
+      "download_releases_folder_id": "1J7OTBR-yP_S1M-EW-vAJM4fvo5W9RDfN",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "6SW Wk2",
+      "unit_folder": {
+        "title": "SW6 · Wk2 Graphic Design Resume",
+        "id": "1tcuWt_J1zsrf6SXWP4TLAmJrd5J5dcqX"
+      },
+      "google_masters_folder_id": "1iG50_dG6sb4dahnjpKsjipZUSs7vC6fA",
+      "download_releases_folder_id": "1GUM_b-DQCc415IyXFedv6H85Acomyn_u",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "6SW Wk3",
+      "unit_folder": {
+        "title": "SW6 · Wk3 Business Marketing",
+        "id": "120kNAhpT6n_kIQI27_SFq-CBTwu-GtLG"
+      },
+      "google_masters_folder_id": "1qJNO4o7iJSwQN3si8c4PTEPLp6JuqoDM",
+      "download_releases_folder_id": "1W6rGEYg0_PFhFoV55wovVHSnBQOjUmaZ",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "6SW Wk4",
+      "unit_folder": {
+        "title": "SW6 · Wk4 Sales Presentations",
+        "id": "1CiKhLYTju-pkyflblvVSjwGS-sErzLca"
+      },
+      "google_masters_folder_id": "1s8DMZmeTo_niJMuEoMlp7PvSMCbrlXqZ",
+      "download_releases_folder_id": "16iC0-WcWT1NJJrsQGYQCW1K2BCp_kGPz",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "6SW Wk5",
+      "unit_folder": {
+        "title": "SW6 · Wk5 Job Skills Mock Interview",
+        "id": "1JSEwcFCgDQxSpTTckQGjNAfuGDKY2KyQ"
+      },
+      "google_masters_folder_id": "1cgB9XF33QMcxhlh1zdj6koCi_702UCoI",
+      "download_releases_folder_id": "141ZGKct5LH1t7QjMvCFYT6yMpcMRLMmF",
+      "public_releases": []
+    },
+    {
+      "curriculum_address": "6SW Wk6",
+      "unit_folder": {
+        "title": "SW6 · Wk6 Capstone",
+        "id": "1UyUeB_xAGxQmxKYL1r0GxswtqeZges3O"
+      },
+      "google_masters_folder_id": "1LeDi9d33FhSzL6873IX67LHZ6IVZENce",
+      "download_releases_folder_id": "1t5U1oOjXo2StU9gCmdQ2chiki0ZPOL8N",
+      "public_releases": []
+    }
+  ]
+}

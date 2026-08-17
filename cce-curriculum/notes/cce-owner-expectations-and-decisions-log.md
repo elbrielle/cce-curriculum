@@ -26,6 +26,8 @@
 
 - Facilitator guides must include complete models, materials and quantities, realistic timing, monitoring, pivots, trims, cleanup, and recovery.
 - Slides must help a teacher teach the entire lesson rather than decorate it.
+- **Permanent daily deck contract:** every instructional deck runs from `As you enter` through the DOL. It shows materials and setup, an immediately usable Do Now/bellringer, the TEKS with a plain-language objective, one instructional action per slide, exact workbook pages or platform paths, point-of-use models and supports, work checkpoints, a visible `Done when`, and the exact DOL/closure. Longer decks are expected when they break the lesson into teachable Grade 7 moves; do not compress a lesson to reach an arbitrary slide count.
+- When a lesson uses OneNote or another student platform template, show the current real student-facing template with private data removed, numbered click/type callouts, and a complete Grade 7 model. Do not claim alignment from matching field names alone.
 - Study the linked AVID weekly decks and other strong teacher-created decks for rhythm and classroom usability.
 - Build lesson decks through the approved fixed 16:9 HTML/CSS -> PNG -> PPTX workflow.
 - Prefer real, relevant, properly sourced images over generic icons or AI-generated scenes.
@@ -50,6 +52,14 @@
 - **August 15 live decision:** course `98060` exposes a hidden external tool labeled `Office 365`, but no named `Microsoft 365 LTI`, `Microsoft Education`, or `OneNote Class Notebook` course-navigation route. That label alone does not prove a working Class Notebook integration. Monday therefore uses a pretested standalone Class Notebook only if the owner finishes and verifies it Sunday; otherwise use the complete Canvas/paper fallback without later recopying.
 - Keep large FYF/H&L files in authenticated Canvas and link to them. Do not make OneNote sync dependent on embedded PDF printouts.
 - A missing page, device, account, or sync problem must route immediately to the same Canvas or paper response; students do not later recopy work completed through the fallback.
+
+### Student tool launchers and Canvas home
+
+- A student-facing tool launcher uses the tool's recognizable official product identity. Do not replace OneNote, Hats & Ladders, or Xello with an invented notebook, hat, compass, or other substitute icon.
+- Follow the product's published brand guidance. Keep official marks on a plain high-contrast surface and do not recolor, crop, place inside decorative shapes, or add outlines, glows, or shadows.
+- Do not use the colored top/side accent-border card pattern or layered side shadows for launch links. The pattern reads as a generic generated dashboard and adds decoration without helping students navigate.
+- The Canvas course home is a launch surface, not a course explainer. It contains one obvious Modules action and the recurring course-tool links with short, literal labels.
+- Put sign-in, recovery, privacy, absence, and platform-specific directions in the daily Student Guide or the relevant recovery guide. Add only an essential sign-in cue beside a tool when students need it to enter correctly, such as `Sign in with Google` for Hats & Ladders.
 
 ### Worksheets and student artifacts
 

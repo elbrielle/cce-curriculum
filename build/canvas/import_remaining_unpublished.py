@@ -128,6 +128,7 @@ def preflight() -> int:
         ROOT / "docs/resources/worksheets",
         ROOT / "docs/resources/exit-tickets",
         ROOT / "cce-curriculum/resources/canvas-licensed",
+        CANVAS_DIR / "assets",
         CANVAS_DIR / "templates",
     )
     dependency_index = {

@@ -22,11 +22,14 @@ from configure_assessment_map import (
     SUBMISSION_LINK_MARKER,
 )
 from configure_assessment_rubrics import NOTE_MARKER, RUBRIC_PREFIX, RUBRICS
+from build_course_orientation import CLASSLINK_URL, HATS_LADDERS_URL, ONENOTE_URL
 
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
 ROOT = Path(__file__).resolve().parents[2]
 CANVAS_DIR = Path(__file__).resolve().parent
+GOOGLE_PARITY_MANIFEST = ROOT / "cce-curriculum/notes/google-workspace-parity-manifest.json"
+GOOGLE_DRIVE_STATE = ROOT / "cce-curriculum/notes/google-workspace-drive-state.json"
 BUILDERS = [
     *(CANVAS_DIR / f"build_wk{week}.py" for week in range(6)),
     *(CANVAS_DIR / f"build_2sw_wk{week}.py" for week in range(1, 7)),
@@ -105,6 +108,31 @@ def module_name(builder: Path) -> str:
 
 def expected_modules() -> list[str]:
     return [module_name(builder) for builder in BUILDERS]
+
+
+def expected_google_copy_links() -> dict[tuple[str, int], set[str]]:
+    """Return the exact Google copy links required on matching Teacher Guides."""
+
+    links: dict[tuple[str, int], set[str]] = {}
+    parity = json.loads(GOOGLE_PARITY_MANIFEST.read_text(encoding="utf-8"))
+    for artifact in parity.get("artifacts", []):
+        match = re.fullmatch(r"([1-6]SW Wk\d+) Day ([1-5])", artifact.get("curriculum_address", ""))
+        if not match:
+            continue
+        copy_url = artifact.get("drive", {}).get("native_google_file", {}).get("copy_url")
+        if isinstance(copy_url, str) and copy_url:
+            links.setdefault((match.group(1), int(match.group(2))), set()).add(copy_url)
+
+    drive_state = json.loads(GOOGLE_DRIVE_STATE.read_text(encoding="utf-8"))
+    for unit in drive_state.get("units", []):
+        address = unit.get("curriculum_address")
+        for support in unit.get("native_support_files", []):
+            if support.get("key") != "1sw-wk0-first-week-goal-setting":
+                continue
+            copy_url = support.get("copy_url")
+            if address == "1SW Wk0" and isinstance(copy_url, str) and copy_url:
+                links.setdefault((address, 1), set()).add(copy_url)
+    return links
 
 
 async def _api(client: httpx.AsyncClient, path: str) -> object:
@@ -385,6 +413,20 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
                 f"Day {teacher['day']} teacher page does not link to student page"
             )
 
+    week_key = str(module.get("name") or "").split(":", 1)[0]
+    copy_contract = expected_google_copy_links()
+    for teacher in teacher_pages:
+        day = teacher["day"]
+        if not isinstance(day, int):
+            continue
+        expected_copy_urls = copy_contract.get((week_key, day), set())
+        missing_copy_urls = sorted(expected_copy_urls - set(teacher["links"]))
+        if missing_copy_urls:
+            problems.append(
+                f"Day {day} teacher page is missing exact Google /copy links: "
+                f"{missing_copy_urls}"
+            )
+
     files: list[dict] = []
     folders: dict[int, dict] = {}
     for file_id in sorted(file_ids):
@@ -546,10 +588,15 @@ async def audit_orientation(client: httpx.AsyncClient, modules: list[dict]) -> d
             "home",
             home_page,
             (
-                "start today's lesson",
-                "how this course works",
-                "if you were absent",
-                "grades and feedback",
+                "open modules",
+                "course tools",
+                "onenote",
+                "hats & ladders",
+                "xello",
+                "sign in with google",
+                "about this course",
+                "about ms. lucero",
+                "cognitive systems",
             ),
         ),
     ):
@@ -579,14 +626,45 @@ async def audit_orientation(client: httpx.AsyncClient, modules: list[dict]) -> d
         student_url = str(student_page.get("url"))
         if not any(student_url in href for href in parsed["teacher"].links):
             problems.append("teacher launch page does not link to student orientation")
-    if student_page and home_page:
-        student_url = str(student_page.get("url"))
-        if not any(student_url in href for href in parsed["home"].links):
-            problems.append("replacement course-home page does not link to orientation")
-        if not any(
-            f"/courses/{COURSE_ID}/modules" in href for href in parsed["home"].links
+    if home_page:
+        required_home_links = {
+            "Modules": f"/courses/{COURSE_ID}/modules",
+            "OneNote": ONENOTE_URL,
+            "Hats & Ladders": HATS_LADDERS_URL,
+            "Irving ClassLink": CLASSLINK_URL,
+        }
+        for label, expected in required_home_links.items():
+            if not any(expected in href for href in parsed["home"].links):
+                problems.append(
+                    f"replacement course-home page does not link to {label}"
+                )
+        if len(parsed["home"].links) != len(required_home_links):
+            problems.append(
+                "replacement course-home page must contain exactly the Modules, "
+                "OneNote, Hats & Ladders, and Xello launch links"
+            )
+        if len(parsed["home"].images) != 4:
+            problems.append(
+                "replacement course-home page does not contain four course-tool icons"
+            )
+        for image in parsed["home"].images:
+            if "alt" not in image:
+                problems.append("replacement course-home icon is missing alt text")
+        home_text = " ".join(parsed["home"].text).lower()
+        for rejected in (
+            "four tools, four jobs",
+            "one answer should have one home",
+            "every tool has one job",
+            "load-bearing",
+            "public-safe",
+            "source-grounded",
+            "need another course page",
+            "if a tool does not open",
         ):
-            problems.append("replacement course-home page does not link to Modules")
+            if rejected in home_text:
+                problems.append(
+                    f"replacement course-home page contains rejected/internal phrase {rejected!r}"
+                )
 
     return {
         "module_id": orientation.get("id"),
