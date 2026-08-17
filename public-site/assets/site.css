@@ -192,6 +192,10 @@ h1 { margin: 0; font-size: clamp(44px, 7vw, 82px); letter-spacing: -.055em; }
 .prose blockquote { margin: 24px 0; padding: 18px 22px; border-left: 5px solid var(--md-sys-color-primary); border-radius: 0 var(--radius-m) var(--radius-m) 0; background: var(--md-sys-color-surface-container-low); }
 .prose blockquote p { margin: 0; }
 .prose code { border-radius: 6px; padding: .12em .35em; background: var(--md-sys-color-surface-container-high); }
+.unit-downloads { margin-top: 48px; padding-top: 4px; border-top: 1px solid var(--md-sys-color-outline-variant); }
+.unit-downloads ul { margin: 0; padding: 0; list-style: none; }
+.unit-downloads li { margin: 0; border-bottom: 1px solid var(--md-sys-color-outline-variant); }
+.unit-downloads a { display: block; padding: 12px 0; overflow-wrap: anywhere; }
 .admonition { margin: 24px 0; padding: 18px 22px; border-radius: 12px 28px 12px 28px; background: var(--md-sys-color-secondary-container); }
 .admonition.warning { background: var(--md-sys-color-tertiary-container); }
 .admonition-title { margin: 0 0 8px !important; font-family: Nunito, sans-serif; font-weight: 900; }
