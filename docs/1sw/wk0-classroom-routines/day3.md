@@ -8,6 +8,8 @@
 - **Demonstration of Learning:** Top work values saved in H&L, at least three Building Blocks with skills recorded on FYF pp. 9-11 and saved to the Climber Profile, plus one private value-to-experience-to-cluster connection.
 <!-- CCE DAILY CONTRACT END -->
 
+Teacher presentation: [PowerPoint file (IISD sign-in)](https://docs.google.com/presentation/d/1LrMoATV26y98z24vJuHghVZ3pNU2isCj/edit) · [Make a Google Slides copy (IISD sign-in)](https://docs.google.com/presentation/d/1UX3uGRnXlVI8TW1wbJAlS28pXy4hyfQnbvillK7xRdk/copy)
+
 ## Why this lesson comes here
 
 Yesterday's core personality result is one input, not a final answer. Today students add what they want from work and what they already do. H&L uses these inputs to begin suggesting clusters. Tomorrow students use the evidence in one My Career Journey synthesis.

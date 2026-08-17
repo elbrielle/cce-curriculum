@@ -7,6 +7,9 @@
 - **TEKS:** d(1)(C)
 - **Demonstration of Learning:** Bike rack sketch with labeled welds (FYF p. 206) + one tested prototype per pair.
 <!-- CCE DAILY CONTRACT END -->
+
+Teacher presentation: [PowerPoint file (IISD sign-in)](https://docs.google.com/presentation/d/1_lCdXmDf-BmWoMvIMfwW5m2Y80S1qQi_/edit) · [Make a Google Slides copy (IISD sign-in)](https://docs.google.com/presentation/d/1CitS3nVCE0PARMlzu3CrhUYXtNUECVJCGR3qMLXM0os/copy)
+
 ## Lesson Overview
 
 | | |

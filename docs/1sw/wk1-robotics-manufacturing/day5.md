@@ -7,6 +7,9 @@
 - **TEKS:** d(1)(A)
 - **Demonstration of Learning:** Matchmaker Phase 1 completed in Xello plus a private three-part reflection naming one surprise, one Find out why connection, and one example of an interest affecting a career match.
 <!-- CCE DAILY CONTRACT END -->
+
+Teacher presentation: [PowerPoint file (IISD sign-in)](https://docs.google.com/presentation/d/1iwoCCU5kW8lmnO6V1HW8eT-nvFSLAL_N/edit) · [Make a Google Slides copy (IISD sign-in)](https://docs.google.com/presentation/d/1p4SM7tkiSVi5ucmzAOwRm874eg1DYYCSvHLqKcrspe8/copy)
+
 ## Lesson Overview
 
 | | |

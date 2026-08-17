@@ -7,6 +7,9 @@
 - **TEKS:** d(1)(C), d(2)(A)
 - **Demonstration of Learning:** Completed Machine Breakdown Mystery checklist (FYF p. 208) + career research worksheet.
 <!-- CCE DAILY CONTRACT END -->
+
+Teacher presentation: [PowerPoint file (IISD sign-in)](https://docs.google.com/presentation/d/16boe1phbNoIondG9s1A7yZlnOqVvNCOD/edit) · [Make a Google Slides copy (IISD sign-in)](https://docs.google.com/presentation/d/1vtd-0kNO73jEQzH1c6zxrL9hAPDm7PcVrum-Nr3Zg_o/copy)
+
 ## Lesson Overview
 
 | | |

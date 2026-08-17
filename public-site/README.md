@@ -36,4 +36,4 @@ The build writes `public-site/dist/`, which is ignored locally and uploaded as t
 
 `publication-policy.json` is part of the build contract. Public pages come only from tracked Markdown under `docs/`. Linked files can be copied only from `docs/resources/`. H&L, FYF, Xello, Climber Notes, private AVID materials, and other authenticated sources remain outside the public artifact.
 
-Public-safe resources may offer both an Office download and a verified native Google `/copy` link. Authenticated or licensed materials remain in Canvas and the shared teacher Drive even when a Google master exists.
+Public-safe resources may offer both an Office download and a verified native Google `/copy` link. For authenticated teacher materials, the public lesson page may link to the IISD-restricted Drive copies, but the files themselves remain in Canvas and the shared teacher Drive rather than being copied into the public build.

@@ -51,8 +51,10 @@
         }
       },
       "public_site": {
-        "included": false,
-        "reason": "The deck is derived from private AVID source material and remains authenticated-only."
+        "included": true,
+        "link_only": true,
+        "source_pages": ["docs/1sw/wk0-classroom-routines/day1.md"],
+        "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
       },
       "qa": {
         "checked_on": "2026-08-16",
@@ -96,7 +98,7 @@
           "url": "https://docs.google.com/presentation/d/1VhMW4dNoMRz_c4zQQsbqBHFUKRs4KzkZ/edit"
         }
       },
-      "public_site": {"included": false, "reason": "The deck is derived from private AVID source material and remains authenticated-only."},
+      "public_site": {"included": true, "link_only": true, "source_pages": ["docs/1sw/wk0-classroom-routines/day2.md"], "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."},
       "qa": {"checked_on": "2026-08-16", "native_render_count": 16, "native_notes_page_count": 16, "all_native_slides_visually_compared": true, "mr_lucero_hits": 0, "notes": "Native Google conversion preserves the approved Day 2 slide order, 16:9 page size, instructional content, images, and speaker notes."}
     },
     {
@@ -132,7 +134,7 @@
           "url": "https://docs.google.com/presentation/d/1LrMoATV26y98z24vJuHghVZ3pNU2isCj/edit"
         }
       },
-      "public_site": {"included": false, "reason": "The deck is derived from private AVID source material and remains authenticated-only."},
+      "public_site": {"included": true, "link_only": true, "source_pages": ["docs/1sw/wk0-classroom-routines/day3.md"], "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."},
       "qa": {"checked_on": "2026-08-16", "native_render_count": 16, "native_notes_page_count": 16, "all_native_slides_visually_compared": true, "mr_lucero_hits": 0, "notes": "Native Google conversion preserves the approved Day 3 slide order, 16:9 page size, instructional content, images, and speaker notes."}
     },
     {
@@ -168,7 +170,7 @@
           "url": "https://docs.google.com/presentation/d/1RAg9vXCswPPRyvOGWTP64Ertd4WhXuCV/edit"
         }
       },
-      "public_site": {"included": false, "reason": "The deck is derived from private AVID source material and remains authenticated-only."},
+      "public_site": {"included": true, "link_only": true, "source_pages": ["docs/1sw/wk0-classroom-routines/day4.md"], "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."},
       "qa": {"checked_on": "2026-08-16", "native_render_count": 13, "native_notes_page_count": 13, "all_native_slides_visually_compared": true, "mr_lucero_hits": 0, "notes": "Native Google conversion preserves the approved Day 4 slide order, 16:9 page size, instructional content, images, and speaker notes."}
     },
     {
@@ -204,7 +206,7 @@
           "url": "https://docs.google.com/presentation/d/1r7O54RQRcYwyAXdJKF5wqbzocuRtKtRZ/edit"
         }
       },
-      "public_site": {"included": false, "reason": "The deck is derived from private AVID source material and remains authenticated-only."},
+      "public_site": {"included": true, "link_only": true, "source_pages": ["docs/1sw/wk0-classroom-routines/day5.md"], "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."},
       "qa": {"checked_on": "2026-08-16", "native_render_count": 15, "native_notes_page_count": 15, "all_native_slides_visually_compared": true, "mr_lucero_hits": 0, "notes": "Native Google conversion preserves the approved Day 5 slide order, 16:9 page size, instructional content, images, and speaker notes."}
     },
     {
@@ -222,7 +224,7 @@
         "native_google_file": {"id": "1MXWQz3WG6rGP1v_PVja9_l4VNNNckHwPJqcTrg7nnJc", "mime_type": "application/vnd.google-apps.presentation", "edit_url": "https://docs.google.com/presentation/d/1MXWQz3WG6rGP1v_PVja9_l4VNNNckHwPJqcTrg7nnJc/edit", "copy_url": "https://docs.google.com/presentation/d/1MXWQz3WG6rGP1v_PVja9_l4VNNNckHwPJqcTrg7nnJc/copy", "slide_count": 15, "page_size_points": {"width": 720, "height": 405}, "revision_id_at_check": "eU1ZvnJ7m7ycSw", "sharing": "iis-d-domain-reader"},
         "office_release": {"id": "11rOtouMj1mn240luaQtvjmKBVspLOvht", "name": "CCE 1SW Wk1 Day 1 — CTE and Manufacturing Cluster Tour.pptx", "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation", "url": "https://docs.google.com/presentation/d/11rOtouMj1mn240luaQtvjmKBVspLOvht/edit"}
       },
-      "public_site": {"included": false, "reason": "The deck is derived from private AVID source material and remains authenticated-only."},
+      "public_site": {"included": true, "link_only": true, "source_pages": ["docs/1sw/wk1-robotics-manufacturing/day1.md"], "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."},
       "qa": {"checked_on": "2026-08-16", "native_render_count": 15, "native_notes_page_count": 15, "all_native_slides_visually_compared": true, "mr_lucero_hits": 0, "notes": "All native thumbnails were checked against the approved source deck; slide order, 16:9 layout, content, images, and speaker notes are present."}
     },
     {
@@ -240,7 +242,7 @@
         "native_google_file": {"id": "1vtd-0kNO73jEQzH1c6zxrL9hAPDm7PcVrum-Nr3Zg_o", "mime_type": "application/vnd.google-apps.presentation", "edit_url": "https://docs.google.com/presentation/d/1vtd-0kNO73jEQzH1c6zxrL9hAPDm7PcVrum-Nr3Zg_o/edit", "copy_url": "https://docs.google.com/presentation/d/1vtd-0kNO73jEQzH1c6zxrL9hAPDm7PcVrum-Nr3Zg_o/copy", "slide_count": 16, "page_size_points": {"width": 720, "height": 405}, "revision_id_at_check": "VkOTKIuWzcDpUA", "sharing": "iis-d-domain-reader"},
         "office_release": {"id": "16boe1phbNoIondG9s1A7yZlnOqVvNCOD", "name": "CCE 1SW Wk1 Day 2 — Machine Breakdown and Career Research.pptx", "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation", "url": "https://docs.google.com/presentation/d/16boe1phbNoIondG9s1A7yZlnOqVvNCOD/edit"}
       },
-      "public_site": {"included": false, "reason": "The deck is derived from private AVID source material and remains authenticated-only."},
+      "public_site": {"included": true, "link_only": true, "source_pages": ["docs/1sw/wk1-robotics-manufacturing/day2.md"], "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."},
       "qa": {"checked_on": "2026-08-16", "native_render_count": 16, "native_notes_page_count": 16, "all_native_slides_visually_compared": true, "mr_lucero_hits": 0, "notes": "All native thumbnails were checked against the approved source deck; slide order, 16:9 layout, content, images, and speaker notes are present."}
     },
     {
@@ -258,7 +260,7 @@
         "native_google_file": {"id": "1CitS3nVCE0PARMlzu3CrhUYXtNUECVJCGR3qMLXM0os", "mime_type": "application/vnd.google-apps.presentation", "edit_url": "https://docs.google.com/presentation/d/1CitS3nVCE0PARMlzu3CrhUYXtNUECVJCGR3qMLXM0os/edit", "copy_url": "https://docs.google.com/presentation/d/1CitS3nVCE0PARMlzu3CrhUYXtNUECVJCGR3qMLXM0os/copy", "slide_count": 16, "page_size_points": {"width": 720, "height": 405}, "revision_id_at_check": "XYnNC2n-GfSAPQ", "sharing": "iis-d-domain-reader"},
         "office_release": {"id": "1_lCdXmDf-BmWoMvIMfwW5m2Y80S1qQi_", "name": "CCE 1SW Wk1 Day 3 — Super Sports Manufacturing.pptx", "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation", "url": "https://docs.google.com/presentation/d/1_lCdXmDf-BmWoMvIMfwW5m2Y80S1qQi_/edit"}
       },
-      "public_site": {"included": false, "reason": "The deck is derived from private AVID source material and remains authenticated-only."},
+      "public_site": {"included": true, "link_only": true, "source_pages": ["docs/1sw/wk1-robotics-manufacturing/day3.md"], "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."},
       "qa": {"checked_on": "2026-08-16", "native_render_count": 16, "native_notes_page_count": 16, "all_native_slides_visually_compared": true, "mr_lucero_hits": 0, "notes": "All native thumbnails were checked against the approved source deck; slide order, 16:9 layout, content, images, and speaker notes are present."}
     },
     {
@@ -276,7 +278,7 @@
         "native_google_file": {"id": "1GYSBSsstct9tie6914jUbwrs_YI_igD-PKajtvU2xIo", "mime_type": "application/vnd.google-apps.presentation", "edit_url": "https://docs.google.com/presentation/d/1GYSBSsstct9tie6914jUbwrs_YI_igD-PKajtvU2xIo/edit", "copy_url": "https://docs.google.com/presentation/d/1GYSBSsstct9tie6914jUbwrs_YI_igD-PKajtvU2xIo/copy", "slide_count": 13, "page_size_points": {"width": 720, "height": 405}, "revision_id_at_check": "0lqO5GRUo8331A", "sharing": "iis-d-domain-reader"},
         "office_release": {"id": "13RbIK0yDGiNN_eoAOd10gHnsF8KtXf_N", "name": "CCE 1SW Wk1 Day 4 — Robots for Crayons.pptx", "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation", "url": "https://docs.google.com/presentation/d/13RbIK0yDGiNN_eoAOd10gHnsF8KtXf_N/edit"}
       },
-      "public_site": {"included": false, "reason": "The deck is derived from private AVID source material and remains authenticated-only."},
+      "public_site": {"included": true, "link_only": true, "source_pages": ["docs/1sw/wk1-robotics-manufacturing/day4.md"], "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."},
       "qa": {"checked_on": "2026-08-16", "native_render_count": 13, "native_notes_page_count": 13, "all_native_slides_visually_compared": true, "mr_lucero_hits": 0, "notes": "All native thumbnails were checked against the approved source deck; slide order, 16:9 layout, content, images, and speaker notes are present."}
     },
     {
@@ -294,7 +296,7 @@
         "native_google_file": {"id": "1p4SM7tkiSVi5ucmzAOwRm874eg1DYYCSvHLqKcrspe8", "mime_type": "application/vnd.google-apps.presentation", "edit_url": "https://docs.google.com/presentation/d/1p4SM7tkiSVi5ucmzAOwRm874eg1DYYCSvHLqKcrspe8/edit", "copy_url": "https://docs.google.com/presentation/d/1p4SM7tkiSVi5ucmzAOwRm874eg1DYYCSvHLqKcrspe8/copy", "slide_count": 15, "page_size_points": {"width": 720, "height": 405}, "revision_id_at_check": "t7xw6tNlg6jb8Q", "sharing": "iis-d-domain-reader"},
         "office_release": {"id": "1iwoCCU5kW8lmnO6V1HW8eT-nvFSLAL_N", "name": "CCE 1SW Wk1 Day 5 — Matchmaker and Manufacturing Reflection.pptx", "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation", "url": "https://docs.google.com/presentation/d/1iwoCCU5kW8lmnO6V1HW8eT-nvFSLAL_N/edit"}
       },
-      "public_site": {"included": false, "reason": "The deck is derived from private AVID source material and remains authenticated-only."},
+      "public_site": {"included": true, "link_only": true, "source_pages": ["docs/1sw/wk1-robotics-manufacturing/day5.md"], "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."},
       "qa": {"checked_on": "2026-08-16", "native_render_count": 15, "native_notes_page_count": 15, "all_native_slides_visually_compared": true, "mr_lucero_hits": 0, "notes": "All native thumbnails were checked against the approved source deck; slide order, 16:9 layout, content, images, and speaker notes are present."}
     }
   ]

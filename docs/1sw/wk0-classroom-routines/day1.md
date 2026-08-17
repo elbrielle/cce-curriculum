@@ -8,6 +8,8 @@
 - **Demonstration of Learning:** A private first-week CCE goal entry that names the goal, why it matters, one specific action, when or at which checkpoint the action will happen, confidence from 1-5, and one accountability or recovery support.
 <!-- CCE DAILY CONTRACT END -->
 
+Teacher presentation: [PowerPoint file (IISD sign-in)](https://docs.google.com/presentation/d/1-RN8FAQcE25IlzlutDP3I4qQPi6MOReH/edit) · [Make a Google Slides copy (IISD sign-in)](https://docs.google.com/presentation/d/1xFcSPWu2qyQnNcihzHFpubHbVU_MCT1bX3fjEq-NQQQ/copy)
+
 ## Why this lesson comes first
 
 This opening lesson gives students one dependable place for short thinking, focused notes, and reflection before the Hats & Ladders sequence begins.

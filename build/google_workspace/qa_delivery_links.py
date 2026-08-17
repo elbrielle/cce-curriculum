@@ -58,6 +58,7 @@ def main() -> None:
         require(key not in keys, f"duplicate artifact key {key}")
         keys.add(key)
         copy_url = artifact["drive"]["native_google_file"]["copy_url"]
+        office_url = artifact["drive"]["office_release"]["url"]
         expected_canvas.add(copy_url)
         require(copy_url in canvas_text, f"{key}: /copy link is missing from Canvas source")
         public = artifact["public_site"]
@@ -67,12 +68,16 @@ def main() -> None:
             require(isinstance(source_pages, list) and source_pages, f"{key}: public source pages are missing")
             for source_page in source_pages:
                 source_path = safe_path(source_page, f"{key} public source page")
-                require(copy_url in source_path.read_text(encoding="utf-8"), f"{key}: /copy link is missing from public source page")
+                source_text = source_path.read_text(encoding="utf-8")
+                require(copy_url in source_text, f"{key}: /copy link is missing from public source page")
+                require(office_url in source_text, f"{key}: PowerPoint release link is missing from public source page")
                 output = site_outputs.get(source_page)
                 require(isinstance(output, str), f"{key}: public source page is absent from site manifest")
                 built_path = ROOT / "public-site/dist" / output
                 require(built_path.is_file(), f"{key}: built public page is missing")
-                require(copy_url in built_path.read_text(encoding="utf-8"), f"{key}: /copy link is missing from built public page")
+                built_text = built_path.read_text(encoding="utf-8")
+                require(copy_url in built_text, f"{key}: /copy link is missing from built public page")
+                require(office_url in built_text, f"{key}: PowerPoint release link is missing from built public page")
         else:
             require(copy_url not in public_source_text, f"{key}: authenticated /copy link leaked into public source")
             require(copy_url not in built_html_text, f"{key}: authenticated /copy link leaked into built public site")

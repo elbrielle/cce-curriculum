@@ -59,8 +59,12 @@
             "url": "https://docs.google.com/presentation/d/1-RN8FAQcE25IlzlutDP3I4qQPi6MOReH/edit"
           },
           "public_site": {
-            "included": false,
-            "reason": "The deck is derived from private AVID source material and remains authenticated-only."
+            "included": true,
+            "link_only": true,
+            "source_pages": [
+              "docs/1sw/wk0-classroom-routines/day1.md"
+            ],
+            "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
           }
         },
         {
@@ -91,8 +95,12 @@
             "url": "https://docs.google.com/presentation/d/1VhMW4dNoMRz_c4zQQsbqBHFUKRs4KzkZ/edit"
           },
           "public_site": {
-            "included": false,
-            "reason": "The deck is derived from private AVID source material and remains authenticated-only."
+            "included": true,
+            "link_only": true,
+            "source_pages": [
+              "docs/1sw/wk0-classroom-routines/day2.md"
+            ],
+            "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
           }
         },
         {
@@ -123,8 +131,12 @@
             "url": "https://docs.google.com/presentation/d/1LrMoATV26y98z24vJuHghVZ3pNU2isCj/edit"
           },
           "public_site": {
-            "included": false,
-            "reason": "The deck is derived from private AVID source material and remains authenticated-only."
+            "included": true,
+            "link_only": true,
+            "source_pages": [
+              "docs/1sw/wk0-classroom-routines/day3.md"
+            ],
+            "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
           }
         },
         {
@@ -155,8 +167,12 @@
             "url": "https://docs.google.com/presentation/d/1RAg9vXCswPPRyvOGWTP64Ertd4WhXuCV/edit"
           },
           "public_site": {
-            "included": false,
-            "reason": "The deck is derived from private AVID source material and remains authenticated-only."
+            "included": true,
+            "link_only": true,
+            "source_pages": [
+              "docs/1sw/wk0-classroom-routines/day4.md"
+            ],
+            "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
           }
         },
         {
@@ -187,8 +203,12 @@
             "url": "https://docs.google.com/presentation/d/1r7O54RQRcYwyAXdJKF5wqbzocuRtKtRZ/edit"
           },
           "public_site": {
-            "included": false,
-            "reason": "The deck is derived from private AVID source material and remains authenticated-only."
+            "included": true,
+            "link_only": true,
+            "source_pages": [
+              "docs/1sw/wk0-classroom-routines/day5.md"
+            ],
+            "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
           }
         }
       ],
@@ -272,8 +292,12 @@
             "url": "https://docs.google.com/presentation/d/11rOtouMj1mn240luaQtvjmKBVspLOvht/edit"
           },
           "public_site": {
-            "included": false,
-            "reason": "The deck is derived from private AVID source material and remains authenticated-only."
+            "included": true,
+            "link_only": true,
+            "source_pages": [
+              "docs/1sw/wk1-robotics-manufacturing/day1.md"
+            ],
+            "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
           }
         },
         {
@@ -304,8 +328,12 @@
             "url": "https://docs.google.com/presentation/d/16boe1phbNoIondG9s1A7yZlnOqVvNCOD/edit"
           },
           "public_site": {
-            "included": false,
-            "reason": "The deck is derived from private AVID source material and remains authenticated-only."
+            "included": true,
+            "link_only": true,
+            "source_pages": [
+              "docs/1sw/wk1-robotics-manufacturing/day2.md"
+            ],
+            "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
           }
         },
         {
@@ -336,8 +364,12 @@
             "url": "https://docs.google.com/presentation/d/1_lCdXmDf-BmWoMvIMfwW5m2Y80S1qQi_/edit"
           },
           "public_site": {
-            "included": false,
-            "reason": "The deck is derived from private AVID source material and remains authenticated-only."
+            "included": true,
+            "link_only": true,
+            "source_pages": [
+              "docs/1sw/wk1-robotics-manufacturing/day3.md"
+            ],
+            "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
           }
         },
         {
@@ -368,8 +400,12 @@
             "url": "https://docs.google.com/presentation/d/13RbIK0yDGiNN_eoAOd10gHnsF8KtXf_N/edit"
           },
           "public_site": {
-            "included": false,
-            "reason": "The deck is derived from private AVID source material and remains authenticated-only."
+            "included": true,
+            "link_only": true,
+            "source_pages": [
+              "docs/1sw/wk1-robotics-manufacturing/day4.md"
+            ],
+            "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
           }
         },
         {
@@ -400,8 +436,12 @@
             "url": "https://docs.google.com/presentation/d/1iwoCCU5kW8lmnO6V1HW8eT-nvFSLAL_N/edit"
           },
           "public_site": {
-            "included": false,
-            "reason": "The deck is derived from private AVID source material and remains authenticated-only."
+            "included": true,
+            "link_only": true,
+            "source_pages": [
+              "docs/1sw/wk1-robotics-manufacturing/day5.md"
+            ],
+            "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
           }
         }
       ],
