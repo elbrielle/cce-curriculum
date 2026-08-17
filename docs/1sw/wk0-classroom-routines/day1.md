@@ -14,7 +14,7 @@ This opening lesson gives students one dependable place for short thinking, focu
 
 Use the notebook for short thinking, focused notes, and reflection. Canvas remains the daily starting point, and students complete FYF, Hats & Ladders, and Xello work in those tools. Do not require duplicate copies.
 
-Monday's goal entry adapts Jenna Hainlen's teacher-created `AVID First Week Goal-Setting Sheet` for Grade 7 CCE. Students record one goal, why it matters, a specific action, a scheduled checkpoint, a confidence check, and a person or resource that can help. Do not collect grades from other classes, count planner entries, score supplies, or require a signature.
+Monday's goal entry adapts a teacher-created AVID first-week goal-setting sheet for Grade 7 CCE. Students record one goal, why it matters, a specific action, a scheduled checkpoint, a confidence check, and a person or resource that can help. Do not collect grades from other classes, count planner entries, score supplies, or require a signature.
 
 ## Before students arrive
 
@@ -67,16 +67,22 @@ Students may use a spiral notebook, composition notebook, binder section, or tea
 
 ## Fifty-minute flow
 
-### 1. Welcome to CCE -- 5 minutes
+### 1. As students enter and Do Now -- 5 minutes
 
-Project the Day 1 Student Guide and model the routine:
+Students open the Day 1 Student Guide in Canvas. Project this prompt from the Day 1 deck:
+
+> You are starting a new class. What is one thing a student can do to make the first week go well?
+>
+> **Sentence stem:** A student can _____.
+
+Hold silent think time. Students may share one answer with a partner or keep the response private. Use the final minutes to model the daily routine:
 
 1. Start in Canvas.
 2. Open the activity named in today's directions.
 3. Use the notebook only when the directions ask for a note or reflection.
 4. Turn in only the work named in the guide.
 
-Say: **"Start in Canvas. Today's guide will tell you what to open and what to complete."**
+Connect the Do Now to the goal page: one useful first-week habit becomes a specific action and checkpoint later in the lesson.
 
 ### 2. Locate the course tools -- 8 minutes
 
@@ -100,7 +106,7 @@ Use **Canvas response** or **paper page** as the recovery choice. A student who 
 
 ### 4. First-week CCE goal -- 17 minutes
 
-Use the same field order as Hainlen's goal-setting sheet. Students respond privately under these headings:
+Use the same field order as the source goal-setting sheet. Students respond privately under these headings:
 
 1. **My first-week CCE goal**
 2. **Why this goal matters to me**
@@ -126,7 +132,7 @@ Students may use a fictional or course-only goal. Do not require disclosure abou
 > **Action:** Try harder later.<br>
 > **Confidence:** 5
 
-Ask what is missing: a visible action, a real checkpoint, and a support or recovery route. Keep Hainlen's time-management move: make the plan smaller and more specific instead of telling the student to want it more.
+Ask what is missing: a visible action, a real checkpoint, and a support or recovery route. Keep the source time-management move: make the plan smaller and more specific instead of telling the student to want it more.
 
 **Look-for:** by minute 38, every goal has an action and a checkpoint. If one third of the class is still writing vague goals, pause and revise one anonymous example together.
 
@@ -163,7 +169,8 @@ If time is lost, shorten the four-tool tour and partner check. Protect the noteb
 
 ## Source notes
 
-- Jenna Hainlen, `AVID 26-27 Skills Check`, especially `AVID First Week Goal-Setting Sheet` -- goal sequence and accountability design.
-- Jenna Hainlen, Week 1.3 `Time Management` -- revise vague intentions into a small, specific, scheduled, realistic action.
+- Teacher-created AVID first-week goal-setting materials -- goal sequence and accountability design.
+- Teacher-created AVID Week 1 slides -- silent Think followed by partner sharing, adapted to a partner-or-private first-week prompt.
+- Teacher-created AVID time-management materials -- revise vague intentions into a small, specific, scheduled, realistic action.
 - Microsoft Support, Class Notebook creation, web tools, and page distribution guidance -- current OneNote architecture and recovery boundaries. Direct links are listed in **Before students arrive**.
 - Microsoft Learn, Microsoft 365 LTI deployment and migration guidance for Canvas -- current integration name and the September 17, 2026 retirement boundary for classic OneNote Class Notebook LTI 1.1. District administrators control installation and migration.

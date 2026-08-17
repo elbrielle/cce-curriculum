@@ -103,9 +103,9 @@ SOURCE_CONTRACT_RE = re.compile(
 
 OVERRIDES = {
     "docs/1sw/wk0-classroom-routines/day1.md": {
-        "topic": "Lab Routines",
+        "topic": "CCE Notebook and Goal-Setting",
         "teks": "d(4)(A)",
-        "objective": "Students will demonstrate time-management and goal-setting strategies by learning the lab routines, confirming course access, and recording an after-high-school goal.",
+        "objective": "Students will demonstrate time-management and goal-setting strategies by setting up a retrievable CCE notebook, locating the course tools, and planning one specific first-week action.",
     },
     "docs/3sw/wk1-vet-science/day4.md": {
         "topic": "Transferable Skills",
