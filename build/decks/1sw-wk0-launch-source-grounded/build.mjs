@@ -19,10 +19,6 @@ const outputPath = path.join(
 const previewDir = path.join(workspace, "final-preview");
 const layoutDir = path.join(workspace, "final-layout");
 const goalImagePath = path.join(root, "tmp/cce-first-week-goal-render-20260815-v3/page-1.png");
-const day2RouteImagePath = path.join(
-  root,
-  "cce-curriculum/resources/canvas-licensed/1sw/wk0/day2/open-hats-and-ladders-discover-your-core.png",
-);
 
 const { FileBlob, PresentationFile } = await importRuntimeModule("@oai/artifact-tool");
 await fs.mkdir(path.dirname(outputPath), { recursive: true });
@@ -68,29 +64,32 @@ setText(1, "AVID 2\nMs. Hainlen", "Career & College Explorations\nMr. Lucero");
 setText(2, "Friday", "Monday");
 
 setText(3, "Pencil\nGet out any school supplies you brought for this class\nGet ready to share an answer ——> ", "Chromebook\nFind Your Future workbook\nOpen Canvas: Day 1 Student Guide\nChoose partner-share or private response");
-setText(3, "Set up Binders & Planners", "Find the four CCE tools\nBuild, save, and reopen your notebook goal");
-const day2RouteImage = presentation.resolve(recordFor("image", 3).id);
-const day2Frame = day2RouteImage.frame;
-const day2Crop = day2RouteImage.crop;
-const day2Geometry = day2RouteImage.geometry;
-const day2BorderRadius = day2RouteImage.borderRadius;
-day2RouteImage.replace({
-  blob: await fs.readFile(day2RouteImagePath),
+setParagraphs(3, "Set up Binders & Planners", [
+  { runs: [{ run: "TEKS d(4)(A): ", textStyle: { bold: true, fontSize: "14pt" } }, { run: "Set up a notebook you can reopen and plan one action for this week.", textStyle: { fontSize: "14pt" } }] },
+  { spaceBefore: 6, runs: [{ run: "Today: ", textStyle: { bold: true, fontSize: "14pt" } }, { run: "Find the guide and tools → set up the notebook → make a goal → save and reopen the page.", textStyle: { fontSize: "14pt" } }] },
+]);
+const agendaImage = presentation.resolve(recordFor("image", 3).id);
+const agendaFrame = agendaImage.frame;
+const agendaCrop = agendaImage.crop;
+const agendaGeometry = agendaImage.geometry;
+const agendaBorderRadius = agendaImage.borderRadius;
+agendaImage.replace({
+  blob: await fs.readFile(goalImagePath),
   contentType: "image/png",
-  alt: "Hats & Ladders Climber Profile route showing Discover Your Core",
+  alt: "CCE first-week goal page used during today's lesson",
   fit: "contain",
 });
-day2RouteImage.frame = day2Frame;
-day2RouteImage.crop = day2Crop;
-day2RouteImage.fit = "contain";
-day2RouteImage.geometry = day2Geometry;
-day2RouteImage.borderRadius = day2BorderRadius;
+agendaImage.frame = agendaFrame;
+agendaImage.crop = agendaCrop;
+agendaImage.fit = "contain";
+agendaImage.geometry = agendaGeometry;
+agendaImage.borderRadius = agendaBorderRadius;
 
-setText(4, "Think", "Think");
-setText(4, "What are some behaviors that successful students do?\n", "What makes a class workspace easy to find and use again tomorrow?");
+setText(4, "Think", "Do Now");
+setText(4, "What are some behaviors that successful students do?\n", "You are starting a new class. What is one thing a student can do to make the first week go well?\n\nSentence stem: A student can _____.");
 
 setText(5, "stand-share-sit", "Share or stay private");
-setText(5, "Everyone stand.\n\nShare with your partner: What are some behaviors that successful students do?\n\nOnce you share, sit down. \n", "Choose one route:\n\nShare with a partner: one thing that helps you find classwork again.\n\nOr write your answer privately. Sitting or standing are both fine.");
+setText(5, "Everyone stand.\n\nShare with your partner: What are some behaviors that successful students do?\n\nOnce you share, sit down. \n", "Choose one route:\n\nShare one answer with a partner.\n\nOr keep your response private. Sitting or standing are both fine.");
 
 setText(6, "Let’s Set Up your Binders!", "Choose Your CCE Notebook");
 setParagraphs(6, "Get out your 3 ring binder & tabs OR your folders for class.\nYou need: \nYour first AND last name on the front of binder/folders. (I have sharpies you can borrow.)\nYour 8 tabs or folders labeled with each of your class names. (Example: Write “English” on the tab and not “1st period”)\nAll of your AVID papers 3-hole punched and in the AVID section.\nSecure all your papers in your binder. No papers should be loose.\nExtra Notebook paper (or spiral notebook) at the front.\nPencils & highlighters should be in a designated spot. (either in a pencil pouch or a specific pocket of your backpack)", [
@@ -148,7 +147,7 @@ goalImage.geometry = oldGeometry;
 goalImage.borderRadius = oldBorderRadius;
 
 setText(10, "Think", "Make it small and specific");
-setText(10, "What are some behaviors that successful students do?\n", "What is one CCE action you can actually complete by Friday?\n\nExamples: read every H&L question carefully • ask about one unclear word • finish one missing profile step • reopen my notebook page without help");
+setText(10, "What are some behaviors that successful students do?\n", "Choose one goal you can complete by Friday.\n\nExamples: read every H&L question carefully • ask when a word or direction is unclear • reopen today’s goal page without a new link • choose another goal for this class");
 
 setText(11, "Let’s write!", "Complete model");
 setText(11, "Seat 1- Writer", "Goal → action → checkpoint");
@@ -218,26 +217,26 @@ const noteSets = [
   }),
   noteBlock({
     timing: "0:30-5:00.",
-    move: "Model the daily routine: start in Canvas, open the activity named in the directions, use the notebook only when directed, and turn in only the named work.",
-    action: "Open the Canvas Day 1 Student Guide and locate FYF/H&L, Xello, and the chosen notebook route without starting later tasks.",
-    lookFor: "By minute 5, at least 80% can point to the Student Guide and name the job of each tool.",
+    move: "Review the TEKS-linked objective and agenda: find today’s directions and tools, set up and test the notebook, make one first-week goal, then save and reopen the page.",
+    action: "Open the Canvas Day 1 Student Guide and prepare the Chromebook and FYF workbook.",
+    lookFor: "By minute 5, at least 80% have the Student Guide open and can name the next step on the agenda.",
     pivot: "If fewer than 80% can locate the guide, model the route once from the student view and have students mirror it.",
     recovery: "Use the projected map and paper/FYF materials if a login fails; record the account issue for later.",
     sources: ["Jenna Hainlen, AVID Week 1.2 slide 43, Welcome/Get Ready/Today's Lesson choreography.", "CCE Day 1, Welcome to CCE."],
   }),
   noteBlock({
     timing: "5:00-7:00.",
-    move: "Give silent think time and accept a one-word retrieval feature; do not judge organization or handwriting.",
-    action: "Think or write privately about one feature that makes work easy to find tomorrow.",
-    lookFor: "Every student has one idea such as a clear title, date, section, folder, or consistent starting page.",
-    pivot: "If students stall, point to the title/date/section examples on the next setup slides.",
+    move: "Preserve the source slide’s silent Think routine. Ask what one thing a student can do to make the first week in a new class go well.",
+    action: "Think of one concrete action. Use the stem ‘A student can _____.’ if helpful.",
+    lookFor: "Students name an action such as ask a question, read the directions, try the activity, or ask for help.",
+    pivot: "If students stall, reread the stem and accept a one-word action before moving to partner or private response.",
     recovery: "Accept pointing, dictation, AAC, or an oral response to the teacher instead of writing.",
     sources: ["Jenna Hainlen, AVID Week 1.2 slide 14, private Think routine."],
   }),
   noteBlock({
     timing: "7:00-9:00.",
-    move: "Offer seated sharing, standing sharing, or private writing as equal routes.",
-    action: "Share one retrieval feature with a partner or record it privately.",
+    move: "Preserve Jenna’s partner-share rhythm while keeping seated and private participation equal.",
+    action: "Share one first-week action with a partner or keep the response private.",
     lookFor: "Every student chooses a route; no one is waiting for permission to remain seated or private.",
     pivot: "If movement is distracting or inaccessible, keep the entire class seated and use partner or private responses.",
     recovery: "Accept a teacher check, written response, or AAC response; never require public disclosure.",
@@ -281,8 +280,8 @@ const noteSets = [
   }),
   noteBlock({
     timing: "27:00-30:00.",
-    move: "Think aloud while shrinking one vague intention into a specific action and checkpoint.",
-    action: "Choose one CCE action that can actually be completed by Friday.",
+    move: "Think aloud while shrinking one vague intention into a specific action and checkpoint. Read the concrete first-week choices before students select or adapt one.",
+    action: "Choose one goal for this class that can be completed by Friday.",
     lookFor: "Students name an observable action rather than a wish such as 'do better.'",
     pivot: "If many goals remain vague, revise one anonymous example with the class before students write independently.",
     recovery: "Offer the three projected examples and permit a fictional course goal without personal disclosure.",
