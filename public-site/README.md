@@ -6,6 +6,7 @@ This is the generated, public-safe planning mirror for Career and College Explor
 
 - **Canvas remains the classroom.** Teacher and Student Guides, assignments, authenticated links, and licensed files stay there.
 - **GitHub Pages is the planning mirror.** It exposes the 36-week sequence, public lesson plans, and only the public resources those pages actually link.
+- **Google Drive is the teacher distribution mirror.** Unit folders hold native Google masters and matching Office downloads. Drive edits are reconciled back into the tracked source before they become curriculum changes.
 - **The build fails closed.** A missing local link, an outside-`docs/resources` binary, or a protected path stops generation.
 - **Module IDs are recorded, lesson item IDs are not invented.** `data/module-identities.json` contains the verified 36 Canvas module IDs. A future secure read-only Canvas export can add immutable lesson-item identities without changing the public content model.
 
@@ -34,3 +35,5 @@ The build writes `public-site/dist/`, which is ignored locally and uploaded as t
 ## Publication policy
 
 `publication-policy.json` is part of the build contract. Public pages come only from tracked Markdown under `docs/`. Linked files can be copied only from `docs/resources/`. H&L, FYF, Xello, Climber Notes, private AVID materials, and other authenticated sources remain outside the public artifact.
+
+Public-safe resources may offer both an Office download and a verified native Google `/copy` link. Authenticated or licensed materials remain in Canvas and the shared teacher Drive even when a Google master exists.

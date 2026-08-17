@@ -36,6 +36,7 @@ SUPPORT_UPLOADS = {
     "cce-week1-day4-source-grounded.pptx": DECK_ROOT / "cce-week1-day4-source-grounded.pptx",
     "cce-week1-day5-source-grounded.pptx": DECK_ROOT / "cce-week1-day5-source-grounded.pptx",
     "cce-first-week-goal-setting.pdf": ROOT / "docs/resources/worksheets/cce-first-week-goal-setting.pdf",
+    "cce-first-week-goal-setting.docx": ROOT / "docs/resources/worksheets/cce-first-week-goal-setting.docx",
     "building-blocks-word-bank.pdf": ROOT / "docs/resources/worksheets/building-blocks-word-bank.pdf",
     "building-blocks-word-bank-bilingual.pdf": ROOT / "docs/resources/worksheets/building-blocks-word-bank-bilingual.pdf",
     "my-career-journey.pdf": ROOT / "docs/resources/worksheets/my-career-journey.pdf",
@@ -43,6 +44,14 @@ SUPPORT_UPLOADS = {
     "my-career-journey-bilingual.pdf": ROOT / "docs/resources/worksheets/my-career-journey-bilingual.pdf",
     "wk0-career-journey-rubric.pdf": ROOT / "docs/resources/worksheets/wk0-career-journey-rubric.pdf",
 }
+GOOGLE_DECK_COPY_URLS = {
+    1: "https://docs.google.com/presentation/d/1xFcSPWu2qyQnNcihzHFpubHbVU_MCT1bX3fjEq-NQQQ/copy",
+    2: "https://docs.google.com/presentation/d/13hsWv5_pShfI0bzmxAgaLLREGLGvM_Nwscpnph5WLKo/copy",
+    3: "https://docs.google.com/presentation/d/1UX3uGRnXlVI8TW1wbJAlS28pXy4hyfQnbvillK7xRdk/copy",
+    4: "https://docs.google.com/presentation/d/1aQm3ndpwRZ09E_jJNjzIZ46GaNpdWEC8FY2Er7Y90y4/copy",
+    5: "https://docs.google.com/presentation/d/1NCK6fm2PLEI1w-fJAKqF5moIloAVN1oq0Sg2FKRK49c/copy",
+}
+GOOGLE_GOAL_COPY_URL = "https://docs.google.com/document/d/1rb8sHX56FYPeddRX-QX0_YG-bD7FrZZpQnh06q0r9w8/copy"
 VISUAL_FILES = {
     2: (
         "irving-isd-ccmr-programs-of-study.png",
@@ -410,6 +419,7 @@ async def main():
             "D4_DECK": "cce-week1-day4-source-grounded.pptx",
             "D5_DECK": "cce-week1-day5-source-grounded.pptx",
             "D1_GOAL": "cce-first-week-goal-setting.pdf",
+            "D1_GOAL_DOCX": "cce-first-week-goal-setting.docx",
             "D3_WORD_BANK": "building-blocks-word-bank.pdf",
             "D3_WORD_BANK_BI": "building-blocks-word-bank-bilingual.pdf",
             "D4_JOURNEY": "my-career-journey.pdf",
@@ -436,11 +446,11 @@ async def main():
             await lock_folder_files(client, folders[day], required_names)
 
         specs = [
-            {"day": 1, "teacher_url": "teacher-day-1-facilitator-guide", "teacher_title": "TEACHER: Day 1 Facilitator Guide", "student_title": "STUDENT: 1SW Wk0 Day 1 - CCE Notebook and First-Week Goal", "values": {"DECK_FILE_ID": support["D1_DECK"]["id"], "GOAL_FILE_ID": support["D1_GOAL"]["id"]}},
-            {"day": 2, "teacher_url": "teacher-day-2-facilitator-guide", "teacher_title": "TEACHER: Day 2 Facilitator Guide", "student_title": "STUDENT: 1SW Wk0 Day 2 - Who Are You at Work?", "values": {"DECK_FILE_ID": support["D2_DECK"]["id"], "WORKBOOK_IMAGE_ID": uploads[2]["irving-isd-ccmr-programs-of-study.png"]["id"], "TYPES_IMAGE_ID": uploads[2]["six-core-personality-types.png"]["id"], "APP_IMAGE_ID": uploads[2]["open-hats-and-ladders-discover-your-core.png"]["id"]}},
-            {"day": 3, "teacher_url": "teacher-day-3-facilitator-guide", "teacher_title": "TEACHER: Day 3 Facilitator Guide", "student_title": "STUDENT: 1SW Wk0 Day 3 - Work Values and Building Blocks", "values": {"DECK_FILE_ID": support["D3_DECK"]["id"], "WORK_VALUES_IMAGE_ID": uploads[3]["open-hats-and-ladders-discover-your-work-values.png"]["id"], "BUILDING_BLOCKS_IMAGE_ID": uploads[3]["my-building-blocks-inventory.png"]["id"], "WORD_BANK_FILE_ID": support["D3_WORD_BANK"]["id"], "WORD_BANK_BILINGUAL_FILE_ID": support["D3_WORD_BANK_BI"]["id"]}},
-            {"day": 4, "teacher_url": "teacher-day-4-facilitator-guide", "teacher_title": "TEACHER: Day 4 Facilitator Guide", "student_title": "STUDENT: 1SW Wk0 Day 4 - My Career Journey", "values": {"DECK_FILE_ID": support["D4_DECK"]["id"], "COMMUNITY_IMAGE_ID": uploads[4]["building-a-career-community.png"]["id"], "JOURNEY_FILE_ID": support["D4_JOURNEY"]["id"], "JOURNEY_STEMS_FILE_ID": support["D4_STEMS"]["id"], "JOURNEY_BILINGUAL_FILE_ID": support["D4_BI"]["id"], "RUBRIC_FILE_ID": support["D4_RUBRIC"]["id"], "ASSIGNMENT_ID": mapped_minor["id"]}},
-            {"day": 5, "teacher_url": "teacher-day-5-facilitator-guide", "teacher_title": "TEACHER: Day 5 Facilitator Guide", "student_title": "STUDENT: 1SW Wk0 Day 5 - Catch Up, Xello, and Perks and Quirks", "values": {"DECK_FILE_ID": support["D5_DECK"]["id"], "PERKS_IMAGE_ID": uploads[5]["perks-and-quirks-introduction.png"]["id"], "CAREER_TABLES_IMAGE_ID": uploads[5]["perks-and-quirks-career-tables.png"]["id"]}},
+            {"day": 1, "teacher_url": "teacher-day-1-facilitator-guide", "teacher_title": "TEACHER: Day 1 Facilitator Guide", "student_title": "STUDENT: 1SW Wk0 Day 1 - CCE Notebook and First-Week Goal", "values": {"DECK_FILE_ID": support["D1_DECK"]["id"], "GOOGLE_DECK_COPY_URL": GOOGLE_DECK_COPY_URLS[1], "GOAL_FILE_ID": support["D1_GOAL"]["id"], "GOAL_DOCX_FILE_ID": support["D1_GOAL_DOCX"]["id"], "GOOGLE_GOAL_COPY_URL": GOOGLE_GOAL_COPY_URL}},
+            {"day": 2, "teacher_url": "teacher-day-2-facilitator-guide", "teacher_title": "TEACHER: Day 2 Facilitator Guide", "student_title": "STUDENT: 1SW Wk0 Day 2 - Who Are You at Work?", "values": {"DECK_FILE_ID": support["D2_DECK"]["id"], "GOOGLE_DECK_COPY_URL": GOOGLE_DECK_COPY_URLS[2], "WORKBOOK_IMAGE_ID": uploads[2]["irving-isd-ccmr-programs-of-study.png"]["id"], "TYPES_IMAGE_ID": uploads[2]["six-core-personality-types.png"]["id"], "APP_IMAGE_ID": uploads[2]["open-hats-and-ladders-discover-your-core.png"]["id"]}},
+            {"day": 3, "teacher_url": "teacher-day-3-facilitator-guide", "teacher_title": "TEACHER: Day 3 Facilitator Guide", "student_title": "STUDENT: 1SW Wk0 Day 3 - Work Values and Building Blocks", "values": {"DECK_FILE_ID": support["D3_DECK"]["id"], "GOOGLE_DECK_COPY_URL": GOOGLE_DECK_COPY_URLS[3], "WORK_VALUES_IMAGE_ID": uploads[3]["open-hats-and-ladders-discover-your-work-values.png"]["id"], "BUILDING_BLOCKS_IMAGE_ID": uploads[3]["my-building-blocks-inventory.png"]["id"], "WORD_BANK_FILE_ID": support["D3_WORD_BANK"]["id"], "WORD_BANK_BILINGUAL_FILE_ID": support["D3_WORD_BANK_BI"]["id"]}},
+            {"day": 4, "teacher_url": "teacher-day-4-facilitator-guide", "teacher_title": "TEACHER: Day 4 Facilitator Guide", "student_title": "STUDENT: 1SW Wk0 Day 4 - My Career Journey", "values": {"DECK_FILE_ID": support["D4_DECK"]["id"], "GOOGLE_DECK_COPY_URL": GOOGLE_DECK_COPY_URLS[4], "COMMUNITY_IMAGE_ID": uploads[4]["building-a-career-community.png"]["id"], "JOURNEY_FILE_ID": support["D4_JOURNEY"]["id"], "JOURNEY_STEMS_FILE_ID": support["D4_STEMS"]["id"], "JOURNEY_BILINGUAL_FILE_ID": support["D4_BI"]["id"], "RUBRIC_FILE_ID": support["D4_RUBRIC"]["id"], "ASSIGNMENT_ID": mapped_minor["id"]}},
+            {"day": 5, "teacher_url": "teacher-day-5-facilitator-guide", "teacher_title": "TEACHER: Day 5 Facilitator Guide", "student_title": "STUDENT: 1SW Wk0 Day 5 - Catch Up, Xello, and Perks and Quirks", "values": {"DECK_FILE_ID": support["D5_DECK"]["id"], "GOOGLE_DECK_COPY_URL": GOOGLE_DECK_COPY_URLS[5], "PERKS_IMAGE_ID": uploads[5]["perks-and-quirks-introduction.png"]["id"], "CAREER_TABLES_IMAGE_ID": uploads[5]["perks-and-quirks-career-tables.png"]["id"]}},
         ]
         pages = {}
         for spec in specs:

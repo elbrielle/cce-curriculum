@@ -16,6 +16,13 @@ ROOT=Path(__file__).resolve().parents[2]; TEMPLATES=Path(__file__).parent/"templ
 XELLO_GUIDE=ROOT/"cce-curriculum/resources/xello-licensed/prerequisites/matchmaker-assessment.pdf"
 DECK_ROOT=ROOT/"cce-curriculum/resources/avid-reference/source/derived"
 DECK_FILES={day:DECK_ROOT/f"cce-1sw-wk1-day{day}-manufacturing-source-grounded.pptx" for day in range(1,6)}
+GOOGLE_DECK_COPY_URLS={
+  1:"https://docs.google.com/presentation/d/1MXWQz3WG6rGP1v_PVja9_l4VNNNckHwPJqcTrg7nnJc/copy",
+  2:"https://docs.google.com/presentation/d/1vtd-0kNO73jEQzH1c6zxrL9hAPDm7PcVrum-Nr3Zg_o/copy",
+  3:"https://docs.google.com/presentation/d/1CitS3nVCE0PARMlzu3CrhUYXtNUECVJCGR3qMLXM0os/copy",
+  4:"https://docs.google.com/presentation/d/1GYSBSsstct9tie6914jUbwrs_YI_igD-PKajtvU2xIo/copy",
+  5:"https://docs.google.com/presentation/d/1p4SM7tkiSVi5ucmzAOwRm874eg1DYYCSvHLqKcrspe8/copy",
+}
 SUPPORT_NAMES={
   "PATHWAYS":"manufacturing-pathways-scaffold.pdf","TECH":"technician-checklist-scaffold.pdf","RESEARCH":"career-research-worksheet.pdf","RESEARCH_EX":"career-research-worksheet-example-welder.pdf","RESEARCH_BI":"career-research-worksheet-bilingual.pdf","PLAN":"1sw-wk1-robots-for-crayons-action-plan.pdf",
   "E1":"1sw-wk1-day1-manufacturing-cluster-tour-more-than-assembly-lines.pdf","E2":"1sw-wk1-day2-machine-breakdown-mystery-career-research.pdf","E3":"1sw-wk1-day3-super-sports-manufacturing-design-build-test.pdf"}
@@ -225,7 +232,7 @@ async def main():
             st=student_titles[day]; su=student_urls[day]; values={"COURSE_ID":COURSE_ID,**student_values[day]}
             student=await upsert_page(c,st,render_page(f"wk1-day{day}-student.html",values,day,"student"),su)
             tt=f"TEACHER: 1SW Wk1 Day {day} Facilitator Guide"; tu=slugify(tt)
-            teacher_values={"COURSE_ID":COURSE_ID,"DAY":day,"STUDENT_PAGE_URL":student["url"],"DECK_FILE_ID":files[f"DECK{day}"]["id"],**teacher_data[day],"LOGISTICS":logistics[day],"MODEL":models[day],"MONITOR":teacher_data[day]["MONITOR"]+monitoring[day]}
+            teacher_values={"COURSE_ID":COURSE_ID,"DAY":day,"STUDENT_PAGE_URL":student["url"],"DECK_FILE_ID":files[f"DECK{day}"]["id"],"GOOGLE_DECK_COPY_URL":GOOGLE_DECK_COPY_URLS[day],**teacher_data[day],"LOGISTICS":logistics[day],"MODEL":models[day],"MONITOR":teacher_data[day]["MONITOR"]+monitoring[day]}
             teacher=await upsert_page(c,tt,render_page("wk1-teacher.html",teacher_values,day,"teacher"),tu)
             pages[day]={"teacher":teacher,"student":student}
             expected.extend([("SubHeader",None,header_title),("Page",teacher["url"],tt),("Page",student["url"],st)])

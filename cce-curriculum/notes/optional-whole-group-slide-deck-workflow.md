@@ -72,18 +72,25 @@ evidence, timing, source sequence, platform minimum, or success criteria.
 
 ## 4. Whole-lesson slide grammar
 
-Use the smallest sequence that can carry the full lesson. A typical deck
-includes:
+Use enough slides to teach the lesson one clear move at a time. Do not compress
+the lesson to meet an arbitrary slide count; a longer deck is appropriate when
+it reduces student cognitive load and removes the need for the teacher to
+reconstruct directions. Every daily deck must carry this complete sequence:
 
-1. **Topic/title:** a clean opening visual and the day's short Topic.
-2. **Bellringer:** one prompt, response mode, and visible time expectation.
-3. **Today's learning:** student-friendly Objective and Show Your Learning;
-   include the TEKS code where it helps the teacher, not as unexplained student
-   clutter.
+1. **As you enter:** show the materials, devices, workbook pages, and login or
+   setup students need before instruction begins.
+2. **Do Now / bellringer:** give one immediately answerable prompt, its response
+   location or mode, and a visible time expectation.
+3. **Today's learning:** show the exact TEKS code with a plain-language Objective
+   and Show Your Learning or Demonstration of Learning. Do not project the code
+   without explaining what students are learning and producing.
 4. **Prior-learning connection:** one specific retrieval, comparison, or bridge
    when the new lesson depends on something students have already done.
-5. **Road map and materials:** what students will do and what they need ready.
-6. **Mini-lesson chunks:** one instructional job or important idea per slide.
+5. **Road map:** preview the day's short sequence after students have the needed
+   materials ready.
+6. **Mini-lesson chunks:** one instructional action, decision, or important idea
+   per slide. When an action has multiple steps, split it across slides rather
+   than shrinking the type or projecting a dense procedure.
    Introduce a concrete example or question before naming unfamiliar academic
    vocabulary.
 7. **Models and non-models:** a worked example, annotated source, decision path,
@@ -105,6 +112,13 @@ includes:
     early-finisher route. Do not end on a generic thank-you slide.
 13. **Credits:** compact human-readable asset credits, with the full record in
     speaker notes.
+
+For a digital template, workbook page, or platform task, use the actual current
+student-facing screen whenever rights allow. Crop out names and private data,
+then add numbered callouts that match the projected directions. Pair a blank
+template with a complete Grade 7 model when students need to understand the
+quality or location of the response. Never substitute a generic mock interface
+when the real student view is available.
 
 Put transitions, timers, collaboration directions, and material changes on the
 slide where they happen. Keep trim points in teacher notes so an interruption
@@ -195,9 +209,11 @@ The deck is ready for locked Canvas only when:
 - the Scope and Sequence, HQIM pages, platform task, Objective, and DOL match the
   reviewed Teacher/Student pair exactly;
 - the sequence can carry the complete planned class period, including the
-  bellringer, prior-learning connection, modeling, guided directions, checks for
-  understanding, student work, collaboration, work checkpoints, closure, and
-  submission or cleanup where relevant;
+  As You Enter setup, Do Now or bellringer, TEKS-linked plain-language Objective,
+  prior-learning connection, modeling, one-action-at-a-time guided directions,
+  exact workbook page or platform path, checks for understanding, student work,
+  collaboration, work checkpoints, DOL, closure, and submission or cleanup where
+  relevant;
 - all answer guidance, monitoring notes, supports, and trim points exist;
 - every external claim and visual has a `[Sources]` note;
 - licensed assets and the packaged deck have stayed out of Git;
