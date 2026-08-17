@@ -632,6 +632,7 @@ async def audit_orientation(client: httpx.AsyncClient, modules: list[dict]) -> d
             "OneNote": ONENOTE_URL,
             "Hats & Ladders": HATS_LADDERS_URL,
             "Irving ClassLink": CLASSLINK_URL,
+            "Ms. Lucero email": "mailto:elucero@irvingisd.net",
         }
         for label, expected in required_home_links.items():
             if not any(expected in href for href in parsed["home"].links):
@@ -641,7 +642,7 @@ async def audit_orientation(client: httpx.AsyncClient, modules: list[dict]) -> d
         if len(parsed["home"].links) != len(required_home_links):
             problems.append(
                 "replacement course-home page must contain exactly the Modules, "
-                "OneNote, Hats & Ladders, and Xello launch links"
+                "OneNote, Hats & Ladders, Xello, and Ms. Lucero email links"
             )
         if len(parsed["home"].images) != 4:
             problems.append(

@@ -26,7 +26,11 @@ HOME_ASSETS = {
     "hats_ladders": "hats-ladders.png",
     "xello": "xello.png",
 }
-ONENOTE_URL = "https://www.onenote.com/notebooks?auth=1"
+ONENOTE_URL = (
+    "https://irvingisdnet-my.sharepoint.com/personal/"
+    "elucero_irvingisd_net/Documents/Class%20Notebooks/"
+    "CCE%202026-27%20%C2%B7%20Lucero"
+)
 HATS_LADDERS_URL = "https://app.hatsandladders.com/"
 CLASSLINK_URL = "https://launchpad.classlink.com/irvingtx"
 TEACHER_EMAIL = "elucero@irvingisd.net"
