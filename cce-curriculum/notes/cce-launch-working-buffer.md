@@ -20,7 +20,7 @@ The corrected IPC is `Lucero CCR 26-27 IPC - CCE Week 1 Source-Grounded.docx`, S
 
 ## Monday owner files
 
-- Day 1 deck: `cce-week1-day1-source-grounded.pptx`, 15 slides, SHA-256 `22f748463eeec7cdb03631e78b505aa13423a619f3916706dd4cc76fec8d2770`.
+- Day 1 deck: `cce-week1-day1-source-grounded.pptx`, 15 slides, SHA-256 `204ff3d68c06a93f2d420a377e5a034dc5440011cd8886139e84c1f884b104fd`.
 - Goal sheet: `docs/resources/worksheets/cce-first-week-goal-setting.pdf`, one page, SHA-256 `65e3fcd807378a8b3af93fd4fbc116f70549e08457c00f24b121cb47d9e5dfb6`.
 - Canonical guide: `docs/1sw/wk0-classroom-routines/day1.md`.
 - Canvas Teacher source: `build/canvas/templates/wk0-day1-teacher.html`.

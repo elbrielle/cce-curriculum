@@ -59,7 +59,7 @@ function setNotes(slide, lines) {
 }
 
 setText(1, "Week 1.2", "CCE Week 1");
-setText(1, "AVID 2\nMs. Hainlen", "Career & College Explorations\nMr. Lucero");
+setText(1, "AVID 2\nMs. Hainlen", "Career & College Explorations\nMs. Lucero");
 
 setText(2, "Friday", "Monday");
 
