@@ -8,6 +8,8 @@
 - **Demonstration of Learning:** Completed My Career Journey reflection submitted once as Minor 1 through file upload, exact labeled text entry, or teacher-collected paper.
 <!-- CCE DAILY CONTRACT END -->
 
+Teacher presentation: [PowerPoint file (IISD sign-in)](https://docs.google.com/presentation/d/1RAg9vXCswPPRyvOGWTP64Ertd4WhXuCV/edit) · [Make a Google Slides copy (IISD sign-in)](https://docs.google.com/presentation/d/1aQm3ndpwRZ09E_jJNjzIZ46GaNpdWEC8FY2Er7Y90y4/copy)
+
 ## Why this lesson comes here
 
 Days 2-3 collected three inputs: core personality, work values, and Building Blocks. Today students retrieve those inputs, summarize what they currently notice, reflect on surprises, and apply the evidence to one career curiosity. This is the H&L/FYF synthesis job already assigned for the week, not a substitute for or compressed version of Jenna Hainlen's full focused-note-taking lesson.

@@ -8,6 +8,8 @@
 - **Demonstration of Learning:** One confirmed end-of-week result: missing H&L/Minor work completed, required Xello login + after-high-school goal completed, or at least one FYF p. 5 Hat table completed and marked perk/neutral/quirk with a source named.
 <!-- CCE DAILY CONTRACT END -->
 
+Teacher presentation: [PowerPoint file (IISD sign-in)](https://docs.google.com/presentation/d/1r7O54RQRcYwyAXdJKF5wqbzocuRtKtRZ/edit) · [Make a Google Slides copy (IISD sign-in)](https://docs.google.com/presentation/d/1NCK6fm2PLEI1w-fJAKqF5moIloAVN1oq0Sg2FKRK49c/copy)
+
 ## Why Friday is structured this way
 
 Friday is not a menu of unrelated activities and not a place to make students do three packets. Every student starts with the most important unfinished requirement. Required Xello access and the after-high-school goal must not disappear. FYF pp. 4-5 introduce the yearlong career-research format only after core profile work and Xello access are ready.

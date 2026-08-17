@@ -7,6 +7,9 @@
 - **TEKS:** d(1)(B), d(1)(C)
 - **Demonstration of Learning:** Submitted What is CTE response, Stop and Jot notes, and a comparison of two Manufacturing careers using one specific task and one preparation fact for each.
 <!-- CCE DAILY CONTRACT END -->
+
+Teacher presentation: [PowerPoint file (IISD sign-in)](https://docs.google.com/presentation/d/11rOtouMj1mn240luaQtvjmKBVspLOvht/edit) · [Make a Google Slides copy (IISD sign-in)](https://docs.google.com/presentation/d/1MXWQz3WG6rGP1v_PVja9_l4VNNNckHwPJqcTrg7nnJc/copy)
+
 ## Lesson Overview
 
 | | |

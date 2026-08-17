@@ -7,6 +7,9 @@
 - **TEKS:** d(1)(A), d(1)(B)
 - **Demonstration of Learning:** H&L Climber Profile active + a short private notebook interpretation that records the result, processes one key phrase from the description, asks one real question, and applies the result to one career curiosity.
 <!-- CCE DAILY CONTRACT END -->
+
+Teacher presentation: [PowerPoint file (IISD sign-in)](https://docs.google.com/presentation/d/1VhMW4dNoMRz_c4zQQsbqBHFUKRs4KzkZ/edit) · [Make a Google Slides copy (IISD sign-in)](https://docs.google.com/presentation/d/13hsWv5_pShfI0bzmxAgaLLREGLGvM_Nwscpnph5WLKo/copy)
+
 ## Lesson Overview
 
 | | |

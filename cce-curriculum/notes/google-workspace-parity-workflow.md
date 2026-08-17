@@ -4,6 +4,8 @@
 
 Some CCE teachers teach from Google Slides and Google Docs; others download PowerPoint or Word files. The Google Drive mirror therefore carries both forms without replacing Canvas or creating a third curriculum source.
 
+For teacher-ready artifacts, Canvas and the generated public reference show both options: the matching PowerPoint or Word release and an IISD-restricted Google `/copy` link. The public page contains links only; licensed or privately shared deck binaries are not copied into Git or the public build.
+
 The three maintained surfaces are:
 
 - **Canvas:** active teacher and student delivery, including authenticated and licensed material.

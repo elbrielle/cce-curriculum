@@ -133,7 +133,12 @@ def main() -> None:
         public = artifact.get("public_site")
         require(isinstance(public, dict) and isinstance(public.get("included"), bool), f"{key}: public-site decision is missing")
         protected = bool(PROTECTED_PUBLIC_PARTS.intersection(PurePosixPath(source["path"]).parts))
-        require(not (protected and public["included"]), f"{key}: protected source cannot enter the public site")
+        if protected and public["included"]:
+            require(public.get("link_only") is True, f"{key}: protected source may be linked only")
+            require(
+                isinstance(public.get("source_pages"), list) and public["source_pages"],
+                f"{key}: protected link-only artifact needs public source pages",
+            )
         if not public["included"]:
             require(isinstance(public.get("reason"), str) and public["reason"].strip(), f"{key}: excluded public artifact needs a reason")
 

@@ -7,6 +7,9 @@
 - **TEKS:** d(1)(C)
 - **Demonstration of Learning:** A completed two-problem Robots for Crayons plan with two case clues, a testable solution, ordered steps, tools or adjustments, a time estimate, production effect, and next check for each problem.
 <!-- CCE DAILY CONTRACT END -->
+
+Teacher presentation: [PowerPoint file (IISD sign-in)](https://docs.google.com/presentation/d/13RbIK0yDGiNN_eoAOd10gHnsF8KtXf_N/edit) · [Make a Google Slides copy (IISD sign-in)](https://docs.google.com/presentation/d/1GYSBSsstct9tie6914jUbwrs_YI_igD-PKajtvU2xIo/copy)
+
 ## Lesson Overview
 
 | | |
