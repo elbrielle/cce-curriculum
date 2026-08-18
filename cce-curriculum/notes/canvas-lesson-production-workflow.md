@@ -273,14 +273,60 @@ For every proposed interaction, record four answers in the week audit:
 
 Reject a tool when the only benefit is novelty. The student should still have one obvious starting point in the weekly module, consistent day labels, and a visible completion checklist. This follows the recurring practitioner signal that students lose time when course materials are split across Pages, Files, Assignments, and external sites without a module-first route.
 
-### Optional whole-group lesson decks
+### Whole-group projection decks: language tiers, editability, and gate
 
-Build optional teacher projection decks only after the lesson's source-grounding
-pass and coordinated Teacher/Student pair are stable. Follow
-`cce-curriculum/notes/optional-whole-group-slide-deck-workflow.md`. The approved
-route is fixed 16:9 HTML/CSS -> per-slide PNG -> PPTX, with the complete lesson
-sequence, facilitation and source notes, full render QA, and the same
-authenticated-Canvas licensing boundary used by the lesson pages.
+Build teacher projection decks only after the lesson's source-grounding pass and
+coordinated Teacher/Student pair are stable. Week 0 uses the object-level builders
+under `build/decks/1sw-wk0-*/build.mjs` (Codex `@oai/artifact-tool` runtime; see
+`week0-sync-redo-plan-2026-08-18.md` for the runtime env). Older HTML/CSS -> PNG ->
+PPTX decks remain valid history but new decks must not rasterize slides.
+
+**Three language tiers (owner ruling 2026-08-18).**
+
+1. *Projected slides* are student-facing only and assume the teacher's chosen
+   route (OneNote for Ms. Lucero). No route menus ("Canvas or paper today"),
+   fallbacks, minute ranges, gradebook labels (Minor/Major), teacher pivots, or
+   policy sentences.
+2. *Student Guide* pages carry student actions and support; the platform-down or
+   absence route lives only inside the expandable absence section.
+3. *Facilitator Guide and speaker notes* carry routes, fallbacks, pivots, timing,
+   differentiation, and grading language.
+
+**Shared masters vs. teacher pacing.** Daily decks, canonical `docs/` lessons, and
+Canvas pairs follow the scope and sequence and take universal, quality-driven
+changes only. A teacher's live pacing (stopping points, catch-up moves, platform
+outages) goes into that teacher's weekly deck speaker notes and into an optional
+teacher move in the facilitator guide. Never rewrite the shared Day N contract for
+one classroom.
+
+**Daily first, weekly generated.** The daily decks are the review units. Ms.
+Lucero's weekly deck is generated from them by
+`build/decks/1sw-wk0-weekly-source-grounded/build.mjs` (object-level merge, every
+slide editable; pacing overlay in notes only). Rebuild the daily deck, rerun the
+gate, then rebuild the weekly deck.
+
+**Deck gate (all required before any upload):**
+
+- current app route verified from an owner-authenticated student view, captures
+  dated in `OWNER_AUTHENTICATED_SOURCE_INDEX.md`;
+- every screenshot slide shows WHAT YOU SEE / DO THIS / DONE WHEN; every slide has
+  an explicit completion cue; one instructional action per slide, with a grouped
+  recap slide for work time;
+- projected text passes `build/decks/lib/slide_lint.mjs` (the builders throw on a
+  hit); speaker notes carry `Time`, `Teacher move`, `Student action`, `Look-for`,
+  `Pivot/trim`, `Recovery/access`, `[Sources]` on every slide;
+- `node build/decks/qa_week0_decks.mjs --json tmp/week0-deck-hashes.json` reports
+  PASS: expected counts, 16:9, every slide editable, lint clean, zero
+  Mr. Lucero/ClassLink/reopen wording; the JSON hashes feed the manifests;
+- Canvas: diff live page bodies against the template render before overwriting;
+  publication states unchanged; Student View loads every image; deck file IDs
+  unchanged after `on_duplicate=overwrite`;
+- Drive: raw PowerPoint replaced in place (same ID) and native Slides
+  re-synchronized (same ID); revision recorded in the parity manifest;
+- public mirror built and verified; `git ls-files` and the built site contain no
+  licensed or owner-authenticated paths;
+- manifests carry `sync_status`; no parity claim until Canvas, Drive, and the
+  mirror all pass against the same source hashes.
 
 ### Run the owner-style adversarial review before Canvas staging
 

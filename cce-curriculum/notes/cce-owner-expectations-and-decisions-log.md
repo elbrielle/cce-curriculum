@@ -220,6 +220,14 @@ This is a review path, not another lesson plan. The Teacher Facilitator Guide an
 - Preserve useful teacher-made structures while substituting the current CCE route. Do not import a reference deck's ClassLink, paper-journal, campus, teacher-name, or other route-specific directions when the approved lesson uses OneNote, Google sign-in, or a different current platform path.
 - Record which source patterns were retained and which were changed for a named CCE, Grade 7, access, timing, or platform reason.
 
+### August 18 rulings: shared masters, language tiers, editable weekly deck
+
+- The five daily decks, the canonical `docs/` lessons, and the Canvas Teacher/Student pairs follow the scope and sequence for every teacher. Ms. Lucero's live pacing (a Monday that ended at the first goal sentence, a Tuesday Hats & Ladders outage) is not a reason to rewrite them; it goes into her weekly deck notes and an optional teacher move in the facilitator guide. Universal, quality-driven fixes (no student autosave test, Google sign-in, screenshot explanations, six types before the prediction) do belong in the shared masters.
+- Three language tiers are binding: projected slides are student-facing and assume the teacher's chosen route; Student Guides carry student actions with the outage route only in the absence section; Facilitator Guides and speaker notes carry routes, fallbacks, pivots, timing, and grading language. "Canvas or paper today? Use that route instead." never appears on a slide again; the builders now fail on it.
+- Ms. Lucero's weekly deck is generated from the daily masters and must stay editable at the object level. Assembling it from one PNG per slide is prohibited. She edits her copy for pacing; the shared masters stay paced to the scope and sequence.
+- Projected decks: Do Now, student I-can objective with a small TEKS tag, visible agenda, one action per slide, screenshots with WHAT YOU SEE / DO THIS / DONE WHEN, a grouped recap before work time, accountable talk only where the lesson already has it, a literal DOL, and the device-return close. Strategic Spanish sentence support at actual writing points; visuals are real screenshots and workbook crops, not decoration.
+- Credential-bearing sync steps (Canvas token, IISD-authorized Drive) are confirmed before a same-session sync is promised; otherwise the manifests carry `sync_status` and the operator receives the exact commands.
+
 ### Monday-ready boundary
 
 Monday's teacher deck, goal sheet, Teacher/Student guides, exact 50-minute flow, OneNote/paper parity, models, monitoring, trim, and recovery were reviewed and restaged to Canvas. Deep, coursewide, responsive, and human visual gates passed at that checkpoint. The owner later published the module; future maintenance must preserve that state. The remaining operational checks are the OneNote student-account test and Hats & Ladders teacher-account/roster verification.

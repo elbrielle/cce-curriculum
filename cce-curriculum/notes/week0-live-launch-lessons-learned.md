@@ -1,109 +1,93 @@
 # Week 0 Live Launch Lessons Learned
 
-**Date:** 2026-08-17
-**Scope:** 1SW Wk0 / Ms. Lucero's CCE Week 1 onboarding sequence
+**Dates:** launch 2026-08-17; retrospective 2026-08-18
+**Scope:** 1SW Wk0 (Ms. Lucero's CCE Week 1 onboarding sequence), the five daily projection decks, her generated weekly deck, the Day 1-3 Canvas pairs, Drive copies, and the public mirror
+**Owner rulings recorded here:** 2026-08-17 (no student autosave test; Google sign-in; screenshot rule) and 2026-08-18 (shared masters vs. teacher pacing; three language tiers; editable weekly deck)
 
-## Owner clarification: local pacing is not a course redesign
+## The one-paragraph version
 
-One class falling behind does not mean the shared scope and sequence or Canvas day modules should move. Other teachers may be on pace. Live feedback from Ms. Lucero's room belongs first in her combined weekly deck: Monday shows the actual stopping point, and Tuesday includes a short conditional recovery path. The original daily decks should become clearer through authentic visuals, literal slide directions, and completion cues without rearranging the course sequence. A shared curriculum or module-order change requires separate owner approval and evidence that the change applies beyond one classroom.
+The launch materials were built quickly and reached three destinations, but two things went wrong that a rebuild had to undo. First, one teacher's Monday pacing was written into the shared Day 1-2 lessons, decks, and Canvas pages, and facilitator language ("Canvas or paper today? Use that route instead", "Minutes 25-40", "Minor 1, not a Major") landed on projected student slides. Second, the combined weekly deck was assembled by rasterizing every daily slide into a PNG, so the teacher could not edit her own slides. Both failures came from the same root cause: no explicit rule about which audience each artifact serves and no gate that checked it. The rules and gates below are now code (`build/decks/lib/slide_lint.mjs`, `build/decks/qa_week0_decks.mjs`) and workflow text (`canvas-lesson-production-workflow.md`), not memory.
 
-The same boundary applies to response tools. Ms. Lucero's implementation may name an exact OneNote path and use a prepared OneNote teacher master. The shared Canvas module must preserve teacher choice among OneNote, a physical notebook, paper, or a private Canvas route; it names the response job without turning one teacher's setup into a course-wide requirement.
+## What actually happened in the room
 
-## What changed after students entered the room
+The planned Monday (5 welcome, 8 tools, 12 notebook, 17 goal, 5 check, 3 close) met first-day reality: assigned-device check-out and return, first-use OneNote navigation, and the Do Now consumed the period. Students began the first goal sentence; most did not reach the plan fields. On Tuesday, Hats & Ladders was unavailable in class and the teacher pivoted. Neither fact changes the shared scope and sequence. Both belong in the teacher's weekly deck notes and facilitator guide as pacing evidence.
 
-The original Monday plan treated notebook setup, a six-field first-week goal, and a save/reopen check as one 50-minute lesson. The observed class spent the period on work that had to come first: the Do Now, assigned-device check-out and return, OneNote introduction and navigation, and the first sentence of the goal page. Most students did not reach the remaining goal fields.
+## Lessons and the rule each one produced
 
-Ms. Lucero's weekly sequence now treats that observation as a formal change input:
+### 1. Planned pacing is a hypothesis; observed pacing is evidence, and it has one home
 
-- Monday protects the device routine, opens the correct notebook page, begins the goal sentence, marks the stopping point, and returns devices.
-- Tuesday opens the same page and finishes only the blank goal fields before the H&L Core sequence.
-- No second goal page is distributed.
-- No student closes, refreshes, or reopens OneNote merely to prove autosave.
+Record what students completed, the last reliable stopping point, and the first action for the next class. That record goes to the affected teacher's weekly deck (speaker notes) and to an optional teacher move in the facilitator guide. It does not rewrite the shared daily lesson, the daily deck, the Canvas pair, or the module order unless the owner rules the change course-wide.
 
-## Lessons and enforceable rules
+**Rule:** shared masters take universal, quality-driven changes only. Teacher-specific pacing lives in that teacher's weekly deck notes and the facilitator guide's optional moves.
 
-### 1. Planned pacing is a hypothesis; observed pacing is evidence
+### 2. Three language tiers, enforced
 
-A clean 50-minute plan did not account for the real cost of assigned-device routines and first-use OneNote navigation. After a live lesson, record what students actually completed, the last reliable stopping point, and the first action for the next class. Update the affected teacher's weekly deck first. Change shared lessons or module order only when the owner approves a course-wide need.
+- **Projected slides:** student-facing. Assume the teacher's chosen route (OneNote for Ms. Lucero). No route menus, fallbacks, minute ranges, gradebook admin, teacher pivots, or policy sentences.
+- **Student Guide (Canvas):** student actions and support; the platform-down or absence route only inside the expandable absence section.
+- **Facilitator Guide and speaker notes:** routes, fallbacks, pivots, timing, differentiation, grading language.
 
-### 2. The student OneNote reopen test did not teach the CCE objective
+**Rule:** every deck builder runs `lintSlideText` over the final slide text and fails on facilitator language; the notes must carry the full schema (Time, Teacher move, Student action, Look-for, Pivot/trim, Recovery/access, Sources). The Day 2 slide "Canvas or paper today? Use that route instead." is the canonical example of what the lint now blocks.
 
-Once students could open and type on the distributed page, closing or refreshing it consumed class time without improving the goal-setting evidence. A teacher preflight may test distribution and editability. Student-facing proof-of-autosave is not required. Teach recovery only when an actual access or sync problem appears.
+### 3. The student OneNote reopen test did not teach the objective
 
-### 3. A large screenshot is not instruction
+Once students could open and type on the distributed page, closing or refreshing it spent class time without improving the goal evidence. A teacher preflight tests distribution and editability from a student test account. Students never prove autosave.
 
-Early H&L slides could show an authentic screen while leaving the teacher to explain the route, the next click, and the stopping point aloud. That makes the lesson depend on teacher improvisation and creates an accessibility problem for absent students. A screenshot earns a slide only when it removes a real ambiguity.
+### 4. A large screenshot is not instruction
 
-### 4. Every instructional screenshot needs three visible answers
+A slide with only a screenshot depends on teacher improvisation and fails absent students. Every screenshot slide states **WHAT YOU SEE**, **DO THIS**, **DONE WHEN**. Exact item counts appear only when the source or platform specifies them. Day 3 slide 10 had shipped as a single rasterized PNG; it is now editable text beside the workbook crop.
 
-For each current platform screen, the slide must state:
+### 5. Official platform evidence and teacher exemplars come before slide authoring
 
-- **WHAT YOU SEE:** the screen, card, question, or completion state students should recognize;
-- **DO THIS:** one literal action students take next; and
-- **DONE WHEN:** the visible state that tells students to stop, continue, or ask for help.
-
-Exact item counts appear only when the source or current platform specifies them.
-
-### 5. Source review must happen before slide authoring
-
-The owner-authenticated H&L student screens established the current Google sign-in route, current Profile Climbs cards, question formats, and completion badges. Jennifer Stanley's reference deck demonstrated end-to-end choreography, but also contained obsolete ClassLink, paper-journal, teacher-name, and personal-screen details. Official platform evidence establishes what is true. Teacher exemplars establish how a room can move through it. Both must be inspected before the storyboard is written.
+Owner-authenticated H&L student screens established the current Google sign-in route, the Profile Climbs cards, question formats, and completion badges. Teacher reference decks (Jenna Hainlen's AVID Week 1.2 and 1.6; Jennifer Stanley's Week 0/1) showed end-to-end choreography and also carried obsolete ClassLink, paper-journal, and personal details that must not be copied. Inspect both kinds of evidence before storyboarding.
 
 ### 6. Adapt strong teacher-created material minimally
 
-The useful parts of the reference decks were the As You Enter setup, direct Do Now, literal route demonstration, honest-answer reminder, visible result-recording job, completion cue, early-finisher direction, and exit step. Those structures were retained. ClassLink, personal names, paper-journal requirements, unrelated counts, and the source theme were not. A new CCE worksheet or framework is justified only when no assigned platform, workbook page, notebook page, Canvas interaction, or teacher-created source already performs the evidence job.
+Keep the As You Enter setup, direct Do Now, literal route demonstration, honest-answer reminder, visible result-recording job, completion cue, early-finisher direction, and exit step. Drop ClassLink, personal names, paper-journal requirements, and unrelated counts. A new worksheet or framework is justified only when no assigned platform, workbook page, notebook page, Canvas interaction, or teacher-created source already does the evidence job.
 
-### 7. Daily decks are authoritative; the weekly deck is generated
+### 7. Daily decks are authoritative; the weekly deck is generated, and it must stay editable
 
-The five daily decks carry the complete daily lesson contract and are the review units. Ms. Lucero's combined weekly deck must be assembled from those reviewed daily masters in Monday-Friday order. It must not be edited as an independent sixth source. When a daily master changes, rebuild that daily deck first, then rebuild and hash the combined deck.
+The five daily decks are the review units. The weekly deck is assembled from them in Monday-Friday order by an object-level merge (`build/decks/1sw-wk0-weekly-source-grounded/build.mjs`), never by inserting one image per slide. When a daily master changes: rebuild that daily deck, rerun the gate, then rebuild and hash the weekly deck. The weekly builder throws if any slide has no editable text shape.
 
-### 8. Parity is a three-destination claim
+### 8. Parity is a three-destination claim, verified, not narrated
 
-Local compilation is not parity. A parity claim requires:
+"Perfect parity" means the same source hash is what Canvas serves, what the raw Drive PowerPoint and the native Slides deck contain, and what the public mirror links to. Each destination is checked separately: Canvas file ID and page bodies (with a live-body diff before overwriting, so owner edits are never clobbered), Drive revision/size, and the public mirror build plus rights grep. On 2026-08-18 the local decks were rebuilt and gated, the mirror was rebuilt and verified, and the manifests were updated with an explicit `sync_status` marking Canvas and Drive as stale until the owner-run sync completes. That is the honest state; it is not parity.
 
-1. Canvas Teacher/Student pages and downloadable files match the canonical contract, retain publication state, and pass Student View image checks.
-2. Google Drive raw Office releases and native Google files match the same reviewed source, stable IDs, slide counts, notes, hashes/revisions, and sharing boundary.
-3. The generated public planning mirror reflects only the public-safe canonical material and contains no private binaries or screenshots.
+### 9. Private source preservation and public indexing are separate jobs
 
-Do not use “perfect parity” until all three destinations pass in the same release run.
+Owner-authenticated screenshots, H&L PDFs, teacher decks, and the weekly deck live only under gitignored `cce-curriculum/resources/owner-authenticated-source/` and `canvas-licensed/` and in authenticated Canvas. The tracked `OWNER_AUTHENTICATED_SOURCE_INDEX.md` records filename, source, capture date, purpose, and rights boundary. The public mirror's verifier and a `git ls-files` grep for those paths run in the gate.
 
-### 9. Preserve private sources separately from the public index
+### 10. Live classroom feedback is a formal change input
 
-Licensed H&L, FYF, Xello, Climber Notes, AVID, and teacher screenshots belong in an ignored source library and authenticated Canvas/Drive. Git tracks only the index, provenance, and publication boundary. The private binary proves what was reviewed; the public-safe index explains what exists without redistributing it.
+Record the date, observed completion state, affected daily contract, and next-day recovery action. Decide first whether the evidence is teacher-specific or course-wide. Route it per lesson 1.
 
-### 10. Live classroom feedback is a formal change request
+### 11. Stale phrases hide in builders and hand-edited manifests
 
-Record the date, observed completion state, affected daily contract, and next-day recovery action. First decide whether the evidence is teacher-specific or course-wide. Teacher-specific pacing changes go in that teacher's weekly deck; shared daily decks may receive visual and direction improvements without changing their sequence. Only an owner-approved course-wide change flows into canonical lessons, Canvas pairs, and shared modules.
+The reopen test survived in a builder after the lesson text changed; the "13hsWv5" Google copy link survived in a page; a hand-added manifest entry made three QA scripts fail the next time the generator ran. Fixes: builder-level lint for obsolete strings (ClassLink, reopen/refresh, Mr. Lucero), a read-only gate over the OUTPUT files, and generated inventories that model every artifact type explicitly (the weekly deck is now `teacher_private: true` and the generator includes it).
 
-### 11. Stale phrases hide in builders
+### 12. Context discipline: one inventory, one build, one gate, one handoff
 
-Rendered files can look current while an overwritten builder section still contains `ClassLink`, `save and reopen`, `close or refresh`, an old teacher name, an obsolete Google ID, or an old completion count. The release gate must search canonical Markdown, Canvas templates/importers, deck builders, generated notes, and final deck text. Search the builder source even when the exported file appears correct.
+Read the state once (git branches, builders, assets, manifests, live page metadata), write the plan to disk, build each artifact once, run one consolidated gate, and hand off with exact links and blockers. Do not rerun overlapping audits or re-inspect the same deck three times.
 
-### 12. One inventory, one build, one consolidated gate, one handoff
+### 13. Credentials and permissions are part of the plan, not a surprise at the end
 
-Repeated partial audits consume context and make it harder to know which evidence is current. Start with one scoped inventory of canonical sources, private inputs, builders, live IDs, and dirty-tree boundaries. Make one coherent edit batch, rebuild once in dependency order, run one consolidated local/live gate, and record one handoff with exact hashes, IDs, URLs, and unresolved items.
+The Canvas token can only be used through stdin by an operator whose environment permits it; the Drive connector must be authorized to the account that owns the IISD-restricted files. Confirm both before promising a same-session sync. When they are unavailable, deliver everything local, record `sync_status` in the manifests, and hand the operator the exact commands.
 
-### 13. A digital notebook page needs real writing controls and visual life
+## Enforceable checklist (also in `canvas-lesson-production-workflow.md`)
 
-Underline characters and drawn rules look like response space but do not behave like useful typing areas in OneNote. Each writing point now uses a native wide 1×1 table cell that grows with student text. EB support belongs beside the exact writing job: one complete English stem, one short strategic Spanish scaffold, and a small visual cue. The page also needs one larger source-grounded visual anchor when it improves understanding and engagement; the official H&L six-type chart does that job better than generic clipart. Shared Canvas guides remain teacher-neutral, while Ms. Lucero's live OneNote implementation carries these exact design requirements.
+- [ ] Current app route verified from an owner-authenticated student view (screens dated in the source index)
+- [ ] Every screenshot slide has WHAT YOU SEE / DO THIS / DONE WHEN
+- [ ] Every slide has an explicit completion cue
+- [ ] Projected slides pass `slide_lint` (no routes, fallbacks, minute ranges, gradebook admin, teacher moves)
+- [ ] Speaker notes carry the full schema on every slide
+- [ ] Live pacing recorded in the affected teacher's weekly notes and facilitator guide only
+- [ ] Daily decks rebuilt and gated before the weekly deck is rebuilt
+- [ ] Weekly deck editable on every slide (gate throws otherwise)
+- [ ] `node build/decks/qa_week0_decks.mjs` PASS; hashes recorded in the parity manifest and inventory
+- [ ] Canvas: live-body diff before overwrite; publication states unchanged; Student View loads every image
+- [ ] Drive: raw PowerPoint replaced in place (same ID) and native Slides re-synchronized (same ID); revision recorded
+- [ ] Public mirror built and verified; `git ls-files` and the built site contain no licensed paths
+- [ ] Manifests carry `sync_status`; no parity claim until Canvas, Drive, and the mirror all pass
 
-## Release checklist added from this launch
+## Completion boundary for the 2026-08-18 revision
 
-- Current app route verified from an owner-authenticated student view.
-- Every screenshot has visible **WHAT YOU SEE / DO THIS / DONE WHEN** guidance.
-- Every work launch has an explicit completion cue.
-- Live pacing and the exact stopping point are incorporated into the affected teacher's weekly deck; shared curriculum changes require explicit approval.
-- Daily deck is rebuilt and reviewed before the weekly deck.
-- Daily and weekly Canvas/Drive files are hash- or revision-checked against the local source.
-- Student View loads every required page image.
-- Public-rights policy rejects private screenshots and licensed binaries.
-- Overwritten builder sections contain no stale route, name, workflow, ID, or count strings.
-- No parity claim is made until Canvas, Drive, and the public mirror pass together.
-- OneNote writing areas are native wide 1×1 table cells with point-of-use English/strategic-Spanish scaffolds and meaningful visual support.
-
-## Source-preservation boundary
-
-The dated ignored source package is indexed in `cce-curriculum/resources/OWNER_AUTHENTICATED_SOURCE_INDEX.md`. It preserves the official H&L PDFs, owner-authenticated student screens, OneNote goal-page evidence, Jennifer Stanley reference captures, and five teacher reference decks. The index is tracked; the binaries remain authenticated-only.
-
-## Completion boundary for this slide revision
-
-This revision can claim rebuilt local daily/weekly decks, in-place raw Drive PPTX updates, in-place native Google Slides synchronization, a verified public-safe mirror build, and the private OneNote teacher template. It cannot claim Canvas or perfect parity until the scoped Canvas updater runs with a hidden token and Student View verifies every required image. The shared Canvas module arrangement remains untouched.
+Claimed: shared Day 1-2 lessons and Canvas templates restored to the scope-and-sequence sequence with universal fixes kept; five daily decks rebuilt as student-facing editable masters; weekly deck generated and editable (75/75); consolidated gate PASS; public mirror rebuilt and verified; manifests, ledger, buffer, and source index updated with current hashes and sync status. Not claimed: Canvas file/page sync and Drive raw/native sync, which were blocked in the build session (Canvas token use denied by the operator's permission classifier; Drive connector not authorized to the IISD account). Those two steps and their verification are the open items.
