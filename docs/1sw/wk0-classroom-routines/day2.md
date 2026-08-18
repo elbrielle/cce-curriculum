@@ -15,11 +15,11 @@ Teacher presentation: [PowerPoint file (IISD sign-in)](https://docs.google.com/p
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Finish the first-week goal plan begun Monday; understand that the six Core types are H&L interest patterns; set up the H&L Climber Profile; complete "Discover Your Core"; record the result and one short interpretation in the named private response page |
+| **Objectives** | Learn that the six Core types are H&L interest patterns and predict one; frame CCE as the on-ramp to Irving ISD CTE pathways; set up the H&L Climber Profile; complete "Discover Your Core"; record the result and one short interpretation on the private Day 2 response page |
 | **TEKS** | d(1)(A) |
-| **5E Phases** | Engage: Finish Monday's goal plan · Explain: H&L vocabulary and the six core personality types · Explore: Climber Profile setup and Discover Your Core · Evaluate: Notebook interpretation |
+| **5E Phases** | Engage: Do Now prediction with the six-type chart · Explain: CCMR purpose bridge and H&L vocabulary · Explore: Climber Profile setup and Discover Your Core · Evaluate: Notebook interpretation |
 | **Deliverable** | H&L Climber Profile active + result and one selected interpretation (phrase, real question, or career curiosity) in the teacher-selected private response route |
-| **Materials** | Day 2 presentation with current H&L screens, the required `Learning Your Core Personality Types` visual, and the FYF p. 21 CCMR purpose crop embedded; assigned Chromebooks; projector; campus H&L Google sign-in route; the Monday goal response; and one private Day 2 response page in the notebook, OneNote, paper, or Canvas route selected by the teacher |
+| **Materials** | Day 2 presentation with current H&L screens, the required `Learning Your Core Personality Types` visual, and the FYF p. 21 CCMR purpose crop embedded; assigned Chromebooks; projector; campus H&L Google sign-in route; and one private Day 2 response page in the notebook, OneNote, paper, or Canvas route selected by the teacher |
 
 ---
 
@@ -46,30 +46,25 @@ Students use one route only. Accept the original response without requiring late
 
 ---
 
-## Get ready and finish Monday's goal plan (8 min)
+## Warm-Up: meet the six Core types and predict one (5 min)
 
-Students check out their assigned device, open the same **CCE Work -> Notebook Setup + First-Week Goal** page they began Monday, and finish only the fields they did not reach:
+Students check out their assigned device and open the private Day 2 response page. Project the official six-type chart from `Learning Your Core Personality Types` and introduce the types three at a time, pointing to the current-life examples. Say plainly that the six Core types are H&L interest patterns: they are not grades or permanent labels, and most people match more than one.
 
-1. **Goal:** one course goal they can complete by Friday.
-2. **Why:** why the goal matters to them.
-3. **Action:** one step they control.
-4. **Checkpoint:** when they will take the step.
-5. **Confidence:** choose 1 through 5.
-6. **Support:** choose one support or backup.
+**WARM-UP: Look at the six Core types on the chart: Doer, Analyzer, Creator, Helper, Persuader, Organizer. Choose the ONE you think fits you best and finish this sentence on your Day 2 page: My prediction is ____ because I often ____.**
 
-Project the actual goal response surface used by the class while students work. Point to one field at a time. Move directly into the goal fields without adding a separate notebook-verification lesson.
+Take two or three quick verbal responses. Tell students they will test their prediction inside H&L in the next 25 minutes. This is a guess, not a grade.
 
-At minute 7, students use the three-question self-check already in the presentation: Is the action observable? Did I name when I will do it? Did I choose help or a backup? Students fix one missing part, then leave the page open for the teacher's circulation check. Students who finished Monday begin the six-word prediction below.
+**If a class did not finish Monday's goal page:** take up to five minutes from the Discover Your Core block, have students reopen the same **CCE Work -> Notebook Setup + First-Week Goal** page, and finish only the missing fields. Do not distribute a second goal page and do not add a notebook-verification step. Record the trade in the facilitator notes so Friday catch-up time is protected.
 
 ---
 
-## Understand and predict a Core type (4 min)
+## What is CCMR? (4 min)
 
-Project the district-customized visual from **Find Your Future p. 21** and name its source. It is not an H&L screen. Read only the yellow **What is CCMR?** definition aloud, then ask the printed question: **Why is it helpful to start thinking about future goals before high school?** Take one turn-and-talk response. Do not read the Programs of Study or Irving CTE Center boxes during this four-minute purpose bridge.
+**Source:** (FYF p. 21: "What is Happening at My District?")
 
-Transition: **H&L will give us one clue about the kinds of work that may interest us.** Explain that the six Core types are H&L interest patterns. They are not grades or permanent labels, and most people may match more than one. Use the official chart embedded in the presentation to introduce three types at a time and point to the current-life examples.
+Project the district-customized visual from **Find Your Future p. 21** and name its source. It is not an H&L screen. Read only the yellow **What is CCMR?** definition aloud, then ask the printed question: **Why is it helpful to start thinking about future goals before high school?** Take one turn-and-talk response. Do not read the Programs of Study or Irving CTE Center boxes during this four-minute purpose bridge. Frame CCE as the middle-school on-ramp into Irving ISD's CTE pathways that begin in 8th grade.
 
-Students then choose one word they predict may fit them: **Doer, Analyzer, Creator, Helper, Persuader, Organizer**. On the private Day 2 response page selected by the teacher, they write: **My prediction is ____ because I often ____.** This is a guess, not a grade.
+Transition: **H&L will give us one clue about the kinds of work that may interest us.**
 
 ## Sign in and complete Jumpstart Your Profile (10 min)
 
@@ -98,13 +93,13 @@ Official teacher references:
 
 ---
 
-## Discover Your Core (18 min)
+## Discover Your Core (21 min)
 
 **Source:** Climber Notes, `Learning Your Core Personality Types`, slides 2-5. These frames are embedded in the Day 2 presentation. The *Find Your Future* workbook has no personality response page, so the presentation carries this content and the student's short interpretation goes in the private CCE notebook.
 
 The CCMR purpose visual used immediately before the six-type chart is **Find Your Future p. 21**, not H&L. Its classroom job is a one-minute read-aloud and one discussion question; students do not open the workbook or complete the other p. 21 prompts during this lesson.
 
-Use the official hook and chart already introduced before login. If students need a reminder, name each type in one sentence; do not reteach the full chart while the activity clock is running. The example careers are a CCE addition, not printed on the deck:
+Use the official hook and chart already introduced in the Warm-Up. If students need a reminder, name each type in one sentence; do not reteach the full chart while the activity clock is running. The example careers are a CCE addition, not printed on the deck:
 
 - **Doer.** Works with hands, tools, machines, or animals and solves real, physical problems. Right now: you are the one who actually builds the project instead of just planning it. Example: Auto Mechanic.
 - **Analyzer.** Researches, observes, and thinks through complex problems. Asks why and how. Right now: science or math clicks for you, or you love figuring out how things work. Example: Software Developer.
@@ -113,7 +108,7 @@ Use the official hook and chart already introduced before login. If students nee
 - **Persuader.** Leads, influences, and motivates others. Right now: you step up in group projects and get people on board with your ideas. Example: Salesperson.
 - **Organizer.** Works with data, numbers, and systems and brings order and accuracy. Right now: your notes are color-coded and you like a clear process. Example: Accountant.
 
-Students complete the activity. The live platform labels it as approximately three minutes, but first-week login and reading support require a protected 18-minute classroom block.
+Students complete the activity. The live platform labels it as approximately three minutes, but first-week login and reading support require a protected classroom block of about 20 minutes.
 
 > [H&L PLATFORM] Students open **Profile Climbs**, then **Discover Your Core**, and complete the activity shown in the Day 2 presentation. The activity presents illustrated survey questions and the platform calculates their top personality types. These results feed into the cluster recommendations the app generates on Core Day B, so students should read each question before answering.
 
@@ -141,9 +136,9 @@ Students complete the activity. The live platform labels it as approximately thr
 
 Students record the result and one shortest usable interpretation on the named private page shown in the deck. Do not add a separate exit ticket or submission.
 
-**Complete model:** “My H&L result is Organizer. I chose the phrase route: *likes clear systems* fits because I keep group projects on track.”
+**Complete model:** “My H&L result is Organizer. The phrase *likes clear systems* fits because I keep group projects on track.”
 
-Students record the result and choose one interpretation route. If H&L was unavailable, label the result **provisional** and protect Friday catch-up for the individual activity.
+If H&L was unavailable, label the result **provisional** and protect Friday catch-up for the individual activity.
 
 ## DOL and device return (2 min)
 

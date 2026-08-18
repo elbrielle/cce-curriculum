@@ -148,9 +148,11 @@ Students either share only the **action and checkpoint** with a partner or use t
 - Did I name when I will do it?
 - Did I choose a support or recovery route?
 
-### 6. Mark the stopping point and return devices -- 3 minutes
+### 6. Close and return devices -- 3 minutes
 
-Students point to the last goal field they completed and report one status: **goal sentence complete**, **working on the plan**, or **need help**. Then they follow the class device-return routine. Close with: **"Tomorrow, we will finish the goal plan first, then start Hats & Ladders."**
+Students point to their action and checkpoint fields and tell the teacher or a partner where they will find tomorrow's directions. Then they follow the class device-return routine. Close with: **"Tomorrow, Hats & Ladders begins building your Climber Profile. Your notebook will hold only the short thinking the app and workbook do not already save."**
+
+If a class runs short and most students stop before the plan fields, record the last field reached for the class and finish those fields in the first five minutes of Day 2 without distributing a second goal page. This is a pacing note for that class, not a change to the shared sequence.
 
 ## Collection and grading
 
@@ -169,7 +171,7 @@ Students point to the last goal field they completed and report one status: **go
 
 ## Protected trim
 
-If time is lost, shorten the course-tool tour and partner check. Protect the notebook route, the first goal sentence, the stopping-point check, and the fallback route. Tuesday begins with a short recovery block for unfinished goal fields.
+If time is lost, shorten the course-tool tour and partner check. Protect the notebook route, the goal sentence, the action/checkpoint fields, and the fallback route. Do not cut the recovery route and then tell students the notebook is required.
 
 ## Source notes
 
