@@ -133,10 +133,10 @@ async def page_details(client: httpx.AsyncClient, pages: list[dict]) -> list[dic
     return list(await asyncio.gather(*(fetch(page) for page in pages)))
 
 
-async def discover(client: httpx.AsyncClient) -> tuple[dict, set[int]]:
+async def discover(client: httpx.AsyncClient, *, manage_home: bool = True) -> tuple[dict | None, set[int]]:
     pages = await paged(client, f"/courses/{COURSE_ID}/pages")
     homes = [page for page in pages if page.get("title") == HOME_TITLE]
-    if len(homes) != 1:
+    if manage_home and len(homes) != 1:
         raise RuntimeError(f"expected one page {HOME_TITLE!r}; found {len(homes)}")
     details = await page_details(client, pages)
     file_ids: set[int] = set()
@@ -144,7 +144,7 @@ async def discover(client: httpx.AsyncClient) -> tuple[dict, set[int]]:
         file_ids.update(image_file_ids(page.get("body") or ""))
     if not file_ids:
         raise RuntimeError("no Canvas file-backed images were found in course pages")
-    home = next(page for page in details if page.get("title") == HOME_TITLE)
+    home = next((page for page in details if page.get("title") == HOME_TITLE), None) if manage_home else None
     return home, file_ids
 
 
@@ -176,8 +176,14 @@ def folder_is_visible(record: dict) -> bool:
     return not record.get("locked") and not record.get("hidden")
 
 
-async def normalize(client: httpx.AsyncClient, *, check_only: bool = False) -> dict:
-    home, image_ids = await discover(client)
+async def normalize(client: httpx.AsyncClient, *, check_only: bool = False, manage_home: bool = True) -> dict:
+    """Unlock embedded image files and their folder chains.
+
+    ``manage_home=True`` (district source course) also keeps the reviewed CCE home
+    published as the Pages front page. ``manage_home=False`` (a teacher's imported
+    course, ``--course-id``) never touches that teacher's home page or default view.
+    """
+    home, image_ids = await discover(client, manage_home=manage_home)
     file_records: dict[int, dict] = {}
     folders: dict[int, dict] = {}
     folder_cache: dict[int, dict] = {}
@@ -251,6 +257,7 @@ async def normalize(client: httpx.AsyncClient, *, check_only: bool = False) -> d
         await asyncio.gather(
             *(show_file(file_id, record) for file_id, record in sorted(file_records.items()))
         )
+    if not check_only and manage_home:
         await api(
             client,
             "PUT",
@@ -292,9 +299,9 @@ async def normalize(client: httpx.AsyncClient, *, check_only: bool = False) -> d
         if not folder_is_visible(record)
     ]
     problems: list[str] = []
-    if final_home.get("title") != HOME_TITLE or not final_home.get("published"):
+    if manage_home and (final_home.get("title") != HOME_TITLE or not final_home.get("published")):
         problems.append("active front page is not the published CCE home")
-    if final_course.get("default_view") != "wiki":
+    if manage_home and final_course.get("default_view") != "wiki":
         problems.append("course default view is not Pages")
     if bad_files:
         problems.append(f"embedded image files are restricted: {bad_files}")
@@ -304,6 +311,7 @@ async def normalize(client: httpx.AsyncClient, *, check_only: bool = False) -> d
         raise RuntimeError("; ".join(problems))
     return {
         "course_id": COURSE_ID,
+        "manage_home": manage_home,
         "home_page": final_home.get("url"),
         "home_published": final_home.get("published"),
         "default_view": final_course.get("default_view"),
@@ -353,17 +361,32 @@ async def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true")
     parser.add_argument("--self-test", action="store_true")
+    parser.add_argument(
+        "--course-id",
+        type=int,
+        default=None,
+        help=(
+            "Run against a teacher's own (Commons-imported) course instead of the district "
+            "source course. Unlocks embedded image files and their folder chains only; never "
+            "changes that teacher's home page, default view, or publication choices."
+        ),
+    )
     args = parser.parse_args()
     if args.self_test:
         self_test()
         return
+    manage_home = True
+    if args.course_id is not None:
+        global COURSE_ID
+        COURSE_ID = args.course_id
+        manage_home = False
     token = read_token()
     if not token:
         raise SystemExit("Canvas token required on stdin")
     async with httpx.AsyncClient(
         headers={"Authorization": f"Bearer {token}"}, timeout=120
     ) as client:
-        print(json.dumps(await normalize(client, check_only=args.check), indent=2))
+        print(json.dumps(await normalize(client, check_only=args.check, manage_home=manage_home), indent=2))
 
 
 if __name__ == "__main__":
