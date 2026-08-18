@@ -57,6 +57,8 @@ def main() -> None:
         key = artifact["key"]
         require(key not in keys, f"duplicate artifact key {key}")
         keys.add(key)
+        if artifact.get("teacher_private") is True:
+            continue  # a teacher's own weekly deck is not linked from Canvas or the public site
         copy_url = artifact["drive"]["native_google_file"]["copy_url"]
         office_url = artifact["drive"]["office_release"]["url"]
         expected_canvas.add(copy_url)

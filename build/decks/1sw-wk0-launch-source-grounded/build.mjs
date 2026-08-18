@@ -1,357 +1,195 @@
+// CCE 1SW Wk0 Day 1 daily master: CCE Notebook and First-Week Goal.
+// Source of truth: docs/1sw/wk0-classroom-routines/day1.md (50-minute flow:
+// 5 welcome/Do Now + 8 tools + 12 notebook + 17 goal + 5 check + 3 close).
+// Starter: AVID Week 1.2 clone (Jenna Hainlen); the AVID slide structures are kept
+// and re-texted with editable paragraphs. Projected text is student-facing and
+// teacher-neutral ("your teacher"); teacher moves live in the speaker notes.
+
 import fs from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath, pathToFileURL } from "node:url";
-
-const runtimeHelperPath = process.env.CODEX_PRESENTATIONS_RUNTIME_HELPER;
-if (!runtimeHelperPath) {
-  throw new Error("Set CODEX_PRESENTATIONS_RUNTIME_HELPER to the presentations runtime_helpers.mjs path.");
-}
-const { importRuntimeModule } = await import(pathToFileURL(path.resolve(runtimeHelperPath)).href);
+import { fileURLToPath } from "node:url";
+import { loadRuntime, openStarter, slideAt, setNotes, finalize } from "../lib/slide_kit.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, "../../..");
 const workspace = path.join(root, "tmp/cce-week1-source-clone");
 const starterPath = path.join(workspace, "template-starter.pptx");
-const outputPath = path.join(
-  root,
-  "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day1-source-grounded.pptx",
-);
-const previewDir = path.join(workspace, "final-preview");
-const layoutDir = path.join(workspace, "final-layout");
+const outputPath = path.join(root, "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day1-source-grounded.pptx");
 const goalImagePath = path.join(root, "tmp/cce-first-week-goal-render-20260815-v3/page-1.png");
 
-const { FileBlob, PresentationFile } = await importRuntimeModule("@oai/artifact-tool");
-await fs.mkdir(path.dirname(outputPath), { recursive: true });
-await fs.mkdir(previewDir, { recursive: true });
-await fs.mkdir(layoutDir, { recursive: true });
+const runtime = await loadRuntime();
+const { presentation, recordFor, textbox, setText } = await openStarter(runtime, starterPath);
+const S = (n) => slideAt(presentation, n);
+const setParagraphs = (slide, before, paragraphs) => textbox(slide, before).text.set(paragraphs);
+const P = (runs, extra = {}) => ({ ...extra, runs: runs.map(([run, textStyle]) => ({ run, textStyle })) });
+const bullet = (char, run, size = "18pt", extra = {}) => ({ bulletCharacter: char, marginLeft: 26, indent: -12, ...extra, runs: [{ run, textStyle: { fontSize: size } }] });
 
-const presentation = await PresentationFile.importPptx(await FileBlob.load(starterPath));
-const initial = await presentation.inspect({
-  kind: "slide,textbox,image,notes",
-  maxChars: 500_000,
-});
-const records = initial.ndjson
-  .split("\n")
-  .filter(Boolean)
-  .map((line) => JSON.parse(line));
-
-function recordFor(kind, slide, predicate = () => true) {
-  const record = records.find((item) => item.kind === kind && item.slide === slide && predicate(item));
-  if (!record) throw new Error(`Missing ${kind} on output slide ${slide}`);
-  return record;
+async function swapImage(slide, filePath, alt) {
+  const image = presentation.resolve(recordFor("image", slide).id);
+  const keep = { frame: image.frame, crop: image.crop, geometry: image.geometry, borderRadius: image.borderRadius };
+  image.replace({ blob: await fs.readFile(filePath), contentType: "image/png", alt, fit: "contain" });
+  image.frame = keep.frame; image.crop = keep.crop; image.fit = "contain"; image.geometry = keep.geometry; image.borderRadius = keep.borderRadius;
 }
 
-function textbox(slide, text) {
-  return presentation.resolve(recordFor("textbox", slide, (item) => item.text === text).id);
-}
-
-function setText(slide, before, after) {
-  textbox(slide, before).text.set(after);
-}
-
-function setParagraphs(slide, before, paragraphs) {
-  textbox(slide, before).text.set(paragraphs);
-}
-
-function setNotes(slide, lines) {
-  const notes = presentation.resolve(recordFor("notes", slide).id);
-  notes.setText(lines.join("\n"));
-}
-
+// 1-2: cover and Monday divider
 setText(1, "Week 1.2", "CCE Week 1");
-setText(1, "AVID 2\nMs. Hainlen", "Career & College Explorations\nMs. Lucero");
-
+setText(1, "AVID 2\nMs. Hainlen", "Career & College Explorations\nClassroom Routines and Career Self-Discovery");
 setText(2, "Friday", "Monday");
 
-setText(3, "Pencil\nGet out any school supplies you brought for this class\nGet ready to share an answer ——> ", "Chromebook\nFind Your Future workbook\nOpen Canvas: Day 1 Student Guide\nChoose partner-share or private response");
+// 3: As You Enter (Get Ready + Today's Lesson + goal page thumbnail)
+setText(3, "Pencil\nGet out any school supplies you brought for this class\nGet ready to share an answer ——> ", "Wait for the device cue\nOpen Canvas: Day 1 Student Guide\nHave a pencil ready");
 setParagraphs(3, "Set up Binders & Planners", [
-  { runs: [{ run: "TEKS d(4)(A): ", textStyle: { bold: true, fontSize: "14pt" } }, { run: "Set up a notebook you can reopen and plan one action for this week.", textStyle: { fontSize: "14pt" } }] },
-  { spaceBefore: 6, runs: [{ run: "Today: ", textStyle: { bold: true, fontSize: "14pt" } }, { run: "Find the guide and tools → set up the notebook → make a goal → save and reopen the page.", textStyle: { fontSize: "14pt" } }] },
+  P([["I can: ", { bold: true, fontSize: "14pt" }], ["set up my CCE notebook, find the course tools, and plan one specific first-week action.", { fontSize: "14pt" }]]),
+  P([["Today: ", { bold: true, fontSize: "14pt" }], ["Do Now → devices and course tools → notebook setup → first-week goal → partner or private check.", { fontSize: "14pt" }]], { spaceBefore: 6 }),
 ]);
-const agendaImage = presentation.resolve(recordFor("image", 3).id);
-const agendaFrame = agendaImage.frame;
-const agendaCrop = agendaImage.crop;
-const agendaGeometry = agendaImage.geometry;
-const agendaBorderRadius = agendaImage.borderRadius;
-agendaImage.replace({
-  blob: await fs.readFile(goalImagePath),
-  contentType: "image/png",
-  alt: "CCE first-week goal page used during today's lesson",
-  fit: "contain",
-});
-agendaImage.frame = agendaFrame;
-agendaImage.crop = agendaCrop;
-agendaImage.fit = "contain";
-agendaImage.geometry = agendaGeometry;
-agendaImage.borderRadius = agendaBorderRadius;
+await swapImage(3, goalImagePath, "CCE first-week goal page used during today's lesson");
 
+// 4: Do Now
 setText(4, "Think", "Do Now");
-setText(4, "What are some behaviors that successful students do?\n", "You are starting a new class. What is one thing a student can do to make the first week go well?\n\nSentence stem: A student can _____.");
+setParagraphs(4, "What are some behaviors that successful students do?\n", [
+  P([["You are starting a new class. What is one thing a student can do to make the first week go well?", { fontSize: "24pt" }]]),
+  P([["Sentence stem: A student can _____.", { bold: true, fontSize: "22pt" }]], { spaceBefore: 18 }),
+  P([["Español: Un estudiante puede _____.", { fontSize: "18pt", color: "#1F617A" }]], { spaceBefore: 8 }),
+]);
 
+// 5: Share or stay private
 setText(5, "stand-share-sit", "Share or stay private");
-setText(5, "Everyone stand.\n\nShare with your partner: What are some behaviors that successful students do?\n\nOnce you share, sit down. \n", "Choose one route:\n\nShare one answer with a partner.\n\nOr keep your response private. Sitting or standing are both fine.");
+setText(5, "Everyone stand.\n\nShare with your partner: What are some behaviors that successful students do?\n\nOnce you share, sit down. \n", "Choose one:\n\nShare one answer with a partner.\n\nOr keep your response private. Sitting or standing both count.");
 
-setText(6, "Let’s Set Up your Binders!", "Choose Your CCE Notebook");
+// 6: Check out your device (VILS assigned-device routine)
+setText(6, "Let’s Set Up your Binders!", "Check Out Your Device");
 setParagraphs(6, "Get out your 3 ring binder & tabs OR your folders for class.\nYou need: \nYour first AND last name on the front of binder/folders. (I have sharpies you can borrow.)\nYour 8 tabs or folders labeled with each of your class names. (Example: Write “English” on the tab and not “1st period”)\nAll of your AVID papers 3-hole punched and in the AVID section.\nSecure all your papers in your binder. No papers should be loose.\nExtra Notebook paper (or spiral notebook) at the front.\nPencils & highlighters should be in a designated spot. (either in a pencil pouch or a specific pocket of your backpack)", [
-  { runs: [{ run: "Choose the route that works today:", textStyle: { bold: true, fontSize: "21pt", color: "#172554" } }] },
-  { bulletCharacter: "•", marginLeft: 22, indent: -12, runs: [{ run: "Digital: ", textStyle: { bold: true, fontSize: "18pt" } }, { run: "OneNote Class Notebook, if the tested class route opens", textStyle: { fontSize: "18pt" } }] },
-  { bulletCharacter: "•", marginLeft: 22, indent: -12, runs: [{ run: "Physical: ", textStyle: { bold: true, fontSize: "18pt" } }, { run: "spiral, composition book, binder section, or class folder", textStyle: { fontSize: "18pt" } }] },
-  { bulletCharacter: "•", marginLeft: 22, indent: -12, runs: [{ run: "Recovery: ", textStyle: { bold: true, fontSize: "18pt" } }, { run: "Canvas response or one paper page", textStyle: { fontSize: "18pt" } }] },
-  { spaceBefore: 10, runs: [{ run: "No purchase, special brand, decoration, or recopying is required.", textStyle: { bold: true, fontSize: "18pt" } }] },
-  { spaceBefore: 10, runs: [{ run: "Every route uses: ", textStyle: { bold: true, fontSize: "18pt" } }, { run: "CCE Work • Focused Notes • Evidence & Reflection", textStyle: { fontSize: "18pt" } }] },
+  P([["Use only the Chromebook assigned to you.", { bold: true, fontSize: "21pt", color: "#172554" }]]),
+  bullet("1", "Find the device number your teacher names."),
+  bullet("2", "Check the device and charger before moving."),
+  bullet("3", "Carry it with two hands and place it flat on the desk."),
+  bullet("4", "Report a missing, damaged, or uncharged device before signing in."),
+  P([["DONE WHEN: ", { bold: true, fontSize: "18pt" }], ["your assigned device and charger are at your seat.", { fontSize: "18pt" }]], { spaceBefore: 10 }),
 ]);
-const notebookImage = presentation.resolve(recordFor("image", 6).id);
-notebookImage.frame = { left: 748, top: 8, width: 190, height: 136 };
+presentation.resolve(recordFor("image", 6).id).frame = { left: 748, top: 8, width: 190, height: 136 };
 
-setText(7, "Get out your Planner!", "Set Up Your Digital or Physical Notebook");
+// 7: Find your course tools (canonical section 2)
+setText(7, "Get out your Planner!", "Find Your Course Tools");
 setParagraphs(7, "You can use a physical planner. (I have extras!)\nOr you can use a digital planner you can access on your school computer.\nI suggest either Google calendar, Canvas’ calendar, or your iCloud calendar. ", [
-  { bulletCharacter: "•", marginLeft: 22, indent: -12, runs: [{ run: "OneNote: ", textStyle: { bold: true, fontSize: "22pt" } }, { run: "open your private notebook; create or locate the same three sections.", textStyle: { fontSize: "22pt" } }] },
-  { bulletCharacter: "•", marginLeft: 22, indent: -12, spaceBefore: 16, runs: [{ run: "Physical: ", textStyle: { bold: true, fontSize: "22pt" } }, { run: "label the same three sections in your spiral, binder section, or folder.", textStyle: { fontSize: "22pt" } }] },
-  { bulletCharacter: "•", marginLeft: 22, indent: -12, spaceBefore: 16, runs: [{ run: "Today’s page: ", textStyle: { bold: true, fontSize: "22pt" } }, { run: "CCE Work → Notebook Setup + First-Week Goal", textStyle: { fontSize: "22pt" } }] },
+  bullet("1", "Canvas: open the Day 1 Student Guide. Every day starts here.", "20pt"),
+  bullet("2", "Find Your Future workbook: hold it up. Do not write in it yet.", "20pt", { spaceBefore: 10 }),
+  bullet("3", "Hats & Ladders and Xello: find the links in the guide. Do not start them today.", "20pt", { spaceBefore: 10 }),
+  P([["DONE WHEN: ", { bold: true, fontSize: "20pt" }], ["you can get back to the Day 1 Student Guide without asking for the link.", { fontSize: "20pt" }]], { spaceBefore: 12 }),
 ]);
 
-setText(8, "Evaluate: Planner Expectations", "How to Know Where to Work");
+// 8: Open your CCE notebook (WYS / DO THIS / DONE WHEN)
+setText(8, "Evaluate: Planner Expectations", "Open Your CCE Notebook");
 setParagraphs(8, "Academic Content\nYou must have something written down for every class every day.\nHomework/after school responsibilities\nIf no homework/after school responsibilities, a short note about what you did in class\nNote: even if you were absent, you need to have recorded something for each class. Make sure you ask what you missed!", [
-  { runs: [{ run: "Follow today’s guide", textStyle: { bold: true, fontSize: "20pt" } }] },
-  { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "Start in the Canvas Student Guide", textStyle: { fontSize: "18pt" } }] },
-  { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "Open the activity named in the directions", textStyle: { fontSize: "18pt" } }] },
-  { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "Use your notebook when the directions ask for it", textStyle: { fontSize: "18pt" } }] },
-  { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "Turn in only the work named in the guide", textStyle: { bold: true, fontSize: "18pt" } }] },
+  P([["WHAT YOU SEE", { bold: true, fontSize: "20pt" }]]),
+  bullet("✓", "Your private OneNote Class Notebook", "18pt", { marginLeft: 20, indent: -10 }),
+  bullet("✓", "Sections: CCE Work, Focused Notes, Evidence & Reflection", "18pt", { marginLeft: 20, indent: -10 }),
+  P([["DO THIS", { bold: true, fontSize: "20pt" }]]),
+  bullet("1", "Open CCE Work → Notebook Setup + First-Week Goal.", "16pt"),
+  bullet("2", "Type: The place I will use for CCE work is ____. If it does not open, I will use ____.", "16pt"),
 ]);
 setParagraphs(8, "Organization\nLegible to you and your teacher\nPrevious tasks are checked or crossed off\nColors, highlights, or symbols are used if wanted", [
-  { runs: [{ run: "Check before you move on", textStyle: { bold: true, fontSize: "20pt" } }] },
-  { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "You can reopen today’s page", textStyle: { fontSize: "18pt" } }] },
-  { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "Page title and date make sense to you", textStyle: { fontSize: "18pt" } }] },
-  { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "You know where tomorrow’s directions live", textStyle: { fontSize: "18pt" } }] },
-  { bulletCharacter: "✓", marginLeft: 20, indent: -10, runs: [{ run: "Digital and physical routes count equally", textStyle: { fontSize: "18pt" } }] },
+  P([["DONE WHEN", { bold: true, fontSize: "20pt" }]]),
+  bullet("✓", "The goal page is open", "18pt", { marginLeft: 20, indent: -10 }),
+  bullet("✓", "Your notebook-location sentence is typed", "18pt", { marginLeft: 20, indent: -10 }),
+  bullet("✓", "You know what to use if the notebook does not open", "18pt", { marginLeft: 20, indent: -10 }),
 ]);
 
-setText(9, "Skills Check", "First-Week Goal");
-setText(9, "Each week, we will check in on our grades, planners, and goals. I want you to pick a goal for THIS week. Something small but meaningful!\n\nHere are some ideas (but you can create your own!)\n☐ Turn in all assignments on time\n☐ Bring my supplies to every class\n☐ Write down homework every day\n☐ Participate at least once in each class\n☐ Ask questions when I need help\n☐ Study or review notes for at least 15 minutes each night\n☐ Keep my binder or folders organized\n☐ Check my grades this week\n☐ Get to class on time every day\n☐ Limit distractions during class", "Choose one small CCE goal for this week. Make it meaningful and realistic.\n\nYour goal page follows a teacher-built first-week sequence:\n✓ Goal\n✓ Why it matters\n✓ One specific action\n✓ When or checkpoint\n✓ Confidence 1–5\n✓ Support or recovery route\n\nA course-only or fictional goal is always allowed.");
-const goalImage = presentation.resolve(recordFor("image", 9).id);
-const oldFrame = goalImage.frame;
-const oldCrop = goalImage.crop;
-const oldFit = goalImage.fit;
-const oldGeometry = goalImage.geometry;
-const oldBorderRadius = goalImage.borderRadius;
-goalImage.replace({
-  blob: await fs.readFile(goalImagePath),
-  contentType: "image/png",
-  alt: "CCE First Week Goal-Setting sheet with goal, reason, action, checkpoint, confidence, and support fields",
-  fit: "contain",
-});
-goalImage.frame = oldFrame;
-goalImage.crop = oldCrop;
-goalImage.fit = oldFit ?? "contain";
-goalImage.geometry = oldGeometry;
-goalImage.borderRadius = oldBorderRadius;
+// 9: Find the six goal fields
+setText(9, "Skills Check", "Six Goal Fields");
+setParagraphs(9, "Each week, we will check in on our grades, planners, and goals. I want you to pick a goal for THIS week. Something small but meaningful!\n\nHere are some ideas (but you can create your own!)\n☐ Turn in all assignments on time\n☐ Bring my supplies to every class\n☐ Write down homework every day\n☐ Participate at least once in each class\n☐ Ask questions when I need help\n☐ Study or review notes for at least 15 minutes each night\n☐ Keep my binder or folders organized\n☐ Check my grades this week\n☐ Get to class on time every day\n☐ Limit distractions during class", [
+  P([["WHAT YOU SEE", { bold: true, fontSize: "14pt", color: "#6350A8" }]]),
+  P([["The First-Week Goal page with six fields: goal, why, action, checkpoint, confidence, support.", { fontSize: "16pt" }]]),
+  P([["DO THIS", { bold: true, fontSize: "14pt", color: "#6350A8" }]], { spaceBefore: 10 }),
+  P([["Point to each field as your teacher reads it.", { fontSize: "16pt" }]]),
+  P([["DONE WHEN", { bold: true, fontSize: "14pt", color: "#7A4A00" }]], { spaceBefore: 10 }),
+  P([["You can find all six fields on your own page.", { bold: true, fontSize: "16pt" }]]),
+]);
+await swapImage(9, goalImagePath, "CCE First Week Goal-Setting sheet with goal, reason, action, checkpoint, confidence, and support fields");
 
-setText(10, "Think", "Make it small and specific");
-setText(10, "What are some behaviors that successful students do?\n", "Choose one goal you can complete by Friday.\n\nExamples: read every H&L question carefully • ask when a word or direction is unclear • reopen today’s goal page without a new link • choose another goal for this class");
+// 10: Choose one goal for Friday
+setText(10, "Think", "Choose One Goal for Friday");
+setParagraphs(10, "What are some behaviors that successful students do?\n", [
+  P([["Turn your Do Now habit into one goal you can finish by Friday.", { fontSize: "22pt" }]]),
+  P([["My first-week CCE goal: By Friday, I will _____.", { bold: true, fontSize: "24pt" }]], { spaceBefore: 16 }),
+  P([["A course-only or made-up goal is okay.", { fontSize: "18pt" }]], { spaceBefore: 12 }),
+  P([["DONE WHEN: ", { bold: true, fontSize: "18pt" }], ["your sentence names one clear CCE action.", { fontSize: "18pt" }]], { spaceBefore: 12 }),
+]);
 
-setText(11, "Let’s write!", "Complete model");
-setText(11, "Seat 1- Writer", "Goal → action → checkpoint");
+// 11: Complete model
+setText(11, "Let’s write!", "Model: a complete goal plan");
+setText(11, "Seat 1- Writer", "All six fields");
 setParagraphs(11, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", [
-  { runs: [{ run: "Goal: ", textStyle: { bold: true, fontSize: "17pt" } }, { run: "Complete Discover Your Core carefully by Friday.", textStyle: { fontSize: "17pt" } }] },
-  { spaceBefore: 7, runs: [{ run: "Why: ", textStyle: { bold: true, fontSize: "17pt" } }, { run: "I want the result to be based on my real answers.", textStyle: { fontSize: "17pt" } }] },
-  { spaceBefore: 7, runs: [{ run: "Action: ", textStyle: { bold: true, fontSize: "17pt" } }, { run: "Read every question; ask if a word is unclear.", textStyle: { fontSize: "17pt" } }] },
-  { spaceBefore: 7, runs: [{ run: "Checkpoint: ", textStyle: { bold: true, fontSize: "17pt" } }, { run: "Tuesday H&L block.", textStyle: { fontSize: "17pt" } }] },
-  { spaceBefore: 7, runs: [{ run: "Confidence: ", textStyle: { bold: true, fontSize: "17pt" } }, { run: "4", textStyle: { fontSize: "17pt" } }] },
-  { spaceBefore: 7, runs: [{ run: "Support: ", textStyle: { bold: true, fontSize: "17pt" } }, { run: "teacher check-in + fallback route", textStyle: { fontSize: "17pt" } }] },
+  P([["Goal: ", { bold: true, fontSize: "17pt" }], ["By Friday, I will complete Discover Your Core carefully.", { fontSize: "17pt" }]]),
+  P([["Why: ", { bold: true, fontSize: "17pt" }], ["I want the result to be based on my real answers.", { fontSize: "17pt" }]], { spaceBefore: 4 }),
+  P([["Action: ", { bold: true, fontSize: "17pt" }], ["I will read every question and ask for help if a word is unclear.", { fontSize: "17pt" }]], { spaceBefore: 4 }),
+  P([["Checkpoint: ", { bold: true, fontSize: "17pt" }], ["Tuesday during the Hats & Ladders block.", { fontSize: "17pt" }]], { spaceBefore: 4 }),
+  P([["Confidence: ", { bold: true, fontSize: "17pt" }], ["4", { fontSize: "17pt" }]], { spaceBefore: 4 }),
+  P([["Support: ", { bold: true, fontSize: "17pt" }], ["Teacher check-in.", { fontSize: "17pt" }]], { spaceBefore: 4 }),
 ]);
 
-setText(12, "Let’s write!", "Your turn");
-setText(12, "Seat 2- Speaker", "Open today’s goal page");
-setText(12, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", "Complete all six fields:\n\n1. My first-week CCE goal\n2. Why this goal matters to me\n3. One specific action I will take\n4. When or which class checkpoint\n5. Confidence right now: 1 2 3 4 5\n6. What will help: calendar/planner • teacher check-in • classmate • reminder/alarm • fallback route");
+// 12: Write all six fields (work slide)
+setText(12, "Let’s write!", "Write Your Goal Plan");
+setText(12, "Seat 2- Speaker", "Six fields, same page");
+setParagraphs(12, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", [
+  P([["1. Goal: By Friday, I will ____.", { fontSize: "19pt" }]]),
+  P([["2. Why this goal matters to me: ____.", { fontSize: "19pt" }]], { spaceBefore: 3 }),
+  P([["3. One specific action I will take: ____.", { fontSize: "19pt" }]], { spaceBefore: 3 }),
+  P([["4. When or at which checkpoint: ____.", { fontSize: "19pt" }]], { spaceBefore: 3 }),
+  P([["5. My confidence right now: 1 2 3 4 5", { fontSize: "19pt" }]], { spaceBefore: 3 }),
+  P([["6. What will help me follow through: ____.", { fontSize: "19pt" }]], { spaceBefore: 3 }),
+  P([["Español: Mi meta es ____. Es importante porque ____. Voy a ____.", { fontSize: "16pt", color: "#1F617A" }]], { spaceBefore: 10 }),
+]);
 
-setText(13, "stand-share-sit", "partner or private check");
+// 13: Partner or private check
+setText(13, "stand-share-sit", "Partner or Private Check");
 setParagraphs(13, "Everyone stand.\n\nShare with your partner: What are some behaviors that successful students do?\n\nOnce you share, sit down. \n", [
-  { runs: [{ run: "Share only your action and checkpoint with a partner—or stay private and self-check:", textStyle: { fontSize: "21pt" } }] },
-  { bulletCharacter: "•", marginLeft: 22, indent: -12, spaceBefore: 12, runs: [{ run: "Can someone see what I will do?", textStyle: { bold: true, fontSize: "22pt" } }] },
-  { bulletCharacter: "•", marginLeft: 22, indent: -12, runs: [{ run: "Did I name when I will do it?", textStyle: { bold: true, fontSize: "22pt" } }] },
-  { bulletCharacter: "•", marginLeft: 22, indent: -12, runs: [{ run: "Did I choose a support or recovery route?", textStyle: { bold: true, fontSize: "22pt" } }] },
-  { spaceBefore: 14, runs: [{ run: "You never have to share the goal or why it matters.", textStyle: { fontSize: "18pt" } }] },
+  P([["Share only your action and checkpoint with a partner, or check privately:", { bold: true, fontSize: "20pt" }]]),
+  bullet("•", "Can someone see what I will do?", "21pt", { spaceBefore: 10, marginLeft: 22 }),
+  bullet("•", "Did I name when I will do it?", "21pt", { marginLeft: 22 }),
+  bullet("•", "Did I choose a support?", "21pt", { marginLeft: 22 }),
+  P([["Fix one missing part.", { fontSize: "18pt" }]], { spaceBefore: 12 }),
 ]);
 
-setText(14, "Think", "Save + reopen test");
-setText(14, "What are some behaviors that successful students do?\n", "Type or write: “The place I will use for CCE work is ____. If it does not open, I will use ____.”\n\nClose or refresh. Reopen the page. If it fails, use Canvas or paper today—no recopying later.");
+// 14: DOL
+setText(14, "Think", "Show Your Learning");
+setParagraphs(14, "What are some behaviors that successful students do?\n", [
+  P([["SHOW: ", { bold: true, fontSize: "22pt" }], ["point to your action and your checkpoint on your goal page.", { fontSize: "22pt" }]]),
+  P([["SAY: ", { bold: true, fontSize: "22pt" }], ["where you will find tomorrow’s directions (Canvas → Day 2 Student Guide).", { fontSize: "22pt" }]], { spaceBefore: 14 }),
+  P([["DONE WHEN: ", { bold: true, fontSize: "20pt" }], ["all six fields are filled in and you can name tomorrow’s starting point.", { fontSize: "20pt" }]], { spaceBefore: 14 }),
+]);
 
-setText(15, "Evaluate: Planner Set-Up", "Close: Find it again tomorrow");
+// 15: Close and return devices
+setText(15, "Evaluate: Planner Set-Up", "Close: Return Your Device");
 setParagraphs(15, "From now until the next class, be sure to continue updating your planner.", [
-  { bulletCharacter: "•", marginLeft: 22, indent: -12, runs: [{ run: "Point to today’s goal entry. Then point to where tomorrow’s directions will be.", textStyle: { fontSize: "20pt" } }] },
-  { bulletCharacter: "•", marginLeft: 22, indent: -12, spaceBefore: 18, runs: [{ run: "Tomorrow: ", textStyle: { bold: true, fontSize: "20pt" } }, { run: "Hats & Ladders begins building your Climber Profile. The notebook holds only the short thinking the app and workbook do not already save.", textStyle: { fontSize: "20pt" } }] },
+  bullet("1", "Close the Chromebook when your teacher gives the cue.", "20pt"),
+  bullet("2", "Carry the device and charger to the assigned slot.", "20pt", { spaceBefore: 8 }),
+  bullet("3", "Connect the charger exactly as shown.", "20pt", { spaceBefore: 8 }),
+  P([["Tomorrow: ", { bold: true, fontSize: "20pt" }], ["Hats & Ladders begins building your Climber Profile.", { fontSize: "20pt" }]], { spaceBefore: 14 }),
 ]);
 
-function noteBlock({ timing, move, action, lookFor, pivot, recovery, sources }) {
-  return [
-    `Timing: ${timing}`,
-    `Teacher move: ${move}`,
-    `Student action: ${action}`,
-    `Look-for: ${lookFor}`,
-    `Pivot/trim: ${pivot}`,
-    `Recovery/access: ${recovery}`,
-    "[Sources]",
-    ...sources.map((source) => `- ${source}`),
-    "[/Sources]",
-  ];
-}
-
-const noteSets = [
-  noteBlock({
-    timing: "Before students arrive.",
-    move: "Open Canvas Day 1, test the OneNote route, and keep the complete Canvas/paper route ready. Do not distribute the retired routine card or Evidence Log.",
-    action: "No student action; this is the teacher preflight frame.",
-    lookFor: "Canvas Student Guide opens, the chosen notebook route is usable, and the goal page or paper copy is ready.",
-    pivot: "If OneNote is untested, announce Canvas/paper as today's route before students enter; do not spend class installing or repairing it.",
-    recovery: "Keep the same six goal fields in Canvas or on paper so students never have to recopy later.",
-    sources: ["Jenna Hainlen, AVID Week 1.2 slide 1, cover layout and visual language.", "CCE Day 1 canonical lesson, accessed 2026-08-15."],
-  }),
-  noteBlock({
-    timing: "0:00-0:30.",
-    move: "Leave the divider up while students enter, then advance promptly.",
-    action: "Enter, sit in the accessible location that works, and open the Chromebook.",
-    lookFor: "Students are entering rather than copying the projected title.",
-    pivot: "Advance as soon as most students are seated; do not narrate the decorative frame.",
-    recovery: "Skip this divider after a late transition; no learning evidence is attached to it.",
-    sources: ["Jenna Hainlen, AVID Week 1.2 slide 42, day-divider layout."],
-  }),
-  noteBlock({
-    timing: "0:30-5:00.",
-    move: "Review the TEKS-linked objective and agenda: find today’s directions and tools, set up and test the notebook, make one first-week goal, then save and reopen the page.",
-    action: "Open the Canvas Day 1 Student Guide and prepare the Chromebook and FYF workbook.",
-    lookFor: "By minute 5, at least 80% have the Student Guide open and can name the next step on the agenda.",
-    pivot: "If fewer than 80% can locate the guide, model the route once from the student view and have students mirror it.",
-    recovery: "Use the projected map and paper/FYF materials if a login fails; record the account issue for later.",
-    sources: ["Jenna Hainlen, AVID Week 1.2 slide 43, Welcome/Get Ready/Today's Lesson choreography.", "CCE Day 1, Welcome to CCE."],
-  }),
-  noteBlock({
-    timing: "5:00-7:00.",
-    move: "Preserve the source slide’s silent Think routine. Ask what one thing a student can do to make the first week in a new class go well.",
-    action: "Think of one concrete action. Use the stem ‘A student can _____.’ if helpful.",
-    lookFor: "Students name an action such as ask a question, read the directions, try the activity, or ask for help.",
-    pivot: "If students stall, reread the stem and accept a one-word action before moving to partner or private response.",
-    recovery: "Accept pointing, dictation, AAC, or an oral response to the teacher instead of writing.",
-    sources: ["Jenna Hainlen, AVID Week 1.2 slide 14, private Think routine."],
-  }),
-  noteBlock({
-    timing: "7:00-9:00.",
-    move: "Preserve Jenna’s partner-share rhythm while keeping seated and private participation equal.",
-    action: "Share one first-week action with a partner or keep the response private.",
-    lookFor: "Every student chooses a route; no one is waiting for permission to remain seated or private.",
-    pivot: "If movement is distracting or inaccessible, keep the entire class seated and use partner or private responses.",
-    recovery: "Accept a teacher check, written response, or AAC response; never require public disclosure.",
-    sources: ["Jenna Hainlen, AVID Week 1.2 slide 15, stand-share-sit rhythm, minimally adapted for equal access."],
-  }),
-  noteBlock({
-    timing: "9:00-13:00.",
-    move: "Name OneNote as the pilot default only when the tested route opens; present physical and Canvas routes as equivalent.",
-    action: "Choose the working route and identify where CCE Work, Focused Notes, and Evidence & Reflection will live.",
-    lookFor: "Every student can name a usable route without being asked to buy, decorate, or recopy a notebook.",
-    pivot: "If one third of the class cannot open OneNote, move the whole class to Canvas/paper for today.",
-    recovery: "Record access problems and preserve the completed page in the fallback route; migrate later only if the student chooses.",
-    sources: ["Jenna Hainlen, AVID Week 1.2 slide 46, route-setup structure.", "Microsoft Support, Class Notebook organization and page distribution, accessed 2026-08-14."],
-  }),
-  noteBlock({
-    timing: "13:00-20:00.",
-    move: "Model the digital and physical routes while students create or locate the same three sections.",
-    action: "Create or locate the sections and open CCE Work -> Notebook Setup + First-Week Goal.",
-    lookFor: "By minute 20, at least 80% have a retrievable private page or a named physical/Canvas location.",
-    pivot: "If one third is blocked, stop individual troubleshooting and demonstrate the complete fallback path to everyone.",
-    recovery: "Students use Canvas or one paper page today; account repair happens after class, not during the learning block.",
-    sources: ["Jenna Hainlen, AVID Week 1.2 slide 47, physical/digital tool choice structure.", "CCE Day 1 OneNote pilot and equal physical route."],
-  }),
-  noteBlock({
-    timing: "20:00-25:00.",
-    move: "Teach only locate-and-use expectations. State that notebook type, neatness, tabs, decoration, and handwriting are not graded.",
-    action: "Identify one response home and show how today's page can be reopened.",
-    lookFor: "Students can explain where today's directions live and where their one response will stay.",
-    pivot: "If attention drops, ask two checks only: 'Where do directions live?' and 'Where does this response live?'",
-    recovery: "Use a labeled paper folder or Canvas page when the preferred notebook route is not working.",
-    sources: ["Jenna Hainlen, AVID Week 1.2 slide 48, expectations comparison layout.", "CCE owner decision: notebook is a workspace, not a compliance system."],
-  }),
-  noteBlock({
-    timing: "25:00-27:00.",
-    move: "Open or distribute the source-derived goal page and state that it is private practice, not a second Canvas submission.",
-    action: "Open the six-field goal page in the chosen route.",
-    lookFor: "Every student has the same six response fields visible by minute 27.",
-    pivot: "If page distribution fails, use the identical fields printed in the Student Guide or the one-page paper copy.",
-    recovery: "Allow a course-only or fictional goal and a paper, dictation, or speech-to-text response.",
-    sources: ["Jenna Hainlen, AVID 26-27 Skills Check, First Week Goal-Setting Sheet.", "Jenna Hainlen, AVID Week 1.2 slide 13, Skills Check framing.", "CCE First Week Goal-Setting Sheet, minimally adapted 2026-08-15."],
-  }),
-  noteBlock({
-    timing: "27:00-30:00.",
-    move: "Think aloud while shrinking one vague intention into a specific action and checkpoint. Read the concrete first-week choices before students select or adapt one.",
-    action: "Choose one goal for this class that can be completed by Friday.",
-    lookFor: "Students name an observable action rather than a wish such as 'do better.'",
-    pivot: "If many goals remain vague, revise one anonymous example with the class before students write independently.",
-    recovery: "Offer the three projected examples and permit a fictional course goal without personal disclosure.",
-    sources: ["Jenna Hainlen, AVID Week 1.2 slide 14, Think structure.", "Jenna Hainlen, AVID Week 1.3 time-management goal revision sequence."],
-  }),
-  noteBlock({
-    timing: "30:00-33:00.",
-    move: "Read the complete model once and ask what makes it observable and scheduled.",
-    action: "Identify the model's action, checkpoint, and fallback support.",
-    lookFor: "Students can point to the exact action and when it will happen.",
-    pivot: "If students name the goal instead of the evidence, highlight only Action, Checkpoint, and Support.",
-    recovery: "Read the model aloud and allow students to follow by listening rather than copying it.",
-    sources: ["CCE Day 1 complete model.", "Jenna Hainlen, AVID Week 1.2 slide 22, model/writing frame."],
-  }),
-  noteBlock({
-    timing: "33:00-42:00.",
-    move: "Release students to complete all six fields; circulate in three laps for route, action/checkpoint, and support.",
-    action: "Complete goal, why, one action, checkpoint, confidence 1-5, and support/recovery.",
-    lookFor: "By minute 38, every response has an action and checkpoint; by minute 42, all six fields are complete or the student is using an accommodation.",
-    pivot: "If one third is still vague at minute 38, pause for one anonymous model revision, then restart work.",
-    recovery: "Use speech-to-text, dictation, AAC, a scribe, or the paper/Canvas page; do not require personal grades or circumstances.",
-    sources: ["Jenna Hainlen, AVID First Week Goal-Setting Sheet, preserved field sequence.", "Jenna Hainlen, AVID Week 1.2 slide 23, writing frame."],
-  }),
-  noteBlock({
-    timing: "42:00-47:00.",
-    move: "Run the partner-or-private self-check without collecting the private goal or reason.",
-    action: "Share only action and checkpoint, or privately check action, time, and support.",
-    lookFor: "Every student confirms an observable action, a real checkpoint, and one support/recovery route.",
-    pivot: "If sharing is slow, move everyone to the three-question private check.",
-    recovery: "Teacher conference, writing, or AAC counts equally; no public sharing is required.",
-    sources: ["Jenna Hainlen, AVID Week 1.2 slide 15, share/check rhythm.", "CCE Day 1 partner or private check."],
-  }),
-  noteBlock({
-    timing: "47:00-49:00.",
-    move: "Require the save-and-reopen proof before celebrating completion.",
-    action: "Close or refresh, reopen the same page, and name the fallback route.",
-    lookFor: "Every student can reopen the page or point to the exact labeled paper/Canvas location.",
-    pivot: "If one third cannot reopen, stop troubleshooting and direct those students to the complete Canvas/paper route.",
-    recovery: "Keep completed work in the fallback route and repair OneNote later; never require recopying.",
-    sources: ["CCE Day 1 save/reopen recovery requirement.", "Jenna Hainlen, AVID Week 1.2 slide 14, single-action prompt structure."],
-  }),
-  noteBlock({
-    timing: "49:00-50:00.",
-    move: "Protect the close: point to today's entry and tomorrow's Canvas Student Guide.",
-    action: "Point to the saved goal and the place where Tuesday's directions will appear.",
-    lookFor: "Students can name what they will open first tomorrow without exposing their private goal.",
-    pivot: "Use a whole-class point-and-name check if the partner/private block ran long.",
-    recovery: "Give absent or unfinished students the exact Day 1 Student Guide location for catch-up; do not add a new submission.",
-    sources: ["Jenna Hainlen, AVID Week 1.2 slide 50, evaluation/close layout; Jess Bailey photo attribution retained on-slide.", "CCE Day 1 close and Tuesday H&L bridge."],
-  }),
+// Speaker notes (full schema on every slide)
+const SRC_LESSON = "CCE 1SW Wk0 Day 1 canonical lesson, docs/1sw/wk0-classroom-routines/day1.md";
+const SRC_AVID12 = (slide, what) => `Jenna Hainlen, AVID Week 1.2 slide ${slide}, ${what} (teacher-provided; structure only)`;
+const SRC_GOAL = "Jenna Hainlen, AVID 26-27 Skills Check, First Week Goal-Setting Sheet; CCE minimal reframing 2026-08-15";
+const RECOVERY_NB = "OneNote will not open: Canvas response or the paper goal page is equal; a student who uses the fallback does not recopy later.";
+const notes = [
+  { time: "Before class", move: "Distribute the Notebook Setup + First-Week Goal page to each student's CCE Work section and confirm the fields accept typing from a student test account. Do not run a student autosave/reopen test in class.", student: "None yet.", lookFor: "View distributed pages shows one copy per student.", pivot: "If distribution fails, use the Canvas/paper page all period; do not repair OneNote during class.", recovery: RECOVERY_NB, sources: [SRC_AVID12(1, "cover layout"), SRC_LESSON] },
+  { time: "0:00-0:00", move: "Day divider while students enter and wait for the device cue.", student: "Sit; wait for the cue.", lookFor: "Students not opening devices before the cue.", pivot: "Show for seconds only.", recovery: "None needed.", sources: [SRC_AVID12(42, "day-divider layout")] },
+  { time: "0:00-0:01", move: "Read the I-can statement and today's five parts once. Point to the goal page thumbnail: that is where today ends.", student: "Read along.", lookFor: "Students can name the last part (goal plan).", pivot: "Do not re-explain.", recovery: "Absent students use the Day 1 Student Guide.", sources: [SRC_AVID12(43, "Welcome/Get Ready/Today's Lesson choreography"), SRC_LESSON] },
+  { time: "0:01-0:03", move: "Do Now. Silent think time. Connect the answer to the goal page later: one useful habit becomes a specific action and checkpoint.", student: "Write one sentence with the stem.", lookFor: "A concrete habit, not 'be good'.", pivot: "Offer two examples aloud if the room stalls.", recovery: "Paper page is equal.", sources: [SRC_AVID12(14, "private Think routine"), SRC_LESSON] },
+  { time: "0:03-0:05", move: "Optional partner share, seated/private response equal. Model the daily routine: start in Canvas, open the named activity, notebook only when asked, turn in only what the guide names.", student: "Share one answer or keep it private.", lookFor: "Students can name where the daily directions live.", pivot: "Skip the share if devices are late.", recovery: "None needed.", sources: [SRC_AVID12(15, "stand-share-sit rhythm, adapted for equal access"), SRC_LESSON] },
+  { time: "0:05-0:09", move: "Assigned-device check-out. Name the device number pattern; students report problems before signing in.", student: "Get the assigned Chromebook and charger; report issues.", lookFor: "Every student with the right number; nothing carried one-handed.", pivot: "If numbers are not set yet, use the seating chart order for today.", recovery: "A student without a working device pairs for the tools tour and uses the paper goal page.", sources: [SRC_AVID12(46, "procedure-launch structure"), SRC_LESSON] },
+  { time: "0:09-0:13", move: "Course-tool tour: Canvas Day 1 Student Guide, FYF workbook, H&L and Xello links. Nothing is started today.", student: "Open the guide; hold up the workbook; find the two links.", lookFor: "By minute 13, 80 percent can return to the Day 1 guide without the link.", pivot: "If fewer than 80 percent can return, repeat the navigation once on the projector; do not add tools.", recovery: "Paper copy of the guide for a device-less student.", sources: [SRC_AVID12(47, "step-by-step procedure structure"), SRC_LESSON] },
+  { time: "0:13-0:25", move: "Notebook setup. Show OneNote once: CCE Work → Notebook Setup + First-Week Goal. Students type the location sentence. Demonstrate Immersive Reader once if available. Do not spend time proving autosave.", student: "Open the page; type the location sentence.", lookFor: "By minute 25 every student has a confirmed digital page or a named physical/Canvas route.", pivot: "Record account problems and move on; do not troubleshoot live.", recovery: RECOVERY_NB, sources: ["Microsoft Support, Class Notebook page distribution, accessed 2026-08-17", SRC_LESSON] },
+  { time: "0:25-0:27", move: "Read the six field names aloud once while students point. Keep the source field order.", student: "Point to each field.", lookFor: "Students locating field 6 (support).", pivot: "One pass only.", recovery: "Paper page has the same six fields.", sources: [SRC_GOAL, SRC_AVID12(13, "Skills Check framing")] },
+  { time: "0:27-0:29", move: "Students turn the Do Now habit into one Friday goal sentence. Course-only or fictional goals allowed; no disclosure required.", student: "Write the goal sentence.", lookFor: "One clear CCE action with a Friday stop.", pivot: "Offer the model on the next slide early if many stall.", recovery: "Paper page equal.", sources: [SRC_AVID12(14, "Think structure"), SRC_LESSON] },
+  { time: "0:29-0:31", move: "Show the complete model, then the non-model in words: 'Do better / try harder later / confidence 5' - ask what is missing (action, checkpoint, support). Make the plan smaller and more specific rather than telling students to want it more.", student: "Compare the model to their own sentence.", lookFor: "Students naming the missing action/checkpoint.", pivot: "Revise one anonymous vague example together if a third of the room is vague.", recovery: "None needed.", sources: [SRC_LESSON, SRC_AVID12(22, "model/writing frame")] },
+  { time: "0:31-0:42", move: "Work time with the six fields projected. Lap: by minute 38 every goal has an action and a checkpoint.", student: "Fill in all six fields on the same page.", lookFor: "Action + checkpoint present; support chosen.", pivot: "If a third of the room is still vague at minute 38, pause and revise one anonymous example together.", recovery: RECOVERY_NB, sources: [SRC_GOAL, SRC_LESSON] },
+  { time: "0:42-0:47", move: "Partner or private check on action and checkpoint only; students never have to share the goal or why. Students fix one missing part.", student: "Share action + checkpoint or self-check privately.", lookFor: "One repair made where needed.", pivot: "Cut to the private self-check if time is short.", recovery: "Private teacher check counts.", sources: [SRC_AVID12(15, "check rhythm"), SRC_LESSON] },
+  { time: "0:47-0:49", move: "DOL: students point to action and checkpoint and name tomorrow's starting point. If most of a class stopped before the plan fields, record the last field reached and finish those fields in the first five minutes of Day 2 without a second goal page (pacing note for that class only).", student: "Show the fields; say where tomorrow's directions live.", lookFor: "All six fields filled, or the last field reached recorded.", pivot: "Protect this DOL; trim the check before trimming this.", recovery: RECOVERY_NB, sources: [SRC_LESSON, SRC_AVID12(14, "single-action prompt structure")] },
+  { time: "0:49-0:50", move: "Run the device-return routine and preview tomorrow: H&L begins building the Climber Profile; the notebook holds only the short thinking the app and workbook do not already save.", student: "Return the device and charger correctly.", lookFor: "Slot, charger, and device checked.", pivot: "None.", recovery: "None needed.", sources: [SRC_AVID12(50, "evaluation/close layout; Jess Bailey photo attribution retained on-slide"), SRC_LESSON] },
 ];
-noteSets.forEach((notes, index) => setNotes(index + 1, notes));
+notes.forEach((spec, index) => setNotes(S(index + 1), spec));
 
-const inspect = await presentation.inspect({
-  kind: "slide,textbox,image,notes",
-  maxChars: 500_000,
-});
-await fs.writeFile(path.join(workspace, "final.inspect.ndjson"), inspect.ndjson);
-
-for (let index = 0; index < presentation.slides.items.length; index += 1) {
-  const slide = presentation.slides.items[index];
-  const number = String(index + 1).padStart(2, "0");
-  const png = await presentation.export({ slide, format: "png", scale: 2 });
-  await fs.writeFile(path.join(previewDir, `final-slide-${number}.png`), Buffer.from(await png.arrayBuffer()));
-  const layout = await slide.export({ format: "layout" });
-  await fs.writeFile(path.join(layoutDir, `final-slide-${number}.layout.json`), await layout.text());
-}
-
-const montage = await presentation.export({ format: "png", montage: true, scale: 1 });
-await fs.writeFile(path.join(workspace, "final-montage.png"), Buffer.from(await montage.arrayBuffer()));
-const pptx = await PresentationFile.exportPptx(presentation);
-await pptx.save(outputPath);
-console.log(JSON.stringify({ outputPath, slideCount: presentation.slides.items.length, previewDir }, null, 2));
+const result = await finalize(runtime, presentation, { workspace, outputPath, expectedCount: 15 });
+console.log(JSON.stringify(result, null, 2));

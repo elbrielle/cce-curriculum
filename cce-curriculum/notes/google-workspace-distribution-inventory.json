@@ -72,8 +72,8 @@
           "display_title": "CCE Week 1 Day 1 — Notebook and First-Week Goal",
           "source": {
             "path": "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day1-source-grounded.pptx",
-            "sha256": "204ff3d68c06a93f2d420a377e5a034dc5440011cd8886139e84c1f884b104fd",
-            "bytes": 4353815
+            "sha256": "4ee0dd823dd00d68ebc60e306e9b5b7b9effa7f7fbfac874d57a25ac0e10e744",
+            "bytes": 4353129
           },
           "native_google_file": {
             "id": "1xFcSPWu2qyQnNcihzHFpubHbVU_MCT1bX3fjEq-NQQQ",
@@ -85,7 +85,7 @@
               "width": 720,
               "height": 405
             },
-            "revision_id_at_check": "FoSSdCpDwkTZHA",
+            "revision_id_at_check": "qIXzNR8Eah9DsA",
             "sharing": "iis-d-domain-reader"
           },
           "office_release": {
@@ -108,20 +108,20 @@
           "display_title": "CCE Week 1 Day 2 — Discover Your Core",
           "source": {
             "path": "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day2-source-grounded.pptx",
-            "sha256": "0452fdad088814c41de28ef64268833178bd6740f8a0f134616d8277bee46bfc",
-            "bytes": 4089176
+            "sha256": "dfe1d86ea02cf332d13d926124e44e577f6f06a3e974b13349b7d69c6e317379",
+            "bytes": 8734140
           },
           "native_google_file": {
-            "id": "13hsWv5_pShfI0bzmxAgaLLREGLGvM_Nwscpnph5WLKo",
+            "id": "1uUz-OkpLnE-idZdrseGqmLHolfMtE0ZxuHfO_hS3Zno",
             "mime_type": "application/vnd.google-apps.presentation",
-            "edit_url": "https://docs.google.com/presentation/d/13hsWv5_pShfI0bzmxAgaLLREGLGvM_Nwscpnph5WLKo/edit",
-            "copy_url": "https://docs.google.com/presentation/d/13hsWv5_pShfI0bzmxAgaLLREGLGvM_Nwscpnph5WLKo/copy",
+            "edit_url": "https://docs.google.com/presentation/d/1uUz-OkpLnE-idZdrseGqmLHolfMtE0ZxuHfO_hS3Zno/edit",
+            "copy_url": "https://docs.google.com/presentation/d/1uUz-OkpLnE-idZdrseGqmLHolfMtE0ZxuHfO_hS3Zno/copy",
             "slide_count": 16,
             "page_size_points": {
               "width": 720,
               "height": 405
             },
-            "revision_id_at_check": "cwTc1gMrDgnCBg",
+            "revision_id_at_check": "BOrbc9JCr_Dz-w",
             "sharing": "iis-d-domain-reader"
           },
           "office_release": {
@@ -144,20 +144,20 @@
           "display_title": "CCE Week 1 Day 3 — Work Values and Building Blocks",
           "source": {
             "path": "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day3-source-grounded.pptx",
-            "sha256": "49a7442b0cb59484b3dc872337464358ca2bd66d598b3efdfb7de9a65f32496a",
-            "bytes": 4207957
+            "sha256": "3faeeba997e1df00b5ea307e3feb712077afee82516c6db4de065a7ad689f5b2",
+            "bytes": 5056127
           },
           "native_google_file": {
-            "id": "1UX3uGRnXlVI8TW1wbJAlS28pXy4hyfQnbvillK7xRdk",
+            "id": "1omosqSGXcYIXRToaOiJxCTrIbV_JBX0_xf3QNoMYbBA",
             "mime_type": "application/vnd.google-apps.presentation",
-            "edit_url": "https://docs.google.com/presentation/d/1UX3uGRnXlVI8TW1wbJAlS28pXy4hyfQnbvillK7xRdk/edit",
-            "copy_url": "https://docs.google.com/presentation/d/1UX3uGRnXlVI8TW1wbJAlS28pXy4hyfQnbvillK7xRdk/copy",
+            "edit_url": "https://docs.google.com/presentation/d/1omosqSGXcYIXRToaOiJxCTrIbV_JBX0_xf3QNoMYbBA/edit",
+            "copy_url": "https://docs.google.com/presentation/d/1omosqSGXcYIXRToaOiJxCTrIbV_JBX0_xf3QNoMYbBA/copy",
             "slide_count": 16,
             "page_size_points": {
               "width": 720,
               "height": 405
             },
-            "revision_id_at_check": "GWFLgj6rRw0ZOA",
+            "revision_id_at_check": "kDhTtNP_obzidg",
             "sharing": "iis-d-domain-reader"
           },
           "office_release": {
@@ -180,8 +180,8 @@
           "display_title": "CCE Week 1 Day 4 — My Career Journey",
           "source": {
             "path": "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day4-source-grounded.pptx",
-            "sha256": "726b133ead699ff71e95699547c7737f9b34a92ce1ce7307475d1f1e8fb92994",
-            "bytes": 1894575
+            "sha256": "72bbc3e469082e3ec836e546ca98cfd762b39c4cf4ae07529924e0c79d998192",
+            "bytes": 1894542
           },
           "native_google_file": {
             "id": "1aQm3ndpwRZ09E_jJNjzIZ46GaNpdWEC8FY2Er7Y90y4",
@@ -216,8 +216,8 @@
           "display_title": "CCE Week 1 Day 5 — Catch Up, Xello, and Perks and Quirks",
           "source": {
             "path": "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day5-source-grounded.pptx",
-            "sha256": "6aaa2f483bc1af02174cd8aae5a1b1176b5ec2a3396cee715676b707099180dd",
-            "bytes": 3702493
+            "sha256": "45fb0f148070743d55b2d99188c8785ada4d9ffde4fa29ad7d5cdfd66d0ef18f",
+            "bytes": 3702468
           },
           "native_google_file": {
             "id": "1NCK6fm2PLEI1w-fJAKqF5moIloAVN1oq0Sg2FKRK49c",
@@ -246,10 +246,42 @@
             ],
             "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
           }
+        },
+        {
+          "key": "1sw-wk0-lucero-weekly-slides",
+          "display_title": "Lucero CCE Week 1 — Classroom Routines and Career Self-Discovery",
+          "source": {
+            "path": "cce-curriculum/resources/owner-authenticated-source/weekly-slides/Lucero CCE Week 1 - Classroom Routines and Career Self-Discovery.pptx",
+            "sha256": "1cf5dbcbd8cf80aaa55fc2a433fe2d8c4973f16cbba41ef58ae8c7d7d0f3efb8",
+            "bytes": 16221078
+          },
+          "native_google_file": {
+            "id": "1SYEtPzUOhl67-fjwttCb7pAodx9BIAU8ZgLuMPgaV6o",
+            "mime_type": "application/vnd.google-apps.presentation",
+            "edit_url": "https://docs.google.com/presentation/d/1SYEtPzUOhl67-fjwttCb7pAodx9BIAU8ZgLuMPgaV6o/edit",
+            "slide_count": 75,
+            "page_size_points": {
+              "width": 720,
+              "height": 405
+            },
+            "revision_id_at_check": "ggecGhW9y_nV2A",
+            "bytes_at_check": 7022661
+          },
+          "office_release": {
+            "id": "1-UM-4aiY5S7O2QnTpnfXhnho1BO4IUVh",
+            "name": "Lucero CCE Week 1 — Classroom Routines and Career Self-Discovery.pptx",
+            "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+            "url": "https://docs.google.com/presentation/d/1-UM-4aiY5S7O2QnTpnfXhnho1BO4IUVh/edit"
+          },
+          "public_site": {
+            "included": false,
+            "link_only": false,
+            "reason": "The weekly implementation contains owner-authenticated and licensed classroom visuals and remains outside Git and the public build."
+          }
         }
       ],
       "public_resource_count": 8,
-      "editable_artifact_count": 5
+      "editable_artifact_count": 6
     },
     {
       "curriculum_address": "1SW Wk1",

@@ -37,7 +37,7 @@ Students will establish one retrievable CCE notebook route, complete the require
 
 | Evidence job | Primary response home | What the notebook adds |
 |---|---|---|
-| Core personality result | H&L Climber Profile | one key phrase, one real question, one career curiosity |
+| Core personality result | H&L Climber Profile | the result plus one selected interpretation: key phrase, real question, or career curiosity |
 | Work values | H&L Climber Profile | one expected/surprised sentence |
 | Building Blocks and skills | FYF pp. 9-11; save three in H&L | one value + experience + possible-cluster connection |
 | Career Journey synthesis | mapped Minor 1 reflection | no duplicate notebook response |
@@ -70,8 +70,8 @@ The Monday goal entry adapts Jenna Hainlen's teacher-created `AVID First Week Go
 
 | Day | Core focus | Required evidence | 50-minute shape |
 |---|---|---|---|
-| 1 | CCE tools, notebook setup, first-week goal | private six-field CCE goal entry and a tested response/fallback route | 5 welcome + 8 tools + 12 setup + 17 goal + 5 check + 3 close |
-| 2 | FYF p. 21 + H&L Discover Your Core | profile result + private result/phrase/question/career-curiosity interpretation | 5 opener + 5 CTE + 10 setup + 23 assessment + 7 ticket/save |
+| 1 | CCE tools, notebook setup, first-week goal | private six-field CCE goal entry and a clearly located response/fallback route | 5 welcome + 8 tools + 12 setup + 17 goal + 5 check + 3 close |
+| 2 | Six-type prediction + FYF p. 21 purpose bridge + H&L Discover Your Core | profile result + private result and one selected interpretation | 5 opener/prediction + 4 CCMR bridge + 10 setup + 21 assessment + 8 interpretation + 2 DOL/device return |
 | 3 | H&L Work Values + FYF pp. 9-11 Building Blocks | H&L/FYF inputs + one value-to-experience-to-cluster connection | 5 opener + 15 values + 17 Building Blocks + 8 saves/recommendations + 5 close |
 | 4 | My Career Journey synthesis | one mapped Minor submitted through file, exact labeled text, or paper | 5 warm-up + 8 gather + 5 model + 22 draft + 6 revise + 4 submit |
 | 5 | core catch-up, Xello, then FYF pp. 4-5 | one verified requirement/result | 5 plan + 20 focus + 15 second priority + 5 verify + 5 close |
@@ -99,8 +99,8 @@ Default copies should be zero when a tested digital route is in use. Print only 
 
 ### Formative
 
-- Day 1 private goal entry and notebook-route test
-- Day 2 H&L result interpretation and diagnostic exit/save check
+- Day 1 private goal entry and a clearly located notebook/fallback route
+- Day 2 H&L result plus one selected interpretation and the two-minute DOL/device return
 - Day 3 profile/FYF inputs plus one synthesis connection
 - Day 5 one verified requirement/result
 

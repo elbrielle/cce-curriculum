@@ -52,6 +52,11 @@
 - **August 15 live decision:** course `98060` exposes a hidden external tool labeled `Office 365`, but no named `Microsoft 365 LTI`, `Microsoft Education`, or `OneNote Class Notebook` course-navigation route. That label alone does not prove a working Class Notebook integration. Monday therefore uses a pretested standalone Class Notebook only if the owner finishes and verifies it Sunday; otherwise use the complete Canvas/paper fallback without later recopying.
 - Keep large FYF/H&L files in authenticated Canvas and link to them. Do not make OneNote sync dependent on embedded PDF printouts.
 - A missing page, device, account, or sync problem must route immediately to the same Canvas or paper response; students do not later recopy work completed through the fallback.
+- Shared facilitator guides preserve teacher choice; Ms. Lucero's exact OneNote paths and prepared pages are owner-specific implementations, not a mandate for teachers using physical notebooks or another approved route.
+- On Ms. Lucero's OneNote pages, every place students write uses a native wide **1×1 table cell** that grows with typing. Do not use underline characters or drawn lines as the digital response area.
+- Put a complete sentence stem or model at every writing point. Add short, strategic Spanish support directly beside the label or stem when it removes a barrier; do not translate the whole page by default.
+- Add a small public-safe visual cue beside writing sections when it improves scanning or meaning. The cue supports navigation and comprehension; it must not become decorative clutter.
+- Use one larger source-grounded visual when it gives the page life and helps seventh graders understand the task, such as the official H&amp;L six-type chart or a current platform screen. Do not reduce visual support to icons beside blanks, and do not use generic or unlicensed imagery merely to make the page look less empty.
 
 ### Student tool launchers and Canvas home
 
@@ -146,7 +151,7 @@ The owner is building the course while teaching it and needs the system to reduc
 
 - The owner's **IPC Week 1** is curriculum `1SW Wk0`, beginning Monday, August 17 after the Smart Solutions launch week.
 - Canvas module `542880`, `1SW Wk0: Classroom Routines and Career Self-Discovery`, had an exact 16-item structure at the reviewed launch checkpoint: five day SubHeaders, ten Teacher/Student Pages, and the mapped Day 4 Minor 1 Assignment at position 13. The owner later published the module. Agents must preserve that owner-selected publication state during maintenance.
-- The five reviewed local Canvas-bound decks total 75 slides (15/16/16/13/15). The source-integrity repair changed the local Day 2 deck to SHA-256 `0452fdad088814c41de28ef64268833178bd6740f8a0f134616d8277bee46bfc`; it is now restaged as locked Canvas file `14615688`. A separate post-run re-download hash comparison was not performed, so do not overstate byte-parity evidence for that one file.
+- The five reviewed local Canvas-bound decks total 75 slides (15/16/16/13/15). The August 17 classroom-recovery revision changed Day 2 to SHA-256 `b57c69ebe35ef052b41b2bcd71202b13de94c5c7b538da3b2947e48720ba10f4` and Day 3 to `f1fc5c255ce954eddeac217322aebd26aa25aadaeaa9187e78062d0e16fb43c7`. Both have current native Google versions and PowerPoint releases; Canvas file IDs `14615688` and `14616908` remain the intended overwrite targets so existing lesson links do not change.
 - The Monday goal sheet and all four Thursday reflection/rubric PDFs are also byte-for-byte identical between the reviewed local files and locked Canvas downloads.
 - The post-restage 20 live responsive Teacher/Student desktop/mobile views are complete and unpublished, have exactly one canonical contract each, load every image, and have zero horizontal overflow. Changed Day 1-5 Teacher and Day 2/4/5 Student views were inspected at original detail at desktop and mobile with no clipping, overlap, broken media, missing tail, or mobile scan blocker.
 - The IPC file `Lucero CCR 26-27 IPC - CCE Week 1 Source-Grounded.docx` matches the launch sequence and correctly names the 12-point Thursday rubric.
@@ -190,7 +195,38 @@ This is a review path, not another lesson plan. The Teacher Facilitator Guide an
 - Opening line: **“Start in Canvas. Today’s guide will tell you what to open and what to complete.”**
 - Notebook test line: **“The place I will use for CCE work is ____. If it does not open, I will use ____.”**
 - Goal model: goal, why, one visible action, checkpoint, confidence 1-5, and support/recovery.
-- Protected trim: shorten the course-tool tour and partner check. Do not cut the notebook save test, action/checkpoint, or fallback.
+- Protected trim: shorten the course-tool tour and partner check. Protect the action/checkpoint and fallback. The August 17 classroom correction below supersedes the earlier notebook save-test requirement.
+
+### August 17 classroom correction: do not teach OneNote autosave as content
+
+- Once students have successfully opened and typed on a distributed OneNote page, do not spend instructional time closing, refreshing, and reopening the page to prove that it saved.
+- Give a normal navigation direction when students need to return to prior work. Teach explicit recovery steps only when an observed access or sync problem makes them necessary.
+- Use the recovered time for the actual CCE lesson. For the first launch week, that means finishing the useful goal fields, moving into Hats & Ladders, and protecting the device check-in routine.
+
+### August 17 H&L source and visual standard
+
+- Use owner-provided current Hats & Ladders screenshots, official H&L/Climber Notes frames, and official teacher PDFs to show the actual student route, prompts, vocabulary, and completion state.
+- In authenticated Canvas, private Google Slides, and other teacher-controlled instructional spaces, prefer those exact visuals to generic descriptions or reconstructed platform mockups.
+- Keep licensed H&L screenshots and binaries out of Git and the public site. Public materials may describe the route but must not reproduce protected screens unless separate public-use permission is verified.
+- Inspect the current platform flow before writing directions. Add only the minimum teacher framing needed to connect the official screen to the lesson objective, access support, and stopping point.
+
+### August 17 screenshot teaching and teacher-craft standard
+
+- A screenshot is not a complete instructional slide. Pair it with a visible label for the screen, the exact action students take next, and the completion cue they should look for. Include a required count only when the current platform or approved lesson actually specifies one.
+- Keep one instructional action on each slide. When a task has several clicks or decisions, split it into a short sequence instead of projecting one large screenshot and explaining the missing steps aloud.
+- Put the student-facing explanation beside the relevant part of the image. Use plain directions such as **Open Profile Climbs**, **Choose Jumpstart Your Profile**, and **Stop when you see Core Complete**.
+- Speaker notes must tell the teacher what to monitor, what a successful screen or response looks like, what to do when access fails, and what may be trimmed without losing the lesson objective.
+- Begin slide revisions with the owner's strongest existing decks and teacher-created references. Jennifer Stanley's editable Week 0/1 deck, `Copy of Career Exploration.pptx`, is a reference for lesson choreography, annotated screenshots, Do Now structure, and completion cues. It is not a replacement deck and must not be copied wholesale.
+- Preserve useful teacher-made structures while substituting the current CCE route. Do not import a reference deck's ClassLink, paper-journal, campus, teacher-name, or other route-specific directions when the approved lesson uses OneNote, Google sign-in, or a different current platform path.
+- Record which source patterns were retained and which were changed for a named CCE, Grade 7, access, timing, or platform reason.
+
+### August 18 rulings: shared masters, language tiers, editable weekly deck
+
+- The five daily decks, the canonical `docs/` lessons, and the Canvas Teacher/Student pairs follow the scope and sequence for every teacher. Ms. Lucero's live pacing (a Monday that ended at the first goal sentence, a Tuesday Hats & Ladders outage) is not a reason to rewrite them; it goes into her weekly deck notes and an optional teacher move in the facilitator guide. Universal, quality-driven fixes (no student autosave test, Google sign-in, screenshot explanations, six types before the prediction) do belong in the shared masters.
+- Three language tiers are binding: projected slides are student-facing and assume the teacher's chosen route; Student Guides carry student actions with the outage route only in the absence section; Facilitator Guides and speaker notes carry routes, fallbacks, pivots, timing, and grading language. "Canvas or paper today? Use that route instead." never appears on a slide again; the builders now fail on it.
+- Ms. Lucero's weekly deck is generated from the daily masters and must stay editable at the object level. Assembling it from one PNG per slide is prohibited. She edits her copy for pacing; the shared masters stay paced to the scope and sequence.
+- Projected decks: Do Now, student I-can objective with a small TEKS tag, visible agenda, one action per slide, screenshots with WHAT YOU SEE / DO THIS / DONE WHEN, a grouped recap before work time, accountable talk only where the lesson already has it, a literal DOL, and the device-return close. Strategic Spanish sentence support at actual writing points; visuals are real screenshots and workbook crops, not decoration.
+- Credential-bearing sync steps (Canvas token, IISD-authorized Drive) are confirmed before a same-session sync is promised; otherwise the manifests carry `sync_status` and the operator receives the exact commands.
 
 ### Monday-ready boundary
 

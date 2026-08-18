@@ -46,7 +46,7 @@ Teacher file options: [PDF](../../resources/worksheets/cce-first-week-goal-setti
    >
    > **What will help me follow through?** Calendar/planner / teacher check-in / classmate / reminder or alarm / fallback route
 
-5. Open the page through one student test account. Type the notebook test line, close or refresh the page, and confirm the response remains. Then use **Distribute Page** to copy the page into each student's private `CCE Work` section. Check **View distributed pages** before class. If any part of this test fails, use the complete Canvas/paper route Monday; do not repair the notebook during class.
+5. Open the page through one student test account and confirm that the response fields accept typing. Then use **Distribute Page** to copy the page into each student's private `CCE Work` section. Check **View distributed pages** before class. If any part of this test fails, use the complete Canvas/paper route Monday; do not repair the notebook during class.
 6. Keep large FYF/H&L files in locked Canvas. Link to them; do not make sync depend on PDF printouts embedded in OneNote.
 
 Use Microsoft's current teacher references only as needed:
@@ -96,7 +96,7 @@ Students open the Day 1 Student Guide in Canvas, point to the *Find Your Future*
 
 **Pivot:** if fewer than 80 percent can return, stop and repeat the navigation once on the projector. Do not continue adding tools.
 
-### 3. Set up and test the notebook route -- 12 minutes
+### 3. Set up the notebook route -- 12 minutes
 
 Students enter their private notebook or label the three physical sections. They open or create `CCE Work -> Notebook Setup + First-Week Goal` and complete this test line:
 
@@ -104,7 +104,7 @@ Students enter their private notebook or label the three physical sections. They
 
 Use **Canvas response** or **paper page** as the recovery choice. A student who completes work through the fallback does not copy it again later.
 
-**OneNote check:** students type one sentence, close or refresh the page, and confirm the sentence is still there. Demonstrate Immersive Reader once if it is available.
+**OneNote check:** students type the notebook location sentence. Demonstrate Immersive Reader once if it is available. Do not spend class time proving that OneNote autosaves.
 
 **Look-for:** by minute 25, every student has either a confirmed digital page or a named physical/Canvas route. Record account problems and move on.
 
@@ -148,9 +148,11 @@ Students either share only the **action and checkpoint** with a partner or use t
 - Did I name when I will do it?
 - Did I choose a support or recovery route?
 
-### 6. Close and save -- 3 minutes
+### 6. Close and return devices -- 3 minutes
 
-Students point to today's entry and tell the teacher or a partner where they will find tomorrow's directions. Close with: **"Tomorrow, Hats & Ladders begins building your Climber Profile. Your notebook will hold only the short thinking the app and workbook do not already save."**
+Students point to their action and checkpoint fields and tell the teacher or a partner where they will find tomorrow's directions. Then they follow the class device-return routine. Close with: **"Tomorrow, Hats & Ladders begins building your Climber Profile. Your notebook will hold only the short thinking the app and workbook do not already save."**
+
+If a class runs short and most students stop before the plan fields, record the last field reached for the class and finish those fields in the first five minutes of Day 2 without distributing a second goal page. This is a pacing note for that class, not a change to the shared sequence.
 
 ## Collection and grading
 
@@ -169,7 +171,7 @@ Students point to today's entry and tell the teacher or a partner where they wil
 
 ## Protected trim
 
-If time is lost, shorten the four-tool tour and partner check. Protect the notebook route test, the action/checkpoint fields, and the save/fallback check. Do not cut the recovery route and then tell students the notebook is required.
+If time is lost, shorten the course-tool tour and partner check. Protect the notebook route, the goal sentence, the action/checkpoint fields, and the fallback route. Do not cut the recovery route and then tell students the notebook is required.
 
 ## Source notes
 

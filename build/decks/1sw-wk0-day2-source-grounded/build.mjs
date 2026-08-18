@@ -1,197 +1,187 @@
-import fs from "node:fs/promises";
-import path from "node:path";
-import { fileURLToPath, pathToFileURL } from "node:url";
+// CCE 1SW Wk0 Day 2 daily master: H&L Setup and Discover Your Core (Core Day A).
+// Source of truth: docs/1sw/wk0-classroom-routines/day2.md (50-minute flow).
+// Starter: AVID Week 1.2 clone (Jenna Hainlen) for the day divider only; every
+// content slide is redrawn with editable shapes from build/decks/lib/slide_kit.mjs.
+// Projected text is student-facing; teacher moves live in speaker notes.
 
-const runtimeHelperPath = process.env.CODEX_PRESENTATIONS_RUNTIME_HELPER;
-if (!runtimeHelperPath) {
-  throw new Error("Set CODEX_PRESENTATIONS_RUNTIME_HELPER to the presentations runtime_helpers.mjs path.");
-}
-const { importRuntimeModule } = await import(pathToFileURL(path.resolve(runtimeHelperPath)).href);
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import {
+  loadRuntime, openStarter, slideAt, doNow, agenda, talk, guidedText, guidedScreen, recap, rowsSlide, dol, setNotes, finalize,
+} from "../lib/slide_kit.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, "../../..");
 const workspace = path.join(root, "tmp/cce-week1-day2-source-clone");
 const starterPath = path.join(workspace, "template-starter.pptx");
-const outputPath = path.join(
-  root,
-  "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day2-source-grounded.pptx",
-);
-const previewDir = path.join(workspace, "final-preview");
-const layoutDir = path.join(workspace, "final-layout");
-const routeImagePath = path.join(
-  root,
-  "cce-curriculum/resources/canvas-licensed/1sw/wk0/day2/open-hats-and-ladders-discover-your-core.png",
-);
+const outputPath = path.join(root, "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day2-source-grounded.pptx");
+const KICKER = "CCE WEEK 1 · TUESDAY";
+const PAGE = "Core Personality – Day 2";
 
-const { FileBlob, PresentationFile } = await importRuntimeModule("@oai/artifact-tool");
-await fs.mkdir(path.dirname(outputPath), { recursive: true });
-await fs.mkdir(previewDir, { recursive: true });
-await fs.mkdir(layoutDir, { recursive: true });
+const hl = (name) => path.join(root, "cce-curriculum/resources/owner-authenticated-source/hats-and-ladders/screens", name);
+const licensed = (name) => path.join(root, "cce-curriculum/resources/canvas-licensed/1sw/wk0/day2", name);
+const assets = {
+  typesChart: licensed("six-core-personality-types.png"),
+  ccmrPage: licensed("irving-isd-ccmr-programs-of-study.png"),
+  dashboard: hl("dashboard-profile-climbs.png"),
+  jumpstart: hl("jumpstart-profile-start.png"),
+  jumpstartQuestion: hl("jumpstart-starting-point-question.png"),
+  coreStart: hl("discover-your-core-start.png"),
+  coreQuestion: hl("discover-your-core-question.png"),
+  coreComplete: hl("core-complete-badge.png"),
+};
 
-const presentation = await PresentationFile.importPptx(await FileBlob.load(starterPath));
-const initial = await presentation.inspect({
-  kind: "slide,textbox,image,notes",
-  maxChars: 500_000,
-});
-const records = initial.ndjson
-  .split("\n")
-  .filter(Boolean)
-  .map((line) => JSON.parse(line));
+const runtime = await loadRuntime();
+const { presentation, setText } = await openStarter(runtime, starterPath);
+const S = (n) => slideAt(presentation, n);
 
-function recordFor(kind, slide, predicate = () => true) {
-  const record = records.find(
-    (item) => item.kind === kind && item.slide === slide && predicate(item),
-  );
-  if (!record) throw new Error(`Missing ${kind} on output slide ${slide}`);
-  return record;
-}
-
-function textbox(slide, text) {
-  return presentation.resolve(recordFor("textbox", slide, (item) => item.text === text).id);
-}
-
-function setText(slide, before, after) {
-  textbox(slide, before).text.set(after);
-}
-
-function setNotes(slide, lines) {
-  const notes = presentation.resolve(recordFor("notes", slide).id);
-  notes.setText(lines.join("\n"));
-}
-
-async function replaceRouteImage(slide) {
-  const image = presentation.resolve(recordFor("image", slide).id);
-  const oldFrame = image.frame;
-  const oldCrop = image.crop;
-  const oldGeometry = image.geometry;
-  const oldBorderRadius = image.borderRadius;
-  const oldRotation = image.rotation;
-  const oldFlipHorizontal = image.flipHorizontal;
-  const oldFlipVertical = image.flipVertical;
-  const oldLockAspectRatio = image.lockAspectRatio;
-  image.replace({
-    blob: await fs.readFile(routeImagePath),
-    contentType: "image/png",
-    alt: "Authenticated Hats & Ladders Discover Your Core directions used in the CCE lesson",
-    fit: "contain",
-  });
-  image.frame = oldFrame;
-  image.crop = oldCrop;
-  image.fit = "contain";
-  image.geometry = oldGeometry;
-  image.borderRadius = oldBorderRadius;
-  image.rotation = oldRotation;
-  image.flipHorizontal = oldFlipHorizontal;
-  image.flipVertical = oldFlipVertical;
-  image.lockAspectRatio = oldLockAspectRatio;
-}
-
+// 1: keep the AVID day divider (structure credit in notes)
 setText(1, "Wednesday/ Thursday", "Tuesday");
 
-setText(2, "Pencil\nGet ready to share an answer ——> ", "Chromebook\nFind Your Future workbook\nOpen your private CCE notebook");
-setText(2, "Ball Toss\nFinish Successful Student Poster", "Predict your type\nSet up Profile + Discover Your Core\nSave one private interpretation");
-await replaceRouteImage(2);
-
-setText(3, "Think", "Think");
-setText(3, "What are some behaviors that successful students do?\n", "Choose ONE word that sounds most like you right now:\n\nDoer  •  Analyzer  •  Creator  •  Helper  •  Persuader  •  Organizer\n\nWrite your prediction. Do not look anything up yet.");
-
-setText(4, "stand-share-sit", "Share or stay private");
-setText(4, "Everyone stand.\n\nShare with your partner: What are some behaviors that successful students do?\n\nOnce you share, sit down. \n", "Choose one route.\n\nShare seated or standing: Which word did you predict, and what clue made you choose it?\n\nOr write your answer privately. When you finish, look up.");
-
-setText(5, "Let’s write!", "Why are we doing this now?");
-setText(5, "Seat 1- Writer", "CCMR\nCollege, Career, and Military Readiness means preparing for life after high school.");
-setText(5, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", "PROGRAM OF STUDY\n\nA sequence of related courses that combines classroom learning, hands-on experience, and skill development.\n\nDiscuss: Why start thinking about future goals before high school?");
-
-setText(6, "Let’s write!", "Three Hats & Ladders words");
-setText(6, "Seat 2- Speaker", "CLIMBER\nYou\nHAT\nA career you can explore");
-setText(6, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", "CLUSTER\nA group of related careers\n\nYour Climber Profile gathers what you learn about yourself. It grows across our three Core Days.");
-
-setText(7, "Think", "Think");
-setText(7, "What are some behaviors that successful students do?\n", "Why do some activities feel natural while others feel like a chore?\n\nPersonality types can help explain the difference. Most people match more than one type.");
-
-setText(8, "Let’s write!", "Meet the six core types");
-setText(8, "Seat 1- Writer", "DOER\nHands, tools, real problems\nANALYZER\nResearch, observe, ask why\nCREATOR\nArt, music, writing");
-setText(8, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", "HELPER\nSupport, teach, connect with people\n\nPERSUADER\nLead, influence, motivate\n\nORGANIZER\nData, numbers, systems, accuracy");
-
-setText(9, "Let’s write!", "Try a quick match");
-setText(9, "Seat 2- Speaker", "With a partner or privately:\nChoose a likely top type.\nName one clue.\nMore than one answer may fit.");
-setText(9, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", "Which core type might fit a nurse?\n\nA chef?\n\nA pilot?\n\nWhy can one career need more than one type?");
-
-setText(10, "Welcome!", "Open Hats & Ladders");
-setText(10, "Get Ready", "Campus login");
-setText(10, "Today’s Lesson", "Exact route");
-setText(10, "Pencil\nGet ready to share an answer ——> ", "Use your campus SSO.\nStay in your own account.");
-setText(10, "Ball Toss\nFinish Successful Student Poster", "Open Profile.\nChoose Discover Your Core.\nKeep it open for your result.");
-await replaceRouteImage(10);
-
-setText(11, "Let’s write!", "Set up your Climber Profile");
-setText(11, "Seat 1- Writer", "1. Open Profile.\n2. Check your name and grade.\n3. Choose an avatar or photo only if campus rules allow.");
-setText(11, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", "Notice that the profile is mostly empty.\n\nAcross Core Days A, B, and C, it becomes a snapshot of you as a career explorer.\n\nToday begins with personality.");
-
-setText(12, "Let’s write!", "Discover Your Core");
-setText(12, "Seat 2- Speaker", "Profile → Discover Your Core\nRead slowly.\nAnswer honestly.");
-setText(12, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", "When your result appears:\n\n1. Read the description.\n2. Choose one phrase that fits or surprises you.\n3. Open Core Personality — Day 2 in your private CCE notebook.");
-
-setText(13, "Think", "Work honestly");
-setText(13, "What are some behaviors that successful students do?\n", "There are no wrong answers and no better types.\n\nSlow down enough to understand each question. Ask for a read-aloud when you need it.\n\nIf H&L will not open, choose a provisional type from the class chart and label it provisional.");
-
-setText(14, "Let’s write!", "Complete model");
-setText(14, "Seat 1- Writer", "RESULT = my top type\nEVIDENCE = phrase from the description\nQUESTION = what I still wonder\nCAREER CONNECTION = one curiosity");
-setText(14, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", "My result is Organizer. The phrase “likes clear systems” fits because I keep group projects on track. I wonder whether Organizers can also enjoy art. I am curious about event planning because it mixes systems with creative choices.");
-
-setText(15, "Let’s write!", "Your private interpretation");
-setText(15, "Seat 2- Speaker", "Result: My top type is ____.\nEvidence: One phrase that fits or surprises me is ____.\nQuestion: One real question I have is ____.");
-setText(15, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", "Career connection: One career I am now curious about is ____ because ____.\n\nSave the page. Close or refresh. Reopen it.\n\nShow only that the page opens. Your private content stays private.");
-
-setText(16, "Evaluate: Planner Set-Up", "Close: prediction vs. result");
-setText(16, "From now until the next class, be sure to continue updating your planner.", "Compare your warm-up prediction with your result.\nWhat matched? What surprised you? What might explain the difference?\nTomorrow, you will connect your Core result to career clusters.");
-
-const noteSets = [
-  ["Timing: 0:00-0:30.", "Purpose: Hold this divider while students enter and open the Day 2 Canvas Student Guide.", "Monitor: Chromebooks out; no one begins in another student’s account.", "Pivot: If devices are not ready, keep the slide up and begin the oral materials check.", "Trim: Do not trim; this is a 30-second transition.", "Recovery: Canvas Student Guide remains the accessible/absence route.", "[Sources]", "- Jenna Hainlen, AVID Week 1.2 slide 25, day-divider layout.", "[/Sources]"],
-  ["Timing: 0:30-1:00.", "Purpose: Preview the whole 50-minute arc before the prediction begins.", "Monitor: Students can name the three materials and the final private output.", "Pivot: If H&L login status is uncertain, quietly prepare the provisional six-type route.", "Trim: Read only the bold action words; do not explain each step yet.", "Recovery: Students who arrive late start from the Canvas Day 2 guide and join at the current slide.", "[Sources]", "- Jenna Hainlen, AVID Week 1.2 slide 26, Welcome/Get Ready/Today’s Lesson choreography.", "- CCE Day 2 canonical lesson, accessed 2026-08-15.", "- Authenticated H&L Discover Your Core screenshot.", "[/Sources]"],
-  ["Timing: 1:00-4:00.", "Purpose: Capture a genuine prediction before instruction or the assessment changes it.", "Monitor: One word selected plus a short reason; no searching.", "Pivot: Read the six words aloud and point to each one for students who need language access.", "Trim: Accept the word only if time is tight.", "Recovery: A student may record the prediction on paper or in Canvas if the notebook is unavailable.", "[Sources]", "- CCE Day 2 warm-up.", "- Jenna Hainlen, AVID Week 1.2 slide 14, private Think routine.", "[/Sources]"],
-  ["Timing: 4:00-5:00.", "Purpose: Preserve Jenna’s fast share choreography while making seated, standing, and private routes equal.", "Monitor: Students share the prediction and one clue or write privately; no debate about a “best” type.", "Pivot: Keep everyone seated if movement would cost time; private writing remains equal.", "Trim: One partner speaks instead of both.", "Recovery: Students may write one reason rather than disclose aloud.", "[Sources]", "- Jenna Hainlen, AVID Week 1.2 slide 15, stand-share-sit routine, minimally adapted for equal access.", "[/Sources]"],
-  ["Timing: 5:00-9:00.", "Purpose: Frame CCE as the middle-school on-ramp to pathways without stealing time from the assessment.", "Monitor: Students can explain CCMR and Program of Study in plain language.", "Pivot: Point to FYF p. 21 and read only the two definitions if the class needs a concrete anchor.", "Trim: Ask the discussion question as a quick show of hands.", "Recovery: Absent students use FYF pp. 21-22 and answer the same question in the Canvas guide.", "[Sources]", "- Find Your Future pp. 21-22, What Is Happening at My District?", "- Jenna Hainlen, AVID Week 1.2 slide 22, paired writing frame.", "[/Sources]"],
-  ["Timing: 9:00-10:00.", "Purpose: Teach the three H&L words students will hear all year.", "Monitor: Students point to themselves for Climber, name one Hat, and understand cluster as related careers.", "Pivot: Give one familiar cluster example only if needed; do not launch a career-cluster lesson.", "Trim: Read the three definitions and move on.", "Recovery: The same definitions remain in the Canvas Student Guide.", "[Sources]", "- CCE Day 2 H&L orientation.", "- Jenna Hainlen, AVID Week 1.2 slide 23, paired writing frame.", "[/Sources]"],
-  ["Timing: 10:00-12:00.", "Purpose: Use the Climber Notes hook to make personality types feel relevant rather than diagnostic.", "Monitor: Students can name one activity that feels natural and one that feels effortful without labeling either as good or bad.", "Pivot: Offer school and out-of-school examples if the room is quiet.", "Trim: Read the first question and the final sentence only.", "Recovery: Students may think privately; no personal disclosure is required.", "[Sources]", "- Climber Notes: Learning Your Core Personality Types, slide 2.", "- Jenna Hainlen, AVID Week 1.2 slide 14, Think frame.", "[/Sources]"],
-  ["Timing: 12:00-15:00.", "Purpose: Give students enough language to understand the app result without turning the six types into stereotypes.", "Monitor: Students hear all six types and understand that most people match more than one.", "Pivot: Pair the English terms with the prepared Spanish glossary when useful.", "Trim: Read only each type name and the first phrase.", "Recovery: Keep this slide available for the provisional route if H&L is down.", "[Sources]", "- Climber Notes: Learning Your Core Personality Types, slide 3.", "- Jenna Hainlen, AVID Week 1.2 slide 22, paired writing frame.", "[/Sources]"],
-  ["Timing: 15:00-17:00.", "Purpose: Practice evidence-based matching before students see their own result.", "Monitor: Students give one clue and accept that multiple types may fit one career.", "Pivot: Model nurse as Helper plus Analyzer if students insist on one correct answer.", "Trim: Discuss one career only.", "Recovery: A private written answer counts equally.", "[Sources]", "- Climber Notes: Learning Your Core Personality Types, slide 5.", "- Jenna Hainlen, AVID Week 1.2 slide 23, paired writing frame.", "[/Sources]"],
-  ["Timing: 17:00-20:00.", "Purpose: Make the exact authenticated app route visible before students click.", "Monitor: Every student is in their own account and can locate Profile.", "Pivot: If the district route differs, follow the teacher’s tested campus SSO path; do not improvise credentials.", "Trim: Project the screenshot and state only Profile → Discover Your Core.", "Recovery: If H&L is unavailable, switch to the six-type chart and mark results provisional; protect Friday catch-up.", "[Sources]", "- Authenticated private Canvas screenshot: Open the Hats & Ladders App / Discover Your Core.", "- Climber Notes: Learning Your Core Personality Types, slide 4.", "- Jenna Hainlen, AVID Week 1.2 slide 26, agenda/image frame.", "[/Sources]"],
-  ["Timing: 20:00-27:00.", "Purpose: Establish the Climber Profile as the yearlong H&L home before the assessment begins.", "Monitor: Lap 1: each student has opened Profile and checked name/grade; avatar/photo follows campus policy.", "Pivot: Skip avatar/photo if it creates privacy, upload, or time problems.", "Trim: Check name/grade and move directly to Discover Your Core.", "Recovery: Record account issues; never use a peer’s account for a personal result.", "[Sources]", "- CCE Day 2 Climber Profile orientation.", "- Jenna Hainlen, AVID Week 1.2 slide 22, paired writing frame.", "[/Sources]"],
-  ["Timing: 27:00-31:00, then students continue independently through 42:00.", "Purpose: Give the exact app-to-notebook sequence before work time.", "Monitor: Students read questions rather than rapid-clicking; results remain open until the description is read.", "Pivot: Read questions aloud or pair students with fluent readers before the teacher becomes the only support route.", "Trim: State the three numbered result steps and release students.", "Recovery: Use the provisional six-type route if H&L fails, then schedule the individual app activity for Friday.", "[Sources]", "- Climber Notes: Learning Your Core Personality Types, slides 3-4.", "- CCE Day 2 canonical app task.", "- Jenna Hainlen, AVID Week 1.2 slide 23, paired writing frame.", "[/Sources]"],
-  ["Timing: 31:00-42:00 during app work.", "Purpose: Keep assessment conditions honest, readable, and nonjudgmental.", "Monitor: Lap 1 target is slow reading; stop and reset rapid click-through. Lap 2 target is a result description open on screen.", "Pivot: If one third of the class is stuck on language, pause for a whole-group read-aloud of one sample question.", "Trim: Do not trim the individual app runway; trim discussion instead.", "Recovery: Students without access choose a provisional type with one supporting phrase.", "[Sources]", "- CCE Day 2 active-monitoring and outage guidance.", "- Climber Notes: Learning Your Core Personality Types, slide 4.", "- Jenna Hainlen, AVID Week 1.2 slide 14, single-action prompt frame.", "[/Sources]"],
-  ["Timing: 42:00-45:00.", "Purpose: Model one short H&L result interpretation before students write; this is not the full AVID focused-note-taking lesson.", "Monitor: Students can point to the result, evidence phrase, question, and career connection in the model.", "Pivot: Read the model sentence by sentence and label each prompt aloud.", "Trim: Read only the Organizer model once.", "Recovery: Students may dictate to speech-to-text or use the Canvas text route.", "[Sources]", "- CCE Day 2 complete H&L interpretation model.", "- Jenna Hainlen, AVID Week 1.2 slide 22, model/writing frame only.", "[/Sources]"],
-  ["Timing: 45:00-49:00.", "Purpose: Capture the private interpretation the app and workbook do not already save without inventing a second packet or calling it AVID focused notes.", "Monitor: Lap 2 target is all four prompts; if one third writes only the type name, model choosing one meaningful phrase again.", "Pivot: Provide the four sentence stems or speech-to-text; students do not need to reveal private content.", "Trim: Require result + evidence phrase + career connection; carry the real question to the next class if needed.", "Recovery: Paper or Canvas response counts equally; label outage-based results provisional.", "[Sources]", "- CCE Day 2 private H&L interpretation and save check.", "- Jenna Hainlen, AVID Week 1.2 slide 23, writing frame only.", "[/Sources]"],
-  ["Timing: 49:00-50:00.", "Purpose: Close the loop between prediction and result and preview Core Day B.", "Monitor: Students can reopen the page; they show only that it opens, not the private content.", "Pivot: Take one silent thumb signal for match/surprise if verbal discussion would expose personal results.", "Trim: Ask only: match or surprise?", "Recovery: The Canvas Student Guide preserves the comparison prompt for absent students.", "[Sources]", "- CCE Day 2 DOK 2 comparison and Day 3 bridge.", "- Jenna Hainlen, AVID Week 1.2 slide 50, evaluation/close frame; Jess Bailey photo attribution retained on-slide.", "[/Sources]"],
-];
-noteSets.forEach((notes, index) => setNotes(index + 1, notes));
-
-const inspect = await presentation.inspect({
-  kind: "slide,textbox,image,notes",
-  maxChars: 500_000,
+// 2: As You Enter + Do Now (the six types in plain words, before the labels)
+doNow(S(2), {
+  kicker: KICKER,
+  materials: ["Your assigned Chromebook", `OneNote → CCE Work → ${PAGE}`, "Your IISD Google account (for Hats & Ladders)"],
+  prompt: "Which one sounds most like you?\nbuild or fix things · figure out how things work · make art, music, or stories · help people · lead a group · organize plans and details",
+  stem: "Day 2 page: I picked ____ because I often ____.\nEspañol: Elegí ____ porque a menudo ____.",
+  done: "one choice and one clue are written on your Day 2 page.",
 });
-await fs.writeFile(path.join(workspace, "final.inspect.ndjson"), inspect.ndjson);
 
-for (let index = 0; index < presentation.slides.items.length; index += 1) {
-  const slide = presentation.slides.items[index];
-  const number = String(index + 1).padStart(2, "0");
-  const png = await presentation.export({ slide, format: "png", scale: 2 });
-  await fs.writeFile(
-    path.join(previewDir, `final-slide-${number}.png`),
-    Buffer.from(await png.arrayBuffer()),
-  );
-  const layout = await slide.export({ format: "layout" });
-  await fs.writeFile(
-    path.join(layoutDir, `final-slide-${number}.layout.json`),
-    await layout.text(),
-  );
-}
+// 3: Today (objective + agenda + where each step happens)
+agenda(S(3), {
+  kicker: KICKER,
+  objective: "I can complete Discover Your Core in Hats & Ladders and explain my result with one detail from my Core description.",
+  teks: "TEKS 127.2 (d)(1)(A)",
+  steps: [
+    "Meet the six Core types and predict one (Day 2 page)",
+    "Why explore careers now? (Find Your Future p. 21)",
+    "Sign in with Google and finish Jumpstart Your Profile (H&L)",
+    "Complete Discover Your Core (H&L)",
+    "Record your result and one interpretation (Day 2 page)",
+  ],
+  done: "H&L shows Core Complete and your Day 2 page has your result + one interpretation",
+});
 
-const montage = await presentation.export({ format: "png", montage: true, scale: 1 });
-await fs.writeFile(
-  path.join(workspace, "final-montage.png"),
-  Buffer.from(await montage.arrayBuffer()),
-);
-const pptx = await PresentationFile.exportPptx(presentation);
-await pptx.save(outputPath);
-console.log(JSON.stringify({ outputPath, slideCount: presentation.slides.items.length, previewDir }, null, 2));
+// 4-5: The six Core types in plain words (Climber Notes chart, paraphrased; the official chart stays in the Student Guide)
+rowsSlide(S(4), {
+  kicker: KICKER,
+  title: "The six Core types (1 of 2)",
+  lineSize: 18,
+  rows: [
+    { head: "Doer", lines: ["Likes to: work with hands, tools, machines, or animals; solve real, physical problems.", "Right now: you are the one who actually builds the project."] },
+    { head: "Analyzer", lines: ["Likes to: research, observe, and figure out how things work; ask why and how.", "Right now: science or math clicks for you, or you love figuring things out."] },
+    { head: "Creator", lines: ["Likes to: express ideas through art, music, writing, or performance.", "Right now: you doodle, write stories, or play an instrument."] },
+  ],
+  done: "you can point to one type and say one real-life clue.",
+});
+rowsSlide(S(5), {
+  kicker: KICKER,
+  title: "The six Core types (2 of 2)",
+  lineSize: 18,
+  rows: [
+    { head: "Helper", lines: ["Likes to: connect with, support, and teach people.", "Right now: you are the friend people come to when something is wrong."] },
+    { head: "Persuader", lines: ["Likes to: lead, influence, and motivate others.", "Right now: you step up in group projects and get people on board."] },
+    { head: "Organizer", lines: ["Likes to: work with data, numbers, and systems; bring order and accuracy.", "Right now: your notes are organized and you like a clear process."] },
+  ],
+  done: "you found the type that matches your Do Now answer. Types are interest patterns, not grades.",
+});
+
+// 6: Predict one type
+guidedText(S(6), {
+  kicker: KICKER,
+  title: "Predict one type",
+  bodySize: 22,
+  body: "Doer · Analyzer · Creator · Helper · Persuader · Organizer\n\nAdd the type name to your Do Now line on your Day 2 page:\nMy prediction is ____ because I often ____.\nEspañol: Mi predicción es ____ porque a menudo ____.\n\nThis is a guess, not a grade. Do not open H&L yet.",
+  done: "one predicted type and one clue are on your Day 2 page.",
+});
+
+// 7: Why explore careers now? (FYF p. 21, teacher reads only the yellow box)
+await guidedScreen(S(7), {
+  kicker: KICKER,
+  title: "Why explore careers now?",
+  screen: "Find Your Future page 21. Your teacher reads only the yellow What is CCMR? box.",
+  action: "Listen to what CCMR means: College, Career, and Military Readiness.\nTurn and talk: Why is it helpful to think about future goals before high school?",
+  done: "You can give one reason career exploration helps you now.",
+  image: assets.ccmrPage,
+  alt: "Find Your Future page 21 defining College, Career, and Military Readiness and Programs of Study in Irving ISD",
+  callout: "TALK",
+});
+
+// 8-11: Hats & Ladders, one action per screen
+await guidedScreen(S(8), { kicker: KICKER, title: "Step 3 · Sign in with Google", screen: "The Hats & Ladders home after you sign in", action: "Go to app.hatsandladders.com.\nClick Sign in with Google and use your IISD account.\nCheck that the name at the top is yours.", done: "Your name is at the top and the yellow Profile Climbs card is on the screen.", image: assets.dashboard, alt: "Hats and Ladders home showing the yellow Profile Climbs card after Google sign-in", callout: "SIGN IN" });
+await guidedScreen(S(9), { kicker: KICKER, title: "Step 3 · Jumpstart Your Profile", screen: "The Jumpstart Your Profile start card", action: "In the yellow Profile Climbs card, click Jumpstart Your Profile.\nClick Start. Answer the short starting-point questions, then Next.", done: "Jumpstart is complete and you are back at Profile Climbs.", image: assets.jumpstart, alt: "Hats and Ladders Jumpstart Your Profile start card with Start button", callout: "GO" });
+await guidedScreen(S(10), { kicker: KICKER, title: "Step 4 · Start Discover Your Core", screen: "The Discover Your Core start card", action: "In Profile Climbs, click Discover Your Core.\nRead the directions. Click Start.\nAnswer as yourself, not as who you think you should be.", done: "The first thumbs-down / thumbs-up statement is open.", image: assets.coreStart, alt: "Hats and Ladders Discover Your Core start screen with Start button", callout: "GO" });
+await guidedScreen(S(11), { kicker: KICKER, title: "Step 4 · Answer honestly", screen: "One Discover Your Core statement with thumbs down and thumbs up", action: "Read the whole statement.\nChoose thumbs down or thumbs up.\nUse the arrow for the next one. No rushing.", done: "The progress bar moves after each answer.", image: assets.coreQuestion, alt: "Hats and Ladders Discover Your Core statement with thumbs down and thumbs up buttons", callout: "PICK" });
+
+// 12: Recap during work time
+recap(S(12), {
+  kicker: KICKER,
+  title: "While you work: Steps 3 and 4",
+  steps: [
+    "Sign in with Google → check your name → open Profile Climbs.",
+    "Jumpstart Your Profile → Start → answer the short questions.",
+    "Discover Your Core → Start → read each statement → thumbs down or thumbs up.",
+    "When you see Core Complete, keep it open and go to your Day 2 page.",
+  ],
+  done: "you see the Core Complete badge in H&L.",
+});
+
+// 13-14: Record the result and one interpretation
+await guidedScreen(S(13), { kicker: KICKER, title: "Step 5 · Record your result", screen: "The Core Complete badge and your result in H&L", action: "Keep H&L open.\nOn your Day 2 page write:\nMy H&L Core result is ____.", done: "Your result is on your Day 2 page.", image: assets.coreComplete, alt: "Hats and Ladders Core Complete badge screen", callout: "NOTE" });
+guidedText(S(14), {
+  kicker: KICKER,
+  title: "Step 5 · Choose ONE interpretation",
+  bodySize: 21,
+  body: "Finish ONE on your Day 2 page:\n• A phrase from my description that fits or surprises me is ____ because ____.\n• One real question I have is ____.\n• One career I am now curious about is ____ because ____.\n\nEspañol: Una frase que me describe es ____ porque ____.",
+  done: "one interpretation is written under your result.",
+});
+
+// 15: Compare prediction and result (analyze and discuss)
+talk(S(15), {
+  kicker: KICKER,
+  title: "Compare your prediction and your result",
+  partnerA: "Say your prediction and your result. Same or different?",
+  partnerB: "Ask: What might explain the match or the difference? Then switch.",
+  privateOption: "Write one sentence on your Day 2 page:\nMy result was the same as / different from my prediction because ____.",
+  done: "you can say one reason your result matched or differed.",
+});
+
+// 16: DOL + device return
+dol(S(16), {
+  kicker: KICKER,
+  title: "Show your learning, then return your device",
+  bodySize: 21,
+  body: "When your teacher comes by, point to your Day 2 page:\n1. your H&L Core result\n2. your one interpretation\n\nIf H&L did not open today, write provisional next to the type you chose from the chart. You will finish H&L on Friday.\n\nThen return your device the way the class practiced.",
+  done: "your Day 2 page shows your result + one interpretation and your device is returned.",
+});
+
+// Speaker notes (full schema on every slide)
+const SRC_LESSON = "CCE 1SW Wk0 Day 2 canonical lesson, docs/1sw/wk0-classroom-routines/day2.md";
+const SRC_AVID = "Jenna Hainlen, AVID Week 1.2 (teacher-provided), day-divider structure only";
+const SRC_CN = "Climber Notes, Learning Your Core Personality Types, slides 2-5 (hook and six-type chart)";
+const SRC_HL = "Owner-authenticated Hats & Ladders student-view captures, 2026-08-17";
+const SRC_FYF = "Find Your Future p. 21, What is Happening at My District? (yellow CCMR box only)";
+const RECOVERY_HL = "H&L down or account not found: never use another student's account. Student chooses a provisional type from the chart with one supporting phrase; record the name and protect Friday catch-up. Paper or a private Canvas response is equal to OneNote; no recopying later.";
+
+const notes = [
+  { time: "0:00-0:01", move: "Day divider while students check out assigned devices. Before class: test Sign in with Google → Profile Climbs → Jumpstart and Discover Your Core; distribute the Day 2 response page.", student: "Check out the device and sit.", lookFor: "Devices out; Day 2 page open.", pivot: "Show for seconds only.", recovery: RECOVERY_HL, sources: [SRC_AVID, SRC_LESSON] },
+  { time: "0:00-0:03", move: "Do Now in plain words. Silent think time; students write one activity phrase and one clue. This primes the six types before the labels appear.", student: "Write one choice and one clue on the Day 2 page.", lookFor: "A concrete clue (I often ...), not just the choice.", pivot: "Read the six phrases aloud once if students stall.", recovery: "Paper page is equal. A school or hobby example is fine.", sources: [SRC_LESSON, SRC_CN, "Jenna Hainlen, AVID Week 1.2 opener rhythm"] },
+  { time: "0:03-0:04", move: "Read the I-can statement and the five steps once. Point to where each step happens: Day 2 page, workbook page projected, H&L, H&L, Day 2 page.", student: "Read along.", lookFor: "Students can point to H&L vs. their Day 2 page.", pivot: "Do not re-explain; the recap returns during work time.", recovery: "The Student Guide carries the same five steps for absent students.", sources: [SRC_LESSON] },
+  { time: "0:04-0:05", move: "Introduce Doer, Analyzer, Creator from the official Climber Notes chart in plain words; connect each to the Do Now phrases (build/fix, figure out, make). Say plainly they are interest patterns, not grades or labels.", student: "Find the type that matches the Do Now answer.", lookFor: "Students pointing to a type and giving a real-life clue.", pivot: "One minute per slide; the full chart stays in the Student Guide.", recovery: "These two slides are the provisional route if H&L is down.", sources: [SRC_CN, SRC_LESSON] },
+  { time: "0:05-0:06", move: "Introduce Helper, Persuader, Organizer the same way (help, lead, organize). Most people match more than one type.", student: "Find the type that matches the Do Now answer.", lookFor: "Students can name one type and one clue.", pivot: "One minute.", recovery: "Provisional route if H&L is down.", sources: [SRC_CN, SRC_LESSON] },
+  { time: "0:06-0:07", move: "Students add the type name to their Do Now line. Take two or three quick verbal responses. Say it is a guess, not a grade.", student: "Write: My prediction is ____ because I often ____.", lookFor: "One type name and one clue on the page.", pivot: "One line only.", recovery: "Paper page is equal.", sources: [SRC_LESSON] },
+  { time: "0:07-0:11", move: "Project FYF p. 21 and name the source (not an H&L screen). Read only the yellow CCMR box aloud; ask the printed question; take one turn-and-talk. Frame CCE as the on-ramp to Irving ISD CTE pathways that begin in 8th grade. Transition: H&L will give us one clue about the kinds of work that may interest us.", student: "Listen; turn and talk once.", lookFor: "One reason career exploration helps now.", pivot: "Do not read the Programs of Study or CTE Center boxes today.", recovery: "None needed; workbook stays closed.", sources: [SRC_FYF, SRC_LESSON] },
+  { time: "0:11-0:14", move: "Model Sign in with Google once on the projector. Students confirm the displayed name is theirs.", student: "Sign in; check the name; find Profile Climbs.", lookFor: "Yellow Profile Climbs card visible on most screens.", pivot: "Account not found: seat the student by a partner, record the name, move on. Do not switch methods mid-lesson.", recovery: RECOVERY_HL, sources: [SRC_HL, SRC_LESSON] },
+  { time: "0:14-0:21", move: "Show the real Jumpstart card. Students click Jumpstart Your Profile, Start, and finish the short starting-point questions. Circulate; no profile photos today.", student: "Open Jumpstart; Start; answer; Next; return to Profile Climbs.", lookFor: "Students back at Profile Climbs by minute 21.", pivot: "Skip if profiles are already jumpstarted; if Jumpstart is slow for a few, they move to Discover Your Core as soon as it opens.", recovery: RECOVERY_HL, sources: [SRC_HL, SRC_LESSON] },
+  { time: "0:21-0:23", move: "Show the real Discover Your Core start card. Say: read every statement; honest answers are more useful than fast answers; no type is better than another.", student: "Open Discover Your Core; read; Start.", lookFor: "First statement open.", pivot: "None.", recovery: RECOVERY_HL, sources: [SRC_HL, SRC_LESSON] },
+  { time: "0:23-0:40", move: "Lap 1: every student is reading, not clicking through; stop and reset a rapid-clicker. Sit with a student who rushes and read aloud. Pair read-aloud needs with fluent-reading peers first.", student: "Answer each statement; keep going.", lookFor: "Progress bar moving at a reading pace.", pivot: "If a third of the class is done early, use the discussion frame: which type fits a nurse, a chef, a pilot? Why more than one type?", recovery: RECOVERY_HL, sources: [SRC_HL, SRC_LESSON] },
+  { time: "0:23-0:40 (leave up)", move: "Keep this recap projected during work time. Point to the current step when a student loses the thread.", student: "Follow the four steps to Core Complete.", lookFor: "Students who finish keep H&L open and move to the Day 2 page.", pivot: "None.", recovery: RECOVERY_HL, sources: [SRC_LESSON] },
+  { time: "0:40-0:42", move: "Students record the result. Lap 2: the notebook interpretation begins; if a third of the class copies only the type name, read one description aloud and model choosing a meaningful phrase.", student: "Write: My H&L Core result is ____.", lookFor: "Result name on the page.", pivot: "One line.", recovery: "Provisional result labeled if H&L was unavailable.", sources: [SRC_HL, SRC_LESSON] },
+  { time: "0:42-0:46", move: "Students choose one interpretation. Complete model: 'My H&L result is Organizer. The phrase likes clear systems fits because I keep group projects on track.'", student: "Write one interpretation.", lookFor: "A phrase, question, or career curiosity with a because.", pivot: "Do not add a second interpretation or a separate exit ticket.", recovery: "Paper or private Canvas response is equal.", sources: [SRC_LESSON] },
+  { time: "0:46-0:48", move: "Partner talk (teacher-created AVID routine) on the DOK 2 question: how is your result different from or the same as your prediction, and what might explain it? Private written option is equal.", student: "Compare prediction and result with a partner or in writing.", lookFor: "A reason, not just same/different.", pivot: "Cut to one exchange if short on time.", recovery: "Seated/private response equal to sharing aloud.", sources: [SRC_LESSON, "Jenna Hainlen, AVID Week 1 partner-share routine"] },
+  { time: "0:48-0:50", move: "DOL: students point to the result and interpretation privately; they do not display content to the class. Then run the device-return routine.", student: "Show the page when asked; return the device.", lookFor: "Result + one interpretation on every page, or provisional label.", pivot: "Protect this DOL; trim talk time before trimming this.", recovery: "Provisional route recorded; Friday catch-up protected.", sources: [SRC_LESSON] },
+];
+notes.forEach((spec, index) => setNotes(S(index + 1), spec));
+
+const result = await finalize(runtime, presentation, { workspace, outputPath, expectedCount: 16 });
+console.log(JSON.stringify(result, null, 2));

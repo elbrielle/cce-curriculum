@@ -107,18 +107,22 @@ def main() -> None:
 
     parity_unit_titles: dict[tuple[str, str], str] = {}
     for artifact in parity["artifacts"]:
-        match = re.fullmatch(r"([1-6]SW) (Wk\d+) Day \d+", artifact["curriculum_address"])
+        # Daily decks use "<SW> <Wk> Day N"; a teacher weekly implementation deck
+        # uses "<SW> <Wk> <Teacher> weekly implementation" and belongs to the same week.
+        match = re.fullmatch(r"([1-6]SW) (Wk\d+) (?:Day \d+|\S+ weekly implementation)", artifact["curriculum_address"])
         if not match:
             continue
         key = match.group(1), match.group(2)
         require(key in weeks, f"editable artifact has no public curriculum week: {artifact['key']}")
-        unit_title = artifact["drive"]["unit_folder"]["title"]
-        previous_title = parity_unit_titles.setdefault(key, unit_title)
-        require(
-            previous_title == unit_title,
-            f"editable artifacts disagree on the Drive unit title for {key[0]} {key[1]}",
-        )
-        weeks[key]["drive_folder_title"] = unit_title
+        unit_folder = artifact["drive"].get("unit_folder")
+        if unit_folder:
+            unit_title = unit_folder["title"]
+            previous_title = parity_unit_titles.setdefault(key, unit_title)
+            require(
+                previous_title == unit_title,
+                f"editable artifacts disagree on the Drive unit title for {key[0]} {key[1]}",
+            )
+            weeks[key]["drive_folder_title"] = unit_title
         weeks[key]["editable_artifacts"].append(
             {
                 "key": artifact["key"],
