@@ -46,8 +46,8 @@ SUPPORT_UPLOADS = {
 }
 GOOGLE_DECK_COPY_URLS = {
     1: "https://docs.google.com/presentation/d/1xFcSPWu2qyQnNcihzHFpubHbVU_MCT1bX3fjEq-NQQQ/copy",
-    2: "https://docs.google.com/presentation/d/13hsWv5_pShfI0bzmxAgaLLREGLGvM_Nwscpnph5WLKo/copy",
-    3: "https://docs.google.com/presentation/d/1UX3uGRnXlVI8TW1wbJAlS28pXy4hyfQnbvillK7xRdk/copy",
+    2: "https://docs.google.com/presentation/d/1uUz-OkpLnE-idZdrseGqmLHolfMtE0ZxuHfO_hS3Zno/copy",
+    3: "https://docs.google.com/presentation/d/1omosqSGXcYIXRToaOiJxCTrIbV_JBX0_xf3QNoMYbBA/copy",
     4: "https://docs.google.com/presentation/d/1aQm3ndpwRZ09E_jJNjzIZ46GaNpdWEC8FY2Er7Y90y4/copy",
     5: "https://docs.google.com/presentation/d/1NCK6fm2PLEI1w-fJAKqF5moIloAVN1oq0Sg2FKRK49c/copy",
 }

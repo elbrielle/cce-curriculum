@@ -22,8 +22,52 @@ const routeImagePath = path.join(
   root,
   "cce-curriculum/resources/canvas-licensed/1sw/wk0/day2/open-hats-and-ladders-discover-your-core.png",
 );
+const assets = {
+  typesChart: path.join(
+    root,
+    "cce-curriculum/resources/canvas-licensed/1sw/wk0/day2/six-core-personality-types.png",
+  ),
+  ccmrPage: path.join(
+    root,
+    "cce-curriculum/resources/canvas-licensed/1sw/wk0/day2/irving-isd-ccmr-programs-of-study.png",
+  ),
+  goalReasonAction: path.join(
+    root,
+    "cce-curriculum/resources/owner-authenticated-source/onenote/screens/first-week-goal-reason-and-action.png",
+  ),
+  goalSupport: path.join(
+    root,
+    "cce-curriculum/resources/owner-authenticated-source/onenote/screens/first-week-goal-support.png",
+  ),
+  dashboard: path.join(
+    root,
+    "cce-curriculum/resources/owner-authenticated-source/hats-and-ladders/screens/dashboard-profile-climbs.png",
+  ),
+  jumpstart: path.join(
+    root,
+    "cce-curriculum/resources/owner-authenticated-source/hats-and-ladders/screens/jumpstart-profile-start.png",
+  ),
+  jumpstartQuestion: path.join(
+    root,
+    "cce-curriculum/resources/owner-authenticated-source/hats-and-ladders/screens/jumpstart-starting-point-question.png",
+  ),
+  coreStart: path.join(
+    root,
+    "cce-curriculum/resources/owner-authenticated-source/hats-and-ladders/screens/discover-your-core-start.png",
+  ),
+  coreQuestion: path.join(
+    root,
+    "cce-curriculum/resources/owner-authenticated-source/hats-and-ladders/screens/discover-your-core-question.png",
+  ),
+  coreComplete: path.join(
+    root,
+    "cce-curriculum/resources/owner-authenticated-source/hats-and-ladders/screens/core-complete-badge.png",
+  ),
+};
 
 const { FileBlob, PresentationFile } = await importRuntimeModule("@oai/artifact-tool");
+const sharpModule = await importRuntimeModule("sharp");
+const sharp = sharpModule.default ?? sharpModule;
 await fs.mkdir(path.dirname(outputPath), { recursive: true });
 await fs.mkdir(previewDir, { recursive: true });
 await fs.mkdir(layoutDir, { recursive: true });
@@ -59,6 +103,180 @@ function setNotes(slide, lines) {
   notes.setText(lines.join("\n"));
 }
 
+function addText(slide, text, position, style = {}) {
+  const shape = slide.shapes.add({
+    geometry: "textbox",
+    position,
+    fill: "none",
+    line: { style: "solid", fill: "none", width: 0 },
+  });
+  shape.text = text;
+  shape.text.style = {
+    fontSize: style.fontSize ?? 20,
+    bold: style.bold ?? false,
+    color: style.color ?? "#202331",
+    fontFamily: "Aptos",
+  };
+  return shape;
+}
+
+function coverSlide(slideNumber, title, kicker = "CCE WEEK 1 · TUESDAY") {
+  const slide = presentation.slides.items[slideNumber - 1];
+  [...slide.images.items].forEach((image) => image.delete());
+  slide.shapes.deleteAll();
+  slide.shapes.add({
+    geometry: "rect",
+    position: { left: 0, top: 0, width: 960, height: 540 },
+    fill: "#C9D0EF",
+    line: { style: "solid", fill: "#C9D0EF", width: 0 },
+  });
+  const pill = slide.shapes.add({
+    geometry: "roundRect",
+    position: { left: 28, top: 24, width: 204, height: 30 },
+    fill: "#FFD357",
+    line: { style: "solid", fill: "#A86600", width: 1 },
+    borderRadius: "rounded-full",
+  });
+  pill.text = kicker;
+  pill.text.style = { fontSize: 12, bold: true, color: "#553400", fontFamily: "Aptos" };
+  addText(slide, title, { left: 60, top: 64, width: 840, height: 48 }, { fontSize: 30, bold: true });
+  return slide;
+}
+
+async function addGuidedScreen(slideNumber, config) {
+  const slide = coverSlide(slideNumber, config.title, config.kicker);
+  slide.shapes.add({
+    geometry: "roundRect",
+    position: { left: 28, top: 122, width: 330, height: 380 },
+    fill: "#FFFFFF",
+    line: { style: "solid", fill: "#8390C4", width: 1 },
+    borderRadius: "rounded-xl",
+  });
+  addText(slide, "WHAT YOU SEE", { left: 48, top: 140, width: 280, height: 24 }, { fontSize: 12, bold: true, color: "#6350A8" });
+  addText(slide, config.screen, { left: 48, top: 166, width: 280, height: 70 }, { fontSize: 17, bold: true });
+  addText(slide, "DO THIS", { left: 48, top: 238, width: 280, height: 22 }, { fontSize: 12, bold: true, color: "#6350A8" });
+  addText(slide, config.action, { left: 48, top: 262, width: 280, height: 104 }, { fontSize: 17 });
+  slide.shapes.add({
+    geometry: "roundRect",
+    position: { left: 46, top: 382, width: 294, height: 96 },
+    fill: "#FFF4C5",
+    line: { style: "solid", fill: "#D69B00", width: 1 },
+    borderRadius: "rounded-lg",
+  });
+  addText(slide, "DONE WHEN", { left: 62, top: 394, width: 250, height: 22 }, { fontSize: 12, bold: true, color: "#7A4A00" });
+  addText(slide, config.done, { left: 62, top: 418, width: 250, height: 56 }, { fontSize: 15, bold: true });
+  slide.shapes.add({
+    geometry: "roundRect",
+    position: { left: 394, top: 122, width: 538, height: 380 },
+    fill: "#FFFFFF",
+    line: { style: "solid", fill: "#8390C4", width: 1 },
+    borderRadius: "rounded-xl",
+  });
+  slide.images.add({
+    blob: await fs.readFile(config.filePath),
+    contentType: "image/png",
+    alt: config.alt,
+    fit: config.fit ?? "contain",
+    position: { left: 410, top: 138, width: 506, height: 348 },
+  });
+  const arrow = slide.shapes.add({
+    geometry: "rightArrow",
+    position: { left: 344, top: 273, width: 62, height: 42 },
+    fill: "#FFD357",
+    line: { style: "solid", fill: "#A86600", width: 1 },
+  });
+  arrow.text = config.callout ?? "";
+  arrow.text.style = { fontSize: 10, bold: true, color: "#553400", fontFamily: "Aptos" };
+}
+
+function addGuidedText(slideNumber, title, body, done, kicker = "CCE WEEK 1 · TUESDAY") {
+  const slide = coverSlide(slideNumber, title, kicker);
+  slide.shapes.add({
+    geometry: "roundRect",
+    position: { left: 70, top: 140, width: 820, height: 238 },
+    fill: "#FFFFFF",
+    line: { style: "solid", fill: "#8390C4", width: 1 },
+    borderRadius: "rounded-xl",
+  });
+  addText(slide, body, { left: 100, top: 174, width: 760, height: 180 }, { fontSize: 24 });
+  slide.shapes.add({
+    geometry: "roundRect",
+    position: { left: 170, top: 410, width: 620, height: 72 },
+    fill: "#FFF4C5",
+    line: { style: "solid", fill: "#D69B00", width: 1 },
+    borderRadius: "rounded-lg",
+  });
+  addText(slide, `DONE WHEN: ${done}`, { left: 192, top: 428, width: 576, height: 38 }, { fontSize: 19, bold: true });
+}
+
+async function addTypesChartHalf(slideNumber, { title, top, height, prompt, done, includeHeader = false }) {
+  const slide = coverSlide(slideNumber, title);
+  const body = await sharp(assets.typesChart)
+    .extract({ left: 30, top, width: 1540, height })
+    .png()
+    .toBuffer();
+  let crop = body;
+  if (includeHeader) {
+    const header = await sharp(assets.typesChart)
+      .extract({ left: 30, top: 145, width: 1540, height: 80 })
+      .png()
+      .toBuffer();
+    crop = await sharp({
+      create: { width: 1540, height: height + 80, channels: 4, background: "#FFFFFF" },
+    })
+      .composite([{ input: header, left: 0, top: 0 }, { input: body, left: 0, top: 80 }])
+      .png()
+      .toBuffer();
+  }
+  slide.images.add({
+    blob: crop,
+    contentType: "image/png",
+    alt: `${title} rows from the Canvas six Core personality types chart`,
+    fit: "contain",
+    position: { left: 36, top: 120, width: 888, height: 300 },
+  });
+  slide.shapes.add({
+    geometry: "rect",
+    position: { left: 36, top: 438, width: 888, height: 64 },
+    fill: "#5A2D91",
+    line: { style: "solid", fill: "#5A2D91", width: 0 },
+  });
+  addText(slide, `DO THIS: ${prompt}`, { left: 56, top: 448, width: 848, height: 22 }, { fontSize: 16, bold: true, color: "#FFFFFF" });
+  addText(slide, `DONE WHEN: ${done}`, { left: 56, top: 473, width: 848, height: 22 }, { fontSize: 15, bold: true, color: "#FFD357" });
+}
+
+async function addCcmrContextSlide() {
+  const slide = presentation.slides.items[5];
+  [...slide.images.items].forEach((image) => image.delete());
+  slide.shapes.deleteAll();
+  slide.shapes.add({ geometry: "rect", position: { left: 0, top: 0, width: 960, height: 540 }, fill: "#C9D0EF", line: { style: "solid", fill: "#C9D0EF", width: 0 } });
+  const pill = slide.shapes.add({ geometry: "roundRect", position: { left: 28, top: 24, width: 204, height: 30 }, fill: "#FFD357", line: { style: "solid", fill: "#A86600", width: 1 }, borderRadius: "rounded-full" });
+  pill.text = "CCE WEEK 1 · TUESDAY";
+  pill.text.style = { fontSize: 12, bold: true, color: "#553400", fontFamily: "Aptos" };
+  addText(slide, "Why explore careers now?", { left: 60, top: 64, width: 840, height: 48 }, { fontSize: 30, bold: true });
+  slide.shapes.add({ geometry: "roundRect", position: { left: 28, top: 122, width: 360, height: 380 }, fill: "#FFFFFF", line: { style: "solid", fill: "#8390C4", width: 1 }, borderRadius: "rounded-xl" });
+  addText(slide, "WHAT YOU SEE", { left: 48, top: 140, width: 300, height: 24 }, { fontSize: 12, bold: true, color: "#6350A8" });
+  addText(slide, "Find Your Future p. 21\nThis is not an H&L screen.", { left: 48, top: 166, width: 300, height: 64 }, { fontSize: 17, bold: true });
+  addText(slide, "DO THIS", { left: 48, top: 238, width: 300, height: 22 }, { fontSize: 12, bold: true, color: "#6350A8" });
+  addText(slide, "Listen to the CCMR definition. Turn and talk: Why think about future goals before high school?", { left: 48, top: 264, width: 300, height: 104 }, { fontSize: 17 });
+  slide.shapes.add({ geometry: "roundRect", position: { left: 46, top: 382, width: 324, height: 96 }, fill: "#FFF4C5", line: { style: "solid", fill: "#D69B00", width: 1 }, borderRadius: "rounded-lg" });
+  addText(slide, "DONE WHEN", { left: 62, top: 394, width: 280, height: 22 }, { fontSize: 12, bold: true, color: "#7A4A00" });
+  addText(slide, "You can give one reason career exploration helps now.", { left: 62, top: 418, width: 280, height: 56 }, { fontSize: 15, bold: true });
+  slide.shapes.add({ geometry: "roundRect", position: { left: 414, top: 122, width: 518, height: 380 }, fill: "#FFFFFF", line: { style: "solid", fill: "#8390C4", width: 1 }, borderRadius: "rounded-xl" });
+  slide.images.add({
+    blob: await fs.readFile(assets.ccmrPage),
+    contentType: "image/png",
+    alt: "Find Your Future page 21 with the yellow What is CCMR note highlighted as today's only reading target",
+    fit: "contain",
+    position: { left: 430, top: 138, width: 178, height: 348 },
+  });
+  slide.shapes.add({ geometry: "roundRect", position: { left: 626, top: 144, width: 286, height: 336 }, fill: "#FFF4A8", line: { style: "solid", fill: "#D69B00", width: 1 }, borderRadius: "rounded-lg" });
+  addText(slide, "READ ONLY THE YELLOW NOTE", { left: 646, top: 162, width: 246, height: 26 }, { fontSize: 13, bold: true, color: "#6B3B87", align: "center" });
+  addText(slide, "What is CCMR?", { left: 646, top: 198, width: 246, height: 34 }, { fontSize: 22, bold: true, color: "#5A2D91", align: "center" });
+  addText(slide, "College, Career, and Military Readiness means preparing now for education, training, military service, or work after high school.", { left: 650, top: 244, width: 238, height: 132 }, { fontSize: 17, bold: true, align: "center" });
+  addText(slide, "WHY IT MATTERS\nCareer exploration helps you make informed choices before those choices become urgent.", { left: 650, top: 392, width: 238, height: 72 }, { fontSize: 13, bold: true, color: "#553400", align: "center" });
+}
+
 async function replaceRouteImage(slide) {
   const image = presentation.resolve(recordFor("image", slide).id);
   const oldFrame = image.frame;
@@ -88,83 +306,71 @@ async function replaceRouteImage(slide) {
 
 setText(1, "Wednesday/ Thursday", "Tuesday");
 
-setText(2, "Pencil\nGet ready to share an answer ——> ", "Chromebook\nFind Your Future workbook\nOpen your private CCE notebook");
-setText(2, "Ball Toss\nFinish Successful Student Poster", "Predict your type\nSet up Profile + Discover Your Core\nSave one private interpretation");
-await replaceRouteImage(2);
+addGuidedText(2, "Open CCE Work", "OneNote → private notebook → CCE Work\n\nOPEN:\n• Notebook Setup + First-Week Goal\n• Core Personality – Day 2\n\nCanvas or paper today? Use that route instead.", "both response pages are open");
+await addGuidedScreen(3, { title: "Finish reason + action", screen: "Your private First-Week CCE Goal page in OneNote", action: "Complete WHY IT MATTERS. Then write ONE ACTION you control. If these are already finished, skip ahead.", done: "Both boxes contain a specific answer for this week.", filePath: assets.goalReasonAction, alt: "OneNote first-week goal template showing why it matters and one action fields" });
+await addGuidedScreen(4, { title: "If needed · Finish confidence and support", screen: "The bottom of the same OneNote goal page", action: "Choose your confidence rating. Name one person, tool, or plan that can help. If finished, skip ahead.", done: "A confidence number and one support are recorded.", filePath: assets.goalSupport, alt: "OneNote first-week goal template showing confidence and support fields" });
+addGuidedText(5, "Check the plan", "Read the answers once.\n\nCan you do the action?\nIs the checkpoint real?\nCan you use the support?\n\nLeave this page open. Do not start a second copy.", "the plan is usable and the Core activity can begin");
+await addCcmrContextSlide();
+await addTypesChartHalf(7, { title: "Doer · Analyzer · Creator", top: 145, height: 410, prompt: "Core types are H&L interest patterns. Read one row and point to a clue.", done: "you can explain one type with a real-life example" });
+await addTypesChartHalf(8, { title: "Core types 4–6", top: 535, height: 335, prompt: "Core types are not grades or permanent labels. Read one row and point to a clue.", done: "you can explain one type with a real-life example", includeHeader: true });
+addGuidedText(9, "Predict one—for now", "On OneNote → CCE Work → Core Personality – Day 2, write:\n\nMy prediction is ____ because I often ____.\n\nDo not open H&L yet. This is only a guess; your result may include more than one type.", "one predicted type and one real-life clue are recorded");
+await addGuidedScreen(10, { title: "Step 1 · Open Profile Climbs", screen: "The Hats & Ladders dashboard after Sign in with Google", action: "Find the yellow Profile Climbs column. Click Jumpstart Your Profile.", done: "The Jumpstart start screen is open.", filePath: assets.dashboard, alt: "Hats and Ladders dashboard with the yellow Profile Climbs column and Jumpstart Your Profile card", callout: "CLICK" });
+await addGuidedScreen(11, { title: "Step 2 · Start Jumpstart", screen: "The Jumpstart Your Profile start card", action: "Read the short introduction. Click Start when you are ready.", done: "You see the first starting-point question.", filePath: assets.jumpstart, alt: "Hats and Ladders Jumpstart Your Profile start screen with Start button", callout: "GO" });
+await addGuidedScreen(12, { title: "Step 3 · Answer the starting-point question", screen: "A Jumpstart question with five choices", action: "Choose the answer that best describes you now. Then click Next.", done: "Your choice is selected and the next screen opens.", filePath: assets.jumpstartQuestion, alt: "Hats and Ladders Jumpstart starting-point question with five answer choices", callout: "NEXT" });
+await addGuidedScreen(13, { title: "Step 4 · Start Core", screen: "The Discover Your Core start card", action: "Read the directions. Click Start. Answer as yourself—not as the person you think you should be.", done: "The first thumbs-down or thumbs-up statement is open.", filePath: assets.coreStart, alt: "Hats and Ladders Discover Your Core start screen showing Start button", callout: "GO" });
+await addGuidedScreen(14, { title: "Step 5 · Answer honestly", screen: "One Discover Your Core statement with thumbs down and thumbs up", action: "Read the whole statement. Choose thumbs down or thumbs up. Use the arrow for the next statement.", done: "The progress bar moves after each answer.", filePath: assets.coreQuestion, alt: "Hats and Ladders Discover Your Core question with thumbs down and thumbs up choices", callout: "PICK" });
+await addGuidedScreen(15, { title: "Record the result", screen: "The Core Complete badge in H&L", action: "Keep H&L open. Go to OneNote → private notebook → CCE Work → Core Personality – Day 2. Record the result + ONE interpretation.", done: "Result + one phrase, question, or career curiosity.", filePath: assets.coreComplete, alt: "Hats and Ladders Core Complete badge confirming Core Personality was completed in Profile", callout: "NOTE" });
+addGuidedText(16, "DOL · Mark your stopping point", "Choose ONE:\n\n• Core complete + private note\n• Still in Jumpstart or Core\n• Need sign-in help\n\nReturn your device. Tomorrow, bring your Core result to Work Values.", "your stopping point is recorded and your device is returned");
 
-setText(3, "Think", "Think");
-setText(3, "What are some behaviors that successful students do?\n", "Choose ONE word that sounds most like you right now:\n\nDoer  •  Analyzer  •  Creator  •  Helper  •  Persuader  •  Organizer\n\nWrite your prediction. Do not look anything up yet.");
-
-setText(4, "stand-share-sit", "Share or stay private");
-setText(4, "Everyone stand.\n\nShare with your partner: What are some behaviors that successful students do?\n\nOnce you share, sit down. \n", "Choose one route.\n\nShare seated or standing: Which word did you predict, and what clue made you choose it?\n\nOr write your answer privately. When you finish, look up.");
-
-setText(5, "Let’s write!", "Why are we doing this now?");
-setText(5, "Seat 1- Writer", "CCMR\nCollege, Career, and Military Readiness means preparing for life after high school.");
-setText(5, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", "PROGRAM OF STUDY\n\nA sequence of related courses that combines classroom learning, hands-on experience, and skill development.\n\nDiscuss: Why start thinking about future goals before high school?");
-
-setText(6, "Let’s write!", "Three Hats & Ladders words");
-setText(6, "Seat 2- Speaker", "CLIMBER\nYou\nHAT\nA career you can explore");
-setText(6, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", "CLUSTER\nA group of related careers\n\nYour Climber Profile gathers what you learn about yourself. It grows across our three Core Days.");
-
-setText(7, "Think", "Think");
-setText(7, "What are some behaviors that successful students do?\n", "Why do some activities feel natural while others feel like a chore?\n\nPersonality types can help explain the difference. Most people match more than one type.");
-
-setText(8, "Let’s write!", "Meet the six core types");
-setText(8, "Seat 1- Writer", "DOER\nHands, tools, real problems\nANALYZER\nResearch, observe, ask why\nCREATOR\nArt, music, writing");
-setText(8, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", "HELPER\nSupport, teach, connect with people\n\nPERSUADER\nLead, influence, motivate\n\nORGANIZER\nData, numbers, systems, accuracy");
-
-setText(9, "Let’s write!", "Try a quick match");
-setText(9, "Seat 2- Speaker", "With a partner or privately:\nChoose a likely top type.\nName one clue.\nMore than one answer may fit.");
-setText(9, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", "Which core type might fit a nurse?\n\nA chef?\n\nA pilot?\n\nWhy can one career need more than one type?");
-
-setText(10, "Welcome!", "Open Hats & Ladders");
-setText(10, "Get Ready", "Campus login");
-setText(10, "Today’s Lesson", "Exact route");
-setText(10, "Pencil\nGet ready to share an answer ——> ", "Use your campus SSO.\nStay in your own account.");
-setText(10, "Ball Toss\nFinish Successful Student Poster", "Open Profile.\nChoose Discover Your Core.\nKeep it open for your result.");
-await replaceRouteImage(10);
-
-setText(11, "Let’s write!", "Set up your Climber Profile");
-setText(11, "Seat 1- Writer", "1. Open Profile.\n2. Check your name and grade.\n3. Choose an avatar or photo only if campus rules allow.");
-setText(11, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", "Notice that the profile is mostly empty.\n\nAcross Core Days A, B, and C, it becomes a snapshot of you as a career explorer.\n\nToday begins with personality.");
-
-setText(12, "Let’s write!", "Discover Your Core");
-setText(12, "Seat 2- Speaker", "Profile → Discover Your Core\nRead slowly.\nAnswer honestly.");
-setText(12, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", "When your result appears:\n\n1. Read the description.\n2. Choose one phrase that fits or surprises you.\n3. Open Core Personality — Day 2 in your private CCE notebook.");
-
-setText(13, "Think", "Work honestly");
-setText(13, "What are some behaviors that successful students do?\n", "There are no wrong answers and no better types.\n\nSlow down enough to understand each question. Ask for a read-aloud when you need it.\n\nIf H&L will not open, choose a provisional type from the class chart and label it provisional.");
-
-setText(14, "Let’s write!", "Complete model");
-setText(14, "Seat 1- Writer", "RESULT = my top type\nEVIDENCE = phrase from the description\nQUESTION = what I still wonder\nCAREER CONNECTION = one curiosity");
-setText(14, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", "My result is Organizer. The phrase “likes clear systems” fits because I keep group projects on track. I wonder whether Organizers can also enjoy art. I am curious about event planning because it mixes systems with creative choices.");
-
-setText(15, "Let’s write!", "Your private interpretation");
-setText(15, "Seat 2- Speaker", "Result: My top type is ____.\nEvidence: One phrase that fits or surprises me is ____.\nQuestion: One real question I have is ____.");
-setText(15, "Question\n\nOf the nine soft skills described in the article, which one does your table think is the most important for success in high school right now? Explain your reasoning.\n\nMinimum: 3 sentences", "Career connection: One career I am now curious about is ____ because ____.\n\nSave the page. Close or refresh. Reopen it.\n\nShow only that the page opens. Your private content stays private.");
-
-setText(16, "Evaluate: Planner Set-Up", "Close: prediction vs. result");
-setText(16, "From now until the next class, be sure to continue updating your planner.", "Compare your warm-up prediction with your result.\nWhat matched? What surprised you? What might explain the difference?\nTomorrow, you will connect your Core result to career clusters.");
-
-const noteSets = [
-  ["Timing: 0:00-0:30.", "Purpose: Hold this divider while students enter and open the Day 2 Canvas Student Guide.", "Monitor: Chromebooks out; no one begins in another student’s account.", "Pivot: If devices are not ready, keep the slide up and begin the oral materials check.", "Trim: Do not trim; this is a 30-second transition.", "Recovery: Canvas Student Guide remains the accessible/absence route.", "[Sources]", "- Jenna Hainlen, AVID Week 1.2 slide 25, day-divider layout.", "[/Sources]"],
-  ["Timing: 0:30-1:00.", "Purpose: Preview the whole 50-minute arc before the prediction begins.", "Monitor: Students can name the three materials and the final private output.", "Pivot: If H&L login status is uncertain, quietly prepare the provisional six-type route.", "Trim: Read only the bold action words; do not explain each step yet.", "Recovery: Students who arrive late start from the Canvas Day 2 guide and join at the current slide.", "[Sources]", "- Jenna Hainlen, AVID Week 1.2 slide 26, Welcome/Get Ready/Today’s Lesson choreography.", "- CCE Day 2 canonical lesson, accessed 2026-08-15.", "- Authenticated H&L Discover Your Core screenshot.", "[/Sources]"],
-  ["Timing: 1:00-4:00.", "Purpose: Capture a genuine prediction before instruction or the assessment changes it.", "Monitor: One word selected plus a short reason; no searching.", "Pivot: Read the six words aloud and point to each one for students who need language access.", "Trim: Accept the word only if time is tight.", "Recovery: A student may record the prediction on paper or in Canvas if the notebook is unavailable.", "[Sources]", "- CCE Day 2 warm-up.", "- Jenna Hainlen, AVID Week 1.2 slide 14, private Think routine.", "[/Sources]"],
-  ["Timing: 4:00-5:00.", "Purpose: Preserve Jenna’s fast share choreography while making seated, standing, and private routes equal.", "Monitor: Students share the prediction and one clue or write privately; no debate about a “best” type.", "Pivot: Keep everyone seated if movement would cost time; private writing remains equal.", "Trim: One partner speaks instead of both.", "Recovery: Students may write one reason rather than disclose aloud.", "[Sources]", "- Jenna Hainlen, AVID Week 1.2 slide 15, stand-share-sit routine, minimally adapted for equal access.", "[/Sources]"],
-  ["Timing: 5:00-9:00.", "Purpose: Frame CCE as the middle-school on-ramp to pathways without stealing time from the assessment.", "Monitor: Students can explain CCMR and Program of Study in plain language.", "Pivot: Point to FYF p. 21 and read only the two definitions if the class needs a concrete anchor.", "Trim: Ask the discussion question as a quick show of hands.", "Recovery: Absent students use FYF pp. 21-22 and answer the same question in the Canvas guide.", "[Sources]", "- Find Your Future pp. 21-22, What Is Happening at My District?", "- Jenna Hainlen, AVID Week 1.2 slide 22, paired writing frame.", "[/Sources]"],
-  ["Timing: 9:00-10:00.", "Purpose: Teach the three H&L words students will hear all year.", "Monitor: Students point to themselves for Climber, name one Hat, and understand cluster as related careers.", "Pivot: Give one familiar cluster example only if needed; do not launch a career-cluster lesson.", "Trim: Read the three definitions and move on.", "Recovery: The same definitions remain in the Canvas Student Guide.", "[Sources]", "- CCE Day 2 H&L orientation.", "- Jenna Hainlen, AVID Week 1.2 slide 23, paired writing frame.", "[/Sources]"],
-  ["Timing: 10:00-12:00.", "Purpose: Use the Climber Notes hook to make personality types feel relevant rather than diagnostic.", "Monitor: Students can name one activity that feels natural and one that feels effortful without labeling either as good or bad.", "Pivot: Offer school and out-of-school examples if the room is quiet.", "Trim: Read the first question and the final sentence only.", "Recovery: Students may think privately; no personal disclosure is required.", "[Sources]", "- Climber Notes: Learning Your Core Personality Types, slide 2.", "- Jenna Hainlen, AVID Week 1.2 slide 14, Think frame.", "[/Sources]"],
-  ["Timing: 12:00-15:00.", "Purpose: Give students enough language to understand the app result without turning the six types into stereotypes.", "Monitor: Students hear all six types and understand that most people match more than one.", "Pivot: Pair the English terms with the prepared Spanish glossary when useful.", "Trim: Read only each type name and the first phrase.", "Recovery: Keep this slide available for the provisional route if H&L is down.", "[Sources]", "- Climber Notes: Learning Your Core Personality Types, slide 3.", "- Jenna Hainlen, AVID Week 1.2 slide 22, paired writing frame.", "[/Sources]"],
-  ["Timing: 15:00-17:00.", "Purpose: Practice evidence-based matching before students see their own result.", "Monitor: Students give one clue and accept that multiple types may fit one career.", "Pivot: Model nurse as Helper plus Analyzer if students insist on one correct answer.", "Trim: Discuss one career only.", "Recovery: A private written answer counts equally.", "[Sources]", "- Climber Notes: Learning Your Core Personality Types, slide 5.", "- Jenna Hainlen, AVID Week 1.2 slide 23, paired writing frame.", "[/Sources]"],
-  ["Timing: 17:00-20:00.", "Purpose: Make the exact authenticated app route visible before students click.", "Monitor: Every student is in their own account and can locate Profile.", "Pivot: If the district route differs, follow the teacher’s tested campus SSO path; do not improvise credentials.", "Trim: Project the screenshot and state only Profile → Discover Your Core.", "Recovery: If H&L is unavailable, switch to the six-type chart and mark results provisional; protect Friday catch-up.", "[Sources]", "- Authenticated private Canvas screenshot: Open the Hats & Ladders App / Discover Your Core.", "- Climber Notes: Learning Your Core Personality Types, slide 4.", "- Jenna Hainlen, AVID Week 1.2 slide 26, agenda/image frame.", "[/Sources]"],
-  ["Timing: 20:00-27:00.", "Purpose: Establish the Climber Profile as the yearlong H&L home before the assessment begins.", "Monitor: Lap 1: each student has opened Profile and checked name/grade; avatar/photo follows campus policy.", "Pivot: Skip avatar/photo if it creates privacy, upload, or time problems.", "Trim: Check name/grade and move directly to Discover Your Core.", "Recovery: Record account issues; never use a peer’s account for a personal result.", "[Sources]", "- CCE Day 2 Climber Profile orientation.", "- Jenna Hainlen, AVID Week 1.2 slide 22, paired writing frame.", "[/Sources]"],
-  ["Timing: 27:00-31:00, then students continue independently through 42:00.", "Purpose: Give the exact app-to-notebook sequence before work time.", "Monitor: Students read questions rather than rapid-clicking; results remain open until the description is read.", "Pivot: Read questions aloud or pair students with fluent readers before the teacher becomes the only support route.", "Trim: State the three numbered result steps and release students.", "Recovery: Use the provisional six-type route if H&L fails, then schedule the individual app activity for Friday.", "[Sources]", "- Climber Notes: Learning Your Core Personality Types, slides 3-4.", "- CCE Day 2 canonical app task.", "- Jenna Hainlen, AVID Week 1.2 slide 23, paired writing frame.", "[/Sources]"],
-  ["Timing: 31:00-42:00 during app work.", "Purpose: Keep assessment conditions honest, readable, and nonjudgmental.", "Monitor: Lap 1 target is slow reading; stop and reset rapid click-through. Lap 2 target is a result description open on screen.", "Pivot: If one third of the class is stuck on language, pause for a whole-group read-aloud of one sample question.", "Trim: Do not trim the individual app runway; trim discussion instead.", "Recovery: Students without access choose a provisional type with one supporting phrase.", "[Sources]", "- CCE Day 2 active-monitoring and outage guidance.", "- Climber Notes: Learning Your Core Personality Types, slide 4.", "- Jenna Hainlen, AVID Week 1.2 slide 14, single-action prompt frame.", "[/Sources]"],
-  ["Timing: 42:00-45:00.", "Purpose: Model one short H&L result interpretation before students write; this is not the full AVID focused-note-taking lesson.", "Monitor: Students can point to the result, evidence phrase, question, and career connection in the model.", "Pivot: Read the model sentence by sentence and label each prompt aloud.", "Trim: Read only the Organizer model once.", "Recovery: Students may dictate to speech-to-text or use the Canvas text route.", "[Sources]", "- CCE Day 2 complete H&L interpretation model.", "- Jenna Hainlen, AVID Week 1.2 slide 22, model/writing frame only.", "[/Sources]"],
-  ["Timing: 45:00-49:00.", "Purpose: Capture the private interpretation the app and workbook do not already save without inventing a second packet or calling it AVID focused notes.", "Monitor: Lap 2 target is all four prompts; if one third writes only the type name, model choosing one meaningful phrase again.", "Pivot: Provide the four sentence stems or speech-to-text; students do not need to reveal private content.", "Trim: Require result + evidence phrase + career connection; carry the real question to the next class if needed.", "Recovery: Paper or Canvas response counts equally; label outage-based results provisional.", "[Sources]", "- CCE Day 2 private H&L interpretation and save check.", "- Jenna Hainlen, AVID Week 1.2 slide 23, writing frame only.", "[/Sources]"],
-  ["Timing: 49:00-50:00.", "Purpose: Close the loop between prediction and result and preview Core Day B.", "Monitor: Students can reopen the page; they show only that it opens, not the private content.", "Pivot: Take one silent thumb signal for match/surprise if verbal discussion would expose personal results.", "Trim: Ask only: match or surprise?", "Recovery: The Canvas Student Guide preserves the comparison prompt for absent students.", "[Sources]", "- CCE Day 2 DOK 2 comparison and Day 3 bridge.", "- Jenna Hainlen, AVID Week 1.2 slide 50, evaluation/close frame; Jess Bailey photo attribution retained on-slide.", "[/Sources]"],
-];
-noteSets.forEach((notes, index) => setNotes(index + 1, notes));
+const revisedNotes = [
+  ["0:00–0:30", "Hold the Tuesday divider while students open OneNote and the Day 2 Student Guide.", "Students are in their own notebook.", "Read the setup list aloud.", "Canvas remains the absence route.", "Jenna Hainlen, AVID day-divider layout."],
+  ["0:30–1:00", "Project the exact OneNote path and confirm the two pages were distributed before students arrived: private notebook → CCE Work → Monday goal page and Core Personality – Day 2.", "Students can locate both pages without searching H&L or FYF for the response page.", "Point to the path; do not troubleshoot individual notebooks from the projector.", "Use the Canvas or physical equivalent in the same order when OneNote is unavailable.", "Microsoft Class Notebook private-section and Distribute Page workflow; CCE Day 2 response-home clarification."],
+  ["1:00–4:00", "Model a reason and one controllable action, then release students to the private OneNote page.", "Reason explains why; action begins with a verb and can happen this week.", "Offer one fictional CCE example without requiring personal disclosure.", "Canvas or paper may hold the answer if OneNote is unavailable; no recopying.", "Owner-authenticated OneNote first-week goal template V5; Jenna Hainlen AVID goal sheet, adapted for CCE."],
+  ["4:00–7:00", "Students select confidence and name one usable support.", "Confidence is a number; support is a person, tool, or plan.", "Offer the categories teacher, classmate, directions, or extra time.", "A fictional support is acceptable.", "Owner-authenticated OneNote first-week goal template V5."],
+  ["7:00–8:00", "Run a fast quality check; tell students to leave the page open and not make another copy.", "Action, checkpoint, and support are specific.", "Confer with students who wrote only try harder or do better.", "Do not add a separate retrieval test today.", "CCE revised Tuesday classroom flow."],
+  ["8:00–9:00", "Name the visual correctly as Find Your Future p. 21, not H&L. Read only the yellow CCMR definition aloud, then ask the printed question: why think about future goals before high school?", "Students can give one reason career exploration helps now.", "Take one turn-and-talk response; do not read the Programs of Study or CTE Center boxes today.", "If the visual does not load, read the CCMR definition from the speaker notes and continue.", "Find Your Future p. 21, Irving ISD CCMR and Programs of Study page; used for a one-minute purpose bridge."],
+  ["9:00–10:00", "Define Core types as H&L interest patterns, then use the Canvas chart crop to introduce Doer, Analyzer, and Creator. Point to the type, what it likes to do, and one current-life example.", "Students understand the result is not a grade or permanent label and can explain one type with a real-life clue.", "Read one row aloud and let students scan the other two.", "Accept pointing, oral explanation, or private reading.", "Climber Notes, Learning Your Core Personality Types; Canvas six-type reference visual."],
+  ["10:00–11:00", "Use the second Canvas chart crop to introduce Helper, Persuader, and Organizer with the same three-column routine. Remind students people may match more than one type.", "Students can explain one type with a real-life clue and avoid stereotypes.", "Read one row aloud and let students scan the other two.", "Accept pointing, oral explanation, or private reading.", "Climber Notes, Learning Your Core Personality Types; Canvas six-type reference visual."],
+  ["11:00–12:00", "Direct students to record one prediction and one clue on Core Personality – Day 2 before opening H&L.", "The prediction contains a type and a because-clue; students know it may differ from the result.", "Model one neutral example if students copy only a label.", "Canvas or paper may hold the same two fields when OneNote is unavailable.", "Jennifer Stanley As You Enter prediction choreography, adapted to the verified OneNote page and H&L route."],
+  ["12:00–16:00", "Demonstrate Sign in with Google, then point to the yellow Profile Climbs column and Jumpstart Your Profile.", "Every student is in their own account and on the yellow card.", "Reproject the screen if one third is off route.", "Record login problems; never use another student's account.", "Owner-authenticated H&L dashboard screenshot; Jennifer Stanley slide 18 explicit login choreography, adapted to the verified route."],
+  ["16:00–19:00", "Read the Jumpstart introduction and click Start once.", "Students see the first question rather than clicking around the dashboard.", "Narrate only the visible Start button.", "Keep students with account problems on the six-type chart.", "Owner-authenticated Jumpstart start screenshot."],
+  ["19:00–22:00", "Model selecting one starting-point answer and waiting for Next to activate.", "Students read all five choices.", "Read the choices aloud when needed.", "Do not invent an item count; the screen does not show one.", "Owner-authenticated Jumpstart question screenshot."],
+  ["22:00–24:00", "Introduce Discover Your Core and the honest-answer rule, then click Start.", "Students begin the thumbs-choice activity.", "Explain that neither thumb is the better answer.", "Use the provisional class chart if the app fails.", "Owner-authenticated Discover Your Core start screenshot."],
+  ["24:00–40:00", "Protect quiet completion time. Circulate for careful reading, not result disclosure.", "The progress bar moves; stop rapid clicking.", "Pause for a read-aloud if one third is stuck on language.", "Keep app problems pending for Friday; no duplicate worksheet.", "Owner-authenticated Discover Your Core question screenshot; Jennifer Stanley slide 19 screenshot-plus-honesty pattern."],
+  ["40:00–48:00", "Verify the Core Complete badge. Keep the H&L result open while students move to OneNote → private notebook → CCE Work → Core Personality – Day 2. Students record the result and choose one interpretation route.", "The H&L result remains in the app; OneNote holds the result plus one phrase, real question, or career curiosity.", "Students still in Jumpstart or Core keep working; record the exact stopping point.", "Use a provisional type plus one interpretation in the Canvas or physical equivalent when H&L or OneNote is unavailable.", "Owner-authenticated Core Complete badge screenshot; CCE revised Tuesday response-home boundary."],
+  ["48:00–50:00", "Use the three choices as the DOL, record who is complete, working, or blocked, and preview that Wednesday adds Work Values to the same Core result.", "Every student identifies an accurate stopping point and can name the next-day connection.", "Take account problems privately.", "The Friday catch-up list uses this DOL; students keep their available Core result for Wednesday.", "Jennifer Stanley slide 20 sentence-starter exit-ticket pattern; CCE revised Tuesday DOL and Day 3 bridge."],
+].map(([time, teacher, monitor, pivot, recovery, source], index) => [
+  `Time: ${time}`,
+  `Teacher move: ${teacher}`,
+  `Student action: ${[
+    "Open private notebook → CCE Work → the Monday goal page and Core Personality – Day 2.",
+    "Locate both private pages and name which work belongs in H&L and which belongs in OneNote.",
+    "Finish the missing reason, action, and checkpoint fields on the same page.",
+    "Choose confidence and one usable support on the same page.",
+    "Check the action, checkpoint, and support; fix one missing part.",
+    "Listen to the FYF p. 21 CCMR definition and give one reason career exploration helps before high school.",
+    "Read the Doer, Analyzer, and Creator rows and identify one recognizable clue.",
+    "Read the Helper, Persuader, and Organizer rows and identify one recognizable clue.",
+    "Record one predicted type and one real-life clue on Core Personality – Day 2.",
+    "Select Sign in with Google, confirm the account, and open Profile Climbs.",
+    "Open Jumpstart Your Profile and click Start.",
+    "Read the choices and answer the Jumpstart starting-point question.",
+    "Open Discover Your Core and click Start.",
+    "Read and answer each Core question honestly.",
+    "Keep the H&L result open, then record the result and one interpretation on Core Personality – Day 2 in OneNote.",
+    "Complete at least one private result, phrase, question, or career-curiosity DOL and return the assigned device.",
+  ][index]}`,
+  `Look-for: ${monitor}`,
+  `Pivot/trim: ${pivot}`,
+  `Recovery/access: ${recovery}`,
+  "[Sources]",
+  `- ${source}`,
+  "[/Sources]",
+]);
+if (revisedNotes.length !== presentation.slides.items.length) {
+  throw new Error(`Notes count ${revisedNotes.length} does not match slide count ${presentation.slides.items.length}`);
+}
+revisedNotes.forEach((notes, index) => setNotes(index + 1, notes));
 
 const inspect = await presentation.inspect({
   kind: "slide,textbox,image,notes",
