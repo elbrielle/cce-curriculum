@@ -150,7 +150,7 @@ export function doNow(slide, config) {
   box(slide, { left: 350, top: 122, width: 582, height: 380 }, COLORS.card, COLORS.cardLine, "rounded-xl", "do-now-panel");
   addText(slide, "DO NOW", { left: 372, top: 138, width: 300, height: 22 }, { fontSize: 12, bold: true, color: COLORS.purpleSoft });
   addText(slide, config.prompt, { left: 372, top: 164, width: 540, height: 150 }, { fontSize: 22, bold: true });
-  if (config.stem) addText(slide, config.stem, { left: 372, top: 318, width: 540, height: 60 }, { fontSize: 20, color: COLORS.teal });
+  if (config.stem) addText(slide, config.stem, { left: 372, top: 318, width: 540, height: 66 }, { fontSize: 18, color: COLORS.teal });
   box(slide, { left: 366, top: 392, width: 550, height: 90 }, COLORS.doneFill, COLORS.doneLine, "rounded-lg", "done-when");
   addText(slide, "DONE WHEN", { left: 384, top: 400, width: 250, height: 22 }, { fontSize: 12, bold: true, color: COLORS.doneInk });
   addText(slide, config.done, { left: 384, top: 422, width: 516, height: 56 }, { fontSize: 16, bold: true });
@@ -170,7 +170,7 @@ export function agenda(slide, config) {
   }
   box(slide, { left: 490, top: 122, width: 442, height: 380 }, COLORS.card, COLORS.cardLine, "rounded-xl", "agenda-panel");
   addText(slide, "TODAY’S PLAN", { left: 510, top: 138, width: 300, height: 22 }, { fontSize: 12, bold: true, color: COLORS.purpleSoft });
-  addText(slide, config.steps.map((s, i) => `${i + 1}. ${s}`).join("\n"), { left: 510, top: 164, width: 404, height: 260 }, { fontSize: 20 });
+  addText(slide, config.steps.map((s, i) => `${i + 1}. ${s}`).join("\n"), { left: 510, top: 164, width: 404, height: 260 }, { fontSize: config.steps.length > 4 ? 18 : 20 });
   if (config.done) {
     box(slide, { left: 506, top: 426, width: 410, height: 60 }, COLORS.doneFill, COLORS.doneLine, "rounded-lg", "done-when");
     addText(slide, `DONE WHEN: ${config.done}`, { left: 522, top: 436, width: 380, height: 44 }, { fontSize: 15, bold: true });
@@ -199,6 +199,21 @@ export function talk(slide, config) {
   addText(slide, "OR ON YOUR OWN", { left: 510, top: 138, width: 300, height: 22 }, { fontSize: 12, bold: true, color: COLORS.purpleSoft });
   addText(slide, config.privateOption, { left: 510, top: 164, width: 404, height: 240 }, { fontSize: 20 });
   doneBanner(slide, config.done);
+  return slide;
+}
+
+/** Rows: up to three labeled rows (e.g., three Core types) in large, editable text. */
+export function rowsSlide(slide, config) {
+  cover(slide, config.title, config.kicker);
+  const top = 122;
+  const rowHeight = Math.floor(300 / config.rows.length);
+  config.rows.forEach((row, index) => {
+    const y = top + index * rowHeight;
+    box(slide, { left: 40, top: y, width: 880, height: rowHeight - 8 }, COLORS.card, COLORS.cardLine, "rounded-lg", `row-${index + 1}`);
+    addText(slide, row.head, { left: 60, top: y + 10, width: 200, height: rowHeight - 28 }, { fontSize: 24, bold: true, color: COLORS.purple });
+    addText(slide, row.lines.join("\n"), { left: 262, top: y + 10, width: 640, height: rowHeight - 24 }, { fontSize: config.lineSize ?? 17 });
+  });
+  doneBanner(slide, config.done, { left: 150, top: 448, width: 660, height: 56 });
   return slide;
 }
 
