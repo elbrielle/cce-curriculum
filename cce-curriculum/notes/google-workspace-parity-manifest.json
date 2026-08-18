@@ -40,7 +40,7 @@
             "width": 720,
             "height": 405
           },
-          "revision_id_at_check": "FoSSdCpDwkTZHA",
+          "revision_id_at_check": "qIXzNR8Eah9DsA",
           "sharing": "iis-d-domain-reader"
         },
         "office_release": {
@@ -64,7 +64,7 @@
         "native_notes_page_count": 15,
         "all_native_slides_visually_compared": true,
         "mr_lucero_hits": 0,
-        "notes": "Google conversion preserved all 15 speaker-notes pages, slide order, content, images, and Ms. Lucero. Font rendering differs slightly between PowerPoint and Google Slides without clipping or missing content. Raw PowerPoint release replaced in place on 2026-08-17; native Google Slides was not overwritten because the connector cannot import a local PPTX into an existing native presentation ID."
+        "notes": "The raw PowerPoint was replaced in place and the existing native Google Slides ID was synchronized from the verified 15-slide renders on 2026-08-17. The native slide canvases match the current Lucero Day 1 visuals and the current speaker notes were written into the existing notes pages."
       }
     },
     {
