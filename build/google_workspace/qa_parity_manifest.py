@@ -100,6 +100,33 @@ def main() -> None:
         require(file_sha256(source_path) == expected_sha, f"{key}: source SHA-256 drift")
         require(source_path.stat().st_size == source.get("bytes"), f"{key}: source byte-count drift")
 
+        teacher_private = artifact.get("teacher_private") is True
+        if teacher_private:
+            # A teacher's own weekly implementation deck: generated from the shared daily
+            # masters, kept in that teacher's Drive folder, never a Canvas course file and
+            # never distributed by /copy link. It still needs a native + Office pair.
+            drive = artifact.get("drive")
+            require(isinstance(drive, dict), f"{key}: drive must be an object")
+            require_drive_id(drive.get("folder_id"), f"{key} Drive folder ID")
+            native = drive.get("native_google_file")
+            office = drive.get("office_release")
+            require(isinstance(native, dict) and isinstance(office, dict), f"{key}: Drive file records are incomplete")
+            native_id = require_drive_id(native.get("id"), f"{key} native file ID")
+            office_id = require_drive_id(office.get("id"), f"{key} Office release ID")
+            require(native_id not in drive_file_ids and office_id not in drive_file_ids, f"{key}: reused Drive file ID")
+            drive_file_ids.update((native_id, office_id))
+            require(native.get("mime_type") == type_contract["native_mime"], f"{key}: native Google MIME drift")
+            require(str(office.get("name", "")).lower().endswith(type_contract["office_suffix"]), f"{key}: Office release suffix drift")
+            public = artifact.get("public_site")
+            require(isinstance(public, dict) and public.get("included") is False, f"{key}: teacher-private artifact must stay out of the public site")
+            require(isinstance(public.get("reason"), str) and public["reason"].strip(), f"{key}: excluded public artifact needs a reason")
+            qa = artifact.get("qa")
+            require(isinstance(qa, dict), f"{key}: QA record is missing")
+            require(isinstance(native.get("slide_count"), int) and native["slide_count"] > 0, f"{key}: invalid slide count")
+            require(qa.get("mr_lucero_hits") == 0, f"{key}: incorrect teacher title remains")
+            checked += 1
+            continue
+
         canvas = artifact.get("canvas")
         require(isinstance(canvas, dict), f"{key}: canvas must be an object")
         require(isinstance(canvas.get("course_id"), int) and canvas["course_id"] > 0, f"{key}: invalid Canvas course ID")

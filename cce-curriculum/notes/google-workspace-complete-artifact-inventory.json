@@ -17,7 +17,7 @@
     "required_unit_release_references": 305,
     "unique_required_sources": 302,
     "missing_drive_release_references": 0,
-    "editable_parity_sources": 10,
+    "editable_parity_sources": 11,
     "native_support_sources": 1,
     "excluded_artifacts": 1
   },
@@ -5376,6 +5376,7 @@
     "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day3-source-grounded.pptx",
     "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day4-source-grounded.pptx",
     "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day5-source-grounded.pptx",
+    "cce-curriculum/resources/owner-authenticated-source/weekly-slides/Lucero CCE Week 1 - Classroom Routines and Career Self-Discovery.pptx",
     "docs/resources/worksheets/cce-first-week-goal-setting.docx"
   ],
   "excluded_artifacts": [

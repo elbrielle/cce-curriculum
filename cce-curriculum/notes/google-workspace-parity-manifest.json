@@ -15,8 +15,8 @@
       "distribution_scope": "authenticated-teacher",
       "source": {
         "path": "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day1-source-grounded.pptx",
-        "sha256": "5f81045f87acaa26d3081b8ac80affe2fcee458e711164bf70e6688cc7f9ba19",
-        "bytes": 4353047
+        "sha256": "4ee0dd823dd00d68ebc60e306e9b5b7b9effa7f7fbfac874d57a25ac0e10e744",
+        "bytes": 4353129
       },
       "canvas": {
         "course_id": 98060,
@@ -59,12 +59,19 @@
         "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
       },
       "qa": {
-        "checked_on": "2026-08-17",
+        "checked_on": "2026-08-18",
         "native_render_count": 15,
         "native_notes_page_count": 15,
         "all_native_slides_visually_compared": true,
         "mr_lucero_hits": 0,
-        "notes": "The raw PowerPoint was replaced in place and the existing native Google Slides ID was synchronized from the verified 15-slide renders on 2026-08-17. The native slide canvases match the current Lucero Day 1 visuals and the current speaker notes were written into the existing notes pages."
+        "notes": "Rebuilt locally on 2026-08-18 as an editable student-facing master (deck lint, notes schema, 16:9, and editability gate passed via build/decks/qa_week0_decks.mjs). The Canvas file, the raw Drive PowerPoint, and the native Google Slides copy were last synchronized from the 2026-08-17 build and are STALE until the owner-run sync completes; the recorded Drive revision and Canvas file IDs are unchanged."
+      },
+      "sync_status": {
+        "as_of": "2026-08-18",
+        "local_source": "current",
+        "canvas_file": "stale-pending-owner-run-reconcile",
+        "drive_office_release": "stale-pending-manage-versions-upload",
+        "drive_native_google_file": "stale-pending-reimport"
       }
     },
     {
@@ -75,8 +82,8 @@
       "distribution_scope": "authenticated-teacher",
       "source": {
         "path": "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day2-source-grounded.pptx",
-        "sha256": "b22f937a503fc6323ea3d5a518093825f332582cf27aeb9bc702a682a9a547aa",
-        "bytes": 12950443
+        "sha256": "dfe1d86ea02cf332d13d926124e44e577f6f06a3e974b13349b7d69c6e317379",
+        "bytes": 8734140
       },
       "canvas": {
         "course_id": 98060,
@@ -119,12 +126,19 @@
         "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
       },
       "qa": {
-        "checked_on": "2026-08-17",
+        "checked_on": "2026-08-18",
         "native_render_count": 16,
         "native_notes_page_count": 16,
         "all_native_slides_visually_compared": true,
         "mr_lucero_hits": 0,
-        "notes": "The raw PowerPoint was replaced in place and the existing native Google Slides ID was synchronized from the verified 16-slide renders on 2026-08-17. The native slide canvases match the current 16:9 PowerPoint visuals; the existing speaker-note pages were preserved."
+        "notes": "Rebuilt locally on 2026-08-18 as an editable student-facing master (deck lint, notes schema, 16:9, and editability gate passed via build/decks/qa_week0_decks.mjs). The Canvas file, the raw Drive PowerPoint, and the native Google Slides copy were last synchronized from the 2026-08-17 build and are STALE until the owner-run sync completes; the recorded Drive revision and Canvas file IDs are unchanged."
+      },
+      "sync_status": {
+        "as_of": "2026-08-18",
+        "local_source": "current",
+        "canvas_file": "stale-pending-owner-run-reconcile",
+        "drive_office_release": "stale-pending-manage-versions-upload",
+        "drive_native_google_file": "stale-pending-reimport"
       }
     },
     {
@@ -135,8 +149,8 @@
       "distribution_scope": "authenticated-teacher",
       "source": {
         "path": "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day3-source-grounded.pptx",
-        "sha256": "5ca71d710b5fa9df9c67c5cbc2f5571980e3a81370a1dc4780d811b9105fb9f6",
-        "bytes": 6883292
+        "sha256": "3faeeba997e1df00b5ea307e3feb712077afee82516c6db4de065a7ad689f5b2",
+        "bytes": 5056127
       },
       "canvas": {
         "course_id": 98060,
@@ -179,12 +193,19 @@
         "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
       },
       "qa": {
-        "checked_on": "2026-08-17",
+        "checked_on": "2026-08-18",
         "native_render_count": 16,
         "native_notes_page_count": 16,
         "all_native_slides_visually_compared": true,
         "mr_lucero_hits": 0,
-        "notes": "The raw PowerPoint was replaced in place and the existing native Google Slides ID was synchronized from the verified 16-slide renders on 2026-08-17. The native slide canvases match the current 16:9 PowerPoint visuals, including the Day 3 to Day 4 bridge; the existing speaker-note pages were preserved."
+        "notes": "Rebuilt locally on 2026-08-18 as an editable student-facing master (deck lint, notes schema, 16:9, and editability gate passed via build/decks/qa_week0_decks.mjs). The Canvas file, the raw Drive PowerPoint, and the native Google Slides copy were last synchronized from the 2026-08-17 build and are STALE until the owner-run sync completes; the recorded Drive revision and Canvas file IDs are unchanged."
+      },
+      "sync_status": {
+        "as_of": "2026-08-18",
+        "local_source": "current",
+        "canvas_file": "stale-pending-owner-run-reconcile",
+        "drive_office_release": "stale-pending-manage-versions-upload",
+        "drive_native_google_file": "stale-pending-reimport"
       }
     },
     {
@@ -195,8 +216,8 @@
       "distribution_scope": "authenticated-teacher",
       "source": {
         "path": "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day4-source-grounded.pptx",
-        "sha256": "726b133ead699ff71e95699547c7737f9b34a92ce1ce7307475d1f1e8fb92994",
-        "bytes": 1894575
+        "sha256": "72bbc3e469082e3ec836e546ca98cfd762b39c4cf4ae07529924e0c79d998192",
+        "bytes": 1894542
       },
       "canvas": {
         "course_id": 98060,
@@ -239,12 +260,19 @@
         "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
       },
       "qa": {
-        "checked_on": "2026-08-16",
+        "checked_on": "2026-08-18",
         "native_render_count": 13,
         "native_notes_page_count": 13,
         "all_native_slides_visually_compared": true,
         "mr_lucero_hits": 0,
-        "notes": "Native Google conversion preserves the approved Day 4 slide order, 16:9 page size, instructional content, images, and speaker notes."
+        "notes": "Rebuilt locally on 2026-08-18 as an editable student-facing master (deck lint, notes schema, 16:9, and editability gate passed via build/decks/qa_week0_decks.mjs). The Canvas file, the raw Drive PowerPoint, and the native Google Slides copy were last synchronized from the 2026-08-17 build and are STALE until the owner-run sync completes; the recorded Drive revision and Canvas file IDs are unchanged."
+      },
+      "sync_status": {
+        "as_of": "2026-08-18",
+        "local_source": "current",
+        "canvas_file": "stale-pending-owner-run-reconcile",
+        "drive_office_release": "stale-pending-manage-versions-upload",
+        "drive_native_google_file": "stale-pending-reimport"
       }
     },
     {
@@ -255,8 +283,8 @@
       "distribution_scope": "authenticated-teacher",
       "source": {
         "path": "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day5-source-grounded.pptx",
-        "sha256": "6aaa2f483bc1af02174cd8aae5a1b1176b5ec2a3396cee715676b707099180dd",
-        "bytes": 3702493
+        "sha256": "45fb0f148070743d55b2d99188c8785ada4d9ffde4fa29ad7d5cdfd66d0ef18f",
+        "bytes": 3702468
       },
       "canvas": {
         "course_id": 98060,
@@ -299,12 +327,19 @@
         "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
       },
       "qa": {
-        "checked_on": "2026-08-16",
+        "checked_on": "2026-08-18",
         "native_render_count": 15,
         "native_notes_page_count": 15,
         "all_native_slides_visually_compared": true,
         "mr_lucero_hits": 0,
-        "notes": "Native Google conversion preserves the approved Day 5 slide order, 16:9 page size, instructional content, images, and speaker notes."
+        "notes": "Rebuilt locally on 2026-08-18 as an editable student-facing master (deck lint, notes schema, 16:9, and editability gate passed via build/decks/qa_week0_decks.mjs). The Canvas file, the raw Drive PowerPoint, and the native Google Slides copy were last synchronized from the 2026-08-17 build and are STALE until the owner-run sync completes; the recorded Drive revision and Canvas file IDs are unchanged."
+      },
+      "sync_status": {
+        "as_of": "2026-08-18",
+        "local_source": "current",
+        "canvas_file": "stale-pending-owner-run-reconcile",
+        "drive_office_release": "stale-pending-manage-versions-upload",
+        "drive_native_google_file": "stale-pending-reimport"
       }
     },
     {
@@ -312,11 +347,11 @@
       "curriculum_address": "1SW Wk0 Lucero weekly implementation",
       "display_title": "Lucero CCE Week 1 — Classroom Routines and Career Self-Discovery",
       "artifact_type": "presentation",
-      "distribution_scope": "authenticated-teacher",
+      "distribution_scope": "teacher-private",
       "source": {
         "path": "cce-curriculum/resources/owner-authenticated-source/weekly-slides/Lucero CCE Week 1 - Classroom Routines and Career Self-Discovery.pptx",
-        "sha256": "06ee9c7b8935174b9067a983833955964c3c714eab4f19b5e759db189967a0d6",
-        "bytes": 15035870
+        "sha256": "1cf5dbcbd8cf80aaa55fc2a433fe2d8c4973f16cbba41ef58ae8c7d7d0f3efb8",
+        "bytes": 16221078
       },
       "drive": {
         "folder_id": "146yJQrk8KwfhumdgWYFiweD2Vo6XLPAz",
@@ -345,13 +380,21 @@
         "reason": "The weekly implementation contains owner-authenticated and licensed classroom visuals and remains outside Git and the public build."
       },
       "qa": {
-        "checked_on": "2026-08-17",
+        "checked_on": "2026-08-18",
         "native_render_count": 75,
         "native_notes_page_count": 75,
         "all_native_slides_visually_compared": true,
         "mr_lucero_hits": 0,
-        "notes": "The retained raw weekly PowerPoint was replaced in place. The one retained native weekly Google Slides deck was synchronized from all 75 verified renders without creating the deleted duplicate; existing notes pages were preserved."
-      }
+        "notes": "Rebuilt locally on 2026-08-18 as an editable student-facing master (deck lint, notes schema, 16:9, and editability gate passed via build/decks/qa_week0_decks.mjs). The Canvas file, the raw Drive PowerPoint, and the native Google Slides copy were last synchronized from the 2026-08-17 build and are STALE until the owner-run sync completes; the recorded Drive revision and Canvas file IDs are unchanged."
+      },
+      "sync_status": {
+        "as_of": "2026-08-18",
+        "local_source": "current",
+        "canvas_file": "stale-pending-owner-run-reconcile",
+        "drive_office_release": "stale-pending-manage-versions-upload",
+        "drive_native_google_file": "stale-pending-reimport"
+      },
+      "teacher_private": true
     },
     {
       "key": "1sw-wk1-day1-manufacturing-source-grounded-slides",

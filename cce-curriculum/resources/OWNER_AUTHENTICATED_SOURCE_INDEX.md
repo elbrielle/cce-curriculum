@@ -56,7 +56,7 @@ Use these files in authenticated Canvas, private teacher decks, and other teache
 
 | Stored file | What it contains |
 |---|---|
-| `weekly-slides/Lucero CCE Week 1 - Classroom Routines and Career Self-Discovery.pptx` | The 75-slide Monday-Friday teaching deck rebuilt from the five approved daily masters. SHA-256: `06ee9c7b8935174b9067a983833955964c3c714eab4f19b5e759db189967a0d6`. This is the private PowerPoint counterpart to the retained native Google Slides weekly deck. It contains owner-authenticated/licensed visuals and must remain ignored and outside the public build. |
+| `weekly-slides/Lucero CCE Week 1 - Classroom Routines and Career Self-Discovery.pptx` | The 75-slide Monday-Friday teaching deck rebuilt from the five approved daily masters. SHA-256: `1cf5dbcbd8cf80aaa55fc2a433fe2d8c4973f16cbba41ef58ae8c7d7d0f3efb8`. This is the private PowerPoint counterpart to the retained native Google Slides weekly deck. It contains owner-authenticated/licensed visuals and must remain ignored and outside the public build. |
 
 ## Provenance
 

@@ -20,7 +20,7 @@ The corrected IPC is `Lucero CCR 26-27 IPC - CCE Week 1 Source-Grounded.docx`, S
 
 ## Monday owner files
 
-- Day 1 deck: `cce-week1-day1-source-grounded.pptx`, 15 slides, SHA-256 `5f81045f87acaa26d3081b8ac80affe2fcee458e711164bf70e6688cc7f9ba19`.
+- Day 1 deck: `cce-week1-day1-source-grounded.pptx`, 15 slides, SHA-256 `4ee0dd823dd00d68ebc60e306e9b5b7b9effa7f7fbfac874d57a25ac0e10e744`.
 - Goal sheet: `docs/resources/worksheets/cce-first-week-goal-setting.pdf`, one page, SHA-256 `65e3fcd807378a8b3af93fd4fbc116f70549e08457c00f24b121cb47d9e5dfb6`.
 - Canonical guide: `docs/1sw/wk0-classroom-routines/day1.md`.
 - Canvas Teacher source: `build/canvas/templates/wk0-day1-teacher.html`.
@@ -62,9 +62,9 @@ The completed unpublished restage included:
 1. Day 1 Teacher Page: copy-ready OneNote page, student save/distribution test, exact failover.
 2. Day 2 Teacher Page: current Hats & Ladders sign-in choices, Coach Dashboard/roster preflight, no fake student, provisional-route boundary.
 3. Day 2 Student Page: source-integrity correction for the four-prompt H&L interpretation.
-4. Day 2 deck: `cce-week1-day2-source-grounded.pptx`, 16 slides, SHA-256 `b22f937a503fc6323ea3d5a518093825f332582cf27aeb9bc702a682a9a547aa`.
-5. Day 3 deck: `cce-week1-day3-source-grounded.pptx`, 16 slides, SHA-256 `5ca71d710b5fa9df9c67c5cbc2f5571980e3a81370a1dc4780d811b9105fb9f6`.
-6. Weekly deck: 75 slides and 75 speaker-note pages, SHA-256 `06ee9c7b8935174b9067a983833955964c3c714eab4f19b5e759db189967a0d6`.
+4. Day 2 deck: `cce-week1-day2-source-grounded.pptx`, 16 slides, SHA-256 `dfe1d86ea02cf332d13d926124e44e577f6f06a3e974b13349b7d69c6e317379`.
+5. Day 3 deck: `cce-week1-day3-source-grounded.pptx`, 16 slides, SHA-256 `3faeeba997e1df00b5ea307e3feb712077afee82516c6db4de065a7ad689f5b2`.
+6. Weekly deck: 75 slides and 75 speaker-note pages, SHA-256 `1cf5dbcbd8cf80aaa55fc2a433fe2d8c4973f16cbba41ef58ae8c7d7d0f3efb8`.
 
 Current source hashes after the fail-closed contract repair:
 
@@ -90,7 +90,7 @@ Current source hashes after the fail-closed contract repair:
 - The Week 0 builder completes local preflight before stdin and blank stdin stops at `Canvas token required on stdin` without API work.
 - The latest 20-view local responsive render is `tmp/canvas-previews/1sw-wk0-hl-login-final`; its manifest reports zero unresolved tokens, image failures, or horizontal overflow.
 - The post-contract-repair local render is `tmp/wk0-routines-preview-final`; all 20 views pass and the changed Day 1/3/4/5 Teacher and Day 4/5 Student views were inspected at original detail at both widths.
-- Canvas file `14615688` is the prior Day 2 deck and must be overwritten with the newly reviewed local file before Canvas parity can be called complete. The new local SHA-256 is `b22f937a503fc6323ea3d5a518093825f332582cf27aeb9bc702a682a9a547aa`; live re-download verification is still required after the update. Drive raw and native IDs were updated in place on 2026-08-17.
+- Canvas file `14615688` is the prior Day 2 deck and must be overwritten with the newly reviewed local file before Canvas parity can be called complete. The new local SHA-256 is `dfe1d86ea02cf332d13d926124e44e577f6f06a3e974b13349b7d69c6e317379`; live re-download verification is still required after the update. Drive raw and native IDs were updated in place on 2026-08-17.
 - `git diff --check` passes. Nothing has been staged, committed, pushed, published, or deployed.
 - No Canvas builder, reconciliation runner, or preview process is active at this checkpoint.
 
