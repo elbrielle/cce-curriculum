@@ -20,7 +20,7 @@
       },
       "canvas": {
         "course_id": 98060,
-        "file_id": 14618719,
+        "file_id": 14628991,
         "locked": true
       },
       "drive": {
@@ -64,12 +64,12 @@
         "native_notes_page_count": 15,
         "all_native_slides_visually_compared": true,
         "mr_lucero_hits": 0,
-        "notes": "Rebuilt locally on 2026-08-18 as an editable student-facing master (deck lint, notes schema, 16:9, and editability gate passed via build/decks/qa_week0_decks.mjs). The Canvas file, the raw Drive PowerPoint, and the native Google Slides copy were last synchronized from the 2026-08-17 build and are STALE until the owner-run sync completes; the recorded Drive revision and Canvas file IDs are unchanged."
+        "notes": "Rebuilt locally on 2026-08-18 as an editable student-facing master (deck lint, notes schema, 16:9, and editability gate passed via build/decks/qa_week0_decks.mjs). Canvas file replaced on 2026-08-18 (reconcile_wk0_day2_day3.py; Canvas overwrite issued a new file ID). The raw Drive PowerPoint and native Google Slides copy are still on the 2026-08-17 build until the Drive sync completes."
       },
       "sync_status": {
         "as_of": "2026-08-18",
         "local_source": "current",
-        "canvas_file": "stale-pending-owner-run-reconcile",
+        "canvas_file": "current-2026-08-18-reconcile",
         "drive_office_release": "stale-pending-manage-versions-upload",
         "drive_native_google_file": "stale-pending-reimport"
       }
@@ -87,7 +87,7 @@
       },
       "canvas": {
         "course_id": 98060,
-        "file_id": 14615688,
+        "file_id": 14628994,
         "locked": true
       },
       "drive": {
@@ -131,12 +131,12 @@
         "native_notes_page_count": 16,
         "all_native_slides_visually_compared": true,
         "mr_lucero_hits": 0,
-        "notes": "Rebuilt locally on 2026-08-18 as an editable student-facing master (deck lint, notes schema, 16:9, and editability gate passed via build/decks/qa_week0_decks.mjs). The Canvas file, the raw Drive PowerPoint, and the native Google Slides copy were last synchronized from the 2026-08-17 build and are STALE until the owner-run sync completes; the recorded Drive revision and Canvas file IDs are unchanged."
+        "notes": "Rebuilt locally on 2026-08-18 as an editable student-facing master (deck lint, notes schema, 16:9, and editability gate passed via build/decks/qa_week0_decks.mjs). Canvas file replaced on 2026-08-18 (reconcile_wk0_day2_day3.py; Canvas overwrite issued a new file ID). The raw Drive PowerPoint and native Google Slides copy are still on the 2026-08-17 build until the Drive sync completes."
       },
       "sync_status": {
         "as_of": "2026-08-18",
         "local_source": "current",
-        "canvas_file": "stale-pending-owner-run-reconcile",
+        "canvas_file": "current-2026-08-18-reconcile",
         "drive_office_release": "stale-pending-manage-versions-upload",
         "drive_native_google_file": "stale-pending-reimport"
       }
@@ -154,7 +154,7 @@
       },
       "canvas": {
         "course_id": 98060,
-        "file_id": 14616908,
+        "file_id": 14628996,
         "locked": true
       },
       "drive": {
@@ -198,12 +198,12 @@
         "native_notes_page_count": 16,
         "all_native_slides_visually_compared": true,
         "mr_lucero_hits": 0,
-        "notes": "Rebuilt locally on 2026-08-18 as an editable student-facing master (deck lint, notes schema, 16:9, and editability gate passed via build/decks/qa_week0_decks.mjs). The Canvas file, the raw Drive PowerPoint, and the native Google Slides copy were last synchronized from the 2026-08-17 build and are STALE until the owner-run sync completes; the recorded Drive revision and Canvas file IDs are unchanged."
+        "notes": "Rebuilt locally on 2026-08-18 as an editable student-facing master (deck lint, notes schema, 16:9, and editability gate passed via build/decks/qa_week0_decks.mjs). Canvas file replaced on 2026-08-18 (reconcile_wk0_day2_day3.py; Canvas overwrite issued a new file ID). The raw Drive PowerPoint and native Google Slides copy are still on the 2026-08-17 build until the Drive sync completes."
       },
       "sync_status": {
         "as_of": "2026-08-18",
         "local_source": "current",
-        "canvas_file": "stale-pending-owner-run-reconcile",
+        "canvas_file": "current-2026-08-18-reconcile",
         "drive_office_release": "stale-pending-manage-versions-upload",
         "drive_native_google_file": "stale-pending-reimport"
       }
