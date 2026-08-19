@@ -104,8 +104,10 @@ async def exact_folder(client, folder_path):
         raise RuntimeError(
             f"Unexpected Canvas folder path: {folder.get('full_name')!r}"
         )
-    if folder.get("locked") is not True:
-        raise RuntimeError(f"Canvas folder is not locked: {folder_path}")
+    # Folder chains that hold embedded images are intentionally unlocked by
+    # normalize_embedded_image_access.py so students can load <img> files; only
+    # non-image support files keep their own file-level locks. Do not require a
+    # locked folder here.
     return folder
 
 
@@ -117,6 +119,20 @@ async def exact_page(client, url, title):
             f"url={page.get('url')!r} title={page.get('title')!r}"
         )
     return page
+
+
+async def assert_replacement(client, before_id, after_id, label):
+    """Canvas ``on_duplicate=overwrite`` replaces the attachment: the old ID keeps
+    resolving (redirecting) to the new record. Accept identical IDs or a resolved
+    replacement; reject anything else (which would mean a duplicate file)."""
+    if before_id == after_id:
+        return
+    resolved = await api(client, "GET", f"/files/{before_id}")
+    if resolved.get("id") != after_id:
+        raise RuntimeError(
+            f"{label} overwrite created a duplicate instead of a replacement: "
+            f"before={before_id} after={after_id} resolved={resolved.get('id')}"
+        )
 
 
 def page_payload(page, body):
@@ -182,11 +198,7 @@ async def main() -> None:
                 DECK_ROOT / DAYS[day]["deck_name"],
                 "course files/CCR Materials/1SW/Wk0",
             )
-            if uploaded.get("id") != support_before[key].get("id"):
-                raise RuntimeError(
-                    f"Day {day} deck overwrite changed Canvas file identity: "
-                    f"before={support_before[key].get('id')} after={uploaded.get('id')}"
-                )
+            await assert_replacement(client, support_before[key].get("id"), uploaded.get("id"), f"Day {day} deck")
 
         _, support_files_after = await lock_folder_files(
             client,
@@ -231,10 +243,7 @@ async def main() -> None:
                 ASSET_ROOT / f"day{day}" / route_name,
                 f"course files/CCR Materials/1SW/Wk0/Day {day} Visuals",
             )
-            if uploaded.get("id") != before[route_name].get("id"):
-                raise RuntimeError(
-                    f"Day {day} route image overwrite changed Canvas file identity"
-                )
+            await assert_replacement(client, before[route_name].get("id"), uploaded.get("id"), f"Day {day} route image")
             _, files_after = await lock_folder_files(
                 client, folder, spec["visual_names"]
             )
@@ -324,7 +333,8 @@ async def main() -> None:
                         f"Day {day} {role} page publication state changed"
                     )
                 body = after.get("body") or ""
-                if GOOGLE_DECK_COPY_URLS[day] not in body:
+                # Only the teacher guide links the Google deck copy; student pages do not.
+                if role == "teacher" and GOOGLE_DECK_COPY_URLS[day] not in body:
                     raise RuntimeError(
                         f"Day {day} {role} page is missing the current Google deck"
                     )
