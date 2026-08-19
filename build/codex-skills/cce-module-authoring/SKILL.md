@@ -78,6 +78,7 @@ H&L and FYF already capture most evidence. Before adding a notebook page ask: is
 - If a slide references a notebook page, the slide shows the page (a OneNote or paper screenshot), not a description of it.
 - Never rasterize. Never hand-edit a `.pptx`. Decks come from `build/decks/<week>/build.mjs` and must pass the deck lint and editability gate. No GIFs on masters.
 - Check the existing image store before capturing. Capture only gaps.
+- Look before you click. For platform visuals the order is: (1) what the repo already has; (2) the vendor's own help site and educator library (Xello: help.xello.world learning modules and Knowledge Base; H&L: teacher resources and Climber Notes), which already publish student-screen images, embeddable videos, and lesson slides; (3) a live click-through in the demo student account only for a specific screen nothing else shows, such as the exact completion badge or a "done when" state. Do not photograph every step of a flow.
 
 ## 6. Known slips to fix on sight (from the Week 0 audit, 2026-08-18)
 

@@ -70,6 +70,8 @@ Source priority:
 3. Attributed free photos (Unsplash, Pexels, Wikimedia CC0/CC-BY). Credit line on the slide plus a `credits.json` per deck folder: file, author, source URL, license, date pulled.
 4. Generated diagram only when no real artifact exists.
 
+Look before you click: vendor help sites and educator libraries (help.xello.world modules and Knowledge Base, H&L teacher resources) already publish student-screen images, embeddable videos, and lesson slides. Harvest those first; use a live demo-student click-through only for a specific screen nothing else shows (a completion badge, a done-when state).
+
 Existing store as of 2026-08-18: 41 H&L screens (`hats-and-ladders/screens/` and `hats-and-ladders/2026-08-17/screenshots/`), 2 OneNote, 1 Xello, plus `canvas-licensed/` sets for most weeks. Check the store before capturing.
 
 GIFs: PowerPoint plays them; Google Slides import does not reliably. No GIFs on masters. Use two or three sequential screenshots on one slide and link the official platform video in the Facilitator Guide.
