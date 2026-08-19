@@ -1,6 +1,19 @@
-# Post-week deck audit and improve workflow
+# Live curriculum error-catching loop (decks and Canvas guides)
 
-Status: adopted 2026-08-18 (owner rulings in section 6). Applies from 1SW Wk1 onward. Week 0 was the pilot.
+Status: adopted 2026-08-18 (owner rulings in section 7). Applies from 1SW Wk1 onward. Week 0 was the pilot.
+
+Purpose: teachers are already teaching from this curriculum. This is not a redesign. Each week we find flaws in what is live and fix them in place: language that leaked into the wrong tier, slides with no visuals, AI cliches, wrong page references, dead links, obsolete platform routes, missing DONE WHEN lines, and whatever teachers report. Fixes go through the builders and the same gates so the corrected version reaches Canvas, Drive, and the mirror with verified parity.
+
+## 0. Intake
+
+Sources of flaws, checked every week before the passes below:
+
+- teacher and owner reports (`cce-launch-working-buffer.md`, current-week section)
+- Week 0 lessons learned (`week0-live-launch-lessons-learned.md`) as the standing checklist of known failure types
+- lint and gate output from the passes below
+- platform drift: a screenshot or step that no longer matches the live H&L, Xello, Canvas, or OneNote UI
+
+Every accepted item gets one line in the week audit file with: artifact, slide or line, what is wrong, fix, verified how.
 
 ## 1. Who does what
 
@@ -38,7 +51,15 @@ Output: `cce-curriculum/notes/audits/<sw>-<wk>-language-audit.md`. Hits listed b
 
 Enforcement: deck builders block on tier 1 (already). Canvas builders run tier 2 and 3 as report-only for the first audited week, then flip to blocking.
 
-## 3. Pass 2: image audit
+## 3. Pass 1b: AI cliche and voice audit
+
+Run on slides, Student Guide, and Facilitator Guide text after the tier lint. Standard is `teacher-voice-standard.md` (sections "What to cut or rebuild" and "Revision test"). Use the `ai-writing-tells` skill as the detector; the `elisha-voice` skill only for text she sends as herself.
+
+Catch and rewrite: rule-of-three padding, "dive in / unlock / empower / journey" vocabulary, restating the objective as a slogan, hedged instructions ("consider", "you might"), sentence pairs that say the same thing twice, headings that summarize instead of instruct, negative parallelism ("not X, but Y"), and any em dash in teacher- or student-facing text. Slides get one instruction per line; guides get plain declaratives.
+
+Output goes in the same week audit file. Hits are quoted with the replacement line.
+
+## 4. Pass 2: image audit
 
 Classify every slide: (a) platform screenshot, (b) real-world photo for context, (c) diagram, (d) text-only is right.
 
@@ -60,19 +81,20 @@ Gate additions to the week QA script:
 - image byte cap per slide (reuse the Canvas image-performance thresholds)
 - screenshots carry a capture date in the deck manifest so stale UI is flagged next year
 
-## 4. Pass 3: rebuild through the builders
+## 5. Pass 3: rebuild through the builders
 
 Fixes go into `build.mjs` or `dayN.json`. Rebuild, run the week gate, regenerate the weekly Lucero deck from the masters. Never hand-edit a `.pptx`, never rasterize, never rebuild the gated Week 0 masters outside their builders.
 
-## 5. Pass 4: distribution and parity
+## 6. Pass 4: distribution and parity
 
 1. Canvas reconcile (Claude, token via stdin).
 2. Hand Codex the ID list, local paths, sha256 from `google-workspace-parity-manifest.json`. Codex runs files.update on the same IDs, no duplicates.
 3. Claude verifies through the connector: raw byte size equals local, native slide count and text, temp files trashed.
 4. `verify_parity.py` from the main workspace. Parity is claimed only when Canvas, Drive, and the public mirror all pass against the same source hashes.
 
-## 6. Owner rulings 2026-08-18
+## 7. Owner rulings 2026-08-18
 
 - Claude may sign in with the owner's Irving Google or ClassLink account, or the demo student account, to capture screens. Owner approves the sign-in in the browser; Claude never types credentials.
 - Prefer already-captured screenshots; capture only what is missing.
 - Canvas page lint starts report-only for one week, then blocks.
+- The loop is for catching and fixing errors in live material. It does not reopen sequence, pacing, or design decisions already ratified.
