@@ -4,6 +4,8 @@ Read `CLAUDE.md` and `PLANNING.md` before substantive curriculum work.
 
 For Canvas lesson production, read and follow `cce-curriculum/notes/canvas-lesson-production-workflow.md`. The approved reference implementation is the Week 0 Day 2 teacher/student pair under `build/canvas/`.
 
+For writing or auditing any Facilitator Guide, Student Guide, deck, or notebook page, load and follow the `cce-module-authoring` skill (`build/codex-skills/cce-module-authoring/SKILL.md`). Print its self-audit table before handing off.
+
 Non-negotiables:
 
 - Canvas is the sole active production, review, and delivery environment for teachers and students.
