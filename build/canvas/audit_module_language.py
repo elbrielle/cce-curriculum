@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[2]
 TPL = ROOT / "build/canvas/templates"
 
 STUDENT_BANNED = [
+    (r"sign in with google|app\.hatsandladders\.com", "wrong sign-in route: ClassLink is mandatory for H&L and Xello (2026-08-19)"),
     (r"\bprovisional\b", "teacher logic: provisional"),
     (r"\bcatch[- ]up\b", "teacher logic: catch-up"),
     (r"\bfixed (value )?list\b", "teacher fallback: fixed list"),
@@ -46,7 +47,7 @@ TEACHER_BANNED = [
     (r"view distributed pages", "OneNote mechanics"),
     (r"\bpage id\b|\bmodule id\b|\bfile id\b|\bAPI\b|\bHTML\b|\bJSON\b", "implementer talk"),
     (r"\bCore [A-Z]\b", "internal lesson code"),
-    (r"\bClassLink\b", "obsolete sign-in route"),
+    (r"sign in with google", "wrong sign-in route: ClassLink is mandatory for H&L and Xello (2026-08-19)"),
     (r"\bautosave\b", "obsolete autosave test"),
 ]
 AI_CLICHE = [

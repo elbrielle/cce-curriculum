@@ -57,6 +57,11 @@ Teacher banned list (rewrite on sight): "this guide contains the full lesson", "
 
 Test: if a sentence would make sense only to the person who built the Canvas page, it is implementer language. Delete it or move the teachable part into a teacher action.
 
+## 3b. Platform access facts (binding)
+
+- Students open Hats & Ladders and Xello through ClassLink. ClassLink passes the sign-in token; a direct "Sign in with Google" on the H&L site does not work for IISD students. Every student step, slide, and Canvas link to H&L or Xello goes through ClassLink. Never write "Sign in with Google" or a bare app.hatsandladders.com link. Owner ruling 2026-08-19.
+- Xello's educator library supplies lesson slides (PPTX, some with Irving versions), student instruction PDFs, and videos. Check `cce-curriculum/resources/xello-licensed/` first and use those slides and screens before building new ones. Embed official video players; never rehost a video file.
+
 ## 4. Journals: restraint rule
 
 H&L and FYF already capture most evidence. Before adding a notebook page ask: is there a required student product that no platform or workbook page stores? Only then create a page.
@@ -76,6 +81,7 @@ H&L and FYF already capture most evidence. Before adding a notebook page ask: is
 
 ## 6. Known slips to fix on sight (from the Week 0 audit, 2026-08-18)
 
+- "Sign in with Google" on H&L steps (Week 0 Day 2 and 3 decks, guides, and day pages): wrong route, must be ClassLink. Also the Canvas home page H&L link must point at the ClassLink H&L tile, not app.hatsandladders.com.
 - Student Guide "Were you absent or is H&L unavailable?" block: outage logic on a student page. Replace with "Absent? Start here" and student actions only, or drop it.
 - "marked provisional", "marked for catch-up", "fixed value list", "same private notebook page" in student steps: teacher logic. Rewrite as the action the student takes.
 - Facilitator Guide OneNote block that specifies table cells and distribution mechanics: journal overload. Replace with the page title and its stems.

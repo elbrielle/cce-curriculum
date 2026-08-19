@@ -17,7 +17,7 @@ export const BANNED_SLIDE_PATTERNS = [
   [/\bminutes?\s+\d+\s*[–-]\s*\d+/i, "minute ranges belong in notes"],
   [/\bminors?\b|\bmajors?\b/i, "gradebook admin belongs in the facilitator guide"],
   [/\bmr\.?\s*lucero\b|\bmister\s+lucero\b/i, "wrong honorific"],
-  [/classlink/i, "obsolete sign-in route"],
+  [/sign in with google/i, "wrong sign-in route: H&L and Xello open through ClassLink (SSO token); owner ruling 2026-08-19"],
   [/\b(reopen|re-open|refresh)\b[^.]{0,60}\b(page|onenote|notebook)\b/i, "obsolete autosave test"],
   [/do not transfer|unsourced web search/i, "teacher policy language on a slide"],
   [/digital and physical routes/i, "route language on a slide"],
