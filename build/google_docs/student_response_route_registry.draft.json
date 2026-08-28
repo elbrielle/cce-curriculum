@@ -11,7 +11,7 @@
   "inputs": {
     "source_spec": {
       "path": "build/google_docs/student_worksheet_source_specs.draft.json",
-      "sha256": "ed3ab82b483af2bd287ea6d5928858c64751cae16999b16fd7e5b1e459814a0a"
+      "sha256": "6b446f2b25fa237a48bfca542e7c409bba96f89ba9033aac16e9ef848f738617"
     },
     "live_google_doc_registry": {
       "path": "build/google_docs/student_worksheet_links.json",
@@ -19,7 +19,7 @@
     },
     "manual_specs": {
       "path": "build/google_docs/student_response_route_manual_specs.json",
-      "sha256": "dae321bdb2a122932e0a9c7cd4e1c5ea127b537ac8e7d7180fcc6e172b7b6d63"
+      "sha256": "1aa8db351449d1cd97162d6d2889c818b13294f9524692b9d2a9747ada4a0f1f"
     },
     "trusted_read_roots": [
       ".tmp/docs-trusted-read/20260825-current",
@@ -48,7 +48,7 @@
       "subtitle": null,
       "layout_spec_status": "reviewed",
       "source": {
-        "source_spec_record_sha256": "0aa79652303c589c22573a6df9b2be30d1595ba3848f3a2a7e9f1ba53364357a",
+        "source_spec_record_sha256": "663cb36bb49ec741e11fc2e55d161a72d0ffa6682f517b1624bbf5ff495b1cee",
         "day_source": {
           "path": "docs/1sw/wk0-classroom-routines/day1.md",
           "sha256": "97502ff45bc7496b01997ff1e9859d9ff43f21b3efbc37ccc7420623e1f89337"
@@ -59,7 +59,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk0-day1-student.html",
-          "sha256": "0627c15127eeaed3853d0d982fdb748c0c5f311928493dab0a9530308314489b"
+          "sha256": "e08ac1692c549ef77b78207da455157b544cd4c8c7caaf47568bb9fc694e9887"
         },
         "worksheet_sources": [],
         "linked_printable_sources": [
@@ -70,8 +70,8 @@
         ],
         "manual_spec": {
           "path": "build/google_docs/student_response_route_manual_specs.json",
-          "file_sha256": "dae321bdb2a122932e0a9c7cd4e1c5ea127b537ac8e7d7180fcc6e172b7b6d63",
-          "record_sha256": "38b46e16aa8d72546eaac2309ec383563caa3ef04252c7edba9c8fb1befdd712",
+          "file_sha256": "1aa8db351449d1cd97162d6d2889c818b13294f9524692b9d2a9747ada4a0f1f",
+          "record_sha256": "533018ff1c58148fb6951887341cce5255583be4c259f7c0f34ab128aa299fd5",
           "layout_spec_status": "reviewed",
           "content_spec": {
             "purpose": "Set one reusable response home and complete a specific first-week CCE goal.",
@@ -124,10 +124,10 @@
       "subtitle": "H&L Setup and Discover Your Core",
       "layout_spec_status": "reviewed",
       "source": {
-        "source_spec_record_sha256": "ea98e06f7b7db87439f7b0b08aa6a5c6fde3631500571c340b32d65fc3d43f10",
+        "source_spec_record_sha256": "efeff91c1cf18cb1f41cfdfe0a6c526ee5bc921eaa96dfa2a0adc51662170f79",
         "day_source": {
           "path": "docs/1sw/wk0-classroom-routines/day2.md",
-          "sha256": "a10ce7614756a6625ee4043d23c2b1c88fae1474b644038172a211089ee9bc6a"
+          "sha256": "6d09fcb7f9dfe7ea2679b311bbf1218062b88a02b5f402591775573fb38256b1"
         },
         "canvas_builder": {
           "path": "build/canvas/build_wk0.py",
@@ -135,14 +135,14 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk0-day2-student.html",
-          "sha256": "e6070b638d821318e94e4ee249879cb86ff2a950891e342af108b2fa7895ec45"
+          "sha256": "6d56deba1f8ab18abcab618fc083bc1548a7f3c7e78bee95c961faf72bd6f2a3"
         },
         "worksheet_sources": [],
         "linked_printable_sources": [],
         "manual_spec": {
           "path": "build/google_docs/student_response_route_manual_specs.json",
-          "file_sha256": "dae321bdb2a122932e0a9c7cd4e1c5ea127b537ac8e7d7180fcc6e172b7b6d63",
-          "record_sha256": "9ec640b8f22162a55408fe1f850b25800e3b5d24b84183c43311b0b412ed5175",
+          "file_sha256": "1aa8db351449d1cd97162d6d2889c818b13294f9524692b9d2a9747ada4a0f1f",
+          "record_sha256": "d02c0b631859494a3fa429cbd955dd229c0af5511605de682dae091fa5211c12",
           "layout_spec_status": "reviewed",
           "content_spec": {
             "purpose": "Record a Core prediction, the H&L result, and one short interpretation in one private response home.",
@@ -195,10 +195,10 @@
       "subtitle": null,
       "layout_spec_status": "reviewed",
       "source": {
-        "source_spec_record_sha256": "a568068f788f8d19e38416d61de348c08fd54e710d2b15b8863f828e35cb2d5e",
+        "source_spec_record_sha256": "3469a0fc31e88642d242b16f9649510a623c3a51429ceb04d9b4f458818aa7ca",
         "day_source": {
           "path": "docs/1sw/wk0-classroom-routines/day3.md",
-          "sha256": "caa100ec28cd36520de5d5b2aba94cf8fde8c0dc021f3423a2f78b81505a10f8"
+          "sha256": "d5ab6531092216516dd420c880cff09d7eddaf25c2e7617832996cf495ffaeb6"
         },
         "canvas_builder": {
           "path": "build/canvas/build_wk0.py",
@@ -206,14 +206,14 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk0-day3-student.html",
-          "sha256": "7482e807529da86edb96b8024391e85e7ea2743f3736219225ab8109515871d1"
+          "sha256": "b9585749bf9eb76005a5d99eca86528d078e69e6f328bbfe7dd1debaf6b24732"
         },
         "worksheet_sources": [],
         "linked_printable_sources": [],
         "manual_spec": {
           "path": "build/google_docs/student_response_route_manual_specs.json",
-          "file_sha256": "dae321bdb2a122932e0a9c7cd4e1c5ea127b537ac8e7d7180fcc6e172b7b6d63",
-          "record_sha256": "e08574700373008bd6838b90c3851b847a24120263b18b580587f102f3ad34db",
+          "file_sha256": "1aa8db351449d1cd97162d6d2889c818b13294f9524692b9d2a9747ada4a0f1f",
+          "record_sha256": "e87ec90297291c34b0588bc3859c6beaa7f72e07ef1df334244cf2bc96896e28",
           "layout_spec_status": "reviewed",
           "content_spec": {
             "purpose": "Connect work values, experiences, skills, and one possible career cluster.",
@@ -266,7 +266,7 @@
       "subtitle": null,
       "layout_spec_status": "reviewed",
       "source": {
-        "source_spec_record_sha256": "e12f6e55284e21dc1d9690289a7a42bd733be7dc5b2b49dc7f500808199a698d",
+        "source_spec_record_sha256": "7a658cfcda72967e5074d518aa25d44ed88838748cec4239d8abd4af4d2c4930",
         "day_source": {
           "path": "docs/1sw/wk0-classroom-routines/day4.md",
           "sha256": "c1210683c5ab34d94c6b4a3c2f2d25c39f6116db32611125b1784181678b01f1"
@@ -277,14 +277,14 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk0-day4-student.html",
-          "sha256": "db25dbfe380352699b56cf147e5d7c47617aaa297f33a19288269e168f823adf"
+          "sha256": "12a54a5a0f71055cc2ba80826754e038d878b9982aee9d678c65bc97ccc6d22a"
         },
         "worksheet_sources": [],
         "linked_printable_sources": [],
         "manual_spec": {
           "path": "build/google_docs/student_response_route_manual_specs.json",
-          "file_sha256": "dae321bdb2a122932e0a9c7cd4e1c5ea127b537ac8e7d7180fcc6e172b7b6d63",
-          "record_sha256": "ff3aa91221e635318c8d1e54f339ad56efd2f9d4422ea310d324849bdb75856c",
+          "file_sha256": "1aa8db351449d1cd97162d6d2889c818b13294f9524692b9d2a9747ada4a0f1f",
+          "record_sha256": "58ab5345d153244408983abe473c4176a8a9af97ddcdabd8729809ca0a828d8b",
           "layout_spec_status": "reviewed",
           "content_spec": {
             "purpose": "Complete the eight-part My Career Journey reflection once and make one visible revision.",
@@ -348,7 +348,7 @@
       "subtitle": null,
       "layout_spec_status": "reviewed",
       "source": {
-        "source_spec_record_sha256": "0ef7ce2ef45953612d05d3456e2d784a79cb47265487d0484648ba4bb23071ae",
+        "source_spec_record_sha256": "f91f41a62ffc460e1738908ce52c7eebbff1826166f7ac4ecf27477a5bf9895a",
         "day_source": {
           "path": "docs/1sw/wk0-classroom-routines/day5.md",
           "sha256": "694a470d83e31a6a39bc36eba74e55d0f48d579f71ad96e31c47a71e51718507"
@@ -359,14 +359,14 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk0-day5-student.html",
-          "sha256": "440b89b5ccfd91a0737ea8f222d7599956d1f96dbdc03401c993a4080615615d"
+          "sha256": "ea78386f0bfd02250adfeacf2b9551bfcec52d53b1bd4a458beea1291711cdda"
         },
         "worksheet_sources": [],
         "linked_printable_sources": [],
         "manual_spec": {
           "path": "build/google_docs/student_response_route_manual_specs.json",
-          "file_sha256": "dae321bdb2a122932e0a9c7cd4e1c5ea127b537ac8e7d7180fcc6e172b7b6d63",
-          "record_sha256": "9e834ae2eb714c089764b5effb9a943bc701aef0e5297016a69b4d1d7d46887f",
+          "file_sha256": "1aa8db351449d1cd97162d6d2889c818b13294f9524692b9d2a9747ada4a0f1f",
+          "record_sha256": "a478d853590d06b9f68f972652b23f445140f103d1f416de3ab9beec2a6fe506",
           "layout_spec_status": "reviewed",
           "content_spec": {
             "purpose": "Classify four career details as perks, neutrals, or quirks and explain each decision.",
@@ -419,7 +419,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "10c18363bb18775565637d13d3fe514c913f45676ee143f21b4409d2556ab6b3",
+        "source_spec_record_sha256": "65ec5b19d797fb9c5552d41992b375ac3522a55c47441f9742fed6d46eed9292",
         "day_source": {
           "path": "docs/1sw/wk1-robotics-manufacturing/day1.md",
           "sha256": "c01439d82a48f74f86d02eb00c79886434bfd4fa1bc226ae587e1d4aaaa0d032"
@@ -430,7 +430,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk1-day1-student.html",
-          "sha256": "89ffb7321068358072e93f14078164333deb3439d2749d56f7d119914ec63d74"
+          "sha256": "ac69508ea0ec278291b303067bd2c800d24fdc07fc20d91080d64c426d9ac43a"
         },
         "worksheet_sources": [
           {
@@ -494,7 +494,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "a59f375b65c299f63d4513694fb5912da4019e25243bfc6dc3b73dbd4dd29a6d",
+        "source_spec_record_sha256": "f39feb18f6e1ea952c0bc565ea2a19e38d01f7e83176cb7ee63de4937498bbb0",
         "day_source": {
           "path": "docs/1sw/wk1-robotics-manufacturing/day2.md",
           "sha256": "2bd3a075ab3430ca523ca22eaf7a958acbdc26bd6a30a51d82a466d5c979d48c"
@@ -505,7 +505,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk1-day2-student.html",
-          "sha256": "e063e1a29f219ddeb7b238287aa5710ce8caa76b9e912421d24f91c604419179"
+          "sha256": "2f34eac271e7d946a080d584e682817f959b6d329f38bf753bf18b5bdc855066"
         },
         "worksheet_sources": [
           {
@@ -596,7 +596,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "ffefb661b74d4cf18b7082017770f823793a98b86e85ec09e56d15388d339583",
+        "source_spec_record_sha256": "8ff59c03df131b6eb97fda8d21e586e31752e4d29ed2ffd0b4a314dac56313f7",
         "day_source": {
           "path": "docs/1sw/wk1-robotics-manufacturing/day3.md",
           "sha256": "1f27b4d0781a396db979e38bc9e2a22978a6e33febb9725ad3f1469eeab5a308"
@@ -607,7 +607,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk1-day3-student.html",
-          "sha256": "011c6f6d0f8484652b14765008b1c56d8cab2483d4640fa860c6c86244964bec"
+          "sha256": "19aa44a527dba35dfd144618842de28324c326eef051691500990c744f728445"
         },
         "worksheet_sources": [],
         "linked_printable_sources": [
@@ -657,7 +657,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "5e88008dac1990af7d3be2f38f8b357164475c709b126139116160f5c1d675a7",
+        "source_spec_record_sha256": "a264762092ce4c324d79d8b4c3e62cba5049d0499def6a1d4bbe265af793fabf",
         "day_source": {
           "path": "docs/1sw/wk1-robotics-manufacturing/day4.md",
           "sha256": "62a21441cc33430c8ce50836b3197bbc811f4353500cec96c0b181fdd61ea585"
@@ -668,7 +668,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk1-day4-student.html",
-          "sha256": "c0efdbdbaa83aeb343e29a1f71c1fd02757274506a47b638e6353d77cf291f10"
+          "sha256": "45e7d2f1eb8f47a65678a20899925f7a5efca49870eb548f0e9f4c42c83672f6"
         },
         "worksheet_sources": [
           {
@@ -728,7 +728,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "a3faa0fdcdfb3e3985454b0f1308d90b790d8f2b4eabab12021a78505bc77783",
+        "source_spec_record_sha256": "ecb15d5ab16da8c35a3638988dbcd1748494796722acc6959e897e8fa311d669",
         "day_source": {
           "path": "docs/1sw/wk1-robotics-manufacturing/day5.md",
           "sha256": "619ceb999642b0686e1db99926dbbce3bac7278f1b97ef04d6b4ca18f743931c"
@@ -739,7 +739,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk1-day5-student.html",
-          "sha256": "2cd18b71bcf36881b31441b3fe7f33670d93377e053da30a3bd9e7c7295b3f68"
+          "sha256": "019adfed7ea575954465ca1ddb46846638b280b8148366097078fb232a659118"
         },
         "worksheet_sources": [],
         "linked_printable_sources": [],
@@ -784,7 +784,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "b67ce534eb40be93d914647a8c22103f773abbef6a406a26e351bb2f6f241d6c",
+        "source_spec_record_sha256": "745351f351ae884afca4e06ab16f0ffa8abe299e66ac05490637fa90b1c1a02e",
         "day_source": {
           "path": "docs/1sw/wk2-programming-it/day1.md",
           "sha256": "1032a25ce5067a208adf244cccf430c5d1a9314e7ddfe12bff8db5b0f1e0501a"
@@ -795,7 +795,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk2-day1-student.html",
-          "sha256": "40a329f8fbcddc1275f59a13f57a1397f205a220cde53f7b68b821454edec025"
+          "sha256": "db7ea0c42c1aac0c22faca413356eb4d7fb25ed27f1447ecb3e50f961e9a629d"
         },
         "worksheet_sources": [
           {
@@ -859,7 +859,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "18ea8f6546ba4d755e3a6d2158d95c3ac93f8036c84920e98ec0be80bfaca27f",
+        "source_spec_record_sha256": "54135e367ed7882ff1c9b77b8451fca97b2a6fe8f880a55ed0300ec8c9b683ae",
         "day_source": {
           "path": "docs/1sw/wk2-programming-it/day2.md",
           "sha256": "b12bab24bba697ba6a36fe8d9dc8d04ca3849e66bca7ceb9b11aa07b6eb5854e"
@@ -870,7 +870,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk2-day2-student.html",
-          "sha256": "8aa15e8f07cda4b4d08ad4cf12a6e4945ff5e8e982385d5aa7af7873db477770"
+          "sha256": "06af2b57e3e2e2025ec86e2341954b6115551dddd960bb4e44ddcdc492d62e38"
         },
         "worksheet_sources": [
           {
@@ -947,7 +947,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "b69da5cd7b6185e5af3b83ad3f1c4ae7417fe70c7de6b10676cf82925f6d6ae0",
+        "source_spec_record_sha256": "ddbf1d30713c09af80306cb18b3f3c4515904346f45d5212f774f19e4652f844",
         "day_source": {
           "path": "docs/1sw/wk2-programming-it/day3.md",
           "sha256": "4ff28991dc709d0ab3606782b2ce3148a1c54b8766892217a2134425e5f5a38a"
@@ -958,7 +958,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk2-day3-student.html",
-          "sha256": "f9290f101f6d24f760c732b4b86bda467097bece1d1defe967a0eb2f0a86450e"
+          "sha256": "1c1e6a8d03f0643aa969ed7846fad0c14fe65a7fb42cba54460e265dc9ad37e6"
         },
         "worksheet_sources": [
           {
@@ -1070,7 +1070,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "251384dc2a7441b544e71705f0efbce6c1f14addfb1002ecec3f51f8ca0599c3",
+        "source_spec_record_sha256": "1157bdbcffda9567460e7f2a70b31ec5093440930996bf52977bdfa1b3854333",
         "day_source": {
           "path": "docs/1sw/wk2-programming-it/day4.md",
           "sha256": "084d5c52c860c07f0c052f5c8f592e2579d9380676c31158793ca32d1fe884e8"
@@ -1081,7 +1081,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk2-day4-student.html",
-          "sha256": "e0cec53face3bf7a3cca567fc1bc5b61f451fbc26f99fd4d36e1b96353393c8f"
+          "sha256": "6919c4527840ddc55d1c4e294d7b17e56aa1cf6fc6870d8df35d641b0869e702"
         },
         "worksheet_sources": [
           {
@@ -1145,7 +1145,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "1d46610e2eda93208abcd69c531464d9fbcc4f12ac2a0761d6b68548e373984f",
+        "source_spec_record_sha256": "80d193e1a5bb142e5324216c904c223e61f0560b0a8499bb35e967908c52c432",
         "day_source": {
           "path": "docs/1sw/wk2-programming-it/day5.md",
           "sha256": "acd8aa3e93b06d9eddd78b51979e656ea5e71c68b81bb096a9f87806446bd391"
@@ -1156,7 +1156,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk2-day5-student.html",
-          "sha256": "2a00e76b765d74a588a92f98b73d0a590725e34d2118f5639d2656bb9d0aebaa"
+          "sha256": "1223a32313e72e282640ef249768c334ced101e236200772cc0ded1ae7865747"
         },
         "worksheet_sources": [
           {
@@ -1229,7 +1229,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "90baa31b0183f33c6ba85b7bcff4bdfe3432cd455cd257fa0b975f0d0ba44b78",
+        "source_spec_record_sha256": "afd2282821f5810860407d7a02e324845fa8268337ffbfae8b1f8d359cb0569d",
         "day_source": {
           "path": "docs/1sw/wk3-computer-science-it/day1.md",
           "sha256": "d73bf75ddce3d0efc96e73ad4ef2ccb3d009a51a62dccc948118fe2be50b9976"
@@ -1240,7 +1240,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk3-day1-student.html",
-          "sha256": "4c9d80882e94c57bf97011f07930c6bc3b9b09dc416d0541762ece6e60b3cdb8"
+          "sha256": "798fa6bd2b458f4ac69606065fb756fa06604574a8c38175e8510d99ecc6bf89"
         },
         "worksheet_sources": [
           {
@@ -1317,7 +1317,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "37070b9c3d7abe5449f79669214799af9249c8526aff66ca8a0887e458aa773d",
+        "source_spec_record_sha256": "0e5c3d525a1dddade91668d2248beadb0caf005450b70162930581ece7a379dc",
         "day_source": {
           "path": "docs/1sw/wk3-computer-science-it/day2.md",
           "sha256": "e0fe76b34ae709730cdafb7c911acb05972f0df02320dbaa026b67bbb6f16c6d"
@@ -1328,7 +1328,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk3-day2-student.html",
-          "sha256": "cdbfce56df55ff4e92829e8d32d3715befe26ec4d8d5dfd7dda35f836dcda4d6"
+          "sha256": "8eeb6eac2af1c9b2db8aaf35af1bd4523863d564ea554d0aaacaeeb5214d30e9"
         },
         "worksheet_sources": [
           {
@@ -1392,7 +1392,7 @@
       "subtitle": null,
       "layout_spec_status": "reviewed",
       "source": {
-        "source_spec_record_sha256": "5911f8e633da9ad36cd3b964f08a64548050c7bfde33113b6bbd3f967824ab77",
+        "source_spec_record_sha256": "920d2456ec14a66450ad0d60bcedad3ccc42e7806ae2ac19c892643f754da40e",
         "day_source": {
           "path": "docs/1sw/wk3-computer-science-it/day3.md",
           "sha256": "b97875c33464d59a6cc0e6917d22988ae5a1ce299829a9924626682d690084e4"
@@ -1403,7 +1403,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk3-day3-student.html",
-          "sha256": "372dcdd00c0365128ad536442c0793620a730d6fefbb6a4c688ca0fe42be4849"
+          "sha256": "5d8d766960cdfdb7260de74457d9d2942981b0d9eebe13cafa54cdb6cc618ffd"
         },
         "worksheet_sources": [
           {
@@ -1450,8 +1450,8 @@
         ],
         "manual_spec": {
           "path": "build/google_docs/student_response_route_manual_specs.json",
-          "file_sha256": "dae321bdb2a122932e0a9c7cd4e1c5ea127b537ac8e7d7180fcc6e172b7b6d63",
-          "record_sha256": "078e9f910dd42a9aebdbf5262a76f6d9a6936311018611b0bb8551421861be8b",
+          "file_sha256": "1aa8db351449d1cd97162d6d2889c818b13294f9524692b9d2a9747ada4a0f1f",
+          "record_sha256": "556d1b5d4d91275768618306d4a2596a4e1ea4bb87d1c81d215679593dd5974d",
           "layout_spec_status": "reviewed",
           "content_spec": {
             "purpose": "Capture the app-design deliverable without duplicating the full lesson guide.",
@@ -1504,7 +1504,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "8b0cca70c91d4f20a38d8623af459592d6cb56e10ba13860143e61caa0e2140f",
+        "source_spec_record_sha256": "a4a3e845e50902b77ac788e450e5798a2f7dc4d4690998fb4f22e2711670efa7",
         "day_source": {
           "path": "docs/1sw/wk3-computer-science-it/day4.md",
           "sha256": "f7b2a1dbdd7c9a0ba76bbc6db87400db4de2d6bc05fa12361cce8da57df05401"
@@ -1515,7 +1515,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk3-day4-student.html",
-          "sha256": "ea7f6a2e1884b30287233da02f52e5064523700401e4b9e14b7ff62a754c7d51"
+          "sha256": "ee9bdf2ca37b7939561f421785ea993f4b3141502d91d1470836721abdbfc748"
         },
         "worksheet_sources": [
           {
@@ -1601,7 +1601,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "617f3923286f41b44c36a43e173e3f131ed0c00b3765f581d9a2b9930c7d74ff",
+        "source_spec_record_sha256": "2857b64f6473c05f610dd256bdc29cb58ebe7168affaf09b30fb4abd5c069f37",
         "day_source": {
           "path": "docs/1sw/wk3-computer-science-it/day5.md",
           "sha256": "84c7fa69222b9d8f5e44703cf84415b69dedec303fd2fece1a468eb83870b95b"
@@ -1612,7 +1612,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk3-day5-student.html",
-          "sha256": "8d6d10c07d314e86b2c82df95ce8e9a6186ef0df3d88bd09b15c1f72f599299c"
+          "sha256": "eb8448f750753016ce42474430f7b19e715f414df648e2bbb7989ba34a95e05e"
         },
         "worksheet_sources": [
           {
@@ -1681,7 +1681,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "f9ce101199373acd877287a5bea59ebff641350adce22ead4fd924fbfd2fa66f",
+        "source_spec_record_sha256": "2c84865404db48ff907083c27fb997a4588ce4b6dee1c175edd63cb8c4b03318",
         "day_source": {
           "path": "docs/1sw/wk4-tech-support-it/day1.md",
           "sha256": "a05760757197344121d704101cdeae6cc3c1f17569f84206cc53bf15424b5a2b"
@@ -1692,7 +1692,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk4-day1-student.html",
-          "sha256": "c8a8f2b245d9b30bb7a80d138fab0eae36c271db22d989f2932a645a3a35cb76"
+          "sha256": "9ff38ba65e9fe35f0c018149a3667fa71bc94e252166bbc212c1b96ff1ad5b41"
         },
         "worksheet_sources": [
           {
@@ -1765,7 +1765,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "353915f707bb4641d975e5580fe8ea54c65555c24ed8ea1be5ae7cf5ed1aa48b",
+        "source_spec_record_sha256": "8b54f3207b5365436fbb5e3961670519f591c47e936d571611c3e385a7363c49",
         "day_source": {
           "path": "docs/1sw/wk4-tech-support-it/day2.md",
           "sha256": "f363e9c1e79fd5610a6cbf2f6f33c38fcfef6d1fd6b6ff84dcfabf5bd842b375"
@@ -1776,7 +1776,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk4-day2-student.html",
-          "sha256": "f9edc68d2adca9a20df51a9b8b91d961aa88bcf575ce40c0dfbc0acfdf99431b"
+          "sha256": "26c21f768d0c4e1c40d38de99b9fb3104d7ba151a05683efed6b18e7b1e61d4b"
         },
         "worksheet_sources": [
           {
@@ -1884,7 +1884,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "76749e92a8a60a5fe1450d585ee1323d8201b5e7fed6d8c63cc44e7e222aa427",
+        "source_spec_record_sha256": "229b84dad25f919a98af2fd791005902ce45497ead4a6f3e0980eb44d78ecb49",
         "day_source": {
           "path": "docs/1sw/wk4-tech-support-it/day3.md",
           "sha256": "e485a725f1b383d500e1be6d2f690a868898763443bbc8330cb350c105f1eb00"
@@ -1895,7 +1895,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk4-day3-student.html",
-          "sha256": "da56e54f24b978422468800f2089e8b867243d5a32933cabaed3fc19e23f4238"
+          "sha256": "275b80dd2888c5ad165e76207b2336064087a00eb0683ce63b3ca57dcfc6ea5a"
         },
         "worksheet_sources": [
           {
@@ -1991,7 +1991,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "29a952023dd00ce9177f8741b2376f9683aa00bc7a8afeb123b621597af568d8",
+        "source_spec_record_sha256": "a9afb242bad3ef427753cea1286d7634520db7ec0b3a858ce5987f084b1eada8",
         "day_source": {
           "path": "docs/1sw/wk4-tech-support-it/day4.md",
           "sha256": "25b8a48fba8e42210a4994308ff033dd9c98430ca0764c3662af25531e0a0d99"
@@ -2002,7 +2002,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk4-day4-student.html",
-          "sha256": "66e87500afa7fbf58c7186c38e80f1edd11636848b66b60fe1dc9e86b0ea6e87"
+          "sha256": "3da5a25330e8dec4e437086ca4a33b67b99a9031ef4b2840ed7f509aa811310d"
         },
         "worksheet_sources": [
           {
@@ -2097,7 +2097,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "1ac1d2ce2c36164f2d722326d9b2e27b4fbf2f75873db8ed67ffbcc43b50ef9e",
+        "source_spec_record_sha256": "d98a61b91e4b9869e1c8b797eb413fde4c543548dcfac0a5a5e28670f0003418",
         "day_source": {
           "path": "docs/1sw/wk4-tech-support-it/day5.md",
           "sha256": "682c9d46e2a8aec9aa4574348201bf33dd4d42b7b33fe6afb946d7d60845d980"
@@ -2108,7 +2108,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk4-day5-student.html",
-          "sha256": "2ce13330b9d71998c4786b9875e324e26b8f2c306b7af1d3d8c0360bfd673dca"
+          "sha256": "4b8a4e4405d3e436a43f123f9e227283cf380c0a6050c1df1a96232564f01fd0"
         },
         "worksheet_sources": [
           {
@@ -2181,7 +2181,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "22584c995b73fc05681b44f0043fc4f65d2f4e5b339015bbf9dbb52a980f5a6c",
+        "source_spec_record_sha256": "c92a6e713ea05b41bd69ac7897d630ba70e572381b205181630b7c9e7782dcb4",
         "day_source": {
           "path": "docs/1sw/wk5-cybersecurity-it/day1.md",
           "sha256": "396fca258e59a337e187412028d34ebb57e08e4ee158f4aaac136baf66608710"
@@ -2192,7 +2192,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk5-day1-student.html",
-          "sha256": "0a4fb59df671bc246ec82a01a421473788b45c29df578eb044f41e0a5a06a5df"
+          "sha256": "1a537115a047adb37733050ec97b2976c7441d17eacd2e3a5f8287ff26170805"
         },
         "worksheet_sources": [
           {
@@ -2252,7 +2252,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "cac082e2d2f564c63c285cbb891c800200e8423821b0e3dade40058065fc7d56",
+        "source_spec_record_sha256": "162be23df69981644cfc4d352c1d3710522204f86f1968a9e3d8b47b2f0fdf7e",
         "day_source": {
           "path": "docs/1sw/wk5-cybersecurity-it/day2.md",
           "sha256": "7950093f417aaaba36321c8ce077b0d3e5aa74e4c233a321fe5a16e48ea5105f"
@@ -2263,7 +2263,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk5-day2-student.html",
-          "sha256": "4b830e8274663ffa0ba850044aeda582854caec4c8f118639d6b0067d3749a05"
+          "sha256": "719173fe8f3452ad42e5df05a1b05c6339e1415da49befc3bf14b4368298e7c0"
         },
         "worksheet_sources": [
           {
@@ -2323,7 +2323,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "707a139e189af4ec3ccfd491c82f13ac905a163d0aed3b190a38f43d9f9c9e2c",
+        "source_spec_record_sha256": "34d48c37dbdcad2a391d1b58ff3c4422d630d5ae5f2607c801fec15af9a46441",
         "day_source": {
           "path": "docs/1sw/wk5-cybersecurity-it/day3.md",
           "sha256": "41116fd2a89e38e38239dc0222d144f396a9d5d15d9ad8fa1a2dae154b6a3c05"
@@ -2334,7 +2334,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk5-day3-student.html",
-          "sha256": "465086cd84f59e4199abc724d5a63229606df07e93d4d571245347a8603e93db"
+          "sha256": "7c9d0018e018962d54510fd32023302253ba00b193172c1600c7f03173caf1cc"
         },
         "worksheet_sources": [
           {
@@ -2420,7 +2420,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "7717e63e0b480853e7955c1aadc908c8b6d3f3e9ea248eeb6997271c63514148",
+        "source_spec_record_sha256": "2ed8a30070affd8b4b9eebf9b78138187c48206920c2ac99c41baa2b017c68b8",
         "day_source": {
           "path": "docs/1sw/wk5-cybersecurity-it/day4.md",
           "sha256": "01d07d5f11db525da324150cb2fe25c017ba14b0dca02d5c5ae07286fd31865c"
@@ -2431,7 +2431,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk5-day4-student.html",
-          "sha256": "58507832b89bed9ccdbb12821229c37698fdb27201813cc7a4ae20e3cd0dc6e4"
+          "sha256": "e81f8e7bf9486ce6bf2b117319b0d91738d0e12d6a9f4867c439287e9fd1f5d1"
         },
         "worksheet_sources": [
           {
@@ -2491,7 +2491,7 @@
       "subtitle": null,
       "layout_spec_status": "reviewed",
       "source": {
-        "source_spec_record_sha256": "93709858fc4ebf2d7b483a30ed58a8a15b4a4b674cb28d6eb8958fc17bb276ac",
+        "source_spec_record_sha256": "5de2507f853780cff78b20bcc469c62511729b5833d6f3042755978de2c7877f",
         "day_source": {
           "path": "docs/1sw/wk5-cybersecurity-it/day5.md",
           "sha256": "3bbf00c55acedc2919c5c1850865df0443a371debb896817750a45cc4bf9368c"
@@ -2502,7 +2502,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/wk5-day5-student.html",
-          "sha256": "e28b53b2f63cb8f38ae8155fa9cd3fa4548ae86e322a1898bb872fc0376a7361"
+          "sha256": "03a23dcd8d4000a231cae7d059cdf52bd10363c1fb65640a9341da7e466df799"
         },
         "worksheet_sources": [
           {
@@ -2549,8 +2549,8 @@
         ],
         "manual_spec": {
           "path": "build/google_docs/student_response_route_manual_specs.json",
-          "file_sha256": "dae321bdb2a122932e0a9c7cd4e1c5ea127b537ac8e7d7180fcc6e172b7b6d63",
-          "record_sha256": "1c0c44cf85aac8068852a6b76a42d7570bf6cef26aa906fa3b48e66e0dc7d1d2",
+          "file_sha256": "1aa8db351449d1cd97162d6d2889c818b13294f9524692b9d2a9747ada4a0f1f",
+          "record_sha256": "2f1f73f90d4e82c5ecb6c267784c895ee5c3f76e2b2ac93f1cac4d3c9c3673e5",
           "layout_spec_status": "reviewed",
           "content_spec": {
             "purpose": "Complete the written and checkable portions of the four-part capstone evidence packet.",
@@ -2603,7 +2603,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "16ab7f36a754797ad370213691f27a8aea45935eeb2f993517263e1380e17a95",
+        "source_spec_record_sha256": "b3fbce41d656bc08cb25d9eaaf881b7d8c176b7449eb17aeef0e545ea7a73958",
         "day_source": {
           "path": "docs/2sw/wk1-legal-studies/day1.md",
           "sha256": "44408bee181bcea70c27078bb324b5a1156604b4c4e75da590ef1010796b3dda"
@@ -2614,7 +2614,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk1-day1-student.html",
-          "sha256": "460701c42fa18bd560e4c13e2a8e561d8c9575f5cfdf2e6cef3b24d33c066684"
+          "sha256": "5b2887d4c1c277388c8a7d546f65776b713dc0ffa478d97ffa1461ee409895a2"
         },
         "worksheet_sources": [
           {
@@ -2683,7 +2683,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "b2447834a0192c16e2de8b6e8dab16aceb28c41f99aaba9efe9e961c3da55bb3",
+        "source_spec_record_sha256": "8202659fb55458c4843e54b6844c232ae859f98187bec0d684191c494fe849eb",
         "day_source": {
           "path": "docs/2sw/wk1-legal-studies/day2.md",
           "sha256": "d114d32c72b4c265f1d9cc8636a1b7bacf9aa800eaac183dc226585752ab2be8"
@@ -2694,7 +2694,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk1-day2-student.html",
-          "sha256": "6adfbae91a5573f5350c1bfaaa84e2b63169ae54d33e36551fd4f47fc14303d1"
+          "sha256": "4f4e5aa5d81fa7fab6dd1fd24fdcba2c3c3b7979c7f600f52028c3836fc99ab0"
         },
         "worksheet_sources": [
           {
@@ -2754,7 +2754,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "4e5bb41239c9177129dc07de519262483891a741dfd428b92cfe9857a43a419f",
+        "source_spec_record_sha256": "3d9fbc712d9690d06af90b9426086e50f999c41a56b6874e1a16f98b6589b5c4",
         "day_source": {
           "path": "docs/2sw/wk1-legal-studies/day3.md",
           "sha256": "68b22f95e03049db735767d8ed7644b65527bd28ac0e7bc2e9f63bbd3266d3de"
@@ -2765,7 +2765,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk1-day3-student.html",
-          "sha256": "352bfaf7c6599cb9098767fa22cd0749c1baf5815347f60cb1faba0a71aed06b"
+          "sha256": "85c605a585fd4a6c5f32a5e62b33c037a43ddc0e0c076d760c88f31fb0c40364"
         },
         "worksheet_sources": [
           {
@@ -2825,7 +2825,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "3802f67193c2f2a4c0286aa5de5d496177e2c415215b623321d9a6ecff01a1c7",
+        "source_spec_record_sha256": "db87908096645c9a28881fb2294be33c315bd890dbe48e8ad62dc55a99a956ab",
         "day_source": {
           "path": "docs/2sw/wk1-legal-studies/day4.md",
           "sha256": "267bea09732d24a764ce8636d5ce420863a08bcbc8a4577edf7383e7a42dc4f3"
@@ -2836,7 +2836,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk1-day4-student.html",
-          "sha256": "901c13124844de43533bf86836271fe61c33758730d85114b954d00dff3d1cea"
+          "sha256": "f93b36bbe705cfc000cb73cb8a74f99fee512073702fc987d96384ed87f4aa1a"
         },
         "worksheet_sources": [
           {
@@ -2914,7 +2914,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "2e715473e8836b65492aabff1005b512353c9f356e496bf2297b5664ce7d82d1",
+        "source_spec_record_sha256": "0ac4af817625bf2e6a25a74cb860842b725d33f606d71202833bc6e5474f9934",
         "day_source": {
           "path": "docs/2sw/wk1-legal-studies/day5.md",
           "sha256": "2795ae05d46280d077288f60ce731addae9dbc773cc793b40b1ed47ea7f43587"
@@ -2925,7 +2925,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk1-day5-student.html",
-          "sha256": "67a32b29225dc0e95932312e8e02d8a202c8c81fe4a562c590d5e40a17fe24e1"
+          "sha256": "4942efda35ab972d8b6e0fb9a28d2c0c3f0b6eb6c16ceb647d3b0209e6d016f2"
         },
         "worksheet_sources": [
           {
@@ -2994,7 +2994,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "e8d14485c4f33e5eecc8662889673b498ea6bd4da5e0a5cc0a3f96f4f75b4d62",
+        "source_spec_record_sha256": "39187fc5d0f683297efded4b61f96f9f894255bf8e89fbdede0b6965c21801c3",
         "day_source": {
           "path": "docs/2sw/wk2-law-enforcement-emt/day1.md",
           "sha256": "195c7be9eb3eeade0882eeb7644d5c197cf16ce974cdf2cd36197d008c92cbb5"
@@ -3005,7 +3005,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk2-day1-student.html",
-          "sha256": "bf4aa34e9e9ed2c05a50a1a383da62279dfee897e9497596656ee886c005d1a6"
+          "sha256": "a42e32489d6611b88551bf9b64c64f0ed6aac7c0bbab4379e3115b0257f457ca"
         },
         "worksheet_sources": [
           {
@@ -3069,7 +3069,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "99c22d147ac1681f1af4951791dc561812635af284d94adbd3d4a517dd41a8e1",
+        "source_spec_record_sha256": "7ae123c9bba39242b9ce71ec5c7eaee7e4b313c6c8908b62436caca8c8f7e283",
         "day_source": {
           "path": "docs/2sw/wk2-law-enforcement-emt/day2.md",
           "sha256": "46260d1bf4d80e74e4f878ba917ae51b816cae12c923a443c9b0368354f0e855"
@@ -3080,7 +3080,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk2-day2-student.html",
-          "sha256": "f1e2b9d6dd501a9c0845d1c0c19a283a97009051bf4ade01791c6c404891fef7"
+          "sha256": "e9f29854e13fbe926962135550b90a0959e3ca9b3ebf4158ef8e505a45210c0d"
         },
         "worksheet_sources": [
           {
@@ -3144,7 +3144,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "13e142404c770725e34f3d280c92504d933d886924702a62632edc1033228da4",
+        "source_spec_record_sha256": "79f468fdb05b79c9e427c8dce464903502c03be45440c8926f60dbb71c0bbe6e",
         "day_source": {
           "path": "docs/2sw/wk2-law-enforcement-emt/day3.md",
           "sha256": "ddd15153bdb1d1c1cfb39297289afb1e9325bd5d605a6861cb4173f0677226e9"
@@ -3155,7 +3155,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk2-day3-student.html",
-          "sha256": "4719186b6f14cfc7a6ce86a7fc3593e12da8a2fe21da1fd17d7134c708615fd4"
+          "sha256": "d7c263c79731cb7090169579de2051d305afda949fc8ab1488b4ef3a2b7a8caa"
         },
         "worksheet_sources": [
           {
@@ -3219,7 +3219,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "f0e59e46e7f92c6c11edc71402c84df9f6376e8a6b2ce82a906009ec21e3af43",
+        "source_spec_record_sha256": "a26cb71bc9978e8095c1a8516d9234ae377dae5cc0f20a60e8ed77325ad3d0be",
         "day_source": {
           "path": "docs/2sw/wk2-law-enforcement-emt/day4.md",
           "sha256": "8d149b0cd5a498b561ab0b74d9c382b165c7f619dbe15831f9dbc6629b4a18b3"
@@ -3230,7 +3230,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk2-day4-student.html",
-          "sha256": "6664941ec57a79c837c94417e931f2bba19820c047139d9cdd41163ff89f3c7b"
+          "sha256": "297191a23c85399be27954527abca966ccc197883f656a78be9bf2e334a7381a"
         },
         "worksheet_sources": [
           {
@@ -3307,7 +3307,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "3bfb209b9ce4dffa2661f0c148604cb0c0de2b3073b2274433be9a2011f493fb",
+        "source_spec_record_sha256": "f2bfd892f3ab85742bcb8beff5ab1bf4d8d0b6149492bd4a7bdb8e5f5c4c1c4b",
         "day_source": {
           "path": "docs/2sw/wk2-law-enforcement-emt/day5.md",
           "sha256": "8e7d7984c529d5149cc83dd1dcc404001f6d4066475d8406d6fd458adb8eca12"
@@ -3318,7 +3318,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk2-day5-student.html",
-          "sha256": "5cf41121d39d1f803e7e5e2834c1a4f6f5037b780c0716155a87a0510c8d3b96"
+          "sha256": "e95d23e0341f53f9aa101e35e943359eafc6cc15a1ded8f70664f9643f2d226d"
         },
         "worksheet_sources": [
           {
@@ -3382,7 +3382,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "76133eb4bb0864cb031a576d97342c5d2c706cba1e4f6bcbed111c27244cb00f",
+        "source_spec_record_sha256": "6b0941476b12d61ac89e390b0bd71b1539192312fb143b3aea437fefa3489b08",
         "day_source": {
           "path": "docs/2sw/wk3-nursing-health-science/day1.md",
           "sha256": "3557a3c3af9dd9b3212a86bbdad4b84bccba59df83fb25f6295aa078660bd176"
@@ -3393,7 +3393,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk3-day1-student.html",
-          "sha256": "af28f5f5621b5046051998e0f9636f806592f8ed1cf709af2428425e3ef4a7ba"
+          "sha256": "19c386e6383a7c2cf34c5c101cf8ba39f9354315cb8bcc9948bf9103150603ee"
         },
         "worksheet_sources": [
           {
@@ -3470,7 +3470,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "dd712c41f7809bcc885d5264fe2cbc61765bdc781237ac465442002a6255c1db",
+        "source_spec_record_sha256": "ef4462d23ffc6ea02cacc2385b5f57d622eb6586ce14f7ec604e241dde6df977",
         "day_source": {
           "path": "docs/2sw/wk3-nursing-health-science/day2.md",
           "sha256": "a85b0a39985a568497b81780f4091f108fc55dc57c9d19aff8c176662d135acc"
@@ -3481,7 +3481,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk3-day2-student.html",
-          "sha256": "52ee3086bfb8dc45fe4cc470600627ead1b2edfc7b0ea13b942e8825bbf57387"
+          "sha256": "ca2560383201ebcfe9a8e73417e353924239ec37fa9d594c7f6fb4df24159b16"
         },
         "worksheet_sources": [
           {
@@ -3554,7 +3554,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "fbebd250cb8fe451522f8f5c99af8e42de6e0ecda8bd3ed1bb6fb7d771883ad2",
+        "source_spec_record_sha256": "0b11ff4e6727d675d6afa9ee07a863ec916e3813d50334e5056e65834728f3f5",
         "day_source": {
           "path": "docs/2sw/wk3-nursing-health-science/day3.md",
           "sha256": "77df107f5c3b5ea7fa06061a5e0eb2561ee9346e456f7532f38dc057a0641dad"
@@ -3565,7 +3565,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk3-day3-student.html",
-          "sha256": "82615eb381c70ac4349629ae3f330b7ae4d88c732169f8c170b044f015b29804"
+          "sha256": "0dc7f75e939554f3586172a8d3e8ae1dbef6315c87b1df336feab738e1fd38b3"
         },
         "worksheet_sources": [
           {
@@ -3629,7 +3629,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "d5c8174b0930186f49c43e486a2d4e0840b1b59e7415b953720d6b9d5b7fc053",
+        "source_spec_record_sha256": "e068274e72f46abd07f58f42385123cb8c2e6b5497007a9f2340c5ea8c347c45",
         "day_source": {
           "path": "docs/2sw/wk3-nursing-health-science/day4.md",
           "sha256": "edbffadfc76447eddf7a7b20a63da395725ca044490f2b5a6c65bdf2ac8a66df"
@@ -3640,7 +3640,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk3-day4-student.html",
-          "sha256": "ac013376703ae34c7ccd69c8c5220547afe70bd876c5a0216aaeba583f4bf26a"
+          "sha256": "727a207e42c137a4362ffcd8d92b11f7a2097028606259fc89c311419dbd3d45"
         },
         "worksheet_sources": [
           {
@@ -3730,7 +3730,7 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "d1346c93bcadfb454ca9eaac13b7c7ebd5b28d0d797cb9abcb798cf2b114083c",
+        "source_spec_record_sha256": "4cfe6b6e33cc89cfb1ba5887a97b74704d201a1fba49fa39c381179f2aebd937",
         "day_source": {
           "path": "docs/2sw/wk3-nursing-health-science/day5.md",
           "sha256": "f003560fe51dbe2c5c390d982d06af35653884589cfbfa72e7dfe21abbf43a14"
@@ -3741,7 +3741,7 @@
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk3-day5-student.html",
-          "sha256": "1fc8149149be35980ecbd94348b09c522b772c1aaa30a22b08f9b999f376981e"
+          "sha256": "a6dfc72afade876320482e2cd309b08406e8438b9eb7d9f7b06b459b4766a35d"
         },
         "worksheet_sources": [
           {
@@ -3805,14 +3805,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "c44de4305afd575771ae940c74a05c93573cf2c0f8d9ce7b4d6c96691b125707",
+        "source_spec_record_sha256": "7bb8d2e21ffa4de98d43040a23ac36051ada76b76d9e8edad72d5bbe5b8273c1",
         "day_source": {
           "path": "docs/2sw/wk4-dental-medical-billing/day1.md",
           "sha256": "e5ca7d5601e2d3cdc41d24beaec40a6c310f1d786480fb33ff77cea16ded8e26"
         },
         "canvas_builder": {
           "path": "build/canvas/build_2sw_wk4.py",
-          "sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce"
+          "sha256": "2f9895442fa9d79a05353cd917a20c0c936d046057dc615231514765fe8b1a1e"
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk4-student.html",
@@ -3885,14 +3885,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "880db881a024983a0f757130ef45bee36d9ef131852d302afe6b9b5f1e893fee",
+        "source_spec_record_sha256": "8bb3d21d56f91ae1b61a66ddee9a88e667bff81a9c240bf377e532af64ce4d57",
         "day_source": {
           "path": "docs/2sw/wk4-dental-medical-billing/day2.md",
           "sha256": "0883e78ba11e06c0d6cf36f4f649e79c194df22430f57440cc95e43449df55e2"
         },
         "canvas_builder": {
           "path": "build/canvas/build_2sw_wk4.py",
-          "sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce"
+          "sha256": "2f9895442fa9d79a05353cd917a20c0c936d046057dc615231514765fe8b1a1e"
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk4-student.html",
@@ -3956,14 +3956,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "7437eaeb6959bdadd13ac372d6e6066c7846a3a2ed47606251a701785ee1d48a",
+        "source_spec_record_sha256": "dc1033f855caed97549f2d3caa573af484c507736a3468c6f57e0c5b15d83098",
         "day_source": {
           "path": "docs/2sw/wk4-dental-medical-billing/day3.md",
           "sha256": "5a6e189814b6056c15599d2aa81e2636cad6181bae98a5573bc16a57c6cfa113"
         },
         "canvas_builder": {
           "path": "build/canvas/build_2sw_wk4.py",
-          "sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce"
+          "sha256": "2f9895442fa9d79a05353cd917a20c0c936d046057dc615231514765fe8b1a1e"
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk4-student.html",
@@ -4027,14 +4027,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "1b0b428738cfe2e81276cf7165867d744515171a11814088336a34c7151db8c3",
+        "source_spec_record_sha256": "c5ff767dbe7253db10626b93efc2b17a86e2af0fb12488b2b190183b05821a84",
         "day_source": {
           "path": "docs/2sw/wk4-dental-medical-billing/day4.md",
           "sha256": "c94ef13fc731aa882eda3121740085274051c2905c29d2d3ab3a5eee96c5f642"
         },
         "canvas_builder": {
           "path": "build/canvas/build_2sw_wk4.py",
-          "sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce"
+          "sha256": "2f9895442fa9d79a05353cd917a20c0c936d046057dc615231514765fe8b1a1e"
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk4-student.html",
@@ -4102,14 +4102,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "18ec025cf9dcd7b3afd31f43a9c0fd9d19c0613aaa0c55cacddd5305e761c934",
+        "source_spec_record_sha256": "58221470487c3bf369e933e55d872e520e6e785ad19026a45b9e41b140b24ee4",
         "day_source": {
           "path": "docs/2sw/wk4-dental-medical-billing/day5.md",
           "sha256": "8550d5f28f8c7c044d736e4117d6fc490fc53fc9cbdca29e8d215254e9a0af02"
         },
         "canvas_builder": {
           "path": "build/canvas/build_2sw_wk4.py",
-          "sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce"
+          "sha256": "2f9895442fa9d79a05353cd917a20c0c936d046057dc615231514765fe8b1a1e"
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk4-student.html",
@@ -4195,14 +4195,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "c272f3f2e8ba90c8da83ff419159777957d3c9b3715e1eb8cfd7298d5dc07fd2",
+        "source_spec_record_sha256": "721ddc2f85f341e4d897441559ef5462a6f3d4d1118ef88242d935120d007665",
         "day_source": {
           "path": "docs/2sw/wk5-powerskills-communication/day1.md",
           "sha256": "f4820af466346c8ccbeee199fa08524364569173a83e331fb0ec80d7f4a1ad54"
         },
         "canvas_builder": {
           "path": "build/canvas/build_2sw_wk5.py",
-          "sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8"
+          "sha256": "924b66b4bed60610ed8baedd285029f1d0888795be02bc709042f77d48ab727d"
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk5-student.html",
@@ -4279,14 +4279,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "cdfd6baa474746ceb098d5eaf195d0ce99daae2926ab4ee627421f58bf2d8d87",
+        "source_spec_record_sha256": "298d3820ee944615936be066bdaa2585d7448e1fa4ebeae86c7635a6003961de",
         "day_source": {
           "path": "docs/2sw/wk5-powerskills-communication/day2.md",
           "sha256": "7318a5e4e5516c150f9af580414cfd1bd96c6024a4f6e47a5f9ce2c4ab9aac37"
         },
         "canvas_builder": {
           "path": "build/canvas/build_2sw_wk5.py",
-          "sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8"
+          "sha256": "924b66b4bed60610ed8baedd285029f1d0888795be02bc709042f77d48ab727d"
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk5-student.html",
@@ -4350,14 +4350,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "fb226d319584be11687f212e06924c3c1bacc7fe72a527f28607ca5b96d06f7d",
+        "source_spec_record_sha256": "dffc5eb5fa32f83135eb9834ad53cc8a2800186af5d05d53d7e844644167bc0c",
         "day_source": {
           "path": "docs/2sw/wk5-powerskills-communication/day3.md",
           "sha256": "857b869784e14a32f554d0e8bab9c803d50634ec60623f1a37450ca7cd878873"
         },
         "canvas_builder": {
           "path": "build/canvas/build_2sw_wk5.py",
-          "sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8"
+          "sha256": "924b66b4bed60610ed8baedd285029f1d0888795be02bc709042f77d48ab727d"
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk5-student.html",
@@ -4430,14 +4430,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "67f1b47f4d17752c0f93c3ead6be781918783552111501be5c120632733962d8",
+        "source_spec_record_sha256": "7b06e8c8b82c44822edd1419338a87d8a8535ca55ff39aae2e1dfaddf8853a1c",
         "day_source": {
           "path": "docs/2sw/wk5-powerskills-communication/day4.md",
           "sha256": "db68b4889d6334e1a322f33fb7f29b851aa4a484d2579e28810cf9a9f7ff8951"
         },
         "canvas_builder": {
           "path": "build/canvas/build_2sw_wk5.py",
-          "sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8"
+          "sha256": "924b66b4bed60610ed8baedd285029f1d0888795be02bc709042f77d48ab727d"
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk5-student.html",
@@ -4501,14 +4501,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "7abd106f7c91d023fe0174203242339e7ac4291292b2d504370457cc51ce4cbe",
+        "source_spec_record_sha256": "8d0eeff183e2216067cd297b6c9571e0c8bc758eed1dff6fd12b3db0fcfeb64e",
         "day_source": {
           "path": "docs/2sw/wk5-powerskills-communication/day5.md",
           "sha256": "1eccc9c6bbcd1d06d189b958ae67dfdd687362ad404f487f02b1bf8cb78df430"
         },
         "canvas_builder": {
           "path": "build/canvas/build_2sw_wk5.py",
-          "sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8"
+          "sha256": "924b66b4bed60610ed8baedd285029f1d0888795be02bc709042f77d48ab727d"
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk5-student.html",
@@ -4585,14 +4585,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "2476b1ca47a91f8fe5a9b5541b4999888a2cae9d45b4b9d9cfe436c580d48c23",
+        "source_spec_record_sha256": "9e701f29e4a44e5819acfafa3a61db7411f1b233af19794f3d41e855a7477e99",
         "day_source": {
           "path": "docs/2sw/wk6-biomedical-health-science/day1.md",
           "sha256": "991c54ad20c1580484cc7bcac700b7bf25b8b78b8778c0c39c8cf13f380e0bbb"
         },
         "canvas_builder": {
           "path": "build/canvas/build_2sw_wk6.py",
-          "sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370"
+          "sha256": "8d97a69a424a1ad7840343690c024a58fa930a8a00d8c3233c56e99fa8604d71"
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk6-student.html",
@@ -4673,14 +4673,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "4d563aaa04fbc71b827f7498ff07e90f7865735c8b3f5d383d23404bde6efd22",
+        "source_spec_record_sha256": "eefb8e1b522544726a1affa8396d546efbb0ec5d0ac0724bbd91f95c120620c7",
         "day_source": {
           "path": "docs/2sw/wk6-biomedical-health-science/day2.md",
           "sha256": "7054888714a7eeb4263363e2caef20f8588a4e940a5a2e53ba0bbe0e920da79a"
         },
         "canvas_builder": {
           "path": "build/canvas/build_2sw_wk6.py",
-          "sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370"
+          "sha256": "8d97a69a424a1ad7840343690c024a58fa930a8a00d8c3233c56e99fa8604d71"
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk6-student.html",
@@ -4748,14 +4748,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "a30a27e95163a99ea2bfbbdb04514eae0c646e0523313a1d2ed0dc0749509d49",
+        "source_spec_record_sha256": "6aaee61600f617c6b1a16d84e2c94ad60f3b112cbc9e98cb5734f3bacd1aebcf",
         "day_source": {
           "path": "docs/2sw/wk6-biomedical-health-science/day3.md",
           "sha256": "e9bf54f77710df6dbe001b1f1fc8500bb63aacb0918d811dd4ba6431cde9ab81"
         },
         "canvas_builder": {
           "path": "build/canvas/build_2sw_wk6.py",
-          "sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370"
+          "sha256": "8d97a69a424a1ad7840343690c024a58fa930a8a00d8c3233c56e99fa8604d71"
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk6-student.html",
@@ -4823,14 +4823,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "061702599ad9d2e341c59d2e0d36162fbe69afcfcc186b2e7e6a140d23dd6f14",
+        "source_spec_record_sha256": "4d04646ed98819ba92e5a439a2db7c3f497cc091e81d36d600b8c50628b1a356",
         "day_source": {
           "path": "docs/2sw/wk6-biomedical-health-science/day4.md",
           "sha256": "096f6e00f02a708f82d6d77c7e57344088ec9c66a6458e4883b34c8a49a7d040"
         },
         "canvas_builder": {
           "path": "build/canvas/build_2sw_wk6.py",
-          "sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370"
+          "sha256": "8d97a69a424a1ad7840343690c024a58fa930a8a00d8c3233c56e99fa8604d71"
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk6-student.html",
@@ -4898,14 +4898,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "26d1ec1419a67be5ea2bb01b0f93e49cd793f7d1875bbf173bcc4a545cb0e978",
+        "source_spec_record_sha256": "ee6e697dc616005bbc1a2433a84e28199142250076933a0f1a7889495216f42b",
         "day_source": {
           "path": "docs/2sw/wk6-biomedical-health-science/day5.md",
           "sha256": "e3d8f931f9fb2e57fdb229d830e579373be643a898ef881e528b8ff10f9c1bdb"
         },
         "canvas_builder": {
           "path": "build/canvas/build_2sw_wk6.py",
-          "sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370"
+          "sha256": "8d97a69a424a1ad7840343690c024a58fa930a8a00d8c3233c56e99fa8604d71"
         },
         "student_template": {
           "path": "build/canvas/templates/2sw-wk6-student.html",
@@ -4982,14 +4982,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "6bbe1c0217304de9a26697e6e44e00042e0242f3c7b3c0049341cd5647de1604",
+        "source_spec_record_sha256": "bafc00a0d0bfb32ee99468851da3b50760ef971b3a4b45f7fc46156c9a52ed3a",
         "day_source": {
           "path": "docs/3sw/wk1-vet-science/day1.md",
           "sha256": "19dd5496bbd441f722ebef8eee7faadb67a6a81abc6fa08f2df6a8dbf46253bb"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk1.py",
-          "sha256": "24be13c1ac0bd96b2b06d846b20a37fe9e38f65987f9549cd27997c2e9e0077d"
+          "sha256": "f1436585ec94e60854cca55c68c142694038b7f22565208848ae404b9f71d855"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk1-student.html",
@@ -5048,14 +5048,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "285409a4ebb6b989415256f8fe62b7bdb34985950718fe93a159e612f8dcd36d",
+        "source_spec_record_sha256": "b43532e9dc5bfbc371d4e6a75db9e41e53c4def913a8a02649b01996c57304f4",
         "day_source": {
           "path": "docs/3sw/wk1-vet-science/day2.md",
           "sha256": "8b4ffc22cc1ce7708dd0e44e933e572d9c517556b925051613ca83d5556c83ad"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk1.py",
-          "sha256": "24be13c1ac0bd96b2b06d846b20a37fe9e38f65987f9549cd27997c2e9e0077d"
+          "sha256": "f1436585ec94e60854cca55c68c142694038b7f22565208848ae404b9f71d855"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk1-student.html",
@@ -5114,14 +5114,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "168af665609bef634fc7a39c14d096fde8da40b9b6c567711bc5af770d5d7b1f",
+        "source_spec_record_sha256": "e0f6ad75ba6c7c54e2fa7bfcfaa9cdc1038831f4f8fc61bd40badbbcb4ae1752",
         "day_source": {
           "path": "docs/3sw/wk1-vet-science/day3.md",
           "sha256": "b36dbee57c40fe9af5ee8790f9d0ef714756db5b4778e7fd138f7a3d73ca9425"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk1.py",
-          "sha256": "24be13c1ac0bd96b2b06d846b20a37fe9e38f65987f9549cd27997c2e9e0077d"
+          "sha256": "f1436585ec94e60854cca55c68c142694038b7f22565208848ae404b9f71d855"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk1-student.html",
@@ -5180,14 +5180,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "df60adf5cefe6477d707322c84744d39b01b461ef98849850cc165bfbd59817a",
+        "source_spec_record_sha256": "1031ce548b578dda56f774798359e63d892484703139626665b9c4dec290caa3",
         "day_source": {
           "path": "docs/3sw/wk1-vet-science/day4.md",
           "sha256": "0cd9b0fe2d10886de772f2591557e61de1be50b54ba178bd2bb512c0d9f4c62f"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk1.py",
-          "sha256": "24be13c1ac0bd96b2b06d846b20a37fe9e38f65987f9549cd27997c2e9e0077d"
+          "sha256": "f1436585ec94e60854cca55c68c142694038b7f22565208848ae404b9f71d855"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk1-student.html",
@@ -5255,14 +5255,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "5f14fc65a1d83b5c9bf86796e8b288d092e9e5594ce3c0ad1587c8fe3f565b44",
+        "source_spec_record_sha256": "44d53330048295be75d988ae77f635037fa5b51b15b859b1e4ea122974bcc4f1",
         "day_source": {
           "path": "docs/3sw/wk1-vet-science/day5.md",
           "sha256": "1a2e5ec0a93d02959b36b01ea0d4aab3beb07d8ee89493e63f4346524c0fb286"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk1.py",
-          "sha256": "24be13c1ac0bd96b2b06d846b20a37fe9e38f65987f9549cd27997c2e9e0077d"
+          "sha256": "f1436585ec94e60854cca55c68c142694038b7f22565208848ae404b9f71d855"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk1-student.html",
@@ -5330,14 +5330,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "86f8db4d96bcfd0406b9702c167052ab314037c2705a83dbee09c5e66b9e429f",
+        "source_spec_record_sha256": "d34c20e2ae397642bd3da2a7f4d481df83ca75adffd1b8bf1b2b9ed6489c52ca",
         "day_source": {
           "path": "docs/3sw/wk2-plant-science/day1.md",
           "sha256": "5a51d3a6933580ecb79b05231c3398caac66b01d122ece03925f8b617aca4877"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk2.py",
-          "sha256": "02bdf6ff78db4969a3a19f2edd8b94235c60a7de1b38db4fa2c47553e49ecc9d"
+          "sha256": "556d204ca9cd6e1a5bdfbb49b5289b3ad70a7466ee508c49cf1a2172c786871a"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk2-student.html",
@@ -5396,14 +5396,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "db49bd2e08c6eea7f1c77f1cfe762908e3cf92d57eae04ea70d2183b3feb80cf",
+        "source_spec_record_sha256": "4c35c8ff5ec22e3286858855f706dbda9e8a0caba1c6fc125c4559910e04c20b",
         "day_source": {
           "path": "docs/3sw/wk2-plant-science/day2.md",
           "sha256": "8c8c57258973ea8b3e465ffc4fe4d85bc4c701fa4d69d8027cf26e238d35d1aa"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk2.py",
-          "sha256": "02bdf6ff78db4969a3a19f2edd8b94235c60a7de1b38db4fa2c47553e49ecc9d"
+          "sha256": "556d204ca9cd6e1a5bdfbb49b5289b3ad70a7466ee508c49cf1a2172c786871a"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk2-student.html",
@@ -5471,14 +5471,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "cbb452c353e3d30191bec560a896e1a65c4882bee2c94f819779e6c7ef17100b",
+        "source_spec_record_sha256": "c091312acbeecb58264d2c4f4eb437e03723d328ba062368c23cfd6185e9b017",
         "day_source": {
           "path": "docs/3sw/wk2-plant-science/day3.md",
           "sha256": "6566177d92452d8d3160e35d40979caa948a3570210a84689e2abeabc3f60e67"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk2.py",
-          "sha256": "02bdf6ff78db4969a3a19f2edd8b94235c60a7de1b38db4fa2c47553e49ecc9d"
+          "sha256": "556d204ca9cd6e1a5bdfbb49b5289b3ad70a7466ee508c49cf1a2172c786871a"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk2-student.html",
@@ -5546,14 +5546,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "a40d2c167842e7d85ee3709921db5e787c07d1a59c75881864526351f2886149",
+        "source_spec_record_sha256": "39391be9410ab6f1290bced3b99c4469e4f35dd7aba56554f1b66db909e9ce2f",
         "day_source": {
           "path": "docs/3sw/wk2-plant-science/day4.md",
           "sha256": "5d412c0c53fe6b38e4206842ff918281c48cfaba2615dbaab68a1b33595ad597"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk2.py",
-          "sha256": "02bdf6ff78db4969a3a19f2edd8b94235c60a7de1b38db4fa2c47553e49ecc9d"
+          "sha256": "556d204ca9cd6e1a5bdfbb49b5289b3ad70a7466ee508c49cf1a2172c786871a"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk2-student.html",
@@ -5630,14 +5630,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "e40b6cdbb7498152a446308fc6d389ed3c6f1df2f22184306d5753c251552a3f",
+        "source_spec_record_sha256": "d65f662f0a1e84f9b5783cc5952f5ac48e5668677cafca6b540686f24ee24566",
         "day_source": {
           "path": "docs/3sw/wk2-plant-science/day5.md",
           "sha256": "5665a4aeb5a7cefbf99588b7c48bc246bb00074a0b6f48f512d242e95df0eb06"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk2.py",
-          "sha256": "02bdf6ff78db4969a3a19f2edd8b94235c60a7de1b38db4fa2c47553e49ecc9d"
+          "sha256": "556d204ca9cd6e1a5bdfbb49b5289b3ad70a7466ee508c49cf1a2172c786871a"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk2-student.html",
@@ -5705,14 +5705,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "59c67cc7ac068f5bd9fbe4007c46496ce477d96891fc627fcc42d659f97d7325",
+        "source_spec_record_sha256": "2223a7420ee3165d035cd30b116da35624ac7fb4cf71862b4a309e7871a7116e",
         "day_source": {
           "path": "docs/3sw/wk3-sustainable-engineering/day1.md",
           "sha256": "7524ce4587386b744fed5183392bf51599f2cfc7837b5b919cd77f9a243cbb7e"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk3.py",
-          "sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580"
+          "sha256": "54398f9b2a919eb36f0a5e92adc6c87fabb4b1eeceaae2950bcbe9963dd9b2d9"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk3-student.html",
@@ -5771,14 +5771,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "9222b1b2443a235be0d72e1df58e97b316fcb3e33bb73f7b941e214fc8dc1f3d",
+        "source_spec_record_sha256": "dafaf3f9f711104d0a5ba6d89367a5aac88830a69fd253cae6822a0b956ad69c",
         "day_source": {
           "path": "docs/3sw/wk3-sustainable-engineering/day2.md",
           "sha256": "519f7c6f310acec7ed9bdede3a7cd0869e2de8a5251a79c01e96f9666157e408"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk3.py",
-          "sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580"
+          "sha256": "54398f9b2a919eb36f0a5e92adc6c87fabb4b1eeceaae2950bcbe9963dd9b2d9"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk3-student.html",
@@ -5837,14 +5837,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "5a5037fe6212b95043a49612e68eaf2b6b91c5826fefbda2938fd43685bcb63c",
+        "source_spec_record_sha256": "6b13e94dd90be24d40f31cf54865a7ccb0a547283c507df69fdc58dfc2577624",
         "day_source": {
           "path": "docs/3sw/wk3-sustainable-engineering/day3.md",
           "sha256": "a48c3b413c8c8301757702c1bc74cfef01612418f6db65bc1366098731fa3e84"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk3.py",
-          "sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580"
+          "sha256": "54398f9b2a919eb36f0a5e92adc6c87fabb4b1eeceaae2950bcbe9963dd9b2d9"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk3-student.html",
@@ -5912,14 +5912,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "6f56ffa42d0f13a719b74854324f8a01ecfeae6f4b6c2b6cabbc2f9adb156023",
+        "source_spec_record_sha256": "4ed8e5cc875b539528e00db78f3e25ecbc0daded5e4eff08ad8943fc0c6e83df",
         "day_source": {
           "path": "docs/3sw/wk3-sustainable-engineering/day4.md",
           "sha256": "08cd2e264f7bf3c3e83f072acd82f6d43190ebf14b07d2da40d258122ac52669"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk3.py",
-          "sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580"
+          "sha256": "54398f9b2a919eb36f0a5e92adc6c87fabb4b1eeceaae2950bcbe9963dd9b2d9"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk3-student.html",
@@ -6005,14 +6005,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "9dedfecee39d46486ffa40974b0fe02044c842f6fce22857e7a8b5cb9dca24cd",
+        "source_spec_record_sha256": "4f820581d3179a2094dc6b97a8345a4bce6c474ed6b68edcd56e15f8ee8ef78a",
         "day_source": {
           "path": "docs/3sw/wk3-sustainable-engineering/day5.md",
           "sha256": "bee67761ffc4e8cb606152d6115bc7902d4d64235dd5ccbe543362902ad5827a"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk3.py",
-          "sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580"
+          "sha256": "54398f9b2a919eb36f0a5e92adc6c87fabb4b1eeceaae2950bcbe9963dd9b2d9"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk3-student.html",
@@ -6071,14 +6071,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "fa884a78a51ea129cf726dd91a421d46dcc60da0479ccc6d6529fdbd3be8a7e6",
+        "source_spec_record_sha256": "53d9d7c51974ce70df64228b2703fe07c7f19250b26fea120fe6330b912de0b8",
         "day_source": {
           "path": "docs/3sw/wk4-culinary-hospitality/day1.md",
           "sha256": "8b534fa5d632439c86181036ee3137cb36eef05105c1179fd9b82986d5691b68"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk4.py",
-          "sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468"
+          "sha256": "d1dbad574d6ea4989efa68406865fe2d2d3d9b2e6366ba46306ad809b13f7c88"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk4-student.html",
@@ -6137,14 +6137,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "633806047cda08aa737ec260a1f939f3c52b4b90b175ca5500ed8dd273a40463",
+        "source_spec_record_sha256": "dc2252f54c7301535a85399c18c178faa03a7830f623e9cad29cbd514dd95a0c",
         "day_source": {
           "path": "docs/3sw/wk4-culinary-hospitality/day2.md",
           "sha256": "22919ab6a6ed230f6722ad62266060387288d2ddd73c9a9fc911b45f2a3ec5b9"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk4.py",
-          "sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468"
+          "sha256": "d1dbad574d6ea4989efa68406865fe2d2d3d9b2e6366ba46306ad809b13f7c88"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk4-student.html",
@@ -6212,14 +6212,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "d93814d89e02502330d56d98f0580a8c92158960e724b530b882e89da7155657",
+        "source_spec_record_sha256": "4325131cd2e5309b0f1c0e4ce132b70d4e4b22f3c2df89a64b7b675291238dd7",
         "day_source": {
           "path": "docs/3sw/wk4-culinary-hospitality/day3.md",
           "sha256": "13746a5e46b41c21272ae8877b0b493d632eab192f5f4aa53b5ca0c5ed45300f"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk4.py",
-          "sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468"
+          "sha256": "d1dbad574d6ea4989efa68406865fe2d2d3d9b2e6366ba46306ad809b13f7c88"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk4-student.html",
@@ -6287,14 +6287,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "ba0c536264d65de7702731fc22d0d65d08e49cf6d487b63cc0ec3d439a11a096",
+        "source_spec_record_sha256": "1af0969e26f244204f44408b42bdcdb898f21194a9e866b0b2e7e4f4c044baaa",
         "day_source": {
           "path": "docs/3sw/wk4-culinary-hospitality/day4.md",
           "sha256": "ea1af1f72c6c29282eac493d42c1fc3a5d7b78707168d67e0dd2009638822563"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk4.py",
-          "sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468"
+          "sha256": "d1dbad574d6ea4989efa68406865fe2d2d3d9b2e6366ba46306ad809b13f7c88"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk4-student.html",
@@ -6353,14 +6353,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "d969bf3339888ef1d2eed8a1ce9fb354dcd6798aaf9fd70c9d53a077d788ed48",
+        "source_spec_record_sha256": "45070b5971d07bd721c4b8677282d859a9175d7b5144311ee28114e9b559944a",
         "day_source": {
           "path": "docs/3sw/wk4-culinary-hospitality/day5.md",
           "sha256": "fd8ca026b3cb7bd4765dc59e0e804d595c15df7d9bb14c5348ab3923a81b7ac2"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk4.py",
-          "sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468"
+          "sha256": "d1dbad574d6ea4989efa68406865fe2d2d3d9b2e6366ba46306ad809b13f7c88"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk4-student.html",
@@ -6437,14 +6437,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "ed2a051417f59f5a4ac67994dbe1df6058822e081841f5ef98600e6dd391b7d6",
+        "source_spec_record_sha256": "b7525bb1505a065439fda8db122e8f1b93c64384ff284f389c68942da27bc5ed",
         "day_source": {
           "path": "docs/3sw/wk5-cosmetology/day1.md",
           "sha256": "695668604d962d0f500fe97f0355e865034cfd8747f80d062096583288e7a45d"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk5.py",
-          "sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf"
+          "sha256": "a1672460917a6d2d2279bb93d1e93350edd63900a58410c53b4d64f63996b719"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk5-student.html",
@@ -6503,14 +6503,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "78940e39d5781a321bbe19878645ba12394ce38f4aa70bd5727ac39944a5a480",
+        "source_spec_record_sha256": "82a02a8ce6a19f6daa773d22eec766d774df32c6626bfe4e7a7ef60a2ab62805",
         "day_source": {
           "path": "docs/3sw/wk5-cosmetology/day2.md",
           "sha256": "cd8bb30e5aa056c1cca45393dd7451d620bc4d666610c61c5aca9640c833acbb"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk5.py",
-          "sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf"
+          "sha256": "a1672460917a6d2d2279bb93d1e93350edd63900a58410c53b4d64f63996b719"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk5-student.html",
@@ -6569,14 +6569,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "700a075e287a43fccd67d8d0628c43689ef005327599c44babff74793ffb532b",
+        "source_spec_record_sha256": "b416028f479366944d1d68d7470ec095658d83872a8c7cf146b6823b27468675",
         "day_source": {
           "path": "docs/3sw/wk5-cosmetology/day3.md",
           "sha256": "c7fea3241e66fae0788dba7aaab20de47b41dd629327c319552414303bb4f701"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk5.py",
-          "sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf"
+          "sha256": "a1672460917a6d2d2279bb93d1e93350edd63900a58410c53b4d64f63996b719"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk5-student.html",
@@ -6653,14 +6653,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "57a59402ca6f090d170e064bb6c79635977b20ee2a7d6fb521d7ed30df20e4c6",
+        "source_spec_record_sha256": "76111b252892258f21660bea423f1d480c02f82a71f5791ba7fabcb4bb3b5d75",
         "day_source": {
           "path": "docs/3sw/wk5-cosmetology/day4.md",
           "sha256": "125aade1bd3294d8f8dfba9d82342134bdfd16e6d1b82ed76a502b990c689037"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk5.py",
-          "sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf"
+          "sha256": "a1672460917a6d2d2279bb93d1e93350edd63900a58410c53b4d64f63996b719"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk5-student.html",
@@ -6719,14 +6719,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "d334d49193e6d3175da2d108bfbf6948fd3af981085300847b19b8c030760e78",
+        "source_spec_record_sha256": "49501265f6d002015da44b8cd7794b851f6059b87b08b3944b0a3de5fde4a337",
         "day_source": {
           "path": "docs/3sw/wk5-cosmetology/day5.md",
           "sha256": "6de431ae4bd73808bf5365299b0cf31e30f91ea8430bdb228081d40abc3bd9ef"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk5.py",
-          "sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf"
+          "sha256": "a1672460917a6d2d2279bb93d1e93350edd63900a58410c53b4d64f63996b719"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk5-student.html",
@@ -6803,14 +6803,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "8d5796cbb948fb0bc1169ea997235366e9ae9c115ba3e096edcc80ca49d34993",
+        "source_spec_record_sha256": "d9704da3e986122fc63b9eb48f0ba5246f2ab39755b5f454fc69c47536fd257d",
         "day_source": {
           "path": "docs/3sw/wk6-entrepreneurship/day1.md",
           "sha256": "a46fb24b1c8ffd227cbf7bdbad27caf672c8dbe1eb51ab4598a5ce63eb4feecc"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk6.py",
-          "sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082"
+          "sha256": "d6830cd3e3e599245b8bf5116e04c55b4a2467c45b64ebcda4b216f7302f5f2b"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk6-student.html",
@@ -6869,14 +6869,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "26ec79f4f9432239632e19d8be571ea5ba00bed9a798f66a652ef42f1cd4c1a2",
+        "source_spec_record_sha256": "8a71177d829a31f8702fdd070ee06f09b4245a67e90e26d526edb74e1e5bbf5d",
         "day_source": {
           "path": "docs/3sw/wk6-entrepreneurship/day2.md",
           "sha256": "556da9f707a53864a10b8c4dd79e9d13793417234a6f5101d83e56ae13d9e75f"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk6.py",
-          "sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082"
+          "sha256": "d6830cd3e3e599245b8bf5116e04c55b4a2467c45b64ebcda4b216f7302f5f2b"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk6-student.html",
@@ -6935,14 +6935,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "01ee258a34b260af6f80a2eb97c1c80b0ab4a2da967560ff1441fa6664523552",
+        "source_spec_record_sha256": "cc4a1b836cb546da55a23fca5e469f600038893b34c7a6df237cc9d615add50c",
         "day_source": {
           "path": "docs/3sw/wk6-entrepreneurship/day3.md",
           "sha256": "00bd4c95b461be1a3385b20324ffeb21159a5aa7f27f466435adf861fad34943"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk6.py",
-          "sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082"
+          "sha256": "d6830cd3e3e599245b8bf5116e04c55b4a2467c45b64ebcda4b216f7302f5f2b"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk6-student.html",
@@ -7001,14 +7001,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "275b938cdf4191acf35bc28243d87f42427ed88043ccf6ad746ba7d2e7ac8879",
+        "source_spec_record_sha256": "629f1a9d8ecd2aa1774a0285b25922f76356ca5b83f0b9873e4199091e326138",
         "day_source": {
           "path": "docs/3sw/wk6-entrepreneurship/day4.md",
           "sha256": "16698207d344112d7ea9f68efc542497412a9d2a41e0c6b33d45de15c488416c"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk6.py",
-          "sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082"
+          "sha256": "d6830cd3e3e599245b8bf5116e04c55b4a2467c45b64ebcda4b216f7302f5f2b"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk6-student.html",
@@ -7076,14 +7076,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "888fc6efc0c185048875ee25a4af291d62ef1d950a4e3397b429e09c3225059b",
+        "source_spec_record_sha256": "c50ecb38bea515d4161680f437f6a4523b6b500db72a7dd6597bc960a215d7c5",
         "day_source": {
           "path": "docs/3sw/wk6-entrepreneurship/day5.md",
           "sha256": "f4bf56eade8d605f77a4d1d07ac5c297b75d3b33a87259b992f6f00a47bc197d"
         },
         "canvas_builder": {
           "path": "build/canvas/build_3sw_wk6.py",
-          "sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082"
+          "sha256": "d6830cd3e3e599245b8bf5116e04c55b4a2467c45b64ebcda4b216f7302f5f2b"
         },
         "student_template": {
           "path": "build/canvas/templates/3sw-wk6-student.html",
@@ -7160,14 +7160,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "e4c4239b27fecc1c3f4e70a71a45b3b0c2f20b374d5ff76f2abee60e04ea8bde",
+        "source_spec_record_sha256": "f9fb6b8454157a9c6db3516371c2f41cdd97f540127c3d5f449a6d69d85db980",
         "day_source": {
           "path": "docs/4sw/wk1-career-planning/day1.md",
           "sha256": "8f85bcad3684f9b3e46a7bb3568078cd7f0f9d6eb17e3d18bb6e57f0547e476a"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk1.py",
-          "sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b"
+          "sha256": "19b49e035567b33ac5c1cbd7d907e4a72a04e6a8cd9dc69d567da1518c5b70a2"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk1-student.html",
@@ -7226,14 +7226,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "a6788c4b19811d71327ccd193aa74cbc86a22bd1ffcb98f627fe38db93d89703",
+        "source_spec_record_sha256": "6218ad9f8e7f10337378a91ac9380e6034bb42136ed900896df7ced0afe57c78",
         "day_source": {
           "path": "docs/4sw/wk1-career-planning/day2.md",
           "sha256": "403ca7d2ab8204e80bc81989bdc484879729766ab1e88103699e8d9ca2a472da"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk1.py",
-          "sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b"
+          "sha256": "19b49e035567b33ac5c1cbd7d907e4a72a04e6a8cd9dc69d567da1518c5b70a2"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk1-student.html",
@@ -7292,14 +7292,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "3452a069576021626d9ba9dd206a695aaf1a3359bb684ad2bc8290c0ccc3afe5",
+        "source_spec_record_sha256": "a395740e497ce9afa1e3e6e4d6d10d009fca32b083c8bf6cf6a0c5d2236f7180",
         "day_source": {
           "path": "docs/4sw/wk1-career-planning/day3.md",
           "sha256": "09c566c551f1678d6f31bdf53b5b70aacab9a8a56e54041f917ca1e6508a5f99"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk1.py",
-          "sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b"
+          "sha256": "19b49e035567b33ac5c1cbd7d907e4a72a04e6a8cd9dc69d567da1518c5b70a2"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk1-student.html",
@@ -7358,14 +7358,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "92056bbaee81bad85e489ac66612d9edb5fc44d22de499c7bc7996c2bff5fb53",
+        "source_spec_record_sha256": "e21b3499ae5150850df2df75a2dce8e05e75b318f18343aa042f726e74dff2e0",
         "day_source": {
           "path": "docs/4sw/wk1-career-planning/day4.md",
           "sha256": "f19610498ab6eff07916da3a0cd1540546bfbbb1a19a5776ea72fef51ffe2226"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk1.py",
-          "sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b"
+          "sha256": "19b49e035567b33ac5c1cbd7d907e4a72a04e6a8cd9dc69d567da1518c5b70a2"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk1-student.html",
@@ -7424,14 +7424,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "4c457bd3c1124e559c1a98cd0727c51630353182143c0d77c9e6c08b9e54d654",
+        "source_spec_record_sha256": "77f8f5099743f713d431c4ca5bdd7d82220dbbbf832bcbeab4663763f19e0657",
         "day_source": {
           "path": "docs/4sw/wk1-career-planning/day5.md",
           "sha256": "809fc5641dc3ba10f77d88e50786ac484b6843404268a15746a23a04d2581a1c"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk1.py",
-          "sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b"
+          "sha256": "19b49e035567b33ac5c1cbd7d907e4a72a04e6a8cd9dc69d567da1518c5b70a2"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk1-student.html",
@@ -7499,14 +7499,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "80af9b62c0b583b34561f284f5eb73e668894a31542b962eeac6fa6d91bf03cc",
+        "source_spec_record_sha256": "6859354b9664ff370e97a506a5ad59cf9fab41cb4647dde0bf407438e11de4d1",
         "day_source": {
           "path": "docs/4sw/wk2-course-mapping/day1.md",
           "sha256": "b7cff4e8bd05d4e02b5556c5e069c4f548593615d795412d5567acb84fe3f96f"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk2.py",
-          "sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a"
+          "sha256": "6ee6bcaab0f7f76b3d74535a6c1a3b5d3d98a82115cf81b156a0c08f0d34465f"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk2-student.html",
@@ -7570,14 +7570,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "ba92a37a52d3f7872adfc9d6fb6a93e27ac10d15563eb2cc23dc352d059fd4d0",
+        "source_spec_record_sha256": "283f4780dfc02deaf5ffde1cf3643c82ee5a49a114d779979c00c791ee098940",
         "day_source": {
           "path": "docs/4sw/wk2-course-mapping/day2.md",
           "sha256": "a5efddb77829aa05073cf383d2b0a5dcfa33b3fa0c93b7c58d043de21d828dfa"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk2.py",
-          "sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a"
+          "sha256": "6ee6bcaab0f7f76b3d74535a6c1a3b5d3d98a82115cf81b156a0c08f0d34465f"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk2-student.html",
@@ -7641,14 +7641,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "8c6fb75d8cd72803b67ac9c5718e9fabcc1bcc9d3bb91c5c18c8fd614fef47c4",
+        "source_spec_record_sha256": "0346948e20aa83cdb3f9b6af79a1ee02b306e29453573e2a8f09d5e0cadf85ea",
         "day_source": {
           "path": "docs/4sw/wk2-course-mapping/day3.md",
           "sha256": "cf6a4836f1c890a37d96a8f0875a91c95a06eca27ef04bc79c0d7f69d3f1a7fa"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk2.py",
-          "sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a"
+          "sha256": "6ee6bcaab0f7f76b3d74535a6c1a3b5d3d98a82115cf81b156a0c08f0d34465f"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk2-student.html",
@@ -7712,14 +7712,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "eca74e647e722c30684dc2af85658f5eca2b7559ac9b36689085f815a8040d2c",
+        "source_spec_record_sha256": "370e07a4168eebac04944815b7a5ae7766d3b20b0c79e61f917d5eb966be9ac3",
         "day_source": {
           "path": "docs/4sw/wk2-course-mapping/day4.md",
           "sha256": "dda79b87129bc461d98614075b4604f163fbb08266ee081f698b1180e9ec2bc6"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk2.py",
-          "sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a"
+          "sha256": "6ee6bcaab0f7f76b3d74535a6c1a3b5d3d98a82115cf81b156a0c08f0d34465f"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk2-student.html",
@@ -7783,14 +7783,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "87f167228448869fd64b27feeb2b919fb7dd27d117054a951432b5332908c14d",
+        "source_spec_record_sha256": "6569a6b6223f23e28e004df3a5dad18c43be1bcd1935b221fa001e82f2f2d609",
         "day_source": {
           "path": "docs/4sw/wk2-course-mapping/day5.md",
           "sha256": "949c6fd410273684d51554b8530d322ce3499539cfa7953644a05de78ded9712"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk2.py",
-          "sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a"
+          "sha256": "6ee6bcaab0f7f76b3d74535a6c1a3b5d3d98a82115cf81b156a0c08f0d34465f"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk2-student.html",
@@ -7863,14 +7863,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "be922c0c404ba765792372ed6cc954eddf89d3bd915f42cb160423eff8d3d05b",
+        "source_spec_record_sha256": "a8758ab8426d0291dc09ca03f3523b17fef18599caba2a2ace55a9e5fc7d1454",
         "day_source": {
           "path": "docs/4sw/wk3-aviation/day1.md",
           "sha256": "b6ce12cbbfb3f8ca099218c86d40397b615eab2325eec4b741775d7f3ed9e8b3"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk3.py",
-          "sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50"
+          "sha256": "468ce36e58e0b092226600b268b6400789f386263652d44c67ad991d23e2b01e"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk3-student.html",
@@ -7934,14 +7934,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "a06c6cd86af9989b725e25989a7391df8743cef93760584c42804bfdfe13bd18",
+        "source_spec_record_sha256": "eb9ae4f47c04675ffac7c12877caea3b5e2bf245daf5d081e0d6d0c66be31036",
         "day_source": {
           "path": "docs/4sw/wk3-aviation/day2.md",
           "sha256": "2baab5dcc481c55bf6d7e72cad8f02a780aab351f69fd46b624d38f61ba19201"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk3.py",
-          "sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50"
+          "sha256": "468ce36e58e0b092226600b268b6400789f386263652d44c67ad991d23e2b01e"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk3-student.html",
@@ -8014,14 +8014,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "dd4e3aa6d4c53dcb56cdbfc412adc8bfaf912722aa804ff0ad4f13879713fd88",
+        "source_spec_record_sha256": "82cdc8ff3e0a8d12aedfb6ce860e11cb723905ec36676646ddbc6bc4a8fdfc57",
         "day_source": {
           "path": "docs/4sw/wk3-aviation/day3.md",
           "sha256": "e408530ea098afd3d44614377df0edea58968f7683a6623a1dc7b7be10be90c8"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk3.py",
-          "sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50"
+          "sha256": "468ce36e58e0b092226600b268b6400789f386263652d44c67ad991d23e2b01e"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk3-student.html",
@@ -8085,14 +8085,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "729853138cca7b0ccf84a17b189fd4e0977b85a2619e573d0dd742aafbb57e40",
+        "source_spec_record_sha256": "a13f2cd6d7328b129c8a36ab9fb1de42e7a29324e6a0f1526ee0f60a2a8e1330",
         "day_source": {
           "path": "docs/4sw/wk3-aviation/day4.md",
           "sha256": "0b62dba2a9f8b46dcce47e7d399ea770d798a42eb4032732ec5a06c865539cea"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk3.py",
-          "sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50"
+          "sha256": "468ce36e58e0b092226600b268b6400789f386263652d44c67ad991d23e2b01e"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk3-student.html",
@@ -8165,14 +8165,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "b4da574d4ce0d976602084d9ad53270146973109183425c66d96e77132658359",
+        "source_spec_record_sha256": "6b21013f0d623175c7e3628df32d97cd0c667c5e5ad7ea6c7fa16f8920513889",
         "day_source": {
           "path": "docs/4sw/wk3-aviation/day5.md",
           "sha256": "43c8352bb3edb3bc98ec20be51eb0771abd71d468f75082ce32330fd9fc37bee"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk3.py",
-          "sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50"
+          "sha256": "468ce36e58e0b092226600b268b6400789f386263652d44c67ad991d23e2b01e"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk3-student.html",
@@ -8245,14 +8245,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "6cf52ec1e581c567a259641efcad72e87b810d05a4bb46e13e23dca11f0b0848",
+        "source_spec_record_sha256": "22a35b3f18903e70f3b00f49c5e37f0fd8aa21a9f6c343bfba7a7bb4451a5e0e",
         "day_source": {
           "path": "docs/4sw/wk4-drone-engineering/day1.md",
           "sha256": "fdf0b14460d7eb3a467a7af8ae876065dbd25a09a1ac3f29d162b2052829950b"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk4.py",
-          "sha256": "9eeba7a55606194b0d02c53b0cd6afcd92a3e22f5b0a1e449c3a020bfcf63229"
+          "sha256": "064485fb482aaacf125dbddbad5ab9967c2adf014c023268e6d13c892bac0e44"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk4-student.html",
@@ -8311,14 +8311,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "e41b188d5d378eabc7730642c9bacb7fb2d163cd93c6c0246e9ac38dab3ce3b5",
+        "source_spec_record_sha256": "b0f4baaf991a3ce1440ce5fbd086c0332468f7286e20c9723a29afb27c31335e",
         "day_source": {
           "path": "docs/4sw/wk4-drone-engineering/day2.md",
           "sha256": "602fb8e204964e2c8a7aadc3296dd35c0c044118abb3effa6cde8ba2899bfc30"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk4.py",
-          "sha256": "9eeba7a55606194b0d02c53b0cd6afcd92a3e22f5b0a1e449c3a020bfcf63229"
+          "sha256": "064485fb482aaacf125dbddbad5ab9967c2adf014c023268e6d13c892bac0e44"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk4-student.html",
@@ -8377,14 +8377,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "78cd5542fb7546ac66105d04ee072388d53de4505e634f4b1e3c35e6abb21ca3",
+        "source_spec_record_sha256": "aadf49ae799d19a28a1e987b3ab2325b4f9f6bb2ee5d4333ba127f3e87e2d08b",
         "day_source": {
           "path": "docs/4sw/wk4-drone-engineering/day3.md",
           "sha256": "7cf254d3d0e8095f3c831710b050a354924ecb12ef5d6234575b6ff9095df9b5"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk4.py",
-          "sha256": "9eeba7a55606194b0d02c53b0cd6afcd92a3e22f5b0a1e449c3a020bfcf63229"
+          "sha256": "064485fb482aaacf125dbddbad5ab9967c2adf014c023268e6d13c892bac0e44"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk4-student.html",
@@ -8443,14 +8443,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "f4e91109595fa6f20359ee9c739ef8b69490321f74e40425d3348b05e1440f27",
+        "source_spec_record_sha256": "ee38b8cc06be519f831f682bac328e43c26c11a1ff2315412fb54911ba2024a9",
         "day_source": {
           "path": "docs/4sw/wk4-drone-engineering/day4.md",
           "sha256": "fc3bb10be8563c3f422da1601ea8183c4fe25dc7bcd03970f0910631fe9ada61"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk4.py",
-          "sha256": "9eeba7a55606194b0d02c53b0cd6afcd92a3e22f5b0a1e449c3a020bfcf63229"
+          "sha256": "064485fb482aaacf125dbddbad5ab9967c2adf014c023268e6d13c892bac0e44"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk4-student.html",
@@ -8509,14 +8509,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "6207b9a3a3247e5d771d45d0d68ddc01cc35139abb921c828102d4abce48b20b",
+        "source_spec_record_sha256": "7b91cfaf5b7ef7a30708d0f60953cacb48fa4054060c8e441e406a41c4e172c7",
         "day_source": {
           "path": "docs/4sw/wk4-drone-engineering/day5.md",
           "sha256": "c1ea63b66ffaaba474d28893777ce93a9d763a88eb57a2425879cd52f5e4e097"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk4.py",
-          "sha256": "9eeba7a55606194b0d02c53b0cd6afcd92a3e22f5b0a1e449c3a020bfcf63229"
+          "sha256": "064485fb482aaacf125dbddbad5ab9967c2adf014c023268e6d13c892bac0e44"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk4-student.html",
@@ -8584,14 +8584,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "371fd45e2de2dbe71a4919b874dce42e509f5e683e3d1f63aecae5d8a4e24d10",
+        "source_spec_record_sha256": "f92eab49ceb1329b0acfb48af013bf0d0016a33b64ffdb79bfa2c9a86d26abb4",
         "day_source": {
           "path": "docs/4sw/wk5-automotive/day1.md",
           "sha256": "b61a0d6b4989189fe8593cacc40c87f74eba357457fc4cdc338017221f836cc0"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk5.py",
-          "sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495"
+          "sha256": "d5dcca064df271cafa03450bf156e6319434b9570153280936addd14cf9c2e9f"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk5-student.html",
@@ -8655,14 +8655,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "2e5c7b4e01ab1efc6dfa37c685e9da450c381c9ea18807fd866dc86e599f6d71",
+        "source_spec_record_sha256": "9fbd5d555047af8f82b0ae785d4ae4799f68ae7455527b95eb12838666a847c8",
         "day_source": {
           "path": "docs/4sw/wk5-automotive/day2.md",
           "sha256": "a0af9c21144d22baaf76190e13dce2e8317913c48b2d825192e8568d8fb049d5"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk5.py",
-          "sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495"
+          "sha256": "d5dcca064df271cafa03450bf156e6319434b9570153280936addd14cf9c2e9f"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk5-student.html",
@@ -8726,14 +8726,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "2f547ab608efb76d69a97f4095e79d2c44d82e8216cebf5bc2e4b44f2562c348",
+        "source_spec_record_sha256": "4ccd51ca2231273bf0554b447d670ed096a73b58e17d6b157a8b43b44ed696a7",
         "day_source": {
           "path": "docs/4sw/wk5-automotive/day3.md",
           "sha256": "091021ef064aaa8cd8c011a5250bc9251bf0dbfd4e5a026d91d47209c421710d"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk5.py",
-          "sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495"
+          "sha256": "d5dcca064df271cafa03450bf156e6319434b9570153280936addd14cf9c2e9f"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk5-student.html",
@@ -8797,14 +8797,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "d267fc72538fa642477c689f2b841e37e185b7570f8c3e5b4cdf5ef0c89d846f",
+        "source_spec_record_sha256": "a0fe78702fd8f97d11de47d49a8c2ce63176a3e2ef5a4b34b88da0669523212b",
         "day_source": {
           "path": "docs/4sw/wk5-automotive/day4.md",
           "sha256": "73ff02605385a77d9482d70bfcaaebaea68d624e5c47b96b6d286c654060fd9b"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk5.py",
-          "sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495"
+          "sha256": "d5dcca064df271cafa03450bf156e6319434b9570153280936addd14cf9c2e9f"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk5-student.html",
@@ -8868,14 +8868,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "26aac16d190c7e481573a439d7ea779c45cb542734119a0c26252ab1997dfa2f",
+        "source_spec_record_sha256": "b4204a485dec11c00ecaaba3f5839502848237f6f0f293841cee189172d92e91",
         "day_source": {
           "path": "docs/4sw/wk5-automotive/day5.md",
           "sha256": "9af4b1da6930a7ffced4d004b3810a7eefa1e94defb5ef09c01217b187cef10e"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk5.py",
-          "sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495"
+          "sha256": "d5dcca064df271cafa03450bf156e6319434b9570153280936addd14cf9c2e9f"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk5-student.html",
@@ -8948,14 +8948,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "b7c2cd3d737730e4c5a2db08349a14785033462cb469db263d753d1a7af60f62",
+        "source_spec_record_sha256": "af93c3acaf79e36ade38d25a803f6e43e258439e1e66bcc7631ccd6f2d4d7707",
         "day_source": {
           "path": "docs/4sw/wk6-trades-capstone/day1.md",
           "sha256": "62d4b10c58a79bcc2feb2c17bc88b431f07a052e87e2dbae4bdb8c3ee01ecf36"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk6.py",
-          "sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087"
+          "sha256": "62348fdd51d57c7c5d9e24eb61cd13a2b9be0779b016575ed9a465c40d78f6df"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk6-student.html",
@@ -9019,14 +9019,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "156fdfab96b1587c28dca6f71c2240ae4838c593a86d9e9ad216fba92ee49aa3",
+        "source_spec_record_sha256": "044b0edc980104e792180f26674eea653b16fceeba3b295f4c0de808070c4860",
         "day_source": {
           "path": "docs/4sw/wk6-trades-capstone/day2.md",
           "sha256": "567546aed5e0cb5e001c27678d2efcba51ac650b38d3fe9bcac9d6b8d21b23d4"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk6.py",
-          "sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087"
+          "sha256": "62348fdd51d57c7c5d9e24eb61cd13a2b9be0779b016575ed9a465c40d78f6df"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk6-student.html",
@@ -9090,14 +9090,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "4603b8d5c0e51e03926ed809d1b424c6b2d890b020f5d85c0ffad8c575631da4",
+        "source_spec_record_sha256": "f73c2a2e68affb8fc47a05555319efa571acbbbc3ea90d14e77e932dfabbe92e",
         "day_source": {
           "path": "docs/4sw/wk6-trades-capstone/day3.md",
           "sha256": "5e03f3f2850cc86a351c913bf93d063f63d0a46877af75aef47b018e10e5eacb"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk6.py",
-          "sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087"
+          "sha256": "62348fdd51d57c7c5d9e24eb61cd13a2b9be0779b016575ed9a465c40d78f6df"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk6-student.html",
@@ -9156,14 +9156,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "8920aa3750138f76df0fa42342f22b65b26ea592f8f9bd048e9235f96a47cf41",
+        "source_spec_record_sha256": "8b6dd593545644a93b5cc9258f0bcb8d8b3816473182d8425ae80cb1cfd0c22d",
         "day_source": {
           "path": "docs/4sw/wk6-trades-capstone/day4.md",
           "sha256": "c5b0abfda58f14924ab723319fc39f0b6219ee797506c353f0f5d22ff34f4f46"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk6.py",
-          "sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087"
+          "sha256": "62348fdd51d57c7c5d9e24eb61cd13a2b9be0779b016575ed9a465c40d78f6df"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk6-student.html",
@@ -9222,14 +9222,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "ccd05fbd36dfd25bcab110dfb757f2fc22b1d5b6ccd6a91aea65ee191e4fa48e",
+        "source_spec_record_sha256": "3a704bdf52b075d04f527f0a66f75f734ce4440b34a93350d53fea21adbd1389",
         "day_source": {
           "path": "docs/4sw/wk6-trades-capstone/day5.md",
           "sha256": "e27fcc833ef97cef33abd216eb7a56b010bc6ee06b7bf5fe826596465c48f6a9"
         },
         "canvas_builder": {
           "path": "build/canvas/build_4sw_wk6.py",
-          "sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087"
+          "sha256": "62348fdd51d57c7c5d9e24eb61cd13a2b9be0779b016575ed9a465c40d78f6df"
         },
         "student_template": {
           "path": "build/canvas/templates/4sw-wk6-student.html",
@@ -9302,14 +9302,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "fb9a5059b38ec1a561059700ef04f254f467918efacdc1b5c64f4d471b820b56",
+        "source_spec_record_sha256": "b5b25913528e665d7bc30c883209d643dff32d5330c54261f7bedecbe856f72e",
         "day_source": {
           "path": "docs/5sw/wk1-architecture/day1.md",
           "sha256": "f5970c5111a7a3fae4bcea5476eb93691a5d9b0ec2a973abc1f3879427fde2bf"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk1.py",
-          "sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e"
+          "sha256": "e0f50578bffc041e7ebaa289d1c2ce6741118fc7dd8b83f39f1ec3707c313f86"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk1-student.html",
@@ -9368,14 +9368,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "8150099d352d8b028f62888c7274d1711de45a4f10b38c3df2351be34de823a7",
+        "source_spec_record_sha256": "4730aa9e77fd84b509b777b179098a028096a784d6acfe27446cb2c69150f357",
         "day_source": {
           "path": "docs/5sw/wk1-architecture/day2.md",
           "sha256": "03351cb3f87fffcc4320261b045b4f3dd3716b8b1be492c3acd9ff04c1a4b7a1"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk1.py",
-          "sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e"
+          "sha256": "e0f50578bffc041e7ebaa289d1c2ce6741118fc7dd8b83f39f1ec3707c313f86"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk1-student.html",
@@ -9443,14 +9443,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "7d17870e51085881c05819d22567676b1f149ca5a68f7e0326555f39a5bb2939",
+        "source_spec_record_sha256": "1529eac3dc2d3ef45269d12a4690fbeb8e0355bc0efc968073810c1f9687a166",
         "day_source": {
           "path": "docs/5sw/wk1-architecture/day3.md",
           "sha256": "98875dbc3c485eb6c8e1b40a513fe1e5506354c61ca8428f44d7f407beb03391"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk1.py",
-          "sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e"
+          "sha256": "e0f50578bffc041e7ebaa289d1c2ce6741118fc7dd8b83f39f1ec3707c313f86"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk1-student.html",
@@ -9509,14 +9509,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "17ee3d041bc8c00006c3c0014c99f3bf45a8d15c4fe0a1b1ea57752f8be4bcf5",
+        "source_spec_record_sha256": "d010f72b09abd9c084db611af84bc2cd4ba7ac2d4c68dfff0d513ff74f9747bf",
         "day_source": {
           "path": "docs/5sw/wk1-architecture/day4.md",
           "sha256": "ce288fa712dbec9c78ce002f4a74890c03c6f5f08aa1f4afb75e9bb9f7db2bff"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk1.py",
-          "sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e"
+          "sha256": "e0f50578bffc041e7ebaa289d1c2ce6741118fc7dd8b83f39f1ec3707c313f86"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk1-student.html",
@@ -9575,14 +9575,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "f56999dce2a1828e05b1fe2e97765bb07fff1951977be1ef44289356c5d8de61",
+        "source_spec_record_sha256": "69224e3d627f794b93ffef51fc871144efa0f01a651d92b05b236ac6f12b644a",
         "day_source": {
           "path": "docs/5sw/wk1-architecture/day5.md",
           "sha256": "aaa123b325067001b90c18d0f077d81397237f9ac2e9661b21610a4cee5490e8"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk1.py",
-          "sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e"
+          "sha256": "e0f50578bffc041e7ebaa289d1c2ce6741118fc7dd8b83f39f1ec3707c313f86"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk1-student.html",
@@ -9650,14 +9650,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "68020578656ced212bce2726e8d59f8d99184841e21d155a2e5324227ca41334",
+        "source_spec_record_sha256": "f385a483c7d85c8b981b2f3e164de94b0b7a63e6edb6d042cc342768b42ce0b7",
         "day_source": {
           "path": "docs/5sw/wk2-civil-engineering/day1.md",
           "sha256": "fefd2364a12791fc199ac2e6560e36073a9c9b27d5d92aedafbbe516cbfc0bda"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk2.py",
-          "sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396"
+          "sha256": "c77a5b4ed2b63f331771820f751bf6da9b529a7a7e5844eece979e0612b47063"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk2-student.html",
@@ -9716,14 +9716,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "05ac09f7c4daa7f1aa567782171aae14efe06e6c952198bdef37ab75784a2aea",
+        "source_spec_record_sha256": "acdb9593b64f815982c353bd304f3468f25e3e9c55d270ed56e0635a4f21beaf",
         "day_source": {
           "path": "docs/5sw/wk2-civil-engineering/day2.md",
           "sha256": "627333131e9ccd0ee47fccf97e9ab337bcc467df5a2809477cd8a754ab18eb4c"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk2.py",
-          "sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396"
+          "sha256": "c77a5b4ed2b63f331771820f751bf6da9b529a7a7e5844eece979e0612b47063"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk2-student.html",
@@ -9791,14 +9791,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "4df0dd4c9ca36f427c96933645639a94f594595b0ee785f0566da7d1c0838d5e",
+        "source_spec_record_sha256": "dff3c305d3503bf3b6bac44f3833af2a6dfdd5903e0826416ecb5b9f9d86899f",
         "day_source": {
           "path": "docs/5sw/wk2-civil-engineering/day3.md",
           "sha256": "8bfa13957cd798e87e7408f5454e2e2d572fd610297f459118adea7bbf666397"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk2.py",
-          "sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396"
+          "sha256": "c77a5b4ed2b63f331771820f751bf6da9b529a7a7e5844eece979e0612b47063"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk2-student.html",
@@ -9857,14 +9857,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "3d0d469c2f67a762d531576cb83b5443961e92bd7452f83188009483dbffef0e",
+        "source_spec_record_sha256": "c2778d1673bc8542a62c73479a5418c68e5a04a11fabaf5aaa069b0658c3c85b",
         "day_source": {
           "path": "docs/5sw/wk2-civil-engineering/day4.md",
           "sha256": "022ae37a4c22ae17c33166fc0fa4b3cccd0334c512243163442da2abc37a3c87"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk2.py",
-          "sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396"
+          "sha256": "c77a5b4ed2b63f331771820f751bf6da9b529a7a7e5844eece979e0612b47063"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk2-student.html",
@@ -9923,14 +9923,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "7b703da1a1493024a58fd3904ae8e57f06acbae97cab558d4a90f16f7767734a",
+        "source_spec_record_sha256": "0f86f909154a6501ad5c809c9e6a6fbe2f506f31a28c4b14783bd2399303e562",
         "day_source": {
           "path": "docs/5sw/wk2-civil-engineering/day5.md",
           "sha256": "25bbf0dcb6e41dc6b8ba6f4916a8febae45bee3b1a4047a840bdea2fca28ca23"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk2.py",
-          "sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396"
+          "sha256": "c77a5b4ed2b63f331771820f751bf6da9b529a7a7e5844eece979e0612b47063"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk2-student.html",
@@ -9998,14 +9998,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "1e971bbddce7a956fcf677db568295ef5905b3fb72cc5e4de637de5acf7e78b0",
+        "source_spec_record_sha256": "c797b3b0d2b766cc86709f6c0a8fa546e9355ec00a6016b39f805e678fbc258a",
         "day_source": {
           "path": "docs/5sw/wk3-construction-trades/day1.md",
           "sha256": "7b3b49da346f3a56860d1d0569b9849cfb05c56376e557b31cc469c7d674a0cc"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk3.py",
-          "sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76"
+          "sha256": "469222c15bdb57f471b70b7ee8b3d78aba806c87574a3d6726932ae1425ee9b8"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk3-student.html",
@@ -10064,14 +10064,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "1d03b222f742085cb19e31eca086a71517fee926a0fd6b42725b0f5d66477d04",
+        "source_spec_record_sha256": "89c502018b43dedf78e34a6def651ca9b80cc601062b7cefcb662801f72f625e",
         "day_source": {
           "path": "docs/5sw/wk3-construction-trades/day2.md",
           "sha256": "e76381c2848f58282f2c34b18fb1f3b10b185d6123109da6a85d09dbbd283d8d"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk3.py",
-          "sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76"
+          "sha256": "469222c15bdb57f471b70b7ee8b3d78aba806c87574a3d6726932ae1425ee9b8"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk3-student.html",
@@ -10130,14 +10130,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "6a1d12ded13c33e969e724977bc9b4404b5bbf814d0532b3ebd36d3445d41535",
+        "source_spec_record_sha256": "81a56118c3697f1d6ca52849ad5cfe39121bced8e7472676ce3a2638dac6265a",
         "day_source": {
           "path": "docs/5sw/wk3-construction-trades/day3.md",
           "sha256": "ce17e4dcd770d6d60c09d266a06f24486a22b33ddbac0133f21e0abd307f2bad"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk3.py",
-          "sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76"
+          "sha256": "469222c15bdb57f471b70b7ee8b3d78aba806c87574a3d6726932ae1425ee9b8"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk3-student.html",
@@ -10205,14 +10205,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "906a5448c115629ff9647f0f657e381708c4a9f440b3cc8247c1a2976db0cc14",
+        "source_spec_record_sha256": "cd3da6247bb53545c8dd3092cde955bbb46d24d4660b9a3f380771f4c13d78e7",
         "day_source": {
           "path": "docs/5sw/wk3-construction-trades/day4.md",
           "sha256": "a6a4b8f1a9588515f87c786bb5048ec790785f384dc9fab6c79ae3230517ee73"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk3.py",
-          "sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76"
+          "sha256": "469222c15bdb57f471b70b7ee8b3d78aba806c87574a3d6726932ae1425ee9b8"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk3-student.html",
@@ -10271,14 +10271,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "a35b0f122f716bdd31dd1d814fa4882a1308f769d2699f1b11122fa9871e1730",
+        "source_spec_record_sha256": "749e7b4ab5e8b6a1f504189f74e9693f9c88f1d8b1736afbf8238c1ba532e67c",
         "day_source": {
           "path": "docs/5sw/wk3-construction-trades/day5.md",
           "sha256": "a77f2d80ce2b7d1b04f90b0ed884ca8000cf7c880042e0c778d3688ee3e72b84"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk3.py",
-          "sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76"
+          "sha256": "469222c15bdb57f471b70b7ee8b3d78aba806c87574a3d6726932ae1425ee9b8"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk3-student.html",
@@ -10346,14 +10346,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "e0b01419ddb1b5f7a89bfe958342a95b18890248b9cb3ea661e8e47606b8a551",
+        "source_spec_record_sha256": "6a76f635afd3f2b52f322770800e5d3e28b0a6840506e78149dd964b62b6d1a2",
         "day_source": {
           "path": "docs/5sw/wk4-hvac-electrical-plumbing/day1.md",
           "sha256": "547faf4f69529c14abc98ce90df97dd5a2ce000e115fa8eb64767fdf085042f8"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk4.py",
-          "sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49"
+          "sha256": "ae4072440e3dfdb70834ef57cd02334920873ce1b348ee7bdeed4fa4869d22c9"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk4-student.html",
@@ -10412,14 +10412,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "7ce47465fecdb75145d71928cb1f3e219dbf5c318c8572ce7b8caf6b07a32ebe",
+        "source_spec_record_sha256": "3eb6f4eac5dc11fab9c6dda39089fad10833478ddcc91a89b7d867f0ccd25a1b",
         "day_source": {
           "path": "docs/5sw/wk4-hvac-electrical-plumbing/day2.md",
           "sha256": "5c7070c61687b3d5f9308705fd9b65688619963334e88619a728ce963e2d22e8"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk4.py",
-          "sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49"
+          "sha256": "ae4072440e3dfdb70834ef57cd02334920873ce1b348ee7bdeed4fa4869d22c9"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk4-student.html",
@@ -10478,14 +10478,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "6be1e77b637101e7ac59428530390690d7d32a1113f0155c1db6601e7904f64f",
+        "source_spec_record_sha256": "c64e92a0b3284ba8abd9ef45d032f1fa023fa83981bcf214278d873b375556b5",
         "day_source": {
           "path": "docs/5sw/wk4-hvac-electrical-plumbing/day3.md",
           "sha256": "62d618988fccd946ae2a053c0bea37859cc3f77df4a599be3c4d581af87622d2"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk4.py",
-          "sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49"
+          "sha256": "ae4072440e3dfdb70834ef57cd02334920873ce1b348ee7bdeed4fa4869d22c9"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk4-student.html",
@@ -10544,14 +10544,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "d4c7db3bbc217ee2a1439fbfc5bbd392df3018e6ec44c08b6f3b2402006feb1b",
+        "source_spec_record_sha256": "917e6c8b2cf2a03b30cb077bedd4c3a89d7353f4158d373f12216f8853e50e36",
         "day_source": {
           "path": "docs/5sw/wk4-hvac-electrical-plumbing/day4.md",
           "sha256": "5032e744f5c31e51052037cfaa7366d74cbf33b9820bd68f212a5a171c6f1f12"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk4.py",
-          "sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49"
+          "sha256": "ae4072440e3dfdb70834ef57cd02334920873ce1b348ee7bdeed4fa4869d22c9"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk4-student.html",
@@ -10610,14 +10610,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "bb0209537f4c0e5b88b001992091b96ff9de0816c3c4e24e8d0ded96bdf99f5f",
+        "source_spec_record_sha256": "aedf1f5b1f1a3649386023f3b8bf3067e9a2064cf19ee149b4f5bd565980ec53",
         "day_source": {
           "path": "docs/5sw/wk4-hvac-electrical-plumbing/day5.md",
           "sha256": "819157a2ad792456b7ec24cc4b6493c3b1b56ed89bdea4f463c16481b9197f49"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk4.py",
-          "sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49"
+          "sha256": "ae4072440e3dfdb70834ef57cd02334920873ce1b348ee7bdeed4fa4869d22c9"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk4-student.html",
@@ -10694,14 +10694,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "322f1e42980259b324808f76ddadbcf4200ef090ed56a16f8b3742907981c72b",
+        "source_spec_record_sha256": "ed44e0a8707b15ef6d05272f65e27031a4031abc41b571095c36905efec73895",
         "day_source": {
           "path": "docs/5sw/wk5-personal-budget/day1.md",
           "sha256": "9366ee178f141f1530a98b0f58f6239fb4d9751545623e7438a7a4b3e409ca86"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk5.py",
-          "sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c"
+          "sha256": "23f624fcb5e0e74d4ffcd9d593d771fc5648aedec0a56ede5f7ed24a31e0ccc2"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk5-student.html",
@@ -10760,14 +10760,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "8a4b6a62651b12c63844fd0660ad2905a1934904f97c8013d74c9b4a64118972",
+        "source_spec_record_sha256": "36852674fa902bfad65a91166e9973a97858597ffba8cba62837a9eb5bf88907",
         "day_source": {
           "path": "docs/5sw/wk5-personal-budget/day2.md",
           "sha256": "fd00d401dfe6c1c0811f1105795fb555b02ab2ec56be308e64343ba1361e8777"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk5.py",
-          "sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c"
+          "sha256": "23f624fcb5e0e74d4ffcd9d593d771fc5648aedec0a56ede5f7ed24a31e0ccc2"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk5-student.html",
@@ -10826,14 +10826,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "fd0ef6a6bd5a2fa28fef8b099da36b0763e02af3466694c86b80df6ed8d6b653",
+        "source_spec_record_sha256": "5a4d20bad0e4ec280bbd77e9f999b199fa3426481a844583812b887931009d4a",
         "day_source": {
           "path": "docs/5sw/wk5-personal-budget/day3.md",
           "sha256": "e34b03df0f9c92839ab1e983379cd6926b509bb53d6bb4de047b69349618e0f2"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk5.py",
-          "sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c"
+          "sha256": "23f624fcb5e0e74d4ffcd9d593d771fc5648aedec0a56ede5f7ed24a31e0ccc2"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk5-student.html",
@@ -10892,14 +10892,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "b9e7966c9ac9a5a9ec4790d17851a87e1479e662a01dc3edc76fbf251c88130b",
+        "source_spec_record_sha256": "de6eed5b4da8359413967245e4c538b3fe33b0226496aa777df1d981ce82adac",
         "day_source": {
           "path": "docs/5sw/wk5-personal-budget/day4.md",
           "sha256": "efce00048ce282b80dee39100aa9da195257cc9b13b112eae60ec29996f7938b"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk5.py",
-          "sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c"
+          "sha256": "23f624fcb5e0e74d4ffcd9d593d771fc5648aedec0a56ede5f7ed24a31e0ccc2"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk5-student.html",
@@ -10958,14 +10958,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "e743013475db25ab0d9ed74d584c6ece00ced55c693d2f6649cc27b63a8a1c7d",
+        "source_spec_record_sha256": "50005306f9e27fb3ac7e2ad37886deaa0604fe11d38e91d5d01b6a14459fa16a",
         "day_source": {
           "path": "docs/5sw/wk5-personal-budget/day5.md",
           "sha256": "c647dcd13c66629f0210441e6f78d1503526fb51326ea3b4e41d5560281e9945"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk5.py",
-          "sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c"
+          "sha256": "23f624fcb5e0e74d4ffcd9d593d771fc5648aedec0a56ede5f7ed24a31e0ccc2"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk5-student.html",
@@ -11033,14 +11033,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "670746a929a0f87c32e15967bad3cc3cdf86e1c39fcb533003ad6821e40eb117",
+        "source_spec_record_sha256": "9ef8966c03d710e67c9e08b675e6c38405c5d4af4301025a538d35d809edc06a",
         "day_source": {
           "path": "docs/5sw/wk6-real-estate/day1.md",
           "sha256": "6e9f3e1d4d18369a1ef9416f0a0caf45182524a396b6163ad48b6c9d1e9f4d39"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk6.py",
-          "sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d"
+          "sha256": "c0836f3f102eb4e73e5b6fbba2497c82abb5e9e8d0a2191a22f8c1bff58c61c7"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk6-student.html",
@@ -11099,14 +11099,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "0337ed82fb3d2533c14c3e6f3957852d19906282fc5898e8697d668412b090ee",
+        "source_spec_record_sha256": "a028e6c2787df2544dc3912e8c3758b01a663de7d7874d2bba999d9105669293",
         "day_source": {
           "path": "docs/5sw/wk6-real-estate/day2.md",
           "sha256": "2f25f265613bad78fe2fd0b9079ecf861a92bd401f397ee5d586fdad23515215"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk6.py",
-          "sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d"
+          "sha256": "c0836f3f102eb4e73e5b6fbba2497c82abb5e9e8d0a2191a22f8c1bff58c61c7"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk6-student.html",
@@ -11165,14 +11165,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "8832f184a2c63db4dbe9d473efc014d100d4e357f7705e785bad3c9801932eac",
+        "source_spec_record_sha256": "c3dad457342f1fa64e828a1e8cdc9a8525e24026dd4d56564b9e9c877aafa73e",
         "day_source": {
           "path": "docs/5sw/wk6-real-estate/day3.md",
           "sha256": "bc5c5317fec2802efcaad25149831397db2abcc5e0de87ce32a438367fccddb4"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk6.py",
-          "sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d"
+          "sha256": "c0836f3f102eb4e73e5b6fbba2497c82abb5e9e8d0a2191a22f8c1bff58c61c7"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk6-student.html",
@@ -11231,14 +11231,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "8afbd84519e0b36d618db8fb982b215f511df9a655d76b2ca85ed01104e0700a",
+        "source_spec_record_sha256": "fc0ee3c12a99eb80d66d6eccd8928930c00f31e42020e91ce2db49688bdbc67a",
         "day_source": {
           "path": "docs/5sw/wk6-real-estate/day4.md",
           "sha256": "ddf50f3a61ad700483bd8df28196fc560c154ff1fa6688a9b01265b905f5586a"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk6.py",
-          "sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d"
+          "sha256": "c0836f3f102eb4e73e5b6fbba2497c82abb5e9e8d0a2191a22f8c1bff58c61c7"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk6-student.html",
@@ -11297,14 +11297,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "de39f1f0edd48116f57885c98acab439d9504270b874204a0f14079edfdd23d3",
+        "source_spec_record_sha256": "76f0617ccbf89af3d996cdcf95b1a4b71d4d5262d53a4fc6fd5bdc7436e7a984",
         "day_source": {
           "path": "docs/5sw/wk6-real-estate/day5.md",
           "sha256": "fc0ebf0dd551272ec8023af76eea2795f9cf6d93b17367a5fec84dcbd14bbaf3"
         },
         "canvas_builder": {
           "path": "build/canvas/build_5sw_wk6.py",
-          "sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d"
+          "sha256": "c0836f3f102eb4e73e5b6fbba2497c82abb5e9e8d0a2191a22f8c1bff58c61c7"
         },
         "student_template": {
           "path": "build/canvas/templates/5sw-wk6-student.html",
@@ -11372,14 +11372,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "cbfd014348262156804dc2ed83c8abc08e036425550ef651b640bdb2e603abf9",
+        "source_spec_record_sha256": "1774730e581d0fafcdfbf6db80fa719a723fe620f177e6bed0265b2e9f8f8325",
         "day_source": {
           "path": "docs/6sw/wk1-education/day1.md",
           "sha256": "ac5315356d38ed2ca95f80b7e509325d0797a35f9c3e501faffb4abc66005997"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk1.py",
-          "sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5"
+          "sha256": "d5c7210e6bc4fd93862d41364ae78cfbcab6c8c1a939823f20368407f535577f"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk1-student.html",
@@ -11438,14 +11438,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "41bda4f8ed557d54d9b362603e7c26556ffb630a1609a60f54e4e387e81236d6",
+        "source_spec_record_sha256": "28454bbb4338062b602e381c1eb8f7090d28dc78d284c9ddd192a40580afb3a7",
         "day_source": {
           "path": "docs/6sw/wk1-education/day2.md",
           "sha256": "8f0fc1b5fed9b2385645b69cc6a659c3b7bfc8181c01dddbf5bae8dc571c5af0"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk1.py",
-          "sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5"
+          "sha256": "d5c7210e6bc4fd93862d41364ae78cfbcab6c8c1a939823f20368407f535577f"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk1-student.html",
@@ -11504,14 +11504,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "f9065c3de71e68c4019bca7e788a9c657a14071cc62ce9bc2f75a159c247f239",
+        "source_spec_record_sha256": "690a70cb66ab7a8e5fb0fd5230b222709468e285af4d32e4bcc9f3bcfef46061",
         "day_source": {
           "path": "docs/6sw/wk1-education/day3.md",
           "sha256": "d04c4a087c08a94cb509aceb544696fe2adf032834fcdf6a15d18f021f70ff68"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk1.py",
-          "sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5"
+          "sha256": "d5c7210e6bc4fd93862d41364ae78cfbcab6c8c1a939823f20368407f535577f"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk1-student.html",
@@ -11570,14 +11570,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "80a509388c2dc107140916204c5161f9068e57a11b01f77600e979c0680e0ad7",
+        "source_spec_record_sha256": "dc1426b0a954099637e11257d6fa425ee7e8983411a2a8d7d6ad8343aa62ea01",
         "day_source": {
           "path": "docs/6sw/wk1-education/day4.md",
           "sha256": "9bec8a46699e5a43a43299358795e4e9917bbd4765225931d2f854fd155373e2"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk1.py",
-          "sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5"
+          "sha256": "d5c7210e6bc4fd93862d41364ae78cfbcab6c8c1a939823f20368407f535577f"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk1-student.html",
@@ -11636,14 +11636,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "a022ac84cb959aae3f10cdc7cccb87e5a22ba5b769b1c73463d129035e3f6535",
+        "source_spec_record_sha256": "02f5ad4129eff5010dd7291095e0a4e0bb3966791d2936a5ab4407f593129e23",
         "day_source": {
           "path": "docs/6sw/wk1-education/day5.md",
           "sha256": "e3f46fc83c214b19d71f032121a598fec9e9876d94089f8597f137a592a35754"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk1.py",
-          "sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5"
+          "sha256": "d5c7210e6bc4fd93862d41364ae78cfbcab6c8c1a939823f20368407f535577f"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk1-student.html",
@@ -11711,14 +11711,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "5c10f3ee963c145c85a1f38ff8ac3c041899d639f736e91e77529981e5ce9b37",
+        "source_spec_record_sha256": "0dfe63244dd1b5be52883733f9c94db10f3caf14e049a4c5bfe8fd8ee09e1c20",
         "day_source": {
           "path": "docs/6sw/wk2-graphic-design-resume/day1.md",
           "sha256": "3c281cfa15edf8b02261b9c0dfd610e8d9618acafe2e360228737303edb8fe86"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk2.py",
-          "sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab"
+          "sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk2-student.html",
@@ -11777,14 +11777,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "33ad48a95c5c85e906f5ba3f75a256d6e899d75374b81d26d5c9e5b7500d5281",
+        "source_spec_record_sha256": "08733fcc1b2474fd9589a47ee6d5c84eebe8f322524ecd575b357734ab9b5aa2",
         "day_source": {
           "path": "docs/6sw/wk2-graphic-design-resume/day2.md",
           "sha256": "15834da5cf01a6e652b08b0ffa2c56ec9ad0a30e990096502946c2639762528b"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk2.py",
-          "sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab"
+          "sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk2-student.html",
@@ -11843,14 +11843,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "fc9e45f909c35df225932a98a30e5c78d04e8ed456d2b713301d617f6b35f6cf",
+        "source_spec_record_sha256": "88f77b206f111c44b119d6ee3a0ad776ccec966764869fafbb8ddefce3995ea9",
         "day_source": {
           "path": "docs/6sw/wk2-graphic-design-resume/day3.md",
           "sha256": "3202df08c02e9c8aac8f0ab0d244bef09c4e8980a43f81c17648319a1906038a"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk2.py",
-          "sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab"
+          "sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk2-student.html",
@@ -11909,14 +11909,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "31f4d82c30704ce42b5bb938f932a395cd404e6faef422f7e3b9f19eda209d1c",
+        "source_spec_record_sha256": "1b33a2a58f031e4a2044f904922b75a428a4266efc06e3b8bbe594d42ff1a96c",
         "day_source": {
           "path": "docs/6sw/wk2-graphic-design-resume/day4.md",
           "sha256": "f8d34f6374d5b5b751dbfb703ce2fb416365e4c59002f1e712dfde040258e03a"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk2.py",
-          "sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab"
+          "sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk2-student.html",
@@ -11975,14 +11975,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "a0cb45fbe67151cb7ef480840b0d9e7687e35bebaba3228e7535b22fcc4e8e38",
+        "source_spec_record_sha256": "ccbe782ad885e67052951d050f42dabeb98039a32eb5966eab0c2ef4c70af175",
         "day_source": {
           "path": "docs/6sw/wk2-graphic-design-resume/day5.md",
           "sha256": "740c6b85653346ce844ddbc579cf17b6e6ee1dc1f5a70815460fd5bdffed9a47"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk2.py",
-          "sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab"
+          "sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk2-student.html",
@@ -12077,14 +12077,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "c93f34ee3997d69ac4e489232965485817aa299483e886720b2ade9d7826910c",
+        "source_spec_record_sha256": "24fbc6992f098271e1d8748eca8fbbdb4488464c0d05aa6e589c445eb0df6141",
         "day_source": {
           "path": "docs/6sw/wk3-business-marketing/day1.md",
           "sha256": "6ffbdb988cf678d6ad803fa789cd95651558ffb8612f2645b259bbcb608d3091"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk3.py",
-          "sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63"
+          "sha256": "41ce04e49db2c58bc4460a2b391bad1c59f01186718b832cb59a86f4c3012aa0"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk3-student.html",
@@ -12143,14 +12143,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "aad19cbd930bce2e687523a9ff88f4a6e4d7f347f3e045bdc2ca59363420ac8e",
+        "source_spec_record_sha256": "14f0237f854eb2a6a3de8310cd47d3a9973bcc8e33cd134f15d0d5613a6dbe14",
         "day_source": {
           "path": "docs/6sw/wk3-business-marketing/day2.md",
           "sha256": "5fe23e56f0826c7e3f3104ebbb7aa7993ea6b50fc958a28e8dda8190984757e7"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk3.py",
-          "sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63"
+          "sha256": "41ce04e49db2c58bc4460a2b391bad1c59f01186718b832cb59a86f4c3012aa0"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk3-student.html",
@@ -12209,14 +12209,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "606f6ebf7090972d8dcfffa1b9cf5b22f624fce0386eb385b9612b15dcbd6670",
+        "source_spec_record_sha256": "72e6e99d3b2f35ac6b59aa6d94b3077c23641e90a6fe2fa6260d2d02da4dd65c",
         "day_source": {
           "path": "docs/6sw/wk3-business-marketing/day3.md",
           "sha256": "6447a29927ae266d937993412e752957a4a71a8cb0b020621117728256ac3642"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk3.py",
-          "sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63"
+          "sha256": "41ce04e49db2c58bc4460a2b391bad1c59f01186718b832cb59a86f4c3012aa0"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk3-student.html",
@@ -12275,14 +12275,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "2fc69d7810a909f3e515ceab521af74a725aaa423d47c7a14b4b5c9215d1b560",
+        "source_spec_record_sha256": "3a9c987dfdc34eae5035c36ed1fc19ef6c1bce0efb81c7ac59ba3454b21ea21b",
         "day_source": {
           "path": "docs/6sw/wk3-business-marketing/day4.md",
           "sha256": "45e76268758a16464a3c12e6a83a40f0b6582685890aa70c9fe691a056d9a8a2"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk3.py",
-          "sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63"
+          "sha256": "41ce04e49db2c58bc4460a2b391bad1c59f01186718b832cb59a86f4c3012aa0"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk3-student.html",
@@ -12341,14 +12341,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "5a017108f76fb843dedec5b0ea32b85a45b7f3183be041f80d6179cf06c1f56d",
+        "source_spec_record_sha256": "81e46eb27289360d1bd8cc93d5dee4d22645fd03ca882bbd18f55503dd7a2a8e",
         "day_source": {
           "path": "docs/6sw/wk3-business-marketing/day5.md",
           "sha256": "ef16dfc4773d84045df9d7e1e6db315290c0cdd79fe8571a986bea4a89010341"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk3.py",
-          "sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63"
+          "sha256": "41ce04e49db2c58bc4460a2b391bad1c59f01186718b832cb59a86f4c3012aa0"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk3-student.html",
@@ -12416,14 +12416,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "9e1a68d66293b2b183b6827698861fee5c682d4f1feff02ea24fdfe79aa7177d",
+        "source_spec_record_sha256": "673d1aaec6f43f9959a3904d1f5cf4191b07f4f5066e16c1bac300285ee8d44a",
         "day_source": {
           "path": "docs/6sw/wk4-sales-presentations/day1.md",
           "sha256": "44e490d3aa3217c44a594412ff9eef42641aa3257e600978acb246c9c6e9a07c"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk4.py",
-          "sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416"
+          "sha256": "2c81c55ca76d79e290b4fafeaa9941352ad7ebe96dabb44e37ad5e20165e5086"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk4-student.html",
@@ -12482,14 +12482,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "bbac3c52f808dabdbc74e4dd6a0305900112b2883638e506adaa8eef9934f84e",
+        "source_spec_record_sha256": "9d5e3ceda8f1df6c3e7e81d4a8193102dab82019fae82ff4172a13b4b225f789",
         "day_source": {
           "path": "docs/6sw/wk4-sales-presentations/day2.md",
           "sha256": "afbad44c3e6714f00cb64b4e6fd48c5649a97a5e4dfec9f62d2247b2f694575a"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk4.py",
-          "sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416"
+          "sha256": "2c81c55ca76d79e290b4fafeaa9941352ad7ebe96dabb44e37ad5e20165e5086"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk4-student.html",
@@ -12548,14 +12548,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "16c52163e5c878334a772d29e096248492ba98e2f1852675747a9c1f7f2bab54",
+        "source_spec_record_sha256": "10698934a23326972f8db78020c4c9d085f7d558cbcbc9a5919af77bbc55fb6d",
         "day_source": {
           "path": "docs/6sw/wk4-sales-presentations/day3.md",
           "sha256": "8568d7f8dca8cf1845cb2ab19fbea88eaee85e6934b3e8990a6f6313595d4cee"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk4.py",
-          "sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416"
+          "sha256": "2c81c55ca76d79e290b4fafeaa9941352ad7ebe96dabb44e37ad5e20165e5086"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk4-student.html",
@@ -12614,14 +12614,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "1aed30a7abf32631dc37d8fcb29129d4e36d5d535ba23c323fc4dcdfbb003843",
+        "source_spec_record_sha256": "f1b927313d985b5a14598b748078810ac9bd17262b19eac0fc7de67057281c3c",
         "day_source": {
           "path": "docs/6sw/wk4-sales-presentations/day4.md",
           "sha256": "74331ccc75dd9c45c42cf9cedb3854308466b27a393d450c8cb9d07e08c816b8"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk4.py",
-          "sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416"
+          "sha256": "2c81c55ca76d79e290b4fafeaa9941352ad7ebe96dabb44e37ad5e20165e5086"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk4-student.html",
@@ -12680,14 +12680,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "331acf2a7f43fdbc343eb46692bee3bbc30b59ad5b79e7bb0eaab67771ead73d",
+        "source_spec_record_sha256": "83ec2cc255b4bd2e9b640cc5dde61fc719cf8532df8370198efdd7c304188668",
         "day_source": {
           "path": "docs/6sw/wk4-sales-presentations/day5.md",
           "sha256": "4ea39ec5d24d1a47bb26b0ac617e1559deb4fc914fe3784a2f16b72e1aaa0023"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk4.py",
-          "sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416"
+          "sha256": "2c81c55ca76d79e290b4fafeaa9941352ad7ebe96dabb44e37ad5e20165e5086"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk4-student.html",
@@ -12755,14 +12755,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "18c1582c77d51051ba4abc1fdd8c391c9b4619f6c61241e2a4084c4842de264b",
+        "source_spec_record_sha256": "90681be13db2f6faa566be119416eb8eccdca86d5846f79c050cc1cc2c644c0e",
         "day_source": {
           "path": "docs/6sw/wk5-job-skills-mock-interview/day1.md",
           "sha256": "d1fe356d5b20b920038dacaf2193a15c7f5ae9fa8c81d0eb76f00e5174a05135"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk5.py",
-          "sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd"
+          "sha256": "b5ee65fe607ab958661348a9d23479edaa2564f407122087ceb836ff8455cdd1"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk5-student.html",
@@ -12821,14 +12821,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "7ed8809b4a9a1601f08f97492c32ce1dbbd92c8ed4f4be193639201934d48882",
+        "source_spec_record_sha256": "539ca8aa9d8df8ec5f2dc4b474f05d6b52f7c90539c4424eea3df1230052c7d9",
         "day_source": {
           "path": "docs/6sw/wk5-job-skills-mock-interview/day2.md",
           "sha256": "49cd09c3c5b161dcb792d6c557da03442af5843749eb4303ef7e1906353145d0"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk5.py",
-          "sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd"
+          "sha256": "b5ee65fe607ab958661348a9d23479edaa2564f407122087ceb836ff8455cdd1"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk5-student.html",
@@ -12896,14 +12896,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "3560baaa204f42177b82f25828e16a3d9f48a286630e0fb44eb587ac097fb0f6",
+        "source_spec_record_sha256": "30f796f72f57d4e910b538ebc89727edfc8273dd55cb409062d0f851ed0cfdeb",
         "day_source": {
           "path": "docs/6sw/wk5-job-skills-mock-interview/day3.md",
           "sha256": "48e5716a56eab0b74926cbf4d5dd43f15c577196db9681b2394f2fd56eb5da18"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk5.py",
-          "sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd"
+          "sha256": "b5ee65fe607ab958661348a9d23479edaa2564f407122087ceb836ff8455cdd1"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk5-student.html",
@@ -12962,14 +12962,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "8490acf047c334240f87c79d9da5b584da53e5b3505e6948348fc722ae1c1153",
+        "source_spec_record_sha256": "dce556f6c4871f81963628020815160a90356238810b03efeb71fbd4ca789fce",
         "day_source": {
           "path": "docs/6sw/wk5-job-skills-mock-interview/day4.md",
           "sha256": "d6d5e131ebbfa28ebe12905737f4cbc85a05e7c38d7e9ad482aac1e23c909815"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk5.py",
-          "sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd"
+          "sha256": "b5ee65fe607ab958661348a9d23479edaa2564f407122087ceb836ff8455cdd1"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk5-student.html",
@@ -13028,14 +13028,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "b28031ec3e02ee51c382659bd63c972c95ce282c9c0202ffa3145e57babd6c8d",
+        "source_spec_record_sha256": "8628421cefb5735539aed8640f94a43572efd0b539779f2e2d75b2ca15f1b80b",
         "day_source": {
           "path": "docs/6sw/wk5-job-skills-mock-interview/day5.md",
           "sha256": "9aec2d8d6640ce63c134863a340ef468fe5b1eb66c007178af11041f67dd1896"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk5.py",
-          "sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd"
+          "sha256": "b5ee65fe607ab958661348a9d23479edaa2564f407122087ceb836ff8455cdd1"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk5-student.html",
@@ -13103,14 +13103,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "b8b4a66647572f6bb3113166661894e90dd68181d40475ab6b987741c2f06d46",
+        "source_spec_record_sha256": "e6ba9f6f46497db2171c9e78e2af69340f78732bd930750d1620d82440a34561",
         "day_source": {
           "path": "docs/6sw/wk6-capstone/day1.md",
           "sha256": "f615e92ac5aebff8aa7081ab965a53504015a24045811b9693c988b189558694"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk6.py",
-          "sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1"
+          "sha256": "719cfd6d0779a99bbede6c23d7cb069bf2fc79dc14406bf12579b2ae48c63b31"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk6-student.html",
@@ -13169,14 +13169,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "489dab014c2eff04a84354c543c6267782cb4dd27404ca8a1f4279eb1f2e409b",
+        "source_spec_record_sha256": "e6a4f74475ee7cb630688eea9e492d06fbde5837be2e1d5f0a373ba7f49d3173",
         "day_source": {
           "path": "docs/6sw/wk6-capstone/day2.md",
           "sha256": "7dd44722947ed027f7912f1dc9bca8824d7e5ba566502f13265e8ab910b3e3be"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk6.py",
-          "sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1"
+          "sha256": "719cfd6d0779a99bbede6c23d7cb069bf2fc79dc14406bf12579b2ae48c63b31"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk6-student.html",
@@ -13235,14 +13235,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "4de0554635fb27a0a918394cef051c63b2dcee731b9d05d088d2ba9bb060b9a3",
+        "source_spec_record_sha256": "efb16b5db708258ab522278a3b53539066765d4d7674f89ccf7986781b69ccb9",
         "day_source": {
           "path": "docs/6sw/wk6-capstone/day3.md",
           "sha256": "cf8163c458ab65975434a36dac5b21d56bc5523ddc7641bf870e716d3c8af1a5"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk6.py",
-          "sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1"
+          "sha256": "719cfd6d0779a99bbede6c23d7cb069bf2fc79dc14406bf12579b2ae48c63b31"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk6-student.html",
@@ -13301,14 +13301,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "a628a5d1b0ae5fe017d28025ba9994b76c618f41a54ffb5afec6081c92b8a5bb",
+        "source_spec_record_sha256": "704a567f50ebea8ee139c133c93fdd741e7136adaae5884ee25fc3271d4727f0",
         "day_source": {
           "path": "docs/6sw/wk6-capstone/day4.md",
           "sha256": "ee8f0ec7182cd40c74f9e8752d11cd5a90d65644c09553e96ad8c18240de29e4"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk6.py",
-          "sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1"
+          "sha256": "719cfd6d0779a99bbede6c23d7cb069bf2fc79dc14406bf12579b2ae48c63b31"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk6-student.html",
@@ -13376,14 +13376,14 @@
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
-        "source_spec_record_sha256": "5688b04a80e6e948a614350c6099c9ee49ccde0d02501a79b615232c23a1817b",
+        "source_spec_record_sha256": "27978e486b8a4076f162d145d25cc00b523e7a6be47c6b619ddff07b547bbad4",
         "day_source": {
           "path": "docs/6sw/wk6-capstone/day5.md",
           "sha256": "f48a3468e59558be5767a88f199e740125ed01b803a17075c0fa2e9364346b64"
         },
         "canvas_builder": {
           "path": "build/canvas/build_6sw_wk6.py",
-          "sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1"
+          "sha256": "719cfd6d0779a99bbede6c23d7cb069bf2fc79dc14406bf12579b2ae48c63b31"
         },
         "student_template": {
           "path": "build/canvas/templates/6sw-wk6-student.html",

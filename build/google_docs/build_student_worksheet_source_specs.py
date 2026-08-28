@@ -219,6 +219,17 @@ def _pdf_refs(node: ast.AST, known_keys: set[str]) -> set[str]:
     return found
 
 
+def _has_response_source_marker(node: ast.AST) -> bool:
+    if not isinstance(node, ast.Dict):
+        return False
+    return any(
+        isinstance(key, ast.Constant)
+        and isinstance(key.value, str)
+        and key.value in {"RESPONSE_SOURCE_FILE_ID", "RESPONSE_SOURCE_FILE_IDS"}
+        for key in node.keys
+    )
+
+
 def builder_day_pdf_sources(path: Path) -> dict[int, list[str]]:
     """Infer builder-linked PDFs without importing or executing the builder."""
 
@@ -237,6 +248,7 @@ def builder_day_pdf_sources(path: Path) -> dict[int, list[str]]:
         if not isinstance(node, ast.Dict):
             continue
         candidate: dict[int, set[str]] = {}
+        explicitly_marked = False
         for key_node, value_node in zip(node.keys, node.values):
             if (
                 isinstance(key_node, ast.Constant)
@@ -246,7 +258,10 @@ def builder_day_pdf_sources(path: Path) -> dict[int, list[str]]:
                 refs = _pdf_refs(value_node, set(pdf_map))
                 if refs:
                     candidate[key_node.value] = refs
-        if len(candidate) >= 4:
+                    explicitly_marked = (
+                        explicitly_marked or _has_response_source_marker(value_node)
+                    )
+        if len(candidate) >= 4 or explicitly_marked:
             for day, refs in candidate.items():
                 per_day[day].update(refs)
 

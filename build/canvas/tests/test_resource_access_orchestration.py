@@ -60,6 +60,22 @@ def passing_result(course_id: int) -> list[dict]:
 
 
 class ResourceAccessResultTests(unittest.TestCase):
+    def test_single_builder_wrapper_rejects_mismatched_course_override(self) -> None:
+        builder = CANVAS_DIR / "build_wk0.py"
+        builder_course_id = wrapper.literal_course_id(builder)
+        self.assertIsNotNone(builder_course_id)
+        with self.assertRaisesRegex(SystemExit, "mismatched course targets"):
+            wrapper.resolve_course_id(builder, builder_course_id + 1)
+
+    def test_single_builder_wrapper_accepts_matching_course_override(self) -> None:
+        builder = CANVAS_DIR / "build_wk0.py"
+        builder_course_id = wrapper.literal_course_id(builder)
+        self.assertIsNotNone(builder_course_id)
+        self.assertEqual(
+            wrapper.resolve_course_id(builder, builder_course_id),
+            builder_course_id,
+        )
+
     def test_both_orchestrators_accept_only_complete_success_proof(self) -> None:
         for module in (remaining, wrapper):
             with self.subTest(module=module.__name__):

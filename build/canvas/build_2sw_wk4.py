@@ -818,6 +818,9 @@ async def main():
                 "SHOW_LEARNING": "Submit the Canvas Minor with a three-career comparison and four-part recommendation.",
                 "PURPOSE": "Choose a route for Jordan and make the evidence easy to check.",
                 "TODAY": "<ul><li>audit all three career rows;</li><li>write four sentence jobs;</li><li>self-score and revise.</li></ul>",
+                # Non-rendered provenance lets the local Google Doc composer
+                # bind this day to the assignment's full response source.
+                "RESPONSE_SOURCE_FILE_ID": files["COMPARE"]["id"],
                 "READY": f'<p>Open the <a href="{minor_url}">Health Career Evidence Check</a>. Use the {file_link(files["GUIDE"]["id"], "evidence guide")} and {file_link(files["RUBRIC"]["id"], "16-point rubric")}. The {student_copy_link(5, "optional print route")} is for students assigned paper.</p>',
                 "STEPS": step(
                     1,
@@ -985,6 +988,9 @@ async def main():
                 "DOL": "Submitted Canvas Minor with three-career comparison and four-part recommendation.",
                 "SUBTITLE": "50 minutes · TEKS d(2)(A), d(5)(B)",
                 "ALERT": "<strong>16-point Minor checkpoint.</strong> The existing Canvas assignment remains unpublished for teacher cloning and review.",
+                # Non-rendered provenance mirrors the assignment attachment
+                # so deterministic student-Doc composition sees the full route.
+                "RESPONSE_SOURCE_FILE_ID": files["COMPARE"]["id"],
                 "PREP": f'<ul><li><strong>Per student:</strong> 1 internet-connected device for the private <a href="{minor_url}">Health Career Evidence Check</a>, 1 FYF workbook, and 1 pencil.</li><li><strong>Teacher:</strong> 1 display/device with the scenario and evidence guide. Open the {file_link(files["RUBRIC"]["id"], "student-visible 16-point rubric")} and teacher-only {file_link(files["KEY"]["id"], "calibration guide")}.</li><li><strong>Print only for assigned students:</strong> 1 two-page comparison route per student, double-sided when available. Default copies: 0.</li><li><strong>Grouping:</strong> individual graded evidence; no team submission.</li><li>Keep H&amp;L optional. Use the current coursebook language for Health Science: Dental and Health Science: Medical Billing at Singley.</li></ul>',
                 "EVIDENCE": "<p>Collect the three-row comparison and four-part Jordan recommendation. Score accuracy, classification, fit, and evidence/trade-off.</p>",
                 "FLOW": flow("#5a2d91", "Audit · 8", "Correct all source labels.")

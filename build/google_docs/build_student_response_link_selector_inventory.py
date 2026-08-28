@@ -516,7 +516,12 @@ def build_payload(plan_path: Path, files: dict[int, dict[str, Any]]) -> dict[str
                         "authored_path": authored_record["path"],
                         "authored_path_sha256": authored_record["sha256"],
                         "authored_line_candidates": source_line_candidates(
-                            authored_path, anchor_text, filename
+                            authored_path,
+                            REVIEWED_ANCHOR_TEXT_REPLACEMENTS.get(
+                                (day_key, filename)
+                            )
+                            or anchor_text,
+                            filename,
                         ),
                         "canvas_builder_path": builder_record["path"],
                         "canvas_builder_sha256": builder_record["sha256"],

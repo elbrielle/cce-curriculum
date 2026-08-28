@@ -68,7 +68,7 @@ Transition: **H&L will give us one clue about the kinds of work that may interes
 
 ## Sign in and complete Jumpstart Your Profile (10 min)
 
-Before class, open [Hats & Ladders](https://app.hatsandladders.com/) and test **Sign in with Google** with the IISD account. Confirm that the teacher account reaches the Coach Dashboard and that the class roster exists. Students use the same Google route. If an account does not open, record the student's name and use the provisional activity instead of trying another student's account.
+Before class, open **ClassLink → Hats & Ladders** with the IISD account. Confirm that the teacher account reaches the Coach Dashboard and that the class roster exists. Students use the same district single sign-on route. If an account does not open, record the student's name and use the provisional activity instead of trying another student's account.
 
 Once students are logged in, direct them to the yellow **Profile Climbs** card shown in the current H&L screens. Do not add or upload a profile photo during this lesson.
 
@@ -81,14 +81,14 @@ Direct students to:
 
 The presentation must show the actual dashboard card, the Jumpstart start screen, the Discover Your Core start screen, one representative question, and the Core Complete badge. Each screenshot is paired with the exact action and what students should see next.
 
-> [H&L PLATFORM] Students select **Sign in with Google**, use their IISD account, open **Profile Climbs**, and complete **Jumpstart Your Profile** before **Discover Your Core**. Students return to Profile Climbs on each core day to add information.
+> [H&L PLATFORM] Students open **ClassLink → Hats & Ladders**, confirm their IISD account, open **Profile Climbs**, and complete **Jumpstart Your Profile** before **Discover Your Core**. Students return to Profile Climbs on each core day to add information.
 
 !!! warning "Common Issue"
     SSO outages happen in the first week of school. Do not ask a student to complete a personal result inside another student's account. If H&L will not open, give the student the six-type chart and have them choose a **provisional** top type with one supporting phrase. Record the access problem and protect Friday catch-up time for the individual app activity.
 
 Official teacher references:
 
-- [Log in to Hats & Ladders](https://help.hatsandladders.com/log-in-to-hats-ladders-video) describes the Coach Dashboard and login process. This class uses Google.
+- [Log in to Hats & Ladders](https://help.hatsandladders.com/log-in-to-hats-ladders-video) describes the Coach Dashboard and login process. This class enters through ClassLink.
 - [Create Assignments](https://help.hatsandladders.com/creating-assignments-for-climbers) requires an active group or class with at least one active Climber. Do not create a fake Climber to test this lesson.
 
 ---

@@ -23,7 +23,7 @@ Students complete each part in the place listed below:
 ## Before students arrive
 
 - Open the Day 3 presentation and Student Guide. The presentation includes the required `Exploring Your Work Values` frames; do not open a second Climber Notes deck.
-- Verify **Sign in with Google → Profile Climbs → Discover Your Work Values** and keep the six starter values visible.
+- Verify **ClassLink → Hats & Ladders → Profile Climbs → Discover Your Work Values** and keep the six starter values visible.
 - Set one *Find Your Future* workbook to pp. 9-11 at each seat; one workbook per student.
 - Open the Day 3 Student Guide and launch deck.
 - Prepare the optional Building Blocks word bank and bilingual support for students who need idea retrieval; default copies: 0.

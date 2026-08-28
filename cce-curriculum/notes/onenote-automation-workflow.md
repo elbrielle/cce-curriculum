@@ -25,12 +25,12 @@ The deployment tool is located at `build/onenote/deploy_worksheet.py`.
 
 **Usage:**
 ```bash
-python build/onenote/deploy_worksheet.py --title "Day 1: Exit Ticket" --html-file path/to/worksheet.html
+python build/onenote/deploy_worksheet.py --section-id REVIEWED_SECTION_ID --title "Day 1: Exit Ticket" --html-file path/to/worksheet.html
 ```
 
 **Agent Instructions:**
 1. When the user requests a new worksheet, draft the HTML version first.
-2. If the user wants to deploy it, run the `deploy_worksheet.py` script.
+2. If the user wants to deploy it, run the `deploy_worksheet.py` script with the reviewed teacher-only section ID. The tool creates a new page and fails closed when that exact title already exists; it does not perform partial in-place updates.
 3. The script uses MSAL Device Code Flow. It will output a URL and a code to `stderr`. You MUST relay this URL and code to the user in the chat so they can authenticate. The script will block until the user completes the login in their browser.
 4. Once authenticated, the page is pushed to the teacher's OneNote.
 

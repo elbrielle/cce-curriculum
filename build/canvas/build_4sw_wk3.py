@@ -580,6 +580,7 @@ async def main():
                 "TITLE": "Test, Communicate, and Revise",
                 "PURPOSE": "Use precise classroom directions, test changing constraints, and connect a timed revision to evidence.",
                 "TODAY": "<ul><li>practice a five-step classroom protocol;</li><li>run three tests;</li><li>log one breakdown each run;</li><li>write an individual timed iteration plan.</li></ul>",
+                "RESPONSE_SOURCE_FILE_ID": files["LAB"]["id"],
                 "READY": f'<p>Use pages 1-2 of {student_copy_link(4, "the four-page Lab")} once per team and pages 3-4 once per student. Project or give each team {file_link(files["CARDS"]["id"], "the one-page Scenario Cards")}. This is a fictional classroom protocol, not FAA phraseology.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:12px 16px;margin:14px 0"><strong>Protocol words:</strong> Name · Route · Repeat · Confirm · Log<br><strong>Use this frame:</strong> “Our goal was [specific improvement] during the [two- or three]-minute block. The log shows [evidence], so next we would [adjustment].”</div>',
                 "STEPS": step(1, "Practice Name, Route, Repeat, Confirm, Log", "<p>Use one aircraft and one complete model call before starting a timed run.</p>")
@@ -652,6 +653,7 @@ async def main():
                 "TITLE": "Test, Communicate, and Revise",
                 "SUBTITLE": "50 minutes · TEKS d(4)(A), d(1)(C)",
                 "ALERT": "<strong>Classroom protocol only.</strong> Do not teach the five steps as FAA phraseology or ask students to invent real emergency, radio-failure, or separation procedures.",
+                "RESPONSE_SOURCE_FILE_ID": files["LAB"]["id"],
                 "PREP": f'<ul><li><strong>Teams/materials:</strong> return one map, four tokens, one token tray, and Lab p. 2 per four-student team; return Lab p. 4 to every student.</li><li><strong>Print:</strong> zero by default when projecting {file_link(files["CARDS"]["id"], "the one-page Scenario Cards")}; otherwise one card page per team. <strong>Devices:</strong> zero for paper/LEGO; one per team for Lucid.</li><li>Project the supplied five-step protocol and completed log below. Prepare one visible timer.</li><li>Keep the written third-scenario route ready. No student improvises a real emergency or radio-failure procedure.</li></ul>',
                 "MODEL": "<p><strong>Complete classroom call:</strong> Controller: “Alpha, move from Gate 1 to the R1 hold marker by Taxi A.” Mover: “Alpha repeats: Gate 1 to R1 hold marker by Taxi A.” Controller: “Confirmed.” Recorder logs complete route/no conflict. <strong>Completed log:</strong> Goal—keep Bravo still while Alpha moves. Breakdown—both tokens entered Taxi A. Revision—add a hold marker and name the first aircraft. Evidence—second run moved one aircraft at a time. <strong>Non-example:</strong> “Plane, go over there.”</p>",
                 "EVIDENCE": "<p>Three run logs or two plus written third, team revisions, individual timed iteration plan, and new-scenario response. Formative.</p>",

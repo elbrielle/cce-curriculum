@@ -2,7 +2,7 @@
 
 **Dates:** launch 2026-08-17; retrospective 2026-08-18
 **Scope:** 1SW Wk0 (Ms. Lucero's CCE Week 1 onboarding sequence), the five daily projection decks, her generated weekly deck, the Day 1-3 Canvas pairs, Drive copies, and the public mirror
-**Owner rulings recorded here:** 2026-08-17 (no student autosave test; Google sign-in; screenshot rule) and 2026-08-18 (shared masters vs. teacher pacing; three language tiers; editable weekly deck)
+**Owner rulings recorded here:** 2026-08-17 (no student autosave test; the then-observed sign-in route; screenshot rule) and 2026-08-18 (shared masters vs. teacher pacing; three language tiers; editable weekly deck). The August 19 ClassLink ruling supersedes every H&L route statement below.
 
 ## The one-paragraph version
 
@@ -38,11 +38,11 @@ A slide with only a screenshot depends on teacher improvisation and fails absent
 
 ### 5. Official platform evidence and teacher exemplars come before slide authoring
 
-Owner-authenticated H&L student screens established the current Google sign-in route, the Profile Climbs cards, question formats, and completion badges. Teacher reference decks (Jenna Hainlen's AVID Week 1.2 and 1.6; Jennifer Stanley's Week 0/1) showed end-to-end choreography and also carried obsolete ClassLink, paper-journal, and personal details that must not be copied. Inspect both kinds of evidence before storyboarding.
+Owner-authenticated H&L student screens established the Profile Climbs cards, question formats, and completion badges. The route observed on August 17 was superseded by the August 19 owner ruling: IISD students must open H&L through ClassLink. Teacher reference decks (Jenna Hainlen's AVID Week 1.2 and 1.6; Jennifer Stanley's Week 0/1) showed end-to-end choreography and also carried paper-journal and personal details that must not be copied. Inspect both kinds of evidence before storyboarding.
 
 ### 6. Adapt strong teacher-created material minimally
 
-Keep the As You Enter setup, direct Do Now, literal route demonstration, honest-answer reminder, visible result-recording job, completion cue, early-finisher direction, and exit step. Drop ClassLink, personal names, paper-journal requirements, and unrelated counts. A new worksheet or framework is justified only when no assigned platform, workbook page, notebook page, Canvas interaction, or teacher-created source already does the evidence job.
+Keep the As You Enter setup, direct Do Now, literal route demonstration, honest-answer reminder, visible result-recording job, completion cue, early-finisher direction, and exit step. Use the current ClassLink route; drop personal names, paper-journal requirements, and unrelated counts. A new worksheet or framework is justified only when no assigned platform, workbook page, notebook page, Canvas interaction, or teacher-created source already does the evidence job.
 
 ### 7. Daily decks are authoritative; the weekly deck is generated, and it must stay editable
 
@@ -62,7 +62,7 @@ Record the date, observed completion state, affected daily contract, and next-da
 
 ### 11. Stale phrases hide in builders and hand-edited manifests
 
-The reopen test survived in a builder after the lesson text changed; the "13hsWv5" Google copy link survived in a page; a hand-added manifest entry made three QA scripts fail the next time the generator ran. Fixes: builder-level lint for obsolete strings (ClassLink, reopen/refresh, Mr. Lucero), a read-only gate over the OUTPUT files, and generated inventories that model every artifact type explicitly (the weekly deck is now `teacher_private: true` and the generator includes it).
+The reopen test survived in a builder after the lesson text changed; the "13hsWv5" Google copy link survived in a page; a hand-added manifest entry made three QA scripts fail the next time the generator ran. Fixes: builder-level lint for obsolete strings (direct Google sign-in/bare H&L URL, reopen/refresh, Mr. Lucero), a read-only gate over the OUTPUT files, and generated inventories that model every artifact type explicitly (the weekly deck is now `teacher_private: true` and the generator includes it).
 
 ### 12. Context discipline: one inventory, one build, one gate, one handoff
 

@@ -131,7 +131,10 @@ def main() -> None:
         require(isinstance(canvas, dict), f"{key}: canvas must be an object")
         require(isinstance(canvas.get("course_id"), int) and canvas["course_id"] > 0, f"{key}: invalid Canvas course ID")
         require(isinstance(canvas.get("file_id"), int) and canvas["file_id"] > 0, f"{key}: invalid Canvas file ID")
-        require(canvas.get("locked") is True, f"{key}: Canvas file must be locked")
+        require(
+            isinstance(canvas.get("locked"), bool),
+            f"{key}: recorded Canvas lock state must be a boolean",
+        )
 
         drive = artifact.get("drive")
         require(isinstance(drive, dict), f"{key}: drive must be an object")

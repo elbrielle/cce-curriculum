@@ -29,7 +29,7 @@
       "source_guards": {
         "day_source_sha256": "97502ff45bc7496b01997ff1e9859d9ff43f21b3efbc37ccc7420623e1f89337",
         "canvas_builder_sha256": "700ac2744cbd5ca09c498743fcf2f7c51db8c3b7158e4ef2feb58072b4f25c3b",
-        "student_template_sha256": "0627c15127eeaed3853d0d982fdb748c0c5f311928493dab0a9530308314489b"
+        "student_template_sha256": "e08ac1692c549ef77b78207da455157b544cd4c8c7caaf47568bb9fc694e9887"
       }
     },
     {
@@ -51,9 +51,9 @@
       },
       "supplemental_sources": [],
       "source_guards": {
-        "day_source_sha256": "a10ce7614756a6625ee4043d23c2b1c88fae1474b644038172a211089ee9bc6a",
+        "day_source_sha256": "6d09fcb7f9dfe7ea2679b311bbf1218062b88a02b5f402591775573fb38256b1",
         "canvas_builder_sha256": "700ac2744cbd5ca09c498743fcf2f7c51db8c3b7158e4ef2feb58072b4f25c3b",
-        "student_template_sha256": "e6070b638d821318e94e4ee249879cb86ff2a950891e342af108b2fa7895ec45"
+        "student_template_sha256": "6d56deba1f8ab18abcab618fc083bc1548a7f3c7e78bee95c961faf72bd6f2a3"
       }
     },
     {
@@ -75,9 +75,9 @@
       },
       "supplemental_sources": [],
       "source_guards": {
-        "day_source_sha256": "caa100ec28cd36520de5d5b2aba94cf8fde8c0dc021f3423a2f78b81505a10f8",
+        "day_source_sha256": "d5ab6531092216516dd420c880cff09d7eddaf25c2e7617832996cf495ffaeb6",
         "canvas_builder_sha256": "700ac2744cbd5ca09c498743fcf2f7c51db8c3b7158e4ef2feb58072b4f25c3b",
-        "student_template_sha256": "7482e807529da86edb96b8024391e85e7ea2743f3736219225ab8109515871d1"
+        "student_template_sha256": "b9585749bf9eb76005a5d99eca86528d078e69e6f328bbfe7dd1debaf6b24732"
       }
     },
     {
@@ -112,7 +112,7 @@
       "source_guards": {
         "day_source_sha256": "c1210683c5ab34d94c6b4a3c2f2d25c39f6116db32611125b1784181678b01f1",
         "canvas_builder_sha256": "700ac2744cbd5ca09c498743fcf2f7c51db8c3b7158e4ef2feb58072b4f25c3b",
-        "student_template_sha256": "db25dbfe380352699b56cf147e5d7c47617aaa297f33a19288269e168f823adf"
+        "student_template_sha256": "12a54a5a0f71055cc2ba80826754e038d878b9982aee9d678c65bc97ccc6d22a"
       }
     },
     {
@@ -136,7 +136,7 @@
       "source_guards": {
         "day_source_sha256": "694a470d83e31a6a39bc36eba74e55d0f48d579f71ad96e31c47a71e51718507",
         "canvas_builder_sha256": "700ac2744cbd5ca09c498743fcf2f7c51db8c3b7158e4ef2feb58072b4f25c3b",
-        "student_template_sha256": "440b89b5ccfd91a0737ea8f222d7599956d1f96dbdc03401c993a4080615615d"
+        "student_template_sha256": "ea78386f0bfd02250adfeacf2b9551bfcec52d53b1bd4a458beea1291711cdda"
       }
     },
     {
@@ -160,7 +160,7 @@
       "source_guards": {
         "day_source_sha256": "b97875c33464d59a6cc0e6917d22988ae5a1ce299829a9924626682d690084e4",
         "canvas_builder_sha256": "287769d9dc2dda9ea312366d732bed7fdd8b2aca6977eff621e98aef033fc3db",
-        "student_template_sha256": "372dcdd00c0365128ad536442c0793620a730d6fefbb6a4c688ca0fe42be4849"
+        "student_template_sha256": "5d8d766960cdfdb7260de74457d9d2942981b0d9eebe13cafa54cdb6cc618ffd"
       }
     },
     {
@@ -184,7 +184,7 @@
       "source_guards": {
         "day_source_sha256": "3bbf00c55acedc2919c5c1850865df0443a371debb896817750a45cc4bf9368c",
         "canvas_builder_sha256": "e7e866fae7627dc64aab56544ba9901a55767aa8eb7d9e951fbb635fa8fec3d3",
-        "student_template_sha256": "e28b53b2f63cb8f38ae8155fa9cd3fa4548ae86e322a1898bb872fc0376a7361"
+        "student_template_sha256": "03a23dcd8d4000a231cae7d059cdf52bd10363c1fb65640a9341da7e466df799"
       }
     }
   ]

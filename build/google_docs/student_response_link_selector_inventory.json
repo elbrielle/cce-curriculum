@@ -26,7 +26,7 @@
           "selector_id": "212fb00fd9c772382f59",
           "source_evidence": {
             "artifact_path": "build/google_docs/student_response_route_manual_content_specs.json",
-            "artifact_sha256": "d69db5409722838c761f57d27ee611e89484e5860893ba242fe17f421e14bb28",
+            "artifact_sha256": "fcc4ec6ba02d129762e335717aaed341ffd389b20ad612480ee9513b45caa0ad",
             "authored_line_candidates": [
               26
             ],
@@ -169,7 +169,7 @@
           "selector_id": "f8cb65ff7e45cd280186",
           "source_evidence": {
             "artifact_path": "build/google_docs/student_response_route_manual_content_specs.json",
-            "artifact_sha256": "d69db5409722838c761f57d27ee611e89484e5860893ba242fe17f421e14bb28",
+            "artifact_sha256": "fcc4ec6ba02d129762e335717aaed341ffd389b20ad612480ee9513b45caa0ad",
             "authored_line_candidates": [
               6
             ],
@@ -1012,7 +1012,7 @@
           "selector_id": "51a6da149d68716a3806",
           "source_evidence": {
             "artifact_path": "build/google_docs/student_response_route_manual_content_specs.json",
-            "artifact_sha256": "d69db5409722838c761f57d27ee611e89484e5860893ba242fe17f421e14bb28",
+            "artifact_sha256": "fcc4ec6ba02d129762e335717aaed341ffd389b20ad612480ee9513b45caa0ad",
             "authored_line_candidates": [
               39
             ],
@@ -1821,7 +1821,7 @@
           "selector_id": "bb1a70e38c347ae5c19e",
           "source_evidence": {
             "artifact_path": "build/google_docs/student_response_route_manual_content_specs.json",
-            "artifact_sha256": "d69db5409722838c761f57d27ee611e89484e5860893ba242fe17f421e14bb28",
+            "artifact_sha256": "fcc4ec6ba02d129762e335717aaed341ffd389b20ad612480ee9513b45caa0ad",
             "authored_line_candidates": [
               36
             ],
@@ -2624,9 +2624,9 @@
             "artifact_path": "build/worksheet_sources/2sw-wk4-smile-squad-observation-record.md",
             "artifact_sha256": "8dc49534fa214213661d75b747da73bb5a0ea01b78efb586b7d18d00e56a4cfb",
             "authored_line_candidates": [
-              570,
-              657,
-              844
+              582,
+              669,
+              859
             ],
             "authored_path": "build/canvas/build_2sw_wk4.py",
             "authored_path_sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce",
@@ -2672,9 +2672,9 @@
             "artifact_path": "build/worksheet_sources/2sw-wk4-toothbrush-design-brief.md",
             "artifact_sha256": "772a96654c9863538eb00f14e5a9d4da43af932e5d598413c4906168d71be4c2",
             "authored_line_candidates": [
-              571,
-              699,
-              880
+              583,
+              711,
+              895
             ],
             "authored_path": "build/canvas/build_2sw_wk4.py",
             "authored_path_sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce",
@@ -2728,8 +2728,8 @@
             "artifact_path": "build/worksheet_sources/2sw-wk4-xello-experiences-checkpoint.md",
             "artifact_sha256": "789b3f095d7b40f5799ed9be23f97baaa2229db560696b5130445be6401d92df",
             "authored_line_candidates": [
-              572,
-              740
+              584,
+              752
             ],
             "authored_path": "build/canvas/build_2sw_wk4.py",
             "authored_path_sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce",
@@ -2783,8 +2783,8 @@
             "artifact_path": "build/worksheet_sources/2sw-wk4-icd10-training-lab.md",
             "artifact_sha256": "b1b9ec1bf5e6a85cfb3e0d94a764a0fa7dd4668dff75befab8ef8a815959caba",
             "authored_line_candidates": [
-              573,
-              772
+              585,
+              784
             ],
             "authored_path": "build/canvas/build_2sw_wk4.py",
             "authored_path_sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce",
@@ -2845,9 +2845,9 @@
             "artifact_path": "build/worksheet_sources/2sw-wk4-career-evidence-comparison.md",
             "artifact_sha256": "aaabe25ccd4d6e27c67b5b61174103384526b1304618034c9e312e424d5e32d0",
             "authored_line_candidates": [
-              569,
-              618,
-              809
+              581,
+              630,
+              824
             ],
             "authored_path": "build/canvas/build_2sw_wk4.py",
             "authored_path_sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce",
@@ -2901,8 +2901,8 @@
             "artifact_path": "build/worksheet_sources/2sw-wk5-conflict-resolution-plan.md",
             "artifact_sha256": "e4b14a351616b62ed9aca7badae1b5a96f09fc3db4c768fd68fdde558a28c9dc",
             "authored_line_candidates": [
-              671,
-              736
+              683,
+              748
             ],
             "authored_path": "build/canvas/build_2sw_wk5.py",
             "authored_path_sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8",
@@ -2948,8 +2948,8 @@
             "artifact_path": "build/worksheet_sources/2sw-wk5-active-listening-lab.md",
             "artifact_sha256": "8912185071f6c4e33dfcfe0a58aea2ea3448d12be095a93718379d801e8dace1",
             "authored_line_candidates": [
-              672,
-              782
+              684,
+              794
             ],
             "authored_path": "build/canvas/build_2sw_wk5.py",
             "authored_path_sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8",
@@ -3003,9 +3003,9 @@
             "artifact_path": "build/worksheet_sources/2sw-wk5-advocacy-smart-time-plan.md",
             "artifact_sha256": "ebfd0f2e13b0e6af7a3c0083937b70331796a17ca0187463e173144a06fb9473",
             "authored_line_candidates": [
-              673,
-              827,
-              829
+              685,
+              839,
+              841
             ],
             "authored_path": "build/canvas/build_2sw_wk5.py",
             "authored_path_sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8",
@@ -3051,9 +3051,9 @@
             "artifact_path": "build/worksheet_sources/2sw-wk5-written-message-lab.md",
             "artifact_sha256": "27fecb2c0550ae5ae439ab2e69c9c87d8c34da8ecff3875bece9b046e7c2b591",
             "authored_line_candidates": [
-              674,
-              875,
-              1069
+              686,
+              887,
+              1081
             ],
             "authored_path": "build/canvas/build_2sw_wk5.py",
             "authored_path_sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8",
@@ -3107,8 +3107,8 @@
             "artifact_path": "build/worksheet_sources/2sw-wk5-work-experience-skills-synthesis.md",
             "artifact_sha256": "44bf3c0cdc8c8d477dd838c9ca0bb2c07e56cc1f919aab61f386acb081b66c55",
             "authored_line_candidates": [
-              675,
-              917
+              687,
+              929
             ],
             "authored_path": "build/canvas/build_2sw_wk5.py",
             "authored_path_sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8",
@@ -3162,8 +3162,8 @@
             "artifact_path": "build/worksheet_sources/2sw-wk6-cover-letter-lab.md",
             "artifact_sha256": "08c7650e49307519fc3b1d759f6b151ecebe39a811f2b424c91beefa980a098d",
             "authored_line_candidates": [
-              522,
-              559
+              534,
+              571
             ],
             "authored_path": "build/canvas/build_2sw_wk6.py",
             "authored_path_sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370",
@@ -3209,9 +3209,9 @@
             "artifact_path": "build/worksheet_sources/2sw-wk6-mini-medics-design-record.md",
             "artifact_sha256": "992c53b0a5285996ec5445cf66a0128ab36fd36af65ca80e81f995f6d19d309e",
             "authored_line_candidates": [
-              523,
-              593,
-              820
+              535,
+              605,
+              832
             ],
             "authored_path": "build/canvas/build_2sw_wk6.py",
             "authored_path_sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370",
@@ -3257,9 +3257,9 @@
             "artifact_path": "build/worksheet_sources/2sw-wk6-outbreak-investigation-record.md",
             "artifact_sha256": "91c5deb6a2db3f348ccf214ca7cf2293f320166e9d41077c57583aabd21c0b0f",
             "authored_line_candidates": [
-              524,
-              646,
-              859
+              536,
+              658,
+              871
             ],
             "authored_path": "build/canvas/build_2sw_wk6.py",
             "authored_path_sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370",
@@ -3305,9 +3305,9 @@
             "artifact_path": "build/worksheet_sources/2sw-wk6-outbreak-response-plan.md",
             "artifact_sha256": "e2e91df2202732d93191d1ae9d8e4fc2b7da5486d984fe71aa5b0010b7be7f9a",
             "authored_line_candidates": [
-              525,
-              699,
-              897
+              537,
+              711,
+              909
             ],
             "authored_path": "build/canvas/build_2sw_wk6.py",
             "authored_path_sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370",
@@ -3361,8 +3361,8 @@
             "artifact_path": "build/worksheet_sources/2sw-wk6-xello-career-matches-reflection.md",
             "artifact_sha256": "937567ed6bea758b6f13fa5e8ed28cace821bb12b1c9345872bab94e8ea8a52e",
             "authored_line_candidates": [
-              526,
-              747
+              538,
+              759
             ],
             "authored_path": "build/canvas/build_2sw_wk6.py",
             "authored_path_sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370",
@@ -3446,9 +3446,9 @@
             "artifact_path": "build/worksheet_sources/3sw-wk1-veterinary-career-comparison.md",
             "artifact_sha256": "774b358641b3bf2282da10470d4000a6e942bb5c72d8cf1447fcd4beff2f4461",
             "authored_line_candidates": [
-              32,
-              295,
-              339
+              53,
+              316,
+              361
             ],
             "authored_path": "build/canvas/build_3sw_wk1.py",
             "authored_path_sha256": "24be13c1ac0bd96b2b06d846b20a37fe9e38f65987f9549cd27997c2e9e0077d",
@@ -3494,9 +3494,9 @@
             "artifact_path": "build/worksheet_sources/3sw-wk1-veterinary-triage-record.md",
             "artifact_sha256": "1740793ae0aacb2dd8f95720413cd75e0925d21a4629c732a3e0d60749da4fed",
             "authored_line_candidates": [
-              33,
-              295,
-              357
+              54,
+              316,
+              380
             ],
             "authored_path": "build/canvas/build_3sw_wk1.py",
             "authored_path_sha256": "24be13c1ac0bd96b2b06d846b20a37fe9e38f65987f9549cd27997c2e9e0077d",
@@ -3550,9 +3550,9 @@
             "artifact_path": "build/worksheet_sources/3sw-wk1-xello-skills-reflection.md",
             "artifact_sha256": "bc83c30e18bd94283afe3aa9813acb17c12279a5f4893aed1a26889f793ae77a",
             "authored_line_candidates": [
-              34,
-              295,
-              363
+              55,
+              316,
+              387
             ],
             "authored_path": "build/canvas/build_3sw_wk1.py",
             "authored_path_sha256": "24be13c1ac0bd96b2b06d846b20a37fe9e38f65987f9549cd27997c2e9e0077d",
@@ -3606,9 +3606,9 @@
             "artifact_path": "build/worksheet_sources/3sw-wk1-veterinary-pathway-brief.md",
             "artifact_sha256": "b0d3b5af6107c51a1df71eadde1a584eb25e1bfb7a26a51753b980611cf29820",
             "authored_line_candidates": [
-              35,
-              295,
-              375
+              56,
+              316,
+              400
             ],
             "authored_path": "build/canvas/build_3sw_wk1.py",
             "authored_path_sha256": "24be13c1ac0bd96b2b06d846b20a37fe9e38f65987f9549cd27997c2e9e0077d",
@@ -3700,8 +3700,8 @@
             "artifact_path": "build/worksheet_sources/3sw-wk2-farm-to-table-planner.md",
             "artifact_sha256": "a7cce53b41536576932c621191975681b5af656bd55ff122de4a3ef9572a17da",
             "authored_line_candidates": [
-              614,
-              772
+              635,
+              793
             ],
             "authored_path": "build/canvas/build_3sw_wk2.py",
             "authored_path_sha256": "02bdf6ff78db4969a3a19f2edd8b94235c60a7de1b38db4fa2c47553e49ecc9d",
@@ -3755,8 +3755,8 @@
             "artifact_path": "build/worksheet_sources/3sw-wk2-farm-to-table-planner.md",
             "artifact_sha256": "a7cce53b41536576932c621191975681b5af656bd55ff122de4a3ef9572a17da",
             "authored_line_candidates": [
-              614,
-              806
+              635,
+              827
             ],
             "authored_path": "build/canvas/build_3sw_wk2.py",
             "authored_path_sha256": "02bdf6ff78db4969a3a19f2edd8b94235c60a7de1b38db4fa2c47553e49ecc9d",
@@ -3810,8 +3810,8 @@
             "artifact_path": "build/worksheet_sources/3sw-wk2-emerging-plant-tech-evaluation.md",
             "artifact_sha256": "41c1ed5459262c5575e2727cecc93f3170ed60e64ce98b9ab2fdd550e7060e4a",
             "authored_line_candidates": [
-              617,
-              839
+              638,
+              860
             ],
             "authored_path": "build/canvas/build_3sw_wk2.py",
             "authored_path_sha256": "02bdf6ff78db4969a3a19f2edd8b94235c60a7de1b38db4fa2c47553e49ecc9d",
@@ -3865,8 +3865,8 @@
             "artifact_path": "build/worksheet_sources/3sw-wk2-xello-biases-reflection.md",
             "artifact_sha256": "5a713e1b6cbf1bb88e2254cebd9dbafc5360bffbd2cacec852af3ce704dc791e",
             "authored_line_candidates": [
-              618,
-              871
+              639,
+              892
             ],
             "authored_path": "build/canvas/build_3sw_wk2.py",
             "authored_path_sha256": "02bdf6ff78db4969a3a19f2edd8b94235c60a7de1b38db4fa2c47553e49ecc9d",
@@ -3950,9 +3950,9 @@
             "artifact_path": "build/worksheet_sources/3sw-wk3-pest-patrol-field-notes.md",
             "artifact_sha256": "84d148d2609ec23f2c8f9d768dd3037ce49fcda698632df08f55ad4edbf4b1a9",
             "authored_line_candidates": [
-              20,
-              527,
-              594
+              41,
+              548,
+              615
             ],
             "authored_path": "build/canvas/build_3sw_wk3.py",
             "authored_path_sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580",
@@ -4006,8 +4006,8 @@
             "artifact_path": "build/worksheet_sources/3sw-wk3-drone-design-brief.md",
             "artifact_sha256": "e735bf20f0abe36994eed62fd8fd9bd59e0338ff5be7894a6bd9360967ac79ce",
             "authored_line_candidates": [
-              21,
-              626
+              42,
+              647
             ],
             "authored_path": "build/canvas/build_3sw_wk3.py",
             "authored_path_sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580",
@@ -4061,8 +4061,8 @@
             "artifact_path": "build/worksheet_sources/3sw-wk3-peer-review-revision.md",
             "artifact_sha256": "4d2c631665527d6944e3508a5adc86a709f3f36329a4df5c560b44dc8382d956",
             "authored_line_candidates": [
-              22,
-              658
+              43,
+              679
             ],
             "authored_path": "build/canvas/build_3sw_wk3.py",
             "authored_path_sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580",
@@ -4092,8 +4092,8 @@
             "artifact_path": "build/worksheet_sources/3sw-wk3-societal-trends-evaluation.md",
             "artifact_sha256": "3730afa4d083259d7c2d4d009bd96c03f638d5010a298c87e727170098789eac",
             "authored_line_candidates": [
-              24,
-              658
+              45,
+              679
             ],
             "authored_path": "build/canvas/build_3sw_wk3.py",
             "authored_path_sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580",
@@ -4139,8 +4139,8 @@
             "artifact_path": "build/worksheet_sources/3sw-wk3-xello-goals-plan.md",
             "artifact_sha256": "ffcb1352c66f731a07318f8978b42d4408677411b3c897100c7ae1a12bbce77e",
             "authored_line_candidates": [
-              26,
-              690
+              47,
+              711
             ],
             "authored_path": "build/canvas/build_3sw_wk3.py",
             "authored_path_sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580",
@@ -4186,9 +4186,9 @@
             "artifact_path": "build/worksheet_sources/3sw-wk4-culinary-twist-menu-brief.md",
             "artifact_sha256": "a52f9bf12051217f72de33459f4886d7e04cc006ac93c61401e0056b6ec8e1e4",
             "authored_line_candidates": [
-              29,
-              665,
-              777
+              41,
+              677,
+              789
             ],
             "authored_path": "build/canvas/build_3sw_wk4.py",
             "authored_path_sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468",
@@ -4242,9 +4242,9 @@
             "artifact_path": "build/worksheet_sources/3sw-wk4-motivation-career-comparison.md",
             "artifact_sha256": "2751e83f12896132121868c018ddac9e88a43280653c269bcc01af904c44adc9",
             "authored_line_candidates": [
-              30,
-              666,
-              819
+              42,
+              678,
+              831
             ],
             "authored_path": "build/canvas/build_3sw_wk4.py",
             "authored_path_sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468",
@@ -4298,9 +4298,9 @@
             "artifact_path": "build/worksheet_sources/3sw-wk4-hotel-rescue-response.md",
             "artifact_sha256": "93330646ea9c696cadab631e0ef356fe2e2423e0778804a8dd4d15be5d88b6cc",
             "authored_line_candidates": [
-              32,
-              668,
-              857
+              44,
+              680,
+              869
             ],
             "authored_path": "build/canvas/build_3sw_wk4.py",
             "authored_path_sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468",
@@ -4346,9 +4346,9 @@
             "artifact_path": "build/worksheet_sources/3sw-wk4-cater-create-event-brief.md",
             "artifact_sha256": "524b3741af4f2a71c7d4f9d83fa1d52b45572fe7a5b390bb27d38072a53df4a6",
             "authored_line_candidates": [
-              33,
-              669,
-              895
+              45,
+              681,
+              907
             ],
             "authored_path": "build/canvas/build_3sw_wk4.py",
             "authored_path_sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468",
@@ -4409,9 +4409,9 @@
             "artifact_path": "build/worksheet_sources/3sw-wk4-hospitality-recommendation.md",
             "artifact_sha256": "c88821371962467961dc3709e3c059eb6f6a8106bff96052dbfadd64391484e3",
             "authored_line_candidates": [
-              34,
-              670,
-              933
+              46,
+              682,
+              945
             ],
             "authored_path": "build/canvas/build_3sw_wk4.py",
             "authored_path_sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468",
@@ -4457,9 +4457,9 @@
             "artifact_path": "build/worksheet_sources/3sw-wk5-sfx-concept-lab-brief.md",
             "artifact_sha256": "c31238364ac00f87ba3f806e9f6cf47988faa8864e02a1113bbb74bebeadea84",
             "authored_line_candidates": [
-              22,
-              639,
-              828
+              34,
+              651,
+              840
             ],
             "authored_path": "build/canvas/build_3sw_wk5.py",
             "authored_path_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
@@ -4505,9 +4505,9 @@
             "artifact_path": "build/worksheet_sources/3sw-wk5-sfx-build-test-record.md",
             "artifact_sha256": "a50cb783c9d3736f7f8e1113b5ac917a24055afddfeb09022ca0d15f5257f3b0",
             "authored_line_candidates": [
-              23,
-              600,
-              681
+              35,
+              612,
+              693
             ],
             "authored_path": "build/canvas/build_3sw_wk5.py",
             "authored_path_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
@@ -4561,8 +4561,8 @@
             "artifact_path": "build/worksheet_sources/3sw-wk5-cosmetology-pathway-decision.md",
             "artifact_sha256": "13006b4fa318e739ef2ad1975657e8f8a081267441525ec32a92c6e2c563b377",
             "authored_line_candidates": [
-              26,
-              715
+              38,
+              727
             ],
             "authored_path": "build/canvas/build_3sw_wk5.py",
             "authored_path_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
@@ -4592,9 +4592,9 @@
             "artifact_path": "build/worksheet_sources/3sw-wk5-sfx-quality-revision.md",
             "artifact_sha256": "b0bef6b16a43bc34d129e419dacb69b15573e21249bd0e7da4bc5deabad4d364",
             "authored_line_candidates": [
-              24,
-              715,
-              878
+              36,
+              727,
+              890
             ],
             "authored_path": "build/canvas/build_3sw_wk5.py",
             "authored_path_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
@@ -4640,9 +4640,9 @@
             "artifact_path": "build/worksheet_sources/3sw-wk5-salon-wellness-campaign.md",
             "artifact_sha256": "e3c7ec94c3fbcb639a0af9ad55fd3488405111e14568d2f390fe2ca016214bf5",
             "authored_line_candidates": [
-              27,
-              618,
-              749
+              39,
+              630,
+              761
             ],
             "authored_path": "build/canvas/build_3sw_wk5.py",
             "authored_path_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
@@ -4703,10 +4703,10 @@
             "artifact_path": "build/worksheet_sources/3sw-wk5-cosmetology-recommendation.md",
             "artifact_sha256": "fc8ddb34353b960b5589251d95602d510b607b0ea077ec3b0fdc6956d5fc7e5c",
             "authored_line_candidates": [
-              28,
-              787,
-              816,
-              879
+              40,
+              799,
+              828,
+              891
             ],
             "authored_path": "build/canvas/build_3sw_wk5.py",
             "authored_path_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
@@ -4752,9 +4752,9 @@
             "artifact_path": "build/worksheet_sources/3sw-wk6-entrepreneurship-opportunity-guide.md",
             "artifact_sha256": "509a05c252b2010ee3ce6926fb2ca745c9fc25702f5d308ee16b3c5e7543d439",
             "authored_line_candidates": [
-              27,
-              386,
-              480
+              39,
+              398,
+              492
             ],
             "authored_path": "build/canvas/build_3sw_wk6.py",
             "authored_path_sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082",
@@ -4800,9 +4800,9 @@
             "artifact_path": "build/worksheet_sources/3sw-wk6-million-dollar-idea-support-packet.md",
             "artifact_sha256": "3e4cbecd4cf13e4f9fd265167d1725e47884530fe1e8e8eeffd95c36f357ce31",
             "authored_line_candidates": [
-              28,
-              387,
-              471
+              40,
+              399,
+              483
             ],
             "authored_path": "build/canvas/build_3sw_wk6.py",
             "authored_path_sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082",
@@ -4848,13 +4848,13 @@
             "artifact_path": "build/worksheet_sources/3sw-wk6-million-dollar-idea-support-packet.md",
             "artifact_sha256": "3e4cbecd4cf13e4f9fd265167d1725e47884530fe1e8e8eeffd95c36f357ce31",
             "authored_line_candidates": [
-              28,
-              387,
-              472,
-              611,
-              612,
-              690,
-              697
+              40,
+              399,
+              484,
+              623,
+              624,
+              702,
+              709
             ],
             "authored_path": "build/canvas/build_3sw_wk6.py",
             "authored_path_sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082",
@@ -4908,10 +4908,10 @@
             "artifact_path": "build/worksheet_sources/3sw-wk6-venture-brief-and-pitch-record.md",
             "artifact_sha256": "07868180272aa749647465259f05c9470c407dfca69f05dd7224ebe420ec6e97",
             "authored_line_candidates": [
-              29,
-              388,
-              473,
-              548
+              41,
+              400,
+              485,
+              560
             ],
             "authored_path": "build/canvas/build_3sw_wk6.py",
             "authored_path_sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082",
@@ -4965,10 +4965,10 @@
             "artifact_path": "build/worksheet_sources/3sw-wk6-budget-and-scholarship-plan.md",
             "artifact_sha256": "fe300f93cb30db0896997ae3afcb8edbba9168c6111cac8640eb46afd5faab7b",
             "authored_line_candidates": [
-              31,
-              390,
-              474,
-              590
+              43,
+              402,
+              486,
+              602
             ],
             "authored_path": "build/canvas/build_3sw_wk6.py",
             "authored_path_sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082",
@@ -5014,8 +5014,8 @@
             "artifact_path": "build/worksheet_sources/4sw-wk1-midyear-profile-audit.md",
             "artifact_sha256": "b83365f1505fe2b0c6292861bfe0576cac46f1cc865446be11e6f2cc4ba5d5ef",
             "authored_line_candidates": [
-              23,
-              399
+              35,
+              411
             ],
             "authored_path": "build/canvas/build_4sw_wk1.py",
             "authored_path_sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b",
@@ -5061,8 +5061,8 @@
             "artifact_path": "build/worksheet_sources/4sw-wk1-career-iceberg-and-goal.md",
             "artifact_sha256": "fca4cb491598213106883c79858c457c6073420b463413ce570a37ee1f035300",
             "authored_line_candidates": [
-              24,
-              400
+              36,
+              412
             ],
             "authored_path": "build/canvas/build_4sw_wk1.py",
             "authored_path_sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b",
@@ -5108,8 +5108,8 @@
             "artifact_path": "build/worksheet_sources/4sw-wk1-career-deep-dive.md",
             "artifact_sha256": "dc62e57d341dec480a4cb73c64c422cf7b321c6155ea6eef303b94b36b99f3a7",
             "authored_line_candidates": [
-              25,
-              401
+              37,
+              413
             ],
             "authored_path": "build/canvas/build_4sw_wk1.py",
             "authored_path_sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b",
@@ -5155,8 +5155,8 @@
             "artifact_path": "build/worksheet_sources/4sw-wk1-pathway-and-ctso-decision.md",
             "artifact_sha256": "dbc5053411a74e2ad026aa2821a4ed79a552d4f3dff2c7548867925e16bf4f6b",
             "authored_line_candidates": [
-              26,
-              402
+              38,
+              414
             ],
             "authored_path": "build/canvas/build_4sw_wk1.py",
             "authored_path_sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b",
@@ -5210,8 +5210,8 @@
             "artifact_path": "build/worksheet_sources/4sw-wk1-midyear-career-blueprint.md",
             "artifact_sha256": "bed1cf214f3d0d87c9001451c35e42f4e0b9fcdda9eab1a847c809bcebb7152e",
             "authored_line_candidates": [
-              27,
-              403
+              39,
+              415
             ],
             "authored_path": "build/canvas/build_4sw_wk1.py",
             "authored_path_sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b",
@@ -5257,9 +5257,9 @@
             "artifact_path": "build/worksheet_sources/4sw-wk2-transition-and-assessment-decisions.md",
             "artifact_sha256": "7678c345d137f62839e665c8e85d6cbaa481d16d1dddf848d30a6becbb96f351",
             "authored_line_candidates": [
-              28,
-              491,
-              636
+              40,
+              503,
+              648
             ],
             "authored_path": "build/canvas/build_4sw_wk2.py",
             "authored_path_sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a",
@@ -5305,9 +5305,9 @@
             "artifact_path": "build/worksheet_sources/4sw-wk2-four-year-course-plan-draft.md",
             "artifact_sha256": "e285289ecea4da44a26ecdabb82c071b5c833a5c76a2232a24313007c93099c5",
             "authored_line_candidates": [
-              29,
-              492,
-              651
+              41,
+              504,
+              663
             ],
             "authored_path": "build/canvas/build_4sw_wk2.py",
             "authored_path_sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a",
@@ -5353,10 +5353,10 @@
             "artifact_path": "build/worksheet_sources/4sw-wk2-college-credit-and-family-conversation.md",
             "artifact_sha256": "234a40a83c6a498296f563fb7ee1d2ec8598034ac979fafcf66b98ab16d99554",
             "authored_line_candidates": [
-              30,
-              493,
-              666,
-              746
+              42,
+              505,
+              678,
+              758
             ],
             "authored_path": "build/canvas/build_4sw_wk2.py",
             "authored_path_sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a",
@@ -5402,10 +5402,10 @@
             "artifact_path": "build/worksheet_sources/4sw-wk2-smart-experience-action-plan.md",
             "artifact_sha256": "6253badae220358c46ac24997d6c534ded14241b5ddd2a44d87d69f5ca32936d",
             "authored_line_candidates": [
-              31,
-              494,
-              681,
-              762
+              43,
+              506,
+              693,
+              774
             ],
             "authored_path": "build/canvas/build_4sw_wk2.py",
             "authored_path_sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a",
@@ -5459,10 +5459,10 @@
             "artifact_path": "build/worksheet_sources/4sw-wk2-individual-high-school-career-plan.md",
             "artifact_sha256": "757580ce60f695bfbb98244e7b9b10930edabbb115b4b702521bd9fa220fc4a5",
             "authored_line_candidates": [
-              32,
-              495,
-              696,
-              780
+              44,
+              507,
+              708,
+              792
             ],
             "authored_path": "build/canvas/build_4sw_wk2.py",
             "authored_path_sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a",
@@ -5508,8 +5508,8 @@
             "artifact_path": "build/worksheet_sources/4sw-wk3-transportation-survey-design.md",
             "artifact_sha256": "770b6911dbc095369be29de5c32b462ef892a86cd7dd19746d6a0a52d2e45112",
             "authored_line_candidates": [
-              24,
-              526
+              36,
+              538
             ],
             "authored_path": "build/canvas/build_4sw_wk3.py",
             "authored_path_sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50",
@@ -5563,9 +5563,9 @@
             "artifact_path": "build/worksheet_sources/4sw-wk3-aviation-route-action-plan.md",
             "artifact_sha256": "f9996719d1c62c7567b64dfef5b8d47a00a613679eefd33c93d35f54e2faf94c",
             "authored_line_candidates": [
-              28,
-              456,
-              541
+              40,
+              468,
+              553
             ],
             "authored_path": "build/canvas/build_4sw_wk3.py",
             "authored_path_sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50",
@@ -5611,8 +5611,8 @@
             "artifact_path": "build/worksheet_sources/4sw-wk3-airport-design-simulation-lab.md",
             "artifact_sha256": "f80843de65924edb89bc39d1ddc09ad6c247fbb42eb3643329067e4bb019a6e2",
             "authored_line_candidates": [
-              26,
-              556
+              38,
+              568
             ],
             "authored_path": "build/canvas/build_4sw_wk3.py",
             "authored_path_sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50",
@@ -5666,9 +5666,9 @@
             "artifact_path": "build/worksheet_sources/4sw-wk3-airport-design-simulation-lab.md",
             "artifact_sha256": "f80843de65924edb89bc39d1ddc09ad6c247fbb42eb3643329067e4bb019a6e2",
             "authored_line_candidates": [
-              26,
-              571,
-              630
+              38,
+              584,
+              643
             ],
             "authored_path": "build/canvas/build_4sw_wk3.py",
             "authored_path_sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50",
@@ -5722,8 +5722,8 @@
             "artifact_path": "build/worksheet_sources/4sw-wk3-aviation-route-action-plan.md",
             "artifact_sha256": "f9996719d1c62c7567b64dfef5b8d47a00a613679eefd33c93d35f54e2faf94c",
             "authored_line_candidates": [
-              28,
-              586
+              40,
+              599
             ],
             "authored_path": "build/canvas/build_4sw_wk3.py",
             "authored_path_sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50",
@@ -5769,10 +5769,10 @@
             "artifact_path": "build/worksheet_sources/4sw-wk4-wildlife-tracking-drone-design.md",
             "artifact_sha256": "303ca0470339c0089f425c95bd591f1093749ecfa3f5a68c41422478c0bfa4eb",
             "authored_line_candidates": [
-              29,
-              337,
-              422,
-              499
+              50,
+              358,
+              443,
+              520
             ],
             "authored_path": "build/canvas/build_4sw_wk4.py",
             "authored_path_sha256": "9eeba7a55606194b0d02c53b0cd6afcd92a3e22f5b0a1e449c3a020bfcf63229",
@@ -5856,10 +5856,10 @@
             "artifact_path": "build/worksheet_sources/4sw-wk4-drone-operation-decision-readiness.md",
             "artifact_sha256": "704344722971ab0ecccb491df2a8bf144be4fafd2f32168c63e1ae979b3ee97d",
             "authored_line_candidates": [
-              31,
-              339,
-              452,
-              523
+              52,
+              360,
+              473,
+              544
             ],
             "authored_path": "build/canvas/build_4sw_wk4.py",
             "authored_path_sha256": "9eeba7a55606194b0d02c53b0cd6afcd92a3e22f5b0a1e449c3a020bfcf63229",
@@ -5905,10 +5905,10 @@
             "artifact_path": "build/worksheet_sources/4sw-wk4-drone-systems-test.md",
             "artifact_sha256": "a22aad8a988af5f0328071a3b0878048ade3e5b59005e8c717809cc88d3764f1",
             "authored_line_candidates": [
-              32,
-              340,
-              467,
-              535
+              53,
+              361,
+              488,
+              556
             ],
             "authored_path": "build/canvas/build_4sw_wk4.py",
             "authored_path_sha256": "9eeba7a55606194b0d02c53b0cd6afcd92a3e22f5b0a1e449c3a020bfcf63229",
@@ -5962,10 +5962,10 @@
             "artifact_path": "build/worksheet_sources/4sw-wk4-drone-systems-evidence-brief.md",
             "artifact_sha256": "215c294fcacd50fb50f92bf15c50102fb7cedc7080a5d95b0ea025f010ccd908",
             "authored_line_candidates": [
-              33,
-              341,
-              482,
-              547
+              54,
+              362,
+              503,
+              568
             ],
             "authored_path": "build/canvas/build_4sw_wk4.py",
             "authored_path_sha256": "9eeba7a55606194b0d02c53b0cd6afcd92a3e22f5b0a1e449c3a020bfcf63229",
@@ -6011,9 +6011,9 @@
             "artifact_path": "build/worksheet_sources/4sw-wk5-crash-crew-evidence-and-preliminary-plan.md",
             "artifact_sha256": "b2e2b7d3bb9386d51beded534e97385aa8a3c77035d5e1a0f4404055a4086c91",
             "authored_line_candidates": [
-              25,
-              601,
-              679
+              37,
+              613,
+              691
             ],
             "authored_path": "build/canvas/build_4sw_wk5.py",
             "authored_path_sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495",
@@ -6059,9 +6059,9 @@
             "artifact_path": "build/worksheet_sources/4sw-wk5-ase-and-automotive-training-routes.md",
             "artifact_sha256": "993fcc2aefc78cbf5d0b9ff9445aa597a918188d01cc420e6a3b8e4762e78dbe",
             "authored_line_candidates": [
-              26,
-              616,
-              692
+              38,
+              628,
+              704
             ],
             "authored_path": "build/canvas/build_4sw_wk5.py",
             "authored_path_sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495",
@@ -6107,9 +6107,9 @@
             "artifact_path": "build/worksheet_sources/4sw-wk5-three-automotive-occupations.md",
             "artifact_sha256": "89d2dbf7c73a324a2aa784b582167ad7df7cb97c4eb9f00d1580c1331d82b635",
             "authored_line_candidates": [
-              27,
-              631,
-              705
+              39,
+              643,
+              717
             ],
             "authored_path": "build/canvas/build_4sw_wk5.py",
             "authored_path_sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495",
@@ -6155,9 +6155,9 @@
             "artifact_path": "build/worksheet_sources/4sw-wk5-automotive-route-decision.md",
             "artifact_sha256": "69a8f4f5a590ec729365f9fbbc8641e1b9cc416f6ace6ed45c147d14b3db2a6a",
             "authored_line_candidates": [
-              28,
-              646,
-              718
+              40,
+              658,
+              730
             ],
             "authored_path": "build/canvas/build_4sw_wk5.py",
             "authored_path_sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495",
@@ -6211,9 +6211,9 @@
             "artifact_path": "build/worksheet_sources/4sw-wk5-automotive-evidence-brief.md",
             "artifact_sha256": "7091b1c6f96c0da0a56fce61f2a0246fa6f750f0c189c14593c8eef53dda7a88",
             "authored_line_candidates": [
-              29,
-              661,
-              731
+              41,
+              673,
+              743
             ],
             "authored_path": "build/canvas/build_4sw_wk5.py",
             "authored_path_sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495",
@@ -6259,8 +6259,8 @@
             "artifact_path": "build/worksheet_sources/4sw-wk6-truck-evidence-and-priority.md",
             "artifact_sha256": "3d03686c06d66bdf4c430c5d9254b82f885947c44382f3c9afbd452202ad87cb",
             "authored_line_candidates": [
-              27,
-              449
+              39,
+              461
             ],
             "authored_path": "build/canvas/build_4sw_wk6.py",
             "authored_path_sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087",
@@ -6306,8 +6306,8 @@
             "artifact_path": "build/worksheet_sources/4sw-wk6-transferable-skills-evidence.md",
             "artifact_sha256": "54c9e78e1e60f9cdc82c32744e3f351ce4460e1c67c1de0cf93b727c3860c06d",
             "authored_line_candidates": [
-              28,
-              464
+              40,
+              476
             ],
             "authored_path": "build/canvas/build_4sw_wk6.py",
             "authored_path_sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087",
@@ -6353,9 +6353,9 @@
             "artifact_path": "build/worksheet_sources/4sw-wk6-career-organization-types.md",
             "artifact_sha256": "42484a07cad43cc2b7eccdfdf017bc4a62aafd5bf2515e198d2cee4bd266a4ad",
             "authored_line_candidates": [
-              29,
-              479,
-              494
+              41,
+              491,
+              506
             ],
             "authored_path": "build/canvas/build_4sw_wk6.py",
             "authored_path_sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087",
@@ -6401,9 +6401,9 @@
             "artifact_path": "build/worksheet_sources/4sw-wk6-integrity-and-evidence-audit.md",
             "artifact_sha256": "5df12068e1c0ee9916715642fdb7b9b4f155f13a0fe1f99db120bd3fafe623ac",
             "authored_line_candidates": [
-              30,
-              479,
-              494
+              42,
+              491,
+              506
             ],
             "authored_path": "build/canvas/build_4sw_wk6.py",
             "authored_path_sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087",
@@ -6457,8 +6457,8 @@
             "artifact_path": "build/worksheet_sources/4sw-wk6-mid-year-evidence-reflection.md",
             "artifact_sha256": "8439b47eca9b580e055d8f7e862c61aaa56976afb63d5e1303076140b9b17fed",
             "authored_line_candidates": [
-              31,
-              509
+              43,
+              521
             ],
             "authored_path": "build/canvas/build_4sw_wk6.py",
             "authored_path_sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087",
@@ -6504,8 +6504,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk1-safety-supervisor-evidence-plan.md",
             "artifact_sha256": "74a69b790756c53a39ca121a187596692a690af95109c9a00c2fa08e6fff15a4",
             "authored_line_candidates": [
-              28,
-              588
+              40,
+              600
             ],
             "authored_path": "build/canvas/build_5sw_wk1.py",
             "authored_path_sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e",
@@ -6559,8 +6559,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk1-three-career-evidence-comparison.md",
             "artifact_sha256": "466d50fcf20c595ae3d278713b899396541a1f87e467d3548e4ab8c0f53fb4b7",
             "authored_line_candidates": [
-              29,
-              603
+              41,
+              615
             ],
             "authored_path": "build/canvas/build_5sw_wk1.py",
             "authored_path_sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e",
@@ -6606,9 +6606,9 @@
             "artifact_path": "build/worksheet_sources/5sw-wk1-concept-building-design.md",
             "artifact_sha256": "2d14f3a4e843466f1fe7cdbb4180466cdb93874abd296b956cf0f16153c87299",
             "authored_line_candidates": [
-              30,
-              618,
-              692
+              42,
+              630,
+              704
             ],
             "authored_path": "build/canvas/build_5sw_wk1.py",
             "authored_path_sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e",
@@ -6654,9 +6654,9 @@
             "artifact_path": "build/worksheet_sources/5sw-wk1-design-test-and-revision.md",
             "artifact_sha256": "7791f3577438bc2ec7d2a97575d98febcdbfc04e039886dce0d39955e617ed9d",
             "authored_line_candidates": [
-              31,
-              633,
-              705
+              43,
+              645,
+              717
             ],
             "authored_path": "build/canvas/build_5sw_wk1.py",
             "authored_path_sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e",
@@ -6710,8 +6710,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk1-unexpected-architecture-evidence.md",
             "artifact_sha256": "7513def9902a2d6074b20f1a0393926972897eb70ed083f51d66d37219b38e59",
             "authored_line_candidates": [
-              32,
-              648
+              44,
+              660
             ],
             "authored_path": "build/canvas/build_5sw_wk1.py",
             "authored_path_sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e",
@@ -6757,8 +6757,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk2-civil-engineer-and-systems-evidence.md",
             "artifact_sha256": "d720b4f434b3c2aff97ac686b358e47cd3c81b5cf985d2ed875fead57fceb01b",
             "authored_line_candidates": [
-              29,
-              537
+              41,
+              549
             ],
             "authored_path": "build/canvas/build_5sw_wk2.py",
             "authored_path_sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396",
@@ -6812,8 +6812,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk2-assessment-and-emerging-specialty.md",
             "artifact_sha256": "ab3864457f9493481b92568df0f623feac32129b9cfac1a5243bfc693ee041db",
             "authored_line_candidates": [
-              30,
-              552
+              42,
+              564
             ],
             "authored_path": "build/canvas/build_5sw_wk2.py",
             "authored_path_sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396",
@@ -6859,8 +6859,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk2-bridge-design-options.md",
             "artifact_sha256": "a0c6333f50b82d1bb7bdd2733fec07432a6d0545246184de3103d310861998ec",
             "authored_line_candidates": [
-              31,
-              567
+              43,
+              579
             ],
             "authored_path": "build/canvas/build_5sw_wk2.py",
             "authored_path_sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396",
@@ -6906,8 +6906,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk2-bridge-test-and-redesign.md",
             "artifact_sha256": "bc39fb025a3e8e0e3b7dafef651702b7f9bfd543dd4eab3d4c56d7197bd4b094",
             "authored_line_candidates": [
-              32,
-              582
+              44,
+              594
             ],
             "authored_path": "build/canvas/build_5sw_wk2.py",
             "authored_path_sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396",
@@ -6961,9 +6961,9 @@
             "artifact_path": "build/worksheet_sources/5sw-wk2-engineering-synthesis.md",
             "artifact_sha256": "a0df19ca3bfcfa71c7c05438066e0f9968eb60b2c7e0363b644082cb3d8ca349",
             "authored_line_candidates": [
-              33,
-              597,
-              663
+              45,
+              609,
+              675
             ],
             "authored_path": "build/canvas/build_5sw_wk2.py",
             "authored_path_sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396",
@@ -7009,8 +7009,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk3-construction-career-evidence.md",
             "artifact_sha256": "4e4042021dc52a9ec523ffb634397d4938c33ef5a11c1ae421e2f0092f649ec5",
             "authored_line_candidates": [
-              25,
-              315
+              37,
+              327
             ],
             "authored_path": "build/canvas/build_5sw_wk3.py",
             "authored_path_sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76",
@@ -7056,9 +7056,9 @@
             "artifact_path": "build/worksheet_sources/5sw-wk3-routes-and-organizations.md",
             "artifact_sha256": "498743664d037d65eb7dfc977b380c4a27392ea0a48bddfa849736d9f12feec8",
             "authored_line_candidates": [
-              26,
-              331,
-              411
+              38,
+              343,
+              423
             ],
             "authored_path": "build/canvas/build_5sw_wk3.py",
             "authored_path_sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76",
@@ -7112,8 +7112,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk3-labor-classification.md",
             "artifact_sha256": "9d275141267fa525fdb116536f7bc2e3224fefde1553b31e8b5927152c4f5b01",
             "authored_line_candidates": [
-              27,
-              347
+              39,
+              359
             ],
             "authored_path": "build/canvas/build_5sw_wk3.py",
             "authored_path_sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76",
@@ -7159,10 +7159,10 @@
             "artifact_path": "build/worksheet_sources/5sw-wk3-fictional-evidence-report.md",
             "artifact_sha256": "29db414d212dbd961179159e4c00832df7d47a5cd5b1b4044f599c6677863c9c",
             "authored_line_candidates": [
-              28,
-              363,
-              379,
-              437
+              40,
+              375,
+              391,
+              449
             ],
             "authored_path": "build/canvas/build_5sw_wk3.py",
             "authored_path_sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76",
@@ -7216,10 +7216,10 @@
             "artifact_path": "build/worksheet_sources/5sw-wk3-fictional-evidence-report.md",
             "artifact_sha256": "29db414d212dbd961179159e4c00832df7d47a5cd5b1b4044f599c6677863c9c",
             "authored_line_candidates": [
-              28,
-              363,
-              379,
-              437
+              40,
+              375,
+              391,
+              449
             ],
             "authored_path": "build/canvas/build_5sw_wk3.py",
             "authored_path_sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76",
@@ -7265,8 +7265,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk4-skilled-trades-career-evidence.md",
             "artifact_sha256": "3bda1e2fb4ec3de505a92677fc3077f2c020245f69adb347d5fbb50feaf6d1ca",
             "authored_line_candidates": [
-              28,
-              312
+              40,
+              324
             ],
             "authored_path": "build/canvas/build_5sw_wk4.py",
             "authored_path_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
@@ -7312,8 +7312,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk4-hvac-evidence-first-field-notes.md",
             "artifact_sha256": "96fdbee31b33c0304a22be515fb13cd71db1ca02a32ff6cdec4f86b9ac33e300",
             "authored_line_candidates": [
-              29,
-              327
+              41,
+              339
             ],
             "authored_path": "build/canvas/build_5sw_wk4.py",
             "authored_path_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
@@ -7359,8 +7359,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk4-skilled-trades-classification.md",
             "artifact_sha256": "8d077a1f1d0498c9a3a2ef302c9e5470eca1e72d9c126cad3bde3fb011e587a1",
             "authored_line_candidates": [
-              30,
-              342
+              42,
+              354
             ],
             "authored_path": "build/canvas/build_5sw_wk4.py",
             "authored_path_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
@@ -7406,8 +7406,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk4-current-entry-routes.md",
             "artifact_sha256": "1e7721ed317d3ba6e3f801063ac980dafdc12bca11051eec52f06f0fde7192cb",
             "authored_line_candidates": [
-              31,
-              357
+              43,
+              369
             ],
             "authored_path": "build/canvas/build_5sw_wk4.py",
             "authored_path_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
@@ -7461,8 +7461,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk4-fictional-water-line-response.md",
             "artifact_sha256": "0ce305286b488052e7a1569a65b81eec0431cd4b8d278fe47a4d511a1f5d5390",
             "authored_line_candidates": [
-              32,
-              372
+              44,
+              385
             ],
             "authored_path": "build/canvas/build_5sw_wk4.py",
             "authored_path_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
@@ -7492,8 +7492,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk4-skilled-trades-classification.md",
             "artifact_sha256": "8d077a1f1d0498c9a3a2ef302c9e5470eca1e72d9c126cad3bde3fb011e587a1",
             "authored_line_candidates": [
-              30,
-              372
+              42,
+              385
             ],
             "authored_path": "build/canvas/build_5sw_wk4.py",
             "authored_path_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
@@ -7539,8 +7539,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk5-salary-source-and-lifestyle-target.md",
             "artifact_sha256": "71af48310ef025340519a7462a837509d5cd4c89e50f44dce3f66fb8b76f6829",
             "authored_line_candidates": [
-              21,
-              372
+              33,
+              384
             ],
             "authored_path": "build/canvas/build_5sw_wk5.py",
             "authored_path_sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c",
@@ -7586,8 +7586,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk5-dallas-county-personal-budget.md",
             "artifact_sha256": "0e062550a26c8b9677d55b22c1713f9e3f09ce193f21730c6fc444cc14ae6aca",
             "authored_line_candidates": [
-              22,
-              373
+              34,
+              385
             ],
             "authored_path": "build/canvas/build_5sw_wk5.py",
             "authored_path_sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c",
@@ -7633,8 +7633,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk5-location-cost-comparison.md",
             "artifact_sha256": "c6dfbf7d67f2b35b8acc4991668a4fa7f42154dba3ad924bfe0f989539a7cc6d",
             "authored_line_candidates": [
-              23,
-              374
+              35,
+              386
             ],
             "authored_path": "build/canvas/build_5sw_wk5.py",
             "authored_path_sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c",
@@ -7680,8 +7680,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk5-paying-for-education-and-training.md",
             "artifact_sha256": "8a17154efc96254a856df631e9faefe15f8c49b38d5ea7c156996d77113c8c81",
             "authored_line_candidates": [
-              24,
-              375
+              36,
+              387
             ],
             "authored_path": "build/canvas/build_5sw_wk5.py",
             "authored_path_sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c",
@@ -7735,9 +7735,9 @@
             "artifact_path": "build/worksheet_sources/5sw-wk5-three-career-budget-portfolio.md",
             "artifact_sha256": "fc2a73fdefb51ae745ee5d99ef4eac96ba8ad4296b646e9d4721c335b7d4bf5b",
             "authored_line_candidates": [
-              25,
-              376,
-              440
+              37,
+              388,
+              452
             ],
             "authored_path": "build/canvas/build_5sw_wk5.py",
             "authored_path_sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c",
@@ -7783,8 +7783,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk6-real-estate-career-boundaries.md",
             "artifact_sha256": "330104fe427de300db23eaab59141a48e9fdb21e36923097d0a65555b61a1679",
             "authored_line_candidates": [
-              15,
-              174
+              27,
+              186
             ],
             "authored_path": "build/canvas/build_5sw_wk6.py",
             "authored_path_sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d",
@@ -7830,8 +7830,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk6-trec-and-variable-income.md",
             "artifact_sha256": "dbb4ec1b96983cebe72b965820cc50960a2e135ebca929d4eaa7d694c9732408",
             "authored_line_candidates": [
-              15,
-              175
+              27,
+              187
             ],
             "authored_path": "build/canvas/build_5sw_wk6.py",
             "authored_path_sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d",
@@ -7877,8 +7877,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk6-flip-this-house-evidence-plan.md",
             "artifact_sha256": "a9b37da408ae265364e54b11f3bd53cbb1d2b5cfebf71d1d20adc7c6f8dff687",
             "authored_line_candidates": [
-              15,
-              176
+              27,
+              188
             ],
             "authored_path": "build/canvas/build_5sw_wk6.py",
             "authored_path_sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d",
@@ -7924,8 +7924,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk6-real-estate-labor-evidence.md",
             "artifact_sha256": "cd0da09e48c16931c63a5840bf8b308dedee5cada36c839101524b1d424c7157",
             "authored_line_candidates": [
-              15,
-              177
+              27,
+              189
             ],
             "authored_path": "build/canvas/build_5sw_wk6.py",
             "authored_path_sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d",
@@ -7979,8 +7979,8 @@
             "artifact_path": "build/worksheet_sources/5sw-wk6-six-weeks-evidence-brief.md",
             "artifact_sha256": "a5c266d36c16d453d8e80889b67a28cf9952c8002ed5beeb1a6a07df91520343",
             "authored_line_candidates": [
-              15,
-              178
+              27,
+              190
             ],
             "authored_path": "build/canvas/build_5sw_wk6.py",
             "authored_path_sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d",
@@ -8026,8 +8026,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk1-community-classroom-plan.md",
             "artifact_sha256": "3effc91796b3f400dce2ca8233866d2a08bf669e58e1c3d8dec508f530f6d740",
             "authored_line_candidates": [
-              20,
-              195
+              32,
+              207
             ],
             "authored_path": "build/canvas/build_6sw_wk1.py",
             "authored_path_sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5",
@@ -8073,8 +8073,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk1-texas-education-routes.md",
             "artifact_sha256": "edf6db0d078fffb285f4e069fc6c68e6b05659181aa0719e8565460947285425",
             "authored_line_candidates": [
-              21,
-              196
+              33,
+              208
             ],
             "authored_path": "build/canvas/build_6sw_wk1.py",
             "authored_path_sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5",
@@ -8120,9 +8120,9 @@
             "artifact_path": "build/worksheet_sources/6sw-wk1-education-job-evidence.md",
             "artifact_sha256": "fa8029f44c55b8ce06ab4730bbc95bed6df5464c4285979114415fa813286210",
             "authored_line_candidates": [
-              22,
-              197,
-              212
+              34,
+              209,
+              224
             ],
             "authored_path": "build/canvas/build_6sw_wk1.py",
             "authored_path_sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5",
@@ -8168,8 +8168,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk1-teach-through-play-service.md",
             "artifact_sha256": "6dcd46ac4b84728b883d805eab15e645513f37a4d1c5566cb88eb2873c53043e",
             "authored_line_candidates": [
-              23,
-              198
+              35,
+              210
             ],
             "authored_path": "build/canvas/build_6sw_wk1.py",
             "authored_path_sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5",
@@ -8223,10 +8223,10 @@
             "artifact_path": "build/worksheet_sources/6sw-wk1-education-evidence-portfolio.md",
             "artifact_sha256": "1c007ebafd85726dfc6030ca88c62b1c4a45aa5e36907e534e190867a9118b92",
             "authored_line_candidates": [
-              24,
-              54,
-              199,
-              214
+              36,
+              66,
+              211,
+              226
             ],
             "authored_path": "build/canvas/build_6sw_wk1.py",
             "authored_path_sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5",
@@ -8272,8 +8272,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk2-podcast-production-plan.md",
             "artifact_sha256": "8cf180948512358522d4e63b2f8f0bcc51428c7e4e04d779e188d0c7a228a26b",
             "authored_line_candidates": [
-              31,
-              330
+              43,
+              342
             ],
             "authored_path": "build/canvas/build_6sw_wk2.py",
             "authored_path_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
@@ -8319,8 +8319,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk2-first-resume-draft.md",
             "artifact_sha256": "c3abece9e1a5fde761e254e606b23add17eab67949e2ae81f4798fc00373753d",
             "authored_line_candidates": [
-              32,
-              331
+              44,
+              343
             ],
             "authored_path": "build/canvas/build_6sw_wk2.py",
             "authored_path_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
@@ -8366,8 +8366,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk2-audio-cue-and-resume-revision.md",
             "artifact_sha256": "0370f9c8bb1f7518f4401be4616d8af9c067aab339d6a628bfb92d661c422c61",
             "authored_line_candidates": [
-              33,
-              332
+              45,
+              344
             ],
             "authored_path": "build/canvas/build_6sw_wk2.py",
             "authored_path_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
@@ -8413,8 +8413,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk2-effective-job-search.md",
             "artifact_sha256": "a79c282218971758125fd8795ba8b2d115d809cac33c1c8f541623f9b83b6012",
             "authored_line_candidates": [
-              34,
-              333
+              46,
+              345
             ],
             "authored_path": "build/canvas/build_6sw_wk2.py",
             "authored_path_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
@@ -8468,8 +8468,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk2-merch-mode-design.md",
             "artifact_sha256": "46bfb9ec37cf614fd39b02243885554390bf956647c97cddc95b19b7fc2945d1",
             "authored_line_candidates": [
-              35,
-              334
+              47,
+              346
             ],
             "authored_path": "build/canvas/build_6sw_wk2.py",
             "authored_path_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
@@ -8499,8 +8499,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk2-first-resume-draft.md",
             "artifact_sha256": "c3abece9e1a5fde761e254e606b23add17eab67949e2ae81f4798fc00373753d",
             "authored_line_candidates": [
-              32,
-              334
+              44,
+              346
             ],
             "authored_path": "build/canvas/build_6sw_wk2.py",
             "authored_path_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
@@ -8530,9 +8530,9 @@
             "artifact_path": "build/worksheet_sources/6sw-wk2-audio-cue-and-resume-revision.md",
             "artifact_sha256": "0370f9c8bb1f7518f4401be4616d8af9c067aab339d6a628bfb92d661c422c61",
             "authored_line_candidates": [
-              33,
-              334,
-              347
+              45,
+              346,
+              359
             ],
             "authored_path": "build/canvas/build_6sw_wk2.py",
             "authored_path_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
@@ -8562,8 +8562,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk2-effective-job-search.md",
             "artifact_sha256": "a79c282218971758125fd8795ba8b2d115d809cac33c1c8f541623f9b83b6012",
             "authored_line_candidates": [
-              34,
-              334
+              46,
+              346
             ],
             "authored_path": "build/canvas/build_6sw_wk2.py",
             "authored_path_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
@@ -8609,8 +8609,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk3-click-factor-campaign.md",
             "artifact_sha256": "452d75039358e2a65bf58a3a0e3ce5927eaabe9e99ba7e1e897f9d32621f1be9",
             "authored_line_candidates": [
-              22,
-              319
+              34,
+              331
             ],
             "authored_path": "build/canvas/build_6sw_wk3.py",
             "authored_path_sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63",
@@ -8656,8 +8656,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk3-written-communication-and-change.md",
             "artifact_sha256": "e91798393fb762fb340168282ac96e511d82b6658e7e59b94797bd2e0f7a6233",
             "authored_line_candidates": [
-              23,
-              320
+              35,
+              332
             ],
             "authored_path": "build/canvas/build_6sw_wk3.py",
             "authored_path_sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63",
@@ -8703,8 +8703,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk3-expert-edge-plan.md",
             "artifact_sha256": "203118065f19747b6803cc5bd2d51b206ab3b2102e7c59f8761d3cda6b2d7634",
             "authored_line_candidates": [
-              24,
-              321
+              36,
+              333
             ],
             "authored_path": "build/canvas/build_6sw_wk3.py",
             "authored_path_sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63",
@@ -8750,8 +8750,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk3-family-fun-pass-analysis.md",
             "artifact_sha256": "12ce14b7550546278758ce2e745c3bfa4f9d49d67d94f6e0ce4a30eccbf849b2",
             "authored_line_candidates": [
-              25,
-              322
+              37,
+              334
             ],
             "authored_path": "build/canvas/build_6sw_wk3.py",
             "authored_path_sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63",
@@ -8805,8 +8805,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk3-marketing-evidence-brief.md",
             "artifact_sha256": "0c478d91599f3ef0fe30652e9db5e54dc55c755f60fa195dd0be42b7761a6994",
             "authored_line_candidates": [
-              26,
-              323
+              38,
+              335
             ],
             "authored_path": "build/canvas/build_6sw_wk3.py",
             "authored_path_sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63",
@@ -8852,8 +8852,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk4-sales-pitch-plan.md",
             "artifact_sha256": "128753285a1622cabf0ad9c6a883272a653b1ff67bd3da87178c5091df4b39ab",
             "authored_line_candidates": [
-              30,
-              346
+              42,
+              358
             ],
             "authored_path": "build/canvas/build_6sw_wk4.py",
             "authored_path_sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416",
@@ -8899,8 +8899,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk4-pitch-delivery-record.md",
             "artifact_sha256": "345ac18d44deef037ea409e233ae46f558694f884b7bc291ab413c0c0f99c50e",
             "authored_line_candidates": [
-              31,
-              358
+              43,
+              370
             ],
             "authored_path": "build/canvas/build_6sw_wk4.py",
             "authored_path_sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416",
@@ -8946,8 +8946,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk4-brainboost-and-career-outline.md",
             "artifact_sha256": "bf0a44a406db7dbc1e4f01536ff94ed9d659aedf94116507bac202cdc981a6a8",
             "authored_line_candidates": [
-              32,
-              370
+              44,
+              382
             ],
             "authored_path": "build/canvas/build_6sw_wk4.py",
             "authored_path_sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416",
@@ -8993,8 +8993,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk4-appearance-and-rehearsal.md",
             "artifact_sha256": "e40fbdfbfebf2bc1d0300ac03872cf5603b59190546349d0d38a4b4cadc80554",
             "authored_line_candidates": [
-              33,
-              382
+              45,
+              394
             ],
             "authored_path": "build/canvas/build_6sw_wk4.py",
             "authored_path_sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416",
@@ -9048,9 +9048,9 @@
             "artifact_path": "build/worksheet_sources/6sw-wk4-career-oral-evidence.md",
             "artifact_sha256": "b5ee1e4c4e47ad1402d19389e36041ae501e6729f5f7060da6fd7f3832a7c930",
             "authored_line_candidates": [
-              34,
-              394,
-              523
+              46,
+              406,
+              535
             ],
             "authored_path": "build/canvas/build_6sw_wk4.py",
             "authored_path_sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416",
@@ -9096,9 +9096,9 @@
             "artifact_path": "build/worksheet_sources/6sw-wk5-job-search-and-posting-evidence.md",
             "artifact_sha256": "f71970ddc216b7bbaa8d7338485423aa65499171744619e82291a58a78c232fb",
             "authored_line_candidates": [
-              28,
-              354,
-              375
+              40,
+              366,
+              387
             ],
             "authored_path": "build/canvas/build_6sw_wk5.py",
             "authored_path_sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd",
@@ -9144,9 +9144,9 @@
             "artifact_path": "build/worksheet_sources/6sw-wk5-cover-letter-simulation.md",
             "artifact_sha256": "4d40ca0360eb6c29ac3b791fdab6fda82edb9344780aaeb3fd21ac33adbe6f58",
             "authored_line_candidates": [
-              29,
-              355,
-              376
+              41,
+              367,
+              388
             ],
             "authored_path": "build/canvas/build_6sw_wk5.py",
             "authored_path_sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd",
@@ -9192,8 +9192,8 @@
             "artifact_path": "build/worksheet_sources/6sw-wk5-application-and-references.md",
             "artifact_sha256": "61b2e7c9d44060bb0e310d9a6dadcb76567dce884e5267ba45572b843a4adabd",
             "authored_line_candidates": [
-              30,
-              356
+              42,
+              368
             ],
             "authored_path": "build/canvas/build_6sw_wk5.py",
             "authored_path_sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd",
@@ -9239,9 +9239,9 @@
             "artifact_path": "build/worksheet_sources/6sw-wk5-interview-readiness.md",
             "artifact_sha256": "82a41ac2d1b163fa892dbb856cedfb33c626bc86fccf53f1f891bf142dde9319",
             "authored_line_candidates": [
-              31,
-              357,
-              378
+              43,
+              369,
+              390
             ],
             "authored_path": "build/canvas/build_6sw_wk5.py",
             "authored_path_sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd",
@@ -9295,10 +9295,10 @@
             "artifact_path": "build/worksheet_sources/6sw-wk5-mock-interview-and-thank-you.md",
             "artifact_sha256": "33d8d4147ba8f04d3f0e5c86e2d328db4b33360fa6a3e4686cb1c5d36cfa2e98",
             "authored_line_candidates": [
-              32,
-              142,
-              358,
-              379
+              44,
+              154,
+              370,
+              391
             ],
             "authored_path": "build/canvas/build_6sw_wk5.py",
             "authored_path_sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd",
@@ -9344,9 +9344,9 @@
             "artifact_path": "build/worksheet_sources/6sw-wk6-career-evidence-inventory.md",
             "artifact_sha256": "07f8ee65a4cc8018d26ff597031f0f8d228d11d142120dcd9da755e7eef9258f",
             "authored_line_candidates": [
-              141,
-              211,
-              235
+              153,
+              223,
+              247
             ],
             "authored_path": "build/canvas/build_6sw_wk6.py",
             "authored_path_sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1",
@@ -9392,9 +9392,9 @@
             "artifact_path": "build/worksheet_sources/6sw-wk6-individual-career-plan.md",
             "artifact_sha256": "582e7b29804bab409e6372d83af1341e0aabc1e4db088df7ef8c116d095c7aa1",
             "authored_line_candidates": [
-              43,
-              154,
-              236
+              55,
+              166,
+              248
             ],
             "authored_path": "build/canvas/build_6sw_wk6.py",
             "authored_path_sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1",
@@ -9440,10 +9440,10 @@
             "artifact_path": "build/worksheet_sources/6sw-wk6-capstone-presentation-plan.md",
             "artifact_sha256": "5a685e486626de96f4cbe5d5992ad5ee251d0d078160083c8d786d159bd558ca",
             "authored_line_candidates": [
-              51,
-              167,
-              213,
-              237
+              63,
+              179,
+              225,
+              249
             ],
             "authored_path": "build/canvas/build_6sw_wk6.py",
             "authored_path_sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1",
@@ -9497,9 +9497,9 @@
             "artifact_path": "build/worksheet_sources/6sw-wk6-capstone-delivery-record.md",
             "artifact_sha256": "19c07fa3a67f0e32dbe8b47b3455c9da81be3ab6cd72a2ba338571a5b99eb524",
             "authored_line_candidates": [
-              180,
-              238,
-              267
+              192,
+              250,
+              279
             ],
             "authored_path": "build/canvas/build_6sw_wk6.py",
             "authored_path_sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1",
@@ -9545,9 +9545,9 @@
             "artifact_path": "build/worksheet_sources/6sw-wk6-final-course-reflection.md",
             "artifact_sha256": "5734b3bd0ec1aba3fdfc113a6f894312835f6bd3c5913695010492a8c432e3a0",
             "authored_line_candidates": [
-              193,
-              215,
-              239
+              205,
+              227,
+              251
             ],
             "authored_path": "build/canvas/build_6sw_wk6.py",
             "authored_path_sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1",
@@ -9571,7 +9571,7 @@
     "canvas_course_id": 98060,
     "content_specs": {
       "path": "build/google_docs/student_worksheet_content_specs.draft.json",
-      "sha256": "68ccd9dc7844e3ab6c47d07ad873e040c267769430997d2a3801787b26fb9a6c"
+      "sha256": "e50cde06406d05e2b9c05ad638463798190359ca9340810c2fd78fd5b03d3438"
     },
     "immutable_canvas_plan": {
       "path": "~/.config/canvas-fleet-parity/cce/source-response-routes/plans/course-98060-response-routes-20260826T010619.949837Z.json",
@@ -9579,7 +9579,7 @@
     },
     "manual_content_specs": {
       "path": "build/google_docs/student_response_route_manual_content_specs.json",
-      "sha256": "d69db5409722838c761f57d27ee611e89484e5860893ba242fe17f421e14bb28"
+      "sha256": "fcc4ec6ba02d129762e335717aaed341ffd389b20ad612480ee9513b45caa0ad"
     },
     "reviewed_route_registry": {
       "path": "build/google_docs/student_response_route_registry.json",

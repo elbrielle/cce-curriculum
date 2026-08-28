@@ -97,15 +97,15 @@ def static_audit(body: str) -> tuple[dict, list[str]]:
     audit = HomeAudit()
     audit.feed(body)
     problems: list[str] = []
-    required_links = {
+    required_links = [
         f"/courses/{COURSE_ID}/modules",
         ONENOTE_URL,
         HATS_LADDERS_URL,
         CLASSLINK_URL,
         f"mailto:{TEACHER_EMAIL}",
-    }
+    ]
     actual_links = {link.get("href", "") for link in audit.links}
-    missing_links = sorted(required_links - actual_links)
+    missing_links = sorted(link for link in required_links if link not in actual_links)
     if missing_links:
         problems.append(f"missing required links: {missing_links}")
     if len(audit.links) != len(required_links):

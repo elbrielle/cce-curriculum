@@ -2,7 +2,7 @@
   "schema_version": 1,
   "artifact": "CCE reviewed manual content specifications for seven student response-route Google Docs",
   "route_manual_spec_path": "build/google_docs/student_response_route_manual_specs.json",
-  "route_manual_spec_sha256": "dae321bdb2a122932e0a9c7cd4e1c5ea127b537ac8e7d7180fcc6e172b7b6d63",
+  "route_manual_spec_sha256": "1aa8db351449d1cd97162d6d2889c818b13294f9524692b9d2a9747ada4a0f1f",
   "determinism": "No timestamp is emitted. Records are ordered by six-weeks, week, and day. Every block is a reviewed local authoring decision.",
   "specs": [
     {

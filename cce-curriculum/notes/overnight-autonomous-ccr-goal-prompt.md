@@ -1,5 +1,7 @@
 # Overnight Autonomous Goal: Continue Refining the Grade 7 CCE Curriculum
 
+> **Historical record — do not execute.** This August 13 run prompt is superseded by current `AGENTS.md`, `cce-owner-expectations-and-decisions-log.md`, and `canvas-lesson-production-workflow.md`. In particular, its referenced-file locking rule is obsolete: module publication is the student release gate, while every referenced file and ancestor folder must stay accessible. Current lesson sources later implemented the Evidence Log only as a bounded, student-owned, ungraded retrieval record; this old prompt is not the authority for that implementation.
+
 Use this prompt as the governing goal for an autonomous overnight curriculum-development run in:
 
 `/Users/elishalucero/Coding Projects/27 CCR Planning`
@@ -163,7 +165,7 @@ No token prompt or overlapping Canvas writer is currently open. The owner explic
 - Treat supplied AVID files as private reference material unless rights are clear. Do not publish them to the public site or Git.
 - The purchased `Mock Job Interview Resources Career Readiness Partner Activity` by Stacey Wassif/TPT is a single-user commercial resource. Do not copy, rewrite, merge, upload, or distribute its protected content as CCE curriculum.
 - Teacher-created Jenna materials may inform or be adapted into the authenticated curriculum when appropriate, but document the source and adaptation rationale. Remove real names, adult work histories, private disclosures, dated local announcements, and AVID-only compliance language.
-- Licensed Find Your Future, Xello, H&L, and Climber Notes binaries/screenshots stay outside Git and the legacy public site. They may be uploaded only to authenticated Canvas and must remain locked.
+- Licensed Find Your Future, Xello, H&L, and Climber Notes binaries/screenshots stay outside Git and the legacy public site. They may be uploaded only to authenticated Canvas. Under current policy, any file referenced by course content and every ancestor folder must remain accessible to enrolled students; module publication remains the release gate.
 - Prefer current primary sources for factual claims: TEA/THECB, district pages, BLS, licensing agencies, official program/provider pages, and official platform documentation.
 - Keep measures exact. Do not relabel national medians as local or starting pay; distinguish percent growth, numeric employment change, and annual openings; date current claims.
 
@@ -302,7 +304,7 @@ Required live order for affected weeks:
 8. 36-module coursewide unpublished QA;
 9. current live responsive visual verification of changed pages.
 
-All Canvas objects must remain unpublished during overnight work. All referenced licensed/support folders and files must remain locked. Builders must be idempotent and fail closed on grading, publication, duplicate, clone, attachment, ordering, or storage violations.
+All Canvas objects must remain unpublished during overnight work. **Superseded safety rule:** this historical prompt required referenced folders and files to remain locked; current policy instead requires every referenced file and ancestor folder to remain accessible while the module stays unpublished. Builders must be idempotent and fail closed on grading, publication, duplicate, clone, attachment, ordering, or storage violations.
 
 Do not publish, conclude the course is launch-ready, or change due dates without explicit owner approval.
 
@@ -354,7 +356,7 @@ Maintain a durable working buffer during the run. After each meaningful freeze, 
 - the exact files changed;
 - the exact render/PDF inventories inspected;
 - the static and independent-gate results;
-- whether Canvas was untouched, partially written but safely unpublished/locked, or fully reconciled and verified;
+- whether Canvas was untouched, partially written with publication state preserved and referenced resources accessible, or fully reconciled and verified;
 - the next safe action and any authority still needed.
 
 Choose natural pause points: after a frozen local slice, after an independent verdict, or after live deep/coursewide QA—not halfway through a write or before recording evidence. If interrupted or compacted, recover from the current worktree, active process/session state, live Canvas reads, and the working buffer before repeating work or asking the owner to restate context.
@@ -409,7 +411,7 @@ Leave one concise but evidence-rich report containing:
 - static QA commands and results;
 - independent GO/NO-GO verdicts and repaired blockers;
 - Canvas module/Assignment/Quiz/folder IDs for changed slices;
-- proof that modules/pages/items/assessments are unpublished and files/folders locked;
+- proof that modules/pages/items/assessments preserve owner publication state and that referenced files/folders are accessible under the current resource-access policy;
 - deep affected-module and 36-module coursewide QA results;
 - any remaining P1/P2 ideas, clearly separated from blockers;
 - confirmation that the secure run caused no additional token storage or exposure, disclosure of the pre-existing stored-file and chat/log conditions, and confirmation that no Git publish action occurred.

@@ -9,7 +9,7 @@ The CCE curriculum uses four technology platforms. This file describes what each
 - Students are called "Climbers"; careers are called "Hats"
 - **Assessments:** RIASEC Core Personality Assessment, Work Values Survey, Building Blocks activity
 - **Features:** Cluster tour videos, pathway exploration, Myth Busters videos, From the Field interview videos, Hat profiles (perks/quirks/job gear/salary), Climber Profile page, Ladder Builder (career planning tool)
-- **Login:** app.hatsandladders.com via Clever/ClassLink SSO
+- **Login:** Open Irving ISD ClassLink, then select Hats & Ladders. Do not use the direct app URL or Google sign-in; IISD students need the ClassLink token.
 - **Teacher view:** Coach Dashboard (class roster, progress tracking, student results)
 - **Data:** Education requirements, career descriptions, and growth information. Do not make DFW-localized salary data from H&L a dependency unless it is verified in the live account. Use Xello for district-localized salary work, with BLS or CareerOneStop as the independent source check.
 

@@ -53,6 +53,24 @@ def literal_course_id(builder: Path) -> int | None:
     return None
 
 
+def resolve_course_id(builder: Path, requested_course_id: int | None) -> int:
+    """Resolve one course target and reject builder/finalizer mismatches."""
+    builder_course_id = literal_course_id(builder)
+    if (
+        builder_course_id is not None
+        and requested_course_id is not None
+        and builder_course_id != requested_course_id
+    ):
+        raise SystemExit(
+            "Refusing mismatched course targets: "
+            f"builder COURSE_ID={builder_course_id}, --course-id={requested_course_id}."
+        )
+    course_id = builder_course_id or requested_course_id
+    if not course_id:
+        raise SystemExit("Could not resolve COURSE_ID; pass --course-id explicitly.")
+    return course_id
+
+
 def redact(value: str, token: str) -> str:
     return value.replace(token, "[REDACTED]") if token else value
 
@@ -108,9 +126,7 @@ def main() -> int:
     py_compile.compile(str(RESOURCE_FIX), doraise=True)
     if WORKSHEET_LINK_SYNC.is_file():
         py_compile.compile(str(WORKSHEET_LINK_SYNC), doraise=True)
-    course_id = args.course_id or literal_course_id(builder)
-    if not course_id:
-        raise SystemExit("Could not resolve COURSE_ID; pass --course-id explicitly.")
+    course_id = resolve_course_id(builder, args.course_id)
 
     token = sys.stdin.readline().strip()
     if not token:
