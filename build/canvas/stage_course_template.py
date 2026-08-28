@@ -3,11 +3,10 @@
 
 The source course contains every teacher guide, student guide, interaction,
 rubric, and file, but it does not decide what a teacher publishes after
-cloning. This script unpublishes all 36 instructional modules, the student
-orientation, and their child content. It keeps the reviewed CCE home published
-as the course front page and keeps images embedded in Canvas pages visible to
-enrolled students. Non-image curriculum and licensed files remain locked.
-Nothing is deleted.
+cloning. When explicitly authorized, this script unpublishes all 36
+instructional modules, the course-level pages, and their child content. It does
+not publish the reviewed CCE home. Files referenced by course pages remain
+available to enrolled students. Nothing is deleted.
 """
 
 from __future__ import annotations
@@ -108,7 +107,7 @@ async def stage(client: httpx.AsyncClient) -> None:
         raise RuntimeError(
             f"expected one page {HOME_TITLE!r}; found {len(home_matches)}"
         )
-    for title in {STUDENT_TITLE, TEACHER_TITLE}:
+    for title in {STUDENT_TITLE, TEACHER_TITLE, HOME_TITLE}:
         matches = [page for page in pages if page.get("title") == title]
         if len(matches) != 1:
             raise RuntimeError(f"expected one page {title!r}; found {len(matches)}")
@@ -162,23 +161,9 @@ async def stage(client: httpx.AsyncClient) -> None:
                 data={"module_item[published]": "false"},
             )
 
-    folders = await paged(client, f"/courses/{COURSE_ID}/folders")
-    for folder in folders:
-        full_name = folder.get("full_name") or ""
-        if not full_name.startswith(LOCKED_FOLDER_PREFIXES):
-            continue
-        if not folder.get("locked"):
-            await api(
-                client,
-                "PUT",
-                f"/folders/{folder['id']}",
-                data={"locked": "true"},
-            )
-
-    # Builders and the staging sweep lock source files by default. Reopen only
-    # files used by actual <img> elements and their folder chains, then restore
-    # the reviewed CCE home as the published front page/default course view.
-    await normalize_image_access(client)
+    # Module publication is the student gate. Keep page-referenced images and
+    # linked files available so publishing a module cannot reveal padlocks.
+    await normalize_image_access(client, manage_home=False)
 
 async def audit(client: httpx.AsyncClient) -> dict:
     course = await api(client, "GET", f"/courses/{COURSE_ID}")
@@ -244,17 +229,15 @@ async def audit(client: httpx.AsyncClient) -> dict:
         module.get("name") for module in targets if module.get("published")
     ]
     home = page_by_title.get(HOME_TITLE, {})
-    front = await api(client, "GET", f"/courses/{COURSE_ID}/front_page")
-    image_access = await normalize_image_access(client, check_only=True)
+    image_access = await normalize_image_access(
+        client, check_only=True, manage_home=False
+    )
     week_modules = [
         module for module in targets if WEEK_PATTERN.match(module.get("name") or "")
     ]
     passed = (
         len(week_modules) == 36
-        and course.get("default_view") == "wiki"
-        and home.get("published") is True
-        and home.get("front_page") is True
-        and front.get("title") == HOME_TITLE
+        and home.get("published") is not True
         and not published_modules
         and not published_items
         and not published_content

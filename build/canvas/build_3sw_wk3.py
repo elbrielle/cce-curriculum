@@ -6,11 +6,33 @@ import httpx
 
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/1rnZ-68u9h0F_BEyRZU0wGOgDM2QUSUh9Hujkuz0-eDs/copy",
+    2: "https://docs.google.com/document/d/1KuB_RsIRuzU3ht-gyvS_tMqaEyPlvXInYWvQ3tl22nA/copy",
+    3: "https://docs.google.com/document/d/1K6ogVNNXdAA__uBfvrQku7VzwSDxdJrzN0SUOFfjgqQ/copy",
+    4: "https://docs.google.com/document/d/1X03poJUxm1jSexMbmXgzFGQvT63Phsmc7GohQ4_JYsc/copy",
+    5: "https://docs.google.com/document/d/1bXaK1InobXoxMKL-LRDhFhw10DPwF1r6RdelzgbZyCg/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
+
+def student_copy_button(day, label):
+    return (
+        f'<p><a href="{STUDENT_GOOGLE_COPY_URLS[day]}" target="_blank" '
+        'style="display:inline-block;background:#1f617a;color:#fff;padding:11px 18px;'
+        'border-radius:6px;text-decoration:none"><strong>'
+        f'{label}</strong></a></p>'
+    )
+
 MODULE_NAME = "3SW Wk3: Sustainable Engineering and Pest Patrol"
 CAREER_TITLE = "PRACTICE: Sustainable Career Match"
 DRAFT_TITLE = "PRACTICE: Pest Patrol Drone Draft"
 PACKET_TITLE = "MAJOR 2: Sustainable Engineering Design and Trends Evidence"
-GOALS_TITLE = "PRACTICE: Xello Set Goals Reflection"
+INTERESTS_TITLE = "PRACTICE: Xello Interests Reflection"
+LEGACY_INTERESTS_TITLE = "PRACTICE: Xello " + "Set " + "Goals Reflection"
 ROOT = Path(__file__).resolve().parents[2]
 TEMPLATES = Path(__file__).parent / "templates"
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/3sw/wk3"
@@ -33,7 +55,7 @@ VISUAL_FILES = {
     4: ("fyf-pest-patrol-design-review.png",),
     5: ("fyf-adaptability-goal-bridge.png",),
 }
-XELLO_GUIDE = ROOT / "cce-curriculum/resources/xello-licensed/prerequisites/goals.pdf"
+XELLO_GUIDE = ROOT / "cce-curriculum/resources/xello-licensed/prerequisites/interests.pdf"
 
 
 def preflight():
@@ -315,11 +337,13 @@ async def update_major_assignment(client, found, group):
 
 
 async def upsert_practice_assignment(
-    client, title, description, submission_types, peer_reviews=False
+    client, title, description, submission_types, peer_reviews=False, legacy_titles=()
 ):
     assignments = await paged(client, f"/courses/{COURSE_ID}/assignments")
     matches = [
-        assignment for assignment in assignments if assignment.get("name") == title
+        assignment
+        for assignment in assignments
+        if assignment.get("name") in {title, *legacy_titles}
     ]
     if len(matches) > 1:
         raise RuntimeError(
@@ -440,11 +464,12 @@ async def main():
             peer_reviews=True,
         )
         packet = await update_major_assignment(client, packet, major_group)
-        goals = await upsert_practice_assignment(
+        interests = await upsert_practice_assignment(
             client,
-            GOALS_TITLE,
-            "<p>Submit the private Goal Check as text or an uploaded PDF. Name the timeframe and next task for each of two goals, one obstacle that could affect either goal, one backup plan, and which goal may need revision after its first task. Do not copy full private goal statements or post profile screenshots.</p>",
+            INTERESTS_TITLE,
+            "<p>Submit the private Interests Check as text or an uploaded PDF. Connect one current interest to one sustainable-engineering career task and name one task to investigate next. Do not copy a full private interest profile or post screenshots.</p>",
             ["online_text_entry", "online_upload"],
+            legacy_titles=(LEGACY_INTERESTS_TITLE,),
         )
 
         support = "course files/CCR Materials/3SW/Wk3"
@@ -486,7 +511,7 @@ async def main():
         career_url = f"/courses/{COURSE_ID}/assignments/{career['id']}"
         draft_url = f"/courses/{COURSE_ID}/assignments/{draft['id']}"
         packet_url = f"/courses/{COURSE_ID}/assignments/{packet['id']}"
-        goals_url = f"/courses/{COURSE_ID}/assignments/{goals['id']}"
+        interests_url = f"/courses/{COURSE_ID}/assignments/{interests['id']}"
         field_media = image_tag(
             visuals[2]["fyf-pest-patrol-field-notes-1.jpg"]["id"],
             "Find Your Future Pest Patrol agricultural engineer field notes",
@@ -502,9 +527,9 @@ async def main():
             visuals[4]["fyf-pest-patrol-design-review.png"]["id"],
             "Find Your Future Pest Patrol design and peer review page",
         )
-        goal_media = image_tag(
+        interest_media = image_tag(
             visuals[5]["fyf-adaptability-goal-bridge.png"]["id"],
-            "Find Your Future Adaptability scenario used as a goal-planning bridge",
+            "Find Your Future Adaptability scenario used to discuss how interests can change over time",
         )
 
         contracts = {
@@ -541,12 +566,12 @@ async def main():
                 "STUDENT_DOL": "I will show one visible design revision and evaluate two trends using two facts and one evidence limit.",
             },
             5: {
-                "TOPIC": "Goal Setting",
-                "OBJECTIVE": "Students will demonstrate goal-setting strategies by saving two goals with a timeframe, next task, obstacle, and backup plan.",
-                "TEKS": "d(4)(A)",
-                "DOL": "Two saved Xello goals + private Goal Check and Reflection.",
-                "STUDENT_OBJECTIVE": "build two goals that include a timeframe, next task, obstacle, and backup plan.",
-                "STUDENT_DOL": "I will save two goals in Xello and complete the private Goal Check and Reflection.",
+                "TOPIC": "Interests and Career Tasks",
+                "OBJECTIVE": "Students will complete the Xello Interests lesson and explain how one current interest connects to a sustainable-engineering career task.",
+                "TEKS": "d(1)(A)",
+                "DOL": "Assigned Interests lesson completion plus private Interest-to-Career Reflection.",
+                "STUDENT_OBJECTIVE": "connect one current interest to a sustainable-engineering career task.",
+                "STUDENT_DOL": "I will complete the assigned Interests lesson and privately explain one interest-to-career connection.",
             },
         }
 
@@ -570,7 +595,7 @@ async def main():
                 + step(
                     3,
                     "Choose and defend",
-                    f'<p>Name one matching task, one weaker lead, and one current fact. Use: “The ____ should lead because this worker ____. A weaker lead is ____ because ____. One current fact is ____.” Then <a href="{career_url}">open the private Sustainable Career Match</a> to type the response or upload the completed guide.</p>',
+                    student_copy_button(1, "Make your copy: Sustainable Careers and Resource Problems") + (f'<p>Name one matching task, one weaker lead, and one current fact. Use: “The ____ should lead because this worker ____. A weaker lead is ____ because ____. One current fact is ____.” Then <a href="{career_url}">open the private Sustainable Career Match</a> to type the response or upload the completed guide.</p>'),
                 )
                 + step(
                     4,
@@ -587,7 +612,7 @@ async def main():
                 "TITLE": "Turn Field Reports into Constraints",
                 "PURPOSE": "See how an agricultural engineer turns three worker viewpoints into design rules.",
                 "TODAY": "<ul><li>record useful facts from three reports;</li><li>write three testable constraints;</li><li>rank the most important constraint.</li></ul>",
-                "READY": f'<p>Open {file_link(files["FIELD"]["id"], "Pest Patrol Field Notes and Constraints")}.</p>',
+                "READY": f'<p>Open {student_copy_link(2, "Pest Patrol Field Notes and Constraints")}.</p>',
                 "MEDIA": field_media,
                 "STEPS": step(
                     1,
@@ -619,7 +644,7 @@ async def main():
                 "TITLE": "Design the Pest Patrol Drone",
                 "PURPOSE": "Create the kind of evidence-based design brief an agricultural-engineering worker could use.",
                 "TODAY": "<ul><li>label six or more features;</li><li>connect three labels to field evidence;</li><li>explain one tradeoff.</li></ul>",
-                "READY": f'<p>Open {file_link(files["DESIGN"]["id"], "the two-page Drone Design Brief")} and {file_link(files["RUBRIC"]["id"], "the 16-point rubric")}.</p>',
+                "READY": f'<p>Open {student_copy_link(3, "the two-page Drone Design Brief")} and {file_link(files["RUBRIC"]["id"], "the 16-point rubric")}.</p>',
                 "MEDIA": design_media,
                 "STEPS": step(
                     1,
@@ -651,7 +676,7 @@ async def main():
                 "TITLE": "Review, Revise, and Evaluate Trends",
                 "PURPOSE": "Use specific feedback, make one visible revision, and evaluate two changing-work trends.",
                 "TODAY": "<ul><li>review one drone design;</li><li>make and explain one revision;</li><li>compare two societal trends with sourced evidence.</li></ul>",
-                "READY": f'<p>Open {file_link(files["REVIEW"]["id"], "the Peer Review and Revision Record")}, {file_link(files["TRENDS"]["id"], "the Trends Evidence Guide")}, and {file_link(files["EVAL"]["id"], "the Trends Evaluation")}.</p>',
+                "READY": f'<p>Open {student_copy_link(4, "the Peer Review and Revision Record")}, {file_link(files["TRENDS"]["id"], "the Trends Evidence Guide")}, and {student_copy_link(4, "the Trends Evaluation")}.</p>',
                 "MEDIA": review_media,
                 "STEPS": step(
                     1,
@@ -680,36 +705,36 @@ async def main():
                 "FALLBACK": "<p>Paper review is equal. The fixed evidence guide replaces open searching. Late work does not depend on automatic peer assignment.</p>",
             },
             5: {
-                "TITLE": "Set Two Goals in Xello",
-                "PURPOSE": "Plan two honest goals, save them in Xello, and name a next task and backup.",
-                "TODAY": "<ul><li>use an adaptability example;</li><li>save at least two Xello goals;</li><li>complete a private reflection.</li></ul>",
-                "READY": f'<p>Open {file_link(files["GOALS"]["id"], "the Goal Check and Private Reflection")}. Keep personal details private.</p>',
-                "MEDIA": goal_media,
+                "TITLE": "Interests and Sustainable-Engineering Work",
+                "PURPOSE": "Complete the assigned Interests lesson and connect one current interest to a sustainable-engineering career task.",
+                "TODAY": "<ul><li>notice how interests can change over time;</li><li>complete the assigned Xello Interests lesson;</li><li>connect one interest to a fixed career task.</li></ul>",
+                "READY": f'<p>Open {student_copy_link(5, "the Interests Check and Private Reflection")}. Keep personal details private.</p>',
+                "MEDIA": interest_media,
                 "STEPS": step(
                     1,
-                    "Draft two goals",
-                    '<p>Give each goal a timeframe, one task, and an obstacle with a backup plan. Fictional model: “By October 1, I will finish one career-interview question list. If I cannot meet the worker, I will use a teacher-approved career profile.”</p>',
+                    "Brainstorm current interests",
+                    '<p>List activities you choose to do and what they may show about your interests. Model: “I enjoy fixing and improving things. An agricultural engineer uses that interest when testing irrigation or monitoring equipment.”</p>',
                 )
                 + step(
                     2,
-                    "Save in Xello",
-                    "<p>ClassLink &gt; Xello &gt; About Me &gt; Goals &gt; Set a goal. Save at least two goals.</p>",
+                    "Complete Interests",
+                    "<p>ClassLink &gt; Xello &gt; assigned Interests lesson. Review the examples, select five interests that fit now, and complete the reflection prompts. Selecting interests is part of this lesson, not a separate completion task.</p>",
                 )
                 + step(
                     3,
-                    "Check the plan",
-                    "<p>Confirm both goals appear. Your teacher uses the Completion Standards report; do not submit a profile screenshot.</p>",
+                    "Connect an interest to work",
+                    "<p>Choose one interest and one fixed sustainable-engineering career task. Name what the worker does that uses the interest.</p>",
                 )
                 + step(
                     4,
                     "Reflect privately",
-                    f'<p>Finish the reflection, then <a href="{goals_url}">open the private Xello Set Goals Reflection assignment</a>.</p>',
+                    f'<p>Finish the reflection, then <a href="{interests_url}">open the private Xello Interests Reflection assignment</a>.</p>',
                 ),
-                "EXIT": "<p>Which goal has the clearest next task, and which may need revision after the first attempt?</p>",
-                "DONE": "<ul><li>two goals saved in Xello;</li><li>timeframe and task for each;</li><li>private reflection complete;</li><li>catch-up recorded if Xello failed.</li></ul>",
-                "VISIBLE_SUPPORT": "<p><strong>Word bank:</strong> goal, timeframe, next task, obstacle, backup plan.</p><p><strong>Use this frame:</strong> “If ____ gets in the way, I will ____ so I can keep moving toward ____.”</p>",
-                "SUPPORT": "<p>goal = meta · timeframe = plazo · task = tarea · obstacle = obstáculo · backup = alternativa.</p>",
-                "FALLBACK": "<p>Submit the paper plan and schedule supervised Xello catch-up. Paper planning does not replace the required save.</p>",
+                "EXIT": "<p>Which current interest connects most clearly to a sustainable-engineering task, and what would you investigate next?</p>",
+                "DONE": "<ul><li>assigned Interests lesson complete;</li><li>one interest connected to a fixed career task;</li><li>private reflection complete.</li></ul>",
+                "VISIBLE_SUPPORT": "<p><strong>Word bank:</strong> interest, task, connect, investigate, change.</p><p><strong>Use this frame:</strong> “I am interested in ____. A ____ uses this interest when ____. I still want to learn ____.”</p>",
+                "SUPPORT": "<p>interest = interés · task = tarea · connect = conectar · investigate = investigar · change = cambiar.</p>",
+                "FALLBACK": "<p>Use the paper reflection only when your teacher assigns it. The Xello Interests lesson remains assigned.</p>",
             },
         }
 
@@ -831,37 +856,37 @@ async def main():
                 "FALLBACK": "<p>The fixed guide replaces open research. Paper is equal to Canvas peer review, and an absent student uses self-review.</p>",
             },
             5: {
-                "TITLE": "Set Two Goals in Xello",
-                "SUBTITLE": "50 minutes · TEKS d(4)(A) · required Grade 8 Xello completion",
-                "ALERT": "<strong>Required task: Set goals, 20 minutes, save at least two goals.</strong> The licensed Xello guide is an extended 25-30 minute resource and asks for three goals; the live district minimum controls today.",
-                "PREP": f'<ul><li><strong>Per student:</strong> one district device. Default print count is 0. Post {file_link(files["GOALS"]["id"], "the private Goal Check")} digitally; print one copy per student only for the paper-planning or outage route.</li><li>Test ClassLink and Xello, then open the Completion Standards report before class.</li><li>Open the licensed {file_link(files["XELLO"]["id"], "Set Goals educator guide")} for the supplied modeling sequence. The guide is an extension, not a third-goal requirement.</li><li>Open the private reflection Assignment. Grouping is individual/private; no partner disclosure is required.</li></ul>',
-                "EVIDENCE": "<p>Completion Standards report shows at least two saved goals; the private reflection names a timeframe, next task, obstacle, backup, and possible revision. Formative d(4)(A) evidence.</p>",
-                "MODEL": '<p><strong>Privacy-safe fictional model:</strong> “By October 1, I will finish one career-interview question list. My next task is to write five questions by Friday. If I cannot meet the worker, I will use a teacher-approved career profile and revise the interview plan.” Model the fields, not a personal disclosure.</p>',
-                "FLOW": flow("#5a2d91", "Goal warm-up · 5", "What keeps a plan moving?")
+                "TITLE": "Interests and Sustainable-Engineering Work",
+                "SUBTITLE": "50 minutes · TEKS d(1)(A) · Grade 7 Xello Interests",
+                "ALERT": "<strong>Assigned Grade 7 task: Interests lesson.</strong> Selecting five interests happens inside the lesson; do not create a separate Add interests completion requirement.",
+                "PREP": f'<ul><li><strong>Per student:</strong> one district device. Default print count is 0. Post {file_link(files["GOALS"]["id"], "the private Interests Check")} digitally; print one copy per student only for the paper-planning or outage route.</li><li>Test ClassLink and Xello, then open the Completion Standards report before class.</li><li>Open the licensed {file_link(files["XELLO"]["id"], "My Interests educator guide")} for the supplied modeling sequence.</li><li>Open the private reflection Assignment. Grouping is individual/private; no partner disclosure is required.</li></ul>',
+                "EVIDENCE": "<p>Completion Standards report shows the assigned Interests lesson complete; the private reflection connects one current interest to one fixed sustainable-engineering career task and names a question to investigate. Formative d(1)(A) evidence.</p>",
+                "MODEL": '<p><strong>Privacy-safe model:</strong> “I enjoy fixing and improving things. An agricultural engineer uses that interest when testing irrigation or monitoring equipment. I still want to learn what tools the worker uses.” Model the evidence connection, not a personal disclosure.</p>',
+                "FLOW": flow("#5a2d91", "Interest warm-up · 5", "What do you choose when nobody assigns it?")
                 + flow(
                     "#4a9d2f",
-                    "Adaptability bridge · 8",
-                    "Control, change, and backup action.",
+                    "Change-over-time bridge · 5",
+                    "Interests can stay steady, grow, or change.",
                 )
                 + flow(
                     "#1f617a",
-                    "Xello Set goals · 20",
-                    "Two goals, timeframe, one task each.",
+                    "Xello Interests · 30",
+                    "Select five interests and complete the assigned prompts.",
                 )
                 + flow(
                     "#e3ad19",
-                    "Private reflection · 12",
-                    "Next task, obstacle, backup, likely revision.",
+                    "Private reflection · 7",
+                    "Interest, career task, connection, next question.",
                 )
                 + flow(
                     "#1f617a",
-                    "Report, catch-up, and reset · 5",
+                    "Report, catch-up, and reset · 3",
                     "Verify or schedule supervised completion.",
                 ),
-                "MONITOR": "<p><strong>District response move:</strong> use a private Stop and Jot for the obstacle/backup plan, then Active Monitor navigation without reading private goal content.</p><p><strong>Lap 1, minute 13:</strong> every student is in About Me &gt; Goals or has a named access barrier. If several students remain on Home, pause for one ClassLink/navigation reset.</p><p><strong>Lap 2, minute 29:</strong> each student has saved Goal 1 and started Goal 2, or is on the documented paper/catch-up route. Feedback targets timeframe and next task without requiring personal disclosure.</p><p><strong>Minute 45 target:</strong> two saved goals are visible in the Completion Standards report and the private reflection is submitted or collected. The extended guide's third goal is optional. <strong>Safe trim:</strong> reduce the adaptability bridge to one control/change/backup example. Protect the 20-minute Xello minimum, private reflection, and report/catch-up record.</p>",
-                "RESOURCES": f'<p>{file_link(files["XELLO"]["id"], "Licensed Xello Set Goals guide")} · {file_link(files["GOALS"]["id"], "one-page private goal check")} · FYF p. 146 embedded as a short adaptability bridge.</p>',
-                "SUPPORT": "<p>Use Xello for the full goal statements. The one-page check prevents duplicate writing and gives students room for the timeframe, next task, obstacle, backup plan, and private reflection.</p>",
-                "FALLBACK": "<p>Paper planning supports access but does not replace Xello. Schedule supervised catch-up and verify through the report.</p>",
+                "MONITOR": "<p><strong>District response move:</strong> use a private Stop and Jot for the interest-to-task connection, then Active Monitor navigation without reading private interests aloud.</p><p><strong>Lap 1, minute 10:</strong> every student is in the assigned Interests lesson or has a named access barrier. If several students remain on Home, pause for one ClassLink/navigation reset.</p><p><strong>Lap 2, minute 30:</strong> each student has selected interests and reached the reflection prompts, or is on the documented paper/catch-up route.</p><p><strong>Minute 47 target:</strong> the Interests lesson is complete in the report and the private reflection is submitted or collected. <strong>Safe trim:</strong> reduce the FYF bridge to one change-over-time example. Protect the 30-minute Xello lesson, private reflection, and report/catch-up record.</p>",
+                "RESOURCES": f'<p>{file_link(files["XELLO"]["id"], "Licensed Xello My Interests guide")} · {file_link(files["GOALS"]["id"], "one-page private Interests Check")} · FYF p. 146 embedded as a short change-over-time bridge.</p>',
+                "SUPPORT": "<p>The one-page check prevents duplicate writing and gives students room to connect one interest to a fixed career task. Offer oral rehearsal and bilingual labels.</p>",
+                "FALLBACK": "<p>Paper planning supports access but does not replace the assigned Xello lesson. Schedule supervised catch-up and verify through the report.</p>",
             },
         }
 
@@ -870,7 +895,7 @@ async def main():
             2: "Field Reports and Constraints",
             3: "Pest Patrol Drone Design",
             4: "Review, Revision, and Trends",
-            5: "Xello Set Goals",
+            5: "Xello Interests",
         }
         pages, order = {}, []
         for day in range(1, 6):
@@ -936,9 +961,9 @@ async def main():
                 order.append(("Assignment", packet["id"], PACKET_TITLE))
             if day == 5:
                 await upsert_item(
-                    client, module["id"], "Assignment", goals["id"], GOALS_TITLE
+                    client, module["id"], "Assignment", interests["id"], INTERESTS_TITLE
                 )
-                order.append(("Assignment", goals["id"], GOALS_TITLE))
+                order.append(("Assignment", interests["id"], INTERESTS_TITLE))
 
         items = await paged(
             client, f"/courses/{COURSE_ID}/modules/{module['id']}/items"
@@ -999,7 +1024,7 @@ async def main():
             ("career", career),
             ("draft", draft),
             ("Major", packet),
-            ("goals", goals),
+            ("interests", interests),
         ):
             if assignment.get("published"):
                 raise RuntimeError(f"3SW Wk3 {label} assignment unexpectedly published")
@@ -1066,11 +1091,11 @@ async def main():
                                 "omit_from_final_grade"
                             ),
                         },
-                        "goals": {
-                            "id": goals["id"],
-                            "published": goals.get("published"),
-                            "grading_type": goals.get("grading_type"),
-                            "omit_from_final_grade": goals.get(
+                        "interests": {
+                            "id": interests["id"],
+                            "published": interests.get("published"),
+                            "grading_type": interests.get("grading_type"),
+                            "omit_from_final_grade": interests.get(
                                 "omit_from_final_grade"
                             ),
                         },

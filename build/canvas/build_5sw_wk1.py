@@ -12,6 +12,18 @@ import build_4sw_wk1 as common
 
 
 COURSE_ID = common.COURSE_ID
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/1ZfBdKqBS-GCuk7iRe9_hkLe55ztZLN257-jsIBpgP7Y/copy",
+    2: "https://docs.google.com/document/d/1Ug-uoZE-YnZL4Pxf305eiRS8hBHfKvVdFzfwCCSJscg/copy",
+    3: "https://docs.google.com/document/d/1xVFFbvnGsUKWfd0FJ09s6yxJr1rl8AGIihAp-mXtimQ/copy",
+    4: "https://docs.google.com/document/d/1wLf_aoioPnc8rHEd73KDVxNBGwLQSa8bku-FjvPJZoM/copy",
+    5: "https://docs.google.com/document/d/163Z-av4hILXdvD_OgwdawxFxuSeIDFuJ-ak14sAf0J4/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
 ROOT = common.ROOT
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/5sw/wk1"
 MODULE_NAME = "5SW Wk1: Blueprint Builders — Architecture Evidence"
@@ -585,7 +597,7 @@ async def main():
                 "TITLE": "Cluster Roles and Safety Supervisor",
                 "PURPOSE": "Describe how cluster roles work together and use supplied evidence in a fictional hazard plan.",
                 "TODAY": "<ul><li>sort four current ACE pathways;</li><li>match hazards and evidence categories;</li><li>design a labeled fictional plan;</li><li>name a professional boundary.</li></ul>",
-                "READY": f'<p><strong>Default route:</strong> read FYF pp. 171-173, then use <a href="{urls["safety"]}">the Canvas annotation activity</a> as your individual response home. Use {link(files["SAFETY"]["id"], "the three-page paper route")} only when needed. Complete one response surface, not both.</p>',
+                "READY": f'<p><strong>Default route:</strong> read FYF pp. 171-173, then use <a href="{urls["safety"]}">the Canvas annotation activity</a> as your individual response home. Use {student_copy_link(1, "the three-page paper route")} only when needed. Complete one response surface, not both.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Word bank:</strong> hazard = something that could cause harm · control = a way to reduce risk · boundary = what a student plan cannot prove.</p><p><strong>Use this frame:</strong> The scenario shows ___. Our plan uses ___ because ___. A qualified professional would still need to ___.</p></div>',
                 "STEPS": step(1, "Read the boundary", "<p>This is not real diving or construction guidance.</p>")
                 + step(2, "Match evidence", "<p>Connect scenario hazards to people, environment, tools, movement, and emergency-planning categories.</p>")
@@ -600,7 +612,7 @@ async def main():
                 "TITLE": "Compare Career Preparation and Pay",
                 "PURPOSE": "Compare three careers using one dated source basis and accurate preparation boundaries.",
                 "TODAY": "<ul><li>keep labels with salary figures;</li><li>compare preparation;</li><li>rank all three medians;</li><li>recommend with two evidence details.</li></ul>",
-                "READY": f'<p><strong>Digital route:</strong> use the three evidence cards below and <a href="{urls["comparison"]}">open Minor 1</a>. Use {link(files["CAREERS"]["id"], "the four-page paper or enlarged route")} only when needed. Open {link(files["RUBRIC"]["id"], "the student-visible Minor 1 rubric")} before you begin.</p>',
+                "READY": f'<p><strong>Digital route:</strong> use the three evidence cards below and <a href="{urls["comparison"]}">open Minor 1</a>. Use {student_copy_link(2, "the four-page paper or enlarged route")} only when needed. Open {link(files["RUBRIC"]["id"], "the student-visible Minor 1 rubric")} before you begin.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Keep these labels with every pay figure:</strong> occupation · May 2024 · United States · median · BLS.</p><p><strong>Use this frame:</strong> I recommend ___ for Jordan because the median is ___ and the preparation usually includes ___. One limitation is ___.</p></div>',
                 "STEPS": step(1, "Read the salary label", "<p>Every figure is a May 2024 U.S. median from BLS. It is not DFW, starting, or guaranteed pay.</p>")
                 + step(2, "Compare preparation", "<p>Separate education, documented experience, examination, and registration boundaries.</p>")
@@ -615,7 +627,7 @@ async def main():
                 "TITLE": "Two-View Concept Design",
                 "PURPOSE": "Create top and front views and explain how a worker uses this kind of design evidence.",
                 "TODAY": "<ul><li>choose Canvas or paper;</li><li>practice five spatial operations;</li><li>draw top and front views;</li><li>explain the related work product.</li></ul>",
-                "READY": f'<p>Open {link(files["DESIGN"]["id"], "the four-page concept route")} or <a href="{urls["design"]}">the Canvas annotation activity</a>. If your teacher has opened a tested Tinkercad Classroom, you may use the class code and nickname. Do not create a new personal account.</p>',
+                "READY": f'<p>Open {student_copy_link(3, "the four-page concept route")} or <a href="{urls["design"]}">the Canvas annotation activity</a>. If your teacher has opened a tested Tinkercad Classroom, you may use the class code and nickname. Do not create a new personal account.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Design labels:</strong> top view · front view · entrance · window · purposeful feature · user need.</p><p><strong>Use this frame:</strong> A ___ would use this concept to ___. The labeled ___ helps that worker understand ___.</p></div>',
                 "STEPS": step(1, "Read the fictional brief", "<p>Design a small community learning space. This is not a construction-ready plan.</p>")
                 + step(2, "Practice five operations", "<p>Place, resize, align, group, and hole/subtract. On paper, draw, measure, align, combine, and mark openings.</p>")
@@ -630,7 +642,7 @@ async def main():
                 "TITLE": "Test, Revise, and Submit",
                 "PURPOSE": "Test a concept against the brief and document one evidence-based revision.",
                 "TODAY": "<ul><li>set one priority;</li><li>complete visible requirements;</li><li>test one choice;</li><li>revise and submit privately.</li></ul>",
-                "READY": f'<p>Open {link(files["REVISION"]["id"], "the three-page revision record")} or <a href="{urls["revision"]}">the Canvas activity</a>. Continue on the same design surface you used on Day 3.</p>',
+                "READY": f'<p>Open {student_copy_link(4, "the three-page revision record")} or <a href="{urls["revision"]}">the Canvas activity</a>. Continue on the same design surface you used on Day 3.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Revision jobs:</strong> original choice · evidence noticed · change made · expected improvement · next worker.</p><p><strong>Use this frame:</strong> I noticed ___. I changed ___ to ___ because ___. Next, a ___ would use this evidence to ___.</p></div>',
                 "STEPS": step(1, "Set a priority", "<p>Choose complete, fix, or clarify from the requirement table.</p>")
                 + step(2, "Use the checkpoints", "<p>Footprint/walls/roof; entrance/windows; purposeful feature and labels.</p>")
@@ -645,7 +657,7 @@ async def main():
                 "TITLE": "Unexpected Architecture and Synthesis",
                 "PURPOSE": "Use city-goal evidence in a novelty concept and explain how three cluster roles work together.",
                 "TODAY": "<ul><li>choose two city goals;</li><li>contribute to front and side views;</li><li>give or record a short explanation;</li><li>complete the private portfolio.</li></ul>",
-                "READY": f'<p><strong>Default route:</strong> use FYF pp. 182-184 in your workbook. Use {link(files["LANDMARK"]["id"], "the two-page individual fallback")} when the workbook is unavailable or you need that route. Open {link(files["PORTFOLIO_RUBRIC"]["id"], "the one-page formative feedback guide")} before submitting.</p>',
+                "READY": f'<p><strong>Default route:</strong> use FYF pp. 182-184 in your workbook. Use {student_copy_link(5, "the two-page individual fallback")} when the workbook is unavailable or you need that route. Open {link(files["PORTFOLIO_RUBRIC"]["id"], "the one-page formative feedback guide")} before submitting.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>City goals:</strong> show city identity · attract visitors · support local growth · spark interest in design.</p><p><strong>Use this frame:</strong> We chose ___ and ___. The ___ contributes ___, while the ___ contributes ___. Together, these roles ___.</p></div>',
                 "STEPS": step(1, "Read the city goals", "<p>Choose two goals from the licensed brief. A memorable shape must still serve users.</p>")
                 + step(2, "Build the firm concept", "<p>Draw front and side views, label evidence, and record your individual contribution.</p>")

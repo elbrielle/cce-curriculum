@@ -1,5 +1,11 @@
 # Canvas Xello Asset Manifest
 
+> **Historical operational inventory:** Grade 8 task/resource claims in this
+> manifest do not authorize current Grade 7 instruction. Use
+> `xello-grade-7-scope-audit-2026-08-24.md` to decide which assets remain
+> attached to active lessons. Do not delete licensed files solely because a
+> task left the current scope.
+
 **Status:** CANVAS IMPORT IN PROGRESS. The first 20 licensed files are staged locally in the gitignored Xello asset folder and uploaded to the authenticated CCR Canvas course. The files remain inside locked folders while the modules are built.
 
 ## Delivery standard

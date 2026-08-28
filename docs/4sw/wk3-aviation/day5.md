@@ -141,7 +141,6 @@ Score the private individual evidence. Team build quality, public speaking, H&L 
 ## Optional Platform Extensions
 
 - H&L Transportation cluster browse and ratings, if the live titles resolve.
-- Xello *Jobs and Employers*, labeled supplemental and not a Grade 8 completion standard.
 - eDynamic goal-setting lesson, only after the teacher confirms the current unit and students finish the core plan.
 
 None of these extensions replaces or adds points to the individual plan.

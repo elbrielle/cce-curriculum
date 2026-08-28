@@ -1,26 +1,23 @@
-# Day 5: Personal Budget and Xello Scholarship Profile
+# Day 5: Build, Test, and Revise a Personal Budget
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
 - **Topic:** Personal Budget
-- **Objective:** Students will revise a personal budget so expenses do not exceed income, distinguish business revenue from personal income, and complete the required Xello Scholarship profile.
+- **Objective:** Students will revise a personal budget so expenses do not exceed income, distinguish business revenue from personal income, and explain one evidence-based lifestyle decision.
 - **TEKS:** d(3)(I), d(5)(D)
-- **Demonstration of Learning:** Personal Budget and Xello Scholarship Plan plus Xello Completion Standards report.
+- **Demonstration of Learning:** Personal Budget and Decision Plan with balanced totals, source labels, and revenue explanation.
 <!-- CCE DAILY CONTRACT END -->
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objective** | Revise a personal budget so expenses do not exceed income, distinguish business revenue from personal income, and complete the required Xello Scholarship profile |
+| **Objective** | Revise a personal budget so expenses do not exceed income, distinguish business revenue from personal income, and explain one evidence-based lifestyle decision |
 | **TEKS** | d(3)(I), d(5)(D) |
-| **Evidence** | Personal Budget and Xello Scholarship Plan plus Xello Completion Standards report |
-| **Sources** | MIT Living Wage Calculator, Dallas County; Dallas College 2026 brief; Xello Scholarships Guide and official student video |
+| **Evidence** | Personal Budget and Decision Plan |
+| **Sources** | MIT Living Wage Calculator, Dallas County; Dallas College 2026 brief |
 
 ## Before class
 
-- Post the Dallas County Living-Cost Planning Guide and Personal Budget and Xello Scholarship Plan. Default quantities: one Budget Plan pp. 1-2 per student, one Living-Cost Guide per pair or a projected copy, one calculator per student or pair, and one district-connected device per student for Xello. Print p. 3 only for the no-device Xello direction or catch-up route.
-- Open the official Xello Scholarships Guide and 2:02 student video.
-- Check the Xello Completion Standards report before class.
-- Keep Xello personal profile answers private. Do not require screenshots.
+- Post the Dallas County Living-Cost Planning Guide and Personal Budget and Decision Plan. Default quantities: one Budget Plan per student, one Living-Cost Guide per pair or a projected copy, and one calculator per student or pair.
 - Ask students to open Entry 3 of the CCE Six-Weeks Evidence Log from their CCE binder or teacher-designated digital folder. The log stays with the student and is not collected.
 
 ## 50-minute flow
@@ -29,13 +26,15 @@
 
 Display the four labels: Dallas County, one adult/no children, updated February 15, 2026, living-cost estimate. Ask what would make the number change.
 
-Students use the fixed $3,450 monthly after-tax scenario. Do not convert an H&L or Xello median into starting pay or take-home pay.
+Students use the fixed $3,450 monthly after-tax scenario. Do not convert an H&L median into starting pay or take-home pay.
 
-### 2. Build and revise the budget — 20 minutes
+### 2. Build the first budget - 15 minutes
 
-Students copy the rounded reference amounts, add an optional savings goal, and total the first budget. They make one lifestyle choice and build a revised budget that does not exceed $3,450.
+Students copy the rounded reference amounts, add an optional savings goal, and total the first budget.
 
-They then:
+### 3. Revise and test the budget - 15 minutes
+
+Students make one lifestyle choice and build a revised budget that does not exceed $3,450. They then:
 
 - calculate the percentage used by their two largest categories;
 - explain what could change for a different household; and
@@ -43,21 +42,11 @@ They then:
 
 The last point is the entrepreneurship connection: owners must pay business expenses before treating money as personal income.
 
-### 3. Complete Xello Scholarship profile — 20 minutes
+### 4. Explain the decision - 10 minutes
 
-The authenticated Grade 8 completion standard is **Scholarship profile: 20 minutes; complete the matching profile**.
+Students explain which lifestyle choice changed the budget, why the revised plan is more workable, and why business revenue is not personal income. They keep the Dallas County, household, date, and living-cost-estimate labels attached to the explanation.
 
-Student route:
-
-1. sign in through the district launch page;
-2. open College Planning, then Scholarships or Scholarship matches;
-3. open the profile or profile booster;
-4. answer honestly, including “I don’t know” when that is accurate; and
-5. stop when the profile is complete.
-
-Students do not have to apply for or save a scholarship today. The teacher verifies completion in the report, not by collecting private answers.
-
-### 4. Close and submit — 5 minutes
+### 5. Close and submit - 5 minutes
 
 For the first 2 minutes, students submit the budget as directed. Open the private recovery portfolio only when the teacher has assigned it to replace missing major evidence; it is not a third automatic Major.
 
@@ -73,12 +62,10 @@ Budget math must satisfy:
 
 The revised total must be $3,450 or less. There is no single correct set of category choices. Strong reasoning keeps the place, household, date, and measure attached and recognizes that family needs change the estimate.
 
-In Xello, honest “I don’t know” answers are better than invented profile information. Scholarship matches are possibilities, not awards or guaranteed income.
-
-Use two budget laps. First check totals and the four source labels; then check the revised total and revenue explanation. If a quarter of the class exceeds $3,450 because the same category was counted twice, pause for one whole-class total check. In Xello, verify access by minute 3 and move unresolved logins to the supervised catch-up list without collecting profile answers. Trim the optional video and whole-group share before trimming the revised budget, revenue explanation, or protected 20-minute Xello block.
+Use two budget laps. First check totals and the four source labels; then check the revised total and revenue explanation. If a quarter of the class exceeds $3,450 because the same category was counted twice, pause for one whole-class total check. Trim whole-group sharing before trimming the revised budget, percentage calculation, revenue explanation, or decision reflection.
 
 At minute 47, check that Entry 3 uses phrases already visible in the revised plan. Do not collect the Evidence Log or score it as another artifact.
 
 ## Support and absence route
 
-Use the fixed budget scenario, calculator, read-aloud, chunked table, or teacher-selected starting amounts. If Xello is unavailable, students finish the budget and private reflection, then join the supervised catch-up list. Paper does not count as Xello completion. The official guide is the text alternative to the video. A missing Evidence Log uses the five-phrase notebook or digital-folder fallback without a penalty or second submission.
+Use the fixed budget scenario, calculator, read-aloud, chunked table, or teacher-selected starting amounts. A missing Evidence Log uses the five-phrase notebook or digital-folder fallback without a penalty or second submission.

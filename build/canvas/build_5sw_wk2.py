@@ -13,6 +13,18 @@ import build_5sw_wk1 as prior
 
 common = prior.common
 COURSE_ID = common.COURSE_ID
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/1qd8zv2bT10ShUuv32T17wUwJmr8saSvPjQ_Sv2fwUKg/copy",
+    2: "https://docs.google.com/document/d/1aqUedUnt1SZjH0wYpFV2m1v_a3DB0Z3WgU2j0tDfIAY/copy",
+    3: "https://docs.google.com/document/d/1Ph_2X7u2t4fc5e1mk9JWF1X47hbPIugzGVPxtVGBX8s/copy",
+    4: "https://docs.google.com/document/d/1rENpdWgNWuYtgVJR_DVNfKfTASMmFeWMiEiFI88YULU/copy",
+    5: "https://docs.google.com/document/d/1dw5QfLy8xynLSuilI8rPCHfy6ScGMn5QIwbVEy_t6Sk/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
 ROOT = common.ROOT
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/5sw/wk2"
 MODULE_NAME = "5SW Wk2: Civil Engineering — Systems, Evidence, and Design"
@@ -534,7 +546,7 @@ async def main():
                 "TITLE": "Civil Engineering Careers and Systems",
                 "PURPOSE": "Use fixed evidence to describe civil-engineering work and explain how one design choice affects a system.",
                 "TODAY": "<ul><li>describe the Engineering cluster;</li><li>read one current career card;</li><li>distinguish high-school and postsecondary routes;</li><li>revise a kitchen system.</li></ul>",
-                "READY": f'<p>Open your FYF workbook to p. 103 and pp. 174–175. Use <a href="{urls["systems"]}">the Canvas evidence activity</a> for the fixed career card and short response. {link(files["CAREER"]["id"], "The two-page companion")} is the paper, enlarged, or no-workbook route; do not complete both Canvas and paper.</p>',
+                "READY": f'<p>Open your FYF workbook to p. 103 and pp. 174–175. Use <a href="{urls["systems"]}">the Canvas evidence activity</a> for the fixed career card and short response. {student_copy_link(1, "The two-page companion")} is the paper, enlarged, or no-workbook route; do not complete both Canvas and paper.</p>',
                 "LANGUAGE": "<p><strong>Word bank:</strong> system/sistema · evidence/evidencia · preparation/preparación · license/licencia · infrastructure/infraestructura.</p><p><strong>Use this frame:</strong> The source supports [evidence], but it does not prove [limit]. When I placed [choice], it affected [second element] because [reason].</p>",
                 "STEPS": step(1, "Read the fixed career evidence", "<p><strong>Civil Engineer:</strong> plans, designs, and supervises infrastructure work; bachelor’s degree is typical; May 2024 U.S. median is $99,590; 2024–34 growth is 5% with about 23,600 openings/year. PE licensure is not universal for every entry-level role.</p>")
                 + step(2, "Describe the cluster", "<p>Name two roles and the evidence they exchange.</p>")
@@ -549,7 +561,7 @@ async def main():
                 "TITLE": "Assessment Impact and Emerging Work",
                 "PURPOSE": "Explain one possible assessment impact and evaluate two recognized changing engineering specialties.",
                 "TODAY": "<ul><li>read four current assessment cards;</li><li>write one verification question;</li><li>compare two O*NET specialties;</li><li>name a limitation.</li></ul>",
-                "READY": f'<p>Open {link(files["ASSESS"]["id"], "the three-page assessment and specialty packet")} and {link(files["RUBRIC"]["id"], "the student-visible Minor 2 rubric")}.</p>',
+                "READY": f'<p>Open {student_copy_link(2, "the three-page assessment and specialty packet")} and {link(files["RUBRIC"]["id"], "the student-visible Minor 2 rubric")}.</p>',
                 "LANGUAGE": "<p><strong>Word bank:</strong> assessment/evaluación · exemption/exención · placement/colocación · specialty/especialidad · limitation/limitación.</p><p><strong>Use this frame:</strong> This result may affect [goal] because [reason]. It does not decide [boundary] by itself. I would verify [question] with [source].</p>",
                 "STEPS": step(1, "Choose an assessment", "<p>Explain a possible effect on a goal and what the result does not decide by itself.</p><p><strong>Model:</strong> Taylor is exploring civil engineering. PSAT 8/9 may show a readiness area, but it does not decide admission or pathway access. Taylor would ask the counselor when and how the district uses the result.</p>")
                 + step(2, "Verify next", "<p>Write one exact question and name the authorized source that should answer it.</p>")
@@ -564,7 +576,7 @@ async def main():
                 "TITLE": "Bridge Design — Two Options",
                 "PURPOSE": "Create and compare two bridge concepts within one clear evidence boundary.",
                 "TODAY": "<ul><li>read the constraints;</li><li>draw two top views;</li><li>draw two side views;</li><li>critique and choose.</li></ul>",
-                "READY": f'<p>Open {link(files["DESIGN"]["id"], "the four-page bridge design packet")} or <a href="{urls["design"]}">the Canvas annotation activity</a>.</p>',
+                "READY": f'<p>Open {student_copy_link(3, "the four-page bridge design packet")} or <a href="{urls["design"]}">the Canvas annotation activity</a>.</p>',
                 "LANGUAGE": "<p><strong>Word bank:</strong> span/tramo · support/apoyo · member/elemento · load/carga · weak point/punto débil.</p><p><strong>Use this frame:</strong> I selected Option [A/B] because [evidence]. Next, a [role] would use [evidence] to produce [work product].</p>",
                 "STEPS": step(1, "Read the boundary", "<p>This classroom prototype does not validate a real bridge.</p><p><strong>Two-option model:</strong> Option A uses two straight rails and a flat deck. Option B changes the side geometry to repeated triangular units while keeping the same span and load point. The meaningful change is geometry, not color.</p>")
                 + step(2, "Draw Option A", "<p>Use the separate top and side fields. Label span, supports, members, joints, and load point.</p>")
@@ -579,7 +591,7 @@ async def main():
                 "TITLE": "Fixed-Data Test and Redesign",
                 "PURPOSE": "Use comparable evidence to identify a failure pattern and propose one specific redesign.",
                 "TODAY": "<ul><li>predict from a fixed dataset;</li><li>compare standardized results;</li><li>analyze failure;</li><li>propose and justify a redesign.</li></ul>",
-                "READY": f'<p>Open {link(files["TEST"]["id"], "the four-page fixed-data and redesign packet")} or <a href="{urls["test"]}">the Canvas annotation activity</a>.</p>',
+                "READY": f'<p>Open {student_copy_link(4, "the four-page fixed-data and redesign packet")} or <a href="{urls["test"]}">the Canvas annotation activity</a>.</p>',
                 "LANGUAGE": "<p><strong>Word bank:</strong> stage/etapa · failure/falla · redesign/rediseño · variable/variable · prototype/prototipo.</p><p><strong>Use this frame:</strong> Sample [code] reached [result]. I would change [feature] because [evidence]. Next, a [role] would use [evidence] to produce [work product].</p>",
                 "STEPS": step(1, "Predict before the reveal", "<p>Use the three fictional sample descriptions and cite one visible clue.</p>")
                 + step(2, "Record comparable evidence", "<p>Reveal the same staged results and stop evidence for every sample. This module uses the fixed dataset and does not require a live test.</p>")
@@ -594,7 +606,7 @@ async def main():
                 "TITLE": "Mars Transfer and Weekly Synthesis",
                 "PURPOSE": "Transfer the design cycle to a fictional rover brief and synthesize the week's individual evidence.",
                 "TODAY": "<ul><li>find a class result pattern;</li><li>design a fictional rover;</li><li>explain one tradeoff;</li><li>submit the private portfolio.</li></ul>",
-                "READY": f'<p>Open your FYF workbook to pp. 106–107. Use {link(files["SYNTHESIS"]["id"], "the three-page synthesis companion")} for the evidence the workbook does not collect and {link(files["PORTFOLIO_RUBRIC"]["id"], "the one-page formative feedback guide")}. The companion is not a second rover drawing.</p>',
+                "READY": f'<p>Open your FYF workbook to pp. 106–107. Use {student_copy_link(5, "the three-page synthesis companion")} for the evidence the workbook does not collect and {link(files["PORTFOLIO_RUBRIC"]["id"], "the one-page formative feedback guide")}. The companion is not a second rover drawing.</p>',
                 "LANGUAGE": "<p><strong>Word bank:</strong> constraint/restricción · tradeoff/compensación · pattern/patrón · route/ruta · verify/verificar.</p><p><strong>Use this frame:</strong> Across the results, [pattern] appeared, except [exception]. The high-school pathway can help me [step], but I still need [postsecondary step].</p>",
                 "STEPS": step(1, "Read anonymous results", "<p>State a pattern, exception, and the evidence—not a public team ranking.</p><p><strong>Model:</strong> Samples A and C stopped before the cap; Sample B reached the cap. Because the samples differ in more than one feature, the results do not prove that one shape caused the difference.</p>")
                 + step(2, "Complete FYF p. 107 once", "<p>Label four rover needs and two constraints in the workbook design field. Treat the scenario as fictional, not current NASA reporting.</p>")

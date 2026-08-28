@@ -55,6 +55,10 @@ function setParagraphs(slide, before, items, fontSize = "20pt") {
   );
 }
 
+function setFrame(slide, before, frame) {
+  textShape(slide, before).frame = frame;
+}
+
 function deleteEmptySourceShape(slide, name) {
   presentation.resolve(recordFor("shape", slide, (item) => item.name === name).id).delete();
 }
@@ -68,100 +72,110 @@ function setNotes(slide, lines) {
 }
 
 setText(1, "Week 1.6", "CCE Day 5");
-setText(1, "AVID 2\nMs. Hainlen", "Catch Up, Xello,\nand Perks & Quirks");
+textShape(1, "AVID 2\nMs. Hainlen").text.set([
+  { runs: [{ run: "Career Perks, Neutrals\n& Quirks", textStyle: { fontSize: "24pt", bold: true, color: "#24323d" } }] },
+]);
 
 setText(2, "Friday", "Friday");
 
-setText(3, "Pencil\nName Tent\nGet ready to share an answer ——> ", "Chromebook + FYF workbook\nOpen your notebook page\nCheck your private starting path\nWrite before sharing");
-setText(3, "Today’s Lesson\nFour Corners", "Today’s Lesson\nPlan one first priority\nFinish one visible result\nVerify before moving on");
-setText(3, "Discussion\n\n", "Discussion\n\nWhich unfinished CCE task must happen first today?\n\nWrite it privately. Do not choose the easiest task.");
+setText(3, "Pencil\nName Tent\nGet ready to share an answer ——> ", "Chromebook + FYF workbook\nOpen Day 5 Student Guide\nHave workbook on pp. 4-5\nThink before sharing");
+textShape(3, "Today’s Lesson\nFour Corners").text.set([
+  { bulletCharacter: " ", marginLeft: 0, indent: 0, runs: [{ run: "Today’s Lesson", textStyle: { fontSize: "24pt", bold: true, color: "#003865" } }] },
+  { bulletCharacter: " ", marginLeft: 0, indent: 0, runs: [{ run: "Learn Perk / Neutral / Quirk", textStyle: { fontSize: "19pt" } }] },
+  { bulletCharacter: " ", marginLeft: 0, indent: 0, runs: [{ run: "Study a complete model", textStyle: { fontSize: "19pt" } }] },
+  { bulletCharacter: " ", marginLeft: 0, indent: 0, runs: [{ run: "Analyze one career", textStyle: { fontSize: "19pt" } }] },
+]);
+setText(3, "Discussion\n\n", "Discussion\n\nThink about working outside in the Texas summer heat.\n\nIs that a Perk, Neutral, or Quirk for you? Why?");
 deleteImage(3);
 deleteEmptySourceShape(3, "Google Shape;421;p51");
 deleteEmptySourceShape(3, "Google Shape;428;p51");
 
-setText(4, "Pomodoro work time", "Friday Focus Plan");
+setText(4, "Pomodoro work time", "Today's Learning");
 setParagraphs(4, "Write this information on a sticky note\nIdentify 3 different tasks you want to accomplish during the 4 POMODORO work periods you will have today.\nIdentify 2 “No Zone” activities. These are usually distractions that you should avoid that keep you from staying productive.", [
-  { text: "Write three priorities. Circle the one that must happen first.", bold: true },
-  { text: "1. Earliest missing core task", spaceBefore: 12 },
-  "2. Required Xello login + goal",
-  "3. FYF Perks & Quirks only when ready",
-  { text: "Then name two No-Zone distractions. This may stay private.", spaceBefore: 12 },
+  { text: "Analyze real career details:", bold: true },
+  { text: "Learn Perk, Neutral, and Quirk on FYF p. 4", bullet: "•", spaceBefore: 10 },
+  { text: "Study a complete evidence-based model", bullet: "•" },
+  { text: "Complete one career table on FYF p. 5", bullet: "•" },
+  { text: "Explain how job details match your personal work values.", spaceBefore: 10 },
 ]);
 setParagraphs(4, "Name / Period\n\n \n \n\n---------------------------------------\n\n", [
-  { text: "MY FIRST PRIORITY", bold: true },
-  { text: "1. __________________", spaceBefore: 12 },
-  "2. __________________",
-  "3. __________________",
-  { text: "Circle the task that must happen first.", bold: true, spaceBefore: 12 },
+  { text: "TODAY'S GOALS", bold: true },
+  { text: "FYF p. 5 Career Table", bullet: "•", spaceBefore: 12 },
+  { text: "4+ Specific Career Details", bullet: "•" },
+  { text: "P / N / Q Mark + Personal Reason", bullet: "•" },
+  { text: "One response home today.", bold: true, spaceBefore: 12 },
 ], "16pt");
-setText(4, "NO ZONE", "NO-ZONE x2");
+setText(4, "NO ZONE", "CCE GOALS");
 deleteEmptySourceShape(4, "Google Shape;300;p43");
 
 const focusTitle = "Pomodoro work time";
 const focusBody = "Expectations: \nYou are working. \nSitting with your grades open doing nothing else is not working.\nI have grammar practice if you don’t have anything to do.\nHave your sticky note where I can see it as I walk around– the edge of the table. \nWe will be working silently the first 15 minutes. Your table will gain/lose points for focused/off-task behavior.\nAdditionally, being on task is a grade today. ";
 
-setText(5, focusTitle, "Focus Block: First Task");
+setText(5, focusTitle, "Three Ways to Mark It");
 setParagraphs(5, focusBody, [
-  { text: "Focus block: 20 minutes.", bold: true },
-  { text: "Start on the task the teacher assigned first.", bullet: "•" },
-  { text: "Keep your focus plan visible.", bullet: "•" },
-  { text: "Work quietly; ask for help when you are stuck.", bullet: "•" },
-  { text: "Show one visible result before opening a second task.", bullet: "•" },
-  { text: "If a website is down, tell your teacher which one and keep going.", bold: true, spaceBefore: 14 },
-]);
+  { text: "PERK 👍", bold: true },
+  { text: "A detail that fits what you value or prefer.", spaceBefore: 6 },
+  { text: "NEUTRAL ➖", bold: true, spaceBefore: 14 },
+  { text: "A detail that neither attracts nor discourages you.", spaceBefore: 6 },
+  { text: "QUIRK 👎", bold: true, spaceBefore: 14 },
+  { text: "A demanding or unusual detail that may not fit you.", spaceBefore: 6 },
+], "24pt");
+setFrame(5, focusBody, { left: 42, top: 122, width: 872, height: 360 });
 
-setText(6, focusTitle, "Path 1: Core Catch-Up");
+setText(6, focusTitle, "One Fact, Three Viewpoints");
 setParagraphs(6, focusBody, [
-  { text: "Start here if any core input is missing:", bold: true },
-  { text: "Discover Your Core", bullet: "•" },
-  { text: "Work Values", bullet: "•" },
-  { text: "Building Blocks / profile saves", bullet: "•" },
-  { text: "Recommendations", bullet: "•" },
-  { text: "My Career Journey reflection", bullet: "•" },
-  { text: "Complete the earliest missing input. If your reflection is pending, add the result, revise, and submit the same reflection.", spaceBefore: 14 },
-]);
+  { text: "Career detail: Work hours change from week to week.", bold: true },
+  { text: "PERK: “I value variety and dislike repetitive routines.”", bullet: "•", spaceBefore: 12 },
+  { text: "NEUTRAL: “Changing hours would not affect my decision.”", bullet: "•" },
+  { text: "QUIRK: “I value a predictable daytime schedule.”", bullet: "•" },
+  { text: "The fact stayed the same. The person’s preferences changed the mark.", bold: true, spaceBefore: 14 },
+], "23pt");
+setFrame(6, focusBody, { left: 42, top: 122, width: 872, height: 350 });
 
-setText(7, focusTitle, "Path 2: Required Xello");
+setText(7, focusTitle, "The Evidence Formula");
 setParagraphs(7, focusBody, [
-  { text: "Start here only after core work is ready.", bold: true },
-  "1. Sign in to Xello the way your teacher shows.",
-  "2. Confirm the dashboard loads.",
-  "3. Open About Me.",
-  "4. Choose one goal: Not sure yet; More school or training; or Alternate route.",
-  { text: "Do not run Matchmaker today. The goal may change later.", bold: true, spaceBefore: 14 },
-]);
+  { text: "SPECIFIC CAREER FACT", bold: true },
+  { text: "↓", spaceBefore: 6 },
+  { text: "PERK / NEUTRAL / QUIRK", bold: true, spaceBefore: 6 },
+  { text: "↓", spaceBefore: 6 },
+  { text: "PERSONAL VALUE OR PREFERENCE", bold: true, spaceBefore: 6 },
+  { text: "↓  Name the source.", bold: true, spaceBefore: 6 },
+], "24pt");
+setFrame(7, focusBody, { left: 42, top: 122, width: 872, height: 350 });
 
-setText(8, focusTitle, "Path 3: FYF Only When Ready");
+setText(8, focusTitle, "Find Specific Career Facts");
 setParagraphs(8, focusBody, [
-  { text: "Use this path only when core work AND required Xello are ready.", bold: true },
-  "1. Open Find Your Future pp. 4-5.",
-  "2. Study the Pest Control Technician example.",
-  "3. Choose one Hat and begin the first six-detail table.",
-  "4. Mark each detail perk, neutral, or quirk for you.",
-  "5. Name the source.",
-  { text: "A second Hat is an extension, not the minimum.", bold: true, spaceBefore: 14 },
-]);
+  { text: "Record what the worker actually does, uses, studies, or experiences:", bold: true },
+  { text: "Daily duties", bullet: "•", spaceBefore: 10 },
+  { text: "Schedule and work setting", bullet: "•" },
+  { text: "Education or training", bullet: "•" },
+  { text: "Tools, technology, and safety conditions", bullet: "•" },
+  { text: "Avoid vague labels such as “fun,” “easy,” or “good money.”", bold: true, spaceBefore: 14 },
+], "23pt");
+setFrame(8, focusBody, { left: 42, top: 122, width: 872, height: 350 });
 
-setText(9, "Evaluate: Share and Learn", "Minute 25: Verify Before Moving");
-setText(9, "It is more important to be happy than successful.", "What visible result do you have right now?");
-setText(9, "STRONGLY AGREE", "CORE");
-setText(9, "AGREE", "XELLO");
-setText(9, "STRONGLY\nDISAGREE", "FYF");
-setText(9, "DISAGREE", "PENDING");
+setText(9, "Evaluate: Share and Learn", "FYF p. 4 Model: Pest Control");
+setText(9, "It is more important to be happy than successful.", "How does the model classify each detail?");
+setText(9, "STRONGLY AGREE", "DUTIES");
+setText(9, "AGREE", "HOURS");
+setText(9, "STRONGLY\nDISAGREE", "TOOLS");
+setText(9, "DISAGREE", "TRAINING");
 setParagraphs(9, "Identify a spokesperson who will summarize your group’s position for the rest of the groups. \nShare and engage in a debate with each other. \nBefore a group shares their next point, they must summarize the point of the group that preceded them.​", [
-  { text: "Show the teacher one visible result.", bullet: "•" },
-  { text: "Move to a second priority only after the first one is verified.", bullet: "•", spaceBefore: 8 },
-  { text: "If a website is down, tell your teacher which one.", bullet: "•", spaceBefore: 8 },
+  { text: "Independent work = Perk (likes working alone)", bullet: "•" },
+  { text: "Dealing with insects = Quirk (challenging work)", bullet: "•", spaceBefore: 8 },
+  { text: "Emergency calls = Quirk (unpredictable schedule)", bullet: "•", spaceBefore: 8 },
 ], "13pt");
 
-setText(10, focusTitle, "Your Second Task");
+setText(10, focusTitle, "A Complete Career Table");
 setParagraphs(10, focusBody, [
-  { text: "After your first result is checked, move to your second task.", bold: true },
-  { text: "Core catch-up continues or moves to Xello.", bullet: "•" },
-  { text: "Xello moves to FYF pp. 4-5 when finished.", bullet: "•" },
-  { text: "FYF completes at least one six-detail Hat table.", bullet: "•" },
-  { text: "Write in the workbook table. Use the H&L career page as your source.", bold: true, spaceBefore: 14 },
-]);
+  { text: "Model: Veterinary Technician on FYF p. 5", bold: true },
+  { text: "Detail 1: Works with animals in clinics → PERK (values relationships)", bullet: "•" },
+  { text: "Detail 2: Evening/weekend emergency shifts → QUIRK (prefers set hours)", bullet: "•" },
+  { text: "Detail 3: 2-year associate degree → NEUTRAL (fits future plan)", bullet: "•" },
+  { text: "Detail 4: Uses diagnostic lab tools → PERK (likes hands-on tech)", bullet: "•" },
+  { text: "Source: Hats & Ladders career card", bold: true, spaceBefore: 14 },
+], "19pt");
+setFrame(10, focusBody, { left: 42, top: 122, width: 872, height: 350 });
 
 const quickTitle = "Four Corners – Quickwrite";
 const quickLeft = "Write down which position you want to take from the list below and explain why:\nStrongly agree\nAgree\nDisagree\nStrongly disagree ";
@@ -170,106 +184,104 @@ const quickWordBank = "Word Bank: \nHappy                            successful\
 
 setText(11, quickTitle, "Complete Model: Perks & Quirks");
 setParagraphs(11, quickLeft, [
-  { text: "Hat: Veterinary Technician", bold: true },
-  { text: "Detail: Works with animals and their owners in clinics.", spaceBefore: 12 },
+  { text: "Career: Veterinary Technician", bold: true },
+  { text: "Detail: Works with animals and owners in clinics.", spaceBefore: 12 },
   { text: "My mark: PERK", bold: true, spaceBefore: 12 },
-  { text: "Why: I value relationships and have a Building Block caring for my dog.", spaceBefore: 12 },
+  { text: "Why: I value relationships and have a Building Block in animal care.", spaceBefore: 12 },
 ], "17pt");
 setText(11, quickCenter, "Evidence makes the mark personal.");
 setParagraphs(11, quickWordBank, [
-  { text: "Source: Hats & Ladders career page", bold: true },
-  { text: "Still verify: required education + current pay", spaceBefore: 12 },
+  { text: "Source: Hats & Ladders career profile", bold: true },
+  { text: "Still verify: required license + current pay", spaceBefore: 12 },
 ], "15pt");
 
 setText(12, quickTitle, "Non-Model: What Is Missing?");
 setParagraphs(12, quickLeft, [
-  { text: "“Good job. Perk. Google.”", bold: true },
-  { text: "What needs fixing?", bold: true, spaceBefore: 12 },
-  { text: "No career detail", bullet: "•" },
-  { text: "No personal reason", bullet: "•" },
-  { text: "No usable source", bullet: "•" },
-  { text: "Rewrite with a specific detail, your mark, why it matters to you, and the source.", spaceBefore: 12 },
+  { text: "“Career: Vet. Detail: Good job. Mark: Perk. Why: I like it.”", bold: true, bullet: "•" },
+  { text: "What needs fixing?", bold: true, bullet: "•", spaceBefore: 12 },
+  { text: "No specific job duty or work setting", bullet: "•" },
+  { text: "No evidence-based personal reason", bullet: "•" },
+  { text: "No usable career source", bullet: "•" },
+  { text: "Write specific duties, real marks, reasons citing work values, and sources.", bullet: "•", spaceBefore: 12 },
 ], "17pt");
 setText(12, quickCenter, "A label alone is not evidence.");
 setParagraphs(12, quickWordBank, [
   { text: "Use the FYF table:", bold: true },
-  "DETAIL",
-  "MARK + WHY",
+  "CAREER DETAIL",
+  "MARK (P / N / Q)",
+  "REASON (WHY)",
   "SOURCE",
-  "STILL TO VERIFY",
 ], "15pt");
 
-setText(13, focusTitle, "FYF Ready Path: Done When");
+setText(13, focusTitle, "FYF Table: Done When");
 setParagraphs(13, focusBody, [
-  { text: "Your first Hat table has:", bold: true },
-  { text: "one Hat named", bullet: "✓" },
-  { text: "six actual career details", bullet: "✓" },
-  { text: "each detail marked perk, neutral, or quirk for you", bullet: "✓" },
-  { text: "a reason for your thinking", bullet: "✓" },
-  { text: "the source named", bullet: "✓" },
-  { text: "Finish one complete table before starting a second Hat. A second Hat is an extension.", bold: true, spaceBefore: 14 },
-]);
+  { text: "Your Table 1 on FYF p. 5 has:", bold: true },
+  { text: "at least four specific career details", bullet: "✓", spaceBefore: 10 },
+  { text: "a P / N / Q mark and personal reason for every detail", bullet: "✓" },
+  { text: "the information source clearly named", bullet: "✓" },
+  { text: "A second career table is optional.", bold: true, spaceBefore: 14 },
+], "24pt");
 
-setText(14, "Skills Check", "Verify One Result");
+setText(14, "Skills Check", "Demonstration of Learning");
 const verifyShape = textShape(14, "Each week, we will check in on our grades, planners, and goals.\n\nCheck your grades. If you don’t have a grade yet, write “N/A” for “not available.”\nGet your planner out. Answer the questions honestly.\nGet out your goal from last week. Look at it and reflect on your progress.\nCreate a new academic goal. ");
 verifyShape.text.set([
-  { runs: [{ run: "Show one confirmed result:", textStyle: { bold: true, fontSize: "18pt" } }] },
-  { bulletCharacter: "•", marginLeft: 22, indent: -12, runs: [{ run: "H&L or My Career Journey reflection completed", textStyle: { fontSize: "18pt" } }] },
-  { bulletCharacter: "•", marginLeft: 22, indent: -12, runs: [{ run: "Required Xello login + after-high-school goal completed", textStyle: { fontSize: "18pt" } }] },
-  { bulletCharacter: "•", marginLeft: 22, indent: -12, runs: [{ run: "One FYF p. 5 Hat table completed with marks and a source", textStyle: { fontSize: "18pt" } }] },
-  { spaceBefore: 18, runs: [{ run: "Review your first-week goal:", textStyle: { bold: true, fontSize: "18pt" } }] },
-  { runs: [{ run: "What progress did you make? What is your next small action?", textStyle: { fontSize: "18pt" } }] },
-  { spaceBefore: 18, runs: [{ run: "If a website was down today, tell your teacher which one.", textStyle: { fontSize: "18pt" } }] }
+  { runs: [{ run: "Demonstration of Learning:", textStyle: { bold: true, fontSize: "18pt" } }] },
+  { bulletCharacter: "✓", marginLeft: 22, indent: -12, runs: [{ run: "At least four specific career details", textStyle: { fontSize: "18pt" } }] },
+  { bulletCharacter: "✓", marginLeft: 22, indent: -12, runs: [{ run: "A P/N/Q mark and personal reason for every detail", textStyle: { fontSize: "18pt" } }] },
+  { bulletCharacter: "✓", marginLeft: 22, indent: -12, runs: [{ run: "Information source clearly named", textStyle: { fontSize: "18pt" } }] },
+  { spaceBefore: 18, runs: [{ run: "Check your work before packing up:", textStyle: { bold: true, fontSize: "18pt" } }] },
+  { runs: [{ run: "Did you explain WHY each detail is a perk, neutral, or quirk for you?", textStyle: { fontSize: "18pt" } }] },
+  { spaceBefore: 18, runs: [{ run: "Return workbooks to the class shelf and close tabs.", textStyle: { fontSize: "18pt" } }] }
 ]);
 verifyShape.frame = { left: 24, top: 115, width: 886, height: 395 };
 deleteImage(14);
 
-setText(15, "Exit: Debrief – Initiating Student Ownership in the Classroom", "Close: Name Your Next CCE Action");
+setText(15, "Exit: Debrief – Initiating Student Ownership in the Classroom", "Wrap-Up: First Week Complete!");
 setParagraphs(15, "What was your role in ensuring that this activity was successful? \nIn what ways do you feel more confident as a result of this activity? \nWhat can you do differently next time to ensure that similar activities are even more successful and beneficial?", [
-  { text: "Finish in your current notebook page or on the FYF page:", bold: true },
-  { text: "This week I completed ____.", spaceBefore: 16 },
-  { text: "My next CCE action is ____.", spaceBefore: 16 },
-  { text: "I will find it in ____.", spaceBefore: 16 },
-  { text: "No new upload. Keep goals, career uncertainty, and access problems private.", bold: true, spaceBefore: 16 },
+  { text: "Congratulations on completing Week 0!", bold: true },
+  { text: "This week you discovered your Core type, work values, and Building Blocks.", spaceBefore: 14 },
+  { text: "You completed your My Career Journey reflection and analyzed a career tradeoff.", spaceBefore: 14 },
+  { text: "Next week: We launch Cluster 1 — Manufacturing & Robotics!", spaceBefore: 14 },
+  { text: "Return workbooks and Chromebooks before dismissal.", bold: true, spaceBefore: 16 },
 ], "18pt");
 
 const notes = [
-  ["Time: 0:00-0:30", "Teacher move: Open the Friday lesson and name the outcome: one verified result, not three half-finished tasks.", "Student action: Open the notebook page, Chromebook, and FYF workbook.", "Look-for: Students know Friday is prioritized catch-up plus required Xello, not free choice.", "Recovery/access: Read the three pathway names aloud.", "Pivot/trim: Do not cut orientation; keep it under 30 seconds.", "[Sources]", "- Jenna Hainlen, AVID Week 1.6 slide 1, cover layout; owner-authorized reuse.", "- CCE Day 5 canonical lesson, accessed 2026-08-15.", "[/Sources]"],
-  ["Time: 0:30-1:00", "Teacher move: Use as the Friday divider while students open materials.", "Student action: Finish opening the required materials.", "Look-for: Chromebook, FYF workbook, and notebook page are ready.", "Recovery/access: Point to the Student Guide materials list.", "Pivot/trim: Keep this transition under 30 seconds.", "[Sources]", "- Jenna Hainlen, AVID Week 1.6 slide 16, Friday divider.", "[/Sources]"],
-  ["Time: 1:00-3:00", "Teacher move: Privately assign each student to core catch-up, Xello required, or FYF ready. Preview that the first result must be verified before moving.", "Student action: Write the unfinished task that must happen first.", "Look-for: Students do not choose the easiest path.", "Recovery/access: Hand a student the exact first path privately rather than projecting names.", "Pivot/trim: If readiness data is incomplete, begin with the earliest visible missing core input.", "[Sources]", "- Jenna Hainlen, AVID Week 1.6 slide 17, Welcome/Get Ready/Today's Lesson choreography.", "- CCE Day 5 private readiness list.", "[/Sources]"],
-  ["Time: 3:00-5:00", "Teacher move: Preserve Jenna's planning routine: three priorities, two No-Zone distractions, one first task. Remove points and compliance scoring.", "Student action: Number three priorities, circle the first, and name two private distractions to set aside.", "Look-for: The circled task matches the teacher-assigned path.", "Recovery/access: Students may use the projected list rather than invent all three tasks.", "Pivot/trim: If behind, require only the circled first priority and two No-Zone items.", "[Sources]", "- Jenna Hainlen, AVID Week 1.6 slide 9, focus-plan routine; owner-authorized reuse.", "- CCE Day 5 readiness check and focus plan.", "[/Sources]"],
-  ["Time: 5:00-7:00", "Teacher move: State focus expectations and launch the protected 20-minute block, which runs from minute 5 through minute 25. No points, table rewards, or behavior grade.", "Student action: Begin only the first assigned priority.", "Look-for: The focus plan stays visible and no student opens three tasks.", "Recovery/access: Offer a quiet/private work route and headphones only if campus policy allows.", "Pivot/trim: If a route fails, redirect within two minutes rather than troubleshooting all period.", "[Sources]", "- Jenna Hainlen, AVID Week 1.6 slides 9-10, bounded focus expectations.", "- CCE Day 5 protected focus block.", "[/Sources]"],
-  ["Time: 7:00-13:00", "Teacher move: Conference first with core catch-up students. Assign the earliest missing input, not the entire Friday menu.", "Student action: Complete the earliest missing core task or finish the same pending Minor 1 reflection.", "Look-for: One saved/finished result, not a replacement packet.", "Recovery/access: A missing platform result may be marked pending while independent sections continue.", "Pivot/trim: Broad H&L outage moves affected students to the verified offline/FYF route and records catch-up.", "[Sources]", "- CCE Day 5 core catch-up path.", "- H&L core profile sequence; district-licensed, authenticated use only.", "[/Sources]"],
-  ["Time: 13:00-19:00", "Teacher move: Work with students whose core is ready but Xello is incomplete. Verify district SSO, dashboard load, About Me, and one goal only.", "Student action: Complete required Xello login and choose one after-high-school goal.", "Look-for: Not sure yet, More school or training, or Alternate route is selected; Matchmaker is not opened.", "Recovery/access: State that the goal may change later and stays private.", "Pivot/trim: Record access errors exactly; do not mark an outage as missing effort.", "[Sources]", "- Bowie Grade 8 Xello Completion Standards, district-configured login and after-high-school goal requirement.", "- CCE Day 5 Xello boundary.", "[/Sources]"],
-  ["Time: 19:00-25:00", "Teacher move: Launch FYF only for students whose core and required Xello are ready. Model how to enter the first table from the Pest Control Technician example.", "Student action: Choose one Hat and begin the first six-detail table.", "Look-for: Actual career details, personal marks, and a named source.", "Recovery/access: Read the six actions aloud and keep the complete model available later in the deck.", "Pivot/trim: No workbook uses one accepted notebook/paper table with no later recopying.", "[Sources]", "- Find Your Future pp. 4-5, Perks and Quirks; district-licensed, authenticated use only.", "- CCE Day 5 ready path.", "[/Sources]"],
-  ["Time: 25:00 checkpoint (no added minutes)", "Teacher move: Run the canonical minute-25 look-for without creating a separate work block. Verify one visible result before anyone changes tasks.", "Student action: Show a core, Xello, FYF, or documented pending result.", "Look-for: One visible result, not three partially opened tasks.", "Recovery/access: Let students point to the result instead of explaining publicly.", "Pivot/trim: A platform outage goes in Pending with the exact recovery route; move immediately into the minute 25-40 block.", "[Sources]", "- Jenna Hainlen, AVID Week 1.6 slide 20, evaluate/share checkpoint frame.", "- CCE Day 5 minute 25 look-for.", "[/Sources]"],
-  ["Time: 25:00-26:00", "Teacher move: Launch the second-priority window, which runs from minute 25 through minute 40, and restate the movement rule.", "Student action: Continue or move one step in the required order after verification.", "Look-for: Core moves to Xello; Xello moves to FYF; FYF finishes one table.", "Recovery/access: Keep each student's next path private and specific.", "Pivot/trim: Protect the first required result; a second Hat is the first trim.", "[Sources]", "- Jenna Hainlen, AVID Week 1.6 slide 10, focused-work expectations frame.", "- CCE Day 5 second priority block.", "[/Sources]"],
-  ["Time: 26:00-30:00", "Teacher move: Read the complete FYF model and point to detail, mark, why, source, and still-to-verify.", "Student action: Identify why the mark is personal rather than universally good or bad.", "Look-for: Students can name a usable source and an unanswered question.", "Recovery/access: Keep the five-part model visible for FYF students; others continue assigned work.", "Pivot/trim: If few students are ready for FYF, teach the model to that small group.", "[Sources]", "- CCE Day 5 complete model.", "- Find Your Future pp. 4-5, Perks and Quirks; district-licensed, authenticated use only.", "[/Sources]"],
-  ["Time: 30:00-32:00", "Teacher move: Show the non-model and ask what evidence is missing.", "Student action: Identify missing detail, personal reason, and usable source.", "Look-for: Students stop writing Good job or Google as evidence.", "Recovery/access: Read the five table labels aloud.", "Pivot/trim: If behind, state the three fixes in 30 seconds.", "[Sources]", "- CCE Day 5 non-model.", "- Jenna Hainlen, AVID Week 1.6 slide 18, quickwrite/model frame.", "[/Sources]"],
-  ["Time: 32:00-40:00", "Teacher move: Keep the second-priority block running until minute 40. Check the one-table minimum and redirect any student who started an unsourced search or second Hat early.", "Student action: Finish one complete six-detail Hat table or the assigned required result.", "Look-for: FYF work has six details, six personal marks, reasons, and a source; other paths show their required result.", "Recovery/access: Accept the no-workbook fallback without later recopying.", "Pivot/trim: Cut the second Hat and any whole-group share first; stop work at minute 40 for final verification.", "[Sources]", "- Find Your Future pp. 4-5, Perks and Quirks; district-licensed, authenticated use only.", "- CCE Day 5 FYF minimum and second-priority block.", "[/Sources]"],
-  ["Time: 40:00-45:00", "Teacher move: Verify one end-of-week result and ask for a brief first-week goal review. Record remaining access problems.", "Student action: Show one result and name one next small action.", "Look-for: The verified result matches one of the three Demonstration of Learning routes.", "Recovery/access: A platform outage is documented as an access problem, not missing effort.", "Pivot/trim: Protect verification; skip any voluntary sharing.", "[Sources]", "- Jenna Hainlen, AVID Week 1.6 slide 6, weekly skills/goal review structure.", "- CCE Day 5 Demonstration of Learning.", "[/Sources]"],
-  ["Time: 45:00-50:00", "Teacher move: Run the three-line close and name the exact catch-up location for any remaining requirement.", "Student action: Complete the sentence in the current notebook/FYF page; no new upload.", "Look-for: Completed result, next action, and where to find it.", "Recovery/access: Read the three stems aloud; keep goals and access problems private.", "Pivot/trim: Protect the next-action line even in a shortened period.", "[Sources]", "- Jenna Hainlen, AVID Week 1.6 slide 21, debrief/ownership close.", "- Jeswin Thomas, man in brown sweater sitting on chair, https://unsplash.com/photos/man-in-brown-sweater-sitting-on-chair--hgJu2ykh4E, Unsplash License, accessed 2026-08-15; source-deck image and on-slide credit retained.", "- CCE Day 5 close.", "[/Sources]"],
+  ["Time: 0:00-1:00", "Teacher move: Welcome students and name the single response home: FYF p. 5.", "Student action: Open the workbook to pp. 4-5.", "Look-for: Every student has the correct page or equivalent paper route.", "Recovery/access: Point to the Student Guide response-home box.", "Pivot/trim: Keep setup to one minute.", "[Sources]", "- CCE Day 5 canonical lesson, revised 2026-08-24.", "[/Sources]"],
+  ["Time: 1:00-3:00", "Teacher move: Guide materials setup and preview today's three steps.", "Student action: Prepare the workbook, pencil, and approved career source.", "Look-for: Materials are ready before the Do Now discussion.", "Recovery/access: Provide the teacher profile to students without a source.", "Pivot/trim: Start the prompt by minute 3.", "[Sources]", "- CCE Day 5 canonical lesson.", "[/Sources]"],
+  ["Time: 3:00-5:00", "Teacher move: Ask whether outdoor Texas-summer work is a perk, neutral, or quirk and take two contrasting reasons.", "Student action: Decide silently, signal with a hand cue, and explain a preference.", "Look-for: Students notice the same fact can receive different marks.", "Recovery/access: Use thumbs up, flat hand, and thumbs down.", "Pivot/trim: Take no more than two shares.", "[Sources]", "- CCE Day 5 Do Now.", "[/Sources]"],
+  ["Time: 5:00-8:00", "Teacher move: State the learning target and one-response-home rule.", "Student action: Review the three goals and FYF p. 5 deliverable.", "Look-for: Students can name where they will write.", "Recovery/access: Point directly to the first table on p. 5.", "Pivot/trim: Move to vocabulary by minute 8.", "[Sources]", "- CCE Day 5 Daily Learning Contract.", "[/Sources]"],
+  ["Time: 8:00-12:00", "Teacher move: Define perk, neutral, and quirk with the visual hand cues.", "Student action: Repeat the three marks and connect each to a meaning.", "Look-for: Students do not use quirk as a synonym for universally bad.", "Recovery/access: Use the focused word bank and optional home-language equivalents.", "Pivot/trim: Protect the neutral definition.", "[Sources]", "- Find Your Future pp. 4-5.", "[/Sources]"],
+  ["Time: 12:00-15:00", "Teacher move: Show how one changing-schedule fact can receive three different marks.", "Student action: Compare the reasons and identify the preference behind each.", "Look-for: Students separate the objective fact from the personal judgment.", "Recovery/access: Read each reason aloud.", "Pivot/trim: Ask one quick check question.", "[Sources]", "- CCE Day 5 guided example.", "[/Sources]"],
+  ["Time: 15:00-20:00", "Teacher move: Teach the evidence formula: fact, mark, personal reason, source.", "Student action: Rehearse the optional sentence stem with a partner.", "Look-for: Oral responses name a value or preference.", "Recovery/access: Keep the formula visible during writing.", "Pivot/trim: Call on one pair only.", "[Sources]", "- CCE Day 5 complete-model routine.", "[/Sources]"],
+  ["Time: 20:00-25:00", "Teacher move: Identify useful fact types on FYF p. 4 and reject vague labels.", "Student action: Locate a duty, schedule, work-setting, training, or tools fact.", "Look-for: Students can point to a specific career fact.", "Recovery/access: Provide the teacher profile if needed.", "Pivot/trim: Transition to Table 1 at minute 25.", "[Sources]", "- Find Your Future pp. 4-5.", "[/Sources]"],
+  ["Time: 25:00 checkpoint (no added minutes)", "Teacher move: Verify that every student has selected a career and opened Table 1.", "Student action: Point to the career name and first row.", "Look-for: Every student is ready to write.", "Recovery/access: Assign the teacher-provided career profile.", "Pivot/trim: Begin the full model immediately.", "[Sources]", "- CCE Day 5 minute-25 checkpoint.", "[/Sources]"],
+  ["Time: 25:00-28:00", "Teacher move: Walk through the four-detail Veterinary Technician model.", "Student action: Identify the fact, mark, reason, and source in each row.", "Look-for: Students see that marks are supported, not guessed.", "Recovery/access: Read one row aloud and point to each part.", "Pivot/trim: Highlight the source field.", "[Sources]", "- CCE Day 5 complete model.", "[/Sources]"],
+  ["Time: 28:00-31:00", "Teacher move: Zoom in on one complete model row and think aloud about predictable hours.", "Student action: Explain how the preference supports the mark.", "Look-for: Students use because to connect mark and preference.", "Recovery/access: Offer the sentence stem.", "Pivot/trim: Move to the non-model after one share.", "[Sources]", "- CCE Day 5 model row.", "[/Sources]"],
+  ["Time: 31:00-33:00", "Teacher move: Show the non-model and ask, 'What information is missing?'", "Student action: Name the missing specific fact, personal reason, or source.", "Look-for: Students reject vague praise as evidence.", "Recovery/access: Point to the four-part formula.", "Pivot/trim: Spend two minutes maximum.", "[Sources]", "- CCE Day 5 non-model.", "[/Sources]"],
+  ["Time: 33:00-45:00", "Teacher move: Monitor Table 1 and ask, 'What does the worker actually do, use, study, or experience?'", "Student action: Complete at least four rows with marks, reasons, and a source.", "Look-for: Specific facts and personal work-value connections.", "Recovery/access: Provide word bank, oral rehearsal, and the teacher profile.", "Pivot/trim: At minute 40, students star and rehearse their strongest row.", "[Sources]", "- Find Your Future p. 5.", "- CCE Day 5 independent practice.", "[/Sources]"],
+  ["Time: 45:00-48:00", "Teacher move: Run the three-item Done When check and ask one student to finish the reflection stem.", "Student action: Verify four facts, complete reasons, and a named source.", "Look-for: One complete FYF p. 5 table.", "Recovery/access: Teacher checks the strongest starred row first.", "Pivot/trim: Do not add a second submission.", "[Sources]", "- CCE Day 5 Demonstration of Learning.", "[/Sources]"],
+  ["Time: 48:00-50:00", "Teacher move: Preview Week 1 and guide the established cleanup routine.", "Student action: Return workbooks and devices to the assigned locations.", "Look-for: FYF p. 5 remains open for a quick scan.", "Recovery/access: Collect equivalent paper tables in the class folder.", "Pivot/trim: Protect the two-minute close.", "[Sources]", "- CCE Day 5 wrap-up.", "[/Sources]"],
 ];
 
 if (notes.length !== presentation.slides.items.length) throw new Error("Notes/slide count mismatch");
 notes.forEach((entry, index) => setNotes(index + 1, entry));
 
 const schedule = [
-  { phase: "readiness", start: 0, end: 0.5, label: "Time: 0:00-0:30" },
-  { phase: "readiness", start: 0.5, end: 1, label: "Time: 0:30-1:00" },
+  { phase: "readiness", start: 0, end: 1, label: "Time: 0:00-1:00" },
   { phase: "readiness", start: 1, end: 3, label: "Time: 1:00-3:00" },
   { phase: "readiness", start: 3, end: 5, label: "Time: 3:00-5:00" },
-  { phase: "protected", start: 5, end: 7, label: "Time: 5:00-7:00" },
-  { phase: "protected", start: 7, end: 13, label: "Time: 7:00-13:00" },
-  { phase: "protected", start: 13, end: 19, label: "Time: 13:00-19:00" },
-  { phase: "protected", start: 19, end: 25, label: "Time: 19:00-25:00" },
+  { phase: "framework", start: 5, end: 8, label: "Time: 5:00-8:00" },
+  { phase: "framework", start: 8, end: 12, label: "Time: 8:00-12:00" },
+  { phase: "framework", start: 12, end: 15, label: "Time: 12:00-15:00" },
+  { phase: "framework", start: 15, end: 20, label: "Time: 15:00-20:00" },
+  { phase: "framework", start: 20, end: 25, label: "Time: 20:00-25:00" },
   { phase: "checkpoint", start: 25, end: 25, label: "Time: 25:00 checkpoint (no added minutes)" },
-  { phase: "second", start: 25, end: 26, label: "Time: 25:00-26:00" },
-  { phase: "second", start: 26, end: 30, label: "Time: 26:00-30:00" },
-  { phase: "second", start: 30, end: 32, label: "Time: 30:00-32:00" },
-  { phase: "second", start: 32, end: 40, label: "Time: 32:00-40:00" },
-  { phase: "verify", start: 40, end: 45, label: "Time: 40:00-45:00" },
-  { phase: "close", start: 45, end: 50, label: "Time: 45:00-50:00" },
+  { phase: "practice", start: 25, end: 28, label: "Time: 25:00-28:00" },
+  { phase: "practice", start: 28, end: 31, label: "Time: 28:00-31:00" },
+  { phase: "practice", start: 31, end: 33, label: "Time: 31:00-33:00" },
+  { phase: "practice", start: 33, end: 45, label: "Time: 33:00-45:00" },
+  { phase: "verify", start: 45, end: 48, label: "Time: 45:00-48:00" },
+  { phase: "close", start: 48, end: 50, label: "Time: 48:00-50:00" },
 ];
 schedule.forEach((entry, index) => {
   if (entry.end < entry.start) throw new Error(`Day 5 schedule reverses on slide ${index + 1}`);
@@ -281,7 +293,7 @@ const phaseMinutes = schedule.reduce((totals, entry) => ({
   [entry.phase]: (totals[entry.phase] || 0) + entry.end - entry.start,
 }), {});
 if (schedule.at(-1).end !== 50) throw new Error("Day 5 schedule does not end at minute 50");
-if (phaseMinutes.readiness !== 5 || phaseMinutes.protected !== 20 || phaseMinutes.second !== 15 || phaseMinutes.verify !== 5 || phaseMinutes.close !== 5) {
+if (phaseMinutes.readiness !== 5 || phaseMinutes.framework !== 20 || phaseMinutes.practice !== 20 || phaseMinutes.verify !== 3 || phaseMinutes.close !== 2) {
   throw new Error(`Day 5 phase timing drift: ${JSON.stringify(phaseMinutes)}`);
 }
 

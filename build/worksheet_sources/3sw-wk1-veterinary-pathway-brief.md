@@ -54,7 +54,7 @@ What the triage case showed about critical thinking:
 
 [[lines: 2]]
 
-One transferable skill from the Xello Skills lesson and how it appears in the career:
+One transferable skill from the Week 1 skill bank and how it appears in the career:
 
 [[lines: 2]]
 

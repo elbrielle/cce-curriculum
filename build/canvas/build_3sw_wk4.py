@@ -1,6 +1,7 @@
 """Build the unpublished 3SW Week 4 Culinary Arts and Hospitality Canvas module."""
 
 import asyncio
+import hashlib
 import json
 import mimetypes
 import re
@@ -12,6 +13,18 @@ import httpx
 
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/1YLGzjVI3VE_xM2V1dANeq7jZUitsX5BTcGrC6cZHP8Y/copy",
+    2: "https://docs.google.com/document/d/1hAmq_I2By-nnBtDjRtDGuUon_2eJnz7V0ZsitzvTJE4/copy",
+    3: "https://docs.google.com/document/d/1Oj57OAJ46I6-ijz_4a9LBza-ZZMgA_muvR8CecuDDOQ/copy",
+    4: "https://docs.google.com/document/d/1PHXZ80hxX5neGBfEndFiOYzoDXbPoiCJwyLmTZTcCDM/copy",
+    5: "https://docs.google.com/document/d/1Wr0rdse241awjwewFuL4EWTFm-P4KpM39_vv58Xx_fM/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
 MODULE_NAME = "3SW Wk4: Culinary Arts and Hospitality"
 ANNOTATION_TITLE = "PRACTICE: Culinary Twist Menu Design"
 QUIZ_TITLE = "PRACTICE: Motivation Check"
@@ -157,12 +170,51 @@ async def upload(client, path, folder_path):
     )
     response.raise_for_status()
     uploaded = response.json()
-    record = await api(
+    await api(
         client, "PUT", f"/files/{uploaded['id']}", data={"locked": "true"}
     )
+    record = await api(client, "GET", f"/files/{uploaded['id']}")
     if not record.get("locked"):
         raise RuntimeError(f"Canvas did not lock uploaded file {path.name!r}")
     return record
+
+
+async def equivalent_locked_file(client, actual_id, expected_id):
+    if not actual_id or not expected_id:
+        return False
+    actual = await api(client, "GET", f"/files/{actual_id}")
+    expected = await api(client, "GET", f"/files/{expected_id}")
+    actual_name = actual.get("filename") or actual.get("display_name")
+    expected_name = expected.get("filename") or expected.get("display_name")
+    hashes_match = (
+        not actual.get("md5")
+        or not expected.get("md5")
+        or actual.get("md5") == expected.get("md5")
+    )
+    return (
+        actual_name == expected_name
+        and actual.get("folder_id") == expected.get("folder_id")
+        and int(actual.get("size") or 0) == int(expected.get("size") or 0)
+        and bool(actual.get("locked"))
+        and hashes_match
+    )
+
+
+async def locked_attachment_matches_local(client, actual_id, expected_path, folder_id):
+    if not actual_id:
+        return False
+    actual = await api(client, "GET", f"/files/{actual_id}")
+    actual_name = actual.get("filename") or actual.get("display_name")
+    local_md5 = hashlib.md5(expected_path.read_bytes()).hexdigest()
+    hash_matches = not actual.get("md5") or actual.get("md5") == local_md5
+    # Canvas copies annotatable PDFs into its managed Student Annotation Documents
+    # folder. Validate the locked copy itself rather than requiring the source folder.
+    return (
+        actual_name == expected_path.name
+        and int(actual.get("size") or 0) == expected_path.stat().st_size
+        and bool(actual.get("locked"))
+        and hash_matches
+    )
 
 
 async def lock_folder_files(client, folder):
@@ -218,7 +270,13 @@ async def upsert_page(client, title, body):
 
 
 async def upsert_practice_assignment(
-    client, title, description, submission_types, annotatable_attachment_id=None
+    client,
+    title,
+    description,
+    submission_types,
+    annotatable_attachment_id=None,
+    annotatable_attachment_path=None,
+    annotatable_folder_id=None,
 ):
     assignments = await paged(client, f"/courses/{COURSE_ID}/assignments")
     matches = [entry for entry in assignments if entry.get("name") == title]
@@ -248,16 +306,31 @@ async def upsert_practice_assignment(
         ),
         data=data,
     )
+    if annotatable_attachment_id:
+        for delay in (0, 0.25, 0.5, 1.0):
+            if delay:
+                await asyncio.sleep(delay)
+            assignment = await api(
+                client,
+                "GET",
+                f"/courses/{COURSE_ID}/assignments/{assignment['id']}",
+            )
+            if str(assignment.get("annotatable_attachment_id") or "") == str(
+                annotatable_attachment_id
+            ):
+                break
+    attachment_ok = not annotatable_attachment_id or await locked_attachment_matches_local(
+        client,
+        assignment.get("annotatable_attachment_id"),
+        annotatable_attachment_path,
+        annotatable_folder_id,
+    )
     if (
         assignment.get("published")
         or float(assignment.get("points_possible") or 0) != 0
         or assignment.get("grading_type") != "not_graded"
         or not assignment.get("omit_from_final_grade")
-        or (
-            annotatable_attachment_id
-            and assignment.get("annotatable_attachment_id")
-            != annotatable_attachment_id
-        )
+        or not attachment_ok
     ):
         raise RuntimeError(
             f"Formative assignment invariant failed for {title!r}: "
@@ -621,6 +694,8 @@ async def main():
             "<p><strong>Workbook route:</strong> complete FYF pp. 112-113, then use text entry for the reader revision and transferable-skill check. <strong>No-workbook route:</strong> annotate the Culinary Twist brief or upload the same evidence. Students do not complete both the workbook and the full brief. Paper, Canva, and Adobe Express are equal routes.</p><p>Text-entry prompts: What did you revise so a customer can understand the item? Which skill transfers to another career, and how?</p>",
             ["student_annotation", "online_upload", "online_text_entry"],
             files["MENU"]["id"],
+            ROOT / "docs/resources/worksheets" / names["MENU"],
+            support_folder["id"],
         )
         recommendation = await update_minor_assignment(client, recommendation)
         quiz = await upsert_quiz(client)
@@ -711,7 +786,7 @@ async def main():
                 "TITLE": "Culinary Twist Menu Design",
                 "PURPOSE": "Create a menu item that responds to an ingredient constraint and communicates clearly to a customer.",
                 "TODAY": "<ul><li>explore hospitality work;</li><li>plan a fictional dish;</li><li>design, test, and revise a menu item.</li></ul>",
-                "READY": f'<p><strong>Default route:</strong> open your workbook to FYF pp. 112-113. After the menu, use <a href="{annotation_url}">the practice text entry</a> for the two short evidence checks. Use {file_link(files["MENU"]["id"], "the optional no-workbook brief")} or its Canvas annotation route only if you cannot write in the workbook. Do not complete both the workbook and the full brief.</p><p><strong>Safety boundary:</strong> this is a design task. Do not prepare or taste food.</p>',
+                "READY": f'<p><strong>Default route:</strong> open your workbook to FYF pp. 112-113. After the menu, use <a href="{annotation_url}">the practice text entry</a> for the two short evidence checks. Use {student_copy_link(1, "the optional no-workbook brief")} or its Canvas annotation route only if you cannot write in the workbook. Do not complete both the workbook and the full brief.</p><p><strong>Safety boundary:</strong> this is a design task. Do not prepare or taste food.</p>',
                 "MEDIA": image_tag(
                     visuals[1]["fyf-hospitality-opener-optimized.jpg"]["id"],
                     "Find Your Future hospitality and tourism cluster opener",
@@ -753,7 +828,7 @@ async def main():
                 "TITLE": "Motivation and Three-Career Comparison",
                 "PURPOSE": "Use motivation ideas and one fixed evidence set to compare three hospitality careers.",
                 "TODAY": "<ul><li>distinguish intrinsic and extrinsic motivation;</li><li>design a short competition plan;</li><li>compare three careers using the same measures.</li></ul>",
-                "READY": f'<p>Open your workbook to FYF p. 122. Also open {file_link(files["MOTIVATION"]["id"], "the two-page Hospitality Career Comparison")} and {file_link(files["CAREERS"]["id"], "the Hospitality Career Evidence Guide")}.</p>',
+                "READY": f'<p>Open your workbook to FYF p. 122. Also open {student_copy_link(2, "the two-page Hospitality Career Comparison")} and {file_link(files["CAREERS"]["id"], "the Hospitality Career Evidence Guide")}.</p>',
                 "MEDIA": image_tag(
                     visuals[2]["fyf-motivation-types.png"]["id"],
                     "Find Your Future intrinsic and extrinsic motivation examples",
@@ -791,7 +866,7 @@ async def main():
                 "TITLE": "Hotel Rescue Team Response",
                 "PURPOSE": "Use one hotel role to help solve a service crisis without making an unsafe or unverified promise.",
                 "TODAY": "<ul><li>prepare one role response;</li><li>coordinate three or more roles;</li><li>transfer the process to a small business.</li></ul>",
-                "READY": f'<p>Open your workbook to FYF pp. 117-118 and {file_link(files["RESPONSE"]["id"], "the two-page individual response")}. Your teacher will project or share one team copy of {file_link(files["CARDS"]["id"], "the role and crisis cards")}.</p>',
+                "READY": f'<p>Open your workbook to FYF pp. 117-118 and {student_copy_link(3, "the two-page individual response")}. Your teacher will project or share one team copy of {file_link(files["CARDS"]["id"], "the role and crisis cards")}.</p>',
                 "MEDIA": image_tag(
                     visuals[3]["fyf-hotel-rescue-roles.png"]["id"],
                     "Find Your Future Hotel Rescue roles and crisis choices",
@@ -829,7 +904,7 @@ async def main():
                 "TITLE": "Cater and Create Client Experience",
                 "PURPOSE": "Design a connected event experience that fits one client, feeling, and practical limit.",
                 "TODAY": "<ul><li>define the client and business goal;</li><li>connect menu, space, and service choices;</li><li>test and revise the plan.</li></ul>",
-                "READY": f'<p>Open your workbook to FYF pp. 119-120 and {file_link(files["EVENT"]["id"], "the one-page Cater and Create companion")}.</p><p>Use a fictional client. Do not include a real name, address, contact information, payment detail, or public post.</p>',
+                "READY": f'<p>Open your workbook to FYF pp. 119-120 and {student_copy_link(4, "the one-page Cater and Create companion")}.</p><p>Use a fictional client. Do not include a real name, address, contact information, payment detail, or public post.</p>',
                 "MEDIA": image_tag(
                     visuals[4]["fyf-cater-create-menu.png"]["id"],
                     "Find Your Future Cater and Create menu directions",
@@ -867,7 +942,7 @@ async def main():
                 "TITLE": "Hospitality Career and Business Recommendation",
                 "PURPOSE": "Use the week's evidence to recommend one career and explain a related business opportunity.",
                 "TODAY": "<ul><li>audit the three-career evidence;</li><li>plan from Jordan's scenario;</li><li>write and self-score an individual recommendation.</li></ul>",
-                "READY": f'<p>Open {file_link(files["RECOMMENDATION"]["id"], "the Hospitality Recommendation")}, {file_link(files["RUBRIC"]["id"], "the 16-point rubric")}, and {file_link(files["CAREERS"]["id"], "the fixed evidence guide")}.</p>',
+                "READY": f'<p>Open {student_copy_link(5, "the Hospitality Recommendation")}, {file_link(files["RUBRIC"]["id"], "the 16-point rubric")}, and {file_link(files["CAREERS"]["id"], "the fixed evidence guide")}.</p>',
                 "MEDIA": image_tag(
                     visuals[5]["fyf-irving-hospitality-context.png"]["id"],
                     "Find Your Future Irving hospitality and culinary program context",
@@ -896,7 +971,7 @@ async def main():
                 "EXIT": "<p>Which evidence changed the recommendation most: the task, preparation route, or schedule? Why do the other two still matter?</p>",
                 "DONE": "<ul><li>all three careers considered;</li><li>five to seven sentences;</li><li>number retains source meaning;</li><li>trade-off and business opportunity;</li><li>rubric self-check.</li></ul>",
                 "SUPPORT": "<p>recommendation = recomendación · evidence = evidencia · preparation = preparación · schedule = horario · business = negocio. Numbered sentence jobs and ten full-width writing lines are provided.</p>",
-                "FALLBACK": "<p>The fixed guide, prompt, and rubric are the complete route. Xello Decision Making, eDynamic 6.1, and H&amp;L App Exploration are optional extensions only.</p>",
+                "FALLBACK": "<p>The fixed guide, prompt, and rubric are the complete route. eDynamic 6.1 and H&amp;L App Exploration are optional extensions only.</p>",
             },
         }
 
@@ -1034,7 +1109,7 @@ async def main():
                     "#1f617a", "Self-score and submit · 5", "Revise one weak criterion."
                 ),
                 "MONITOR": "<p><strong>Model only the evidence chain:</strong> Lodging Manager → coordinates guest service and hotel operations → $68,130 May 2024 U.S. median annual pay → evenings/weekends may be required → a small lodging or guest-service business sells and coordinates a verified service. Students still choose Jordan's fit. <strong>Lap:</strong> at minute 25, each plan has a task, labeled number, trade-off, and business opportunity. If more than 25% has a preference without evidence, model how one row becomes one sentence. Any career can earn full credit with accurate fit. Score four 0-4 criteria and convert `(raw ÷ 16) × 100`, rounded. Score content, not mechanics unless meaning is unclear. <strong>Trim:</strong> reduce the warm-up share or verbal debrief; preserve recommendation, rubric revision, private submission, and reset.</p>",
-                "RESOURCES": '<p><a href="https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte/singley-academy">Current Singley Academy programs</a> · current district pages for Lodging and Resort Management. Xello Decision Making, eDynamic 6.1, and H&amp;L App Exploration are optional extensions.</p>',
+                "RESOURCES": '<p><a href="https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte/singley-academy">Current Singley Academy programs</a> · current district pages for Lodging and Resort Management. eDynamic 6.1 and H&amp;L App Exploration are optional extensions.</p>',
                 "SUPPORT": "<p>Use five planning fields and keep the numbered sentence jobs beside the ten full-width writing lines. Speech-to-text, keyboard entry, and teacher scribing are equal routes.</p>",
                 "FALLBACK": "<p>The fixed packet is the complete absence and platform-failure route. Do not add favorite counts or screenshots to the evidence requirement.</p>",
             },
@@ -1187,12 +1262,18 @@ async def main():
         )
         if module.get("published"):
             raise RuntimeError("3SW Wk4 module unexpectedly published")
+        annotation_attachment_ok = await locked_attachment_matches_local(
+            client,
+            annotation.get("annotatable_attachment_id"),
+            ROOT / "docs/resources/worksheets" / names["MENU"],
+            support_folder["id"],
+        )
         if (
             annotation.get("published")
             or float(annotation.get("points_possible") or 0) != 0
             or annotation.get("grading_type") != "not_graded"
             or not annotation.get("omit_from_final_grade")
-            or annotation.get("annotatable_attachment_id") != files["MENU"]["id"]
+            or not annotation_attachment_ok
         ):
             raise RuntimeError("3SW Wk4 formative annotation invariant failed")
         if (

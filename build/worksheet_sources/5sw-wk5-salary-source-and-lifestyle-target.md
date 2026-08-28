@@ -14,7 +14,7 @@ orientation: portrait
 
 > **SOURCE -> LABEL -> DECISION**  A salary number is useful only when the label travels with it.
 
-Preferred source: Xello localized salary with the displayed geography, measure, and date. If Xello is unavailable or its label is unclear, use the fixed Electricians card below.
+Use the fixed Electricians card below as the common source. Xello may add a separately labeled local cross-check when the geography, measure, and date are visible; it is not a required task.
 
 | Fixed no-login card | Current evidence |
 |---|---|
@@ -75,7 +75,7 @@ One choice I could change if the math does not work:
 | 2 |  |  |
 | 3 |  |  |
 
-Trend evidence from Xello or the fixed BLS card:
+Trend evidence from the fixed BLS card or an optional labeled Xello cross-check:
 
 [[lines: 3]]
 

@@ -28,6 +28,7 @@ from build_wk0 import (
     resolve_folder_files,
     upload,
 )
+from normalize_embedded_image_access import normalize as normalize_resource_access
 
 
 DAYS = {
@@ -104,8 +105,9 @@ async def exact_folder(client, folder_path):
         raise RuntimeError(
             f"Unexpected Canvas folder path: {folder.get('full_name')!r}"
         )
-    if folder.get("locked") is not True:
-        raise RuntimeError(f"Canvas folder is not locked: {folder_path}")
+    # Module publication is the release gate. Referenced images, PDFs, and their
+    # folder chains stay open for enrolled students, so do not require a locked
+    # folder here.
     return folder
 
 
@@ -117,6 +119,20 @@ async def exact_page(client, url, title):
             f"url={page.get('url')!r} title={page.get('title')!r}"
         )
     return page
+
+
+async def assert_replacement(client, before_id, after_id, label):
+    """Canvas ``on_duplicate=overwrite`` replaces the attachment: the old ID keeps
+    resolving (redirecting) to the new record. Accept identical IDs or a resolved
+    replacement; reject anything else (which would mean a duplicate file)."""
+    if before_id == after_id:
+        return
+    resolved = await api(client, "GET", f"/files/{before_id}")
+    if resolved.get("id") != after_id:
+        raise RuntimeError(
+            f"{label} overwrite created a duplicate instead of a replacement: "
+            f"before={before_id} after={after_id} resolved={resolved.get('id')}"
+        )
 
 
 def page_payload(page, body):
@@ -182,11 +198,7 @@ async def main() -> None:
                 DECK_ROOT / DAYS[day]["deck_name"],
                 "course files/CCR Materials/1SW/Wk0",
             )
-            if uploaded.get("id") != support_before[key].get("id"):
-                raise RuntimeError(
-                    f"Day {day} deck overwrite changed Canvas file identity: "
-                    f"before={support_before[key].get('id')} after={uploaded.get('id')}"
-                )
+            await assert_replacement(client, support_before[key].get("id"), uploaded.get("id"), f"Day {day} deck")
 
         _, support_files_after = await lock_folder_files(
             client,
@@ -231,10 +243,7 @@ async def main() -> None:
                 ASSET_ROOT / f"day{day}" / route_name,
                 f"course files/CCR Materials/1SW/Wk0/Day {day} Visuals",
             )
-            if uploaded.get("id") != before[route_name].get("id"):
-                raise RuntimeError(
-                    f"Day {day} route image overwrite changed Canvas file identity"
-                )
+            await assert_replacement(client, before[route_name].get("id"), uploaded.get("id"), f"Day {day} route image")
             _, files_after = await lock_folder_files(
                 client, folder, spec["visual_names"]
             )
@@ -295,6 +304,16 @@ async def main() -> None:
                     data=page_payload(page, body),
                 )
 
+        # Legacy upload helpers intentionally lock files while replacing them.
+        # Reopen every page-referenced file and its complete folder ancestry
+        # before declaring the reconciliation successful. This call is
+        # publication-neutral and fails closed on cross-course references.
+        resource_access = await normalize_resource_access(
+            client,
+            check_only=False,
+            manage_home=False,
+        )
+
         module_after = await api(
             client, "GET", f"/courses/{COURSE_ID}/modules/{MODULE_ID}"
         )
@@ -324,7 +343,8 @@ async def main() -> None:
                         f"Day {day} {role} page publication state changed"
                     )
                 body = after.get("body") or ""
-                if GOOGLE_DECK_COPY_URLS[day] not in body:
+                # Only the teacher guide links the Google deck copy; student pages do not.
+                if role == "teacher" and GOOGLE_DECK_COPY_URLS[day] not in body:
                     raise RuntimeError(
                         f"Day {day} {role} page is missing the current Google deck"
                     )
@@ -357,6 +377,7 @@ async def main() -> None:
                         "2": support["D2_DECK"]["id"],
                         "3": support["D3_DECK"]["id"],
                     },
+                    "resource_access": resource_access,
                 },
                 indent=2,
             )

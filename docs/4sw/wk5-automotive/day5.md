@@ -23,7 +23,7 @@
 2. For paper, print one four-page brief and one two-page rubric per student; collect the complete brief and self-score in one tray. Students use paper or a digital response, not both.
 3. Return Days 1-4 evidence. A student missing prior work uses the complete supplied model and fixed Student Guide evidence strip; do not require reconstruction of four lessons.
 4. Display the minute-18 and minute-42 checkpoints. Keep the same Assignment available for a teacher-scheduled recovery window.
-5. Do not schedule Xello **Save careers** again. It belongs earlier in the required Grade 8 sequence. H&L and Xello career browsing are optional extensions only.
+5. No Xello completion task is assigned. H&L and Xello career browsing are optional evidence sources only.
 
 ## Warm-up: Strong claim or overclaim? (5 min)
 

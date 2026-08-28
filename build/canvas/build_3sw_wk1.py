@@ -12,15 +12,36 @@ import httpx
 
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/1tUjxDHMoObf5GIMacCWbeQiApPxelAgu2h_DLD7xfNw/copy",
+    2: "https://docs.google.com/document/d/1a7hYSv1LUJMWkAlXIH7UQUIzPc9UZwLFK5HStW3TRPM/copy",
+    3: "https://docs.google.com/document/d/1r_kWaNCe-UX4rasWsGJurNMn2YDBNM2Q7DDMJD5dGMk/copy",
+    4: "https://docs.google.com/document/d/1VR5W3xQb0EC_qXUJ-qc4GDZZ3hRGSIBQxhGbqDjdBrI/copy",
+    5: "https://docs.google.com/document/d/1KaDsqzdwurIQ2w1VkY2uOGRWd7p6xgLEXHQtTpGpvIY/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
+
+def student_copy_button(day, label):
+    return (
+        f'<p><a href="{STUDENT_GOOGLE_COPY_URLS[day]}" target="_blank" '
+        'style="display:inline-block;background:#1f617a;color:#fff;padding:11px 18px;'
+        'border-radius:6px;text-decoration:none"><strong>'
+        f'{label}</strong></a></p>'
+    )
+
 MODULE_NAME = "3SW Wk1: Veterinary Science"
 QUIZ_TITLE = "PRACTICE: Veterinary Triage Evidence Check"
-ASSIGNMENT_TITLE = "PRACTICE: Xello Skills Reflection"
+ASSIGNMENT_TITLE = "PRACTICE: Transferable Skills Reflection"
+LEGACY_ASSIGNMENT_TITLE = "PRACTICE: " + "Xello " + "Skills Reflection"
 MAPPED_MINOR_TITLE = "MINOR 1: Veterinary Pathway Evidence Packet"
 MINOR_GROUP_NAME = "Minor Assessments (40%)"
 ROOT = Path(__file__).resolve().parents[2]
 TEMPLATES = Path(__file__).parent / "templates"
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/3sw/wk1"
-XELLO = ROOT / "cce-curriculum/resources/xello-licensed/lessons"
 
 
 def preflight():
@@ -35,9 +56,6 @@ def preflight():
             "3sw-wk1-veterinary-pathway-brief.pdf",
             "3sw-wk1-veterinary-evidence-rubric.pdf",
         )),
-        XELLO / "skills.pdf",
-        XELLO / "skills/skills-slides-irving.pptx",
-        XELLO / "skills/skills-slides-spanish.pptx",
         ASSETS / "day1/fyf-agriculture-opener.jpg",
         *(ASSETS / "day3" / f"fyf-vet-triage-{number}.png" for number in range(1, 5)),
         *(ASSETS / "day5" / f"fyf-irving-ag-programs-{number}.png" for number in range(1, 3)),
@@ -237,11 +255,15 @@ async def upsert_quiz(client):
 
 async def upsert_assignment(client):
     assignments = await paged(client, f"/courses/{COURSE_ID}/assignments")
-    matches = [entry for entry in assignments if entry.get("name") == ASSIGNMENT_TITLE]
+    matches = [
+        entry
+        for entry in assignments
+        if entry.get("name") in {ASSIGNMENT_TITLE, LEGACY_ASSIGNMENT_TITLE}
+    ]
     if len(matches) > 1:
         raise RuntimeError(f"Duplicate assignments named {ASSIGNMENT_TITLE!r}: {[entry['id'] for entry in matches]}")
     found = matches[0] if matches else None
-    data = {"assignment[name]": ASSIGNMENT_TITLE, "assignment[description]": "<p>Submit the private Xello Skills reflection as text or the supplied PDF. Do not upload a screenshot of your Xello profile.</p>", "assignment[submission_types][]": ["online_text_entry", "online_upload"], "assignment[grading_type]": "not_graded", "assignment[points_possible]": "0", "assignment[omit_from_final_grade]": "true", "assignment[published]": "false"}
+    data = {"assignment[name]": ASSIGNMENT_TITLE, "assignment[description]": "<p>Submit the private Transferable Skills reflection as text or the supplied PDF. Compare one skill in veterinary work and another career using the fixed career evidence.</p>", "assignment[submission_types][]": ["online_text_entry", "online_upload"], "assignment[grading_type]": "not_graded", "assignment[points_possible]": "0", "assignment[omit_from_final_grade]": "true", "assignment[published]": "false"}
     assignment = await api(client, "PUT" if found else "POST", f"/courses/{COURSE_ID}/assignments/{found['id']}" if found else f"/courses/{COURSE_ID}/assignments", data=data)
     if assignment.get("published") or float(assignment.get("points_possible") or 0) != 0 or assignment.get("grading_type") != "not_graded" or not assignment.get("omit_from_final_grade"):
         raise RuntimeError(f"Formative reflection invariant failed: published={assignment.get('published')}, points={assignment.get('points_possible')}, grading={assignment.get('grading_type')}, omit={assignment.get('omit_from_final_grade')}")
@@ -293,9 +315,6 @@ async def main():
         support_folder = await ensure_folder(client, support_path)
         names = {"CAREERS": "3sw-wk1-veterinary-career-evidence-guide.pdf", "COMPARE": "3sw-wk1-veterinary-career-comparison.pdf", "TRIAGE": "3sw-wk1-veterinary-triage-record.pdf", "REFLECT": "3sw-wk1-xello-skills-reflection.pdf", "PATHWAY": "3sw-wk1-veterinary-pathway-brief.pdf", "RUBRIC": "3sw-wk1-veterinary-evidence-rubric.pdf"}
         files = {key: await upload(client, ROOT / "docs/resources/worksheets" / name, support_path) for key, name in names.items()}
-        files["XELLO_GUIDE"] = await upload(client, XELLO / "skills.pdf", support_path)
-        files["XELLO_DECK"] = await upload(client, XELLO / "skills/skills-slides-irving.pptx", support_path)
-        files["XELLO_SPANISH"] = await upload(client, XELLO / "skills/skills-slides-spanish.pptx", support_path)
         folders, uploads = {}, {}
         for day in range(1, 6):
             folder_path = f"course files/CCR Materials/3SW/Wk1/Day {day} Visuals"
@@ -328,7 +347,7 @@ async def main():
                 "TODAY": "<ul><li>identify what each role does;</li><li>compare education, pay, growth, and openings;</li><li>choose one role to investigate.</li></ul>",
                 "READY": f'<p>Open {file_link(files["CAREERS"]["id"], "the Veterinary Career Evidence Guide")}.</p>',
                 "MEDIA": image_tag(uploads[1]["fyf-agriculture-opener.jpg"]["id"], "Find Your Future agriculture and animal-care career opener"),
-                "STEPS": step(1, "Stop and Jot", "<p>Who works on a veterinary team, and what might that person do?</p>") + step(2, "Read all three career cards", "<p>Read duties first. Then read preparation and labor evidence. Keep the salary measure, source, date, and education route attached to each number.</p>") + step(3, "Choose one role", "<p>Complete the Day 1 choice on the guide. Use this frame: <strong>I would investigate ____ because the work includes ____ and the preparation requires ____.</strong></p>"),
+                "STEPS": step(1, "Stop and Jot", "<p>Who works on a veterinary team, and what might that person do?</p>") + step(2, "Read all three career cards", "<p>Read duties first. Then read preparation and labor evidence. Keep the salary measure, source, date, and education route attached to each number.</p>") + step(3, "Choose one role", student_copy_button(1, "Make your copy: Meet the Veterinary Team") + ("<p>Complete the Day 1 choice on the guide. Use this frame: <strong>I would investigate ____ because the work includes ____ and the preparation requires ____.</strong></p>")),
                 "EXIT": "<p>Submit or store the Day 1 choice. A partner may check that the two facts can be found in the guide.</p>",
                 "DONE": "<ul><li>three roles reviewed;</li><li>one role chosen;</li><li>one daily task and one preparation requirement recorded.</li></ul>",
                 "SUPPORT": "<p><strong>Word bank:</strong> median = mediana · training = formación · openings = vacantes · veterinarian = veterinario/a.</p><p><strong>Frame:</strong> I would investigate ____ because the work includes ____ and the preparation requires ____.</p>",
@@ -338,7 +357,8 @@ async def main():
                 "TITLE": "Compare Veterinary Career Paths",
                 "PURPOSE": "Use the same measures to explain how veterinary roles differ.",
                 "TODAY": "<ul><li>complete a three-role comparison;</li><li>choose one fictional scenario;</li><li>recommend a role with two facts and one trade-off.</li></ul>",
-                "READY": f'<p>Open {file_link(files["COMPARE"]["id"], "the Veterinary Career Comparison")} and the evidence guide.</p>',
+                "RESPONSE_SOURCE_FILE_ID": files["COMPARE"]["id"],
+                "READY": f'<p>Open {student_copy_link(2, "the Veterinary Career Comparison")} and the evidence guide.</p>',
                 "MEDIA": "",
                 "STEPS": step(1, "Transfer the evidence", "<p>Fill every row from the fixed guide. Do not mix national median pay with starting pay.</p>") + step(2, "Check the preparation routes", "<p>Compare short-term training, an associate degree, and a professional degree. A partner may check your labels after you finish independently.</p>") + step(3, "Choose one scenario", "<p>Choose Scenario A or B. Use this frame: <strong>I recommend ____ because ____ and ____; however, ____.</strong></p>"),
                 "EXIT": "<p>Submit or store the completed comparison and one scenario recommendation.</p>",
@@ -350,31 +370,34 @@ async def main():
                 "TITLE": "Veterinary Triage: Observe, Compare, Report",
                 "PURPOSE": "Prioritize two fictional patients using supplied observations and species-specific ranges without diagnosing.",
                 "TODAY": "<ul><li>read the two fictional patient charts;</li><li>compare observations with the correct ranges;</li><li>defend which patient should be seen first.</li></ul>",
+                "RESPONSE_SOURCE_FILE_ID": files["TRIAGE"]["id"],
                 "READY": '<p>Use <em>Find Your Future</em> pp. 96-99. Write your evidence and decision on p. 99.</p><p><strong>Role boundary:</strong> You observe, compare, prioritize, and report. A veterinarian diagnoses and treats.</p>',
                 "MEDIA": "",
                 "STEPS": step(1, "Read both patient charts", image_tag(uploads[3]["fyf-vet-triage-1.png"]["id"], "Find Your Future veterinary triage patient chart page 96", 650) + f'<p>{file_link(uploads[3]["fyf-vet-triage-1.png"]["id"], "Open FYF p. 96 full size")}</p>' + image_tag(uploads[3]["fyf-vet-triage-2.png"]["id"], "Find Your Future veterinary triage patient chart page 97", 650) + f'<p>{file_link(uploads[3]["fyf-vet-triage-2.png"]["id"], "Open FYF p. 97 full size")}</p><p>Mark symptoms, vital signs, species, and time for Leo and Barnaby before choosing a priority.</p>') + step(2, "Use the correct reference", image_tag(uploads[3]["fyf-vet-triage-3.png"]["id"], "Find Your Future veterinary triage reference page 98", 650) + f'<p>{file_link(uploads[3]["fyf-vet-triage-3.png"]["id"], "Open FYF p. 98 full size")}</p><p>Compare the snake observations with the ball-python reference and the dog observations with the dog reference.</p>') + step(3, "Record the decision on workbook p. 99", image_tag(uploads[3]["fyf-vet-triage-4.png"]["id"], "Find Your Future veterinary triage response page 99", 650) + f'<p>{file_link(uploads[3]["fyf-vet-triage-4.png"]["id"], "Open FYF p. 99 full size")}</p><p>Cite at least two observations. Use this frame: <strong>The technician produced ____. I would report ____ first because ____ and ____.</strong></p>') + step(4, "Check your reasoning", f'<p><a href="{quiz_url}">Open the Triage Evidence Check</a>. Retry and use the feedback. If devices are unavailable, submit p. 99 and complete the quiz during the next class opening.</p>'),
                 "EXIT": "<p>Submit or store p. 99. Return the workbook and device as directed.</p>",
                 "DONE": "<ul><li>Leo and Barnaby reviewed;</li><li>workbook p. 99 completed;</li><li>triage record named as the work product;</li><li>first choice defended with two observations;</li><li>no diagnosis or treatment advice.</li></ul>",
                 "SUPPORT": "<p><strong>Word bank:</strong> triage = triaje · observation = observación · range = rango · priority = prioridad.</p><p><strong>Frame:</strong> The technician produced ____. I would report ____ first because ____ and ____.</p>",
-                "FALLBACK": f'<p>All four licensed activity pages are embedded. If the workbook is unavailable or you need a more structured layout, use the optional {file_link(files["TRIAGE"]["id"], "Veterinary Triage Evidence Record")}. A private written response replaces discussion.</p>',
+                "FALLBACK": f'<p>All four licensed activity pages are embedded. If the workbook is unavailable or you need a more structured layout, use the optional {student_copy_link(3, "Veterinary Triage Evidence Record")}. A private written response replaces discussion.</p>',
             },
             4: {
-                "TITLE": "Xello Skills",
-                "PURPOSE": "Complete the required Skills lesson and connect one transferable skill to veterinary work.",
-                "TODAY": "<ul><li>complete Xello Skills;</li><li>identify one skill you use now;</li><li>connect it to two careers.</li></ul>",
-                "READY": f'<p>Open {file_link(files["REFLECT"]["id"], "the private Skills Reflection")}.</p><p><strong>Prerequisite:</strong> at least three saved careers.</p>',
+                "TITLE": "Transferable Skills in Veterinary Work",
+                "PURPOSE": "Use fixed career evidence to connect one transferable skill to veterinary work and another career.",
+                "TODAY": "<ul><li>choose one skill from the fixed bank;</li><li>connect it to a veterinary task;</li><li>compare how it appears in another career.</li></ul>",
+                "RESPONSE_SOURCE_FILE_ID": files["REFLECT"]["id"],
+                "READY": f'<p>Open {file_link(files["CAREERS"]["id"], "the Veterinary Career Evidence Guide")} and {student_copy_link(4, "the private Transferable Skills Reflection")}.</p>',
                 "MEDIA": "",
-                "STEPS": step(1, "Log in", "<p>ClassLink &gt; Xello &gt; Home &gt; Lessons. Tell the teacher now if Xello or the three-career prerequisite is blocked.</p>") + step(2, "Complete Skills", "<p>Use the full 35-minute lesson block. Read the examples before choosing an answer.</p>") + step(3, "Reflect privately", f'<p>Complete the PDF or <a href="{assignment_url}">open the private reflection assignment</a>. Use this frame: <strong>____ is useful in veterinary work when ____. It is useful in ____ when ____.</strong> Do not upload a profile screenshot.</p>'),
-                "EXIT": "<p>Submit the private reflection. Your teacher verifies Xello completion through the report.</p>",
-                "DONE": "<ul><li>Skills lesson completed or supervised catch-up recorded;</li><li>one current or teacher-provided skill named;</li><li>two-career transfer explained;</li><li>reflection kept private.</li></ul>",
+                "STEPS": step(1, "Choose one skill", "<p>Choose observation, communication, problem solving, teamwork, or organization. Define it with a visible action.</p>") + step(2, "Connect it to veterinary work", "<p>Use the career guide to name one task where a veterinary worker uses the skill.</p>") + step(3, "Compare another career", "<p>Use a fixed second-career example. Name what stays the same and what changes in the work action.</p>") + step(4, "Reflect privately", f'<p>Complete the PDF or <a href="{assignment_url}">open the private reflection assignment</a>. Use this frame: <strong>____ is useful in veterinary work when ____. It is useful in ____ when ____.</strong></p>'),
+                "EXIT": "<p>Submit the private two-career reflection.</p>",
+                "DONE": "<ul><li>one skill defined with a visible action;</li><li>veterinary and second-career tasks compared;</li><li>reflection submitted privately.</li></ul>",
                 "SUPPORT": "<p><strong>Word bank:</strong> skill = habilidad · transferable = transferible · improve = mejorar · evidence = evidencia.</p><p><strong>Frame:</strong> ____ is useful in veterinary work when ____. It is useful in ____ when ____.</p>",
-                "FALLBACK": "<p>If Xello or the prerequisite is blocked, select observation, communication, problem solving, teamwork, or organization on the reflection and mark the supervised catch-up box. Paper supports today's thinking; it does not count as Xello completion.</p>",
+                "FALLBACK": "<p>Use the fixed career guide, skill bank, and the paper or Canvas response home your teacher assigned.</p>",
             },
             5: {
                 "TITLE": "Build a Veterinary Pathway Recommendation",
                 "PURPOSE": "Connect veterinary career evidence, the district workbook, and one realistic next step.",
                 "TODAY": "<ul><li>read the Nimitz Animal Science opportunity in the workbook;</li><li>build a pathway recommendation;</li><li>self-check it with the rubric.</li></ul>",
-                "READY": f'<p>Open {file_link(files["PATHWAY"]["id"], "the Veterinary Pathway Recommendation")} and {file_link(files["RUBRIC"]["id"], "the 16-point evidence rubric")}.</p>',
+                "RESPONSE_SOURCE_FILE_ID": files["PATHWAY"]["id"],
+                "READY": f'<p>Open {student_copy_link(5, "the Veterinary Pathway Recommendation")} and {file_link(files["RUBRIC"]["id"], "the 16-point evidence rubric")}.</p>',
                 "MEDIA": "",
                 "STEPS": step(1, "Read the district pathway evidence", image_tag(uploads[5]["fyf-irving-ag-programs-1.png"]["id"], "Find Your Future Irving agriculture program information page 100", 650) + f'<p>{file_link(uploads[5]["fyf-irving-ag-programs-1.png"]["id"], "Open FYF p. 100 full size")}</p>' + image_tag(uploads[5]["fyf-irving-ag-programs-2.png"]["id"], "Find Your Future Irving agriculture program information page 101", 650) + f'<p>{file_link(uploads[5]["fyf-irving-ag-programs-2.png"]["id"], "Open FYF p. 101 full size")}</p><p>Record <strong>Animal Science</strong> and one experience exactly as the workbook presents them.</p>') + step(2, "Build the recommendation", "<p>Name one career, preparation route, daily task, labor-market fact, Animal Science opportunity, postsecondary requirement, and next action. Use this frame: <strong>I recommend ____ because ____. FYF shows ____. After high school, the student would still need ____. A useful next step is ____.</strong></p>") + step(3, "Self-check and revise", "<p>Use all four rubric criteria. Add evidence where a reader would otherwise have to guess.</p>"),
                 "EXIT": "<p>Submit the recommendation and rubric check, then return materials.</p>",
@@ -411,16 +434,16 @@ async def main():
             },
             3: {},
             4: {
-                "TITLE": "Xello Skills",
+                "TITLE": "Transferable Skills in Veterinary Work",
                 "SUBTITLE": "50 minutes · TEKS d(4)(B)",
-                "ALERT": "<strong>Required Grade 8 task: Skills lesson, 35 minutes.</strong> Students need at least three saved careers. Earlier Life experiences and Volunteer hours are not repeated.",
-                "PREP": f'<ul><li><strong>Per student:</strong> one internet-connected device and headphones. Provide the one-page {file_link(files["REFLECT"]["id"], "private reflection")} digitally or print one copy only for paper-route students.</li><li><strong>Teacher:</strong> one report-access device, one display device, the {file_link(files["XELLO_GUIDE"]["id"], "official facilitator guide")}, {file_link(files["XELLO_DECK"]["id"], "Irving-adapted slides")}, and optional {file_link(files["XELLO_SPANISH"]["id"], "Spanish support deck")}.</li><li><strong>Grouping:</strong> brief partner definition; Xello and reflection remain individual and private.</li></ul>',
-                "EVIDENCE": "<p>Xello Completion Standards report and a private reflection comparing one skill in veterinary work and another career. No public profile screenshot.</p>",
-                "FLOW": flow("#5a2d91", "Think-Pair-Share · 4", "Define a transferable skill and name two settings.") + flow("#4a9d2f", "Xello Skills · 35", "ClassLink &gt; Xello &gt; Home &gt; Lessons &gt; Skills.") + flow("#1f617a", "Private reflection · 8", "Compare one skill in veterinary work and another career.") + flow("#e3ad19", "Verify or record catch-up · 3", "Use the report or record a supervised catch-up need."),
-                "MONITOR": "<p><strong>Minute 4:</strong> verify ClassLink and the three-saved-careers prerequisite. Blocked students select a teacher-provided skill, mark the catch-up box, and complete the transfer thinking without claiming Xello completion. <strong>Minute 20:</strong> students should be inside Skills; if more than 25% are still navigating, project the numbered route once. The official guide's 85-minute extension is teacher support, not another student requirement. <strong>Trim:</strong> omit optional discussion and extended-guide activities; preserve the assigned lesson, private reflection, and catch-up record.</p>",
-                "RESOURCES": f'<p>{file_link(files["XELLO_GUIDE"]["id"], "Official extended facilitator guide")} · {file_link(files["XELLO_DECK"]["id"], "ClassLink launch slides")}</p>',
-                "SUPPORT": "<p>Keep navigation visible; offer read-aloud, chunking, bilingual labels, the optional Spanish deck, and the point-of-use complete transfer frame. Do not infer student ability from a self-report result.</p>",
-                "FALLBACK": "<p>If Xello or the prerequisite is blocked, use observation, communication, problem solving, teamwork, or organization for today's reflection and schedule supervised catch-up. Paper does not count as Xello completion.</p>",
+                "ALERT": "<strong>Fixed evidence is complete.</strong> No saved-career prerequisite, profile screenshot, or platform completion is required.",
+                "PREP": f'<ul><li><strong>Per student:</strong> provide the one-page {file_link(files["REFLECT"]["id"], "private reflection")} digitally or print one copy only for paper-route students.</li><li><strong>Teacher:</strong> project the five-skill bank and one complete veterinary task-to-skill model from the {file_link(files["CAREERS"]["id"], "Veterinary Career Evidence Guide")}.</li><li><strong>Grouping:</strong> brief partner definition and individual/private reflection.</li></ul>',
+                "EVIDENCE": "<p>Private reflection comparing one skill in veterinary work and another career. No public self-rating or screenshot.</p>",
+                "FLOW": flow("#5a2d91", "Think-Pair-Share · 4", "Define a transferable skill and name two settings.") + flow("#4a9d2f", "Fixed evidence review · 18", "Connect five skills to veterinary tasks.") + flow("#1f617a", "Two-career comparison · 20", "Name what stays the same and what changes.") + flow("#e3ad19", "Private reflection · 8", "Skill, both work actions, and one way to practice it."),
+                "MONITOR": "<p><strong>Minute 12:</strong> each student has selected a veterinary task and named the visible skill action. <strong>Minute 30:</strong> each student has a second-career task using the same skill. Prompt “What does the worker do that shows the skill?” <strong>Trim:</strong> reduce partner share and provide one completed evidence row; preserve the two-career comparison and private reflection.</p>",
+                "RESOURCES": f'<p>{file_link(files["CAREERS"]["id"], "Veterinary Career Evidence Guide")} · {file_link(files["REFLECT"]["id"], "Transferable Skills Reflection")}</p>',
+                "SUPPORT": "<p>Offer read-aloud, chunking, bilingual labels, oral rehearsal, and the point-of-use transfer frame. Do not infer student ability from a self-report.</p>",
+                "FALLBACK": "<p>The fixed career guide, skill bank, and paper or Canvas reflection are the complete routes. An absent student completes the same comparison.</p>",
             },
             5: {},
         }
@@ -454,11 +477,11 @@ async def main():
             1: {"TOPIC": "Veterinary Careers", "OBJECTIVE": "Students will identify three veterinary career opportunities, then describe one daily task and one preparation requirement for a chosen role.", "TEKS": "d(1)(C), d(2)(A)", "DOL": "Choose one veterinary role and support the choice with one daily-work fact and one preparation fact.", "STUDENT_OBJECTIVE": "identify three veterinary careers, then describe one daily task and one preparation requirement for a chosen role.", "STUDENT_DOL": "choose one role and support my choice with a daily-work fact and a preparation fact.", "VISIBLE_SUPPORT": "<p><strong>Word bank:</strong> median = mediana · training = formación · openings = vacantes.</p><p><strong>Frame:</strong> I would investigate ____ because the work includes ____ and the preparation requires ____.</p>"},
             2: {"TOPIC": "Career Evidence", "OBJECTIVE": "Students will describe preparation requirements and analyze pay, growth, and annual-opening evidence for three veterinary careers.", "TEKS": "d(2)(A), d(5)(A)", "DOL": "Complete the three-career comparison and recommend one role using two accurate facts and one trade-off.", "STUDENT_OBJECTIVE": "compare preparation, pay, growth, and openings for three veterinary careers.", "STUDENT_DOL": "complete the comparison and recommend one role using two facts and one trade-off.", "VISIBLE_SUPPORT": "<p><strong>Word bank:</strong> degree = título · openings = vacantes · trade-off = ventaja y costo.</p><p><strong>Frame:</strong> I recommend ____ because ____ and ____; however, ____.</p>"},
             3: {"TOPIC": "Veterinary Triage", "OBJECTIVE": "Students will identify the veterinary technician's role by using supplied evidence to observe, prioritize, and report on two fictional patients.", "TEKS": "d(1)(C)", "DOL": "Complete FYF p. 99 and name the veterinary technician's work product while defending the first-priority patient with two case details.", "STUDENT_OBJECTIVE": "use evidence to explain how a veterinary technician observes, prioritizes, and reports.", "STUDENT_DOL": "complete workbook p. 99 and defend which patient should be seen first with two case details.", "VISIBLE_SUPPORT": "<p><strong>Word bank:</strong> triage = triaje · observation = observación · range = rango · priority = prioridad.</p><p><strong>Frame:</strong> The technician produced ____. I would report ____ first because ____ and ____.</p>"},
-            4: {"TOPIC": "Transferable Skills", "OBJECTIVE": "Students will identify how one skill transfers between veterinary work and another career by completing Xello Skills and a private evidence reflection.", "TEKS": "d(4)(B)", "DOL": "Xello Completion Standards report and a private reflection comparing how one skill appears in veterinary work and another career.", "STUDENT_OBJECTIVE": "explain how one skill can be used in veterinary work and another career.", "STUDENT_DOL": "complete Xello Skills and privately compare how one skill appears in veterinary work and another career.", "VISIBLE_SUPPORT": "<p><strong>Word bank:</strong> skill = habilidad · transferable = transferible · improve = mejorar.</p><p><strong>Frame:</strong> ____ is useful in veterinary work when ____. It is useful in ____ when ____.</p>"},
+            4: {"TOPIC": "Transferable Skills", "OBJECTIVE": "Students will identify how one skill transfers between veterinary work and another career using fixed FYF/CCE evidence and a private reflection.", "TEKS": "d(4)(B)", "DOL": "Private reflection comparing how one skill appears in veterinary work and another career.", "STUDENT_OBJECTIVE": "explain how one skill can be used in veterinary work and another career.", "STUDENT_DOL": "privately compare how one skill appears in veterinary work and another career.", "VISIBLE_SUPPORT": "<p><strong>Word bank:</strong> skill = habilidad · transferable = transferible · improve = mejorar.</p><p><strong>Frame:</strong> ____ is useful in veterinary work when ____. It is useful in ____ when ____.</p>"},
             5: {"TOPIC": "Veterinary Pathways", "OBJECTIVE": "Students will describe middle-school-to-high-school and high-school-to-postsecondary requirements for one veterinary career route using FYF and career evidence.", "TEKS": "d(2)(A), d(3)(A)", "DOL": "Complete a pathway recommendation that includes a career route, preparation evidence, one FYF pathway opportunity, one postsecondary requirement, and one realistic next step.", "STUDENT_OBJECTIVE": "describe the high-school and postsecondary steps for one veterinary career route.", "STUDENT_DOL": "complete a pathway recommendation with one FYF opportunity, one postsecondary requirement, and one next step.", "VISIBLE_SUPPORT": "<p><strong>Word bank:</strong> pathway = trayectoria · credential = credencial · postsecondary = después de la preparatoria · next step = próximo paso.</p><p><strong>Frame:</strong> I recommend ____ because ____. FYF shows ____. After high school, the student would still need ____. A useful next step is ____.</p>"},
         }
 
-        day_names = {1: "Meet the Veterinary Team", 2: "Compare Veterinary Career Paths", 3: "Veterinary Triage", 4: "Xello Skills", 5: "Veterinary Pathway Recommendation"}
+        day_names = {1: "Meet the Veterinary Team", 2: "Compare Veterinary Career Paths", 3: "Veterinary Triage", 4: "Transferable Skills", 5: "Veterinary Pathway Recommendation"}
         pages, order = {}, []
         for day in range(1, 6):
             header_title = f"Day {day} · {day_names[day]}"

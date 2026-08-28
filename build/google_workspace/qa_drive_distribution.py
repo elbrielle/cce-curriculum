@@ -13,7 +13,9 @@ ROOT = Path(__file__).resolve().parents[2]
 INVENTORY = ROOT / "cce-curriculum/notes/google-workspace-distribution-inventory.json"
 DRIVE_STATE = ROOT / "cce-curriculum/notes/google-workspace-drive-state.json"
 PARITY = ROOT / "cce-curriculum/notes/google-workspace-parity-manifest.json"
+STUDENT_DOCS = ROOT / "build/google_docs/student_worksheet_links.json"
 DRIVE_ID = re.compile(r"^[A-Za-z0-9_-]+$")
+STUDENT_PAGE_ID = re.compile(r"^([1-6])SW-Wk(\d+)-Day([1-5])$")
 
 
 def require(condition: bool, message: str) -> None:
@@ -49,6 +51,7 @@ def main() -> None:
     inventory = json.loads(INVENTORY.read_text(encoding="utf-8"))
     state = json.loads(DRIVE_STATE.read_text(encoding="utf-8"))
     parity = json.loads(PARITY.read_text(encoding="utf-8"))
+    student_docs = json.loads(STUDENT_DOCS.read_text(encoding="utf-8"))
 
     require(inventory.get("unit_count") == 36, "distribution inventory must contain 36 units")
     require(state.get("version") == 1, "unsupported Drive-state version")
@@ -58,6 +61,15 @@ def main() -> None:
         "Drive state must require 305 unit-resource references",
     )
     require(state.get("drive_root") == parity.get("drive_root"), "Drive root drift")
+    live = state.get("live_verification", {})
+    require(
+        live.get("verified_student_google_docs") == 173,
+        "Drive state must record 173 verified student Google Docs",
+    )
+    require(
+        live.get("verified_native_google_files") == 184,
+        "Drive state must record 184 native Google files",
+    )
 
     inventory_units = {row["curriculum_address"]: row for row in inventory["units"]}
     state_units = state.get("units")
@@ -144,6 +156,49 @@ def main() -> None:
     require(release_count == 305, f"expected 305 releases, found {release_count}")
 
     state_by_address = {row["curriculum_address"]: row for row in state_units}
+    registry_root = student_docs.get("drive_root", {})
+    require(
+        registry_root.get("id") == parity["drive_root"]["id"]
+        and registry_root.get("url") == parity["drive_root"]["url"],
+        "student Google Doc registry root drift",
+    )
+    student_rows = student_docs.get("documents")
+    require(
+        isinstance(student_rows, list) and len(student_rows) == 173,
+        "student Google Doc registry must contain 173 rows",
+    )
+    require(
+        len({row.get("page_id") for row in student_rows}) == 173,
+        "student Google Doc page IDs must be unique",
+    )
+    for document in student_rows:
+        page_id = document.get("page_id", "")
+        match = STUDENT_PAGE_ID.fullmatch(page_id)
+        require(match is not None, f"invalid student Google Doc page ID {page_id}")
+        address = f"{match.group(1)}SW Wk{match.group(2)}"
+        unit = state_by_address.get(address)
+        require(unit is not None, f"{page_id}: no matching Drive unit")
+        require(
+            document.get("folder_id") == unit["google_masters_folder_id"],
+            f"{page_id}: Google Masters folder ID drift",
+        )
+        require(
+            isinstance(document.get("folder_path"), str)
+            and document["folder_path"].startswith("VILS27/Units_CCR/")
+            and document["folder_path"].endswith("/Google Masters"),
+            f"{page_id}: canonical folder path drift",
+        )
+        document_id = require_id(
+            document.get("document_id"),
+            f"{page_id} student Google Doc ID",
+            seen_file_ids,
+        )
+        require(
+            document.get("copy_url")
+            == f"https://docs.google.com/document/d/{document_id}/copy",
+            f"{page_id}: /copy URL drift",
+        )
+
     for artifact in parity["artifacts"]:
         match = re.fullmatch(r"([1-6]SW Wk\d+) Day \d+", artifact["curriculum_address"])
         if not match:
@@ -158,7 +213,8 @@ def main() -> None:
     print(
         "Drive distribution: PASS "
         f"units={len(state_units)} folders={len(seen_folder_ids)} "
-        f"releases={release_count} native_support={native_support_count}"
+        f"releases={release_count} native_support={native_support_count} "
+        f"student_docs={len(student_rows)}"
     )
 
 

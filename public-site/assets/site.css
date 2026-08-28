@@ -196,6 +196,7 @@ h1 { margin: 0; font-size: clamp(44px, 7vw, 82px); letter-spacing: -.055em; }
 .unit-downloads ul { margin: 0; padding: 0; list-style: none; }
 .unit-downloads li { margin: 0; border-bottom: 1px solid var(--md-sys-color-outline-variant); }
 .unit-downloads a { display: block; padding: 12px 0; overflow-wrap: anywhere; }
+.student-copy-action { margin: 28px 0 8px; }
 .admonition { margin: 24px 0; padding: 18px 22px; border-radius: 12px 28px 12px 28px; background: var(--md-sys-color-secondary-container); }
 .admonition.warning { background: var(--md-sys-color-tertiary-container); }
 .admonition-title { margin: 0 0 8px !important; font-family: Nunito, sans-serif; font-weight: 900; }

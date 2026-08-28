@@ -1,31 +1,32 @@
-# Day 3: Attention to Detail + Resume Revision
+# Day 3: Complete Xello Resume and Revise
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Revision Evidence
-- **Objective:** Students will identify a sound-production career opportunity and revise an audio cue and one résumé bullet so another reader can act without guessing.
-- **TEKS:** d(1)(C), d(7)(A)
-- **Demonstration of Learning:** completed FYF audio-cue work, one-page résumé before-and-after revision record, and reviewed Quiz feedback.
+- **Topic:** Resume Revision
+- **Objective:** Students will complete the required Xello Resume task and revise one résumé bullet so it uses truthful, specific evidence.
+- **TEKS:** d(7)(A)
+- **Demonstration of Learning:** Xello Resume completion verified in the report plus one private before-and-after résumé revision.
 <!-- CCE DAILY CONTRACT END -->
-**TEKS:** d(1)(C), d(7)(A)
-**Evidence:** FYF audio cues + one-page résumé revision record + practice Quiz
+**TEKS:** d(7)(A)
+**Evidence:** Xello Resume completion plus one-page private revision record
 
 ## Before Class
 
-Per student, provide FYF pp. 272-273, a pencil, the Day 2 resume, and one revision record. Project this cue model: *Fast rubber-soled footsteps cross a tile floor, then stop at the metal bowl.* Resume model: *Before: Creative. After: Designed two flyer layouts and revised the larger heading after feedback.* Post the unlimited-retry Quiz. Peer review is optional and only through a student-controlled redacted copy.
+Provide one device per student, the Day 2 CCE résumé, and one revision record. Test **ClassLink > Xello > About Me > My Resume** in a demo account. Open the Completion Standards report to **Resume**. Xello identifies no prerequisite for this task, but students may need accurate education, skills, interests, or experience entries to finish a useful résumé. Keep those additions inside the supervised task; do not create unrelated completion requirements.
+
+Project this comparison: *Before: Creative. After: Designed two flyer layouts and revised the larger heading after feedback.* Students may rehearse one redacted bullet with a partner but do not exchange devices, files, full résumés, or account access.
 
 ## 50-Minute Flow
 
-1. **Attention-to-detail model — 7 min.** Another worker should be able to act without guessing.
-2. **Complete the FYF cue work — 15 min.** Add action, object/material, surface/environment, timing/intensity, and mood where relevant.
-3. **Resume evidence audit — 13 min.** Replace one vague claim and repair one consistency issue.
-4. **Record the revision — 10 min.** Keep the before and after evidence and explain why the change helps the reader.
-5. **Quiz/exit — 5 min.** Review explanatory feedback and name the strongest repair.
+1. **Purpose, privacy, and launch — 5 min.** Review the difference between the private classroom résumé and the required Xello task. Students use only truthful, district-approved information.
+2. **Complete Xello Resume — 30 min.** Students open My Resume, review or add accurate education, skills, and experiences, organize the sections, and finish the assigned task. If Xello requests contact information a student should not share or does not know, the student stops and asks the teacher.
+3. **Revise the private CCE résumé — 10 min.** Keep the vague before, write a specific action + task + evidence/purpose after, and explain why the change helps.
+4. **Report check and exit — 5 min.** Verify Xello completion or record supervised recovery. Collect only the private revision record, not a profile screenshot or Xello contact details.
 
 ## Monitor and Key
 
-At minute 14, each cue should name an action plus at least two useful conditions. If one-third only add adjectives, label material, surface, and timing in the model. At minute 31, the resume record should preserve the vague before and specific after. At minute 44, students should explain why the change helps and name one consistency repair. Multiple cue rewrites are correct when they are safe, specific, and internally consistent. Do not ask students to create unsafe sound effects. Resume revision must be visible; “fixed it” without before/after evidence is incomplete. Safe trim: complete one cue together and leave the Quiz for catch-up; protect the before/after resume evidence. Collect the revision record and return resumes.
+At minute 8, every student should be inside My Resume or have a named access/data question. At minute 25, students should have truthful sections in progress and no invented titles, dates, awards, hours, results, tools, or experience. At minute 40, Xello completion should be visible or a recovery need should be recorded. At minute 47, the CCE revision record should preserve the vague before and specific after. Do not reward extra personal data. Safe trim: shorten the opening comparison; protect the 30-minute Xello block, visible revision, report check, and privacy boundary.
 
-## Absence and Access
+## Privacy, Access, and Absence Route
 
-The locked FYF pages plus the one-page résumé record are the complete no-workbook route. Xello is optional; revision can occur in any private document or on paper.
+The Xello Resume task remains private inside the district-managed platform. Students do not copy Xello contact details into Canvas or paper. The CCE résumé and revision record remain the scored private evidence. If Xello is unavailable, students complete the revision and join the supervised Xello recovery list; paper does not count as Xello completion.

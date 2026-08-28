@@ -15,7 +15,7 @@
 
 ## Evidence choices
 
-Preferred: three Xello careers from one interest area using the same displayed geography and wage measure. Record occupation, geography, measure, and date for all three.
+Use the three fixed BLS career cards so all students compare the same geography, date, and wage measure. Xello may add one separately labeled local cross-check; it is not a required task or replacement comparison basis.
 
 Fallback: the packet supplies three May 2024 U.S. BLS medians from Architecture and Construction—Architects $96,690; Civil Engineers $99,590; Electricians $62,350—with their preparation summaries. Students may not mix the fallback national medians with unlabeled local, starting, or experienced figures in one ranked column.
 
@@ -33,7 +33,7 @@ Default digital: one device and calculator per student; a calculator may be shar
 
 The salary comparison must use at least three careers and one comparable basis. The recommendation receives credit for evidence and an honest tradeoff, not for choosing the highest-paying career. The budget criterion uses the three visible salary-minus-target calculations, revised monthly result, and evidence limitation in this portfolio--not a second review of every Day 2 category.
 
-At minute 8, students with mixed Xello labels switch to the fixed fallback. By minute 32, the recommendation needs two exact facts and a tradeoff; by minute 42, every rubric job must be visible. Students behind use fixed evidence and labeled bullets. Cut sharing and decorative formatting before cutting a scored criterion; save the same portfolio for recovery rather than assigning homework or resubmitting Days 1–4.
+At minute 8, all students should be using the fixed common labels. By minute 32, the recommendation needs two exact facts and a tradeoff; by minute 42, every rubric job must be visible. Students behind use fixed evidence and labeled bullets. Cut sharing and decorative formatting before cutting a scored criterion; save the same portfolio for recovery rather than assigning homework or resubmitting Days 1–4.
 
 ## Access and absence route
 

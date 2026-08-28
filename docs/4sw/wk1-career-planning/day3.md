@@ -1,71 +1,64 @@
-# Day 3: Career Deep Dive
+# Day 3: Xello Save Quick Sims
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Research
-- **Objective:** Students will document work, preparation, pay, and outlook for one career using labeled evidence.
-- **TEKS:** d(8)(B)
-- **Demonstration of Learning:** Career Deep Dive.
+- **Topic:** Financial Planning
+- **Objective:** Students will build and save a Xello Quick sim with career, education, and expense choices, then explain one financial tradeoff.
+- **TEKS:** d(5)(D)
+- **Demonstration of Learning:** saved Xello Quick sim plus one career-education-expense tradeoff explanation.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objective** | Document work, preparation, pay, and outlook for one career using labeled evidence |
-| **TEKS** | d(8)(B) |
-| **Deliverable** | Career Deep Dive |
-| **Materials** | FYF Rung 3 excerpt, Deep Dive sheet, teacher-curated career sources |
+| **Objective** | Build and save a Xello Quick sim with career, education, and expense choices, then explain one financial tradeoff |
+| **TEKS** | d(5)(D) |
+| **Deliverable** | Saved Xello Quick sim plus one tradeoff explanation |
+| **Materials** | Chromebook, ClassLink/Xello access, Quick Sim Decision Record for debrief or no-device learning support |
 
 ## Before Class
 
-Provide one FYF workbook and one device per student. Print zero copies by default; print the four-page enlarged guide only for students using the no-workbook or added-scaffold route. Test the sources and project the supplied Registered Nurse card dated August 11, 2026. Start with the district-licensed FYF, H&L, or Xello evidence students are using. Use BLS as a national cross-check. Do not mix a local range with a national median without labeling both.
+Provide one device per student and test **ClassLink > Xello > Home > The Real Game** with a demo account. Open the Completion Standards report to **Save quick sims** before class. The assigned task has no prerequisite. Keep the two-page Quick Sim Decision Record available for the short debrief, read-aloud support, or no-device learning route. Paper does not count as Xello completion.
 
 ## Warm-Up (5 min)
 
-Label each phrase as **place**, **year**, or **measure**: DFW, May 2024, median annual wage. Explain why a salary without these labels is incomplete evidence.
+**Which choice could change a monthly plan the most: career, education, housing, transportation, or family expenses? Explain your prediction.**
 
-## Activity 1: Read a Source Card (10 min)
+## Activity 1: Open the Assigned Task (5 min)
 
-Model how to capture:
+Students open ClassLink, Xello, **Home**, and **The Real Game**. They open a new Quick sim and confirm the three completion actions:
 
-- career and common tasks;
-- typical education or training;
-- license or certification when the source names one;
-- salary with place, year, and measure;
-- outlook with geography and time period; and
-- source title or URL.
+- add a career;
+- add education; and
+- add at least one expense, including student loans or a family member when selected.
 
-Say explicitly: median is not starting pay, national is not DFW, and a posted salary is not a guarantee.
+Students may begin with a current career interest, choose another career, or let Xello supply one. Their choices are private and are not ranked publicly.
 
-## Activity 2: Complete the Deep Dive (25 min)
+## Activity 2: Build and Save the Quick Sim (30 min)
 
-Students research the career from Day 2 on FYF pp. 285-286. They may use a current H&L or Xello profile, BLS, an official training provider, or the teacher's fixed evidence cards. The enlarged CCE Deep Dive replaces the workbook only when the workbook is unavailable or the scaffold is needed.
-
-Carry forward two common tasks and one work setting from FYF pp. 283-284. Put them beside the career name or in a notebook; p. 285 begins with preparation rather than repeating the career snapshot.
-
-The workbook asks for pay and outlook but does not provide enough space for every source label. Students write source, date, place, and measure beside the pay field or in a notebook. They write the outlook years beside the outlook field.
+Students add the three required parts, review how the education choice changes debt or monthly cost, and add living expenses until the plan shows a meaningful tradeoff. They save the Quick sim rather than racing through extra scenarios.
 
 Monitoring priorities:
 
-1. every number has a source label;
-2. preparation is a real requirement or common route, not a guess; and
-3. the student explains what the evidence means for them.
+1. every student is inside **The Real Game**, not another Xello lesson;
+2. the sim includes a career, an education choice, and at least one expense; and
+3. the student can name which choice changed the plan and why.
 
-If one third of the class confuses median with starting pay or national with local, project the supplied card and relabel it together. If students are behind, make the partner label check independent; protect the source labels, first step, and exit response.
+At minute 20, pause for a private self-check: “What changed after you added education or an expense?” At minute 40, students save the sim. Do not require extra screenshots or copy their private amounts into Canvas.
 
-## Activity 3: Evidence Check (5 min)
+## Activity 3: Debrief and Verify (5 min)
 
-Students use the checklist on the Deep Dive to circle one strong source label and repair one incomplete claim. A partner may check labels, but the research remains individual.
+Students complete one sentence on the Decision Record or assigned private response: “Adding ___ changed the plan by ___, so the tradeoff is ___.” The teacher verifies **Save quick sims** in the Completion Standards report or records a supervised recovery need.
 
 ## Exit Ticket (5 min)
 
-**Which career requirement will take the most planning for you? Name the evidence and one realistic first step.**
+**Which choice had the largest effect on your Quick sim, and what would you change if you built a second scenario?**
 
-Students retain the Deep Dive for Day 5, save their work, close source tabs, and return devices to the assigned charging or storage location.
+Students retain the short tradeoff explanation for Day 5. They close the Quick sim, return to Xello, and return devices to the assigned charging or storage location.
 
 ## Supports and Fallbacks
 
-- **Absent, workbook unavailable, or web blocked:** Use the enlarged guide and dated career card in Canvas.
-- **Support:** Research one source at a time and use the labeled fields.
-- **Extension:** Compare the same statistic from two sources and explain why the figures differ.
+- **Absent or Xello unavailable:** Use the fixed scenario on the Decision Record to learn the same career-education-expense relationship. Schedule the required Xello save in a supervised recovery window; paper does not count as completion.
+- **Support:** Read one choice at a time, use the three-action checklist, and allow oral rehearsal before the tradeoff sentence.
+- **Extension:** Save a second Quick sim with one changed choice and compare the effect.

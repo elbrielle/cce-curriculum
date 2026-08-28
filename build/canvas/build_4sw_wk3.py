@@ -13,6 +13,18 @@ import build_4sw_wk1 as common
 
 BASE = common.BASE
 COURSE_ID = common.COURSE_ID
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/10ohTnYd-lOa0nJF5tJY0S2GF5fXTfyRIQZ-8g-coQsA/copy",
+    2: "https://docs.google.com/document/d/1BPzq5FNEPnIripyPzS4ozvCFYG-gDwSFnO3-vayA970/copy",
+    3: "https://docs.google.com/document/d/1NoxkYkBjsGyatc8fXfwWPpUyy4tdG3eB4kuEihW9SQA/copy",
+    4: "https://docs.google.com/document/d/1YsyKwSUWhluBG4K57MbfLDifokpiJ52rya_cXEYZf84/copy",
+    5: "https://docs.google.com/document/d/1Gz8Am3Vh96A-zmUjqc9SIHkLQvrzrAsHZ5DOG3siPkQ/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
 ROOT = common.ROOT
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/4sw/wk3"
 MODULE_NAME = "4SW Wk3: Aviation Routes, Systems, and Action Planning"
@@ -523,7 +535,7 @@ async def main():
                 "TITLE": "Transportation Cluster and Survey Design",
                 "PURPOSE": "Design questions that could reveal a transportation need without collecting private information.",
                 "TODAY": "<ul><li>meet Transportation careers;</li><li>choose a fictional audience with your team;</li><li>build ten balanced questions;</li><li>add an incentive and campaign choice;</li><li>complete your own quality check.</li></ul>",
-                "READY": f'<p>Use FYF pp. 166-167 with {file_link(files["SURVEY"]["id"], "the three-page team Survey Project packet")}. Your team needs one packet or shared digital copy. Keep the survey fictional. Do not collect names, addresses, schedules, contact information, or real responses.</p>',
+                "READY": f'<p>Use FYF pp. 166-167 with {student_copy_link(1, "the three-page team Survey Project packet")}. Your team needs one packet or shared digital copy. Keep the survey fictional. Do not collect names, addresses, schedules, contact information, or real responses.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:12px 16px;margin:14px 0"><strong>Words for this task:</strong> neutral · answer choice · private information · campaign<br><strong>Use this frame:</strong> “This question is useful because [reason]. We revised [question or choice] so the answers would [improvement].”</div>',
                 "STEPS": step(1, "Define the audience and need", "<p>Choose one fictional audience as a team. Name the transportation problem and the evidence an analyst would need.</p>")
                 + step(2, "Build the ten questions", "<p>Write seven multiple-choice and three short-answer questions together. Use neutral wording and distinct answer choices. Record each team member's job.</p>")
@@ -538,7 +550,7 @@ async def main():
                 "TITLE": "Aviation Careers and Pilot Routes",
                 "PURPOSE": "Compare aviation work and preparation without confusing national median pay, local pay, entry pay, or military service.",
                 "TODAY": "<ul><li>compare three aviation careers;</li><li>compare civilian and Air Force pilot examples;</li><li>name one route tradeoff;</li><li>write a source-based recommendation for fictional Sam.</li></ul>",
-                "READY": f'<p>Post or open {file_link(files["ROUTES"]["id"], "the two-page Careers and Pilot Routes reference")}. Then open {file_link(files["PLAN"]["id"], "the four-page Aviation Route and Action Plan")} and complete only the Day 2 evidence section. The pay figures are May 2024 U.S. national medians, not DFW starting salaries.</p>',
+                "READY": f'<p>Post or open {file_link(files["ROUTES"]["id"], "the two-page Careers and Pilot Routes reference")}. Then open {student_copy_link(2, "the four-page Aviation Route and Action Plan")} and complete only the Day 2 evidence section. The pay figures are May 2024 U.S. national medians, not DFW starting salaries.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:12px 16px;margin:14px 0"><strong>Words for this task:</strong> route · preparation · commitment · tradeoff · verify<br><strong>Use this frame:</strong> “The [route] may fit Sam because [evidence]. A tradeoff is [benefit or limit]. Before deciding, Sam must verify [unknown] with [authorized source or person].”</div>',
                 "STEPS": step(1, "Compare the three careers", "<p>Read daily work, common preparation, and the exact pay label for commercial pilot, air traffic controller, and aircraft mechanic.</p>")
                 + step(2, "Compare two pilot examples", "<p>Use the reference table to compare the steps, possible advantages, tradeoffs, and verification sources. Do not recopy the whole table.</p>")
@@ -553,7 +565,7 @@ async def main():
                 "TITLE": "Design a Classroom Airport Map",
                 "PURPOSE": "Build a shared map that can be tested, explained, and revised.",
                 "TODAY": "<ul><li>plan before building;</li><li>label routes and gates;</li><li>predict one conflict point;</li><li>test one movement and revise.</li></ul>",
-                "READY": f'<p>Open {file_link(files["LAB"]["id"], "the Airport Design and Simulation Lab")} or <a href="{lab_url}">the Canvas annotation activity</a>. Your build route may be LEGO, paper, or <a href="{lucid_url}">Lucid</a>; all use the same evidence checklist.</p>',
+                "READY": f'<p>Open {student_copy_link(3, "the Airport Design and Simulation Lab")} or <a href="{lab_url}">the Canvas annotation activity</a>. Your build route may be LEGO, paper, or <a href="{lucid_url}">Lucid</a>; all use the same evidence checklist.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:12px 16px;margin:14px 0"><strong>Words for this task:</strong> runway · taxi route · gate · conflict point · alternate route<br><strong>Use this frame:</strong> “A [aviation role] uses the [map feature] to [task]. We changed [feature or sequence] because the test showed [evidence].”</div>',
                 "STEPS": step(1, "Read the classroom constraints", "<p>Two labeled runways, taxi routes, tower, four gates, north arrow, and an alternate route. These are classroom rules, not FAA standards.</p>")
                 + step(2, "Draw the top-down plan", "<p>Add movement arrows, one predicted conflict point, and one planned revision before building.</p>")
@@ -568,7 +580,8 @@ async def main():
                 "TITLE": "Test, Communicate, and Revise",
                 "PURPOSE": "Use precise classroom directions, test changing constraints, and connect a timed revision to evidence.",
                 "TODAY": "<ul><li>practice a five-step classroom protocol;</li><li>run three tests;</li><li>log one breakdown each run;</li><li>write an individual timed iteration plan.</li></ul>",
-                "READY": f'<p>Use pages 1-2 of {file_link(files["LAB"]["id"], "the four-page Lab")} once per team and pages 3-4 once per student. Project or give each team {file_link(files["CARDS"]["id"], "the one-page Scenario Cards")}. This is a fictional classroom protocol, not FAA phraseology.</p>',
+                "RESPONSE_SOURCE_FILE_ID": files["LAB"]["id"],
+                "READY": f'<p>Use pages 1-2 of {student_copy_link(4, "the four-page Lab")} once per team and pages 3-4 once per student. Project or give each team {file_link(files["CARDS"]["id"], "the one-page Scenario Cards")}. This is a fictional classroom protocol, not FAA phraseology.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:12px 16px;margin:14px 0"><strong>Protocol words:</strong> Name · Route · Repeat · Confirm · Log<br><strong>Use this frame:</strong> “Our goal was [specific improvement] during the [two- or three]-minute block. The log shows [evidence], so next we would [adjustment].”</div>',
                 "STEPS": step(1, "Practice Name, Route, Repeat, Confirm, Log", "<p>Use one aircraft and one complete model call before starting a timed run.</p>")
                 + step(2, "Run three eight-minute tests", "<p>Test, identify a breakdown, revise, and prepare the next run. One aircraft waits when two requests arrive together.</p>")
@@ -583,7 +596,7 @@ async def main():
                 "TITLE": "Aviation Route and Action Plan",
                 "PURPOSE": "Choose a current direction and protect it with sources, timing, support, a backup, and a revision rule.",
                 "TODAY": "<ul><li>reopen career and simulation evidence;</li><li>write three timed stages;</li><li>add support, obstacle, backup, and revision condition;</li><li>self-score, revise, and submit privately.</li></ul>",
-                "READY": f'<p>Reopen {file_link(files["PLAN"]["id"], "the four-page Action Plan you started on Day 2")} and {file_link(files["RUBRIC"]["id"], "the two-page 16-point rubric")}.</p>',
+                "READY": f'<p>Reopen {student_copy_link(5, "the four-page Action Plan you started on Day 2")} and {file_link(files["RUBRIC"]["id"], "the two-page 16-point rubric")}.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:12px 16px;margin:14px 0"><strong>Planning words:</strong> direction · evidence · time block · support · backup · revise<br><strong>Use this frame:</strong> “By [date], I will [action] for [minutes]. I will know it is complete when [evidence]. If [obstacle] happens, I will [equal backup] instead.”</div>',
                 "STEPS": step(1, "Choose a current direction", "<p>Investigate aviation, select another Transportation career, or state that the cluster is not your current fit. The direction itself is not graded.</p>")
                 + step(2, "Bring forward evidence", "<p>Keep daily work, preparation, tradeoff, simulation skill, source, date, geography, and measure.</p>")
@@ -592,7 +605,7 @@ async def main():
                 "EXIT": "<p>List three timed stages, one support and one backup, and one condition that would make you revise.</p>",
                 "DONE": "<ul><li>current direction and reason;</li><li>daily-work and preparation facts;</li><li>three timed stages;</li><li>source/date labels;</li><li>support, obstacle, backup, and revision condition;</li><li>one visible revision and private submission.</li></ul>",
                 "SUPPORT": "<p>direction = dirección · evidence = evidencia · backup = alternativa · revise = revisar. Text, speech-to-text, private media, and paper answer the same evidence jobs.</p>",
-                "FALLBACK": "<p>Missing simulation work can use the model log. H&amp;L, Xello Jobs and Employers, and eDynamic are optional extensions only. Canvas failure means paper or later upload without penalty.</p>",
+                "FALLBACK": "<p>Missing simulation work can use the model log. H&amp;L and eDynamic are optional extensions only; do not add an unrelated Xello lesson. Canvas failure means paper or later upload without penalty.</p>",
             },
         }
 
@@ -640,6 +653,7 @@ async def main():
                 "TITLE": "Test, Communicate, and Revise",
                 "SUBTITLE": "50 minutes · TEKS d(4)(A), d(1)(C)",
                 "ALERT": "<strong>Classroom protocol only.</strong> Do not teach the five steps as FAA phraseology or ask students to invent real emergency, radio-failure, or separation procedures.",
+                "RESPONSE_SOURCE_FILE_ID": files["LAB"]["id"],
                 "PREP": f'<ul><li><strong>Teams/materials:</strong> return one map, four tokens, one token tray, and Lab p. 2 per four-student team; return Lab p. 4 to every student.</li><li><strong>Print:</strong> zero by default when projecting {file_link(files["CARDS"]["id"], "the one-page Scenario Cards")}; otherwise one card page per team. <strong>Devices:</strong> zero for paper/LEGO; one per team for Lucid.</li><li>Project the supplied five-step protocol and completed log below. Prepare one visible timer.</li><li>Keep the written third-scenario route ready. No student improvises a real emergency or radio-failure procedure.</li></ul>',
                 "MODEL": "<p><strong>Complete classroom call:</strong> Controller: “Alpha, move from Gate 1 to the R1 hold marker by Taxi A.” Mover: “Alpha repeats: Gate 1 to R1 hold marker by Taxi A.” Controller: “Confirmed.” Recorder logs complete route/no conflict. <strong>Completed log:</strong> Goal—keep Bravo still while Alpha moves. Breakdown—both tokens entered Taxi A. Revision—add a hold marker and name the first aircraft. Evidence—second run moved one aircraft at a time. <strong>Non-example:</strong> “Plane, go over there.”</p>",
                 "EVIDENCE": "<p>Three run logs or two plus written third, team revisions, individual timed iteration plan, and new-scenario response. Formative.</p>",
@@ -658,7 +672,7 @@ async def main():
                 "EVIDENCE": "<p>Private direction, source evidence, three timed stages, support, obstacle, backup, revision condition, self-score, and revision. Minor 1, scored with the 16-point rubric and converted to 100 gradebook points.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "Direction, not lifetime promise.") + flow("#4a9d2f", "Model and CFU · 8", "Locate every rubric job in the supplied model.") + flow("#1f617a", "Reopen evidence · 10", "Work, preparation, tradeoff, skill, source.") + flow("#e3ad19", "Three stages · 20", "Actions, timing, support, backup, revision.") + flow("#1f617a", "Self-score/submit · 7", "Revise weakest section and submit privately."),
                 "MONITOR": "<p><strong>CFU after the model:</strong> students point to the three time horizons and the equal backup. <strong>Checkpoint, plan minute 7:</strong> career direction, work/preparation evidence, and full source labels are present. <strong>Checkpoint, minute 14:</strong> all three actions have a time, completion sign, and authorized support/source. <strong>Checkpoint, review minute 3:</strong> obstacle, equal backup, revision condition, self-score, and visible revision are present. If a third of students lack a rubric job, pause for a three-minute model audit. <strong>Safe trim:</strong> remove team showcases and use the model only; do not cut any rubric criterion or the final five-minute private submission. Unfinished in-class work uses the same private assignment or paper recovery tray during the next teacher-provided window, not automatic homework.</p><p>Suggested conversion after local approval: 15-16 Masters, 13-14 Meets, 12 Approaches, 10-11 Needs Improvement; below 10 follows campus policy. Score evidence and reasoning, not career preference, build quality, speaking, H&amp;L ratings, family military history, grammar unless meaning is unclear, or submission mode.</p>",
-                "RESOURCES": "<p>H&amp;L browse, Xello Jobs and Employers, and eDynamic goal setting are optional after core evidence. The locked workbook App Exploration page is context only and does not prove platform completion. The assignment contains the same response jobs for students using typed or media evidence.</p>",
+                "RESOURCES": "<p>H&amp;L browse and eDynamic goal setting are optional after core evidence; do not add an unrelated Xello lesson. The locked workbook App Exploration page is context only and does not prove platform completion. The assignment contains the same response jobs for students using typed or media evidence.</p>",
                 "SUPPORT": "<p>The four-page plan gives each major reasoning job its own writing region without asking students to recopy the reference guide. Use speech-to-text, teacher scribe, or private media as needed.</p>",
                 "FALLBACK": "<p>Missing simulation work uses the supplied model log. Canvas failure means named paper in the private tray or later upload. Students submit the plan once; the team survey and lab remain formative evidence, not extra Minor uploads. No partner, family signature, public post, or live presentation is required.</p>",
             },

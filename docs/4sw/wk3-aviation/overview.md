@@ -37,7 +37,6 @@ Students use the *Find Your Future* Transportation Survey Project, a dated FAA/B
 
 - Current national wage, preparation, and outlook facts come from dated BLS/FAA evidence cards. A BLS median is not DFW starting pay.
 - H&L may support an optional cluster browse when the live Hat exists. It is not the source of record for career pay or route requirements.
-- Xello *Jobs and Employers* is supplemental and is not a Bowie Grade 8 completion standard.
 - eDynamic 2.2 is supplemental until the unit title and access are verified. The CCE action-plan packet carries the required goal-setting and time-management evidence.
 - The simplified radio calls and runway spacing in the lab are classroom rules. They are not FAA phraseology, separation standards, or operational training.
 
@@ -67,7 +66,7 @@ The workbook's district page says Aviation students use two full-motion flight s
 
 - **Formative:** Day 1 survey quality check; Day 3 design checkpoint; Day 4 run log and communication check.
 - **Minor 1:** Aviation Route and Action Plan, 16-point evidence profile converted to the existing 100-point assignment in Minor Assessments (40%). It combines the Day 2 source-based route decision with the Day 5 individual plan and remains unpublished for teacher cloning.
-- **Not separately graded:** H&L clicks, optional Xello/eDynamic work, LEGO quality, acting confidence, and team presentation.
+- **Not separately graded:** H&L clicks, optional eDynamic work, LEGO quality, acting confidence, and team presentation.
 
 The four rubric criteria are source accuracy, route reasoning, timed action plan, and support/backup/revision. Score content and evidence, not accent, public speaking, family military experience, drawing skill, construction material, or English mechanics unless meaning is unclear.
 
@@ -92,5 +91,5 @@ The four rubric criteria are source accuracy, route reasoning, timed action plan
 
 - Complete *Flight Line Fixers* with the locked Climber images and teacher key.
 - Browse the H&L Transportation cluster if the named live Hats resolve.
-- Open Xello *Jobs and Employers* or eDynamic goal setting only after core evidence is complete; label both supplemental.
+- Use the supplied fixed aviation evidence after core work. Do not add an unrelated Xello lesson.
 - Compare the Irving High Drone Engineering route with the Aviation Maintenance route using current district course information.

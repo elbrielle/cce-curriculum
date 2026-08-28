@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "artifact": "CCE reviewed manual content specifications for seven student response-route Google Docs",
+  "route_manual_spec_path": "build/google_docs/student_response_route_manual_specs.json",
+  "route_manual_spec_sha256": "1aa8db351449d1cd97162d6d2889c818b13294f9524692b9d2a9747ada4a0f1f",
+  "determinism": "No timestamp is emitted. Records are ordered by six-weeks, week, and day. Every block is a reviewed local authoring decision.",
+  "specs": [
+    {
+      "day_key": "1SW-Wk0-Day1",
+      "purpose": "Set one reusable response home and complete a specific first-week CCE goal.",
+      "language_support": {
+        "word_bank": [
+          "goal / meta",
+          "action / acción",
+          "checkpoint / punto de control",
+          "confidence / confianza",
+          "support / apoyo",
+          "reminder / recordatorio"
+        ],
+        "sentence_stems": [
+          "My goal is _____. / Mi meta es _____.",
+          "It matters because _____. / Es importante porque _____.",
+          "I will _____. / Voy a _____.",
+          "I will do it _____. / Lo haré _____.",
+          "My confidence is _____. / Mi confianza es _____.",
+          "_____ will help me. / _____ me ayudará."
+        ]
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "native": true,
+          "header_rows": 0,
+          "rows": [
+            [
+              {"text": "Name", "response": true, "lines": 1},
+              {"text": "Date", "response": true, "lines": 1},
+              {"text": "Period", "response": true, "lines": 1}
+            ]
+          ]
+        },
+        {
+          "type": "response_box",
+          "prompt": "The place I will use for CCE work is _____. If it does not open, I will use _____.",
+          "lines": 2,
+          "full_width": true
+        },
+        {"type": "heading", "level": 2, "text": "My First-Week Goal Plan"},
+        {
+          "type": "table",
+          "native": true,
+          "header_rows": 1,
+          "rows": [
+            [{"text": "Goal-plan field"}, {"text": "My response"}],
+            [{"text": "1. My goal"}, {"text": "", "response": true, "lines": 2}],
+            [{"text": "2. Why it matters"}, {"text": "", "response": true, "lines": 2}],
+            [{"text": "3. One specific action"}, {"text": "", "response": true, "lines": 2}],
+            [{"text": "4. When or which checkpoint"}, {"text": "", "response": true, "lines": 2}],
+            [{"text": "5. Confidence from 1 to 5"}, {"text": "", "response": true, "lines": 1}],
+            [
+              {"text": "6. One accountability or recovery support"},
+              {
+                "text": "calendar or planner; teacher check-in; classmate; reminder or alarm; recovery option",
+                "response": true,
+                "control": "checkboxes",
+                "lines": 2
+              }
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "model",
+          "title": "Completed model",
+          "text": "My goal is to open my CCE work before the warm-up ends. It matters because I will have more time for the task. I will set a reminder for the start of class and check it at the first checkpoint. My confidence is 4. A reminder and a classmate check will help me."
+        },
+        {
+          "type": "checklist",
+          "title": "Private self-check",
+          "items": [
+            "My action is visible and specific.",
+            "I named when or where I will check progress.",
+            "I selected one support that can help me recover."
+          ]
+        }
+      ],
+      "close": {"kind": "none", "reason": "The six-field goal plan is the complete daily evidence. No separate exit or submission is required."}
+    },
+    {
+      "day_key": "1SW-Wk0-Day2",
+      "purpose": "Record a Core prediction, the H&L result, and one short interpretation in one private response home.",
+      "language_support": {
+        "word_bank": [
+          "Doer / Hacedor",
+          "Analyzer / Analizador",
+          "Creator / Creador",
+          "Helper / Ayudante",
+          "Persuader / Persuasor",
+          "Organizer / Organizador"
+        ],
+        "sentence_stems": [
+          "My prediction is _____ because I often _____. / Mi predicción es _____ porque yo _____.",
+          "My result is _____. / Mi resultado es _____.",
+          "This result fits or surprises me because _____. / Este resultado coincide conmigo o me sorprende porque _____.",
+          "One real question I have is _____. / Una pregunta real que tengo es _____.",
+          "One career I am curious about is _____ because _____. / Una carrera que me da curiosidad es _____ porque _____."
+        ]
+      },
+      "blocks": [
+        {"type": "heading", "level": 2, "text": "Six Core Types"},
+        {
+          "type": "table",
+          "native": true,
+          "header_rows": 1,
+          "rows": [
+            [{"text": "English"}, {"text": "Español"}],
+            [{"text": "Doer"}, {"text": "Hacedor"}],
+            [{"text": "Analyzer"}, {"text": "Analizador"}],
+            [{"text": "Creator"}, {"text": "Creador"}],
+            [{"text": "Helper"}, {"text": "Ayudante"}],
+            [{"text": "Persuader"}, {"text": "Persuasor"}],
+            [{"text": "Organizer"}, {"text": "Organizador"}]
+          ]
+        },
+        {"type": "heading", "level": 2, "text": "1. Predict"},
+        {
+          "type": "table",
+          "native": true,
+          "header_rows": 1,
+          "rows": [
+            [{"text": "My predicted Core type"}, {"text": "One real-life clue"}],
+            [{"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}]
+          ]
+        },
+        {"type": "heading", "level": 2, "text": "2. Record Your H&L Result"},
+        {"type": "response_box", "prompt": "My result is _____. / Mi resultado es _____.", "lines": 2, "full_width": true},
+        {"type": "heading", "level": 2, "text": "3. Complete One Interpretation"},
+        {
+          "type": "table",
+          "native": true,
+          "header_rows": 1,
+          "rows": [
+            [{"text": "Choose one"}, {"text": "Complete the response"}],
+            [
+              {"text": "This result fits or surprises me"},
+              {"text": "because _____", "response": true, "control": "checkbox", "lines": 2}
+            ],
+            [
+              {"text": "One real question"},
+              {"text": "I want to know _____", "response": true, "control": "checkbox", "lines": 2}
+            ],
+            [
+              {"text": "One career curiosity"},
+              {"text": "I am curious about _____ because _____", "response": true, "control": "checkbox", "lines": 2}
+            ]
+          ]
+        },
+        {
+          "type": "checklist",
+          "title": "You are done when",
+          "items": [
+            "Discover Your Core is complete.",
+            "Your Core result is recorded.",
+            "Exactly one interpretation is complete."
+          ]
+        }
+      ],
+      "close": {"kind": "embedded", "reason": "The result and one interpretation are the full Demonstration of Learning. Do not add a second ticket."}
+    },
+    {
+      "day_key": "1SW-Wk0-Day3",
+      "purpose": "Connect work values, experiences, skills, and one possible career cluster.",
+      "language_support": {
+        "word_bank": [
+          "playing sports / practicar deportes",
+          "playing or making music / tocar o hacer música",
+          "video games / videojuegos",
+          "cooking or baking / cocinar u hornear",
+          "babysitting a younger sibling or cousin / cuidar a un hermanito o a un primo",
+          "fixing or building things / arreglar o construir cosas",
+          "drawing or making art / dibujar o hacer arte",
+          "taking care of pets or animals / cuidar mascotas o animales",
+          "helping at church or in a community group / ayudar en la iglesia o en un grupo de la comunidad",
+          "yard work or chores at home / trabajo en el jardín o quehaceres en la casa",
+          "dancing / bailar",
+          "sewing, crochet, or crafts / coser, tejer o hacer manualidades",
+          "coding or making videos / programar o hacer videos",
+          "reading or writing stories / leer o escribir cuentos",
+          "a school team or club / un equipo o club de la escuela",
+          "translating for my family / traducir para mi familia",
+          "running errands or shopping for my family / hacer mandados o compras para mi familia",
+          "doing hair or nails / peinar o hacer uñas"
+        ],
+        "sentence_stems": [
+          "A work value that matters to me is _____ because _____. / Un valor de trabajo que me importa es _____ porque _____.",
+          "One real experience is _____. It shows the skill _____. / Una experiencia real es _____. Demuestra la habilidad _____.",
+          "My value _____ connects to my experience _____ and the career cluster _____ because _____. / Mi valor _____ se conecta con mi experiencia _____ y el grupo de carreras _____ porque _____."
+        ]
+      },
+      "blocks": [
+        {"type": "response_box", "prompt": "Do Now: Would you choose higher pay alone or lower pay with a supportive team? Why?", "lines": 3, "full_width": true},
+        {"type": "heading", "level": 2, "text": "1. Work Values"},
+        {
+          "type": "table",
+          "native": true,
+          "header_rows": 1,
+          "rows": [
+            [{"text": "My top work values"}, {"text": "Expected or surprised?"}, {"text": "Because"}],
+            [{"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}]
+          ]
+        },
+        {"type": "heading", "level": 2, "text": "2. Three Building Blocks"},
+        {
+          "type": "table",
+          "native": true,
+          "header_rows": 1,
+          "rows": [
+            [{"text": "Source area"}, {"text": "Real experience"}, {"text": "Visible skill"}],
+            [{"text": "school / home / community / interests", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}],
+            [{"text": "school / home / community / interests", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}],
+            [{"text": "school / home / community / interests", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}]
+          ]
+        },
+        {
+          "type": "checklist",
+          "title": "H&L check",
+          "items": [
+            "Three Building Blocks are saved.",
+            "A cluster is saved, or the page says cluster pending."
+          ]
+        },
+        {"type": "response_box", "prompt": "My value _____ connects to my experience _____ and the career cluster _____ because _____.", "lines": 4, "full_width": true},
+        {
+          "type": "checklist",
+          "title": "Show your learning",
+          "items": [
+            "Top work values are recorded.",
+            "Three Building Blocks include real experiences and visible skills.",
+            "The cluster result or cluster pending is recorded.",
+            "The synthesis connects a value, experience, and cluster."
+          ]
+        }
+      ],
+      "close": {"kind": "embedded", "reason": "The synthesis response is the close."}
+    },
+    {
+      "day_key": "1SW-Wk0-Day4",
+      "purpose": "Complete the eight-part My Career Journey reflection once and make one visible revision.",
+      "language_support": {
+        "word_bank": [
+          "core personality / tipo de personalidad",
+          "work value / valor de trabajo",
+          "Building Block / bloque de construcción",
+          "cluster / grupo de carreras",
+          "evidence / evidencia",
+          "career / carrera",
+          "question / pregunta",
+          "support community / comunidad de apoyo"
+        ],
+        "sentence_stems": [
+          "My top core personality type is _____. / Mi tipo de personalidad principal es _____.",
+          "I predicted _____. My result was _____. They matched or did not match because _____. / Yo predije _____. Mi resultado fue _____. Coincidieron o no coincidieron porque _____.",
+          "The career I want to explore is _____ because _____. One result that fits is _____. / La carrera que quiero explorar es _____ porque _____. Un resultado que coincide es _____."
+        ]
+      },
+      "source_composition": {
+        "base_source": {
+          "path": "build/worksheet_sources/my-career-journey.md",
+          "sha256": "8be75d7e4f46b19c097a34303fba96152c094e20ae0001a08e20d121f9e37565"
+        },
+        "prefix_block_indices": [0],
+        "suffix_block_indices": [10, 11]
+      },
+      "blocks": [
+        {"type": "paragraph", "text": "Open your current results before you start. Use the results you have. Mark a missing result as pending."},
+        {"type": "response_box", "prompt": "1. My Top Core Personality Type", "lines": 2, "full_width": true},
+        {"type": "response_box", "prompt": "2. My Prediction and Actual Result: Name the prediction, the result, whether they matched, and why.", "lines": 4, "full_width": true},
+        {"type": "response_box", "prompt": "3. My Top 2 Work Values", "lines": 2, "full_width": true},
+        {"type": "response_box", "prompt": "4. My Top 3 Building Blocks", "lines": 3, "full_width": true},
+        {"type": "response_box", "prompt": "5. My Top 3 Cluster Recommendations", "lines": 3, "full_width": true},
+        {"type": "page_break"},
+        {"type": "response_box", "prompt": "6. One Career I Am Curious About: Name a career, not a whole cluster. Use two evidence sentences.", "lines": 5, "full_width": true},
+        {"type": "response_box", "prompt": "7. One Question I Have", "lines": 3, "full_width": true},
+        {
+          "type": "table",
+          "native": true,
+          "header_rows": 1,
+          "rows": [
+            [{"text": "8. My Career Community"}, {"text": "Role, initials, or trusted person"}],
+            [{"text": "Family support"}, {"text": "", "response": true, "lines": 1}],
+            [{"text": "Teacher, counselor, or mentor"}, {"text": "", "response": true, "lines": 1}],
+            [{"text": "Coach, club sponsor, friend, or other support"}, {"text": "", "response": true, "lines": 1}]
+          ]
+        },
+        {"type": "response_box", "prompt": "Visible revision: I changed _____ to _____ because _____.", "lines": 2, "full_width": true},
+        {
+          "type": "checklist",
+          "title": "Submit once",
+          "items": [
+            "All eight sections are complete or a missing result is marked pending.",
+            "The career curiosity names a career and uses evidence.",
+            "One revision is visible.",
+            "The complete reflection uses one teacher-approved route only."
+          ]
+        }
+      ],
+      "close": {"kind": "embedded", "reason": "The eight sections, visible revision, and submit-once check are the full Demonstration of Learning."}
+    },
+    {
+      "day_key": "1SW-Wk0-Day5",
+      "purpose": "Classify at least four career details as perks, neutrals, or quirks and explain each decision.",
+      "language_support": {
+        "word_bank": [
+          "perk / ventaja",
+          "neutral / neutro",
+          "quirk / desafío",
+          "duty / deber",
+          "schedule / horario",
+          "work setting / ambiente de trabajo",
+          "training / capacitación",
+          "work value / valor de trabajo",
+          "preference / preferencia"
+        ],
+        "sentence_stems": [
+          "I marked _____ as a perk, neutral, or quirk because I value _____ and prefer _____. / Marqué _____ como ventaja, neutro o desafío porque valoro _____ y prefiero _____."
+        ]
+      },
+      "blocks": [
+        {"type": "response_box", "prompt": "Do Now: A career requires outdoor work during a Texas summer. Is that a perk, neutral, or quirk for you? Why?", "lines": 3, "full_width": true},
+        {
+          "type": "callout",
+          "style": "model",
+          "title": "Model",
+          "text": "Career detail: early morning schedule. Mark: neutral. Why: I can adjust to an early start, and the schedule does not make the career better or worse for me. Work value or preference: predictable schedule. Source: career profile."
+        },
+        {
+          "type": "table",
+          "native": true,
+          "header_rows": 0,
+          "rows": [
+            [{"text": "Career name"}, {"text": "", "response": true, "lines": 1}],
+            [{"text": "Information source"}, {"text": "", "response": true, "lines": 1}]
+          ]
+        },
+        {
+          "type": "table",
+          "native": true,
+          "header_rows": 1,
+          "rows": [
+            [{"text": "Career detail"}, {"text": "P / N / Q"}, {"text": "Why"}, {"text": "Work value or preference"}, {"text": "Source"}],
+            [{"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 1}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 1}],
+            [{"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 1}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 1}],
+            [{"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 1}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 1}],
+            [{"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 1}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 1}],
+            [{"text": "Extension"}, {"text": "", "response": true, "lines": 1}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 1}],
+            [{"text": "Extension"}, {"text": "", "response": true, "lines": 1}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 1}]
+          ]
+        },
+        {"type": "response_box", "prompt": "A career detail is not automatically a perk or a quirk because _____.", "lines": 3, "full_width": true},
+        {
+          "type": "checklist",
+          "title": "You are done when",
+          "items": [
+            "At least four specific career details are recorded.",
+            "Each required row has a P, N, or Q classification and a personal reason.",
+            "Each detail names its source.",
+            "The closing sentence explains why classification depends on the person."
+          ]
+        }
+      ],
+      "close": {"kind": "embedded", "reason": "The closing sentence and done checklist complete the daily evidence."}
+    },
+    {
+      "day_key": "1SW-Wk3-Day3",
+      "purpose": "Capture the app-design deliverable without duplicating the full lesson guide.",
+      "language_support": {
+        "word_bank": [
+          "wireframe / esquema o boceto de pantalla",
+          "flow / flujo de navegación",
+          "target user / usuario objetivo",
+          "feedback / retroalimentación",
+          "screen / pantalla",
+          "button / botón",
+          "main menu / menú principal",
+          "user / usuario",
+          "feature / función"
+        ],
+        "sentence_stems": [
+          "I expected to tap _____, but _____. / Esperaba tocar _____, pero _____.",
+          "I understood _____ because _____. / Entendí _____ porque _____.",
+          "One change that would help the user is _____ because _____. / Un cambio que ayudaría al usuario es _____ porque _____."
+        ]
+      },
+      "blocks": [
+        {"type": "response_box", "prompt": "Warm-up: Name one app you use. How many taps reach its main feature? Where is its main menu?", "lines": 3, "full_width": true},
+        {
+          "type": "table",
+          "native": true,
+          "header_rows": 0,
+          "rows": [
+            [{"text": "Brief choice"}, {"text": "Food Connection / Stress-Less / Passion Project", "response": true, "control": "choice", "lines": 1}],
+            [{"text": "App name"}, {"text": "", "response": true, "lines": 1}],
+            [{"text": "Target user"}, {"text": "", "response": true, "lines": 2}],
+            [{"text": "Feature 1"}, {"text": "", "response": true, "lines": 2}],
+            [{"text": "Feature 2"}, {"text": "", "response": true, "lines": 2}],
+            [{"text": "Optional feature 3"}, {"text": "", "response": true, "lines": 2}]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "reference",
+          "title": "Symbol key",
+          "items": [
+            "A box with an X inside: image, icon, or video",
+            "Horizontal lines: text or paragraphs",
+            "A solid rectangle or oval: a button",
+            "Three stacked lines: the main menu"
+          ]
+        },
+        {"type": "page_break"},
+        {"type": "screen_canvas", "screen": "Home", "fields": ["Header", "Large design area", "Labels and buttons", "Next action or screen"], "height_inches": 5.5},
+        {"type": "page_break"},
+        {"type": "screen_canvas", "screen": "Main Menu", "fields": ["Header", "Large design area", "Labels and buttons", "Next action or screen"], "height_inches": 5.5},
+        {"type": "page_break"},
+        {"type": "screen_canvas", "screen": "Action", "fields": ["Header", "Large design area", "Labels and buttons", "Next action or screen"], "height_inches": 5.5},
+        {"type": "page_break"},
+        {"type": "screen_canvas", "screen": "Success", "fields": ["Header", "Large design area", "Labels and buttons", "Next action or screen"], "height_inches": 5.5},
+        {"type": "page_break"},
+        {
+          "type": "table",
+          "native": true,
+          "header_rows": 1,
+          "rows": [
+            [{"text": "Screen"}, {"text": "Where the tester taps"}, {"text": "What was confusing"}],
+            [{"text": "Home"}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}],
+            [{"text": "Main Menu"}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}],
+            [{"text": "Action"}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}],
+            [{"text": "Success"}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}]
+          ]
+        },
+        {
+          "type": "table",
+          "native": true,
+          "header_rows": 1,
+          "rows": [
+            [{"text": "Revision"}, {"text": "Feedback used"}, {"text": "Visible change"}, {"text": "Starred location"}],
+            [{"text": "1"}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 1}],
+            [{"text": "2"}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 2}, {"text": "", "response": true, "lines": 1}]
+          ]
+        },
+        {
+          "type": "checklist",
+          "title": "You are done when",
+          "items": [
+            "The app plan names a target user and at least two features.",
+            "Four separate screens are labeled Home, Main Menu, Action, and Success.",
+            "Every screen shows labels, buttons, and the next action or screen.",
+            "Partner feedback is written.",
+            "Two visible revisions are starred and tied to feedback."
+          ]
+        }
+      ],
+      "close": {"kind": "none", "reason": "The four screens, walkthrough feedback, and two revisions are the full deliverable. Do not add an extra exit."}
+    },
+    {
+      "day_key": "1SW-Wk5-Day5",
+      "purpose": "Complete the written and checkable portions of the four-part capstone evidence packet.",
+      "language_support": {
+        "word_bank": [
+          "interest / interés",
+          "skill / habilidad",
+          "evidence / evidencia",
+          "pathway / ruta",
+          "course / curso",
+          "program / programa",
+          "training / capacitación",
+          "goal / meta",
+          "next step / próximo paso",
+          "changed / cambió",
+          "strengthened / fortaleció"
+        ],
+        "sentence_stems": [
+          "Before high school, I need to _____ so I can _____ in high school. / Antes de la preparatoria, necesito _____ para poder _____ en la preparatoria.",
+          "During or after high school, I need to _____ so I can move toward _____. / Durante o después de la preparatoria, necesito _____ para poder avanzar hacia _____.",
+          "My symbol represents _____ because after high school I want to _____. / Mi símbolo representa _____ porque después de la preparatoria quiero _____.",
+          "At first, I thought _____. Now I think _____ because _____. / Al principio, pensaba _____. Ahora pienso _____ porque _____."
+        ]
+      },
+      "source_composition": {
+        "base_source": {
+          "path": "build/worksheet_sources/wk5-reflection-update-template.md",
+          "sha256": "a80d8ab7f55f38bd098c9b789170ebec7b278611ed878f8e89810ecc16a0894e"
+        },
+        "prefix_block_indices": [0, 1, 2, 3, 4, 5],
+        "suffix_block_indices": [16, 17, 18, 19, 20, 21]
+      },
+      "blocks": [
+        {
+          "type": "table",
+          "native": true,
+          "header_rows": 1,
+          "rows": [
+            [{"text": "Bellringer"}, {"text": "Complete the transition sentence"}],
+            [{"text": "Before high school"}, {"text": "I need to _____ so I can _____ in high school.", "response": true, "lines": 2}],
+            [{"text": "During or after high school"}, {"text": "I need to _____ so I can move toward _____.", "response": true, "lines": 2}]
+          ]
+        },
+        {"type": "heading", "level": 2, "text": "1. Goal Symbol"},
+        {
+          "type": "table",
+          "native": true,
+          "header_rows": 0,
+          "rows": [
+            [{"text": "Symbol concept"}, {"text": "", "response": true, "lines": 2}],
+            [{"text": "Postsecondary goal or direction"}, {"text": "", "response": true, "lines": 2}],
+            [{"text": "Two shapes or ideas combined"}, {"text": "", "response": true, "lines": 2}]
+          ]
+        },
+        {"type": "response_box", "prompt": "My symbol represents _____ because after high school I want to _____.", "lines": 3, "full_width": true},
+        {"type": "response_box", "prompt": "Draw the goal symbol or type a detailed visual plan.", "height_inches": 4.5, "mode": "drawing_or_text", "full_width": true},
+        {"type": "page_break"},
+        {"type": "heading", "level": 2, "text": "2. Career Journey Update"},
+        {"type": "response_box", "prompt": "One Idea That Changed: At the start of the course, I thought _____. Now I think _____.", "lines": 4, "full_width": true},
+        {"type": "response_box", "prompt": "Evidence From the Six Weeks: Name one activity, career, skill, or result and explain what it showed you.", "lines": 4, "full_width": true},
+        {"type": "response_box", "prompt": "Current Direction: I am interested, unsure, or not interested in _____ because _____.", "lines": 4, "full_width": true},
+        {"type": "response_box", "prompt": "Postsecondary Goal: After high school, I currently want to _____.", "lines": 2, "full_width": true},
+        {"type": "response_box", "prompt": "One Irving ISD course, program, or experience I need to investigate is _____.", "lines": 2, "full_width": true},
+        {"type": "response_box", "prompt": "Middle school to high school: One action I can take before ninth grade is _____.", "lines": 3, "full_width": true},
+        {"type": "response_box", "prompt": "High school to college, training, military service, or work: One later preparation action is _____.", "lines": 3, "full_width": true},
+        {"type": "response_box", "prompt": "One action I can take this school year is _____.", "lines": 3, "full_width": true},
+        {
+          "type": "conditional_response_box",
+          "condition": "Complete only if the original Week 0 Career Journey reflection is missing.",
+          "prompt": "My starting interests or goals were _____.",
+          "lines": 3,
+          "full_width": true
+        },
+        {"type": "page_break"},
+        {
+          "type": "checklist",
+          "title": "Four-part capstone packet check",
+          "items": [
+            "Cybersecurity bootcamp plan",
+            "Cybersecurity flyer",
+            "Original goal symbol and transition responses",
+            "Career Journey update"
+          ]
+        },
+        {
+          "type": "checklist",
+          "title": "CCE Evidence Log Entry 1 reminder",
+          "items": [
+            "Artifact or task",
+            "Transferable skill",
+            "Visible action",
+            "Revision or recovery move",
+            "Next step"
+          ]
+        },
+        {
+          "type": "conditional_response_box",
+          "condition": "Use only if the separate CCE Evidence Log is unavailable.",
+          "prompt": "Entry 1 hold: Save the five short phrases here. Transfer them to the Evidence Log later.",
+          "lines": 5,
+          "full_width": true
+        },
+        {
+          "type": "callout",
+          "style": "boundary",
+          "text": "The capstone has four packet pieces. The Evidence Log is a reminder and later-use record, not a fifth grade item or extra upload."
+        },
+        {
+          "type": "checklist",
+          "title": "Show your learning",
+          "items": [
+            "All four capstone packet pieces are complete through the teacher-approved route.",
+            "The Evidence Log check is complete without uploading it as a fifth item."
+          ]
+        }
+      ],
+      "close": {"kind": "embedded", "reason": "The four-part packet check is the close. The Evidence Log is not an additional graded artifact."}
+    }
+  ]
+}

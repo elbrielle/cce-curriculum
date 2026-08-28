@@ -1,5 +1,5 @@
 ---
-title: Xello Skills Lesson Reflection
+title: Transferable Skills Reflection
 slug: 3sw-wk1-xello-skills-reflection
 kind: worksheet
 weeks: 3sw/wk1-vet-science
@@ -10,18 +10,11 @@ pages: 1
 orientation: portrait
 ---
 
-## Required Grade 8 task
+## Use the fixed skill bank
 
-Complete the **Skills lesson** in Xello. The district completion target is the finished lesson. Xello requires at least three saved careers before this lesson opens.
+Choose one skill: **observation · communication · problem solving · teamwork · organization**.
 
-Do not submit a screenshot of your profile. Your teacher checks the Completion Standards report.
-
-**Access check:**
-
-- [ ] I completed Xello Skills.
-- [ ] Xello or the three-career prerequisite was unavailable. I used one teacher-provided skill below and need supervised Xello catch-up.
-
-If blocked, choose one temporary skill: **observation · communication · problem solving · teamwork · organization**. The reflection supports today's thinking; it does not replace Xello completion.
+Use the Veterinary Career Evidence Guide and one teacher-provided second-career example. No profile screenshot or saved-career prerequisite is required.
 
 ## Connect one skill to two settings
 
@@ -29,7 +22,7 @@ If blocked, choose one temporary skill: **observation · communication · proble
 
 **Frame:** [Skill] is useful in veterinary work when [example]. It is useful in [other career] when [example].
 
-One skill from the lesson: __________________________________________________
+One skill from the fixed bank: ______________________________________________
 
 How I already practice it at school, home, in an activity, or in my community:
 

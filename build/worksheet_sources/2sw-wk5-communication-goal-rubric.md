@@ -44,7 +44,6 @@ orientation: landscape
 - Your evidence matters more than accent, performance confidence, handwriting, hashtags, or English mechanics unless meaning is unclear.
 - Private, written, speech-to-text, audio, and teacher-conference routes can earn the same score.
 - You do not have to disclose private assessment results, health information, or a public SMART goal.
-- Xello Work experiences is checked privately in the Completion Standards report. Paper supports learning but does not replace the required save.
 - If CareerOneStop is unavailable, use the supplied fixed IT support specialist and dental assistant pair with the same transfer criterion.
 
 ## Feedback record

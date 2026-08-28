@@ -4,13 +4,13 @@
 
 ## Week purpose
 
-This opening week sets up the tools and routines students will use throughout CCE. Students choose a digital or physical notebook route, complete the first Hats & Ladders / *Find Your Future* profile work, submit My Career Journey, and confirm Xello access.
+This opening week sets up the tools and routines students will use throughout CCE. Students choose a digital or physical notebook route, complete the first Hats & Ladders / *Find Your Future* profile work, submit My Career Journey, and analyze career details using Perks, Neutrals, and Quirks.
 
 ## Weekly objective
 
-Students will establish one retrievable CCE notebook route, complete the required H&L self-discovery activities, use those results in the mapped My Career Journey Minor, and confirm the required Xello access and after-high-school goal.
+Students will establish one retrievable CCE notebook route, complete the required H&L self-discovery activities, use those results in the mapped My Career Journey Minor, and evaluate career details using the *Find Your Future* Perks, Neutrals, and Quirks framework.
 
-**Learning target:** I can use my core personality, work values, Building Blocks, and first cluster recommendations to explain one career I want to investigate next.
+**Learning target:** I can use my core personality, work values, Building Blocks, and career research to explain career possibilities and set initial goals.
 
 **Success criteria:**
 
@@ -18,19 +18,19 @@ Students will establish one retrievable CCE notebook route, complete the require
 - My H&L profile contains my available core personality, work values, and at least three Building Blocks.
 - My FYF Building Blocks pages name at least three experiences and skills.
 - I submitted one complete My Career Journey reflection through one approved route.
-- My Xello account opens and contains an after-high-school goal, or my access problem is recorded for a named recovery check.
+- My FYF p. 5 career table classifies at least four career details as perks, neutrals, or quirks with reasoning.
 
 ## TEKS
 
 - **d(1)(A):** analyze and discuss initial career-assessment results (Days 2-4).
 - **d(1)(B):** explore and describe CTE clusters using career-assessment and career-research evidence (Days 2-5).
-- **d(4)(A):** demonstrate goal-setting/time-management by naming a specific action, checkpoint, confidence level, and support/recovery route (Day 1; reinforced Day 5).
+- **d(4)(A):** demonstrate goal-setting/time-management by naming a specific action, checkpoint, confidence level, and support/recovery route (Day 1).
 
 ## Course tools and response locations
 
 1. **Hats & Ladders / Find Your Future** is the core career curriculum.
 2. **Canvas** holds the daily Teacher/Student Guides, models, authenticated links/assets, and the mapped Minor submission.
-3. **Xello** holds only the assigned extension tasks for this week: login and after-high-school goal. Matchmaker does not run yet.
+3. **Xello** begins later with the selected Grade 7/original-scope tasks. Week 0 does not require a Xello completion task.
 4. **CCE notebook** holds short private thinking, focused notes, and reflection only when the app/workbook does not already provide the response home.
 
 **Student reminder:** Start in Canvas. The daily guide tells students what to open, where to work, and what to turn in.
@@ -41,7 +41,6 @@ Students will establish one retrievable CCE notebook route, complete the require
 | Work values | H&L Climber Profile | one expected/surprised sentence |
 | Building Blocks and skills | FYF pp. 9-11; save three in H&L | one value + experience + possible-cluster connection |
 | Career Journey synthesis | mapped Minor 1 reflection | no duplicate notebook response |
-| After-high-school goal | Xello | no duplicate copy |
 | Perks & Quirks | FYF p. 5 | no transfer worksheet |
 
 ## Notebook options
@@ -74,7 +73,7 @@ The Monday goal entry adapts Jenna Hainlen's teacher-created `AVID First Week Go
 | 2 | Six-type prediction + FYF p. 21 purpose bridge + H&L Discover Your Core | profile result + private result and one selected interpretation | 5 opener/prediction + 4 CCMR bridge + 10 setup + 21 assessment + 8 interpretation + 2 DOL/device return |
 | 3 | H&L Work Values + FYF pp. 9-11 Building Blocks | H&L/FYF inputs + one value-to-experience-to-cluster connection | 5 opener + 15 values + 17 Building Blocks + 8 saves/recommendations + 5 close |
 | 4 | My Career Journey synthesis | one mapped Minor submitted through file, exact labeled text, or paper | 5 warm-up + 8 gather + 5 model + 22 draft + 6 revise + 4 submit |
-| 5 | core catch-up, Xello, then FYF pp. 4-5 | one verified requirement/result | 5 plan + 20 focus + 15 second priority + 5 verify + 5 close |
+| 5 | FYF pp. 4-5 Perks, Neutrals, and Quirks | one complete FYF p. 5 career table with four specific details, P/N/Q marks, personal reasons, and a source | 5 hook + 10 framework + 10 model/rehearsal + 20 analysis + 5 DOL/cleanup |
 
 ## Required sources and materials
 
@@ -83,7 +82,7 @@ The Monday goal entry adapts Jenna Hainlen's teacher-created `AVID First Week Go
 - 1 charged Chromebook per student; 2 spares if available
 - 1 *Find Your Future* workbook per student
 - projector and the complete daily launch deck
-- tested H&L/Xello launch routes
+- tested H&L launch route and approved career-information source
 - private OneNote/physical notebook route plus full Canvas/paper fallback
 
 ### Day-specific
@@ -91,7 +90,7 @@ The Monday goal entry adapts Jenna Hainlen's teacher-created `AVID First Week Go
 - Day 2: Climber Notes `Learning Your Core Personality Types`; FYF p. 21
 - Day 3: Climber Notes `Exploring Your Work Values`; FYF pp. 9-11; optional word banks by need
 - Day 4: My Career Journey standard/stems/bilingual options; student-visible 12-point rubric; FYF p. 22
-- Day 5: FYF pp. 4-5; private readiness list; Xello login/goal route
+- Day 5: FYF pp. 4-5 and one approved career-information route
 
 Default copies should be zero when a tested digital route is in use. Print only the route a student needs. Do not hand every student three versions of the same artifact.
 
@@ -102,7 +101,7 @@ Default copies should be zero when a tested digital route is in use. Print only 
 - Day 1 private goal entry and a clearly located notebook/fallback route
 - Day 2 H&L result plus one selected interpretation and the two-minute DOL/device return
 - Day 3 profile/FYF inputs plus one synthesis connection
-- Day 5 one verified requirement/result
+- Day 5 FYF p. 5 career table completed with four specific details, classifications, reasons, and a source
 
 ### Mapped Minor 1
 
@@ -111,12 +110,12 @@ Default copies should be zero when a tested digital route is in use. Print only 
 ## Source credits
 
 - Monday's goal-setting routine adapts Jenna Hainlen's `AVID First Week Goal-Setting Sheet` for Grade 7 CCE.
-- Friday's focus block adapts Hainlen's Week 1.6 routine: three priorities, two distractions to avoid, and one timed work interval. The CCE lesson does not attach behavior points to the routine.
+- Friday's career analysis uses *Find Your Future* pp. 4-5 (*Perks and Quirks*). Xello is not part of the Day 5 response route.
 
 ## Recovery priorities
 
 1. Protect individual H&L results; never use another student's account.
-2. If H&L is unavailable, use the fixed source chart/list for a provisional response and name Friday catch-up.
+2. If H&L is unavailable, use the fixed source chart/list for a provisional response and record the access issue.
 3. If OneNote is unavailable, use the identical Canvas/paper prompt and accept that original work without later recopying.
 4. If a result is missing on Day 4, mark it pending, finish the independent sections, and score after the real result is added.
-5. If H&L/Xello fails Friday, move the student to FYF p. 4-5 and record the exact access recovery.
+5. If a career-information source is unavailable Friday, use the teacher-provided profile and complete the same FYF p. 5 thinking target.

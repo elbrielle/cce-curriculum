@@ -2,7 +2,7 @@
 
 ## What This Is
 
-A 36-week Career and College Explorations (CCE) course curriculum for grades 7-8 across Irving ISD VILS Labs, Texas. Aligned to TEKS 127.2 Career and College Exploration (Adopted 2023). Canvas is the sole active production, review, and delivery environment for teachers and students. GitHub preserves source, automation, and build history and hosts a generated public planning mirror; it is not a classroom-delivery environment. The MkDocs site is a legacy archive and is not part of the normal production gate. Hats & Ladders and the *Find Your Future* workbook carry the career-exploration content. District-configured Xello completion standards form a required yearlong profile and planning spine. eDynamic Learning, Canva, Adobe Express, Code.org, and other named tools are supplemental unless the scope and sequence explicitly assigns them.
+A 36-week Grade 7 Career and College Explorations (CCE) course curriculum for Irving ISD VILS Labs, Texas. Aligned to TEKS 127.2 Career and College Exploration (Adopted 2023). Canvas is the sole active production, review, and delivery environment for teachers and students. GitHub preserves source, automation, and build history and hosts a generated public planning mirror; it is not a classroom-delivery environment. The MkDocs site is a legacy archive and is not part of the normal production gate. Hats & Ladders and the *Find Your Future* workbook carry the career-exploration content. The selected Grade 7 Xello tasks and original coordinator scope form the Xello spine. eDynamic Learning, Canva, Adobe Express, Code.org, and other named tools are supplemental unless the scope and sequence explicitly assigns them.
 
 ## Repo Structure
 
@@ -84,7 +84,7 @@ All content must trace to one of these:
 - **H&L teacher resources** (8 PDFs: rubrics, assessments, early-finisher bank) — Materials/Differentiation references only. Index: `cce-curriculum/resources/hl-teacher-resources/INDEX.md`.
 - **RETIRED (do not cite in new work):** the generic H&L Student Workbook (282pp, 17 ch; old `(H&L Ch N, p. X)` form) and the Powerskills Supplement (`(Powerskills, p. X)` form) — replaced by FYF and its embedded Powerskill lessons per ratified decisions D-11. Legacy citations survive in 2SW-6SW until their realignment phase lands.
 - **Scope and Sequence** (`cce-curriculum/scope-and-sequence.md`)
-- **Xello Grade 8 Completion Standards** — the district-configured educator view is authoritative for required tasks, grade availability, instructional time, prerequisites, and attached resources. S&S column 8 must preserve this completion spine across the year; FYF realignment does not replace it.
+- **Xello Grade 7 Completion Standards + original coordinator scope** — required Xello tasks must be assigned to Grade 7 in Bowie's live configuration or explicitly named in `CCE_Comprehensive_Scope_Sequence.xlsx`. A task from another grade may appear only as the smallest verified prerequisite-support action needed to launch a selected task; label it as support, not as a Grade 7 completion standard. Verify ambiguous dependencies in the live student flow: Matchmaker's after-high-school question is inline and does not authorize a separate Grade 8 After High School Goal task. Use `cce-curriculum/notes/xello-grade-7-scope-audit-2026-08-24.md`; the older Grade 8 reconciliation is historical drift evidence only.
 - **eDynamic Learning Units** — unit numbers from S&S column 9
 - **BLS Occupational Outlook Handbook** — salary, education, outlook data
 - **Irving ISD CTE Pathways** (PATHWAYS.md) — verify against [canonical website](https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte) before citing
@@ -96,6 +96,8 @@ Do not invent H&L activities, Xello features, or platform capabilities. If unsur
 Licensed H&L and Xello materials belong in the authenticated Canvas course, not the public GitHub Pages site. Download the Xello-provided lesson plans, teacher guides, presentations, worksheets, and student directions needed by each module; upload them to Canvas Files and embed them on the matching module page. Do not make teachers or students return to the Xello resource drawer to locate ordinary instructional documents. Interactive completion still happens in Xello. Embed official video players when Xello provides an approved share link; rehost a video file only when Xello supplies a downloadable file or the district has explicit permission. Never publish licensed binaries publicly. Canvas API credentials are provided only at import time and must never be committed or written into curriculum files.
 
 For all Canvas lesson production, read and follow `cce-curriculum/notes/canvas-lesson-production-workflow.md`. Every instructional day receives a coordinated Teacher Facilitator Guide and Student Guide. The approved quality and implementation reference is the unpublished 1SW Wk0 Day 2 pair under `build/canvas/`; do not mass-copy raw Markdown into Canvas.
+
+Canvas publication boundary: this course is maintained as a Commons master. Passing QA never authorizes an agent to publish instructional content. Create and update curriculum unpublished by default, and preserve any publication state Elisha selected for her own students unless she explicitly requests a change. Unpublished is the intended handoff state, not a failed deployment.
 
 ## Editing Protocol
 
@@ -148,6 +150,38 @@ grep -rn -i "cavity risk" cce-curriculum/resources/climber-notes/
 
 Old-workbook chapter-to-week crosswalk (historical): `cce-curriculum/notes/revision-plan.md`. Current plan of record: `cce-curriculum/notes/fyf-realignment-plan.md`.
 
+## Core Classroom & Instructional Design Rules
+
+### 1. Intentional Separation: Student-Facing vs. Teacher-Facing Language
+- **Student-Facing (Canvas Student Guides & Slide Canvas):**
+  - Keep text lean, active, visually engaging, and low cognitive load for 8th graders.
+  - Use active verbs (*"Open"*, *"Select"*, *"Compare"*, *"Record"*).
+  - Strip all developer/administrative jargon (no *"licensed page images"*, no state TEKS codes, no 5E pedagogical phase titles in student directions).
+  - Keep exactly one lesson-specific student response button in its existing instructional location. Its default target is the matching Google Doc `/copy` URL because that is the most broadly accessible route. The Facilitator Guide may tell the teacher how to retarget that same button to the teacher-selected OneNote, PDF/paper, or other approved response home. Never add a student-facing route menu, generic Response Home panel, or process explanation; preserve the button's original label, style, and placement so students see one action and teachers have only one link to change.
+- **Teacher-Facing (Facilitator Guides & Slide Speaker Notes):**
+  - Thoroughly explain lesson context, 5E pedagogical flow, and exact minute-by-minute pacing benchmarks (`Minute 0–5`, `5–15`, `15–40`, `40–50`).
+  - Provide specific student look-fors, common misconceptions, answer keys, and intervention/trim routes.
+
+### 2. Anti-Redundancy & Surface Integrity
+- **No Duplicate Copy-Paste Chores:** Do not require students to complete work in an app (Hats & Ladders or Xello) or in their physical *Find Your Future* (FYF) workbook, and then copy/re-type that same cognitive work into a journal or Canvas box.
+- **Primary Roles of Surfaces:**
+  - **Exploration Platforms:** Hats & Ladders (with FYF workbook) and Xello (with select micro:bit/hands-on tools).
+  - **Primary Writing/Response Surfaces:** The physical CCE Journal / Notebook, specific FYF workbook pages, and occasional targeted Canvas discussions/quizzes.
+  - **Canvas Role:** The central navigation, guide, and delivery environment—not a duplicative copy-paste container.
+
+### 3. Slide Deck Standards (The "Stanley Standard")
+- **Engaging Daily Structure:**
+  - **Do Now / As You Enter:** Clear visual bellringer visible as students walk in.
+  - **Today You Will:** 3–4 bullet points using simple student action verbs.
+  - **Clear Navigation Prompts:** Explicit book page numbers (*"Open book to p. 200"*) and exact app click paths (*"Open H&L > Information Technology > Hat Finder"*).
+  - **Concrete Partner/Team Roles:** Explicit role lenses (*"Coder / Tester / Navigator"* or *"Shift Supervisor / QC Specialist / Maintenance Tech"*).
+  - **Visual Timers & Badges:** Explicit time markers (e.g., 7-minute check, 15-minute timer) and stopwatch icons.
+  - **Authentic Visuals:** Real app screenshots (H&L, Xello, MakeCode) and high-quality photographs showing diverse representation and modern technology.
+  - **Clear Completion Checklists:** Prominent *"You Are Done When..."* success criteria.
+
+### 4. Automatic Parity Protocol
+- Canvas (`COURSE_ID = 98060`), Google Drive (`iisd-drive:VILS27/Units_CCR`), and the GitHub public site mirror must remain in continuous, automatic lockstep across all 36 weeks. Native files opened with Make a copy live in each unit's `Google Masters/`; downloadable releases live in `Download Releases/`. The old `iisd-drive:27 CCR Planning` folder is a legacy archive, not a parity destination.
+
 ## Build
 
 ```bash
@@ -162,6 +196,9 @@ Old-workbook chapter-to-week crosswalk (historical): `cce-curriculum/notes/revis
 # Generated public planning mirror (not classroom delivery)
 UV_CACHE_DIR=/tmp/cce-site-uv uv run --with markdown --with beautifulsoup4 python public-site/build_site.py
 UV_CACHE_DIR=/tmp/cce-site-uv uv run --with beautifulsoup4 python public-site/verify_site.py
+
+# Parity verification suite
+python3 build/google_workspace/verify_parity.py
 ```
 
 **PDF regeneration is NOT byte-idempotent** (Chromium stamps a creation date into every PDF). After a pipeline run, restore timestamp-only churns: verify content equality (pdftotext) and `git restore` PDFs whose text is unchanged, so commits carry only real changes.
@@ -174,3 +211,18 @@ python3 -m playwright install chromium
 ```
 
 Pipeline operating manual: `cce-curriculum/notes/exit-ticket-pdf-pipeline.md` (read before changing extractors, the design CSS, or anything in `build/exit_ticket_template/`).
+
+### OneNote Worksheet Automation & Formatting
+- **Do not use stagnant PDFs** as backgrounds for student work. Recreate all worksheets as native HTML tables and deploy them via the Graph API.
+- **Naming Conventions:** Every OneNote page must have a very clear, recognizable name (e.g., "Day 2: Career Research & Exit Ticket") so teachers and students can easily find it.
+- **Single Page Philosophy:** Combine daily worksheet tasks and the Exit Ticket into a single OneNote page in the "CCE Work" section. Do not create separate "Exit Ticket" folders for students; consolidate to reduce clicks.
+- **Formatting Constraints:** OneNote ignores CSS percentage widths (`width: 100%`). You MUST use absolute pixel widths on tables (e.g., `<table width="850">`) to prevent squished layouts.
+- **ESL/Emergent Bilingual Scaffolds:** Every OneNote worksheet MUST include a bilingual word bank and explicit fill-in-the-blank sentence stems (e.g., "I recommend ___ because ___") directly on the page.
+
+### Automated Multi-Platform Parity
+- **Agentic Deployment:** Agents must automatically run Canvas builders through the resource-access wrapper (for example, `uv run --with httpx python build/canvas/run_builder_with_resource_access.py build/canvas/build_wk1.py < ~/.canvas_token`) whenever source files are updated. The wrapper finishes the builder, then opens and verifies every referenced image, PDF, deck, and ancestor folder without changing any module, item, page, or interaction publication state. You must maintain continuous lockstep parity between the local repository, Canvas, Google Drive, and the website.
+- **Student Resource Access:** Module publication is the student release gate. Never lock or hide a file referenced by course content, and never set file/folder availability dates. A linked Exit Ticket that shows a padlock in Student View is a failed deployment even when its module is intentionally unpublished.
+- **Token Location:** The active Canvas API token is stored at `~/.canvas_token`. Use this file for deployment commands, but **never** print the token in logs or store it in the repository. The user regenerates this token frequently for security.
+
+### Cross-Agent Handoff
+- Before beginning new curriculum development, ALWAYS read `lessons_learned.md` (if it exists in the artifacts directory or project root) to understand the most up-to-date formatting, stylistic, and deployment rules (e.g. the Avil Standard for Teacher Guides and the OneNote HTML automation rules).

@@ -9,6 +9,18 @@ build/worksheet_template/_render.html
 build/worksheet_template/_preview-*.html
 tmp/
 .tmp/
+node_modules/
+build/decks/1sw-wk1-agentic/node_modules
+
+# Local Drive/rclone staging and disposable authoring scratch
+VILS27/
+scratch/
+wk1d*.txt
+
+# OneNote duplicate exports and one-run Canvas recovery controllers
+build/onenote/worksheet_*_[0-9].html
+build/canvas/resume_griffin_*.py
+build/canvas/repair_griffin_*.py
 
 # Large reference PDFs (116MB+, too big for GitHub)
 cce-curriculum/resources/reference-pdfs/*.pdf
@@ -43,6 +55,7 @@ convert_all.py
 # Python
 __pycache__/
 *.pyc
+msal_cache.bin
 
 # macOS
 .DS_Store

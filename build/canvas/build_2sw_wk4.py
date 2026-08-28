@@ -7,6 +7,18 @@ import httpx
 
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/1h_WY1W8R6H7xm14Hrmy043N-Yu1rRV1VM_-_AKvo1oo/copy",
+    2: "https://docs.google.com/document/d/1I9UsCiynKEAlWHjMZu1pLoLeZBba61boZCXtvzQMWL8/copy",
+    3: "https://docs.google.com/document/d/1fv9sGfYN-jHnW70c1wLDRXA_G-cVkJEVaXCZRsM-aF4/copy",
+    4: "https://docs.google.com/document/d/1a939TIgMWZLbqaY8FiKoqkQEN2UfBIUdGWzELBDwzxE/copy",
+    5: "https://docs.google.com/document/d/1YO3celRSMkPuirY9KWCk9JKbW_csmb49QkscE7Gdcpo/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
 MODULE_NAME = "2SW Wk4: Smile Squad - Dental Science and Health Data"
 COLLEGE_QUIZ_TITLE = "PRACTICE: College Credit Opportunity Check"
 ICD_QUIZ_TITLE = "PRACTICE: ICD-10-CM Evidence Check"
@@ -654,7 +666,7 @@ async def main():
                 "SHOW_LEARNING": "Complete FYF pp. 69-71 and the two-career comparison check.",
                 "PURPOSE": "Describe what you can see. Leave diagnosis to trained professionals.",
                 "TODAY": "<ul><li>record visible patterns from five training images;</li><li>make a prevention recommendation from workbook clues;</li><li>compare two dental careers.</li></ul>",
-                "READY": f"<p>Open your assigned <strong>FYF workbook to pp. 69-71</strong>. Your teacher will project the {file_link(files['GUIDE']['id'], 'career evidence guide')}. Use the {file_link(files['OBSERVE']['id'], 'optional observation scaffold')} only if your teacher assigns it.</p>",
+                "READY": f"<p>Open your assigned <strong>FYF workbook to pp. 69-71</strong>. Your teacher will project the {file_link(files['GUIDE']['id'], 'career evidence guide')}. Use the {student_copy_link(1, 'optional observation scaffold')} only if your teacher assigns it.</p>",
                 "STEPS": step(
                     1,
                     "Read the reference chart",
@@ -696,7 +708,7 @@ async def main():
                 "SHOW_LEARNING": "Complete the FYF p. 73 prototype and two evidence-based classifications.",
                 "PURPOSE": "Build for a specific user need, then classify career evidence with one rule.",
                 "TODAY": "<ul><li>choose a fictional user;</li><li>sketch and label four features;</li><li>classify two careers.</li></ul>",
-                "READY": f"<p>Open your assigned <strong>FYF workbook to pp. 72-73</strong>. Use the {file_link(files['DESIGN']['id'], 'optional design scaffold')} only if your teacher assigns it. The career facts stay visible on this page.</p>",
+                "READY": f"<p>Open your assigned <strong>FYF workbook to pp. 72-73</strong>. Use the {student_copy_link(2, 'optional design scaffold')} only if your teacher assigns it. The career facts stay visible on this page.</p>",
                 "STEPS": step(
                     1,
                     "Choose the user",
@@ -731,13 +743,13 @@ async def main():
                 "FALLBACK": "<p>Draw on paper or describe the design with labeled words. Artistic quality is not graded.</p>",
             },
             3: {
-                "TITLE": "Add Real Experiences in Xello",
+                "TITLE": "Connect School Subjects to Work",
                 "TOPIC": "College Credit",
-                "I_CAN": "Record real experiences and compare two current ways to earn college credit in high school.",
-                "SHOW_LEARNING": "Meet the Xello completion requirements and submit a two-opportunity Canvas response.",
-                "PURPOSE": "Record experiences that actually happened and compare two real college-credit opportunities.",
-                "TODAY": "<ul><li>add one Education experience;</li><li>add at least one completed volunteer hour;</li><li>compare two current college-credit opportunities.</li></ul>",
-                "READY": f"<p>Open ClassLink → Xello. The licensed {file_link(files['XELLO']['id'], 'My Experiences guide')} is available for help. The {file_link(files['XELLO_CHECK']['id'], 'one-page print check')} is only a Canvas-outage fallback.</p>",
+                "I_CAN": "Record one education experience, connect school subjects to work, and compare two current ways to earn college credit in high school.",
+                "SHOW_LEARNING": "Complete Education experiences and School subjects at work, then submit a short two-opportunity Canvas response.",
+                "PURPOSE": "Connect learning experiences and school subjects to careers while comparing two real college-credit opportunities.",
+                "TODAY": "<ul><li>add one Education experience;</li><li>complete School subjects at work;</li><li>compare two current college-credit opportunities.</li></ul>",
+                "READY": f"<p>Open ClassLink → Xello. The licensed {file_link(files['XELLO']['id'], 'My Experiences guide')} is available for help. Use the {student_copy_link(3, 'one-page print check')} only when your teacher assigns it.</p>",
                 "STEPS": step(
                     1,
                     "Protect privacy",
@@ -750,17 +762,17 @@ async def main():
                 )
                 + step(
                     3,
-                    "Add Volunteer hours",
-                    "<p>Add at least one hour you completed. If you have no completed hour, do not invent one; tell the teacher and join catch-up.</p>",
+                    "Complete School subjects at work",
+                    "<p>Xello → Home → Lessons → School subjects at work. Connect one subject you study now to a career task. You do not need to share grades or a private class schedule.</p>",
                 )
                 + step(
                     4,
                     "Compare two college-credit options",
-                    f'<div style="border:1px solid #bad4df;border-radius:8px;padding:12px 16px;margin:12px 0"><p><strong>English III Dual Credit (H)</strong>: grades 10-12; prerequisite English II; earns high-school and college credit.</p><p><strong>AP Biology</strong>: grades 11-12; prerequisite Biology plus completed or concurrent Chemistry; college credit depends on the receiving institution.</p></div><p><a href="{college_quiz_url}">Open the College Credit Opportunity Check</a>. In the constructed response, list <strong>both</strong> opportunities, identify each type, give one requirement or limitation for each, and name one fact to verify with a counselor.</p><p><strong>Complete frame:</strong> “The source lists ____ as a ____ opportunity. One requirement or limitation is ____.”</p>',
+                    f'<div style="border:1px solid #bad4df;border-radius:8px;padding:12px 16px;margin:12px 0"><p><strong>English III Dual Credit (H)</strong>: grades 10-12; prerequisite English II; earns high-school and college credit.</p><p><strong>AP Biology</strong>: grades 11-12; prerequisite Biology plus completed or concurrent Chemistry; college credit depends on the receiving institution.</p></div><p><a href="{college_quiz_url}">Open the College Credit Opportunity Check</a>. List <strong>both</strong> opportunities and give one requirement or limitation for each.</p><p><strong>Complete frame:</strong> “The source lists ____ as a ____ opportunity. One requirement or limitation is ____.”</p>',
                 ),
-                "DONE": "<ul><li>Education experience saved;</li><li>Volunteer hour saved or catch-up recorded;</li><li>two sourced college-credit opportunities.</li></ul>",
-                "SUPPORT": "<p>experience = experiencia · volunteer = voluntariado · prerequisite = prerrequisito · receiving institution = institución que recibe el crédito. The complete response frame is beside Step 4.</p>",
-                "FALLBACK": "<p>Use the one-page college-credit check now. Required Xello saves move to supervised catch-up; paper does not replace platform completion.</p>",
+                "DONE": "<ul><li>Education experience saved;</li><li>School subjects at work complete;</li><li>two sourced college-credit opportunities.</li></ul>",
+                "SUPPORT": "<p>experience = experiencia · subject = materia · career task = tarea profesional · prerequisite = prerrequisito. Rehearse one subject-to-task connection aloud before writing.</p>",
+                "FALLBACK": "<p>Use the one-page School Subjects and College Credit Check only when your teacher assigns it.</p>",
             },
             4: {
                 "TITLE": "Try a Medical-Coding Evidence Lab",
@@ -769,7 +781,7 @@ async def main():
                 "SHOW_LEARNING": "Complete the Medical Billing and Coding evidence row and individual fictional coding lab.",
                 "PURPOSE": "Use complete fictional documentation to choose from a short current code list.",
                 "TODAY": "<ul><li>finish the third career row;</li><li>code fictional charts and correct one response;</li><li>review automatic practice feedback if your teacher assigns it.</li></ul>",
-                "READY": f"<p>Open {file_link(files['LAB']['id'], 'the ICD-10-CM Training Lab')}, {file_link(files['GUIDE']['id'], 'the career guide')}, and your comparison.</p>",
+                "READY": f"<p>Open {student_copy_link(4, 'the ICD-10-CM Training Lab')}, {file_link(files['GUIDE']['id'], 'the career guide')}, and your comparison.</p>",
                 "STEPS": step(
                     1,
                     "Keep every chart fictional",
@@ -806,7 +818,10 @@ async def main():
                 "SHOW_LEARNING": "Submit the Canvas Minor with a three-career comparison and four-part recommendation.",
                 "PURPOSE": "Choose a route for Jordan and make the evidence easy to check.",
                 "TODAY": "<ul><li>audit all three career rows;</li><li>write four sentence jobs;</li><li>self-score and revise.</li></ul>",
-                "READY": f'<p>Open the <a href="{minor_url}">Health Career Evidence Check</a>. Use the {file_link(files["GUIDE"]["id"], "evidence guide")} and {file_link(files["RUBRIC"]["id"], "16-point rubric")}. The {file_link(files["COMPARE"]["id"], "optional print route")} is for students assigned paper.</p>',
+                # Non-rendered provenance lets the local Google Doc composer
+                # bind this day to the assignment's full response source.
+                "RESPONSE_SOURCE_FILE_ID": files["COMPARE"]["id"],
+                "READY": f'<p>Open the <a href="{minor_url}">Health Career Evidence Check</a>. Use the {file_link(files["GUIDE"]["id"], "evidence guide")} and {file_link(files["RUBRIC"]["id"], "16-point rubric")}. The {student_copy_link(5, "optional print route")} is for students assigned paper.</p>',
                 "STEPS": step(
                     1,
                     "Audit the evidence",
@@ -898,19 +913,19 @@ async def main():
                 "FALLBACK": "<p>Fixed facts remove open-search burden. The self-check replaces partner feedback when absent. A student without the workbook uses one assigned scaffold or labeled plain paper, not both.</p>",
             },
             3: {
-                "TITLE": "Add Real Experiences in Xello",
+                "TITLE": "Education Experiences and School Subjects at Work",
                 "TOPIC": "College Credit",
                 "OBJECTIVE": "Students will explore and list two current opportunities for earning college credit in high school using current district course evidence.",
                 "TEKS": "d(3)(B)",
-                "DOL": "Xello Completion Standards evidence and a completed two-opportunity Canvas constructed response.",
+                "DOL": "Education experiences and School subjects at work evidence plus a short two-opportunity Canvas response.",
                 "SUBTITLE": "50 minutes · TEKS d(3)(B)",
-                "ALERT": "<strong>Exact live requirements:</strong> Education experiences = add at least 1; Volunteer hours = add at least 1 completed hour. School subjects at work is supplemental, not Grade 8 completion.",
-                "PREP": f'<ul><li><strong>Per student:</strong> 1 internet-connected device with ClassLink, Xello, and Canvas access.</li><li><strong>Teacher:</strong> 1 device with the Completion Standards report open and 1 display with the fixed course cards.</li><li><strong>Print only for outage/access:</strong> 1 {file_link(files["XELLO_CHECK"]["id"], "one-page college-credit fallback")} per affected student. Default copies: 0.</li><li><strong>Grouping:</strong> individual profile and constructed-response work; no shared logins or public screenshots.</li><li>Preflight the unpublished <a href="{college_quiz_url}">college-credit practice check</a>.</li></ul>',
+                "ALERT": "<strong>Grade 7 course spine:</strong> Education experiences = add at least 1; School subjects at work = complete the assigned 30-minute lesson. Do not add another experience-profile task.",
+                "PREP": f'<ul><li><strong>Per student:</strong> 1 internet-connected device with ClassLink, Xello, and Canvas access.</li><li><strong>Teacher:</strong> 1 device with the Completion Standards report open and 1 display with the fixed course cards.</li><li><strong>Print only when assigned:</strong> 1 {file_link(files["XELLO_CHECK"]["id"], "one-page college-credit check")} per paper-response student.</li><li><strong>Grouping:</strong> individual profile and constructed-response work; no shared logins or public screenshots.</li><li>Preflight the unpublished <a href="{college_quiz_url}">college-credit practice check</a>.</li></ul>',
                 "EVIDENCE": "<p>Verify Xello in the report and review the Canvas practice check. Industry certification is not college credit. Default printing: none.</p>",
                 "FLOW": flow(
                     "#5a2d91",
-                    "Privacy/honesty · 4",
-                    "No invented hours or private details.",
+                    "Privacy/source check · 5",
+                    "No private details; preview both fixed course cards.",
                 )
                 + flow(
                     "#4a9d2f",
@@ -919,18 +934,17 @@ async def main():
                 )
                 + flow(
                     "#1f617a",
-                    "Volunteer hours · 15",
-                    "Add one completed hour or record catch-up.",
+                    "School subjects at work · 30",
+                    "Complete the assigned lesson and one subject-to-task connection.",
                 )
                 + flow(
                     "#e3ad19",
-                    "Constructed response · 14",
-                    "List both sourced opportunities and requirements.",
-                )
-                + flow("#606c76", "Verify, submit, reset · 7", "Private report check; close Xello."),
-                "MONITOR": "<ul><li><strong>Minute 14 CFU:</strong> Education experience saved or recovery route recorded.</li><li><strong>Minute 29 CFU:</strong> Volunteer hour saved or catch-up recorded; never direct invention.</li><li><strong>Lap 3:</strong> response names both opportunities and one requirement/limitation each. If more than 1 in 4 responses treats AP enrollment as guaranteed credit, reteach receiving-institution policy.</li><li><strong>Key:</strong> English III Dual Credit (H) = grades 10-12 after English II, high-school and college credit. AP Biology = grades 11-12 after Biology with completed/concurrent Chemistry; receiving institutions set credit policy.</li><li><strong>Trim:</strong> at minute 34, keep both required Xello saves and the constructed response; reduce debrief to one counselor-verification example.</li></ul>",
-                "SUPPORT": "<p>Preview navigation. Place this beside the response: <strong>“The source lists ____ as a ____ opportunity. One requirement or limitation is ____.”</strong> Word bank: experience/experiencia; volunteer/voluntariado; prerequisite/prerrequisito; receiving institution/institución que recibe el crédito. Do not require a full translation or public profile screenshot.</p>",
-                "FALLBACK": "<p>Platform outage: use the one-page college-credit response and schedule supervised Xello catch-up. Paper is not Xello completion. If Canvas alone fails, preserve the constructed response on the fallback and enter it in Canvas during recovery; do not assign both.</p>",
+                    "Constructed response and reset · 5",
+                    "List both sourced opportunities and one requirement or limitation for each.",
+                ),
+                "MONITOR": "<ul><li><strong>Minute 15 CFU:</strong> Education experience saved or recovery route recorded.</li><li><strong>Minute 45 CFU:</strong> School subjects at work complete or catch-up recorded.</li><li><strong>Final response:</strong> names both opportunities and one requirement/limitation each. If more than 1 in 4 responses treats AP enrollment as guaranteed college credit, reteach receiving-institution policy.</li><li><strong>Key:</strong> English III Dual Credit (H) = grades 10-12 after English II, high-school and college credit. AP Biology = grades 11-12 after Biology with completed/concurrent Chemistry; receiving institutions set credit policy.</li><li><strong>Trim:</strong> protect the 10-minute Education task, 30-minute School subjects lesson, and two sourced opportunity names; cut sharing first.</li></ul>",
+                "SUPPORT": "<p>Preview navigation. Place these beside the work: <strong>“____ uses ____ when ____.”</strong> and <strong>“The source lists ____ as a ____ opportunity. One requirement or limitation is ____.”</strong> Word bank: experience/experiencia; subject/materia; prerequisite/prerrequisito. Do not require a full translation or public profile screenshot.</p>",
+                "FALLBACK": "<p>Platform outage: use the one-page School Subjects and College Credit Check and schedule supervised Xello catch-up. Paper is not Xello completion. If Canvas alone fails, preserve the short response on the fallback and enter it in Canvas during recovery; do not assign both.</p>",
             },
             4: {
                 "TITLE": "Medical Billing and ICD-10-CM Practice",
@@ -974,6 +988,9 @@ async def main():
                 "DOL": "Submitted Canvas Minor with three-career comparison and four-part recommendation.",
                 "SUBTITLE": "50 minutes · TEKS d(2)(A), d(5)(B)",
                 "ALERT": "<strong>16-point Minor checkpoint.</strong> The existing Canvas assignment remains unpublished for teacher cloning and review.",
+                # Non-rendered provenance mirrors the assignment attachment
+                # so deterministic student-Doc composition sees the full route.
+                "RESPONSE_SOURCE_FILE_ID": files["COMPARE"]["id"],
                 "PREP": f'<ul><li><strong>Per student:</strong> 1 internet-connected device for the private <a href="{minor_url}">Health Career Evidence Check</a>, 1 FYF workbook, and 1 pencil.</li><li><strong>Teacher:</strong> 1 display/device with the scenario and evidence guide. Open the {file_link(files["RUBRIC"]["id"], "student-visible 16-point rubric")} and teacher-only {file_link(files["KEY"]["id"], "calibration guide")}.</li><li><strong>Print only for assigned students:</strong> 1 two-page comparison route per student, double-sided when available. Default copies: 0.</li><li><strong>Grouping:</strong> individual graded evidence; no team submission.</li><li>Keep H&amp;L optional. Use the current coursebook language for Health Science: Dental and Health Science: Medical Billing at Singley.</li></ul>',
                 "EVIDENCE": "<p>Collect the three-row comparison and four-part Jordan recommendation. Score accuracy, classification, fit, and evidence/trade-off.</p>",
                 "FLOW": flow("#5a2d91", "Audit · 8", "Correct all source labels.")

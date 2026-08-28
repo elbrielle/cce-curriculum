@@ -1,5 +1,5 @@
 ---
-title: College Credit Opportunity Check - Optional Print Fallback
+title: School Subjects and College Credit Check - Optional Print Fallback
 slug: 2sw-wk4-xello-experiences-checkpoint
 kind: worksheet
 weeks: 2sw/wk4-dental-medical-billing
@@ -10,9 +10,17 @@ pages: 1
 orientation: portrait
 ---
 
-## This page does not replace Xello
+## This page does not replace the assigned Xello lessons
 
-Required Education experiences and Volunteer hours are verified in the Xello Completion Standards report. If Xello is unavailable, complete this college-credit check and join supervised Xello catch-up.
+Education experiences and School subjects at work are verified in the Xello Completion Standards report. If Xello is unavailable, complete this college-credit check and join supervised Xello catch-up.
+
+## School subject to career connection
+
+One school subject I use now: __________________________
+
+One career task that uses this subject: ______________________________________
+
+Frame: “____ uses ____ when ____.”
 
 ## Compare two current Irving opportunities
 
@@ -22,17 +30,17 @@ Required Education experiences and Volunteer hours are verified in the Xello Com
 
 Word bank: **dual credit / crédito doble · prerequisite / prerrequisito · receiving institution / institución que recibe el crédito**
 
-1. One difference in how the two opportunities may lead to college credit:
+1. List both opportunities and name each type:
 
-[[lines: 3]]
+[[lines: 2]]
 
-2. One requirement I would need to plan for:
+2. One requirement or limitation for each opportunity:
 
-[[lines: 3]]
+[[lines: 2]]
 
 3. One question I would verify with a counselor or college:
 
-[[lines: 3]]
+[[lines: 2]]
 
 Sentence frame: “____ may fit my plan because ____. Before choosing it, I would verify ____.”
 

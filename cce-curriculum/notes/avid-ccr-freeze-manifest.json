@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "frozen_date": "2026-08-13",
+  "purpose": "AVID-to-Grade-7-CCE local freeze before Canvas reconciliation",
+  "files": {
+    ".gitignore": {
+      "sha256": "bc315308b6eba1e38e847db228893a578f898bdbae2732f33032ac13283edc2d",
+      "bytes": 1208
+    },
+    "PLANNING.md": {
+      "sha256": "72bf8fd8320e48deeec15ccfcccafd144c7b38ebed128c1f3d183d664cc59668",
+      "bytes": 41552
+    },
+    "build/canvas/build_2sw_wk5.py": {
+      "sha256": "eae1025b114eb8e1d7c631bb24784d340a779fcf0f4f39684292c54994fed333",
+      "bytes": 78688
+    },
+    "build/canvas/build_3sw_wk6.py": {
+      "sha256": "3b32765c25324b12f69e6cd2e09cad22fbad43e6bb117ac42c995bfe7a24ca91",
+      "bytes": 72556
+    },
+    "build/canvas/build_4sw_wk1.py": {
+      "sha256": "b12c02a61f5a89c2deccea911778a02a260e0a42c6d16f737984ca5f4b5e09c8",
+      "bytes": 58421
+    },
+    "build/canvas/build_4sw_wk2.py": {
+      "sha256": "71a1829b8f339ed3865954a38334da7850ef8628b481de2fc5d326cc29ec99df",
+      "bytes": 75915
+    },
+    "build/canvas/build_4sw_wk6.py": {
+      "sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087",
+      "bytes": 73175
+    },
+    "build/canvas/build_5sw_wk6.py": {
+      "sha256": "f1140b540ce40241e51870c7dfec85568c1908c5de2a0f997a8a1fb1fdc7526c",
+      "bytes": 52262
+    },
+    "build/canvas/build_6sw_wk1.py": {
+      "sha256": "ee77d9e1f9831664041db4c0c0fd74ce94626aa8abc234821853f9858ffe0155",
+      "bytes": 54598
+    },
+    "build/canvas/build_6sw_wk2.py": {
+      "sha256": "e41d618e2c300194423dda5f475e8022caecf27e83871d039347a52e33503b67",
+      "bytes": 57419
+    },
+    "build/canvas/build_6sw_wk5.py": {
+      "sha256": "5f07a8dd57d7987c98eadaf50849187d2382908930c09f6fd9fc5b9a33275a36",
+      "bytes": 58052
+    },
+    "build/canvas/build_wk0.py": {
+      "sha256": "c947c2b023d9e9c136b2f020467d94d1494150e0301de207acc0d3beb9983384",
+      "bytes": 21788
+    },
+    "build/canvas/build_wk5.py": {
+      "sha256": "380e72eb8732ce5bd96c6cc7dd171a61ecbdcd6985c26341e9f530d5125197eb",
+      "bytes": 39787
+    },
+    "build/canvas/configure_assessment_map.py": {
+      "sha256": "932b27fdd91124aa0a313c09d3ec2a7423e71072c7903d3f3a6539caf429b4b9",
+      "bytes": 25527
+    },
+    "build/canvas/normalize_unpublished_image_loading.py": {
+      "sha256": "0a6e4d77ab44749b0d7be877af99696e7630a2cf93961bcec883e24a24ae67a3",
+      "bytes": 6986
+    },
+    "build/canvas/qa_canvas_module.py": {
+      "sha256": "37a442c6178c2eebdf7bb6eb893c4058f3440a0e9d3f9725128097e8761095b2",
+      "bytes": 24895
+    },
+    "build/canvas/preview_wk0_routines.py": {
+      "sha256": "33508346fdec2cc4fcf072b0d87114755e55bdc7dbf259d48d659d53b9497f5f",
+      "bytes": 4445
+    },
+    "build/canvas/templates/wk0-day1-student.html": {
+      "sha256": "3f78bfd8f0ba7219ff29945a1255850f767063908396ebc5fd0d7c0d480eb3fb",
+      "bytes": 7492
+    },
+    "build/canvas/templates/wk0-day1-teacher.html": {
+      "sha256": "5b196979f43f6c586c67f9dc95b972f20cd29f13535c22f2dd055f5919772667",
+      "bytes": 7061
+    },
+    "build/canvas/templates/wk0-day4-student.html": {
+      "sha256": "f3a6e2fb621355e779061e19fb1fc6972d60d62ccd575ec0082700db1b98fb90",
+      "bytes": 5595
+    },
+    "build/canvas/templates/wk0-day4-teacher.html": {
+      "sha256": "7d3662f8297e1a5b086ec725d75992e369a27a0de33db2bfe8d20105661ec81c",
+      "bytes": 5533
+    },
+    "build/canvas/templates/wk0-day5-student.html": {
+      "sha256": "70c1b843e6d3ffaf2587cacfe8a2e6b8908f1293529b7ea93c9997a61b575e3c",
+      "bytes": 6936
+    },
+    "build/canvas/templates/wk0-day5-teacher.html": {
+      "sha256": "952ec5bfd6e77d8c7d0a7d51aa361fdfe622b85a3c27c98e9525114c56d51fb7",
+      "bytes": 6701
+    },
+    "build/canvas/templates/wk5-day5-student.html": {
+      "sha256": "299ee444f55faaee2c070bc4a19eb38a5047977f3dc52f7376c3d2e94692f9d4",
+      "bytes": 5599
+    },
+    "build/worksheet_sources/2sw-wk5-advocacy-smart-time-plan.md": {
+      "sha256": "ebfd0f2e13b0e6af7a3c0083937b70331796a17ca0187463e173144a06fb9473",
+      "bytes": 3516
+    },
+    "build/worksheet_sources/4sw-wk2-college-credit-and-family-conversation.md": {
+      "sha256": "234a40a83c6a498296f563fb7ee1d2ec8598034ac979fafcf66b98ab16d99554",
+      "bytes": 4097
+    },
+    "build/worksheet_sources/4sw-wk2-high-school-career-plan-rubric.md": {
+      "sha256": "6414d605d1cbad9cc56ab296c8f785606e42791c41503c1a4ffe27144421863f",
+      "bytes": 3038
+    },
+    "build/worksheet_sources/4sw-wk2-individual-high-school-career-plan.md": {
+      "sha256": "757580ce60f695bfbb98244e7b9b10930edabbb115b4b702521bd9fa220fc4a5",
+      "bytes": 3049
+    },
+    "build/worksheet_sources/6sw-wk2-first-resume-draft.md": {
+      "sha256": "c3abece9e1a5fde761e254e606b23add17eab67949e2ae81f4798fc00373753d",
+      "bytes": 3575
+    },
+    "build/worksheet_sources/6sw-wk5-interview-readiness.md": {
+      "sha256": "82a41ac2d1b163fa892dbb856cedfb33c626bc86fccf53f1f891bf142dde9319",
+      "bytes": 3345
+    },
+    "build/worksheet_sources/6sw-wk5-job-skills-rubric.md": {
+      "sha256": "0e44ff47afbe836e5de9545c7ef629779e34535ddb56739573522705932fb876",
+      "bytes": 3460
+    },
+    "build/worksheet_sources/6sw-wk5-mock-interview-and-thank-you.md": {
+      "sha256": "33d8d4147ba8f04d3f0e5c86e2d328db4b33360fa6a3e4686cb1c5d36cfa2e98",
+      "bytes": 3458
+    },
+    "build/worksheet_sources/career-research-worksheet-bilingual.md": {
+      "sha256": "f8d6d335e4a7e20b5c4f3bf339b3191d47d2207dd7d6abea763f7f328aa72d41",
+      "bytes": 1471
+    },
+    "build/worksheet_sources/career-research-worksheet-example-welder.md": {
+      "sha256": "b1b95330c9161b7ca6018e14d2616ab1855600c5f76e2a51687aca0f4a9e8194",
+      "bytes": 1989
+    },
+    "build/worksheet_sources/career-research-worksheet-example.md": {
+      "sha256": "71df9575d84fafd8dd03a36ea6ab34cbd0d0eedd60621c7697088e63449edd11",
+      "bytes": 1853
+    },
+    "build/worksheet_sources/cce-project-routine-card.md": {
+      "sha256": "f613534f706b8619164044e1ffc07aafca1bfcc16fa45dea6d3107c5e7ff6389",
+      "bytes": 2159
+    },
+    "build/worksheet_sources/cce-six-weeks-evidence-log.md": {
+      "sha256": "9a6a65d522978fdcc47d9288ff2d91714354669da2172878b8514acf55317db7",
+      "bytes": 2897
+    },
+    "build/worksheet_sources/wk2-career-research-web-developer.md": {
+      "sha256": "c1b2108ea026bc332c5644dc30dbd462633289c1eff211489c7176184b48003d",
+      "bytes": 2131
+    },
+    "cce-curriculum/notes/avid-to-ccr-reconciliation.md": {
+      "sha256": "c6e50145250be9434b5f065c732847f48c28ec6c67813ecafa326dcceafc1dea",
+      "bytes": 16191
+    },
+    "cce-curriculum/notes/overnight-autonomous-ccr-goal-prompt.md": {
+      "sha256": "0093507b7f1c854ba1e60239ecb75b2b0662b71add86337cf98629530bddcf60",
+      "bytes": 39783
+    },
+    "cce-curriculum/resources/avid-reference/README.md": {
+      "sha256": "940e664fef5958d8389df82e9bbe9d72eaa66bb213ba37045908a94fca34545f",
+      "bytes": 1030
+    },
+    "cce-curriculum/scope-and-sequence.md": {
+      "sha256": "fb69131a401c52ef3c065c3d55bbb863b8ffaa35300542134e55f15db63b11ff",
+      "bytes": 54058
+    },
+    "docs/1sw/wk0-classroom-routines/day1.md": {
+      "sha256": "3d5274d525d843c382af36ec5b639f1d8f641146ce358d3935a6a958caa608aa",
+      "bytes": 12477
+    },
+    "docs/1sw/wk0-classroom-routines/day4.md": {
+      "sha256": "aaad1cc387e59def09005fb7cc919567da490d128f4178f3627c46b0c40ba4e3",
+      "bytes": 9320
+    },
+    "docs/1sw/wk0-classroom-routines/day5.md": {
+      "sha256": "d28330889ad81f6942722b5d758de8d13582bdf16c6499f3217146e62d8733c9",
+      "bytes": 15226
+    },
+    "docs/1sw/wk0-classroom-routines/overview.md": {
+      "sha256": "6f5b14891a05d5f1a78f851f47881c5e47e9c3fc4cfa4e6f31263d579dffdeff",
+      "bytes": 21919
+    },
+    "docs/1sw/wk5-cybersecurity-it/day5.md": {
+      "sha256": "3bbf00c55acedc2919c5c1850865df0443a371debb896817750a45cc4bf9368c",
+      "bytes": 5838
+    },
+    "docs/2sw/wk5-powerskills-communication/day3.md": {
+      "sha256": "857b869784e14a32f554d0e8bab9c803d50634ec60623f1a37450ca7cd878873",
+      "bytes": 5617
+    },
+    "docs/2sw/wk5-powerskills-communication/day5.md": {
+      "sha256": "6cd4ada8459b032130e67ff69a7cbae9ed1673af9c39541d8b77221b70fc492d",
+      "bytes": 7075
+    },
+    "docs/2sw/wk5-powerskills-communication/overview.md": {
+      "sha256": "722c09559fafd478bdad1de671a9c620c8f258a18746ef004e38af2825bc6378",
+      "bytes": 4819
+    },
+    "docs/3sw/wk6-entrepreneurship/day5.md": {
+      "sha256": "e54317cbc0557c7e8b52b301c937c7aac1cd7ac605c76547427d8d0702702b7a",
+      "bytes": 5722
+    },
+    "docs/4sw/wk2-course-mapping/day3.md": {
+      "sha256": "cf6a4836f1c890a37d96a8f0875a91c95a06eca27ef04bc79c0d7f69d3f1a7fa",
+      "bytes": 6357
+    },
+    "docs/4sw/wk2-course-mapping/day5.md": {
+      "sha256": "058fad6e1a5ed6262de8e7bb8ffa48a508fe0c16c80560372645e46f48f43108",
+      "bytes": 5646
+    },
+    "docs/4sw/wk2-course-mapping/overview.md": {
+      "sha256": "2ce1b217cf178fd7a31e35ea725a4c9717e0dcb4b7b86864a7b1e2f7b36f0894",
+      "bytes": 12257
+    },
+    "docs/4sw/wk6-trades-capstone/day4.md": {
+      "sha256": "c5b0abfda58f14924ab723319fc39f0b6219ee797506c353f0f5d22ff34f4f46",
+      "bytes": 4739
+    },
+    "docs/5sw/wk6-real-estate/day5.md": {
+      "sha256": "64eaf9df7b9919bae53d2887a0b742804d79a398a19b2e0490b679e44e020066",
+      "bytes": 7739
+    },
+    "docs/6sw/wk1-education/day5.md": {
+      "sha256": "7ba8abf850f3edfc39870b39bfd9d7e9704d885361b20a69a105dcacc94a264b",
+      "bytes": 4867
+    },
+    "docs/6sw/wk2-graphic-design-resume/day2.md": {
+      "sha256": "466c46425c1f73d2cf785b7f0bcbc981875318cb4ba85555eb183bc82fc4f3d1",
+      "bytes": 3208
+    },
+    "docs/6sw/wk5-job-skills-mock-interview/day4.md": {
+      "sha256": "32681bdad73b57e016bf6b0b2d1d10b2a87bec1a6232aa7cfe80907d8e0ae227",
+      "bytes": 4098
+    },
+    "docs/6sw/wk5-job-skills-mock-interview/day5.md": {
+      "sha256": "9aec2d8d6640ce63c134863a340ef468fe5b1eb66c007178af11041f67dd1896",
+      "bytes": 4665
+    },
+    "docs/resources/exit-tickets/4sw-wk2-day3-college-credit-and-plan-conversation.pdf": {
+      "sha256": "0ab3d70036209f79a9e04d1654e5b2cca8c425ed567637e08f3f790986355b26",
+      "bytes": 230788
+    },
+    "docs/resources/teks-coverage-matrix.md": {
+      "sha256": "0691ac6d4adeeca26300a560df7804c87923ee28e65e0c453efdfdaa826bba39",
+      "bytes": 20805
+    },
+    "docs/resources/worksheets/2sw-wk5-advocacy-smart-time-plan.pdf": {
+      "sha256": "2e2ea7d1a1a822632d7d5c4e93fe1a37ef24404e8f17d640b7dfcd24a4d987cc",
+      "bytes": 248860
+    },
+    "docs/resources/worksheets/4sw-wk2-college-credit-and-family-conversation.pdf": {
+      "sha256": "ae135cced94e3671ec3708c3e4fc7f8ef6de7824f178e480b6d2734f5166d345",
+      "bytes": 251354
+    },
+    "docs/resources/worksheets/4sw-wk2-high-school-career-plan-rubric.pdf": {
+      "sha256": "1e3adb60460c3b2643d3c4748b04fbb3c9e317f499515ae62350b254882e6bcd",
+      "bytes": 229316
+    },
+    "docs/resources/worksheets/4sw-wk2-individual-high-school-career-plan.pdf": {
+      "sha256": "197a58321d5056cdb4b25afbee8e1ca3361a454762ae35390270db1fb30e9969",
+      "bytes": 227296
+    },
+    "docs/resources/worksheets/6sw-wk2-first-resume-draft.pdf": {
+      "sha256": "d71d38132eb9bafbe420162438e8374dbcd2a43efc405f4d2342aaa1b6d28c70",
+      "bytes": 272556
+    },
+    "docs/resources/worksheets/6sw-wk5-interview-readiness.pdf": {
+      "sha256": "760efa826a93667bc0cc41af12b1085e51eb599c99afa9d16297a487d135b6d8",
+      "bytes": 257445
+    },
+    "docs/resources/worksheets/6sw-wk5-job-skills-rubric.pdf": {
+      "sha256": "49a95ece8690b4f717643f938bff7e7a337422ef36f2df0628a44d538855881a",
+      "bytes": 254704
+    },
+    "docs/resources/worksheets/6sw-wk5-mock-interview-and-thank-you.pdf": {
+      "sha256": "65480cfc31238f542ca8011bd85bfd201262139163b063d9ef13a6893517b4ec",
+      "bytes": 249869
+    },
+    "docs/resources/worksheets/career-research-worksheet-bilingual.pdf": {
+      "sha256": "12b84c06a9241a2a5130b3d39ac90008be1a838bdc7c5957310a7aa7e8eb5508",
+      "bytes": 218401
+    },
+    "docs/resources/worksheets/career-research-worksheet-example-welder.pdf": {
+      "sha256": "b1d238ac7899d6da5a70550f11f0597178a5e2ed6de2146fd1d117d886b84da7",
+      "bytes": 260421
+    },
+    "docs/resources/worksheets/career-research-worksheet-example.pdf": {
+      "sha256": "8ce4eb42c02f476c60474084dcc75f4949e8626368a3bad55a780f5c105fc54f",
+      "bytes": 257751
+    },
+    "docs/resources/worksheets/cce-project-routine-card.pdf": {
+      "sha256": "c43b3f76229d254d689f63897094fe2090eff5de9f340fd8ad813cd07b187d5b",
+      "bytes": 234538
+    },
+    "docs/resources/worksheets/cce-six-weeks-evidence-log.pdf": {
+      "sha256": "73e55763215461aa6cd5a0b20b3b0f1f39dce2c2265de777d78f293c5affbe42",
+      "bytes": 207501
+    },
+    "docs/resources/worksheets/wk2-career-research-web-developer.pdf": {
+      "sha256": "ca1a961d67c4562800c0e1666da3b42d20926470defdbe9a2c41a1901f40a590",
+      "bytes": 269349
+    }
+  }
+}

@@ -4,7 +4,7 @@
 
 ## Learning Target
 
-I can identify careers in Education and Training, compare verified preparation routes, read employer evidence, design and revise a learning activity, and explain how service builds transferable skills.
+I can identify careers in Education and Training, compare verified preparation routes, evaluate learning pathways in Xello, design and revise a learning activity, and explain how service builds transferable skills.
 
 ## Turnkey Week Structure
 
@@ -12,16 +12,16 @@ I can identify careers in Education and Training, compare verified preparation r
 |---|---|---|---|
 | 1 | Education cluster + Community Classroom | FYF team concept + individual career/design reasoning | private annotation Assignment |
 | 2 | Texas teacher and educational-aide routes | source-bounded route comparison | private annotation Assignment |
-| 3 | Reading education job evidence | two-posting comparison and evidence limit | unlimited-retry practice Quiz |
+| 3 | Xello Discover learning pathways | required Xello lesson plus evidence-based pathway comparison | Xello Completion Standards report |
 | 4 | Teach Through Play + service | FYF activity + individual test/revision/service evidence | private annotation Assignment |
 | 5 | Current Irving pathways + synthesis | three-page evidence portfolio and self-score | private Minor 1 Assignment |
 
 ## TEKS Alignment
 
 - **d(1)(B):** describe the Education and Training cluster (Day 1; reassessed Day 5).
-- **d(1)(C):** identify career opportunities and work products (Days 1, 3, 5).
-- **d(2)(A):** research accurate academic, certification, and training requirements (Days 2, 3, 5).
-- **d(2)(B):** evaluate educational and training options with provider-specific limits (Days 2 and 5).
+- **d(1)(C):** identify career opportunities and work products (Days 1 and 5).
+- **d(2)(A):** research accurate academic, certification, and training requirements (Days 2, 3, and 5).
+- **d(2)(B):** evaluate educational and training options with provider-specific limits (Days 2, 3, and 5).
 - **d(4)(E):** explain the value of community service and volunteerism (Day 4; reassessed Day 5).
 
 ## Current Evidence Boundaries
@@ -30,8 +30,8 @@ I can identify careers in Education and Training, compare verified preparation r
 - “Traditional” and “alternative” are not complete price, time, paid-status, or quality labels. Students compare verified statewide requirements and identify what must be checked with an approved provider.
 - Educational Aide I has specific age, course, grade, credit, district-verification, application, and background-review conditions. A pathway name does not guarantee a credential.
 - Current Irving public evidence names **Education and Training** at Irving High, MacArthur, and Nimitz, and **Early Childhood Education** at Cardwell. The public page does not by itself guarantee schedule, travel, admission, placement, or certification.
-- Supplied job-posting cards are fictional practice records based on common employer fields. They teach how to read evidence without depending on a changing job board or exposing an assessment to search variance.
-- H&L browsing, Xello **Discover learning pathways**, and eDynamic 7.2 may be used as supplemental extensions. No new required Grade 8 Xello completion task belongs here, and no platform click is graded.
+- Xello **Discover learning pathways** is the required Grade 7 lesson on Day 3. It requires at least three saved careers. Students who are missing that prerequisite save three careers only to enter the assigned lesson; the course does not report a separate Save careers completion task.
+- H&L browsing and eDynamic 7.2 remain optional extensions. They do not replace or add to the required Xello lesson.
 
 ## Materials
 

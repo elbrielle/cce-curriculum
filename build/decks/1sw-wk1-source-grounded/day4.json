@@ -4,6 +4,11 @@
     "Find Your Future pp. 200-203, Robots for Crayons.",
     "Private teacher-created AVID source deck, inherited layout and lesson choreography only."
   ],
+  "visualTheme": {
+    "backgrounds": ["#F7F3FB", "#FFF8E8", "#FFF4D6", "#EEF7F5"],
+    "replacementImagePosition": {"left": 760, "top": 150, "width": 450, "height": 400},
+    "shrinkBodyForReplacement": true
+  },
   "recovery": "Use the embedded FYF pages and two-problem packet. Students may work independently, dictate, or use speech-to-text; the peer presentation is not required evidence.",
   "slides": [
     {
@@ -23,7 +28,7 @@
         "Today’s Lesson\nRead two problems\nMark evidence\nBuild two testable plans",
         "Get Ready\n",
         "Welcome!",
-        "FYF pp. 200-203\nAction-plan packet\nPencil or speech-to-text\nPrivate/independent route available",
+        "FYF pp. 200-203\nOne assigned response page\nPencil or speech-to-text\nFour factory roles",
         "Discussion\n\nA failure begins right after one part is replaced. What should the team check first—and why?"
       ],
       "timing": "0:40-1:00",
@@ -142,7 +147,7 @@
     {
       "texts": [
         "Brainstorm, Then Select",
-        "Generate several safe ideas for BOTH problems.\n\nStop below the workbook’s 15-idea suggestion if needed to protect the final plan.\n\nChoose the idea with:\n• two case clues\n• a controlled test\n• an observable result\n• a next check if it fails"
+        "Generate at least three safe ideas for BOTH problems.\n\nChoose the idea with:\n• two case clues\n• a controlled test\n• an observable result\n• a next check if it fails"
       ],
       "timing": "31:00-35:00",
       "lookFor": "Both problems have more than one idea before teams select a response.",
@@ -153,7 +158,13 @@
           "alt": "CCE Robots for Crayons two-problem evidence and action-plan response surface"
         }
       ],
-      "removeImages": [0]
+      "removeImages": [0],
+      "addTextboxes": [{
+        "name": "brainstorm-timer",
+        "text": "⏱ 4 MINUTES",
+        "fill": "#5A2D91",
+        "position": {"left": 860, "top": 500, "width": 280, "height": 70}
+      }]
     },
     {
       "texts": [
@@ -170,12 +181,18 @@
           "alt": "CCE action-plan packet with separate space for evidence, steps, tools, time, production effect, and next check"
         }
       ],
-      "removeImages": [0]
+      "removeImages": [0],
+      "addTextboxes": [{
+        "name": "action-plan-timer",
+        "text": "⏱ 10-MINUTE CHECK",
+        "fill": "#1F617A",
+        "position": {"left": 840, "top": 500, "width": 330, "height": 70}
+      }]
     },
     {
       "texts": [
         "Exit: Who Acts First?",
-        "Choose one Manufacturing role.\nIn 2-3 sentences:\nExplain what that worker does first.\nCite one clue from the case.\nSubmit the two-problem packet. The peer presentation is optional, not required evidence this week."
+        "Choose one Manufacturing role.\nIn 2-3 sentences:\nExplain what that worker does first.\nCite one clue from the case.\nFinish in today’s response page."
       ],
       "timing": "45:00-50:00",
       "lookFor": "The role’s first action matches the cited clue and both packet plans are collected.",

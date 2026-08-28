@@ -33,7 +33,7 @@ Build a class list of information people rely on: evidence files, scene observat
 
 Students complete all five prompts. Require one route fact, one work fact, one integrity moment, and one realistic next step. Do not require a particular career choice, public disclosure, or platform favorite.
 
-Optional exploration after core evidence is complete: students may review the FYF App Exploration page, open H&L, or use Xello to investigate a local career figure. No required Grade 8 Xello completion standard is assigned in this week.
+Optional exploration after core evidence is complete: students may review the FYF App Exploration page, open H&L, or use Xello to investigate a local career figure. No required Xello completion task is assigned this week.
 
 ## Exit Ticket (5 min)
 

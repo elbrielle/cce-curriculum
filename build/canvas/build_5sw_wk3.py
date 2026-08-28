@@ -12,6 +12,18 @@ import build_5sw_wk1 as prior
 
 common = prior.common
 COURSE_ID = common.COURSE_ID
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/1BGtsooFEivMknXlndFDMuJbL41gRxdo0cuHpsorYk9M/copy",
+    2: "https://docs.google.com/document/d/1VDL3GfMLW1_fRNCPvPFgC3ITcX5hfpvtA6_EDyVX6iQ/copy",
+    3: "https://docs.google.com/document/d/1n2fLVTrFK9G7yBF6SqSh3qfJoJz2NC37DDCtOShj11s/copy",
+    4: "https://docs.google.com/document/d/16cbuoQpZej-oUMivcnBm7OBcZqniTSo29FAq2pyivag/copy",
+    5: "https://docs.google.com/document/d/1XidpSaCGRBFLWqPaX0xbuYKBHv3losbeDNjEiVsVuaE/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
 ROOT = common.ROOT
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/5sw/wk3"
 MODULE_NAME = "5SW Wk3: Construction — Routes, Evidence, and Observation"
@@ -312,7 +324,7 @@ async def main():
                 "TITLE": "Construction Careers and Preparation",
                 "PURPOSE": "Use fixed evidence to identify construction careers and distinguish current district, education, training, and license boundaries.",
                 "TODAY": "<ul><li>read the current MacArthur pathway label;</li><li>compare three careers;</li><li>record preparation accurately;</li><li>make one evidence-based route judgment.</li></ul>",
-                "READY": f'<p>Open {link(files["CAREER"]["id"], "the three-page construction career packet")} or <a href="{urls["career"]}">the Canvas annotation activity</a>.</p>',
+                "READY": f'<p>Open {student_copy_link(1, "the three-page construction career packet")} or <a href="{urls["career"]}">the Canvas annotation activity</a>.</p>',
                 "MEDIA": "",
                 "LANGUAGE": "<p><strong>Word bank:</strong> preparation/preparación · median/mediana · opening/vacante · license/licencia · boundary/límite.</p><p><strong>Use this frame:</strong> I would choose [role] because [work/preparation evidence]. I would accept [tradeoff], and I still need to verify [question].</p>",
                 "STEPS": step(1, "Read the pathway boundary", "<p>MacArthur currently lists Construction within ACE. A high-school pathway supports preparation; it does not replace later training or a trade-specific license.</p>")
@@ -328,7 +340,7 @@ async def main():
                 "TITLE": "Training Routes and Career Organizations",
                 "PURPOSE": "Compare two real route types and identify the exact steps and organization support a student would verify next.",
                 "TODAY": "<ul><li>separate Registered Apprenticeship from a universal trade ladder;</li><li>compare two routes;</li><li>sequence enrollment steps;</li><li>classify an organization.</li></ul>",
-                "READY": f'<p>Open {link(files["ROUTES"]["id"], "the four-page routes and organizations packet")} or <a href="{urls["routes"]}">the Canvas annotation activity</a>.</p>',
+                "READY": f'<p>Open {student_copy_link(2, "the four-page routes and organizations packet")} or <a href="{urls["routes"]}">the Canvas annotation activity</a>.</p>',
                 "MEDIA": "",
                 "LANGUAGE": "<p><strong>Word bank:</strong> apprenticeship/aprendizaje registrado · sponsor/patrocinador · eligibility/requisitos · association/asociación · credential/credencial.</p><p><strong>Use this frame:</strong> [Organization] is a [type]. A student can access it by [step], and one documented value is [value].</p>",
                 "STEPS": step(1, "Use the stable apprenticeship facts", "<p>Registered Apprenticeship combines paid work, instruction, mentoring, progressive wages, and a portable credential. Sponsor rules vary.</p>")
@@ -344,7 +356,7 @@ async def main():
                 "TITLE": "Classify Four Construction Careers",
                 "PURPOSE": "Use one comparable national evidence basis and a published classroom rule to classify four construction careers.",
                 "TODAY": "<ul><li>read the classroom comparison rule;</li><li>analyze four careers;</li><li>cite a number for each label;</li><li>state one limitation.</li></ul>",
-                "READY": f'<p>Open {link(files["CLASSIFY"]["id"], "the four-page labor classification packet")} and {link(files["RUBRIC"]["id"], "the student-visible Minor 3 rubric")}, or use <a href="{urls["classify"]}">the Canvas annotation activity</a>.</p>',
+                "READY": f'<p>Open {student_copy_link(3, "the four-page labor classification packet")} and {link(files["RUBRIC"]["id"], "the student-visible Minor 3 rubric")}, or use <a href="{urls["classify"]}">the Canvas annotation activity</a>.</p>',
                 "MEDIA": "",
                 "LANGUAGE": "<p><strong>Word bank:</strong> classification/clasificación · high wage/salario alto · high demand/alta demanda · annual opening/vacante anual · limitation/limitación.</p><p><strong>Use this frame:</strong> I classify [occupation] as [label] because [exact fact/number]. This national evidence does not prove [local or starting-pay claim].</p>",
                 "STEPS": step(1, "Read the rule", "<p>High wage means above the May 2024 U.S. all-occupation median of $49,500. High demand means projected growth above the 3.1% all-occupation comparison. High skill uses the documented preparation rule in the packet.</p>")
@@ -360,7 +372,7 @@ async def main():
                 "TITLE": "Fictional Visual Observation Lab",
                 "PURPOSE": "Separate what an image visibly shows from what it could mean and who is qualified to check next.",
                 "TODAY": "<ul><li>inspect five licensed images;</li><li>record visible clues;</li><li>state a possible concern without diagnosing;</li><li>name the next qualified role.</li></ul>",
-                "READY": f'<p>Open FYF pp. 176–178 first. Begin Findings 1–5 and the thermal boundary in {link(files["REPORT"]["id"], "the shared five-page evidence report")} through <a href="{urls["report"]}">the one Days 4–5 Canvas Assignment</a>. Do not create a second submission.</p>',
+                "READY": f'<p>Open FYF pp. 176–178 first. Begin Findings 1–5 and the thermal boundary in {student_copy_link(4, "the shared five-page evidence report")} through <a href="{urls["report"]}">the one Days 4–5 Canvas Assignment</a>. Do not create a second submission.</p>',
                 "MEDIA": day4_media,
                 "LANGUAGE": "<p><strong>Word bank:</strong> observe/observar · could indicate/podría indicar · qualified/calificado · evidence limit/límite de evidencia · thermal/térmico.</p><p><strong>Use this frame:</strong> I observe [visible clue]. This could indicate [possibility]. The image cannot prove [limit]. A qualified [role] should evaluate it next.</p>",
                 "STEPS": step(1, "Stay inside the boundary", "<p>This is a fictional image-analysis exercise. Do not inspect a real home, touch a panel, diagnose a defect, estimate repairs, or advise a purchase.</p>")
@@ -376,7 +388,7 @@ async def main():
                 "TITLE": "Evidence Report and Individual Briefing",
                 "PURPOSE": "Turn the visual evidence into a careful fictional report and communicate one finding clearly.",
                 "TODAY": "<ul><li>complete five report blocks;</li><li>write a thermal-evidence boundary;</li><li>choose an appropriate evidence or assistive technology;</li><li>deliver and submit a 30-45 second oral/AAC briefing privately.</li></ul>",
-                "READY": f'<p>Reopen {link(files["REPORT"]["id"], "the shared five-page evidence report")} from Day 4 and {link(files["REPORT_RUBRIC"]["id"], "the formative report feedback guide")}. Revise the same findings; do not recopy them into a second packet.</p>',
+                "READY": f'<p>Reopen {student_copy_link(5, "the shared five-page evidence report")} from Day 4 and {link(files["REPORT_RUBRIC"]["id"], "the formative report feedback guide")}. Revise the same findings; do not recopy them into a second packet.</p>',
                 "MEDIA": "",
                 "LANGUAGE": "<p><strong>Word bank:</strong> finding/hallazgo · corroborate/confirmar con otra evidencia · briefing/informe breve · client/cliente · next professional/siguiente profesional.</p><p><strong>Use this frame:</strong> In [image/area], I observe [clue]. It could indicate [possibility], but the image cannot prove [limit]. A qualified [role] should check next.</p><p><strong>Name your technology:</strong> I will use [visible report/evidence card, private recording, or AAC/speech-generating device] to support my oral/AAC briefing.</p>",
                 "STEPS": step(1, "Complete each finding", "<p>Use observation, possible meaning, evidence limit, and next qualified professional. Do not add prices, purchase advice, or a diagnosis.</p>")

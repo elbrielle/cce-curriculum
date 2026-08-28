@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "artifact": "CCE manual student response-route specifications",
+  "review_status": "reviewed",
+  "determinism": "No timestamp is emitted. Source guards are exact SHA-256 values from the current source-spec draft.",
+  "canonical_drive_root": {
+    "id": "1FbY0WdnXN-PkW6Vi76qcpDfp7SKq5c5H",
+    "path": "VILS27/Units_CCR"
+  },
+  "specs": [
+    {
+      "day_key": "1SW-Wk0-Day1",
+      "title": "CCE | 1SW Wk0 Day 1 | Your CCE Notebook and First-Week Goal",
+      "subtitle": null,
+      "document_id": "1rb8sHX56FYPeddRX-QX0_YG-bD7FrZZpQnh06q0r9w8",
+      "folder_id": "117satomVUMXl-7fOFlYzTChD3__Fy0Mh",
+      "folder_path": "VILS27/Units_CCR/SW1 · Wk0 Classroom Routines and Career Self-Discovery/Google Masters",
+      "layout_spec_status": "reviewed",
+      "content_spec": {
+        "purpose": "Set one reusable response home and complete a specific first-week CCE goal.",
+        "required_elements": [
+          "notebook location and fallback test line",
+          "six goal-plan fields",
+          "private self-check",
+          "focused Spanish sentence support"
+        ]
+      },
+      "supplemental_sources": [],
+      "source_guards": {
+        "day_source_sha256": "97502ff45bc7496b01997ff1e9859d9ff43f21b3efbc37ccc7420623e1f89337",
+        "canvas_builder_sha256": "700ac2744cbd5ca09c498743fcf2f7c51db8c3b7158e4ef2feb58072b4f25c3b",
+        "student_template_sha256": "e08ac1692c549ef77b78207da455157b544cd4c8c7caaf47568bb9fc694e9887"
+      }
+    },
+    {
+      "day_key": "1SW-Wk0-Day2",
+      "title": "CCE | 1SW Wk0 Day 2 | Who Are You at Work?",
+      "subtitle": "H&L Setup and Discover Your Core",
+      "document_id": "1vfmAFfDd9dR3rygesc0-FhFljoM6OLueUZjc8cxv8LM",
+      "folder_id": "117satomVUMXl-7fOFlYzTChD3__Fy0Mh",
+      "folder_path": "VILS27/Units_CCR/SW1 · Wk0 Classroom Routines and Career Self-Discovery/Google Masters",
+      "layout_spec_status": "reviewed",
+      "content_spec": {
+        "purpose": "Record a Core prediction, the H&L result, and one short interpretation in one private response home.",
+        "required_elements": [
+          "Core prediction and evidence clue",
+          "H&L Core result",
+          "one interpretation choice",
+          "focused Spanish sentence support"
+        ]
+      },
+      "supplemental_sources": [],
+      "source_guards": {
+        "day_source_sha256": "6d09fcb7f9dfe7ea2679b311bbf1218062b88a02b5f402591775573fb38256b1",
+        "canvas_builder_sha256": "700ac2744cbd5ca09c498743fcf2f7c51db8c3b7158e4ef2feb58072b4f25c3b",
+        "student_template_sha256": "6d56deba1f8ab18abcab618fc083bc1548a7f3c7e78bee95c961faf72bd6f2a3"
+      }
+    },
+    {
+      "day_key": "1SW-Wk0-Day3",
+      "title": "CCE | 1SW Wk0 Day 3 | Work Values and Building Blocks",
+      "subtitle": null,
+      "document_id": "1NWbgTULXk-_2WflAccPMHGQRKeYFt8xu-41oMKczRhQ",
+      "folder_id": "117satomVUMXl-7fOFlYzTChD3__Fy0Mh",
+      "folder_path": "VILS27/Units_CCR/SW1 · Wk0 Classroom Routines and Career Self-Discovery/Google Masters",
+      "layout_spec_status": "reviewed",
+      "content_spec": {
+        "purpose": "Connect work values, experiences, skills, and one possible career cluster.",
+        "required_elements": [
+          "top work values and reflection",
+          "three Building Blocks and related skills",
+          "cluster result or cluster pending",
+          "one value-to-experience-to-cluster connection"
+        ]
+      },
+      "supplemental_sources": [],
+      "source_guards": {
+        "day_source_sha256": "d5ab6531092216516dd420c880cff09d7eddaf25c2e7617832996cf495ffaeb6",
+        "canvas_builder_sha256": "700ac2744cbd5ca09c498743fcf2f7c51db8c3b7158e4ef2feb58072b4f25c3b",
+        "student_template_sha256": "b9585749bf9eb76005a5d99eca86528d078e69e6f328bbfe7dd1debaf6b24732"
+      }
+    },
+    {
+      "day_key": "1SW-Wk0-Day4",
+      "title": "CCE | 1SW Wk0 Day 4 | My Career Journey Reflection",
+      "subtitle": null,
+      "document_id": "1zE7zuPdx5arGs0IoTFhXjRxVvz4JZ-TVdG7NO1nNsjU",
+      "folder_id": "117satomVUMXl-7fOFlYzTChD3__Fy0Mh",
+      "folder_path": "VILS27/Units_CCR/SW1 · Wk0 Classroom Routines and Career Self-Discovery/Google Masters",
+      "layout_spec_status": "reviewed",
+      "content_spec": {
+        "purpose": "Complete the eight-part My Career Journey reflection once and make one visible revision.",
+        "required_elements": [
+          "eight labeled reflection sections",
+          "pending option for missing results",
+          "one visible revision",
+          "sentence-stem and bilingual supports"
+        ]
+      },
+      "supplemental_sources": [
+        {
+          "path": "build/worksheet_sources/my-career-journey-stems.md",
+          "sha256": "3a7dea2b4604e34b593c7ebcdf7e96754dd9ca169332a1404d8de23a82963c84",
+          "role": "sentence_stem_support"
+        },
+        {
+          "path": "build/worksheet_sources/my-career-journey-bilingual.md",
+          "sha256": "a39c298570a3534c99c8abd117c54cdc8ccfd8ba29ab49ce4d3f94bea4a3d7e8",
+          "role": "bilingual_support"
+        }
+      ],
+      "source_guards": {
+        "day_source_sha256": "c1210683c5ab34d94c6b4a3c2f2d25c39f6116db32611125b1784181678b01f1",
+        "canvas_builder_sha256": "700ac2744cbd5ca09c498743fcf2f7c51db8c3b7158e4ef2feb58072b4f25c3b",
+        "student_template_sha256": "12a54a5a0f71055cc2ba80826754e038d878b9982aee9d678c65bc97ccc6d22a"
+      }
+    },
+    {
+      "day_key": "1SW-Wk0-Day5",
+      "title": "CCE | 1SW Wk0 Day 5 | Career Perks, Neutrals, and Quirks",
+      "subtitle": null,
+      "document_id": "1nMR01dH0hSxJzcQqCwizzB1QDVS1payEx8a7bR01lsA",
+      "folder_id": "117satomVUMXl-7fOFlYzTChD3__Fy0Mh",
+      "folder_path": "VILS27/Units_CCR/SW1 · Wk0 Classroom Routines and Career Self-Discovery/Google Masters",
+      "layout_spec_status": "reviewed",
+      "content_spec": {
+        "purpose": "Classify four career details as perks, neutrals, or quirks and explain each decision.",
+        "required_elements": [
+          "career and source",
+          "four-row detail table",
+          "perk-neutral-quirk classification and personal reason",
+          "focused word bank and optional sentence stem"
+        ]
+      },
+      "supplemental_sources": [],
+      "source_guards": {
+        "day_source_sha256": "694a470d83e31a6a39bc36eba74e55d0f48d579f71ad96e31c47a71e51718507",
+        "canvas_builder_sha256": "700ac2744cbd5ca09c498743fcf2f7c51db8c3b7158e4ef2feb58072b4f25c3b",
+        "student_template_sha256": "ea78386f0bfd02250adfeacf2b9551bfcec52d53b1bd4a458beea1291711cdda"
+      }
+    },
+    {
+      "day_key": "1SW-Wk3-Day3",
+      "title": "CCE | 1SW Wk3 Day 3 | From Wireframe to Wow — Build the Screens",
+      "subtitle": null,
+      "document_id": "1SyQB5eeYORonPaLr8_U3LKUp7bC2BnECxTpsRST7OuU",
+      "folder_id": "1fp1hKYqArYtxPPbzEjbqvKY4xaY7_ds0",
+      "folder_path": "VILS27/Units_CCR/SW1 · Wk3 Computer Science IT/Google Masters",
+      "layout_spec_status": "reviewed",
+      "content_spec": {
+        "purpose": "Capture the app-design deliverable without duplicating the full lesson guide.",
+        "required_elements": [
+          "four labeled screen canvases",
+          "written walkthrough feedback",
+          "two starred revisions tied to feedback"
+        ],
+        "scope": "deliverable_only"
+      },
+      "supplemental_sources": [],
+      "source_guards": {
+        "day_source_sha256": "b97875c33464d59a6cc0e6917d22988ae5a1ce299829a9924626682d690084e4",
+        "canvas_builder_sha256": "287769d9dc2dda9ea312366d732bed7fdd8b2aca6977eff621e98aef033fc3db",
+        "student_template_sha256": "5d8d766960cdfdb7260de74457d9d2942981b0d9eebe13cafa54cdb6cc618ffd"
+      }
+    },
+    {
+      "day_key": "1SW-Wk5-Day5",
+      "title": "CCE | 1SW Wk5 Day 5 | Capstone Goal, Transitions, and Reflection",
+      "subtitle": null,
+      "document_id": "1QKZLyhP4bQUoHRi27u4RX0RHaY6y0XCetS2akxlBeOg",
+      "folder_id": "1kB3g7_VuuPB9C66e-0KdRKygHFuOG1rR",
+      "folder_path": "VILS27/Units_CCR/SW1 · Wk5 Cybersecurity IT/Google Masters",
+      "layout_spec_status": "reviewed",
+      "content_spec": {
+        "purpose": "Complete the written and checkable portions of the four-part capstone evidence packet.",
+        "required_elements": [
+          "original goal-symbol canvas and goal sentence",
+          "high-school and postsecondary transition steps",
+          "Career Journey update",
+          "packet checklist and Evidence Log Entry 1 check"
+        ]
+      },
+      "supplemental_sources": [],
+      "source_guards": {
+        "day_source_sha256": "3bbf00c55acedc2919c5c1850865df0443a371debb896817750a45cc4bf9368c",
+        "canvas_builder_sha256": "e7e866fae7627dc64aab56544ba9901a55767aa8eb7d9e951fbb635fa8fec3d3",
+        "student_template_sha256": "03a23dcd8d4000a231cae7d059cdf52bd10363c1fb65640a9341da7e466df799"
+      }
+    }
+  ]
+}

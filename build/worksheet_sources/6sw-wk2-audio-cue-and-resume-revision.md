@@ -1,5 +1,5 @@
 ---
-title: Attention to Detail - Resume Revision Record
+title: Xello Resume and Revision Record
 slug: 6sw-wk2-audio-cue-and-resume-revision
 kind: worksheet
 weeks: 6sw/wk2-graphic-design-resume
@@ -10,27 +10,22 @@ pages: 1
 orientation: portrait
 ---
 
-## Use FYF First
+## Complete the required Xello Resume task
 
-Complete the audio-cue work in FYF pp. 272-273. Use this page to connect that detail work to a sound-production career and a visible résumé revision. The locked Canvas images provide the no-workbook cue route.
+Open **ClassLink > Xello > About Me > My Resume**. Use the truthful school, project, activity, service, or responsibility evidence from your Day 2 draft.
 
-### Career opportunity
+- [ ] standard sections are present;
+- [ ] education is accurate;
+- [ ] skills and experiences are truthful; and
+- [ ] Xello shows the Resume task as complete.
 
-Choose one: sound designer · foley artist · audio editor · production assistant
+Use only district-approved information inside Xello. If Xello asks for contact information you do not know or should not share, stop and ask your teacher. Do not copy contact details from Xello into this page or Canvas.
 
-**Career:** ______________________________  **Work product:**
+**Word bank:** heading/encabezado · skill/habilidad · experience/experiencia · revise/revisar · evidence/evidencia
 
-[[lines: 1]]
+## Show one visible résumé revision
 
-**One cue detail this worker needs so the worker does not have to guess:**
-
-[[lines: 2]]
-
-**Language help:** cue/señal · material/material · surface/superficie · timing/ritmo · mood/ambiente
-
-### Resume before and after
-
-**Before:** Copy one vague trait, tool name, or weak bullet from your résumé.
+**Before:** Copy one vague trait, tool name, or weak bullet from your CCE résumé.
 
 [[lines: 2]]
 
@@ -42,4 +37,6 @@ Choose one: sound designer · foley artist · audio editor · production assista
 
 **Why it helps, plus one consistency repair:** The revision shows **[evidence]** by **[action]**. I also corrected **[detail]**.
 
-[[lines: 2]]
+[[lines: 3]]
+
+**Done when:** Xello Resume is complete or supervised recovery is recorded, and the private CCE résumé has one visible before-and-after revision.

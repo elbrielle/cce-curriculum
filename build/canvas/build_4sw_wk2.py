@@ -13,6 +13,18 @@ import build_4sw_wk1 as common
 
 BASE = common.BASE
 COURSE_ID = common.COURSE_ID
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/1FHBRmPf2oEAL4hs_1Ju3S8goOTSIBSzYJlySyL6Ymbc/copy",
+    2: "https://docs.google.com/document/d/13ZZOHIa50pYUII07a18JS8H5tqvC48holY_5FsoHSvk/copy",
+    3: "https://docs.google.com/document/d/1UTtvcgwuEG_hb2H07bBlOV7DGGlrkLivLC5y_QRY1Pc/copy",
+    4: "https://docs.google.com/document/d/1k3q0gjVSKTnITMgSMUGo4IJi7htSGrzjAtjC2dIYIbo/copy",
+    5: "https://docs.google.com/document/d/1HOPW6oUfdmUxeelvp6hZBe3L6dNj-By-1_C_YkpGtTA/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
 ROOT = common.ROOT
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/4sw/wk2"
 MODULE_NAME = "4SW Wk2: Build a Counseling-Ready High School Plan"
@@ -633,7 +645,7 @@ async def main():
                 "TITLE": "Graduation and Assessment Decisions",
                 "PURPOSE": "Separate graduation, admission, placement, career-exploration, military, and credential decisions before you plan.",
                 "TODAY": "<ul><li>read the current Texas graduation framework;</li><li>identify one endorsement question;</li><li>analyze two assessment scenarios.</li></ul>",
-                "READY": f'<p>Use one printed copy of {file_link(files["TRANSITION"]["id"], "the three-page Transition and Assessment Decisions packet")}. Page 1 already contains the dated Grade 8 cohort facts. Keep the packet in your CCR Week 2 folder for Day 5.</p>',
+                "READY": f'<p>Use one printed copy of {student_copy_link(1, "the three-page Transition and Assessment Decisions packet")}. Page 1 already contains the dated Grade 8 cohort facts. Keep the packet in your CCR Week 2 folder for Day 5.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Decision words:</strong> graduation · admission · placement · scholarship · career exploration · military qualification · credential.</p><p><strong>Use this frame:</strong> ___ may affect ___, but it does not decide ___. I will verify ___ with ___.</p></div>',
                 "STEPS": step(1, "Record the two planning levels", "<p>Write the 22-credit foundation baseline and what the 26-credit endorsement plan adds. Keep the source and year.</p>")
                 + step(2, "Write a counseling-ready endorsement statement", "<p>Name one possible endorsement and one question. Do not write “always” unless a current source proves it.</p>")
@@ -648,7 +660,7 @@ async def main():
                 "TITLE": "Four-Year Course Plan Draft",
                 "PURPOSE": "Build a source-checked draft for a future counselor conversation, not an official schedule.",
                 "TODAY": "<ul><li>find current course information;</li><li>draft Grades 9-12;</li><li>explain one prerequisite chain;</li><li>keep a backup and counselor questions.</li></ul>",
-                "READY": f'<p><strong>Default route:</strong> <a href="{annotation_url}">open the Canvas course-plan annotation</a>. Use {file_link(files["COURSE"]["id"], "the three-page paper or enlarged route")} only when your teacher assigns that route. Do not complete both. Keep the current Irving ISD coursebook open.</p>',
+                "READY": f'<p><strong>Default route:</strong> <a href="{annotation_url}">open the Canvas course-plan annotation</a>. Use {student_copy_link(2, "the three-page paper or enlarged route")} only when your teacher assigns that route. Do not complete both. Keep the current Irving ISD coursebook open.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Planning words:</strong> prerequisite = a course required first · verify = check with a current source or counselor · backup = another route that protects the same goal.</p><p><strong>Use this frame:</strong> I placed ___ before ___ because the coursebook lists ___ as a prerequisite. I still need to verify ___.</p></div>',
                 "STEPS": step(1, "Keep the source with the course", "<p>Record the exact title, grade level, prerequisite, source, and access date.</p><div style=\"border:1px solid #bad4df;background:#f2f8fb;padding:12px 16px;margin:12px 0\"><p style=\"margin:0 0 6px\"><strong>Worked sequence from the 2026-27 Irving coursebook:</strong></p><p style=\"margin:0\">Grade 9 English I → Grade 10 English II (prerequisite: English I) → Grade 11 English III - Dual Credit (prerequisite: English II). Mark <strong>VERIFY</strong> beside dual-credit readiness, campus availability, and counselor placement. A source-checked English III route is the backup.</p></div>")
                 + step(2, "Draft one year at a time", "<p>Complete Grades 9-12. A blank marked for verification is better than an invented course. Use the model's structure, not its English choices.</p>")
@@ -657,13 +669,13 @@ async def main():
                 "EXIT": "<p>What do you do when a course title is current but its grade level, campus, or prerequisite is unclear?</p>",
                 "DONE": "<ul><li>source and access date;</li><li>four-year draft;</li><li>one prerequisite chain;</li><li>one item marked for verification;</li><li>one backup;</li><li>two counselor questions.</li></ul>",
                 "SUPPORT": "<p>prerequisite = requisito previo · verify = verificar · backup = alternativa. Complete: “I placed ___ before ___ because the coursebook lists ___ as a prerequisite. I still need to verify ___.”</p>",
-                "FALLBACK": "<p>Use the embedded worked sequence and the three-page paper route. Mark every missing operational detail <strong>VERIFY</strong>. Do not submit course requests; the official Xello tasks wait for the counseling window.</p>",
+                "FALLBACK": "<p>Use the embedded worked sequence and the three-page paper route. Mark every missing operational detail <strong>VERIFY</strong>. This week ends with a CCE/FYF draft; no Xello planning task is assigned.</p>",
             },
             3: {
                 "TITLE": "Postsecondary Route Trail and College Credit",
                 "PURPOSE": "Compare several ways to prepare after high school, then decide what to investigate first without closing the other routes.",
                 "TODAY": "<ul><li>compare AP and dual credit;</li><li>follow three fixed-evidence route cards;</li><li>compare notes and mark overlap;</li><li>keep three possible routes and plan two next actions.</li></ul>",
-                "READY": f'<p>Open {file_link(files["CREDIT"]["id"], "the two-page Postsecondary Route Trail and College Credit Check")}. Use the movement trail or the seated/private card order below. Both routes use the same cards and produce the same evidence.</p>',
+                "READY": f'<p>Open {student_copy_link(3, "the two-page Postsecondary Route Trail and College Credit Check")}. Use the movement trail or the seated/private card order below. Both routes use the same cards and produce the same evidence.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Compare with:</strong> credential · education or training · work-based learning · entry requirement · time · cost · commitment · backup.</p><p><strong>Use these frames:</strong> Both routes ___. Unlike ___, ___ includes ___. I will investigate ___ first because ___. I still need to verify ___.</p></div>',
                 "STEPS": step(1, "Compare the routes", "<p>AP uses an exam and receiving-college policy. Dual credit is a college course that gives high school and college credit after successful completion.</p>")
                 + step(2, "Follow the route trail", route_cards + "<p>Complete any three routes. For each one, record one fixed fact and one tradeoff or question.</p>")
@@ -678,7 +690,7 @@ async def main():
                 "TITLE": "SMART Experience Action Plan",
                 "PURPOSE": "Turn one possible experience into a realistic action with support and a backup.",
                 "TODAY": "<ul><li>evaluate one experience;</li><li>write all five SMART parts;</li><li>check access, support, obstacle, and backup;</li><li>choose one action within seven days.</li></ul>",
-                "READY": f'<p><strong>Default route:</strong> complete the SMART goal on FYF pp. 292-293, then open {file_link(files["SMART"]["id"], "the one-page Experience Access and Backup Check")}. The companion collects only the evidence the workbook does not ask for.</p>',
+                "READY": f'<p><strong>Default route:</strong> complete the SMART goal on FYF pp. 292-293, then open {student_copy_link(4, "the one-page Experience Access and Backup Check")}. The companion collects only the evidence the workbook does not ask for.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>SMART:</strong> Specific · Measurable · Achievable · Relevant · Time-Bound.</p><p><strong>Use these frames:</strong> By ___, I will ___, and I will know I made progress when ___. If ___ blocks the plan, I will ___ so I can still build ___.</p></div>',
                 "STEPS": step(1, "Choose a real or clearly unverified experience", "<p>Choose one route: (1) an independent three-sample project, (2) a four-week service or responsibility role with an evidence log, or (3) one verified campus/community meeting with an independent-project backup. Do not contact an unfamiliar adult or workplace.</p>")
                 + step(2, "Name the value", "<p>Record the skill it builds and how the same skill transfers to a second career.</p>")
@@ -693,7 +705,7 @@ async def main():
                 "TITLE": "Individual High School and Career Plan",
                 "PURPOSE": "Combine your evidence into a current direction, course plan, three possible preparation routes, backup, and revision rule.",
                 "TODAY": "<ul><li>gather Days 1-4 evidence;</li><li>write the individual plan;</li><li>self-score with the rubric;</li><li>revise and submit privately.</li></ul>",
-                "READY": f'<p><strong>Default route:</strong> complete {file_link(files["PLAN"]["id"], "the four-page Individual Plan")} and use {file_link(files["RUBRIC"]["id"], "the two-page 16-point rubric")} on screen. Print the rubric only when you need a paper or enlarged copy. Submit the plan privately; keep Days 1-4 as source evidence.</p>',
+                "READY": f'<p><strong>Default route:</strong> complete {student_copy_link(5, "the four-page Individual Plan")} and use {file_link(files["RUBRIC"]["id"], "the two-page 16-point rubric")} on screen. Print the rubric only when you need a paper or enlarged copy. Submit the plan privately; keep Days 1-4 as source evidence.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Plan words:</strong> direction · evidence · prerequisite · preparation · backup · revision rule.</p><p><strong>Use these frames:</strong> My current direction is ___ because my evidence shows ___. I will revise this plan if ___ because that evidence would change ___.</p></div>',
                 "STEPS": step(1, "Direction and self-evidence", "<p>Name a current direction, two pieces of self-evidence, and evidence that would make you reconsider.</p>")
                 + step(2, "Course and preparation evidence", "<p>Bring forward the four-year draft, prerequisite chain, one verification item, three possible routes after high school, the route you would investigate first, and one advanced or college-credit option.</p>")
@@ -726,7 +738,7 @@ async def main():
             2: {
                 "TITLE": "Four-Year Course Plan Draft",
                 "SUBTITLE": "50 minutes · TEKS d(8)(B), d(3)(A)",
-                "ALERT": "<strong>Draft, not requests.</strong> Do not open Xello Submit course requests or parent approval until counselors confirm the local window and process.",
+                "ALERT": "<strong>Grade 7 draft:</strong> use the CCE/FYF planning evidence. Do not open Xello course-planning, request, or family-approval tasks.",
                 "PREP": f'<ul><li><strong>Default digital route:</strong> one device per student, the unpublished annotation Assignment, and the <a href="https://www.irvingisd.net/departments-services/curriculum-and-instruction/middle-school-and-high-school-course-descriptions">2026-27 Irving coursebook</a>.</li><li><strong>Paper/enlarged route:</strong> print one copy per assigned student of {file_link(files["COURSE"]["id"], "the three-page course-plan draft")}; students do not complete both routes.</li><li><strong>Project:</strong> the finished English I → English II → English III - Dual Credit example already embedded in the Student Guide. No teacher-created course card or model is required.</li></ul>',
                 "EVIDENCE": "<p>Four-year draft, current source/date, one prerequisite chain, one verification label, backup, and two counselor questions. Formative.</p>",
                 "FLOW": flow("#5a2d91", "Warm-up · 5", "What prerequisite errors can cause.")
@@ -735,7 +747,7 @@ async def main():
                 + flow("#e3ad19", "Audit · 5", "Source, sequence, verification.")
                 + flow("#1f617a", "Exit · 5", "Branch when a detail is unclear."),
                 "MONITOR": "<p><strong>Monitor:</strong> Lap 1 checks exact title/source/date and gives “Show me the line that supports this.” Lap 2 checks one prerequisite chain. Lap 3 checks a VERIFY label, backup, and two counselor questions. <strong>Misconception:</strong> a full table looks stronger than an honest unknown. If three students invent the same course or campus, stop and model a labeled VERIFY branch. <strong>Safe trim:</strong> change the peer audit to the same private self-audit; protect the prerequisite chain, backup, and questions. <strong>Save:</strong> Canvas students submit the annotation; paper students place the draft in the CCR Week 2 folder for Day 5.</p>",
-                "RESOURCES": "<p>Authenticated Xello configuration: 4-year course plan 30 min; Make plans 30 min/add at least one plan; Submit course requests 20 min/Grade 8 only; parent approval 15 min/current due May 1, 2027. These remain counselor-window tasks.</p>",
+                "RESOURCES": "<p>The Irving coursebook, current CTE pages, and counselor guidance control this CCE/FYF draft. No Xello planning task is assigned in this Grade 7 week.</p>",
                 "SUPPORT": "<p>Use the embedded source-checked English sequence and complete one new Grade 9 row together. Keep the complete frame beside the explanation: “I placed ___ before ___ because ___. I still need to verify ___.” Canvas annotation is the default; the three-page paper route keeps the same evidence.</p>",
                 "FALLBACK": "<p>The embedded model plus paper draft replace live search. Students mark unavailable details VERIFY and write the counselor question. Platform failure never authorizes an invented course or false Xello completion.</p>",
             },
@@ -784,7 +796,7 @@ async def main():
                 + flow("#e3ad19", "Self-score · 7", "Circle, revise, and retain evidence labels.")
                 + flow("#1f617a", "Submit · 5", "Private 3-2-1 and plan."),
                 "MONITOR": "<p><strong>Monitor:</strong> Check one section after each writing chunk: self-evidence, then course/preparation evidence, then action/revision. Give “Show the source or label VERIFY” before students continue. If several students copy unsupported claims, pause at the source/date field and revise one model line together. <strong>Safe trim:</strong> shorten the warm-up share and use a private rubric check; protect the visible revision and private submission. <strong>Collect:</strong> submit only the four-page plan in Canvas or collect the paper plan. Days 1-4 remain source evidence, not additional uploads.</p><p><strong>Scoring:</strong> Suggested conversion after local approval: 15-16 Masters, 13-14 Meets, 12 Approaches, 10-11 Needs Improvement; below 10 follows campus policy. Score evidence and reasoning, not family availability, adult agreement, grammar unless meaning is unclear, handwriting, art, accent, or submission mode.</p>",
-                "RESOURCES": "<p>The plan prepares students for the counselor-controlled Xello planning tasks. It does not count as 4-year course plan, Make plans, Submit course requests, or parent approval completion.</p>",
+                "RESOURCES": "<p>The plan is a CCE/FYF artifact for a future counselor conversation. It is not a Xello completion task.</p>",
                 "SUPPORT": "<p>Use one numbered prompt per evidence job, speech-to-text, teacher scribe, or private media recording. The PDFs preserve full-width space.</p>",
                 "FALLBACK": "<p>Missing prior evidence is rebuilt from the matching Student Guide and embedded source card. If class ends before all four rubric criteria are present, use the teacher's recovery window; do not delete a criterion to force submission. Canvas failure means paper or later upload without penalty.</p>",
             },

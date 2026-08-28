@@ -31,8 +31,8 @@ ONENOTE_URL = (
     "elucero_irvingisd_net/Documents/Class%20Notebooks/"
     "CCE%202026-27%20%C2%B7%20Lucero"
 )
-HATS_LADDERS_URL = "https://app.hatsandladders.com/"
 CLASSLINK_URL = "https://launchpad.classlink.com/irvingtx"
+HATS_LADDERS_URL = CLASSLINK_URL
 TEACHER_EMAIL = "elucero@irvingisd.net"
 
 
@@ -289,7 +289,7 @@ def home_body(icons: dict[str, str]) -> str:
       <li style="margin:0;border-bottom:1px solid #d6d9dd">
         <a href="{HATS_LADDERS_URL}" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:20px;padding:20px 4px;color:#202124;text-decoration:none">
           <span style="display:block;flex:0 1 190px;min-width:120px"><img src="{icons['hats_ladders']}" alt="" style="display:block;width:100%;max-width:180px;height:auto" /></span>
-          <span style="display:block;flex:1 1 auto;min-width:0"><strong style="display:block;font-size:19px">Open Hats &amp; Ladders</strong><span style="display:block;margin-top:2px;color:#5f6368;font-size:15px">Sign in with Google.</span></span>
+          <span style="display:block;flex:1 1 auto;min-width:0"><strong style="display:block;font-size:19px">Open Hats &amp; Ladders</strong><span style="display:block;margin-top:2px;color:#5f6368;font-size:15px">Use ClassLink.</span></span>
           <span aria-hidden="true" style="font-size:24px;line-height:1;color:#4b5563">&#8594;</span>
         </a>
       </li>

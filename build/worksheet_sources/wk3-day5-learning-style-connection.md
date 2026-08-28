@@ -1,5 +1,5 @@
 ---
-title: Learning Style and IT Career Connection
+title: Learning Styles: Method to Task Connection
 slug: wk3-day5-learning-style-connection
 kind: worksheet
 weeks: 1sw/wk3-computer-science-it
@@ -10,36 +10,34 @@ pages: 1
 orientation: portrait
 ---
 
-## My Xello result
+## Quick method chart
 
-My Learning Style result: ______________________________________________
+- **Visual:** diagrams, models, color coding, written steps
+- **Auditory:** read aloud, explain to a partner, record and replay
+- **Tactile:** build, sort, trace, act out, practice by doing
 
-One learning strategy Xello recommends or one strategy that works for me:
+## My result and method
 
-[[lines: 2]]
+My Learning Style result or the method group I tested: ___________________
 
-One class task where I can use this strategy:
-
-[[lines: 2]]
-
-## My IT career connection
-
-One IT career from this week: __________________________________________
-
-One part of this career that fits how I learn or work:
+One method Xello recommends or one method from the chart:
 
 [[lines: 2]]
 
-One part that may challenge me, plus one strategy I could try:
-
-[[lines: 3]]
-
-## Final reflection
-
-Circle one: **MORE INTERESTED IN IT** / **LESS INTERESTED** / **ABOUT THE SAME**
-
-Use one fact from this week to explain your choice:
+One school or IT task where I can use this method:
 
 [[lines: 2]]
 
-*If Xello is unavailable, use a learning strategy you already know works for you. Complete the required quiz during the next Xello catch-up block.*
+## My test plan
+
+One obstacle I may face: _______________________________________________
+
+What I will do before or during the task:
+
+[[lines: 2]]
+
+How I will know whether the method helped:
+
+[[lines: 2]]
+
+*No Xello? Use the method chart and complete this page today. This does not mark Xello complete; finish both Grade 7 tasks in supervised catch-up.*

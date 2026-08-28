@@ -45,7 +45,7 @@
 - The section labels are a delivery architecture, not an AVID source artifact. The pages and instructional routines placed inside them must come from the source reconciliation.
 - The pilot architecture is reversible and still needs teacher feedback before it becomes a shared coursewide mandate.
 - Derive the structure from the actual AVID Skills Check, focused-note-taking materials, linked weekly slides, CCE evidence needs, and teacher workflow.
-- Do not assume the current `Daily Work / Evidence Log / Resources and Models` proposal, `Plan -> Do -> Recover -> Reflect`, CCE Project Routine Card, or Six-Weeks Evidence Log should remain.
+- Do not assume the `Daily Work / Evidence Log / Resources and Models` notebook-layout proposal, `Plan -> Do -> Recover -> Reflect`, or CCE Project Routine Card should remain. The separate Six-Weeks Evidence Log is now a bounded, student-owned retrieval tool: brief transfers from already-open work, never a second submission, separate grade, or publication requirement.
 - Do not grade supplies, decoration, handwriting, tabs, color coding, or notebook aesthetics.
 - If the district Canvas course exposes the current unified Microsoft 365 LTI/Microsoft Education tool, the owner may create the Class Notebook through it. Do not build around the classic OneNote LTI 1.1 integration, which Microsoft is retiring September 17, 2026.
 - If the unified tool is not already available, do not spend Sunday attempting an admin-dependent deployment. Use a pretested standalone Class Notebook or the complete Canvas/paper fallback Monday.
@@ -64,7 +64,7 @@
 - Follow the product's published brand guidance. Keep official marks on a plain high-contrast surface and do not recolor, crop, place inside decorative shapes, or add outlines, glows, or shadows.
 - Do not use the colored top/side accent-border card pattern or layered side shadows for launch links. The pattern reads as a generic generated dashboard and adds decoration without helping students navigate.
 - The Canvas course home is a launch surface, not a course explainer. It contains one obvious Modules action and the recurring course-tool links with short, literal labels.
-- Put sign-in, recovery, privacy, absence, and platform-specific directions in the daily Student Guide or the relevant recovery guide. Add only an essential sign-in cue beside a tool when students need it to enter correctly, such as `Sign in with Google` for Hats & Ladders.
+- Put sign-in, recovery, privacy, absence, and platform-specific directions in the daily Student Guide or the relevant recovery guide. Add only an essential sign-in cue beside a tool when students need it to enter correctly: `ClassLink → Hats & Ladders` and `ClassLink → Xello`.
 
 ### Worksheets and student artifacts
 
@@ -87,7 +87,8 @@
 - GitHub is source control and backup and hosts a generated public planning mirror. The mirror supports planning and administrator review but is not an active teacher/student delivery surface. The current MkDocs site is a legacy archive.
 - Do not maintain independent lesson copies by hand. The tracked builders and canonical curriculum source must preserve the same approved lesson truth as Canvas without copying licensed binaries.
 - The owner explicitly reopened the public-reference work on August 15. Use the generated `public-site/` architecture and its fail-closed rights policy; do not revive MkDocs or copy licensed/private assets into GitHub Pages.
-- **Permanent publication boundary:** the owner controls Canvas publication. Agents never publish or unpublish modules, Pages, Assignments, Quizzes, or files. Existing owner-published content may still be maintained in place; publication is not a maintenance blocker. Record the before state, make only the approved content change, and require every publication value to remain unchanged afterward.
+- **Permanent publication boundary:** the owner controls Canvas publication. Agents never publish or unpublish modules, Pages, Assignments, Quizzes, Discussions, or orientation content. Existing owner-published content may still be maintained in place; publication is not a maintenance blocker. Record the before state, make only the approved content change, and require every publication value to remain unchanged afterward.
+- **Permanent referenced-file access boundary (owner ruling 2026-08-24):** module publication is the student release gate. Every file referenced by course pages or module content, including images, Exit Ticket PDFs, decks, and annotation files, and its complete ancestor-folder chain stays unlocked, unhidden, and free of availability dates. Authenticated Canvas keeps licensed materials inside the course; file/folder locks must not be used as a second release gate.
 - Git push, site deployment, front-page change, or navigation change requires explicit owner approval and post-release verification.
 
 ## Superseded assumptions
@@ -95,9 +96,11 @@
 - **Superseded:** Jenna's materials are merely private inspiration that should be summarized into new CCE artifacts.
   **Current rule:** teacher-created originals are primary sources and should be preserved/minimally adapted when permission and rights allow.
 - **Superseded:** the CCE Project Routine Card and Six-Weeks Evidence Log represent the AVID notebook system.
-  **Current rule:** they are locally created CCE artifacts and must be reevaluated against the original sources.
+  **Current rule:** both are locally created CCE artifacts, not AVID originals. The Routine Card remains unratified; the Evidence Log is operational only as a student-owned, ungraded retrieval record that reuses already-open evidence without recopying or resubmission.
 - **Superseded:** `Daily Work / Evidence Log / Resources and Models` is the decided notebook layout.
   **Current rule:** it is only an unratified proposal.
+- **Superseded:** `overnight-autonomous-ccr-goal-prompt.md` is an executable current-run instruction set, including its file-lock direction.
+  **Current rule:** that August 13 prompt is a historical run record. Current `AGENTS.md`, this decision log, and the resource-access workflow govern; referenced Canvas resources stay accessible while module publication remains the release gate. The Evidence Log behavior implemented in current lesson sources remains the bounded, ungraded retrieval use described above.
 - **Superseded:** a clean PDF or successful builder proves an artifact is ready.
   **Current rule:** every artifact needs a lesson-purpose test, human visual review, and teacher-run mental walkthrough.
 - **Superseded:** a 22-slide, roughly four-slides-per-day launch summary is an acceptable Week 1 facilitation deck.

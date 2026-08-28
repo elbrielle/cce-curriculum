@@ -4,7 +4,7 @@
 
 ## What students will do
 
-Students read dental evidence without diagnosing, design a toothbrush for a specific user, complete two required Xello profile tasks, and try a controlled ICD-10-CM coding simulation using fictional records. Across the week, they build one three-career evidence comparison and use it to make a supported recommendation.
+Students read dental evidence without diagnosing, design a toothbrush for a specific user, complete the Grade 7 Xello Education experiences and School subjects at work tasks, and try a controlled ICD-10-CM coding simulation using fictional records. Across the week, they build one three-career evidence comparison and use it to make a supported recommendation.
 
 ## Learning target
 
@@ -15,7 +15,7 @@ I can compare health careers using preparation, responsibilities, pay, and outlo
 - I separate an observation from a diagnosis.
 - I label salary figures with the year, geography, and measure.
 - I classify careers with the same evidence rule.
-- I complete the required Xello tasks or join the supervised catch-up list.
+- I complete Education experiences and School subjects at work or join the supervised catch-up list.
 - I support my recommendation with at least two accurate facts.
 
 ## Standards
@@ -37,7 +37,7 @@ The Day 4 practice set uses the FY 2027 ICD-10-CM diagnosis-code descriptions ef
 |---|---|---|
 | 1 | Smile Squad observations and dental careers | FYF pp. 69-71 response + two-career Canvas check |
 | 2 | Perfect Toothbrush and evidence classification | FYF p. 73 prototype + two Canvas classifications |
-| 3 | Xello Education experiences and Volunteer hours | Xello report + Canvas college-credit check |
+| 3 | Xello Education experiences and School subjects at work | Xello report + short Canvas college-credit check |
 | 4 | Medical Billing and Coding + ICD-10-CM simulation | Third career row + coding lab |
 | 5 | Three-career decision | 16-point minor evidence check |
 
@@ -49,7 +49,7 @@ The Day 4 practice set uses the FY 2027 ICD-10-CM diagnosis-code descriptions ef
 - [Three-Career Evidence Comparison](../../resources/worksheets/2sw-wk4-career-evidence-comparison.pdf)
 - [Smile Squad Observation Record](../../resources/worksheets/2sw-wk4-smile-squad-observation-record.pdf) (optional access/no-workbook scaffold)
 - [Toothbrush Design Brief](../../resources/worksheets/2sw-wk4-toothbrush-design-brief.pdf) (optional access/no-workbook scaffold)
-- [College Credit Opportunity Check](../../resources/worksheets/2sw-wk4-xello-experiences-checkpoint.pdf) (optional one-page Canvas-outage fallback; does not replace Xello)
+- [School Subjects and College Credit Check](../../resources/worksheets/2sw-wk4-xello-experiences-checkpoint.pdf) (optional one-page Canvas-outage fallback; does not replace Xello)
 - [ICD-10-CM Training Lab](../../resources/worksheets/2sw-wk4-icd10-training-lab.pdf)
 - [Health Career Evidence Check Rubric](../../resources/worksheets/2sw-wk4-evidence-check-rubric.pdf)
 
@@ -59,11 +59,11 @@ Days 1-4 are formative. Day 5 is the recommended **16-point minor checkpoint** o
 
 ## Platform roles
 
-- **Xello:** required Grade 8 completion tasks and localized career data when clearly labeled.
+- **Xello:** Grade 7 Education experiences and School subjects at work tasks; localized career data only when clearly labeled.
 - **Hats & Ladders:** optional career exploration; never the only evidence source.
 - **Canvas:** official directions, licensed images, practice quiz, catch-up path, and submission point.
 - **Paper:** FYF is the default writing surface on Days 1-2. Extra PDFs are access, absence, or no-workbook fallbacks. The Day 4 coding lab and Day 5 comparison remain justified separate artifacts.
 
 ## Teacher readiness check
 
-Before teaching, confirm that the licensed slides and workbook crops load in Canvas, Xello opens through ClassLink, the required Xello tasks appear in Completion Standards, and the Day 3 and Day 4 practice quizzes remain unpublished until review. Default printing is the Day 4 lab only when students are not completing it in Canvas. No VILS lab equipment is required.
+Before teaching, confirm that the licensed slides and workbook crops load in Canvas, Xello opens through ClassLink, Education experiences and School subjects at work appear for Grade 7, and the Day 3 and Day 4 practice quizzes remain unpublished until review. Default printing is the Day 4 lab only when students are not completing it in Canvas. No VILS lab equipment is required.

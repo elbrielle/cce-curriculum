@@ -13,6 +13,18 @@ from configure_assessment_map import SUBMISSION_LINK_MARKER
 
 common = prior.common
 COURSE_ID = common.COURSE_ID
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/11Dz2W7M0xqwL2YWyfTcCUKm4Csc4klTx87vNgV69Cws/copy",
+    2: "https://docs.google.com/document/d/1F1hMo_XUDFC-sBs1ex-isFau2SLaURIN_YxgbPsuh-E/copy",
+    3: "https://docs.google.com/document/d/1ud6DX18VXUhv_pnZbfIZf7Xnzxw3unUyOjjDUNrNOBA/copy",
+    4: "https://docs.google.com/document/d/1zVAt8D4gDqnu3sI5EwWch5cQcxIq2yvDu60gDB2gxtE/copy",
+    5: "https://docs.google.com/document/d/1_ZC31w6pL3tZlEx6mG_rhBiiiMEyirL1cUXExi516Zk/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
 ROOT = common.ROOT
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/6sw/wk4"
 MODULE_NAME = "6SW Wk4: Sales and Career Oral Evidence"
@@ -343,7 +355,7 @@ def student_content(files, visuals, urls):
             "TITLE": "Audience and Sales Pitch Plan",
             "PURPOSE": "Use FYF evidence to plan a short fictional pitch for a specific audience without inventing claims.",
             "TODAY": "<ul><li>label the four pitch parts;</li><li>choose a fictional offer and audience;</li><li>complete the FYF plan and draft;</li><li>check accuracy and connect the work to a career.</li></ul>",
-            "READY": f'<p><strong>Start in FYF pp. 241-243.</strong> Use {link(files["PLAN"]["id"], "the two-page audience and accuracy companion")} or <a href="{urls[1]}">the private annotation activity</a> for the evidence the workbook does not collect. Do not complete both work routes.</p>',
+            "READY": f'<p><strong>Start in FYF pp. 241-243.</strong> Use {student_copy_link(1, "the two-page audience and accuracy companion")} or <a href="{urls[1]}">the private annotation activity</a> for the evidence the workbook does not collect. Do not complete both work routes.</p>',
             "MEDIA": media([("p241", "30 Seconds to Sell pitch anatomy and SparkClean worked example"), ("p242", "Offer, audience, and four-part pitch planner"), ("p243", "Full pitch, practice, feedback, and discussion prompts")]),
             "STEPS": step(1, "Label the model", "<p>Find the hook, clear offer, audience benefit, and call to action. Mark any claim that would need verification.</p>") + step(2, "Choose the fictional offer and audience", "<p>Complete FYF Steps 2-3. Separate a supplied fact or logical reason from an audience assumption.</p>") + step(3, "Plan and write", "<p>Complete FYF Steps 4-5. Use benefits, not only features; keep the language accurate.</p>") + step(4, "Add the companion evidence", "<p>Record the ethical boundary, career/work product, transferable skill, and Day 2 oral route.</p>"),
             "EXIT": "<p>Name the career, work product, and one claim or assumption you kept bounded.</p>",
@@ -355,7 +367,7 @@ def student_content(files, visuals, urls):
             "TITLE": "Deliver, Test, and Revise",
             "PURPOSE": "Deliver the FYF pitch twice through a private oral/AAC route and make one specific revision between attempts.",
             "TODAY": "<ul><li>check the pitch boundary;</li><li>deliver once;</li><li>collect specific feedback;</li><li>revise, deliver again, and transfer the skill.</li></ul>",
-            "READY": f'<p><strong>Use your FYF pp. 241-243 pitch.</strong> Open {link(files["DELIVERY"]["id"], "the two-page delivery and revision record")} and <a href="{urls[2]}">the private upload/annotation activity</a>. Recorded route: upload the written record and private audio/video together. Live, conference, or AAC route: submit the written record while your teacher completes the oral/AAC checkoff.</p>',
+            "READY": f'<p><strong>Use your FYF pp. 241-243 pitch.</strong> Open {student_copy_link(2, "the two-page delivery and revision record")} and <a href="{urls[2]}">the private upload/annotation activity</a>. Recorded route: upload the written record and private audio/video together. Live, conference, or AAC route: submit the written record while your teacher completes the oral/AAC checkoff.</p>',
             "MEDIA": media([("p243", "Practice, partner/small-group/class options, feedback record, and discussion")]),
             "STEPS": step(1, "Check the boundary", "<p>Remove unsupported urgency, guarantees, health, popularity, scarcity, or income claims.</p>") + step(2, "Deliver once", "<p>Use the route your teacher assigned: live partner/small group, teacher conference, private recording, or AAC. Keep it at 60 seconds or less.</p>") + step(3, "Get specific feedback", "<p>Name an exact word, sentence, pause, or organization choice to revise.</p>") + step(4, "Revise and deliver again", "<p>Keep the before/after language visible, record the time and effect, then compare how the skill works in two careers.</p>"),
             "EXIT": "<p>State the revision that changed clarity, accuracy, organization, or delivery/AAC output.</p>",
@@ -367,7 +379,7 @@ def student_content(files, visuals, urls):
             "TITLE": "BrainBoost Decision and Career Outline",
             "PURPOSE": "Use FYF campaign evidence to separate a cause from a result, choose a bounded solution, and organize career evidence.",
             "TODAY": "<ul><li>analyze the supplied campaign;</li><li>generate and screen solutions;</li><li>complete the FYF campaign plan;</li><li>record individual problem-solving and career evidence.</li></ul>",
-            "READY": f'<p><strong>Start in FYF pp. 244-247.</strong> Use {link(files["BRAIN"]["id"], "the two-page individual decision and career-outline companion")} or <a href="{urls[3]}">the private annotation activity</a> for the evidence the workbook does not collect.</p>',
+            "READY": f'<p><strong>Start in FYF pp. 244-247.</strong> Use {student_copy_link(3, "the two-page individual decision and career-outline companion")} or <a href="{urls[3]}">the private annotation activity</a> for the evidence the workbook does not collect.</p>',
             "MEDIA": media([("p244", "BrainBoost scenario and email evidence"), ("p245", "Social and in-store evidence, customer feedback, and problem statement"), ("p246", "Solution brainstorm and three-idea screening table"), ("p247", "Mini campaign plan, share and reflection prompts")]),
             "STEPS": step(1, "Find the cause", "<p>The campaign reached the stated audience. Low sales are the result; use the customer comments to name a possible message or value cause.</p>") + step(2, "Generate and screen", "<p>Complete FYF p. 246. Reject any solution that invents a health, nutrition, discount, scarcity, popularity, testimonial, or data claim.</p>") + step(3, "Build the FYF campaign plan", "<p>Complete p. 247, then record your own cause/evidence decision and cross-career problem-solving connection.</p>") + step(4, "Outline the career brief", "<p>Use one fixed BLS card or previously verified evidence. Keep the occupation, duty, preparation, measure, date, geography, and limitation together.</p>"),
             "EXIT": "<p>State the result, possible cause, evidence, and the next evidence step in a second career.</p>",
@@ -379,7 +391,7 @@ def student_content(files, visuals, urls):
             "TITLE": "Interview Appearance and Rehearsal",
             "PURPOSE": "Choose interview preparation for the actual context, then rehearse and revise your career brief.",
             "TODAY": "<ul><li>compare office, task-demonstration, and virtual contexts;</li><li>complete a retryable Quiz;</li><li>rehearse once;</li><li>revise and rehearse again.</li></ul>",
-            "READY": f'<p>Open {link(files["APPEAR"]["id"], "the two-page landscape appearance and rehearsal companion")}, <a href="{urls[4]}">the private rehearsal-record activity</a>, and <a href="{urls["quiz"]}">the retryable practice Quiz</a>. Use one record route; do not complete both print and digital copies.</p>',
+            "READY": f'<p>Open {student_copy_link(4, "the two-page landscape appearance and rehearsal companion")}, <a href="{urls[4]}">the private rehearsal-record activity</a>, and <a href="{urls["quiz"]}">the retryable practice Quiz</a>. Use one record route; do not complete both print and digital copies.</p>',
             "MEDIA": "",
             "STEPS": step(1, "Use the context", "<p>Base the choice on workplace, task, safety, format, and accommodation--not cost, body, gender, culture, religion, or disability.</p>") + step(2, "Make three decisions", "<p>Choose and explain preparation for an office/customer-facing interview, a skilled-trade task demonstration, and a virtual interview. Write one respectful question to verify for each.</p>") + step(3, "Use Quiz feedback", "<p>Check safety, source labels, virtual readiness, and the oral-route boundary. Retry after reading the feedback.</p>") + step(4, "Rehearse twice", "<p>Use a live, conference, private recording, or AAC route. Keep the revision visible between attempts.</p>"),
             "EXIT": "<p>Name one final content check and one final delivery/AAC check.</p>",
@@ -391,7 +403,7 @@ def student_content(files, visuals, urls):
             "TITLE": "Career Oral Evidence Brief",
             "PURPOSE": "Deliver a concise career brief with accurate source labels, then use the feedback profile to plan one visible revision.",
             "TODAY": "<ul><li>run the final source and content check;</li><li>deliver 60-90 seconds through your assigned oral/AAC route;</li><li>record transfer evidence;</li><li>self-score and revise.</li></ul>",
-            "READY": f'<p>Open {link(files["ORAL"]["id"], "the two-page Career Oral Evidence Brief")}, {link(files["RUBRIC"]["id"], "the two-page formative feedback profile")}, and the private submission below. Use your Day 3 career outline and Day 4 rehearsal as reference; do not submit every earlier packet.</p>',
+            "READY": f'<p>Open {student_copy_link(5, "the two-page Career Oral Evidence Brief")}, {link(files["RUBRIC"]["id"], "the two-page formative feedback profile")}, and the private submission below. Use your Day 3 career outline and Day 4 rehearsal as reference; do not submit every earlier packet.</p>',
             "MEDIA": '<details style="border:1px solid #b9d9de;border-radius:8px;padding:12px 16px;margin:18px 0"><summary style="font-weight:700;color:#245f69;cursor:pointer">Optional FYF presentation references</summary>' + "".join([prior.image_tag(visuals["p299"]["id"], "Prepare and Present checklist and presentation tips; this capstone page is a reference only"), prior.image_tag(visuals["p280"]["id"], "FYF capstone rubric including Presenter Delivery; this page is a reference only")]) + "</details>",
             "STEPS": step(1, "Check the source labels", "<p>Career, duty/work product, preparation, measure, amount, geography, date/source, limitation, bounded conclusion, and time.</p>") + step(2, "Deliver through your assigned route", "<p>Whole group, small group, teacher conference, private recording, or AAC. Use the appropriate technology choice recorded on your brief. The route changes; the evidence does not.</p>") + step(3, "Transfer the skill", "<p>Explain how one communication skill works in two different careers.</p>") + step(4, "Self-score and revise", "<p>Use all four criteria. Keep the before/after revision visible and submit only the brief plus rubric/self-score.</p>") + submission_panel,
             "EXIT": "<p>State your strongest exact evidence and the revision you would make next.</p>",

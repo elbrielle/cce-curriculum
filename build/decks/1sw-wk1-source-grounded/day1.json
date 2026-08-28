@@ -4,6 +4,9 @@
     "Find Your Future pp. 199 and 212, Manufacturing opener and App Exploration.",
     "Private teacher-created AVID source deck, inherited layout and lesson choreography only."
   ],
+  "visualTheme": {
+    "backgrounds": ["#F7F3FB", "#FFF8E8", "#EEF7F5", "#F4F7FB"]
+  },
   "recovery": "Use the Canvas Student Guide, FYF pages, and the named notebook or paper route. A platform outage is recorded for supervised catch-up; students do not use a peer account.",
   "slides": [
     {
@@ -22,7 +25,7 @@
       "texts": [
         "Today’s Lesson",
         "Get Ready",
-        "Chromebook\nFind Your Future pp. 199 + 212\nOpen Canvas: Day 1 Student Guide\nCCE notebook or paper fallback",
+        "Chromebook\nFind Your Future pp. 199 + 212\nOpen Canvas: Day 1 Student Guide\nOne assigned response page",
         "Submit What Is CTE?\nTour Manufacturing\nCompare two careers",
         "Welcome!"
       ],
@@ -49,24 +52,32 @@
     {
       "texts": [
         "Xello: What Is CTE?",
-        "Open ClassLink → Xello → assigned work → What Is CTE?\n\nRead the current prompt. Submit a text response or file as directed. Opening the task is not completion.\n\nIf the prompt needs more time, finish during supervised catch-up—not during Friday Matchmaker."
+        "1. Open ClassLink\n2. Open Xello\n3. Open assigned work → What Is CTE?\n\nRead the prompt.\nSubmit your response.\n\nDONE WHEN: the response is submitted."
       ],
       "timing": "5:00-15:00",
       "lookFor": "Every student opens the exact assigned task and submits or is recorded for catch-up.",
       "pivot": "Project the teacher-demo route and current prompt; do not substitute another Xello lesson.",
-      "trim": "Protect the full ten minutes. Move unfinished work to supervised catch-up."
+      "trim": "Protect the full ten minutes. Move unfinished work to supervised catch-up.",
+      "frameAdjustments": {"1": {"width": -430}},
+      "addImages": [{
+        "path": "cce-curriculum/resources/owner-authenticated-source/xello/2026-08-19/classlink-xello-tile.png",
+        "alt": "ClassLink Xello tile used to open Xello",
+        "fit": "contain",
+        "position": {"left": 790, "top": 165, "width": 380, "height": 350}
+      }],
+      "sources": ["Owner-authenticated ClassLink Xello tile, captured 2026-08-19."]
     },
     {
       "texts": [
         "Manufacturing Is More Than Assembly Lines",
-        "People in this cluster turn ideas and raw materials into finished goods.\n\nThey design, program, operate, assemble, repair, test, and improve.\n\nCurrent H&L fit: Doer • Analyzer • Creator"
+        "People in this cluster turn ideas and raw materials into finished goods.\n\nThey design, program, operate, assemble, repair, test, and improve."
       ],
       "timing": "15:00-18:00",
       "lookFor": "Students replace the one-job factory stereotype with several distinct roles.",
       "pivot": "Ask who programs the robot, tests the product, and keeps the line safe.",
       "images": [
         {
-          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day1/hnl-manufacturing-cluster-current.png",
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day1/manufacturing-app-exploration.png",
           "alt": "Current authenticated Hats and Ladders Manufacturing cluster overview"
         }
       ],
@@ -75,21 +86,34 @@
     {
       "texts": [
         "Read FYF p. 199",
-        "Point to the three Hats on the opener:\nAutomation Specialist\nMechatronics Technician\nWelder\nQuestion: What problems might these workers solve during a normal day?"
+        "Look at the three Hats on the page:\n• Automation Specialist\n• Mechatronics Technician\n• Welder\n\nWhat problems might these workers solve during a normal day?"
       ],
       "timing": "18:00-22:00",
       "lookFor": "Students use the printed Hats and name a plausible problem, not only a tool.",
-      "pivot": "Read the opener aloud and pause after each Hat for one possible job problem."
+      "pivot": "Read the opener aloud and pause after each Hat for one possible job problem.",
+      "images": [
+        {
+          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day1/manufacturing-chapter-opener.jpg",
+          "alt": "Find Your Future Manufacturing chapter opener"
+        }
+      ]
     },
     {
       "texts": [
-        "Robotics & Automation Technology\nIndustrial Maintenance\nManufacturing Technology\nElectronics Technology\nWelding\nAdvanced Manufacturing & Industrial Technology",
         "Six Manufacturing Pathways",
-        "Current H&L labels\n\nPathways group related careers and training. A pathway is not one job."
+        "Pathways group related careers and training. A pathway is not one job.",
+        "• Robotics & Automation\n• Industrial Maintenance\n• Manufacturing Technology\n• Electronics Technology\n• Welding\n• Advanced Manufacturing"
       ],
       "timing": "22:00-25:00",
       "lookFor": "Students can distinguish a pathway from a Hat and can locate all six current labels.",
-      "pivot": "Use a six-group jigsaw only if the read-aloud stalls; otherwise keep the list brief."
+      "pivot": "Use a six-group jigsaw only if the read-aloud stalls; otherwise keep the list brief.",
+      "addImages": [{
+        "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day1/hnl-manufacturing-pathways-current.png",
+        "alt": "Current Hats and Ladders Manufacturing pathway choices",
+        "fit": "contain",
+        "position": {"left": 845, "top": 300, "width": 340, "height": 220}
+      }],
+      "sources": ["Authenticated Hats & Ladders Manufacturing pathways screen, captured 2026-08-15."]
     },
     {
       "texts": [
@@ -98,14 +122,7 @@
       ],
       "timing": "25:00-28:00",
       "lookFor": "Students name a consequence larger than the schedule, such as safety or mission failure.",
-      "pivot": "Ask: What does one failed weld cost compared with three extra minutes?",
-      "images": [
-        {
-          "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day1/manufacturing-chapter-opener.jpg",
-          "alt": "Find Your Future Manufacturing opener with the welder decision-making prompt"
-        }
-      ],
-      "sources": ["Find Your Future p. 199, Be the Decision Maker prompt."]
+      "pivot": "Ask: What does one failed weld cost compared with three extra minutes?"
     },
     {
       "texts": [
@@ -119,22 +136,29 @@
     {
       "texts": [
         "Open Manufacturing",
-        "Clusters → Manufacturing\nOpen Cluster Tour\nThen open Pathway Possibilities\nDo not rapid-click. Use the current labels on screen.",
-        "Exact H&L route"
+        "Exact path",
+        "1. Open ClassLink → Hats & Ladders\n2. Open Clusters → Manufacturing\n3. Open Cluster Tour\n4. Open Pathway Possibilities"
       ],
       "timing": "30:00-33:00",
       "lookFor": "Every student reaches Manufacturing and can see Cluster Tour plus Pathway Possibilities.",
-      "pivot": "Use the projected authenticated screenshot; if H&L is down, use FYF p. 212 and mark the app work pending."
+      "pivot": "Use the projected authenticated screenshot; if H&L is down, use FYF p. 212 and record the app work for supervised recovery.",
+      "sources": ["Authenticated Hats & Ladders Manufacturing cluster screen, captured 2026-08-15."]
     },
     {
       "texts": [
-        "Stop Twice During the Tour",
-        "One notebook entry—not another worksheet",
-        "Stop 1: One new career from the video\nStop 2: One question you still have\n\nWrite in the dated CCE entry:\n1SW Wk1 Manufacturing"
+        "Two Notes During the Tour",
+        "Two short notes",
+        "Stop 1: Write one new career.\nStop 2: Write one question.\n\nUse today’s response page."
       ],
       "timing": "33:00-39:00",
       "lookFor": "Two short notebook notes appear at the correct pauses; students do not copy the video.",
-      "pivot": "Pause the class video yourself if individual controls or audio create delays."
+      "pivot": "Pause the class video yourself if individual controls or audio create delays.",
+      "addTextboxes": [{
+        "name": "cluster-tour-timer",
+        "text": "⏱ 6 MINUTES",
+        "fill": "#5A2D91",
+        "position": {"left": 860, "top": 500, "width": 280, "height": 70}
+      }]
     },
     {
       "texts": [
@@ -143,7 +167,15 @@
       ],
       "timing": "39:00-44:00",
       "lookFor": "Each student can tell you one career found and point to its current H&L profile.",
-      "pivot": "If a student is scrolling without a Hat, sit beside them and choose one pathway first."
+      "pivot": "If a student is scrolling without a Hat, sit beside them and choose one pathway first.",
+      "frameAdjustments": {"1": {"width": -430}},
+      "addImages": [{
+        "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day1/hnl-robotics-hat-preview-current.png",
+        "alt": "Current Hats and Ladders Manufacturing Hat preview",
+        "fit": "contain",
+        "position": {"left": 760, "top": 150, "width": 450, "height": 405}
+      }],
+      "sources": ["Authenticated Hats & Ladders Manufacturing Hat preview, captured 2026-08-15."]
     },
     {
       "texts": [
@@ -152,7 +184,13 @@
       ],
       "timing": "44:00-49:00",
       "lookFor": "Two different careers, one specific task and preparation fact each, plus one evidence-based core-type connection.",
-      "pivot": "Use the scaffolded matrix and sentence stem; accept a provisional core type if H&L access is pending."
+      "pivot": "Use the scaffolded matrix and sentence stem; accept the student’s current Wk0 core evidence if platform access is incomplete.",
+      "addTextboxes": [{
+        "name": "career-comparison-timer",
+        "text": "⏱ 5 MINUTES",
+        "fill": "#1F617A",
+        "position": {"left": 860, "top": 500, "width": 280, "height": 70}
+      }]
     },
     {
       "texts": [

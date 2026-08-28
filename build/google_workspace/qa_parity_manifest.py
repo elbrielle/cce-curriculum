@@ -131,7 +131,10 @@ def main() -> None:
         require(isinstance(canvas, dict), f"{key}: canvas must be an object")
         require(isinstance(canvas.get("course_id"), int) and canvas["course_id"] > 0, f"{key}: invalid Canvas course ID")
         require(isinstance(canvas.get("file_id"), int) and canvas["file_id"] > 0, f"{key}: invalid Canvas file ID")
-        require(canvas.get("locked") is True, f"{key}: Canvas file must be locked")
+        require(
+            isinstance(canvas.get("locked"), bool),
+            f"{key}: recorded Canvas lock state must be a boolean",
+        )
 
         drive = artifact.get("drive")
         require(isinstance(drive, dict), f"{key}: drive must be an object")
@@ -173,9 +176,18 @@ def main() -> None:
         require(isinstance(qa, dict), f"{key}: QA record is missing")
         if artifact_type == "presentation":
             require(isinstance(native.get("slide_count"), int) and native["slide_count"] > 0, f"{key}: invalid slide count")
-            require(qa.get("native_render_count") == native.get("slide_count"), f"{key}: render count does not match slide count")
-            require(qa.get("native_notes_page_count") == native.get("slide_count"), f"{key}: notes count does not match slide count")
-            require(qa.get("all_native_slides_visually_compared") is True, f"{key}: native visual comparison is incomplete")
+            sync_status = artifact.get("sync_status")
+            require(isinstance(sync_status, dict), f"{key}: sync status is missing")
+            native_status = sync_status.get("drive_native_google_file")
+            require(isinstance(native_status, str) and native_status, f"{key}: native Google sync status is missing")
+            if native_status.startswith("stale-"):
+                require(qa.get("native_render_count") == 0, f"{key}: stale native deck must not claim a current render")
+                require(qa.get("native_notes_page_count") == 0, f"{key}: stale native deck must not claim current notes parity")
+                require(qa.get("all_native_slides_visually_compared") is False, f"{key}: stale native deck must not claim current visual parity")
+            else:
+                require(qa.get("native_render_count") == native.get("slide_count"), f"{key}: render count does not match slide count")
+                require(qa.get("native_notes_page_count") == native.get("slide_count"), f"{key}: notes count does not match slide count")
+                require(qa.get("all_native_slides_visually_compared") is True, f"{key}: native visual comparison is incomplete")
         elif artifact_type == "document":
             require(isinstance(qa.get("native_page_count"), int) and qa["native_page_count"] > 0, f"{key}: invalid native page count")
             require(qa.get("native_render_count") == qa.get("native_page_count"), f"{key}: document render count does not match page count")

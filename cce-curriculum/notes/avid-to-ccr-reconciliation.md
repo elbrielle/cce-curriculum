@@ -33,7 +33,7 @@ The current worktree applies the source audit narrowly instead of importing an A
 - **2SW Wk5:** nine Grade-7-safe self-advocacy situations adapted from Jenna's scenario-first practice, with Notice / Need / Reason / Next step and an explicit trusted-adult or emergency route.
 - **4SW Wk2:** the handcrafted read → compare → mark overlap → summarize → investigate-first route sequence, rebuilt with fixed current evidence, private/seated parity, and no adult eligibility or family-finance disclosure.
 - **6SW Wk2 and 6SW Wk5:** a fictional Grade 7 résumé comparison, truthful Evidence Log reuse, a Situation/Task → Action → Result/Reflection interview model, and accessible professional opening/close practice. No public résumé, real application, handshake, eye-contact, or body-language requirement was added.
-- **Six-weeks transfer idea:** earlier local edits added two-to-three-minute transfers into a Six-Weeks Evidence Log. That artifact is now held for source and maintenance review. Existing references must not be treated as a settled yearlong requirement or added to the launch until the owner approves the actual notebook system.
+- **Six-weeks transfer routine:** later reviewed lesson sources operationalized two-to-three-minute transfers into a student-owned Six-Weeks Evidence Log. It reuses already-open evidence and is never a separate upload, grade, or publication requirement. This bounded routine does not ratify the broader notebook-layout proposal or turn the log into AVID source material.
 - **Career-research scaffolds:** existing worked and bilingual variants were repaired in place so salary evidence includes the number/range, measure, geography, source, and data year required by the main worksheet.
 
 Private AVID files remain Git-ignored. No purchased third-party packet was copied into CCE. These local edits must receive a current independent gate before any Canvas write; any later edit makes an earlier visual or artifact verdict stale.
@@ -72,11 +72,11 @@ The five-phase AVID focused-note process has a sound central idea: establish a p
 
 The Week 0 H&L launch uses only small, point-of-use notebook entries because H&L/FYF remain the core curriculum. A later focused-notes lesson should be built from the original slides and speaker notes, with Grade 7 scaffolds and one authentic CCE application.
 
-### 3. Six-Weeks Evidence Log: hold for review
+### 3. Six-Weeks Evidence Log: bounded retrieval routine
 
-The locally created log could help students retrieve examples for a later resume, interview, portfolio, or capstone. It could also become a second response surface that teachers must maintain and students must reconstruct. It is therefore not a launch requirement or settled yearlong routine.
+The locally created log helps students retrieve examples for a later resume, interview, portfolio, or capstone. Current lesson sources use it only for brief transfers from work already open in front of the student. It stays student-owned, unsubmitted, and ungraded; it is not a second response surface or a requirement to reconstruct prior work.
 
-Before any later release, verify every downstream consumer, decide whether the actual notebook can perform the same retrieval job, test the teacher maintenance cost, and obtain owner approval. If retained, it must reference existing work rather than require resubmission of earlier graded artifacts.
+For every later use, verify the downstream consumer and teacher maintenance cost. Keep the transfer to two or three minutes, reference existing work, and never require resubmission of an earlier graded artifact. The broader `Daily Work / Evidence Log / Resources and Models` notebook-layout proposal remains separate and unratified.
 
 ### 4. Self-advocacy scenario practice
 

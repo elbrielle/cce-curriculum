@@ -25,9 +25,9 @@ Which career would you investigate first? Use one task and one preparation fact.
 
 [[lines: 4]]
 
-## Connect Xello Add Interests
+## Connect a current interest
 
-One interest I added or updated in Xello: _______________________________
+One interest I have now: ______________________________________________
 
 Does it connect to either career? Circle **YES**, **NO**, or **MAYBE**.
 
@@ -35,4 +35,4 @@ Explain using one task from the career cards:
 
 [[lines: 3]]
 
-*If Xello is unavailable, complete the reflection with a current interest. The required Add Interests task moves to the next Xello catch-up block.*
+Use your own current interest. No profile edit or platform catch-up is required.

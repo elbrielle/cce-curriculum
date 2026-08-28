@@ -84,6 +84,6 @@ At minute 14, each plan should have a direction or question and two source-label
 
 ## Support and Fallback
 
-Provide sentence jobs, rehearsal time, private conference, speech-to-text for the written reflection, AAC, bilingual labels, enlarged print, and a fixed missing-work evidence strip. No Xello Save careers repeat, H&L favorite, profile screenshot, public Discussion, real listing, prior budget submission, or family financial disclosure is required.
+Provide sentence jobs, rehearsal time, private conference, speech-to-text for the written reflection, AAC, bilingual labels, enlarged print, and a fixed missing-work evidence strip. No Xello completion task, H&L favorite, profile screenshot, public Discussion, real listing, prior budget submission, or family financial disclosure is required.
 
 If the Evidence Log is unavailable, the student writes these five labels and short phrases in the CCE notebook or teacher-designated digital folder: artifact/task, skill, visible action, revision/recovery, next step. The student transfers the phrases when the log returns. Do not collect this fallback, ask the student to reconstruct old work, or create another submission.

@@ -1,5 +1,5 @@
 ---
-title: Work Experience and Skills Synthesis
+title: Communication Skills and Goal Synthesis
 slug: 2sw-wk5-work-experience-skills-synthesis
 kind: worksheet
 weeks: 2sw/wk5-powerskills-communication
@@ -10,19 +10,18 @@ pages: 2
 orientation: portrait
 ---
 
-## Part 1: Required Xello Work experiences
+## Part 1: Week 5 communication evidence
 
-In ClassLink, open Xello. Go to **About Me → Experiences → Work**. Add at least one experience that actually happened and save it.
+Choose two Week 5 activities that show one communication skill. For each activity, name what happened, the visible communication action, and what the action improved.
 
-- Do not invent an experience.
-- Do not enter a client name, private contact information, medical detail, or public profile link.
-- If you have no experience to add or Xello does not open, tell the teacher. Complete this sheet now and finish the required save during supervised catch-up.
+- Do not enter a client name, private contact information, medical detail, or private dispute.
+- A fictional class scenario may be used when it is clearly labeled.
 
-Completion status: **saved / teacher checked / catch-up needed**
+Week 5 activity 1: __________________________ Action: ____________________________________
 
-One responsibility from a real or sample experience: ________________________________________
+Week 5 activity 2: __________________________ Action: ____________________________________
 
-One Powerskill used: __________________________ Evidence: ____________________________________
+One Powerskill used: __________________________ What it improved: ______________________________
 
 Complete frame: “I used ____ when I ____.”
 
@@ -83,7 +82,7 @@ Complete frame: “In ____, the worker uses ____ when ____. In ____, the same sk
 
 ## Done when
 
-- [ ] I saved one real Xello Work experience or recorded catch-up.
+- [ ] I named two Week 5 examples with visible communication actions.
 - [ ] I recorded two Skills Matcher suggestions or used the fixed pair honestly.
 - [ ] My SMART goal includes a time plan and backup.
 - [ ] I named two Week 5 activities that show the skill.

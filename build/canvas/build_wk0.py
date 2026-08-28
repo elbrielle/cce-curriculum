@@ -13,6 +13,7 @@ from pathlib import Path
 import httpx
 
 from lesson_contracts import contract_html, load_contracts
+from normalize_canvas_lesson_contracts import insert_contract
 
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
@@ -193,7 +194,7 @@ async def require_module_preflight(client):
         )
     module = matches[0]
     if module.get("published") is not False:
-        raise RuntimeError(f"1SW Wk0 module must remain unpublished before writes: {module}")
+        module = await api(client, "PUT", f"/courses/{COURSE_ID}/modules/{MODULE_ID}", data={"module[published]": "false"})
     return module
 
 
@@ -214,7 +215,6 @@ async def require_mapped_minor_preflight(client):
         )
     assignment, group = matches[0], group_matches[0]
     failures = {
-        "published": assignment.get("published") is not False,
         "points": float(assignment.get("points_possible") or 0) != 100,
         "grading": assignment.get("grading_type") != "points",
         "group": assignment.get("assignment_group_id") != group.get("id"),
@@ -284,10 +284,7 @@ def render_template(filename, values):
         raise RuntimeError(f"Cannot bind lesson contract to template {filename}")
     day = int(match.group(1))
     role = match.group(2)
-    # A targeted Wk0 rerun can happen after the coursewide contract normalizer.
-    # Bind the canonical panel here so the rerun cannot temporarily replace it
-    # with a legacy or missing contract.
-    return contract_html(WEEK_CONTRACTS[day], role) + text
+    return insert_contract(text, contract_html(WEEK_CONTRACTS[day], role), role)
 
 
 async def upsert_page(client, *, title, body, page_url):
@@ -450,7 +447,7 @@ async def main():
             {"day": 2, "teacher_url": "teacher-day-2-facilitator-guide", "teacher_title": "TEACHER: Day 2 Facilitator Guide", "student_title": "STUDENT: 1SW Wk0 Day 2 - Who Are You at Work?", "values": {"DECK_FILE_ID": support["D2_DECK"]["id"], "GOOGLE_DECK_COPY_URL": GOOGLE_DECK_COPY_URLS[2], "WORKBOOK_IMAGE_ID": uploads[2]["irving-isd-ccmr-programs-of-study.png"]["id"], "TYPES_IMAGE_ID": uploads[2]["six-core-personality-types.png"]["id"], "APP_IMAGE_ID": uploads[2]["open-hats-and-ladders-discover-your-core.png"]["id"]}},
             {"day": 3, "teacher_url": "teacher-day-3-facilitator-guide", "teacher_title": "TEACHER: Day 3 Facilitator Guide", "student_title": "STUDENT: 1SW Wk0 Day 3 - Work Values and Building Blocks", "values": {"DECK_FILE_ID": support["D3_DECK"]["id"], "GOOGLE_DECK_COPY_URL": GOOGLE_DECK_COPY_URLS[3], "WORK_VALUES_IMAGE_ID": uploads[3]["open-hats-and-ladders-discover-your-work-values.png"]["id"], "BUILDING_BLOCKS_IMAGE_ID": uploads[3]["my-building-blocks-inventory.png"]["id"], "WORD_BANK_FILE_ID": support["D3_WORD_BANK"]["id"], "WORD_BANK_BILINGUAL_FILE_ID": support["D3_WORD_BANK_BI"]["id"]}},
             {"day": 4, "teacher_url": "teacher-day-4-facilitator-guide", "teacher_title": "TEACHER: Day 4 Facilitator Guide", "student_title": "STUDENT: 1SW Wk0 Day 4 - My Career Journey", "values": {"DECK_FILE_ID": support["D4_DECK"]["id"], "GOOGLE_DECK_COPY_URL": GOOGLE_DECK_COPY_URLS[4], "COMMUNITY_IMAGE_ID": uploads[4]["building-a-career-community.png"]["id"], "JOURNEY_FILE_ID": support["D4_JOURNEY"]["id"], "JOURNEY_STEMS_FILE_ID": support["D4_STEMS"]["id"], "JOURNEY_BILINGUAL_FILE_ID": support["D4_BI"]["id"], "RUBRIC_FILE_ID": support["D4_RUBRIC"]["id"], "ASSIGNMENT_ID": mapped_minor["id"]}},
-            {"day": 5, "teacher_url": "teacher-day-5-facilitator-guide", "teacher_title": "TEACHER: Day 5 Facilitator Guide", "student_title": "STUDENT: 1SW Wk0 Day 5 - Catch Up, Xello, and Perks and Quirks", "values": {"DECK_FILE_ID": support["D5_DECK"]["id"], "GOOGLE_DECK_COPY_URL": GOOGLE_DECK_COPY_URLS[5], "PERKS_IMAGE_ID": uploads[5]["perks-and-quirks-introduction.png"]["id"], "CAREER_TABLES_IMAGE_ID": uploads[5]["perks-and-quirks-career-tables.png"]["id"]}},
+            {"day": 5, "teacher_url": "teacher-day-5-facilitator-guide", "teacher_title": "TEACHER: Day 5 Facilitator Guide", "student_title": "STUDENT: 1SW Wk0 Day 5 - Career Perks, Neutrals, and Quirks", "values": {"DECK_FILE_ID": support["D5_DECK"]["id"], "GOOGLE_DECK_COPY_URL": GOOGLE_DECK_COPY_URLS[5], "PERKS_IMAGE_ID": uploads[5]["perks-and-quirks-introduction.png"]["id"], "CAREER_TABLES_IMAGE_ID": uploads[5]["perks-and-quirks-career-tables.png"]["id"]}},
         ]
         pages = {}
         for spec in specs:

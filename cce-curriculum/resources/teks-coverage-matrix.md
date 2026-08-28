@@ -2,7 +2,7 @@
 
 | TEKS Code | TEKS Description | Weeks Covered | Primary Platform | Coverage Status |
 | --- | --- | --- | --- | --- |
-| d(1)A | Analyze and discuss assessment results | Wk0 (1st), Wk6 (2nd), Wk1 (4th) | H&L RIASEC + Values, Xello Explore career matches | COVERED |
+| d(1)A | Analyze and discuss assessment results | Wk0 and Wk3 (1st), Wk1 (4th) | H&L Core/Values, Grade 7 Xello Learning Style quiz and lesson, mid-year evidence review | COVERED |
 | d(1)B | Explore and describe CTE career clusters | Wk0-5 (1st), Wk1-6 (2nd), Wk1-6 (3rd), Wk3-5 (4th), Wk1-4 (5th), Wk1-3 (6th) | H&L Cluster Tours (14 clusters) | COVERED |
 | d(1)C | Identify career opportunities within clusters | Nearly every week | H&L Career Profiles (225+ Hats) | COVERED |
 | d(1)D | Research and evaluate emerging occupations | Wk3,5 (1st), Wk2-3 (3rd), Wk4 (4th), Wk2 (5th) | H&L + BLS Career Outlook | COVERED |
@@ -31,7 +31,7 @@
 | d(6)A | Steps of an effective job search | Wk2,5 (6th) | CareerOneStop + eDynamic 8.2 | COVERED |
 | d(6)B | Appropriate appearance for interview | Wk4-5 (6th) | Supplemental + Practice | COVERED |
 | d(6)C | Participate in a mock interview | Wk5 (6th) | Teacher-facilitated + CareerOneStop | COVERED |
-| d(7)A | Write a resume | Wk2 (6th) | CCE/CareerOneStop private résumé in Canvas or on paper; Xello supplemental | COVERED |
+| d(7)A | Write a resume | Wk2 (6th) | Grade 7 Xello Resume or equivalent private Canvas/paper résumé route; one response home | COVERED |
 | d(7)B | Write business correspondence (cover letter, thank you) | Wk6 (2nd), Wk5 (6th) | Controlled practice posting + supplemental resources | COVERED |
 | d(7)C | Complete sample job applications | Wk5 (6th) | CareerOneStop Practice Application | COVERED |
 | d(7)D | Protocol for selecting/using references | Wk5 (6th) | Supplemental + class discussion | COVERED |

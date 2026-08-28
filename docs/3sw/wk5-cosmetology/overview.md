@@ -28,8 +28,6 @@ Students complete an individual **Cosmetology Career and Business Recommendation
 - **d(3)(G):** Investigate and report the steps required to enter a high-school or postsecondary cosmetology training opportunity on Days 3 and 5.
 - **d(3)(I):** Define entrepreneurship and identify beauty-industry opportunities and responsibilities on Days 4 and 5.
 
-The supplemental Xello **Exploring Career Factors** lesson is not assigned in the authenticated Bowie Grade 8 Completion Standards. It is an optional extension only and is not required evidence for this week.
-
 ## Materials Needed
 
 - *Find Your Future* printed pp. 127-133 and 136-138
@@ -93,7 +91,6 @@ The chapter's Advocacy lesson on FYF pp. 134-135 belongs to 2SW Wk5 and is not r
 ## Optional Extensions
 
 - H&L Human Services cluster tour and app exploration
-- Xello Exploring Career Factors, clearly labeled supplemental
 - eDynamic Unit 4.2 Part 1, only after the teacher verifies the exact enabled content
 - Canva or Adobe Express digital texture and wellness campaign designs
 - Xello localized salary comparison with visible geography, date, and measure

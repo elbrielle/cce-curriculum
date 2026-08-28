@@ -11,6 +11,7 @@ from pathlib import Path, PurePosixPath
 ROOT = Path(__file__).resolve().parents[2]
 PARITY = ROOT / "cce-curriculum/notes/google-workspace-parity-manifest.json"
 DRIVE_STATE = ROOT / "cce-curriculum/notes/google-workspace-drive-state.json"
+RESPONSE_ROUTES = ROOT / "build/google_docs/student_response_route_registry.draft.json"
 SITE_MANIFEST = ROOT / "public-site/dist/data/site-manifest.json"
 COPY_URL = re.compile(r"https://docs\.google\.com/[^\s\"'<>]+/copy")
 
@@ -39,6 +40,7 @@ def text_files(root: Path, patterns: tuple[str, ...]) -> list[Path]:
 def main() -> None:
     parity = json.loads(PARITY.read_text(encoding="utf-8"))
     drive_state = json.loads(DRIVE_STATE.read_text(encoding="utf-8"))
+    response_routes = json.loads(RESPONSE_ROUTES.read_text(encoding="utf-8"))
     site_manifest = json.loads(SITE_MANIFEST.read_text(encoding="utf-8"))
     site_outputs = {row["source"]: row["output"] for row in site_manifest["pages"]}
 
@@ -103,6 +105,28 @@ def main() -> None:
                 require(built_path.is_file(), f"{key}: built public page is missing")
                 require(copy_url in built_path.read_text(encoding="utf-8"), f"{key}: /copy link is missing from built public page")
 
+    student_rows = response_routes.get("routes")
+    require(
+        response_routes.get("review_status") == "draft"
+        and response_routes.get("mutation_authority") == "none"
+        and isinstance(student_rows, list)
+        and len(student_rows) == 180,
+        "current non-mutating student response-route draft must contain 180 rows",
+    )
+    student_copy_urls = {
+        row.get("google_doc", {}).get("copy_url") for row in student_rows
+    }
+    require(
+        len(student_copy_urls) == 180
+        and all(isinstance(url, str) and COPY_URL.fullmatch(url) for url in student_copy_urls),
+        "current student response /copy URLs must be complete and unique",
+    )
+    for copy_url in sorted(student_copy_urls):
+        expected_canvas.add(copy_url)
+        expected_public.add(copy_url)
+        require(copy_url in canvas_text, f"student Google Doc link is missing from Canvas source: {copy_url}")
+        require(copy_url in built_html_text, f"student Google Doc link is missing from built public site: {copy_url}")
+
     actual_public = set(COPY_URL.findall(built_html_text))
     require(actual_public == expected_public, f"built public /copy set drift: expected {sorted(expected_public)} found {sorted(actual_public)}")
     actual_canvas = set(COPY_URL.findall(canvas_text))
@@ -111,7 +135,7 @@ def main() -> None:
     print(
         "delivery links: PASS "
         f"artifacts={len(keys)} canvas_copy_links={len(expected_canvas)} "
-        f"public_copy_links={len(expected_public)}"
+        f"public_copy_links={len(expected_public)} response_routes={len(student_rows)}"
     )
 
 

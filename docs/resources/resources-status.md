@@ -31,7 +31,7 @@
 | Printable worksheets, rubrics, references, and scaffolds for all 36 weeks (250 PDFs; strict source validation currently reports zero warnings) | ✅ | `docs/resources/worksheets/`; paired Canvas packages link or attach the aligned set |
 | 1SW Common Formative Assessment (stimulus, 4 parts, 4-level rubric) | ✅ | [1SW CFA](../1sw/cfa.md) |
 | Six-weeks grading framework (40% minor, 60% major; minimum 3 minor and 2 major grades) | ✅ | [Six-Weeks Grading Framework](grading-framework.md) |
-| Authenticated Grade 8 Xello task list, prerequisite order, and teacher setup path | ✅ | [Xello Grade 8 Implementation Guide](xello-grade-8-implementation.md) |
+| Authenticated Grade 7 Xello task list, minimum prerequisite support, and teacher setup path | ✅ | [Xello Grade 7 Implementation Guide](xello-grade-7-implementation.md) |
 
 ### Exit-ticket PDF pipeline
 

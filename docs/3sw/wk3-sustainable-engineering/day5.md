@@ -1,85 +1,85 @@
-# Day 5: Adaptability and Xello Set Goals
+# Day 5: Interests and Sustainable-Engineering Work
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Goal Setting
-- **Objective:** Students will demonstrate goal-setting strategies by saving two goals with a timeframe, next task, obstacle, and backup plan.
-- **TEKS:** d(4)(A)
-- **Demonstration of Learning:** Two saved Xello goals + private Goal Check and Reflection.
+- **Topic:** Interests and Career Tasks
+- **Objective:** Students will complete the Xello Interests lesson and explain how one current interest connects to a sustainable-engineering career task.
+- **TEKS:** d(1)(A)
+- **Demonstration of Learning:** Five selected interests plus a private interest-to-career reflection.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objective** | Demonstrate goal-setting strategies by saving two goals with a timeframe, next task, obstacle, and backup plan |
-| **TEKS** | d(4)(A) |
-| **Deliverable** | Two saved Xello goals + private Goal Check and Reflection |
-| **Materials** | FYF p. 146; Xello; Goal Check and Private Reflection; locked Xello Set Goals educator guide |
+| **Objective** | Complete the Xello Interests lesson and explain how one current interest connects to a sustainable-engineering career task |
+| **TEKS** | d(1)(A) |
+| **Deliverable** | Five selected interests plus private Interest-to-Career Reflection |
+| **Materials** | FYF p. 146; Xello; Interests Check and Private Reflection; locked Xello My Interests educator guide |
 
 ## Before Class
 
-Provide one district device per student. Default print count is 0. Post the one-page Goal Check digitally; print one copy per student only for the paper-planning or outage route. Test ClassLink and Xello, open the Completion Standards report, and open the private reflection assignment. Keep work individual and private.
+Provide one district device per student. Default print count is 0. Post the one-page Interests Check digitally; print one copy per student only for the paper-planning or outage route. Test ClassLink and Xello, open the Completion Standards report, and open the private reflection assignment. Keep work individual and private.
 
-Use this privacy-safe fictional model: "By October 1, I will finish one career-interview question list. My next task is to write five questions by Friday. If I cannot meet the worker, I will use a teacher-approved career profile and revise the interview plan."
+Use this privacy-safe model: "I enjoy fixing and improving things. An agricultural engineer uses that interest when testing irrigation or monitoring equipment."
 
 ## Warm-Up (5 min)
 
-**WARM-UP:** What makes a goal easier to act on when a plan changes?
+**WARM-UP:** What do you choose to do when nobody assigns it? What might that choice show about your interests?
 
-Collect ideas such as a next task, timeframe, check-in point, obstacle, and backup plan.
+Students may keep the answer private. Collect activity categories rather than asking students to disclose personal details.
 
-## Activity 1: Adaptability to Goal Planning (8 min)
+## Activity 1: Interests Can Change (5 min)
 
-Use the delayed-concert problem on FYF p. 146 as a short model. Students do not need to complete the full workbook activity. Ask what the event planner can control, what changed, and what backup action could keep the goal moving.
+Use the delayed-concert problem on FYF p. 146 as a short model of changing circumstances. Students do not need to complete the full workbook activity. Ask how a person's interests can stay steady, grow, or change after a new experience.
 
-Then model one goal with:
+Then model one interest connection with:
 
-- a clear statement;
-- a timeframe or check-in date;
-- one task; and
-- one obstacle with a backup plan.
+- one current interest;
+- one sustainable-engineering career;
+- one task from the fixed career guide; and
+- one reason the task connects to the interest.
 
-Students draft two private goal ideas on the one-page check. They write the full goal statements in Xello instead of copying the same form twice. Do not require students to share personal goals with classmates.
+Students brainstorm interests privately on the one-page check. They select interests in Xello rather than copying a second full list. Do not require students to share personal interests with classmates.
 
-## Activity 2: Required Xello Set Goals (20 min)
+## Activity 2: Grade 7 Xello Interests Lesson (30 min)
 
-**District completion standard:** Set goals, 20 minutes, add at least two goals.
+The Grade 7/original course spine assigns the **Interests** lesson. Selecting five interests happens inside the lesson; it is not a separate Add interests requirement.
 
 Navigation:
 
 1. Open Xello from district single sign-on.
-2. Open **About Me**, then **Goals**.
-3. Choose **Set a goal**.
-4. Add Goal 1 with its category, timeframe, and at least one task.
-5. Add Goal 2 the same way.
-6. Confirm both goals appear in the plan.
+2. Open **About Me** and the Interests activity named in the assigned lesson.
+3. Review examples before selecting.
+4. Select five interests that fit now.
+5. Complete the lesson reflection prompts.
+6. Confirm the assigned Interests lesson shows complete.
 
-The licensed Xello educator guide is a 25-30 minute extended lesson and asks students to save three goals. It is useful for teacher modeling, but the live district minimum of two goals controls this class period.
+The licensed My Interests educator guide is a 15-25 minute teaching sequence. The live Grade 7 assignment reserves 30 minutes, including the individual selections and in-lesson reflection prompts.
 
-Teachers verify completion through the Xello Completion Standards report. Do not require screenshots of personal profiles or goals.
+Teachers verify completion through the Xello Completion Standards report. Do not require screenshots of personal profiles or interests.
 
-## Activity 3: Private Reflection (12 min)
+## Activity 3: Private Reflection (7 min)
 
-Students identify which goal has the clearest next task and which may need revision after the first attempt. They explain the difference privately. The obstacle and backup-plan fields show how they will keep moving if the first plan changes.
+Students choose one current interest and connect it to one task from environmental engineering, agricultural engineering, wind energy, solar energy, or another fixed sustainable-engineering career in the week guide. They explain the connection privately and name one task they would still want to investigate.
 
-Use the complete frame beside the private reflection: “If ____ gets in the way, I will ____ so I can keep moving toward ____.”
+Use the complete frame beside the private reflection: “I am interested in ____. A ____ uses this interest when ____. I still want to learn ____.”
 
-## Completion Check and Reset (5 min)
+## Completion Check and Reset (3 min)
 
-Students submit the private reflection in Canvas or on paper. The teacher records Xello completion separately.
+Students submit the private reflection in Canvas or on paper. The teacher records Interests lesson completion separately.
 
 ## Supports and Fallbacks
 
-- **Support:** Draft goals on paper before opening Xello and conference privately on one goal.
-- **Extension:** Add a third goal or a second task only after the two required goals are complete.
-- **Language:** Use goal, timeframe, next task, obstacle, and backup plan as the word bank. Keep the complete backup-plan frame beside the private response.
-- **Platform failure:** Submit the paper plan and schedule supervised Xello catch-up. Paper does not replace the required platform completion.
-- **Absence:** Complete the Student Guide and planning sheet, then finish Set goals during supervised catch-up.
+- **Support:** Brainstorm interest categories on paper before opening Xello and conference privately on one career-task connection.
+- **Extension:** Compare how the same interest appears in two sustainable-engineering careers.
+- **Language:** Use interest, task, connect, investigate, and change as the word bank. Keep the complete frame beside the private response.
+- **Platform failure:** Submit the paper reflection and schedule supervised Xello catch-up. Paper does not replace the assigned lesson completion.
+- **Absence:** Complete the Student Guide and planning sheet, then finish Interests during supervised catch-up.
 
 ## Monitor, Pivot, and Trim
 
-- By minute 13, each student should be in **About Me > Goals** or have a named access barrier. If several students remain on Home, pause for one ClassLink/navigation reset.
-- By minute 29, each student should have saved Goal 1 and started Goal 2, or be on the documented paper/catch-up route.
-- By minute 45, two saved goals should appear in the Completion Standards report and the private reflection should be submitted or collected.
-- If time is short, reduce the adaptability bridge to one control/change/backup example. Protect the 20-minute Xello minimum, private reflection, and report/catch-up record.
+- By minute 13, each student should be in the assigned Interests lesson or have a named access barrier. If several students remain on Home, pause for one ClassLink/navigation reset.
+- By minute 29, each student should have selected interests and reached the reflection prompts, or be on the documented paper/catch-up route.
+- By minute 45, the Interests lesson should show complete and the private reflection should be submitted or collected.
+- If time is short, reduce the FYF bridge to one change-over-time example. Protect the 30-minute Xello lesson, private reflection, and report/catch-up record.

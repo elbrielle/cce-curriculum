@@ -7,6 +7,18 @@ import httpx
 
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/1nV08lKrHpHUaeUygdCwVsSlx2qBDmvaxNGTNcc2fg5s/copy",
+    2: "https://docs.google.com/document/d/1MYCdVB6EZFXZbuIEfGPWIrC0R0622lGLIBgRE6eXmxw/copy",
+    3: "https://docs.google.com/document/d/1cF0nX0yn3SgRsl3m53ZGSKJLDJgJ2-qcv0vYhmtpwNw/copy",
+    4: "https://docs.google.com/document/d/1te6GqUbdLvHn1I75m-NQFYCfZQhHFW8_bJ1azYkKGOA/copy",
+    5: "https://docs.google.com/document/d/1dk2cjFBbRzPaFIRb0rWaED-p87mDiRzVs7NT0JCa4Jo/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
 MODULE_NAME = "2SW Wk5: Communication and Goal Setting"
 QUIZ_TITLE = "PRACTICE: Active Listening Evidence Check"
 DISCUSSION_TITLE = "PRACTICE: Little Library Message Lab"
@@ -681,12 +693,6 @@ async def main():
             k: await upload(c, ROOT / "docs/resources/worksheets" / v, support)
             for k, v in names.items()
         }
-        files["XELLO"] = await upload(
-            c,
-            ROOT
-            / "cce-curriculum/resources/xello-licensed/prerequisites/experiences.pdf",
-            support,
-        )
         uploads = {}
         folders = {}
         for day in range(1, 6):
@@ -713,7 +719,7 @@ async def main():
   <h3>Use these sources</h3>
   <ul>
     <li>Your Day 3 SMART goal and time plan</li>
-    <li>Your Xello Work experience and CareerOneStop Skills Matcher notes from Day 5</li>
+    <li>Your two Week 5 communication examples and CareerOneStop Skills Matcher notes or fixed career pair from Day 5</li>
     <li>{file_link(files["RUBRIC"]["id"], "16-point scoring rubric")}</li>
     <li>{file_link(files["SYNTH"]["id"], "optional two-page paper route")} only when your teacher assigns paper</li>
   </ul>
@@ -739,7 +745,7 @@ async def main():
                 "I_CAN": "I can use listening, fair compromise, and respectful language to solve a team conflict and show how the skill transfers.",
                 "SHOW_LEARNING": "Complete the FYF conflict plan and an individual two-career transfer check.",
                 "TODAY": "<ul><li>read a fictional team conflict;</li><li>write three specific solutions;</li><li>transfer the skill to two careers.</li></ul>",
-                "READY": f"<p>Open your workbook to FYF pp. 144-145. Use {file_link(files['CONFLICT']['id'], 'the optional no-workbook route')} only when your teacher assigns it. Keep {file_link(files['GUIDE']['id'], 'the Powerskills Transfer Guide')} available for examples.</p>",
+                "READY": f"<p>Open your workbook to FYF pp. 144-145. Use {student_copy_link(1, 'the optional no-workbook route')} only when your teacher assigns it. Keep {file_link(files['GUIDE']['id'], 'the Powerskills Transfer Guide')} available for examples.</p>",
                 "STEPS": step(
                     1,
                     "Learn the three moves",
@@ -785,7 +791,7 @@ async def main():
                 "I_CAN": "I can separate essential details from background details, ask a new question, and transfer active listening to another career.",
                 "SHOW_LEARNING": "Complete FYF p. 63 and the Canvas Active Listening Evidence Check.",
                 "TODAY": "<ul><li>read a fictional account twice;</li><li>sort four details;</li><li>practice paraphrasing and a new question.</li></ul>",
-                "READY": f"<p>Open your workbook to FYF pp. 62-63. Use {file_link(files['LISTEN']['id'], 'the optional Active Listening Lab')} only when your teacher assigns the no-workbook or extended-practice route.</p>",
+                "READY": f"<p>Open your workbook to FYF pp. 62-63. Use {student_copy_link(2, 'the optional Active Listening Lab')} only when your teacher assigns the no-workbook or extended-practice route.</p>",
                 "STEPS": step(
                     1,
                     "Read without diagnosing",
@@ -832,7 +838,7 @@ async def main():
                 "I_CAN": "I can state a need respectfully and build a SMART goal with protected work time and a backup strategy.",
                 "SHOW_LEARNING": "Complete the Advocacy, SMART Goal, and Time Plan.",
                 "TODAY": "<ul><li>practice one fictional self-advocacy scenario;</li><li>read three community voices;</li><li>write one SMART goal;</li><li>schedule two actions and one backup.</li></ul>",
-                "READY": f"<p>Open {file_link(files['SMART']['id'], 'the Advocacy, SMART Goal, and Time Plan')} and keep {file_link(files['RUBRIC']['id'], 'the weekly rubric')} nearby.</p>",
+                "READY": f"<p>Open {student_copy_link(3, 'the Advocacy, SMART Goal, and Time Plan')} and keep {file_link(files['RUBRIC']['id'], 'the weekly rubric')} nearby.</p>",
                 "STEPS": step(
                     1,
                     "Practice the four-move response",
@@ -878,7 +884,7 @@ async def main():
                 "I_CAN": "I can write a clear fictional public message and revise a workplace message using only supplied facts.",
                 "SHOW_LEARNING": "Complete the FYF Little Library message and one fixed-fact workplace rewrite.",
                 "TODAY": "<ul><li>write a clear Little Library update;</li><li>give useful feedback;</li><li>rewrite one vague workplace message.</li></ul>",
-                "READY": f"<p>Open your workbook to FYF pp. 147-148. If your teacher assigns the private/paper route, open the one-page {file_link(files['WRITE']['id'], 'Workplace Message Companion')}.</p>",
+                "READY": f"<p>Open your workbook to FYF pp. 147-148. If your teacher assigns the private/paper route, open the one-page {student_copy_link(4, 'Workplace Message Companion')}.</p>",
                 "STEPS": step(
                     1,
                     "Use four writing checks",
@@ -914,17 +920,17 @@ async def main():
                 "FALLBACK": "<p>The paper/private route is equal. No public post or peer reply is required for full evidence.</p>",
             },
             5: {
-                "TITLE": "Record Experience and Connect Skills to a Plan",
-                "PURPOSE": "Complete the required Xello task, study skill suggestions, and revise your next step.",
+                "TITLE": "Connect Communication Skills to a Plan",
+                "PURPOSE": "Study skill suggestions or fixed career evidence, then revise your next step.",
                 "TOPIC": "Goals and Time",
-                "I_CAN": "I can add one authentic Work experience, analyze skill suggestions, and revise a goal using evidence from two careers.",
+                "I_CAN": "I can analyze skill suggestions or fixed career evidence and revise a goal using evidence from two careers.",
                 "SHOW_LEARNING": "Submit the four-part Communication and Goal Synthesis.",
-                "TODAY": "<ul><li>save one real Work experience in Xello;</li><li>record two Skills Matcher suggestions or use the fixed career pair;</li><li>revise a goal and compare one skill across careers;</li><li>store five short Entry 2 phrases without another submission.</li></ul>",
-                "READY": f'<p>Open the <a href="{minor_url}">Communication and Goal Synthesis</a> and {file_link(files["RUBRIC"]["id"], "the 16-point rubric")}. Use {file_link(files["SYNTH"]["id"], "the optional two-page paper route")} only when your teacher assigns paper. Retrieve your CCE Six-Weeks Evidence Log from the CCE binder or teacher-designated digital folder; it stays with you.</p>',
+                "TODAY": "<ul><li>name two Week 5 examples with visible communication actions;</li><li>record two Skills Matcher suggestions or use the fixed career pair;</li><li>revise a goal and compare one skill across careers;</li><li>store five short Entry 2 phrases without another submission.</li></ul>",
+                "READY": f'<p>Open the <a href="{minor_url}">Communication and Goal Synthesis</a> and {file_link(files["RUBRIC"]["id"], "the 16-point rubric")}. Use {student_copy_link(5, "the optional two-page paper response")} only when your teacher assigns paper. Retrieve your CCE Six-Weeks Evidence Log from the CCE binder or teacher-designated digital folder; it stays with you.</p>',
                 "STEPS": step(
                     1,
-                    "Add one real Work experience",
-                    "<p>ClassLink &gt; Xello &gt; About Me &gt; Experiences &gt; Work. Add at least one experience that actually happened and save. Do not invent one or enter private details.</p>",
+                    "Sort two Week 5 examples",
+                    "<p>Choose two activities from this week. For each one, name the situation, the visible communication action, and what the action improved. Do not enter private names, medical details, or personal disputes.</p>",
                 )
                 + step(
                     2,
@@ -944,11 +950,11 @@ async def main():
                 + step(
                     5,
                     "Submit once and store Entry 2",
-                    "<p>Submit the Communication and Goal Synthesis through the assigned Canvas or paper route. Keep it open for 2 to 3 minutes. In <strong>Entry 2</strong> of your CCE Six-Weeks Evidence Log, copy short phrases for: <strong>Communication and Goal Synthesis</strong>; your named communication skill; one visible action from a Week 5 example; your backup strategy as the revision or recovery move; and your evidence-based next action.</p><p>Return the log to your CCE binder or teacher-designated digital folder. Do not submit the log or the synthesis again. The log is not another grade.</p>",
+                    "<p>Submit the Communication and Goal Synthesis in the Canvas or paper response home your teacher assigned. Keep it open for 2 to 3 minutes. In <strong>Entry 2</strong> of your CCE Six-Weeks Evidence Log, copy short phrases for: <strong>Communication and Goal Synthesis</strong>; your named communication skill; one visible action from a Week 5 example; your backup strategy as the revision or recovery move; and your evidence-based next action.</p><p>Return the log to your CCE binder or teacher-designated digital folder. Do not submit the log or the synthesis again. The log is not another grade.</p>",
                 ),
-                "DONE": "<ul><li>Xello save or catch-up recorded;</li><li>two skill suggestions or the fixed career pair recorded honestly;</li><li>revised goal and time plan;</li><li>two Week 5 examples and a two-career transfer comparison;</li><li>Entry 2 stored in the Evidence Log or five short phrases saved in an Entry 2 hold note.</li></ul>",
-                "SUPPORT": "<p>experience = experiencia; responsibility = responsabilidad; suggestion = sugerencia; transferable = transferible. Complete frames are beside Steps 2-4.</p>",
-                "FALLBACK": "<p>If Xello fails, complete the reflection and finish the required save in supervised catch-up. If CareerOneStop fails or remains incomplete at the stop time, use the fixed IT support specialist and dental assistant pair in Step 2 and record the tool as incomplete. If the Evidence Log is missing, copy the same five short phrases from the open synthesis under <strong>Entry 2 hold</strong> in the CCE notebook or teacher-designated digital folder, then transfer them later. Do not reconstruct or upload old work. Xello Time Management is supplemental and does not replace Work experiences.</p>",
+                "DONE": "<ul><li>two skill suggestions or the fixed career pair recorded honestly;</li><li>revised goal, two Week 5 examples, and a two-career transfer comparison;</li><li>Entry 2 stored in the Evidence Log or five short phrases saved in an Entry 2 hold note.</li></ul>",
+                "SUPPORT": "<p>action = acción; responsibility = responsabilidad; suggestion = sugerencia; transferable = transferible. Complete frames are beside Steps 2-4.</p>",
+                "FALLBACK": "<p>Use the fixed IT support specialist and dental assistant pair when your teacher assigns it. If the Evidence Log is missing, save the same five short phrases from the open synthesis under <strong>Entry 2 hold</strong> in the CCE notebook or teacher-designated digital folder.</p>",
             },
         }
         teacher = {
@@ -1105,28 +1111,28 @@ async def main():
                 "FALLBACK": "<p>Skip public posting for privacy, absence, or accommodation. FYF remains the Little Library surface; the one-page companion adds only the missing workplace rewrite and transfer evidence.</p>",
             },
             5: {
-                "TITLE": "Record Experience and Connect Skills to a Plan",
+                "TITLE": "Connect Communication Skills to a Plan",
                 "TOPIC": "Goals and Time",
-                "OBJECTIVE": "Students will add one authentic Work experience in Xello, analyze Skills Matcher suggestions, and revise a goal using transferable-skill evidence.",
+                "OBJECTIVE": "Students will analyze Skills Matcher suggestions or fixed career evidence and revise a goal using transferable-skill evidence.",
                 "TEKS": "d(4)(A), d(4)(B); d(1)(A) supporting evidence",
                 "DOL": "Submitted Communication and Goal Synthesis scored with the 16-point rubric.",
                 "SUBTITLE": "50 minutes · TEKS d(4)(A), d(4)(B); d(1)(A) supporting",
-                "ALERT": "<strong>Required task: Work experiences.</strong> Xello Time Management is supplemental and does not replace this Grade 8 completion standard.",
-                "PREP": f'<ul><li><strong>Per student:</strong> 1 internet-connected device with ClassLink, Xello, CareerOneStop, and Canvas access.</li><li><strong>Teacher:</strong> 1 device with Completion Standards open and 1 display for Skills Matcher checkpoints.</li><li><strong>Print only for assigned students:</strong> 1 two-page {file_link(files["SYNTH"]["id"], "synthesis")} per student, double-sided when available. Default copies: 0.</li><li><strong>Grouping:</strong> individual/private profile and Minor evidence; optional partner talk shares only non-sensitive patterns.</li><li>Open the unpublished <a href="{minor_url}">Communication and Goal Synthesis</a>, {file_link(files["RUBRIC"]["id"], "student-visible rubric")}, and licensed {file_link(files["XELLO"]["id"], "My experiences guide")}.</li><li>Remind students to retrieve the CCE Six-Weeks Evidence Log from the CCE binder or teacher-designated digital folder named in Week 0. It stays with the student.</li></ul>',
-                "EVIDENCE": "<p>Required Xello save/report plus the four-part Canvas Minor: revised goal, time plan and backup, two Week 5 activity examples, two-career skill transfer, and one evidence-based next action. Entry 2 is a 2- to 3-minute transfer into the student-owned Evidence Log, not another Assignment, upload, or grade.</p>",
+                "ALERT": "<strong>Fixed evidence is complete.</strong> CareerOneStop may generate suggestions, but the IT support specialist and dental assistant pair supports the same transfer analysis when the public tool is blocked or unfinished.",
+                "PREP": f'<ul><li><strong>Per student:</strong> 1 internet-connected device with CareerOneStop and Canvas access.</li><li><strong>Teacher:</strong> 1 display for Skills Matcher checkpoints and the fixed two-career pair.</li><li><strong>Print only for assigned students:</strong> 1 two-page {file_link(files["SYNTH"]["id"], "synthesis")} per paper-response student, double-sided when available.</li><li><strong>Grouping:</strong> individual/private Minor evidence; optional partner talk shares only non-sensitive patterns.</li><li>Open the unpublished <a href="{minor_url}">Communication and Goal Synthesis</a> and {file_link(files["RUBRIC"]["id"], "student-visible rubric")}.</li><li>Remind students to retrieve the CCE Six-Weeks Evidence Log from the CCE binder or teacher-designated digital folder named in Week 0. It stays with the student.</li></ul>',
+                "EVIDENCE": "<p>The four-part Canvas Minor includes a revised goal, time plan and backup, two Week 5 activity examples, two-career skill transfer, and one evidence-based next action. Entry 2 is a 2- to 3-minute transfer into the student-owned Evidence Log, not another Assignment, upload, or grade.</p>",
                 "FLOW": flow(
                     "#5a2d91",
-                    "Responsibility warm-up · 4",
-                    "List one real responsibility without forcing a category.",
+                    "Communication-action warm-up · 4",
+                    "Name one real responsibility and the communication action it required.",
                 )
                 + flow(
                     "#4a9d2f",
-                    "Xello Work experiences · 10",
-                    "Add at least one authentic experience or record catch-up.",
+                    "Week 5 evidence sort · 8",
+                    "Name two activities, visible actions, and what improved.",
                 )
                 + flow(
                     "#1f617a",
-                    "Skills Matcher · 18",
+                    "Skills Matcher · 20",
                     "Rate in chunks of 10; record two suggestions and one pattern.",
                 )
                 + flow(
@@ -1139,9 +1145,9 @@ async def main():
                     "Submit/verify · 5",
                     "Check report; copy five phrases into Entry 2 or an Entry 2 hold note; list absences/access failures.",
                 ),
-                "MONITOR": "<ul><li><strong>Minute 14 CFU:</strong> Work experience saved or catch-up recorded privately.</li><li><strong>Matcher checkpoints:</strong> after ratings 10, 20, and 30, verify progress and read anchors aloud if students click without reading.</li><li><strong>Synthesis lap:</strong> check revised goal, protected time, backup, two Week 5 activity examples, and one communication action across two careers. Prompt “What does the worker do with the skill?”</li><li><strong>Submit/check:</strong> verify five short Entry 2 phrases copied from the open synthesis: artifact, skill, visible action, backup as recovery, and next action. The log returns to the named CCE storage place and is not collected.</li><li><strong>Boundary:</strong> results are idea-generators from self-ratings, not identity or verdict. Use multiple sources and counselor discussion for decisions.</li><li><strong>Trim:</strong> at minute 32, stop after the current chunk and use the fixed IT support specialist and dental assistant pair in the Student Guide. Record Matcher incomplete; protect Xello, synthesis, and submit.</li></ul>",
+                "MONITOR": "<ul><li><strong>Minute 12 CFU:</strong> two Week 5 examples name a visible communication action.</li><li><strong>Matcher checkpoints:</strong> after ratings 10, 20, and 30, verify progress and read anchors aloud if students click without reading.</li><li><strong>Synthesis lap:</strong> check revised goal, protected time, backup, two Week 5 activity examples, and one communication action across two careers. Prompt “What does the worker do with the skill?”</li><li><strong>Submit/check:</strong> verify five short Entry 2 phrases copied from the open synthesis: artifact, skill, visible action, backup as recovery, and next action. The log returns to the named CCE storage place and is not collected.</li><li><strong>Boundary:</strong> results are idea-generators from self-ratings, not identity or verdict. Use multiple sources and counselor discussion for decisions.</li><li><strong>Trim:</strong> at minute 32, stop after the current chunk and use the fixed IT support specialist and dental assistant pair in the Student Guide. Record Matcher incomplete; protect synthesis and submit.</li></ul>",
                 "SUPPORT": "<p>Place these beside the response: <strong>“I used ____ when I ____.” “The suggestions share ____ because I rated ____ as important.” “In ____, the worker uses ____ when ____.”</strong> Read anchors aloud in chunks. Private writing, audio, and teacher conference are equal.</p>",
-                "FALLBACK": "<p>Paper does not replace Xello completion. Move the save to supervised catch-up. If CareerOneStop is blocked/incomplete, use the fixed IT support specialist and dental assistant pair supplied in the Student Guide and paper route. Do not pretend the assessment was completed. If the Evidence Log is missing, students copy the same five short phrases from the open synthesis under <strong>Entry 2 hold</strong> in the CCE notebook or teacher-designated digital folder, then transfer them later. Do not reconstruct or upload old work. Xello Time Management is supplemental only.</p>",
+                "FALLBACK": "<p>If CareerOneStop is blocked or incomplete, use the fixed IT support specialist and dental assistant pair supplied in the Student Guide and paper route. Do not pretend the assessment was completed. If the Evidence Log is missing, students copy the same five short phrases from the open synthesis under <strong>Entry 2 hold</strong> in the CCE notebook or teacher-designated digital folder, then transfer them later. Do not reconstruct or upload old work.</p>",
             },
         }
         titles = {
@@ -1149,7 +1155,7 @@ async def main():
             2: "STUDENT: 2SW Wk5 Day 2 - Active Listening",
             3: "STUDENT: 2SW Wk5 Day 3 - Advocacy and SMART Time Plan",
             4: "STUDENT: 2SW Wk5 Day 4 - Written Message Lab",
-            5: "STUDENT: 2SW Wk5 Day 5 - Work Experience and Skills Synthesis",
+            5: "STUDENT: 2SW Wk5 Day 5 - Communication Skills and Goal Synthesis",
         }
         pages = {}
         order = []

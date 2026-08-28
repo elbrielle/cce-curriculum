@@ -2,7 +2,7 @@
 //
 // Checks each OUTPUT .pptx (not the builders): expected slide count, 16:9 size,
 // every slide editable (has text shapes; no whole-slide raster), projected-slide
-// language lint, full speaker-note schema, zero "Mr. Lucero"/"ClassLink"/reopen
+// language lint, full speaker-note schema, zero "Mr. Lucero"/direct H&L sign-in/reopen
 // wording, and prints SHA-256 + bytes for the manifests.
 //
 // Usage: node build/decks/qa_week0_decks.mjs [--json out.json]
@@ -29,7 +29,12 @@ const DECKS = [
   { key: "1sw-wk0-lucero-weekly-slides", file: weeklyPath, expected: 75 },
 ];
 const ALLOW = [/Alternate route/];
-const OBSOLETE = [/\bmr\.?\s*lucero\b|\bmister\s+lucero\b/i, /classlink/i, /\b(reopen|re-open|refresh)\b[^.]{0,60}\b(page|onenote|notebook)\b/i];
+const OBSOLETE = [
+  /\bmr\.?\s*lucero\b|\bmister\s+lucero\b/i,
+  /sign in with google/i,
+  /app\.hatsandladders\.com/i,
+  /\b(reopen|re-open|refresh)\b[^.]{0,60}\b(page|onenote|notebook)\b/i,
+];
 
 const runtime = await loadRuntime();
 const { FileBlob, PresentationFile } = runtime;

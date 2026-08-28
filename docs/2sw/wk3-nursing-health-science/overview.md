@@ -4,7 +4,7 @@
 
 ## Lesson Objective
 
-Students compare preparation, responsibility, and pay across four nursing-related careers; build and test a micro:bit vital-signs simulator; and use fictional patient information to write an accurate supervised handoff. The week ends with the required Xello **Save careers** task.
+Students compare preparation, responsibility, and pay across four nursing-related careers; build and test a micro:bit vital-signs simulator; and use fictional patient information to write an accurate supervised handoff. The week ends with an evidence-based nursing-career comparison using the fixed route guide and work students already completed.
 
 **Learning Target:** I can compare nursing routes, explain what a training simulator can and cannot do, and hand off fictional patient information without diagnosing.
 
@@ -13,11 +13,11 @@ Students compare preparation, responsibility, and pay across four nursing-relate
 - My route comparison uses at least three careers and labels every pay figure correctly.
 - My MakeCode program displays fictional values on Buttons A and B and passes its test plan.
 - My handoff separates supplied values, reported symptoms, and inference.
-- My Xello account shows at least three saved careers.
+- My final career map connects one nursing career to a responsibility, preparation step, work condition, and source-labeled pay fact.
 
 ## Demonstration of Learning
 
-Students submit the Canvas Nursing Route Evidence Check (or the optional print scaffold) and one Observation and Clinical Handoff Record. The MakeCode build may be completed on a physical micro:bit, in the browser simulator, or through a paper block trace. Day 5 completion is verified in the Xello Completion Standards report.
+Students submit the Canvas Nursing Route Evidence Check (or the optional print scaffold), one Observation and Clinical Handoff Record, and a short nursing-career evidence map. The MakeCode build may be completed on a physical micro:bit, in the browser simulator, or through a paper block trace.
 
 ## TEKS Alignment
 
@@ -39,16 +39,15 @@ Students submit the Canvas Nursing Route Evidence Check (or the optional print s
 - [Fictional Patient Handoff Cards](../../resources/worksheets/2sw-wk3-fictional-patient-cards.pdf)
 - [Observation and Clinical Handoff Record](../../resources/worksheets/2sw-wk3-clinical-handoff-record.pdf)
 - [Nursing Route and Handoff Rubric](../../resources/worksheets/2sw-wk3-handoff-rubric.pdf)
-- [Xello Save Three Careers Reflection](../../resources/worksheets/2sw-wk3-xello-save-careers-reflection.pdf)
+- [Nursing Career Evidence Map](../../resources/worksheets/2sw-wk3-xello-save-careers-reflection.pdf)
 - Microsoft MakeCode for micro:bit: [makecode.microbit.org](https://makecode.microbit.org)
 - micro:bits and USB cables, optional; the browser simulator is an equal route
-- Xello accounts
 
 ## Before Monday
 
 1. Test MakeCode on the student network. Confirm that the on-screen simulator works even if no micro:bits are charged.
 2. Open the embedded workbook and Climber Notes visuals in Canvas.
-3. Confirm Xello access and the **Save careers** completion rule: 30 minutes and at least three saved careers.
+3. Post the fixed nursing route guide and the Day 5 Nursing Career Evidence Map.
 4. Decide whether Day 4 uses the unpublished Canvas practice quiz or its paper question fallback.
 5. Do not collect real student health measurements, symptoms, names, or medical histories. All Day 4 data are fictional.
 
@@ -87,7 +86,7 @@ The micro:bit program is a training simulator. It does not measure a person or f
 - **Stop and Jot:** Day 2, students write one advantage and one trade-off for the ADN and BSN routes before discussion. Check whether they named cost, time, admission, licensure, or long-term goals instead of repeating "more school equals more money."
 - **Active Monitoring:** Day 3, use three fixed laps: Button A displays a fictional heart-rate value; Button B displays the temperature code; the student can explain why neither value came from a person.
 - **Chunking:** Day 4, separate situation, observations, comparison, handoff, and reasoning. Do not release the next section until students have removed diagnoses from the observation section.
-- **Time, Voice, Body:** Day 5, post a 30-minute Xello block with Voice 0, screens facing the aisle, and a visible checkpoint at 15 minutes. Students with access problems move to the paper reflection and supervised catch-up list.
+- **Time, Voice, Body:** Day 5, post a 20-minute evidence-audit block with Voice 0 and a visible checkpoint at 10 minutes. Students keep the route guide and their own evidence map open; no platform account or screenshot is required.
 
 ## Week at a Glance
 
@@ -97,7 +96,7 @@ The micro:bit program is a training simulator. It does not measure a person or f
 | 2 | Education and pay trade-offs | Compare four careers, evaluate RN routes, make a recommendation | Canvas Nursing Route Evidence Check or optional print fallback | Engage, Explore, Explain, Elaborate, Evaluate |
 | 3 | Vital-signs training simulator | Tool research, MakeCode demo, build and test | Simulator screenshot/share link or paper trace plus test record | Engage, Explore, Explain, Elaborate, Evaluate |
 | 4 | Fictional patient handoff | Analyze case cards, separate observation from inference, practice quiz | Individual Observation and Clinical Handoff Record | Engage, Explore, Explain, Elaborate, Evaluate |
-| 5 | Required Xello completion | Save at least three careers and connect one to this week's evidence | Xello completion plus individual reflection | Engage, Explore, Explain, Evaluate |
+| 5 | Nursing-career evidence synthesis | Compare at least three fixed careers and connect one to this week's evidence | Individual career map and next-fact reflection | Engage, Explore, Explain, Evaluate |
 
 ## Assessment and Grading
 
@@ -105,7 +104,7 @@ The micro:bit program is a training simulator. It does not measure a person or f
 - The Day 4 route-and-handoff evidence set is the recommended **minor checkpoint**, scored with the 16-point rubric. Device access, platform access, public speaking, and physical measurement are not graded.
 - The Canvas practice quiz is ungraded and may be retried. It checks misconceptions before the handoff is submitted.
 - The two nursing-route Canvas checks are ungraded response surfaces. They replace routine printing; the four-page organizer is an access/no-device fallback under the same success criteria.
-- Xello completion may be recorded as part of a later profile checkpoint. Do not create a separate grade for every click.
+- The Day 5 career map is formative. Do not create a separate grade for repeating evidence already scored in the route-and-handoff checkpoint.
 
 ## Differentiation
 

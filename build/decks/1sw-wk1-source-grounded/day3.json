@@ -4,6 +4,9 @@
     "Find Your Future pp. 204-206, Super Sports Manufacturing.",
     "Private teacher-created AVID source deck, inherited layout and lesson choreography only."
   ],
+  "visualTheme": {
+    "backgrounds": ["#F7F3FB", "#FFF8E8", "#EEF7F5", "#F4F7FB"]
+  },
   "recovery": "Use the embedded FYF pages, pre-drawn rack scaffold, and tape or dry-fit route. Hot glue is never required for access; the Canvas Student Guide remains the absence route.",
   "slides": [
     {
@@ -98,7 +101,14 @@
       ],
       "timing": "18:00-22:00",
       "lookFor": "One metal choice plus a pro and a tradeoff from the source table.",
-      "pivot": "Use: I chose ____ because ____, even though ____."
+      "pivot": "Use: I chose ____ because ____, even though ____.",
+      "frameAdjustments": {"1": {"width": -430}},
+      "addImages": [{
+        "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day3/metals-and-welding-methods.png",
+        "alt": "Find Your Future metal tradeoff comparison",
+        "fit": "contain",
+        "position": {"left": 760, "top": 150, "width": 450, "height": 400}
+      }]
     },
     {
       "texts": [
@@ -141,14 +151,21 @@
       ],
       "timing": "30:00-33:00",
       "lookFor": "Each pair points to one selected sketch and names why it is buildable.",
-      "pivot": "Teacher assigns the clearer labeled design when a pair remains stuck."
+      "pivot": "Teacher assigns the clearer labeled design when a pair remains stuck.",
+      "frameAdjustments": {"1": {"width": -430}},
+      "addImages": [{
+        "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day3/bike-rack-design-brief.png",
+        "alt": "Find Your Future bike-rack design brief and sketch reference",
+        "fit": "contain",
+        "position": {"left": 760, "top": 150, "width": 450, "height": 400}
+      }]
     },
     {
       "texts": [
         "Build Safety Before Speed",
         "VOICE 1\nGun stays on the heat-safe mat\nCraft gloves before glue\nScraps in the tray\nOne pair per station\nTape or dry-fit counts equally",
-      "",
-      ""
+        "STATION RULES",
+        ""
       ],
       "timing": "33:00-35:00",
       "lookFor": "Students can point to the mat, gloves, scrap tray, timer, and their assigned connection route.",
@@ -173,7 +190,13 @@
       ],
       "timing": "35:00-42:00",
       "lookFor": "Pairs build the selected geometry, keep materials at stations, and adjust at least one weak connection.",
-      "pivot": "At minute 39, stop decoration and require a standing base plus one tested joint."
+      "pivot": "At minute 39, stop decoration and require a standing base plus one tested joint.",
+      "addTextboxes": [{
+        "name": "prototype-build-timer",
+        "text": "⏱ 7 MINUTES",
+        "fill": "#5A2D91",
+        "position": {"left": 490, "top": 530, "width": 300, "height": 70}
+      }]
     },
     {
       "texts": [
@@ -182,13 +205,20 @@
       ],
       "timing": "42:00-45:00",
       "lookFor": "Each pair names one observed weak spot and one evidence-based reinforcement.",
-      "pivot": "If a rack fails completely, use the failure as the test result; students do not need to rebuild."
+      "pivot": "If a rack fails completely, use the failure as the test result; students do not need to rebuild.",
+      "frameAdjustments": {"1": {"width": -430}},
+      "addImages": [{
+        "path": "cce-curriculum/resources/canvas-licensed/1sw/wk1/day3/build-and-test-prototype.jpg",
+        "alt": "Find Your Future bike-rack prototype build and test reference",
+        "fit": "contain",
+        "position": {"left": 760, "top": 150, "width": 450, "height": 400}
+      }]
     },
     {
       "texts": [
         "Rank the Three Metals\n1 = best outdoors • 2 = middle • 3 = weakest fit",
         "Use one pro and one con for #1. Name the weak prototype joint, the weld that strengthens it, and one other Manufacturing career.",
-        "Source: Find Your Future, Manufacturing"
+        "Complete the Exit Ticket in today’s response page."
       ],
       "timing": "45:00-49:00",
       "lookFor": "The ranking cites the source table, the weak spot matches the prototype test, and the second career has a task.",

@@ -24,6 +24,9 @@ SITE_ROOT = ROOT / "public-site"
 DOCS_ROOT = ROOT / "docs"
 DEFAULT_OUTPUT = SITE_ROOT / "dist"
 COMPLETE_ARTIFACT_INVENTORY = ROOT / "cce-curriculum/notes/google-workspace-complete-artifact-inventory.json"
+STUDENT_RESPONSE_ROUTES = ROOT / "build/google_docs/student_response_route_registry.draft.json"
+STUDENT_RESPONSE_SELECTORS = ROOT / "build/google_docs/student_response_link_selector_inventory.json"
+STUDENT_RESPONSE_DRIVE_ROOT_ID = "1FbY0WdnXN-PkW6Vi76qcpDfp7SKq5c5H"
 
 CHAPTERS = {
     "1sw": {
@@ -232,6 +235,12 @@ def markdown_html(page: Page, pages: dict[Path, Page], output_root: Path, copied
         if resolved in pages:
             new_href = rel_url(page.output, pages[resolved].output)
         elif resolved.is_file():
+            source_key = resolved.relative_to(ROOT).as_posix()
+            if source_key in policy.get("superseded_resources", {}):
+                raise ValueError(
+                    f"Superseded resource linked from public page: "
+                    f"{page.source.relative_to(ROOT)} -> {source_key}"
+                )
             try:
                 resource_rel = resolved.relative_to(DOCS_ROOT / "resources")
             except ValueError as exc:
@@ -256,6 +265,12 @@ def markdown_html(page: Page, pages: dict[Path, Page], output_root: Path, copied
         if src.startswith(("http://", "https://", "data:")):
             continue
         resolved = (page.source.parent / strip_fragment_query(src)[0]).resolve()
+        source_key = resolved.relative_to(ROOT).as_posix()
+        if source_key in policy.get("superseded_resources", {}):
+            raise ValueError(
+                f"Superseded image linked from public page: "
+                f"{page.source.relative_to(ROOT)} -> {source_key}"
+            )
         try:
             resource_rel = resolved.relative_to(DOCS_ROOT / "resources")
         except ValueError as exc:
@@ -286,6 +301,8 @@ def unit_downloads_html(
 ) -> str:
     links: list[str] = []
     for release in releases:
+        if str(release["source"]) in policy.get("superseded_resources", {}):
+            continue
         source = (ROOT / str(release["source"])).resolve()
         if not source.is_file():
             raise FileNotFoundError(f"Missing unit download: {release['source']}")
@@ -313,6 +330,88 @@ def unit_downloads_html(
 def day_pages_for_week(page: Page, pages: dict[Path, Page]) -> list[Page]:
     week_dir = page.source.parent
     return [pages[(week_dir / f"day{day}.md").resolve()] for day in range(1, 6)]
+
+
+def lesson_page_id(page: Page) -> str | None:
+    if page.kind != "lesson":
+        return None
+    rel = page.source.relative_to(DOCS_ROOT)
+    week = re.match(r"wk(\d+)", rel.parts[1])
+    day = re.fullmatch(r"day([1-5])\.md", page.source.name)
+    if not week or not day:
+        return None
+    return f"{int(rel.parts[0][0])}SW-Wk{int(week.group(1))}-Day{int(day.group(1))}"
+
+
+def load_student_response_routes(pages: dict[Path, Page]) -> dict[str, dict]:
+    payload = json.loads(STUDENT_RESPONSE_ROUTES.read_text(encoding="utf-8"))
+    selectors = json.loads(STUDENT_RESPONSE_SELECTORS.read_text(encoding="utf-8"))
+    if (
+        payload.get("review_status") != "draft"
+        or payload.get("mutation_authority") != "none"
+        or selectors.get("review_status") != "reviewed"
+    ):
+        raise ValueError(
+            "Public build requires the current non-mutating route draft and reviewed selectors"
+        )
+    drive_root = payload.get("canonical_drive_root", {})
+    if (
+        drive_root.get("id") != STUDENT_RESPONSE_DRIVE_ROOT_ID
+        or drive_root.get("path") != "VILS27/Units_CCR"
+    ):
+        raise ValueError("Student response routes are not routed to VILS27/Units_CCR")
+    rows = payload.get("routes", [])
+    selector_rows = selectors.get("days", [])
+    if len(rows) != 180 or len(selector_rows) != 180:
+        raise ValueError("Student response registries must contain all 180 lessons")
+    selector_by_id = {row["day_key"]: row for row in selector_rows}
+    by_page_id: dict[str, dict] = {}
+    for row in rows:
+        page_id = row["day_key"]
+        source = (ROOT / row["source"]["day_source"]["path"]).resolve()
+        page = pages.get(source)
+        if page is None or lesson_page_id(page) != page_id:
+            raise ValueError(f"Student response route does not match a public lesson: {page_id}")
+        copy_url = row["google_doc"]["copy_url"]
+        selector = selector_by_id.get(page_id)
+        if selector is None or selector.get("google_doc_copy_url") != copy_url:
+            raise ValueError(f"Student response selector/route mismatch: {page_id}")
+        if not re.fullmatch(
+            r"https://docs\.google\.com/document/d/[A-Za-z0-9_-]+/copy",
+            copy_url,
+        ):
+            raise ValueError(f"Invalid Google Docs copy URL for {page_id}")
+        folder_path = row["google_doc"].get("folder_path")
+        if not (
+            isinstance(folder_path, str)
+            and folder_path.startswith("VILS27/Units_CCR/")
+            and folder_path.endswith("/Google Masters")
+        ):
+            raise ValueError(f"Invalid Google Masters path for {page_id}")
+        if page_id in by_page_id:
+            raise ValueError(f"Duplicate student response route: {page_id}")
+        by_page_id[page_id] = row
+    known_lesson_ids = {
+        page_id for page in pages.values()
+        if (page_id := lesson_page_id(page)) is not None
+    }
+    if set(by_page_id) != known_lesson_ids or set(selector_by_id) != known_lesson_ids:
+        raise ValueError("Student response routes must cover exactly the 180 public lessons")
+    return by_page_id
+
+
+def student_copy_action_html(page: Page, routes: dict[str, dict]) -> str:
+    page_id = lesson_page_id(page)
+    if not page_id or page_id not in routes:
+        return ""
+    row = routes[page_id]
+    title = html.escape(row["title"].rsplit(" | ", 1)[-1])
+    url = html.escape(row["google_doc"]["copy_url"], quote=True)
+    return (
+        '<p class="student-copy-action">'
+        f'<a class="button primary" href="{url}" target="_blank" rel="noopener">'
+        f'Make a copy: {title}</a></p>'
+    )
 
 
 def breadcrumb(page: Page, pages: dict[Path, Page]) -> list[tuple[str, Path]]:
@@ -505,13 +604,29 @@ def sha256(path: Path) -> str:
 def build(output_root: Path) -> None:
     policy = json.loads((SITE_ROOT / "publication-policy.json").read_text(encoding="utf-8"))
     complete_inventory = json.loads(COMPLETE_ARTIFACT_INVENTORY.read_text(encoding="utf-8"))
+    superseded = policy.get("superseded_resources", {})
     complete_by_address = {
-        unit["curriculum_address"]: unit["required_releases"]
+        unit["curriculum_address"]: [
+            release
+            for release in unit["required_releases"]
+            if release["source"] not in superseded
+        ]
         for unit in complete_inventory["units"]
     }
+    available_sources = {
+        release["source"]
+        for releases in complete_by_address.values()
+        for release in releases
+    }
+    missing_replacements = sorted(set(superseded.values()) - available_sources)
+    if missing_replacements:
+        raise ValueError(
+            f"Superseded-resource replacements missing from inventory: {missing_replacements}"
+        )
     if len(complete_by_address) != 36:
         raise ValueError(f"Complete artifact inventory must contain 36 units, found {len(complete_by_address)}")
     pages = discover_pages(policy)
+    student_response_routes = load_student_response_routes(pages)
     copied: dict[Path, Path] = {}
     if output_root.exists():
         shutil.rmtree(output_root)
@@ -522,6 +637,8 @@ def build(output_root: Path) -> None:
     rendered_manifest = []
     for page in pages.values():
         content = markdown_html(page, pages, output_root, copied, policy)
+        if page.kind == "lesson":
+            content += student_copy_action_html(page, student_response_routes)
         if page.kind == "week":
             address = week_address(page)
             releases = complete_by_address.get(address)
@@ -565,6 +682,11 @@ def build(output_root: Path) -> None:
             {"source": source.relative_to(ROOT).as_posix(), "output": target.as_posix(), "sha256": sha256(source), "bytes": source.stat().st_size}
             for source, target in sorted(copied.items(), key=lambda item: item[1].as_posix())
         ],
+        "student_google_docs": {
+            "count": len(student_response_routes),
+            "page_ids": sorted(student_response_routes),
+            "presentation": "one_compact_lesson_action",
+        },
         "publication_policy": policy,
     }
     write_text(output_root, Path("data/site-manifest.json"), json.dumps(manifest, indent=2))

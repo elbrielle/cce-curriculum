@@ -12,6 +12,18 @@ import httpx
 
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/1ryX4j0iuVW1J1qNBJ2KwdBvqsdYrpp46e8w0UOaEwhs/copy",
+    2: "https://docs.google.com/document/d/1GGJnC_joQ8PRRUdSrnamndWsl7YR0UW_0xD0NoFr6L0/copy",
+    3: "https://docs.google.com/document/d/1kyjKBPBjwuLSmcMw0ndfeefHLvcPSnkmgkBrxZeyDU8/copy",
+    4: "https://docs.google.com/document/d/1QnGfsgH7IQAfF1lx74yF9IVYr-Tq-pN_N-vqOqgkzTU/copy",
+    5: "https://docs.google.com/document/d/1seFxBdnkUUdabcM9bMekEA7ZjpD0mwEklb4lyUVlang/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
 MODULE_NAME = "3SW Wk5: Style, Service, and Cosmetology Careers"
 QUIZ_TITLE = "PRACTICE: Texas Cosmetology License and Safety Check"
 RECOMMENDATION_TITLE = "MINOR 3: Cosmetology Career and Business Recommendation"
@@ -636,7 +648,7 @@ async def main():
                 "TITLE": "Human Services and SFX Texture Concept",
                 "PURPOSE": "Plan a believable texture transformation and connect the design work to Human Services careers.",
                 "TODAY": "<ul><li>identify Human Services careers;</li><li>explain texture and layering;</li><li>create a labeled texture map.</li></ul>",
-                "READY": f'<p><strong>Default route:</strong> open your workbook to FYF pp. 127-129. Use {file_link(files["CONCEPT"]["id"], "the three-page no-workbook concept brief")} only if you cannot write in the workbook. Do not complete both.</p><p>Gather colored pencils and the teacher-provided index card for the individual exit check.</p>',
+                "READY": f'<p><strong>Default route:</strong> open your workbook to FYF pp. 127-129. Use {student_copy_link(1, "the three-page no-workbook concept brief")} only if you cannot write in the workbook. Do not complete both.</p><p>Gather colored pencils and the teacher-provided index card for the individual exit check.</p>',
                 "MEDIA": image_tag(
                     visuals[1]["fyf-human-services-opener.jpg"]["id"],
                     "Find Your Future Human Services cluster opener",
@@ -678,7 +690,7 @@ async def main():
                 "TITLE": "Build and Test the SFX Texture Model",
                 "PURPOSE": "Turn the texture map into a layered model, then test and revise it safely.",
                 "TODAY": "<ul><li>build on an approved practice surface;</li><li>overlap at least three pieces or layers;</li><li>record a test and revision.</li></ul>",
-                "READY": f'<p>Open your FYF p. 129 concept map and {file_link(files["BUILD_RECORD"]["id"], "the one-page SFX Build and Test Record")}. Use the teacher-approved dry, digital, or optional campus-approved lab route.</p><p><strong>Safety boundary:</strong> no classroom material goes on a person, clothing, face, arm, hair, or skin.</p>',
+                "READY": f'<p>Open your FYF p. 129 concept map and {student_copy_link(2, "the one-page SFX Build and Test Record")}. Use the teacher-approved dry, digital, or optional campus-approved lab route.</p><p><strong>Safety boundary:</strong> no classroom material goes on a person, clothing, face, arm, hair, or skin.</p>',
                 "MEDIA": image_tag(
                     visuals[2]["fyf-sfx-build.jpg"]["id"],
                     "Find Your Future SFX build sequence; classroom safety routes replace direct skin application",
@@ -712,7 +724,7 @@ async def main():
                 "TITLE": "Quality Check and Texas Cosmetology Pathways",
                 "PURPOSE": "Use visible evidence to revise a design and current sources to compare two training settings.",
                 "TODAY": "<ul><li>rate and revise the SFX model;</li><li>identify Texas license steps;</li><li>compare high-school and postsecondary training.</li></ul>",
-                "READY": f'<p>Open your workbook to FYF p. 131, {file_link(files["EVIDENCE"]["id"], "the dated Texas evidence guide")}, and {file_link(files["PATHWAY"]["id"], "the two-page Pathway Decision")}. Use {file_link(files["QUALITY"]["id"], "the enlarged no-workbook quality sheet")} only when you cannot write on FYF p. 131.</p>',
+                "READY": f'<p>Open your workbook to FYF p. 131, {file_link(files["EVIDENCE"]["id"], "the dated Texas evidence guide")}, and {student_copy_link(3, "the two-page Pathway Decision")}. Use {student_copy_link(3, "the enlarged no-workbook quality sheet")} only when you cannot write on FYF p. 131.</p>',
                 "MEDIA": image_tag(
                     visuals[3]["fyf-sfx-quality-check.jpg"]["id"],
                     "Find Your Future SFX quality check, problem solving, and improvement plan",
@@ -746,7 +758,7 @@ async def main():
                 "TITLE": "Salon Entrepreneurship and Wellness Communication",
                 "PURPOSE": "Design a fictional beauty business and one useful, safe wellness campaign post.",
                 "TODAY": "<ul><li>define a business opportunity;</li><li>identify owner responsibilities;</li><li>create and revise one private campaign post.</li></ul>",
-                "READY": f'<p>Open your workbook to FYF pp. 132-133 and {file_link(files["CAMPAIGN"]["id"], "the two-page Salon and Wellness Campaign Companion")}. Paper, Canva, and Adobe Express are equal.</p><p>Use a fictional business and customer. Do not create a real account or public post.</p>',
+                "READY": f'<p>Open your workbook to FYF pp. 132-133 and {student_copy_link(4, "the two-page Salon and Wellness Campaign Companion")}. Paper, Canva, and Adobe Express are equal.</p><p>Use a fictional business and customer. Do not create a real account or public post.</p>',
                 "MEDIA": image_tag(
                     visuals[4]["fyf-stress-toolkit.jpg"]["id"],
                     "Find Your Future Stress Toolkit technique table",
@@ -784,7 +796,7 @@ async def main():
                 "TITLE": "Cosmetology Career and Business Recommendation",
                 "PURPOSE": "Use the week's evidence to recommend one Human Services career and explain a related business opportunity.",
                 "TODAY": "<ul><li>audit the evidence;</li><li>plan five evidence jobs;</li><li>write, self-score, revise, and submit privately.</li></ul>",
-                "READY": f'<p>Open {file_link(files["RECOMMENDATION"]["id"], "the recommendation")}, {file_link(files["RUBRIC"]["id"], "the 16-point rubric")}, and {file_link(files["EVIDENCE"]["id"], "the Texas evidence guide")}.</p>',
+                "READY": f'<p>Open {student_copy_link(5, "the recommendation")}, {file_link(files["RUBRIC"]["id"], "the 16-point rubric")}, and {file_link(files["EVIDENCE"]["id"], "the Texas evidence guide")}.</p>',
                 "MEDIA": image_tag(
                     visuals[5]["fyf-irving-cosmetology-context.jpg"]["id"],
                     "Find Your Future Irving ISD cosmetology program context",
@@ -816,7 +828,7 @@ async def main():
                 "EXIT": "<p>Which evidence changed the recommendation most, and why do the other factors still matter?</p>",
                 "DONE": "<ul><li>6-8 sentence recommendation;</li><li>accurate task and Texas fact;</li><li>verified next step;</li><li>opportunity, responsibility, and trade-off;</li><li>design-to-career connection;</li><li>rubric revision.</li></ul>",
                 "SUPPORT": "<p>recommendation = recomendación · evidence = evidencia · responsibility = responsabilidad · trade-off = beneficio y límite. Typed, speech-to-text, and approved audio are equal.</p>",
-                "FALLBACK": "<p>The fixed packet is the full route. Xello Career Factors, eDynamic 4.2, and H&amp;L favorites are optional extensions only.</p>",
+                "FALLBACK": "<p>The fixed packet is the full route. eDynamic 4.2 and H&amp;L favorites are optional extensions only.</p>",
             },
         }
 
@@ -958,7 +970,7 @@ async def main():
                     "#1f617a", "Self-score and submit · 7", "Revise one weak criterion."
                 ),
                 "MONITOR": "<p><strong>District response move:</strong> students point to the five numbered evidence jobs before drafting. <strong>Lap 1, minute 17:</strong> all five planning fields contain labeled evidence, not unsupported opinions. If several students omit the Texas fact or next step, return to the evidence guide and model one sentence without giving a recommendation choice. <strong>Lap 2, minute 34:</strong> the draft includes career task, Texas fact, next step, opportunity/responsibility, and trade-off; the design connection remains separate. Any Human Services career may earn full credit. Evidence-profile bands: 15-16 Masters, 13-14 Meets, 12 Approaches, 10-11 Needs Improvement; 0-9 follows campus policy. Convert the 16-point profile to the 100-point Canvas score. <strong>Safe trim:</strong> skip warm-up sharing. Protect the rubric self-check, revision, private submission, and reset.</p>",
-                "RESOURCES": "<p>The current district context is embedded. Xello Career Factors, eDynamic 4.2, and H&amp;L favorites are supplemental extensions only.</p>",
+                "RESOURCES": "<p>The current district context is embedded. eDynamic 4.2 and H&amp;L favorites are supplemental extensions only.</p>",
                 "SUPPORT": "<p>Use numbered planning fields, oral rehearsal, speech-to-text, or approved audio. Ten full-width lines support the 6-8 sentence response.</p>",
                 "FALLBACK": "<p>The fixed guide, prompt, and rubric are the complete independent route. No screenshot, favorite count, public post, or partner is required.</p>",
             },

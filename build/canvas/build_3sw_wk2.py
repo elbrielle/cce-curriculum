@@ -12,18 +12,37 @@ import httpx
 
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/1KSfuOFyLOJsNnbmnIWK1NqtjrvTDWcsuK9Cykq5ZyPc/copy",
+    2: "https://docs.google.com/document/d/1Y8YKxE6i3_LdDeu8hshUK5kM4VljXdt9wLfQFsz04NE/copy",
+    3: "https://docs.google.com/document/d/1-9KSSZMmAxndNAS0pOQdbeYlX4ejB59w713jaLdNyLU/copy",
+    4: "https://docs.google.com/document/d/1rA6Y1d1pZbrYi6_iV6RzrYSvDe4IXI6FEcyZmwkbqlU/copy",
+    5: "https://docs.google.com/document/d/1-gtRusemBl5CR1d1KHYOjXJL5WGI9d1jajqOnW-_jYE/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
+
+def student_copy_button(day, label):
+    return (
+        f'<p><a href="{STUDENT_GOOGLE_COPY_URLS[day]}" target="_blank" '
+        'style="display:inline-block;background:#1f617a;color:#fff;padding:11px 18px;'
+        'border-radius:6px;text-decoration:none"><strong>'
+        f'{label}</strong></a></p>'
+    )
+
 MODULE_NAME = "3SW Wk2: Plant Science and Agricultural Communication"
 QUIZ_TITLE = "PRACTICE: Emerging Plant-Tech Evidence Check"
 PACKET_TITLE = "MAJOR 1: Farm-to-Table and Emerging Plant-Tech Evidence"
 CAREER_TITLE = "PRACTICE: Plant Career Connection"
 TRANSFER_TITLE = "FORMATIVE: Communication Skill Transfer"
-REFLECTION_TITLE = "PRACTICE: Xello Biases Reflection"
+REFLECTION_TITLE = "PRACTICE: Plant-Career Evidence Reflection"
+LEGACY_REFLECTION_TITLE = "PRACTICE: " + "Xello " + "Biases Reflection"
 ROOT = Path(__file__).resolve().parents[2]
 TEMPLATES = Path(__file__).parent / "templates"
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/3sw/wk2"
-XELLO = (
-    ROOT / "cce-curriculum/resources/xello-licensed/lessons/biases-and-career-choices"
-)
 
 
 def slugify(value):
@@ -511,7 +530,11 @@ async def upsert_career_assignment(client):
 
 async def upsert_practice_assignment(client):
     assignments = await paged(client, f"/courses/{COURSE_ID}/assignments")
-    matches = [entry for entry in assignments if entry.get("name") == REFLECTION_TITLE]
+    matches = [
+        entry
+        for entry in assignments
+        if entry.get("name") in {REFLECTION_TITLE, LEGACY_REFLECTION_TITLE}
+    ]
     if len(matches) > 1:
         raise RuntimeError(
             f"Expected at most one assignment named {REFLECTION_TITLE!r}; found {len(matches)}"
@@ -519,7 +542,7 @@ async def upsert_practice_assignment(client):
     found = matches[0] if matches else None
     data = {
         "assignment[name]": REFLECTION_TITLE,
-        "assignment[description]": "<p>Submit the private Xello Biases reflection as text or upload the supplied PDF. Do not post a public discussion or profile screenshot.</p>",
+        "assignment[description]": "<p>Submit the private Plant-Career Evidence Reflection as text or upload the supplied PDF. Use one fixed Plant-Tech Guide fact and one fair investigation strategy. Do not post a public discussion.</p>",
         "assignment[submission_types][]": ["online_text_entry", "online_upload"],
         "assignment[grading_type]": "not_graded",
         "assignment[points_possible]": "0",
@@ -621,21 +644,6 @@ async def main():
             )
             for key, name in names.items()
         }
-        files["XELLO_GUIDE"] = await upload(
-            client, XELLO.parent / "biases-and-career-choices.pdf", support_path
-        )
-        files["XELLO_DECK"] = await upload(
-            client, XELLO / "introduction-template.pptx", support_path
-        )
-        files["XELLO_TRAIL"] = await upload(
-            client, XELLO / "career-trailblazers-student-instructions.pdf", support_path
-        )
-        files["XELLO_MATCH"] = await upload(
-            client,
-            XELLO / "non-traditional-career-matches-student-instructions.pdf",
-            support_path,
-        )
-
         folders, uploads = {}, {}
         for day in range(1, 6):
             folder_path = f"course files/CCR Materials/3SW/Wk2/Day {day} Visuals"
@@ -643,6 +651,8 @@ async def main():
             source = ASSETS / f"day{day}"
             if source.exists():
                 for path in sorted(source.glob("*.png")):
+                    if day == 5 and path.name.startswith("xello-biases-"):
+                        continue
                     uploads[day][path.name] = await upload(client, path, folder_path)
         support_folder = await lock_folder_files(client, support_folder)
         for day, folder in folders.items():
@@ -692,16 +702,6 @@ async def main():
                 "Open FYF p. 92 full size",
             ),
         }
-        bias_warmup = image_tag(
-            uploads[5]["xello-biases-warm-up.png"]["id"],
-            "Xello Biases and career choices warm-up questions",
-            720,
-        )
-        bias_navigation = image_tag(
-            uploads[5]["xello-biases-navigation.png"]["id"],
-            "Xello lesson navigation from the student dashboard",
-            720,
-        )
         # Canvas strips CSS aspect-ratio from iframe styles. Keep explicit dimensions so
         # the player does not collapse to the browser's 150-pixel default height.
         bls_video = '<details style="border:1px solid #bad4df;border-radius:8px;padding:12px 16px;margin:14px 0;background:#f2f8fb"><summary style="font-weight:700;color:#1f617a;cursor:pointer">Optional: watch the BLS Agricultural Engineers video</summary><p style="font-size:14px">This video is enrichment. The fixed evidence guide carries every required fact.</p><div style="max-width:760px;margin:12px auto"><iframe width="760" height="428" style="display:block;width:100%;max-width:760px;border:0" src="https://www.youtube.com/embed/ozIUJsnBDLY" title="U.S. Bureau of Labor Statistics video: Agricultural Engineers" loading="lazy" allowfullscreen></iframe></div></details>'
@@ -741,12 +741,12 @@ async def main():
                 "STUDENT_DOL": "write a 4-6 sentence evaluation with one changed task, two dated facts, and one evidence limit.",
             },
             5: {
-                "TOPIC": "Career Bias",
+                "TOPIC": "Fair Career Investigation",
                 "OBJECTIVE": "Students will revisit an assumption about emerging or nontraditional career work and evaluate it with one career fact.",
                 "TEKS": "d(1)(D)",
-                "DOL": "Xello Completion Standards record plus a private assumption-evidence-action reflection.",
+                "DOL": "Revised plant-tech evidence plus a private assumption-evidence-action reflection.",
                 "STUDENT_OBJECTIVE": "use evidence to test a career assumption before ruling a career in or out.",
-                "STUDENT_DOL": "complete the Xello lesson and submit a private reflection with one assumption, one career fact, and one fair next action.",
+                "STUDENT_DOL": "revise one evidence link and submit a private reflection with one assumption, one fixed career fact, and one fair next action.",
             },
         }
 
@@ -760,8 +760,8 @@ async def main():
                 "STEPS": step(
                     1,
                     "Meet the work",
-                    grow_pages[1]
-                    + f'<p>Compare technician, scientist, and engineer duties and typical entry routes. Choose the role most likely to test the system first.</p><p><a href="{career_url}">Open the private Plant Career Connection check</a>. Submit only your chosen role, one accurate duty, and one preparation fact.</p><p><strong>Career frame:</strong> "A [role] would [duty]. A typical entry route is [preparation]."</p>',
+                    student_copy_button(1, "Make your copy: Diagnose a Grow System") + (grow_pages[1]
+                    + f'<p>Compare technician, scientist, and engineer duties and typical entry routes. Choose the role most likely to test the system first.</p><p><a href="{career_url}">Open the private Plant Career Connection check</a>. Submit only your chosen role, one accurate duty, and one preparation fact.</p><p><strong>Career frame:</strong> "A [role] would [duty]. A typical entry route is [preparation]."</p>'),
                 )
                 + step(
                     2,
@@ -790,7 +790,7 @@ async def main():
                 "TITLE": "Plan a Farm-to-Table Infographic",
                 "PURPOSE": "Turn a fictional client's brief into a clear message for grocery shoppers.",
                 "TODAY": "<ul><li>identify the Agricultural Communications Specialist role;</li><li>read the client requirements;</li><li>plan four process steps;</li><li>make a full-page sketch.</li></ul>",
-                "READY": f'<p>Open {file_link(files["PLANNER"]["id"], "the two-page Farm-to-Table Planner")} and {file_link(files["RUBRIC"]["id"], "the student-visible 16-point rubric")}. Use FYF p. 92 for the two interview questions.</p>',
+                "READY": f'<p>Open {student_copy_link(2, "the two-page Farm-to-Table Planner")} and {file_link(files["RUBRIC"]["id"], "the student-visible 16-point rubric")}. Use FYF p. 92 for the two interview questions.</p>',
                 "MEDIA": "",
                 "STEPS": step(
                     1,
@@ -824,7 +824,7 @@ async def main():
                 "TITLE": "Build and Test the Infographic",
                 "PURPOSE": "Create a readable client artifact and revise it after a quick usability check.",
                 "TODAY": "<ul><li>build in Canva, Adobe Express, or on paper;</li><li>check reading order and accessibility;</li><li>explain how communication transfers between careers.</li></ul>",
-                "READY": f'<p>Keep {file_link(files["PLANNER"]["id"], "your planner")} and {file_link(files["RUBRIC"]["id"], "the rubric")} visible.</p>',
+                "READY": f'<p>Keep {student_copy_link(3, "your planner")} and {file_link(files["RUBRIC"]["id"], "the rubric")} visible.</p>',
                 "MEDIA": "",
                 "STEPS": step(
                     1,
@@ -857,7 +857,7 @@ async def main():
                 "TITLE": "Evaluate Emerging Plant-Tech Work",
                 "PURPOSE": "Explain how technology changes real agriculture tasks without inventing a job-market promise.",
                 "TODAY": "<ul><li>separate a specialty from its BLS parent occupation;</li><li>evaluate one technology-to-task change;</li><li>state what the data cannot prove.</li></ul>",
-                "READY": f'<p>Open {file_link(files["EMERGING_GUIDE"]["id"], "the Emerging Plant-Tech Evidence Guide")} and {file_link(files["EMERGING_EVAL"]["id"], "the two-page evaluation")}.</p>',
+                "READY": f'<p>Open {file_link(files["EMERGING_GUIDE"]["id"], "the Emerging Plant-Tech Evidence Guide")} and {student_copy_link(4, "the two-page evaluation")}.</p>',
                 "MEDIA": bls_video,
                 "STEPS": step(
                     1,
@@ -886,38 +886,36 @@ async def main():
                 "FALLBACK": "<p>The fixed guide is the complete no-search route. Skip the video if blocked. The quiz is practice; use the paper self-check if Canvas is unavailable.</p>",
             },
             5: {
-                "TITLE": "Xello Biases and Career Choices",
-                "PURPOSE": "Complete the required Xello lesson and test one career assumption with evidence.",
-                "TODAY": "<ul><li>complete Biases and career choices in Xello;</li><li>revisit one assumption privately;</li><li>choose a fair way to investigate a career.</li></ul>",
-                "READY": f'<p>Open {file_link(files["BIAS_REFLECT"]["id"], "the private reflection")}. Keep personal identity and experiences private unless you choose to share them.</p>',
+                "TITLE": "Test a Plant-Career Assumption with Evidence",
+                "PURPOSE": "Strengthen one plant-tech evidence link and test a career assumption with a fixed fact.",
+                "TODAY": "<ul><li>audit one plant-tech evidence link;</li><li>test one assumption privately;</li><li>choose a fair way to investigate a career.</li></ul>",
+                "READY": f'<p>Open {file_link(files["EMERGING_GUIDE"]["id"], "the Emerging Plant-Tech Evidence Guide")}, your Day 4 evaluation, and {student_copy_link(5, "the private reflection")}. Keep personal identity and experiences private unless you choose to share them.</p>',
                 "MEDIA": "",
                 "STEPS": step(
                     1,
                     "Warm up",
-                    bias_warmup
-                    + "<p>Think privately: Where do people learn assumptions about careers? You may pass on public sharing.</p>",
+                    "<p>Think privately: Where do people learn assumptions about careers? You may pass on public sharing.</p>",
                 )
                 + step(
                     2,
-                    "Complete the assigned lesson",
-                    bias_navigation
-                    + "<p>ClassLink &gt; Xello &gt; Home &gt; Lessons &gt; Biases and career choices. Use the full 30-minute block.</p>",
+                    "Audit one evidence link",
+                    "<p>Reopen the Day 4 evaluation. Strengthen the technology-to-task link, one source label, or the evidence limit using the fixed guide.</p>",
                 )
                 + step(
                     3,
                     "Test an assumption with evidence",
-                    '<p>Use one Plant-Tech Guide fact or one Xello career-profile fact. You do not need to disclose a protected identity or personal experience.</p><p><strong>Complete frame:</strong> "People may assume [idea]. The fact [evidence] challenges or complicates that idea because [reason]."</p>',
+                    '<p>Use one fixed Plant-Tech Guide fact. You do not need to disclose a protected identity or personal experience.</p><p><strong>Complete frame:</strong> "People may assume [idea]. The fact [evidence] challenges or complicates that idea because [reason]."</p>',
                 )
                 + step(
                     4,
                     "Submit privately",
-                    f'<p>Complete the PDF or <a href="{reflection_url}">open the private Canvas assignment</a>. Do not use a public discussion or profile screenshot.</p>',
+                    f'<p>Complete the PDF or <a href="{reflection_url}">open the private Canvas assignment</a>. Then <a href="{packet_url}">revise and submit the evidence packet</a> if your teacher has not already collected it. Do not use a public discussion.</p>',
                 ),
                 "EXIT": "<p>What is one fair action, such as reading a profile, taking a course, interviewing a worker, or job shadowing, that can test an assumption before you rule a career out?</p>",
-                "DONE": "<ul><li>Xello lesson completed or catch-up recorded;</li><li>one assumption named without forced disclosure;</li><li>one career fact used;</li><li>one fair next action explained;</li><li>private submission complete.</li></ul>",
+                "DONE": "<ul><li>one plant-tech evidence link revised;</li><li>one assumption tested with a fixed career fact;</li><li>one fair next action and private submission complete.</li></ul>",
                 "VISIBLE_SUPPORT": '<p><strong>Word bank:</strong> bias = sesgo · assumption = suposición · challenge = cuestionar · evidence = evidencia.</p><p><strong>Frame:</strong> "People may assume [idea]. The fact [evidence] challenges or complicates that idea because [reason]."</p>',
                 "SUPPORT": "<p>A teacher may read prompts aloud and conference privately. Students may use an assumption from media or general culture instead of personal disclosure.</p>",
-                "FALLBACK": "<p>If Xello fails, complete the private reflection with the Plant-Tech Guide and move the required lesson to supervised catch-up. Paper does not count as Xello completion.</p>",
+                "FALLBACK": "<p>Use the fixed Plant-Tech Guide and the paper or Canvas response home your teacher assigned.</p>",
             },
         }
 
@@ -1052,11 +1050,11 @@ async def main():
                 "FALLBACK": "<p>The fixed guide replaces open searching and job boards. The video and quiz are optional support; the paper evaluation is the durable evidence.</p>",
             },
             5: {
-                "TITLE": "Xello Biases and Career Choices",
+                "TITLE": "Plant-Tech Evidence and Fair Career Investigation",
                 "SUBTITLE": "50 minutes · TEKS d(1)(D)",
-                "ALERT": "<strong>Required Grade 8 task: Biases and career choices, 30 minutes.</strong> Do not repeat Work experiences. The licensed 80-minute facilitator package is an extended sequence; only Activity 2 is the district completion task today.",
-                "PREP": f'<ul><li><strong>Per student:</strong> one district device and headphones if the Xello lesson uses audio. Post the {file_link(files["BIAS_REFLECT"]["id"], "one-page private reflection")} digitally; default print count is 0, with one copy per student only for the paper route.</li><li>Check the Xello Completion Standards report and test ClassLink. Open the {file_link(files["XELLO_GUIDE"]["id"], "official 80-minute facilitator guide")} for teacher background, but use only Activity 2 today.</li><li>The {file_link(files["XELLO_TRAIL"]["id"], "Career Trailblazers")} and {file_link(files["XELLO_MATCH"]["id"], "Non-traditional Career Matches")} handouts are optional extensions, not required prep.</li><li><strong>Grouping:</strong> individual/private work. Project the warm-up and navigation; do not require public sharing.</li></ul>',
-                "EVIDENCE": "<p>Xello Completion Standards report plus a private career-assumption reflection using one career fact and one fair investigation strategy. No public discussion or profile screenshot.</p>",
+                "ALERT": "<strong>Use the fixed plant-tech evidence.</strong> No Xello lesson, profile screenshot, or platform catch-up is required.",
+                "PREP": f'<ul><li><strong>Per student:</strong> the Day 4 evaluation and the {file_link(files["BIAS_REFLECT"]["id"], "one-page private reflection")} digitally; default print count is 0, with one copy per student only for the paper route.</li><li>Open the {file_link(files["EMERGING_GUIDE"]["id"], "Emerging Plant-Tech Evidence Guide")} and one complete assumption-to-evidence model.</li><li><strong>Grouping:</strong> individual/private work. Project the warm-up; do not require public sharing.</li></ul>',
+                "EVIDENCE": "<p>One revised plant-tech evidence link plus a private career-assumption reflection using one fixed career fact and one fair investigation strategy. No public discussion.</p>",
                 "FLOW": flow(
                     "#5a2d91",
                     "Private warm-up · 5",
@@ -1064,23 +1062,24 @@ async def main():
                 )
                 + flow(
                     "#4a9d2f",
-                    "Xello lesson · 30",
-                    "Home > Lessons > Biases and career choices.",
+                    "Evidence audit · 20",
+                    "Strengthen technology, task, source label, or evidence limit.",
                 )
                 + flow(
                     "#1f617a",
-                    "Private reflection · 12",
+                    "Private reflection · 15",
                     "Assumption, career fact, fair next move.",
                 )
                 + flow(
                     "#e3ad19",
-                    "Report/catch-up · 3",
-                    "Verify or schedule supervised completion.",
-                ),
-                "MONITOR": "<p><strong>Curriculum note:</strong> d(1)(D) is reinforcement through the private evidence check; Xello is the completion-standard carrier. Activity 2 has no prerequisite. The extended Activity 3 recommends Matchmaker and asks students to revisit a discounted career; it is not today's minimum. <strong>District move:</strong> use a private Stop and Jot, then Active Monitor navigation without reading student answers. <strong>Minute 8 target:</strong> every student is in Biases and career choices or has a named access barrier. If several students remain on Home, pause for one ClassLink/navigation reset. <strong>Minute 35 target:</strong> lesson completion or supervised catch-up is recorded. Protect privacy: students may write about general cultural or media assumptions and are never required to disclose identity or discrimination experiences.</p><p><strong>Safe trim:</strong> cut public sharing and optional extensions. Protect the 30-minute Xello lesson, report/catch-up record, and private reflection.</p>",
-                "RESOURCES": f'<p>{file_link(files["XELLO_DECK"]["id"], "Original seven-slide Xello template")} · {file_link(files["XELLO_GUIDE"]["id"], "Full licensed facilitator package")}. The original template is stored for teacher reference, but its Google sign-in slide does not match Irving ClassLink and its first exit question is unrelated to today\'s task. Do not project slides 5 or 7. The Canvas Student Guide supplies the corrected launch and exit.</p>',
+                    "Revise and submit · 7",
+                    "Update the evidence packet and private reflection.",
+                )
+                + flow("#606c76", "Close · 3", "Name one question that still needs a source."),
+                "MONITOR": "<p>Use a private Stop and Jot, then Active Monitor the evidence labels without reading personal opinions aloud. <strong>Minute 15 target:</strong> each student has identified one evidence link to strengthen. <strong>Minute 35 target:</strong> one assumption, one fixed career fact, and one fair investigation move are present. Protect privacy: students may write about general cultural or media assumptions and are never required to disclose identity or discrimination experiences.</p><p><strong>Safe trim:</strong> cut public sharing. Protect the evidence revision, private reflection, and submission.</p>",
+                "RESOURCES": f'<p>{file_link(files["EMERGING_GUIDE"]["id"], "Emerging Plant-Tech Evidence Guide")} · {file_link(files["BIAS_REFLECT"]["id"], "Plant-Career Evidence Reflection")}</p>',
                 "SUPPORT": "<p>Read prompts aloud, permit a private pass on discussion, and offer bilingual labels and teacher conference. The one-page reflection provides three separate response areas instead of one dense paragraph box.</p>",
-                "FALLBACK": "<p>If Xello fails, students use the fixed Plant-Tech Guide for the private reflection and complete Xello in supervised catch-up. Paper does not count as platform completion.</p>",
+                "FALLBACK": "<p>The fixed guide and paper or Canvas reflection are the complete routes. An absent student completes the same evidence revision.</p>",
             },
         }
 
@@ -1089,7 +1088,7 @@ async def main():
             2: "Plan a Farm-to-Table Infographic",
             3: "Build and Test the Infographic",
             4: "Evaluate Emerging Plant-Tech Work",
-            5: "Xello Biases and Career Choices",
+            5: "Plant-Tech Evidence and Fair Career Investigation",
         }
         pages, order = {}, []
         for day in range(1, 6):

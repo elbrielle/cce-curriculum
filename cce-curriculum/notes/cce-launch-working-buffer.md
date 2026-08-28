@@ -1,17 +1,17 @@
 # CCE Launch Working Buffer
 
-**Last updated:** 2026-08-17
+**Last updated:** 2026-08-17; H&L route superseded 2026-08-19
 **Immediate scope:** owner IPC Week 1 / curriculum `1SW Wk0` / Monday, August 17 launch
 **Release state:** coordinated Canvas restage complete and live-gated; module remains unpublished for owner-only publication
 
-This is the operational checkpoint for resuming the launch work. The source-grounded goal prompt and owner expectations log remain binding. Re-read live Canvas state before any write; do not treat this file as a substitute for a fresh API preflight.
+This is a historical launch checkpoint, not a current execution plan. Current `AGENTS.md`, the canvas lesson workflow, and the owner decisions log govern. Re-read live Canvas state before any write; do not treat this file as a substitute for a fresh API preflight.
 
 ## Owner teaching order
 
 | Day | Required route | Protected evidence |
 |---|---|---|
 | Monday | Device checkout/check-in, OneNote setup, and the first sentence of the source-grounded first-week goal | one private goal sentence on the distributed OneNote page |
-| Tuesday | Finish the remaining fields on the same goal page; predict one of six core types; sign in with Google; Profile Climbs -> Jumpstart Your Profile -> Discover Your Core | completed six-field goal plus H&L result and one private result/evidence/question/career-curiosity interpretation |
+| Tuesday | Finish the remaining fields on the same goal page; predict one of six core types; open ClassLink -> Hats & Ladders -> Profile Climbs -> Jumpstart Your Profile -> Discover Your Core | completed six-field goal plus H&L result and one private result/evidence/question/career-curiosity interpretation |
 | Wednesday | H&L Work Values plus FYF pp. 9-11 Building Blocks; save the same three Building Blocks in Profile Climbs | saved app/workbook evidence plus one supported connection |
 | Thursday | My Career Journey | one mapped 12-point Minor submitted once through the exact approved route |
 | Friday | earliest core catch-up, required Xello access/goal, then FYF pp. 4-5 when ready | one verified result plus the exact next action and location |
@@ -30,8 +30,8 @@ The Day 1 Teacher source now includes the exact copy-ready OneNote master page, 
 
 ## Current Hats & Ladders boundary
 
-- Current app entry point: `https://app.hatsandladders.com/`.
-- The live August 15 sign-in page visibly offers Continue with School, Google, or an issued username/password.
+- Current student entry point under the August 19 ruling: Irving ISD ClassLink → Hats & Ladders.
+- The August 15 direct sign-in observations below are historical and do not override the ClassLink requirement.
 - Public Hats & Ladders help describes the Coach Dashboard and says assignment creation requires an active group/class with at least one active Climber.
 - No public help article found documents a demo-student, impersonation, or fake-student-free preview route.
 - The current Chrome session is stopped at Hats & Ladders sign-in. The owner must sign in before the Coach Dashboard, Irving roster, exact district identity provider, and any account-specific preview control can be verified.

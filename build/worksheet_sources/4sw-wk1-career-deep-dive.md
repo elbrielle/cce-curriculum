@@ -1,124 +1,60 @@
 ---
-title: Career Deep Dive and Source Guide
+title: Xello Quick Sim Decision Record
 slug: 4sw-wk1-career-deep-dive
 kind: worksheet
 weeks: 4sw/wk1-career-planning
 audience: student
 variant_of:
 language: en
-pages: 4
-orientation: portrait
+pages: 2
+orientation: landscape
 ---
 
-## Keep the label attached to every fact
+## Save one complete Quick sim
 
-A salary number is not useful by itself. Record the **source, date, place, and measure**.
+Open **ClassLink > Xello > Home > The Real Game**. Build and save one Quick sim.
 
-| Source | Best classroom job | Label to record |
+The Xello task is complete when the saved sim includes all three actions:
+
+- [ ] add a career;
+- [ ] add education; and
+- [ ] add at least one expense, including student loans or a family member when selected.
+
+**Word bank:** career/carrera · education/educación · expense/gasto · debt/deuda · tradeoff/ventaja y costo
+
+| Choice | What I selected | What changed in the plan? |
 |---|---|---|
-| Xello career profile | District-licensed career details and a localized wage when the page displays geography and measure | place, date shown, hourly or annual, starting/range/median |
-| U.S. Bureau of Labor Statistics Occupational Outlook Handbook | National work, education, median pay, outlook, and openings | May data year; U.S. median; projection years |
-| CareerOneStop occupation profile | Duties, preparation, and state or local wage views when the location is visible | place, year, and wage measure |
+| Career | | |
+| Education | | |
+| Expense | | |
 
-**Do not relabel a national median as DFW pay or starting pay.** If the page does not show the label you need, write "not shown" and use another source.
+**Complete frame:** Adding **[choice]** changed the plan by **[effect]**. The tradeoff is **[benefit and cost]**.
 
-## Research path
+My tradeoff explanation:
 
-1. Search the exact career title in Xello or another approved career source.
-2. Check the job tasks before collecting pay data.
-3. Record education or training and any license or certification.
-4. Record one pay figure with all four labels.
-5. Record outlook or openings only when the years and geography are visible.
-6. Write one limitation or open question.
-
-Career title used in the search: _______________________________________________
-
-Search term or close job title used when the exact title was not listed:
-
-______________________________________________________________________________
+[[lines: 4]]
 
 [[pagebreak]]
 
-## 1. Work and preparation
+## No-device learning scenario
 
-Three common tasks:
+Use this page only when your teacher assigns it because Xello is unavailable. It supports the same learning but does not count as Xello completion.
 
-1. __________________________________________________________________________
+Jordan chooses a career that pays **$4,200 per month before taxes**. Jordan adds a four-year education route with **$320 per month in student-loan payments**. Jordan then adds **$1,350 housing**, **$520 transportation**, **$550 food**, and **$300 savings**.
 
-2. __________________________________________________________________________
-
-3. __________________________________________________________________________
-
-Typical education or training:
-
-[[lines: 3]]
-
-License, certification, apprenticeship, portfolio, or experience requirement:
-
-[[lines: 3]]
-
-About how long could the preparation take? Include what the time estimate covers.
-
-[[lines: 3]]
-
-[[pagebreak]]
-
-## 2. Pay and outlook
-
-Pay amount or range: $_________________________________________________________
-
-Source: __________________________  Data year: _________________________________
-
-Place: ___________________________  Measure: ___________________________________
-
-Outlook, growth, or openings fact:
-
-[[lines: 2]]
-
-Source and projection years:
-
-[[lines: 2]]
-
-One limit or question about this evidence:
-
-[[lines: 3]]
-
-## 3. Skills check
-
-| Two skills the career needs | Evidence from the tasks |
+| Check | Response |
 |---|---|
-| 1. |  |
-| 2. |  |
+| Total of the listed monthly expenses | |
+| Money left before taxes and other expenses | |
+| Choice with the largest listed cost | |
+| One cost not yet included | |
 
-One skill I already have and evidence from class, home, or an activity:
+One change Jordan could test in a second scenario:
 
-[[lines: 3]]
+[[lines: 2]]
 
-One skill I need to build and a first practice step:
-
-[[lines: 3]]
-
-[[pagebreak]]
-
-## 4. Decide what the evidence means
-
-One strong fit between this career and my current profile:
+The benefit and cost of that change:
 
 [[lines: 3]]
 
-One trade-off involving preparation, work conditions, pay, or outlook:
-
-[[lines: 3]]
-
-My current call: [ ] keep as top goal  [ ] keep comparing  [ ] choose a different goal
-
-Explain the call in five to seven sentences. Use at least one work fact, one preparation fact, and one correctly labeled pay or outlook fact.
-
-[[lines: 9]]
-
-## Done when
-
-- [ ] I recorded three tasks and the preparation route.
-- [ ] My pay fact has source, date, place, and measure.
-- [ ] My skills check uses evidence.
-- [ ] My call includes a fit and a trade-off.
+**Done when:** the three Xello actions are saved and one tradeoff is explained, or the assigned no-device scenario is complete and the teacher has recorded a supervised Xello recovery need.
