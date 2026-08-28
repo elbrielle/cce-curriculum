@@ -1,0 +1,1 @@
+1280x720 at 2x device scale

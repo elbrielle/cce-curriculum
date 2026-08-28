@@ -1,0 +1,18 @@
+{
+  "minCollisionArea": 96,
+  "minCollisionRatio": 0.02,
+  "minInstructionalImageWidth": 360,
+  "minInstructionalImageHeight": 220,
+  "ignoredCollisionImagePattern": "^Decorative CCE background$",
+  "requireOoxmlAltText": false,
+  "instructionalImagePattern": "(?:instructional|screenshot|screen|workbook|worksheet|page|classlink|xello|hats?\\s*&\\s*ladders|find your future|fyf|launchpad|lesson visual)",
+  "requiredNotesLabels": [
+    "Time:",
+    "Teacher move:",
+    "Student action:",
+    "Look-for:",
+    "Pivot/trim:",
+    "Recovery/access:"
+  ],
+  "requireSources": true
+}
