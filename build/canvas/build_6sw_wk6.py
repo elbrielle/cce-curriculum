@@ -12,6 +12,18 @@ from configure_assessment_map import SUBMISSION_LINK_MARKER
 
 common = prior.common
 COURSE_ID = common.COURSE_ID
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/1Q8kcr9JEk9wFTzoDcetKxlTK_7c2Q-omwX_07xP2h_s/copy",
+    2: "https://docs.google.com/document/d/1xiJUSknBxEzKotlNMfx190WjoZG53394F0GKvruHLoM/copy",
+    3: "https://docs.google.com/document/d/1ycAgpMpdiEtEFGWijh-mh3ZbXkC7KZPSnXjg3ekU2XI/copy",
+    4: "https://docs.google.com/document/d/1HwYLdogWDuV55UpLya5XqbbAohqMm9oc7BRrgwa6aMw/copy",
+    5: "https://docs.google.com/document/d/1geEUPCgXGQuwXyoCjrEBrJiG9q9W6eXSho3IzwVo8Nw/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
 ROOT = common.ROOT
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/6sw/wk6"
 MODULE_NAME = "6SW Wk6: Career Evidence Capstone"
@@ -138,7 +150,7 @@ def student_content(files, visuals, urls):
             "TITLE": "Evidence Audit and Recovery",
             "PURPOSE": "Start the capstone with current evidence, recover one gap, and keep unsupported claims visible.",
             "TODAY": "<ul><li>name a current direction and alternative;</li><li>mark eight evidence jobs ready, revise, or recover;</li><li>recover one gap honestly;</li><li>choose four pieces to carry forward.</li></ul>",
-            "READY": f'<p>Open {link(files["INVENTORY"]["id"], "the two-page inventory and recovery plan")} and <a href="{urls[1]}">the private annotation or submission route</a>. Use one route; do not complete the same work twice.</p>',
+            "READY": f'<p>Open {student_copy_link(1, "the two-page inventory and recovery plan")} and <a href="{urls[1]}">the private annotation or submission route</a>. Use one route; do not complete the same work twice.</p>',
             "MEDIA": media([("p277", "FYF capstone opener about changing paths and repairing broken steps"), ("p278", "FYF Career Ladder rungs used as an optional evidence reminder")]),
             "SUPPORT": '<p><strong>Word bank:</strong> evidence/evidencia · recover/recuperar · source/fuente · limitation/limitación · pathway/ruta.</p><p><strong>Use this frame in Step 3:</strong> I recovered <strong>[evidence]</strong> from <strong>[source]</strong>. It supports <strong>[claim]</strong>, but it does not prove <strong>[limit]</strong>.</p>',
             "STEPS": step(1, "Name the current direction", "<p>Write one reason the direction changed or stayed stable. Add a flexible alternative.</p>") + step(2, "Audit eight evidence jobs", "<p>Mark ready, revise, or recover. Name where the item lives or how it can be rebuilt.</p>") + step(3, "Recover one gap", "<p>Use a supplied source, prior Canvas work, staff conference, or supervised catch-up. Record what the evidence supports and cannot prove.</p>") + step(4, "Build the Day 2 map", "<p>Choose four pieces to carry forward, one conflict, and the next priority.</p>"),
@@ -151,7 +163,7 @@ def student_content(files, visuals, urls):
             "TITLE": "Individual Career Plan",
             "PURPOSE": "Turn current evidence into a specific, flexible plan with source labels, questions, actions, support, and backup.",
             "TODAY": "<ul><li>connect self evidence to a direction and alternative;</li><li>label preparation and labor evidence;</li><li>separate confirmed routes from questions;</li><li>write three dated actions and a backup.</li></ul>",
-            "READY": f'<p>Open {link(files["PLAN"]["id"], "the four-page individual career plan")} and <a href="{urls[2]}">the private Canvas route</a>. Keep this plan in its original location; Day 4 will not ask you to upload it again.</p>',
+            "READY": f'<p>Open {student_copy_link(2, "the four-page individual career plan")} and <a href="{urls[2]}">the private Canvas route</a>. Keep this plan in its original location; Day 4 will not ask you to upload it again.</p>',
             "MEDIA": "",
             "SUPPORT": '<p><strong>Word bank:</strong> direction/dirección · preparation/preparación · requirement/requisito · verify/verificar · backup/plan alterno.</p><p><strong>Use this frame in Step 4:</strong> I will <strong>[action]</strong> by <strong>[date]</strong> with help from <strong>[support]</strong>. If <strong>[obstacle]</strong> happens, I will <strong>[backup]</strong>.</p>',
             "STEPS": step(1, "Connect self and career", "<p>Name a current direction, flexible alternative, career task, and the self evidence behind the choice.</p>") + step(2, "Label the research", "<p>Keep salary or trend amount, measure, geography, date, source, and limitation visible.</p>") + step(3, "Build the route", "<p>Name the current high-school connection, one item to verify, postsecondary or training route, and the credential/cost/time boundary.</p>") + step(4, "Act flexibly", "<p>Write three actions, dates, obstacle, backup, support request, strongest evidence, and uncertainty.</p>"),
@@ -164,7 +176,7 @@ def student_content(files, visuals, urls):
             "TITLE": "Career Evidence Brief and Rehearsal",
             "PURPOSE": "Plan and rehearse a concise oral or AAC career-and-college brief without turning it into a design project.",
             "TODAY": "<ul><li>choose an oral/AAC route and appropriate technology;</li><li>organize six evidence jobs;</li><li>rehearse twice;</li><li>apply one revision and name a backup.</li></ul>",
-            "READY": f'<p>Open {link(files["PRESENT"]["id"], "the two-page brief and rehearsal plan")} and <a href="{urls[3]}">the private Canvas route</a>. Short evidence notes are enough; do not write a full script unless it is an approved access support.</p>',
+            "READY": f'<p>Open {student_copy_link(3, "the two-page brief and rehearsal plan")} and <a href="{urls[3]}">the private Canvas route</a>. Short evidence notes are enough; do not write a full script unless it is an approved access support.</p>',
             "MEDIA": media([("p279", "FYF presentation-format choices used as optional route inspiration"), ("p280", "FYF presentation rubric orientation; the current CCE rubric controls scoring")]),
             "SUPPORT": '<p><strong>Word bank:</strong> audience/audiencia · source/fuente · limitation/limitación · rehearse/ensayar · revision/revisión.</p><p><strong>Use this opening frame:</strong> My current direction is <strong>[direction]</strong>. I chose it because <strong>[self evidence]</strong> connects to <strong>[career task]</strong>.</p>',
             "STEPS": step(1, "Choose the route", "<p>Select live, small group, teacher conference, private recording, or authorized AAC. Name the Canvas recording, evidence card, teacher-approved visual, or AAC technology.</p>") + step(2, "Organize six speaking jobs", "<p>Use direction, task, preparation/labor, route, action/support, and limitation/close. Keep source labels visible.</p>") + step(3, "Rehearse twice", "<p>Target 2-3 minutes. Use specific feedback or the self-check after Attempt 1.</p>") + step(4, "Revise and protect the route", "<p>Show one before/after change and name a technology or access backup.</p>"),
@@ -177,7 +189,7 @@ def student_content(files, visuals, urls):
             "TITLE": "Communicated Capstone and Revision",
             "PURPOSE": "Communicate the career plan through a private oral or AAC route, use feedback, and revise one evidence gap.",
             "TODAY": "<ul><li>complete the six-job final check;</li><li>deliver a 2-3-minute career brief using appropriate technology;</li><li>record feedback and revise one gap;</li><li>self-score and submit the Day 4 evidence once.</li></ul>",
-            "READY": f'<p>Open {link(files["DELIVERY"]["id"], "the two-page delivery and revision record")}, {link(files["RUBRIC"]["id"], "the two-page Major 2 evidence profile")}, and your Day 3 plan. Your Day 2 career plan stays in its original location.</p>',
+            "READY": f'<p>Open {student_copy_link(4, "the two-page delivery and revision record")}, {link(files["RUBRIC"]["id"], "the two-page Major 2 evidence profile")}, and your Day 3 plan. Your Day 2 career plan stays in its original location.</p>',
             "MEDIA": media([("p299", "FYF prepare-and-present reminders and completion questions")]),
             "SUPPORT": '<p><strong>Word bank:</strong> communicate/comunicar · audience/audiencia · feedback/retroalimentación · revision/revisión · transfer/transferir.</p><p><strong>Use this frame after feedback:</strong> After <strong>[feedback]</strong>, I changed <strong>[before]</strong> to <strong>[after]</strong>. This improved <strong>[criterion]</strong> because <strong>[reason]</strong>.</p>',
             "STEPS": step(1, "Complete the final check", "<p>Confirm six evidence jobs, source labels, route, appropriate technology, backup, and privacy boundary.</p>") + step(2, "Deliver through the assigned route", "<p>Use small group, teacher conference, private audio/video, or authorized AAC. Keep the evidence within 2-3 minutes.</p>") + step(3, "Use feedback", "<p>Record one effective choice and one exact gap. Show a before/after revision and explain the improvement.</p>") + step(4, "Transfer and self-score", "<p>Name one item or question to carry forward, score all six criteria, revise the weakest available evidence, and submit once.</p>"),
@@ -190,7 +202,7 @@ def student_content(files, visuals, urls):
             "TITLE": "Reflection and Transfer Forward",
             "PURPOSE": "Close the course with specific evidence, transferable skills, and one realistic action instead of a forced final-career declaration.",
             "TODAY": "<ul><li>compare then and now;</li><li>map one example from each six weeks;</li><li>connect three transferable skills to new contexts;</li><li>choose a dated action, support, and flexibility response.</li></ul>",
-            "READY": f'<p>Open {link(files["REFLECT"]["id"], "the two-page reflection and transfer plan")} and <a href="{urls[5]}">the private Canvas route</a>. Use the module list if you need help remembering the year.</p>',
+            "READY": f'<p>Open {student_copy_link(5, "the two-page reflection and transfer plan")} and <a href="{urls[5]}">the private Canvas route</a>. Use the module list if you need help remembering the year.</p>',
             "MEDIA": media([("p297", "FYF motivation and support prompts"), ("p298", "FYF picture-your-future reflection"), ("p300", "FYF final reflection prompts")]),
             "SUPPORT": '<p><strong>Word bank:</strong> reflection/reflexión · transferable/transferible · checkpoint/punto de control · support/apoyo · flexible/flexible.</p><p><strong>Use this frame in Step 4:</strong> I will use <strong>[skill]</strong> from <strong>[course evidence]</strong> when I <strong>[new context]</strong>. My next action is <strong>[action]</strong> by <strong>[date]</strong>.</p>',
             "STEPS": step(1, "Compare then and now", "<p>Use one specific piece of evidence to explain the change or stable result.</p>") + step(2, "Map the year", "<p>Name one activity, decision, or artifact from each six weeks and what it helped you understand.</p>") + step(3, "Transfer three skills", "<p>Connect each skill to course evidence and another school, career, community, or personal context.</p>") + step(4, "Choose the next action", "<p>Add the date, support role, request, realism check, and what you will do if the plan changes.</p>"),

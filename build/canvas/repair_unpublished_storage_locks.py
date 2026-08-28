@@ -1,11 +1,8 @@
-"""Lock the exact unpublished storage packages for three legacy CCR modules.
+"""RETIRED: former lock repair for three legacy CCE modules.
 
-This repair is intentionally narrower than rebuilding the modules. It performs a
-complete read-only preflight first, then changes only folder/file ``locked``
-state, and finally proves the folder membership is unchanged and every scoped
-record is locked.
-
-Run with a Canvas token on hidden stdin. The token is never stored or printed.
+The owner corrected the access policy on 2026-08-24: modules control release,
+while files referenced by course content remain unlocked. The executable guard
+at the bottom prevents this historical repair from recreating student padlocks.
 """
 
 from __future__ import annotations
@@ -371,11 +368,8 @@ async def main(token: str, *, dry_run: bool) -> None:
 
 
 if __name__ == "__main__":
-    local_preflight()
-    unknown = [arg for arg in sys.argv[1:] if arg != "--dry-run"]
-    if unknown:
-        raise SystemExit(f"Unknown arguments: {' '.join(unknown)}")
-    token = sys.stdin.readline().strip()
-    if not token:
-        raise SystemExit("Canvas token required on stdin")
-    asyncio.run(main(token, dry_run="--dry-run" in sys.argv[1:]))
+    raise SystemExit(
+        "Retired: this script would re-lock student resources. Use "
+        "build/canvas/dist/cce-student-resource-access-fix/"
+        "cce_student_resource_access_fix.py instead."
+    )

@@ -12,6 +12,18 @@ import build_5sw_wk1 as prior
 
 common = prior.common
 COURSE_ID = common.COURSE_ID
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/1chI48AErkKSA5SjZhBXwIH2bzahskfHE5C5ttY8Ny6Q/copy",
+    2: "https://docs.google.com/document/d/1EHqLvviIdnp9yI7c2GmavuRQw628-SK9MAheTr0t7M0/copy",
+    3: "https://docs.google.com/document/d/11IvEsYYXrJiFDp434_GuS1dL-ydEDZMID1GzXSY33Gg/copy",
+    4: "https://docs.google.com/document/d/1GRichbZRxPQTJSBOXgphUBSMN2v_R-f86urL3g_k52M/copy",
+    5: "https://docs.google.com/document/d/1peiGNw-JDNJE-Ruar7m8QKnU7U7IEIodCH54cFh-vlY/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
 ROOT = common.ROOT
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/5sw/wk4"
 MODULE_NAME = "5SW Wk4: Skilled Trades — Evidence, Routes, and Communication"
@@ -309,7 +321,7 @@ def student_content(files, visuals, urls):
             "TITLE": "Four Skilled-Trades Careers",
             "PURPOSE": "Compare four careers without confusing an occupation, training route, license, credential, or salary measure.",
             "TODAY": "<ul><li>read four fixed career cards;</li><li>record work and preparation;</li><li>compare two routes;</li><li>write one official-source question.</li></ul>",
-            "READY": f'<p>Open {link(files["CAREER"]["id"], "the three-page career evidence packet")} or <a href="{urls[1]}">the Canvas annotation activity</a>.</p>',
+            "READY": f'<p>Open {student_copy_link(1, "the three-page career evidence packet")} or <a href="{urls[1]}">the Canvas annotation activity</a>.</p>',
             "MEDIA": "",
             "STEPS": step(1, "Keep the labels separate", "<p>An occupation is the job. Apprenticeship or college is a route. A state license or employer credential is a separate boundary.</p>")
             + step(2, "Record four careers", "<p>Use the packet for Electrician, Plumber/Pipefitter/Steamfitter, HVAC Mechanic/Installer, and Welder. Keep every number with its geography, year, and measure.</p>")
@@ -324,7 +336,7 @@ def student_content(files, visuals, urls):
             "TITLE": "HVAC Evidence-First Field Notes",
             "PURPOSE": "Turn supplied complaints and images into useful written notes without pretending one photo proves a diagnosis.",
             "TODAY": "<ul><li>use HVAC parts vocabulary;</li><li>analyze four fictional tickets;</li><li>write evidence, possibility, limit, and next check;</li><li>transfer the skill to another career.</li></ul>",
-            "READY": f'<p>Open your FYF workbook to pp. 185–190. Use {link(files["HVAC"]["id"], "the six-page safe-label fallback")} or <a href="{urls[2]}">the Canvas annotation activity</a> only if you do not have the workbook or need the enlarged scaffold. Do not complete both.</p>',
+            "READY": f'<p>Open your FYF workbook to pp. 185–190. Use {student_copy_link(2, "the six-page safe-label fallback")} or <a href="{urls[2]}">the Canvas annotation activity</a> only if you do not have the workbook or need the enlarged scaffold. Do not complete both.</p>',
             "MEDIA": day2_media,
             "STEPS": step(1, "Use the workbook fields with safer labels", "<p>On FYF pp. 187–190, keep <strong>Observation</strong>. Treat <strong>Diagnosed problems</strong> as <strong>Supported possibility</strong>. Treat <strong>Action</strong> as <strong>Evidence limit + qualified next check</strong>.</p>")
             + step(2, "Start with supplied evidence", "<p>Record the location, complaint, extra information, and only the details the ticket states or the image visibly shows.</p>")
@@ -339,7 +351,7 @@ def student_content(files, visuals, urls):
             "TITLE": "Classify Four Skilled-Trades Careers",
             "PURPOSE": "Use one comparable national dataset and a published classroom rule to classify labor evidence.",
             "TODAY": "<ul><li>read the classroom comparison rule;</li><li>classify four careers;</li><li>cite a fact for each label;</li><li>state a local-data limitation.</li></ul>",
-            "READY": f'<p>Open {link(files["CLASSIFY"]["id"], "the four-page classification packet")} or <a href="{urls[3]}">Major 1 Part A in Canvas</a>. Keep this evidence available for the final score on Day 5; you will not need to copy it into a second packet.</p>',
+            "READY": f'<p>Open {student_copy_link(3, "the four-page classification packet")} or <a href="{urls[3]}">Major 1 Part A in Canvas</a>. Keep this evidence available for the final score on Day 5; you will not need to copy it into a second packet.</p>',
             "MEDIA": "",
             "STEPS": step(1, "Read the rule", "<p>High wage means above $49,500 May 2024 U.S. median. High demand means growth above 3.1%. High skill uses the packet's documented preparation rule. These are classroom labels.</p>")
             + step(2, "Classify each occupation", "<p>Cite preparation, median, or growth evidence for every yes/no decision.</p><p><strong>Complete frame:</strong> ___ is/is not high-___ under the course rule because the evidence shows ___. This does not prove ___.</p>")
@@ -354,7 +366,7 @@ def student_content(files, visuals, urls):
             "TITLE": "Current Entry Routes",
             "PURPOSE": "Compare two route types and put the real verification and enrollment steps in order.",
             "TODAY": "<ul><li>compare trade-specific Texas boundaries;</li><li>read two dated route cards;</li><li>choose a route for a fictional student;</li><li>sequence three next actions.</li></ul>",
-            "READY": f'<p>Open {link(files["ROUTES"]["id"], "the four-page current entry-routes packet")} or <a href="{urls[4]}">the Canvas annotation activity</a>.</p>',
+            "READY": f'<p>Open {student_copy_link(4, "the four-page current entry-routes packet")} or <a href="{urls[4]}">the Canvas annotation activity</a>.</p>',
             "MEDIA": "",
             "STEPS": step(1, "Compare state boundaries", "<p>Electrical, plumbing, HVAC, and welding do not use one universal license ladder.</p>")
             + step(2, "Read both route cards", "<p>Compare a Registered Apprenticeship route with current Dallas College Electrical Technology examples. Published time and cost are estimates, not promises.</p>")
@@ -369,7 +381,7 @@ def student_content(files, visuals, urls):
             "TITLE": "Fictional Water-Line Response",
             "PURPOSE": "Build a communication and evidence plan for a fictional event, then brief one priority without giving real technical directions.",
             "TODAY": "<ul><li>assign functional team roles;</li><li>mark a fictional site plan;</li><li>sequence communication priorities;</li><li>deliver one individual evidence briefing.</li></ul>",
-            "READY": f'<p>Open FYF pp. 194–195, {link(files["WATER"]["id"], "the two-page individual response companion")}, {link(files["CLASSIFY"]["id"], "your Day 3 classification evidence")}, and {link(files["RUBRIC"]["id"], "the two-page rubric")}. Your teacher scores the Day 3 evidence where you already submitted or turned it in; do not copy it again.</p>',
+            "READY": f'<p>Open FYF pp. 194–195, {student_copy_link(5, "the two-page individual response companion")}, {student_copy_link(5, "your Day 3 classification evidence")}, and {link(files["RUBRIC"]["id"], "the two-page rubric")}. Your teacher scores the Day 3 evidence where you already submitted or turned it in; do not copy it again.</p>',
             "MEDIA": day5_media,
             "STEPS": step(1, "Use FYF for the team plan", "<p>Complete the role and priority work on FYF pp. 194–195. A team may use chart paper for the sketch. The sketch communicates supplied boundaries and evidence; it is not a repair or excavation plan.</p>")
             + step(2, "Stay inside the simulation boundary", "<p>Students do not locate utilities, enter a street, direct traffic, shut a valve, excavate, choose repair materials, use tools, or create real repair instructions.</p>")
@@ -405,7 +417,7 @@ def teacher_content(files):
             "EVIDENCE": "<p>Formative set of four workbook service notes using safer labels and one private written-communication transfer. Students use either FYF pp. 187–190 or the fallback, not both.</p>",
             "FLOW": flow(color, "Warm-up · 5", "Useful notes for the next person.") + flow("#4c8b38", "Evidence language · 8", "Complaint, clue, possibility, limit.") + flow("#b35d2e", "Parts · 7", "Vocabulary, not authorization.") + flow("#d39b22", "Four tickets · 25", "One page per ticket.") + flow(color, "Exit · 5", "Rewrite and transfer."),
             "MONITOR": "<p><strong>Minute 13:</strong> students have relabeled Diagnosis as Supported possibility and Action as Evidence limit + qualified next check. If one-third write certain diagnoses, project the supplied non-ticket model and circle <em>could</em>, <em>does not prove</em>, and <em>qualified</em>. <strong>Minute 30:</strong> Tickets 1–2 each include evidence, possibility, limit, and next check. <strong>Minute 42:</strong> all four tickets are complete. Safe trim: accept one precise sentence across the four labels per ticket; do not drop a ticket, limit, next check, or transfer response. Use the last five minutes for the transfer response, collect one route, and close devices.</p><p><strong>Key:</strong> Ticket 1—visible ice and weak cooling/airflow, root cause unproved. Ticket 2—heavy dust/debris on indoor coil and uneven airflow. Ticket 3—dirty filter with supplied weak/dusty airflow. Ticket 4—weathered/dirty outdoor unit; no failed component is proved.</p>",
-            "RESOURCES": "<p>Licensed Climber Notes tickets and FYF pages remain in locked Canvas. No real HVAC check, reset, cleaning, or repair is assigned.</p>",
+            "RESOURCES": "<p>Licensed Climber Notes tickets and FYF pages remain in authenticated Canvas. No real HVAC check, reset, cleaning, or repair is assigned.</p>",
             "SUPPORT": "<p>Neutral alt text does not reveal the key. Offer zoom, read-aloud, dictation, typed response, workbook, or the enlarged safe-label fallback.</p>",
             "FALLBACK": "<p>Every required visual is embedded. An absent student completes the same individual route.</p>",
         },

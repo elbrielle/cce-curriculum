@@ -27,7 +27,12 @@ ALL_IMPORTERS = [ORIENTATION_IMPORTER, *IMPORTERS]
 ASSESSMENT_CONFIGURATOR = CANVAS_DIR / "configure_assessment_map.py"
 RUBRIC_CONFIGURATOR = CANVAS_DIR / "configure_assessment_rubrics.py"
 IMAGE_NORMALIZER = CANVAS_DIR / "normalize_unpublished_image_loading.py"
-IMAGE_ACCESS_NORMALIZER = CANVAS_DIR / "normalize_embedded_image_access.py"
+RESOURCE_ACCESS_FINALIZER = (
+    CANVAS_DIR
+    / "dist"
+    / "cce-student-resource-access-fix"
+    / "cce_student_resource_access_fix.py"
+)
 LESSON_CONTRACT_NORMALIZER = CANVAS_DIR / "normalize_canvas_lesson_contracts.py"
 QA_SCRIPT = CANVAS_DIR / "qa_remaining_unpublished.py"
 
@@ -88,8 +93,8 @@ def preflight() -> int:
         missing.append(str(QA_SCRIPT.relative_to(ROOT)))
     if not IMAGE_NORMALIZER.is_file():
         missing.append(str(IMAGE_NORMALIZER.relative_to(ROOT)))
-    if not IMAGE_ACCESS_NORMALIZER.is_file():
-        missing.append(str(IMAGE_ACCESS_NORMALIZER.relative_to(ROOT)))
+    if not RESOURCE_ACCESS_FINALIZER.is_file():
+        missing.append(str(RESOURCE_ACCESS_FINALIZER.relative_to(ROOT)))
     if not LESSON_CONTRACT_NORMALIZER.is_file():
         missing.append(str(LESSON_CONTRACT_NORMALIZER.relative_to(ROOT)))
     if not ASSESSMENT_CONFIGURATOR.is_file():
@@ -116,11 +121,11 @@ def preflight() -> int:
             py_compile.compile(str(IMAGE_NORMALIZER), doraise=True)
         except py_compile.PyCompileError as exc:
             errors.append(f"{IMAGE_NORMALIZER.relative_to(ROOT)}: {exc.msg}")
-    if IMAGE_ACCESS_NORMALIZER.is_file():
+    if RESOURCE_ACCESS_FINALIZER.is_file():
         try:
-            py_compile.compile(str(IMAGE_ACCESS_NORMALIZER), doraise=True)
+            py_compile.compile(str(RESOURCE_ACCESS_FINALIZER), doraise=True)
         except py_compile.PyCompileError as exc:
-            errors.append(f"{IMAGE_ACCESS_NORMALIZER.relative_to(ROOT)}: {exc.msg}")
+            errors.append(f"{RESOURCE_ACCESS_FINALIZER.relative_to(ROOT)}: {exc.msg}")
     if ASSESSMENT_CONFIGURATOR.is_file():
         try:
             py_compile.compile(str(ASSESSMENT_CONFIGURATOR), doraise=True)
@@ -270,6 +275,26 @@ def summarize(payload: object) -> str:
         f"page_days={len(pages) if isinstance(pages, dict) else 'unknown'} "
         f"interactions={len(interactions) if isinstance(interactions, dict) else 'unknown'}"
     )
+
+
+def validated_resource_access_result(payload: object, course_id: int) -> dict:
+    """Require the finalizer's complete, publication-neutral success contract."""
+    if not isinstance(payload, list) or len(payload) != 1:
+        raise ValueError("expected one course result")
+    result = payload[0]
+    if not isinstance(result, dict):
+        raise ValueError("course result must be an object")
+    restricted_after = result.get("restricted_after")
+    if (
+        result.get("course_id") != course_id
+        or result.get("passed") is not True
+        or result.get("publication_states_unchanged") is not True
+        or restricted_after != {"files": 0, "folders": 0}
+    ):
+        raise ValueError(
+            "finalizer did not prove zero restrictions and unchanged publication states"
+        )
+    return result
 
 
 def main() -> int:
@@ -517,34 +542,51 @@ def main() -> int:
         flush=True,
     )
 
-    print("Making embedded page images course-visible and restoring the CCE home...", flush=True)
-    image_access = subprocess.run(
-        [sys.executable, str(IMAGE_ACCESS_NORMALIZER)],
+    print(
+        "Opening and verifying every course-referenced file and folder chain...",
+        flush=True,
+    )
+    resource_access = subprocess.run(
+        [
+            sys.executable,
+            str(RESOURCE_ACCESS_FINALIZER),
+            "--apply",
+            "--course-id",
+            "98060",
+        ],
         cwd=ROOT,
         input=token + "\n",
         text=True,
         capture_output=True,
         check=False,
     )
-    if image_access.returncode:
-        print(redact(image_access.stderr or image_access.stdout, token), file=sys.stderr)
+    if resource_access.returncode:
         print(
-            "All builders ran, but embedded-image access normalization failed.",
+            redact(resource_access.stderr or resource_access.stdout, token),
             file=sys.stderr,
         )
-        return image_access.returncode
+        print(
+            "All builders ran, but referenced-resource access normalization failed.",
+            file=sys.stderr,
+        )
+        return resource_access.returncode
     try:
-        image_access_payload = json.loads(image_access.stdout)
-    except json.JSONDecodeError:
-        print(redact(image_access.stdout[-4000:], token), file=sys.stderr)
-        print("Embedded-image access output was not valid JSON.", file=sys.stderr)
+        resource_access_payload = validated_resource_access_result(
+            json.loads(resource_access.stdout), 98060
+        )
+    except (json.JSONDecodeError, ValueError):
+        print(redact(resource_access.stdout[-4000:], token), file=sys.stderr)
+        print(
+            "Referenced-resource finalizer did not prove safe completion.",
+            file=sys.stderr,
+        )
         return 3
     print(
         "  "
-        f"image_files={image_access_payload.get('embedded_image_files')} "
-        f"folder_chain={image_access_payload.get('visible_folder_chain')} "
-        f"home={image_access_payload.get('home_page')} "
-        f"default={image_access_payload.get('default_view')}",
+        f"referenced_files={resource_access_payload.get('referenced_files')} "
+        f"folder_chain={resource_access_payload.get('folder_chain')} "
+        f"changed_files={resource_access_payload.get('changed', {}).get('files')} "
+        f"changed_folders={resource_access_payload.get('changed', {}).get('folders')}",
         flush=True,
     )
 

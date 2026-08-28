@@ -376,13 +376,9 @@ async def main():
                         "embedded_image": file_id in embedded_image_ids,
                     }
                 )
-                if file_id in embedded_image_ids and not file_is_visible(record):
+                if not file_is_visible(record):
                     problems.append(
-                        f"embedded image file is restricted: {file_id} {record.get('display_name')}"
-                    )
-                if file_id not in embedded_image_ids and not record.get("locked"):
-                    problems.append(
-                        f"non-image referenced file is unlocked: {file_id} {record.get('display_name')}"
+                        f"referenced file is restricted: {file_id} {record.get('display_name')}"
                     )
                 if record.get("folder_id"):
                     folder_ids.add(int(record["folder_id"]))
@@ -393,24 +389,12 @@ async def main():
                     f"file {file_id} did not resolve: HTTP {exc.response.status_code}"
                 )
         folders = []
-        image_folder_records = [await api(client, f"/folders/{fid}") for fid in sorted(image_folder_ids)]
         for folder_id in sorted(folder_ids):
             folder = await api(client, f"/folders/{folder_id}")
             folder_files = await paged(client, f"/folders/{folder_id}/files")
-            if folder_id in image_folder_ids and not folder_is_visible(folder):
+            if not folder_is_visible(folder):
                 problems.append(
-                    f"embedded image folder is restricted: {folder_id} {folder.get('full_name')}"
-                )
-            # A folder that is an ancestor of an embedded-image folder must stay open
-            # (Canvas locks a file when any ancestor is locked); only its non-image
-            # files carry file-level locks. Flag an unlocked folder only when no
-            # embedded-image folder sits at or below it.
-            image_folder_names = {str(f.get("full_name") or "") for f in image_folder_records}
-            this_name = str(folder.get("full_name") or "")
-            is_image_ancestor = any(name == this_name or name.startswith(this_name + "/") for name in image_folder_names)
-            if not is_image_ancestor and not folder.get("locked"):
-                problems.append(
-                    f"non-image referenced folder is unlocked: {folder_id} {folder.get('full_name')}"
+                    f"referenced folder is restricted: {folder_id} {folder.get('full_name')}"
                 )
             folders.append(
                 {
@@ -508,7 +492,7 @@ async def main():
                 spec["folder_suffixes"]
             ):
                 problems.append(
-                    f"module files are outside the exact locked folders: {folders}"
+                    f"module files are outside the exact scoped folders: {folders}"
                 )
 
             for entry in assignments:

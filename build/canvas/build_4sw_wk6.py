@@ -12,6 +12,18 @@ import build_4sw_wk1 as common
 
 
 COURSE_ID = common.COURSE_ID
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/1b7dc2JQwH9hlOUSGw2jDmPfygIRGzD_Sj9NqCUw_GVM/copy",
+    2: "https://docs.google.com/document/d/1vaZn5LSpPnYwSI5aVsH-I3BIwM9odndM6o4YvIu2OJs/copy",
+    3: "https://docs.google.com/document/d/1FWV92VdPzBk92ttNW5CdYtkxdYUCP8G4K697Ng_e6SQ/copy",
+    4: "https://docs.google.com/document/d/1c7MZnG-hoSVPpgkqLoyzdU_1-X-kUkZdgjIJdtpavXY/copy",
+    5: "https://docs.google.com/document/d/13s43c-gNJvWn2WMdvKBiSZeUtZCz6YXTuYHZbEO4wQw/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
 ROOT = common.ROOT
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/4sw/wk6"
 MODULE_NAME = "4SW Wk6: Skills That Transfer and Mid-Year Evidence"
@@ -446,7 +458,7 @@ async def main():
                 "TITLE": "Analytical Reasoning: What the Clues Support",
                 "PURPOSE": "Separate supplied clues from conclusions and choose a safe inspection priority.",
                 "TODAY": "<ul><li>read four fictional clue sets;</li><li>name broad system concerns;</li><li>rank inspection priority;</li><li>write safe next steps.</li></ul>",
-                "READY": f'<p><strong>Workbook first:</strong> open FYF pp. 153-155. Your teacher checks pp. 154-155 during work time; submit only the clue-limit-safe-action and transfer exit in <a href="{urls["truck"]}">the private practice Assignment</a>. Use {link(files["TRUCK"]["id"], "the three-page no-workbook fallback")} only for no-workbook, enlarged, absence, or annotation access. The workbook repeats Issue 3; the tire-pressure box is Issue 4.</p>',
+                "READY": f'<p><strong>Workbook first:</strong> open FYF pp. 153-155. Your teacher checks pp. 154-155 during work time; submit only the clue-limit-safe-action and transfer exit in <a href="{urls["truck"]}">the private practice Assignment</a>. Use {student_copy_link(1, "the three-page no-workbook fallback")} only for no-workbook, enlarged, absence, or annotation access. The workbook repeats Issue 3; the tire-pressure box is Issue 4.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Word bank:</strong> clue = supplied fact · concern = broad system to inspect · conclusion = claim that still needs proof · priority = order for responding.</p><p><strong>Use this frame:</strong> The clue shows ___. It does not prove ___. The safe next step is ___ because ___. A ___ also uses analytical reasoning when the worker ___.</p></div>',
                 "STEPS": step(1, "Keep the boundary", "<p>A light or code points toward a system; it does not prove a failed part, repair, or safe-to-drive decision.</p>")
                 + step(2, "Complete four evidence rows", "<p>Use two clues, one broad concern, one unproved conclusion, and one evidence need per case.</p>")
@@ -461,7 +473,7 @@ async def main():
                 "TITLE": "Prove That a Skill Transfers",
                 "PURPOSE": "Use specific tasks to show how four skills transfer among six careers.",
                 "TODAY": "<ul><li>read six fixed career cards;</li><li>compare four skills;</li><li>build a three-example claim;</li><li>complete an independent transfer check.</li></ul>",
-                "READY": f'<p><a href="{urls["skills"]}">Open the private Canvas response</a>. Keep {link(files["SKILLS"]["id"], "the four-page paper or enlarged fallback")} available without printing it for everyone.</p>',
+                "READY": f'<p><a href="{urls["skills"]}">Open the private Canvas response</a>. Keep {student_copy_link(2, "the four-page paper or enlarged fallback")} available without printing it for everyone.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Word bank:</strong> task = tarea · skill = habilidad · common = en común · setting = entorno.</p><p><strong>Use this frame:</strong> ___ and ___ both use ___ when they ___. The common behavior is ___. The technical setting changes ___ because ___.</p></div>',
                 "STEPS": step(1, "Move from claim to proof", "<p>A skill label is not proof. Name the visible task where the worker uses it.</p>")
                 + step(2, "Compare four skills", "<p>For each skill, use two careers, common behavior, and a technical-setting difference.</p>")
@@ -476,7 +488,7 @@ async def main():
                 "TITLE": "Career Organizations: Type, Access, and Value",
                 "PURPOSE": "Distinguish CTSOs and professional associations from credentialing and government organizations.",
                 "TODAY": "<ul><li>learn four organization types;</li><li>read six dated cards;</li><li>recommend one now and one later opportunity;</li><li>repair inaccurate labels.</li></ul>",
-                "READY": f'<p>Open the six dated cards in this guide and <a href="{urls["orgs"]}">the five-question practice Quiz</a>. Keep {link(files["ORGS"]["id"], "the three-page paper fallback")} available without printing it for everyone.</p>',
+                "READY": f'<p>Open the six dated cards in this guide and <a href="{urls["orgs"]}">the five-question practice Quiz</a>. Keep {student_copy_link(3, "the three-page paper fallback")} available without printing it for everyone.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Word bank:</strong> chapter = capítulo local · membership = membresía · credential = credencial · agency = agencia.</p><p><strong>Use this frame:</strong> Sam should ask about ___ now because ___. This could support career development by ___. Later, Sam could investigate ___, but first Sam must verify ___.</p></div>',
                 "STEPS": step(1, "Sort by main job", "<p>CTSO, professional association, credentialing organization, or government agency.</p>")
                 + step(2, "Read access before benefits", "<p>Record who can access the named opportunity and what the source does not prove.</p>")
@@ -491,7 +503,7 @@ async def main():
                 "TITLE": "Work Ethic and Integrity: Document the Decision",
                 "PURPOSE": "Apply four professional characteristics to accurate actions and records.",
                 "TODAY": "<ul><li>distinguish four characteristics;</li><li>solve four fictional cases;</li><li>audit one class artifact;</li><li>repair misconceptions.</li></ul>",
-                "READY": f'<p>Open the four fictional cases in this guide and <a href="{urls["integrity"]}">the six-item practice Quiz</a> with five feedback questions and one evidence-audit response. Keep {link(files["INTEGRITY"]["id"], "the three-page paper fallback")} available without printing it for everyone.</p>',
+                "READY": f'<p>Open the four fictional cases in this guide and <a href="{urls["integrity"]}">the six-item practice Quiz</a> with five feedback questions and one evidence-audit response. Keep {student_copy_link(4, "the three-page paper fallback")} available without printing it for everyone.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Word bank:</strong> integrity = integridad · record = registro · verify = verificar · supervisor = supervisor.</p><p><strong>Use this frame:</strong> This case requires ___. The worker should ___ and record or report ___. This prevents ___ because ___.</p></div>',
                 "STEPS": step(1, "Name the characteristic", "<p>Work ethic, integrity, dedication, or perseverance.</p>")
                 + step(2, "Choose the trustworthy action", "<p>Name what the worker should do and what the record should say.</p>")
@@ -506,7 +518,7 @@ async def main():
                 "TITLE": "Recovery: Private Mid-Year Evidence Reflection",
                 "PURPOSE": "When your teacher assigns recovery or replacement evidence, use specific course evidence to show a change, two transferable skills, one professional-association decision, and two next actions.",
                 "TODAY": "<ul><li>build an evidence strip;</li><li>complete four response jobs;</li><li>self-score and revise;</li><li>submit privately.</li></ul>",
-                "READY": f'<p><strong>Open this task only when your teacher assigns it for recovery or replacement.</strong> Use the private Canvas response and {link(files["RUBRIC"]["id"], "the two-page rubric")}. Keep {link(files["REFLECTION"]["id"], "the four-page paper fallback")} available when needed.</p>',
+                "READY": f'<p><strong>Open this task only when your teacher assigns it for recovery or replacement.</strong> Use the private Canvas response and {link(files["RUBRIC"]["id"], "the two-page rubric")}. Keep {student_copy_link(5, "the four-page paper fallback")} available when needed.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:14px 18px;margin:18px 0"><p><strong>Word bank:</strong> reflection = reflexión · evidence = evidencia · association = asociación · revision = revisión.</p><p><strong>Use this frame:</strong> At first, I thought ___. After ___, I now think ___. The evidence that mattered was ___ because ___. The professional association I would investigate is ___, but I still need to verify ___.</p></div>',
                 "STEPS": step(1, "Gather bounded evidence", "<p>Use one earlier assumption, current direction, two class tasks, one accurate professional-association fact, and one membership question.</p>")
                 + step(2, "Write four parts", "<p>Change in thinking; two skills; professional-association decision; two next actions.</p>")

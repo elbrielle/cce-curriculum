@@ -12,6 +12,18 @@ import build_4sw_wk1 as common
 
 
 COURSE_ID = common.COURSE_ID
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/12-zn-B5yiebc6pDvgM7FspnCNktgeg1IRhL5ctD_bOg/copy",
+    2: "https://docs.google.com/document/d/1BmWQLbNzcSTCCzVb3Rx2DN76sLeDojqqIv0cz4x-iJs/copy",
+    3: "https://docs.google.com/document/d/1ESxIlENa8I2p_Id22M1MWpadUiPORCdvMUQOCDjAEFw/copy",
+    4: "https://docs.google.com/document/d/15Acl2fGi19EGfnmer7POoHQk_T0noZK8kkikYweJOP0/copy",
+    5: "https://docs.google.com/document/d/1bEfkSffo1qv-bx1I254kjyF_5uGh4BaFQScK9c7WMuM/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
 ROOT = common.ROOT
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/4sw/wk5"
 MODULE_NAME = "4SW Wk5: Automotive Evidence and Training Routes"
@@ -598,7 +610,7 @@ async def main():
                 "TITLE": "Crash Crew: Visible Evidence",
                 "PURPOSE": "Use the workbook collision case to separate visible evidence from questions for a trained inspection.",
                 "TODAY": "<ul><li>read the fictional Crash Crew problem;</li><li>complete FYF p. 151;</li><li>write three bounded inspection questions;</li><li>revise for a sensor-equipped vehicle.</li></ul>",
-                "READY": f'<p>Open FYF pp. 150-151 and <a href="{urls["crash"]}">the private Crash Crew evidence check</a>. Use {link(files["CRASH"]["id"], "the three-page companion")} only if you need the no-workbook, enlarged, or annotation route.</p>',
+                "READY": f'<p>Open FYF pp. 150-151 and <a href="{urls["crash"]}">the private Crash Crew evidence check</a>. Use {student_copy_link(1, "the three-page companion")} only if you need the no-workbook, enlarged, or annotation route.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:12px 16px;margin:14px 0"><strong>Words for this task:</strong> part/pieza · visible condition/condición visible · inspect/inspeccionar · confirm/confirmar<br><strong>Use this frame:</strong> “The image supports ____. It does not prove ____. A ____ would next ____ because ____.”</div>',
                 "STEPS": step(1, "Read and observe", "<p>Look at all three vehicle views before writing. Do not use a real vehicle or personal crash story.</p>")
                 + step(2, "Complete FYF p. 151", "<p>Describe cracked, creased, shifted, missing, or scratched conditions. Mark an uncertain part name <strong>confirm</strong>.</p>")
@@ -613,7 +625,7 @@ async def main():
                 "TITLE": "ASE and Automotive Training Routes",
                 "PURPOSE": "Separate credential contexts and compare employer training, Registered Apprenticeship, and public technical college.",
                 "TODAY": "<ul><li>repair one ASE misconception;</li><li>read three short route cards;</li><li>compare the routes for fictional Jordan;</li><li>submit one evidence-based recommendation.</li></ul>",
-                "READY": f'<p>Open <a href="{urls["ase"]}">the five-question practice Quiz</a>. The source cards are built into the lesson. Use {link(files["ASE"]["id"], "the three-page fallback")} only for no-device, enlarged, or paper access.</p>',
+                "READY": f'<p>Open <a href="{urls["ase"]}">the five-question practice Quiz</a>. The source cards are built into the lesson. Use {student_copy_link(2, "the three-page fallback")} only for no-device, enlarged, or paper access.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:12px 16px;margin:14px 0"><strong>Words for this task:</strong> credential/credencial · experience/experiencia · route/ruta · tradeoff/ventaja y costo<br><strong>Use this frame:</strong> “Jordan should investigate ____ first because ____ and ____. A tradeoff or missing fact is ____. Jordan should verify ____ with ____.”</div>',
                 "STEPS": step(1, "Separate the ASE contexts", "<p>Entry-Level shows practical knowledge-based workforce readiness and has no general work-experience requirement. Professional certification requires the applicable test and approved experience or substitution.</p>")
                 + step(2, "Compare three fixed routes", '<ul><li><strong>Employer/OJT:</strong> some workers enter with high school and learn on the job; the employer route still must be verified.</li><li><strong>Registered Apprenticeship:</strong> paid employment, structured on-the-job learning, related instruction, mentorship, progressive wages, and sponsor-controlled admission.</li><li><strong>TCC example:</strong> 2026-27 in-state, in-county tuition and fees range from $888 for 12 credits to $4,440 for the 60-credit AAS; books and other materials are excluded.</li></ul>')
@@ -628,7 +640,7 @@ async def main():
                 "TITLE": "Compare Three Automotive Occupations",
                 "PURPOSE": "Compare three careers on one dated salary basis and keep every limitation visible.",
                 "TODAY": "<ul><li>read three fixed BLS cards;</li><li>rank all three medians;</li><li>compare preparation and tasks;</li><li>recommend an occupation for fictional Taylor.</li></ul>",
-                "READY": f'<p>Open {link(files["CAREERS"]["id"], "the three-page landscape comparison")} or <a href="{urls["career"]}">the Canvas annotation activity</a>. Salary means May 2024 U.S. national median annual wage.</p>',
+                "READY": f'<p>Open {student_copy_link(3, "the three-page landscape comparison")} or <a href="{urls["career"]}">the Canvas annotation activity</a>. Salary means May 2024 U.S. national median annual wage.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:12px 16px;margin:14px 0"><strong>Words for this task:</strong> median/mediana · openings/vacantes · preparation/preparación · limitation/limitación<br><strong>Use this frame:</strong> “Taylor should investigate ____ because ____ and ____. The national evidence cannot answer ____, so Taylor should verify it with ____.”</div>',
                 "STEPS": step(1, "Read one card at a time", "<p>Auto Service, Diesel Service, and Automotive Body/Related Repair are distinct occupations.</p>")
                 + step(2, "Compare all three", "<p>Rank medians and compare preparation, growth, openings, and one task difference.</p>")
@@ -643,7 +655,7 @@ async def main():
                 "TITLE": "Evaluate Automotive Training Routes",
                 "PURPOSE": "Use the HQIM program names, current logistics, and route evidence to recommend a first investigation step.",
                 "TODAY": "<ul><li>read FYF pp. 168-169;</li><li>compare Irving, TCC, and Registered Apprenticeship evidence;</li><li>recommend for fictional Dani;</li><li>write an exact verification question.</li></ul>",
-                "READY": f'<p>Open FYF pp. 168-169 and <a href="{urls["source"]}">the four-question source Quiz</a>. Use {link(files["ROUTES"]["id"], "the two-page fallback")} only for no-device, enlarged, or paper access.</p>',
+                "READY": f'<p>Open FYF pp. 168-169 and <a href="{urls["source"]}">the four-question source Quiz</a>. Use {student_copy_link(4, "the two-page fallback")} only for no-device, enlarged, or paper access.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:12px 16px;margin:14px 0"><strong>Words for this task:</strong> admission/admisión · tuition/matrícula · sponsor/patrocinador · verify/verificar<br><strong>Use this frame:</strong> “Dani should investigate ____ first because ____ and ____. A tradeoff or missing fact is ____. Dani should ask ____ whether ____.”</div>',
                 "STEPS": step(1, "Use the HQIM and current district evidence", "<p>FYF names Automotive Technology, Collision Repair, and Diesel &amp; Heavy Equipment Technology. The current district page confirms the broader Automotive, Collision Repair and Diesel offering at Cardwell, Irving, MacArthur, and Nimitz.</p>")
                 + step(2, "Preserve logistics questions", "<p>Write <strong>not confirmed in this source</strong> for grade, prerequisite, schedule, transportation, application, or college-credit details the source does not state.</p>")
@@ -658,7 +670,7 @@ async def main():
                 "TITLE": "Automotive Evidence Brief",
                 "PURPOSE": "Synthesize visible evidence, three-career data, and a realistic training route into one private recommendation.",
                 "TODAY": "<ul><li>reopen Days 1-4 evidence;</li><li>complete four response jobs;</li><li>self-score and revise;</li><li>submit privately.</li></ul>",
-                "READY": f'<p>Open {link(files["BRIEF"]["id"], "the four-page Evidence Brief")} and {link(files["RUBRIC"]["id"], "the two-page 16-point rubric")}. The PDF is the paper or enlarged route; typed and private media responses use the same four jobs.</p><details style="border:1px solid #bad4df;border-radius:8px;padding:12px 16px;margin:14px 0;background:#f2f8fb"><summary style="font-weight:700;color:#1f617a;cursor:pointer">Missing earlier evidence? Open the fixed evidence strip</summary><ul><li><strong>Crash Crew:</strong> a photograph supports a visible condition, not a complete safety diagnosis; an authorized inspection and approved information come next.</li><li><strong>Salary basis:</strong> May 2024 U.S. national median annual wage: Auto Service $49,670; Diesel Service $60,640; Automotive Body/Related $51,680. These are not DFW starting salaries.</li><li><strong>ASE:</strong> Entry-Level and professional certification are different; professional certification requires the test and approved experience or substitution.</li><li><strong>Routes:</strong> Irving current high-school offering, TCC public-college example, Registered Apprenticeship, and employer/OJT each have different access questions. No source guarantees admission, credit, certification, or hiring.</li></ul></details>',
+                "READY": f'<p>Open {student_copy_link(5, "the four-page Evidence Brief")} and {link(files["RUBRIC"]["id"], "the two-page 16-point rubric")}. The PDF is the paper or enlarged route; typed and private media responses use the same four jobs.</p><details style="border:1px solid #bad4df;border-radius:8px;padding:12px 16px;margin:14px 0;background:#f2f8fb"><summary style="font-weight:700;color:#1f617a;cursor:pointer">Missing earlier evidence? Open the fixed evidence strip</summary><ul><li><strong>Crash Crew:</strong> a photograph supports a visible condition, not a complete safety diagnosis; an authorized inspection and approved information come next.</li><li><strong>Salary basis:</strong> May 2024 U.S. national median annual wage: Auto Service $49,670; Diesel Service $60,640; Automotive Body/Related $51,680. These are not DFW starting salaries.</li><li><strong>ASE:</strong> Entry-Level and professional certification are different; professional certification requires the test and approved experience or substitution.</li><li><strong>Routes:</strong> Irving current high-school offering, TCC public-college example, Registered Apprenticeship, and employer/OJT each have different access questions. No source guarantees admission, credit, certification, or hiring.</li></ul></details>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:12px 16px;margin:14px 0"><strong>Words for this task:</strong> evidence/evidencia · route/ruta · tradeoff/ventaja y costo · limitation/limitación · revise/revisar<br><strong>Use the complete frame beside each of the four response jobs.</strong></div>',
                 "STEPS": step(1, "Bring forward evidence", "<p>Use one Crash Crew boundary, all three salary labels, one ASE distinction, one route tradeoff, and one authorized source. Use the fixed strip above if prior work is missing.</p>")
                 + step(2, "Write four sections", "<ol><li><strong>Visible evidence:</strong> The image supports [condition]. It does not prove [unsupported conclusion]. [Authorized role] must [next evidence].</li><li><strong>Career direction:</strong> On the May 2024 U.S. national median basis, [comparison]. I would investigate [career] because [fact 1] and [fact 2].</li><li><strong>Route:</strong> I would investigate [route] because [advantage]. A tradeoff or missing fact is [limit]. I would ask [source] whether [question].</li><li><strong>Action and revision:</strong> Within seven days I will [action] and keep [evidence]. I revised [old claim] to [accurate claim].</li></ol>")

@@ -28,6 +28,7 @@ from build_wk0 import (
     resolve_folder_files,
     upload,
 )
+from normalize_embedded_image_access import normalize as normalize_resource_access
 
 
 DAYS = {
@@ -104,10 +105,9 @@ async def exact_folder(client, folder_path):
         raise RuntimeError(
             f"Unexpected Canvas folder path: {folder.get('full_name')!r}"
         )
-    # Folder chains that hold embedded images are intentionally unlocked by
-    # normalize_embedded_image_access.py so students can load <img> files; only
-    # non-image support files keep their own file-level locks. Do not require a
-    # locked folder here.
+    # Module publication is the release gate. Referenced images, PDFs, and their
+    # folder chains stay open for enrolled students, so do not require a locked
+    # folder here.
     return folder
 
 
@@ -304,6 +304,16 @@ async def main() -> None:
                     data=page_payload(page, body),
                 )
 
+        # Legacy upload helpers intentionally lock files while replacing them.
+        # Reopen every page-referenced file and its complete folder ancestry
+        # before declaring the reconciliation successful. This call is
+        # publication-neutral and fails closed on cross-course references.
+        resource_access = await normalize_resource_access(
+            client,
+            check_only=False,
+            manage_home=False,
+        )
+
         module_after = await api(
             client, "GET", f"/courses/{COURSE_ID}/modules/{MODULE_ID}"
         )
@@ -367,6 +377,7 @@ async def main() -> None:
                         "2": support["D2_DECK"]["id"],
                         "3": support["D3_DECK"]["id"],
                     },
+                    "resource_access": resource_access,
                 },
                 indent=2,
             )

@@ -12,13 +12,25 @@ import httpx
 
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/1ZGGB2aOAcmUUHjtX69COLVL_eT9pu089Wsr5O-24nko/copy",
+    2: "https://docs.google.com/document/d/1ywixqoEL8s163zMPjp6K8AHun4WlQ6oB7lE8gFUybNI/copy",
+    3: "https://docs.google.com/document/d/15lXbU9bX39sGlMVAahwdxWUPTBvWNZKwo94flpvqLzY/copy",
+    4: "https://docs.google.com/document/d/1aj5j7tPX3VRtyzhGvMqeR3SFU7oE7jsqJI535hqIJlA/copy",
+    5: "https://docs.google.com/document/d/1hhU2CBtX2Q1m0lJ5BCkl5ZHgKAY2jOoCtkaFOJvaLeo/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
 MODULE_NAME = "2SW Wk6: Science Meets Medicine"
 QUIZ_TITLE = "PRACTICE: Outbreak Evidence Check"
-ASSIGNMENT_TITLE = "PRACTICE: Explore Career Matches Reflection"
+ASSIGNMENT_TITLE = "PRACTICE: Biomedical Career Evidence Reflection"
+LEGACY_ASSIGNMENT_TITLE = "PRACTICE: " + "Explore Career " + "Matches Reflection"
 ROOT = Path(__file__).resolve().parents[2]
 TEMPLATES = Path(__file__).parent / "templates"
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/2sw/wk6"
-XELLO = ROOT / "cce-curriculum/resources/xello-licensed/lessons"
 
 
 def slugify(value):
@@ -434,11 +446,16 @@ async def upsert_quiz_item(client, module_id, quiz):
 async def upsert_assignment(client):
     assignments = await paged(client, f"/courses/{COURSE_ID}/assignments")
     found = next(
-        (entry for entry in assignments if entry.get("name") == ASSIGNMENT_TITLE), None
+        (
+            entry
+            for entry in assignments
+            if entry.get("name") in {ASSIGNMENT_TITLE, LEGACY_ASSIGNMENT_TITLE}
+        ),
+        None,
     )
     data = {
         "assignment[name]": ASSIGNMENT_TITLE,
-        "assignment[description]": """<div style="max-width:820px;margin:0 auto;font-family:Arial,Helvetica,sans-serif;line-height:1.5;color:#24323d"><h2 style="color:#5a2d91">Explore Career Matches Reflection</h2><div style="border:1px solid #bad4df;border-radius:9px;background:#f2f8fb;padding:14px 18px"><p><strong>Topic:</strong> Career Assessment</p><p><strong>I can:</strong> Use one interest and one career task to explain whether a Xello match changed my thinking.</p><p><strong>Show my learning:</strong> Submit a private before-and-after reflection.</p></div><h3>Respond privately</h3><ol><li>Name one match you were unsure about and what you used to think.</li><li>Name one interest and one work task or career fact you reviewed through <strong>Find out why</strong>.</li><li>Explain what you think now and what changed or did not change your view.</li><li>Name one question and one next step inside Xello.</li></ol><p>Type the response or upload the supplied one-page paper route. Do not submit a screenshot of your Xello profile.</p></div>""",
+        "assignment[description]": """<div style="max-width:820px;margin:0 auto;font-family:Arial,Helvetica,sans-serif;line-height:1.5;color:#24323d"><h2 style="color:#5a2d91">Biomedical Career Evidence Reflection</h2><div style="border:1px solid #bad4df;border-radius:9px;background:#f2f8fb;padding:14px 18px"><p><strong>Topic:</strong> Biomedical Career Evidence</p><p><strong>I can:</strong> Compare three fixed biomedical careers and support one recommendation with a task, preparation fact, and source-labeled career fact.</p><p><strong>Show my learning:</strong> Submit a private evidence-based recommendation.</p></div><h3>Respond privately</h3><ol><li>Name one biomedical career to keep exploring.</li><li>Use one central task and one preparation fact.</li><li>Use one pay, outlook, or annual-openings fact with its source labels.</li><li>Name one tradeoff and one question to verify next.</li></ol><p>Type the response or upload the supplied one-page paper response.</p></div>""",
         "assignment[submission_types][]": ["online_text_entry", "online_upload"],
         "assignment[grading_type]": "not_graded",
         "assignment[points_possible]": "0",
@@ -526,21 +543,6 @@ async def main():
             )
             for key, name in worksheet_names.items()
         }
-        files["XELLO_GUIDE"] = await upload(
-            client, XELLO / "explore-career-matches.pdf", support_path
-        )
-        files["XELLO_DIRECTIONS"] = await upload(
-            client,
-            XELLO
-            / "explore-career-matches/find-out-why-save-careers-student-instructions.pdf",
-            support_path,
-        )
-        files["XELLO_DECK"] = await upload(
-            client,
-            XELLO / "explore-career-matches/explore-career-matches-slides-irving.pptx",
-            support_path,
-        )
-
         uploads = {}
         folders = {}
         for day in range(1, 6):
@@ -558,8 +560,6 @@ async def main():
 
         quiz_url = f"/courses/{COURSE_ID}/quizzes/{quiz['id']}"
         assignment_url = f"/courses/{COURSE_ID}/assignments/{assignment['id']}"
-        xello_video = '<div style="max-width:760px;margin:18px auto"><iframe title="Xello: Understanding Your Career Matches" src="https://www.youtube.com/embed/xq__qvzVSYU" width="760" height="428" allowfullscreen="allowfullscreen" style="width:100%;max-width:760px;border:0"></iframe><p style="font-size:14px">If the video is blocked, use the numbered steps and one-page directions below.</p></div>'
-
         student = {
             1: {
                 "TITLE": "Compare Biomedical Careers and Write for a Job",
@@ -568,7 +568,7 @@ async def main():
                 "I_CAN": "I can compare three biomedical careers and write a practice cover letter that answers one employer need with honest evidence.",
                 "SHOW_LEARNING": "Complete the career comparison and five-part practice cover letter.",
                 "TODAY": "<ul><li>compare three biomedical careers;</li><li>read a fictional Student Lab Helper posting;</li><li>write a five-part practice cover letter.</li></ul>",
-                "READY": f"<p>Open {file_link(files['CAREERS']['id'], 'the Biomedical Career Evidence Guide')} and {file_link(files['LETTER']['id'], 'the Cover Letter Lab')}.</p>",
+                "READY": f"<p>Open {file_link(files['CAREERS']['id'], 'the Biomedical Career Evidence Guide')} and {student_copy_link(1, 'the Cover Letter Lab')}.</p>",
                 "MEDIA": "",
                 "STEPS": step(
                     1,
@@ -602,7 +602,7 @@ async def main():
                 "I_CAN": "I can use the FYF future-technology scenario to plan, label, and explain a tiny medical robot and name a career connected to the work.",
                 "SHOW_LEARNING": "Complete FYF pp. 80-81, one evidence question, and one biomedical-career connection.",
                 "TODAY": "<ul><li>read the four mission checks;</li><li>plan, draw, and label a design;</li><li>map its journey and name one safety question.</li></ul>",
-                "READY": f"<p>Open your workbook to FYF pp. 79-81. Use {file_link(files['MEDICS']['id'], 'the optional expanded design record')} only when your teacher assigns the no-workbook or extended route. Get paper and a pencil or marker.</p>",
+                "READY": f"<p>Open your workbook to FYF pp. 79-81. Use {student_copy_link(2, 'the optional expanded design record')} only when your teacher assigns the no-workbook or extended route. Get paper and a pencil or marker.</p>",
                 "MEDIA": image_tag(
                     uploads[2]["fyf-p79-mini-medics.png"]["id"],
                     "Find Your Future Mini Medics mission and design requirements",
@@ -655,7 +655,7 @@ async def main():
                 "I_CAN": "I can use the FYF case to explain how an epidemiologist compares evidence, writes a working claim, and identifies what still needs testing.",
                 "SHOW_LEARNING": "Complete FYF pp. 75-76 and one epidemiologist work-product sentence.",
                 "TODAY": "<ul><li>read the fictional Fairview Edge case;</li><li>compare sick and healthy residents;</li><li>support one working claim with at least three clues.</li></ul>",
-                "READY": f"<p>Open your workbook to FYF pp. 74-76. Use {file_link(files['INVESTIGATE']['id'], 'the optional expanded investigation record')} only when your teacher assigns the no-workbook or extended route.</p><p><strong>Real-event boundary:</strong> In a real health or water emergency, follow local officials and a trusted adult.</p>",
+                "READY": f"<p>Open your workbook to FYF pp. 74-76. Use {student_copy_link(3, 'the optional expanded investigation record')} only when your teacher assigns the no-workbook or extended route.</p><p><strong>Real-event boundary:</strong> In a real health or water emergency, follow local officials and a trusted adult.</p>",
                 "MEDIA": image_tag(
                     uploads[3]["fyf-p74-outbreak.png"]["id"],
                     "Find Your Future fictional Fairview Edge resident case table",
@@ -708,7 +708,7 @@ async def main():
                 "I_CAN": "I can use the FYF case to explain how public-health workers connect evidence to tests, immediate action, and prevention.",
                 "SHOW_LEARNING": "Complete FYF pp. 77-78 and one public-health career-role sentence.",
                 "TODAY": "<ul><li>choose tests that could confirm the source;</li><li>estimate impact using town facts;</li><li>separate immediate action from prevention.</li></ul>",
-                "READY": f"<p>Open your workbook to FYF pp. 77-78 and your Day 3 work. Use {file_link(files['RESPONSE']['id'], 'the optional expanded response plan')} only when your teacher assigns the no-workbook or extended route.</p><p><strong>Real-event boundary:</strong> This is fictional analysis, not official health guidance.</p>",
+                "READY": f"<p>Open your workbook to FYF pp. 77-78 and your Day 3 work. Use {student_copy_link(4, 'the optional expanded response plan')} only when your teacher assigns the no-workbook or extended route.</p><p><strong>Real-event boundary:</strong> This is fictional analysis, not official health guidance.</p>",
                 "MEDIA": image_tag(
                     uploads[4]["fyf-p77-response.png"]["id"],
                     "Find Your Future helpful information, confirming tests, and impact choices",
@@ -750,36 +750,36 @@ async def main():
                 "FALLBACK": "<p>If you missed Day 3, use the teacher-provided working claim and case summary. No presentation is required.</p>",
             },
             5: {
-                "TITLE": "Explore Why Xello Matched You",
-                "PURPOSE": "Complete the required lesson and use evidence to decide what you think about one career match.",
-                "TOPIC": "Career Assessment",
-                "I_CAN": "I can use one interest and one career task to explain whether a Xello match changed my thinking.",
-                "SHOW_LEARNING": "Complete Explore career matches and submit the private reflection.",
-                "TODAY": "<ul><li>complete Explore career matches in Xello;</li><li>use Find out why for one match;</li><li>submit a private before-and-after reflection.</li></ul>",
-                "READY": f'<p>Open <a href="{assignment_url}">the private Canvas reflection</a> and {file_link(files["XELLO_DIRECTIONS"]["id"], "Xello one-page student directions")}. Use {file_link(files["REFLECT"]["id"], "the optional one-page paper route")} only when your teacher assigns paper.</p>',
-                "MEDIA": xello_video,
+                "TITLE": "Use Biomedical Career Evidence",
+                "PURPOSE": "Compare the same fixed evidence for three careers and support one current recommendation.",
+                "TOPIC": "Biomedical Career Evidence",
+                "I_CAN": "I can compare three biomedical careers and support one recommendation with a task, preparation fact, and source-labeled career fact.",
+                "SHOW_LEARNING": "Submit the private Biomedical Career Evidence Reflection.",
+                "TODAY": "<ul><li>compare three fixed biomedical careers;</li><li>support one recommendation with evidence;</li><li>name one tradeoff and one next question.</li></ul>",
+                "READY": f'<p>Open {file_link(files["CAREERS"]["id"], "the Biomedical Career Evidence Guide")} and <a href="{assignment_url}">the private Canvas reflection</a>. Use {student_copy_link(5, "the optional one-page paper response")} only when your teacher assigns paper.</p>',
+                "MEDIA": "",
                 "STEPS": step(
-                    1, "Log in", "<p>ClassLink &gt; Xello. Open Home, then Lessons.</p>"
+                    1, "Compare three careers", "<p>Review biomedical engineer, epidemiologist, and medical scientist. Record one central task and common preparation for each.</p>"
                 )
                 + step(
                     2,
-                    "Open Explore career matches",
-                    "<p>Complete the lesson prompts and use <strong>Find out why</strong> for at least one match.</p>",
+                    "Keep the source labels",
+                    "<p>Use one pay, outlook, or annual-openings fact. Keep the year, geography, and measure attached.</p>",
                 )
                 + step(
                     3,
-                    "Think before deciding",
-                    "<p>Compare your interests with the career tasks. A match is information to investigate, not a command.</p>",
+                    "Make and test a recommendation",
+                    "<p>Choose one career to keep exploring. Support it with a task and preparation fact, then name one tradeoff.</p>",
                 )
                 + step(
                     4,
                     "Reflect privately",
-                    f'<p><a href="{assignment_url}">Open the private reflection assignment</a>. Type the four responses or upload the paper route only when your teacher assigned it. Do not submit a profile screenshot.</p><div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:10px 14px;margin:12px 0"><strong>Use while reflecting:</strong> match/coincidencia · interest/interés · task/tarea · evidence/evidencia · changed/cambió<br><strong>Complete thought:</strong> I used to think _____. After reviewing my interest in _____ and the career task _____, I now think _____ because _____.</div>',
+                    f'<p><a href="{assignment_url}">Open the private reflection assignment</a>. Type the four responses or upload the paper response only when your teacher assigned it.</p><div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:10px 14px;margin:12px 0"><strong>Use while reflecting:</strong> task/tarea · preparation/preparación · evidence/evidencia · tradeoff/compensación · verify/verificar<br><strong>Complete thought:</strong> I recommend exploring ____ because the task ____ and preparation ____ fit ____. The source shows ____. I still need to verify ____.</div>',
                 ),
-                "EXIT": "<p>Your final private-reflection response is the exit check. Explain why a student should think critically about a match and use one interest, task, or <strong>Find out why</strong> detail. Do not submit a second response.</p>",
-                "DONE": "<ul><li>Xello lesson completed or catch-up recorded;</li><li>Find out why used for one match;</li><li>before-and-after thinking explained;</li><li>reflection submitted privately.</li></ul>",
-                "SUPPORT": "<p>match = coincidencia · interest = interés · evidence = evidencia · changed = cambió. The one-page Xello directions stay open while you work.</p>",
-                "FALLBACK": "<p>If Xello is unavailable, use the video, directions, and sample reflection. The required Xello lesson moves to supervised catch-up. Paper does not replace platform completion.</p>",
+                "EXIT": "<p>Your final reflection response is the exit check. Explain why one source-labeled fact supports or complicates your recommendation. Do not submit a second response.</p>",
+                "DONE": "<ul><li>three careers compared;</li><li>recommendation uses a task, preparation fact, and source-labeled fact;</li><li>tradeoff and next question submitted privately.</li></ul>",
+                "SUPPORT": "<p>task = tarea · preparation = preparación · evidence = evidencia · tradeoff = compensación · verify = verificar. Rehearse the complete thought before writing.</p>",
+                "FALLBACK": "<p>Use the fixed career guide and the paper or Canvas response home your teacher assigned.</p>",
             },
         }
 
@@ -936,35 +936,35 @@ async def main():
                 "FALLBACK": "<p>An absent student starts from the teacher-provided Day 3 claim. In a real event, follow current local officials and district directions.</p>",
             },
             5: {
-                "TITLE": "Xello Explore Career Matches",
-                "TOPIC": "Career Assessment",
-                "OBJECTIVE": "Students will analyze one Xello career match using an interest, a career task, and evidence from Find out why.",
-                "TEKS": "d(1)(A)",
-                "DOL": "Explore career matches completion plus submitted private reflection.",
-                "SUBTITLE": "50 minutes · TEKS d(1)(A)",
-                "ALERT": "<strong>Required Grade 8 task: Explore career matches, 35 minutes.</strong> Matchmaker and at least three saved careers are prerequisites. Save careers is not repeated today.",
-                "PREP": f"<ul><li>Check the Completion Standards report for Matchmaker and at least three saved careers. Assign prerequisite catch-up before class.</li><li><strong>Default grouping:</strong> individual work, one device per student. A peer navigator may point but does not control another account.</li><li>Test ClassLink &gt; Xello. Open the official {file_link(files['XELLO_GUIDE']['id'], 'facilitator guide')}, {file_link(files['XELLO_DECK']['id'], 'Irving-adapted slide deck')}, {file_link(files['XELLO_DIRECTIONS']['id'], 'student directions')}, and student video.</li><li>Open the private Canvas reflection assignment. Use {file_link(files['REFLECT']['id'], 'the one-page reflection')} only for the assigned paper route.</li></ul>",
-                "EVIDENCE": "<p>Verify Explore career matches in the Xello Completion Standards report and collect one private before-and-after reflection. Do not require a profile screenshot, public discussion, or duplicate exit artifact. Formative portfolio evidence only; Week 6 adds no Minor or Major.</p>",
+                "TITLE": "Biomedical Career Evidence Reflection",
+                "TOPIC": "Biomedical Career Evidence",
+                "OBJECTIVE": "Students will compare fixed evidence for three biomedical careers and support one current recommendation with a task, preparation fact, and source-labeled career fact.",
+                "TEKS": "d(1)(C), d(2)(A)",
+                "DOL": "Submitted private Biomedical Career Evidence Reflection.",
+                "SUBTITLE": "50 minutes · TEKS d(1)(C), d(2)(A)",
+                "ALERT": "<strong>Use the fixed evidence guide.</strong> No saved-career prerequisite, profile screenshot, or platform completion is required.",
+                "PREP": f"<ul><li>Open {file_link(files['CAREERS']['id'], 'the Biomedical Career Evidence Guide')} and one strong model.</li><li><strong>Default grouping:</strong> individual response with one brief partner rehearsal.</li><li>Open the private Canvas reflection assignment. Use {file_link(files['REFLECT']['id'], 'the one-page reflection')} only for the assigned paper route.</li></ul>",
+                "EVIDENCE": "<p>Collect one private recommendation using a career task, preparation fact, source-labeled career fact, tradeoff, and question to verify. Formative portfolio evidence only; Week 6 adds no Minor or Major.</p>",
                 "FLOW": flow(
                     "#5a2d91",
                     "Warm-up · 5",
-                    "Is it okay to reject a high match? Explain.",
+                    "Which evidence should matter most: daily work, preparation, pay, or the problem solved?",
                 )
                 + flow(
                     "#4a9d2f",
-                    "Xello lesson · 35",
-                    "Lessons &gt; Explore career matches &gt; Find out why.",
+                    "Compare three careers · 20",
+                    "Task, preparation, and source-labeled career evidence.",
                 )
                 + flow(
                     "#1f617a",
-                    "Private reflection · 5",
-                    "Used to think, now think, what changed.",
+                    "Private reflection · 20",
+                    "Recommendation, evidence, tradeoff, and next question.",
                 )
-                + flow("#e3ad19", "Submit, verify, sign out · 5", "Private reflection, report/catch-up record, and account close."),
-                "MONITOR": "<p><strong>Minute 8:</strong> target = every student is in Explore career matches or has a named access/prerequisite barrier. If several students remain on Home, pause for one navigation reset using the supplied directions. <strong>Minute 20:</strong> target = students are using Find out why, not ranking matches from the title alone. Ask, “Which interest and task did you compare?” <strong>Minute 35:</strong> target = lesson completion or supervised catch-up recorded. <strong>Final check:</strong> verify through the report and collect the private reflection; never request a public screenshot.</p><p><strong>Safe trim:</strong> cut the separate exit prompt because the private reflection already contains the TEKS evidence. Protect the 35-minute Xello lesson, Find out why, report verification, and catch-up record.</p>",
-                "RESOURCES": f'<p>{file_link(files["XELLO_GUIDE"]["id"], "Full facilitator guide, 120-minute extension")}</p><p>{file_link(files["XELLO_DECK"]["id"], "Teacher launch slides adapted for ClassLink")}</p><p>{file_link(files["XELLO_DIRECTIONS"]["id"], "One-page student Find out why directions")}</p><p><a href="https://www.youtube.com/watch?v=xq__qvzVSYU">Official Xello Understanding Your Career Matches video</a></p>',
-                "SUPPORT": "<p>The complete before/after frame is visible beside the private reflection. Keep the numbered steps and one-page directions visible. Offer read-aloud, chunking, bilingual labels, and a private written response. Score evidence use, not match rank or English mechanics.</p>",
-                "FALLBACK": "<p>If Xello or prerequisites fail, complete the video and learning reflection, then move the required platform lesson to supervised catch-up. Paper does not count as Xello completion.</p>",
+                + flow("#e3ad19", "Submit and close · 5", "Private reflection and one source-label check."),
+                "MONITOR": "<p><strong>Minute 10:</strong> target = three careers have a central task and preparation fact. <strong>Minute 25:</strong> target = one source-labeled fact is attached to the recommendation. <strong>Minute 40:</strong> target = tradeoff and question to verify are present. <strong>Final check:</strong> collect one private reflection; do not require a public recommendation.</p><p><strong>Safe trim:</strong> provide the fixed career rows and require the recommendation, source label, tradeoff, and question to verify.</p>",
+                "RESOURCES": f'<p>{file_link(files["CAREERS"]["id"], "Biomedical Career Evidence Guide")}</p><p>{file_link(files["REFLECT"]["id"], "Biomedical Career Evidence Reflection")}</p>',
+                "SUPPORT": "<p>The complete recommendation frame is visible beside the private reflection. Offer read-aloud, chunking, bilingual labels, oral rehearsal, and a private written response. Score evidence use, not preference or English mechanics.</p>",
+                "FALLBACK": "<p>The fixed guide and paper or Canvas reflection are the complete routes. An absent student completes the same comparison without platform catch-up.</p>",
             },
         }
 
@@ -973,7 +973,7 @@ async def main():
             2: "STUDENT: 2SW Wk6 Day 2 - Mini Medics Design",
             3: "STUDENT: 2SW Wk6 Day 3 - Outbreak Evidence",
             4: "STUDENT: 2SW Wk6 Day 4 - Outbreak Response",
-            5: "STUDENT: 2SW Wk6 Day 5 - Xello Explore Career Matches",
+            5: "STUDENT: 2SW Wk6 Day 5 - Biomedical Career Evidence Reflection",
         }
         pages = {}
         order = []

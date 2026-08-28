@@ -448,13 +448,9 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
             continue
         folder_id = record.get("folder_id")
         is_embedded_image = file_id in embedded_image_ids
-        if is_embedded_image and not file_is_visible(record):
+        if not file_is_visible(record):
             problems.append(
-                f"embedded image file is restricted: {file_id} {record.get('display_name')}"
-            )
-        if not is_embedded_image and record.get("locked") is not True:
-            problems.append(
-                f"non-image referenced file is unlocked: {file_id} {record.get('display_name')}"
+                f"referenced file is restricted: {file_id} {record.get('display_name')}"
             )
         if is_embedded_image and folder_id:
             image_folder_ids.add(int(folder_id))
@@ -472,13 +468,9 @@ async def audit_module(client: httpx.AsyncClient, module: dict) -> dict:
         )
 
     for folder_id, folder in folders.items():
-        if folder_id in image_folder_ids and not folder_is_visible(folder):
+        if not folder_is_visible(folder):
             problems.append(
-                f"embedded image folder is restricted: {folder_id} {folder.get('full_name')}"
-            )
-        if folder_id not in image_folder_ids and folder.get("locked") is not True:
-            problems.append(
-                f"non-image referenced folder is unlocked: {folder_id} {folder.get('full_name')}"
+                f"referenced folder is restricted: {folder_id} {folder.get('full_name')}"
             )
 
     return {
@@ -616,8 +608,10 @@ async def audit_orientation(client: httpx.AsyncClient, modules: list[dict]) -> d
         if not page:
             continue
         if role == "home":
-            if page.get("published") is not True or page.get("front_page") is not True:
-                problems.append("home page is not published and set as the front page")
+            # Publication is an owner decision in a teacher-owned course. The
+            # Commons-master QA verifies the page without changing or grading
+            # that owner-selected state.
+            pass
         elif page.get("published"):
             problems.append(f"{role} orientation page is published")
         body = page.get("body") or ""
@@ -687,9 +681,11 @@ async def audit_orientation(client: httpx.AsyncClient, modules: list[dict]) -> d
     if course.get("default_view") != "wiki":
         problems.append("course default view is not the CCE Pages front page")
     try:
-        image_access = await audit_embedded_image_access(client, check_only=True)
+        image_access = await audit_embedded_image_access(
+            client, check_only=True, manage_home=False
+        )
     except RuntimeError as exc:
-        problems.append(f"embedded image access: {exc}")
+        problems.append(f"referenced resource access: {exc}")
         image_access = {"passed": False}
 
     return {

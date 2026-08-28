@@ -12,6 +12,27 @@ import build_4sw_wk1 as common
 
 
 COURSE_ID = common.COURSE_ID
+STUDENT_GOOGLE_COPY_URLS = {
+    1: "https://docs.google.com/document/d/1FpI4-sVtxObstQ-G4HS_icx7GZPr2G_HAkF0ZBIH9pI/copy",
+    2: "https://docs.google.com/document/d/1OM2o8PBxQ0CbHhhQgpzwVkyO6Ds9ffvKnaLuq0SG4xM/copy",
+    3: "https://docs.google.com/document/d/1unYsGDoEuXWU6xB4_m1ExC63AV9rRwwHmaQFspUEIek/copy",
+    4: "https://docs.google.com/document/d/1O--YPUluSbQp-3d5noaO4qYW6EJLvr68OT6IxTrVgEc/copy",
+    5: "https://docs.google.com/document/d/1zNxj18QLGZZ3oTS3b0ISEMY99mxe2n093B3vMuJRNfY/copy",
+}
+
+
+def student_copy_link(day, label):
+    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+
+
+def student_copy_button(day, label):
+    return (
+        f'<p><a href="{STUDENT_GOOGLE_COPY_URLS[day]}" target="_blank" '
+        'style="display:inline-block;background:#1f617a;color:#fff;padding:11px 18px;'
+        'border-radius:6px;text-decoration:none"><strong>'
+        f'{label}</strong></a></p>'
+    )
+
 ROOT = common.ROOT
 ASSETS = ROOT / "cce-curriculum/resources/canvas-licensed/4sw/wk4"
 MODULE_NAME = "4SW Wk4: Drone Systems, Rules, and Iteration"
@@ -419,7 +440,7 @@ async def main():
                 "TITLE": "Design a Wildlife-Tracking Drone System",
                 "PURPOSE": "Turn a fictional conservation need into testable system requirements and a labeled design.",
                 "TODAY": "<ul><li>identify needs and constraints;</li><li>write four requirements;</li><li>label six system jobs;</li><li>redesign for a changed mission.</li></ul>",
-                "READY": f'<p>Use FYF pp. 104-105. Draw and label the blueprint in FYF p. 105. Use {link(files["DESIGN"]["id"], "the three-page Design Companion")} only for the missing evidence or as the no-workbook/enlarged route. In <a href="{urls["design"]}">the private practice Assignment</a>, attach a photo of FYF p. 105 and type four requirements, one assumption/tradeoff, the changed-mission response, and one occupation work product. Paper-companion students turn in the companion once.</p>',
+                "READY": f'<p>Use FYF pp. 104-105. Draw and label the blueprint in FYF p. 105. Use {student_copy_link(1, "the three-page Design Companion")} only for the missing evidence or as the no-workbook/enlarged route. In <a href="{urls["design"]}">the private practice Assignment</a>, attach a photo of FYF p. 105 and type four requirements, one assumption/tradeoff, the changed-mission response, and one occupation work product. Paper-companion students turn in the companion once.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:12px 16px;margin:14px 0"><strong>Words for this task:</strong> requirement · constraint · navigation · payload · communication · disturbance<br><strong>Use this frame:</strong> “Because the mission needs ____, the ____ system must ____.”</div>',
                 "STEPS": step(1, "Read the FYF user need", "<p>Separate what the conservationist needs from rain-forest and animal-behavior constraints.</p>")
                 + step(2, "Study a finished model, then write four requirements", "<p><strong>Different mission model - wetland bird survey:</strong> flight: guarded light frame moves; power: protected battery runs the system; navigation: obstacle sensor avoids reeds; payload: low-light camera records; communication: data link returns records; protection: stand-off distance reduces disturbance. Change the components for the FYF mission. <strong>Non-example:</strong> camera, propeller, battery - names without jobs are incomplete.</p>")
@@ -436,7 +457,7 @@ async def main():
                 "TODAY": "<ul><li>compare work and preparation;</li><li>keep labels with pay and outlook;</li><li>classify with the published course rule;</li><li>make one evidence-based recommendation.</li></ul>",
                 "READY": f'<p>Post or open {link(files["CAREERS"]["id"], "the two-page occupation reference")}. Then open <a href="{urls["career_quiz"]}">the five-question evidence check</a>. Default printing: none.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:12px 16px;margin:14px 0"><strong>Words for this task:</strong> median · growth · annual openings · preparation · tradeoff<br><strong>Use this frame:</strong> “Taylor should investigate ____ because ____ and ____. A tradeoff is ____. Taylor should verify ____ with ____.”</div>',
-                "STEPS": step(1, "Compare the work", "<p>Read the worker product, drone/data connection, and preparation for all three occupations.</p>")
+                "STEPS": step(1, "Compare the work", student_copy_button(2, "Make your copy: Compare Drone-Enabled Occupations") + ("<p>Read the worker product, drone/data connection, and preparation for all three occupations.</p>"))
                 + step(2, "Apply the course rule", "<p>Keep the May 2024 U.S. national median, 2024-34 growth, and annual openings together.</p>")
                 + step(3, "Keep the limitation", "<p>An occupation may use drones without every worker flying one. National evidence may differ from local pay and hiring.</p>")
                 + step(4, "Complete and repair", f'<p>Use <a href="{urls["career_quiz"]}">the five-question check</a>. Read the feedback and repair any source label, preparation match, classification, or tradeoff you miss.</p>'),
@@ -449,7 +470,7 @@ async def main():
                 "TITLE": "Decide Which Drone Rule Applies",
                 "PURPOSE": "Separate federal operating rules from campus and model-specific safety approval.",
                 "TODAY": "<ul><li>compare indoor, outdoor educational, and paid work;</li><li>read the Remote Pilot pathway boundary;</li><li>complete the rule check;</li><li>use a team readiness gate only for today's selected route.</li></ul>",
-                "READY": f'<p>Post page 1 of {link(files["RULES"]["id"], "the three-page Decision and Readiness guide")}. If a test route is used, form teams of four and print page 2 once per team. Page 3 is the no-Canvas individual route. Then open <a href="{urls["rule_quiz"]}">the four-question rule check</a>.</p>',
+                "READY": f'<p>Post page 1 of {student_copy_link(3, "the three-page Decision and Readiness guide")}. If a test route is used, form teams of four and print page 2 once per team. Page 3 is the no-Canvas individual route. Then open <a href="{urls["rule_quiz"]}">the four-question rule check</a>.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:12px 16px;margin:14px 0"><strong>Words for this task:</strong> indoor only · operating route · authorization · verify · recurrent training<br><strong>Use this frame:</strong> “Before anyone acts, the school must verify ____ with ____. The indoor checklist does not answer ____ because ____.”</div>',
                 "STEPS": step(1, "Compare three situations", "<p>Indoor-only, outdoor educational, and paid inspection do not use one automatic rule.</p>")
                 + step(2, "Read the certificate boundary", "<p>The Remote Pilot Certificate has current eligibility, testing, application, vetting, and recurrent-training requirements. This lesson does not award it.</p>")
@@ -464,7 +485,7 @@ async def main():
                 "TITLE": "Test and Improve an Inspection System",
                 "PURPOSE": "Run controlled trials, change one variable, and use evidence to choose a next test.",
                 "TODAY": "<ul><li>select an equal test route;</li><li>complete three trials or two plus a written third;</li><li>record breakdowns and revisions;</li><li>connect one skill to two occupations.</li></ul>",
-                "READY": f'<p>In teams of four, use {link(files["TEST"]["id"], "the Test and Iteration log")}: one copy of pp. 1-2 per team. Each student completes p. 3 on paper or through <a href="{urls["test"]}">the private Canvas text/upload activity</a>. Tabletop is the default; a teacher-cleared live or simulator station may substitute without creating a waiting rotation.</p>',
+                "READY": f'<p>In teams of four, use {student_copy_link(4, "the Test and Iteration log")}: one copy of pp. 1-2 per team. Each student completes p. 3 on paper or through <a href="{urls["test"]}">the private Canvas text/upload activity</a>. Tabletop is the default; a teacher-cleared live or simulator station may substitute without creating a waiting rotation.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:12px 16px;margin:14px 0"><strong>Words for this task:</strong> trial · variable · breakdown · limitation · evidence · iteration<br><strong>Use this frame:</strong> “I would ____ because Trial ____ showed ____. The skill ____ also matters in ____ and ____ because ____.”</div>',
                 "STEPS": step(1, "Set the mission and roles", "<p>Inspect a marked panel, stay inside the boundary, and return one usable observation. Rotate operator/mover, spotter, logger, and communication checker.</p>")
                 + step(2, "Read the supplied model", "<p>Trial 1: 18 seconds, target seen, boundary crossed. Trial 2: 24 seconds, stayed inside, usable observation. Trial 3: 26 seconds, same safe route plus stop/check call and complete handoff. Faster was not automatically better.</p>")
@@ -479,7 +500,7 @@ async def main():
                 "TITLE": "Drone Systems Evidence Brief",
                 "PURPOSE": "Synthesize design, occupation, rule, and test evidence into one accurate private brief.",
                 "TODAY": "<ul><li>reopen Days 1-4 evidence;</li><li>write four evidence sections;</li><li>self-score and revise;</li><li>submit privately.</li></ul>",
-                "READY": f'<p>Open {link(files["BRIEF"]["id"], "the four-page Evidence Brief")} and use {link(files["RUBRIC"]["id"], "the two-page 16-point rubric")}. The PDF is the paper or enlarged route; typed and private media responses use the same four numbered jobs.</p>',
+                "READY": f'<p>Open {student_copy_link(5, "the four-page Evidence Brief")} and use {link(files["RUBRIC"]["id"], "the two-page 16-point rubric")}. The PDF is the paper or enlarged route; typed and private media responses use the same four numbered jobs.</p>',
                 "LANGUAGE": '<div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:12px 16px;margin:14px 0"><strong>Words for this task:</strong> synthesize · accurate · limitation · revise · operating route<br><strong>Part 1:</strong> “Because the user needs ____, the ____ system should ____. A tradeoff is ____.”<br><strong>Part 2:</strong> “____ contributes ____; typical preparation is ____. Under the course rule it is ____ because ____.”<br><strong>Part 3:</strong> “Before anyone acts, ____ must verify ____ with ____.”<br><strong>Part 4:</strong> “Trial ____ showed ____, so I would ____. The skill ____ transfers to ____ and ____ because ____.”</div>',
                 "STEPS": step(1, "Audit the supplied models, then write design reasoning", "<p><strong>Supported:</strong> ‘Trial 2 was stronger than Trial 1 because it stayed inside the boundary and recorded a usable observation, even though it took six seconds longer.’ <strong>Unsupported:</strong> ‘Drone pilots make $80,000 and Part 107 is required for every flight.’ Correct the occupation/pay label and indoor/outdoor rule boundary, then connect a user need to a system response, constraint, tradeoff, and changed-mission revision.</p>")
                 + step(2, "Occupation and classification", "<p>Use an exact occupation title and keep source/date/geography/measure with the evidence.</p>")

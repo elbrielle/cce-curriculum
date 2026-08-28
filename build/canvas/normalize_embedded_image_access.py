@@ -1,16 +1,13 @@
 #!/usr/bin/env python3
-"""Keep embedded Canvas images visible without publishing lesson content.
+"""Keep page-referenced Canvas resources visible without publishing lessons.
 
-Canvas evaluates both a file and its ancestor folders when a student loads an
-embedded image. This normalizer finds file IDs used specifically by ``<img>``
-elements, makes only those image files course-visible, and opens only their
-folder chains. It does not publish modules, module items, instructional pages,
-assignments, discussions, or quizzes.
+Canvas evaluates both a file and its ancestor folders when a student opens an
+embedded image or linked PDF. This normalizer finds every Canvas file ID in
+course-page HTML, opens those files and their folder chains, and leaves module,
+module-item, page, assignment, discussion, and quiz publication untouched.
 
-The reviewed CCE course home is the one intentional exception: it is kept
-published, designated as the front page, and paired with the Pages (``wiki``)
-course default. Teachers continue to decide which instructional modules to
-publish.
+The normalizer never changes course-page or module publication by default.
+Teachers decide which course home and instructional modules to publish.
 """
 
 from __future__ import annotations
@@ -29,7 +26,16 @@ import httpx
 from build_4sw_wk1 import BASE, COURSE_ID
 from build_course_orientation import HOME_TITLE
 
-FILE_PATH_RE = re.compile(r"/(?:courses/\d+/)?files/(\d+)(?:/|$)")
+FILE_PATH_RE = re.compile(
+    r"(?:/api/v1)?/(?:courses/\d+/)?files/(\d+)"
+    r"(?=$|[/?#&\s\"'<>,])",
+    re.IGNORECASE,
+)
+FOLDER_PREVIEW_RE = re.compile(
+    r"/(?:courses/\d+/)?files/(?:folder/[^?\"'<>\s]*)?"
+    r"[^\"'<>\s]*?[?&](?:amp;)?preview=(\d+)",
+    re.IGNORECASE,
+)
 TRANSIENT_STATUSES = {429, 500, 502, 503, 504}
 TRANSIENT_EXCEPTIONS = (
     httpx.ConnectError,
@@ -66,6 +72,14 @@ def image_file_ids(body: str) -> set[int]:
         match = FILE_PATH_RE.search(path)
         if match:
             ids.add(int(match.group(1)))
+    return ids
+
+
+def referenced_file_ids(body: str) -> set[int]:
+    """Return Canvas file IDs from images, links, previews, and embeds."""
+
+    ids = {int(value) for value in FILE_PATH_RE.findall(body or "")}
+    ids.update(int(value) for value in FOLDER_PREVIEW_RE.findall(body or ""))
     return ids
 
 
@@ -133,7 +147,7 @@ async def page_details(client: httpx.AsyncClient, pages: list[dict]) -> list[dic
     return list(await asyncio.gather(*(fetch(page) for page in pages)))
 
 
-async def discover(client: httpx.AsyncClient, *, manage_home: bool = True) -> tuple[dict | None, set[int]]:
+async def discover(client: httpx.AsyncClient, *, manage_home: bool = False) -> tuple[dict | None, set[int]]:
     pages = await paged(client, f"/courses/{COURSE_ID}/pages")
     homes = [page for page in pages if page.get("title") == HOME_TITLE]
     if manage_home and len(homes) != 1:
@@ -141,9 +155,9 @@ async def discover(client: httpx.AsyncClient, *, manage_home: bool = True) -> tu
     details = await page_details(client, pages)
     file_ids: set[int] = set()
     for page in details:
-        file_ids.update(image_file_ids(page.get("body") or ""))
+        file_ids.update(referenced_file_ids(page.get("body") or ""))
     if not file_ids:
-        raise RuntimeError("no Canvas file-backed images were found in course pages")
+        raise RuntimeError("no Canvas file-backed resources were found in course pages")
     home = next((page for page in details if page.get("title") == HOME_TITLE), None) if manage_home else None
     return home, file_ids
 
@@ -160,8 +174,9 @@ async def folder_chain(
         seen.add(current_id)
         folder = cache.get(current_id)
         if folder is None:
-            folder = await api(client, "GET", f"/folders/{current_id}")
-            cache[current_id] = folder
+            raise RuntimeError(
+                f"folder {current_id} is outside course {COURSE_ID}; no writes allowed"
+            )
         chain.append(folder)
         parent = folder.get("parent_folder_id")
         current_id = int(parent) if parent else None
@@ -169,24 +184,52 @@ async def folder_chain(
 
 
 def file_is_visible(record: dict) -> bool:
-    return not record.get("locked") and not record.get("hidden")
+    return not any(
+        record.get(field) for field in ("locked", "hidden", "lock_at", "unlock_at")
+    )
 
 
 def folder_is_visible(record: dict) -> bool:
-    return not record.get("locked") and not record.get("hidden")
+    return not any(
+        record.get(field) for field in ("locked", "hidden", "lock_at", "unlock_at")
+    )
 
 
-async def normalize(client: httpx.AsyncClient, *, check_only: bool = False, manage_home: bool = True) -> dict:
-    """Unlock embedded image files and their folder chains.
+def validated_course_folders(records: list[dict], course_id: int) -> dict[int, dict]:
+    """Return an exact course-folder map and reject unexpected API context."""
 
-    ``manage_home=True`` (district source course) also keeps the reviewed CCE home
-    published as the Pages front page. ``manage_home=False`` (a teacher's imported
-    course, ``--course-id``) never touches that teacher's home page or default view.
+    folders: dict[int, dict] = {}
+    for record in records:
+        folder_id = int(record.get("id") or 0)
+        if not folder_id:
+            raise RuntimeError("course folders response contains a record without an ID")
+        context_type = record.get("context_type")
+        context_id = record.get("context_id")
+        if context_type not in (None, "Course") or (
+            context_id is not None and int(context_id) != course_id
+        ):
+            raise RuntimeError(
+                f"folder {folder_id} has foreign context "
+                f"{context_type!r}/{context_id!r}; no writes allowed"
+            )
+        folders[folder_id] = record
+    if not folders:
+        raise RuntimeError(f"course {course_id} returned no folders")
+    return folders
+
+
+async def normalize(client: httpx.AsyncClient, *, check_only: bool = False, manage_home: bool = False) -> dict:
+    """Unlock page-referenced files and their folder chains.
+
+    The default never touches a course home, default view, or publication state.
+    ``manage_home=True`` is retained only for explicitly authorized legacy calls.
     """
     home, image_ids = await discover(client, manage_home=manage_home)
     file_records: dict[int, dict] = {}
     folders: dict[int, dict] = {}
-    folder_cache: dict[int, dict] = {}
+    folder_cache = validated_course_folders(
+        await paged(client, f"/courses/{COURSE_ID}/folders"), COURSE_ID
+    )
     semaphore = asyncio.Semaphore(12)
 
     async def get_file(file_id: int) -> tuple[int, dict]:
@@ -196,15 +239,21 @@ async def normalize(client: httpx.AsyncClient, *, check_only: bool = False, mana
     for file_id, record in await asyncio.gather(
         *(get_file(file_id) for file_id in sorted(image_ids))
     ):
-        content_type = str(record.get("content-type") or record.get("content_type") or "")
-        if not content_type.startswith("image/"):
-            raise RuntimeError(
-                f"img element points to non-image file {file_id}: {content_type!r}"
-            )
         file_records[file_id] = record
         folder_id = record.get("folder_id")
         if not folder_id:
-            raise RuntimeError(f"embedded image {file_id} has no folder")
+            raise RuntimeError(f"page-referenced file {file_id} has no folder")
+
+    foreign_file_ids = sorted(
+        file_id
+        for file_id, record in file_records.items()
+        if int(record.get("folder_id") or 0) not in folder_cache
+    )
+    if foreign_file_ids:
+        raise RuntimeError(
+            f"page references files outside course {COURSE_ID}: "
+            f"{foreign_file_ids}; no writes allowed"
+        )
 
     for folder_id in sorted(
         {int(record["folder_id"]) for record in file_records.values()}
@@ -220,7 +269,12 @@ async def normalize(client: httpx.AsyncClient, *, check_only: bool = False, mana
                         client,
                         "PUT",
                         f"/folders/{folder_id}",
-                        data={"locked": "false", "hidden": "false"},
+                        data={
+                            "locked": "false",
+                            "hidden": "false",
+                            "lock_at": "",
+                            "unlock_at": "",
+                        },
                     )
 
         # Canvas inherits file restrictions through the folder tree. Unlock
@@ -242,7 +296,7 @@ async def normalize(client: httpx.AsyncClient, *, check_only: bool = False, mana
 
         async def show_file(file_id: int, record: dict) -> None:
             current = record
-            if current.get("locked") or current.get("hidden"):
+            if not file_is_visible(current):
                 async with semaphore:
                     current = await api(
                         client,
@@ -251,6 +305,8 @@ async def normalize(client: httpx.AsyncClient, *, check_only: bool = False, mana
                         data={
                             "locked": "false",
                             "hidden": "false",
+                            "lock_at": "",
+                            "unlock_at": "",
                         },
                     )
 
@@ -276,7 +332,11 @@ async def normalize(client: httpx.AsyncClient, *, check_only: bool = False, mana
             data={"course[default_view]": "wiki"},
         )
 
-    final_home = await api(client, "GET", f"/courses/{COURSE_ID}/front_page")
+    final_home = (
+        await api(client, "GET", f"/courses/{COURSE_ID}/front_page")
+        if manage_home
+        else {}
+    )
     final_course = await api(client, "GET", f"/courses/{COURSE_ID}")
     async def final_file(file_id: int) -> tuple[int, dict]:
         async with semaphore:
@@ -304,9 +364,9 @@ async def normalize(client: httpx.AsyncClient, *, check_only: bool = False, mana
     if manage_home and final_course.get("default_view") != "wiki":
         problems.append("course default view is not Pages")
     if bad_files:
-        problems.append(f"embedded image files are restricted: {bad_files}")
+        problems.append(f"page-referenced files are restricted: {bad_files}")
     if bad_folders:
-        problems.append(f"embedded image folder chain is restricted: {bad_folders}")
+        problems.append(f"page-resource folder chain is restricted: {bad_folders}")
     if problems:
         raise RuntimeError("; ".join(problems))
     return {
@@ -315,6 +375,7 @@ async def normalize(client: httpx.AsyncClient, *, check_only: bool = False, mana
         "home_page": final_home.get("url"),
         "home_published": final_home.get("published"),
         "default_view": final_course.get("default_view"),
+        "page_referenced_files": len(final_files),
         "embedded_image_files": len(final_files),
         "visible_folder_chain": len(final_folders),
         "check_only": check_only,
@@ -330,13 +391,38 @@ def self_test() -> None:
     <img src="data:image/png;base64,AAAA">
     """
     assert image_file_ids(sample) == {123, 456}
+    assert referenced_file_ids(sample) == {123, 456, 999}
     assert file_is_visible(
-        {"locked": False, "hidden": False}
+        {
+            "locked": False,
+            "hidden": False,
+            "lock_at": None,
+            "unlock_at": None,
+        }
     )
     assert not file_is_visible(
         {"locked": True, "hidden": False}
     )
-    assert folder_is_visible({"locked": False, "hidden": False})
+    assert folder_is_visible(
+        {
+            "locked": False,
+            "hidden": False,
+            "lock_at": None,
+            "unlock_at": None,
+        }
+    )
+    assert not folder_is_visible(
+        {
+            "locked": False,
+            "hidden": False,
+            "lock_at": None,
+            "unlock_at": "2026-09-01T12:00:00Z",
+        }
+    )
+    assert validated_course_folders(
+        [{"id": 7, "context_type": "Course", "context_id": 98060}],
+        98060,
+    )[7]["id"] == 7
     print("self-test: PASS")
 
 
@@ -367,7 +453,7 @@ async def main() -> None:
         default=None,
         help=(
             "Run against a teacher's own (Commons-imported) course instead of the district "
-            "source course. Unlocks embedded image files and their folder chains only; never "
+            "source course. Unlocks page-referenced files and their folder chains only; never "
             "changes that teacher's home page, default view, or publication choices."
         ),
     )
@@ -375,11 +461,10 @@ async def main() -> None:
     if args.self_test:
         self_test()
         return
-    manage_home = True
+    manage_home = False
     if args.course_id is not None:
         global COURSE_ID
         COURSE_ID = args.course_id
-        manage_home = False
     token = read_token()
     if not token:
         raise SystemExit("Canvas token required on stdin")
