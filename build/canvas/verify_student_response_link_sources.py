@@ -18,7 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 INVENTORY = ROOT / "build/google_docs/student_response_link_selector_inventory.json"
-REGISTRY = ROOT / "build/google_docs/student_response_route_registry.json"
+REGISTRY = ROOT / "build/google_docs/student_response_route_registry.draft.json"
 COPY_URL_RE = re.compile(
     r"https://docs\.google\.com/document/d/[A-Za-z0-9_-]+/copy"
 )
@@ -111,8 +111,11 @@ def verify() -> dict[str, int]:
     registry_payload = load_json(REGISTRY)
     if inventory.get("review_status") != "reviewed":
         raise SourceContractError("Selector inventory is not reviewed")
-    if registry_payload.get("review_status") != "reviewed":
-        raise SourceContractError("Route registry is not reviewed")
+    if (
+        registry_payload.get("review_status") != "draft"
+        or registry_payload.get("mutation_authority") != "none"
+    ):
+        raise SourceContractError("Current source registry is not a non-mutating draft")
 
     days = inventory.get("days", [])
     routes = registry_payload.get("routes", [])

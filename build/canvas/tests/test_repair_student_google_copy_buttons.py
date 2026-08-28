@@ -26,7 +26,9 @@ SPEC.loader.exec_module(repair)
 class SelectorMapTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        cls.selectors, cls.registry, cls.backup = repair.load_inputs()
+        cls.selectors, cls.registry, cls.backup = repair.load_inputs(
+            allow_historical_registry=True
+        )
         cls.by_route = {
             row["route_id"]: row for row in cls.selectors["routes"]
         }
@@ -56,6 +58,10 @@ class SelectorMapTests(unittest.TestCase):
             repair.sha256_file(repair.APPLIED_SOURCE_PLAN),
             repair.APPLIED_SOURCE_PLAN_SHA256,
         )
+
+    def test_historical_registry_cannot_authorize_prepare_or_apply(self) -> None:
+        with self.assertRaisesRegex(repair.RepairError, "cannot authorize"):
+            repair.load_inputs()
 
     def test_reference_only_dispute_is_resolved_to_bare_buttons(self) -> None:
         reference_only = {
@@ -115,7 +121,7 @@ class SelectorMapTests(unittest.TestCase):
 class DesiredBodyTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        selectors, _, backup = repair.load_inputs()
+        selectors, _, backup = repair.load_inputs(allow_historical_registry=True)
         cls.routes = {row["route_id"]: row for row in selectors["routes"]}
         cls.pages = {
             row["route_id"]: row

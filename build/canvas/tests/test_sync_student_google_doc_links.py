@@ -88,6 +88,7 @@ def reviewed_registry() -> dict:
     return {
         "schema_version": 1,
         "review_status": "reviewed",
+        "mutation_authority": "reviewed_source_course_body_plan_only",
         "routes": routes,
     }
 
@@ -282,6 +283,10 @@ class DiscoveryTests(unittest.TestCase):
 
 
 class RegistryAndArtifactTests(unittest.TestCase):
+    def test_workspace_historical_registry_cannot_authorize_apply(self) -> None:
+        with self.assertRaisesRegex(sync.RegistryError, "review_status"):
+            sync.load_registry(sync.FINAL_REGISTRY, for_apply=True)
+
     def test_reviewed_registry_requires_180_complete_rows(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             path = Path(temporary) / sync.FINAL_REGISTRY.name

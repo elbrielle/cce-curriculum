@@ -11,7 +11,7 @@ from pathlib import Path, PurePosixPath
 ROOT = Path(__file__).resolve().parents[2]
 PARITY = ROOT / "cce-curriculum/notes/google-workspace-parity-manifest.json"
 DRIVE_STATE = ROOT / "cce-curriculum/notes/google-workspace-drive-state.json"
-RESPONSE_ROUTES = ROOT / "build/google_docs/student_response_route_registry.json"
+RESPONSE_ROUTES = ROOT / "build/google_docs/student_response_route_registry.draft.json"
 SITE_MANIFEST = ROOT / "public-site/dist/data/site-manifest.json"
 COPY_URL = re.compile(r"https://docs\.google\.com/[^\s\"'<>]+/copy")
 
@@ -107,10 +107,11 @@ def main() -> None:
 
     student_rows = response_routes.get("routes")
     require(
-        response_routes.get("review_status") == "reviewed"
+        response_routes.get("review_status") == "draft"
+        and response_routes.get("mutation_authority") == "none"
         and isinstance(student_rows, list)
         and len(student_rows) == 180,
-        "reviewed student response-route registry must contain 180 rows",
+        "current non-mutating student response-route draft must contain 180 rows",
     )
     student_copy_urls = {
         row.get("google_doc", {}).get("copy_url") for row in student_rows
@@ -118,7 +119,7 @@ def main() -> None:
     require(
         len(student_copy_urls) == 180
         and all(isinstance(url, str) and COPY_URL.fullmatch(url) for url in student_copy_urls),
-        "reviewed student response /copy URLs must be complete and unique",
+        "current student response /copy URLs must be complete and unique",
     )
     for copy_url in sorted(student_copy_urls):
         expected_canvas.add(copy_url)

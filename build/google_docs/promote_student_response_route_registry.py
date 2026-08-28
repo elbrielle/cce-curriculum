@@ -397,6 +397,8 @@ def build_reviewed_registry(
 def validate_reviewed_payload(payload: dict) -> None:
     if payload.get("review_status") != "reviewed":
         raise PromotionError("Promoted payload is not reviewed")
+    if payload.get("mutation_authority") != "reviewed_source_course_body_plan_only":
+        raise PromotionError("Promoted payload lacks current mutation authority")
     routes = payload.get("routes")
     if not isinstance(routes, list) or len(routes) != ROUTE_COUNT:
         raise PromotionError("Promoted payload lost routes")

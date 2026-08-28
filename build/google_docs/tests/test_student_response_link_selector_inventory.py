@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import re
 import unittest
 from pathlib import Path
@@ -11,6 +12,44 @@ GENERATOR = (
     ROOT / "build/google_docs/build_student_response_link_selector_inventory.py"
 )
 INVENTORY = ROOT / "build/google_docs/student_response_link_selector_inventory.json"
+DRAFT_REGISTRY = ROOT / "build/google_docs/student_response_route_registry.draft.json"
+HISTORICAL_REGISTRY = ROOT / "build/google_docs/student_response_route_registry.json"
+
+
+def sha256_path(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def repository_path_hash_mismatches(payload: object) -> list[str]:
+    mismatches: list[str] = []
+
+    def visit(value: object) -> None:
+        if isinstance(value, dict):
+            raw_path = value.get("path")
+            expected = value.get("sha256")
+            if (
+                isinstance(raw_path, str)
+                and isinstance(expected, str)
+                and re.fullmatch(r"[0-9a-f]{64}", expected)
+                and not raw_path.startswith((".tmp/", "~/"))
+            ):
+                path = ROOT / raw_path
+                if not path.is_file():
+                    mismatches.append(f"missing:{raw_path}")
+                elif sha256_path(path) != expected:
+                    mismatches.append(f"stale:{raw_path}")
+            for child in value.values():
+                visit(child)
+        elif isinstance(value, list):
+            for child in value:
+                visit(child)
+
+    visit(payload)
+    return mismatches
 
 
 class StudentResponseLinkSelectorInventoryTests(unittest.TestCase):
@@ -62,6 +101,19 @@ class StudentResponseLinkSelectorInventoryTests(unittest.TestCase):
             )
             self.assertNotIn("?", selector["expected_old_href_canonical"])
             self.assertTrue(selector["source_evidence"]["authored_line_candidates"])
+
+    def test_current_draft_and_selector_provenance_hashes_match_repo_files(self) -> None:
+        draft = json.loads(DRAFT_REGISTRY.read_text(encoding="utf-8"))
+        self.assertEqual(repository_path_hash_mismatches(draft), [])
+        self.assertEqual(repository_path_hash_mismatches(self.payload), [])
+
+    def test_old_promoted_registry_is_explicitly_historical_and_non_authorizing(self) -> None:
+        historical = json.loads(HISTORICAL_REGISTRY.read_text(encoding="utf-8"))
+        self.assertEqual(historical["review_status"], "historical")
+        self.assertEqual(
+            historical["mutation_authority"], "none_requires_new_promotion"
+        )
+        self.assertEqual(historical["current_status"], "historical_live_snapshot_only")
 
     def test_two_pdf_specific_labels_have_reviewed_replacements(self) -> None:
         replacements = {

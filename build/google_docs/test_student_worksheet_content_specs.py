@@ -15,6 +15,30 @@ if str(HERE) not in sys.path:
     sys.path.insert(0, str(HERE))
 
 import build_student_worksheet_content_specs as composer  # noqa: E402
+import build_student_worksheet_source_specs as source_specs  # noqa: E402
+
+
+class SourceProvenanceMarkerTest(unittest.TestCase):
+    def test_explicit_marker_keeps_single_day_response_sources(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            builder = Path(directory) / "builder.py"
+            builder.write_text(
+                """names = {"WORK": "student-work.pdf", "RUBRIC": "rubric.pdf"}
+student = {
+    1: {"TITLE": "One"},
+    2: {"TITLE": "Two"},
+    3: {"TITLE": "Three"},
+    4: {"TITLE": "Four"},
+    5: {
+        "TITLE": "Five",
+        "RESPONSE_SOURCE_FILE_IDS": [files["WORK"]["id"], files["RUBRIC"]["id"]],
+    },
+}
+""",
+                encoding="utf-8",
+            )
+            discovered = source_specs.builder_day_pdf_sources(builder)
+        self.assertEqual(discovered[5], ["rubric.pdf", "student-work.pdf"])
 
 
 class MarkdownSemanticParsingTest(unittest.TestCase):

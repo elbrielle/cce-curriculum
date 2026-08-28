@@ -24,7 +24,7 @@ SITE_ROOT = ROOT / "public-site"
 DOCS_ROOT = ROOT / "docs"
 DEFAULT_OUTPUT = SITE_ROOT / "dist"
 COMPLETE_ARTIFACT_INVENTORY = ROOT / "cce-curriculum/notes/google-workspace-complete-artifact-inventory.json"
-STUDENT_RESPONSE_ROUTES = ROOT / "build/google_docs/student_response_route_registry.json"
+STUDENT_RESPONSE_ROUTES = ROOT / "build/google_docs/student_response_route_registry.draft.json"
 STUDENT_RESPONSE_SELECTORS = ROOT / "build/google_docs/student_response_link_selector_inventory.json"
 STUDENT_RESPONSE_DRIVE_ROOT_ID = "1FbY0WdnXN-PkW6Vi76qcpDfp7SKq5c5H"
 
@@ -346,8 +346,14 @@ def lesson_page_id(page: Page) -> str | None:
 def load_student_response_routes(pages: dict[Path, Page]) -> dict[str, dict]:
     payload = json.loads(STUDENT_RESPONSE_ROUTES.read_text(encoding="utf-8"))
     selectors = json.loads(STUDENT_RESPONSE_SELECTORS.read_text(encoding="utf-8"))
-    if payload.get("review_status") != "reviewed" or selectors.get("review_status") != "reviewed":
-        raise ValueError("Student response-route inputs must be reviewed")
+    if (
+        payload.get("review_status") != "draft"
+        or payload.get("mutation_authority") != "none"
+        or selectors.get("review_status") != "reviewed"
+    ):
+        raise ValueError(
+            "Public build requires the current non-mutating route draft and reviewed selectors"
+        )
     drive_root = payload.get("canonical_drive_root", {})
     if (
         drive_root.get("id") != STUDENT_RESPONSE_DRIVE_ROOT_ID

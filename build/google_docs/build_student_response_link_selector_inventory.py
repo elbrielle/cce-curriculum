@@ -45,6 +45,9 @@ import httpx
 
 ROOT = Path(__file__).resolve().parents[2]
 REGISTRY = ROOT / "build/google_docs/student_response_route_registry.json"
+CURRENT_SOURCE_REGISTRY = (
+    ROOT / "build/google_docs/student_response_route_registry.draft.json"
+)
 CONTENT_SPECS = ROOT / "build/google_docs/student_worksheet_content_specs.draft.json"
 MANUAL_CONTENT_SPECS = (
     ROOT / "build/google_docs/student_response_route_manual_content_specs.json"
@@ -61,7 +64,10 @@ EXPECTED_PLAN_SHA256 = (
     "9cc7b6f27ad03fcf947ff5e1987c8ef9fc941e2142ab7dc65d320b6c1f07e00c"
 )
 EXPECTED_REGISTRY_SHA256 = (
-    "e33d06f8fe9a22f2be7d1c2a3346b9929ce1d0d4c0b1e433f4f37dd8b12f16d7"
+    "db78d2ae94c1fb857d9820f34e57eb7c2ff4048fe11f522c41ec4ecf30373cba"
+)
+EXPECTED_CURRENT_SOURCE_REGISTRY_SHA256 = (
+    "1e1f010c52f78e84069e15316edbc8b024ef27ae711746301afe004aecffd113"
 )
 BASE = "https://learn.irvingisd.net"
 COURSE_ID = 98060
@@ -404,24 +410,50 @@ def build_payload(plan_path: Path, files: dict[int, dict[str, Any]]) -> dict[str
 
     plan = json.loads(plan_path.read_text(encoding="utf-8"))
     registry_payload = json.loads(REGISTRY.read_text(encoding="utf-8"))
+    current_source_payload = json.loads(
+        CURRENT_SOURCE_REGISTRY.read_text(encoding="utf-8")
+    )
     content_payload = json.loads(CONTENT_SPECS.read_text(encoding="utf-8"))
     routes = {row["day_key"]: row for row in registry_payload["routes"]}
+    current_source_routes = {
+        row["day_key"]: row for row in current_source_payload["routes"]
+    }
     content = {row["day_key"]: row for row in content_payload["days"]}
     student_targets = {
         row["day_key"]: row
         for row in plan["targets"]
         if row.get("role") == "student"
     }
-    if len(routes) != 180 or len(content) != 180 or len(student_targets) != 180:
-        raise ValueError("Expected 180 routes, content specs, and Student Guide targets")
+    if (
+        len(routes) != 180
+        or len(current_source_routes) != 180
+        or len(content) != 180
+        or len(student_targets) != 180
+    ):
+        raise ValueError(
+            "Expected 180 historical routes, current source routes, content specs, "
+            "and Student Guide targets"
+        )
+    current_source_hash = sha256_path(CURRENT_SOURCE_REGISTRY)
+    if current_source_hash != EXPECTED_CURRENT_SOURCE_REGISTRY_SHA256:
+        raise ValueError(
+            "Current source registry hash mismatch: "
+            f"{current_source_hash} != {EXPECTED_CURRENT_SOURCE_REGISTRY_SHA256}"
+        )
 
     days: list[dict[str, Any]] = []
     for day_key in sorted(routes, key=lambda value: tuple(map(int, re.findall(r"\d+", value)))):
         route = routes[day_key]
+        current_source_route = current_source_routes[day_key]
+        if (
+            current_source_route["google_doc"]["copy_url"]
+            != route["google_doc"]["copy_url"]
+        ):
+            raise ValueError(f"Historical/current Google Doc route mismatch for {day_key}")
         content_row = content[day_key]
         target = student_targets[day_key]
         source_pdfs = response_sources(content_row)
-        exit_pdfs = exit_sources(route)
+        exit_pdfs = exit_sources(current_source_route)
         desired = {**source_pdfs, **exit_pdfs}
 
         parsed_body = parse_student_body(target["before_body"])
@@ -432,8 +464,8 @@ def build_payload(plan_path: Path, files: dict[int, dict[str, Any]]) -> dict[str
         live_pdf_links: list[dict[str, Any]] = []
         selected_filenames: set[str] = set()
 
-        template_record = route["source"]["student_template"]
-        builder_record = route["source"]["canvas_builder"]
+        template_record = current_source_route["source"]["student_template"]
+        builder_record = current_source_route["source"]["canvas_builder"]
         template_path = ROOT / template_record["path"]
         builder_path = ROOT / builder_record["path"]
         per_day_template = "-day" in template_path.name
@@ -671,9 +703,13 @@ def build_payload(plan_path: Path, files: dict[int, dict[str, Any]]) -> dict[str
                 "path": portable_private_path(plan_path),
                 "sha256": plan_hash,
             },
-            "reviewed_route_registry": {
+            "historical_route_registry": {
                 "path": repo_path(REGISTRY),
                 "sha256": registry_hash,
+            },
+            "current_source_registry": {
+                "path": repo_path(CURRENT_SOURCE_REGISTRY),
+                "sha256": current_source_hash,
             },
             "content_specs": {
                 "path": repo_path(CONTENT_SPECS),

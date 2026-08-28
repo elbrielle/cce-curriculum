@@ -1,9 +1,10 @@
 {
   "schema_version": 2,
-  "artifact": "CCE student response-route reviewed registry",
-  "review_status": "reviewed",
-  "mutation_authority": "reviewed_source_course_body_plan_only",
-  "determinism": "Routes remain in curriculum order. Promotion provenance records the review time; exact draft, plan, source, Google Doc, Canvas Page, body, and publication identities are guarded.",
+  "artifact": "CCE historical student response-route registry snapshot",
+  "review_status": "historical",
+  "mutation_authority": "none_requires_new_promotion",
+  "current_status": "historical_live_snapshot_only",
+  "determinism": "This registry preserves the previously reviewed Canvas identities and promotion record, but its embedded source provenance predates the current consolidation. It cannot authorize prepare or apply work. Regenerate and promote the current draft with a new immutable read-only Canvas plan before any mutation.",
   "canonical_drive_root": {
     "id": "1FbY0WdnXN-PkW6Vi76qcpDfp7SKq5c5H",
     "path": "VILS27/Units_CCR"

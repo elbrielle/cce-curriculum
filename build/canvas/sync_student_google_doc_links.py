@@ -45,6 +45,7 @@ BASE = "https://learn.irvingisd.net"
 DEFAULT_COURSE_ID = 98060
 CANONICAL_DRIVE_PREFIX = "VILS27/Units_CCR/"
 REVIEWED_STATUS = "reviewed"
+REVIEWED_MUTATION_AUTHORITY = "reviewed_source_course_body_plan_only"
 EXPECTED_ROUTE_COUNT = 180
 EXPECTED_PAGE_COUNT = EXPECTED_ROUTE_COUNT * 2
 BLOCK_ID = "cce-student-google-doc"
@@ -296,6 +297,11 @@ def load_registry(path: Path, *, for_apply: bool) -> dict:
             raise RegistryError(
                 f"Apply requires review_status={REVIEWED_STATUS!r}; "
                 f"found {review_status!r}"
+            )
+        if payload.get("mutation_authority") != REVIEWED_MUTATION_AUTHORITY:
+            raise RegistryError(
+                "Apply requires a newly promoted registry with mutation_authority="
+                f"{REVIEWED_MUTATION_AUTHORITY!r}"
             )
 
     raw_routes = payload.get("routes")

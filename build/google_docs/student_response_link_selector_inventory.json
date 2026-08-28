@@ -31,12 +31,12 @@
               26
             ],
             "authored_path": "build/canvas/templates/wk0-day1-student.html",
-            "authored_path_sha256": "0627c15127eeaed3853d0d982fdb748c0c5f311928493dab0a9530308314489b",
+            "authored_path_sha256": "e08ac1692c549ef77b78207da455157b544cd4c8c7caaf47568bb9fc694e9887",
             "canvas_builder_path": "build/canvas/build_wk0.py",
             "canvas_builder_sha256": "700ac2744cbd5ca09c498743fcf2f7c51db8c3b7158e4ef2feb58072b4f25c3b",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk0-day1-student.html",
-            "student_template_sha256": "0627c15127eeaed3853d0d982fdb748c0c5f311928493dab0a9530308314489b"
+            "student_template_sha256": "e08ac1692c549ef77b78207da455157b544cd4c8c7caaf47568bb9fc694e9887"
           }
         }
       ],
@@ -174,12 +174,12 @@
               6
             ],
             "authored_path": "build/canvas/templates/wk0-day4-student.html",
-            "authored_path_sha256": "db25dbfe380352699b56cf147e5d7c47617aaa297f33a19288269e168f823adf",
+            "authored_path_sha256": "12a54a5a0f71055cc2ba80826754e038d878b9982aee9d678c65bc97ccc6d22a",
             "canvas_builder_path": "build/canvas/build_wk0.py",
             "canvas_builder_sha256": "700ac2744cbd5ca09c498743fcf2f7c51db8c3b7158e4ef2feb58072b4f25c3b",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk0-day4-student.html",
-            "student_template_sha256": "db25dbfe380352699b56cf147e5d7c47617aaa297f33a19288269e168f823adf"
+            "student_template_sha256": "12a54a5a0f71055cc2ba80826754e038d878b9982aee9d678c65bc97ccc6d22a"
           }
         }
       ],
@@ -250,12 +250,12 @@
               48
             ],
             "authored_path": "build/canvas/templates/wk1-day1-student.html",
-            "authored_path_sha256": "89ffb7321068358072e93f14078164333deb3439d2749d56f7d119914ec63d74",
+            "authored_path_sha256": "ac69508ea0ec278291b303067bd2c800d24fdc07fc20d91080d64c426d9ac43a",
             "canvas_builder_path": "build/canvas/build_wk1.py",
             "canvas_builder_sha256": "abda2013aa660f60fe64b39f914a7bca250ea1eb78f13f50fb1c208215962170",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk1-day1-student.html",
-            "student_template_sha256": "89ffb7321068358072e93f14078164333deb3439d2749d56f7d119914ec63d74"
+            "student_template_sha256": "ac69508ea0ec278291b303067bd2c800d24fdc07fc20d91080d64c426d9ac43a"
           }
         },
         {
@@ -280,12 +280,12 @@
               73
             ],
             "authored_path": "build/canvas/templates/wk1-day1-student.html",
-            "authored_path_sha256": "89ffb7321068358072e93f14078164333deb3439d2749d56f7d119914ec63d74",
+            "authored_path_sha256": "ac69508ea0ec278291b303067bd2c800d24fdc07fc20d91080d64c426d9ac43a",
             "canvas_builder_path": "build/canvas/build_wk1.py",
             "canvas_builder_sha256": "abda2013aa660f60fe64b39f914a7bca250ea1eb78f13f50fb1c208215962170",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk1-day1-student.html",
-            "student_template_sha256": "89ffb7321068358072e93f14078164333deb3439d2749d56f7d119914ec63d74"
+            "student_template_sha256": "ac69508ea0ec278291b303067bd2c800d24fdc07fc20d91080d64c426d9ac43a"
           }
         }
       ],
@@ -392,12 +392,12 @@
               40
             ],
             "authored_path": "build/canvas/templates/wk1-day4-student.html",
-            "authored_path_sha256": "c0efdbdbaa83aeb343e29a1f71c1fd02757274506a47b638e6353d77cf291f10",
+            "authored_path_sha256": "45e7d2f1eb8f47a65678a20899925f7a5efca49870eb548f0e9f4c42c83672f6",
             "canvas_builder_path": "build/canvas/build_wk1.py",
             "canvas_builder_sha256": "abda2013aa660f60fe64b39f914a7bca250ea1eb78f13f50fb1c208215962170",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk1-day4-student.html",
-            "student_template_sha256": "c0efdbdbaa83aeb343e29a1f71c1fd02757274506a47b638e6353d77cf291f10"
+            "student_template_sha256": "45e7d2f1eb8f47a65678a20899925f7a5efca49870eb548f0e9f4c42c83672f6"
           }
         }
       ],
@@ -468,12 +468,12 @@
               45
             ],
             "authored_path": "build/canvas/templates/wk2-day1-student.html",
-            "authored_path_sha256": "40a329f8fbcddc1275f59a13f57a1397f205a220cde53f7b68b821454edec025",
+            "authored_path_sha256": "db7ea0c42c1aac0c22faca413356eb4d7fb25ed27f1447ecb3e50f961e9a629d",
             "canvas_builder_path": "build/canvas/build_wk2.py",
             "canvas_builder_sha256": "13bf4ab6ae37f1975711b7b16112519f3e35596ac1ab81202a8b22ecbcacf594",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk2-day1-student.html",
-            "student_template_sha256": "40a329f8fbcddc1275f59a13f57a1397f205a220cde53f7b68b821454edec025"
+            "student_template_sha256": "db7ea0c42c1aac0c22faca413356eb4d7fb25ed27f1447ecb3e50f961e9a629d"
           }
         },
         {
@@ -498,12 +498,12 @@
               59
             ],
             "authored_path": "build/canvas/templates/wk2-day1-student.html",
-            "authored_path_sha256": "40a329f8fbcddc1275f59a13f57a1397f205a220cde53f7b68b821454edec025",
+            "authored_path_sha256": "db7ea0c42c1aac0c22faca413356eb4d7fb25ed27f1447ecb3e50f961e9a629d",
             "canvas_builder_path": "build/canvas/build_wk2.py",
             "canvas_builder_sha256": "13bf4ab6ae37f1975711b7b16112519f3e35596ac1ab81202a8b22ecbcacf594",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk2-day1-student.html",
-            "student_template_sha256": "40a329f8fbcddc1275f59a13f57a1397f205a220cde53f7b68b821454edec025"
+            "student_template_sha256": "db7ea0c42c1aac0c22faca413356eb4d7fb25ed27f1447ecb3e50f961e9a629d"
           }
         }
       ],
@@ -552,12 +552,12 @@
               35
             ],
             "authored_path": "build/canvas/templates/wk2-day2-student.html",
-            "authored_path_sha256": "8aa15e8f07cda4b4d08ad4cf12a6e4945ff5e8e982385d5aa7af7873db477770",
+            "authored_path_sha256": "06af2b57e3e2e2025ec86e2341954b6115551dddd960bb4e44ddcdc492d62e38",
             "canvas_builder_path": "build/canvas/build_wk2.py",
             "canvas_builder_sha256": "13bf4ab6ae37f1975711b7b16112519f3e35596ac1ab81202a8b22ecbcacf594",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk2-day2-student.html",
-            "student_template_sha256": "8aa15e8f07cda4b4d08ad4cf12a6e4945ff5e8e982385d5aa7af7873db477770"
+            "student_template_sha256": "06af2b57e3e2e2025ec86e2341954b6115551dddd960bb4e44ddcdc492d62e38"
           }
         },
         {
@@ -582,12 +582,12 @@
               55
             ],
             "authored_path": "build/canvas/templates/wk2-day2-student.html",
-            "authored_path_sha256": "8aa15e8f07cda4b4d08ad4cf12a6e4945ff5e8e982385d5aa7af7873db477770",
+            "authored_path_sha256": "06af2b57e3e2e2025ec86e2341954b6115551dddd960bb4e44ddcdc492d62e38",
             "canvas_builder_path": "build/canvas/build_wk2.py",
             "canvas_builder_sha256": "13bf4ab6ae37f1975711b7b16112519f3e35596ac1ab81202a8b22ecbcacf594",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk2-day2-student.html",
-            "student_template_sha256": "8aa15e8f07cda4b4d08ad4cf12a6e4945ff5e8e982385d5aa7af7873db477770"
+            "student_template_sha256": "06af2b57e3e2e2025ec86e2341954b6115551dddd960bb4e44ddcdc492d62e38"
           }
         }
       ],
@@ -650,12 +650,12 @@
               32
             ],
             "authored_path": "build/canvas/templates/wk2-day3-student.html",
-            "authored_path_sha256": "f9290f101f6d24f760c732b4b86bda467097bece1d1defe967a0eb2f0a86450e",
+            "authored_path_sha256": "1c1e6a8d03f0643aa969ed7846fad0c14fe65a7fb42cba54460e265dc9ad37e6",
             "canvas_builder_path": "build/canvas/build_wk2.py",
             "canvas_builder_sha256": "13bf4ab6ae37f1975711b7b16112519f3e35596ac1ab81202a8b22ecbcacf594",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk2-day3-student.html",
-            "student_template_sha256": "f9290f101f6d24f760c732b4b86bda467097bece1d1defe967a0eb2f0a86450e"
+            "student_template_sha256": "1c1e6a8d03f0643aa969ed7846fad0c14fe65a7fb42cba54460e265dc9ad37e6"
           }
         },
         {
@@ -680,12 +680,12 @@
               40
             ],
             "authored_path": "build/canvas/templates/wk2-day3-student.html",
-            "authored_path_sha256": "f9290f101f6d24f760c732b4b86bda467097bece1d1defe967a0eb2f0a86450e",
+            "authored_path_sha256": "1c1e6a8d03f0643aa969ed7846fad0c14fe65a7fb42cba54460e265dc9ad37e6",
             "canvas_builder_path": "build/canvas/build_wk2.py",
             "canvas_builder_sha256": "13bf4ab6ae37f1975711b7b16112519f3e35596ac1ab81202a8b22ecbcacf594",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk2-day3-student.html",
-            "student_template_sha256": "f9290f101f6d24f760c732b4b86bda467097bece1d1defe967a0eb2f0a86450e"
+            "student_template_sha256": "1c1e6a8d03f0643aa969ed7846fad0c14fe65a7fb42cba54460e265dc9ad37e6"
           }
         },
         {
@@ -710,12 +710,12 @@
               56
             ],
             "authored_path": "build/canvas/templates/wk2-day3-student.html",
-            "authored_path_sha256": "f9290f101f6d24f760c732b4b86bda467097bece1d1defe967a0eb2f0a86450e",
+            "authored_path_sha256": "1c1e6a8d03f0643aa969ed7846fad0c14fe65a7fb42cba54460e265dc9ad37e6",
             "canvas_builder_path": "build/canvas/build_wk2.py",
             "canvas_builder_sha256": "13bf4ab6ae37f1975711b7b16112519f3e35596ac1ab81202a8b22ecbcacf594",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk2-day3-student.html",
-            "student_template_sha256": "f9290f101f6d24f760c732b4b86bda467097bece1d1defe967a0eb2f0a86450e"
+            "student_template_sha256": "1c1e6a8d03f0643aa969ed7846fad0c14fe65a7fb42cba54460e265dc9ad37e6"
           }
         }
       ],
@@ -756,12 +756,12 @@
               63
             ],
             "authored_path": "build/canvas/templates/wk2-day4-student.html",
-            "authored_path_sha256": "e0cec53face3bf7a3cca567fc1bc5b61f451fbc26f99fd4d36e1b96353393c8f",
+            "authored_path_sha256": "6919c4527840ddc55d1c4e294d7b17e56aa1cf6fc6870d8df35d641b0869e702",
             "canvas_builder_path": "build/canvas/build_wk2.py",
             "canvas_builder_sha256": "13bf4ab6ae37f1975711b7b16112519f3e35596ac1ab81202a8b22ecbcacf594",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk2-day4-student.html",
-            "student_template_sha256": "e0cec53face3bf7a3cca567fc1bc5b61f451fbc26f99fd4d36e1b96353393c8f"
+            "student_template_sha256": "6919c4527840ddc55d1c4e294d7b17e56aa1cf6fc6870d8df35d641b0869e702"
           }
         }
       ],
@@ -850,12 +850,12 @@
               32
             ],
             "authored_path": "build/canvas/templates/wk3-day1-student.html",
-            "authored_path_sha256": "4c9d80882e94c57bf97011f07930c6bc3b9b09dc416d0541762ece6e60b3cdb8",
+            "authored_path_sha256": "798fa6bd2b458f4ac69606065fb756fa06604574a8c38175e8510d99ecc6bf89",
             "canvas_builder_path": "build/canvas/build_wk3.py",
             "canvas_builder_sha256": "287769d9dc2dda9ea312366d732bed7fdd8b2aca6977eff621e98aef033fc3db",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk3-day1-student.html",
-            "student_template_sha256": "4c9d80882e94c57bf97011f07930c6bc3b9b09dc416d0541762ece6e60b3cdb8"
+            "student_template_sha256": "798fa6bd2b458f4ac69606065fb756fa06604574a8c38175e8510d99ecc6bf89"
           }
         },
         {
@@ -880,12 +880,12 @@
               38
             ],
             "authored_path": "build/canvas/templates/wk3-day1-student.html",
-            "authored_path_sha256": "4c9d80882e94c57bf97011f07930c6bc3b9b09dc416d0541762ece6e60b3cdb8",
+            "authored_path_sha256": "798fa6bd2b458f4ac69606065fb756fa06604574a8c38175e8510d99ecc6bf89",
             "canvas_builder_path": "build/canvas/build_wk3.py",
             "canvas_builder_sha256": "287769d9dc2dda9ea312366d732bed7fdd8b2aca6977eff621e98aef033fc3db",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk3-day1-student.html",
-            "student_template_sha256": "4c9d80882e94c57bf97011f07930c6bc3b9b09dc416d0541762ece6e60b3cdb8"
+            "student_template_sha256": "798fa6bd2b458f4ac69606065fb756fa06604574a8c38175e8510d99ecc6bf89"
           }
         }
       ],
@@ -926,12 +926,12 @@
               38
             ],
             "authored_path": "build/canvas/templates/wk3-day2-student.html",
-            "authored_path_sha256": "cdbfce56df55ff4e92829e8d32d3715befe26ec4d8d5dfd7dda35f836dcda4d6",
+            "authored_path_sha256": "8eeb6eac2af1c9b2db8aaf35af1bd4523863d564ea554d0aaacaeeb5214d30e9",
             "canvas_builder_path": "build/canvas/build_wk3.py",
             "canvas_builder_sha256": "287769d9dc2dda9ea312366d732bed7fdd8b2aca6977eff621e98aef033fc3db",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk3-day2-student.html",
-            "student_template_sha256": "cdbfce56df55ff4e92829e8d32d3715befe26ec4d8d5dfd7dda35f836dcda4d6"
+            "student_template_sha256": "8eeb6eac2af1c9b2db8aaf35af1bd4523863d564ea554d0aaacaeeb5214d30e9"
           }
         },
         {
@@ -956,12 +956,12 @@
               48
             ],
             "authored_path": "build/canvas/templates/wk3-day2-student.html",
-            "authored_path_sha256": "cdbfce56df55ff4e92829e8d32d3715befe26ec4d8d5dfd7dda35f836dcda4d6",
+            "authored_path_sha256": "8eeb6eac2af1c9b2db8aaf35af1bd4523863d564ea554d0aaacaeeb5214d30e9",
             "canvas_builder_path": "build/canvas/build_wk3.py",
             "canvas_builder_sha256": "287769d9dc2dda9ea312366d732bed7fdd8b2aca6977eff621e98aef033fc3db",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk3-day2-student.html",
-            "student_template_sha256": "cdbfce56df55ff4e92829e8d32d3715befe26ec4d8d5dfd7dda35f836dcda4d6"
+            "student_template_sha256": "8eeb6eac2af1c9b2db8aaf35af1bd4523863d564ea554d0aaacaeeb5214d30e9"
           }
         }
       ],
@@ -1017,12 +1017,12 @@
               39
             ],
             "authored_path": "build/canvas/templates/wk3-day3-student.html",
-            "authored_path_sha256": "372dcdd00c0365128ad536442c0793620a730d6fefbb6a4c688ca0fe42be4849",
+            "authored_path_sha256": "5d8d766960cdfdb7260de74457d9d2942981b0d9eebe13cafa54cdb6cc618ffd",
             "canvas_builder_path": "build/canvas/build_wk3.py",
             "canvas_builder_sha256": "287769d9dc2dda9ea312366d732bed7fdd8b2aca6977eff621e98aef033fc3db",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk3-day3-student.html",
-            "student_template_sha256": "372dcdd00c0365128ad536442c0793620a730d6fefbb6a4c688ca0fe42be4849"
+            "student_template_sha256": "5d8d766960cdfdb7260de74457d9d2942981b0d9eebe13cafa54cdb6cc618ffd"
           }
         }
       ],
@@ -1071,12 +1071,12 @@
               42
             ],
             "authored_path": "build/canvas/templates/wk3-day4-student.html",
-            "authored_path_sha256": "ea7f6a2e1884b30287233da02f52e5064523700401e4b9e14b7ff62a754c7d51",
+            "authored_path_sha256": "ee9bdf2ca37b7939561f421785ea993f4b3141502d91d1470836721abdbfc748",
             "canvas_builder_path": "build/canvas/build_wk3.py",
             "canvas_builder_sha256": "287769d9dc2dda9ea312366d732bed7fdd8b2aca6977eff621e98aef033fc3db",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk3-day4-student.html",
-            "student_template_sha256": "ea7f6a2e1884b30287233da02f52e5064523700401e4b9e14b7ff62a754c7d51"
+            "student_template_sha256": "ee9bdf2ca37b7939561f421785ea993f4b3141502d91d1470836721abdbfc748"
           }
         },
         {
@@ -1101,12 +1101,12 @@
               52
             ],
             "authored_path": "build/canvas/templates/wk3-day4-student.html",
-            "authored_path_sha256": "ea7f6a2e1884b30287233da02f52e5064523700401e4b9e14b7ff62a754c7d51",
+            "authored_path_sha256": "ee9bdf2ca37b7939561f421785ea993f4b3141502d91d1470836721abdbfc748",
             "canvas_builder_path": "build/canvas/build_wk3.py",
             "canvas_builder_sha256": "287769d9dc2dda9ea312366d732bed7fdd8b2aca6977eff621e98aef033fc3db",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk3-day4-student.html",
-            "student_template_sha256": "ea7f6a2e1884b30287233da02f52e5064523700401e4b9e14b7ff62a754c7d51"
+            "student_template_sha256": "ee9bdf2ca37b7939561f421785ea993f4b3141502d91d1470836721abdbfc748"
           }
         }
       ],
@@ -1155,12 +1155,12 @@
               43
             ],
             "authored_path": "build/canvas/templates/wk3-day5-student.html",
-            "authored_path_sha256": "8d6d10c07d314e86b2c82df95ce8e9a6186ef0df3d88bd09b15c1f72f599299c",
+            "authored_path_sha256": "eb8448f750753016ce42474430f7b19e715f414df648e2bbb7989ba34a95e05e",
             "canvas_builder_path": "build/canvas/build_wk3.py",
             "canvas_builder_sha256": "287769d9dc2dda9ea312366d732bed7fdd8b2aca6977eff621e98aef033fc3db",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk3-day5-student.html",
-            "student_template_sha256": "8d6d10c07d314e86b2c82df95ce8e9a6186ef0df3d88bd09b15c1f72f599299c"
+            "student_template_sha256": "eb8448f750753016ce42474430f7b19e715f414df648e2bbb7989ba34a95e05e"
           }
         }
       ],
@@ -1209,12 +1209,12 @@
               40
             ],
             "authored_path": "build/canvas/templates/wk4-day1-student.html",
-            "authored_path_sha256": "c8a8f2b245d9b30bb7a80d138fab0eae36c271db22d989f2932a645a3a35cb76",
+            "authored_path_sha256": "9ff38ba65e9fe35f0c018149a3667fa71bc94e252166bbc212c1b96ff1ad5b41",
             "canvas_builder_path": "build/canvas/build_wk4.py",
             "canvas_builder_sha256": "e02ab2e59ae3a2b2309d2e1680cf83e665fa27fe637e105be869ccd9e86cbfad",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk4-day1-student.html",
-            "student_template_sha256": "c8a8f2b245d9b30bb7a80d138fab0eae36c271db22d989f2932a645a3a35cb76"
+            "student_template_sha256": "9ff38ba65e9fe35f0c018149a3667fa71bc94e252166bbc212c1b96ff1ad5b41"
           }
         }
       ],
@@ -1277,12 +1277,12 @@
               31
             ],
             "authored_path": "build/canvas/templates/wk4-day2-student.html",
-            "authored_path_sha256": "f9edc68d2adca9a20df51a9b8b91d961aa88bcf575ce40c0dfbc0acfdf99431b",
+            "authored_path_sha256": "26c21f768d0c4e1c40d38de99b9fb3104d7ba151a05683efed6b18e7b1e61d4b",
             "canvas_builder_path": "build/canvas/build_wk4.py",
             "canvas_builder_sha256": "e02ab2e59ae3a2b2309d2e1680cf83e665fa27fe637e105be869ccd9e86cbfad",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk4-day2-student.html",
-            "student_template_sha256": "f9edc68d2adca9a20df51a9b8b91d961aa88bcf575ce40c0dfbc0acfdf99431b"
+            "student_template_sha256": "26c21f768d0c4e1c40d38de99b9fb3104d7ba151a05683efed6b18e7b1e61d4b"
           }
         },
         {
@@ -1307,12 +1307,12 @@
               39
             ],
             "authored_path": "build/canvas/templates/wk4-day2-student.html",
-            "authored_path_sha256": "f9edc68d2adca9a20df51a9b8b91d961aa88bcf575ce40c0dfbc0acfdf99431b",
+            "authored_path_sha256": "26c21f768d0c4e1c40d38de99b9fb3104d7ba151a05683efed6b18e7b1e61d4b",
             "canvas_builder_path": "build/canvas/build_wk4.py",
             "canvas_builder_sha256": "e02ab2e59ae3a2b2309d2e1680cf83e665fa27fe637e105be869ccd9e86cbfad",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk4-day2-student.html",
-            "student_template_sha256": "f9edc68d2adca9a20df51a9b8b91d961aa88bcf575ce40c0dfbc0acfdf99431b"
+            "student_template_sha256": "26c21f768d0c4e1c40d38de99b9fb3104d7ba151a05683efed6b18e7b1e61d4b"
           }
         }
       ],
@@ -1375,12 +1375,12 @@
               44
             ],
             "authored_path": "build/canvas/templates/wk4-day3-student.html",
-            "authored_path_sha256": "da56e54f24b978422468800f2089e8b867243d5a32933cabaed3fc19e23f4238",
+            "authored_path_sha256": "275b80dd2888c5ad165e76207b2336064087a00eb0683ce63b3ca57dcfc6ea5a",
             "canvas_builder_path": "build/canvas/build_wk4.py",
             "canvas_builder_sha256": "e02ab2e59ae3a2b2309d2e1680cf83e665fa27fe637e105be869ccd9e86cbfad",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk4-day3-student.html",
-            "student_template_sha256": "da56e54f24b978422468800f2089e8b867243d5a32933cabaed3fc19e23f4238"
+            "student_template_sha256": "275b80dd2888c5ad165e76207b2336064087a00eb0683ce63b3ca57dcfc6ea5a"
           }
         },
         {
@@ -1405,12 +1405,12 @@
               47
             ],
             "authored_path": "build/canvas/templates/wk4-day3-student.html",
-            "authored_path_sha256": "da56e54f24b978422468800f2089e8b867243d5a32933cabaed3fc19e23f4238",
+            "authored_path_sha256": "275b80dd2888c5ad165e76207b2336064087a00eb0683ce63b3ca57dcfc6ea5a",
             "canvas_builder_path": "build/canvas/build_wk4.py",
             "canvas_builder_sha256": "e02ab2e59ae3a2b2309d2e1680cf83e665fa27fe637e105be869ccd9e86cbfad",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk4-day3-student.html",
-            "student_template_sha256": "da56e54f24b978422468800f2089e8b867243d5a32933cabaed3fc19e23f4238"
+            "student_template_sha256": "275b80dd2888c5ad165e76207b2336064087a00eb0683ce63b3ca57dcfc6ea5a"
           }
         },
         {
@@ -1435,12 +1435,12 @@
               55
             ],
             "authored_path": "build/canvas/templates/wk4-day3-student.html",
-            "authored_path_sha256": "da56e54f24b978422468800f2089e8b867243d5a32933cabaed3fc19e23f4238",
+            "authored_path_sha256": "275b80dd2888c5ad165e76207b2336064087a00eb0683ce63b3ca57dcfc6ea5a",
             "canvas_builder_path": "build/canvas/build_wk4.py",
             "canvas_builder_sha256": "e02ab2e59ae3a2b2309d2e1680cf83e665fa27fe637e105be869ccd9e86cbfad",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk4-day3-student.html",
-            "student_template_sha256": "da56e54f24b978422468800f2089e8b867243d5a32933cabaed3fc19e23f4238"
+            "student_template_sha256": "275b80dd2888c5ad165e76207b2336064087a00eb0683ce63b3ca57dcfc6ea5a"
           }
         }
       ],
@@ -1489,12 +1489,12 @@
               46
             ],
             "authored_path": "build/canvas/templates/wk4-day4-student.html",
-            "authored_path_sha256": "66e87500afa7fbf58c7186c38e80f1edd11636848b66b60fe1dc9e86b0ea6e87",
+            "authored_path_sha256": "3da5a25330e8dec4e437086ca4a33b67b99a9031ef4b2840ed7f509aa811310d",
             "canvas_builder_path": "build/canvas/build_wk4.py",
             "canvas_builder_sha256": "e02ab2e59ae3a2b2309d2e1680cf83e665fa27fe637e105be869ccd9e86cbfad",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk4-day4-student.html",
-            "student_template_sha256": "66e87500afa7fbf58c7186c38e80f1edd11636848b66b60fe1dc9e86b0ea6e87"
+            "student_template_sha256": "3da5a25330e8dec4e437086ca4a33b67b99a9031ef4b2840ed7f509aa811310d"
           }
         },
         {
@@ -1519,12 +1519,12 @@
               49
             ],
             "authored_path": "build/canvas/templates/wk4-day4-student.html",
-            "authored_path_sha256": "66e87500afa7fbf58c7186c38e80f1edd11636848b66b60fe1dc9e86b0ea6e87",
+            "authored_path_sha256": "3da5a25330e8dec4e437086ca4a33b67b99a9031ef4b2840ed7f509aa811310d",
             "canvas_builder_path": "build/canvas/build_wk4.py",
             "canvas_builder_sha256": "e02ab2e59ae3a2b2309d2e1680cf83e665fa27fe637e105be869ccd9e86cbfad",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk4-day4-student.html",
-            "student_template_sha256": "66e87500afa7fbf58c7186c38e80f1edd11636848b66b60fe1dc9e86b0ea6e87"
+            "student_template_sha256": "3da5a25330e8dec4e437086ca4a33b67b99a9031ef4b2840ed7f509aa811310d"
           }
         }
       ],
@@ -1573,12 +1573,12 @@
               52
             ],
             "authored_path": "build/canvas/templates/wk4-day5-student.html",
-            "authored_path_sha256": "2ce13330b9d71998c4786b9875e324e26b8f2c306b7af1d3d8c0360bfd673dca",
+            "authored_path_sha256": "4b8a4e4405d3e436a43f123f9e227283cf380c0a6050c1df1a96232564f01fd0",
             "canvas_builder_path": "build/canvas/build_wk4.py",
             "canvas_builder_sha256": "e02ab2e59ae3a2b2309d2e1680cf83e665fa27fe637e105be869ccd9e86cbfad",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk4-day5-student.html",
-            "student_template_sha256": "2ce13330b9d71998c4786b9875e324e26b8f2c306b7af1d3d8c0360bfd673dca"
+            "student_template_sha256": "4b8a4e4405d3e436a43f123f9e227283cf380c0a6050c1df1a96232564f01fd0"
           }
         }
       ],
@@ -1619,12 +1619,12 @@
               27
             ],
             "authored_path": "build/canvas/templates/wk5-day1-student.html",
-            "authored_path_sha256": "0a4fb59df671bc246ec82a01a421473788b45c29df578eb044f41e0a5a06a5df",
+            "authored_path_sha256": "1a537115a047adb37733050ec97b2976c7441d17eacd2e3a5f8287ff26170805",
             "canvas_builder_path": "build/canvas/build_wk5.py",
             "canvas_builder_sha256": "e7e866fae7627dc64aab56544ba9901a55767aa8eb7d9e951fbb635fa8fec3d3",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk5-day1-student.html",
-            "student_template_sha256": "0a4fb59df671bc246ec82a01a421473788b45c29df578eb044f41e0a5a06a5df"
+            "student_template_sha256": "1a537115a047adb37733050ec97b2976c7441d17eacd2e3a5f8287ff26170805"
           }
         }
       ],
@@ -1665,12 +1665,12 @@
               24
             ],
             "authored_path": "build/canvas/templates/wk5-day2-student.html",
-            "authored_path_sha256": "4b830e8274663ffa0ba850044aeda582854caec4c8f118639d6b0067d3749a05",
+            "authored_path_sha256": "719173fe8f3452ad42e5df05a1b05c6339e1415da49befc3bf14b4368298e7c0",
             "canvas_builder_path": "build/canvas/build_wk5.py",
             "canvas_builder_sha256": "e7e866fae7627dc64aab56544ba9901a55767aa8eb7d9e951fbb635fa8fec3d3",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk5-day2-student.html",
-            "student_template_sha256": "4b830e8274663ffa0ba850044aeda582854caec4c8f118639d6b0067d3749a05"
+            "student_template_sha256": "719173fe8f3452ad42e5df05a1b05c6339e1415da49befc3bf14b4368298e7c0"
           }
         }
       ],
@@ -1719,12 +1719,12 @@
               31
             ],
             "authored_path": "build/canvas/templates/wk5-day3-student.html",
-            "authored_path_sha256": "465086cd84f59e4199abc724d5a63229606df07e93d4d571245347a8603e93db",
+            "authored_path_sha256": "7c9d0018e018962d54510fd32023302253ba00b193172c1600c7f03173caf1cc",
             "canvas_builder_path": "build/canvas/build_wk5.py",
             "canvas_builder_sha256": "e7e866fae7627dc64aab56544ba9901a55767aa8eb7d9e951fbb635fa8fec3d3",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk5-day3-student.html",
-            "student_template_sha256": "465086cd84f59e4199abc724d5a63229606df07e93d4d571245347a8603e93db"
+            "student_template_sha256": "7c9d0018e018962d54510fd32023302253ba00b193172c1600c7f03173caf1cc"
           }
         }
       ],
@@ -1765,12 +1765,12 @@
               26
             ],
             "authored_path": "build/canvas/templates/wk5-day4-student.html",
-            "authored_path_sha256": "58507832b89bed9ccdbb12821229c37698fdb27201813cc7a4ae20e3cd0dc6e4",
+            "authored_path_sha256": "e81f8e7bf9486ce6bf2b117319b0d91738d0e12d6a9f4867c439287e9fd1f5d1",
             "canvas_builder_path": "build/canvas/build_wk5.py",
             "canvas_builder_sha256": "e7e866fae7627dc64aab56544ba9901a55767aa8eb7d9e951fbb635fa8fec3d3",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk5-day4-student.html",
-            "student_template_sha256": "58507832b89bed9ccdbb12821229c37698fdb27201813cc7a4ae20e3cd0dc6e4"
+            "student_template_sha256": "e81f8e7bf9486ce6bf2b117319b0d91738d0e12d6a9f4867c439287e9fd1f5d1"
           }
         }
       ],
@@ -1826,12 +1826,12 @@
               36
             ],
             "authored_path": "build/canvas/templates/wk5-day5-student.html",
-            "authored_path_sha256": "e28b53b2f63cb8f38ae8155fa9cd3fa4548ae86e322a1898bb872fc0376a7361",
+            "authored_path_sha256": "03a23dcd8d4000a231cae7d059cdf52bd10363c1fb65640a9341da7e466df799",
             "canvas_builder_path": "build/canvas/build_wk5.py",
             "canvas_builder_sha256": "e7e866fae7627dc64aab56544ba9901a55767aa8eb7d9e951fbb635fa8fec3d3",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/wk5-day5-student.html",
-            "student_template_sha256": "e28b53b2f63cb8f38ae8155fa9cd3fa4548ae86e322a1898bb872fc0376a7361"
+            "student_template_sha256": "03a23dcd8d4000a231cae7d059cdf52bd10363c1fb65640a9341da7e466df799"
           }
         }
       ],
@@ -1882,12 +1882,12 @@
               61
             ],
             "authored_path": "build/canvas/templates/2sw-wk1-day1-student.html",
-            "authored_path_sha256": "460701c42fa18bd560e4c13e2a8e561d8c9575f5cfdf2e6cef3b24d33c066684",
+            "authored_path_sha256": "5b2887d4c1c277388c8a7d546f65776b713dc0ffa478d97ffa1461ee409895a2",
             "canvas_builder_path": "build/canvas/build_2sw_wk1.py",
             "canvas_builder_sha256": "9749c655978b9b87966fccb62d77cf083cd7fde2fc9e283754810f22ec9c48b3",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/2sw-wk1-day1-student.html",
-            "student_template_sha256": "460701c42fa18bd560e4c13e2a8e561d8c9575f5cfdf2e6cef3b24d33c066684"
+            "student_template_sha256": "5b2887d4c1c277388c8a7d546f65776b713dc0ffa478d97ffa1461ee409895a2"
           }
         }
       ],
@@ -1962,12 +1962,12 @@
               39
             ],
             "authored_path": "build/canvas/templates/2sw-wk1-day3-student.html",
-            "authored_path_sha256": "352bfaf7c6599cb9098767fa22cd0749c1baf5815347f60cb1faba0a71aed06b",
+            "authored_path_sha256": "85c605a585fd4a6c5f32a5e62b33c037a43ddc0e0c076d760c88f31fb0c40364",
             "canvas_builder_path": "build/canvas/build_2sw_wk1.py",
             "canvas_builder_sha256": "9749c655978b9b87966fccb62d77cf083cd7fde2fc9e283754810f22ec9c48b3",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/2sw-wk1-day3-student.html",
-            "student_template_sha256": "352bfaf7c6599cb9098767fa22cd0749c1baf5815347f60cb1faba0a71aed06b"
+            "student_template_sha256": "85c605a585fd4a6c5f32a5e62b33c037a43ddc0e0c076d760c88f31fb0c40364"
           }
         }
       ],
@@ -2009,12 +2009,12 @@
               38
             ],
             "authored_path": "build/canvas/templates/2sw-wk1-day4-student.html",
-            "authored_path_sha256": "901c13124844de43533bf86836271fe61c33758730d85114b954d00dff3d1cea",
+            "authored_path_sha256": "f93b36bbe705cfc000cb73cb8a74f99fee512073702fc987d96384ed87f4aa1a",
             "canvas_builder_path": "build/canvas/build_2sw_wk1.py",
             "canvas_builder_sha256": "9749c655978b9b87966fccb62d77cf083cd7fde2fc9e283754810f22ec9c48b3",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/2sw-wk1-day4-student.html",
-            "student_template_sha256": "901c13124844de43533bf86836271fe61c33758730d85114b954d00dff3d1cea"
+            "student_template_sha256": "f93b36bbe705cfc000cb73cb8a74f99fee512073702fc987d96384ed87f4aa1a"
           }
         },
         {
@@ -2040,12 +2040,12 @@
               46
             ],
             "authored_path": "build/canvas/templates/2sw-wk1-day4-student.html",
-            "authored_path_sha256": "901c13124844de43533bf86836271fe61c33758730d85114b954d00dff3d1cea",
+            "authored_path_sha256": "f93b36bbe705cfc000cb73cb8a74f99fee512073702fc987d96384ed87f4aa1a",
             "canvas_builder_path": "build/canvas/build_2sw_wk1.py",
             "canvas_builder_sha256": "9749c655978b9b87966fccb62d77cf083cd7fde2fc9e283754810f22ec9c48b3",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/2sw-wk1-day4-student.html",
-            "student_template_sha256": "901c13124844de43533bf86836271fe61c33758730d85114b954d00dff3d1cea"
+            "student_template_sha256": "f93b36bbe705cfc000cb73cb8a74f99fee512073702fc987d96384ed87f4aa1a"
           }
         }
       ],
@@ -2095,12 +2095,12 @@
               38
             ],
             "authored_path": "build/canvas/templates/2sw-wk1-day5-student.html",
-            "authored_path_sha256": "67a32b29225dc0e95932312e8e02d8a202c8c81fe4a562c590d5e40a17fe24e1",
+            "authored_path_sha256": "4942efda35ab972d8b6e0fb9a28d2c0c3f0b6eb6c16ceb647d3b0209e6d016f2",
             "canvas_builder_path": "build/canvas/build_2sw_wk1.py",
             "canvas_builder_sha256": "9749c655978b9b87966fccb62d77cf083cd7fde2fc9e283754810f22ec9c48b3",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/2sw-wk1-day5-student.html",
-            "student_template_sha256": "67a32b29225dc0e95932312e8e02d8a202c8c81fe4a562c590d5e40a17fe24e1"
+            "student_template_sha256": "4942efda35ab972d8b6e0fb9a28d2c0c3f0b6eb6c16ceb647d3b0209e6d016f2"
           }
         }
       ],
@@ -2143,12 +2143,12 @@
               77
             ],
             "authored_path": "build/canvas/templates/2sw-wk2-day1-student.html",
-            "authored_path_sha256": "bf4aa34e9e9ed2c05a50a1a383da62279dfee897e9497596656ee886c005d1a6",
+            "authored_path_sha256": "a42e32489d6611b88551bf9b64c64f0ed6aac7c0bbab4379e3115b0257f457ca",
             "canvas_builder_path": "build/canvas/build_2sw_wk2.py",
             "canvas_builder_sha256": "53cd6bd6981fa9c95f3d5d2a7771fcdc759e3250333ecd99fed587a55ece91fd",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/2sw-wk2-day1-student.html",
-            "student_template_sha256": "bf4aa34e9e9ed2c05a50a1a383da62279dfee897e9497596656ee886c005d1a6"
+            "student_template_sha256": "a42e32489d6611b88551bf9b64c64f0ed6aac7c0bbab4379e3115b0257f457ca"
           }
         }
       ],
@@ -2190,12 +2190,12 @@
               38
             ],
             "authored_path": "build/canvas/templates/2sw-wk2-day2-student.html",
-            "authored_path_sha256": "f1e2b9d6dd501a9c0845d1c0c19a283a97009051bf4ade01791c6c404891fef7",
+            "authored_path_sha256": "e9f29854e13fbe926962135550b90a0959e3ca9b3ebf4158ef8e505a45210c0d",
             "canvas_builder_path": "build/canvas/build_2sw_wk2.py",
             "canvas_builder_sha256": "53cd6bd6981fa9c95f3d5d2a7771fcdc759e3250333ecd99fed587a55ece91fd",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/2sw-wk2-day2-student.html",
-            "student_template_sha256": "f1e2b9d6dd501a9c0845d1c0c19a283a97009051bf4ade01791c6c404891fef7"
+            "student_template_sha256": "e9f29854e13fbe926962135550b90a0959e3ca9b3ebf4158ef8e505a45210c0d"
           }
         }
       ],
@@ -2237,12 +2237,12 @@
               35
             ],
             "authored_path": "build/canvas/templates/2sw-wk2-day3-student.html",
-            "authored_path_sha256": "4719186b6f14cfc7a6ce86a7fc3593e12da8a2fe21da1fd17d7134c708615fd4",
+            "authored_path_sha256": "d7c263c79731cb7090169579de2051d305afda949fc8ab1488b4ef3a2b7a8caa",
             "canvas_builder_path": "build/canvas/build_2sw_wk2.py",
             "canvas_builder_sha256": "53cd6bd6981fa9c95f3d5d2a7771fcdc759e3250333ecd99fed587a55ece91fd",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/2sw-wk2-day3-student.html",
-            "student_template_sha256": "4719186b6f14cfc7a6ce86a7fc3593e12da8a2fe21da1fd17d7134c708615fd4"
+            "student_template_sha256": "d7c263c79731cb7090169579de2051d305afda949fc8ab1488b4ef3a2b7a8caa"
           }
         }
       ],
@@ -2292,12 +2292,12 @@
               34
             ],
             "authored_path": "build/canvas/templates/2sw-wk2-day4-student.html",
-            "authored_path_sha256": "6664941ec57a79c837c94417e931f2bba19820c047139d9cdd41163ff89f3c7b",
+            "authored_path_sha256": "297191a23c85399be27954527abca966ccc197883f656a78be9bf2e334a7381a",
             "canvas_builder_path": "build/canvas/build_2sw_wk2.py",
             "canvas_builder_sha256": "53cd6bd6981fa9c95f3d5d2a7771fcdc759e3250333ecd99fed587a55ece91fd",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/2sw-wk2-day4-student.html",
-            "student_template_sha256": "6664941ec57a79c837c94417e931f2bba19820c047139d9cdd41163ff89f3c7b"
+            "student_template_sha256": "297191a23c85399be27954527abca966ccc197883f656a78be9bf2e334a7381a"
           }
         }
       ],
@@ -2339,12 +2339,12 @@
               29
             ],
             "authored_path": "build/canvas/templates/2sw-wk2-day5-student.html",
-            "authored_path_sha256": "5cf41121d39d1f803e7e5e2834c1a4f6f5037b780c0716155a87a0510c8d3b96",
+            "authored_path_sha256": "e95d23e0341f53f9aa101e35e943359eafc6cc15a1ded8f70664f9643f2d226d",
             "canvas_builder_path": "build/canvas/build_2sw_wk2.py",
             "canvas_builder_sha256": "53cd6bd6981fa9c95f3d5d2a7771fcdc759e3250333ecd99fed587a55ece91fd",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/2sw-wk2-day5-student.html",
-            "student_template_sha256": "5cf41121d39d1f803e7e5e2834c1a4f6f5037b780c0716155a87a0510c8d3b96"
+            "student_template_sha256": "e95d23e0341f53f9aa101e35e943359eafc6cc15a1ded8f70664f9643f2d226d"
           }
         }
       ],
@@ -2460,12 +2460,12 @@
               34
             ],
             "authored_path": "build/canvas/templates/2sw-wk3-day3-student.html",
-            "authored_path_sha256": "82615eb381c70ac4349629ae3f330b7ae4d88c732169f8c170b044f015b29804",
+            "authored_path_sha256": "0dc7f75e939554f3586172a8d3e8ae1dbef6315c87b1df336feab738e1fd38b3",
             "canvas_builder_path": "build/canvas/build_2sw_wk3.py",
             "canvas_builder_sha256": "f0596459767c5eacffbef5660f42fca99c5f758bd8153d509234ae27c3dfd447",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/2sw-wk3-day3-student.html",
-            "student_template_sha256": "82615eb381c70ac4349629ae3f330b7ae4d88c732169f8c170b044f015b29804"
+            "student_template_sha256": "0dc7f75e939554f3586172a8d3e8ae1dbef6315c87b1df336feab738e1fd38b3"
           }
         }
       ],
@@ -2522,12 +2522,12 @@
               34
             ],
             "authored_path": "build/canvas/templates/2sw-wk3-day4-student.html",
-            "authored_path_sha256": "ac013376703ae34c7ccd69c8c5220547afe70bd876c5a0216aaeba583f4bf26a",
+            "authored_path_sha256": "727a207e42c137a4362ffcd8d92b11f7a2097028606259fc89c311419dbd3d45",
             "canvas_builder_path": "build/canvas/build_2sw_wk3.py",
             "canvas_builder_sha256": "f0596459767c5eacffbef5660f42fca99c5f758bd8153d509234ae27c3dfd447",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/2sw-wk3-day4-student.html",
-            "student_template_sha256": "ac013376703ae34c7ccd69c8c5220547afe70bd876c5a0216aaeba583f4bf26a"
+            "student_template_sha256": "727a207e42c137a4362ffcd8d92b11f7a2097028606259fc89c311419dbd3d45"
           }
         }
       ],
@@ -2573,12 +2573,12 @@
               75
             ],
             "authored_path": "build/canvas/templates/2sw-wk3-day5-student.html",
-            "authored_path_sha256": "1fc8149149be35980ecbd94348b09c522b772c1aaa30a22b08f9b999f376981e",
+            "authored_path_sha256": "a6dfc72afade876320482e2cd309b08406e8438b9eb7d9f7b06b459b4766a35d",
             "canvas_builder_path": "build/canvas/build_2sw_wk3.py",
             "canvas_builder_sha256": "f0596459767c5eacffbef5660f42fca99c5f758bd8153d509234ae27c3dfd447",
             "href_authored_in": "student_template",
             "student_template_path": "build/canvas/templates/2sw-wk3-day5-student.html",
-            "student_template_sha256": "1fc8149149be35980ecbd94348b09c522b772c1aaa30a22b08f9b999f376981e"
+            "student_template_sha256": "a6dfc72afade876320482e2cd309b08406e8438b9eb7d9f7b06b459b4766a35d"
           }
         }
       ],
@@ -2629,9 +2629,9 @@
               859
             ],
             "authored_path": "build/canvas/build_2sw_wk4.py",
-            "authored_path_sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce",
+            "authored_path_sha256": "2f9895442fa9d79a05353cd917a20c0c936d046057dc615231514765fe8b1a1e",
             "canvas_builder_path": "build/canvas/build_2sw_wk4.py",
-            "canvas_builder_sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce",
+            "canvas_builder_sha256": "2f9895442fa9d79a05353cd917a20c0c936d046057dc615231514765fe8b1a1e",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/2sw-wk4-student.html",
             "student_template_sha256": "08a3e9fdf2cd322a0da07ea1d2d3c75a2e4a6d797c3886b01a7eaefcdb6826bf"
@@ -2677,9 +2677,9 @@
               895
             ],
             "authored_path": "build/canvas/build_2sw_wk4.py",
-            "authored_path_sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce",
+            "authored_path_sha256": "2f9895442fa9d79a05353cd917a20c0c936d046057dc615231514765fe8b1a1e",
             "canvas_builder_path": "build/canvas/build_2sw_wk4.py",
-            "canvas_builder_sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce",
+            "canvas_builder_sha256": "2f9895442fa9d79a05353cd917a20c0c936d046057dc615231514765fe8b1a1e",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/2sw-wk4-student.html",
             "student_template_sha256": "08a3e9fdf2cd322a0da07ea1d2d3c75a2e4a6d797c3886b01a7eaefcdb6826bf"
@@ -2732,9 +2732,9 @@
               752
             ],
             "authored_path": "build/canvas/build_2sw_wk4.py",
-            "authored_path_sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce",
+            "authored_path_sha256": "2f9895442fa9d79a05353cd917a20c0c936d046057dc615231514765fe8b1a1e",
             "canvas_builder_path": "build/canvas/build_2sw_wk4.py",
-            "canvas_builder_sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce",
+            "canvas_builder_sha256": "2f9895442fa9d79a05353cd917a20c0c936d046057dc615231514765fe8b1a1e",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/2sw-wk4-student.html",
             "student_template_sha256": "08a3e9fdf2cd322a0da07ea1d2d3c75a2e4a6d797c3886b01a7eaefcdb6826bf"
@@ -2787,9 +2787,9 @@
               784
             ],
             "authored_path": "build/canvas/build_2sw_wk4.py",
-            "authored_path_sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce",
+            "authored_path_sha256": "2f9895442fa9d79a05353cd917a20c0c936d046057dc615231514765fe8b1a1e",
             "canvas_builder_path": "build/canvas/build_2sw_wk4.py",
-            "canvas_builder_sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce",
+            "canvas_builder_sha256": "2f9895442fa9d79a05353cd917a20c0c936d046057dc615231514765fe8b1a1e",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/2sw-wk4-student.html",
             "student_template_sha256": "08a3e9fdf2cd322a0da07ea1d2d3c75a2e4a6d797c3886b01a7eaefcdb6826bf"
@@ -2850,9 +2850,9 @@
               824
             ],
             "authored_path": "build/canvas/build_2sw_wk4.py",
-            "authored_path_sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce",
+            "authored_path_sha256": "2f9895442fa9d79a05353cd917a20c0c936d046057dc615231514765fe8b1a1e",
             "canvas_builder_path": "build/canvas/build_2sw_wk4.py",
-            "canvas_builder_sha256": "70dba25109b4f6f5972a6673251b56e7cb90d7a7626b195f0e101124dd8f8fce",
+            "canvas_builder_sha256": "2f9895442fa9d79a05353cd917a20c0c936d046057dc615231514765fe8b1a1e",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/2sw-wk4-student.html",
             "student_template_sha256": "08a3e9fdf2cd322a0da07ea1d2d3c75a2e4a6d797c3886b01a7eaefcdb6826bf"
@@ -2905,9 +2905,9 @@
               748
             ],
             "authored_path": "build/canvas/build_2sw_wk5.py",
-            "authored_path_sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8",
+            "authored_path_sha256": "924b66b4bed60610ed8baedd285029f1d0888795be02bc709042f77d48ab727d",
             "canvas_builder_path": "build/canvas/build_2sw_wk5.py",
-            "canvas_builder_sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8",
+            "canvas_builder_sha256": "924b66b4bed60610ed8baedd285029f1d0888795be02bc709042f77d48ab727d",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/2sw-wk5-student.html",
             "student_template_sha256": "1ccc8cd18ebda964a832c47d9f0e1561699302a0b29d75230045d90e713e9274"
@@ -2952,9 +2952,9 @@
               794
             ],
             "authored_path": "build/canvas/build_2sw_wk5.py",
-            "authored_path_sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8",
+            "authored_path_sha256": "924b66b4bed60610ed8baedd285029f1d0888795be02bc709042f77d48ab727d",
             "canvas_builder_path": "build/canvas/build_2sw_wk5.py",
-            "canvas_builder_sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8",
+            "canvas_builder_sha256": "924b66b4bed60610ed8baedd285029f1d0888795be02bc709042f77d48ab727d",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/2sw-wk5-student.html",
             "student_template_sha256": "1ccc8cd18ebda964a832c47d9f0e1561699302a0b29d75230045d90e713e9274"
@@ -3008,9 +3008,9 @@
               841
             ],
             "authored_path": "build/canvas/build_2sw_wk5.py",
-            "authored_path_sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8",
+            "authored_path_sha256": "924b66b4bed60610ed8baedd285029f1d0888795be02bc709042f77d48ab727d",
             "canvas_builder_path": "build/canvas/build_2sw_wk5.py",
-            "canvas_builder_sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8",
+            "canvas_builder_sha256": "924b66b4bed60610ed8baedd285029f1d0888795be02bc709042f77d48ab727d",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/2sw-wk5-student.html",
             "student_template_sha256": "1ccc8cd18ebda964a832c47d9f0e1561699302a0b29d75230045d90e713e9274"
@@ -3056,9 +3056,9 @@
               1081
             ],
             "authored_path": "build/canvas/build_2sw_wk5.py",
-            "authored_path_sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8",
+            "authored_path_sha256": "924b66b4bed60610ed8baedd285029f1d0888795be02bc709042f77d48ab727d",
             "canvas_builder_path": "build/canvas/build_2sw_wk5.py",
-            "canvas_builder_sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8",
+            "canvas_builder_sha256": "924b66b4bed60610ed8baedd285029f1d0888795be02bc709042f77d48ab727d",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/2sw-wk5-student.html",
             "student_template_sha256": "1ccc8cd18ebda964a832c47d9f0e1561699302a0b29d75230045d90e713e9274"
@@ -3111,9 +3111,9 @@
               929
             ],
             "authored_path": "build/canvas/build_2sw_wk5.py",
-            "authored_path_sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8",
+            "authored_path_sha256": "924b66b4bed60610ed8baedd285029f1d0888795be02bc709042f77d48ab727d",
             "canvas_builder_path": "build/canvas/build_2sw_wk5.py",
-            "canvas_builder_sha256": "aec3af287d38c66041d27aaeff68ce59950eb7f8819f90fc1d5e158f284950c8",
+            "canvas_builder_sha256": "924b66b4bed60610ed8baedd285029f1d0888795be02bc709042f77d48ab727d",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/2sw-wk5-student.html",
             "student_template_sha256": "1ccc8cd18ebda964a832c47d9f0e1561699302a0b29d75230045d90e713e9274"
@@ -3166,9 +3166,9 @@
               571
             ],
             "authored_path": "build/canvas/build_2sw_wk6.py",
-            "authored_path_sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370",
+            "authored_path_sha256": "8d97a69a424a1ad7840343690c024a58fa930a8a00d8c3233c56e99fa8604d71",
             "canvas_builder_path": "build/canvas/build_2sw_wk6.py",
-            "canvas_builder_sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370",
+            "canvas_builder_sha256": "8d97a69a424a1ad7840343690c024a58fa930a8a00d8c3233c56e99fa8604d71",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/2sw-wk6-student.html",
             "student_template_sha256": "e12b8c4335387c108d7d56466d9868b198065d0c8e4d9817b7d24c5f7d16a062"
@@ -3214,9 +3214,9 @@
               832
             ],
             "authored_path": "build/canvas/build_2sw_wk6.py",
-            "authored_path_sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370",
+            "authored_path_sha256": "8d97a69a424a1ad7840343690c024a58fa930a8a00d8c3233c56e99fa8604d71",
             "canvas_builder_path": "build/canvas/build_2sw_wk6.py",
-            "canvas_builder_sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370",
+            "canvas_builder_sha256": "8d97a69a424a1ad7840343690c024a58fa930a8a00d8c3233c56e99fa8604d71",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/2sw-wk6-student.html",
             "student_template_sha256": "e12b8c4335387c108d7d56466d9868b198065d0c8e4d9817b7d24c5f7d16a062"
@@ -3262,9 +3262,9 @@
               871
             ],
             "authored_path": "build/canvas/build_2sw_wk6.py",
-            "authored_path_sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370",
+            "authored_path_sha256": "8d97a69a424a1ad7840343690c024a58fa930a8a00d8c3233c56e99fa8604d71",
             "canvas_builder_path": "build/canvas/build_2sw_wk6.py",
-            "canvas_builder_sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370",
+            "canvas_builder_sha256": "8d97a69a424a1ad7840343690c024a58fa930a8a00d8c3233c56e99fa8604d71",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/2sw-wk6-student.html",
             "student_template_sha256": "e12b8c4335387c108d7d56466d9868b198065d0c8e4d9817b7d24c5f7d16a062"
@@ -3310,9 +3310,9 @@
               909
             ],
             "authored_path": "build/canvas/build_2sw_wk6.py",
-            "authored_path_sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370",
+            "authored_path_sha256": "8d97a69a424a1ad7840343690c024a58fa930a8a00d8c3233c56e99fa8604d71",
             "canvas_builder_path": "build/canvas/build_2sw_wk6.py",
-            "canvas_builder_sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370",
+            "canvas_builder_sha256": "8d97a69a424a1ad7840343690c024a58fa930a8a00d8c3233c56e99fa8604d71",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/2sw-wk6-student.html",
             "student_template_sha256": "e12b8c4335387c108d7d56466d9868b198065d0c8e4d9817b7d24c5f7d16a062"
@@ -3365,9 +3365,9 @@
               759
             ],
             "authored_path": "build/canvas/build_2sw_wk6.py",
-            "authored_path_sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370",
+            "authored_path_sha256": "8d97a69a424a1ad7840343690c024a58fa930a8a00d8c3233c56e99fa8604d71",
             "canvas_builder_path": "build/canvas/build_2sw_wk6.py",
-            "canvas_builder_sha256": "6ef9e77d92846003a3db351a69437a6af5b5a60cf07393e3beba0051ce4c1370",
+            "canvas_builder_sha256": "8d97a69a424a1ad7840343690c024a58fa930a8a00d8c3233c56e99fa8604d71",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/2sw-wk6-student.html",
             "student_template_sha256": "e12b8c4335387c108d7d56466d9868b198065d0c8e4d9817b7d24c5f7d16a062"
@@ -3451,9 +3451,9 @@
               361
             ],
             "authored_path": "build/canvas/build_3sw_wk1.py",
-            "authored_path_sha256": "24be13c1ac0bd96b2b06d846b20a37fe9e38f65987f9549cd27997c2e9e0077d",
+            "authored_path_sha256": "f1436585ec94e60854cca55c68c142694038b7f22565208848ae404b9f71d855",
             "canvas_builder_path": "build/canvas/build_3sw_wk1.py",
-            "canvas_builder_sha256": "24be13c1ac0bd96b2b06d846b20a37fe9e38f65987f9549cd27997c2e9e0077d",
+            "canvas_builder_sha256": "f1436585ec94e60854cca55c68c142694038b7f22565208848ae404b9f71d855",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk1-student.html",
             "student_template_sha256": "32bacd595c34de6f95423467c43ebdf1b0b8848e66e6307b0ed01446873ca653"
@@ -3499,9 +3499,9 @@
               380
             ],
             "authored_path": "build/canvas/build_3sw_wk1.py",
-            "authored_path_sha256": "24be13c1ac0bd96b2b06d846b20a37fe9e38f65987f9549cd27997c2e9e0077d",
+            "authored_path_sha256": "f1436585ec94e60854cca55c68c142694038b7f22565208848ae404b9f71d855",
             "canvas_builder_path": "build/canvas/build_3sw_wk1.py",
-            "canvas_builder_sha256": "24be13c1ac0bd96b2b06d846b20a37fe9e38f65987f9549cd27997c2e9e0077d",
+            "canvas_builder_sha256": "f1436585ec94e60854cca55c68c142694038b7f22565208848ae404b9f71d855",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk1-student.html",
             "student_template_sha256": "32bacd595c34de6f95423467c43ebdf1b0b8848e66e6307b0ed01446873ca653"
@@ -3555,9 +3555,9 @@
               387
             ],
             "authored_path": "build/canvas/build_3sw_wk1.py",
-            "authored_path_sha256": "24be13c1ac0bd96b2b06d846b20a37fe9e38f65987f9549cd27997c2e9e0077d",
+            "authored_path_sha256": "f1436585ec94e60854cca55c68c142694038b7f22565208848ae404b9f71d855",
             "canvas_builder_path": "build/canvas/build_3sw_wk1.py",
-            "canvas_builder_sha256": "24be13c1ac0bd96b2b06d846b20a37fe9e38f65987f9549cd27997c2e9e0077d",
+            "canvas_builder_sha256": "f1436585ec94e60854cca55c68c142694038b7f22565208848ae404b9f71d855",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk1-student.html",
             "student_template_sha256": "32bacd595c34de6f95423467c43ebdf1b0b8848e66e6307b0ed01446873ca653"
@@ -3611,9 +3611,9 @@
               400
             ],
             "authored_path": "build/canvas/build_3sw_wk1.py",
-            "authored_path_sha256": "24be13c1ac0bd96b2b06d846b20a37fe9e38f65987f9549cd27997c2e9e0077d",
+            "authored_path_sha256": "f1436585ec94e60854cca55c68c142694038b7f22565208848ae404b9f71d855",
             "canvas_builder_path": "build/canvas/build_3sw_wk1.py",
-            "canvas_builder_sha256": "24be13c1ac0bd96b2b06d846b20a37fe9e38f65987f9549cd27997c2e9e0077d",
+            "canvas_builder_sha256": "f1436585ec94e60854cca55c68c142694038b7f22565208848ae404b9f71d855",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk1-student.html",
             "student_template_sha256": "32bacd595c34de6f95423467c43ebdf1b0b8848e66e6307b0ed01446873ca653"
@@ -3704,9 +3704,9 @@
               793
             ],
             "authored_path": "build/canvas/build_3sw_wk2.py",
-            "authored_path_sha256": "02bdf6ff78db4969a3a19f2edd8b94235c60a7de1b38db4fa2c47553e49ecc9d",
+            "authored_path_sha256": "556d204ca9cd6e1a5bdfbb49b5289b3ad70a7466ee508c49cf1a2172c786871a",
             "canvas_builder_path": "build/canvas/build_3sw_wk2.py",
-            "canvas_builder_sha256": "02bdf6ff78db4969a3a19f2edd8b94235c60a7de1b38db4fa2c47553e49ecc9d",
+            "canvas_builder_sha256": "556d204ca9cd6e1a5bdfbb49b5289b3ad70a7466ee508c49cf1a2172c786871a",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk2-student.html",
             "student_template_sha256": "8988bb87359a36bba6db52eb62dd150b4fdcef598f543635ff0333186ff51d3d"
@@ -3759,9 +3759,9 @@
               827
             ],
             "authored_path": "build/canvas/build_3sw_wk2.py",
-            "authored_path_sha256": "02bdf6ff78db4969a3a19f2edd8b94235c60a7de1b38db4fa2c47553e49ecc9d",
+            "authored_path_sha256": "556d204ca9cd6e1a5bdfbb49b5289b3ad70a7466ee508c49cf1a2172c786871a",
             "canvas_builder_path": "build/canvas/build_3sw_wk2.py",
-            "canvas_builder_sha256": "02bdf6ff78db4969a3a19f2edd8b94235c60a7de1b38db4fa2c47553e49ecc9d",
+            "canvas_builder_sha256": "556d204ca9cd6e1a5bdfbb49b5289b3ad70a7466ee508c49cf1a2172c786871a",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk2-student.html",
             "student_template_sha256": "8988bb87359a36bba6db52eb62dd150b4fdcef598f543635ff0333186ff51d3d"
@@ -3814,9 +3814,9 @@
               860
             ],
             "authored_path": "build/canvas/build_3sw_wk2.py",
-            "authored_path_sha256": "02bdf6ff78db4969a3a19f2edd8b94235c60a7de1b38db4fa2c47553e49ecc9d",
+            "authored_path_sha256": "556d204ca9cd6e1a5bdfbb49b5289b3ad70a7466ee508c49cf1a2172c786871a",
             "canvas_builder_path": "build/canvas/build_3sw_wk2.py",
-            "canvas_builder_sha256": "02bdf6ff78db4969a3a19f2edd8b94235c60a7de1b38db4fa2c47553e49ecc9d",
+            "canvas_builder_sha256": "556d204ca9cd6e1a5bdfbb49b5289b3ad70a7466ee508c49cf1a2172c786871a",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk2-student.html",
             "student_template_sha256": "8988bb87359a36bba6db52eb62dd150b4fdcef598f543635ff0333186ff51d3d"
@@ -3869,9 +3869,9 @@
               892
             ],
             "authored_path": "build/canvas/build_3sw_wk2.py",
-            "authored_path_sha256": "02bdf6ff78db4969a3a19f2edd8b94235c60a7de1b38db4fa2c47553e49ecc9d",
+            "authored_path_sha256": "556d204ca9cd6e1a5bdfbb49b5289b3ad70a7466ee508c49cf1a2172c786871a",
             "canvas_builder_path": "build/canvas/build_3sw_wk2.py",
-            "canvas_builder_sha256": "02bdf6ff78db4969a3a19f2edd8b94235c60a7de1b38db4fa2c47553e49ecc9d",
+            "canvas_builder_sha256": "556d204ca9cd6e1a5bdfbb49b5289b3ad70a7466ee508c49cf1a2172c786871a",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk2-student.html",
             "student_template_sha256": "8988bb87359a36bba6db52eb62dd150b4fdcef598f543635ff0333186ff51d3d"
@@ -3955,9 +3955,9 @@
               615
             ],
             "authored_path": "build/canvas/build_3sw_wk3.py",
-            "authored_path_sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580",
+            "authored_path_sha256": "54398f9b2a919eb36f0a5e92adc6c87fabb4b1eeceaae2950bcbe9963dd9b2d9",
             "canvas_builder_path": "build/canvas/build_3sw_wk3.py",
-            "canvas_builder_sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580",
+            "canvas_builder_sha256": "54398f9b2a919eb36f0a5e92adc6c87fabb4b1eeceaae2950bcbe9963dd9b2d9",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk3-student.html",
             "student_template_sha256": "91b913e9980c1b6fdfa19bdab11533d63430a7851590f31179f5c44c5e3d54f7"
@@ -4010,9 +4010,9 @@
               647
             ],
             "authored_path": "build/canvas/build_3sw_wk3.py",
-            "authored_path_sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580",
+            "authored_path_sha256": "54398f9b2a919eb36f0a5e92adc6c87fabb4b1eeceaae2950bcbe9963dd9b2d9",
             "canvas_builder_path": "build/canvas/build_3sw_wk3.py",
-            "canvas_builder_sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580",
+            "canvas_builder_sha256": "54398f9b2a919eb36f0a5e92adc6c87fabb4b1eeceaae2950bcbe9963dd9b2d9",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk3-student.html",
             "student_template_sha256": "91b913e9980c1b6fdfa19bdab11533d63430a7851590f31179f5c44c5e3d54f7"
@@ -4065,9 +4065,9 @@
               679
             ],
             "authored_path": "build/canvas/build_3sw_wk3.py",
-            "authored_path_sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580",
+            "authored_path_sha256": "54398f9b2a919eb36f0a5e92adc6c87fabb4b1eeceaae2950bcbe9963dd9b2d9",
             "canvas_builder_path": "build/canvas/build_3sw_wk3.py",
-            "canvas_builder_sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580",
+            "canvas_builder_sha256": "54398f9b2a919eb36f0a5e92adc6c87fabb4b1eeceaae2950bcbe9963dd9b2d9",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk3-student.html",
             "student_template_sha256": "91b913e9980c1b6fdfa19bdab11533d63430a7851590f31179f5c44c5e3d54f7"
@@ -4096,9 +4096,9 @@
               679
             ],
             "authored_path": "build/canvas/build_3sw_wk3.py",
-            "authored_path_sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580",
+            "authored_path_sha256": "54398f9b2a919eb36f0a5e92adc6c87fabb4b1eeceaae2950bcbe9963dd9b2d9",
             "canvas_builder_path": "build/canvas/build_3sw_wk3.py",
-            "canvas_builder_sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580",
+            "canvas_builder_sha256": "54398f9b2a919eb36f0a5e92adc6c87fabb4b1eeceaae2950bcbe9963dd9b2d9",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk3-student.html",
             "student_template_sha256": "91b913e9980c1b6fdfa19bdab11533d63430a7851590f31179f5c44c5e3d54f7"
@@ -4143,9 +4143,9 @@
               711
             ],
             "authored_path": "build/canvas/build_3sw_wk3.py",
-            "authored_path_sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580",
+            "authored_path_sha256": "54398f9b2a919eb36f0a5e92adc6c87fabb4b1eeceaae2950bcbe9963dd9b2d9",
             "canvas_builder_path": "build/canvas/build_3sw_wk3.py",
-            "canvas_builder_sha256": "8dbc8b62e901bc410f49eae7f0310f6d6679cb459ddaf000407afce720603580",
+            "canvas_builder_sha256": "54398f9b2a919eb36f0a5e92adc6c87fabb4b1eeceaae2950bcbe9963dd9b2d9",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk3-student.html",
             "student_template_sha256": "91b913e9980c1b6fdfa19bdab11533d63430a7851590f31179f5c44c5e3d54f7"
@@ -4191,9 +4191,9 @@
               789
             ],
             "authored_path": "build/canvas/build_3sw_wk4.py",
-            "authored_path_sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468",
+            "authored_path_sha256": "d1dbad574d6ea4989efa68406865fe2d2d3d9b2e6366ba46306ad809b13f7c88",
             "canvas_builder_path": "build/canvas/build_3sw_wk4.py",
-            "canvas_builder_sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468",
+            "canvas_builder_sha256": "d1dbad574d6ea4989efa68406865fe2d2d3d9b2e6366ba46306ad809b13f7c88",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk4-student.html",
             "student_template_sha256": "37eb1c45dfc04f1e6aee7d901c5721ee1fb444c92a75d828c845704fd78b14fb"
@@ -4247,9 +4247,9 @@
               831
             ],
             "authored_path": "build/canvas/build_3sw_wk4.py",
-            "authored_path_sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468",
+            "authored_path_sha256": "d1dbad574d6ea4989efa68406865fe2d2d3d9b2e6366ba46306ad809b13f7c88",
             "canvas_builder_path": "build/canvas/build_3sw_wk4.py",
-            "canvas_builder_sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468",
+            "canvas_builder_sha256": "d1dbad574d6ea4989efa68406865fe2d2d3d9b2e6366ba46306ad809b13f7c88",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk4-student.html",
             "student_template_sha256": "37eb1c45dfc04f1e6aee7d901c5721ee1fb444c92a75d828c845704fd78b14fb"
@@ -4303,9 +4303,9 @@
               869
             ],
             "authored_path": "build/canvas/build_3sw_wk4.py",
-            "authored_path_sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468",
+            "authored_path_sha256": "d1dbad574d6ea4989efa68406865fe2d2d3d9b2e6366ba46306ad809b13f7c88",
             "canvas_builder_path": "build/canvas/build_3sw_wk4.py",
-            "canvas_builder_sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468",
+            "canvas_builder_sha256": "d1dbad574d6ea4989efa68406865fe2d2d3d9b2e6366ba46306ad809b13f7c88",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk4-student.html",
             "student_template_sha256": "37eb1c45dfc04f1e6aee7d901c5721ee1fb444c92a75d828c845704fd78b14fb"
@@ -4351,9 +4351,9 @@
               907
             ],
             "authored_path": "build/canvas/build_3sw_wk4.py",
-            "authored_path_sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468",
+            "authored_path_sha256": "d1dbad574d6ea4989efa68406865fe2d2d3d9b2e6366ba46306ad809b13f7c88",
             "canvas_builder_path": "build/canvas/build_3sw_wk4.py",
-            "canvas_builder_sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468",
+            "canvas_builder_sha256": "d1dbad574d6ea4989efa68406865fe2d2d3d9b2e6366ba46306ad809b13f7c88",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk4-student.html",
             "student_template_sha256": "37eb1c45dfc04f1e6aee7d901c5721ee1fb444c92a75d828c845704fd78b14fb"
@@ -4414,9 +4414,9 @@
               945
             ],
             "authored_path": "build/canvas/build_3sw_wk4.py",
-            "authored_path_sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468",
+            "authored_path_sha256": "d1dbad574d6ea4989efa68406865fe2d2d3d9b2e6366ba46306ad809b13f7c88",
             "canvas_builder_path": "build/canvas/build_3sw_wk4.py",
-            "canvas_builder_sha256": "aa12d51d925de1454dd1bf2565c5863f73f2f54d71a7a441ccf75e432c09a468",
+            "canvas_builder_sha256": "d1dbad574d6ea4989efa68406865fe2d2d3d9b2e6366ba46306ad809b13f7c88",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk4-student.html",
             "student_template_sha256": "37eb1c45dfc04f1e6aee7d901c5721ee1fb444c92a75d828c845704fd78b14fb"
@@ -4462,9 +4462,9 @@
               840
             ],
             "authored_path": "build/canvas/build_3sw_wk5.py",
-            "authored_path_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
+            "authored_path_sha256": "a1672460917a6d2d2279bb93d1e93350edd63900a58410c53b4d64f63996b719",
             "canvas_builder_path": "build/canvas/build_3sw_wk5.py",
-            "canvas_builder_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
+            "canvas_builder_sha256": "a1672460917a6d2d2279bb93d1e93350edd63900a58410c53b4d64f63996b719",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk5-student.html",
             "student_template_sha256": "517bbe1db0fef2d3f7a9251a996f157fd347fed98965d3cb230abc37660b79df"
@@ -4510,9 +4510,9 @@
               693
             ],
             "authored_path": "build/canvas/build_3sw_wk5.py",
-            "authored_path_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
+            "authored_path_sha256": "a1672460917a6d2d2279bb93d1e93350edd63900a58410c53b4d64f63996b719",
             "canvas_builder_path": "build/canvas/build_3sw_wk5.py",
-            "canvas_builder_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
+            "canvas_builder_sha256": "a1672460917a6d2d2279bb93d1e93350edd63900a58410c53b4d64f63996b719",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk5-student.html",
             "student_template_sha256": "517bbe1db0fef2d3f7a9251a996f157fd347fed98965d3cb230abc37660b79df"
@@ -4565,9 +4565,9 @@
               727
             ],
             "authored_path": "build/canvas/build_3sw_wk5.py",
-            "authored_path_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
+            "authored_path_sha256": "a1672460917a6d2d2279bb93d1e93350edd63900a58410c53b4d64f63996b719",
             "canvas_builder_path": "build/canvas/build_3sw_wk5.py",
-            "canvas_builder_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
+            "canvas_builder_sha256": "a1672460917a6d2d2279bb93d1e93350edd63900a58410c53b4d64f63996b719",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk5-student.html",
             "student_template_sha256": "517bbe1db0fef2d3f7a9251a996f157fd347fed98965d3cb230abc37660b79df"
@@ -4597,9 +4597,9 @@
               890
             ],
             "authored_path": "build/canvas/build_3sw_wk5.py",
-            "authored_path_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
+            "authored_path_sha256": "a1672460917a6d2d2279bb93d1e93350edd63900a58410c53b4d64f63996b719",
             "canvas_builder_path": "build/canvas/build_3sw_wk5.py",
-            "canvas_builder_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
+            "canvas_builder_sha256": "a1672460917a6d2d2279bb93d1e93350edd63900a58410c53b4d64f63996b719",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk5-student.html",
             "student_template_sha256": "517bbe1db0fef2d3f7a9251a996f157fd347fed98965d3cb230abc37660b79df"
@@ -4645,9 +4645,9 @@
               761
             ],
             "authored_path": "build/canvas/build_3sw_wk5.py",
-            "authored_path_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
+            "authored_path_sha256": "a1672460917a6d2d2279bb93d1e93350edd63900a58410c53b4d64f63996b719",
             "canvas_builder_path": "build/canvas/build_3sw_wk5.py",
-            "canvas_builder_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
+            "canvas_builder_sha256": "a1672460917a6d2d2279bb93d1e93350edd63900a58410c53b4d64f63996b719",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk5-student.html",
             "student_template_sha256": "517bbe1db0fef2d3f7a9251a996f157fd347fed98965d3cb230abc37660b79df"
@@ -4709,9 +4709,9 @@
               891
             ],
             "authored_path": "build/canvas/build_3sw_wk5.py",
-            "authored_path_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
+            "authored_path_sha256": "a1672460917a6d2d2279bb93d1e93350edd63900a58410c53b4d64f63996b719",
             "canvas_builder_path": "build/canvas/build_3sw_wk5.py",
-            "canvas_builder_sha256": "c352f9ce2c91899a8723ddf28d2f3ae1b78058b0d8054a3dbd8ba78e34cc72bf",
+            "canvas_builder_sha256": "a1672460917a6d2d2279bb93d1e93350edd63900a58410c53b4d64f63996b719",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk5-student.html",
             "student_template_sha256": "517bbe1db0fef2d3f7a9251a996f157fd347fed98965d3cb230abc37660b79df"
@@ -4757,9 +4757,9 @@
               492
             ],
             "authored_path": "build/canvas/build_3sw_wk6.py",
-            "authored_path_sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082",
+            "authored_path_sha256": "d6830cd3e3e599245b8bf5116e04c55b4a2467c45b64ebcda4b216f7302f5f2b",
             "canvas_builder_path": "build/canvas/build_3sw_wk6.py",
-            "canvas_builder_sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082",
+            "canvas_builder_sha256": "d6830cd3e3e599245b8bf5116e04c55b4a2467c45b64ebcda4b216f7302f5f2b",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk6-student.html",
             "student_template_sha256": "1079c9651e22a85674a9b1f1ac57247845a2c4042425c2a10607a210df48146d"
@@ -4805,9 +4805,9 @@
               483
             ],
             "authored_path": "build/canvas/build_3sw_wk6.py",
-            "authored_path_sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082",
+            "authored_path_sha256": "d6830cd3e3e599245b8bf5116e04c55b4a2467c45b64ebcda4b216f7302f5f2b",
             "canvas_builder_path": "build/canvas/build_3sw_wk6.py",
-            "canvas_builder_sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082",
+            "canvas_builder_sha256": "d6830cd3e3e599245b8bf5116e04c55b4a2467c45b64ebcda4b216f7302f5f2b",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk6-student.html",
             "student_template_sha256": "1079c9651e22a85674a9b1f1ac57247845a2c4042425c2a10607a210df48146d"
@@ -4857,9 +4857,9 @@
               709
             ],
             "authored_path": "build/canvas/build_3sw_wk6.py",
-            "authored_path_sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082",
+            "authored_path_sha256": "d6830cd3e3e599245b8bf5116e04c55b4a2467c45b64ebcda4b216f7302f5f2b",
             "canvas_builder_path": "build/canvas/build_3sw_wk6.py",
-            "canvas_builder_sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082",
+            "canvas_builder_sha256": "d6830cd3e3e599245b8bf5116e04c55b4a2467c45b64ebcda4b216f7302f5f2b",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk6-student.html",
             "student_template_sha256": "1079c9651e22a85674a9b1f1ac57247845a2c4042425c2a10607a210df48146d"
@@ -4914,9 +4914,9 @@
               560
             ],
             "authored_path": "build/canvas/build_3sw_wk6.py",
-            "authored_path_sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082",
+            "authored_path_sha256": "d6830cd3e3e599245b8bf5116e04c55b4a2467c45b64ebcda4b216f7302f5f2b",
             "canvas_builder_path": "build/canvas/build_3sw_wk6.py",
-            "canvas_builder_sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082",
+            "canvas_builder_sha256": "d6830cd3e3e599245b8bf5116e04c55b4a2467c45b64ebcda4b216f7302f5f2b",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk6-student.html",
             "student_template_sha256": "1079c9651e22a85674a9b1f1ac57247845a2c4042425c2a10607a210df48146d"
@@ -4971,9 +4971,9 @@
               602
             ],
             "authored_path": "build/canvas/build_3sw_wk6.py",
-            "authored_path_sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082",
+            "authored_path_sha256": "d6830cd3e3e599245b8bf5116e04c55b4a2467c45b64ebcda4b216f7302f5f2b",
             "canvas_builder_path": "build/canvas/build_3sw_wk6.py",
-            "canvas_builder_sha256": "7ea8479dbbe4425cd73715ff19fe3d154ef5bb890fbe2858318248c8f42ca082",
+            "canvas_builder_sha256": "d6830cd3e3e599245b8bf5116e04c55b4a2467c45b64ebcda4b216f7302f5f2b",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/3sw-wk6-student.html",
             "student_template_sha256": "1079c9651e22a85674a9b1f1ac57247845a2c4042425c2a10607a210df48146d"
@@ -5018,9 +5018,9 @@
               411
             ],
             "authored_path": "build/canvas/build_4sw_wk1.py",
-            "authored_path_sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b",
+            "authored_path_sha256": "19b49e035567b33ac5c1cbd7d907e4a72a04e6a8cd9dc69d567da1518c5b70a2",
             "canvas_builder_path": "build/canvas/build_4sw_wk1.py",
-            "canvas_builder_sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b",
+            "canvas_builder_sha256": "19b49e035567b33ac5c1cbd7d907e4a72a04e6a8cd9dc69d567da1518c5b70a2",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk1-student.html",
             "student_template_sha256": "b75e8eb7b4c6c5d6c54825bd4f523c9036541b9f14ff90dfec410706b45ae456"
@@ -5065,9 +5065,9 @@
               412
             ],
             "authored_path": "build/canvas/build_4sw_wk1.py",
-            "authored_path_sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b",
+            "authored_path_sha256": "19b49e035567b33ac5c1cbd7d907e4a72a04e6a8cd9dc69d567da1518c5b70a2",
             "canvas_builder_path": "build/canvas/build_4sw_wk1.py",
-            "canvas_builder_sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b",
+            "canvas_builder_sha256": "19b49e035567b33ac5c1cbd7d907e4a72a04e6a8cd9dc69d567da1518c5b70a2",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk1-student.html",
             "student_template_sha256": "b75e8eb7b4c6c5d6c54825bd4f523c9036541b9f14ff90dfec410706b45ae456"
@@ -5112,9 +5112,9 @@
               413
             ],
             "authored_path": "build/canvas/build_4sw_wk1.py",
-            "authored_path_sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b",
+            "authored_path_sha256": "19b49e035567b33ac5c1cbd7d907e4a72a04e6a8cd9dc69d567da1518c5b70a2",
             "canvas_builder_path": "build/canvas/build_4sw_wk1.py",
-            "canvas_builder_sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b",
+            "canvas_builder_sha256": "19b49e035567b33ac5c1cbd7d907e4a72a04e6a8cd9dc69d567da1518c5b70a2",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk1-student.html",
             "student_template_sha256": "b75e8eb7b4c6c5d6c54825bd4f523c9036541b9f14ff90dfec410706b45ae456"
@@ -5159,9 +5159,9 @@
               414
             ],
             "authored_path": "build/canvas/build_4sw_wk1.py",
-            "authored_path_sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b",
+            "authored_path_sha256": "19b49e035567b33ac5c1cbd7d907e4a72a04e6a8cd9dc69d567da1518c5b70a2",
             "canvas_builder_path": "build/canvas/build_4sw_wk1.py",
-            "canvas_builder_sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b",
+            "canvas_builder_sha256": "19b49e035567b33ac5c1cbd7d907e4a72a04e6a8cd9dc69d567da1518c5b70a2",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk1-student.html",
             "student_template_sha256": "b75e8eb7b4c6c5d6c54825bd4f523c9036541b9f14ff90dfec410706b45ae456"
@@ -5214,9 +5214,9 @@
               415
             ],
             "authored_path": "build/canvas/build_4sw_wk1.py",
-            "authored_path_sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b",
+            "authored_path_sha256": "19b49e035567b33ac5c1cbd7d907e4a72a04e6a8cd9dc69d567da1518c5b70a2",
             "canvas_builder_path": "build/canvas/build_4sw_wk1.py",
-            "canvas_builder_sha256": "51464d444545461c7fbe1fed16fde2bf81c271cbc13ca4ef198b9799f14d838b",
+            "canvas_builder_sha256": "19b49e035567b33ac5c1cbd7d907e4a72a04e6a8cd9dc69d567da1518c5b70a2",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk1-student.html",
             "student_template_sha256": "b75e8eb7b4c6c5d6c54825bd4f523c9036541b9f14ff90dfec410706b45ae456"
@@ -5262,9 +5262,9 @@
               648
             ],
             "authored_path": "build/canvas/build_4sw_wk2.py",
-            "authored_path_sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a",
+            "authored_path_sha256": "6ee6bcaab0f7f76b3d74535a6c1a3b5d3d98a82115cf81b156a0c08f0d34465f",
             "canvas_builder_path": "build/canvas/build_4sw_wk2.py",
-            "canvas_builder_sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a",
+            "canvas_builder_sha256": "6ee6bcaab0f7f76b3d74535a6c1a3b5d3d98a82115cf81b156a0c08f0d34465f",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk2-student.html",
             "student_template_sha256": "e8ba7857b1f67c7f829150c25f4c307e79e76c39a853f18b2a85c568b9af75c1"
@@ -5310,9 +5310,9 @@
               663
             ],
             "authored_path": "build/canvas/build_4sw_wk2.py",
-            "authored_path_sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a",
+            "authored_path_sha256": "6ee6bcaab0f7f76b3d74535a6c1a3b5d3d98a82115cf81b156a0c08f0d34465f",
             "canvas_builder_path": "build/canvas/build_4sw_wk2.py",
-            "canvas_builder_sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a",
+            "canvas_builder_sha256": "6ee6bcaab0f7f76b3d74535a6c1a3b5d3d98a82115cf81b156a0c08f0d34465f",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk2-student.html",
             "student_template_sha256": "e8ba7857b1f67c7f829150c25f4c307e79e76c39a853f18b2a85c568b9af75c1"
@@ -5359,9 +5359,9 @@
               758
             ],
             "authored_path": "build/canvas/build_4sw_wk2.py",
-            "authored_path_sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a",
+            "authored_path_sha256": "6ee6bcaab0f7f76b3d74535a6c1a3b5d3d98a82115cf81b156a0c08f0d34465f",
             "canvas_builder_path": "build/canvas/build_4sw_wk2.py",
-            "canvas_builder_sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a",
+            "canvas_builder_sha256": "6ee6bcaab0f7f76b3d74535a6c1a3b5d3d98a82115cf81b156a0c08f0d34465f",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk2-student.html",
             "student_template_sha256": "e8ba7857b1f67c7f829150c25f4c307e79e76c39a853f18b2a85c568b9af75c1"
@@ -5408,9 +5408,9 @@
               774
             ],
             "authored_path": "build/canvas/build_4sw_wk2.py",
-            "authored_path_sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a",
+            "authored_path_sha256": "6ee6bcaab0f7f76b3d74535a6c1a3b5d3d98a82115cf81b156a0c08f0d34465f",
             "canvas_builder_path": "build/canvas/build_4sw_wk2.py",
-            "canvas_builder_sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a",
+            "canvas_builder_sha256": "6ee6bcaab0f7f76b3d74535a6c1a3b5d3d98a82115cf81b156a0c08f0d34465f",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk2-student.html",
             "student_template_sha256": "e8ba7857b1f67c7f829150c25f4c307e79e76c39a853f18b2a85c568b9af75c1"
@@ -5465,9 +5465,9 @@
               792
             ],
             "authored_path": "build/canvas/build_4sw_wk2.py",
-            "authored_path_sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a",
+            "authored_path_sha256": "6ee6bcaab0f7f76b3d74535a6c1a3b5d3d98a82115cf81b156a0c08f0d34465f",
             "canvas_builder_path": "build/canvas/build_4sw_wk2.py",
-            "canvas_builder_sha256": "1c4cd20e3828257f494002ba3748428aabbef1d7c2b65d0db0f01e280d73341a",
+            "canvas_builder_sha256": "6ee6bcaab0f7f76b3d74535a6c1a3b5d3d98a82115cf81b156a0c08f0d34465f",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk2-student.html",
             "student_template_sha256": "e8ba7857b1f67c7f829150c25f4c307e79e76c39a853f18b2a85c568b9af75c1"
@@ -5512,9 +5512,9 @@
               538
             ],
             "authored_path": "build/canvas/build_4sw_wk3.py",
-            "authored_path_sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50",
+            "authored_path_sha256": "468ce36e58e0b092226600b268b6400789f386263652d44c67ad991d23e2b01e",
             "canvas_builder_path": "build/canvas/build_4sw_wk3.py",
-            "canvas_builder_sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50",
+            "canvas_builder_sha256": "468ce36e58e0b092226600b268b6400789f386263652d44c67ad991d23e2b01e",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk3-student.html",
             "student_template_sha256": "30d79cb479bb3d0b1fab990c912c2d783372a8f18614eddf8e6fd3f3953ef83f"
@@ -5568,9 +5568,9 @@
               553
             ],
             "authored_path": "build/canvas/build_4sw_wk3.py",
-            "authored_path_sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50",
+            "authored_path_sha256": "468ce36e58e0b092226600b268b6400789f386263652d44c67ad991d23e2b01e",
             "canvas_builder_path": "build/canvas/build_4sw_wk3.py",
-            "canvas_builder_sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50",
+            "canvas_builder_sha256": "468ce36e58e0b092226600b268b6400789f386263652d44c67ad991d23e2b01e",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk3-student.html",
             "student_template_sha256": "30d79cb479bb3d0b1fab990c912c2d783372a8f18614eddf8e6fd3f3953ef83f"
@@ -5615,9 +5615,9 @@
               568
             ],
             "authored_path": "build/canvas/build_4sw_wk3.py",
-            "authored_path_sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50",
+            "authored_path_sha256": "468ce36e58e0b092226600b268b6400789f386263652d44c67ad991d23e2b01e",
             "canvas_builder_path": "build/canvas/build_4sw_wk3.py",
-            "canvas_builder_sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50",
+            "canvas_builder_sha256": "468ce36e58e0b092226600b268b6400789f386263652d44c67ad991d23e2b01e",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk3-student.html",
             "student_template_sha256": "30d79cb479bb3d0b1fab990c912c2d783372a8f18614eddf8e6fd3f3953ef83f"
@@ -5671,9 +5671,9 @@
               643
             ],
             "authored_path": "build/canvas/build_4sw_wk3.py",
-            "authored_path_sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50",
+            "authored_path_sha256": "468ce36e58e0b092226600b268b6400789f386263652d44c67ad991d23e2b01e",
             "canvas_builder_path": "build/canvas/build_4sw_wk3.py",
-            "canvas_builder_sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50",
+            "canvas_builder_sha256": "468ce36e58e0b092226600b268b6400789f386263652d44c67ad991d23e2b01e",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk3-student.html",
             "student_template_sha256": "30d79cb479bb3d0b1fab990c912c2d783372a8f18614eddf8e6fd3f3953ef83f"
@@ -5726,9 +5726,9 @@
               599
             ],
             "authored_path": "build/canvas/build_4sw_wk3.py",
-            "authored_path_sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50",
+            "authored_path_sha256": "468ce36e58e0b092226600b268b6400789f386263652d44c67ad991d23e2b01e",
             "canvas_builder_path": "build/canvas/build_4sw_wk3.py",
-            "canvas_builder_sha256": "3b6b57b375c463ee80168e5140b8772d76f5aa16996ce3abdfe1cafae65c5b50",
+            "canvas_builder_sha256": "468ce36e58e0b092226600b268b6400789f386263652d44c67ad991d23e2b01e",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk3-student.html",
             "student_template_sha256": "30d79cb479bb3d0b1fab990c912c2d783372a8f18614eddf8e6fd3f3953ef83f"
@@ -5775,9 +5775,9 @@
               520
             ],
             "authored_path": "build/canvas/build_4sw_wk4.py",
-            "authored_path_sha256": "9eeba7a55606194b0d02c53b0cd6afcd92a3e22f5b0a1e449c3a020bfcf63229",
+            "authored_path_sha256": "064485fb482aaacf125dbddbad5ab9967c2adf014c023268e6d13c892bac0e44",
             "canvas_builder_path": "build/canvas/build_4sw_wk4.py",
-            "canvas_builder_sha256": "9eeba7a55606194b0d02c53b0cd6afcd92a3e22f5b0a1e449c3a020bfcf63229",
+            "canvas_builder_sha256": "064485fb482aaacf125dbddbad5ab9967c2adf014c023268e6d13c892bac0e44",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk4-student.html",
             "student_template_sha256": "9eda12be61b3346e701f3bfba2ab1e636490d434ad7dd82f1133a5c4a3689c89"
@@ -5862,9 +5862,9 @@
               544
             ],
             "authored_path": "build/canvas/build_4sw_wk4.py",
-            "authored_path_sha256": "9eeba7a55606194b0d02c53b0cd6afcd92a3e22f5b0a1e449c3a020bfcf63229",
+            "authored_path_sha256": "064485fb482aaacf125dbddbad5ab9967c2adf014c023268e6d13c892bac0e44",
             "canvas_builder_path": "build/canvas/build_4sw_wk4.py",
-            "canvas_builder_sha256": "9eeba7a55606194b0d02c53b0cd6afcd92a3e22f5b0a1e449c3a020bfcf63229",
+            "canvas_builder_sha256": "064485fb482aaacf125dbddbad5ab9967c2adf014c023268e6d13c892bac0e44",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk4-student.html",
             "student_template_sha256": "9eda12be61b3346e701f3bfba2ab1e636490d434ad7dd82f1133a5c4a3689c89"
@@ -5911,9 +5911,9 @@
               556
             ],
             "authored_path": "build/canvas/build_4sw_wk4.py",
-            "authored_path_sha256": "9eeba7a55606194b0d02c53b0cd6afcd92a3e22f5b0a1e449c3a020bfcf63229",
+            "authored_path_sha256": "064485fb482aaacf125dbddbad5ab9967c2adf014c023268e6d13c892bac0e44",
             "canvas_builder_path": "build/canvas/build_4sw_wk4.py",
-            "canvas_builder_sha256": "9eeba7a55606194b0d02c53b0cd6afcd92a3e22f5b0a1e449c3a020bfcf63229",
+            "canvas_builder_sha256": "064485fb482aaacf125dbddbad5ab9967c2adf014c023268e6d13c892bac0e44",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk4-student.html",
             "student_template_sha256": "9eda12be61b3346e701f3bfba2ab1e636490d434ad7dd82f1133a5c4a3689c89"
@@ -5968,9 +5968,9 @@
               568
             ],
             "authored_path": "build/canvas/build_4sw_wk4.py",
-            "authored_path_sha256": "9eeba7a55606194b0d02c53b0cd6afcd92a3e22f5b0a1e449c3a020bfcf63229",
+            "authored_path_sha256": "064485fb482aaacf125dbddbad5ab9967c2adf014c023268e6d13c892bac0e44",
             "canvas_builder_path": "build/canvas/build_4sw_wk4.py",
-            "canvas_builder_sha256": "9eeba7a55606194b0d02c53b0cd6afcd92a3e22f5b0a1e449c3a020bfcf63229",
+            "canvas_builder_sha256": "064485fb482aaacf125dbddbad5ab9967c2adf014c023268e6d13c892bac0e44",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk4-student.html",
             "student_template_sha256": "9eda12be61b3346e701f3bfba2ab1e636490d434ad7dd82f1133a5c4a3689c89"
@@ -6016,9 +6016,9 @@
               691
             ],
             "authored_path": "build/canvas/build_4sw_wk5.py",
-            "authored_path_sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495",
+            "authored_path_sha256": "d5dcca064df271cafa03450bf156e6319434b9570153280936addd14cf9c2e9f",
             "canvas_builder_path": "build/canvas/build_4sw_wk5.py",
-            "canvas_builder_sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495",
+            "canvas_builder_sha256": "d5dcca064df271cafa03450bf156e6319434b9570153280936addd14cf9c2e9f",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk5-student.html",
             "student_template_sha256": "1d01d661c60d274fd9a540bb962b3a11ae30e159faa06fa278dfe33854116738"
@@ -6064,9 +6064,9 @@
               704
             ],
             "authored_path": "build/canvas/build_4sw_wk5.py",
-            "authored_path_sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495",
+            "authored_path_sha256": "d5dcca064df271cafa03450bf156e6319434b9570153280936addd14cf9c2e9f",
             "canvas_builder_path": "build/canvas/build_4sw_wk5.py",
-            "canvas_builder_sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495",
+            "canvas_builder_sha256": "d5dcca064df271cafa03450bf156e6319434b9570153280936addd14cf9c2e9f",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk5-student.html",
             "student_template_sha256": "1d01d661c60d274fd9a540bb962b3a11ae30e159faa06fa278dfe33854116738"
@@ -6112,9 +6112,9 @@
               717
             ],
             "authored_path": "build/canvas/build_4sw_wk5.py",
-            "authored_path_sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495",
+            "authored_path_sha256": "d5dcca064df271cafa03450bf156e6319434b9570153280936addd14cf9c2e9f",
             "canvas_builder_path": "build/canvas/build_4sw_wk5.py",
-            "canvas_builder_sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495",
+            "canvas_builder_sha256": "d5dcca064df271cafa03450bf156e6319434b9570153280936addd14cf9c2e9f",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk5-student.html",
             "student_template_sha256": "1d01d661c60d274fd9a540bb962b3a11ae30e159faa06fa278dfe33854116738"
@@ -6160,9 +6160,9 @@
               730
             ],
             "authored_path": "build/canvas/build_4sw_wk5.py",
-            "authored_path_sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495",
+            "authored_path_sha256": "d5dcca064df271cafa03450bf156e6319434b9570153280936addd14cf9c2e9f",
             "canvas_builder_path": "build/canvas/build_4sw_wk5.py",
-            "canvas_builder_sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495",
+            "canvas_builder_sha256": "d5dcca064df271cafa03450bf156e6319434b9570153280936addd14cf9c2e9f",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk5-student.html",
             "student_template_sha256": "1d01d661c60d274fd9a540bb962b3a11ae30e159faa06fa278dfe33854116738"
@@ -6216,9 +6216,9 @@
               743
             ],
             "authored_path": "build/canvas/build_4sw_wk5.py",
-            "authored_path_sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495",
+            "authored_path_sha256": "d5dcca064df271cafa03450bf156e6319434b9570153280936addd14cf9c2e9f",
             "canvas_builder_path": "build/canvas/build_4sw_wk5.py",
-            "canvas_builder_sha256": "f490f2baafad9589eed5df9f16e22ede4e56d621fe5944c55a1db47e9d928495",
+            "canvas_builder_sha256": "d5dcca064df271cafa03450bf156e6319434b9570153280936addd14cf9c2e9f",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk5-student.html",
             "student_template_sha256": "1d01d661c60d274fd9a540bb962b3a11ae30e159faa06fa278dfe33854116738"
@@ -6263,9 +6263,9 @@
               461
             ],
             "authored_path": "build/canvas/build_4sw_wk6.py",
-            "authored_path_sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087",
+            "authored_path_sha256": "62348fdd51d57c7c5d9e24eb61cd13a2b9be0779b016575ed9a465c40d78f6df",
             "canvas_builder_path": "build/canvas/build_4sw_wk6.py",
-            "canvas_builder_sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087",
+            "canvas_builder_sha256": "62348fdd51d57c7c5d9e24eb61cd13a2b9be0779b016575ed9a465c40d78f6df",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk6-student.html",
             "student_template_sha256": "ffc43d30c79fdba7be62157e4ef780a498618050bc56193ad80cb03cd4037f17"
@@ -6310,9 +6310,9 @@
               476
             ],
             "authored_path": "build/canvas/build_4sw_wk6.py",
-            "authored_path_sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087",
+            "authored_path_sha256": "62348fdd51d57c7c5d9e24eb61cd13a2b9be0779b016575ed9a465c40d78f6df",
             "canvas_builder_path": "build/canvas/build_4sw_wk6.py",
-            "canvas_builder_sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087",
+            "canvas_builder_sha256": "62348fdd51d57c7c5d9e24eb61cd13a2b9be0779b016575ed9a465c40d78f6df",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk6-student.html",
             "student_template_sha256": "ffc43d30c79fdba7be62157e4ef780a498618050bc56193ad80cb03cd4037f17"
@@ -6358,9 +6358,9 @@
               506
             ],
             "authored_path": "build/canvas/build_4sw_wk6.py",
-            "authored_path_sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087",
+            "authored_path_sha256": "62348fdd51d57c7c5d9e24eb61cd13a2b9be0779b016575ed9a465c40d78f6df",
             "canvas_builder_path": "build/canvas/build_4sw_wk6.py",
-            "canvas_builder_sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087",
+            "canvas_builder_sha256": "62348fdd51d57c7c5d9e24eb61cd13a2b9be0779b016575ed9a465c40d78f6df",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk6-student.html",
             "student_template_sha256": "ffc43d30c79fdba7be62157e4ef780a498618050bc56193ad80cb03cd4037f17"
@@ -6406,9 +6406,9 @@
               506
             ],
             "authored_path": "build/canvas/build_4sw_wk6.py",
-            "authored_path_sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087",
+            "authored_path_sha256": "62348fdd51d57c7c5d9e24eb61cd13a2b9be0779b016575ed9a465c40d78f6df",
             "canvas_builder_path": "build/canvas/build_4sw_wk6.py",
-            "canvas_builder_sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087",
+            "canvas_builder_sha256": "62348fdd51d57c7c5d9e24eb61cd13a2b9be0779b016575ed9a465c40d78f6df",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk6-student.html",
             "student_template_sha256": "ffc43d30c79fdba7be62157e4ef780a498618050bc56193ad80cb03cd4037f17"
@@ -6461,9 +6461,9 @@
               521
             ],
             "authored_path": "build/canvas/build_4sw_wk6.py",
-            "authored_path_sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087",
+            "authored_path_sha256": "62348fdd51d57c7c5d9e24eb61cd13a2b9be0779b016575ed9a465c40d78f6df",
             "canvas_builder_path": "build/canvas/build_4sw_wk6.py",
-            "canvas_builder_sha256": "c9eb8d7713a60b94c7b8c5a68213f84949921fd5c0d9a7ebed6b75384889d087",
+            "canvas_builder_sha256": "62348fdd51d57c7c5d9e24eb61cd13a2b9be0779b016575ed9a465c40d78f6df",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/4sw-wk6-student.html",
             "student_template_sha256": "ffc43d30c79fdba7be62157e4ef780a498618050bc56193ad80cb03cd4037f17"
@@ -6508,9 +6508,9 @@
               600
             ],
             "authored_path": "build/canvas/build_5sw_wk1.py",
-            "authored_path_sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e",
+            "authored_path_sha256": "e0f50578bffc041e7ebaa289d1c2ce6741118fc7dd8b83f39f1ec3707c313f86",
             "canvas_builder_path": "build/canvas/build_5sw_wk1.py",
-            "canvas_builder_sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e",
+            "canvas_builder_sha256": "e0f50578bffc041e7ebaa289d1c2ce6741118fc7dd8b83f39f1ec3707c313f86",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk1-student.html",
             "student_template_sha256": "71483ba97776a6c9e77137701d0e4f55e960eb83450545ab4c5631f291665806"
@@ -6563,9 +6563,9 @@
               615
             ],
             "authored_path": "build/canvas/build_5sw_wk1.py",
-            "authored_path_sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e",
+            "authored_path_sha256": "e0f50578bffc041e7ebaa289d1c2ce6741118fc7dd8b83f39f1ec3707c313f86",
             "canvas_builder_path": "build/canvas/build_5sw_wk1.py",
-            "canvas_builder_sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e",
+            "canvas_builder_sha256": "e0f50578bffc041e7ebaa289d1c2ce6741118fc7dd8b83f39f1ec3707c313f86",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk1-student.html",
             "student_template_sha256": "71483ba97776a6c9e77137701d0e4f55e960eb83450545ab4c5631f291665806"
@@ -6611,9 +6611,9 @@
               704
             ],
             "authored_path": "build/canvas/build_5sw_wk1.py",
-            "authored_path_sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e",
+            "authored_path_sha256": "e0f50578bffc041e7ebaa289d1c2ce6741118fc7dd8b83f39f1ec3707c313f86",
             "canvas_builder_path": "build/canvas/build_5sw_wk1.py",
-            "canvas_builder_sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e",
+            "canvas_builder_sha256": "e0f50578bffc041e7ebaa289d1c2ce6741118fc7dd8b83f39f1ec3707c313f86",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk1-student.html",
             "student_template_sha256": "71483ba97776a6c9e77137701d0e4f55e960eb83450545ab4c5631f291665806"
@@ -6659,9 +6659,9 @@
               717
             ],
             "authored_path": "build/canvas/build_5sw_wk1.py",
-            "authored_path_sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e",
+            "authored_path_sha256": "e0f50578bffc041e7ebaa289d1c2ce6741118fc7dd8b83f39f1ec3707c313f86",
             "canvas_builder_path": "build/canvas/build_5sw_wk1.py",
-            "canvas_builder_sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e",
+            "canvas_builder_sha256": "e0f50578bffc041e7ebaa289d1c2ce6741118fc7dd8b83f39f1ec3707c313f86",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk1-student.html",
             "student_template_sha256": "71483ba97776a6c9e77137701d0e4f55e960eb83450545ab4c5631f291665806"
@@ -6714,9 +6714,9 @@
               660
             ],
             "authored_path": "build/canvas/build_5sw_wk1.py",
-            "authored_path_sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e",
+            "authored_path_sha256": "e0f50578bffc041e7ebaa289d1c2ce6741118fc7dd8b83f39f1ec3707c313f86",
             "canvas_builder_path": "build/canvas/build_5sw_wk1.py",
-            "canvas_builder_sha256": "afc546224a17141e92498c8532745ac89b4c8f66ed482bc5c24839e62078607e",
+            "canvas_builder_sha256": "e0f50578bffc041e7ebaa289d1c2ce6741118fc7dd8b83f39f1ec3707c313f86",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk1-student.html",
             "student_template_sha256": "71483ba97776a6c9e77137701d0e4f55e960eb83450545ab4c5631f291665806"
@@ -6761,9 +6761,9 @@
               549
             ],
             "authored_path": "build/canvas/build_5sw_wk2.py",
-            "authored_path_sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396",
+            "authored_path_sha256": "c77a5b4ed2b63f331771820f751bf6da9b529a7a7e5844eece979e0612b47063",
             "canvas_builder_path": "build/canvas/build_5sw_wk2.py",
-            "canvas_builder_sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396",
+            "canvas_builder_sha256": "c77a5b4ed2b63f331771820f751bf6da9b529a7a7e5844eece979e0612b47063",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk2-student.html",
             "student_template_sha256": "d78b374fb7dd62991debf4b1fa6b9ef393a585c49baf6caa690dc6257e4aad51"
@@ -6816,9 +6816,9 @@
               564
             ],
             "authored_path": "build/canvas/build_5sw_wk2.py",
-            "authored_path_sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396",
+            "authored_path_sha256": "c77a5b4ed2b63f331771820f751bf6da9b529a7a7e5844eece979e0612b47063",
             "canvas_builder_path": "build/canvas/build_5sw_wk2.py",
-            "canvas_builder_sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396",
+            "canvas_builder_sha256": "c77a5b4ed2b63f331771820f751bf6da9b529a7a7e5844eece979e0612b47063",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk2-student.html",
             "student_template_sha256": "d78b374fb7dd62991debf4b1fa6b9ef393a585c49baf6caa690dc6257e4aad51"
@@ -6863,9 +6863,9 @@
               579
             ],
             "authored_path": "build/canvas/build_5sw_wk2.py",
-            "authored_path_sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396",
+            "authored_path_sha256": "c77a5b4ed2b63f331771820f751bf6da9b529a7a7e5844eece979e0612b47063",
             "canvas_builder_path": "build/canvas/build_5sw_wk2.py",
-            "canvas_builder_sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396",
+            "canvas_builder_sha256": "c77a5b4ed2b63f331771820f751bf6da9b529a7a7e5844eece979e0612b47063",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk2-student.html",
             "student_template_sha256": "d78b374fb7dd62991debf4b1fa6b9ef393a585c49baf6caa690dc6257e4aad51"
@@ -6910,9 +6910,9 @@
               594
             ],
             "authored_path": "build/canvas/build_5sw_wk2.py",
-            "authored_path_sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396",
+            "authored_path_sha256": "c77a5b4ed2b63f331771820f751bf6da9b529a7a7e5844eece979e0612b47063",
             "canvas_builder_path": "build/canvas/build_5sw_wk2.py",
-            "canvas_builder_sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396",
+            "canvas_builder_sha256": "c77a5b4ed2b63f331771820f751bf6da9b529a7a7e5844eece979e0612b47063",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk2-student.html",
             "student_template_sha256": "d78b374fb7dd62991debf4b1fa6b9ef393a585c49baf6caa690dc6257e4aad51"
@@ -6966,9 +6966,9 @@
               675
             ],
             "authored_path": "build/canvas/build_5sw_wk2.py",
-            "authored_path_sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396",
+            "authored_path_sha256": "c77a5b4ed2b63f331771820f751bf6da9b529a7a7e5844eece979e0612b47063",
             "canvas_builder_path": "build/canvas/build_5sw_wk2.py",
-            "canvas_builder_sha256": "dc0bc99e07a90b019eef3fe4ebee2097d2358f5d797f904187236113c3625396",
+            "canvas_builder_sha256": "c77a5b4ed2b63f331771820f751bf6da9b529a7a7e5844eece979e0612b47063",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk2-student.html",
             "student_template_sha256": "d78b374fb7dd62991debf4b1fa6b9ef393a585c49baf6caa690dc6257e4aad51"
@@ -7013,9 +7013,9 @@
               327
             ],
             "authored_path": "build/canvas/build_5sw_wk3.py",
-            "authored_path_sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76",
+            "authored_path_sha256": "469222c15bdb57f471b70b7ee8b3d78aba806c87574a3d6726932ae1425ee9b8",
             "canvas_builder_path": "build/canvas/build_5sw_wk3.py",
-            "canvas_builder_sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76",
+            "canvas_builder_sha256": "469222c15bdb57f471b70b7ee8b3d78aba806c87574a3d6726932ae1425ee9b8",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk3-student.html",
             "student_template_sha256": "f933fb23d30c6cacb28932936f5d280a1202627a57a9d73caa7d0f21852eabe1"
@@ -7061,9 +7061,9 @@
               423
             ],
             "authored_path": "build/canvas/build_5sw_wk3.py",
-            "authored_path_sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76",
+            "authored_path_sha256": "469222c15bdb57f471b70b7ee8b3d78aba806c87574a3d6726932ae1425ee9b8",
             "canvas_builder_path": "build/canvas/build_5sw_wk3.py",
-            "canvas_builder_sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76",
+            "canvas_builder_sha256": "469222c15bdb57f471b70b7ee8b3d78aba806c87574a3d6726932ae1425ee9b8",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk3-student.html",
             "student_template_sha256": "f933fb23d30c6cacb28932936f5d280a1202627a57a9d73caa7d0f21852eabe1"
@@ -7116,9 +7116,9 @@
               359
             ],
             "authored_path": "build/canvas/build_5sw_wk3.py",
-            "authored_path_sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76",
+            "authored_path_sha256": "469222c15bdb57f471b70b7ee8b3d78aba806c87574a3d6726932ae1425ee9b8",
             "canvas_builder_path": "build/canvas/build_5sw_wk3.py",
-            "canvas_builder_sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76",
+            "canvas_builder_sha256": "469222c15bdb57f471b70b7ee8b3d78aba806c87574a3d6726932ae1425ee9b8",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk3-student.html",
             "student_template_sha256": "f933fb23d30c6cacb28932936f5d280a1202627a57a9d73caa7d0f21852eabe1"
@@ -7165,9 +7165,9 @@
               449
             ],
             "authored_path": "build/canvas/build_5sw_wk3.py",
-            "authored_path_sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76",
+            "authored_path_sha256": "469222c15bdb57f471b70b7ee8b3d78aba806c87574a3d6726932ae1425ee9b8",
             "canvas_builder_path": "build/canvas/build_5sw_wk3.py",
-            "canvas_builder_sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76",
+            "canvas_builder_sha256": "469222c15bdb57f471b70b7ee8b3d78aba806c87574a3d6726932ae1425ee9b8",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk3-student.html",
             "student_template_sha256": "f933fb23d30c6cacb28932936f5d280a1202627a57a9d73caa7d0f21852eabe1"
@@ -7222,9 +7222,9 @@
               449
             ],
             "authored_path": "build/canvas/build_5sw_wk3.py",
-            "authored_path_sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76",
+            "authored_path_sha256": "469222c15bdb57f471b70b7ee8b3d78aba806c87574a3d6726932ae1425ee9b8",
             "canvas_builder_path": "build/canvas/build_5sw_wk3.py",
-            "canvas_builder_sha256": "3b5c0516c124737728b9634cc39daf7c7e34cdc554662426628338bcb2d12b76",
+            "canvas_builder_sha256": "469222c15bdb57f471b70b7ee8b3d78aba806c87574a3d6726932ae1425ee9b8",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk3-student.html",
             "student_template_sha256": "f933fb23d30c6cacb28932936f5d280a1202627a57a9d73caa7d0f21852eabe1"
@@ -7269,9 +7269,9 @@
               324
             ],
             "authored_path": "build/canvas/build_5sw_wk4.py",
-            "authored_path_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
+            "authored_path_sha256": "ae4072440e3dfdb70834ef57cd02334920873ce1b348ee7bdeed4fa4869d22c9",
             "canvas_builder_path": "build/canvas/build_5sw_wk4.py",
-            "canvas_builder_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
+            "canvas_builder_sha256": "ae4072440e3dfdb70834ef57cd02334920873ce1b348ee7bdeed4fa4869d22c9",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk4-student.html",
             "student_template_sha256": "a1fe23162b8e11b83e84c35e84d6b0d24e2bf85b7c76710a0e8e9cdcf8df09ad"
@@ -7316,9 +7316,9 @@
               339
             ],
             "authored_path": "build/canvas/build_5sw_wk4.py",
-            "authored_path_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
+            "authored_path_sha256": "ae4072440e3dfdb70834ef57cd02334920873ce1b348ee7bdeed4fa4869d22c9",
             "canvas_builder_path": "build/canvas/build_5sw_wk4.py",
-            "canvas_builder_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
+            "canvas_builder_sha256": "ae4072440e3dfdb70834ef57cd02334920873ce1b348ee7bdeed4fa4869d22c9",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk4-student.html",
             "student_template_sha256": "a1fe23162b8e11b83e84c35e84d6b0d24e2bf85b7c76710a0e8e9cdcf8df09ad"
@@ -7363,9 +7363,9 @@
               354
             ],
             "authored_path": "build/canvas/build_5sw_wk4.py",
-            "authored_path_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
+            "authored_path_sha256": "ae4072440e3dfdb70834ef57cd02334920873ce1b348ee7bdeed4fa4869d22c9",
             "canvas_builder_path": "build/canvas/build_5sw_wk4.py",
-            "canvas_builder_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
+            "canvas_builder_sha256": "ae4072440e3dfdb70834ef57cd02334920873ce1b348ee7bdeed4fa4869d22c9",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk4-student.html",
             "student_template_sha256": "a1fe23162b8e11b83e84c35e84d6b0d24e2bf85b7c76710a0e8e9cdcf8df09ad"
@@ -7410,9 +7410,9 @@
               369
             ],
             "authored_path": "build/canvas/build_5sw_wk4.py",
-            "authored_path_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
+            "authored_path_sha256": "ae4072440e3dfdb70834ef57cd02334920873ce1b348ee7bdeed4fa4869d22c9",
             "canvas_builder_path": "build/canvas/build_5sw_wk4.py",
-            "canvas_builder_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
+            "canvas_builder_sha256": "ae4072440e3dfdb70834ef57cd02334920873ce1b348ee7bdeed4fa4869d22c9",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk4-student.html",
             "student_template_sha256": "a1fe23162b8e11b83e84c35e84d6b0d24e2bf85b7c76710a0e8e9cdcf8df09ad"
@@ -7465,9 +7465,9 @@
               385
             ],
             "authored_path": "build/canvas/build_5sw_wk4.py",
-            "authored_path_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
+            "authored_path_sha256": "ae4072440e3dfdb70834ef57cd02334920873ce1b348ee7bdeed4fa4869d22c9",
             "canvas_builder_path": "build/canvas/build_5sw_wk4.py",
-            "canvas_builder_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
+            "canvas_builder_sha256": "ae4072440e3dfdb70834ef57cd02334920873ce1b348ee7bdeed4fa4869d22c9",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk4-student.html",
             "student_template_sha256": "a1fe23162b8e11b83e84c35e84d6b0d24e2bf85b7c76710a0e8e9cdcf8df09ad"
@@ -7496,9 +7496,9 @@
               385
             ],
             "authored_path": "build/canvas/build_5sw_wk4.py",
-            "authored_path_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
+            "authored_path_sha256": "ae4072440e3dfdb70834ef57cd02334920873ce1b348ee7bdeed4fa4869d22c9",
             "canvas_builder_path": "build/canvas/build_5sw_wk4.py",
-            "canvas_builder_sha256": "641241707da51749cf186c8d699f9afba0ee411b14164b02abfc13939c07ea49",
+            "canvas_builder_sha256": "ae4072440e3dfdb70834ef57cd02334920873ce1b348ee7bdeed4fa4869d22c9",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk4-student.html",
             "student_template_sha256": "a1fe23162b8e11b83e84c35e84d6b0d24e2bf85b7c76710a0e8e9cdcf8df09ad"
@@ -7543,9 +7543,9 @@
               384
             ],
             "authored_path": "build/canvas/build_5sw_wk5.py",
-            "authored_path_sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c",
+            "authored_path_sha256": "23f624fcb5e0e74d4ffcd9d593d771fc5648aedec0a56ede5f7ed24a31e0ccc2",
             "canvas_builder_path": "build/canvas/build_5sw_wk5.py",
-            "canvas_builder_sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c",
+            "canvas_builder_sha256": "23f624fcb5e0e74d4ffcd9d593d771fc5648aedec0a56ede5f7ed24a31e0ccc2",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk5-student.html",
             "student_template_sha256": "94547c1f0c2a339508a518453bd6eaafcee4fd9985965bb6bba2a2954f798af0"
@@ -7590,9 +7590,9 @@
               385
             ],
             "authored_path": "build/canvas/build_5sw_wk5.py",
-            "authored_path_sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c",
+            "authored_path_sha256": "23f624fcb5e0e74d4ffcd9d593d771fc5648aedec0a56ede5f7ed24a31e0ccc2",
             "canvas_builder_path": "build/canvas/build_5sw_wk5.py",
-            "canvas_builder_sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c",
+            "canvas_builder_sha256": "23f624fcb5e0e74d4ffcd9d593d771fc5648aedec0a56ede5f7ed24a31e0ccc2",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk5-student.html",
             "student_template_sha256": "94547c1f0c2a339508a518453bd6eaafcee4fd9985965bb6bba2a2954f798af0"
@@ -7637,9 +7637,9 @@
               386
             ],
             "authored_path": "build/canvas/build_5sw_wk5.py",
-            "authored_path_sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c",
+            "authored_path_sha256": "23f624fcb5e0e74d4ffcd9d593d771fc5648aedec0a56ede5f7ed24a31e0ccc2",
             "canvas_builder_path": "build/canvas/build_5sw_wk5.py",
-            "canvas_builder_sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c",
+            "canvas_builder_sha256": "23f624fcb5e0e74d4ffcd9d593d771fc5648aedec0a56ede5f7ed24a31e0ccc2",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk5-student.html",
             "student_template_sha256": "94547c1f0c2a339508a518453bd6eaafcee4fd9985965bb6bba2a2954f798af0"
@@ -7684,9 +7684,9 @@
               387
             ],
             "authored_path": "build/canvas/build_5sw_wk5.py",
-            "authored_path_sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c",
+            "authored_path_sha256": "23f624fcb5e0e74d4ffcd9d593d771fc5648aedec0a56ede5f7ed24a31e0ccc2",
             "canvas_builder_path": "build/canvas/build_5sw_wk5.py",
-            "canvas_builder_sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c",
+            "canvas_builder_sha256": "23f624fcb5e0e74d4ffcd9d593d771fc5648aedec0a56ede5f7ed24a31e0ccc2",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk5-student.html",
             "student_template_sha256": "94547c1f0c2a339508a518453bd6eaafcee4fd9985965bb6bba2a2954f798af0"
@@ -7740,9 +7740,9 @@
               452
             ],
             "authored_path": "build/canvas/build_5sw_wk5.py",
-            "authored_path_sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c",
+            "authored_path_sha256": "23f624fcb5e0e74d4ffcd9d593d771fc5648aedec0a56ede5f7ed24a31e0ccc2",
             "canvas_builder_path": "build/canvas/build_5sw_wk5.py",
-            "canvas_builder_sha256": "e0d49d4a100e6bce86d57f8636b1051296483174f7a02ce7c3486ef868a93a4c",
+            "canvas_builder_sha256": "23f624fcb5e0e74d4ffcd9d593d771fc5648aedec0a56ede5f7ed24a31e0ccc2",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk5-student.html",
             "student_template_sha256": "94547c1f0c2a339508a518453bd6eaafcee4fd9985965bb6bba2a2954f798af0"
@@ -7787,9 +7787,9 @@
               186
             ],
             "authored_path": "build/canvas/build_5sw_wk6.py",
-            "authored_path_sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d",
+            "authored_path_sha256": "c0836f3f102eb4e73e5b6fbba2497c82abb5e9e8d0a2191a22f8c1bff58c61c7",
             "canvas_builder_path": "build/canvas/build_5sw_wk6.py",
-            "canvas_builder_sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d",
+            "canvas_builder_sha256": "c0836f3f102eb4e73e5b6fbba2497c82abb5e9e8d0a2191a22f8c1bff58c61c7",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk6-student.html",
             "student_template_sha256": "8e43160313f551771c5079cca7a40d725b1a4ce3e7bd0dac97e6aaa6cec6946d"
@@ -7834,9 +7834,9 @@
               187
             ],
             "authored_path": "build/canvas/build_5sw_wk6.py",
-            "authored_path_sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d",
+            "authored_path_sha256": "c0836f3f102eb4e73e5b6fbba2497c82abb5e9e8d0a2191a22f8c1bff58c61c7",
             "canvas_builder_path": "build/canvas/build_5sw_wk6.py",
-            "canvas_builder_sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d",
+            "canvas_builder_sha256": "c0836f3f102eb4e73e5b6fbba2497c82abb5e9e8d0a2191a22f8c1bff58c61c7",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk6-student.html",
             "student_template_sha256": "8e43160313f551771c5079cca7a40d725b1a4ce3e7bd0dac97e6aaa6cec6946d"
@@ -7881,9 +7881,9 @@
               188
             ],
             "authored_path": "build/canvas/build_5sw_wk6.py",
-            "authored_path_sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d",
+            "authored_path_sha256": "c0836f3f102eb4e73e5b6fbba2497c82abb5e9e8d0a2191a22f8c1bff58c61c7",
             "canvas_builder_path": "build/canvas/build_5sw_wk6.py",
-            "canvas_builder_sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d",
+            "canvas_builder_sha256": "c0836f3f102eb4e73e5b6fbba2497c82abb5e9e8d0a2191a22f8c1bff58c61c7",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk6-student.html",
             "student_template_sha256": "8e43160313f551771c5079cca7a40d725b1a4ce3e7bd0dac97e6aaa6cec6946d"
@@ -7928,9 +7928,9 @@
               189
             ],
             "authored_path": "build/canvas/build_5sw_wk6.py",
-            "authored_path_sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d",
+            "authored_path_sha256": "c0836f3f102eb4e73e5b6fbba2497c82abb5e9e8d0a2191a22f8c1bff58c61c7",
             "canvas_builder_path": "build/canvas/build_5sw_wk6.py",
-            "canvas_builder_sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d",
+            "canvas_builder_sha256": "c0836f3f102eb4e73e5b6fbba2497c82abb5e9e8d0a2191a22f8c1bff58c61c7",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk6-student.html",
             "student_template_sha256": "8e43160313f551771c5079cca7a40d725b1a4ce3e7bd0dac97e6aaa6cec6946d"
@@ -7983,9 +7983,9 @@
               190
             ],
             "authored_path": "build/canvas/build_5sw_wk6.py",
-            "authored_path_sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d",
+            "authored_path_sha256": "c0836f3f102eb4e73e5b6fbba2497c82abb5e9e8d0a2191a22f8c1bff58c61c7",
             "canvas_builder_path": "build/canvas/build_5sw_wk6.py",
-            "canvas_builder_sha256": "c2a395883d6ce80f39dc37f4bac9a6012574d01d869c17e7520f33574999960d",
+            "canvas_builder_sha256": "c0836f3f102eb4e73e5b6fbba2497c82abb5e9e8d0a2191a22f8c1bff58c61c7",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/5sw-wk6-student.html",
             "student_template_sha256": "8e43160313f551771c5079cca7a40d725b1a4ce3e7bd0dac97e6aaa6cec6946d"
@@ -8030,9 +8030,9 @@
               207
             ],
             "authored_path": "build/canvas/build_6sw_wk1.py",
-            "authored_path_sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5",
+            "authored_path_sha256": "d5c7210e6bc4fd93862d41364ae78cfbcab6c8c1a939823f20368407f535577f",
             "canvas_builder_path": "build/canvas/build_6sw_wk1.py",
-            "canvas_builder_sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5",
+            "canvas_builder_sha256": "d5c7210e6bc4fd93862d41364ae78cfbcab6c8c1a939823f20368407f535577f",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk1-student.html",
             "student_template_sha256": "8f088002bed7016b46774bd69363d0bbb751f61ea15fe539636628e839c545a4"
@@ -8077,9 +8077,9 @@
               208
             ],
             "authored_path": "build/canvas/build_6sw_wk1.py",
-            "authored_path_sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5",
+            "authored_path_sha256": "d5c7210e6bc4fd93862d41364ae78cfbcab6c8c1a939823f20368407f535577f",
             "canvas_builder_path": "build/canvas/build_6sw_wk1.py",
-            "canvas_builder_sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5",
+            "canvas_builder_sha256": "d5c7210e6bc4fd93862d41364ae78cfbcab6c8c1a939823f20368407f535577f",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk1-student.html",
             "student_template_sha256": "8f088002bed7016b46774bd69363d0bbb751f61ea15fe539636628e839c545a4"
@@ -8125,9 +8125,9 @@
               224
             ],
             "authored_path": "build/canvas/build_6sw_wk1.py",
-            "authored_path_sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5",
+            "authored_path_sha256": "d5c7210e6bc4fd93862d41364ae78cfbcab6c8c1a939823f20368407f535577f",
             "canvas_builder_path": "build/canvas/build_6sw_wk1.py",
-            "canvas_builder_sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5",
+            "canvas_builder_sha256": "d5c7210e6bc4fd93862d41364ae78cfbcab6c8c1a939823f20368407f535577f",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk1-student.html",
             "student_template_sha256": "8f088002bed7016b46774bd69363d0bbb751f61ea15fe539636628e839c545a4"
@@ -8172,9 +8172,9 @@
               210
             ],
             "authored_path": "build/canvas/build_6sw_wk1.py",
-            "authored_path_sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5",
+            "authored_path_sha256": "d5c7210e6bc4fd93862d41364ae78cfbcab6c8c1a939823f20368407f535577f",
             "canvas_builder_path": "build/canvas/build_6sw_wk1.py",
-            "canvas_builder_sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5",
+            "canvas_builder_sha256": "d5c7210e6bc4fd93862d41364ae78cfbcab6c8c1a939823f20368407f535577f",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk1-student.html",
             "student_template_sha256": "8f088002bed7016b46774bd69363d0bbb751f61ea15fe539636628e839c545a4"
@@ -8229,9 +8229,9 @@
               226
             ],
             "authored_path": "build/canvas/build_6sw_wk1.py",
-            "authored_path_sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5",
+            "authored_path_sha256": "d5c7210e6bc4fd93862d41364ae78cfbcab6c8c1a939823f20368407f535577f",
             "canvas_builder_path": "build/canvas/build_6sw_wk1.py",
-            "canvas_builder_sha256": "37030904d7c60a65a50fa1d3fdcfab7ddd2b3ef0c96d329b4d1325bab7d63fd5",
+            "canvas_builder_sha256": "d5c7210e6bc4fd93862d41364ae78cfbcab6c8c1a939823f20368407f535577f",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk1-student.html",
             "student_template_sha256": "8f088002bed7016b46774bd69363d0bbb751f61ea15fe539636628e839c545a4"
@@ -8276,9 +8276,9 @@
               342
             ],
             "authored_path": "build/canvas/build_6sw_wk2.py",
-            "authored_path_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
+            "authored_path_sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6",
             "canvas_builder_path": "build/canvas/build_6sw_wk2.py",
-            "canvas_builder_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
+            "canvas_builder_sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk2-student.html",
             "student_template_sha256": "f18a8f26f988396a49f7b21a30750dcc9f1491ef8129b08a2b90f7c6d5fa72e9"
@@ -8323,9 +8323,9 @@
               343
             ],
             "authored_path": "build/canvas/build_6sw_wk2.py",
-            "authored_path_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
+            "authored_path_sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6",
             "canvas_builder_path": "build/canvas/build_6sw_wk2.py",
-            "canvas_builder_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
+            "canvas_builder_sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk2-student.html",
             "student_template_sha256": "f18a8f26f988396a49f7b21a30750dcc9f1491ef8129b08a2b90f7c6d5fa72e9"
@@ -8370,9 +8370,9 @@
               344
             ],
             "authored_path": "build/canvas/build_6sw_wk2.py",
-            "authored_path_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
+            "authored_path_sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6",
             "canvas_builder_path": "build/canvas/build_6sw_wk2.py",
-            "canvas_builder_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
+            "canvas_builder_sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk2-student.html",
             "student_template_sha256": "f18a8f26f988396a49f7b21a30750dcc9f1491ef8129b08a2b90f7c6d5fa72e9"
@@ -8417,9 +8417,9 @@
               345
             ],
             "authored_path": "build/canvas/build_6sw_wk2.py",
-            "authored_path_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
+            "authored_path_sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6",
             "canvas_builder_path": "build/canvas/build_6sw_wk2.py",
-            "canvas_builder_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
+            "canvas_builder_sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk2-student.html",
             "student_template_sha256": "f18a8f26f988396a49f7b21a30750dcc9f1491ef8129b08a2b90f7c6d5fa72e9"
@@ -8472,9 +8472,9 @@
               346
             ],
             "authored_path": "build/canvas/build_6sw_wk2.py",
-            "authored_path_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
+            "authored_path_sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6",
             "canvas_builder_path": "build/canvas/build_6sw_wk2.py",
-            "canvas_builder_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
+            "canvas_builder_sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk2-student.html",
             "student_template_sha256": "f18a8f26f988396a49f7b21a30750dcc9f1491ef8129b08a2b90f7c6d5fa72e9"
@@ -8503,9 +8503,9 @@
               346
             ],
             "authored_path": "build/canvas/build_6sw_wk2.py",
-            "authored_path_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
+            "authored_path_sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6",
             "canvas_builder_path": "build/canvas/build_6sw_wk2.py",
-            "canvas_builder_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
+            "canvas_builder_sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk2-student.html",
             "student_template_sha256": "f18a8f26f988396a49f7b21a30750dcc9f1491ef8129b08a2b90f7c6d5fa72e9"
@@ -8535,9 +8535,9 @@
               359
             ],
             "authored_path": "build/canvas/build_6sw_wk2.py",
-            "authored_path_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
+            "authored_path_sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6",
             "canvas_builder_path": "build/canvas/build_6sw_wk2.py",
-            "canvas_builder_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
+            "canvas_builder_sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk2-student.html",
             "student_template_sha256": "f18a8f26f988396a49f7b21a30750dcc9f1491ef8129b08a2b90f7c6d5fa72e9"
@@ -8566,9 +8566,9 @@
               346
             ],
             "authored_path": "build/canvas/build_6sw_wk2.py",
-            "authored_path_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
+            "authored_path_sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6",
             "canvas_builder_path": "build/canvas/build_6sw_wk2.py",
-            "canvas_builder_sha256": "9c373222cef418a0fdd816d538be2091ddc541f405248e5cf66a44a14ce116ab",
+            "canvas_builder_sha256": "45414f387ba0e79a4fa83bec40edc78f1dec245dccd0a5371a787f7eb68c93e6",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk2-student.html",
             "student_template_sha256": "f18a8f26f988396a49f7b21a30750dcc9f1491ef8129b08a2b90f7c6d5fa72e9"
@@ -8613,9 +8613,9 @@
               331
             ],
             "authored_path": "build/canvas/build_6sw_wk3.py",
-            "authored_path_sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63",
+            "authored_path_sha256": "41ce04e49db2c58bc4460a2b391bad1c59f01186718b832cb59a86f4c3012aa0",
             "canvas_builder_path": "build/canvas/build_6sw_wk3.py",
-            "canvas_builder_sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63",
+            "canvas_builder_sha256": "41ce04e49db2c58bc4460a2b391bad1c59f01186718b832cb59a86f4c3012aa0",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk3-student.html",
             "student_template_sha256": "dbcab3d542540a067e8e9210164423a2d8dd2bc1728ab20955acfcf4e5596ed4"
@@ -8660,9 +8660,9 @@
               332
             ],
             "authored_path": "build/canvas/build_6sw_wk3.py",
-            "authored_path_sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63",
+            "authored_path_sha256": "41ce04e49db2c58bc4460a2b391bad1c59f01186718b832cb59a86f4c3012aa0",
             "canvas_builder_path": "build/canvas/build_6sw_wk3.py",
-            "canvas_builder_sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63",
+            "canvas_builder_sha256": "41ce04e49db2c58bc4460a2b391bad1c59f01186718b832cb59a86f4c3012aa0",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk3-student.html",
             "student_template_sha256": "dbcab3d542540a067e8e9210164423a2d8dd2bc1728ab20955acfcf4e5596ed4"
@@ -8707,9 +8707,9 @@
               333
             ],
             "authored_path": "build/canvas/build_6sw_wk3.py",
-            "authored_path_sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63",
+            "authored_path_sha256": "41ce04e49db2c58bc4460a2b391bad1c59f01186718b832cb59a86f4c3012aa0",
             "canvas_builder_path": "build/canvas/build_6sw_wk3.py",
-            "canvas_builder_sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63",
+            "canvas_builder_sha256": "41ce04e49db2c58bc4460a2b391bad1c59f01186718b832cb59a86f4c3012aa0",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk3-student.html",
             "student_template_sha256": "dbcab3d542540a067e8e9210164423a2d8dd2bc1728ab20955acfcf4e5596ed4"
@@ -8754,9 +8754,9 @@
               334
             ],
             "authored_path": "build/canvas/build_6sw_wk3.py",
-            "authored_path_sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63",
+            "authored_path_sha256": "41ce04e49db2c58bc4460a2b391bad1c59f01186718b832cb59a86f4c3012aa0",
             "canvas_builder_path": "build/canvas/build_6sw_wk3.py",
-            "canvas_builder_sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63",
+            "canvas_builder_sha256": "41ce04e49db2c58bc4460a2b391bad1c59f01186718b832cb59a86f4c3012aa0",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk3-student.html",
             "student_template_sha256": "dbcab3d542540a067e8e9210164423a2d8dd2bc1728ab20955acfcf4e5596ed4"
@@ -8809,9 +8809,9 @@
               335
             ],
             "authored_path": "build/canvas/build_6sw_wk3.py",
-            "authored_path_sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63",
+            "authored_path_sha256": "41ce04e49db2c58bc4460a2b391bad1c59f01186718b832cb59a86f4c3012aa0",
             "canvas_builder_path": "build/canvas/build_6sw_wk3.py",
-            "canvas_builder_sha256": "3c2d0d5427366187b3c3d2172ecde93b742e95679613c0b4b1691770f7ee2d63",
+            "canvas_builder_sha256": "41ce04e49db2c58bc4460a2b391bad1c59f01186718b832cb59a86f4c3012aa0",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk3-student.html",
             "student_template_sha256": "dbcab3d542540a067e8e9210164423a2d8dd2bc1728ab20955acfcf4e5596ed4"
@@ -8856,9 +8856,9 @@
               358
             ],
             "authored_path": "build/canvas/build_6sw_wk4.py",
-            "authored_path_sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416",
+            "authored_path_sha256": "2c81c55ca76d79e290b4fafeaa9941352ad7ebe96dabb44e37ad5e20165e5086",
             "canvas_builder_path": "build/canvas/build_6sw_wk4.py",
-            "canvas_builder_sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416",
+            "canvas_builder_sha256": "2c81c55ca76d79e290b4fafeaa9941352ad7ebe96dabb44e37ad5e20165e5086",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk4-student.html",
             "student_template_sha256": "637a0015ffc36ae4341601faae762ff655844966612b4b265015e7d38cff6735"
@@ -8903,9 +8903,9 @@
               370
             ],
             "authored_path": "build/canvas/build_6sw_wk4.py",
-            "authored_path_sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416",
+            "authored_path_sha256": "2c81c55ca76d79e290b4fafeaa9941352ad7ebe96dabb44e37ad5e20165e5086",
             "canvas_builder_path": "build/canvas/build_6sw_wk4.py",
-            "canvas_builder_sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416",
+            "canvas_builder_sha256": "2c81c55ca76d79e290b4fafeaa9941352ad7ebe96dabb44e37ad5e20165e5086",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk4-student.html",
             "student_template_sha256": "637a0015ffc36ae4341601faae762ff655844966612b4b265015e7d38cff6735"
@@ -8950,9 +8950,9 @@
               382
             ],
             "authored_path": "build/canvas/build_6sw_wk4.py",
-            "authored_path_sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416",
+            "authored_path_sha256": "2c81c55ca76d79e290b4fafeaa9941352ad7ebe96dabb44e37ad5e20165e5086",
             "canvas_builder_path": "build/canvas/build_6sw_wk4.py",
-            "canvas_builder_sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416",
+            "canvas_builder_sha256": "2c81c55ca76d79e290b4fafeaa9941352ad7ebe96dabb44e37ad5e20165e5086",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk4-student.html",
             "student_template_sha256": "637a0015ffc36ae4341601faae762ff655844966612b4b265015e7d38cff6735"
@@ -8997,9 +8997,9 @@
               394
             ],
             "authored_path": "build/canvas/build_6sw_wk4.py",
-            "authored_path_sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416",
+            "authored_path_sha256": "2c81c55ca76d79e290b4fafeaa9941352ad7ebe96dabb44e37ad5e20165e5086",
             "canvas_builder_path": "build/canvas/build_6sw_wk4.py",
-            "canvas_builder_sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416",
+            "canvas_builder_sha256": "2c81c55ca76d79e290b4fafeaa9941352ad7ebe96dabb44e37ad5e20165e5086",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk4-student.html",
             "student_template_sha256": "637a0015ffc36ae4341601faae762ff655844966612b4b265015e7d38cff6735"
@@ -9053,9 +9053,9 @@
               535
             ],
             "authored_path": "build/canvas/build_6sw_wk4.py",
-            "authored_path_sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416",
+            "authored_path_sha256": "2c81c55ca76d79e290b4fafeaa9941352ad7ebe96dabb44e37ad5e20165e5086",
             "canvas_builder_path": "build/canvas/build_6sw_wk4.py",
-            "canvas_builder_sha256": "c98600a1bb37fd3c65cd84a0550aa1d15bee25a39e67170252c9b14f63ee3416",
+            "canvas_builder_sha256": "2c81c55ca76d79e290b4fafeaa9941352ad7ebe96dabb44e37ad5e20165e5086",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk4-student.html",
             "student_template_sha256": "637a0015ffc36ae4341601faae762ff655844966612b4b265015e7d38cff6735"
@@ -9101,9 +9101,9 @@
               387
             ],
             "authored_path": "build/canvas/build_6sw_wk5.py",
-            "authored_path_sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd",
+            "authored_path_sha256": "b5ee65fe607ab958661348a9d23479edaa2564f407122087ceb836ff8455cdd1",
             "canvas_builder_path": "build/canvas/build_6sw_wk5.py",
-            "canvas_builder_sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd",
+            "canvas_builder_sha256": "b5ee65fe607ab958661348a9d23479edaa2564f407122087ceb836ff8455cdd1",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk5-student.html",
             "student_template_sha256": "1dc7cb6d06c7ab36c5635cf083ea6c21611f28ed06af3d85e2d46baa8baa9a44"
@@ -9149,9 +9149,9 @@
               388
             ],
             "authored_path": "build/canvas/build_6sw_wk5.py",
-            "authored_path_sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd",
+            "authored_path_sha256": "b5ee65fe607ab958661348a9d23479edaa2564f407122087ceb836ff8455cdd1",
             "canvas_builder_path": "build/canvas/build_6sw_wk5.py",
-            "canvas_builder_sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd",
+            "canvas_builder_sha256": "b5ee65fe607ab958661348a9d23479edaa2564f407122087ceb836ff8455cdd1",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk5-student.html",
             "student_template_sha256": "1dc7cb6d06c7ab36c5635cf083ea6c21611f28ed06af3d85e2d46baa8baa9a44"
@@ -9196,9 +9196,9 @@
               368
             ],
             "authored_path": "build/canvas/build_6sw_wk5.py",
-            "authored_path_sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd",
+            "authored_path_sha256": "b5ee65fe607ab958661348a9d23479edaa2564f407122087ceb836ff8455cdd1",
             "canvas_builder_path": "build/canvas/build_6sw_wk5.py",
-            "canvas_builder_sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd",
+            "canvas_builder_sha256": "b5ee65fe607ab958661348a9d23479edaa2564f407122087ceb836ff8455cdd1",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk5-student.html",
             "student_template_sha256": "1dc7cb6d06c7ab36c5635cf083ea6c21611f28ed06af3d85e2d46baa8baa9a44"
@@ -9244,9 +9244,9 @@
               390
             ],
             "authored_path": "build/canvas/build_6sw_wk5.py",
-            "authored_path_sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd",
+            "authored_path_sha256": "b5ee65fe607ab958661348a9d23479edaa2564f407122087ceb836ff8455cdd1",
             "canvas_builder_path": "build/canvas/build_6sw_wk5.py",
-            "canvas_builder_sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd",
+            "canvas_builder_sha256": "b5ee65fe607ab958661348a9d23479edaa2564f407122087ceb836ff8455cdd1",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk5-student.html",
             "student_template_sha256": "1dc7cb6d06c7ab36c5635cf083ea6c21611f28ed06af3d85e2d46baa8baa9a44"
@@ -9301,9 +9301,9 @@
               391
             ],
             "authored_path": "build/canvas/build_6sw_wk5.py",
-            "authored_path_sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd",
+            "authored_path_sha256": "b5ee65fe607ab958661348a9d23479edaa2564f407122087ceb836ff8455cdd1",
             "canvas_builder_path": "build/canvas/build_6sw_wk5.py",
-            "canvas_builder_sha256": "a5f41eacf4e90fe82540d5e991694d4a4ae10c86ddc6346b76056a845b4c67bd",
+            "canvas_builder_sha256": "b5ee65fe607ab958661348a9d23479edaa2564f407122087ceb836ff8455cdd1",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk5-student.html",
             "student_template_sha256": "1dc7cb6d06c7ab36c5635cf083ea6c21611f28ed06af3d85e2d46baa8baa9a44"
@@ -9349,9 +9349,9 @@
               247
             ],
             "authored_path": "build/canvas/build_6sw_wk6.py",
-            "authored_path_sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1",
+            "authored_path_sha256": "719cfd6d0779a99bbede6c23d7cb069bf2fc79dc14406bf12579b2ae48c63b31",
             "canvas_builder_path": "build/canvas/build_6sw_wk6.py",
-            "canvas_builder_sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1",
+            "canvas_builder_sha256": "719cfd6d0779a99bbede6c23d7cb069bf2fc79dc14406bf12579b2ae48c63b31",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk6-student.html",
             "student_template_sha256": "616ed1b1bfc895cdfcefc1e205e8a9aed93136d38de0d22fd0ffa92df9562b2d"
@@ -9397,9 +9397,9 @@
               248
             ],
             "authored_path": "build/canvas/build_6sw_wk6.py",
-            "authored_path_sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1",
+            "authored_path_sha256": "719cfd6d0779a99bbede6c23d7cb069bf2fc79dc14406bf12579b2ae48c63b31",
             "canvas_builder_path": "build/canvas/build_6sw_wk6.py",
-            "canvas_builder_sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1",
+            "canvas_builder_sha256": "719cfd6d0779a99bbede6c23d7cb069bf2fc79dc14406bf12579b2ae48c63b31",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk6-student.html",
             "student_template_sha256": "616ed1b1bfc895cdfcefc1e205e8a9aed93136d38de0d22fd0ffa92df9562b2d"
@@ -9446,9 +9446,9 @@
               249
             ],
             "authored_path": "build/canvas/build_6sw_wk6.py",
-            "authored_path_sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1",
+            "authored_path_sha256": "719cfd6d0779a99bbede6c23d7cb069bf2fc79dc14406bf12579b2ae48c63b31",
             "canvas_builder_path": "build/canvas/build_6sw_wk6.py",
-            "canvas_builder_sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1",
+            "canvas_builder_sha256": "719cfd6d0779a99bbede6c23d7cb069bf2fc79dc14406bf12579b2ae48c63b31",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk6-student.html",
             "student_template_sha256": "616ed1b1bfc895cdfcefc1e205e8a9aed93136d38de0d22fd0ffa92df9562b2d"
@@ -9502,9 +9502,9 @@
               279
             ],
             "authored_path": "build/canvas/build_6sw_wk6.py",
-            "authored_path_sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1",
+            "authored_path_sha256": "719cfd6d0779a99bbede6c23d7cb069bf2fc79dc14406bf12579b2ae48c63b31",
             "canvas_builder_path": "build/canvas/build_6sw_wk6.py",
-            "canvas_builder_sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1",
+            "canvas_builder_sha256": "719cfd6d0779a99bbede6c23d7cb069bf2fc79dc14406bf12579b2ae48c63b31",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk6-student.html",
             "student_template_sha256": "616ed1b1bfc895cdfcefc1e205e8a9aed93136d38de0d22fd0ffa92df9562b2d"
@@ -9550,9 +9550,9 @@
               251
             ],
             "authored_path": "build/canvas/build_6sw_wk6.py",
-            "authored_path_sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1",
+            "authored_path_sha256": "719cfd6d0779a99bbede6c23d7cb069bf2fc79dc14406bf12579b2ae48c63b31",
             "canvas_builder_path": "build/canvas/build_6sw_wk6.py",
-            "canvas_builder_sha256": "ebf83a891c71740d5af7f0c32a9981b4cb8a8222f75f1c4b45531e4a82dcb6b1",
+            "canvas_builder_sha256": "719cfd6d0779a99bbede6c23d7cb069bf2fc79dc14406bf12579b2ae48c63b31",
             "href_authored_in": "canvas_builder",
             "student_template_path": "build/canvas/templates/6sw-wk6-student.html",
             "student_template_sha256": "616ed1b1bfc895cdfcefc1e205e8a9aed93136d38de0d22fd0ffa92df9562b2d"
@@ -9573,6 +9573,14 @@
       "path": "build/google_docs/student_worksheet_content_specs.draft.json",
       "sha256": "e50cde06406d05e2b9c05ad638463798190359ca9340810c2fd78fd5b03d3438"
     },
+    "current_source_registry": {
+      "path": "build/google_docs/student_response_route_registry.draft.json",
+      "sha256": "1e1f010c52f78e84069e15316edbc8b024ef27ae711746301afe004aecffd113"
+    },
+    "historical_route_registry": {
+      "path": "build/google_docs/student_response_route_registry.json",
+      "sha256": "db78d2ae94c1fb857d9820f34e57eb7c2ff4048fe11f522c41ec4ecf30373cba"
+    },
     "immutable_canvas_plan": {
       "path": "~/.config/canvas-fleet-parity/cce/source-response-routes/plans/course-98060-response-routes-20260826T010619.949837Z.json",
       "sha256": "9cc7b6f27ad03fcf947ff5e1987c8ef9fc941e2142ab7dc65d320b6c1f07e00c"
@@ -9580,10 +9588,6 @@
     "manual_content_specs": {
       "path": "build/google_docs/student_response_route_manual_content_specs.json",
       "sha256": "fcc4ec6ba02d129762e335717aaed341ffd389b20ad612480ee9513b45caa0ad"
-    },
-    "reviewed_route_registry": {
-      "path": "build/google_docs/student_response_route_registry.json",
-      "sha256": "e33d06f8fe9a22f2be7d1c2a3346b9929ce1d0d4c0b1e433f4f37dd8b12f16d7"
     },
     "selected_canvas_file_id_count": 174
   },

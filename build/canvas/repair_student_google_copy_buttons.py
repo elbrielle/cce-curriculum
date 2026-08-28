@@ -361,7 +361,7 @@ def desired_body(original_body: str, route: dict) -> tuple[str, dict]:
     }
 
 
-def load_inputs() -> tuple[dict, dict, dict]:
+def load_inputs(*, allow_historical_registry: bool = False) -> tuple[dict, dict, dict]:
     inventory = load_json(SELECTOR_MAP)
     registry = load_json(REGISTRY)
     backup_path = require_private_immutable(SOURCE_BACKUP, label="source backup")
@@ -394,7 +394,7 @@ def load_inputs() -> tuple[dict, dict, dict]:
             )
     if (
         inventory.get("inputs", {})
-        .get("reviewed_route_registry", {})
+        .get("historical_route_registry", {})
         .get("sha256")
         != sha256_file(REGISTRY)
     ):
@@ -407,8 +407,20 @@ def load_inputs() -> tuple[dict, dict, dict]:
     registry_keys = {row.get("route_id") for row in registry_routes}
     if selector_keys != expected_day_keys() or registry_keys != expected_day_keys():
         raise RepairError("Inputs do not contain the exact 180-day address set")
-    if registry.get("review_status") != "reviewed":
-        raise RepairError("Response-route registry is not reviewed")
+    if allow_historical_registry:
+        if (
+            registry.get("review_status") != "historical"
+            or registry.get("mutation_authority") != "none_requires_new_promotion"
+        ):
+            raise RepairError("Expected the explicitly historical registry fixture")
+    elif (
+        registry.get("review_status") != "reviewed"
+        or registry.get("mutation_authority")
+        != "reviewed_source_course_body_plan_only"
+    ):
+        raise RepairError(
+            "Response-route registry cannot authorize work; promote a fresh draft first"
+        )
     if backup.get("course_id") != COURSE_ID:
         raise RepairError("Source backup is for the wrong course")
     backup_by_route = {

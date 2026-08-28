@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SITE = ROOT / "public-site" / "dist"
 COMPLETE_ARTIFACT_INVENTORY = ROOT / "cce-curriculum/notes/google-workspace-complete-artifact-inventory.json"
-STUDENT_RESPONSE_ROUTES = ROOT / "build/google_docs/student_response_route_registry.json"
+STUDENT_RESPONSE_ROUTES = ROOT / "build/google_docs/student_response_route_registry.draft.json"
 UNWANTED_STRUCTURAL_METAPHOR = re.compile(r"\bload(?:\s+|-+)bearing\b", re.IGNORECASE)
 
 
@@ -36,8 +36,11 @@ def verify(site: Path) -> None:
         raise SystemExit("Missing data/site-manifest.json")
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     route_payload = json.loads(STUDENT_RESPONSE_ROUTES.read_text(encoding="utf-8"))
-    if route_payload.get("review_status") != "reviewed":
-        problems.append("student response-route registry is not reviewed")
+    if (
+        route_payload.get("review_status") != "draft"
+        or route_payload.get("mutation_authority") != "none"
+    ):
+        problems.append("student response-route source is not the current non-mutating draft")
     expected_copy_actions: dict[str, tuple[str, str]] = {}
     for row in route_payload.get("routes", []):
         source = Path(row["source"]["day_source"]["path"])
