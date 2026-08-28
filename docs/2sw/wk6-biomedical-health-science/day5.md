@@ -1,93 +1,79 @@
-# Day 5: Xello Explore Career Matches
+# Day 5: Biomedical Career Evidence Reflection
 <!-- CCE DAILY CONTRACT START -->
 ## Daily Learning Contract
 
-- **Topic:** Career Assessment
-- **Objective:** Students will analyze one Xello career match using an interest, a career task, and evidence from Find out why.
-- **TEKS:** d(1)(A)
-- **Demonstration of Learning:** Xello Explore career matches completion plus submitted private Canvas reflection.
+- **Topic:** Biomedical Career Evidence
+- **Objective:** Students will compare fixed evidence for three biomedical careers and support one current recommendation with a task, preparation fact, and source-labeled career fact.
+- **TEKS:** d(1)(C), d(2)(A)
+- **Demonstration of Learning:** Submitted private Biomedical Career Evidence Reflection.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
 
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Complete Xello's required Grade 8 Explore career matches lesson; use Find out why to examine one match; explain whether evidence changed the student's thinking |
-| **TEKS** | d(1)(A) |
-| **5E Phases** | Engage: Warm-Up · Explore: Required Xello lesson · Explain: Private reflection · Evaluate: Exit Ticket |
-| **Deliverable** | Xello Explore career matches completion plus private Canvas reflection; [optional one-page paper route](../../resources/worksheets/2sw-wk6-xello-career-matches-reflection.pdf) |
-| **Materials** | Chromebooks, Xello accounts, official Xello student video, Irving-adapted slide deck, one-page student directions, reflection sheet |
+| **Objectives** | Compare three biomedical careers; support one recommendation with a task, preparation fact, and source-labeled career fact; name one question to verify |
+| **TEKS** | d(1)(C), d(2)(A) |
+| **5E Phases** | Engage: Warm-Up · Explore: Fixed-career comparison · Explain: Private reflection · Evaluate: Exit Ticket |
+| **Deliverable** | Private Biomedical Career Evidence Reflection; [optional one-page paper route](../../resources/worksheets/2sw-wk6-xello-career-matches-reflection.pdf) |
+| **Materials** | Biomedical Career Evidence Guide, Week 6 artifacts, private reflection |
 
 ---
 
 ## Before Class
 
-1. Check the Xello Completion Standards report for Matchmaker and Save careers. Students need Matchmaker complete and at least three saved careers.
-2. Assign supervised catch-up for missing prerequisites. Do not make a student invent a career choice.
-3. Open the locked Canvas resource package: facilitator guide, Irving-adapted slides, one-page student directions, and official student video.
-4. Test ClassLink to Xello on the student network.
-5. Keep the full resource's 120-minute option separate from today's required 35-minute district minimum.
-6. Open the unpublished private reflection assignment. Print the one-page reflection only when assigning paper.
-7. Default route: individual work with one device per student. A peer navigator may point to the next step but does not control another student's account or view private results unnecessarily.
+1. Open the Biomedical Career Evidence Guide and one strong Week 6 model.
+2. Open the unpublished private reflection assignment. Print the one-page reflection only when assigning paper.
+3. Default route: individual work. A partner may rehearse one evidence comparison, but each student submits a private response.
 
 ## Warm-Up (5 min)
 
-Use one prompt from the official Xello slide deck:
+**WARM-UP:** Which evidence should matter most when comparing biomedical careers: daily work, preparation, pay, or the problem the career solves? Explain.
 
-**WARM-UP:** Is it okay to cross a career off your list even if it scores high on Matchmaker? Explain.
+Students write first, then two volunteers share. No single fact decides career fit by itself.
 
-Students write first, then two volunteers share. An assessment result is a starting point for investigation, not a command.
+## Activity 1: Compare Three Biomedical Careers (20 min)
 
-## Activity 1: Explore Career Matches in Xello (35 min)
+Students use the fixed Biomedical Career Evidence Guide.
 
-Students log in through **ClassLink > Xello**.
+1. Review biomedical engineer, epidemiologist, and medical scientist.
+2. Record one central task and the common preparation for each career.
+3. Keep the year, geography, and measure attached to one pay, outlook, or annual-openings fact.
+4. Compare which career best fits one problem solved during the week.
 
-1. Open **Home** and select **Lessons**.
-2. Open **Explore career matches**.
-3. Review the lesson prompts about interests and career matches.
-4. Use **Find out why** for at least one career match.
-5. Compare the match with the career's tasks and the student's interests.
-6. Complete the lesson in Xello.
+**Safe trim:** Provide the completed career-fact rows and require students to write the comparison, recommendation, and question to verify. Protect the private response and source labels.
 
-The official 1-page directions and video remain beside the numbered steps in Canvas. Required directions stay visible; the longer facilitator guide is teacher-only.
+## Activity 2: Private Reflection (20 min)
 
-**Completion evidence:** Use the Xello Completion Standards report. Do not require a public screenshot of a student's profile or assessment results.
+Students complete the reflection:
 
-**Safe trim:** Cut the separate exit prompt because the private reflection already captures the TEKS evidence. Do not cut the 35-minute Xello lesson, Find out why, report verification, or catch-up record. Reserve two minutes for students to submit privately, sign out, and close personal account screens.
+- one biomedical career they recommend exploring;
+- one task and one preparation fact that support the recommendation;
+- one source-labeled career fact;
+- one tradeoff or limit; and
+- one question to verify next.
 
-## Activity 2: Private Reflection (5 min)
-
-Students complete the before-and-after section:
-
-- one match they were unsure about;
-- what they used to think;
-- one interest and one work fact they reviewed;
-- what they think now;
-- what changed or did not change their view.
-
-The student may choose the match. Do not require them to share the result with a partner.
+The student may choose any of the three careers. Do not require them to share the recommendation with a partner.
 
 ## Private Reflection and Exit Check (5 min)
 
-**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/2sw-wk6-day5-xello-explore-career-matches.pdf):
+**EXIT TICKET** (Short Constructed Response) · [Printable PDF](../../resources/exit-tickets/2sw-wk6-day5-biomedical-career-evidence-reflection.pdf):
 
-The final private-reflection response is the exit check: explain one reason a student should think critically about a career-assessment result instead of accepting or rejecting it immediately. Use one detail from today's Xello work. Do not submit a second response.
+The final private-reflection response is the exit check: explain why one source-labeled fact supports or complicates the recommendation. Do not submit a second response.
 
 ## Teacher Key and Extension Prompt
 
-**Mastery signal:** The response treats the result as evidence to investigate and cites an interest, task, or Find out why detail.
+**Mastery signal:** The response connects a career task, preparation fact, and labeled source to a supported recommendation.
 
-**DOK 2 prompt:** Explain how one interest and one career task together support, complicate, or change your first reaction to a match.
+**DOK 2 prompt:** Explain how one career task and one preparation fact together support or complicate your recommendation.
 
-## Access, Absence, and Platform Failure
+## Access and Absence
 
-- **Support:** Keep the one-page directions visible, read the numbered steps aloud, chunk the lesson, and offer a private written response.
-- **ELL:** Use bilingual labels for match, interest, task, evidence, and changed. A full translation is not required.
-- **Absence:** An absent student may review the page and video independently, but completes the Xello lesson during the teacher's approved catch-up window.
-- If Xello is unavailable, students watch the official video, use the sample reflection, and complete the written learning task. The required platform lesson moves to supervised catch-up.
-- If prerequisites are missing, use the same catch-up rule. Do not pretend a paper sheet completed Xello.
-- H&L is optional today. It does not replace Xello completion.
+- **Support:** Keep the fixed career rows visible, read the numbered steps aloud, chunk the comparison, and offer a private written response.
+- **ELL:** Use bilingual labels for task, preparation, evidence, tradeoff, and recommend. A full translation is not required.
+- **Absence:** An absent student uses the same fixed guide and private reflection. No platform catch-up is required.
+- H&L is optional today and does not replace the fixed source labels.
 
 ## Optional Extension
 
-Use *Find Your Future* pp. 82-83, Patient Education, with Canva or Adobe Express. Students generate or sketch a labeled medical illustration, compare it with a trusted anatomy source, and identify one accurate feature and one problem. This is an extension, not part of the Xello minimum.
+Use *Find Your Future* pp. 82-83, Patient Education, with Canva or Adobe Express. Students generate or sketch a labeled medical illustration, compare it with a trusted anatomy source, and identify one accurate feature and one problem.

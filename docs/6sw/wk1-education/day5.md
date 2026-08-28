@@ -3,7 +3,7 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Evidence
-- **Objective:** Students will synthesize career, preparation, job-posting, learning-design, and service evidence to justify an Education and Training direction and next action.
+- **Objective:** Students will synthesize career, preparation, learning-pathway, learning-design, and service evidence to justify an Education and Training direction and next action.
 - **TEKS:** d(1)(B), d(1)(C), d(2)(A), d(2)(B), d(4)(E)
 - **Demonstration of Learning:** three-page Education Career Evidence Portfolio plus a visible one-page 16-point rubric.
 <!-- CCE DAILY CONTRACT END -->
@@ -26,7 +26,7 @@ Students use the week's evidence to explain one current direction, preparation b
 
 1. **Current local evidence — 7 min.** Irving currently names Education and Training at Irving High, MacArthur, and Nimitz, and Early Childhood Education at Cardwell. Separate public listing from guarantees about courses, credentials, travel, admission, or placement.
 2. **Workbook/current comparison — 5 min.** Treat the FYF district pages as curriculum context and identify what must be verified now.
-3. **Assemble evidence — 21 min.** Students complete the three-page portfolio using Days 1-4 or the fixed missing-work strip in Canvas. Short source fields accept phrases; reasoning has dedicated full-width space.
+3. **Assemble evidence — 21 min.** Students complete the three-page portfolio using Days 1-4, including one Day 3 learning-pathway comparison, or the fixed missing-work strip in Canvas. Short source fields accept phrases; reasoning has dedicated full-width space.
 4. **Self-score and revise — 10 min.** Students use all four rubric criteria and make one visible repair.
 5. **Submit, transfer Entry 6, and clean up — 7 min.** Submit one private portfolio. During the final 2-3 minutes, copy five short portfolio phrases into the student-kept Evidence Log, then return materials.
 
@@ -45,7 +45,7 @@ The paper log returns to the CCE binder. The digital log stays in the teacher-de
 ## Monitor and Key
 
 - **Minute 10:** every student has prior evidence or the fixed missing-work strip plus one source/date boundary.
-- **Minute 25:** preparation/posting and design/revision/service evidence are visible. If one-third writes preference only, project the supplied complete model strip.
+- **Minute 25:** preparation/pathway and design/revision/service evidence are visible. If one-third writes preference only, project the supplied complete model strip.
 - **Minute 38:** the conclusion uses four evidence types, one limit, and one specific next action. Labeled bullets are acceptable; do not cut a rubric job.
 - **Minute 45:** all four self-scores and one visible revision are complete.
 - **Minute 48:** the portfolio is submitted and five short phrases are saved in Entry 6 or the named fallback location.
@@ -53,6 +53,6 @@ The paper log returns to the CCE binder. The digital log stays in the teacher-de
 
 ## Platform and Sequence Boundary
 
-No new required Grade 8 Xello task belongs in this week. **Discover learning pathways**, H&L favorites, and eDynamic 7.2 are optional extensions only after required evidence is complete and the teacher has verified current access/content. Paper or fixed Canvas evidence is the complete absence route; do not create false platform completion.
+**Discover learning pathways** is the required Grade 7 Xello lesson. The fixed pathway comparison supports learning during an absence or outage, but it does not count as Xello completion. H&L favorites and eDynamic 7.2 remain optional.
 
 If the Evidence Log is unavailable, the student writes these five labels and short phrases in the CCE notebook or teacher-designated digital folder: artifact/task, skill, visible action, revision/recovery, next step. The student transfers the phrases when the log returns. Do not collect this fallback, ask the student to reconstruct old work, or create another submission.

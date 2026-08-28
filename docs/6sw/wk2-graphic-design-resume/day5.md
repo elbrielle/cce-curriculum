@@ -29,4 +29,4 @@ At minute 8, every student should have all Minor evidence in order or be using a
 
 ## Platform and Local Boundary
 
-Current Irving public evidence names Graphic Design and Digital Communication at Irving High, MacArthur, and Nimitz. It does not guarantee schedule, certification, equipment, placement, admission, or employment. Xello Resume Builder and H&L App Exploration are optional extensions only.
+Current Irving public evidence names Graphic Design and Digital Communication at Irving High, MacArthur, and Nimitz. It does not guarantee schedule, certification, equipment, placement, admission, or employment. The required Xello Resume was completed or recorded for supervised recovery on Day 3. H&L App Exploration remains optional.

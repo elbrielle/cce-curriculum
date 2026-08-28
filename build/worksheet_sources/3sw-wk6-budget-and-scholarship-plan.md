@@ -1,5 +1,5 @@
 ---
-title: Personal Budget and Xello Scholarship Plan
+title: Personal Budget and Decision Plan
 slug: 3sw-wk6-budget-and-scholarship-plan
 kind: worksheet
 weeks: 3sw/wk6-entrepreneurship
@@ -74,21 +74,25 @@ How could an entrepreneur use this budget without confusing revenue with persona
 
 [[pagebreak]]
 
-## Part 4: Required Xello Scholarship profile
+&nbsp;
 
-The Grade 8 completion standard is **Scholarship profile: 20 minutes; complete the matching profile**.
+## Part 4: Explain and stress-test the decision
 
-1. Sign in through the district launch page.
-2. Open **College Planning**, then **Scholarships** or **Scholarship matches**.
-3. Open the profile or profile booster.
-4. Answer honestly. Use **I don't know** when that is the truthful answer.
-5. Stop when the profile is complete. You do not have to apply for or save a scholarship today.
+1. Which lifestyle choice changed the revised budget most? Explain why.
 
-**Privacy:** do not copy private profile answers into Canvas, a class discussion, or this paper. The teacher verifies completion through the Xello Completion Standards report.
+[[lines: 3]]
 
-Completion check: □ Complete today  □ Supervised catch-up needed
+2. Name one expense that is difficult to change quickly and one expense that may be more flexible.
 
-Do not write private profile answers on this page. The teacher checks the Completion Standards report.
+[[lines: 3]]
+
+3. Explain why business revenue is not the same as the money an owner can use for personal expenses.
+
+[[lines: 3]]
+
+4. Name one question you would verify before using this plan for a real household.
+
+[[lines: 2]]
 
 ## Done when
 
@@ -96,5 +100,5 @@ Do not write private profile answers on this page. The teacher checks the Comple
 - [ ] My revised budget does not spend more than the available income.
 - [ ] I used the household, place, date, and measure labels correctly.
 - [ ] I explained the difference between business revenue and personal income.
-- [ ] I completed the Xello profile or joined the supervised catch-up list.
-- [ ] I did not submit private profile answers.
+- [ ] I explained one lifestyle decision and one budget tradeoff.
+- [ ] I named one fact I would verify before using the plan in real life.

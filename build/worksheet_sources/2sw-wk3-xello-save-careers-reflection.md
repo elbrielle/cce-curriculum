@@ -1,5 +1,5 @@
 ---
-title: Xello Save Three Careers Reflection
+title: Nursing Career Evidence Map
 slug: 2sw-wk3-xello-save-careers-reflection
 kind: worksheet
 weeks: 2sw/wk3-nursing-health-science
@@ -10,11 +10,11 @@ pages: 1
 orientation: portrait
 ---
 
-## Required Xello task
+## Compare three nursing careers
 
-Save at least **3 careers** in Xello. They may come from Health Science or another cluster. A thoughtful "not for me" decision is valid, but the district completion task still requires three saved careers for comparison.
+Use the fixed Nursing Career Route Guide. Compare at least **3 careers** using the same evidence categories. A thoughtful "not for me" decision is valid when the evidence supports it.
 
-| Saved career | One task or work condition | One reason to keep exploring or question it |
+| Career | One responsibility and work condition | Preparation and source-labeled pay fact |
 |---|---|---|
 | 1. | | |
 | 2. | | |
@@ -22,13 +22,13 @@ Save at least **3 careers** in Xello. They may come from Health Science or anoth
 
 ## Compare
 
-Which saved career currently fits you best? ____________________________________
+Which career currently fits you best? ____________________________________
 
-Use one result from your Xello profile or one Week 0 building block:
+Use one Week 0 building block or one nursing-career responsibility:
 
 [[lines: 3]]
 
-Which saved career needs more research? _______________________________________
+Which career needs more research? _______________________________________
 
 What exact fact will you check next?
 
@@ -36,8 +36,6 @@ What exact fact will you check next?
 
 ## Completion check
 
-- [ ] I saved at least 3 careers in Xello.
-- [ ] I can see all 3 in my saved-careers list.
+- [ ] I compared at least 3 fixed nursing careers.
+- [ ] Every pay fact keeps its year, geography, and measure.
 - [ ] I completed the comparison above.
-
-If Xello is unavailable, complete the paper reflection now and finish the required save task during supervised catch-up. Platform access does not lower the reflection score.

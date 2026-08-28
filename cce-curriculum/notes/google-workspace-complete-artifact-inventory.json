@@ -653,8 +653,8 @@
         },
         {
           "source": "docs/resources/worksheets/wk3-day5-learning-style-connection.pdf",
-          "sha256": "db41a7f59658d78e7434bccadd8c6a35238b7e18896e68a07a84c712d93abe6c",
-          "bytes": 200994,
+          "sha256": "c2d77c0674574d0f9eb5b8b935cecfa6097b511d1e7b4ee6218d891c784f1875",
+          "bytes": 203783,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -827,8 +827,8 @@
         },
         {
           "source": "docs/resources/worksheets/wk4-day1-career-interest-check.pdf",
-          "sha256": "a8f04c5ed35e054ba4b0b49a6b570ad21575429fd0f6286af27925ce0ba86646",
-          "bytes": 175672,
+          "sha256": "635d004cc9d080f45bc81d83b27c95bdb9062d4bf334c0085acec3978d4909b2",
+          "bytes": 196178,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -1183,7 +1183,6 @@
           "google_native_required": false,
           "public_site_included": true,
           "source_origins": [
-            "canvas_builder",
             "public_site"
           ],
           "drive_file": {
@@ -1716,9 +1715,9 @@
           }
         },
         {
-          "source": "docs/resources/exit-tickets/2sw-wk3-day5-save-three-careers-in-xello.pdf",
-          "sha256": "c5fa08e6d1114ba7b9abb0cdb0539bffb62128246c3f61d59e9f930439ffa716",
-          "bytes": 202109,
+          "source": "docs/resources/exit-tickets/2sw-wk3-day5-build-a-nursing-career-evidence-map.pdf",
+          "sha256": "e577873ae59fbd6cd70171ec593bc3893da7836151290e9ea2701f2e81eab8e4",
+          "bytes": 205601,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -1727,7 +1726,7 @@
           ],
           "drive_file": {
             "id": "1El9KOZm9CQnmWE296ltckHP01dvhjEBL",
-            "name": "2sw-wk3-day5-save-three-careers-in-xello.pdf"
+            "name": "2sw-wk3-day5-build-a-nursing-career-evidence-map.pdf"
           }
         },
         {
@@ -1828,8 +1827,8 @@
         },
         {
           "source": "docs/resources/worksheets/2sw-wk3-xello-save-careers-reflection.pdf",
-          "sha256": "9dd3dd7a535ab71421e46d4b8d7c73f2d4f0a5ab6201ee2e6f20e39b01119e20",
-          "bytes": 200757,
+          "sha256": "5cafaba4558ccf410827b2c3b749cebf1d4bccbf9adc8fc5e998dfc51e39c3de",
+          "bytes": 192769,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -1999,8 +1998,8 @@
         },
         {
           "source": "docs/resources/worksheets/2sw-wk4-xello-experiences-checkpoint.pdf",
-          "sha256": "2cde3d6c253d5ccfa07449bd4097e504bdcd0df18f1267c3f63c31ab6e533d74",
-          "bytes": 225528,
+          "sha256": "3351399fafd005b8f08478b064717274b7aeefef5837167c752bee3a6ffa9e10",
+          "bytes": 221128,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -2061,8 +2060,8 @@
         },
         {
           "source": "docs/resources/worksheets/2sw-wk5-communication-goal-rubric.pdf",
-          "sha256": "4da07671b3eb0dd10d4b1ff19fa3f06e52e4d7ab49a3961de44a3d377934661d",
-          "bytes": 235108,
+          "sha256": "8b456f24a29dde33fd6c739b905bba3c011196f871a40a561b4e81bdbfaebdbd",
+          "bytes": 232531,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -2109,8 +2108,8 @@
         },
         {
           "source": "docs/resources/worksheets/2sw-wk5-work-experience-skills-synthesis.pdf",
-          "sha256": "a6029194f8b151b147e042099e1bbc34989721d2f03790e1e4a305e4d375e6aa",
-          "bytes": 233178,
+          "sha256": "1d628e7ddee9ae711c6457a609decec81d301f14f9c0222c4959cff1ea394cf8",
+          "bytes": 222221,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -2214,9 +2213,9 @@
           }
         },
         {
-          "source": "docs/resources/exit-tickets/2sw-wk6-day5-xello-explore-career-matches.pdf",
-          "sha256": "1a314d2e2627272d12138a01b281edf131738d53cc4d686b2dcc5bcc1a7ec629",
-          "bytes": 196766,
+          "source": "docs/resources/exit-tickets/2sw-wk6-day5-biomedical-career-evidence-reflection.pdf",
+          "sha256": "1b502bdfcd58a9ebea8e47cea6ffc578081d3d1468dbfd5a5d01a0582865b53b",
+          "bytes": 194380,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -2225,7 +2224,7 @@
           ],
           "drive_file": {
             "id": "15SiuvAZA9ZaTHjyCWeSa-Y7i4Fe4CVEF",
-            "name": "2sw-wk6-day5-xello-explore-career-matches.pdf"
+            "name": "2sw-wk6-day5-biomedical-career-evidence-reflection.pdf"
           }
         },
         {
@@ -2310,8 +2309,8 @@
         },
         {
           "source": "docs/resources/worksheets/2sw-wk6-xello-career-matches-reflection.pdf",
-          "sha256": "776020c0acfd069a4dbb16a4e1afe5cdf81b4080e9be9e2d144b3effe6b6e4dd",
-          "bytes": 191416,
+          "sha256": "1454536f73f5fa8fc32f0a3dd24831b3add2cd71e594513b19300a97295d666a",
+          "bytes": 174010,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -2388,8 +2387,8 @@
         },
         {
           "source": "docs/resources/worksheets/3sw-wk1-veterinary-pathway-brief.pdf",
-          "sha256": "83ecd1f9b785367f673acad4ef8ee254d01287aa26b4c0bde17f6b6f48f781a9",
-          "bytes": 212424,
+          "sha256": "72a6a12bf535c6da8a2c119850787e045341af6c75a9679afa47f3298b4c865c",
+          "bytes": 211904,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -2420,8 +2419,8 @@
         },
         {
           "source": "docs/resources/worksheets/3sw-wk1-xello-skills-reflection.pdf",
-          "sha256": "abb5a4382e47980b2213ef96d33b480dbf17f9c2b95c219d5ca7d6c12d601bbb",
-          "bytes": 194141,
+          "sha256": "7be31466934c4b032daff7ad252a697b24a7dba7ccc0f0e1b6a50c3ca8c72398",
+          "bytes": 189890,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -2530,8 +2529,8 @@
         },
         {
           "source": "docs/resources/worksheets/3sw-wk2-xello-biases-reflection.pdf",
-          "sha256": "bb2df056ded1947245c9f664a5d84c8d43129cb783379a41ab1c9c4a4f0ffd38",
-          "bytes": 200947,
+          "sha256": "1126e310e73522e1f5de6ffee164ff12c8174a7fd9aa189c7309797f6c6fc4be",
+          "bytes": 193252,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -2672,8 +2671,8 @@
         },
         {
           "source": "docs/resources/worksheets/3sw-wk3-xello-goals-plan.pdf",
-          "sha256": "4f154a70d7cfcf3b72107b0e399869bcc5d85a47a1b83915c227eed08cad8878",
-          "bytes": 216441,
+          "sha256": "509c4a6e09858d4e1fd215ab339dfbef517257e23a0858acd49666c37facf751",
+          "bytes": 202593,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -2986,8 +2985,8 @@
       "required_releases": [
         {
           "source": "docs/resources/worksheets/3sw-wk6-budget-and-scholarship-plan.pdf",
-          "sha256": "1cf77024b1c20a9024da5c46860578110257bcb3414b757e608df68fafad8f32",
-          "bytes": 300678,
+          "sha256": "c3f4966a4336f38fe327ed993708144f9ab012fffe4a4126e63bdf88f7a18940",
+          "bytes": 277050,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -3096,8 +3095,8 @@
       "required_releases": [
         {
           "source": "docs/resources/worksheets/4sw-wk1-career-deep-dive.pdf",
-          "sha256": "47eb1dc8739028df950263f3a5594a53679a71928472bd9ea481305673f25f55",
-          "bytes": 251129,
+          "sha256": "f6a2091e68724ccf2808f86d2aad49b5c74d48c0b70720667a2d6ac1aa37daf4",
+          "bytes": 235232,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -3128,8 +3127,8 @@
         },
         {
           "source": "docs/resources/worksheets/4sw-wk1-midyear-blueprint-rubric.pdf",
-          "sha256": "4d74df962f4753492c49cad6fbee146bb2bd2c4e1405b621441f16672cc51791",
-          "bytes": 235110,
+          "sha256": "6c24b1431d69e62420fc36b7e712fecc307c5934917de14d60dcb816dd603152",
+          "bytes": 230448,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -3144,8 +3143,8 @@
         },
         {
           "source": "docs/resources/worksheets/4sw-wk1-midyear-career-blueprint.pdf",
-          "sha256": "2be19c39a8f0306f168dc5b3622565a66bcc51dbf618ee6973d554cdfcfeaaa4",
-          "bytes": 193608,
+          "sha256": "60cdb9493c60b2706bc7a8831c6afe6c1b15e902db052255142c02aa1d719a9c",
+          "bytes": 189558,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -3297,8 +3296,8 @@
         },
         {
           "source": "docs/resources/worksheets/4sw-wk2-four-year-course-plan-draft.pdf",
-          "sha256": "67105497c4891d4958d47953569dc1d282c9d19f668748f972789e21aad95dbc",
-          "bytes": 241152,
+          "sha256": "9dcce1c07d4da15be62637f9fd0f7426bd8ee3aad0bd0b77e7f2cdc7726b0eff",
+          "bytes": 235026,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -4562,8 +4561,8 @@
         },
         {
           "source": "docs/resources/worksheets/5sw-wk5-salary-source-and-lifestyle-target.pdf",
-          "sha256": "3e6bf6aad45c0b03eb2058129e0af684d38be2f98b09cc369b1bad820035d047",
-          "bytes": 265219,
+          "sha256": "abbd29b35c69fd9ced37bbe60fa86be6ac9aa204934c099d15f3725f7640e648",
+          "bytes": 258919,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -4578,8 +4577,8 @@
         },
         {
           "source": "docs/resources/worksheets/5sw-wk5-three-career-budget-portfolio.pdf",
-          "sha256": "9e2037b0184374d75bcd3b8e15f974d0cf4b7d8c628321219513eb706304979e",
-          "bytes": 266085,
+          "sha256": "f3ce08ab74c67711fa9f63ac8568fc0da55caded1e1deb7f2d6eafae8d4316a0",
+          "bytes": 260670,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -4734,8 +4733,8 @@
         },
         {
           "source": "docs/resources/worksheets/6sw-wk1-education-evidence-portfolio.pdf",
-          "sha256": "bfdb58782392ffe3a4cbb5fe13a130ce94608b02007bb3a99382d321c5150063",
-          "bytes": 218533,
+          "sha256": "aed9caf22dadb7e501d4bb486a0740101e201c227a21ecdc3533168180804b22",
+          "bytes": 214824,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -4750,8 +4749,8 @@
         },
         {
           "source": "docs/resources/worksheets/6sw-wk1-education-job-evidence.pdf",
-          "sha256": "e42433b1787c5fe7f589dff698df854bf6c2113598c98b3438ff380b4efb07f2",
-          "bytes": 239451,
+          "sha256": "18182c7008bb010a31f4bf4540ad5dfaa597ec87984ed0a2f1143b2e7fb774b4",
+          "bytes": 234961,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -4766,8 +4765,8 @@
         },
         {
           "source": "docs/resources/worksheets/6sw-wk1-education-portfolio-rubric.pdf",
-          "sha256": "af30b8c49b9c7b91837f121052c5cd53762899792f59738d8e6398aed0b087af",
-          "bytes": 220146,
+          "sha256": "0955a17c0a55c9d524462b0bd98fdbe967113893f4fc8c1da3da292fe9f8e077",
+          "bytes": 215186,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -4828,8 +4827,8 @@
       "required_releases": [
         {
           "source": "docs/resources/worksheets/6sw-wk2-audio-cue-and-resume-revision.pdf",
-          "sha256": "f740f9f8735deb84de527e4eae7107b0ed5ebeb7281d14b555b3c5fdcd91b502",
-          "bytes": 204053,
+          "sha256": "f6dd6710deaa99443398ee25da7725ae11c3bcbab37d28cb066d93ac5ec2c893",
+          "bytes": 200495,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -4908,8 +4907,8 @@
         },
         {
           "source": "docs/resources/worksheets/6sw-wk2-resume-design-rubric.pdf",
-          "sha256": "93d87146977ccf265a79191cac9fe6153d912f4f72c05941807475c79dfe5663",
-          "bytes": 220794,
+          "sha256": "8d70200e3a7835c45127aad87306f63f73fbb29dfa4327e2e523e0aed79fffba",
+          "bytes": 223171,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,

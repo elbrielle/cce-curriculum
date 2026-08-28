@@ -36,7 +36,7 @@ Texas Professional Real Estate Inspectors are licensed professionals. The Grade 
 - The 2026–27 Irving ISD coursebook lists Principles of Construction, Construction I, Construction II, and Practicum in Construction; Autodesk Associate (Certified User) Revit Architecture; and Technology Student Association (TSA).
 - The FYF district pages use older **Construction Technology**, NCCER Core, and SkillsUSA wording. Present that only as a dated workbook snapshot, not a current promise.
 - H&L is optional exploration. It is not the scored salary source and no favorite/rating is required.
-- No required Grade 8 Xello or eDynamic task is assigned this week.
+- No Xello or eDynamic completion task is assigned this week.
 
 ## Course Classification Rule
 

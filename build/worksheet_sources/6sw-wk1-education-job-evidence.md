@@ -1,5 +1,5 @@
 ---
-title: Education Job-Posting Evidence
+title: Discover Learning Pathways Support
 slug: 6sw-wk1-education-job-evidence
 kind: worksheet
 weeks: 6sw/wk1-education
@@ -10,48 +10,47 @@ pages: 2
 orientation: landscape
 ---
 
-## Three Fixed Practice Cards
+## Before the Xello lesson
 
-A job posting is evidence about one employer's opening at one time. It does not prove that every employer uses the same title, duties, education, or experience rules.
+Open **ClassLink > Xello > Home > Lessons > Discover learning pathways**.
 
-| Field | Card A: Instructional Aide | Card B: Training Specialist | Card C: Museum Educator |
+The lesson requires at least three saved careers. If fewer than three appear, save three careers you are willing to compare. Saving them here is only the prerequisite for this Grade 7 lesson; your teacher is checking the lesson completion.
+
+**Word bank:** pathway/ruta · apprenticeship/aprendizaje · technical school/escuela técnica · university/universidad · straight to work/ir directamente al trabajo
+
+| Career | One pathway Xello shows | One benefit | One question or concern |
 |---|---|---|---|
-| Responsibilities | Support instruction under a certified teacher; prepare materials; help individuals or small groups; support a safe learning environment | Identify learning needs; develop materials; facilitate training; evaluate whether training worked | Plan visitor learning; lead programs; work with collections or exhibits; adapt explanations for audiences |
-| Skills | Communication, organization, patience, teamwork | Communication, facilitation, project organization, learning-material design | Communication, research, facilitation, audience awareness |
-| Preparation in this scenario | Diploma/equivalent plus the employer's stated paraprofessional and certification rules | Bachelor's degree or equivalent documented preparation; experience creating learning materials | Relevant degree or equivalent preparation; institution-specific experience may apply |
-| Limit | Verify the live employer posting and current district rules | Actual employers may use different requirements | Actual institutions may use different requirements |
+| 1. | | | |
+| 2. | | | |
+| 3. | | | |
 
-**Vocabulary:** responsibility = work performed | qualification = condition to be considered | preferred = helpful, not automatically required | preparation = education, training, credential, or experience
-
-One difference between a responsibility and a qualification:
-
-[[lines: 3]]
-
-**Complete frame:** **[Evidence]** is a responsibility because the worker **[action]**. **[Evidence]** is a qualification because the applicant must **[requirement]**.
+**Complete frame:** A possible pathway to **[career]** is **[pathway]**. It may fit because **[evidence]**, but I still need to learn **[question]**.
 
 [[pagebreak]]
 
-## Record and Compare Two Opportunities
+## Fixed no-device learning route
 
-Cards selected: ________ and ________
+Use this page only when your teacher assigns it because Xello is unavailable. It supports the same comparison but does not count as Xello lesson completion.
 
-| Evidence field | First card | Second card |
+| Pathway | What it can provide | One question to investigate |
 |---|---|---|
-| Two responsibilities | | |
-| One skill and its use | | |
-| Preparation wording | | |
-| One fact to verify live | | |
+| University | broad academic study and a degree route required by some careers | cost, admission, program fit, and completion time |
+| Community college | certificates or associate degrees, sometimes with transfer options | transfer rules, program availability, and cost |
+| Technical school or apprenticeship | occupation-focused training and supervised practice | entry rules, pay status, credential, and employer recognition |
+| Straight to work or military | work-based preparation that varies by employer or service branch | eligibility, training, commitment, safety, and advancement |
 
-Which scenario appears enterable sooner after high school? Cite the exact preparation wording and preserve the evidence limit.
+Choose one Education and Training career. Compare two possible pathways.
 
-[[lines: 3]]
+Career: ______________________________________________________________________
 
-One transferable skill both careers use and how the task changes:
-
-[[lines: 3]]
-
-One claim these fixed cards cannot prove:
+Pathway 1 benefit and question:
 
 [[lines: 2]]
 
-**Complete frame:** Card **[letter]** appears enterable sooner in this scenario because **[evidence]**. The cards do not prove **[missing fact]**, so a student should verify **[question or source]** before applying.
+Pathway 2 benefit and question:
+
+[[lines: 3]]
+
+Current preference and evidence:
+
+[[lines: 3]]

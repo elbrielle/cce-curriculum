@@ -4,7 +4,7 @@
 
 ## What students do
 
-Students use the *Find Your Future* “Million Dollar Idea” process to find a problem, generate possible businesses, test two ideas, and make an evidence-based decision. They turn one idea into a short venture brief, pitch it, and explain how preparation, integrity, dedication, or perseverance showed up in their work. The week ends with a personal budget built from one current Dallas County scenario and the required Grade 8 Xello **Scholarship profile** task.
+Students use the *Find Your Future* “Million Dollar Idea” process to find a problem, generate possible businesses, test two ideas, and make an evidence-based decision. They turn one idea into a short venture brief, pitch it, and explain how preparation, integrity, dedication, or perseverance showed up in their work. The week ends with a personal budget built, tested, and revised from one current Dallas County scenario.
 
 **Learning target:** I can identify a business opportunity, test whether an idea is worth pursuing, explain my decision, and build a personal budget that does not spend more than the available income.
 
@@ -34,11 +34,10 @@ Students use the *Find Your Future* “Million Dollar Idea” process to find a 
 - CCE Million Dollar Idea support and catch-up packet
 - CCE Venture Brief and Individual Pitch Record
 - CCE Dallas County Living-Cost Planning Guide
-- CCE Personal Budget and Xello Scholarship Plan
+- CCE Personal Budget and Decision Plan
 - CCE Entrepreneurship Portfolio rubric
-- Xello Scholarships Guide and official 2:02 student video
 
-Licensed workbook and Xello materials stay in the locked Canvas course. H&L remains an optional cluster-exploration route; no student needs H&L salary data to complete the week.
+Licensed workbook materials stay in the locked Canvas course. H&L remains an optional cluster-exploration route; no student needs H&L salary data to complete the week.
 
 ## Important source notes
 
@@ -56,7 +55,7 @@ The Dallas County guide uses the MIT Living Wage Calculator’s one-adult/no-chi
 | 2 | Problem and idea sprint | Problem statement, 10-12 ideas, top two with reasons | Licensed workbook pages and support packet |
 | 3 | Stress-test and decide | Two-idea comparison and supported call | Workbook stress test; short Canvas practice check |
 | 4 | Venture brief and pitch | Group brief, individual speaking record, one evidence-based peer note, work-ethic response | Live, recorded, or written pitch route |
-| 5 | Budget and Scholarship profile | Balanced revised budget, revenue distinction, Xello completion report | Required Xello Scholarship profile, 20 minutes |
+| 5 | Budget, revise, and explain | Balanced revised budget, percentage check, revenue distinction, and decision reflection | Fixed Dallas County scenario, 50 minutes |
 
 ## Assessment plan
 
@@ -64,17 +63,16 @@ Daily exit checks are formative. Do not create five separate grades.
 
 **Formative/recovery portfolio:** the 16-point Entrepreneurship Portfolio combines each student’s opportunity definition, idea test and decision, individual venture/pitch evidence, and personal budget reasoning. The group’s idea and attendance do not determine the individual score. “Abandon It” earns full credit when the evidence supports the decision.
 
-The [3SW assessment map](../../resources/six-weeks-assessment-map.md) already places three minors and two majors. Keep this Assignment ungraded unless a teacher intentionally uses it as a major reassessment/replacement. Scholarship profile completion is checked through Xello and is not scored for the student’s personal answers.
+The [3SW assessment map](../../resources/six-weeks-assessment-map.md) already places three minors and two majors. Keep this Assignment ungraded unless a teacher intentionally uses it as a major reassessment/replacement.
 
 ## Teacher setup
 
 1. Put the paired Teacher and Student pages in one chronological Canvas module.
 2. Post the six CCE PDFs. FYF is the default on Days 2-3. Print the four-page support packet only as the no-workbook or enlarged-scaffold route, never in addition to the workbook.
-3. Open the licensed FYF pages and Xello Scholarship guide before class. Day 1 uses FYF p. 221 and the embedded pp. 252-253 district context; p. 254 is the optional H&L extension.
-4. Test the official Xello video on the student network; the embedded guide is the equal text route.
-5. Prepare a visible five-minute timer for the idea sprint and a 90-second timer for pitches.
-6. For Day 4, print Venture Brief pp. 1-2 once per team and pp. 3-4 once per student. Use the written or recorded route when the number of groups cannot fit, or for absence, anxiety, speech-language support, or scheduling problems.
-7. For Day 5, print Budget Plan pp. 1-2. Print p. 3 only for the no-device Xello directions or catch-up check.
+3. Open the licensed FYF pages before class. Day 1 uses FYF p. 221 and the embedded pp. 252-253 district context; p. 254 is the optional H&L extension.
+4. Prepare a visible five-minute timer for the idea sprint and a 90-second timer for pitches.
+5. For Day 4, print Venture Brief pp. 1-2 once per team and pp. 3-4 once per student. Use the written or recorded route when the number of groups cannot fit, or for absence, anxiety, speech-language support, or scheduling problems.
+6. For Day 5, print Budget Plan pp. 1-2. Page 3 carries the revised decision reflection when that route is assigned.
 
 ## Accessibility and language support
 
@@ -83,4 +81,4 @@ The [3SW assessment map](../../resources/six-weeks-assessment-map.md) already pl
 - Idea generation may use English, Spanish, or both. Final scoring focuses on the idea and reasoning, not English mechanics unless meaning is unclear.
 - Tables use row and column headings and do not rely on color.
 - Every long response has full-width writing space sized to the sentence demand.
-- No student posts a business idea, budget, or scholarship-profile answer publicly.
+- No student posts a business idea or budget publicly.

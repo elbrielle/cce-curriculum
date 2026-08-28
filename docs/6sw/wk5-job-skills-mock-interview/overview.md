@@ -19,7 +19,7 @@ Students work through one fictional hiring case from posting screen to interview
 
 The core case is **Pecan Creek Animal Care - Student Office Assistant**, with fictional applicant **Jordan Rivera** and an `example.com` address. The fixed case keeps the work consistent and gives every student the same evidence to reason from.
 
-Students do **not** enter or submit a real address, phone or email, birth date, student or driver ID, Social Security number, banking or tax data, signature, immigration, health, disability, religion, family information, schedule constraints, or another person's contact information. They do not send an application, permission request, cover letter, or thank-you note and do not contact an employer. FYF Rung 5, Xello Job Interviews, H&amp;L, CareerOneStop tools, and live job boards may extend the lesson after teacher screening; none is required evidence.
+Students do **not** enter or submit a real address, phone or email, birth date, student or driver ID, Social Security number, banking or tax data, signature, immigration, health, disability, religion, family information, schedule constraints, or another person's contact information. They do not send an application, permission request, cover letter, or thank-you note and do not contact an employer. FYF Rung 5, H&amp;L, CareerOneStop tools, and live job boards may extend the lesson after teacher screening; none is required evidence. No Xello lesson is assigned in this week.
 
 ## Week at a Glance
 
@@ -49,7 +49,6 @@ Score the six evidence jobs: search/posting screen, cover letter, application, r
 
 - CareerOneStop Job Search, Cover Letters, Job Applications, References, Interview Preparation, and Follow-Up guidance.
 - EEOC pre-employment guidance for protected, medical, and unrelated personal questions.
-- Xello Job Interviews as an optional licensed extension in authenticated Canvas when available.
 
 ## Access and Absence
 

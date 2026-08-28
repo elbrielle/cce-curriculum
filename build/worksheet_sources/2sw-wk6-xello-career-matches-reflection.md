@@ -1,5 +1,5 @@
 ---
-title: Explore Career Matches Reflection
+title: Biomedical Career Evidence Reflection
 slug: 2sw-wk6-xello-career-matches-reflection
 kind: worksheet
 weeks: 2sw/wk6-biomedical-health-science
@@ -10,41 +10,39 @@ pages: 1
 orientation: portrait
 ---
 
-## Before Xello
+## Compare the fixed career evidence
 
-One career match I was unsure about: _________________________________________
+One biomedical career I am considering: _____________________________________
 
-I used to think _____________________________________________________________
-
-____________________________________________________________________________
-
-## After Find out why
-
-One interest that affected the match: _______________________________________
-
-One work task or career fact I reviewed: ____________________________________
-
-Now I think _________________________________________________________________
+One central task: ___________________________________________________________
 
 ____________________________________________________________________________
 
-## What changed?
+Common preparation: ________________________________________________________
 
-My thinking **changed / did not change** because ______________________________
+One pay, outlook, or annual-openings fact with its source labels:
 
 ____________________________________________________________________________
 
-One question I still have: __________________________________________________
+____________________________________________________________________________
 
-One next step I can take inside Xello: ______________________________________
+## Make and test a recommendation
+
+I recommend exploring this career because ___________________________________
+
+____________________________________________________________________________
+
+One tradeoff or evidence limit: _____________________________________________
+
+One question I still need to verify: ________________________________________
 
 ## Completion check
 
-- [ ] I completed the Explore career matches lesson in Xello.
-- [ ] I used Find out why for at least one match.
-- [ ] I reviewed a match with an open mind and used evidence.
+- [ ] I used the fixed Biomedical Career Evidence Guide.
+- [ ] I kept the source labels attached to my career fact.
+- [ ] I supported my recommendation with a task and preparation fact.
 - [ ] I submitted this reflection privately.
 
 ## Language support
 
-match = coincidencia · interest = interés · evidence = evidencia · changed = cambió · next step = próximo paso
+task = tarea · preparation = preparación · evidence = evidencia · tradeoff = compensación · verify = verificar

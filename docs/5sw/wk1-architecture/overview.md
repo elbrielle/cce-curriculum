@@ -42,7 +42,7 @@ The week is teachable without Tinkercad. If the teacher chooses the Tinkercad ex
 - Building-design sketch, revision record, feedback guide, and private Canvas Assignment
 - Paper, pencils, rulers, and optional colored pencils for the equal no-login route
 
-Hats & Ladders browsing and eDynamic 3.1 may be used as verified extensions. They are not required evidence. No new required Xello task belongs in this week; use the Completion Standards report only for supervised catch-up already assigned earlier.
+Hats & Ladders browsing and eDynamic 3.1 may be used as verified extensions. They are not required evidence. No Xello completion task is assigned in this week.
 
 ## Current Evidence Boundaries
 

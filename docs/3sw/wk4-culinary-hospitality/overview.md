@@ -41,7 +41,7 @@ Students submit an individual Hospitality Career and Business Recommendation. Th
 - Colored pencils or markers; paper remains an equal route
 - Optional district-approved Canva for Education or Adobe Express access
 
-No food preparation or tasting is required. H&amp;L, Xello Decision Making, and eDynamic Unit 6.1 are optional extensions rather than core evidence.
+No food preparation or tasting is required. H&amp;L and eDynamic Unit 6.1 are optional extensions rather than core evidence.
 
 ## Career Connection
 
@@ -66,7 +66,7 @@ The fixed career guide uses May 2024 BLS U.S. medians: Chef or Head Cook, $60,99
 - Day 4: FYF pp. 119-120, "Cater and Create."
 - Day 5: fixed BLS evidence, current Irving ISD CTE pages, and the week's student artifacts.
 
-Restaurant Rebrand, H&amp;L App Exploration, Xello Decision Making, and eDynamic Unit 6.1 may be used as extensions. They are not required for this week's assessment.
+Restaurant Rebrand, H&amp;L App Exploration, and eDynamic Unit 6.1 may be used as extensions. They are not required for this week's assessment.
 
 ## Week at a Glance
 

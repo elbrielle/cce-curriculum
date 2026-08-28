@@ -12,7 +12,7 @@ orientation: landscape
 
 ## 1. Choose One Evidence Basis and Record Career 1
 
-Preferred: three Xello careers from one interest area using the same displayed geography and wage measure. Record the measure and access date for all three.
+Use the three fixed BLS career cards so the geography, data year, and wage measure remain comparable. Xello may add one separately labeled local cross-check; it is not a required task.
 
 Fixed fallback -- May 2024 U.S. medians:
 

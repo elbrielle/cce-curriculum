@@ -34,7 +34,7 @@ by `build/canvas/lesson_contracts.py`. Run
 overwrite paired pages. Coursewide Canvas QA rejects a paired page when the
 appropriate visible contract labels are absent.
 
-The course also keeps three coordinated course-level surfaces: `TEACHER: CCE Course Launch Guide` at the top of the unpublished Teacher Build module, `STUDENT: Start Here - How CCE Works` as the only item in the first student-facing orientation module, and the unpublished `Career and College Exploration Home` replacement page. The teacher page is the publication/gradebook/platform/readiness dashboard; the student page explains Modules-first navigation, evidence and submission choices, privacy, and absence/platform recovery; the replacement home page gives students one obvious Modules launch without duplicating the daily directions. Keep all three unpublished until their browser and Student View checks pass. Do not replace a live front page or change the course home layout until the module sequence, navigation menu, direct links, and enrolled-student impact have been reviewed together.
+The course also keeps three coordinated course-level surfaces: `TEACHER: CCE Course Launch Guide` at the top of the unpublished Teacher Build module, `STUDENT: Start Here - How CCE Works` as the only item in the first student-facing orientation module, and the unpublished `Career and College Exploration Home` replacement page. The teacher page is the publication/gradebook/platform/readiness dashboard; the student page explains Modules-first navigation, evidence and submission choices, privacy, and absence/platform recovery; the replacement home page gives students one obvious Modules launch without duplicating the daily directions. Keep all three unpublished in the Commons master even after browser and Student View checks pass. A teacher may publish selected surfaces in a teacher-owned course. Do not replace a live front page, change the course home layout, or alter an owner-selected publication state without explicit authorization.
 
 ### Teacher Facilitator Guide
 
@@ -68,6 +68,24 @@ The student page must work during class and as an independent absence/catch-up p
 10. an expandable absence/platform-failure route.
 
 Keep required directions visible. Use native `<details><summary>` sections only for optional help, examples, vocabulary, sentence frames, early-finishers, or catch-up directions. Do not use legacy `enhanceable_content tabs`.
+
+#### One-button response-route contract
+
+Every Student Guide keeps exactly one lesson-specific response button in the
+instructional location where students need it. The canonical default link is
+the matching Google Doc `/copy` URL because it is the most broadly accessible
+student route. A teacher may use the Facilitator Guide to retarget that same
+button to the class's selected OneNote template, PDF/paper route, or another
+approved response home.
+
+For an existing Student Guide, a response-route update is an anchor-target
+change, not a redesign: preserve the button label, styling, position, and all
+surrounding directions byte-for-byte and change only its `href`. Do not prepend
+or append a generic Response Home panel, expose multiple route choices to
+students, or add process language about submitting, sharing, or choosing a
+platform. The Student Guide presents one action; route options and switching
+instructions belong only in the Facilitator Guide. This keeps the teacher's
+configuration to one link and avoids extra student cognitive load.
 
 ### Teacher operations gate
 
@@ -145,17 +163,17 @@ Use sources in this order:
 1. the matching `docs/<six-weeks>/<week>/dayN.md` lesson plan;
 2. the *Find Your Future* workbook;
 3. the named Climber Notes deck or H&L teacher resource;
-4. the live Xello Grade 8 completion configuration and captured licensed documents;
+4. the live Xello Grade 7 completion configuration, the original coordinator spreadsheet, and captured licensed documents;
 5. district pathway and platform references; and
 6. supplemental platforms only where the scope and sequence assigns them.
 
-Use the current district-customized FYF/H&L workbook names as the default teacher and student vocabulary. Xello's configured task names remain authoritative for required Xello completion. Use external sources to fill a genuine evidence gap, not to relabel an HQIM career or pathway. Keep source-method detail in the guide or author ledger when students only need the labeled figure.
+Use the current district-customized FYF/H&L workbook names as the default teacher and student vocabulary. Xello's Grade 7 task names and the original coordinator scope remain authoritative for required Xello completion. Another-grade task may appear only as minimum verified prerequisite support. Check the student flow when the educator panel is ambiguous; an inline launch prompt is not automatically a separate completion task. Use external sources to fill a genuine evidence gap, not to relabel an HQIM career or pathway. Keep source-method detail in the guide or author ledger when students only need the labeled figure.
 
 Licensed source binaries and rendered screenshots never enter GitHub. Store local Canvas-only visuals under:
 
 `cce-curriculum/resources/canvas-licensed/<six-weeks>/<week>/<day>/`
 
-That directory is gitignored. Upload those assets to a locked Canvas folder under:
+That directory is gitignored. Upload those assets to an authenticated Canvas folder under:
 
 `course files/CCR Materials/<six-weeks>/<week>/<day> Visuals`
 
@@ -163,7 +181,7 @@ Do not upload licensed files to the public MkDocs site. Do not extract or rehost
 
 ### Package Xello resources for the teacher
 
-For each required Xello task, inspect the authenticated Completion Standards resource drawer and Xello's official teaching-resource library. Capture the downloadable materials that actually support that task, which may include a facilitator guide, slide deck, student worksheet or directions, and a downloadable student-facing video. Upload licensed downloads only to the locked week folder in Canvas.
+For each required Xello task, inspect the authenticated Completion Standards resource drawer and Xello's official teaching-resource library. Capture the downloadable materials that actually support that task, which may include a facilitator guide, slide deck, student worksheet or directions, and a downloadable student-facing video. Upload licensed downloads only to the authenticated week folder in Canvas. Keep the module unpublished until the teacher releases it; do not lock the referenced files or their folder chain.
 
 Do not make the teacher rediscover the Xello library during prep. On the teacher page, label each resource by its classroom job, such as “2-minute student launch,” “teacher demo steps,” “full extension lesson,” or “catch-up directions.” On the student page, embed only the asset that removes a real navigation or understanding barrier. If the resource is broader than the district completion minimum, state both the district minimum and the resource's extended lesson time.
 
@@ -369,14 +387,14 @@ change that explains them.
 
 Use an idempotent importer under `build/canvas/`. It should:
 
-1. create or locate the locked Canvas file folder;
-2. upload assets with `on_duplicate=overwrite`, then explicitly set each uploaded file record to `locked=true` instead of relying only on the parent folder lock;
+1. create or locate the authenticated Canvas file folder;
+2. upload assets with `on_duplicate=overwrite`, then explicitly clear `locked`, `hidden`, `lock_at`, and `unlock_at` on every referenced file and ancestor folder;
 3. resolve existing supporting files by exact display name;
 4. replace all template tokens;
 5. update an existing page by stable URL or create it once;
 6. keep pages and modules unpublished;
 7. update or create module items at explicit positions; and
-8. print only non-secret IDs and status information.
+8. run the referenced-resource access finalizer and print only non-secret IDs and status information.
 
 Never write the Canvas token to disk. Never place it in the command string. Read it with terminal echo disabled and pipe it to the importer on standard input:
 
@@ -392,7 +410,7 @@ Run Canvas importers through `uv run --with httpx`; a bare `python` invocation i
 
 Do not print, log, commit, or repeat the token.
 
-For the repaired 4SW-6SW sequence, `build/canvas/import_remaining_unpublished.py` may build the course orientation plus all 17 remaining week packages with one token entered through standard input. It excludes 4SW Wk1 because that module is already present. The orchestrator stops on the first failed builder, does not attempt later modules after a failure, and prints only a concise module/item summary. It bootstraps the approved 30-entry assessment map before week builders so their fail-closed grading checks can find the mapped objects. After every builder has rewritten its pages, it runs the assessment map a second time to restore exactly one current submission panel and typed Assignment item on each mapped Student Guide. It then attaches or repairs the 30 native scoring tools with `configure_assessment_rubrics.py`, normalizes the daily lesson contracts and image loading, makes files used by actual `<img>` elements visible to enrolled students, restores the reviewed CCE home as the published front page, and launches the read-only `qa_remaining_unpublished.py` coursewide verifier with the same in-memory token. This order—**map bootstrap → builders → map reconciliation → rubric reconciliation → contract/image normalization → embedded-image access and home restoration → coursewide QA**—is required. Running the map only before builders allows a later page rewrite to erase submission panels; running rubrics before the final builder allows a later Assignment rewrite to erase the raw-to-100 note. The assessment configurator keeps all graded work unpublished, assigns 18 Minors to the 40% group and 12 Majors to the 60% group, uses 100 gradebook points, and creates missing private submission objects without inventing due dates. The rubric configurator parses the versioned Markdown scoring tools, adds an explicit zero-evidence rating where an older rubric omitted it, attaches each rubric as an advisory grading rubric, and adds the raw-to-100 conversion rule to the Assignment description. The loading normalizer refuses published instructional modules, items, or pages and changes only `<img>` elements that lack an explicit loading policy. The access normalizer changes only embedded image files and their folder ancestry; linked PDFs, teacher keys, and licensed source files retain their own locks. The verifier covers all 36 instructional weeks, including the already-live 1SW-4SW Wk1 modules; the 17-week import cannot pass by ignoring defects in earlier work. It reports success only when the orientation is first and unpublished, the reviewed CCE home is published/front/default, the teacher launch page remains in the unpublished Teacher Build module, all 36 exact week-module names exist once, every instructional week remains unpublished, Day 1-5 headers and teacher/student pairs are complete, teacher pages link to their matching student pages, the exact 3-Minor/2-Major course map is staged with real submission routes and the correct advisory rubrics, referenced files resolve, image alt text and native lazy loading are present, embedded images are unrestricted for enrolled students, and non-image support files retain their locks. It never accepts the token as a command-line argument or writes it to disk.
+For the repaired 4SW-6SW sequence, `build/canvas/import_remaining_unpublished.py` may build the course orientation plus all 17 remaining week packages with one token entered through standard input. It excludes 4SW Wk1 because that module is already present. The orchestrator stops on the first failed builder, does not attempt later modules after a failure, and prints only a concise module/item summary. It bootstraps the approved 30-entry assessment map before week builders so their fail-closed grading checks can find the mapped objects. After every builder has rewritten its pages, it runs the assessment map a second time to restore exactly one current submission panel and typed Assignment item on each mapped Student Guide. It then attaches or repairs the 30 native scoring tools with `configure_assessment_rubrics.py`, normalizes the daily lesson contracts and image loading, opens every file referenced by course pages or module interactions plus its complete folder ancestry, and launches the read-only `qa_remaining_unpublished.py` coursewide verifier with the same in-memory token. This order—**map bootstrap → builders → map reconciliation → rubric reconciliation → contract/image normalization → referenced-resource access → coursewide QA**—is required. Running the map only before builders allows a later page rewrite to erase submission panels; running rubrics before the final builder allows a later Assignment rewrite to erase the raw-to-100 note. The assessment configurator keeps all graded work unpublished, assigns 18 Minors to the 40% group and 12 Majors to the 60% group, uses 100 gradebook points, and creates missing private submission objects without inventing due dates. The rubric configurator parses the versioned Markdown scoring tools, adds an explicit zero-evidence rating where an older rubric omitted it, attaches each rubric as an advisory grading rubric, and adds the raw-to-100 conversion rule to the Assignment description. The loading normalizer refuses published instructional modules, items, or pages and changes only `<img>` elements that lack an explicit loading policy. The access finalizer changes only `locked`, `hidden`, `lock_at`, and `unlock_at` on referenced files and folders; it snapshots and proves all course, module, item, page, assignment, discussion, and quiz publication states unchanged. The verifier covers all 36 instructional weeks, including the already-live 1SW-4SW Wk1 modules; the 17-week import cannot pass by ignoring defects in earlier work. It reports success only when the orientation, teacher/student pairs, assessment map, rubrics, file references, image accessibility, and module order pass their contracts, every instructional week retains its owner-selected publication state, and every referenced file/folder chain is unrestricted for enrolled students. It never accepts the token as a command-line argument or writes it to disk.
 
 The orchestrator also runs `normalize_canvas_lesson_contracts.py` after the week
 builders and before image normalization. This protects the daily Topic,
@@ -456,7 +474,7 @@ No page pair is complete until all checks pass.
 - teacher page exists and is unpublished;
 - student page exists and is unpublished;
 - module remains unpublished;
-- embedded image files and their folder chain are unlocked and unhidden for enrolled students; non-image licensed/support files retain their locks;
+- every file referenced by course pages or module content and its complete folder chain is unlocked, unhidden, and free of availability dates for enrolled students;
 - every template token was replaced;
 - every required Canvas file exists and opens;
 - teacher and student items appear in the intended module order; and
@@ -492,7 +510,7 @@ Open the page through its module-item URL, not only the bare Pages URL. Verify:
 
 Run Canvas Student View before publication. Use the Canvas accessibility checker when final editing begins.
 
-After the unpublished transfer passes, run the separate publication snapshot:
+After the unpublished transfer passes, a teacher may run the separate publication snapshot in a teacher-owned course:
 
 ```bash
 uv run --with httpx python build/canvas/qa_course_publication.py
@@ -502,11 +520,11 @@ Enter the token through the same echo-disabled, stdin-only pattern. This audit i
 
 ### Teacher-owned publication boundary
 
-The district master is a complete Canvas template, not a fully published student course. Keep the reviewed CCE home published as the front page/default view so teachers and students enter through the correct course route. Keep orientation, all 36 instructional week modules, every module item, every instructional page, and every assessment interaction unpublished until the teacher chooses what students need. Agents must not publish a module, instructional page, assignment, discussion, quiz, or orientation on a teacher's behalf merely because it passed production QA.
+The district master is a complete Canvas template, not a published student course. Keep the reviewed CCE home, orientation, all 36 instructional week modules, every module item, every instructional page, and every assessment interaction unpublished by default. A teacher chooses what to publish in that teacher's own course. Agents must not publish any surface on a teacher's behalf merely because it passed production QA, and must preserve an owner-selected published state unless explicitly asked to change it.
 
-Keep Pages hidden from student navigation even though the course default uses the reviewed Pages front page. Students enter through Home and then use the explicit Modules launch. Do not substitute the generic `Welcome!` page or a campus template page for `Career and College Exploration Home`.
+When a teacher publishes the reviewed home in a teacher-owned course, keep Pages hidden from student navigation and direct students from Home to Modules. Do not substitute the generic `Welcome!` page or a campus template page for `Career and College Exploration Home`.
 
-Use `stage_course_template.py` after a large import or any accidental instructional publication. It retracts target modules/items/interactions without deleting them, relocks the CCR and Licensed file trees, then reopens only files used by page `<img>` elements and their folder ancestry. It restores `Career and College Exploration Home` as the published front page/default view. The lean Home, Modules, and Grades navigation may remain because that is course organization rather than lesson publication.
+Use `stage_course_template.py` only when Elisha explicitly authorizes resetting a Commons-master copy after accidental instructional publication. It retracts target modules/items/interactions without deleting them and preserves open referenced-resource file trees. It must not publish the home page or overwrite teacher-selected publication states by default. The lean Home, Modules, and Grades navigation may remain because that is course organization rather than lesson publication.
 
 `qa_remaining_unpublished.py` is the authoritative gate for the district master. `qa_course_publication.py` is reserved for a teacher-owned clone after that teacher intentionally chooses an opening sequence. A clean source-template handoff means everything is present, linked, checked, and unpublished.
 

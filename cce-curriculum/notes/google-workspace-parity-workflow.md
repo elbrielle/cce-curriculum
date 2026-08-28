@@ -14,6 +14,41 @@ The three maintained surfaces are:
 
 Canvas and the tracked curriculum source remain authoritative. A teacher may edit a Google master while teaching, but that edit is feedback until it is reconciled into the tracked source, checked, and sent back to Canvas, Drive, and the public site where licensing permits.
 
+## Tool routing and write safety
+
+Use the authenticated Google Drive connector as the primary Drive entrypoint.
+Discover the exact folder and file IDs first, preserve the existing parent and
+sharing state, and use the Google Slides connector for native presentation
+reads, edits, structural readback, PDF export, and slide-by-slide render QA.
+
+For an existing native Google Slides master, preserve its stable presentation
+ID. Prefer a connector-native, object-level update when the required layout can
+be expressed safely. Back up or record the current revision before mutation;
+afterward, verify slide order and count, editable text and list semantics,
+images and media, speaker notes, links, sharing, and a complete native render.
+If the connector cannot express the required PPTX-to-existing-native-ID import,
+use the documented backed-up browser import-first workflow, verify the imported
+range, and delete the old range only after the replacement passes. Never call a
+raw PowerPoint upload a native Google Slides update.
+
+In the browser picker, paste the exact stable-ID URL of the raw PowerPoint rather
+than searching by title. Confirm that the selected source header ends in
+`.pptx`; a title search can return the native master instead. After the import,
+press End in the filmstrip and verify the actual last slide number before
+retrying. The accessible selected-slide count can lag behind the imported
+range, and an unnecessary retry can append duplicate slides. Export the native
+deck and compare the intended final range to the source text and notes before
+requesting approval to delete stale ranges.
+
+`rclone` is an authenticated fallback for ordinary stored files under
+`iisd-drive:VILS27/Units_CCR`. Use it for read-only inventory or exact binary
+transfer when that is more efficient, followed by Drive connector metadata
+readback. Prefer bounded `rclone copyto`/`copy`; do not use `rclone sync`
+without explicit approval because it can delete remote files. Rclone does not
+edit or convert native Google Slides, Docs, or Sheets and is never the native
+Google Workspace authoring path. The similarly named `iisd-drive:27 CCR
+Planning` folder is a legacy archive and must never receive parity writes.
+
 ## Drive organization
 
 Root folder: [`Units_CCR`](https://drive.google.com/drive/folders/1FbY0WdnXN-PkW6Vi76qcpDfp7SKq5c5H)
@@ -91,7 +126,7 @@ Use this order after an approved tracked artifact changes:
    Canvas/public Google `/copy` link sets, and compiles the 36-module live-Canvas
    expectation set before any credential is requested.
 
-2. Use the Google Drive connector to update the recorded stable file ID. Replace bytes in place for Office or PDF releases. Update the native Google master only when an editable equivalent is justified.
+2. Use the Google Drive connector to update the recorded stable file ID. Replace bytes in place for Office or PDF releases. Route native presentation work through the Google Slides connector and the stable-ID workflow above. Rclone may transfer an ordinary stored binary, but it cannot satisfy native Slides parity.
 3. Re-read the affected Drive folder and file metadata. Confirm the recorded parent folder, name, byte count, native file type, and Irving ISD domain-reader access.
 4. Add or refresh the Canvas Google `/copy` link in the matching Teacher Facilitator Guide. Keep the page, module, and file package unpublished and locked.
 5. Add a public-site `/copy` link only for an artifact whose manifest decision is `public_site.included = true`. Authenticated AVID, H&L, FYF, Xello, and Climber materials stay out of the public mirror.
@@ -104,6 +139,11 @@ unit download. Both files
 are generated and may be replaced by their builders. `google-workspace-drive-state.json`
 is the stable-ID readback record and changes only after the live Drive operation
 is verified.
+
+After regenerating the complete inventory, reconcile its current
+`source_origins`, `artifact_type`, and `public_site_included` values into the
+saved Drive state. Matching file sets, hashes, and IDs do not prove that a file
+is still referenced by the same Canvas/public surfaces.
 
 ## Teacher edits made during class
 
@@ -134,10 +174,12 @@ the same 305 unit references and 302 unique files as Drive. Exact IDs, hashes,
 byte counts, public-link decisions, and exclusions are recorded in the manifests
 and Drive-state file rather than repeated in this narrative.
 
-The current Drive readback also verifies the full editable distribution layer:
-the 36 `Download Releases` folders contain 315 exact files (the 305 curriculum
-references plus ten PowerPoint releases), and the recorded `Google Masters`
-folders contain ten native Google Slides decks plus one native Google Doc. Each
-file matched its recorded ID, parent folder, title, byte count or native MIME
-type. `Lucero's Weekly Slides` contains one current combined Week 1 teaching
+The current Drive readback also verifies the full editable distribution layer.
+The 36 `Download Releases` folders contain 315 exact files (the 305 curriculum
+references plus ten PowerPoint releases). As of 2026-08-25, the per-unit
+`Google Masters` folders contain ten native Google Slides decks, the native
+first-week goal-setting Doc, and 173 native daily student response Docs. The
+student Doc IDs, unit-folder parents, titles, and `/copy` links are recorded in
+`build/google_docs/student_worksheet_links.json` and checked by the parity
+suite. `Lucero's Weekly Slides` contains one current combined Week 1 teaching
 deck; the duplicate the teacher removed was not recreated.

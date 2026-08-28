@@ -7,8 +7,13 @@
   "excluded_markdown": [
     "resources/canvas-engagement-and-organization-patterns.md",
     "resources/resources-status.md",
-    "resources/teks-coverage-matrix.md"
+    "resources/teks-coverage-matrix.md",
+    "resources/xello-grade-8-implementation.md"
   ],
+  "superseded_resources": {
+    "docs/resources/exit-tickets/2sw-wk3-day5-save-three-careers-in-xello.pdf": "docs/resources/exit-tickets/2sw-wk3-day5-build-a-nursing-career-evidence-map.pdf",
+    "docs/resources/exit-tickets/2sw-wk6-day5-xello-explore-career-matches.pdf": "docs/resources/exit-tickets/2sw-wk6-day5-biomedical-career-evidence-reflection.pdf"
+  },
   "protected_path_fragments": [
     "avid-reference",
     "canvas-licensed",
@@ -23,6 +28,7 @@
   "rules": [
     "Only tracked Markdown under docs may become a public page.",
     "Internal audit, status, and implementation notes listed in excluded_markdown do not become public pages.",
+    "Superseded resources are replaced in place and never remain in public unit download lists.",
     "Only locally linked files under docs/resources may be copied into the site.",
     "Authenticated Canvas, H&L, FYF, Xello, Climber Notes, and private AVID assets never enter the public build.",
     "A missing, outside-root, or protected local link fails the build instead of being silently copied."

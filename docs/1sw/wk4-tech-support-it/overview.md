@@ -4,7 +4,7 @@
 
 ## Week Purpose
 
-Students compare IT support careers and preparation routes, complete the required Grade 8 Xello **Add interests** and **Add skills** tasks, and build a simple help desk sequence. The digital build is not the point by itself. Students must be able to explain why the steps are ordered, document a test and revision, connect the work to an IT support career, and show how communication and problem-solving transfer beyond IT.
+Students compare IT support careers and preparation routes, complete the required Grade 7 Xello **Add skills** task, and build a simple help desk sequence. The digital build is not the point by itself. Students must be able to explain why the steps are ordered, document a test and revision, connect the work to an IT support career, and show how communication and problem-solving transfer beyond IT.
 
 The week uses three equal implementation routes:
 
@@ -41,9 +41,8 @@ This is **Minor 3** in the 1SW assessment map. Use the 16-point **Help Desk Simu
 
 The workbook names **Technology Support** in the Irving ISD Information Technology section. The current district site names the program **Technology Support Services** in the School of Innovative Technology at Singley Academy. Present the workbook as the student-facing HQIM and use the current district name when describing the program. Do not add an entry-salary promise or guarantee that one credential leads directly to a job.
 
-### Required Xello Grade 8 Completion Standards
+### Required Xello Grade 7 Completion Standard
 
-- **Add interests:** 15 minutes; add at least one interest.
 - **Add skills:** 20 minutes; add at least one skill.
 
 The Xello Completion Standards report is the completion evidence. A paper reflection supports learning during an outage, but the required Xello action moves to a supervised catch-up block.
@@ -64,7 +63,7 @@ CompTIA may be used as a current optional example of industry certification. Cer
 
 ### Before the week
 
-- Confirm Xello rosters and open the locked **My Interests** and **About Me** teacher resources in Canvas.
+- Confirm Xello rosters and open the locked **About Me** teacher resource at Add or Update Skill in Canvas.
 - Test `makecode.microbit.org` on a student-filtered Chromebook.
 - Choose the primary build route and its backup before Day 3.
 - If using hardware, count boards and data-capable cables and test one full connect/download cycle. Update firmware only when a board fails the official connection check and troubleshooting guidance points to firmware.
@@ -75,7 +74,7 @@ CompTIA may be used as a current optional example of industry certification. Cer
 
 ### Default quantities
 
-- **Day 1:** one Career Cards packet per pair, one Career and Interest Check per student, one rostered Chromebook per student for Xello.
+- **Day 1:** one Career Cards packet per pair and one Career and Interest Check per student.
 - **Day 2:** one Route Data Guide per pair, one comparison and one Route Decision per student, one model per pair only when students need it at the desk.
 - **Day 3:** one complete build/evidence set per team of four and one Day 3 exit check per student.
 - **Day 4:** one role-play script per pair, one Customer Service Check per student, one monitoring roster for the teacher.
@@ -101,7 +100,7 @@ CompTIA may be used as a current optional example of industry certification. Cer
 
 | Day | Topic | Core experience | Required evidence |
 |---|---|---|---|
-| 1 | IT Support Careers | Fixed four-role comparison + Xello Add interests | Two-career and interest check |
+| 1 | IT Support Careers | Fixed four-role comparison + current-interest connection | Two-career and interest check |
 | 2 | Education Routes | Dated BLS route guide + three-route comparison | Comparison and route decision |
 | 3 | Troubleshooting Logic | Build, simulate, or trace a three-step sequence | Program Evidence begins |
 | 4 | Testing and Customer Service | Partner test, revision, and safe role-play | Revision record + customer-service check |
@@ -127,14 +126,14 @@ CompTIA may be used as a current optional example of industry certification. Cer
 ## Absence and Platform Rules
 
 - H&L unavailable: use the fixed career cards; no required evidence is lost.
-- Xello unavailable: record the issue, complete the paper reflection, and schedule the completion action for catch-up.
+- Xello unavailable on Day 5: record the issue, complete the paper reflection with a known skill, and schedule Add skills for catch-up.
 - MakeCode unavailable: use the paper trace and partner initials.
 - Student absent Day 3 or 4: complete the same paper logic/test record or join the assigned team's durable evidence on return.
 - Student absent Day 5: submit a written lightning-demo script or explain privately, then complete the individual connection and Xello catch-up.
 
 ## Safe Trim and Cleanup Points
 
-- **Day 1:** cut optional H&L browsing and the whole-class share first. Protect the fixed career evidence, 15-minute Xello block, and written connection.
+- **Day 1:** cut optional H&L browsing and the whole-class share first. Protect the fixed career evidence and written connection.
 - **Day 2:** cut CompTIA browsing and shorten the share to one response. Protect all three route rows and the written recommendation.
 - **Day 3:** at minute 35, move a team without working Button A to the equal paper trace. Stop all building at minute 40; test, back up, complete the exit check, then return hardware.
 - **Day 4:** cap file recovery at three minutes and use the backup or paper trace. Run one role-play round instead of two when needed; protect the test, revision, and individual check.

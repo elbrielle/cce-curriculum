@@ -1,6 +1,6 @@
 # PLANNING.md — CCE Curriculum Post-Meeting State
 
-**Last updated:** 2026-08-06 (district implementation decisions recorded; authenticated Grade 8 Xello inventory complete)
+**Last updated:** 2026-08-24 (authenticated Grade 7 Xello and original-scope reconciliation active)
 **Purpose:** Brief any agent on the current state of the CCE curriculum project after the 2026-04-15 teacher meeting.
 
 ---
@@ -11,9 +11,9 @@
 
 **AS OF 2026-08-05: the official Irving ISD workbook ("Find Your Future", FYF) arrived and the curriculum is mid-realignment against it.** The generic H&L workbook is retired as a citation source. **THE FYF REALIGNMENT IS COMPLETE — all 36 weeks, all three phases (2026-08-05).** Every week is re-cited to `(FYF p. N: "Section Name")`, carries the district-expectations overlay (Learning Target/Success Criteria, five-move IISD blocks at Distinguished, 5E mapping), and passed the preservation loop. Wk0 fully audited (36/36 now). RIASEC renamed to the six H&L core personality types repo-wide. Powerskills supplement retired. The Capstone spine is live (Rungs 1-3 → 4SW Wk1, 6-7 → 4SW Wk2, Rung 4 assigned 6SW Wk4 → debriefed Wk6, Rung 5 practiced 6SW Wk1 → graded Wk5, rubric + Rung 8 + Prepare & Present + Final Reflection → 6SW Wk6). 178 exit-ticket PDFs, 100% structured render.
 
-**Standing rulings (binding):** (1) **6SW Wk5 is NON-CUTTABLE** — it is the sole or primary carrier for d(6)(B), d(6)(C), d(7)(C), d(7)(D); end-of-year time loss must not swallow it. (2) d(6)(B) and the interview/job-search scaffolds are CCE-original with zero workbook grounding, clearly labeled — never "restore" a workbook citation for them. (3) Campus/credential claims never come from one source alone (one fabricated credential was caught and removed; see PATHWAYS.md conflict notes and the `[VERIFY with CTE coordinator]` flags). (4) d(7)(A) résumé coverage is carried by the private Canvas-or-paper first-résumé evidence in 6SW Wk2; Xello copying is supplemental only.
+**Standing rulings (binding):** (1) **6SW Wk5 is NON-CUTTABLE** — it is the sole or primary carrier for d(6)(B), d(6)(C), d(7)(C), d(7)(D); end-of-year time loss must not swallow it. (2) d(6)(B) and the interview/job-search scaffolds are CCE-original with zero workbook grounding, clearly labeled — never "restore" a workbook citation for them. (3) Campus/credential claims never come from one source alone (one fabricated credential was caught and removed; see PATHWAYS.md conflict notes and the `[VERIFY with CTE coordinator]` flags). (4) d(7)(A) résumé coverage is carried by the private Canvas-or-paper first-résumé evidence in 6SW Wk2. (5) Xello is Grade 7-first: retain tasks assigned to Grade 7 or named in the original coordinator spreadsheet; use another-grade task only as minimum verified prerequisite support. A prompt embedded inside a selected task is not a separate completion-standard task.
 
-**Follow-up backlog from the realignment:** (a) seven weeks claim audited day-level TEKS codes that S&S column 11 does not yet carry — flagged in col 12, needs a PO ratification pass (4SW Wk2/Wk4/Wk6, 5SW Wk2/Wk3/Wk6, 6SW Wk5); (b) coordinator verification list (pathway/campus/credential conflicts flagged `[VERIFY with CTE coordinator]` across ~10 weeks); (c) optional promotions Elisha may ratify: Safety Squad as a 4SW Wk5 two-day spine, CEO Edition to 6SW Wk5 spine, GADS restore in 6SW Wk3, Creativity promotion in 5SW Wk3; and (d) restore the authenticated 24-task Grade 8 Xello completion spine. **Read `cce-curriculum/notes/fyf-realignment-plan.md`, `cce-curriculum/notes/district-expectations-2026.md`, `cce-curriculum/notes/implementation-decisions-2026-08-06.md`, and `cce-curriculum/notes/xello-grade-8-reconciliation.md` before touching any week.**
+**Follow-up backlog from the realignment:** (a) seven weeks claim audited day-level TEKS codes that S&S column 11 does not yet carry — flagged in col 12, needs a PO ratification pass (4SW Wk2/Wk4/Wk6, 5SW Wk2/Wk3/Wk6, 6SW Wk5); (b) coordinator verification list (pathway/campus/credential conflicts flagged `[VERIFY with CTE coordinator]` across ~10 weeks); (c) optional promotions Elisha may ratify: Safety Squad as a 4SW Wk5 two-day spine, CEO Edition to 6SW Wk5 spine, GADS restore in 6SW Wk3, Creativity promotion in 5SW Wk3; and (d) complete the Grade 7 Xello/original-scope repair. **Read `cce-curriculum/notes/fyf-realignment-plan.md`, `cce-curriculum/notes/district-expectations-2026.md`, `cce-curriculum/notes/implementation-decisions-2026-08-06.md`, and `cce-curriculum/notes/xello-grade-7-scope-audit-2026-08-24.md` before touching any week.**
 
 Pre-realignment state (still true underneath): 35 of 35 auditable weeks passed the TEKS audit + exit-ticket rewrite; with Wk0's 2026-08-05 audit that is now **36 of 36**. All 178 daily exit tickets ship as printable PDFs from a Playwright + Jinja2 + design-CSS pipeline. Current state:
 
@@ -44,7 +44,7 @@ Pre-realignment state (still true underneath): 35 of 35 auditable weeks passed t
 
 ### Priority list (agent picks ONE to work next)
 
-0. **Grade 8 Xello restoration + turnkey module audit (ACTIVE).** The authenticated Bowie configuration assigns 24 Grade 8 completion tasks. The current S&S includes only 14 and labels several non-Grade 8 activities as standards. Repair prerequisites, protected instructional time, educator-resource placement, and completion evidence. Audit every module against one question: can a teacher teach it from the facilitator guide, workbook, and linked materials without substantial extra preparation?
+0. **Grade 7 Xello/original-scope reconciliation + turnkey module audit (ACTIVE).** The earlier Grade 8 restoration introduced unrelated tasks into this Grade 7 course. Preserve the live Grade 7 tasks, the small original-spreadsheet exception set, and only minimum verified prerequisite support. Repair protected time, educator-resource placement, completion evidence, and all student/teacher/deck references. Audit every module against one question: can a teacher teach it from the facilitator guide, workbook, and linked materials without substantial extra preparation?
 
 1. **Coordinator review unblock (BLOCKED on coordinator response).** Milestone publication of the full pilot and the H&L-vs-TEKS structural escalation wait on coordinator review of the 2SW Wk2 pilot at `https://elbrielle.github.io/cce-curriculum/exit-ticket-pilot/`. No agent action until the review returns.
 
@@ -103,7 +103,7 @@ No systematic pass is pending. If the user directs a Wk0 pilot pass:
 ### Branch + push state
 
 - **Branch:** verify the current branch before editing. The historic pilot work was completed on `claude/read-md-files-handoff-WKBeb`; later work may be on a neutral `codex/` revision branch.
-- **Remote state:** verify before reporting or publishing.
+- **Remote state:** verify before reporting. This repository targets an unpublished Commons master; QA success does not authorize publication. Preserve teacher-selected publication states and change them only on explicit request.
 - **Main:** do not push without explicit user permission and a clean preservation/validation pass.
 - **Full commit list of the pilot pass:** `git log --oneline | grep "^[a-f0-9]\{7\} AUDIT:"` returns all 38 audit commits.
 
@@ -150,7 +150,7 @@ No systematic pass is pending. If the user directs a Wk0 pilot pass:
 
 **Side tasks (still unblocked):**
 
-- **§4.3 C5 Xello vs H&L platform overlap** — unblocked 2026-08-06. Authenticated Grade 8 inventory is in `cce-curriculum/notes/xello-grade-8-reconciliation.md`.
+- **§4.3 C5 Xello vs H&L platform overlap** — Grade 7 scope and dependency decision recorded 2026-08-24 in `cce-curriculum/notes/xello-grade-7-scope-audit-2026-08-24.md`. The Grade 8 reconciliation is historical drift evidence only.
 - **CFA rollout for 2SW-6SW** — blocks on round-2 teacher feedback on the 1SW CFA.
 
 ### Do NOT
@@ -170,9 +170,9 @@ No systematic pass is pending. If the user directs a Wk0 pilot pass:
 
 ## 1. What This Project Is
 
-A **36-week Career and College Explorations (CCE)** course for grades 7-8 across **Irving ISD VILS Labs**, Texas. Aligned to **TEKS 127.2 (Adopted 2023)**. Canvas is the sole active production, review, and instructional environment. GitHub preserves source and automation and hosts a generated public planning mirror; it is not a classroom-delivery surface. The static MkDocs site is a legacy archive and is not a teacher-facing review surface or a normal release gate. Each week has 1 overview + 5 daily plans = **252 markdown files total** in `docs/`.
+A **36-week Grade 7 Career and College Explorations (CCE)** course across **Irving ISD VILS Labs**, Texas. Aligned to **TEKS 127.2 (Adopted 2023)**. Canvas is the sole active production, review, and instructional environment. GitHub preserves source and automation and hosts a generated public planning mirror; it is not a classroom-delivery surface. The static MkDocs site is a legacy archive and is not a teacher-facing review surface or a normal release gate. Each week has 1 overview + 5 daily plans = **252 markdown files total** in `docs/`.
 
-**Platform stack:** Find Your Future workbook (core print source), Hats & Ladders (digital career exploration), Xello Grade 8 Completion Standards (required yearlong spine), eDynamic Learning/Code.org/Canva/Adobe Express (supplemental), and the VILS lab hardware baseline documented in `PLATFORMS.md`.
+**Platform stack:** Find Your Future workbook (core print source), Hats & Ladders (digital career exploration), selected Grade 7/original-scope Xello tasks, eDynamic Learning/Code.org/Canva/Adobe Express (supplemental), and the VILS lab hardware baseline documented in `PLATFORMS.md`.
 
 **Legacy archive:** `https://elbrielle.github.io/cce-curriculum/latest/`. It may be stale. Do not use it to verify current curriculum or deploy it during ordinary Canvas production. The frozen `v1-teacher-review` snapshot remains a historical record and must not be modified.
 

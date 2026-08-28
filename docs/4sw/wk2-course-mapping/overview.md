@@ -70,16 +70,9 @@ Rung 6 asks students to write short-, medium-, and long-term SMART goals and ide
 
 Rung 7 asks students to consider core classes, electives, CTE courses, clubs, CTSOs, internships, certifications, dual enrollment, and other programs, then name what they can do during Grades 9-12 (FYF pp. 294-296: "Rung 7: High School Plan"). The CCE planning packets add source labels, prerequisite checks, counselor questions, and a backup so students do not mistake an early draft for a guaranteed schedule.
 
-## Xello Counseling-Window Boundary
+## Grade 7 Planning Boundary
 
-The authenticated Grade 8 Completion Standards include four planning tasks that belong in the district counseling window:
-
-- **4-year course plan:** 30 minutes
-- **Make plans:** 30 minutes and add at least one plan
-- **Submit course requests:** 20 minutes, Grade 8 only
-- **Parent 4-year course plan approval:** 15 minutes, with a district due date of May 1, 2027 in the current configuration
-
-These tasks are not replaced by the CCE packet. The packet prepares students to complete them with fewer errors. Teachers should open the Canvas counseling-window checkpoint only when counselors confirm the local schedule, course-request process, and family-approval procedure.
+This week uses CCE/FYF planning evidence only. Students build a source-checked draft for a future counselor conversation. They do not open or claim completion for Xello course-planning, request, or family-approval tasks.
 
 ## IISD Instructional Strategies
 
@@ -130,4 +123,4 @@ These tasks are not replaced by the CCE packet. The packet prepares students to 
 - Use labeled examples, icons, a short glossary, and sentence frames rather than a full automatic translation.
 - Read source cards aloud or provide text-to-speech while keeping the same evidence requirement.
 - Keep family discussion optional. A trusted adult, counselor, teacher, or private written reflection is an equal route.
-- Do not collect private Xello screenshots, family signatures, transportation details, immigration information, or other sensitive family data as graded evidence.
+- Do not collect private platform screenshots, family signatures, transportation details, immigration information, or other sensitive family data as graded evidence.

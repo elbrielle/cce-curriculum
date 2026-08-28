@@ -38,11 +38,11 @@ One visible part of the work and two hidden parts:
 
 [[lines: 3]]
 
-One work or preparation fact:
+One Quick Sim career and education choice:
 
 [[lines: 2]]
 
-One pay or outlook fact with source, date, place, and measure:
+One expense choice and the tradeoff it created:
 
 [[lines: 2]]
 
@@ -102,14 +102,14 @@ My current recommendation to myself is:
 
 [ ] investigate a different direction
 
-Write six to eight sentences. Use evidence from your profile audit, career deep dive, and pathway decision. Include one trade-off and one next action.
+Write six to eight sentences. Use evidence from your profile audit, saved Quick Sim, and pathway decision. Include one trade-off and one next action.
 
 [[lines: 8]]
 
 ## Submission check
 
 - [ ] My plan connects an earlier result to current evidence.
-- [ ] My career fact keeps its source label.
+- [ ] My Quick Sim evidence names a career, education choice, expense, and tradeoff.
 - [ ] My pathway name and campus come from a current district page.
 - [ ] I included one uncertainty and one next action.
 - [ ] I did not submit private profile screenshots.

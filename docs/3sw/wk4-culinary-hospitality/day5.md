@@ -16,7 +16,7 @@
 | **TEKS** | d(1)(C), d(3)(I), d(5)(E) |
 | **5E Phases** | Engage, Explain, Extend, Evaluate |
 | **Deliverable** | Hospitality Career and Business Recommendation |
-| **Materials** | Per student: fixed career guide in Canvas, one two-page recommendation digitally or printed double-sided, student-visible rubric, pencil, and one device for private Canvas submission when used. Teacher: projector with the Jordan scenario and a five-field evidence check. Optional Xello Decision Making or eDynamic 6.1 begins only after core work. |
+| **Materials** | Per student: fixed career guide in Canvas, one two-page recommendation digitally or printed double-sided, student-visible rubric, pencil, and one device for private Canvas submission when used. Teacher: projector with the Jordan scenario and a five-field evidence check. Optional eDynamic 6.1 begins only after core work. |
 
 ## Warm-Up (5 min)
 
@@ -58,7 +58,7 @@ Students use the 16-point rubric, revise one weak criterion, and submit through 
 
 **DELIVERABLE:** Individual Hospitality Career and Business Recommendation. Score the four 0-4 criteria, then convert with `(raw score / 16) × 100`, rounded to the nearest whole number, in the existing mapped Minor 2 assignment.
 
-Xello Decision Making, eDynamic Unit 6.1, and H&amp;L App Exploration are optional extensions. They do not replace or add requirements to the individual evidence check.
+eDynamic Unit 6.1 and H&amp;L App Exploration are optional extensions. They do not replace or add requirements to the individual evidence check.
 
 ## Differentiation
 

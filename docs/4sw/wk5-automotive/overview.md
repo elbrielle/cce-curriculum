@@ -50,7 +50,7 @@ Students can:
 - *Find Your Future* pp. 149-152 supplies the Transportation opener and Crash Crew scenario.
 - FYF pp. 168-169 supplies historical/current-year workbook district context; it is not the sole current authority for placement or credential claims.
 - FYF p. 170 and Hats & Ladders are optional exploration. No named Hat, rating count, or H&L salary is required evidence.
-- Xello **Save careers** was protected earlier in the Grade 8 completion sequence. It is not repeated this week.
+- No Xello completion task is assigned in this week.
 - Safety Squad and its licensed Climber Notes images remain an optional two-period extension, not a hidden requirement.
 
 ## Grading

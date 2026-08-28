@@ -12,7 +12,7 @@
 
 ## Before Class
 
-Per student, provide the three-page packet, a pencil, one private Canvas or paper route, and the student-owned **CCE Six-Weeks Evidence Log** when available. Students work independently; they may rehearse one redacted bullet with a partner but do not exchange devices, files, or full resumes. Preserve the adapted teacher-created comparison: project *Objective: To get a job. Skills: Can use a computer. Project: Helped with flyers.* Contrast it with *Designed two original event flyers and revised the hierarchy after teacher feedback.* Ask what action, task, evidence, or purpose the weak sample hides. The Evidence Log is a source only; do not collect it or require old artifacts again. Jordan is the complete fallback. Optional Xello copying must not replace the Canvas/paper route.
+Per student, provide the three-page packet, a pencil, one private Canvas or paper route, and the student-owned **CCE Six-Weeks Evidence Log** when available. Students work independently; they may rehearse one redacted bullet with a partner but do not exchange devices, files, or full resumes. Preserve the adapted teacher-created comparison: project *Objective: To get a job. Skills: Can use a computer. Project: Helped with flyers.* Contrast it with *Designed two original event flyers and revised the hierarchy after teacher feedback.* Ask what action, task, evidence, or purpose the weak sample hides. The Evidence Log is a source only; do not collect it or require old artifacts again. Jordan is the complete fallback. Students use this private draft during the required Xello Resume block on Day 3; the Xello task does not replace the Canvas or paper résumé.
 
 ## 50-Minute Flow
 

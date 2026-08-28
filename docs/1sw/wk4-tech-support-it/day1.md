@@ -5,7 +5,7 @@
 - **Topic:** IT Support Careers
 - **Objective:** Students will identify career opportunities and research and describe common preparation requirements for IT support careers using district HQIM and fixed career evidence.
 - **TEKS:** d(1)(C), d(2)(A)
-- **Demonstration of Learning:** Students complete a two-career evidence comparison and connect one current interest to a specific IT support task; Xello shows at least one added or updated interest.
+- **Demonstration of Learning:** Students complete a two-career evidence comparison and connect one current interest to a specific IT support task.
 <!-- CCE DAILY CONTRACT END -->
 
 ## Lesson Overview
@@ -14,15 +14,14 @@
 |---|---|
 | **Time** | 50 minutes |
 | **HQIM** | FYF pp. 36 and 38; H&L optional exploration |
-| **Required platform task** | Xello **Add interests**, 15 minutes, add at least one interest |
+| **Required platform task** | None; H&L browsing is optional enrichment |
 | **Materials** | Career Cards, Career and Interest Check, workbook, Chromebook, projector |
 
 ## Before Students Arrive
 
 1. Open FYF pp. 36 and 38 in the locked Canvas student guide.
 2. Print one [IT Support Career Cards](../../resources/worksheets/wk4-it-support-career-cards.pdf) packet per pair and one [Career and Interest Check](../../resources/worksheets/wk4-day1-career-interest-check.pdf) per student.
-3. Check the Xello roster and open the locked **My Interests** teacher guide.
-4. If using H&L, verify the live pathway and Hat titles. The career cards remain the complete required route.
+3. If using H&L, verify the live pathway and Hat titles. The career cards remain the complete required route.
 
 ## Bellringer — Technology Help (5 min)
 
@@ -30,7 +29,7 @@
 
 Students stop and jot for one minute, then turn and talk. Listen for a problem, helper, and diagnostic action. Bridge: IT support workers diagnose technology problems for other people as their daily work.
 
-## Activity 1 — Compare Four Support Roles (20 min)
+## Activity 1 — Compare Four Support Roles (35 min)
 
 Use FYF p. 36 to connect the work to Irving ISD's Technology Support program, then distribute the Career Cards. Students read all four cards:
 
@@ -52,18 +51,7 @@ Students underline one task, circle common preparation, and box one transferable
 
 If H&L is live, students may use FYF p. 38 to browse the Information Technology Support and Services pathway after the fixed evidence is complete. App ratings and favorites are not required evidence.
 
-## Activity 2 — Xello Add Interests (15 min)
-
-Students open district SSO, then **Xello → About Me → Interests**. Each student adds or updates at least one real interest and notices where it appears in About Me.
-
-Before students click, model the difference between a broad category and useful evidence:
-
-- “Technology” is broad.
-- “Fixing devices,” “helping people,” or “organizing information” makes a clearer career connection.
-
-Do not require screenshots of private profile information. Verify completion through the teacher Completion Standards report.
-
-## Activity 3 — Career and Interest Evidence (10 min)
+## Activity 2 — Career and Interest Evidence (10 min)
 
 Students finish the Career and Interest Check:
 
@@ -88,4 +76,4 @@ There is no single correct career choice. Full evidence names two relevant caree
 
 ## If a Platform Is Unavailable or a Student Is Absent
 
-The fixed Career Cards replace H&L completely. If Xello is unavailable, students complete the reflection using a current interest; required Add interests completion moves to the next supervised catch-up block. An absent student completes the same cards and check.
+The fixed Career Cards replace H&L completely. An absent student completes the same cards and check. Students use a current interest they can name now; no profile edit or platform catch-up is required.

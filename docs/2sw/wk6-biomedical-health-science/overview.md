@@ -4,11 +4,11 @@
 
 ## Lesson Objective
 
-Students compare three biomedical careers using dated evidence, write a practice cover letter for a fictional lab job, design a medical nanobot in the workbook's future-technology scenario, investigate a fictional waterborne outbreak, and complete Xello's required Explore career matches lesson.
+Students compare three biomedical careers using dated evidence, write a practice cover letter for a fictional lab job, design a medical nanobot in the workbook's future-technology scenario, investigate a fictional waterborne outbreak, and finish with an evidence-based biomedical career reflection.
 
-**Learning Target:** I can use career evidence, design choices, outbreak clues, and my Xello results to explain how biomedical workers solve health problems.
+**Learning Target:** I can use career evidence, design choices, and outbreak clues to explain how biomedical workers solve health problems.
 
-**Success Criteria:** I will know I am successful when I cite one dated career fact, answer a fictional job posting in a five-part letter, label a nanobot design, support an outbreak claim with at least three clues, separate immediate action from prevention, and explain what I learned from one Xello career match.
+**Success Criteria:** I will know I am successful when I cite one dated career fact, answer a fictional job posting in a five-part letter, label a nanobot design, support an outbreak claim with at least three clues, separate immediate action from prevention, and support one biomedical career recommendation with fixed evidence.
 
 ## Demonstration of Learning
 
@@ -16,7 +16,6 @@ Students compare three biomedical careers using dated evidence, write a practice
 
 ## TEKS Alignment
 
-- **d(1)(A):** Analyze and discuss initial career-assessment results through the Xello Explore career matches lesson and reflection (Day 5).
 - **d(1)(C):** Identify Health Science careers and the work they do (Days 1-4).
 - **d(2)(A):** Describe the typical education required for three biomedical careers (Day 1).
 - **d(5)(A):** Analyze dated national wage, outlook, and annual-openings evidence without treating median pay as starting pay (Day 1).
@@ -29,9 +28,8 @@ Students compare three biomedical careers using dated evidence, write a practice
 - [Biomedical Career Evidence Guide](../../resources/worksheets/2sw-wk6-biomedical-career-evidence-guide.pdf)
 - [Cover Letter Lab](../../resources/worksheets/2sw-wk6-cover-letter-lab.pdf)
 - Optional no-workbook/extended routes: [Mini Medics Design Record](../../resources/worksheets/2sw-wk6-mini-medics-design-record.pdf), [Outbreak Investigation Record](../../resources/worksheets/2sw-wk6-outbreak-investigation-record.pdf), and [Outbreak Response Plan](../../resources/worksheets/2sw-wk6-outbreak-response-plan.pdf)
-- Optional paper route: [Explore Career Matches Reflection](../../resources/worksheets/2sw-wk6-xello-career-matches-reflection.pdf)
+- Optional paper route: [Biomedical Career Evidence Reflection](../../resources/worksheets/2sw-wk6-xello-career-matches-reflection.pdf)
 - Chart paper or plain paper, markers, and rulers for Day 2
-- Xello accounts with Matchmaker complete and at least three saved careers
 
 ## Career and District Connection
 
@@ -42,14 +40,9 @@ Irving ISD's current public CTE site lists **Biomedical Science at Irving High S
 ## Source and Platform Roles
 
 - **Find Your Future:** supplies the Mini Medics and Outbreak Investigators scenarios and the district-context pages.
-- **Xello:** supplies the required Grade 8 Explore career matches lesson. The district minimum is 35 minutes. Students need Matchmaker complete and at least three saved careers before class.
 - **Hats & Ladders:** remains an optional live browse or rating route. Exact Hat titles and salary fields are not required evidence this week.
 - **BLS:** supplies the fixed national career evidence. Xello may be used for localized follow-up only when geography, date, and measure are visible.
 - **CDC:** offers optional outbreak-investigation enrichment. The workbook case remains the required classroom source.
-
-## Xello Resource Package
-
-The locked Canvas teacher guide includes the official Xello facilitator guide, Irving-adapted slide deck, one-page student directions, and the official student-facing career-matches video. The full Xello resource suggests a broader 120-minute lesson. This course protects the district's 35-minute Explore career matches completion minimum on Day 5 and uses the reflection as the discussion record.
 
 ## Assessment and Grading
 
@@ -61,7 +54,7 @@ Week 6 is a formative synthesis and conference week. It does not add a fourth mi
 - **Minor 2:** Week 4 Health Career Evidence Check
 - **Minor 3:** Week 5 Communication and Goal Synthesis
 
-Days 1-5 produce portfolio evidence and reteach data. Do not grade drawing skill, public speaking, platform access, Xello match rank, handwriting, or English mechanics unless meaning is unclear. A required Xello completion that is blocked by access moves to supervised catch-up; a paper reflection does not replace the platform lesson.
+Days 1-5 produce portfolio evidence and reteach data. Do not grade drawing skill, public speaking, platform access, handwriting, or English mechanics unless meaning is unclear.
 
 ## Vocabulary
 
@@ -90,7 +83,7 @@ Days 1-5 produce portfolio evidence and reteach data. Do not grade drawing skill
 | 2 | Mini Medics | Future-technology design brief, plan, labeled design, journey | FYF pp. 80-81 plus career/evidence checks | Engage · Explain · Explore · Evaluate |
 | 3 | Outbreak Investigators | Case comparison, claim, evidence, pattern analysis | FYF pp. 75-76 plus epidemiologist work-product sentence | Engage · Explain · Explore · Evaluate |
 | 4 | Public-health response | Confirming tests, impact estimate, immediate action, prevention | FYF pp. 77-78 plus public-health role sentence | Engage · Explore · Extend · Evaluate |
-| 5 | Xello career matches | Warm-up, required 35-minute lesson, private reflection | Xello completion + private Canvas reflection | Engage · Explore · Explain · Evaluate |
+| 5 | Biomedical career evidence | Fixed three-career comparison, private recommendation reflection | Career evidence reflection | Engage · Explore · Explain · Evaluate |
 
 ## Access and Participation
 
@@ -99,7 +92,7 @@ Days 1-5 produce portfolio evidence and reteach data. Do not grade drawing skill
 - Read the outbreak case aloud and provide the case table visually. Allow keyboard entry, speech-to-text, labeled sketches, and teacher scribing when documented.
 - Students may complete the design independently or with a partner. No public presentation is required for full credit.
 - Use bilingual labels, glossaries, and sentence frames. Do not require a full translation of every page.
-- The Xello reflection is private. Do not require students to post career-assessment results in a discussion.
+- The career reflection is private. Do not require students to post a personal recommendation in a discussion.
 - FYF is the default student work surface on Days 2-4. The separate two-page records are no-workbook, absence, or extended-reasoning routes, not automatic class sets.
 
 ## Optional Extensions

@@ -22,7 +22,7 @@
 - Print one double-sided recommendation per paper-route student. Post the rubric and evidence guide digitally; print one set per student only for a no-device route.
 - Open the private unpublished Canvas Assignment and provide one device per Canvas-route student.
 - Confirm the existing unpublished Assignment remains 100 points in Minor Assessments (40%); do not create or downgrade a duplicate.
-- Xello Exploring Career Factors, eDynamic 4.2, and H&L favorites are optional extensions only. Do not require three separate logins, completion screenshots, or favorite counts.
+- eDynamic 4.2 and H&L favorites are optional extensions only. Do not require separate completion screenshots or favorite counts.
 
 ## Warm-Up (5 min)
 

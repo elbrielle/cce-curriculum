@@ -6,11 +6,20 @@
     "url": "https://drive.google.com/drive/folders/1FbY0WdnXN-PkW6Vi76qcpDfp7SKq5c5H"
   },
   "source_of_truth": "Tracked curriculum source and Canvas delivery state",
+  "quality_holds": [
+    {
+      "scope": "1SW Wk1 Day 1-5 source-grounded slides",
+      "status": "owner-visual-review-rejected",
+      "recorded_on": "2026-08-23",
+      "reason": "The synchronized files are structurally present and editable, but owner review and a cross-deck scan found inherited list corruption, mixed run styles, undersized instructional images, dead space, and text-image collisions. Parity does not equal instructional-quality approval.",
+      "research_note": "cce-curriculum/notes/agentic-slide-production-research-2026-08-23.md"
+    }
+  ],
   "artifacts": [
     {
       "key": "1sw-wk0-day1-source-grounded-slides",
       "curriculum_address": "1SW Wk0 Day 1",
-      "display_title": "CCE Week 1 Day 1 — Notebook and First-Week Goal",
+      "display_title": "CCE Week 1 Day 1 \u2014 Notebook and First-Week Goal",
       "artifact_type": "presentation",
       "distribution_scope": "authenticated-teacher",
       "source": {
@@ -25,7 +34,7 @@
       },
       "drive": {
         "unit_folder": {
-          "title": "SW1 · Wk0 Classroom Routines and Career Self-Discovery",
+          "title": "SW1 \u00b7 Wk0 Classroom Routines and Career Self-Discovery",
           "id": "1nXiYLt--932Knh-SjcWaI5mDqJ_BIBGa"
         },
         "google_masters_folder_id": "117satomVUMXl-7fOFlYzTChD3__Fy0Mh",
@@ -46,7 +55,7 @@
         },
         "office_release": {
           "id": "1-RN8FAQcE25IlzlutDP3I4qQPi6MOReH",
-          "name": "CCE Week 1 Day 1 — Notebook and First-Week Goal.pptx",
+          "name": "CCE Week 1 Day 1 \u2014 Notebook and First-Week Goal.pptx",
           "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
           "url": "https://docs.google.com/presentation/d/1-RN8FAQcE25IlzlutDP3I4qQPi6MOReH/edit"
         }
@@ -78,7 +87,7 @@
     {
       "key": "1sw-wk0-day2-source-grounded-slides",
       "curriculum_address": "1SW Wk0 Day 2",
-      "display_title": "CCE Week 1 Day 2 — Discover Your Core",
+      "display_title": "CCE Week 1 Day 2 \u2014 Discover Your Core",
       "artifact_type": "presentation",
       "distribution_scope": "authenticated-teacher",
       "source": {
@@ -93,7 +102,7 @@
       },
       "drive": {
         "unit_folder": {
-          "title": "SW1 · Wk0 Classroom Routines and Career Self-Discovery",
+          "title": "SW1 \u00b7 Wk0 Classroom Routines and Career Self-Discovery",
           "id": "1nXiYLt--932Knh-SjcWaI5mDqJ_BIBGa"
         },
         "google_masters_folder_id": "117satomVUMXl-7fOFlYzTChD3__Fy0Mh",
@@ -114,7 +123,7 @@
         },
         "office_release": {
           "id": "1VhMW4dNoMRz_c4zQQsbqBHFUKRs4KzkZ",
-          "name": "CCE Week 1 Day 2 — Discover Your Core.pptx",
+          "name": "CCE Week 1 Day 2 \u2014 Discover Your Core.pptx",
           "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
           "url": "https://docs.google.com/presentation/d/1VhMW4dNoMRz_c4zQQsbqBHFUKRs4KzkZ/edit"
         }
@@ -146,7 +155,7 @@
     {
       "key": "1sw-wk0-day3-source-grounded-slides",
       "curriculum_address": "1SW Wk0 Day 3",
-      "display_title": "CCE Week 1 Day 3 — Work Values and Building Blocks",
+      "display_title": "CCE Week 1 Day 3 \u2014 Work Values and Building Blocks",
       "artifact_type": "presentation",
       "distribution_scope": "authenticated-teacher",
       "source": {
@@ -161,7 +170,7 @@
       },
       "drive": {
         "unit_folder": {
-          "title": "SW1 · Wk0 Classroom Routines and Career Self-Discovery",
+          "title": "SW1 \u00b7 Wk0 Classroom Routines and Career Self-Discovery",
           "id": "1nXiYLt--932Knh-SjcWaI5mDqJ_BIBGa"
         },
         "google_masters_folder_id": "117satomVUMXl-7fOFlYzTChD3__Fy0Mh",
@@ -182,7 +191,7 @@
         },
         "office_release": {
           "id": "1LrMoATV26y98z24vJuHghVZ3pNU2isCj",
-          "name": "CCE Week 1 Day 3 — Work Values and Building Blocks.pptx",
+          "name": "CCE Week 1 Day 3 \u2014 Work Values and Building Blocks.pptx",
           "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
           "url": "https://docs.google.com/presentation/d/1LrMoATV26y98z24vJuHghVZ3pNU2isCj/edit"
         }
@@ -214,7 +223,7 @@
     {
       "key": "1sw-wk0-day4-source-grounded-slides",
       "curriculum_address": "1SW Wk0 Day 4",
-      "display_title": "CCE Week 1 Day 4 — My Career Journey",
+      "display_title": "CCE Week 1 Day 4 \u2014 My Career Journey",
       "artifact_type": "presentation",
       "distribution_scope": "authenticated-teacher",
       "source": {
@@ -229,7 +238,7 @@
       },
       "drive": {
         "unit_folder": {
-          "title": "SW1 · Wk0 Classroom Routines and Career Self-Discovery",
+          "title": "SW1 \u00b7 Wk0 Classroom Routines and Career Self-Discovery",
           "id": "1nXiYLt--932Knh-SjcWaI5mDqJ_BIBGa"
         },
         "google_masters_folder_id": "117satomVUMXl-7fOFlYzTChD3__Fy0Mh",
@@ -250,7 +259,7 @@
         },
         "office_release": {
           "id": "1RAg9vXCswPPRyvOGWTP64Ertd4WhXuCV",
-          "name": "CCE Week 1 Day 4 — My Career Journey.pptx",
+          "name": "CCE Week 1 Day 4 \u2014 My Career Journey.pptx",
           "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
           "url": "https://docs.google.com/presentation/d/1RAg9vXCswPPRyvOGWTP64Ertd4WhXuCV/edit"
         }
@@ -282,13 +291,13 @@
     {
       "key": "1sw-wk0-day5-source-grounded-slides",
       "curriculum_address": "1SW Wk0 Day 5",
-      "display_title": "CCE Week 1 Day 5 — Catch Up, Xello, and Perks and Quirks",
+      "display_title": "CCE Week 1 Day 5 \u2014 Career Perks, Neutrals, and Quirks",
       "artifact_type": "presentation",
       "distribution_scope": "authenticated-teacher",
       "source": {
         "path": "cce-curriculum/resources/avid-reference/source/derived/cce-week1-day5-source-grounded.pptx",
-        "sha256": "45fb0f148070743d55b2d99188c8785ada4d9ffde4fa29ad7d5cdfd66d0ef18f",
-        "bytes": 3702468
+        "sha256": "d57983ae99463946bccc5813b6bd34520f320a51a490fd05f199cc1f53fb4ae1",
+        "bytes": 3700533
       },
       "canvas": {
         "course_id": 98060,
@@ -297,7 +306,7 @@
       },
       "drive": {
         "unit_folder": {
-          "title": "SW1 · Wk0 Classroom Routines and Career Self-Discovery",
+          "title": "SW1 \u00b7 Wk0 Classroom Routines and Career Self-Discovery",
           "id": "1nXiYLt--932Knh-SjcWaI5mDqJ_BIBGa"
         },
         "google_masters_folder_id": "117satomVUMXl-7fOFlYzTChD3__Fy0Mh",
@@ -312,13 +321,13 @@
             "width": 720,
             "height": 405
           },
-          "revision_id_at_check": "o9205sY9l-t0EA",
-          "bytes_at_check": 1398293,
+          "revision_id_at_check": "y0ZH8QkoHkRzNQ",
+          "bytes_at_check": 2904708,
           "sharing": "iis-d-domain-reader"
         },
         "office_release": {
           "id": "1r7O54RQRcYwyAXdJKF5wqbzocuRtKtRZ",
-          "name": "CCE Week 1 Day 5 — Catch Up, Xello, and Perks and Quirks.pptx",
+          "name": "CCE Week 1 Day 5 \u2014 Career Perks, Neutrals, and Quirks.pptx",
           "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
           "url": "https://docs.google.com/presentation/d/1r7O54RQRcYwyAXdJKF5wqbzocuRtKtRZ/edit"
         }
@@ -332,25 +341,25 @@
         "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
       },
       "qa": {
-        "checked_on": "2026-08-18",
+        "checked_on": "2026-08-24",
         "native_render_count": 15,
         "native_notes_page_count": 15,
         "all_native_slides_visually_compared": true,
         "mr_lucero_hits": 0,
-        "notes": "Rebuilt locally on 2026-08-18 as an editable student-facing master (deck lint, notes schema, 16:9, and editability gate passed via build/decks/qa_week0_decks.mjs). The raw Drive PowerPoint and native Google Slides copy were replaced in place from the gated local source on 2026-08-18; the Drive IDs were preserved, and native text objects and speaker notes passed structural readback. Canvas remains outside this Drive-only sync."
+        "notes": "Corrected Week 0 Day 5 was synchronized across the local PPTX, raw Drive release, native Google Slides master, and unpublished Canvas module on 2026-08-24 with all stable IDs preserved. The final native export has 15 exact-text slides, 15 non-empty notes pages, 16:9 page size, and a complete post-cleanup visual review."
       },
       "sync_status": {
-        "as_of": "2026-08-18",
+        "as_of": "2026-08-24",
         "local_source": "current",
-        "canvas_file": "stale-pending-owner-run-reconcile",
-        "drive_office_release": "current-2026-08-18",
-        "drive_native_google_file": "current-2026-08-18"
+        "canvas_file": "current-2026-08-24-deploy",
+        "drive_office_release": "current-2026-08-24",
+        "drive_native_google_file": "current-2026-08-24"
       }
     },
     {
       "key": "1sw-wk0-lucero-weekly-slides",
       "curriculum_address": "1SW Wk0 Lucero weekly implementation",
-      "display_title": "Lucero CCE Week 1 — Classroom Routines and Career Self-Discovery",
+      "display_title": "Lucero CCE Week 1 \u2014 Classroom Routines and Career Self-Discovery",
       "artifact_type": "presentation",
       "distribution_scope": "teacher-private",
       "source": {
@@ -374,7 +383,7 @@
         },
         "office_release": {
           "id": "1-UM-4aiY5S7O2QnTpnfXhnho1BO4IUVh",
-          "name": "Lucero CCE Week 1 — Classroom Routines and Career Self-Discovery.pptx",
+          "name": "Lucero CCE Week 1 \u2014 Classroom Routines and Career Self-Discovery.pptx",
           "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
           "url": "https://docs.google.com/presentation/d/1-UM-4aiY5S7O2QnTpnfXhnho1BO4IUVh/edit"
         }
@@ -404,22 +413,22 @@
     {
       "key": "1sw-wk1-day1-manufacturing-source-grounded-slides",
       "curriculum_address": "1SW Wk1 Day 1",
-      "display_title": "CCE 1SW Wk1 Day 1 — CTE and Manufacturing Cluster Tour",
+      "display_title": "CCE 1SW Wk1 Day 1 \u2014 CTE and Manufacturing Cluster Tour",
       "artifact_type": "presentation",
       "distribution_scope": "authenticated-teacher",
       "source": {
         "path": "cce-curriculum/resources/avid-reference/source/derived/cce-1sw-wk1-day1-manufacturing-source-grounded.pptx",
-        "sha256": "715fa8dae6feff86d78aaefe734b4f5221ec77c389f51826c22b5819c6f24198",
-        "bytes": 5241750
+        "sha256": "c3a57de390518323914b4a00c3b1c98ec012c12b5e6f7b51c0871bc4f0779512",
+        "bytes": 3695604
       },
       "canvas": {
         "course_id": 98060,
-        "file_id": 14616743,
+        "file_id": 14661799,
         "locked": true
       },
       "drive": {
         "unit_folder": {
-          "title": "SW1 · Wk1 Robotics and Manufacturing",
+          "title": "SW1 \u00b7 Wk1 Robotics and Manufacturing",
           "id": "15-fUDKDVf-MW6IMyeMcaBNme0os2E_u3"
         },
         "google_masters_folder_id": "1rzbkQgCRD9YJyg7lhLSAdlyE6kkIGlnv",
@@ -434,12 +443,13 @@
             "width": 720,
             "height": 405
           },
-          "revision_id_at_check": "eU1ZvnJ7m7ycSw",
-          "sharing": "iis-d-domain-reader"
+          "revision_id_at_check": "Rv7fRF4OeFdLoQ",
+          "sharing": "iis-d-domain-reader",
+          "bytes_at_check": 1380167
         },
         "office_release": {
           "id": "11rOtouMj1mn240luaQtvjmKBVspLOvht",
-          "name": "CCE 1SW Wk1 Day 1 — CTE and Manufacturing Cluster Tour.pptx",
+          "name": "CCE 1SW Wk1 Day 1 \u2014 CTE and Manufacturing Cluster Tour.pptx",
           "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
           "url": "https://docs.google.com/presentation/d/11rOtouMj1mn240luaQtvjmKBVspLOvht/edit"
         }
@@ -453,33 +463,40 @@
         "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
       },
       "qa": {
-        "checked_on": "2026-08-16",
+        "checked_on": "2026-08-24",
         "native_render_count": 15,
         "native_notes_page_count": 15,
         "all_native_slides_visually_compared": true,
         "mr_lucero_hits": 0,
-        "notes": "All native thumbnails were checked against the approved source deck; slide order, 16:9 layout, content, images, and speaker notes are present."
+        "notes": "The final editable Day 1 source passed geometry, notes, overflow, and full-slide visual QA. Raw Drive, native Google Slides, and unpublished Canvas were synchronized on 2026-08-24 with stable IDs preserved; the final native export has exact text on 15 slides and 15 non-empty notes pages."
+      },
+      "sync_status": {
+        "as_of": "2026-08-24",
+        "local_source": "current",
+        "canvas_file": "current-2026-08-24-deploy",
+        "drive_office_release": "current-2026-08-24",
+        "drive_native_google_file": "current-2026-08-24"
       }
     },
     {
       "key": "1sw-wk1-day2-manufacturing-source-grounded-slides",
       "curriculum_address": "1SW Wk1 Day 2",
-      "display_title": "CCE 1SW Wk1 Day 2 — Machine Breakdown and Career Research",
+      "display_title": "CCE 1SW Wk1 Day 2 \u2014 Machine Breakdown and Career Research",
       "artifact_type": "presentation",
       "distribution_scope": "authenticated-teacher",
       "source": {
         "path": "cce-curriculum/resources/avid-reference/source/derived/cce-1sw-wk1-day2-manufacturing-source-grounded.pptx",
-        "sha256": "7c72d61863f15b9b7f5edad28c304122993fc62074adff71e2e7ed94af984577",
-        "bytes": 4701082
+        "sha256": "2aea60e46942dc222d9dad8729aee2aea5c3ae55294b3affb29d2697c5516c2b",
+        "bytes": 6372583
       },
       "canvas": {
         "course_id": 98060,
-        "file_id": 14616744,
+        "file_id": 14661800,
         "locked": true
       },
       "drive": {
         "unit_folder": {
-          "title": "SW1 · Wk1 Robotics and Manufacturing",
+          "title": "SW1 \u00b7 Wk1 Robotics and Manufacturing",
           "id": "15-fUDKDVf-MW6IMyeMcaBNme0os2E_u3"
         },
         "google_masters_folder_id": "1rzbkQgCRD9YJyg7lhLSAdlyE6kkIGlnv",
@@ -494,12 +511,13 @@
             "width": 720,
             "height": 405
           },
-          "revision_id_at_check": "VkOTKIuWzcDpUA",
-          "sharing": "iis-d-domain-reader"
+          "revision_id_at_check": "CiMidZXTldY9KA",
+          "sharing": "iis-d-domain-reader",
+          "bytes_at_check": 1586384
         },
         "office_release": {
           "id": "16boe1phbNoIondG9s1A7yZlnOqVvNCOD",
-          "name": "CCE 1SW Wk1 Day 2 — Machine Breakdown and Career Research.pptx",
+          "name": "CCE 1SW Wk1 Day 2 \u2014 Machine Breakdown and Career Research.pptx",
           "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
           "url": "https://docs.google.com/presentation/d/16boe1phbNoIondG9s1A7yZlnOqVvNCOD/edit"
         }
@@ -513,33 +531,40 @@
         "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
       },
       "qa": {
-        "checked_on": "2026-08-16",
+        "checked_on": "2026-08-24",
         "native_render_count": 16,
         "native_notes_page_count": 16,
         "all_native_slides_visually_compared": true,
         "mr_lucero_hits": 0,
-        "notes": "All native thumbnails were checked against the approved source deck; slide order, 16:9 layout, content, images, and speaker notes are present."
+        "notes": "The final editable Day 2 source passed geometry, notes, overflow, and full-slide visual QA. Raw Drive, native Google Slides, and unpublished Canvas were synchronized on 2026-08-24 with stable IDs preserved; the final native export has exact text on 16 slides and 16 non-empty notes pages."
+      },
+      "sync_status": {
+        "as_of": "2026-08-24",
+        "local_source": "current",
+        "canvas_file": "current-2026-08-24-deploy",
+        "drive_office_release": "current-2026-08-24",
+        "drive_native_google_file": "current-2026-08-24"
       }
     },
     {
       "key": "1sw-wk1-day3-manufacturing-source-grounded-slides",
       "curriculum_address": "1SW Wk1 Day 3",
-      "display_title": "CCE 1SW Wk1 Day 3 — Super Sports Manufacturing",
+      "display_title": "CCE 1SW Wk1 Day 3 \u2014 Super Sports Manufacturing",
       "artifact_type": "presentation",
       "distribution_scope": "authenticated-teacher",
       "source": {
         "path": "cce-curriculum/resources/avid-reference/source/derived/cce-1sw-wk1-day3-manufacturing-source-grounded.pptx",
-        "sha256": "01d5ae4ed72b9663cd551ff0a1a7a0660d3c2f2ee5bda19f0ef65ccd5532e93e",
-        "bytes": 5688323
+        "sha256": "4b8309abc568553aa4e0555c7cf9839daaa3c4be01636e7e762011f51052826a",
+        "bytes": 7531224
       },
       "canvas": {
         "course_id": 98060,
-        "file_id": 14616745,
+        "file_id": 14661801,
         "locked": true
       },
       "drive": {
         "unit_folder": {
-          "title": "SW1 · Wk1 Robotics and Manufacturing",
+          "title": "SW1 \u00b7 Wk1 Robotics and Manufacturing",
           "id": "15-fUDKDVf-MW6IMyeMcaBNme0os2E_u3"
         },
         "google_masters_folder_id": "1rzbkQgCRD9YJyg7lhLSAdlyE6kkIGlnv",
@@ -554,12 +579,13 @@
             "width": 720,
             "height": 405
           },
-          "revision_id_at_check": "XYnNC2n-GfSAPQ",
-          "sharing": "iis-d-domain-reader"
+          "revision_id_at_check": "nd0tTbQhIwO1NA",
+          "sharing": "iis-d-domain-reader",
+          "bytes_at_check": 2023361
         },
         "office_release": {
           "id": "1_lCdXmDf-BmWoMvIMfwW5m2Y80S1qQi_",
-          "name": "CCE 1SW Wk1 Day 3 — Super Sports Manufacturing.pptx",
+          "name": "CCE 1SW Wk1 Day 3 \u2014 Super Sports Manufacturing.pptx",
           "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
           "url": "https://docs.google.com/presentation/d/1_lCdXmDf-BmWoMvIMfwW5m2Y80S1qQi_/edit"
         }
@@ -573,33 +599,40 @@
         "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
       },
       "qa": {
-        "checked_on": "2026-08-16",
+        "checked_on": "2026-08-24",
         "native_render_count": 16,
         "native_notes_page_count": 16,
         "all_native_slides_visually_compared": true,
         "mr_lucero_hits": 0,
-        "notes": "All native thumbnails were checked against the approved source deck; slide order, 16:9 layout, content, images, and speaker notes are present."
+        "notes": "The final editable Day 3 source passed geometry, notes, overflow, and full-slide visual QA. Raw Drive, native Google Slides, and unpublished Canvas were synchronized on 2026-08-24 with stable IDs preserved; the final native export has exact text on 16 slides and 16 non-empty notes pages."
+      },
+      "sync_status": {
+        "as_of": "2026-08-24",
+        "local_source": "current",
+        "canvas_file": "current-2026-08-24-deploy",
+        "drive_office_release": "current-2026-08-24",
+        "drive_native_google_file": "current-2026-08-24"
       }
     },
     {
       "key": "1sw-wk1-day4-manufacturing-source-grounded-slides",
       "curriculum_address": "1SW Wk1 Day 4",
-      "display_title": "CCE 1SW Wk1 Day 4 — Robots for Crayons",
+      "display_title": "CCE 1SW Wk1 Day 4 \u2014 Robots for Crayons",
       "artifact_type": "presentation",
       "distribution_scope": "authenticated-teacher",
       "source": {
         "path": "cce-curriculum/resources/avid-reference/source/derived/cce-1sw-wk1-day4-manufacturing-source-grounded.pptx",
-        "sha256": "c02a86f1da143410e5f6228dd0b80070014701613056e1771c1427328e89e437",
-        "bytes": 2346042
+        "sha256": "acb3822fb106d07f2a0c75299bfd524c0712c6927110a06922fb286e96242157",
+        "bytes": 4087233
       },
       "canvas": {
         "course_id": 98060,
-        "file_id": 14616746,
+        "file_id": 14661802,
         "locked": true
       },
       "drive": {
         "unit_folder": {
-          "title": "SW1 · Wk1 Robotics and Manufacturing",
+          "title": "SW1 \u00b7 Wk1 Robotics and Manufacturing",
           "id": "15-fUDKDVf-MW6IMyeMcaBNme0os2E_u3"
         },
         "google_masters_folder_id": "1rzbkQgCRD9YJyg7lhLSAdlyE6kkIGlnv",
@@ -614,12 +647,13 @@
             "width": 720,
             "height": 405
           },
-          "revision_id_at_check": "0lqO5GRUo8331A",
-          "sharing": "iis-d-domain-reader"
+          "revision_id_at_check": "g5FUyXQHFcmVqg",
+          "sharing": "iis-d-domain-reader",
+          "bytes_at_check": 1928867
         },
         "office_release": {
           "id": "13RbIK0yDGiNN_eoAOd10gHnsF8KtXf_N",
-          "name": "CCE 1SW Wk1 Day 4 — Robots for Crayons.pptx",
+          "name": "CCE 1SW Wk1 Day 4 \u2014 Robots for Crayons.pptx",
           "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
           "url": "https://docs.google.com/presentation/d/13RbIK0yDGiNN_eoAOd10gHnsF8KtXf_N/edit"
         }
@@ -633,33 +667,40 @@
         "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
       },
       "qa": {
-        "checked_on": "2026-08-16",
+        "checked_on": "2026-08-24",
         "native_render_count": 13,
         "native_notes_page_count": 13,
         "all_native_slides_visually_compared": true,
         "mr_lucero_hits": 0,
-        "notes": "All native thumbnails were checked against the approved source deck; slide order, 16:9 layout, content, images, and speaker notes are present."
+        "notes": "The final editable Day 4 source passed geometry, notes, overflow, and full-slide visual QA. Raw Drive, native Google Slides, and unpublished Canvas were synchronized on 2026-08-24 with stable IDs preserved; the final native export has exact text on 13 slides and 13 non-empty notes pages."
+      },
+      "sync_status": {
+        "as_of": "2026-08-24",
+        "local_source": "current",
+        "canvas_file": "current-2026-08-24-deploy",
+        "drive_office_release": "current-2026-08-24",
+        "drive_native_google_file": "current-2026-08-24"
       }
     },
     {
       "key": "1sw-wk1-day5-manufacturing-source-grounded-slides",
       "curriculum_address": "1SW Wk1 Day 5",
-      "display_title": "CCE 1SW Wk1 Day 5 — Matchmaker and Manufacturing Reflection",
+      "display_title": "CCE 1SW Wk1 Day 5 \u2014 Matchmaker and Manufacturing Reflection",
       "artifact_type": "presentation",
       "distribution_scope": "authenticated-teacher",
       "source": {
         "path": "cce-curriculum/resources/avid-reference/source/derived/cce-1sw-wk1-day5-manufacturing-source-grounded.pptx",
-        "sha256": "b61da919524fcd3133b3e33a4c015ac3c4345628125725dc58509cb8bcde93ef",
-        "bytes": 3201282
+        "sha256": "cf276ca1a7d6d75c2f3f44757f6883f0e251af2e2dfeb60092b78ab7a977c09c",
+        "bytes": 7632306
       },
       "canvas": {
         "course_id": 98060,
-        "file_id": 14616747,
+        "file_id": 14661803,
         "locked": true
       },
       "drive": {
         "unit_folder": {
-          "title": "SW1 · Wk1 Robotics and Manufacturing",
+          "title": "SW1 \u00b7 Wk1 Robotics and Manufacturing",
           "id": "15-fUDKDVf-MW6IMyeMcaBNme0os2E_u3"
         },
         "google_masters_folder_id": "1rzbkQgCRD9YJyg7lhLSAdlyE6kkIGlnv",
@@ -674,12 +715,13 @@
             "width": 720,
             "height": 405
           },
-          "revision_id_at_check": "t7xw6tNlg6jb8Q",
-          "sharing": "iis-d-domain-reader"
+          "revision_id_at_check": "UsooNcagVo5bmw",
+          "sharing": "iis-d-domain-reader",
+          "bytes_at_check": 1906018
         },
         "office_release": {
           "id": "1iwoCCU5kW8lmnO6V1HW8eT-nvFSLAL_N",
-          "name": "CCE 1SW Wk1 Day 5 — Matchmaker and Manufacturing Reflection.pptx",
+          "name": "CCE 1SW Wk1 Day 5 \u2014 Matchmaker and Manufacturing Reflection.pptx",
           "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
           "url": "https://docs.google.com/presentation/d/1iwoCCU5kW8lmnO6V1HW8eT-nvFSLAL_N/edit"
         }
@@ -693,12 +735,19 @@
         "reason": "The public reference links to the IISD-restricted Google and PowerPoint copies; the deck binary remains outside Git and the public build."
       },
       "qa": {
-        "checked_on": "2026-08-16",
+        "checked_on": "2026-08-24",
         "native_render_count": 15,
         "native_notes_page_count": 15,
         "all_native_slides_visually_compared": true,
         "mr_lucero_hits": 0,
-        "notes": "All native thumbnails were checked against the approved source deck; slide order, 16:9 layout, content, images, and speaker notes are present."
+        "notes": "The final editable Day 5 source passed geometry, notes, overflow, and full-slide visual QA. Raw Drive, native Google Slides, and unpublished Canvas were synchronized on 2026-08-24 with stable IDs preserved; the final native export has exact text on 15 slides and 15 non-empty notes pages, with no separate After High School Goal task."
+      },
+      "sync_status": {
+        "as_of": "2026-08-24",
+        "local_source": "current",
+        "canvas_file": "current-2026-08-24-deploy",
+        "drive_office_release": "current-2026-08-24",
+        "drive_native_google_file": "current-2026-08-24"
       }
     }
   ]

@@ -1,6 +1,10 @@
 # Xello Grade 8 Implementation Guide
 
-Xello is a required yearlong completion strand in this course. It is not an optional Friday activity. Use this page to plan access, protect instructional time, and confirm completion without rebuilding lessons from scratch.
+> **Historical only — not the current course guide.** The 2026-08-24 audit
+> confirmed that this is a Grade 7 course. Use
+> [Xello Grade 7 Implementation Guide](xello-grade-7-implementation.md).
+> This page remains only to document the superseded Grade 8 plan and must not
+> be used to assign student work.
 
 ## Before the first student session
 

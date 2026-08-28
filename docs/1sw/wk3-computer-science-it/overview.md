@@ -4,20 +4,21 @@
 
 ## Lesson Objective
 
-Students continue exploring the IT cluster through the *Find Your Future* workbook, fixed career evidence, and optional Hats & Ladders exploration. They compare networking and data careers, audit the H&L practice website as a UX designer in "Website Revamp," design and test four mobile-app wireframes in "From Wireframe to Wow," evaluate one emerging or rapidly changing IT occupation, and complete the required Xello Learning Style quiz.
+Students continue exploring the IT cluster through the *Find Your Future* workbook, fixed career evidence, and optional Hats & Ladders exploration. They compare networking and data careers, audit the H&L practice website as a UX designer in "Website Revamp," design and test four mobile-app wireframes in "From Wireframe to Wow," evaluate one emerging or rapidly changing IT occupation, and complete the Grade 7 Xello Learning Style quiz and Learning styles lesson.
 
-**Learning Target:** I can compare IT careers, explain how a digital design helps or blocks a user, create four app screens a first-time user can follow, and evaluate evidence about changing IT work.
+**Learning Target:** I can compare IT careers, explain how a digital design helps or blocks a user, create four app screens a first-time user can follow, evaluate evidence about changing IT work, and choose a learning method for a real school task.
 
-**Success Criteria:** I will know I am successful when my four-role comparison names a technical task and transferable skill for each career, my website audit names three strengths and five observable problems with a fix and user benefit for three, my Home/Main Menu/Action/Success screens give a first-time user a clear next action and show two feedback-based revisions, and my emerging-career evidence labels its BLS occupation and exact/proxy status accurately.
+**Success Criteria:** I will know I am successful when my four-role comparison names a technical task and transferable skill for each career, my website audit names three strengths and five observable problems with a fix and user benefit for three, my Home/Main Menu/Action/Success screens give a first-time user a clear next action and show two feedback-based revisions, my emerging-career evidence labels its BLS occupation and exact/proxy status accurately, and my learning-method connection names one method and explains where I will test it.
 
 ## Demonstration of Learning
 
-> The individual Major 1 packet contains the app plan, four labeled wireframes, written walkthrough feedback, two starred revisions, and the dated emerging-career evidence sheet. The Day 5 pitch is practice; Xello Learning Style completion is verified separately in the Completion Standards report.
+> The individual Major 1 packet contains the app plan, four labeled wireframes, written walkthrough feedback, two starred revisions, and the dated emerging-career evidence sheet. Collect that packet before the Day 5 Xello block. Verify the Grade 7 Learning Style quiz and Learning styles lesson separately, then collect the short learning-method connection as Day 5 formative evidence.
 
 ## TEKS Alignment
 
-- **d(1)(C):** Identify various career opportunities within one or more career clusters (Days 1-5 through networking/data cards, UX and app-design role work, and emerging-career evidence).
-- **d(1)(D):** Research and evaluate emerging occupations related to career interest areas (Days 4-5).
+- **d(1)(A):** Identify and demonstrate work-related skills, attitudes, and habits necessary for success in a defined career cluster (Day 5 learning-method selection and school-task application).
+- **d(1)(C):** Identify various career opportunities within one or more career clusters (Days 1-4 through networking/data cards, UX and app-design role work, and emerging-career evidence).
+- **d(1)(D):** Research and evaluate emerging occupations related to career interest areas (Day 4).
 - **d(4)(B):** Identify skills that can be transferable among a variety of careers (Day 1 career comparison and Venn evidence).
 
 ## Materials Needed
@@ -31,7 +32,7 @@ Students continue exploring the IT cluster through the *Find Your Future* workbo
 - Pencils for every student, plus one set of colored pencils or markers per table group of four
 - Printed Emerging Tech Research Template, 1 per student ([Printable PDF](../../resources/worksheets/wk3-emerging-tech-research-template.pdf))
 - App Design Packet and Emerging Career Evidence Rubric for the Day 3 packet and Day 4 research evidence ([Printable PDF](../../resources/worksheets/wk3-app-design-rubric.pdf))
-- Xello Learning Style quiz, student accounts rostered through district SSO; licensed *My Learning Styles* prerequisite guide and Completion Standards report
+- Xello Learning Style quiz and Grade 7 Learning styles lesson; student accounts rostered through district SSO; licensed *Explore Learning Styles* lesson guide, learning-method connection sheet, and Completion Standards report
 - Projector
 
 ## Career Connection
@@ -67,7 +68,7 @@ The chapter does not print a networking pathway list. Day 1 therefore uses a CCE
 - **Stop and Jot:** Day 2, Activity 2, the sticky-note capture the workbook calls for while students first look at the practice site (FYF p. 28, Step 2). Distinguished: give 90 seconds before any list-making, one thought per sticky note, with two stems on the board: "The first thing I tried to do was _____" and "I got stuck when _____." Read stickies over shoulders while students write. If most stickies name colors and fonts rather than navigation, pull the room back for 30 seconds and re-read the Easy Navigation and Clear Buttons rows from Step 1 before students start the 3-strengths and 5-problems lists.
 - **Active Monitoring:** Day 3, Activity 1, the four wireframe screens. Distinguished: walk a fixed pathway twice, one target per lap (lap 1 at minute 8, Home and Main Menu screens are boxed and labeled; lap 2 at minute 18, Action and Success screens show what the user did and what happened next), and mark a clipboard list of who has cleared each lap. Have feedback ready before class for the two known misconceptions: students who draw art instead of labeled boxes, and Success screens that repeat the Home screen. If more than a handful of students miss the lap 1 target, pivot and reproject the four wireframe symbols (image box, text lines, button, hamburger menu) to the whole room instead of redrawing them desk by desk.
 - **Chunking:** Day 2, Activity 2, the four Website Revamp steps. Distinguished: release one step at a time (investigate, then 3 strengths, then 5 problems, then 3 fixes), say what each step is for before releasing it (you cannot fix what you have not named), and close each step with a fast check before the next one opens, using the strengths list as the check for step 2 and a count of five problems as the check for step 3. Note which step slows the room down. If the 5-problems list is where students stall, the 3-fixes step gets modeled on the projector with one problem from a student's own list before students work alone.
-- **Time, Voice, Body (TVB):** Day 5, Activity 1, the small-group evidence pitches. Post the routine before the first presenter: Voice 0 during the handoff, Voice 3 for the presenter, and Voice 1 for the evidence-based star and question that follow. Run a visible one-minute countdown for each pitch, then give the group up to one minute for the response. Define where the presenter sits or stands and where the research sheets go so the handoff does not consume the pitch. If a group falls behind, keep the star and move the question to the end of the round.
+- **Time, Voice, Body (TVB):** Day 5, the quiz and Learning styles lesson. Use Voice 0 for the private quiz, Voice 1 for the brief partner rehearsal inside the lesson, and Voice 0 again for the learning-method connection. Keep a visible 20-minute quiz timer and a 30-minute lesson timer. Devices stay flat while directions are modeled. If the lesson does not launch after a two-minute check, move the student to the connection sheet with its built-in learning-method chart so the full thinking target is still completed.
 
 ## Week at a Glance
 
@@ -77,7 +78,7 @@ The chapter does not print a networking pathway list. Day 1 therefore uses a CCE
 | 2 | Website Revamp, Audit a Real Site | "Website Revamp" Steps 1-5 (learn UX, investigate, 3 strengths + 5 problems, 3 fixes, redesign sketch) | UX audit with 3 fixes + redesign sketch | Engage · Explain · Explore · Evaluate |
 | 3 | From Wireframe to Wow, Build the Screens | "From Wireframe to Wow" Steps 1-5 (choose app, plan, wireframe 4 screens, partner test, improve) | 4 labeled app screens + 2 improvements | Engage · Explore · Explain · Evaluate |
 | 4 | Emerging Tech Research | Evaluate one changing IT occupation with a dated BLS evidence guide and exact/proxy rule | Research template + evidence comparison | Engage · Explain · Explore · Evaluate |
-| 5 | Evidence Pitches + Xello Learning Style | One-minute evidence pitches + required 20-minute Learning Style quiz + strategy connection | Practice pitch + Xello completion + connection sheet | Engage · Explain · Extend · Evaluate |
+| 5 | Xello Learning Styles | Grade 7 Learning Style quiz (20 minutes) + Learning styles lesson (30 minutes) | Quiz + lesson completion + learning-method connection | Engage · Explore · Explain · Evaluate |
 
 ## Formative Assessment
 
@@ -85,11 +86,11 @@ The chapter does not print a networking pathway list. Day 1 therefore uses a CCE
 - **Day 2:** UX audit (3 strengths, 5 problems, 3 fixes) + redesign sketch + Mini-Case exit ticket (Rosa's tutoring site). *d(1)(C)*
 - **Day 3:** Four labeled app screens + partner walkthrough notes + 2 improvements (deliverable-only day, no formal exit ticket). *d(1)(C)*
 - **Day 4:** Emerging Tech Research Template + Comparison Matrix exit ticket (emerging vs. traditional IT career). *d(1)(C), d(1)(D)*
-- **Day 5:** One-minute evidence pitch + Xello Learning Style completion + learning-strategy connection. *d(1)(C), d(1)(D)*
+- **Day 5:** Grade 7 Learning Style quiz + Learning styles lesson + learning-method connection. *d(1)(A)*
 
 ## Summative Assessment
 
-**"From Wireframe to Wow" App Design Packet + Emerging Career Evidence:** Students submit their app plan, four labeled screens, partner walkthrough notes, two starred improvements, and Day 4 emerging-career evidence sheet. The Day 5 pitch is communication practice. Score the individual evidence with the **App Design Packet and Emerging Career Evidence Rubric** ([Printable PDF](../../resources/worksheets/wk3-app-design-rubric.pdf)): App Plan, Screen Design, Response to Feedback, and Emerging Career Evidence, 4 points each and 16 points total. The packet assesses d(1)(C), d(1)(D), and the feedback/transfer work supporting d(4)(B).
+**"From Wireframe to Wow" App Design Packet + Emerging Career Evidence:** Students submit their app plan, four labeled screens, partner walkthrough notes, two starred improvements, and Day 4 emerging-career evidence sheet before opening Xello on Day 5. Score the individual evidence with the **App Design Packet and Emerging Career Evidence Rubric** ([Printable PDF](../../resources/worksheets/wk3-app-design-rubric.pdf)): App Plan, Screen Design, Response to Feedback, and Emerging Career Evidence, 4 points each and 16 points total. The packet assesses d(1)(C), d(1)(D), and the feedback/transfer work supporting d(4)(B). The Day 5 Xello lesson and learning-method connection are separate formative evidence and do not change the Major 1 score.
 
 This is **Major 1** in the [1SW assessment map](../../resources/six-weeks-assessment-map.md). The individual packet and emerging-career evidence carry the score; live delivery is practice and may not become a barrier for an absent or speech-supported student.
 
@@ -112,4 +113,4 @@ This is **Major 1** in the [1SW assessment map](../../resources/six-weeks-assess
 
 - Pre-teach: Network = Red, Wireframe = Esquema de página, Web Developer = Desarrollador web, User Experience = Experiencia del usuario, Skill = Habilidad.
 - Bilingual wireframe template with Spanish labels ([Printable PDF](../../resources/worksheets/wk3-wireframe-template-bilingual.pdf)): Header = Encabezado, Footer = Pie de página, Navigation = Navegación, Button = Botón.
-- Provide the Day 5 evidence-pitch frames at the point of use and allow an equivalent private audio or written route. A bilingual peer may be chosen as support but is not the student's only access route.
+- Provide the Day 5 method-to-task frame at the point of use: "A method I can test is ___. I will use it when I ___. I will know it helped if ___." Let students rehearse orally, point to a method icon, or use speech-to-text before writing. A bilingual peer may be chosen as support but is not the student's only access route.

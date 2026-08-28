@@ -84,7 +84,7 @@ The chapter's other two activities, Clinton Lake Case (FYF pp. 48-49) and Injure
 | 2 | Emergency Essentials Kit Design | "Emergency Essentials: Kit Design" (FYF pp. 50-51): 10-item kit, labeled design, partner share | Completed kit + career-planning connection | Engage · Explore · Explain · Evaluate |
 | 3 | City Council in Action | "City Council in Action" (FYF pp. 40-43): town design, problem scan, two drafted ordinances, partner review | Town plan + 2 ordinances + revision + career-role connection | Engage · Explain · Explore · Evaluate |
 | 4 | Policy Showdown + Legal Entrepreneurship | Legal Review Team roles + argument judged by a peer pair + Legal Entrepreneur Card | Argument sheet + Legal Entrepreneur Card + position paper draft | Engage · Explain · Extend · Explore · Evaluate |
-| 5 | Cluster Wrap-Up + Xello Life Experience | Position paper polish + optional Pathway Possibilities + required Xello Life experience + career connection | Final Position Paper + Xello save + career connection | Engage · Explain · Explore · Extend · Evaluate |
+| 5 | Cluster Wrap-Up + Xello Life Experience | Position paper polish + optional Pathway Possibilities + original-scope Xello Life experience + career connection | Final Position Paper + Xello save + career connection | Engage · Explain · Explore · Extend · Evaluate |
 
 ## Formative Assessment
 

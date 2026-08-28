@@ -15,6 +15,7 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SITE = ROOT / "public-site" / "dist"
 COMPLETE_ARTIFACT_INVENTORY = ROOT / "cce-curriculum/notes/google-workspace-complete-artifact-inventory.json"
+STUDENT_RESPONSE_ROUTES = ROOT / "build/google_docs/student_response_route_registry.json"
 UNWANTED_STRUCTURAL_METAPHOR = re.compile(r"\bload(?:\s+|-+)bearing\b", re.IGNORECASE)
 
 
@@ -34,18 +35,61 @@ def verify(site: Path) -> None:
     if not manifest_path.is_file():
         raise SystemExit("Missing data/site-manifest.json")
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    route_payload = json.loads(STUDENT_RESPONSE_ROUTES.read_text(encoding="utf-8"))
+    if route_payload.get("review_status") != "reviewed":
+        problems.append("student response-route registry is not reviewed")
+    expected_copy_actions: dict[str, tuple[str, str]] = {}
+    for row in route_payload.get("routes", []):
+        source = Path(row["source"]["day_source"]["path"])
+        try:
+            relative = source.relative_to("docs")
+        except ValueError:
+            problems.append(f"student response source is outside docs: {source}")
+            continue
+        day_match = re.fullmatch(r"day([1-5])\.md", relative.name)
+        if len(relative.parts) != 3 or not day_match:
+            problems.append(f"student response source is not a daily lesson: {source}")
+            continue
+        output = Path(
+            "curriculum",
+            relative.parts[0],
+            relative.parts[1],
+            f"day-{day_match.group(1)}",
+            "index.html",
+        ).as_posix()
+        expected_copy_actions[output] = (
+            row["google_doc"]["copy_url"],
+            f"Make a copy: {row['title'].rsplit(' | ', 1)[-1]}",
+        )
+    if len(expected_copy_actions) != 180:
+        problems.append(
+            f"expected public copy-action routes={len(expected_copy_actions)} expected=180"
+        )
     if manifest.get("week_count") != 36:
         problems.append(f"week_count={manifest.get('week_count')} expected=36")
     if manifest.get("lesson_count") != 180:
         problems.append(f"lesson_count={manifest.get('lesson_count')} expected=180")
     if manifest.get("page_count") != 228:
         problems.append(f"page_count={manifest.get('page_count')} expected=228")
+    worksheet_manifest = manifest.get("student_google_docs", {})
+    worksheet_page_ids = worksheet_manifest.get("page_ids", [])
+    if worksheet_manifest.get("count") != 180:
+        problems.append(
+            f"student Google Docs={worksheet_manifest.get('count')} expected=180"
+        )
+    if len(worksheet_page_ids) != 180 or len(set(worksheet_page_ids)) != 180:
+        problems.append(
+            "student Google Doc page IDs must contain exactly 180 unique entries"
+        )
+    if worksheet_manifest.get("presentation") != "one_compact_lesson_action":
+        problems.append("student Google Docs must use the compact lesson-action presentation")
 
     excluded = set(manifest["publication_policy"].get("excluded_markdown", []))
     expected_exclusions = {
         "resources/canvas-engagement-and-organization-patterns.md",
         "resources/resources-status.md",
         "resources/teks-coverage-matrix.md",
+        "resources/xello-grade-8-implementation.md",
     }
     if excluded != expected_exclusions:
         problems.append(f"excluded_markdown={sorted(excluded)} expected={sorted(expected_exclusions)}")
@@ -53,10 +97,12 @@ def verify(site: Path) -> None:
     protected = tuple(manifest["publication_policy"]["protected_path_fragments"])
     copied = manifest.get("copied_resources", [])
     inventory = json.loads(COMPLETE_ARTIFACT_INVENTORY.read_text(encoding="utf-8"))
+    superseded = manifest["publication_policy"].get("superseded_resources", {})
     expected_sources = {
         release["source"]
         for unit in inventory["units"]
         for release in unit["required_releases"]
+        if release["source"] not in superseded
     }
     copied_sources = {record["source"] for record in copied}
     if len(copied) != 302:
@@ -65,6 +111,16 @@ def verify(site: Path) -> None:
         problems.append(
             f"copied resource set drift missing={sorted(expected_sources - copied_sources)} "
             f"extra={sorted(copied_sources - expected_sources)}"
+        )
+    old_sources = set(superseded)
+    replacement_sources = set(superseded.values())
+    if copied_sources & old_sources:
+        problems.append(
+            f"superseded resources copied: {sorted(copied_sources & old_sources)}"
+        )
+    if not replacement_sources <= copied_sources:
+        problems.append(
+            f"replacement resources missing: {sorted(replacement_sources - copied_sources)}"
         )
     excluded_sources = {record["source"] for record in inventory["excluded_artifacts"]}
     if copied_sources & excluded_sources:
@@ -90,8 +146,16 @@ def verify(site: Path) -> None:
         problems.append(f"html files={len(html_files)} manifest page_count={manifest.get('page_count')}")
     seen_titles: dict[str, Path] = {}
     week_download_sections = 0
+    student_doc_actions = 0
+    student_doc_urls: set[str] = set()
     expected_week_counts = {
-        unit["curriculum_address"]: unit["required_release_count"]
+        unit["curriculum_address"]: len(
+            [
+                release
+                for release in unit["required_releases"]
+                if release["source"] not in superseded
+            ]
+        )
         for unit in inventory["units"]
     }
     for page in html_files:
@@ -127,6 +191,43 @@ def verify(site: Path) -> None:
                 expected_count = expected_week_counts[address]
                 if actual_count != expected_count:
                     problems.append(f"{address} downloads={actual_count} expected={expected_count}")
+        if soup.find("aside", class_="student-google-doc"):
+            problems.append(f"generic student Google Doc panel remains: {rel}")
+        page_copy_actions = soup.select("p.student-copy-action")
+        expected_copy_action = expected_copy_actions.get(rel.as_posix())
+        is_lesson = expected_copy_action is not None
+        if len(page_copy_actions) != (1 if is_lesson else 0):
+            problems.append(
+                f"compact student copy actions={len(page_copy_actions)} "
+                f"expected={1 if is_lesson else 0}: {rel}"
+            )
+        for action in page_copy_actions:
+            links = [
+                anchor for anchor in action.find_all("a", href=True)
+                if re.fullmatch(
+                    r"https://docs\.google\.com/document/d/[A-Za-z0-9_-]+/copy",
+                    anchor.get("href", ""),
+                )
+            ]
+            if (
+                len(links) != 1
+                or expected_copy_action is None
+                or links[0]["href"] != expected_copy_action[0]
+                or links[0].get_text(" ", strip=True) != expected_copy_action[1]
+            ):
+                problems.append(f"invalid compact student copy action: {rel}")
+            else:
+                student_doc_actions += 1
+                student_doc_urls.add(links[0]["href"])
+        visible = soup.get_text(" ", strip=True)
+        for forbidden in (
+            "Teacher-selected response route",
+            "Typeable student Google Doc",
+            "Type in your copy and submit or share it the way your teacher directs",
+            "Complete this work in one place only",
+        ):
+            if forbidden in visible:
+                problems.append(f"generic student response-route prose remains: {rel}")
         for node, attribute in [(anchor, "href") for anchor in soup.find_all("a", href=True)] + [(image, "src") for image in soup.find_all("img", src=True)] + [(script, "src") for script in soup.find_all("script", src=True)] + [(link, "href") for link in soup.find_all("link", href=True)]:
             value = node.get(attribute, "").strip()
             if not value or value.startswith(("#", "http://", "https://", "mailto:", "tel:", "data:")):
@@ -158,6 +259,14 @@ def verify(site: Path) -> None:
 
     if week_download_sections != 36:
         problems.append(f"week download sections={week_download_sections} expected=36")
+    if student_doc_actions != 180:
+        problems.append(
+            f"student Google Doc actions={student_doc_actions} expected=180"
+        )
+    if len(student_doc_urls) != 180:
+        problems.append(
+            f"unique student Google Doc links={len(student_doc_urls)} expected=180"
+        )
 
     if problems:
         print("PUBLIC SITE VERIFY: FAIL")

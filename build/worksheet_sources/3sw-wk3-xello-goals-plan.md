@@ -1,5 +1,5 @@
 ---
-title: Xello Goal Check and Private Reflection
+title: Xello Interests Check and Private Reflection
 slug: 3sw-wk3-xello-goals-plan
 kind: worksheet
 weeks: 3sw/wk3-sustainable-engineering
@@ -10,36 +10,33 @@ pages: 1
 orientation: portrait
 ---
 
-## Check two honest goals
+## Brainstorm current interests
 
-The district completion minimum is **two saved goals**. Choose goals that are true for you. You do not need to share private details with classmates.
+The Grade 7/original course spine assigns the **Interests** lesson. Choose interests that fit you now. You do not need to share private details with classmates.
 
-Use Xello for the full goal statements. This page is a private planning check and paper fallback, not a second copy of the Xello form.
+Use Xello to select five interests inside the assigned lesson. This page is a private planning check and paper fallback, not a second copy of the Xello form.
 
-| Goal idea or category | Timeframe or check-in | Next task |
+| Interest idea | Activity that shows it | Sustainable-engineering task it may connect to |
 |---|---|---|
 | 1 |  |  |
 | 2 |  |  |
+| 3 |  |  |
 
-One obstacle that could affect either goal: ______________________________________
+## Complete the Interests lesson in Xello
 
-My backup plan if that happens: _________________________________________________
-
-## Save both goals in Xello
-
-1. Open Xello from district single sign-on, then open **About Me > Goals**.
-2. Choose **Set a goal**. Save both goals with a timeframe and at least one task.
-3. Check that both goals appear. Your teacher checks the report; do not post a profile screenshot.
+1. Open Xello from district single sign-on, then open the assigned **Interests** lesson.
+2. Review the examples and select five interests that fit now.
+3. Complete the reflection prompts. Your teacher checks the report; do not post a profile screenshot.
 
 ## Private reflection
 
-Which goal has the clearest next task? Which may need revision after you try the first task? Explain.
+Choose one current interest. How does it connect to a task from environmental engineering, agricultural engineering, wind energy, solar energy, or another fixed career in the week guide? What task would you still want to investigate?
 
 [[lines: 3]]
 
 ### Completion and catch-up check
 
-- [ ] I saved at least two goals in Xello.
-- [ ] Each goal has a timeframe or check-in point and at least one task.
+- [ ] I selected five interests inside the assigned Xello lesson.
+- [ ] I connected one interest to a fixed sustainable-engineering career task.
 - [ ] I completed the private reflection.
-- [ ] If Xello was unavailable, I scheduled supervised catch-up. Paper planning does not replace Xello completion.
+- [ ] If Xello was unavailable, I scheduled supervised catch-up. Paper planning does not replace the assigned lesson.

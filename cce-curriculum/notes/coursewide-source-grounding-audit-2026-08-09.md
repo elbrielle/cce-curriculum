@@ -1,5 +1,9 @@
 # Coursewide Source-Grounding and Next-Day-Readiness Audit
 
+> **Historical snapshot:** Xello conclusions in this 2026-08-09 audit were
+> based on the superseded Grade 8 spine. For current Xello decisions, use
+> `xello-grade-7-scope-audit-2026-08-24.md`.
+
 **Audit date:** 2026-08-09
 **Scope:** 36 unpublished instructional modules, 180 Teacher/Student day pairs
 **Status:** Structural inventory complete; source-by-source semantic verification in progress

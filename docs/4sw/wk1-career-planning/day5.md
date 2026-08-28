@@ -3,8 +3,8 @@
 ## Daily Learning Contract
 
 - **Topic:** Career Planning
-- **Objective:** Students will synthesize self, career, and pathway evidence into a current plan with a backup and next action.
-- **TEKS:** d(1)(A), d(8)(A), d(8)(B)
+- **Objective:** Students will synthesize self, Quick Sim, and pathway evidence into a current plan with a backup and next action.
+- **TEKS:** d(1)(A), d(5)(D), d(8)(A)
 - **Demonstration of Learning:** Mid-Year Career Blueprint.
 <!-- CCE DAILY CONTRACT END -->
 ## Lesson Overview
@@ -12,8 +12,8 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objective** | Synthesize self, career, and pathway evidence into a current plan with a backup and next action |
-| **TEKS** | d(1)(A), d(8)(A), d(8)(B) |
+| **Objective** | Synthesize self, Quick Sim, and pathway evidence into a current plan with a backup and next action |
+| **TEKS** | d(1)(A), d(5)(D), d(8)(A) |
 | **Deliverable** | Mid-Year Career Blueprint |
 | **Materials** | Days 1-4 artifacts, FYF Career Thinker excerpt, Blueprint and rubric |
 
@@ -35,7 +35,7 @@ Students use their four checkpoints as source material and complete the three-pa
 
 1. earlier result and current self-evidence;
 2. current career direction and hidden-work insight;
-3. preparation, salary, and outlook evidence with source labels;
+3. saved Quick Sim evidence naming the career, education choice, expense, and financial tradeoff;
 4. current Irving pathway choice and one verified fact;
 5. backup direction;
 6. one action to take within the next six weeks; and
@@ -56,7 +56,7 @@ Students use the rubric privately. They choose one review route:
 
 No student must share a career choice publicly. The teacher checks that the next action is specific and realistic.
 
-If one third of the class lacks the same rubric criterion, pause for a three-minute repair with the supplied fictional model. If time slips, remove partner review and use self-review only. Do not cut self-evidence, career evidence, pathway reasoning, trade-off, next action, or the five-minute private submission.
+If one third of the class lacks the same rubric criterion, pause for a three-minute repair with the supplied fictional model. If time slips, remove partner review and use self-review only. Do not cut self-evidence, Quick Sim evidence, pathway reasoning, trade-off, next action, or the five-minute private submission.
 
 ## Exit Ticket and Submission (5 min)
 
@@ -71,7 +71,7 @@ Unfinished work returns through the same private assignment or paper route durin
 Use four 4-point criteria:
 
 1. self-evidence and change analysis;
-2. career evidence and source accuracy;
+2. career and Quick Sim evidence;
 3. local pathway reasoning; and
 4. specific next action.
 

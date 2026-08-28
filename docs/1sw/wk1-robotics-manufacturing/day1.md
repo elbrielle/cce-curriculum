@@ -33,7 +33,7 @@ Quick share-out. Listen for students saying "a machine" or "a factory." Bridge: 
 
 ## Activity 1: Xello What is CTE? (10 min)
 
-**Source:** Bowie Grade 8 Xello Completion Standard, "What is CTE?"
+**Source:** Original Bowie CCE scope spreadsheet exception, Xello "What is CTE?"
 
 Students open Xello through ClassLink and locate **What is CTE?** in their assigned work. The district custom task requires a text response or file submission. Preview the current prompt before class and show students where the response is submitted. Do not substitute a different Xello lesson or treat opening the task as completion.
 

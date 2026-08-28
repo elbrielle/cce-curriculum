@@ -98,7 +98,7 @@ The teacher scores evidence and reasoning. Do not score family availability, adu
 - **2** questions I will take to a counselor or trusted adult
 - **1** condition that would make me revise the plan
 
-Students submit the plan privately in Canvas as a file, text, or brief audio response. Paper submission is equal. This draft prepares students for the counselor-controlled Xello planning tasks; it does not count as `Submit course requests` or parent approval.
+Students submit the plan privately in Canvas as a file, text, or brief audio response. Paper submission is equal. This is a CCE/FYF draft for a future counselor conversation; no Xello planning task is assigned in this Grade 7 week.
 
 *(d(8)(B), d(8)(C), d(3)(D))*
 

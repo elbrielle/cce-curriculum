@@ -12,7 +12,7 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Submit the legal-policy position evidence; complete the required Xello Life experiences task; connect one lived experience to a legal career task |
+| **Objectives** | Submit the legal-policy position evidence; complete the original-scope Xello Life experiences task; connect one lived experience to a legal career task |
 | **TEKS** | d(1)(C), d(3)(H) |
 | **5E Phases** | Engage: Warm-Up · Explain: Position paper polish and submission · Explore: Pathway Possibilities and Law favorites · Extend: Xello Life Experience connections · Evaluate: Exit Ticket |
 | **Deliverable** | Final legal-policy position + Legal Entrepreneur Card + at least one saved Xello Life experience + paper career connection |
@@ -56,9 +56,9 @@ Circulate and ask each student, "Which legal career did you favorite, and why?" 
 
 ---
 
-## Activity 3: Required Xello Life Experiences (10 min)
+## Activity 3: Original-Scope Xello Life Experiences (10 min)
 
-Open Xello and direct students to the required Grade 8 **Life experiences** task. The configured minimum is one saved experience. Students may choose an experience from home, school, a club, a team, a hobby, or volunteering without disclosing private details.
+Open Xello and direct students to **Life experiences**, retained as an explicit original coordinator-scope exception for this Grade 7 course. It is not a live Grade 7 Completion Standards task. The course minimum is one saved experience. Students may choose an experience from home, school, a club, a team, a hobby, or volunteering without disclosing private details.
 
 Students complete the activity in Xello and answer the reflection prompts. They look for connections between their lived experiences and the legal careers they explored this week, for example, a student who has resolved sibling arguments has experience with mediation; a student who reads carefully has experience that connects to paralegal work.
 
@@ -70,7 +70,7 @@ After completing the Xello activity, each student writes one sentence in their n
 
 ## Activity 4: Experience-to-Career Connection and Catch-Up (15 min)
 
-Students complete the paper connection: what they did or learned, one legal career, and the specific career task that connects. Check the Xello Completion Standards report. Students with an access issue submit the paper connection now and complete the required save in the next supervised catch-up block.
+Students complete the paper connection: what they did or learned, one legal career, and the specific career task that connects. Verify the saved entry privately in the student's Experiences area; do not label it a Grade 7 Completion Standards requirement. Students with an access issue submit the paper connection now and complete the original-scope save in the next supervised catch-up block.
 
 ---
 

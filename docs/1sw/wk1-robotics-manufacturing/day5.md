@@ -25,11 +25,11 @@ Teacher presentation: [PowerPoint file (IISD sign-in)](https://docs.google.com/p
 
 ## Before Class
 
-1. Confirm that students completed the earlier **After high school goal**. Matchmaker is locked until that prerequisite is complete.
-2. Open the Xello Completion Standards report and the student demo account.
-3. Open the licensed **Matchmaker Assessment** educator guide and the official **Understanding Your Career Matches** video if it is available and district-accessible.
-4. Open the private Canvas Matchmaker Reflection assignment. Do not create a public discussion or require screenshots of student results.
-5. Keep a roster list for students who need supervised prerequisite or login catch-up.
+1. Open the Xello Completion Standards report and the student demo account.
+2. Open the licensed **Matchmaker Assessment** educator guide and the official **Understanding Your Career Matches** video if it is available and district-accessible.
+3. Open the private Canvas Matchmaker Reflection assignment. Do not create a public discussion or require screenshots of student results.
+4. Preview Matchmaker's opening goal question so students understand that it is the first question inside Matchmaker, not a separate assignment.
+5. Keep a roster list for students who need login, access, absence, or incomplete-assessment catch-up.
 
 ## Warm-Up and Launch (5 min)
 
@@ -49,9 +49,11 @@ If time and access allow, play the official short student video. The visible tea
 
 Students open **ClassLink > Xello > About Me > Matchmaker** and complete the first 39 questions. They review the resulting career matches and open **Find out why** for at least one career.
 
+If Matchmaker opens with a goal question, students answer it as part of the assessment and continue. Do not send them to another Xello task or record a separate goal completion.
+
 **Active Monitoring:** First lap target: every student is in Matchmaker, not another About Me quiz. Second lap target: students are using the full response scale rather than choosing the same answer repeatedly. Final lap target: each finished student has opened one career and Find out why before moving to the reflection.
 
-Do not rush a student through the assessment to reach the reflection. If the quiz or prerequisite is incomplete at minute 40, record the student for supervised catch-up and let the student begin the reflection with a teacher sample result.
+Do not rush a student through the assessment to reach the reflection. If the quiz is incomplete or the account is blocked at minute 40, record the student for supervised catch-up and let the student begin the reflection with a teacher sample result.
 
 ## Activity 3: Private Matchmaker Reflection (7 min)
 
@@ -69,12 +71,12 @@ Score the reasoning, not whether the student likes the suggested career. Sentenc
 
 ## Completion Check and Catch-Up Plan (3 min)
 
-Use the Completion Standards report as the platform record. Students do not submit profile screenshots. Record four statuses separately: complete, prerequisite missing, login/access issue, or absent. Schedule supervised catch-up for the last three.
+Use the Completion Standards report as the platform record. Students do not submit profile screenshots. Record four statuses separately: complete, incomplete, login/access issue, or absent. Schedule supervised catch-up for the last three.
 
 ## Differentiation
 
 - **Support:** Read response-scale labels aloud, reduce visual distractions, provide the sentence frames, and allow speech-to-text or an oral teacher conference for the reflection.
 - **Extension:** Compare one strong match and one weak match. Explain which interest changed the result most and what other evidence the student would want before making a career decision.
 - **ELL:** Use bilingual labels: interest = interés, match = coincidencia, result = resultado, surprised = sorprendido/a, reason = razón. Students may rehearse in their strongest language before submitting in English.
-- **Platform fallback:** A paper interest sort or teacher sample can support the reflection, but it does not count as Matchmaker completion. Complete the required Xello task during supervised catch-up.
-- **Absence route:** Complete Matchmaker and the private reflection in a supervised make-up setting so the teacher can verify the prerequisite and Completion Standards report.
+- **Platform fallback:** A paper interest sort or teacher sample provides the complete reflection route for the day, but it does not count as Matchmaker completion. Complete the required Xello task during supervised catch-up.
+- **Absence route:** Complete Matchmaker and the private reflection in a supervised make-up setting so the teacher can verify the Completion Standards report.

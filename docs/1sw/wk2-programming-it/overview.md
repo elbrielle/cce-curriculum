@@ -4,7 +4,7 @@
 
 ## Lesson Objective
 
-Students explore the Information Technology cluster through Hats & Ladders and the district-customized *Find Your Future* workbook, focus on Programming and Software Development, work the "Powerskill: Resilience" bounce-back activity, compare three programming careers with clearly labeled HQIM and external-source evidence, and test a programming concept through one verified tutorial or the supplied no-login trace in the Canvas Student Guide. Day 5 protects the required Xello Personality Style task and uses its result in a private IT pathway decision.
+Students explore the Information Technology cluster through Hats & Ladders and the district-customized *Find Your Future* workbook, focus on Programming and Software Development, work the "Powerskill: Resilience" bounce-back activity, compare three programming careers with clearly labeled HQIM and external-source evidence, and test a programming concept through one verified tutorial or the supplied no-login trace in the Canvas Student Guide. Day 5 protects the Grade 7 Xello Personality Style task, uses its result in a private IT decision, and saves the three researched careers needed to open next week's Grade 7 Learning styles lesson.
 
 **Learning Target:** I can describe the four IT programs named in the district workbook, compare the pay, preparation, and outlook of three programming careers, plan how a team bounces back after a failed test, explain one programming concept, and use my Xello Personality Style result in a career-fit decision.
 
@@ -12,7 +12,7 @@ Students explore the Information Technology cluster through Hats & Ladders and t
 
 ## Demonstration of Learning
 
-> Students demonstrate learning through one five-page packet built across Days 2, 3, and 5, a programming-concept explanation, Xello Personality Style completion, and a final Career Fit Reflection.
+> Students demonstrate learning through one five-page packet built across Days 2, 3, and 5, a programming-concept explanation, and a final Career Fit Reflection. Xello Personality Style is checked separately, and three saved careers prepare the next Grade 7 lesson without becoming another grade.
 
 ## TEKS Alignment
 
@@ -41,7 +41,7 @@ Students explore the Information Technology cluster through Hats & Ladders and t
 - Established CCE notebook route for Day 2's lightweight four-Hat browse: exact title plus one task or reaction; OneNote, physical, Canvas, or teacher-designated paper remain equivalent
 - One verified no-login Code.org or Hour of Code tutorial for Day 4, if the teacher uses the live route. The Student Guide's delivery-robot trace is the complete no-site route, so this lesson does not require accounts, section codes, teacher-built block cards, or a second day of vendor completion.
 - Headphones on Day 4 only if a class set already exists. Run the tutorial muted rather than making headphones a prerequisite.
-- Xello Personality Style teacher resource and Completion Standards report. Matchmaker is the prerequisite. Confirm the roster before Day 5; never create a second student account by hand
+- Xello Personality Style teacher resource and Completion Standards report. Matchmaker is the dependency. Confirm the roster before Day 5, prepare a sample result for blocked students, and never create a second student account by hand
 - Projector
 
 ## Career Connection
@@ -90,7 +90,7 @@ The rest of the IT chapter belongs to the later weeks in this block. Wk3 runs th
 | 2 | Programming Pathway Deep-Dive | Lightweight four-Hat browse + Day 2 HQIM sections for three selected careers | Pages 1-3 HQIM evidence + hiring decision | Engage · Explore · Explain · Evaluate |
 | 3 | Powerskill Resilience + IT Salary Showdown | "Flip the Failure" chart + four-field BLS cross-check on the same three records | Completed chart + pages 1-4 of the same packet | Engage · Explore · Explain · Evaluate |
 | 4 | Programming Concept Lab | One verified no-login tutorial or the supplied delivery-robot trace | Working or correctly traced example + programming-concept explanation | Engage · Explain · Explore · Evaluate |
-| 5 | Xello Personality Style + IT decision | Required Personality Style quiz + H&L Pathway Possibilities + Minor 2 reflection | Xello completion in teacher report + trait/example + salary comparison and Career Fit Reflection | Engage · Explore · Explain · Evaluate |
+| 5 | Personality Style + IT decision | Grade 7 Personality Style quiz + save three researched careers + Minor 2 reflection | Trait/example + salary comparison and Career Fit Reflection; Xello checked separately | Engage · Explore · Explain · Evaluate |
 
 ## Formative Assessment
 
@@ -98,11 +98,11 @@ The rest of the IT chapter belongs to the later weeks in this block. Wk3 runs th
 - **Day 2:** Lightweight four-Hat notes + Day 2 HQIM sections on pages 1-3 + Mini-Case exit ticket. *d(1)(C), d(2)(A)*
 - **Day 3:** Flip the Failure chart + pages 1-4 of the IT Salary Comparison packet. The separate Comparison Matrix is optional when it adds useful evidence rather than duplicate copying. *d(1)(C), d(5)(A), d(5)(E)*
 - **Day 4:** Working or correctly traced programming example + Short Constructed Response exit ticket (programming concept + career + job task). *d(1)(C)*
-- **Day 5:** Xello Personality Style completion + one trait/example + IT Pathway Decision using the salary comparison. *d(1)(A), d(1)(C), d(5)(A), d(5)(E)*
+- **Day 5:** One Personality Style or sample trait/example + IT Pathway Decision using the salary comparison; when accessible, Xello Personality Style and three saved careers are checked separately. *d(1)(A), d(1)(C), d(5)(A), d(5)(E)*
 
 ## Summative Assessment
 
-**IT Salary Comparison + Career Fit Reflection (Day 5):** Students submit the five-page packet ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison.pdf)): three career evidence records, one comparison page, and one Career Fit Reflection page. Each record keeps the Day 2 HQIM career title, platform/geography/measure/figure/date, task, and common preparation separate from the Day 3 BLS occupation title, national median/year, entry education, and outlook percent/years. Page 5 connects one Xello Personality Style result to the student's current IT decision. Score the packet with the **IT Salary Comparison and Career Fit Reflection Rubric** ([Printable PDF](../../resources/worksheets/wk2-salary-hoc-rubric.pdf)), four criteria at 5 points each, 20 raw points total. Code.org completion is supplemental and is not a rubric criterion. Aligned to d(1)(A), d(1)(C), d(5)(A), d(5)(E).
+**IT Salary Comparison + Career Fit Reflection (Day 5):** Students submit the five-page packet ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison.pdf)): three career evidence records, one comparison page, and one Career Fit Reflection page. Each record keeps the Day 2 HQIM career title, platform/geography/measure/figure/date, task, and common preparation separate from the Day 3 BLS occupation title, national median/year, entry education, and outlook percent/years. Page 5 connects one Personality Style result or teacher-supplied sample result to the student's current IT decision. Score the packet with the **IT Salary Comparison and Career Fit Reflection Rubric** ([Printable PDF](../../resources/worksheets/wk2-salary-hoc-rubric.pdf)), four criteria at 5 points each, 20 raw points total. The three saved careers only unlock the following Grade 7 lesson; Code.org and Xello clicks are not rubric criteria. Aligned to d(1)(A), d(1)(C), d(5)(A), d(5)(E).
 
 This is **Minor 2** in the [1SW assessment map](../../resources/six-weeks-assessment-map.md). Code.org completion is supplemental and does not affect the score. Convert the 20-point rubric total to its published percentage and enter it as a score out of 100 in the Canvas Minor group.
 

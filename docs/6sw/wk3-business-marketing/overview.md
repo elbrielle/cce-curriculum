@@ -24,7 +24,7 @@ I can identify marketing careers, write and revise an ethical audience-specific 
 
 ## Evidence and Platform Boundaries
 
-- Required work is completed in Canvas or on paper. H&L App Exploration, Xello School Subjects at Work, eDynamic Unit 4.1, Google Applied Digital Skills, Canva, and Adobe Express are supplemental.
+- Required work is completed in Canvas or on paper. H&L App Exploration, eDynamic Unit 4.1, Google Applied Digital Skills, Canva, and Adobe Express are supplemental. No Xello lesson is assigned in this week.
 - Students do not create a real account, ad, post, sale, payment, contact form, QR code, testimonial, tracking claim, or collection of personal data.
 - Urgency, incentives, price, popularity, income, and scarcity claims must be truthful and bounded. Expert Edge uses a fictional classroom plan, not a real business launch.
 - Canva, Adobe Express, plain text, and paper are equal. Graphic polish is not scored.

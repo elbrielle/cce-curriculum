@@ -15,7 +15,7 @@
 
 ## Before class
 
-Default digital: one device per student, one projector, and zero prints. Paper: one three-page packet per student and one collection tray. Students work individually; a brief turn-and-talk may test a source label, but each student submits privately. Post the complete fixed packet and test the Xello SSO path. Xello is the default localized source; the packet's fixed May 2024 U.S. BLS card is the no-login route. FYF Rung 3 pp. 285–286 may supply prior student evidence, but no student depends on finding an old workbook page.
+Default digital: one device per student, one projector, and zero prints. Paper: one three-page packet per student and one collection tray. Students work individually; a brief turn-and-talk may test a source label, but each student submits privately. Post the complete fixed packet. The May 2024 U.S. BLS card is the common source. Xello may add a separately labeled local cross-check, but no Xello task is assigned. FYF Rung 3 pp. 285–286 may supply prior student evidence, but no student depends on finding an old workbook page.
 
 ## 50-minute flow
 
@@ -27,7 +27,7 @@ Default digital: one device per student, one projector, and zero prints. Paper: 
 
 ## Monitoring key
 
-A complete salary label sounds like: “Xello displayed a Dallas-area annual median/range for [career] on [date]” or “BLS May 2024 U.S. median.” Do not accept “starting salary” unless the source itself uses that measure. Growing/stable/declining language requires a source and does not guarantee a student's future pay.
+A complete salary label sounds like: “BLS May 2024 U.S. median” or, for an optional local cross-check, “Xello displayed a Dallas-area annual median/range for [career] on [date].” Do not accept “starting salary” unless the source itself uses that measure. Growing/stable/declining language requires a source and does not guarantee a student's future pay.
 
 At minute 12, check every source label. If more than one-quarter of the class is missing two fields, pause and annotate the fixed card. By minute 42, three priorities, one trend fact, and one limit should be visible. Students who are behind use the fixed card and labeled bullets. Cut partner sharing before cutting evidence; save the same artifact for recovery.
 

@@ -23,9 +23,9 @@ I can build a monthly budget for a stated lifestyle, compare the same household-
 
 ## Binding evidence decisions
 
-1. **Xello is the default localized salary source.** Record the exact career, displayed geography, displayed wage measure, and date. Do not relabel a median or range as starting pay.
+1. **The fixed BLS cards are the common salary source.** They keep occupation, U.S. geography, May 2024 median measure, and date consistent across students.
 2. **Hats & Ladders is supplemental.** No budget, grade, or completion proof depends on a Hat profile or favorite.
-3. **The independent fallback is fixed and dated.** Students without usable Xello evidence use the supplied May 2024 U.S. BLS career card and label it national.
+3. **Xello is an optional localized cross-check.** Use it only when the exact career, displayed geography, wage measure, and date remain attached. It does not create a completion task.
 4. **The Dallas County cost baseline is fixed.** MIT's one-adult/no-children scenario, updated February 15, 2026, lists $48,489 required annual income before taxes and $41,399 after taxes. Annual basic expenses are converted to monthly values in the CCE packet.
 5. **The monthly budget uses a fixed fictional income.** Students do not estimate take-home pay from an annual salary. The salary-minus-cost-target comparison on Day 5 stays on a before-tax basis and is labeled as a screening comparison, not an affordability claim.
 6. **No live financial account is created.** Students do not complete FAFSA/TASFA, apply for aid, contact providers, disclose family income, or enter personal financial information.

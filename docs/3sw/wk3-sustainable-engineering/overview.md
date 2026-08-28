@@ -4,7 +4,7 @@
 
 ## Lesson Objective
 
-Students connect current sustainable-engineering careers to water, energy, and agriculture problems. They read the three field reports in *Find Your Future* "Ag-Tech Pest Patrol" (FYF pp. 93-95), turn the reports into design constraints, design and revise a pest-monitoring drone concept, and evaluate how societal trends change careers and work tasks. On Day 5, students complete the required Grade 8 Xello **Set goals** task by saving at least two goals.
+Students connect current sustainable-engineering careers to water, energy, and agriculture problems. They read the three field reports in *Find Your Future* "Ag-Tech Pest Patrol" (FYF pp. 93-95), turn the reports into design constraints, design and revise a pest-monitoring drone concept, and evaluate how societal trends change careers and work tasks. On Day 5, students complete the Grade 7 Xello **Interests** lesson and connect one current interest to a career task.
 
 **Learning Target:** I can use evidence from workers and current sources to design a solution, revise it after feedback, and explain how a societal trend changes careers.
 
@@ -19,23 +19,23 @@ Students submit one evidence packet: the final Pest Patrol drone design, a peer-
 - **d(1)(C):** Identify career opportunities through the career/problem guide and the agricultural-engineering work products used in the design task.
 - **d(1)(D):** Research and evaluate emerging occupations related to career interests through the Day 4 trends evaluation.
 - **d(5)(C):** Analyze how employment trends and societal needs affect career choices through sourced agriculture, energy, and water-workforce evidence.
-- **d(4)(A):** Demonstrate goal-setting strategies through two Xello goals with a timeframe, next task, obstacle, and backup plan.
+- **d(1)(A):** Analyze an interest result by connecting one current interest to a sustainable-engineering career task.
 
-Day 5's Xello Set goals task belongs to the district completion spine. The saved goals and private reflection, not the platform click by itself, provide the d(4)(A) evidence.
+Day 5's Xello Interests lesson belongs to the Grade 7/original course spine. Selecting interests is part of that lesson, not a separate Add interests completion requirement. The private interest-to-career reflection provides the d(1)(A) evidence.
 
 ## Materials Needed
 
 - Chromebooks with district single sign-on
 - *Find Your Future* pp. 93-95, "Ag-Tech Pest Patrol"
-- *Find Your Future* p. 146, "Powerskill: Adaptability," for the Day 5 goal-setting bridge
+- *Find Your Future* p. 146, "Powerskill: Adaptability," for a short Day 5 change-over-time bridge
 - Sustainable Engineering Career and Problem Guide
 - Pest Patrol Field Notes and Constraints
 - Pest Patrol Drone Design Brief
 - Pest Patrol Peer Review and Revision Record
 - Sustainable Engineering Trends Evidence Guide and Trends Evaluation
 - Sustainable Engineering Design and Evidence Rubric
-- Xello Goal Check and Private Reflection
-- Xello educator resource, "Set Goals," stored in the locked Canvas week folder
+- Xello Interests Check and Private Reflection
+- Xello educator resource, "My Interests," stored in the locked Canvas week folder
 - Pencils and colored pencils; Canva or Adobe Express may be used as equal digital design routes
 
 ## Career Connection
@@ -59,11 +59,11 @@ Irving ISD currently lists **Sustainable Engineering at Nimitz High School** and
 | 2 | Read Pest Patrol field reports | FYF pp. 93-94; constraints record | Field notes and three constraints |
 | 3 | Design from evidence | FYF p. 95; paper, Canva, or Adobe route | Labeled drone draft and tradeoff |
 | 4 | Review, revise, and evaluate trends | Peer/self-review; fixed trends evidence; Major submission | Visible revision and trends evaluation |
-| 5 | Adaptability and required Xello goals | FYF p. 146 bridge; Xello Set goals | Two saved goals and private reflection |
+| 5 | Interests and sustainable-engineering work | FYF p. 146 bridge; Xello Interests lesson | Five selected interests and private interest-to-career reflection |
 
 ## Assessment Plan
 
-**Formative:** Day 1 career/problem response, Day 2 constraints, Day 3 draft checks, Day 4 peer feedback, and Day 5 Xello completion report.
+**Formative:** Day 1 career/problem response, Day 2 constraints, Day 3 draft checks, Day 4 peer feedback, and Day 5 interest-to-career reflection.
 
 **Recommended major evidence:** final drone design + revision record + trends evaluation, 16 points. Grade engineering reasoning, communication, revision/tradeoff thinking, and trend/career evidence. Do not grade platform access, drawing skill, premium-template access, or whether a peer gave perfect feedback.
 
@@ -73,8 +73,8 @@ Irving ISD currently lists **Sustainable Engineering at Nimitz High School** and
 - Day 1 includes an unpublished, 0-point private response home for the lead career, matching task, weaker comparison, and current fact. Students submit text/an upload or turn in the completed paper guide, not both.
 - Day 3 includes an unpublished, ungraded Canvas Assignment for the Pest Patrol draft. Digital students may submit a file, image, text, or private media explanation. Paper remains equal.
 - Day 4 may use Canvas peer review only after the teacher manually assigns reviewers. Automatic peer assignment remains off because late or missing submissions can strand students without a review.
-- The mapped Major submission belongs after the Day 4 Student Guide. Day 5 stays focused on the required Xello task.
-- Day 5 uses a private submission for the goal reflection. Students do not post profile screenshots or personal goals to a discussion.
+- The mapped Major submission belongs after the Day 4 Student Guide. Day 5 stays focused on the Grade 7 Xello Interests lesson.
+- Day 5 uses a private submission for the interest reflection. Students do not post profile screenshots or personal interests to a discussion.
 
 ## Print Plan
 
@@ -82,7 +82,7 @@ Irving ISD currently lists **Sustainable Engineering at Nimitz High School** and
 - Day 2 uses one required double-sided field-notes sheet per student.
 - Day 3 uses one double-sided Design Brief per student unless the teacher assigns an equal digital evidence route.
 - Day 4 uses one revision-record page plus one double-sided Trends Evaluation per student. The trends guide and rubric default to digital.
-- Day 5 defaults to digital with zero prints; the one-page Goal Check is printed only for planning support or an outage.
+- Day 5 defaults to digital with zero prints; the one-page Interests Check is printed only for planning support or an outage.
 
 ## Differentiation and Access
 
@@ -90,4 +90,4 @@ Irving ISD currently lists **Sustainable Engineering at Nimitz High School** and
 - Offer a simple drone outline, speech-to-text, and oral teacher conference without lowering the evidence criteria.
 - Labels may be English, Spanish, or bilingual when meaning is clear. Supply bilingual labels and vocabulary support rather than requiring a full translated packet.
 - A student who misses peer review uses the same form for a self-review or teacher conference.
-- Paper goal planning supports access but does not replace required Xello completion. Schedule supervised catch-up.
+- Paper interest planning supports access but does not replace the assigned Xello lesson. Schedule supervised catch-up when the lesson is unavailable.

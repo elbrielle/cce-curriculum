@@ -38,7 +38,7 @@ One design choice, the learning purpose, and the Education worker who would use 
 
 [[pagebreak]]
 
-## Preparation, Posting, and Service Evidence
+## Preparation, Learning Pathway, and Service Evidence
 
 One verified Texas preparation requirement:
 
@@ -48,7 +48,7 @@ One provider-specific fact that still must be checked:
 
 [[lines: 2]]
 
-One posting responsibility, one qualification, and the card's limitation:
+One Xello learning pathway, one benefit, and one question or limitation:
 
 [[lines: 5]]
 
@@ -60,7 +60,7 @@ One service skill and how it transfers to this career:
 
 [[lines: 3]]
 
-**Missing-work evidence strip:** If one earlier artifact is unavailable, cite this strip instead of inventing work. Day 1 evidence connects a learning goal to a design choice and Education role. Day 2 separates a statewide teacher requirement from a provider-specific detail. Day 3 separates a posting responsibility from a qualification and preserves the live-verification limit. Day 4 connects a tested revision or supplied tutoring scenario to a community benefit and transferable skill.
+**Missing-work evidence strip:** If one earlier artifact is unavailable, cite this strip instead of inventing work. Day 1 evidence connects a learning goal to a design choice and Education role. Day 2 separates a statewide teacher requirement from a provider-specific detail. Day 3 compares learning pathways and preserves one question or limitation. Day 4 connects a tested revision or supplied tutoring scenario to a community benefit and transferable skill.
 
 **Language help:** evidence = evidencia | pathway = programa de estudio | limitation = limitación | next action = próximo paso
 
@@ -68,7 +68,7 @@ One service skill and how it transfers to this career:
 
 ## Evidence-Based Conclusion and Revision
 
-Does this direction currently fit you? Preference is not graded. Use one design example, one preparation fact, one posting fact, and one service or transferable-skill fact.
+Does this direction currently fit you? Preference is not graded. Use one design example, one preparation fact, one learning-pathway fact, and one service or transferable-skill fact.
 
 [[lines: 8]]
 
@@ -80,7 +80,7 @@ My next verification or learning action:
 
 [[lines: 3]]
 
-My rubric self-score: Career/source **[score]** /4 | Preparation/posting **[score]** /4 | Design/service **[score]** /4 | Conclusion/action **[score]** /4
+My rubric self-score: Career/source **[score]** /4 | Preparation/pathway **[score]** /4 | Design/service **[score]** /4 | Conclusion/action **[score]** /4
 
 One visible revision after self-scoring:
 

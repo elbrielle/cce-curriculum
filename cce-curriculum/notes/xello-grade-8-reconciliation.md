@@ -1,6 +1,10 @@
 # Xello Grade 8 Reconciliation
 
-**Status:** AUTHENTICATED INVENTORY COMPLETE. Findings use the live Bowie Middle School Completion Standards configuration viewed on 2026-08-06, the current S&S, the current daily plans, and Xello's official educator resources.
+**Status:** SUPERSEDED FOR THIS COURSE on 2026-08-24. This file preserves the historical Grade 8 inventory that caused the drift. It is not authority for the Grade 7 CCE scope. Use `cce-curriculum/notes/xello-grade-7-scope-audit-2026-08-24.md`.
+
+Do not restore this 24-task sequence into the Grade 7 curriculum. Another-grade
+task may appear only as minimum verified prerequisite support for a selected
+Grade 7/original-scope task.
 
 ## The governing decision
 

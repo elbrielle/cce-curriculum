@@ -15,7 +15,7 @@ orientation: landscape
 | Criterion | 4 — Masters | 3 — Meets | 2 — Approaches | 1 — Needs Improvement | 0 — Insufficient Evidence |
 |---|---|---|---|---|---|
 | Career and source accuracy | Career, current local boundary, source/date, and limitation are accurate | Accurate career and source with one minor label gap | Usable evidence but incomplete labels or boundary | Major occupation, pathway, or source confusion | Blank, off-topic, or no supported fact |
-| Preparation and posting reasoning | Verified requirement, provider-variable fact, posting evidence, and limit are clearly separated | Mostly accurate comparison with one minor gap | Partial comparison or unsupported jump | Routes or posting fields are substantially confused | Blank or off-topic |
+| Preparation and pathway reasoning | Verified requirement, provider-variable fact, Xello learning-pathway evidence, and one limit or question are clearly separated | Mostly accurate comparison with one minor gap | Partial comparison or unsupported jump | Preparation routes are substantially confused | Blank or off-topic |
 | Design, revision, and service | Specific design choice, tested revision, service value, and skill transfer use evidence | Clear design/revision/service connection | General connection or one required element missing | Product description with little reasoning | Blank or off-topic |
 | Conclusion and next action | Four evidence types support a coherent conclusion, limitation, and specific next action | Complete conclusion with mostly specific evidence | Understandable but missing a major evidence type | Preference stated with little evidence | No usable evidence |
 

@@ -12,7 +12,7 @@ orientation: landscape
 
 ## Important boundary
 
-This is a draft for a future counseling conversation. Use current Irving ISD course names, grades, and prerequisites. Do not submit course requests until the counselor opens the official window.
+This is a CCE/FYF draft for a future counseling conversation. Use current Irving ISD course names, grades, and prerequisites. Do not submit this worksheet to the district scheduling system.
 
 Current career direction: __________________________  Possible pathway: __________________________
 
