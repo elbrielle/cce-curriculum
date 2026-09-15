@@ -1,0 +1,6 @@
+{
+  "name": "cce-slides",
+  "private": true,
+  "description": "CCE classroom deck builders (pptxgenjs). Run `npm install` here once, then `node 1sw-wk3/day1.js`.",
+  "dependencies": { "pptxgenjs": "^4.0.1" }
+}

@@ -68,8 +68,12 @@ def norm_text(s):
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", s))).strip().lower()
 
 
+SLIDES_PATH = ROOT / "build/slides/slides_registry.json"
+
+
 def build_index():
     wd = json.load(open(WD_PATH))["docs"]
+    slides = json.load(open(SLIDES_PATH))["days"] if SLIDES_PATH.exists() else {}
     reg = json.load(open(REG_PATH))["routes"]
     onenote = json.load(open(ONENOTE_PATH)) if ONENOTE_PATH.exists() else {}
     by_day = {}
@@ -84,6 +88,7 @@ def build_index():
             "exit_doc_title": r["google_doc"].get("live_title") or r["title"],
             "worksheets": [],
             "onenote_url": onenote.get(r["day_key"]),
+            "slides": slides.get(r["day_key"]),
         }
     for w in wd:
         seen = set()
@@ -130,6 +135,13 @@ def panel_html(day, exit_pdf_id):
         f'<a href="https://docs.google.com/document/d/{day["exit_doc_id"]}/copy">Google Doc (make a copy)</a> · '
         f'<a href="https://docs.google.com/document/d/{day["exit_doc_id"]}/edit">teacher master</a>{exit_pdf}</li>'
     )
+    sl = day.get("slides")
+    if sl:
+        parts = []
+        if sl.get("gslides_url"): parts.append(f'<a href="{sl["gslides_url"]}">Google Slides</a>')
+        if sl.get("canvas_file_id"): parts.append(f'<a href="/courses/{COURSE_ID}/files/{sl["canvas_file_id"]}/download?download_frd=1">PowerPoint (.pptx)</a>')
+        if sl.get("pptx_drive_url"): parts.append(f'<a href="{sl["pptx_drive_url"]}">PowerPoint on Drive</a>')
+        rows.append(f"<li><strong>Slides for Day {day['day']}</strong>: " + " · ".join(parts) + " (teacher deck; speaker notes carry the pacing)</li>")
     if day.get("onenote_url"):
         onenote = f'<a href="{day["onenote_url"]}">OneNote page</a> (copy the CCE Work section into your class notebook, then point the student button here)'
     else:
