@@ -9,15 +9,15 @@ language: en
 pages: 5
 orientation: portrait
 ---
-Use this same packet on Days 2, 3, and 5. On Day 2, choose three programming or IT careers available in H&L or Xello and complete only the HQIM section on pages 1-3. On Day 3, add the four BLS fields and complete page 4. Save page 5 for Day 5.
+Use this same packet on Days 2, 3, and 5. On Day 2, choose three programming or IT careers available in H&L or Xello and complete only the app section on pages 1-3. On Day 3, add the four BLS fields and complete page 4. Save page 5 for Day 5.
 
 ## Career 1 Evidence Record
 
-### Day 2 - HQIM career evidence
+### Day 2 - Hats & Ladders or Xello career evidence
 
 **Exact career title:** ______________________________________________
 
-**HQIM localized salary**
+**App salary (Hats & Ladders or Xello, local figure)**
 
 - Platform: H&L / Xello
 - Geography shown: ____________________
@@ -47,11 +47,11 @@ Use this same packet on Days 2, 3, and 5. On Day 2, choose three programming or 
 
 ## Career 2 Evidence Record
 
-### Day 2 - HQIM career evidence
+### Day 2 - Hats & Ladders or Xello career evidence
 
 **Exact career title:** ______________________________________________
 
-**HQIM localized salary**
+**App salary (Hats & Ladders or Xello, local figure)**
 
 - Platform: H&L / Xello
 - Geography shown: ____________________
@@ -79,11 +79,11 @@ Use this same packet on Days 2, 3, and 5. On Day 2, choose three programming or 
 
 ## Career 3 Evidence Record
 
-### Day 2 - HQIM career evidence
+### Day 2 - Hats & Ladders or Xello career evidence
 
 **Exact career title:** ______________________________________________
 
-**HQIM localized salary**
+**App salary (Hats & Ladders or Xello, local figure)**
 
 - Platform: H&L / Xello
 - Geography shown: ____________________
@@ -111,7 +111,7 @@ Use this same packet on Days 2, 3, and 5. On Day 2, choose three programming or 
 
 ## Compare the Three Careers
 
-**1. Which career has the highest HQIM localized salary figure?** Name the figure and its measure.
+**1. Which career has the highest app salary figure?** Name the figure and its measure.
 
 [[lines: 2]]
 

@@ -19,7 +19,7 @@
 
 ## Before class
 
-1. Default to one device per student, one projector, and zero prints. Open the embedded FYF pp. 168-169 images as the district-customized HQIM source for program names and examples.
+1. Default to one device per student, one projector, and zero prints. Open the embedded FYF pp. 168-169 images as the district-customized FYF workbook source for program names and examples.
 2. Post the fixed Irving, TCC, and TWC evidence in the Student Guide and the unpublished practice Quiz. Current live pages are teacher-verification sources, not student navigation requirements.
 3. For the paper route, print one two-page Route Decision per student and collect it in one labeled tray. The packet replaces the Quiz.
 4. Project the supplied Dani model and non-example. Do not require private-school marketing research or public pathway disclosure.
@@ -81,7 +81,7 @@ Step 3: What exact question should Dani ask, and which authorized source or pers
 
 ## Monitoring and supports
 
-- **CFU at minute 10:** students sort one HQIM program name, one current-campus fact, and one unresolved logistics question. Reteach if fewer than four of five sampled responses keep them separate.
+- **CFU at minute 10:** students sort one FYF workbook program name, one current-campus fact, and one unresolved logistics question. Reteach if fewer than four of five sampled responses keep them separate.
 - **Lap 1, minutes 17-24:** check that missing schedule, transportation, eligibility, and credit details read **not confirmed**, not guessed.
 - **Lap 2, minutes 30-37:** look for two facts tied to Dani's low-cost, hands-on, and possible-credit priorities. Prompt, “Which priority does this fact answer?”
 - **Pivot:** if one-third guarantee admission or credit, pause and have students underline exact source language before revising.

@@ -13,7 +13,7 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **HQIM** | FYF pp. 36-38 and the Information Technology App Exploration |
+| **FYF workbook** | FYF pp. 36-38 and the Information Technology App Exploration |
 | **Required platform task** | None; H&L and live web exploration are optional |
 | **Response Home** | The teacher-assigned Day 1 Cybersecurity Career Route Guide, on paper or in the class digital response home |
 

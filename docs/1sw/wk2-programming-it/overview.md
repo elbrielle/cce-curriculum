@@ -4,11 +4,11 @@
 
 ## Lesson Objective
 
-Students explore the Information Technology cluster through Hats & Ladders and the district-customized *Find Your Future* workbook, focus on Programming and Software Development, work the "Powerskill: Resilience" bounce-back activity, compare three programming careers with clearly labeled HQIM and external-source evidence, and test a programming concept through one verified tutorial or the supplied no-login trace in the Canvas Student Guide. Day 5 protects the Grade 7 Xello Personality Style task, uses its result in a private IT decision, and saves the three researched careers needed to open next week's Grade 7 Learning styles lesson.
+Students explore the Information Technology cluster through Hats & Ladders and the district-customized *Find Your Future* workbook, focus on Programming and Software Development, work the "Powerskill: Resilience" bounce-back activity, compare three programming careers with clearly labeled app-source and external-source evidence, and test a programming concept through one verified tutorial or the supplied no-login trace in the Canvas Student Guide. Day 5 protects the Grade 7 Xello Personality Style task, uses its result in a private IT decision, and saves the three researched careers needed to open next week's Grade 7 Learning styles lesson.
 
 **Learning Target:** I can describe the four IT programs named in the district workbook, compare the pay, preparation, and outlook of three programming careers, plan how a team bounces back after a failed test, explain one programming concept, and use my Xello Personality Style result in a career-fit decision.
 
-**Success Criteria:** I will know I am successful when my three-career packet keeps the Day 2 HQIM evidence and Day 3 BLS evidence in their labeled sections, my Flip the Failure chart gives a specific next move for all four problems, I can explain one programming concept, and my final reflection connects a Personality Style trait to an IT fit decision.
+**Success Criteria:** I will know I am successful when my three-career packet keeps the Day 2 app evidence and Day 3 BLS evidence in their labeled sections, my Flip the Failure chart gives a specific next move for all four problems, I can explain one programming concept, and my final reflection connects a Personality Style trait to an IT fit decision.
 
 ## Demonstration of Learning
 
@@ -18,7 +18,7 @@ Students explore the Information Technology cluster through Hats & Ladders and t
 
 - **d(1)(B):** Explore and describe the CTE career clusters (Day 1).
 - **d(1)(C):** Identify various career opportunities within one or more career clusters (Days 1-5).
-- **d(2)(A):** Research applicable academic, technical, certification, and training requirements (Day 2 HQIM sections on pages 1-3).
+- **d(2)(A):** Research applicable academic, technical, certification, and training requirements (Day 2 app-evidence sections on pages 1-3).
 - **d(5)(A):** Analyze labor market trends related to a career of interest (Day 3 BLS job growth).
 - **d(5)(E):** Use resources to compare salaries of at least three careers in the student's interest area (Day 3).
 - **d(1)(A):** Analyze and discuss the initial results of a career assessment (Day 5 Personality Style result and evidence-based reflection).
@@ -32,7 +32,7 @@ Students explore the Information Technology cluster through Hats & Ladders and t
 - BLS, Software Developers: [bls.gov/ooh/computer-and-information-technology/software-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm)
 - BLS, Web Developers: [bls.gov/ooh/computer-and-information-technology/web-developers.htm](https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm)
 - BLS, Computer/IT Cluster: [bls.gov/ooh/computer-and-information-technology/home.htm](https://www.bls.gov/ooh/computer-and-information-technology/home.htm)
-- Printed five-page IT Salary Comparison packet on Day 2, 1 per student, or 3 sheets per student when duplexed ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison.pdf)). Students complete its Day 2 HQIM sections on pages 1-3, add four BLS fields and page 4 on Day 3, then finish page 5 on Day 5. The evidence-label model ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison-model.pdf)), BLS guide ([Printable PDF](../../resources/worksheets/wk2-bls-data-guide.pdf)), and bilingual headers ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison-bilingual.pdf)) are point-of-use supports, not additional whole-class packets.
+- Printed five-page IT Salary Comparison packet on Day 2, 1 per student, or 3 sheets per student when duplexed ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison.pdf)). Students complete its Day 2 Hats & Ladders or Xello sections on pages 1-3, add four BLS fields and page 4 on Day 3, then finish page 5 on Day 5. The evidence-label model ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison-model.pdf)), BLS guide ([Printable PDF](../../resources/worksheets/wk2-bls-data-guide.pdf)), and bilingual headers ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison-bilingual.pdf)) are point-of-use supports, not additional whole-class packets.
 - Web Developer worked example ([Printable PDF](../../resources/worksheets/wk2-career-research-web-developer.pdf)) only when a student needs help distinguishing a task from a preparation detail. Do not assign the separate six-field research sheet.
 - Daily exit tickets, 1 per student plus 2 spares, when the teacher uses the paper route. On Day 3, page 4 of the salary packet is the default DOL; do not require the separate matrix when it would make students copy the same data twice.
 - Day 1 and Day 3 optional support prints: Irving ISD IT programs of study and Stop and Jot ([Printable PDF](../../resources/worksheets/wk2-it-programs-scaffold.pdf)) and Flip the Failure chart with row 1 filled in ([Printable PDF](../../resources/worksheets/wk2-flip-the-failure-scaffold.pdf)). Flip the Failure stays in the FYF workbook for the class; the separate chart is not a whole-class print.
@@ -48,7 +48,7 @@ Students explore the Information Technology cluster through Hats & Ladders and t
 
 Information Technology includes software development, networking, cybersecurity, and other work that keeps digital systems running. In DFW, employers include AT&T, Texas Instruments, Toyota, State Farm, technology startups, banks, and insurance companies. The financial sector is the area's largest IT employer.
 
-**What is Happening at Irving ISD?** The district-customized workbook pages list four IT programs of study, **Computer Science**, **Programming & Software Development**, **Technology Support**, and **Cybersecurity**; Certified Entry Level Python Programmer and Cybersecurity Fundamentals as related industry-based certifications; TSA and CyberPatriot; and an Artificial Intelligence program at the new CTE Center (FYF pp. 36-37). Teach those details as attributed HQIM content. If a current public district page uses a different label, place that difference in a dated teacher verification note rather than giving students two competing versions. Do not promise that a listed certification by itself guarantees an internship or entry-level job.
+**What is Happening at Irving ISD?** The district-customized workbook pages list four IT programs of study, **Computer Science**, **Programming & Software Development**, **Technology Support**, and **Cybersecurity**; Certified Entry Level Python Programmer and Cybersecurity Fundamentals as related industry-based certifications; TSA and CyberPatriot; and an Artificial Intelligence program at the new CTE Center (FYF pp. 36-37). Teach those details as attributed FYF workbook content. If a current public district page uses a different label, place that difference in a dated teacher verification note rather than giving students two competing versions. Do not promise that a listed certification by itself guarantees an internship or entry-level job.
 
 ## Vocabulary
 
@@ -87,7 +87,7 @@ The rest of the IT chapter belongs to the later weeks in this block. Wk3 runs th
 | Day | Focus | Key Activities | Deliverable | 5E |
 |-----|-------|---------------|-------------|-----|
 | 1 | IT Cluster Tour + Programs of Study | Chapter opener read-along + Be the Decision Maker pair talk + IT cluster app exploration | Stop and Jot notes (2 careers, 2 questions) | Engage · Explain · Explore · Evaluate |
-| 2 | Programming Pathway Deep-Dive | Lightweight four-Hat browse + Day 2 HQIM sections for three selected careers | Pages 1-3 HQIM evidence + hiring decision | Engage · Explore · Explain · Evaluate |
+| 2 | Programming Pathway Deep-Dive | Lightweight four-Hat browse + Day 2 app-evidence sections for three selected careers | Pages 1-3 app evidence + hiring decision | Engage · Explore · Explain · Evaluate |
 | 3 | Powerskill Resilience + IT Salary Showdown | "Flip the Failure" chart + four-field BLS cross-check on the same three records | Completed chart + pages 1-4 of the same packet | Engage · Explore · Explain · Evaluate |
 | 4 | Programming Concept Lab | One verified no-login tutorial or the supplied delivery-robot trace | Working or correctly traced example + programming-concept explanation | Engage · Explain · Explore · Evaluate |
 | 5 | Personality Style + IT decision | Grade 7 Personality Style quiz + save three researched careers + Minor 2 reflection | Trait/example + salary comparison and Career Fit Reflection; Xello checked separately | Engage · Explore · Explain · Evaluate |
@@ -95,14 +95,14 @@ The rest of the IT chapter belongs to the later weeks in this block. Wk3 runs th
 ## Formative Assessment
 
 - **Day 1:** Stop and Jot notes + Venn Diagram exit ticket (Programming & Software Development vs. Cybersecurity). *d(1)(B), d(1)(C)*
-- **Day 2:** Lightweight four-Hat notes + Day 2 HQIM sections on pages 1-3 + Mini-Case exit ticket. *d(1)(C), d(2)(A)*
+- **Day 2:** Lightweight four-Hat notes + Day 2 app-evidence sections on pages 1-3 + Mini-Case exit ticket. *d(1)(C), d(2)(A)*
 - **Day 3:** Flip the Failure chart + pages 1-4 of the IT Salary Comparison packet. The separate Comparison Matrix is optional when it adds useful evidence rather than duplicate copying. *d(1)(C), d(5)(A), d(5)(E)*
 - **Day 4:** Working or correctly traced programming example + Short Constructed Response exit ticket (programming concept + career + job task). *d(1)(C)*
 - **Day 5:** One Personality Style or sample trait/example + IT Pathway Decision using the salary comparison; when accessible, Xello Personality Style and three saved careers are checked separately. *d(1)(A), d(1)(C), d(5)(A), d(5)(E)*
 
 ## Summative Assessment
 
-**IT Salary Comparison + Career Fit Reflection (Day 5):** Students submit the five-page packet ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison.pdf)): three career evidence records, one comparison page, and one Career Fit Reflection page. Each record keeps the Day 2 HQIM career title, platform/geography/measure/figure/date, task, and common preparation separate from the Day 3 BLS occupation title, national median/year, entry education, and outlook percent/years. Page 5 connects one Personality Style result or teacher-supplied sample result to the student's current IT decision. Score the packet with the **IT Salary Comparison and Career Fit Reflection Rubric** ([Printable PDF](../../resources/worksheets/wk2-salary-hoc-rubric.pdf)), four criteria at 5 points each, 20 raw points total. The three saved careers only unlock the following Grade 7 lesson; Code.org and Xello clicks are not rubric criteria. Aligned to d(1)(A), d(1)(C), d(5)(A), d(5)(E).
+**IT Salary Comparison + Career Fit Reflection (Day 5):** Students submit the five-page packet ([Printable PDF](../../resources/worksheets/wk2-it-salary-comparison.pdf)): three career evidence records, one comparison page, and one Career Fit Reflection page. Each record keeps the Day 2 app career title, platform/geography/measure/figure/date, task, and common preparation separate from the Day 3 BLS occupation title, national median/year, entry education, and outlook percent/years. Page 5 connects one Personality Style result or teacher-supplied sample result to the student's current IT decision. Score the packet with the **IT Salary Comparison and Career Fit Reflection Rubric** ([Printable PDF](../../resources/worksheets/wk2-salary-hoc-rubric.pdf)), four criteria at 5 points each, 20 raw points total. The three saved careers only unlock the following Grade 7 lesson; Code.org and Xello clicks are not rubric criteria. Aligned to d(1)(A), d(1)(C), d(5)(A), d(5)(E).
 
 This is **Minor 2** in the [1SW assessment map](../../resources/six-weeks-assessment-map.md). Code.org completion is supplemental and does not affect the score. Convert the 20-point rubric total to its published percentage and enter it as a score out of 100 in the Canvas Minor group.
 

@@ -11,16 +11,16 @@ orientation: portrait
 ---
 BLS is the Bureau of Labor Statistics. It is the government office that reports national job, preparation, pay, and outlook information. This guide gives you the four fields used in this lesson and a fixed-data route if the live BLS page does not load.
 
-## Match the HQIM title to the BLS occupation
+## Match the app career title to the BLS occupation
 
-| HQIM career title | Closest BLS occupation for this lesson |
+| App career title (Hats & Ladders or Xello) | Closest BLS occupation for this lesson |
 |---|---|
 | Software Developer | Software Developers |
 | App Developer (Mobile) | Software Developers |
 | Game Developer | Software Developers |
 | Web Developer | Web Developers and Digital Designers |
 
-App and game development are specializations. BLS reports them inside a broader occupation instead of giving each one a separate Quick Facts page. Keep the HQIM title in the HQIM section and write the broader BLS title in the BLS section.
+App and game development are specializations. BLS reports them inside a broader occupation instead of giving each one a separate Quick Facts page. Keep the app career title in the app section and write the broader BLS title in the BLS section.
 
 ## If the live BLS page opens
 
@@ -50,4 +50,4 @@ Use this fixed card. It uses May 2024 national median pay and 2024-2034 national
 
 - **Per year, not per hour.** The pay row shows both. Copy the year amount. The hourly amount is a much smaller number.
 - **Median is not starting pay.** Median means the middle of everyone in that career. A brand new worker usually earns less than the median.
-- **One BLS occupation can match more than one HQIM title.** That is expected. Do not invent a different BLS number for App Developer or Game Developer.
+- **One BLS occupation can match more than one app career title.** That is expected. Do not invent a different BLS number for App Developer or Game Developer.

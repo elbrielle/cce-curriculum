@@ -1,0 +1,3725 @@
+{
+ "artifact": "CCE student worksheet Google Docs (one Doc per response-route worksheet)",
+ "generated": "2026-09-14",
+ "docs": [
+  {
+   "slug": "cce-first-week-goal-setting",
+   "week": "1SW-Wk0",
+   "folder_id": "117satomVUMXl-7fOFlYzTChD3__Fy0Mh",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk0 Classroom Routines and Career Self-Discovery/Google Masters",
+   "canvas_file_id": 14615030,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk0-Day1",
+     "anchor_text": "Open the CCE First Week Goal-Setting Sheet",
+     "student_page": "student-1sw-wk0-day-1-cce-notebook-and-first-week-goal",
+     "current_href": "https://docs.google.com/document/d/1rb8sHX56FYPeddRX-QX0_YG-bD7FrZZpQnh06q0r9w8/copy"
+    }
+   ],
+   "status": "existing_correct",
+   "doc_id": "1rb8sHX56FYPeddRX-QX0_YG-bD7FrZZpQnh06q0r9w8",
+   "title": "CCE First Week Goal-Setting Sheet",
+   "gdoc_title": "CCE First-Week Goal Setting",
+   "note": "Existing per-day Doc already is this worksheet; source is a .docx, not markdown.",
+   "copy_url": "https://docs.google.com/document/d/1rb8sHX56FYPeddRX-QX0_YG-bD7FrZZpQnh06q0r9w8/copy",
+   "edit_url": "https://docs.google.com/document/d/1rb8sHX56FYPeddRX-QX0_YG-bD7FrZZpQnh06q0r9w8/edit",
+   "week_label": "1SW Wk0"
+  },
+  {
+   "slug": "my-career-journey",
+   "week": "1SW-Wk0",
+   "folder_id": "117satomVUMXl-7fOFlYzTChD3__Fy0Mh",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk0 Classroom Routines and Career Self-Discovery/Google Masters",
+   "canvas_file_id": 14615031,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk0-Day4",
+     "anchor_text": "Open My Career Journey",
+     "student_page": "student-1sw-wk0-day-4-my-career-journey",
+     "current_href": "https://docs.google.com/document/d/1zE7zuPdx5arGs0IoTFhXjRxVvz4JZ-TVdG7NO1nNsjU/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1glxwsWWh58UeP-3jkTMNJZj4u8s2YGN7ah6v6pNqlms",
+   "title": "My Career Journey",
+   "week_label": "1SW Wk0",
+   "gdoc_title": "CCE | 1SW Wk0 | My Career Journey",
+   "copy_url": "https://docs.google.com/document/d/1glxwsWWh58UeP-3jkTMNJZj4u8s2YGN7ah6v6pNqlms/copy",
+   "edit_url": "https://docs.google.com/document/d/1glxwsWWh58UeP-3jkTMNJZj4u8s2YGN7ah6v6pNqlms/edit"
+  },
+  {
+   "slug": "manufacturing-pathways-scaffold",
+   "week": "1SW-Wk1",
+   "folder_id": "1rzbkQgCRD9YJyg7lhLSAdlyE6kkIGlnv",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk1 Robotics and Manufacturing/Google Masters",
+   "canvas_file_id": 14518990,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk1-Day1",
+     "anchor_text": "Manufacturing pathways scaffold",
+     "student_page": "student-1sw-wk1-day-1-manufacturing-cluster-tour",
+     "current_href": "https://docs.google.com/document/d/1yGaTHI61PKqnw80nr0ndAJH0C2XaoBCVUY58QiyObXk/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "15PuA7tStPDRu0QkIdm0kCIZKeI8i_hSwWld3reLHs7w",
+   "title": "Manufacturing Pathways and Stop and Jot",
+   "week_label": "1SW Wk1",
+   "gdoc_title": "CCE | 1SW Wk1 | Manufacturing Pathways and Stop and Jot",
+   "copy_url": "https://docs.google.com/document/d/15PuA7tStPDRu0QkIdm0kCIZKeI8i_hSwWld3reLHs7w/copy",
+   "edit_url": "https://docs.google.com/document/d/15PuA7tStPDRu0QkIdm0kCIZKeI8i_hSwWld3reLHs7w/edit"
+  },
+  {
+   "slug": "1sw-wk1-robots-for-crayons-action-plan",
+   "week": "1SW-Wk1",
+   "folder_id": "1rzbkQgCRD9YJyg7lhLSAdlyE6kkIGlnv",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk1 Robotics and Manufacturing/Google Masters",
+   "canvas_file_id": 14564524,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk1-Day4",
+     "anchor_text": "Open the Robots for Crayons action plan",
+     "student_page": "student-1sw-wk1-day-4-robots-for-crayons-action-plan",
+     "current_href": "https://docs.google.com/document/d/1cVB33qTPmpVO8fReqlPuUrHC8zw7UtRFpgrDAGMf02o/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1aWZMGLmR-LujWdNiPdDRDO0cWcPVC-87HiRwviYGXmo",
+   "title": "Robots for Crayons Evidence and Action Plan",
+   "week_label": "1SW Wk1",
+   "gdoc_title": "CCE | 1SW Wk1 | Robots for Crayons Evidence and Action Plan",
+   "copy_url": "https://docs.google.com/document/d/1aWZMGLmR-LujWdNiPdDRDO0cWcPVC-87HiRwviYGXmo/copy",
+   "edit_url": "https://docs.google.com/document/d/1aWZMGLmR-LujWdNiPdDRDO0cWcPVC-87HiRwviYGXmo/edit"
+  },
+  {
+   "slug": "wk2-it-programs-scaffold",
+   "week": "1SW-Wk2",
+   "folder_id": "1BlhhcSuQkIYR38q9mhp6haNYZlBqypf3",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk2 Programming IT/Google Masters",
+   "canvas_file_id": 14519022,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk2-Day1",
+     "anchor_text": "Open the Day 1 support sheet",
+     "student_page": "student-1sw-wk2-day-1-map-the-it-cluster",
+     "current_href": "https://docs.google.com/document/d/1hoghFvnhWMpQ6wMHF_LKQQNf3zDoIpoFXzmRV7PGlJ4/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1w2CiSbnteycvlHQUTIDqwja6sPO8yUWvS0tPxvBOUbU",
+   "title": "Irving ISD IT Programs of Study and Stop and Jot",
+   "week_label": "1SW Wk2",
+   "gdoc_title": "CCE | 1SW Wk2 | Irving ISD IT Programs of Study and Stop and Jot",
+   "copy_url": "https://docs.google.com/document/d/1w2CiSbnteycvlHQUTIDqwja6sPO8yUWvS0tPxvBOUbU/copy",
+   "edit_url": "https://docs.google.com/document/d/1w2CiSbnteycvlHQUTIDqwja6sPO8yUWvS0tPxvBOUbU/edit"
+  },
+  {
+   "slug": "wk2-it-salary-comparison",
+   "week": "1SW-Wk2",
+   "folder_id": "1BlhhcSuQkIYR38q9mhp6haNYZlBqypf3",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk2 Programming IT/Google Masters",
+   "canvas_file_id": 14580354,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk2-Day2",
+     "anchor_text": "Open the five-page salary packet",
+     "student_page": "student-1sw-wk2-day-2-compare-programming-careers",
+     "current_href": "https://docs.google.com/document/d/15MLWoa58s8FZtLZQdWnwS2Mzj58HQCKY1Ric2hWDc2o/copy"
+    },
+    {
+     "day_key": "1SW-Wk2-Day3",
+     "anchor_text": "Open your five-page salary packet",
+     "student_page": "student-1sw-wk2-day-3-resilience-and-salary-showdown",
+     "current_href": "https://docs.google.com/document/d/1jua53MPweEUjs4uBfVEoS71fyhtK3swtvcJNxj90k-8/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "17cWmFX9plLo6lFtDJljLhyDxTQafhrk6CiXbQ9OBtog",
+   "title": "IT Salary Comparison Worksheet",
+   "week_label": "1SW Wk2",
+   "gdoc_title": "CCE | 1SW Wk2 | IT Salary Comparison Worksheet (Days 2, 3, 5)",
+   "copy_url": "https://docs.google.com/document/d/17cWmFX9plLo6lFtDJljLhyDxTQafhrk6CiXbQ9OBtog/copy",
+   "edit_url": "https://docs.google.com/document/d/17cWmFX9plLo6lFtDJljLhyDxTQafhrk6CiXbQ9OBtog/edit"
+  },
+  {
+   "slug": "wk2-flip-the-failure-scaffold",
+   "week": "1SW-Wk2",
+   "folder_id": "1BlhhcSuQkIYR38q9mhp6haNYZlBqypf3",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk2 Programming IT/Google Masters",
+   "canvas_file_id": 14519030,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk2-Day3",
+     "anchor_text": "Open the Flip the Failure scaffold",
+     "student_page": "student-1sw-wk2-day-3-resilience-and-salary-showdown",
+     "current_href": "https://docs.google.com/document/d/1jua53MPweEUjs4uBfVEoS71fyhtK3swtvcJNxj90k-8/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1U276oySluP4GqNCNL0jlbY5MbMF97GwZA3v8cnYbsqA",
+   "title": "Flip the Failure Chart",
+   "week_label": "1SW Wk2",
+   "gdoc_title": "CCE | 1SW Wk2 | Flip the Failure Chart",
+   "copy_url": "https://docs.google.com/document/d/1U276oySluP4GqNCNL0jlbY5MbMF97GwZA3v8cnYbsqA/copy",
+   "edit_url": "https://docs.google.com/document/d/1U276oySluP4GqNCNL0jlbY5MbMF97GwZA3v8cnYbsqA/edit"
+  },
+  {
+   "slug": "wk3-transferable-skills-list",
+   "week": "1SW-Wk3",
+   "folder_id": "1fp1hKYqArYtxPPbzEjbqvKY4xaY7_ds0",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk3 Computer Science IT/Google Masters",
+   "canvas_file_id": 14519351,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk3-Day1",
+     "anchor_text": "Open the transferable skills list",
+     "student_page": "student-1sw-wk3-day-1-compare-networking-careers",
+     "current_href": "https://docs.google.com/document/d/1Z1ZaOjeILLlQAwWo9IvmSfQ1Osd0bDKu1vGEDGJgea4/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1NTXGSj5ozCHspDkB4RsrKKk0sHRK9xGdSVXR2DaerxI",
+   "title": "Ten Transferable Skills",
+   "week_label": "1SW Wk3",
+   "gdoc_title": "CCE | 1SW Wk3 | Ten Transferable Skills",
+   "copy_url": "https://docs.google.com/document/d/1NTXGSj5ozCHspDkB4RsrKKk0sHRK9xGdSVXR2DaerxI/copy",
+   "edit_url": "https://docs.google.com/document/d/1NTXGSj5ozCHspDkB4RsrKKk0sHRK9xGdSVXR2DaerxI/edit"
+  },
+  {
+   "slug": "wk3-ux-audit-scaffold",
+   "week": "1SW-Wk3",
+   "folder_id": "1fp1hKYqArYtxPPbzEjbqvKY4xaY7_ds0",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk3 Computer Science IT/Google Masters",
+   "canvas_file_id": 14519352,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk3-Day2",
+     "anchor_text": "Open the optional UX audit scaffold",
+     "student_page": "student-1sw-wk3-day-2-audit-a-website",
+     "current_href": "https://docs.google.com/document/d/1sCGuPdiUPwvoM0O9m65YyqmzJ_840OAaYXT_CSTtdaM/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "14Vn7vC0NJMy_unJsqS1ioPBXRWD0jPCI8v_Z1l2eKkU",
+   "title": "Website Audit Scaffold (Support Version)",
+   "week_label": "1SW Wk3",
+   "gdoc_title": "CCE | 1SW Wk3 | Website Audit Scaffold (Support Version)",
+   "copy_url": "https://docs.google.com/document/d/14Vn7vC0NJMy_unJsqS1ioPBXRWD0jPCI8v_Z1l2eKkU/copy",
+   "edit_url": "https://docs.google.com/document/d/14Vn7vC0NJMy_unJsqS1ioPBXRWD0jPCI8v_Z1l2eKkU/edit"
+  },
+  {
+   "slug": "wk3-wireframe-template",
+   "week": "1SW-Wk3",
+   "folder_id": "1fp1hKYqArYtxPPbzEjbqvKY4xaY7_ds0",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk3 Computer Science IT/Google Masters",
+   "canvas_file_id": 14519353,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk3-Day3",
+     "anchor_text": "Open the wireframe template",
+     "student_page": "student-1sw-wk3-day-3-build-four-app-screens",
+     "current_href": "https://docs.google.com/document/d/1SyQB5eeYORonPaLr8_U3LKUp7bC2BnECxTpsRST7OuU/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1Fe5GFJUaVwZC6a_j4GSTpBnuu4sAT9dvPm8UyQhv8BQ",
+   "title": "Wireframe Template and Symbol Key",
+   "week_label": "1SW Wk3",
+   "gdoc_title": "CCE | 1SW Wk3 | Wireframe Template and Symbol Key",
+   "copy_url": "https://docs.google.com/document/d/1Fe5GFJUaVwZC6a_j4GSTpBnuu4sAT9dvPm8UyQhv8BQ/copy",
+   "edit_url": "https://docs.google.com/document/d/1Fe5GFJUaVwZC6a_j4GSTpBnuu4sAT9dvPm8UyQhv8BQ/edit"
+  },
+  {
+   "slug": "wk3-emerging-tech-research-template",
+   "week": "1SW-Wk3",
+   "folder_id": "1fp1hKYqArYtxPPbzEjbqvKY4xaY7_ds0",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk3 Computer Science IT/Google Masters",
+   "canvas_file_id": 14580295,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk3-Day4",
+     "anchor_text": "Open the Emerging Tech Research Template",
+     "student_page": "student-1sw-wk3-day-4-research-an-emerging-it-career",
+     "current_href": "https://docs.google.com/document/d/1sKheqR2Fpbh2qA0EY0tDkhRh_X6eRuRgarR9dUQUJ1I/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1fp9sNk_9JThol38p9w26XcVwLyRi-Cxi9qiTA7nvjwQ",
+   "title": "Emerging Tech Research Template",
+   "week_label": "1SW Wk3",
+   "gdoc_title": "CCE | 1SW Wk3 | Emerging Tech Research Template",
+   "copy_url": "https://docs.google.com/document/d/1fp9sNk_9JThol38p9w26XcVwLyRi-Cxi9qiTA7nvjwQ/copy",
+   "edit_url": "https://docs.google.com/document/d/1fp9sNk_9JThol38p9w26XcVwLyRi-Cxi9qiTA7nvjwQ/edit"
+  },
+  {
+   "slug": "wk3-day4-career-comparison",
+   "week": "1SW-Wk3",
+   "folder_id": "1fp1hKYqArYtxPPbzEjbqvKY4xaY7_ds0",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk3 Computer Science IT/Google Masters",
+   "canvas_file_id": 14519358,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk3-Day4",
+     "anchor_text": "Open the Emerging/Established IT Career Comparison",
+     "student_page": "student-1sw-wk3-day-4-research-an-emerging-it-career",
+     "current_href": "https://docs.google.com/document/d/1sKheqR2Fpbh2qA0EY0tDkhRh_X6eRuRgarR9dUQUJ1I/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1cE_b8vTjUWUqZ-HLSx5fV-Mz3vGZwIR7Kwi765GTHAg",
+   "title": "Emerging and Established IT Career Comparison",
+   "week_label": "1SW Wk3",
+   "gdoc_title": "CCE | 1SW Wk3 | Emerging and Established IT Career Comparison",
+   "copy_url": "https://docs.google.com/document/d/1cE_b8vTjUWUqZ-HLSx5fV-Mz3vGZwIR7Kwi765GTHAg/copy",
+   "edit_url": "https://docs.google.com/document/d/1cE_b8vTjUWUqZ-HLSx5fV-Mz3vGZwIR7Kwi765GTHAg/edit"
+  },
+  {
+   "slug": "wk3-day5-learning-style-connection",
+   "week": "1SW-Wk3",
+   "folder_id": "1fp1hKYqArYtxPPbzEjbqvKY4xaY7_ds0",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk3 Computer Science IT/Google Masters",
+   "canvas_file_id": 14662874,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk3-Day5",
+     "anchor_text": "Open the Method-to-Task Connection",
+     "student_page": "student-1sw-wk3-day-5-learning-style-quiz-and-lesson",
+     "current_href": "https://docs.google.com/document/d/1CwP4DQm1ZtIE4r_TtmaJ9sb3rOHMIhjketbj1HZPyN0/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1Sq-5Z3rtrWFZ2TUokdILuyhUHsBBJnA0Hgyyk9nP1AE",
+   "title": "Learning Styles: Method to Task Connection",
+   "week_label": "1SW Wk3",
+   "gdoc_title": "CCE | 1SW Wk3 | Learning Styles: Method to Task Connection",
+   "copy_url": "https://docs.google.com/document/d/1Sq-5Z3rtrWFZ2TUokdILuyhUHsBBJnA0Hgyyk9nP1AE/copy",
+   "edit_url": "https://docs.google.com/document/d/1Sq-5Z3rtrWFZ2TUokdILuyhUHsBBJnA0Hgyyk9nP1AE/edit"
+  },
+  {
+   "slug": "wk4-day1-career-interest-check",
+   "week": "1SW-Wk4",
+   "folder_id": "1KR0k9ce3tOE9rZ28H7bL_f3m_WcQw7Pv",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk4 Tech Support IT/Google Masters",
+   "canvas_file_id": 14662886,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk4-Day1",
+     "anchor_text": "Open the Day 1 check",
+     "student_page": "student-1sw-wk4-day-1-it-support-careers-and-interests",
+     "current_href": "https://docs.google.com/document/d/1kgqmYYU7_c9uVBvUiVdgaC7TutKs5Pq7VInyeSs75HY/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1JUwB_fm6ilE3_zVrQGESyRlpMUzaPG16cr979NbrbpE",
+   "title": "IT Support Career and Interest Check",
+   "week_label": "1SW Wk4",
+   "gdoc_title": "CCE | 1SW Wk4 | IT Support Career and Interest Check",
+   "copy_url": "https://docs.google.com/document/d/1JUwB_fm6ilE3_zVrQGESyRlpMUzaPG16cr979NbrbpE/copy",
+   "edit_url": "https://docs.google.com/document/d/1JUwB_fm6ilE3_zVrQGESyRlpMUzaPG16cr979NbrbpE/edit"
+  },
+  {
+   "slug": "wk4-education-pathway-comparison",
+   "week": "1SW-Wk4",
+   "folder_id": "1KR0k9ce3tOE9rZ28H7bL_f3m_WcQw7Pv",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk4 Tech Support IT/Google Masters",
+   "canvas_file_id": 14519375,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk4-Day2",
+     "anchor_text": "Open the Education Pathway Comparison",
+     "student_page": "student-1sw-wk4-day-2-compare-education-routes",
+     "current_href": "https://docs.google.com/document/d/1diF5-6KXuEO3fYTvdoE4uN-Typ2CgKJhq0o1-QCMGcM/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1zpJHPG_6BvpDTBf81bnleCWKxIj2bpBpRIOpCdq4vAo",
+   "title": "Education Pathway Comparison",
+   "week_label": "1SW Wk4",
+   "gdoc_title": "CCE | 1SW Wk4 | Education Pathway Comparison",
+   "copy_url": "https://docs.google.com/document/d/1zpJHPG_6BvpDTBf81bnleCWKxIj2bpBpRIOpCdq4vAo/copy",
+   "edit_url": "https://docs.google.com/document/d/1zpJHPG_6BvpDTBf81bnleCWKxIj2bpBpRIOpCdq4vAo/edit"
+  },
+  {
+   "slug": "wk4-day2-route-decision",
+   "week": "1SW-Wk4",
+   "folder_id": "1KR0k9ce3tOE9rZ28H7bL_f3m_WcQw7Pv",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk4 Tech Support IT/Google Masters",
+   "canvas_file_id": 14519377,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk4-Day2",
+     "anchor_text": "Open the Day 2 route decision",
+     "student_page": "student-1sw-wk4-day-2-compare-education-routes",
+     "current_href": "https://docs.google.com/document/d/1diF5-6KXuEO3fYTvdoE4uN-Typ2CgKJhq0o1-QCMGcM/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1LzBUgdlRD0Iq-X179GksvOhdgxf_mV3uz4OOYFvhqR8",
+   "title": "Education Route Decision",
+   "week_label": "1SW Wk4",
+   "gdoc_title": "CCE | 1SW Wk4 | Education Route Decision",
+   "copy_url": "https://docs.google.com/document/d/1LzBUgdlRD0Iq-X179GksvOhdgxf_mV3uz4OOYFvhqR8/copy",
+   "edit_url": "https://docs.google.com/document/d/1LzBUgdlRD0Iq-X179GksvOhdgxf_mV3uz4OOYFvhqR8/edit"
+  },
+  {
+   "slug": "wk4-troubleshooting-step-sort-cards",
+   "week": "1SW-Wk4",
+   "folder_id": "1KR0k9ce3tOE9rZ28H7bL_f3m_WcQw7Pv",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk4 Tech Support IT/Google Masters",
+   "canvas_file_id": 14519380,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk4-Day3",
+     "anchor_text": "Open the step-sort cards",
+     "student_page": "student-1sw-wk4-day-3-build-a-help-desk-sequence",
+     "current_href": "https://docs.google.com/document/d/12CIjz5JJqkGpGMuOmP4Yah3EmQx1yHIA1X9YlNTIBww/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1kGkOMAW9wyt_klrVixP1aou5TCACYOMd6EGiSQcIVPc",
+   "title": "Troubleshooting Step Sort Cards",
+   "week_label": "1SW Wk4",
+   "gdoc_title": "CCE | 1SW Wk4 | Troubleshooting Step Sort Cards",
+   "copy_url": "https://docs.google.com/document/d/1kGkOMAW9wyt_klrVixP1aou5TCACYOMd6EGiSQcIVPc/copy",
+   "edit_url": "https://docs.google.com/document/d/1kGkOMAW9wyt_klrVixP1aou5TCACYOMd6EGiSQcIVPc/edit"
+  },
+  {
+   "slug": "wk4-help-desk-program-evidence",
+   "week": "1SW-Wk4",
+   "folder_id": "1KR0k9ce3tOE9rZ28H7bL_f3m_WcQw7Pv",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk4 Tech Support IT/Google Masters",
+   "canvas_file_id": 14565268,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk4-Day3",
+     "anchor_text": "Open the Help Desk Program Evidence",
+     "student_page": "student-1sw-wk4-day-3-build-a-help-desk-sequence",
+     "current_href": "https://docs.google.com/document/d/12CIjz5JJqkGpGMuOmP4Yah3EmQx1yHIA1X9YlNTIBww/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "14w-RGyohB96-v1Zf1USlHVMCyX88vdfoI6CynrMaQGw",
+   "title": "Help Desk Program Evidence",
+   "week_label": "1SW Wk4",
+   "gdoc_title": "CCE | 1SW Wk4 | Help Desk Program Evidence",
+   "copy_url": "https://docs.google.com/document/d/14w-RGyohB96-v1Zf1USlHVMCyX88vdfoI6CynrMaQGw/copy",
+   "edit_url": "https://docs.google.com/document/d/14w-RGyohB96-v1Zf1USlHVMCyX88vdfoI6CynrMaQGw/edit"
+  },
+  {
+   "slug": "wk4-help-desk-role-play-script",
+   "week": "1SW-Wk4",
+   "folder_id": "1KR0k9ce3tOE9rZ28H7bL_f3m_WcQw7Pv",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk4 Tech Support IT/Google Masters",
+   "canvas_file_id": 14565269,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk4-Day4",
+     "anchor_text": "Open the role-play script",
+     "student_page": "student-1sw-wk4-day-4-test-and-role-play",
+     "current_href": "https://docs.google.com/document/d/1aHRxyuAAszggAPHnuTbgI3iE5qTIKUuDj8lSEXe_NHE/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1ES5jBslngMIso_fOL9VowKnjL1-JvTcnGtCOQcjdJ_I",
+   "title": "Help Desk Role-Play Script",
+   "week_label": "1SW Wk4",
+   "gdoc_title": "CCE | 1SW Wk4 | Help Desk Role-Play Script",
+   "copy_url": "https://docs.google.com/document/d/1ES5jBslngMIso_fOL9VowKnjL1-JvTcnGtCOQcjdJ_I/copy",
+   "edit_url": "https://docs.google.com/document/d/1ES5jBslngMIso_fOL9VowKnjL1-JvTcnGtCOQcjdJ_I/edit"
+  },
+  {
+   "slug": "wk4-day4-customer-service-check",
+   "week": "1SW-Wk4",
+   "folder_id": "1KR0k9ce3tOE9rZ28H7bL_f3m_WcQw7Pv",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk4 Tech Support IT/Google Masters",
+   "canvas_file_id": 14565271,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk4-Day4",
+     "anchor_text": "Open the Day 4 check",
+     "student_page": "student-1sw-wk4-day-4-test-and-role-play",
+     "current_href": "https://docs.google.com/document/d/1aHRxyuAAszggAPHnuTbgI3iE5qTIKUuDj8lSEXe_NHE/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1hR7RIoajHqTTmEVK45aF62Dpg76IZeUY5HFKjtB7V84",
+   "title": "Customer Service Check",
+   "week_label": "1SW Wk4",
+   "gdoc_title": "CCE | 1SW Wk4 | Customer Service Check",
+   "copy_url": "https://docs.google.com/document/d/1hR7RIoajHqTTmEVK45aF62Dpg76IZeUY5HFKjtB7V84/copy",
+   "edit_url": "https://docs.google.com/document/d/1hR7RIoajHqTTmEVK45aF62Dpg76IZeUY5HFKjtB7V84/edit"
+  },
+  {
+   "slug": "wk4-day5-xello-skill-connection",
+   "week": "1SW-Wk4",
+   "folder_id": "1KR0k9ce3tOE9rZ28H7bL_f3m_WcQw7Pv",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk4 Tech Support IT/Google Masters",
+   "canvas_file_id": 14519389,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk4-Day5",
+     "anchor_text": "Open the Xello Skill and Help Desk Connection",
+     "student_page": "student-1sw-wk4-day-5-add-skills-and-submit-evidence",
+     "current_href": "https://docs.google.com/document/d/19g8jcaDFi4wx-DbAvgy5WkOGUYDHNvpA3h_hHldTBE8/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1tgIV9mDN2BRLxSNJM9B81Ax0fLvnlzoirubo-aqTPoY",
+   "title": "Xello Skill and Help Desk Connection",
+   "week_label": "1SW Wk4",
+   "gdoc_title": "CCE | 1SW Wk4 | Xello Skill and Help Desk Connection",
+   "copy_url": "https://docs.google.com/document/d/1tgIV9mDN2BRLxSNJM9B81Ax0fLvnlzoirubo-aqTPoY/copy",
+   "edit_url": "https://docs.google.com/document/d/1tgIV9mDN2BRLxSNJM9B81Ax0fLvnlzoirubo-aqTPoY/edit"
+  },
+  {
+   "slug": "wk5-cyberseek-pathway",
+   "week": "1SW-Wk5",
+   "folder_id": "1kB3g7_VuuPB9C66e-0KdRKygHFuOG1rR",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk5 Cybersecurity IT/Google Masters",
+   "canvas_file_id": 14565274,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk5-Day1",
+     "anchor_text": "Open the Cybersecurity Career Route Guide",
+     "student_page": "student-1sw-wk5-day-1-cybersecurity-career-routes",
+     "current_href": "https://docs.google.com/document/d/1lcaNjnnO9B-EpnDnb9v8Rw5ui-nE_S67jV8R4ddAjnE/copy"
+    },
+    {
+     "day_key": "1SW-Wk5-Day4",
+     "anchor_text": "Open the Cybersecurity Career Route Guide",
+     "student_page": "student-1sw-wk5-day-4-strengthen-cybersecurity-career-evidence",
+     "current_href": "https://docs.google.com/document/d/1tG31h90eP3z4-7gxB_9Fg6UHzjJgiGnd3p4MNCbligE/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1S4DTJcS1mHmy22gexg4sfUneIM8LU8jCdk8w4PTk4bg",
+   "title": "Cybersecurity Career Route Guide",
+   "week_label": "1SW Wk5",
+   "gdoc_title": "CCE | 1SW Wk5 | Cybersecurity Career Route Guide",
+   "copy_url": "https://docs.google.com/document/d/1S4DTJcS1mHmy22gexg4sfUneIM8LU8jCdk8w4PTk4bg/copy",
+   "edit_url": "https://docs.google.com/document/d/1S4DTJcS1mHmy22gexg4sfUneIM8LU8jCdk8w4PTk4bg/edit"
+  },
+  {
+   "slug": "wk5-red-flag-checklist",
+   "week": "1SW-Wk5",
+   "folder_id": "1kB3g7_VuuPB9C66e-0KdRKygHFuOG1rR",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk5 Cybersecurity IT/Google Masters",
+   "canvas_file_id": 14565275,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk5-Day2",
+     "anchor_text": "Open the Phishing Red-Flag Checklist",
+     "student_page": "student-1sw-wk5-day-2-safe-or-spoofed-inbox",
+     "current_href": "https://docs.google.com/document/d/1VDXTMJS3kLiOa00f74Td0WmgulM9YlapVemkWJTzBAU/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1s7luuwUIYaaRjgVZ5t103eBhyaKAAYvue7Elue3aQfc",
+   "title": "Phishing Red-Flag Checklist",
+   "week_label": "1SW Wk5",
+   "gdoc_title": "CCE | 1SW Wk5 | Phishing Red-Flag Checklist",
+   "copy_url": "https://docs.google.com/document/d/1s7luuwUIYaaRjgVZ5t103eBhyaKAAYvue7Elue3aQfc/copy",
+   "edit_url": "https://docs.google.com/document/d/1s7luuwUIYaaRjgVZ5t103eBhyaKAAYvue7Elue3aQfc/edit"
+  },
+  {
+   "slug": "wk5-bootcamp-planning-template",
+   "week": "1SW-Wk5",
+   "folder_id": "1kB3g7_VuuPB9C66e-0KdRKygHFuOG1rR",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk5 Cybersecurity IT/Google Masters",
+   "canvas_file_id": 14565276,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk5-Day3",
+     "anchor_text": "Open the Cybersecurity Bootcamp Plan",
+     "student_page": "student-1sw-wk5-day-3-community-cybersecurity-bootcamp",
+     "current_href": "https://docs.google.com/document/d/14rUClKAKFikhGm_LZWPoz5t5AdzlRr_5hJ7kELQFdc4/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1-1rJrIlxB2scFp3Xq-WziFkkys2KLQS-R4vQILmF-Cs",
+   "title": "Cybersecurity Bootcamp Plan",
+   "week_label": "1SW Wk5",
+   "gdoc_title": "CCE | 1SW Wk5 | Cybersecurity Bootcamp Plan",
+   "copy_url": "https://docs.google.com/document/d/1-1rJrIlxB2scFp3Xq-WziFkkys2KLQS-R4vQILmF-Cs/copy",
+   "edit_url": "https://docs.google.com/document/d/1-1rJrIlxB2scFp3Xq-WziFkkys2KLQS-R4vQILmF-Cs/edit"
+  },
+  {
+   "slug": "wk5-reflection-update-template",
+   "week": "1SW-Wk5",
+   "folder_id": "1kB3g7_VuuPB9C66e-0KdRKygHFuOG1rR",
+   "folder_path": "VILS27/Units_CCR/SW1 \u00b7 Wk5 Cybersecurity IT/Google Masters",
+   "canvas_file_id": 14565280,
+   "used_by": [
+    {
+     "day_key": "1SW-Wk5-Day5",
+     "anchor_text": "Open the 1st Six Weeks Update",
+     "student_page": "student-1sw-wk5-day-5-capstone-goal-and-reflection",
+     "current_href": "https://docs.google.com/document/d/1QKZLyhP4bQUoHRi27u4RX0RHaY6y0XCetS2akxlBeOg/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1jYudqvWzhtNv7ttp5IwYnxhh4HXUN9z8e29zBIJq3tQ",
+   "title": "My Career Journey - 1st Six Weeks Update",
+   "week_label": "1SW Wk5",
+   "gdoc_title": "CCE | 1SW Wk5 | My Career Journey - 1st Six Weeks Update",
+   "copy_url": "https://docs.google.com/document/d/1jYudqvWzhtNv7ttp5IwYnxhh4HXUN9z8e29zBIJq3tQ/copy",
+   "edit_url": "https://docs.google.com/document/d/1jYudqvWzhtNv7ttp5IwYnxhh4HXUN9z8e29zBIJq3tQ/edit"
+  },
+  {
+   "slug": "career-research-worksheet",
+   "week": "2SW-Wk1",
+   "folder_id": "15kBnCNKBdRbrBCADz-xCgIZpAWBi3rYk",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk1 Legal Studies/Google Masters",
+   "canvas_file_id": 14565289,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk1-Day1",
+     "anchor_text": "Career Research Worksheet",
+     "student_page": "student-2sw-wk1-day-1-explore-legal-careers",
+     "current_href": "https://docs.google.com/document/d/17cTOaP2ajzm6zH1GS5ckRHSQBtQUiHWsAoITs5J5vTI/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1f8i_N1R87ZOLReXIVEsdVVFXTxrQTiaE25bwXM98njo",
+   "title": "Career Research Worksheet",
+   "week_label": "2SW Wk1",
+   "gdoc_title": "CCE | 2SW Wk1 | Career Research Worksheet",
+   "copy_url": "https://docs.google.com/document/d/1f8i_N1R87ZOLReXIVEsdVVFXTxrQTiaE25bwXM98njo/copy",
+   "edit_url": "https://docs.google.com/document/d/1f8i_N1R87ZOLReXIVEsdVVFXTxrQTiaE25bwXM98njo/edit"
+  },
+  {
+   "slug": "2sw-wk1-city-council-plan",
+   "week": "2SW-Wk1",
+   "folder_id": "15kBnCNKBdRbrBCADz-xCgIZpAWBi3rYk",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk1 Legal Studies/Google Masters",
+   "canvas_file_id": 14565292,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk1-Day3",
+     "anchor_text": "City Council Town and Ordinance Plan",
+     "student_page": "student-2sw-wk1-day-3-city-council-ordinances",
+     "current_href": "https://docs.google.com/document/d/1WICiATYetS00c7aDot0AiELiWlrci50KmULFA4EjmxA/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "19Mhi6wDEz6n5PmyZYSJ5FBPAFudI3E06YkYeqfmxSqg",
+   "title": "City Council Town and Ordinance Plan",
+   "week_label": "2SW Wk1",
+   "gdoc_title": "CCE | 2SW Wk1 | City Council Town and Ordinance Plan",
+   "copy_url": "https://docs.google.com/document/d/19Mhi6wDEz6n5PmyZYSJ5FBPAFudI3E06YkYeqfmxSqg/copy",
+   "edit_url": "https://docs.google.com/document/d/19Mhi6wDEz6n5PmyZYSJ5FBPAFudI3E06YkYeqfmxSqg/edit"
+  },
+  {
+   "slug": "2sw-wk1-policy-argument-and-evidence",
+   "week": "2SW-Wk1",
+   "folder_id": "15kBnCNKBdRbrBCADz-xCgIZpAWBi3rYk",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk1 Legal Studies/Google Masters",
+   "canvas_file_id": 14565293,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk1-Day4",
+     "anchor_text": "Legal Review Argument and Evidence Sheet",
+     "student_page": "student-2sw-wk1-day-4-policy-showdown",
+     "current_href": "https://docs.google.com/document/d/1dlppySkceZ0Lb-zbitGabAexHf55tRXyqzlgQM0OQoY/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "15y-CLShUB8G270m7wXLbe9NsyMNqhjGURiTwi1LatLg",
+   "title": "Legal Review Argument and Evidence Sheet",
+   "week_label": "2SW Wk1",
+   "gdoc_title": "CCE | 2SW Wk1 | Legal Review Argument and Evidence Sheet",
+   "copy_url": "https://docs.google.com/document/d/15y-CLShUB8G270m7wXLbe9NsyMNqhjGURiTwi1LatLg/copy",
+   "edit_url": "https://docs.google.com/document/d/15y-CLShUB8G270m7wXLbe9NsyMNqhjGURiTwi1LatLg/edit"
+  },
+  {
+   "slug": "2sw-wk1-legal-entrepreneur-card",
+   "week": "2SW-Wk1",
+   "folder_id": "15kBnCNKBdRbrBCADz-xCgIZpAWBi3rYk",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk1 Legal Studies/Google Masters",
+   "canvas_file_id": 14565294,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk1-Day4",
+     "anchor_text": "Legal Entrepreneur and Association Card",
+     "student_page": "student-2sw-wk1-day-4-policy-showdown",
+     "current_href": "https://docs.google.com/document/d/1dlppySkceZ0Lb-zbitGabAexHf55tRXyqzlgQM0OQoY/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1Ty7ehHnXtwHVJ-FTGHLvMmK5v91SHFtk8XWbTw_4eps",
+   "title": "Legal Entrepreneur and Association Card",
+   "week_label": "2SW Wk1",
+   "gdoc_title": "CCE | 2SW Wk1 | Legal Entrepreneur and Association Card",
+   "copy_url": "https://docs.google.com/document/d/1Ty7ehHnXtwHVJ-FTGHLvMmK5v91SHFtk8XWbTw_4eps/copy",
+   "edit_url": "https://docs.google.com/document/d/1Ty7ehHnXtwHVJ-FTGHLvMmK5v91SHFtk8XWbTw_4eps/edit"
+  },
+  {
+   "slug": "2sw-wk1-xello-life-experience-connection",
+   "week": "2SW-Wk1",
+   "folder_id": "15kBnCNKBdRbrBCADz-xCgIZpAWBi3rYk",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk1 Legal Studies/Google Masters",
+   "canvas_file_id": 14565296,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk1-Day5",
+     "anchor_text": "Xello Life Experience Connection",
+     "student_page": "student-2sw-wk1-day-5-legal-career-evidence-and-xello",
+     "current_href": "https://docs.google.com/document/d/1UGWc3WUuXOzne9Qz9StdipOHW0CBeD4s9DSQ8MQs0y8/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "187WTnVSbRfFeU56MMl9xwf1NeWJRTPRLr8gKztUCUzg",
+   "title": "Xello Life Experience Connection",
+   "week_label": "2SW Wk1",
+   "gdoc_title": "CCE | 2SW Wk1 | Xello Life Experience Connection",
+   "copy_url": "https://docs.google.com/document/d/187WTnVSbRfFeU56MMl9xwf1NeWJRTPRLr8gKztUCUzg/copy",
+   "edit_url": "https://docs.google.com/document/d/187WTnVSbRfFeU56MMl9xwf1NeWJRTPRLr8gKztUCUzg/edit"
+  },
+  {
+   "slug": "2sw-wk2-first-responder-route-guide",
+   "week": "2SW-Wk2",
+   "folder_id": "1R_wCbpycdZrHueoXxFtDVn825phl-pfU",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk2 Law Enforcement EMT/Google Masters",
+   "canvas_file_id": 14606186,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk2-Day1",
+     "anchor_text": "First Responder Route Guide",
+     "student_page": "student-2sw-wk2-day-1-first-responder-routes",
+     "current_href": "https://docs.google.com/document/d/1OcPO_4LtnzD4uvW6uHVHDATLyWcNvESwMa8zD-B92D0/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1Ob1TRXstZSnkgVsAhBi5bKly5Wm62B30fVOTcuyyseA",
+   "title": "First Responder Route Guide",
+   "week_label": "2SW Wk2",
+   "gdoc_title": "CCE | 2SW Wk2 | First Responder Route Guide",
+   "copy_url": "https://docs.google.com/document/d/1Ob1TRXstZSnkgVsAhBi5bKly5Wm62B30fVOTcuyyseA/copy",
+   "edit_url": "https://docs.google.com/document/d/1Ob1TRXstZSnkgVsAhBi5bKly5Wm62B30fVOTcuyyseA/edit"
+  },
+  {
+   "slug": "2sw-wk2-clinton-lake-evidence-tracker",
+   "week": "2SW-Wk2",
+   "folder_id": "1R_wCbpycdZrHueoXxFtDVn825phl-pfU",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk2 Law Enforcement EMT/Google Masters",
+   "canvas_file_id": 14580298,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk2-Day2",
+     "anchor_text": "Clinton Lake Evidence Tracker",
+     "student_page": "student-2sw-wk2-day-2-clinton-lake-evidence",
+     "current_href": "https://docs.google.com/document/d/1CxbWjEfUmQ0QrW1n8XIlJ1qDIQIf3gfMmgEL3h0fVnM/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "11vHMchFNEDuL-firmmol2CoUAze3ipntchFH_EOD-_A",
+   "title": "Clinton Lake Evidence Tracker",
+   "week_label": "2SW Wk2",
+   "gdoc_title": "CCE | 2SW Wk2 | Clinton Lake Evidence Tracker",
+   "copy_url": "https://docs.google.com/document/d/11vHMchFNEDuL-firmmol2CoUAze3ipntchFH_EOD-_A/copy",
+   "edit_url": "https://docs.google.com/document/d/11vHMchFNEDuL-firmmol2CoUAze3ipntchFH_EOD-_A/edit"
+  },
+  {
+   "slug": "2sw-wk2-trail-simulation-record",
+   "week": "2SW-Wk2",
+   "folder_id": "1R_wCbpycdZrHueoXxFtDVn825phl-pfU",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk2 Law Enforcement EMT/Google Masters",
+   "canvas_file_id": 14580299,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk2-Day3",
+     "anchor_text": "Injured on the Trail Simulation Record",
+     "student_page": "student-2sw-wk2-day-3-trail-response-simulation",
+     "current_href": "https://docs.google.com/document/d/1ZZ0CPn7hTt7YdBShc8kh-8zm93CXxf66HnMiZq0zH4k/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1E7aWIO_yg8Mr42--umF7bmwjsyWWUdIS2-DobNFESbk",
+   "title": "Injured on the Trail Simulation Record",
+   "week_label": "2SW Wk2",
+   "gdoc_title": "CCE | 2SW Wk2 | Injured on the Trail Simulation Record",
+   "copy_url": "https://docs.google.com/document/d/1E7aWIO_yg8Mr42--umF7bmwjsyWWUdIS2-DobNFESbk/copy",
+   "edit_url": "https://docs.google.com/document/d/1E7aWIO_yg8Mr42--umF7bmwjsyWWUdIS2-DobNFESbk/edit"
+  },
+  {
+   "slug": "2sw-wk2-patient-care-report",
+   "week": "2SW-Wk2",
+   "folder_id": "1R_wCbpycdZrHueoXxFtDVn825phl-pfU",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk2 Law Enforcement EMT/Google Masters",
+   "canvas_file_id": 14565301,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk2-Day4",
+     "anchor_text": "Fictional Patient Care Report and Safety Plan",
+     "student_page": "student-2sw-wk2-day-4-patient-report-and-safety-plan",
+     "current_href": "https://docs.google.com/document/d/1LJuEuakt7IDSB577DqQsOZduNpRquq648yH0GbEuU54/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1phGrZdD-9hnKslx62OEvMtMXcPA9NHoqr2SU_8qWfZo",
+   "title": "Fictional Patient Care Report and Safety Plan",
+   "week_label": "2SW Wk2",
+   "gdoc_title": "CCE | 2SW Wk2 | Fictional Patient Care Report and Safety Plan",
+   "copy_url": "https://docs.google.com/document/d/1phGrZdD-9hnKslx62OEvMtMXcPA9NHoqr2SU_8qWfZo/copy",
+   "edit_url": "https://docs.google.com/document/d/1phGrZdD-9hnKslx62OEvMtMXcPA9NHoqr2SU_8qWfZo/edit"
+  },
+  {
+   "slug": "2sw-wk2-integrity-career-reflection",
+   "week": "2SW-Wk2",
+   "folder_id": "1R_wCbpycdZrHueoXxFtDVn825phl-pfU",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk2 Law Enforcement EMT/Google Masters",
+   "canvas_file_id": 14580301,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk2-Day5",
+     "anchor_text": "First Responder Career and Integrity Reflection",
+     "student_page": "student-2sw-wk2-day-5-career-and-integrity-reflection",
+     "current_href": "https://docs.google.com/document/d/1W_FOBWYPEdjIwu1q9JoNOC2mMZHs4GgSVjjCMljqfh8/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1Bo-_UIi6OJctf0QL0fmHGgNNxF2QWPzsGNN8OWUADFU",
+   "title": "First Responder Career and Integrity Reflection",
+   "week_label": "2SW Wk2",
+   "gdoc_title": "CCE | 2SW Wk2 | First Responder Career and Integrity Reflection",
+   "copy_url": "https://docs.google.com/document/d/1Bo-_UIi6OJctf0QL0fmHGgNNxF2QWPzsGNN8OWUADFU/copy",
+   "edit_url": "https://docs.google.com/document/d/1Bo-_UIi6OJctf0QL0fmHGgNNxF2QWPzsGNN8OWUADFU/edit"
+  },
+  {
+   "slug": "2sw-wk3-vital-signs-simulator-build",
+   "week": "2SW-Wk3",
+   "folder_id": "1iSZMiRvScRa5ZUjdEAawFaQYd1AkUKwk",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk3 Nursing Health Science/Google Masters",
+   "canvas_file_id": 14580359,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk3-Day3",
+     "anchor_text": "Vital Signs Simulator Build and Test Guide",
+     "student_page": "student-2sw-wk3-day-3-build-a-training-simulator",
+     "current_href": "https://docs.google.com/document/d/10-9NJSWA5N94y53VwsrTKgjADYQKRwTZoCwarlzEj_U/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "17BivY30UrY43krPrKiOWDjIpvBA5dNA1m_pe18Uz_2I",
+   "title": "Vital Signs Simulator Build and Test",
+   "week_label": "2SW Wk3",
+   "gdoc_title": "CCE | 2SW Wk3 | Vital Signs Simulator Build and Test",
+   "copy_url": "https://docs.google.com/document/d/17BivY30UrY43krPrKiOWDjIpvBA5dNA1m_pe18Uz_2I/copy",
+   "edit_url": "https://docs.google.com/document/d/17BivY30UrY43krPrKiOWDjIpvBA5dNA1m_pe18Uz_2I/edit"
+  },
+  {
+   "slug": "2sw-wk3-clinical-handoff-record",
+   "week": "2SW-Wk3",
+   "folder_id": "1iSZMiRvScRa5ZUjdEAawFaQYd1AkUKwk",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk3 Nursing Health Science/Google Masters",
+   "canvas_file_id": 14565340,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk3-Day4",
+     "anchor_text": "Individual Handoff Record",
+     "student_page": "student-2sw-wk3-day-4-write-a-careful-handoff",
+     "current_href": "https://docs.google.com/document/d/17Yu-IA4usUXgeldnwJF0_22Bx7RVXkbLvHnnrYYT4g8/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1hVPoiTDysyRRgrpkb-DWj1s5kCTy2KnDrMGqOFca4VA",
+   "title": "Observation and Clinical Handoff Record",
+   "week_label": "2SW Wk3",
+   "gdoc_title": "CCE | 2SW Wk3 | Observation and Clinical Handoff Record",
+   "copy_url": "https://docs.google.com/document/d/1hVPoiTDysyRRgrpkb-DWj1s5kCTy2KnDrMGqOFca4VA/copy",
+   "edit_url": "https://docs.google.com/document/d/1hVPoiTDysyRRgrpkb-DWj1s5kCTy2KnDrMGqOFca4VA/edit"
+  },
+  {
+   "slug": "2sw-wk3-xello-save-careers-reflection",
+   "week": "2SW-Wk3",
+   "folder_id": "1iSZMiRvScRa5ZUjdEAawFaQYd1AkUKwk",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk3 Nursing Health Science/Google Masters",
+   "canvas_file_id": 14662872,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk3-Day5",
+     "anchor_text": "Nursing Career Evidence Map",
+     "student_page": "student-2sw-wk3-day-5-build-a-nursing-career-evidence-map",
+     "current_href": "https://docs.google.com/document/d/1O93-Oo1iYOe8Kd9dxUNUSMEqjqArBbK3t2uOUaqLp9c/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1AK5KMC_pAk5ZWCbbufA_sI69J_8DGHOcAawK-WxKzws",
+   "title": "Nursing Career Evidence Map",
+   "week_label": "2SW Wk3",
+   "gdoc_title": "CCE | 2SW Wk3 | Nursing Career Evidence Map",
+   "copy_url": "https://docs.google.com/document/d/1AK5KMC_pAk5ZWCbbufA_sI69J_8DGHOcAawK-WxKzws/copy",
+   "edit_url": "https://docs.google.com/document/d/1AK5KMC_pAk5ZWCbbufA_sI69J_8DGHOcAawK-WxKzws/edit"
+  },
+  {
+   "slug": "2sw-wk4-smile-squad-observation-record",
+   "week": "2SW-Wk4",
+   "folder_id": "1QRrLyCzG6KumcLHfCgM6gG8ygjuSx54z",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk4 Dental Medical Billing/Google Masters",
+   "canvas_file_id": 14565344,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk4-Day1",
+     "anchor_text": "optional observation scaffold",
+     "student_page": "student-2sw-wk4-day-1-read-dental-evidence-carefully",
+     "current_href": "https://docs.google.com/document/d/1h_WY1W8R6H7xm14Hrmy043N-Yu1rRV1VM_-_AKvo1oo/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1YaTpgLvT3MTd4X48NncjmqVIqfvJizpRIZQvN0Lfpjk",
+   "title": "Smile Squad Observation Record - Optional Scaffold",
+   "week_label": "2SW Wk4",
+   "gdoc_title": "CCE | 2SW Wk4 | Smile Squad Observation Record - Optional Scaffold",
+   "copy_url": "https://docs.google.com/document/d/1YaTpgLvT3MTd4X48NncjmqVIqfvJizpRIZQvN0Lfpjk/copy",
+   "edit_url": "https://docs.google.com/document/d/1YaTpgLvT3MTd4X48NncjmqVIqfvJizpRIZQvN0Lfpjk/edit"
+  },
+  {
+   "slug": "2sw-wk4-toothbrush-design-brief",
+   "week": "2SW-Wk4",
+   "folder_id": "1QRrLyCzG6KumcLHfCgM6gG8ygjuSx54z",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk4 Dental Medical Billing/Google Masters",
+   "canvas_file_id": 14565345,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk4-Day2",
+     "anchor_text": "optional design scaffold",
+     "student_page": "student-2sw-wk4-day-2-design-a-toothbrush-with-evidence",
+     "current_href": "https://docs.google.com/document/d/1I9UsCiynKEAlWHjMZu1pLoLeZBba61boZCXtvzQMWL8/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1A01cDqfFPxQPTZhatnEQ0zSivRCJZetOejY85EhnbYk",
+   "title": "Toothbrush Design Brief - Optional Scaffold",
+   "week_label": "2SW Wk4",
+   "gdoc_title": "CCE | 2SW Wk4 | Toothbrush Design Brief - Optional Scaffold",
+   "copy_url": "https://docs.google.com/document/d/1A01cDqfFPxQPTZhatnEQ0zSivRCJZetOejY85EhnbYk/copy",
+   "edit_url": "https://docs.google.com/document/d/1A01cDqfFPxQPTZhatnEQ0zSivRCJZetOejY85EhnbYk/edit"
+  },
+  {
+   "slug": "2sw-wk4-xello-experiences-checkpoint",
+   "week": "2SW-Wk4",
+   "folder_id": "1QRrLyCzG6KumcLHfCgM6gG8ygjuSx54z",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk4 Dental Medical Billing/Google Masters",
+   "canvas_file_id": 14662881,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk4-Day3",
+     "anchor_text": "one-page print check",
+     "student_page": "student-2sw-wk4-day-3-connect-school-subjects-to-work",
+     "current_href": "https://docs.google.com/document/d/1fv9sGfYN-jHnW70c1wLDRXA_G-cVkJEVaXCZRsM-aF4/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1mVdDu43ootU4spGfo-7U8_iB53CUq5kxcJS0Hr94kUo",
+   "title": "School Subjects and College Credit Check - Optional Print Fallback",
+   "week_label": "2SW Wk4",
+   "gdoc_title": "CCE | 2SW Wk4 | School Subjects and College Credit Check - Optional Print Fallback",
+   "copy_url": "https://docs.google.com/document/d/1mVdDu43ootU4spGfo-7U8_iB53CUq5kxcJS0Hr94kUo/copy",
+   "edit_url": "https://docs.google.com/document/d/1mVdDu43ootU4spGfo-7U8_iB53CUq5kxcJS0Hr94kUo/edit"
+  },
+  {
+   "slug": "2sw-wk4-icd10-training-lab",
+   "week": "2SW-Wk4",
+   "folder_id": "1QRrLyCzG6KumcLHfCgM6gG8ygjuSx54z",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk4 Dental Medical Billing/Google Masters",
+   "canvas_file_id": 14565347,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk4-Day4",
+     "anchor_text": "the ICD-10-CM Training Lab",
+     "student_page": "student-2sw-wk4-day-4-try-a-medical-coding-evidence-lab",
+     "current_href": "https://docs.google.com/document/d/1a939TIgMWZLbqaY8FiKoqkQEN2UfBIUdGWzELBDwzxE/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1Z3la7NdwgddUnB9CfIGgKsnz2S1bMccUx_akdkNPTw0",
+   "title": "ICD-10-CM Training Lab",
+   "week_label": "2SW Wk4",
+   "gdoc_title": "CCE | 2SW Wk4 | ICD-10-CM Training Lab",
+   "copy_url": "https://docs.google.com/document/d/1Z3la7NdwgddUnB9CfIGgKsnz2S1bMccUx_akdkNPTw0/copy",
+   "edit_url": "https://docs.google.com/document/d/1Z3la7NdwgddUnB9CfIGgKsnz2S1bMccUx_akdkNPTw0/edit"
+  },
+  {
+   "slug": "2sw-wk4-career-evidence-comparison",
+   "week": "2SW-Wk4",
+   "folder_id": "1QRrLyCzG6KumcLHfCgM6gG8ygjuSx54z",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk4 Dental Medical Billing/Google Masters",
+   "canvas_file_id": 14565343,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk4-Day5",
+     "anchor_text": "optional print route",
+     "student_page": "student-2sw-wk4-day-5-recommend-a-health-career-with-evidence",
+     "current_href": "https://docs.google.com/document/d/1YO3celRSMkPuirY9KWCk9JKbW_csmb49QkscE7Gdcpo/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1i6FIsLBuWffeM_li0G9Cmnz_saVZx3LBaIxSjM9pVwM",
+   "title": "Three-Career Evidence Comparison - Optional Print Route",
+   "week_label": "2SW Wk4",
+   "gdoc_title": "CCE | 2SW Wk4 | Three-Career Evidence Comparison - Optional Print Route",
+   "copy_url": "https://docs.google.com/document/d/1i6FIsLBuWffeM_li0G9Cmnz_saVZx3LBaIxSjM9pVwM/copy",
+   "edit_url": "https://docs.google.com/document/d/1i6FIsLBuWffeM_li0G9Cmnz_saVZx3LBaIxSjM9pVwM/edit"
+  },
+  {
+   "slug": "2sw-wk5-conflict-resolution-plan",
+   "week": "2SW-Wk5",
+   "folder_id": "1tlzmXFUgZXWGZ0fEFUcQz_uOB_0frQap",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk5 Powerskills Communication/Google Masters",
+   "canvas_file_id": 14580365,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk5-Day1",
+     "anchor_text": "the optional no-workbook route",
+     "student_page": "student-2sw-wk5-day-1-conflict-resolution",
+     "current_href": "https://docs.google.com/document/d/1nV08lKrHpHUaeUygdCwVsSlx2qBDmvaxNGTNcc2fg5s/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1fcEF3KRszk0K7BUDRIKDLseKlE97qa98iFHAJ-YLtAs",
+   "title": "Conflict Resolution Plan",
+   "week_label": "2SW Wk5",
+   "gdoc_title": "CCE | 2SW Wk5 | Conflict Resolution Plan",
+   "copy_url": "https://docs.google.com/document/d/1fcEF3KRszk0K7BUDRIKDLseKlE97qa98iFHAJ-YLtAs/copy",
+   "edit_url": "https://docs.google.com/document/d/1fcEF3KRszk0K7BUDRIKDLseKlE97qa98iFHAJ-YLtAs/edit"
+  },
+  {
+   "slug": "2sw-wk5-active-listening-lab",
+   "week": "2SW-Wk5",
+   "folder_id": "1tlzmXFUgZXWGZ0fEFUcQz_uOB_0frQap",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk5 Powerskills Communication/Google Masters",
+   "canvas_file_id": 14580366,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk5-Day2",
+     "anchor_text": "the optional Active Listening Lab",
+     "student_page": "student-2sw-wk5-day-2-active-listening",
+     "current_href": "https://docs.google.com/document/d/1MYCdVB6EZFXZbuIEfGPWIrC0R0622lGLIBgRE6eXmxw/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "146IUed7GJ2Eq_VqN2bCd_qCVga7w4gsJTdx8YH7KEZI",
+   "title": "Active Listening Lab",
+   "week_label": "2SW Wk5",
+   "gdoc_title": "CCE | 2SW Wk5 | Active Listening Lab",
+   "copy_url": "https://docs.google.com/document/d/146IUed7GJ2Eq_VqN2bCd_qCVga7w4gsJTdx8YH7KEZI/copy",
+   "edit_url": "https://docs.google.com/document/d/146IUed7GJ2Eq_VqN2bCd_qCVga7w4gsJTdx8YH7KEZI/edit"
+  },
+  {
+   "slug": "2sw-wk5-advocacy-smart-time-plan",
+   "week": "2SW-Wk5",
+   "folder_id": "1tlzmXFUgZXWGZ0fEFUcQz_uOB_0frQap",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk5 Powerskills Communication/Google Masters",
+   "canvas_file_id": 14611251,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk5-Day3",
+     "anchor_text": "the Advocacy, SMART Goal, and Time Plan",
+     "student_page": "student-2sw-wk5-day-3-advocacy-and-smart-time-plan",
+     "current_href": "https://docs.google.com/document/d/1cF0nX0yn3SgRsl3m53ZGSKJLDJgJ2-qcv0vYhmtpwNw/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1L7AaMPYKsNscR-7x1l_6oCYN_6pV0WnsuvbnzL_X_sg",
+   "title": "Advocacy, SMART Goal, and Time Plan",
+   "week_label": "2SW Wk5",
+   "gdoc_title": "CCE | 2SW Wk5 | Advocacy, SMART Goal, and Time Plan",
+   "copy_url": "https://docs.google.com/document/d/1L7AaMPYKsNscR-7x1l_6oCYN_6pV0WnsuvbnzL_X_sg/copy",
+   "edit_url": "https://docs.google.com/document/d/1L7AaMPYKsNscR-7x1l_6oCYN_6pV0WnsuvbnzL_X_sg/edit"
+  },
+  {
+   "slug": "2sw-wk5-written-message-lab",
+   "week": "2SW-Wk5",
+   "folder_id": "1tlzmXFUgZXWGZ0fEFUcQz_uOB_0frQap",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk5 Powerskills Communication/Google Masters",
+   "canvas_file_id": 14580368,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk5-Day4",
+     "anchor_text": "Workplace Message Companion",
+     "student_page": "student-2sw-wk5-day-4-written-message-lab",
+     "current_href": "https://docs.google.com/document/d/1te6GqUbdLvHn1I75m-NQFYCfZQhHFW8_bJ1azYkKGOA/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1hJj50BVJSXr_Udf-PryPEVn3Beab8JEDWV-oNYC8p4w",
+   "title": "Workplace Message Companion",
+   "week_label": "2SW Wk5",
+   "gdoc_title": "CCE | 2SW Wk5 | Workplace Message Companion",
+   "copy_url": "https://docs.google.com/document/d/1hJj50BVJSXr_Udf-PryPEVn3Beab8JEDWV-oNYC8p4w/copy",
+   "edit_url": "https://docs.google.com/document/d/1hJj50BVJSXr_Udf-PryPEVn3Beab8JEDWV-oNYC8p4w/edit"
+  },
+  {
+   "slug": "2sw-wk5-work-experience-skills-synthesis",
+   "week": "2SW-Wk5",
+   "folder_id": "1tlzmXFUgZXWGZ0fEFUcQz_uOB_0frQap",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk5 Powerskills Communication/Google Masters",
+   "canvas_file_id": 14662897,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk5-Day5",
+     "anchor_text": "the optional two-page paper response",
+     "student_page": "student-2sw-wk5-day-5-communication-skills-and-goal-synthesis",
+     "current_href": "https://docs.google.com/document/d/1dk2cjFBbRzPaFIRb0rWaED-p87mDiRzVs7NT0JCa4Jo/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1TIi7L2Kdie-5pfjV-LtfaY9KeTNbWe2qobuhqD4lvfw",
+   "title": "Communication Skills and Goal Synthesis",
+   "week_label": "2SW Wk5",
+   "gdoc_title": "CCE | 2SW Wk5 | Communication Skills and Goal Synthesis",
+   "copy_url": "https://docs.google.com/document/d/1TIi7L2Kdie-5pfjV-LtfaY9KeTNbWe2qobuhqD4lvfw/copy",
+   "edit_url": "https://docs.google.com/document/d/1TIi7L2Kdie-5pfjV-LtfaY9KeTNbWe2qobuhqD4lvfw/edit"
+  },
+  {
+   "slug": "2sw-wk6-cover-letter-lab",
+   "week": "2SW-Wk6",
+   "folder_id": "1Wf7kTwtzTiGBAOV3z8Ziy8DK39IU5O0k",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk6 Biomedical Health Science/Google Masters",
+   "canvas_file_id": 14561443,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk6-Day1",
+     "anchor_text": "the Cover Letter Lab",
+     "student_page": "student-2sw-wk6-day-1-biomedical-careers-and-cover-letter",
+     "current_href": "https://docs.google.com/document/d/1ZGGB2aOAcmUUHjtX69COLVL_eT9pu089Wsr5O-24nko/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1kbvKfdgCuP6C682Etfc9_3K4hLRQlFxTM8q1pqzrUiY",
+   "title": "Cover Letter Lab",
+   "week_label": "2SW Wk6",
+   "gdoc_title": "CCE | 2SW Wk6 | Cover Letter Lab",
+   "copy_url": "https://docs.google.com/document/d/1kbvKfdgCuP6C682Etfc9_3K4hLRQlFxTM8q1pqzrUiY/copy",
+   "edit_url": "https://docs.google.com/document/d/1kbvKfdgCuP6C682Etfc9_3K4hLRQlFxTM8q1pqzrUiY/edit"
+  },
+  {
+   "slug": "2sw-wk6-mini-medics-design-record",
+   "week": "2SW-Wk6",
+   "folder_id": "1Wf7kTwtzTiGBAOV3z8Ziy8DK39IU5O0k",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk6 Biomedical Health Science/Google Masters",
+   "canvas_file_id": 14580372,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk6-Day2",
+     "anchor_text": "the optional expanded design record",
+     "student_page": "student-2sw-wk6-day-2-mini-medics-design",
+     "current_href": "https://docs.google.com/document/d/1ywixqoEL8s163zMPjp6K8AHun4WlQ6oB7lE8gFUybNI/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1UEXN0pkcE3HucvzSlYRBbu4wmjPwx7KiP0vGXHCXiz0",
+   "title": "Mini Medics Design Record",
+   "week_label": "2SW Wk6",
+   "gdoc_title": "CCE | 2SW Wk6 | Mini Medics Design Record",
+   "copy_url": "https://docs.google.com/document/d/1UEXN0pkcE3HucvzSlYRBbu4wmjPwx7KiP0vGXHCXiz0/copy",
+   "edit_url": "https://docs.google.com/document/d/1UEXN0pkcE3HucvzSlYRBbu4wmjPwx7KiP0vGXHCXiz0/edit"
+  },
+  {
+   "slug": "2sw-wk6-outbreak-investigation-record",
+   "week": "2SW-Wk6",
+   "folder_id": "1Wf7kTwtzTiGBAOV3z8Ziy8DK39IU5O0k",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk6 Biomedical Health Science/Google Masters",
+   "canvas_file_id": 14561445,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk6-Day3",
+     "anchor_text": "the optional expanded investigation record",
+     "student_page": "student-2sw-wk6-day-3-outbreak-evidence",
+     "current_href": "https://docs.google.com/document/d/15lXbU9bX39sGlMVAahwdxWUPTBvWNZKwo94flpvqLzY/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1316fVWZkJY7j0QQZc_H6wWQkVmI_JSvtiXyYfxHQwLo",
+   "title": "Outbreak Investigation Record",
+   "week_label": "2SW Wk6",
+   "gdoc_title": "CCE | 2SW Wk6 | Outbreak Investigation Record",
+   "copy_url": "https://docs.google.com/document/d/1316fVWZkJY7j0QQZc_H6wWQkVmI_JSvtiXyYfxHQwLo/copy",
+   "edit_url": "https://docs.google.com/document/d/1316fVWZkJY7j0QQZc_H6wWQkVmI_JSvtiXyYfxHQwLo/edit"
+  },
+  {
+   "slug": "2sw-wk6-outbreak-response-plan",
+   "week": "2SW-Wk6",
+   "folder_id": "1Wf7kTwtzTiGBAOV3z8Ziy8DK39IU5O0k",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk6 Biomedical Health Science/Google Masters",
+   "canvas_file_id": 14561446,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk6-Day4",
+     "anchor_text": "the optional expanded response plan",
+     "student_page": "student-2sw-wk6-day-4-outbreak-response",
+     "current_href": "https://docs.google.com/document/d/1aj5j7tPX3VRtyzhGvMqeR3SFU7oE7jsqJI535hqIJlA/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "16JL29owdyoFQpNw11bJXvbGlQ3xmjJSlmjQyfcxQTaw",
+   "title": "Outbreak Response Plan",
+   "week_label": "2SW Wk6",
+   "gdoc_title": "CCE | 2SW Wk6 | Outbreak Response Plan",
+   "copy_url": "https://docs.google.com/document/d/16JL29owdyoFQpNw11bJXvbGlQ3xmjJSlmjQyfcxQTaw/copy",
+   "edit_url": "https://docs.google.com/document/d/16JL29owdyoFQpNw11bJXvbGlQ3xmjJSlmjQyfcxQTaw/edit"
+  },
+  {
+   "slug": "2sw-wk6-xello-career-matches-reflection",
+   "week": "2SW-Wk6",
+   "folder_id": "1Wf7kTwtzTiGBAOV3z8Ziy8DK39IU5O0k",
+   "folder_path": "VILS27/Units_CCR/SW2 \u00b7 Wk6 Biomedical Health Science/Google Masters",
+   "canvas_file_id": 14662910,
+   "used_by": [
+    {
+     "day_key": "2SW-Wk6-Day5",
+     "anchor_text": "the optional one-page paper response",
+     "student_page": "student-2sw-wk6-day-5-biomedical-career-evidence-reflection",
+     "current_href": "https://docs.google.com/document/d/1hhU2CBtX2Q1m0lJ5BCkl5ZHgKAY2jOoCtkaFOJvaLeo/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1B-u3xDcvptqNrcsmkIlGljiAyokwpjl_7AIE2gM1N1M",
+   "title": "Biomedical Career Evidence Reflection",
+   "week_label": "2SW Wk6",
+   "gdoc_title": "CCE | 2SW Wk6 | Biomedical Career Evidence Reflection",
+   "copy_url": "https://docs.google.com/document/d/1B-u3xDcvptqNrcsmkIlGljiAyokwpjl_7AIE2gM1N1M/copy",
+   "edit_url": "https://docs.google.com/document/d/1B-u3xDcvptqNrcsmkIlGljiAyokwpjl_7AIE2gM1N1M/edit"
+  },
+  {
+   "slug": "3sw-wk1-veterinary-career-comparison",
+   "week": "3SW-Wk1",
+   "folder_id": "1vJ6T0U5UGPHe9VNXq9MccwdgMXNXwx6N",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk1 Vet Science/Google Masters",
+   "canvas_file_id": 14580374,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk1-Day2",
+     "anchor_text": "the Veterinary Career Comparison",
+     "student_page": "student-3sw-wk1-day-2-compare-veterinary-career-paths",
+     "current_href": "https://docs.google.com/document/d/1a7hYSv1LUJMWkAlXIH7UQUIzPc9UZwLFK5HStW3TRPM/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1EdW39WmFQ_K-TLCoeUVkXmTHw8LcsFWxRSZNhqc2-44",
+   "title": "Veterinary Career Route Comparison",
+   "week_label": "3SW Wk1",
+   "gdoc_title": "CCE | 3SW Wk1 | Veterinary Career Route Comparison",
+   "copy_url": "https://docs.google.com/document/d/1EdW39WmFQ_K-TLCoeUVkXmTHw8LcsFWxRSZNhqc2-44/copy",
+   "edit_url": "https://docs.google.com/document/d/1EdW39WmFQ_K-TLCoeUVkXmTHw8LcsFWxRSZNhqc2-44/edit"
+  },
+  {
+   "slug": "3sw-wk1-veterinary-triage-record",
+   "week": "3SW-Wk1",
+   "folder_id": "1vJ6T0U5UGPHe9VNXq9MccwdgMXNXwx6N",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk1 Vet Science/Google Masters",
+   "canvas_file_id": 14565357,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk1-Day3",
+     "anchor_text": "Veterinary Triage Evidence Record",
+     "student_page": "student-3sw-wk1-day-3-veterinary-triage",
+     "current_href": "https://docs.google.com/document/d/1r_kWaNCe-UX4rasWsGJurNMn2YDBNM2Q7DDMJD5dGMk/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1890U0KdLFADq_P9Q5sW-ABirH8MWVpCMWzkMC9t5J8w",
+   "title": "Veterinary Triage Evidence Record",
+   "week_label": "3SW Wk1",
+   "gdoc_title": "CCE | 3SW Wk1 | Veterinary Triage Evidence Record",
+   "copy_url": "https://docs.google.com/document/d/1890U0KdLFADq_P9Q5sW-ABirH8MWVpCMWzkMC9t5J8w/copy",
+   "edit_url": "https://docs.google.com/document/d/1890U0KdLFADq_P9Q5sW-ABirH8MWVpCMWzkMC9t5J8w/edit"
+  },
+  {
+   "slug": "3sw-wk1-xello-skills-reflection",
+   "week": "3SW-Wk1",
+   "folder_id": "1vJ6T0U5UGPHe9VNXq9MccwdgMXNXwx6N",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk1 Vet Science/Google Masters",
+   "canvas_file_id": 14662922,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk1-Day4",
+     "anchor_text": "the private Transferable Skills Reflection",
+     "student_page": "student-3sw-wk1-day-4-transferable-skills",
+     "current_href": "https://docs.google.com/document/d/1VR5W3xQb0EC_qXUJ-qc4GDZZ3hRGSIBQxhGbqDjdBrI/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1tV1chKD4oRBl797WsU8E0q8hskPTDACcQ8xRd3R1BCM",
+   "title": "Transferable Skills Reflection",
+   "week_label": "3SW Wk1",
+   "gdoc_title": "CCE | 3SW Wk1 | Transferable Skills Reflection",
+   "copy_url": "https://docs.google.com/document/d/1tV1chKD4oRBl797WsU8E0q8hskPTDACcQ8xRd3R1BCM/copy",
+   "edit_url": "https://docs.google.com/document/d/1tV1chKD4oRBl797WsU8E0q8hskPTDACcQ8xRd3R1BCM/edit"
+  },
+  {
+   "slug": "3sw-wk1-veterinary-pathway-brief",
+   "week": "3SW-Wk1",
+   "folder_id": "1vJ6T0U5UGPHe9VNXq9MccwdgMXNXwx6N",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk1 Vet Science/Google Masters",
+   "canvas_file_id": 14662923,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk1-Day5",
+     "anchor_text": "the Veterinary Pathway Recommendation",
+     "student_page": "student-3sw-wk1-day-5-veterinary-pathway-recommendation",
+     "current_href": "https://docs.google.com/document/d/1KaDsqzdwurIQ2w1VkY2uOGRWd7p6xgLEXHQtTpGpvIY/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1Y8rLXz38JTvTYZ5e2WZh_7h7yucd92qfG9v-_KylkUg",
+   "title": "Veterinary Pathway Recommendation",
+   "week_label": "3SW Wk1",
+   "gdoc_title": "CCE | 3SW Wk1 | Veterinary Pathway Recommendation",
+   "copy_url": "https://docs.google.com/document/d/1Y8rLXz38JTvTYZ5e2WZh_7h7yucd92qfG9v-_KylkUg/copy",
+   "edit_url": "https://docs.google.com/document/d/1Y8rLXz38JTvTYZ5e2WZh_7h7yucd92qfG9v-_KylkUg/edit"
+  },
+  {
+   "slug": "3sw-wk2-farm-to-table-planner",
+   "week": "3SW-Wk2",
+   "folder_id": "1Rd9Kjc92aZRmqNuGTlhVco4Dg3fm5Oi5",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk2 Plant Science/Google Masters",
+   "canvas_file_id": 14565363,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk2-Day2",
+     "anchor_text": "the two-page Farm-to-Table Planner",
+     "student_page": "student-3sw-wk2-day-2-plan-a-farm-to-table-infographic",
+     "current_href": "https://docs.google.com/document/d/1Y8YKxE6i3_LdDeu8hshUK5kM4VljXdt9wLfQFsz04NE/copy"
+    },
+    {
+     "day_key": "3SW-Wk2-Day3",
+     "anchor_text": "your planner",
+     "student_page": "student-3sw-wk2-day-3-build-and-test-the-infographic",
+     "current_href": "https://docs.google.com/document/d/1-9KSSZMmAxndNAS0pOQdbeYlX4ejB59w713jaLdNyLU/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1gi19YBcWDpeE85s2p3syOM262o_myc0dNxnA8m9g5QU",
+   "title": "Farm-to-Table Infographic Planner",
+   "week_label": "3SW Wk2",
+   "gdoc_title": "CCE | 3SW Wk2 | Farm-to-Table Infographic Planner",
+   "copy_url": "https://docs.google.com/document/d/1gi19YBcWDpeE85s2p3syOM262o_myc0dNxnA8m9g5QU/copy",
+   "edit_url": "https://docs.google.com/document/d/1gi19YBcWDpeE85s2p3syOM262o_myc0dNxnA8m9g5QU/edit"
+  },
+  {
+   "slug": "3sw-wk2-emerging-plant-tech-evaluation",
+   "week": "3SW-Wk2",
+   "folder_id": "1Rd9Kjc92aZRmqNuGTlhVco4Dg3fm5Oi5",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk2 Plant Science/Google Masters",
+   "canvas_file_id": 14565366,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk2-Day4",
+     "anchor_text": "the two-page evaluation",
+     "student_page": "student-3sw-wk2-day-4-evaluate-emerging-plant-tech-work",
+     "current_href": "https://docs.google.com/document/d/1rA6Y1d1pZbrYi6_iV6RzrYSvDe4IXI6FEcyZmwkbqlU/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1bf8IHvRGjv_JwdMnAXD-05Y_7lRbmt6XErVXH6_KU0Q",
+   "title": "Emerging Plant-Tech Evaluation",
+   "week_label": "3SW Wk2",
+   "gdoc_title": "CCE | 3SW Wk2 | Emerging Plant-Tech Evaluation",
+   "copy_url": "https://docs.google.com/document/d/1bf8IHvRGjv_JwdMnAXD-05Y_7lRbmt6XErVXH6_KU0Q/copy",
+   "edit_url": "https://docs.google.com/document/d/1bf8IHvRGjv_JwdMnAXD-05Y_7lRbmt6XErVXH6_KU0Q/edit"
+  },
+  {
+   "slug": "3sw-wk2-xello-biases-reflection",
+   "week": "3SW-Wk2",
+   "folder_id": "1Rd9Kjc92aZRmqNuGTlhVco4Dg3fm5Oi5",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk2 Plant Science/Google Masters",
+   "canvas_file_id": 14662934,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk2-Day5",
+     "anchor_text": "the private reflection",
+     "student_page": "student-3sw-wk2-day-5-plant-tech-evidence-and-fair-career-investigation",
+     "current_href": "https://docs.google.com/document/d/1-gtRusemBl5CR1d1KHYOjXJL5WGI9d1jajqOnW-_jYE/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1p73y6vX0_h7IwnbPIK4llyizrdaH78PYs_izGAvp5oE",
+   "title": "Private Plant-Career Evidence Reflection",
+   "week_label": "3SW Wk2",
+   "gdoc_title": "CCE | 3SW Wk2 | Private Plant-Career Evidence Reflection",
+   "copy_url": "https://docs.google.com/document/d/1p73y6vX0_h7IwnbPIK4llyizrdaH78PYs_izGAvp5oE/copy",
+   "edit_url": "https://docs.google.com/document/d/1p73y6vX0_h7IwnbPIK4llyizrdaH78PYs_izGAvp5oE/edit"
+  },
+  {
+   "slug": "3sw-wk3-pest-patrol-field-notes",
+   "week": "3SW-Wk3",
+   "folder_id": "1KljYyN4IIrBUMq5aFAxPqTjSXqEE3iav",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk3 Sustainable Engineering/Google Masters",
+   "canvas_file_id": 14565368,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk3-Day2",
+     "anchor_text": "Pest Patrol Field Notes and Constraints",
+     "student_page": "student-3sw-wk3-day-2-field-reports-and-constraints",
+     "current_href": "https://docs.google.com/document/d/1KuB_RsIRuzU3ht-gyvS_tMqaEyPlvXInYWvQ3tl22nA/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "119_xUT7CfRYa2CoycgVTZck-3tmhSnzzwlKsw0zVlng",
+   "title": "Pest Patrol Field Notes and Constraints",
+   "week_label": "3SW Wk3",
+   "gdoc_title": "CCE | 3SW Wk3 | Pest Patrol Field Notes and Constraints",
+   "copy_url": "https://docs.google.com/document/d/119_xUT7CfRYa2CoycgVTZck-3tmhSnzzwlKsw0zVlng/copy",
+   "edit_url": "https://docs.google.com/document/d/119_xUT7CfRYa2CoycgVTZck-3tmhSnzzwlKsw0zVlng/edit"
+  },
+  {
+   "slug": "3sw-wk3-drone-design-brief",
+   "week": "3SW-Wk3",
+   "folder_id": "1KljYyN4IIrBUMq5aFAxPqTjSXqEE3iav",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk3 Sustainable Engineering/Google Masters",
+   "canvas_file_id": 14565369,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk3-Day3",
+     "anchor_text": "the two-page Drone Design Brief",
+     "student_page": "student-3sw-wk3-day-3-pest-patrol-drone-design",
+     "current_href": "https://docs.google.com/document/d/1K6ogVNNXdAA__uBfvrQku7VzwSDxdJrzN0SUOFfjgqQ/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1zz_GMIIdituVWPjXxJ5N0BIdBx62hkWDEUVcv0nzMGM",
+   "title": "Pest Patrol Drone Design Brief",
+   "week_label": "3SW Wk3",
+   "gdoc_title": "CCE | 3SW Wk3 | Pest Patrol Drone Design Brief",
+   "copy_url": "https://docs.google.com/document/d/1zz_GMIIdituVWPjXxJ5N0BIdBx62hkWDEUVcv0nzMGM/copy",
+   "edit_url": "https://docs.google.com/document/d/1zz_GMIIdituVWPjXxJ5N0BIdBx62hkWDEUVcv0nzMGM/edit"
+  },
+  {
+   "slug": "3sw-wk3-peer-review-revision",
+   "week": "3SW-Wk3",
+   "folder_id": "1KljYyN4IIrBUMq5aFAxPqTjSXqEE3iav",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk3 Sustainable Engineering/Google Masters",
+   "canvas_file_id": 14565370,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk3-Day4",
+     "anchor_text": "the Peer Review and Revision Record",
+     "student_page": "student-3sw-wk3-day-4-review-revision-and-trends",
+     "current_href": "https://docs.google.com/document/d/1X03poJUxm1jSexMbmXgzFGQvT63Phsmc7GohQ4_JYsc/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "12is4kvhl6Z9BA6PGJJzCJ8AelvXQcYHJ9lG_OlfxoKQ",
+   "title": "Pest Patrol Peer Review and Revision Record",
+   "week_label": "3SW Wk3",
+   "gdoc_title": "CCE | 3SW Wk3 | Pest Patrol Peer Review and Revision Record",
+   "copy_url": "https://docs.google.com/document/d/12is4kvhl6Z9BA6PGJJzCJ8AelvXQcYHJ9lG_OlfxoKQ/copy",
+   "edit_url": "https://docs.google.com/document/d/12is4kvhl6Z9BA6PGJJzCJ8AelvXQcYHJ9lG_OlfxoKQ/edit"
+  },
+  {
+   "slug": "3sw-wk3-societal-trends-evaluation",
+   "week": "3SW-Wk3",
+   "folder_id": "1KljYyN4IIrBUMq5aFAxPqTjSXqEE3iav",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk3 Sustainable Engineering/Google Masters",
+   "canvas_file_id": 14591629,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk3-Day4",
+     "anchor_text": "the Trends Evaluation",
+     "student_page": "student-3sw-wk3-day-4-review-revision-and-trends",
+     "current_href": "https://docs.google.com/document/d/1X03poJUxm1jSexMbmXgzFGQvT63Phsmc7GohQ4_JYsc/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1gATgr937Tz0_58B8zcEubn6so4Q-Hkh4ckkwzIkrrDQ",
+   "title": "Sustainable Engineering Trends Evaluation",
+   "week_label": "3SW Wk3",
+   "gdoc_title": "CCE | 3SW Wk3 | Sustainable Engineering Trends Evaluation",
+   "copy_url": "https://docs.google.com/document/d/1gATgr937Tz0_58B8zcEubn6so4Q-Hkh4ckkwzIkrrDQ/copy",
+   "edit_url": "https://docs.google.com/document/d/1gATgr937Tz0_58B8zcEubn6so4Q-Hkh4ckkwzIkrrDQ/edit"
+  },
+  {
+   "slug": "3sw-wk3-xello-goals-plan",
+   "week": "3SW-Wk3",
+   "folder_id": "1KljYyN4IIrBUMq5aFAxPqTjSXqEE3iav",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk3 Sustainable Engineering/Google Masters",
+   "canvas_file_id": 14662948,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk3-Day5",
+     "anchor_text": "the Interests Check and Private Reflection",
+     "student_page": "student-3sw-wk3-day-5-xello-interests",
+     "current_href": "https://docs.google.com/document/d/1bXaK1InobXoxMKL-LRDhFhw10DPwF1r6RdelzgbZyCg/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1qSKFWbBBrUuI9gHGHXnaxH0RQwswStnPRJY1Uw6UicI",
+   "title": "Xello Interests Check and Private Reflection",
+   "week_label": "3SW Wk3",
+   "gdoc_title": "CCE | 3SW Wk3 | Xello Interests Check and Private Reflection",
+   "copy_url": "https://docs.google.com/document/d/1qSKFWbBBrUuI9gHGHXnaxH0RQwswStnPRJY1Uw6UicI/copy",
+   "edit_url": "https://docs.google.com/document/d/1qSKFWbBBrUuI9gHGHXnaxH0RQwswStnPRJY1Uw6UicI/edit"
+  },
+  {
+   "slug": "3sw-wk4-culinary-twist-menu-brief",
+   "week": "3SW-Wk4",
+   "folder_id": "1TCuEh-MT-pNOihqMZAqeemqfk_ithalj",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk4 Culinary Hospitality/Google Masters",
+   "canvas_file_id": 14591631,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk4-Day1",
+     "anchor_text": "the optional no-workbook brief",
+     "student_page": "student-3sw-wk4-day-1-culinary-twist-menu-design",
+     "current_href": "https://docs.google.com/document/d/1YLGzjVI3VE_xM2V1dANeq7jZUitsX5BTcGrC6cZHP8Y/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1IEEMlEs3ZkG2DA6Jok9mgCfz_72W75pXmx1zizh2KEI",
+   "title": "Culinary Twist Menu Brief - No-Workbook Route",
+   "week_label": "3SW Wk4",
+   "gdoc_title": "CCE | 3SW Wk4 | Culinary Twist Menu Brief - No-Workbook Route",
+   "copy_url": "https://docs.google.com/document/d/1IEEMlEs3ZkG2DA6Jok9mgCfz_72W75pXmx1zizh2KEI/copy",
+   "edit_url": "https://docs.google.com/document/d/1IEEMlEs3ZkG2DA6Jok9mgCfz_72W75pXmx1zizh2KEI/edit"
+  },
+  {
+   "slug": "3sw-wk4-motivation-career-comparison",
+   "week": "3SW-Wk4",
+   "folder_id": "1TCuEh-MT-pNOihqMZAqeemqfk_ithalj",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk4 Culinary Hospitality/Google Masters",
+   "canvas_file_id": 14591632,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk4-Day2",
+     "anchor_text": "the two-page Hospitality Career Comparison",
+     "student_page": "student-3sw-wk4-day-2-motivation-and-career-comparison",
+     "current_href": "https://docs.google.com/document/d/1hAmq_I2By-nnBtDjRtDGuUon_2eJnz7V0ZsitzvTJE4/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1TdqnPSqw2fNQomNG2YEeccu9B3t-goPAZ8GBfF5l7Sg",
+   "title": "Motivation and Hospitality Career Comparison",
+   "week_label": "3SW Wk4",
+   "gdoc_title": "CCE | 3SW Wk4 | Motivation and Hospitality Career Comparison",
+   "copy_url": "https://docs.google.com/document/d/1TdqnPSqw2fNQomNG2YEeccu9B3t-goPAZ8GBfF5l7Sg/copy",
+   "edit_url": "https://docs.google.com/document/d/1TdqnPSqw2fNQomNG2YEeccu9B3t-goPAZ8GBfF5l7Sg/edit"
+  },
+  {
+   "slug": "3sw-wk4-hotel-rescue-response",
+   "week": "3SW-Wk4",
+   "folder_id": "1TCuEh-MT-pNOihqMZAqeemqfk_ithalj",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk4 Culinary Hospitality/Google Masters",
+   "canvas_file_id": 14565376,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk4-Day3",
+     "anchor_text": "the two-page individual response",
+     "student_page": "student-3sw-wk4-day-3-hotel-rescue",
+     "current_href": "https://docs.google.com/document/d/1Oj57OAJ46I6-ijz_4a9LBza-ZZMgA_muvR8CecuDDOQ/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1xFafSRRk_oA2pj2U09UisaraZYJfLuBXSfpbeX-c5rw",
+   "title": "Hotel Rescue Team and Individual Response",
+   "week_label": "3SW Wk4",
+   "gdoc_title": "CCE | 3SW Wk4 | Hotel Rescue Team and Individual Response",
+   "copy_url": "https://docs.google.com/document/d/1xFafSRRk_oA2pj2U09UisaraZYJfLuBXSfpbeX-c5rw/copy",
+   "edit_url": "https://docs.google.com/document/d/1xFafSRRk_oA2pj2U09UisaraZYJfLuBXSfpbeX-c5rw/edit"
+  },
+  {
+   "slug": "3sw-wk4-cater-create-event-brief",
+   "week": "3SW-Wk4",
+   "folder_id": "1TCuEh-MT-pNOihqMZAqeemqfk_ithalj",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk4 Culinary Hospitality/Google Masters",
+   "canvas_file_id": 14591633,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk4-Day4",
+     "anchor_text": "the one-page Cater and Create companion",
+     "student_page": "student-3sw-wk4-day-4-cater-and-create",
+     "current_href": "https://docs.google.com/document/d/1PHXZ80hxX5neGBfEndFiOYzoDXbPoiCJwyLmTZTcCDM/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1gXpdnHjTZsoYqDuValhQLbaa1imAp-cR9EDiAzHeipQ",
+   "title": "Cater and Create Event Brief",
+   "week_label": "3SW Wk4",
+   "gdoc_title": "CCE | 3SW Wk4 | Cater and Create Event Brief",
+   "copy_url": "https://docs.google.com/document/d/1gXpdnHjTZsoYqDuValhQLbaa1imAp-cR9EDiAzHeipQ/copy",
+   "edit_url": "https://docs.google.com/document/d/1gXpdnHjTZsoYqDuValhQLbaa1imAp-cR9EDiAzHeipQ/edit"
+  },
+  {
+   "slug": "3sw-wk4-hospitality-recommendation",
+   "week": "3SW-Wk4",
+   "folder_id": "1TCuEh-MT-pNOihqMZAqeemqfk_ithalj",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk4 Culinary Hospitality/Google Masters",
+   "canvas_file_id": 14591634,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk4-Day5",
+     "anchor_text": "the Hospitality Recommendation",
+     "student_page": "student-3sw-wk4-day-5-hospitality-recommendation",
+     "current_href": "https://docs.google.com/document/d/1Wr0rdse241awjwewFuL4EWTFm-P4KpM39_vv58Xx_fM/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1n-kgN-OsHcl3AJ_vuSBc8MtEF1L6FNI1OoueatDzFi4",
+   "title": "Hospitality Career and Business Recommendation",
+   "week_label": "3SW Wk4",
+   "gdoc_title": "CCE | 3SW Wk4 | Hospitality Career and Business Recommendation",
+   "copy_url": "https://docs.google.com/document/d/1n-kgN-OsHcl3AJ_vuSBc8MtEF1L6FNI1OoueatDzFi4/copy",
+   "edit_url": "https://docs.google.com/document/d/1n-kgN-OsHcl3AJ_vuSBc8MtEF1L6FNI1OoueatDzFi4/edit"
+  },
+  {
+   "slug": "3sw-wk5-sfx-concept-lab-brief",
+   "week": "3SW-Wk5",
+   "folder_id": "1pyJ57fKRPTnRsgkuCFOIXgMImfr2aFpc",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk5 Cosmetology/Google Masters",
+   "canvas_file_id": 14565386,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk5-Day1",
+     "anchor_text": "the three-page no-workbook concept brief",
+     "student_page": "student-3sw-wk5-day-1-human-services-and-sfx-concept",
+     "current_href": "https://docs.google.com/document/d/1ryX4j0iuVW1J1qNBJ2KwdBvqsdYrpp46e8w0UOaEwhs/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1o6V9hWhD0eJWMfhc5Z3p3AqpFva3hHufqHLJ-5M8SwI",
+   "title": "SFX Texture Concept Brief - No-Workbook Route",
+   "week_label": "3SW Wk5",
+   "gdoc_title": "CCE | 3SW Wk5 | SFX Texture Concept Brief - No-Workbook Route",
+   "copy_url": "https://docs.google.com/document/d/1o6V9hWhD0eJWMfhc5Z3p3AqpFva3hHufqHLJ-5M8SwI/copy",
+   "edit_url": "https://docs.google.com/document/d/1o6V9hWhD0eJWMfhc5Z3p3AqpFva3hHufqHLJ-5M8SwI/edit"
+  },
+  {
+   "slug": "3sw-wk5-sfx-build-test-record",
+   "week": "3SW-Wk5",
+   "folder_id": "1pyJ57fKRPTnRsgkuCFOIXgMImfr2aFpc",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk5 Cosmetology/Google Masters",
+   "canvas_file_id": 14565387,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk5-Day2",
+     "anchor_text": "the one-page SFX Build and Test Record",
+     "student_page": "student-3sw-wk5-day-2-build-and-test-the-texture-model",
+     "current_href": "https://docs.google.com/document/d/1GGJnC_joQ8PRRUdSrnamndWsl7YR0UW_0xD0NoFr6L0/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "10uohDgYrFrVkMMN8BFMDrJ9P9CxcyySPft60bpa7RRw",
+   "title": "SFX Build and Test Record",
+   "week_label": "3SW Wk5",
+   "gdoc_title": "CCE | 3SW Wk5 | SFX Build and Test Record",
+   "copy_url": "https://docs.google.com/document/d/10uohDgYrFrVkMMN8BFMDrJ9P9CxcyySPft60bpa7RRw/copy",
+   "edit_url": "https://docs.google.com/document/d/10uohDgYrFrVkMMN8BFMDrJ9P9CxcyySPft60bpa7RRw/edit"
+  },
+  {
+   "slug": "3sw-wk5-cosmetology-pathway-decision",
+   "week": "3SW-Wk5",
+   "folder_id": "1pyJ57fKRPTnRsgkuCFOIXgMImfr2aFpc",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk5 Cosmetology/Google Masters",
+   "canvas_file_id": 14591641,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk5-Day3",
+     "anchor_text": "the two-page Pathway Decision",
+     "student_page": "student-3sw-wk5-day-3-quality-and-texas-pathways",
+     "current_href": "https://docs.google.com/document/d/1kyjKBPBjwuLSmcMw0ndfeefHLvcPSnkmgkBrxZeyDU8/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1LmpC2LJbtDjrf9Kysr5SFqqW5YqlYvVJ1A-gWdiXlnE",
+   "title": "Cosmetology Pathway Decision",
+   "week_label": "3SW Wk5",
+   "gdoc_title": "CCE | 3SW Wk5 | Cosmetology Pathway Decision",
+   "copy_url": "https://docs.google.com/document/d/1LmpC2LJbtDjrf9Kysr5SFqqW5YqlYvVJ1A-gWdiXlnE/copy",
+   "edit_url": "https://docs.google.com/document/d/1LmpC2LJbtDjrf9Kysr5SFqqW5YqlYvVJ1A-gWdiXlnE/edit"
+  },
+  {
+   "slug": "3sw-wk5-sfx-quality-revision",
+   "week": "3SW-Wk5",
+   "folder_id": "1pyJ57fKRPTnRsgkuCFOIXgMImfr2aFpc",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk5 Cosmetology/Google Masters",
+   "canvas_file_id": 14591640,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk5-Day3",
+     "anchor_text": "the enlarged no-workbook quality sheet",
+     "student_page": "student-3sw-wk5-day-3-quality-and-texas-pathways",
+     "current_href": "https://docs.google.com/document/d/1kyjKBPBjwuLSmcMw0ndfeefHLvcPSnkmgkBrxZeyDU8/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1fInQ9hz35nlT9qTSE-ri8Vhttmepg9Ry0OGKjENRELg",
+   "title": "SFX Quality Check and Revision Plan - No-Workbook Route",
+   "week_label": "3SW Wk5",
+   "gdoc_title": "CCE | 3SW Wk5 | SFX Quality Check and Revision Plan - No-Workbook Route",
+   "copy_url": "https://docs.google.com/document/d/1fInQ9hz35nlT9qTSE-ri8Vhttmepg9Ry0OGKjENRELg/copy",
+   "edit_url": "https://docs.google.com/document/d/1fInQ9hz35nlT9qTSE-ri8Vhttmepg9Ry0OGKjENRELg/edit"
+  },
+  {
+   "slug": "3sw-wk5-salon-wellness-campaign",
+   "week": "3SW-Wk5",
+   "folder_id": "1pyJ57fKRPTnRsgkuCFOIXgMImfr2aFpc",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk5 Cosmetology/Google Masters",
+   "canvas_file_id": 14565391,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk5-Day4",
+     "anchor_text": "the two-page Salon and Wellness Campaign Companion",
+     "student_page": "student-3sw-wk5-day-4-salon-and-wellness-campaign",
+     "current_href": "https://docs.google.com/document/d/1QnGfsgH7IQAfF1lx74yF9IVYr-Tq-pN_N-vqOqgkzTU/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1F-4Gk9kPWyCMJJXf0tEsHYcIUG92_NIsHphd-NCynx8",
+   "title": "Salon and Wellness Campaign Companion",
+   "week_label": "3SW Wk5",
+   "gdoc_title": "CCE | 3SW Wk5 | Salon and Wellness Campaign Companion",
+   "copy_url": "https://docs.google.com/document/d/1F-4Gk9kPWyCMJJXf0tEsHYcIUG92_NIsHphd-NCynx8/copy",
+   "edit_url": "https://docs.google.com/document/d/1F-4Gk9kPWyCMJJXf0tEsHYcIUG92_NIsHphd-NCynx8/edit"
+  },
+  {
+   "slug": "3sw-wk5-cosmetology-recommendation",
+   "week": "3SW-Wk5",
+   "folder_id": "1pyJ57fKRPTnRsgkuCFOIXgMImfr2aFpc",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk5 Cosmetology/Google Masters",
+   "canvas_file_id": 14565392,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk5-Day5",
+     "anchor_text": "the recommendation",
+     "student_page": "student-3sw-wk5-day-5-career-and-business-recommendation",
+     "current_href": "https://docs.google.com/document/d/1seFxBdnkUUdabcM9bMekEA7ZjpD0mwEklb4lyUVlang/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1vDLiPTbqRKLVWCqMvtc_-1i7R_90bGANl3qxbkeP_l4",
+   "title": "Cosmetology Career and Business Recommendation",
+   "week_label": "3SW Wk5",
+   "gdoc_title": "CCE | 3SW Wk5 | Cosmetology Career and Business Recommendation",
+   "copy_url": "https://docs.google.com/document/d/1vDLiPTbqRKLVWCqMvtc_-1i7R_90bGANl3qxbkeP_l4/copy",
+   "edit_url": "https://docs.google.com/document/d/1vDLiPTbqRKLVWCqMvtc_-1i7R_90bGANl3qxbkeP_l4/edit"
+  },
+  {
+   "slug": "3sw-wk6-entrepreneurship-opportunity-guide",
+   "week": "3SW-Wk6",
+   "folder_id": "14MZFfYRR8oAsadF01gUZ6NZGUi58VWBW",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk6 Entrepreneurship/Google Masters",
+   "canvas_file_id": 14561631,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk6-Day1",
+     "anchor_text": "the two-page Entrepreneurship Opportunity Guide",
+     "student_page": "student-3sw-wk6-day-1-entrepreneurship-opportunities",
+     "current_href": "https://docs.google.com/document/d/1kS1AzgrAqLeZukTZ6ql_z0SzqMLTvKmUsBumDwR-swk/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1kUMxIn62Gma1uqow3R9qe6ZZ-3pHnd7shhScR-cLY98",
+   "title": "Entrepreneurship Opportunity Guide",
+   "week_label": "3SW Wk6",
+   "gdoc_title": "CCE | 3SW Wk6 | Entrepreneurship Opportunity Guide",
+   "copy_url": "https://docs.google.com/document/d/1kUMxIn62Gma1uqow3R9qe6ZZ-3pHnd7shhScR-cLY98/copy",
+   "edit_url": "https://docs.google.com/document/d/1kUMxIn62Gma1uqow3R9qe6ZZ-3pHnd7shhScR-cLY98/edit"
+  },
+  {
+   "slug": "3sw-wk6-million-dollar-idea-support-packet",
+   "week": "3SW-Wk6",
+   "folder_id": "14MZFfYRR8oAsadF01gUZ6NZGUi58VWBW",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk6 Entrepreneurship/Google Masters",
+   "canvas_file_id": 14591642,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk6-Day2",
+     "anchor_text": "the support and catch-up packet",
+     "student_page": "student-3sw-wk6-day-2-problem-and-idea-sprint",
+     "current_href": "https://docs.google.com/document/d/1fxcakYpq4YFYJO0OvWCdxi7NkIoDx3cRBeKYb0sZrWY/copy"
+    },
+    {
+     "day_key": "3SW-Wk6-Day3",
+     "anchor_text": "the support packet",
+     "student_page": "student-3sw-wk6-day-3-stress-test-and-decide",
+     "current_href": "https://docs.google.com/document/d/16qhLtCZXfq3-hjAbD0m3wwpHAgdMjDWxNDxLVRuwjtM/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1oZ_V2ieQiZ5616eUB--PbkF6v4G7Ko2Ft3IhJxcIeoA",
+   "title": "Million Dollar Idea - Support and Catch-Up Packet",
+   "week_label": "3SW Wk6",
+   "gdoc_title": "CCE | 3SW Wk6 | Million Dollar Idea - Support and Catch-Up Packet",
+   "copy_url": "https://docs.google.com/document/d/1oZ_V2ieQiZ5616eUB--PbkF6v4G7Ko2Ft3IhJxcIeoA/copy",
+   "edit_url": "https://docs.google.com/document/d/1oZ_V2ieQiZ5616eUB--PbkF6v4G7Ko2Ft3IhJxcIeoA/edit"
+  },
+  {
+   "slug": "3sw-wk6-venture-brief-and-pitch-record",
+   "week": "3SW-Wk6",
+   "folder_id": "14MZFfYRR8oAsadF01gUZ6NZGUi58VWBW",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk6 Entrepreneurship/Google Masters",
+   "canvas_file_id": 14561633,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk6-Day4",
+     "anchor_text": "the Venture Brief and Individual Pitch Record",
+     "student_page": "student-3sw-wk6-day-4-venture-brief-and-pitch",
+     "current_href": "https://docs.google.com/document/d/1pgDBYyBjHCXEex_heuEL0bhRnSPv5e0J1F7R2gtqQdQ/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1cCYMFzSWUJVKiB9kEU1QHNSQMnx_tx4swQgSaZUjmFE",
+   "title": "Venture Brief and Individual Pitch Record",
+   "week_label": "3SW Wk6",
+   "gdoc_title": "CCE | 3SW Wk6 | Venture Brief and Individual Pitch Record",
+   "copy_url": "https://docs.google.com/document/d/1cCYMFzSWUJVKiB9kEU1QHNSQMnx_tx4swQgSaZUjmFE/copy",
+   "edit_url": "https://docs.google.com/document/d/1cCYMFzSWUJVKiB9kEU1QHNSQMnx_tx4swQgSaZUjmFE/edit"
+  },
+  {
+   "slug": "3sw-wk6-budget-and-scholarship-plan",
+   "week": "3SW-Wk6",
+   "folder_id": "14MZFfYRR8oAsadF01gUZ6NZGUi58VWBW",
+   "folder_path": "VILS27/Units_CCR/SW3 \u00b7 Wk6 Entrepreneurship/Google Masters",
+   "canvas_file_id": 14663175,
+   "used_by": [
+    {
+     "day_key": "3SW-Wk6-Day5",
+     "anchor_text": "the Personal Budget and Decision Plan",
+     "student_page": "student-3sw-wk6-day-5-build-and-revise-a-personal-budget",
+     "current_href": "https://docs.google.com/document/d/1JSekSC6t7jLXY2Yl0nHvdmD0l-HqGSJZvy13PK0UGy4/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1Z6ZI5BQB1cvPmGp_CxdwOMoW9rItpRfMYZXpNWTal0w",
+   "title": "Personal Budget and Decision Plan",
+   "week_label": "3SW Wk6",
+   "gdoc_title": "CCE | 3SW Wk6 | Personal Budget and Decision Plan",
+   "copy_url": "https://docs.google.com/document/d/1Z6ZI5BQB1cvPmGp_CxdwOMoW9rItpRfMYZXpNWTal0w/copy",
+   "edit_url": "https://docs.google.com/document/d/1Z6ZI5BQB1cvPmGp_CxdwOMoW9rItpRfMYZXpNWTal0w/edit"
+  },
+  {
+   "slug": "4sw-wk1-midyear-profile-audit",
+   "week": "4SW-Wk1",
+   "folder_id": "1Jq---i_sWa3zybWPSt8wV01Bs_y-7X_7",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk1 Career Planning/Google Masters",
+   "canvas_file_id": 14565910,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk1-Day1",
+     "anchor_text": "Open the same audit",
+     "student_page": "student-4sw-wk1-day-1-profile-audit",
+     "current_href": "https://docs.google.com/document/d/18PB5zUUTEgQaVmOH_cqam_ozNeeg6QYXy0PliAQc99c/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1hYba2Nc6Lkl-53VC-Ln5pI455dT9FkZj1fVL_08s6WQ",
+   "title": "Mid-Year Profile and Career Evidence Audit",
+   "week_label": "4SW Wk1",
+   "gdoc_title": "CCE | 4SW Wk1 | Mid-Year Profile and Career Evidence Audit",
+   "copy_url": "https://docs.google.com/document/d/1hYba2Nc6Lkl-53VC-Ln5pI455dT9FkZj1fVL_08s6WQ/copy",
+   "edit_url": "https://docs.google.com/document/d/1hYba2Nc6Lkl-53VC-Ln5pI455dT9FkZj1fVL_08s6WQ/edit"
+  },
+  {
+   "slug": "4sw-wk1-career-iceberg-and-goal",
+   "week": "4SW-Wk1",
+   "folder_id": "1Jq---i_sWa3zybWPSt8wV01Bs_y-7X_7",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk1 Career Planning/Google Masters",
+   "canvas_file_id": 14565911,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk1-Day2",
+     "anchor_text": "the enlarged support packet",
+     "student_page": "student-4sw-wk1-day-2-career-iceberg",
+     "current_href": "https://docs.google.com/document/d/1EsDBV1nbncBIm6_Wo7nwTfztMKPw5jgAUoLUBIDfEOs/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1DlHVY9yAxSr5PJS9WMNNw8ItxxkIuFH2SyFbKhiuNLA",
+   "title": "Career Iceberg and Career Goal",
+   "week_label": "4SW Wk1",
+   "gdoc_title": "CCE | 4SW Wk1 | Career Iceberg and Career Goal",
+   "copy_url": "https://docs.google.com/document/d/1DlHVY9yAxSr5PJS9WMNNw8ItxxkIuFH2SyFbKhiuNLA/copy",
+   "edit_url": "https://docs.google.com/document/d/1DlHVY9yAxSr5PJS9WMNNw8ItxxkIuFH2SyFbKhiuNLA/edit"
+  },
+  {
+   "slug": "4sw-wk1-career-deep-dive",
+   "week": "4SW-Wk1",
+   "folder_id": "1Jq---i_sWa3zybWPSt8wV01Bs_y-7X_7",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk1 Career Planning/Google Masters",
+   "canvas_file_id": 14662863,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk1-Day3",
+     "anchor_text": "the Quick Sim Decision Record",
+     "student_page": "student-4sw-wk1-day-3-xello-save-quick-sims",
+     "current_href": "https://docs.google.com/document/d/1ZqAjo6PImJeqq2637mLc6Di0nY7E9nEEudKFRo04-N0/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1ZHQnYqCh61yj89aHSLUp-28_UfZYlyL0xKJvUMClh9s",
+   "title": "Xello Quick Sim Decision Record",
+   "week_label": "4SW Wk1",
+   "gdoc_title": "CCE | 4SW Wk1 | Xello Quick Sim Decision Record",
+   "copy_url": "https://docs.google.com/document/d/1ZHQnYqCh61yj89aHSLUp-28_UfZYlyL0xKJvUMClh9s/copy",
+   "edit_url": "https://docs.google.com/document/d/1ZHQnYqCh61yj89aHSLUp-28_UfZYlyL0xKJvUMClh9s/edit"
+  },
+  {
+   "slug": "4sw-wk1-pathway-and-ctso-decision",
+   "week": "4SW-Wk1",
+   "folder_id": "1Jq---i_sWa3zybWPSt8wV01Bs_y-7X_7",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk1 Career Planning/Google Masters",
+   "canvas_file_id": 14591646,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk1-Day4",
+     "anchor_text": "the four-page paper or enlarged route",
+     "student_page": "student-4sw-wk1-day-4-pathway-and-ctso-decision",
+     "current_href": "https://docs.google.com/document/d/1_F79rG1DQFUmQKMeeDj6UZ_cw0PNr7QRHIlmSEiYZvQ/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1rfAIYlGwxR8vaC8-foyMKX39To99bd6VgDMvpiAbotk",
+   "title": "Irving Pathway and CTSO Decision Guide",
+   "week_label": "4SW Wk1",
+   "gdoc_title": "CCE | 4SW Wk1 | Irving Pathway and CTSO Decision Guide",
+   "copy_url": "https://docs.google.com/document/d/1rfAIYlGwxR8vaC8-foyMKX39To99bd6VgDMvpiAbotk/copy",
+   "edit_url": "https://docs.google.com/document/d/1rfAIYlGwxR8vaC8-foyMKX39To99bd6VgDMvpiAbotk/edit"
+  },
+  {
+   "slug": "4sw-wk1-midyear-career-blueprint",
+   "week": "4SW-Wk1",
+   "folder_id": "1Jq---i_sWa3zybWPSt8wV01Bs_y-7X_7",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk1 Career Planning/Google Masters",
+   "canvas_file_id": 14662864,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk1-Day5",
+     "anchor_text": "the three-page Mid-Year Career Blueprint",
+     "student_page": "student-4sw-wk1-day-5-mid-year-career-blueprint",
+     "current_href": "https://docs.google.com/document/d/16oW1HGXv9XObRcYogVaTxrfsx_JsEEWRlMqj4LSX7p4/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1h24Z_QBTM4tVNec-am3Z9hU3ADqLoNWN9xuor6hKYf0",
+   "title": "Mid-Year Career Blueprint",
+   "week_label": "4SW Wk1",
+   "gdoc_title": "CCE | 4SW Wk1 | Mid-Year Career Blueprint",
+   "copy_url": "https://docs.google.com/document/d/1h24Z_QBTM4tVNec-am3Z9hU3ADqLoNWN9xuor6hKYf0/copy",
+   "edit_url": "https://docs.google.com/document/d/1h24Z_QBTM4tVNec-am3Z9hU3ADqLoNWN9xuor6hKYf0/edit"
+  },
+  {
+   "slug": "4sw-wk2-transition-and-assessment-decisions",
+   "week": "4SW-Wk2",
+   "folder_id": "1zjqyuU-DAi4JXPSFAl2EBAJPxeU3kVgj",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk2 Course Mapping/Google Masters",
+   "canvas_file_id": 14591648,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk2-Day1",
+     "anchor_text": "the three-page Transition and Assessment Decisions packet",
+     "student_page": "student-4sw-wk2-day-1-graduation-and-assessment-decisions",
+     "current_href": "https://docs.google.com/document/d/1FHBRmPf2oEAL4hs_1Ju3S8goOTSIBSzYJlySyL6Ymbc/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1fiJcNOydbaFERD-j-QHC23b8YeljbxY0KZo-E3tG0HM",
+   "title": "High School Transition and Assessment Decisions",
+   "week_label": "4SW Wk2",
+   "gdoc_title": "CCE | 4SW Wk2 | High School Transition and Assessment Decisions",
+   "copy_url": "https://docs.google.com/document/d/1fiJcNOydbaFERD-j-QHC23b8YeljbxY0KZo-E3tG0HM/copy",
+   "edit_url": "https://docs.google.com/document/d/1fiJcNOydbaFERD-j-QHC23b8YeljbxY0KZo-E3tG0HM/edit"
+  },
+  {
+   "slug": "4sw-wk2-four-year-course-plan-draft",
+   "week": "4SW-Wk2",
+   "folder_id": "1zjqyuU-DAi4JXPSFAl2EBAJPxeU3kVgj",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk2 Course Mapping/Google Masters",
+   "canvas_file_id": 14662869,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk2-Day2",
+     "anchor_text": "the three-page paper or enlarged route",
+     "student_page": "student-4sw-wk2-day-2-four-year-course-plan-draft",
+     "current_href": "https://docs.google.com/document/d/13ZZOHIa50pYUII07a18JS8H5tqvC48holY_5FsoHSvk/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1GijwgDq2BKXHHb_YHANv8QW3ccs8e6wy4JYNcdngbGA",
+   "title": "Counseling-Ready Four-Year Course Plan Draft",
+   "week_label": "4SW Wk2",
+   "gdoc_title": "CCE | 4SW Wk2 | Counseling-Ready Four-Year Course Plan Draft",
+   "copy_url": "https://docs.google.com/document/d/1GijwgDq2BKXHHb_YHANv8QW3ccs8e6wy4JYNcdngbGA/copy",
+   "edit_url": "https://docs.google.com/document/d/1GijwgDq2BKXHHb_YHANv8QW3ccs8e6wy4JYNcdngbGA/edit"
+  },
+  {
+   "slug": "4sw-wk2-college-credit-and-family-conversation",
+   "week": "4SW-Wk2",
+   "folder_id": "1zjqyuU-DAi4JXPSFAl2EBAJPxeU3kVgj",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk2 Course Mapping/Google Masters",
+   "canvas_file_id": 14611265,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk2-Day3",
+     "anchor_text": "the two-page Postsecondary Route Trail and College Credit Check",
+     "student_page": "student-4sw-wk2-day-3-postsecondary-route-trail-and-college-credit",
+     "current_href": "https://docs.google.com/document/d/1UTtvcgwuEG_hb2H07bBlOV7DGGlrkLivLC5y_QRY1Pc/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "177tKeKbKrWRnLgjgLkut1YTeIPOoC1As79HtD6XgGQA",
+   "title": "Postsecondary Route Trail and College Credit Check",
+   "week_label": "4SW Wk2",
+   "gdoc_title": "CCE | 4SW Wk2 | Postsecondary Route Trail and College Credit Check",
+   "copy_url": "https://docs.google.com/document/d/177tKeKbKrWRnLgjgLkut1YTeIPOoC1As79HtD6XgGQA/copy",
+   "edit_url": "https://docs.google.com/document/d/177tKeKbKrWRnLgjgLkut1YTeIPOoC1As79HtD6XgGQA/edit"
+  },
+  {
+   "slug": "4sw-wk2-smart-experience-action-plan",
+   "week": "4SW-Wk2",
+   "folder_id": "1zjqyuU-DAi4JXPSFAl2EBAJPxeU3kVgj",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk2 Course Mapping/Google Masters",
+   "canvas_file_id": 14565921,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk2-Day4",
+     "anchor_text": "the one-page Experience Access and Backup Check",
+     "student_page": "student-4sw-wk2-day-4-smart-experience-action-plan",
+     "current_href": "https://docs.google.com/document/d/1k3q0gjVSKTnITMgSMUGo4IJi7htSGrzjAtjC2dIYIbo/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "14cffb8TBar80pJzJfC2DMWwSvRCbXPIIX0CelwJ4oy8",
+   "title": "Experience Access and Backup Check",
+   "week_label": "4SW Wk2",
+   "gdoc_title": "CCE | 4SW Wk2 | Experience Access and Backup Check",
+   "copy_url": "https://docs.google.com/document/d/14cffb8TBar80pJzJfC2DMWwSvRCbXPIIX0CelwJ4oy8/copy",
+   "edit_url": "https://docs.google.com/document/d/14cffb8TBar80pJzJfC2DMWwSvRCbXPIIX0CelwJ4oy8/edit"
+  },
+  {
+   "slug": "4sw-wk2-individual-high-school-career-plan",
+   "week": "4SW-Wk2",
+   "folder_id": "1zjqyuU-DAi4JXPSFAl2EBAJPxeU3kVgj",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk2 Course Mapping/Google Masters",
+   "canvas_file_id": 14611266,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk2-Day5",
+     "anchor_text": "the four-page Individual Plan",
+     "student_page": "student-4sw-wk2-day-5-individual-high-school-and-career-plan",
+     "current_href": "https://docs.google.com/document/d/1HOPW6oUfdmUxeelvp6hZBe3L6dNj-By-1_C_YkpGtTA/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1SFiPh8NiwihHIuVY8v1P-9qx0BLb26AdlgntcHmUer0",
+   "title": "Individual High School and Career Plan",
+   "week_label": "4SW Wk2",
+   "gdoc_title": "CCE | 4SW Wk2 | Individual High School and Career Plan",
+   "copy_url": "https://docs.google.com/document/d/1SFiPh8NiwihHIuVY8v1P-9qx0BLb26AdlgntcHmUer0/copy",
+   "edit_url": "https://docs.google.com/document/d/1SFiPh8NiwihHIuVY8v1P-9qx0BLb26AdlgntcHmUer0/edit"
+  },
+  {
+   "slug": "4sw-wk3-transportation-survey-design",
+   "week": "4SW-Wk3",
+   "folder_id": "1yCIHh19kJ8Y_TBGLBuVsGGW_q5cyJ9si",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk3 Aviation/Google Masters",
+   "canvas_file_id": 14591653,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk3-Day1",
+     "anchor_text": "the three-page team Survey Project packet",
+     "student_page": "student-4sw-wk3-day-1-transportation-cluster-and-survey-design",
+     "current_href": "https://docs.google.com/document/d/10ohTnYd-lOa0nJF5tJY0S2GF5fXTfyRIQZ-8g-coQsA/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1A0V4Nn-TMP63XzOMNflx3lzUDD4cnHG01eJHksQRXmE",
+   "title": "Transportation Survey Project",
+   "week_label": "4SW Wk3",
+   "gdoc_title": "CCE | 4SW Wk3 | Transportation Survey Project",
+   "copy_url": "https://docs.google.com/document/d/1A0V4Nn-TMP63XzOMNflx3lzUDD4cnHG01eJHksQRXmE/copy",
+   "edit_url": "https://docs.google.com/document/d/1A0V4Nn-TMP63XzOMNflx3lzUDD4cnHG01eJHksQRXmE/edit"
+  },
+  {
+   "slug": "4sw-wk3-aviation-route-action-plan",
+   "week": "4SW-Wk3",
+   "folder_id": "1yCIHh19kJ8Y_TBGLBuVsGGW_q5cyJ9si",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk3 Aviation/Google Masters",
+   "canvas_file_id": 14591657,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk3-Day2",
+     "anchor_text": "the four-page Aviation Route and Action Plan",
+     "student_page": "student-4sw-wk3-day-2-aviation-careers-and-pilot-routes",
+     "current_href": "https://docs.google.com/document/d/1BPzq5FNEPnIripyPzS4ozvCFYG-gDwSFnO3-vayA970/copy"
+    },
+    {
+     "day_key": "4SW-Wk3-Day5",
+     "anchor_text": "the four-page Action Plan you started on Day 2",
+     "student_page": "student-4sw-wk3-day-5-aviation-route-and-action-plan",
+     "current_href": "https://docs.google.com/document/d/1Gz8Am3Vh96A-zmUjqc9SIHkLQvrzrAsHZ5DOG3siPkQ/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1vfiD9QaiSImZdd34XeaZd2jR17--dXZZltuTeprZ2O4",
+   "title": "Aviation Route and Action Plan",
+   "week_label": "4SW Wk3",
+   "gdoc_title": "CCE | 4SW Wk3 | Aviation Route and Action Plan",
+   "copy_url": "https://docs.google.com/document/d/1vfiD9QaiSImZdd34XeaZd2jR17--dXZZltuTeprZ2O4/copy",
+   "edit_url": "https://docs.google.com/document/d/1vfiD9QaiSImZdd34XeaZd2jR17--dXZZltuTeprZ2O4/edit"
+  },
+  {
+   "slug": "4sw-wk3-airport-design-simulation-lab",
+   "week": "4SW-Wk3",
+   "folder_id": "1yCIHh19kJ8Y_TBGLBuVsGGW_q5cyJ9si",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk3 Aviation/Google Masters",
+   "canvas_file_id": 14591655,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk3-Day3",
+     "anchor_text": "the Airport Design and Simulation Lab",
+     "student_page": "student-4sw-wk3-day-3-design-a-classroom-airport-map",
+     "current_href": "https://docs.google.com/document/d/1NoxkYkBjsGyatc8fXfwWPpUyy4tdG3eB4kuEihW9SQA/copy"
+    },
+    {
+     "day_key": "4SW-Wk3-Day4",
+     "anchor_text": "the four-page Lab",
+     "student_page": "student-4sw-wk3-day-4-test-communicate-and-revise",
+     "current_href": "https://docs.google.com/document/d/1YsyKwSUWhluBG4K57MbfLDifokpiJ52rya_cXEYZf84/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1A3wSkSTP3AmPijnYeIimY61Mrz-e41QYtIT3lQn3y5Q",
+   "title": "Airport Design and Simulation Lab",
+   "week_label": "4SW Wk3",
+   "gdoc_title": "CCE | 4SW Wk3 | Airport Design and Simulation Lab",
+   "copy_url": "https://docs.google.com/document/d/1A3wSkSTP3AmPijnYeIimY61Mrz-e41QYtIT3lQn3y5Q/copy",
+   "edit_url": "https://docs.google.com/document/d/1A3wSkSTP3AmPijnYeIimY61Mrz-e41QYtIT3lQn3y5Q/edit"
+  },
+  {
+   "slug": "4sw-wk4-wildlife-tracking-drone-design",
+   "week": "4SW-Wk4",
+   "folder_id": "1Z-AsFN54GfWI8pQ0o7rq7vwqVVe909yq",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk4 Drone Engineering/Google Masters",
+   "canvas_file_id": 14565933,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk4-Day1",
+     "anchor_text": "the three-page Design Companion",
+     "student_page": "student-4sw-wk4-day-1-wildlife-tracking-system-design",
+     "current_href": "https://docs.google.com/document/d/1FpI4-sVtxObstQ-G4HS_icx7GZPr2G_HAkF0ZBIH9pI/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1o8VsuCR4cMezcCxw632lxh7nHGPxQSIcFyJXMFhlFLA",
+   "title": "Wildlife-Tracking System Design Companion",
+   "week_label": "4SW Wk4",
+   "gdoc_title": "CCE | 4SW Wk4 | Wildlife-Tracking System Design Companion",
+   "copy_url": "https://docs.google.com/document/d/1o8VsuCR4cMezcCxw632lxh7nHGPxQSIcFyJXMFhlFLA/copy",
+   "edit_url": "https://docs.google.com/document/d/1o8VsuCR4cMezcCxw632lxh7nHGPxQSIcFyJXMFhlFLA/edit"
+  },
+  {
+   "slug": "4sw-wk4-drone-operation-decision-readiness",
+   "week": "4SW-Wk4",
+   "folder_id": "1Z-AsFN54GfWI8pQ0o7rq7vwqVVe909yq",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk4 Drone Engineering/Google Masters",
+   "canvas_file_id": 14565935,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk4-Day3",
+     "anchor_text": "the three-page Decision and Readiness guide",
+     "student_page": "student-4sw-wk4-day-3-drone-rules-and-readiness",
+     "current_href": "https://docs.google.com/document/d/1unYsGDoEuXWU6xB4_m1ExC63AV9rRwwHmaQFspUEIek/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "16-ZbTANnfVbRs_WXM_eY2VLjqI0AWfpIDGIy-cMGjGo",
+   "title": "Drone Operation Decision and Readiness",
+   "week_label": "4SW Wk4",
+   "gdoc_title": "CCE | 4SW Wk4 | Drone Operation Decision and Readiness",
+   "copy_url": "https://docs.google.com/document/d/16-ZbTANnfVbRs_WXM_eY2VLjqI0AWfpIDGIy-cMGjGo/copy",
+   "edit_url": "https://docs.google.com/document/d/16-ZbTANnfVbRs_WXM_eY2VLjqI0AWfpIDGIy-cMGjGo/edit"
+  },
+  {
+   "slug": "4sw-wk4-drone-systems-test",
+   "week": "4SW-Wk4",
+   "folder_id": "1Z-AsFN54GfWI8pQ0o7rq7vwqVVe909yq",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk4 Drone Engineering/Google Masters",
+   "canvas_file_id": 14591659,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk4-Day4",
+     "anchor_text": "the Test and Iteration log",
+     "student_page": "student-4sw-wk4-day-4-systems-test-and-iteration",
+     "current_href": "https://docs.google.com/document/d/1O--YPUluSbQp-3d5noaO4qYW6EJLvr68OT6IxTrVgEc/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1HyAF8wUJjGnIPKdKvjQXDSiFFjGW3JrgenpawyhEIeE",
+   "title": "Drone Systems Test and Iteration",
+   "week_label": "4SW Wk4",
+   "gdoc_title": "CCE | 4SW Wk4 | Drone Systems Test and Iteration",
+   "copy_url": "https://docs.google.com/document/d/1HyAF8wUJjGnIPKdKvjQXDSiFFjGW3JrgenpawyhEIeE/copy",
+   "edit_url": "https://docs.google.com/document/d/1HyAF8wUJjGnIPKdKvjQXDSiFFjGW3JrgenpawyhEIeE/edit"
+  },
+  {
+   "slug": "4sw-wk4-drone-systems-evidence-brief",
+   "week": "4SW-Wk4",
+   "folder_id": "1Z-AsFN54GfWI8pQ0o7rq7vwqVVe909yq",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk4 Drone Engineering/Google Masters",
+   "canvas_file_id": 14565937,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk4-Day5",
+     "anchor_text": "the four-page Evidence Brief",
+     "student_page": "student-4sw-wk4-day-5-drone-systems-evidence-brief",
+     "current_href": "https://docs.google.com/document/d/1zNxj18QLGZZ3oTS3b0ISEMY99mxe2n093B3vMuJRNfY/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1npYQgF5q5AvdOeOXr4O19kZHITHjwXveb1E_u80vBMo",
+   "title": "Drone Systems Evidence Brief",
+   "week_label": "4SW Wk4",
+   "gdoc_title": "CCE | 4SW Wk4 | Drone Systems Evidence Brief",
+   "copy_url": "https://docs.google.com/document/d/1npYQgF5q5AvdOeOXr4O19kZHITHjwXveb1E_u80vBMo/copy",
+   "edit_url": "https://docs.google.com/document/d/1npYQgF5q5AvdOeOXr4O19kZHITHjwXveb1E_u80vBMo/edit"
+  },
+  {
+   "slug": "4sw-wk5-crash-crew-evidence-and-preliminary-plan",
+   "week": "4SW-Wk5",
+   "folder_id": "165bCNBHr9eBZtiXzCw_MA9K3k08AvJor",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk5 Automotive/Google Masters",
+   "canvas_file_id": 14591661,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk5-Day1",
+     "anchor_text": "the three-page companion",
+     "student_page": "student-4sw-wk5-day-1-crash-crew-visible-evidence",
+     "current_href": "https://docs.google.com/document/d/12-zn-B5yiebc6pDvgM7FspnCNktgeg1IRhL5ctD_bOg/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1UGVLwn95TzwKjh5TMie3vevmTipWhCT2mJhAvIcMOLo",
+   "title": "Crash Crew Evidence Companion",
+   "week_label": "4SW Wk5",
+   "gdoc_title": "CCE | 4SW Wk5 | Crash Crew Evidence Companion",
+   "copy_url": "https://docs.google.com/document/d/1UGVLwn95TzwKjh5TMie3vevmTipWhCT2mJhAvIcMOLo/copy",
+   "edit_url": "https://docs.google.com/document/d/1UGVLwn95TzwKjh5TMie3vevmTipWhCT2mJhAvIcMOLo/edit"
+  },
+  {
+   "slug": "4sw-wk5-ase-and-automotive-training-routes",
+   "week": "4SW-Wk5",
+   "folder_id": "165bCNBHr9eBZtiXzCw_MA9K3k08AvJor",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk5 Automotive/Google Masters",
+   "canvas_file_id": 14591662,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk5-Day2",
+     "anchor_text": "the three-page fallback",
+     "student_page": "student-4sw-wk5-day-2-ase-and-training-routes",
+     "current_href": "https://docs.google.com/document/d/1BmWQLbNzcSTCCzVb3Rx2DN76sLeDojqqIv0cz4x-iJs/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1q4zKpAD-i2cRJP5_1uWHcgXnFuEr6vow50xye1JR05U",
+   "title": "ASE and Automotive Training Routes",
+   "week_label": "4SW Wk5",
+   "gdoc_title": "CCE | 4SW Wk5 | ASE and Automotive Training Routes",
+   "copy_url": "https://docs.google.com/document/d/1q4zKpAD-i2cRJP5_1uWHcgXnFuEr6vow50xye1JR05U/copy",
+   "edit_url": "https://docs.google.com/document/d/1q4zKpAD-i2cRJP5_1uWHcgXnFuEr6vow50xye1JR05U/edit"
+  },
+  {
+   "slug": "4sw-wk5-three-automotive-occupations",
+   "week": "4SW-Wk5",
+   "folder_id": "165bCNBHr9eBZtiXzCw_MA9K3k08AvJor",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk5 Automotive/Google Masters",
+   "canvas_file_id": 14591663,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk5-Day3",
+     "anchor_text": "the three-page landscape comparison",
+     "student_page": "student-4sw-wk5-day-3-three-automotive-occupations",
+     "current_href": "https://docs.google.com/document/d/1ESxIlENa8I2p_Id22M1MWpadUiPORCdvMUQOCDjAEFw/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1JsdOmMzpypwNuPMfeyb7bXU4hywWB0Y0qeZpzkP6duI",
+   "title": "Three Automotive Occupations",
+   "week_label": "4SW Wk5",
+   "gdoc_title": "CCE | 4SW Wk5 | Three Automotive Occupations",
+   "copy_url": "https://docs.google.com/document/d/1JsdOmMzpypwNuPMfeyb7bXU4hywWB0Y0qeZpzkP6duI/copy",
+   "edit_url": "https://docs.google.com/document/d/1JsdOmMzpypwNuPMfeyb7bXU4hywWB0Y0qeZpzkP6duI/edit"
+  },
+  {
+   "slug": "4sw-wk5-automotive-route-decision",
+   "week": "4SW-Wk5",
+   "folder_id": "165bCNBHr9eBZtiXzCw_MA9K3k08AvJor",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk5 Automotive/Google Masters",
+   "canvas_file_id": 14591664,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk5-Day4",
+     "anchor_text": "the two-page fallback",
+     "student_page": "student-4sw-wk5-day-4-automotive-route-decision",
+     "current_href": "https://docs.google.com/document/d/15Acl2fGi19EGfnmer7POoHQk_T0noZK8kkikYweJOP0/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1sNo526Z1jAWVNNgL81_mMlTZaxXk_F6Iy82zn-VIqzc",
+   "title": "Automotive Route Decision",
+   "week_label": "4SW Wk5",
+   "gdoc_title": "CCE | 4SW Wk5 | Automotive Route Decision",
+   "copy_url": "https://docs.google.com/document/d/1sNo526Z1jAWVNNgL81_mMlTZaxXk_F6Iy82zn-VIqzc/copy",
+   "edit_url": "https://docs.google.com/document/d/1sNo526Z1jAWVNNgL81_mMlTZaxXk_F6Iy82zn-VIqzc/edit"
+  },
+  {
+   "slug": "4sw-wk5-automotive-evidence-brief",
+   "week": "4SW-Wk5",
+   "folder_id": "165bCNBHr9eBZtiXzCw_MA9K3k08AvJor",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk5 Automotive/Google Masters",
+   "canvas_file_id": 14591665,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk5-Day5",
+     "anchor_text": "the four-page Evidence Brief",
+     "student_page": "student-4sw-wk5-day-5-automotive-evidence-brief",
+     "current_href": "https://docs.google.com/document/d/1bEfkSffo1qv-bx1I254kjyF_5uGh4BaFQScK9c7WMuM/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1VKzps1fkDDCd0edwIaKYKbzlX-tkt36C1tSqgD_ojhs",
+   "title": "Automotive Evidence Brief",
+   "week_label": "4SW Wk5",
+   "gdoc_title": "CCE | 4SW Wk5 | Automotive Evidence Brief",
+   "copy_url": "https://docs.google.com/document/d/1VKzps1fkDDCd0edwIaKYKbzlX-tkt36C1tSqgD_ojhs/copy",
+   "edit_url": "https://docs.google.com/document/d/1VKzps1fkDDCd0edwIaKYKbzlX-tkt36C1tSqgD_ojhs/edit"
+  },
+  {
+   "slug": "4sw-wk6-truck-evidence-and-priority",
+   "week": "4SW-Wk6",
+   "folder_id": "1L-_81qFztEXrX1JYGEuTqPJ3htwCHkM2",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk6 Trades Capstone/Google Masters",
+   "canvas_file_id": 14565956,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk6-Day1",
+     "anchor_text": "the three-page no-workbook fallback",
+     "student_page": "student-4sw-wk6-day-1-what-the-clues-support",
+     "current_href": "https://docs.google.com/document/d/1b7dc2JQwH9hlOUSGw2jDmPfygIRGzD_Sj9NqCUw_GVM/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1RaEv6-7sMIEAUdkF-uR3PrQYYac1AD_GV-YZ5bymg0g",
+   "title": "Truck Evidence and Priority",
+   "week_label": "4SW Wk6",
+   "gdoc_title": "CCE | 4SW Wk6 | Truck Evidence and Priority",
+   "copy_url": "https://docs.google.com/document/d/1RaEv6-7sMIEAUdkF-uR3PrQYYac1AD_GV-YZ5bymg0g/copy",
+   "edit_url": "https://docs.google.com/document/d/1RaEv6-7sMIEAUdkF-uR3PrQYYac1AD_GV-YZ5bymg0g/edit"
+  },
+  {
+   "slug": "4sw-wk6-transferable-skills-evidence",
+   "week": "4SW-Wk6",
+   "folder_id": "1L-_81qFztEXrX1JYGEuTqPJ3htwCHkM2",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk6 Trades Capstone/Google Masters",
+   "canvas_file_id": 14565957,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk6-Day2",
+     "anchor_text": "the four-page paper or enlarged fallback",
+     "student_page": "student-4sw-wk6-day-2-prove-a-skill-transfers",
+     "current_href": "https://docs.google.com/document/d/1vaZn5LSpPnYwSI5aVsH-I3BIwM9odndM6o4YvIu2OJs/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "162w0aB4opkQzWqjp3F1GY20H3o2jnKKCAzey3MGSwYs",
+   "title": "Transferable Skills Evidence",
+   "week_label": "4SW Wk6",
+   "gdoc_title": "CCE | 4SW Wk6 | Transferable Skills Evidence",
+   "copy_url": "https://docs.google.com/document/d/162w0aB4opkQzWqjp3F1GY20H3o2jnKKCAzey3MGSwYs/copy",
+   "edit_url": "https://docs.google.com/document/d/162w0aB4opkQzWqjp3F1GY20H3o2jnKKCAzey3MGSwYs/edit"
+  },
+  {
+   "slug": "4sw-wk6-career-organization-types",
+   "week": "4SW-Wk6",
+   "folder_id": "1L-_81qFztEXrX1JYGEuTqPJ3htwCHkM2",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk6 Trades Capstone/Google Masters",
+   "canvas_file_id": 14565958,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk6-Day3",
+     "anchor_text": "the three-page paper fallback",
+     "student_page": "student-4sw-wk6-day-3-career-organization-types",
+     "current_href": "https://docs.google.com/document/d/1FWV92VdPzBk92ttNW5CdYtkxdYUCP8G4K697Ng_e6SQ/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1rXBZT9JFJKlLkUgefOJJax9eYdWEo1i8LiCphp_LxLM",
+   "title": "Career Organization Types",
+   "week_label": "4SW Wk6",
+   "gdoc_title": "CCE | 4SW Wk6 | Career Organization Types",
+   "copy_url": "https://docs.google.com/document/d/1rXBZT9JFJKlLkUgefOJJax9eYdWEo1i8LiCphp_LxLM/copy",
+   "edit_url": "https://docs.google.com/document/d/1rXBZT9JFJKlLkUgefOJJax9eYdWEo1i8LiCphp_LxLM/edit"
+  },
+  {
+   "slug": "4sw-wk6-integrity-and-evidence-audit",
+   "week": "4SW-Wk6",
+   "folder_id": "1L-_81qFztEXrX1JYGEuTqPJ3htwCHkM2",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk6 Trades Capstone/Google Masters",
+   "canvas_file_id": 14565959,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk6-Day4",
+     "anchor_text": "the three-page paper fallback",
+     "student_page": "student-4sw-wk6-day-4-integrity-and-accurate-records",
+     "current_href": "https://docs.google.com/document/d/1c7MZnG-hoSVPpgkqLoyzdU_1-X-kUkZdgjIJdtpavXY/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1DnzXEuQjtxPAWJjz7RvJFMGzlD4zJ7Sy9sjRh8s-Ymc",
+   "title": "Integrity and Evidence Audit",
+   "week_label": "4SW Wk6",
+   "gdoc_title": "CCE | 4SW Wk6 | Integrity and Evidence Audit",
+   "copy_url": "https://docs.google.com/document/d/1DnzXEuQjtxPAWJjz7RvJFMGzlD4zJ7Sy9sjRh8s-Ymc/copy",
+   "edit_url": "https://docs.google.com/document/d/1DnzXEuQjtxPAWJjz7RvJFMGzlD4zJ7Sy9sjRh8s-Ymc/edit"
+  },
+  {
+   "slug": "4sw-wk6-mid-year-evidence-reflection",
+   "week": "4SW-Wk6",
+   "folder_id": "1L-_81qFztEXrX1JYGEuTqPJ3htwCHkM2",
+   "folder_path": "VILS27/Units_CCR/SW4 \u00b7 Wk6 Trades Capstone/Google Masters",
+   "canvas_file_id": 14591669,
+   "used_by": [
+    {
+     "day_key": "4SW-Wk6-Day5",
+     "anchor_text": "the four-page paper fallback",
+     "student_page": "student-4sw-wk6-day-5-recovery-private-mid-year-reflection",
+     "current_href": "https://docs.google.com/document/d/13s43c-gNJvWn2WMdvKBiSZeUtZCz6YXTuYHZbEO4wQw/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1yMiMOaAYxi4DE0WDzX0i-OoDlqOeVwZhAfkTO6ZVoX0",
+   "title": "Mid-Year Evidence Reflection",
+   "week_label": "4SW Wk6",
+   "gdoc_title": "CCE | 4SW Wk6 | Mid-Year Evidence Reflection",
+   "copy_url": "https://docs.google.com/document/d/1yMiMOaAYxi4DE0WDzX0i-OoDlqOeVwZhAfkTO6ZVoX0/copy",
+   "edit_url": "https://docs.google.com/document/d/1yMiMOaAYxi4DE0WDzX0i-OoDlqOeVwZhAfkTO6ZVoX0/edit"
+  },
+  {
+   "slug": "5sw-wk1-safety-supervisor-evidence-plan",
+   "week": "5SW-Wk1",
+   "folder_id": "1CMecGGK-wpmsK73olXDPWxBUTFtwbZeF",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk1 Architecture/Google Masters",
+   "canvas_file_id": 14565966,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk1-Day1",
+     "anchor_text": "the three-page paper route",
+     "student_page": "student-5sw-wk1-day-1-cluster-roles-and-safety-supervisor",
+     "current_href": "https://docs.google.com/document/d/1ZfBdKqBS-GCuk7iRe9_hkLe55ztZLN257-jsIBpgP7Y/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1WyLqBY3hX5UX6fuMWBNH4eKEvezIbGs8kgvy6JAv0pQ",
+   "title": "Safety Supervisor \u2014 Fictional Evidence Plan",
+   "week_label": "5SW Wk1",
+   "gdoc_title": "CCE | 5SW Wk1 | Safety Supervisor \u2014 Fictional Evidence Plan",
+   "copy_url": "https://docs.google.com/document/d/1WyLqBY3hX5UX6fuMWBNH4eKEvezIbGs8kgvy6JAv0pQ/copy",
+   "edit_url": "https://docs.google.com/document/d/1WyLqBY3hX5UX6fuMWBNH4eKEvezIbGs8kgvy6JAv0pQ/edit"
+  },
+  {
+   "slug": "5sw-wk1-three-career-evidence-comparison",
+   "week": "5SW-Wk1",
+   "folder_id": "1CMecGGK-wpmsK73olXDPWxBUTFtwbZeF",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk1 Architecture/Google Masters",
+   "canvas_file_id": 14565967,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk1-Day2",
+     "anchor_text": "the four-page paper or enlarged route",
+     "student_page": "student-5sw-wk1-day-2-career-preparation-and-pay",
+     "current_href": "https://docs.google.com/document/d/1Ug-uoZE-YnZL4Pxf305eiRS8hBHfKvVdFzfwCCSJscg/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "15h32N9itO7hoBHQi4tY_a3WA2ORZ1A52MVfrJM5k-V8",
+   "title": "Architecture Careers \u2014 Comparable Evidence",
+   "week_label": "5SW Wk1",
+   "gdoc_title": "CCE | 5SW Wk1 | Architecture Careers \u2014 Comparable Evidence",
+   "copy_url": "https://docs.google.com/document/d/15h32N9itO7hoBHQi4tY_a3WA2ORZ1A52MVfrJM5k-V8/copy",
+   "edit_url": "https://docs.google.com/document/d/15h32N9itO7hoBHQi4tY_a3WA2ORZ1A52MVfrJM5k-V8/edit"
+  },
+  {
+   "slug": "5sw-wk1-concept-building-design",
+   "week": "5SW-Wk1",
+   "folder_id": "1CMecGGK-wpmsK73olXDPWxBUTFtwbZeF",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk1 Architecture/Google Masters",
+   "canvas_file_id": 14565968,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk1-Day3",
+     "anchor_text": "the four-page concept route",
+     "student_page": "student-5sw-wk1-day-3-concept-modeling-foundations",
+     "current_href": "https://docs.google.com/document/d/1xVFFbvnGsUKWfd0FJ09s6yxJr1rl8AGIihAp-mXtimQ/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1nIpFmoSQ-7Dp0PzRstXGSl224qcBXa6HKZQz_KBKz10",
+   "title": "Community Learning Space \u2014 Concept Design",
+   "week_label": "5SW Wk1",
+   "gdoc_title": "CCE | 5SW Wk1 | Community Learning Space \u2014 Concept Design",
+   "copy_url": "https://docs.google.com/document/d/1nIpFmoSQ-7Dp0PzRstXGSl224qcBXa6HKZQz_KBKz10/copy",
+   "edit_url": "https://docs.google.com/document/d/1nIpFmoSQ-7Dp0PzRstXGSl224qcBXa6HKZQz_KBKz10/edit"
+  },
+  {
+   "slug": "5sw-wk1-design-test-and-revision",
+   "week": "5SW-Wk1",
+   "folder_id": "1CMecGGK-wpmsK73olXDPWxBUTFtwbZeF",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk1 Architecture/Google Masters",
+   "canvas_file_id": 14565969,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk1-Day4",
+     "anchor_text": "the three-page revision record",
+     "student_page": "student-5sw-wk1-day-4-build-test-revise-and-submit",
+     "current_href": "https://docs.google.com/document/d/1wLf_aoioPnc8rHEd73KDVxNBGwLQSa8bku-FjvPJZoM/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1TEjPakUM-BNYG1777-VvHFXA6x1Db-JlIUL78f_5uA8",
+   "title": "Building Concept \u2014 Test and Revision Record",
+   "week_label": "5SW Wk1",
+   "gdoc_title": "CCE | 5SW Wk1 | Building Concept \u2014 Test and Revision Record",
+   "copy_url": "https://docs.google.com/document/d/1TEjPakUM-BNYG1777-VvHFXA6x1Db-JlIUL78f_5uA8/copy",
+   "edit_url": "https://docs.google.com/document/d/1TEjPakUM-BNYG1777-VvHFXA6x1Db-JlIUL78f_5uA8/edit"
+  },
+  {
+   "slug": "5sw-wk1-unexpected-architecture-evidence",
+   "week": "5SW-Wk1",
+   "folder_id": "1CMecGGK-wpmsK73olXDPWxBUTFtwbZeF",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk1 Architecture/Google Masters",
+   "canvas_file_id": 14565970,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk1-Day5",
+     "anchor_text": "the two-page individual fallback",
+     "student_page": "student-5sw-wk1-day-5-unexpected-architecture-and-synthesis",
+     "current_href": "https://docs.google.com/document/d/163Z-av4hILXdvD_OgwdawxFxuSeIDFuJ-ak14sAf0J4/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1op2c7H4YULQ6reBoQu69AjgMKOVsBcvfFtN7-pJcDfc",
+   "title": "Unexpected Architecture \u2014 Individual Evidence",
+   "week_label": "5SW Wk1",
+   "gdoc_title": "CCE | 5SW Wk1 | Unexpected Architecture \u2014 Individual Evidence",
+   "copy_url": "https://docs.google.com/document/d/1op2c7H4YULQ6reBoQu69AjgMKOVsBcvfFtN7-pJcDfc/copy",
+   "edit_url": "https://docs.google.com/document/d/1op2c7H4YULQ6reBoQu69AjgMKOVsBcvfFtN7-pJcDfc/edit"
+  },
+  {
+   "slug": "5sw-wk2-civil-engineer-and-systems-evidence",
+   "week": "5SW-Wk2",
+   "folder_id": "1BcMqQip4ob6N-8BsPJUPEEXKgbZf4bJz",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk2 Civil Engineering/Google Masters",
+   "canvas_file_id": 14568713,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk2-Day1",
+     "anchor_text": "The two-page companion",
+     "student_page": "student-5sw-wk2-day-1-civil-engineering-careers-and-systems",
+     "current_href": "https://docs.google.com/document/d/1qd8zv2bT10ShUuv32T17wUwJmr8saSvPjQ_Sv2fwUKg/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1FQzJ6PaepDXlM1hv1hj7NddG9rSbCsGLDGmHRM3ZOro",
+   "title": "Civil Engineering \u2014 Career and Systems Evidence",
+   "week_label": "5SW Wk2",
+   "gdoc_title": "CCE | 5SW Wk2 | Civil Engineering \u2014 Career and Systems Evidence",
+   "copy_url": "https://docs.google.com/document/d/1FQzJ6PaepDXlM1hv1hj7NddG9rSbCsGLDGmHRM3ZOro/copy",
+   "edit_url": "https://docs.google.com/document/d/1FQzJ6PaepDXlM1hv1hj7NddG9rSbCsGLDGmHRM3ZOro/edit"
+  },
+  {
+   "slug": "5sw-wk2-assessment-and-emerging-specialty",
+   "week": "5SW-Wk2",
+   "folder_id": "1BcMqQip4ob6N-8BsPJUPEEXKgbZf4bJz",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk2 Civil Engineering/Google Masters",
+   "canvas_file_id": 14568714,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk2-Day2",
+     "anchor_text": "the three-page assessment and specialty packet",
+     "student_page": "student-5sw-wk2-day-2-assessment-impact-and-emerging-work",
+     "current_href": "https://docs.google.com/document/d/1aqUedUnt1SZjH0wYpFV2m1v_a3DB0Z3WgU2j0tDfIAY/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1yXxszCr2YiOXcaVGB-SqVfcTvNMeVftpJOvVFQzUSGk",
+   "title": "Assessment Impact and Emerging Engineering Work",
+   "week_label": "5SW Wk2",
+   "gdoc_title": "CCE | 5SW Wk2 | Assessment Impact and Emerging Engineering Work",
+   "copy_url": "https://docs.google.com/document/d/1yXxszCr2YiOXcaVGB-SqVfcTvNMeVftpJOvVFQzUSGk/copy",
+   "edit_url": "https://docs.google.com/document/d/1yXxszCr2YiOXcaVGB-SqVfcTvNMeVftpJOvVFQzUSGk/edit"
+  },
+  {
+   "slug": "5sw-wk2-bridge-design-options",
+   "week": "5SW-Wk2",
+   "folder_id": "1BcMqQip4ob6N-8BsPJUPEEXKgbZf4bJz",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk2 Civil Engineering/Google Masters",
+   "canvas_file_id": 14591677,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk2-Day3",
+     "anchor_text": "the four-page bridge design packet",
+     "student_page": "student-5sw-wk2-day-3-bridge-design-two-options",
+     "current_href": "https://docs.google.com/document/d/1Ph_2X7u2t4fc5e1mk9JWF1X47hbPIugzGVPxtVGBX8s/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1bIsEqOkRBOD4H2UXTehbB4isKDMtwDUw9Lh20INa6yo",
+   "title": "Bridge Design \u2014 Two Evidence Options",
+   "week_label": "5SW Wk2",
+   "gdoc_title": "CCE | 5SW Wk2 | Bridge Design \u2014 Two Evidence Options",
+   "copy_url": "https://docs.google.com/document/d/1bIsEqOkRBOD4H2UXTehbB4isKDMtwDUw9Lh20INa6yo/copy",
+   "edit_url": "https://docs.google.com/document/d/1bIsEqOkRBOD4H2UXTehbB4isKDMtwDUw9Lh20INa6yo/edit"
+  },
+  {
+   "slug": "5sw-wk2-bridge-test-and-redesign",
+   "week": "5SW-Wk2",
+   "folder_id": "1BcMqQip4ob6N-8BsPJUPEEXKgbZf4bJz",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk2 Civil Engineering/Google Masters",
+   "canvas_file_id": 14591678,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk2-Day4",
+     "anchor_text": "the four-page fixed-data and redesign packet",
+     "student_page": "student-5sw-wk2-day-4-fixed-data-test-and-redesign",
+     "current_href": "https://docs.google.com/document/d/1rENpdWgNWuYtgVJR_DVNfKfTASMmFeWMiEiFI88YULU/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1QET2GiOUkQQeCxDuFpQYP_VWnw1O_l8Q3fsw5ekPPYE",
+   "title": "Bridge Test and Redesign Evidence",
+   "week_label": "5SW Wk2",
+   "gdoc_title": "CCE | 5SW Wk2 | Bridge Test and Redesign Evidence",
+   "copy_url": "https://docs.google.com/document/d/1QET2GiOUkQQeCxDuFpQYP_VWnw1O_l8Q3fsw5ekPPYE/copy",
+   "edit_url": "https://docs.google.com/document/d/1QET2GiOUkQQeCxDuFpQYP_VWnw1O_l8Q3fsw5ekPPYE/edit"
+  },
+  {
+   "slug": "5sw-wk2-engineering-synthesis",
+   "week": "5SW-Wk2",
+   "folder_id": "1BcMqQip4ob6N-8BsPJUPEEXKgbZf4bJz",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk2 Civil Engineering/Google Masters",
+   "canvas_file_id": 14568718,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk2-Day5",
+     "anchor_text": "the three-page synthesis companion",
+     "student_page": "student-5sw-wk2-day-5-mars-transfer-and-weekly-synthesis",
+     "current_href": "https://docs.google.com/document/d/1dw5QfLy8xynLSuilI8rPCHfy6ScGMn5QIwbVEy_t6Sk/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "18qXviSjzGd8vh-lUsgvKuxupGPYiKa5RwXiJXMZxZgo",
+   "title": "Engineering Week \u2014 Evidence Synthesis",
+   "week_label": "5SW Wk2",
+   "gdoc_title": "CCE | 5SW Wk2 | Engineering Week \u2014 Evidence Synthesis",
+   "copy_url": "https://docs.google.com/document/d/18qXviSjzGd8vh-lUsgvKuxupGPYiKa5RwXiJXMZxZgo/copy",
+   "edit_url": "https://docs.google.com/document/d/18qXviSjzGd8vh-lUsgvKuxupGPYiKa5RwXiJXMZxZgo/edit"
+  },
+  {
+   "slug": "5sw-wk3-construction-career-evidence",
+   "week": "5SW-Wk3",
+   "folder_id": "168vh821ESpChkHVY9oHFrd3K4Lz3z_gP",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk3 Construction Trades/Google Masters",
+   "canvas_file_id": 14570242,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk3-Day1",
+     "anchor_text": "the three-page construction career packet",
+     "student_page": "student-5sw-wk3-day-1-construction-careers-and-preparation",
+     "current_href": "https://docs.google.com/document/d/1BGtsooFEivMknXlndFDMuJbL41gRxdo0cuHpsorYk9M/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1Hx54IFo_voA5UYZ7TwThfpOJc2PStZ9ZzvngrEOpjOQ",
+   "title": "Construction Career and Preparation Evidence",
+   "week_label": "5SW Wk3",
+   "gdoc_title": "CCE | 5SW Wk3 | Construction Career and Preparation Evidence",
+   "copy_url": "https://docs.google.com/document/d/1Hx54IFo_voA5UYZ7TwThfpOJc2PStZ9ZzvngrEOpjOQ/copy",
+   "edit_url": "https://docs.google.com/document/d/1Hx54IFo_voA5UYZ7TwThfpOJc2PStZ9ZzvngrEOpjOQ/edit"
+  },
+  {
+   "slug": "5sw-wk3-routes-and-organizations",
+   "week": "5SW-Wk3",
+   "folder_id": "168vh821ESpChkHVY9oHFrd3K4Lz3z_gP",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk3 Construction Trades/Google Masters",
+   "canvas_file_id": 14570243,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk3-Day2",
+     "anchor_text": "the four-page routes and organizations packet",
+     "student_page": "student-5sw-wk3-day-2-training-routes-and-career-organizations",
+     "current_href": "https://docs.google.com/document/d/1VDL3GfMLW1_fRNCPvPFgC3ITcX5hfpvtA6_EDyVX6iQ/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1TWnZ48J8SD1UQ6LgXrFW27X0Y8XeasAPBK5h-QhGVkY",
+   "title": "Construction Routes and Organizations",
+   "week_label": "5SW Wk3",
+   "gdoc_title": "CCE | 5SW Wk3 | Construction Routes and Organizations",
+   "copy_url": "https://docs.google.com/document/d/1TWnZ48J8SD1UQ6LgXrFW27X0Y8XeasAPBK5h-QhGVkY/copy",
+   "edit_url": "https://docs.google.com/document/d/1TWnZ48J8SD1UQ6LgXrFW27X0Y8XeasAPBK5h-QhGVkY/edit"
+  },
+  {
+   "slug": "5sw-wk3-labor-classification",
+   "week": "5SW-Wk3",
+   "folder_id": "168vh821ESpChkHVY9oHFrd3K4Lz3z_gP",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk3 Construction Trades/Google Masters",
+   "canvas_file_id": 14591683,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk3-Day3",
+     "anchor_text": "the four-page labor classification packet",
+     "student_page": "student-5sw-wk3-day-3-classify-four-construction-careers",
+     "current_href": "https://docs.google.com/document/d/1n2fLVTrFK9G7yBF6SqSh3qfJoJz2NC37DDCtOShj11s/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1zk5HVB03SWqOlDziZDEJDB77wMUo9XtfbOmocjQfWB0",
+   "title": "Construction Labor Evidence and Classification",
+   "week_label": "5SW Wk3",
+   "gdoc_title": "CCE | 5SW Wk3 | Construction Labor Evidence and Classification",
+   "copy_url": "https://docs.google.com/document/d/1zk5HVB03SWqOlDziZDEJDB77wMUo9XtfbOmocjQfWB0/copy",
+   "edit_url": "https://docs.google.com/document/d/1zk5HVB03SWqOlDziZDEJDB77wMUo9XtfbOmocjQfWB0/edit"
+  },
+  {
+   "slug": "5sw-wk3-fictional-evidence-report",
+   "week": "5SW-Wk3",
+   "folder_id": "168vh821ESpChkHVY9oHFrd3K4Lz3z_gP",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk3 Construction Trades/Google Masters",
+   "canvas_file_id": 14591684,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk3-Day4",
+     "anchor_text": "the shared five-page evidence report",
+     "student_page": "student-5sw-wk3-day-4-fictional-visual-observation-lab",
+     "current_href": "https://docs.google.com/document/d/16cbuoQpZej-oUMivcnBm7OBcZqniTSo29FAq2pyivag/copy"
+    },
+    {
+     "day_key": "5SW-Wk3-Day5",
+     "anchor_text": "the shared five-page evidence report",
+     "student_page": "student-5sw-wk3-day-5-evidence-report-and-individual-briefing",
+     "current_href": "https://docs.google.com/document/d/1XidpSaCGRBFLWqPaX0xbuYKBHv3losbeDNjEiVsVuaE/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1IBhmft8gxt7K4t4vOTlfM3k7insLKbt0NmfOYvBoClo",
+   "title": "Fictional Property Evidence Report and Briefing",
+   "week_label": "5SW Wk3",
+   "gdoc_title": "CCE | 5SW Wk3 | Fictional Property Evidence Report and Briefing",
+   "copy_url": "https://docs.google.com/document/d/1IBhmft8gxt7K4t4vOTlfM3k7insLKbt0NmfOYvBoClo/copy",
+   "edit_url": "https://docs.google.com/document/d/1IBhmft8gxt7K4t4vOTlfM3k7insLKbt0NmfOYvBoClo/edit"
+  },
+  {
+   "slug": "5sw-wk4-skilled-trades-career-evidence",
+   "week": "5SW-Wk4",
+   "folder_id": "1x2EVwSqSfxNxNHYMs500G3Qfrmo_YrNn",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk4 HVAC Electrical Plumbing/Google Masters",
+   "canvas_file_id": 14570309,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk4-Day1",
+     "anchor_text": "the three-page career evidence packet",
+     "student_page": "student-5sw-wk4-day-1-four-skilled-trades-careers",
+     "current_href": "https://docs.google.com/document/d/1chI48AErkKSA5SjZhBXwIH2bzahskfHE5C5ttY8Ny6Q/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1oi_sE9fJ-s1quEY_0Ym7TuA9eD6YyGKbJHDhppVdJlI",
+   "title": "Skilled-Trades Career and Preparation Evidence",
+   "week_label": "5SW Wk4",
+   "gdoc_title": "CCE | 5SW Wk4 | Skilled-Trades Career and Preparation Evidence",
+   "copy_url": "https://docs.google.com/document/d/1oi_sE9fJ-s1quEY_0Ym7TuA9eD6YyGKbJHDhppVdJlI/copy",
+   "edit_url": "https://docs.google.com/document/d/1oi_sE9fJ-s1quEY_0Ym7TuA9eD6YyGKbJHDhppVdJlI/edit"
+  },
+  {
+   "slug": "5sw-wk4-hvac-evidence-first-field-notes",
+   "week": "5SW-Wk4",
+   "folder_id": "1x2EVwSqSfxNxNHYMs500G3Qfrmo_YrNn",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk4 HVAC Electrical Plumbing/Google Masters",
+   "canvas_file_id": 14570310,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk4-Day2",
+     "anchor_text": "the six-page safe-label fallback",
+     "student_page": "student-5sw-wk4-day-2-hvac-evidence-first-field-notes",
+     "current_href": "https://docs.google.com/document/d/1EHqLvviIdnp9yI7c2GmavuRQw628-SK9MAheTr0t7M0/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1uvtNQFqKDTpnW7olbC9bPalNCRgkk7kCGUlZBK2RxWM",
+   "title": "HVAC Evidence-First Field Notes",
+   "week_label": "5SW Wk4",
+   "gdoc_title": "CCE | 5SW Wk4 | HVAC Evidence-First Field Notes",
+   "copy_url": "https://docs.google.com/document/d/1uvtNQFqKDTpnW7olbC9bPalNCRgkk7kCGUlZBK2RxWM/copy",
+   "edit_url": "https://docs.google.com/document/d/1uvtNQFqKDTpnW7olbC9bPalNCRgkk7kCGUlZBK2RxWM/edit"
+  },
+  {
+   "slug": "5sw-wk4-skilled-trades-classification",
+   "week": "5SW-Wk4",
+   "folder_id": "1x2EVwSqSfxNxNHYMs500G3Qfrmo_YrNn",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk4 HVAC Electrical Plumbing/Google Masters",
+   "canvas_file_id": 14570311,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk4-Day3",
+     "anchor_text": "the four-page classification packet",
+     "student_page": "student-5sw-wk4-day-3-classify-four-skilled-trades-careers",
+     "current_href": "https://docs.google.com/document/d/11IvEsYYXrJiFDp434_GuS1dL-ydEDZMID1GzXSY33Gg/copy"
+    },
+    {
+     "day_key": "5SW-Wk4-Day5",
+     "anchor_text": "your Day 3 classification evidence",
+     "student_page": "student-5sw-wk4-day-5-fictional-water-line-response",
+     "current_href": "https://docs.google.com/document/d/1peiGNw-JDNJE-Ruar7m8QKnU7U7IEIodCH54cFh-vlY/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "14BL8OiS_V-XcJp5V-a_8VL11MYwEREa0eg38dV6aAew",
+   "title": "Skilled-Trades Labor Evidence and Classification",
+   "week_label": "5SW Wk4",
+   "gdoc_title": "CCE | 5SW Wk4 | Skilled-Trades Labor Evidence and Classification",
+   "copy_url": "https://docs.google.com/document/d/14BL8OiS_V-XcJp5V-a_8VL11MYwEREa0eg38dV6aAew/copy",
+   "edit_url": "https://docs.google.com/document/d/14BL8OiS_V-XcJp5V-a_8VL11MYwEREa0eg38dV6aAew/edit"
+  },
+  {
+   "slug": "5sw-wk4-current-entry-routes",
+   "week": "5SW-Wk4",
+   "folder_id": "1x2EVwSqSfxNxNHYMs500G3Qfrmo_YrNn",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk4 HVAC Electrical Plumbing/Google Masters",
+   "canvas_file_id": 14570312,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk4-Day4",
+     "anchor_text": "the four-page current entry-routes packet",
+     "student_page": "student-5sw-wk4-day-4-current-entry-routes",
+     "current_href": "https://docs.google.com/document/d/1GRichbZRxPQTJSBOXgphUBSMN2v_R-f86urL3g_k52M/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1BVcYskdlNDZAdFdbDGlbfzAtW5UTKN-bHMLJmzOWIkk",
+   "title": "Skilled-Trades Current Entry Routes",
+   "week_label": "5SW Wk4",
+   "gdoc_title": "CCE | 5SW Wk4 | Skilled-Trades Current Entry Routes",
+   "copy_url": "https://docs.google.com/document/d/1BVcYskdlNDZAdFdbDGlbfzAtW5UTKN-bHMLJmzOWIkk/copy",
+   "edit_url": "https://docs.google.com/document/d/1BVcYskdlNDZAdFdbDGlbfzAtW5UTKN-bHMLJmzOWIkk/edit"
+  },
+  {
+   "slug": "5sw-wk4-fictional-water-line-response",
+   "week": "5SW-Wk4",
+   "folder_id": "1x2EVwSqSfxNxNHYMs500G3Qfrmo_YrNn",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk4 HVAC Electrical Plumbing/Google Masters",
+   "canvas_file_id": 14591690,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk4-Day5",
+     "anchor_text": "the two-page individual response companion",
+     "student_page": "student-5sw-wk4-day-5-fictional-water-line-response",
+     "current_href": "https://docs.google.com/document/d/1peiGNw-JDNJE-Ruar7m8QKnU7U7IEIodCH54cFh-vlY/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1brOPJUWYcVFUNILv0f7Dv_-ybiMKgbKOC3MLIFt3N60",
+   "title": "Fictional Water-Line Response Plan and Briefing",
+   "week_label": "5SW Wk4",
+   "gdoc_title": "CCE | 5SW Wk4 | Fictional Water-Line Response Plan and Briefing",
+   "copy_url": "https://docs.google.com/document/d/1brOPJUWYcVFUNILv0f7Dv_-ybiMKgbKOC3MLIFt3N60/copy",
+   "edit_url": "https://docs.google.com/document/d/1brOPJUWYcVFUNILv0f7Dv_-ybiMKgbKOC3MLIFt3N60/edit"
+  },
+  {
+   "slug": "5sw-wk5-salary-source-and-lifestyle-target",
+   "week": "5SW-Wk5",
+   "folder_id": "1xeWYLUfHp4n6bzOi3zP_hGiKCZ1P6qIr",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk5 Personal Budget/Google Masters",
+   "canvas_file_id": 14662889,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk5-Day1",
+     "anchor_text": "the three-page Salary Source and Lifestyle Target packet",
+     "student_page": "student-5sw-wk5-day-1-salary-source-and-lifestyle-target",
+     "current_href": "https://docs.google.com/document/d/1GEVC3SNv2NK_alrHhNHAq6pyb0RuVYnAVvvKhxx8g2I/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1FryYeRNk8YsHya2o7R5VTerTNiEft0Y57AY6dXuxir4",
+   "title": "Salary Source and Lifestyle Target",
+   "week_label": "5SW Wk5",
+   "gdoc_title": "CCE | 5SW Wk5 | Salary Source and Lifestyle Target",
+   "copy_url": "https://docs.google.com/document/d/1FryYeRNk8YsHya2o7R5VTerTNiEft0Y57AY6dXuxir4/copy",
+   "edit_url": "https://docs.google.com/document/d/1FryYeRNk8YsHya2o7R5VTerTNiEft0Y57AY6dXuxir4/edit"
+  },
+  {
+   "slug": "5sw-wk5-dallas-county-personal-budget",
+   "week": "5SW-Wk5",
+   "folder_id": "1xeWYLUfHp4n6bzOi3zP_hGiKCZ1P6qIr",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk5 Personal Budget/Google Masters",
+   "canvas_file_id": 14570334,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk5-Day2",
+     "anchor_text": "the four-page Dallas County budget packet",
+     "student_page": "student-5sw-wk5-day-2-build-a-dallas-county-personal-budget",
+     "current_href": "https://docs.google.com/document/d/1OgO4BNxNukEJ_s5TXXj_GW_5FN_I4XB9SeR5Sv9Xs0c/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1IoS3AfM48mr0xBH4s0-kCiQ40DjZDxpyFw26Vfh9VdM",
+   "title": "Dallas County Personal Budget and Worked Model",
+   "week_label": "5SW Wk5",
+   "gdoc_title": "CCE | 5SW Wk5 | Dallas County Personal Budget and Worked Model",
+   "copy_url": "https://docs.google.com/document/d/1IoS3AfM48mr0xBH4s0-kCiQ40DjZDxpyFw26Vfh9VdM/copy",
+   "edit_url": "https://docs.google.com/document/d/1IoS3AfM48mr0xBH4s0-kCiQ40DjZDxpyFw26Vfh9VdM/edit"
+  },
+  {
+   "slug": "5sw-wk5-location-cost-comparison",
+   "week": "5SW-Wk5",
+   "folder_id": "1xeWYLUfHp4n6bzOi3zP_hGiKCZ1P6qIr",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk5 Personal Budget/Google Masters",
+   "canvas_file_id": 14596041,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk5-Day3",
+     "anchor_text": "the two-page Location Cost Comparison packet",
+     "student_page": "student-5sw-wk5-day-3-compare-the-same-offer-across-locations",
+     "current_href": "https://docs.google.com/document/d/1MGAhYS25fyoKGAXIyeRu-YSTx-ltJ1IlzAzdPyI3tl4/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1QZj2wmSKtgLl_3Gau6zxtqnubHG8pjfRTtvOWwKdu5M",
+   "title": "Location Cost Comparison",
+   "week_label": "5SW Wk5",
+   "gdoc_title": "CCE | 5SW Wk5 | Location Cost Comparison",
+   "copy_url": "https://docs.google.com/document/d/1QZj2wmSKtgLl_3Gau6zxtqnubHG8pjfRTtvOWwKdu5M/copy",
+   "edit_url": "https://docs.google.com/document/d/1QZj2wmSKtgLl_3Gau6zxtqnubHG8pjfRTtvOWwKdu5M/edit"
+  },
+  {
+   "slug": "5sw-wk5-paying-for-education-and-training",
+   "week": "5SW-Wk5",
+   "folder_id": "1xeWYLUfHp4n6bzOi3zP_hGiKCZ1P6qIr",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk5 Personal Budget/Google Masters",
+   "canvas_file_id": 14570336,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk5-Day4",
+     "anchor_text": "the three-page Paying for Education and Training guide",
+     "student_page": "student-5sw-wk5-day-4-paying-for-education-and-training",
+     "current_href": "https://docs.google.com/document/d/1C4C2BIoDTzCp1bq7JP8sqOaLjx6vHxAevJRlGZMf85U/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1hOUQEFA_YLU9jMwFGEGx9WFgEU7CgAiFqRb-LTb7rp8",
+   "title": "Paying for Education and Training",
+   "week_label": "5SW Wk5",
+   "gdoc_title": "CCE | 5SW Wk5 | Paying for Education and Training",
+   "copy_url": "https://docs.google.com/document/d/1hOUQEFA_YLU9jMwFGEGx9WFgEU7CgAiFqRb-LTb7rp8/copy",
+   "edit_url": "https://docs.google.com/document/d/1hOUQEFA_YLU9jMwFGEGx9WFgEU7CgAiFqRb-LTb7rp8/edit"
+  },
+  {
+   "slug": "5sw-wk5-three-career-budget-portfolio",
+   "week": "5SW-Wk5",
+   "folder_id": "1xeWYLUfHp4n6bzOi3zP_hGiKCZ1P6qIr",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk5 Personal Budget/Google Masters",
+   "canvas_file_id": 14662892,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk5-Day5",
+     "anchor_text": "the four-page portfolio",
+     "student_page": "student-5sw-wk5-day-5-personal-budget-and-career-evidence-portfolio",
+     "current_href": "https://docs.google.com/document/d/10EZ_0K5hhOkluyMdng0opjEKvNmgQuGCPjhPE0tRb-U/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1p-_SGUo2bproM_MIlQuGsH3RwqfEjc27roZQl3OwNSY",
+   "title": "Three-Career Comparison and Budget Portfolio",
+   "week_label": "5SW Wk5",
+   "gdoc_title": "CCE | 5SW Wk5 | Three-Career Comparison and Budget Portfolio",
+   "copy_url": "https://docs.google.com/document/d/1p-_SGUo2bproM_MIlQuGsH3RwqfEjc27roZQl3OwNSY/copy",
+   "edit_url": "https://docs.google.com/document/d/1p-_SGUo2bproM_MIlQuGsH3RwqfEjc27roZQl3OwNSY/edit"
+  },
+  {
+   "slug": "5sw-wk6-real-estate-career-boundaries",
+   "week": "5SW-Wk6",
+   "folder_id": "1-ZUsc6IC59_gmsl1yX-wYEbpMpuCNW85",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk6 Real Estate/Google Masters",
+   "canvas_file_id": 14572251,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk6-Day1",
+     "anchor_text": "the two-page career guide",
+     "student_page": "student-5sw-wk6-day-1-four-real-estate-careers-and-boundaries",
+     "current_href": "https://docs.google.com/document/d/1Z1wVhcUVookSEBlUk89-rU7jOrO4YaeMhAU8AzNG5xM/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1wO8Fl3q8P5qVUkwkobXmHj5NH_K_Vgh-ScttvRUMtO0",
+   "title": "Real-Estate Careers and Texas Boundaries",
+   "week_label": "5SW Wk6",
+   "gdoc_title": "CCE | 5SW Wk6 | Real-Estate Careers and Texas Boundaries",
+   "copy_url": "https://docs.google.com/document/d/1wO8Fl3q8P5qVUkwkobXmHj5NH_K_Vgh-ScttvRUMtO0/copy",
+   "edit_url": "https://docs.google.com/document/d/1wO8Fl3q8P5qVUkwkobXmHj5NH_K_Vgh-ScttvRUMtO0/edit"
+  },
+  {
+   "slug": "5sw-wk6-trec-and-variable-income",
+   "week": "5SW-Wk6",
+   "folder_id": "1-ZUsc6IC59_gmsl1yX-wYEbpMpuCNW85",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk6 Real Estate/Google Masters",
+   "canvas_file_id": 14572260,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk6-Day2",
+     "anchor_text": "the three-page TREC and math packet",
+     "student_page": "student-5sw-wk6-day-2-trec-route-and-variable-income-math",
+     "current_href": "https://docs.google.com/document/d/1DyLTAdYbwecoDYmPSBR4NwwefxTf4OjKSNPREZ-dZJg/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1xtjAQEzXw3pLsHUFGilUiLSSIYq2at7PqGUroPRRcfU",
+   "title": "TREC Sales Agent Route and Variable-Income Math",
+   "week_label": "5SW Wk6",
+   "gdoc_title": "CCE | 5SW Wk6 | TREC Sales Agent Route and Variable-Income Math",
+   "copy_url": "https://docs.google.com/document/d/1xtjAQEzXw3pLsHUFGilUiLSSIYq2at7PqGUroPRRcfU/copy",
+   "edit_url": "https://docs.google.com/document/d/1xtjAQEzXw3pLsHUFGilUiLSSIYq2at7PqGUroPRRcfU/edit"
+  },
+  {
+   "slug": "5sw-wk6-flip-this-house-evidence-plan",
+   "week": "5SW-Wk6",
+   "folder_id": "1-ZUsc6IC59_gmsl1yX-wYEbpMpuCNW85",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk6 Real Estate/Google Masters",
+   "canvas_file_id": 14572269,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk6-Day3",
+     "anchor_text": "the one-page companion",
+     "student_page": "student-5sw-wk6-day-3-flip-this-house-roi-and-entrepreneurship",
+     "current_href": "https://docs.google.com/document/d/1zMDgkeucbg9NEkC1nD7W85UBBkrVr3O0AqfyNCRlje0/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1RMztwM3hSpUjUugmLVSn_VWHVfYCElBHjkaqg2f4UAU",
+   "title": "Flip This House Math Audit and Entrepreneurship Check",
+   "week_label": "5SW Wk6",
+   "gdoc_title": "CCE | 5SW Wk6 | Flip This House Math Audit and Entrepreneurship Check",
+   "copy_url": "https://docs.google.com/document/d/1RMztwM3hSpUjUugmLVSn_VWHVfYCElBHjkaqg2f4UAU/copy",
+   "edit_url": "https://docs.google.com/document/d/1RMztwM3hSpUjUugmLVSn_VWHVfYCElBHjkaqg2f4UAU/edit"
+  },
+  {
+   "slug": "5sw-wk6-real-estate-labor-evidence",
+   "week": "5SW-Wk6",
+   "folder_id": "1-ZUsc6IC59_gmsl1yX-wYEbpMpuCNW85",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk6 Real Estate/Google Masters",
+   "canvas_file_id": 14572282,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk6-Day4",
+     "anchor_text": "the two-page labor guide",
+     "student_page": "student-5sw-wk6-day-4-real-estate-labor-evidence",
+     "current_href": "https://docs.google.com/document/d/1O2hDJCtJmMdVMAWhvj_8Ma4jLyvMOaY828hIGqi9u0A/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1oKoTx5zi0fJub_k6i__Hg8kDFiLg01HRAxB4sr02Oco",
+   "title": "Real-Estate Labor Evidence and Economic Sensitivity",
+   "week_label": "5SW Wk6",
+   "gdoc_title": "CCE | 5SW Wk6 | Real-Estate Labor Evidence and Economic Sensitivity",
+   "copy_url": "https://docs.google.com/document/d/1oKoTx5zi0fJub_k6i__Hg8kDFiLg01HRAxB4sr02Oco/copy",
+   "edit_url": "https://docs.google.com/document/d/1oKoTx5zi0fJub_k6i__Hg8kDFiLg01HRAxB4sr02Oco/edit"
+  },
+  {
+   "slug": "5sw-wk6-six-weeks-evidence-brief",
+   "week": "5SW-Wk6",
+   "folder_id": "1-ZUsc6IC59_gmsl1yX-wYEbpMpuCNW85",
+   "folder_path": "VILS27/Units_CCR/SW5 \u00b7 Wk6 Real Estate/Google Masters",
+   "canvas_file_id": 14596047,
+   "used_by": [
+    {
+     "day_key": "5SW-Wk6-Day5",
+     "anchor_text": "the two-page brief and reflection",
+     "student_page": "student-5sw-wk6-day-5-private-evidence-brief-and-reflection",
+     "current_href": "https://docs.google.com/document/d/1nCyWIwmHAl9SYeEMputee0VPstx3LYOgcx1pdHE6YiM/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1X3hzr0Il0nxQ4UHOry34XuRPesSsqzAcEyu-KSjTwOE",
+   "title": "Fifth Six Weeks Evidence Brief and Reflection",
+   "week_label": "5SW Wk6",
+   "gdoc_title": "CCE | 5SW Wk6 | Fifth Six Weeks Evidence Brief and Reflection",
+   "copy_url": "https://docs.google.com/document/d/1X3hzr0Il0nxQ4UHOry34XuRPesSsqzAcEyu-KSjTwOE/copy",
+   "edit_url": "https://docs.google.com/document/d/1X3hzr0Il0nxQ4UHOry34XuRPesSsqzAcEyu-KSjTwOE/edit"
+  },
+  {
+   "slug": "6sw-wk1-community-classroom-plan",
+   "week": "6SW-Wk1",
+   "folder_id": "1PcFRxW5GfImDpr2EJnyEJTppFN4cshjp",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk1 Education/Google Masters",
+   "canvas_file_id": 14596064,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk1-Day1",
+     "anchor_text": "the two-page evidence surface",
+     "student_page": "student-6sw-wk1-day-1-community-classroom",
+     "current_href": "https://docs.google.com/document/d/1TV9Sj7HsZ_OSw73MHqmPiJfWuEJipFdFPvI6G9vk93E/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1mBACaAW-QhXxHkzDK1UYZAssiJ8lmLuylNlQ-6IP17U",
+   "title": "Community Classroom Individual Evidence",
+   "week_label": "6SW Wk1",
+   "gdoc_title": "CCE | 6SW Wk1 | Community Classroom Individual Evidence",
+   "copy_url": "https://docs.google.com/document/d/1mBACaAW-QhXxHkzDK1UYZAssiJ8lmLuylNlQ-6IP17U/copy",
+   "edit_url": "https://docs.google.com/document/d/1mBACaAW-QhXxHkzDK1UYZAssiJ8lmLuylNlQ-6IP17U/edit"
+  },
+  {
+   "slug": "6sw-wk1-texas-education-routes",
+   "week": "6SW-Wk1",
+   "folder_id": "1PcFRxW5GfImDpr2EJnyEJTppFN4cshjp",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk1 Education/Google Masters",
+   "canvas_file_id": 14596065,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk1-Day2",
+     "anchor_text": "the three-page route guide",
+     "student_page": "student-6sw-wk1-day-2-texas-education-career-routes",
+     "current_href": "https://docs.google.com/document/d/1y2ffBfWG9mMv1zQOSZYtEAlVE07ln48OaQaqnq1Yi34/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1ccSaH0aO_Vcnrq-T0SlLzpm682BLqWCgq6Y3h9HxD74",
+   "title": "Texas Education Career Routes",
+   "week_label": "6SW Wk1",
+   "gdoc_title": "CCE | 6SW Wk1 | Texas Education Career Routes",
+   "copy_url": "https://docs.google.com/document/d/1ccSaH0aO_Vcnrq-T0SlLzpm682BLqWCgq6Y3h9HxD74/copy",
+   "edit_url": "https://docs.google.com/document/d/1ccSaH0aO_Vcnrq-T0SlLzpm682BLqWCgq6Y3h9HxD74/edit"
+  },
+  {
+   "slug": "6sw-wk1-education-job-evidence",
+   "week": "6SW-Wk1",
+   "folder_id": "1PcFRxW5GfImDpr2EJnyEJTppFN4cshjp",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk1 Education/Google Masters",
+   "canvas_file_id": 14662900,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk1-Day3",
+     "anchor_text": "the two-page pathway support",
+     "student_page": "student-6sw-wk1-day-3-xello-discover-learning-pathways",
+     "current_href": "https://docs.google.com/document/d/1V57pXkBKDWimyDlim2mItsQnpcb_0xQ-rD-qZakaoCc/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1xkxPVzqNV25rM_wr-9mtUEaKT3TY9LEialnhVaCyHYA",
+   "title": "Discover Learning Pathways Support",
+   "week_label": "6SW Wk1",
+   "gdoc_title": "CCE | 6SW Wk1 | Discover Learning Pathways Support",
+   "copy_url": "https://docs.google.com/document/d/1xkxPVzqNV25rM_wr-9mtUEaKT3TY9LEialnhVaCyHYA/copy",
+   "edit_url": "https://docs.google.com/document/d/1xkxPVzqNV25rM_wr-9mtUEaKT3TY9LEialnhVaCyHYA/edit"
+  },
+  {
+   "slug": "6sw-wk1-teach-through-play-service",
+   "week": "6SW-Wk1",
+   "folder_id": "1PcFRxW5GfImDpr2EJnyEJTppFN4cshjp",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk1 Education/Google Masters",
+   "canvas_file_id": 14596066,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk1-Day4",
+     "anchor_text": "the two-page revision and service surface",
+     "student_page": "student-6sw-wk1-day-4-teach-through-play-and-service",
+     "current_href": "https://docs.google.com/document/d/1ZmIBGhpL-cFm2sOa_iFC8Knx4TesO-cfy5L9Yr5hIkQ/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1shoevXcuFjVHFKFthGyPx9QoVb2FBtqeYPrjIixfPjI",
+   "title": "Teach Through Play Individual Revision and Service Evidence",
+   "week_label": "6SW Wk1",
+   "gdoc_title": "CCE | 6SW Wk1 | Teach Through Play Individual Revision and Service Evidence",
+   "copy_url": "https://docs.google.com/document/d/1shoevXcuFjVHFKFthGyPx9QoVb2FBtqeYPrjIixfPjI/copy",
+   "edit_url": "https://docs.google.com/document/d/1shoevXcuFjVHFKFthGyPx9QoVb2FBtqeYPrjIixfPjI/edit"
+  },
+  {
+   "slug": "6sw-wk1-education-evidence-portfolio",
+   "week": "6SW-Wk1",
+   "folder_id": "1PcFRxW5GfImDpr2EJnyEJTppFN4cshjp",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk1 Education/Google Masters",
+   "canvas_file_id": 14662901,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk1-Day5",
+     "anchor_text": "the three-page portfolio",
+     "student_page": "student-6sw-wk1-day-5-education-evidence-portfolio",
+     "current_href": "https://docs.google.com/document/d/18aepfO9FqoYL-awRHJDTXyzDlTOJgN0vGfu1mgL4UL0/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1__QjsEwlfWNwpHvOvZMi_2s9PEy-BJg6KFP_4C8a0mI",
+   "title": "Education Career Evidence Portfolio",
+   "week_label": "6SW Wk1",
+   "gdoc_title": "CCE | 6SW Wk1 | Education Career Evidence Portfolio",
+   "copy_url": "https://docs.google.com/document/d/1__QjsEwlfWNwpHvOvZMi_2s9PEy-BJg6KFP_4C8a0mI/copy",
+   "edit_url": "https://docs.google.com/document/d/1__QjsEwlfWNwpHvOvZMi_2s9PEy-BJg6KFP_4C8a0mI/edit"
+  },
+  {
+   "slug": "6sw-wk2-podcast-production-plan",
+   "week": "6SW-Wk2",
+   "folder_id": "1iG50_dG6sb4dahnjpKsjipZUSs7vC6fA",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk2 Graphic Design Resume/Google Masters",
+   "canvas_file_id": 14575253,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk2-Day1",
+     "anchor_text": "the two-page individual companion",
+     "student_page": "student-6sw-wk2-day-1-behind-the-microphone",
+     "current_href": "https://docs.google.com/document/d/13geM24WvlvHkcl0TjN4P4ClUTIvsbj8soDe-w463Jv0/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1XovFzxfYMgtkBTSmAk94jfCbEtHP5Lf1JHyWYiLtGfM",
+   "title": "Behind the Microphone - Individual Production Evidence",
+   "week_label": "6SW Wk2",
+   "gdoc_title": "CCE | 6SW Wk2 | Behind the Microphone - Individual Production Evidence",
+   "copy_url": "https://docs.google.com/document/d/1XovFzxfYMgtkBTSmAk94jfCbEtHP5Lf1JHyWYiLtGfM/copy",
+   "edit_url": "https://docs.google.com/document/d/1XovFzxfYMgtkBTSmAk94jfCbEtHP5Lf1JHyWYiLtGfM/edit"
+  },
+  {
+   "slug": "6sw-wk2-first-resume-draft",
+   "week": "6SW-Wk2",
+   "folder_id": "1iG50_dG6sb4dahnjpKsjipZUSs7vC6fA",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk2 Graphic Design Resume/Google Masters",
+   "canvas_file_id": 14611292,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk2-Day2",
+     "anchor_text": "the three-page resume planner",
+     "student_page": "student-6sw-wk2-day-2-write-a-first-resume",
+     "current_href": "https://docs.google.com/document/d/1YkDFsdLc3uY6AW8WJPEEOQFoJ38pvxHnfduyjXNPfUw/copy"
+    },
+    {
+     "day_key": "6SW-Wk2-Day5",
+     "anchor_text": "the resume packet",
+     "student_page": "student-6sw-wk2-day-5-merch-mode-and-final-resume-evidence",
+     "current_href": "https://docs.google.com/document/d/14ljm0n3folAPDb2LEodoSZ3Twxm5dshnAfKLY8V2FDs/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1p2mety0YATf3lOqjvGgQM_zq07ADEuMeaZ7rqjotydA",
+   "title": "First Resume - Evidence Planner and One-Page Draft",
+   "week_label": "6SW Wk2",
+   "gdoc_title": "CCE | 6SW Wk2 | First Resume - Evidence Planner and One-Page Draft",
+   "copy_url": "https://docs.google.com/document/d/1p2mety0YATf3lOqjvGgQM_zq07ADEuMeaZ7rqjotydA/copy",
+   "edit_url": "https://docs.google.com/document/d/1p2mety0YATf3lOqjvGgQM_zq07ADEuMeaZ7rqjotydA/edit"
+  },
+  {
+   "slug": "6sw-wk2-audio-cue-and-resume-revision",
+   "week": "6SW-Wk2",
+   "folder_id": "1iG50_dG6sb4dahnjpKsjipZUSs7vC6fA",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk2 Graphic Design Resume/Google Masters",
+   "canvas_file_id": 14662920,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk2-Day3",
+     "anchor_text": "the one-page Xello Resume and Revision Record",
+     "student_page": "student-6sw-wk2-day-3-complete-xello-resume-and-revise",
+     "current_href": "https://docs.google.com/document/d/1fYZeXauc58G-c3FDNdhSt_aV_593EzbyNftAx4tmT-k/copy"
+    },
+    {
+     "day_key": "6SW-Wk2-Day5",
+     "anchor_text": "the revision record",
+     "student_page": "student-6sw-wk2-day-5-merch-mode-and-final-resume-evidence",
+     "current_href": "https://docs.google.com/document/d/14ljm0n3folAPDb2LEodoSZ3Twxm5dshnAfKLY8V2FDs/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1OBVfD9KZ3IXGKamOFTej5aC59Et_ZxdgNB9abWf1zcM",
+   "title": "Xello Resume and Revision Record",
+   "week_label": "6SW Wk2",
+   "gdoc_title": "CCE | 6SW Wk2 | Xello Resume and Revision Record",
+   "copy_url": "https://docs.google.com/document/d/1OBVfD9KZ3IXGKamOFTej5aC59Et_ZxdgNB9abWf1zcM/copy",
+   "edit_url": "https://docs.google.com/document/d/1OBVfD9KZ3IXGKamOFTej5aC59Et_ZxdgNB9abWf1zcM/edit"
+  },
+  {
+   "slug": "6sw-wk2-effective-job-search",
+   "week": "6SW-Wk2",
+   "folder_id": "1iG50_dG6sb4dahnjpKsjipZUSs7vC6fA",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk2 Graphic Design Resume/Google Masters",
+   "canvas_file_id": 14575279,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk2-Day4",
+     "anchor_text": "the three-page job-search trace",
+     "student_page": "student-6sw-wk2-day-4-seven-steps-of-an-effective-job-search",
+     "current_href": "https://docs.google.com/document/d/19LBaW7jeIqYo-RABSwCU-_k3yGdS3kRroMdTJtHcun4/copy"
+    },
+    {
+     "day_key": "6SW-Wk2-Day5",
+     "anchor_text": "the job-search trace",
+     "student_page": "student-6sw-wk2-day-5-merch-mode-and-final-resume-evidence",
+     "current_href": "https://docs.google.com/document/d/14ljm0n3folAPDb2LEodoSZ3Twxm5dshnAfKLY8V2FDs/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1bC1wb0p2kU1o07RJyj05v1ERAMI6bU5hMYw605D9v3Y",
+   "title": "Seven-Step Job Search",
+   "week_label": "6SW Wk2",
+   "gdoc_title": "CCE | 6SW Wk2 | Seven-Step Job Search",
+   "copy_url": "https://docs.google.com/document/d/1bC1wb0p2kU1o07RJyj05v1ERAMI6bU5hMYw605D9v3Y/copy",
+   "edit_url": "https://docs.google.com/document/d/1bC1wb0p2kU1o07RJyj05v1ERAMI6bU5hMYw605D9v3Y/edit"
+  },
+  {
+   "slug": "6sw-wk2-merch-mode-design",
+   "week": "6SW-Wk2",
+   "folder_id": "1iG50_dG6sb4dahnjpKsjipZUSs7vC6fA",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk2 Graphic Design Resume/Google Masters",
+   "canvas_file_id": 14575296,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk2-Day5",
+     "anchor_text": "the two-page audience-test companion",
+     "student_page": "student-6sw-wk2-day-5-merch-mode-and-final-resume-evidence",
+     "current_href": "https://docs.google.com/document/d/14ljm0n3folAPDb2LEodoSZ3Twxm5dshnAfKLY8V2FDs/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1d5w4mf47X3_vsEuBD1SDTYHjARJVcjBH80PA0edyvFI",
+   "title": "Merch Mode - Audience Test and Career Connection",
+   "week_label": "6SW Wk2",
+   "gdoc_title": "CCE | 6SW Wk2 | Merch Mode - Audience Test and Career Connection",
+   "copy_url": "https://docs.google.com/document/d/1d5w4mf47X3_vsEuBD1SDTYHjARJVcjBH80PA0edyvFI/copy",
+   "edit_url": "https://docs.google.com/document/d/1d5w4mf47X3_vsEuBD1SDTYHjARJVcjBH80PA0edyvFI/edit"
+  },
+  {
+   "slug": "6sw-wk3-click-factor-campaign",
+   "week": "6SW-Wk3",
+   "folder_id": "1qJNO4o7iJSwQN3si8c4PTEPLp6JuqoDM",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk3 Business Marketing/Google Masters",
+   "canvas_file_id": 14596075,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk3-Day1",
+     "anchor_text": "the two-page audience-test companion",
+     "student_page": "student-6sw-wk3-day-1-click-factor",
+     "current_href": "https://docs.google.com/document/d/1rmIeqpPzwTRUJvJKAxeH0fqDMDP1PRM_1ESnNx3koDE/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1oQDEvYpHKEYLU8kmJVTPhPvnrHz2yUpyCNjlBTG3Bdg",
+   "title": "Click Factor - Audience Test and Revision",
+   "week_label": "6SW Wk3",
+   "gdoc_title": "CCE | 6SW Wk3 | Click Factor - Audience Test and Revision",
+   "copy_url": "https://docs.google.com/document/d/1oQDEvYpHKEYLU8kmJVTPhPvnrHz2yUpyCNjlBTG3Bdg/copy",
+   "edit_url": "https://docs.google.com/document/d/1oQDEvYpHKEYLU8kmJVTPhPvnrHz2yUpyCNjlBTG3Bdg/edit"
+  },
+  {
+   "slug": "6sw-wk3-written-communication-and-change",
+   "week": "6SW-Wk3",
+   "folder_id": "1qJNO4o7iJSwQN3si8c4PTEPLp6JuqoDM",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk3 Business Marketing/Google Masters",
+   "canvas_file_id": 14578332,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk3-Day2",
+     "anchor_text": "the two-page revision and changing-conditions companion",
+     "student_page": "student-6sw-wk3-day-2-written-communication-and-changing-conditions",
+     "current_href": "https://docs.google.com/document/d/1yq1erunMJwOVAyypSL7gQnLfEFv9qkrkS1y87YOEZZE/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1x3yn05MkwtZI0YzA6VdsilJp4n2r8G6irL16sNSvyRM",
+   "title": "Written Communication and Changing Conditions",
+   "week_label": "6SW Wk3",
+   "gdoc_title": "CCE | 6SW Wk3 | Written Communication and Changing Conditions",
+   "copy_url": "https://docs.google.com/document/d/1x3yn05MkwtZI0YzA6VdsilJp4n2r8G6irL16sNSvyRM/copy",
+   "edit_url": "https://docs.google.com/document/d/1x3yn05MkwtZI0YzA6VdsilJp4n2r8G6irL16sNSvyRM/edit"
+  },
+  {
+   "slug": "6sw-wk3-expert-edge-plan",
+   "week": "6SW-Wk3",
+   "folder_id": "1qJNO4o7iJSwQN3si8c4PTEPLp6JuqoDM",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk3 Business Marketing/Google Masters",
+   "canvas_file_id": 14578333,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk3-Day3",
+     "anchor_text": "the two-page opportunity and revision companion",
+     "student_page": "student-6sw-wk3-day-3-expert-edge",
+     "current_href": "https://docs.google.com/document/d/1-okNQxhIQFERj4xI7ImKgPu7euyHUKPJpb3ydVuBALA/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1Au5ddUqTToRE1D07tOk-M_JVyGkVq_2SsCfuIZD2T_A",
+   "title": "Expert Edge - Opportunity, Responsibility, and Revision",
+   "week_label": "6SW Wk3",
+   "gdoc_title": "CCE | 6SW Wk3 | Expert Edge - Opportunity, Responsibility, and Revision",
+   "copy_url": "https://docs.google.com/document/d/1Au5ddUqTToRE1D07tOk-M_JVyGkVq_2SsCfuIZD2T_A/copy",
+   "edit_url": "https://docs.google.com/document/d/1Au5ddUqTToRE1D07tOk-M_JVyGkVq_2SsCfuIZD2T_A/edit"
+  },
+  {
+   "slug": "6sw-wk3-family-fun-pass-analysis",
+   "week": "6SW-Wk3",
+   "folder_id": "1qJNO4o7iJSwQN3si8c4PTEPLp6JuqoDM",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk3 Business Marketing/Google Masters",
+   "canvas_file_id": 14578335,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk3-Day4",
+     "anchor_text": "the two-page evidence-decision companion",
+     "student_page": "student-6sw-wk3-day-4-family-fun-pass",
+     "current_href": "https://docs.google.com/document/d/18St15Ndab3OZFlJUhOOoyfd21E7pQW7jaBIyBgZfD5Y/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1yHrnWYmk_-vPT4Pe0-i0e2kcmGjoNLpquBPc8btGcj4",
+   "title": "Family Fun Pass - Evidence Decision and Test Plan",
+   "week_label": "6SW Wk3",
+   "gdoc_title": "CCE | 6SW Wk3 | Family Fun Pass - Evidence Decision and Test Plan",
+   "copy_url": "https://docs.google.com/document/d/1yHrnWYmk_-vPT4Pe0-i0e2kcmGjoNLpquBPc8btGcj4/copy",
+   "edit_url": "https://docs.google.com/document/d/1yHrnWYmk_-vPT4Pe0-i0e2kcmGjoNLpquBPc8btGcj4/edit"
+  },
+  {
+   "slug": "6sw-wk3-marketing-evidence-brief",
+   "week": "6SW-Wk3",
+   "folder_id": "1qJNO4o7iJSwQN3si8c4PTEPLp6JuqoDM",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk3 Business Marketing/Google Masters",
+   "canvas_file_id": 14578336,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk3-Day5",
+     "anchor_text": "the four-page Marketing Evidence Brief",
+     "student_page": "student-6sw-wk3-day-5-ethical-marketing-evidence-brief",
+     "current_href": "https://docs.google.com/document/d/1Y6GFiN78tbPo076JbHb9u9JfMUml9ZEdHA66jl-6NL8/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1NVZtbE3qSfOR-nrCkJ65wIBguJ9i59tq7Vw3EHHb57U",
+   "title": "Marketing Evidence Brief",
+   "week_label": "6SW Wk3",
+   "gdoc_title": "CCE | 6SW Wk3 | Marketing Evidence Brief",
+   "copy_url": "https://docs.google.com/document/d/1NVZtbE3qSfOR-nrCkJ65wIBguJ9i59tq7Vw3EHHb57U/copy",
+   "edit_url": "https://docs.google.com/document/d/1NVZtbE3qSfOR-nrCkJ65wIBguJ9i59tq7Vw3EHHb57U/edit"
+  },
+  {
+   "slug": "6sw-wk4-sales-pitch-plan",
+   "week": "6SW-Wk4",
+   "folder_id": "1s8DMZmeTo_niJMuEoMlp7PvSMCbrlXqZ",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk4 Sales Presentations/Google Masters",
+   "canvas_file_id": 14579336,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk4-Day1",
+     "anchor_text": "the two-page audience and accuracy companion",
+     "student_page": "student-6sw-wk4-day-1-audience-and-sales-pitch-plan",
+     "current_href": "https://docs.google.com/document/d/11Dz2W7M0xqwL2YWyfTcCUKm4Csc4klTx87vNgV69Cws/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1UwcD6nfhnKn5Swt_YTfV0ZiLBUeht0igsFexdIsJXo4",
+   "title": "30-Second Pitch - Audience, Accuracy, and Career Connection",
+   "week_label": "6SW Wk4",
+   "gdoc_title": "CCE | 6SW Wk4 | 30-Second Pitch - Audience, Accuracy, and Career Connection",
+   "copy_url": "https://docs.google.com/document/d/1UwcD6nfhnKn5Swt_YTfV0ZiLBUeht0igsFexdIsJXo4/copy",
+   "edit_url": "https://docs.google.com/document/d/1UwcD6nfhnKn5Swt_YTfV0ZiLBUeht0igsFexdIsJXo4/edit"
+  },
+  {
+   "slug": "6sw-wk4-pitch-delivery-record",
+   "week": "6SW-Wk4",
+   "folder_id": "1s8DMZmeTo_niJMuEoMlp7PvSMCbrlXqZ",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk4 Sales Presentations/Google Masters",
+   "canvas_file_id": 14579337,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk4-Day2",
+     "anchor_text": "the two-page delivery and revision record",
+     "student_page": "student-6sw-wk4-day-2-deliver-test-and-revise",
+     "current_href": "https://docs.google.com/document/d/1F1hMo_XUDFC-sBs1ex-isFau2SLaURIN_YxgbPsuh-E/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "148wVvimVz0-kYzqPy_JcOPwuf3d_TfNJd-IhX4ICC_0",
+   "title": "30-Second Pitch - Deliver, Revise, Deliver Again",
+   "week_label": "6SW Wk4",
+   "gdoc_title": "CCE | 6SW Wk4 | 30-Second Pitch - Deliver, Revise, Deliver Again",
+   "copy_url": "https://docs.google.com/document/d/148wVvimVz0-kYzqPy_JcOPwuf3d_TfNJd-IhX4ICC_0/copy",
+   "edit_url": "https://docs.google.com/document/d/148wVvimVz0-kYzqPy_JcOPwuf3d_TfNJd-IhX4ICC_0/edit"
+  },
+  {
+   "slug": "6sw-wk4-brainboost-and-career-outline",
+   "week": "6SW-Wk4",
+   "folder_id": "1s8DMZmeTo_niJMuEoMlp7PvSMCbrlXqZ",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk4 Sales Presentations/Google Masters",
+   "canvas_file_id": 14579338,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk4-Day3",
+     "anchor_text": "the two-page individual decision and career-outline companion",
+     "student_page": "student-6sw-wk4-day-3-brainboost-decision-and-career-outline",
+     "current_href": "https://docs.google.com/document/d/1ud6DX18VXUhv_pnZbfIZf7Xnzxw3unUyOjjDUNrNOBA/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1ThvL-DROnB-0elo0WR6TqdPJJEM1bKDM8kC6panAXtc",
+   "title": "BrainBoost - Individual Decision and Career Brief Outline",
+   "week_label": "6SW Wk4",
+   "gdoc_title": "CCE | 6SW Wk4 | BrainBoost - Individual Decision and Career Brief Outline",
+   "copy_url": "https://docs.google.com/document/d/1ThvL-DROnB-0elo0WR6TqdPJJEM1bKDM8kC6panAXtc/copy",
+   "edit_url": "https://docs.google.com/document/d/1ThvL-DROnB-0elo0WR6TqdPJJEM1bKDM8kC6panAXtc/edit"
+  },
+  {
+   "slug": "6sw-wk4-appearance-and-rehearsal",
+   "week": "6SW-Wk4",
+   "folder_id": "1s8DMZmeTo_niJMuEoMlp7PvSMCbrlXqZ",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk4 Sales Presentations/Google Masters",
+   "canvas_file_id": 14596080,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk4-Day4",
+     "anchor_text": "the two-page landscape appearance and rehearsal companion",
+     "student_page": "student-6sw-wk4-day-4-interview-appearance-and-rehearsal",
+     "current_href": "https://docs.google.com/document/d/1zVAt8D4gDqnu3sI5EwWch5cQcxIq2yvDu60gDB2gxtE/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1gfL2w9PDNJoP14x7OxMuVt5g3kuGesblkRncIcWlPgA",
+   "title": "Interview Appearance and Career-Brief Rehearsal",
+   "week_label": "6SW Wk4",
+   "gdoc_title": "CCE | 6SW Wk4 | Interview Appearance and Career-Brief Rehearsal",
+   "copy_url": "https://docs.google.com/document/d/1gfL2w9PDNJoP14x7OxMuVt5g3kuGesblkRncIcWlPgA/copy",
+   "edit_url": "https://docs.google.com/document/d/1gfL2w9PDNJoP14x7OxMuVt5g3kuGesblkRncIcWlPgA/edit"
+  },
+  {
+   "slug": "6sw-wk4-career-oral-evidence",
+   "week": "6SW-Wk4",
+   "folder_id": "1s8DMZmeTo_niJMuEoMlp7PvSMCbrlXqZ",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk4 Sales Presentations/Google Masters",
+   "canvas_file_id": 14596081,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk4-Day5",
+     "anchor_text": "the two-page Career Oral Evidence Brief",
+     "student_page": "student-6sw-wk4-day-5-career-oral-evidence-brief",
+     "current_href": "https://docs.google.com/document/d/1_ZC31w6pL3tZlEx6mG_rhBiiiMEyirL1cUXExi516Zk/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1uO4LlYZDRWZd9oERemAu8WtHrX1-DczhP_Eaf_Jt1mQ",
+   "title": "Career Oral Evidence Brief",
+   "week_label": "6SW Wk4",
+   "gdoc_title": "CCE | 6SW Wk4 | Career Oral Evidence Brief",
+   "copy_url": "https://docs.google.com/document/d/1uO4LlYZDRWZd9oERemAu8WtHrX1-DczhP_Eaf_Jt1mQ/copy",
+   "edit_url": "https://docs.google.com/document/d/1uO4LlYZDRWZd9oERemAu8WtHrX1-DczhP_Eaf_Jt1mQ/edit"
+  },
+  {
+   "slug": "6sw-wk5-job-search-and-posting-evidence",
+   "week": "6SW-Wk5",
+   "folder_id": "1cgB9XF33QMcxhlh1zdj6koCi_702UCoI",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk5 Job Skills Mock Interview/Google Masters",
+   "canvas_file_id": 14579492,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk5-Day1",
+     "anchor_text": "the two-page record",
+     "student_page": "student-6sw-wk5-day-1-job-search-and-posting-screen",
+     "current_href": "https://docs.google.com/document/d/1TWgRMdH-gDvpUO-BxB0y4316mCo8t3IjRCBLeIXUbpk/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1vO_piUAOfHODIlsEhjPg7XzzpsiEpn8ZAelQGCpmvGI",
+   "title": "Job Search and Posting Screen",
+   "week_label": "6SW Wk5",
+   "gdoc_title": "CCE | 6SW Wk5 | Job Search and Posting Screen",
+   "copy_url": "https://docs.google.com/document/d/1vO_piUAOfHODIlsEhjPg7XzzpsiEpn8ZAelQGCpmvGI/copy",
+   "edit_url": "https://docs.google.com/document/d/1vO_piUAOfHODIlsEhjPg7XzzpsiEpn8ZAelQGCpmvGI/edit"
+  },
+  {
+   "slug": "6sw-wk5-cover-letter-simulation",
+   "week": "6SW-Wk5",
+   "folder_id": "1cgB9XF33QMcxhlh1zdj6koCi_702UCoI",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk5 Job Skills Mock Interview/Google Masters",
+   "canvas_file_id": 14579493,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk5-Day2",
+     "anchor_text": "the three-page cover-letter lab",
+     "student_page": "student-6sw-wk5-day-2-tailored-cover-letter",
+     "current_href": "https://docs.google.com/document/d/192n8TANNnRP7PpN89Bw9R_2oKXZmOAjZ-oyHZs3M_ts/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1XtO5Gyq9wKdK_xrDzU7y8lv7XoZLZ8AAJaJaX9uZ_xY",
+   "title": "Fictional Cover Letter Lab",
+   "week_label": "6SW Wk5",
+   "gdoc_title": "CCE | 6SW Wk5 | Fictional Cover Letter Lab",
+   "copy_url": "https://docs.google.com/document/d/1XtO5Gyq9wKdK_xrDzU7y8lv7XoZLZ8AAJaJaX9uZ_xY/copy",
+   "edit_url": "https://docs.google.com/document/d/1XtO5Gyq9wKdK_xrDzU7y8lv7XoZLZ8AAJaJaX9uZ_xY/edit"
+  },
+  {
+   "slug": "6sw-wk5-application-and-references",
+   "week": "6SW-Wk5",
+   "folder_id": "1cgB9XF33QMcxhlh1zdj6koCi_702UCoI",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk5 Job Skills Mock Interview/Google Masters",
+   "canvas_file_id": 14579494,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk5-Day3",
+     "anchor_text": "the four-page fictional application and reference record",
+     "student_page": "student-6sw-wk5-day-3-sample-application-and-references",
+     "current_href": "https://docs.google.com/document/d/1G_DYmms-Q5MmXddjZaY1WDA9isDINbuYxNdkN7qG9e4/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1KD_WtLPmyvWEMr8bBpQpptW8jmoXpvIZ04BCNOK-Pjg",
+   "title": "Fictional Application and Reference Protocol",
+   "week_label": "6SW Wk5",
+   "gdoc_title": "CCE | 6SW Wk5 | Fictional Application and Reference Protocol",
+   "copy_url": "https://docs.google.com/document/d/1KD_WtLPmyvWEMr8bBpQpptW8jmoXpvIZ04BCNOK-Pjg/copy",
+   "edit_url": "https://docs.google.com/document/d/1KD_WtLPmyvWEMr8bBpQpptW8jmoXpvIZ04BCNOK-Pjg/edit"
+  },
+  {
+   "slug": "6sw-wk5-interview-readiness",
+   "week": "6SW-Wk5",
+   "folder_id": "1cgB9XF33QMcxhlh1zdj6koCi_702UCoI",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk5 Job Skills Mock Interview/Google Masters",
+   "canvas_file_id": 14611299,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk5-Day4",
+     "anchor_text": "the three-page planner",
+     "student_page": "student-6sw-wk5-day-4-interview-preparation",
+     "current_href": "https://docs.google.com/document/d/1qXRmR9Hit6ebMt9tG9_ClIetVXSSR4S5IT2fpE5M4UQ/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1aa7m_sx5tdu-KyXtif38gvxxSBSTbJyi-bxPPHaRxCU",
+   "title": "Interview Preparation Planner",
+   "week_label": "6SW Wk5",
+   "gdoc_title": "CCE | 6SW Wk5 | Interview Preparation Planner",
+   "copy_url": "https://docs.google.com/document/d/1aa7m_sx5tdu-KyXtif38gvxxSBSTbJyi-bxPPHaRxCU/copy",
+   "edit_url": "https://docs.google.com/document/d/1aa7m_sx5tdu-KyXtif38gvxxSBSTbJyi-bxPPHaRxCU/edit"
+  },
+  {
+   "slug": "6sw-wk5-mock-interview-and-thank-you",
+   "week": "6SW-Wk5",
+   "folder_id": "1cgB9XF33QMcxhlh1zdj6koCi_702UCoI",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk5 Job Skills Mock Interview/Google Masters",
+   "canvas_file_id": 14611300,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk5-Day5",
+     "anchor_text": "the four-page Day 5 record",
+     "student_page": "student-6sw-wk5-day-5-mock-interview-and-follow-up",
+     "current_href": "https://docs.google.com/document/d/1UAxy4EoWYyjsL94cbZ0ZG-4sNKqBsfsW1DDb40yw7zw/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1KW3lZV0jzOXcUjZAxNEd4y3foG-3dbAtwG2urRCJneU",
+   "title": "Mock Interview and Follow-Up Record",
+   "week_label": "6SW Wk5",
+   "gdoc_title": "CCE | 6SW Wk5 | Mock Interview and Follow-Up Record",
+   "copy_url": "https://docs.google.com/document/d/1KW3lZV0jzOXcUjZAxNEd4y3foG-3dbAtwG2urRCJneU/copy",
+   "edit_url": "https://docs.google.com/document/d/1KW3lZV0jzOXcUjZAxNEd4y3foG-3dbAtwG2urRCJneU/edit"
+  },
+  {
+   "slug": "6sw-wk6-career-evidence-inventory",
+   "week": "6SW-Wk6",
+   "folder_id": "1LeDi9d33FhSzL6873IX67LHZ6IVZENce",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk6 Capstone/Google Masters",
+   "canvas_file_id": 14579639,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk6-Day1",
+     "anchor_text": "the two-page inventory and recovery plan",
+     "student_page": "student-6sw-wk6-day-1-evidence-audit-and-recovery",
+     "current_href": "https://docs.google.com/document/d/1Q8kcr9JEk9wFTzoDcetKxlTK_7c2Q-omwX_07xP2h_s/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1921t3P10WjG032OWiJFQr2edshy_6QwWYmE2-4KqlpI",
+   "title": "Career Evidence Inventory and Recovery Plan",
+   "week_label": "6SW Wk6",
+   "gdoc_title": "CCE | 6SW Wk6 | Career Evidence Inventory and Recovery Plan",
+   "copy_url": "https://docs.google.com/document/d/1921t3P10WjG032OWiJFQr2edshy_6QwWYmE2-4KqlpI/copy",
+   "edit_url": "https://docs.google.com/document/d/1921t3P10WjG032OWiJFQr2edshy_6QwWYmE2-4KqlpI/edit"
+  },
+  {
+   "slug": "6sw-wk6-individual-career-plan",
+   "week": "6SW-Wk6",
+   "folder_id": "1LeDi9d33FhSzL6873IX67LHZ6IVZENce",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk6 Capstone/Google Masters",
+   "canvas_file_id": 14579640,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk6-Day2",
+     "anchor_text": "the four-page individual career plan",
+     "student_page": "student-6sw-wk6-day-2-individual-career-plan",
+     "current_href": "https://docs.google.com/document/d/1xiJUSknBxEzKotlNMfx190WjoZG53394F0GKvruHLoM/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1f7mFTf2FwoUr6NjfAYTRmtydTIf2zhFDeClsYT3bqGU",
+   "title": "Individual Career Plan",
+   "week_label": "6SW Wk6",
+   "gdoc_title": "CCE | 6SW Wk6 | Individual Career Plan",
+   "copy_url": "https://docs.google.com/document/d/1f7mFTf2FwoUr6NjfAYTRmtydTIf2zhFDeClsYT3bqGU/copy",
+   "edit_url": "https://docs.google.com/document/d/1f7mFTf2FwoUr6NjfAYTRmtydTIf2zhFDeClsYT3bqGU/edit"
+  },
+  {
+   "slug": "6sw-wk6-capstone-presentation-plan",
+   "week": "6SW-Wk6",
+   "folder_id": "1LeDi9d33FhSzL6873IX67LHZ6IVZENce",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk6 Capstone/Google Masters",
+   "canvas_file_id": 14579641,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk6-Day3",
+     "anchor_text": "the two-page brief and rehearsal plan",
+     "student_page": "student-6sw-wk6-day-3-career-evidence-brief-and-rehearsal",
+     "current_href": "https://docs.google.com/document/d/1ycAgpMpdiEtEFGWijh-mh3ZbXkC7KZPSnXjg3ekU2XI/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1TaYLV9Wh9I0oKn5r6nbMHa5hMwzmTkEYk91ODE0lFNk",
+   "title": "Capstone Presentation Plan",
+   "week_label": "6SW Wk6",
+   "gdoc_title": "CCE | 6SW Wk6 | Capstone Presentation Plan",
+   "copy_url": "https://docs.google.com/document/d/1TaYLV9Wh9I0oKn5r6nbMHa5hMwzmTkEYk91ODE0lFNk/copy",
+   "edit_url": "https://docs.google.com/document/d/1TaYLV9Wh9I0oKn5r6nbMHa5hMwzmTkEYk91ODE0lFNk/edit"
+  },
+  {
+   "slug": "6sw-wk6-capstone-delivery-record",
+   "week": "6SW-Wk6",
+   "folder_id": "1LeDi9d33FhSzL6873IX67LHZ6IVZENce",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk6 Capstone/Google Masters",
+   "canvas_file_id": 14579642,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk6-Day4",
+     "anchor_text": "the two-page delivery and revision record",
+     "student_page": "student-6sw-wk6-day-4-communicated-capstone-and-revision",
+     "current_href": "https://docs.google.com/document/d/1HwYLdogWDuV55UpLya5XqbbAohqMm9oc7BRrgwa6aMw/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1efYTwbvPZWCF4ovurvAwTxr1ePeRO2iRmMj97nDN9hU",
+   "title": "Capstone Delivery and Revision Record",
+   "week_label": "6SW Wk6",
+   "gdoc_title": "CCE | 6SW Wk6 | Capstone Delivery and Revision Record",
+   "copy_url": "https://docs.google.com/document/d/1efYTwbvPZWCF4ovurvAwTxr1ePeRO2iRmMj97nDN9hU/copy",
+   "edit_url": "https://docs.google.com/document/d/1efYTwbvPZWCF4ovurvAwTxr1ePeRO2iRmMj97nDN9hU/edit"
+  },
+  {
+   "slug": "6sw-wk6-final-course-reflection",
+   "week": "6SW-Wk6",
+   "folder_id": "1LeDi9d33FhSzL6873IX67LHZ6IVZENce",
+   "folder_path": "VILS27/Units_CCR/SW6 \u00b7 Wk6 Capstone/Google Masters",
+   "canvas_file_id": 14579643,
+   "used_by": [
+    {
+     "day_key": "6SW-Wk6-Day5",
+     "anchor_text": "the two-page reflection and transfer plan",
+     "student_page": "student-6sw-wk6-day-5-reflection-and-transfer-forward",
+     "current_href": "https://docs.google.com/document/d/1geEUPCgXGQuwXyoCjrEBrJiG9q9W6eXSho3IzwVo8Nw/copy"
+    }
+   ],
+   "status": "created",
+   "doc_id": "1mZyUOqrN4_iHVEzIiAnKtLbA3-ohf0jz6r3GZdn83tc",
+   "title": "Final Course Reflection and Transfer Plan",
+   "week_label": "6SW Wk6",
+   "gdoc_title": "CCE | 6SW Wk6 | Final Course Reflection and Transfer Plan",
+   "copy_url": "https://docs.google.com/document/d/1mZyUOqrN4_iHVEzIiAnKtLbA3-ohf0jz6r3GZdn83tc/copy",
+   "edit_url": "https://docs.google.com/document/d/1mZyUOqrN4_iHVEzIiAnKtLbA3-ohf0jz6r3GZdn83tc/edit"
+  }
+ ]
+}

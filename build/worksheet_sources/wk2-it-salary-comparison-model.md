@@ -15,7 +15,7 @@ Use this guide beside the five-page IT Salary Comparison packet. It shows how to
 
 **Exact career title:** Copy the complete title displayed in H&L or Xello.
 
-### HQIM localized salary
+### App salary (Hats & Ladders or Xello, local figure)
 
 - **Platform:** Write H&L or Xello.
 - **Geography shown:** Copy the location displayed with the figure.
@@ -25,7 +25,7 @@ Use this guide beside the five-page IT Salary Comparison packet. It shows how to
 
 ### External national cross-check
 
-- **BLS occupation title:** Copy the BLS title. It may be broader than the HQIM career.
+- **BLS occupation title:** Copy the BLS title. It may be broader than the career shown in the app.
 - **National median and data year:** Keep both together.
 - **Typical entry education:** Copy the labeled BLS field.
 - **Job outlook:** Record the percent and projection years.

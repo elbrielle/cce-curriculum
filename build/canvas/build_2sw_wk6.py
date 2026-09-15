@@ -21,8 +21,20 @@ STUDENT_GOOGLE_COPY_URLS = {
 }
 
 
+# One Google Doc per worksheet (build/google_docs/student_worksheet_docs.json).
+# Keyed by (day, anchor label) so a worksheet button never opens the day's exit ticket.
+STUDENT_WORKSHEET_COPY_URLS = {
+    (1, 'the Cover Letter Lab'): "https://docs.google.com/document/d/1kbvKfdgCuP6C682Etfc9_3K4hLRQlFxTM8q1pqzrUiY/copy",
+    (2, 'the optional expanded design record'): "https://docs.google.com/document/d/1UEXN0pkcE3HucvzSlYRBbu4wmjPwx7KiP0vGXHCXiz0/copy",
+    (3, 'the optional expanded investigation record'): "https://docs.google.com/document/d/1316fVWZkJY7j0QQZc_H6wWQkVmI_JSvtiXyYfxHQwLo/copy",
+    (4, 'the optional expanded response plan'): "https://docs.google.com/document/d/16JL29owdyoFQpNw11bJXvbGlQ3xmjJSlmjQyfcxQTaw/copy",
+    (5, 'the optional one-page paper response'): "https://docs.google.com/document/d/1B-u3xDcvptqNrcsmkIlGljiAyokwpjl_7AIE2gM1N1M/copy",
+}
+
+
 def student_copy_link(day, label):
-    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+    url = STUDENT_WORKSHEET_COPY_URLS.get((day, label), STUDENT_GOOGLE_COPY_URLS[day])
+    return f'<a href="{url}">{label}</a>'
 
 MODULE_NAME = "2SW Wk6: Science Meets Medicine"
 QUIZ_TITLE = "PRACTICE: Outbreak Evidence Check"
@@ -151,11 +163,12 @@ async def lock_folder_files(client, folder):
         if not entry.get("locked"):
             await api(client, "PUT", f"/files/{entry['id']}", data={"locked": "true"})
     final = await paged(client, f"/folders/{folder['id']}/files")
-    unlocked = [
-        entry.get("display_name") or entry.get("filename")
-        for entry in final
-        if not entry.get("locked")
-    ]
+    unlocked = []
+    for entry in final:
+        if not entry.get("locked"):
+            refreshed = await api(client, "GET", f"/files/{entry['id']}")
+            if not refreshed.get("locked"):
+                unlocked.append(entry.get("display_name") or entry.get("filename"))
     if unlocked:
         raise RuntimeError(f"Unlocked files remain in folder {folder['id']}: {unlocked}")
     return current
@@ -252,7 +265,7 @@ def step(number, title, body, color="#5a2d91"):
 
 
 def flow(color, title, text):
-    return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0;color:{color}">{title}</h4><p>{text}</p></div>'
+    return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0 0 6px;color:{color}">{title}</h4>{text}</div>'
 
 
 QUIZ_QUESTIONS = [
@@ -775,6 +788,11 @@ async def main():
                     4,
                     "Reflect privately",
                     f'<p><a href="{assignment_url}">Open the private reflection assignment</a>. Type the four responses or upload the paper response only when your teacher assigned it.</p><div style="border-left:5px solid #1f617a;background:#f2f8fb;padding:10px 14px;margin:12px 0"><strong>Use while reflecting:</strong> task/tarea · preparation/preparación · evidence/evidencia · tradeoff/compensación · verify/verificar<br><strong>Complete thought:</strong> I recommend exploring ____ because the task ____ and preparation ____ fit ____. The source shows ____. I still need to verify ____.</div>',
+                )
+                + step(
+                    5,
+                    "Finished early? (optional)",
+                    "<p>Open your <em>Find Your Future</em> workbook to pp. 82-83, Patient Education. Sketch or generate a labeled medical illustration, compare it with a trusted anatomy source, and name one accurate feature and one problem.</p>",
                 ),
                 "EXIT": "<p>Your final reflection response is the exit check. Explain why one source-labeled fact supports or complicates your recommendation. Do not submit a second response.</p>",
                 "DONE": "<ul><li>three careers compared;</li><li>recommendation uses a task, preparation fact, and source-labeled fact;</li><li>tradeoff and next question submitted privately.</li></ul>",
@@ -794,28 +812,14 @@ async def main():
                 "ALERT": "<strong>Use the fixed evidence and fictional posting.</strong> Do not make teachers find a live job ad or make students search mixed salary measures.",
                 "PREP": f"<ul><li><strong>Default grouping:</strong> pairs for the career scan; individual writing for the letter.</li><li>Project or post {file_link(files['CAREERS']['id'], 'the Biomedical Career Evidence Guide')}; print one copy per pair only when devices are not the reference route.</li><li>Provide one two-page {file_link(files['LETTER']['id'], 'Cover Letter Lab')} per student, or assign digital annotation. Project the supplied fictional posting.</li><li><strong>Supplied model:</strong> “The posting asks for attention to detail. I practiced this when I checked the labels and measurements in my science investigation before submitting it.”</li><li>Keep BLS source links available for questions. No live job search is needed.</li></ul>",
                 "EVIDENCE": "<p>Collect one individual five-part practice letter per student. The three-career comparison is a reference/Stop and Jot, not a second graded packet. Formative portfolio evidence only; Week 6 adds no Minor or Major.</p>",
-                "FLOW": flow(
-                    "#5a2d91",
-                    "Warm-up · 5",
-                    "Choose the most important career factor and explain.",
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Career evidence · 12",
-                    "Compare median, growth, openings, and education.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Fictional posting · 8",
-                    "Match two needs to honest evidence.",
-                )
-                + flow(
-                    "#e3ad19",
-                    "Letter draft · 17",
-                    "Draft all five parts and underline the evidence match.",
-                )
-                + flow("#1f617a", "Exit and collect · 5", "Write one need-to-evidence sentence and submit the individual letter.")
-                + flow("#24323d", "Transition buffer · 3", "Distribute/close documents and confirm names on submissions."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and career criteria warm-up", '''<p>Welcome students to Week 6 of Health Science and project the career priorities launch prompt.</p><ul><li>Ask students: <em>“When choosing a professional career in science or engineering, which factor should carry the most weight: daily work responsibilities, required years of education, earning potential, or the community problem the job solves? Defend your choice in one sentence.”</em></li><li>Hear 2-3 quick shares. Frame the lesson: <em>“Today we examine three advanced biomedical careers, compare their labor market metrics, and learn how to write an honest, evidence-based cover letter matching an employer's real needs.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-17 - Analyzing the Biomedical Career Evidence Guide", '''<p>Project the Biomedical Career Evidence Guide comparing three specialized occupations:</p><ul><li>1. <strong>Biomedical Engineer:</strong> Bachelor's degree; May 2024 U.S. median pay $100,710; 7% growth (highest median salary). Designs biocompatible devices, medical software, and artificial organs.</li><li>2. <strong>Epidemiologist:</strong> Master's degree; May 2024 U.S. median pay $81,390; 19% projected growth (fastest growth). Investigates disease patterns, infection sources, and public health policies.</li><li>3. <strong>Medical Scientist:</strong> Doctoral/Professional degree (Ph.D./M.D.); May 2024 U.S. median pay $100,890; 10,000 projected annual openings (highest volume of annual openings). Conducts clinical trials and laboratory research to develop new treatments.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 12): Verify students keep source labels (May 2024, U.S., median) firmly attached to every wage figure and do not mistake national medians for starting salaries.</li></ul>''')
+                    + flow("#1f617a", "Minutes 17-25 - Dissecting the fictional laboratory internship posting", '''<p>Project the fictional summer laboratory internship posting.</p><ul><li>Guide students to identify TWO explicit employer requirements: (1) Rigorous attention to detail and measurement precision, and (2) Dependable collaborative teamwork under tight deadlines.</li><li>Model matching an employer need to authentic, honest student evidence without exaggeration: <em>“The posting asks for attention to detail. I practiced this when I calibrated measurements and verified data tables during our micro:bit simulator build.”</em></li></ul>''')
+                    + flow("#e3ad19", "Minutes 25-42 - Drafting the Five-Part Practice Cover Letter", '''<p>Students draft their formal practice cover letter in the Cover Letter Lab:</p><ul><li>Part 1: Professional Header &amp; Salutation (Date, Hiring Manager, Laboratory Title).</li><li>Part 2: Opening Paragraph (State the exact position applied for and enthusiasm for the laboratory mission).</li><li>Part 3: Evidence Body Paragraph (Directly match one authentic personal accomplishment or classroom experience to one stated employer need).</li><li>Part 4: Professional Closing &amp; Next Step (Request an interview and state contact availability).</li><li>Part 5: Formal Sign-off and Signature.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 2 (Minute 34): Check student body paragraphs. Verify students provide concrete evidence from middle school projects, clubs, or family responsibilities rather than fabricating fake credentials.</li></ul>''')
+                    + flow("#1f617a", "Minutes 42-47 - Need-to-evidence DOL and letter review", '''<p>Direct students to the Day 1 Exit Ticket prompt.</p><ul><li>Students complete the structured frame: <em>“The employer posting requires [Specific Need]. My strongest honest evidence for this requirement is [Concrete Past Action] because [Reason it proves readiness].”</em></li><li>Students underline their need-to-evidence sentence directly within their draft letter.</li></ul>''')
+                    + flow("#24323d", "Minutes 47-50 - Collect letters and workspace reset", '''<p>Collect completed cover letters and transition materials.</p><ul><li><strong>Safe Trim:</strong> Provide the completed comparison key as a Stop-and-Jot reference rather than requiring full written chart transcription; fiercely protect the fictional posting analysis, authentic body paragraph, and exit check.</li></ul>''')
+                ),
                 "MONITOR": "<p><strong>Lap 1—career labels:</strong> target = May 2024 U.S. median and 2024-34 projection stay attached. Key: Biomedical Engineer has the highest median, Epidemiologist the fastest growth, Medical Scientist the most annual openings. If several students call median starting pay, pause and relabel one figure together. <strong>Lap 2—posting evidence:</strong> target = one exact employer need matched to one true example. Ask, “Which words came from the posting, and what did you actually do?” If students invent experience, return to the supplied school/team/family examples. <strong>Lap 3—letter:</strong> target = all five parts plus a specific body paragraph.</p><p><strong>Safe trim:</strong> use the teacher-key Stop and Jot instead of a full three-career written comparison. Protect the posting match, honest body paragraph, and five-part letter check.</p>",
                 "RESOURCES": '<p><a href="https://www.bls.gov/ooh/architecture-and-engineering/biomedical-engineers.htm">BLS Biomedical Engineers</a> · <a href="https://www.bls.gov/ooh/life-physical-and-social-science/epidemiologists.htm">BLS Epidemiologists</a> · <a href="https://www.bls.gov/ooh/life-physical-and-social-science/medical-scientists.htm">BLS Medical Scientists</a></p>',
                 "SUPPORT": "<p>The complete need-to-evidence frame is visible beside the drafting step. Read the posting aloud and mark one need/example in different colors. Permit typed, written, dictated, or teacher-scribed responses when documented. Score evidence, not mechanics unless meaning is unclear.</p>",
@@ -831,30 +835,14 @@ async def main():
                 "ALERT": "<strong>Future-technology scenario.</strong> The workbook asks students to design and reason. Do not present the concept as a clinically available treatment.",
                 "PREP": f"<ul><li><strong>Default grouping:</strong> individual FYF design, then partner feedback. Provide one workbook and pencil per student, one ruler per pair, and one drawing-tool cup per table.</li><li>Open licensed pp. 79-81; students write on FYF pp. 80-81 by default.</li><li>Keep {file_link(files['MEDICS']['id'], 'the optional expanded design record')} for the no-workbook or extended route instead of printing it automatically. Chart paper is optional, not required.</li><li>Project the four mission checks. Model one purpose label: <strong>tracking signal — helps the trained team locate the design</strong>. Students create the remaining labels.</li></ul>",
                 "EVIDENCE": "<p>Check one individual mission-aligned plan, labeled design, four-part journey, research evidence question, and career-work-product sentence. Formative portfolio evidence only; do not grade art, public speaking, or materials access.</p>",
-                "FLOW": flow(
-                    "#5a2d91", "Warm-up · 5", "Name what a designer must control."
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Mission · 8",
-                    "Size, guidance, vessel protection, signal.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Plan, draw, map · 24",
-                    "Three chunks with checks before release; switch to individual evidence after partner talk.",
-                )
-                + flow(
-                    "#e3ad19",
-                    "Compare · 5",
-                    "One strong choice and one safety question.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Exit and collect · 5",
-                    "Explain why smaller does not automatically mean safer; confirm the career sentence.",
-                )
-                + flow("#24323d", "Cleanup · 3", "Return rulers/tools and confirm workbook or digital evidence."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and nanomedicine design warm-up", '''<p>Welcome students and project the future-medicine engineering prompt.</p><ul><li>Ask, <em>“Imagine engineers design a tiny medical robot small enough to travel through a human blood vessel to clear a blockage. Beyond making it small, what critical physical or navigational factor must the engineers control to prevent harming the patient?”</em></li><li>Collect 2-3 student thoughts (e.g., vessel wall damage, getting stuck, steering control, power source, safe removal).</li><li>Bridge with, <em>“In biomedical engineering, miniaturization creates tremendous medical potential but requires extreme safety protocols. Today you engineer a fictional nanorobot prototype on FYF pp. 80-81.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-13 - Four biomedical engineering mission constraints", '''<p>Open FYF pp. 79-81 and review the four core engineering criteria:</p><ul><li>1. <strong>Microscopic Scale:</strong> Must safely navigate microscopic capillary and arterial dimensions.</li><li>2. <strong>Active Guidance System:</strong> Magnetic, acoustic, or chemical propulsion controlled by clinicians.</li><li>3. <strong>Vessel Wall Protection:</strong> Smooth, biocompatible casing that prevents tissue laceration or clotting.</li><li>4. <strong>Continuous Tracking Signal:</strong> Emits an ultrasonic or radio signal so the clinical team tracks its real-time location.</li><li>Model one purpose label: <em>“Tracking Beacon — transmits ultrasound pulses so the surgical team maps real-time location on the monitor.”</em></li></ul>''')
+                    + flow("#1f617a", "Minutes 13-37 - Three-chunk engineering design sprint (Plan, Draw, Map)", '''<p>Students construct their nanomedical prototype across three progressive checkpoints:</p><ul><li><strong>Chunk 1 (Plan &amp; Tool Selection - 8 min):</strong> Select exactly THREE micro-tools (e.g., micro-gripper, thermal dissolver, localized medicine injector). Justify how each tool operates safely.</li><li><strong>Chunk 2 (Technical Schematic - 10 min):</strong> Draw the robot with four precise purpose-driven callout labels (guidance, casing, tools, tracking).</li><li><strong>Chunk 3 (Mission Journey Map - 6 min):</strong> Chart the 4-phase clinical pathway: Injection/Entry &rarr; Vessel Navigation &rarr; Targeted Intervention &rarr; Safe Retrieval/Deactivation.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Checkpoint 1 (Minute 20): Check that students label tool FUNCTIONS, not just shapes.<br>• Checkpoint 2 (Minute 30): Verify the 4-phase journey map shows active clinician control at every step.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 37-42 - Peer safety review and protocol audit", '''<p>Pairs conduct a structured 5-minute peer audit using the Design Review Protocol.</p><ul><li>Partner A identifies the single strongest mechanical design feature.</li><li>Partner B asks ONE critical safety question (e.g., <em>“What happens if the tracking signal fails inside a deep vessel?”</em>).</li><li>Each student records one actionable safety refinement on their schematic.</li></ul>''')
+                    + flow("#1f617a", "Minutes 42-47 - Design safety DOL and biomedical career connection", '''<p>Direct students to the Day 2 Exit Ticket.</p><ul><li>Prompt: <em>“Why does making a medical device smaller NOT automatically make it safer? Then, name the biomedical career that would design, test, and manufacture this physical device.”</em></li><li>Confirm student identification of <strong>Biomedical Engineer</strong> and the associated design documentation work product.</li></ul>''')
+                    + flow("#24323d", "Minutes 47-50 - Material return and workspace reset", '''<p>Return rulers and drawing materials; collect completed design workbooks.</p><ul><li><strong>Safe Trim:</strong> Cut chart-paper extensions and partner comparisons; protect the 4-label schematic, 4-phase journey map, and the safety exit check.</li></ul>''')
+                ),
                 "MONITOR": "<p><strong>Checkpoint 1—release to draw:</strong> target = size, three tools, guidance, vessel protection, and signal. If three or more students stall on decoration, stop and model how one label states a purpose. <strong>Checkpoint 2—journey:</strong> target = enter, travel, act, finish in a workable order. Ask, “Where is the trained team still in control?” <strong>Checkpoint 3—evidence:</strong> target = one safety question plus a biomedical career and work product. Key exit answer: smaller may help fit but does not prove control or vessel safety.</p><p><strong>Safe trim:</strong> cut chart-paper transfer and partner comparison first. Protect the mission check, labeled workbook design, evidence question, and career-work-product sentence. Reserve three minutes for tool return and evidence collection.</p>",
                 "RESOURCES": "<p>Licensed FYF pp. 79-81 are embedded in the student page. Patient Education pp. 82-83 is reserved for optional Canva or Adobe Express extension.</p>",
                 "SUPPORT": "<p>The design-evidence frame and bilingual terms are visible beside the missing-evidence step. Allow the supplied workbook outline, speech-to-text, and independent work. The optional PDF now has one proportional sketch box. Plain paper and chart paper are equal.</p>",
@@ -870,29 +858,14 @@ async def main():
                 "ALERT": "<strong>Fictional case.</strong> A supported hypothesis is not proof, and the worksheet is not real public-health guidance.",
                 "PREP": f"<ul><li><strong>Default grouping:</strong> individual FYF pp. 75-76 with a two-minute pair comparison. Provide one workbook per student and project the embedded case table.</li><li>Keep {file_link(files['INVESTIGATE']['id'], 'the optional expanded investigation record')} for the no-workbook or extended route; do not print it as a second class packet.</li><li>Open the unpublished evidence quiz. Display the fictional-case/real-event boundary before students enter the case.</li></ul>",
                 "EVIDENCE": "<p>Collect one individual FYF investigation report with a sick-to-healthy comparison, three clues, working claim, unanswered test, and epidemiologist work-product sentence. The quiz is formative feedback, not a second graded artifact. Week 6 adds no Minor or Major.</p>",
-                "FLOW": flow(
-                    "#5a2d91",
-                    "Warm-up · 4",
-                    "Sort useful information into exposure, symptoms, time, comparison.",
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Role · 4",
-                    "Investigate patterns and causes without overclaiming.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Compare clues · 11",
-                    "Think-Pair-Share or written route.",
-                )
-                + flow(
-                    "#e3ad19",
-                    "Report and analyze · 18",
-                    "Claim, evidence, pattern, severity, risk, test.",
-                )
-                + flow("#e3ad19", "Practice check · 5", "Retry feedback or use the written self-check.")
-                + flow("#1f617a", "Career close and collect · 5", "Name the report product and who uses it next.")
-                + flow("#24323d", "Transition buffer · 3", "Confirm individual records and restate the real-event boundary."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and epidemiological data warm-up", '''<p>Welcome students and project the epidemic investigation launch prompt.</p><ul><li>Ask, <em>“When an unexplained illness suddenly strikes a community, what four categories of evidence must investigators gather immediately before making any public claims?”</em></li><li>Collect student answers. Sort their responses into the Four Epidemiological Pillars: (1) <strong>Exposure:</strong> What did people eat, drink, or touch? (2) <strong>Symptoms:</strong> What exact clinical signs appeared? (3) <strong>Timeline:</strong> When did symptoms start? (4) <strong>Comparison Group:</strong> Who was exposed to the same environment but remained healthy?</li><li>Bridge with, <em>“Epidemiologists are medical detectives. Today we investigate a sudden outbreak in the fictional town of Fairview Edge on FYF pp. 75-76.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-10 - The Epidemiologist role and strict scientific boundaries", '''<p>Establish the professional role and non-negotiable scientific boundaries:</p><ul><li>Epidemiologists search for patterns, calculate disease rates, and test hypotheses; they DO NOT jump to conclusions based on dramatic single anecdotes.</li><li>Safety &amp; Ethics Rule: Fairview Edge is a fictional simulation. Real-world public health emergencies follow strict county health department protocols and certified water testing.</li></ul>''')
+                    + flow("#1f617a", "Minutes 10-22 - Auditing Fairview Edge case data (Exposure vs. Outcome)", '''<p>Direct students to the Fairview Edge case evidence table (FYF p. 75).</p><ul><li>Pairs execute a structured data audit, comparing sick residents against healthy residents:</li><li>Clue 1: All 8 sick residents drank municipal tap water.</li><li>Clue 2: Heavy flooding occurred 48 hours prior near Well Station #4.</li><li>Clue 3: Two residents who drank ONLY bottled water lived in the same neighborhood but showed ZERO gastrointestinal symptoms (the vital comparison group!).</li><li>Clue 4: Several sick residents swam in the river, but not all; tap water is the only universal exposure.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 16): Intervene if students focus solely on sick patients. Prompt: <em>“Look at the healthy residents. What did they drink?”</em></li></ul>''')
+                    + flow("#e3ad19", "Minutes 22-40 - Authoring the Epidemiological Investigation Report", '''<p>Students independently draft their formal Investigation Report (FYF p. 76):</p><ul><li>1. <strong>Working Claim (Hypothesis):</strong> Formulate a defensible claim: <em>“Contaminated municipal tap water following well flooding is the most probable exposure source causing acute gastrointestinal illness.”</em></li><li>2. <strong>Evidence Chain:</strong> Cite three concrete facts (flood timing, 100% tap water correlation among sick, and 0% illness among bottled water drinkers).</li><li>3. <strong>Unanswered Question &amp; Next Test:</strong> Identify what test must occur before proving causality (laboratory bacterial culture of Well #4 water).</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 2 (Minute 32): Verify students qualify their claim as a working hypothesis, not absolute proof.</li></ul>''')
+                    + flow("#1f617a", "Minutes 40-47 - Formative quiz and career connection DOL", '''<p>Students complete the short Canvas Evidence Quiz or written check.</p><ul><li>Assess identification of the comparison group, elimination of river swimming as sole cause, and next testing step.</li><li>Complete the exit sentence: <em>“An Epidemiologist produces an [Investigation Report / Outbreak Summary] which is used by [City Water Authority / Public Health Officials] to take immediate safety action.”</em></li></ul>''')
+                    + flow("#24323d", "Minutes 47-50 - Collect reports and transition buffer", '''<p>Confirm completion of FYF p. 76 and close student devices.</p><ul><li><strong>Safe Trim:</strong> Move the optional practice quiz to an asynchronous review; fiercely protect the sick-vs-healthy data comparison, working claim, and next testing step.</li></ul>''')
+                ),
                 "MONITOR": "<p><strong>Lap 1—comparison:</strong> target = exposure and outcome in the same sentence, including a healthy comparison. If several students list only sick residents, pause and point to the bottled-water rows without supplying the claim. <strong>Lap 2—claim:</strong> target = tap-water exposure after flooding near the well, supported by three clues and qualified as a hypothesis. If one river swim becomes the whole explanation, ask whether it accounts for every case. <strong>Lap 3—next test:</strong> target = water testing or additional interviews. <strong>Lap 4—career:</strong> target = an investigation-report part and its next user.</p><p><strong>Safe trim:</strong> move the practice quiz and ranked exit check to the next opening. Protect the individual comparison, working claim, unanswered test, and career-work-product sentence.</p>",
                 "RESOURCES": '<p>Optional enrichment: <a href="https://www.cdc.gov/nerd-academy/outbreak-investigations/index.html">CDC NERD Academy outbreak investigations</a>. Keep it supplemental.</p>',
                 "SUPPORT": "<p>The complete comparison/claim frame is visible beside the report step. Read the table aloud, highlight exposure and outcome columns, and allow a written partner route. Provide the real-event boundary in text and speech. Score the evidence chain, not English mechanics.</p>",
@@ -908,28 +881,14 @@ async def main():
                 "ALERT": "<strong>Analyze supplied actions only.</strong> Students do not invent medical or public-health instructions.",
                 "PREP": f"<ul><li><strong>Default grouping:</strong> individual FYF pp. 77-78 with an optional quiet partner check. Provide one workbook per student.</li><li>Project the supplied Day 3 working claim: <strong>Tap-water exposure after flooding near the well is the strongest current hypothesis; bottled-water residents who stayed healthy strengthen the comparison, but water testing is still needed.</strong></li><li>Keep {file_link(files['RESPONSE']['id'], 'the optional expanded response plan')} for the no-workbook or extended route; do not print it automatically.</li><li>Display the real-event boundary. Students analyze only the supplied action list.</li></ul>",
                 "EVIDENCE": "<p>Collect one individual FYF response plan with a confirming test, fact-based impact estimate, explained immediate action, prevention priority tied to a clue, and public-health career-role sentence. Formative portfolio evidence only; Week 6 adds no Minor or Major.</p>",
-                "FLOW": flow(
-                    "#5a2d91",
-                    "Warm-up · 5",
-                    "Separate today action from future prevention.",
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Tests and impact · 15",
-                    "Connect test to source and estimate to population.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Action and prevention · 18",
-                    "Reasons, supports, evidence, trade-off.",
-                )
-                + flow("#e3ad19", "Review · 4", "Private or partner checklist.")
-                + flow(
-                    "#1f617a",
-                    "Exit and collect · 5",
-                    "Classify one immediate and one prevention action.",
-                )
-                + flow("#24323d", "Transition buffer · 3", "Confirm individual evidence and close the fictional case."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and immediate action vs. prevention warm-up", '''<p>Welcome students and project the emergency response prompt.</p><ul><li>Ask, <em>“When a town's water supply is contaminated, what is the crucial difference between an immediate emergency action taken today and a long-term preventive action taken over the next six months?”</em></li><li>Collect 2-3 student thoughts (e.g., today: boil water notice and bottled water distribution; six months: rebuilding the well above flood level and adding filtration).</li><li>Bridge with, <em>“Public health response requires a coordinated strategy that stops immediate harm while engineering long-term resilience. Today we build the Fairview Edge Outbreak Response Plan.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-18 - Sourcing confirming tests and estimating population impact", '''<p>Review the Day 3 working claim and open FYF pp. 77-78.</p><ul><li>1. <strong>Confirming Test:</strong> Select the exact scientific test required to confirm bacterial contamination at Well Station #4 (water microbiology culture for E. coli/coliform bacteria).</li><li>2. <strong>Population Impact Estimation:</strong> Fairview Edge has an estimated population of 2,000 residents on the municipal water grid. Students calculate potential exposure if 60% of households drink unboiled tap water.</li><li>Address common misconception: Emphasize that population impact must be grounded in actual municipal census data, not guessed hyperbole like 'millions.'</li></ul>''')
+                    + flow("#1f617a", "Minutes 18-36 - Designing the multi-tiered Outbreak Response Plan", '''<p>Students evaluate and select interventions from the supplied public health action menu:</p><ul><li><strong>Tier 1: Immediate Emergency Containment (0-24 Hours):</strong> Issue emergency boil-water notice; distribute bottled water to schools and elderly centers; temporarily shut down Well #4 pump.</li><li><strong>Tier 2: Intermediate Remediation (1-2 Weeks):</strong> Shock chlorinate municipal water mains; conduct daily water testing across all distribution zones.</li><li><strong>Tier 3: Long-term Systemic Prevention (1-3 Years):</strong> Elevate Well #4 electrical controls 5 feet above the 100-year floodplain; install automated ultraviolet disinfection.</li><li>Students identify ONE operational trade-off (e.g. cost, resident inconvenience, business disruption).</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 25): Verify students differentiate between today's emergency actions and permanent infrastructure changes.<br>• Lap 2 (Minute 31): Check trade-off analysis—ensure students articulate concrete community costs.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 36-42 - Response plan checklist and partner review", '''<p>Pairs conduct a 6-minute peer review using the Response Plan Quality Rubric.</p><ul><li>Verify that every proposed action ties directly to a verified case clue from Day 3.</li><li>Confirm that a supervisory public health authority is designated for each action.</li></ul>''')
+                    + flow("#1f617a", "Minutes 42-47 - Action classification DOL and public health career sentence", '''<p>Direct students to the Day 4 Exit Ticket.</p><ul><li>Classify two actions: (1) <em>“Distributing 5,000 gallons of bottled water to the neighborhood center is an [Immediate Containment / Long-term Prevention] action because [Reason].”</em> (2) <em>“Re-engineering the well pump housing above the floodplain is a [Immediate Containment / Long-term Prevention] action because [Reason].”</em></li><li>Complete the career-role sentence: <em>“A Public Health Officer coordinates this response plan with city managers to protect community safety.”</em></li></ul>''')
+                    + flow("#24323d", "Minutes 47-50 - Submit plans and case closure", '''<p>Collect completed response plans and close the Fairview Edge simulation.</p><ul><li><strong>Safe Trim:</strong> Replace partner review with an independent 3-minute self-audit; protect the confirming test, population estimate, immediate-vs-prevention classification, and career sentence.</li></ul>''')
+                ),
                 "MONITOR": "<p><strong>Lap 1—test:</strong> target = the check reaches the suspected source and names a supporting result. <strong>Lap 2—impact:</strong> target = reasoning uses the 2,000-person population or shared system. If students write “thousands,” ask them to compare the estimate with the town total. <strong>Lap 3—immediate action:</strong> target = one supplied action plus why it reduces current harm. <strong>Lap 4—prevention:</strong> target = one system change tied to a case clue and one trade-off. If several students check every option, pause and model one evidence-to-action sentence. Key exit: safe-water distribution is immediate; moving equipment above flood level is prevention.</p><p><strong>Safe trim:</strong> replace peer review with the private checklist. Protect one test, impact estimate, immediate action, prevention priority, and career-role sentence.</p>",
                 "RESOURCES": "<p>Licensed FYF pp. 77-78 supply the action list. The CCE worksheet adds role, support, evidence, and trade-off reasoning.</p>",
                 "SUPPORT": "<p>The complete immediate/prevention frame and bilingual terms are visible beside the decision step. Permit typed, written, or dictated evidence. No presentation is required. Score the evidence-to-action link, not English mechanics.</p>",
@@ -945,22 +904,12 @@ async def main():
                 "ALERT": "<strong>Use the fixed evidence guide.</strong> No saved-career prerequisite, profile screenshot, or platform completion is required.",
                 "PREP": f"<ul><li>Open {file_link(files['CAREERS']['id'], 'the Biomedical Career Evidence Guide')} and one strong model.</li><li><strong>Default grouping:</strong> individual response with one brief partner rehearsal.</li><li>Open the private Canvas reflection assignment. Use {file_link(files['REFLECT']['id'], 'the one-page reflection')} only for the assigned paper route.</li></ul>",
                 "EVIDENCE": "<p>Collect one private recommendation using a career task, preparation fact, source-labeled career fact, tradeoff, and question to verify. Formative portfolio evidence only; Week 6 adds no Minor or Major.</p>",
-                "FLOW": flow(
-                    "#5a2d91",
-                    "Warm-up · 5",
-                    "Which evidence should matter most: daily work, preparation, pay, or the problem solved?",
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Compare three careers · 20",
-                    "Task, preparation, and source-labeled career evidence.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Private reflection · 20",
-                    "Recommendation, evidence, tradeoff, and next question.",
-                )
-                + flow("#e3ad19", "Submit and close · 5", "Private reflection and one source-label check."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and evidence reflection warm-up", '''<p>Welcome students, seat them with their weekly materials, and project the reflective launch prompt.</p><ul><li>Ask, <em>“Over the past two six-weeks, you have explored law, public safety, nursing, dental health, medical billing, and biomedical science. When evaluating all these options, which piece of evidence tells you the MOST about your personal fit: the daily work tasks, the required degree, or the type of problem you get to solve each day?”</em></li><li>Collect 2-3 student thoughts. Bridge with, <em>“Today we synthesize our Health Science exploration, compare three biomedical careers using verified labor data, and finalize our 2SW portfolio reflection.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-25 - Comprehensive three-career evidence audit", '''<p>Students reopen the Biomedical Career Evidence Guide and their notes from Day 1.</p><ul><li>Students audit three careers across four rigorous dimensions: (1) Core daily clinical/engineering tasks, (2) Mandatory educational preparation (Bachelor's vs. Master's vs. Ph.D./M.D.), (3) Authentic work conditions and physical environments, and (4) Verified May 2024 U.S. median pay and projected 2024-34 outlook.</li><li>Enforce source integrity: Verify students preserve the survey year (May 2024), geographic scope (national U.S.), and statistical measure (median).</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 12): Confirm students have completed all rows with exact BLS figures.<br>• Lap 2 (Minute 20): Check preparation fields—differentiate undergraduate engineering degrees from graduate epidemiology programs.</li></ul>''')
+                    + flow("#1f617a", "Minutes 25-45 - Authoring the private Biomedical Career Evidence Reflection", '''<p>Students complete their formal written reflection on Canvas (or the approved paper reflection sheet):</p><ul><li>1. <strong>Personal Career Fit Recommendation:</strong> Recommend ONE biomedical career that best matches personal strengths and interests.</li><li>2. <strong>Evidence Support:</strong> Cite at least ONE daily work task and ONE educational preparation requirement supporting the recommendation.</li><li>3. <strong>Source-Labeled Economic Benchmark:</strong> Incorporate the May 2024 U.S. median salary and 2024-34 growth projection with full source labels.</li><li>4. <strong>Realistic Trade-off:</strong> Identify ONE authentic trade-off or challenge associated with this pathway (e.g. rigorous advanced math/science prerequisites, lengthy post-graduate residency, high educational expense).</li><li>5. <strong>Next Unanswered Question:</strong> Formulate ONE precise, actionable factual question to research next.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 3 (Minute 36): Verify students include a genuine trade-off and a concrete question to verify.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 45-50 - Submit reflection and 2SW portfolio wrap-up", '''<p>Students submit their completed reflection on the private Canvas assignment or hand in their labeled paper sheet.</p><ul><li>Verify submission status on student screens.</li><li>Briefly celebrate the conclusion of the Health Science and Public Service clusters for the Second Six Weeks!</li><li><strong>Safe Trim:</strong> Provide pre-printed comparison rows so students focus immediately on authoring their personal recommendation, trade-off, and next fact to verify.</li></ul>''')
+                ),
                 "MONITOR": "<p><strong>Minute 10:</strong> target = three careers have a central task and preparation fact. <strong>Minute 25:</strong> target = one source-labeled fact is attached to the recommendation. <strong>Minute 40:</strong> target = tradeoff and question to verify are present. <strong>Final check:</strong> collect one private reflection; do not require a public recommendation.</p><p><strong>Safe trim:</strong> provide the fixed career rows and require the recommendation, source label, tradeoff, and question to verify.</p>",
                 "RESOURCES": f'<p>{file_link(files["CAREERS"]["id"], "Biomedical Career Evidence Guide")}</p><p>{file_link(files["REFLECT"]["id"], "Biomedical Career Evidence Reflection")}</p>',
                 "SUPPORT": "<p>The complete recommendation frame is visible beside the private reflection. Offer read-aloud, chunking, bilingual labels, oral rehearsal, and a private written response. Score evidence use, not preference or English mechanics.</p>",

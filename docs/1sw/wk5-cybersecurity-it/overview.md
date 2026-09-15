@@ -31,11 +31,11 @@ Students submit the **Cybersecurity Capstone Evidence Portfolio**. This is **Maj
 
 ## Source Grounding
 
-### District HQIM
+### FYF Workbook Pages
 
 - **FYF pp. 24-25:** `Safe or Spoofed?` scenario, five red flags, seven-email investigation, and practice-message extension.
 - **FYF pp. 34-35:** `Powerskill: Work Ethic` Cybersecurity Bootcamp scenario, six planning questions, flyer direction, and discussion prompt.
-- **FYF pp. 36-37:** district-customized Information Technology programs, IBCs, and CTSOs. Present these pages as Irving ISD HQIM. A difference on a public website becomes a teacher verification note, not a competing student answer.
+- **FYF pp. 36-37:** district-customized Information Technology programs, IBCs, and CTSOs. Present these pages as the Irving ISD workbook answer. A difference on a public website becomes a teacher verification note, not a competing student answer.
 - **FYF p. 38:** Information Technology App Exploration. H&L is supplemental this week; no grade depends on favorites, exact Hat titles, or a live feature.
 
 The statistics printed on FYF p. 34 are part of the workbook scenario. Do not relabel them as current national statistics without a dated source.

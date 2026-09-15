@@ -53,7 +53,7 @@ Students submit the Canvas Nursing Route Evidence Check (or the optional print s
 
 ## Career Connection
 
-FYF pp. 84-85 are the district-customized HQIM snapshot for Health Science programs, related IBCs, equipment, and experiences. The current Singley Academy webpage separately lists **Nursing Science**, Physical Therapy, Dental, and Emergency Medical - EMT. Keep both labels attached to their sources. A difference is a teacher verification note, not a reason to mark the workbook wrong or promise that every student earns a listed credential.
+FYF pp. 84-85 are the district-customized FYF workbook snapshot for Health Science programs, related IBCs, equipment, and experiences. The current Singley Academy webpage separately lists **Nursing Science**, Physical Therapy, Dental, and Emergency Medical - EMT. Keep both labels attached to their sources. A difference is a teacher verification note, not a reason to mark the workbook wrong or promise that every student earns a listed credential.
 
 The dated route guide uses May 2024 U.S. medians from the Bureau of Labor Statistics: nursing assistant $39,530, LVN $62,340, RN $93,600, and nurse practitioner $129,210. These are national medians, not starting wages or DFW pay. Xello is the first choice for a current localized figure when its geography, date, and pay measure are visible.
 

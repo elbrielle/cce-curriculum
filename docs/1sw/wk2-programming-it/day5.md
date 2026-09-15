@@ -67,7 +67,7 @@ Students check that pages 1-4 hold three career records and one comparison, then
 
 ## Answer Guidance and Monitoring
 
-There is no single correct career-fit decision. Full-credit work accurately represents the student's assessment result and the cited HQIM evidence. Do not score English mechanics unless meaning is unclear. Redirect claims such as "the quiz says I must be a programmer" or salary numbers with no career/geography/measure attached.
+There is no single correct career-fit decision. Full-credit work accurately represents the student's assessment result and the cited app evidence. Do not score English mechanics unless meaning is unclear. Redirect claims such as "the quiz says I must be a programmer" or salary numbers with no career/geography/measure attached.
 
 ## Supports and Fallbacks
 

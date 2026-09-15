@@ -3,7 +3,7 @@
 ## Daily Learning Contract
 
 - **Topic:** IT Support Careers
-- **Objective:** Students will identify career opportunities and research and describe common preparation requirements for IT support careers using district HQIM and fixed career evidence.
+- **Objective:** Students will identify career opportunities and research and describe common preparation requirements for IT support careers using the *Find Your Future* workbook and fixed career evidence.
 - **TEKS:** d(1)(C), d(2)(A)
 - **Demonstration of Learning:** Students complete a two-career evidence comparison and connect one current interest to a specific IT support task.
 <!-- CCE DAILY CONTRACT END -->
@@ -13,7 +13,7 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **HQIM** | FYF pp. 36 and 38; H&L optional exploration |
+| **FYF workbook** | FYF pp. 36 and 38; H&L optional exploration |
 | **Required platform task** | None; H&L browsing is optional enrichment |
 | **Materials** | Career Cards, Career and Interest Check, workbook, Chromebook, projector |
 

@@ -33,13 +33,13 @@ This is **Minor 3** in the 1SW assessment map. Use the 16-point **Help Desk Simu
 
 ## Source Grounding
 
-### District HQIM
+### District Sources: FYF Workbook and Hats & Ladders
 
 - **FYF pp. 36-37:** Irving ISD Information Technology programs and the Industry-Based Certification explainer.
 - **FYF p. 38:** Information Technology App Exploration.
 - **Hats & Ladders:** supplemental career and pathway exploration. It may deepen the lesson, but no required evidence depends on a particular Hat title, live feature, or login.
 
-The workbook names **Technology Support** in the Irving ISD Information Technology section. The current district site names the program **Technology Support Services** in the School of Innovative Technology at Singley Academy. Present the workbook as the student-facing HQIM and use the current district name when describing the program. Do not add an entry-salary promise or guarantee that one credential leads directly to a job.
+The workbook names **Technology Support** in the Irving ISD Information Technology section. The current district site names the program **Technology Support Services** in the School of Innovative Technology at Singley Academy. Present the workbook as the student-facing source and use the current district name when describing the program. Do not add an entry-salary promise or guarantee that one credential leads directly to a job.
 
 ### Required Xello Grade 7 Completion Standard
 

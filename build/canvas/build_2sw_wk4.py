@@ -16,8 +16,20 @@ STUDENT_GOOGLE_COPY_URLS = {
 }
 
 
+# One Google Doc per worksheet (build/google_docs/student_worksheet_docs.json).
+# Keyed by (day, anchor label) so a worksheet button never opens the day's exit ticket.
+STUDENT_WORKSHEET_COPY_URLS = {
+    (1, 'optional observation scaffold'): "https://docs.google.com/document/d/1YaTpgLvT3MTd4X48NncjmqVIqfvJizpRIZQvN0Lfpjk/copy",
+    (2, 'optional design scaffold'): "https://docs.google.com/document/d/1A01cDqfFPxQPTZhatnEQ0zSivRCJZetOejY85EhnbYk/copy",
+    (3, 'one-page print check'): "https://docs.google.com/document/d/1mVdDu43ootU4spGfo-7U8_iB53CUq5kxcJS0Hr94kUo/copy",
+    (4, 'the ICD-10-CM Training Lab'): "https://docs.google.com/document/d/1Z3la7NdwgddUnB9CfIGgKsnz2S1bMccUx_akdkNPTw0/copy",
+    (5, 'optional print route'): "https://docs.google.com/document/d/1i6FIsLBuWffeM_li0G9Cmnz_saVZx3LBaIxSjM9pVwM/copy",
+}
+
+
 def student_copy_link(day, label):
-    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+    url = STUDENT_WORKSHEET_COPY_URLS.get((day, label), STUDENT_GOOGLE_COPY_URLS[day])
+    return f'<a href="{url}">{label}</a>'
 
 MODULE_NAME = "2SW Wk4: Smile Squad - Dental Science and Health Data"
 COLLEGE_QUIZ_TITLE = "PRACTICE: College Credit Opportunity Check"
@@ -138,11 +150,12 @@ async def lock_folder_files(c, folder):
         if not entry.get("locked"):
             await api(c, "PUT", f"/files/{entry['id']}", data={"locked": "true"})
     final = await paged(c, f"/folders/{folder['id']}/files")
-    unlocked = [
-        entry.get("display_name") or entry.get("filename")
-        for entry in final
-        if not entry.get("locked")
-    ]
+    unlocked = []
+    for entry in final:
+        if not entry.get("locked"):
+            refreshed = await api(c, "GET", f"/files/{entry['id']}")
+            if not refreshed.get("locked"):
+                unlocked.append(entry.get("display_name") or entry.get("filename"))
     if unlocked:
         raise RuntimeError(f"Unlocked files remain in folder {folder['id']}: {unlocked}")
     return current
@@ -233,7 +246,7 @@ def step(num, title, body, color="#5a2d91"):
 
 
 def flow(color, title, text):
-    return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0;color:{color}">{title}</h4><p>{text}</p></div>'
+    return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0 0 6px;color:{color}">{title}</h4>{text}</div>'
 
 
 COLLEGE_QUIZ_QUESTIONS = [
@@ -749,7 +762,7 @@ async def main():
                 "SHOW_LEARNING": "Complete Education experiences and School subjects at work, then submit a short two-opportunity Canvas response.",
                 "PURPOSE": "Connect learning experiences and school subjects to careers while comparing two real college-credit opportunities.",
                 "TODAY": "<ul><li>add one Education experience;</li><li>complete School subjects at work;</li><li>compare two current college-credit opportunities.</li></ul>",
-                "READY": f"<p>Open ClassLink → Xello. The licensed {file_link(files['XELLO']['id'], 'My Experiences guide')} is available for help. Use the {student_copy_link(3, 'one-page print check')} only when your teacher assigns it.</p>",
+                "READY": f"<p>Open ClassLink → Xello. The {file_link(files['XELLO']['id'], 'My Experiences guide')} is available for help. Use the {student_copy_link(3, 'one-page print check')} only when your teacher assigns it.</p>",
                 "STEPS": step(
                     1,
                     "Protect privacy",
@@ -858,28 +871,14 @@ async def main():
                 "ALERT": "<strong>Observation, not diagnosis.</strong> The licensed images are a training set. Students name visible patterns and uncertainty; they do not diagnose a patient.",
                 "PREP": f"<ul><li><strong>Per student:</strong> 1 FYF workbook and 1 pencil.</li><li><strong>Teacher:</strong> 1 display/device with the embedded chart, five X-rays, and {file_link(files['GUIDE']['id'], 'career guide')} open; 1 timing device.</li><li><strong>Print only for assigned students:</strong> 1 two-page {file_link(files['OBSERVE']['id'], 'optional observation scaffold')} per student, double-sided when available. Default copies: 0.</li><li><strong>Grouping:</strong> individual evidence; brief whole-group CFUs only.</li></ul>",
                 "EVIDENCE": "<p>Monitor the completed FYF evidence response and collect the short two-career comparison check. Default printing: none.</p>",
-                "FLOW": flow(
-                    "#5a2d91",
-                    "Observation or conclusion · 5",
-                    "Separate visible fact from professional conclusion.",
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Training images · 15",
-                    "Record patterns; accept careful uncertainty.",
-                )
-                + flow("#1f617a", "Prevention evidence · 7", "Cite two workbook clues.")
-                + flow(
-                    "#e3ad19",
-                    "Two careers · 13",
-                    "Preparation, responsibility, labeled median.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Two-career check · 7",
-                    "Rewrite an overclaim and name a trained role.",
-                )
-                + flow("#606c76", "Submit and reset · 3", "Confirm evidence; return materials."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and dental observation warm-up", '''<p>Welcome students to Week 4 of Health Science and project the dental observation launch prompt.</p><ul><li>Project two statements side by side: (A) <em>“I see a distinct bright white area on the crown of the lower right molar.”</em> (B) <em>“The patient has severe decay and needs an immediate filling.”</em></li><li>Ask students: <em>“Which statement represents an objective observation, and which represents a professional conclusion? Why does the second statement require a licensed dentist?”</em></li><li>Collect 2-3 student thoughts. Emphasize: Statement A records raw visual evidence that any trained dental assistant can document; Statement B is a diagnostic conclusion that legally requires a licensed DDS/DMD.</li><li>Bridge with, <em>“In oral healthcare, careful observation and precise documentation protect patients. Today we inspect dental training images and compare dental careers.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-20 - Smile Squad training images and pattern recognition", '''<p>Open FYF pp. 69-71 (Smile Squad) and project the dental reference chart.</p><ul><li>Review the five training X-rays sequentially (Slides 2-7):<br>• X-ray 1: Developing teeth with no visible restorations.<br>• X-ray 2: Developing dentition showing a darker shadow that warrants careful professional review.<br>• X-ray 3: Distinct bright restoration/crown with a visible endodontic line through the root canal.<br>• X-rays 4-5: Multiple extensive bright restorations and bridge structures.</li><li>Teach the scientific habit of mind: Accept careful uncertainty. An X-ray showing no obvious bright fillings is NOT definitive proof that a patient has zero oral health issues.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 12): Verify students record visible anatomical and material patterns (e.g. bright white fillings, tooth roots) rather than inventing diagnostic labels.</li></ul>''')
+                    + flow("#1f617a", "Minutes 20-27 - Prevention recommendation and evidence support", '''<p>Direct students to the oral health prevention prompt in FYF p. 71.</p><ul><li>Students select one low-risk preventive protocol supported by the workbook: twice-daily brushing with fluoride toothpaste, reducing frequency of refined sugary snacks/drinks, or adhering to regular professional hygiene visits.</li><li>Students cite at least TWO specific pieces of evidence from the reference chart to defend their recommendation.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 27-40 - Comparing Dental Assistant and Dental Hygienist", '''<p>Display the Dental Career Evidence Guide and project the labor market data.</p><ul><li>Model the comparison across four key fields: (1) Clinical responsibilities (Dental Assistant assists chairside and takes radiographs; Dental Hygienist independently cleans teeth, assesses periodontal health, and provides patient education); (2) Educational preparation (Assistant = ~1-year certificate or on-the-job training; Hygienist = 2-year accredited associate degree and state clinical licensure); (3) May 2024 U.S. median pay ($47,300 Assistant vs. $94,260 Hygienist); and (4) 10-year job growth (6% vs. 7%).</li><li>Connect to Irving ISD pathways: Singley Academy offers <strong>Health Science: Dental</strong> with Registered Dental Assistant (RDA) certification opportunities.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 2 (Minute 34): Audit student notes to ensure the May 2024, U.S., and median labels are fully attached to both wage numbers.</li></ul>''')
+                    + flow("#24323d", "Minutes 40-47 - Mini-case DOL: Rewrite diagnostic overclaim", '''<p>Direct students to the Day 1 Exit Ticket.</p><ul><li>Scenario: <em>“An image shows a bright white area on an X-ray. A student writes, 'This proves the patient has a cavity.' Rewrite this statement as one accurate, objective visual observation. Then name which dental professional has the training to interpret this evidence and recommend treatment.”</em></li><li>Collect completed checks and exit responses.</li></ul>''')
+                    + flow("#606c76", "Minutes 47-50 - Submit and workspace reset", '''<p>Verify completion of workbook evidence and collect paper responses.</p><ul><li><strong>Safe Trim:</strong> If image review takes longer, compare responsibility and preparation first, then record one fully labeled salary fact aloud. Protect the mini-case rewrite and close.</li></ul>''')
+                ),
                 "MONITOR": "<ul><li><strong>Opening CFU:</strong> students label the bright-white statement as observation, not conclusion.</li><li><strong>Lap 1:</strong> scan visible-pattern words. If more than 1 in 4 students writes a diagnosis, pause and model one observation/nonexample.</li><li><strong>Lap 2:</strong> check both career rows for preparation plus May 2024, U.S., median. Project one corrected row if labels are missing.</li><li><strong>Key:</strong> X1 developing teeth/no obvious restoration; X2 developing teeth/darker area worth review; X3 bright restoration/crown and root line; X4-X5 multiple bright restorations. Assistant $47,300/6%; Hygienist $94,260/7%.</li><li><strong>Trim:</strong> at minute 37, compare responsibility and preparation for both careers, then complete one fully labeled pay figure. Do not cut the mini-case or close.</li></ul>",
                 "SUPPORT": "<p>Place this beside the image response: <strong>“I see ____. The closest chart pattern is ____, but this does not prove ____.”</strong> Read image descriptions aloud; allow dictation. Score evidence, not certainty or English mechanics.</p>",
                 "FALLBACK": "<p>All images are embedded. No live site is required. Absent students use the same sequence. If the display fails, read the adjacent image descriptions and use the optional scaffold; schedule visual review later rather than asking students to infer a diagnosis.</p>",
@@ -894,20 +893,14 @@ async def main():
                 "ALERT": "<strong>Design and classification are separate.</strong> A good toothbrush idea does not prove a career is high demand.",
                 "PREP": f"<ul><li><strong>Per student:</strong> 1 FYF workbook and 1 pencil.</li><li><strong>Teacher:</strong> 1 display/device with the fixed design facts and career evidence open.</li><li><strong>Print only for assigned students:</strong> 1 two-page {file_link(files['DESIGN']['id'], 'optional design scaffold')} per student, double-sided when available. Default copies: 0.</li><li><strong>Grouping:</strong> pairs of 2 for feedback; use one group of 3 only when enrollment is odd. Every prototype and classification remains individual.</li></ul>",
                 "EVIDENCE": "<p>Monitor the FYF prototype and collect two short classification responses. Default printing: none.</p>",
-                "FLOW": flow("#5a2d91", "Choose user · 4", "No personal disclosure.")
-                + flow(
-                    "#4a9d2f",
-                    "Fixed facts · 7",
-                    "Highlight the fact that fits the user.",
-                )
-                + flow("#1f617a", "Design · 16", "Four labels and explanation.")
-                + flow("#e3ad19", "Feedback · 7", "Two questions, then revise.")
-                + flow(
-                    "#1f617a",
-                    "Classify and revise · 11",
-                    "Use the same-source wage and growth lines.",
-                )
-                + flow("#606c76", "Submit and reset · 5", "Check DOL; close workbook."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and user-centered design warm-up", '''<p>Welcome students and project the ergonomic dental challenge.</p><ul><li>Ask, <em>“Think about holding a standard toothbrush. How does brushing your teeth become difficult or painful for a 4-year-old child, an elderly person with arthritis, or a teenager with orthodontic braces?”</em></li><li>Collect 2-3 responses. Highlight how physical barriers (grip size, motor coordination, sensitive gums) require specialized tool adaptations.</li><li>Bridge with, <em>“In Health Science, professionals use ergonomic design to improve patient outcomes. Today you engineer a user-centered toothbrush prototype and classify health careers using economic data.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-12 - Fixed design facts and user selection", '''<p>Open FYF p. 72 and project the controlled Design Fact Sheet.</p><ul><li>Students select ONE fictional user profile: (1) Young toddler developing fine motor skills, (2) Senior citizen with severe joint stiffness/limited grip, or (3) Orthodontic patient with metal brackets and wires.</li><li>Students highlight the single design constraint that matters most for their selected user (e.g. wide non-slip rubber grip, ultra-soft tapered bristles, angled compact head).</li></ul>''')
+                    + flow("#1f617a", "Minutes 12-28 - Prototype engineering: Sketch and annotate", '''<p>Students construct their ergonomic toothbrush blueprint in FYF p. 73 or the design template.</p><ul><li>Require exactly FOUR labeled engineering components: (1) Bristle configuration and texture, (2) Head angle and dimensions, (3) Handle ergonomic contour and grip surface, and (4) One specialized adaptive feature.</li><li>Students author a 2-3 sentence justification explaining how each feature directly solves their user's daily challenge.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 18): Verify students have labeled all 4 physical components.<br>• Lap 2 (Minute 24): Stop students who draw 'cool' aesthetic features without a clinical purpose; redirect to the user's physical need.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 28-35 - Paired design review and protocol feedback", '''<p>Pair students for a structured 7-minute peer critique.</p><ul><li>Partners apply the 2-Question Protocol: (1) <em>“Which specific feature on this design best addresses the user's physical barrier?”</em> (2) <em>“What measurement, label, or safety consideration is still missing?”</em></li><li>Each student documents at least ONE visible modification or refined label based on peer critique.</li></ul>''')
+                    + flow("#1f617a", "Minutes 35-45 - Labor market career classification DOL", '''<p>Transition from product design to economic data analysis using the course comparison rules:</p><ul><li>Rule 1: <strong>High-Wage:</strong> Median earnings exceed the national all-occupation median of $49,500.</li><li>Rule 2: <strong>High-Demand:</strong> Projected 10-year job growth exceeds the national average of 3%.</li><li>Rule 3: <strong>High-Skill:</strong> Requires postsecondary certification, state clinical licensing, or specialized clinical scope.</li><li>Students classify both <strong>Dental Assistant</strong> ($47,300 / 6% / high-demand + high-skill) and <strong>Dental Hygienist</strong> ($94,260 / 7% / high-wage + high-demand + high-skill), citing the exact numeric benchmarks.</li></ul>''')
+                    + flow("#606c76", "Minutes 45-50 - Submit prototype and reset", '''<p>Confirm completion of the four prototype labels, revision note, and two career classifications.</p><ul><li>Collect design sheets and exit matrices.</li><li><strong>Safe Trim:</strong> Keep one concise 3-minute partner feedback exchange and require one visible label revision; never cut the two career classification responses.</li></ul>''')
+                ),
                 "MONITOR": "<ul><li><strong>Fixed-fact CFU:</strong> students point to one fact and explain how it fits the chosen user.</li><li><strong>Lap 1:</strong> check four labels plus a user-need link. If more than 1 in 4 designs is feature-only, model one feature-to-need example.</li><li><strong>Lap 2:</strong> check use of the $49,500 and 3% comparison lines. Restate that labels are course evidence labels if students treat them as career-value judgments.</li><li><strong>Key:</strong> Assistant = below wage, above growth, specialized preparation/duties. Hygienist = above wage and growth, specialized preparation/licensure.</li><li><strong>Trim:</strong> keep one feedback round and require one visible revision. Do not cut classifications or close.</li></ul>",
                 "SUPPORT": "<p>Place these beside the task: <strong>“I chose ____ because my user needs ____.”</strong> and <strong>“I classified ____ as ____ because the guide shows ____.”</strong> Allow verbal/tactile design description and oral rehearsal. Do not score drawing quality.</p>",
                 "FALLBACK": "<p>Fixed facts remove open-search burden. The self-check replaces partner feedback when absent. A student without the workbook uses one assigned scaffold or labeled plain paper, not both.</p>",
@@ -922,25 +915,12 @@ async def main():
                 "ALERT": "<strong>Grade 7 course spine:</strong> Education experiences = add at least 1; School subjects at work = complete the assigned 30-minute lesson. Do not add another experience-profile task.",
                 "PREP": f'<ul><li><strong>Per student:</strong> 1 internet-connected device with ClassLink, Xello, and Canvas access.</li><li><strong>Teacher:</strong> 1 device with the Completion Standards report open and 1 display with the fixed course cards.</li><li><strong>Print only when assigned:</strong> 1 {file_link(files["XELLO_CHECK"]["id"], "one-page college-credit check")} per paper-response student.</li><li><strong>Grouping:</strong> individual profile and constructed-response work; no shared logins or public screenshots.</li><li>Preflight the unpublished <a href="{college_quiz_url}">college-credit practice check</a>.</li></ul>',
                 "EVIDENCE": "<p>Verify Xello in the report and review the Canvas practice check. Industry certification is not college credit. Default printing: none.</p>",
-                "FLOW": flow(
-                    "#5a2d91",
-                    "Privacy/source check · 5",
-                    "No private details; preview both fixed course cards.",
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Education experiences · 10",
-                    "Add one actual experience.",
-                )
-                + flow(
-                    "#1f617a",
-                    "School subjects at work · 30",
-                    "Complete the assigned lesson and one subject-to-task connection.",
-                )
-                + flow(
-                    "#e3ad19",
-                    "Constructed response and reset · 5",
-                    "List both sourced opportunities and one requirement or limitation for each.",
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and educational journey warm-up", '''<p>Welcome students, verify Chromebook logins, and project the educational launch prompt.</p><ul><li>Ask, <em>“Think about an academic subject you study every day, such as math, science, or English. How does mastering that subject directly impact a professional working in a dental clinic, emergency room, or billing office?”</em></li><li>Collect 2-3 student thoughts (e.g. math for medication dosing, English for patient charting, biology for disease prevention).</li><li>Bridge with, <em>“Today we connect our middle school courses to real-world careers in Xello and explore high school pathways to earn college credit.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-15 - Xello Education Experiences log", '''<p>Log into Xello via ClassLink and navigate to <strong>About Me &rarr; Experiences &rarr; Education</strong>.</p><ul><li>Establish privacy boundaries: Students log authentic educational milestones (e.g. middle school coursework, STEM electives, bilingual literacy, coding clubs, honor roll). Do NOT include private contact info or grades.</li><li>Conduct active monitoring: Verify privately on student screens that at least ONE verified education experience is saved. (Meets Grade 7 Completion Standard).</li></ul>''')
+                    + flow("#1f617a", "Minutes 15-42 - Xello interactive lesson: School Subjects at Work", '''<p>Direct students to <strong>Home &rarr; Lessons &rarr; School Subjects at Work</strong>.</p><ul><li>Students complete the 30-minute interactive lesson investigating how core academics function in professional careers.</li><li>Students record at least ONE concrete subject-to-career connection on their worksheet or Canvas note (e.g. how a dental hygienist uses biology to assess oral tissue or how medical coders use reading comprehension to decipher physician notes).</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 22): Confirm all students have launched the lesson and are progressing through scenarios.<br>• Lap 2 (Minute 35): Check completion percentage on student screens or the teacher dashboard.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 42-47 - Sourced college-credit opportunities DOL", '''<p>Project the two Irving ISD Coursebook Cards: <strong>English III Dual Credit (H)</strong> and <strong>AP Biology</strong>.</p><ul><li>Direct students to complete the Canvas constructed response: list BOTH opportunities and identify one specific prerequisite or limitation for each.</li><li>Teach the vital distinction: English III Dual Credit is open to grades 10-12 after English II and awards both high school and college transcript credit. AP Biology is open to grades 11-12 after Biology/Chemistry; AP course completion does NOT guarantee college credit (credit depends on AP exam score and receiving university policy). Industry certifications are career credentials, not college credits.</li></ul>''')
+                    + flow("#606c76", "Minutes 47-50 - Verify Xello dashboard and close", '''<p>Verify completion on the Xello Completion Standards report.</p><ul><li>Verify students have logged out of Xello and docked devices.</li><li><strong>Safe Trim:</strong> Protect the 10-minute Education Experiences save and the 30-minute interactive lesson. Trim group discussions to ensure students complete the college credit check.</li></ul>''')
                 ),
                 "MONITOR": "<ul><li><strong>Minute 15 CFU:</strong> Education experience saved or recovery route recorded.</li><li><strong>Minute 45 CFU:</strong> School subjects at work complete or catch-up recorded.</li><li><strong>Final response:</strong> names both opportunities and one requirement/limitation each. If more than 1 in 4 responses treats AP enrollment as guaranteed college credit, reteach receiving-institution policy.</li><li><strong>Key:</strong> English III Dual Credit (H) = grades 10-12 after English II, high-school and college credit. AP Biology = grades 11-12 after Biology with completed/concurrent Chemistry; receiving institutions set credit policy.</li><li><strong>Trim:</strong> protect the 10-minute Education task, 30-minute School subjects lesson, and two sourced opportunity names; cut sharing first.</li></ul>",
                 "SUPPORT": "<p>Preview navigation. Place these beside the work: <strong>“____ uses ____ when ____.”</strong> and <strong>“The source lists ____ as a ____ opportunity. One requirement or limitation is ____.”</strong> Word bank: experience/experiencia; subject/materia; prerequisite/prerrequisito. Do not require a full translation or public profile screenshot.</p>",
@@ -956,26 +936,14 @@ async def main():
                 "ALERT": "<strong>Fictional records only.</strong> The lab is a bounded career simulation, not diagnosis, billing, or medical advice. Accuracy matters more than speed.",
                 "PREP": f'<ul><li><strong>Per student:</strong> 1 FYF workbook, 1 two-page {file_link(files["LAB"]["id"], "ICD-10-CM lab")} (double-sided when available), and 1 pencil.</li><li><strong>Teacher:</strong> 1 display/device with the worked example, key, and career guide.</li><li><strong>Devices:</strong> 1 per student only when the unpublished <a href="{icd_quiz_url}">practice quiz</a> is assigned after the lab.</li><li><strong>Grouping:</strong> model may be discussed in pairs; every code, correction, and career row is individual.</li><li>Mark the five-code support route before class for assigned students.</li></ul>',
                 "EVIDENCE": "<p>Collect the third career row and individual lab. Quiz feedback is formative and ungraded.</p>",
-                "FLOW": flow(
-                    "#5a2d91",
-                    "Career row · 8",
-                    "Preparation, scope, $50,250 median, 7% growth.",
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Model · 6",
-                    "Match documented diagnosis to exact description.",
-                )
-                + flow("#1f617a", "Round 1 · 9", "J20.9, K02.9, R51.9.")
-                + flow(
-                    "#e3ad19", "Round 2 · 14", "K21.9, H66.90, L30.9, J02.9, S52.501A."
-                )
-                + flow(
-                    "#1f617a",
-                    "Optional practice quiz · 5",
-                    "Use only after the lab; formative feedback.",
-                )
-                + flow("#606c76", "Correct, submit, reset · 8", "One correction; submit lab."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-8 - Welcome and Medical Billing pathway overview", '''<p>Welcome students and project the healthcare administration launch prompt.</p><ul><li>Ask, <em>“Every time a doctor treats a patient, who translates those complex medical charts into standardized codes so insurance companies pay the clinic and patients get accurate bills?”</em></li><li>Introduce <strong>Medical Billing and Coding Specialists</strong> (FYF pp. 84-85). Review daily work: reviewing clinical documentation, assigning standardized alphanumeric codes, submitting insurance claims, and auditing billing accuracy.</li><li>Connect to Singley Academy: <strong>Health Science: Medical Billing</strong> with Certified Billing and Coding Specialist (CBCS) certification.</li><li>Cite labor benchmarks: May 2024 U.S. median pay of $50,250 and 7% projected 10-year job growth (above average).</li></ul>''')
+                    + flow("#4a9d2f", "Minutes 8-15 - Anatomy of the ICD-10-CM diagnostic code system", '''<p>Introduce the official FY 2027 ICD-10-CM (International Classification of Diseases, Clinical Modification) reference table.</p><ul><li>Establish strict safety boundaries: All medical scenarios are strictly fictional. Never use personal health details. Coding is administrative translation, not medical diagnosis or advice.</li><li>Model coding with Case 1 on the display: Point out why <strong>K02.9</strong> (Dental caries, unspecified) matches documented decay, and why students must NEVER guess codes based on casual letter patterns.</li></ul>''')
+                    + flow("#1f617a", "Minutes 15-25 - Round 1: Direct diagnosis matching", '''<p>Students independently code three straightforward clinical charts on their lab sheet.</p><ul><li>Chart 1: Acute bronchitis &rarr; <code>J20.9</code>.</li><li>Chart 2: Tooth cavity/decay &rarr; <code>K02.9</code>.</li><li>Chart 3: Tension headache &rarr; <code>R51.9</code>.</li><li>Reveal teacher key and conduct check for understanding. Reteach exact-description matching immediately if students miss more than one.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 25-40 - Round 2: Specificity and eliminating symptom distractors", '''<p>Students advance to five complex clinical scenarios where symptoms mimic less-specific diagnoses.</p><ul><li>Key learning rule: <strong>Always code the documented underlying diagnosis rather than a temporary symptom when both are known.</strong> (e.g. When a chart documents Gastroesophageal Reflux Disease, select <code>K21.9</code>, NOT chest pain <code>R07.9</code>).</li><li>Students code: Reflux (<code>K21.9</code>), Otitis media (<code>H66.90</code>), Eczema (<code>L30.9</code>), Strep pharyngitis (<code>J02.9</code>), and Wrist fracture initial encounter (<code>S52.501A</code>).</li><li>Students write one explicit sentence explaining why a distractor symptom code is weaker than the definitive diagnosis.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 30): Check that students underline the documented doctor's diagnosis before selecting a code.<br>• Lap 2 (Minute 36): Verify students explain why R07.9 (chest discomfort) is incorrect when GERD is diagnosed.</li></ul>''')
+                    + flow("#24323d", "Minutes 40-45 - Formative practice quiz review", '''<p>Students open the unpublished Canvas Practice Quiz for instant feedback on coding ethics, patient privacy, and labor data.</p><ul><li>Debrief the most-missed scenario as a whole group.</li></ul>''')
+                    + flow("#606c76", "Minutes 45-50 - Correct, submit, and workspace reset", '''<p>Students use the feedback to correct at least ONE code on their lab sheet, answer the documentation summary question, and turn in their lab sheet.</p><ul><li><strong>Safe Trim:</strong> At minute 31, require Round 1, the first 3 cases of Round 2, and one correction. Final two cases become extension/recovery. Never cut the correction or submission check.</li></ul>''')
+                ),
                 "MONITOR": "<ul><li><strong>Model CFU:</strong> underline documented diagnosis and point to exact description before naming code.</li><li><strong>Round 1 threshold:</strong> fewer than 2 of 3 correct triggers reteach before Round 2. If more than 1 in 4 misses, pause and model a new case.</li><li><strong>Round 2 lap:</strong> check diagnosis underline, code, and weaker-option reasoning. If students choose a symptom over the documented diagnosis, compare both descriptions and correct one.</li><li><strong>Key:</strong> Round 1 J20.9, K02.9, R51.9. Round 2 K21.9, H66.90, L30.9, J02.9, S52.501A. R07.9 is weaker in case 4 because reflux is documented. Career figure is May 2024 U.S. median.</li><li><strong>Trim:</strong> at minute 31, require Round 1, the first 3 Round 2 cases, and one correction. Final 2 cases become extension/recovery. Never cut correction or submit/cleanup.</li></ul>",
                 "SUPPORT": "<p>Underline the documented diagnosis and limit assigned students to the five-code list. Place this beside the reasoning line: <strong>“____ is weaker because the chart documents ____.”</strong> Each student records individual reasoning.</p>",
                 "FALLBACK": "<p>Paper is the full no-device route. Do not use real charts. The lab and career row are the DOL; the quiz is optional formative feedback and is the first trim.</p>",
@@ -993,16 +961,14 @@ async def main():
                 "RESPONSE_SOURCE_FILE_ID": files["COMPARE"]["id"],
                 "PREP": f'<ul><li><strong>Per student:</strong> 1 internet-connected device for the private <a href="{minor_url}">Health Career Evidence Check</a>, 1 FYF workbook, and 1 pencil.</li><li><strong>Teacher:</strong> 1 display/device with the scenario and evidence guide. Open the {file_link(files["RUBRIC"]["id"], "student-visible 16-point rubric")} and teacher-only {file_link(files["KEY"]["id"], "calibration guide")}.</li><li><strong>Print only for assigned students:</strong> 1 two-page comparison route per student, double-sided when available. Default copies: 0.</li><li><strong>Grouping:</strong> individual graded evidence; no team submission.</li><li>Keep H&amp;L optional. Use the current coursebook language for Health Science: Dental and Health Science: Medical Billing at Singley.</li></ul>',
                 "EVIDENCE": "<p>Collect the three-row comparison and four-part Jordan recommendation. Score accuracy, classification, fit, and evidence/trade-off.</p>",
-                "FLOW": flow("#5a2d91", "Audit · 8", "Correct all source labels.")
-                + flow("#4a9d2f", "Scenario · 5", "Identify Jordan's constraints.")
-                + flow("#1f617a", "Plan · 8", "Choose any defensible route.")
-                + flow("#e3ad19", "Write · 16", "Four visible sentence jobs.")
-                + flow(
-                    "#1f617a",
-                    "Self-score and revise · 8",
-                    "One evidence revision; check all four rows.",
-                )
-                + flow("#606c76", "Submit and close · 5", "Verify private submission state."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-8 - Welcome and weekly evidence audit", '''<p>Welcome students, seat them with their weekly materials, and project the evidence audit checklist.</p><ul><li>Students audit their 3-career comparison matrix (Dental Assistant, Dental Hygienist, Medical Billing and Coding Specialist).</li><li>Verify required evidence: (1) One daily responsibility, (2) Common postsecondary preparation, (3) May 2024 BLS U.S. median pay with source label, (4) 2024-34 projected growth rate, and (5) High-wage/high-demand classification.</li><li>Conduct active monitoring: Catch and eliminate any student notes describing national medians as 'starting salary' or 'Dallas pay.'</li></ul>''')
+                    + flow("#4a9d2f", "Minutes 8-15 - Analyze the fictional student scenario (Jordan)", '''<p>Project the fictional advising profile: <strong>Jordan's Career Decision</strong>.</p><ul><li>Analyze Jordan's core constraints and aspirations: Jordan wants a career in Health Science, loves organized records and helping patients, seeks a training program under 4 years (certificate or associate degree), and wants a career above national wage and growth lines ($49,500 / 3%).</li><li>Pairs conduct a 2-minute turn-and-talk: Which career best balances Jordan's preference for patient contact vs. administrative documentation?</li></ul>''')
+                    + flow("#1f617a", "Minutes 15-23 - Plan the defensible career recommendation", '''<p>Students select ONE health career to recommend for Jordan.</p><ul><li>Enforce the scoring rule: Any of the three careers can earn full credit if supported by authentic evidence matching Jordan's profile (e.g. Dental Hygienist for highest earnings and patient interaction; Medical Billing for administrative focus and strong growth; Dental Assistant for fastest clinical entry).</li><li>Students outline their 4 sentence jobs on their draft sheet or Canvas assignment page.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 23-38 - Author the Four Sentence Jobs recommendation", '''<p>Students draft their formal recommendation for the 16-point Major checkpoint:</p><ul><li><strong>Job 1 (Fit):</strong> Explicitly recommend the career and connect it to Jordan's specific personal constraints.</li><li><strong>Job 2 (Preparation &amp; Scope):</strong> State the mandatory postsecondary education/licensing and one daily task.</li><li><strong>Job 3 (Labor Data):</strong> Cite the May 2024 U.S. median pay and projected 2024-34 growth rate with full source labels.</li><li><strong>Job 4 (Trade-off &amp; Next Step):</strong> Explain the economic classification and identify ONE realistic trade-off or unanswered question Jordan must verify before enrolling.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 28): Confirm students defend fit for Jordan rather than stating their own personal preference.<br>• Lap 2 (Minute 34): Check that both labor statistics are accurately labeled and a genuine trade-off is named.</li></ul>''')
+                    + flow("#24323d", "Minutes 38-45 - Self-score against 16-point rubric and revise", '''<p>Project the student-visible 16-point Major Rubric.</p><ul><li>Students conduct a self-audit: check Scenario Alignment (4 pts), Preparation &amp; Daily Task (4 pts), Sourced Labor Data (4 pts), and Trade-off / Next Step (4 pts).</li><li>Students make at least ONE visible revision improving data precision or explanatory clarity before submission.</li></ul>''')
+                    + flow("#606c76", "Minutes 45-50 - Submit Major evidence and close", '''<p>Students submit their completed recommendation on the private Canvas assignment or hand in their labeled paper packet.</p><ul><li>Confirm submission status and close devices.</li><li><strong>Safe Trim:</strong> At minute 37, eliminate peer sharing to protect the individual 4-sentence write-up, self-score, and submission verification.</li></ul>''')
+                ),
                 "MONITOR": "<ul><li><strong>Audit CFU:</strong> students point to year, geography, measure, and source on one figure.</li><li><strong>Lap 1:</strong> check plan connects to Jordan, not personal preference. If more than 1 in 4 is preference-only, model one scenario-to-evidence sentence.</li><li><strong>Lap 2:</strong> check preparation, responsibility, two labeled figures, classification, and trade-off. Correct missing evidence labels before style edits.</li><li><strong>Key:</strong> any career may earn full credit with defensible fit and trade-off. Medical Billing and Coding is current FYF/coursebook content. Keep $50,250/7% labeled national comparison data; do not promise credential outcomes.</li><li><strong>Trim:</strong> at minute 37, reduce sharing, not the four sentence jobs, self-score, revision, or submission check.</li></ul>",
                 "SUPPORT": "<p>Place these beside the response: <strong>“I recommend ____ because Jordan needs ____.” “The May 2024 U.S. median is ____, and projected 2024-34 growth is ____.” “One trade-off or fact to verify is ____ because ____.”</strong> Allow speech-to-text. Score reasoning, not English mechanics.</p>",
                 "FALLBACK": "<p>The fixed guide is the full absence route. No live H&amp;L or Xello login is required. If Canvas submission fails, preserve the completed local file or paper and reopen the same assignment for recovery; do not create a second graded task.</p>",

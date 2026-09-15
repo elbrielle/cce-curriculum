@@ -13,7 +13,7 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **District HQIM** | FYF pp. 24-25, `Safe or Spoofed?` |
+| **FYF workbook** | FYF pp. 24-25, `Safe or Spoofed?` |
 | **Locked visual source** | Climber Notes slides 2-8, embedded individually in Canvas |
 | **Materials** | Seven email images, Phishing Red-Flag Checklist, workbook or Canvas guide |
 

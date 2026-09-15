@@ -13,7 +13,7 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **HQIM** | FYF p. 37 Industry-Based Certification explainer |
+| **FYF workbook** | FYF p. 37 Industry-Based Certification explainer |
 | **Current evidence** | BLS Computer Support Specialists and Software Developers; May 2024 U.S. medians |
 | **Materials** | Route Data Guide, Education Pathway Comparison, optional model, Route Decision |
 

@@ -39,7 +39,7 @@ One role that combines agriculture and technology: _____________________________
 
 The *Find Your Future* workbook is the student-facing curriculum source for the Plant Science opportunities at Nimitz High School. Use the program names, activities, and experiences as the workbook presents them so the guide stays aligned with the material students have in hand.
 
-The current Irving ISD CTE page is a teacher cross-check for public-facing updates. It should not silently replace or contradict the HQIM during the lesson. If a future public update creates a real instructional conflict, flag it for curriculum review.
+The current Irving ISD CTE page is a teacher cross-check for public-facing updates. It should not silently replace or contradict your *Find Your Future* workbook during the lesson. If a future public update creates a real instructional conflict, flag it for curriculum review.
 
 **Important boundary:** A high-school pathway can build knowledge, experience, and connections. It does not guarantee a certification, job, salary, admission, or college credit.
 

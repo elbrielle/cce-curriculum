@@ -1,7 +1,7 @@
 ---
 name: CCE Module Authoring Harness
 slug: cce-module-authoring
-version: 1.0.0
+version: 1.1.0
 description: "Use whenever writing, revising, or auditing a CCE Canvas Teacher Facilitator Guide, Student Guide, projected deck, or journal page. Forces the module shape teachers expect, the three language tiers, journal restraint, real images with credits, editable decks, and a printed self-audit before handoff."
 ---
 
@@ -10,6 +10,14 @@ description: "Use whenever writing, revising, or auditing a CCE Canvas Teacher F
 You are writing for two readers. A teacher opens the Facilitator Guide and must see in one screen: what students learn, how they show it, which workbook pages, which platform tasks, whether a notebook page is needed, what scaffolds exist, and where the slides are. A student opens the Student Guide and must be able to do the lesson without the teacher reading it to them. Nothing else belongs on either page.
 
 Read first: `CLAUDE.md`, `cce-curriculum/notes/canvas-lesson-production-workflow.md`, `cce-curriculum/notes/teacher-voice-standard.md`, `cce-curriculum/notes/deck-audit-improve-workflow.md`. Reference pair: `build/canvas/templates/wk0-day2-*.html` (shape), with the corrections in section 6 below applied.
+
+## 0. Response routes and naming (binding since 2026-09-14)
+
+- Each worksheet students write in gets its own Google Doc, rendered from `build/worksheet_sources/<slug>.md` by `build/google_docs/render_worksheet_gdoc_html.py` and registered in `build/google_docs/student_worksheet_docs.json`. The exit ticket keeps the per-day Doc in `build/google_docs/student_response_route_registry.json`. A Student Guide button opens exactly the document its label names; a multi-day packet keeps one Doc across its days. Never collapse a day's buttons onto one Doc.
+- The Facilitator Guide opens with the generated **Student response routes** panel (Google Doc copy + teacher master, printable PDF, OneNote status). Builders do not render it. After any builder run: `python3 build/canvas/apply_response_routes.py --apply --weeks <SW>-Wk<N> < ~/.canvas_token`.
+- Published modules are updated with `build/canvas/run_builder_body_only.py <builder> < ~/.canvas_token` (page bodies only; no publication, module, assignment, quiz, or file-lock writes).
+- Never write "HQIM" on a teacher or student surface. Say "Hats & Ladders" / "H&L", "Xello", "Hats & Ladders or Xello" for the app's localized figure, or "your *Find Your Future* workbook". No TEKS codes, "DOL", "5E" phase names, or "licensed" on student surfaces.
+- Every workbook page a lesson uses is named on the Student Guide in the step where students open it ("Open your *Find Your Future* workbook to p. N"), verified against the FYF text extract (segment index = printed page + 5 in the form-feed split; PDF page = printed + 6).
 
 ## 1. Facilitator Guide: required shape, in this order
 

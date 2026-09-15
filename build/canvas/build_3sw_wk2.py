@@ -21,8 +21,19 @@ STUDENT_GOOGLE_COPY_URLS = {
 }
 
 
+# One Google Doc per worksheet (build/google_docs/student_worksheet_docs.json).
+# Keyed by (day, anchor label) so a worksheet button never opens the day's exit ticket.
+STUDENT_WORKSHEET_COPY_URLS = {
+    (2, 'the two-page Farm-to-Table Planner'): "https://docs.google.com/document/d/1gi19YBcWDpeE85s2p3syOM262o_myc0dNxnA8m9g5QU/copy",
+    (3, 'your planner'): "https://docs.google.com/document/d/1gi19YBcWDpeE85s2p3syOM262o_myc0dNxnA8m9g5QU/copy",
+    (4, 'the two-page evaluation'): "https://docs.google.com/document/d/1bf8IHvRGjv_JwdMnAXD-05Y_7lRbmt6XErVXH6_KU0Q/copy",
+    (5, 'the private reflection'): "https://docs.google.com/document/d/1p73y6vX0_h7IwnbPIK4llyizrdaH78PYs_izGAvp5oE/copy",
+}
+
+
 def student_copy_link(day, label):
-    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+    url = STUDENT_WORKSHEET_COPY_URLS.get((day, label), STUDENT_GOOGLE_COPY_URLS[day])
+    return f'<a href="{url}">{label}</a>'
 
 
 def student_copy_button(day, label):
@@ -165,11 +176,12 @@ async def lock_folder_files(client, folder):
                 client, "PUT", f"/files/{entry['id']}", data={"locked": "true"}
             )
     final = await paged(client, f"/folders/{folder['id']}/files")
-    unlocked = [
-        entry.get("display_name") or entry.get("filename")
-        for entry in final
-        if not entry.get("locked")
-    ]
+    unlocked = []
+    for entry in final:
+        if not entry.get("locked"):
+            refreshed = await api(client, "GET", f"/files/{entry['id']}")
+            if not refreshed.get("locked"):
+                unlocked.append(entry.get("display_name") or entry.get("filename"))
     if unlocked:
         raise RuntimeError(f"Unlocked files remain in folder {folder['id']}: {unlocked}")
     return current
@@ -259,7 +271,7 @@ def step(number, title, body):
 
 
 def flow(color, title, text):
-    return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0;color:{color}">{title}</h4><p>{text}</p></div>'
+    return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0 0 6px;color:{color}">{title}</h4>{text}</div>'
 
 
 QUESTIONS = [
@@ -784,7 +796,7 @@ async def main():
                 "DONE": "<ul><li>private career check submitted with one role, duty, and preparation fact;</li><li>all clues reviewed in FYF;</li><li>one first repair defended with two clues in FYF;</li><li>one system improvement labeled in FYF.</li></ul>",
                 "VISIBLE_SUPPORT": '<p><strong>Word bank:</strong> duty = responsabilidad · preparation = preparación · evidence = evidencia · priority = prioridad.</p><p><strong>Career frame:</strong> "A [role] would [duty]. A typical entry route is [preparation]."</p><p><strong>Repair frame:</strong> "I would fix [repair] first because [clue 1] and [clue 2]."</p>',
                 "SUPPORT": "<p>Use labels and short phrases in the sketch. Read the clues aloud or color-code water, light, nutrients, and cleanliness before choosing a repair.</p>",
-                "FALLBACK": "<p>The embedded licensed pages and fixed career guide are the complete route. A plain-paper system sketch is equal to chart paper. If Canvas is unavailable, draft the three career details in the FYF margin and transfer only those details to the private check at the next access point.</p>",
+                "FALLBACK": "<p>The embedded workbook pages and fixed career guide are the complete route. A plain-paper system sketch is equal to chart paper. If Canvas is unavailable, draft the three career details in the FYF margin and transfer only those details to the private check at the next access point.</p>",
             },
             2: {
                 "TITLE": "Plan a Farm-to-Table Infographic",
@@ -926,28 +938,12 @@ async def main():
                 "ALERT": "<strong>Do not turn Day 1 into an open H&amp;L search.</strong> The fixed career guide and licensed workbook carry the lesson with no login or live-data verification burden.",
                 "PREP": f'<ul><li><strong>Per student:</strong> FYF workbook pp. 88-90 and pencil. Keep one sheet of plain paper per student available only if the workbook sketch space is not usable.</li><li><strong>Devices:</strong> one per student or one per pair for {file_link(files["CAREERS"]["id"], "the career guide")}; default print count is 0. Print one guide per pair only for a no-device class.</li><li>Open the unpublished private <strong>{CAREER_TITLE}</strong> assignment. It accepts one individual Canvas text response and remains 0-point, not graded, and omitted from the final grade.</li><li><strong>Grouping:</strong> individual evidence; optional pairs for the warm-up and clue comparison.</li><li>Model one two-clue diagnosis without giving the final priority.</li></ul>',
                 "EVIDENCE": "<p><strong>FYF pp. 89-90:</strong> first-repair decision supported by two clues and one labeled system improvement. <strong>Private Canvas practice check:</strong> one chosen role, one accurate duty, and one preparation fact. Do not make students copy the grow-system response into Canvas.</p>",
-                "FLOW": flow(
-                    "#5a2d91", "System warm-up · 5", "What must reach every plant?"
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Career evidence · 8",
-                    "Submit one role, duty, and preparation fact privately.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Investigate and diagnose · 20",
-                    "Read every clue before choosing.",
-                )
-                + flow(
-                    "#e3ad19",
-                    "Prioritize and sketch · 12",
-                    "First repair plus prevention feature.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Verify and reset · 5",
-                    "Check the two evidence homes and return materials.",
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and grow-system inputs warm-up", '''<p>Welcome students to Week 2 of Agriculture and project the agricultural technology launch prompt.</p><ul><li>Ask students: <em>“In an automated indoor hydroponic or vertical farming system, what are the four non-negotiable physical inputs that MUST reach every single plant root continuously to ensure crop survival?”</em></li><li>Collect 2-3 student thoughts. Catalog the four essential inputs: (1) Oxygenated water circulation, (2) Balanced dissolved mineral nutrients, (3) Adequate photosynthetic LED lighting, and (4) Proper temperature and pH balance.</li><li>Bridge with, <em>“When crops fail in controlled environment agriculture, technicians cannot guess; they must isolate the malfunctioning subsystem. Today you diagnose a hydroponic failure on FYF pp. 88-90.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-13 - Fixed career evidence and credential benchmark check", '''<p>Direct students to the Plant Career Evidence Guide and open the private Canvas Career Check:</p><ul><li>Analyze three plant science occupations:<br>• <em>Agricultural and Food Science Technician:</em> Associate degree; May 2024 U.S. median pay $48,480; sets up laboratory grow tests, calibrates sensors, monitors water pumps and nutrient delivery.<br>• <em>Soil and Plant Scientist:</em> Bachelor's degree; May 2024 U.S. median pay $71,410; researches plant genetics, soil chemistry, disease resistance, and crop yields.<br>• <em>Agricultural Engineer:</em> Bachelor's degree in engineering; May 2024 U.S. median pay $84,630; designs automated climate controls, irrigation pumps, and greenhouse structures.</li><li>Students submit ONE chosen role, ONE verified daily task, and ONE exact preparation credential in Canvas.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 10): Confirm all students submit their private role/duty/credential check before opening the case clues.</li></ul>''')
+                    + flow("#1f617a", "Minutes 13-33 - Investigating the hydroponic grow-system failure (FYF pp. 88-89)", '''<p>Students examine the five diagnostic clues from the fictional vertical farm:</p><ul><li>Clue 1: Reservoir water level is full, but lower tray plants show severe wilting and leaf yellowing (chlorosis).</li><li>Clue 2: Submersible pump motor is humming and warm to touch, but water flow rate out of the manifold is a trickle (0.2 gal/min vs. 2.0 gal/min normal).</li><li>Clue 3: Upper trays receive normal nutrient misting; lower trays show zero active misting.</li><li>Clue 4: Nutrient reservoir EC (electrical conductivity) and pH are within normal parameters.</li><li>Clue 5: Filter screen at the intake manifold has heavy algae and sediment accumulation.</li><li>Guide students to avoid the single-symptom fallacy: Yellow leaves do NOT automatically mean nutrient deficiency; here, pump manifold blockage prevents the solution from circulating.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 2 (Minute 24): Verify students mark evidence across all 5 clues before declaring a repair.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 33-45 - Prioritizing the first repair and schematic engineering", '''<p>Students author their engineering decision on FYF pp. 89-90:</p><ul><li>1. <strong>First-Repair Priority:</strong> Specify the immediate mechanical repair (clear intake filter and flush pump manifold blockage). Defend why this takes priority over adjusting nutrients or replacing lights.</li><li>2. <strong>Labeled System Schematic:</strong> Sketch the repaired grow loop, drawing callout labels for the reservoir, pump, filter, delivery manifold, root tray, and return drain.</li><li>3. <strong>Long-term Prevention Feature:</strong> Add ONE preventative engineering improvement (e.g., automated dual inline pre-filters or optical flow sensors with audio alarm).</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 3 (Minute 38): Check schematics; ensure students use technical arrows and functional labels, not just decorative drawings.</li></ul>''')
+                    + flow("#1f617a", "Minutes 45-50 - Verification of two evidence homes and workspace reset", '''<p>Verify both evidence homes: FYF pp. 89-90 physical workbook and the private Canvas career check.</p><ul><li><strong>Safe Trim:</strong> At minute 35, convert detailed pictorial drawings to functional block diagrams with labels; fiercely protect the 2-clue repair defense, prevention feature, and Canvas career check.</li></ul>''')
                 ),
                 "MONITOR": "<p><strong>District moves:</strong> use a 60-second Stop and Jot for the warm-up, then Active Monitor the individual evidence. <strong>Minute 13 target:</strong> each student has submitted one role, one duty, and one preparation fact in the private Canvas check. If several students copy salary figures, pause and model duty → preparation once. <strong>Minute 28 target:</strong> every FYF clue is marked before a repair is chosen. Strong reasoning often prioritizes slow water flow/pump or blockage because weak roots and uneven growth support inadequate circulation; accept another first repair when two supplied clues and a coherent sequence support it. Students should not claim one symptom proves one cause. Career key: technician tests/records and usually follows an associate-degree route; scientist studies plant/soil conditions and typically needs at least a bachelor's degree; engineer designs system changes and typically needs an engineering bachelor's degree.</p><p><strong>Safe trim:</strong> reduce the system sketch to labels and arrows. Protect the private role-duty-preparation response and the FYF two-clue first-repair decision.</p>",
                 "RESOURCES": f'<p>{file_link(files["CAREERS"]["id"], "Dated career evidence guide")} · The private Canvas check is the only career-response submission home. H&amp;L browsing is optional enrichment only.</p>',
@@ -960,22 +956,12 @@ async def main():
                 "ALERT": "<strong>Sunny Fields Farm is fictional.</strong> Preserve workbook facts as scenario details; do not convert them into claims about a real business or current agriculture practice.",
                 "PREP": f'<ul><li><strong>Per student:</strong> FYF workbook pp. 91-92, {file_link(files["PLANNER"]["id"], "the two-page planner")} printed double-sided, pencil, and markers or colored pencils. Post the {file_link(files["RUBRIC"]["id"], "student rubric")} digitally; default rubric print count is 0.</li><li><strong>Teacher display:</strong> open the supplied four-step wireframe below. No design login is needed.</li><li><strong>Grouping:</strong> individual plan; pairs of two only for the brief trace and reader-path rehearsal.</li></ul>' + process_wireframe,
                 "EVIDENCE": "<p>Client requirement map, four-step content plan, two useful facts, full-page sketch, two interview questions on FYF p. 92, and one accurate Agricultural Communications Specialist role connection. This begins the recommended major packet.</p>",
-                "FLOW": flow(
-                    "#5a2d91", "Food-journey warm-up · 5", "Name four likely stages."
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Client brief · 8",
-                    "Role, audience, crop choices, required content.",
-                )
-                + flow("#1f617a", "Content plan · 20", "Four steps and two facts.")
-                + flow(
-                    "#e3ad19",
-                    "Full-page sketch · 12",
-                    "Reading order, visuals, labels.",
-                )
-                + flow(
-                    "#1f617a", "Exit · 5", "Role, product, audience, and reader path."
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and food journey stages warm-up", '''<p>Welcome students, seat them with FYF pp. 91-92, and project the supply-chain prompt.</p><ul><li>Ask students: <em>“From the moment a seed is planted in soil to the moment fresh produce arrives on a school cafeteria tray, what are the four major operational stages that food travels through? Name all four in order.”</em></li><li>Collect 2-3 student responses: (1) Planting &amp; Cultivation, (2) Monitoring &amp; Growth Management, (3) Harvesting &amp; Processing/Packaging, (4) Transportation &amp; Distribution/Delivery.</li><li>Bridge with, <em>“Consumers often have zero knowledge of how food reaches their table. Today you act as an Agricultural Communications Specialist planning an informative public infographic for Sunny Fields Farm.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-13 - Analyzing the Sunny Fields Farm client brief", '''<p>Project the fictional client brief and review four essential communication criteria:</p><ul><li>1. <strong>Professional Role:</strong> Agricultural Communications Specialist (creates visual and written media translating complex agricultural science for the public).</li><li>2. <strong>Target Audience:</strong> Local middle school students and families visiting the community farm market.</li><li>3. <strong>Crop Selection:</strong> Choose ONE crop profile (Hydroponic Butterhead Lettuce, Heirloom Roma Tomatoes, or Greenhouse Strawberries).</li><li>4. <strong>Required Client Content:</strong> Must incorporate at least TWO verified numerical farm facts from the brief (e.g., 90% water reduction compared to field agriculture; zero synthetic pesticide application).</li></ul>''')
+                    + flow("#1f617a", "Minutes 13-33 - Constructing the four-stage content planner", '''<p>Students independently complete their two-page Farm-to-Table Planner:</p><ul><li>Stage 1 (Planting): Detail seed germination, substrate choice, and initial nutrient soaking.</li><li>Stage 2 (Growing &amp; Monitoring): Detail automated sensor monitoring, pest scouting, and daily EC/pH testing.</li><li>Stage 3 (Harvesting &amp; Packing): Detail sanitized hand-harvesting, cold-water washing, and biodegradable packaging.</li><li>Stage 4 (Selling &amp; Delivery): Detail refrigerated transport within a 25-mile local radius directly to neighborhood schools.</li><li>Enforce client integrity: Integrate the two chosen numerical facts directly into stages 1 and 2.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 22): Check that students use ONLY supplied client facts, avoiding invented statistics.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 33-45 - Drafting the full-page wireframe schematic", '''<p>Students draft a full-page wireframe schematic of their infographic:</p><ul><li>Establish a clear visual hierarchy: Prominent Title Banner &rarr; Chronological 4-Box Z-Pattern Reading Flow &rarr; Callout Stat Bubbles for the two numerical facts &rarr; Bottom Client Contact &amp; Source Footer.</li><li>Students turn to FYF p. 92 and author TWO investigative interview questions they would ask a commercial hydroponic grower to gather further technical data.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 2 (Minute 39): Verify wireframe shows distinct visual regions and reading arrows, not a single unreadable wall of text.</li></ul>''')
+                    + flow("#1f617a", "Minutes 45-50 - Agricultural communications DOL and workspace reset", '''<p>Direct students to the Day 2 Exit Ticket.</p><ul><li>Prompt: <em>“State the title of the communication professional who created this visual, name the target audience, and describe how your visual design guides the reader's eye from Stage 1 to Stage 4.”</em></li><li>Collect planners or verify completion.</li><li><strong>Safe Trim:</strong> Omit partner rehearsal; protect the 4-stage content plan, 2 client facts, wireframe sketch, and FYF p. 92 interview questions.</li></ul>''')
                 ),
                 "MONITOR": "<p><strong>District moves:</strong> Think-Pair-Share the brief trace, then Active Monitor the planner. <strong>Minute 13 target:</strong> every student has marked role, audience, crop choices, and required content. If the class confuses scenario facts with outside research, reset with “Use only what the client supplied.” <strong>Minute 30 target:</strong> all four stages and two client facts are planned. Require planting, growing/monitoring, harvesting/packing, and selling/delivery. Students may choose any listed crop. The role connection should identify that an Agricultural Communications Specialist creates an agriculture message or visual for a specific audience. The custom planner adds only the roomy content plan and full-page sketch. Students use the two large boxes already provided on FYF p. 92 for interview questions.</p><p><strong>Safe trim:</strong> cut the share-out or narrated rehearsal. Protect the four-step plan, two facts, full-page sketch, and two interview questions.</p>",
                 "RESOURCES": "<p>Licensed FYF pp. 91-92 are embedded at the step where students use them. Canva and Adobe are not needed until Day 3.</p>",
@@ -988,24 +974,12 @@ async def main():
                 "ALERT": "<strong>Canva for Education, Adobe Express, and paper are equal.</strong> Do not require premium assets, a personal account, or a real social-media post. Submit through Canvas, not Google Classroom.",
                 "PREP": f'<ul><li><strong>Per student:</strong> completed Day 2 plan and either one district device or one sheet of paper/chart paper with markers. Keep paper visible from the start.</li><li>Confirm Canva for Education or Adobe Express only if offering the digital route; do not require a personal login.</li><li>Post the {file_link(files["RUBRIC"]["id"], "student rubric")} digitally; default print count is 0. Open only the unpublished transfer check today. The Major opens after Day 4.</li><li><strong>Grouping:</strong> individual artifact; pairs of two for the 60-second reader test, with teacher/self-check as the equal alternate.</li></ul>' + process_wireframe,
                 "EVIDENCE": "<p>Farm-to-Table infographic and one documented message/accessibility revision. The separate private Communication Skill Transfer check collects the two-career d(4)(B) response as formative evidence; it is not scored in the major-packet rubric.</p>",
-                "FLOW": flow(
-                    "#5a2d91", "Plan check · 5", "Four steps, two facts, reader path."
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Model and criteria · 8",
-                    "Readable, accurate, source-safe.",
-                )
-                + flow("#1f617a", "Build · 25", "Digital or paper route.")
-                + flow(
-                    "#e3ad19",
-                    "Reader test and revise · 7",
-                    "First look plus one unclear spot.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Save and transfer · 5",
-                    "Save the artifact; submit only the private two-career comparison.",
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and visual design criteria warm-up", '''<p>Welcome students, seat them with their Day 2 wireframes, and project the design standard prompt.</p><ul><li>Ask students: <em>“When a busy reader glances at an infographic for five seconds, what design elements make the difference between a graphic that communicates instantly and one that gets ignored or causes confusion?”</em></li><li>Collect 2-3 responses: High color contrast, readable bold typography, concise chunked text, clear numbered step progression, and relevant icons.</li><li>Bridge with, <em>“Today we produce our final Farm-to-Table Infographic using Canva, Adobe Express, or professional paper drafting, then run a rapid peer readability test.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-13 - Modeling professional visual standards and accessibility", '''<p>Display the approved wireframe exemplar and review the four production rubrics:</p><ul><li>1. <strong>Visual Readability:</strong> High contrast between dark text and light backgrounds; minimum 14pt body text for legibility.</li><li>2. <strong>Information Chunking:</strong> Every stage has a distinct bordered container or color band.</li><li>3. <strong>Factual Accuracy:</strong> Both numerical client facts are highlighted in stat callout boxes with accurate units.</li><li>4. <strong>Accessibility:</strong> Logical top-to-bottom or left-to-right reading order with clear section numbering.</li></ul>''')
+                    + flow("#1f617a", "Minutes 13-38 - Infographic production sprint (Digital or Paper Route)", '''<p>Students produce their final graphic using their chosen route (both routes are 100% equal):</p><ul><li>Digital: Construct in Canva for Education / Adobe Express using the 4-region layout.</li><li>Paper: Draft on large white drawing sheets using rulers, colored pens, and highlighters.</li><li>Enforce pacing: At Minute 25 (midpoint), pause class for a 30-second screen check—ensure all students have completed Stages 1 &amp; 2 and are not wasting time searching for decorative stickers.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 22): Verify students place content first before selecting decorative fonts.<br>• Lap 2 (Minute 32): Confirm both client numerical facts are visible on the graphic.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 38-45 - 60-Second Reader Test and iterative revision", '''<p>Pairs execute the 60-Second Reader Usability Test:</p><ul><li>Partner A displays their graphic silently to Partner B for exactly 60 seconds.</li><li>Partner B states: (1) The first piece of information their eye caught, and (2) ONE element that felt crowded or unclear.</li><li>Partner A documents ONE specific revision (e.g., bolding Stage 3 heading, increasing font size on the water-saving statistic, increasing whitespace).</li><li>Reverse roles immediately.</li></ul>''')
+                    + flow("#1f617a", "Minutes 45-50 - Save artifact and private transfer check DOL", '''<p>Students save their infographic file or store their physical poster.</p><ul><li>Students open the private Canvas Transfer Check and complete the two-career prompt: Explain how visual communication skills function for an Agricultural Communications Specialist vs. a Graphic Designer in Urban Architecture.</li><li>Note: The major packet is submitted once tomorrow after Day 4!</li><li><strong>Safe Trim:</strong> Cut decorative borders; protect the 4 ordered stages, 2 facts, documented user revision, and private transfer check.</li></ul>''')
                 ),
                 "MONITOR": "<p><strong>District moves:</strong> chunk the build with a visible midpoint and Active Monitor for one criterion at a time. <strong>Minute 13 target:</strong> title, four regions, and reading path are placed. If several students are choosing templates instead of building content, move everyone to the supplied wireframe. <strong>Minute 32 target:</strong> four ordered steps, one visual and short explanation per step, and two scenario facts are visible. Run the 60-second reader test: first look, unclear spot, one revision. The d(4)(B) response must name two different careers and show how one communication skill looks in each; “communication is important” does not demonstrate transfer.</p><p><strong>Safe trim:</strong> cut decorative polish first. Protect one visible revision, the saved artifact, and the private transfer check. Do not collect the Major today.</p>",
                 "RESOURCES": f'<p>{file_link(files["PLANNER"]["id"], "Planner")} · {file_link(files["RUBRIC"]["id"], "16-point student rubric")} · The separate ungraded transfer check accepts text or a private recording. Students save and retain the infographic for tomorrow; the combined Major submission happens once after Day 4.</p>',
@@ -1018,31 +992,13 @@ async def main():
                 "ALERT": "<strong>Do not invent a job title's salary.</strong> Every specialty is paired with a real BLS parent occupation, and students must state that limitation.",
                 "PREP": f'<ul><li><strong>Per student:</strong> saved infographic, {file_link(files["EMERGING_EVAL"]["id"], "two-page evaluation")} printed double-sided, pencil, and one device for the practice quiz/submit route.</li><li>Post {file_link(files["EMERGING_GUIDE"]["id"], "the dated evidence guide")} digitally; default print count is 0. Print one guide per pair only for a no-device class. Post the {file_link(files["RUBRIC"]["id"], "rubric")} digitally.</li><li>Test or skip the optional official BLS video. Open the unpublished quiz and combined Major assignment.</li><li><strong>Grouping:</strong> individual evaluation and submission; pairs may rehearse the parent/specialty distinction.</li></ul>',
                 "EVIDENCE": "<p>Individual technology-to-task evaluation with two dated facts, one evidence limit, and a revision. This completes the recommended 16-point major packet.</p>",
-                "FLOW": flow(
-                    "#5a2d91",
-                    "Optional BLS hook · 4",
-                    "Agricultural engineering tasks.",
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Parent/specialty model · 8",
-                    "What a proxy can and cannot show.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Read the fixed guide · 10",
-                    "Three specialties, three routes.",
-                )
-                + flow(
-                    "#e3ad19",
-                    "Individual evaluation · 20",
-                    "Technology, task, two facts, limit.",
-                )
-                + flow("#4a9d2f", "Practice quiz · 5", "Retry and revise.")
-                + flow(
-                    "#1f617a",
-                    "Submit · 3",
-                    "Submit the saved infographic and evaluation together once.",
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and emerging agtech warm-up", '''<p>Welcome students and project the agricultural technology innovation prompt.</p><ul><li>Ask students: <em>“Artificial intelligence, autonomous tractors, drone crop monitoring, and automated gene editing are transforming agriculture. Why can you NOT simply type 'AI Drone Crop Specialist salary' into Google and trust the first number that appears?”</em></li><li>Collect student perspectives. Explain the labor data reality: <strong>Emerging specialized job titles evolve faster than government statistical codes; therefore, economists track them under verified parent occupations.</strong></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-13 - Modeling parent occupations and data limitations", '''<p>Display the Emerging Plant-Tech Evidence Guide and model the parent-specialty relationship:</p><ul><li>Specialty: <strong>Precision Agriculture Systems Technician</strong> &rarr; Verified BLS Parent Occupation: <strong>Agricultural and Food Science Technicians</strong> (SOC 19-4011).</li><li>Labor Market Metrics: May 2024 U.S. median pay $48,480; projected 2024-34 growth 5%; 4,200 annual openings.</li><li>The Data Limitation: <em>“This parent category includes food laboratory quality testers and grain inspectors, so the median reflects the broader field rather than a guarantee for an autonomous tractor specialist.”</em></li><li>Model authoring the limitation sentence: Ground claims in verified parent data while explicitly disclosing statistical boundaries.</li></ul>''')
+                    + flow("#1f617a", "Minutes 13-23 - Auditing the three emerging agtech specialties", '''<p>Students read the three dated occupational profiles in the Emerging Plant-Tech Guide:</p><ul><li>1. <strong>Precision Agriculture Systems Technician:</strong> Parent = Agricultural &amp; Food Science Technicians ($48,480 median, 5% growth; Associate degree). Calibrates GPS telemetry, maintains drone spectral cameras, repairs variable-rate fertilizer applicators.</li><li>2. <strong>Controlled Environment Plant Specialist:</strong> Parent = Soil and Plant Scientists ($71,410 median, 5% growth; Bachelor's degree). Formulates hydroponic nutrient chemistry, programs microclimate photoperiods, conducts pathogen assays.</li><li>3. <strong>Agricultural Robotics Systems Integrator:</strong> Parent = Agricultural Engineers ($84,630 median, 6% growth; Bachelor's degree in engineering). Integrates computer vision algorithms, engineers robotic harvesting arms, tests obstacle detection in field conditions.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 18): Verify students pair each specialty with its exact BLS parent title.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 23-43 - Authoring the Technology-to-Task Evaluation (Major Packet)", '''<p>Students draft their 4-6 sentence technical evaluation on their Day 4 Evidence Sheet:</p><ul><li>Sentence 1: Name the emerging technology and the specific agricultural specialty.</li><li>Sentence 2: Detail ONE concrete work task where the technician uses this technology.</li><li>Sentence 3: Cite TWO verified labor facts from the parent occupation with complete source attribution (May 2024 U.S. median salary and 2024-34 growth rate).</li><li>Sentence 4: Articulate ONE defensible data limitation explaining why parent data is an approximation.</li><li>Sentence 5: Propose ONE immediate next research step to investigate Texas-specific CTE programs.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 2 (Minute 34): Check data limitations; ensure students do not treat parent medians as local starting wages.</li></ul>''')
+                    + flow("#4a9d2f", "Minutes 43-47 - Practice check and self-audit", '''<p>Students take the 4-question Canvas Practice Check or use the paper self-audit rubric.</p><ul><li>Confirm understanding of parent occupation proxies, statistical limitations, and degree requirements.</li></ul>''')
+                    + flow("#1f617a", "Minutes 47-50 - Combined Major submission and workspace reset", '''<p>Students submit their completed 16-point Major (Farm-to-Table Infographic + Emerging Tech Evaluation):</p><ul><li>Confirm successful submission on Canvas or collect physical packets.</li><li><strong>Safe Trim:</strong> Skip optional video hook; replace Canvas quiz with independent rubric self-check; protect the 5-sentence evaluation, data limitation, and combined Major submission.</li></ul>''')
                 ),
                 "MONITOR": "<p><strong>District moves:</strong> chunk the evaluation into technology → task → two dated facts → limit, then Active Monitor each link. <strong>Minute 16 target:</strong> students have a specialty, parent occupation, and technology-to-task chain. If students call the parent median a local starting salary, stop and model the complete limit frame. <strong>Minute 36 target:</strong> 4–6 sentences contain two dated facts and one data limit. Key facts: technician parent = $48,480/5%; soil and plant scientist = $71,410/5%; agricultural engineer = $84,630/6%. All are May 2024 U.S. medians/outlook 2024–34. The figure belongs to the parent occupation and cannot prove an exact specialty's local starting pay.</p><p><strong>Safe trim:</strong> cut the optional video first. If needed, replace the Canvas practice quiz with the paper self-check. Protect the individual evaluation, one revision, and one combined submission of infographic plus evaluation.</p>",
                 "RESOURCES": '<p><a href="https://www.bls.gov/ooh/life-physical-and-social-science/agricultural-and-food-science-technicians.htm">BLS Technicians</a> · <a href="https://www.bls.gov/ooh/life-physical-and-social-science/agricultural-and-food-scientists.htm">BLS Scientists</a> · <a href="https://www.bls.gov/ooh/architecture-and-engineering/agricultural-engineers.htm">BLS Engineers</a> · <a href="https://www.ars.usda.gov/oc/dof/farming-with-precision/">USDA Precision Agriculture</a> · <a href="https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops">USDA Automation for Specialty Crops</a></p>',
@@ -1055,27 +1011,13 @@ async def main():
                 "ALERT": "<strong>Use the fixed plant-tech evidence.</strong> No Xello lesson, profile screenshot, or platform catch-up is required.",
                 "PREP": f'<ul><li><strong>Per student:</strong> the Day 4 evaluation and the {file_link(files["BIAS_REFLECT"]["id"], "one-page private reflection")} digitally; default print count is 0, with one copy per student only for the paper route.</li><li>Open the {file_link(files["EMERGING_GUIDE"]["id"], "Emerging Plant-Tech Evidence Guide")} and one complete assumption-to-evidence model.</li><li><strong>Grouping:</strong> individual/private work. Project the warm-up; do not require public sharing.</li></ul>',
                 "EVIDENCE": "<p>One revised plant-tech evidence link plus a private career-assumption reflection using one fixed career fact and one fair investigation strategy. No public discussion.</p>",
-                "FLOW": flow(
-                    "#5a2d91",
-                    "Private warm-up · 5",
-                    "Where do career assumptions come from?",
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Evidence audit · 20",
-                    "Strengthen technology, task, source label, or evidence limit.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Private reflection · 15",
-                    "Assumption, career fact, fair next move.",
-                )
-                + flow(
-                    "#e3ad19",
-                    "Revise and submit · 7",
-                    "Update the evidence packet and private reflection.",
-                )
-                + flow("#606c76", "Close · 3", "Name one question that still needs a source."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and career assumptions warm-up", '''<p>Welcome students, seat them with their weekly materials, and project the career perceptions prompt.</p><ul><li>Ask students: <em>“When people hear the word 'agriculture,' many immediately picture an 1800s manual pitchfork or an open dirt field. Where do these outdated cultural stereotypes come from, and how do they prevent students from considering high-tech careers in plant robotics and genetics?”</em></li><li>Hear 2-3 student thoughts. Explain: <em>“Media representations often lag decades behind real industry practice. Today we reflect on how evidence-based career exploration dispels outdated assumptions.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-25 - Comprehensive Week 2 evidence audit and technical refinement", '''<p>Students reopen their Day 4 evaluations and the Emerging Plant-Tech Evidence Guide:</p><ul><li>Conduct a 4-point technical quality audit on their submitted evaluation:</li><li>1. <strong>Technology Precision:</strong> Does the writing name specific hardware/software (e.g., multispectral drone sensors, closed-loop nutrient dosers) rather than vague terms like 'computers'?</li><li>2. <strong>Work Task Fidelity:</strong> Is the described action an authentic daily job responsibility?</li><li>3. <strong>Statistical Labeling:</strong> Are 'May 2024', 'U.S.', and 'median' properly attached to every dollar figure?</li><li>4. <strong>Data Boundary:</strong> Does the text explicitly acknowledge the parent occupation relationship?</li><li>Students write one concrete sentence refinement directly on their evaluation sheet.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 15): Guide students to strengthen vague task sentences into actionable technical descriptions.</li></ul>''')
+                    + flow("#1f617a", "Minutes 25-42 - Authoring the private Plant-Career Evidence Reflection", '''<p>Students complete their private reflection on Canvas (or the approved paper reflection sheet):</p><ul><li>Section 1: <strong>Outdated Assumption:</strong> Document ONE common societal or media misconception about agricultural and plant science careers.</li><li>Section 2: <strong>Verified Factual Counter-Evidence:</strong> Cite at least ONE verified technical fact, work condition, or labor market metric from Week 2 that disproves this misconception.</li><li>Section 3: <strong>Fair Investigation Strategy:</strong> Articulate a concrete personal strategy for fairly investigating future career fields before making premature judgments based on social media or peer opinions.</li><li>Privacy Invariant: Reflections remain individual and private; students are never required to disclose personal identities, family backgrounds, or private experiences.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 2 (Minute 34): Verify students cite concrete technical facts from the guide to counter their chosen misconception.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 42-47 - Finalizing portfolio evidence and revision check", '''<p>Students verify completion of all Week 2 portfolio components:</p><ul><li>1. Grow-system diagnosis and repair schematic (FYF pp. 89-90).</li><li>2. Farm-to-Table Infographic (Canva digital or paper original).</li><li>3. Emerging Plant-Tech Evaluation (scored with the 16-pt Major rubric).</li><li>4. Private Plant-Career Evidence Reflection.</li></ul>''')
+                    + flow("#606c76", "Minutes 47-50 - Submit reflection and workspace close", '''<p>Confirm submission of the private Canvas reflection or collect paper reflection sheets.</p><ul><li>Congratulate students on completing their deep dive into Plant Science and Agricultural Technology!</li><li><strong>Safe Trim:</strong> Cut any whole-group share-out; protect the evidence audit, private reflection with factual counter-evidence, and portfolio verification.</li></ul>''')
+                ),
                 "MONITOR": "<p>Use a private Stop and Jot, then Active Monitor the evidence labels without reading personal opinions aloud. <strong>Minute 15 target:</strong> each student has identified one evidence link to strengthen. <strong>Minute 35 target:</strong> one assumption, one fixed career fact, and one fair investigation move are present. Protect privacy: students may write about general cultural or media assumptions and are never required to disclose identity or discrimination experiences.</p><p><strong>Safe trim:</strong> cut public sharing. Protect the evidence revision, private reflection, and submission.</p>",
                 "RESOURCES": f'<p>{file_link(files["EMERGING_GUIDE"]["id"], "Emerging Plant-Tech Evidence Guide")} · {file_link(files["BIAS_REFLECT"]["id"], "Plant-Career Evidence Reflection")}</p>',
                 "SUPPORT": "<p>Read prompts aloud, permit a private pass on discussion, and offer bilingual labels and teacher conference. The one-page reflection provides three separate response areas instead of one dense paragraph box.</p>",

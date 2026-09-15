@@ -30,7 +30,7 @@ Sort responses into direct care, testing, administration, and research. Keep dif
 
 Students review the chapter opener and the community health fair prompt. In a Think-Pair-Share, each pair names one booth, the Health Science worker who would staff it, and the information families would leave with.
 
-Treat FYF pp. 84-85 as the assigned district-customized HQIM snapshot. The current Singley Academy webpage separately lists **Nursing Science**, Physical Therapy, Dental, and Emergency Medical - EMT. Keep the source labels visible rather than presenting one list as a correction to the other. Do not promise that every student earns one of the workbook's related IBCs.
+Treat FYF pp. 84-85 as the assigned district-customized FYF workbook snapshot. The current Singley Academy webpage separately lists **Nursing Science**, Physical Therapy, Dental, and Emergency Medical - EMT. Keep the source labels visible rather than presenting one list as a correction to the other. Do not promise that every student earns one of the workbook's related IBCs.
 
 ## Activity 2: Four Roles, Four Scopes (15 min)
 

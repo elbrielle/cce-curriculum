@@ -503,6 +503,50 @@ def load_registry(path: Path, *, for_apply: bool) -> dict:
     }
 
 
+MANUAL_PRINTABLE_PDF_MAP = {
+    "1SW-Wk0-Day1": "/docs/resources/worksheets/cce-first-week-goal-setting.pdf",
+    "1SW-Wk0-Day2": "/docs/resources/worksheets/core-personality-reference.pdf",
+    "1SW-Wk0-Day3": "/docs/resources/worksheets/building-blocks-word-bank-bilingual.pdf",
+    "1SW-Wk0-Day4": "/docs/resources/worksheets/my-career-journey.pdf",
+    "1SW-Wk0-Day5": "/docs/resources/exit-tickets/1sw-wk0-day5-career-perks-neutrals-and-quirks-d1.pdf",
+    "1SW-Wk1-Day3": "/docs/resources/exit-tickets/1sw-wk1-day3-super-sports-manufacturing-design-build-test.pdf",
+    "1SW-Wk1-Day5": "/docs/resources/exit-tickets/1sw-wk1-day5-xello-matchmaker-and-career-match-reflection-self-directed-d.pdf",
+}
+
+
+def resolve_printable_target(route: dict) -> str:
+    """Resolve the authentic printable PDF target for a route, falling back to Google Doc export."""
+    if route.get("printable_pdf_url"):
+        return str(route["printable_pdf_url"])
+
+    if route.get("printable_canvas_file_id"):
+        course_id = (
+            route.get("canvas", {}).get("source_course", {}).get("course_id")
+            if isinstance(route.get("canvas"), dict)
+            and isinstance(route["canvas"].get("source_course"), dict)
+            else DEFAULT_COURSE_ID
+        )
+        return f"/courses/{course_id}/files/{route['printable_canvas_file_id']}/preview"
+
+    day_key = route.get("day_key")
+    if day_key and day_key in MANUAL_PRINTABLE_PDF_MAP:
+        return MANUAL_PRINTABLE_PDF_MAP[day_key]
+
+    source = route.get("source")
+    if isinstance(source, dict):
+        for ws in source.get("worksheet_sources", []):
+            if isinstance(ws, dict) and (
+                ws.get("is_response_route_candidate") or ws.get("pdf_path")
+            ):
+                return "/" + str(ws["pdf_path"]).lstrip("/")
+        for lps in source.get("linked_printable_sources", []):
+            if isinstance(lps, dict) and lps.get("path"):
+                return "/" + str(lps["path"]).lstrip("/")
+
+    google_doc = route.get("google_doc", {})
+    return str(google_doc.get("pdf_export_url", ""))
+
+
 def link_block(route: dict, role: str) -> str:
     """Render the exact student or teacher response-home panel."""
 
@@ -513,7 +557,7 @@ def link_block(route: dict, role: str) -> str:
         raise RegistryError(f"{route['day_key']} has no complete Google Doc route")
     title = html.escape(route["title"], quote=False)
     copy_url = html.escape(google_doc["copy_url"], quote=True)
-    pdf_url = html.escape(google_doc["pdf_export_url"], quote=True)
+    pdf_url = html.escape(resolve_printable_target(route), quote=True)
     if role == "teacher":
         return (
             f'<aside id="{BLOCK_ID}" '

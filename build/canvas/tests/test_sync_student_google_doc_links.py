@@ -110,6 +110,40 @@ class PanelTests(unittest.TestCase):
         self.assertIn("Doc_ABC-123/copy", panel)
         self.assertIn("Doc_ABC-123/export?format=pdf", panel)
 
+    def test_teacher_panel_prefers_authentic_printable_pdf(self) -> None:
+        route = sample_route()
+        route["printable_pdf_url"] = "https://learn.irvingisd.net/courses/98060/files/14518990/preview"
+        panel = sync.link_block(route, "teacher")
+        self.assertIn("14518990/preview", panel)
+        self.assertNotIn("Doc_ABC-123/export?format=pdf", panel)
+
+    def test_resolve_printable_target_hierarchy(self) -> None:
+        # 1. Fallback to export URL when nothing else is specified
+        self.assertEqual(
+            sync.resolve_printable_target(sample_route()),
+            "https://docs.google.com/document/d/Doc_ABC-123/export?format=pdf",
+        )
+        # 2. Prefer explicit printable_pdf_url
+        explicit = sample_route()
+        explicit["printable_pdf_url"] = "/custom.pdf"
+        self.assertEqual(sync.resolve_printable_target(explicit), "/custom.pdf")
+        # 3. Prefer manual printable map
+        day3 = sample_route()
+        day3["day_key"] = "1SW-Wk0-Day3"
+        self.assertEqual(
+            sync.resolve_printable_target(day3),
+            "/docs/resources/worksheets/building-blocks-word-bank-bilingual.pdf",
+        )
+        # 4. Prefer worksheet_sources
+        ws_route = sample_route()
+        ws_route["source"] = {
+            "worksheet_sources": [{"pdf_path": "docs/resources/worksheets/sample.pdf", "is_response_route_candidate": True}]
+        }
+        self.assertEqual(
+            sync.resolve_printable_target(ws_route),
+            "/docs/resources/worksheets/sample.pdf",
+        )
+
     def test_panels_use_canvas_sanitizer_stable_semantic_emphasis(self) -> None:
         for role in ("teacher", "student"):
             with self.subTest(role=role):

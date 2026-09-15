@@ -13,7 +13,7 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **District HQIM** | FYF pp. 34-35, `Powerskill: Work Ethic` |
+| **FYF workbook** | FYF pp. 34-35, `Powerskill: Work Ethic` |
 | **Major evidence** | Bootcamp plan and flyer prototype, first half of Major 2 |
 | **Equal routes** | Paper, Canva, or Adobe Express |
 

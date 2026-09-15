@@ -41,7 +41,7 @@ Students explore the Manufacturing career cluster through Hats & Ladders and the
 
 Modern manufacturing includes robots, computer-aided design, and CNC machines alongside assembly-line work. In DFW, employers range from Lockheed Martin and Toyota to mid-sized contract manufacturers.
 
-**What is Happening at Irving ISD?** The current Irving ISD CTE site names **Robotic Manufacturing** in Singley Academy's School of Innovative Technology. The district-customized FYF pages identify a student-run business, precision laser cutters, CNC machines, 3D printers, the FANUC Robot Operator 1 certification, SkillsUSA, and competition experiences (FYF pp. 210-211). Keep those details attributed to the workbook so students see the same program information in Canvas and in their HQIM. Enrollment at Singley uses the district application and lottery process.
+**What is Happening at Irving ISD?** The current Irving ISD CTE site names **Robotic Manufacturing** in Singley Academy's School of Innovative Technology. The district-customized FYF pages identify a student-run business, precision laser cutters, CNC machines, 3D printers, the FANUC Robot Operator 1 certification, SkillsUSA, and competition experiences (FYF pp. 210-211). Keep those details attributed to the workbook so students see the same program information in Canvas and in their *Find Your Future* workbook. Enrollment at Singley uses the district application and lottery process.
 
 ## Vocabulary
 

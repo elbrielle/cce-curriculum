@@ -29,7 +29,7 @@ I can explain how a user need changes a drone-system design, compare preparation
 ## Source and Claim Boundaries
 
 - FYF pp. 103-105 supply the Engineering opener and *Protecting Wildlife* design brief.
-- FYF pp. 108-109 are the district HQIM context for Engineering Design, Drone Engineering, postsecondary options, IBCs, CTSOs, and work-based learning. Keep the workbook names in student and teacher materials rather than introducing a competing pathway story during the lesson.
+- FYF pp. 108-109 are the district FYF workbook context for Engineering Design, Drone Engineering, postsecondary options, IBCs, CTSOs, and work-based learning. Keep the workbook names in student and teacher materials rather than introducing a competing pathway story during the lesson.
 - FYF p. 110 and H&L are optional cluster exploration. Live Hat names, ratings, salary, and pathway availability are not required evidence.
 - FAA guidance states that Part 107 does not apply to operations conducted only indoors. Outdoor educational flights still require the school to identify and satisfy the applicable operating rule. A K-12 program that is not a qualifying JROTC, higher-education, or FAA-recognized CBO-chartered program may need to operate under Part 107.
 - The FAA Remote Pilot Certificate is for Part 107 operations. Current eligibility includes age 16, English proficiency, safe physical/mental condition, the initial knowledge test, TSA vetting, and recurrent training every 24 calendar months. Do not publish a universal test fee or promise certification through the course.

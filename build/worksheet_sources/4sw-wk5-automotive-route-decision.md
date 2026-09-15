@@ -10,11 +10,11 @@ pages: 2
 orientation: landscape
 ---
 
-## 1. Connect the HQIM route to current logistics
+## 1. Connect the workbook route to current logistics
 
-FYF pp. 168-169 name **Automotive Technology**, **Collision Repair**, and **Diesel & Heavy Equipment Technology**. Use those HQIM program names. The current Irving High School CTE page confirms the broader **Automotive, Collision Repair and Diesel** offering at Cardwell, Irving, MacArthur, and Nimitz. Enrollment details still come from the current coursebook, counselor, or CTE program.
+FYF pp. 168-169 name **Automotive Technology**, **Collision Repair**, and **Diesel & Heavy Equipment Technology**. Use those workbook program names. The current Irving High School CTE page confirms the broader **Automotive, Collision Repair and Diesel** offering at Cardwell, Irving, MacArthur, and Nimitz. Enrollment details still come from the current coursebook, counselor, or CTE program.
 
-| Evidence job | What the HQIM or current district page supports | What still needs verification |
+| Evidence job | What the workbook or current district page supports | What still needs verification |
 |---|---|---|
 | Program or offering name |  |  |
 | Campus choices |  |  |
@@ -39,7 +39,7 @@ Compare the first three routes Dani should investigate:
 
 | Route | One supported fact | One advantage | One tradeoff or missing fact |
 |---|---|---|---|
-| Irving HQIM/current district route |  |  |  |
+| Irving workbook/current district route |  |  |  |
 | TCC public technical-college example |  |  |  |
 | Actual available Registered Apprenticeship |  |  |  |
 

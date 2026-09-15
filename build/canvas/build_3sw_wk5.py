@@ -21,8 +21,21 @@ STUDENT_GOOGLE_COPY_URLS = {
 }
 
 
+# One Google Doc per worksheet (build/google_docs/student_worksheet_docs.json).
+# Keyed by (day, anchor label) so a worksheet button never opens the day's exit ticket.
+STUDENT_WORKSHEET_COPY_URLS = {
+    (1, 'the three-page no-workbook concept brief'): "https://docs.google.com/document/d/1o6V9hWhD0eJWMfhc5Z3p3AqpFva3hHufqHLJ-5M8SwI/copy",
+    (2, 'the one-page SFX Build and Test Record'): "https://docs.google.com/document/d/10uohDgYrFrVkMMN8BFMDrJ9P9CxcyySPft60bpa7RRw/copy",
+    (3, 'the enlarged no-workbook quality sheet'): "https://docs.google.com/document/d/1fInQ9hz35nlT9qTSE-ri8Vhttmepg9Ry0OGKjENRELg/copy",
+    (3, 'the two-page Pathway Decision'): "https://docs.google.com/document/d/1LmpC2LJbtDjrf9Kysr5SFqqW5YqlYvVJ1A-gWdiXlnE/copy",
+    (4, 'the two-page Salon and Wellness Campaign Companion'): "https://docs.google.com/document/d/1F-4Gk9kPWyCMJJXf0tEsHYcIUG92_NIsHphd-NCynx8/copy",
+    (5, 'the recommendation'): "https://docs.google.com/document/d/1vDLiPTbqRKLVWCqMvtc_-1i7R_90bGANl3qxbkeP_l4/copy",
+}
+
+
 def student_copy_link(day, label):
-    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+    url = STUDENT_WORKSHEET_COPY_URLS.get((day, label), STUDENT_GOOGLE_COPY_URLS[day])
+    return f'<a href="{url}">{label}</a>'
 
 MODULE_NAME = "3SW Wk5: Style, Service, and Cosmetology Careers"
 QUIZ_TITLE = "PRACTICE: Texas Cosmetology License and Safety Check"
@@ -197,11 +210,12 @@ async def lock_folder_files(client, folder):
                 client, "PUT", f"/files/{entry['id']}", data={"locked": "true"}
             )
     final = await paged(client, f"/folders/{folder['id']}/files")
-    unlocked = [
-        entry.get("display_name") or entry.get("filename")
-        for entry in final
-        if not entry.get("locked")
-    ]
+    unlocked = []
+    for entry in final:
+        if not entry.get("locked"):
+            refreshed = await api(client, "GET", f"/files/{entry['id']}")
+            if not refreshed.get("locked"):
+                unlocked.append(entry.get("display_name") or entry.get("filename"))
     if unlocked:
         raise RuntimeError(f"Unlocked files remain in folder {folder['id']}: {unlocked}")
     return current
@@ -551,7 +565,7 @@ def step(number, title, body):
 
 
 def flow(color, title, text):
-    return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0;color:{color}">{title}</h4><p>{text}</p></div>'
+    return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0 0 6px;color:{color}">{title}</h4>{text}</div>'
 
 
 async def main():
@@ -690,7 +704,7 @@ async def main():
                 "TITLE": "Build and Test the SFX Texture Model",
                 "PURPOSE": "Turn the texture map into a layered model, then test and revise it safely.",
                 "TODAY": "<ul><li>build on an approved practice surface;</li><li>overlap at least three pieces or layers;</li><li>record a test and revision.</li></ul>",
-                "READY": f'<p>Open your FYF p. 129 concept map and {student_copy_link(2, "the one-page SFX Build and Test Record")}. Use the teacher-approved dry, digital, or optional campus-approved lab route.</p><p><strong>Safety boundary:</strong> no classroom material goes on a person, clothing, face, arm, hair, or skin.</p>',
+                "READY": f'<p>Open your workbook to FYF p. 130 and follow the DAY 2 steps there. Keep your p. 129 concept map beside you. Also open {student_copy_link(2, "the one-page SFX Build and Test Record")}. Use the teacher-approved dry, digital, or optional campus-approved lab route.</p><p><strong>Safety boundary:</strong> no classroom material goes on a person, clothing, face, arm, hair, or skin.</p>',
                 "MEDIA": image_tag(
                     visuals[2]["fyf-sfx-build.jpg"]["id"],
                     "Find Your Future SFX build sequence; classroom safety routes replace direct skin application",
@@ -758,7 +772,7 @@ async def main():
                 "TITLE": "Salon Entrepreneurship and Wellness Communication",
                 "PURPOSE": "Design a fictional beauty business and one useful, safe wellness campaign post.",
                 "TODAY": "<ul><li>define a business opportunity;</li><li>identify owner responsibilities;</li><li>create and revise one private campaign post.</li></ul>",
-                "READY": f'<p>Open your workbook to FYF pp. 132-133 and {student_copy_link(4, "the two-page Salon and Wellness Campaign Companion")}. Paper, Canva, and Adobe Express are equal.</p><p>Use a fictional business and customer. Do not create a real account or public post.</p>',
+                "READY": f'<p>Open your workbook to FYF p. 127 for the Human Services opener, then to FYF pp. 132-133. Also open {student_copy_link(4, "the two-page Salon and Wellness Campaign Companion")}. Paper, Canva, and Adobe Express are equal.</p><p>Use a fictional business and customer. Do not create a real account or public post.</p>',
                 "MEDIA": image_tag(
                     visuals[4]["fyf-stress-toolkit.jpg"]["id"],
                     "Find Your Future Stress Toolkit technique table",
@@ -840,17 +854,13 @@ async def main():
                 "PREP": f'<ul><li><strong>Default print count: 0.</strong> Students use FYF pp. 127-129. Print one copy of {file_link(files["CONCEPT"]["id"], "the three-page no-workbook concept brief")} only for each student without the workbook.</li><li>Place one index card per student for the individual career-task and transferable-skill exit check.</li><li>Project the licensed workbook pages and the supplied model below; no teacher-created sample is required.</li><li>Students work individually. Pairs are for oral rehearsal only.</li></ul>',
                 "MODEL": "<p><strong>Strong texture map:</strong> Main texture: cracked stone. Build route: dry paper relief. Labels: torn-cardboard base, overlapping paper cracks, darker center lines, smaller cracks spreading outward. <strong>Cluttered non-example:</strong> scales, fur, glitter, wrinkles, and cracks appear with no main texture. Ask: Which plan could a builder follow without asking the artist what to do?</p>",
                 "EVIDENCE": "<p>FYF pp. 128-129 research and concept card, three useful sketch labels, and the named index-card career-task and transferable-skill check. Formative.</p>",
-                "FLOW": flow("#5a2d91", "Warm-up · 5", "Notice visible texture clues.")
-                + flow(
-                    "#4a9d2f", "Human Services · 8", "Three careers and client needs."
-                )
-                + flow("#1f617a", "SFX research · 8", "Prosthetic, texture, layering.")
-                + flow(
-                    "#e3ad19",
-                    "Concept map · 22",
-                    "One main texture, materials, colors, labels.",
-                )
-                + flow("#1f617a", "Exit and reset · 7", "Collect the career-task check and return materials."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and visible texture clues warm-up", '''<p>Welcome students to Week 5 (Human Services &amp; Personal Care Services) and project the visual perception prompt.</p><ul><li>Ask students: <em>“When you see a movie character with realistic dragon scales, weathered alien skin, or ancient cracked stone texture, what makes your brain immediately believe the effect is real instead of just flat paint on a face?”</em></li><li>Collect 2-3 student observations: Three-dimensional physical relief, light and shadow depth, organic irregular cracking, and overlapping color gradients.</li><li>Bridge with, <em>“Special effects makeup and personal care artistry are deeply grounded in material science and client communication. Today we explore the Human Services cluster and design an SFX texture concept map on FYF pp. 128-129.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-13 - Human Services cluster overview and client needs", '''<p>Open FYF p. 127 and analyze the broad spectrum of Human Services careers:</p><ul><li>Examine core client-facing occupations: Hair Stylists, Estheticians/Skincare Specialists, Barbers, and Special Effects (SFX) Makeup Artists.</li><li>Emphasize the universal professional invariant: <strong>Every personal care professional begins by consulting directly with the client to assess physical skin/hair conditions, identify sensitivities, and establish clear service goals.</strong></li><li>Model one client-need statement: <em>“A cosmetologist does not just cut hair; they assess scalp health, recommend safe treatments, and adhere strictly to Texas state sanitation mandates.”</em></li></ul>''')
+                    + flow("#1f617a", "Minutes 13-21 - SFX material science and prosthetic layering principles", '''<p>Dissect the core technical vocabulary of SFX makeup application:</p><ul><li>1. <strong>Prosthetic Appliance:</strong> A three-dimensional sculpted appliance applied to skin to alter facial/body contours.</li><li>2. <strong>Structural Layering:</strong> Building relief from broad foundation shapes down to micro-fine surface textures.</li><li>3. <strong>Color Washes &amp; Shading:</strong> Using dark shadows in recessed crevices and light highlights on raised ridges to create optical depth.</li><li>Display the approved SFX style guide on the board.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 21-43 - Authoring the Concept Map &amp; Blueprint (FYF pp. 128-129)", '''<p>Students author their technical SFX Concept Map in FYF pp. 128-129:</p><ul><li>1. <strong>Select ONE Primary Texture Family:</strong> (e.g., Reptilian Scales, Cracked Desert Earth/Stone, Organic Bark/Flora, or Cybernetic Plating). Avoid the cluttered 'everything' trap!</li><li>2. <strong>Specify the Build Route:</strong> Dry paper relief modeling using cardstock, tissue paper, or cardboard.</li><li>3. <strong>Draft the Full-Page Blueprint:</strong> Sketch the texture with at least THREE functional technical callout labels (e.g., torn-cardboard base plate, overlapping paper scale relief, dark acrylic wash in recessed cracks).</li><li>4. <strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 28): Guide students with cluttered designs to circle ONE main texture and eliminate conflicting patterns.</li></ul>''')
+                    + flow("#1f617a", "Minutes 43-50 - Career check DOL and workspace reset", '''<p>Students complete the exit check on Canvas (or an index card):</p><ul><li>State ONE Human Services career, describe its primary client consultation duty, and name ONE transferable skill (e.g., active listening or manual precision) shared with SFX artistry.</li><li><strong>Safe Trim:</strong> Eliminate oral class share; fiercely protect the primary texture selection, 3-label blueprint, and career-check DOL.</li></ul>''')
+                ),
                 "MONITOR": "<p><strong>District response move:</strong> Stop and Jot one visible texture clue, then Turn and Talk before writing. <strong>Lap 1, minute 13:</strong> every student has three Human Services careers and one task or client need. If several students list appearance words instead of work, model one task: “A hair stylist consults with a client before cutting or styling.” <strong>Lap 2, minute 31:</strong> every plan has one main texture, a build route, and three useful labels. If designs become a pile of unrelated textures, have students circle one main texture and cross out extras. <strong>Safe trim:</strong> skip whole-group sharing. Protect the individual career-task check, labeled plan, collection, and reset.</p>",
                 "RESOURCES": "<p>Licensed FYF pp. 127-129 are embedded. H&amp;L p. 138 App Exploration is an optional extension, not required evidence.</p>",
                 "SUPPORT": "<p>Use the embedded FYF style guide as the visual bank, narrow the choice to two texture families, and allow oral rehearsal. FYF p. 129 provides the main sketch area; the alternate brief uses its third page for the full-size map when the workbook is unavailable.</p>",
@@ -863,21 +873,13 @@ async def main():
                 "PREP": f'<ul><li>Print one {file_link(files["BUILD_RECORD"]["id"], "one-page SFX Build and Test Record")} per student and provide one cardstock board per dry-route student.</li><li>Per student: at least three teacher-approved dry layer pieces. Per pair: one scissors and one tape roll. Per table of four: one supply tray and one return bin. Per digital-route student: one device.</li><li>Assign one materials manager and one cleanup checker per table. Test the optional digital route before class.</li><li>Do not require food, seeds, pasta, salt, latex, or eyelash glue.</li></ul>',
                 "MODEL": "<p><strong>Build/test record example:</strong> “The torn-paper cracks stayed readable from three feet away. One top strip flattened and hid the center line. I trimmed the strip and moved it outward. An SFX artist records that change so the next build repeats what worked and avoids the same failure.”</p>",
                 "EVIDENCE": "<p>Approved-surface model, three overlapping layers, one-page test record, one revision, and the career documentation connection. Formative.</p>",
-                "FLOW": flow(
-                    "#5a2d91", "Warm-up · 5", "Name the three essential layers."
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Safety and demo · 8",
-                    "Surface, order, overlap, test, cleanup.",
-                )
-                + flow("#1f617a", "Build · 22", "Structure first, then detail.")
-                + flow(
-                    "#e3ad19",
-                    "Test, revise, and clean · 10",
-                    "View from three feet, record evidence, return tools and loose materials.",
-                )
-                + flow("#1f617a", "Exit · 5", "Fix the missing main texture."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and three essential layers warm-up", '''<p>Welcome students, seat them with their materials managers, and project the fabrication launch prompt.</p><ul><li>Ask students: <em>“In physical prop making and special effects prosthetic modeling, what are the three essential physical layers required to build a convincing textured appliance?”</em></li><li>Collect 2-3 student thoughts: (1) Rigid/flexible base plate (foundation), (2) Primary geometric relief structures (macro-shape), and (3) Micro-detail surface finish (texture and shading).</li><li>Bridge with, <em>“Today we build physical 3D prototype models of our Day 1 texture concepts using approved safe dry materials and conduct an objective readability test.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-13 - Safety protocols, clean demo, and table role distribution", '''<p>Enforce strict laboratory safety and material distribution protocols:</p><ul><li>Distribute supply trays containing approved dry materials (heavy cardstock base boards, corrugated cardboard strips, tissue paper, safe scissors, and masking tape).</li><li>Assign table roles: Materials Manager (fetches supplies) and Cleanup Checker (inspects floor and tray return).</li><li>Campus Safety Gate: No chemical adhesives, liquid latex, spirit gum, or food products. Work is constructed exclusively on cardstock backing boards—NEVER directly on human skin!</li><li>Demonstrate structural overlap: Show how overlapping paper shingles create organic reptilian scales without excessive tape.</li></ul>''')
+                    + flow("#1f617a", "Minutes 13-35 - Hands-on prototype construction sprint (Dry or Digital Route)", '''<p>Students construct their physical 3D texture appliance on their base board:</p><ul><li>Phase 1 (Base &amp; Primary Structure - 10 min): Cut and secure the primary geometric relief shapes onto the backing board.</li><li>Phase 2 (Layering &amp; Overlap - 12 min): Apply at least THREE distinct overlapping physical layers to create measurable three-dimensional depth.</li><li>Digital Route Alternate: Students using Canva/Adobe build vector relief layers with shadow/highlight opacity stacks.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 22): Ensure students build the underlying structural shapes first before adding tiny decorative paper scraps.<br>• Lap 2 (Minute 30): Verify every physical model features at least 3 distinct overlapping layers.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 35-45 - Three-foot readability test, revision log &amp; clean-up", '''<p>Students execute the Three-Foot Readability Usability Test:</p><ul><li>Stand the model upright and view it from exactly three feet away (standard camera/stage distance).</li><li>Evaluate: Does the primary texture remain immediately recognizable, or do layers flatten out into a blurry mass?</li><li>Students document their findings on the One-Page Build &amp; Test Record: (1) Observed strength, (2) One structural flaw or failure, and (3) ONE concrete physical modification executed to fix the flaw.</li><li>Execute Table Cleanup: Materials Managers return tool trays; Cleanup Checkers verify zero scraps on the floor.</li></ul>''')
+                    + flow("#1f617a", "Minutes 45-50 - Submit test record and workspace inspection", '''<p>Collect completed Build &amp; Test Records and inspect workstations.</p><ul><li><strong>Safe Trim:</strong> Omit artistic coloring; fiercely protect the 3-layer structural build, 3-foot readability test, documented revision, and full room cleanup.</li></ul>''')
+                ),
                 "MONITOR": "<p><strong>District response move:</strong> students point to the three essential layers before building. <strong>Lap 1, minute 18:</strong> the main structure is visible and the approved surface is clear. If several students begin with small decoration, pause and rebuild one large-to-small sequence. <strong>Lap 2, minute 31:</strong> three layers overlap and students have begun the test record. If a model fails, keep it as evidence and move directly to cause and revision. <strong>Minute 45 target:</strong> tools and loose materials are in the return bin and the record is collected. <strong>Safe trim:</strong> remove extra detail. Protect one test, one revision, the career connection, and cleanup.</p>",
                 "RESOURCES": "<p>Licensed FYF p. 130 is embedded as source context. The Canvas directions set the classroom safety route.</p>",
                 "SUPPORT": "<p>Use pre-cut dry materials, two route cards, speech-to-text, and a digital mockup. All writing jobs have separate lines.</p>",
@@ -890,25 +892,13 @@ async def main():
                 "PREP": f'<ul><li>Print one double-sided {file_link(files["PATHWAY"]["id"], "two-page pathway decision")} per student. Students use FYF p. 131 for the quality check.</li><li>Post {file_link(files["EVIDENCE"]["id"], "the dated evidence guide")} digitally; print one copy per pair only when devices are unavailable.</li><li>Keep {file_link(files["QUALITY"]["id"], "the enlarged no-workbook quality sheet")} as an alternate route only; print one per student without the workbook, not a class set.</li><li>The practice Quiz is optional after the core pathway decision or during recovery; it is not part of the default 50 minutes.</li></ul>',
                 "MODEL": "<p><strong>Pathway model:</strong> “I recommend the Irving ISD high-school setting because the current district page confirms a Cosmetology program, and the state still requires the 1,000-hour licensed-school route. Before enrolling, Alex needs to ask the counselor which campus, schedule, transportation, and hours apply.” Point out the verified fact, the recommendation, and the unanswered local question.</p>",
                 "EVIDENCE": "<p>FYF p. 131 quality check, complete two-setting comparison, one verified fact, one unanswered local question, and ordered license steps. Formative.</p>",
-                "FLOW": flow(
-                    "#5a2d91", "Warm-up · 5", "What held and what needs rebuilding?"
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Quality and revision · 10",
-                    "Three criteria and labeled redesign.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Read evidence · 13",
-                    "Mark the current Texas and district facts.",
-                )
-                + flow(
-                    "#e3ad19",
-                    "Pathway decision · 15",
-                    "Compare settings; do not invent unknowns.",
-                )
-                + flow("#1f617a", "Exit and collect · 7", "Shared requirement, local question, packet check."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and prototype evaluation warm-up", '''<p>Welcome students, seat them with FYF p. 131, and project the quality assurance prompt.</p><ul><li>Ask students: <em>“Look back at your Day 2 texture model. What held up perfectly under testing, what began to peel or sag, and what exact engineering revision would you make to rebuild it for a feature film set?”</em></li><li>Collect 2-3 student thoughts. Explain how technical quality assurance in personal care services mirrors industrial manufacturing: testing reveals material limits before client delivery.</li><li>Bridge with, <em>“Quality standards require verified credentials. Today we analyze real Texas Department of Licensing and Regulation (TDLR) operator requirements and compare high school vs. private postsecondary cosmetology routes.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-15 - FYF p. 131 quality audit &amp; engineering revision", '''<p>Students complete the quality check on FYF p. 131:</p><ul><li>Audit their Day 2 build across three criteria: Structural Durability, Textural Depth, and Visual Readability.</li><li>Draft a labeled redesign sketch on FYF p. 131 incorporating at least two material or structural improvements.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 10): Ensure students document the underlying physical cause of prototype flaws rather than just saying 'it looked bad.'</li></ul>''')
+                    + flow("#1f617a", "Minutes 15-28 - Texas TDLR Cosmetologist Operator requirements audit", '''<p>Display the Texas Cosmetology Evidence Guide and examine current state licensure mandates:</p><ul><li>1. <strong>Mandatory Course Hours:</strong> 1,000 clock hours at an accredited licensed cosmetology school.</li><li>2. <strong>Testing Benchmarks:</strong> Written state exam eligibility at 900 verified hours; Practical hands-on state exam eligibility upon completion of 1,000 hours.</li><li>3. <strong>State Licensing Qualifications:</strong> Minimum age 17, high school diploma or equivalent (or enrolled in high school program), $50 application fee, two-year renewable operator license.</li><li>4. <strong>Legal Boundary:</strong> In Texas, an informal salon apprenticeship is NOT a legal pathway to a cosmetologist operator license.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 28-43 - High School CTE vs. Private Beauty Academy pathway decision", '''<p>Students complete the Two-Setting Pathway Comparison on their Evidence Sheet:</p><ul><li>Column 1: <strong>Irving ISD High School CTE Cosmetology Program</strong> (available at Cardwell Career Prep, Irving High, MacArthur High, and Nimitz High). Tuition is tuition-free during high school; hours count toward the 1,000-hour state requirement.</li><li>Column 2: <strong>Private Postsecondary Beauty Academy</strong> (requires $12,000-$20,000 private tuition/loans; completed post-graduation).</li><li>Identify ONE critical unanswered question a student must verify with their Irving ISD campus counselor (e.g., bell schedule adjustments, transportation between home campus and CTE facilities, student kit fees).</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 2 (Minute 36): Intervene if students guess costs or transport; require them to label unknowns as 'Ask Counselor.'</li></ul>''')
+                    + flow("#1f617a", "Minutes 43-50 - Submit pathway comparison and workspace reset", '''<p>Collect pathway comparison sheets and FYF work.</p><ul><li><strong>Safe Trim:</strong> Skip optional practice quiz; fiercely protect the FYF p. 131 quality check, 1,000-hour TDLR facts, and two-setting comparison with counselor question.</li></ul>''')
+                ),
                 "MONITOR": "<p><strong>District response move:</strong> students box one fixed state requirement and circle one local unknown before discussion. <strong>Lap 1, minute 17:</strong> FYF p. 131 has a visible success, problem cause, and improvement plan. <strong>Lap 2, minute 31:</strong> both route columns separate verified facts from questions. If students invent cost, completion time, or transportation, label the cell <em>unknown—ask</em> and use the supplied model. <strong>Key:</strong> 1,000-hour course at a licensed school; written exam eligibility after 900 reported hours; practical after 1,000 hours and the written exam; age 17; $50 application; two-year license. Current district page lists Cardwell, Irving, MacArthur, and Nimitz. <strong>Safe trim:</strong> omit the optional Quiz or extended route discussion. Protect the two-setting comparison, ordered license steps, exit, and collection.</p>",
                 "RESOURCES": '<p><a href="https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-cosmetologist.htm">Current TDLR operator requirements</a> · <a href="https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte">Current Irving ISD High School CTE</a> · <a href="https://www.bls.gov/ooh/personal-care-and-service/barbers-hairstylists-and-cosmetologists.htm">BLS occupation profile</a></p>',
                 "SUPPORT": "<p>Read one section at a time, pre-highlight labels, and allow oral rehearsal. The recommendation gets six full-width lines and the enrollment questions have separate fields.</p>",
@@ -921,25 +911,13 @@ async def main():
                 "PREP": f'<ul><li>Print one double-sided {file_link(files["CAMPAIGN"]["id"], "two-page Salon and Wellness Campaign Companion")} per student. Students use FYF pp. 132-133 for the post series.</li><li>Project the licensed workbook pages and the supplied safe/unsafe model below; no teacher-created sample is required.</li><li>Paper is the default. Provide one device per student only for the optional Canva or Adobe Express route. Students work individually; a partner, teacher, or private self-check is equal.</li></ul>',
                 "MODEL": "<p><strong>Safe fictional model:</strong> “Pause Studio: Try a short breathing break. Breathe in slowly, then breathe out slowly. This may help you pause and refocus. If stress feels hard to manage, talk with a trusted adult or professional.” <strong>Unsafe non-example:</strong> “Our method cures anxiety in 30 seconds.” Ask students to identify the guarantee and medical claim, then rewrite it as general wellness information.</p>",
                 "EVIDENCE": "<p>Business concept, customer-experience map, FYF p. 133 three-post series, safety check, one revision, and the entrepreneurship connection. Formative.</p>",
-                "FLOW": flow(
-                    "#5a2d91", "Warm-up · 5", "Service plus owner responsibility."
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Define the business · 10",
-                    "Customer, difference, skill, service map.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Read the toolkit · 6",
-                    "Choose three different techniques.",
-                )
-                + flow(
-                    "#e3ad19",
-                    "Create, check, and revise · 22",
-                    "One polished post, two rough plans, revision.",
-                )
-                + flow("#1f617a", "Exit, collect, and reset · 7", "Trust without medical advice."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and salon business responsibility warm-up", '''<p>Welcome students, seat them with FYF pp. 132-133, and project the entrepreneurship prompt.</p><ul><li>Ask students: <em>“Opening an independent hair salon or personal care studio requires far more than cutting hair. What are the legal, financial, and safety responsibilities an owner must manage every single day?”</em></li><li>Collect 2-3 student thoughts: State health sanitation logs, autoclave/disinfection protocols, chemical inventory safety (SDS), commercial lease payments, and client privacy.</li><li>Bridge with, <em>“Entrepreneurs build client trust through professional ethics. Today we plan a responsible 3-part salon wellness campaign on FYF pp. 132-133 that supports client stress management without making illegal medical claims.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-15 - Modeling safe wellness communication vs. illegal medical claims", '''<p>Display the comparative communication model on the board:</p><ul><li><strong>Safe Fictional Model:</strong> <em>“Pause Studio: Take a 60-second breathing reset. Slow, deep breaths can help release shoulder tension and restore mental focus. Remember: general relaxation practices complement your wellness routine. If chronic anxiety affects your daily life, speak with a licensed healthcare professional.”</em></li><li><strong>Unsafe Non-Example:</strong> <em>“Our specialized lavender scalp massage permanently cures migraine headaches and eliminates clinical depression in 30 minutes!”</em></li><li>Analyze why the non-example is dangerous and legally fraudulent: Cosmetologists are personal care operators, NOT physicians or psychologists. It is illegal to diagnose, treat, or guarantee medical cures.</li></ul>''')
+                    + flow("#1f617a", "Minutes 15-21 - FYF p. 132 Stress Management Toolkit analysis", '''<p>Review the three approved stress-reduction techniques on FYF p. 132:</p><ul><li>Technique 1: Controlled Diaphragmatic Breathing (rhythmic inhale/exhale).</li><li>Technique 2: Progressive Muscle Relaxation &amp; Ergonomic Posture Resets.</li><li>Technique 3: Mindfulness, Sensory Grounding, and Screen-Free Pauses.</li><li>Students select all three techniques to feature across a coordinated three-part social media client education series.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 21-43 - Drafting the three-post campaign &amp; safety review (FYF p. 133)", '''<p>Students construct their wellness series on FYF p. 133 and the Companion Sheet:</p><ul><li>Post 1 (Polished Visual Build): Fully illustrated post featuring a professional wellness headline, graphic icon, actionable 2-step relaxation tip, and professional medical disclaimer.</li><li>Post 2 &amp; 3 (Strategic Rough Blueprints): Outlines detailing technique focus, client benefit, and call to action.</li><li>Safety Audit: Review all copy against the prohibition on medical advice, guarantees, or diagnostic claims.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 28): Inspect headlines and body text; delete any claims that promise to 'cure' or 'treat' medical conditions.</li></ul>''')
+                    + flow("#1f617a", "Minutes 43-50 - Submit campaign companion and workspace reset", '''<p>Verify FYF p. 133 completion and collect companion sheets.</p><ul><li><strong>Safe Trim:</strong> Use independent self-check instead of peer exchange; fiercely protect the 1 polished post, 2 rough outlines, legal medical disclaimer, and workspace reset.</li></ul>''')
+                ),
                 "MONITOR": "<p><strong>District response move:</strong> students classify the supplied pair as safe or unsafe, then defend the choice with one phrase from the post. <strong>Lap 1, minute 13:</strong> the business concept names a service, fictional customer, meaningful difference, and owner responsibility. If students describe only a logo or color, ask what the owner must do for the customer. <strong>Lap 2, minute 31:</strong> one polished post and two rough plans use three different workbook techniques. If several posts promise a cure or guaranteed result, pause for the supplied rewrite. Reject real handles, names, locations, contact details, diagnoses, and treatment language. <strong>Safe trim:</strong> replace partner review with the private self-check. Protect one polished post, two rough plans, safety revision, entrepreneurship connection, and collection.</p>",
                 "RESOURCES": "<p>Licensed FYF pp. 132-133 are embedded. Canva and Adobe Express are optional approved production tools.</p>",
                 "SUPPORT": "<p><strong>Fictional customer choices:</strong> a student preparing for a performance, or an adult client with a busy workday. <strong>Headline choices:</strong> Pause and Breathe, One-Minute Reset, or Make Space to Refocus. The supplied strong/unsafe model pair supports the safety check. FYF p. 133 provides three large post frames; the companion gives each missing evidence job its own field.</p>",
@@ -952,22 +930,12 @@ async def main():
                 "PREP": f'<ul><li>Print one double-sided {file_link(files["RECOMMENDATION"]["id"], "recommendation")} per paper-route student. Post {file_link(files["RUBRIC"]["id"], "the rubric")} and {file_link(files["EVIDENCE"]["id"], "the evidence guide")} digitally; print one set per student only for a no-device route.</li><li>Open the private unpublished Assignment and provide one device per Canvas-route student. Each student submits one recommendation; no partner artifact or platform screenshot is required.</li></ul>',
                 "MODEL": "<p><strong>Seven-sentence model:</strong> “I recommend Hair Stylist because Jordan wants creative, client-facing work. A hair stylist consults with clients and cuts or styles hair. In Texas, the operator route requires 1,000 hours at a licensed school and written and practical exams. Jordan's next verified step is to ask the Irving ISD counselor which campus and schedule apply. A related business opportunity is a salon, but the owner must manage sanitation, records, and client communication. One trade-off is that salon schedules may include evenings or weekends. The SFX texture map shows the same planning skill because the artist turns a client or production goal into a labeled design.”</p>",
                 "EVIDENCE": "<p>Individual 6-8 sentence recommendation plus one design-to-career connection and rubric revision.</p>",
-                "FLOW": flow(
-                    "#5a2d91", "Warm-up · 5", "Rank Jordan's decision factors."
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Audit · 8",
-                    "Task, Texas fact, next step, opportunity, trade-off.",
-                )
-                + flow("#1f617a", "Plan · 8", "Five separate evidence jobs.")
-                + flow(
-                    "#e3ad19",
-                    "Write and connect · 22",
-                    "Recommendation plus transferable skill.",
-                )
-                + flow(
-                    "#1f617a", "Self-score and submit · 7", "Revise one weak criterion."
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and career decision factors warm-up", '''<p>Welcome students, seat them with their weekly materials, and project the final decision prompt.</p><ul><li>Project the scenario prompt for Jordan, an 8th-grade student interested in creative personal care work: <em>“Jordan loves hands-on beauty techniques, client interaction, and aspires to open a community salon, but worries about long physical hours and licensing exams. How should Jordan map this pathway?”</em></li><li>Discuss factors: Immediate high school CTE opportunity vs. long-term physical demands on feet and hands.</li><li>Frame today's assessment: Students author their 16-point Minor 3 Evidence Packet: Cosmetology Career and Business Recommendation.</li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-13 - Comprehensive Week 5 evidence audit across all five criteria", '''<p>Display the Texas Cosmetology Evidence Guide and verify five required evidence components:</p><ul><li>1. <strong>Career Title &amp; Duty:</strong> State the occupation (Hair Stylist, Esthetician, Barber, or SFX Artist) and cite one concrete client task.</li><li>2. <strong>Texas TDLR Mandate:</strong> Must cite the 1,000-hour requirement at a licensed school and both written/practical exams.</li><li>3. <strong>Immediate District Action:</strong> Must specify consulting an Irving ISD counselor regarding high school CTE cosmetology options at Cardwell, Irving, MacArthur, or Nimitz High School.</li><li>4. <strong>Entrepreneurial Opportunity &amp; Responsibility:</strong> Propose an authentic small business and describe daily owner responsibilities (sanitation logs, inventory, client safety).</li><li>5. <strong>Authentic Trade-Off:</strong> Document a realistic industry reality (e.g., physical stamina standing for hours, chemical fume exposure, evening/weekend shift work).</li></ul>''')
+                    + flow("#1f617a", "Minutes 13-35 - Authoring the formal 6-8 sentence recommendation (Minor 3)", '''<p>Students independently draft their 6-8 sentence recommendation on their Evidence Sheet:</p><ul><li>Sentence 1: Recommend ONE personal care career for Jordan with clear rationale.</li><li>Sentence 2: Detail ONE primary client consultation or service task.</li><li>Sentence 3: Document the verified Texas TDLR licensing facts (1,000 clock hours, written &amp; practical exams).</li><li>Sentence 4: Identify Jordan's immediate next high school action step with the Irving ISD counselor.</li><li>Sentence 5: Propose an entrepreneurial salon venture and describe key owner responsibilities.</li><li>Sentence 6: Articulate ONE authentic industry trade-off.</li><li>Sentence 7-8: Connect the manual planning and prototyping skills from the SFX lab directly to salon client service planning.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 20): Check that students cite the exact 1,000-hour requirement and Irving ISD high schools.<br>• Lap 2 (Minute 28): Confirm students separate the transferable-skill connection into its own sentence.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 35-45 - Four-criterion rubric self-audit and revision", '''<p>Students evaluate their recommendation against the 16-point rubric across four criteria (4 pts each):</p><ul><li>1. Career Task and Service Accuracy.</li><li>2. Texas TDLR State Licensing &amp; District CTE Grounding.</li><li>3. Entrepreneurial Responsibility &amp; Trade-Off Analysis.</li><li>4. Design-to-Career Transferable Skill Connection.</li><li>Students revise any section scoring below 4 points before final submission.</li></ul>''')
+                    + flow("#1f617a", "Minutes 45-50 - Submit Minor 3 Packet and workspace close", '''<p>Students submit their completed 2-page Recommendation in Canvas or hand in paper packets.</p><ul><li>Congratulate students on completing Week 5 of Career and Community Explorations!</li><li><strong>Safe Trim:</strong> Conduct focused teacher check on a single rubric criterion instead of oral share-out; protect the 6-8 sentence recommendation, rubric self-audit, and clean submission.</li></ul>''')
                 ),
                 "MONITOR": "<p><strong>District response move:</strong> students point to the five numbered evidence jobs before drafting. <strong>Lap 1, minute 17:</strong> all five planning fields contain labeled evidence, not unsupported opinions. If several students omit the Texas fact or next step, return to the evidence guide and model one sentence without giving a recommendation choice. <strong>Lap 2, minute 34:</strong> the draft includes career task, Texas fact, next step, opportunity/responsibility, and trade-off; the design connection remains separate. Any Human Services career may earn full credit. Evidence-profile bands: 15-16 Masters, 13-14 Meets, 12 Approaches, 10-11 Needs Improvement; 0-9 follows campus policy. Convert the 16-point profile to the 100-point Canvas score. <strong>Safe trim:</strong> skip warm-up sharing. Protect the rubric self-check, revision, private submission, and reset.</p>",
                 "RESOURCES": "<p>The current district context is embedded. eDynamic 4.2 and H&amp;L favorites are supplemental extensions only.</p>",

@@ -12,7 +12,7 @@
 | | |
 |---|---|
 | **Time** | 50 minutes |
-| **Objectives** | Plan a cybersecurity team's bounce-back after a failed test; compare three IT careers while keeping HQIM local figures and external national figures separately labeled; complete the IT Salary Comparison worksheet |
+| **Objectives** | Plan a cybersecurity team's bounce-back after a failed test; compare three IT careers while keeping the local app figures and external national figures separately labeled; complete the IT Salary Comparison worksheet |
 | **TEKS** | d(1)(C), d(5)(A), d(5)(E) |
 | **5E Phases** | Engage: Warm-Up · Explore: Flip the Failure chart and the BLS salary comparison · Explain: Share and Compare partner talk · Evaluate: Exit Ticket |
 | **Deliverable** | Four-row Flip the Failure chart, four BLS fields added to each Day 2 career record, and the page 4 comparison |
@@ -63,11 +63,11 @@ Keep the language support beside the chart: **update, assign, test, alert, pause
 
 ## Activity 2: BLS Cross-Reference + Salary Comparison Worksheet (22 min)
 
-**Sources:** Hats & Ladders or Xello for the district-adopted localized HQIM figure; BLS for a separately labeled national cross-check
+**Sources:** Hats & Ladders or Xello (the district-localized app figure); BLS for a separately labeled national cross-check
 
 Open with a 60-second prediction before anyone touches a Chromebook: do all programming jobs pay the same, and which one might pay the most? Students record the prediction in the page 4 margin and check it after the cross-check.
 
-Students keep the same three careers they chose on Day 2. The **HQIM localized salary** evidence should already be complete. Today they add the BLS national cross-check without replacing or recopying the HQIM section.
+Students keep the same three careers they chose on Day 2. The **App salary (Hats & Ladders or Xello, local figure)** evidence should already be complete. Today they add the BLS national cross-check without replacing or recopying the app section.
 
 Direct students to the BLS pages for their 3 chosen careers:
 
@@ -106,7 +106,7 @@ Page 4 carries the comparison and prediction check. Do not add jobs/openings, em
 
 Page 4 of the salary packet is the default DOL. Students use two comparable facts to make one career recommendation and preserve the source labels.
 
-Keep these words beside the response: **localized, national, range, median, outlook, percentage, source**. A complete frame is: "I choose _____ because BLS shows _____% growth from _____ to _____. The HQIM shows _____ as a _____ for _____, so I kept the two measures separate."
+Keep these words beside the response: **localized, national, range, median, outlook, percentage, source**. A complete frame is: "I choose _____ because BLS shows _____% growth from _____ to _____. The app shows _____ as a _____ for _____, so I kept the two measures separate."
 
 Use the separate matrix below only when it gives the teacher useful additional evidence. Do not require both routes by default.
 
@@ -130,7 +130,7 @@ Students turn the five-page packet into the class tray or named digital folder. 
 
 ## Access and Recovery
 
-- **Absent today:** Use the embedded failed-test images, the Day 2 HQIM records, and the fixed career card inside the BLS guide to complete the same four-row chart and pages 1-4. Do not assign a replacement worksheet.
+- **Absent today:** Use the embedded failed-test images, the Day 2 app records, and the fixed career card inside the BLS guide to complete the same four-row chart and pages 1-4. Do not assign a replacement worksheet.
 - **Live source unavailable:** Use the fixed career card in the BLS guide and keep the source/date visible. The evidence job does not change.
 - **Day 2 packet also missing:** Give the student the career model and supervised catch-up route. The student should not invent a salary, preparation requirement, or outlook figure.
 

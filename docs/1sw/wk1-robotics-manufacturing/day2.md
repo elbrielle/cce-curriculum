@@ -81,7 +81,7 @@ Pass out the printed career research worksheet. This is the same six-field forma
 - **Average Salary**
 - **What Tools, Equipment, or Skills are Needed for This Career?**
 
-> [H&L PLATFORM] Students open the Hats & Ladders app, go to Clusters, click the Manufacturing Cluster, and use the Hat Finder to return to a Hat that caught their attention on Day 1. They pull each worksheet field directly from that Hat's profile. If they compare it with BLS or CareerOneStop, they keep the sources separate: record the H&L career, geography, salary measure, and date viewed, then label the external figure with its own geography, measure, and date. A different national figure does not replace the district HQIM figure.
+> [H&L PLATFORM] Students open the Hats & Ladders app, go to Clusters, click the Manufacturing Cluster, and use the Hat Finder to return to a Hat that caught their attention on Day 1. They pull each worksheet field directly from that Hat's profile. If they compare it with BLS or CareerOneStop, they keep the sources separate: record the H&L career, geography, salary measure, and date viewed, then label the external figure with its own geography, measure, and date. A different national figure does not replace the Hats & Ladders figure.
 
 Walk the room. Confirm every student has a chosen Hat before they start writing. Stop students who pick the same Hat as their neighbor and challenge them to pick something different to broaden the class's exposure.
 

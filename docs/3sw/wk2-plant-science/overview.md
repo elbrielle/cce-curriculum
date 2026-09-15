@@ -59,7 +59,7 @@ The Canvas Major assignment is already configured in the 60% Major group at 100 
 
 - Career pay is May 2024 **U.S. median**, not starting or DFW-local pay.
 - An emerging specialty may use a broader BLS parent occupation. Students must keep that limitation visible.
-- The *Find Your Future* workbook and aligned H&L materials are the student-facing HQIM. Use their Plant Science program names and activity details as written so Canvas does not contradict the materials in students' hands.
+- The *Find Your Future* workbook and aligned H&L materials are the student-facing instructional materials. Use their Plant Science program names and activity details as written so Canvas does not contradict the materials in students' hands.
 - Current district and labor-market pages are teacher cross-checks. Label them by source, measure, and date; do not silently use them to rewrite the student-facing curriculum.
 - Sunny Fields Farm is fictional. Students do not add real contact information or convert scenario facts into claims about a real business.
 

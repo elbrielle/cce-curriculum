@@ -60,7 +60,7 @@ One limitation of the national evidence:
 
 ## 3. Preparation-route decision
 
-First route I would investigate: [ ] Irving HQIM/current district route [ ] TCC example [ ] Registered Apprenticeship [ ] employer/OJT
+First route I would investigate: [ ] Irving workbook/current district route [ ] TCC example [ ] Registered Apprenticeship [ ] employer/OJT
 
 One advantage:
 

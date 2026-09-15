@@ -47,7 +47,7 @@ Students submit the polished paper (digital or paper). This is the summative ass
 
 Students name one legal career they want to investigate, or state that none is a current fit, and cite one job detail. If H&L is available, students may use Pathway Possibilities and favorite careers. The platform action is supplemental and is not graded.
 
-Name where this goes next. The careers students investigate become options they can revisit during the Capstone, where they choose one career goal and explain why (FYF p. 283: "Rung 2: Career Goal"). The workbook's district page also introduces dual-credit options connected to Legal Studies (FYF p. 56). Present those program details as the district HQIM snapshot and direct students to a counselor for current enrollment requirements.
+Name where this goes next. The careers students investigate become options they can revisit during the Capstone, where they choose one career goal and explain why (FYF p. 283: "Rung 2: Career Goal"). The workbook's district page also introduces dual-credit options connected to Legal Studies (FYF p. 56). Present those program details as the district snapshot printed in the FYF workbook and direct students to a counselor for current enrollment requirements.
 
 Circulate and ask each student, "Which legal career did you favorite, and why?" Check that the answer names a specific job detail rather than only "it sounds cool."
 

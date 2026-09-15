@@ -14,7 +14,7 @@ orientation: landscape
 
 Firm name: ________________________ Concept: ________________________
 
-Two city goals selected from the licensed brief:
+Two city goals selected from the brief:
 
 1. ______________________________________________________
 

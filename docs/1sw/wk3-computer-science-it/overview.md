@@ -39,7 +39,7 @@ Students continue exploring the IT cluster through the *Find Your Future* workbo
 
 School Wi-Fi, bank apps, and text messages all rely on networks designed and maintained by Network Engineers, Network Architects, and Systems Analysts. Web developers build the sites and web applications those networks carry.
 
-**Irving ISD connection:** FYF pp. 36-37 carry the district-customized Information Technology program snapshot. Treat that workbook language as the student-facing HQIM. If a current public district page uses a different label, record the difference for coordinator review rather than replacing the workbook wording inside this week's student tasks.
+**Irving ISD connection:** FYF pp. 36-37 carry the district-customized Information Technology program snapshot. Treat that workbook language as the student-facing answer. If a current public district page uses a different label, record the difference for coordinator review rather than replacing the workbook wording inside this week's student tasks.
 
 ## Vocabulary
 
@@ -60,7 +60,7 @@ The *Find Your Future* workbook gives Information Technology printed pages 23-38
 - **Website Revamp** (Day 2): Career Climb activity. Students are a UX Designer hired by a company whose website is so confusing that customers leave before they buy anything. They learn what good and bad UX look like, investigate a practice site the teacher projects, list at least 3 things that work and at least 5 problems, pick 3 problems and write a fix plus a user benefit for each, then sketch a better version of one page (FYF pp. 28-29: "Website Revamp"). The site students audit is named on the teacher's Climber Notes deck (Climber Notes: "Website Revamp", slide 2).
 - **From Wireframe to Wow** (Day 3): Career Climb activity. Students step into the shoes of an app designer at a company building a brand new app. They choose one of three app briefs (Food Connection, Stress-Less, Passion Project), name the app and its target user, list 2-3 features, wireframe four screens (Home, Main Menu, Action, Success), trade designs with a partner for a walkthrough test, then make at least 2 improvements (FYF pp. 30-33: "From Wireframe to Wow").
 
-The chapter does not print a networking pathway list. Day 1 therefore uses a CCE-authored, BLS-grounded four-career card set as the complete evidence route. FYF p. 38 still provides the district HQIM launch into the H&L Information Technology cluster, but H&L browsing, ratings, and exact live titles remain supplemental rather than graded state.
+The chapter does not print a networking pathway list. Day 1 therefore uses a CCE-authored, BLS-grounded four-career card set as the complete evidence route. FYF p. 38 still provides the workbook launch into the H&L Information Technology cluster, but H&L browsing, ratings, and exact live titles remain supplemental rather than graded state.
 
 ## IISD Instructional Strategies
 

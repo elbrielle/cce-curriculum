@@ -10,7 +10,7 @@ pages: 2
 orientation: portrait
 ---
 
-## Fairview Edge: examine the licensed case file
+## Fairview Edge: examine the case file
 
 Use the workbook case table and environmental clues supplied by your teacher. The case is fictional. In a real health or water emergency, follow instructions from local officials and a trusted adult.
 

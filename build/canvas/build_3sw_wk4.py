@@ -22,8 +22,20 @@ STUDENT_GOOGLE_COPY_URLS = {
 }
 
 
+# One Google Doc per worksheet (build/google_docs/student_worksheet_docs.json).
+# Keyed by (day, anchor label) so a worksheet button never opens the day's exit ticket.
+STUDENT_WORKSHEET_COPY_URLS = {
+    (1, 'the optional no-workbook brief'): "https://docs.google.com/document/d/1IEEMlEs3ZkG2DA6Jok9mgCfz_72W75pXmx1zizh2KEI/copy",
+    (2, 'the two-page Hospitality Career Comparison'): "https://docs.google.com/document/d/1TdqnPSqw2fNQomNG2YEeccu9B3t-goPAZ8GBfF5l7Sg/copy",
+    (3, 'the two-page individual response'): "https://docs.google.com/document/d/1xFafSRRk_oA2pj2U09UisaraZYJfLuBXSfpbeX-c5rw/copy",
+    (4, 'the one-page Cater and Create companion'): "https://docs.google.com/document/d/1gXpdnHjTZsoYqDuValhQLbaa1imAp-cR9EDiAzHeipQ/copy",
+    (5, 'the Hospitality Recommendation'): "https://docs.google.com/document/d/1n-kgN-OsHcl3AJ_vuSBc8MtEF1L6FNI1OoueatDzFi4/copy",
+}
+
+
 def student_copy_link(day, label):
-    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+    url = STUDENT_WORKSHEET_COPY_URLS.get((day, label), STUDENT_GOOGLE_COPY_URLS[day])
+    return f'<a href="{url}">{label}</a>'
 
 MODULE_NAME = "3SW Wk4: Culinary Arts and Hospitality"
 ANNOTATION_TITLE = "PRACTICE: Culinary Twist Menu Design"
@@ -233,11 +245,12 @@ async def lock_folder_files(client, folder):
                 client, "PUT", f"/files/{entry['id']}", data={"locked": "true"}
             )
     final = await paged(client, f"/folders/{folder['id']}/files")
-    unlocked = [
-        entry.get("display_name") or entry.get("filename")
-        for entry in final
-        if not entry.get("locked")
-    ]
+    unlocked = []
+    for entry in final:
+        if not entry.get("locked"):
+            refreshed = await api(client, "GET", f"/files/{entry['id']}")
+            if not refreshed.get("locked"):
+                unlocked.append(entry.get("display_name") or entry.get("filename"))
     if unlocked:
         raise RuntimeError(f"Unlocked files remain in folder {folder['id']}: {unlocked}")
     return current, len(final)
@@ -657,7 +670,7 @@ def step(number, title, body):
 
 
 def flow(color, title, text):
-    return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0;color:{color}">{title}</h4><p>{text}</p></div>'
+    return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0 0 6px;color:{color}">{title}</h4>{text}</div>'
 
 
 async def main():
@@ -786,7 +799,7 @@ async def main():
                 "TITLE": "Culinary Twist Menu Design",
                 "PURPOSE": "Create a menu item that responds to an ingredient constraint and communicates clearly to a customer.",
                 "TODAY": "<ul><li>explore hospitality work;</li><li>plan a fictional dish;</li><li>design, test, and revise a menu item.</li></ul>",
-                "READY": f'<p><strong>Default route:</strong> open your workbook to FYF pp. 112-113. After the menu, use <a href="{annotation_url}">the practice text entry</a> for the two short evidence checks. Use {student_copy_link(1, "the optional no-workbook brief")} or its Canvas annotation route only if you cannot write in the workbook. Do not complete both the workbook and the full brief.</p><p><strong>Safety boundary:</strong> this is a design task. Do not prepare or taste food.</p>',
+                "READY": f'<p><strong>Default route:</strong> open your workbook to FYF p. 111 for the cluster opener, then to FYF pp. 112-113 for Culinary Twist. After the menu, use <a href="{annotation_url}">the practice text entry</a> for the two short evidence checks. Use {student_copy_link(1, "the optional no-workbook brief")} or its Canvas annotation route only if you cannot write in the workbook. Do not complete both the workbook and the full brief.</p><p><strong>Safety boundary:</strong> this is a design task. Do not prepare or taste food.</p>',
                 "MEDIA": image_tag(
                     visuals[1]["fyf-hospitality-opener-optimized.jpg"]["id"],
                     "Find Your Future hospitality and tourism cluster opener",
@@ -828,7 +841,7 @@ async def main():
                 "TITLE": "Motivation and Three-Career Comparison",
                 "PURPOSE": "Use motivation ideas and one fixed evidence set to compare three hospitality careers.",
                 "TODAY": "<ul><li>distinguish intrinsic and extrinsic motivation;</li><li>design a short competition plan;</li><li>compare three careers using the same measures.</li></ul>",
-                "READY": f'<p>Open your workbook to FYF p. 122. Also open {student_copy_link(2, "the two-page Hospitality Career Comparison")} and {file_link(files["CAREERS"]["id"], "the Hospitality Career Evidence Guide")}.</p>',
+                "READY": f'<p>Open your workbook to FYF pp. 121-123. Read the Powerskill: Motivation opener on p. 121, build your plan on p. 122, then compare plans on p. 123. Also open {student_copy_link(2, "the two-page Hospitality Career Comparison")} and {file_link(files["CAREERS"]["id"], "the Hospitality Career Evidence Guide")}.</p>',
                 "MEDIA": image_tag(
                     visuals[2]["fyf-motivation-types.png"]["id"],
                     "Find Your Future intrinsic and extrinsic motivation examples",
@@ -982,27 +995,13 @@ async def main():
                 "ALERT": "<strong>Workbook first.</strong> Students complete FYF pp. 112-113, then place the two short evidence checks in the practice text entry or on one index card. The three-page brief is an optional no-workbook route, not extra work.",
                 "PREP": f'<ul><li><strong>Per student:</strong> one FYF workbook opened to pp. 111-113, one pencil, and optional colored pencils or markers.</li><li><strong>Paper-only evidence:</strong> one index card for the reader revision and transferable-skill check. Canvas text entry is the default response home.</li><li><strong>Teacher:</strong> one display device and six visible workbook special-ingredient choices: pomegranate seeds, marshmallow fluff, sprinkles, coffee beans, gummy bears, or syrup.</li><li><strong>Optional route:</strong> post {file_link(files["MENU"]["id"], "the no-workbook brief")} and annotation activity; do not print a class set.</li><li><strong>Grouping:</strong> independent design; a two-minute reader check may use a partner, teacher, or self-check.</li></ul>',
                 "EVIDENCE": "<p>FYF pp. 112-113 with four menu elements and three sketch labels, plus one reader revision and one transferable-skill connection. Formative.</p>",
-                "FLOW": flow(
-                    "#5a2d91",
-                    "Warm-up · 5",
-                    "What makes a food experience feel special?",
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Open the cluster · 8",
-                    "Identify food and guest-experience work.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Plan · 12",
-                    "Ingredients, constraint, preparation, customer result.",
-                )
-                + flow(
-                    "#e3ad19",
-                    "Build and test · 20",
-                    "Create the menu item and revise for a reader.",
-                )
-                + flow("#1f617a", "Submit and reset · 5", "Record the revision and transfer check; return materials."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and memorable dining experience warm-up", '''<p>Welcome students to Week 4 (Hospitality and Tourism Career Cluster) and project the culinary innovation prompt.</p><ul><li>Ask students: <em>“Think about the most memorable meal or restaurant experience you've ever had. Was it memorable just because of the food flavor, or was it because of the presentation, the physical environment, or the way you were treated by the staff? Explain why.”</em></li><li>Collect 2-3 student thoughts. Catalog the multi-sensory and hospitality elements: flavor, presentation, aroma, ambiance, and service.</li><li>Bridge with, <em>“In hospitality, food is never just sustenance; it is a curated customer experience. Today we step into the shoes of an Executive Chef and menu developer designing an innovative signature dish on FYF pp. 112-113.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-13 - Hospitality and culinary career cluster orientation", '''<p>Direct students to FYF p. 111 and open the Hospitality Career Cluster overview:</p><ul><li>Examine the division between back-of-house (culinary arts, food science, kitchen management) and front-of-house (lodging management, guest services, event planning).</li><li>Introduce the Week 4 Special Ingredient Challenge: Students select ONE constraint ingredient from the six approved options (Pomegranate Seeds, Marshmallow Fluff, Sprinkles, Coffee Beans, Gummy Bears, or Hot Pepper Honey Syrup).</li><li>Model the transformation concept: <em>“Do not just toss raw ingredients on a plate. An Executive Chef transforms the ingredient (e.g., crushing pomegranate seeds into an emulsified citrus vinaigrette) to alter texture, acidity, and visual appeal.”</em></li></ul>''')
+                    + flow("#1f617a", "Minutes 13-25 - Culinary menu concept planning (FYF p. 112)", '''<p>Students plan their signature culinary creation in FYF p. 112:</p><ul><li>1. <strong>Dish Title &amp; Category:</strong> Name the dish and classify it (Appetizer, Entr&eacute;e, Beverage, or Dessert).</li><li>2. <strong>Special Ingredient Transformation:</strong> Document how the constraint ingredient is prepared and incorporated into the recipe.</li><li>3. <strong>Texture &amp; Flavor Profile:</strong> Describe the balance of sweet, savory, acid, crunch, or warmth.</li><li>4. <strong>Guest Target Demographic:</strong> Identify the specific customer audience (e.g., festival food truck visitors, high-end banquet attendees, family brunch guests).</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 18): Confirm every student selects an approved special ingredient and describes a culinary technique, not just raw garnish.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 25-45 - Plating schematic, visual menu build &amp; reader test (FYF p. 113)", '''<p>Students execute the visual presentation build on FYF p. 113:</p><ul><li>Draft a detailed, labeled plating diagram showing how the dish is arranged on the plate or in the glass (including sauces, height, garnish placement).</li><li>Incorporate THREE descriptive menu copywriting phrases designed to inform and entice a customer.</li><li><strong>Two-Minute Reader Readability Check (Minute 38):</strong> Elbow partners swap work for 120 seconds. Partner B identifies ONE phrase that is ambiguous or confusing. Partner A writes a visible revision improving menu clarity.</li><li><strong>Transferable Skill Connection:</strong> On Canvas text entry (or the paper exit card), connect how clear menu copywriting relates to technical communication in healthcare or software documentation.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 2 (Minute 35): Verify students draw labeled plating schematics with clear callout pointers.</li></ul>''')
+                    + flow("#1f617a", "Minutes 45-50 - Submit evidence and workspace reset", '''<p>Collect FYF evidence or verify digital entries in Canvas.</p><ul><li><strong>Safe Trim:</strong> Skip whole-class food pitch presentations; fiercely protect the 4 menu planning elements, labeled plating schematic, reader revision, and 5-minute reset.</li></ul>''')
+                ),
                 "MONITOR": "<p><strong>Model:</strong> pomegranate seeds → crush some into a dressing and keep some whole → add tart flavor, red color, and crunch to a festival taco salad. This models communication, not a recipe or safety guarantee. <strong>Lap 1:</strong> by minute 12, students have the special ingredient, what it changes, and two preparation steps. <strong>Lap 2:</strong> by minute 25, all four menu elements are in progress. If more than 25% are missing one, pause for a 60-second four-label model. Do not score art polish, public speaking, or tool choice. <strong>Trim:</strong> skip the 30-second share; preserve the reader revision, transfer check, and five-minute collection/reset.</p>",
                 "RESOURCES": "<p>Licensed FYF pp. 111-113 are embedded. FYF Restaurant Rebrand is an optional extension.</p>",
                 "SUPPORT": "<p>Offer two special-ingredient choices and keep the evidence chain visible. Put the complete ingredient-change and transfer frames beside the matching response. The workbook supplies the full plan and design space; the optional brief supplies the same space only when a student lacks the workbook.</p>",
@@ -1014,23 +1013,13 @@ async def main():
                 "ALERT": "<strong>Use one fixed evidence set.</strong> The optional Quiz checks misconceptions for early finishers or the next class opening; the written comparison is the evidence.",
                 "PREP": f'<ul><li><strong>Per student:</strong> one FYF workbook opened to p. 122, one {file_link(files["MOTIVATION"]["id"], "two-page comparison")} digitally or printed double-sided, and one pencil.</li><li><strong>Teacher:</strong> one display device with {file_link(files["CAREERS"]["id"], "the fixed evidence guide")} and completed table. Do not print the guide per student.</li><li><strong>Device:</strong> one per student only when assigning the optional unpublished practice Quiz.</li><li><strong>Grouping:</strong> independent writing; pairs may check evidence labels after each student finishes.</li></ul>',
                 "EVIDENCE": "<p>FYF p. 122 motivation plan, three-career comparison, two-career motivation transfer, and an evidence-based fit decision with a visible trade-off. Formative evidence that feeds Day 5.</p>",
-                "FLOW": flow("#5a2d91", "Warm-up · 5", "Internal and external reasons.")
-                + flow(
-                    "#4a9d2f",
-                    "Motivation plan · 15",
-                    "Goal, rules, reward, intrinsic reason.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Career evidence · 10",
-                    "Same measures for all three careers.",
-                )
-                + flow(
-                    "#e3ad19",
-                    "Compare and transfer · 15",
-                    "Use one fact and one trade-off.",
-                )
-                + flow("#1f617a", "Exit and reset · 5", "Audit labels, store evidence, and return materials."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and intrinsic vs. extrinsic motivation warm-up", '''<p>Welcome students, seat them with FYF p. 122, and project the motivation prompt.</p><ul><li>Ask students: <em>“Think about why people work grueling 12-hour shifts on their feet in professional kitchens or hotel lobbies. What is the difference between an internal reason (intrinsic motivation) and an external reason (extrinsic motivation) for pursuing excellence in hospitality?”</em></li><li>Collect 2-3 responses: Intrinsic = <em>“Taking pride in plating a flawless dish or watching a guest smile.”</em> Extrinsic = <em>“Receiving a high hourly wage, a promotion, or customer gratuities.”</em></li><li>Frame the standard: Both motivation types drive human performance; neither is morally superior, but sustainable careers align with personal intrinsic drives.</li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-20 - Authoring the personal kitchen motivation plan (FYF p. 122)", '''<p>Students construct an authentic workplace motivation plan on FYF p. 122:</p><ul><li>1. <strong>Team Production Goal:</strong> Define a measurable operational benchmark for a restaurant kitchen staff (e.g., maintain ticket times under 12 minutes during Friday dinner rush).</li><li>2. <strong>Clear Operating Rules:</strong> Document two clear team ground rules (e.g., mandatory 'behind' callouts for kitchen safety; sanitized workstation resets after each ticket).</li><li>3. <strong>Extrinsic Workplace Reward:</strong> Propose a fair, tangible incentive (e.g., catered team lunch or scheduling choice).</li><li>4. <strong>Intrinsic Purpose Statement:</strong> Articulate the deeper personal satisfaction that comes from mastering culinary craft and reliable teamwork.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 14): Check that students distinguish between tangible rewards and internal satisfaction.</li></ul>''')
+                    + flow("#1f617a", "Minutes 20-35 - Sourced three-career comparative labor audit", '''<p>Display the Hospitality Career Evidence Guide and compare three core hospitality professions:</p><ul><li>1. <strong>Chefs and Head Cooks:</strong> High school diploma/culinary training; May 2024 U.S. median pay $58,970; projected growth 8%; 23,800 annual openings. Responsibilities: directing culinary staff, inventory management, menu design.</li><li>2. <strong>Lodging Managers:</strong> High school diploma or Associate degree; May 2024 U.S. median pay $68,130; projected growth 7%; 6,500 annual openings. Responsibilities: hotel facility operations, guest satisfaction, budget management.</li><li>3. <strong>Meeting, Convention, and Event Planners:</strong> Bachelor's degree; May 2024 U.S. median pay $58,350; projected growth 7%; 16,600 annual openings. Responsibilities: contract negotiation, venue logistics, vendor coordination.</li><li>Students complete the 3-row comparative data table on their Evidence Sheet.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 2 (Minute 28): Verify students record full statistical labels (May 2024, U.S., median) on every salary metric.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 35-45 - Comparative analysis and evidence-based career fit", '''<p>Students synthesize their comparison by authoring a written career evaluation:</p><ul><li>Select the ONE career that offers the highest personal fit based on motivation type and working conditions.</li><li>Cite at least ONE verified labor fact (pay, growth, or education) and identify ONE realistic career trade-off (e.g., working nights/weekends and high physical fatigue in culinary vs. extensive client contract liability in event planning).</li></ul>''')
+                    + flow("#1f617a", "Minutes 45-50 - Exit check and workspace reset", '''<p>Store FYF work and collect comparison sheets or verify digital submission.</p><ul><li><strong>Safe Trim:</strong> Keep the practice quiz optional for early finishers; fiercely protect the FYF p. 122 motivation plan, 3-career table, and evidence-based fit decision with trade-off.</li></ul>''')
+                ),
                 "MONITOR": "<p><strong>Model:</strong> “Improving the technique feels satisfying” is intrinsic; “the winner receives a paid bakery shadow day” is extrinsic. Do not rank one as morally better. <strong>Lap 1:</strong> by minute 30, students have all three evidence marks and both comparison prompts started. If more than 25% relabel a median as starting or DFW pay, rebuild one complete label: May 2024 U.S. median annual pay. <strong>Key:</strong> Lodging Manager has the highest median; Chef or Head Cook has the most projected annual openings; Event Planner has a bachelor's degree as typical entry education. <strong>Trim:</strong> the Quiz is optional for early finishers or the next class opening; preserve the written fit decision and five-minute evidence-label check.</p>",
                 "RESOURCES": '<p><a href="https://www.bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm">BLS Chefs and Head Cooks</a> · <a href="https://www.bls.gov/ooh/management/lodging-managers.htm">BLS Lodging Managers</a> · <a href="https://www.bls.gov/ooh/business-and-financial/meeting-convention-and-event-planners.htm">BLS Event Planners</a></p>',
                 "SUPPORT": "<p>Read one prefilled career row at a time, pre-highlight measure labels, and rehearse the recommendation orally. Complete intrinsic, extrinsic, and recommendation frames sit beside the matching response spaces. Students compare rather than copy stable data.</p>",
@@ -1042,24 +1031,14 @@ async def main():
                 "ALERT": "<strong>One crisis per team.</strong> Every student completes individual role evidence before discussion and an individual transfer after it.",
                 "PREP": f'<ul><li><strong>Per student:</strong> one FYF workbook opened to pp. 117-118, one {file_link(files["RESPONSE"]["id"], "two-page individual response")} digitally or printed double-sided, and one pencil.</li><li><strong>Per team:</strong> one projected or three-page {file_link(files["CARDS"]["id"], "role/crisis set")}; print `ceiling(roster ÷ 6)` sets, not one per student.</li><li><strong>Teacher:</strong> one display device with the completed Crisis C model in this guide.</li><li><strong>Grouping:</strong> teams of four to six. Six use one role each. Five combine Concierge with Guest Services. Four also combine Hotel Director with Front Desk.</li></ul>',
                 "EVIDENCE": "<p>Individual role evidence, FYF p. 118 coordinated team response, and individual small-business transfer. Formative.</p>",
-                "FLOW": flow("#5a2d91", "Warm-up · 4", "Verify before promising.")
-                + flow("#4a9d2f", "Assign and prepare · 7", "Move to teams; assign one role and one crisis.")
-                + flow(
-                    "#1f617a",
-                    "Team response · 19",
-                    "Verify, protect, coordinate, communicate.",
-                )
-                + flow(
-                    "#e3ad19",
-                    "Read a response · 8",
-                    "Use a ready peer response or the teacher model.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Individual transfer · 7",
-                    "Apply the process to a small business.",
-                )
-                + flow("#5a2d91", "Collect and reset · 5", "Store FYF and individual evidence; return card sets."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-4 - Welcome and client verification warm-up", '''<p>Welcome students, seat them with their team role cards, and project the hospitality ethics prompt.</p><ul><li>Ask students: <em>“When a furious hotel guest storms up to the front desk complaining about an uncleaned room or a missing reservation, why is it fatal for a staff member to immediately make false promises before verifying the facts behind the scenes?”</em></li><li>Collect 2-3 responses: Making unverified promises creates secondary letdowns, compromises hotel security, and destroys guest trust.</li><li>Establish the hospitality protocol: <strong>Verify facts first, protect guest safety and accessibility, coordinate across departments, and deliver honest, actionable updates.</strong></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 4-11 - Team assembly, role assignments, and crisis briefing", '''<p>Organize students into collaborative Hotel Operations Teams (4-6 students per team):</p><ul><li>Assign ONE professional role per student: (1) Hotel General Manager, (2) Front Desk Supervisor, (3) Executive Housekeeper, (4) Guest Services / Concierge, (5) Food &amp; Beverage Director, (6) Facilities / Maintenance Engineer.</li><li>Assign ONE high-stakes scenario (e.g., Crisis A: Double-booked VIP bridal suite with broken AC; Crisis B: Sudden ballroom power outage during corporate keynote; Crisis C: Overbooked ADA-accessible rooms during regional conference).</li><li>Review the supplied Crisis C exemplar to model the standard of interdepartmental coordination.</li></ul>''')
+                    + flow("#1f617a", "Minutes 11-30 - Multi-role collaborative crisis resolution sprint (FYF p. 118)", '''<p>Teams draft their synchronized operational response plan on FYF p. 118:</p><ul><li>Phase 1 (Fact Verification - 6 min): What exact facts must be investigated before speaking to the guest?</li><li>Phase 2 (Immediate Triage &amp; Safety - 6 min): How is the guest supported while the crisis is resolved (temporary lounge access, complimentary refreshments, secure baggage holding)?</li><li>Phase 3 (Role-Specific Action Plan - 7 min): Detail the exact operational moves each team member executes simultaneously.</li><li>Phase 4 (Service Recovery &amp; Scripted Communication): Author the exact polite, professional statement delivered to the guest.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 18): Intervene if teams assign all work to the manager; require distinct actions from every role card.<br>• Lap 2 (Minute 26): Confirm scripts deliver verified status updates rather than unfulfillable promises.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 30-38 - Peer review and professional response audit", '''<p>Teams review a neighboring group's crisis response plan (or evaluate against the teacher exemplar):</p><ul><li>Audit criteria: (1) Were all guest safety/accessibility requirements protected? (2) Did at least three distinct roles execute coordinated actions? (3) Was the verbal response professional and honest?</li><li>Document ONE constructive operational improvement.</li></ul>''')
+                    + flow("#1f617a", "Minutes 38-45 - Individual small-business transfer application", '''<p>Students independently complete the Individual Response Companion Sheet:</p><ul><li>Prompt: <em>“Apply this four-phase customer crisis protocol (Verify, Protect, Coordinate, Communicate) to an independent small business (e.g., a local bakery, mobile auto detailing service, or photography business). Describe how the owner handles a major order error.”</em></li><li>Collect individual sheets and FYF p. 118 records.</li></ul>''')
+                    + flow("#5a2d91", "Minutes 45-50 - Return role materials and workspace reset", '''<p>Collect role cards and reset classroom tables.</p><ul><li><strong>Safe Trim:</strong> Omit dramatic group presentations; protect the 4-phase team crisis plan, scripted guest response, individual small-business transfer, and 5-minute reset.</li></ul>''')
+                ),
                 "MONITOR": "<p><strong>Teacher model, Crisis C:</strong> verify the request, meeting time, room status, and suitable rooms; protect accessibility; Guest Services checks room/timeline; Front Desk gives the verified update; Concierge offers only a verified immediate option; Hotel Director handles authorized service recovery. Message: “I can confirm your accessible room is still being prepared. I am checking the exact ready time now, and I will update you by ____. Meanwhile, the verified option available is ____.” Guest Services confirms the room and update happened. <strong>Lap 1:</strong> at minute 13, each student has two needed facts, one protected requirement, and one action. If more than 25% starts with a promise, sort one statement as confirmed, being checked, or not yet promised. <strong>Lap 2:</strong> at minute 30, teams have three different role actions and follow-through. <strong>Trim:</strong> replace peer exchange with the model; preserve individual evidence, FYF p. 118, transfer, and five-minute reset.</p>",
                 "RESOURCES": "<p>Licensed FYF pp. 117-118 are embedded. The workbook carries the team solution; the two-page companion protects individual evidence before and after the group task.</p>",
                 "SUPPORT": "<p>Use role starters, complete Verify before grouping, and allow written participation instead of acting. Keep the complete business-transfer frame beside the response. The independent route uses the same cards and completed teacher model.</p>",
@@ -1071,21 +1050,13 @@ async def main():
                 "ALERT": "<strong>Design a service, not only a look.</strong> Client communication, staffing, cost, access, and risk are part of entrepreneurship.",
                 "PREP": f'<ul><li><strong>Per student:</strong> one FYF workbook opened to pp. 119-120, one {file_link(files["EVENT"]["id"], "one-page companion")}, one pencil, and optional colored pencils or markers.</li><li><strong>Teacher:</strong> one display device with the licensed pages and completed client/limit model in this guide.</li><li><strong>Device:</strong> only for students using an approved digital design route.</li><li><strong>Grouping:</strong> independent design; a five-minute client test may use a partner, teacher, or self-check.</li></ul>',
                 "EVIDENCE": "<p>FYF pp. 119-120 connected event design plus one-page evidence for client, practical limit, owner responsibility, and visible revision. Formative.</p>",
-                "FLOW": flow("#5a2d91", "Warm-up · 5", "Experience beyond food.")
-                + flow(
-                    "#4a9d2f",
-                    "Client and business goal · 8",
-                    "Event, feeling, audience, limit.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Design · 27",
-                    "Menu, space, service, access, extra touches.",
-                )
-                + flow(
-                    "#e3ad19", "Client test · 5", "One strength and workable change."
-                )
-                + flow("#1f617a", "Exit and reset · 5", "Record value and owner responsibility; return materials."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and hospitality design warm-up", '''<p>Welcome students, seat them with FYF pp. 119-120, and project the event design prompt.</p><ul><li>Ask students: <em>“When catering an event, what factors matter to the client beyond just cooking delicious food? What makes an event experience truly memorable?”</em></li><li>Collect 2-3 student thoughts: Room layout, greeting and service pacing, allergy management, thematic ambiance, and professional crisis containment.</li><li>Bridge with, <em>“Entrepreneurs in catering do not just sell calories; they engineer complete social environments. Today you plan a full-service hospitality event on FYF pp. 119-120.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-13 - Analyzing the event brief, constraints, and business goals", '''<p>Review the client event parameters and business management criteria:</p><ul><li>1. <strong>Event Type Selection:</strong> Choose ONE client profile (Middle School Academic Banquet, Community Arts Fundraiser, or Multi-Generational Family Reunion).</li><li>2. <strong>Emotional Tone:</strong> Define the desired client atmosphere (e.g., dignified and inspiring; energetic and festive; warm and reflective).</li><li>3. <strong>Operational Constraints:</strong> Incorporate strict real-world limits (e.g., fixed 2-hour setup window, strict dietary accommodations for nut/gluten allergies, maximum $25 per-plate budget).</li><li>4. <strong>Entrepreneurial Scope:</strong> The business owner coordinates menu, kitchen staffing, venue floor plan, and customer service standards.</li></ul>''')
+                    + flow("#1f617a", "Minutes 13-38 - Independent event &amp; hospitality experience design sprint", '''<p>Students complete the full design layout in FYF pp. 119-120 and the Companion Sheet:</p><ul><li>Section 1: <strong>Custom Menu &amp; Dietary Protocol:</strong> 3-course menu with explicit dietary alternatives.</li><li>Section 2: <strong>Venue Layout &amp; Traffic Flow:</strong> Labeled sketch showing food staging, guest seating, registration desk, and accessible pathways.</li><li>Section 3: <strong>Staffing &amp; Service Timing:</strong> Schedule outlining staff arrival, food prep, guest service waves, and cleanup.</li><li>Section 4: <strong>Special Hospitality Touches:</strong> Welcome drinks, table centerpieces, or commemorative take-home elements.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 22): Verify students design all four functional areas (menu, room layout, service timeline, access), not just food items.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 38-45 - Client usability test and iterative refinement", '''<p>Elbow partners execute a rapid Client Review Check:</p><ul><li>Partner A acts as the event client; Partner B walks them through the event experience.</li><li>Client evaluates: Does the plan respect the setup time limit and accommodate guests with disabilities?</li><li>Partner B records ONE specific operational refinement directly on their design sheet.</li></ul>''')
+                    + flow("#1f617a", "Minutes 45-50 - Submit event plan and workspace reset", '''<p>Verify completion of FYF pp. 119-120 and collect companion sheets.</p><ul><li><strong>Safe Trim:</strong> Use independent self-check if time compresses; protect the 4-part event plan, dietary accommodation, visible refinement, and workspace reset.</li></ul>''')
+                ),
                 "MONITOR": "<p><strong>Model:</strong> fictional school recognition dinner; calm and welcoming feeling; students and families; 90-minute setup limit. Connect menu, table, quiet welcome activity, and take-home note; the owner coordinates food, setup, staffing, access, and client updates. <strong>Lap:</strong> at minute 18 of design, students can point to the client, feeling, limit, and two connected choices. If more than 25% has disconnected ideas, ask, “Which client need does this choice solve?” Do not collect real client data or require a public post. <strong>Trim:</strong> use teacher or self-check instead of a partner; preserve visible revision, exit response, and five-minute reset.</p>",
                 "RESOURCES": "<p>Licensed FYF pp. 119-120 are embedded. Current local context may include FireBird Cafe Catering, but do not turn an opportunity into a guarantee.</p>",
                 "SUPPORT": "<p>Preselect an event and feeling, keep the completed model visible, and accept labeled sketches. The complete client-value frame sits beside the response. The workbook supplies the large design areas; the companion asks only for missing evidence.</p>",
@@ -1097,16 +1068,12 @@ async def main():
                 "ALERT": "<strong>Mapped Minor 2.</strong> The Canvas assignment remains unpublished but is already configured for 100 points in Minor Assessments (40%).",
                 "PREP": f'<ul><li><strong>Per student:</strong> one {file_link(files["RECOMMENDATION"]["id"], "two-page recommendation")} digitally or printed double-sided, the {file_link(files["RUBRIC"]["id"], "student-visible rubric")}, one pencil, and one device for private Canvas submission when used.</li><li><strong>Teacher:</strong> one display device with {file_link(files["CAREERS"]["id"], "the fixed evidence guide")}, Jordan\'s scenario, the five-field evidence check, and the unpublished mapped Minor 2 Assignment.</li><li><strong>Grouping:</strong> individual assessment; use private conferences, not public sharing.</li><li>Review local program wording without promising admission, credentials, jobs, or salary.</li></ul>',
                 "EVIDENCE": "<p>Individual five-to-seven-sentence recommendation using a task, correctly labeled number, trade-off, business opportunity, and verified local connection when relevant.</p>",
-                "FLOW": flow("#5a2d91", "Warm-up · 5", "Rank decision factors.")
-                + flow("#4a9d2f", "Audit evidence · 10", "Correct all five fields.")
-                + flow("#1f617a", "Scenario plan · 10", "Compare all three careers.")
-                + flow(
-                    "#e3ad19",
-                    "Recommendation · 20",
-                    "Five to seven sentences with evidence.",
-                )
-                + flow(
-                    "#1f617a", "Self-score and submit · 5", "Revise one weak criterion."
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and career criteria ranking warm-up", '''<p>Welcome students, seat them with their weekly materials, and project the career decision prompt.</p><ul><li>Project the scenario prompt for Jordan, a fictional high school student evaluating hospitality pathways: <em>“Jordan loves cooking and event coordination but wants to balance creative kitchen work with business ownership and sustainable working hours. How should Jordan evaluate career opportunities?”</em></li><li>Discuss trade-offs: Creative kitchen autonomy vs. intense evening hours; event coordination client flexibility vs. erratic income.</li><li>Frame today's assessment: Today students author their 16-point Minor Evidence Packet: Hospitality Career and Business Recommendation.</li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-15 - Sourced evidence audit across all five criteria", '''<p>Display the Hospitality Career Evidence Guide and review the five mandatory evidence fields:</p><ul><li>Field 1: <strong>Target Career Title:</strong> (Chef / Head Cook, Lodging Manager, or Event Planner).</li><li>Field 2: <strong>Authentic Daily Task:</strong> Must describe a concrete work task from the guide.</li><li>Field 3: <strong>Sourced Labor Data:</strong> Must record the May 2024 U.S. median annual pay with full statistical labels.</li><li>Field 4: <strong>Authentic Trade-Off:</strong> Must articulate a genuine physical, financial, or lifestyle constraint.</li><li>Field 5: <strong>Entrepreneurial Opportunity &amp; Local High School CTE Connection:</strong> Cite a realistic business venture and name the Culinary Arts or Hospitality pathway (such as Singley Academy Culinary Arts in Irving ISD).</li><li>Enforce source integrity: Ground claims strictly in the evidence guide; avoid speculative claims.</li></ul>''')
+                    + flow("#1f617a", "Minutes 15-35 - Authoring the formal 5-7 sentence recommendation (Minor Packet)", '''<p>Students independently draft their 5-7 sentence recommendation on their Evidence Sheet:</p><ul><li>Sentence 1: Recommend ONE specific hospitality career for Jordan based on personal interests and skills.</li><li>Sentence 2: Detail ONE primary clinical/work task this professional performs daily.</li><li>Sentence 3: Cite the May 2024 U.S. median pay and projected 2024-34 job growth with full statistical attribution.</li><li>Sentence 4: Acknowledge ONE significant industry trade-off (e.g., mandatory weekend/holiday work, long hours on feet, seasonal revenue dips).</li><li>Sentence 5: Propose an entrepreneurial small-business opportunity that leverages this career's skill set.</li><li>Sentence 6-7: Connect this pathway to high school CTE programs (e.g., Culinary Arts at Singley Academy) and state an immediate middle school preparation action.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 22): Ensure every student writes in complete sentences fulfilling each numbered role.<br>• Lap 2 (Minute 30): Confirm students include source labels and realistic trade-offs.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 35-45 - Four-criterion rubric self-score and revision", '''<p>Students self-evaluate their recommendation using the 16-point Minor Rubric (4 pts per category):</p><ul><li>Criterion 1: Task and Preparation Evidence Accuracy.</li><li>Criterion 2: Sourced Labor Data &amp; Statistical Precision.</li><li>Criterion 3: Authentic Career Trade-Off Analysis.</li><li>Criterion 4: Entrepreneurial Application &amp; Local CTE Alignment.</li><li>Students revise any section scoring below 4 points prior to submission.</li></ul>''')
+                    + flow("#1f617a", "Minutes 45-50 - Submit Minor Packet and workspace reset", '''<p>Students submit their completed 2-page Recommendation in Canvas or hand in paper packets.</p><ul><li>Congratulate students on completing Week 4 of Career and Community Explorations!</li><li><strong>Safe Trim:</strong> Replace verbal sharing with private teacher conferencing; fiercely protect the 5-7 sentence recommendation, rubric self-audit, and clean submission.</li></ul>''')
                 ),
                 "MONITOR": "<p><strong>Model only the evidence chain:</strong> Lodging Manager → coordinates guest service and hotel operations → $68,130 May 2024 U.S. median annual pay → evenings/weekends may be required → a small lodging or guest-service business sells and coordinates a verified service. Students still choose Jordan's fit. <strong>Lap:</strong> at minute 25, each plan has a task, labeled number, trade-off, and business opportunity. If more than 25% has a preference without evidence, model how one row becomes one sentence. Any career can earn full credit with accurate fit. Score four 0-4 criteria and convert `(raw ÷ 16) × 100`, rounded. Score content, not mechanics unless meaning is unclear. <strong>Trim:</strong> reduce the warm-up share or verbal debrief; preserve recommendation, rubric revision, private submission, and reset.</p>",
                 "RESOURCES": '<p><a href="https://www.irvingisd.net/departments-services/career-and-technical-education-cte/high-school-cte/singley-academy">Current Singley Academy programs</a> · current district pages for Lodging and Resort Management. eDynamic 6.1 and H&amp;L App Exploration are optional extensions.</p>',

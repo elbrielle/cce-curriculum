@@ -16,8 +16,20 @@ STUDENT_GOOGLE_COPY_URLS = {
 }
 
 
+# One Google Doc per worksheet (build/google_docs/student_worksheet_docs.json).
+# Keyed by (day, anchor label) so a worksheet button never opens the day's exit ticket.
+STUDENT_WORKSHEET_COPY_URLS = {
+    (1, 'the optional no-workbook route'): "https://docs.google.com/document/d/1fcEF3KRszk0K7BUDRIKDLseKlE97qa98iFHAJ-YLtAs/copy",
+    (2, 'the optional Active Listening Lab'): "https://docs.google.com/document/d/146IUed7GJ2Eq_VqN2bCd_qCVga7w4gsJTdx8YH7KEZI/copy",
+    (3, 'the Advocacy, SMART Goal, and Time Plan'): "https://docs.google.com/document/d/1L7AaMPYKsNscR-7x1l_6oCYN_6pV0WnsuvbnzL_X_sg/copy",
+    (4, 'Workplace Message Companion'): "https://docs.google.com/document/d/1hJj50BVJSXr_Udf-PryPEVn3Beab8JEDWV-oNYC8p4w/copy",
+    (5, 'the optional two-page paper response'): "https://docs.google.com/document/d/1TIi7L2Kdie-5pfjV-LtfaY9KeTNbWe2qobuhqD4lvfw/copy",
+}
+
+
 def student_copy_link(day, label):
-    return f'<a href="{STUDENT_GOOGLE_COPY_URLS[day]}">{label}</a>'
+    url = STUDENT_WORKSHEET_COPY_URLS.get((day, label), STUDENT_GOOGLE_COPY_URLS[day])
+    return f'<a href="{url}">{label}</a>'
 
 MODULE_NAME = "2SW Wk5: Communication and Goal Setting"
 QUIZ_TITLE = "PRACTICE: Active Listening Evidence Check"
@@ -187,11 +199,12 @@ async def lock_folder_files(c, folder):
         if not entry.get("locked"):
             await api(c, "PUT", f"/files/{entry['id']}", data={"locked": "true"})
     final = await paged(c, f"/folders/{folder['id']}/files")
-    unlocked = [
-        entry.get("display_name") or entry.get("filename")
-        for entry in final
-        if not entry.get("locked")
-    ]
+    unlocked = []
+    for entry in final:
+        if not entry.get("locked"):
+            refreshed = await api(c, "GET", f"/files/{entry['id']}")
+            if not refreshed.get("locked"):
+                unlocked.append(entry.get("display_name") or entry.get("filename"))
     if unlocked:
         raise RuntimeError(f"Unlocked files remain in folder {folder['id']}: {unlocked}")
     return current
@@ -282,7 +295,7 @@ def step(num, title, body, color="#5a2d91"):
 
 
 def flow(color, title, text):
-    return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0;color:{color}">{title}</h4><p>{text}</p></div>'
+    return f'<div style="border-left:5px solid {color};padding-left:16px;margin:18px 0"><h4 style="margin:0 0 6px;color:{color}">{title}</h4>{text}</div>'
 
 
 def advocacy_scenario_bank():
@@ -754,7 +767,7 @@ async def main():
                         "Find Your Future Powerskills chart with ten transferable skills",
                         700,
                     )
-                    + "<p>Listen. Compromise fairly. Stay respectful.</p>",
+                    + "<p>Open your <em>Find Your Future</em> workbook to pp. 12-14 and use the Powerskills chart.</p><p>Listen. Compromise fairly. Stay respectful.</p>",
                 )
                 + step(
                     2,
@@ -856,7 +869,7 @@ async def main():
                         "Find Your Future fictional mobile farmers market advocacy scenario and three community voices",
                         700,
                     )
-                    + "<p>Choose one community voice. Name what the person notices, needs, and can explain, then propose one respectful next step.</p>",
+                    + "<p>Open your <em>Find Your Future</em> workbook to p. 134.</p><p>Choose one community voice. Name what the person notices, needs, and can explain, then propose one respectful next step.</p>",
                 )
                 + step(
                     3,
@@ -968,33 +981,15 @@ async def main():
                 "ALERT": "<strong>Protect the plan, not the poster.</strong> The three-row conflict plan and two-career transfer response are the evidence. The advertisement is optional.",
                 "PREP": f"<ul><li><strong>Per student:</strong> 1 FYF workbook and 1 pencil.</li><li><strong>Teacher:</strong> 1 display/device with the embedded FYF pages, {file_link(files['GUIDE']['id'], 'transfer guide')}, projected roles, and timer.</li><li><strong>Print only for assigned students:</strong> 1 two-page {file_link(files['CONFLICT']['id'], 'no-workbook route')} per student, double-sided when available. Default copies: 0.</li><li><strong>Grouping:</strong> groups of 3-4. Reader, recorder, facilitator, designer; omit designer in groups of 3. Every student completes an individual transfer check.</li></ul>",
                 "EVIDENCE": "<p>Three specific solutions plus two-career transfer. Formative only.</p>",
-                "FLOW": flow(
-                    "#5a2d91",
-                    "Warm-up · 5",
-                    "Turn traits into observable communication actions.",
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Powerskills · 7",
-                    "Defend one skill shared by two careers.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Three moves · 5",
-                    "Listen, compromise fairly, stay respectful.",
-                )
-                + flow(
-                    "#e3ad19",
-                    "Conflict plan · 20",
-                    "Check one row from every group at minute 12.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Debrief/check · 5",
-                    "Check the plan before transfer.",
-                )
-                + flow("#1f617a", "Individual transfer · 5", "Written, oral, AAC, or conference response.")
-                + flow("#606c76", "Submit and reset · 3", "Confirm evidence; return materials."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and communication actions warm-up", '''<p>Welcome students to Week 5 and project the communication traits challenge.</p><ul><li>Ask students: <em>“We often say someone is a 'good communicator.' What does a good communicator actually DO that you can observe with your eyes and ears? Name ONE observable action, not just a vague personality trait like 'nice.'”</em></li><li>Collect 2-3 student suggestions. Guide students to translate vague words into concrete actions: replace 'nice' with <em>“lets the speaker finish without interrupting”</em>; replace 'smart' with <em>“asks clarifying questions when instructions are ambiguous.”</em></li><li>Bridge with, <em>“In any technical career, knowing how to do the job is only half the battle. Powerskills—especially communication and conflict resolution—keep projects moving forward.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-12 - Powerskills across diverse career clusters", '''<p>Open FYF pp. 12-14 and p. 139 (Transferable Skills) and display the Powerskills Transfer Guide.</p><ul><li>Have students examine two contrasting careers from prior weeks (e.g., Software Developer and Registered Nurse).</li><li>Ask: <em>“What is ONE Powerskill that both of these workers must demonstrate daily, even though their technical tools are completely different?”</em></li><li>Emphasize the core thesis: Technical skills execute tasks; Powerskills coordinate human collaboration, manage crises, and prevent costly errors.</li></ul>''')
+                    + flow("#1f617a", "Minutes 12-17 - The Three Conflict Resolution Moves", '''<p>Project and explicitly model the Three Non-Negotiable Conflict Moves:</p><ul><li>1. <strong>Listen Actively:</strong> Ensure every person articulates their core need without interruption.</li><li>2. <strong>Compromise Fairly:</strong> Merge ideas, split duties, or trade responsibilities equitably rather than forcing an all-or-nothing vote.</li><li>3. <strong>Stay Respectful:</strong> Target the logistical problem, never the person's identity or character.</li><li>Model the 'Company Name' row on FYF p. 144: Demonstrate why <em>“we will just vote”</em> is an incomplete solution if minority concerns are ignored and resentment remains.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 17-37 - Smoothie-company team conflict resolution plan", '''<p>Organize students into small teams (3-4 students) with assigned operational roles: Reader, Recorder, Facilitator, and Designer.</p><ul><li>Teams collaborate in FYF pp. 144-145 to resolve three realistic business disputes: (1) Company Name, (2) Launch Date, and (3) Marketing Jobs.</li><li>Enforce the essential safety invariant: Compromise NEVER means compromising physical safety, sanitization protocols, or legal requirements. If a conflict involves a hazard, the protocol is always: protect safety, follow standard procedure, and notify the supervisor.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 24): Verify that every group articulates each member's underlying need rather than just writing 'we compromised.'<br>• Lap 2 (Minute 32): Check that groups have a concrete fallback plan if their primary compromise fails.</li></ul>''')
+                    + flow("#1f617a", "Minutes 37-42 - Debrief: Workplace stakes across industries", '''<p>Lead a whole-class evaluative synthesis discussion.</p><ul><li>Ask: <em>“How do the consequences of an unresolved conflict escalate as you move from a student smoothie company to an emergency room triage desk or an active construction site?”</em></li><li>Highlight how communication failure in healthcare or industry leads to clinical errors or physical injury.</li></ul>''')
+                    + flow("#1f617a", "Minutes 42-47 - Individual two-career transfer check DOL", '''<p>Students work independently to complete their private Transfer Check.</p><ul><li>Students select TWO careers, identify a realistic workplace conflict likely to emerge in each, describe the first safe communication move, and identify what communication principle remains identical across both settings.</li><li>Accept written responses, speech-to-text, or teacher-conference checks.</li></ul>''')
+                    + flow("#606c76", "Minutes 47-50 - Submit evidence and reset materials", '''<p>Verify completion of FYF p. 145 and collect individual transfer checks.</p><ul><li><strong>Safe Trim:</strong> At minute 35, complete Name and Launch Date rows in writing; accept oral solutions for Marketing Jobs. Protect the individual transfer check and close.</li></ul>''')
+                ),
                 "MONITOR": "<ul><li><strong>Model CFU:</strong> explain why voting is incomplete before needs are heard.</li><li><strong>Lap 1:</strong> check one row per group for each need and a specific action. If more than 1 in 4 groups writes “talk it out,” model a concrete action and backup.</li><li><strong>Lap 2:</strong> check safety language. Any compromised safety rule triggers a pause: protect safety, follow procedure, notify the appropriate adult.</li><li><strong>Strong evidence:</strong> each need, fair action, backup, two careers, likely conflict, first safe move.</li><li><strong>Trim:</strong> at minute 35, finish Name and Launch date in writing; give one Marketing-jobs action orally. Do not cut individual transfer or close.</li></ul>",
                 "SUPPORT": "<p>Place these beside the response: <strong>“Each person needs ____. We can ____ so that ____. If that does not work, we will ____.”</strong> and <strong>“In ____, the conflict could be ____. The first safe move is ____ because ____.”</strong> Permit independent, speech-to-text, oral, and AAC routes. Do not grade drawing.</p>",
                 "FALLBACK": "<p>The student page contains all sources. An absent student completes the same plan independently. Do not assign both FYF and the duplicate no-workbook plan.</p>",
@@ -1009,25 +1004,15 @@ async def main():
                 "ALERT": "<strong>Listening practice, not diagnosis.</strong> Real chest pain with shortness of breath requires immediate adult or emergency help.",
                 "PREP": f"<ul><li><strong>Per student:</strong> 1 FYF workbook, 1 pencil, and 1 internet-connected device.</li><li><strong>Teacher:</strong> 1 display/device with the written Maria account, three embedded practice cards, and unpublished quiz.</li><li><strong>Print only for assigned students:</strong> 1 two-page {file_link(files['LISTEN']['id'], 'Active Listening Lab')} per no-workbook/no-device student, double-sided when available. Default copies: 0.</li><li><strong>Grouping:</strong> individual FYF/quiz evidence; pairs of 2 for one practice card. Written analysis equals acting.</li></ul>",
                 "EVIDENCE": "<p>Four justified details, two new questions, and the ungraded Canvas evidence check. The quiz is the transfer check; no second exit sheet.</p>",
-                "FLOW": flow(
-                    "#5a2d91",
-                    "Warm-up · 4",
-                    "Name a strategy for a detail-heavy story.",
-                )
-                + flow("#4a9d2f", "Two reads · 7", "Pencils down, then mark evidence.")
-                + flow("#1f617a", "Sort · 10", "Essential or background with reasons.")
-                + flow(
-                    "#e3ad19",
-                    "Ask and compare · 9",
-                    "Two new questions and one comparison.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Safe practice · 12",
-                    "One card: paraphrase, question, safe route.",
-                )
-                + flow("#1f617a", "Canvas evidence check · 5", "Retry and read one feedback message.")
-                + flow("#606c76", "Review and reset · 3", "Confirm FYF page; close quiz."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and information overload warm-up", '''<p>Welcome students and project the listening challenge prompt.</p><ul><li>Ask, <em>“When someone tells you an urgent story filled with frantic background details, emotional venting, and side comments, what specific listening strategy helps you extract the few facts that actually matter?”</em></li><li>Collect 2-3 student thoughts (e.g., jotting keywords, asking the speaker to pause, repeating back the main concern).</li><li>Bridge with, <em>“Active listening is a critical clinical and operational power skill. In high-stakes environments, missing one vital detail can cause disastrous mistakes.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-12 - Two-read protocol: Maria's triage account", '''<p>Display the written transcript of Maria's Triage Account (FYF p. 62).</p><ul><li><strong>First Read (Pencils Down):</strong> Read the complete patient narrative aloud while students listen for overall context and emotional tone.</li><li><strong>Second Read (Mark Evidence):</strong> Students annotate the text, underlining observable physical facts, timing markers, and medical history.</li><li>Emphasize the core clinical boundary: Students are listening to document raw facts, NOT to guess a medical diagnosis.</li></ul>''')
+                    + flow("#1f617a", "Minutes 12-22 - Essential vs. background detail sorting audit", '''<p>Students independently complete the 4-row evidence table on FYF p. 63.</p><ul><li>Guide students to categorize each detail with a defensible rationale: (1) <strong>Essential:</strong> persistent chest tightness, onset at 7:00 AM, shortness of breath, radiating shoulder pain, hypertension medication history; (2) <strong>Background:</strong> holding a heavy briefcase, spilled coffee, stressful morning traffic, pending paperwork.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 17): Verify students justify WHY a detail is essential based on clinical relevance rather than personal interest.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 22-31 - Authoring clarifying questions and peer comparison", '''<p>Students craft TWO precise questions that request crucial missing information.</p><ul><li>Teach the question standard: Do not ask questions that repeat known facts. Ask questions that close open information gaps (e.g., <em>“Did you take your blood pressure medication this morning?”</em> or <em>“Has this radiating pain ever happened before?”</em>).</li><li>Pairs compare their sorted details and questions, explaining their rationale.</li></ul>''')
+                    + flow("#1f617a", "Minutes 31-42 - Safe workplace listening simulation: Notice, Question, Next Step", '''<p>Direct students to the three fictional workplace communication cards (Supply Shortage, Scheduling Conflict, Broken Equipment).</p><ul><li>Students practice the 3-step active listening routine: (1) Paraphrase the speaker's core message; (2) Ask one clarifying question; (3) Propose a safe, appropriate routing step to an adult or supervisor.</li><li>Observer partners provide immediate structured feedback using the <strong>Notice + Question + Next Step</strong> protocol (avoiding the superficial 'compliment sandwich').</li></ul>''')
+                    + flow("#1f617a", "Minutes 42-47 - Canvas Active Listening Evidence Check DOL", '''<p>Students open the retryable Canvas Active Listening Evidence Check.</p><ul><li>Assess understanding of essential vs. background facts, clarifying question design, role boundaries, and transfer across careers.</li><li>Students review automatic feedback and revise any missed concept.</li></ul>''')
+                    + flow("#606c76", "Minutes 47-50 - Review feedback and workspace reset", '''<p>Confirm completion of the Canvas evidence check and close student devices.</p><ul><li><strong>Safe Trim:</strong> At minute 32, execute one structured listening card as a whole group rather than multiple peer rotations; fiercely protect the Canvas evidence check.</li></ul>''')
+                ),
                 "MONITOR": "<ul><li><strong>Second-read CFU:</strong> point to one exact detail without diagnosing.</li><li><strong>Lap 1:</strong> check two essential and two background details with reasons. If more than 1 in 4 sorts by interest instead of relevance, model relevance to the listener's task.</li><li><strong>Lap 2:</strong> check questions request new information. Use “What gap is still open?” when students repeat known details.</li><li><strong>Key:</strong> persistent tightness, onset, shortness of breath, spread, medication/history, family history are essential; paperwork, busy week, bag/coffee are generally background.</li><li><strong>Trim:</strong> at minute 32, use one practice card and no repeated role rotations. Do not cut the role-boundary quiz item or close.</li></ul>",
                 "SUPPORT": "<p>Keep the account visible. Place these beside the task: <strong>“The detail ____ is essential/background because ____.”</strong> and <strong>“I heard you say ____. What ____?”</strong> Offer actor, listener, observer, and written routes.</p>",
                 "FALLBACK": "<p>The embedded cards and optional lab provide the no-workbook route. No student shares personal health information or performs publicly. A no-device student uses the lab transfer prompt instead of completing a duplicate quiz later unless the teacher assigns recovery.</p>",
@@ -1042,30 +1027,14 @@ async def main():
                 "ALERT": "<strong>Self-advocacy is not self-rescue.</strong> If a situation is unsafe, threatening, harassing, or medically urgent, students stop the practice frame and get a trusted adult right away. SMART still requires scheduled work and a backup strategy.",
                 "PREP": f"<ul><li><strong>Per student:</strong> 1 two-page {file_link(files['SMART']['id'], 'SMART/time plan')}, double-sided when available, and 1 pencil; or 1 device for the approved digital annotation route.</li><li><strong>Teacher:</strong> 1 display/device with FYF p. 134, the embedded fictional scenario bank, and {file_link(files['RUBRIC']['id'], 'student-visible weekly rubric')}. Select one scenario before class; do not project the complete private source deck.</li><li><strong>Source note:</strong> the scenario-first practice is curated from Jenna Hainlen's teacher-shared <em>Self-Advocacy Scenarios</em> deck. The CCE version keeps her short situation-and-response structure while removing adult disputes, unsafe disclosure prompts, and AVID-only machinery.</li><li><strong>Checkpoint:</strong> use end of next class or the teacher-posted Week 6 checkpoint; no extra calendar handout.</li><li><strong>Grouping:</strong> individual/private goal evidence; peer response optional.</li></ul>",
                 "EVIDENCE": "<p>One brief formative Notice, Need, Reason, and Next step response inside the existing two-page artifact; then the durable SMART goal, two time blocks, obstacle, if-then backup, and two-career advocacy transfer. There is no new submission or separate grade.</p>",
-                "FLOW": flow(
-                    "#5a2d91",
-                    "Four-move scenario · 4",
-                    "Notice, Need, Reason, Next step.",
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Advocacy need · 8",
-                    "Use affected voices without repeating a stale national count.",
-                )
-                + flow(
-                    "#1f617a", "SMART model · 7", "Action, measure, reason, deadline."
-                )
-                + flow(
-                    "#e3ad19",
-                    "Draft and schedule · 20",
-                    "Protect time and plan for one obstacle.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Revise and transfer · 7",
-                    "Private revision and two-career check.",
-                )
-                + flow("#606c76", "Submit and reset · 4", "Check all parts; preserve privacy."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and four-move self-advocacy warm-up", '''<p>Welcome students and project the self-advocacy challenge scenario.</p><ul><li>Introduce the Four-Move Self-Advocacy Routine:<br>1. <strong>Notice:</strong> Objectively state what happened or what is unclear.<br>2. <strong>Need:</strong> Explicitly state the exact accommodation, resource, or clarification required.<br>3. <strong>Reason:</strong> Give a shareable, task-focused rationale without oversharing private personal details.<br>4. <strong>Next Step:</strong> Propose a safe, constructive action or identify which trusted adult to consult.</li><li>Emphasize the vital safety boundary: Self-advocacy is NOT self-rescue. If a situation involves physical danger, bullying, harassment, or medical emergencies, students do NOT negotiate; they immediately alert a trusted adult.</li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-13 - Analyzing the community advocacy case (FYF p. 134)", '''<p>Read the community nutrition scenario on FYF p. 134.</p><ul><li>Students identify what the stakeholders notice and need, state a shareable reason regarding food access, and propose one realistic community health next step.</li><li>Emphasize: Use the scenario to analyze advocacy mechanisms; do not treat textbook numbers as current national statistics.</li></ul>''')
+                    + flow("#1f617a", "Minutes 13-20 - Modeling a rigorous SMART goal with time buffers", '''<p>Dissect and model the difference between a vague wish and a rigorous SMART goal.</p><ul><li>Non-example: <em>“I want to get better at health careers.”</em></li><li>Worked Exemplar: <em>“By the Week 6 Friday checkpoint, I will complete comparison charts for three Health Science careers, identifying one daily duty and one degree requirement for each, so I can select my top CTE pathway.”</em></li><li>Demonstrate how to schedule two concrete 20-minute calendar blocks and formulate an <strong>If-Then Contingency Plan</strong> for anticipated obstacles.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 20-38 - Authoring the Advocacy, SMART Goal, and Time Plan", '''<p>Students work independently on their two-page Advocacy, SMART Goal, and Time Plan.</p><ul><li>Draft their personal career exploration goal meeting all five SMART criteria.</li><li>Schedule TWO dedicated time blocks during the upcoming week.</li><li>Identify ONE realistic obstacle (e.g., conflicting sports practice, Wi-Fi outage) and author an actionable If-Then backup plan that adjusts the operational schedule while protecting the final goal.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 26): Verify goals contain a measurable count/artifact and an exact deadline.<br>• Lap 2 (Minute 33): Check If-Then statements; ensure the backup modifies the strategy, not the goal itself.</li></ul>''')
+                    + flow("#1f617a", "Minutes 38-45 - Rubric self-audit and two-career advocacy transfer DOL", '''<p>Students self-audit their goal against the 16-point rubric.</p><ul><li>Students complete the transfer prompt: Explain how professional self-advocacy operates in two distinct careers (e.g., an architectural drafter requesting updated engineering specs vs. a medical assistant reporting an unreadable physician order).</li></ul>''')
+                    + flow("#606c76", "Minutes 45-50 - Submit plan and workspace reset", '''<p>Collect completed plans or verify digital submissions.</p><ul><li><strong>Safe Trim:</strong> At minute 35, transition directly to the self-audit and transfer check, skipping optional peer feedback. Protect the If-Then contingency plan and submission.</li></ul>''')
+                ),
                 "MONITOR": "<ul><li><strong>Scenario CFU:</strong> the response states what happened, asks for a specific support or route, gives a shareable reason, and proposes a safe next step. Do not require a student to explain private circumstances.</li><li><strong>Safety pivot:</strong> if the scenario involves danger, harassment, threats, medical urgency, or possible harm, the correct next step is a trusted adult or campus emergency route, not negotiation.</li><li><strong>Model CFU:</strong> identify action, measure, and deadline in the SMART example.</li><li><strong>Lap 1:</strong> check visible product/count and real checkpoint. If more than 1 in 4 uses “someday,” revise one deadline together.</li><li><strong>Lap 2:</strong> check that the backup changes route, not goal. Prompt “What different route still reaches the evidence?”</li><li><strong>Full durable evidence:</strong> five SMART parts, two time blocks, obstacle, controllable backup, two-career advocacy transfer. The four-move scenario response is formative inside the same artifact.</li><li><strong>Trim:</strong> use one scenario and private self-check instead of peer feedback. Do not cut backup, revision, transfer, or close.</li></ul>",
                 "SUPPORT": "<p>Keep all four labels visible: <strong>“I notice ____. I need ____. The reason I can share is ____. A safe next step is ____.”</strong> Then place the goal frame beside the task: <strong>“By ____, I will ____ as shown by ____. I will work on it ____. If ____, then I will ____.”</strong> A written, oral, AAC, or teacher-conference response may use the same four moves. Goals remain private; a fictional goal may replace personal disclosure.</p>",
                 "FALLBACK": "<p>No live platform or separate scenario deck is required. Speech-to-text, teacher conference, paper, and private digital annotation are equal. Use a fictional scenario in place of personal disclosure. Unsafe, threatening, harassing, or medically urgent situations go to a trusted adult or campus emergency route immediately.</p>",
@@ -1080,32 +1049,14 @@ async def main():
                 "ALERT": "<strong>Everything stays fictional.</strong> The Discussion is optional and ungraded; the private written route is equal.",
                 "PREP": f"<ul><li><strong>Per student:</strong> 1 FYF workbook and 1 pencil; add 1 internet-connected device when using the Discussion.</li><li><strong>Teacher:</strong> 1 display/device with the fixed messages and privacy rule.</li><li><strong>Private/paper route:</strong> 1 one-page {file_link(files['WRITE']['id'], 'Workplace Message Companion')} per student. Discussion route default copies: 0.</li><li><strong>Grouping:</strong> individual drafts; pairs of 2 for optional feedback. Private self-check is equal.</li><li>Choose Discussion or private route before class.</li></ul>",
                 "EVIDENCE": "<p>FYF fictional Little Library message and one fixed-fact workplace rewrite. Feedback/self-check supports revision but is not a separate artifact.</p>",
-                "FLOW": flow(
-                    "#5a2d91",
-                    "Missing-detail warm-up · 4",
-                    "Identify what the reader still needs.",
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Four writing checks · 7",
-                    "Reader, clarity, topic, proofread.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Little Library post · 17",
-                    "Fictional status, action, and two hashtags.",
-                )
-                + flow(
-                    "#e3ad19",
-                    "Fixed-fact rewrite · 13",
-                    "Use only supplied facts and safe routing.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Feedback and transfer · 6",
-                    "Notice + Question + Next Step; compare readers.",
-                )
-                + flow("#606c76", "Submit and reset · 3", "Confirm both message jobs."),
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and vague message warm-up", '''<p>Welcome students and project the ambiguous workplace text.</p><ul><li>Project: <em>“Stuff is low. Someone should get more before it runs out.”</em></li><li>Ask students: <em>“If you received this message at work, what critical pieces of information are missing that prevent you from taking immediate action?”</em></li><li>Collect 2-3 responses: What exact item? What quantity? By what deadline? Who is 'someone'? Where does it go?</li><li>Bridge with, <em>“In the professional world, vague writing wastes hours and causes operational gridlock. Today you learn to write actionable messages that allow readers to act immediately.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-12 - The Four Workplace Writing Checks", '''<p>Review FYF pp. 147-148 and establish the Four Writing Standards:</p><ul><li>1. <strong>Write for the Reader:</strong> Anticipate what the recipient needs to know to accomplish the task.</li><li>2. <strong>Be Clear and Concise:</strong> Cut fluff; state key facts in simple, direct language.</li><li>3. <strong>Stay on Topic:</strong> Include only details relevant to the immediate operational action.</li><li>4. <strong>Proofread for Accuracy:</strong> Verify dates, quantities, names, and contact protocols before sending.</li></ul>''')
+                    + flow("#1f617a", "Minutes 12-28 - Authoring the fictional Little Library community message", '''<p>Students draft a public-facing community update for a fictional Little Free Library.</p><ul><li>Students include: current book inventory status, specific genres needed, drop-off location, and an actionable invitation for neighborhood readers, plus two relevant hashtags.</li><li>Enforce data privacy: Never use real student home addresses, personal phone numbers, or social media handles.</li><li>Students posting to Canvas Discussion reply to ONE classmate using the <strong>Notice + Question + Next Step</strong> protocol. (Private paper route students complete the self-check).</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Lap 1 (Minute 18): Verify posts contain an explicit reader call-to-action.<br>• Lap 2 (Minute 24): Audit privacy compliance—zero real personal data.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 28-40 - Fixed-fact workplace message rewrite lab", '''<p>Direct students to the Workplace Message Companion.</p><ul><li>Students select ONE scenario: Supply Shortage, Patient Scheduling Delay, or Malfunctioning Diagnostic Equipment.</li><li>Constraint: <strong>Use ONLY the facts supplied in the brief.</strong> Never invent clinical diagnoses, legal policies, or unauthorized medical advice.</li><li>Draft the professional memo using the template: <em>“The [Equipment/Supply] is [Current Status]. Please [Specific Action] by [Deadline]. Direct questions to [Supervising Role].”</em></li></ul>''')
+                    + flow("#1f617a", "Minutes 40-47 - Cross-career communication transfer DOL", '''<p>Students answer the Day 4 Transfer Prompt.</p><ul><li>Compare how the intended audience changes when writing as a Dental Receptionist (patient-facing) vs. an IT Help Desk Technician (internal employee-facing).</li><li>Identify ONE writing standard that remains non-negotiable in both professions.</li></ul>''')
+                    + flow("#606c76", "Minutes 47-50 - Submit evidence and workspace reset", '''<p>Confirm discussion submissions or collect paper companion sheets.</p><ul><li><strong>Safe Trim:</strong> At minute 32, replace peer replies with individual self-audits to ensure all students complete the workplace rewrite and transfer check.</li></ul>''')
+                ),
                 "MONITOR": "<ul><li><strong>Warm-up CFU:</strong> identify missing status, audience, and requested action.</li><li><strong>Lap 1:</strong> check fictional status and reader action. If more than 1 in 4 posts includes identifying information, stop and reset the fictional-data rule.</li><li><strong>Lap 2:</strong> underline supplied workplace facts. Invented policy or medical guidance triggers revision from the facts only.</li><li><strong>Strong evidence:</strong> reader, exact status, requested action, safe routing, and one quality transferred across careers.</li><li><strong>Trim:</strong> use private self-check instead of peer reply. Do not cut workplace rewrite, transfer, or close.</li></ul>",
                 "SUPPORT": "<p>Place this beside the rewrite: <strong>“The ____ is ____. Please ____ by ____. Questions should go to ____.”</strong> Offer typed, handwritten, audio, and speech-to-text drafts. Do not grade hashtags or mechanics unless meaning is unclear.</p>",
                 "FALLBACK": "<p>Skip public posting for privacy, absence, or accommodation. FYF remains the Little Library surface; the one-page companion adds only the missing workplace rewrite and transfer evidence.</p>",
@@ -1120,30 +1071,13 @@ async def main():
                 "ALERT": "<strong>Fixed evidence is complete.</strong> CareerOneStop may generate suggestions, but the IT support specialist and dental assistant pair supports the same transfer analysis when the public tool is blocked or unfinished.",
                 "PREP": f'<ul><li><strong>Per student:</strong> 1 internet-connected device with CareerOneStop and Canvas access.</li><li><strong>Teacher:</strong> 1 display for Skills Matcher checkpoints and the fixed two-career pair.</li><li><strong>Print only for assigned students:</strong> 1 two-page {file_link(files["SYNTH"]["id"], "synthesis")} per paper-response student, double-sided when available.</li><li><strong>Grouping:</strong> individual/private Minor evidence; optional partner talk shares only non-sensitive patterns.</li><li>Open the unpublished <a href="{minor_url}">Communication and Goal Synthesis</a> and {file_link(files["RUBRIC"]["id"], "student-visible rubric")}.</li><li>Remind students to retrieve the CCE Six-Weeks Evidence Log from the CCE binder or teacher-designated digital folder named in Week 0. It stays with the student.</li></ul>',
                 "EVIDENCE": "<p>The four-part Canvas Minor includes a revised goal, time plan and backup, two Week 5 activity examples, two-career skill transfer, and one evidence-based next action. Entry 2 is a 2- to 3-minute transfer into the student-owned Evidence Log, not another Assignment, upload, or grade.</p>",
-                "FLOW": flow(
-                    "#5a2d91",
-                    "Communication-action warm-up · 4",
-                    "Name one real responsibility and the communication action it required.",
-                )
-                + flow(
-                    "#4a9d2f",
-                    "Week 5 evidence sort · 8",
-                    "Name two activities, visible actions, and what improved.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Skills Matcher · 20",
-                    "Rate in chunks of 10; record two suggestions and one pattern.",
-                )
-                + flow(
-                    "#e3ad19",
-                    "Private synthesis · 13",
-                    "Revise goal, time, backup, and transfer evidence.",
-                )
-                + flow(
-                    "#1f617a",
-                    "Submit/verify · 5",
-                    "Check report; copy five phrases into Entry 2 or an Entry 2 hold note; list absences/access failures.",
+                "FLOW": (
+                    flow("#5a2d91", "Minutes 0-5 - Welcome and communication responsibility warm-up", '''<p>Welcome students, seat them with their weekly work, and project the launch prompt.</p><ul><li>Ask, <em>“Think of ONE real responsibility you have managed—at school, at home, on an athletic team, in a church group, or in a club. What specific communication action did that responsibility require from you?”</em></li><li>Collect 2-3 student examples (e.g., explaining rules to younger siblings, coordinating group project roles, emailing a teacher about an absence).</li><li>Bridge with, <em>“Today we synthesize our Week 5 communication skills, evaluate our strengths using career data, and finalize our 16-point Major checkpoint.”</em></li></ul>''')
+                    + flow("#4a9d2f", "Minutes 5-13 - Week 5 communication evidence sort", '''<p>Students review their completed artifacts from Days 1 to 4.</p><ul><li>Students select TWO specific learning activities that demonstrated a core communication skill (e.g., Day 1 Conflict Plan, Day 2 Maria Triage Sort, Day 3 SMART Goal, or Day 4 Workplace Rewrite).</li><li>For each activity, log: (1) The specific situation, (2) The concrete communication action taken, and (3) The observable outcome or improvement achieved.</li></ul>''')
+                    + flow("#1f617a", "Minutes 13-33 - CareerOneStop Skills Matcher exploration", '''<p>Direct students to the online CareerOneStop Skills Matcher (or the fixed IT Support &amp; Dental Assistant reference pair).</p><ul><li>Students evaluate 40 skill and knowledge dimensions using the standard behavioral anchors.</li><li>Pause for structured progress checkpoints after Question 10, Question 20, and Question 30.</li><li>Students record two career suggestions generated by their responses and identify ONE surprising pattern in their skill cluster.</li><li>Emphasize: Skills Matcher results are reflective exploration tools, NOT permanent labels or career prescriptions.</li><li><strong>Active Monitoring Checkpoints:</strong><br>• Checkpoint 1 (Minute 18): Confirm all students have completed ratings 1-10.<br>• Checkpoint 2 (Minute 25): Checkpoint at rating 20.<br>• Checkpoint 3 (Minute 30): Checkpoint at rating 30.</li></ul>''')
+                    + flow("#e3ad19", "Minutes 33-45 - Private synthesis and goal revision (Major Checkpoint)", '''<p>Students author their formal Communication and Goal Synthesis for the 16-point Major:</p><ul><li>1. <strong>Goal Revision:</strong> Refine their Day 3 SMART goal using insights from the Skills Matcher.</li><li>2. <strong>Time &amp; Contingency:</strong> Re-verify their protected time blocks and If-Then obstacle plan.</li><li>3. <strong>Evidence Integration:</strong> Integrate the two Week 5 activity examples demonstrating their communication growth.</li><li>4. <strong>Transfer Analysis:</strong> Compare how this communication skill functions across two distinct careers.</li><li>Self-audit against the 16-point rubric before final submission.</li></ul>''')
+                    + flow("#24323d", "Minutes 45-48 - CCE Six-Weeks Evidence Log: Entry 2 capture", '''<p>Students open their CCE Six-Weeks Evidence Log (in their CCE binder or digital portfolio).</p><ul><li>Record the five required Entry 2 summary phrases:<br>• Artifact: <em>“Communication and Goal Synthesis”</em><br>• Core Skill: [Selected transferable communication skill]<br>• Observable Action: [Specific action from Week 5]<br>• Contingency Move: [If-Then backup plan]<br>• Next Action: [Evidence-based next step]</li><li>Return the log to its permanent storage folder (do NOT collect or grade separately).</li></ul>''')
+                    + flow("#606c76", "Minutes 48-50 - Submit Major and close", '''<p>Verify private Canvas submission of the Synthesis assignment or collect paper packets.</p><ul><li><strong>Safe Trim:</strong> At minute 32, if Skills Matcher is incomplete, transition immediately to the supplied IT Support &amp; Dental Assistant reference cards; protect the 16-point synthesis, rubric revision, and Evidence Log Entry 2.</li></ul>''')
                 ),
                 "MONITOR": "<ul><li><strong>Minute 12 CFU:</strong> two Week 5 examples name a visible communication action.</li><li><strong>Matcher checkpoints:</strong> after ratings 10, 20, and 30, verify progress and read anchors aloud if students click without reading.</li><li><strong>Synthesis lap:</strong> check revised goal, protected time, backup, two Week 5 activity examples, and one communication action across two careers. Prompt “What does the worker do with the skill?”</li><li><strong>Submit/check:</strong> verify five short Entry 2 phrases copied from the open synthesis: artifact, skill, visible action, backup as recovery, and next action. The log returns to the named CCE storage place and is not collected.</li><li><strong>Boundary:</strong> results are idea-generators from self-ratings, not identity or verdict. Use multiple sources and counselor discussion for decisions.</li><li><strong>Trim:</strong> at minute 32, stop after the current chunk and use the fixed IT support specialist and dental assistant pair in the Student Guide. Record Matcher incomplete; protect synthesis and submit.</li></ul>",
                 "SUPPORT": "<p>Place these beside the response: <strong>“I used ____ when I ____.” “The suggestions share ____ because I rated ____ as important.” “In ____, the worker uses ____ when ____.”</strong> Read anchors aloud in chunks. Private writing, audio, and teacher conference are equal.</p>",
