@@ -9,7 +9,7 @@ const BLS = D.SRC.bls("Data Scientists", "https://www.bls.gov/ooh/math/data-scie
 const GUIDE = "Emerging IT Career Evidence Guide (CCE-authored, build/worksheet_sources/wk3-emerging-careers-link-sheet.md; BLS OOH accessed 2026-08-09, May 2024 medians, 2024-34 projections).";
 const OUT = path.join(__dirname, "../../../docs/resources/slides", isPublic ? "public" : "", "1sw-wk3-day4.pptx");
 
-d.title("New job, or new name?", "Emerging IT careers, with evidence.", "College and Career Exploration · Week 3 · Day 4",
+d.title("Emerging IT careers", "Research one with dated evidence.", "College and Career Exploration · Week 3 · Day 4",
   "Bring your Chromebook and your Major 1 packet. No workbook today.",
   "Have this up as students walk in. Run time 50 minutes: warm-up 5, choose and model 8, research 30, evidence comparison exit 7. The Emerging IT Career Evidence Guide and the Research Template are both on the Day 4 page.", GUIDE);
 

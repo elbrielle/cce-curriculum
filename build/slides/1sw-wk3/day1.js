@@ -10,7 +10,7 @@ const BLS = D.SRC.bls("Network and Computer Systems Administrators", "https://ww
 const CARDS = "Networking Career Cards (CCE-authored, build/worksheet_sources/wk3-networking-career-cards.md; BLS OOH accessed 2026-08-09).";
 const OUT = path.join(__dirname, "../../../docs/resources/slides", isPublic ? "public" : "", "1sw-wk3-day1.pptx");
 
-d.title("Who keeps the Wi-Fi up?", "Networking and data careers.", "College and Career Exploration · Week 3 · Day 1",
+d.title("Networking careers", "Who keeps the Wi-Fi up?", "College and Career Exploration · Week 3 · Day 1",
   "Bring your notebook, a pencil, and your Chromebook. Find Your Future workbook only if you finish early (p. 38).",
   "Have this up as students walk in. Networking Career Cards printed or open on the Day 1 page. Run time 50 minutes: warm-up 5, compare four careers 22, transferable skills 15, exit ticket 8.", FYF);
 
@@ -27,14 +27,25 @@ d.title("Who keeps the Wi-Fi up?", "Networking and data careers.", "College and 
 // 3 · Today you will
 {
   const s = d.slide("Today you will");
-  d.numbered(s, ["Compare four careers that keep systems running: Network Administrator, Network Architect, Database Administrator, Systems Analyst.", "Record one technical task and one transferable skill for each.", "Stop and Jot: name a skill that transfers between two careers.", "Exit ticket: a Venn diagram, programming vs. networking."], 64, 205, 1152, 100, 22);
+  d.numbered(s, ["Learn what a network is and meet the four careers that keep one running.", "Record one technical task and one transferable skill for each.", "Stop and Jot: name a skill that transfers between two careers.", "Exit ticket: a Venn diagram, programming vs. networking."], 64, 205, 1152, 100, 22);
   d.meta(s, "Word of the day: transferable skill. A skill you can carry from one job to another.", 64, 625);
   d.notes(s, "30 seconds.", FYF);
 }
 
-// 4 · Four careers
+// 4 · What is a network
 {
-  const s = d.slide("Four careers, one network", "Networking Career Cards · link on the Day 1 page");
+  const s = d.slide("What is a network?");
+  d.image(s, "bls-network-photo.jpg", 64, 200, 448, 133);
+  d.meta(s, "Network cables in a server room (BLS video still)", 64, 340, 448, 15);
+  d.card(s, 550, 200, 666, 336);
+  d.body(s, "A network is a group of connected computers and devices that share information and resources.", 574, 220, 620, 100, 22, { bold: true });
+  d.body(s, "Your school Wi-Fi is a network. So is the bank app on a phone, and a text message on its way to someone.\n\nWhen it works, nobody notices. When it breaks, four kinds of people get called.", 574, 330, 620, 190, 19);
+  d.notes(s, "5-7 min. Read the definition once, then connect it to the warm-up: the Wi-Fi checklist students just made is the network. The four people who get called are the next slide.", "Definition: docs/1sw/wk3-computer-science-it/overview.md vocabulary. " + BLS);
+}
+
+// 5 · Four careers
+{
+  const s = d.slide("The four careers", "Networking Career Cards · link on the Day 1 page");
   const cards = [["Network Administrator", "Keeps the network running day to day: accounts, monitoring, troubleshooting, updates."], ["Network Architect", "Plans and designs the network: equipment, capacity, security, cost tradeoffs."], ["Database Administrator", "Organizes, protects, and backs up data so users get reliable answers."], ["Systems Analyst", "Studies how an organization works and recommends technology changes; translates between tech and non-tech teams."]];
   cards.forEach(([h, t], i) => {
     const x = 64 + (i % 2) * 588, y = 200 + Math.floor(i / 2) * 150;
@@ -43,20 +54,30 @@ d.title("Who keeps the Wi-Fi up?", "Networking and data careers.", "College and 
     d.body(s, t, x + 20, y + 50, 530, 80, 16);
   });
   d.image(s, "bls-netadmin.jpg", 64, 512, 458, 180);
-  d.body(s, "Where the cards come from: the BLS Occupational Outlook Handbook, the same site you will use on Day 4.\nThe cards give typical preparation for each career. Typical means common, not required by every employer.", 550, 520, 666, 160, 16, { color: C.muted });
-  d.notes(s, "5-9 min. Read the four cards once. Do not put salary numbers on the board today; the cards carry tasks and preparation only, and the exact salary work happens on Day 4 with dated figures. The BLS page shown is the source for the Network Administrator card.", CARDS + " " + BLS);
+  d.meta(s, "From the BLS Occupational Outlook Handbook.", 550, 520, 600, 16);
+  d.notes(s, "7-10 min. Read the four cards once. No salary numbers on the board today; the cards carry tasks and preparation only, and the salary work happens on Day 4 with dated figures. The BLS page shown is the source for the Network Administrator card. The cards say 'typical preparation'; if a student asks, typical means common, not required by every employer.", CARDS + " " + BLS);
 }
 
-// 5 · Work slide: compare
+// 6 · Quick check: who gets called
+{
+  const s = d.slide("Who gets called?", "30 seconds with a partner · Voice 1");
+  d.card(s, 64, 200, 1152, 170);
+  d.body(s, "The Wi-Fi is down Monday morning. Which of the four gets called first? Which one designed the network in the first place? Which one would notice if student data went missing?", 92, 224, 1100, 130, 24, { bold: true });
+  d.stem(s, "The ________ gets called first because their job is to ________.", 64, 400, 1150, "Say it like this", 24);
+  d.meta(s, "Two pairs share. Then open the cards.", 64, 520);
+  d.notes(s, "10-12 min. Fast. Administrator first, Architect designed it, Database Administrator watches the data. A wrong answer with a reason from the card is fine; that is the compare task starting early.", CARDS);
+}
+
+// 7 · Work slide: compare
 {
   const s = d.slide("Compare the four roles", "22 minutes · Voice 0 · Card set or notebook entry labeled 1SW Wk3 Networking");
   d.namedRows(s, [["Task", "One technical task this person does. Copy a verb from the card: monitor, back up, design, interview."], ["Skill", "One transferable skill this person needs, and why it matters in this job."]], 64, 200, 720, 120, 130, 18, [C.blue, C.pink]);
-  d.body(s, "Four rows: Network Administrator, Network Architect, Database Administrator, Systems Analyst. If you note a salary, keep the job title, place, and date next to it.", 64, 460, 720, 70, 16, { color: C.muted });
+  d.meta(s, "Four rows: Network Administrator, Network Architect, Database Administrator, Systems Analyst.", 64, 460, 720, 16);
   d.card(s, 820, 200, 396, 320);
   d.label(s, "Skills to pick from", 844, 214, 360);
   d.body(s, "problem-solving\ncommunication\nattention to detail\ntime management\nteamwork\ncuriosity\npatience under pressure", 844, 258, 350, 250, 18);
   d.extension(s, "Finished early? Find Your Future p. 38: open Hats & Ladders, Clusters, Information Technology, and do the App Exploration checklist.", 64, 550, 1152, 80);
-  d.notes(s, "9-31 min. Four rows, one per career. Lap 1 at minute 8: every student has a task verb for two careers. Lap 2 at minute 18: the skill column says why, not just the skill name. Students who record on the printed cards or in the notebook both count; use the response route your class set up in Week 0. The ten-skill list Doc is linked on the Day 1 page for students who want more choices than the seven on this slide.", CARDS + " " + CV + " " + FYF);
+  d.notes(s, "12-31 min. Four rows, one per career. Lap 1 at minute 8: every student has a task verb for two careers. Lap 2 at minute 18: the skill column says why, not just the skill name. Students who record on the printed cards or in the notebook both count; use the response route your class set up in Week 0. The ten-skill list Doc is linked on the Day 1 page for students who want more choices than the seven on this slide.", CARDS + " " + CV + " " + FYF);
 }
 
 // 6 · What is a transferable skill
@@ -68,7 +89,7 @@ d.title("Who keeps the Wi-Fi up?", "Networking and data careers.", "College and 
   d.card(s, 652, 200, 564, 300);
   d.label(s, "Transferable skill", 676, 214, 520, C.green);
   d.body(s, "Goes with you anywhere.\nExplain a problem to someone who is not technical. Notice the small detail that breaks everything. Stay calm when the system is down.", 676, 258, 520, 220, 20);
-  d.body(s, "Employers hire for the technical skill. They keep people for the transferable ones.", 64, 530, 1150, 50, 22, { bold: true });
+  d.body(s, "A technical skill gets you one job. A transferable skill goes with you to the next one.", 64, 530, 1150, 50, 22, { bold: true });
   d.notes(s, "31-34 min. One minute of teaching before the jot. Ask for one example of each from a student's own row before moving on.", CARDS);
 }
 

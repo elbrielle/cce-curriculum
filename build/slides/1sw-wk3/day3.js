@@ -52,7 +52,7 @@ d.title("From Wireframe to Wow", "Design an app before anyone writes code.", "Co
 
 // 6 · The four symbols and the four screens (Step 3)
 {
-  const s = d.slide("Four symbols, four screens", "Find Your Future p. 31 · Step 3");
+  const s = d.slide("Wireframe symbols", "Find Your Future p. 31 · Step 3");
   d.image(s, "p31-symbols.jpg", 64, 200, 720, 242, { licensed: true, fyfPage: 31 });
   d.card(s, 820, 200, 396, 242);
   d.label(s, "Every app needs", 844, 214, 360);

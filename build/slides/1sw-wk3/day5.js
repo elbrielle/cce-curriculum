@@ -9,7 +9,7 @@ const XL = D.SRC.xello("My Learning Styles lesson prerequisites, pp. 1-2");
 const XNAV = D.SRC.xello("Biases and career choices teacher slides, navigation slide (Home menu capture)");
 const OUT = path.join(__dirname, "../../../docs/resources/slides", isPublic ? "public" : "", "1sw-wk3-day5.pptx");
 
-d.title("How do you learn best?", "Xello: Learning Style quiz, then the lesson.", "College and Career Exploration · Week 3 · Day 5",
+d.title("Learning styles", "Xello quiz, then the lesson.", "College and Career Exploration · Week 3 · Day 5",
   "Bring your Chromebook. Turn in your Major 1 packet if you have not.",
   "Have this up as students walk in. Collect any late Major 1 packets before Xello opens. Run time 50 minutes: A/B/C prediction inside the first quiz block, quiz 20 (Voice 0, visible timer), lesson 30 (Voice 1 for the partner rehearsal inside it), connection sheet at the end of the lesson block.", XL);
 
