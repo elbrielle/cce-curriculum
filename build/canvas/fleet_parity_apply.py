@@ -48,7 +48,11 @@ def norm_keep_panel(h):
 
 
 def norm_panel(x):
+    """Canvas rewrites panel links on save (verifier tokens, data-api-* attributes); ignore that noise."""
     import re as _re
+    x = _re.sub(r"[?&]verifier=[A-Za-z0-9_-]+", "", x)
+    x = _re.sub(r'\s*data-api-(?:endpoint|returntype)="[^"]*"', "", x)
+    x = x.replace("https://learn.irvingisd.net", "")
     x = _re.sub(r"/courses/\d+/", "/courses/X/", x); x = _re.sub(r"/files/\d+", "/files/N", x)
     return _re.sub(r"\s+", " ", x)
 
@@ -186,7 +190,7 @@ def main():
                 if not sf:
                     continue
                 path = sfolders[sf["folder_id"]]["full_name"]
-                local = ROOT / "docs/resources/worksheets" / name
+                local = ROOT / ("docs/resources/slides" if name.endswith(".pptx") else "docs/resources/worksheets") / name
                 if a.apply:
                     up = upload_pdf(c, a.course, local, path)
                     report["uploaded"].append({"name": name, "id": up.get("id"), "folder": path})

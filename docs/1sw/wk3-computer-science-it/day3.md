@@ -20,6 +20,8 @@
 
 ---
 
+**Teacher slides:** [Day 3 classroom deck (PDF; workbook page images omitted)](../../resources/slides/public/1sw-wk3-day3-public.pdf). The full deck with Google Slides and PowerPoint versions is on the Canvas facilitator guide.
+
 ## Warm-Up (5 min)
 
 **WARM-UP: Open the app you use most on your phone. How many taps does it take to do the main thing you use it for? Where is the menu button?**

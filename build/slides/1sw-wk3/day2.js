@@ -9,7 +9,7 @@ const { C } = D;
 const FYF = D.SRC.fyf("28-29");
 const SITE = D.SRC.site("Paws & Claws Pet Supply (Hats & Ladders practice site)", "https://pawsandclaws.hatsandladders.com", "2026-09-15");
 const CV = D.SRC.canvas("2026-09-15");
-const OUT = path.join(__dirname, "../../../docs/resources/slides", isPublic ? "public" : "", "1sw-wk3-day2.pptx");
+const OUT = path.join(__dirname, "../../../docs/resources/slides", isPublic ? "public/1sw-wk3-day2-public.pptx" : "1sw-wk3-day2.pptx");
 
 // 1 · Title
 d.title("Website Revamp", "You are the UX designer.", "College and Career Exploration · Week 3 · Day 2",

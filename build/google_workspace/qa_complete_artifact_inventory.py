@@ -43,8 +43,8 @@ def main() -> None:
     summary = inventory.get("summary", {})
 
     require(summary.get("unit_count") == 36, "unit count must be 36")
-    require(summary.get("required_unit_release_references") == 305, "required release count must be 305")
-    require(summary.get("unique_required_sources") == 302, "unique source count must be 302")
+    require(summary.get("required_unit_release_references") == 310, "required release count must be 310")
+    require(summary.get("unique_required_sources") == 307, "unique source count must be 307")
     require(summary.get("missing_drive_release_references") == 0, "Drive release gaps remain")
     require(summary.get("excluded_artifacts") == 1, "excluded artifact count drift")
     require(
@@ -61,8 +61,8 @@ def main() -> None:
 
     state_by_address = {row["curriculum_address"]: row for row in state["units"]}
     require(len(state_by_address) == 36, "Drive state unit count drift")
-    require(state.get("expected_complete_release_references") == 305, "Drive state release contract drift")
-    require(state.get("expected_complete_unique_sources") == 302, "Drive state unique-source contract drift")
+    require(state.get("expected_complete_release_references") == 310, "Drive state release contract drift")
+    require(state.get("expected_complete_unique_sources") == 307, "Drive state unique-source contract drift")
 
     seen_ids: set[str] = set()
     seen_refs = 0
@@ -96,8 +96,8 @@ def main() -> None:
             unique_sources.add(source)
             seen_refs += 1
 
-    require(seen_refs == 305, f"expected 305 release references, found {seen_refs}")
-    require(len(unique_sources) == 302, f"expected 302 unique sources, found {len(unique_sources)}")
+    require(seen_refs == 310, f"expected 310 release references, found {seen_refs}")
+    require(len(unique_sources) == 307, f"expected 307 unique sources, found {len(unique_sources)}")
     print(
         "complete artifact QA: PASS "
         f"units=36 releases={seen_refs} unique_sources={len(unique_sources)} "

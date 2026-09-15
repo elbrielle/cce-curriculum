@@ -39,6 +39,7 @@ def norm(h: str) -> str:
     h = re.sub(r"data-api-returntype=\"[^\"]*\"", "", h)
     h = re.sub(r"<a([^>]*?)\s(class|title)=\"[^\"]*\"", r"<a\1", h)
     h = re.sub(r"data-api-endpoint=\"[^\"]*\"", "", h)
+    h = re.sub(r"\s+(/?>)", r"\1", h)  # Canvas rewrites `loading="lazy" >` as `loading="lazy">`
     h = re.sub(r"\s+", " ", h)
     return h.strip()
 

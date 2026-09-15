@@ -12,6 +12,6 @@ cd "$ROOT"
 for f in docs/resources/slides/${WEEK}-day*.pptx; do
   python3 build/slides/qa_deck.py "$f" | tail -1 | sed "s|^|$(basename "$f"): |"
 done
-for f in docs/resources/slides/public/${WEEK}-day*.pptx; do
+for f in docs/resources/slides/public/${WEEK}-day*-public.pptx; do
   python3 build/slides/qa_deck.py "$f" --out ".tmp/deck-qa/public-$(basename "$f" .pptx)" | tail -1 | sed "s|^|public/$(basename "$f"): |"
 done

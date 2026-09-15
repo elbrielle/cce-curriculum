@@ -262,7 +262,7 @@
       "six_weeks": 1,
       "week": 0,
       "day": 4,
-      "title": "CCE | 1SW Wk0 Day 4 | My Career Journey Reflection",
+      "title": "CCE | 1SW Wk0 Day 4 | My Career Journey",
       "subtitle": null,
       "layout_spec_status": "reviewed",
       "source": {
@@ -310,20 +310,16 @@
         }
       },
       "google_doc": {
-        "id": "1zE7zuPdx5arGs0IoTFhXjRxVvz4JZ-TVdG7NO1nNsjU",
-        "revision_id": "AIroW36Sdhxo13cQ9TaZNaCFvZrijrzfmzbAj4KBSZ06E69NPW649NzHfFF6WZ_Xf0ZaT6GQBYMN21mQTBYoi9HCPvmxUn_mTnzrFjXmEQ",
-        "semantic_hash": "e25d0e8d63e472457fd000cea32d8b65ceb33ba16fec79bd14db67ab8c1db74c",
-        "live_title": "CCE | 1SW Wk0 Day 4 | My Career Journey Reflection",
+        "id": "1glxwsWWh58UeP-3jkTMNJZj4u8s2YGN7ah6v6pNqlms",
+        "live_title": "CCE | 1SW Wk0 Day 4 | My Career Journey",
         "title_status": "current",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1zE7zuPdx5arGs0IoTFhXjRxVvz4JZ-TVdG7NO1nNsjU/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1zE7zuPdx5arGs0IoTFhXjRxVvz4JZ-TVdG7NO1nNsjU/export?format=pdf",
+        "status": "worksheet_doc_is_response_artifact_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1glxwsWWh58UeP-3jkTMNJZj4u8s2YGN7ah6v6pNqlms/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1glxwsWWh58UeP-3jkTMNJZj4u8s2YGN7ah6v6pNqlms/export?format=pdf",
         "folder_id": "117satomVUMXl-7fOFlYzTChD3__Fy0Mh",
         "folder_path": "VILS27/Units_CCR/SW1 · Wk0 Classroom Routines and Career Self-Discovery/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-final/1SW-Wk0-Day4/manifest.json",
-          "manifest_sha256": "d1900792cddb3a3ba72cf72be9d4d276167b05f2af7672b00dd9559841eed536"
-        }
+        "superseded_id": "1zE7zuPdx5arGs0IoTFhXjRxVvz4JZ-TVdG7NO1nNsjU",
+        "worksheet_slug": "my-career-journey"
       },
       "onenote": {
         "status": "pending",
@@ -690,20 +686,16 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1cVB33qTPmpVO8fReqlPuUrHC8zw7UtRFpgrDAGMf02o",
-        "revision_id": "AIroW36Id2VXJCtKdZcGnUdjZoKbwj1mZK-bNvp3hcBOafMNmSLVpl-ra43kxgi6NuDRbNpeSFEAjAmn2srzmBvDuZXg4W0nWVqMZyL2Fw",
-        "semantic_hash": "28c0641b6d40909b3b41a1ec8d3205410f1d1a76006ef63917d2ebfd86fac75b",
-        "live_title": "CCE | 1SW Wk1 Day 4 | Sphero Factory Floor + Task Bot in Action (Part 1)",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1cVB33qTPmpVO8fReqlPuUrHC8zw7UtRFpgrDAGMf02o/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1cVB33qTPmpVO8fReqlPuUrHC8zw7UtRFpgrDAGMf02o/export?format=pdf",
+        "id": "1aWZMGLmR-LujWdNiPdDRDO0cWcPVC-87HiRwviYGXmo",
+        "live_title": "CCE | 1SW Wk1 Day 4 | Robots for Crayons Evidence and Action Plan",
+        "title_status": "current",
+        "status": "worksheet_doc_is_response_artifact_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1aWZMGLmR-LujWdNiPdDRDO0cWcPVC-87HiRwviYGXmo/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1aWZMGLmR-LujWdNiPdDRDO0cWcPVC-87HiRwviYGXmo/export?format=pdf",
         "folder_id": "1rzbkQgCRD9YJyg7lhLSAdlyE6kkIGlnv",
         "folder_path": "VILS27/Units_CCR/SW1 · Wk1 Robotics and Manufacturing/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/1SW-Wk1-Day4/manifest.json",
-          "manifest_sha256": "3b8908708ec18a6b0f3ec0088c67d6ce80332366f4aa7d318559a9f11a7afe78"
-        }
+        "superseded_id": "1cVB33qTPmpVO8fReqlPuUrHC8zw7UtRFpgrDAGMf02o",
+        "worksheet_slug": "1sw-wk1-robots-for-crayons-action-plan"
       },
       "onenote": {
         "status": "pending",
@@ -1388,7 +1380,7 @@
       "six_weeks": 1,
       "week": 3,
       "day": 3,
-      "title": "CCE | 1SW Wk3 Day 3 | From Wireframe to Wow — Build the Screens",
+      "title": "CCE | 1SW Wk3 Day 3 | Wireframe Template and Symbol Key",
       "subtitle": null,
       "layout_spec_status": "reviewed",
       "source": {
@@ -1466,20 +1458,16 @@
         }
       },
       "google_doc": {
-        "id": "1SyQB5eeYORonPaLr8_U3LKUp7bC2BnECxTpsRST7OuU",
-        "revision_id": "AIroW37WbO-welYcczuRd2G4tcU_Cypi_lHHH9jtPzaeAmM606_mkRFilA2NqIteBKUQfibiSCI3TBhv1h6CTeTWLU5yp0uTsk-r36B4Fg",
-        "semantic_hash": "ff934cb1e7fc079a110a24868901db614391e0ed5362afa3e20476f3f907034d",
-        "live_title": "CCE | 1SW Wk3 Day 3 | From Wireframe to Wow — Build the Screens",
+        "id": "1Fe5GFJUaVwZC6a_j4GSTpBnuu4sAT9dvPm8UyQhv8BQ",
+        "live_title": "CCE | 1SW Wk3 Day 3 | Wireframe Template and Symbol Key",
         "title_status": "current",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1SyQB5eeYORonPaLr8_U3LKUp7bC2BnECxTpsRST7OuU/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1SyQB5eeYORonPaLr8_U3LKUp7bC2BnECxTpsRST7OuU/export?format=pdf",
+        "status": "worksheet_doc_is_response_artifact_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1Fe5GFJUaVwZC6a_j4GSTpBnuu4sAT9dvPm8UyQhv8BQ/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1Fe5GFJUaVwZC6a_j4GSTpBnuu4sAT9dvPm8UyQhv8BQ/export?format=pdf",
         "folder_id": "1fp1hKYqArYtxPPbzEjbqvKY4xaY7_ds0",
         "folder_path": "VILS27/Units_CCR/SW1 · Wk3 Computer Science IT/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-final/1SW-Wk3-Day3/manifest.json",
-          "manifest_sha256": "a9448be4212581f1a8b8e58d6426efe48ec37806e77e537a229cf54e174a356d"
-        }
+        "superseded_id": "1SyQB5eeYORonPaLr8_U3LKUp7bC2BnECxTpsRST7OuU",
+        "worksheet_slug": "wk3-wireframe-template"
       },
       "onenote": {
         "status": "pending",
@@ -1500,7 +1488,7 @@
       "six_weeks": 1,
       "week": 3,
       "day": 4,
-      "title": "CCE | 1SW Wk3 Day 4 | Emerging Tech Research — AI, Cloud, Data Science",
+      "title": "CCE | 1SW Wk3 Day 4 | Emerging and Established IT Career Comparison",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -1563,20 +1551,16 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1sKheqR2Fpbh2qA0EY0tDkhRh_X6eRuRgarR9dUQUJ1I",
-        "revision_id": "AIroW3791KdeMtuVruBMgHm42mKer-4m1vUfkoDw-TsmbD9-q-jAjWxrg4cbAGMTg-tIGEaRfJTxit7D5_YxeHSRXpFZqTdCFfejRmBpew",
-        "semantic_hash": "f21b2606497d86cc1b415d0f3af5183434302c4dfac2430ca48c97a282f30f3d",
-        "live_title": "CCE | 1SW Wk3 Day 4 | Emerging Tech Research - AI, Cloud, Data Science",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1sKheqR2Fpbh2qA0EY0tDkhRh_X6eRuRgarR9dUQUJ1I/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1sKheqR2Fpbh2qA0EY0tDkhRh_X6eRuRgarR9dUQUJ1I/export?format=pdf",
+        "id": "1cE_b8vTjUWUqZ-HLSx5fV-Mz3vGZwIR7Kwi765GTHAg",
+        "live_title": "CCE | 1SW Wk3 Day 4 | Emerging and Established IT Career Comparison",
+        "title_status": "current",
+        "status": "worksheet_doc_is_response_artifact_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1cE_b8vTjUWUqZ-HLSx5fV-Mz3vGZwIR7Kwi765GTHAg/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1cE_b8vTjUWUqZ-HLSx5fV-Mz3vGZwIR7Kwi765GTHAg/export?format=pdf",
         "folder_id": "1fp1hKYqArYtxPPbzEjbqvKY4xaY7_ds0",
         "folder_path": "VILS27/Units_CCR/SW1 · Wk3 Computer Science IT/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/1SW-Wk3-Day4/manifest.json",
-          "manifest_sha256": "05243875436146faf4dce2fd79f3583725b0bf837e53cbf07efcdc2ee7ea5654"
-        }
+        "superseded_id": "1sKheqR2Fpbh2qA0EY0tDkhRh_X6eRuRgarR9dUQUJ1I",
+        "worksheet_slug": "wk3-day4-career-comparison"
       },
       "onenote": {
         "status": "pending",
@@ -1597,7 +1581,7 @@
       "six_weeks": 1,
       "week": 3,
       "day": 5,
-      "title": "CCE | 1SW Wk3 Day 5 | Xello Learning Style and Learning Styles Lesson",
+      "title": "CCE | 1SW Wk3 Day 5 | Learning Styles: Method to Task Connection",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -1643,20 +1627,16 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1CwP4DQm1ZtIE4r_TtmaJ9sb3rOHMIhjketbj1HZPyN0",
-        "revision_id": "AIroW37C54jvpw4Ykge3dxw2HgYIsumV00hmAnedmTZtnnDOhT4Kwtf34_zFFOq0su818czHn-3VkB7C4D0FpITAu0o0l6B5fl5LDOrtFA",
-        "semantic_hash": "b3b45d8e0d4099299faa7a772218babe8f36a0e5771cdd9ba849fdc33ef2b221",
-        "live_title": "CCE | 1SW Wk3 Day 5 | Mini-Presentations + Xello Skills + Wk3 Wrap-Up",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1CwP4DQm1ZtIE4r_TtmaJ9sb3rOHMIhjketbj1HZPyN0/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1CwP4DQm1ZtIE4r_TtmaJ9sb3rOHMIhjketbj1HZPyN0/export?format=pdf",
+        "id": "1Sq-5Z3rtrWFZ2TUokdILuyhUHsBBJnA0Hgyyk9nP1AE",
+        "live_title": "CCE | 1SW Wk3 Day 5 | Learning Styles: Method to Task Connection",
+        "title_status": "current",
+        "status": "worksheet_doc_is_response_artifact_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1Sq-5Z3rtrWFZ2TUokdILuyhUHsBBJnA0Hgyyk9nP1AE/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1Sq-5Z3rtrWFZ2TUokdILuyhUHsBBJnA0Hgyyk9nP1AE/export?format=pdf",
         "folder_id": "1fp1hKYqArYtxPPbzEjbqvKY4xaY7_ds0",
         "folder_path": "VILS27/Units_CCR/SW1 · Wk3 Computer Science IT/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/1SW-Wk3-Day5/manifest.json",
-          "manifest_sha256": "74b6cba2f65bb69776a2a29c7284038d3b12656909e013e22b6fd7a3c16c1f89"
-        }
+        "superseded_id": "1CwP4DQm1ZtIE4r_TtmaJ9sb3rOHMIhjketbj1HZPyN0",
+        "worksheet_slug": "wk3-day5-learning-style-connection"
       },
       "onenote": {
         "status": "pending",
@@ -1677,7 +1657,7 @@
       "six_weeks": 1,
       "week": 4,
       "day": 1,
-      "title": "CCE | 1SW Wk4 Day 1 | IT Support Careers and Interests",
+      "title": "CCE | 1SW Wk4 Day 1 | IT Support Career and Interest Check",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -1727,20 +1707,16 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1kgqmYYU7_c9uVBvUiVdgaC7TutKs5Pq7VInyeSs75HY",
-        "revision_id": "AIroW34PKEaeCCTGn635KYabMN5-0K5dwScxHiRfznEZSoDMHnu-sCCFGpPKxFVfoFwf-iZbMY2L3Bwr6KrkMJy6J57NqN8GQ3-J8Najmg",
-        "semantic_hash": "508ddc40550383b32bdfe38a054bfc9083740eae9b582358484f0292e543caf0",
-        "live_title": "CCE | 1SW Wk4 Day 1 | IT Support Pathway Exploration",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1kgqmYYU7_c9uVBvUiVdgaC7TutKs5Pq7VInyeSs75HY/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1kgqmYYU7_c9uVBvUiVdgaC7TutKs5Pq7VInyeSs75HY/export?format=pdf",
+        "id": "1JUwB_fm6ilE3_zVrQGESyRlpMUzaPG16cr979NbrbpE",
+        "live_title": "CCE | 1SW Wk4 Day 1 | IT Support Career and Interest Check",
+        "title_status": "current",
+        "status": "worksheet_doc_is_response_artifact_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1JUwB_fm6ilE3_zVrQGESyRlpMUzaPG16cr979NbrbpE/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1JUwB_fm6ilE3_zVrQGESyRlpMUzaPG16cr979NbrbpE/export?format=pdf",
         "folder_id": "1KR0k9ce3tOE9rZ28H7bL_f3m_WcQw7Pv",
         "folder_path": "VILS27/Units_CCR/SW1 · Wk4 Tech Support IT/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/1SW-Wk4-Day1/manifest.json",
-          "manifest_sha256": "f6926bb10a208102d210fff07268a279171f09c7227aa719cea8505b9c582f41"
-        }
+        "superseded_id": "1kgqmYYU7_c9uVBvUiVdgaC7TutKs5Pq7VInyeSs75HY",
+        "worksheet_slug": "wk4-day1-career-interest-check"
       },
       "onenote": {
         "status": "pending",
@@ -1761,7 +1737,7 @@
       "six_weeks": 1,
       "week": 4,
       "day": 2,
-      "title": "CCE | 1SW Wk4 Day 2 | Compare IT Education Routes",
+      "title": "CCE | 1SW Wk4 Day 2 | Education Route Decision",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -1846,20 +1822,16 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1diF5-6KXuEO3fYTvdoE4uN-Typ2CgKJhq0o1-QCMGcM",
-        "revision_id": "AIroW37JuGwAnMprINR5ZjLmx-tv1vxmS9qOB24hoUJxSWDYSKM8A7U_-zJEP57xoC683pS7DxyELn53-UFbLMFeOEAJivDas_Kqvv5AfQ",
-        "semantic_hash": "58f2b910364b81acb2e14530e9b3d8e3b152b5b8afb4470909545942364a8723",
-        "live_title": "CCE | 1SW Wk4 Day 2 | Certification Deep-Dive - CompTIA Roadmap",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1diF5-6KXuEO3fYTvdoE4uN-Typ2CgKJhq0o1-QCMGcM/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1diF5-6KXuEO3fYTvdoE4uN-Typ2CgKJhq0o1-QCMGcM/export?format=pdf",
+        "id": "1LzBUgdlRD0Iq-X179GksvOhdgxf_mV3uz4OOYFvhqR8",
+        "live_title": "CCE | 1SW Wk4 Day 2 | Education Route Decision",
+        "title_status": "current",
+        "status": "worksheet_doc_is_response_artifact_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1LzBUgdlRD0Iq-X179GksvOhdgxf_mV3uz4OOYFvhqR8/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1LzBUgdlRD0Iq-X179GksvOhdgxf_mV3uz4OOYFvhqR8/export?format=pdf",
         "folder_id": "1KR0k9ce3tOE9rZ28H7bL_f3m_WcQw7Pv",
         "folder_path": "VILS27/Units_CCR/SW1 · Wk4 Tech Support IT/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/1SW-Wk4-Day2/manifest.json",
-          "manifest_sha256": "7baf5451d8f57b2e783297cea89e8aa16cb5ff9ca6c204e180d97ede29516ba5"
-        }
+        "superseded_id": "1diF5-6KXuEO3fYTvdoE4uN-Typ2CgKJhq0o1-QCMGcM",
+        "worksheet_slug": "wk4-day2-route-decision"
       },
       "onenote": {
         "status": "pending",
@@ -1987,7 +1959,7 @@
       "six_weeks": 1,
       "week": 4,
       "day": 4,
-      "title": "CCE | 1SW Wk4 Day 4 | Test, Revise, and Help the User",
+      "title": "CCE | 1SW Wk4 Day 4 | Customer Service Check",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -2059,20 +2031,16 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1aHRxyuAAszggAPHnuTbgI3iE5qTIKUuDj8lSEXe_NHE",
-        "revision_id": "AIroW362UuZaaMDNMJqEVOv7Sa-eIUbDYcvDAXbIGgcb-N4xcOaruUuR9LsfX-rPntILnpqCQ53AxzSYNyR9Adn95QRSvTqJINd34A-3DQ",
-        "semantic_hash": "a596feedf2399bc149c129116043fea7bfd8a8e1e5df2d7244b6b6c5064236cb",
-        "live_title": "CCE | 1SW Wk4 Day 4 | Refine the Help Desk Tool + Customer Service Role-Play",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1aHRxyuAAszggAPHnuTbgI3iE5qTIKUuDj8lSEXe_NHE/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1aHRxyuAAszggAPHnuTbgI3iE5qTIKUuDj8lSEXe_NHE/export?format=pdf",
+        "id": "1hR7RIoajHqTTmEVK45aF62Dpg76IZeUY5HFKjtB7V84",
+        "live_title": "CCE | 1SW Wk4 Day 4 | Customer Service Check",
+        "title_status": "current",
+        "status": "worksheet_doc_is_response_artifact_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1hR7RIoajHqTTmEVK45aF62Dpg76IZeUY5HFKjtB7V84/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1hR7RIoajHqTTmEVK45aF62Dpg76IZeUY5HFKjtB7V84/export?format=pdf",
         "folder_id": "1KR0k9ce3tOE9rZ28H7bL_f3m_WcQw7Pv",
         "folder_path": "VILS27/Units_CCR/SW1 · Wk4 Tech Support IT/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/1SW-Wk4-Day4/manifest.json",
-          "manifest_sha256": "e4491f8f99a47715520f8558dc97fccdcfc0801dbc7ba22d635042b14b942bcc"
-        }
+        "superseded_id": "1aHRxyuAAszggAPHnuTbgI3iE5qTIKUuDj8lSEXe_NHE",
+        "worksheet_slug": "wk4-day4-customer-service-check"
       },
       "onenote": {
         "status": "pending",
@@ -2093,7 +2061,7 @@
       "six_weeks": 1,
       "week": 4,
       "day": 5,
-      "title": "CCE | 1SW Wk4 Day 5 | Show the Logic and Add a Skill",
+      "title": "CCE | 1SW Wk4 Day 5 | Xello Skill and Help Desk Connection",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -2143,20 +2111,16 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "19g8jcaDFi4wx-DbAvgy5WkOGUYDHNvpA3h_hHldTBE8",
-        "revision_id": "AIroW35U-TTSUePlqUgrZr-ow7Agkvr_CEyjg-xRBQ3qOg5PuY7KaRdS7Q5wqk7qyP1tTobnX1l-WRGGg93a_WahKUSukSn8DMFey07XLA",
-        "semantic_hash": "0e1b4ad10012335a639534659290935138d387fafb6d199adefecf825d806c6b",
-        "live_title": "CCE | 1SW Wk4 Day 5 | Help Desk Demos + H&L IT Support Favorites",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/19g8jcaDFi4wx-DbAvgy5WkOGUYDHNvpA3h_hHldTBE8/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/19g8jcaDFi4wx-DbAvgy5WkOGUYDHNvpA3h_hHldTBE8/export?format=pdf",
+        "id": "1tgIV9mDN2BRLxSNJM9B81Ax0fLvnlzoirubo-aqTPoY",
+        "live_title": "CCE | 1SW Wk4 Day 5 | Xello Skill and Help Desk Connection",
+        "title_status": "current",
+        "status": "worksheet_doc_is_response_artifact_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1tgIV9mDN2BRLxSNJM9B81Ax0fLvnlzoirubo-aqTPoY/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1tgIV9mDN2BRLxSNJM9B81Ax0fLvnlzoirubo-aqTPoY/export?format=pdf",
         "folder_id": "1KR0k9ce3tOE9rZ28H7bL_f3m_WcQw7Pv",
         "folder_path": "VILS27/Units_CCR/SW1 · Wk4 Tech Support IT/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/1SW-Wk4-Day5/manifest.json",
-          "manifest_sha256": "d8e9f88a720f6cf1a51abc7aedaa57bb5b62e33871e31887e8c6082f986885c0"
-        }
+        "superseded_id": "19g8jcaDFi4wx-DbAvgy5WkOGUYDHNvpA3h_hHldTBE8",
+        "worksheet_slug": "wk4-day5-xello-skill-connection"
       },
       "onenote": {
         "status": "pending",
@@ -2177,7 +2141,7 @@
       "six_weeks": 1,
       "week": 5,
       "day": 1,
-      "title": "CCE | 1SW Wk5 Day 1 | Evaluate an Emerging Cybersecurity Occupation",
+      "title": "CCE | 1SW Wk5 Day 1 | Cybersecurity Career Route Guide",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -2214,20 +2178,16 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1lcaNjnnO9B-EpnDnb9v8Rw5ui-nE_S67jV8R4ddAjnE",
-        "revision_id": "AIroW37-P98mR7MNSkpDdrgb6nnprUKnJb-enOWqxzCilcpC4RzXJTlyVWj3Ryz7r25nPfdeaXWnMfegQNYNZE-f2GqTDBAep9HLb-jfsw",
-        "semantic_hash": "93b7fb07e87ade667952e99b80f12596a752a9f832b40f99ee8268ace514c056",
-        "live_title": "CCE | 1SW Wk5 Day 1 | Cybersecurity Pathway + CyberSeek Career Map",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1lcaNjnnO9B-EpnDnb9v8Rw5ui-nE_S67jV8R4ddAjnE/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1lcaNjnnO9B-EpnDnb9v8Rw5ui-nE_S67jV8R4ddAjnE/export?format=pdf",
+        "id": "1S4DTJcS1mHmy22gexg4sfUneIM8LU8jCdk8w4PTk4bg",
+        "live_title": "CCE | 1SW Wk5 Day 1 | Cybersecurity Career Route Guide",
+        "title_status": "current",
+        "status": "worksheet_doc_is_response_artifact_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1S4DTJcS1mHmy22gexg4sfUneIM8LU8jCdk8w4PTk4bg/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1S4DTJcS1mHmy22gexg4sfUneIM8LU8jCdk8w4PTk4bg/export?format=pdf",
         "folder_id": "1kB3g7_VuuPB9C66e-0KdRKygHFuOG1rR",
         "folder_path": "VILS27/Units_CCR/SW1 · Wk5 Cybersecurity IT/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/1SW-Wk5-Day1/manifest.json",
-          "manifest_sha256": "9bc6c2a6d048ee6fd949e335696f1f2fc4cde341a6f944fe6e6caff5bf0ff679"
-        }
+        "superseded_id": "1lcaNjnnO9B-EpnDnb9v8Rw5ui-nE_S67jV8R4ddAjnE",
+        "worksheet_slug": "wk5-cyberseek-pathway"
       },
       "onenote": {
         "status": "pending",
@@ -2248,7 +2208,7 @@
       "six_weeks": 1,
       "week": 5,
       "day": 2,
-      "title": "CCE | 1SW Wk5 Day 2 | Safe or Spoofed?",
+      "title": "CCE | 1SW Wk5 Day 2 | Phishing Red-Flag Checklist",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -2285,20 +2245,16 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1VDXTMJS3kLiOa00f74Td0WmgulM9YlapVemkWJTzBAU",
-        "revision_id": "AIroW350shmy7SymqPHe_aOoVT-H7qRk1jbhefIjxkAZetWmiRUJdjQ-iVzcOUq-iebXzFLkvYPvZYT41fxBSpSPr53w21T0sOra-GCqVg",
-        "semantic_hash": "46b69ca58d6ff8ea7dc355a0376b1523604346e403127ca1377e67a83c42d195",
-        "live_title": "CCE | 1SW Wk5 Day 2 | Cybersecurity in Action - Cyber Safety Creator (Day 1)",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1VDXTMJS3kLiOa00f74Td0WmgulM9YlapVemkWJTzBAU/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1VDXTMJS3kLiOa00f74Td0WmgulM9YlapVemkWJTzBAU/export?format=pdf",
+        "id": "1s7luuwUIYaaRjgVZ5t103eBhyaKAAYvue7Elue3aQfc",
+        "live_title": "CCE | 1SW Wk5 Day 2 | Phishing Red-Flag Checklist",
+        "title_status": "current",
+        "status": "worksheet_doc_is_response_artifact_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1s7luuwUIYaaRjgVZ5t103eBhyaKAAYvue7Elue3aQfc/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1s7luuwUIYaaRjgVZ5t103eBhyaKAAYvue7Elue3aQfc/export?format=pdf",
         "folder_id": "1kB3g7_VuuPB9C66e-0KdRKygHFuOG1rR",
         "folder_path": "VILS27/Units_CCR/SW1 · Wk5 Cybersecurity IT/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/1SW-Wk5-Day2/manifest.json",
-          "manifest_sha256": "c94923423b0b641dc98fbddfd3fe5f001e5c1c9bbae44a0dd200348e7a845cfc"
-        }
+        "superseded_id": "1VDXTMJS3kLiOa00f74Td0WmgulM9YlapVemkWJTzBAU",
+        "worksheet_slug": "wk5-red-flag-checklist"
       },
       "onenote": {
         "status": "pending",
@@ -2319,7 +2275,7 @@
       "six_weeks": 1,
       "week": 5,
       "day": 3,
-      "title": "CCE | 1SW Wk5 Day 3 | Plan a Community Cybersecurity Bootcamp",
+      "title": "CCE | 1SW Wk5 Day 3 | Cybersecurity Bootcamp Plan",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -2382,20 +2338,16 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "14rUClKAKFikhGm_LZWPoz5t5AdzlRr_5hJ7kELQFdc4",
-        "revision_id": "AIroW34W6MT2tBvwmlVOFqDkwAdtmf1aK7i8uLKUc2H5vKztXSlKHPa5mvURiVAx1yJWsE9lCZ8cX_O7OqrAWG15yvl7UBv8zBS_YbxkSA",
-        "semantic_hash": "7eb029fe651c581e9f2307630fd1749175fd5643da90fa96e45bbcb74692251b",
-        "live_title": "CCE | 1SW Wk5 Day 3 | Cyber Safety Peer Feedback + Integrity in the Workplace",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/14rUClKAKFikhGm_LZWPoz5t5AdzlRr_5hJ7kELQFdc4/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/14rUClKAKFikhGm_LZWPoz5t5AdzlRr_5hJ7kELQFdc4/export?format=pdf",
+        "id": "1-1rJrIlxB2scFp3Xq-WziFkkys2KLQS-R4vQILmF-Cs",
+        "live_title": "CCE | 1SW Wk5 Day 3 | Cybersecurity Bootcamp Plan",
+        "title_status": "current",
+        "status": "worksheet_doc_is_response_artifact_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1-1rJrIlxB2scFp3Xq-WziFkkys2KLQS-R4vQILmF-Cs/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1-1rJrIlxB2scFp3Xq-WziFkkys2KLQS-R4vQILmF-Cs/export?format=pdf",
         "folder_id": "1kB3g7_VuuPB9C66e-0KdRKygHFuOG1rR",
         "folder_path": "VILS27/Units_CCR/SW1 · Wk5 Cybersecurity IT/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/1SW-Wk5-Day3/manifest.json",
-          "manifest_sha256": "06f6c17c56c0a67ee5c4c3e44dd42fd4843b31b035942996405cb44c022baa23"
-        }
+        "superseded_id": "14rUClKAKFikhGm_LZWPoz5t5AdzlRr_5hJ7kELQFdc4",
+        "worksheet_slug": "wk5-bootcamp-planning-template"
       },
       "onenote": {
         "status": "pending",
@@ -2416,7 +2368,7 @@
       "six_weeks": 1,
       "week": 5,
       "day": 4,
-      "title": "CCE | 1SW Wk5 Day 4 | Strengthen Cybersecurity Career Evidence",
+      "title": "CCE | 1SW Wk5 Day 4 | Cybersecurity Career Route Guide",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -2453,20 +2405,16 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1tG31h90eP3z4-7gxB_9Fg6UHzjJgiGnd3p4MNCbligE",
-        "revision_id": "AIroW35ev1WvimuCAV-JA3p5GqeAcy4Vbsi8wyRh0agY9nwlejRlFL_JOpg5h-Hbct6Fjf9YrUxgiO1HeG7mugZ5_ooO0LzLkNN1zyP4nQ",
-        "semantic_hash": "31d0dca6cfb5899c6a0fb89380c10441da91597a875abc065ddd67170b44dc3e",
-        "live_title": "CCE | 1SW Wk5 Day 4 | Glowforge College - Career Logo Design",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1tG31h90eP3z4-7gxB_9Fg6UHzjJgiGnd3p4MNCbligE/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1tG31h90eP3z4-7gxB_9Fg6UHzjJgiGnd3p4MNCbligE/export?format=pdf",
+        "id": "1S4DTJcS1mHmy22gexg4sfUneIM8LU8jCdk8w4PTk4bg",
+        "live_title": "CCE | 1SW Wk5 Day 4 | Cybersecurity Career Route Guide",
+        "title_status": "current",
+        "status": "worksheet_doc_is_response_artifact_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1S4DTJcS1mHmy22gexg4sfUneIM8LU8jCdk8w4PTk4bg/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1S4DTJcS1mHmy22gexg4sfUneIM8LU8jCdk8w4PTk4bg/export?format=pdf",
         "folder_id": "1kB3g7_VuuPB9C66e-0KdRKygHFuOG1rR",
         "folder_path": "VILS27/Units_CCR/SW1 · Wk5 Cybersecurity IT/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/1SW-Wk5-Day4/manifest.json",
-          "manifest_sha256": "4a656c8632b935bf340f05173086604dcf720cb36f07c51cfa32382866d74ab1"
-        }
+        "superseded_id": "1tG31h90eP3z4-7gxB_9Fg6UHzjJgiGnd3p4MNCbligE",
+        "worksheet_slug": "wk5-cyberseek-pathway"
       },
       "onenote": {
         "status": "pending",
@@ -2487,7 +2435,7 @@
       "six_weeks": 1,
       "week": 5,
       "day": 5,
-      "title": "CCE | 1SW Wk5 Day 5 | Capstone Goal, Transitions, and Reflection",
+      "title": "CCE | 1SW Wk5 Day 5 | My Career Journey - 1st Six Weeks Update",
       "subtitle": null,
       "layout_spec_status": "reviewed",
       "source": {
@@ -2565,20 +2513,16 @@
         }
       },
       "google_doc": {
-        "id": "1QKZLyhP4bQUoHRi27u4RX0RHaY6y0XCetS2akxlBeOg",
-        "revision_id": "AIroW34tVOXXw4XFaotVGhC44ZYmNIcSM11flvuI31wLiXckfdxs2pLkTQe2qaWtGuyUbNdPd4nBURVK1RvSdmrCvUhtH7s10cJHQoUFFQ",
-        "semantic_hash": "3029e72b4c3a8b2f3b6832860d411de3841397448d38c2883c7a9a541af19407",
-        "live_title": "CCE | 1SW Wk5 Day 5 | Capstone Goal, Transitions, and Reflection",
+        "id": "1jYudqvWzhtNv7ttp5IwYnxhh4HXUN9z8e29zBIJq3tQ",
+        "live_title": "CCE | 1SW Wk5 Day 5 | My Career Journey - 1st Six Weeks Update",
         "title_status": "current",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1QKZLyhP4bQUoHRi27u4RX0RHaY6y0XCetS2akxlBeOg/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1QKZLyhP4bQUoHRi27u4RX0RHaY6y0XCetS2akxlBeOg/export?format=pdf",
+        "status": "worksheet_doc_is_response_artifact_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1jYudqvWzhtNv7ttp5IwYnxhh4HXUN9z8e29zBIJq3tQ/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1jYudqvWzhtNv7ttp5IwYnxhh4HXUN9z8e29zBIJq3tQ/export?format=pdf",
         "folder_id": "1kB3g7_VuuPB9C66e-0KdRKygHFuOG1rR",
         "folder_path": "VILS27/Units_CCR/SW1 · Wk5 Cybersecurity IT/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-final/1SW-Wk5-Day5/manifest.json",
-          "manifest_sha256": "0098788f76d810d2531f96bb9180a80b356b8ffd4319edaefdf6c6af5a1d2688"
-        }
+        "superseded_id": "1QKZLyhP4bQUoHRi27u4RX0RHaY6y0XCetS2akxlBeOg",
+        "worksheet_slug": "wk5-reflection-update-template"
       },
       "onenote": {
         "status": "pending",
@@ -2599,7 +2543,7 @@
       "six_weeks": 2,
       "week": 1,
       "day": 1,
-      "title": "CCE | 2SW Wk1 Day 1 | Law and Public Safety Cluster Tour + Legal Career Research",
+      "title": "CCE | 2SW Wk1 Day 1 | Exit Ticket (Comparison Matrix)",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -2645,20 +2589,15 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "17cTOaP2ajzm6zH1GS5ckRHSQBtQUiHWsAoITs5J5vTI",
-        "revision_id": "AIroW35zoL8opODftkaIcwoIUdTHzd9y5XavfhGMmJ5i5iZqHl6K2As1jMKHasVdvaEcdCjvAr4PBEBnPSD3fuTpFnkHlaa8GKjE-g00BQ",
-        "semantic_hash": "4c81835494f94bdb6cc281da249fc332246752fbe6cd63af370ec8c764a08879",
-        "live_title": "CCE | 2SW Wk1 Day 1 | Law Cluster Tour + Legal Services Pathway",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/17cTOaP2ajzm6zH1GS5ckRHSQBtQUiHWsAoITs5J5vTI/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/17cTOaP2ajzm6zH1GS5ckRHSQBtQUiHWsAoITs5J5vTI/export?format=pdf",
+        "id": "1IfwZtzVPSHiBW3NH5Mm5cCaXMkMM08wBTTlnMq_k2Sc",
+        "live_title": "CCE | 2SW Wk1 Day 1 | Exit Ticket (Comparison Matrix)",
+        "title_status": "current",
+        "status": "regenerated_from_day_plan_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1IfwZtzVPSHiBW3NH5Mm5cCaXMkMM08wBTTlnMq_k2Sc/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1IfwZtzVPSHiBW3NH5Mm5cCaXMkMM08wBTTlnMq_k2Sc/export?format=pdf",
         "folder_id": "15kBnCNKBdRbrBCADz-xCgIZpAWBi3rYk",
         "folder_path": "VILS27/Units_CCR/SW2 · Wk1 Legal Studies/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/2SW-Wk1-Day1/manifest.json",
-          "manifest_sha256": "7eccb5e00949ddad389c6add3ee709e82eeede5149b38deb00039fb472048361"
-        }
+        "superseded_id": "17cTOaP2ajzm6zH1GS5ckRHSQBtQUiHWsAoITs5J5vTI"
       },
       "onenote": {
         "status": "pending",
@@ -2750,7 +2689,7 @@
       "six_weeks": 2,
       "week": 1,
       "day": 3,
-      "title": "CCE | 2SW Wk1 Day 3 | City Council in Action — Draft the Town Laws",
+      "title": "CCE | 2SW Wk1 Day 3 | Exit Ticket (Decision Tree / Branching Prompt)",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -2787,20 +2726,15 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1WICiATYetS00c7aDot0AiELiWlrci50KmULFA4EjmxA",
-        "revision_id": "AIroW35ddxNKnNPWDdcANzk7Svkqob7kjeB4ey7AycP6rTmhqADV3mnlFEXPNvDuhGSAydkOYHF3Tj9ZIyMgOK_b0w5l0LAM8q7G385Fgg",
-        "semantic_hash": "2b56a4bb5d5ce343fe3f66a3e301afb6386b47d5c677dfd3dc056cfe2d6df5fe",
-        "live_title": "CCE | 2SW Wk1 Day 3 | iCivics - Justice in Action",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1WICiATYetS00c7aDot0AiELiWlrci50KmULFA4EjmxA/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1WICiATYetS00c7aDot0AiELiWlrci50KmULFA4EjmxA/export?format=pdf",
+        "id": "1McTaE9rjt5UMb0hR_gX5oAhaTLHU7ciWh4y9BCoe69I",
+        "live_title": "CCE | 2SW Wk1 Day 3 | Exit Ticket (Decision Tree / Branching Prompt)",
+        "title_status": "current",
+        "status": "regenerated_from_day_plan_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1McTaE9rjt5UMb0hR_gX5oAhaTLHU7ciWh4y9BCoe69I/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1McTaE9rjt5UMb0hR_gX5oAhaTLHU7ciWh4y9BCoe69I/export?format=pdf",
         "folder_id": "15kBnCNKBdRbrBCADz-xCgIZpAWBi3rYk",
         "folder_path": "VILS27/Units_CCR/SW2 · Wk1 Legal Studies/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/2SW-Wk1-Day3/manifest.json",
-          "manifest_sha256": "ccd33b75508f0d390acfc012df45048e00baed20e198afb4f233103d9eb21c45"
-        }
+        "superseded_id": "1WICiATYetS00c7aDot0AiELiWlrci50KmULFA4EjmxA"
       },
       "onenote": {
         "status": "pending",
@@ -2821,7 +2755,7 @@
       "six_weeks": 2,
       "week": 1,
       "day": 4,
-      "title": "CCE | 2SW Wk1 Day 4 | Policy Showdown — AI in the Courts + Legal Entrepreneurship",
+      "title": "CCE | 2SW Wk1 Day 4 | Exit Ticket (Short Constructed Response, position paper draft)",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -2876,20 +2810,15 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1dlppySkceZ0Lb-zbitGabAexHf55tRXyqzlgQM0OQoY",
-        "revision_id": "AIroW35x_UTivIir1O28OqquveH2kZDzAYoMJe6zCAQIBzIhl6WxsQelq9v6SMpZZzhkBHV6IIC-2yIqiGzC0k2Lu9N_wqJw_9qpmAf5qw",
-        "semantic_hash": "ee3085be475ca4628a1ffb225855001b0e2518245d3e5a9989ac92be082dc9e5",
-        "live_title": "CCE | 2SW Wk1 Day 4 | AI Ethics Debate + Legal Entrepreneurship",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1dlppySkceZ0Lb-zbitGabAexHf55tRXyqzlgQM0OQoY/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1dlppySkceZ0Lb-zbitGabAexHf55tRXyqzlgQM0OQoY/export?format=pdf",
+        "id": "14k44r1uRlwPDpLKBdx9Ft0TYfuEG6bJftd1kew491_s",
+        "live_title": "CCE | 2SW Wk1 Day 4 | Exit Ticket (Short Constructed Response, position paper draft)",
+        "title_status": "current",
+        "status": "regenerated_from_day_plan_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/14k44r1uRlwPDpLKBdx9Ft0TYfuEG6bJftd1kew491_s/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/14k44r1uRlwPDpLKBdx9Ft0TYfuEG6bJftd1kew491_s/export?format=pdf",
         "folder_id": "15kBnCNKBdRbrBCADz-xCgIZpAWBi3rYk",
         "folder_path": "VILS27/Units_CCR/SW2 · Wk1 Legal Studies/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/2SW-Wk1-Day4/manifest.json",
-          "manifest_sha256": "1e225857df9fd168c755329b5d8d3ffef6e5dd765cf02c10d256d0f6c8c6c83a"
-        }
+        "superseded_id": "1dlppySkceZ0Lb-zbitGabAexHf55tRXyqzlgQM0OQoY"
       },
       "onenote": {
         "status": "pending",
@@ -2910,7 +2839,7 @@
       "six_weeks": 2,
       "week": 1,
       "day": 5,
-      "title": "CCE | 2SW Wk1 Day 5 | Cluster Wrap-Up + Xello Life Experience",
+      "title": "CCE | 2SW Wk1 Day 5 | Exit Ticket (Concept Map / Connection Diagram)",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -2956,20 +2885,15 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1UGWc3WUuXOzne9Qz9StdipOHW0CBeD4s9DSQ8MQs0y8",
-        "revision_id": "AIroW34AE_X90HsNqksBHp9giP_wL5YYiKenpram_ya-5uGhU4IhUnjaW2a4Aht0cpRZPW3oH-Dg8HuzicVqH9782mA63xKMaMyoNyW7iQ",
-        "semantic_hash": "4e7adf17e5457b91067a4919084351ecd421bcc08e4fe4f9470090a33001360a",
-        "live_title": "CCE | 2SW Wk1 Day 5 | Cluster Wrap-Up + Xello Life Experience",
+        "id": "17zJsSmC5_aYhvBSvEKavmezLwuAvV6A3PFruMLn5mAk",
+        "live_title": "CCE | 2SW Wk1 Day 5 | Exit Ticket (Concept Map / Connection Diagram)",
         "title_status": "current",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1UGWc3WUuXOzne9Qz9StdipOHW0CBeD4s9DSQ8MQs0y8/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1UGWc3WUuXOzne9Qz9StdipOHW0CBeD4s9DSQ8MQs0y8/export?format=pdf",
+        "status": "regenerated_from_day_plan_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/17zJsSmC5_aYhvBSvEKavmezLwuAvV6A3PFruMLn5mAk/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/17zJsSmC5_aYhvBSvEKavmezLwuAvV6A3PFruMLn5mAk/export?format=pdf",
         "folder_id": "15kBnCNKBdRbrBCADz-xCgIZpAWBi3rYk",
         "folder_path": "VILS27/Units_CCR/SW2 · Wk1 Legal Studies/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/2SW-Wk1-Day5/manifest.json",
-          "manifest_sha256": "34d193238d10a4bd244b4074d6712c1cad0f129462acef53d2d19ca2b254e402"
-        }
+        "superseded_id": "1UGWc3WUuXOzne9Qz9StdipOHW0CBeD4s9DSQ8MQs0y8"
       },
       "onenote": {
         "status": "pending",
@@ -2990,7 +2914,7 @@
       "six_weeks": 2,
       "week": 2,
       "day": 1,
-      "title": "CCE | 2SW Wk2 Day 1 | Compare First Responder Routes",
+      "title": "CCE | 2SW Wk2 Day 1 | Exit Ticket (Ranked Justification)",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -3031,20 +2955,15 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1OcPO_4LtnzD4uvW6uHVHDATLyWcNvESwMa8zD-B92D0",
-        "revision_id": "AIroW37M12USi2XvkK2eC-hO-lAsAzlTHChS9RszLm306JJAECBRHMwegUV5oFjPu7n7XPFzsmqTAPvzoemtqNyhynMybNt9Ti-wWpbmXw",
-        "semantic_hash": "e20356d2694163d3d62bbaa659acec8afd5a2a5cc8687c15e21da83872ce0967",
-        "live_title": "CCE | 2SW Wk2 Day 1 | First Responder Pathways",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1OcPO_4LtnzD4uvW6uHVHDATLyWcNvESwMa8zD-B92D0/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1OcPO_4LtnzD4uvW6uHVHDATLyWcNvESwMa8zD-B92D0/export?format=pdf",
+        "id": "1XAxrfkaZoH9PFix89G4pWAHssbBEyQD6uQGYOpDgJuY",
+        "live_title": "CCE | 2SW Wk2 Day 1 | Exit Ticket (Ranked Justification)",
+        "title_status": "current",
+        "status": "regenerated_from_day_plan_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1XAxrfkaZoH9PFix89G4pWAHssbBEyQD6uQGYOpDgJuY/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1XAxrfkaZoH9PFix89G4pWAHssbBEyQD6uQGYOpDgJuY/export?format=pdf",
         "folder_id": "1R_wCbpycdZrHueoXxFtDVn825phl-pfU",
         "folder_path": "VILS27/Units_CCR/SW2 · Wk2 Law Enforcement EMT/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/2SW-Wk2-Day1/manifest.json",
-          "manifest_sha256": "e5d5eb5b57f691090bee7e92713bc72cd0096543206fe6b2db931a59b5eef10b"
-        }
+        "superseded_id": "1OcPO_4LtnzD4uvW6uHVHDATLyWcNvESwMa8zD-B92D0"
       },
       "onenote": {
         "status": "pending",
@@ -3065,7 +2984,7 @@
       "six_weeks": 2,
       "week": 2,
       "day": 2,
-      "title": "CCE | 2SW Wk2 Day 2 | Clinton Lake — Weigh the Evidence",
+      "title": "CCE | 2SW Wk2 Day 2 | Exit Ticket (Mini-Case)",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -3106,20 +3025,15 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1CxbWjEfUmQ0QrW1n8XIlJ1qDIQIf3gfMmgEL3h0fVnM",
-        "revision_id": "AIroW35ldk8MLVOWuhy0r_1skr4ZFIqAsUqYesT_Fxksnl1aOtvYHlJw483_4nUdfkdMqLHZlHwYh35ESj9b2LafQXBAcTBcWI2Hol88hg",
-        "semantic_hash": "748302252f01d516bdc1677a951ae3d060cf1128cd115bc0bfe14f3ba2f68c15",
-        "live_title": "CCE | 2SW Wk2 Day 2 | Missing Painting - Detective Scenario",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1CxbWjEfUmQ0QrW1n8XIlJ1qDIQIf3gfMmgEL3h0fVnM/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1CxbWjEfUmQ0QrW1n8XIlJ1qDIQIf3gfMmgEL3h0fVnM/export?format=pdf",
+        "id": "13Bx5wbUdv3MkhM3hgwUCnlxrj6NRRvFyGvjW9ITHTJU",
+        "live_title": "CCE | 2SW Wk2 Day 2 | Exit Ticket (Mini-Case)",
+        "title_status": "current",
+        "status": "regenerated_from_day_plan_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/13Bx5wbUdv3MkhM3hgwUCnlxrj6NRRvFyGvjW9ITHTJU/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/13Bx5wbUdv3MkhM3hgwUCnlxrj6NRRvFyGvjW9ITHTJU/export?format=pdf",
         "folder_id": "1R_wCbpycdZrHueoXxFtDVn825phl-pfU",
         "folder_path": "VILS27/Units_CCR/SW2 · Wk2 Law Enforcement EMT/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/2SW-Wk2-Day2/manifest.json",
-          "manifest_sha256": "4c69ed7fdcd1e4f6a96dfbb2adbf8e1f1fa0796818dc379422aeda1f76718175"
-        }
+        "superseded_id": "1CxbWjEfUmQ0QrW1n8XIlJ1qDIQIf3gfMmgEL3h0fVnM"
       },
       "onenote": {
         "status": "pending",
@@ -3140,7 +3054,7 @@
       "six_weeks": 2,
       "week": 2,
       "day": 3,
-      "title": "CCE | 2SW Wk2 Day 3 | Injured on the Trail — Controlled Simulation",
+      "title": "CCE | 2SW Wk2 Day 3 | Exit Ticket (Decision Tree / Branching Prompt)",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -3181,20 +3095,15 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1ZZ0CPn7hTt7YdBShc8kh-8zm93CXxf66HnMiZq0zH4k",
-        "revision_id": "AIroW34An-sQeeB-k0CjKviRdjJJCl4DTmacTc3RuJ5-5LyxPdj1v6D_E0tfR9P9CUTwxhJvZFRDETT0PJtrqrONjc2tEuJ1uxy52sleDg",
-        "semantic_hash": "a7f011b10be7b8d8c64d74d2bd1c68b7ccecf1493ebc16d89a6307b3dacbe3e5",
-        "live_title": "CCE | 2SW Wk2 Day 3 | Local Risk Response - Task Force Setup",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1ZZ0CPn7hTt7YdBShc8kh-8zm93CXxf66HnMiZq0zH4k/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1ZZ0CPn7hTt7YdBShc8kh-8zm93CXxf66HnMiZq0zH4k/export?format=pdf",
+        "id": "1y4CvYvjyLFQLaMTG4q0gdQqG8Nz5CAEAV4wO2_1K7kM",
+        "live_title": "CCE | 2SW Wk2 Day 3 | Exit Ticket (Decision Tree / Branching Prompt)",
+        "title_status": "current",
+        "status": "regenerated_from_day_plan_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1y4CvYvjyLFQLaMTG4q0gdQqG8Nz5CAEAV4wO2_1K7kM/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1y4CvYvjyLFQLaMTG4q0gdQqG8Nz5CAEAV4wO2_1K7kM/export?format=pdf",
         "folder_id": "1R_wCbpycdZrHueoXxFtDVn825phl-pfU",
         "folder_path": "VILS27/Units_CCR/SW2 · Wk2 Law Enforcement EMT/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/2SW-Wk2-Day3/manifest.json",
-          "manifest_sha256": "d49e6d960f0cc95db75f0fcbd2188e258fc84957d73b73430f552747d9e468e6"
-        }
+        "superseded_id": "1ZZ0CPn7hTt7YdBShc8kh-8zm93CXxf66HnMiZq0zH4k"
       },
       "onenote": {
         "status": "pending",
@@ -3215,7 +3124,7 @@
       "six_weeks": 2,
       "week": 2,
       "day": 4,
-      "title": "CCE | 2SW Wk2 Day 4 | Document and Reassess",
+      "title": "CCE | 2SW Wk2 Day 4 | Exit Ticket (Trade-off Dilemma)",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -3269,20 +3178,15 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1LJuEuakt7IDSB577DqQsOZduNpRquq648yH0GbEuU54",
-        "revision_id": "AIroW35KLsqcS_x-QlT-0GbKQ-eVOIzeaeYS1-7IlA-CKQ88MkgZG3_ce1A5PoD8hzTLr90O02hgGUIn-jyshiWpKnSWBmYWhFDJsZM3eg",
-        "semantic_hash": "37f6b0075a5feb42d37bfe33c52f9cf381f1a06e64a81d3a1fc8931605153413",
-        "live_title": "CCE | 2SW Wk2 Day 4 | Local Risk Response - Citywide Emergency Plan",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1LJuEuakt7IDSB577DqQsOZduNpRquq648yH0GbEuU54/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1LJuEuakt7IDSB577DqQsOZduNpRquq648yH0GbEuU54/export?format=pdf",
+        "id": "1WFH0ztPvjBQ_Z2TFIPBCHshQ--A2wxdxf3oOXkRDm2M",
+        "live_title": "CCE | 2SW Wk2 Day 4 | Exit Ticket (Trade-off Dilemma)",
+        "title_status": "current",
+        "status": "regenerated_from_day_plan_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1WFH0ztPvjBQ_Z2TFIPBCHshQ--A2wxdxf3oOXkRDm2M/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1WFH0ztPvjBQ_Z2TFIPBCHshQ--A2wxdxf3oOXkRDm2M/export?format=pdf",
         "folder_id": "1R_wCbpycdZrHueoXxFtDVn825phl-pfU",
         "folder_path": "VILS27/Units_CCR/SW2 · Wk2 Law Enforcement EMT/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/2SW-Wk2-Day4/manifest.json",
-          "manifest_sha256": "bedf281f2e1ce718cbeda372cde75b423f4dc19847ad4ef155fefce92d4981cc"
-        }
+        "superseded_id": "1LJuEuakt7IDSB577DqQsOZduNpRquq648yH0GbEuU54"
       },
       "onenote": {
         "status": "pending",
@@ -3303,7 +3207,7 @@
       "six_weeks": 2,
       "week": 2,
       "day": 5,
-      "title": "CCE | 2SW Wk2 Day 5 | Career Decision and Integrity Reflection",
+      "title": "CCE | 2SW Wk2 Day 5 | Exit Ticket (Concept Map / Connection Diagram)",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -3344,20 +3248,15 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1W_FOBWYPEdjIwu1q9JoNOC2mMZHs4GgSVjjCMljqfh8",
-        "revision_id": "AIroW35Z9rnCmAGg1KsIvc1AjHXDGRFxylV3mnRw05GengOzrpZGHIz6TPjPYXwiSGHjF5HXz1usw_aBdsaUfwabqkuvASyHW06bN-Y72g",
-        "semantic_hash": "147f4f85a3e21f2e37475892cc9f5ec805e131ef3e8de0758e4cd6b2c9d000f2",
-        "live_title": "CCE | 2SW Wk2 Day 5 | Cluster Wrap-Up + Reflection",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1W_FOBWYPEdjIwu1q9JoNOC2mMZHs4GgSVjjCMljqfh8/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1W_FOBWYPEdjIwu1q9JoNOC2mMZHs4GgSVjjCMljqfh8/export?format=pdf",
+        "id": "1kmZkivwrX_oz94kd5HUDHvWo8TS5kPJzmrWJ3qxcU8Q",
+        "live_title": "CCE | 2SW Wk2 Day 5 | Exit Ticket (Concept Map / Connection Diagram)",
+        "title_status": "current",
+        "status": "regenerated_from_day_plan_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1kmZkivwrX_oz94kd5HUDHvWo8TS5kPJzmrWJ3qxcU8Q/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1kmZkivwrX_oz94kd5HUDHvWo8TS5kPJzmrWJ3qxcU8Q/export?format=pdf",
         "folder_id": "1R_wCbpycdZrHueoXxFtDVn825phl-pfU",
         "folder_path": "VILS27/Units_CCR/SW2 · Wk2 Law Enforcement EMT/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/2SW-Wk2-Day5/manifest.json",
-          "manifest_sha256": "576f2abec858c99760800dd24ae668d0b055188b385d96f075cad2bc5bd9096a"
-        }
+        "superseded_id": "1W_FOBWYPEdjIwu1q9JoNOC2mMZHs4GgSVjjCMljqfh8"
       },
       "onenote": {
         "status": "pending",
@@ -3625,7 +3524,7 @@
       "six_weeks": 2,
       "week": 3,
       "day": 4,
-      "title": "CCE | 2SW Wk3 Day 4 | Document a Fictional Patient Handoff",
+      "title": "CCE | 2SW Wk3 Day 4 | Exit Ticket (Mini-Case / Scenario Application)",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -3692,20 +3591,15 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "17Yu-IA4usUXgeldnwJF0_22Bx7RVXkbLvHnnrYYT4g8",
-        "revision_id": "AIroW34cQLfmYgE8OKt0Aksfn7ZnmL_vB9Gd-AOsvN9uROuRm7AIc94HM1XOxp59DUDfqcqiZIVm5SDo0p1-MkuFsuoO3-Azl-q0MB0UiQ",
-        "semantic_hash": "bd8736fa05ff685560dd926b9336c6bfc776cd9cf70e2aed0da1c58f205e9aae",
-        "live_title": "CCE | 2SW Wk3 Day 4 | Vital Signs Monitor - Test + Present",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/17Yu-IA4usUXgeldnwJF0_22Bx7RVXkbLvHnnrYYT4g8/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/17Yu-IA4usUXgeldnwJF0_22Bx7RVXkbLvHnnrYYT4g8/export?format=pdf",
+        "id": "183p95sjynKBMwa_q1VPyy7I2xlrFvY9DPazzd237L-I",
+        "live_title": "CCE | 2SW Wk3 Day 4 | Exit Ticket (Mini-Case / Scenario Application)",
+        "title_status": "current",
+        "status": "regenerated_from_day_plan_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/183p95sjynKBMwa_q1VPyy7I2xlrFvY9DPazzd237L-I/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/183p95sjynKBMwa_q1VPyy7I2xlrFvY9DPazzd237L-I/export?format=pdf",
         "folder_id": "1iSZMiRvScRa5ZUjdEAawFaQYd1AkUKwk",
         "folder_path": "VILS27/Units_CCR/SW2 · Wk3 Nursing Health Science/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/2SW-Wk3-Day4/manifest.json",
-          "manifest_sha256": "4a9bf5470a34a4ecaa686b2868173f6c0f94dd3c1c1e5001d1443915a314b050"
-        }
+        "superseded_id": "17Yu-IA4usUXgeldnwJF0_22Bx7RVXkbLvHnnrYYT4g8"
       },
       "onenote": {
         "status": "pending",
@@ -3726,7 +3620,7 @@
       "six_weeks": 2,
       "week": 3,
       "day": 5,
-      "title": "CCE | 2SW Wk3 Day 5 | Build a Nursing Career Evidence Map",
+      "title": "CCE | 2SW Wk3 Day 5 | Exit Ticket (Concept Map / Connection Diagram)",
       "subtitle": null,
       "layout_spec_status": "source_derived_pending_content_review",
       "source": {
@@ -3767,20 +3661,15 @@
         "manual_spec": null
       },
       "google_doc": {
-        "id": "1O93-Oo1iYOe8Kd9dxUNUSMEqjqArBbK3t2uOUaqLp9c",
-        "revision_id": "AIroW36VFclYNECF9zdaWJufHS_SQQ1TF2cBXqYx8s4aofA10MO0Un3NMj-OC6Y8lSsEBCHMsrDPvdiz2G2w5ld_eUo8GEVPTDImYvcwcw",
-        "semantic_hash": "d50c7b6a30d15ce4a775ec3ab61f220c6f83d60db35d6a9d3045ecbf6e4eafe0",
-        "live_title": "CCE | 2SW Wk3 Day 5 | Reflection + Xello Learning Styles + eDynamic",
-        "title_status": "rename_pending",
-        "status": "existing_trusted_read",
-        "copy_url": "https://docs.google.com/document/d/1O93-Oo1iYOe8Kd9dxUNUSMEqjqArBbK3t2uOUaqLp9c/copy",
-        "pdf_export_url": "https://docs.google.com/document/d/1O93-Oo1iYOe8Kd9dxUNUSMEqjqArBbK3t2uOUaqLp9c/export?format=pdf",
+        "id": "1-u3o8RM5268pD_UgohrzRvv0o-wP__Z14DfUUuYmeOY",
+        "live_title": "CCE | 2SW Wk3 Day 5 | Exit Ticket (Concept Map / Connection Diagram)",
+        "title_status": "current",
+        "status": "regenerated_from_day_plan_2026-09-15",
+        "copy_url": "https://docs.google.com/document/d/1-u3o8RM5268pD_UgohrzRvv0o-wP__Z14DfUUuYmeOY/copy",
+        "pdf_export_url": "https://docs.google.com/document/d/1-u3o8RM5268pD_UgohrzRvv0o-wP__Z14DfUUuYmeOY/export?format=pdf",
         "folder_id": "1iSZMiRvScRa5ZUjdEAawFaQYd1AkUKwk",
         "folder_path": "VILS27/Units_CCR/SW2 · Wk3 Nursing Health Science/Google Masters",
-        "trusted_read": {
-          "manifest_path": ".tmp/docs-trusted-read/20260825-current/2SW-Wk3-Day5/manifest.json",
-          "manifest_sha256": "f83d1d82402f7db89aacb9724063a1daf088866c40a8aeedbf7d647f2dc0875d"
-        }
+        "superseded_id": "1O93-Oo1iYOe8Kd9dxUNUSMEqjqArBbK3t2uOUaqLp9c"
       },
       "onenote": {
         "status": "pending",

@@ -8,7 +8,7 @@ description: Build teacher-ready classroom slide decks for one CCE instructional
 
 One deck per instructional day. The deck is the projected version of the lesson plan: same pacing, same workbook pages, same IISD strategy, same buttons the student page already has. It never adds content the plan does not have, and it never explains an assignment the students have not seen yet.
 
-Reference deck: `build/slides/1sw-wk3/day2.js` (Website Revamp). Library: `build/slides/lib.js`. Gate: `build/slides/qa_deck.py`. Assets: `build/slides/<week>/assets/`. Output: `docs/resources/slides/<week>-dayN.pptx` plus a rights-clean twin in `docs/resources/slides/public/`.
+Reference deck: `build/slides/1sw-wk3/day2.js` (Website Revamp). Library: `build/slides/lib.js`. Gate: `build/slides/qa_deck.py`. Assets: `build/slides/<week>/assets/`. Output: `docs/resources/slides/<week>-dayN.pptx` plus a rights-clean twin `docs/resources/slides/public/<week>-dayN-public.pptx` (basenames must be unique across docs/resources).
 
 ## 0. Rules that do not bend
 
@@ -68,7 +68,7 @@ Decks are teacher-facing curriculum, so they follow the same parity rules as pag
 1. uploads the full `.pptx` to Canvas Files under `Slides/<week>/` (overwrite by name),
 2. uploads the same `.pptx` to the unit's `Google Masters/` Drive folder converted to Google Slides and keeps the `.pptx` beside it in `Download Releases/`,
 3. adds a **Slides** row to that day's facilitator guide response-routes panel (Google Slides link, PowerPoint download, both labels fixed) through a page-body PUT only; nothing is published or unpublished,
-4. copies the public twin into the public site's static assets so `public-site/build_site.py` can link it.
+4. renders the public twin to PDF; each `dayN.md` links it above the warm-up (`publication-policy.json` protects `.pptx`, so the site carries the PDF twin). Then `public-site/build_site.py`, `build/google_workspace/build_complete_artifact_inventory.py`, `sync_changed_releases_rclone.py --apply`, `record_complete_drive_releases.py`, `verify_parity.py`, in that order, so the Drive mirror and the inventory contract include the new PDFs.
 Then run `build/canvas/fleet_parity_apply.py` for the fleet (page bodies only) and `qa_response_routes.py`.
 
 ## 6. What to flag while building

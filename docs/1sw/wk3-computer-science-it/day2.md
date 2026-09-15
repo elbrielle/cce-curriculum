@@ -20,6 +20,8 @@
 
 ---
 
+**Teacher slides:** [Day 2 classroom deck (PDF; workbook page images omitted)](../../resources/slides/public/1sw-wk3-day2-public.pdf). The full deck with Google Slides and PowerPoint versions is on the Canvas facilitator guide.
+
 ## Warm-Up (5 min)
 
 **WARM-UP: Pick the BEST website you have ever used and the WORST website you have ever used. What made the good one good? What made the bad one bad?**

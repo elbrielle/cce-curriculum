@@ -57,8 +57,8 @@ def main() -> None:
     require(state.get("version") == 1, "unsupported Drive-state version")
     require(state.get("expected_unit_count") == 36, "Drive state must require 36 units")
     require(
-        state.get("expected_public_resource_references") == 305,
-        "Drive state must require 305 unit-resource references",
+        state.get("expected_public_resource_references") == 310,
+        "Drive state must require 310 unit-resource references",
     )
     require(state.get("drive_root") == parity.get("drive_root"), "Drive root drift")
     live = state.get("live_verification", {})
@@ -153,7 +153,7 @@ def main() -> None:
                 )
             native_support_count += 1
 
-    require(release_count == 305, f"expected 305 releases, found {release_count}")
+    require(release_count == 310, f"expected 310 releases, found {release_count}")
 
     state_by_address = {row["curriculum_address"]: row for row in state_units}
     registry_root = student_docs.get("drive_root", {})

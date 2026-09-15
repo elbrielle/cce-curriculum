@@ -147,7 +147,7 @@
           "filename": "my-career-journey-bilingual.pdf"
         }
       ],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1zE7zuPdx5arGs0IoTFhXjRxVvz4JZ-TVdG7NO1nNsjU/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1glxwsWWh58UeP-3jkTMNJZj4u8s2YGN7ah6v6pNqlms/copy",
       "no_selector_review": null,
       "route_id": "1SW-Wk0-Day4",
       "selector_count": 1,
@@ -165,7 +165,7 @@
           "normalized_anchor_signature_sha256": "33e68511a8f8f4eb7154307ebd3104cc9892c9dd96d113485fc12c9adbc67079",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1zE7zuPdx5arGs0IoTFhXjRxVvz4JZ-TVdG7NO1nNsjU/copy",
+          "replacement_href": "https://docs.google.com/document/d/1glxwsWWh58UeP-3jkTMNJZj4u8s2YGN7ah6v6pNqlms/copy",
           "selector_id": "f8cb65ff7e45cd280186",
           "source_evidence": {
             "artifact_path": "build/google_docs/student_response_route_manual_content_specs.json",
@@ -365,7 +365,7 @@
     {
       "day_key": "1SW-Wk1-Day4",
       "excluded_live_pdf_links": [],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1cVB33qTPmpVO8fReqlPuUrHC8zw7UtRFpgrDAGMf02o/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1aWZMGLmR-LujWdNiPdDRDO0cWcPVC-87HiRwviYGXmo/copy",
       "no_selector_review": null,
       "route_id": "1SW-Wk1-Day4",
       "selector_count": 1,
@@ -383,7 +383,7 @@
           "normalized_anchor_signature_sha256": "92e2afb4231752231288dc02893ced3f683538ef010f36b80ebcaf5733d12d6d",
           "observed_href_had_query": true,
           "replacement_anchor_text": "Open the Robots for Crayons action plan",
-          "replacement_href": "https://docs.google.com/document/d/1cVB33qTPmpVO8fReqlPuUrHC8zw7UtRFpgrDAGMf02o/copy",
+          "replacement_href": "https://docs.google.com/document/d/1aWZMGLmR-LujWdNiPdDRDO0cWcPVC-87HiRwviYGXmo/copy",
           "selector_id": "608c46806b8217d745d8",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/1sw-wk1-robots-for-crayons-action-plan.md",
@@ -990,7 +990,7 @@
           "filename": "wk3-app-design-rubric.pdf"
         }
       ],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1SyQB5eeYORonPaLr8_U3LKUp7bC2BnECxTpsRST7OuU/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1Fe5GFJUaVwZC6a_j4GSTpBnuu4sAT9dvPm8UyQhv8BQ/copy",
       "no_selector_review": null,
       "route_id": "1SW-Wk3-Day3",
       "selector_count": 1,
@@ -1008,7 +1008,7 @@
           "normalized_anchor_signature_sha256": "ba26d222bda1f449b7a9793adab0e16f28700ce6f1bf516e5d7d64f85317015c",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1SyQB5eeYORonPaLr8_U3LKUp7bC2BnECxTpsRST7OuU/copy",
+          "replacement_href": "https://docs.google.com/document/d/1Fe5GFJUaVwZC6a_j4GSTpBnuu4sAT9dvPm8UyQhv8BQ/copy",
           "selector_id": "51a6da149d68716a3806",
           "source_evidence": {
             "artifact_path": "build/google_docs/student_response_route_manual_content_specs.json",
@@ -1044,7 +1044,7 @@
           "filename": "wk3-emerging-careers-link-sheet.pdf"
         }
       ],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1sKheqR2Fpbh2qA0EY0tDkhRh_X6eRuRgarR9dUQUJ1I/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1cE_b8vTjUWUqZ-HLSx5fV-Mz3vGZwIR7Kwi765GTHAg/copy",
       "no_selector_review": null,
       "route_id": "1SW-Wk3-Day4",
       "selector_count": 2,
@@ -1062,7 +1062,7 @@
           "normalized_anchor_signature_sha256": "f470285e67b6bd8493013f6e6d4be4c3a90383e5d51976d9e5a5d7aa2a1e21d1",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1sKheqR2Fpbh2qA0EY0tDkhRh_X6eRuRgarR9dUQUJ1I/copy",
+          "replacement_href": "https://docs.google.com/document/d/1cE_b8vTjUWUqZ-HLSx5fV-Mz3vGZwIR7Kwi765GTHAg/copy",
           "selector_id": "2379ce1a5b804879739d",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/wk3-emerging-tech-research-template.md",
@@ -1092,7 +1092,7 @@
           "normalized_anchor_signature_sha256": "9e805bade214d14e29d5ebc149c257dbb67790620dc53840338355e136726b4e",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1sKheqR2Fpbh2qA0EY0tDkhRh_X6eRuRgarR9dUQUJ1I/copy",
+          "replacement_href": "https://docs.google.com/document/d/1cE_b8vTjUWUqZ-HLSx5fV-Mz3vGZwIR7Kwi765GTHAg/copy",
           "selector_id": "5fe63d5bc99260bedeb9",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/wk3-day4-career-comparison.md",
@@ -1128,7 +1128,7 @@
           "filename": "wk3-app-design-rubric.pdf"
         }
       ],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1CwP4DQm1ZtIE4r_TtmaJ9sb3rOHMIhjketbj1HZPyN0/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1Sq-5Z3rtrWFZ2TUokdILuyhUHsBBJnA0Hgyyk9nP1AE/copy",
       "no_selector_review": null,
       "route_id": "1SW-Wk3-Day5",
       "selector_count": 1,
@@ -1146,7 +1146,7 @@
           "normalized_anchor_signature_sha256": "dd9b23c67f6d6ada0bd84e02aaea945d53775eb65a36ea14f4dedef270a950af",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1CwP4DQm1ZtIE4r_TtmaJ9sb3rOHMIhjketbj1HZPyN0/copy",
+          "replacement_href": "https://docs.google.com/document/d/1Sq-5Z3rtrWFZ2TUokdILuyhUHsBBJnA0Hgyyk9nP1AE/copy",
           "selector_id": "124605babd8dcb181204",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/wk3-day5-learning-style-connection.md",
@@ -1182,7 +1182,7 @@
           "filename": "wk4-it-support-career-cards.pdf"
         }
       ],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1kgqmYYU7_c9uVBvUiVdgaC7TutKs5Pq7VInyeSs75HY/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1JUwB_fm6ilE3_zVrQGESyRlpMUzaPG16cr979NbrbpE/copy",
       "no_selector_review": null,
       "route_id": "1SW-Wk4-Day1",
       "selector_count": 1,
@@ -1200,7 +1200,7 @@
           "normalized_anchor_signature_sha256": "b789faa308721b93ca3c599d3085143909a7eadebd02f2a0c90b9b435191daee",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1kgqmYYU7_c9uVBvUiVdgaC7TutKs5Pq7VInyeSs75HY/copy",
+          "replacement_href": "https://docs.google.com/document/d/1JUwB_fm6ilE3_zVrQGESyRlpMUzaPG16cr979NbrbpE/copy",
           "selector_id": "9c8e390a9470081c82a5",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/wk4-day1-career-interest-check.md",
@@ -1250,7 +1250,7 @@
           "filename": "wk4-education-pathway-comparison-model.pdf"
         }
       ],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1diF5-6KXuEO3fYTvdoE4uN-Typ2CgKJhq0o1-QCMGcM/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1LzBUgdlRD0Iq-X179GksvOhdgxf_mV3uz4OOYFvhqR8/copy",
       "no_selector_review": null,
       "route_id": "1SW-Wk4-Day2",
       "selector_count": 2,
@@ -1268,7 +1268,7 @@
           "normalized_anchor_signature_sha256": "244f62d105565c93e0512db4263a40c3315bd41fe15884c23eaf26d636a51c73",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1diF5-6KXuEO3fYTvdoE4uN-Typ2CgKJhq0o1-QCMGcM/copy",
+          "replacement_href": "https://docs.google.com/document/d/1LzBUgdlRD0Iq-X179GksvOhdgxf_mV3uz4OOYFvhqR8/copy",
           "selector_id": "09cfa9908bb80c40dee2",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/wk4-education-pathway-comparison.md",
@@ -1298,7 +1298,7 @@
           "normalized_anchor_signature_sha256": "3d1331bf1500437c504c97b65d5a5ddb800a751f07eddd9ecad9b4af8a66ab24",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1diF5-6KXuEO3fYTvdoE4uN-Typ2CgKJhq0o1-QCMGcM/copy",
+          "replacement_href": "https://docs.google.com/document/d/1LzBUgdlRD0Iq-X179GksvOhdgxf_mV3uz4OOYFvhqR8/copy",
           "selector_id": "d02faa7c1a160630bc45",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/wk4-day2-route-decision.md",
@@ -1462,7 +1462,7 @@
           "filename": "wk4-help-desk-role-play-script-bilingual.pdf"
         }
       ],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1aHRxyuAAszggAPHnuTbgI3iE5qTIKUuDj8lSEXe_NHE/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1hR7RIoajHqTTmEVK45aF62Dpg76IZeUY5HFKjtB7V84/copy",
       "no_selector_review": null,
       "route_id": "1SW-Wk4-Day4",
       "selector_count": 2,
@@ -1480,7 +1480,7 @@
           "normalized_anchor_signature_sha256": "4c973d12387d1d605d80c4594277c80f0b4f01f066ca4ad0aa97658fdb5f8563",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1aHRxyuAAszggAPHnuTbgI3iE5qTIKUuDj8lSEXe_NHE/copy",
+          "replacement_href": "https://docs.google.com/document/d/1hR7RIoajHqTTmEVK45aF62Dpg76IZeUY5HFKjtB7V84/copy",
           "selector_id": "911884992e99f071633e",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/wk4-help-desk-role-play-script.md",
@@ -1510,7 +1510,7 @@
           "normalized_anchor_signature_sha256": "1184ac0fb0022d0d8e68bb9cbdd354fed0a4e18402a6213c66f0954edd3f6495",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1aHRxyuAAszggAPHnuTbgI3iE5qTIKUuDj8lSEXe_NHE/copy",
+          "replacement_href": "https://docs.google.com/document/d/1hR7RIoajHqTTmEVK45aF62Dpg76IZeUY5HFKjtB7V84/copy",
           "selector_id": "cb5e946f6077faaa66b2",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/wk4-day4-customer-service-check.md",
@@ -1546,7 +1546,7 @@
           "filename": "wk4-demo-rubric.pdf"
         }
       ],
-      "google_doc_copy_url": "https://docs.google.com/document/d/19g8jcaDFi4wx-DbAvgy5WkOGUYDHNvpA3h_hHldTBE8/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1tgIV9mDN2BRLxSNJM9B81Ax0fLvnlzoirubo-aqTPoY/copy",
       "no_selector_review": null,
       "route_id": "1SW-Wk4-Day5",
       "selector_count": 1,
@@ -1564,7 +1564,7 @@
           "normalized_anchor_signature_sha256": "391a0267c4ef57b5e18df65e6d5b4d1c6c6d3039f5c19d3fea6d30f5090e58af",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/19g8jcaDFi4wx-DbAvgy5WkOGUYDHNvpA3h_hHldTBE8/copy",
+          "replacement_href": "https://docs.google.com/document/d/1tgIV9mDN2BRLxSNJM9B81Ax0fLvnlzoirubo-aqTPoY/copy",
           "selector_id": "a8e397e027ee27474c77",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/wk4-day5-xello-skill-connection.md",
@@ -1592,7 +1592,7 @@
     {
       "day_key": "1SW-Wk5-Day1",
       "excluded_live_pdf_links": [],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1lcaNjnnO9B-EpnDnb9v8Rw5ui-nE_S67jV8R4ddAjnE/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1S4DTJcS1mHmy22gexg4sfUneIM8LU8jCdk8w4PTk4bg/copy",
       "no_selector_review": null,
       "route_id": "1SW-Wk5-Day1",
       "selector_count": 1,
@@ -1610,7 +1610,7 @@
           "normalized_anchor_signature_sha256": "616dea81c0bf51a8d33d0fb1844f3c7521ade5a7e6706e6f43b5f29df7a83377",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1lcaNjnnO9B-EpnDnb9v8Rw5ui-nE_S67jV8R4ddAjnE/copy",
+          "replacement_href": "https://docs.google.com/document/d/1S4DTJcS1mHmy22gexg4sfUneIM8LU8jCdk8w4PTk4bg/copy",
           "selector_id": "075febc9e778a47c7688",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/wk5-cyberseek-pathway.md",
@@ -1638,7 +1638,7 @@
     {
       "day_key": "1SW-Wk5-Day2",
       "excluded_live_pdf_links": [],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1VDXTMJS3kLiOa00f74Td0WmgulM9YlapVemkWJTzBAU/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1s7luuwUIYaaRjgVZ5t103eBhyaKAAYvue7Elue3aQfc/copy",
       "no_selector_review": null,
       "route_id": "1SW-Wk5-Day2",
       "selector_count": 1,
@@ -1656,7 +1656,7 @@
           "normalized_anchor_signature_sha256": "e69fcd3d0856ca6917e3e9f691d8c782be4637662190591f1de871de54c66b7f",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1VDXTMJS3kLiOa00f74Td0WmgulM9YlapVemkWJTzBAU/copy",
+          "replacement_href": "https://docs.google.com/document/d/1s7luuwUIYaaRjgVZ5t103eBhyaKAAYvue7Elue3aQfc/copy",
           "selector_id": "04264f3e1f3045e088f7",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/wk5-red-flag-checklist.md",
@@ -1692,7 +1692,7 @@
           "filename": "wk5-bootcamp-model.pdf"
         }
       ],
-      "google_doc_copy_url": "https://docs.google.com/document/d/14rUClKAKFikhGm_LZWPoz5t5AdzlRr_5hJ7kELQFdc4/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1-1rJrIlxB2scFp3Xq-WziFkkys2KLQS-R4vQILmF-Cs/copy",
       "no_selector_review": null,
       "route_id": "1SW-Wk5-Day3",
       "selector_count": 1,
@@ -1710,7 +1710,7 @@
           "normalized_anchor_signature_sha256": "30b082467dcf764e29eeeb28c00154b7e1b6ea4cf2f57e295f76840c1a6e6d8c",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/14rUClKAKFikhGm_LZWPoz5t5AdzlRr_5hJ7kELQFdc4/copy",
+          "replacement_href": "https://docs.google.com/document/d/1-1rJrIlxB2scFp3Xq-WziFkkys2KLQS-R4vQILmF-Cs/copy",
           "selector_id": "97a49c5ec890760cb477",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/wk5-bootcamp-planning-template.md",
@@ -1738,7 +1738,7 @@
     {
       "day_key": "1SW-Wk5-Day4",
       "excluded_live_pdf_links": [],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1tG31h90eP3z4-7gxB_9Fg6UHzjJgiGnd3p4MNCbligE/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1S4DTJcS1mHmy22gexg4sfUneIM8LU8jCdk8w4PTk4bg/copy",
       "no_selector_review": null,
       "route_id": "1SW-Wk5-Day4",
       "selector_count": 1,
@@ -1756,7 +1756,7 @@
           "normalized_anchor_signature_sha256": "00a714872d85c1f62f79de6a3a7bf8a47cde05cf7194a963578bfefdba284424",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1tG31h90eP3z4-7gxB_9Fg6UHzjJgiGnd3p4MNCbligE/copy",
+          "replacement_href": "https://docs.google.com/document/d/1S4DTJcS1mHmy22gexg4sfUneIM8LU8jCdk8w4PTk4bg/copy",
           "selector_id": "254a6568b06a13fe3271",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/wk5-cyberseek-pathway.md",
@@ -1799,7 +1799,7 @@
           "filename": "wk5-capstone-portfolio-rubric.pdf"
         }
       ],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1QKZLyhP4bQUoHRi27u4RX0RHaY6y0XCetS2akxlBeOg/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1jYudqvWzhtNv7ttp5IwYnxhh4HXUN9z8e29zBIJq3tQ/copy",
       "no_selector_review": null,
       "route_id": "1SW-Wk5-Day5",
       "selector_count": 1,
@@ -1817,7 +1817,7 @@
           "normalized_anchor_signature_sha256": "c83221a5a47f7716569a9c57f54913c9eeb73601a15091e70cb2f1169f4ed1ef",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1QKZLyhP4bQUoHRi27u4RX0RHaY6y0XCetS2akxlBeOg/copy",
+          "replacement_href": "https://docs.google.com/document/d/1jYudqvWzhtNv7ttp5IwYnxhh4HXUN9z8e29zBIJq3tQ/copy",
           "selector_id": "bb1a70e38c347ae5c19e",
           "source_evidence": {
             "artifact_path": "build/google_docs/student_response_route_manual_content_specs.json",
@@ -1853,7 +1853,7 @@
           "filename": "2sw-wk1-legal-career-cards.pdf"
         }
       ],
-      "google_doc_copy_url": "https://docs.google.com/document/d/17cTOaP2ajzm6zH1GS5ckRHSQBtQUiHWsAoITs5J5vTI/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1IfwZtzVPSHiBW3NH5Mm5cCaXMkMM08wBTTlnMq_k2Sc/copy",
       "no_selector_review": null,
       "route_id": "2SW-Wk1-Day1",
       "selector_count": 1,
@@ -1871,7 +1871,7 @@
           "normalized_anchor_signature_sha256": "5a894ed52eee798caa696b0ae60d2f6b2b6d8b714d0217790cc92671abb5fab7",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/17cTOaP2ajzm6zH1GS5ckRHSQBtQUiHWsAoITs5J5vTI/copy",
+          "replacement_href": "https://docs.google.com/document/d/1IfwZtzVPSHiBW3NH5Mm5cCaXMkMM08wBTTlnMq_k2Sc/copy",
           "selector_id": "4fcaefb77e3b73b2c14a",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/career-research-worksheet.md",
@@ -1934,7 +1934,7 @@
     {
       "day_key": "2SW-Wk1-Day3",
       "excluded_live_pdf_links": [],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1WICiATYetS00c7aDot0AiELiWlrci50KmULFA4EjmxA/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1McTaE9rjt5UMb0hR_gX5oAhaTLHU7ciWh4y9BCoe69I/copy",
       "no_selector_review": null,
       "route_id": "2SW-Wk1-Day3",
       "selector_count": 1,
@@ -1952,7 +1952,7 @@
           "normalized_anchor_signature_sha256": "8898bbccd44de28585c69aa72af5ea79c759d7edd7e4ed017c7376bc4e473b52",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1WICiATYetS00c7aDot0AiELiWlrci50KmULFA4EjmxA/copy",
+          "replacement_href": "https://docs.google.com/document/d/1McTaE9rjt5UMb0hR_gX5oAhaTLHU7ciWh4y9BCoe69I/copy",
           "selector_id": "f1b05acb92098ec2357d",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/2sw-wk1-city-council-plan.md",
@@ -1981,7 +1981,7 @@
     {
       "day_key": "2SW-Wk1-Day4",
       "excluded_live_pdf_links": [],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1dlppySkceZ0Lb-zbitGabAexHf55tRXyqzlgQM0OQoY/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/14k44r1uRlwPDpLKBdx9Ft0TYfuEG6bJftd1kew491_s/copy",
       "no_selector_review": null,
       "route_id": "2SW-Wk1-Day4",
       "selector_count": 2,
@@ -1999,7 +1999,7 @@
           "normalized_anchor_signature_sha256": "90d126850b20159af333d9d8a8a5d097972643b9fdb928b61b6c151b68c58ae7",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1dlppySkceZ0Lb-zbitGabAexHf55tRXyqzlgQM0OQoY/copy",
+          "replacement_href": "https://docs.google.com/document/d/14k44r1uRlwPDpLKBdx9Ft0TYfuEG6bJftd1kew491_s/copy",
           "selector_id": "0e796cabe96d5726eaf3",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/2sw-wk1-policy-argument-and-evidence.md",
@@ -2030,7 +2030,7 @@
           "normalized_anchor_signature_sha256": "7ea86e66012b449bacf0ae5737e796201d91f5a58699272337bf4f39331ba18d",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1dlppySkceZ0Lb-zbitGabAexHf55tRXyqzlgQM0OQoY/copy",
+          "replacement_href": "https://docs.google.com/document/d/14k44r1uRlwPDpLKBdx9Ft0TYfuEG6bJftd1kew491_s/copy",
           "selector_id": "a005b137a2c19d447d5d",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/2sw-wk1-legal-entrepreneur-card.md",
@@ -2067,7 +2067,7 @@
           "filename": "2sw-wk1-position-paper-rubric.pdf"
         }
       ],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1UGWc3WUuXOzne9Qz9StdipOHW0CBeD4s9DSQ8MQs0y8/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/17zJsSmC5_aYhvBSvEKavmezLwuAvV6A3PFruMLn5mAk/copy",
       "no_selector_review": null,
       "route_id": "2SW-Wk1-Day5",
       "selector_count": 1,
@@ -2085,7 +2085,7 @@
           "normalized_anchor_signature_sha256": "2e432ebaee17e5f058c6b8c29470bdac8dd9ed9a87e2e1cc4e895ee0cafc3a00",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1UGWc3WUuXOzne9Qz9StdipOHW0CBeD4s9DSQ8MQs0y8/copy",
+          "replacement_href": "https://docs.google.com/document/d/17zJsSmC5_aYhvBSvEKavmezLwuAvV6A3PFruMLn5mAk/copy",
           "selector_id": "f3cf81c1d5c15b00a2c6",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/2sw-wk1-xello-life-experience-connection.md",
@@ -2114,7 +2114,7 @@
     {
       "day_key": "2SW-Wk2-Day1",
       "excluded_live_pdf_links": [],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1OcPO_4LtnzD4uvW6uHVHDATLyWcNvESwMa8zD-B92D0/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1XAxrfkaZoH9PFix89G4pWAHssbBEyQD6uQGYOpDgJuY/copy",
       "no_selector_review": null,
       "route_id": "2SW-Wk2-Day1",
       "selector_count": 1,
@@ -2132,7 +2132,7 @@
           "normalized_anchor_signature_sha256": "59ae5f0bb54698da7ed04536cc70123d1ba9b4b45ab88c0bfd258a2bbcc4fcd6",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1OcPO_4LtnzD4uvW6uHVHDATLyWcNvESwMa8zD-B92D0/copy",
+          "replacement_href": "https://docs.google.com/document/d/1XAxrfkaZoH9PFix89G4pWAHssbBEyQD6uQGYOpDgJuY/copy",
           "selector_id": "7b387e1619159f1ba87e",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/2sw-wk2-first-responder-route-guide.md",
@@ -2162,7 +2162,7 @@
     {
       "day_key": "2SW-Wk2-Day2",
       "excluded_live_pdf_links": [],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1CxbWjEfUmQ0QrW1n8XIlJ1qDIQIf3gfMmgEL3h0fVnM/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/13Bx5wbUdv3MkhM3hgwUCnlxrj6NRRvFyGvjW9ITHTJU/copy",
       "no_selector_review": null,
       "route_id": "2SW-Wk2-Day2",
       "selector_count": 1,
@@ -2180,7 +2180,7 @@
           "normalized_anchor_signature_sha256": "7252a9e28e53a27875a5cc8587c453615b25bab7e6257ac019656b9e07aa69a8",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1CxbWjEfUmQ0QrW1n8XIlJ1qDIQIf3gfMmgEL3h0fVnM/copy",
+          "replacement_href": "https://docs.google.com/document/d/13Bx5wbUdv3MkhM3hgwUCnlxrj6NRRvFyGvjW9ITHTJU/copy",
           "selector_id": "a430b2f037c67cd9d00c",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/2sw-wk2-clinton-lake-evidence-tracker.md",
@@ -2209,7 +2209,7 @@
     {
       "day_key": "2SW-Wk2-Day3",
       "excluded_live_pdf_links": [],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1ZZ0CPn7hTt7YdBShc8kh-8zm93CXxf66HnMiZq0zH4k/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1y4CvYvjyLFQLaMTG4q0gdQqG8Nz5CAEAV4wO2_1K7kM/copy",
       "no_selector_review": null,
       "route_id": "2SW-Wk2-Day3",
       "selector_count": 1,
@@ -2227,7 +2227,7 @@
           "normalized_anchor_signature_sha256": "5d87c627ae38701f653126589e165e0b7631189dc7b2462577da5f45790700be",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1ZZ0CPn7hTt7YdBShc8kh-8zm93CXxf66HnMiZq0zH4k/copy",
+          "replacement_href": "https://docs.google.com/document/d/1y4CvYvjyLFQLaMTG4q0gdQqG8Nz5CAEAV4wO2_1K7kM/copy",
           "selector_id": "0c40e6407a88c58379dc",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/2sw-wk2-trail-simulation-record.md",
@@ -2264,7 +2264,7 @@
           "filename": "2sw-wk2-pcr-rubric.pdf"
         }
       ],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1LJuEuakt7IDSB577DqQsOZduNpRquq648yH0GbEuU54/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1WFH0ztPvjBQ_Z2TFIPBCHshQ--A2wxdxf3oOXkRDm2M/copy",
       "no_selector_review": null,
       "route_id": "2SW-Wk2-Day4",
       "selector_count": 1,
@@ -2282,7 +2282,7 @@
           "normalized_anchor_signature_sha256": "a8d2a0c9f1d7dad7a3b65d9c479472920bbd2a89f60d83e84f90c91d1b617471",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1LJuEuakt7IDSB577DqQsOZduNpRquq648yH0GbEuU54/copy",
+          "replacement_href": "https://docs.google.com/document/d/1WFH0ztPvjBQ_Z2TFIPBCHshQ--A2wxdxf3oOXkRDm2M/copy",
           "selector_id": "ad891b7b7074f2f66fa0",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/2sw-wk2-patient-care-report.md",
@@ -2311,7 +2311,7 @@
     {
       "day_key": "2SW-Wk2-Day5",
       "excluded_live_pdf_links": [],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1W_FOBWYPEdjIwu1q9JoNOC2mMZHs4GgSVjjCMljqfh8/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1kmZkivwrX_oz94kd5HUDHvWo8TS5kPJzmrWJ3qxcU8Q/copy",
       "no_selector_review": null,
       "route_id": "2SW-Wk2-Day5",
       "selector_count": 1,
@@ -2329,7 +2329,7 @@
           "normalized_anchor_signature_sha256": "81048b87f6ab009745ef94ed013aac074f69603c15fe4f65a80a7c6445513767",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1W_FOBWYPEdjIwu1q9JoNOC2mMZHs4GgSVjjCMljqfh8/copy",
+          "replacement_href": "https://docs.google.com/document/d/1kmZkivwrX_oz94kd5HUDHvWo8TS5kPJzmrWJ3qxcU8Q/copy",
           "selector_id": "e2a57a5736bcf0b50186",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/2sw-wk2-integrity-career-reflection.md",
@@ -2494,7 +2494,7 @@
           "filename": "2sw-wk3-handoff-rubric.pdf"
         }
       ],
-      "google_doc_copy_url": "https://docs.google.com/document/d/17Yu-IA4usUXgeldnwJF0_22Bx7RVXkbLvHnnrYYT4g8/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/183p95sjynKBMwa_q1VPyy7I2xlrFvY9DPazzd237L-I/copy",
       "no_selector_review": null,
       "route_id": "2SW-Wk3-Day4",
       "selector_count": 1,
@@ -2512,7 +2512,7 @@
           "normalized_anchor_signature_sha256": "876e839e769ae90304ec6162254069823afbde40d6fd5674001463e9bbd8b9ce",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/17Yu-IA4usUXgeldnwJF0_22Bx7RVXkbLvHnnrYYT4g8/copy",
+          "replacement_href": "https://docs.google.com/document/d/183p95sjynKBMwa_q1VPyy7I2xlrFvY9DPazzd237L-I/copy",
           "selector_id": "a2aa548d0fa2045b6bd8",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/2sw-wk3-clinical-handoff-record.md",
@@ -2541,7 +2541,7 @@
     {
       "day_key": "2SW-Wk3-Day5",
       "excluded_live_pdf_links": [],
-      "google_doc_copy_url": "https://docs.google.com/document/d/1O93-Oo1iYOe8Kd9dxUNUSMEqjqArBbK3t2uOUaqLp9c/copy",
+      "google_doc_copy_url": "https://docs.google.com/document/d/1-u3o8RM5268pD_UgohrzRvv0o-wP__Z14DfUUuYmeOY/copy",
       "no_selector_review": null,
       "route_id": "2SW-Wk3-Day5",
       "selector_count": 1,
@@ -2559,7 +2559,7 @@
           "normalized_anchor_signature_sha256": "7c5a2a1f3694772c65e9a2fb293066d20dd582168714061915c9bf3cbe08a994",
           "observed_href_had_query": true,
           "replacement_anchor_text": null,
-          "replacement_href": "https://docs.google.com/document/d/1O93-Oo1iYOe8Kd9dxUNUSMEqjqArBbK3t2uOUaqLp9c/copy",
+          "replacement_href": "https://docs.google.com/document/d/1-u3o8RM5268pD_UgohrzRvv0o-wP__Z14DfUUuYmeOY/copy",
           "selector_id": "a1ea1cbee94671637f5b",
           "source_evidence": {
             "artifact_path": "build/worksheet_sources/2sw-wk3-xello-save-careers-reflection.md",

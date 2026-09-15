@@ -1,0 +1,34 @@
+{
+ "days": {
+  "1SW-Wk3-Day1": {
+   "gslides_url": "https://docs.google.com/presentation/d/1C29O02C4PJHKo93vtINT50FETx3oueTMaOcub1wgHfM/edit",
+   "pptx_drive_url": "https://drive.google.com/file/d/167aIYRkYsn8HFqHNJqtNE6DW8ny-I4H3/view",
+   "canvas_file_id": 14732343,
+   "pptx": "docs/resources/slides/1sw-wk3-day1.pptx"
+  },
+  "1SW-Wk3-Day2": {
+   "gslides_url": "https://docs.google.com/presentation/d/1585PxxuE_a3Nqpf76oDCz9DNE_MxJJsW1SSxFvrWQko/edit",
+   "pptx_drive_url": "https://drive.google.com/file/d/1m8uHIgQc7DDHvyjfqd4Yf82zXkXVxsAs/view",
+   "canvas_file_id": 14732344,
+   "pptx": "docs/resources/slides/1sw-wk3-day2.pptx"
+  },
+  "1SW-Wk3-Day3": {
+   "gslides_url": "https://docs.google.com/presentation/d/1iUscMfihb68_nad-uG06swMvNk5X-Xn6zVPwysb7Qv0/edit",
+   "pptx_drive_url": "https://drive.google.com/file/d/1u9EIFT_ygpvd4umK2QCTCT1xlTgtz0Qv/view",
+   "canvas_file_id": 14732345,
+   "pptx": "docs/resources/slides/1sw-wk3-day3.pptx"
+  },
+  "1SW-Wk3-Day4": {
+   "gslides_url": "https://docs.google.com/presentation/d/1Diver2OjUGvcnqNzheNprwUuTgfWi1_4VWABbbUV1PU/edit",
+   "pptx_drive_url": "https://drive.google.com/file/d/1v7UMUJbFJI-C4IYN6RcY2QtyjdU1-Q4j/view",
+   "canvas_file_id": 14732346,
+   "pptx": "docs/resources/slides/1sw-wk3-day4.pptx"
+  },
+  "1SW-Wk3-Day5": {
+   "gslides_url": "https://docs.google.com/presentation/d/1xtvDDCEiOhXurRDpKpaOqGwzK7hQzLS3VyVI_RVxTnQ/edit",
+   "pptx_drive_url": "https://drive.google.com/file/d/1EXnruGZZGpAREwZOnsz5ZyM820Ymnmem/view",
+   "canvas_file_id": 14732347,
+   "pptx": "docs/resources/slides/1sw-wk3-day5.pptx"
+  }
+ }
+}

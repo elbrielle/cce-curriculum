@@ -20,6 +20,8 @@
 
 ---
 
+**Teacher slides:** [Day 4 classroom deck (PDF; workbook page images omitted)](../../resources/slides/public/1sw-wk3-day4-public.pdf). The full deck with Google Slides and PowerPoint versions is on the Canvas facilitator guide.
+
 ## Warm-Up (5 min)
 
 **WARM-UP: Name one technology you use today that did NOT exist when your parents were in middle school. (Hint: smartphones, video calls, streaming, social media, AI chatbots, etc.)**

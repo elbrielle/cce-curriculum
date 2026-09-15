@@ -14,8 +14,8 @@
   },
   "summary": {
     "unit_count": 36,
-    "required_unit_release_references": 305,
-    "unique_required_sources": 302,
+    "required_unit_release_references": 310,
+    "unique_required_sources": 307,
     "missing_drive_release_references": 0,
     "editable_parity_sources": 11,
     "native_support_sources": 1,
@@ -431,8 +431,8 @@
         },
         {
           "source": "docs/resources/worksheets/wk2-bls-data-guide.pdf",
-          "sha256": "a8c7ae3eeee16938758276aa9799a8b40f678936df58d77568f0c459d4446e5b",
-          "bytes": 257152,
+          "sha256": "12c6179dd5fdf22b5dc88a304e6892a4e9d324e806edcd2bcb720dbe26a8af9c",
+          "bytes": 161233,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -527,8 +527,8 @@
         },
         {
           "source": "docs/resources/worksheets/wk2-it-salary-comparison-model.pdf",
-          "sha256": "e567e854f2adca9b95b318716642506164b44e09aff1b4438290e40d880999cd",
-          "bytes": 226324,
+          "sha256": "ab015f161c17a15bfcc7ab5bd0ab82f4e94556579cb952e6e7ed9799dff0c23f",
+          "bytes": 114074,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -543,8 +543,8 @@
         },
         {
           "source": "docs/resources/worksheets/wk2-it-salary-comparison.pdf",
-          "sha256": "2f393a6ced2cc9636ae5f3215087ebb273db5294ffd9c929d2069de5adfe55a9",
-          "bytes": 226903,
+          "sha256": "2e4a01d7d038da9c3d6a2695ada98e2c3a6bcc57f1635063061da472048ce762",
+          "bytes": 135474,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -584,7 +584,7 @@
       },
       "google_masters_folder_id": "1fp1hKYqArYtxPPbzEjbqvKY4xaY7_ds0",
       "download_releases_folder_id": "14DDgDcSX73cEIR0LyIBOdcvPCZjS2cma",
-      "required_release_count": 12,
+      "required_release_count": 17,
       "missing_drive_release_count": 0,
       "required_releases": [
         {
@@ -617,6 +617,81 @@
           "drive_file": {
             "id": "1HHzt4dXPrbTTzQKdIEumdSkZPG_ps9qn",
             "name": "1sw-wk3-day2-website-revamp-audit-a-real-site.pdf"
+          }
+        },
+        {
+          "source": "docs/resources/slides/public/1sw-wk3-day1-public.pdf",
+          "sha256": "da0ef8419b2acb018a89111ea788a82112292d57c5a9046e4b611882759ec1c6",
+          "bytes": 194404,
+          "artifact_type": "fixed_layout_pdf",
+          "google_native_required": false,
+          "public_site_included": true,
+          "source_origins": [
+            "public_site"
+          ],
+          "drive_file": {
+            "id": "1Z-DTN3AGht-IhJyh9G6wTa5U4Z40D-LF",
+            "name": "1sw-wk3-day1-public.pdf"
+          }
+        },
+        {
+          "source": "docs/resources/slides/public/1sw-wk3-day2-public.pdf",
+          "sha256": "36abfdd4c8e760d042de981ff4c811c201c781d8de69ab593cd9317c72902b87",
+          "bytes": 142374,
+          "artifact_type": "fixed_layout_pdf",
+          "google_native_required": false,
+          "public_site_included": true,
+          "source_origins": [
+            "public_site"
+          ],
+          "drive_file": {
+            "id": "1vrv5jz08tx4RGX2r46kj4HWaHeSjYTnv",
+            "name": "1sw-wk3-day2-public.pdf"
+          }
+        },
+        {
+          "source": "docs/resources/slides/public/1sw-wk3-day3-public.pdf",
+          "sha256": "8445b3337b17b1f181cc6b03d31c6a71f8bbf410acd4f981f465d973d3f14e1d",
+          "bytes": 91769,
+          "artifact_type": "fixed_layout_pdf",
+          "google_native_required": false,
+          "public_site_included": true,
+          "source_origins": [
+            "public_site"
+          ],
+          "drive_file": {
+            "id": "1gZ0a3zDsyT_0XKrtW2VTGmbWHeucYtaG",
+            "name": "1sw-wk3-day3-public.pdf"
+          }
+        },
+        {
+          "source": "docs/resources/slides/public/1sw-wk3-day4-public.pdf",
+          "sha256": "892b384cd71e74fa3f08fd0e9f58dd68d64a444d405f99e9c475f6b0ff0e6dca",
+          "bytes": 195566,
+          "artifact_type": "fixed_layout_pdf",
+          "google_native_required": false,
+          "public_site_included": true,
+          "source_origins": [
+            "public_site"
+          ],
+          "drive_file": {
+            "id": "1-3nFlsVman6jTNMU-kmaCEVGCTzFnuq-",
+            "name": "1sw-wk3-day4-public.pdf"
+          }
+        },
+        {
+          "source": "docs/resources/slides/public/1sw-wk3-day5-public.pdf",
+          "sha256": "c66ddcf2de3afe94ff16515b5bb2dcebb486c464f995bd28b15dd9a35aebf2c3",
+          "bytes": 86968,
+          "artifact_type": "fixed_layout_pdf",
+          "google_native_required": false,
+          "public_site_included": true,
+          "source_origins": [
+            "public_site"
+          ],
+          "drive_file": {
+            "id": "1Kyr9gYXa9YxFwacyvFsuO7eLFjEVVdd8",
+            "name": "1sw-wk3-day5-public.pdf"
           }
         },
         {
@@ -2277,8 +2352,8 @@
         },
         {
           "source": "docs/resources/worksheets/2sw-wk6-outbreak-investigation-record.pdf",
-          "sha256": "f44a284275684412652687c1024226769181998bad0974575e6f3293d2912ff3",
-          "bytes": 220842,
+          "sha256": "c31211c2505c82390985928fdaa48ea5525b13fcdd90ae51a23ccdfc590d4a4d",
+          "bytes": 110371,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -2497,8 +2572,8 @@
         },
         {
           "source": "docs/resources/worksheets/3sw-wk2-plant-career-evidence-guide.pdf",
-          "sha256": "17bbc96f2213662f5573801984a75c5597543fb83055fd4714d1b39034ce6aef",
-          "bytes": 277368,
+          "sha256": "f6f5d88a003869778b1fe87c0e61461e86975d8daaa289b6be914bb716a59165",
+          "bytes": 162095,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -3776,8 +3851,8 @@
         },
         {
           "source": "docs/resources/worksheets/4sw-wk5-automotive-evidence-brief.pdf",
-          "sha256": "8c701b05cc9f90d47a978f64ac1580f6cfadefb0c4c51130e581878837d45b71",
-          "bytes": 236099,
+          "sha256": "62546ca0f043bad7ed96594db6b0045dbff2ac9a7cf19eb4253aa4a5189f7293",
+          "bytes": 127575,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -3808,8 +3883,8 @@
         },
         {
           "source": "docs/resources/worksheets/4sw-wk5-automotive-route-decision.pdf",
-          "sha256": "5db9c3c132d263afa22c63b44c30c36fff7af4fdf356e8220c7bf2b0101fe9fe",
-          "bytes": 240014,
+          "sha256": "3fb0501ca24b881fe661d72544da3e2432228437c8426250a8752d96e3a1eb24",
+          "bytes": 130498,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,
@@ -4121,8 +4196,8 @@
         },
         {
           "source": "docs/resources/worksheets/5sw-wk1-unexpected-architecture-evidence.pdf",
-          "sha256": "365d2c6f4c62a3fe5c1351edc590f6084140e416991b3df84a05055d62069f2e",
-          "bytes": 214647,
+          "sha256": "ece6cee2212c885182a0ea2f76ef939791d4e227a83025febeb0d02659347d97",
+          "bytes": 103337,
           "artifact_type": "fixed_layout_pdf",
           "google_native_required": false,
           "public_site_included": true,

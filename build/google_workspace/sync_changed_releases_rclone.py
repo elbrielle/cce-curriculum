@@ -139,6 +139,8 @@ def build_plan(deck_keys: set[str], *, include_resources: bool = True) -> list[d
             )
 
         for old_source, new_source in superseded.items():
+            if old_source not in by_source and new_source in by_source:
+                continue  # already replaced on Drive; nothing left to rename
             require(old_source in by_source, f"no recorded Drive ID for {old_source}")
             local = ROOT / new_source
             require(local.is_file(), f"replacement file is missing: {new_source}")

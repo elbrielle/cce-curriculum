@@ -8,7 +8,7 @@ const FYF = D.SRC.fyf("38");
 const CV = D.SRC.canvas("2026-09-15");
 const BLS = D.SRC.bls("Network and Computer Systems Administrators", "https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm", "2026-09-15");
 const CARDS = "Networking Career Cards (CCE-authored, build/worksheet_sources/wk3-networking-career-cards.md; BLS OOH accessed 2026-08-09).";
-const OUT = path.join(__dirname, "../../../docs/resources/slides", isPublic ? "public" : "", "1sw-wk3-day1.pptx");
+const OUT = path.join(__dirname, "../../../docs/resources/slides", isPublic ? "public/1sw-wk3-day1-public.pptx" : "1sw-wk3-day1.pptx");
 
 d.title("Networking careers", "Who keeps the Wi-Fi up?", "College and Career Exploration · Week 3 · Day 1",
   "Bring your notebook, a pencil, and your Chromebook. Find Your Future workbook only if you finish early (p. 38).",

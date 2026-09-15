@@ -16,8 +16,8 @@ Two halves, because Drive is reached through rclone on the owner's Mac and Canva
      guide's Student response routes panel carries a "Slides for Day N" row. Page bodies only; nothing
      is published or unpublished. Fleet courses get the same row through fleet_parity_apply.py.
 
-  3) Public site: copies docs/resources/slides/public/<week>-dayN.pptx into public-site/static/slides/
-     so build_site.py can link the rights-clean twin. Never the full deck.
+  3) Public site: renders docs/resources/slides/public/<week>-dayN-public.pptx to PDF; each day plan links that PDF
+     (publication-policy.json protects .pptx). Then run the Google Workspace parity pipeline so the inventory records it.
 """
 from __future__ import annotations
 
@@ -69,10 +69,11 @@ def main():
                 entry["canvas_file_id"] = upload(c, a.course, deck, f"Slides/{a.week}")
             entry["pptx"] = str(deck.relative_to(ROOT))
             print(key, entry)
-            pub = ROOT / "docs/resources/slides/public" / deck.name
+            pub = ROOT / "docs/resources/slides/public" / (deck.stem + "-public.pptx")
+            # the public site only carries the rights-clean twin as a PDF (publication-policy protects .pptx);
+            # docs/<sw>/<week>/dayN.md links docs/resources/slides/public/<deck>-public.pdf above the warm-up
             if pub.exists():
-                dest = ROOT / "public-site/static/slides"; dest.mkdir(parents=True, exist_ok=True)
-                shutil.copy2(pub, dest / deck.name)
+                subprocess.run(["soffice", "--headless", "--convert-to", "pdf", "--outdir", str(pub.parent), str(pub)], check=True, capture_output=True)
     REG.write_text(json.dumps(reg, indent=1))
     if a.apply:
         sw, wk = a.week.split("-")

@@ -15,8 +15,11 @@ for f in "$SRC"/${WEEK}-day*.pptx; do
   name="$(basename "$f")"; n="${name: -6:1}"
   sw="${WEEK:0:1}"; wk="${WEEK#*-wk}"; key="${sw}SW-Wk${wk}-Day${n}"
   rclone copyto "$f" "$BASEDIR/Download Releases/$name"
-  rclone copyto --drive-import-formats pptx "$f" "$BASEDIR/Google Masters/${name%.pptx}"
-  gid="$(rclone lsjson "$BASEDIR/Google Masters" | python3 -c "import json,sys;print(next(x['ID'] for x in json.load(sys.stdin) if x['Name']=='${name%.pptx}'))")"
+  # keep the .pptx extension on the destination: rclone converts to Google Slides and drops the extension itself
+  # remove earlier copies (a plain upload shows as x-zip without extension; a converted deck lists as name.pptx with a 44-char id)
+  rclone delete --include "${name%.pptx}" --include "$name" "$BASEDIR/Google Masters" 2>/dev/null || true
+  rclone copyto --drive-import-formats pptx "$f" "$BASEDIR/Google Masters/$name"
+  gid="$(rclone lsjson "$BASEDIR/Google Masters" | python3 -c "import json,sys;print(next(x['ID'] for x in json.load(sys.stdin) if x['Name']=='$name' and len(x['ID'])>40))")"
   pid="$(rclone lsjson "$BASEDIR/Download Releases" | python3 -c "import json,sys;print(next(x['ID'] for x in json.load(sys.stdin) if x['Name']=='$name'))")"
   python3 - "$REG" "$key" "$gid" "$pid" <<'EOF'
 import json,sys

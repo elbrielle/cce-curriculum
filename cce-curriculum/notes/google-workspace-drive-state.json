@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "checked_on": "2026-08-25",
+  "checked_on": "2026-08-17",
   "drive_root": {
     "title": "Units_CCR",
     "id": "1FbY0WdnXN-PkW6Vi76qcpDfp7SKq5c5H",
     "url": "https://drive.google.com/drive/folders/1FbY0WdnXN-PkW6Vi76qcpDfp7SKq5c5H"
   },
   "expected_unit_count": 36,
-  "expected_public_resource_references": 305,
+  "expected_public_resource_references": 310,
   "live_verification": {
-    "checked_on": "2026-08-25",
+    "checked_on": "2026-08-17",
     "matching_unit_folders": 36,
     "matching_unit_subfolders": 72,
-    "matching_public_releases": 305,
+    "matching_public_releases": 310,
     "verified_editable_presentations": 10,
     "verified_office_presentation_releases": 10,
     "verified_student_google_docs": 173,
@@ -23,7 +23,7 @@
     {
       "curriculum_address": "1SW Wk0",
       "unit_folder": {
-        "title": "SW1 \u00b7 Wk0 Classroom Routines and Career Self-Discovery",
+        "title": "SW1 · Wk0 Classroom Routines and Career Self-Discovery",
         "id": "1nXiYLt--932Knh-SjcWaI5mDqJ_BIBGa"
       },
       "google_masters_folder_id": "117satomVUMXl-7fOFlYzTChD3__Fy0Mh",
@@ -214,7 +214,7 @@
     {
       "curriculum_address": "1SW Wk1",
       "unit_folder": {
-        "title": "SW1 \u00b7 Wk1 Robotics and Manufacturing",
+        "title": "SW1 · Wk1 Robotics and Manufacturing",
         "id": "15-fUDKDVf-MW6IMyeMcaBNme0os2E_u3"
       },
       "google_masters_folder_id": "1rzbkQgCRD9YJyg7lhLSAdlyE6kkIGlnv",
@@ -426,7 +426,7 @@
     {
       "curriculum_address": "1SW Wk2",
       "unit_folder": {
-        "title": "SW1 \u00b7 Wk2 Programming IT",
+        "title": "SW1 · Wk2 Programming IT",
         "id": "14k5keCKsuvgXCHgDNoluxosKMYC4PrTJ"
       },
       "google_masters_folder_id": "1BlhhcSuQkIYR38q9mhp6haNYZlBqypf3",
@@ -469,8 +469,8 @@
         },
         {
           "source": "docs/resources/worksheets/wk2-bls-data-guide.pdf",
-          "sha256": "a8c7ae3eeee16938758276aa9799a8b40f678936df58d77568f0c459d4446e5b",
-          "bytes": 257152,
+          "sha256": "12c6179dd5fdf22b5dc88a304e6892a4e9d324e806edcd2bcb720dbe26a8af9c",
+          "bytes": 161233,
           "drive_file_id": "13vzxsX9Aw30mY59KKDd5etTV77eLNB8C",
           "drive_name": "wk2-bls-data-guide.pdf"
         },
@@ -511,15 +511,15 @@
         },
         {
           "source": "docs/resources/worksheets/wk2-it-salary-comparison-model.pdf",
-          "sha256": "e567e854f2adca9b95b318716642506164b44e09aff1b4438290e40d880999cd",
-          "bytes": 226324,
+          "sha256": "ab015f161c17a15bfcc7ab5bd0ab82f4e94556579cb952e6e7ed9799dff0c23f",
+          "bytes": 114074,
           "drive_file_id": "1uzoaeJb6pNhCLQ0QVZpMm-jIKAHSHnR3",
           "drive_name": "wk2-it-salary-comparison-model.pdf"
         },
         {
           "source": "docs/resources/worksheets/wk2-it-salary-comparison.pdf",
-          "sha256": "2f393a6ced2cc9636ae5f3215087ebb273db5294ffd9c929d2069de5adfe55a9",
-          "bytes": 226903,
+          "sha256": "2e4a01d7d038da9c3d6a2695ada98e2c3a6bcc57f1635063061da472048ce762",
+          "bytes": 135474,
           "drive_file_id": "1NQbX7tktmRZh4d9GZJat2psjQ3DxA8Zr",
           "drive_name": "wk2-it-salary-comparison.pdf"
         },
@@ -599,8 +599,8 @@
         },
         {
           "source": "docs/resources/worksheets/wk2-bls-data-guide.pdf",
-          "sha256": "a8c7ae3eeee16938758276aa9799a8b40f678936df58d77568f0c459d4446e5b",
-          "bytes": 257152,
+          "sha256": "12c6179dd5fdf22b5dc88a304e6892a4e9d324e806edcd2bcb720dbe26a8af9c",
+          "bytes": 161233,
           "artifact_type": "fixed_layout_pdf",
           "source_origins": [
             "canvas_builder",
@@ -677,8 +677,8 @@
         },
         {
           "source": "docs/resources/worksheets/wk2-it-salary-comparison-model.pdf",
-          "sha256": "e567e854f2adca9b95b318716642506164b44e09aff1b4438290e40d880999cd",
-          "bytes": 226324,
+          "sha256": "ab015f161c17a15bfcc7ab5bd0ab82f4e94556579cb952e6e7ed9799dff0c23f",
+          "bytes": 114074,
           "artifact_type": "fixed_layout_pdf",
           "source_origins": [
             "canvas_builder",
@@ -690,8 +690,8 @@
         },
         {
           "source": "docs/resources/worksheets/wk2-it-salary-comparison.pdf",
-          "sha256": "2f393a6ced2cc9636ae5f3215087ebb273db5294ffd9c929d2069de5adfe55a9",
-          "bytes": 226903,
+          "sha256": "2e4a01d7d038da9c3d6a2695ada98e2c3a6bcc57f1635063061da472048ce762",
+          "bytes": 135474,
           "artifact_type": "fixed_layout_pdf",
           "source_origins": [
             "canvas_builder",
@@ -719,7 +719,7 @@
     {
       "curriculum_address": "1SW Wk3",
       "unit_folder": {
-        "title": "SW1 \u00b7 Wk3 Computer Science IT",
+        "title": "SW1 · Wk3 Computer Science IT",
         "id": "1rBuD991wkimQ-7b7f0c8XamrC875ENlt"
       },
       "google_masters_folder_id": "1fp1hKYqArYtxPPbzEjbqvKY4xaY7_ds0",
@@ -738,6 +738,41 @@
           "bytes": 221952,
           "drive_file_id": "1HHzt4dXPrbTTzQKdIEumdSkZPG_ps9qn",
           "drive_name": "1sw-wk3-day2-website-revamp-audit-a-real-site.pdf"
+        },
+        {
+          "source": "docs/resources/slides/public/1sw-wk3-day1-public.pdf",
+          "sha256": "da0ef8419b2acb018a89111ea788a82112292d57c5a9046e4b611882759ec1c6",
+          "bytes": 194404,
+          "drive_file_id": "1Z-DTN3AGht-IhJyh9G6wTa5U4Z40D-LF",
+          "drive_name": "1sw-wk3-day1-public.pdf"
+        },
+        {
+          "source": "docs/resources/slides/public/1sw-wk3-day2-public.pdf",
+          "sha256": "36abfdd4c8e760d042de981ff4c811c201c781d8de69ab593cd9317c72902b87",
+          "bytes": 142374,
+          "drive_file_id": "1vrv5jz08tx4RGX2r46kj4HWaHeSjYTnv",
+          "drive_name": "1sw-wk3-day2-public.pdf"
+        },
+        {
+          "source": "docs/resources/slides/public/1sw-wk3-day3-public.pdf",
+          "sha256": "8445b3337b17b1f181cc6b03d31c6a71f8bbf410acd4f981f465d973d3f14e1d",
+          "bytes": 91769,
+          "drive_file_id": "1gZ0a3zDsyT_0XKrtW2VTGmbWHeucYtaG",
+          "drive_name": "1sw-wk3-day3-public.pdf"
+        },
+        {
+          "source": "docs/resources/slides/public/1sw-wk3-day4-public.pdf",
+          "sha256": "892b384cd71e74fa3f08fd0e9f58dd68d64a444d405f99e9c475f6b0ff0e6dca",
+          "bytes": 195566,
+          "drive_file_id": "1-3nFlsVman6jTNMU-kmaCEVGCTzFnuq-",
+          "drive_name": "1sw-wk3-day4-public.pdf"
+        },
+        {
+          "source": "docs/resources/slides/public/1sw-wk3-day5-public.pdf",
+          "sha256": "c66ddcf2de3afe94ff16515b5bb2dcebb486c464f995bd28b15dd9a35aebf2c3",
+          "bytes": 86968,
+          "drive_file_id": "1Kyr9gYXa9YxFwacyvFsuO7eLFjEVVdd8",
+          "drive_name": "1sw-wk3-day5-public.pdf"
         },
         {
           "source": "docs/resources/worksheets/wk3-app-design-rubric.pdf",
@@ -835,6 +870,66 @@
           ],
           "drive_file_id": "1HHzt4dXPrbTTzQKdIEumdSkZPG_ps9qn",
           "drive_name": "1sw-wk3-day2-website-revamp-audit-a-real-site.pdf",
+          "public_site_included": true
+        },
+        {
+          "source": "docs/resources/slides/public/1sw-wk3-day1-public.pdf",
+          "sha256": "da0ef8419b2acb018a89111ea788a82112292d57c5a9046e4b611882759ec1c6",
+          "bytes": 194404,
+          "artifact_type": "fixed_layout_pdf",
+          "source_origins": [
+            "public_site"
+          ],
+          "drive_file_id": "1Z-DTN3AGht-IhJyh9G6wTa5U4Z40D-LF",
+          "drive_name": "1sw-wk3-day1-public.pdf",
+          "public_site_included": true
+        },
+        {
+          "source": "docs/resources/slides/public/1sw-wk3-day2-public.pdf",
+          "sha256": "36abfdd4c8e760d042de981ff4c811c201c781d8de69ab593cd9317c72902b87",
+          "bytes": 142374,
+          "artifact_type": "fixed_layout_pdf",
+          "source_origins": [
+            "public_site"
+          ],
+          "drive_file_id": "1vrv5jz08tx4RGX2r46kj4HWaHeSjYTnv",
+          "drive_name": "1sw-wk3-day2-public.pdf",
+          "public_site_included": true
+        },
+        {
+          "source": "docs/resources/slides/public/1sw-wk3-day3-public.pdf",
+          "sha256": "8445b3337b17b1f181cc6b03d31c6a71f8bbf410acd4f981f465d973d3f14e1d",
+          "bytes": 91769,
+          "artifact_type": "fixed_layout_pdf",
+          "source_origins": [
+            "public_site"
+          ],
+          "drive_file_id": "1gZ0a3zDsyT_0XKrtW2VTGmbWHeucYtaG",
+          "drive_name": "1sw-wk3-day3-public.pdf",
+          "public_site_included": true
+        },
+        {
+          "source": "docs/resources/slides/public/1sw-wk3-day4-public.pdf",
+          "sha256": "892b384cd71e74fa3f08fd0e9f58dd68d64a444d405f99e9c475f6b0ff0e6dca",
+          "bytes": 195566,
+          "artifact_type": "fixed_layout_pdf",
+          "source_origins": [
+            "public_site"
+          ],
+          "drive_file_id": "1-3nFlsVman6jTNMU-kmaCEVGCTzFnuq-",
+          "drive_name": "1sw-wk3-day4-public.pdf",
+          "public_site_included": true
+        },
+        {
+          "source": "docs/resources/slides/public/1sw-wk3-day5-public.pdf",
+          "sha256": "c66ddcf2de3afe94ff16515b5bb2dcebb486c464f995bd28b15dd9a35aebf2c3",
+          "bytes": 86968,
+          "artifact_type": "fixed_layout_pdf",
+          "source_origins": [
+            "public_site"
+          ],
+          "drive_file_id": "1Kyr9gYXa9YxFwacyvFsuO7eLFjEVVdd8",
+          "drive_name": "1sw-wk3-day5-public.pdf",
           "public_site_included": true
         },
         {
@@ -972,7 +1067,7 @@
     {
       "curriculum_address": "1SW Wk4",
       "unit_folder": {
-        "title": "SW1 \u00b7 Wk4 Tech Support IT",
+        "title": "SW1 · Wk4 Tech Support IT",
         "id": "1DUNQf6bDCoTMjfT3wmDwh-4fOML9iFsu"
       },
       "google_masters_folder_id": "1KR0k9ce3tOE9rZ28H7bL_f3m_WcQw7Pv",
@@ -1365,7 +1460,7 @@
     {
       "curriculum_address": "1SW Wk5",
       "unit_folder": {
-        "title": "SW1 \u00b7 Wk5 Cybersecurity IT",
+        "title": "SW1 · Wk5 Cybersecurity IT",
         "id": "1PaTGC6WWN36JEOW3ojlrFiD7OOM6y3Sp"
       },
       "google_masters_folder_id": "1kB3g7_VuuPB9C66e-0KdRKygHFuOG1rR",
@@ -1537,7 +1632,7 @@
     {
       "curriculum_address": "2SW Wk1",
       "unit_folder": {
-        "title": "SW2 \u00b7 Wk1 Legal Studies",
+        "title": "SW2 · Wk1 Legal Studies",
         "id": "1MQGlow4E2t1Xg8r9od0ZOSwS5YtyEbHq"
       },
       "google_masters_folder_id": "15kBnCNKBdRbrBCADz-xCgIZpAWBi3rYk",
@@ -1805,7 +1900,7 @@
     {
       "curriculum_address": "2SW Wk2",
       "unit_folder": {
-        "title": "SW2 \u00b7 Wk2 Law Enforcement EMT",
+        "title": "SW2 · Wk2 Law Enforcement EMT",
         "id": "1e595qKz8CNOYiDpfH3-47YjwckFzj6yR"
       },
       "google_masters_folder_id": "1R_wCbpycdZrHueoXxFtDVn825phl-pfU",
@@ -2033,7 +2128,7 @@
     {
       "curriculum_address": "2SW Wk3",
       "unit_folder": {
-        "title": "SW2 \u00b7 Wk3 Nursing Health Science",
+        "title": "SW2 · Wk3 Nursing Health Science",
         "id": "1xL_-7ilS-6WnUfAcYsVnlEejaN0WmL4p"
       },
       "google_masters_folder_id": "1iSZMiRvScRa5ZUjdEAawFaQYd1AkUKwk",
@@ -2281,7 +2376,7 @@
     {
       "curriculum_address": "2SW Wk4",
       "unit_folder": {
-        "title": "SW2 \u00b7 Wk4 Dental Medical Billing",
+        "title": "SW2 · Wk4 Dental Medical Billing",
         "id": "1o3a7ga_rnMhNlXfjg7C3l537XA-SFgcK"
       },
       "google_masters_folder_id": "1QRrLyCzG6KumcLHfCgM6gG8ygjuSx54z",
@@ -2491,7 +2586,7 @@
     {
       "curriculum_address": "2SW Wk5",
       "unit_folder": {
-        "title": "SW2 \u00b7 Wk5 Powerskills Communication",
+        "title": "SW2 · Wk5 Powerskills Communication",
         "id": "1pTCK95Z3HlfbbQ6JUjaJB-4agQVzubsI"
       },
       "google_masters_folder_id": "1tlzmXFUgZXWGZ0fEFUcQz_uOB_0frQap",
@@ -2644,7 +2739,7 @@
     {
       "curriculum_address": "2SW Wk6",
       "unit_folder": {
-        "title": "SW2 \u00b7 Wk6 Biomedical Health Science",
+        "title": "SW2 · Wk6 Biomedical Health Science",
         "id": "1mH04uiOAGm-fL5sgvZYT7uXjRIEWYFtX"
       },
       "google_masters_folder_id": "1Wf7kTwtzTiGBAOV3z8Ziy8DK39IU5O0k",
@@ -2708,8 +2803,8 @@
         },
         {
           "source": "docs/resources/worksheets/2sw-wk6-outbreak-investigation-record.pdf",
-          "sha256": "f44a284275684412652687c1024226769181998bad0974575e6f3293d2912ff3",
-          "bytes": 220842,
+          "sha256": "c31211c2505c82390985928fdaa48ea5525b13fcdd90ae51a23ccdfc590d4a4d",
+          "bytes": 110371,
           "drive_file_id": "19qwILJxh7bs9dvyVe9uvILbC6vi1Khtr",
           "drive_name": "2sw-wk6-outbreak-investigation-record.pdf"
         },
@@ -2830,8 +2925,8 @@
         },
         {
           "source": "docs/resources/worksheets/2sw-wk6-outbreak-investigation-record.pdf",
-          "sha256": "f44a284275684412652687c1024226769181998bad0974575e6f3293d2912ff3",
-          "bytes": 220842,
+          "sha256": "c31211c2505c82390985928fdaa48ea5525b13fcdd90ae51a23ccdfc590d4a4d",
+          "bytes": 110371,
           "artifact_type": "fixed_layout_pdf",
           "source_origins": [
             "canvas_builder",
@@ -2872,7 +2967,7 @@
     {
       "curriculum_address": "3SW Wk1",
       "unit_folder": {
-        "title": "SW3 \u00b7 Wk1 Vet Science",
+        "title": "SW3 · Wk1 Vet Science",
         "id": "1iFgeoRgEg8wgOiTfmVNF6fS09Hm6GX1q"
       },
       "google_masters_folder_id": "1vJ6T0U5UGPHe9VNXq9MccwdgMXNXwx6N",
@@ -3005,7 +3100,7 @@
     {
       "curriculum_address": "3SW Wk2",
       "unit_folder": {
-        "title": "SW3 \u00b7 Wk2 Plant Science",
+        "title": "SW3 · Wk2 Plant Science",
         "id": "1DKv2wWKzvXGPxBtUhEtH5QBEZGYfbP27"
       },
       "google_masters_folder_id": "1Rd9Kjc92aZRmqNuGTlhVco4Dg3fm5Oi5",
@@ -3034,8 +3129,8 @@
         },
         {
           "source": "docs/resources/worksheets/3sw-wk2-plant-career-evidence-guide.pdf",
-          "sha256": "17bbc96f2213662f5573801984a75c5597543fb83055fd4714d1b39034ce6aef",
-          "bytes": 277368,
+          "sha256": "f6f5d88a003869778b1fe87c0e61461e86975d8daaa289b6be914bb716a59165",
+          "bytes": 162095,
           "drive_file_id": "1LNqbG2QemS-ydkpkfdnEd5_bDu9NtMT8",
           "drive_name": "3sw-wk2-plant-career-evidence-guide.pdf"
         },
@@ -3096,8 +3191,8 @@
         },
         {
           "source": "docs/resources/worksheets/3sw-wk2-plant-career-evidence-guide.pdf",
-          "sha256": "17bbc96f2213662f5573801984a75c5597543fb83055fd4714d1b39034ce6aef",
-          "bytes": 277368,
+          "sha256": "f6f5d88a003869778b1fe87c0e61461e86975d8daaa289b6be914bb716a59165",
+          "bytes": 162095,
           "artifact_type": "fixed_layout_pdf",
           "source_origins": [
             "canvas_builder",
@@ -3138,7 +3233,7 @@
     {
       "curriculum_address": "3SW Wk3",
       "unit_folder": {
-        "title": "SW3 \u00b7 Wk3 Sustainable Engineering",
+        "title": "SW3 · Wk3 Sustainable Engineering",
         "id": "1Tp6b66JJuWh2DtQ_n3b462BRaPBMnmV3"
       },
       "google_masters_folder_id": "1KljYyN4IIrBUMq5aFAxPqTjSXqEE3iav",
@@ -3311,7 +3406,7 @@
     {
       "curriculum_address": "3SW Wk4",
       "unit_folder": {
-        "title": "SW3 \u00b7 Wk4 Culinary Hospitality",
+        "title": "SW3 · Wk4 Culinary Hospitality",
         "id": "1GNvTlwC7qqOBVV32RyVFJnFa1OdHtHf8"
       },
       "google_masters_folder_id": "1TCuEh-MT-pNOihqMZAqeemqfk_ithalj",
@@ -3484,7 +3579,7 @@
     {
       "curriculum_address": "3SW Wk5",
       "unit_folder": {
-        "title": "SW3 \u00b7 Wk5 Cosmetology",
+        "title": "SW3 · Wk5 Cosmetology",
         "id": "1u85hiaASz3pYRB3JkoQM9zgx3Pv6_xb5"
       },
       "google_masters_folder_id": "1pyJ57fKRPTnRsgkuCFOIXgMImfr2aFpc",
@@ -3657,7 +3752,7 @@
     {
       "curriculum_address": "3SW Wk6",
       "unit_folder": {
-        "title": "SW3 \u00b7 Wk6 Entrepreneurship",
+        "title": "SW3 · Wk6 Entrepreneurship",
         "id": "1ShwkB6xXq5CpUEbbJx4v6Zc33OX11eid"
       },
       "google_masters_folder_id": "14MZFfYRR8oAsadF01gUZ6NZGUi58VWBW",
@@ -3790,7 +3885,7 @@
     {
       "curriculum_address": "4SW Wk1",
       "unit_folder": {
-        "title": "SW4 \u00b7 Wk1 Career Planning",
+        "title": "SW4 · Wk1 Career Planning",
         "id": "1wYJnK5aPBNzECowbAGrf0Nz4jCLjpp1g"
       },
       "google_masters_folder_id": "1Jq---i_sWa3zybWPSt8wV01Bs_y-7X_7",
@@ -3923,7 +4018,7 @@
     {
       "curriculum_address": "4SW Wk2",
       "unit_folder": {
-        "title": "SW4 \u00b7 Wk2 Course Mapping",
+        "title": "SW4 · Wk2 Course Mapping",
         "id": "1HLOfD6cU6aScFHAmvkKPvBCKOgG5v6P4"
       },
       "google_masters_folder_id": "1zjqyuU-DAi4JXPSFAl2EBAJPxeU3kVgj",
@@ -4151,7 +4246,7 @@
     {
       "curriculum_address": "4SW Wk3",
       "unit_folder": {
-        "title": "SW4 \u00b7 Wk3 Aviation",
+        "title": "SW4 · Wk3 Aviation",
         "id": "1bg0oVZmb23VGuQb6mFkWqLn0nq8yErii"
       },
       "google_masters_folder_id": "1yCIHh19kJ8Y_TBGLBuVsGGW_q5cyJ9si",
@@ -4379,7 +4474,7 @@
     {
       "curriculum_address": "4SW Wk4",
       "unit_folder": {
-        "title": "SW4 \u00b7 Wk4 Drone Engineering",
+        "title": "SW4 · Wk4 Drone Engineering",
         "id": "1XWy08cVovGGaAAPeQI3Y_v7pGCo86gZ-"
       },
       "google_masters_folder_id": "1Z-AsFN54GfWI8pQ0o7rq7vwqVVe909yq",
@@ -4512,7 +4607,7 @@
     {
       "curriculum_address": "4SW Wk5",
       "unit_folder": {
-        "title": "SW4 \u00b7 Wk5 Automotive",
+        "title": "SW4 · Wk5 Automotive",
         "id": "1B9pvJbB1ue35hwheqzy7d5r4RtqvUUgq"
       },
       "google_masters_folder_id": "165bCNBHr9eBZtiXzCw_MA9K3k08AvJor",
@@ -4562,8 +4657,8 @@
         },
         {
           "source": "docs/resources/worksheets/4sw-wk5-automotive-evidence-brief.pdf",
-          "sha256": "8c701b05cc9f90d47a978f64ac1580f6cfadefb0c4c51130e581878837d45b71",
-          "bytes": 236099,
+          "sha256": "62546ca0f043bad7ed96594db6b0045dbff2ac9a7cf19eb4253aa4a5189f7293",
+          "bytes": 127575,
           "drive_file_id": "12iDW3NHca5UOOkZPpLJpqX3iXom33DDG",
           "drive_name": "4sw-wk5-automotive-evidence-brief.pdf"
         },
@@ -4576,8 +4671,8 @@
         },
         {
           "source": "docs/resources/worksheets/4sw-wk5-automotive-route-decision.pdf",
-          "sha256": "5db9c3c132d263afa22c63b44c30c36fff7af4fdf356e8220c7bf2b0101fe9fe",
-          "bytes": 240014,
+          "sha256": "3fb0501ca24b881fe661d72544da3e2432228437c8426250a8752d96e3a1eb24",
+          "bytes": 130498,
           "drive_file_id": "1ObEFyA6EewfJcExytewVZ4vPLLE6AxQ8",
           "drive_name": "4sw-wk5-automotive-route-decision.pdf"
         },
@@ -4672,8 +4767,8 @@
         },
         {
           "source": "docs/resources/worksheets/4sw-wk5-automotive-evidence-brief.pdf",
-          "sha256": "8c701b05cc9f90d47a978f64ac1580f6cfadefb0c4c51130e581878837d45b71",
-          "bytes": 236099,
+          "sha256": "62546ca0f043bad7ed96594db6b0045dbff2ac9a7cf19eb4253aa4a5189f7293",
+          "bytes": 127575,
           "artifact_type": "fixed_layout_pdf",
           "source_origins": [
             "canvas_builder",
@@ -4698,8 +4793,8 @@
         },
         {
           "source": "docs/resources/worksheets/4sw-wk5-automotive-route-decision.pdf",
-          "sha256": "5db9c3c132d263afa22c63b44c30c36fff7af4fdf356e8220c7bf2b0101fe9fe",
-          "bytes": 240014,
+          "sha256": "3fb0501ca24b881fe661d72544da3e2432228437c8426250a8752d96e3a1eb24",
+          "bytes": 130498,
           "artifact_type": "fixed_layout_pdf",
           "source_origins": [
             "canvas_builder",
@@ -4740,7 +4835,7 @@
     {
       "curriculum_address": "4SW Wk6",
       "unit_folder": {
-        "title": "SW4 \u00b7 Wk6 Trades Capstone",
+        "title": "SW4 · Wk6 Trades Capstone",
         "id": "1QH4_rJ880g9LrvRpIcxH4tA8sUn7Zz-i"
       },
       "google_masters_folder_id": "1L-_81qFztEXrX1JYGEuTqPJ3htwCHkM2",
@@ -4930,7 +5025,7 @@
     {
       "curriculum_address": "5SW Wk1",
       "unit_folder": {
-        "title": "SW5 \u00b7 Wk1 Architecture",
+        "title": "SW5 · Wk1 Architecture",
         "id": "1OdddgisT6SxXWGoRLD2KO8NAX9vDaYeS"
       },
       "google_masters_folder_id": "1CMecGGK-wpmsK73olXDPWxBUTFtwbZeF",
@@ -4980,8 +5075,8 @@
         },
         {
           "source": "docs/resources/worksheets/5sw-wk1-unexpected-architecture-evidence.pdf",
-          "sha256": "365d2c6f4c62a3fe5c1351edc590f6084140e416991b3df84a05055d62069f2e",
-          "bytes": 214647,
+          "sha256": "ece6cee2212c885182a0ea2f76ef939791d4e227a83025febeb0d02659347d97",
+          "bytes": 103337,
           "drive_file_id": "1h7iOTxVLa4tT1873kmpMctZUaLFPDYXC",
           "drive_name": "5sw-wk1-unexpected-architecture-evidence.pdf"
         }
@@ -5067,8 +5162,8 @@
         },
         {
           "source": "docs/resources/worksheets/5sw-wk1-unexpected-architecture-evidence.pdf",
-          "sha256": "365d2c6f4c62a3fe5c1351edc590f6084140e416991b3df84a05055d62069f2e",
-          "bytes": 214647,
+          "sha256": "ece6cee2212c885182a0ea2f76ef939791d4e227a83025febeb0d02659347d97",
+          "bytes": 103337,
           "artifact_type": "fixed_layout_pdf",
           "source_origins": [
             "canvas_builder",
@@ -5083,7 +5178,7 @@
     {
       "curriculum_address": "5SW Wk2",
       "unit_folder": {
-        "title": "SW5 \u00b7 Wk2 Civil Engineering",
+        "title": "SW5 · Wk2 Civil Engineering",
         "id": "14U8UzxDomce4-Ii32Cm_VqDkEjGxqBTg"
       },
       "google_masters_folder_id": "1BcMqQip4ob6N-8BsPJUPEEXKgbZf4bJz",
@@ -5236,7 +5331,7 @@
     {
       "curriculum_address": "5SW Wk3",
       "unit_folder": {
-        "title": "SW5 \u00b7 Wk3 Construction Trades",
+        "title": "SW5 · Wk3 Construction Trades",
         "id": "1jjueb3MAWqgD_fTqmYUZ7c9VZh-Eaxcn"
       },
       "google_masters_folder_id": "168vh821ESpChkHVY9oHFrd3K4Lz3z_gP",
@@ -5369,7 +5464,7 @@
     {
       "curriculum_address": "5SW Wk4",
       "unit_folder": {
-        "title": "SW5 \u00b7 Wk4 HVAC Electrical Plumbing",
+        "title": "SW5 · Wk4 HVAC Electrical Plumbing",
         "id": "1CzPN5f87_U2fa_koR56fHT-eeq0dou8G"
       },
       "google_masters_folder_id": "1x2EVwSqSfxNxNHYMs500G3Qfrmo_YrNn",
@@ -5502,7 +5597,7 @@
     {
       "curriculum_address": "5SW Wk5",
       "unit_folder": {
-        "title": "SW5 \u00b7 Wk5 Personal Budget",
+        "title": "SW5 · Wk5 Personal Budget",
         "id": "1wCTVMaTpoJU9ilqDw8bWqIwdBr_GjfsA"
       },
       "google_masters_folder_id": "1xeWYLUfHp4n6bzOi3zP_hGiKCZ1P6qIr",
@@ -5635,7 +5730,7 @@
     {
       "curriculum_address": "5SW Wk6",
       "unit_folder": {
-        "title": "SW5 \u00b7 Wk6 Real Estate",
+        "title": "SW5 · Wk6 Real Estate",
         "id": "14uNB1HYBqMpR9_ojm8Q2AXTSPV-I26iv"
       },
       "google_masters_folder_id": "1-ZUsc6IC59_gmsl1yX-wYEbpMpuCNW85",
@@ -5768,7 +5863,7 @@
     {
       "curriculum_address": "6SW Wk1",
       "unit_folder": {
-        "title": "SW6 \u00b7 Wk1 Education",
+        "title": "SW6 · Wk1 Education",
         "id": "1p5W-X_H85uDogShL3C2pvu-_0axBomxJ"
       },
       "google_masters_folder_id": "1PcFRxW5GfImDpr2EJnyEJTppFN4cshjp",
@@ -5901,7 +5996,7 @@
     {
       "curriculum_address": "6SW Wk2",
       "unit_folder": {
-        "title": "SW6 \u00b7 Wk2 Graphic Design Resume",
+        "title": "SW6 · Wk2 Graphic Design Resume",
         "id": "1tcuWt_J1zsrf6SXWP4TLAmJrd5J5dcqX"
       },
       "google_masters_folder_id": "1iG50_dG6sb4dahnjpKsjipZUSs7vC6fA",
@@ -6034,7 +6129,7 @@
     {
       "curriculum_address": "6SW Wk3",
       "unit_folder": {
-        "title": "SW6 \u00b7 Wk3 Business Marketing",
+        "title": "SW6 · Wk3 Business Marketing",
         "id": "120kNAhpT6n_kIQI27_SFq-CBTwu-GtLG"
       },
       "google_masters_folder_id": "1qJNO4o7iJSwQN3si8c4PTEPLp6JuqoDM",
@@ -6167,7 +6262,7 @@
     {
       "curriculum_address": "6SW Wk4",
       "unit_folder": {
-        "title": "SW6 \u00b7 Wk4 Sales Presentations",
+        "title": "SW6 · Wk4 Sales Presentations",
         "id": "1CiKhLYTju-pkyflblvVSjwGS-sErzLca"
       },
       "google_masters_folder_id": "1s8DMZmeTo_niJMuEoMlp7PvSMCbrlXqZ",
@@ -6300,7 +6395,7 @@
     {
       "curriculum_address": "6SW Wk5",
       "unit_folder": {
-        "title": "SW6 \u00b7 Wk5 Job Skills Mock Interview",
+        "title": "SW6 · Wk5 Job Skills Mock Interview",
         "id": "1JSEwcFCgDQxSpTTckQGjNAfuGDKY2KyQ"
       },
       "google_masters_folder_id": "1cgB9XF33QMcxhlh1zdj6koCi_702UCoI",
@@ -6433,7 +6528,7 @@
     {
       "curriculum_address": "6SW Wk6",
       "unit_folder": {
-        "title": "SW6 \u00b7 Wk6 Capstone",
+        "title": "SW6 · Wk6 Capstone",
         "id": "1UyUeB_xAGxQmxKYL1r0GxswtqeZges3O"
       },
       "google_masters_folder_id": "1LeDi9d33FhSzL6873IX67LHZ6IVZENce",
@@ -6564,7 +6659,7 @@
       ]
     }
   ],
-  "expected_complete_release_references": 305,
-  "expected_complete_unique_sources": 302,
-  "complete_release_readback_date": "2026-08-17"
+  "expected_complete_release_references": 310,
+  "expected_complete_unique_sources": 307,
+  "complete_release_readback_date": null
 }

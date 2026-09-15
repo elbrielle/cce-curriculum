@@ -20,6 +20,8 @@
 
 ---
 
+**Teacher slides:** [Day 5 classroom deck (PDF; workbook page images omitted)](../../resources/slides/public/1sw-wk3-day5-public.pdf). The full deck with Google Slides and PowerPoint versions is on the Canvas facilitator guide.
+
 ## Activity 1: Grade 7 Xello Learning Style Quiz (20 min)
 
 **Source:** Bowie Grade 7 Xello Completion Standard, **Learning Style quiz**. Students saved three researched careers in Week 2 so the paired Grade 7 lesson can open today.

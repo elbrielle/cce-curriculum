@@ -20,6 +20,8 @@
 
 ---
 
+**Teacher slides:** [Day 1 classroom deck (PDF; workbook page images omitted)](../../resources/slides/public/1sw-wk3-day1-public.pdf). The full deck with Google Slides and PowerPoint versions is on the Canvas facilitator guide.
+
 ## Warm-Up (5 min)
 
 **WARM-UP: If the school Wi-Fi went down right now, whose job would it be to fix it? What do you think they would actually DO to fix it?**

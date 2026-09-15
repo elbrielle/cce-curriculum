@@ -7,7 +7,7 @@ const { C } = D;
 const CV = D.SRC.canvas("2026-09-15");
 const BLS = D.SRC.bls("Data Scientists", "https://www.bls.gov/ooh/math/data-scientists.htm", "2026-09-15");
 const GUIDE = "Emerging IT Career Evidence Guide (CCE-authored, build/worksheet_sources/wk3-emerging-careers-link-sheet.md; BLS OOH accessed 2026-08-09, May 2024 medians, 2024-34 projections).";
-const OUT = path.join(__dirname, "../../../docs/resources/slides", isPublic ? "public" : "", "1sw-wk3-day4.pptx");
+const OUT = path.join(__dirname, "../../../docs/resources/slides", isPublic ? "public/1sw-wk3-day4-public.pptx" : "1sw-wk3-day4.pptx");
 
 d.title("Emerging IT careers", "Research one with dated evidence.", "College and Career Exploration · Week 3 · Day 4",
   "Bring your Chromebook and your Major 1 packet. No workbook today.",

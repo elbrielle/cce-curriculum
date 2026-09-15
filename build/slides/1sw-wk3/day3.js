@@ -6,7 +6,7 @@ const d = D.deck({ public: isPublic, assetDir: path.join(__dirname, "assets") })
 const { C } = D;
 const FYF = D.SRC.fyf("30-33");
 const CV = D.SRC.canvas("2026-09-15");
-const OUT = path.join(__dirname, "../../../docs/resources/slides", isPublic ? "public" : "", "1sw-wk3-day3.pptx");
+const OUT = path.join(__dirname, "../../../docs/resources/slides", isPublic ? "public/1sw-wk3-day3-public.pptx" : "1sw-wk3-day3.pptx");
 
 d.title("From Wireframe to Wow", "Design an app before anyone writes code.", "College and Career Exploration · Week 3 · Day 3",
   "Bring your Find Your Future workbook (open to p. 30), a pencil, and your phone-sized imagination. No Chromebook today.",
